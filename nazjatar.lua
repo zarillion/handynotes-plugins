@@ -124,7 +124,7 @@ ns.included[MAPID] = function (node, profile)
     if node.type == RARE then return profile.rare_nazjatar end
     if node.type == SUPPLY_CHEST then return profile.supply_nazjatar end
     if node.type == CAVE then return profile.cave_nazjatar end
-    if node.icon == 'battle_pet' then return profile.pet_nazjatar end
+    if node.type == PET then return profile.pet_nazjatar end
     if node.id == 151782 or node.label == L["slimy_cocoon"] then
         return profile.slime_nazjatar;
     end
@@ -445,18 +445,18 @@ nodes[80493194] = {type=TREASURE, quest=56547, icon='starChestBlue', label=L["gl
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
-nodes[34702740] = {type=NPC, id=154910, icon='battle_pet', note=L["in_cave"]} -- Prince Wiggletail
-nodes[71905110] = {type=NPC, id=154911, icon='battle_pet'} -- Chomp
-nodes[58304810] = {type=NPC, id=154912, icon='battle_pet'} -- Silence
-nodes[42201400] = {type=NPC, id=154913, icon='battle_pet'} -- Shadowspike Lurker
-nodes[50605030] = {type=NPC, id=154914, icon='battle_pet', note=L["in_cave"]} -- Pearlhusk Crawler
-nodes[51307500] = {type=NPC, id=154915, icon='battle_pet'} -- Elderspawn of Nalaada
-nodes[29604970] = {type=NPC, id=154916, icon='battle_pet', note=L["in_cave"]} -- Ravenous Scalespawn
-nodes[56400810] = {type=NPC, id=154917, icon='battle_pet', note=L["in_cave"]} -- Mindshackle
-nodes[46602800] = {type=NPC, id=154918, icon='battle_pet', note=L["in_cave"]} -- Kelpstone
-nodes[37501670] = {type=NPC, id=154919, icon='battle_pet', note=L["in_cave"]} -- Voltgorger
-nodes[59102660] = {type=NPC, id=154920, icon='battle_pet', note=L["in_cave"]} -- Frenzied Knifefang
-nodes[28102670] = {type=NPC, id=154921, icon='battle_pet', note=L["in_cave"]} -- Giant Opaline Conch
+nodes[34702740] = {type=PET, id=154910, icon='battle_pet', note=L["in_cave"]} -- Prince Wiggletail
+nodes[71905110] = {type=PET, id=154911, icon='battle_pet'} -- Chomp
+nodes[58304810] = {type=PET, id=154912, icon='battle_pet'} -- Silence
+nodes[42201400] = {type=PET, id=154913, icon='battle_pet'} -- Shadowspike Lurker
+nodes[50605030] = {type=PET, id=154914, icon='battle_pet', note=L["in_cave"]} -- Pearlhusk Crawler
+nodes[51307500] = {type=PET, id=154915, icon='battle_pet'} -- Elderspawn of Nalaada
+nodes[29604970] = {type=PET, id=154916, icon='battle_pet', note=L["in_cave"]} -- Ravenous Scalespawn
+nodes[56400810] = {type=PET, id=154917, icon='battle_pet', note=L["in_cave"]} -- Mindshackle
+nodes[46602800] = {type=PET, id=154918, icon='battle_pet', note=L["in_cave"]} -- Kelpstone
+nodes[37501670] = {type=PET, id=154919, icon='battle_pet', note=L["in_cave"]} -- Voltgorger
+nodes[59102660] = {type=PET, id=154920, icon='battle_pet', note=L["in_cave"]} -- Frenzied Knifefang
+nodes[28102670] = {type=PET, id=154921, icon='battle_pet', note=L["in_cave"]} -- Giant Opaline Conch
 
 -------------------------------------------------------------------------------
 ------------------------------ WAR SUPPLY CHESTS ------------------------------

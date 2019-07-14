@@ -156,6 +156,9 @@ L["trinket"] = "Trinket";
 
 L["retrieving"] = "Retrieving item link ...";
 L["in_cave"] = "In a cave.";
+L["mount"] = "Mount";
+L["pet"] = "Pet";
+L["toy"] = "Toy";
 
 local GREEN = '(|cFF00FF00%s|r)';
 local RED = '(|cFFFF0000%s|r)';

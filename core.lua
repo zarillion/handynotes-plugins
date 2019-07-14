@@ -27,7 +27,6 @@ end
 -- Add area indicators on hover for zone rares
 -- Stick area indicators on click and highlight rare icon blue
 -- Add backdrop tooltip for Naz zone-wide rares
--- Setup/test TomTom integration
 -- Scale icons based on map size
 -- Add filtering for reward types (pets vs mounts vs transmog vs achievements)
 
@@ -121,14 +120,14 @@ local RENDERERS = {
 	[ns.types.MOUNT] = function (self, tooltip)
 		local collected = select(11, C_MountJournal.GetMountInfoByID(self.id));
 		local status = collected and L["(known)"] or L["(missing)"];
-		tooltip:AddDoubleLine(self.itemLink, status);
+		tooltip:AddDoubleLine(self.itemLink..' ('..L["mount"]..')', status);
 		tooltip:AddTexture(self.itemIcon or LOADING_ICON, {margin={right=2}});
 	end,
 	[ns.types.PET] = function (self, tooltip)
 		local n, m = C_PetJournal.GetNumCollectedInfo(self.id);
 		local color = (n > 0) and L["(green)"] or L["(red)"];
 		local status = string.format(color, n..'/'..m);
-		tooltip:AddDoubleLine(self.itemLink, status);
+		tooltip:AddDoubleLine(self.itemLink..' ('..L["pet"]..')', status);
 		tooltip:AddTexture(self.itemIcon or LOADING_ICON, {margin={right=2}});
 	end,
 	[ns.types.TITLE] = function (self, tooltip)
@@ -137,7 +136,7 @@ local RENDERERS = {
 	[ns.types.TOY] = function (self, tooltip)
 		local collected = PlayerHasToy(self.item);
 		local status = collected and L["(known)"] or L["(missing)"];
-		tooltip:AddDoubleLine(self.itemLink, status);
+		tooltip:AddDoubleLine(self.itemLink..' ('..L["toy"]..')', status);
 		tooltip:AddTexture(self.itemIcon or LOADING_ICON, {margin={right=2}});
 	end,
 	[ns.types.TRANSMOG] = function (self, tooltip)
@@ -193,7 +192,7 @@ function normalizeNodes ()
 			node.getLabel = function (self)
 				if self.label then
 					return self.label;
-				elseif self.type == ns.types.RARE or self.type == ns.types.NPC then
+				elseif self.id then
 					return GetCreatureNamebyID(self.id);
 				end
 				return '';
@@ -221,13 +220,12 @@ local function initializeDropdownMenu (button, level, mapID, coord)
 				text=L["context_menu_add_tomtom"], notCheckable=1,
 				func=function (button)
 					local x, y = HandyNotes:getXY(coord);
-
-					-- TomTom:AddWaypoint(14, x, y, {
-					-- 	title = node:getLabel(),
-					-- 	persistent = nil,
-					-- 	minimap = true,
-					-- 	world = true
-					-- });
+					TomTom:AddWaypoint(mapID, x, y, {
+						title = node:getLabel(),
+						persistent = nil,
+						minimap = true,
+						world = true
+					});
 				end
 			}, level);
 		end
@@ -326,44 +324,8 @@ function Addon:RegisterWithHandyNotes()
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
                 if node and self:IsNodeEnabled(node, mapID, coord, minimap) then
-                    local iconScale = 1;
-    				local iconAlpha = 1;
-    				local iconPath = ns.icons["default"];
-    				if (node.type == ns.types.RARE) then
-    					iconScale = self.db.profile.icon_scale_rares;
-    					iconAlpha = self.db.profile.icon_alpha_rares;
-                        iconPath = ns.icons["skullWhite"];
-                        if not node:done() and node.quest == nil then
-                            iconPath = ns.icons["skullBlueRedGlow"];
-    					elseif not node:done() then
-    						iconPath = ns.icons["skullBlue"];
-                        elseif (node.quest == nil) then
-                            iconPath = ns.icons["skullWhiteRedGlow"];
-                        end
-    				elseif (node.type == ns.types.TREASURE) then
-    					iconScale = self.db.profile.icon_scale_treasures;
-    					iconAlpha = self.db.profile.icon_alpha_treasures;
-                        iconPath = ns.icons["treasure"];
-					elseif (node.type == ns.types.SUPPLY_CHEST) then
-						iconScale = self.db.profile.icon_scale_treasures;
-    					iconAlpha = self.db.profile.icon_alpha_treasures;
-						iconPath = ns.icons["starChest"]
-    				elseif (node.type == ns.types.PET) then
-    					iconScale = self.db.profile.icon_scale_pets;
-    					iconAlpha = self.db.profile.icon_alpha_pets;
-                        iconPath = ns.icons["battle_pet"];
-    				elseif (node.type == ns.types.CAVE) then
-    					iconScale = self.db.profile.icon_scale_caves;
-    					iconAlpha = self.db.profile.icon_alpha_caves;
-                        iconPath = ns.icons["cave"];
-    				end
-                    if (node.icon) then
-                        iconPath = ns.icons[node.icon] or node.icon;
-                    end
-					if (iconPath.scale) then
-						iconScale = iconScale * iconPath.scale;
-					end
-                    return coord, nil, iconPath, iconScale, iconAlpha
+					local icon, scale, alpha = self:GetNodeIcon(node);
+                    return coord, nil, icon, scale, alpha;
                 end
                 coord, node = next(nodes, coord) -- Get next node
             end
@@ -433,4 +395,54 @@ function Addon:IsNodeEnabled(node, mapID, coord, minimap)
 	end
 
     return true
+end
+
+function Addon:GetNodeIcon(node)
+	local scale = 1;
+	local alpha = 1;
+	local icon = ns.icons["default"];
+
+	if node.type == ns.types.RARE then
+		scale = self.db.profile.icon_scale_rares;
+		alpha = self.db.profile.icon_alpha_rares;
+		icon = ns.icons["skullWhite"];
+		if not node:done() and node.quest == nil then
+			icon = ns.icons["skullBlueRedGlow"];
+		elseif not node:done() then
+			icon = ns.icons["skullBlue"];
+		elseif (node.quest == nil) then
+			icon = ns.icons["skullWhiteRedGlow"];
+		end
+	elseif node.type == ns.types.TREASURE then
+		scale = self.db.profile.icon_scale_treasures;
+		alpha = self.db.profile.icon_alpha_treasures;
+		icon = ns.icons["treasure"];
+	elseif node.type == ns.types.SUPPLY_CHEST then
+		scale = self.db.profile.icon_scale_treasures;
+		alpha = self.db.profile.icon_alpha_treasures;
+		icon = ns.icons["starChest"]
+	elseif node.type == ns.types.PET then
+		scale = self.db.profile.icon_scale_pets;
+		alpha = self.db.profile.icon_alpha_pets;
+		icon = ns.icons["battle_pet"];
+	elseif node.type == ns.types.CAVE then
+		scale = self.db.profile.icon_scale_caves;
+		alpha = self.db.profile.icon_alpha_caves;
+		icon = ns.icons["cave"];
+	else
+		scale = self.db.profile.icon_scale_other;
+		alpha = self.db.profile.icon_alpha_other;
+	end
+
+	-- allow nodes to override their icon
+	if node.icon then
+		icon = ns.icons[node.icon] or node.icon;
+	end
+
+	-- allow icons to override their scale
+	if icon.scale then
+		scale = scale * icon.scale;
+	end
+
+	return icon, scale, alpha
 end

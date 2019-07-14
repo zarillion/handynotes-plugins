@@ -22,12 +22,11 @@ local _, ns = ...
 local L = ns.locale;
 local ACHIEVE = ns.types.ACHIEVE;
 local ITEM = ns.types.ITEM;
-local MISC = ns.types.MISC;
 local MOUNT = ns.types.MOUNT;
-local NPC = ns.types.NPC;
 local PET = ns.types.PET;
 local RARE = ns.types.RARE;
 local TRANSMOG = ns.types.TRANSMOG;
+local TREASURE = ns.types.TREASURE;
 local TOY = ns.types.TOY;
 
 local MAPID = 1462;
@@ -78,9 +77,9 @@ options.petMechagon = {
 };
 
 ns.included[MAPID] = function (node, profile)
-    if node.type == MISC then return profile.treasure_mech end
+    if node.type == TREASURE then return profile.treasure_mech end
     if node.type == RARE then return profile.rare_mech end
-    if node.type == NPC then return profile.pet_mech end
+    if node.type == PET then return profile.pet_mech end
     return false;
 end;
 
@@ -293,25 +292,25 @@ nodes[53824933] = {type=RARE, id=150394, quest=55546, note=L["vaultbot_note"], r
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
-nodes[64706460] = {type=NPC, id=154922, icon='battle_pet'} -- Gnomefeaster
-nodes[60704650] = {type=NPC, id=154923, icon='battle_pet'} -- Sputtertude
-nodes[60605690] = {type=NPC, id=154924, icon='battle_pet'} -- Goldenbot XD
-nodes[59205090] = {type=NPC, id=154925, icon='battle_pet'} -- Creakclank
-nodes[65405770] = {type=NPC, id=154926, icon='battle_pet'} -- CK-9 Micro-Oppression Unit
-nodes[51104540] = {type=NPC, id=154927, icon='battle_pet'} -- Unit 35
-nodes[39504010] = {type=NPC, id=154928, icon='battle_pet'} -- Unit 6
-nodes[72107290] = {type=NPC, id=154929, icon='battle_pet'} -- Unit 17
+nodes[64706460] = {type=PET, id=154922, icon='battle_pet'} -- Gnomefeaster
+nodes[60704650] = {type=PET, id=154923, icon='battle_pet'} -- Sputtertude
+nodes[60605690] = {type=PET, id=154924, icon='battle_pet'} -- Goldenbot XD
+nodes[59205090] = {type=PET, id=154925, icon='battle_pet'} -- Creakclank
+nodes[65405770] = {type=PET, id=154926, icon='battle_pet'} -- CK-9 Micro-Oppression Unit
+nodes[51104540] = {type=PET, id=154927, icon='battle_pet'} -- Unit 35
+nodes[39504010] = {type=PET, id=154928, icon='battle_pet'} -- Unit 6
+nodes[72107290] = {type=PET, id=154929, icon='battle_pet'} -- Unit 17
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
 -- Recently it looks like these are in fixed spawns compared to when 8.2 hit
-nodes[23195699] = {type=MISC, icon='treasure', label=L["iron_chest"], note=L["iron_chest_note"]};
-nodes[13228581] = {type=MISC, icon='treasure', label=L["iron_chest"], note=L["iron_chest_note"]};
-nodes[19018086] = {type=MISC, icon='treasure', label=L["iron_chest"], note=L["iron_chest_note"]};
-nodes[20537120] = {type=MISC, icon='treasure', label=L["mech_chest"], note=L["mech_chest_note"]};
-nodes[18357618] = {type=MISC, icon='treasure', label=L["rust_chest"], note=L["rust_chest_note"]};
-nodes[25267825] = {type=MISC, icon='treasure', label=L["rust_chest"], note=L["rust_chest_note"]};
+nodes[23195699] = {type=TREASURE, label=L["iron_chest"], note=L["iron_chest_note"]};
+nodes[13228581] = {type=TREASURE, label=L["iron_chest"], note=L["iron_chest_note"]};
+nodes[19018086] = {type=TREASURE, label=L["iron_chest"], note=L["iron_chest_note"]};
+nodes[20537120] = {type=TREASURE, label=L["mech_chest"], note=L["mech_chest_note"]};
+nodes[18357618] = {type=TREASURE, label=L["rust_chest"], note=L["rust_chest_note"]};
+nodes[25267825] = {type=TREASURE, label=L["rust_chest"], note=L["rust_chest_note"]};
 
 ns.nodes[MAPID] = nodes;
