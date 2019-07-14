@@ -31,6 +31,9 @@ local RARE = ns.types.RARE;
 local SUPPLY_CHEST = ns.types.SUPPLY_CHEST;
 local TOY = ns.types.TOY;
 local TREASURE = ns.types.TREASURE;
+
+local MAPID = 1355;
+
 local nodes = {};
 local options = ns.options.args.VisibilityGroup.args;
 local defaults = ns.optionDefaults.profile;
@@ -42,8 +45,10 @@ local defaults = ns.optionDefaults.profile;
 defaults['treasure_nazjatar'] = true;
 defaults['rare_nazjatar'] = true;
 defaults['pet_nazjatar'] = true;
-defaults['npc_nazjatar'] = true;
+defaults['supply_nazjatar'] = true;
+defaults['slime_nazjatar'] = true;
 defaults['cave_nazjatar'] = true;
+defaults['misc_nazjatar'] = true;
 
 options.groupNazjatar = {
     type = "header",
@@ -55,7 +60,17 @@ options.treasureNazjatar = {
     type = "toggle",
     arg = "treasure_nazjatar",
     name = L["options_toggle_treasures"],
+    desc = L["options_toggle_treasures_nazj"],
     order = 11,
+    width = "normal",
+};
+
+options.supplyNazjatar = {
+    type = "toggle",
+    arg = "supply_nazjatar",
+    name = L["options_toggle_supplies"],
+    desc = L["options_toggle_supplies_desc"],
+    order = 12,
     width = "normal",
 };
 
@@ -63,7 +78,8 @@ options.rareNazjatar = {
     type = "toggle",
     arg = "rare_nazjatar",
     name = L["options_toggle_rares"],
-    order = 12,
+    desc = L["options_toggle_rares_desc"],
+    order = 13,
     width = "normal",
 };
 
@@ -71,14 +87,16 @@ options.petNazjatar = {
     type = "toggle",
     arg = "pet_nazjatar",
     name = L["options_toggle_battle_pets"],
-    order = 13,
+    desc = L["options_toggle_battle_pets_desc"],
+    order = 14,
     width = "normal",
 };
 
-options.npcNazjatar = {
+options.slimesNazjatar = {
     type = "toggle",
-    arg = "npc_nazjatar",
-    name = L["options_toggle_npcs"],
+    arg = "slime_nazjatar",
+    name = L["options_toggle_slimes_nazj"],
+    desc = L["options_toggle_slimes_nazj_desc"],
     order = 15,
     width = "normal",
 };
@@ -87,9 +105,34 @@ options.caveNazjatar = {
     type = "toggle",
     arg = "cave_nazjatar",
     name = L["options_toggle_caves"],
+    desc = L["options_toggle_caves_desc"],
     order = 16,
     width = "normal",
 };
+
+options.miscNazjatar = {
+    type = "toggle",
+    arg = "misc_nazjatar",
+    name = L["options_toggle_misc"],
+    desc = L["options_toggle_misc_nazj"],
+    order = 17,
+    width = "normal",
+};
+
+ns.included[MAPID] = function (node, profile)
+    if node.type == TREASURE then return profile.treasure_nazjatar end
+    if node.type == RARE then return profile.rare_nazjatar end
+    if node.type == SUPPLY_CHEST then return profile.supply_nazjatar end
+    if node.type == CAVE then return profile.cave_nazjatar end
+    if node.icon == 'battle_pet' then return profile.pet_nazjatar end
+    if node.id == 151782 or node.label == L["slimy_cocoon"] then
+        return profile.slime_nazjatar;
+    end
+    if node.label == L["mardivas_lab"] or node.label == L["murloco"] then
+        return profile.misc_nazjatar;
+    end
+    return false;
+end;
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -442,4 +485,4 @@ nodes[60683221] = {type=MISC, icon='portal', label=L["mardivas_lab"], rewards={
 local MURLOCO_ICON = { icon='Interface\\Icons\\inv_pet_diablobabymurloc.blp', scale=1 }
 nodes[45993245] = {type=MISC, icon=MURLOCO_ICON, label=L["murloco"], note=L["tentacle_taco"]}
 
-ns.nodes[1355] = nodes;
+ns.nodes[MAPID] = nodes;

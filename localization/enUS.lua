@@ -31,6 +31,8 @@ L["iron_chest_note"] = "Open with an Irontide Lockbox Key dropped from mobs in t
 L["mech_chest_note"] = "Open with a Mechanized Supply Key dropped from mobs in the Western Spray.";
 L["rust_chest_note"] = "Open with an Old Rusty Key dropped from mobs in the Western Spray.";
 
+L["options_toggle_treasures_mech"] = "Display locations of locked chests in the Wester Spray."
+
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
 -------------------------------------------------------------------------------
@@ -103,6 +105,11 @@ L["mardivas_lab"] = "Mardivas's Laboratory";
 L["murloco"] = "Murloco";
 L["tentacle_taco"] = "Sells "..ITEM_QUALITY_COLORS[4].hex.."[Hungry Herald's Tentacle Taco]|r if you are wearing the Benthic Azsh'ari Stormsurger Cape.";
 
+L["options_toggle_treasures_nazj"] = "Display locations of chests for the Trove Tracker achievement."
+L["options_toggle_slimes_nazj"] = "Ravenous Slimes"
+L["options_toggle_slimes_nazj_desc"] = "Display locations of the four Ravenous Slimes that produce pets once fed."
+L["options_toggle_misc_nazj"] = "Display the location of Murloco's cave and Mardivas's Laboratory."
+
 -------------------------------------------------------------------------------
 ------------------------------------ CAVES ------------------------------------
 -------------------------------------------------------------------------------
@@ -147,19 +154,18 @@ L["trinket"] = "Trinket";
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
-L["completed"] = "Completed";
-L["incomplete"] = "Incomplete";
+L["retrieving"] = "Retrieving item link ...";
 L["in_cave"] = "In a cave.";
-L["Pet"] = "Pet";
-L["(Mount known)"] = "(|cFF00FF00Mount known|r)";
-L["(Mount missing)"] = "(|cFFFF0000Mount missing|r)";
-L["(Toy known)"] = "(|cFF00FF00Toy known|r)";
-L["(Toy missing)"] = " (|cFFFF0000Toy missing|r)";
-L["(Item looted)"] = "(|cFF00FF00Item looted|r)";
-L["(Item missing)"] = " (|cFFFF0000Item not yet looted|r)";
-L["(itemLinkGreen)"] = "(|cFF00FF00%s|r)";
-L["(itemLinkRed)"] = "(|cFFFF0000%s|r)";
-L["Retrieving data ..."] = "Retrieving data ...";
+
+local GREEN = '(|cFF00FF00%s|r)';
+local RED = '(|cFFFF0000%s|r)';
+
+L["(green)"] = GREEN;
+L["(red)"] = RED;
+L["(completed)"] = string.format(GREEN, "Completed");
+L["(incomplete)"] = string.format(RED, "Incomplete");
+L["(known)"] = string.format(GREEN, "Known");
+L["(missing)"] = string.format(RED, "Missing");
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -177,14 +183,16 @@ L["context_menu_restore_hidden_nodes"] = "Restore all hidden nodes";
 L["options_title"] = "Mechagon & Nazjatar";
 L["options_icon_settings"] = "Icon Settings";
 L["options_icon_settings_desc"] = "Icon Settings";
-L["options_icons_treasures"] = "Treasure Chest Icons";
-L["options_icons_treasures_desc"] = "Treasure Chest Icons";
-L["options_icons_rares"] = "Rares Icons";
-L["options_icons_rares_desc"] = "Rares Icons";
+L["options_icons_treasures"] = "Treasure Icons";
+L["options_icons_treasures_desc"] = "Treasure Icons";
+L["options_icons_rares"] = "Rare Icons";
+L["options_icons_rares_desc"] = "Rare Icons";
 L["options_icons_caves"] = "Cave Icons";
 L["options_icons_caves_desc"] = "Cave Icons";
 L["options_icons_pet_battles"] = "Pet Battle Icons";
 L["options_icons_pet_battles_desc"] = "Pet Battle Icons";
+L["options_icons_other"] = "Other Icons";
+L["options_icons_other_desc"] = "Other Icons";
 L["options_scale"] = "Scale";
 L["options_scale_desc"] = "1 = 100%";
 L["options_opacity"] = "Opacity";
@@ -192,9 +200,14 @@ L["options_opacity_desc"] = "0 = transparent, 1 = opaque";
 L["options_visibility_settings"] = "Visibility";
 L["options_visibility_settings_desc"] = "Visibility";
 L["options_toggle_treasures"] = "Treasures";
+L["options_toggle_supplies"] = "War Supply Drops";
+L["options_toggle_supplies_desc"] = "Display all possible locations for war supply crates.";
 L["options_toggle_rares"] = "Rares";
+L["options_toggle_rares_desc"] = "Display locations of rare NPCs.";
 L["options_toggle_battle_pets"] = "Battle Pets";
+L["options_toggle_battle_pets_desc"] = "Display locations of battle pet trainers and NPCs.";
 L["options_toggle_npcs"] = "NPCs";
+L["options_toggle_misc"] = "Miscellaneous";
 L["options_general_settings"] = "General";
 L["options_general_settings_desc"] = "General";
 L["options_toggle_alreadylooted_rares"] = "Always show all rares";
@@ -208,6 +221,7 @@ L["options_toggle_show_loot_desc"] = "Add loot information to the tooltip";
 L["options_toggle_show_notes"] = "Show Notes";
 L["options_toggle_show_notes_desc"] = "Add helpful notes to the tooltip where available";
 L["options_toggle_caves"] = "Caves";
+L["options_toggle_caves_desc"] = "Display cave entrances for other nodes.";
 L["options_general_settings"] = "General";
 L["options_general_settings_desc"] = "General settings";
 L["options_toggle_show_debug"] = "Debug";
