@@ -385,13 +385,13 @@ nodes[71722569] = {type=NPC, id=151782, icon=SLIME_ICON, quest={55428,55471},
     note=L["ravenous_slime_note"], rewards=SLIME_PETS};
 
 -- once the second quest is true, the eggs should be displayed
-nodes[32773951] = {type=MISC, icon=EGG_ICON, quest=55478, requires=55473,
+nodes[32773952] = {type=MISC, icon=EGG_ICON, quest=55478, requires=55473,
     label=L["slimy_cocoon"], note=L["slimy_cocoon_note"], rewards=SLIME_PETS};
-nodes[45692409] = {type=MISC, icon=EGG_ICON, quest=55477, requires=55472,
+nodes[45692410] = {type=MISC, icon=EGG_ICON, quest=55477, requires=55472,
     label=L["slimy_cocoon"], note=L["slimy_cocoon_note"], rewards=SLIME_PETS};
-nodes[54894868] = {type=MISC, icon=EGG_ICON, quest=55475, requires=55470,
+nodes[54894869] = {type=MISC, icon=EGG_ICON, quest=55475, requires=55470,
     label=L["slimy_cocoon"], note=L["slimy_cocoon_note"], rewards=SLIME_PETS};
-nodes[71722569] = {type=MISC, icon=EGG_ICON, quest=55476, requires=55471,
+nodes[71722570] = {type=MISC, icon=EGG_ICON, quest=55476, requires=55471,
     label=L["slimy_cocoon"], note=L["slimy_cocoon_note"], rewards=SLIME_PETS};
 
 ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)
