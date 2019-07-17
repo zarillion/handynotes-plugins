@@ -400,8 +400,8 @@ ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)
     local _, source, _, spellID = ...
     if (source == 'player' and spellID == 293775) then
         C_Timer.After(2, function()
-			ns.addon:Refresh();
-		end);
+            ns.addon:Refresh();
+        end);
     end
 end)
 
