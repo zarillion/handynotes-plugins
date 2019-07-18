@@ -42,10 +42,20 @@ end
 
 local _ttn = ADDON_NAME.."_npcToolTip";
 local _tt = CreateFrame("GameTooltip", _ttn, UIParent, "GameTooltipTemplate");
+local _npc_names = {};
 local function GetCreatureNamebyID(id)
-    _tt:SetOwner(UIParent, "ANCHOR_NONE");
-    _tt:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id));
-    return _G[_ttn.."TextLeft1"]:GetText();
+    local name = _npc_names[id];
+    if not name then
+        _tt:SetOwner(UIParent, "ANCHOR_NONE");
+        _tt:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id));
+        name = _G[_ttn.."TextLeft1"]:GetText();
+        if name and name ~= '' then
+            _npc_names[id] = name;
+        else
+            name = UNKNOWN;
+        end
+    end
+    return name;
 end
 
 local VERIFIERS = {
