@@ -210,7 +210,8 @@ nodes[56243595] = {type=RARE, id=153206, quest=55853, note=L["drill_rig"]..'(DR-
 }}; -- Ol' Big Tusk
 
 nodes[57063944] = {type=RARE, id=151296, quest=55515, note=L["avenger_note"], rewards={
-    {type=ACHIEVE, id=13470, criteria=45129} -- Kill
+    {type=ACHIEVE, id=13470, criteria=45129}, -- Kill
+    {type=ITEM, item=168492, quest=55071} -- Blueprint: Emergency Rocket Chicken
 }}; -- OOX-Avenger/MG
 
 nodes[56636287] = {type=RARE, id=152764, quest=55856, note=L["leachbeast_note"], rewards={
