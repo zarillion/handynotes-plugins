@@ -286,7 +286,8 @@ nodes[57062218] = {type=RARE, id=151940, quest=55538, note=L["cave_spawn"], rewa
 nodes[53824933] = {type=RARE, id=150394, quest=55546, note=L["vaultbot_note"], rewards={
     {type=ACHIEVE, id=13470, criteria=45158}, -- Kill
     {type=ITEM, item=167843, quest=55058}, -- Blueprint: Vaultbot Key
-    {type=ITEM, item=167796, quest=55455} -- Paint Vial: Mechagon Gold
+    {type=ITEM, item=167796, quest=55455}, -- Paint Vial: Mechagon Gold
+    {type=PET, id=2766, item=170072} -- Armored Vaultbot
 }}; -- Armored Vaultbot
 
 -------------------------------------------------------------------------------
