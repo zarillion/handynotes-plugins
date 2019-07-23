@@ -476,7 +476,7 @@ nodes[76873699] = {type=SUPPLY_CHEST, label=L["supply_chest"], rewards={ASSASSIN
 -------------------------------------------------------------------------------
 
 --  Burning Amalg 55145 56481 56725 56891 56892
-nodes[60683221] = {type=MISC, icon='portal', label=L["mardivas_lab"], rewards={
+nodes[60683221] = {type=MISC, quest=55121, icon='portal', label=L["mardivas_lab"], rewards={
     {type=ACHIEVE, id=13699, criteria={ -- Periodic Destruction
         45678,45679,45680,45681,45682,45683,45684,45685,45686,45687,45688,45689,45690
     }}
