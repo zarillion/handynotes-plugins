@@ -82,22 +82,18 @@ local VERIFIERS = {
         return PlayerHasToy(self.item);
     end,
     [ns.types.TRANSMOG] = function (self)
-        if self.itemIcon and select(2, IsAddOnLoaded('CanIMogIt')) then
-            local l = self.itemLink;
-            if CanIMogIt:PlayerKnowsTransmog(l) then return true end
-            if not CanIMogIt:CharacterCanLearnTransmog(l) then return true end
-            return false;
-        end
-        return true; -- CanIMogIt not available
+        if C_TransmogCollection.PlayerHasTransmog(self.item) then return true end
+        local sourceID = select(2, C_TransmogCollection.GetItemInfo(self.item))
+        if not select(2, C_TransmogCollection.PlayerCanCollectSource(sourceID)) then return true end
+        return false
     end
 };
 
-local CRITERIA_ICON = 'Interface\\AchievementFrame\\UI-Achievement-Criteria-Check';
 local LOADING_ICON = 'Interface\\Icons\\Inv_misc_questionmark';
 
 local RENDERERS = {
     [0] = function (self, tooltip)
-        tooltip:AddLine('Unknown reward type: '..self.type);
+        tooltip:AddLine('Unknown reward type: '..(self.type or 'nil'));
     end,
     [ns.types.ACHIEVE] = function (self, tooltip)
         local _,name,_,completed,_,_,_,_,_,icon = GetAchievementInfo(self.id);
@@ -108,9 +104,10 @@ local RENDERERS = {
             if (cname == '') then cname = qty..'/'..reqQty end
 
             local r, g, b = .6, .6, .6;
-            local ctext = cname..(self.suffix or '')
+            local ctext = cname..(c.suffix or '')
             if (completed or ccomp) then
                 r, g, b = 0, 1, 0;
+                ctext = "   • "..ctext
             else
                 ctext = "   - "..ctext
             end
@@ -119,12 +116,6 @@ local RENDERERS = {
                 tooltip:AddDoubleLine(ctext, c.note, r, g, b);
             else
                 tooltip:AddLine(ctext, r, g, b);
-            end
-
-            if (completed or ccomp) then
-                tooltip:AddTexture(CRITERIA_ICON, {
-                    width=20, height=16, margin={left=10, right=-7}
-                });
             end
         end
     end,
@@ -160,13 +151,22 @@ local RENDERERS = {
         tooltip:AddTexture(self.itemIcon or LOADING_ICON, {margin={right=2}});
     end,
     [ns.types.TRANSMOG] = function (self, tooltip)
-        -- TODO: display slot?
-        local status = '';
-        if self.itemIcon and select(2, IsAddOnLoaded('CanIMogIt')) then
-            local collected = CanIMogIt:PlayerKnowsTransmog(self.itemLink);
-            status = collected and L["(known)"] or L["(missing)"];
+        local collected = C_TransmogCollection.PlayerHasTransmog(self.item)
+        local status = collected and L["(known)"] or L["(missing)"];
+        if not collected then
+            -- check if we can't learn this item
+            local sourceID = select(2, C_TransmogCollection.GetItemInfo(self.item))
+            if not select(2, C_TransmogCollection.PlayerCanCollectSource(sourceID)) then
+                status = L["(unlearnable)"];
+            end
         end
-        tooltip:AddDoubleLine(self.itemLink..' ('..L[self.slot]..')', status);
+
+        local suffix = ' ('..L[self.slot]..')';
+        if self.note and Addon.db.profile.show_notes then
+            suffix = suffix..' ('..self.note..')'
+        end
+
+        tooltip:AddDoubleLine(self.itemLink..suffix, status);
         tooltip:AddTexture(self.itemIcon or LOADING_ICON, {margin={right=2}});
     end
 };
@@ -310,11 +310,16 @@ function Addon:OnEnter(mapID, coord)
     end
 
     if Addon.db.profile.show_loot then
+        local firstAchieve, firstOther = true, true
         for i, reward in ipairs(node.rewards or {}) do
-            if i == 1 then
-                -- add a blank line between the label/note and the rewards
-                tooltip:AddLine(" ");
+            if reward.type == ns.types.ACHIEVE and firstAchieve then
+                tooltip:AddLine(" ")
+                firstAchieve = false
+            elseif reward.type ~= ns.types.ACHIEVE and firstOther then
+                tooltip:AddLine(" ")
+                firstOther = false
             end
+
             reward:render(tooltip);
         end
     end
