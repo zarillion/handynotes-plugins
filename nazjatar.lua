@@ -47,6 +47,7 @@ defaults['rare_nazjatar'] = true;
 defaults['pet_nazjatar'] = true;
 defaults['supply_nazjatar'] = true;
 defaults['slime_nazjatar'] = true;
+defaults['cats_nazjatar'] = true;
 defaults['cave_nazjatar'] = true;
 defaults['misc_nazjatar'] = true;
 
@@ -101,12 +102,21 @@ options.slimesNazjatar = {
     width = "normal",
 };
 
+options.catsNazjatar = {
+    type = "toggle",
+    arg = "cats_nazjatar",
+    name = L["options_toggle_cats_nazj"],
+    desc = L["options_toggle_cats_nazj_desc"],
+    order = 16,
+    width = "normal",
+};
+
 options.caveNazjatar = {
     type = "toggle",
     arg = "cave_nazjatar",
     name = L["options_toggle_caves"],
     desc = L["options_toggle_caves_desc"],
-    order = 16,
+    order = 17,
     width = "normal",
 };
 
@@ -115,7 +125,7 @@ options.miscNazjatar = {
     arg = "misc_nazjatar",
     name = L["options_toggle_misc"],
     desc = L["options_toggle_misc_nazj"],
-    order = 17,
+    order = 18,
     width = "normal",
 };
 
@@ -126,12 +136,15 @@ ns.included[MAPID] = function (node, profile)
     if node.type == CAVE then return profile.cave_nazjatar end
     if node.type == PET then return profile.pet_nazjatar end
     if node.id == 151782 or node.label == L["slimy_cocoon"] then
-        return profile.slime_nazjatar;
+        return profile.slime_nazjatar
+    end
+    if node.label == L["cat_figurine"] then
+        return profile.cats_nazjatar
     end
     if node.label == L["mardivas_lab"] or node.label == L["murloco"] then
-        return profile.misc_nazjatar;
+        return profile.misc_nazjatar
     end
-    return false;
+    return false
 end;
 
 -------------------------------------------------------------------------------
@@ -399,7 +412,7 @@ ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)
     -- https://www.wowhead.com/spell=293775/schleimphage-feeding-tracker
     local _, source, _, spellID = ...
     if (source == 'player' and spellID == 293775) then
-        C_Timer.After(2, function()
+        C_Timer.After(1, function()
             ns.addon:Refresh();
         end);
     end
@@ -440,6 +453,33 @@ nodes[61402290] = {type=TREASURE, quest=55958, icon='starChestBlue', label=L["gl
 nodes[64102860] = {type=TREASURE, quest=55962, icon='starChestBlue', label=L["glowing_chest"], note=L["glowing_chest_6"]}
 nodes[37201920] = {type=TREASURE, quest=55960, icon='starChestBlue', label=L["glowing_chest"], note=L["glowing_chest_7"]}
 nodes[80493194] = {type=TREASURE, quest=56547, icon='starChestBlue', label=L["glowing_chest"], note=L["glowing_chest_8"]}
+
+-------------------------------------------------------------------------------
+-------------------------------- CAT FIGURINES --------------------------------
+-------------------------------------------------------------------------------
+
+local CAT_ICON = 'Interface\\Icons\\trade_archaeology_catstatueemeraldeyes.blp'
+
+nodes[28752910] = {type=MISC, quest=56983, icon=CAT_ICON, label=L["cat_figurine"], note=L["cat_figurine_01"]}
+nodes[71342369] = {type=MISC, quest=56988, icon=CAT_ICON, label=L["cat_figurine"], note=L["cat_figurine_02"]}
+nodes[73582587] = {type=MISC, quest=56992, icon=CAT_ICON, label=L["cat_figurine"], note=L["cat_figurine_03"]}
+nodes[58212198] = {type=MISC, quest=56990, icon=CAT_ICON, label=L["cat_figurine"], note=L["cat_figurine_04"]}
+nodes[61092681] = {type=MISC, quest=56984, icon=CAT_ICON, label=L["cat_figurine"], note=L["cat_figurine_05"]}
+nodes[40168615] = {type=MISC, quest=56987, icon=CAT_ICON, label=L["cat_figurine"], note=L["cat_figurine_06"]}
+nodes[59093053] = {type=MISC, quest=56985, icon=CAT_ICON, label=L["cat_figurine"], note=L["cat_figurine_07"]}
+nodes[55362715] = {type=MISC, quest=56986, icon=CAT_ICON, label=L["cat_figurine"], note=L["cat_figurine_08"]}
+nodes[61641079] = {type=MISC, quest=56991, icon=CAT_ICON, label=L["cat_figurine"], note=L["cat_figurine_09"]}
+nodes[38004925] = {type=MISC, quest=56989, icon=CAT_ICON, label=L["cat_figurine"], note=L["cat_figurine_10"]}
+
+ns.addon:RegisterEvent('CRITERIA_EARNED', function (...)
+    -- Watch for criteria events that signal the figurine was clicked
+    local _, achievement = ...
+    if achievement == 13836 then
+        C_Timer.After(1, function()
+            ns.addon:Refresh();
+        end);
+    end
+end)
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

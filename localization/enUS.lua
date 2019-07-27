@@ -101,6 +101,18 @@ L["slimy_cocoon"] = "Slimy Cocoon";
 L["ravenous_slime_note"] = "Feed the slime a critter using a Prismatic Crystal. Repeat five days until it spawns an egg with a pet inside. The slime will stay gone until the next weekly reset.";
 L["slimy_cocoon_note"] = "A pet is ready to be collected from the cocoon! If it does not appear for you, the egg in on cooldown in your phase. Change phases or check back later.";
 
+L["cat_figurine"] = "Crystalline Cat Figurine"
+L["cat_figurine_01"] = "In an underwater cave. Figurine is on the floor in the open. Entrance to the east."
+L["cat_figurine_02"] = "In a cave under the nearby waterfall. Figurine is under a starfish on the wall."
+L["cat_figurine_03"] = "In an underwater cave. Figurine is hidden under some broken shells."
+L["cat_figurine_04"] = "In an underwater cave. Figurine is on the floor in the open."
+L["cat_figurine_05"] = "In a small cave. Figurine is hidden behind plant on the floor."
+L["cat_figurine_06"] = "In an underwater cave filled with hostile Reefwalkers. Figurine is up on the wall. Entrance to the north."
+L["cat_figurine_07"] = "In a small cave. Figurine is on the wall in some coral."
+L["cat_figurine_08"] = "In a small cave. Dodge the arcane circles. Figurine is on a tall rock in the back."
+L["cat_figurine_09"] = "In an underwater cave. Figurine is on the rock archway by the ceiling."
+L["cat_figurine_10"] = "In a cave just below the path. Figurine is between three barrels."
+
 L["mardivas_lab"] = "Mardivas's Laboratory";
 L["murloco"] = "Murloco";
 L["tentacle_taco"] = "Sells "..ITEM_QUALITY_COLORS[4].hex.."[Hungry Herald's Tentacle Taco]|r if you are wearing the Benthic Azsh'ari Stormsurger Cape.";
@@ -108,6 +120,8 @@ L["tentacle_taco"] = "Sells "..ITEM_QUALITY_COLORS[4].hex.."[Hungry Herald's Ten
 L["options_toggle_treasures_nazj"] = "Display locations of chests for the Trove Tracker achievement."
 L["options_toggle_slimes_nazj"] = "Ravenous Slimes"
 L["options_toggle_slimes_nazj_desc"] = "Display locations of the four Ravenous Slimes that produce pets once fed."
+L["options_toggle_cats_nazj"] = "Cat Figurines"
+L["options_toggle_cats_nazj_desc"] = "Display locations of the crystalline cat figurines for the Feline Figurines Found achievement."
 L["options_toggle_misc_nazj"] = "Display the location of Murloco's cave and Mardivas's Laboratory."
 
 -------------------------------------------------------------------------------
