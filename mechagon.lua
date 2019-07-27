@@ -138,9 +138,9 @@ nodes[55075684] = {type=RARE, id=154153, quest=56207, note=nil, rewards={
     {type=ACHIEVE, id=13470, criteria=45373}, -- Kill
     {type=ITEM, item=169174, quest=55082}, -- Blueprint: Rustbolt Pocket Turret
     {type=TRANSMOG, item=170466, slot=L["staff"]}, -- Junkyard Motivator
-    {type=TRANSMOG, item=170470, slot=L["shield"]}, -- Reinforced Grease Deflector
     {type=TRANSMOG, item=170467, slot=L["1h_sword"]}, -- Whirring Chainblade
-    {type=TRANSMOG, item=170468, slot=L["gun"]} -- Supervolt Zapper
+    {type=TRANSMOG, item=170468, slot=L["gun"]}, -- Supervolt Zapper
+    {type=TRANSMOG, item=170470, slot=L["shield"]} -- Reinforced Grease Deflector
 }}; -- Enforcer KX-T57
 
 nodes[65515167] = {type=RARE, id=151202, quest=55513, note=L["foul_manifest_note"], rewards={

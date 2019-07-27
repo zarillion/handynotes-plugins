@@ -31,6 +31,7 @@ local RARE = ns.types.RARE;
 local SUPPLY_CHEST = ns.types.SUPPLY_CHEST;
 local TOY = ns.types.TOY;
 local TREASURE = ns.types.TREASURE;
+local TRANSMOG = ns.types.TRANSMOG;
 
 local MAPID = 1355;
 
@@ -502,7 +503,7 @@ nodes[28102670] = {type=PET, id=154921, icon='battle_pet', note=L["in_cave"]} --
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
-local ASSASSIN_ACHIEVE = {type=ACHIEVE, id=13720, criteria=45790, suffix=L["assassin_looted"]};
+local ASSASSIN_ACHIEVE = {type=ACHIEVE, id=13720, criteria={id=45790, suffix=L["assassin_looted"]}};
 
 nodes[47864647] = {type=SUPPLY_CHEST, label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}; -- north basin
 nodes[47285170] = {type=SUPPLY_CHEST, label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}; -- south basin
@@ -517,20 +518,32 @@ nodes[76873699] = {type=SUPPLY_CHEST, label=L["supply_chest"], rewards={ASSASSIN
 
 nodes[60683221] = {type=MISC, quest=55121, icon='portal', label=L["mardivas_lab"], rewards={
     {type=ACHIEVE, id=13699, criteria={ -- Periodic Destruction
-        {id=45678, note=L["no_reagent"]}, -- Arcane Amalgamation
-        {id=45679, note=L["water"]}, -- Watery Amalgamation
-        {id=45680, note=L["fire"]}, -- Burning Amalgamation
-        {id=45681, note=L["sand"]}, -- Dusty Amalgamation
-        {id=45682, note=L["water"].." + "..L["sand"]}, -- Zomera
-        {id=45683, note=L["water"].." + "..L["fire"]}, -- Omus
-        {id=45684, note=L["water"].." + "..L["water"]}, -- Osgen
-        {id=45685, note=L["fire"].." + "..L["sand"]}, -- Moghiea
-        {id=45686, note=L["fire"].." + "..L["water"]}, -- Xue
-        {id=45687, note=L["fire"].." + "..L["fire"]}, -- Ungormath
-        {id=45688, note=L["sand"].." + "..L["water"]}, -- Spawn of Salgos
-        {id=45689, note=L["sand"].." + "..L["sand"]}, -- Herald of Salgos
-        {id=45690, note=L["sand"].." + "..L["fire"]} -- Salgos the Eternal
-    }}
+        {id=45678, suffix=' ('..L["no_reagent"]..')'}, -- Arcane Amalgamation
+        {id=45679, suffix=' ('..L["water"]..')'}, -- Watery Amalgamation
+        {id=45680, suffix=' ('..L["fire"]..')'}, -- Burning Amalgamation
+        {id=45681, suffix=' ('..L["sand"]..')'}, -- Dusty Amalgamation
+        {id=45682, suffix=' ('..L["water"].." + "..L["sand"]..')'}, -- Zomera
+        {id=45683, suffix=' ('..L["water"].." + "..L["fire"]..')'}, -- Omus
+        {id=45684, suffix=' ('..L["water"].." + "..L["water"]..')'}, -- Osgen
+        {id=45685, suffix=' ('..L["fire"].." + "..L["sand"]..')'}, -- Moghiea
+        {id=45686, suffix=' ('..L["fire"].." + "..L["water"]..')'}, -- Xue
+        {id=45687, suffix=' ('..L["fire"].." + "..L["fire"]..')'}, -- Ungormath
+        {id=45688, suffix=' ('..L["sand"].." + "..L["water"]..')'}, -- Spawn of Salgos
+        {id=45689, suffix=' ('..L["sand"].." + "..L["sand"]..')'}, -- Herald of Salgos
+        {id=45690, suffix=' ('..L["sand"].." + "..L["fire"]..')'} -- Salgos the Eternal
+    }},
+    {type=TRANSMOG, item=170138, slot=L["offhand"], note=L["Watery"]}, -- Scroll of Violent Tides
+    {type=TRANSMOG, item=170126, slot=L["bow"], note=L["Burning"]}, -- Igneous Longbow
+    {type=TRANSMOG, item=170383, slot=L["shield"], note=L["Dusty"]}, -- Coralspine Bulwark
+    {type=TRANSMOG, item=170137, slot=L["dagger"], note=L["Zomera"]}, -- Azerite-Infused Crystal Flayer
+    {type=TRANSMOG, item=170132, slot=L["1h_sword"], note=L["Omus"]}, -- Slicer of Omus
+    {type=TRANSMOG, item=170130, slot=L["warglaives"], note=L["Osgen"]}, -- Glaive of Swells
+    {type=TRANSMOG, item=170128, slot=L["staff"], note=L["Moghiea"]}, -- Majestic Shirakess Greatstaff
+    {type=TRANSMOG, item=170127, slot=L["polearm"], note=L["Xue"]}, -- Pyroclastic Halberd
+    {type=TRANSMOG, item=170131, slot=L["wand"], note=L["Ungormath"]}, -- Tidal Wand of Malevolence
+    {type=TRANSMOG, item=170124, slot=L["2h_sword"], note=L["Spawn"]}, -- Coral-Sharpened Greatsword
+    {type=TRANSMOG, item=170125, slot=L["fist"], note=L["Herald"]}, -- Behemoth Claw of the Abyss
+    {type=TRANSMOG, item=170129, slot=L["1h_mace"], note=L["Salgos"]} -- Salgos' Volatile Basher
 }};
 
 local MURLOCO_ICON = { icon='Interface\\Icons\\inv_pet_diablobabymurloc.blp', scale=1 }

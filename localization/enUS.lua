@@ -114,10 +114,7 @@ L["cat_figurine_09"] = "In an underwater cave. Figurine is on the rock archway b
 L["cat_figurine_10"] = "In a cave just below the path. Figurine is between three barrels."
 
 L["mardivas_lab"] = "Mardivas's Laboratory";
-L["no_reagent"] = "No reagents"
-L["water"] = "Water"
-L["fire"] = "Fire"
-L["sand"] = "Sand"
+L["no_reagent"] = "no reagents"
 L["murloco"] = "Murloco";
 L["tentacle_taco"] = "Sells "..ITEM_QUALITY_COLORS[4].hex.."[Hungry Herald's Tentacle Taco]|r if you are wearing the Benthic Azsh'ari Stormsurger Cape.";
 
@@ -162,6 +159,7 @@ L["gun"] = "Gun";
 L["wand"] = "Wand";
 L["crossbow"] = "Crossbow";
 L["offhand"] = "Off Hand";
+L["warglaives"] = "Warglaives";
 
 L["ring"] = "Ring";
 L["amulet"] = "Amulet";
@@ -180,6 +178,7 @@ L["toy"] = "Toy";
 
 local GREEN = '(|cFF00FF00%s|r)';
 local RED = '(|cFFFF0000%s|r)';
+local ORANGE = '(|cFFFF8C00%s|r)';
 
 L["(green)"] = GREEN;
 L["(red)"] = RED;
@@ -187,6 +186,7 @@ L["(completed)"] = string.format(GREEN, "Completed");
 L["(incomplete)"] = string.format(RED, "Incomplete");
 L["(known)"] = string.format(GREEN, "Known");
 L["(missing)"] = string.format(RED, "Missing");
+L["(unlearnable)"] = string.format(ORANGE, "Unlearnable");
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
