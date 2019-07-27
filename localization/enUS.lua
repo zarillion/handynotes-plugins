@@ -249,3 +249,5 @@ L["options_toggle_show_debug"] = "Debug";
 L["options_toggle_show_debug_desc"] = "Show debug stuff";
 L["options_toggle_hideKnownLoot"] = "Hide rare, if all loot known";
 L["options_toggle_hideKnownLoot_desc"] = "Hide all rares for which all loot is known.";
+L["options_toggle_hideMinimapIcons"] = "Hide all icons on the minimap";
+L["options_toggle_hideMinimapIcons_desc"] = "Hides all icons from this addon on the minimap and displays them only on the main map.";

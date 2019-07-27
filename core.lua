@@ -115,7 +115,7 @@ local RENDERERS = {
                 ctext = "   - "..ctext
             end
 
-            if c.note then
+            if c.note and Addon.db.profile.show_notes then
                 tooltip:AddDoubleLine(ctext, c.note, r, g, b);
             else
                 tooltip:AddLine(ctext, r, g, b);
@@ -356,6 +356,7 @@ function Addon:RegisterWithHandyNotes()
         local mapID, minimap;
         local function iter(nodes, precoord)
             if not nodes then return nil end
+            if minimap and self.db.profile.hideMinimapIcons then return nil end
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
                 if node and self:IsNodeEnabled(node, mapID, coord, minimap) then

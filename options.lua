@@ -163,6 +163,14 @@ ns.options = {
                     order = 35,
                     width = "full",
                 },
+                hideMinimapIcons = {
+                    type = "toggle",
+                    arg = "hideMinimapIcons",
+                    name = L["options_toggle_hideMinimapIcons"],
+                    desc = L["options_toggle_hideMinimapIcons_desc"],
+                    order = 36,
+                    width = "full",
+                },
             },
         },
         TooltipGroup = {
