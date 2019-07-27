@@ -515,10 +515,21 @@ nodes[76873699] = {type=SUPPLY_CHEST, label=L["supply_chest"], rewards={ASSASSIN
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
---  Burning Amalg 55145 56481 56725 56891 56892
 nodes[60683221] = {type=MISC, quest=55121, icon='portal', label=L["mardivas_lab"], rewards={
     {type=ACHIEVE, id=13699, criteria={ -- Periodic Destruction
-        45678,45679,45680,45681,45682,45683,45684,45685,45686,45687,45688,45689,45690
+        {id=45678, note=L["no_reagent"]}, -- Arcane Amalgamation
+        {id=45679, note=L["water"]}, -- Watery Amalgamation
+        {id=45680, note=L["fire"]}, -- Burning Amalgamation
+        {id=45681, note=L["sand"]}, -- Dusty Amalgamation
+        {id=45682, note=L["water"].." + "..L["sand"]}, -- Zomera
+        {id=45683, note=L["water"].." + "..L["fire"]}, -- Omus
+        {id=45684, note=L["water"].." + "..L["water"]}, -- Osgen
+        {id=45685, note=L["fire"].." + "..L["sand"]}, -- Moghiea
+        {id=45686, note=L["fire"].." + "..L["water"]}, -- Xue
+        {id=45687, note=L["fire"].." + "..L["fire"]}, -- Ungormath
+        {id=45688, note=L["sand"].." + "..L["water"]}, -- Spawn of Salgos
+        {id=45689, note=L["sand"].." + "..L["sand"]}, -- Herald of Salgos
+        {id=45690, note=L["sand"].." + "..L["fire"]} -- Salgos the Eternal
     }}
 }};
 

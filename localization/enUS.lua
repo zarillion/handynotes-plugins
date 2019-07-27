@@ -114,6 +114,10 @@ L["cat_figurine_09"] = "In an underwater cave. Figurine is on the rock archway b
 L["cat_figurine_10"] = "In a cave just below the path. Figurine is between three barrels."
 
 L["mardivas_lab"] = "Mardivas's Laboratory";
+L["no_reagent"] = "No reagents"
+L["water"] = "Water"
+L["fire"] = "Fire"
+L["sand"] = "Sand"
 L["murloco"] = "Murloco";
 L["tentacle_taco"] = "Sells "..ITEM_QUALITY_COLORS[4].hex.."[Hungry Herald's Tentacle Taco]|r if you are wearing the Benthic Azsh'ari Stormsurger Cape.";
 

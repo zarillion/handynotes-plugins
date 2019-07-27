@@ -63,7 +63,7 @@ local VERIFIERS = {
     [ns.types.ACHIEVE] = function (self)
         if select(4, GetAchievementInfo(self.id)) then return true end
         for i, c in ipairs(self.criteria) do
-            local _, _, completed = GetAchievementCriteriaInfoByID(self.id, c);
+            local _, _, completed = GetAchievementCriteriaInfoByID(self.id, c.id);
             if not completed then return false end
         end
         return true;
@@ -103,18 +103,28 @@ local RENDERERS = {
         local _,name,_,completed,_,_,_,_,_,icon = GetAchievementInfo(self.id);
         tooltip:AddLine(ACHIEVEMENT_COLOR_CODE..'['..name..']|r');
         tooltip:AddTexture(icon, {margin={right=2}});
-        for i, cid in ipairs(self.criteria) do
-            local cname,_,ccomp,qty,reqQty = GetAchievementCriteriaInfoByID(self.id, cid);
-            if (cname == '') then
-                cname = qty..'/'..reqQty;
-            end
+        for i, c in ipairs(self.criteria) do
+            local cname,_,ccomp,qty,reqQty = GetAchievementCriteriaInfoByID(self.id, c.id);
+            if (cname == '') then cname = qty..'/'..reqQty end
+
+            local r, g, b = .6, .6, .6;
+            local ctext = cname..(self.suffix or '')
             if (completed or ccomp) then
-                tooltip:AddLine(cname..(self.suffix or ''), 0, 1, 0);
+                r, g, b = 0, 1, 0;
+            else
+                ctext = "   - "..ctext
+            end
+
+            if c.note then
+                tooltip:AddDoubleLine(ctext, c.note, r, g, b);
+            else
+                tooltip:AddLine(ctext, r, g, b);
+            end
+
+            if (completed or ccomp) then
                 tooltip:AddTexture(CRITERIA_ICON, {
                     width=20, height=16, margin={left=10, right=-7}
                 });
-            else
-                tooltip:AddLine("   - "..cname..(self.suffix or ''), .6, .6, .6);
             end
         end
     end,
@@ -178,9 +188,24 @@ function normalizeNodes ()
                 reward.obtained = VERIFIERS[reward.type] or VERIFIERS[0];
                 reward.render = RENDERERS[reward.type] or RENDERERS[0];
 
-                if (type(reward.criteria) == 'number') then
-                    reward.criteria = {reward.criteria};
+                if reward.criteria ~= nil then
+                    -- we allow a single number, table of numbers or table of
+                    -- objects: {id=<number>, note=<string>}
+                    if type(reward.criteria) == 'number' then
+                        reward.criteria = {{id=reward.criteria}};
+                    else
+                        local crittab = {}
+                        for i, criteria in ipairs(reward.criteria) do
+                            if type(criteria) == 'number' then
+                                crittab[#crittab + 1] = {id=criteria}
+                            else
+                                crittab[#crittab + 1] = criteria
+                            end
+                        end
+                        reward.criteria = crittab
+                    end
                 end
+
                 if reward.item then
                     -- cache item link
                     reward.itemLink = L["retrieving"];
