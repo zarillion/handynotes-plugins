@@ -503,7 +503,9 @@ nodes[28102670] = {type=PET, id=154921, icon='battle_pet', note=L["in_cave"]} --
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
-local ASSASSIN_ACHIEVE = {type=ACHIEVE, id=13720, criteria={id=45790, suffix=L["assassin_looted"]}};
+local ASSASSIN_ACHIEVE = {type=ACHIEVE, id=13720, criteria={
+    {id=45790, suffix=L["assassin_looted"]}
+}};
 
 nodes[47864647] = {type=SUPPLY_CHEST, label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}; -- north basin
 nodes[47285170] = {type=SUPPLY_CHEST, label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}; -- south basin
