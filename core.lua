@@ -104,12 +104,9 @@ local RENDERERS = {
             if (cname == '') then cname = qty..'/'..reqQty end
 
             local r, g, b = .6, .6, .6;
-            local ctext = cname..(c.suffix or '')
+            local ctext = "   • "..cname..(c.suffix or '')
             if (completed or ccomp) then
                 r, g, b = 0, 1, 0;
-                ctext = "   • "..ctext
-            else
-                ctext = "   - "..ctext
             end
 
             if c.note and Addon.db.profile.show_notes then
