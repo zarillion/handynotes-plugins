@@ -18,8 +18,13 @@ localization\enUS.lua
 #localization\zhTW.lua
 #localization\koKR.lua
 #localization\ruRU.lua
-core.lua
-icons.lua
-options.lua
+
+core\class.lua
+core\core.lua
+core\icons.lua
+core\options.lua
+core\nodes.lua
+core\rewards.lua
+
 mechagon.lua
 nazjatar.lua
