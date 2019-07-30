@@ -102,7 +102,7 @@ function Addon:OnEnter(mapID, coord)
 
     tooltip:SetText(node.label);
     if node.note and Addon.db.profile.show_notes then
-        tooltip:AddLine(node.note, nil, nil, nil, true);
+        tooltip:AddLine(node.note, 1, 1, 1, true);
     end
 
     if Addon.db.profile.show_loot then
