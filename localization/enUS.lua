@@ -31,7 +31,12 @@ L["iron_chest_note"] = "Open with an Irontide Lockbox Key dropped from mobs in t
 L["mech_chest_note"] = "Open with a Mechanized Supply Key dropped from mobs in the Western Spray.";
 L["rust_chest_note"] = "Open with an Old Rusty Key dropped from mobs in the Western Spray.";
 
+L["rec_rig"] = "Reclamation Rig"
+L["rec_rig_note"] = "To activate hard-mode, use the Supercollider weapon to convert all Irradiated Elementals into Unstable Irradiated Elementals. Pets are obtainable on both difficulties."
+
 L["options_toggle_treasures_mech"] = "Display locations of locked chests in the Wester Spray."
+L["options_toggle_recrig"] = "Reclamation Rig"
+L["options_toggle_recrig_desc"] = "Display the location of the Reclamation Rig and its rewards."
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
@@ -44,6 +49,7 @@ L["avarius_note"] = "Use Brinestone Pickaxe to collect and place the colored cry
 L["banescale_note"] = "Small chance to spawn immediately after killing Packmother.";
 L["elderunu_note"] = "Spawns anywhere in upper Kal'methir.";
 L["gakula_note"] = "Shoo away Bloodfin Tadpoles until he spawns.";
+L["glimmershell_note"] = "Small chance to spawn in place of Glimmershell Hulks.";
 L["kelpwillow_note"] = "Bring a Muck Slug using a Prismatic Crystal to activate.";
 L["lasher_note"] = "Plant a Germinating Seed in the soil and feed it flies.";
 L["matriarch_note"] = "Shares a respawn timer with the other two Scale Matriarchs.";
@@ -178,6 +184,9 @@ L["trinket"] = "Trinket";
 
 L["retrieving"] = "Retrieving item link ...";
 L["in_cave"] = "In a cave.";
+L["weekly"] = "Weekly";
+L["normal"] = "Normal";
+L["hard"] = "Hard";
 L["mount"] = "Mount";
 L["pet"] = "Pet";
 L["toy"] = "Toy";
@@ -193,6 +202,8 @@ L["(incomplete)"] = string.format(RED, "Incomplete");
 L["(known)"] = string.format(GREEN, "Known");
 L["(missing)"] = string.format(RED, "Missing");
 L["(unlearnable)"] = string.format(ORANGE, "Unlearnable");
+L["(gweekly)"] = string.format(GREEN, "Weekly");
+L["(rweekly)"] = string.format(RED, "Weekly");
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

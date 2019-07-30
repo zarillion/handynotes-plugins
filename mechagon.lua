@@ -6,6 +6,7 @@ local _, ns = ...
 local L = ns.locale
 local isinstance = ns.isinstance
 
+local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -30,6 +31,7 @@ local defaults = ns.optionDefaults.profile
 defaults['treasure_mech'] = true;
 defaults['rare_mech'] = true;
 defaults['pet_mech'] = true;
+defaults['recrig_mech'] = true;
 
 options.groupMechagon = {
     type = "header",
@@ -64,10 +66,20 @@ options.petMechagon = {
     width = "normal",
 };
 
+options.recrigMechagon = {
+    type = "toggle",
+    arg = "recrig_mech",
+    name = L["options_toggle_recrig"],
+    desc = L["options_toggle_recrig_desc"],
+    order = 3,
+    width = "normal",
+};
+
 ns.included[MAPID] = function (node, profile)
     if isinstance(node, Treasure) then return profile.treasure_mech end
     if isinstance(node, Rare) then return profile.rare_mech end
     if isinstance(node, PetBattle) then return profile.pet_mech end
+    if node.label == L["rec_rig"] then return profile.recrig_mech end
     return false;
 end;
 
@@ -170,8 +182,9 @@ nodes[44824637] = Rare({id=152007, quest=55369, note=L["killsaw_note"], rewards=
 nodes[60654217] = Rare({id=151933, quest=55544, note=L["beastbot_note"], rewards={
     Achievement({id=13470, criteria=45136}), -- Kill
     Achievement({id=13708, criteria={45772,45775,45776,45777,45778}}), -- Most Minis Wins
+    Item({item=169848, weekly=57135}), -- Azeroth Mini Pack: Bondo's Yard
     Pet({id=2715, item=169382}) -- Lost Robogrip
-}}); -- Malfunctioning Beastbot
+}}); -- Malfunctioning Beastbot (55926 56506)
 
 nodes[57165258] = Rare({id=151124, quest=55207, note=L["nullifier_note"], rewards={
     Achievement({id=13470, criteria=45117}), -- Kill
@@ -292,7 +305,7 @@ nodes[39504010] = PetBattle({id=154928, icon='battle_pet'}) -- Unit 6
 nodes[72107290] = PetBattle({id=154929, icon='battle_pet'}) -- Unit 17
 
 -------------------------------------------------------------------------------
--------------------------------- MISCELLANEOUS --------------------------------
+---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
 -- Recently it looks like these are in fixed spawns compared to when 8.2 hit
@@ -302,5 +315,20 @@ nodes[19018086] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"]})
 nodes[20537120] = Treasure({label=L["mech_chest"], note=L["mech_chest_note"]})
 nodes[18357618] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"]})
 nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"]})
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+-- More Recycling 55743
+
+-- normal=55847, hard=55848, ???=56079
+nodes[69976201] = Node({icon="peg_blue", scale=1.5, label=L["rec_rig"], rewards={
+    Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
+    Item({item=169850, note=L["normal"], weekly=57132}), -- Azeroth Mini Pack: Mechagon
+    Item({item=168495, note=L["hard"], quest=55074}), -- Blueprint: Rustbolt Requisitions
+    Pet({id=2721, item=169396}), -- Echoing Oozeling
+    Pet({id=2756, item=169879}) -- Irradiated Elementaling
+}, note=L["rec_rig_note"]}) -- Reclamation Rig
 
 ns.nodes[MAPID] = nodes

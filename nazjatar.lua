@@ -15,6 +15,7 @@ local Supply = ns.node.Supply
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
@@ -150,7 +151,8 @@ nodes[66443875] = Rare({id=152416, quest=56280, note=L["allseer_note"], rewards=
 
 nodes[58605329] = Rare({id=152566, quest=56281, note=L["anemonar_note"], rewards={
     Achievement({id=13691, criteria=45522}), -- Kill
-    Achievement({id=13692, criteria={46088,46089}}) -- Ancient Reefwalker Bark, Reefwalker Bark
+    Achievement({id=13692, criteria={46088,46089}}), -- Ancient Reefwalker Bark, Reefwalker Bark
+    Item({item=170184, weekly=57140}) -- Ancient Reefwalker Bark
 }}); -- Anemonar
 
 nodes[73985395] = Rare({id=152361, quest=56282, note=L["banescale_note"], rewards={
@@ -192,7 +194,7 @@ nodes[36044496] = Rare({id=152553, quest=56273, note=L["area_spawn"], rewards={
     Achievement({id=13692, criteria=46092}) -- Razorshell
 }}); -- Garnetscale
 
-nodes[45715170] = Rare({id=152448, quest=56286, note=L["area_spawn"], rewards={
+nodes[45715170] = Rare({id=152448, quest=56286, note=L["glimmershell_note"], rewards={
     Achievement({id=13691, criteria=45534}), -- Kill
     Achievement({id=13692, criteria=46099}), -- Giant Crab Leg
     Pet({id=2686, item=169352}) -- Pearlescent Glimmershell
@@ -200,8 +202,8 @@ nodes[45715170] = Rare({id=152448, quest=56286, note=L["area_spawn"], rewards={
 
 nodes[50056991] = Rare({id=152567, quest=56287, note=L["kelpwillow_note"], rewards={
     Achievement({id=13691, criteria=45535}), -- Kill
-    Achievement({id=13692, criteria={46088,46089}}) -- Ancient Reefwalker Bark, Reefwalker Bark
-    -- {type=ITEM, id=170184, quest=57140}) -- Weekly Ancient Reefwalker Bark
+    Achievement({id=13692, criteria={46088,46089}}), -- Ancient Reefwalker Bark, Reefwalker Bark
+    Item({item=170184, weekly=57140}) -- Ancient Reefwalker Bark
 }}); -- Kelpwillow
 
 nodes[29412899] = Rare({id=152323, quest=55671, note=L["gakula_note"], rewards={
@@ -211,7 +213,8 @@ nodes[29412899] = Rare({id=152323, quest=55671, note=L["gakula_note"], rewards={
 
 nodes[78132501] = Rare({id=152397, quest=56288, note=L["oronu_note"], rewards={
     Achievement({id=13691, criteria=45539}), -- Kill
-    Achievement({id=13692, criteria={46088,46089}}) -- Ancient Reefwalker Bark, Reefwalker Bark
+    Achievement({id=13692, criteria={46088,46089}}), -- Ancient Reefwalker Bark, Reefwalker Bark
+    Item({item=170184, weekly=57140}) -- Ancient Reefwalker Bark
 }}); -- Oronu
 
 nodes[42728740] = Rare({id=152681, quest=56289, note=nil, rewards={
@@ -283,7 +286,8 @@ nodes[66964817] = Rare({id=152360, quest=56278, note=L["area_spawn"], rewards={
 
 nodes[31282935] = Rare({id=152568, quest=56299, note=L["urduu_note"], rewards={
     Achievement({id=13691, criteria=45557}), -- Kill
-    Achievement({id=13692, criteria={46088,46089}}) -- Ancient Reefwalker Bark, Reefwalker Bark
+    Achievement({id=13692, criteria={46088,46089}}), -- Ancient Reefwalker Bark, Reefwalker Bark
+    Item({item=170184, weekly=57140}) -- Ancient Reefwalker Bark
 }}); -- Urduu
 
 nodes[67243458] = Rare({id=151719, quest=56300, note=L["voice_deeps_notes"], rewards={

@@ -24,6 +24,11 @@ ns.icons = {
     ---------------------------- OBJECT ICONS ATLAS ---------------------------
     ---------------------------------------------------------------------------
 
+    peg_blue = {
+        icon="Interface\\Addons\\"..ADDON_NAME.."\\artwork\\ObjectIconsAtlas.blp",
+        tCoordLeft=320/512, tCoordRight=345/512, tCoordTop=240/512, tCoordBottom=265/512
+    },
+
     portal_green = {
         icon="Interface\\Addons\\"..ADDON_NAME.."\\artwork\\ObjectIconsAtlas.blp",
         tCoordLeft=219/512, tCoordRight=243/512, tCoordTop=108/512, tCoordBottom=129/512

@@ -21,6 +21,8 @@ end
 --------------------------------- ACHIEVEMENT ---------------------------------
 -------------------------------------------------------------------------------
 
+-- /run print(GetAchievementCriteriaInfo(ID, NUM))
+
 local Achievement = Class('Achievement', Reward)
 local GetCriteriaInfo = GetAchievementCriteriaInfoByID
 
@@ -80,6 +82,9 @@ end
 local Item = Class('Item', Reward)
 
 function Item:init ()
+    if not self.item then
+        error('Item() reward requires an item id to be set')
+    end
     self.itemLink = L["retrieving"]
     self.itemIcon = 'Interface\\Icons\\Inv_misc_questionmark'
     local item = _G.Item:CreateFromItemID(self.item)
@@ -95,12 +100,20 @@ function Item:obtained ()
 end
 
 function Item:render (tooltip)
+    local text = self.itemLink
     local status = ''
     if self.quest then
         local completed = IsQuestFlaggedCompleted(self.quest)
         status = completed and L['(completed)'] or L['(incomplete)']
+    elseif self.weekly then
+        local completed = IsQuestFlaggedCompleted(self.weekly)
+        status = completed and L['(gweekly)'] or L['(rweekly)']
     end
-    tooltip:AddDoubleLine(self.itemLink, status)
+
+    if self.note then
+        text = text..' ('..self.note..')'
+    end
+    tooltip:AddDoubleLine(text, status)
     tooltip:AddTexture(self.itemIcon, {margin={right=2}})
 end
 
