@@ -1,6 +1,6 @@
 ## Interface: 80200
 ## Title: HandyNotes_MechagonAndNazjatar
-## Version: 6
+## Version: 7
 ## Notes: Mechagon & Nazjatar Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
