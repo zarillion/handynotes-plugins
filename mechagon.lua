@@ -312,6 +312,7 @@ nodes[72107290] = PetBattle({id=154929, icon='battle_pet'}) -- Unit 17
 nodes[23195699] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"]})
 nodes[13228581] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"]})
 nodes[19018086] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"]})
+nodes[30775964] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"]})
 nodes[20537120] = Treasure({label=L["mech_chest"], note=L["mech_chest_note"]})
 nodes[18357618] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"]})
 nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"]})
