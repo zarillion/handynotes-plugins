@@ -128,12 +128,17 @@ end
 ------------------------------------- NPC -------------------------------------
 -------------------------------------------------------------------------------
 
-local NPC_TOOLTIP_NAME = ADDON_NAME.."_npcToolTip";
-local NPC_TOOLTIP = CreateFrame("GameTooltip", NPC_TOOLTIP_NAME, UIParent,
-    "GameTooltipTemplate");
-local NPC_CACHE = {};
+local NPC_TOOLTIP_NAME = ADDON_NAME.."_npcToolTip"
+local NPC_TOOLTIP = nil
+local NPC_CACHE = {}
 
-NPC_TOOLTIP:SetOwner(UIParent, "ANCHOR_NONE");
+local function CreateDatamineFrame()
+    NPC_TOOLTIP = CreateFrame("GameTooltip", NPC_TOOLTIP_NAME, UIParent,
+        "GameTooltipTemplate")
+    NPC_TOOLTIP:SetOwner(UIParent, "ANCHOR_NONE")
+end
+
+CreateDatamineFrame() -- create the initial frame
 
 -------------------------------------------------------------------------------
 
@@ -145,17 +150,21 @@ function NPC:init ()
 end
 
 function NPC.getters:label ()
-    local name = NPC_CACHE[self.id];
+    local name = NPC_CACHE[self.id]
     if not name then
         NPC_TOOLTIP:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(self.id))
         name = _G[NPC_TOOLTIP_NAME.."TextLeft1"]:GetText()
         if name and name ~= '' then
-            NPC_CACHE[self.id] = name;
+            NPC_CACHE[self.id] = name
         else
-            name = UNKNOWN;
+            -- Sometimes the tooltip breaks and permanently stops returning
+            -- info. When this happens, the only way I've found to fix it is to
+            -- recreate the frame. I wish there was an actual API for this.
+            CreateDatamineFrame()
+            name = UNKNOWN
         end
     end
-    return name;
+    return name
 end
 
 -------------------------------------------------------------------------------
