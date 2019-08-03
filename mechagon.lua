@@ -183,6 +183,7 @@ nodes[60654217] = Rare({id=151933, quest=55544, note=L["beastbot_note"], rewards
     Achievement({id=13470, criteria=45136}), -- Kill
     Achievement({id=13708, criteria={45772,45775,45776,45777,45778}}), -- Most Minis Wins
     Item({item=169848, weekly=57135}), -- Azeroth Mini Pack: Bondo's Yard
+    Item({item=169173, quest=55081}), -- Blueprint: Anti-Gravity Pack
     Pet({id=2715, item=169382}) -- Lost Robogrip
 }}); -- Malfunctioning Beastbot (55926 56506)
 
@@ -308,14 +309,17 @@ nodes[72107290] = PetBattle({id=154929, icon='battle_pet'}) -- Unit 17
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+-- All chests have a chance to drop
+RED_PAINT = Item({item=170146, quest=56907}) -- Paint Bottle: Nukular Red
+
 -- Recently it looks like these are in fixed spawns compared to when 8.2 hit
-nodes[23195699] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"]})
-nodes[13228581] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"]})
-nodes[19018086] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"]})
-nodes[30775964] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"]})
-nodes[20537120] = Treasure({label=L["mech_chest"], note=L["mech_chest_note"]})
-nodes[18357618] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"]})
-nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"]})
+nodes[23195699] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
+nodes[13228581] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
+nodes[19018086] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
+nodes[30775964] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
+nodes[20537120] = Treasure({label=L["mech_chest"], note=L["mech_chest_note"], rewards={RED_PAINT}})
+nodes[18357618] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
+nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
