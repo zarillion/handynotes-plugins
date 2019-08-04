@@ -201,6 +201,7 @@ L["(completed)"] = string.format(GREEN, "Completed");
 L["(incomplete)"] = string.format(RED, "Incomplete");
 L["(known)"] = string.format(GREEN, "Known");
 L["(missing)"] = string.format(RED, "Missing");
+L["(unobtainable)"] = string.format(ORANGE, "Unobtainable");
 L["(unlearnable)"] = string.format(ORANGE, "Unlearnable");
 L["(gweekly)"] = string.format(GREEN, "Weekly");
 L["(rweekly)"] = string.format(RED, "Weekly");

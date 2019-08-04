@@ -181,20 +181,35 @@ local Transmog = Class('Transmog', Item)
 local CTC = C_TransmogCollection
 
 function Transmog:obtained ()
+    -- Check if the player knows the appearance
     if CTC.PlayerHasTransmog(self.item) then return true end
+
+    -- Verify the item drops for any of the players specs
+    local specs = GetItemSpecInfo(self.item)
+    if type(specs) == 'table' and #specs == 0 then return true end
+
+    -- Verify the player can learn the item's appearance
     local sourceID = select(2, CTC.GetItemInfo(self.item))
     if not select(2, CTC.PlayerCanCollectSource(sourceID)) then return true end
+
     return false
 end
 
 function Transmog:render (tooltip)
     local collected = CTC.PlayerHasTransmog(self.item)
     local status = collected and L["(known)"] or L["(missing)"]
+
     if not collected then
         -- check if we can't learn this item
         local sourceID = select(2, CTC.GetItemInfo(self.item))
         if not select(2, CTC.PlayerCanCollectSource(sourceID)) then
-            status = L["(unlearnable)"];
+            status = L["(unlearnable)"]
+        else
+            -- check if the item doesn't drop
+            local specs = GetItemSpecInfo(self.item)
+            if type(specs) == 'table' and #specs == 0 then
+                status = L["(unobtainable)"]
+            end
         end
     end
 
