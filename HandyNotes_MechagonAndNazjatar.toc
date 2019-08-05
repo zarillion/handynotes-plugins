@@ -12,10 +12,10 @@ embeds.xml
 #@end-no-lib-strip@
 
 localization\enUS.lua
+localization\zhTW.lua
 #localization\deDE.lua
 #localization\esES.lua
 #localization\zhCN.lua
-#localization\zhTW.lua
 #localization\koKR.lua
 #localization\ruRU.lua
 
