@@ -445,14 +445,22 @@ nodes[12088568] = TREASURE10
 
 -- More Recycling 55743
 
--- normal=55847, hard=55848, ???=56079
-nodes[69976201] = Node({icon="peg_blue", scale=2, label=L["rec_rig"], rewards={
+local RegRig = Class('RegRig', Node)
+
+function RegRig.getters:rlabel ()
+    local G, GR, N, H = ns.status.Green, ns.status.Gray, L['normal'], L['hard']
+    local normal = IsQuestFlaggedCompleted(55847) and G(N) or GR(N)
+    local hard = IsQuestFlaggedCompleted(55848) and G(H) or GR(H)
+    return normal..' '..hard
+end
+
+nodes[69976201] = RegRig({icon="peg_blue", scale=2, label=L["rec_rig"], rewards={
     Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
     Item({item=169850, note=L["normal"], weekly=57132}), -- Azeroth Mini Pack: Mechagon
     Item({item=168495, note=L["hard"], quest=55074}), -- Blueprint: Rustbolt Requisitions
     Pet({id=2721, item=169396}), -- Echoing Oozeling
     Pet({id=2756, item=169879}) -- Irradiated Elementaling
-}, note=L["rec_rig_note"]}) -- Reclamation Rig
+}, note=L["rec_rig_note"]}) -- Reclamation Rig ???=56079
 
 -------------------------------------------------------------------------------
 

@@ -196,21 +196,12 @@ L["hard"] = "Hard";
 L["mount"] = "Mount";
 L["pet"] = "Pet";
 L["toy"] = "Toy";
-
-local GREEN = '(|cFF00FF00%s|r)';
-local RED = '(|cFFFF0000%s|r)';
-local ORANGE = '(|cFFFF8C00%s|r)';
-
-L["(green)"] = GREEN;
-L["(red)"] = RED;
-L["(completed)"] = string.format(GREEN, "Completed");
-L["(incomplete)"] = string.format(RED, "Incomplete");
-L["(known)"] = string.format(GREEN, "Known");
-L["(missing)"] = string.format(RED, "Missing");
-L["(unobtainable)"] = string.format(ORANGE, "Unobtainable");
-L["(unlearnable)"] = string.format(ORANGE, "Unlearnable");
-L["(gweekly)"] = string.format(GREEN, "Weekly");
-L["(rweekly)"] = string.format(RED, "Weekly");
+L["completed"] = "Completed"
+L["incomplete"] = "Incomplete"
+L["known"] = "Known"
+L["missing"] = "Missing"
+L["unobtainable"] = "Unobtainable"
+L["unlearnable"] = "Unlearnable"
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

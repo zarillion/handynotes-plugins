@@ -197,21 +197,12 @@ L["hard"] = "困難";
 L["mount"] = "坐騎";
 L["pet"] = "寵物";
 L["toy"] = "玩具";
-
-local GREEN = '(|cFF00FF00%s|r)';
-local RED = '(|cFFFF0000%s|r)';
-local ORANGE = '(|cFFFF8C00%s|r)';
-
-L["(green)"] = GREEN;
-L["(red)"] = RED;
-L["(completed)"] = string.format(GREEN, "已完成");
-L["(incomplete)"] = string.format(RED, "未完成");
-L["(known)"] = string.format(GREEN, "已收藏");
-L["(missing)"] = string.format(RED, "缺少");
-L["(unobtainable)"] = string.format(ORANGE, "無法獲得");
-L["(unlearnable)"] = string.format(ORANGE, "未學習");
-L["(gweekly)"] = string.format(GREEN, "每週");
-L["(rweekly)"] = string.format(RED, "每週");
+L["completed"] = "已完成"
+L["incomplete"] = "未完成"
+L["known"] = "已收藏"
+L["missing"] = "缺少"
+L["unobtainable"] = "無法獲得"
+L["unlearnable"] = "未學習"
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

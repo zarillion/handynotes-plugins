@@ -14,6 +14,13 @@ ns.addon = Addon;
 ns.locale = L;
 ns.maps = {};
 
+ns.status = {
+    Green = function (t) return string.format('(|cFF00FF00%s|r)', t) end,
+    Gray = function (t) return string.format('(|cFF999999%s|r)', t) end,
+    Red = function (t) return string.format('(|cFFFF0000%s|r)', t) end,
+    Orange = function (t) return string.format('(|cFFFF8C00%s|r)', t) end
+}
+
 ------------------------------------ TODO -------------------------------------
 
 -- Add area indicators on hover for zone rares
@@ -100,6 +107,15 @@ function Addon:OnEnter(mapID, coord)
     end
 
     tooltip:SetText(node.label);
+
+    -- optional top-right text
+    if node.rlabel then
+        local rtext = _G[tooltip:GetName()..'TextRight1']
+        rtext:SetTextColor(1, 1, 1)
+        rtext:SetText(node.rlabel)
+        rtext:Show()
+    end
+
     if node.note and Addon.db.profile.show_notes then
         tooltip:AddLine(node.note, 1, 1, 1, true);
     end
