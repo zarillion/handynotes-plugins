@@ -159,13 +159,12 @@ end
 -------------------------------------------------------------------------------
 
 function Addon:RegisterWithHandyNotes()
-    local force = self.db.profile.force_nodes
-
     do
         local mapID, minimap
         local function iter(nodes, precoord)
             if not nodes then return nil end
             if minimap and self.db.profile.hide_minimap then return nil end
+            local force = self.db.profile.force_nodes
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
                 if node and (force or node:enabled(self.db, mapID, coord, minimap)) then
