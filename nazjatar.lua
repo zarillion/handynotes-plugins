@@ -435,14 +435,14 @@ nodes[38707440] = Treasure({quest=55950, label=L["arcane_chest"], note=L["arcane
 nodes[56303380] = Treasure({quest=55944, label=L["arcane_chest"], note=L["arcane_chest_20"]});
 
 -- Glowing Arcane Chests
-nodes[37900640] = Treasure({quest=55959, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_1"]})
-nodes[43951693] = Treasure({quest=55963, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_2"]})
-nodes[24803520] = Treasure({quest=56912, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_3"]})
-nodes[55701450] = Treasure({quest=55961, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_4"]})
-nodes[61402290] = Treasure({quest=55958, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_5"]})
-nodes[64102860] = Treasure({quest=55962, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_6"]})
-nodes[37201920] = Treasure({quest=55960, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_7"]})
-nodes[80493194] = Treasure({quest=56547, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_8"]})
+nodes[37900640] = Treasure({quest=55959, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_1"]})
+nodes[43951693] = Treasure({quest=55963, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_2"]})
+nodes[24803520] = Treasure({quest=56912, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_3"]})
+nodes[55701450] = Treasure({quest=55961, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_4"]})
+nodes[61402290] = Treasure({quest=55958, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_5"]})
+nodes[64102860] = Treasure({quest=55962, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_6"]})
+nodes[37201920] = Treasure({quest=55960, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_7"]})
+nodes[80493194] = Treasure({quest=56547, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_8"]})
 
 -------------------------------------------------------------------------------
 -------------------------------- CAT FIGURINES --------------------------------
@@ -505,7 +505,7 @@ nodes[76873699] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}});
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-nodes[60683221] = Node({quest=55121, icon="portal", scale=1.5, label=L["mardivas_lab"], rewards={
+nodes[60683221] = Node({quest=55121, icon="portal", scale=1.2, label=L["mardivas_lab"], rewards={
     Achievement({id=13699, criteria={ -- Periodic Destruction
         {id=45678, note=' ('..L["no_reagent"]..')'}, -- Arcane Amalgamation
         {id=45679, note=' ('..L["swater"]..')'}, -- Watery Amalgamation

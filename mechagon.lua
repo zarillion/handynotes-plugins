@@ -328,7 +328,7 @@ nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], re
 -- More Recycling 55743
 
 -- normal=55847, hard=55848, ???=56079
-nodes[69976201] = Node({icon="peg_blue", scale=1.5, label=L["rec_rig"], rewards={
+nodes[69976201] = Node({icon="peg_blue", scale=1.2, label=L["rec_rig"], rewards={
     Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
     Item({item=169850, note=L["normal"], weekly=57132}), -- Azeroth Mini Pack: Mechagon
     Item({item=168495, note=L["hard"], quest=55074}), -- Blueprint: Rustbolt Requisitions

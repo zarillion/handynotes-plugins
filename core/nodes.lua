@@ -92,7 +92,7 @@ end
 local Cave = Class('Cave', Node)
 
 Cave.icon = "cave"
-Cave.scale = 1.5
+Cave.scale = 1.2
 Cave.group = "caves"
 
 function Cave:init ()
@@ -174,7 +174,6 @@ end
 local PetBattle = Class('PetBattle', NPC)
 
 PetBattle.icon = "battle_pet"
-PetBattle.scale = 1.1
 PetBattle.group = "pet_battles"
 
 -------------------------------------------------------------------------------
@@ -183,7 +182,7 @@ PetBattle.group = "pet_battles"
 
 local Rare = Class('Rare', NPC)
 
-Rare.scale = 1.8
+Rare.scale = 1.3
 Rare.group = "rares"
 
 function Rare.getters:icon ()
@@ -213,7 +212,7 @@ Supply.group = "treasures"
 local Treasure = Class('Treasure', Node)
 
 Treasure.icon = "treasure"
-Treasure.scale = 1.3
+Treasure.scale = 1
 Treasure.group = "treasures"
 
 function Treasure:enabled (db, mapID, coord, minimap)
