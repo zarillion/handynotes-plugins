@@ -34,15 +34,8 @@ local defaults = ns.optionDefaults.profile
 local map = Map({ id=1355 })
 local nodes = map.nodes
 
-local ALLIANCE_INTRO_END = 56156
-local HORDE_INTRO_END = 55500
-
 function map:prepare ()
-    if ns.faction == 'Alliance' then
-        self.phased = IsQuestFlaggedCompleted(ALLIANCE_INTRO_END)
-    else
-        self.phased = IsQuestFlaggedCompleted(HORDE_INTRO_END)
-    end
+    self.phased = self.intros[ns.faction]:done()
 end
 
 function map:enabled (node, coord, minimap)
@@ -176,7 +169,7 @@ function Intro.getters:label ()
     return GetAchievementCriteriaInfo(13710, 1) -- Welcome to Nazjatar
 end
 
-nodes[11952801] = Intro({quest=ALLIANCE_INTRO_END, faction='Alliance', rewards={
+nodes[11952801] = Intro({quest=56156, faction='Alliance', rewards={
     -- The Wolf's Offensive => A Way Home
     Quest({id={56031,56043,55095,54969,56640,56641,56642,56643,56644,55175,54972}}),
     -- Essential Empowerment => Create Your Own Strength
@@ -185,7 +178,7 @@ nodes[11952801] = Intro({quest=ALLIANCE_INTRO_END, faction='Alliance', rewards={
     Quest({id={55361,55362,55363,56156}})
 }})
 
-nodes[11952802] = Intro({quest=HORDE_INTRO_END, faction='Horde', rewards={
+nodes[11952802] = Intro({quest=55500, faction='Horde', rewards={
     -- The Warchief's Order => A Way Home
     Quest({id={56030,56044,55054,54018,54021,54012,55092,56063,54015,56429,55094,55053}}),
     -- Essential Empowerment => Create Your Own Strength
@@ -194,9 +187,10 @@ nodes[11952802] = Intro({quest=HORDE_INTRO_END, faction='Horde', rewards={
     Quest({id={55384,55385,55500}})
 }})
 
+map.intros = { Alliance = nodes[11952801], Horde = nodes[11952802] }
+
 ns.addon:RegisterEvent('QUEST_TURNED_IN', function (_, questID)
-    if questID == ALLIANCE_INTRO_END or questID == HORDE_INTRO_END then
-        print('END OF PHASED NAZJATAR DETECTED!')
+    if questID == 56156 or questID == 55500 then
         C_Timer.After(1, function()
             ns.addon:Refresh();
         end);
