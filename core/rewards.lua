@@ -169,10 +169,7 @@ function Quest:init ()
     if type(self.id) == 'number' then
         self.id = {self.id}
     end
-
-    for i, id in ipairs(self.id) do
-        C_QuestLog.GetQuestInfo(id) -- fetch info from server
-    end
+    C_QuestLog.GetQuestInfo(self.id[1]) -- fetch info from server
 end
 
 function Quest:obtained ()
@@ -184,16 +181,20 @@ end
 
 function Quest:render (tooltip)
     local name = C_QuestLog.GetQuestInfo(self.id[1])
+
+    local status = ''
     if #self.id == 1 then
         local completed = IsQuestFlaggedCompleted(self.id)
-        local status = completed and L['(completed)'] or L['(incomplete)']
+        status = completed and Green(L['completed']) or Red(L['incomplete'])
     else
-        -- local count = 0
-        -- for i, id in ipairs(self.id) do
-        --     if IsQuestFlaggedCompleted(id) then count = count + 1 end
-        -- end
-        -- local status = count == #self.id and L['']
+        local count = 0
+        for i, id in ipairs(self.id) do
+            if IsQuestFlaggedCompleted(id) then count = count + 1 end
+        end
+        status = count..'/'..#self.id
+        status = (count == #self.id) and Green(status) or Red(status)
     end
+
     local icon = ns.icons.quest_yellow
     tooltip:AddDoubleLine((name or UNKNOWN), status)
     tooltip:AddTexture(icon.icon, {

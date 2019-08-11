@@ -4,6 +4,7 @@
 
 local ADDON_NAME, ns = ...
 local L = ns.locale
+local Class = ns.Class
 local Map = ns.Map
 local isinstance = ns.isinstance
 
@@ -33,14 +34,14 @@ local defaults = ns.optionDefaults.profile
 local map = Map({ id=1355 })
 local nodes = map.nodes
 
-local ALLIANCE_PHASE_QUEST = 56156
-local HORDE_PHASE_QUEST = 55053
+local ALLIANCE_INTRO_END = 56156
+local HORDE_INTRO_END = 55500
 
 function map:prepare ()
     if ns.faction == 'Alliance' then
-        self.phased = IsQuestFlaggedCompleted(ALLIANCE_PHASE_QUEST)
+        self.phased = IsQuestFlaggedCompleted(ALLIANCE_INTRO_END)
     else
-        self.phased = IsQuestFlaggedCompleted(HORDE_PHASE_QUEST)
+        self.phased = IsQuestFlaggedCompleted(HORDE_INTRO_END)
     end
 end
 
@@ -165,32 +166,42 @@ options.miscNazjatar = {
 ------------------------------------ INTRO ------------------------------------
 -------------------------------------------------------------------------------
 
-local INTRO_LABEL = GetAchievementCriteriaInfo(13710, 1) -- Welcome to Nazjatar
+local Intro = Class('Intro', Node)
 
--- nodes[11952801] = Node({quest=ALLIANCE_PHASE_QUEST, icon='quest_yellow', scale=3, rewards={
---     Quest({id=57004}), -- Create Your Own Strength
---     Quest({id=55361}), -- The Lost Shaman
---     Quest({id=55362}), -- Elemental Fury
---     Quest({id=55363}), -- Rescue the Farseer
---     Quest({id=56156})  -- A Tempered Blade
--- }, label=INTRO_LABEL, note=L["naz_intro_note"], faction='Alliance'})
+Intro.note = L["naz_intro_note"]
+Intro.icon = 'quest_yellow'
+Intro.scale = 3
 
-nodes[11952802] = Node({quest=HORDE_PHASE_QUEST, icon='quest_yellow', scale=3, rewards={
-    Quest({id=56030, suffix=' (+10)'}), -- The Warchief's Order => Stay Low, Stay Fast!
-    Quest({id=55053}), -- A Way Home
-    Quest({id=55851}), -- Essential Empowerment
-    Quest({id=56161}), -- Back Out to Sea
-    -- Quest({id=}), --
-}, label=INTRO_LABEL, note=L["naz_intro_note"], faction='Horde'})
+function Intro.getters:label ()
+    return GetAchievementCriteriaInfo(13710, 1) -- Welcome to Nazjatar
+end
 
--- ns.addon:RegisterEvent('QUEST_TURNED_IN', function (_, questID)
---     if questID == ALLIANCE_PHASE_QUEST or questID == HORDE_PHASE_QUEST then
---         print('END OF PHASED NAZJATAR DETECTED!')
---         C_Timer.After(1, function()
---             ns.addon:Refresh();
---         end);
---     end
--- end)
+nodes[11952801] = Intro({quest=ALLIANCE_INTRO_END, faction='Alliance', rewards={
+    -- The Wolf's Offensive => A Way Home
+    Quest({id={56031,56043,55095,54969,56640,56641,56642,56643,56644,55175,54972}}),
+    -- Essential Empowerment => Create Your Own Strength
+    Quest({id={55851,55533,55374,55400,55407,55425,55497,55618,57010,56162,56350,57004}}),
+    -- The Lost Shaman => A Tempered Blade
+    Quest({id={55361,55362,55363,56156}})
+}})
+
+nodes[11952802] = Intro({quest=HORDE_INTRO_END, faction='Horde', rewards={
+    -- The Warchief's Order => A Way Home
+    Quest({id={56030,56044,55054,54018,54021,54012,55092,56063,54015,56429,55094,55053}}),
+    -- Essential Empowerment => Create Your Own Strength
+    Quest({id={55851,55533,55374,55400,55407,55425,55497,55618,57010,56161,55481,57003}}),
+    -- Settling In => Save A Friend
+    Quest({id={55384,55385,55500}})
+}})
+
+ns.addon:RegisterEvent('QUEST_TURNED_IN', function (_, questID)
+    if questID == ALLIANCE_INTRO_END or questID == HORDE_INTRO_END then
+        print('END OF PHASED NAZJATAR DETECTED!')
+        C_Timer.After(1, function()
+            ns.addon:Refresh();
+        end);
+    end
+end)
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
