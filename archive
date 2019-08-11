@@ -1,0 +1,7 @@
+#!/bin/bash
+
+TAG=$1
+git archive ${TAG} \
+    --prefix HandyNotes_MechagonAndNazjatar/ \
+    --output ~/Downloads/${TAG}.zip \
+    *.toc *.xml *.lua core/ libs/ localization/ icons/icons.blp
