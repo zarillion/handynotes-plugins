@@ -46,6 +46,8 @@ L["options_toggle_recrig_desc"] = "Display the location of the Reclamation Rig a
 ----------------------------------- NAZJATAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L["naz_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures, and world quests on Nazjatar."
+
 L["alga_note"] = "CAUTION: Cloaked with four adds!";
 L["allseer_note"] = "Spawns anywhere in lower Kal'methir.";
 L["anemonar_note"] = "Kill the Colossal Sky Ray on top of him to activate.";

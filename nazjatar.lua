@@ -19,6 +19,7 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Quest = ns.reward.Quest
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -32,8 +33,24 @@ local defaults = ns.optionDefaults.profile
 local map = Map({ id=1355 })
 local nodes = map.nodes
 
+local ALLIANCE_PHASE_QUEST = 56156
+local HORDE_PHASE_QUEST = 55053
+
+function map:prepare ()
+    if ns.faction == 'Alliance' then
+        self.phased = IsQuestFlaggedCompleted(ALLIANCE_PHASE_QUEST)
+    else
+        self.phased = IsQuestFlaggedCompleted(HORDE_PHASE_QUEST)
+    end
+end
+
 function map:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
+
+    -- always show the intro helper nodes, and hide all other nodes if we're
+    -- not phased yet
+    if node.icon == 'quest_yellow' then return true end
+    if not self.phased and node.icon ~= 'quest_yellow' then return false end
 
     local profile = ns.addon.db.profile
     if isinstance(node, Treasure) then return profile.treasure_nazjatar end
@@ -143,6 +160,37 @@ options.miscNazjatar = {
     order = 18,
     width = "normal",
 };
+
+-------------------------------------------------------------------------------
+------------------------------------ INTRO ------------------------------------
+-------------------------------------------------------------------------------
+
+local INTRO_LABEL = GetAchievementCriteriaInfo(13710, 1) -- Welcome to Nazjatar
+
+-- nodes[11952801] = Node({quest=ALLIANCE_PHASE_QUEST, icon='quest_yellow', scale=3, rewards={
+--     Quest({id=57004}), -- Create Your Own Strength
+--     Quest({id=55361}), -- The Lost Shaman
+--     Quest({id=55362}), -- Elemental Fury
+--     Quest({id=55363}), -- Rescue the Farseer
+--     Quest({id=56156})  -- A Tempered Blade
+-- }, label=INTRO_LABEL, note=L["naz_intro_note"], faction='Alliance'})
+
+nodes[11952802] = Node({quest=HORDE_PHASE_QUEST, icon='quest_yellow', scale=3, rewards={
+    Quest({id=56030, suffix=' (+10)'}), -- The Warchief's Order => Stay Low, Stay Fast!
+    Quest({id=55053}), -- A Way Home
+    Quest({id=55851}), -- Essential Empowerment
+    Quest({id=56161}), -- Back Out to Sea
+    -- Quest({id=}), --
+}, label=INTRO_LABEL, note=L["naz_intro_note"], faction='Horde'})
+
+-- ns.addon:RegisterEvent('QUEST_TURNED_IN', function (_, questID)
+--     if questID == ALLIANCE_PHASE_QUEST or questID == HORDE_PHASE_QUEST then
+--         print('END OF PHASED NAZJATAR DETECTED!')
+--         C_Timer.After(1, function()
+--             ns.addon:Refresh();
+--         end);
+--     end
+-- end)
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -443,14 +491,14 @@ nodes[38707440] = Treasure({quest=55950, label=L["arcane_chest"], note=L["arcane
 nodes[56303380] = Treasure({quest=55944, label=L["arcane_chest"], note=L["arcane_chest_20"]});
 
 -- Glowing Arcane Chests
-nodes[37900640] = Treasure({quest=55959, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_1"]})
-nodes[43951693] = Treasure({quest=55963, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_2"]})
-nodes[24803520] = Treasure({quest=56912, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_3"]})
-nodes[55701450] = Treasure({quest=55961, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_4"]})
-nodes[61402290] = Treasure({quest=55958, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_5"]})
-nodes[64102860] = Treasure({quest=55962, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_6"]})
-nodes[37201920] = Treasure({quest=55960, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_7"]})
-nodes[80493194] = Treasure({quest=56547, icon="shootbox_blue", scale=1.7, label=L["glowing_chest"], note=L["glowing_chest_8"]})
+nodes[37900640] = Treasure({quest=55959, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_1"]})
+nodes[43951693] = Treasure({quest=55963, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_2"]})
+nodes[24803520] = Treasure({quest=56912, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_3"]})
+nodes[55701450] = Treasure({quest=55961, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_4"]})
+nodes[61402290] = Treasure({quest=55958, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_5"]})
+nodes[64102860] = Treasure({quest=55962, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_6"]})
+nodes[37201920] = Treasure({quest=55960, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_7"]})
+nodes[80493194] = Treasure({quest=56547, icon="shootbox_blue", scale=2, label=L["glowing_chest"], note=L["glowing_chest_8"]})
 
 -------------------------------------------------------------------------------
 -------------------------------- CAT FIGURINES --------------------------------
@@ -513,7 +561,7 @@ nodes[76873699] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}});
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-nodes[60683221] = Node({quest=55121, icon="portal", scale=1.2, label=L["mardivas_lab"], rewards={
+nodes[60683221] = Node({quest=55121, icon="portal_blue", scale=1.5, label=L["mardivas_lab"], rewards={
     Achievement({id=13699, criteria={ -- Periodic Destruction
         {id=45678, note=' ('..L["no_reagent"]..')'}, -- Arcane Amalgamation
         {id=45679, note=' ('..L["swater"]..')'}, -- Watery Amalgamation

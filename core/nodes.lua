@@ -70,6 +70,9 @@ function Node:enabled (map, coord, minimap)
     -- Minimap may be disabled for this node
     if not self.minimap and minimap then return false end
 
+    -- Node may be faction restricted
+    if self.faction and self.faction ~= ns.faction then return false end
+
     if not db.profile.ignore_quests then
         -- All attached quest ids must be false
         for i, quest in ipairs(self.quest or {}) do
@@ -91,7 +94,7 @@ end
 
 local Cave = Class('Cave', Node)
 
-Cave.icon = "cave"
+Cave.icon = "door_down"
 Cave.scale = 1.2
 Cave.group = "caves"
 
@@ -173,7 +176,7 @@ end
 
 local PetBattle = Class('PetBattle', NPC)
 
-PetBattle.icon = "battle_pet"
+PetBattle.icon = "paw_yellow"
 PetBattle.group = "pet_battles"
 
 -------------------------------------------------------------------------------
@@ -182,7 +185,7 @@ PetBattle.group = "pet_battles"
 
 local Rare = Class('Rare', NPC)
 
-Rare.scale = 1.3
+Rare.scale = 1.5
 Rare.group = "rares"
 
 function Rare.getters:icon ()
@@ -203,7 +206,7 @@ end
 local Supply = Class('Supply', Node)
 
 Supply.icon = "star_chest"
-Supply.scale = 1.5
+Supply.scale = 2
 Supply.group = "treasures"
 
 -------------------------------------------------------------------------------
@@ -212,8 +215,8 @@ Supply.group = "treasures"
 
 local Treasure = Class('Treasure', Node)
 
-Treasure.icon = "treasure"
-Treasure.scale = 1
+Treasure.icon = "chest_gray"
+Treasure.scale = 1.3
 Treasure.group = "treasures"
 
 function Treasure:enabled (map, coord, minimap)

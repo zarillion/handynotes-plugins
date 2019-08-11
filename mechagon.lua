@@ -340,14 +340,14 @@ nodes[53824933] = Rare({id=150394, quest=55546, future=2, note=L["vaultbot_note"
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
-nodes[64706460] = PetBattle({id=154922, icon='battle_pet'}) -- Gnomefeaster
-nodes[60704650] = PetBattle({id=154923, icon='battle_pet'}) -- Sputtertude
-nodes[60605690] = PetBattle({id=154924, icon='battle_pet'}) -- Goldenbot XD
-nodes[59205090] = PetBattle({id=154925, icon='battle_pet'}) -- Creakclank
-nodes[65405770] = PetBattle({id=154926, icon='battle_pet'}) -- CK-9 Micro-Oppression Unit
-nodes[51104540] = PetBattle({id=154927, icon='battle_pet'}) -- Unit 35
-nodes[39504010] = PetBattle({id=154928, icon='battle_pet'}) -- Unit 6
-nodes[72107290] = PetBattle({id=154929, icon='battle_pet'}) -- Unit 17
+nodes[64706460] = PetBattle({id=154922}) -- Gnomefeaster
+nodes[60704650] = PetBattle({id=154923}) -- Sputtertude
+nodes[60605690] = PetBattle({id=154924}) -- Goldenbot XD
+nodes[59205090] = PetBattle({id=154925}) -- Creakclank
+nodes[65405770] = PetBattle({id=154926}) -- CK-9 Micro-Oppression Unit
+nodes[51104540] = PetBattle({id=154927}) -- Unit 35
+nodes[39504010] = PetBattle({id=154928}) -- Unit 6
+nodes[72107290] = PetBattle({id=154929}) -- Unit 17
 
 -------------------------------------------------------------------------------
 -------------------------------- LOCKED CHESTS --------------------------------
@@ -369,16 +369,16 @@ nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], re
 ------------------------------ MECHANIZED CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
-local TREASURE1 = Treasure({quest=55547, icon='treasure_blue', label=L["mech_chest"]})
-local TREASURE2 = Treasure({quest=55548, icon='treasure_brown', label=L["mech_chest"]})
-local TREASURE3 = Treasure({quest=55549, icon='treasure_camo', label=L["mech_chest"]})
-local TREASURE4 = Treasure({quest=55550, icon='treasure_orange', label=L["mech_chest"]})
-local TREASURE5 = Treasure({quest=55551, icon='treasure_green', future=1, label=L["mech_chest"]})
-local TREASURE6 = Treasure({quest=55552, icon='treasure_purple', label=L["mech_chest"]})
-local TREASURE7 = Treasure({quest=55553, icon='treasure_red', label=L["mech_chest"]})
-local TREASURE8 = Treasure({quest=55554, icon='treasure_lime', label=L["mech_chest"]})
-local TREASURE9 = Treasure({quest=55555, icon='treasure_teal', label=L["mech_chest"]})
-local TREASURE10 = Treasure({quest=55556, icon='treasure_yellow', label=L["mech_chest"]})
+local TREASURE1 = Treasure({quest=55547, icon='chest_blue', label=L["mech_chest"]})
+local TREASURE2 = Treasure({quest=55548, icon='chest_brown', label=L["mech_chest"]})
+local TREASURE3 = Treasure({quest=55549, icon='chest_camo', label=L["mech_chest"]})
+local TREASURE4 = Treasure({quest=55550, icon='chest_orange', label=L["mech_chest"]})
+local TREASURE5 = Treasure({quest=55551, icon='chest_lblue', future=1, label=L["mech_chest"]})
+local TREASURE6 = Treasure({quest=55552, icon='chest_purple', label=L["mech_chest"]})
+local TREASURE7 = Treasure({quest=55553, icon='chest_red', label=L["mech_chest"]})
+local TREASURE8 = Treasure({quest=55554, icon='chest_lime', label=L["mech_chest"]})
+local TREASURE9 = Treasure({quest=55555, icon='chest_teal', label=L["mech_chest"]})
+local TREASURE10 = Treasure({quest=55556, icon='chest_yellow', label=L["mech_chest"]})
 
 -- object 325659
 nodes[43304977] = TREASURE1
@@ -446,7 +446,7 @@ nodes[12088568] = TREASURE10
 -- More Recycling 55743
 
 -- normal=55847, hard=55848, ???=56079
-nodes[69976201] = Node({icon="peg_blue", scale=1.2, label=L["rec_rig"], rewards={
+nodes[69976201] = Node({icon="peg_blue", scale=2, label=L["rec_rig"], rewards={
     Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
     Item({item=169850, note=L["normal"], weekly=57132}), -- Azeroth Mini Pack: Mechagon
     Item({item=168495, note=L["hard"], quest=55074}), -- Blueprint: Rustbolt Requisitions

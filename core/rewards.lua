@@ -157,6 +157,56 @@ function Pet:render (tooltip)
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ QUEST ------------------------------------
+-------------------------------------------------------------------------------
+
+local Quest = Class('Quest', Reward)
+
+function Quest:init ()
+    if type(self.id) == 'number' then
+        self.id = {self.id}
+    end
+
+    for i, id in ipairs(self.id) do
+        C_QuestLog.GetQuestInfo(id) -- fetch info from server
+    end
+end
+
+function Quest:obtained ()
+    for i, id in ipairs(self.id) do
+        if not IsQuestFlaggedCompleted(id) then return false end
+    end
+    return true
+end
+
+function Quest:render (tooltip)
+    local name = C_QuestLog.GetQuestInfo(self.id[1])
+    if #self.id == 1 then
+        local completed = IsQuestFlaggedCompleted(self.id)
+        local status = completed and L['(completed)'] or L['(incomplete)']
+    else
+        -- local count = 0
+        -- for i, id in ipairs(self.id) do
+        --     if IsQuestFlaggedCompleted(id) then count = count + 1 end
+        -- end
+        -- local status = count == #self.id and L['']
+    end
+    local icon = ns.icons.quest_yellow
+    tooltip:AddDoubleLine((name or UNKNOWN), status)
+    tooltip:AddTexture(icon.icon, {
+        width = 12,
+        height = 12,
+        texCoords = {
+            left=icon.tCoordLeft,
+            right=icon.tCoordRight,
+            top=icon.tCoordTop,
+            bottom=icon.tCoordBottom
+        },
+        margin = { right=0 }
+    })
+end
+
+-------------------------------------------------------------------------------
 ------------------------------------- TOY -------------------------------------
 -------------------------------------------------------------------------------
 
@@ -230,6 +280,7 @@ ns.reward = {
     Item=Item,
     Mount=Mount,
     Pet=Pet,
+    Quest=Quest,
     Toy=Toy,
     Transmog=Transmog
 }
