@@ -1,5 +1,6 @@
 local ADDON_NAME, ns = ...
 local ICONS = "Interface\\Addons\\"..ADDON_NAME.."\\icons\\icons.blp"
+local ICONS_SIZE = 256
 
 ns.icons = {
 
@@ -17,26 +18,36 @@ ns.icons = {
     -------------------------------- EMBEDDED ---------------------------------
     ---------------------------------------------------------------------------
 
-    battle_pet = { icon=ICONS, l=145/256, r=175/256, t=81/256, b=108/256 },
-    portal = { icon=ICONS, l=123/256, r=150/256, t=110/256, b=135/256 },
-    treasure = { icon=ICONS, l=121/256, r=143/256, t=82/256, b=107/256 },
-    peg_blue = { icon=ICONS, l=0/256, r=20/256, t=63/256, b=82/256 },
-    cave = { icon=ICONS, l=94/256, r=116/256, t=1/256, b=25/256 },
-    star_chest = { icon=ICONS, l=118/256, r=153/256, t=45/256, b=80/256 },
-    shootbox_blue = { icon=ICONS, l=119/256, r=152/256, t=1/256, b=43/256 },
-    skull_white = { icon=ICONS, l=5/256, r=33/256, t=113/256, b=143/256 },
-    skull_blue = { icon=ICONS, l=5/256, r=33/256, t=153/256, b=183/256 }
+    -- coords={l, r, t, b}
+    battle_pet = { icon=ICONS, coords={1, 29, 213, 239} },
+    cave = { icon=ICONS, coords={94, 116, 1, 25} },
+    peg_blue = { icon=ICONS, coords={0, 20, 63, 82} },
+    portal = { icon=ICONS, coords={1, 28, 186, 211} },
+    shootbox_blue = { icon=ICONS, coords={119, 152, 1, 43} },
+    skull_blue = { icon=ICONS, coords={78, 105, 134, 163} },
+    skull_white = { icon=ICONS, coords={78, 105, 104, 133} },
+    star_chest = { icon=ICONS, coords={118, 153, 45, 80} },
+    treasure = { icon=ICONS, coords={119, 141, 81, 106} },
+    treasure_yellow = { icon=ICONS, coords={143, 165, 81, 106} },
+    treasure_orange = { icon=ICONS, coords={167, 189, 81, 106} },
+    treasure_red = { icon=ICONS, coords={191, 213, 81, 106} },
+    treasure_purple = { icon=ICONS, coords={119, 141, 107, 132} },
+    treasure_blue = { icon=ICONS, coords={143, 165, 107, 132} },
+    treasure_teal = { icon=ICONS, coords={167, 189, 107, 132} },
+    treasure_green = { icon=ICONS, coords={191, 213, 107, 132} },
+    treasure_camo = { icon=ICONS, coords={119, 141, 133, 159} },
+    treasure_lime = { icon=ICONS, coords={143, 165, 133, 159} },
+    treasure_brown = { icon=ICONS, coords={167, 189, 133, 159} },
+    treasure_white = { icon=ICONS, coords={191, 213, 133, 159} }
 
 };
 
 for name, icon in pairs(ns.icons) do
     if type(icon) == 'table' then
-        ns.icons[name] = {
-            icon = icon.icon,
-            tCoordLeft = icon.l,
-            tCoordRight = icon.r,
-            tCoordTop = icon.t,
-            tCoordBottom = icon.b
-        }
+        icon.tCoordLeft = icon.coords[1]/ICONS_SIZE
+        icon.tCoordRight = icon.coords[2]/ICONS_SIZE
+        icon.tCoordTop = icon.coords[3]/ICONS_SIZE
+        icon.tCoordBottom = icon.coords[4]/ICONS_SIZE
+        icon.coords = nil
     end
 end

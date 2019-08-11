@@ -24,17 +24,21 @@ L["sparkqueen_note"] = 'Spawns only when the "Bugs, Lots of \'Em!" daily is acti
 L["rusty_note"] = "Craft a Personal Time Displacer at Pascal-K1N6 to enter the alternate future. Only spawns when Chromie is NOT present in Rustbolt.";
 L["vaultbot_note"] = "Kite to the tesla coil in Bondo's Yard or craft a Vaultbot Key at Pascal-K1N6 to break him open.";
 
-L["iron_chest"] = "Irontide Lockbox";
-L["mech_chest"] = "Mechanized Supply Chest";
-L["rust_chest"] = "Old Rusty Chest";
-L["iron_chest_note"] = "Open with an Irontide Lockbox Key dropped from mobs in the Western Spray.";
-L["mech_chest_note"] = "Open with a Mechanized Supply Key dropped from mobs in the Western Spray.";
-L["rust_chest_note"] = "Open with an Old Rusty Key dropped from mobs in the Western Spray.";
+L["iron_chest"] = "Irontide Lockbox"
+L["mech_chest"] = "Mechanized Chest"
+L["msup_chest"] = "Mechanized Supply Chest"
+L["rust_chest"] = "Old Rusty Chest"
+L["iron_chest_note"] = "Open with an Irontide Lockbox Key dropped from mobs in the Western Spray."
+L["msup_chest_note"] = "Open with a Mechanized Supply Key dropped from mobs in the Western Spray."
+L["rust_chest_note"] = "Open with an Old Rusty Key dropped from mobs in the Western Spray."
 
 L["rec_rig"] = "Reclamation Rig"
 L["rec_rig_note"] = "To activate hard-mode, use the Supercollider weapon to convert all Irradiated Elementals into Unstable Irradiated Elementals. Pets are obtainable on both difficulties."
 
-L["options_toggle_treasures_mech"] = "Display locations of locked chests in the Wester Spray."
+L["options_toggle_mech_chest"] = "Mechanized Chests"
+L["options_toggle_mech_chest_desc"] = "Display locations of mechanized chests. There are 10 unique chests that can be looted once a day and each chest has 4-5 spawn locations. Locations are grouped by color."
+L["options_toggle_locked_chest"] = "Locked Chests"
+L["options_toggle_locked_chest_desc"] = "Display locations of locked chests in the Western Spray."
 L["options_toggle_recrig"] = "Reclamation Rig"
 L["options_toggle_recrig_desc"] = "Display the location of the Reclamation Rig and its rewards."
 

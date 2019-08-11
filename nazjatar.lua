@@ -4,6 +4,7 @@
 
 local ADDON_NAME, ns = ...
 local L = ns.locale
+local Map = ns.Map
 local isinstance = ns.isinstance
 
 local Node = ns.node.Node
@@ -21,11 +22,36 @@ local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
-local MAPID = 1355
-
-local nodes = {}
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
+
+-------------------------------------------------------------------------------
+------------------------------------- MAP -------------------------------------
+-------------------------------------------------------------------------------
+
+local map = Map({ id=1355 })
+local nodes = map.nodes
+
+function map:enabled (node, coord, minimap)
+    if not Map.enabled(self, node, coord, minimap) then return false end
+
+    local profile = ns.addon.db.profile
+    if isinstance(node, Treasure) then return profile.treasure_nazjatar end
+    if isinstance(node, Rare) then return profile.rare_nazjatar end
+    if isinstance(node, Supply) then return profile.supply_nazjatar end
+    if isinstance(node, Cave) then return profile.cave_nazjatar end
+    if isinstance(node, PetBattle) then return profile.pet_nazjatar end
+    if node.id == 151782 or node.label == L["slimy_cocoon"] then
+        return profile.slime_nazjatar
+    end
+    if node.label == L["cat_figurine"] then
+        return profile.cats_nazjatar
+    end
+    if node.label == L["mardivas_lab"] or node.label == L["murloco"] then
+        return profile.misc_nazjatar
+    end
+    return false
+end
 
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
@@ -117,24 +143,6 @@ options.miscNazjatar = {
     order = 18,
     width = "normal",
 };
-
-ns.included[MAPID] = function (node, profile)
-    if isinstance(node, Treasure) then return profile.treasure_nazjatar end
-    if isinstance(node, Rare) then return profile.rare_nazjatar end
-    if isinstance(node, Supply) then return profile.supply_nazjatar end
-    if isinstance(node, Cave) then return profile.cave_nazjatar end
-    if isinstance(node, PetBattle) then return profile.pet_nazjatar end
-    if node.id == 151782 or node.label == L["slimy_cocoon"] then
-        return profile.slime_nazjatar
-    end
-    if node.label == L["cat_figurine"] then
-        return profile.cats_nazjatar
-    end
-    if node.label == L["mardivas_lab"] or node.label == L["murloco"] then
-        return profile.misc_nazjatar
-    end
-    return false
-end
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -537,4 +545,6 @@ nodes[60683221] = Node({quest=55121, icon="portal", scale=1.2, label=L["mardivas
 
 nodes[45993245] = Node({icon="diablo_murloc", label=L["murloco"], note=L["tentacle_taco"]})
 
-ns.nodes[MAPID] = nodes
+-------------------------------------------------------------------------------
+
+ns.maps[map.id] = map

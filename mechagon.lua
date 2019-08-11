@@ -4,6 +4,8 @@
 
 local _, ns = ...
 local L = ns.locale
+local Class = ns.Class
+local Map = ns.Map
 local isinstance = ns.isinstance
 
 local Node = ns.node.Node
@@ -18,17 +20,57 @@ local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
-local MAPID = 1462
-
-local nodes = {}
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
+
+-------------------------------------------------------------------------------
+------------------------------------- MAP -------------------------------------
+-------------------------------------------------------------------------------
+
+local map = Map({ id=1462 })
+local nodes = map.nodes
+local TIME_DISPLACEMENT = 296644
+
+function map:prepare ()
+    self.future = AuraUtil.FindAuraByName(GetSpellInfo(TIME_DISPLACEMENT), 'player')
+end
+
+function map:enabled (node, coord, minimap)
+    if not Map.enabled(self, node, coord, minimap) then return false end
+
+    -- check node's future availability (nil=no, 1=yes, 2=both)
+    if self.future and not node.future then return false end
+    if not self.future and node.future == 1 then return false end
+
+    local profile = ns.addon.db.profile
+    if isinstance(node, Treasure) then
+        if node.quest then return profile.chest_mech end
+        return profile.locked_mech
+    end
+    if isinstance(node, Rare) then return profile.rare_mech end
+    if isinstance(node, PetBattle) then return profile.pet_mech end
+    if node.label == L["rec_rig"] then return profile.recrig_mech end
+    return false;
+end
+
+-- Listen for aura applied/removed events so we can refresh when the player
+-- enters and exits the alternate future
+ns.addon:RegisterEvent('COMBAT_LOG_EVENT_UNFILTERED', function ()
+    local _,e,_,_,_,_,_,_,t,_,_,s  = CombatLogGetCurrentEventInfo()
+    if (e == 'SPELL_AURA_APPLIED' or e == 'SPELL_AURA_REMOVED') and
+        t == UnitName('player') and s == TIME_DISPLACEMENT then
+        C_Timer.After(1, function()
+            ns.addon:Refresh();
+        end);
+    end
+end)
 
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
-defaults['treasure_mech'] = true;
+defaults['chest_mech'] = false;
+defaults['locked_mech'] = true;
 defaults['rare_mech'] = true;
 defaults['pet_mech'] = true;
 defaults['recrig_mech'] = true;
@@ -39,12 +81,22 @@ options.groupMechagon = {
     order = 0,
 };
 
-options.treasureMechagon = {
+options.mechChestMechagon = {
     type = "toggle",
-    arg = "treasure_mech",
-    name = L["options_toggle_treasures"],
-    desc = L["options_toggle_treasures_mech"],
+    arg = "chest_mech",
+    name = L["options_toggle_mech_chest"],
+    desc = L["options_toggle_mech_chest_desc"],
     order = 1,
+    width = "normal",
+};
+
+
+options.lockedChestMechagon = {
+    type = "toggle",
+    arg = "locked_mech",
+    name = L["options_toggle_locked_chest"],
+    desc = L["options_toggle_locked_chest_desc"],
+    order = 2,
     width = "normal",
 };
 
@@ -53,7 +105,7 @@ options.rareMechagon = {
     arg = "rare_mech",
     name = L["options_toggle_rares"],
     desc = L["options_toggle_rares_desc"],
-    order = 2,
+    order = 3,
     width = "normal",
 };
 
@@ -62,7 +114,7 @@ options.petMechagon = {
     arg = "pet_mech",
     name = L["options_toggle_battle_pets"],
     desc = L["options_toggle_battle_pets_desc"],
-    order = 3,
+    order = 4,
     width = "normal",
 };
 
@@ -71,23 +123,15 @@ options.recrigMechagon = {
     arg = "recrig_mech",
     name = L["options_toggle_recrig"],
     desc = L["options_toggle_recrig_desc"],
-    order = 3,
+    order = 5,
     width = "normal",
 };
-
-ns.included[MAPID] = function (node, profile)
-    if isinstance(node, Treasure) then return profile.treasure_mech end
-    if isinstance(node, Rare) then return profile.rare_mech end
-    if isinstance(node, PetBattle) then return profile.pet_mech end
-    if node.label == L["rec_rig"] then return profile.recrig_mech end
-    return false;
-end;
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-nodes[52894092] = Rare({id=151934, quest=55512, note=nil, rewards={
+nodes[52894092] = Rare({id=151934, quest=55512, future=2, note=nil, rewards={
     Achievement({id=13470, criteria=45124}), -- Kill
     Mount({id=1229, item=168823}) -- Rusty Mechanocrawler
 }}); -- Arachnoid Harvester
@@ -269,7 +313,7 @@ nodes[68434776] = Rare({id=152113, quest=55858, note=L["drill_rig"]..'(DR-CC88).
     Pet({id=2753, item=169886}) -- Spraybot 0D
 }}); -- The Kleptoboss
 
-nodes[57335827] = Rare({id=154225, quest=56182, note=L["rusty_note"], rewards={
+nodes[57335827] = Rare({id=154225, quest=56182, future=2, note=L["rusty_note"], rewards={
     Achievement({id=13470, criteria=45374}), -- Kill
     Toy({item=169347}), -- Judgment of Mechagon
     Transmog({item=170467, slot=L["1h_sword"]}) -- Whirring Chainblade
@@ -285,7 +329,7 @@ nodes[57062218] = Rare({id=151940, quest=55538, note=L["cave_spawn"], rewards={
     Achievement({id=13470, criteria=45132}) -- Kill
 }}); -- Uncle T'Rogg
 
-nodes[53824933] = Rare({id=150394, quest=55546, note=L["vaultbot_note"], rewards={
+nodes[53824933] = Rare({id=150394, quest=55546, future=2, note=L["vaultbot_note"], rewards={
     Achievement({id=13470, criteria=45158}), -- Kill
     Item({item=167843, quest=55058}), -- Blueprint: Vaultbot Key
     Item({item=167796, quest=55455}), -- Paint Vial: Mechagon Gold
@@ -306,7 +350,7 @@ nodes[39504010] = PetBattle({id=154928, icon='battle_pet'}) -- Unit 6
 nodes[72107290] = PetBattle({id=154929, icon='battle_pet'}) -- Unit 17
 
 -------------------------------------------------------------------------------
----------------------------------- TREASURES ----------------------------------
+-------------------------------- LOCKED CHESTS --------------------------------
 -------------------------------------------------------------------------------
 
 -- All chests have a chance to drop
@@ -317,9 +361,83 @@ nodes[23195699] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], re
 nodes[13228581] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
 nodes[19018086] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
 nodes[30775964] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
-nodes[20537120] = Treasure({label=L["mech_chest"], note=L["mech_chest_note"], rewards={RED_PAINT}})
+nodes[20537120] = Treasure({label=L["msup_chest"], note=L["msup_chest_note"], rewards={RED_PAINT}})
 nodes[18357618] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
 nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
+
+-------------------------------------------------------------------------------
+------------------------------ MECHANIZED CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+local TREASURE1 = Treasure({quest=55547, icon='treasure_blue', label=L["mech_chest"]})
+local TREASURE2 = Treasure({quest=55548, icon='treasure_brown', label=L["mech_chest"]})
+local TREASURE3 = Treasure({quest=55549, icon='treasure_camo', label=L["mech_chest"]})
+local TREASURE4 = Treasure({quest=55550, icon='treasure_orange', label=L["mech_chest"]})
+local TREASURE5 = Treasure({quest=55551, icon='treasure_green', future=1, label=L["mech_chest"]})
+local TREASURE6 = Treasure({quest=55552, icon='treasure_purple', label=L["mech_chest"]})
+local TREASURE7 = Treasure({quest=55553, icon='treasure_red', label=L["mech_chest"]})
+local TREASURE8 = Treasure({quest=55554, icon='treasure_lime', label=L["mech_chest"]})
+local TREASURE9 = Treasure({quest=55555, icon='treasure_teal', label=L["mech_chest"]})
+local TREASURE10 = Treasure({quest=55556, icon='treasure_yellow', label=L["mech_chest"]})
+
+-- object 325659
+nodes[43304977] = TREASURE1
+nodes[49223021] = TREASURE1
+nodes[52115326] = TREASURE1
+nodes[53254190] = TREASURE1
+nodes[56973861] = TREASURE1
+-- object 325660
+nodes[20617141] = TREASURE2
+nodes[30785183] = TREASURE2
+nodes[35683833] = TREASURE2
+nodes[40155409] = TREASURE2
+-- object 325661
+nodes[59946357] = TREASURE3
+nodes[65866460] = TREASURE3
+nodes[67075645] = TREASURE3
+nodes[73515334] = TREASURE3
+nodes[80374838] = TREASURE3
+-- object 325662
+nodes[65555284] = TREASURE4
+nodes[72594733] = TREASURE4
+nodes[73014950] = TREASURE4
+nodes[76215286] = TREASURE4
+nodes[81196149] = TREASURE4
+-- object 325663
+nodes[56665739] = TREASURE5
+nodes[58634160] = TREASURE5
+nodes[61583230] = TREASURE5
+nodes[64365961] = TREASURE5
+nodes[70654796] = TREASURE5
+-- object 325664
+nodes[66432227] = TREASURE6
+nodes[64092627] = TREASURE6
+nodes[56782918] = TREASURE6
+nodes[57142283] = TREASURE6
+nodes[55612404] = TREASURE6
+nodes[50662858] = TREASURE6
+-- object 325665
+nodes[67322289] = TREASURE7
+nodes[80691868] = TREASURE7
+nodes[85752824] = TREASURE7
+nodes[86232042] = TREASURE7
+nodes[88732015] = TREASURE7
+-- object 325666
+nodes[48367595] = TREASURE8
+nodes[57258202] = TREASURE8
+nodes[62297390] = TREASURE8
+nodes[66767759] = TREASURE8
+-- object 325667
+nodes[63626715] = TREASURE9
+nodes[72126545] = TREASURE9
+nodes[76516601] = TREASURE9
+nodes[81167231] = TREASURE9
+nodes[85166335] = TREASURE9
+-- object 325668
+nodes[24796526] = TREASURE10
+nodes[20537696] = TREASURE10
+nodes[21788303] = TREASURE10
+nodes[12088568] = TREASURE10
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
@@ -336,4 +454,6 @@ nodes[69976201] = Node({icon="peg_blue", scale=1.2, label=L["rec_rig"], rewards=
     Pet({id=2756, item=169879}) -- Irradiated Elementaling
 }, note=L["rec_rig_note"]}) -- Reclamation Rig
 
-ns.nodes[MAPID] = nodes
+-------------------------------------------------------------------------------
+
+ns.maps[map.id] = map

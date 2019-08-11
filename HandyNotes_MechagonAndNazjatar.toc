@@ -23,6 +23,7 @@ core\class.lua
 core\core.lua
 core\icons.lua
 core\options.lua
+core\map.lua
 core\nodes.lua
 core\rewards.lua
 

@@ -11,9 +11,8 @@ local L = LibStub("AceLocale-3.0"):GetLocale(ADDON_NAME);
 if not HandyNotes then return end
 
 ns.addon = Addon;
-ns.included = {};
 ns.locale = L;
-ns.nodes = {};
+ns.maps = {};
 
 ------------------------------------ TODO -------------------------------------
 
@@ -36,7 +35,7 @@ local DropdownMenu = CreateFrame("Frame", ADDON_NAME.."DropdownMenu");
 DropdownMenu.displayMode = "MENU";
 local function initializeDropdownMenu (button, level, mapID, coord)
     if not level then return end
-    local node = ns.nodes[mapID][coord];
+    local node = ns.maps[mapID].nodes[coord];
     local spacer = {text='', disabled=1, notClickable=1, notCheckable=1};
 
     if (level == 1) then
@@ -91,7 +90,7 @@ end
 -------------------------------------------------------------------------------
 
 function Addon:OnEnter(mapID, coord)
-    local node = ns.nodes[mapID][coord];
+    local node = ns.maps[mapID].nodes[coord];
     local tooltip = self:GetParent() == WorldMapButton and WorldMapTooltip or GameTooltip;
 
     if self:GetCenter() > UIParent:GetCenter() then
@@ -135,7 +134,7 @@ function Addon:OnLeave( mapID, coord )
 end
 
 function Addon:OnClick(button, down, mapID, coord)
-    local node = ns.nodes[mapID][coord];
+    local node = ns.maps[mapID].nodes[coord];
     if button == "RightButton" and down then
         DropdownMenu.initialize = function (button, level)
             initializeDropdownMenu(button, level, mapID, coord);
@@ -160,26 +159,33 @@ end
 
 function Addon:RegisterWithHandyNotes()
     do
-        local mapID, minimap
+        local map, minimap
         local function iter(nodes, precoord)
             if not nodes then return nil end
             if minimap and self.db.profile.hide_minimap then return nil end
             local force = self.db.profile.force_nodes
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
-                if node and (force or node:enabled(self.db, mapID, coord, minimap)) then
-                    local icon, scale, alpha = node:display(self.db)
+                if node and (force or map:enabled(node, coord, minimap)) then
+                    local icon, scale, alpha = node:display()
                     return coord, nil, icon, scale, alpha
                 end
                 coord, node = next(nodes, coord) -- Get next node
             end
             return nil, nil, nil, nil
         end
-        function Addon:GetNodes2(_mapID, _minimap)
-            debug('Loading nodes for map: '.._mapID..' (minimap='..tostring(_minimap)..')')
-            mapID = _mapID
+        function Addon:GetNodes2(mapID, _minimap)
+            debug('Loading nodes for map: '..mapID..' (minimap='..tostring(_minimap)..')')
+            map = ns.maps[mapID]
             minimap = _minimap
-            return iter, ns.nodes[mapID], nil
+
+            if map then
+                map:prepare()
+                return iter, map.nodes, nil
+            end
+
+            -- mapID not handled by this plugin
+            return iter, nil, nil
         end
     end
 

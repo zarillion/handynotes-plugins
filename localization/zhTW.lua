@@ -25,16 +25,20 @@ L["rusty_note"] = "在帕斯卡K1N6型上製作一個［個人時光移轉裝置
 L["vaultbot_note"] = "風箏到邦多的機械廠的特斯拉線圈，或在帕斯卡K1N6型上製作一個保險庫機器人鑰匙來直接打開。";
 
 L["iron_chest"] = "鐵潮帶鎖箱";
-L["mech_chest"] = "機械補給箱";
+L["mech_chest"] = "機械箱";
+L["msup_chest"] = "機械補給箱";
 L["rust_chest"] = "老舊生鏽箱子";
 L["iron_chest_note"] = "開啟鐵潮帶鎖箱的鑰匙從西湧列島小怪掉落。";
-L["mech_chest_note"] = "開啟機械補給箱的鑰匙從西湧列島小怪掉落。";
+L["msup_chest_note"] = "開啟機械補給箱的鑰匙從西湧列島小怪掉落。";
 L["rust_chest_note"] = "開啟老舊生鏽箱子的鑰匙從西湧列島小怪掉落。";
 
 L["rec_rig"] = "廢料回收機"
 L["rec_rig_note"] = "要啟動困難模式，使用超級對撞機武器來將所有輻射元素轉換為不穩定輻射元素。寵物可以在兩種難度中獲得。"
 
-L["options_toggle_treasures_mech"] = "在西湧列島中顯示上鎖箱子的位置。"
+L["options_toggle_mech_chest"] = "機械化箱"
+L["options_toggle_mech_chest_desc"] = "顯示機械化箱子的位置。有10個獨特的箱子可以每天洗一次，每個箱子有4-5個產卵位置。位置按顏色分組。"
+L["options_toggle_locked_chest"] = "鎖定箱子"
+L["options_toggle_locked_chest_desc"] = "在西湧列島中顯示上鎖箱子的位置。"
 L["options_toggle_recrig"] = "廢料回收機"
 L["options_toggle_recrig_desc"] = "顯示廢料回收機的位置以及事件獎賞。"
 
