@@ -237,7 +237,7 @@ nodes[57165258] = Rare({id=151124, quest=55207, note=L["nullifier_note"], reward
     Item({item=169688, quest=56515}) -- Vinyl: Gnomeregan Forever
 }}); -- Mechagonian Nullifier
 
-nodes[88142077] = Rare({id=151672, quest=55386, note=nil, rewards={
+nodes[88142077] = Rare({id=151672, quest=55386, future=2, note=nil, rewards={
     Achievement({id=13470, criteria=45119}), -- Kill
     Pet({id=2720, item=169393}) -- Arachnoid Skitterbot
 }}); -- Mecharantula
@@ -371,14 +371,14 @@ nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], re
 
 local TREASURE1 = Treasure({quest=55547, icon='chest_blue', label=L["mech_chest"]})
 local TREASURE2 = Treasure({quest=55548, icon='chest_brown', label=L["mech_chest"]})
-local TREASURE3 = Treasure({quest=55549, icon='chest_camo', label=L["mech_chest"]})
-local TREASURE4 = Treasure({quest=55550, icon='chest_orange', label=L["mech_chest"]})
-local TREASURE5 = Treasure({quest=55551, icon='chest_lblue', future=1, label=L["mech_chest"]})
-local TREASURE6 = Treasure({quest=55552, icon='chest_purple', label=L["mech_chest"]})
+local TREASURE3 = Treasure({quest=55549, icon='chest_orange', label=L["mech_chest"]})
+local TREASURE4 = Treasure({quest=55550, icon='chest_yellow', label=L["mech_chest"]})
+local TREASURE5 = Treasure({quest=55551, icon='chest_camo', future=1, label=L["mech_chest"]})
+local TREASURE6 = Treasure({quest=55552, icon='chest_lime', label=L["mech_chest"]})
 local TREASURE7 = Treasure({quest=55553, icon='chest_red', label=L["mech_chest"]})
-local TREASURE8 = Treasure({quest=55554, icon='chest_lime', label=L["mech_chest"]})
+local TREASURE8 = Treasure({quest=55554, icon='chest_purple', label=L["mech_chest"]})
 local TREASURE9 = Treasure({quest=55555, icon='chest_teal', label=L["mech_chest"]})
-local TREASURE10 = Treasure({quest=55556, icon='chest_yellow', label=L["mech_chest"]})
+local TREASURE10 = Treasure({quest=55556, icon='chest_lblue', label=L["mech_chest"]})
 
 -- object 325659
 nodes[43304977] = TREASURE1
