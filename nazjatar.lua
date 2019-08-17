@@ -172,8 +172,8 @@ end
 nodes[11952801] = Intro({quest=56156, faction='Alliance', rewards={
     -- The Wolf's Offensive => A Way Home
     Quest({id={56031,56043,55095,54969,56640,56641,56642,56643,56644,55175,54972}}),
-    -- Essential Empowerment => Create Your Own Strength
-    Quest({id={55851,55533,55374,55400,55407,55425,55497,55618,57010,56162,56350,57004}}),
+    -- Essential Empowerment => Scouting the Palace
+    Quest({id={55851,55533,55374,55400,55407,55425,55497,55618,57010,56162,56350}}),
     -- The Lost Shaman => A Tempered Blade
     Quest({id={55361,55362,55363,56156}})
 }})
@@ -181,8 +181,8 @@ nodes[11952801] = Intro({quest=56156, faction='Alliance', rewards={
 nodes[11952802] = Intro({quest=55500, faction='Horde', rewards={
     -- The Warchief's Order => A Way Home
     Quest({id={56030,56044,55054,54018,54021,54012,55092,56063,54015,56429,55094,55053}}),
-    -- Essential Empowerment => Create Your Own Strength
-    Quest({id={55851,55533,55374,55400,55407,55425,55497,55618,57010,56161,55481,57003}}),
+    -- Essential Empowerment => Scouting the Palace
+    Quest({id={55851,55533,55374,55400,55407,55425,55497,55618,57010,56161,55481}}),
     -- Settling In => Save A Friend
     Quest({id={55384,55385,55500}})
 }})
