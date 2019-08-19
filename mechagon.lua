@@ -10,6 +10,7 @@ local isinstance = ns.isinstance
 
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
+local Quest = ns.node.Quest
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -50,6 +51,10 @@ function map:enabled (node, coord, minimap)
     if isinstance(node, Rare) then return profile.rare_mech end
     if isinstance(node, PetBattle) then return profile.pet_mech end
     if node.label == L["rec_rig"] then return profile.recrig_mech end
+
+    -- node for the More Recycling daily
+    if isinstance(node, Quest) then return true end
+
     return false;
 end
 
@@ -369,16 +374,24 @@ nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], re
 ------------------------------ MECHANIZED CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
-local TREASURE1 = Treasure({quest=55547, icon='chest_blue', label=L["mech_chest"]})
-local TREASURE2 = Treasure({quest=55548, icon='chest_brown', label=L["mech_chest"]})
-local TREASURE3 = Treasure({quest=55549, icon='chest_orange', label=L["mech_chest"]})
-local TREASURE4 = Treasure({quest=55550, icon='chest_yellow', label=L["mech_chest"]})
-local TREASURE5 = Treasure({quest=55551, icon='chest_camo', future=1, label=L["mech_chest"]})
-local TREASURE6 = Treasure({quest=55552, icon='chest_lime', label=L["mech_chest"]})
-local TREASURE7 = Treasure({quest=55553, icon='chest_red', label=L["mech_chest"]})
-local TREASURE8 = Treasure({quest=55554, icon='chest_purple', label=L["mech_chest"]})
-local TREASURE9 = Treasure({quest=55555, icon='chest_teal', label=L["mech_chest"]})
-local TREASURE10 = Treasure({quest=55556, icon='chest_lblue', label=L["mech_chest"]})
+local MechChest = Class('MechChest', Treasure)
+
+MechChest.label = L["mech_chest"]
+MechChest.rewards = {
+    Item({item=167790, quest=55451}), -- Paint Vial: Fireball Red
+    Item({item=169850, weekly=57133}) -- Azeroth Mini Pack: Mechagon
+}
+
+local TREASURE1 = MechChest({quest=55547, icon='chest_blue'})
+local TREASURE2 = MechChest({quest=55548, icon='chest_brown'})
+local TREASURE3 = MechChest({quest=55549, icon='chest_orange'})
+local TREASURE4 = MechChest({quest=55550, icon='chest_yellow'})
+local TREASURE5 = MechChest({quest=55551, icon='chest_camo', future=1})
+local TREASURE6 = MechChest({quest=55552, icon='chest_lime'})
+local TREASURE7 = MechChest({quest=55553, icon='chest_red'})
+local TREASURE8 = MechChest({quest=55554, icon='chest_purple'})
+local TREASURE9 = MechChest({quest=55555, icon='chest_teal'})
+local TREASURE10 = MechChest({quest=55556, icon='chest_lblue'})
 
 -- object 325659
 nodes[43304977] = TREASURE1
@@ -443,7 +456,11 @@ nodes[12088568] = TREASURE10
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
--- More Recycling 55743
+nodes[53486145] = Quest({quest=55743, requires=56117, daily=true, minimap=false, scale=1.8, rewards={
+    Item({item=169848, weekly=57134}), -- Azeroth Mini Pack: Bondo's Yard
+}})
+
+-------------------------------------------------------------------------------
 
 local RegRig = Class('RegRig', Node)
 

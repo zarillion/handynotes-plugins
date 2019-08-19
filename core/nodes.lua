@@ -180,6 +180,27 @@ PetBattle.icon = "paw_yellow"
 PetBattle.group = "pet_battles"
 
 -------------------------------------------------------------------------------
+------------------------------------ QUEST ------------------------------------
+-------------------------------------------------------------------------------
+
+local Quest = Class('Quest', Node)
+
+Quest.note = AVAILABLE_QUEST
+
+function Quest:init ()
+    Node.init(self)
+    C_QuestLog.GetQuestInfo(self.quest[1]) -- fetch info from server
+end
+
+function Quest.getters:icon ()
+    return self.daily and 'quest_blue' or 'quest_yellow'
+end
+
+function Quest.getters:label ()
+    return C_QuestLog.GetQuestInfo(self.quest[1])
+end
+
+-------------------------------------------------------------------------------
 ------------------------------------ RARE -------------------------------------
 -------------------------------------------------------------------------------
 
@@ -232,6 +253,7 @@ ns.node = {
     Cave=Cave,
     NPC=NPC,
     PetBattle=PetBattle,
+    Quest=Quest,
     Rare=Rare,
     Supply=Supply,
     Treasure=Treasure
