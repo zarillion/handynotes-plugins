@@ -369,6 +369,7 @@ nodes[30775964] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], re
 nodes[20537120] = Treasure({label=L["msup_chest"], note=L["msup_chest_note"], rewards={RED_PAINT}})
 nodes[18357618] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
 nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
+nodes[23988441] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
 
 -------------------------------------------------------------------------------
 ------------------------------ MECHANIZED CHESTS ------------------------------
@@ -378,6 +379,7 @@ local MechChest = Class('MechChest', Treasure)
 
 MechChest.label = L["mech_chest"]
 MechChest.rewards = {
+    Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
     Item({item=167790, quest=55451}), -- Paint Vial: Fireball Red
     Item({item=169850, weekly=57133}) -- Azeroth Mini Pack: Mechagon
 }
@@ -457,6 +459,7 @@ nodes[12088568] = TREASURE10
 -------------------------------------------------------------------------------
 
 nodes[53486145] = Quest({quest=55743, requires=56117, daily=true, minimap=false, scale=1.8, rewards={
+    Achievement({id=13708, criteria={45772,45775,45776,45777,45778}}), -- Most Minis Wins
     Item({item=169848, weekly=57134}), -- Azeroth Mini Pack: Bondo's Yard
 }})
 

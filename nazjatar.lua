@@ -544,7 +544,7 @@ nodes[29604970] = PetBattle({id=154916, note=L["in_cave"]}) -- Ravenous Scalespa
 nodes[56400810] = PetBattle({id=154917, note=L["in_cave"]}) -- Mindshackle
 nodes[46602800] = PetBattle({id=154918, note=L["in_cave"]}) -- Kelpstone
 nodes[37501670] = PetBattle({id=154919, note=L["in_cave"]}) -- Voltgorger
-nodes[59102660] = PetBattle({id=154920, note=L["in_cave"]}) -- Frenzied Knifefang
+nodes[61472290] = PetBattle({id=154920, note=L["in_cave"]}) -- Frenzied Knifefang
 nodes[28102670] = PetBattle({id=154921, note=L["in_cave"]}) -- Giant Opaline Conch
 
 -------------------------------------------------------------------------------
