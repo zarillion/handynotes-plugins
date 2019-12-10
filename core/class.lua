@@ -1,10 +1,8 @@
 local _, ns = ...
 
-ns.Class = function (name, parent, attrs)
+ns.Class = function (name, parent)
     parent = parent or {}
-    local Class = attrs or {}
-    Class.getters = {}
-    Class.setters = {}
+    local Class = { getters = {}, setters = {} }
 
     setmetatable(Class, {
         __call = function (self, instance)
@@ -66,11 +64,4 @@ ns.isinstance = function (instance, class)
         return compare(c1, c2.__parent)
     end
     return compare(class, instance.__class)
-end
-
-ns.clone = function (instance, newattrs)
-    local clone = {}
-    for k, v in pairs(instance) do clone[k] = v end
-    for k, v in pairs(newattrs or {}) do clone[k] = v end
-    return instance.__class(clone)
 end
