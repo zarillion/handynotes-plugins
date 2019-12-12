@@ -6,7 +6,9 @@ if not L then return end
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
+L["ajqirai"] = "Inside the Chamber of the Moon."
 L["black_empire_cache"] = "Black Empire Cache"
+L["dunewalker"] = "Inside the Chamber of the Sun."
 L["falconer"] = "Pats north-east and south-west between Neferset and the Cradle of the Ancients."
 L["gexec"] = "Spawns on top of the floating platform."
 L["rkhuzj"] = "Pats north and south along the river."
@@ -14,6 +16,9 @@ L["rkhuzj"] = "Pats north and south along the river."
 -------------------------------------------------------------------------------
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
+
+L["ambered_cache"] = "Ambered Cache"
+L["jadec"] = "Inside Guo-Lai Halls."
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
