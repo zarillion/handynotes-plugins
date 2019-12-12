@@ -64,13 +64,35 @@ options.petUldum = {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+nodes[66817436] = Rare({id=158557, quest=57669, note=nil}) -- Actiss the Deceiver
+nodes[49363822] = Rare({id=158594, quest=57672, note=nil}) -- Doomsayer Vathiris
+nodes[48657067] = Rare({id=158491, quest=nil, note=L["falconer"]}) -- Falconer Amenophis
 nodes[54694317] = Rare({id=158597, quest=57675, note=nil}) -- High Executor Yothrim
+nodes[60033950] = Rare({id=160623, quest=58206, note=nil}) -- Hungering Miasma
+nodes[71237375] = Rare({id=156655, quest=nil, note=nil}) -- Korzaran the Slaughterer
+nodes[58175712] = Rare({id=156299, quest=57430, note=L["rkhuzj"]}) -- R'khuzj the Unfathomable
+nodes[57003794] = Rare({id=161033, quest=58333, note=nil}) -- Shadowmaw
+nodes[58558282] = Rare({id=156654, quest=nil, note=nil}) -- Shol'thoss the Doomspeaker
+nodes[61297484] = Rare({id=160532, quest=58169, note=nil}) -- Shoth the Darkened
+nodes[49328235] = Rare({id=158636, quest=nil, note=L["gexec"]}) -- The Grand Executor
+-- nodes[] = Rare({id=, quest=, note=nil}) --
+
+-------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+nodes[58361535] = Treasure({quest=57623, label=L["black_empire_cache"]})
+nodes[50793143] = Treasure({quest=57624, label=L["black_empire_cache"]})
+-- nodes[] = Treasure({quest=57625, label=L["black_empire_cache"]})
+nodes[62977610] = Treasure({quest=57626, label=L["black_empire_cache"]})
+nodes[60757493] = Treasure({quest=57627, label=L["black_empire_cache"]})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
 nodes[57604356] = PetBattle({id=162466}) -- Blotto
+nodes[62043188] = PetBattle({id=162458}) -- Retinus the Seeker
 
 -------------------------------------------------------------------------------
 
