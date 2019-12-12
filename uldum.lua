@@ -79,6 +79,9 @@ nodes[48657067] = Rare({id=158491, quest=nil, note=L["falconer"]}) -- Falconer A
 nodes[54694317] = Rare({id=158597, quest=57675, note=nil}) -- High Executor Yothrim
 nodes[60033950] = Rare({id=160623, quest=58206, note=nil}) -- Hungering Miasma
 nodes[21405794] = Rare({id=155531, quest=56823, note=nil}) -- Infested Wastewander Captain
+nodes[73908353] = Rare({id=157134, quest=nil, note=nil, rewards={
+    Mount({id=1314, item=174641}) -- Drake of the Four Winds
+}}) -- Ishak of the Four Winds
 nodes[71237375] = Rare({id=156655, quest=nil, note=nil}) -- Korzaran the Slaughterer
 nodes[34681890] = Rare({id=154604, quest=nil, note=L["ajqirai"], rewards={
     Pet({id=2847, item=174475}) -- Rotbreath

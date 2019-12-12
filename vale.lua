@@ -59,6 +59,9 @@ nodes[06406433] = Rare({id=160893, quest=58308, note=nil}) -- Captain Vor'lek
 nodes[26506657] = Rare({id=160872, quest=58304, note=nil}) -- Destroyer Krox'tazar
 nodes[11854081] = Rare({id=160874, quest=58305, note=nil}) -- Drone Keeper Ak'thet
 nodes[10474089] = Rare({id=160876, quest=58306, note=nil}) -- Enraged Amber Elemental
+nodes[29513800] = Rare({id=157153, quest=nil, note=nil, rewards={
+    Mount({id=1297, item=173887}) -- Clutch of Ha-Li
+}}) -- Ha-Li
 nodes[28895272] = Rare({id=160810, quest=58299, note=nil}) -- Harbinger Il'koxik
 nodes[12835129] = Rare({id=160868, quest=58303, note=nil}) -- Harrier Nir'verash
 nodes[21256265] = Rare({id=160826, quest=58301, note=nil}) -- Hive-Guard Naz'ruzek
@@ -93,12 +96,15 @@ nodes[07693682] = Treasure({quest=58226, label=L["ambered_cache"]})
 nodes[26704680] = Treasure({quest=58227, label=L["ambered_cache"]})
 nodes[31724184] = Treasure({quest=58227, label=L["ambered_cache"]})
 nodes[15406394] = Treasure({quest=58228, label=L["ambered_cache"]})
+nodes[16096581] = Treasure({quest=58228, label=L["ambered_cache"]})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
 nodes[28553494] = PetBattle({id=162470}) -- Baruk Stone Defender
+nodes[56172822] = PetBattle({id=162468}) -- K'tiny the Mad
+nodes[57465427] = PetBattle({id=162469}) -- Tormentius
 nodes[07333190] = PetBattle({id=162471}) -- Vil'thik Hatchling
 
 -------------------------------------------------------------------------------
