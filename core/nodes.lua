@@ -206,11 +206,17 @@ end
 
 local Rare = Class('Rare', NPC)
 
-Rare.scale = 1.5
 Rare.group = "rares"
 
 function Rare.getters:icon ()
+    if self._focus then
+        return self:done() and 'skull_white_green_glow' or 'skull_blue_green_glow'
+    end
     return self:done() and 'skull_white' or 'skull_blue'
+end
+
+function Rare.getters:scale ()
+    return self._focus and 2.3 or 1.5
 end
 
 function Rare:enabled (map, coord, minimap)

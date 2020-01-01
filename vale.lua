@@ -21,6 +21,8 @@ local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Path = ns.poi.Path
+
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
 
@@ -65,9 +67,9 @@ nodes[29513800] = Rare({id=157153, quest=nil, note=nil, rewards={
 nodes[28895272] = Rare({id=160810, quest=58299, note=nil}) -- Harbinger Il'koxik
 nodes[12835129] = Rare({id=160868, quest=58303, note=nil}) -- Harrier Nir'verash
 nodes[21256265] = Rare({id=160826, quest=58301, note=nil}) -- Hive-Guard Naz'ruzek
-nodes[10003200] = Rare({id=157160, quest=nil, note=nil, reward={
+nodes[10003200] = Rare({id=157160, quest=nil, note=nil, rewards={
     Mount({id=1327, item=174841}) -- Ren's Stalwart Hound
-}}) -- Houndlord Ren
+}, pois={Path({12962629, 10033210, 08823911, 09274535})}}) -- Houndlord Ren
 nodes[18426557] = Rare({id=160930, quest=58312, note=nil}) -- Infused Amber Ooze
 nodes[17201159] = Rare({id=160968, quest=58295, note=L["jadec"]}) -- Jade Colossus
 nodes[17850918] = Rare({id=160920, quest=58310, note=nil}) -- Kal'tik the Blight
@@ -89,7 +91,7 @@ nodes[54266272] = Rare({id=154495, quest=nil, note=nil, rewards={
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
---nodes[] = Treasure({quest=58224, label=L["ambered_cache"]})
+nodes[15797164] = Treasure({quest=58224, label=L["ambered_cache"]})
 nodes[21051415] = Treasure({quest=58225, label=L["ambered_cache"]})
 nodes[09302831] = Treasure({quest=58226, label=L["ambered_cache"]})
 nodes[07693682] = Treasure({quest=58226, label=L["ambered_cache"]})

@@ -138,10 +138,17 @@ function Addon:OnEnter(mapID, coord)
         end
     end
 
+    node._hover = true
+    ns.MinimapDataProvider:RefreshAllData()
+    ns.WorldMapDataProvider:RefreshAllData()
     tooltip:Show();
 end
 
-function Addon:OnLeave( mapID, coord )
+function Addon:OnLeave(mapID, coord)
+    local node = ns.maps[mapID].nodes[coord]
+    node._hover = false
+    ns.MinimapDataProvider:RefreshAllData()
+    ns.WorldMapDataProvider:RefreshAllData()
     if self:GetParent() == WorldMapButton then
         WorldMapTooltip:Hide();
     else
@@ -150,14 +157,19 @@ function Addon:OnLeave( mapID, coord )
 end
 
 function Addon:OnClick(button, down, mapID, coord)
-    local node = ns.maps[mapID].nodes[coord];
+    local node = ns.maps[mapID].nodes[coord]
     if button == "RightButton" and down then
         DropdownMenu.initialize = function (button, level)
-            initializeDropdownMenu(button, level, mapID, coord);
+            initializeDropdownMenu(button, level, mapID, coord)
         end;
         ToggleDropDownMenu(1, nil, DropdownMenu, self, 0, 0)
     elseif button == "LeftButton" and down then
-        -- toggle sticky overlay
+        if node.pois then
+            node._focus = not node._focus
+            ns.MinimapDataProvider:RefreshAllData()
+            ns.WorldMapDataProvider:RefreshAllData()
+            Addon:Refresh()
+        end
     end
 end
 
@@ -167,7 +179,7 @@ function Addon:OnInitialize()
     self:RegisterEvent("PLAYER_ENTERING_WORLD", function ()
         self:UnregisterEvent("PLAYER_ENTERING_WORLD")
         self:ScheduleTimer("RegisterWithHandyNotes", 1)
-    end);
+    end)
 end
 
 -------------------------------------------------------------------------------
