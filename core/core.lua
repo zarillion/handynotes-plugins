@@ -38,6 +38,8 @@ local function debug(...)
     end
 end
 
+ns.debug = debug
+
 local function start_quest_listener()
     local frame = CreateFrame('Frame', ADDON_NAME.."QuestListener")
     local lastCheck = GetTime()

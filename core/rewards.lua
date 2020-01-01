@@ -184,7 +184,7 @@ function Quest:render (tooltip)
 
     local status = ''
     if #self.id == 1 then
-        local completed = IsQuestFlaggedCompleted(self.id)
+        local completed = IsQuestFlaggedCompleted(self.id[1])
         status = completed and Green(L['completed']) or Red(L['incomplete'])
     else
         local count = 0

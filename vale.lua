@@ -10,7 +10,6 @@ local isinstance = ns.isinstance
 
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
-local Quest = ns.node.Quest
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -18,6 +17,7 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Quest = ns.reward.Quest
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -32,23 +32,29 @@ local EMP, MAN, MOG = 0, 1, 2 -- assaults
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=1530 })
+local map = Map({ id=1530, phased=false })
 local nodes = map.nodes
 
-function map:prepare ()
-    local textures = C_MapExplorationInfo.GetExploredMapTextures(self.id)
+local function GetAssault()
+    local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
     if textures and textures[1].fileDataIDs[1] == 3155826 then
-        self.assault = MAN -- left
+        return MAN -- left
     elseif textures and textures[1].fileDataIDs[1] == 3155832 then
-        self.assault = MOG -- middle
+        return MOG -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3155841 then
-        self.assault = EMP -- right
+        return EMP -- right
     end
-    -- self.phased = self.intros[ns.faction]:done()
+end
+
+function map:prepare ()
+    self.assault = GetAssault()
+    self.phased = self.assault ~= nil
 end
 
 function map:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
+
+    if node == map.intro then return true end
 
     local assault = node.assault
     if assault then
@@ -71,6 +77,52 @@ options.groupVale = {
     name = L["vale"],
     order = 0,
 };
+
+-------------------------------------------------------------------------------
+------------------------------------ INTRO ------------------------------------
+-------------------------------------------------------------------------------
+
+local Intro = Class('Intro', Node)
+
+Intro.note = L["vale_intro_note"]
+Intro.icon = 'quest_yellow'
+Intro.scale = 3
+
+function Intro:enabled ()
+    if not Node.enabled(self) then return false end
+    return GetAssault() == nil
+end
+
+function Intro.getters:label ()
+    return select(2, GetAchievementInfo(14154)) -- Defend the Vale
+end
+
+-- Where the Heart is => Surfacing Threats
+local Q1 = Quest({id={58583, 58506, 56374, 56209, 56375, 56472, 56376}})
+-- Forging Onward => Magni's Findings
+local Q2 = Quest({id={56377, 56536, 56537, 56538, 56539, 56771, 56540, 56541, 56542, 58737}})
+
+if UnitFactionGroup('player') == 'Alliance' then
+    map.intro = Intro({faction='Alliance', rewards={
+        Quest({id={58496, 58498}}), Q1, Q2
+    }})
+else
+    map.intro = Intro({faction='Horde', rewards={
+        Quest({id={58582}}), Q1, Q2
+    }})
+end
+
+nodes[26005200] = map.intro
+
+-- ns.addon:RegisterEvent('QUEST_WATCH_UPDATE', function (_, index)
+--     local _, _, _, _, _, _, _, questID = GetQuestLogTitle(index)
+--     if questID == 56376 then
+--         debug('Uldum assaults unlock detected')
+--         C_Timer.After(1, function()
+--             ns.addon:Refresh()
+--         end)
+--     end
+-- end)
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

@@ -12,6 +12,8 @@ local Class = ns.Class
 local Map = Class('Map')
 
 Map.id = 0
+Map.intro = nil
+Map.phased = true
 
 function Map:init ()
     self.nodes = {}
@@ -22,10 +24,16 @@ function Map:prepare () end
 function Map:enabled (node, coord, minimap)
     local db = ns.addon.db
 
+    -- Check if the zone is still phased
+    if node ~= self.intro and not self.phased then return false end
+
     -- Check if we've been hidden by the user
     if db.char[self.id..'_coord_'..coord] then return false end
 
-    return node:enabled(self, coord, minimap)
+    -- Check minimap, faction and quest completion
+    if not node:enabled(self, coord, minimap) then return false end
+
+    return true
 end
 
 -------------------------------------------------------------------------------

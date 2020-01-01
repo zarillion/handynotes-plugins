@@ -18,6 +18,7 @@ L["rkhuzj"] = "Pats north and south along the river."
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
+L["vale_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in the Vale of Eternal Blossoms."
 L["ambered_cache"] = "Ambered Cache"
 L["jadec"] = "Inside Guo-Lai Halls."
 
