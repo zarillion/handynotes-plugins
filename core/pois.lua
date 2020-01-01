@@ -33,12 +33,12 @@ end
 function Path:draw (pin, type, xy1, xy2)
     local t = pin.texture
     t:SetTexCoord(0, 1, 0, 1)
-    t:SetVertexColor(1, 1, 1, 1)
+    t:SetVertexColor(0, 0.5, 1, 1)
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\"..type)
 
-    pin:SetAlpha(1)
+    pin:SetAlpha(0.75)
     if type == 'circle' then
-        pin:SetSize(6, 6)
+        pin:SetSize(10, 10)
         return HandyNotes:getXY(xy1)
     else
         local x1, y1 = HandyNotes:getXY(xy1)
@@ -47,7 +47,7 @@ function Path:draw (pin, type, xy1, xy2)
         local x2p = x2 * pin.parentWidth
         local y1p = y1 * pin.parentHeight
         local y2p = y2 * pin.parentHeight
-        pin:SetSize(sqrt((x2p-x1p)^2 + (y2p-y1p)^2), 45)
+        pin:SetSize(sqrt((x2p-x1p)^2 + (y2p-y1p)^2), 60)
         t:SetRotation(-math.atan2(y2p-y1p, x2p-x1p))
         return (x1+x2)/2, (y1+y2)/2
     end

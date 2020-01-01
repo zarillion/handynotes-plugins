@@ -65,10 +65,16 @@ function MinimapDataProvider:AcquirePin(mapID, poi, ...)
         pin = self:CreatePin()
     end
 
-    -- calculate the scale size for this zoom level
+    -- Calculate the scale size for this zoom level. Don't ask where I got
+    -- the 700 and 466 values from. I tried values at the 1.5 aspect ratio
+    -- (which is the same ratio the world map uses) until shit looked correct.
+    -- The minimap API is horrendous compared to the world map one. Luckily
+    -- the HBD author had already figured out the scale values for each zoom
+    -- level (in self.scales).
     local scale = self.scales[self.indoors][Minimap:GetZoom()+1]
     pin.parentWidth = 700 * scale
     pin.parentHeight = 466 * scale
+
     local x, y = poi:draw(pin, ...)
     if GetCVar('rotateMinimap') == '1' then
         pin.texture:SetRotation(pin.texture:GetRotation() + math.pi*2 - self.facing)
@@ -85,12 +91,10 @@ function MinimapDataProvider:CreatePin()
     pin:SetParent(Minimap)
     pin:SetWidth(12)
     pin:SetHeight(12)
-    --pin:SetPoint("CENTER", Minimap, "CENTER")
     pin.texture = texture
     texture:SetAllPoints(pin)
     texture:SetTexelSnappingBias(0)
     texture:SetSnapToPixelGrid(false)
-    -- pin:SetMovable(true)
     pin:Hide()
     self.pins[#self.pins + 1] = pin
     return pin
@@ -173,6 +177,8 @@ function WorldMapDataProvider:RefreshAllData(fromOnShow)
 end
 
 function WorldMapPinMixin:OnLoad()
+    -- The MAP_HIGHLIGHT frame level is well below the level standard
+    -- HandyNotes pins use, preventing mouseover conflicts
     self:UseFrameLevelType("PIN_FRAME_LEVEL_MAP_HIGHLIGHT")
 end
 
@@ -189,6 +195,10 @@ end
 -------------------------------------------------------------------------------
 ------------------------------ HANDYNOTES HOOKS -------------------------------
 -------------------------------------------------------------------------------
+
+-- HandyNotes removes its data provider from the world map when the global
+-- enable/disable checkbox is toggled at the top of its UI window. We need
+-- to do the same thing here or our paths will still display.
 
 local OnEnable = HandyNotes.OnEnable
 local OnDisable = HandyNotes.OnDisable

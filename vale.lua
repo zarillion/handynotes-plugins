@@ -26,6 +26,8 @@ local Path = ns.poi.Path
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
 
+local EMP, MAN, MOG = 0, 1, 2 -- assaults
+
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
@@ -33,8 +35,30 @@ local defaults = ns.optionDefaults.profile
 local map = Map({ id=1530 })
 local nodes = map.nodes
 
+function map:prepare ()
+    local textures = C_MapExplorationInfo.GetExploredMapTextures(self.id)
+    if textures and textures[1].fileDataIDs[1] == 3155826 then
+        self.assault = MAN -- left
+    elseif textures and textures[1].fileDataIDs[1] == 3155832 then
+        self.assault = MOG -- middle
+    elseif textures and textures[1].fileDataIDs[1] == 3155841 then
+        self.assault = EMP -- right
+    end
+    -- self.phased = self.intros[ns.faction]:done()
+end
+
 function map:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
+
+    local assault = node.assault
+    if assault then
+        assault = type(assault) == 'number' and {assault} or assault
+        for i=1, i <= #assault + 1, 1 do
+            if i > #assault then return false end
+            if assault[i] == self.assault then break end
+        end
+    end
+
     return true
 end
 

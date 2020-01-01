@@ -18,6 +18,7 @@ ns.icons = {
     emerald_cat = "Interface\\Icons\\trade_archaeology_catstatueemeraldeyes.blp",
     green_egg = "Interface\\Icons\\Inv_egg_02.blp",
     slime = "Interface\\Icons\\ability_creature_poison_05.blp",
+    quest_chalice = 236669,
 
     ---------------------------------------------------------------------------
     -------------------------------- EMBEDDED ---------------------------------

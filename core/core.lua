@@ -38,6 +38,25 @@ local function debug(...)
     end
 end
 
+local function start_quest_listener()
+    local frame = CreateFrame('Frame', ADDON_NAME.."QuestListener")
+    local lastCheck = GetTime()
+    local quests = {}
+    for id = 0, 70000 do quests[id] = IsQuestFlaggedCompleted(id) end
+    frame:SetScript('OnUpdate', function ()
+        if GetTime() - lastCheck > 1 then
+            for id = 0, 70000 do
+                local s = IsQuestFlaggedCompleted(id)
+                if s ~= quests[id] then
+                    debug('Quest', id, 'changed:', tostring(quests[id]), '=>', tostring(s))
+                    quests[id] = s
+                end
+            end
+            lastCheck = GetTime()
+        end
+    end)
+end
+
 local DropdownMenu = CreateFrame("Frame", ADDON_NAME.."DropdownMenu");
 DropdownMenu.displayMode = "MENU";
 local function initializeDropdownMenu (button, level, mapID, coord)
@@ -218,7 +237,11 @@ function Addon:RegisterWithHandyNotes()
         end
     end
 
-    if self.db.profile.development then ns.add_dev_options() end
+    if self.db.profile.development then
+        ns.add_dev_options()
+        start_quest_listener()
+    end
+
     HandyNotes:RegisterPluginDB(ADDON_NAME, self, ns.options)
 
     self:RegisterBucketEvent({ "LOOT_CLOSED", "PLAYER_MONEY", "SHOW_LOOT_TOAST", "SHOW_LOOT_TOAST_UPGRADE" }, 2, "Refresh")

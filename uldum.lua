@@ -27,6 +27,8 @@ local Transmog = ns.reward.Transmog
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
 
+local EMP, AQR, AME = 0, 1, 2 -- assaults
+
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
@@ -34,8 +36,38 @@ local defaults = ns.optionDefaults.profile
 local map = Map({ id=1527 })
 local nodes = map.nodes
 
+local function GetAssault ()
+    local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
+    if textures and textures[1].fileDataIDs[1] == 3165083 then
+        return AQR -- left
+    elseif textures and textures[1].fileDataIDs[1] == 3165092 then
+        return EMP -- middle
+    elseif textures and textures[1].fileDataIDs[1] == 3165098 then
+        return AME -- right
+    end
+end
+
+function map:prepare ()
+    self.assault = GetAssault()
+end
+
 function map:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
+
+    -- always show the intro helper nodes, and hide all other nodes if we're
+    -- not phased yet
+    if node.icon == 'quest_yellow' then return true end
+    if not self.assault and node.icon ~= 'quest_yellow' then return false end
+
+    local assault = node.assault
+    if assault then
+        assault = type(assault) == 'number' and {assault} or assault
+        for i=1, i <= #assault + 1, 1 do
+            if i > #assault then return false end
+            if assault[i] == self.assault then break end
+        end
+    end
+
     return true
 end
 
@@ -43,7 +75,7 @@ end
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
-defaults['pet_uldum'] = true;
+defaults['pet_uldum'] = true
 
 options.groupUldum = {
     type = "header",
@@ -59,6 +91,47 @@ options.petUldum = {
     order = 11,
     width = "normal",
 };
+
+-------------------------------------------------------------------------------
+------------------------------------ INTRO ------------------------------------
+-------------------------------------------------------------------------------
+
+local Intro = Class('Intro', Node)
+
+Intro.note = L["uldum_intro_note"]
+Intro.icon = 'quest_yellow'
+Intro.scale = 3
+
+function Intro:enabled ()
+    if not Node.enabled(self) then return false end
+    return GetAssault() == nil
+end
+
+function Intro.getters:label ()
+    return select(2, GetAchievementInfo(14153)) -- Uldum Under Assault
+end
+
+nodes[46004300] = Intro({faction='Alliance', rewards={
+    -- An Unwelcome Advisor => The Uldum Accord
+    Quest({id={58496, 58498, 58583, 58506, 56374, 56209, 56375, 56472}})
+}})
+
+nodes[46004301] = Intro({faction='Horde', rewards={
+    -- Return of the Black Prince => The Uldum Accord
+    Quest({id={58582, 58583, 58506, 56374, 56209, 56375, 56472}})
+}})
+
+map.intros = { Alliance = nodes[46004300], Horde = nodes[46004301] }
+
+ns.addon:RegisterEvent('QUEST_WATCH_UPDATE', function (_, index)
+    local _, _, _, _, _, _, _, questID = GetQuestLogTitle(index)
+    if questID == 56376 then
+        debug('Uldum assaults unlock detected')
+        C_Timer.After(1, function()
+            ns.addon:Refresh()
+        end)
+    end
+end)
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
