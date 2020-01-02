@@ -38,7 +38,7 @@ function Path:draw (pin, type, xy1, xy2)
 
     pin:SetAlpha(0.75)
     if type == 'circle' then
-        pin:SetSize(10, 10)
+        pin:SetSize(5, 5)
         return HandyNotes:getXY(xy1)
     else
         local x1, y1 = HandyNotes:getXY(xy1)
