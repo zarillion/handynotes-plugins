@@ -204,7 +204,7 @@ nodes[84785704] = Rare({id=151897, quest=55479, assault=AMA}) -- Sun Priestess N
 nodes[66676804] = Rare({id=162372, quest=58715, assault=AMA}) -- Spirit of Cyrus the Black
 nodes[62012454] = Rare({id=152677, quest=nil, assault=AMA}) -- Nebet the Ascended
 nodes[49944011] = Rare({id=162352, quest=58716, note=L["in_cave"], assault=AMA}) -- Spirit of Dark Ritualist Zakahn
-nodes[52154012] = Cave({parent=nodes[49944011], label=L["spirit_cave"]}) -- Entrance
+nodes[52154012] = Cave({parent=nodes[49944011], assault=AMA, label=L["spirit_cave"]}) -- Entrance
 nodes[80504715] = Rare({id=151995, quest=55502, assault=AMA, pois={
     Path({80504715, 79804519, 77204597})
 }}) -- Hik-Ten the Taskmaster
