@@ -202,6 +202,9 @@ nodes[73536459] = Rare({id=151948, quest=55496, assault=AMA}) -- Senbu the Pride
 nodes[73347447] = Rare({id=151609, quest=nil, assault=AMA}) -- Sun Prophet Epaphos
 nodes[84785704] = Rare({id=151897, quest=55479, assault=AMA}) -- Sun Priestess Nubitt
 nodes[66676804] = Rare({id=162372, quest=58715, assault=AMA}) -- Spirit of Cyrus the Black
+nodes[62012454] = Rare({id=152677, quest=nil, assault=AMA}) -- Nebet the Ascended
+nodes[49944011] = Rare({id=162352, quest=58716, note=L["in_cave"], assault=AMA}) -- Spirit of Dark Ritualist Zakahn
+nodes[52154012] = Cave({parent=nodes[49944011], label=L["spirit_cave"]}) -- Entrance
 nodes[80504715] = Rare({id=151995, quest=55502, assault=AMA, pois={
     Path({80504715, 79804519, 77204597})
 }}) -- Hik-Ten the Taskmaster
@@ -224,6 +227,7 @@ nodes[75575372] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
 nodes[84534540] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
 nodes[78286207] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
 nodes[79314578] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
+nodes[64094488] = Treasure({quest=55699, assault=AMA, label=L["amathet_cache"]})
 nodes[67172800] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})
 
 -------------------------------------------------------------------------------
