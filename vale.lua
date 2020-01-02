@@ -26,7 +26,7 @@ local Path = ns.poi.Path
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
 
-local EMP, MAN, MOG = 0, 1, 2 -- assaults
+local MAN, MOG, EMP = 0, 1, 2 -- assaults
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -38,10 +38,13 @@ local nodes = map.nodes
 local function GetAssault()
     local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
     if textures and textures[1].fileDataIDs[1] == 3155826 then
+        ns.debug('Vale assault: MAN')
         return MAN -- left
     elseif textures and textures[1].fileDataIDs[1] == 3155832 then
+        ns.debug('Vale assault: MOG')
         return MOG -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3155841 then
+        ns.debug('Vale assault: EMP')
         return EMP -- right
     end
 end
@@ -90,7 +93,7 @@ Intro.scale = 3
 
 function Intro:enabled ()
     if not Node.enabled(self) then return false end
-    return GetAssault() == nil
+    return map.assault == nil
 end
 
 function Intro.getters:label ()
@@ -145,7 +148,7 @@ nodes[12835129] = Rare({id=160868, quest=58303, note=nil}) -- Harrier Nir'verash
 nodes[21256265] = Rare({id=160826, quest=58301, note=nil}) -- Hive-Guard Naz'ruzek
 nodes[10003200] = Rare({id=157160, quest=nil, note=nil, rewards={
     Mount({id=1327, item=174841}) -- Ren's Stalwart Hound
-}, pois={Path({12962629, 10033210, 08823911, 09274535})}}) -- Houndlord Ren
+}}) -- Houndlord Ren
 nodes[18426557] = Rare({id=160930, quest=58312, note=nil}) -- Infused Amber Ooze
 nodes[17201159] = Rare({id=160968, quest=58295, note=L["jadec"]}) -- Jade Colossus
 nodes[17850918] = Rare({id=160920, quest=58310, note=nil}) -- Kal'tik the Blight
@@ -161,7 +164,6 @@ nodes[09586736] = Rare({id=157468, quest=57364, note=nil}) -- Tisiphon
 nodes[54266272] = Rare({id=154495, quest=nil, note=nil, rewards={
     Pet({id=2846, item=174474}) -- Corrupted Tentacle
 }}) -- Will of N'Zoth
--- nodes[] = Rare({id=, quest=, note=nil}) --
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
