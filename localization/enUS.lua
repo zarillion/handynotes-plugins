@@ -8,6 +8,7 @@ if not L then return end
 
 L["uldum_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in Uldum."
 L["ajqirai"] = "Inside the Chamber of the Moon."
+L["amathet_cache"] = "Amathet Cache"
 L["black_empire_cache"] = "Black Empire Cache"
 L["dunewalker"] = "Inside the Chamber of the Sun."
 L["falconer"] = "Pats north-east and south-west between Neferset and the Cradle of the Ancients."

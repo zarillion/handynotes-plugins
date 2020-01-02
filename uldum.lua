@@ -165,6 +165,7 @@ nodes[68593204] = Rare({id=157146, quest=nil, note=nil, rewards={
 }}) -- Rotfeaster
 nodes[35071729] = Rare({id=162196, quest=nil, note=nil}) -- Obsidian Annihilator
 nodes[58175712] = Rare({id=156299, quest=57430, note=L["rkhuzj"]}) -- R'khuzj the Unfathomable
+nodes[73536459] = Rare({id=151948, quest=55496, note=nil}) -- Senbu the Pridefather
 nodes[57003794] = Rare({id=161033, quest=58333, note=nil}) -- Shadowmaw
 nodes[58558282] = Rare({id=156654, quest=nil, note=nil}) -- Shol'thoss the Doomspeaker
 nodes[61297484] = Rare({id=160532, quest=58169, note=nil}) -- Shoth the Darkened
@@ -189,6 +190,9 @@ nodes[50793143] = Treasure({quest=57624, label=L["black_empire_cache"]})
 nodes[59226749] = Treasure({quest=57626, label=L["black_empire_cache"]})
 nodes[62977610] = Treasure({quest=57626, label=L["black_empire_cache"]})
 nodes[60757493] = Treasure({quest=57627, label=L["black_empire_cache"]})
+
+nodes[72216422] = Treasure({quest=55690, label=L["amathet_cache"]})
+nodes[75575372] = Treasure({quest=55691, label=L["amathet_cache"]})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
