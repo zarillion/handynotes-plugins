@@ -24,6 +24,8 @@ local Quest = ns.reward.Quest
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Path = ns.poi.Path
+
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
 
@@ -160,9 +162,7 @@ nodes[71237375] = Rare({id=156655, quest=nil, note=nil}) -- Korzaran the Slaught
 nodes[34681890] = Rare({id=154604, quest=nil, note=L["ajqirai"], rewards={
     Pet({id=2847, item=174475}) -- Rotbreath
 }}) -- Lord Aj'qirai
-nodes[68593204] = Rare({id=157146, quest=nil, note=nil, rewards={
-    Mount({id=1317, item=174753}) -- Waste Marauder
-}}) -- Rotfeaster
+
 nodes[35071729] = Rare({id=162196, quest=nil, note=nil}) -- Obsidian Annihilator
 nodes[58175712] = Rare({id=156299, quest=57430, note=L["rkhuzj"]}) -- R'khuzj the Unfathomable
 nodes[73536459] = Rare({id=151948, quest=55496, note=nil}) -- Senbu the Pridefather
@@ -187,6 +187,15 @@ nodes[49328235] = Rare({id=158636, quest=nil, note=L["gexec"], rewards={
 
 ------------------------------- AMATHET ADVANCE -------------------------------
 
+nodes[68593204] = Rare({id=157146, quest=nil, note=nil, assault=AMA, rewards={
+    Mount({id=1317, item=174753}) -- Waste Marauder
+}}) -- Rotfeaster
+nodes[67713350] = Rare({id=152657, quest=55682, note="check path", assault=AMA}) -- Tat the Bonechewer
+nodes[69714215] = Rare({id=152040, quest=55518, assault=AMA}) -- Scoutmaster Moswen
+nodes[69714973] = Rare({id=151883, quest=55468, assault=AMA, pois={
+    Path({68645049, 69714973, 70955041, 71425210, 71005388, 69855463, 68695394, 68225217, 68645049})
+}}) -- Anaua
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
@@ -199,6 +208,7 @@ nodes[60757493] = Treasure({quest=57627, assault=EMP, label=L["black_empire_cach
 
 nodes[72216422] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
 nodes[75575372] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
+nodes[67172800] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

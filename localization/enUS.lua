@@ -10,6 +10,7 @@ L["uldum_intro_note"] = "Complete the introductory quest chain to unlock rares, 
 L["ajqirai"] = "Inside the Chamber of the Moon."
 L["amathet_cache"] = "Amathet Cache"
 L["black_empire_cache"] = "Black Empire Cache"
+L["chamber_of_the_stars"] = "Underground in the Chamber of the Stars."
 L["dunewalker"] = "Inside the Chamber of the Sun."
 L["falconer"] = "Pats north-east and south-west between Neferset and the Cradle of the Ancients."
 L["gexec"] = "Spawns on top of the floating platform."
