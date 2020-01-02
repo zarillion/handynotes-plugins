@@ -181,18 +181,24 @@ nodes[49328235] = Rare({id=158636, quest=nil, note=L["gexec"], rewards={
 -- }}) -- Yiphrim the Will Ravager
 -- nodes[] = Rare({id=, quest=, note=nil}) --
 
+------------------------------- AQIR UNEARTHED --------------------------------
+
+------------------------------ THE BLACK EMPIRE -------------------------------
+
+------------------------------- AMATHET ADVANCE -------------------------------
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-nodes[58361535] = Treasure({quest=57623, label=L["black_empire_cache"]})
-nodes[50793143] = Treasure({quest=57624, label=L["black_empire_cache"]})
-nodes[59226749] = Treasure({quest=57626, label=L["black_empire_cache"]})
-nodes[62977610] = Treasure({quest=57626, label=L["black_empire_cache"]})
-nodes[60757493] = Treasure({quest=57627, label=L["black_empire_cache"]})
+nodes[58361535] = Treasure({quest=57623, assault=EMP, label=L["black_empire_cache"]})
+nodes[50793143] = Treasure({quest=57624, assault=EMP, label=L["black_empire_cache"]})
+nodes[59226749] = Treasure({quest=57626, assault=EMP, label=L["black_empire_cache"]})
+nodes[62977610] = Treasure({quest=57626, assault=EMP, label=L["black_empire_cache"]})
+nodes[60757493] = Treasure({quest=57627, assault=EMP, label=L["black_empire_cache"]})
 
-nodes[72216422] = Treasure({quest=55690, label=L["amathet_cache"]})
-nodes[75575372] = Treasure({quest=55691, label=L["amathet_cache"]})
+nodes[72216422] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
+nodes[75575372] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
