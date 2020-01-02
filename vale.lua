@@ -59,7 +59,7 @@ function map:enabled (node, coord, minimap)
     local assault = node.assault
     if assault then
         assault = type(assault) == 'number' and {assault} or assault
-        for i=1, i <= #assault + 1, 1 do
+        for i=1, #assault + 1, 1 do
             if i > #assault then return false end
             if assault[i] == self.assault then break end
         end
