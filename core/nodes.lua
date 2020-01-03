@@ -73,7 +73,7 @@ function Node:enabled (map, coord, minimap)
     -- Node may be faction restricted
     if self.faction and self.faction ~= ns.faction then return false end
 
-    if not db.profile.ignore_quests then
+    if not ns.ignore_quests then
         -- All attached quest ids must be false
         for i, quest in ipairs(self.quest or {}) do
             if IsQuestFlaggedCompleted(quest) then return false end

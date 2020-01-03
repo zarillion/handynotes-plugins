@@ -38,7 +38,6 @@ ns.optionDefaults = {
         -- development
         development = false,
         show_debug = false,
-        ignore_quests = false,
         force_nodes = false
     },
 };
@@ -157,38 +156,3 @@ ns.options.args.TooltipGroup = {
         }
     }
 }
-
-ns.add_dev_options = function ()
-    -- To enable these options, manually set "development = true" in your
-    -- settings file for this addon
-    ns.options.args.DevelopmentGroup = {
-        type = "group",
-        order = 30,
-        name = L["options_dev_settings"],
-        desc = L["options_dev_settings_desc"],
-        inline = true,
-        args = {
-            show_debug = {
-                type = "toggle",
-                arg = "show_debug",
-                name = L["options_toggle_show_debug"],
-                desc = L["options_toggle_show_debug_desc"],
-                order = 1,
-            },
-            ignore_quests = {
-                type = "toggle",
-                arg = "ignore_quests",
-                name = L["options_toggle_ignore_quests"],
-                desc = L["options_toggle_ignore_quests_desc"],
-                order = 2,
-            },
-            force_nodes = {
-                type = "toggle",
-                arg = "force_nodes",
-                name = L["options_toggle_force_nodes"],
-                desc = L["options_toggle_force_nodes_desc"],
-                order = 3,
-            }
-        }
-    }
-end
