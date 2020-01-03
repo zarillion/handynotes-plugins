@@ -36,6 +36,7 @@ L["pools_of_power"] = "Inside the Pools of Power. Entrance at The Golden Pagoda.
 L["tisiphon"] = "Click on Danielle's Lucky Fishing Rod."
 
 L["ambered_cache"] = "Ambered Cache"
+L["ambered_coffer"] = "Ambered Coffer"
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------

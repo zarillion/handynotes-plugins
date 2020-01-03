@@ -11,6 +11,7 @@ local isinstance = ns.isinstance
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local Supply = ns.node.Supply
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -192,6 +193,7 @@ nodes[26704680] = Treasure({quest=58227, assault=MAN, label=L["ambered_cache"]})
 nodes[31724184] = Treasure({quest=58227, assault=MAN, label=L["ambered_cache"]})
 nodes[15406394] = Treasure({quest=58228, assault=MAN, label=L["ambered_cache"]})
 nodes[16096581] = Treasure({quest=58228, assault=MAN, label=L["ambered_cache"]})
+nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"]})
 
 nodes[44483693] = Treasure({quest=57197, assault=EMP, label=L["black_empire_cache"]})
 nodes[52673967] = Treasure({quest=57197, assault=EMP, label=L["black_empire_cache"]})

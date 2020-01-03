@@ -184,7 +184,9 @@ nodes[30854971] = Rare({id=162147, quest=58696, rewards={
 nodes[49363822] = Rare({id=158594, quest=57672}) -- Doomsayer Vathiris
 nodes[48657067] = Rare({id=158491, quest=nil, note=L["falconer"]}) -- Falconer Amenophis
 nodes[75056816] = Rare({id=157120, quest=57258}) -- Fangtaker Orsa
-nodes[21405794] = Rare({id=155531, quest=56823}) -- Infested Wastewander Captain (shares a spawn with Wastewander Hosts?)
+nodes[21405794] = Rare({id=155531, quest=56823, pois={
+    POI({21405794, 24515825}) -- shares a spawn with Wastewander Hosts?
+}}) -- Infested Wastewander Captain
 nodes[54694317] = Rare({id=158597, quest=57675}) -- High Executor Yothrim
 nodes[42485873] = Rare({id=162163, quest=58701, pois={
     Path({42485873, 44396076, 46215988, 46785800, 46465623, 44545616, 43055653, 42485873})
@@ -252,17 +254,22 @@ nodes[39694159] = Rare({id=162141, quest=58695}) -- Zuythiz
 -------------------------------------------------------------------------------
 
 nodes[45845698] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"], note=L["chamber_of_the_sun"]})
+nodes[50555882] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"]})
 nodes[51736032] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"]})
 nodes[31166796] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
 nodes[32764770] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
+nodes[32976010] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
 nodes[33366210] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
+nodes[18356130] = Treasure({quest=58140, assault=AQR, label=L["infested_cache"]})
 nodes[19836512] = Treasure({quest=58140, assault=AQR, label=L["infested_cache"]})
 nodes[24525507] = Treasure({quest=58140, assault=AQR, label=L["infested_cache"]})
 nodes[36032024] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[37484577] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
+nodes[38774014] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[39754504] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[28030834] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
 nodes[30671611] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
+nodes[33953036] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
 nodes[35413157] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
 nodes[36252324] = Supply({quest=nil, assault=AQR, label=L["infested_strongbox"], note=L["chamber_of_the_moon"]})
 
