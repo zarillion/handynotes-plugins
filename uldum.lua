@@ -160,6 +160,9 @@ nodes[49363822] = Rare({id=158594, quest=57672, note=nil}) -- Doomsayer Vathiris
 nodes[48657067] = Rare({id=158491, quest=nil, note=L["falconer"]}) -- Falconer Amenophis
 nodes[21405794] = Rare({id=155531, quest=56823, note=nil}) -- Infested Wastewander Captain
 nodes[54694317] = Rare({id=158597, quest=57675, note=nil}) -- High Executor Yothrim
+nodes[42485873] = Rare({id=162163, quest=nil, pois={
+    Path({42485873, 44396076, 46215988, 46785800, 46465623, 44545616, 43055653, 42485873})
+}}) -- High Priest Ytaessis
 nodes[80504715] = Rare({id=151995, quest=55502, pois={
     Path({80504715, 79804519, 77204597})
 }}) -- Hik-Ten the Taskmaster
@@ -171,6 +174,7 @@ nodes[71237375] = Rare({id=156655, quest=nil, note=nil}) -- Korzaran the Slaught
 nodes[34681890] = Rare({id=154604, quest=nil, note=L["chamber_of_the_moon"], rewards={
     Pet({id=2847, item=174475}) -- Rotbreath
 }}) -- Lord Aj'qirai
+nodes[32426439] = Rare({id=156078, quest=nil}) -- Magus Rehleth
 nodes[62012454] = Rare({id=152677, quest=nil}) -- Nebet the Ascended
 nodes[35071729] = Rare({id=162196, quest=nil, note=nil}) -- Obsidian Annihilator
 nodes[58175712] = Rare({id=156299, quest=57430, note=L["rkhuzj"]}) -- R'khuzj the Unfathomable
@@ -210,6 +214,7 @@ nodes[80165708] = Rare({id=157164, quest=57279}) -- Zealot Tekem
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+nodes[45845698] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"], note=L["chamber_of_the_sun"]})
 nodes[36032024] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[37484577] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[30671611] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
