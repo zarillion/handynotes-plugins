@@ -225,6 +225,7 @@ nodes[79505217] = Rare({id=151852, quest=55461, pois={
 --     Toy({item=174874}) -- Budget K'thir Disguise
 -- }}) -- Yiphrim the Will Ravager
 nodes[80165708] = Rare({id=157164, quest=57279}) -- Zealot Tekem
+nodes[39694159] = Rare({id=162141, quest=58695}) -- Zuythiz
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -232,6 +233,8 @@ nodes[80165708] = Rare({id=157164, quest=57279}) -- Zealot Tekem
 
 nodes[45845698] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"], note=L["chamber_of_the_sun"]})
 nodes[33366210] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
+nodes[32764770] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
+nodes[19836512] = Treasure({quest=58140, assault=AQR, label=L["infested_cache"]})
 nodes[36032024] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[37484577] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[30671611] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
