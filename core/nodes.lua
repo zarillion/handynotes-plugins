@@ -212,11 +212,17 @@ function Rare.getters:icon ()
     if self._focus then
         return self:done() and 'skull_white_green_glow' or 'skull_blue_green_glow'
     end
+    if ns.addon.db.profile.development and not self.quest then
+        return self:done() and 'skull_white_red_glow' or 'skull_blue_red_glow'
+    end
     return self:done() and 'skull_white' or 'skull_blue'
 end
 
 function Rare.getters:scale ()
-    return self._focus and 2.3 or 1.5
+    if self._focus or (ns.addon.db.profile.development and not self.quest) then
+        return 2.3
+    end
+    return 1.5
 end
 
 function Rare:enabled (map, coord, minimap)
