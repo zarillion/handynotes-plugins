@@ -168,7 +168,7 @@ nodes[73908353] = Rare({id=157134, quest=nil, note=nil, rewards={
     Mount({id=1314, item=174641}) -- Drake of the Four Winds
 }}) -- Ishak of the Four Winds
 nodes[71237375] = Rare({id=156655, quest=nil, note=nil}) -- Korzaran the Slaughterer
-nodes[34681890] = Rare({id=154604, quest=nil, note=L["ajqirai"], rewards={
+nodes[34681890] = Rare({id=154604, quest=nil, note=L["chamber_of_the_moon"], rewards={
     Pet({id=2847, item=174475}) -- Rotbreath
 }}) -- Lord Aj'qirai
 nodes[62012454] = Rare({id=152677, quest=nil}) -- Nebet the Ascended
@@ -207,11 +207,16 @@ nodes[80165708] = Rare({id=157164, quest=57279}) -- Zealot Tekem
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+nodes[36032024] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
+nodes[30671611] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
+nodes[36252324] = Supply({quest=nil, assault=AQR, label=L["infested_strongbox"], note=L["chamber_of_the_moon"]})
+
 nodes[58361535] = Treasure({quest=57623, assault=EMP, label=L["black_empire_cache"]})
 nodes[50793143] = Treasure({quest=57624, assault=EMP, label=L["black_empire_cache"]})
 nodes[59226749] = Treasure({quest=57626, assault=EMP, label=L["black_empire_cache"]})
 nodes[62977610] = Treasure({quest=57626, assault=EMP, label=L["black_empire_cache"]})
 nodes[60757493] = Treasure({quest=57627, assault=EMP, label=L["black_empire_cache"]})
+nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
 
 nodes[72216422] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
 nodes[75575372] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})

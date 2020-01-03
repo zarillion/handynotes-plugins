@@ -7,9 +7,8 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["uldum_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in Uldum."
-L["ajqirai"] = "Inside the Chamber of the Moon."
-L["amathet_cache"] = "Amathet Cache"
-L["black_empire_cache"] = "Black Empire Cache"
+
+L["chamber_of_the_moon"] = "Underground in the Chamber of the Moon."
 L["chamber_of_the_stars"] = "Underground in the Chamber of the Stars."
 L["dunewalker"] = "Inside the Chamber of the Sun."
 L["falconer"] = "Pats north-east and south-west between Neferset and the Cradle of the Ancients."
@@ -17,11 +16,18 @@ L["gexec"] = "Spawns on top of the floating platform."
 L["rkhuzj"] = "Pats north and south along the river."
 L["spirit_cave"] = "Cave entrance for Spirit of Dark Ritualist Zakahn."
 
+L["amathet_cache"] = "Amathet Cache"
+L["black_empire_cache"] = "Black Empire Cache"
+L["black_empire_coffer"] = "Black Empire Coffer"
+L["infested_cache"] = "Infested Cache"
+L["infested_strongbox"] = "Infested Strongbox"
+
 -------------------------------------------------------------------------------
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
 L["vale_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in the Vale of Eternal Blossoms."
+
 L["ambered_cache"] = "Ambered Cache"
 L["jadec"] = "Inside Guo-Lai Halls."
 
