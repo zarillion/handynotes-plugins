@@ -75,6 +75,7 @@ local function BootstrapDevelopmentEnvironment()
     -- Listen for LCTRL + LALT when the world map is open to display nodes
     -- that have already been cleared by quest ids.
     local IQFrame = CreateFrame('Frame', ADDON_NAME.."IQ", WorldMapFrame)
+    local groupPins = WorldMapFrame.pinPools.GroupMembersPinTemplate
     IQFrame:SetPropagateKeyboardInput(true)
     IQFrame:SetScript('OnKeyDown', function (_, key)
         if not ns.ignore_quests and (key == 'LCTRL' or key == 'LALT') then
@@ -82,6 +83,9 @@ local function BootstrapDevelopmentEnvironment()
                 IQFrame:SetPropagateKeyboardInput(false)
                 ns.ignore_quests = true
                 ns.addon:Refresh()
+
+                -- Hide player pins on the map
+                groupPins:GetNextActive():Hide()
             end
         end
     end)
@@ -90,6 +94,9 @@ local function BootstrapDevelopmentEnvironment()
             IQFrame:SetPropagateKeyboardInput(true)
             ns.ignore_quests = false
             ns.addon:Refresh()
+
+            -- Show player pins on the map
+            groupPins:GetNextActive():Show()
         end
     end)
 end
