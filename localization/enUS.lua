@@ -8,12 +8,12 @@ if not L then return end
 
 L["uldum_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in Uldum."
 
-L["aqir_flayer"] = "Shares spawns with Aqir Hive Workers."
-L["aqir_titanus"] = "Shares spawns with Aqir Goliaths."
-L["aqir_warcaster"] = "Shares spawns with Aqir Voidcasters."
+L["aqir_flayer"] = "Shares a spawn with Aqir Hive Workers and Aqir Reapers."
+L["aqir_titanus"] = "Shares a spawn with Aqir Goliaths."
+L["aqir_warcaster"] = "Shares a spawn with Aqir Voidcasters."
 L["chamber_of_the_moon"] = "Underground in the Chamber of the Moon."
 L["chamber_of_the_stars"] = "Underground in the Chamber of the Stars."
-L["dunewalker"] = "Inside the Chamber of the Sun."
+L["chamber_of_the_sun"] = "Inside the Chamber of the Sun."
 L["falconer"] = "Pats north-east and south-west between Neferset and the Cradle of the Ancients."
 L["gexec"] = "Spawns on top of the floating platform."
 L["spirit_cave"] = "Cave entrance for Spirit of Dark Ritualist Zakahn."

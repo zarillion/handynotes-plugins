@@ -152,23 +152,39 @@ nodes[32426443] = Rare({id=155703, quest=56834, note=nil}) -- Anq'uri the Titani
 nodes[69714973] = Rare({id=151883, quest=55468, pois={
     Path({68645049, 69714973, 70955041, 71425210, 71005388, 69855463, 68695394, 68225217, 68645049})
 }}) -- Anaua
-nodes[32231626] = Rare({id=154578, quest=58612, note=L["aqir_flayer"]}) -- Aqir Flayer
-nodes[33595682] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
+nodes[38732500] = Rare({id=154578, quest=58612, note=L["aqir_flayer"], pois={
+    POI({ -- Aqir Hive Worker
+        41202497, 40472249, 39882209, 38942459, 37102236, 36502179, 37782046,
+        36761891, 37591749, 36041891, 35691808, 33551946, 32251624, 35031801,
+        35292068, 33461670, 35102299, 37981821, 40952468
+    }),
+    POI({ -- Aqir Reaper
+        41863885, 41264078, 41494146, 41104233, 40464372, 40624452, 40834550,
+        39984480, 39814467, 39254356, 37994321, 37584213, 39764251, 39333892,
+        29816310, 32056727, 32426645, 33646358, 37094853
+    })
+}}) -- Aqir Flayer
+nodes[31245691] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
     POI({30266161, 30076533, 31496674, 33356610, 32486946, 34856598}),
     Path({37295892, 36485588, 37285284}),
     Path({38134884, 36535023, 34765141, 32935159}),
     Path({33325836, 33865418}),
     Path({26795106, 27055372, 27025596}),
-    Path({28526114, 28975921, 28805676, 28945481})
+    Path({28526114, 28975921, 28805676, 28945481}),
+    Path({43194180, 42864292, 41284445, 40884731}),
+    Path({40864255, 41714037}),
+    Path({38314290, 40354482}),
+    Path({32994510, 35434436, 36284239}),
+    Path({41243247, 40503334, 39233745})
 }}) -- Aqir Titanus
-nodes[45605777] = Rare({id=162171, quest=58699, note=L["dunewalker"]}) -- Captain Dunewalker
+nodes[45605777] = Rare({id=162171, quest=58699, note=L["chamber_of_the_sun"]}) -- Captain Dunewalker
 nodes[30854971] = Rare({id=162147, quest=58696, rewards={
     Mount({id=1319, item=174769}) -- Malevolent Drone
 }}) -- Corpse Eater
 nodes[49363822] = Rare({id=158594, quest=57672, note=nil}) -- Doomsayer Vathiris
 nodes[48657067] = Rare({id=158491, quest=nil, note=L["falconer"]}) -- Falconer Amenophis
 nodes[75056816] = Rare({id=157120, quest=57258}) -- Fangtaker Orsa
-nodes[21405794] = Rare({id=155531, quest=56823, note=nil}) -- Infested Wastewander Captain
+nodes[21405794] = Rare({id=155531, quest=56823, note=nil}) -- Infested Wastewander Captain (shares a spawn with Wastewander Hosts?)
 nodes[54694317] = Rare({id=158597, quest=57675, note=nil}) -- High Executor Yothrim
 nodes[42485873] = Rare({id=162163, quest=58701, pois={
     Path({42485873, 44396076, 46215988, 46785800, 46465623, 44545616, 43055653, 42485873})
@@ -207,7 +223,9 @@ nodes[21236105] = Rare({id=162140, quest=58697, rewards={
 }, pois={
     Path({22486168, 21316279, 19896347, 19356128, 20345804, 21435846, 24325860, 24866015, 24406194, 22486168})
 }}) -- Skikx'traz
-nodes[66676804] = Rare({id=162372, quest=58715}) -- Spirit of Cyrus the Black (also 70997407)
+nodes[66676804] = Rare({id=162372, quest=58715, pois={
+    POI({66676804, 70997407})
+}}) -- Spirit of Cyrus the Black
 nodes[49944011] = Rare({id=162352, quest=58716, note=L["in_ucave"]}) -- Spirit of Dark Ritualist Zakahn
 nodes[52154012] = Cave({parent=nodes[49944011], label=L["spirit_cave"]}) -- Entrance
 nodes[78986389] = Rare({id=151878, quest=58613, note=nil}) -- Sun King Nahkotep
