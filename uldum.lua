@@ -151,6 +151,7 @@ nodes[32426443] = Rare({id=155703, quest=56834, note=nil}) -- Anq'uri the Titani
 nodes[69714973] = Rare({id=151883, quest=55468, pois={
     Path({68645049, 69714973, 70955041, 71425210, 71005388, 69855463, 68695394, 68225217, 68645049})
 }}) -- Anaua
+nodes[32231626] = Rare({id=154578, quest=58612, note=L["aqir_flayer"]}) -- Aqir Flayer
 nodes[33595682] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
     --POI({30266161, 30076533, 31496674, 33356610, 32486946, 34856598}),
     Path({37295892, 36485588, 37285284}),
@@ -159,35 +160,35 @@ nodes[33595682] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
     Path({26795106, 27055372, 27025596}),
     Path({28526114, 28975921, 28805676, 28945481})
 }}) -- Aqir Titanus
-nodes[45605777] = Rare({id=162171, quest=nil, note=L["dunewalker"]}) -- Captain Dunewalker
-nodes[30854971] = Rare({id=162147, quest=58696, note=nil, rewards={
+nodes[45605777] = Rare({id=162171, quest=58699, note=L["dunewalker"]}) -- Captain Dunewalker
+nodes[30854971] = Rare({id=162147, quest=58696, rewards={
     Mount({id=1319, item=174769}) -- Malevolent Drone
 }}) -- Corpse Eater
 nodes[49363822] = Rare({id=158594, quest=57672, note=nil}) -- Doomsayer Vathiris
 nodes[48657067] = Rare({id=158491, quest=nil, note=L["falconer"]}) -- Falconer Amenophis
 nodes[21405794] = Rare({id=155531, quest=56823, note=nil}) -- Infested Wastewander Captain
 nodes[54694317] = Rare({id=158597, quest=57675, note=nil}) -- High Executor Yothrim
-nodes[42485873] = Rare({id=162163, quest=nil, pois={
+nodes[42485873] = Rare({id=162163, quest=58701, pois={
     Path({42485873, 44396076, 46215988, 46785800, 46465623, 44545616, 43055653, 42485873})
 }}) -- High Priest Ytaessis
 nodes[80504715] = Rare({id=151995, quest=55502, pois={
     Path({80504715, 79804519, 77204597})
 }}) -- Hik-Ten the Taskmaster
 nodes[60033950] = Rare({id=160623, quest=58206, note=nil}) -- Hungering Miasma
-nodes[73908353] = Rare({id=157134, quest=nil, note=nil, rewards={
+nodes[73908353] = Rare({id=157134, quest=57259, note=nil, rewards={
     Mount({id=1314, item=174641}) -- Drake of the Four Winds
 }}) -- Ishak of the Four Winds
 nodes[71237375] = Rare({id=156655, quest=nil, note=nil}) -- Korzaran the Slaughterer
-nodes[34681890] = Rare({id=154604, quest=nil, note=L["chamber_of_the_moon"], rewards={
+nodes[34681890] = Rare({id=154604, quest=56340, note=L["chamber_of_the_moon"], rewards={
     Pet({id=2847, item=174475}) -- Rotbreath
 }}) -- Lord Aj'qirai
-nodes[32426439] = Rare({id=156078, quest=nil}) -- Magus Rehleth
+nodes[30476602] = Rare({id=156078, quest=56952}) -- Magus Rehleth
 nodes[62012454] = Rare({id=152677, quest=nil}) -- Nebet the Ascended
-nodes[35071729] = Rare({id=162196, quest=nil, note=nil}) -- Obsidian Annihilator
+nodes[35071729] = Rare({id=162196, quest=58681}) -- Obsidian Annihilator
 nodes[37505978] = Rare({id=162142, quest=58693}) -- Qho
 nodes[58175712] = Rare({id=156299, quest=57430, note=L["rkhuzj"]}) -- R'khuzj the Unfathomable
 nodes[24980615] = Rare({id=162173, quest=58864, pois={
-    Path({38031012, 31611053, 26460550, 24980615, 24810886, 28651339, 28361503})
+    Path({38031012, 31611053, 26460550, 24980615, 24810886, 28651339, 30103380})
 }}) -- R'krox the runt
 nodes[68593204] = Rare({id=157146, quest=nil, note=nil, rewards={
     Mount({id=1317, item=174753}) -- Waste Marauder
@@ -197,20 +198,23 @@ nodes[73536459] = Rare({id=151948, quest=55496}) -- Senbu the Pridefather
 nodes[57003794] = Rare({id=161033, quest=58333, note=nil}) -- Shadowmaw
 nodes[58558282] = Rare({id=156654, quest=nil, note=nil}) -- Shol'thoss the Doomspeaker
 nodes[61297484] = Rare({id=160532, quest=58169, note=nil}) -- Shoth the Darkened
-nodes[21236105] = Rare({id=162140, quest=nil, note=nil, rewards={
+nodes[21236105] = Rare({id=162140, quest=58697, rewards={
     Pet({id=2848, item=174476}) -- Aqir Tunneler
+}, pois={
+    Path({22486168, 21316279, 19896347, 19356128, 20345804, 21435846, 24325860, 24866015, 24406194, 22486168})
 }}) -- Skikx'traz
 nodes[66676804] = Rare({id=162372, quest=58715}) -- Spirit of Cyrus the Black
-nodes[49944011] = Rare({id=162352, quest=58716, note=L["in_cave"]}) -- Spirit of Dark Ritualist Zakahn
+nodes[49944011] = Rare({id=162352, quest=58716, note=L["in_ucave"]}) -- Spirit of Dark Ritualist Zakahn
 nodes[52154012] = Cave({parent=nodes[49944011], label=L["spirit_cave"]}) -- Entrance
 nodes[78986389] = Rare({id=151878, quest=58613, note=nil}) -- Sun King Nahkotep
 nodes[84785704] = Rare({id=151897, quest=55479}) -- Sun Priestess Nubitt
-nodes[73347447] = Rare({id=151609, quest=nil}) -- Sun Prophet Epaphos
+nodes[73347447] = Rare({id=151609, quest=55353}) -- Sun Prophet Epaphos
 nodes[67713350] = Rare({id=152657, quest=55682, note="check path"}) -- Tat the Bonechewer
 nodes[49328235] = Rare({id=158636, quest=nil, note=L["gexec"], rewards={
     Toy({item=169303}) -- Hell-Bent Bracers
 }}) -- The Grand Executor
-nodes[79505217] = Rare({id=151852, quest=nil, pois={
+nodes[33592569] = Rare({id=162170, quest=58702}) -- Warcaster Xeshro
+nodes[79505217] = Rare({id=151852, quest=55461, pois={
     Path({77755217, 81265217})
 }}) -- Watcher Rehu
 -- nodes[] = Rare({id=157473, quest=nil, note=nil, rewards={
