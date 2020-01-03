@@ -166,6 +166,7 @@ nodes[30854971] = Rare({id=162147, quest=58696, rewards={
 }}) -- Corpse Eater
 nodes[49363822] = Rare({id=158594, quest=57672, note=nil}) -- Doomsayer Vathiris
 nodes[48657067] = Rare({id=158491, quest=nil, note=L["falconer"]}) -- Falconer Amenophis
+nodes[75056816] = Rare({id=157120, quest=57258}) -- Fangtaker Orsa
 nodes[21405794] = Rare({id=155531, quest=56823, note=nil}) -- Infested Wastewander Captain
 nodes[54694317] = Rare({id=158597, quest=57675, note=nil}) -- High Executor Yothrim
 nodes[42485873] = Rare({id=162163, quest=58701, pois={
