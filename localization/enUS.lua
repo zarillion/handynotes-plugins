@@ -30,8 +30,12 @@ L["infested_strongbox"] = "Infested Strongbox"
 
 L["vale_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in the Vale of Eternal Blossoms."
 
-L["ambered_cache"] = "Ambered Cache"
+L["big_blossom_mine"] = "Inside the Big Blossom Mine. Entrance to the north-east."
 L["jadec"] = "Inside Guo-Lai Halls."
+L["pools_of_power"] = "Inside the Pools of Power. Entrance at The Golden Pagoda."
+L["tisiphon"] = "Click on Danielle's Lucky Fishing Rod."
+
+L["ambered_cache"] = "Ambered Cache"
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
