@@ -174,6 +174,9 @@ nodes[34681890] = Rare({id=154604, quest=nil, note=L["chamber_of_the_moon"], rew
 nodes[62012454] = Rare({id=152677, quest=nil}) -- Nebet the Ascended
 nodes[35071729] = Rare({id=162196, quest=nil, note=nil}) -- Obsidian Annihilator
 nodes[58175712] = Rare({id=156299, quest=57430, note=L["rkhuzj"]}) -- R'khuzj the Unfathomable
+nodes[24980615] = Rare({id=162173, quest=58864, pois={
+    Path({38031012, 31611053, 26460550, 24980615, 24810886, 28651339, 28361503})
+}}) -- R'krox the runt
 nodes[68593204] = Rare({id=157146, quest=nil, note=nil, rewards={
     Mount({id=1317, item=174753}) -- Waste Marauder
 }}) -- Rotfeaster
@@ -208,7 +211,9 @@ nodes[80165708] = Rare({id=157164, quest=57279}) -- Zealot Tekem
 -------------------------------------------------------------------------------
 
 nodes[36032024] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
+nodes[37484577] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[30671611] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
+nodes[28030834] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
 nodes[36252324] = Supply({quest=nil, assault=AQR, label=L["infested_strongbox"], note=L["chamber_of_the_moon"]})
 
 nodes[58361535] = Treasure({quest=57623, assault=EMP, label=L["black_empire_cache"]})
