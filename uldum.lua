@@ -200,7 +200,9 @@ nodes[71237375] = Rare({id=156655, quest=nil}) -- Korzaran the Slaughterer
 nodes[34681890] = Rare({id=154604, quest=56340, note=L["chamber_of_the_moon"], rewards={
     Pet({id=2847, item=174475}) -- Rotbreath
 }}) -- Lord Aj'qirai
-nodes[30476602] = Rare({id=156078, quest=56952}) -- Magus Rehleth
+nodes[30476602] = Rare({id=156078, quest=56952, pois={
+    POI({30476602, 33696573})
+}}) -- Magus Rehleth
 nodes[62012454] = Rare({id=152677, quest=nil}) -- Nebet the Ascended
 nodes[35071729] = Rare({id=162196, quest=58681}) -- Obsidian Annihilator
 nodes[37505978] = Rare({id=162142, quest=58693}) -- Qho
@@ -250,13 +252,18 @@ nodes[39694159] = Rare({id=162141, quest=58695}) -- Zuythiz
 -------------------------------------------------------------------------------
 
 nodes[45845698] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"], note=L["chamber_of_the_sun"]})
-nodes[33366210] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
+nodes[51736032] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"]})
+nodes[31166796] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
 nodes[32764770] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
+nodes[33366210] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
 nodes[19836512] = Treasure({quest=58140, assault=AQR, label=L["infested_cache"]})
+nodes[24525507] = Treasure({quest=58140, assault=AQR, label=L["infested_cache"]})
 nodes[36032024] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[37484577] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
-nodes[30671611] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
+nodes[39754504] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[28030834] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
+nodes[30671611] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
+nodes[35413157] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
 nodes[36252324] = Supply({quest=nil, assault=AQR, label=L["infested_strongbox"], note=L["chamber_of_the_moon"]})
 
 nodes[58361535] = Treasure({quest=57623, assault=EMP, label=L["black_empire_cache"]})
