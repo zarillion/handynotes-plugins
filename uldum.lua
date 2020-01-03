@@ -151,9 +151,16 @@ nodes[32426443] = Rare({id=155703, quest=56834, note=nil}) -- Anq'uri the Titani
 nodes[69714973] = Rare({id=151883, quest=55468, pois={
     Path({68645049, 69714973, 70955041, 71425210, 71005388, 69855463, 68695394, 68225217, 68645049})
 }}) -- Anaua
-nodes[33595682] = Rare({id=154576, quest=58614, note=nil}) -- Aqir Titanus
+nodes[33595682] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
+    --POI({30266161, 30076533, 31496674, 33356610, 32486946, 34856598}),
+    Path({37295892, 36485588, 37285284}),
+    Path({38134884, 36535023, 34765141, 32935159}),
+    Path({33325836, 33865418}),
+    Path({26795106, 27055372, 27025596}),
+    Path({28526114, 28975921, 28805676, 28945481})
+}}) -- Aqir Titanus
 nodes[45605777] = Rare({id=162171, quest=nil, note=L["dunewalker"]}) -- Captain Dunewalker
-nodes[30854971] = Rare({id=162147, quest=nil, note=nil, rewards={
+nodes[30854971] = Rare({id=162147, quest=58696, note=nil, rewards={
     Mount({id=1319, item=174769}) -- Malevolent Drone
 }}) -- Corpse Eater
 nodes[49363822] = Rare({id=158594, quest=57672, note=nil}) -- Doomsayer Vathiris
@@ -177,6 +184,7 @@ nodes[34681890] = Rare({id=154604, quest=nil, note=L["chamber_of_the_moon"], rew
 nodes[32426439] = Rare({id=156078, quest=nil}) -- Magus Rehleth
 nodes[62012454] = Rare({id=152677, quest=nil}) -- Nebet the Ascended
 nodes[35071729] = Rare({id=162196, quest=nil, note=nil}) -- Obsidian Annihilator
+nodes[37505978] = Rare({id=162142, quest=58693}) -- Qho
 nodes[58175712] = Rare({id=156299, quest=57430, note=L["rkhuzj"]}) -- R'khuzj the Unfathomable
 nodes[24980615] = Rare({id=162173, quest=58864, pois={
     Path({38031012, 31611053, 26460550, 24980615, 24810886, 28651339, 28361503})
@@ -215,6 +223,7 @@ nodes[80165708] = Rare({id=157164, quest=57279}) -- Zealot Tekem
 -------------------------------------------------------------------------------
 
 nodes[45845698] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"], note=L["chamber_of_the_sun"]})
+nodes[33366210] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
 nodes[36032024] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[37484577] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
 nodes[30671611] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})

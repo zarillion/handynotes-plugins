@@ -8,6 +8,7 @@ if not L then return end
 
 L["uldum_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in Uldum."
 
+L["aqir_titanus"] = "Shares spawns with Aqir Goliaths."
 L["chamber_of_the_moon"] = "Underground in the Chamber of the Moon."
 L["chamber_of_the_stars"] = "Underground in the Chamber of the Stars."
 L["dunewalker"] = "Inside the Chamber of the Sun."
