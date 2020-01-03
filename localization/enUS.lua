@@ -31,7 +31,7 @@ L["infested_strongbox"] = "Infested Strongbox"
 L["vale_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in the Vale of Eternal Blossoms."
 
 L["big_blossom_mine"] = "Inside the Big Blossom Mine. Entrance to the north-east."
-L["jadec"] = "Inside Guo-Lai Halls."
+L["jadec"] = "Inside Guo-Lai Halls. Go left at the bottom of the stairs."
 L["pools_of_power"] = "Inside the Pools of Power. Entrance at The Golden Pagoda."
 L["tisiphon"] = "Click on Danielle's Lucky Fishing Rod."
 
@@ -75,7 +75,8 @@ L["trinket"] = "Trinket";
 
 L["retrieving"] = "Retrieving item link ...";
 L["in_cave"] = "In a cave.";
-L["in_ucave"] = "In an underwater cave.";
+L["in_small_cave"] = "In a small cave."
+L["in_water_cave"] = "In an underwater cave.";
 L["weekly"] = "Weekly";
 L["normal"] = "Normal";
 L["hard"] = "Hard";

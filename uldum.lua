@@ -226,7 +226,7 @@ nodes[21236105] = Rare({id=162140, quest=58697, rewards={
 nodes[66676804] = Rare({id=162372, quest=58715, pois={
     POI({66676804, 70997407})
 }}) -- Spirit of Cyrus the Black
-nodes[49944011] = Rare({id=162352, quest=58716, note=L["in_ucave"]}) -- Spirit of Dark Ritualist Zakahn
+nodes[49944011] = Rare({id=162352, quest=58716, note=L["in_water_cave"]}) -- Spirit of Dark Ritualist Zakahn
 nodes[52154012] = Cave({parent=nodes[49944011], label=L["spirit_cave"]}) -- Entrance
 nodes[78986389] = Rare({id=151878, quest=58613}) -- Sun King Nahkotep
 nodes[84785704] = Rare({id=151897, quest=55479}) -- Sun Priestess Nubitt

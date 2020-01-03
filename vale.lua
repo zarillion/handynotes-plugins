@@ -139,7 +139,7 @@ nodes[57084098] = Rare({id=154447, quest=56237}) -- Brother Meller
 nodes[06487070] = Rare({id=160878, quest=58307}) -- Buh'gzaki the Blasphemous
 nodes[06406433] = Rare({id=160893, quest=58308}) -- Captain Vor'lek
 nodes[81226450] = Rare({id=154467, quest=56255}) -- Chief Mek-mek
-nodes[66556794] = Rare({id=154559, quest=nil, note=L["big_blossom_mine"]}) -- Deeplord Zrihj
+nodes[66556794] = Rare({id=154559, quest=56323, note=L["big_blossom_mine"]}) -- Deeplord Zrihj
 nodes[26506657] = Rare({id=160872, quest=58304}) -- Destroyer Krox'tazar
 nodes[11854081] = Rare({id=160874, quest=58305}) -- Drone Keeper Ak'thet
 nodes[10474089] = Rare({id=160876, quest=58306}) -- Enraged Amber Elemental
@@ -156,7 +156,8 @@ nodes[10003200] = Rare({id=157160, quest=nil, rewards={
     Mount({id=1327, item=174841}) -- Ren's Stalwart Hound
 }}) -- Houndlord Ren
 nodes[18426557] = Rare({id=160930, quest=58312}) -- Infused Amber Ooze
-nodes[17201159] = Rare({id=160968, quest=58295, note=L["jadec"]}) -- Jade Colossus
+nodes[22132419] = Rare({id=160968, quest=58295, note=L["jadec"]}) -- Jade Colossus
+nodes[26691061] = Rare({id=157290, quest=57350, note=L["in_small_cave"]}) -- Jade Watcher
 nodes[17850918] = Rare({id=160920, quest=58310}) -- Kal'tik the Blight
 nodes[45985858] = Rare({id=157266, quest=57341, pois={
     Path({45985858, 48645963, 50576511, 48936926, 45877046, 43096817, 42486336, 45985858})
@@ -193,10 +194,16 @@ nodes[15406394] = Treasure({quest=58228, assault=MAN, label=L["ambered_cache"]})
 nodes[16096581] = Treasure({quest=58228, assault=MAN, label=L["ambered_cache"]})
 
 nodes[44483693] = Treasure({quest=57197, assault=EMP, label=L["black_empire_cache"]})
+nodes[52673967] = Treasure({quest=57197, assault=EMP, label=L["black_empire_cache"]})
 nodes[69933311] = Treasure({quest=57199, assault=EMP, label=L["black_empire_cache"], note=L["pools_of_power"]})
+nodes[70282286] = Treasure({quest=57199, assault=EMP, label=L["black_empire_cache"], note=L["pools_of_power"]})
 nodes[57334165] = Treasure({quest=57200, assault=EMP, label=L["black_empire_cache"]})
+nodes[59605624] = Treasure({quest=57200, assault=EMP, label=L["black_empire_cache"]})
 nodes[79034330] = Treasure({quest=57201, assault=EMP, label=L["black_empire_cache"]})
+nodes[87813771] = Treasure({quest=57201, assault=EMP, label=L["black_empire_cache"]})
 nodes[63107059] = Treasure({quest=57202, assault=EMP, label=L["black_empire_cache"], note=L["big_blossom_mine"]})
+nodes[71516854] = Treasure({quest=57202, assault=EMP, label=L["black_empire_cache"], note=L["big_blossom_mine"]})
+nodes[48476579] = Treasure({quest=57203, assault=EMP, label=L["black_empire_cache"]})
 nodes[52266732] = Treasure({quest=57203, assault=EMP, label=L["black_empire_cache"]})
 
 -------------------------------------------------------------------------------
