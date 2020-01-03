@@ -25,6 +25,7 @@ local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
@@ -153,7 +154,7 @@ nodes[69714973] = Rare({id=151883, quest=55468, pois={
 }}) -- Anaua
 nodes[32231626] = Rare({id=154578, quest=58612, note=L["aqir_flayer"]}) -- Aqir Flayer
 nodes[33595682] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
-    --POI({30266161, 30076533, 31496674, 33356610, 32486946, 34856598}),
+    POI({30266161, 30076533, 31496674, 33356610, 32486946, 34856598}),
     Path({37295892, 36485588, 37285284}),
     Path({38134884, 36535023, 34765141, 32935159}),
     Path({33325836, 33865418}),
@@ -187,7 +188,9 @@ nodes[30476602] = Rare({id=156078, quest=56952}) -- Magus Rehleth
 nodes[62012454] = Rare({id=152677, quest=nil}) -- Nebet the Ascended
 nodes[35071729] = Rare({id=162196, quest=58681}) -- Obsidian Annihilator
 nodes[37505978] = Rare({id=162142, quest=58693}) -- Qho
-nodes[58175712] = Rare({id=156299, quest=57430, note=L["rkhuzj"]}) -- R'khuzj the Unfathomable
+nodes[58175712] = Rare({id=156299, quest=57430, pois={
+    Path({51055121, 52684913, 54554907, 56165227, 56795451, 58095721, 58536856})
+}}) -- R'khuzj the Unfathomable
 nodes[24980615] = Rare({id=162173, quest=58864, pois={
     Path({38031012, 31611053, 26460550, 24980615, 24810886, 28651339, 30103380})
 }}) -- R'krox the runt
@@ -204,7 +207,7 @@ nodes[21236105] = Rare({id=162140, quest=58697, rewards={
 }, pois={
     Path({22486168, 21316279, 19896347, 19356128, 20345804, 21435846, 24325860, 24866015, 24406194, 22486168})
 }}) -- Skikx'traz
-nodes[66676804] = Rare({id=162372, quest=58715}) -- Spirit of Cyrus the Black
+nodes[66676804] = Rare({id=162372, quest=58715}) -- Spirit of Cyrus the Black (also 70997407)
 nodes[49944011] = Rare({id=162352, quest=58716, note=L["in_ucave"]}) -- Spirit of Dark Ritualist Zakahn
 nodes[52154012] = Cave({parent=nodes[49944011], label=L["spirit_cave"]}) -- Entrance
 nodes[78986389] = Rare({id=151878, quest=58613, note=nil}) -- Sun King Nahkotep
@@ -242,10 +245,10 @@ nodes[62977610] = Treasure({quest=57626, assault=EMP, label=L["black_empire_cach
 nodes[60757493] = Treasure({quest=57627, assault=EMP, label=L["black_empire_cache"]})
 nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
 
-nodes[72216422] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
-nodes[75575372] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
 nodes[84534540] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
+nodes[72216422] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
 nodes[78286207] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
+nodes[75575372] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
 nodes[79314578] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
 nodes[64094488] = Treasure({quest=55699, assault=AMA, label=L["amathet_cache"]})
 nodes[67172800] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})

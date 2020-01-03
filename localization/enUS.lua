@@ -16,7 +16,6 @@ L["chamber_of_the_stars"] = "Underground in the Chamber of the Stars."
 L["dunewalker"] = "Inside the Chamber of the Sun."
 L["falconer"] = "Pats north-east and south-west between Neferset and the Cradle of the Ancients."
 L["gexec"] = "Spawns on top of the floating platform."
-L["rkhuzj"] = "Pats north and south along the river."
 L["spirit_cave"] = "Cave entrance for Spirit of Dark Ritualist Zakahn."
 
 L["amathet_cache"] = "Amathet Cache"

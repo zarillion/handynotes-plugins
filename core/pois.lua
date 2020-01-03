@@ -8,6 +8,23 @@ local Class = ns.Class
 
 local POI = Class('POI')
 
+function POI:render (map, template)
+    -- draw a circle at every coord
+    for i=1, #self, 1 do
+        map:AcquirePin(template, self, self[i])
+    end
+end
+
+function POI:draw (pin, xy)
+    local t = pin.texture
+    t:SetTexCoord(0, 1, 0, 1)
+    t:SetVertexColor(0, 0.5, 1, 1)
+    t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\circle")
+    pin:SetAlpha(0.75)
+    pin:SetSize(10, 10)
+    return HandyNotes:getXY(xy)
+end
+
 -------------------------------------------------------------------------------
 ------------------------------------ BLOB -------------------------------------
 -------------------------------------------------------------------------------
