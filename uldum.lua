@@ -205,8 +205,8 @@ nodes[34681890] = Rare({id=154604, quest=56340, note=L["chamber_of_the_moon"], r
 nodes[30476602] = Rare({id=156078, quest=56952, pois={
     POI({30476602, 33696573})
 }}) -- Magus Rehleth
-nodes[66842035] = Rare({id=157157, quest=nil}) -- Muminah the Incandescent
-nodes[62012454] = Rare({id=152677, quest=nil}) -- Nebet the Ascended
+nodes[66842035] = Rare({id=157157, quest=57277}) -- Muminah the Incandescent
+nodes[62012454] = Rare({id=152677, quest=55684}) -- Nebet the Ascended
 nodes[35071729] = Rare({id=162196, quest=58681}) -- Obsidian Annihilator
 nodes[37505978] = Rare({id=162142, quest=58693}) -- Qho
 nodes[58175712] = Rare({id=156299, quest=57430, pois={
@@ -283,17 +283,21 @@ nodes[62977610] = Treasure({quest=57626, assault=EMP, label=L["black_empire_cach
 nodes[60757493] = Treasure({quest=57627, assault=EMP, label=L["black_empire_cache"]})
 nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
 
+nodes[80785611] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
 nodes[84534540] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
 nodes[81585359] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
 nodes[72216422] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
 nodes[78286207] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
 nodes[73117297] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
+nodes[79166486] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
 nodes[75575372] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
+nodes[74195187] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
 nodes[72474857] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
 nodes[79314578] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
 nodes[64094488] = Treasure({quest=55699, assault=AMA, label=L["amathet_cache"]})
 nodes[61343060] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
 nodes[67172800] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})
+nodes[68222051] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
 nodes[64463415] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"], note=L["chamber_of_the_stars"]})
 nodes[73685054] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})
 
