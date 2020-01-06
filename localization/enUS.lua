@@ -16,6 +16,7 @@ L["chamber_of_the_stars"] = "Underground in the Chamber of the Stars."
 L["chamber_of_the_sun"] = "Inside the Chamber of the Sun."
 L["falconer"] = "Pats north-east and south-west between Neferset and the Cradle of the Ancients."
 L["gexec"] = "Spawns on top of the floating platform."
+L["left_eye"] = "Drops the left half of the All-Seeing Eyes toy."
 L["spirit_cave"] = "Cave entrance for Spirit of Dark Ritualist Zakahn."
 
 L["amathet_cache"] = "Amathet Cache"
@@ -34,6 +35,7 @@ L["vale_intro_note"] = "Complete the introductory quest chain to unlock rares, t
 L["big_blossom_mine"] = "Inside the Big Blossom Mine. Entrance to the north-east."
 L["jadec"] = "Inside Guo-Lai Halls. Go left at the bottom of the stairs."
 L["pools_of_power"] = "Inside the Pools of Power. Entrance at The Golden Pagoda."
+L["right_eye"] = "Drops the right half of the All-Seeing Eyes toy."
 L["tisiphon"] = "Click on Danielle's Lucky Fishing Rod."
 
 L["ambered_cache"] = "Ambered Cache"

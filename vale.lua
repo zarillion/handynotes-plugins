@@ -177,8 +177,9 @@ nodes[09586736] = Rare({id=157468, quest=57364, note=L["tisiphon"]}) -- Tisiphon
 nodes[86664165] = Rare({id=154394, quest=56213}) -- Veskan the Fallen
 nodes[66732812] = Rare({id=154332, quest=56183, note=L["pools_of_power"]}) -- Voidtender Malketh
 nodes[52956225] = Rare({id=154495, quest=56303, rewards={
+    Toy({item=175140}), -- All-Seeing Eye
     Pet({id=2846, item=174474}) -- Corrupted Tentacle
-}}) -- Will of N'Zoth
+}, note=L["right_eye"]}) -- Will of N'Zoth
 nodes[70954053] = Rare({id=154087, quest=56084}) -- Zror'um the Infinite
 
 -------------------------------------------------------------------------------

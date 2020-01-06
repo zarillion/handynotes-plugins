@@ -186,6 +186,9 @@ nodes[30854971] = Rare({id=162147, quest=58696, rewards={
 nodes[49363822] = Rare({id=158594, quest=57672}) -- Doomsayer Vathiris
 nodes[48657067] = Rare({id=158491, quest=nil, note=L["falconer"]}) -- Falconer Amenophis
 nodes[75056816] = Rare({id=157120, quest=57258}) -- Fangtaker Orsa
+nodes[55005300] = Rare({id=158633, quest=nil, rewards={
+    Toy({item=175140}) -- All-Seeing Eye
+}, note=L["left_eye"]})
 nodes[21405794] = Rare({id=155531, quest=56823, pois={
     POI({21405794, 24515825}) -- shares a spawn with Wastewander Hosts?
 }}) -- Infested Wastewander Captain
