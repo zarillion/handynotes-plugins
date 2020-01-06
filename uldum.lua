@@ -215,7 +215,7 @@ nodes[58175712] = Rare({id=156299, quest=57430, pois={
 nodes[28651339] = Rare({id=162173, quest=58864, pois={
     Path({38031012, 31611053, 26460550, 24980615, 24810886, 28651339, 30103380})
 }}) -- R'krox the runt
-nodes[68593204] = Rare({id=157146, quest=nil, rewards={
+nodes[68593204] = Rare({id=157146, quest=57273, rewards={
     Mount({id=1317, item=174753}) -- Waste Marauder
 }}) -- Rotfeaster
 nodes[69714215] = Rare({id=152040, quest=55518}) -- Scoutmaster Moswen
@@ -289,6 +289,7 @@ nodes[79314578] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
 nodes[64094488] = Treasure({quest=55699, assault=AMA, label=L["amathet_cache"]})
 nodes[61343060] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
 nodes[67172800] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})
+nodes[64463415] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"], note=L["chamber_of_the_stars"]})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

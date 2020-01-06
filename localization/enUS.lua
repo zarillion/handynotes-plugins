@@ -23,6 +23,7 @@ L["black_empire_cache"] = "Black Empire Cache"
 L["black_empire_coffer"] = "Black Empire Coffer"
 L["infested_cache"] = "Infested Cache"
 L["infested_strongbox"] = "Infested Strongbox"
+L["amathet_reliquary"] = "Amathet Reliquary"
 
 -------------------------------------------------------------------------------
 ------------------------------------ VALE -------------------------------------
