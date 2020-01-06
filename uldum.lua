@@ -177,6 +177,7 @@ nodes[31245691] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
     Path({32994510, 35434436, 36284239}),
     Path({41243247, 40503334, 39233745})
 }}) -- Aqir Titanus
+nodes[44854235] = Rare({id=162370, quest=58718}) -- Armagedillo
 nodes[45605777] = Rare({id=162171, quest=58699, note=L["chamber_of_the_sun"]}) -- Captain Dunewalker
 nodes[30854971] = Rare({id=162147, quest=58696, rewards={
     Mount({id=1319, item=174769}) -- Malevolent Drone
