@@ -178,6 +178,7 @@ nodes[31245691] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
     Path({41243247, 40503334, 39233745})
 }}) -- Aqir Titanus
 nodes[44854235] = Rare({id=162370, quest=58718}) -- Armagedillo
+nodes[65035129] = Rare({id=152757, quest=55710}) -- Atekhramun
 nodes[45605777] = Rare({id=162171, quest=58699, note=L["chamber_of_the_sun"]}) -- Captain Dunewalker
 nodes[30854971] = Rare({id=162147, quest=58696, rewards={
     Mount({id=1319, item=174769}) -- Malevolent Drone
@@ -300,6 +301,7 @@ nodes[79314578] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
 nodes[64094488] = Treasure({quest=55699, assault=AMA, label=L["amathet_cache"]})
 nodes[61343060] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
 nodes[67172800] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})
+nodes[63122508] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})
 nodes[68222051] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
 nodes[64463415] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"], note=L["chamber_of_the_stars"]})
 nodes[73685054] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})
