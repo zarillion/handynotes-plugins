@@ -259,6 +259,7 @@ nodes[39694159] = Rare({id=162141, quest=58695}) -- Zuythiz
 -------------------------------------------------------------------------------
 
 nodes[45845698] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"], note=L["chamber_of_the_sun"]})
+nodes[46525801] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"]})
 nodes[50555882] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"]})
 nodes[51736032] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"]})
 nodes[31166796] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
