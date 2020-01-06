@@ -11,6 +11,7 @@ L["uldum_intro_note"] = "Complete the introductory quest chain to unlock rares, 
 L["aqir_flayer"] = "Shares a spawn with Aqir Hive Workers and Aqir Reapers."
 L["aqir_titanus"] = "Shares a spawn with Aqir Goliaths."
 L["aqir_warcaster"] = "Shares a spawn with Aqir Voidcasters."
+L["atekhramun"] = "Squish nearby Venomscale Scorplings until he spawns."
 L["chamber_of_the_moon"] = "Underground in the Chamber of the Moon."
 L["chamber_of_the_stars"] = "Underground in the Chamber of the Stars."
 L["chamber_of_the_sun"] = "Inside the Chamber of the Sun."
