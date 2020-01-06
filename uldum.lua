@@ -205,6 +205,7 @@ nodes[34681890] = Rare({id=154604, quest=56340, note=L["chamber_of_the_moon"], r
 nodes[30476602] = Rare({id=156078, quest=56952, pois={
     POI({30476602, 33696573})
 }}) -- Magus Rehleth
+nodes[66842035] = Rare({id=152677, quest=nil}) -- Muminah the Incandescent
 nodes[62012454] = Rare({id=152677, quest=nil}) -- Nebet the Ascended
 nodes[35071729] = Rare({id=162196, quest=58681}) -- Obsidian Annihilator
 nodes[37505978] = Rare({id=162142, quest=58693}) -- Qho
@@ -286,6 +287,7 @@ nodes[78286207] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
 nodes[75575372] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
 nodes[79314578] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
 nodes[64094488] = Treasure({quest=55699, assault=AMA, label=L["amathet_cache"]})
+nodes[61343060] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
 nodes[67172800] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})
 
 -------------------------------------------------------------------------------
