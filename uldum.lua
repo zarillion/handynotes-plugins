@@ -299,10 +299,10 @@ local AMAChest = Class('AmaChest', Treasure, {
 })
 
 local AMATR1 = AMAChest({quest=55689, icon='chest_blue'})
-local AMATR2 = AMAChest({quest=55690, icon='chest_brown'})
+local AMATR2 = AMAChest({quest=55690, icon='chest_purple'})
 local AMATR3 = AMAChest({quest=55691, icon='chest_orange'})
 local AMATR4 = AMAChest({quest=55698, icon='chest_yellow'})
-local AMATR5 = AMAChest({quest=55699, icon='chest_camo'})
+local AMATR5 = AMAChest({quest=55699, icon='chest_teal'})
 local AMATR6 = AMAChest({quest=55700, icon='chest_lime'})
 local AMATR6S = AMAChest({quest=55700, icon='chest_lime', note=L["chamber_of_the_stars"]})
 

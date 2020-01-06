@@ -196,23 +196,46 @@ nodes[15406394] = Treasure({quest=58228, assault=MAN, label=L["ambered_cache"]})
 nodes[16096581] = Treasure({quest=58228, assault=MAN, label=L["ambered_cache"]})
 nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"]})
 
-nodes[44483693] = Treasure({quest=57197, assault=EMP, label=L["black_empire_cache"]})
-nodes[46314037] = Treasure({quest=57197, assault=EMP, label=L["black_empire_cache"]})
-nodes[52673967] = Treasure({quest=57197, assault=EMP, label=L["black_empire_cache"]})
-nodes[69933311] = Treasure({quest=57199, assault=EMP, label=L["black_empire_cache"], note=L["pools_of_power"]})
-nodes[70282286] = Treasure({quest=57199, assault=EMP, label=L["black_empire_cache"], note=L["pools_of_power"]})
-nodes[73242533] = Treasure({quest=57199, assault=EMP, label=L["black_empire_cache"], note=L["pools_of_power"]})
-nodes[57334165] = Treasure({quest=57200, assault=EMP, label=L["black_empire_cache"]})
-nodes[59605624] = Treasure({quest=57200, assault=EMP, label=L["black_empire_cache"]})
-nodes[62585721] = Treasure({quest=57200, assault=EMP, label=L["black_empire_cache"]})
-nodes[78435833] = Treasure({quest=57201, assault=EMP, label=L["black_empire_cache"]})
-nodes[79034330] = Treasure({quest=57201, assault=EMP, label=L["black_empire_cache"]})
-nodes[87813771] = Treasure({quest=57201, assault=EMP, label=L["black_empire_cache"]})
-nodes[63107059] = Treasure({quest=57202, assault=EMP, label=L["black_empire_cache"], note=L["big_blossom_mine"]})
-nodes[71516854] = Treasure({quest=57202, assault=EMP, label=L["black_empire_cache"], note=L["big_blossom_mine"]})
-nodes[48476579] = Treasure({quest=57203, assault=EMP, label=L["black_empire_cache"]})
-nodes[51136323] = Treasure({quest=57203, assault=EMP, label=L["black_empire_cache"]})
-nodes[52266732] = Treasure({quest=57203, assault=EMP, label=L["black_empire_cache"]})
+-------------------------------------------------------------------------------
+
+local EMPChest = Class('EMPChest', Treasure, {
+    assault=EMP, label=L["black_empire_cache"]
+})
+
+local EMPTR1 = EMPChest({quest=57197, icon='chest_blue'})
+local EMPTR2 = EMPChest({quest=57199, icon='chest_purple', note=L["pools_of_power"]})
+local EMPTR3 = EMPChest({quest=57200, icon='chest_orange'})
+local EMPTR4 = EMPChest({quest=57201, icon='chest_yellow'})
+local EMPTR5 = EMPChest({quest=57202, icon='chest_teal', note=L["big_blossom_mine"]})
+local EMPTR6 = EMPChest({quest=57203, icon='chest_lime'})
+
+-- quest=57197
+nodes[42314323] = EMPTR1
+nodes[44483693] = EMPTR1
+nodes[46314037] = EMPTR1
+nodes[52673967] = EMPTR1
+-- quest=57199
+nodes[56152716] = EMPTR2
+nodes[69933311] = EMPTR2
+nodes[70282286] = EMPTR2
+nodes[73242533] = EMPTR2
+-- quest=57200
+nodes[57334165] = EMPTR3
+nodes[59605624] = EMPTR3
+nodes[62585721] = EMPTR3
+nodes[65855969] = EMPTR3
+-- quest=57201
+nodes[78435833] = EMPTR4
+nodes[79034330] = EMPTR4
+nodes[87813771] = EMPTR4
+-- quest=57202
+nodes[60806337] = EMPTR5
+nodes[63107059] = EMPTR5
+nodes[71516854] = EMPTR5
+-- quest=57203
+nodes[48476579] = EMPTR6
+nodes[51136323] = EMPTR6
+nodes[52266732] = EMPTR6
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
