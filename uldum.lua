@@ -49,7 +49,7 @@ local function GetAssault ()
         return EMP -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3165098 then
         ns.debug('Uldum assault: AMA')
-        return AME -- right
+        return AMA -- right
     end
 end
 
@@ -211,7 +211,7 @@ nodes[37505978] = Rare({id=162142, quest=58693}) -- Qho
 nodes[58175712] = Rare({id=156299, quest=57430, pois={
     Path({51055121, 52684913, 54554907, 56165227, 56795451, 58095721, 58536856})
 }}) -- R'khuzj the Unfathomable
-nodes[24980615] = Rare({id=162173, quest=58864, pois={
+nodes[28651339] = Rare({id=162173, quest=58864, pois={
     Path({38031012, 31611053, 26460550, 24980615, 24810886, 28651339, 30103380})
 }}) -- R'krox the runt
 nodes[68593204] = Rare({id=157146, quest=nil, rewards={
