@@ -236,7 +236,9 @@ nodes[52154012] = Cave({parent=nodes[49944011], label=L["spirit_cave"]}) -- Entr
 nodes[78986389] = Rare({id=151878, quest=58613}) -- Sun King Nahkotep
 nodes[84785704] = Rare({id=151897, quest=55479}) -- Sun Priestess Nubitt
 nodes[73347447] = Rare({id=151609, quest=55353}) -- Sun Prophet Epaphos
-nodes[67713350] = Rare({id=152657, quest=55682, note="check path"}) -- Tat the Bonechewer
+nodes[65903522] = Rare({id=152657, quest=55682, pois={
+    Path({68043800, 64873862, 64503660, 65903522, 67003162, 67743515, 68043800})
+}}) -- Tat the Bonechewer
 nodes[49328235] = Rare({id=158636, quest=nil, note=L["gexec"], rewards={
     Toy({item=169303}) -- Hell-Bent Bracers
 }}) -- The Grand Executor
@@ -282,14 +284,18 @@ nodes[60757493] = Treasure({quest=57627, assault=EMP, label=L["black_empire_cach
 nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
 
 nodes[84534540] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
+nodes[81585359] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
 nodes[72216422] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
 nodes[78286207] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
+nodes[73117297] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
 nodes[75575372] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
+nodes[72474857] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
 nodes[79314578] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
 nodes[64094488] = Treasure({quest=55699, assault=AMA, label=L["amathet_cache"]})
 nodes[61343060] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
 nodes[67172800] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})
 nodes[64463415] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"], note=L["chamber_of_the_stars"]})
+nodes[73685054] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
