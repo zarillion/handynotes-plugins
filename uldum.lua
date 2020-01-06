@@ -334,6 +334,7 @@ nodes[79314578] = AMATR4
 -- quest=55699 (no blizzard minimap icon for this one?)
 nodes[63084970] = AMATR5
 nodes[64094488] = AMATR5
+nodes[69744236] = AMATR5
 -- quest=55700
 nodes[60932455] = AMATR6
 nodes[61343060] = AMATR6
