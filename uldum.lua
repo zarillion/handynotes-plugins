@@ -261,26 +261,43 @@ nodes[39694159] = Rare({id=162141, quest=58695}) -- Zuythiz
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-nodes[45845698] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"], note=L["chamber_of_the_sun"]})
-nodes[46525801] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"]})
-nodes[50555882] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"]})
-nodes[51736032] = Treasure({quest=58138, assault=AQR, label=L["infested_cache"]})
-nodes[31166796] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
-nodes[32764770] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
-nodes[32976010] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
-nodes[33366210] = Treasure({quest=58139, assault=AQR, label=L["infested_cache"]})
-nodes[18356130] = Treasure({quest=58140, assault=AQR, label=L["infested_cache"]})
-nodes[19836512] = Treasure({quest=58140, assault=AQR, label=L["infested_cache"]})
-nodes[23055936] = Treasure({quest=58140, assault=AQR, label=L["infested_cache"]})
-nodes[24525507] = Treasure({quest=58140, assault=AQR, label=L["infested_cache"]})
-nodes[36032024] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
-nodes[37484577] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
-nodes[38774014] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
-nodes[39754504] = Treasure({quest=58141, assault=AQR, label=L["infested_cache"]})
-nodes[28030834] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
-nodes[30671611] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
-nodes[33953036] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
-nodes[35413157] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
+local AQRChest = Class('AQRChest', Treasure, {
+    assault=AQR, label=L["infested_cache"]
+})
+
+local AQRTR1 = AQRChest({quest=58138, icon='chest_blue'})
+local AQRTR1C = AQRChest({quest=58138, icon='chest_blue', note=L["chamber_of_the_sun"]})
+local AQRTR2 = AQRChest({quest=58139, icon='chest_purple'})
+local AQRTR3 = AQRChest({quest=58140, icon='chest_orange'})
+local AQRTR4 = AQRChest({quest=58141, icon='chest_yellow'})
+local AQRTR5 = AQRChest({quest=58142, icon='chest_teal'})
+
+-- quest=58138
+nodes[45845698] = AQRTR1C
+nodes[46525801] = AQRTR1
+nodes[50555882] = AQRTR1
+nodes[51736032] = AQRTR1
+-- quest=58139
+nodes[31166796] = AQRTR2
+nodes[32764770] = AQRTR2
+nodes[32976010] = AQRTR2
+nodes[33366210] = AQRTR2
+-- quest=58140
+nodes[18356130] = AQRTR3
+nodes[19836512] = AQRTR3
+nodes[23055936] = AQRTR3
+nodes[24525507] = AQRTR3
+-- quest=58141
+nodes[36032024] = AQRTR4
+nodes[37484577] = AQRTR4
+nodes[38774014] = AQRTR4
+nodes[39754504] = AQRTR4
+-- quest=58142
+nodes[28030834] = AQRTR5
+nodes[30671611] = AQRTR5
+nodes[33953036] = AQRTR5
+nodes[35413157] = AQRTR5
+
 nodes[36252324] = Supply({quest=nil, assault=AQR, label=L["infested_strongbox"], note=L["chamber_of_the_moon"]})
 
 -------------------------------------------------------------------------------
@@ -294,7 +311,7 @@ nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]
 
 -------------------------------------------------------------------------------
 
-local AMAChest = Class('AmaChest', Treasure, {
+local AMAChest = Class('AMAChest', Treasure, {
     assault=AMA, label=L["amathet_cache"]
 })
 
@@ -304,7 +321,7 @@ local AMATR3 = AMAChest({quest=55691, icon='chest_orange'})
 local AMATR4 = AMAChest({quest=55698, icon='chest_yellow'})
 local AMATR5 = AMAChest({quest=55699, icon='chest_teal'})
 local AMATR6 = AMAChest({quest=55700, icon='chest_lime'})
-local AMATR6S = AMAChest({quest=55700, icon='chest_lime', note=L["chamber_of_the_stars"]})
+local AMATR6C = AMAChest({quest=55700, icon='chest_lime', note=L["chamber_of_the_stars"]})
 
 -- quest=55689
 nodes[80785611] = AMATR1
@@ -338,9 +355,9 @@ nodes[69744236] = AMATR5
 -- quest=55700
 nodes[60932455] = AMATR6
 nodes[61343060] = AMATR6
-nodes[63122508] = AMATR6S
+nodes[63122508] = AMATR6C
 nodes[63532160] = AMATR6
-nodes[67172800] = AMATR6S
+nodes[67172800] = AMATR6C
 nodes[68222051] = AMATR6
 
 nodes[64463415] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"], note=L["chamber_of_the_stars"]})
