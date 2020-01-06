@@ -283,6 +283,8 @@ nodes[33953036] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]}
 nodes[35413157] = Treasure({quest=58142, assault=AQR, label=L["infested_cache"]})
 nodes[36252324] = Supply({quest=nil, assault=AQR, label=L["infested_strongbox"], note=L["chamber_of_the_moon"]})
 
+-------------------------------------------------------------------------------
+
 nodes[58361535] = Treasure({quest=57623, assault=EMP, label=L["black_empire_cache"]})
 nodes[50793143] = Treasure({quest=57624, assault=EMP, label=L["black_empire_cache"]})
 nodes[59226749] = Treasure({quest=57626, assault=EMP, label=L["black_empire_cache"]})
@@ -290,35 +292,56 @@ nodes[62977610] = Treasure({quest=57626, assault=EMP, label=L["black_empire_cach
 nodes[60757493] = Treasure({quest=57627, assault=EMP, label=L["black_empire_cache"]})
 nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
 
-nodes[80785611] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
-nodes[84534540] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
-nodes[81585359] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
-nodes[84836185] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
-nodes[85275138] = Treasure({quest=55689, assault=AMA, label=L["amathet_cache"]})
-nodes[71226851] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
-nodes[72216422] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
-nodes[78286207] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
-nodes[73117297] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
-nodes[73987095] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
-nodes[79166486] = Treasure({quest=55690, assault=AMA, label=L["amathet_cache"]})
-nodes[75335579] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
-nodes[75575372] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
-nodes[74195187] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
-nodes[72474857] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
-nodes[78125302] = Treasure({quest=55691, assault=AMA, label=L["amathet_cache"]})
-nodes[72944350] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
-nodes[71884388] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
-nodes[76344679] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
-nodes[79314578] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
-nodes[75134608] = Treasure({quest=55698, assault=AMA, label=L["amathet_cache"]})
-nodes[63084970] = Treasure({quest=55699, assault=AMA, label=L["amathet_cache"]})
-nodes[64094488] = Treasure({quest=55699, assault=AMA, label=L["amathet_cache"]})
-nodes[60932455] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
-nodes[61343060] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
-nodes[67172800] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})
-nodes[63122508] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"], note=L["chamber_of_the_stars"]})
-nodes[68222051] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
-nodes[63532160] = Treasure({quest=55700, assault=AMA, label=L["amathet_cache"]})
+-------------------------------------------------------------------------------
+
+local AMAChest = Class('AmaChest', Treasure, {
+    assault=AMA, label=L["amathet_cache"]
+})
+
+local AMATR1 = AMAChest({quest=55689, icon='chest_blue'})
+local AMATR2 = AMAChest({quest=55690, icon='chest_brown'})
+local AMATR3 = AMAChest({quest=55691, icon='chest_orange'})
+local AMATR4 = AMAChest({quest=55698, icon='chest_yellow'})
+local AMATR5 = AMAChest({quest=55699, icon='chest_camo'})
+local AMATR6 = AMAChest({quest=55700, icon='chest_lime'})
+local AMATR6S = AMAChest({quest=55700, icon='chest_lime', note=L["chamber_of_the_stars"]})
+
+-- quest=55689
+nodes[80785611] = AMATR1
+nodes[81585359] = AMATR1
+nodes[84534540] = AMATR1
+nodes[84836185] = AMATR1
+nodes[85275138] = AMATR1
+-- quest=55690
+nodes[71226851] = AMATR2
+nodes[72216422] = AMATR2
+nodes[73117297] = AMATR2
+nodes[73987095] = AMATR2
+nodes[78286207] = AMATR2
+nodes[79166486] = AMATR2
+-- quest=55691
+nodes[72474857] = AMATR3
+nodes[74195187] = AMATR3
+nodes[75335579] = AMATR3
+nodes[75575372] = AMATR3
+nodes[78125302] = AMATR3
+-- quest=55698
+nodes[71884388] = AMATR4
+nodes[72944350] = AMATR4
+nodes[75134608] = AMATR4
+nodes[76344679] = AMATR4
+nodes[79314578] = AMATR4
+-- quest=55699 (no blizzard minimap icon for this one?)
+nodes[63084970] = AMATR5
+nodes[64094488] = AMATR5
+-- quest=55700
+nodes[60932455] = AMATR6
+nodes[61343060] = AMATR6
+nodes[63122508] = AMATR6S
+nodes[63532160] = AMATR6
+nodes[67172800] = AMATR6S
+nodes[68222051] = AMATR6
+
 nodes[64463415] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"], note=L["chamber_of_the_stars"]})
 nodes[67464294] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})
 nodes[73685054] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})

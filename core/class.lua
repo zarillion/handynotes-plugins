@@ -1,8 +1,10 @@
 local _, ns = ...
 
-ns.Class = function (name, parent)
+ns.Class = function (name, parent, attrs)
     parent = parent or {}
-    local Class = { getters = {}, setters = {} }
+    local Class = attrs or {}
+    Class.getters = {}
+    Class.setters = {}
 
     setmetatable(Class, {
         __call = function (self, instance)
