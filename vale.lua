@@ -217,6 +217,7 @@ local MOGTR6 = MOGChest({quest=57213, icon='chest_lime'})
 -- quest=57206
 nodes[20221140] = MOGTR1
 nodes[27061822] = MOGTR1
+nodes[23850753] = MOGTR1
 -- quest=57208
 nodes[33503481] = MOGTR2
 nodes[30283762] = MOGTR2
