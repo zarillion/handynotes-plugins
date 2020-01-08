@@ -148,8 +148,10 @@ nodes[10474089] = Rare({id=160876, quest=58306}) -- Enraged Amber Elemental
 nodes[45244524] = Rare({id=157267, quest=57343, pois={
     Path({44174609, 45244524, 45324176, 44783891})
 }}) -- Escaped Mutation
-nodes[29513800] = Rare({id=157153, quest=nil, rewards={
+nodes[29513800] = Rare({id=157153, quest=57344, rewards={
     Mount({id=1297, item=173887}) -- Clutch of Ha-Li
+}, pois={
+    Path({37323630, 33973378, 29053930, 31524387, 37313632, 37323630})
 }}) -- Ha-Li
 nodes[28895272] = Rare({id=160810, quest=58299}) -- Harbinger Il'koxik
 nodes[12835129] = Rare({id=160868, quest=58303}) -- Harrier Nir'verash
@@ -214,16 +216,22 @@ local MOGTR6 = MOGChest({quest=57213, icon='chest_lime'})
 
 -- quest=57206
 nodes[20221140] = MOGTR1
+nodes[27061822] = MOGTR1
 -- quest=57208
 nodes[33503481] = MOGTR2
+nodes[30283762] = MOGTR2
 -- quest=57209
 nodes[32721893] = MOGTR3
+nodes[19281942] = MOGTR3
 -- quest=57211
 nodes[17356860] = MOGTR4
+nodes[21356297] = MOGTR4
 -- quest=57212
 nodes[42436854] = MOGTR5
+nodes[47937093] = MOGTR5
 -- quest=57213
 nodes[32097104] = MOGTR6
+nodes[37666584] = MOGTR6
 
 nodes[43134209] = Supply({quest=nil, assault=MOG, label=L["mogu_strongbox"]})
 
