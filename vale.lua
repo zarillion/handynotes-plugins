@@ -229,6 +229,7 @@ local MOGTR5 = MOGChest({quest=57212, icon='chest_teal'})
 local MOGTR6 = MOGChest({quest=57213, icon='chest_lime'})
 
 -- quest=57206
+nodes[13500720] = MOGTR1
 nodes[20221140] = MOGTR1
 nodes[27061822] = MOGTR1
 nodes[23850753] = MOGTR1
@@ -237,16 +238,19 @@ nodes[24773504] = MOGTR2
 nodes[33503481] = MOGTR2
 nodes[30283762] = MOGTR2
 -- quest=57209
-nodes[32721893] = MOGTR3
 nodes[19281942] = MOGTR3
+nodes[21271385] = MOGTR3
+nodes[32721893] = MOGTR3
 -- quest=57211
 nodes[17356860] = MOGTR4
 nodes[21356297] = MOGTR4
+nodes[29774890] = MOGTR4
 -- quest=57212
 nodes[42436854] = MOGTR5
 nodes[47937093] = MOGTR5
 -- quest=57213
 nodes[32097104] = MOGTR6
+nodes[33876683] = MOGTR6
 nodes[37666584] = MOGTR6
 
 nodes[43134209] = Supply({quest=nil, assault=MOG, label=L["mogu_strongbox"]})
