@@ -139,8 +139,10 @@ nodes[57084098] = Rare({id=154447, quest=56237}) -- Brother Meller
 nodes[06487070] = Rare({id=160878, quest=58307}) -- Buh'gzaki the Blasphemous
 nodes[06406433] = Rare({id=160893, quest=58308}) -- Captain Vor'lek
 nodes[81226450] = Rare({id=154467, quest=56255}) -- Chief Mek-mek
+nodes[20696277] = Rare({id=157183, quest=nil}) -- Coagulated Anima
 nodes[66556794] = Rare({id=154559, quest=56323, note=L["big_blossom_mine"]}) -- Deeplord Zrihj
 nodes[26506657] = Rare({id=160872, quest=58304}) -- Destroyer Krox'tazar
+nodes[43945490] = Rare({id=157287, quest=nil}) -- Dokani Obliterator (need pat)
 nodes[11854081] = Rare({id=160874, quest=58305}) -- Drone Keeper Ak'thet
 nodes[10474089] = Rare({id=160876, quest=58306}) -- Enraged Amber Elemental
 nodes[45244524] = Rare({id=157267, quest=57343, pois={
@@ -166,6 +168,7 @@ nodes[25673816] = Rare({id=160867, quest=58302}) -- Kzit'kovok
 nodes[14813374] = Rare({id=160922, quest=58311}) -- Needler Zhesalla
 nodes[90314599] = Rare({id=154106, quest=56094}) -- Quid
 nodes[64175175] = Rare({id=154490, quest=56302}) -- Rijz'x the Devourer
+nodes[24307660] = Rare({id=157279, quest=nil}) -- Stormhowl (need pat)
 nodes[29132207] = Rare({id=156424, quest=nil, rewards={
     Toy({item=174873}) -- Trans-mogu-rifier
 }}) -- Tashara
@@ -195,6 +198,34 @@ nodes[31724184] = Treasure({quest=58227, assault=MAN, label=L["ambered_cache"]})
 nodes[15406394] = Treasure({quest=58228, assault=MAN, label=L["ambered_cache"]})
 nodes[16096581] = Treasure({quest=58228, assault=MAN, label=L["ambered_cache"]})
 nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"]})
+
+-------------------------------------------------------------------------------
+
+local MOGChest = Class('MOGChest', Treasure, {
+    assault=MOG, label=L["mogu_plunder"]
+})
+
+local MOGTR1 = MOGChest({quest=57206, icon='chest_blue', note=L["guolai"]})
+local MOGTR2 = MOGChest({quest=57208, icon='chest_purple'})
+local MOGTR3 = MOGChest({quest=57209, icon='chest_orange'})
+local MOGTR4 = MOGChest({quest=57211, icon='chest_yellow'})
+local MOGTR5 = MOGChest({quest=57212, icon='chest_teal'})
+local MOGTR6 = MOGChest({quest=57213, icon='chest_lime'})
+
+-- quest=57206
+nodes[20221140] = MOGTR1
+-- quest=57208
+nodes[33503481] = MOGTR2
+-- quest=57209
+nodes[32721893] = MOGTR3
+-- quest=57211
+nodes[17356860] = MOGTR4
+-- quest=57212
+nodes[42436854] = MOGTR5
+-- quest=57213
+nodes[32097104] = MOGTR6
+
+nodes[43134209] = Supply({quest=nil, assault=MOG, label=L["mogu_strongbox"]})
 
 -------------------------------------------------------------------------------
 

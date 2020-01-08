@@ -34,6 +34,7 @@ L["amathet_reliquary"] = "Amathet Reliquary"
 L["vale_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in the Vale of Eternal Blossoms."
 
 L["big_blossom_mine"] = "Inside the Big Blossom Mine. Entrance to the north-east."
+L["guolai"] = "Inside Guo-Lai Halls."
 L["jadec"] = "Inside Guo-Lai Halls. Go left at the bottom of the stairs."
 L["pools_of_power"] = "Inside the Pools of Power. Entrance at The Golden Pagoda."
 L["right_eye"] = "Drops the right half of the All-Seeing Eyes toy."
@@ -41,6 +42,8 @@ L["tisiphon"] = "Click on Danielle's Lucky Fishing Rod."
 
 L["ambered_cache"] = "Ambered Cache"
 L["ambered_coffer"] = "Ambered Coffer"
+L["mogu_plunder"] = "Mogu Plunder"
+L["mogu_strongbox"] = "Mogu Strongbox"
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
