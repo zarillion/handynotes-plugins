@@ -162,8 +162,10 @@ nodes[28895272] = Rare({id=160810, quest=58299}) -- Harbinger Il'koxik
 nodes[12835129] = Rare({id=160868, quest=58303}) -- Harrier Nir'verash
 nodes[28214047] = Rare({id=157171, quest=57347}) -- Heixi the Stonelord
 nodes[21256265] = Rare({id=160826, quest=58301}) -- Hive-Guard Naz'ruzek
-nodes[10003200] = Rare({id=157160, quest=nil, rewards={
+nodes[12183091] = Rare({id=157160, quest=57345, rewards={
     Mount({id=1327, item=174841}) -- Ren's Stalwart Hound
+}, pois={
+    Path({13132578, 11833049, 08953570})
 }}) -- Houndlord Ren
 nodes[18426557] = Rare({id=160930, quest=58312}) -- Infused Amber Ooze
 nodes[17201162] = Rare({id=160968, quest=58295, note=L["jadec"]}) -- Jade Colossus
