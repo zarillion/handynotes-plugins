@@ -180,6 +180,7 @@ nodes[52956225] = Rare({id=154495, quest=56303, rewards={
     Toy({item=175140}), -- All-Seeing Eye
     Pet({id=2846, item=174474}) -- Corrupted Tentacle
 }, note=L["right_eye"]}) -- Will of N'Zoth
+nodes[53794889] = Rare({id=157443, quest=57358}) -- Xiln the Mountain
 nodes[70954053] = Rare({id=154087, quest=56084}) -- Zror'um the Infinite
 
 -------------------------------------------------------------------------------

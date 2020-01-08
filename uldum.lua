@@ -177,6 +177,9 @@ nodes[31245691] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
     Path({32994510, 35434436, 36284239}),
     Path({41243247, 40503334, 39233745})
 }}) -- Aqir Titanus
+nodes[29696398] = Rare({id=162172, quest=58694, note=L["aqir_warcaster"], pois={
+    --POI({}) -- Aqir Voidcaster
+}}) -- Aqir Warcaster
 nodes[44854235] = Rare({id=162370, quest=58718}) -- Armagedillo
 nodes[65035129] = Rare({id=152757, quest=55710, note=L["atekhramun"]}) -- Atekhramun
 nodes[45605777] = Rare({id=162171, quest=58699, note=L["chamber_of_the_sun"]}) -- Captain Dunewalker
@@ -184,11 +187,13 @@ nodes[30854971] = Rare({id=162147, quest=58696, rewards={
     Mount({id=1319, item=174769}) -- Malevolent Drone
 }}) -- Corpse Eater
 nodes[49363822] = Rare({id=158594, quest=57672}) -- Doomsayer Vathiris
-nodes[48657067] = Rare({id=158491, quest=nil, note=L["falconer"]}) -- Falconer Amenophis
+nodes[48657067] = Rare({id=158491, quest=57662, note=L["falconer"], pois={
+    Path({53287082, 54066945, 53446815, 49866959, 48097382, 46537211, 46257561, 44217851})
+}}) -- Falconer Amenophis
 nodes[75056816] = Rare({id=157120, quest=57258}) -- Fangtaker Orsa
-nodes[55005300] = Rare({id=158633, quest=nil, rewards={
+nodes[55085317] = Rare({id=158633, quest=57680, rewards={
     Toy({item=175140}) -- All-Seeing Eye
-}, note=L["left_eye"]})
+}, note=L["left_eye"]}) -- Gaze of N'Zoth
 nodes[21405794] = Rare({id=155531, quest=56823, pois={
     POI({21405794, 24515825}) -- shares a spawn with Wastewander Hosts?
 }}) -- Infested Wastewander Captain
@@ -203,7 +208,7 @@ nodes[60033950] = Rare({id=160623, quest=58206}) -- Hungering Miasma
 nodes[73908353] = Rare({id=157134, quest=57259, rewards={
     Mount({id=1314, item=174641}) -- Drake of the Four Winds
 }}) -- Ishak of the Four Winds
-nodes[71237375] = Rare({id=156655, quest=nil}) -- Korzaran the Slaughterer
+nodes[71237375] = Rare({id=156655, quest=57433}) -- Korzaran the Slaughterer
 nodes[34681890] = Rare({id=154604, quest=56340, note=L["chamber_of_the_moon"], rewards={
     Pet({id=2847, item=174475}) -- Rotbreath
 }}) -- Lord Aj'qirai
@@ -226,7 +231,7 @@ nodes[68593204] = Rare({id=157146, quest=57273, rewards={
 nodes[69714215] = Rare({id=152040, quest=55518}) -- Scoutmaster Moswen
 nodes[73536459] = Rare({id=151948, quest=55496}) -- Senbu the Pridefather
 nodes[57003794] = Rare({id=161033, quest=58333}) -- Shadowmaw
-nodes[58558282] = Rare({id=156654, quest=nil}) -- Shol'thoss the Doomspeaker
+nodes[58558282] = Rare({id=156654, quest=57432}) -- Shol'thoss the Doomspeaker
 nodes[61297484] = Rare({id=160532, quest=58169}) -- Shoth the Darkened
 nodes[21236105] = Rare({id=162140, quest=58697, rewards={
     Pet({id=2848, item=174476}) -- Aqir Tunneler
@@ -244,7 +249,7 @@ nodes[73347447] = Rare({id=151609, quest=55353}) -- Sun Prophet Epaphos
 nodes[65903522] = Rare({id=152657, quest=55682, pois={
     Path({68043800, 64873862, 64503660, 65903522, 67003162, 67743515, 68043800})
 }}) -- Tat the Bonechewer
-nodes[49328235] = Rare({id=158636, quest=nil, note=L["gexec"], rewards={
+nodes[49328235] = Rare({id=158636, quest=57688, note=L["gexec"], rewards={
     Toy({item=169303}) -- Hell-Bent Bracers
 }}) -- The Grand Executor
 nodes[33592569] = Rare({id=162170, quest=58702}) -- Warcaster Xeshro
@@ -302,11 +307,31 @@ nodes[36252324] = Supply({quest=nil, assault=AQR, label=L["infested_strongbox"],
 
 -------------------------------------------------------------------------------
 
-nodes[58361535] = Treasure({quest=57623, assault=EMP, label=L["black_empire_cache"]})
-nodes[50793143] = Treasure({quest=57624, assault=EMP, label=L["black_empire_cache"]})
-nodes[59226749] = Treasure({quest=57626, assault=EMP, label=L["black_empire_cache"]})
-nodes[62977610] = Treasure({quest=57626, assault=EMP, label=L["black_empire_cache"]})
-nodes[60757493] = Treasure({quest=57627, assault=EMP, label=L["black_empire_cache"]})
+local EMPChest = Class('EMPChest', Treasure, {
+    assault=EMP, label=L["black_empire_cache"]
+})
+
+local EMPTR1 = EMPChest({quest=57623, icon='chest_blue'})
+local EMPTR2 = EMPChest({quest=57624, icon='chest_purple'})
+local EMPTR3 = EMPChest({quest=57626, icon='chest_orange'})
+local EMPTR4 = EMPChest({quest=57627, icon='chest_yellow'})
+local EMPTR5 = EMPChest({quest=57635, icon='chest_teal'})
+--local EMPTR6 = EMPChest({quest=nil, icon='chest_lime'})
+
+-- quest=57623
+nodes[58361535] = EMPTR1
+-- quest=57624
+nodes[50793143] = EMPTR2
+-- quest=57626
+nodes[59226749] = EMPTR3
+nodes[62977610] = EMPTR3
+nodes[70217325] = EMPTR3
+-- quest=57627
+nodes[60757493] = EMPTR4
+nodes[62157346] = EMPTR4
+-- quest=57635
+nodes[51707135] = EMPTR5
+
 nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
 
 -------------------------------------------------------------------------------
