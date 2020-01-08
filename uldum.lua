@@ -331,6 +331,7 @@ nodes[60757493] = EMPTR4
 nodes[62157346] = EMPTR4
 -- quest=57635
 nodes[51707135] = EMPTR5
+nodes[45697961] = EMPTR5
 
 nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
 
