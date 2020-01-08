@@ -104,7 +104,7 @@ end
 -- Where the Heart is => Surfacing Threats
 local Q1 = Quest({id={58583, 58506, 56374, 56209, 56375, 56472, 56376}})
 -- Forging Onward => Magni's Findings
-local Q2 = Quest({id={56377, 56536, 56537, 56538, 56539, 56771, 56540, 56541, 56542, 58737}})
+local Q2 = Quest({id={56377, 56536, 56537, 56538, 56539, 56771, 56540}})
 
 if UnitFactionGroup('player') == 'Alliance' then
     map.intro = Intro({faction='Alliance', rewards={
@@ -118,15 +118,14 @@ end
 
 nodes[26005200] = map.intro
 
--- ns.addon:RegisterEvent('QUEST_WATCH_UPDATE', function (_, index)
---     local _, _, _, _, _, _, _, questID = GetQuestLogTitle(index)
---     if questID == 56376 then
---         debug('Uldum assaults unlock detected')
---         C_Timer.After(1, function()
---             ns.addon:Refresh()
---         end)
---     end
--- end)
+ns.addon:RegisterEvent('QUEST_ACCEPTED', function (_, _, id)
+    if id == 56540 then
+        ns.debug('Vale assaults unlock detected')
+        C_Timer.After(1, function()
+            ns.addon:Refresh()
+        end)
+    end
+end)
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

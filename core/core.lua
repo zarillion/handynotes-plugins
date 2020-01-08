@@ -34,7 +34,7 @@ ns.status = {
 
 local function debug(...)
     if (Addon.db.profile.show_debug) then
-        print(...);
+        print(...)
     end
 end
 
