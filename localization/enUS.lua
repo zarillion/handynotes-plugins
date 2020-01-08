@@ -17,6 +17,7 @@ L["chamber_of_the_stars"] = "Underground in the Chamber of the Stars."
 L["chamber_of_the_sun"] = "Inside the Chamber of the Sun."
 L["falconer"] = "Pats north-east and south-west between Neferset and the Cradle of the Ancients."
 L["gexec"] = "Spawns on top of the floating platform."
+L["hmiasma"] = "Feed it the surrounding oozes until it activates."
 L["left_eye"] = "Drops the left half of the All-Seeing Eyes toy."
 L["spirit_cave"] = "Cave entrance for Spirit of Dark Ritualist Zakahn."
 

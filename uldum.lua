@@ -198,13 +198,14 @@ nodes[21405794] = Rare({id=155531, quest=56823, pois={
     POI({21405794, 24515825}) -- shares a spawn with Wastewander Hosts?
 }}) -- Infested Wastewander Captain
 nodes[54694317] = Rare({id=158597, quest=57675}) -- High Executor Yothrim
+nodes[53687933] = Rare({id=158528, quest=nil}) -- High Guard Reshef
 nodes[42485873] = Rare({id=162163, quest=58701, pois={
     Path({42485873, 44396076, 46215988, 46785800, 46465623, 44545616, 43055653, 42485873})
 }}) -- High Priest Ytaessis
 nodes[80504715] = Rare({id=151995, quest=55502, pois={
     Path({80504715, 79804519, 77204597})
 }}) -- Hik-Ten the Taskmaster
-nodes[60033950] = Rare({id=160623, quest=58206}) -- Hungering Miasma
+nodes[60033950] = Rare({id=160623, quest=58206, note=L["hmiasma"]}) -- Hungering Miasma
 nodes[73908353] = Rare({id=157134, quest=57259, rewards={
     Mount({id=1314, item=174641}) -- Drake of the Four Winds
 }}) -- Ishak of the Four Winds
