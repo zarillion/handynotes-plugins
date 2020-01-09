@@ -187,7 +187,7 @@ nodes[30854971] = Rare({id=162147, quest=58696, rewards={
     Mount({id=1319, item=174769}) -- Malevolent Drone
 }}) -- Corpse Eater
 nodes[49363822] = Rare({id=158594, quest=57672}) -- Doomsayer Vathiris
-nodes[48657067] = Rare({id=158491, quest=57662, note=L["falconer"], pois={
+nodes[48657067] = Rare({id=158491, quest=57662, pois={
     Path({53287082, 54066945, 53446815, 49866959, 48097382, 46537211, 46257561, 44217851})
 }}) -- Falconer Amenophis
 nodes[75056816] = Rare({id=157120, quest=57258}) -- Fangtaker Orsa
@@ -325,14 +325,17 @@ nodes[58361535] = EMPTR1
 nodes[50793143] = EMPTR2
 -- quest=57626
 nodes[59226749] = EMPTR3
+nodes[62588188] = EMPTR3
 nodes[62977610] = EMPTR3
 nodes[70217325] = EMPTR3
 -- quest=57627
 nodes[60757493] = EMPTR4
 nodes[62157346] = EMPTR4
+nodes[67167394] = EMPTR4
 -- quest=57635
-nodes[51707135] = EMPTR5
 nodes[45697961] = EMPTR5
+nodes[47507687] = EMPTR5
+nodes[51707135] = EMPTR5
 
 nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
 

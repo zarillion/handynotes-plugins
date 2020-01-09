@@ -235,25 +235,30 @@ nodes[27061822] = MOGTR1
 nodes[23850753] = MOGTR1
 -- quest=57208
 nodes[24773504] = MOGTR2
-nodes[33503481] = MOGTR2
 nodes[30283762] = MOGTR2
+nodes[30983065] = MOGTR2
+nodes[33503481] = MOGTR2
 -- quest=57209
 nodes[19281942] = MOGTR3
+nodes[20311853] = MOGTR3
 nodes[21271385] = MOGTR3
 nodes[32721893] = MOGTR3
 -- quest=57211
+nodes[16704468] = MOGTR4
 nodes[17356860] = MOGTR4
 nodes[21356297] = MOGTR4
 nodes[29774890] = MOGTR4
 -- quest=57212
 nodes[42436854] = MOGTR5
+nodes[44186853] = MOGTR5
 nodes[47937093] = MOGTR5
 -- quest=57213
 nodes[32097104] = MOGTR6
 nodes[33876683] = MOGTR6
 nodes[37666584] = MOGTR6
+nodes[38417028] = MOGTR6
 
-nodes[43134209] = Supply({quest=nil, assault=MOG, label=L["mogu_strongbox"]})
+nodes[43134209] = Supply({quest=57214, assault=MOG, label=L["mogu_strongbox"]})
 
 -------------------------------------------------------------------------------
 
