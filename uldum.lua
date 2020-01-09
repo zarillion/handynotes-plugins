@@ -198,7 +198,9 @@ nodes[21405794] = Rare({id=155531, quest=56823, pois={
     POI({21405794, 24515825}) -- shares a spawn with Wastewander Hosts?
 }}) -- Infested Wastewander Captain
 nodes[54694317] = Rare({id=158597, quest=57675}) -- High Executor Yothrim
-nodes[53687933] = Rare({id=158528, quest=nil}) -- High Guard Reshef
+nodes[52398000] = Rare({id=158528, quest=57664, note=L["reshef"], pois={
+    POI({51568173, 51578293, 53657939, 54147941, 49028263, 49008194}) -- Voidwarped High Guard
+}}) -- High Guard Reshef
 nodes[42485873] = Rare({id=162163, quest=58701, pois={
     Path({42485873, 44396076, 46215988, 46785800, 46465623, 44545616, 43055653, 42485873})
 }}) -- High Priest Ytaessis
@@ -325,17 +327,20 @@ nodes[58361535] = EMPTR1
 nodes[50793143] = EMPTR2
 -- quest=57626
 nodes[59226749] = EMPTR3
+nodes[61778172] = EMPTR3
 nodes[62588188] = EMPTR3
 nodes[62977610] = EMPTR3
 nodes[70217325] = EMPTR3
 -- quest=57627
 nodes[60757493] = EMPTR4
 nodes[62157346] = EMPTR4
+nodes[62737184] = EMPTR4
 nodes[67167394] = EMPTR4
 -- quest=57635
 nodes[45697961] = EMPTR5
 nodes[47507687] = EMPTR5
 nodes[51707135] = EMPTR5
+nodes[52197757] = EMPTR5
 
 nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
 
