@@ -344,6 +344,7 @@ nodes[58361535] = EMPTR1
 -- quest=57624
 nodes[50793143] = EMPTR2
 -- quest=57626
+nodes[57817487] = EMPTR3
 nodes[59226749] = EMPTR3
 nodes[61778172] = EMPTR3
 nodes[62588188] = EMPTR3
@@ -358,6 +359,7 @@ nodes[67167394] = EMPTR4
 nodes[45697961] = EMPTR5
 nodes[47507687] = EMPTR5
 nodes[51707135] = EMPTR5
+nodes[51777298] = EMPTR5
 nodes[52197757] = EMPTR5
 
 nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})

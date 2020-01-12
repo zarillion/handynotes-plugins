@@ -132,74 +132,74 @@ end)
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-nodes[20007460] = Rare({id=160825, quest=58300}) -- Amber-Shaper Esh'ri
-nodes[34156805] = Rare({id=157466, quest=57363, rewards={
+nodes[20007460] = Rare({id=160825, quest=58300, assault=MAN}) -- Amber-Shaper Esh'ri
+nodes[34156805] = Rare({id=157466, quest=57363, assault=MOG, rewards={
     Mount({id=1328, item=174840}) -- Xinlao
 }}) -- Anh-De the Loyal
-nodes[57084098] = Rare({id=154447, quest=56237}) -- Brother Meller
-nodes[06487070] = Rare({id=160878, quest=58307}) -- Buh'gzaki the Blasphemous
-nodes[06406433] = Rare({id=160893, quest=58308}) -- Captain Vor'lek
-nodes[81226450] = Rare({id=154467, quest=56255}) -- Chief Mek-mek
-nodes[18806841] = Rare({id=157183, quest=58296, pois={
+nodes[57084098] = Rare({id=154447, quest=56237, assault=EMP}) -- Brother Meller
+nodes[06487070] = Rare({id=160878, quest=58307, assault=MAN}) -- Buh'gzaki the Blasphemous
+nodes[06406433] = Rare({id=160893, quest=58308, assault=MAN}) -- Captain Vor'lek
+nodes[81226450] = Rare({id=154467, quest=56255, assault=EMP}) -- Chief Mek-mek
+nodes[18806841] = Rare({id=157183, quest=58296, assault=MOG, pois={
     POI({16806672, 18316516, 19026494, 20166403, 20816263, 20866845, 21016961, 19927330, 18607211})
 }}) -- Coagulated Anima
-nodes[66556794] = Rare({id=154559, quest=56323, note=L["big_blossom_mine"]}) -- Deeplord Zrihj
-nodes[26506657] = Rare({id=160872, quest=58304}) -- Destroyer Krox'tazar
-nodes[41505721] = Rare({id=157287, quest=57349, pois={
+nodes[66556794] = Rare({id=154559, quest=56323, assault=EMP, note=L["big_blossom_mine"]}) -- Deeplord Zrihj
+nodes[26506657] = Rare({id=160872, quest=58304, assault=MAN}) -- Destroyer Krox'tazar
+nodes[41505721] = Rare({id=157287, quest=57349, assault=MOG, pois={
     Path({41745982, 40446144, 38995953, 39805740, 41505721, 45405297})
 }}) -- Dokani Obliterator
-nodes[11854081] = Rare({id=160874, quest=58305}) -- Drone Keeper Ak'thet
-nodes[10474089] = Rare({id=160876, quest=58306}) -- Enraged Amber Elemental
-nodes[45244524] = Rare({id=157267, quest=57343, pois={
+nodes[11854081] = Rare({id=160874, quest=58305, assault=MAN}) -- Drone Keeper Ak'thet
+nodes[10474089] = Rare({id=160876, quest=58306, assault=MAN}) -- Enraged Amber Elemental
+nodes[45244524] = Rare({id=157267, quest=57343, assault=EMP, pois={
     Path({44174609, 45244524, 45324176, 44783891})
 }}) -- Escaped Mutation
-nodes[29513800] = Rare({id=157153, quest=57344, rewards={
+nodes[29513800] = Rare({id=157153, quest=57344, assault=MOG, rewards={
     Mount({id=1297, item=173887}) -- Clutch of Ha-Li
 }, pois={
     Path({37323630, 33973378, 29053930, 31524387, 37313632, 37323630})
 }}) -- Ha-Li
-nodes[28895272] = Rare({id=160810, quest=58299}) -- Harbinger Il'koxik
-nodes[12835129] = Rare({id=160868, quest=58303}) -- Harrier Nir'verash
-nodes[28214047] = Rare({id=157171, quest=57347}) -- Heixi the Stonelord
-nodes[21256265] = Rare({id=160826, quest=58301}) -- Hive-Guard Naz'ruzek
-nodes[12183091] = Rare({id=157160, quest=57345, rewards={
+nodes[28895272] = Rare({id=160810, quest=58299, assault=MAN}) -- Harbinger Il'koxik
+nodes[12835129] = Rare({id=160868, quest=58303, assault=MAN}) -- Harrier Nir'verash
+nodes[28214047] = Rare({id=157171, quest=57347, assault=MOG}) -- Heixi the Stonelord
+nodes[21256265] = Rare({id=160826, quest=58301, assault=MAN}) -- Hive-Guard Naz'ruzek
+nodes[12183091] = Rare({id=157160, quest=57345, assault=MOG, rewards={
     Mount({id=1327, item=174841}) -- Ren's Stalwart Hound
 }, pois={
     Path({13132578, 11833049, 08953570})
 }}) -- Houndlord Ren
-nodes[18426557] = Rare({id=160930, quest=58312}) -- Infused Amber Ooze
-nodes[17201162] = Rare({id=160968, quest=58295, note=L["jadec"]}) -- Jade Colossus
-nodes[26691061] = Rare({id=157290, quest=57350, note=L["in_small_cave"]}) -- Jade Watcher
-nodes[17850918] = Rare({id=160920, quest=58310}) -- Kal'tik the Blight
-nodes[45985858] = Rare({id=157266, quest=57341, pois={
+nodes[18426557] = Rare({id=160930, quest=58312, assault=MAN}) -- Infused Amber Ooze
+nodes[17201162] = Rare({id=160968, quest=58295, assault=MOG, note=L["jadec"]}) -- Jade Colossus
+nodes[26691061] = Rare({id=157290, quest=57350, assault=MOG, note=L["in_small_cave"]}) -- Jade Watcher
+nodes[17850918] = Rare({id=160920, quest=58310, assault=MAN}) -- Kal'tik the Blight
+nodes[45985858] = Rare({id=157266, quest=57341, assault=EMP, pois={
     Path({45985858, 48645963, 50576511, 48936926, 45877046, 43096817, 42486336, 45985858})
 }}) -- Kilxl the Gaping Maw
-nodes[25673816] = Rare({id=160867, quest=58302}) -- Kzit'kovok
-nodes[14813374] = Rare({id=160922, quest=58311}) -- Needler Zhesalla
-nodes[90314599] = Rare({id=154106, quest=56094}) -- Quid
-nodes[21901232] = Rare({id=157162, quest=57346, note=L["guolai"]}) -- Rei Lun
-nodes[64175175] = Rare({id=154490, quest=56302}) -- Rijz'x the Devourer
-nodes[46425710] = Rare({id=156083, quest=56954}) -- Sanguifang
-nodes[17873752] = Rare({id=157291, quest=57351}) -- Spymaster Hul'ach
-nodes[26057505] = Rare({id=157279, quest=57348, pois={
+nodes[25673816] = Rare({id=160867, quest=58302, assault=MAN}) -- Kzit'kovok
+nodes[14813374] = Rare({id=160922, quest=58311, assault=MAN}) -- Needler Zhesalla
+nodes[90314599] = Rare({id=154106, quest=56094, assault=EMP}) -- Quid
+nodes[21901232] = Rare({id=157162, quest=57346, assault=MOG, note=L["guolai"]}) -- Rei Lun
+nodes[64175175] = Rare({id=154490, quest=56302, assault=EMP}) -- Rijz'x the Devourer
+nodes[46425710] = Rare({id=156083, quest=56954, assault=MOG}) -- Sanguifang
+nodes[17873752] = Rare({id=157291, quest=57351, assault=MOG}) -- Spymaster Hul'ach
+nodes[26057505] = Rare({id=157279, quest=57348, assault=MOG, pois={
     Path({23467717, 25247587, 26837367, 27117143})
 }}) -- Stormhowl
-nodes[29132207] = Rare({id=156424, quest=58507, rewards={
+nodes[29132207] = Rare({id=156424, quest=58507, assault=MOG, rewards={
     Toy({item=174873}) -- Trans-mogu-rifier
 }}) -- Tashara
-nodes[47496373] = Rare({id=154600, quest=56332}) -- Teng the Awakened
-nodes[52024173] = Rare({id=157176, quest=57342, rewards={
+nodes[47496373] = Rare({id=154600, quest=56332, assault=MOG}) -- Teng the Awakened
+nodes[52024173] = Rare({id=157176, quest=57342, assault=EMP, rewards={
     Pet({id=2845, item=174473}) -- K'uddly
 }}) -- The Forgotten
 nodes[09586736] = Rare({id=157468, quest=57364, note=L["tisiphon"]}) -- Tisiphon
-nodes[86664165] = Rare({id=154394, quest=56213}) -- Veskan the Fallen
-nodes[66732812] = Rare({id=154332, quest=56183, note=L["pools_of_power"]}) -- Voidtender Malketh
-nodes[52956225] = Rare({id=154495, quest=56303, rewards={
+nodes[86664165] = Rare({id=154394, quest=56213, assault=EMP}) -- Veskan the Fallen
+nodes[66732812] = Rare({id=154332, quest=56183, assault=EMP, note=L["pools_of_power"]}) -- Voidtender Malketh
+nodes[52956225] = Rare({id=154495, quest=56303, assault=EMP, rewards={
     Toy({item=175140}), -- All-Seeing Eye
     Pet({id=2846, item=174474}) -- Corrupted Tentacle
 }, note=L["right_eye"]}) -- Will of N'Zoth
-nodes[53794889] = Rare({id=157443, quest=57358}) -- Xiln the Mountain
-nodes[70954053] = Rare({id=154087, quest=56084}) -- Zror'um the Infinite
+nodes[53794889] = Rare({id=157443, quest=57358, assault=MOG}) -- Xiln the Mountain
+nodes[70954053] = Rare({id=154087, quest=56084, assault=EMP}) -- Zror'um the Infinite
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
