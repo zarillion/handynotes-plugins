@@ -205,14 +205,31 @@ nodes[70954053] = Rare({id=154087, quest=56084, assault=EMP}) -- Zror'um the Inf
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-nodes[15797164] = Treasure({quest=58224, assault=MAN, label=L["ambered_cache"]})
-nodes[21051415] = Treasure({quest=58225, assault=MAN, label=L["ambered_cache"]})
-nodes[09302831] = Treasure({quest=58226, assault=MAN, label=L["ambered_cache"]})
-nodes[07693682] = Treasure({quest=58226, assault=MAN, label=L["ambered_cache"]})
-nodes[26704680] = Treasure({quest=58227, assault=MAN, label=L["ambered_cache"]})
-nodes[31724184] = Treasure({quest=58227, assault=MAN, label=L["ambered_cache"]})
-nodes[15406394] = Treasure({quest=58228, assault=MAN, label=L["ambered_cache"]})
-nodes[16096581] = Treasure({quest=58228, assault=MAN, label=L["ambered_cache"]})
+local MANChest = Class('MANChest', Treasure, {
+    assault=MAN, label=L["ambered_cache"]
+})
+
+local MANTR1 = MANChest({quest=58224, icon='chest_blue'})
+local MANTR2 = MANChest({quest=58225, icon='chest_purple'})
+local MANTR3 = MANChest({quest=58226, icon='chest_orange'})
+local MANTR4 = MANChest({quest=58227, icon='chest_yellow'})
+local MANTR5 = MANChest({quest=58228, icon='chest_teal'})
+--local MANTR6 = MANChest({quest=nil, icon='chest_lime'})
+
+-- quest=58224
+nodes[15797164] = MANTR1
+-- quest=58225
+nodes[21051415] = MANTR2
+-- quest=58226
+nodes[09302831] = MANTR3
+nodes[07693682] = MANTR3
+-- quest=58227
+nodes[26704680] = MANTR4
+nodes[31724184] = MANTR4
+-- quest=58228
+nodes[15406394] = MANTR5
+nodes[16096581] = MANTR5
+
 nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"]})
 
 -------------------------------------------------------------------------------
