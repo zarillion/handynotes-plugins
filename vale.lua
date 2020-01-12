@@ -70,6 +70,12 @@ function map:enabled (node, coord, minimap)
         end
     end
 
+    local profile = ns.addon.db.profile
+    if isinstance(node, Treasure) then return profile.chest_vale end
+    if isinstance(node, Supply) then return profile.chest_vale end
+    if isinstance(node, Rare) then return profile.rare_vale end
+    if isinstance(node, PetBattle) then return profile.pet_vale end
+
     return true
 end
 
@@ -77,11 +83,42 @@ end
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+defaults['chest_vale'] = true
+defaults['rare_vale'] = true
+defaults['pet_vale'] = true
+
 options.groupVale = {
     type = "header",
     name = L["vale"],
-    order = 0,
-};
+    order = 10,
+}
+
+options.chestVale = {
+    type = "toggle",
+    arg = "chest_vale",
+    name = L["options_toggle_chests"],
+    desc = L["options_toggle_chests_desc"],
+    order = 11,
+    width = "normal",
+}
+
+options.rareVale = {
+    type = "toggle",
+    arg = "rare_vale",
+    name = L["options_toggle_rares"],
+    desc = L["options_toggle_rares_desc"],
+    order = 12,
+    width = "normal",
+}
+
+options.petVale = {
+    type = "toggle",
+    arg = "pet_vale",
+    name = L["options_toggle_battle_pets"],
+    desc = L["options_toggle_battle_pets_desc"],
+    order = 13,
+    width = "normal",
+}
 
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------

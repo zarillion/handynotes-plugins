@@ -6,6 +6,7 @@ if not L then return end
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
+L["uldum"] = "Uldum"
 L["uldum_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in Uldum."
 
 L["aqir_flayer"] = "Shares a spawn with Aqir Hive Workers and Aqir Reapers."
@@ -33,6 +34,7 @@ L["amathet_reliquary"] = "Amathet Reliquary"
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
+L["vale"] = "Vale of Eternal Blossoms"
 L["vale_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in the Vale of Eternal Blossoms."
 
 L["big_blossom_mine"] = "Inside the Big Blossom Mine. Entrance to the north-east."
@@ -145,6 +147,8 @@ L["options_toggle_battle_pets_desc"] = "Display locations of battle pet trainers
 L["options_toggle_battle_pets"] = "Battle Pets";
 L["options_toggle_caves_desc"] = "Display cave entrances for other nodes.";
 L["options_toggle_caves"] = "Caves";
+L["options_toggle_chests_desc"] = "Display locations of chests (lootable daily).";
+L["options_toggle_chests"] = "Chests";
 L["options_toggle_misc"] = "Miscellaneous";
 L["options_toggle_npcs"] = "NPCs";
 L["options_toggle_rares_desc"] = "Display locations of rare NPCs.";

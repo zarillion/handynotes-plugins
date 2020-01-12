@@ -72,6 +72,12 @@ function map:enabled (node, coord, minimap)
         end
     end
 
+    local profile = ns.addon.db.profile
+    if isinstance(node, Treasure) then return profile.chest_uldum end
+    if isinstance(node, Supply) then return profile.chest_uldum end
+    if isinstance(node, Rare) then return profile.rare_uldum end
+    if isinstance(node, PetBattle) then return profile.pet_uldum end
+
     return true
 end
 
@@ -79,22 +85,42 @@ end
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+defaults['chest_uldum'] = true
+defaults['rare_uldum'] = true
 defaults['pet_uldum'] = true
 
 options.groupUldum = {
     type = "header",
     name = L["uldum"],
-    order = 10,
-};
+    order = 0,
+}
+
+options.chestUldum = {
+    type = "toggle",
+    arg = "chest_uldum",
+    name = L["options_toggle_chests"],
+    desc = L["options_toggle_chests_desc"],
+    order = 1,
+    width = "normal",
+}
+
+options.rareUldum = {
+    type = "toggle",
+    arg = "rare_uldum",
+    name = L["options_toggle_rares"],
+    desc = L["options_toggle_rares_desc"],
+    order = 2,
+    width = "normal",
+}
 
 options.petUldum = {
     type = "toggle",
     arg = "pet_uldum",
     name = L["options_toggle_battle_pets"],
     desc = L["options_toggle_battle_pets_desc"],
-    order = 11,
+    order = 3,
     width = "normal",
-};
+}
 
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
