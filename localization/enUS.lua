@@ -20,6 +20,7 @@ L["hmiasma"] = "Feed it the surrounding oozes until it activates."
 L["left_eye"] = "Drops the left half of the All-Seeing Eyes toy."
 L["reshef"] = "Shares a spawn with Voidwarped High Guards."
 L["spirit_cave"] = "Cave entrance for Spirit of Dark Ritualist Zakahn."
+L["wastewander"] = "Shares a spawn with Wastewander Hosts."
 
 L["amathet_cache"] = "Amathet Cache"
 L["black_empire_cache"] = "Black Empire Cache"
