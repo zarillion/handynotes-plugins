@@ -15,6 +15,8 @@ localization\enUS.lua
 localization\frFR.lua
 localization\esMX.lua
 
+libs\HereBeDragons-2.0.lua
+
 core\class.lua
 core\core.lua
 core\icons.lua
