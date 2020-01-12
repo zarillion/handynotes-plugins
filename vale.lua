@@ -262,6 +262,7 @@ nodes[33876683] = MOGTR6
 nodes[37666584] = MOGTR6
 nodes[38417028] = MOGTR6
 
+nodes[10782831] = Supply({quest=57214, assault=MOG, label=L["mogu_strongbox"]})
 nodes[43134209] = Supply({quest=57214, assault=MOG, label=L["mogu_strongbox"]})
 
 -------------------------------------------------------------------------------

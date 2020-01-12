@@ -71,7 +71,7 @@ L["gun"] = "Gun";
 L["wand"] = "Wand";
 L["crossbow"] = "Crossbow";
 L["offhand"] = "Off Hand";
-L["warglaives"] = "Warglaives";
+L["warglaive"] = "Warglaive";
 
 L["ring"] = "Ring";
 L["amulet"] = "Amulet";
