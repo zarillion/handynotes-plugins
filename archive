@@ -2,6 +2,6 @@
 
 TAG=$1
 git archive ${TAG} \
-    --prefix HandyNotes_MechagonAndNazjatar/ \
+    --prefix HandyNotes_VisionsOfNZoth/ \
     --output ~/Downloads/${TAG}.zip \
-    *.toc *.xml *.lua core/ libs/ localization/ icons/icons.blp
+    *.toc *.xml *.lua core/ libs/ localization/ icons/icons.blp icons/circle.tga icons/line.tga
