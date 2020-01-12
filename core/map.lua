@@ -49,9 +49,20 @@ MinimapDataProvider.facing = GetPlayerFacing()
 MinimapDataProvider.indoors = GetCVar("minimapZoom")+0 == Minimap:GetZoom() and "outdoor" or "indoor"
 MinimapDataProvider.pins = {}
 MinimapDataProvider.pool = {}
+
+-- The HBD author has already figured out the scale values for each zoom level
 MinimapDataProvider.scales = {
     indoor = {1, 1.25, 5/3, 2.5, 3.75, 6},
     outdoor = {1, 7/6, 1.4, 1.75, 7/3, 3.5}
+}
+
+-- These values for width/height seem to render the minimap POIs correctly. I
+-- still haven't figured out how to get these values out of the API, these were
+-- manually found by tweaking values at a 1.5 width/height ratio until things
+-- looked right =/.
+MinimapDataProvider.sizes = {
+    [1527] = {1750, 1312},   -- Uldum
+    [1530] = {700, 466}     -- Vale
 }
 
 function MinimapDataProvider:ReleasePin(pin)
@@ -73,15 +84,10 @@ function MinimapDataProvider:AcquirePin(mapID, poi, ...)
         pin = self:CreatePin()
     end
 
-    -- Calculate the scale size for this zoom level. Don't ask where I got
-    -- the 700 and 466 values from. I tried values at the 1.5 aspect ratio
-    -- (which is the same ratio the world map uses) until shit looked correct.
-    -- The minimap API is horrendous compared to the world map one. Luckily
-    -- the HBD author had already figured out the scale values for each zoom
-    -- level (in self.scales).
     local scale = self.scales[self.indoors][Minimap:GetZoom()+1]
-    pin.parentWidth = 700 * scale
-    pin.parentHeight = 466 * scale
+    local sizes = self.sizes[mapID] or {750, 500}
+    pin.parentWidth = sizes[1] * scale
+    pin.parentHeight = sizes[2] * scale
 
     local x, y = poi:draw(pin, ...)
     if GetCVar('rotateMinimap') == '1' then
