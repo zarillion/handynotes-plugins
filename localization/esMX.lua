@@ -6,11 +6,12 @@ if not L then return end
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
+L["uldum"] = "Uldum"
 L["uldum_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los monstruos raros, tesoros y misiones de asalto en Uldum."
 
-L["aqir_flayer"] = "Comparte un spawn con Trabajadores de la colmena aqir y Segadores aqir."
+L["aqir_flayer"] = "Comparte un spawn con Trabajador de la colmena aqir y Segador aqir."
 L["aqir_titanus"] = "Comparte un spawn con Goliat aqir."
-L["aqir_warcaster"] = "Comparte un spawn con Invocavacíos aqir."
+L["aqir_warcaster"] = "Comparte un spawn con Invocavacío aqir."
 L["atekhramun"] = "Aplasta los escorpiones circundantes hasta aparezca."
 L["chamber_of_the_moon"] = "Subterráneo en la Cámara de la Luna."
 L["chamber_of_the_stars"] = "Subterráneo en la Cámara de las Estrellas."
@@ -20,6 +21,7 @@ L["hmiasma"] = "Alimentalo con el moco circundante hasta que esté activo."
 L["left_eye"] = "Te da la mitad izquierda del juegete Ojos que todo lo ven."
 L["reshef"] = "Comparte un spawn con Alto guardia deformado por el Vacío."
 L["spirit_cave"] = "La entrada de la cueva de Espíritu de ritualista oscuro Zakahn."
+L["wastewander"] = "Comparte un spawn con Anfitrión vagayermos."
 
 L["amathet_cache"] = "Amathet Cache"
 L["black_empire_cache"] = "Alijo del Imperio Negro"
@@ -32,6 +34,7 @@ L["amathet_reliquary"] = "Amathet Reliquary"
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
+L["vale"] = "Valle de la Flor Eterna"
 L["vale_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los monstruos raros, tesoros y misiones de asalto en Valle de la Flor Eterna."
 
 L["big_blossom_mine"] = "Está dentro del Big Blossom Mine. La entrada está al noreste."
@@ -41,8 +44,8 @@ L["pools_of_power"] = "Está dentro de las Pozas de Poder. La entrada está a La
 L["right_eye"] = "Te da la mitad derecha del juegete Ojos que todo lo ven."
 L["tisiphon"] = "Haga clic en Caña de pescar de la suerte de Danielle."
 
-L["ambered_cache"] = "Ambered Cache"
-L["ambered_coffer"] = "Ambered Coffer"
+L["ambered_cache"] = "Alijo ámbar"
+L["ambered_coffer"] = "Cofre ámbar"
 L["mogu_plunder"] = "Saqueo mogu"
 L["mogu_strongbox"] = "Caja fuerte mogu"
 
@@ -144,6 +147,8 @@ L["options_toggle_battle_pets_desc"] = "Mostrar los lugares de instructores de m
 L["options_toggle_battle_pets"] = "Mascotas de duelo";
 L["options_toggle_caves_desc"] = "Mostrar entradas de cuevas para otros nodos.";
 L["options_toggle_caves"] = "Cuevas";
+L["options_toggle_chests_desc"] = "Mostrar el lugar de los cofres (se puede ser saqueable diariamente).";
+L["options_toggle_chests"] = "Cofres";
 L["options_toggle_misc"] = "Miscelánea";
 L["options_toggle_npcs"] = "PNJs";
 L["options_toggle_rares_desc"] = "Mostrar los lugares de los PNJs raros.";

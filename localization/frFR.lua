@@ -6,11 +6,12 @@ if not L then return end
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
+L["uldum"] = "Uldum"
 L["uldum_intro_note"] = "Complète la chaîne de quêtes d'introduction pour débloquer les monstres rares, les trésors et les quêtes d'assaut dans Uldum."
 
-L["aqir_flayer"] = "Il partage un frai avec les Ouvriers de l'essaim aqir et les Faucheurs aqir."
-L["aqir_titanus"] = "Il partage un frai avec les Goliath aqirs."
-L["aqir_warcaster"] = "Il partage un frai avec les Lanceurs du Vide aqir."
+L["aqir_flayer"] = "Il partage un spawn avec les Ouvriers de l'essaim aqir et les Faucheurs aqir."
+L["aqir_titanus"] = "Il partage un spawn avec les Goliath aqirs."
+L["aqir_warcaster"] = "Il partage un spawn avec les Lanceurs du Vide aqir."
 L["atekhramun"] = "Écrase les scorpions à proximité jusqu'à il fraie."
 L["chamber_of_the_moon"] = "C'est souterrain dans la Chambre de la Lune."
 L["chamber_of_the_stars"] = "C'est souterrain dans la Chambre des Étoiles."
@@ -20,6 +21,7 @@ L["hmiasma"] = "Nourris-le les boues jusqu'à il ce qu'il devienne actif"
 L["left_eye"] = "Il donne la moitié gauche du jouet Yeux omnivoyants."
 L["reshef"] = "Il partage un frai avec les Haut garde déformé par le Vide."
 L["spirit_cave"] = "C'est l'entrée de la grotte pour Esprit du ritualiste sombre Zakahn."
+L["wastewander"] = "Il partage un spawn avec les Hôtes bat-le-désert ."
 
 L["amathet_cache"] = "Amathet Cache"
 L["black_empire_cache"] = "Cache de l'Empire noir"
@@ -32,6 +34,7 @@ L["amathet_reliquary"] = "Amathet Reliquary"
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
+L["vale"] = "Val de l'Éternel Printemps"
 L["vale_intro_note"] = "Complète la chaîne de quêtes d'introduction pour débloquer les monstres rares, les trésors et les quêtes d'assaut dans Val de l'Éternel Printemps."
 
 L["big_blossom_mine"] = "C'est l'intérieur de Mine du Grand Printemps. L'entrée est au nord-est."
@@ -41,8 +44,8 @@ L["pools_of_power"] = "C'est l'intérieur des Bassins du Pouvoir. L'entrée est 
 L["right_eye"] = "Il donne la moitié droite du jouet Yeux omnivoyants."
 L["tisiphon"] = "Clique sur Canne à pêche porte-bonheur de Danielle."
 
-L["ambered_cache"] = "Ambered Cache"
-L["ambered_coffer"] = "Ambered Coffer"
+L["ambered_cache"] = "Cache ambré"
+L["ambered_coffer"] = "Coffre ambré"
 L["mogu_plunder"] = "Butin mogu "
 L["mogu_strongbox"] = "Coffre mogu"
 
@@ -144,6 +147,8 @@ L["options_toggle_battle_pets_desc"] = "Afficher les emplacements des Dresseurs 
 L["options_toggle_battle_pets"] = "Mascottes de Combat";
 L["options_toggle_caves_desc"] = "Afficher les entrées des grottes pour les autres nœuds.";
 L["options_toggle_caves"] = "Les Grottes";
+L["options_toggle_chests_desc"] = "Afficher les emplacements des coffres (pouvoir être pillé quotidiennement).";
+L["options_toggle_chests"] = "Coffres";
 L["options_toggle_misc"] = "Divers";
 L["options_toggle_npcs"] = "Des PNJ";
 L["options_toggle_rares_desc"] = "Afficher les emplacements des PNJ rares.";

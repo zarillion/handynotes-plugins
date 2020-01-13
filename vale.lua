@@ -255,17 +255,22 @@ local MANTR5 = MANChest({quest=58228, icon='chest_teal'})
 
 -- quest=58224
 nodes[15797164] = MANTR1
+nodes[07223945] = MANTR1
 -- quest=58225
 nodes[21051415] = MANTR2
+nodes[16021946] = MANTR2
 -- quest=58226
 nodes[09302831] = MANTR3
 nodes[07693682] = MANTR3
+nodes[16343312] = MANTR3
 -- quest=58227
 nodes[26704680] = MANTR4
 nodes[31724184] = MANTR4
+nodes[24994118] = MANTR4
 -- quest=58228
 nodes[15406394] = MANTR5
 nodes[16096581] = MANTR5
+nodes[07356617] = MANTR5
 
 nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"]})
 
