@@ -214,7 +214,7 @@ nodes[38214521] = Rare({id=162172, quest=58694, note=L["aqir_warcaster"], pois={
         41463988, 41993776, 42913735
     }) -- Aqir Voidcaster
 }}) -- Aqir Warcaster
---nodes[44854235] = Rare({id=162370, quest=58718}) -- Armagedillo
+nodes[44854235] = Rare({id=162370, quest=58718, assault=AQR}) -- Armagedillo
 nodes[65035129] = Rare({id=152757, quest=55710, assault=AMA, note=L["atekhramun"]}) -- Atekhramun
 nodes[45605777] = Rare({id=162171, quest=58699, assault=AQR, note=L["chamber_of_the_sun"]}) -- Captain Dunewalker
 nodes[30854971] = Rare({id=162147, quest=58696, assault=AQR, rewards={
