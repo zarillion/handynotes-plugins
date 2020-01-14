@@ -271,7 +271,7 @@ nodes[28651339] = Rare({id=162173, quest=58864, assault=AQR, pois={
         24980615, 24810886, 26881180, 28651339, 28381641, 29341853, 29392137,
         29472409, 29822663, 30342939, 30333188, 30103380
     })
-}}) -- R'krox the runt
+}}) -- R'krox the Runt
 nodes[68593204] = Rare({id=157146, quest=57273, assault=AMA, rewards={
     Mount({id=1317, item=174753}) -- Waste Marauder
 }}) -- Rotfeaster
