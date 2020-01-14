@@ -350,6 +350,7 @@ local EMPTR6 = EMPChest({quest=57203, icon='chest_lime'})
 
 -- quest=57197
 nodes[42314323] = EMPTR1
+nodes[42814020] = EMPTR1
 nodes[44483693] = EMPTR1
 nodes[46314037] = EMPTR1
 nodes[52673967] = EMPTR1
@@ -363,6 +364,7 @@ nodes[57334165] = EMPTR3
 nodes[59605624] = EMPTR3
 nodes[62585721] = EMPTR3
 nodes[65855969] = EMPTR3
+nodes[67565584] = EMPTR3
 -- quest=57201
 nodes[78305251] = EMPTR4
 nodes[78435833] = EMPTR4

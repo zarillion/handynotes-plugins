@@ -171,7 +171,7 @@ end)
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-nodes[64572623] = Rare({id=157170, quest=nil, assault=AMA, note=L["chamber_of_the_stars"]}) -- Acolyte Taspu
+nodes[64572623] = Rare({id=157170, quest=57281, assault=AMA, note=L["chamber_of_the_stars"]}) -- Acolyte Taspu
 nodes[66817436] = Rare({id=158557, quest=57669, assault=EMP}) -- Actiss the Deceiver
 -- nodes[] = Rare({id=157593, quest=nil, rewards={
 --     Pet({id=2851, item=174478}) -- Wicked Lurker
