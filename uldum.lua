@@ -413,6 +413,7 @@ nodes[81585359] = AMATR1
 nodes[84534540] = AMATR1
 nodes[84836185] = AMATR1
 nodes[85275138] = AMATR1
+nodes[85285297] = AMATR1
 -- quest=55690
 nodes[71226851] = AMATR2
 nodes[72216422] = AMATR2
@@ -429,6 +430,7 @@ nodes[78125302] = AMATR3
 -- quest=55698
 nodes[71884388] = AMATR4
 nodes[72944350] = AMATR4
+nodes[74364390] = AMATR4
 nodes[75134608] = AMATR4
 nodes[76344679] = AMATR4
 nodes[79314578] = AMATR4
@@ -447,6 +449,7 @@ nodes[68222051] = AMATR6
 nodes[64463415] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"], note=L["chamber_of_the_stars"]})
 nodes[67464294] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})
 nodes[73685054] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})
+nodes[75914194] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

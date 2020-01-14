@@ -354,8 +354,10 @@ nodes[42814020] = EMPTR1
 nodes[44483693] = EMPTR1
 nodes[46314037] = EMPTR1
 nodes[52673967] = EMPTR1
+nodes[53884179] = EMPTR1
 -- quest=57199
 nodes[56152716] = EMPTR2
+nodes[67222783] = EMPTR2
 nodes[69933311] = EMPTR2
 nodes[70282286] = EMPTR2
 nodes[73242533] = EMPTR2
@@ -366,6 +368,7 @@ nodes[62585721] = EMPTR3
 nodes[65855969] = EMPTR3
 nodes[67565584] = EMPTR3
 -- quest=57201
+nodes[77413129] = EMPTR4
 nodes[78305251] = EMPTR4
 nodes[78435833] = EMPTR4
 nodes[79034330] = EMPTR4
@@ -381,6 +384,8 @@ nodes[44196852] = EMPTR6
 nodes[48476579] = EMPTR6
 nodes[51136323] = EMPTR6
 nodes[52266732] = EMPTR6
+
+nodes[69516094] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
