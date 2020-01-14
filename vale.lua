@@ -176,7 +176,9 @@ nodes[34156805] = Rare({id=157466, quest=57363, assault=MOG, rewards={
 }}) -- Anh-De the Loyal
 nodes[57084098] = Rare({id=154447, quest=56237, assault=EMP}) -- Brother Meller
 nodes[06487070] = Rare({id=160878, quest=58307, assault=MAN}) -- Buh'gzaki the Blasphemous
-nodes[06406433] = Rare({id=160893, quest=58308, assault=MAN}) -- Captain Vor'lek
+nodes[06406433] = Rare({id=160893, quest=58308, assault=MAN, pois={
+    Path({06476733, 06416420, 04016423, 04025675, 03985061, 06484877, 06484597})
+}}) -- Captain Vor'lek
 nodes[81226450] = Rare({id=154467, quest=56255, assault=EMP}) -- Chief Mek-mek
 nodes[18806841] = Rare({id=157183, quest=58296, assault=MOG, pois={
     POI({16806672, 18316516, 19026494, 20166403, 20816263, 20866845, 21016961, 19927330, 18607211})
@@ -257,6 +259,7 @@ local MANTR5 = MANChest({quest=58228, icon='chest_teal'})
 -- quest=58224
 nodes[07223945] = MANTR1
 nodes[10662334] = MANTR1
+nodes[11552553] = MANTR1
 nodes[15797164] = MANTR1
 -- quest=58225
 nodes[16021946] = MANTR2
@@ -265,6 +268,7 @@ nodes[21051415] = MANTR2
 -- quest=58226
 nodes[07693682] = MANTR3
 nodes[09302831] = MANTR3
+nodes[15083162] = MANTR3
 nodes[15324320] = MANTR3
 nodes[16343312] = MANTR3
 -- quest=58227
@@ -277,6 +281,7 @@ nodes[07356617] = MANTR5
 nodes[15406394] = MANTR5
 nodes[16096581] = MANTR5
 nodes[19897504] = MANTR5
+nodes[21506269] = MANTR5
 
 nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"]})
 
