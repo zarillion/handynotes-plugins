@@ -278,7 +278,9 @@ nodes[68593204] = Rare({id=157146, quest=57273, assault=AMA, rewards={
 }}) -- Rotfeaster
 nodes[69714215] = Rare({id=152040, quest=55518, assault=AMA}) -- Scoutmaster Moswen
 nodes[73536459] = Rare({id=151948, quest=55496, assault=AMA}) -- Senbu the Pridefather
-nodes[57003794] = Rare({id=161033, quest=58333, assault=EMP}) -- Shadowmaw
+nodes[57003794] = Rare({id=161033, quest=58333, assault=EMP, pois={
+    POI({57003794, 52174326})
+}})-- Shadowmaw
 nodes[58558282] = Rare({id=156654, quest=57432, assault=EMP}) -- Shol'thoss the Doomspeaker
 nodes[61297484] = Rare({id=160532, quest=58169, assault={AQR, EMP}}) -- Shoth the Darkened
 nodes[21236105] = Rare({id=162140, quest=58697, assault=AQR, rewards={
