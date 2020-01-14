@@ -198,7 +198,7 @@ nodes[29513800] = Rare({id=157153, quest=57344, assault=MOG, rewards={
 nodes[28895272] = Rare({id=160810, quest=58299, assault=MAN}) -- Harbinger Il'koxik
 nodes[12835129] = Rare({id=160868, quest=58303, assault=MAN}) -- Harrier Nir'verash
 nodes[28214047] = Rare({id=157171, quest=57347, assault=MOG}) -- Heixi the Stonelord
-nodes[21256265] = Rare({id=160826, quest=58301, assault=MAN}) -- Hive-Guard Naz'ruzek
+nodes[19736082] = Rare({id=160826, quest=58301, assault=MAN}) -- Hive-Guard Naz'ruzek
 nodes[12183091] = Rare({id=157160, quest=57345, assault=MOG, rewards={
     Mount({id=1327, item=174841}) -- Ren's Stalwart Hound
 }, pois={
@@ -255,6 +255,7 @@ local MANTR5 = MANChest({quest=58228, icon='chest_teal'})
 
 -- quest=58224
 nodes[07223945] = MANTR1
+nodes[10662334] = MANTR1
 nodes[15797164] = MANTR1
 -- quest=58225
 nodes[16021946] = MANTR2
@@ -274,6 +275,7 @@ nodes[31724184] = MANTR4
 nodes[07356617] = MANTR5
 nodes[15406394] = MANTR5
 nodes[16096581] = MANTR5
+nodes[19897504] = MANTR5
 
 nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"]})
 
