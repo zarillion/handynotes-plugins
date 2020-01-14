@@ -35,7 +35,6 @@ end
 
 function NameResolver:Prepare (link)
     if self:IsLink(link) and not (self.cache[link] or self.prepared[link]) then
-        print('PREPARE:', link)
         self:SetHyperlink(link)
         self.prepared[link] = true
     end
