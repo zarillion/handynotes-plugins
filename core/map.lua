@@ -19,7 +19,11 @@ function Map:init ()
     self.nodes = {}
 end
 
-function Map:prepare () end
+function Map:prepare ()
+    for coord, node in pairs(self.nodes) do
+        ns.NameResolver:Prepare(node.label)
+    end
+end
 
 function Map:enabled (node, coord, minimap)
     local db = ns.addon.db

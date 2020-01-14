@@ -21,13 +21,6 @@ ns.status = {
     Orange = function (t) return string.format('(|cFFFF8C00%s|r)', t) end
 }
 
------------------------------------- TODO -------------------------------------
-
--- Add area indicators on hover for zone rares
--- Stick area indicators on click and highlight rare icon blue
--- Add backdrop tooltip for Naz zone-wide rares
--- Add filtering for rewards (pets vs mounts vs transmog vs achievements)
-
 -------------------------------------------------------------------------------
 ----------------------------------- HELPERS -----------------------------------
 -------------------------------------------------------------------------------
@@ -60,7 +53,7 @@ local function initializeDropdownMenu (button, level, mapID, coord)
                 func=function (button)
                     local x, y = HandyNotes:getXY(coord);
                     TomTom:AddWaypoint(mapID, x, y, {
-                        title = node.label,
+                        title = ns.NameResolver:GetCachedName(node.label),
                         persistent = nil,
                         minimap = true,
                         world = true
@@ -108,42 +101,44 @@ function Addon:OnEnter(mapID, coord)
         tooltip:SetOwner(self, "ANCHOR_RIGHT");
     end
 
-    tooltip:SetText(node.label);
+    ns.NameResolver:Resolve(node.label, function (label)
+        tooltip:SetText(label)
 
-    -- optional top-right text
-    if node.rlabel then
-        local rtext = _G[tooltip:GetName()..'TextRight1']
-        rtext:SetTextColor(1, 1, 1)
-        rtext:SetText(node.rlabel)
-        rtext:Show()
-    end
-
-    if node.note and Addon.db.profile.show_notes then
-        tooltip:AddLine(node.note, 1, 1, 1, true);
-    end
-
-    if Addon.db.profile.show_loot then
-        local firstAchieve, firstOther = true, true
-        for i, reward in ipairs(node.rewards or {}) do
-
-            -- Add a blank line between achievements and other rewards
-            local isAchieve = ns.isinstance(reward, ns.reward.Achievement)
-            if isAchieve and firstAchieve then
-                tooltip:AddLine(" ")
-                firstAchieve = false
-            elseif not isAchieve and firstOther then
-                tooltip:AddLine(" ")
-                firstOther = false
-            end
-
-            reward:render(tooltip);
+        -- optional top-right text
+        if node.rlabel then
+            local rtext = _G[tooltip:GetName()..'TextRight1']
+            rtext:SetTextColor(1, 1, 1)
+            rtext:SetText(node.rlabel)
+            rtext:Show()
         end
-    end
 
-    node._hover = true
-    ns.MinimapDataProvider:RefreshAllData()
-    ns.WorldMapDataProvider:RefreshAllData()
-    tooltip:Show();
+        if node.note and Addon.db.profile.show_notes then
+            tooltip:AddLine(node.note, 1, 1, 1, true);
+        end
+
+        if Addon.db.profile.show_loot then
+            local firstAchieve, firstOther = true, true
+            for i, reward in ipairs(node.rewards or {}) do
+
+                -- Add a blank line between achievements and other rewards
+                local isAchieve = ns.isinstance(reward, ns.reward.Achievement)
+                if isAchieve and firstAchieve then
+                    tooltip:AddLine(" ")
+                    firstAchieve = false
+                elseif not isAchieve and firstOther then
+                    tooltip:AddLine(" ")
+                    firstOther = false
+                end
+
+                reward:render(tooltip);
+            end
+        end
+
+        node._hover = true
+        ns.MinimapDataProvider:RefreshAllData()
+        ns.WorldMapDataProvider:RefreshAllData()
+        tooltip:Show()
+    end)
 end
 
 function Addon:OnLeave(mapID, coord)

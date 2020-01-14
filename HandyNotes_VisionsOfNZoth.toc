@@ -26,6 +26,7 @@ core\map.lua
 core\nodes.lua
 core\rewards.lua
 core\pois.lua
+core\util.lua
 
 pins.xml
 uldum.lua
