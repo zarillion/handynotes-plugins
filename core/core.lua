@@ -112,8 +112,13 @@ function Addon:OnEnter(mapID, coord)
             rtext:Show()
         end
 
+        if node.sublabel then
+            tooltip:AddLine(node.sublabel, 1, 1, 1)
+        end
+
         if node.note and Addon.db.profile.show_notes then
-            tooltip:AddLine(node.note, 1, 1, 1, true);
+            if node.sublabel then tooltip:AddLine(" ") end
+            tooltip:AddLine(node.note, 1, 1, 1, true)
         end
 
         if Addon.db.profile.show_loot then

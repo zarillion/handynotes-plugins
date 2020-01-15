@@ -386,9 +386,9 @@ nodes[48476579] = EMPTR6
 nodes[51136323] = EMPTR6
 nodes[52266732] = EMPTR6
 
-local EMPCOFF = Supply({quest=57628, assault=EMP, note=L["cursed_relic"],
-    label=L["black_empire_coffer"]})
+local EMPCOFF = Supply({quest=57628, assault=EMP, label=L["black_empire_coffer"], sublabel=L["cursed_relic"]})
 
+nodes[68662806] = Supply({quest=57628, assault=EMP, label=L["black_empire_coffer"], sublabel=L["cursed_relic"], note=L["pools_of_power"]})
 nodes[69516094] = EMPCOFF
 nodes[76626437] = EMPCOFF
 

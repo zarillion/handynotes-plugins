@@ -450,9 +450,9 @@ nodes[63532160] = AMATR6
 nodes[67172800] = AMATR6C
 nodes[68222051] = AMATR6
 
-local AMACOFF = Supply({quest=55692, assault=AMA, label=L["amathet_reliquary"], note=L["tolvir_relic"]})
+local AMACOFF = Supply({quest=55692, assault=AMA, label=L["amathet_reliquary"], sublabel=L["tolvir_relic"]})
 
-nodes[64463415] = Supply({quest=55692, assault=AMA, label=L["amathet_reliquary"], note=L["chamber_of_the_stars"].." "..L["tolvir_relic"]})
+nodes[64463415] = Supply({quest=55692, assault=AMA, label=L["amathet_reliquary"], sublabel=L["tolvir_relic"], note=L["chamber_of_the_stars"]})
 nodes[67464294] = AMACOFF
 nodes[73337356] = AMACOFF
 nodes[73685054] = AMACOFF
