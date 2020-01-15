@@ -6,6 +6,7 @@ local _, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
+local clone = ns.clone
 local isinstance = ns.isinstance
 
 local Node = ns.node.Node
@@ -386,9 +387,11 @@ nodes[48476579] = EMPTR6
 nodes[51136323] = EMPTR6
 nodes[52266732] = EMPTR6
 
-local EMPCOFF = Supply({quest=57628, assault=EMP, label=L["black_empire_coffer"], sublabel=L["cursed_relic"]})
+local EMPCOFF = Supply({quest=57628, assault=EMP,
+    label=L["black_empire_coffer"], sublabel=L["cursed_relic"]})
 
-nodes[68662806] = Supply({quest=57628, assault=EMP, label=L["black_empire_coffer"], sublabel=L["cursed_relic"], note=L["pools_of_power"]})
+nodes[54804100] = clone(EMPCOFF, {note=L["platform"]})
+nodes[68662806] = clone(EMPCOFF, {note=L["pools_of_power"]})
 nodes[69516094] = EMPCOFF
 nodes[76626437] = EMPCOFF
 

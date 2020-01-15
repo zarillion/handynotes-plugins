@@ -6,6 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
+local clone = ns.clone
 local isinstance = ns.isinstance
 
 local Node = ns.node.Node
@@ -321,14 +322,13 @@ local AQRChest = Class('AQRChest', Treasure, {
 })
 
 local AQRTR1 = AQRChest({quest=58138, icon='chest_blue'})
-local AQRTR1C = AQRChest({quest=58138, icon='chest_blue', note=L["chamber_of_the_sun"]})
 local AQRTR2 = AQRChest({quest=58139, icon='chest_purple'})
 local AQRTR3 = AQRChest({quest=58140, icon='chest_orange'})
 local AQRTR4 = AQRChest({quest=58141, icon='chest_yellow'})
 local AQRTR5 = AQRChest({quest=58142, icon='chest_teal'})
 
 -- quest=58138
-nodes[45845698] = AQRTR1C
+nodes[45845698] = clone(AQRTR1, {note=L["chamber_of_the_sun"]})
 nodes[46525801] = AQRTR1
 nodes[50555882] = AQRTR1
 nodes[51736032] = AQRTR1
@@ -408,7 +408,6 @@ local AMATR3 = AMAChest({quest=55691, icon='chest_orange'})
 local AMATR4 = AMAChest({quest=55698, icon='chest_yellow'})
 local AMATR5 = AMAChest({quest=55699, icon='chest_teal'})
 local AMATR6 = AMAChest({quest=55700, icon='chest_lime'})
-local AMATR6C = AMAChest({quest=55700, icon='chest_lime', note=L["chamber_of_the_stars"]})
 
 -- quest=55689
 nodes[80785611] = AMATR1
@@ -445,14 +444,15 @@ nodes[69744236] = AMATR5
 -- quest=55700
 nodes[60932455] = AMATR6
 nodes[61343060] = AMATR6
-nodes[63122508] = AMATR6C
+nodes[63122508] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[63532160] = AMATR6
-nodes[67172800] = AMATR6C
+nodes[67172800] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[68222051] = AMATR6
 
-local AMACOFF = Supply({quest=55692, assault=AMA, label=L["amathet_reliquary"], sublabel=L["tolvir_relic"]})
+local AMACOFF = Supply({quest=55692, assault=AMA,
+    label=L["amathet_reliquary"], sublabel=L["tolvir_relic"]})
 
-nodes[64463415] = Supply({quest=55692, assault=AMA, label=L["amathet_reliquary"], sublabel=L["tolvir_relic"], note=L["chamber_of_the_stars"]})
+nodes[64463415] = clone(AMACOFF, {note=L["chamber_of_the_stars"]})
 nodes[67464294] = AMACOFF
 nodes[73337356] = AMACOFF
 nodes[73685054] = AMACOFF

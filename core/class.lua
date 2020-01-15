@@ -67,3 +67,10 @@ ns.isinstance = function (instance, class)
     end
     return compare(class, instance.__class)
 end
+
+ns.clone = function (instance, newattrs)
+    local clone = {}
+    for k, v in pairs(instance) do clone[k] = v end
+    for k, v in pairs(newattrs or {}) do clone[k] = v end
+    return instance.__class(clone)
+end
