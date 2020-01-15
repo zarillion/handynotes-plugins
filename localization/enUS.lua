@@ -24,6 +24,7 @@ L["left_eye"] = "Drops the left half of the All-Seeing Eyes toy."
 L["platform"] = "Spawns on top of the floating platform."
 L["reshef"] = "Shares a spawn with Voidwarped High Guards."
 L["spirit_cave"] = "Cave entrance for Spirit of Dark Ritualist Zakahn."
+L["uatka"] = "Along with two other players, click each Mysterious Device. Requires a Suntouched Amulet from an Amathet Reliquary."
 L["wastewander"] = "Shares a spawn with Wastewander Hosts."
 
 L["amathet_cache"] = "Amathet Cache"

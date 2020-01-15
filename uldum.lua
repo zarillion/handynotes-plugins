@@ -219,6 +219,7 @@ nodes[38214521] = Rare({id=162172, quest=58694, note=L["aqir_warcaster"], pois={
 nodes[44854235] = Rare({id=162370, quest=58718, assault=AQR}) -- Armagedillo
 nodes[65035129] = Rare({id=152757, quest=55710, assault=AMA, note=L["atekhramun"]}) -- Atekhramun
 nodes[45605777] = Rare({id=162171, quest=58699, assault=AQR, note=L["chamber_of_the_sun"]}) -- Captain Dunewalker
+nodes[75345222] = Rare({id=157167, quest=nil, assault=AMA}) -- Champion Sen-mat
 nodes[30854971] = Rare({id=162147, quest=58696, assault=AQR, rewards={
     Mount({id=1319, item=174769}) -- Malevolent Drone
 }}) -- Corpse Eater
@@ -303,6 +304,7 @@ nodes[65903522] = Rare({id=152657, quest=55682, assault=AMA, pois={
 nodes[49328235] = Rare({id=158636, quest=57688, assault=EMP, note=L["platform"], rewards={
     Toy({item=169303}) -- Hell-Bent Bracers
 }}) -- The Grand Executor
+nodes[67486382] = Rare({id=152788, quest=55716, assault=AMA, note=L["uatka"]}) -- Uat-ka the Sun's Wrath
 nodes[33592569] = Rare({id=162170, quest=58702, assault=AQR}) -- Warcaster Xeshro
 nodes[79505217] = Rare({id=151852, quest=55461, assault=AMA, pois={
     Path({77755217, 81265217})
@@ -418,6 +420,7 @@ nodes[85275138] = AMATR1
 nodes[85285297] = AMATR1
 -- quest=55690
 nodes[71226851] = AMATR2
+nodes[71305922] = AMATR2
 nodes[72216422] = AMATR2
 nodes[73117297] = AMATR2
 nodes[73987095] = AMATR2
@@ -441,11 +444,13 @@ nodes[63084970] = AMATR5
 nodes[64094488] = AMATR5
 nodes[65403796] = AMATR5
 nodes[69744236] = AMATR5
+nodes[69874163] = AMATR5
 -- quest=55700
 nodes[60932455] = AMATR6
 nodes[61343060] = AMATR6
 nodes[63122508] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[63532160] = AMATR6
+nodes[65882147] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[67172800] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[68222051] = AMATR6
 
@@ -471,7 +476,8 @@ nodes[61745440] = PetBattle({id=162461}) -- Whispers
 ------------------------------- SPRINGFUR ALPACA ------------------------------
 -------------------------------------------------------------------------------
 
-nodes[58005169] = Node({icon=134190, quest=58887, label=L["gersahl"], note=L["gersahl_note"], pois={
+-- daily 58879, final 58887
+nodes[58005169] = Node({icon=134190, quest={58879, 58887}, label=L["gersahl"], note=L["gersahl_note"], pois={
     POI({
         46922961, 49453556, 50583294, 55484468, 56265101, 56691882, 57112548,
         57235056, 57458491, 57474682, 57741910, 58005169, 58202808, 58967759,
@@ -481,8 +487,8 @@ nodes[58005169] = Node({icon=134190, quest=58887, label=L["gersahl"], note=L["ge
     })
 }, rewards={Item({item=174858})}})
 
-nodes[47004800] = NPC({id=162765, icon=2916287, quest=58887, note=L["friendly_alpaca"], pois={
-    POI({30002900, 39000800, 41007000, 47004800, 52001900, 55006900})
+nodes[47004800] = NPC({id=162765, icon=2916287, quest={58879, 58887}, note=L["friendly_alpaca"], pois={
+    POI({30002900, 39000800, 41007000, 47004800, 52001900, 55006900, 76636813})
 }, rewards={
     Mount({id=1329, item=174859}) -- Springfur Alpaca
 }})

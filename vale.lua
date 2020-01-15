@@ -350,14 +350,18 @@ local EMPTR5 = EMPChest({quest=57202, icon='chest_teal', note=L["big_blossom_min
 local EMPTR6 = EMPChest({quest=57203, icon='chest_lime'})
 
 -- quest=57197
+nodes[42024621] = EMPTR1
 nodes[42314323] = EMPTR1
 nodes[42814020] = EMPTR1
 nodes[44483693] = EMPTR1
 nodes[46314037] = EMPTR1
+nodes[50673444] = EMPTR1
 nodes[52673967] = EMPTR1
 nodes[53884179] = EMPTR1
 -- quest=57199
+nodes[56113034] = EMPTR2
 nodes[56152716] = EMPTR2
+nodes[61422747] = EMPTR2
 nodes[67222783] = EMPTR2
 nodes[69933311] = EMPTR2
 nodes[70282286] = EMPTR2
@@ -390,7 +394,9 @@ nodes[52266732] = EMPTR6
 local EMPCOFF = Supply({quest=57628, assault=EMP,
     label=L["black_empire_coffer"], sublabel=L["cursed_relic"]})
 
+nodes[53116634] = EMPCOFF
 nodes[54804100] = clone(EMPCOFF, {note=L["platform"]})
+nodes[62975086] = EMPCOFF
 nodes[68662806] = clone(EMPCOFF, {note=L["pools_of_power"]})
 nodes[69516094] = EMPCOFF
 nodes[76626437] = EMPCOFF
