@@ -228,7 +228,7 @@ nodes[29132207] = Rare({id=156424, quest=58507, assault=MOG, rewards={
     Toy({item=174873}) -- Trans-mogu-rifier
 }}) -- Tashara
 nodes[47496373] = Rare({id=154600, quest=56332, assault=MOG}) -- Teng the Awakened
-nodes[52024173] = Rare({id=157176, quest=57342, assault=EMP, rewards={
+nodes[52024173] = Rare({id=157176, quest=57342, assault=EMP, note=L["platform"], rewards={
     Pet({id=2845, item=174473}) -- K'uddly
 }}) -- The Forgotten
 nodes[09586736] = Rare({id=157468, quest=57364, note=L["tisiphon"]}) -- Tisiphon
@@ -386,7 +386,11 @@ nodes[48476579] = EMPTR6
 nodes[51136323] = EMPTR6
 nodes[52266732] = EMPTR6
 
-nodes[69516094] = Supply({quest=57628, assault=EMP, label=L["black_empire_coffer"]})
+local EMPCOFF = Supply({quest=57628, assault=EMP, note=L["cursed_relic"],
+    label=L["black_empire_coffer"]})
+
+nodes[69516094] = EMPCOFF
+nodes[76626437] = EMPCOFF
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

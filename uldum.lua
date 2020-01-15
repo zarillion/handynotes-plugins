@@ -289,7 +289,7 @@ nodes[21236105] = Rare({id=162140, quest=58697, assault=AQR, rewards={
     Path({22486168, 21316279, 19896347, 19356128, 20345804, 21435846, 24325860, 24866015, 24406194, 22486168})
 }}) -- Skikx'traz
 nodes[66676804] = Rare({id=162372, quest=58715, assault={AQR, AMA}, pois={
-    POI({66676804, 70997407})
+    POI({58038282, 66676804, 70997407})
 }}) -- Spirit of Cyrus the Black
 nodes[49944011] = Rare({id=162352, quest=58716, assault={AQR, AMA}, note=L["in_water_cave"]}) -- Spirit of Dark Ritualist Zakahn
 nodes[52154012] = Cave({parent=nodes[49944011], assault={AQR, AMA}, label=L["spirit_cave"]}) -- Entrance
@@ -299,7 +299,7 @@ nodes[73347447] = Rare({id=151609, quest=55353, assault=AMA}) -- Sun Prophet Epa
 nodes[65903522] = Rare({id=152657, quest=55682, assault=AMA, pois={
     Path({68043800, 64873862, 64503660, 65903522, 67003162, 67743515, 68043800})
 }}) -- Tat the Bonechewer
-nodes[49328235] = Rare({id=158636, quest=57688, assault=EMP, note=L["gexec"], rewards={
+nodes[49328235] = Rare({id=158636, quest=57688, assault=EMP, note=L["platform"], rewards={
     Toy({item=169303}) -- Hell-Bent Bracers
 }}) -- The Grand Executor
 nodes[33592569] = Rare({id=162170, quest=58702, assault=AQR}) -- Warcaster Xeshro
@@ -391,7 +391,10 @@ nodes[51707135] = EMPTR5
 nodes[51777298] = EMPTR5
 nodes[52197757] = EMPTR5
 
-nodes[71657334] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
+local EMPCOFF = Supply({quest=nil, assault=EMP, note=L["cursed_relic"],
+    label=L["black_empire_coffer"]})
+
+nodes[71657334] = EMPCOFF
 
 -------------------------------------------------------------------------------
 
@@ -447,10 +450,13 @@ nodes[63532160] = AMATR6
 nodes[67172800] = AMATR6C
 nodes[68222051] = AMATR6
 
-nodes[64463415] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"], note=L["chamber_of_the_stars"]})
-nodes[67464294] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})
-nodes[73685054] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})
-nodes[75914194] = Supply({quest=nil, assault=AMA, label=L["amathet_reliquary"]})
+local AMACOFF = Supply({quest=55692, assault=AMA, label=L["amathet_reliquary"], note=L["tolvir_relic"]})
+
+nodes[64463415] = Supply({quest=55692, assault=AMA, label=L["amathet_reliquary"], note=L["chamber_of_the_stars"].." "..L["tolvir_relic"]})
+nodes[67464294] = AMACOFF
+nodes[73337356] = AMACOFF
+nodes[73685054] = AMACOFF
+nodes[75914194] = AMACOFF
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
@@ -460,6 +466,22 @@ nodes[35453159] = PetBattle({id=162465}) -- Aqir Sandcrawler
 nodes[57604356] = PetBattle({id=162466}) -- Blotto
 nodes[62043188] = PetBattle({id=162458}) -- Retinus the Seeker
 nodes[61745440] = PetBattle({id=162461}) -- Whispers
+
+-------------------------------------------------------------------------------
+------------------------------- SPRINGFUR ALPACA ------------------------------
+-------------------------------------------------------------------------------
+
+nodes[58005169] = Node({icon=134190, label=L["gersahl"], note=L["gersahl_note"], pois={
+    POI({
+        46922961, 49453556, 50583294, 55484468, 56265101, 56691882, 57112548,
+        57235056, 57458491, 57474682, 57741910, 58005169, 65167045, 65427433,
+        66047881, 67377771, 71657803
+    })
+}})
+
+nodes[47004800] = NPC({id=162765, icon=2916287, note=L["friendly_alpaca"], pois={
+    POI({30002900, 39000800, 41007000, 47004800, 52001900, 55006900})
+}})
 
 -------------------------------------------------------------------------------
 

@@ -16,9 +16,12 @@ L["atekhramun"] = "Squish nearby Venomscale Scorplings until he spawns."
 L["chamber_of_the_moon"] = "Underground in the Chamber of the Moon."
 L["chamber_of_the_stars"] = "Underground in the Chamber of the Stars."
 L["chamber_of_the_sun"] = "Inside the Chamber of the Sun."
-L["gexec"] = "Spawns on top of the floating platform."
+L["friendly_alpaca"] = "Feed the alpaca Gersahl Greens seven times to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
+L["gersahl"] = "Gersahl Shrub"
+L["gersahl_note"] = "Feed to a Friendly Alpaca seven times for a mount. Does not require Herbalism."
 L["hmiasma"] = "Feed it the surrounding oozes until it activates."
 L["left_eye"] = "Drops the left half of the All-Seeing Eyes toy."
+L["platform"] = "Spawns on top of the floating platform."
 L["reshef"] = "Shares a spawn with Voidwarped High Guards."
 L["spirit_cave"] = "Cave entrance for Spirit of Dark Ritualist Zakahn."
 L["wastewander"] = "Shares a spawn with Wastewander Hosts."
@@ -29,6 +32,9 @@ L["black_empire_coffer"] = "Black Empire Coffer"
 L["infested_cache"] = "Infested Cache"
 L["infested_strongbox"] = "Infested Strongbox"
 L["amathet_reliquary"] = "Amathet Reliquary"
+
+L["cursed_relic"] = "Requires Cursed Relic"
+L["tolvir_relic"] = "Requires Tol'vir Relic"
 
 -------------------------------------------------------------------------------
 ------------------------------------ VALE -------------------------------------
