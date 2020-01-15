@@ -381,11 +381,12 @@ nodes[71516854] = EMPTR5
 -- quest=57203
 nodes[42456853] = EMPTR6
 nodes[44196852] = EMPTR6
+nodes[47947095] = EMPTR6
 nodes[48476579] = EMPTR6
 nodes[51136323] = EMPTR6
 nodes[52266732] = EMPTR6
 
-nodes[69516094] = Supply({quest=nil, assault=EMP, label=L["black_empire_coffer"]})
+nodes[69516094] = Supply({quest=57628, assault=EMP, label=L["black_empire_coffer"]})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

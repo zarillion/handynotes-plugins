@@ -92,10 +92,12 @@ function Item:init ()
     self.itemLink = L["retrieving"]
     self.itemIcon = 'Interface\\Icons\\Inv_misc_questionmark'
     local item = _G.Item:CreateFromItemID(self.item)
-    item:ContinueOnItemLoad(function()
-        self.itemLink = item:GetItemLink()
-        self.itemIcon = item:GetItemIcon()
-    end)
+    if not item:IsItemEmpty() then
+        item:ContinueOnItemLoad(function()
+            self.itemLink = item:GetItemLink()
+            self.itemIcon = item:GetItemIcon()
+        end)
+    end
 end
 
 function Item:obtained ()
