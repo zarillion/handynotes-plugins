@@ -14,8 +14,9 @@ embeds.xml
 libs\HereBeDragons-2.0.lua
 
 localization\enUS.lua
-localization\frFR.lua
 localization\esMX.lua
+localization\frFR.lua
+localization\ruRU.lua
 localization\zhTW.lua
 
 core\class.lua
