@@ -141,18 +141,18 @@ function Intro.getters:label ()
     return select(2, GetAchievementInfo(14154)) -- Defend the Vale
 end
 
--- Where the Heart is => Surfacing Threats
-local Q1 = Quest({id={58583, 58506, 56374, 56209, 56375, 56472, 56376}})
+-- Network Diagnostics => Surfacing Threats
+local Q1 = Quest({id={58506, 56374, 56209, 56375, 56472, 56376}})
 -- Forging Onward => Magni's Findings
 local Q2 = Quest({id={56377, 56536, 56537, 56538, 56539, 56771, 56540}})
 
 if UnitFactionGroup('player') == 'Alliance' then
     map.intro = Intro({faction='Alliance', rewards={
-        Quest({id={58496, 58498}}), Q1, Q2
+        Quest({id={58496, 58498, 58502}}), Q1, Q2
     }})
 else
     map.intro = Intro({faction='Horde', rewards={
-        Quest({id={58582}}), Q1, Q2
+        Quest({id={58582, 58583}}), Q1, Q2
     }})
 end
 

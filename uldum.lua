@@ -143,16 +143,16 @@ function Intro.getters:label ()
     return select(2, GetAchievementInfo(14153)) -- Uldum Under Assault
 end
 
--- Where the Heart is => Surfacing Threats
-local Q = Quest({id={58583, 58506, 56374, 56209, 56375, 56472, 56376}})
+-- Network Diagnostics => Surfacing Threats
+local Q = Quest({id={58506, 56374, 56209, 56375, 56472, 56376}})
 
 if UnitFactionGroup('player') == 'Alliance' then
     map.intro = Intro({faction='Alliance', rewards={
-        Quest({id={58496, 58498}}), Q
+        Quest({id={58496, 58498, 58502}}), Q
     }})
 else
     map.intro = Intro({faction='Horde', rewards={
-        Quest({id={58582}}), Q
+        Quest({id={58582, 58583}}), Q
     }})
 end
 
