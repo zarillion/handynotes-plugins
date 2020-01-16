@@ -451,6 +451,7 @@ nodes[60932455] = AMATR6
 nodes[61343060] = AMATR6
 nodes[63122508] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[63532160] = AMATR6
+nodes[65543142] = AMATR6
 nodes[65882147] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[67172800] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[68222051] = AMATR6
