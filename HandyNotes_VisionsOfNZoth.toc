@@ -18,6 +18,7 @@ localization\esES.lua
 localization\esMX.lua
 localization\frFR.lua
 localization\ruRU.lua
+localization\zhCN.lua
 localization\zhTW.lua
 
 core\class.lua
