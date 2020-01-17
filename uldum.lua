@@ -304,6 +304,7 @@ nodes[65903522] = Rare({id=152657, quest=55682, assault=AMA, pois={
 nodes[49328235] = Rare({id=158636, quest=57688, assault=EMP, note=L["platform"], rewards={
     Toy({item=169303}) -- Hell-Bent Bracers
 }}) -- The Grand Executor
+nodes[84324729] = Rare({id=157188, quest=57285, assault=AMA, note=L["tomb_widow"]}) -- The Tomb Widow
 nodes[67486382] = Rare({id=152788, quest=55716, assault=AMA, note=L["uatka"]}) -- Uat-ka the Sun's Wrath
 nodes[33592569] = Rare({id=162170, quest=58702, assault=AQR}) -- Warcaster Xeshro
 nodes[79505217] = Rare({id=151852, quest=55461, assault=AMA, pois={
