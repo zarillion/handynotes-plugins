@@ -380,18 +380,22 @@ nodes[19836512] = AQRTR3
 nodes[20585920] = AQRTR3
 nodes[23055936] = AQRTR3
 nodes[24525507] = AQRTR3
+nodes[26066468] = AQRTR3
 -- quest=58141
 nodes[36032024] = AQRTR4
 nodes[37484577] = AQRTR4
 nodes[38774014] = AQRTR4
 nodes[39692354] = AQRTR4
 nodes[39754504] = AQRTR4
+nodes[40244251] = AQRTR4
 nodes[40454422] = AQRTR4
+nodes[40823893] = AQRTR4
 -- quest=58142
 nodes[28030834] = AQRTR5
 nodes[30671611] = AQRTR5
 nodes[33953036] = AQRTR5
 nodes[35413157] = AQRTR5
+nodes[45561320] = AQRTR5
 
 nodes[36252324] = Supply({quest=58137, assault=AQR,
     label=L["infested_strongbox"], note=L["chamber_of_the_moon"]})
