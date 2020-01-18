@@ -30,6 +30,7 @@ function NameResolver:GetCachedName (link)
 end
 
 function NameResolver:IsLink (link)
+    if link == nil then return link end
     return strsub(link, 1, 5) == 'unit:'
 end
 

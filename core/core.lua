@@ -102,7 +102,7 @@ function Addon:OnEnter(mapID, coord)
     end
 
     ns.NameResolver:Resolve(node.label, function (label)
-        tooltip:SetText(label)
+        tooltip:SetText(label or UNKNOWN)
 
         -- optional top-right text
         if node.rlabel then
