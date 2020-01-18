@@ -155,9 +155,7 @@ PetBattle.group = "pet_battles"
 ------------------------------------ QUEST ------------------------------------
 -------------------------------------------------------------------------------
 
-local Quest = Class('Quest', Node)
-
-Quest.note = AVAILABLE_QUEST
+local Quest = Class('Quest', Node, {note=AVAILABLE_QUEST})
 
 function Quest:init ()
     Node.init(self)
@@ -170,6 +168,25 @@ end
 
 function Quest.getters:label ()
     return C_QuestLog.GetQuestInfo(self.quest[1])
+end
+
+-------------------------------------------------------------------------------
+-------------------------------- TIMED EVENT --------------------------------
+-------------------------------------------------------------------------------
+
+local TimedEvent = Class('TimedEvent', Quest, {scale=2, note=''})
+
+function TimedEvent.getters:icon ()
+    -- Override icon getter to be a simple yellow peg
+    return 'peg_yellow'
+end
+
+function TimedEvent:enabled (map, coord, minimap)
+    -- Timed events that are not active today return nil here
+    if not C_TaskQuest.GetQuestTimeLeftMinutes(self.quest[1]) then
+        return false
+    end
+    return Quest.enabled(self, map, coord, minimap)
 end
 
 -------------------------------------------------------------------------------
@@ -240,5 +257,6 @@ ns.node = {
     Quest=Quest,
     Rare=Rare,
     Supply=Supply,
+    TimedEvent=TimedEvent,
     Treasure=Treasure
 }

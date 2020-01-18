@@ -75,6 +75,7 @@ L["ambered_coffer"] = "Ambered Coffer"
 L["mogu_plunder"] = "Mogu Plunder"
 L["mogu_strongbox"] = "Mogu Strongbox"
 
+L["corruption_tear"] = "Grab the Titanic Beacon and close the tear without letting the whirling eyes hit you."
 L["consuming_maw"] = "Purify growths and tentacles until kicked out."
 L["infested_statue"] = "Pull all the twitching eyes off the statue."
 L["void_conduit"] = "Click the Void Conduit and squish the watching eyes."

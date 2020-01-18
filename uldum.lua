@@ -15,15 +15,14 @@ local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Supply = ns.node.Supply
+local TimedEvent = ns.node.TimedEvent
 local Treasure = ns.node.Treasure
 
-local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Quest = ns.reward.Quest
 local Toy = ns.reward.Toy
-local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -31,12 +30,7 @@ local POI = ns.poi.POI
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
 
--------------------------------------------------------------------------------
-
 local AQR, EMP, AMA = 0, 1, 2 -- assaults
-
-local AssaultEvent = Class('AssaultEvent', ns.node.Quest, {scale=2, note=''})
-function AssaultEvent.getters:icon () return 'peg_yellow' end
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -84,7 +78,7 @@ function map:enabled (node, coord, minimap)
     if isinstance(node, Supply) then return profile.chest_uldum end
     if isinstance(node, Rare) then return profile.rare_uldum end
     if isinstance(node, PetBattle) then return profile.pet_uldum end
-    if isinstance(node, AssaultEvent) then return profile.event_uldum end
+    if isinstance(node, TimedEvent) then return profile.event_uldum end
     if node.alpaca then return profile.alpaca_uldum end
 
     return true
@@ -96,7 +90,7 @@ end
 
 defaults['chest_uldum'] = true
 defaults['rare_uldum'] = true
-defaults['event_uldum'] = false
+defaults['event_uldum'] = true
 defaults['pet_uldum'] = true
 defaults['alpaca_uldum'] = true
 
@@ -400,7 +394,6 @@ local EMPTR2 = EMPChest({quest=57624, icon='chest_purple'})
 local EMPTR3 = EMPChest({quest=57626, icon='chest_orange'})
 local EMPTR4 = EMPChest({quest=57627, icon='chest_yellow'})
 local EMPTR5 = EMPChest({quest=57635, icon='chest_teal'})
---local EMPTR6 = EMPChest({quest=nil, icon='chest_lime'})
 
 -- quest=57623
 nodes[58361535] = EMPTR1
@@ -502,34 +495,34 @@ nodes[75914194] = AMACOFF
 -------------------------------- ASSAULT EVENTS -------------------------------
 -------------------------------------------------------------------------------
 
-nodes[34392928] = AssaultEvent({quest=58679, assault=AQR, note=L["dormant_destroyer"]}) -- Dormant Destroyer
-nodes[20765913] = AssaultEvent({quest=58676, assault=AQR, note=L["dormant_destroyer"]}) -- Dormant Destroyer
-nodes[31365562] = AssaultEvent({quest=58667, assault=AQR, note=L["obsidian_extract"]}) -- Obsidian Extraction
-nodes[36542060] = AssaultEvent({quest=59003, assault=AQR, note=L["combust_cocoon"]}) -- Combustible Cocoons
-nodes[37054778] = AssaultEvent({quest=58961, assault=AQR, note=L["ambush_settlers"]}) -- Ambushed Settlers
-nodes[22496418] = AssaultEvent({quest=58952, assault=AQR, note=L["purging_flames"]}) -- Purging Flames
+nodes[34392928] = TimedEvent({quest=58679, assault=AQR, note=L["dormant_destroyer"]}) -- Dormant Destroyer
+nodes[20765913] = TimedEvent({quest=58676, assault=AQR, note=L["dormant_destroyer"]}) -- Dormant Destroyer
+nodes[31365562] = TimedEvent({quest=58667, assault=AQR, note=L["obsidian_extract"]}) -- Obsidian Extraction
+nodes[36542060] = TimedEvent({quest=59003, assault=AQR, note=L["combust_cocoon"]}) -- Combustible Cocoons
+nodes[37054778] = TimedEvent({quest=58961, assault=AQR, note=L["ambush_settlers"]}) -- Ambushed Settlers
+nodes[22496418] = TimedEvent({quest=58952, assault=AQR, note=L["purging_flames"]}) -- Purging Flames
 
 -------------------------------------------------------------------------------
 
-nodes[64002800] = AssaultEvent({quest=57215, assault=AMA, note=L["engine_of_ascen"]}) -- Engine of Ascension
-nodes[64962255] = AssaultEvent({quest=55355, assault=AMA, note=L["lightblade_training"]}) -- Lightblade Training Grounds
-nodes[70006000] = AssaultEvent({quest=55360, assault=AMA, note=L["unsealed_tomb"]}) -- The Unsealed Tomb
-nodes[71004500] = AssaultEvent({quest=55358, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
-nodes[76004700] = AssaultEvent({quest=57243, assault=AMA, note=L["slave_camp"]}) -- Amathet Slave Camp
-nodes[84005400] = AssaultEvent({quest=55670, assault=AMA, note=L["raiding_fleet"]}) -- Amathet Raiding Fleet
+nodes[64002800] = TimedEvent({quest=57215, assault=AMA, note=L["engine_of_ascen"]}) -- Engine of Ascension
+nodes[64962255] = TimedEvent({quest=55355, assault=AMA, note=L["lightblade_training"]}) -- Lightblade Training Grounds
+nodes[70006000] = TimedEvent({quest=55360, assault=AMA, note=L["unsealed_tomb"]}) -- The Unsealed Tomb
+nodes[71004500] = TimedEvent({quest=55358, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
+nodes[76004700] = TimedEvent({quest=57243, assault=AMA, note=L["slave_camp"]}) -- Amathet Slave Camp
+nodes[84005400] = TimedEvent({quest=55670, assault=AMA, note=L["raiding_fleet"]}) -- Amathet Raiding Fleet
 
--- nodes[????????] = AssaultEvent({quest=nil, assault=AMA}) -- Solar Collector
--- nodes[62002000] = AssaultEvent({quest=nil, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
--- nodes[64003000] = AssaultEvent({quest=nil, assault=AMA}) -- Ritual of Ascension
--- nodes[65003700] = AssaultEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[66005000] = AssaultEvent({quest=nil, assault=AMA}) -- Solar Collector
--- nodes[66005000] = AssaultEvent({quest=nil, assault=AMA}) -- Solar Extractor
--- nodes[71006800] = AssaultEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[78005700] = AssaultEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[80006600] = AssaultEvent({quest=nil, assault=AMA}) -- Solar Extractor
--- nodes[83004800] = AssaultEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[83006100] = AssaultEvent({quest=nil, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
--- nodes[61004700] = AssaultEvent({quest=nil, assault=AMA}) -- The Vir'naal Front
+-- nodes[????????] = TimedEvent({quest=nil, assault=AMA}) -- Solar Collector
+-- nodes[62002000] = TimedEvent({quest=nil, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
+-- nodes[64003000] = TimedEvent({quest=nil, assault=AMA}) -- Ritual of Ascension
+-- nodes[65003700] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
+-- nodes[66005000] = TimedEvent({quest=nil, assault=AMA}) -- Solar Collector
+-- nodes[66005000] = TimedEvent({quest=nil, assault=AMA}) -- Solar Extractor
+-- nodes[71006800] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
+-- nodes[78005700] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
+-- nodes[80006600] = TimedEvent({quest=nil, assault=AMA}) -- Solar Extractor
+-- nodes[83004800] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
+-- nodes[83006100] = TimedEvent({quest=nil, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
+-- nodes[61004700] = TimedEvent({quest=nil, assault=AMA}) -- The Vir'naal Front
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

@@ -13,15 +13,13 @@ local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Supply = ns.node.Supply
+local TimedEvent = ns.node.TimedEvent
 local Treasure = ns.node.Treasure
 
-local Achievement = ns.reward.Achievement
-local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Quest = ns.reward.Quest
 local Toy = ns.reward.Toy
-local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -30,11 +28,6 @@ local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
 
 local MAN, MOG, EMP = 0, 1, 2 -- assaults
-
--------------------------------------------------------------------------------
-
-local AssaultEvent = Class('AssaultEvent', ns.node.Quest, {scale=2, note=''})
-function AssaultEvent.getters:icon () return 'peg_yellow' end
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -82,7 +75,7 @@ function map:enabled (node, coord, minimap)
     if isinstance(node, Supply) then return profile.chest_vale end
     if isinstance(node, Rare) then return profile.rare_vale end
     if isinstance(node, PetBattle) then return profile.pet_vale end
-    if isinstance(node, AssaultEvent) then return profile.event_vale end
+    if isinstance(node, TimedEvent) then return profile.event_vale end
 
     return true
 end
@@ -93,7 +86,7 @@ end
 
 defaults['chest_vale'] = true
 defaults['rare_vale'] = true
-defaults['event_vale'] = false
+defaults['event_vale'] = true
 defaults['pet_vale'] = true
 
 options.groupVale = {
@@ -271,7 +264,6 @@ local MANTR2 = MANChest({quest=58225, icon='chest_purple'})
 local MANTR3 = MANChest({quest=58226, icon='chest_orange'})
 local MANTR4 = MANChest({quest=58227, icon='chest_yellow'})
 local MANTR5 = MANChest({quest=58228, icon='chest_teal'})
---local MANTR6 = MANChest({quest=nil, icon='chest_lime'})
 
 -- quest=58224
 nodes[07223945] = MANTR1
@@ -450,12 +442,13 @@ pnodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
 -------------------------------- ASSAULT EVENTS -------------------------------
 -------------------------------------------------------------------------------
 
-nodes[41354535] = AssaultEvent({quest=58439, assault=EMP, note=L["consuming_maw"]}) -- Consuming Maw
-nodes[42316703] = AssaultEvent({quest=56090, assault=EMP, note=L["protect_stout"]}) -- Protecting the Stout
-nodes[56685933] = AssaultEvent({quest=56178, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
-nodes[76365163] = AssaultEvent({quest=57379, assault=EMP, note=L["infested_statue"]}) -- Infested Jade Statue
-nodes[79233315] = AssaultEvent({quest=56177, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
-nodes[81314952] = AssaultEvent({quest=58442, assault=EMP, note=L["consuming_maw"]}) -- Consuming Maw
+nodes[41354535] = TimedEvent({quest=58439, assault=EMP, note=L["consuming_maw"]}) -- Consuming Maw
+nodes[42316703] = TimedEvent({quest=56090, assault=EMP, note=L["protect_stout"]}) -- Protecting the Stout
+nodes[43624146] = TimedEvent({quest=57146, assault=EMP, note=L["corruption_tear"]}) -- Corruption Tear
+nodes[56685933] = TimedEvent({quest=56178, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
+nodes[76365163] = TimedEvent({quest=57379, assault=EMP, note=L["infested_statue"]}) -- Infested Jade Statue
+nodes[79233315] = TimedEvent({quest=56177, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
+nodes[81314952] = TimedEvent({quest=58442, assault=EMP, note=L["consuming_maw"]}) -- Consuming Maw
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
