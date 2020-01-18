@@ -3,5 +3,5 @@
 TAG=$1
 git archive ${TAG} \
     --prefix HandyNotes_VisionsOfNZoth/ \
-    --output ~/Downloads/${TAG}.zip \
+    --output ~/Downloads/HandyNotes_VisionsOfNZoth_${TAG}.zip \
     *.toc *.xml *.lua core/ libs/ localization/ icons/icons.blp icons/circle.tga icons/line.tga
