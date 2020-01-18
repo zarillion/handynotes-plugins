@@ -460,6 +460,15 @@ nodes[76365163] = TimedEvent({quest=57379, assault=EMP, note=L["infested_statue"
 nodes[79233315] = TimedEvent({quest=56177, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
 nodes[81314952] = TimedEvent({quest=58442, assault=EMP, note=L["consuming_maw"]}) -- Consuming Maw
 
+-- nodes[47005700] = TimedEvent({quest=nil, assault=EMP, note=L["consuming_maw"]}) -- Consuming Maw
+-- nodes[50006600] = TimedEvent({quest=nil, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
+-- nodes[60004300] = TimedEvent({quest=nil, assault=EMP}) -- Bound Guardian
+-- nodes[69002100] = TimedEvent({quest=nil, assault=EMP}) -- Reach of N'Zoth
+-- nodes[69002150] = TimedEvent({quest=nil, assault=EMP}) -- Pulsating Mound
+-- nodes[70005800] = TimedEvent({quest=nil, assault=EMP}) -- Font of Corruption
+-- nodes[74004000] = TimedEvent({quest=nil, assault=EMP}) -- Abyssal Ritual
+-- nodes[80005400] = TimedEvent({quest=nil, assault=EMP}) -- Bound Guardian
+
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
