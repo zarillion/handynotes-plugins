@@ -38,6 +38,24 @@ L["amathet_reliquary"] = "Amathet Reliquary"
 L["cursed_relic"] = "Requires Cursed Relic"
 L["tolvir_relic"] = "Requires Tol'vir Relic"
 
+L["options_toggle_alpaca_uldum"] = "Springfur Alpaca"
+L["options_toggle_alpaca_uldum_desc"] = "Show nodes for Gersahl Shrub and Friendly Alpaca spawns."
+L["options_toggle_assault_events"] = "Assault Events"
+L["options_toggle_assault_events_desc"] = "Show locations for possible assault events."
+
+L["ambush_settlers"] = "Defeat waves of mobs until the event ends."
+L["combust_cocoon"] = "Throw the makeshift firebombs at the cocoons on the ceiling."
+L["obsidian_extract"] = "Destroy every crystal of voidformed obsidian."
+L["purging_flames"] = "Pick up the bodies and toss them into the fire."
+L["dormant_destroyer"] = "Click all the void conduit crystals."
+
+L["beacon_of_sun_king"] = "Rotate all three statues inward."
+L["engine_of_ascen"] = "Move all four statues into the beams."
+L["lightblade_training"] = "Kill instructors and unprovens until Kames, Blade of the Dawn spawns."
+L["raiding_fleet"] = "Burn all of the boats using the quest item."
+L["slave_camp"] = "Open all of the nearby cages."
+L["unsealed_tomb"] = "Protect Heru from waves of mobs."
+
 -------------------------------------------------------------------------------
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
@@ -56,6 +74,11 @@ L["ambered_cache"] = "Ambered Cache"
 L["ambered_coffer"] = "Ambered Coffer"
 L["mogu_plunder"] = "Mogu Plunder"
 L["mogu_strongbox"] = "Mogu Strongbox"
+
+L["consuming_maw"] = "Purify growths and tentacles until kicked out."
+L["infested_statue"] = "Pull all the twitching eyes off the statue."
+L["void_conduit"] = "Click the Void Conduit and squish the watching eyes."
+L["protect_stout"] = "Protect the cave from waves of mobs."
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
