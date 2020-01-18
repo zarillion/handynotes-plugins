@@ -18,6 +18,7 @@ local Supply = ns.node.Supply
 local TimedEvent = ns.node.TimedEvent
 local Treasure = ns.node.Treasure
 
+local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
@@ -519,6 +520,15 @@ nodes[46845804] = TimedEvent({quest=58981, assault=AQR, note=L["chamber_of_the_s
 nodes[37136702] = TimedEvent({quest=58662, assault=AQR, note=L["burrowing_terrors"]}) -- Burrowing Terrors
 nodes[45134306] = TimedEvent({quest=58661, assault=AQR, note=L["burrowing_terrors"]}) -- Burrowing Terrors
 nodes[31614380] = TimedEvent({quest=58660, assault=AQR, note=L["burrowing_terrors"]}) -- Burrowing Terrors
+
+-------------------------------------------------------------------------------
+
+-- local MAWREWARD = {Achievement({id=14161, criteria=1})}
+
+-- nodes[] = TimedEvent({quest=58257, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
+-- nodes[] = TimedEvent({quest=58258, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
+-- nodes[] = TimedEvent({quest=58256, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
+-- nodes[] = TimedEvent({quest=58216, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 
 -------------------------------------------------------------------------------
 

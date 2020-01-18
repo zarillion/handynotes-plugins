@@ -28,7 +28,13 @@ end
 -- /run print(GetAchievementCriteriaInfo(ID, NUM))
 
 local Achievement = Class('Achievement', Reward)
-local GetCriteriaInfo = GetAchievementCriteriaInfoByID
+local GetCriteriaInfo = function (id, criteria)
+    local results = {GetAchievementCriteriaInfoByID(id, criteria)}
+    if not results[1] then
+        results = {GetAchievementCriteriaInfo(id, criteria)}
+    end
+    return unpack(results)
+end
 
 function Achievement:init ()
     -- we allow a single number, table of numbers or table of
@@ -51,7 +57,7 @@ end
 function Achievement:obtained ()
     if select(4, GetAchievementInfo(self.id)) then return true end
     for i, c in ipairs(self.criteria) do
-        local _, _, completed = GetAchievementCriteriaInfoByID(self.id, c.id)
+        local _, _, completed = GetCriteriaInfo(self.id, c.id)
         if not completed then return false end
     end
     return true
