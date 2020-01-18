@@ -42,6 +42,8 @@ L["options_toggle_alpaca_uldum"] = "Springfur Alpaca"
 L["options_toggle_alpaca_uldum_desc"] = "Show locations for Gersahl Shrub and Friendly Alpaca spawns."
 L["options_toggle_assault_events"] = "Assault Events"
 L["options_toggle_assault_events_desc"] = "Show locations for possible assault events."
+L["options_toggle_coffers"] = "Locked Coffers"
+L["options_toggle_coffers_desc"] = "Display locations of locked coffers (lootable once per assault)."
 
 L["ambush_settlers"] = "Defeat waves of mobs until the event ends."
 L["combust_cocoon"] = "Throw the makeshift firebombs at the cocoons on the ceiling."

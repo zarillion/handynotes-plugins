@@ -72,7 +72,7 @@ function map:enabled (node, coord, minimap)
 
     local profile = ns.addon.db.profile
     if isinstance(node, Treasure) then return profile.chest_vale end
-    if isinstance(node, Supply) then return profile.chest_vale end
+    if isinstance(node, Supply) then return profile.coffer_vale end
     if isinstance(node, Rare) then return profile.rare_vale end
     if isinstance(node, PetBattle) then return profile.pet_vale end
     if isinstance(node, TimedEvent) then return profile.event_vale end
@@ -85,6 +85,7 @@ end
 -------------------------------------------------------------------------------
 
 defaults['chest_vale'] = true
+defaults['coffer_vale'] = true
 defaults['rare_vale'] = true
 defaults['event_vale'] = true
 defaults['pet_vale'] = true
@@ -104,12 +105,21 @@ options.chestVale = {
     width = "normal",
 }
 
+options.cofferVale = {
+    type = "toggle",
+    arg = "coffer_vale",
+    name = L["options_toggle_coffers"],
+    desc = L["options_toggle_coffers_desc"],
+    order = 12,
+    width = "normal",
+}
+
 options.rareVale = {
     type = "toggle",
     arg = "rare_vale",
     name = L["options_toggle_rares"],
     desc = L["options_toggle_rares_desc"],
-    order = 12,
+    order = 13,
     width = "normal",
 }
 
@@ -118,7 +128,7 @@ options.eventVale = {
     arg = "event_vale",
     name = L["options_toggle_assault_events"],
     desc = L["options_toggle_assault_events_desc"],
-    order = 13,
+    order = 14,
     width = "normal",
 }
 
@@ -127,7 +137,7 @@ options.petVale = {
     arg = "pet_vale",
     name = L["options_toggle_battle_pets"],
     desc = L["options_toggle_battle_pets_desc"],
-    order = 14,
+    order = 15,
     width = "normal",
 }
 

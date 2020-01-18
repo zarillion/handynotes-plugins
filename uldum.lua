@@ -75,7 +75,7 @@ function map:enabled (node, coord, minimap)
 
     local profile = ns.addon.db.profile
     if isinstance(node, Treasure) then return profile.chest_uldum end
-    if isinstance(node, Supply) then return profile.chest_uldum end
+    if isinstance(node, Supply) then return profile.coffer_uldum end
     if isinstance(node, Rare) then return profile.rare_uldum end
     if isinstance(node, PetBattle) then return profile.pet_uldum end
     if isinstance(node, TimedEvent) then return profile.event_uldum end
@@ -89,6 +89,7 @@ end
 -------------------------------------------------------------------------------
 
 defaults['chest_uldum'] = true
+defaults['coffer_uldum'] = true
 defaults['rare_uldum'] = true
 defaults['event_uldum'] = true
 defaults['pet_uldum'] = true
@@ -109,12 +110,21 @@ options.chestUldum = {
     width = "normal",
 }
 
+options.cofferUldum = {
+    type = "toggle",
+    arg = "coffer_uldum",
+    name = L["options_toggle_coffers"],
+    desc = L["options_toggle_coffers_desc"],
+    order = 2,
+    width = "normal",
+}
+
 options.rareUldum = {
     type = "toggle",
     arg = "rare_uldum",
     name = L["options_toggle_rares"],
     desc = L["options_toggle_rares_desc"],
-    order = 2,
+    order = 3,
     width = "normal",
 }
 
@@ -123,7 +133,7 @@ options.eventUldum = {
     arg = "event_uldum",
     name = L["options_toggle_assault_events"],
     desc = L["options_toggle_assault_events_desc"],
-    order = 3,
+    order = 4,
     width = "normal",
 }
 
@@ -132,7 +142,7 @@ options.petUldum = {
     arg = "pet_uldum",
     name = L["options_toggle_battle_pets"],
     desc = L["options_toggle_battle_pets_desc"],
-    order = 4,
+    order = 5,
     width = "normal",
 }
 
@@ -141,7 +151,7 @@ options.alpacaUldum = {
     arg = "alpaca_uldum",
     name = L["options_toggle_alpaca_uldum"],
     desc = L["options_toggle_alpaca_uldum_desc"],
-    order = 5,
+    order = 6,
     width = "normal",
 }
 
