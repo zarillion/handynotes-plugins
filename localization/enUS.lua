@@ -50,6 +50,9 @@ L["combust_cocoon"] = "Throw the makeshift firebombs at the cocoons on the ceili
 L["obsidian_extract"] = "Destroy every crystal of voidformed obsidian."
 L["purging_flames"] = "Pick up the bodies and toss them into the fire."
 L["dormant_destroyer"] = "Click all the void conduit crystals."
+L["titanus_egg"] = "Destroy the Titanus Egg, then defeat the Titanus Young."
+L["hardened_hive"] = "Pick up the Wastewander Flamethrower and burn all of the egg sacs."
+L["burrowing_terrors"] = "Jump on the Burrowing Scarabs to squish them."
 
 L["beacon_of_sun_king"] = "Rotate all three statues inward."
 L["engine_of_ascen"] = "Move all four statues into the beams."
@@ -82,6 +85,8 @@ L["consuming_maw"] = "Purify growths and tentacles until kicked out."
 L["infested_statue"] = "Pull all the twitching eyes off the statue."
 L["void_conduit"] = "Click the Void Conduit and squish the watching eyes."
 L["protect_stout"] = "Protect the cave from waves of mobs."
+L["bound_guardian"] = "Kill the three Depthsborn Binders to free the Pristine Droplet."
+L["abyssal_ritual"] = "Kill the Drowned Adherents and then the Depths Monstrosity."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------

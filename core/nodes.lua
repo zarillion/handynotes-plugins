@@ -182,9 +182,11 @@ function TimedEvent.getters:icon ()
 end
 
 function TimedEvent:enabled (map, coord, minimap)
-    -- Timed events that are not active today return nil here
-    if not C_TaskQuest.GetQuestTimeLeftMinutes(self.quest[1]) then
-        return false
+    if not ns.ignore_quests then
+        -- Timed events that are not active today return nil here
+        if not C_TaskQuest.GetQuestTimeLeftMinutes(self.quest[1]) then
+            return false
+        end
     end
     return Quest.enabled(self, map, coord, minimap)
 end

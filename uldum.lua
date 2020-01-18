@@ -372,6 +372,7 @@ nodes[31166796] = AQRTR2
 nodes[32764770] = AQRTR2
 nodes[32976010] = AQRTR2
 nodes[33366210] = AQRTR2
+nodes[33476998] = AQRTR2
 -- quest=58140
 nodes[18356130] = AQRTR3
 nodes[19836512] = AQRTR3
@@ -384,6 +385,7 @@ nodes[37484577] = AQRTR4
 nodes[38774014] = AQRTR4
 nodes[39692354] = AQRTR4
 nodes[39754504] = AQRTR4
+nodes[40454422] = AQRTR4
 -- quest=58142
 nodes[28030834] = AQRTR5
 nodes[30671611] = AQRTR5
@@ -510,7 +512,13 @@ nodes[20765913] = TimedEvent({quest=58676, assault=AQR, note=L["dormant_destroye
 nodes[31365562] = TimedEvent({quest=58667, assault=AQR, note=L["obsidian_extract"]}) -- Obsidian Extraction
 nodes[36542060] = TimedEvent({quest=59003, assault=AQR, note=L["combust_cocoon"]}) -- Combustible Cocoons
 nodes[37054778] = TimedEvent({quest=58961, assault=AQR, note=L["ambush_settlers"]}) -- Ambushed Settlers
+nodes[27765714] = TimedEvent({quest=58974, assault=AQR, note=L["ambush_settlers"]}) -- Ambushed Settlers
 nodes[22496418] = TimedEvent({quest=58952, assault=AQR, note=L["purging_flames"]}) -- Purging Flames
+nodes[28336559] = TimedEvent({quest=58990, assault=AQR, note=L["titanus_egg"]}) -- Titanus Egg
+nodes[46845804] = TimedEvent({quest=58981, assault=AQR, note=L["chamber_of_the_sun"]..' '..L["hardened_hive"]}) -- Hardened Hive
+nodes[37136702] = TimedEvent({quest=58662, assault=AQR, note=L["burrowing_terrors"]}) -- Burrowing Terrors
+nodes[45134306] = TimedEvent({quest=58661, assault=AQR, note=L["burrowing_terrors"]}) -- Burrowing Terrors
+nodes[31614380] = TimedEvent({quest=58660, assault=AQR, note=L["burrowing_terrors"]}) -- Burrowing Terrors
 
 -------------------------------------------------------------------------------
 

@@ -379,6 +379,7 @@ nodes[53884179] = EMPTR1
 -- quest=57199 (DONT FORGET TO ADD TO THE POOLS OF POWER MAP BELOW)
 nodes[56113034] = EMPTR2
 nodes[56152716] = EMPTR2
+nodes[58452979] = EMPTR2
 nodes[61422747] = EMPTR2
 nodes[64932682] = EMPTR2
 nodes[67222783] = EMPTR2
@@ -389,6 +390,7 @@ nodes[73242533] = EMPTR2
 nodes[57334165] = EMPTR3
 nodes[59186181] = EMPTR3
 nodes[59605624] = EMPTR3
+nodes[61674641] = EMPTR3
 nodes[62035159] = EMPTR3
 nodes[62585721] = EMPTR3
 nodes[65855969] = EMPTR3
@@ -439,6 +441,7 @@ pmap.intro = nil
 -- quest=57199
 pnodes[09235255] = EMPTR2
 pnodes[09554460] = EMPTR2
+pnodes[15235182] = EMPTR2
 pnodes[23234539] = EMPTR2
 pnodes[32504372] = EMPTR2
 pnodes[38294622] = EMPTR2
@@ -455,19 +458,19 @@ pnodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
 nodes[41354535] = TimedEvent({quest=58439, assault=EMP, note=L["consuming_maw"]}) -- Consuming Maw
 nodes[42316703] = TimedEvent({quest=56090, assault=EMP, note=L["protect_stout"]}) -- Protecting the Stout
 nodes[43624146] = TimedEvent({quest=57146, assault=EMP, note=L["corruption_tear"]}) -- Corruption Tear
+nodes[46365714] = TimedEvent({quest=58438, assault=EMP, note=L["consuming_maw"]}) -- Consuming Maw
+nodes[49356668] = TimedEvent({quest=56074, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
 nodes[56685933] = TimedEvent({quest=56178, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
+nodes[60614333] = TimedEvent({quest=56163, assault=EMP, note=L["bound_guardian"]}) -- Bound Guardian
+nodes[74164004] = TimedEvent({quest=56076, assault=EMP, note=L["abyssal_ritual"]}) -- Abyssal Ritual
 nodes[76365163] = TimedEvent({quest=57379, assault=EMP, note=L["infested_statue"]}) -- Infested Jade Statue
 nodes[79233315] = TimedEvent({quest=56177, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
+nodes[79525433] = TimedEvent({quest=56180, assault=EMP, note=L["bound_guardian"]}) -- Bound Guardian
 nodes[81314952] = TimedEvent({quest=58442, assault=EMP, note=L["consuming_maw"]}) -- Consuming Maw
 
--- nodes[47005700] = TimedEvent({quest=nil, assault=EMP, note=L["consuming_maw"]}) -- Consuming Maw
--- nodes[50006600] = TimedEvent({quest=nil, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
--- nodes[60004300] = TimedEvent({quest=nil, assault=EMP}) -- Bound Guardian
 -- nodes[69002100] = TimedEvent({quest=nil, assault=EMP}) -- Reach of N'Zoth
 -- nodes[69002150] = TimedEvent({quest=nil, assault=EMP}) -- Pulsating Mound
 -- nodes[70005800] = TimedEvent({quest=nil, assault=EMP}) -- Font of Corruption
--- nodes[74004000] = TimedEvent({quest=nil, assault=EMP}) -- Abyssal Ritual
--- nodes[80005400] = TimedEvent({quest=nil, assault=EMP}) -- Bound Guardian
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
