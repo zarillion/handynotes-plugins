@@ -386,7 +386,8 @@ nodes[30671611] = AQRTR5
 nodes[33953036] = AQRTR5
 nodes[35413157] = AQRTR5
 
-nodes[36252324] = Supply({quest=nil, assault=AQR, label=L["infested_strongbox"], note=L["chamber_of_the_moon"]})
+nodes[36252324] = Supply({quest=58137, assault=AQR,
+    label=L["infested_strongbox"], note=L["chamber_of_the_moon"]})
 
 -------------------------------------------------------------------------------
 
