@@ -17,11 +17,12 @@ end
 
 function POI:draw (pin, xy)
     local t = pin.texture
+    local size = pin.minimap and 10 or (pin.parentHeight * 0.015)
     t:SetTexCoord(0, 1, 0, 1)
     t:SetVertexColor(0, 0.5, 1, 1)
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\circle")
     pin:SetAlpha(0.75)
-    pin:SetSize(10, 10)
+    pin:SetSize(size, size)
     return HandyNotes:getXY(xy)
 end
 

@@ -39,7 +39,7 @@ L["cursed_relic"] = "Requires Cursed Relic"
 L["tolvir_relic"] = "Requires Tol'vir Relic"
 
 L["options_toggle_alpaca_uldum"] = "Springfur Alpaca"
-L["options_toggle_alpaca_uldum_desc"] = "Show nodes for Gersahl Shrub and Friendly Alpaca spawns."
+L["options_toggle_alpaca_uldum_desc"] = "Show locations for Gersahl Shrub and Friendly Alpaca spawns."
 L["options_toggle_assault_events"] = "Assault Events"
 L["options_toggle_assault_events_desc"] = "Show locations for possible assault events."
 
@@ -79,6 +79,15 @@ L["consuming_maw"] = "Purify growths and tentacles until kicked out."
 L["infested_statue"] = "Pull all the twitching eyes off the statue."
 L["void_conduit"] = "Click the Void Conduit and squish the watching eyes."
 L["protect_stout"] = "Protect the cave from waves of mobs."
+
+-------------------------------------------------------------------------------
+----------------------------------- VOLDUN ------------------------------------
+-------------------------------------------------------------------------------
+
+L["voldun"] = "Vol'dun"
+L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
+L["options_toggle_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
+L["options_toggle_alpaca_voldun"] = "Elusive Quickhoof"
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------

@@ -109,6 +109,7 @@ function MinimapDataProvider:CreatePin()
     pin:SetParent(Minimap)
     pin:SetWidth(12)
     pin:SetHeight(12)
+    pin.minimap = true
     pin.texture = texture
     texture:SetAllPoints(pin)
     texture:SetTexelSnappingBias(0)
