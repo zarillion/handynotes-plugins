@@ -250,7 +250,7 @@ nodes[38214521] = Rare({id=162172, quest=58694, note=L["aqir_warcaster"], pois={
 }}) -- Aqir Warcaster
 nodes[44854235] = Rare({id=162370, quest=58718, assault={AQR,AMA}}) -- Armagedillo
 nodes[65035129] = Rare({id=152757, quest=55710, assault=AMA, note=L["atekhramun"]}) -- Atekhramun
-nodes[45605777] = Rare({id=162171, quest=58699, assault=AQR, note=L["chamber_of_the_sun"]}) -- Captain Dunewalker
+nodes[45605777] = Rare({id=162171, quest=58699, assault=AQR, note=L["chamber_of_the_sun"]..' '..L["dunewalker"]}) -- Captain Dunewalker
 nodes[75425216] = Rare({id=157167, quest=57280, assault=AMA}) -- Champion Sen-mat
 nodes[30854971] = Rare({id=162147, quest=58696, assault=AQR, rewards={
     Mount({id=1319, item=174769}) -- Malevolent Drone
@@ -365,10 +365,12 @@ local AQRTR5 = AQRChest({quest=58142, icon='chest_teal'})
 -- quest=58138
 nodes[44855696] = AQRTR1
 nodes[45845698] = clone(AQRTR1, {note=L["chamber_of_the_sun"]})
+nodes[46176156] = AQRTR1
 nodes[46525801] = AQRTR1
 nodes[50555882] = AQRTR1
 nodes[51736032] = AQRTR1
 -- quest=58139
+nodes[30526540] = AQRTR2
 nodes[31166796] = AQRTR2
 nodes[32764770] = AQRTR2
 nodes[32976010] = AQRTR2
@@ -393,6 +395,7 @@ nodes[40823893] = AQRTR4
 -- quest=58142
 nodes[28030834] = AQRTR5
 nodes[30671611] = AQRTR5
+nodes[30903046] = AQRTR5
 nodes[33953036] = AQRTR5
 nodes[35413157] = AQRTR5
 nodes[45561320] = AQRTR5
