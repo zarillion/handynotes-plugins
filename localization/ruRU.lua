@@ -32,8 +32,8 @@ L["wastewander"] = "Разделяет появление с Порабощен�
 L["amathet_cache"] = "Тайник Аматетов"
 L["black_empire_cache"] = "Тайник Темной Империи"
 L["black_empire_coffer"] = "Сундук Тайной Империи"
-L["infested_cache"] = "Infested Cache"
-L["infested_strongbox"] = "Infested Strongbox"
+L["infested_cache"] = "Зараженный Тайник"
+L["infested_strongbox"] = "Зараженный Сундук"
 L["amathet_reliquary"] = "Реликвия Аматетов"
 
 L["cursed_relic"] = "Требуется Проклятая Реликвия"
@@ -49,9 +49,9 @@ L["options_toggle_coffers_desc"] = "Display locations of locked coffers (lootabl
 L["ambush_settlers"] = "Defeat waves of mobs until the event ends."
 L["burrowing_terrors"] = "Jump on the Burrowing Scarabs to squish them."
 L["combust_cocoon"] = "Throw the makeshift firebombs at the cocoons on the ceiling."
-L["dormant_destroyer"] = "Click all the void conduit crystals."
+L["dormant_destroyer"] = "Нажмите на Проводники Бездны."
 L["hardened_hive"] = "Pick up the Wastewander Flamethrower and burn all of the egg sacs."
-L["obsidian_extract"] = "Destroy every crystal of voidformed obsidian."
+L["obsidian_extract"] = "Уничтож все Сформированные Бездной Обсидианы."
 L["purging_flames"] = "Pick up the bodies and toss them into the fire."
 L["titanus_egg"] = "Destroy the Titanus Egg, then defeat the Titanus Young."
 
