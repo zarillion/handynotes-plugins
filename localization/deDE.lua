@@ -12,17 +12,17 @@ L["uldum_intro_note"] = "Schließe die Einführungsquestreihe ab, um in Uldum se
 L["aqir_flayer"] = "Teilt sich den spawn mit \"Arbeiter der Aqir\" und \"Schnitter der Aqir\"."
 L["aqir_titanus"] = "Teilt sich den spawn mit \"Goliath der Aqir\"."
 L["aqir_warcaster"] = "Teilt sich den spawn mit \n\"Leerenwirker der Aqir\"."
-L["atekhramun"] = "Zertrete die \"Giftschuppenskorplinge\" in der Nähe bis er erscheint."
+L["atekhramun"] = "Zertrete die Giftschuppenskorplinge in der Umgebung bis Atekhramun erscheint."
 L["chamber_of_the_moon"] = "Im Untergrund in der Kammer des Monds."
 L["chamber_of_the_stars"] = "Im Untergrund in der Kammer der Sterne."
 L["chamber_of_the_sun"] = "Im Untergrund in der Kammer der Sonne."
-L["friendly_alpaca"] = "Füttere das Alpaka sieben Mal mit Gersahlblättern, um es als Reittier zu erlernen. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
+L["friendly_alpaca"] = "Füttere das Alpaka siebenmal mit Gersahlblättern, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
 L["gersahl"] = "Gersahlstrauch"
-L["gersahl_note"] = "Füttere sieben Mal ein freundliches Alpaka damit um es als Reittier zu erlernen. \nBenötigt KEIN Kräuterkunde."
-L["hmiasma"] = "Feed it the surrounding oozes until it activates." --work in progress
+L["gersahl_note"] = "Füttere siebenmal ein freundliches Alpaka damit, um es als Reittier zu erhalten. \n|cffff0000Benötigt KEIN Kräuterkunde.|r"
+L["hmiasma"] = "Töte Schleime in der Umgebung bis Hungerndes Miasma aktiv wird."
 L["left_eye"] = "Lässt die linke Hälfte des Allsehende Augen Spielzeugs fallen."
 L["platform"] = "Erscheint auf der schwebenden Plattform."
-L["reshef"] = "Teilt sich den spawn mit Voidwarped High Guards." --work in progress
+L["reshef"] = "Teilt sich den spawn mit \"Leerenverzerrter oberster Wächter\"."
 L["spirit_cave"] = "Höhleneingang für den Geist des dunklen Ritualisten Zakahn."
 L["tomb_widow"] = "Wenn die weißen Eiersäcke an den Säulen vorhanden sind, töte die unsichtbaren \"Gruftspinnen\", um sie zu beschwören."
 L["uatka"] = "Klick zusammen mit zwei anderen Spielern auf jeweils ein  Mysteriöses Gerät. \nBenötigt ein \"Sonnenberührtes Amulett\" aus einem \"Reliquiar der Amathet\"."
@@ -31,12 +31,35 @@ L["wastewander"] = "Teilt sich den spawn mit \"Befallener Wüstenwanderer\"."
 L["amathet_cache"] = "Truhe der Amathet"
 L["black_empire_cache"] = "Truhe des Schwarzen Imperiums"
 L["black_empire_coffer"] = "Kiste des Schwarzen Imperiums"
-L["infested_cache"] = "Befallene Truhe" --check for correctness
-L["infested_strongbox"] = "Befallene Schatulle" --check for correctness
+L["infested_cache"] = "Befallene Truhe"
+L["infested_strongbox"] = "Befallene Schließkassette"
 L["amathet_reliquary"] = "Reliquiar der Amathet"
 
 L["cursed_relic"] = "Benötigt Verfluchtes Relikt"
 L["tolvir_relic"] = "Benötigt Tol'virrelikt"
+
+L["options_toggle_alpaca_uldum"] = "Freundliches Alpaka"
+L["options_toggle_alpaca_uldum_desc"] = "Zeigt Positionen für Gersahlstrauch und Freundliches Alpaka."
+L["options_toggle_assault_events"] = "Angriffevents"
+L["options_toggle_assault_events_desc"] = "Zeigt mögliche Positionen für Angriffevents"
+L["options_toggle_coffers"] = "Verschlossene Kisten"
+L["options_toggle_coffers_desc"] = "Zeigt die Positionen von Verschlossene Kisten (einmal pro Angriff plünderbar)."
+
+L["ambush_settlers"] = "Besiege Wellen von Gegner bis das Event endet."
+L["combust_cocoon"] = "Werfe die Feuerbomben auf die Kokons an der Decke." --check for correctness
+L["obsidian_extract"] = "Zerstöre jeden Leerengestaltenobsidian Kristall."
+L["purging_flames"] = "Hebe die Körper auf und werfe sie ins Feuer."
+L["dormant_destroyer"] = "Zerstöre jeden Leerenleitung Kristall."
+L["titanus_egg"] = "Zerstöre das Titanusei und besiege dann das Titanusjungtier."
+L["hardened_hive"] = "Hebe den Flammenwerfer der Wüstenwanderer auf und brenne alle Eiersäcke nieder."
+L["burrowing_terrors"] = "Springe auf Grabende Skarabäen um sie zu zerquetschen."
+
+L["beacon_of_sun_king"] = "Drehe alle drei Statuen nach innen."
+L["engine_of_ascen"] = "Bewege alle vier Statuen in die Strahlen."
+L["lightblade_training"] = "Töte Lichtklingenausbilder und Ungeprüfter der Amathet bis Kames, Klinge der Dämmerung erscheint."
+L["raiding_fleet"] = "Verbrenne alle Boote mit dem Questgegenstand."
+L["slave_camp"] = "Öffne alle Käfige in der Nähe."
+L["unsealed_tomb"] = "Beschütze Heru vor Wellen von Gegnern."
 
 -------------------------------------------------------------------------------
 ------------------------------------ VALE -------------------------------------
@@ -50,12 +73,29 @@ L["guolai"] = "In den Guo-Lai Hallen."
 L["jadec"] = "In den Guo-Lai Hallen. Geh am ende der Treppe nach links."
 L["pools_of_power"] = "Im Becken der Macht. \nEingang bei der Golden Pagode (57.4 38.0)."
 L["right_eye"] = "Lässt die rechte Hälfte des Allsehende Augen Spielzeugs fallen."
-L["tisiphon"] = "Klick auf Danielles Glücksangelrute."
+L["tisiphon"] = "Klicke auf Danielles Glücksangelrute."
 
 L["ambered_cache"] = "Bernsteinerne Truhe" --check for correctness
 L["ambered_coffer"] = "Bernsteinerne Kiste" --check for correctness
 L["mogu_plunder"] = "Beute der Mogu" --check for correctness
-L["mogu_strongbox"] = "Schatulle der Mogu" --check for correctness
+L["mogu_strongbox"] = "Schließkassette der Mogu" --check for correctness
+
+L["corruption_tear"] = "Nehme das Titanenleuchtfeuer auf und läutere einen Verderbnisriss ohne das die Augen dich treffen."
+L["consuming_maw"] = "Reinige Wucherungen und Tentakel bis du herausgeschleudert wirst."
+L["infested_statue"] = "Ziehe alle Zuckenden Augen von der Statue."
+L["void_conduit"] = "Klicke auf die Leerenleitung und zerquetsche die Wachsamen Augen."
+L["protect_stout"] = "Beschütze die Höhle vor Wellen von Gegnern."
+L["bound_guardian"] = "Töte drei Depthsborn Binders to free the Pristine Droplet."
+L["abyssal_ritual"] = "Töte die Drowned Adherents and then the Depths Monstrosity."
+
+-------------------------------------------------------------------------------
+----------------------------------- VOLDUN ------------------------------------
+-------------------------------------------------------------------------------
+
+L["voldun"] = "Vol'dun"
+L["elusive_alpaca"] = "Füttere das Alpaka einmal mit Gemischtes grünes Küstenblattgemüse, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
+L["options_toggle_alpaca_voldun_desc"] = "Zeigt die Positionen für Schlüpfriger Flinkhuf an."
+L["options_toggle_alpaca_voldun"] = "Schlüpfriger Flinkhuf"
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
@@ -155,7 +195,7 @@ L["options_toggle_battle_pets_desc"] = "Zeigt Standorte von Kampfhaustiertrainer
 L["options_toggle_battle_pets"] = "Kampfhaustiere"
 L["options_toggle_caves_desc"] = "Zeigt Höhleneingänge für andere Symbole an"
 L["options_toggle_caves"] = "Höhlen"
-L["options_toggle_chests_desc"] = "Zeigt die Positionen von Truhen an (täglich plünderbar)."
+L["options_toggle_chests_desc"] = "Zeigt die Positionen von Truhen an \n(täglich plünderbar)."
 L["options_toggle_chests"] = "Truhen"
 L["options_toggle_misc"] = "Sonstiges"
 L["options_toggle_npcs"] = "NPCs"
