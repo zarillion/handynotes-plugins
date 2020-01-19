@@ -20,22 +20,46 @@ L["friendly_alpaca"] = "在一个位置只出现10分钟，然后在一个较长
 L["gersahl"] = "基萨尔野菜"
 L["gersahl_note"] = "用于喂食友善的羊驼，可以获得坐骑：春袭羊驼。不需要草药学即可采摘。模型较小，可被草药学追踪，建议调低环境细节和地表景观两项设置参数以防伤眼"
 L["hmiasma"] = "喂食它周围的软泥直到启动。"
-L["left_eye"] = "放下全视之眼玩具的左半部分（原文，笔者也不明白，待更新）"
+L["left_eye"] = "掉落全视双眼玩具的左半部分"
 L["platform"] = "刷新在浮空平台顶部。"
 L["reshef"] = "与Voidwarped High Guards(待翻译)共享刷新点。"
 L["spirit_cave"] = "黑暗仪祭师的洞穴入口。"
+L["tomb_widow"] = "当柱子上出现白色卵囊时，杀死看不见的蜘蛛召唤"
 L["uatka"] = "需要三个人分别点击神秘的装置，消耗一个日灼护符，出自阿玛塞特圣箱。注意：一个人也可以点击，护符并不返还，别问我怎么知道的"
 L["wastewander"] = "与Wastewander Hosts(待翻译)共享刷新点。"
 
-L["amathet_cache"] = "阿玛赛特宝箱"
+L["amathet_cache"] = "阿玛赛特之箱"
 L["black_empire_cache"] = "黑暗帝国宝箱"
 L["black_empire_coffer"] = "黑暗帝国宝匣"
-L["infested_cache"] = "Infested Cache"
-L["infested_strongbox"] = "Infested Strongbox"
+L["infested_cache"] = "感染宝箱"
+L["infested_strongbox"] = "感染的保险箱"
 L["amathet_reliquary"] = "阿玛赛特圣箱"
 
-L["cursed_relic"] = "需要虚曲圣物"
+L["cursed_relic"] = "需要诅咒圣物"
 L["tolvir_relic"] = "需要托维尔圣物"
+
+L["options_toggle_alpaca_uldum"] = "春袭羊驼"
+L["options_toggle_alpaca_uldum_desc"] = "显示友善的羊驼的位置"
+L["options_toggle_assault_events"] = "突袭事件"
+L["options_toggle_assault_events_desc"] = "显示可能的突袭事件的位置"
+L["options_toggle_coffers"] = "上锁的箱子"
+L["options_toggle_coffers_desc"] = "显示上锁的箱子（每次突袭拾取一次）"
+
+L["ambush_settlers"] = "保护NPC"
+L["combust_cocoon"] = "Throw the makeshift firebombs at the cocoons on the ceiling."
+L["obsidian_extract"] = "Destroy every crystal of voidformed obsidian."
+L["purging_flames"] = "Pick up the bodies and toss them into the fire."
+L["dormant_destroyer"] = "Click all the void conduit crystals."
+L["titanus_egg"] = "摧毁巨虫之卵，然后击杀大怪。注意：击杀中间的巨虫之卵！不然把旁边的卵给杀了，出现的小怪伤害极高且会不断击飞和击晕！"
+L["hardened_hive"] = "拾取废土喷火器然后烧毁所有的虫卵。废土喷火器在地上，略微有点费眼。"
+L["burrowing_terrors"] = "跳上挖洞的圣甲虫将它们压扁，注意：一定要跳！"
+
+L["beacon_of_sun_king"] = "向内旋转三个雕像"
+L["engine_of_ascen"] = "将四个雕像分别挡住激光"
+L["lightblade_training"] = "杀死所有场上小怪直到精英出现"
+L["raiding_fleet"] = "使用任务物品烧掉所有船只"
+L["slave_camp"] = "打开所有奴隶笼子"
+L["unsealed_tomb"] = "保护NPC"
 
 -------------------------------------------------------------------------------
 ------------------------------------ VALE -------------------------------------
@@ -48,13 +72,30 @@ L["big_blossom_mine"] = "在矿洞里面，入口在东北方向。"
 L["guolai"] = "Inside Guo-Lai Halls."
 L["jadec"] = "Inside Guo-Lai Halls. Go left at the bottom of the stairs."
 L["pools_of_power"] = "在能量池中，入口在鎏金亭（地图中间雕像）。"
-L["right_eye"] = "放下全视之眼玩具的右半部分（原文，笔者也不明白，待更新）"
-L["tisiphon"] = "Click on Danielle's Lucky Fishing Rod."
+L["right_eye"] = "掉落全视双眼玩具的右半部分"
+L["tisiphon"] = "点击丹妮尔的好运鱼竿"
 
 L["ambered_cache"] = "Ambered Cache"
 L["ambered_coffer"] = "Ambered Coffer"
 L["mogu_plunder"] = "Mogu Plunder"
 L["mogu_strongbox"] = "Mogu Strongbox"
+
+L["corruption_tear"] = "场地周围有个宝珠（泰坦信标），持有宝珠与场中泪滴交互，别让旋转的眼睛碰到你"
+L["consuming_maw"] = "净化触手和和卵泡，直到被吐出去"
+L["infested_statue"] = "把眼睛从雕像上挪开"
+L["void_conduit"] = "点击柱子然后进去踩眼睛"
+L["protect_stout"] = "保护NPC"
+L["bound_guardian"] = "杀怪救NPC"
+L["abyssal_ritual"] = "杀完小怪杀大怪"
+
+-------------------------------------------------------------------------------
+----------------------------------- VOLDUN ------------------------------------
+-------------------------------------------------------------------------------
+
+L["voldun"] = "沃顿"
+L["elusive_alpaca"] = "将\"海滩叶蔬沙拉\"喂食\"轻盈的迅蹄驼\"以获得坐骑。羊驼刷新时间很长，每次存在10分钟。大部分8.0的食物供应商（比如雷龙）会出售该食物。"
+L["options_toggle_alpaca_voldun_desc"] = "显示轻盈的迅蹄驼的位置"
+L["options_toggle_alpaca_voldun"] = "轻盈的迅蹄驼"
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
