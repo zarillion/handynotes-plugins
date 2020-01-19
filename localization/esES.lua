@@ -16,7 +16,7 @@ L["atekhramun"] = "Aplasta los Miniescorpión Escama Venenosa hasta que aparezca
 L["chamber_of_the_moon"] = "Subterráneo en la Cámara de la Luna."
 L["chamber_of_the_stars"] = "Subterráneo en la Cámara de las Estrellas."
 L["chamber_of_the_sun"] = "Subterráneo en la Cámara del Sol."
-L["dunewalker"] = "Click the Essence of the Sun on the platform above to release him."
+L["dunewalker"] = "Para poder atacarle hay que quitarle el escudo de inmunidad. Para ello, en la plataforma de encima haz click en la Esencia del Sol."
 L["friendly_alpaca"] = "Alimenta a la alpaca con Verduras Gersahl siete veces para aprenderla como montura. Aparece durante 10 minutos en una localización, después tiene un largo tiempo de reaparición."
 L["gersahl_note"] = "Alimenta a una Alpaca Amistosa siete veces para una montura. No requiere Herboristería."
 L["gersahl"] = "Arbusto Gershal"
@@ -32,8 +32,8 @@ L["wastewander"] = "Comparte lugar de aparición con Huésped Vagayermos."
 L["amathet_cache"] = "Alijo Amathet"
 L["black_empire_cache"] = "Alijo del Imperio Negro"
 L["black_empire_coffer"] = "Black Empire Coffer"
-L["infested_cache"] = "Infested Cache"
-L["infested_strongbox"] = "Infested Strongbox"
+L["infested_cache"] = "Alijo Infestado"
+L["infested_strongbox"] = "Caja fuerte Infestada"
 L["amathet_reliquary"] = "Relicario Amathet"
 
 L["cursed_relic"] = "Requiere una Reliquia Maldita"
@@ -87,7 +87,7 @@ L["consuming_maw"] = "Purifica crecimientos y tentáculos hasta que te saque fue
 L["corruption_tear"] = "Coge el Faro Titánico y cierra la Rasgadura de Corrupción sin dejar que los ojos giratorios te golpeen."
 L["infested_statue"] = "Arranca los Ojos crispados hasta llevarlos a 15 metros de la estatua."
 L["protect_stout"] = "Protege la cueva de las oleadas de bichos."
-L["pulse_mound"] = "Kill the surrounding mobs, then the Living Growth."
+L["pulse_mound"] = "Mata los tentáculos y ojos de alrededor y entonces, mata al Bubón Viviente."
 L["void_conduit"] = "Haz click en el Conducto del Vacío y aplasta los ojos del suelo hasta que te saque fuera."
 
 -------------------------------------------------------------------------------
