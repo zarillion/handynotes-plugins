@@ -87,6 +87,7 @@ L["consuming_maw"] = "Purify growths and tentacles until kicked out."
 L["corruption_tear"] = "Grab the Titanic Beacon and close the tear without letting the whirling eyes hit you."
 L["infested_statue"] = "Pull all the twitching eyes off the statue."
 L["protect_stout"] = "Protect the cave from waves of mobs."
+L["pulse_mound"] = "Kill the surrounding mobs, then the Living Growth."
 L["void_conduit"] = "Click the Void Conduit and squish the watching eyes."
 
 -------------------------------------------------------------------------------
