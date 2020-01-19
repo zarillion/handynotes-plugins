@@ -16,6 +16,7 @@ L["atekhramun"] = "Aplasta los Miniescorpión Escama Venenosa hasta que aparezca
 L["chamber_of_the_moon"] = "Subterráneo en la Cámara de la Luna."
 L["chamber_of_the_stars"] = "Subterráneo en la Cámara de las Estrellas."
 L["chamber_of_the_sun"] = "Subterráneo en la Cámara del Sol."
+L["dunewalker"] = "Click the Essence of the Sun on the platform above to release him."
 L["friendly_alpaca"] = "Alimenta a la alpaca con Verduras Gersahl siete veces para aprenderla como montura. Aparece durante 10 minutos en una localización, después tiene un largo tiempo de reaparición."
 L["gersahl_note"] = "Alimenta a una Alpaca Amistosa siete veces para una montura. No requiere Herboristería."
 L["gersahl"] = "Arbusto Gershal"
