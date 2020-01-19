@@ -39,8 +39,8 @@ L["amathet_reliquary"] = "Реликвия Аматетов"
 L["cursed_relic"] = "Требуется Проклятая Реликвия"
 L["tolvir_relic"] = "Требуется Реликвия Тол'виров"
 
-L["options_toggle_alpaca_uldum"] = "Springfur Alpaca"
-L["options_toggle_alpaca_uldum_desc"] = "Show locations for Gersahl Shrub and Friendly Alpaca spawns."
+L["options_toggle_alpaca_uldum"] = "Курчавая Альпака"
+L["options_toggle_alpaca_uldum_desc"] = "Показать в локации места появления Побега герсали и Дружелюбной альпаки."
 L["options_toggle_assault_events"] = "Assault Events"
 L["options_toggle_assault_events_desc"] = "Show locations for possible assault events."
 L["options_toggle_coffers"] = "Locked Coffers"
@@ -93,10 +93,10 @@ L["void_conduit"] = "Click the Void Conduit and squish the watching eyes."
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
-L["voldun"] = "Vol'dun"
-L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
-L["options_toggle_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
-L["options_toggle_alpaca_voldun"] = "Elusive Quickhoof"
+L["voldun"] = "Вол'дун"
+L["elusive_alpaca"] = "Скормите Салат из приморской зелени, альпаке, чтобы выучить ее как маунта. Появляется в течение 10 минут в одном месте, затем долгое возрождение."
+L["options_toggle_alpaca_voldun_desc"] = "Показать места появления Неуловимого быстронога."
+L["options_toggle_alpaca_voldun"] = "Неуловимый быстроног"
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
