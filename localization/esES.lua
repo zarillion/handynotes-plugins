@@ -87,6 +87,7 @@ L["consuming_maw"] = "Purifica crecimientos y tentáculos hasta que te saque fue
 L["corruption_tear"] = "Coge el Faro Titánico y cierra la Rasgadura de Corrupción sin dejar que los ojos giratorios te golpeen."
 L["infested_statue"] = "Arranca los Ojos crispados hasta llevarlos a 15 metros de la estatua."
 L["protect_stout"] = "Protege la cueva de las oleadas de bichos."
+L["pulse_mound"] = "Kill the surrounding mobs, then the Living Growth."
 L["void_conduit"] = "Haz click en el Conducto del Vacío y aplasta los ojos del suelo hasta que te saque fuera."
 
 -------------------------------------------------------------------------------
