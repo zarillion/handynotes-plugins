@@ -7,54 +7,97 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["uldum"] = "奧丹姆"
-L["uldum_intro_note"] = "完成介紹性任務鏈，以解鎖奧丹姆中的稀有物品，寶藏和攻擊任務。"
+L["uldum_intro_note"] = "完成前置引導任務鏈，以解鎖奧丹姆中的稀有物品，寶藏和攻擊任務。"
 
 L["aqir_flayer"] = "與亞基蜂巢工人以及亞基撕掠者共享出生點。"
 L["aqir_titanus"] = "與亞基巨甲蟲共享出生點。"
 L["aqir_warcaster"] = "與亞基虛空法師共享出生點。"
-L["atekhramun"] = "壓碎附近的小毒蠍直到出現。"
+L["atekhramun"] = "壓碎附近的毒鱗幼蠍直到出現。"
 L["chamber_of_the_moon"] = "在月亮之間地下。"
 L["chamber_of_the_stars"] = "在眾星之間地下。"
 L["chamber_of_the_sun"] = "在日陽之間裡面。"
-L["friendly_alpaca"] = "餵七次羊駝吉薩爾草，以作為坐騎收藏。 在一個位置出現10分鐘，然後重生。"
-L["gersahl"] = "吉薩爾灌木叢"
+L["dunewalker"] = "在上面的平台上點擊“太陽精華”以釋放他。"
+L["friendly_alpaca"] = "餵七次羊駝吉薩爾草，以作為坐騎收藏。 在一個位置出現10分鐘，然後很久後才重生。"
 L["gersahl_note"] = "餵給友善的羊駝七次獲得坐騎。 不需要草藥。"
+L["gersahl"] = "吉薩爾草叢"
 L["hmiasma"] = "餵食它周圍的軟泥，直到它啟動。"
 L["left_eye"] = "放下全視之眼玩具的左半部分。"
 L["platform"] = "出生在浮動平台頂部。"
 L["reshef"] = "與虛空扭曲高階護衛共享出生點。"
 L["spirit_cave"] = "黑暗祭儀師扎坎恩之魂的洞穴入口。"
+L["tomb_widow"] = "當柱子上出現白色卵囊時，殺死隱形的蜘蛛來召喚。"
 L["uatka"] = "與其他兩個玩家一起，點擊每個神秘設備。 需要來自阿瑪賽特聖匣的觸日者護符。"
 L["wastewander"] = "與廢土漫遊者隊長共享出生點。"
 
 L["amathet_cache"] = "阿瑪賽特寶箱"
 L["black_empire_cache"] = "黑暗帝國寶箱"
 L["black_empire_coffer"] = "黑暗帝國大寶箱"
-L["infested_cache"] = "蟲群寶箱"
-L["infested_strongbox"] = "蟲群保險箱"
+L["infested_cache"] = "被感染的儲藏箱"
+L["infested_strongbox"] = "被感染的保險箱"
 L["amathet_reliquary"] = "阿瑪賽特聖匣"
 
 L["cursed_relic"] = "需要詛咒聖物"
 L["tolvir_relic"] = "需要托維爾聖物"
+
+L["options_toggle_alpaca_uldum"] = "躍毛羊駝"
+L["options_toggle_alpaca_uldum_desc"] = "顯示吉薩爾草叢以及友善的羊駝出生位置。"
+L["options_toggle_assault_events"] = "突擊事件"
+L["options_toggle_assault_events_desc"] = "顯示突擊事件可能的位置。"
+L["options_toggle_coffers"] = "上鎖的大寶箱"
+L["options_toggle_coffers_desc"] = "顯示上鎖的大寶箱的位置 (每次突擊只能拾取一次)。"
+
+L["ambush_settlers"] = "打敗一波波的怪物，直到事件結束。"
+L["combust_cocoon"] = "將臨時的炸彈扔在天花板上的繭上。"
+L["obsidian_extract"] = "摧毀所有虛空形成的黑曜石晶體。"
+L["purging_flames"] = "撿起屍體，扔進火裡。"
+L["dormant_destroyer"] = "點擊所有虛空導管晶體。"
+L["titanus_egg"] = "消滅巨怪卵，然後擊敗精英怪年輕巨蟲。"
+L["hardened_hive"] = "拿起地上的廢土火焰噴射器並燃燒所有的卵囊。"
+L["burrowing_terrors"] = "跳起來將穴居甲蟲它們壓扁。"
+
+L["beacon_of_sun_king"] = "向內旋轉所有三個雕像。"
+L["engine_of_ascen"] = "將所有四個雕像移入光束。"
+L["lightblade_training"] = "殺死導師和新進者，直到『拂曉之刃』卡姆斯出生為止。"
+L["raiding_fleet"] = "使用任務物品燃燒所有船隻。"
+L["slave_camp"] = "打開附近的所有籠子。"
+L["unsealed_tomb"] = "保護黑魯免遭怪物的襲擊。"
 
 -------------------------------------------------------------------------------
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
 L["vale"] = "恆春谷"
-L["vale_intro_note"] = "完成介紹性任務鏈，以解鎖恆春谷中的稀有物品，寶藏和攻擊任務。"
+L["vale_intro_note"] = "完成前置引導任務鏈，以解鎖恆春谷中的稀有物品，寶藏和攻擊任務。"
 
 L["big_blossom_mine"] = "在繁花礦坑內，入口在東北。"
-L["guolai"] = "在郭萊大廳中。"
-L["jadec"] = "在郭萊大廳中，在樓梯底部向左走。"
+L["guolai"] = "在郭萊院中。"
+L["jadec"] = "在郭萊院中，在樓梯底部向左走。"
 L["pools_of_power"] = "在能量之池中，入口在黃金寶塔。"
 L["right_eye"] = "放下全視之眼玩具的右半部分。"
-L["tisiphon"] = "單擊丹妮爾的幸運釣魚竿。"
+L["tisiphon"] = "點擊丹妮爾的幸運釣竿。"
 
 L["ambered_cache"] = "琥珀寶箱"
 L["ambered_coffer"] = "琥珀大寶箱"
 L["mogu_plunder"] = "魔古掠奪品"
 L["mogu_strongbox"] = "魔古保險箱"
+
+L["abyssal_ritual"] = "殺死沉沒的擁護者然後殺死深淵巨怪。"
+L["bound_guardian"] = "殺死三隻淵裔束縛者以釋放純淨水滴。"
+L["consuming_maw"] = "淨化生長物和觸手，直到被踢出。"
+L["corruption_tear"] = "抓著一旁的巨大信標，在不讓旋轉的眼睛撞到你的情況下關閉裂口。"
+L["infested_statue"] = "將所有扭曲之眼從雕像上移開。"
+L["protect_stout"] = "保護洞穴免遭怪物的襲擊。"
+L["pulse_mound"] = "殺死周圍的生物，然後殺死成長活體"
+L["void_conduit"] = "點擊虛空導管並擠壓觀察的眼睛。"
+
+-------------------------------------------------------------------------------
+----------------------------------- VOLDUN ------------------------------------
+-------------------------------------------------------------------------------
+
+L["voldun"] = "沃魯敦"
+L["elusive_alpaca"] = "餵羊駝濱海綜合綠色蔬菜以學習坐騎。 在一個位置出現10分鐘，然後很久才重生。"
+L["options_toggle_alpaca_voldun_desc"] = "顯示玄渺快蹄出現的位置。"
+L["options_toggle_alpaca_voldun"] = "玄渺快蹄"
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
