@@ -85,6 +85,7 @@ L["abyssal_ritual"] = "Mata a los Partidarios Ahogados y después a la Monstruos
 L["bound_guardian"] = "Mata a los tres Vinculador Natoabisal y libera a la Gota Prístina."
 L["consuming_maw"] = "Purifica crecimientos y tentáculos hasta que te saque fuera."
 L["corruption_tear"] = "Coge el Faro Titánico y cierra la Rasgadura de Corrupción sin dejar que los ojos giratorios te golpeen."
+L["font_corruption"] = "Gira las estatuas de los Mogu hasta que ambos rayos lleguen a cada lado de la consola. Entonces, haz click en ella."
 L["infested_statue"] = "Arranca los Ojos crispados hasta llevarlos a 15 metros de la estatua."
 L["protect_stout"] = "Protege la cueva de las oleadas de bichos."
 L["pulse_mound"] = "Mata los tentáculos y ojos de alrededor y entonces, mata al Bubón Viviente."
