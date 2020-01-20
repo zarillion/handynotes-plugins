@@ -85,6 +85,7 @@ L["abyssal_ritual"] = "Kill the Drowned Adherents and then the Depths Monstrosit
 L["bound_guardian"] = "Kill the three Depthsborn Binders to free the Pristine Droplet."
 L["consuming_maw"] = "Purify growths and tentacles until kicked out."
 L["corruption_tear"] = "Grab the Titanic Beacon and close the tear without letting the whirling eyes hit you."
+L["font_corruption"] = "Rotate the mogu statues until both beams reach the back, then click the console."
 L["infested_statue"] = "Pull all the twitching eyes off the statue."
 L["protect_stout"] = "Protect the cave from waves of mobs."
 L["pulse_mound"] = "Kill the surrounding mobs, then the Living Growth."

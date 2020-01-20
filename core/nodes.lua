@@ -156,10 +156,15 @@ PetBattle.group = "pet_battles"
 -------------------------------------------------------------------------------
 
 local Quest = Class('Quest', Node, {note=AVAILABLE_QUEST})
+local QUEST_IDS = {}
 
 function Quest:init ()
     Node.init(self)
     C_QuestLog.GetQuestInfo(self.quest[1]) -- fetch info from server
+
+    for i, id in ipairs(self.quest) do
+        QUEST_IDS[id] = true
+    end
 end
 
 function Quest.getters:icon ()
@@ -169,6 +174,15 @@ end
 function Quest.getters:label ()
     return C_QuestLog.GetQuestInfo(self.quest[1])
 end
+
+-- When a quest node is turned in, force a refresh. Not all quests give loot.
+ns.addon:RegisterEvent('QUEST_TURNED_IN', function (_, id)
+    if QUEST_IDS[id] then
+        C_Timer.After(1, function()
+            ns.addon:Refresh()
+        end)
+    end
+end)
 
 -------------------------------------------------------------------------------
 -------------------------------- TIMED EVENT --------------------------------

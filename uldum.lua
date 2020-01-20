@@ -259,7 +259,7 @@ nodes[49363822] = Rare({id=158594, quest=57672, assault=EMP}) -- Doomsayer Vathi
 nodes[48657067] = Rare({id=158491, quest=57662, assault=EMP, pois={
     Path({53287082, 54066945, 53446815, 49866959, 48097382, 46537211, 46257561, 44217851})
 }}) -- Falconer Amenophis
-nodes[75056816] = Rare({id=157120, quest=57258, assault=AMA}) -- Fangtaker Orsa
+nodes[75056816] = Rare({id=157120, quest=57258, assault={AQR, AMA}}) -- Fangtaker Orsa
 nodes[55085317] = Rare({id=158633, quest=57680, assault=EMP, rewards={
     Toy({item=175140}) -- All-Seeing Eye
 }, note=L["left_eye"]}) -- Gaze of N'Zoth
@@ -370,6 +370,7 @@ nodes[46525801] = AQRTR1
 nodes[50555882] = AQRTR1
 nodes[51736032] = AQRTR1
 -- quest=58139
+nodes[27476410] = AQRTR2
 nodes[30526540] = AQRTR2
 nodes[31166796] = AQRTR2
 nodes[32764770] = AQRTR2
@@ -518,7 +519,7 @@ nodes[75914194] = AMACOFF
 nodes[34392928] = TimedEvent({quest=58679, assault=AQR, note=L["dormant_destroyer"]}) -- Dormant Destroyer
 nodes[20765913] = TimedEvent({quest=58676, assault=AQR, note=L["dormant_destroyer"]}) -- Dormant Destroyer
 nodes[31365562] = TimedEvent({quest=58667, assault=AQR, note=L["obsidian_extract"]}) -- Obsidian Extraction
-nodes[36542060] = TimedEvent({quest=59003, assault=AQR, note=L["combust_cocoon"]}) -- Combustible Cocoons
+nodes[36542060] = TimedEvent({quest=59003, assault=AQR, note=L["chamber_of_the_moon"]..' '..L["combust_cocoon"]}) -- Combustible Cocoons
 nodes[37054778] = TimedEvent({quest=58961, assault=AQR, note=L["ambush_settlers"]}) -- Ambushed Settlers
 nodes[27765714] = TimedEvent({quest=58974, assault=AQR, note=L["ambush_settlers"]}) -- Ambushed Settlers
 nodes[22496418] = TimedEvent({quest=58952, assault=AQR, note=L["purging_flames"]}) -- Purging Flames
