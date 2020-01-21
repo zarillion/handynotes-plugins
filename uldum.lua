@@ -337,6 +337,7 @@ nodes[49328235] = Rare({id=158636, quest=57688, assault=EMP, note=L["platform"],
     Toy({item=169303}) -- Hell-Bent Bracers
 }}) -- The Grand Executor
 nodes[84324729] = Rare({id=157188, quest=57285, assault=AMA, note=L["tomb_widow"]}) -- The Tomb Widow
+nodes[60014937] = Rare({id=158595, quest=57673, assault=EMP}) -- Thoughtstealer Vos
 nodes[67486382] = Rare({id=152788, quest=55716, assault=AMA, note=L["uatka"]}) -- Uat-ka the Sun's Wrath
 nodes[33592569] = Rare({id=162170, quest=58702, assault=AQR}) -- Warcaster Xeshro
 nodes[79505217] = Rare({id=151852, quest=55461, assault=AMA, pois={
@@ -441,6 +442,7 @@ nodes[47507687] = EMPTR5
 nodes[51707135] = EMPTR5
 nodes[51777298] = EMPTR5
 nodes[52197757] = EMPTR5
+nodes[55397860] = EMPTR5
 
 local EMPCOFF = Supply({quest=nil, assault=EMP, note=L["cursed_relic"],
     label=L["black_empire_coffer"]})
@@ -536,10 +538,17 @@ nodes[31614380] = TimedEvent({quest=58660, assault=AQR, note=L["burrowing_terror
 
 -- local MAWREWARD = {Achievement({id=14161, criteria=1})}
 
--- nodes[] = TimedEvent({quest=58257, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
+nodes[55382132] = TimedEvent({quest=58257, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 -- nodes[] = TimedEvent({quest=58258, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 -- nodes[] = TimedEvent({quest=58256, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 -- nodes[] = TimedEvent({quest=58216, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
+
+nodes[48518489] = TimedEvent({quest=57522, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
+nodes[49443920] = TimedEvent({quest=58276, assault=EMP, note=L["marat_flames"]}) -- Mar'at In Flames
+nodes[59022780] = TimedEvent({quest=57588, assault=EMP, pois={
+    Path({58102290, 58422547, 59022780, 59602914, 60063133, 60753296, 60453467})
+}}) -- Spirit Drinker
+nodes[62037070] = TimedEvent({quest=58271, assault=EMP, note=L["voidflame_ritual"]}) -- Voidflame Ritual
 
 -------------------------------------------------------------------------------
 

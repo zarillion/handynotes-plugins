@@ -48,12 +48,15 @@ L["options_toggle_coffers_desc"] = "Display locations of locked coffers (lootabl
 
 L["ambush_settlers"] = "Defeat waves of mobs until the event ends."
 L["burrowing_terrors"] = "Jump on the Burrowing Scarabs to squish them."
+L["call_of_void"] = "Cleanse the Ritual Pylon."
 L["combust_cocoon"] = "Throw the makeshift firebombs at the cocoons on the ceiling."
 L["dormant_destroyer"] = "Click all the void conduit crystals."
 L["hardened_hive"] = "Pick up the Wastewander Flamethrower and burn all of the egg sacs."
+L["marat_flames"] = "Grab water buckets and douse the flames."
 L["obsidian_extract"] = "Destroy every crystal of voidformed obsidian."
 L["purging_flames"] = "Pick up the bodies and toss them into the fire."
 L["titanus_egg"] = "Destroy the Titanus Egg, then defeat the Titanus Young."
+L["voidflame_ritual"] = "Extinguish all of the voidtouched candles."
 
 L["beacon_of_sun_king"] = "Rotate all three statues inward."
 L["engine_of_ascen"] = "Move all four statues into the beams."

@@ -459,6 +459,10 @@ pnodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
 -------------------------------- ASSAULT EVENTS -------------------------------
 -------------------------------------------------------------------------------
 
+
+
+-------------------------------------------------------------------------------
+
 local MAWREWARD = {Achievement({id=14161, criteria=1})}
 
 nodes[41354535] = TimedEvent({quest=58439, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
