@@ -323,7 +323,7 @@ nodes[21236105] = Rare({id=162140, quest=58697, assault=AQR, rewards={
     Path({22486168, 21316279, 19896347, 19356128, 20345804, 21435846, 24325860, 24866015, 24406194, 22486168})
 }}) -- Skikx'traz
 nodes[66676804] = Rare({id=162372, quest=58715, assault={AQR, AMA}, pois={
-    POI({58038282, 66676804, 70997407})
+    POI({58606160, 58038282, 66676804, 70997407})
 }}) -- Spirit of Cyrus the Black
 nodes[49944011] = Rare({id=162352, quest=58716, assault={AQR, AMA}, note=L["in_water_cave"]}) -- Spirit of Dark Ritualist Zakahn
 nodes[52154012] = Cave({parent=nodes[49944011], assault={AQR, AMA}, label=L["spirit_cave"]}) -- Entrance
@@ -363,6 +363,7 @@ local AQRTR4 = AQRChest({quest=58141, icon='chest_yellow'})
 local AQRTR5 = AQRChest({quest=58142, icon='chest_teal'})
 
 -- quest=58138
+nodes[43925868] = clone(AQRTR1, {note=L["chamber_of_the_sun"]})
 nodes[44855696] = AQRTR1
 nodes[45845698] = clone(AQRTR1, {note=L["chamber_of_the_sun"]})
 nodes[46176156] = AQRTR1
@@ -383,6 +384,7 @@ nodes[19836512] = AQRTR3
 nodes[20585920] = AQRTR3
 nodes[23055936] = AQRTR3
 nodes[24525507] = AQRTR3
+nodes[24606387] = AQRTR3
 nodes[26066468] = AQRTR3
 -- quest=58141
 nodes[36032024] = AQRTR4
@@ -397,6 +399,7 @@ nodes[40823893] = AQRTR4
 nodes[28030834] = AQRTR5
 nodes[30671611] = AQRTR5
 nodes[30903046] = AQRTR5
+nodes[31521515] = AQRTR5
 nodes[33953036] = AQRTR5
 nodes[35413157] = AQRTR5
 nodes[45561320] = AQRTR5
