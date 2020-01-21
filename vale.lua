@@ -325,6 +325,7 @@ nodes[20441477] = MOGTR1
 nodes[27061822] = MOGTR1
 nodes[23850753] = MOGTR1
 -- quest=57208
+nodes[18292766] = MOGTR2
 nodes[20462833] = MOGTR2
 nodes[24773504] = MOGTR2
 nodes[30283762] = MOGTR2
@@ -339,6 +340,7 @@ nodes[32721893] = MOGTR3
 nodes[15496436] = MOGTR4
 nodes[16704468] = MOGTR4
 nodes[17356860] = MOGTR4
+nodes[18787398] = MOGTR4
 nodes[21356297] = MOGTR4
 nodes[29774890] = MOGTR4
 -- quest=57212
@@ -352,8 +354,12 @@ nodes[33876683] = MOGTR6
 nodes[37666584] = MOGTR6
 nodes[38417028] = MOGTR6
 
-nodes[10782831] = Supply({quest=57214, assault=MOG, label=L["mogu_strongbox"]})
-nodes[43134209] = Supply({quest=57214, assault=MOG, label=L["mogu_strongbox"]})
+local MOGCOFF = Supply({quest=57214, assault=MOG, label=L["mogu_strongbox"],
+    sublabel=L["mogu_relic"]})
+
+nodes[10782831] = MOGCOFF
+nodes[20006321] = MOGCOFF
+nodes[43134209] = MOGCOFF
 
 -------------------------------------------------------------------------------
 
@@ -459,7 +465,12 @@ pnodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
 -------------------------------- ASSAULT EVENTS -------------------------------
 -------------------------------------------------------------------------------
 
-
+nodes[31332897] = TimedEvent({quest=57087, assault=MOG, note=L["colored_flames"]}) -- Baruk Obliterator
+nodes[25791737] = TimedEvent({quest=57339, assault=MOG, note=L["guolai"]..' '..L["construction_ritual"]}) -- Construction Ritual
+nodes[14582315] = TimedEvent({quest=57158, assault=MOG, note=L["electric_empower"]}) -- Electric Empowerment
+nodes[22423650] = TimedEvent({quest=58367, assault=MOG, note=L["empowered_demo"]}) -- Empowered Demolisher
+nodes[33477097] = TimedEvent({quest=58334, assault=MOG, note=L["in_flames"]}) -- Mistfall In Flames
+nodes[47662165] = TimedEvent({quest=57101, assault=MOG, note=L["colored_flames"]}) -- Zan-Tien Serpent Cage
 
 -------------------------------------------------------------------------------
 
