@@ -55,7 +55,7 @@ L["hardened_hive"] = "拿起地上的廢土火焰噴射器並燃燒所有的卵�
 L["in_flames"] = "拿起水桶，撲滅火焰。"
 L["obsidian_extract"] = "摧毀所有虛空形成的黑曜石晶體。"
 L["purging_flames"] = "撿起屍體，扔進火裡。"
-L["titanus_egg"] = "消滅巨怪卵，然後擊敗精英怪年幼巨蟲，拉去旁邊讓NPC幫忙"
+L["titanus_egg"] = "消滅巨怪卵，然後擊敗精英怪年幼巨蟲，打不過就拉去旁邊階梯下讓NPC幫忙。"
 L["voidflame_ritual"] = "熄滅所有虛空之觸蠟燭。(暫譯)"
 
 L["beacon_of_sun_king"] = "向內旋轉所有三個雕像。"
