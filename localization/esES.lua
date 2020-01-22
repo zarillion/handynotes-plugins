@@ -31,7 +31,7 @@ L["wastewander"] = "Comparte lugar de aparición con Huésped Vagayermos."
 
 L["amathet_cache"] = "Alijo Amathet"
 L["black_empire_cache"] = "Alijo del Imperio Negro"
-L["black_empire_coffer"] = "Black Empire Coffer"
+L["black_empire_coffer"] = "Arca del Imperio Negro"
 L["infested_cache"] = "Alijo Infestado"
 L["infested_strongbox"] = "Caja fuerte Infestada"
 L["amathet_reliquary"] = "Relicario Amathet"
