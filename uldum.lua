@@ -206,9 +206,6 @@ end)
 
 nodes[64572623] = Rare({id=157170, quest=57281, assault=AMA, note=L["chamber_of_the_stars"]}) -- Acolyte Taspu
 nodes[66817436] = Rare({id=158557, quest=57669, assault=EMP}) -- Actiss the Deceiver
--- nodes[] = Rare({id=157593, quest=nil, rewards={
---     Pet({id=2851, item=174478}) -- Wicked Lurker
--- }}) -- Amalgamation of Flesh
 nodes[69714973] = Rare({id=151883, quest=55468, assault=AMA, pois={
     Path({68645049, 69714973, 70955041, 71425210, 71005388, 69855463, 68695394, 68225217, 68645049})
 }}) -- Anaua
@@ -434,6 +431,7 @@ nodes[62588188] = EMPTR3
 nodes[62977610] = EMPTR3
 nodes[70217325] = EMPTR3
 -- quest=57627
+nodes[59867422] = EMPTR4
 nodes[60757493] = EMPTR4
 nodes[62157346] = EMPTR4
 nodes[62737184] = EMPTR4
@@ -442,6 +440,7 @@ nodes[67167394] = EMPTR4
 -- quest=57635
 nodes[45697961] = EMPTR5
 nodes[47507687] = EMPTR5
+nodes[49398584] = EMPTR5
 nodes[51707135] = EMPTR5
 nodes[51777298] = EMPTR5
 nodes[52197757] = EMPTR5
@@ -542,18 +541,23 @@ nodes[31614380] = TimedEvent({quest=58660, assault=AQR, note=L["burrowing_terror
 -- local MAWREWARD = {Achievement({id=14161, criteria=1})}
 
 nodes[55382132] = TimedEvent({quest=58257, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
--- nodes[] = TimedEvent({quest=58258, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
+nodes[62407931] = TimedEvent({quest=58258, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 -- nodes[] = TimedEvent({quest=58256, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 -- nodes[] = TimedEvent({quest=58216, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 
 nodes[48518489] = TimedEvent({quest=57522, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
+nodes[52015072] = TimedEvent({quest=57543, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
 nodes[49443920] = TimedEvent({quest=58276, assault=EMP, note=L["in_flames"]}) -- Mar'at In Flames
+nodes[59767241] = TimedEvent({quest=57429, assault=EMP, note=L["pyre_amalgamated"], rewards={
+    Pet({id=2851, item=174478}) -- Wicked Lurker
+}}) -- Pyre of the Amalgamated One (also 58330?)
 -- nodes[60005506] = TimedEvent({quest=, assault=EMP, pois={
 --     Path({60315245, 59785364, 60005506, 60385696, 60495866})
 -- }}) -- Spirit Drinker (57456, 57590, 57591, 57586, 57587)
 nodes[59022780] = TimedEvent({quest=57588, assault=EMP, pois={
     Path({58102290, 58422547, 59022780, 59602914, 60063133, 60753296, 60453467})
 }}) -- Spirit Drinker
+nodes[50568833] = TimedEvent({quest=57359, assault=EMP, note=L["summoning_ritual"]}) -- Summoning Ritual
 nodes[62037070] = TimedEvent({quest=58271, assault=EMP, note=L["voidflame_ritual"]}) -- Voidflame Ritual
 
 -------------------------------------------------------------------------------

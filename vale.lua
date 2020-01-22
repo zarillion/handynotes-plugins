@@ -17,6 +17,7 @@ local TimedEvent = ns.node.TimedEvent
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Quest = ns.reward.Quest
@@ -229,7 +230,7 @@ nodes[12183091] = Rare({id=157160, quest=57345, assault=MOG, rewards={
     Path({13132578, 11833049, 08953570})
 }}) -- Houndlord Ren
 nodes[18426557] = Rare({id=160930, quest=58312, assault=MAN}) -- Infused Amber Ooze
-nodes[17201162] = Rare({id=160968, quest=58295, assault=MOG, note=L["jadec"]}) -- Jade Colossus
+nodes[17201162] = Rare({id=160968, quest=58295, assault=MOG, note=L["guolai_left"]}) -- Jade Colossus
 nodes[26691061] = Rare({id=157290, quest=57350, assault=MOG, note=L["in_small_cave"]}) -- Jade Watcher
 nodes[17850918] = Rare({id=160920, quest=58310, assault=MAN}) -- Kal'tik the Blight
 nodes[45985858] = Rare({id=157266, quest=57341, assault=EMP, pois={
@@ -238,7 +239,10 @@ nodes[45985858] = Rare({id=157266, quest=57341, assault=EMP, pois={
 nodes[25673816] = Rare({id=160867, quest=58302, assault=MAN}) -- Kzit'kovok
 nodes[14813374] = Rare({id=160922, quest=58311, assault=MAN}) -- Needler Zhesalla
 nodes[90314599] = Rare({id=154106, quest=56094, assault=EMP}) -- Quid
-nodes[21901232] = Rare({id=157162, quest=57346, assault=MOG, note=L["guolai"]}) -- Rei Lun
+nodes[21901232] = Rare({id=157162, quest=57346, assault=MOG, note=L["guolai_center"], rewards={
+    Item({item=174230}), -- Pristine Cloud Serpent Scale
+    Mount({id=1313, item=174649}) -- Rajani Warserpent
+}}) -- Rei Lun
 nodes[64175175] = Rare({id=154490, quest=56302, assault=EMP}) -- Rijz'x the Devourer
 nodes[46425710] = Rare({id=156083, quest=56954, assault=MOG}) -- Sanguifang
 nodes[17873752] = Rare({id=157291, quest=57351, assault=MOG}) -- Spymaster Hul'ach
@@ -322,11 +326,13 @@ local MOGTR6 = MOGChest({quest=57213, icon='chest_lime'})
 nodes[13500720] = MOGTR1
 nodes[20221140] = MOGTR1
 nodes[20441477] = MOGTR1
-nodes[27061822] = MOGTR1
 nodes[23850753] = MOGTR1
+nodes[26001261] = MOGTR1
+nodes[27061822] = MOGTR1
 -- quest=57208
 nodes[18292766] = MOGTR2
 nodes[20462833] = MOGTR2
+nodes[21982793] = MOGTR2
 nodes[24773504] = MOGTR2
 nodes[30283762] = MOGTR2
 nodes[30983065] = MOGTR2
@@ -336,6 +342,7 @@ nodes[19281942] = MOGTR3
 nodes[20311853] = MOGTR3
 nodes[21271385] = MOGTR3
 nodes[27981820] = MOGTR3
+nodes[31241393] = MOGTR3
 nodes[32721893] = MOGTR3
 -- quest=57211
 nodes[15496436] = MOGTR4
@@ -349,6 +356,7 @@ nodes[42436854] = MOGTR5
 nodes[44186853] = MOGTR5
 nodes[47937093] = MOGTR5
 nodes[48466580] = MOGTR5
+nodes[51146319] = MOGTR5
 -- quest=57213
 nodes[32097104] = MOGTR6
 nodes[33346985] = MOGTR6
@@ -361,8 +369,9 @@ local MOGCOFF = Supply({quest=57214, assault=MOG, label=L["mogu_strongbox"],
 
 nodes[10782831] = MOGCOFF
 nodes[20006321] = MOGCOFF
-nodes[24430269] = clone(MOGCOFF, {note=L["guolai"]})
+nodes[24430269] = clone(MOGCOFF, {note=L["guolai_center"]})
 nodes[43134209] = MOGCOFF
+nodes[50182143] = MOGCOFF
 
 -------------------------------------------------------------------------------
 
@@ -469,10 +478,16 @@ pnodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
 -------------------------------------------------------------------------------
 
 nodes[31332897] = TimedEvent({quest=57087, assault=MOG, note=L["colored_flames"]}) -- Baruk Obliterator
-nodes[25791737] = TimedEvent({quest=57339, assault=MOG, note=L["guolai"]..' '..L["construction_ritual"]}) -- Construction Ritual
+nodes[19167199] = TimedEvent({quest=57272, assault=MOG, note=L["colored_flames"]}) -- Bloodbound Effigy
+nodes[25791737] = TimedEvent({quest=57339, assault=MOG, note=L["guolai_right"]..' '..L["construction_ritual"]}) -- Construction Ritual
 nodes[14582315] = TimedEvent({quest=57158, assault=MOG, note=L["electric_empower"]}) -- Electric Empowerment
 nodes[22423650] = TimedEvent({quest=58367, assault=MOG, note=L["empowered_demo"]}) -- Empowered Demolisher
+nodes[26661700] = TimedEvent({quest=58370, assault=MOG, note=L["empowered_demo"]}) -- Empowered Demolisher
 nodes[33477097] = TimedEvent({quest=58334, assault=MOG, note=L["in_flames"]}) -- Mistfall In Flames
+nodes[50236341] = TimedEvent({quest=57299, assault=MOG, note=L["mystery_sacro"]}) -- Mysterious Sarcophagus
+nodes[24824769] = TimedEvent({quest=57323, assault=MOG, note=L["serpent_binding"]}) -- Serpent Binding
+nodes[19870750] = TimedEvent({quest=57049, assault=MOG, note=L["guolai_left"]..' '..L["vault_of_souls"]}) -- Vault of Souls
+nodes[21411413] = TimedEvent({quest=57023, assault=MOG, note=L["guolai_center"]..' '..L["weighted_artifact"]}) -- Weighted Mogu Artifact
 nodes[47662165] = TimedEvent({quest=57101, assault=MOG, note=L["colored_flames"]}) -- Zan-Tien Serpent Cage
 
 -------------------------------------------------------------------------------
