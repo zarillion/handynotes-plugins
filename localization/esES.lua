@@ -48,7 +48,7 @@ L["options_toggle_coffers_desc"] = "Muestra las localizaciones de los alijos cer
 
 L["ambush_settlers"] = "Mata oleadas de bichos hasta que acabe el evento."
 L["burrowing_terrors"] = "Salta encima de los Escarabajos Excavadores para aplastarlos."
-L["call_of_void"] = "Limpia el Ritual del Pilón."
+L["call_of_void"] = "Haz click para purificar el Pilón del Ritual."
 L["combust_cocoon"] = "Lanza las bombas de fuego a las crisálidas del techo."
 L["dormant_destroyer"] = "Haz click en todos los cristales de Conducto del Vacío."
 L["hardened_hive"] = "Coge el Lanzallmas Vagayermos y quema todos los sacos de huevos."
