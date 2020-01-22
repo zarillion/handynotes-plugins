@@ -335,6 +335,7 @@ nodes[33503481] = MOGTR2
 nodes[19281942] = MOGTR3
 nodes[20311853] = MOGTR3
 nodes[21271385] = MOGTR3
+nodes[27981820] = MOGTR3
 nodes[32721893] = MOGTR3
 -- quest=57211
 nodes[15496436] = MOGTR4
@@ -350,6 +351,7 @@ nodes[47937093] = MOGTR5
 nodes[48466580] = MOGTR5
 -- quest=57213
 nodes[32097104] = MOGTR6
+nodes[33346985] = MOGTR6
 nodes[33876683] = MOGTR6
 nodes[37666584] = MOGTR6
 nodes[38417028] = MOGTR6
@@ -359,6 +361,7 @@ local MOGCOFF = Supply({quest=57214, assault=MOG, label=L["mogu_strongbox"],
 
 nodes[10782831] = MOGCOFF
 nodes[20006321] = MOGCOFF
+nodes[24430269] = clone(MOGCOFF, {note=L["guolai"]})
 nodes[43134209] = MOGCOFF
 
 -------------------------------------------------------------------------------
