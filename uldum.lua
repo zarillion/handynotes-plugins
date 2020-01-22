@@ -550,7 +550,7 @@ nodes[48518489] = TimedEvent({quest=57522, assault=EMP, note=L["call_of_void"]})
 nodes[49443920] = TimedEvent({quest=58276, assault=EMP, note=L["in_flames"]}) -- Mar'at In Flames
 -- nodes[60005506] = TimedEvent({quest=, assault=EMP, pois={
 --     Path({60315245, 59785364, 60005506, 60385696, 60495866})
--- }}) -- Spirit Drinker
+-- }}) -- Spirit Drinker (57456, 57590, 57591, 57586, 57587)
 nodes[59022780] = TimedEvent({quest=57588, assault=EMP, pois={
     Path({58102290, 58422547, 59022780, 59602914, 60063133, 60753296, 60453467})
 }}) -- Spirit Drinker
