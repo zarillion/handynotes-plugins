@@ -262,7 +262,7 @@ nodes[66732812] = Rare({id=154332, quest=56183, assault=EMP, note=L["pools_of_po
 nodes[52956225] = Rare({id=154495, quest=56303, assault=EMP, rewards={
     Toy({item=175140}), -- All-Seeing Eye
     Pet({id=2846, item=174474}) -- Corrupted Tentacle
-}, note=L["right_eye"]}) -- Will of N'Zoth
+}, note=L["left_eye"]}) -- Will of N'Zoth
 nodes[53794889] = Rare({id=157443, quest=57358, assault=MOG}) -- Xiln the Mountain
 nodes[70954053] = Rare({id=154087, quest=56084, assault=EMP}) -- Zror'um the Infinite
 
