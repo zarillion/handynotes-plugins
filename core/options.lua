@@ -37,7 +37,8 @@ ns.optionDefaults = {
 
         -- development
         development = false,
-        show_debug = false,
+        show_debug_map = false,
+        show_debug_quest = false,
         force_nodes = false
     },
 };

@@ -41,13 +41,13 @@ local nodes = map.nodes
 local function GetAssault()
     local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
     if textures and textures[1].fileDataIDs[1] == 3155826 then
-        ns.debug('Vale assault: MAN')
+        ns.debugMap('Vale assault: MAN')
         return MAN -- left
     elseif textures and textures[1].fileDataIDs[1] == 3155832 then
-        ns.debug('Vale assault: MOG')
+        ns.debugMap('Vale assault: MOG')
         return MOG -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3155841 then
-        ns.debug('Vale assault: EMP')
+        ns.debugMap('Vale assault: EMP')
         return EMP -- right
     end
 end
@@ -483,9 +483,11 @@ nodes[25791737] = TimedEvent({quest=57339, assault=MOG, note=L["guolai_right"]..
 nodes[14582315] = TimedEvent({quest=57158, assault=MOG, note=L["electric_empower"]}) -- Electric Empowerment
 nodes[22423650] = TimedEvent({quest=58367, assault=MOG, note=L["empowered_demo"]}) -- Empowered Demolisher
 nodes[26661700] = TimedEvent({quest=58370, assault=MOG, note=L["empowered_demo"]}) -- Empowered Demolisher
+nodes[20421247] = TimedEvent({quest=57171, assault=MOG, note=L["goldbough_guardian"]}) -- Goldbough Guardian
 nodes[33477097] = TimedEvent({quest=58334, assault=MOG, note=L["in_flames"]}) -- Mistfall In Flames
 nodes[50236341] = TimedEvent({quest=57299, assault=MOG, note=L["mystery_sacro"]}) -- Mysterious Sarcophagus
 nodes[24824769] = TimedEvent({quest=57323, assault=MOG, note=L["serpent_binding"]}) -- Serpent Binding
+nodes[17054571] = TimedEvent({quest=57256, assault=MOG, note=L["stormchosen_arena"]}) -- Stormchosen Arena
 nodes[19870750] = TimedEvent({quest=57049, assault=MOG, note=L["guolai_left"]..' '..L["vault_of_souls"]}) -- Vault of Souls
 nodes[21411413] = TimedEvent({quest=57023, assault=MOG, note=L["guolai_center"]..' '..L["weighted_artifact"]}) -- Weighted Mogu Artifact
 nodes[47662165] = TimedEvent({quest=57101, assault=MOG, note=L["colored_flames"]}) -- Zan-Tien Serpent Cage

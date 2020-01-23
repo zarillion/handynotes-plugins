@@ -43,13 +43,13 @@ local nodes = map.nodes
 local function GetAssault ()
     local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
     if textures and textures[1].fileDataIDs[1] == 3165083 then
-        ns.debug('Uldum assault: AQR')
+        ns.debugMap('Uldum assault: AQR')
         return AQR -- left
     elseif textures and textures[1].fileDataIDs[1] == 3165092 then
-        ns.debug('Uldum assault: EMP')
+        ns.debugMap('Uldum assault: EMP')
         return EMP -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3165098 then
-        ns.debug('Uldum assault: AMA')
+        ns.debugMap('Uldum assault: AMA')
         return AMA -- right
     end
 end
@@ -435,6 +435,7 @@ nodes[60576213] = EMPTR3
 nodes[61778172] = EMPTR3
 nodes[62588188] = EMPTR3
 nodes[62977610] = EMPTR3
+nodes[64436501] = EMPTR3
 nodes[70217325] = EMPTR3
 -- quest=57627
 nodes[59867422] = EMPTR4
@@ -452,7 +453,7 @@ nodes[51777298] = EMPTR5
 nodes[52197757] = EMPTR5
 nodes[55397860] = EMPTR5
 
-local EMPCOFF = Supply({quest=nil, assault=EMP, note=L["cursed_relic"],
+local EMPCOFF = Supply({quest=57628, assault=EMP, note=L["cursed_relic"],
     label=L["black_empire_coffer"]})
 
 nodes[71657334] = EMPCOFF
@@ -548,21 +549,27 @@ nodes[31614380] = TimedEvent({quest=58660, assault=AQR, note=L["burrowing_terror
 
 nodes[55382132] = TimedEvent({quest=58257, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 nodes[62407931] = TimedEvent({quest=58258, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
--- nodes[] = TimedEvent({quest=58256, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
+nodes[46793424] = TimedEvent({quest=58256, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 -- nodes[] = TimedEvent({quest=58216, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 
 nodes[48518489] = TimedEvent({quest=57522, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
+nodes[53677575] = TimedEvent({quest=57585, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
 nodes[52015072] = TimedEvent({quest=57543, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
+nodes[59014663] = TimedEvent({quest=57580, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
+nodes[66476806] = TimedEvent({quest=57582, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
 nodes[49443920] = TimedEvent({quest=58276, assault=EMP, note=L["in_flames"]}) -- Mar'at In Flames
 nodes[59767241] = TimedEvent({quest=57429, assault=EMP, note=L["pyre_amalgamated"], rewards={
     Pet({id=2851, item=174478}) -- Wicked Lurker
 }}) -- Pyre of the Amalgamated One (also 58330?)
--- nodes[60005506] = TimedEvent({quest=, assault=EMP, pois={
---     Path({60315245, 59785364, 60005506, 60385696, 60495866})
--- }}) -- Spirit Drinker (57456, 57590, 57591, 57586, 57587)
+nodes[47174044] = TimedEvent({quest=57456, assault=EMP, pois={
+    Path({47944278, 47084245, 47254116, 47053964, 46583882, 46943783})
+}}) -- Spirit Drinker
 nodes[59022780] = TimedEvent({quest=57588, assault=EMP, pois={
     Path({58102290, 58422547, 59022780, 59602914, 60063133, 60753296, 60453467})
 }}) -- Spirit Drinker
+-- nodes[60005506] = TimedEvent({quest=, assault=EMP, pois={
+--     Path({60315245, 59785364, 60005506, 60385696, 60495866})
+-- }}) -- Spirit Drinker (57590, 57591, 57586, 57587)
 nodes[50568833] = TimedEvent({quest=57359, assault=EMP, note=L["summoning_ritual"]}) -- Summoning Ritual
 nodes[62037070] = TimedEvent({quest=58271, assault=EMP, note=L["voidflame_ritual"]}) -- Voidflame Ritual
 

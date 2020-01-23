@@ -25,14 +25,6 @@ ns.status = {
 ----------------------------------- HELPERS -----------------------------------
 -------------------------------------------------------------------------------
 
-local function debug(...)
-    if (Addon.db.profile.show_debug) then
-        print(...)
-    end
-end
-
-ns.debug = debug
-
 local DropdownMenu = CreateFrame("Frame", ADDON_NAME.."DropdownMenu");
 DropdownMenu.displayMode = "MENU";
 local function initializeDropdownMenu (button, level, mapID, coord)
@@ -206,7 +198,7 @@ function Addon:RegisterWithHandyNotes()
             return nil, nil, nil, nil
         end
         function Addon:GetNodes2(mapID, _minimap)
-            debug('Loading nodes for map: '..mapID..' (minimap='..tostring(_minimap)..')')
+            ns.debugMap('Loading nodes for map: '..mapID..' (minimap='..tostring(_minimap)..')')
             map = ns.maps[mapID]
             minimap = _minimap
 

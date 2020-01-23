@@ -32,12 +32,19 @@ local function BootstrapDevelopmentEnvironment()
         desc = L["options_dev_settings_desc"],
         inline = true,
         args = {
-            show_debug = {
+            show_debug_map = {
                 type = "toggle",
-                arg = "show_debug",
-                name = L["options_toggle_show_debug"],
-                desc = L["options_toggle_show_debug_desc"],
+                arg = "show_debug_map",
+                name = L["options_toggle_show_debug_map"],
+                desc = L["options_toggle_show_debug_map_desc"],
                 order = 1,
+            },
+            show_debug_quest = {
+                type = "toggle",
+                arg = "show_debug_quest",
+                name = L["options_toggle_show_debug_quest"],
+                desc = L["options_toggle_show_debug_quest_desc"],
+                order = 2,
             },
             force_nodes = {
                 type = "toggle",
@@ -62,14 +69,14 @@ local function BootstrapDevelopmentEnvironment()
                 for id = 0, max_quest_id do
                     local s = IsQuestFlaggedCompleted(id)
                     if s ~= quests[id] then
-                        ns.debug('Quest', id, 'changed:', tostring(quests[id]), '=>', tostring(s))
+                        ns.debugQuest('Quest', id, 'changed:', tostring(quests[id]), '=>', tostring(s))
                         quests[id] = s
                     end
                 end
                 lastCheck = GetTime()
             end
         end)
-        ns.debug('Quest IDs are now being tracked')
+        ns.debugQuest('Quest IDs are now being tracked')
     end)
 
     -- Listen for LCTRL + LALT when the world map is open to display nodes
@@ -100,6 +107,24 @@ local function BootstrapDevelopmentEnvironment()
         end
     end)
 end
+
+-------------------------------------------------------------------------------
+
+local function debug(...)
+    if (ns.addon.db.profile.development) then print(...) end
+end
+
+local function debugMap(...)
+    if (ns.addon.db.profile.show_debug_map) then print(...) end
+end
+
+local function debugQuest(...)
+    if (ns.addon.db.profile.show_debug_quest) then print(...) end
+end
+
+ns.debug = debug
+ns.debugMap = debugMap
+ns.debugQuest = debugQuest
 
 -------------------------------------------------------------------------------
 
