@@ -268,9 +268,7 @@ nodes[55475169] = Rare({id=158633, quest=57680, assault=EMP, pois={
     Toy({item=175140}) -- All-Seeing Eye
 }, note=L["gaze_of_nzoth"]..' '..L["right_eye"]}) -- Gaze of N'Zoth
 nodes[54694317] = Rare({id=158597, quest=57675, assault=EMP}) -- High Executor Yothrim
-nodes[52398000] = Rare({id=158528, quest=57664, assault=EMP, note=L["reshef"], pois={
-    POI({51568173, 51578293, 53657939, 54147941, 49028263, 49008194}) -- Voidwarped High Guard
-}}) -- High Guard Reshef
+nodes[47507718] = Rare({id=158528, quest=57664, assault=EMP}) -- High Guard Reshef
 nodes[42485873] = Rare({id=162163, quest=58701, assault=AQR, pois={
     Path({42485873, 44396076, 46215988, 46785800, 46465623, 44545616, 43055653, 42485873})
 }}) -- High Priest Ytaessis
@@ -290,6 +288,7 @@ nodes[19755847] = Rare({id=155531, quest=56823, note=L["wastewander"], pois={
 nodes[73908353] = Rare({id=157134, quest=57259, rewards={
     Mount({id=1314, item=174641}) -- Drake of the Four Winds
 }}) -- Ishak of the Four Winds
+nodes[77005000] = Rare({id=152431, quest=nil, assault=AMA, note=L["kanebti"]}) -- Kaneb-ti
 nodes[71237375] = Rare({id=156655, quest=57433, assault=EMP}) -- Korzaran the Slaughterer
 nodes[34681890] = Rare({id=154604, quest=56340, assault=AQR, note=L["chamber_of_the_moon"], rewards={
     Pet({id=2847, item=174475}) -- Rotbreath
@@ -349,11 +348,38 @@ nodes[33592569] = Rare({id=162170, quest=58702, assault=AQR}) -- Warcaster Xeshr
 nodes[79505217] = Rare({id=151852, quest=55461, assault=AMA, pois={
     Path({77755217, 81265217})
 }}) -- Watcher Rehu
--- nodes[] = Rare({id=157473, quest=nil, rewards={
---     Toy({item=174874}) -- Budget K'thir Disguise
--- }}) -- Yiphrim the Will Ravager
+
 nodes[80165708] = Rare({id=157164, quest=57279, assault=AMA}) -- Zealot Tekem
 nodes[39694159] = Rare({id=162141, quest=58695, assault=AQR}) -- Zuythiz
+
+-------------------------------------------------------------------------------
+------------------------------- NEFERSET RARES --------------------------------
+-------------------------------------------------------------------------------
+
+local start = 45009400;
+local function coord(x, y)
+    return start + x*2500000 + y*400;
+end
+
+local NefRare = Class('NefersetRare', Rare, {
+    assault=EMP, note=L["neferset_rare"],
+    pois={POI({50007868, 50568833, 55207930})}
+})
+
+function NefRare:enabled (map, coord, minimap)
+    if not Rare.enabled(self, map, coord, minimap) then return false end
+    -- Only show if the Summoning Ritual event is active or completed
+    return C_TaskQuest.GetQuestTimeLeftMinutes(57359) or IsQuestFlaggedCompleted(57359)
+end
+
+nodes[coord(0, 0)] = NefRare({id=157472, quest=57437}) -- Aphrom the Guise of Madness
+nodes[coord(1, 0)] = NefRare({id=157470, quest=57436}) -- R'aas the Anima Devourer
+nodes[coord(2, 0)] = NefRare({id=157390, quest=57434}) -- R'oyolok the Reality Eater
+nodes[coord(3, 0)] = NefRare({id=157476, quest=57439}) -- Shugshul the Flesh Gorger
+nodes[coord(4, 0)] = NefRare({id=157473, quest=57438, rewards={
+    Toy({item=174874}) -- Budget K'thir Disguise
+}}) -- Yiphrim the Will Ravager
+nodes[coord(5, 0)] = NefRare({id=157469, quest=57435}) -- Zoth'rum the Intellect Pillager
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
