@@ -51,10 +51,13 @@ L["burrowing_terrors"] = "Прыгай на Закапывающихся Ска�
 L["call_of_void"] = "Cleanse the Ritual Pylon."
 L["combust_cocoon"] = "Бросайте самодельные зажигательные бомбы в коконы на потолке."
 L["dormant_destroyer"] = "Нажмите на Проводники Бездны."
+L["executor_nzoth"] = "Kill the Executor of N'Zoth, then destroy the Executor Anchor."
 L["hardened_hive"] = "Возьмите Огнемет Скитальцев Пустыни и сожгите все кладки с яйцами."
 L["in_flames"] = "Grab water buckets and douse the flames."
 L["obsidian_extract"] = "Уничтож все Сформированные Бездной Обсидианы."
 L["purging_flames"] = "Подберите тела и бросьте их в огонь."
+L["pyre_amalgamated"] = "Cleanse the pyre, then kill all amalgamations until the rare spawns."
+L["summoning_ritual"] = "Убейте послушников и закройте портал призыва."
 L["titanus_egg"] = "Уничтожьте Колоссальное яйцо, затем победите Молодого акира-колосса."
 L["voidflame_ritual"] = "Extinguish all of the voidtouched candles."
 
@@ -74,7 +77,9 @@ L["vale_intro_note"] = "Завершите начальную цепочку з�
 
 L["big_blossom_mine"] = "Внутри Рудника Пышного Цветения. Вход на северо-востоке."
 L["guolai"] = "Внутри залов Го-Лай."
-L["jadec"] = "Внутри залов Го-Лай. Идите налево к нижней части лестницы."
+L["guolai_left"] = "Inside Guo-Lai Halls (left passage)."
+L["guolai_center"] = "Inside Guo-Lai Halls (center passage)."
+L["guolai_right"] = "Inside Guo-Lai Halls (right passage)."
 L["pools_of_power"] = "Внутри Источника Силы. Вход в Золотой пагоде."
 L["right_eye"] = "Правая половина игрушки Всевидящие глаза."
 L["tisiphon"] = "Нажмите на счастливую удочку Даниэлы."
@@ -95,9 +100,13 @@ L["electric_empower"] = "Kill the Zan-Tien Callers, then Menek the Infused."
 L["empowered_demo"] = "Close all of the spirit reliquaries."
 L["font_corruption"] = "Rotate the mogu statues until both beams reach the back, then click the console."
 L["infested_statue"] = "Pull all the twitching eyes off the statue."
+L["mystery_sacro"] = "Destroy all the Suspicious Headstones, then kill the Screaming Soul."
 L["protect_stout"] = "Protect the cave from waves of mobs."
 L["pulse_mound"] = "Kill the surrounding mobs, then the Living Growth."
+L["serpent_binding"] = "Kill the Zan-Tien Subjugators, then Haofeng."
+L["vault_of_souls"] = "Open the vault and destroy all the statues."
 L["void_conduit"] = "Click the Void Conduit and squish the watching eyes."
+L["weighted_artifact"] = "Pick up the Oddly Heavy Vase and navigate the maze back to the pedestal. Getting stunned by a statue drops the vase."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
