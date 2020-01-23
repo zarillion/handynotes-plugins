@@ -244,7 +244,9 @@ nodes[21901232] = Rare({id=157162, quest=57346, assault=MOG, note=L["guolai_cent
     Mount({id=1313, item=174649}) -- Rajani Warserpent
 }}) -- Rei Lun
 nodes[64175175] = Rare({id=154490, quest=56302, assault=EMP}) -- Rijz'x the Devourer
-nodes[46425710] = Rare({id=156083, quest=56954, assault=MOG}) -- Sanguifang
+nodes[46425710] = Rare({id=156083, quest=56954, assault=MOG, rewards={
+    Item({item=174071}) -- Sanguifang's Pulsating Canine
+}}) -- Sanguifang
 nodes[17873752] = Rare({id=157291, quest=57351, assault=MOG}) -- Spymaster Hul'ach
 nodes[26057505] = Rare({id=157279, quest=57348, assault=MOG, pois={
     Path({23467717, 25247587, 26837367, 27117143})
