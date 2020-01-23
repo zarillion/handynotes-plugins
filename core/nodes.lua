@@ -236,30 +236,29 @@ function Rare:enabled (map, coord, minimap)
 end
 
 -------------------------------------------------------------------------------
------------------------------------ SUPPLY ------------------------------------
--------------------------------------------------------------------------------
-
-local Supply = Class('Supply', Node)
-
-Supply.icon = "star_chest"
-Supply.scale = 2
-Supply.group = "treasures"
-
--------------------------------------------------------------------------------
 ---------------------------------- TREASURE -----------------------------------
 -------------------------------------------------------------------------------
 
-local Treasure = Class('Treasure', Node)
-
-Treasure.icon = "chest_gray"
-Treasure.scale = 1.3
-Treasure.group = "treasures"
+local Treasure = Class('Treasure', Node, {
+    icon = 'chest_gray',
+    scale = 1.3,
+    group = 'treasures'
+})
 
 function Treasure:enabled (map, coord, minimap)
     local db = ns.addon.db
     if db.profile.always_show_treasures then return true end
     return Node.enabled(self, map, coord, minimap)
 end
+
+-------------------------------------------------------------------------------
+----------------------------------- SUPPLY ------------------------------------
+-------------------------------------------------------------------------------
+
+local Supply = Class('Supply', Treasure, {
+    icon = 'star_chest',
+    scale = 2
+})
 
 -------------------------------------------------------------------------------
 
