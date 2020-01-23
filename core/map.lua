@@ -128,7 +128,7 @@ function MinimapDataProvider:RefreshAllData()
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if node._focus or node._hover then
+        if (node._focus or node._hover) and map:enabled(node, coord, true) then
             for i, poi in ipairs(node.pois or {}) do
                 poi:render(self, map.id)
             end
@@ -187,7 +187,7 @@ function WorldMapDataProvider:RefreshAllData(fromOnShow)
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if node._focus or node._hover then
+        if (node._focus or node._hover) and map:enabled(node, coord, false) then
             for i, poi in ipairs(node.pois or {}) do
                 poi:render(self:GetMap(), WorldMapPinTemplate)
             end

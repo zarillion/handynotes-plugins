@@ -178,9 +178,7 @@ end
 -- When a quest node is turned in, force a refresh. Not all quests give loot.
 ns.addon:RegisterEvent('QUEST_TURNED_IN', function (_, id)
     if QUEST_IDS[id] then
-        C_Timer.After(1, function()
-            ns.addon:Refresh()
-        end)
+        C_Timer.After(1, function() ns.addon:Refresh() end)
     end
 end)
 
