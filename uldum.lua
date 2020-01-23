@@ -264,6 +264,7 @@ nodes[55475169] = Rare({id=158633, quest=57680, assault=EMP, pois={
         55705404, 55835437, 55915107, 55935310, 56425386, 56485353
     })
 }, rewards={
+    Item({item=175142}), -- All-Seeing Right Eye
     Toy({item=175140}) -- All-Seeing Eye
 }, note=L["gaze_of_nzoth"]..' '..L["right_eye"]}) -- Gaze of N'Zoth
 nodes[54694317] = Rare({id=158597, quest=57675, assault=EMP}) -- High Executor Yothrim
