@@ -56,6 +56,7 @@ L["dormant_destroyer"] = "Haz click en todos los cristales de Conducto del Vací
 L["executor_nzoth"] = "Mata el Ejecutor de N'Zoth y, entonces, destruye el Ancla de Ejecutor."
 L["hardened_hive"] = "Coge el Lanzallmas Vagayermos y quema todos los sacos de huevos."
 L["in_flames"] = "Coge los cubos de agua y apaga las llamas."
+L["monstrous_summon"] = "Mata a todos los Abyssal Harbingers para parar la invocación."
 L["obsidian_extract"] = "Destruye los cristales de Obsidiana formada por el Vacío."
 L["purging_flames"] = "Recoge los cuerpos y tíralos al fuego."
 L["pyre_amalgamated"] = "Limpia la pira y mata todas las amalgamas hasta que aparezca el raro."
