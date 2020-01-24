@@ -111,7 +111,7 @@ L["serpent_binding"] = "Mata los Subyugadores Zan-Tien y después a Haofeng."
 L["stormchosen_arena"] = "Mata todos los bichos de la arena y después al General del Clan."
 L["vault_of_souls"] = "Haz click en la urna y destruye a todas las estatuas."
 L["void_conduit"] = "Haz click en el Conducto del Vacío y aplasta los ojos del suelo hasta que te saque fuera."
-L["weighted_artifact"] = "Coge el Artefacto Pesado y vuelve por donde has venido para ponerlo en el altar. Si te atonta una estatua dejas el Artefacto Pesado."
+L["weighted_artifact"] = "Coge el Jarrón Extrañamente Pesado y vuelve por donde has venido para ponerlo en el Artefacto Mogu Pesado. Si te atonta una estatua se te caerá el Jarrón Extrañamente Pesado."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
