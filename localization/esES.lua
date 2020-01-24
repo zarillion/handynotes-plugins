@@ -89,7 +89,7 @@ L["tisiphon"] = "Haz click en la Caña de pescar de la suerte de Danielle."
 
 L["ambered_cache"] = "Alijo ámbar"
 L["ambered_coffer"] = "Cofre ámbar"
-L["mogu_plunder"] = "Alijo mogu"
+L["mogu_plunder"] = "Botín mogu"
 L["mogu_strongbox"] = "Caja fuerte mogu"
 L["mogu_relic"] = "Requiere una Reliquia Mogu"
 
