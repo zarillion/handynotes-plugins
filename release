@@ -1,6 +1,14 @@
 #!/bin/bash
 
+set -e
 TAG=$1
+
+if [[ -z "$(git tag -l | grep $TAG)" ]]; then
+    git tag -a $TAG -m "Release ${TAG:1}"
+    git push
+    git push --tags
+fi
+
 git archive ${TAG} \
     --prefix HandyNotes_VisionsOfNZoth/ \
     --output ~/Downloads/HandyNotes_VisionsOfNZoth_${TAG}.zip \
