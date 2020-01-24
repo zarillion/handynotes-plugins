@@ -471,6 +471,7 @@ nodes[59867422] = EMPTR4
 nodes[60757493] = EMPTR4
 nodes[62157346] = EMPTR4
 nodes[62737184] = EMPTR4
+nodes[64607503] = EMPTR4
 nodes[65357117] = EMPTR4
 nodes[67167394] = EMPTR4
 -- quest=57635
@@ -638,9 +639,24 @@ nodes[61745440] = PetBattle({id=162461}) -- Whispers
 ------------------------------- SPRINGFUR ALPACA ------------------------------
 -------------------------------------------------------------------------------
 
-nodes[58005169] = Node({icon=134190, alpaca=true, label=L["gersahl"],
-    note=L["gersahl_note"], pois={
-    POI({
+local function GetAlpacaStatus ()
+    local count = select(4, GetQuestObjectiveInfo(58881, 0, false))
+    if count ~= nil then return ns.status.Gray(tostring(count)..'/7') end
+end
+
+local Alpaca = Class('Alpaca', NPC, {
+    id=162765, icon=2916287, quest=58879, alpaca=true,
+    note=L["friendly_alpaca"],
+    pois={POI({
+        15006200, 24000900, 27004800, 30002900, 39000800, 41007000, 47004800,
+        52001900, 55006900, 62705340, 63011446, 69001300, 70003900, 76636813
+    })},
+    rewards={Mount({id=1329, item=174859})} -- Springfur Alpaca
+})
+
+local Gersahl = Class('Gersahl', Node, {
+    icon=134190, alpaca=true, label=L["gersahl"], note=L["gersahl_note"],
+    pois={POI({
         46922961, 49453556, 50504167, 50583294, 53133577, 55484468, 56114967,
         56265101, 56691882, 57112548, 57235056, 57281602, 57458491, 57474682,
         57741910, 58005169, 58131768, 58202808, 58967759, 59027433, 59098568,
@@ -648,18 +664,15 @@ nodes[58005169] = Node({icon=134190, alpaca=true, label=L["gersahl"],
         61371430, 64717249, 65167045, 65427433, 66047881, 66137572, 66217063,
         66257753, 66557212, 67377771, 68097535, 68117202, 68517407, 68947308,
         69237501, 71087875, 71657803
-    })
-}, rewards={Item({item=174858})}})
+    })},
+    rewards={Item({item=174858})} -- Gersahl Greens
+})
 
-nodes[47004800] = NPC({id=162765, icon=2916287, quest=58879, alpaca=true,
-    note=L["friendly_alpaca"], pois={
-    POI({
-        15006200, 24000900, 27004800, 30002900, 39000800, 41007000, 47004800,
-        52001900, 55006900, 62705340, 63011446, 69001300, 70003900, 76636813
-    })
-}, rewards={
-    Mount({id=1329, item=174859}) -- Springfur Alpaca
-}})
+Alpaca.getters.rlabel = GetAlpacaStatus
+Gersahl.getters.rlabel = GetAlpacaStatus
+
+nodes[47004800] = Alpaca()
+nodes[58005169] = Gersahl()
 
 -------------------------------------------------------------------------------
 
