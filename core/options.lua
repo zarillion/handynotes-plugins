@@ -98,14 +98,14 @@ ns.options.args.VisibilityGroup = {
         groupGeneral = {
             type = "header",
             name = L["options_general_settings"],
-            order = 30,
+            order = 100,
         },
         always_show_rares = {
             type = "toggle",
             arg = "always_show_rares",
             name = L["options_toggle_looted_rares"],
             desc = L["options_toggle_looted_rares_desc"],
-            order = 31,
+            order = 101,
             width = "full",
         },
         always_show_treasures = {
@@ -113,7 +113,7 @@ ns.options.args.VisibilityGroup = {
             arg = "always_show_treasures",
             name = L["options_toggle_looted_treasures"],
             desc = L["options_toggle_looted_treasures_desc"],
-            order = 32,
+            order = 102,
             width = "full",
         },
         hide_done_rare = {
@@ -121,7 +121,7 @@ ns.options.args.VisibilityGroup = {
             arg = "hide_done_rare",
             name = L["options_toggle_hide_done_rare"],
             desc = L["options_toggle_hide_done_rare_desc"],
-            order = 35,
+            order = 103,
             width = "full",
         },
         hide_minimap = {
@@ -129,7 +129,7 @@ ns.options.args.VisibilityGroup = {
             arg = "hide_minimap",
             name = L["options_toggle_hide_minimap"],
             desc = L["options_toggle_hide_minimap_desc"],
-            order = 36,
+            order = 104,
             width = "full",
         },
     },

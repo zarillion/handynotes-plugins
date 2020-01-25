@@ -124,8 +124,9 @@ L["weighted_artifact"] = "Pick up the Oddly Heavy Vase and navigate the maze bac
 L["horrific_visions"] = "Horrific Visions"
 L["mailbox"] = "Mailbox"
 L["mail_muncher"] = "When opened, the Mail Muncher has a chance to spawn."
-L["options_toggle_mail_munch"] = "Mail Muncher"
-L["options_toggle_mail_munch_desc"] = "Show mailbox locations for the Mail Muncher mount."
+L["options_toggle_visions_desc"] = "Show rewards locations inside horrific visions."
+L["void_skull"] = "Void-Touched Skull"
+L["void_skull_note"] = "Click the skull on the ground to loot the toy."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
