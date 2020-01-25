@@ -36,4 +36,5 @@ core\util.lua
 pins.xml
 uldum.lua
 vale.lua
+visions.lua
 voldun.lua

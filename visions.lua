@@ -6,8 +6,11 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 
 local Map = ns.Map
+local Node = ns.node.Node
 local NPC = ns.node.NPC
+local Rare = ns.node.Rare
 local Mount = ns.reward.Mount
+local Toy = ns.reward.Toy
 local POI = ns.poi.POI
 
 local options = ns.options.args.VisibilityGroup.args
@@ -17,15 +20,10 @@ local defaults = ns.optionDefaults.profile
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=864 })
-local nodes = map.nodes
+local stormwind = Map({ id=1470 })
 
-function map:enabled (node, coord, minimap)
+function stormwind:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
-
-    local profile = ns.addon.db.profile
-    if node.alpaca then return profile.alpaca_voldun end
-
     return true
 end
 
@@ -33,36 +31,42 @@ end
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
-defaults['alpaca_voldun'] = true
+defaults['mail_munch'] = true
 
-options.groupVoldun = {
+options.groupVisions = {
     type = "header",
-    name = L["voldun"],
-    order = 30,
+    name = L["horrific_visions"],
+    order = 20,
 }
 
-options.alpacaVoldun = {
+options.mailVisions = {
     type = "toggle",
-    arg = "alpaca_voldun",
-    name = L["options_toggle_alpaca_voldun"],
-    desc = L["options_toggle_alpaca_voldun_desc"],
-    order = 31,
+    arg = "mail_munch",
+    name = L["options_toggle_mail_munch"],
+    desc = L["options_toggle_mail_munch_desc"],
+    order = 21,
     width = "normal",
 }
 
 -------------------------------------------------------------------------------
------------------------------- ELUSIVE QUICKHOOF ------------------------------
+-------------------------------- MAIL MUNCHER ---------------------------------
 -------------------------------------------------------------------------------
 
-nodes[43006900] = NPC({id=162681, icon=2916283, alpaca=true, pois={
-    POI({
-        26405250, 29006600, 31106730, 42006000, 43006900, 51108590, 52508900,
-        54008200, 54605320, 55007300
-    })
-}, rewards={
-    Mount({id=1324, item=174860}) -- Elusive Quickhoof
-}, note=L["elusive_alpaca"]})
+local MAIL = Node({icon=133468, label=L["mailbox"], rewards={
+    Mount({id=1315, item=174653}) -- Mail Muncher
+}, note=L["mail_muncher"]})
+
+stormwind.nodes[54805830] = MAIL
+stormwind.nodes[62107570] = MAIL
+stormwind.nodes[62303080] = MAIL
+stormwind.nodes[76306430] = MAIL
+
+stormwind.nodes[58905290] = Node({icon=237272, label="Void-Touched Skull"})
+
+stormwind.nodes[60526202] = Rare({id=158284, rewards={
+    Toy({item=174926}) -- Overly Sensitive Void Spectacles
+}}) -- Craggle Wobbletop
 
 -------------------------------------------------------------------------------
 
-ns.maps[map.id] = map
+ns.maps[stormwind.id] = stormwind

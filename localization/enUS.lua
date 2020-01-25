@@ -118,6 +118,16 @@ L["void_conduit"] = "Click the Void Conduit and squish the watching eyes."
 L["weighted_artifact"] = "Pick up the Oddly Heavy Vase and navigate the maze back to the pedestal. Getting stunned by a statue drops the vase."
 
 -------------------------------------------------------------------------------
+----------------------------------- VISIONS -----------------------------------
+-------------------------------------------------------------------------------
+
+L["horrific_visions"] = "Horrific Visions"
+L["mailbox"] = "Mailbox"
+L["mail_muncher"] = "When opened, the Mail Muncher has a chance to spawn."
+L["options_toggle_mail_munch"] = "Mail Muncher"
+L["options_toggle_mail_munch_desc"] = "Show mailbox locations for the Mail Muncher mount."
+
+-------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
