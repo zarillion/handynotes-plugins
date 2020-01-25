@@ -288,6 +288,7 @@ nodes[07223945] = MANTR1
 nodes[10662334] = MANTR1
 nodes[11552553] = MANTR1
 nodes[15797164] = MANTR1
+nodes[15887672] = MANTR1
 -- quest=58225
 nodes[16021946] = MANTR2
 nodes[17432634] = MANTR2
@@ -298,6 +299,7 @@ nodes[09302831] = MANTR3
 nodes[15083162] = MANTR3
 nodes[15324320] = MANTR3
 nodes[16343312] = MANTR3
+nodes[18253632] = MANTR3
 -- quest=58227
 nodes[22903439] = MANTR4
 nodes[24994118] = MANTR4
@@ -308,6 +310,7 @@ nodes[07356617] = MANTR5
 nodes[15406394] = MANTR5
 nodes[16096581] = MANTR5
 nodes[19897504] = MANTR5
+nodes[19975976] = MANTR5
 nodes[21506269] = MANTR5
 
 nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"]})
@@ -327,6 +330,7 @@ local MOGTR6 = MOGChest({quest=57213, icon='chest_lime'})
 
 -- quest=57206
 nodes[13500720] = MOGTR1
+nodes[17741256] = MOGTR1
 nodes[20221140] = MOGTR1
 nodes[20441477] = MOGTR1
 nodes[23850753] = MOGTR1
@@ -480,6 +484,15 @@ pnodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
 
 -------------------------------------------------------------------------------
 -------------------------------- ASSAULT EVENTS -------------------------------
+-------------------------------------------------------------------------------
+
+nodes[19287227] = TimedEvent({quest=57384, assault=MAN, note=L["mending_monstro"]}) -- Mending Monstrosity
+nodes[26644650] = TimedEvent({quest=57404, assault=MAN, note=L["ravager_hive"]}) -- Ravager Hive
+nodes[16964567] = TimedEvent({quest=57484, assault=MAN, note=L["ritual_wakening"]}) -- Ritual of Wakening
+nodes[14073421] = TimedEvent({quest=57453, assault=MAN, note=L["swarm_caller"]}) -- Swarm Caller
+nodes[25663647] = TimedEvent({quest=57517, assault=MAN, note=L["swarm_caller"]}) -- Swarm Caller
+nodes[27011715] = TimedEvent({quest=57519, assault=MAN, note=L["swarm_caller"]}) -- Swarm Caller
+
 -------------------------------------------------------------------------------
 
 nodes[31332897] = TimedEvent({quest=57087, assault=MOG, note=L["colored_flames"]}) -- Baruk Obliterator
