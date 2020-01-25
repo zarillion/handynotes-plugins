@@ -589,6 +589,7 @@ nodes[53677575] = TimedEvent({quest=57585, assault=EMP, note=L["call_of_void"]})
 nodes[52015072] = TimedEvent({quest=57543, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
 nodes[57044951] = TimedEvent({quest=57592, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
 nodes[59014663] = TimedEvent({quest=57580, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
+nodes[60203789] = TimedEvent({quest=57449, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
 nodes[66476806] = TimedEvent({quest=57582, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
 nodes[49443920] = TimedEvent({quest=58276, assault=EMP, note=L["in_flames"]}) -- Mar'at In Flames
 nodes[50578232] = TimedEvent({quest=58275, assault=EMP, note=L["monstrous_summon"]}) -- Monstrous Summoning
@@ -601,12 +602,15 @@ nodes[62037070] = TimedEvent({quest=58271, assault=EMP, note=L["voidflame_ritual
 nodes[47174044] = TimedEvent({quest=57456, assault=EMP, pois={
     Path({47944278, 47084245, 47254116, 47053964, 46583882, 46943783})
 }}) -- Spirit Drinker
+nodes[58347785] = TimedEvent({quest=57590, assault=EMP, pois={
+    Path({58908017, 58347785, 58907588, 58187367, 58687192, 58896905, 58886621})
+}}) -- Spirit Drinker
 nodes[59022780] = TimedEvent({quest=57588, assault=EMP, pois={
     Path({58102290, 58422547, 59022780, 59602914, 60063133, 60753296, 60453467})
 }}) -- Spirit Drinker
 -- nodes[60005506] = TimedEvent({quest=, assault=EMP, pois={
 --     Path({60315245, 59785364, 60005506, 60385696, 60495866})
--- }}) -- Spirit Drinker (57590, 57591, 57586, 57587)
+-- }}) -- Spirit Drinker (57591, 57586, 57587)
 
 -------------------------------------------------------------------------------
 

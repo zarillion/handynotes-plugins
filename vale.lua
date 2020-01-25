@@ -197,7 +197,7 @@ nodes[34156805] = Rare({id=157466, quest=57363, assault=MOG, rewards={
     Mount({id=1328, item=174840}) -- Xinlao
 }}) -- Anh-De the Loyal
 nodes[57084098] = Rare({id=154447, quest=56237, assault=EMP}) -- Brother Meller
-nodes[06487070] = Rare({id=160878, quest=58307, assault=MAN}) -- Buh'gzaki the Blasphemous
+nodes[06487204] = Rare({id=160878, quest=58307, assault=MAN}) -- Buh'gzaki the Blasphemous
 nodes[06406433] = Rare({id=160893, quest=58308, assault=MAN, pois={
     Path({06476733, 06416420, 04016423, 04025675, 03985061, 06484877, 06484597})
 }}) -- Captain Vor'lek
@@ -210,8 +210,8 @@ nodes[26506657] = Rare({id=160872, quest=58304, assault=MAN}) -- Destroyer Krox'
 nodes[41505721] = Rare({id=157287, quest=57349, assault=MOG, pois={
     Path({41745982, 40446144, 38995953, 39805740, 41505721, 45405297})
 }}) -- Dokani Obliterator
-nodes[11854081] = Rare({id=160874, quest=58305, assault=MAN}) -- Drone Keeper Ak'thet
-nodes[10474089] = Rare({id=160876, quest=58306, assault=MAN}) -- Enraged Amber Elemental
+nodes[13004085] = Rare({id=160874, quest=58305, assault=MAN}) -- Drone Keeper Ak'thet
+nodes[10004085] = Rare({id=160876, quest=58306, assault=MAN}) -- Enraged Amber Elemental
 nodes[45244524] = Rare({id=157267, quest=57343, assault=EMP, pois={
     Path({44174609, 45244524, 45324176, 44783891})
 }}) -- Escaped Mutation
@@ -284,6 +284,7 @@ local MANTR4 = MANChest({quest=58227, icon='chest_yellow'})
 local MANTR5 = MANChest({quest=58228, icon='chest_teal'})
 
 -- quest=58224
+nodes[04066172] = MANTR1
 nodes[07223945] = MANTR1
 nodes[10662334] = MANTR1
 nodes[11552553] = MANTR1
@@ -486,12 +487,18 @@ pnodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
 -------------------------------- ASSAULT EVENTS -------------------------------
 -------------------------------------------------------------------------------
 
+nodes[08852675] = TimedEvent({quest=57521, assault=MAN, note=L["empowered_wagon"]}) -- Empowered War Wagon
+nodes[11006443] = TimedEvent({quest=57085, assault=MAN, note=L["empowered_wagon"]}) -- Empowered War Wagon
+nodes[06487067] = TimedEvent({quest=57089, assault=MAN, note=L["mantid_hatch"]}) -- Mantid Hatchery
 nodes[19287227] = TimedEvent({quest=57384, assault=MAN, note=L["mending_monstro"]}) -- Mending Monstrosity
 nodes[26644650] = TimedEvent({quest=57404, assault=MAN, note=L["ravager_hive"]}) -- Ravager Hive
 nodes[16964567] = TimedEvent({quest=57484, assault=MAN, note=L["ritual_wakening"]}) -- Ritual of Wakening
 nodes[14073421] = TimedEvent({quest=57453, assault=MAN, note=L["swarm_caller"]}) -- Swarm Caller
 nodes[25663647] = TimedEvent({quest=57517, assault=MAN, note=L["swarm_caller"]}) -- Swarm Caller
 nodes[27011715] = TimedEvent({quest=57519, assault=MAN, note=L["swarm_caller"]}) -- Swarm Caller
+nodes[31146095] = TimedEvent({quest=57542, assault=MAN, note=L["swarm_caller"]}) -- Swarm Caller
+nodes[11384092] = TimedEvent({quest=57476, assault=MAN, note=L["feeding_grounds"]}) -- Vil'thik Feeding Grounds
+nodes[11034854] = TimedEvent({quest=57508, assault=MAN, note=L["war_banner"]}) -- Zara'thik War Banner
 
 -------------------------------------------------------------------------------
 
