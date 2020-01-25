@@ -104,14 +104,29 @@ L["empowered_demo"] = "Cierra todos los relicarios de espíritus."
 L["font_corruption"] = "Gira las estatuas de los Mogu hasta que ambos rayos lleguen a cada lado de la consola. Entonces, haz click en ella."
 L["goldbough_guardian"] = "Protege al Jefe Ramaoro de las oleadas de bichos."
 L["infested_statue"] = "Arranca los Ojos crispados hasta llevarlos a 15 metros de la estatua."
+L["mending_monstro"] = "Destruye los cristales de Ámbar de Alivio."
 L["mystery_sacro"] = "Haz click en todas las Lápidas Sospechosas y mata al Alma Ululante."
 L["protect_stout"] = "Protege la cueva de las oleadas de bichos."
 L["pulse_mound"] = "Mata los tentáculos y ojos de alrededor y entonces, mata al Bubón Viviente."
+L["ravager_hive"] = "Destroy all of the hives on the tree."
+L["ritual_wakening"] = "Mata a los Heraldo Klaxxi."
 L["serpent_binding"] = "Mata los Subyugadores Zan-Tien y después a Haofeng."
 L["stormchosen_arena"] = "Mata todos los bichos de la arena y después al General del Clan."
+L["swarm_caller"] = "Destruye el pilón Invocador de Enjambre."
 L["vault_of_souls"] = "Haz click en la urna y destruye a todas las estatuas."
 L["void_conduit"] = "Haz click en el Conducto del Vacío y aplasta los ojos del suelo hasta que te saque fuera."
 L["weighted_artifact"] = "Coge el Jarrón Extrañamente Pesado y vuelve por donde has venido para ponerlo en el Artefacto Mogu Pesado. Si te atonta una estatua se te caerá el Jarrón Extrañamente Pesado."
+
+-------------------------------------------------------------------------------
+----------------------------------- VISIONS -----------------------------------
+-------------------------------------------------------------------------------
+
+L["horrific_visions"] = "Visiones Horripilantes"
+L["mailbox"] = "Buzón de Correo"
+L["mail_muncher"] = "Cuando se abre, existe la probabilidad de que aparezca el raro Mail Muncher."
+L["options_toggle_visions_desc"] = "Muestra las recompensas de zona dentro de las Visiones Horripilantes."
+L["void_skull"] = "Calavera tocada por el Vacío"
+L["void_skull_note"] = "Haz click en la calavera del suelo para despojar el juguete."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
