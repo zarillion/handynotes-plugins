@@ -89,6 +89,7 @@ L["tisiphon"] = "Click on Danielle's Lucky Fishing Rod."
 
 L["ambered_cache"] = "Ambered Cache"
 L["ambered_coffer"] = "Ambered Coffer"
+L["mantid_relic"] = "Requires Mantid Relic"
 L["mogu_plunder"] = "Mogu Plunder"
 L["mogu_strongbox"] = "Mogu Strongbox"
 L["mogu_relic"] = "Requires Mogu Relic"

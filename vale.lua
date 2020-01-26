@@ -298,11 +298,13 @@ nodes[21051415] = MANTR2
 -- quest=58226
 nodes[07693682] = MANTR3
 nodes[09302831] = MANTR3
+nodes[10174243] = MANTR3
 nodes[15083162] = MANTR3
 nodes[15324320] = MANTR3
 nodes[16343312] = MANTR3
 nodes[18253632] = MANTR3
 -- quest=58227
+nodes[18063844] = MANTR4
 nodes[22903439] = MANTR4
 nodes[24994118] = MANTR4
 nodes[26704680] = MANTR4
@@ -314,8 +316,9 @@ nodes[16096581] = MANTR5
 nodes[19897504] = MANTR5
 nodes[19975976] = MANTR5
 nodes[21506269] = MANTR5
+nodes[21636992] = MANTR5
 
-nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"]})
+nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"], sublabel=L["mantid_relic"]})
 
 -------------------------------------------------------------------------------
 
@@ -537,8 +540,6 @@ nodes[74164004] = TimedEvent({quest=56076, assault=EMP, note=L["abyssal_ritual"]
 nodes[76365163] = TimedEvent({quest=57379, assault=EMP, note=L["infested_statue"]}) -- Infested Jade Statue
 nodes[79233315] = TimedEvent({quest=56177, assault=EMP, note=L["void_conduit"]}) -- Void Conduit
 nodes[79525433] = TimedEvent({quest=56180, assault=EMP, note=L["bound_guardian"]}) -- Bound Guardian
-
--- nodes[69002100] = TimedEvent({quest=nil, assault=EMP}) -- Reach of N'Zoth
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
