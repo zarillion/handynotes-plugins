@@ -247,7 +247,7 @@ nodes[64175175] = Rare({id=154490, quest=56302, assault=EMP}) -- Rijz'x the Devo
 nodes[46425710] = Rare({id=156083, quest=56954, assault=MOG, rewards={
     Item({item=174071}) -- Sanguifang's Pulsating Canine
 }}) -- Sanguifang
-nodes[25074411] = Rare({id=160906, quest=nil, assault=MAN}) -- Skiver
+nodes[25074411] = Rare({id=160906, quest=58309, assault=MAN}) -- Skiver
 nodes[17873752] = Rare({id=157291, quest=57351, assault=MOG}) -- Spymaster Hul'ach
 nodes[26057505] = Rare({id=157279, quest=57348, assault=MOG, pois={
     Path({23467717, 25247587, 26837367, 27117143})
