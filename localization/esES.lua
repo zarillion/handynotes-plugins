@@ -110,6 +110,7 @@ L["infested_statue"] = "Arranca los Ojos crispados hasta llevarlos a 15 metros d
 L["mantid_hatch"] = "Pick up the Shado-Pan Flamethrower and destroy the larva incubators."
 L["mending_monstro"] = "Destruye los cristales de Ámbar de Alivio."
 L["mystery_sacro"] = "Haz click en todas las Lápidas Sospechosas y mata al Alma Ululante."
+L["noodle_cart"] = "Defend Chin while he repairs his cart."
 L["protect_stout"] = "Protege la cueva de las oleadas de bichos."
 L["pulse_mound"] = "Mata los tentáculos y ojos de alrededor y entonces, mata al Bubón Viviente."
 L["ravager_hive"] = "Destroy all of the hives on the tree."
