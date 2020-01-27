@@ -229,7 +229,7 @@ nodes[12183091] = Rare({id=157160, quest=57345, assault=MOG, rewards={
 }, pois={
     Path({13132578, 11833049, 08953570})
 }}) -- Houndlord Ren
-nodes[18426557] = Rare({id=160930, quest=58312, assault=MAN}) -- Infused Amber Ooze
+nodes[19976576] = Rare({id=160930, quest=58312, assault=MAN}) -- Infused Amber Ooze
 nodes[17201162] = Rare({id=160968, quest=58295, assault=MOG, note=L["guolai_left"]}) -- Jade Colossus
 nodes[26691061] = Rare({id=157290, quest=57350, assault=MOG, note=L["in_small_cave"]}) -- Jade Watcher
 nodes[17850918] = Rare({id=160920, quest=58310, assault=MAN}) -- Kal'tik the Blight
@@ -311,6 +311,7 @@ nodes[26704680] = MANTR4
 nodes[31724184] = MANTR4
 -- quest=58228
 nodes[07356617] = MANTR5
+nodes[10746891] = MANTR5
 nodes[15406394] = MANTR5
 nodes[16096581] = MANTR5
 nodes[19897504] = MANTR5
@@ -494,6 +495,7 @@ pnodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
 nodes[29266081] = TimedEvent({quest=57445, assault=MAN, note=L["noodle_cart"]}) -- Chin's Noodle Cart
 nodes[08852675] = TimedEvent({quest=57521, assault=MAN, note=L["empowered_wagon"]}) -- Empowered War Wagon
 nodes[11006443] = TimedEvent({quest=57085, assault=MAN, note=L["empowered_wagon"]}) -- Empowered War Wagon
+nodes[18556572] = TimedEvent({quest=57540, assault=MAN, note=L["kunchong_incubator"]}) -- Kunchong Incubator
 nodes[06484227] = TimedEvent({quest=57558, assault=MAN, note=L["mantid_hatch"]}) -- Mantid Hatchery
 nodes[06487067] = TimedEvent({quest=57089, assault=MAN, note=L["mantid_hatch"]}) -- Mantid Hatchery
 nodes[19287227] = TimedEvent({quest=57384, assault=MAN, note=L["mending_monstro"]}) -- Mending Monstrosity

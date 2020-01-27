@@ -470,6 +470,7 @@ nodes[70217325] = EMPTR3
 nodes[59816610] = EMPTR4
 nodes[59867422] = EMPTR4
 nodes[60757493] = EMPTR4
+nodes[61206544] = EMPTR4
 nodes[62157346] = EMPTR4
 nodes[62737184] = EMPTR4
 nodes[62807565] = EMPTR4
@@ -481,6 +482,7 @@ nodes[45697961] = EMPTR5
 nodes[47507687] = EMPTR5
 nodes[49037684] = EMPTR5
 nodes[49398584] = EMPTR5
+nodes[51157388] = EMPTR5
 nodes[51707135] = EMPTR5
 nodes[51777298] = EMPTR5
 nodes[51897858] = EMPTR5
@@ -588,6 +590,7 @@ nodes[46793424] = TimedEvent({quest=58256, assault=EMP, note=L["consuming_maw"],
 
 nodes[48518489] = TimedEvent({quest=57522, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
 nodes[53677575] = TimedEvent({quest=57585, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
+nodes[65907284] = TimedEvent({quest=57541, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
 nodes[52015072] = TimedEvent({quest=57543, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
 nodes[57044951] = TimedEvent({quest=57592, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
 nodes[59014663] = TimedEvent({quest=57580, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
