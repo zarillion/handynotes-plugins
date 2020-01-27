@@ -216,6 +216,7 @@ L["options_title"] = "Visions of N'Zoth"
 
 L["options_icon_settings"] = "Configuración de Iconos"
 L["options_icons_treasures"] = "Iconos de Tesoro"
+L["options_icons_assaultevents"] = "Iconos de los Eventos de los Asaltos"
 L["options_icons_rares"] = "Iconos de los Raros"
 L["options_icons_caves"] = "Iconos de Cueva"
 L["options_icons_pet_battles"] = "Iconos de duelo de mascotas"
