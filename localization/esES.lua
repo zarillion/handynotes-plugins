@@ -107,6 +107,7 @@ L["feeding_grounds"] = "Destruye las cámaras de suspensión y los receptáculos
 L["font_corruption"] = "Gira las estatuas de los Mogu hasta que ambos rayos lleguen a cada lado de la consola. Entonces, haz click en ella."
 L["goldbough_guardian"] = "Protege al Jefe Ramaoro de las oleadas de bichos."
 L["infested_statue"] = "Arranca los Ojos crispados hasta llevarlos a 15 metros de la estatua."
+L["kunchong_incubator"] = "Destruye todos los generadores del campo de fuerza."
 L["mantid_hatch"] = "COge los Lanzallamas del Shadopan y destruye los incubadores de larvas."
 L["mending_monstro"] = "Destruye los cristales de Ámbar de Alivio."
 L["mystery_sacro"] = "Haz click en todas las Lápidas Sospechosas y mata al Alma Ululante."
