@@ -132,6 +132,8 @@ L["horrific_visions"] = "Visiones Horripilantes"
 L["mailbox"] = "Buzón de Correo"
 L["mail_muncher"] = "Cuando se abre, existe la probabilidad de que aparezca el raro Zampacorreos."
 L["options_toggle_visions_desc"] = "Muestra las recompensas de zona dentro de las Visiones Horripilantes."
+L["shave_kit"] = "Equipo de Afeitado de Ricitos"
+L["shave_kit_note"] = "Dentro de la peluquería."
 L["void_skull"] = "Calavera tocada por el Vacío"
 L["void_skull_note"] = "Haz click en la calavera del suelo para despojar el juguete."
 
