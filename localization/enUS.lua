@@ -132,6 +132,8 @@ L["horrific_visions"] = "Horrific Visions"
 L["mailbox"] = "Mailbox"
 L["mail_muncher"] = "When opened, the Mail Muncher has a chance to spawn."
 L["options_toggle_visions_desc"] = "Show rewards locations inside horrific visions."
+L["shave_kit"] = "Coifcurl's Close Shave Kit"
+L["shave_kit_note"] = "Inside the barber shop."
 L["void_skull"] = "Void-Touched Skull"
 L["void_skull_note"] = "Click the skull on the ground to loot the toy."
 
