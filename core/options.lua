@@ -18,15 +18,15 @@ ns.optionDefaults = {
         icon_scale_rares = 1,
         icon_scale_treasures = 1,
         icon_scale_assaultevents = 1,
-        
+
         -- icon alphas
         icon_alpha_caves = 0.75,
         icon_alpha_other = 1.0,
         icon_alpha_pet_battles = 1.0,
         icon_alpha_rares = 0.75,
         icon_alpha_treasures = 0.75,
-        icon_alpha_assaultevents = 0.75,
-        
+        icon_alpha_assaultevents = 1.0,
+
         -- visibility
         always_show_rares = false,
         always_show_treasures = false,
