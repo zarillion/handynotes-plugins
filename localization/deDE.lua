@@ -132,6 +132,8 @@ L["horrific_visions"] = "Verstörende Visionen"
 L["mailbox"] = "Briefkasten"
 L["mail_muncher"] = "Beim öffnen besteht eine Chance das Postmampfer erscheint."
 L["options_toggle_visions_desc"] = "Zeigt die Positionen von Belohnungen in Verstörenden Visionen."
+L["shave_kit"] = "Haubenlockes Glattrasurset"
+L["shave_kit_note"] = "Im Barbierladen."
 L["void_skull"] = "Leerenberührter Schädel"
 L["void_skull_note"] = "Klicke den Schädel auf dem Boden an um das Spielzeug zu plündern."
 
