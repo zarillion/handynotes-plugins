@@ -68,6 +68,7 @@ orgrimmar.nodes[39304900] = MAIL
 orgrimmar.nodes[39708030] = MAIL
 orgrimmar.nodes[52707580] = MAIL
 orgrimmar.nodes[60105130] = MAIL
+orgrimmar.nodes[67673924] = MAIL
 
 orgrimmar.nodes[39906120] = Node({icon=1001616, label=L["shave_kit"], note=L["shave_kit_note"], rewards={
     Toy({item=174920}) -- Coifcurl's Close Shave Kit
