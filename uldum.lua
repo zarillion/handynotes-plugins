@@ -415,6 +415,7 @@ nodes[33476998] = AQRTR2
 nodes[18356130] = AQRTR3
 nodes[19836512] = AQRTR3
 nodes[20585920] = AQRTR3
+nodes[23406539] = AQRTR3
 nodes[23055936] = AQRTR3
 nodes[24525507] = AQRTR3
 nodes[24606387] = AQRTR3
@@ -434,6 +435,7 @@ nodes[30671611] = AQRTR5
 nodes[30903046] = AQRTR5
 nodes[31521515] = AQRTR5
 nodes[33953036] = AQRTR5
+nodes[35101878] = AQRTR5
 nodes[35413157] = AQRTR5
 nodes[41592264] = clone(AQRTR5, {note=L["chamber_of_the_moon"]})
 nodes[45561320] = AQRTR5
