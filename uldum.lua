@@ -294,7 +294,7 @@ nodes[34681890] = Rare({id=154604, quest=56340, assault=AQR, note=L["chamber_of_
     Pet({id=2847, item=174475}) -- Rotbreath
 }}) -- Lord Aj'qirai
 nodes[30476602] = Rare({id=156078, quest=56952, assault=AQR, pois={
-    POI({30476602, 33696573})
+    POI({30476602, 32876907, 33696573})
 }}) -- Magus Rehleth
 nodes[66842035] = Rare({id=157157, quest=57277, assault=AMA}) -- Muminah the Incandescent
 nodes[62012454] = Rare({id=152677, quest=55684, assault=AMA}) -- Nebet the Ascended
