@@ -64,6 +64,8 @@ L["ritual_ascension"] = "Kill the Suntouched Ritualists."
 L["solar_collector"] = "Enable all five cells on all sides of the collector. Clicking a cell also toggles all cells touching that cell.\n\nIf all cells are empty, the shortest sequence is left->right->middle->left->right."
 L["summoning_ritual"] = "Kill the acolytes then close the summoning portal. After the event is completed a number of times, a set of three rares will spawn around Neferset."
 L["titanus_egg"] = "Destroy the Titanus Egg, then defeat the Titanus Young."
+L["unearthed_keeper"] = "Destroy the Unearthed Keeper."
+L["virnall_front"] = "Defeat waves of mobs until Menepthah the Warbringer spawns."
 L["voidflame_ritual"] = "Extinguish all of the voidtouched candles."
 
 L["beacon_of_sun_king"] = "Rotate all three statues inward."

@@ -531,6 +531,7 @@ nodes[71226851] = AMATR2
 nodes[71305922] = AMATR2
 nodes[72216422] = AMATR2
 nodes[73117297] = AMATR2
+nodes[73707393] = AMATR2
 nodes[73987095] = AMATR2
 nodes[78286207] = AMATR2
 nodes[79166486] = AMATR2
@@ -545,6 +546,7 @@ nodes[78125302] = AMATR3
 nodes[71884388] = AMATR4
 nodes[72764468] = AMATR4
 nodes[72944350] = AMATR4
+nodes[73714646] = AMATR4
 nodes[74364390] = AMATR4
 nodes[75134608] = AMATR4
 nodes[76344679] = AMATR4
@@ -639,19 +641,19 @@ nodes[76004700] = TimedEvent({quest=57243, assault=AMA, note=L["slave_camp"]}) -
 nodes[62062069] = TimedEvent({quest=55356, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
 nodes[71594586] = TimedEvent({quest=55358, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
 nodes[83496186] = TimedEvent({quest=55357, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
-nodes[64002800] = TimedEvent({quest=57215, assault=AMA, note=L["engine_of_ascen"]}) -- Engine of Ascension
-nodes[64962255] = TimedEvent({quest=55355, assault=AMA, note=L["lightblade_training"]}) -- Lightblade Training Grounds
+nodes[64502982] = TimedEvent({quest=57215, assault=AMA, note=L["engine_of_ascen"]}) -- Engine of Ascension
+nodes[64442267] = TimedEvent({quest=55355, assault=AMA, note=L["lightblade_training"]}) -- Lightblade Training Grounds
 nodes[64482984] = TimedEvent({quest=55359, assault=AMA, note=L["chamber_of_the_stars"]..' '..L["ritual_ascension"]}) -- Ritual of Ascension
 nodes[66515030] = TimedEvent({quest=57235, assault=AMA, note=L["solar_collector"]}) -- Solar Collector
 nodes[80256607] = TimedEvent({quest=57234, assault=AMA, note=L["solar_collector"]}) -- Solar Collector
-nodes[70006000] = TimedEvent({quest=55360, assault=AMA, note=L["unsealed_tomb"]}) -- The Unsealed Tomb
+nodes[69905991] = TimedEvent({quest=55360, assault=AMA, note=L["unsealed_tomb"]}) -- The Unsealed Tomb
+nodes[61414704] = TimedEvent({quest=55354, assault=AMA, note=L["virnall_front"]}) -- The Vir'nall Front
+nodes[71366849] = TimedEvent({quest=57217, assault=AMA, note=L["unearthed_keeper"]}) -- Unearthed Keeper
 
 -- nodes[65003700] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
 -- nodes[66005000] = TimedEvent({quest=nil, assault=AMA}) -- Solar Extractor
--- nodes[71006800] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
 -- nodes[78005700] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
 -- nodes[83004800] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[61004700] = TimedEvent({quest=nil, assault=AMA}) -- The Vir'naal Front
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
