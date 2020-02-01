@@ -94,7 +94,7 @@ L["mogu_plunder"] = "Добыча Могу"
 L["mogu_strongbox"] = "Сундук Могу"
 L["mogu_relic"] = "Требуется Реликвия Могу"
 
-L["abyssal_ritual"] = "Kill the Drowned Adherents and then the Depths Monstrosity."
+L["abyssal_ritual"] = "Убейте Утонувших приверженцев и затем Чудовище из глубин."
 L["bound_guardian"] = "Убейте трех Глубинных подчинителей, чтобы освободить Чистую Каплю."
 L["colored_flames"] = "Collect the colored flames from their torches and bring them to the matching runes."
 L["construction_ritual"] = "Толкните статую тигра в луч."
