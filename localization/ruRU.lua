@@ -61,16 +61,16 @@ L["obsidian_extract"] = "Уничтож все Сформированные Бе
 L["purging_flames"] = "Подберите тела и бросьте их в огонь."
 L["pyre_amalgamated"] = "Cleanse the pyre, then kill all amalgamations until the rare spawns."
 L["ritual_ascension"] = "Kill the Suntouched Ritualists."
-L["solar_collector"] = "Enable all five cells on all sides of the collector. Clicking a cell also toggles all cells touching that cell.\n\nIf all cells are empty, the shortest sequence is left->right->middle->left->right."
+L["solar_collector"] = "Включите все пять ячеек со всех сторон Солнечного Коллектора. Нажатие на кристалл силы также переключает все кристаллы, касающиеся этой ячейки.\n\nЕсли все ячейки пусты, самая короткая последовательность левая-> правая-> средняя-> левая-> правая."
 L["summoning_ritual"] = "Убейте послушников и закройте портал призыва."
 L["titanus_egg"] = "Уничтожьте Колоссальное яйцо, затем победите Молодого акира-колосса."
 L["voidflame_ritual"] = "Extinguish all of the voidtouched candles."
 
-L["beacon_of_sun_king"] = "Rotate all three statues inward."
+L["beacon_of_sun_king"] = "Поверните все три статуи внутрь."
 L["engine_of_ascen"] = "Move all four statues into the beams."
 L["lightblade_training"] = "Kill instructors and unprovens until Kames, Blade of the Dawn spawns."
 L["raiding_fleet"] = "Burn all of the boats using the quest item."
-L["slave_camp"] = "Open all of the nearby cages."
+L["slave_camp"] = "Откройте все близлежащие клетки."
 L["unsealed_tomb"] = "Protect Heru from waves of mobs."
 
 -------------------------------------------------------------------------------
