@@ -641,7 +641,7 @@ nodes[59022780] = TimedEvent({quest=57588, assault=EMP, pois={
 
 -------------------------------------------------------------------------------
 
-nodes[84005400] = TimedEvent({quest=55670, assault=AMA, note=L["raiding_fleet"]}) -- Amathet Raiding Fleet
+nodes[84205548] = TimedEvent({quest=55670, assault=AMA, note=L["raiding_fleet"]}) -- Amathet Raiding Fleet
 nodes[76004700] = TimedEvent({quest=57243, assault=AMA, note=L["slave_camp"]}) -- Amathet Slave Camp
 nodes[62062069] = TimedEvent({quest=55356, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
 nodes[71594586] = TimedEvent({quest=55358, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
@@ -653,12 +653,10 @@ nodes[66515030] = TimedEvent({quest=57235, assault=AMA, note=L["solar_collector"
 nodes[80256607] = TimedEvent({quest=57234, assault=AMA, note=L["solar_collector"]}) -- Solar Collector
 nodes[69905991] = TimedEvent({quest=55360, assault=AMA, note=L["unsealed_tomb"]}) -- The Unsealed Tomb
 nodes[61414704] = TimedEvent({quest=55354, assault=AMA, note=L["virnall_front"]}) -- The Vir'nall Front
+nodes[65513779] = TimedEvent({quest=57219, assault=AMA, note=L["unearthed_keeper"]}) -- Unearthed Keeper
 nodes[71366849] = TimedEvent({quest=57217, assault=AMA, note=L["unearthed_keeper"]}) -- Unearthed Keeper
-
--- nodes[65003700] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[66005000] = TimedEvent({quest=nil, assault=AMA}) -- Solar Extractor
--- nodes[78005700] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[83004800] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
+nodes[78225754] = TimedEvent({quest=57223, assault=AMA, note=L["unearthed_keeper"]}) -- Unearthed Keeper
+nodes[82534796] = TimedEvent({quest=57218, assault=AMA, note=L["unearthed_keeper"]}) -- Unearthed Keeper
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
