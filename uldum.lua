@@ -538,6 +538,8 @@ nodes[79166486] = AMATR2
 -- quest=55691
 nodes[71504750] = AMATR3
 nodes[72474857] = AMATR3
+nodes[73035386] = AMATR3
+nodes[73045143] = AMATR3
 nodes[74195187] = AMATR3
 nodes[75335579] = AMATR3
 nodes[75575372] = AMATR3
@@ -556,6 +558,7 @@ nodes[63084970] = AMATR5
 nodes[64094488] = AMATR5
 nodes[65403796] = AMATR5
 nodes[66394350] = AMATR5
+nodes[67884158] = AMATR5
 nodes[69744236] = AMATR5
 nodes[69874163] = AMATR5
 -- quest=55700
@@ -578,6 +581,7 @@ nodes[67464294] = AMACOFF
 nodes[73337356] = AMACOFF
 nodes[73685054] = AMACOFF
 nodes[75914194] = AMACOFF
+nodes[83116028] = AMACOFF
 
 -------------------------------------------------------------------------------
 -------------------------------- ASSAULT EVENTS -------------------------------
