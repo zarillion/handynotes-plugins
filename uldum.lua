@@ -520,14 +520,17 @@ local AMATR5 = AMAChest({quest=55699, icon='chest_teal'})
 local AMATR6 = AMAChest({quest=55700, icon='chest_lime'})
 
 -- quest=55689
+nodes[78265073] = AMATR1
 nodes[80575110] = AMATR1
 nodes[80785611] = AMATR1
 nodes[81585359] = AMATR1
 nodes[84534540] = AMATR1
 nodes[84836185] = AMATR1
+nodes[85005097] = AMATR1
 nodes[85275138] = AMATR1
 nodes[85285297] = AMATR1
 -- quest=55690
+nodes[70325819] = AMATR2
 nodes[71226851] = AMATR2
 nodes[71305922] = AMATR2
 nodes[72216422] = AMATR2
@@ -553,18 +556,23 @@ nodes[73714646] = AMATR4
 nodes[74364390] = AMATR4
 nodes[75134608] = AMATR4
 nodes[76344679] = AMATR4
+nodes[77274934] = AMATR4
+nodes[77544828] = AMATR4
 nodes[79314578] = AMATR4
 -- quest=55699 (no blizzard minimap icon for this one?)
 nodes[63084970] = AMATR5
 nodes[64094488] = AMATR5
 nodes[65403796] = AMATR5
 nodes[66394350] = AMATR5
+nodes[66624829] = AMATR5
+nodes[67004050] = AMATR5
 nodes[67884158] = AMATR5
 nodes[69744236] = AMATR5
 nodes[69874163] = AMATR5
 -- quest=55700
 nodes[60932455] = AMATR6
 nodes[61343060] = AMATR6
+nodes[62722355] = AMATR6
 nodes[63122508] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[63532160] = AMATR6
 nodes[65543142] = AMATR6
@@ -642,7 +650,7 @@ nodes[59022780] = TimedEvent({quest=57588, assault=EMP, pois={
 -------------------------------------------------------------------------------
 
 nodes[84205548] = TimedEvent({quest=55670, assault=AMA, note=L["raiding_fleet"]}) -- Amathet Raiding Fleet
-nodes[76004700] = TimedEvent({quest=57243, assault=AMA, note=L["slave_camp"]}) -- Amathet Slave Camp
+nodes[76094793] = TimedEvent({quest=57243, assault=AMA, note=L["slave_camp"]}) -- Amathet Slave Camp
 nodes[62062069] = TimedEvent({quest=55356, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
 nodes[71594586] = TimedEvent({quest=55358, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
 nodes[83496186] = TimedEvent({quest=55357, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
