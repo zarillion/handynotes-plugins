@@ -70,7 +70,7 @@ L["voidflame_ritual"] = "Apaga todas las velas tocadas por el Vacío."
 
 L["beacon_of_sun_king"] = "Gira los rayos de las tres estatuas hacia el orbe."
 L["engine_of_ascen"] = "Mueve las cuatro estatuas hasta interceptar los rayos."
-L["lightblade_training"] = "Mata Instructores y Siervos hasta que aparezca Kames, Hoja del Crepúsculo."
+L["lightblade_training"] = "Mata Instructores y Siervos hasta que aparezca Kames, Hoja del Alba."
 L["raiding_fleet"] = "Quema todos los botes usando la antorcha de la misión."
 L["slave_camp"] = "Abre todos las jaulas cercanas."
 L["unsealed_tomb"] = "Protege a Heru de las oleadas de bichos."
