@@ -64,7 +64,7 @@ L["ritual_ascension"] = "Убейте всех Светозарных-ритуа
 L["solar_collector"] = "Включите все пять ячеек со всех сторон Солнечного Коллектора. Нажатие на кристалл силы также переключает все кристаллы, касающиеся этой ячейки.\n\nЕсли все ячейки пусты, самая короткая последовательность левая-> правая-> средняя-> левая-> правая."
 L["summoning_ritual"] = "Убейте послушников и закройте портал призыва."
 L["titanus_egg"] = "Уничтожьте Колоссальное яйцо, затем победите Молодого акира-колосса."
-L["unearthed_keeper"] = "Destroy the Unearthed Keeper."
+L["unearthed_keeper"] = "Уничтожить Раскопанного Хранителя."
 L["virnall_front"] = "Отбивайте атаки монстров, пока не появится Менептах Вестник войны."
 L["voidflame_ritual"] = "Extinguish all of the voidtouched candles."
 
@@ -73,7 +73,7 @@ L["engine_of_ascen"] = "Move all four statues into the beams."
 L["lightblade_training"] = "Убивайте инструкторов и учеников, пока не появится Камес, Клинок Рассвета."
 L["raiding_fleet"] = "Сожги все лодки, используя Бросок Факела."
 L["slave_camp"] = "Откройте все близлежащие клетки."
-L["unsealed_tomb"] = "Protect Heru from waves of mobs."
+L["unsealed_tomb"] = "Защити Геру от волн монстров."
 
 -------------------------------------------------------------------------------
 ------------------------------------ VALE -------------------------------------
@@ -116,8 +116,8 @@ L["mantid_hatch"] = "Pick up the Shado-Pan Flamethrower and destroy the larva in
 L["mending_monstro"] = "Destroy all the Mending Amber crystals."
 L["mystery_sacro"] = "Destroy all the Suspicious Headstones, then kill the Screaming Soul."
 L["noodle_cart"] = "Defend Chin while he repairs his cart."
-L["protect_stout"] = "Защитите пещеру от волн мобов."
-L["pulse_mound"] = "Убей окружающих мобов, затем Живой Нарост."
+L["protect_stout"] = "Защитите пещеру от волн монстров."
+L["pulse_mound"] = "Убей окружающих монстров, затем Живой Нарост."
 L["ravager_hive"] = "Destroy all of the hives on the tree."
 L["ritual_wakening"] = "Kill the Klaxxi Wakeners."
 L["serpent_binding"] = "Kill the Zan-Tien Subjugators, then Haofeng."
