@@ -64,7 +64,7 @@ L["ritual_ascension"] = "Töte die Sonnenberührten Ritualisten."
 L["solar_collector"] = "Aktiviere alle fünf Machtkristalle an allen Seiten des Sonnensammlers. Durch klicken auf eine Kristall werden alle Kristalle umgeschaltet die dieser berührt."
 L["summoning_ritual"] = "Töte die Akolythen von N'Zoth und läutere das Beschwörungsportal."
 L["titanus_egg"] = "Zerstöre das Titanusei und besiege dann das Titanusjungtier."
-L["unearthed_keeper"] = "Zerstöre die Ausgegrabenen Hüter."
+L["unearthed_keeper"] = "Zerstöre den Ausgegrabenen Hüter."
 L["virnall_front"] = "Besiege Wellen von Gegnern bis Menepthah der Kriegshetzer erscheint."
 L["voidflame_ritual"] = "Lösche alle Leerenberührten Kerzen."
 
