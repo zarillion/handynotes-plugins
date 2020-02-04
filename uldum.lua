@@ -618,7 +618,7 @@ nodes[31614380] = TimedEvent({quest=58660, assault=AQR, note=L["burrowing_terror
 
 -------------------------------------------------------------------------------
 
--- local MAWREWARD = {Achievement({id=14161, criteria=1})}
+local MAWREWARD = {Achievement({id=14161, criteria=1})}
 
 nodes[55382132] = TimedEvent({quest=58257, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 nodes[62407931] = TimedEvent({quest=58258, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
