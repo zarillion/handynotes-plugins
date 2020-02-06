@@ -106,12 +106,12 @@ L["consuming_maw"] = "Нажимайте на наросты и щупальца
 L["corruption_tear"] = "Возьмите Маяк Титанов и закройте Прорыв Порчи, не позволяя крутящимся глазам ударить вас."
 L["electric_empower"] = "Kill the Zan-Tien Callers, then Menek the Infused."
 L["empowered_demo"] = "Закройте все Реликварий Духов."
-L["empowered_wagon"] = "Pick up Shado-Pan Ammunitions and place them under the wagon."
+L["empowered_wagon"] = "Подберите боеприпасы Шадо-Пан и поместите их под повозку."
 L["feeding_grounds"] = "Уничтожить сосуды с янтарной смолой и камеры заключения."
 L["font_corruption"] = "Вращайте статуи могу, пока оба луча не достигнут задней части, затем включите консоль."
 L["goldbough_guardian"] = "Protect Chief Goldbough from waves of mobs."
 L["infested_statue"] = "Уберите все дергающиеся глаза со статуи."
-L["kunchong_incubator"] = "Destroy all the field generators."
+L["kunchong_incubator"] = "Уничтожить все генераторы поля."
 L["mantid_hatch"] = "Подберите огнемет Шадо-Пан и уничтожьте инкубаторы для личинок."
 L["mending_monstro"] = "Уничтожьте все кристаллы Исцеляющего янтаря."
 L["mystery_sacro"] = "Destroy all the Suspicious Headstones, then kill the Screaming Soul."
@@ -125,7 +125,7 @@ L["stormchosen_arena"] = "Clear all mobs in the arena, then kill the Clan Genera
 L["swarm_caller"] = "Уничтожить Призыватель Роя."
 L["vault_of_souls"] = "Open the vault and destroy all the statues."
 L["void_conduit"] = "Нажмите на Проводник Бездны, а затем давите Зоркое Око."
-L["war_banner"] = "Burn the banners and kill waves of mobs until the commander appears."
+L["war_banner"] = "Сожгите боевое знамя и убивайте волны монстров, пока не появится командир."
 L["weighted_artifact"] = "Pick up the Oddly Heavy Vase and navigate the maze back to the pedestal. Getting stunned by a statue drops the vase."
 
 -------------------------------------------------------------------------------
