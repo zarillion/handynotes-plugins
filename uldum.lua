@@ -643,6 +643,9 @@ nodes[50568833] = TimedEvent({quest=57359, assault=EMP, note=L["summoning_ritual
 nodes[55227932] = TimedEvent({quest=57621, assault=EMP, note=L["summoning_ritual"]}) -- Summoning Ritual
 nodes[62037070] = TimedEvent({quest=58271, assault=EMP, note=L["voidflame_ritual"]}) -- Voidflame Ritual
 
+nodes[46243068] = TimedEvent({quest=57586, assault=EMP, pois={
+    Path({44272884, 44772860, 45202953, 46012982, 46243068, 47193047, 47773145, 47803309, 47203350})
+}}) -- Spirit Drinker
 nodes[47174044] = TimedEvent({quest=57456, assault=EMP, pois={
     Path({47944278, 47084245, 47254116, 47053964, 46583882, 46943783})
 }}) -- Spirit Drinker
@@ -661,9 +664,6 @@ nodes[60005506] = TimedEvent({quest=57591, assault=EMP, pois={
 nodes[64066598] = TimedEvent({quest=57589, assault=EMP, pois={
     Path({63356496, 64066598, 65306702, 65436896, 66697001, 67986971, 68547031, 68677190, 69447238, 69867349})
 }}) -- Spirit Drinker
--- nodes[] = TimedEvent({quest=57586, assault=EMP, pois={
---     Path({})
--- }}) -- Spirit Drinker
 
 -------------------------------------------------------------------------------
 
