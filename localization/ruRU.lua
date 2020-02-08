@@ -66,7 +66,7 @@ L["summoning_ritual"] = "Убейте послушников и закройте
 L["titanus_egg"] = "Уничтожьте Колоссальное яйцо, затем победите Молодого акира-колосса."
 L["unearthed_keeper"] = "Уничтожить Раскопанного Хранителя."
 L["virnall_front"] = "Отбивайте атаки монстров, пока не появится Менептах Вестник войны."
-L["voidflame_ritual"] = "Extinguish all of the voidtouched candles."
+L["voidflame_ritual"] = "Погасить все тронутые бездной свечи."
 
 L["beacon_of_sun_king"] = "Поверните все три статуи внутрь."
 L["engine_of_ascen"] = "Move all four statues into the beams."
