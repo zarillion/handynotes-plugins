@@ -297,6 +297,7 @@ nodes[16021946] = MANTR2
 nodes[17432634] = MANTR2
 nodes[19001350] = clone(MANTR2, {note=L["guolai"]})
 nodes[21051415] = MANTR2
+nodes[26301110] = MANTR2
 -- quest=58226
 nodes[07693682] = MANTR3
 nodes[09302831] = MANTR3
