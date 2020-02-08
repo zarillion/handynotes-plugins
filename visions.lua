@@ -4,10 +4,13 @@
 
 local ADDON_NAME, ns = ...
 local L = ns.locale
+local clone = ns.clone
+local isinstance = ns.isinstance
 
 local Map = ns.Map
 local Node = ns.node.Node
 local Rare = ns.node.Rare
+local Treasure = ns.node.Treasure
 local Mount = ns.reward.Mount
 local Toy = ns.reward.Toy
 local Path = ns.poi.Path
@@ -30,13 +33,17 @@ local stormwind = Map({ id=1470 })
 
 function stormwind:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
-    return ns.addon.db.profile.misc_visions
+
+    local profile = ns.addon.db.profile
+    if isinstance(node, Treasure) then return profile.chest_visions end
+    return profile.misc_visions
 end
 
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+defaults['chest_visions'] = true
 defaults['misc_visions'] = true
 
 options.groupVisions = {
@@ -45,12 +52,21 @@ options.groupVisions = {
     order = 20,
 }
 
-options.mailVisions = {
+options.chestVisions = {
+    type = "toggle",
+    arg = "chest_visions",
+    name = L["options_toggle_chests"],
+    desc = L["options_toggle_visions_chest_desc"],
+    order = 21,
+    width = "normal",
+}
+
+options.miscVisions = {
     type = "toggle",
     arg = "misc_visions",
     name = L["options_toggle_misc"],
-    desc = L["options_toggle_visions_desc"],
-    order = 21,
+    desc = L["options_toggle_visions_misc_desc"],
+    order = 22,
     width = "normal",
 }
 
@@ -60,8 +76,55 @@ local MAIL = Node({icon=133468, label=L["mailbox"], rewards={
     Mount({id=1315, item=174653}) -- Mail Muncher
 }, note=L["mail_muncher"]})
 
+local CHEST1 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 1)})
+local CHEST2 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 2)})
+local CHEST3 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 3)})
+
 -------------------------------------------------------------------------------
 ---------------------------------- ORGRIMMAR ----------------------------------
+-------------------------------------------------------------------------------
+
+-- Valley of Strength
+orgrimmar.nodes[46927409] = CHEST1
+orgrimmar.nodes[48036506] = CHEST1
+orgrimmar.nodes[48197761] = CHEST1
+orgrimmar.nodes[49537689] = CHEST1
+orgrimmar.nodes[50067075] = CHEST1
+orgrimmar.nodes[52967707] = CHEST1
+
+-- Valley of Spirits
+orgrimmar.nodes[32046909] = CHEST2
+orgrimmar.nodes[34746325] = CHEST2
+orgrimmar.nodes[34937546] = CHEST2
+orgrimmar.nodes[35556927] = CHEST2
+orgrimmar.nodes[35767889] = CHEST2
+orgrimmar.nodes[37528493] = CHEST2
+orgrimmar.nodes[39388038] = CHEST2
+
+-- The Drag
+orgrimmar.nodes[56915817] = clone(CHEST2, {note=L["inside_building"]})
+orgrimmar.nodes[57116273] = CHEST2
+orgrimmar.nodes[57415604] = CHEST2
+orgrimmar.nodes[57554961] = CHEST2
+orgrimmar.nodes[60175638] = CHEST2
+orgrimmar.nodes[60745806] = clone(CHEST2, {note=L["inside_building"]})
+orgrimmar.nodes[60985254] = CHEST2
+
+-- Valley of Wisdom
+orgrimmar.nodes[39474727] = CHEST3
+orgrimmar.nodes[41224994] = CHEST3
+orgrimmar.nodes[42064971] = CHEST3
+orgrimmar.nodes[45195352] = CHEST3
+orgrimmar.nodes[46895101] = CHEST3
+orgrimmar.nodes[48474897] = CHEST3
+orgrimmar.nodes[48874617] = CHEST3
+
+-- Valley of Honor
+orgrimmar.nodes[66283141] = CHEST3
+orgrimmar.nodes[66763903] = CHEST3
+orgrimmar.nodes[69164858] = CHEST3
+orgrimmar.nodes[69384572] = CHEST3
+
 -------------------------------------------------------------------------------
 
 orgrimmar.nodes[39304900] = MAIL
@@ -85,6 +148,40 @@ orgrimmar.nodes[39906120] = SHAVE_KIT
 ---------------------------------- STORMWIND ----------------------------------
 -------------------------------------------------------------------------------
 
+-- Cathedral Square
+stormwind.nodes[51955788] = CHEST1
+stormwind.nodes[55085027] = CHEST1
+stormwind.nodes[55845275] = CHEST1
+stormwind.nodes[57034974] = CHEST1
+
+-- Trade District
+stormwind.nodes[61027547] = CHEST2
+stormwind.nodes[61886605] = CHEST2
+stormwind.nodes[63687447] = CHEST2
+stormwind.nodes[66617039] = CHEST2
+
+-- Dwarven District
+stormwind.nodes[60573394] = CHEST2
+stormwind.nodes[62522946] = CHEST2
+stormwind.nodes[63424206] = CHEST2
+stormwind.nodes[66223412] = CHEST2
+stormwind.nodes[66694422] = CHEST2
+
+-- Mage Quarter
+stormwind.nodes[43018320] = CHEST3
+stormwind.nodes[44658694] = CHEST3
+stormwind.nodes[47478888] = CHEST3
+stormwind.nodes[50169002] = CHEST3
+stormwind.nodes[54048542] = CHEST3
+
+-- Old Town
+stormwind.nodes[72056202] = CHEST3
+stormwind.nodes[73565625] = CHEST3
+stormwind.nodes[75286476] = CHEST3
+stormwind.nodes[76475374] = clone(CHEST3, {note=L["inside_building"]})
+
+-------------------------------------------------------------------------------
+
 stormwind.nodes[49688700] = MAIL
 stormwind.nodes[54645752] = MAIL
 stormwind.nodes[61687604] = MAIL
@@ -102,7 +199,7 @@ end
 
 stormwind.nodes[58905290] = VOID_SKULL
 
-stormwind.nodes[59106390] = Rare({id=158284, pois={
+stormwind.nodes[59106390] = Rare({id=158284, note=L["craggle"], pois={
     Path({
         58707630, 57507290, 56406950, 56706670, 59106390, 62306130, 64706190,
         67006490, 68406710

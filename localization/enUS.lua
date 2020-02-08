@@ -132,14 +132,19 @@ L["weighted_artifact"] = "Pick up the Oddly Heavy Vase and navigate the maze bac
 ----------------------------------- VISIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["clear_sight"] = "Requires Clear Sight rank %d."
+L["craggle"] = "Drop a toy on the ground (such as the Toy Train Set) to distract him while his bots continue to pat. Once they are separated enough, kill the bots then Craggle."
 L["horrific_visions"] = "Horrific Visions"
+L["inside_building"] = "Inside a building."
 L["mailbox"] = "Mailbox"
 L["mail_muncher"] = "When opened, the Mail Muncher has a chance to spawn."
-L["options_toggle_visions_desc"] = "Show rewards locations inside horrific visions."
 L["shave_kit"] = "Coifcurl's Close Shave Kit"
 L["shave_kit_note"] = "Inside the barber shop. Loot the crate on the table."
 L["void_skull"] = "Void-Touched Skull"
 L["void_skull_note"] = "Click the skull on the ground to loot the toy."
+
+L["options_toggle_visions_chest_desc"] = "Show possible chest locations inside horrific visions."
+L["options_toggle_visions_misc_desc"] = "Show mailbox and rare locations inside horrific visions."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
