@@ -334,11 +334,11 @@ local MOGChest = Class('MOGChest', Treasure, {
 })
 
 local MOGTR1 = MOGChest({quest=57206, icon='chest_blue', note=L["guolai"]})
-local MOGTR2 = MOGChest({quest=57208, icon='chest_purple'})
+local MOGTR2 = MOGChest({quest=57208, icon='chest_lime'})
 local MOGTR3 = MOGChest({quest=57209, icon='chest_orange'})
 local MOGTR4 = MOGChest({quest=57211, icon='chest_yellow'})
 local MOGTR5 = MOGChest({quest=57212, icon='chest_teal'})
-local MOGTR6 = MOGChest({quest=57213, icon='chest_lime'})
+local MOGTR6 = MOGChest({quest=57213, icon='chest_purple'})
 
 -- quest=57206
 nodes[13500720] = MOGTR1
