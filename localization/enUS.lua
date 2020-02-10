@@ -145,19 +145,33 @@ Purple => Black
 Red => Blue
 ]]
 
+L["bear_spirit"] = "Bear Spirit"
+L["bear_spirit_note"] = "Kill the Angry Bear Rug Spirit and all waves of mobs to gain a 10% haste buff."
 L["clear_sight"] = "Requires Clear Sight rank %d."
 L["craggle"] = "Drop a toy on the ground (such as the Toy Train Set) to distract him while his bots continue to pat. Once they are separated enough, kill the bots then Craggle."
+L["empowered"] = "Empowered"
+L["empowered_note"] = "Go through the maze of mines and stand on the Experimental Buff Mine upstairs for a 10% damage buff."
+L["enriched"] = "Enriched"
+L["enriched_note"] = "Kill the Neglected Guild Bank for a 10% crit buff."
+L["ethereal"] = "Ethereal"
+L["ethereal_note"] = "Collect orange crystals hidden throughout the vision and return them to this NPC for extra momentos."
 L["horrific_visions"] = "Horrific Visions"
 L["inside_building"] = "Inside a building."
 L["mailbox"] = "Mailbox"
 L["mail_muncher"] = "When opened, the Mail Muncher has a chance to spawn."
+L["requited_bulwark"] = "Requited Bulwark"
+L["requited_bulwark_note"] = "Kill Agustus Moulaine to gain a 7% versatility buff."
 L["shave_kit"] = "Coifcurl's Close Shave Kit"
 L["shave_kit_note"] = "Inside the barber shop. Loot the crate on the table."
 L["void_skull"] = "Void-Touched Skull"
 L["void_skull_note"] = "Click the skull on the ground to loot the toy."
 
+L["options_toggle_visions_buffs"] = "Buffs"
+L["options_toggle_visions_buffs_desc"] = "Show locations of events that grant 1 hour damage buffs."
 L["options_toggle_visions_chest_desc"] = "Show possible chest locations inside horrific visions."
-L["options_toggle_visions_misc_desc"] = "Show mailbox and rare locations inside horrific visions."
+L["options_toggle_visions_mail"] = "Mailboxes"
+L["options_toggle_visions_mail_desc"] = "Show mailbox locations for the Mail Muncher mount."
+L["options_toggle_visions_misc_desc"] = "Show rare, toy, potion and ethereal locations inside horrific visions."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------

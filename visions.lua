@@ -4,6 +4,7 @@
 
 local ADDON_NAME, ns = ...
 local L = ns.locale
+local Class = ns.Class
 local clone = ns.clone
 local isinstance = ns.isinstance
 
@@ -19,6 +20,18 @@ local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
 
 -------------------------------------------------------------------------------
+
+local Buff = Class('Buff', Node)
+
+local MAIL = Node({icon=133468, label=L["mailbox"], rewards={
+    Mount({id=1315, item=174653}) -- Mail Muncher
+}, note=L["mail_muncher"]})
+
+local CHEST1 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 1)})
+local CHEST2 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 2)})
+local CHEST3 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 3)})
+
+-------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
@@ -26,7 +39,12 @@ local orgrimmar = Map({ id=1469 })
 
 function orgrimmar:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
-    return ns.addon.db.profile.misc_visions
+
+    local profile = ns.addon.db.profile
+    if isinstance(node, Treasure) then return profile.chest_visions end
+    if isinstance(node, Buff) then return profile.buff_visions end
+    if node == MAIL then return profile.mail_visions end
+    return profile.misc_visions
 end
 
 local stormwind = Map({ id=1470 })
@@ -36,6 +54,8 @@ function stormwind:enabled (node, coord, minimap)
 
     local profile = ns.addon.db.profile
     if isinstance(node, Treasure) then return profile.chest_visions end
+    if isinstance(node, Buff) then return profile.buff_visions end
+    if node == MAIL then return profile.mail_visions end
     return profile.misc_visions
 end
 
@@ -44,6 +64,8 @@ end
 -------------------------------------------------------------------------------
 
 defaults['chest_visions'] = true
+defaults['buff_visions'] = true
+defaults['mail_visions'] = true
 defaults['misc_visions'] = true
 
 options.groupVisions = {
@@ -61,24 +83,32 @@ options.chestVisions = {
     width = "normal",
 }
 
+options.buffVisions = {
+    type = "toggle",
+    arg = "buff_visions",
+    name = L["options_toggle_visions_buffs"],
+    desc = L["options_toggle_visions_buffs_desc"],
+    order = 22,
+    width = "normal",
+}
+
+options.mailVisions = {
+    type = "toggle",
+    arg = "mail_visions",
+    name = L["options_toggle_visions_mail"],
+    desc = L["options_toggle_visions_mail_desc"],
+    order = 23,
+    width = "normal",
+}
+
 options.miscVisions = {
     type = "toggle",
     arg = "misc_visions",
     name = L["options_toggle_misc"],
     desc = L["options_toggle_visions_misc_desc"],
-    order = 22,
+    order = 24,
     width = "normal",
 }
-
--------------------------------------------------------------------------------
-
-local MAIL = Node({icon=133468, label=L["mailbox"], rewards={
-    Mount({id=1315, item=174653}) -- Mail Muncher
-}, note=L["mail_muncher"]})
-
-local CHEST1 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 1)})
-local CHEST2 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 2)})
-local CHEST3 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 3)})
 
 -------------------------------------------------------------------------------
 ---------------------------------- ORGRIMMAR ----------------------------------
@@ -194,6 +224,15 @@ stormwind.nodes[75716456] = MAIL
 
 -------------------------------------------------------------------------------
 
+-- Is there a mastery buff?
+stormwind.nodes[58404919] = Buff({icon=132183, label=L["bear_spirit"], note=L["bear_spirit_note"]})
+stormwind.nodes[53545806] = Buff({icon=1621334, label=L["requited_bulwark"], note=L["requited_bulwark_note"]})
+stormwind.nodes[59553713] = Buff({icon=133035, label=L["empowered"], note=L["empowered_note"]})
+stormwind.nodes[63107740] = Buff({icon=133784, label=L["enriched"], note=L["enriched_note"]})
+
+-------------------------------------------------------------------------------
+
+stormwind.nodes[57204620] = Node({icon=2823166, label=L["ethereal"], note=L["ethereal_note"]})
 stormwind.nodes[51765852] = Node({icon=967522, label=L["colored_potion"],
     note=string.format(L["colored_potion_note"], 'Morgan Pestle')})
 
