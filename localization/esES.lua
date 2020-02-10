@@ -132,14 +132,46 @@ L["weighted_artifact"] = "Coge el Jarrón Extrañamente Pesado y vuelve por dond
 ----------------------------------- VISIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["colored_potion"] = "Poción Coloreada"
+L["colored_potion_note"] = [[
+La poción junto al cuerpo de %s siempre indica el color de la poción de efectos negativos de la visión en curso.
+
+El color de la poción de +100 de cordura se puede saber por el color de esta poción (|cFFFF0000bad|r => |cFF00FF00good|r):
+
+Negro => Verde
+Azul => Violeta
+Verde => Rojo
+Violeta => Negro
+Rojo => Azul
+]]
+
+L["bear_spirit"] = "Bear Spirit"
+L["bear_spirit_note"] = "Kill the Angry Bear Rug Spirit and all waves of mobs to gain a 10% haste buff."
+L["clear_sight"] = "Requires Clear Sight rank %d."
+L["craggle"] = "Drop a toy on the ground (such as the Toy Train Set) to distract him while his bots continue to pat. Once they are separated enough, kill the bots then Craggle."
+L["empowered"] = "Empowered"
+L["empowered_note"] = "Go through the maze of mines and stand on the Experimental Buff Mine upstairs for a 10% damage buff."
+L["enriched"] = "Enriched"
+L["enriched_note"] = "Kill the Neglected Guild Bank for a 10% crit buff."
+L["ethereal"] = "Ethereal"
+L["ethereal_note"] = "Collect orange crystals hidden throughout the vision and return them to this NPC for extra momentos."
 L["horrific_visions"] = "Visiones Horripilantes"
+L["inside_building"] = "Inside a building."
 L["mailbox"] = "Buzón de Correo"
 L["mail_muncher"] = "Cuando se abre, existe la probabilidad de que aparezca el raro Zampacorreos."
-L["options_toggle_visions_misc_desc"] = "Muestra las recompensas de zona dentro de las Visiones Horripilantes."
+L["requited_bulwark"] = "Requited Bulwark"
+L["requited_bulwark_note"] = "Kill Agustus Moulaine to gain a 7% versatility buff."
 L["shave_kit"] = "Equipo de Afeitado de Ricitos"
 L["shave_kit_note"] = "Dentro de la peluquería. Despoja la caja que hay encima de la mesa."
 L["void_skull"] = "Calavera tocada por el Vacío"
 L["void_skull_note"] = "Haz click en la calavera del suelo para despojar el juguete."
+
+L["options_toggle_visions_buffs"] = "Buffs"
+L["options_toggle_visions_buffs_desc"] = "Show locations of events that grant 1 hour damage buffs."
+L["options_toggle_visions_chest_desc"] = "Show possible chest locations inside horrific visions."
+L["options_toggle_visions_mail"] = "Mailboxes"
+L["options_toggle_visions_mail_desc"] = "Show mailbox locations for the Mail Muncher mount."
+L["options_toggle_visions_misc_desc"] = "Show rare, toy, potion and ethereal locations inside horrific visions."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
