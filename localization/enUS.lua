@@ -132,6 +132,19 @@ L["weighted_artifact"] = "Pick up the Oddly Heavy Vase and navigate the maze bac
 ----------------------------------- VISIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["colored_potion"] = "Colored Potion"
+L["colored_potion_note"] = [[
+The potion next to the corpse of %s always indicates color of the negative-effect potion for the run.
+
+The color of the +100 sanity potion can be determined by the color of this potion (|cFFFF0000bad|r => |cFF00FF00good|r):
+
+Black => Green
+Blue => Purple
+Green => Red
+Purple => Black
+Red => Blue
+]]
+
 L["clear_sight"] = "Requires Clear Sight rank %d."
 L["craggle"] = "Drop a toy on the ground (such as the Toy Train Set) to distract him while his bots continue to pat. Once they are separated enough, kill the bots then Craggle."
 L["horrific_visions"] = "Horrific Visions"

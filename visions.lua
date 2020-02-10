@@ -133,6 +133,10 @@ orgrimmar.nodes[52707580] = MAIL
 orgrimmar.nodes[60105130] = MAIL
 orgrimmar.nodes[67673924] = MAIL
 
+-------------------------------------------------------------------------------
+
+-- orgrimmar.nodes[] = POTION TODO
+
 local SHAVE_KIT = Node({icon=1001616, label=L["shave_kit"], note=L["shave_kit_note"], rewards={
     Toy({item=174920}) -- Coifcurl's Close Shave Kit
 }})
@@ -187,6 +191,11 @@ stormwind.nodes[54645752] = MAIL
 stormwind.nodes[61687604] = MAIL
 stormwind.nodes[62073082] = MAIL
 stormwind.nodes[76306430] = MAIL
+
+-------------------------------------------------------------------------------
+
+stormwind.nodes[51765852] = Node({icon=967522, label=L["colored_potion"],
+    note=string.format(L["colored_potion_note"], 'Morgan Pestle')})
 
 local VOID_SKULL = Node({icon=237272, label=L["void_skull"], note=L["void_skull_note"], rewards={
     Toy({item=174921}) -- Void-Touched Skull
