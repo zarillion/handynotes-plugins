@@ -187,10 +187,10 @@ stormwind.nodes[76475374] = clone(CHEST3, {note=L["inside_building"]})
 -------------------------------------------------------------------------------
 
 stormwind.nodes[49688700] = MAIL
-stormwind.nodes[54645752] = MAIL
+stormwind.nodes[54635751] = MAIL
 stormwind.nodes[61687604] = MAIL
 stormwind.nodes[62073082] = MAIL
-stormwind.nodes[76306430] = MAIL
+stormwind.nodes[75716456] = MAIL
 
 -------------------------------------------------------------------------------
 
