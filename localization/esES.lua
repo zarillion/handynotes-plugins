@@ -26,6 +26,7 @@ L["kanebti"] = "Recoge Figurilla de Escarabajo con Joyas haciendo click en Escar
 L["left_eye"] = "Te da la mitad izquierda del juguete Ojos que todo lo ven."
 L["neferset_rare"] = "Los seis raros comparten los tres lugares de aparición en Neferset. Tras completar un número de veces el evento del Ritual de Invocación, aparecerán tres raros aleatorios."
 L["platform"] = "Aparece encima de la plataforma flotante."
+L["single_chest"] = "¡Este cofre aparece sólo en una localización! Si no está aquí, espera un poco y aparecerá."
 L["spirit_cave"] = "Entrada de la cueva para el Espíritu del Ritualista Oscuro Zakahn."
 L["tomb_widow"] = "Para invocarlo: cuando los sacos de huevos blancos están presentes por los pilares, mata las arañas invisibles."
 L["uatka"] = "Junto con otros dos jugadores más, haced click al mismo tiempo al Dispositivo Misterioso. Requiere que cada uno tenga un Amuleto Fúlgido de un Relicario Amathet."
@@ -147,6 +148,7 @@ Rojo => Azul
 
 L["bear_spirit"] = "Espíritu de Oso"
 L["bear_spirit_note"] = "Mata el Espíritu de Alfombra de Oso Enfadado Y todas las oleadas de bichos para ganar un buff de 10% de celeridad."
+L["buffs_change"] = "Los buffs disponibles cambian cada semana. Los edificios estarán cerrados cuando no tengan el buff."
 L["clear_sight"] = "Requiere Visión Clara rango %d."
 L["craggle"] = "Deja un juguete en el suelo (como el Conjunto de Trenes de Juguete) para distraerlo mientras sus robots siguen patrullando. Cuando estén suficientemente separados, mata los robots y después a Chichón Perinola."
 L["empowered"] = "Potenciado"
