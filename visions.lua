@@ -225,10 +225,14 @@ stormwind.nodes[75716456] = MAIL
 -------------------------------------------------------------------------------
 
 -- Is there a mastery buff?
-stormwind.nodes[58404919] = Buff({icon=132183, label=L["bear_spirit"], note=L["bear_spirit_note"]})
-stormwind.nodes[53545806] = Buff({icon=1621334, label=L["requited_bulwark"], note=L["requited_bulwark_note"]})
-stormwind.nodes[59553713] = Buff({icon=133035, label=L["empowered"], note=L["empowered_note"]})
-stormwind.nodes[63107740] = Buff({icon=133784, label=L["enriched"], note=L["enriched_note"]})
+stormwind.nodes[58404919] = Buff({icon=132183, label=L["bear_spirit"],
+    note=L["bear_spirit_note"]..'\n\n'..L["buffs_change"]})
+stormwind.nodes[53545906] = Buff({icon=1621334, label=L["requited_bulwark"],
+    note=L["requited_bulwark_note"]..'\n\n'..L["buffs_change"]})
+stormwind.nodes[59553713] = Buff({icon=133035, label=L["empowered"],
+    note=L["empowered_note"]..'\n\n'..L["buffs_change"]})
+stormwind.nodes[63107740] = Buff({icon=133784, label=L["enriched"],
+    note=L["enriched_note"]..'\n\n'..L["buffs_change"]})
 
 -------------------------------------------------------------------------------
 

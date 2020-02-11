@@ -456,8 +456,8 @@ local EMPChest = Class('EMPChest', Treasure, {
     assault=EMP, label=L["black_empire_cache"]
 })
 
-local EMPTR1 = EMPChest({quest=57623, icon='chest_blue'})
-local EMPTR2 = EMPChest({quest=57624, icon='chest_purple'})
+local EMPTR1 = EMPChest({quest=57623, icon='chest_blue', note=L["single_chest"]})
+local EMPTR2 = EMPChest({quest=57624, icon='chest_purple', note=L["single_chest"]})
 local EMPTR3 = EMPChest({quest=57626, icon='chest_orange'})
 local EMPTR4 = EMPChest({quest=57627, icon='chest_yellow'})
 local EMPTR5 = EMPChest({quest=57635, icon='chest_teal'})
