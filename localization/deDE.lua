@@ -136,7 +136,7 @@ L["colored_potion"] = "Farbige Fläschchen"
 L["colored_potion_note"] = [[
 Das Fläschchen neben der Leiche von %s zeigt immer die Farbe des Negativeffekt Fläschchens für diesen Lauf an.
 
-Die Farbe der +100 Geistigegesundheits Fläschchen kann mit hilfe der Farbe dieses Fläschchens herausgefunden werden (|cFFFF0000bad|r => |cFF00FF00good|r):
+Die Farbe des +100 Geistigegesundheit Fläschchens kann mit hilfe der Farbe dieses Fläschchens herausgefunden werden (|cFFFF0000schlecht|r => |cFF00FF00gut|r):
 
 Schwarz => Grün
 Blau => Lila
