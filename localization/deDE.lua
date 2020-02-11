@@ -26,6 +26,7 @@ L["kanebti"] = "Sammle eine Juwelenbesetzte Skarabäusfigur von einem Juwelenbes
 L["left_eye"] = "Lässt die linke Hälfte des Allsehende Augen Spielzeugs fallen."
 L["neferset_rare"] = "Diese sechs Seltenen Gegner teilen sich die gleichen drei Spawnplätze in Neferset. Nachdem eine Reihe von Beschwörungsritual-Ereignissen abgeschlossen wurden, werden zufällig drei von ihnen erscheinen."
 L["platform"] = "Erscheint auf der schwebenden Plattform."
+L["single_chest"] = "Diese Truhe erscheint nur an einem Ort! Wenn sie nicht da ist, warte ein bisschen und sie wird wiedererscheinen."
 L["spirit_cave"] = "Höhleneingang für den Geist des dunklen Ritualisten Zakahn."
 L["tomb_widow"] = "Wenn die weißen Eiersäcke an den Säulen vorhanden sind, töte die unsichtbaren \"Gruftspinnen\", um sie zu beschwören."
 L["uatka"] = "Klick zusammen mit zwei anderen Spielern auf jeweils ein  Mysteriöses Gerät. \nBenötigt ein \"Sonnenberührtes Amulett\" aus einem \"Reliquiar der Amathet\"."
@@ -139,32 +140,42 @@ Das Fläschchen neben der Leiche von %s zeigt immer die Farbe des Negativeffekt 
 Die Farbe des +100 Geistigegesundheit Fläschchens kann mit hilfe der Farbe dieses Fläschchens herausgefunden werden (|cFFFF0000schlecht|r => |cFF00FF00gut|r):
 
 Schwarz => Grün
-Blau => Lila
 Grün => Rot
-Lila => Schwarz
 Rot => Blau
+Blau => Lila
+Lila => Schwarz
 ]]
 
 L["bear_spirit"] = "Bärengeist"
 L["bear_spirit_note"] = "Töte Wütender Bärpelzgeist und alle Wellen von Gegnern um einen 10% Tempo Stärkungszauber zu erhalten."
+L["buffs_change"] = "Verfügbare Stärkungszauber ändern sich jede Woche. Wenn das Gebäude geschlossen ist, der NPC oder das Objekt fehlt ist dieser diese Woche nicht verfügbar."
 L["clear_sight"] = "Benötigt Klare Sicht Rang %d."
-L["craggle"] = "Platziere ein Spielzeug auf dem Boden (wie das Spielzeugzugset), um ihn abzulenken, während seine Wachen weiter laufen. Sobald sie genug getrennt sind, töte die Wachen und dann Craggle."
+L["craggle"] = "Platziere ein Spielzeug auf dem Boden (wie das Spielzeugzugset) um ihn abzulenken. Ziehe seine Bots zurseite und töte diese zuerst."
 L["empowered"] = "Ermächtigt"
-L["empowered_note"] = "Gehe durch das Minenfeld und stelle dich auf die Experimentelle Stärkungsmine für einen 10% Schaden Stärkungszauber."
+L["empowered_note"] = "Gehe durch das Minenfeld die Treppe nach oben und stelle dich auf die Experimentelle Stärkungsmine für einen 10% Schaden Stärkungszauber."
 L["enriched"] = "Angereichert"
 L["enriched_note"] = "Töte die Vernachlässigte Gildenbank um einen 10% kritische Trefferwertung Stärkungszauber zu erhalten."
-L["ethereal"] = "Astraler"
-L["ethereal_note"] = "Sammel orangene Kristalle die in der Vision versteckt sind und bringe sie zu diesem NPC um extra Verderbte Andenken zu erhalten."
+L["ethereal_essence"] = "Astrale Essenz"
+L["ethereal_essence_note"] = "Töte Warpweaver Dushar um einen 10% kritische Trefferwertung Stärkungszauber zu erhalten."
+L["ethereal_note"] = "Sammel orangene Kristalle die in der Vision versteckt sind und bringe sie zu diesem NPC um extra Verderbte Andenken zu erhalten. |cFF00FF00Vergiss nicht die Truhe zu plündern!|r"
+L["heroes_bulwark"] = "Bollwerk der Helden"
+L["heroes_bulwark_note"] = "Töte Gamon im Gasthaus um einen 10% Gesundheit Stärkungszauber zu erhalten."
 L["horrific_visions"] = "Verstörende Visionen"
 L["inside_building"] = "In einem Gebäude."
 L["mailbox"] = "Briefkasten"
+L["morgan_pestle"] = "Morgan Pestle"
 L["mail_muncher"] = "Beim öffnen besteht eine Chance das Postmampfer erscheint."
 L["requited_bulwark"] = "Belohnendes Bollwerk"
-L["requited_bulwark_note"] = "Töte Agustus Moulaine um einen 7% Vielseitigkeits Stärkungszauber zu erhalten."
+L["requited_bulwark_note"] = "Töte Agustus Moulaine um einen 7% Vielseitigkeit Stärkungszauber zu erhalten."
 L["shave_kit"] = "Haubenlockes Glattrasurset"
+L["smiths_strength"] = "Stärke des Schmieds"
+L["smiths_strength_note"] = "Töte Naros in der Schmiedehütte um einen 10% Schaden Stärkungszauber zu erhalten."
+L["spirit_of_wind"] = "Geist des Windes"
+L["spirit_of_wind_note"] = "Töte Bwemba um einen 10% Tempo and Bewegungsgeschwindigkeit Stärkungszauber zu erhalten."
 L["shave_kit_note"] = "Im Barbierladen. Loote die Kiste auf dem Tisch."
 L["void_skull"] = "Leerenberührter Schädel"
 L["void_skull_note"] = "Klicke den Schädel auf dem Boden an um das Spielzeug zu plündern."
+L["yelmak"] = "Yelmak"
 
 L["options_toggle_visions_buffs"] = "Stärkungszauber"
 L["options_toggle_visions_buffs_desc"] = "Zeigt die Positionen von Events die einen 1 Stunde Stärkungszauber gewähren."
