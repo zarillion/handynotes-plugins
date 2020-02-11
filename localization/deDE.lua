@@ -132,19 +132,46 @@ L["weighted_artifact"] = "Hebe das Seltsam schweres Gefäß auf und navigiere du
 ----------------------------------- VISIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["colored_potion"] = "Farbige Fläschchen"
+L["colored_potion_note"] = [[
+Das Fläschchen neben der Leiche von %s zeigt immer die Farbe des Negativeffekt Fläschchens für diesen Lauf an.
+
+Die Farbe der +100 Geistigegesundheits Fläschchen kann mit hilfe der Farbe dieses Fläschchens herausgefunden werden (|cFFFF0000bad|r => |cFF00FF00good|r):
+
+Schwarz => Grün
+Blau => Lila
+Grün => Rot
+Lila => Schwarz
+Rot => Blau
+]]
+
+L["bear_spirit"] = "Bärengeist"
+L["bear_spirit_note"] = "Töte Wütender Bärpelzgeist und alle Wellen von Gegnern um einen 10% Tempo Stärkungszauber zu erhalten."
 L["clear_sight"] = "Benötigt Klare Sicht Rang %d."
 L["craggle"] = "Platziere ein Spielzeug auf dem Boden (wie das Spielzeugzugset), um ihn abzulenken, während seine Wachen weiter laufen. Sobald sie genug getrennt sind, töte die Wachen und dann Craggle."
+L["empowered"] = "Ermächtigt"
+L["empowered_note"] = "Gehe durch das Minenfeld und stelle dich auf die Experimentelle Stärkungsmine für einen 10% Schaden Stärkungszauber."
+L["enriched"] = "Angereichert"
+L["enriched_note"] = "Töte die Vernachlässigte Gildenbank um einen 10% kritische Trefferwertung Stärkungszauber zu erhalten."
+L["ethereal"] = "Astraler"
+L["ethereal_note"] = "Sammel orangene Kristalle die in der Vision versteckt sind und bringe sie zu diesem NPC um extra Verderbte Andenken zu erhalten."
 L["horrific_visions"] = "Verstörende Visionen"
 L["inside_building"] = "In einem Gebäude."
 L["mailbox"] = "Briefkasten"
 L["mail_muncher"] = "Beim öffnen besteht eine Chance das Postmampfer erscheint."
+L["requited_bulwark"] = "Belohnendes Bollwerk"
+L["requited_bulwark_note"] = "Töte Agustus Moulaine um einen 7% Vielseitigkeits Stärkungszauber zu erhalten."
 L["shave_kit"] = "Haubenlockes Glattrasurset"
 L["shave_kit_note"] = "Im Barbierladen. Loote die Kiste auf dem Tisch."
 L["void_skull"] = "Leerenberührter Schädel"
 L["void_skull_note"] = "Klicke den Schädel auf dem Boden an um das Spielzeug zu plündern."
 
+L["options_toggle_visions_buffs"] = "Stärkungszauber"
+L["options_toggle_visions_buffs_desc"] = "Zeigt die Positionen von Events die einen 1 Stunde Stärkungszauber gewähren."
 L["options_toggle_visions_chest_desc"] = "Zeigt mögliche Truhen Positionen in Verstörenden Visionen an."
-L["options_toggle_visions_misc_desc"] = "Zeigt Briefkästen und Seltene Gegner Positionen in Verstörenden Visionen an."
+L["options_toggle_visions_mail"] = "Briefkästen"
+L["options_toggle_visions_mail_desc"] = "Zeigt die Positionen von Briefkästen für das Postmampfer Reittier."
+L["options_toggle_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, Spielzeugen, Fläschchen und Astralen in Verstörenden Visionen."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
