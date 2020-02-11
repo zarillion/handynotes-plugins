@@ -10,6 +10,7 @@ local isinstance = ns.isinstance
 
 local Map = ns.Map
 local Node = ns.node.Node
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local Mount = ns.reward.Mount
@@ -165,7 +166,20 @@ orgrimmar.nodes[67673924] = MAIL
 
 -------------------------------------------------------------------------------
 
--- orgrimmar.nodes[] = POTION TODO
+orgrimmar.nodes[32106430] = Buff({icon=461119, label=L["spirit_of_wind"],
+    note=L["spirit_of_wind_note"]..'\n\n'..L["buffs_change"]})
+orgrimmar.nodes[44667697] = Buff({icon=133044, label=L["smiths_strength"],
+    note=L["smiths_strength_note"]..'\n\n'..L["buffs_change"]})
+orgrimmar.nodes[54277833] = Buff({icon=134991, label=L["heroes_bulwark"],
+    note=L["heroes_bulwark_note"]..'\n\n'..L["buffs_change"]})
+orgrimmar.nodes[57676513] = Buff({icon=1717106, label=L["ethereal_essence"],
+    note=L["ethereal_essence_note"]..'\n\n'..L["buffs_change"]})
+
+-------------------------------------------------------------------------------
+
+orgrimmar.nodes[54027044] = NPC({id=162358, icon=2823166, note=L["ethereal_note"]})
+orgrimmar.nodes[46828078] = Node({icon=967522, label=L["colored_potion"],
+    note=string.format(L["colored_potion_note"], L["yelmak"])})
 
 local SHAVE_KIT = Node({icon=1001616, label=L["shave_kit"], note=L["shave_kit_note"], rewards={
     Toy({item=174920}) -- Coifcurl's Close Shave Kit
@@ -224,7 +238,6 @@ stormwind.nodes[75716456] = MAIL
 
 -------------------------------------------------------------------------------
 
--- Is there a mastery buff?
 stormwind.nodes[58404919] = Buff({icon=132183, label=L["bear_spirit"],
     note=L["bear_spirit_note"]..'\n\n'..L["buffs_change"]})
 stormwind.nodes[53545906] = Buff({icon=1621334, label=L["requited_bulwark"],
@@ -236,9 +249,9 @@ stormwind.nodes[63107740] = Buff({icon=133784, label=L["enriched"],
 
 -------------------------------------------------------------------------------
 
-stormwind.nodes[57204620] = Node({icon=2823166, label=L["ethereal"], note=L["ethereal_note"]})
+stormwind.nodes[57204620] = NPC({id=162358, icon=2823166, note=L["ethereal_note"]})
 stormwind.nodes[51765852] = Node({icon=967522, label=L["colored_potion"],
-    note=string.format(L["colored_potion_note"], 'Morgan Pestle')})
+    note=string.format(L["colored_potion_note"], L["morgan_pestle"])})
 
 local VOID_SKULL = Node({icon=237272, label=L["void_skull"], note=L["void_skull_note"], rewards={
     Toy({item=174921}) -- Void-Touched Skull
