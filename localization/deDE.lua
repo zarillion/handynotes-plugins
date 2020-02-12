@@ -142,8 +142,8 @@ Die Farbe des +100 Geistigegesundheit Fläschchens kann mit hilfe der Farbe dies
 Schwarz => Grün
 Grün => Rot
 Rot => Blau
-Blau => Lila
-Lila => Schwarz
+Blau => Violett
+Violett => Schwarz
 ]]
 
 L["bear_spirit"] = "Bärengeist"
