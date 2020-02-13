@@ -148,9 +148,9 @@ L["colored_potion_note"] = [[
 
 L["bear_spirit"] = "Дух медведя"
 L["bear_spirit_note"] = "Убейте Рассерженного духа медвежьей шкуры и все волны монстров, чтобы получить бафф на 10% скорости."
-L["buffs_change"] = "Available buffs change each week. If the building is closed or the NPC/object is missing, that buff is not up this week."
-L["clear_sight"] = "Requires Clear Sight rank %d."
-L["craggle"] = "Drop a toy on the ground (such as the Toy Train Set) to distract him while his bots continue to pat. Once they are separated enough, kill the bots then Craggle."
+L["buffs_change"] = "Доступные баффы меняются каждую неделю. Если здание закрыто или NPC/объект отсутствует, этого баффа не будет на этой неделе."
+L["clear_sight"] = "Требуется Ясное зрение ранга %d."
+L["craggle"] = "Положите игрушку на землю (например, игрушечную железную дорогу), чтобы отвлечь его, пока его боты продолжают путь. Как только они разойдутся достаточно далеко то убейте ботов, а затем Крэггла Головодерга."
 L["empowered"] = "Усиление"
 L["empowered_note"] = "Пройдите через лабиринт из мин и встаньте на Экспериментальную усиливающую мину, чтобы получить бафф на 10% урона."
 L["enriched"] = "Богатство"
@@ -177,11 +177,11 @@ L["void_skull"] = "Меченный Бездной череп"
 L["void_skull_note"] = "Нажмите на череп на земле, чтобы получить игрушку."
 L["yelmak"] = "Йелмак"
 
-L["options_toggle_visions_buffs"] = "Buffs"
-L["options_toggle_visions_buffs_desc"] = "Show locations of events that grant 1 hour damage buffs."
+L["options_toggle_visions_buffs"] = "Баффы"
+L["options_toggle_visions_buffs_desc"] = "Показать места событий, которые дают баффы на урон, на час."
 L["options_toggle_visions_chest_desc"] = "Показать возможные места сундуков внутри жутких видений."
 L["options_toggle_visions_mail"] = "Почтовый Ящик"
-L["options_toggle_visions_mail_desc"] = "Show mailbox locations for the Mail Muncher mount."
+L["options_toggle_visions_mail_desc"] = "Показывать расположение почтовых ящиков для получения Письмоеда."
 L["options_toggle_visions_misc_desc"] = "Показать награды на карте внутри жутких видений."
 
 -------------------------------------------------------------------------------
