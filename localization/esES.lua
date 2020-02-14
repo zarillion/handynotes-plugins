@@ -287,6 +287,8 @@ L["options_toggle_hide_done_rare"] = "Ocultar el raro si todo el botín se conoc
 L["options_toggle_hide_done_rare_desc"] = "Ocultar todos los raros a los que se les conozca el botín."
 L["options_toggle_hide_minimap"] = "Ocultar todos los iconos sobre el minimapa"
 L["options_toggle_hide_minimap_desc"] = "Oculta todos los iconos de este addon sobre el minimapa y los muestra solamente sobre el mapa principal."
+L["options_restore_hidden_nodes"] = "Volver a mostrar los nodos escondidos"
+L["options_restore_hidden_nodes_desc"] = "Vuelve a mostrar todos los nodos escondidos usando el menú contextual con click-derecho."
 
 L["options_toggle_battle_pets_desc"] = "Mostrar las localizaciones de los instructores de mascotas y NPCs."
 L["options_toggle_battle_pets"] = "Mascotas de combate"
