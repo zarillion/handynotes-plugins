@@ -148,7 +148,7 @@ Rojo => Azul
 
 L["bear_spirit"] = "Espíritu de Oso"
 L["bear_spirit_note"] = "Mata el Espíritu de Alfombra de Oso Enfadado Y todas las oleadas de bichos para ganar un buff de 10% de celeridad."
-L["buffs_change"] = "Los buffs disponibles cambian cada semana. Si el edificio está cerrados o el NPC/objeto no está, es que el buff no está esta semana."
+L["buffs_change"] = "Los buffs disponibles cambian en cada pasada. Si el edificio está cerrados o el NPC/objeto no está, es que el buff no está en esa pasada."
 L["clear_sight"] = "Requiere Visión Clara rango %d."
 L["craggle"] = "Deja un juguete en el suelo (como el Conjunto de Trenes de Juguete) para distraerlo mientras sus robots siguen patrullando. Cuando estén suficientemente separados, mata los robots y después a Chichón Perinola."
 L["empowered"] = "Potenciado"
