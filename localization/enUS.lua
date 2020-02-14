@@ -148,7 +148,7 @@ Red => Blue
 
 L["bear_spirit"] = "Bear Spirit"
 L["bear_spirit_note"] = "Kill the Angry Bear Rug Spirit and all waves of mobs to gain a 10% haste buff."
-L["buffs_change"] = "Available buffs change each week. If the building is closed or the NPC/object is missing, that buff is not up this week."
+L["buffs_change"] = "Available buffs change each run. If the building is closed or the NPC/object is missing, that buff is not up this run."
 L["clear_sight"] = "Requires Clear Sight rank %d."
 L["craggle"] = "Drop a toy on the ground (such as the Toy Train Set) to distract him. Pull his bots away and kill them first."
 L["empowered"] = "Empowered"
