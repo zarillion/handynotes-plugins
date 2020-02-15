@@ -148,7 +148,7 @@ Violett => Schwarz
 
 L["bear_spirit"] = "Bärengeist"
 L["bear_spirit_note"] = "Töte Wütender Bärpelzgeist und alle Wellen von Gegnern um einen 10% Tempo Stärkungszauber zu erhalten."
-L["buffs_change"] = "Verfügbare Stärkungszauber ändern sich jede Woche. Wenn das Gebäude geschlossen ist, der NPC oder das Objekt fehlt ist dieser diese Woche nicht verfügbar."
+L["buffs_change"] = "Verfügbare Stärkungszauber ändern sich jeden Durchlauf. Wenn das Gebäude geschlossen ist, der NPC oder das Objekt fehlt ist dieser in diesem Durchlauf nicht verfügbar."
 L["clear_sight"] = "Benötigt Klare Sicht Rang %d."
 L["craggle"] = "Platziere ein Spielzeug auf dem Boden (wie das Spielzeugzugset) um ihn abzulenken. Ziehe seine Bots zurseite und töte diese zuerst."
 L["empowered"] = "Ermächtigt"
@@ -287,6 +287,8 @@ L["options_toggle_hide_done_rare"] = "Blende seltene Gegner aus deren Beute beka
 L["options_toggle_hide_done_rare_desc"] = "Blendet alle seltenen Gegner deren Beute bereits bekannt ist aus."
 L["options_toggle_hide_minimap"] = "Blende alle Symbole auf der Minikarte aus"
 L["options_toggle_hide_minimap_desc"] = "Blendet alle Symbole dieses Addons auf der Minikarte aus und zeigt sie nur auf der Hauptkarte an."
+L["options_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
+L["options_restore_hidden_nodes_desc"] = "Stelle alle Punkte wiederher die über das Kontextmenü versteckt wurden."
 
 L["options_toggle_battle_pets_desc"] = "Zeigt Standorte von Kampfhaustiertrainern und NPCs an."
 L["options_toggle_battle_pets"] = "Kampfhaustiere"
