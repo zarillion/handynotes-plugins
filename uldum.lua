@@ -369,7 +369,7 @@ local NefRare = Class('NefersetRare', Rare, {
 function NefRare:enabled (map, coord, minimap)
     if not Rare.enabled(self, map, coord, minimap) then return false end
     -- Only show if a Summoning Ritual event is active or completed
-    for i, quest in ipairs({57359, 57621}) do
+    for i, quest in ipairs({57359, 57620, 57621}) do
         if C_TaskQuest.GetQuestTimeLeftMinutes(quest) or IsQuestFlaggedCompleted(quest) then
             return true
         end
@@ -643,6 +643,7 @@ nodes[50578232] = TimedEvent({quest=58275, assault=EMP, note=L["monstrous_summon
 nodes[59767241] = TimedEvent({quest=57429, assault=EMP, note=L["pyre_amalgamated"], rewards={
     Pet({id=2851, item=174478}) -- Wicked Lurker
 }}) -- Pyre of the Amalgamated One (also 58330?)
+nodes[49997867] = TimedEvent({quest=57620, assault=EMP, note=L["summoning_ritual"]}) -- Summoning Ritual
 nodes[50568833] = TimedEvent({quest=57359, assault=EMP, note=L["summoning_ritual"]}) -- Summoning Ritual
 nodes[55227932] = TimedEvent({quest=57621, assault=EMP, note=L["summoning_ritual"]}) -- Summoning Ritual
 nodes[62037070] = TimedEvent({quest=58271, assault=EMP, note=L["voidflame_ritual"]}) -- Voidflame Ritual
