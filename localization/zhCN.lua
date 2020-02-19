@@ -132,14 +132,56 @@ L["in_flames"] = "拾取水桶灭火"
 ----------------------------------- VISIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["colored_potion"] = "颜色药水"
+L["colored_potion_note"] = [[
+%s旁边的药水颜色表示本次惊魂幻象内负面效果的药水颜色。
+
+加100理智的药水颜色可以由该药水确定(|cFFFF0000坏|r => |cFF00FF00好|r):
+
+黑色 => 绿色
+蓝色 => 紫色
+绿色 => 红色
+紫色 => 黑色
+红色 => 蓝色
+]]
+
+L["bear_spirit"] = "Bear Spirit"
+L["bear_spirit_note"] = "Kill the Angry Bear Rug Spirit and all waves of mobs to gain a 10% haste buff."
+L["buffs_change"] = "每次幻象可以获取的BUFF都会变。如果建筑没有开门或者NPC不在，说明这个BUFF在此次幻象内不存在"
+L["clear_sight"] = "需要科技：清晰视界%d级"
+L["craggle"] = "Drop a toy on the ground (such as the Toy Train Set) to distract him. Pull his bots away and kill them first."
+L["empowered"] = "Empowered"
+L["empowered_note"] = "Go through the maze of mines and stand on the Experimental Buff Mine upstairs for a 10% damage buff."
+L["enriched"] = "Enriched"
+L["enriched_note"] = "Kill the Neglected Guild Bank for a 10% crit buff."
+L["ethereal_essence"] = "Ethereal Essence"
+L["ethereal_essence_note"] = "Kill Warpweaver Dushar for a 10% crit buff."
+L["ethereal_note"] = "收集隐藏在整个幻象内的怪异水晶（橙色晶体）来交给这个NPC以获取额外的腐化纪念品\n\n|cFF00FF00别忘了拾取宝箱！|r"
+L["heroes_bulwark"] = "英雄的壁垒"
+L["heroes_bulwark_note"] = "击杀旅馆内的加摩尔获取生命值+10%BUFF"
 L["horrific_visions"] = "惊魂幻象"
+L["inside_building"] = "Inside a building."
 L["mailbox"] = "邮箱"
 L["mail_muncher"] = "打开邮箱会随机刷新邮件吞噬者"
-L["options_toggle_visions_misc_desc"] = "显示惊魂幻象内的奖励位置"
-L["shave_kit"] = "Coifcurl's Close Shave Kit"
-L["shave_kit_note"] = "Inside the barber shop."
+L["morgan_pestle"] = "Morgan Pestle"
+L["requited_bulwark"] = "Requited Bulwark"
+L["requited_bulwark_note"] = "Kill Agustus Moulaine to gain a 7% versatility buff."
+L["shave_kit"] = "科弗库尔的理发工具包"
+L["shave_kit_note"] = "在理发店内。拾取桌子上的箱子。"
+L["smiths_strength"] = "Smith's Strength"
+L["smiths_strength_note"] = "Kill Naros in the blacksmith hut for a 10% damage buff."
+L["spirit_of_wind"] = "风之魂"
+L["spirit_of_wind_note"] = "击杀布温巴获取急速及移动速度+10%BUFF"
 L["void_skull"] = "Void-Touched Skull"
 L["void_skull_note"] = "Click the skull on the ground to loot the toy."
+L["yelmak"] = "耶尔玛克"
+
+L["options_toggle_visions_buffs"] = "增益效果"
+L["options_toggle_visions_buffs_desc"] = "显示可以获得持续一小时的伤害BUFF的事件位置"
+L["options_toggle_visions_chest_desc"] = "显示惊魂幻象内可能的宝箱位置"
+L["options_toggle_visions_mail"] = "邮箱"
+L["options_toggle_visions_mail_desc"] = "显示会掉落邮件吞噬者坐骑的邮箱位置"
+L["options_toggle_visions_misc_desc"] = "显示惊魂幻象内可能的奖励位置"
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -201,7 +243,7 @@ L["incomplete"] = "未完成"
 L["known"] = "已获得"
 L["missing"] = "未获得"
 L["unobtainable"] = "无法获得"
-L["unlearnable"] = "无法解锁（相对当前职业、专精或其它原因）"
+L["unlearnable"] = "无法解锁"
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -258,6 +300,8 @@ L["options_toggle_rares"] = "稀有"
 L["options_toggle_supplies_desc"] = "显示战争补给箱（空投）的位置"
 L["options_toggle_supplies"] = "战争补给箱（空投）"
 L["options_toggle_treasures"] = "宝藏"
+L["options_restore_hidden_nodes"] = "恢复隐藏项"
+L["options_restore_hidden_nodes_desc"] = "恢复所有由右键菜单隐藏的节点"
 
 ---------------------------------- TOOLTIP ---------------------------------
 
