@@ -458,58 +458,61 @@ local EMPChest = Class('EMPChest', Treasure, {
 
 local EMPTR1 = EMPChest({quest=57623, icon='chest_blue', note=L["single_chest"]})
 local EMPTR2 = EMPChest({quest=57624, icon='chest_purple', note=L["single_chest"]})
-local EMPTR3 = EMPChest({quest=57626, icon='chest_orange'})
-local EMPTR4 = EMPChest({quest=57627, icon='chest_yellow'})
-local EMPTR5 = EMPChest({quest=57635, icon='chest_teal'})
+local EMPTR3 = EMPChest({quest=57625, icon='chest_lime', note=L["in_water"]..' '..L["single_chest"]})
+local EMPTR4 = EMPChest({quest=57626, icon='chest_orange'})
+local EMPTR5 = EMPChest({quest=57627, icon='chest_yellow'})
+local EMPTR6 = EMPChest({quest=57635, icon='chest_teal'})
 
 -- quest=57623
 nodes[58361535] = EMPTR1
 -- quest=57624
 nodes[50793143] = EMPTR2
+-- quest=57625
+nodes[52705006] = EMPTR3
 -- quest=57626
-nodes[57808250] = EMPTR3
-nodes[57817487] = EMPTR3
-nodes[58247282] = EMPTR3
-nodes[59226749] = EMPTR3
-nodes[60576213] = EMPTR3
-nodes[61778172] = EMPTR3
-nodes[62588188] = EMPTR3
-nodes[62977610] = EMPTR3
-nodes[62996440] = EMPTR3
-nodes[64436501] = EMPTR3
-nodes[66756810] = EMPTR3
-nodes[67547066] = EMPTR3
-nodes[70217325] = EMPTR3
+nodes[57808250] = EMPTR4
+nodes[57817487] = EMPTR4
+nodes[58247282] = EMPTR4
+nodes[59226749] = EMPTR4
+nodes[60576213] = EMPTR4
+nodes[61778172] = EMPTR4
+nodes[62588188] = EMPTR4
+nodes[62977610] = EMPTR4
+nodes[62996440] = EMPTR4
+nodes[64436501] = EMPTR4
+nodes[66756810] = EMPTR4
+nodes[67547066] = EMPTR4
+nodes[70217325] = EMPTR4
 -- quest=57627
-nodes[59816610] = EMPTR4
-nodes[59867422] = EMPTR4
-nodes[60246529] = EMPTR4
-nodes[60757493] = EMPTR4
-nodes[60967000] = EMPTR4
-nodes[61206544] = EMPTR4
-nodes[61817595] = EMPTR4
-nodes[62157346] = EMPTR4
-nodes[62737184] = EMPTR4
-nodes[62807565] = EMPTR4
-nodes[63867065] = EMPTR4
-nodes[64607503] = EMPTR4
-nodes[65357117] = EMPTR4
-nodes[67167394] = EMPTR4
+nodes[59816610] = EMPTR5
+nodes[59867422] = EMPTR5
+nodes[60246529] = EMPTR5
+nodes[60757493] = EMPTR5
+nodes[60967000] = EMPTR5
+nodes[61206544] = EMPTR5
+nodes[61817595] = EMPTR5
+nodes[62157346] = EMPTR5
+nodes[62737184] = EMPTR5
+nodes[62807565] = EMPTR5
+nodes[63867065] = EMPTR5
+nodes[64607503] = EMPTR5
+nodes[65357117] = EMPTR5
+nodes[67167394] = EMPTR5
 -- quest=57635
-nodes[45697961] = EMPTR5
-nodes[47507687] = EMPTR5
-nodes[49037684] = EMPTR5
-nodes[49398584] = EMPTR5
-nodes[49807210] = EMPTR5
-nodes[50207510] = EMPTR5
-nodes[51157388] = EMPTR5
-nodes[51207970] = EMPTR5
-nodes[51707135] = EMPTR5
-nodes[51777298] = EMPTR5
-nodes[51897858] = EMPTR5
-nodes[52197757] = EMPTR5
-nodes[55397860] = EMPTR5
-nodes[55658346] = EMPTR5
+nodes[45697961] = EMPTR6
+nodes[47507687] = EMPTR6
+nodes[49037684] = EMPTR6
+nodes[49398584] = EMPTR6
+nodes[49807210] = EMPTR6
+nodes[50207510] = EMPTR6
+nodes[51157388] = EMPTR6
+nodes[51207970] = EMPTR6
+nodes[51707135] = EMPTR6
+nodes[51777298] = EMPTR6
+nodes[51897858] = EMPTR6
+nodes[52197757] = EMPTR6
+nodes[55397860] = EMPTR6
+nodes[55658346] = EMPTR6
 
 local EMPCOFF = Supply({quest=57628, assault=EMP, note=L["cursed_relic"],
     label=L["black_empire_coffer"]})
