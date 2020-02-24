@@ -206,11 +206,9 @@ end)
 
 nodes[64572623] = Rare({id=157170, quest=57281, assault=AMA, note=L["chamber_of_the_stars"]}) -- Acolyte Taspu
 nodes[66817436] = Rare({id=158557, quest=57669, assault=EMP}) -- Actiss the Deceiver
-nodes[69714973] = Rare({id=151883, quest=55468, assault=AMA, pois={
-    Path({68645049, 69714973, 70955041, 71425210, 71005388, 69855463, 68695394, 68225217, 68645049})
-}}) -- Anaua
+nodes[73805180] = Rare({id=151883, quest=55468, assault=AMA}) -- Anaua
 nodes[32426443] = Rare({id=155703, quest=56834}) -- Anq'uri the Titanic
-nodes[38732500] = Rare({id=154578, quest=58612, note=L["aqir_flayer"], pois={
+nodes[38732500] = Rare({id=154578, quest=58612, assault=AQR, note=L["aqir_flayer"], pois={
     POI({ -- Aqir Hive Worker
         41202497, 40472249, 39882209, 38942459, 37102236, 36502179, 37782046,
         36761891, 37591749, 36041891, 35691808, 33551946, 32251624, 35031801,
@@ -222,7 +220,7 @@ nodes[38732500] = Rare({id=154578, quest=58612, note=L["aqir_flayer"], pois={
         29816310, 32056727, 32426645, 33646358, 37094853
     })
 }}) -- Aqir Flayer
-nodes[30595944] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
+nodes[30595944] = Rare({id=154576, quest=58614, assault=AQR, note=L["aqir_titanus"], pois={
     POI({30266161, 30076533, 31496674, 33356610, 32486946, 34856598}),
     Path({37295892, 36485588, 37285284}),
     Path({38134884, 36535023, 34765141, 32935159}),
@@ -235,7 +233,7 @@ nodes[30595944] = Rare({id=154576, quest=58614, note=L["aqir_titanus"], pois={
     Path({32994510, 35434436, 36284239}),
     Path({41243247, 40503334, 39233745})
 }}) -- Aqir Titanus
-nodes[38214521] = Rare({id=162172, quest=58694, note=L["aqir_warcaster"], pois={
+nodes[38214521] = Rare({id=162172, quest=58694, assault=AQR, note=L["aqir_warcaster"], pois={
     POI({
         29666397, 30346691, 30396549, 30946805, 31296612, 31316747, 31546811,
         31586663, 31906347, 32256093, 32796516, 32856283, 33046590, 33246733,
@@ -276,7 +274,7 @@ nodes[80504715] = Rare({id=151995, quest=55502, assault=AMA, pois={
     Path({80504715, 79804519, 77204597})
 }}) -- Hik-Ten the Taskmaster
 nodes[60033950] = Rare({id=160623, quest=58206, assault=EMP, note=L["hmiasma"]}) -- Hungering Miasma
-nodes[19755847] = Rare({id=155531, quest=56823, note=L["wastewander"], pois={
+nodes[19755847] = Rare({id=155531, quest=56823, assault=AQR, note=L["wastewander"], pois={
     POI({
         17896249, 18026020, 18406490, 18966279, 19176080, 19626403, 19696174,
         19976498, 20036084, 20336267, 20686052, 20796452, 21365790, 22056027,
@@ -330,7 +328,7 @@ nodes[66676804] = Rare({id=162372, quest=58715, assault={AQR, AMA}, pois={
 }}) -- Spirit of Cyrus the Black
 nodes[49944011] = Rare({id=162352, quest=58716, assault={AQR, AMA}, note=L["in_water_cave"]}) -- Spirit of Dark Ritualist Zakahn
 nodes[52154012] = Cave({parent=nodes[49944011], assault={AQR, AMA}, label=L["spirit_cave"]}) -- Entrance
-nodes[78986389] = Rare({id=151878, quest=58613}) -- Sun King Nahkotep
+nodes[78986389] = Rare({id=151878, quest=58613, assault=AMA}) -- Sun King Nahkotep
 nodes[84785704] = Rare({id=151897, quest=55479, assault=AMA}) -- Sun Priestess Nubitt
 nodes[73347447] = Rare({id=151609, quest=55353, assault=AMA}) -- Sun Prophet Epaphos
 nodes[65903522] = Rare({id=152657, quest=55682, assault=AMA, pois={
@@ -348,7 +346,6 @@ nodes[33592569] = Rare({id=162170, quest=58702, assault=AQR}) -- Warcaster Xeshr
 nodes[79505217] = Rare({id=151852, quest=55461, assault=AMA, pois={
     Path({77755217, 81265217})
 }}) -- Watcher Rehu
-
 nodes[80165708] = Rare({id=157164, quest=57279, assault=AMA}) -- Zealot Tekem
 nodes[39694159] = Rare({id=162141, quest=58695, assault=AQR}) -- Zuythiz
 
