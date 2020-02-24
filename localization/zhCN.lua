@@ -145,8 +145,8 @@ L["colored_potion_note"] = [[
 红色 => 蓝色
 ]]
 
-L["bear_spirit"] = "Bear Spirit"
-L["bear_spirit_note"] = "Kill the Angry Bear Rug Spirit and all waves of mobs to gain a 10% haste buff."
+L["bear_spirit"] = "熊之魂"
+L["bear_spirit_note"] = "击杀愤怒的熊毯之灵获取急速+10%BUFF"
 L["buffs_change"] = "每次幻象可以获取的BUFF都会变。如果建筑没有开门或者NPC不在，说明这个BUFF在此次幻象内不存在"
 L["clear_sight"] = "需要科技：清晰视界%d级"
 L["craggle"] = "在地上放一个玩具（比如玩具火车）来扰乱他，然后将机器人拉开并优先击杀"
