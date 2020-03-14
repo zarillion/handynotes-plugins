@@ -6,6 +6,8 @@ if not L then return end
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
+L["operation_mechagon"] = "Operation Mechagon"
+
 L["avenger_note"] = "When Oglethorpe Obnoticus is in Rustbolt, kill the OOX-Fleetfoot/MG (runs all over the zone) to spawn.";
 L["beastbot_note"] = "Craft a Beastbot Powerpack at Pascal-K1N6 to activate.";
 L["cogstar_note"] = "Kill Upgraded Sentry mobs anywhere in the zone until he teleports in to reinforce them.";
@@ -35,6 +37,15 @@ L["rust_chest_note"] = "Open with an Old Rusty Key dropped from mobs in the West
 L["rec_rig"] = "Reclamation Rig"
 L["rec_rig_note"] = "To activate hard-mode, use the Supercollider weapon to convert all Irradiated Elementals into Unstable Irradiated Elementals. Pets are obtainable on both difficulties."
 
+L["grease_bot"] = "Grease Bot"
+L["grease_bot_note"] = "Click the bot to gain 5% haste and 10% movement speed for 2 hours."
+L["shock_bot"] = "Shock Bot"
+L["shock_bot_note"] = "Click the bot to gain a chain lightning damage proc for 2 hours."
+L["welding_bot"] = "Welding Bot"
+L["welding_bot_note"] = "Click the bot to increase health and healing received by 10% for 2 hours."
+
+L["options_toggle_mech_buffs"] = "Buff Bots"
+L["options_toggle_mech_buffs_desc"] = "Display locations of grease, shock and welding bots on the map inside the dungeon."
 L["options_toggle_mech_chest"] = "Mechanized Chests"
 L["options_toggle_mech_chest_desc"] = "Display locations of mechanized chests. There are 10 unique chests that can be looted once a day and each chest has 4-5 spawn locations. Locations are grouped by color."
 L["options_toggle_locked_chest"] = "Locked Chests"

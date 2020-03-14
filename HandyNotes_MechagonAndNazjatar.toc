@@ -29,3 +29,4 @@ core\rewards.lua
 
 mechagon.lua
 nazjatar.lua
+operation_mechagon.lua
