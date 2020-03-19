@@ -73,6 +73,7 @@ L["ritual_ascension"] = "击杀日灼祭师"
 L["virnall_front"] = "杀怪直到战争使者梅尼普塔出现"
 L["kanebti"] = "将宝石甲虫塑像放置到甲虫神龛上"
 L["monstrous_summon"] = "杀死所有深渊先驱"
+L["dunewalker"] = "在上面的平台点击太阳精华来释放它"
 
 
 -------------------------------------------------------------------------------
@@ -193,11 +194,22 @@ L["c_inside_cacti"] = "在角落的仙人掌里面"
 L["c_underneath_bridge"] = "在桥下"
 L["c_inside_auction"] = "在拍卖行内部右边"
 L["c_behind_rexxar"] = "在雷克萨房间的后面（右手边）"
-L["c_on_small_hill"] = "在小山顶上"
+L["c_on_small_hill"] = "在斜坡上"
 L["c_by_pillar_boxes"] = "在柱子和数个箱子之间的墙边"
 L["c_inside_big_tent"] = "在大帐篷内部左边"
 L["c_inside_hut"] = "在右边第一个房子内"
-
+L["c_behind_boxes"] = "在角落的几个箱子后面"
+L["c_left_cathedral"] = "藏在大教堂左边门口"
+L["c_forge_corner"] = "在锻炉附近的角落里"
+L["c_bar_upper"] = "在酒馆二楼"
+L["c_behind_stables"] = "在肖尔的马棚后面"
+L["c_behind_mailbox"] = "在邮箱后面"
+L["c_alley_corner"] = "在小巷的转角"
+L["c_behind_cart"] = "在被毁的推车后面"
+L["c_left_inquisitor"] = "审判官左后方的巷子里"
+L["c_behind_house_counter"] = "房间内，柜台后面"
+L["c_walkway_platform"] = "在走廊上方的平台上"
+L["c_walkway_corner"] = "在角落的走廊上"
 
 
 L["options_toggle_visions_buffs"] = "增益效果"
