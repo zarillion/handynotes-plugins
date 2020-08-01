@@ -1,23 +1,23 @@
 ## Interface: 80200
-## Title: HandyNotes: Mechagon & Nazjatar
-## Version: 13
-## Notes: Mechagon & Nazjatar Notes
+## Title: HandyNotes: Warlords of Draenor
+## Version: 12
+## Notes: Warlords of Draenor Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3
-## SavedVariables: HandyNotes_MechagonAndNazjatarDB
+## SavedVariables: HandyNotes_WarlordsOfDraenorDB
 
 #@no-lib-strip@
 embeds.xml
 #@end-no-lib-strip@
 
 localization\enUS.lua
-localization\ruRU.lua
-localization\zhTW.lua
 #localization\deDE.lua
 #localization\esES.lua
-#localization\zhCN.lua
 #localization\koKR.lua
+#localization\ruRU.lua
+#localization\zhCN.lua
+#localization\zhTW.lua
 
 core\class.lua
 core\core.lua
@@ -27,7 +27,9 @@ core\map.lua
 core\nodes.lua
 core\rewards.lua
 
-pins.xml
-mechagon.lua
-nazjatar.lua
-#operation_mechagon.lua
+zones\frostfire.lua
+zones\gorgrond.lua
+zones\nagrand.lua
+zones\shadowmoon.lua
+zones\spires.lua
+zones\talador.lua
