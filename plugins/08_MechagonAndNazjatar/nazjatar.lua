@@ -35,16 +35,13 @@ local map = Map({ id=1355 })
 local nodes = map.nodes
 
 function map:prepare ()
-    self.phased = self.intros[ns.faction]:done()
+    self.phased = self.intro:done()
 end
 
 function map:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
 
-    -- always show the intro helper nodes, and hide all other nodes if we're
-    -- not phased yet
-    if node.icon == 'quest_yellow' then return true end
-    if not self.phased and node.icon ~= 'quest_yellow' then return false end
+    if node == map.intro then return true end
 
     local profile = ns.addon.db.profile
     if isinstance(node, Treasure) then return profile.treasure_nazjatar end
@@ -169,28 +166,31 @@ function Intro.getters:label ()
     return GetAchievementCriteriaInfo(13710, 1) -- Welcome to Nazjatar
 end
 
-nodes[11952801] = Intro({quest=56156, faction='Alliance', rewards={
-    -- The Wolf's Offensive => A Way Home
-    Quest({id={56031,56043,55095,54969,56640,56641,56642,56643,56644,55175,54972}}),
-    -- Essential Empowerment => Scouting the Palace
-    Quest({id={55851,55533,55374,55400,55407,55425,55497,55618,57010,56162,56350}}),
-    -- The Lost Shaman => A Tempered Blade
-    Quest({id={55361,55362,55363,56156}})
-}})
+if UnitFactionGroup('player') == 'Alliance' then
+    map.intro = Intro({quest=56156, faction='Alliance', rewards={
+        -- The Wolf's Offensive => A Way Home
+        Quest({id={56031,56043,55095,54969,56640,56641,56642,56643,56644,55175,54972}}),
+        -- Essential Empowerment => Scouting the Palace
+        Quest({id={55851,55533,55374,55400,55407,55425,55497,55618,57010,56162,56350}}),
+        -- The Lost Shaman => A Tempered Blade
+        Quest({id={55361,55362,55363,56156}})
+    }})
+else
+    map.intro = Intro({quest=55500, faction='Horde', rewards={
+        -- The Warchief's Order => A Way Home
+        Quest({id={56030,56044,55054,54018,54021,54012,55092,56063,54015,56429,55094,55053}}),
+        -- Essential Empowerment => Scouting the Palace
+        Quest({id={55851,55533,55374,55400,55407,55425,55497,55618,57010,56161,55481}}),
+        -- Settling In => Save A Friend
+        Quest({id={55384,55385,55500}})
+    }})
+end
 
-nodes[11952802] = Intro({quest=55500, faction='Horde', rewards={
-    -- The Warchief's Order => A Way Home
-    Quest({id={56030,56044,55054,54018,54021,54012,55092,56063,54015,56429,55094,55053}}),
-    -- Essential Empowerment => Scouting the Palace
-    Quest({id={55851,55533,55374,55400,55407,55425,55497,55618,57010,56161,55481}}),
-    -- Settling In => Save A Friend
-    Quest({id={55384,55385,55500}})
-}})
-
-map.intros = { Alliance = nodes[11952801], Horde = nodes[11952802] }
+nodes[11952801] = map.intro
 
 ns.addon:RegisterEvent('QUEST_TURNED_IN', function (_, questID)
     if questID == 56156 or questID == 55500 then
+        ns.debug('Nazjatar unlock detected')
         C_Timer.After(1, function()
             ns.addon:Refresh();
         end);
