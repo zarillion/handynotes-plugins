@@ -1,6 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\FrameXML\UI.xsd">
-    <Frame name="HandyNotes_MechagonAndNazjatarWorldMapPinTemplate" hidden="true" mixin="HandyNotes_MechagonAndNazjatarWorldMapPinMixin" virtual="true">
+    <Frame name="{addon}WorldMapPinTemplate" hidden="true" mixin="{addon}WorldMapPinMixin" virtual="true">
         <Size x="30" y="30"/>
         <Layers>
             <Layer>

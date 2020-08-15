@@ -1,4 +1,4 @@
-## Interface: 80200
+## Interface: 90001
 ## Title: HandyNotes: Warlords of Draenor
 ## Version: 12
 ## Notes: Warlords of Draenor Notes
@@ -12,20 +12,17 @@ embeds.xml
 #@end-no-lib-strip@
 
 localization\enUS.lua
-#localization\deDE.lua
-#localization\esES.lua
-#localization\koKR.lua
-#localization\ruRU.lua
-#localization\zhCN.lua
-#localization\zhTW.lua
 
 core\class.lua
 core\core.lua
 core\icons.lua
 core\options.lua
+core\dev.lua
 core\map.lua
 core\nodes.lua
 core\rewards.lua
+core\pois.lua
+core\util.lua
 
 zones\frostfire.lua
 zones\gorgrond.lua
