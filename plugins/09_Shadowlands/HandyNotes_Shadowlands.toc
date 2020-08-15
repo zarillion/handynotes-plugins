@@ -1,24 +1,17 @@
 ## Interface: 90001
-## Title: HandyNotes: Visions Of N'Zoth
+## Title: HandyNotes: Shadowlands
 ## Version: 38
-## Notes: Visions Of N'Zoth Notes
+## Notes: Shadowlands Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3
-## SavedVariables: HandyNotes_VisionsOfNZothDB
+## SavedVariables: HandyNotes_ShadowlandsDB
 
 #@no-lib-strip@
 embeds.xml
 #@end-no-lib-strip@
 
 localization\enUS.lua
-localization\deDE.lua
-localization\esES.lua
-localization\esMX.lua
-localization\frFR.lua
-localization\ruRU.lua
-localization\zhCN.lua
-localization\zhTW.lua
 
 core\class.lua
 core\core.lua
@@ -33,8 +26,4 @@ core\util.lua
 
 pins.xml
 
-options.lua
-uldum.lua
-vale.lua
-visions.lua
-voldun.lua
+zones\bastion.lua

@@ -61,11 +61,11 @@ local function BootstrapDevelopmentEnvironment()
     local lastCheck = GetTime()
     local quests = {}
     local max_quest_id = 100000
-    C_Timer.After(1, function ()
+    C_Timer.After(2, function ()
         -- Give some time for quest info to load in before we start
         for id = 0, max_quest_id do quests[id] = IsQuestFlaggedCompleted(id) end
         QTFrame:SetScript('OnUpdate', function ()
-            if GetTime() - lastCheck > 1 then
+            if GetTime() - lastCheck > 5 and ns.addon.db.profile.show_debug_quest then
                 local changed = {}
                 for id = 0, max_quest_id do
                     local s = IsQuestFlaggedCompleted(id)

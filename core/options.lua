@@ -17,7 +17,6 @@ ns.optionDefaults = {
         icon_scale_pet_battles = 1,
         icon_scale_rares = 1,
         icon_scale_treasures = 1,
-        icon_scale_assaultevents = 1,
 
         -- icon alphas
         icon_alpha_caves = 0.75,
@@ -25,7 +24,6 @@ ns.optionDefaults = {
         icon_alpha_pet_battles = 1.0,
         icon_alpha_rares = 0.75,
         icon_alpha_treasures = 0.75,
-        icon_alpha_assaultevents = 1.0,
 
         -- visibility
         always_show_rares = false,
@@ -65,7 +63,7 @@ ns.options.args.IconOptions = {
     args = {}
 }
 
-for i, group in ipairs{'treasures', 'rares', 'assaultevents', 'pet_battles', 'caves', 'other'} do
+for i, group in ipairs{'treasures', 'rares', 'pet_battles', 'caves', 'other'} do
     ns.options.args.IconOptions.args['group_icon_'..group] = {
         type = "header",
         name = L["options_icons_"..group],

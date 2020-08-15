@@ -31,7 +31,7 @@ local defaults = ns.optionDefaults.profile
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=1355 })
+local map = Map({ id=1355, phased=false })
 local nodes = map.nodes
 
 function map:prepare ()
