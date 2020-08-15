@@ -46,12 +46,10 @@ def main():
                 shutil.rmtree(target_dir)
             if args.uninstall: continue
 
-        # install addon files
-        for root, _, files in os.walk(plugin_dir):
-            target_root = path.join(target_dir, root[len(plugin_dir)+1:])
-            os.makedirs(target_root, exist_ok=True)
-            for file in files:
-                install(path.join(root, file), path.join(target_root, file))
+        # install plugin-specific files
+        os.makedirs(target_dir, exist_ok=True)
+        for item in os.listdir(plugin_dir):
+            install(path.join(plugin_dir, item), path.join(target_dir, item))
 
         # link core + library dirs
         for item in ('core', 'icons', 'libs', 'embeds.xml'):
