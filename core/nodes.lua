@@ -160,7 +160,7 @@ local QUEST_IDS = {}
 
 function Quest:init ()
     Node.init(self)
-    C_QuestLog.GetQuestInfo(self.quest[1]) -- fetch info from server
+    C_QuestLog.GetTitleForQuestID(self.quest[1]) -- fetch info from server
 
     for i, id in ipairs(self.quest) do
         QUEST_IDS[id] = true
@@ -172,7 +172,7 @@ function Quest.getters:icon ()
 end
 
 function Quest.getters:label ()
-    return C_QuestLog.GetQuestInfo(self.quest[1])
+    return C_QuestLog.GetTitleForQuestID(self.quest[1])
 end
 
 -- When a quest node is turned in, force a refresh. Not all quests give loot.

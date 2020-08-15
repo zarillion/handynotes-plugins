@@ -177,7 +177,7 @@ function Quest:init ()
     if type(self.id) == 'number' then
         self.id = {self.id}
     end
-    C_QuestLog.GetQuestInfo(self.id[1]) -- fetch info from server
+    C_QuestLog.GetTitleForQuestID(self.id[1]) -- fetch info from server
 end
 
 function Quest:obtained ()
@@ -188,7 +188,7 @@ function Quest:obtained ()
 end
 
 function Quest:render (tooltip)
-    local name = C_QuestLog.GetQuestInfo(self.id[1])
+    local name = C_QuestLog.GetTitleForQuestID(self.id[1])
 
     local status = ''
     if #self.id == 1 then
