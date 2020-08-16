@@ -56,6 +56,11 @@ local function BootstrapDevelopmentEnvironment()
         }
     }
 
+    -- Register all addons objects for the CTRL+ALT handler
+    local plugins = "HandyNotes_ZarPlugins"
+    if _G[plugins] == nil then _G[plugins] = {} end
+    _G[plugins][#_G[plugins] + 1] = ns
+
     -- Initialize a history for quest ids so we still have a record after /reload
     if _G[ADDON_NAME.."DB"]['quest_id_history'] == nil then
         _G[ADDON_NAME.."DB"]['quest_id_history'] = {}
@@ -105,23 +110,27 @@ local function BootstrapDevelopmentEnvironment()
     local groupPins = WorldMapFrame.pinPools.GroupMembersPinTemplate
     IQFrame:SetPropagateKeyboardInput(true)
     IQFrame:SetScript('OnKeyDown', function (_, key)
-        if not ns.ignore_quests and (key == 'LCTRL' or key == 'LALT') then
-            if IsLeftControlKeyDown() and IsLeftAltKeyDown() then
-                IQFrame:SetPropagateKeyboardInput(false)
-                ns.ignore_quests = true
-                ns.addon:Refresh()
-
-                -- Hide player pins on the map
-                groupPins:GetNextActive():Hide()
+        if (key == 'LCTRL' or key == 'LALT') and IsLeftControlKeyDown() and IsLeftAltKeyDown() then
+            IQFrame:SetPropagateKeyboardInput(false)
+            for i, _ns in ipairs(_G[plugins]) do
+                if not _ns.ignore_quests then
+                    _ns.ignore_quests = true
+                    _ns.addon:Refresh()
+                end
             end
+            -- Hide player pins on the map
+            groupPins:GetNextActive():Hide()
         end
     end)
     IQFrame:SetScript('OnKeyUp', function (_, key)
-        if ns.ignore_quests and (key == 'LCTRL' or key == 'LALT') then
+        if key == 'LCTRL' or key == 'LALT' then
             IQFrame:SetPropagateKeyboardInput(true)
-            ns.ignore_quests = false
-            ns.addon:Refresh()
-
+            for i, _ns in ipairs(_G[plugins]) do
+                if _ns.ignore_quests then
+                    _ns.ignore_quests = false
+                    _ns.addon:Refresh()
+                end
+            end
             -- Show player pins on the map
             groupPins:GetNextActive():Show()
         end
