@@ -89,7 +89,12 @@ ns.icons = {
 
     shootbox_blue = { icon=ICONS, coords=coords(1, 2, 48, 160) },
     shootbox_yellow = { icon=ICONS, coords=coords(1, 3, 48, 160) },
-    shootbox_pink = { icon=ICONS, coords=coords(1, 4, 48, 160) }
+    shootbox_pink = { icon=ICONS, coords=coords(1, 4, 48, 160) },
+
+    kyrian_sigil = { icon=ICONS, coords=coords(1, 8)},
+    necrolord_sigil = { icon=ICONS, coords=coords(2, 8)},
+    nightfae_sigil = { icon=ICONS, coords=coords(3, 8)},
+    venthyr_sigil = { icon=ICONS, coords=coords(4, 8)},
 };
 
 for name, icon in pairs(ns.icons) do
@@ -98,6 +103,18 @@ for name, icon in pairs(ns.icons) do
         icon.tCoordRight = icon.coords[2]/ICONS_WIDTH
         icon.tCoordTop = icon.coords[3]/ICONS_HEIGHT
         icon.tCoordBottom = icon.coords[4]/ICONS_HEIGHT
+        icon.lTexel = icon.coords[1]
+        icon.rTexel = icon.coords[2]
+        icon.tTexel = icon.coords[3]
+        icon.bTexel = icon.coords[4]
         icon.coords = nil
+        function icon:link (size)
+            return (
+                "|T"..ICONS..":"..size..":"..size..":0:0:"..
+                (ICONS_WIDTH+1)..":"..(ICONS_HEIGHT+1)..":"..
+                self.lTexel..":"..self.rTexel..":"..
+                self.tTexel..":"..self.bTexel.."|t"
+            )
+        end
     end
 end

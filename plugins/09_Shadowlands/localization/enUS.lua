@@ -3,6 +3,15 @@ local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "enUS", true, true)
 if not L then return end
 
 -------------------------------------------------------------------------------
+----------------------------------- GENERAL -----------------------------------
+-------------------------------------------------------------------------------
+
+L["nightfae"] = "Night Fae"
+L["kyrian"] = "Kyrian"
+L["necrolords"] = "Necrolords"
+L["venthir"] = "Venthyr"
+
+-------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -10,10 +19,24 @@ local WEAK_ANIMA_MOTE = '|T132841:0|t |cffffffff|Hitem:172451::::::::60:::::|h[W
 
 L["bastion"] = "Bastion"
 
-L["herculon"] = "Charge all four Anima Conduits using "..WEAK_ANIMA_MOTE..[[.
+L["beasts_of_bastion"] = "Beasts of Bastion"
+L["beasts_of_bastion_note"] = "Talk to Orator Kloe to summon one of the four beasts."
+L["herculon_note"] = "Charge all four Anima Conduits using "..WEAK_ANIMA_MOTE..[[.
 
 Motes can be collected from nearby Depleted Anima Canisters located the room or just outside. Each conduit requires 3 motes.
 ]]
+L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
+L["wingflayer_note"] = "Click the horn on the nearby table (up the stairs) to summon."
+
+L["vesper_of_virtues"] = "Vesper of Virtues"
+
+-------------------------------------------------------------------------------
+--------------------------------- MALDRAXXUS ----------------------------------
+-------------------------------------------------------------------------------
+
+local FUSELESS_SPECIAL = '|T133710:0|t |cffffd000|Hspell:313451|h[Fuseless Special]|h|r'
+
+L["schmitd_note"] = "Use nearby "..FUSELESS_SPECIAL.." to break his shield."
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
@@ -126,6 +149,7 @@ L["options_toggle_rares"] = "Rares"
 L["options_toggle_supplies_desc"] = "Display all possible locations for war supply crates."
 L["options_toggle_supplies"] = "War Supply Drops"
 L["options_toggle_treasures"] = "Treasures"
+L["options_toggle_treasures_desc"] = "Display locations of hidden treasures."
 
 ---------------------------------- TOOLTIP ---------------------------------
 

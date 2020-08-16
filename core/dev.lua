@@ -56,6 +56,12 @@ local function BootstrapDevelopmentEnvironment()
         }
     }
 
+    -- Initialize a history for quest ids so we still have a record after /reload
+    if _G[ADDON_NAME.."DB"]['quest_id_history'] == nil then
+        _G[ADDON_NAME.."DB"]['quest_id_history'] = {}
+    end
+    local history = _G[ADDON_NAME.."DB"]['quest_id_history']
+
     -- Print debug messages for each quest ID that is flipped
     local QTFrame = CreateFrame('Frame', ADDON_NAME.."QT")
     local lastCheck = GetTime()
@@ -65,7 +71,7 @@ local function BootstrapDevelopmentEnvironment()
         -- Give some time for quest info to load in before we start
         for id = 0, max_quest_id do quests[id] = IsQuestFlaggedCompleted(id) end
         QTFrame:SetScript('OnUpdate', function ()
-            if GetTime() - lastCheck > 5 and ns.addon.db.profile.show_debug_quest then
+            if GetTime() - lastCheck > 1 and ns.addon.db.profile.show_debug_quest then
                 local changed = {}
                 for id = 0, max_quest_id do
                     local s = IsQuestFlaggedCompleted(id)
@@ -78,7 +84,13 @@ local function BootstrapDevelopmentEnvironment()
                     -- changing zones will sometimes cause thousands of quest
                     -- ids to flip state, we do not want to report on those
                     for i, args in ipairs(changed) do
+                        table.insert(history, 1, args)
                         ns.debugQuest(unpack(args))
+                    end
+                end
+                if #history > 1000 then
+                    for i = #history, 1001, -1 do
+                        history[i] = nil
                     end
                 end
                 lastCheck = GetTime()

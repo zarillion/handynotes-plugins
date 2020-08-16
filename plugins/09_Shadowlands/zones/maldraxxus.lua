@@ -12,6 +12,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
@@ -22,7 +23,7 @@ local defaults = ns.optionDefaults.profile
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=1533 })
+local map = Map({ id=1536 })
 local nodes = map.nodes
 
 function map:enabled (node, coord, minimap)
@@ -31,8 +32,8 @@ function map:enabled (node, coord, minimap)
     if node == map.intro then return true end
 
     local profile = ns.addon.db.profile
-    if isinstance(node, Rare) then return profile.rare_bastion end
-    if isinstance(node, Treasure) then return profile.treasure_bastion end
+    if isinstance(node, Rare) then return profile.rare_maldraxxus end
+    if isinstance(node, Treasure) then return profile.treasure_maldraxxus end
     return true
 end
 
@@ -40,27 +41,27 @@ end
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
-defaults['rare_bastion'] = true
-defaults['treasure_bastion'] = true
+defaults['rare_maldraxxus'] = true
+defaults['treasure_maldraxxus'] = true
 
-options.groupBastion = {
+options.groupMaldraxxus = {
     type = "header",
-    name = L["bastion"],
+    name = L["maldraxxus"],
     order = 0,
 }
 
-options.rareBastion = {
+options.rareMaldraxxus = {
     type = "toggle",
-    arg = "rare_bastion",
+    arg = "rare_maldraxxus",
     name = L["options_toggle_rares"],
     desc = L["options_toggle_rares_desc"],
     order = 1,
     width = "normal",
 }
 
-options.treasureBastion = {
+options.treasureMaldraxxus = {
     type = "toggle",
-    arg = "treasure_bastion",
+    arg = "treasure_maldraxxus",
     name = L["options_toggle_treasures"],
     desc = L["options_toggle_treasures_desc"],
     order = 2,
@@ -71,46 +72,45 @@ options.treasureBastion = {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-nodes[51344080] = Rare({id=160629, quest=nil, note="TODO: ACTIVATION", rewards={
-    Achievement({id=14307, criteria=48828})
-}}) -- Baedos
+nodes[76135625] = Rare({id=162711, quest=58868, rewards={
+    Achievement({id=14308, criteria=48851}),
+    Pet({id=2953, item=181263}) -- Shy Melvin
+}}) -- Deadly Dapperling
 
-nodes[55358024] = Rare({id=161527, label=L["beasts_of_bastion"], note=L["beasts_of_bastion_note"], rewards={
-    Achievement({id=14307, criteria={48825,48826,48827}}),
-    Toy({item=174445}), -- Glimmerfly Cocoon
-    Transmog({item=179485, slot=L["dagger"]}), -- Fang of Nemaeus
-    Transmog({item=179486, slot=L["1h_mace"]}), -- Sigilback's Smashshell
-    Transmog({item=179487, slot=L["warglaive"]}), -- Aethon's Horn
-    Transmog({item=179488, slot=L["fist"]}), -- Cloudtail's Paw
-}}) -- Beasts of Bastion
+nodes[38794333] = Rare({id=161105, quest=nil, note=L["schmitd_note"], rewards={
+    Achievement({id=14308, criteria=48848}),
+    Transmog({item=182192, slot=L["plate"]}) -- Knee-Obstructing Legguards
+}}) -- Indomitable Schmitd
 
-nodes[59767229] = Rare({id=160721, note=L["TODO: MAP PATROL"], rewards={
-    Achievement({id=14307, criteria=48824})
-}}) -- Fallen Acolyte Erisne
+nodes[53726132] = Rare({id=162767, quest=58875, rewards={
+    Achievement({id=14308, criteria=48849}),
+    Transmog({item=182205, slot=L["mail"]}) -- Scarab-Shell Faceguard
+}}) -- Nirvaska the Summoner
 
-nodes[42908265] = Rare({id=158659, quest=nil, note=L["herculon_note"],
-    rlabel=ns.icons['kyrian_sigil']:link(13),
-    rewards={
-    Achievement({id=14307, criteria=48823})
-}}) -- Herculon
+nodes[50346328] = Rare({id=161857, quest=58629, rewards={
+    Achievement({id=14308, criteria=48868})
+}}) -- Pesticide
 
-nodes[51456859] = Rare({id=160882, quest=58319, note=L["nikara_note"], rewards={
-    Achievement({id=14307, criteria=48830}),
-    Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
-}}) -- Nikara Blackheart
+nodes[42465345] = Rare({id=162528, quest=58768, rewards={
+    Achievement({id=14308, criteria=48869}),
+}}) -- Smorgas the Feaster
 
-nodes[40705290] = Rare({id=167078, quest=nil, note=L["wingflayer_note"], rewards={
-    Achievement({id=14307, criteria=48829}),
-    Item({item=182749}) -- Regurgitated Kyrian Wings
-}}) -- Wingflayer the Cruel
+nodes[44215132] = Rare({id=162586, quest=58783, rewards={
+    Achievement({id=14308, criteria=48850}),
+    Transmog({item=182190, slot=L["leather"]}) -- Tauralus Hide Collar
+}}) -- Tahonta
+
+-- nodes[] = Rare({id=, quest=nil, note=nil, rewards={
+--     Achievement({id=, criteria=})
+-- }}) --
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-nodes[58667135] = Treasure({quest=60478, label=L["vesper_of_virtues"], rewards={
-    Item({item=179982}) -- Kyrian Bell
-}}) -- Vesper of Virtues
+-- nodes[58667135] = Treasure({quest=60478, label=L["vesper_of_virtues"], rewards={
+--     Item({item=179982}) -- Kyrian Bell
+-- }}) -- Vesper of Virtues
 
 -------------------------------------------------------------------------------
 
