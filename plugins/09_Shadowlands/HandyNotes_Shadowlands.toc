@@ -26,6 +26,7 @@ core\util.lua
 
 pins.xml
 
+common.lua
 zones\bastion.lua
 zones\maldraxxus.lua
 zones\revendreth.lua

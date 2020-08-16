@@ -77,7 +77,7 @@ nodes[76135625] = Rare({id=162711, quest=58868, rewards={
     Pet({id=2953, item=181263}) -- Shy Melvin
 }}) -- Deadly Dapperling
 
-nodes[38794333] = Rare({id=161105, quest=nil, note=L["schmitd_note"], rewards={
+nodes[38794333] = Rare({id=161105, quest=58332, note=L["schmitd_note"], rewards={
     Achievement({id=14308, criteria=48848}),
     Transmog({item=182192, slot=L["plate"]}) -- Knee-Obstructing Legguards
 }}) -- Indomitable Schmitd
