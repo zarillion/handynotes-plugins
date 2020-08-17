@@ -192,7 +192,7 @@ nodes[46004300] = map.intro
 
 ns.addon:RegisterEvent('QUEST_WATCH_UPDATE', function (_, index)
     local info = C_QuestLog.GetInfo(index)
-    if info.questID == 56376 then
+    if info and info.questID == 56376 then
         ns.debug('Uldum assaults unlock detected')
         C_Timer.After(1, function()
             ns.addon:Refresh()

@@ -38,6 +38,9 @@ L["vesper_of_virtues"] = "Vesper of Virtues"
 
 local FUSELESS_SPECIAL = '|T133710:0|t |cffffd000|Hspell:313451|h[Fuseless Special]|h|r'
 
+L["chelicerae_note"] = "Destroy the intricate webbing to spawn the rare."
+L["gristlebeak_note"] = "Break the unusual eggs to engage the rare."
+L["malkorak_note"] = "At the top of the tower (lots of stairs)."
 L["schmitd_note"] = "Use nearby "..FUSELESS_SPECIAL.." to break his shield."
 
 -------------------------------------------------------------------------------
