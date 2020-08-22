@@ -28,6 +28,9 @@ end
 function Map:enabled (node, coord, minimap)
     local db = ns.addon.db
 
+    -- Debug option to force display all nodes
+    if db.profile.force_nodes then return true end
+
     -- Check if the zone is still phased
     if node ~= self.intro and not self.phased then return false end
 
