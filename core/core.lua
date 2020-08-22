@@ -45,7 +45,7 @@ local function initializeDropdownMenu (button, level, mapID, coord)
                 func=function (button)
                     local x, y = HandyNotes:getXY(coord);
                     TomTom:AddWaypoint(mapID, x, y, {
-                        title = ns.NameResolver:GetCachedName(node.label),
+                        title = ns.NameResolver:Resolve(node.label),
                         persistent = nil,
                         minimap = true,
                         world = true
@@ -93,49 +93,58 @@ function Addon:OnEnter(mapID, coord)
         tooltip:SetOwner(self, "ANCHOR_RIGHT");
     end
 
-    ns.NameResolver:Resolve(node.label, function (label)
-        tooltip:SetText(label or UNKNOWN)
+    tooltip:SetText(ns.NameResolver:Resolve(node.label))
 
-        -- optional top-right text
-        if node.rlabel then
-            local rtext = _G[tooltip:GetName()..'TextRight1']
-            rtext:SetTextColor(1, 1, 1)
-            rtext:SetText(node.rlabel)
-            rtext:Show()
-        end
+    -- optional top-right text
+    if node.rlabel then
+        local rtext = _G[tooltip:GetName()..'TextRight1']
+        rtext:SetTextColor(1, 1, 1)
+        rtext:SetText(node.rlabel)
+        rtext:Show()
+    end
 
-        if node.sublabel then
-            tooltip:AddLine(node.sublabel, 1, 1, 1)
-        end
+    -- optional text under label, usually used to indicate a oneline
+    -- requirement such as a key, item or covenant
+    if node.sublabel then
+        tooltip:AddLine(node.sublabel, 1, 1, 1)
+    end
 
-        if node.note and Addon.db.profile.show_notes then
-            if node.sublabel then tooltip:AddLine(" ") end
-            tooltip:AddLine(node.note, 1, 1, 1, true)
-        end
+    -- additional text for the node to describe how to interact with the
+    -- object or summon the rare
+    if node.note and Addon.db.profile.show_notes then
+        if node.sublabel then tooltip:AddLine(" ") end
+        tooltip:AddLine(node.note, 1, 1, 1, true)
+    end
 
-        if Addon.db.profile.show_loot then
-            local firstAchieve, firstOther = true, true
-            for i, reward in ipairs(node.rewards or {}) do
+    -- used if multiple rares spawn in the same spot from some shared event
+    -- if node.rares then
 
-                -- Add a blank line between achievements and other rewards
-                local isAchieve = ns.isinstance(reward, ns.reward.Achievement)
-                if isAchieve and firstAchieve then
-                    tooltip:AddLine(" ")
-                    firstAchieve = false
-                elseif not isAchieve and firstOther then
-                    tooltip:AddLine(" ")
-                    firstOther = false
-                end
+    -- end
 
-                reward:render(tooltip);
+    -- all rewards (achievements, pets, mounts, toys, quests) that can be
+    -- collected or completed from this node
+    if Addon.db.profile.show_loot then
+        local firstAchieve, firstOther = true, true
+        for i, reward in ipairs(node.rewards or {}) do
+
+            -- Add a blank line between achievements and other rewards
+            local isAchieve = ns.isinstance(reward, ns.reward.Achievement)
+            if isAchieve and firstAchieve then
+                tooltip:AddLine(" ")
+                firstAchieve = false
+            elseif not isAchieve and firstOther then
+                tooltip:AddLine(" ")
+                firstOther = false
             end
-        end
 
-        node._hover = true
-        ns.MinimapDataProvider:RefreshAllData()
-        ns.WorldMapDataProvider:RefreshAllData()
-        tooltip:Show()
-    end)
+            reward:render(tooltip);
+        end
+    end
+
+    node._hover = true
+    ns.MinimapDataProvider:RefreshAllData()
+    ns.WorldMapDataProvider:RefreshAllData()
+    tooltip:Show()
 end
 
 function Addon:OnLeave(mapID, coord)

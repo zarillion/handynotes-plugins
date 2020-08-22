@@ -9,25 +9,7 @@ local NameResolver = CreateFrame("GameTooltip", ADDON_NAME.."_NameResolver",
 
 NameResolver.cache = {}
 NameResolver.prepared = {}
-
 NameResolver:SetOwner(UIParent, "ANCHOR_NONE")
-NameResolver:HookScript("OnTooltipSetUnit", function(self)
-    local callback = self.callback
-    if callback then
-        local name = _G[self:GetName().."TextLeft1"]:GetText()
-        self.cache[self.link] = name
-        self.callback = nil
-        self.link = nil
-        callback(name)
-    end
-end)
-
-function NameResolver:GetCachedName (link)
-    if self:IsLink(link) then
-        return self.cache[link] or UNKNOWN
-    end
-    return link
-end
 
 function NameResolver:IsLink (link)
     if link == nil then return link end
@@ -41,20 +23,19 @@ function NameResolver:Prepare (link)
     end
 end
 
-function NameResolver:Resolve (link, callback)
+function NameResolver:Resolve (link)
     -- may be passed a raw name or a hyperlink to be resolved
-    if self:IsLink(link) then
-        local name = self.cache[link]
-        if name and name ~= '' then
-            callback(name)
-        else
-            self.link = link
-            self.callback = callback
-            self:SetHyperlink(link)
+    if not self:IsLink(link) then return link or UNKNOWN end
+
+    local name = self.cache[link]
+    if name == nil then
+        self:SetHyperlink(link)
+        name = _G[self:GetName().."TextLeft1"]:GetText() or UNKNOWN
+        if name ~= UNKNOWN then
+            self.cache[link] = name
         end
-    else
-        callback(link)
     end
+    return name
 end
 
 -------------------------------------------------------------------------------

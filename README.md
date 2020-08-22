@@ -1,3 +1,3 @@
-# HandyNotes: Visions of N'Zoth
+# HandyNotes Plugins
 
 Join our Discord server to discuss features and translations: https://discord.gg/EXCcmYW

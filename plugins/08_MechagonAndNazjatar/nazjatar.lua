@@ -35,6 +35,7 @@ local map = Map({ id=1355, phased=false })
 local nodes = map.nodes
 
 function map:prepare ()
+    Map.prepare(self)
     self.phased = self.intro:done()
 end
 

@@ -33,6 +33,7 @@ local nodes = map.nodes
 local TIME_DISPLACEMENT = 296644
 
 function map:prepare ()
+    Map.prepare(self)
     self.future = AuraUtil.FindAuraByName(GetSpellInfo(TIME_DISPLACEMENT), 'player')
 end
 
