@@ -65,8 +65,8 @@ MinimapDataProvider.scales = {
 
 -- These values for width/height seem to render the minimap POIs correctly. I
 -- still haven't figured out how to get these values out of the API, these were
--- manually found by tweaking values at a 1.5 width/height ratio until things
--- looked right =/.
+-- manually found by tweaking values at a 1.5 width/height ratio (the ratio of
+-- all world maps) until things looked right =/.
 MinimapDataProvider.sizes = {
     [1527] = {1750, 1312},   -- Uldum
     [1530] = {700, 466},     -- Vale

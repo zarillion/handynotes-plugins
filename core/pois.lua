@@ -8,6 +8,8 @@ local Class = ns.Class
 
 local POI = Class('POI')
 
+POI.scale = 1
+
 function POI:render (map, template)
     -- draw a circle at every coord
     for i=1, #self, 1 do
@@ -17,7 +19,7 @@ end
 
 function POI:draw (pin, xy)
     local t = pin.texture
-    local size = pin.minimap and 10 or (pin.parentHeight * 0.015)
+    local size = (pin.minimap and 10 or (pin.parentHeight * 0.015)) * self.scale
     t:SetTexCoord(0, 1, 0, 1)
     t:SetVertexColor(0, 0.5, 1, 1)
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\circle")
@@ -54,9 +56,13 @@ function Path:draw (pin, type, xy1, xy2)
     t:SetVertexColor(0, 0.5, 1, 1)
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\"..type)
 
+    -- constant size for minimaps, variable size for world maps
+    local size = pin.minimap and 5 or (pin.parentHeight * 0.005)
+    local line_width = pin.minimap and 60 or (pin.parentHeight * 0.05)
+
     pin:SetAlpha(0.75)
     if type == 'circle' then
-        pin:SetSize(5, 5)
+        pin:SetSize(size, size)
         return HandyNotes:getXY(xy1)
     else
         local x1, y1 = HandyNotes:getXY(xy1)
@@ -65,7 +71,7 @@ function Path:draw (pin, type, xy1, xy2)
         local x2p = x2 * pin.parentWidth
         local y1p = y1 * pin.parentHeight
         local y2p = y2 * pin.parentHeight
-        pin:SetSize(sqrt((x2p-x1p)^2 + (y2p-y1p)^2), 60)
+        pin:SetSize(sqrt((x2p-x1p)^2 + (y2p-y1p)^2), line_width)
         t:SetRotation(-math.atan2(y2p-y1p, x2p-x1p))
         return (x1+x2)/2, (y1+y2)/2
     end
