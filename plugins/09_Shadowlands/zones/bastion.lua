@@ -77,9 +77,21 @@ options.treasureBastion = {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+-- nodes[] = Rare({id=, quest=nil, rewards={
+--     Achievement({id=14307, criteria=})
+-- }}) --
+
+nodes[32592336] = Rare({id=171211, quest=nil, rewards={
+    Achievement({id=14307, criteria=48844})
+}}) -- Aspirant Eolis
+
 nodes[51344080] = Rare({id=160629, quest=nil, covenant=KYRIAN, rewards={
     Achievement({id=14307, criteria=48828})
 }, note="TODO: ACTIVATION"}) -- Baedos
+
+nodes[48605110] = Rare({id=170659, quest=nil, rewards={
+    Achievement({id=14307, criteria=48833})
+}}) -- Basilofos, King of the Hill
 
 nodes[55358024] = Rare({id=161527, quest=nil, covenant=KYRIAN, rewards={
     Achievement({id=14307, criteria={48825,48826,48827}}),
@@ -89,6 +101,46 @@ nodes[55358024] = Rare({id=161527, quest=nil, covenant=KYRIAN, rewards={
     Transmog({item=179487, slot=L["warglaive"]}), -- Aethon's Horn
     Transmog({item=179488, slot=L["fist"]}), -- Cloudtail's Paw
 }, label=L["beasts_of_bastion"], note=L["beasts_of_bastion_note"]}) -- Beasts of Bastion
+
+nodes[57206370] = Rare({id=171189, quest=nil, rewards={
+    Achievement({id=14307, criteria=48843})
+}}) -- Bookkeeper Mnemis
+
+-- nodes[] = Rare({id=170932, quest=nil, rewards={
+--     Achievement({id=14307, criteria=48835})
+-- }}) -- Cloudfeather Patriarch
+
+-- nodes[] = Rare({id=171014, quest=nil, rewards={
+--     Achievement({id=14307, criteria=48841})
+-- }}) -- Collector Astorestes
+
+nodes[56424614] = Rare({id=171010, quest=nil, rewards={
+    Achievement({id=14307, criteria=48846})
+}}) -- Corrupted Clawguard
+
+-- nodes[] = Rare({id=170623, quest=nil, rewards={
+--     Achievement({id=14307, criteria=48834})
+-- }}) -- Dark Watcher
+
+-- nodes[] = Rare({id=171011, quest=nil, rewards={
+--     Achievement({id=14307, criteria=48842})
+-- }}) -- Demi the Relic Hoarder
+
+nodes[40944738] = Rare({id=163460, quest=nil, rewards={
+    Achievement({id=14307, criteria=48831})
+}}) -- Dionae
+
+nodes[45756475] = Rare({id=171255, quest=nil, rewards={
+    Achievement({id=14307, criteria=48845})
+}}) -- Echo of Aella <Hand of Courage>
+
+nodes[48004290] = Rare({id=171013, quest=nil, rewards={
+    Achievement({id=14307, criteria=48838})
+}}) -- Embodied Hunger
+
+-- nodes[] = Rare({id=171009, quest=nil, rewards={
+--     Achievement({id=14307, criteria=48836})
+-- }}) -- Enforcer Aegeon
 
 nodes[59767229] = Rare({id=160721, quest=nil, rewards={
     Achievement({id=14307, criteria=48824})
@@ -103,10 +155,30 @@ nodes[51456859] = Rare({id=160882, quest=58319, rewards={
     Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
 }, note=L["nikara_note"]}) -- Nikara Blackheart
 
+-- nodes[] = Rare({id=171327, quest=nil, rewards={
+--     Achievement({id=14307, criteria=48847})
+-- }}) -- Reekmonger
+
+nodes[58209560] = Rare({id=170548, quest=nil, rewards={
+    Achievement({id=14307, criteria=48832})
+}}) -- Sundancer
+
+-- nodes[] = Rare({id=171008, quest=nil, rewards={
+--     Achievement({id=14307, criteria=48837})
+-- }}) -- Unstable Memory
+
 nodes[40705290] = Rare({id=167078, quest=nil, covenant=KYRIAN, rewards={
     Achievement({id=14307, criteria=48829}),
     Item({item=182749}) -- Regurgitated Kyrian Wings
 }, note=L["wingflayer_note"]}) -- Wingflayer the Cruel
+
+nodes[48004290] = Rare({id=171041, quest=nil, rewards={
+    Achievement({id=14307, criteria=48840})
+}}) -- Worldfeaster Chronn
+
+nodes[63503590] = Rare({id=171040, quest=nil, rewards={
+    Achievement({id=14307, criteria=48839})
+}}) -- Xixin the Ravening
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
