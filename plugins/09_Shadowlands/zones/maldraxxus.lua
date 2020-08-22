@@ -193,7 +193,7 @@ nodes[58197421] = Rare({id=157226, quest=MONSTROSITY_QUESTS, rewards={
         {id=48859, note=MISCIBLE_OOZE..' = '..MEPHITIC_GOO..' = '..VISCOUS_OIL},-- Oily Invertebrate
     }}),
     Pet({item=181270, id=2960}) -- Decaying Oozewalker
-}, note="TODO: MOBS TO KILL, SHOW KILLED STATUS"}) -- Pool of Mixed Monstrosities
+}, note=L["mixed_pool_note"]}) -- Pool of Mixed Monstrosities
 
 --[[
 

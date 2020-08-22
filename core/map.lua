@@ -22,6 +22,11 @@ end
 function Map:prepare ()
     for coord, node in pairs(self.nodes) do
         ns.NameResolver:Prepare(node.label)
+        if node.note then
+            for id in node.note:gmatch('{npc:(%d+)}') do
+                ns.NameResolver:Prepare(("unit:Creature-0-0-0-0-%d"):format(id))
+            end
+        end
     end
 end
 

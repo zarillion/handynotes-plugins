@@ -113,7 +113,16 @@ function Addon:OnEnter(mapID, coord)
     -- object or summon the rare
     if node.note and Addon.db.profile.show_notes then
         if node.sublabel then tooltip:AddLine(" ") end
-        tooltip:AddLine(node.note, 1, 1, 1, true)
+        tooltip:AddLine(node.note:gsub('{(%l+):(%d+)}', function (type, id)
+            if type == 'npc' then
+                return '|cFFFFFD00'..ns.NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))..'|r'
+            end
+            if type == 'spell' then
+                local name, _, icon = GetSpellInfo(id)
+                return '|T'..icon..':0:0:1:-1|t |cFF71D5FF|Hspell:'..id..'|h['..name..']|h|r'
+            end
+            return type..'+'..id
+        end), 1, 1, 1, true)
     end
 
     -- used if multiple rares spawn in the same spot from some shared event

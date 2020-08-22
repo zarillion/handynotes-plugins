@@ -54,6 +54,16 @@ L["gristlebeak_note"] = "Break the unusual eggs to engage the rare."
 L["malkorak_note"] = "At the top of the tower (lots of stairs)."
 L["schmitd_note"] = "Use nearby "..FUSELESS_SPECIAL.." to break his shield."
 
+L["mixed_pool_note"] = [[
+Gather ingredients from the surrounding mobs and toss them into the pool. Once 30 ingredients have been added, one of seven rares will spawn depending on the combination used.
+
+• Collect {spell:306713} from {npc:167923} and {npc:167948} to the north.
+
+• Collect {spell:306719} from {npc:165015} and {npc:171142} to the south.
+
+• Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
+]]
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
