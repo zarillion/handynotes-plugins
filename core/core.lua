@@ -117,9 +117,17 @@ function Addon:OnEnter(mapID, coord)
             if type == 'npc' then
                 return '|cFFFFFD00'..ns.NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))..'|r'
             end
+            if type == 'item' then
+                local _, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
+                if link and icon then
+                    return '|T'..icon..':0:0:1:-1|t '..link
+                end
+            end
             if type == 'spell' then
                 local name, _, icon = GetSpellInfo(id)
-                return '|T'..icon..':0:0:1:-1|t |cFF71D5FF|Hspell:'..id..'|h['..name..']|h|r'
+                if name and icon then
+                    return '|T'..icon..':0:0:1:-1|t |cFF71D5FF|Hspell:'..id..'|h['..name..']|h|r'
+                end
             end
             return type..'+'..id
         end), 1, 1, 1, true)

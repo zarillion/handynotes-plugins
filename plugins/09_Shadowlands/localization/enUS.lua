@@ -17,24 +17,23 @@ L["covenant_summon"] = "Requires a %s to summon."
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
 
-L["deifir_note"] = "Ride the rare around in a circle and use the Harry and Stunning Strike abilities to slow and stun him."
+L["deifir_note"] = "Ride the rare around in a circle and use {spell:319566} and {spell:319575} to slow and stun him."
 L["faeflayer_note"] = "In a small cave hidden behind a waterfall."
-L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill Angry Egg-Tenders until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
-L["rootwrithe_note"] = "Poke the Dormant Blossoms until the rare appears."
-L["rotbriar_note"] = "Talk to Daffodil nearby to summon the rare after some dialog."
+L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
+L["rootwrithe_note"] = "Poke the {npc:167928}s until the rare appears."
+L["rotbriar_note"] = "Talk to {npc:171684} nearby to summon the rare after some dialog."
 L["slumbering_note"] = "Running into the fog will stun and port you out. Use a flare or a pet with AOE to knock him out of the fog."
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-local WEAK_ANIMA_MOTE = '|T132841:0|t |cffffffff|Hitem:172451::::::::60:::::|h[Weak Anima Mote]|h|r'
-
 L["bastion"] = "Bastion"
 
 L["beasts_of_bastion"] = "Beasts of Bastion"
 L["beasts_of_bastion_note"] = "Talk to Orator Kloe to summon one of the four beasts."
-L["herculon_note"] = "Charge all four Anima Conduits using "..WEAK_ANIMA_MOTE..[[.
+L["herculon_note"] = [[
+Charge all four Anima Conduits using {item:172451}.
 
 Motes can be collected from nearby Depleted Anima Canisters located the room or just outside. Each conduit requires 3 motes.
 ]]
@@ -47,12 +46,10 @@ L["vesper_of_virtues"] = "Vesper of Virtues"
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
 
-local FUSELESS_SPECIAL = '|T133710:0|t |cffffd000|Hspell:313451|h[Fuseless Special]|h|r'
-
-L["chelicerae_note"] = "Destroy the intricate webbing to spawn the rare."
-L["gristlebeak_note"] = "Break the unusual eggs to engage the rare."
+L["chelicerae_note"] = "Destroy the {npc:159885} to activate the rare."
+L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
 L["malkorak_note"] = "At the top of the tower (lots of stairs)."
-L["schmitd_note"] = "Use nearby "..FUSELESS_SPECIAL.." to break his shield."
+L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
 
 L["mixed_pool_note"] = [[
 Gather ingredients from the surrounding mobs and toss them into the pool. Once 30 ingredients have been added, one of seven rares will spawn depending on the combination used.
@@ -64,11 +61,13 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 • Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
 ]]
 
+L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["leeched_soul_note"] = "Inside the nearby crypt. Walk near Absolver Meylann to start the event."
+L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------

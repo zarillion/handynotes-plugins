@@ -215,9 +215,9 @@ Oily Invertebrate 157312 quest=61724
 -------------------------------------------------------------------------------
 
 nodes[55893897] = Treasure({quest={59428,59429}, rewards={
-    Item({item=182607}), -- Hairy Egg
+    --Item({item=182607}), -- Hairy Egg
     Pet({item=182606, id=3013}) -- Bloodlouse Larva
-}, label='unit:Creature-0-0-0-0-165037'}) -- Strange Growth
+}, label='unit:Creature-0-0-0-0-165037', note=L["strange_growth_note"]}) -- Strange Growth
 
 -- nodes[] = Treasure({quest=, label=L[""], rewards={
 --     Item({item=}) --
