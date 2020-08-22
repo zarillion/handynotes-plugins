@@ -183,7 +183,7 @@ local MONSTROSITY_QUESTS = {
 }
 
 nodes[58197421] = Rare({id=157226, quest=MONSTROSITY_QUESTS, rewards={
-    Achievement({id=14308, criteria={
+    Achievement({id=14721, criteria={
         {id=48858, note=MISCIBLE_OOZE..' > '..MEPHITIC_GOO..' '..VISCOUS_OIL},-- Gelloh
         {id=48863, note=MEPHITIC_GOO..' > '..MISCIBLE_OOZE..' '..VISCOUS_OIL},-- Corrupted Sediment
         {id=48854, note=VISCOUS_OIL..' > '..MISCIBLE_OOZE..' '..MEPHITIC_GOO}, -- Pulsing Leech
