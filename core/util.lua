@@ -4,11 +4,13 @@ local ADDON_NAME, ns = ...
 ------------------------------ DATAMINE TOOLTIP -------------------------------
 -------------------------------------------------------------------------------
 
-local NameResolver = CreateFrame("GameTooltip", ADDON_NAME.."_NameResolver",
-    UIParent, "GameTooltipTemplate")
+local NamePreparer = CreateFrame("GameTooltip", ADDON_NAME.."_NamePreparer", UIParent, "GameTooltipTemplate")
+local NameResolver = CreateFrame("GameTooltip", ADDON_NAME.."_NameResolver", UIParent, "GameTooltipTemplate")
 
 NameResolver.cache = {}
 NameResolver.prepared = {}
+
+NamePreparer:SetOwner(UIParent, "ANCHOR_NONE")
 NameResolver:SetOwner(UIParent, "ANCHOR_NONE")
 
 function NameResolver:IsLink (link)
@@ -18,7 +20,10 @@ end
 
 function NameResolver:Prepare (link)
     if self:IsLink(link) and not (self.cache[link] or self.prepared[link]) then
-        self:SetHyperlink(link)
+        -- use a separate tooltip to spam load NPC names, doing this with the
+        -- main tooltip can sometimes cause it to become unresponsive and never
+        -- update its text until a reload
+        NamePreparer:SetHyperlink(link)
         self.prepared[link] = true
     end
 end
