@@ -12,8 +12,11 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
+
+local Path = ns.poi.Path
 
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
@@ -83,9 +86,16 @@ nodes[34606800] = Rare({id=164477, quest=nil, rewards={
     Achievement({id=14309, criteria=48714})
 }}) -- Deathbinder Hroth
 
-nodes[48102740] = Rare({id=164238, quest=nil, rewards={
-    Achievement({id=14309, criteria=48784})
-}}) -- Deifir the Untamed
+nodes[47522845] = Rare({id=164238, quest={59201,62271}, rewards={
+    Achievement({id=14309, criteria=48784}),
+    Pet({item=180631, id=2920}) -- Gorm Needler
+}, pois={
+    Path({
+        47522845, 48052741, 48692650, 49172530, 49652403, 49022308, 48842184,
+        48162099, 47362116, 46712135, 46332211, 46432338, 46452445, 46602590,
+        46932693, 47112793, 47522845
+    })
+}, note=L["deifir_note"]}) -- Deifir the Untamed
 
 nodes[41524482] = Rare({id=166145, quest=nil, rewards={
     Achievement({id=14309, criteria=48710})
@@ -95,13 +105,13 @@ nodes[41524482] = Rare({id=166145, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48794})
 -- }}) -- Dustbrawl
 
--- nodes[] = Rare({id=167851, quest=nil, rewards={
---     Achievement({id=14309, criteria=48790})
--- }}) -- Egg-Tender Leh'go
+nodes[57862955] = Rare({id=167851, quest=60266, rewards={
+    Achievement({id=14309, criteria=48790})
+}, note=L["lehgo_note"]}) -- Egg-Tender Leh'go
 
-nodes[70303000] = Rare({id=171688, quest=nil, rewards={
+nodes[68612765] = Rare({id=171688, quest=61184, rewards={
     Achievement({id=14309, criteria=48798})
-}}) -- Faeflayer
+}, note=L["faeflayer_note"]}) -- Faeflayer
 
 nodes[41544482] = Rare({id=166139, quest=nil, rewards={
     Achievement({id=14309, criteria=48707})
@@ -151,13 +161,14 @@ nodes[51105740] = Rare({id=164391, quest=nil, rewards={
     Achievement({id=14309, criteria=48785})
 }}) -- Old Ardeite
 
-nodes[65104430] = Rare({id=167726, quest=nil, rewards={
+nodes[65104430] = Rare({id=167726, quest=60273, rewards={
     Achievement({id=14309, criteria=48791})
-}}) -- Rootwrithe
+}, note=L["rootwrithe_note"]}) -- Rootwrithe
 
-nodes[65702430] = Rare({id=167724, quest=nil, rewards={
-    Achievement({id=14309, criteria=48789})
-}}) -- Rotbriar Changeling
+nodes[65702430] = Rare({id=167724, quest=60258, rewards={
+    Achievement({id=14309, criteria=48789}),
+    Item({item=175729, note=L["trinket"]}) -- Rotbriar Sprout
+}, note=L["rotbriar_note"]}) -- Rotbriar Changeling
 
 nodes[41514482] = Rare({id=116140, quest=nil, rewards={
     Achievement({id=14309, criteria=48706})
@@ -171,9 +182,9 @@ nodes[36906010] = Rare({id=164415, quest=nil, rewards={
     Achievement({id=14309, criteria=48786})
 }}) -- Skuld Vit
 
-nodes[59304660] = Rare({id=167721, quest=nil, rewards={
+nodes[59304660] = Rare({id=167721, quest=60290, rewards={
     Achievement({id=14309, criteria=48792})
-}}) -- The Slumbering Emperor
+}, note=L["slumbering_note"]}) -- The Slumbering Emperor
 
 nodes[30605500] = Rare({id=168647, quest=nil, rewards={
     Achievement({id=14309, criteria=48796})

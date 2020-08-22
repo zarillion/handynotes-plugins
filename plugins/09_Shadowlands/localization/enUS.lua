@@ -14,6 +14,17 @@ L["venthir"] = "Venthyr"
 L["covenant_summon"] = "Requires a %s to summon."
 
 -------------------------------------------------------------------------------
+--------------------------------- ARDENWEALD ----------------------------------
+-------------------------------------------------------------------------------
+
+L["deifir_note"] = "Ride the rare around in a circle and use the Harry and Stunning Strike abilities to slow and stun him."
+L["faeflayer_note"] = "In a small cave hidden behind a waterfall."
+L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill Angry Egg-Tenders until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
+L["rootwrithe_note"] = "Poke the Dormant Blossoms until the rare appears."
+L["rotbriar_note"] = "Talk to Daffodil nearby to summon the rare after some dialog."
+L["slumbering_note"] = "Running into the fog will stun and port you out. Use a flare or a pet with AOE to knock him out of the fog."
+
+-------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -42,6 +53,12 @@ L["chelicerae_note"] = "Destroy the intricate webbing to spawn the rare."
 L["gristlebeak_note"] = "Break the unusual eggs to engage the rare."
 L["malkorak_note"] = "At the top of the tower (lots of stairs)."
 L["schmitd_note"] = "Use nearby "..FUSELESS_SPECIAL.." to break his shield."
+
+-------------------------------------------------------------------------------
+--------------------------------- REVENDRETH ----------------------------------
+-------------------------------------------------------------------------------
+
+L["leeched_soul_note"] = "Inside the nearby crypt. Walk near Absolver Meylann to start the event."
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------

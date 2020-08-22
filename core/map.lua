@@ -66,7 +66,8 @@ MinimapDataProvider.scales = {
 -- looked right =/.
 MinimapDataProvider.sizes = {
     [1527] = {1750, 1312},   -- Uldum
-    [1530] = {700, 466}     -- Vale
+    [1530] = {700, 466},     -- Vale
+    [1565] = {2000, 1500},   -- Ardenweald
 }
 
 function MinimapDataProvider:ReleasePin(pin)

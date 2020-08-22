@@ -135,9 +135,10 @@ nodes[21803590] = Rare({id=160640, quest=nil, rewards={
     Achievement({id=14310, criteria=48801})
 }}) -- Innervus
 
-nodes[67508230] = Rare({id=165152, quest=nil, rewards={
-    Achievement({id=14310, criteria=48809})
-}}) -- Leeched Soul
+nodes[67978179] = Rare({id=165152, quest=59580, rewards={
+    Achievement({id=14310, criteria=48809}),
+    Transmog({item=183736, slot=L["cloth"]})
+}, note=L["leeched_soul_note"]}) -- Leeched Soul
 
 nodes[75806120] = Rare({id=161891, quest=nil, rewards={
     Achievement({id=14310, criteria=48808})
