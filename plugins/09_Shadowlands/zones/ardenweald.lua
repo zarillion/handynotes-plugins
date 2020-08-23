@@ -59,7 +59,7 @@ defaults['treasure_ardenweald'] = true
 
 options.groupArdenweald = {
     type = "header",
-    name = L["ardenweald"],
+    name = C_Map.GetMapInfo(map.id).name,
     order = 0,
 }
 
@@ -139,10 +139,7 @@ nodes[62102470] = Rare({id=165053, quest=nil, rewards={
     Achievement({id=14309, criteria=48788})
 }}) -- Mymaen
 
--- nodes[47924018] = Rare({id=, quest=nil, rewards={
---     Achievement({id=14309, criteria=})
--- }}) -- Mysterious Mushroom Ring
-
+-- Mysterious Mushroom Ring (47924018)
 -- nodes[] = Rare({id=164547, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48715})
 -- }}) -- Mystic Rainbowhorn
@@ -151,9 +148,10 @@ nodes[62102470] = Rare({id=165053, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48793})
 -- }}) -- Night Mare
 
-nodes[51105740] = Rare({id=164391, quest=nil, rewards={
-    Achievement({id=14309, criteria=48785})
-}}) -- Old Ardeite
+nodes[51105740] = Rare({id=164391, quest={59208,62270}, rewards={
+    Achievement({id=14309, criteria=48785}),
+    Pet({item=180643, id=2908}) -- Chirpy Valeshrieker
+}, note=L["old_ardeite_note"]}) -- Old Ardeite
 
 nodes[65104430] = Rare({id=167726, quest=60273, rewards={
     Achievement({id=14309, criteria=48791})
@@ -277,6 +275,13 @@ nodes[49715589] = Treasure({quest=61073, rewards={
 nodes[67803462] = Treasure({quest=61165, rewards={
     Achievement({id=14313, criteria=50036})
 }, note=L["harmonic_chest"]}) -- Harmonic Chest
+
+nodes[48213927] = Treasure({quest=61067, rewards={
+    Achievement({id=14313, criteria=50037}),
+    Toy({item=182729}) -- Hearty Dragon Plume
+}, pois={
+    POI({46424032, 48964102, 50084159, scale=0.5})
+}, note=L["hearty_dragon_plume"]}) -- Hearty Dragon Plume
 
 nodes[76672974] = Treasure({quest=62186, rewards={
     Achievement({id=14313, criteria=50034}),

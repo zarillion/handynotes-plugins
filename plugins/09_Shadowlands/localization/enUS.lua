@@ -6,12 +6,7 @@ if not L then return end
 ----------------------------------- GENERAL -----------------------------------
 -------------------------------------------------------------------------------
 
-L["nightfae"] = "Night Fae"
-L["kyrian"] = "Kyrian"
-L["necrolords"] = "Necrolords"
-L["venthir"] = "Venthyr"
-
-L["covenant_summon"] = "Requires a %s to summon."
+L["covenant_required"] = "Requires a member of the %s."
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -35,13 +30,13 @@ L["dreamsong_heart"] = "Located very high up in the tree."
 L["enchanted_dreamcatcher"] = "Hanging from the top of the roots. Easiest to jump up on the west side."
 L["faerie_trove"] = "Located underneath the platform."
 L["harmonic_chest"] = "Requires two people. One person plays the harp and the other plays the drum to unlock the chest."
+L["hearty_dragon_plume"] = "Click {spell:333554} at the top of the nearby waterfalls and use it to float down onto the branch."
+L["old_ardeite_note"] = "Kill {npc:160747} and {npc:160748} in Shimmerbough to the southeast for {item:174042}. Use this item to fly up near the rare and tag it."
 L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
-
-L["bastion"] = "Bastion"
 
 L["beasts_of_bastion"] = "Beasts of Bastion"
 L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."

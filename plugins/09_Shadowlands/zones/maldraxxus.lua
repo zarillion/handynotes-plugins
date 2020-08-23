@@ -47,8 +47,8 @@ defaults['treasure_maldraxxus'] = true
 
 options.groupMaldraxxus = {
     type = "header",
-    name = L["maldraxxus"],
-    order = 0,
+    name = C_Map.GetMapInfo(map.id).name,
+    order = 20,
 }
 
 options.rareMaldraxxus = {
@@ -56,7 +56,7 @@ options.rareMaldraxxus = {
     arg = "rare_maldraxxus",
     name = L["options_toggle_rares"],
     desc = L["options_toggle_rares_desc"],
-    order = 1,
+    order = 21,
     width = "normal",
 }
 
@@ -65,7 +65,7 @@ options.treasureMaldraxxus = {
     arg = "treasure_maldraxxus",
     name = L["options_toggle_treasures"],
     desc = L["options_toggle_treasures_desc"],
-    order = 2,
+    order = 22,
     width = "normal",
 }
 

@@ -30,7 +30,7 @@ ns.processCovenant = function (node)
     node.rlabel = node.covenant.icon:link(13)
 
     -- Add sublabel describing covenant requirement
-    if isinstance(node, Rare) and not ismember then
-        node.sublabel = '|cFFFF8C00'..string.format(L["covenant_summon"], data.name)..'|r'
+    if not ismember then
+        node.sublabel = '|cFFFF8C00'..string.format(L["covenant_required"], data.name)..'|r'
     end
 end

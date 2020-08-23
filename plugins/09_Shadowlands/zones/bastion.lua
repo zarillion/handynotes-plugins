@@ -51,8 +51,8 @@ defaults['treasure_bastion'] = true
 
 options.groupBastion = {
     type = "header",
-    name = L["bastion"],
-    order = 0,
+    name = C_Map.GetMapInfo(map.id).name,
+    order = 10,
 }
 
 options.rareBastion = {
@@ -60,7 +60,7 @@ options.rareBastion = {
     arg = "rare_bastion",
     name = L["options_toggle_rares"],
     desc = L["options_toggle_rares_desc"],
-    order = 1,
+    order = 11,
     width = "normal",
 }
 
@@ -69,7 +69,7 @@ options.treasureBastion = {
     arg = "treasure_bastion",
     name = L["options_toggle_treasures"],
     desc = L["options_toggle_treasures_desc"],
-    order = 2,
+    order = 12,
     width = "normal",
 }
 
