@@ -127,6 +127,10 @@ nodes[62102470] = Rare({id=165053, quest=nil, rewards={
     Achievement({id=14309, criteria=48788})
 }}) -- Mymaen
 
+-- nodes[47924018] = Rare({id=, quest=nil, rewards={
+--     Achievement({id=14309, criteria=})
+-- }}) -- Mysterious Mushroom Ring
+
 -- nodes[] = Rare({id=164547, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48715})
 -- }}) -- Mystic Rainbowhorn
