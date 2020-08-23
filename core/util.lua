@@ -32,6 +32,11 @@ function NameResolver:Resolve (link)
     -- may be passed a raw name or a hyperlink to be resolved
     if not self:IsLink(link) then return link or UNKNOWN end
 
+    -- all npcs must be prepared ahead of time to avoid breaking the resolver
+    if not self.prepared[link] then
+        ns.debug('ERROR: npc link not prepared:', link)
+    end
+
     local name = self.cache[link]
     if name == nil then
         self:SetHyperlink(link)
