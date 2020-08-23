@@ -93,71 +93,7 @@ function Addon:OnEnter(mapID, coord)
         tooltip:SetOwner(self, "ANCHOR_RIGHT");
     end
 
-    tooltip:SetText(ns.NameResolver:Resolve(node.label))
-
-    -- optional top-right text
-    if node.rlabel then
-        local rtext = _G[tooltip:GetName()..'TextRight1']
-        rtext:SetTextColor(1, 1, 1)
-        rtext:SetText(node.rlabel)
-        rtext:Show()
-    end
-
-    -- optional text under label, usually used to indicate a oneline
-    -- requirement such as a key, item or covenant
-    if node.sublabel then
-        tooltip:AddLine(node.sublabel, 1, 1, 1)
-    end
-
-    -- additional text for the node to describe how to interact with the
-    -- object or summon the rare
-    if node.note and Addon.db.profile.show_notes then
-        if node.sublabel then tooltip:AddLine(" ") end
-        tooltip:AddLine(node.note:gsub('{(%l+):(%d+)}', function (type, id)
-            if type == 'npc' then
-                return '|cFFFFFD00'..ns.NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))..'|r'
-            end
-            if type == 'item' then
-                local _, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
-                if link and icon then
-                    return '|T'..icon..':0:0:1:-1|t '..link
-                end
-            end
-            if type == 'spell' then
-                local name, _, icon = GetSpellInfo(id)
-                if name and icon then
-                    return '|T'..icon..':0:0:1:-1|t |cFF71D5FF|Hspell:'..id..'|h['..name..']|h|r'
-                end
-            end
-            return type..'+'..id
-        end), 1, 1, 1, true)
-    end
-
-    -- used if multiple rares spawn in the same spot from some shared event
-    -- if node.rares then
-
-    -- end
-
-    -- all rewards (achievements, pets, mounts, toys, quests) that can be
-    -- collected or completed from this node
-    if Addon.db.profile.show_loot then
-        local firstAchieve, firstOther = true, true
-        for i, reward in ipairs(node.rewards or {}) do
-
-            -- Add a blank line between achievements and other rewards
-            local isAchieve = ns.isinstance(reward, ns.reward.Achievement)
-            if isAchieve and firstAchieve then
-                tooltip:AddLine(" ")
-                firstAchieve = false
-            elseif not isAchieve and firstOther then
-                tooltip:AddLine(" ")
-                firstOther = false
-            end
-
-            reward:render(tooltip);
-        end
-    end
-
+    node:render(tooltip)
     node._hover = true
     ns.MinimapDataProvider:RefreshAllData()
     ns.WorldMapDataProvider:RefreshAllData()

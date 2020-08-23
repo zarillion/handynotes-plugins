@@ -64,6 +64,7 @@ function Achievement:obtained ()
 end
 
 function Achievement:render (tooltip)
+    if self.lineAbove then tooltip:AddLine(' ') end
     local _,name,_,completed,_,_,_,_,_,icon = GetAchievementInfo(self.id)
     tooltip:AddLine(ACHIEVEMENT_COLOR_CODE..'['..name..']|r')
     tooltip:AddTexture(icon, {margin={right=2}})
@@ -162,8 +163,14 @@ end
 
 function Pet:render (tooltip)
     local n, m = C_PetJournal.GetNumCollectedInfo(self.id)
+    local text = self.itemLink..' ('..L["pet"]..')'
     local status = (n > 0) and Green(n..'/'..m) or Red(n..'/'..m)
-    tooltip:AddDoubleLine(self.itemLink..' ('..L["pet"]..')', status)
+
+    if self.note then
+        text = text..' ('..self.note..')'
+    end
+
+    tooltip:AddDoubleLine(text, status)
     tooltip:AddTexture(self.itemIcon, {margin={right=2}})
 end
 

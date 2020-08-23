@@ -21,18 +21,7 @@ end
 
 function Map:prepare ()
     for coord, node in pairs(self.nodes) do
-        ns.NameResolver:Prepare(node.label)
-        if node.note then
-            for type, id in node.note:gmatch('{(%l+):(%d+)}') do
-                if type == 'npc' then
-                    ns.NameResolver:Prepare(("unit:Creature-0-0-0-0-%d"):format(id))
-                elseif type == 'item' then
-                    GetItemInfo(id) -- prime item info
-                elseif type == 'spell' then
-                    GetSpellInfo(id) -- prime spell info
-                end
-            end
-        end
+        node:prepare()
     end
 end
 

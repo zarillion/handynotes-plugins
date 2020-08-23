@@ -4,6 +4,7 @@
 
 local ADDON_NAME, ns = ...
 local L = ns.locale
+local Class = ns.Class
 local Map = ns.Map
 local isinstance = ns.isinstance
 
@@ -166,49 +167,53 @@ nodes[33538086] = Rare({id=162819, quest=nil, rewards={
 --     Achievement({id=14308, criteria=48864})
 -- }}) -- Zargox the Reborn
 
--------------------------------------------------------------------------------
+------------------------- POOL OF MIXED MONSTROSITIES -------------------------
 
 local MISCIBLE_OOZE = "|T646670:0|t"
 local MEPHITIC_GOO = "|T136007:0|t"
 local VISCOUS_OIL = "|T136124:0|t"
 
-local MONSTROSITY_QUESTS = {
-    61718, -- Pulsing Leech
-    61719, -- Corrupted Sediment
-    61720, -- Violet Mistake
-    61721, -- Gelloh
-    61722, -- Boneslurp
-    61723, -- Burnblister
-    61724, -- Oily Invertebrate
-}
-
-nodes[58197421] = Rare({id=157226, quest=MONSTROSITY_QUESTS, rewards={
+local PoolsRare = Class('PoolsRare', Rare, { _rewards = {
     Achievement({id=14721, criteria={
-        {id=48858, note=MISCIBLE_OOZE..' > '..MEPHITIC_GOO..' '..VISCOUS_OIL},-- Gelloh
-        {id=48863, note=MEPHITIC_GOO..' > '..MISCIBLE_OOZE..' '..VISCOUS_OIL},-- Corrupted Sediment
-        {id=48854, note=VISCOUS_OIL..' > '..MISCIBLE_OOZE..' '..MEPHITIC_GOO}, -- Pulsing Leech
-        {id=48860, note='('..MISCIBLE_OOZE..' = '..MEPHITIC_GOO..') > '..VISCOUS_OIL},-- Boneslurp
-        {id=48862, note='('..MISCIBLE_OOZE..' = '..VISCOUS_OIL..') > '..MEPHITIC_GOO},-- Burnblister
-        {id=48861, note='('..MEPHITIC_GOO..' = '..VISCOUS_OIL..') > '..MISCIBLE_OOZE},-- Violet Mistake
-        {id=48859, note=MISCIBLE_OOZE..' = '..MEPHITIC_GOO..' = '..VISCOUS_OIL},-- Oily Invertebrate
+        {id=48858, quest=61721, _note=MISCIBLE_OOZE..' > '..MEPHITIC_GOO..' '..VISCOUS_OIL}, -- Gelloh
+        {id=48863, quest=61719, _note=MEPHITIC_GOO..' > '..MISCIBLE_OOZE..' '..VISCOUS_OIL}, -- Corrupted Sediment
+        {id=48854, quest=61718, _note=VISCOUS_OIL..' > '..MISCIBLE_OOZE..' '..MEPHITIC_GOO}, -- Pulsing Leech
+        {id=48860, quest=61722, _note='('..MISCIBLE_OOZE..' = '..MEPHITIC_GOO..') > '..VISCOUS_OIL}, -- Boneslurp
+        {id=48862, quest=61723, _note='('..MISCIBLE_OOZE..' = '..VISCOUS_OIL..') > '..MEPHITIC_GOO}, -- Burnblister
+        {id=48861, quest=61720, _note='('..MEPHITIC_GOO..' = '..VISCOUS_OIL..') > '..MISCIBLE_OOZE}, -- Violet Mistake
+        {id=48859, quest=61724, _note=MISCIBLE_OOZE..' = '..MEPHITIC_GOO..' = '..VISCOUS_OIL}, -- Oily Invertebrate
     }}),
     Pet({item=181270, id=2960}) -- Decaying Oozewalker
-}, note=L["mixed_pool_note"]}) -- Pool of Mixed Monstrosities
+}, note=L["mixed_pool_note"] })
 
---[[
+local POOL_QUESTS = {}
+for i, criteria in ipairs(PoolsRare._rewards[1].criteria) do
+    POOL_QUESTS[#POOL_QUESTS + 1] = criteria.quest
+end
 
-Pulsing Leech 157294 quest=61718
-    Undulating Blood Burrower 182198 => Symbiotic Relationship 338506
-    Engorged Blood Burrower 182200 => Symbiotic Relationship 338507
-Gelloh 157307 quest=61721
-Corrupted Sediment 157308 quest=61719
-Violet Mistake 157309 quest=61720
-Boneslurp 157310 quest=61722
-Burnblister 157311 quest=61723
-Oily Invertebrate 157312 quest=61724
-    Decaying Oozewalker
+function PoolsRare.getters:rewards ()
+    for i, criteria in ipairs(self._rewards[1].criteria) do
+        if IsQuestFlaggedCompleted(criteria.quest) then
+            criteria.note = criteria._note..'  '..ns.status.Green(L['D'])
+        else
+            criteria.note = criteria._note..'  '..ns.status.Red(L['A'])
+        end
+    end
+    return self._rewards
+end
 
-]]
+function PoolsRare.getters:rlabel ()
+    local count = 0
+    for i, quest in ipairs(POOL_QUESTS) do
+        if IsQuestFlaggedCompleted(quest) then
+            count = count + 1
+        end
+    end
+    local color = (count == #POOL_QUESTS) and ns.status.Green or ns.status.Gray
+    return color(tostring(count)..'/'..#POOL_QUESTS)
+end
+
+nodes[58197421] = PoolsRare({id=157226, quest=POOL_QUESTS})
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

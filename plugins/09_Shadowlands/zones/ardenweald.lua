@@ -4,6 +4,7 @@
 
 local ADDON_NAME, ns = ...
 local L = ns.locale
+local Class = ns.Class
 local Map = ns.Map
 local isinstance = ns.isinstance
 
@@ -78,10 +79,6 @@ options.treasureArdenweald = {
 --     Achievement({id=14309, criteria=})
 -- }}) --
 
-nodes[41534482] = Rare({id=116135, quest=nil, rewards={
-    Achievement({id=14309, criteria=48709})
-}}) -- Astra, As Azshara
-
 nodes[34606800] = Rare({id=164477, quest=nil, rewards={
     Achievement({id=14309, criteria=48714})
 }}) -- Deathbinder Hroth
@@ -97,10 +94,6 @@ nodes[47522845] = Rare({id=164238, quest={59201,62271}, rewards={
     })
 }, note=L["deifir_note"]}) -- Deifir the Untamed
 
-nodes[41524482] = Rare({id=166145, quest=nil, rewards={
-    Achievement({id=14309, criteria=48710})
-}}) -- Dreamweaver, As N'Zoth
-
 -- nodes[] = Rare({id=163229, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48794})
 -- }}) -- Dustbrawl
@@ -112,14 +105,6 @@ nodes[57862955] = Rare({id=167851, quest=60266, rewards={
 nodes[68612765] = Rare({id=171688, quest=61184, rewards={
     Achievement({id=14309, criteria=48798})
 }, note=L["faeflayer_note"]}) -- Faeflayer
-
-nodes[41544482] = Rare({id=166139, quest=nil, rewards={
-    Achievement({id=14309, criteria=48707})
-}}) --Glimmerdust, As Kil'Jaeden
-
-nodes[41554482] = Rare({id=166142, quest=nil, rewards={
-    Achievement({id=14309, criteria=48704})
-}}) -- Glimmerdust, As Jaina
 
 -- nodes[] = Rare({id=164107, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48781})
@@ -137,10 +122,6 @@ nodes[71002460] = Rare({id=160448, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48780})
 -- }}) -- Macabre
 
-nodes[41504482] = Rare({id=166138, quest=nil, rewards={
-    Achievement({id=14309, criteria=48708})
-}}) -- Mi'Kai, As Argus
-
 nodes[62102470] = Rare({id=165053, quest=nil, rewards={
     Achievement({id=14309, criteria=48788})
 }}) -- Mymaen
@@ -152,10 +133,6 @@ nodes[62102470] = Rare({id=165053, quest=nil, rewards={
 -- nodes[] = Rare({id=168135, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48793})
 -- }}) -- Night Mare
-
-nodes[41564482] = Rare({id=166146, quest=nil, rewards={
-    Achievement({id=14309, criteria=48705})
-}}) -- Niya, As Xavius
 
 nodes[51105740] = Rare({id=164391, quest=nil, rewards={
     Achievement({id=14309, criteria=48785})
@@ -169,10 +146,6 @@ nodes[65702430] = Rare({id=167724, quest=60258, rewards={
     Achievement({id=14309, criteria=48789}),
     Item({item=175729, note=L["trinket"]}) -- Rotbriar Sprout
 }, note=L["rotbriar_note"]}) -- Rotbriar Changeling
-
-nodes[41514482] = Rare({id=116140, quest=nil, rewards={
-    Achievement({id=14309, criteria=48706})
-}}) -- Senthii, As Gul'dan
 
 -- nodes[] = Rare({id=171451, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48797})
@@ -194,7 +167,57 @@ nodes[58306180] = Rare({id=164147, quest=nil, rewards={
     Achievement({id=14309, criteria=48783})
 }}) -- Wrigglemortis
 
+--------------------------- STAR LAKE AMPHITHEATER ----------------------------
 
+local StarLake = Class('StarLake', Rare, { _rewards = {
+    Achievement({id=14309, criteria={
+        {id=48709, quest=nil}, -- Astra, As Azshara
+        {id=48710, quest=nil}, -- Dreamweaver, As N'Zoth
+        {id=48704, quest=nil}, -- Glimmerdust, As Jaina
+        {id=48707, quest=nil}, -- Glimmerdust, As Kil'Jaeden
+        {id=48708, quest=nil}, -- Mi'Kai, As Argus
+        {id=48705, quest=nil}, -- Niya, As Xavius
+        {id=48706, quest=nil}  -- Senthii, As Gul'dan
+    }}),
+    Achievement({id=14353, criteria={
+        48708, -- Argus
+        48709, -- Azshara
+        48706, -- Gul'dan
+        48704, -- Jaina
+        48707, -- Kil'jaeden
+        48710, -- N'Zoth
+        48705  -- Xavius
+    }, lineAbove=true})
+}, note=L["star_lake_note"] })
+
+-- local STAR_QUESTS = {}
+-- for i, criteria in ipairs(StarLake._rewards[1].criteria) do
+--     POOL_QUESTS[#POOL_QUESTS + 1] = criteria.quest
+-- end
+
+function StarLake.getters:rewards ()
+    -- for i, criteria in ipairs(self._rewards[1].criteria) do
+    --     if IsQuestFlaggedCompleted(criteria.quest) then
+    --         criteria.note = criteria._note..'  '..ns.status.Green(L['D'])
+    --     else
+    --         criteria.note = criteria._note..'  '..ns.status.Red(L['A'])
+    --     end
+    -- end
+    return self._rewards
+end
+
+-- function PoolsRare.getters:rlabel ()
+--     local count = 0
+--     for i, quest in ipairs(POOL_QUESTS) do
+--         if IsQuestFlaggedCompleted(quest) then
+--             count = count + 1
+--         end
+--     end
+--     local color = (count == #POOL_QUESTS) and ns.status.Green or ns.status.Gray
+--     return color(tostring(count)..'/'..#POOL_QUESTS)
+-- end
+
+nodes[41254443] = StarLake({id=171743, label=L["star_lake"], quest=nil})
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

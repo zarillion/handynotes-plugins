@@ -24,6 +24,9 @@ L["rootwrithe_note"] = "Poke the {npc:167928}s until the rare appears."
 L["rotbriar_note"] = "Talk to {npc:171684} nearby to summon the rare after some dialog."
 L["slumbering_note"] = "Running into the fog will stun and port you out. Use a flare or a pet with AOE to knock him out of the fog."
 
+L["star_lake"] = "Star Lake Amphitheater"
+L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one of the special encounters."
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -110,6 +113,7 @@ L["in_cave"] = "In a cave."
 L["in_small_cave"] = "In a small cave."
 L["in_water_cave"] = "In an underwater cave."
 L["in_water"] = "In the water."
+L["daily"] = "Daily"
 L["weekly"] = "Weekly"
 L["normal"] = "Normal"
 L["hard"] = "Hard"
@@ -122,6 +126,8 @@ L["known"] = "Known"
 L["missing"] = "Missing"
 L["unobtainable"] = "Unobtainable"
 L["unlearnable"] = "Unlearnable"
+L["A"] = "A" -- available/alive
+L["D"] = "D" -- dead/defeated
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
