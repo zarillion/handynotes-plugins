@@ -13,15 +13,21 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Quest = ns.reward.Quest
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
+
+-------------------------------------------------------------------------------
+
+local NIGHTFAE = ns.covenants.FAE
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -34,6 +40,9 @@ function map:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
 
     if node == map.intro then return true end
+
+    -- add rlabel and warning if covenant doesn't match
+    ns.processCovenant(node)
 
     local profile = ns.addon.db.profile
     if isinstance(node, Rare) then return profile.rare_ardenweald end
@@ -76,11 +85,7 @@ options.treasureArdenweald = {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- nodes[] = Rare({id=, quest=nil, rewards={
---     Achievement({id=14309, criteria=})
--- }}) --
-
-nodes[34606800] = Rare({id=164477, quest=nil, rewards={
+nodes[34606800] = Rare({id=164477, quest=59226, rewards={
     Achievement({id=14309, criteria=48714})
 }}) -- Deathbinder Hroth
 
@@ -95,9 +100,9 @@ nodes[47522845] = Rare({id=164238, quest={59201,62271}, rewards={
     })
 }, note=L["deifir_note"]}) -- Deifir the Untamed
 
--- nodes[] = Rare({id=163229, quest=nil, rewards={
---     Achievement({id=14309, criteria=48794})
--- }}) -- Dustbrawl
+nodes[48397717] = Rare({id=163229, quest=58987, rewards={
+    Achievement({id=14309, criteria=48794})
+}}) -- Dustbrawl
 
 nodes[57862955] = Rare({id=167851, quest=60266, rewards={
     Achievement({id=14309, criteria=48790})
@@ -107,16 +112,23 @@ nodes[68612765] = Rare({id=171688, quest=61184, rewards={
     Achievement({id=14309, criteria=48798})
 }, note=L["faeflayer_note"]}) -- Faeflayer
 
--- nodes[] = Rare({id=164107, quest=nil, rewards={
---     Achievement({id=14309, criteria=48781})
--- }}) -- Gormtamer Tizo
+nodes[54067601] = Rare({id=163370, quest=59006, rewards={
+    Achievement({id=14309, criteria=48795})
+}}) -- Gormbore
+
+nodes[27885248] = Rare({id=164107, quest=59145, rewards={
+    Achievement({id=14309, criteria=48781}),
+    Mount({item=180725, id=1362}) -- Spinemaw Gladechewer
+}}) -- Gormtamer Tizo
 
 -- nodes[] = Rare({id=16412, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48742})
 -- }}) -- Humon'gozz
 
-nodes[71002460] = Rare({id=160448, quest=nil, rewards={
-    Achievement({id=14309, criteria=48787})
+nodes[67465147] = Rare({id=160448, quest=59221, rewards={
+    Achievement({id=14309, criteria=48787}),
+    Transmog({item=179596, slot=L["cosmetic"]}), -- Drust Mask of Dominance
+    Quest({id=62246}) -- A Fallen Friend
 }}) -- Hunter Vivian
 
 -- nodes[] = Rare({id=164093, quest=nil, rewards={
@@ -152,25 +164,31 @@ nodes[65702430] = Rare({id=167724, quest=60258, rewards={
     Item({item=175729, note=L["trinket"]}) -- Rotbriar Sprout
 }, note=L["rotbriar_note"]}) -- Rotbriar Changeling
 
--- nodes[] = Rare({id=171451, quest=nil, rewards={
---     Achievement({id=14309, criteria=48797})
--- }}) -- Soultwister Cero
+nodes[72425175] = Rare({id=171451, quest=61177, rewards={
+    Achievement({id=14309, criteria=48797}),
+    Transmog({item=180164, slot=L["staff"]}) -- Soultwister's Scythe
+}}) -- Soultwister Cero
 
-nodes[36906010] = Rare({id=164415, quest=nil, rewards={
-    Achievement({id=14309, criteria=48786})
-}}) -- Skuld Vit
+nodes[37675917] = Rare({id=164415, quest=59220, covenant=NIGHTFAE, rewards={
+    Achievement({id=14309, criteria=48786}),
+    Item({item=182183, quest=62439}) -- Wolfhawk Soul
+}, note=L["skuld_vit_note"]}) -- Skuld Vit
 
 nodes[59304660] = Rare({id=167721, quest=60290, rewards={
     Achievement({id=14309, criteria=48792})
 }, note=L["slumbering_note"]}) -- The Slumbering Emperor
 
-nodes[30605500] = Rare({id=168647, quest=nil, rewards={
-    Achievement({id=14309, criteria=48796})
-}}) -- Valfir the Unrelenting
+nodes[30115536] = Rare({id=168647, quest=61632, rewards={
+    Achievement({id=14309, criteria=48796}),
+    Mount({item=180730, id=1393}), -- Glimmerfur Prowler
+    Item({item=182176, quest=62431}) -- Shadowstalker Soul
+}, pois={
+    Path({29265611, 30115536, 30875464})
+},note=L["valfir_note"]}) -- Valfir the Unrelenting
 
-nodes[58306180] = Rare({id=164147, quest=nil, rewards={
+nodes[58306180] = Rare({id=164147, quest=59170, rewards={
     Achievement({id=14309, criteria=48783})
-}}) -- Wrigglemortis
+}, note=L["wrigglemortis_note"]}) -- Wrigglemortis
 
 --------------------------- STAR LAKE AMPHITHEATER ----------------------------
 
@@ -228,9 +246,41 @@ nodes[41254443] = StarLake({id=171743, label=L["star_lake"], quest=nil})
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+-- nodes[] = Treasure({quest=, rewards={
+--     Achievement({id=14313, criteria=})
+-- }, note=L[""]}) --
+
+nodes[36236527] = Treasure({quest=nil, rewards={
+    Achievement({id=14313, criteria=50044})
+}}) -- Cache of the Night
+
+nodes[41953253] = Treasure({quest=nil, rewards={
+    Achievement({id=14313, criteria=50040})
+}, pois={
+    POI({41413161, scale=0.5})
+}, note=L["desiccated_moth"]}) -- Desiccated Moth
+
+nodes[37683688] = Treasure({quest=nil, rewards={
+    Achievement({id=14313, criteria=50041})
+}, note=L["dreamsong_heart"]}) -- Dreamsong Heart
+
+nodes[36422506] = Treasure({quest=62259, rewards={
+    Achievement({id=14313, criteria=50042}),
+    Item({item=183129, quest=62259}) -- Anima-Laden Dreamcatcher
+}, note=L["enchanted_dreamcatcher"]}) -- Enchanted Dreamcatcher
+
+nodes[49715589] = Treasure({quest=61073, rewards={
+    Achievement({id=14313, criteria=50035}),
+    Pet({item=182673, id=3022}) -- Shimmerbough Hoarder
+}, note=L["faerie_trove"]}) -- Faerie Trove
+
+nodes[67803462] = Treasure({quest=61165, rewards={
+    Achievement({id=14313, criteria=50036})
+}, note=L["harmonic_chest"]}) -- Harmonic Chest
+
 nodes[76672974] = Treasure({quest=62186, rewards={
     Achievement({id=14313, criteria=50034}),
-    Quest({id=62186}) -- Swollen Anima Seed
+    Item({item=182730, quest=62186}) -- Swollen Anima Seed
 }, note=L["swollen_anima_seed"]}) -- Swollen Anima Seed
 
 -------------------------------------------------------------------------------

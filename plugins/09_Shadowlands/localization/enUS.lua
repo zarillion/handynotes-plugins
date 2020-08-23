@@ -23,10 +23,18 @@ L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he sp
 L["rootwrithe_note"] = "Poke the {npc:167928}s until the rare appears."
 L["rotbriar_note"] = "Talk to {npc:171684} nearby to summon the rare after some dialog."
 L["slumbering_note"] = "Running into the fog will stun and port you out. Use a flare or a pet with AOE to knock him out of the fog."
+L["skuld_vit_note"] = "In a cave blocked by a barrier. A Night Fae must use {spell:310143} to enter the cave. Once he is pulled, the barrier will disappear."
+L["valfir_note"] = "Click the Sparkling Animaseed midway down the path and use {spell:338045} to remove his {spell:338038} buff."
+L["wrigglemortis_note"] = "Pull the {npc:164179} to spawn the rare."
 
 L["star_lake"] = "Star Lake Amphitheater"
 L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one of the special encounters."
 
+L["desiccated_moth"] = "Jump on the {npc:169997} northwest of the tree to float onto a branch. Burn {item:180784} in the Incense Burner to collect the treasure."
+L["dreamsong_heart"] = "Located very high up in the tree."
+L["enchanted_dreamcatcher"] = "Hanging from the top of the roots. Easiest to jump up on the west side."
+L["faerie_trove"] = "Located underneath the platform."
+L["harmonic_chest"] = "Requires two people. One person plays the harp and the other plays the drum to unlock the chest."
 L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 
 -------------------------------------------------------------------------------
@@ -82,6 +90,7 @@ L["cloth"] = "Cloth"
 L["leather"] = "Leather"
 L["mail"] = "Mail"
 L["plate"] = "Plate"
+L["cosmetic"] = "Cosmetic"
 
 L["1h_mace"] = "1h Mace"
 L["1h_sword"] = "1h Sword"
