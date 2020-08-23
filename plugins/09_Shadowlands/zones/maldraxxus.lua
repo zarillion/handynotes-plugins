@@ -18,6 +18,8 @@ local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
+local POI = ns.poi.POI
+
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
 
@@ -85,7 +87,7 @@ nodes[49012351] = Rare({id=159105, quest=58005, rewards={
 --     Achievement({id=14308, criteria=48872})
 -- }}) -- Corpsecutter (Bonebreaker) Moroc
 
-nodes[76135625] = Rare({id=162711, quest=58868, rewards={
+nodes[76835707] = Rare({id=162711, quest=58868, rewards={
     Achievement({id=14308, criteria=48851}),
     Pet({id=2953, item=181263}) -- Shy Melvin
 }}) -- Deadly Dapperling
@@ -93,6 +95,8 @@ nodes[76135625] = Rare({id=162711, quest=58868, rewards={
 nodes[46734550] = Rare({id=162797, quest=58878, rewards={
     Achievement({id=14308, criteria=48852}),
     Transmog({item=182191, slot=L["1h_mace"]}) -- Slobber-Soaked Chew Toy
+}, pois={
+    POI({48125190})
 }}) -- Deepscar
 
 nodes[45052842] = Rare({id=162669, quest=58835, rewards={
@@ -116,6 +120,10 @@ nodes[38794333] = Rare({id=161105, quest=58332, rewards={
 -- nodes[] = Rare({id=162759, quest=nil, rewards={
 --     Achievement({id=14308, criteria=48856})
 -- }}) -- Moregorger
+
+nodes[72872891] = Rare({id=174108, quest=nil, rewards={
+    Achievement({id=14308, criteria=49724})
+}}) -- Necromantic Anomaly
 
 nodes[66023532] = Rare({id=162690, quest=nil, rewards={
     Achievement({id=14308, criteria=49723})
@@ -227,6 +235,10 @@ nodes[49441509] = Treasure({quest=59244, rewards={
     Achievement({id=14312, criteria=50070}),
     Item({item=183696}) -- Sp-eye-glass
 }}) -- Chest of Eyes
+
+nodes[72895365] = Treasure({quest=61484, rewards={
+    Achievement({id=14312, criteria=50072})
+}, note=L["glutharns_note"]}) -- Glutharn's Stash
 
 nodes[64672475] = Treasure({quest=nil, rewards={
     Achievement({id=14312, criteria=50075})

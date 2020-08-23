@@ -69,6 +69,7 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 • Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
 ]]
 
+L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
 L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
 
