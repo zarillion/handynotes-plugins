@@ -69,10 +69,19 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 • Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
 ]]
 
+L["blackhound_cache"] = "Blackhound Cache"
+L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
 L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
 L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
+L["plaguefallen_chest_note"] = [[
+Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} and be transformed into a {spell:330092}.
+
+Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on the east side) and click the pipe to transport to the chest.
+]]
+L["runespeakers_trove_note"] = "Locked, requires {item:181777} to open."
 L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
+L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
 
 L["pet_cat"] = "Pet the damn cat!"
 L["hairball"] = "|cFFFF0000Only appears in the Festering Sanctum inside the Plaguefall dungeon!|r"

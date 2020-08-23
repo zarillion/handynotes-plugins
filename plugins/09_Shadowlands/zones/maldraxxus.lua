@@ -231,6 +231,9 @@ nodes[58197421] = PoolsRare({id=157226, quest=POOL_QUESTS})
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+nodes[44083989] = Treasure({quest=60368, label=L["blackhound_cache"]}) -- Blackhound Cache
+nodes[38607810] = Treasure({label=L["bladesworn_supply_cache"]}) -- Bladesworn Supply Cache
+
 nodes[49441509] = Treasure({quest=59244, rewards={
     Achievement({id=14312, criteria=50070}),
     Item({item=183696}) -- Sp-eye-glass
@@ -254,9 +257,20 @@ nodes[32742127] = Treasure({quest=60587, rewards={
     Item({item=175708, note=L["neck"]})
 }, note=L["kyrian_keepsake_note"]}) -- Kyrian Keepsake
 
+nodes[57667581] = Treasure({quest=61474, rewards={
+    Achievement({id=14312, criteria=50074}),
+    Pet({item=183515, id=3045}) -- Reanimated Plague
+}, pois={
+    POI({62487656, scale=0.75})
+}, note=L["plaguefallen_chest_note"]}) -- Plaguefallen Chest
+
 nodes[64672475] = Treasure({quest=nil, rewards={
     Achievement({id=14312, criteria=50075})
 }}) -- Ritualist's Cache
+
+nodes[31737004] = Treasure({quest=nil, rewards={
+    Achievement({id=14312, criteria=50073})
+}, note=L["runespeakers_trove_note"]}) -- Runespeaker's Trove
 
 nodes[66145045] = Treasure({quest=61451, rewards={
     Achievement({id=14312, criteria=50067}),
@@ -267,6 +281,11 @@ nodes[55893897] = Treasure({quest={59428,59429}, rewards={
     --Item({item=182607}), -- Hairy Egg
     Pet({item=182606, id=3013}) -- Bloodlouse Larva
 }, label='unit:Creature-0-0-0-0-165037', note=L["strange_growth_note"]}) -- Strange Growth
+
+nodes[59867906] = Treasure({quest=61444, rewards={
+    Achievement({id=14312, criteria=50066}),
+    Toy({item=181825}) -- Phial of Ravenous Slime
+}, note=L["vat_of_slime_note"]}) -- Vat of Conspicuous Slime
 
 -- nodes[] = Treasure({quest=, rewards={
 --     Achievement({id=14312, criteria=})
