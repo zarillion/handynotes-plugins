@@ -31,14 +31,14 @@ L["slumbering_note"] = "Running into the fog will stun and port you out. Use a f
 L["bastion"] = "Bastion"
 
 L["beasts_of_bastion"] = "Beasts of Bastion"
-L["beasts_of_bastion_note"] = "Talk to Orator Kloe to summon one of the four beasts."
+L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."
 L["herculon_note"] = [[
-Charge all four Anima Conduits using {item:172451}.
+Charge all four {npc:158660} using {item:172451}.
 
-Motes can be collected from nearby Depleted Anima Canisters located the room or just outside. Each conduit requires 3 motes.
+Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside. Each conduit requires 3 motes.
 ]]
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
-L["wingflayer_note"] = "Click the horn on the nearby table (up the stairs) to summon."
+L["wingflayer_note"] = "To summon, click the horn on the nearby table (southeast, up the stairs)."
 
 L["vesper_of_virtues"] = "Vesper of Virtues"
 
