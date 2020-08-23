@@ -70,6 +70,7 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 ]]
 
 L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
+L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
 L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
 
@@ -117,7 +118,7 @@ L["offhand"] = "Off Hand"
 L["warglaive"] = "Warglaive"
 
 L["ring"] = "Ring"
-L["amulet"] = "Amulet"
+L["neck"] = "Neck"
 L["cloak"] = "Cloak"
 L["trinket"] = "Trinket"
 

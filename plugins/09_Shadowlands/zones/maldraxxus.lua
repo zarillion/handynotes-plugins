@@ -83,9 +83,9 @@ nodes[49012351] = Rare({id=159105, quest=58005, rewards={
     Achievement({id=14308, criteria=48866})
 }}) -- Collector Kash
 
--- nodes[] = Rare({id=157058, quest=nil, rewards={
---     Achievement({id=14308, criteria=48872})
--- }}) -- Corpsecutter (Bonebreaker) Moroc
+nodes[26392633] = Rare({id=157058, quest=nil, rewards={
+    Achievement({id=14308, criteria=48872})
+}}) -- Corpsecutter (Bonebreaker) Moroc
 
 nodes[76835707] = Rare({id=162711, quest=58868, rewards={
     Achievement({id=14308, criteria=48851}),
@@ -236,9 +236,23 @@ nodes[49441509] = Treasure({quest=59244, rewards={
     Item({item=183696}) -- Sp-eye-glass
 }}) -- Chest of Eyes
 
+nodes[22503030] = Treasure({quest=nil, rewards={
+    Achievement({id=14312, criteria=50069})
+}}) -- Forgotten Mementos
+
 nodes[72895365] = Treasure({quest=61484, rewards={
     Achievement({id=14312, criteria=50072})
 }, note=L["glutharns_note"]}) -- Glutharn's Stash
+
+nodes[30792874] = Treasure({quest=60730, rewards={
+    Achievement({id=14312, criteria=50065})
+}}) -- Halis's Lunch Pail
+
+nodes[32742127] = Treasure({quest=60587, rewards={
+    Achievement({id=14312, criteria=50064}),
+    Item({item=180085}),
+    Item({item=175708, note=L["neck"]})
+}, note=L["kyrian_keepsake_note"]}) -- Kyrian Keepsake
 
 nodes[64672475] = Treasure({quest=nil, rewards={
     Achievement({id=14312, criteria=50075})
