@@ -27,6 +27,8 @@ L["slumbering_note"] = "Running into the fog will stun and port you out. Use a f
 L["star_lake"] = "Star Lake Amphitheater"
 L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one of the special encounters."
 
+L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------

@@ -329,6 +329,15 @@ function Treasure:enabled (map, coord, minimap)
     return Node.enabled(self, map, coord, minimap)
 end
 
+function Treasure.getters:label ()
+    for i, reward in ipairs(self.rewards or {}) do
+        if isinstance(reward, ns.reward.Achievement) then
+            return GetAchievementCriteriaInfoByID(reward.id, reward.criteria[1].id)
+        end
+    end
+    return UNKNOWN
+end
+
 -------------------------------------------------------------------------------
 ----------------------------------- SUPPLY ------------------------------------
 -------------------------------------------------------------------------------

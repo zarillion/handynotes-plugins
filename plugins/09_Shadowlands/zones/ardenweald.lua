@@ -14,6 +14,7 @@ local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
+local Quest = ns.reward.Quest
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
@@ -222,6 +223,11 @@ nodes[41254443] = StarLake({id=171743, label=L["star_lake"], quest=nil})
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
+
+nodes[76672974] = Treasure({quest=62186, rewards={
+    Achievement({id=14313, criteria=50034}),
+    Quest({id=62186}) -- Swollen Anima Seed
+}, note=L["swollen_anima_seed"]}) -- Swollen Anima Seed
 
 -------------------------------------------------------------------------------
 

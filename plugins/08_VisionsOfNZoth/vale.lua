@@ -274,15 +274,12 @@ nodes[70954053] = Rare({id=154087, quest=56084, assault=EMP}) -- Zror'um the Inf
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-local MANChest = Class('MANChest', Treasure, {
-    assault=MAN, label=L["ambered_cache"]
-})
-
-local MANTR1 = MANChest({quest=58224, icon='chest_blue'})
-local MANTR2 = MANChest({quest=58225, icon='chest_purple'})
-local MANTR3 = MANChest({quest=58226, icon='chest_orange'})
-local MANTR4 = MANChest({quest=58227, icon='chest_yellow'})
-local MANTR5 = MANChest({quest=58228, icon='chest_teal'})
+local MANChest = Class('MANChest', Treasure, { assault=MAN })
+local MANTR1 = MANChest({quest=58224, label=L["ambered_cache"], icon='chest_blue'})
+local MANTR2 = MANChest({quest=58225, label=L["ambered_cache"], icon='chest_purple'})
+local MANTR3 = MANChest({quest=58226, label=L["ambered_cache"], icon='chest_orange'})
+local MANTR4 = MANChest({quest=58227, label=L["ambered_cache"], icon='chest_yellow'})
+local MANTR5 = MANChest({quest=58228, label=L["ambered_cache"], icon='chest_teal'})
 
 -- quest=58224
 nodes[04066172] = MANTR1
@@ -333,16 +330,13 @@ nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"], s
 
 -------------------------------------------------------------------------------
 
-local MOGChest = Class('MOGChest', Treasure, {
-    assault=MOG, label=L["mogu_plunder"]
-})
-
-local MOGTR1 = MOGChest({quest=57206, icon='chest_blue', note=L["guolai"]})
-local MOGTR2 = MOGChest({quest=57208, icon='chest_lime'})
-local MOGTR3 = MOGChest({quest=57209, icon='chest_orange'})
-local MOGTR4 = MOGChest({quest=57211, icon='chest_yellow'})
-local MOGTR5 = MOGChest({quest=57212, icon='chest_teal'})
-local MOGTR6 = MOGChest({quest=57213, icon='chest_purple'})
+local MOGChest = Class('MOGChest', Treasure, { assault=MOG })
+local MOGTR1 = MOGChest({quest=57206, label=L["mogu_plunder"], icon='chest_blue', note=L["guolai"]})
+local MOGTR2 = MOGChest({quest=57208, label=L["mogu_plunder"], icon='chest_lime'})
+local MOGTR3 = MOGChest({quest=57209, label=L["mogu_plunder"], icon='chest_orange'})
+local MOGTR4 = MOGChest({quest=57211, label=L["mogu_plunder"], icon='chest_yellow'})
+local MOGTR5 = MOGChest({quest=57212, label=L["mogu_plunder"], icon='chest_teal'})
+local MOGTR6 = MOGChest({quest=57213, label=L["mogu_plunder"], icon='chest_purple'})
 
 -- quest=57206
 nodes[13500720] = MOGTR1
@@ -403,16 +397,13 @@ nodes[50182143] = MOGCOFF
 
 -------------------------------------------------------------------------------
 
-local EMPChest = Class('EMPChest', Treasure, {
-    assault=EMP, label=L["black_empire_cache"]
-})
-
-local EMPTR1 = EMPChest({quest=57197, icon='chest_blue'})
-local EMPTR2 = EMPChest({quest=57199, icon='chest_purple', note=L["pools_of_power"]})
-local EMPTR3 = EMPChest({quest=57200, icon='chest_orange'})
-local EMPTR4 = EMPChest({quest=57201, icon='chest_yellow'})
-local EMPTR5 = EMPChest({quest=57202, icon='chest_teal', note=L["big_blossom_mine"]})
-local EMPTR6 = EMPChest({quest=57203, icon='chest_lime'})
+local EMPChest = Class('EMPChest', Treasure, { assault=EMP })
+local EMPTR1 = EMPChest({quest=57197, label=L["black_empire_cache"], icon='chest_blue'})
+local EMPTR2 = EMPChest({quest=57199, label=L["black_empire_cache"], icon='chest_purple', note=L["pools_of_power"]})
+local EMPTR3 = EMPChest({quest=57200, label=L["black_empire_cache"], icon='chest_orange'})
+local EMPTR4 = EMPChest({quest=57201, label=L["black_empire_cache"], icon='chest_yellow'})
+local EMPTR5 = EMPChest({quest=57202, label=L["black_empire_cache"], icon='chest_teal', note=L["big_blossom_mine"]})
+local EMPTR6 = EMPChest({quest=57203, label=L["black_empire_cache"], icon='chest_lime'})
 
 -- quest=57197
 nodes[42024621] = EMPTR1

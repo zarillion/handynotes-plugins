@@ -387,15 +387,12 @@ nodes[coord(5, 0)] = NefRare({id=157469, quest=57435}) -- Zoth'rum the Intellect
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-local AQRChest = Class('AQRChest', Treasure, {
-    assault=AQR, label=L["infested_cache"]
-})
-
-local AQRTR1 = AQRChest({quest=58138, icon='chest_blue'})
-local AQRTR2 = AQRChest({quest=58139, icon='chest_purple'})
-local AQRTR3 = AQRChest({quest=58140, icon='chest_orange'})
-local AQRTR4 = AQRChest({quest=58141, icon='chest_yellow'})
-local AQRTR5 = AQRChest({quest=58142, icon='chest_teal'})
+local AQRChest = Class('AQRChest', Treasure, { assault=AQR })
+local AQRTR1 = AQRChest({quest=58138, label=L["infested_cache"], icon='chest_blue'})
+local AQRTR2 = AQRChest({quest=58139, label=L["infested_cache"], icon='chest_purple'})
+local AQRTR3 = AQRChest({quest=58140, label=L["infested_cache"], icon='chest_orange'})
+local AQRTR4 = AQRChest({quest=58141, label=L["infested_cache"], icon='chest_yellow'})
+local AQRTR5 = AQRChest({quest=58142, label=L["infested_cache"], icon='chest_teal'})
 
 -- quest=58138
 nodes[43925868] = clone(AQRTR1, {note=L["chamber_of_the_sun"]})
@@ -452,16 +449,13 @@ nodes[36252324] = Supply({quest=58137, assault=AQR,
 
 -------------------------------------------------------------------------------
 
-local EMPChest = Class('EMPChest', Treasure, {
-    assault=EMP, label=L["black_empire_cache"]
-})
-
-local EMPTR1 = EMPChest({quest=57623, icon='chest_blue', note=L["single_chest"]})
-local EMPTR2 = EMPChest({quest=57624, icon='chest_purple', note=L["single_chest"]})
-local EMPTR3 = EMPChest({quest=57625, icon='chest_lime', note=L["in_water"]..' '..L["single_chest"]})
-local EMPTR4 = EMPChest({quest=57626, icon='chest_orange'})
-local EMPTR5 = EMPChest({quest=57627, icon='chest_yellow'})
-local EMPTR6 = EMPChest({quest=57635, icon='chest_teal'})
+local EMPChest = Class('EMPChest', Treasure, { assault=EMP })
+local EMPTR1 = EMPChest({quest=57623, label=L["black_empire_cache"], icon='chest_blue', note=L["single_chest"]})
+local EMPTR2 = EMPChest({quest=57624, label=L["black_empire_cache"], icon='chest_purple', note=L["single_chest"]})
+local EMPTR3 = EMPChest({quest=57625, label=L["black_empire_cache"], icon='chest_lime', note=L["in_water"]..' '..L["single_chest"]})
+local EMPTR4 = EMPChest({quest=57626, label=L["black_empire_cache"], icon='chest_orange'})
+local EMPTR5 = EMPChest({quest=57627, label=L["black_empire_cache"], icon='chest_yellow'})
+local EMPTR6 = EMPChest({quest=57635, label=L["black_empire_cache"], icon='chest_teal'})
 
 -- quest=57623
 nodes[58361535] = EMPTR1
@@ -522,16 +516,13 @@ nodes[71657334] = EMPCOFF
 
 -------------------------------------------------------------------------------
 
-local AMAChest = Class('AMAChest', Treasure, {
-    assault=AMA, label=L["amathet_cache"]
-})
-
-local AMATR1 = AMAChest({quest=55689, icon='chest_blue'})
-local AMATR2 = AMAChest({quest=55690, icon='chest_purple'})
-local AMATR3 = AMAChest({quest=55691, icon='chest_orange'})
-local AMATR4 = AMAChest({quest=55698, icon='chest_yellow'})
-local AMATR5 = AMAChest({quest=55699, icon='chest_teal'})
-local AMATR6 = AMAChest({quest=55700, icon='chest_lime'})
+local AMAChest = Class('AMAChest', Treasure, { assault=AMA })
+local AMATR1 = AMAChest({quest=55689, label=L["amathet_cache"], icon='chest_blue'})
+local AMATR2 = AMAChest({quest=55690, label=L["amathet_cache"], icon='chest_purple'})
+local AMATR3 = AMAChest({quest=55691, label=L["amathet_cache"], icon='chest_orange'})
+local AMATR4 = AMAChest({quest=55698, label=L["amathet_cache"], icon='chest_yellow'})
+local AMATR5 = AMAChest({quest=55699, label=L["amathet_cache"], icon='chest_teal'})
+local AMATR6 = AMAChest({quest=55700, label=L["amathet_cache"], icon='chest_lime'})
 
 -- quest=55689
 nodes[78265073] = AMATR1

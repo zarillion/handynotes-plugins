@@ -378,23 +378,22 @@ nodes[23988441] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], re
 
 local MechChest = Class('MechChest', Treasure)
 
-MechChest.label = L["mech_chest"]
 MechChest.rewards = {
     Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
     Item({item=167790, quest=55451}), -- Paint Vial: Fireball Red
     Item({item=169850, weekly=57133}) -- Azeroth Mini Pack: Mechagon
 }
 
-local TREASURE1 = MechChest({quest=55547, icon='chest_blue'})
-local TREASURE2 = MechChest({quest=55548, icon='chest_brown'})
-local TREASURE3 = MechChest({quest=55549, icon='chest_orange'})
-local TREASURE4 = MechChest({quest=55550, icon='chest_yellow'})
-local TREASURE5 = MechChest({quest=55551, icon='chest_camo', future=1})
-local TREASURE6 = MechChest({quest=55552, icon='chest_lime'})
-local TREASURE7 = MechChest({quest=55553, icon='chest_red'})
-local TREASURE8 = MechChest({quest=55554, icon='chest_purple'})
-local TREASURE9 = MechChest({quest=55555, icon='chest_teal'})
-local TREASURE10 = MechChest({quest=55556, icon='chest_lblue'})
+local TREASURE1 = MechChest({quest=55547, label=L["mech_chest"], icon='chest_blue'})
+local TREASURE2 = MechChest({quest=55548, label=L["mech_chest"], icon='chest_brown'})
+local TREASURE3 = MechChest({quest=55549, label=L["mech_chest"], icon='chest_orange'})
+local TREASURE4 = MechChest({quest=55550, label=L["mech_chest"], icon='chest_yellow'})
+local TREASURE5 = MechChest({quest=55551, label=L["mech_chest"], icon='chest_camo', future=1})
+local TREASURE6 = MechChest({quest=55552, label=L["mech_chest"], icon='chest_lime'})
+local TREASURE7 = MechChest({quest=55553, label=L["mech_chest"], icon='chest_red'})
+local TREASURE8 = MechChest({quest=55554, label=L["mech_chest"], icon='chest_purple'})
+local TREASURE9 = MechChest({quest=55555, label=L["mech_chest"], icon='chest_teal'})
+local TREASURE10 = MechChest({quest=55556, label=L["mech_chest"], icon='chest_lblue'})
 
 -- object 325659
 nodes[43304977] = TREASURE1
