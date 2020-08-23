@@ -301,9 +301,9 @@ end
 
 function Rare.getters:scale ()
     if self._focus or (ns.addon.db.profile.development and not self.quest) then
-        return 2.3
+        return 2.0
     end
-    return 1.5
+    return 1.2
 end
 
 function Rare:enabled (map, coord, minimap)
