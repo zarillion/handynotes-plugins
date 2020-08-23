@@ -104,8 +104,7 @@ local function BootstrapDevelopmentEnvironment()
         ns.debugQuest('Quest IDs are now being tracked')
     end)
 
-    -- Listen for LCTRL + LALT when the world map is open to display nodes
-    -- that have already been cleared by quest ids.
+    -- Listen for LCTRL + LALT when the map is open to force display nodes
     local IQFrame = CreateFrame('Frame', ADDON_NAME.."IQ", WorldMapFrame)
     local groupPins = WorldMapFrame.pinPools.GroupMembersPinTemplate
     IQFrame:SetPropagateKeyboardInput(true)
@@ -113,8 +112,8 @@ local function BootstrapDevelopmentEnvironment()
         if (key == 'LCTRL' or key == 'LALT') and IsLeftControlKeyDown() and IsLeftAltKeyDown() then
             IQFrame:SetPropagateKeyboardInput(false)
             for i, _ns in ipairs(_G[plugins]) do
-                if not _ns.ignore_quests then
-                    _ns.ignore_quests = true
+                if not _ns.dev_force then
+                    _ns.dev_force = true
                     _ns.addon:Refresh()
                 end
             end
@@ -126,8 +125,8 @@ local function BootstrapDevelopmentEnvironment()
         if key == 'LCTRL' or key == 'LALT' then
             IQFrame:SetPropagateKeyboardInput(true)
             for i, _ns in ipairs(_G[plugins]) do
-                if _ns.ignore_quests then
-                    _ns.ignore_quests = false
+                if _ns.dev_force then
+                    _ns.dev_force = false
                     _ns.addon:Refresh()
                 end
             end

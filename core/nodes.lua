@@ -73,16 +73,14 @@ function Node:enabled (map, coord, minimap)
     -- Node may be faction restricted
     if self.faction and self.faction ~= ns.faction then return false end
 
-    if not ns.ignore_quests then
-        -- All attached quest ids must be false
-        for i, quest in ipairs(self.quest or {}) do
-            if IsQuestFlaggedCompleted(quest) then return false end
-        end
+    -- All attached quest ids must be false
+    for i, quest in ipairs(self.quest or {}) do
+        if IsQuestFlaggedCompleted(quest) then return false end
+    end
 
-        -- All required quest ids must be true
-        for i, quest in ipairs(self.requires or {}) do
-            if not IsQuestFlaggedCompleted(quest) then return false end
-        end
+    -- All required quest ids must be true
+    for i, quest in ipairs(self.requires or {}) do
+        if not IsQuestFlaggedCompleted(quest) then return false end
     end
 
     return true
@@ -125,7 +123,8 @@ function Node:render(tooltip)
         if self.sublabel then tooltip:AddLine(" ") end
         tooltip:AddLine(self.note:gsub('{(%l+):(%d+)}', function (type, id)
             if type == 'npc' then
-                return '|cFFFFFD00'..ns.NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))..'|r'
+                local name = ns.NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))
+                return ns.color.NPC(name)
             end
             if type == 'item' then
                 local _, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
@@ -136,7 +135,8 @@ function Node:render(tooltip)
             if type == 'spell' then
                 local name, _, icon = GetSpellInfo(id)
                 if name and icon then
-                    return '|T'..icon..':0:0:1:-1|t |cFF71D5FF|Hspell:'..id..'|h['..name..']|h|r'
+                    local spell = ns.color.Spell('|Hspell:'..id..'|h['..name..']|h')
+                    return '|T'..icon..':0:0:1:-1|t '..spell
                 end
             end
             return type..'+'..id
@@ -272,11 +272,9 @@ function TimedEvent.getters:icon ()
 end
 
 function TimedEvent:enabled (map, coord, minimap)
-    if not ns.ignore_quests then
-        -- Timed events that are not active today return nil here
-        if not C_TaskQuest.GetQuestTimeLeftMinutes(self.quest[1]) then
-            return false
-        end
+    -- Timed events that are not active today return nil here
+    if not C_TaskQuest.GetQuestTimeLeftMinutes(self.quest[1]) then
+        return false
     end
     return Quest.enabled(self, map, coord, minimap)
 end

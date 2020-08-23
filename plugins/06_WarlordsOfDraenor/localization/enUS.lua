@@ -127,7 +127,5 @@ L["options_dev_settings"] = "Development";
 L["options_dev_settings_desc"] = "Development settings";
 L["options_toggle_show_debug"] = "Debug";
 L["options_toggle_show_debug_desc"] = "Show debug stuff";
-L["options_toggle_ignore_quests"] = "Ignore Quests";
-L["options_toggle_ignore_quests_desc"] = "Ignore quest status of nodes";
 L["options_toggle_force_nodes"] = "Force Nodes";
 L["options_toggle_force_nodes_desc"] = "Force display all nodes";

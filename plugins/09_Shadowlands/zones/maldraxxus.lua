@@ -8,6 +8,7 @@ local Class = ns.Class
 local Map = ns.Map
 local isinstance = ns.isinstance
 
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -27,23 +28,13 @@ local defaults = ns.optionDefaults.profile
 local map = Map({ id=1536 })
 local nodes = map.nodes
 
-function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    if node == map.intro then return true end
-
-    local profile = ns.addon.db.profile
-    if isinstance(node, Rare) then return profile.rare_maldraxxus end
-    if isinstance(node, Treasure) then return profile.treasure_maldraxxus end
-    return true
-end
-
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
 defaults['rare_maldraxxus'] = true
 defaults['treasure_maldraxxus'] = true
+defaults['kitten_maldraxxus'] = true
 
 options.groupMaldraxxus = {
     type = "header",
@@ -66,6 +57,15 @@ options.treasureMaldraxxus = {
     name = L["options_toggle_treasures"],
     desc = L["options_toggle_treasures_desc"],
     order = 22,
+    width = "normal",
+}
+
+options.kittenMaldraxxus = {
+    type = "toggle",
+    arg = "kitten_maldraxxus",
+    name = L["options_toggle_kittens"],
+    desc = L["options_toggle_kittens_desc"],
+    order = 23,
     width = "normal",
 }
 
@@ -117,6 +117,10 @@ nodes[38794333] = Rare({id=161105, quest=58332, rewards={
 --     Achievement({id=14308, criteria=48856})
 -- }}) -- Moregorger
 
+nodes[66023532] = Rare({id=162690, quest=nil, rewards={
+    Achievement({id=14308, criteria=49723})
+}}) -- Nerissa Heartless
+
 nodes[53726132] = Rare({id=162767, quest=58875, rewards={
     Achievement({id=14308, criteria=48849}),
     Transmog({item=182205, slot=L["mail"]}) -- Scarab-Shell Faceguard
@@ -126,9 +130,9 @@ nodes[50346328] = Rare({id=161857, quest=58629, rewards={
     Achievement({id=14308, criteria=48868})
 }}) -- Pesticide
 
--- nodes[] = Rare({id=159753, quest=nil, rewards={
---     Achievement({id=14308, criteria=48865})
--- }}) -- Ravenomous
+nodes[53841877] = Rare({id=159753, quest=58004, rewards={
+    Achievement({id=14308, criteria=48865})
+}}) -- Ravenomous
 
 -- nodes[] = Rare({id=168147, quest=nil, rewards={
 --     Achievement({id=14308, criteria=48874})
@@ -219,15 +223,109 @@ nodes[58197421] = PoolsRare({id=157226, quest=POOL_QUESTS})
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+nodes[49441509] = Treasure({quest=59244, rewards={
+    Achievement({id=14312, criteria=50070}),
+    Item({item=183696}) -- Sp-eye-glass
+}}) -- Chest of Eyes
+
+nodes[64672475] = Treasure({quest=nil, rewards={
+    Achievement({id=14312, criteria=50075})
+}}) -- Ritualist's Cache
+
+nodes[66145045] = Treasure({quest=61451, rewards={
+    Achievement({id=14312, criteria=50067}),
+    Item({item=182618, quest=62085}) -- ... Why Me?
+}, note=L["stolen_jar_note"]}) -- Stolen Jar
+
 nodes[55893897] = Treasure({quest={59428,59429}, rewards={
     --Item({item=182607}), -- Hairy Egg
     Pet({item=182606, id=3013}) -- Bloodlouse Larva
 }, label='unit:Creature-0-0-0-0-165037', note=L["strange_growth_note"]}) -- Strange Growth
 
--- nodes[] = Treasure({quest=, label=L[""], rewards={
---     Item({item=}) --
+-- nodes[] = Treasure({quest=, rewards={
+--     Achievement({id=14312, criteria=})
 -- }}) --
 
 -------------------------------------------------------------------------------
+------------------------------- NINE AFTERLIVES -------------------------------
+-------------------------------------------------------------------------------
+
+local Kitten = Class('Kitten', NPC, {
+    icon = 3732497, -- inv_catslime
+    sublabel = L["pet_cat"]
+})
+
+function Kitten:enabled (map, coord, minimap)
+    -- Stop showing the node once the achievement criteria is completed
+    if self:done() then return false end
+    return NPC.enabled(self, map, coord, minimap)
+end
+
+nodes[65225065] = Kitten({id=174224, rewards={
+    Achievement({id=14634, criteria=49428})
+}}) -- Envy
+
+nodes[51002750] = Kitten({id=174230, rewards={
+    Achievement({id=14634, criteria=49430})
+}, note=L["lime"]}) -- Lime
+
+nodes[49461761] = Kitten({id=174234, rewards={
+    Achievement({id=14634, criteria=49431})
+}}) -- Mayhem
+
+nodes[34305310] = Kitten({id=174237, rewards={
+    Achievement({id=14634, criteria=49433})
+}}) -- Meowmalade
+
+nodes[47533375] = Kitten({id=174236, rewards={
+    Achievement({id=14634, criteria=49432})
+}, note=L["moldstopheles"]}) -- Moldstopheles
+
+nodes[64802240] = Kitten({id=174226, rewards={
+    Achievement({id=14634, criteria=49429})
+}}) -- Mr. Jigglesworth
+
+nodes[50246027] = Kitten({id=174223, rewards={
+    Achievement({id=14634, criteria=49427})
+}, note=L["pus_in_boots"]}) -- Pus-In-Boots
+
+nodes[32005700] = Kitten({id=174221, rewards={
+    Achievement({id=14634, criteria=49426})
+}}) -- Snots
+
+local HAIRBALL = Kitten({id=174195, rewards={
+    Achievement({id=14634, criteria=49425})
+}, note=L["hairball"]}) -- Hairball
+
+-- Add Hairball to the dungeon map
+local festering_sanctum = Map({ id=1697 })
+festering_sanctum.nodes[45203680] = HAIRBALL
+ns.maps[festering_sanctum.id] = festering_sanctum
+
+-- Add Hairball to the world map
+nodes[68108620] = HAIRBALL
+
+ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)
+    -- Watch for a spellcast event that signals the kitten was pet.
+    -- https://www.wowhead.com/spell=321337/petting
+    local _, source, _, spellID = ...
+    if source == 'player' and spellID == 321337 then
+        C_Timer.After(1, function() ns.addon:Refresh() end)
+    end
+end)
+
+-------------------------------------------------------------------------------
+
+function map:enabled (node, coord, minimap)
+    if not Map.enabled(self, node, coord, minimap) then return false end
+
+    if node == map.intro then return true end
+
+    local profile = ns.addon.db.profile
+    if isinstance(node, Rare) then return profile.rare_maldraxxus end
+    if isinstance(node, Treasure) then return profile.treasure_maldraxxus end
+    if isinstance(node, Kitten) then return profile.kitten_maldraxxus end
+    return true
+end
 
 ns.maps[map.id] = map

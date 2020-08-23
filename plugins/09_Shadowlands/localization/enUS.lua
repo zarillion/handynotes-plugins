@@ -69,7 +69,17 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 • Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
 ]]
 
+L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
+
+L["pet_cat"] = "Pet the damn cat!"
+L["hairball"] = "|cFFFF0000Only appears in the Festering Sanctum inside the Plaguefall dungeon!|r"
+L["lime"] = "Sitting on top of the large bone arch."
+L["moldstopheles"] = "Run around the back of the stalk and jump up the mushroom platforms. For the final platform, use a mount and jump at the corner where it meets the stalk."
+L["pus_in_boots"] = "Located under the bridge."
+
+L["options_toggle_kittens"] = "Kittens"
+L["options_toggle_kittens_desc"] = "Display locations of kittens for the Nine Afterlives achievement."
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------

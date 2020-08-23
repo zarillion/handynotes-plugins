@@ -271,7 +271,5 @@ L["options_dev_settings"] = "Разработка";
 L["options_dev_settings_desc"] = "Настройки разработчика";
 L["options_toggle_show_debug"] = "Отлаживать";
 L["options_toggle_show_debug_desc"] = "Показать отладочную информацию";
-L["options_toggle_ignore_quests"] = "Игнорировать задания";
-L["options_toggle_ignore_quests_desc"] = "Игнорировать статус задание в точке";
 L["options_toggle_force_nodes"] = "Точки";
 L["options_toggle_force_nodes_desc"] = "Принудительно отобразить все точки";

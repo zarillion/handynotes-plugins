@@ -274,7 +274,5 @@ L["options_dev_settings"] = "開發";
 L["options_dev_settings_desc"] = "開發設定";
 L["options_toggle_show_debug"] = "偵錯";
 L["options_toggle_show_debug_desc"] = "顯示偵錯內容";
-L["options_toggle_ignore_quests"] = "忽略任務";
-L["options_toggle_ignore_quests_desc"] = "忽略節點的任務狀態";
 L["options_toggle_force_nodes"] = "強制節點";
 L["options_toggle_force_nodes_desc"] = "強制顯示所有節點";

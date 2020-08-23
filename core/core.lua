@@ -7,51 +7,66 @@ local ADDON_NAME, ns = ...
 local Addon = LibStub("AceAddon-3.0"):NewAddon(ADDON_NAME,
     "AceBucket-3.0", "AceConsole-3.0", "AceEvent-3.0", "AceTimer-3.0")
 local HandyNotes = LibStub("AceAddon-3.0"):GetAddon("HandyNotes", true)
-local L = LibStub("AceLocale-3.0"):GetLocale(ADDON_NAME);
+local L = LibStub("AceLocale-3.0"):GetLocale(ADDON_NAME)
 if not HandyNotes then return end
 
-ns.addon = Addon;
-ns.locale = L;
-ns.maps = {};
+ns.addon = Addon
+ns.locale = L
+ns.maps = {}
 
-ns.status = {
-    Green = function (t) return string.format('(|cFF00FF00%s|r)', t) end,
-    Gray = function (t) return string.format('(|cFF999999%s|r)', t) end,
-    Red = function (t) return string.format('(|cFFFF0000%s|r)', t) end,
-    Orange = function (t) return string.format('(|cFFFF8C00%s|r)', t) end
+-------------------------------------------------------------------------------
+----------------------------------- COLORS ------------------------------------
+-------------------------------------------------------------------------------
+
+ns.COLORS = {
+    Green = 'FF00FF00',
+    Gray = 'FF999999',
+    Red = 'FFFF0000',
+    Orange = 'FFFF8C00',
+    --------------------
+    NPC = 'FFFFFD00',
+    Spell = 'FF71D5FF'
 }
+
+ns.color = {}
+ns.status = {}
+
+for name, color in pairs(ns.COLORS) do
+    ns.color[name] = function (t) return string.format('|c%s%s|r', color, t) end
+    ns.status[name] = function (t) return string.format('(|c%s%s|r)', color, t) end
+end
 
 -------------------------------------------------------------------------------
 ----------------------------------- HELPERS -----------------------------------
 -------------------------------------------------------------------------------
 
-local DropdownMenu = CreateFrame("Frame", ADDON_NAME.."DropdownMenu");
-DropdownMenu.displayMode = "MENU";
+local DropdownMenu = CreateFrame("Frame", ADDON_NAME.."DropdownMenu")
+DropdownMenu.displayMode = "MENU"
 local function initializeDropdownMenu (button, level, mapID, coord)
     if not level then return end
     local node = ns.maps[mapID].nodes[coord];
-    local spacer = {text='', disabled=1, notClickable=1, notCheckable=1};
+    local spacer = {text='', disabled=1, notClickable=1, notCheckable=1}
 
     if (level == 1) then
         UIDropDownMenu_AddButton({
             text=L["context_menu_title"], isTitle=1, notCheckable=1
-        }, level);
+        }, level)
 
-        UIDropDownMenu_AddButton(spacer, level);
+        UIDropDownMenu_AddButton(spacer, level)
 
         if select(2, IsAddOnLoaded('TomTom')) then
             UIDropDownMenu_AddButton({
                 text=L["context_menu_add_tomtom"], notCheckable=1,
                 func=function (button)
-                    local x, y = HandyNotes:getXY(coord);
+                    local x, y = HandyNotes:getXY(coord)
                     TomTom:AddWaypoint(mapID, x, y, {
                         title = ns.NameResolver:Resolve(node.label),
                         persistent = nil,
                         minimap = true,
                         world = true
-                    });
+                    })
                 end
-            }, level);
+            }, level)
         end
 
         UIDropDownMenu_AddButton({
@@ -60,7 +75,7 @@ local function initializeDropdownMenu (button, level, mapID, coord)
                 Addon.db.char[mapID..'_coord_'..coord] = true;
                 Addon:Refresh()
             end
-        }, level);
+        }, level)
 
         UIDropDownMenu_AddButton({
             text=L["context_menu_restore_hidden_nodes"], notCheckable=1,
@@ -68,14 +83,14 @@ local function initializeDropdownMenu (button, level, mapID, coord)
                 table.wipe(Addon.db.char)
                 Addon:Refresh()
             end
-        }, level);
+        }, level)
 
         UIDropDownMenu_AddButton(spacer, level);
 
         UIDropDownMenu_AddButton({
             text=CLOSE, notCheckable=1,
             func=function() CloseDropDownMenus() end
-        }, level);
+        }, level)
     end
 end
 
@@ -84,13 +99,13 @@ end
 -------------------------------------------------------------------------------
 
 function Addon:OnEnter(mapID, coord)
-    local node = ns.maps[mapID].nodes[coord];
-    local tooltip = self:GetParent() == WorldMapButton and WorldMapTooltip or GameTooltip;
+    local node = ns.maps[mapID].nodes[coord]
+    local tooltip = self:GetParent() == WorldMapButton and WorldMapTooltip or GameTooltip
 
     if self:GetCenter() > UIParent:GetCenter() then
-        tooltip:SetOwner(self, "ANCHOR_LEFT");
+        tooltip:SetOwner(self, "ANCHOR_LEFT")
     else
-        tooltip:SetOwner(self, "ANCHOR_RIGHT");
+        tooltip:SetOwner(self, "ANCHOR_RIGHT")
     end
 
     node:render(tooltip)
@@ -106,9 +121,9 @@ function Addon:OnLeave(mapID, coord)
     ns.MinimapDataProvider:RefreshAllData()
     ns.WorldMapDataProvider:RefreshAllData()
     if self:GetParent() == WorldMapButton then
-        WorldMapTooltip:Hide();
+        WorldMapTooltip:Hide()
     else
-        GameTooltip:Hide();
+        GameTooltip:Hide()
     end
 end
 
