@@ -11,6 +11,7 @@
 embeds.xml
 #@end-no-lib-strip@
 
+core\localization\locales.xml
 localization\enUS.lua
 localization\deDE.lua
 localization\esES.lua

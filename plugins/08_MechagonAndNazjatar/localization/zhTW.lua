@@ -3,6 +3,13 @@ local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "zhTW", false, true)
 if not L then return end
 
 -------------------------------------------------------------------------------
+----------------------------------- GENERAL -----------------------------------
+-------------------------------------------------------------------------------
+
+L["context_menu_title"] = "HandyNotes 機械岡 & 納沙塔爾";
+L["options_title"] = "機械岡 & 納沙塔爾";
+
+-------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -153,126 +160,5 @@ L["caverndark_cave"] = "洞闇恐懼洞穴的入口。";
 L["chasmhaunt_cave"] = "裂谷追魂鰻洞穴的入口。";
 L["shassera_cave"] = "夏瑟菈洞穴的入口。";
 
--------------------------------------------------------------------------------
------------------------------------- GEAR -------------------------------------
--------------------------------------------------------------------------------
-
-L["cloth"] = "布甲";
-L["leather"] = "皮甲";
-L["mail"] = "鎖甲";
-L["plate"] = "鎧甲";
-
-L["1h_mace"] = "單手錘";
-L["1h_sword"] = "單手劍";
-L["1h_axe"] = "單手斧";
-L["2h_mace"] = "雙手錘";
-L["2h_axe"] = "雙手斧";
-L["2h_sword"] = "雙手劍";
-L["shield"] = "盾牌";
-L["dagger"] = "匕首";
-L["staff"] = "法杖";
-L["fist"] = "拳套";
-L["polearm"] = "長柄";
-L["bow"] = "弓";
-L["gun"] = "槍";
-L["wand"] = "魔杖";
-L["crossbow"] = "弩";
-L["offhand"] = "副手";
-L["warglaives"] = "戰刃";
-
-L["ring"] = "戒指";
-L["amulet"] = "項鍊";
-L["cloak"] = "披風";
-L["trinket"] = "飾品";
-
--------------------------------------------------------------------------------
----------------------------------- TOOLTIPS -----------------------------------
--------------------------------------------------------------------------------
-
-L["retrieving"] = "檢索物品連結 ...";
-L["in_cave"] = "在洞穴。";
-L["weekly"] = "每週";
-L["normal"] = "普通";
-L["hard"] = "困難";
-L["mount"] = "坐騎";
-L["pet"] = "寵物";
-L["toy"] = "玩具";
-L["completed"] = "已完成"
-L["incomplete"] = "未完成"
-L["known"] = "已收藏"
-L["missing"] = "缺少"
-L["unobtainable"] = "無法獲得"
-L["unlearnable"] = "未學習"
-
--------------------------------------------------------------------------------
---------------------------------- CONTEXT MENU --------------------------------
--------------------------------------------------------------------------------
-
-L["context_menu_title"] = "HandyNotes 機械岡 & 納沙塔爾";
-L["context_menu_add_tomtom"] = "加入TomTom";
-L["context_menu_hide_node"] = "隱藏此節點";
-L["context_menu_restore_hidden_nodes"] = "恢復所有隱藏節點";
 L["Nazjatar"] = "納沙塔爾";
 L["Mechagon"] = "機械岡";
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-L["options_title"] = "機械岡 & 納沙塔爾";
-
------------------------------------- ICONS ------------------------------------
-
-L["options_icon_settings"] = "圖示設定";
-L["options_icons_treasures"] = "寶藏圖示";
-L["options_icons_rares"] = "稀有圖示";
-L["options_icons_caves"] = "洞穴圖示";
-L["options_icons_pet_battles"] = "戰寵圖示";
-L["options_icons_other"] = "其他圖示";
-L["options_scale"] = "縮放";
-L["options_scale_desc"] = "1 = 100%";
-L["options_opacity"] = "透明度";
-L["options_opacity_desc"] = "0 = 全透明，1 = 不透明";
-
----------------------------------- VISIBILITY ---------------------------------
-
-L["options_visibility_settings"] = "可見度";
-L["options_general_settings"] = "一般";
-L["options_toggle_looted_rares"] = "永遠顯示所有稀有";
-L["options_toggle_looted_rares_desc"] = "顯示所有稀有不論拾取狀態";
-L["options_toggle_looted_treasures"] = "已經拾取的寶藏";
-L["options_toggle_looted_treasures_desc"] = "顯示所有寶藏不論拾取狀態";
-L["options_toggle_hide_done_rare"] = "隱藏稀有，如果物品都已收藏";
-L["options_toggle_hide_done_rare_desc"] = "隱藏全部拾取物品都已收藏的稀有。";
-L["options_toggle_hide_minimap"] = "隱藏小地圖的所有圖示";
-L["options_toggle_hide_minimap_desc"] = "在小地圖上隱藏來自此插件的所有圖示，並且只顯示在大地圖上。";
-
-L["options_toggle_battle_pets_desc"] = "顯示戰寵訓練師與NPC的位置。";
-L["options_toggle_battle_pets"] = "戰寵";
-L["options_toggle_caves_desc"] = "顯示其他節點的洞穴入口。";
-L["options_toggle_caves"] = "洞穴";
-L["options_toggle_misc"] = "雜項";
-L["options_toggle_npcs"] = "NPC";
-L["options_toggle_rares_desc"] = "顯示稀有NPC的位置。";
-L["options_toggle_rares"] = "稀有";
-L["options_toggle_supplies_desc"] = "顯示所有戰爭補給箱可能的位置。";
-L["options_toggle_supplies"] = "戰爭補給掉落";
-L["options_toggle_treasures"] = "寶藏";
-
----------------------------------- TOOLTIP ---------------------------------
-
-L["options_tooltip_settings"] = "工具提示";
-L["options_tooltip_settings_desc"] = "工具提示";
-L["options_toggle_show_loot"] = "顯示拾取物";
-L["options_toggle_show_loot_desc"] = "在工具提示加入掉落資訊";
-L["options_toggle_show_notes"] = "顯示註記";
-L["options_toggle_show_notes_desc"] = "如果可以在工具提示顯示有用註記";
-
---------------------------------- DEVELOPMENT ---------------------------------
-
-L["options_dev_settings"] = "開發";
-L["options_dev_settings_desc"] = "開發設定";
-L["options_toggle_show_debug"] = "偵錯";
-L["options_toggle_show_debug_desc"] = "顯示偵錯內容";
-L["options_toggle_force_nodes"] = "強制節點";
-L["options_toggle_force_nodes_desc"] = "強制顯示所有節點";
