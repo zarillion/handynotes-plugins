@@ -185,6 +185,8 @@ nodes[61409050] = Rare({id=170548, quest=nil, rewards={
 nodes[40705290] = Rare({id=167078, quest=nil, covenant=KYRIAN, rewards={
     Achievement({id=14307, criteria=48829}),
     Item({item=182749}) -- Regurgitated Kyrian Wings
+}, pois={
+    POI({41635452})
 }, note=L["wingflayer_note"]}) -- Wingflayer the Cruel
 
 nodes[48004290] = Rare({id=171041, quest=nil, rewards={
