@@ -117,9 +117,11 @@ nodes[57206370] = Rare({id=171189, quest=nil, rewards={
 --     Achievement({id=14307, criteria=48841})
 -- }}) -- Collector Astorestes
 
-nodes[56424614] = Rare({id=171010, quest=nil, rewards={
+nodes[56904778] = Rare({id=171010, quest=60999, rewards={
     Achievement({id=14307, criteria=48846})
-}}) -- Corrupted Clawguard
+}, pois={
+    POI({55004125}) -- Forgefire Outpost
+}, note=L["corrupted_clawguard_note"]}) -- Corrupted Clawguard
 
 -- nodes[] = Rare({id=170623, quest=nil, rewards={
 --     Achievement({id=14307, criteria=48834})
