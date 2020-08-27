@@ -85,6 +85,8 @@ options.treasureArdenweald = {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+-- Mysterious Mushroom Ring (47924018)
+
 nodes[34606800] = Rare({id=164477, quest=59226, rewards={
     Achievement({id=14309, criteria=48714})
 }}) -- Deathbinder Hroth
@@ -139,10 +141,10 @@ nodes[62102470] = Rare({id=165053, quest=nil, rewards={
     Achievement({id=14309, criteria=48788})
 }}) -- Mymaen
 
--- Mysterious Mushroom Ring (47924018)
--- nodes[] = Rare({id=164547, quest=nil, rewards={
---     Achievement({id=14309, criteria=48715})
--- }}) -- Mystic Rainbowhorn
+nodes[50092091] = Rare({id=164547, quest=59235, rewards={
+    Achievement({id=14309, criteria=48715}),
+    Item({item=182179, quest=62434}) -- Runestag Soul
+}}) -- Mystic Rainbowhorn
 
 -- nodes[] = Rare({id=168135, quest=nil, rewards={
 --     Achievement({id=14309, criteria=48793})
@@ -248,9 +250,21 @@ nodes[41254443] = StarLake({id=171743, label=L["star_lake"], quest=nil})
 --     Achievement({id=14313, criteria=})
 -- }, note=L[""]}) --
 
+nodes[56002101] = Treasure({quest=61072, rewards={
+    Achievement({id=14313, criteria=50031}),
+    Pet({item=180630, id=2921}) -- Gorm Harrier
+}}) -- Aerto's Body
+
 nodes[36236527] = Treasure({quest=nil, rewards={
     Achievement({id=14313, criteria=50044})
 }}) -- Cache of the Night
+
+nodes[37646159] = Treasure({quest=61068, rewards={
+    Achievement({id=14313, criteria=50045}),
+    Transmog({item=179594, slot=L["leather"]}) -- Witherscorn Guise
+}, pois={
+    POI({36196520, scale=0.75})
+}, note=L["darkreach_supplies"]}) -- Darkreach Supplies
 
 nodes[41953253] = Treasure({quest=nil, rewards={
     Achievement({id=14313, criteria=50040})
@@ -283,10 +297,25 @@ nodes[48213927] = Treasure({quest=61067, rewards={
     POI({46424032, 48964102, 50084159, scale=0.5})
 }, note=L["hearty_dragon_plume"]}) -- Hearty Dragon Plume
 
+nodes[48282031] = Treasure({quest=62187, rewards={
+    Achievement({id=14313, criteria=50032}),
+    Item({item=182731, quest=62187}) -- Satchel of Culexwood
+}}) -- Lost Satchel
+
+nodes[31764105] = Treasure({quest=nil, rewards={
+    Achievement({id=14313, criteria=50038}),
+    Pet({item=180645, id=2905}) -- Dodger
+}}) -- Playful Vulpin Befriended (171206)
+
 nodes[76672974] = Treasure({quest=62186, rewards={
     Achievement({id=14313, criteria=50034}),
     Item({item=182730, quest=62186}) -- Swollen Anima Seed
 }, note=L["swollen_anima_seed"]}) -- Swollen Anima Seed
+
+nodes[52943729] = Treasure({quest=61065, rewards={
+    Achievement({id=14313, criteria=50033}),
+    Pet({item=180642, id=2909})
+}}) -- Veilwing Egg (Ancient Cloudfeather Egg)
 
 -------------------------------------------------------------------------------
 

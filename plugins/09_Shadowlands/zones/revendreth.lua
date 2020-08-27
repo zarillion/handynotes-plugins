@@ -199,7 +199,7 @@ nodes[43007910] = Rare({id=155779, quest=nil, rewards={
 
 nodes[37726925] = Treasure({quest=61990, rewards={
     Achievement({id=14314, criteria=50076}),
-    -- Pet({item=182613, id=}) -- Lost Quill   
+    -- Pet({item=182613, id=}) -- Lost Quill
 }, note=L["lost_quill_note"]}) -- Lost Quill
 
 nodes[38394424] = Treasure({quest=61999, rewards={
@@ -212,10 +212,10 @@ nodes[70176005] = Treasure({quest=62164, rewards={
     Transmog({item=177807, slot=L["warglaive"]}) -- Vyrtha's Dredglaive
 }, note=L["dredglaive_note"]}) -- Vrytha's Dredglaive
 
--- nodes[30342472] = Treasure({quest=60665, rewards={
---     Transmog({item=182720, slot=L["mail"]}), -- Mail Courier's Tunic
---     Transmog({item=180398, slot=L["polearm"]}) -- Stonewrought Legion Halberd   
--- }}) -- Bleakwood Chest
+nodes[30342472] = Treasure({quest=60665, rewards={
+    Transmog({item=182720, slot=L["mail"]}), -- Mail Courier's Tunic
+    Transmog({item=180398, slot=L["polearm"]}) -- Stonewrought Legion Halberd
+}, label=L["bleakwood_chest"]}) -- Bleakwood Chest
 
 -------------------------------------------------------------------------------
 

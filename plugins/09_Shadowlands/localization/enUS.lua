@@ -41,14 +41,15 @@ L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 L["beasts_of_bastion"] = "Beasts of Bastion"
 L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."
 L["herculon_note"] = [[
-Charge all four {npc:158660} using {item:172451}.
+Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}. At 10 stacks, he will activate.
 
-Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside. Each conduit requires 3 motes.
+Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside.
 ]]
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
 L["wingflayer_note"] = "To summon, click the horn on the nearby table (southeast, up the stairs)."
 
-L["vesper_of_virtues"] = "Vesper of Virtues"
+L["larion_harness"] = "Located inside the Hall of Beasts."
+L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them on the nearby tribute platters to reveal the treasure."
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -103,6 +104,8 @@ L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to sta
 L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
 L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
 
+L["bleakwood_chest"] = "Bleakwood Chest"
+L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["dredglaive_note"] = "Under the bridge in {npc:173671} corpse."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
 

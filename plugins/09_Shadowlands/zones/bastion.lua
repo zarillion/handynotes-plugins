@@ -15,6 +15,9 @@ local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
+local Path = ns.poi.Path
+local POI = ns.poi.POI
+
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
 
@@ -130,8 +133,11 @@ nodes[40944738] = Rare({id=163460, quest=nil, rewards={
     Achievement({id=14307, criteria=48831})
 }}) -- Dionae
 
-nodes[45756475] = Rare({id=171255, quest=nil, rewards={
-    Achievement({id=14307, criteria=48845})
+nodes[45546459] = Rare({id=171255, quest={61082,61091,62251}, rewards={
+    Achievement({id=14307, criteria=48845}),
+    Item({item=180062}) -- Heavenly Drum
+}, pois={
+    Path({45546459, 44656486, 44766596, 45366670, 45866643, 45616562})
 }}) -- Echo of Aella <Hand of Courage>
 
 nodes[48004290] = Rare({id=171013, quest=nil, rewards={
@@ -146,7 +152,7 @@ nodes[59767229] = Rare({id=160721, quest=nil, rewards={
     Achievement({id=14307, criteria=48824})
 }, note=L["TODO: MAP PATROL"]}) -- Fallen Acolyte Erisne
 
-nodes[42908265] = Rare({id=158659, quest=nil, covenant=KYRIAN, rewards={
+nodes[42908265] = Rare({id=158659, quest={57705,57708}, rewards={
     Achievement({id=14307, criteria=48823})
 }, note=L["herculon_note"]}) -- Herculon
 
@@ -159,8 +165,14 @@ nodes[51456859] = Rare({id=160882, quest=58319, rewards={
 --     Achievement({id=14307, criteria=48847})
 -- }}) -- Reekmonger
 
-nodes[58209560] = Rare({id=170548, quest=nil, rewards={
+nodes[61409050] = Rare({id=170548, quest=nil, rewards={
     Achievement({id=14307, criteria=48832})
+}, pois={
+    Path({
+        58209700, 61009560, 61609340, 61409050,
+        61708710, 62808430, 62508060, 61107910
+    }),
+    POI({60049398})
 }}) -- Sundancer
 
 -- nodes[] = Rare({id=171008, quest=nil, rewards={
@@ -176,17 +188,58 @@ nodes[48004290] = Rare({id=171041, quest=nil, rewards={
     Achievement({id=14307, criteria=48840})
 }}) -- Worldfeaster Chronn
 
-nodes[63503590] = Rare({id=171040, quest=nil, rewards={
-    Achievement({id=14307, criteria=48839})
+nodes[63503590] = Rare({id=171040, quest=61046, rewards={
+    Achievement({id=14307, criteria=48839}),
+    Transmog({item=183605, slot=L["warglaive"]}) -- Devourer Wrought Warglaive
 }}) -- Xixin the Ravening
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-nodes[58667135] = Treasure({quest=60478, label=L["vesper_of_virtues"], rewards={
+-- nodes[] = Treasure({quest=nil, rewards={
+--     Achievement({id=14311, criteria=})
+-- }}) --
+
+nodes[70473645] = Treasure({quest=nil, rewards={
+    Achievement({id=14311, criteria=50060})
+}, pois={
+    POI({69374031, scale=0.75})
+}}) -- Gift of Chyrus
+
+nodes[58233999] = Treasure({quest=61049, rewards={
+    Achievement({id=14311, criteria=50051}),
+    Item({item=182652})
+}, note=L["larion_harness"]}) -- Larion Tamer's Harness
+
+nodes[59336092] = Treasure({quest=61048, rewards={
+    Achievement({id=14311, criteria=50050}),
+    Item({item=182693, quest=62170}) -- You'll Never Walk Alone
+}}) -- Lost Disciple's Notes
+
+nodes[52038607] = Treasure({quest=58329, rewards={
+    Achievement({id=14311, criteria=50049}),
+    Item({item=174007})
+}}) -- Purifying Draught
+
+-- 58292 (purians), 58294 (first offer), 58293 (second offer)
+nodes[53508037] = Treasure({quest=58298, rewards={
+    Achievement({id=14311, criteria=50047}),
+    Toy({item=173984}) -- Scroll of Aeons
+}, pois={
+    POI({54428387, 56168305})
+}, note=L["scroll_of_aeons"]}) -- Scroll of Aeons
+
+nodes[58667135] = Treasure({quest=60478, rewards={
+    Achievement({id=14311, criteria=50048}),
     Item({item=179982}) -- Kyrian Bell
 }}) -- Vesper of Virtues
+
+-------------------------------------------------------------------------------
+----------------------------- ANIMA CRYSTAL SHARDS ----------------------------
+-------------------------------------------------------------------------------
+
+-- 61048566 61244
 
 -------------------------------------------------------------------------------
 
