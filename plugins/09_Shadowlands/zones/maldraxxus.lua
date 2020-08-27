@@ -205,7 +205,7 @@ end
 
 function PoolsRare.getters:rewards ()
     for i, criteria in ipairs(self._rewards[1].criteria) do
-        if IsQuestFlaggedCompleted(criteria.quest) then
+        if C_QuestLog.IsQuestFlaggedCompleted(criteria.quest) then
             criteria.note = criteria._note..'  '..ns.status.Green(L['D'])
         else
             criteria.note = criteria._note..'  '..ns.status.Red(L['A'])
@@ -217,7 +217,7 @@ end
 function PoolsRare.getters:rlabel ()
     local count = 0
     for i, quest in ipairs(POOL_QUESTS) do
-        if IsQuestFlaggedCompleted(quest) then
+        if C_QuestLog.IsQuestFlaggedCompleted(quest) then
             count = count + 1
         end
     end

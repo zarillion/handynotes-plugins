@@ -367,7 +367,7 @@ function NefRare:enabled (map, coord, minimap)
     if not Rare.enabled(self, map, coord, minimap) then return false end
     -- Only show if a Summoning Ritual event is active or completed
     for i, quest in ipairs({57359, 57620, 57621}) do
-        if C_TaskQuest.GetQuestTimeLeftMinutes(quest) or IsQuestFlaggedCompleted(quest) then
+        if C_TaskQuest.GetQuestTimeLeftMinutes(quest) or C_QuestLog.IsQuestFlaggedCompleted(quest) then
             return true
         end
     end

@@ -108,7 +108,7 @@ function Item:init ()
 end
 
 function Item:obtained ()
-    if self.quest then return IsQuestFlaggedCompleted(self.quest) end
+    if self.quest then return C_QuestLog.IsQuestFlaggedCompleted(self.quest) end
     return true
 end
 
@@ -116,10 +116,10 @@ function Item:render (tooltip)
     local text = self.itemLink
     local status = ''
     if self.quest then
-        local completed = IsQuestFlaggedCompleted(self.quest)
+        local completed = C_QuestLog.IsQuestFlaggedCompleted(self.quest)
         status = completed and Green(L['completed']) or Red(L['incomplete'])
     elseif self.weekly then
-        local completed = IsQuestFlaggedCompleted(self.weekly)
+        local completed = C_QuestLog.IsQuestFlaggedCompleted(self.weekly)
         status = completed and Green(L['weekly']) or Red(L['weekly'])
     end
 
@@ -189,7 +189,7 @@ end
 
 function Quest:obtained ()
     for i, id in ipairs(self.id) do
-        if not IsQuestFlaggedCompleted(id) then return false end
+        if not C_QuestLog.IsQuestFlaggedCompleted(id) then return false end
     end
     return true
 end
@@ -199,12 +199,12 @@ function Quest:render (tooltip)
 
     local status = ''
     if #self.id == 1 then
-        local completed = IsQuestFlaggedCompleted(self.id[1])
+        local completed = C_QuestLog.IsQuestFlaggedCompleted(self.id[1])
         status = completed and Green(L['completed']) or Red(L['incomplete'])
     else
         local count = 0
         for i, id in ipairs(self.id) do
-            if IsQuestFlaggedCompleted(id) then count = count + 1 end
+            if C_QuestLog.IsQuestFlaggedCompleted(id) then count = count + 1 end
         end
         status = count..'/'..#self.id
         status = (count == #self.id) and Green(status) or Red(status)

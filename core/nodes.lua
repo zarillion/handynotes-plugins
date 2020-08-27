@@ -75,12 +75,12 @@ function Node:enabled (map, coord, minimap)
 
     -- All attached quest ids must be false
     for i, quest in ipairs(self.quest or {}) do
-        if IsQuestFlaggedCompleted(quest) then return false end
+        if C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
     end
 
     -- All required quest ids must be true
     for i, quest in ipairs(self.requires or {}) do
-        if not IsQuestFlaggedCompleted(quest) then return false end
+        if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
     end
 
     return true

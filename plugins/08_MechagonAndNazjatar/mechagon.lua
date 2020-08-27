@@ -469,8 +469,8 @@ local RegRig = Class('RegRig', Node)
 
 function RegRig.getters:rlabel ()
     local G, GR, N, H = ns.status.Green, ns.status.Gray, L['normal'], L['hard']
-    local normal = IsQuestFlaggedCompleted(55847) and G(N) or GR(N)
-    local hard = IsQuestFlaggedCompleted(55848) and G(H) or GR(H)
+    local normal = C_QuestLog.IsQuestFlaggedCompleted(55847) and G(N) or GR(N)
+    local hard = C_QuestLog.IsQuestFlaggedCompleted(55848) and G(H) or GR(H)
     return normal..' '..hard
 end
 
