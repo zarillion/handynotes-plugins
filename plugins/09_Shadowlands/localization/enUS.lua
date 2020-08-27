@@ -96,7 +96,15 @@ L["options_toggle_kittens_desc"] = "Display locations of kittens for the Nine Af
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
+L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."
+L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."
+L["famu_note"] = "Talk to {npc:166483} to trigger the event."
 L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
+L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
+L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
+
+L["dredglaive_note"] = "Under the bridge in {npc:173671} corpse."
+L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
 
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------

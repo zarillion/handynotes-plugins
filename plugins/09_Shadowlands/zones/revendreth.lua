@@ -87,29 +87,34 @@ nodes[25304850] = Rare({id=164388, quest=nil, rewards={
 --     Achievement({id=14310, criteria=50029})
 -- }}) -- Amalgamation of Sin
 
-nodes[35707010] = Rare({id=166576, quest=nil, rewards={
-    Achievement({id=14310, criteria=48816})
+nodes[35817052] = Rare({id=166576, quest=59893, rewards={
+    Achievement({id=14310, criteria=48816}),
+    Transmog({item=183731, slot=L["plate"]}) -- Smolder-Tempered Legplates
 }}) -- Azgar
 
 nodes[35003230] = Rare({id=166292, quest=nil, rewards={
     Achievement({id=14310, criteria=48818})
 }}) -- Bog Beast
+--World Quest required
 
--- nodes[] = Rare({id=165206, quest=nil, rewards={
---     Achievement({id=14310, criteria=48810})
--- }}) -- Endlurker
+nodes[66555946] = Rare({id=165206, quest=59582, rewards={
+    Achievement({id=14310, criteria=48810}),
+    Item({item=179927, note=L["trinket"]}) -- Glowing Endmire Stinger
+}, note=L["endlurker_note"]}) -- Endlurker
 
-nodes[37104860] = Rare({id=166710, quest=nil, rewards={
-    Achievement({id=14310, criteria=48819})
-}}) -- Executioner Aatron
+nodes[37084742] = Rare({id=166710, quest=59913, rewards={
+    Achievement({id=14310, criteria=48819}),
+    Transmog({item=183737, slot=L["plate"]}) -- Aatron's Stone Girdle
+}, note=L["executioner_aatron_note"]}) -- Executioner Aatron
 
 -- nodes[] = Rare({id=161310, quest=nil, rewards={
 --     Achievement({id=14310, criteria=48807})
 -- }}) -- Executioner Adrastia
 
--- nodes[] = Rare({id=166521, quest=nil, rewards={
---     Achievement({id=14310, criteria=48815})
--- }}) -- Famu the Infinite
+nodes[62484716] = Rare({id=166521, quest=nil, rewards={
+    Achievement({id=14310, criteria=48815}),
+--    Mount({item=180582, id=}), -- Endmire Flyer
+}, note=L["famu_note"]}) -- Famu the Infinite
 
 -- nodes[] = Rare({id=159496, quest=nil, rewards={
 --     Achievement({id=14310, criteria=48804})
@@ -140,17 +145,19 @@ nodes[67978179] = Rare({id=165152, quest=59580, rewards={
     Transmog({item=183736, slot=L["cloth"]})
 }, note=L["leeched_soul_note"]}) -- Leeched Soul
 
-nodes[75806120] = Rare({id=161891, quest=nil, rewards={
+nodes[75976161] = Rare({id=161891, quest=nil, rewards={
     Achievement({id=14310, criteria=48808})
 }}) -- Lord Mortegore
 
 nodes[49003490] = Rare({id=170048, quest=nil, rewards={
     Achievement({id=14310, criteria=48822})
 }}) -- Manifestation of Wrath
+-- World Quest required
 
--- nodes[] = Rare({id=160675, quest=nil, rewards={
---     Achievement({id=14310, criteria=48800})
--- }}) -- Scrivener Lenua
+nodes[38316914] = Rare({id=160675, quest=58213, rewards={
+    Achievement({id=14310, criteria=48800}),
+--    Pet({item=180587, id=}) -- Animated Tome
+}, note=L["scrivener_lenua_note"]}) -- Scrivener Lenua
 
 -- nodes[] = Rare({id=162481, quest=nil, rewards={
 --     Achievement({id=14310, criteria=50030})
@@ -160,13 +167,13 @@ nodes[49003490] = Rare({id=170048, quest=nil, rewards={
 --     Achievement({id=14310, criteria=48806})
 -- }}) -- Sire Ladinas
 
--- nodes[] = Rare({id=160392, quest=nil, rewards={
---     Achievement({id=14310, criteria=48799})
--- }}) -- Soulstalker Doina
+nodes[78934975] = Rare({id=160385, quest=58130, rewards={
+    Achievement({id=14310, criteria=48799})
+}, note=L["soulstalker_doina_note"]}) -- Soulstalker Doina
 
--- nodes[] = Rare({id=159503, quest=nil, rewards={
---     Achievement({id=14310, criteria=48803})
--- }}) -- Stonefist
+nodes[31312324] = Rare({id=159503, quest=nil, rewards={
+    Achievement({id=14310, criteria=48803})
+}}) -- Stonefist
 
 nodes[66507080] = Rare({id=165253, quest=nil, rewards={
     Achievement({id=14310, criteria=48812})
@@ -184,7 +191,31 @@ nodes[43007910] = Rare({id=155779, quest=nil, rewards={
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+-- nodes[] = Treasure({quest=, rewards={
+--     Achievement({id=14314, criteria=})
+-- }, note=L[""]}) --
+
 -- Stoneguard Satchel (76226410) (60896,60939)
+
+nodes[37726925] = Treasure({quest=61990, rewards={
+    Achievement({id=14314, criteria=50076}),
+    -- Pet({item=182613, id=}) -- Lost Quill   
+}, note=L["lost_quill_note"]}) -- Lost Quill
+
+nodes[38394424] = Treasure({quest=61999, rewards={
+    Achievement({id=14314, criteria=50077}),
+    Toy({item=182694}) -- Stylish Black Parasol
+}}) --Stylish Parasol
+
+nodes[70176005] = Treasure({quest=62164, rewards={
+    Achievement({id=14314, criteria=50080}),
+    Transmog({item=177807, slot=L["warglaive"]}) -- Vyrtha's Dredglaive
+}, note=L["dredglaive_note"]}) -- Vrytha's Dredglaive
+
+-- nodes[30342472] = Treasure({quest=60665, rewards={
+--     Transmog({item=182720, slot=L["mail"]}), -- Mail Courier's Tunic
+--     Transmog({item=180398, slot=L["polearm"]}) -- Stonewrought Legion Halberd   
+-- }}) -- Bleakwood Chest
 
 -------------------------------------------------------------------------------
 
