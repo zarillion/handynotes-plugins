@@ -40,6 +40,7 @@ L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
+L["basilofos_note"] = "Move around the rock until a purple fixate marker appears and an emote occurs after four emotes he spawn."
 L["beasts_of_bastion"] = "Beasts of Bastion"
 L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."
 L["corrupted_clawguard_note"] = "Loot a {item:180651} in Forgefire Outpost up the hill and use it to repair the {npc:171300}."

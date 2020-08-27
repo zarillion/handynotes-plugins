@@ -92,9 +92,10 @@ nodes[51344080] = Rare({id=160629, quest=nil, covenant=KYRIAN, rewards={
     Achievement({id=14307, criteria=48828})
 }, note="TODO: ACTIVATION"}) -- Baedos
 
-nodes[48605110] = Rare({id=170659, quest=nil, rewards={
-    Achievement({id=14307, criteria=48833})
-}}) -- Basilofos, King of the Hill
+nodes[48985031] = Rare({id=170659, quest={60897,62158}, rewards={
+    Achievement({id=14307, criteria=48833}),
+    Toy({item=182655}) -- Hill King's Roarbox
+}, note=L["basilofos_note"]}) -- Basilofos, King of the Hill
 
 nodes[55358024] = Rare({id=161527, quest=nil, covenant=KYRIAN, rewards={
     Achievement({id=14307, criteria={48825,48826,48827}}),
@@ -202,6 +203,10 @@ nodes[63503590] = Rare({id=171040, quest=61046, rewards={
 -- nodes[] = Treasure({quest=nil, rewards={
 --     Achievement({id=14311, criteria=})
 -- }}) --
+
+nodes[46114536] = Treasure({quest=61006, rewards={
+    Achievement({id=14311, criteria=50053})
+}, note=L["in_cave"]}) -- Abandoned Stockpile
 
 nodes[70473645] = Treasure({quest=nil, rewards={
     Achievement({id=14311, criteria=50060})
