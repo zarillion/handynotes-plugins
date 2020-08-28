@@ -154,9 +154,12 @@ nodes[48004290] = Rare({id=171013, quest=nil, rewards={
 --     Achievement({id=14307, criteria=48836})
 -- }}) -- Enforcer Aegeon
 
-nodes[59767229] = Rare({id=160721, quest=nil, rewards={
-    Achievement({id=14307, criteria=48824})
-}, note=L["TODO: MAP PATROL"]}) -- Fallen Acolyte Erisne
+nodes[59767229] = Rare({id=160721, quest=58222, rewards={
+    Achievement({id=14307, criteria=48824}),
+    Transmog({item=180444, slot=L["leather"]}) -- Harmonia's Chosen Belt
+}, pois={
+    Path({60137285, 60427305, 60597376})
+}}) -- Fallen Acolyte Erisne
 
 nodes[42908265] = Rare({id=158659, quest={57705,57708}, rewards={
     Achievement({id=14307, criteria=48823})
@@ -167,9 +170,7 @@ nodes[51456859] = Rare({id=160882, quest=58319, rewards={
     Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
 }, note=L["nikara_note"]}) -- Nikara Blackheart
 
--- nodes[] = Rare({id=171327, quest=nil, rewards={
---     Achievement({id=14307, criteria=48847})
--- }}) -- Reekmonger
+nodes[30365517] = Rare({id=171327, quest=nil}) -- Reekmonger
 
 nodes[61409050] = Rare({id=170548, quest=nil, rewards={
     Achievement({id=14307, criteria=48832})
@@ -192,8 +193,9 @@ nodes[40705290] = Rare({id=167078, quest=nil, covenant=KYRIAN, rewards={
     POI({41635452})
 }, note=L["wingflayer_note"]}) -- Wingflayer the Cruel
 
-nodes[48004290] = Rare({id=171041, quest=nil, rewards={
-    Achievement({id=14307, criteria=48840})
+nodes[48004290] = Rare({id=171041, quest=61047, rewards={
+    Achievement({id=14307, criteria=48840}),
+    Transmog({item=183605, slot=L["warglaive"]}) -- Devourer Wrought Warglaive
 }, pois={
     POI({48004290, 56111447})
 }}) -- Worldfeaster Chronn
@@ -207,9 +209,10 @@ nodes[63503590] = Rare({id=171040, quest=61046, rewards={
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- nodes[] = Treasure({quest=nil, rewards={
---     Achievement({id=14311, criteria=})
--- }}) --
+-- Treasure of Courage (27051932)
+-- Treasure of Purity (26852473)
+-- Treasure of Humility (24662039)
+-- Treasure of Wisdom (23652548)
 
 nodes[46114536] = Treasure({quest=61006, rewards={
     Achievement({id=14311, criteria=50053})
@@ -227,11 +230,27 @@ nodes[51471795] = Treasure({quest=61052, rewards={
     POI({53541715, 53141903}) -- Unstable Anima Core
 }, note=L["experimental_construct_part"]}) -- Experimental Construct Part
 
+nodes[35085805] = Treasure({quest=nil, rewards={
+    Achievement({id=14311, criteria=50058})
+}}) -- Gift of Agthia
+
 nodes[70473645] = Treasure({quest=nil, rewards={
     Achievement({id=14311, criteria=50060})
 }, pois={
     POI({69374031, scale=0.75})
 }}) -- Gift of Chyrus
+
+nodes[27602179] = Treasure({quest=nil, rewards={
+    Achievement({id=14311, criteria=50062})
+}}) -- Gift of Devos
+
+nodes[40601890] = Treasure({quest=nil, rewards={
+    Achievement({id=14311, criteria=50061})
+}}) -- Gift of Thenios
+
+nodes[64877114] = Treasure({quest=nil, rewards={
+    Achievement({id=14311, criteria=50059})
+}}) -- Gift of Vesiphone
 
 nodes[58233999] = Treasure({quest=61049, rewards={
     Achievement({id=14311, criteria=50051}),

@@ -253,7 +253,7 @@ function Transmog:obtained ()
 
     -- Verify the player can learn the item's appearance
     local sourceID = select(2, CTC.GetItemInfo(self.item))
-    if not select(2, CTC.PlayerCanCollectSource(sourceID)) then return true end
+    if not (sourceID and select(2, CTC.PlayerCanCollectSource(sourceID))) then return true end
 
     return false
 end
@@ -265,7 +265,7 @@ function Transmog:render (tooltip)
     if not collected then
         -- check if we can't learn this item
         local sourceID = select(2, CTC.GetItemInfo(self.item))
-        if not select(2, CTC.PlayerCanCollectSource(sourceID)) then
+        if not (sourceID and select(2, CTC.PlayerCanCollectSource(sourceID))) then
             status = Orange(L["unlearnable"])
         else
             -- check if the item doesn't drop

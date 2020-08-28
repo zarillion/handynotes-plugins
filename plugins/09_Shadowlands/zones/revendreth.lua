@@ -12,6 +12,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
@@ -111,9 +112,9 @@ nodes[37084742] = Rare({id=166710, quest=59913, rewards={
 --     Achievement({id=14310, criteria=48807})
 -- }}) -- Executioner Adrastia
 
-nodes[62484716] = Rare({id=166521, quest=nil, rewards={
+nodes[62484716] = Rare({id=166521, quest=59869, rewards={
     Achievement({id=14310, criteria=48815}),
---    Mount({item=180582, id=}), -- Endmire Flyer
+    Mount({item=180582, id=1379}), -- Endmire Flyer
 }, note=L["famu_note"]}) -- Famu the Infinite
 
 -- nodes[] = Rare({id=159496, quest=nil, rewards={
@@ -191,9 +192,9 @@ nodes[43007910] = Rare({id=155779, quest=nil, rewards={
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- nodes[] = Treasure({quest=, rewards={
+-- nodes[] = Treasure({quest=nil, rewards={
 --     Achievement({id=14314, criteria=})
--- }, note=L[""]}) --
+-- }}) --
 
 -- Stoneguard Satchel (76226410) (60896,60939)
 
@@ -206,6 +207,10 @@ nodes[38394424] = Treasure({quest=61999, rewards={
     Achievement({id=14314, criteria=50077}),
     Toy({item=182694}) -- Stylish Black Parasol
 }}) --Stylish Parasol
+
+nodes[57374337] = Treasure({quest=nil, rewards={
+    Achievement({id=14314, criteria=50078})
+}}) -- The Count
 
 nodes[70176005] = Treasure({quest=62164, rewards={
     Achievement({id=14314, criteria=50080}),
