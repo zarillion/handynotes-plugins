@@ -55,7 +55,10 @@ Motes can be collected from nearby Depleted Anima Canisters located in the room 
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
 L["wingflayer_note"] = "To summon, click the horn on the nearby table (southeast, up the stairs)."
 
+L["broken_flute"] = "Kill nearby {npc:170009} until they drop the {item:180536}, then use the tools to repair it."
+L["experimental_construct_part"] = "Loot a nearby {item:180534} and use it to repair the part. The anima has multiple spawn locations."
 L["larion_harness"] = "Located inside the Hall of Beasts."
+L["memorial_offering"] = "Purchase a {item:180788} from <FIND ME>. Place it in the drink tray near the chest to obtain the {item:180797}."
 L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them on the nearby tribute platters to reveal the treasure."
 
 -------------------------------------------------------------------------------

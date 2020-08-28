@@ -194,6 +194,8 @@ nodes[40705290] = Rare({id=167078, quest=nil, covenant=KYRIAN, rewards={
 
 nodes[48004290] = Rare({id=171041, quest=nil, rewards={
     Achievement({id=14307, criteria=48840})
+}, pois={
+    POI({48004290, 56111447})
 }}) -- Worldfeaster Chronn
 
 nodes[63503590] = Rare({id=171040, quest=61046, rewards={
@@ -213,9 +215,17 @@ nodes[46114536] = Treasure({quest=61006, rewards={
     Achievement({id=14311, criteria=50053})
 }, note=L["in_cave"]}) -- Abandoned Stockpile
 
-nodes[35834811] = Treasure({quest=nil, rewards={
-    Achievement({id=14311, criteria=50055})
-}}) -- Broken Flute
+nodes[35834811] = Treasure({quest=61053, rewards={
+    Achievement({id=14311, criteria=50055}),
+    Item({item=180064}) -- Ascended Flute
+}, note=L["broken_flute"]}) -- Broken Flute
+
+nodes[51471795] = Treasure({quest=61052, rewards={
+    Achievement({id=14311, criteria=50054}),
+    Transmog({item=183609, slot=L["fist"]}) -- Re-Powered Golliath Fists
+}, pois={
+    POI({53541715, 53141903}) -- Unstable Anima Core
+}, note=L["experimental_construct_part"]}) -- Experimental Construct Part
 
 nodes[70473645] = Treasure({quest=nil, rewards={
     Achievement({id=14311, criteria=50060})
@@ -232,6 +242,14 @@ nodes[59336092] = Treasure({quest=61048, rewards={
     Achievement({id=14311, criteria=50050}),
     Item({item=182693, quest=62170}) -- You'll Never Walk Alone
 }}) -- Lost Disciple's Notes
+
+nodes[56481714] = Treasure({quest=nil, rewards={
+    Achievement({id=14311, criteria=50056})
+}, pois={
+    POI({
+        56851899, -- Drink Tray
+    })
+}, note=L["memorial_offering"]}) -- Memorial Offering
 
 nodes[52038607] = Treasure({quest=58329, rewards={
     Achievement({id=14311, criteria=50049}),
