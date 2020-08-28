@@ -237,6 +237,11 @@ nodes[53508037] = Treasure({quest=58298, rewards={
     POI({54428387, 56168305})
 }, note=L["scroll_of_aeons"]}) -- Scroll of Aeons
 
+nodes[40504980] = Treasure({quest=61044, rewards={
+    Achievement({id=14311, criteria=50052}),
+    Transmog({item=182561, slot=L["cloak"]}) -- Fallen Disciple's Cloak
+}}) -- Stolen Equipement
+
 nodes[58667135] = Treasure({quest=60478, rewards={
     Achievement({id=14311, criteria=50048}),
     Item({item=179982}) -- Kyrian Bell
