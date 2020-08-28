@@ -40,10 +40,13 @@ L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["basilofos_note"] = "Move around the rock until a purple fixate marker appears and an emote occurs after four emotes he spawn."
+L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to spawn a chest."
+L["basilofos_note"] = "Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn."
 L["beasts_of_bastion"] = "Beasts of Bastion"
 L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."
 L["corrupted_clawguard_note"] = "Loot a {item:180651} in Forgefire Outpost up the hill and use it to repair the {npc:171300}."
+L["demi_hoarder_note"] = "TODO"
+L["dionae_note"] = "When she becomes immune, click the four {npc:163747} to break her shield."
 L["herculon_note"] = [[
 Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}. At 10 stacks, he will activate.
 

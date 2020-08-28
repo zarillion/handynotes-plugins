@@ -84,9 +84,12 @@ options.treasureBastion = {
 --     Achievement({id=14307, criteria=})
 -- }}) --
 
-nodes[32592336] = Rare({id=171211, quest=nil, rewards={
-    Achievement({id=14307, criteria=48844})
-}}) -- Aspirant Eolis
+nodes[32592336] = Rare({id=171211, quest=61083, rewards={
+    Achievement({id=14307, criteria=48844}),
+    Transmog({item=183607, slot=L["polearm"]}) -- Uncertain Aspirant's Spear
+}, pois={
+    POI({32762034}) -- Fragile Humility Scroll
+}, note=L["aspirant_eolis_note"]}) -- Aspirant Eolis
 
 nodes[51344080] = Rare({id=160629, quest=nil, covenant=KYRIAN, rewards={
     Achievement({id=14307, criteria=48828})
@@ -128,13 +131,13 @@ nodes[56904778] = Rare({id=171010, quest=60999, rewards={
 --     Achievement({id=14307, criteria=48834})
 -- }}) -- Dark Watcher
 
--- nodes[] = Rare({id=171011, quest=nil, rewards={
---     Achievement({id=14307, criteria=48842})
--- }}) -- Demi the Relic Hoarder
+nodes[37004180] = Rare({id=171011, quest=nil, rewards={
+    Achievement({id=14307, criteria=48842})
+}, note=L["demi_hoarder_note"]}) -- Demi the Relic Hoarder
 
-nodes[40944738] = Rare({id=163460, quest=nil, rewards={
+nodes[41354887] = Rare({id=163460, quest=62650, rewards={
     Achievement({id=14307, criteria=48831})
-}}) -- Dionae
+}, note=L["in_small_cave"]..' '..L["dionae_note"]}) -- Dionae
 
 nodes[45546459] = Rare({id=171255, quest={61082,61091,62251}, rewards={
     Achievement({id=14307, criteria=48845}),
@@ -210,6 +213,10 @@ nodes[46114536] = Treasure({quest=61006, rewards={
     Achievement({id=14311, criteria=50053})
 }, note=L["in_cave"]}) -- Abandoned Stockpile
 
+nodes[35834811] = Treasure({quest=nil, rewards={
+    Achievement({id=14311, criteria=50055})
+}}) -- Broken Flute
+
 nodes[70473645] = Treasure({quest=nil, rewards={
     Achievement({id=14311, criteria=50060})
 }, pois={
@@ -242,7 +249,11 @@ nodes[53508037] = Treasure({quest=58298, rewards={
 nodes[40504980] = Treasure({quest=61044, rewards={
     Achievement({id=14311, criteria=50052}),
     Transmog({item=182561, slot=L["cloak"]}) -- Fallen Disciple's Cloak
-}}) -- Stolen Equipement
+}}) -- Stolen Equipment
+
+nodes[36012652] = Treasure({quest=nil, rewards={
+    Achievement({id=14311, criteria=50057})
+}}) -- Vesper of the Silver Wind
 
 nodes[58667135] = Treasure({quest=60478, rewards={
     Achievement({id=14311, criteria=50048}),
@@ -254,6 +265,7 @@ nodes[58667135] = Treasure({quest=60478, rewards={
 -------------------------------------------------------------------------------
 
 -- 61048566 61244
+-- 31002747 61291
 
 -------------------------------------------------------------------------------
 
