@@ -61,8 +61,8 @@ L["known"] = "Conocido"
 L["missing"] = "Desconocido"
 L["unobtainable"] = "No se puede obtener"
 L["unlearnable"] = "No se puede aprender"
-L["A"] = "V" -- vivo/disponible
-L["D"] = "M" -- muerto/derrotado
+L["A"] = "V" -- available/alive
+L["D"] = "M" -- defeated/dead
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
