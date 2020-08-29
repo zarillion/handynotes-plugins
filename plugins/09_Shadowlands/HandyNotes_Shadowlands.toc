@@ -14,6 +14,7 @@ embeds.xml
 core\colors.lua
 core\localization\locales.xml
 localization\enUS.lua
+localization\deDE.lua
 
 core\class.lua
 core\core.lua
