@@ -88,17 +88,8 @@ end
 
 function Node:prepare ()
     ns.NameResolver:Prepare(self.label)
-    if self.note then
-        for type, id in self.note:gmatch('{(%l+):(%d+)}') do
-            if type == 'npc' then
-                ns.NameResolver:Prepare(("unit:Creature-0-0-0-0-%d"):format(id))
-            elseif type == 'item' then
-                GetItemInfo(id) -- prime item info
-            elseif type == 'spell' then
-                GetSpellInfo(id) -- prime spell info
-            end
-        end
-    end
+    ns.prepareLinks(self.sublabel)
+    ns.prepareLinks(self.note)
 end
 
 function Node:render(tooltip)
@@ -114,33 +105,14 @@ function Node:render(tooltip)
     -- optional text under label, usually used to indicate a oneline
     -- requirement such as a key, item or covenant
     if self.sublabel then
-        tooltip:AddLine(self.sublabel, 1, 1, 1)
+        tooltip:AddLine(ns.renderLinks(self.sublabel), 1, 1, 1)
     end
 
     -- additional text for the node to describe how to interact with the
     -- object or summon the rare
     if self.note and ns.addon.db.profile.show_notes then
         if self.sublabel then tooltip:AddLine(" ") end
-        tooltip:AddLine(self.note:gsub('{(%l+):(%d+)}', function (type, id)
-            if type == 'npc' then
-                local name = ns.NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))
-                return ns.color.NPC(name)
-            end
-            if type == 'item' then
-                local _, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
-                if link and icon then
-                    return '|T'..icon..':0:0:1:-1|t '..link
-                end
-            end
-            if type == 'spell' then
-                local name, _, icon = GetSpellInfo(id)
-                if name and icon then
-                    local spell = ns.color.Spell('|Hspell:'..id..'|h['..name..']|h')
-                    return '|T'..icon..':0:0:1:-1|t '..spell
-                end
-            end
-            return type..'+'..id
-        end), 1, 1, 1, true)
+        tooltip:AddLine(ns.renderLinks(self.note), 1, 1, 1, true)
     end
 
     -- all rewards (achievements, pets, mounts, toys, quests) that can be

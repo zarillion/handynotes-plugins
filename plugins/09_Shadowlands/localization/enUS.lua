@@ -1,4 +1,4 @@
-local ADDON_NAME, _ = ...
+local ADDON_NAME, ns = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "enUS", true, true)
 if not L then return end
 
@@ -60,6 +60,20 @@ L["experimental_construct_part"] = "Loot a nearby {item:180534} and use it to re
 L["larion_harness"] = "Located inside the Hall of Beasts."
 L["memorial_offering"] = "Purchase a {item:180788} from {npc:171526} in Aspirant's Rest. Place it in the drink tray near the chest to obtain the {item:180797}."
 L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them on the nearby tribute platters to reveal the treasure."
+
+L["gift_of_thenios_note"] = [[
+Behind the chest is a flight pad called "Path of Wisdom". This leads to a sequence of platforms with different incenses you can commune with:
+
+• Incense of Knowledge
+• Incense of Patience
+• Incense of Insight
+• Incense of Judgement
+
+Commune with them in the order Patience => Knowledge => Insight. On the Judgement platform an orb called the "Path of Insightful Wisdom" will appear.
+
+The orb will take you to the true Incense of Judgment. Commune with it and the final flight pad will grant you {spell:333068} to open the chest.
+]]
+L["gift_of_thenios_requires"] = ns.color.Orange("Requires {spell:333068}")
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------

@@ -49,5 +49,47 @@ function NameResolver:Resolve (link)
 end
 
 -------------------------------------------------------------------------------
+-------------------------------- LINK RENDERER --------------------------------
+-------------------------------------------------------------------------------
+
+function prepareLinks(str)
+    if not str then return end
+    for type, id in str:gmatch('{(%l+):(%d+)}') do
+        if type == 'npc' then
+            NameResolver:Prepare(("unit:Creature-0-0-0-0-%d"):format(id))
+        elseif type == 'item' then
+            GetItemInfo(id) -- prime item info
+        elseif type == 'spell' then
+            GetSpellInfo(id) -- prime spell info
+        end
+    end
+end
+
+function renderLinks(str)
+    return str:gsub('{(%l+):(%d+)}', function (type, id)
+        if type == 'npc' then
+            local name = NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))
+            return ns.color.NPC(name)
+        end
+        if type == 'item' then
+            local _, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
+            if link and icon then
+                return '|T'..icon..':0:0:1:-1|t '..link
+            end
+        end
+        if type == 'spell' then
+            local name, _, icon = GetSpellInfo(id)
+            if name and icon then
+                local spell = ns.color.Spell('|Hspell:'..id..'|h['..name..']|h')
+                return '|T'..icon..':0:0:1:-1|t '..spell
+            end
+        end
+        return type..'+'..id
+    end)
+end
+
+-------------------------------------------------------------------------------
 
 ns.NameResolver = NameResolver
+ns.prepareLinks = prepareLinks
+ns.renderLinks = renderLinks

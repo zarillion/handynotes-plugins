@@ -244,9 +244,14 @@ nodes[27602179] = Treasure({quest=nil, rewards={
     Achievement({id=14311, criteria=50062})
 }}) -- Gift of Devos
 
-nodes[40601890] = Treasure({quest=nil, rewards={
-    Achievement({id=14311, criteria=50061})
-}}) -- Gift of Thenios
+nodes[40601890] = Treasure({
+    quest=60894,
+    note=L["gift_of_thenios_note"],
+    sublabel=L["gift_of_thenios_requires"],
+    rewards={
+        Achievement({id=14311, criteria=50061})
+    }
+}) -- Gift of Thenios
 
 nodes[64877114] = Treasure({quest=nil, rewards={
     Achievement({id=14311, criteria=50059})
