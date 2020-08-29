@@ -10,6 +10,7 @@ L["cloth"] = "Stoff"
 L["leather"] = "Leder"
 L["mail"] = "Kette"
 L["plate"] = "Platte"
+L["cosmetic"] = "Kosmetisch"
 
 L["1h_mace"] = "Einhandstreikolben"
 L["1h_sword"] = "Einhandschwert"
@@ -30,7 +31,7 @@ L["offhand"] = "Nebenhand"
 L["warglaive"] = "Kriegsgleve"
 
 L["ring"] = "Finger"
-L["amulet"] = "Hals"
+L["neck"] = "Hals"
 L["cloak"] = "Umhang"
 L["trinket"] = "Schmuck"
 
@@ -43,6 +44,7 @@ L["in_cave"] = "In einer Höhle."
 L["in_small_cave"] = "In einer kleinen Höhle."
 L["in_water_cave"] = "In einer Unterwasserhöhle."
 L["in_water"] = "Im Wasser."
+L["daily"] = "Täglich"
 L["weekly"] = "Wöchentlich"
 L["normal"] = "Normal"
 L["hard"] = "Schwer"
@@ -55,6 +57,8 @@ L["known"] = "Bekannt"
 L["missing"] = "Fehlt"
 L["unobtainable"] = "Unerreichbar"
 L["unlearnable"] = "Unlernbar"
+L["A"] = "L" -- available/alive
+L["D"] = "T" -- dead/defeated
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -109,6 +113,7 @@ L["options_toggle_rares"] = "Seltene Gegner"
 L["options_toggle_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
 L["options_toggle_supplies"] = "Kisten mit Kriegsvorräten"
 L["options_toggle_treasures"] = "Schätze"
+L["options_toggle_treasures_desc"] = "Zeigt die Standorte versteckter Schätze an."
 
 ---------------------------------- TOOLTIP ---------------------------------
 
