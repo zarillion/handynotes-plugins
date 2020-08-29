@@ -61,7 +61,7 @@ L["larion_harness"] = "Located inside the Hall of Beasts."
 L["memorial_offering"] = "Purchase a {item:180788} from {npc:171526} in Aspirant's Rest. Place it in the drink tray near the chest to obtain the {item:180797}."
 L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them on the nearby tribute platters to reveal the treasure."
 
-L["gift_of_thenios_note"] = [[
+L["gift_of_thenios"] = [[
 Behind the chest is a flight pad called "Path of Wisdom". This leads to a sequence of platforms with different incenses you can commune with:
 
 • Incense of Knowledge
@@ -73,7 +73,6 @@ Commune with them in the order Patience => Knowledge => Insight. On the Judgemen
 
 The orb will take you to the true Incense of Judgment. Commune with it and the final flight pad will grant you {spell:333068} to open the chest.
 ]]
-L["gift_of_thenios_requires"] = ns.color.Orange("Requires {spell:333068}")
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------

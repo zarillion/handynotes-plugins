@@ -7,8 +7,8 @@ ns.Class = function (name, parent, attrs)
     Class.setters = {}
 
     setmetatable(Class, {
-        __call = function (self, instance)
-            instance = instance or {}
+        __call = function (self, instanceAttrs)
+            instance = {}
             instance.__class = Class;
 
             local address = tostring(instance):gsub("table: ", "", 1)
@@ -33,6 +33,11 @@ ns.Class = function (name, parent, attrs)
                     end
                 end
             })
+
+            -- assign attributes after setmetatable() to trigger any setters
+            for k, v in pairs(instanceAttrs or {}) do
+                instance[k] = v
+            end
 
             local init = Class.init
             if init then init(instance) end

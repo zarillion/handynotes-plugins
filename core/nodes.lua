@@ -16,12 +16,14 @@ local isinstance = ns.isinstance
 Base class for all displayed nodes.
 
     label (string): Tooltip title for this node
+    sublabel (strint): Oneline string to display under label
     icon (string|table): The icon texture to display
     alpha (float): The default alpha value for this type
     scale (float): The default scale value for this type
     minimap (bool): Should the node be displayed on the minimap
     quest (int|int[]): Quest IDs that cause this node to disappear
-    requires (int|int[]): Quest IDs that must be true to appear
+    questdeps (int|int[]): Quest IDs that must be true to appear
+    requires (str): Requirement to interact or unlock
     rewards (Reward[]): Array of rewards for this node
 
 --]]
@@ -37,13 +39,18 @@ Node.group = "other"
 
 function Node:init ()
     -- normalize quest ids as tables instead of single values
-    for i, key in ipairs{'quest', 'requires'} do
+    for i, key in ipairs{'quest', 'questdeps'} do
         if type(self[key]) == 'number' then self[key] = {self[key]} end
     end
 
     if self.minimap == nil then
         self.minimap = true
     end
+end
+
+function Node.setters:requires (requirement)
+    print(self, requirement)
+    self.sublabel = ns.color.Orange('Requires '..requirement)
 end
 
 function Node:display ()
@@ -79,7 +86,7 @@ function Node:enabled (map, coord, minimap)
     end
 
     -- All required quest ids must be true
-    for i, quest in ipairs(self.requires or {}) do
+    for i, quest in ipairs(self.questdeps or {}) do
         if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
     end
 
