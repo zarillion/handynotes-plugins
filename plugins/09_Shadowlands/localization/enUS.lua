@@ -130,7 +130,11 @@ L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to sta
 L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
 L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
 
+L["chest_of_envious_dreams"] = "Chest of Envious Dreams"
 L["bleakwood_chest"] = "Bleakwood Chest"
 L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["dredglaive_note"] = "Under the bridge in {npc:173671} corpse."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
+
+L["options_toggle_carriages"] = "Carriages"
+L["options_toggle_carriages_desc"] = "Display locations and paths of rideable carriages."
