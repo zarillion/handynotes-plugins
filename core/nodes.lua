@@ -49,7 +49,6 @@ function Node:init ()
 end
 
 function Node.setters:requires (requirement)
-    print(self, requirement)
     self.sublabel = ns.color.Orange('Requires '..requirement)
 end
 

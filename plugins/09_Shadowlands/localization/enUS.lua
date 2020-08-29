@@ -40,12 +40,13 @@ L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to spawn a chest."
+L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to activate him."
 L["basilofos_note"] = "Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn."
 L["beasts_of_bastion"] = "Beasts of Bastion"
 L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."
 L["corrupted_clawguard_note"] = "Loot a {item:180651} in Forgefire Outpost up the hill and use it to repair the {npc:171300}."
-L["demi_hoarder_note"] = "TODO"
+L["dark_watcher_note"] = "Can only be seen while dead. Talk to her and she will cast {spell:332830} on you before attacking."
+L["demi_hoarder_note"] = "Starts with 99 stacks of {spell:333874}, reducing damage taken. Stacks are slowly removed with damage. The rare will follow a path and despawn if it reaches the end."
 L["dionae_note"] = "When she becomes immune, click the four {npc:163747} to break her shield."
 L["herculon_note"] = [[
 Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}. At 10 stacks, he will activate.
@@ -61,6 +62,8 @@ L["larion_harness"] = "Located inside the Hall of Beasts."
 L["memorial_offering"] = "Purchase a {item:180788} from {npc:171526} in Aspirant's Rest. Place it in the drink tray near the chest to obtain the {item:180797}."
 L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them on the nearby tribute platters to reveal the treasure."
 
+L["gift_of_agthia"] = "Click the lit torch near the broken bridge to the northwest and carry {spell:333320} from torch to torch until you reach the chest. Lighting the final torch will grant you {spell:333063}."
+L["gift_of_chyrus"] = "Kneel in front of the chest to be granted {spell:333045}."
 L["gift_of_thenios"] = [[
 Behind the chest is a flight pad called "Path of Wisdom". This leads to a sequence of platforms with different incenses you can commune with:
 
@@ -73,6 +76,7 @@ Commune with them in the order Patience => Knowledge => Insight. On the Judgemen
 
 The orb will take you to the true Incense of Judgment. Commune with it and the final flight pad will grant you {spell:333068} to open the chest.
 ]]
+L["gift_of_vesiphone"] = "Ring one of the bells to spawn a {npc:170849} and kill it to receive the {spell:333239} debuff. The falling water opposite the chest will cleanse this debuff and grant you {spell:332785}."
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------

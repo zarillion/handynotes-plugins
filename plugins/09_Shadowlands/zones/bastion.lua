@@ -12,6 +12,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
@@ -90,7 +91,7 @@ nodes[32592336] = Rare({
         Transmog({item=183607, slot=L["polearm"]}) -- Uncertain Aspirant's Spear
     },
     pois={
-        POI({32762034}) -- Fragile Humility Scroll
+        POI({32322113, 32762034}) -- Fragile Humility Scroll
     }
 }) -- Aspirant Eolis
 
@@ -166,20 +167,27 @@ nodes[56904778] = Rare({
     }
 }) -- Corrupted Clawguard
 
--- nodes[] = Rare({
---     id=170623,
---     quest=nil,
---     rewards={
---         Achievement({id=14307, criteria=48834})
---     }
--- }) -- Dark Watcher
+nodes[27823014] = Rare({
+    id=170623,
+    quest=60883,
+    note=L["dark_watcher_note"],
+    rewards={
+        Achievement({id=14307, criteria=48834})
+    }
+}) -- Dark Watcher
 
 nodes[37004180] = Rare({
     id=171011,
-    quest=nil,
+    quest={61069,61000},
     note=L["demi_hoarder_note"],
     rewards={
         Achievement({id=14307, criteria=48842})
+    },
+    pois={
+        Path({
+            37004180, 37714171, 37944069, 38484042, 39004077, 39354145,
+            39854155, 40334106, 40424024, 40733931, 41233883
+        })
     }
 }) -- Demi the Relic Hoarder
 
@@ -353,14 +361,22 @@ nodes[51471795] = Treasure({
 }) -- Experimental Construct Part
 
 nodes[35085805] = Treasure({
-    quest=nil,
+    quest=60893,
+    requires="{spell:333063}",
+    note=L["gift_of_agthia"],
     rewards={
-        Achievement({id=14311, criteria=50058})
+        Achievement({id=14311, criteria=50058}),
+        Item({item=180063}) -- Unearthly Chime
+    },
+    pois={
+        Path({39085448, 38455706, 37405674, 37115684, 35165822})
     }
 }) -- Gift of Agthia
 
 nodes[70473645] = Treasure({
-    quest=nil,
+    quest=60892,
+    requires="{spell:333045}",
+    note=L["gift_of_chyrus"],
     rewards={
         Achievement({id=14311, criteria=50060})
     },
@@ -371,6 +387,7 @@ nodes[70473645] = Treasure({
 
 nodes[27602179] = Treasure({
     quest=nil,
+    requires="{spell:333070}",
     rewards={
         Achievement({id=14311, criteria=50062})
     }
@@ -386,9 +403,12 @@ nodes[40601890] = Treasure({
 }) -- Gift of Thenios
 
 nodes[64877114] = Treasure({
-    quest=nil,
+    quest=60890,
+    requires="{spell:332785}",
+    note=L["gift_of_vesiphone"],
     rewards={
-        Achievement({id=14311, criteria=50059})
+        Achievement({id=14311, criteria=50059}),
+        Pet({item=180859, id=2935}) -- White Vulpin
     }
 }) -- Gift of Vesiphone
 
@@ -455,6 +475,7 @@ nodes[40504980] = Treasure({
 
 nodes[36012652] = Treasure({
     quest=nil,
+    requires="{item:180858}",
     rewards={
         Achievement({id=14311, criteria=50057})
     }
@@ -473,7 +494,11 @@ nodes[58667135] = Treasure({
 -------------------------------------------------------------------------------
 
 -- 61048566 61244
+-- 54025967 61251
 -- 31002747 61291
+-- 30612373 61292
+-- 26152262 61294
+-- 24371821 61295
 
 -------------------------------------------------------------------------------
 
