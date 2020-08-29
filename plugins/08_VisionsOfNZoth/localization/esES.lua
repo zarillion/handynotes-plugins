@@ -1,3 +1,7 @@
+--[[
+	Spanish Localization by (EU) Krovikan-Minahonda
+--]]
+
 local ADDON_NAME, _ = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "esES", false, true)
 if not L then return end
@@ -6,8 +10,8 @@ if not L then return end
 ----------------------------------- GENERAL -----------------------------------
 -------------------------------------------------------------------------------
 
-L["context_menu_title"] = "HandyNotes Visions of N'Zoth"
-L["options_title"] = "Visions of N'Zoth"
+L["context_menu_title"] = "HandyNotes Visiones de N'Zoth"
+L["options_title"] = "Visiones de N'Zoth"
 L["options_icons_assaultevents"] = "Iconos de los Eventos de los Asaltos"
 
 -------------------------------------------------------------------------------
@@ -15,7 +19,7 @@ L["options_icons_assaultevents"] = "Iconos de los Eventos de los Asaltos"
 -------------------------------------------------------------------------------
 
 L["uldum"] = "Uldum"
-L["uldum_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los monstruos raros, tesoros y misiones de asalto en Uldum."
+L["uldum_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los raros, tesoros y misiones de asalto en Uldum."
 
 L["aqir_flayer"] = "Comparte lugar de aparición con Trabajador Colmen'Ashi y Segador aqir."
 L["aqir_titanus"] = "Comparte lugar de aparición con Goliat aqir."
@@ -51,13 +55,13 @@ L["cursed_relic"] = "Requiere una Reliquia Maldita"
 L["tolvir_relic"] = "Requiere una Reliquia de los Tol'vir"
 
 L["options_toggle_alpaca_uldum"] = "Alpaca de pelaje primaveral"
-L["options_toggle_alpaca_uldum_desc"] = "Mostrar las localizaciones donde aparecen los Arbustos Garsahl y las Alpacas Amigables."
+L["options_toggle_alpaca_uldum_desc"] = "Muestra las localizaciones donde aparecen los Arbustos Garsahl y las Alpacas Amigables."
 L["options_toggle_assault_events"] = "Eventos del Asalto"
-L["options_toggle_assault_events_desc"] = "Mostrar las localizaciones de los posibles eventos de asalto."
+L["options_toggle_assault_events_desc"] = "Muestra las localizaciones de los posibles eventos del asalto."
 L["options_toggle_coffers"] = "Alijos Cerrados"
 L["options_toggle_coffers_desc"] = "Muestra las localizaciones de los alijos cerrados (despojables una vez por asalto)."
 
-L["ambush_settlers"] = "Mata oleadas de bichos hasta que acabe el evento."
+L["ambush_settlers"] = "Mata oleadas de enemigos hasta que acabe el evento."
 L["burrowing_terrors"] = "Salta encima de los Escarabajos Excavadores para aplastarlos."
 L["call_of_void"] = "Haz click para purificar el Pilón del Ritual."
 L["combust_cocoon"] = "Lanza las bombas de fuego a las crisálidas del techo."
@@ -74,7 +78,7 @@ L["solar_collector"] = "Enciende los cinco cristales de poder en todos los lados
 L["summoning_ritual"] = "Mata a los acólitos y cierra el portal de invocación. Tras completar el evento cierto número de veces, aparecerán tres raros aleatorios aldrededor de Neferset."
 L["titanus_egg"] = "Destruye el Huevo de Titanus y mata el Titanus Joven."
 L["unearthed_keeper"] = "Destruye al Centinela Desenterrado."
-L["virnall_front"] = "Mata oleadas de bichos hasta que aparezca Menepthah el Belisario."
+L["virnall_front"] = "Mata oleadas de enemigos hasta que aparezca Menepthah el Belisario."
 L["voidflame_ritual"] = "Apaga todas las velas tocadas por el Vacío."
 
 L["beacon_of_sun_king"] = "Gira los rayos de las tres estatuas hacia el orbe."
@@ -82,14 +86,14 @@ L["engine_of_ascen"] = "Mueve las cuatro estatuas hasta interceptar los rayos."
 L["lightblade_training"] = "Mata Instructores y Siervos hasta que aparezca Kames, Hoja del Alba."
 L["raiding_fleet"] = "Quema todos los botes usando la antorcha de la misión."
 L["slave_camp"] = "Abre todos las jaulas cercanas."
-L["unsealed_tomb"] = "Protege a Heru de las oleadas de bichos."
+L["unsealed_tomb"] = "Protege a Heru de las oleadas de enemigos."
 
 -------------------------------------------------------------------------------
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
 L["vale"] = "Valle de la Flor Eterna"
-L["vale_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los monstruos raros, tesoros y misiones de asalto en Valle de la Flor Eterna."
+L["vale_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los raros, tesoros y misiones de asalto en el Valle de la Flor Eterna."
 
 L["big_blossom_mine"] = "Está dentro de la Mina de la Gran Flor. La entrada está al noreste."
 L["guolai"] = "Está dentro de las Salas Guo-Lai."
@@ -118,23 +122,23 @@ L["empowered_demo"] = "Cierra todos los relicarios de espíritus."
 L["empowered_wagon"] = "Coge las Municiones del Shadopan y colócalas bajo el Carro de Guerra Potenciado."
 L["feeding_grounds"] = "Destruye las cámaras de suspensión y los receptáculos de ámbar."
 L["font_corruption"] = "Gira las estatuas de los Mogu hasta que ambos rayos lleguen a cada lado de la consola. Entonces, haz click en ella."
-L["goldbough_guardian"] = "Protege al Jefe Ramaoro de las oleadas de bichos."
+L["goldbough_guardian"] = "Protege al Jefe Ramaoro de las oleadas de enemigos."
 L["infested_statue"] = "Arranca los Ojos crispados hasta llevarlos a 15 metros de la estatua."
 L["kunchong_incubator"] = "Destruye todos los generadores del campo de fuerza."
-L["mantid_hatch"] = "Coge los Lanzallamas del Shadopan y destruye los incubadores de larvas."
+L["mantid_hatch"] = "Coge los Lanzallamas del Shadopan y destruye las incubadoras de larvas."
 L["mending_monstro"] = "Destruye los cristales de Ámbar de Alivio."
 L["mystery_sacro"] = "Haz click en todas las Lápidas Sospechosas y mata al Alma Ululante."
 L["noodle_cart"] = "Defiende a Chin mientras arregla su carro."
-L["protect_stout"] = "Protege la cueva de las oleadas de bichos."
+L["protect_stout"] = "Protege la cueva de las oleadas de enemigos."
 L["pulse_mound"] = "Mata los tentáculos y ojos de alrededor y entonces, mata al Bubón Viviente."
 L["ravager_hive"] = "Destruye todas las colmenas del árbol."
 L["ritual_wakening"] = "Mata a los Heraldo Klaxxi."
 L["serpent_binding"] = "Mata los Subyugadores Zan-Tien y después a Haofeng."
-L["stormchosen_arena"] = "Mata todos los bichos de la arena y después al General del Clan."
+L["stormchosen_arena"] = "Mata todos los enemigos de la arena y después al General del Clan."
 L["swarm_caller"] = "Destruye el pilón Invocador de Enjambre."
-L["vault_of_souls"] = "Haz click en la urna y destruye a todas las estatuas."
+L["vault_of_souls"] = "Haz click en la urna y destruye todas las estatuas."
 L["void_conduit"] = "Haz click en el Conducto del Vacío y aplasta los ojos del suelo hasta que te saque fuera."
-L["war_banner"] = "Quema los estandartes y mata oleadas de bichos hasta que aparezca el comandante."
+L["war_banner"] = "Quema los estandartes y mata oleadas de enemigos hasta que aparezca el comandante."
 L["weighted_artifact"] = "Coge el Jarrón Extrañamente Pesado y vuelve por donde has venido para ponerlo en el Artefacto Mogu Pesado. Si te atonta una estatua se te caerá el Jarrón Extrañamente Pesado."
 
 -------------------------------------------------------------------------------
@@ -144,9 +148,9 @@ L["weighted_artifact"] = "Coge el Jarrón Extrañamente Pesado y vuelve por dond
 L["colored_potion"] = "Poción Coloreada"
 L["colored_potion_note"] = [[
 La poción junto al cuerpo de %s siempre indica el color de la poción de efectos negativos de la visión en curso.
-
+                            
 El color de la poción de +100 de cordura se puede saber por el color de esta poción (|cFFFF0000bad|r => |cFF00FF00good|r):
-
+                            
 Negro => Verde
 Azul => Violeta
 Verde => Rojo
@@ -155,22 +159,22 @@ Rojo => Azul
 ]]
 
 L["bear_spirit"] = "Espíritu de Oso"
-L["bear_spirit_note"] = "Mata el Espíritu de Alfombra de Oso Enfadado Y todas las oleadas de bichos para ganar un buff de 10% de celeridad."
-L["buffs_change"] = "Los buffs disponibles cambian en cada pasada. Si el edificio está cerrados o el NPC/objeto no está, es que el buff no está en esa pasada."
+L["bear_spirit_note"] = "Mata el Espíritu de Alfombra de Oso Enfadado y todas las oleadas de enemigos para conseguir un buff de 10% de celeridad."
+L["buffs_change"] = "Los buffs disponibles cambian en cada pasada. Si el edificio está cerrado o el NPC/objeto no está, es que el buff no está en esa pasada."
 L["clear_sight"] = "Requiere Visión Clara rango %d."
 L["craggle"] = "Deja un juguete en el suelo (como el Conjunto de Trenes de Juguete) para distraerlo mientras sus robots siguen patrullando. Cuando estén suficientemente separados, mata los robots y después a Chichón Perinola."
 L["empowered"] = "Potenciado"
 L["empowered_note"] = "Atraviesa el laberinto de minas hasta el piso superior y súbete encima de la Mina de Beneficio Experimental para conseguir un buff de 10% de daño incrementado."
 L["enriched"] = "Enriquecido"
-L["enriched_note"] = "Mata el Banco de Hermandad Desatendido para conseguir un buff de 10% de crítico."
+L["enriched_note"] = "Mata al Banco de Hermandad Desatendido para conseguir un buff de 10% de crítico."
 L["ethereal_essence"] = "Esencia Etérea"
-L["ethereal_essence_note"] = "Mata a Tejedor de Distorsión Dushar para un buff de 10% de crítico."
+L["ethereal_essence_note"] = "Mata a Tejedor de Distorsión Dushar para conseguir un buff de 10% de crítico."
 L["ethereal_note"] = "Consigue cristales naranjas escondidos a lo largo de la visión y llévaselos a este NPC para conseguir Recuerdos adicionales. Hay un total de 10 cristales, 2 en cada zona.\n\n|cFF00FF00¡No olvides despojar el cofre!|r"
 L["heroes_bulwark"] = "Baluarte de Héroes"
-L["heroes_bulwark_note"] = "Mata a Gamon dentro de la taberna para un buff de 10% de vida."
+L["heroes_bulwark_note"] = "Mata a Gamon dentro de la taberna para conseguir un buff de 10% de vida."
 L["horrific_visions"] = "Visiones Horripilantes"
 L["inside_building"] = "Dentro de un edificio."
-L["mailbox"] = "Buzón de Correo"
+L["mailbox"] = "Buzón de Correos"
 L["mail_muncher"] = "Cuando se abre, existe la probabilidad de que aparezca el raro Zampacorreos."
 L["morgan_pestle"] = "Morgan Mortero"
 L["odd_crystal"] = "Cristal Extraño"
@@ -179,9 +183,9 @@ L["requited_bulwark_note"] = "Mata a Agustus Moulaine para conseguir un buff de 
 L["shave_kit"] = "Equipo de Afeitado de Ricitos"
 L["shave_kit_note"] = "Dentro de la peluquería. Despoja la caja que hay encima de la mesa."
 L["smiths_strength"] = "Fuerza del Herrero"
-L["smiths_strength_note"] = "Mata a Naros en la choza de la herrería  para obtener un buff de 10% de daño incrementado."
+L["smiths_strength_note"] = "Mata a Naros en la choza de la herrería  para conseguir un buff de 10% de daño incrementado."
 L["spirit_of_wind"] = "Espíritu del Viento"
-L["spirit_of_wind_note"] = "Mata a Bwemba para obtener un buff de 10% de celeridad y de velocidad de movimiento."
+L["spirit_of_wind_note"] = "Mata a Bwemba para conseguir un buff de 10% de celeridad y de velocidad de movimiento."
 L["void_skull"] = "Calavera tocada por el Vacío"
 L["void_skull_note"] = "Haz click en la calavera del suelo para despojar el juguete."
 L["yelmak"] = "Yelmak"
@@ -217,13 +221,13 @@ L["c_walkway_corner"] = "En una esquina de la pasarela superior."
 L["c_walkway_platform"] = "En una plataforma sobre la pasarela superior."
 
 L["options_toggle_visions_buffs"] = "Buffs"
-L["options_toggle_visions_buffs_desc"] = "Mostrar localizaciones de eventos que garantizan buffs de daño durante 1 hora."
-L["options_toggle_visions_chest_desc"] = "Mostrar localizaciones posibles de cofres dentro de las visiones horripilantes."
+L["options_toggle_visions_buffs_desc"] = "Muestra las localizaciones de eventos que garantizan buffs de daño durante 1 hora."
+L["options_toggle_visions_chest_desc"] = "Muestra las localizaciones posibles de cofres dentro de las visiones horripilantes."
 L["options_toggle_visions_crystals"] = "Cristales Extraños"
-L["options_toggle_visions_crystals_desc"] = "Mostrar localizaciones posibles de cristales extraños dentro de las visiones horripilantes."
+L["options_toggle_visions_crystals_desc"] = "Muestra las localizaciones posibles de cristales extraños dentro de las visiones horripilantes."
 L["options_toggle_visions_mail"] = "Buzones"
-L["options_toggle_visions_mail_desc"] = "Mostrar localizaciones de buzones para la montura del Zampacorreos."
-L["options_toggle_visions_misc_desc"] = "Mostrar localizaciones de raros, juguetes, pociones y del etéreo dentro de las visiones horripilantes."
+L["options_toggle_visions_mail_desc"] = "Muestra las localizaciones de buzones para la montura del Zampacorreos."
+L["options_toggle_visions_misc_desc"] = "Muestra las localizaciones de raros, juguetes, pociones y del etéreo dentro de las visiones horripilantes."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
