@@ -127,14 +127,19 @@ L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell
 L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."
 L["famu_note"] = "Talk to {npc:166483} to trigger the event."
 L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
+L["lord_mortegore_note"] = "Kill surrounding mobs to obtain {item:174378} and use it to empower a {npc:161870}. The rare will spawn once all four sigils are empowered."
 L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
 L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
 
-L["chest_of_envious_dreams"] = "Chest of Envious Dreams"
-L["bleakwood_chest"] = "Bleakwood Chest"
 L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
-L["dredglaive_note"] = "Under the bridge in {npc:173671} corpse."
+L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
+
+L["bleakwood_chest"] = "Bleakwood Chest"
+L["chest_of_envious_dreams"] = "Chest of Envious Dreams"
+L["gilded_plum_chest"] = "Gilded Plum Chest"
+L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
+L["wayfairer_spoils"] = "Wayfairer's Abandoned Spoils"
 
 L["options_toggle_carriages"] = "Carriages"
 L["options_toggle_carriages_desc"] = "Display locations and paths of rideable carriages."
