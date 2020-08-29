@@ -262,13 +262,14 @@ nodes[59336092] = Treasure({quest=61048, rewards={
     Item({item=182693, quest=62170}) -- You'll Never Walk Alone
 }}) -- Lost Disciple's Notes
 
-nodes[56481714] = Treasure({quest=nil, rewards={
+nodes[56481714] = Treasure({quest=61150, rewards={
     Achievement({id=14311, criteria=50056})
 }, pois={
     POI({
         56851899, -- Drink Tray
     })
 }, note=L["memorial_offering"]}) -- Memorial Offering
+--Kobri coordinate 47967389
 
 nodes[52038607] = Treasure({quest=58329, rewards={
     Achievement({id=14311, criteria=50049}),
