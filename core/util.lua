@@ -65,21 +65,24 @@ function prepareLinks(str)
     end
 end
 
-function renderLinks(str)
+function renderLinks(str, textOnly)
     return str:gsub('{(%l+):(%d+)}', function (type, id)
         if type == 'npc' then
             local name = NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))
+            if textOnly then return name end
             return ns.color.NPC(name)
         end
         if type == 'item' then
-            local _, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
+            local name, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
             if link and icon then
+                if textOnly then return name end
                 return '|T'..icon..':0:0:1:-1|t '..link
             end
         end
         if type == 'spell' then
             local name, _, icon = GetSpellInfo(id)
             if name and icon then
+                if textOnly then return name end
                 local spell = ns.color.Spell('|Hspell:'..id..'|h['..name..']|h')
                 return '|T'..icon..':0:0:1:-1|t '..spell
             end

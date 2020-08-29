@@ -49,7 +49,7 @@ function Node:init ()
 end
 
 function Node.setters:requires (requirement)
-    self.sublabel = ns.color.Orange('Requires '..requirement)
+    self.sublabel = ns.color.Red('Requires '..requirement)
 end
 
 function Node:display ()
@@ -111,7 +111,7 @@ function Node:render(tooltip)
     -- optional text under label, usually used to indicate a oneline
     -- requirement such as a key, item or covenant
     if self.sublabel then
-        tooltip:AddLine(ns.renderLinks(self.sublabel), 1, 1, 1)
+        tooltip:AddLine(ns.renderLinks(self.sublabel, true), 1, 1, 1)
     end
 
     -- additional text for the node to describe how to interact with the

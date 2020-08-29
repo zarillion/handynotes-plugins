@@ -272,8 +272,11 @@ nodes[41953253] = Treasure({quest=nil, rewards={
     POI({41413161, scale=0.5})
 }, note=L["desiccated_moth"]}) -- Desiccated Moth
 
-nodes[37683688] = Treasure({quest=nil, rewards={
-    Achievement({id=14313, criteria=50041})
+nodes[37683688] = Treasure({quest=61070, rewards={
+    Achievement({id=14313, criteria=50041}),
+    Transmog({item=179510, slot=L["warglaive"]}) -- Dreamsong Warglaive
+}, pois={
+    POI({43592290}) -- Bounding Shroom
 }, note=L["dreamsong_heart"]}) -- Dreamsong Heart
 
 nodes[36422506] = Treasure({quest=62259, rewards={

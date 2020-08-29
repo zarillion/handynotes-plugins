@@ -121,11 +121,11 @@ nodes[38794333] = Rare({id=161105, quest=58332, rewards={
 --     Achievement({id=14308, criteria=48856})
 -- }}) -- Moregorger
 
-nodes[72872891] = Rare({id=174108, quest=nil, rewards={
+nodes[72872891] = Rare({id=174108, quest=62369, rewards={
     Achievement({id=14308, criteria=49724})
 }}) -- Necromantic Anomaly
 
-nodes[66023532] = Rare({id=162690, quest=nil, rewards={
+nodes[66023532] = Rare({id=162690, quest=58851, rewards={
     Achievement({id=14308, criteria=49723})
 }}) -- Nerissa Heartless
 
@@ -268,9 +268,9 @@ nodes[64672475] = Treasure({quest=nil, rewards={
     Achievement({id=14312, criteria=50075})
 }}) -- Ritualist's Cache
 
-nodes[31737004] = Treasure({quest=nil, rewards={
+nodes[31737004] = Treasure({quest=nil, requires="{item:181777}", rewards={
     Achievement({id=14312, criteria=50073})
-}, note=L["runespeakers_trove_note"]}) -- Runespeaker's Trove
+}}) -- Runespeaker's Trove
 
 nodes[66145045] = Treasure({quest=61451, rewards={
     Achievement({id=14312, criteria=50067}),

@@ -173,6 +173,7 @@ nodes[27823014] = Rare({
     note=L["dark_watcher_note"],
     rewards={
         Achievement({id=14307, criteria=48834})
+        -- also dropped class-specific finesse conduits
     }
 }) -- Dark Watcher
 

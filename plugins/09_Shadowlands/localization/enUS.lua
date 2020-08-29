@@ -28,7 +28,7 @@ L["star_lake"] = "Star Lake Amphitheater"
 L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one of the special encounters."
 
 L["desiccated_moth"] = "Jump on the {npc:169997} northwest of the tree to float onto a branch. Burn {item:180784} in the Incense Burner to collect the treasure."
-L["dreamsong_heart"] = "Located very high up in the tree."
+L["dreamsong_heart"] = "Use the {npc:169997} far to the northeast to get launched into the tree."
 L["enchanted_dreamcatcher"] = "Hanging from the top of the roots. Easiest to jump up on the west side."
 L["faerie_trove"] = "Located underneath the platform."
 L["harmonic_chest"] = "Requires two people. One person plays the harp and the other plays the drum to unlock the chest."
@@ -106,7 +106,6 @@ Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} 
 
 Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on the east side) and click the pipe to transport to the chest.
 ]]
-L["runespeakers_trove_note"] = "Locked, requires {item:181777} to open."
 L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
 L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
