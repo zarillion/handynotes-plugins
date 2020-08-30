@@ -206,13 +206,14 @@ nodes[53841877] = Rare({
     }
 }) -- Ravenomous
 
--- nodes[] = Rare({
---     id=168147,
---     quest=nil,
---     rewards={
---         Achievement({id=14308, criteria=48874})
---     }
--- }) -- Sabreil the Bonecleaver
+nodes[50404820] = Rare({
+    id=168147,
+    quest=nil,
+    note=L["activation_unknown"],
+    rewards={
+        Achievement({id=14308, criteria=48874})
+    }
+}) -- Sabreil the Bonecleaver
 
 nodes[62107580] = Rare({
     id=158406,
