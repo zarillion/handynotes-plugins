@@ -75,109 +75,210 @@ options.kittenMaldraxxus = {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-nodes[52663542] = Rare({id=162727, quest=58870, rewards={
-    Achievement({id=14308, criteria=48876})
-}}) -- Bubbleblood
+nodes[52663542] = Rare({
+    id=162727,
+    quest=58870,
+    rewards={
+        Achievement({id=14308, criteria=48876})
+    }
+}) -- Bubbleblood
 
-nodes[49012351] = Rare({id=159105, quest=58005, rewards={
-    Achievement({id=14308, criteria=48866})
-}}) -- Collector Kash
+nodes[49012351] = Rare({
+    id=159105,
+    quest=58005,
+    rewards={
+        Achievement({id=14308, criteria=48866})
+    }
+}) -- Collector Kash
 
-nodes[26392633] = Rare({id=157058, quest=58335, rewards={
-    Achievement({id=14308, criteria=48872})
-}}) -- Corpsecutter (Bonebreaker) Moroc
+nodes[26392633] = Rare({
+    id=157058,
+    quest=58335,
+    rewards={
+        Achievement({id=14308, criteria=48872})
+    }
+}) -- Corpsecutter (Bonebreaker) Moroc
 
-nodes[76835707] = Rare({id=162711, quest=58868, rewards={
-    Achievement({id=14308, criteria=48851}),
-    Pet({id=2953, item=181263}) -- Shy Melvin
-}}) -- Deadly Dapperling
+nodes[76835707] = Rare({
+    id=162711,
+    quest=58868,
+    rewards={
+        Achievement({id=14308, criteria=48851}),
+        Pet({id=2953, item=181263}) -- Shy Melvin
+    }
+}) -- Deadly Dapperling
 
-nodes[46734550] = Rare({id=162797, quest=58878, rewards={
-    Achievement({id=14308, criteria=48852}),
-    Transmog({item=182191, slot=L["1h_mace"]}) -- Slobber-Soaked Chew Toy
-}, pois={
-    POI({48125190})
-}}) -- Deepscar
+nodes[46734550] = Rare({
+    id=162797,
+    quest=58878,
+    rewards={
+        Achievement({id=14308, criteria=48852}),
+        Transmog({item=182191, slot=L["1h_mace"]}) -- Slobber-Soaked Chew Toy
+    },
+    pois={
+        POI({48125190})
+    }
+}) -- Deepscar
 
-nodes[45052842] = Rare({id=162669, quest=58835, rewards={
-    Achievement({id=14308, criteria=48855})
-}}) -- Devour'us
+nodes[45052842] = Rare({
+    id=162669,
+    quest=58835,
+    rewards={
+        Achievement({id=14308, criteria=48855})
+    }
+}) -- Devour'us
 
-nodes[31603540] = Rare({id=162741, quest=nil, rewards={
-    Achievement({id=14308, criteria=48871})
-}}) -- Gieger
+nodes[31603540] = Rare({
+    id=162741,
+    quest=nil,
+    rewards={
+        Achievement({id=14308, criteria=48871})
+    }
+}) -- Gieger
 
-nodes[57795155] = Rare({id=162588, quest=58837, rewards={
-    Achievement({id=14308, criteria=48853}),
-    Transmog({item=182196, slot=L["crossbow"]}) -- Arbalest of the Colossal Predator
-}, note=L["gristlebeak_note"]}) -- Gristlebeak
+nodes[57795155] = Rare({
+    id=162588,
+    quest=58837,
+    note=L["gristlebeak_note"],
+    rewards={
+        Achievement({id=14308, criteria=48853}),
+        Transmog({item=182196, slot=L["crossbow"]}) -- Arbalest of the Colossal Predator
+    }
+}) -- Gristlebeak
 
-nodes[38794333] = Rare({id=161105, quest=58332, rewards={
-    Achievement({id=14308, criteria=48848}),
-    Transmog({item=182192, slot=L["plate"]}) -- Knee-Obstructing Legguards
-}, note=L["schmitd_note"]}) -- Indomitable Schmitd
+nodes[38794333] = Rare({
+    id=161105,
+    quest=58332,
+    note=L["schmitd_note"],
+    rewards={
+        Achievement({id=14308, criteria=48848}),
+        Transmog({item=182192, slot=L["plate"]}) -- Knee-Obstructing Legguards
+    }
+}) -- Indomitable Schmitd
 
--- nodes[] = Rare({id=162759, quest=nil, rewards={
---     Achievement({id=14308, criteria=48856})
--- }}) -- Moregorger
+-- nodes[] = Rare({
+--     id=162759,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14308, criteria=48856})
+--     }
+-- }) -- Moregorger
 
-nodes[72872891] = Rare({id=174108, quest=62369, rewards={
-    Achievement({id=14308, criteria=49724})
-}}) -- Necromantic Anomaly
+nodes[72872891] = Rare({
+    id=174108,
+    quest=62369,
+    rewards={
+        Achievement({id=14308, criteria=49724})
+    }
+}) -- Necromantic Anomaly
 
-nodes[66023532] = Rare({id=162690, quest=58851, rewards={
-    Achievement({id=14308, criteria=49723})
-}}) -- Nerissa Heartless
+nodes[66023532] = Rare({
+    id=162690,
+    quest=58851,
+    rewards={
+        Achievement({id=14308, criteria=49723})
+    }
+}) -- Nerissa Heartless
 
-nodes[53726132] = Rare({id=162767, quest=58875, rewards={
-    Achievement({id=14308, criteria=48849}),
-    Transmog({item=182205, slot=L["mail"]}) -- Scarab-Shell Faceguard
-}}) -- Nirvaska the Summoner
+nodes[53726132] = Rare({
+    id=162767,
+    quest=58875,
+    rewards={
+        Achievement({id=14308, criteria=48849}),
+        Transmog({item=182205, slot=L["mail"]}) -- Scarab-Shell Faceguard
+    }
+}) -- Nirvaska the Summoner
 
-nodes[50346328] = Rare({id=161857, quest=58629, rewards={
-    Achievement({id=14308, criteria=48868})
-}}) -- Pesticide
+nodes[50346328] = Rare({
+    id=161857,
+    quest=58629,
+    rewards={
+        Achievement({id=14308, criteria=48868})
+    }
+}) -- Pesticide
 
-nodes[53841877] = Rare({id=159753, quest=58004, rewards={
-    Achievement({id=14308, criteria=48865})
-}}) -- Ravenomous
+nodes[53841877] = Rare({
+    id=159753,
+    quest=58004,
+    rewards={
+        Achievement({id=14308, criteria=48865})
+    }
+}) -- Ravenomous
 
--- nodes[] = Rare({id=168147, quest=nil, rewards={
---     Achievement({id=14308, criteria=48874})
--- }}) -- Sabreil the Bonecleaver
+-- nodes[] = Rare({
+--     id=168147,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14308, criteria=48874})
+--     }
+-- }) -- Sabreil the Bonecleaver
 
-nodes[62107580] = Rare({id=158406, quest=nil, rewards={
-    Achievement({id=14308, criteria=48857})
-}}) -- Scunner
+nodes[62107580] = Rare({
+    id=158406,
+    quest=nil,
+    rewards={
+        Achievement({id=14308, criteria=48857})
+    }
+}) -- Scunner
 
-nodes[55502361] = Rare({id=159886, quest=58003, rewards={
-    Achievement({id=14308, criteria=48873})
-}, note=L["chelicerae_note"]}) -- Sister Chelicerae
+nodes[55502361] = Rare({
+    id=159886,
+    quest=58003,
+    note=L["chelicerae_note"],
+    rewards={
+        Achievement({id=14308, criteria=48873})
+    }
+}) -- Sister Chelicerae
 
-nodes[42465345] = Rare({id=162528, quest=58768, rewards={
-    Achievement({id=14308, criteria=48869}),
-}}) -- Smorgas the Feaster
+nodes[42465345] = Rare({
+    id=162528,
+    quest=58768,
+    rewards={
+        Achievement({id=14308, criteria=48869}),
+    }
+}) -- Smorgas the Feaster
 
-nodes[44215132] = Rare({id=162586, quest=58783, rewards={
-    Achievement({id=14308, criteria=48850}),
-    Transmog({item=182190, slot=L["leather"]}) -- Tauralus Hide Collar
-}}) -- Tahonta
+nodes[44215132] = Rare({
+    id=162586,
+    quest=58783,
+    rewards={
+        Achievement({id=14308, criteria=48850}),
+        Transmog({item=182190, slot=L["leather"]}) -- Tauralus Hide Collar
+    }
+}) -- Tahonta
 
--- nodes[] = Rare({id=160059, quest=nil, rewards={
---     Achievement({id=14308, criteria=48867})
--- }}) -- Taskmaster Xox
+-- nodes[] = Rare({
+--     id=160059,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14308, criteria=48867})
+--     }
+-- }) -- Taskmaster Xox
 
--- nodes[] = Rare({id=162180, quest=nil, rewards={
---     Achievement({id=14308, criteria=48870})
--- }}) -- Thread Mistress Leeda
+-- nodes[] = Rare({
+--     id=162180,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14308, criteria=48870})
+--     }
+-- }) -- Thread Mistress Leeda
 
-nodes[33538086] = Rare({id=162819, quest=nil, rewards={
-    Achievement({id=14308, criteria=48875})
-}, note=L["malkorak_note"]}) -- Warbringer Mal'Korak
+nodes[33538086] = Rare({
+    id=162819,
+    quest=nil,
+    note=L["malkorak_note"],
+    rewards={
+        Achievement({id=14308, criteria=48875})
+    }
+}) -- Warbringer Mal'Korak
 
--- nodes[] = Rare({id=157125, quest=nil, rewards={
---     Achievement({id=14308, criteria=48864})
--- }}) -- Zargox the Reborn
+-- nodes[] = Rare({
+--     id=157125,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14308, criteria=48864})
+--     }
+-- }) -- Zargox the Reborn
 
 ------------------------- POOL OF MIXED MONSTROSITIES -------------------------
 
@@ -185,18 +286,21 @@ local MISCIBLE_OOZE = "|T646670:0|t"
 local MEPHITIC_GOO = "|T136007:0|t"
 local VISCOUS_OIL = "|T136124:0|t"
 
-local PoolsRare = Class('PoolsRare', Rare, { _rewards = {
-    Achievement({id=14721, criteria={
-        {id=48858, quest=61721, _note=MISCIBLE_OOZE..' > '..MEPHITIC_GOO..' '..VISCOUS_OIL}, -- Gelloh
-        {id=48863, quest=61719, _note=MEPHITIC_GOO..' > '..MISCIBLE_OOZE..' '..VISCOUS_OIL}, -- Corrupted Sediment
-        {id=48854, quest=61718, _note=VISCOUS_OIL..' > '..MISCIBLE_OOZE..' '..MEPHITIC_GOO}, -- Pulsing Leech
-        {id=48860, quest=61722, _note='('..MISCIBLE_OOZE..' = '..MEPHITIC_GOO..') > '..VISCOUS_OIL}, -- Boneslurp
-        {id=48862, quest=61723, _note='('..MISCIBLE_OOZE..' = '..VISCOUS_OIL..') > '..MEPHITIC_GOO}, -- Burnblister
-        {id=48861, quest=61720, _note='('..MEPHITIC_GOO..' = '..VISCOUS_OIL..') > '..MISCIBLE_OOZE}, -- Violet Mistake
-        {id=48859, quest=61724, _note=MISCIBLE_OOZE..' = '..MEPHITIC_GOO..' = '..VISCOUS_OIL}, -- Oily Invertebrate
-    }}),
-    Pet({item=181270, id=2960}) -- Decaying Oozewalker
-}, note=L["mixed_pool_note"] })
+local PoolsRare = Class('PoolsRare', Rare, {
+    note=L["mixed_pool_note"],
+    _rewards = {
+        Achievement({id=14721, criteria={
+            {id=48858, quest=61721, _note=MISCIBLE_OOZE..' > '..MEPHITIC_GOO..' '..VISCOUS_OIL}, -- Gelloh
+            {id=48863, quest=61719, _note=MEPHITIC_GOO..' > '..MISCIBLE_OOZE..' '..VISCOUS_OIL}, -- Corrupted Sediment
+            {id=48854, quest=61718, _note=VISCOUS_OIL..' > '..MISCIBLE_OOZE..' '..MEPHITIC_GOO}, -- Pulsing Leech
+            {id=48860, quest=61722, _note='('..MISCIBLE_OOZE..' = '..MEPHITIC_GOO..') > '..VISCOUS_OIL}, -- Boneslurp
+            {id=48862, quest=61723, _note='('..MISCIBLE_OOZE..' = '..VISCOUS_OIL..') > '..MEPHITIC_GOO}, -- Burnblister
+            {id=48861, quest=61720, _note='('..MEPHITIC_GOO..' = '..VISCOUS_OIL..') > '..MISCIBLE_OOZE}, -- Violet Mistake
+            {id=48859, quest=61724, _note=MISCIBLE_OOZE..' = '..MEPHITIC_GOO..' = '..VISCOUS_OIL}, -- Oily Invertebrate
+        }}),
+        Pet({item=181270, id=2960}) -- Decaying Oozewalker
+    }
+})
 
 local POOL_QUESTS = {}
 for i, criteria in ipairs(PoolsRare._rewards[1].criteria) do
@@ -231,65 +335,109 @@ nodes[58197421] = PoolsRare({id=157226, quest=POOL_QUESTS})
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-nodes[44083989] = Treasure({quest=60368, label=L["blackhound_cache"]}) -- Blackhound Cache
-nodes[38607810] = Treasure({label=L["bladesworn_supply_cache"]}) -- Bladesworn Supply Cache
+nodes[44083989] = Treasure({
+    quest=60368,
+    label=L["blackhound_cache"]
+}) -- Blackhound Cache
 
-nodes[49441509] = Treasure({quest=59244, rewards={
-    Achievement({id=14312, criteria=50070}),
-    Item({item=183696}) -- Sp-eye-glass
-}}) -- Chest of Eyes
+nodes[38607810] = Treasure({
+    label=L["bladesworn_supply_cache"]
+}) -- Bladesworn Supply Cache
 
-nodes[22503030] = Treasure({quest=nil, rewards={
-    Achievement({id=14312, criteria=50069})
-}}) -- Forgotten Mementos
+nodes[49441509] = Treasure({
+    quest=59244,
+    rewards={
+        Achievement({id=14312, criteria=50070}),
+        Item({item=183696}) -- Sp-eye-glass
+    }
+}) -- Chest of Eyes
 
-nodes[72895365] = Treasure({quest=61484, rewards={
-    Achievement({id=14312, criteria=50072})
-}, note=L["glutharns_note"]}) -- Glutharn's Stash
+nodes[22503030] = Treasure({
+    quest=nil,
+    rewards={
+        Achievement({id=14312, criteria=50069})
+    }
+}) -- Forgotten Mementos
 
-nodes[30792874] = Treasure({quest=60730, rewards={
-    Achievement({id=14312, criteria=50065})
-}}) -- Halis's Lunch Pail
+nodes[72895365] = Treasure({
+    quest=61484,
+    note=L["glutharns_note"],
+    rewards={
+        Achievement({id=14312, criteria=50072})
+    }
+}) -- Glutharn's Stash
 
-nodes[32742127] = Treasure({quest=60587, rewards={
-    Achievement({id=14312, criteria=50064}),
-    Item({item=180085}),
-    Item({item=175708, note=L["neck"]})
-}, note=L["kyrian_keepsake_note"]}) -- Kyrian Keepsake
+nodes[30792874] = Treasure({
+    quest=60730,
+    rewards={
+        Achievement({id=14312, criteria=50065})
+    }
+}) -- Halis's Lunch Pail
 
-nodes[57667581] = Treasure({quest=61474, rewards={
-    Achievement({id=14312, criteria=50074}),
-    Pet({item=183515, id=3045}) -- Reanimated Plague
-}, pois={
-    POI({62487656, scale=0.75})
-}, note=L["plaguefallen_chest_note"]}) -- Plaguefallen Chest
+nodes[32742127] = Treasure({
+    quest=60587,
+    note=L["kyrian_keepsake_note"],
+    rewards={
+        Achievement({id=14312, criteria=50064}),
+        Item({item=180085}),
+        Item({item=175708, note=L["neck"]})
+    }
+}) -- Kyrian Keepsake
 
-nodes[64672475] = Treasure({quest=nil, rewards={
-    Achievement({id=14312, criteria=50075})
-}}) -- Ritualist's Cache
+nodes[57667581] = Treasure({
+    quest=61474,
+    note=L["plaguefallen_chest_note"],
+    rewards={
+        Achievement({id=14312, criteria=50074}),
+        Pet({item=183515, id=3045}) -- Reanimated Plague
+    },
+    pois={
+        POI({62487656, scale=0.75})
+    }
+}) -- Plaguefallen Chest
 
-nodes[31737004] = Treasure({quest=nil, requires="{item:181777}", rewards={
-    Achievement({id=14312, criteria=50073})
-}}) -- Runespeaker's Trove
+nodes[64672475] = Treasure({
+    quest=nil,
+    rewards={
+        Achievement({id=14312, criteria=50075})
+    }
+}) -- Ritualist's Cache
 
-nodes[66145045] = Treasure({quest=61451, rewards={
-    Achievement({id=14312, criteria=50067}),
-    Item({item=182618, quest=62085}) -- ... Why Me?
-}, note=L["stolen_jar_note"]}) -- Stolen Jar
+nodes[31737004] = Treasure({
+    quest=nil,
+    requires="{item:181777}",
+    rewards={
+        Achievement({id=14312, criteria=50073})
+    }
+}) -- Runespeaker's Trove
 
-nodes[55893897] = Treasure({quest={59428,59429}, rewards={
-    --Item({item=182607}), -- Hairy Egg
-    Pet({item=182606, id=3013}) -- Bloodlouse Larva
-}, label='unit:Creature-0-0-0-0-165037', note=L["strange_growth_note"]}) -- Strange Growth
+nodes[66145045] = Treasure({
+    quest=61451,
+    note=L["stolen_jar_note"],
+    rewards={
+        Achievement({id=14312, criteria=50067}),
+        Item({item=182618, quest=62085}) -- ... Why Me?
+    }
+}) -- Stolen Jar
 
-nodes[59867906] = Treasure({quest=61444, rewards={
-    Achievement({id=14312, criteria=50066}),
-    Toy({item=181825}) -- Phial of Ravenous Slime
-}, note=L["vat_of_slime_note"]}) -- Vat of Conspicuous Slime
+nodes[55893897] = Treasure({
+    quest={59428,59429},
+    label='unit:Creature-0-0-0-0-165037',
+    note=L["strange_growth_note"],
+    rewards={
+        --Item({item=182607}), -- Hairy Egg
+        Pet({item=182606, id=3013}) -- Bloodlouse Larva
+    }
+}) -- Strange Growth
 
--- nodes[] = Treasure({quest=, rewards={
---     Achievement({id=14312, criteria=})
--- }}) --
+nodes[59867906] = Treasure({
+    quest=61444,
+    note=L["vat_of_slime_note"],
+    rewards={
+        Achievement({id=14312, criteria=50066}),
+        Toy({item=181825}) -- Phial of Ravenous Slime
+    }
+}) -- Vat of Conspicuous Slime
 
 -------------------------------------------------------------------------------
 ------------------------------- NINE AFTERLIVES -------------------------------
