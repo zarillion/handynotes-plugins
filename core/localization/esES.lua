@@ -43,6 +43,7 @@ L["trinket"] = "Abalorio"
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["activation_unknown"] = "¡Activación desconocida!"
 L["retrieving"] = "Recuperando el enlace del elemento ..."
 L["in_cave"] = "En una cueva."
 L["in_small_cave"] = "En una cueva pequeña."
