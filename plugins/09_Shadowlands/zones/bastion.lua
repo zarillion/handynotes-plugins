@@ -513,6 +513,7 @@ nodes[40504980] = Treasure({
 nodes[36012652] = Treasure({
     quest=nil,
     requires="{item:180858}",
+    note=L["requirement_not_found"],
     rewards={
         Achievement({id=14311, criteria=50057})
     }

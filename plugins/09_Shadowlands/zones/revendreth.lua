@@ -182,6 +182,7 @@ nodes[20485298] = Rare({
 nodes[45847919] = Rare({
     id=165290,
     quest=nil,
+    note=L["activation_unknown"],
     rewards={
         Achievement({id=14310, criteria=48813})
     }
@@ -354,6 +355,7 @@ nodes[29693723] = Treasure({
 
 nodes[79993697] = Treasure({
     quest=nil,
+    note=L["activation_unknown"],
     rewards={
         Achievement({id=14314, criteria=50079})
     }
