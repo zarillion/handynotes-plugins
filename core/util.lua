@@ -55,6 +55,7 @@ end
 function prepareLinks(str)
     if not str then return end
     for type, id in str:gmatch('{(%l+):(%d+)}') do
+        id = tonumber(id)
         -- NOTE: no prep apprears to be necessary for currencies
         if type == 'npc' then
             NameResolver:Prepare(("unit:Creature-0-0-0-0-%d"):format(id))
@@ -68,6 +69,7 @@ end
 
 function renderLinks(str, nameOnly)
     return str:gsub('{(%l+):(%d+)}', function (type, id)
+        id = tonumber(id)
         if type == 'npc' then
             local name = NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))
             if nameOnly then return name end

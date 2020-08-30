@@ -98,7 +98,7 @@ nodes[32592336] = Rare({
 nodes[51344080] = Rare({
     id=160629,
     quest=nil,
-    covenant=KYRIAN,
+    note=L["activation_unknown"],
     rewards={
         Achievement({id=14307, criteria=48828})
     }
@@ -117,9 +117,8 @@ nodes[48985031] = Rare({
 nodes[55358024] = Rare({
     id=161527,
     quest=nil,
-    covenant=KYRIAN,
     label=L["beasts_of_bastion"],
-    note=L["beasts_of_bastion_note"],
+    note=L["activation_unknown"],
     rewards={
         Achievement({id=14307, criteria={48825,48826,48827}}),
         Toy({item=174445}), -- Glimmerfly Cocoon
@@ -130,29 +129,45 @@ nodes[55358024] = Rare({
     }
 }) -- Beasts of Bastion
 
-nodes[57206370] = Rare({
+nodes[55826249] = Rare({
     id=171189,
-    quest=nil,
+    quest={59022,62167},
+    note=L["bookkeeper_mnemis_note"],
     rewards={
-        Achievement({id=14307, criteria=48843})
+        Achievement({id=14307, criteria=48843}),
+        Item({item=182682, note=L["trinket"]}) -- Book-Borrower Identification
     }
 }) -- Bookkeeper Mnemis
 
--- nodes[] = Rare({
---     id=170932,
---     quest=nil,
---     rewards={
---         Achievement({id=14307, criteria=48835})
---     }
--- }) -- Cloudfeather Patriarch
+nodes[50435804] = Rare({
+    id=170932,
+    quest={60978,62191},
+    note=L["cloudfeather_patriarch_note"],
+    rewards={
+        Achievement({id=14307, criteria=48835}),
+        Pet({item=180812, id=2925}) -- Golden Teroclaw
+    }
+}) -- Cloudfeather Patriarch
 
--- nodes[] = Rare({
---     id=171014,
---     quest=nil,
---     rewards={
---         Achievement({id=14307, criteria=48841})
---     }
--- }) -- Collector Astorestes
+nodes[66004367] = Rare({
+    id=171014,
+    quest=61002,
+    note=L["collector_astor_note"],
+    rewards={
+        Achievement({id=14307, criteria=48841})
+    },
+    pois={
+        POI({
+            -- 66194411, Mercia's Legacy: Chapter One
+            -- 65904411, Mercia's Legacy: Chapter Two
+            -- 65734396, Mercia's Legacy: Chapter Three
+            -- 65734345, Mercia's Legacy: Chapter Four
+            -- 65934316, Mercia's Legacy: Chapter Five
+            -- 66204327, Mercia's Legacy: Chapter Six
+            64174218 -- Mercia's Legacy: Chapter Seven
+        })
+    }
+}) -- Collector Astorestes
 
 nodes[56904778] = Rare({
     id=171010,
@@ -221,13 +236,20 @@ nodes[48004290] = Rare({
     }
 }) -- Embodied Hunger
 
--- nodes[] = Rare({
---     id=171009,
---     quest=nil,
---     rewards={
---         Achievement({id=14307, criteria=48836})
---     }
--- }) -- Enforcer Aegeon
+nodes[51151953] = Rare({
+    id=171009,
+    quest=60998,
+    rewards={
+        Achievement({id=14307, criteria=48836})
+    },
+    pois={
+        Path({
+            51151953, 50761914, 50681837, 50731769, 50931703, 51351673,
+            51881686, 52251724, 52451799, 52351868, 52051918, 51651962,
+            51151953
+        })
+    }
+}) -- Enforcer Aegeon
 
 nodes[60427305] = Rare({
     id=160721,
@@ -261,11 +283,16 @@ nodes[51456859] = Rare({
     }
 }) -- Nikara Blackheart
 
-nodes[30365517] = Rare({id=171327, quest=nil}) -- Reekmonger
+nodes[30365517] = Rare({
+    id=171327,
+    quest=nil,
+    note=L["activation_unknown"]
+}) -- Reekmonger
 
 nodes[61409050] = Rare({
     id=170548,
     quest=nil,
+    note=L["activation_unknown"],
     rewards={
         Achievement({id=14307, criteria=48832})
     },
@@ -278,19 +305,19 @@ nodes[61409050] = Rare({
     }
 }) -- Sundancer
 
--- nodes[] = Rare({
---     id=171008,
---     quest=nil,
---     rewards={
---         Achievement({id=14307, criteria=48837})
---     }
--- }) -- Unstable Memory
+nodes[43482524] = Rare({
+    id=171008,
+    quest=60997,
+    note=L["unstable_memory_note"],
+    rewards={
+        Achievement({id=14307, criteria=48837})
+    }
+}) -- Unstable Memory
 
 nodes[40705290] = Rare({
     id=167078,
     quest=nil,
-    covenant=KYRIAN,
-    note=L["wingflayer_note"],
+    note=L["activation_unknown"],
     rewards={
         Achievement({id=14307, criteria=48829}),
         Item({item=182749}) -- Regurgitated Kyrian Wings
@@ -308,7 +335,7 @@ nodes[48004290] = Rare({
         Transmog({item=183605, slot=L["warglaive"]}) -- Devourer Wrought Warglaive
     },
     pois={
-        POI({48004290, 56111447})
+        POI({48004290, 52013263, 56111447})
     }
 }) -- Worldfeaster Chronn
 
@@ -387,10 +414,19 @@ nodes[70473645] = Treasure({
 }) -- Gift of Chyrus
 
 nodes[27602179] = Treasure({
-    quest=nil,
+    quest=60895,
     requires="{spell:333070}",
+    note=L["gift_of_devos"],
     rewards={
-        Achievement({id=14311, criteria=50062})
+        Achievement({id=14311, criteria=50062}),
+        Item({item=179977}) -- Benevolent Gong
+    },
+    pois={
+        Path({
+            23932482, 24712512, 25232402, 25832329, 25792226, 25192140,
+            25732097, 26552137, 27122130, 27102031, 27452003, 27702102,
+            27602179
+        }) -- Suggested path
     }
 }) -- Gift of Devos
 
@@ -496,6 +532,7 @@ nodes[58667135] = Treasure({
 
 -- 61048566 61244
 -- 54025967 61251
+-- 65254288 61271
 -- 31002747 61291
 -- 30612373 61292
 -- 26152262 61294

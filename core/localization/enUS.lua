@@ -39,6 +39,7 @@ L["trinket"] = "Trinket"
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["activation_unknown"] = "Activation unknown!"
 L["retrieving"] = "Retrieving item link ..."
 L["in_cave"] = "In a cave."
 L["in_small_cave"] = "In a small cave."

@@ -86,7 +86,8 @@ options.carriageRevendreth = {
 
 nodes[25304850] = Rare({
     id=164388,
-    quest=nil,
+    quest=59584,
+    note=L["amalgamation_of_light_note"],
     rewards={
         Achievement({id=14310, criteria=48811})
     }
@@ -112,10 +113,11 @@ nodes[35817052] = Rare({
 nodes[35003230] = Rare({
     id=166292,
     quest=nil,
+    note=L["bog_beast_note"],
     rewards={
         Achievement({id=14310, criteria=48818})
     }
-}) -- Bog Beast (World Quest required)
+}) -- Bog Beast
 
 nodes[66555946] = Rare({
     id=165206,
@@ -138,13 +140,17 @@ nodes[37084742] = Rare({
     }
 }) -- Executioner Aatron
 
--- nodes[] = Rare({
---     id=161310,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=48807})
---     }
--- }) -- Executioner Adrastia
+nodes[43055183] = Rare({
+    id=161310,
+    quest=58441,
+    rewards={
+        Achievement({id=14310, criteria=48807}),
+        Transmog({item=180502, slot=L["leather"]}) -- Adrastia's Executioner Gloves
+    },
+    pois={
+        Path({43055183, 41525104, 41264940, 42734893, 44135004, 44435182, 43055183})
+    }
+}) -- Executioner Adrastia
 
 nodes[62484716] = Rare({
     id=166521,
@@ -164,25 +170,26 @@ nodes[62484716] = Rare({
 --     }
 -- }) -- Forgemaster Madalav
 
-nodes[20905440] = Rare({
+nodes[20485298] = Rare({
     id=167464,
-    quest=nil,
+    quest=60173,
+    note=L["grand_arcanist_dimitri_note"],
     rewards={
         Achievement({id=14310, criteria=48821})
     }
 }) -- Grand Arcanist Dimitri
 
--- nodes[] = Rare({
---     id=165290,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=48813})
---     }
--- }) -- Harika the Horrid
+nodes[45847919] = Rare({
+    id=165290,
+    quest=nil,
+    rewards={
+        Achievement({id=14310, criteria=48813})
+    }
+}) -- Harika the Horrid
 
 nodes[51985179] = Rare({
     id=166679,
-    quest=nil,
+    quest=59900,
     rewards={
         Achievement({id=14310, criteria=48817})
     }
@@ -201,6 +208,8 @@ nodes[61717949] = Rare({
 nodes[21803590] = Rare({
     id=160640,
     quest=nil,
+    requires="{item:177223}",
+    note=L["innervus_note"],
     rewards={
         Achievement({id=14310, criteria=48801})
     }
@@ -218,16 +227,18 @@ nodes[67978179] = Rare({
 
 nodes[75976161] = Rare({
     id=161891,
-    quest=nil,
+    quest=58633,
     note=L["lord_mortegore_note"],
     rewards={
-        Achievement({id=14310, criteria=48808})
+        Achievement({id=14310, criteria=48808}),
+        Transmog({item=180501, slot=L["mail"]}) -- Skull-Formed Headcage
     }
 }) -- Lord Mortegore
 
 nodes[49003490] = Rare({
     id=170048,
     quest=nil,
+    note=L["manifestation_of_wrath_note"],
     rewards={
         Achievement({id=14310, criteria=48822})
     }
@@ -254,13 +265,13 @@ nodes[67443048] = Rare({
     }
 }) -- Sinstone Hoarder
 
--- nodes[] = Rare({
---     id=160857,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=48806})
---     }
--- }) -- Sire Ladinas
+nodes[33605540] = Rare({
+    id=160857,
+    quest=nil,
+    rewards={
+        Achievement({id=14310, criteria=48806})
+    }
+}) -- Sire Ladinas
 
 nodes[78934975] = Rare({
     id=160385,
@@ -274,9 +285,10 @@ nodes[78934975] = Rare({
 
 nodes[31312324] = Rare({
     id=159503,
-    quest=nil,
+    quest=62220,
     rewards={
-        Achievement({id=14310, criteria=48803})
+        Achievement({id=14310, criteria=48803}),
+        Transmog({item=180488, slot=L["plate"]}) -- Fist-Forged Breastplate
     }
 }) -- Stonefist
 
@@ -291,19 +303,21 @@ nodes[66507080] = Rare({
 
 nodes[43007910] = Rare({
     id=155779,
-    quest=nil,
+    quest=56877,
+    note=L["tomb_burster_note"],
     rewards={
-        Achievement({id=14310, criteria=48802})
+        Achievement({id=14310, criteria=48802}),
+        Item({item=179613}) -- Extra Sticky Spidey Webs
     }
 }) -- Tomb Burster
 
--- nodes[] = Rare({
---     id=160821,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=48805})
---     }
--- }) -- Worldedge Gorger
+nodes[38607200] = Rare({
+    id=160821,
+    quest=nil,
+    rewards={
+        Achievement({id=14310, criteria=48805})
+    }
+}) -- Worldedge Gorger
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -329,6 +343,15 @@ nodes[37726925] = Treasure({
     }
 }) -- Lost Quill
 
+nodes[29693723] = Treasure({
+    quest=62198,
+    requires="{currency:1820} x30",
+    rewards={
+        Achievement({id=14314, criteria=50081}),
+        Toy({item=182780}) -- Muckpool Cookpot
+    }
+}) -- Makeshift Muckpool
+
 nodes[79993697] = Treasure({
     quest=nil,
     rewards={
@@ -336,13 +359,21 @@ nodes[79993697] = Treasure({
     }
 }) -- Rapier of the Fearless
 
+nodes[47335536] = Treasure({
+    quest=62243,
+    note=L["secret_chamber_note"],
+    rewards={
+        Achievement({id=14314, criteria=50084})
+    }
+}) -- Secret Chamber
+
 nodes[38394424] = Treasure({
     quest=61999,
     rewards={
         Achievement({id=14314, criteria=50077}),
         Toy({item=182694}) -- Stylish Black Parasol
     }
-}) --Stylish Parasol
+}) -- Stylish Parasol
 
 nodes[63367398] = Treasure({
     quest=62199,
@@ -373,14 +404,23 @@ nodes[70176005] = Treasure({
 
 -------------------------------------------------------------------------------
 
-nodes[30342472] = Treasure({
-    quest=60665,
-    label=L["bleakwood_chest"],
+nodes[51855954] = Treasure({
+    quest=59888,
+    label=L["abandoned_curios"],
     rewards={
-        Transmog({item=182720, slot=L["mail"]}), -- Mail Courier's Tunic
-        Transmog({item=180398, slot=L["polearm"]}) -- Stonewrought Legion Halberd
+        Item({item=182744}) -- Ornate Belt Buckle
     }
-}) -- Bleakwood Chest
+}) -- Abandoned Curios
+
+-- Not at this location for me -Zar
+-- nodes[30342472] = Treasure({
+--     quest=60665,
+--     label=L["bleakwood_chest"],
+--     rewards={
+--         Transmog({item=182720, slot=L["mail"]}), -- Mail Courier's Tunic
+--         Transmog({item=180398, slot=L["polearm"]}) -- Stonewrought Legion Halberd
+--     }
+-- }) -- Bleakwood Chest
 
 nodes[69327795] = Treasure({
     quest=59833,
@@ -397,6 +437,11 @@ nodes[64187265] = Treasure({
         Item({item=179392}) -- Orb of Burgeoning Ambition
     }
 }) -- Filcher's Prize
+
+nodes[46395817] = Treasure({
+    quest=59886,
+    label=L["fleeing_soul_bundle"],
+}) -- Fleeing Soul's Bundle
 
 nodes[75465542] = Treasure({
     quest=59887,
@@ -415,6 +460,14 @@ nodes[61525864] = Treasure({
     label=L["remlates_cache"],
     note=L["remlates_cache_note"]
 }) -- Remlate's Hidden Cache
+
+nodes[31055506] = Treasure({
+    quest=59889,
+    label=L["smuggled_cache"],
+    rewards={
+        Item({item=182738, quest=62189}) -- Bundle of Smuggled Parasol Components
+    }
+}) -- Smuggled Cache
 
 nodes[68446445] = Treasure({
     quest=59884,

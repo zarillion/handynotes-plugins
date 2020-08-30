@@ -75,7 +75,7 @@ options.kittenMaldraxxus = {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-nodes[52663542] = Rare({id=162727, quest=nil, rewards={
+nodes[52663542] = Rare({id=162727, quest=58870, rewards={
     Achievement({id=14308, criteria=48876})
 }}) -- Bubbleblood
 
@@ -83,7 +83,7 @@ nodes[49012351] = Rare({id=159105, quest=58005, rewards={
     Achievement({id=14308, criteria=48866})
 }}) -- Collector Kash
 
-nodes[26392633] = Rare({id=157058, quest=nil, rewards={
+nodes[26392633] = Rare({id=157058, quest=58335, rewards={
     Achievement({id=14308, criteria=48872})
 }}) -- Corpsecutter (Bonebreaker) Moroc
 

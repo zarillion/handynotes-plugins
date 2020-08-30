@@ -123,9 +123,16 @@ nodes[27885248] = Rare({id=164107, quest=59145, rewards={
     Mount({item=180725, id=1362}) -- Spinemaw Gladechewer
 }}) -- Gormtamer Tizo
 
--- nodes[] = Rare({id=16412, quest=nil, rewards={
---     Achievement({id=14309, criteria=48742})
--- }}) -- Humon'gozz
+nodes[32423026] = Rare({
+    id=164112,
+    quest=59157,
+    requires="{item:175247}",
+    note=L["humongozz_note"],
+    rewards={
+        Achievement({id=14309, criteria=48782}),
+        Mount({item=182650, id=1415}) -- Arboreal Gulper
+    }
+}) -- Humon'gozz
 
 nodes[67465147] = Rare({id=160448, quest=59221, rewards={
     Achievement({id=14309, criteria=48787}),
@@ -246,14 +253,14 @@ nodes[41254443] = StarLake({id=171743, label=L["star_lake"], quest=nil})
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- nodes[] = Treasure({quest=, rewards={
---     Achievement({id=14313, criteria=})
--- }, note=L[""]}) --
-
 nodes[56002101] = Treasure({quest=61072, rewards={
     Achievement({id=14313, criteria=50031}),
     Pet({item=180630, id=2921}) -- Gorm Harrier
 }}) -- Aerto's Body
+
+-- nodes[] = Treasure({quest=, rewards={
+--     Achievement({id=14313, criteria=50039})
+-- }}) -- Cache of the Moon
 
 nodes[36236527] = Treasure({quest=nil, rewards={
     Achievement({id=14313, criteria=50044})
@@ -266,10 +273,12 @@ nodes[37646159] = Treasure({quest=61068, rewards={
     POI({36196520, scale=0.75})
 }, note=L["darkreach_supplies"]}) -- Darkreach Supplies
 
-nodes[41953253] = Treasure({quest=nil, rewards={
-    Achievement({id=14313, criteria=50040})
+nodes[41953253] = Treasure({quest=61147, rewards={
+    Achievement({id=14313, criteria=50040}),
+    Pet({item=180640, id=2911}) -- Amber Glitterwing
 }, pois={
-    POI({41413161, scale=0.5})
+    POI({41413161, scale=0.5}), -- Bounding Shroom
+    POI({31763247, scale=0.5}) -- Aromatic Flowers
 }, note=L["desiccated_moth"]}) -- Desiccated Moth
 
 nodes[37683688] = Treasure({quest=61070, rewards={
@@ -278,6 +287,21 @@ nodes[37683688] = Treasure({quest=61070, rewards={
 }, pois={
     POI({43592290}) -- Bounding Shroom
 }, note=L["dreamsong_heart"]}) -- Dreamsong Heart
+
+nodes[44827587] = Treasure({
+    quest=61175,
+    note=L["elusive_faerie_cache"],
+    rewards={
+        Achievement({id=14313, criteria=50043}),
+        Transmog({item=179512, slot=L["1h_sword"]}) -- Dreamsong Saber
+    },
+    pois={
+        Path({
+            44827587, 44477530, 44417436, 44647334, 44877246, 45057161,
+            45417087, 45837033, 46497011
+        }) -- to Faerie Lamp
+    }
+}) -- Elusive Faerie Cache
 
 nodes[36422506] = Treasure({quest=62259, rewards={
     Achievement({id=14313, criteria=50042}),

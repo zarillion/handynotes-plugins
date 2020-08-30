@@ -16,6 +16,7 @@ L["covenant_required"] = "Requires a member of the %s."
 
 L["deifir_note"] = "Ride the rare around in a circle and use {spell:319566} and {spell:319575} to slow and stun him."
 L["faeflayer_note"] = "In a small cave hidden behind a waterfall."
+L["humongozz_note"] = "Plant an {item:175247} in the Damp Loam to spawn a {npc:164122}. After a minute of {spell:319367}, the rare will spawn. The mushroom drops from numerous mobs in the zone."
 L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
 L["rootwrithe_note"] = "Poke the {npc:167928}s until the rare appears."
 L["rotbriar_note"] = "Talk to {npc:171684} nearby to summon the rare after some dialog."
@@ -29,6 +30,7 @@ L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one o
 
 L["desiccated_moth"] = "Jump on the {npc:169997} northwest of the tree to float onto a branch. Burn {item:180784} in the Incense Burner to collect the treasure."
 L["dreamsong_heart"] = "Use the {npc:169997} far to the northeast to get launched into the tree."
+L["elusive_faerie_cache"] = "Pick up the {spell:333923} in the northeast corner of Eventide Grove and use it to loot the chest."
 L["enchanted_dreamcatcher"] = "Hanging from the top of the roots. Easiest to jump up on the west side."
 L["faerie_trove"] = "Located underneath the platform."
 L["harmonic_chest"] = "Requires two people. One person plays the harp and the other plays the drum to unlock the chest."
@@ -43,7 +45,10 @@ L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to activate him."
 L["basilofos_note"] = "Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn."
 L["beasts_of_bastion"] = "Beasts of Bastion"
-L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."
+--L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."
+L["bookkeeper_mnemis_note"] = "Has a chance to spawn in place of the {npc:16687} units in the area."
+L["cloudfeather_patriarch_note"] = "Kill {npc:158110} in the area until the rare emotes and spawns."
+L["collector_astor_note"] = "Read all six chapters of Mercia's Legacy scattered around the room, after which you will receive a whisper from {npc:157979}. Talk to her to receive {spell:333779}, allowing you to find the hidden {item:180569} to the northwest. Returning the chapter will spawn the rare."
 L["corrupted_clawguard_note"] = "Loot a {item:180651} in Forgefire Outpost up the hill and use it to repair the {npc:171300}."
 L["dark_watcher_note"] = "Can only be seen while dead. Talk to her and she will cast {spell:332830} on you before attacking."
 L["demi_hoarder_note"] = "Starts with 99 stacks of {spell:333874}, reducing damage taken. Stacks are slowly removed with damage. The rare will follow a path and despawn if it reaches the end."
@@ -54,7 +59,8 @@ Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}
 Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside.
 ]]
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
-L["wingflayer_note"] = "To summon, click the horn on the nearby table (southeast, up the stairs)."
+L["unstable_memory_note"] = "Can be spawned when {npc:171018}s are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
+--L["wingflayer_note"] = "To summon, click the horn on the nearby table (southeast, up the stairs)."
 
 L["broken_flute"] = "Kill nearby {npc:170009} until they drop the {item:180536}, then use the tools to repair it."
 L["experimental_construct_part"] = "Loot a nearby {item:180534} and use it to repair the part. The anima has multiple spawn locations."
@@ -64,6 +70,11 @@ L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them o
 
 L["gift_of_agthia"] = "Click the lit torch near the broken bridge to the northwest and carry {spell:333320} from torch to torch until you reach the chest. Lighting the final torch will grant you {spell:333063}."
 L["gift_of_chyrus"] = "Kneel in front of the chest to be granted {spell:333045}."
+L["gift_of_devos"] = [[
+Southwest of the chest is a torch where you can pick up the {spell:333912}. Mounting, entering combat or taking damage will drop the flame. You must make your way back to the chest and place the flame in the Brazier of Devotion to be granted {spell:333070}.
+
+Before picking up the flame, clear all mobs in front of the chest. While running the flame, click any {npc:156571} along the way for a {spell:335012} debuff that increases movement speed.
+]]
 L["gift_of_thenios"] = [[
 Behind the chest is a flight pad called "Path of Wisdom". This leads to a sequence of platforms with different incenses you can commune with:
 
@@ -123,28 +134,38 @@ L["options_toggle_kittens_desc"] = "Display locations of kittens for the Nine Af
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
+L["amalgamation_of_light_note"] = "Move all three mirror traps to release the rare."
+L["bog_beast_note"] = "Has a chance to spawn during the world quest \"Muck It Up\" after using {item:177880} on a {npc:166206}."
 L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."
 L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."
 L["famu_note"] = "Talk to {npc:166483} to trigger the event."
+L["grand_arcanist_dimitri_note"] = "Kill the four {npc:167467} to release the rare."
+L["innervus_note"] = "Kill nearby {npc:160375} to obtain a {item:177223} and unlock the crypt."
 L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
 L["lord_mortegore_note"] = "Kill surrounding mobs to obtain {item:174378} and use it to empower a {npc:161870}. The rare will spawn once all four sigils are empowered."
+L["manifestation_of_wrath_note"] = "Has a chance to spawn when a {npc:169916} is recovered during the \"Swarming Souls\" world quest."
 L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
 L["sinstone_hoarder_note"] = "Appears on the minimap as a treasure chest. Attempt to loot the {npc:162503} and the rare will reveal itself."
 L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
+L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769}s and waves of {npc:155795}s until the rare spawns."
 
 L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
+L["secret_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
 L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
 
+L["abandoned_curios"] = "Abandoned Curios"
 L["bleakwood_chest"] = "Bleakwood Chest"
 L["chest_of_envious_dreams"] = "Chest of Envious Dreams"
 L["filchers_prize"] = "Filcher's Prize"
+L["fleeing_soul_bundle"] = "Fleeing Soul's Bundle"
 L["gilded_plum_chest"] = "Gilded Plum Chest"
 L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
 L["remlates_cache"] = "Remlate's Hidden Cache"
 L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
+L["smuggled_cache"] = "Smuggled Cache"
 L["wayfairer_spoils"] = "Wayfairer's Abandoned Spoils"
 
 L["options_toggle_carriages"] = "Carriages"
