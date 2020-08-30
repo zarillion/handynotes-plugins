@@ -55,6 +55,7 @@ end
 function prepareLinks(str)
     if not str then return end
     for type, id in str:gmatch('{(%l+):(%d+)}') do
+        -- NOTE: no prep apprears to be necessary for currencies
         if type == 'npc' then
             NameResolver:Prepare(("unit:Creature-0-0-0-0-%d"):format(id))
         elseif type == 'item' then
@@ -65,24 +66,31 @@ function prepareLinks(str)
     end
 end
 
-function renderLinks(str, textOnly)
+function renderLinks(str, nameOnly)
     return str:gsub('{(%l+):(%d+)}', function (type, id)
         if type == 'npc' then
             local name = NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))
-            if textOnly then return name end
+            if nameOnly then return name end
             return ns.color.NPC(name)
-        end
-        if type == 'item' then
+        elseif type == 'currency' then
+            local info = C_CurrencyInfo.GetCurrencyInfo(id)
+            if info then
+                if nameOnly then return info.name end
+                local link = C_CurrencyInfo.GetCurrencyLink(id, 0)
+                if link then
+                    return '|T'..info.iconFileID..':0:0:1:-1|t '..link
+                end
+            end
+        elseif type == 'item' then
             local name, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
             if link and icon then
-                if textOnly then return name end
+                if nameOnly then return name end
                 return '|T'..icon..':0:0:1:-1|t '..link
             end
-        end
-        if type == 'spell' then
+        elseif type == 'spell' then
             local name, _, icon = GetSpellInfo(id)
             if name and icon then
-                if textOnly then return name end
+                if nameOnly then return name end
                 local spell = ns.color.Spell('|Hspell:'..id..'|h['..name..']|h')
                 return '|T'..icon..':0:0:1:-1|t '..spell
             end

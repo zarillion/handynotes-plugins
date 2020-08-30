@@ -133,6 +133,7 @@ nodes[37084742] = Rare({
     note=L["executioner_aatron_note"],
     rewards={
         Achievement({id=14310, criteria=48819}),
+        Item({item=180696}), -- Legion Wing Insignia
         Transmog({item=183737, slot=L["plate"]}) -- Aatron's Stone Girdle
     }
 }) -- Executioner Aatron
@@ -187,13 +188,15 @@ nodes[51985179] = Rare({
     }
 }) -- Hopecrusher
 
--- nodes[] = Rare({
---     id=166993,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=48820})
---     }
--- }) -- Huntmaster Petrus
+nodes[61717949] = Rare({
+    id=166993,
+    quest=60022,
+    rewards={
+        Achievement({id=14310, criteria=48820}),
+        Item({item=180705}), -- Gargon Training Manual
+        Item({item=180704}) -- Infused Pet Biscuit
+    }
+}) -- Huntmaster Petrus
 
 nodes[21803590] = Rare({
     id=160640,
@@ -240,13 +243,16 @@ nodes[38316914] = Rare({
     }
 }) -- Scrivener Lenua
 
--- nodes[] = Rare({
---     id=162481,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=50030})
---     }
--- }) -- Sinstone Hoarder
+nodes[67443048] = Rare({
+    id=162481,
+    quest=62252,
+    note=L["sinstone_hoarder_note"],
+    rewards={
+        Achievement({id=14310, criteria=50030}),
+        Item({item=180677}), -- Discarded Medal of Valor
+        Transmog({item=183732, slot=L["mail"]}) -- Sinstone-Linked Greaves
+    }
+}) -- Sinstone Hoarder
 
 -- nodes[] = Rare({
 --     id=160857,
@@ -276,7 +282,7 @@ nodes[31312324] = Rare({
 
 nodes[66507080] = Rare({
     id=165253,
-    quest={59595,60583},
+    quest=59595,
     rewards={
         Achievement({id=14310, criteria=48812}),
         Item({item=179363, quest=60517}) -- The Toll of the Road
@@ -311,6 +317,7 @@ nodes[43007910] = Rare({
 -- }) --
 
 -- Stoneguard Satchel (76226410) (60896,60939)
+-- Reliquary of Remembrance (79763376) (item=180403)
 -- Unimplemented treasure? (50244910)
 
 nodes[37726925] = Treasure({
@@ -322,6 +329,13 @@ nodes[37726925] = Treasure({
     }
 }) -- Lost Quill
 
+nodes[79993697] = Treasure({
+    quest=nil,
+    rewards={
+        Achievement({id=14314, criteria=50079})
+    }
+}) -- Rapier of the Fearless
+
 nodes[38394424] = Treasure({
     quest=61999,
     rewards={
@@ -330,10 +344,21 @@ nodes[38394424] = Treasure({
     }
 }) --Stylish Parasol
 
+nodes[63367398] = Treasure({
+    quest=62199,
+    note=L["taskmaster_trove_note"],
+    rewards={
+        Achievement({id=14314, criteria=50082})
+    }
+}) -- Taskmaster's Trove
+
 nodes[57374337] = Treasure({
     quest=nil,
+    requires="{currency:1820} x99",
+    note=L["the_count_note"],
     rewards={
-        Achievement({id=14314, criteria=50078})
+        Achievement({id=14314, criteria=50078}),
+        Pet({item=182612, id=3009}) -- The Count's Pendant
     }
 }) -- The Count
 
@@ -365,6 +390,14 @@ nodes[69327795] = Treasure({
     }
 }) -- Chest of Envious Dreams
 
+nodes[64187265] = Treasure({
+    quest=59883,
+    label=L["filchers_prize"],
+    rewards={
+        Item({item=179392}) -- Orb of Burgeoning Ambition
+    }
+}) -- Filcher's Prize
+
 nodes[75465542] = Treasure({
     quest=59887,
     label=L["gilded_plum_chest"],
@@ -376,6 +409,12 @@ nodes[75465542] = Treasure({
         Path({74625754, 75095665, 75465542, 76015458, 76455372})
     }
 }) -- Gilded Plum Chest
+
+nodes[61525864] = Treasure({
+    quest=59885,
+    label=L["remlates_cache"],
+    note=L["remlates_cache_note"]
+}) -- Remlate's Hidden Cache
 
 nodes[68446445] = Treasure({
     quest=59884,
