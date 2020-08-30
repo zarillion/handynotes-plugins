@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
-
+local L = ns.locale
 local Class = ns.Class
 local isinstance = ns.isinstance
 
@@ -99,12 +99,20 @@ function Node:prepare ()
 end
 
 function Node:render(tooltip)
-    -- render the label text and optional top-right text
+    -- render the label text with NPC names resolved
     tooltip:SetText(ns.NameResolver:Resolve(self.label))
-    if self.rlabel then
+
+    local rlabel = self.rlabel
+    if not rlabel and self.pois then
+        -- add an rlabel hint to use left-mouse to focus the node
+        rlabel = ns.icons.left_mouse:link(12)..ns.status.Gray(L["focus"])
+    end
+
+    -- render top-right label text
+    if rlabel then
         local rtext = _G[tooltip:GetName()..'TextRight1']
         rtext:SetTextColor(1, 1, 1)
-        rtext:SetText(self.rlabel)
+        rtext:SetText(rlabel)
         rtext:Show()
     end
 

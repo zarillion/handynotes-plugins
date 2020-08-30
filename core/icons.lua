@@ -50,6 +50,8 @@ ns.icons = {
 
     envelope = { icon=ICONS, coords=coords(0, 8) },
     horseshoe = { icon=ICONS, coords=coords(0, 9) },
+    anima_crystal = { icon=ICONS, coords=coords(1, 9) },
+    left_mouse = { icon=ICONS, coords=coords(2, 9) },
     orange_crystal = { icon=ICONS, coords=coords(2, 6) },
 
     door_down = { icon=ICONS, coords=coords(2, 0) },

@@ -380,7 +380,7 @@ nodes[37646159] = Treasure({
         Transmog({item=179594, slot=L["leather"]}) -- Witherscorn Guise
     },
     pois={
-        POI({36196520, scale=0.75})
+        Path({37646159, 37166279, 36686399, 36196520})
     }
 }) -- Darkreach Supplies
 
