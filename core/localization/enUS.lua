@@ -42,6 +42,7 @@ L["trinket"] = "Trinket"
 L["activation_unknown"] = "Activation unknown!"
 L["requirement_not_found"] = "Requirement location unknown!"
 
+L["Requires"] = "Requires"
 L["focus"] = "Focus"
 L["retrieving"] = "Retrieving item link ..."
 L["in_cave"] = "In a cave."

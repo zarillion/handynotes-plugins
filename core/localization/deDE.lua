@@ -1,7 +1,7 @@
 local ADDON_NAME, _ = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "deDE", false, true)
 if not L then return end
-
+--German translation by Dathwada EU-Eredar
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
 -------------------------------------------------------------------------------
@@ -39,6 +39,11 @@ L["trinket"] = "Schmuck"
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["activation_unknown"] = "Activation unknown!"
+L["requirement_not_found"] = "Requirement location unknown!"
+
+L["Requires"] = "Benötigt"
+L["focus"] = "Focus"
 L["retrieving"] = "Gegenstandslink wird abgerufen ..."
 L["in_cave"] = "In einer Höhle."
 L["in_small_cave"] = "In einer kleinen Höhle."

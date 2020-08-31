@@ -14,6 +14,7 @@ core\localization\locales.xml
 localization\enUS.lua
 localization\ruRU.lua
 localization\zhTW.lua
+localization\deDE.lua
 
 core\class.lua
 core\core.lua
