@@ -18,13 +18,16 @@ L["covenant_required"] = "Requiere ser miembro de la curia %s."
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
 
-L["deifir_note"] = "Monta el raro que da vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo y aturdirlo."
+L["deifir_note"] = "Monta {npc=164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente."
 L["faeflayer_note"] = "En una cueva pequeña escondida tras una cascada."
-L["humongozz_note"] = "Planta una {item:175247} en la Tierra Húmeda para hacer aparecer a {npc:164122}. Tras un minuto de {spell:319367}, aparecerá el raro. La seta cae de muchos enemigos de la zona."--[Revisar que Damp LOam sea Tierra Húmeda]--
-L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. En una cueva (entrada al sureste en las Madrigueras Polvorientas Dusty Burrows)."--[Revisar que Dusty Burrows sea Madrigueras Polvorientas y traducir el resto]--
-L["rootwrithe_note"] = "Empuja a las {npc:167928} hasta que aparezca el raro."
-L["rotbriar_note"] = "Habla con los {npc:171684} cercanos para invocar el raro después de algo de diálogo."
-L["slumbering_note"] = "Correr hacia la niebla te aturdirá y te alejará. Usa una bengala o una mascota con daño en área para sacarlo fuera de la niebla."
-L["skuld_vit_note"] = "En una cueva bloqueada por una barrera. Una Hada de la Noche debe usar {spell:310143} para entrar en la cueva. Una vez haya sido puleado el raro, la barrera desaparecerá."--[Revisar que Night Fae sea Hada de la Noche]--
-L["valfir_note"] = "Click the Sparkling Animaseed a mitad de camino y usar {spell:338045} para quitar su {spell:338038} buff."--[[Revisar the Sparkling Animassed]]--
-L["wrigglemortis_note"] = "Pullea el {npc:164179} para hacer aparecer el raro."
+L["humongozz_note"] = "Planta una {item:175247} en la Tierra Húmeda para hacer aparecer {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. La seta cae de muchos enemigos de la zona."--[Revisar que Damp Loam sea Tierra Húmeda]--
+L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca {npc:167851}. En una cueva (entrada al sureste en las Madrigueras Polvorientas Dusty Burrows(58.5 31.9))."--[Revisar que Dusty Burrows sea Madrigueras Polvorientas y Revisar que Quivering Gorm Eggs sean Huevos de Gorm Temblorosos]--
+L["rootwrithe_note"] = "Empuja a las {npc:167928} hasta que aparezca {npc=167726}."
+L["rotbriar_note"] = "Habla con {npc:171684} y comenzará a cantar. Tras algo de diálogo, aparecerá {npc:167724} cerca."
+L["slumbering_note"] = "Correr hacia la niebla te dormirá en pocos segundos y te alejará. Usa una bengala o una mascota con daño en área para sacar a {npc=167721} fuera de la niebla."
+L["skuld_vit_note"] = "En una cueva bloqueada por una barrera. Con el hechizo {spell:310143} de la curia de las Sílfides Nocturnas se podrá atravesar la barrera y entrar en la cueva. Una vez haya sido pulleado {npc=164415}, la barrera desaparecerá."
+L["valfir_note"] = "Haz click en el Sparkling Animaseed a mitad de camino y usa {spell:338045} para quitar el buff {spell:338038} de {npc=168647}."--[[Revisar the Sparkling Animassed]]--
+L["wrigglemortis_note"] = "Estira el {npc:164179} para sacarlo de la tierra y hacer aparecer a {npc=164147}."
+
+L["star_lake"] = "Anfiteatro del Lago Estrellado"--[Revisar que Star Lake Amphitheater sea Anfiteatro del Lago Estrellado"]--
+L["star_lake_note"] = "Habla con {npc:171743}, el Director de Escena, el cual iniciará uno de los combates especiales."--[Revisar que Stage Director sea Director de Escena
