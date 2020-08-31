@@ -55,6 +55,7 @@ def main():
     copy(path.join('icons', 'circle.tga'), path.join(target_dir, 'icons', 'circle.tga'))
     copy(path.join('icons', 'icons.blp'), path.join(target_dir, 'icons', 'icons.blp'))
     copy(path.join('icons', 'line.tga'), path.join(target_dir, 'icons', 'line.tga'))
+    copy('libs', path.join(target_dir, 'libs'))
     copy('embeds.xml', path.join(target_dir, 'embeds.xml'))
 
     with open('pins.xml') as f1, open(path.join(target_dir, 'pins.xml'), 'w') as f2:
