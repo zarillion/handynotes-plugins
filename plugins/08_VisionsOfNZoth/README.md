@@ -80,7 +80,7 @@ This addon has been translated to the following languages:
 * `zhCN` - Chinese (Simplified) (thanks wyjbuxiu!)
 * `zhTW` - Chinese (Traditional) (thanks BNS333!)
 
-If you would like to translate the addon to another language, send me a PM or comment with the file on this page.
+If you would like to translate the addon to another language, please open a [ticket](https://github.com/zarillion/handynotes-plugins/issues) or submit a [pull request](https://github.com/zarillion/handynotes-plugins/pulls) on GitHub.
 
 ## Credits and Issues
 

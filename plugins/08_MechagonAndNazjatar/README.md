@@ -41,7 +41,7 @@ This addon has been translated to the following languages:
 * `ruRU` - Russian (thanks Hubbotu!)
 * `zhTW` - Chinese (Traditional) (thanks BNS333!)
 
-If you would like to translate the addon to another language, submit a pull request or comment with the file on this page.
+If you would like to translate the addon to another language, please open a [ticket](https://github.com/zarillion/handynotes-plugins/issues) or submit a [pull request](https://github.com/zarillion/handynotes-plugins/pulls) on GitHub.
 
 ### Did I miss something?
 
