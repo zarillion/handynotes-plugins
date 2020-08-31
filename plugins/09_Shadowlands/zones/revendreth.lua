@@ -115,7 +115,8 @@ nodes[35003230] = Rare({
     quest=nil,
     note=L["bog_beast_note"],
     rewards={
-        Achievement({id=14310, criteria=48818})
+        Achievement({id=14310, criteria=48818}),
+        Pet({item=180588, id=2896}) -- Bucket of Primordial Sludge
     }
 }) -- Bog Beast
 
@@ -184,7 +185,8 @@ nodes[45847919] = Rare({
     quest=nil,
     note=L["activation_unknown"],
     rewards={
-        Achievement({id=14310, criteria=48813})
+        Achievement({id=14310, criteria=48813}),
+        Mount({item=180461, id=1310}) -- Horrid Brood Dredwing
     }
 }) -- Harika the Horrid
 
@@ -192,7 +194,8 @@ nodes[51985179] = Rare({
     id=166679,
     quest=59900,
     rewards={
-        Achievement({id=14310, criteria=48817})
+        Achievement({id=14310, criteria=48817}),
+        Mount({item=180581, id=1298}) -- Harnessed Hopecrusher
     }
 }) -- Hopecrusher
 
@@ -223,7 +226,8 @@ nodes[67978179] = Rare({
     note=L["leeched_soul_note"],
     rewards={
         Achievement({id=14310, criteria=48809}),
-        Transmog({item=183736, slot=L["cloth"]})
+        Transmog({item=183736, slot=L["cloth"]}),
+        Pet({item=180585, id=2897}) -- Emotional Leecher
     }
 }) -- Leeched Soul
 
@@ -242,7 +246,8 @@ nodes[49003490] = Rare({
     quest=nil,
     note=L["manifestation_of_wrath_note"],
     rewards={
-        Achievement({id=14310, criteria=48822})
+        Achievement({id=14310, criteria=48822}),
+        Pet({item=180591, id=2898}) -- Vial of Roiling Emotions
     }
 }) -- Manifestation of Wrath (World Quest required)
 
@@ -315,11 +320,16 @@ nodes[43007910] = Rare({
 
 nodes[38607200] = Rare({
     id=160821,
-    quest=nil,
+    quest=58259,
+    requires="{item:173939}",
+    note=L["worldedge_gorger_note"],
     rewards={
-        Achievement({id=14310, criteria=48805})
+        Achievement({id=14310, criteria=48805}),
+        Item({item=180583}), -- Impressionable Gorger Spawn
+        Mount({item=182589, id=1391}) -- Loyal Gorger
     }
 }) -- Worldedge Gorger
+-- 61188 => 61839 => 61843
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
