@@ -58,7 +58,7 @@ def main():
     copy('pins.xml', f'{target_dir}/pins.xml')
 
     for item in os.listdir(plugin_dir):
-        if item in ['images', 'README.md']: continue
+        if item in ['images', 'CHANGELOG.md', 'README.md']: continue
         copy(f'{plugin_dir}/{item}', f'{target_dir}/{item}')
 
     with ZipFile(target_zip, 'w', ZIP_DEFLATED) as zf:
