@@ -73,7 +73,7 @@ Notes for the following things have been added (all can be enabled/disabled in t
 This addon has been translated to the following languages:
 
 * `deDE` - German (thanks Dathwada!)
-* `esES` - Spanish (Spain) (thanks krovikan74!)
+* `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
 * `esMX` - Spanish (Mexico) (thanks Herida!)
 * `frFR` - French (thanks Herida!)
 * `ruRU` - Russian (thanks Hubbotu!)
