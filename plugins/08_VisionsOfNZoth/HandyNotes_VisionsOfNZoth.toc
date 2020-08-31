@@ -7,9 +7,7 @@
 ## X-Embeds: Ace3
 ## SavedVariables: HandyNotes_VisionsOfNZothDB
 
-#@no-lib-strip@
 embeds.xml
-#@end-no-lib-strip@
 
 core\colors.lua
 core\localization\locales.xml

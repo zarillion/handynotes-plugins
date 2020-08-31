@@ -1,15 +1,13 @@
 ## Interface: 90001
 ## Title: HandyNotes: Shadowlands
-## Version: 38
+## Version: 1
 ## Notes: Shadowlands Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3
 ## SavedVariables: HandyNotes_ShadowlandsDB
 
-#@no-lib-strip@
 embeds.xml
-#@end-no-lib-strip@
 
 core\colors.lua
 core\localization\locales.xml
