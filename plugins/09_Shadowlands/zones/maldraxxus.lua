@@ -14,6 +14,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
@@ -22,6 +23,10 @@ local POI = ns.poi.POI
 
 local options = ns.options.args.VisibilityGroup.args
 local defaults = ns.optionDefaults.profile
+
+-------------------------------------------------------------------------------
+
+local NECROLORD = ns.covenants.NEC
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -130,8 +135,9 @@ nodes[45052842] = Rare({
 
 nodes[31603540] = Rare({
     id=162741,
-    quest=nil,
-    note=L["activation_unknown"],
+    quest=58872,
+    covenant=NECROLORD,
+    note=L["gieger_note"],
     rewards={
         Achievement({id=14308, criteria=48871}),
         Mount({item=182080, id=1411}) -- Predatory Bonejowl
@@ -518,6 +524,9 @@ function map:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
 
     if node == map.intro then return true end
+
+    -- add rlabel and warning if covenant doesn't match
+    ns.processCovenant(node)
 
     local profile = ns.addon.db.profile
     if isinstance(node, Rare) then return profile.rare_maldraxxus end

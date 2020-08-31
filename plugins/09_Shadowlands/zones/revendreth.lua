@@ -589,6 +589,9 @@ function map:enabled (node, coord, minimap)
 
     if node == map.intro then return true end
 
+    -- add rlabel and warning if covenant doesn't match
+    ns.processCovenant(node)
+
     local profile = ns.addon.db.profile
     if isinstance(node, Rare) then return profile.rare_revendreth end
     if isinstance(node, Treasure) then return profile.treasure_revendreth end

@@ -8,7 +8,7 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes Shadowlands"
 L["options_title"] = "Shadowlands"
-L["covenant_required"] = "Requires a member of the %s."
+L["covenant_required"] = "Requires a member of the %s covenant."
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -94,6 +94,7 @@ L["gift_of_vesiphone"] = "Ring one of the bells to spawn a {npc:170849} and kill
 -------------------------------------------------------------------------------
 
 L["chelicerae_note"] = "Destroy the {npc:159885} to activate the rare."
+L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
 L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
 L["malkorak_note"] = "At the top of the tower (lots of stairs)."
 L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."

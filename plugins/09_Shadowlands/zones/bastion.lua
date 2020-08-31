@@ -228,7 +228,7 @@ nodes[45546459] = Rare({
     }
 }) -- Echo of Aella <Hand of Courage>
 
-nodes[48004290] = Rare({
+nodes[56111447] = Rare({
     id=171013,
     quest=nil,
     rewards={
