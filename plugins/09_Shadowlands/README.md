@@ -16,7 +16,7 @@ Locations and solutions for treasures are displayed on the map, along with the a
 
 ![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/09_Shadowlands/images/treasures.png)
 
-## Maldraxxus - Mixed Pool of Monstrosities
+## Maldraxxus - Pool of Mixed Monstrosities
 
 In Maldraxxus you will find a pool in which you can toss oozes, goos and oils as ingredients. Different rares will spawn depending on the combination used. The tooltip for this pool describes all the possible combinations, where to get the ingredients and your current loot and achievement status for each rare.
 
