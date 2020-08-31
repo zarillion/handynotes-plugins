@@ -44,22 +44,25 @@ def main():
         eprint(f'Plugin does not exist: {plugin_dir}')
         sys.exit(1)
 
-    target_dir = path.join('release', f'HandyNotes_{args.plugin[3:]}')
+    plugin_name = f'HandyNotes_{args.plugin[3:]}'
+    target_dir = path.join('release', plugin_name)
     target_zip = f'{target_dir}.{args.version}.zip'
 
     shutil.rmtree(target_dir, ignore_errors=True)
     os.makedirs(target_dir, exist_ok=True)
 
-    copy('core', f'{target_dir}/core')
-    copy('icons/circle.tga', f'{target_dir}/icons/circle.tga')
-    copy('icons/icons.blp', f'{target_dir}/icons/icons.blp')
-    copy('icons/line.tga', f'{target_dir}/icons/line.tga')
-    copy('embeds.xml', f'{target_dir}/embeds.xml')
-    copy('pins.xml', f'{target_dir}/pins.xml')
+    copy('core', path.join(target_dir, 'core'))
+    copy(path.join('icons', 'circle.tga'), path.join(target_dir, 'icons', 'circle.tga'))
+    copy(path.join('icons', 'icons.blp'), path.join(target_dir, 'icons', 'icons.blp'))
+    copy(path.join('icons', 'line.tga'), path.join(target_dir, 'icons', 'line.tga'))
+    copy('embeds.xml', path.join(target_dir, 'embeds.xml'))
+
+    with open('pins.xml') as f1, open(path.join(target_dir, 'pins.xml'), 'w') as f2:
+        f2.write(f1.read().format(addon=plugin_name))
 
     for item in os.listdir(plugin_dir):
         if item in ['images', 'CHANGELOG.md', 'README.md']: continue
-        copy(f'{plugin_dir}/{item}', f'{target_dir}/{item}')
+        copy(path.join(plugin_dir, item), path.join(target_dir, item))
 
     with ZipFile(target_zip, 'w', ZIP_DEFLATED) as zf:
         zip_write(zf, target_dir, path.basename(target_dir))
