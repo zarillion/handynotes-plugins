@@ -133,7 +133,8 @@ nodes[31603540] = Rare({
     quest=nil,
     note=L["activation_unknown"],
     rewards={
-        Achievement({id=14308, criteria=48871})
+        Achievement({id=14308, criteria=48871}),
+        Mount({item=182080, id=1411}) -- Predatory Bonejowl
     }
 }) -- Gieger
 
