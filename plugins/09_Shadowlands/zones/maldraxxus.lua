@@ -116,12 +116,13 @@ nodes[76835707] = Rare({
 nodes[46734550] = Rare({
     id=162797,
     quest=58878,
+    note=L["deepscar_note"],
     rewards={
         Achievement({id=14308, criteria=48852}),
         Transmog({item=182191, slot=L["1h_mace"]}) -- Slobber-Soaked Chew Toy
     },
     pois={
-        POI({48125190})
+        POI({48125190, 53974548})
     }
 }) -- Deepscar
 
@@ -422,7 +423,7 @@ nodes[31737004] = Treasure({
     }
 }) -- Runespeaker's Trove
 
-nodes[66145045] = Treasure({
+nodes[73564986] = Treasure({
     quest=61451,
     note=L["stolen_jar_note"],
     rewards={

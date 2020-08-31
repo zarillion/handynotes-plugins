@@ -89,11 +89,26 @@ The orb will take you to the true Incense of Judgment. Commune with it and the f
 ]]
 L["gift_of_vesiphone"] = "Ring one of the bells to spawn a {npc:170849} and kill it to receive the {spell:333239} debuff. The falling water opposite the chest will cleanse this debuff and grant you {spell:332785}."
 
+L["anima_shard"] = "Lost Anima Shard"
+L["anima_shard_61225"] = "On a lower platform below the bridge."
+L["anima_shard_61235"] = "On a ledge above the waterfall."
+L["anima_shard_61237"] = "On a ledge just above the water."
+L["anima_shard_61238"] = "In the water beneath the small bridge."
+L["anima_shard_61239"] = "On top of a thin stone column."
+L["anima_shard_61241"] = "Above the entrance to the Chamber of First Reflection."
+L["anima_shard_61244"] = "On a rock in the side of the cliff."
+L["anima_shard_61245"] = "On a rock above a small waterfall."
+L["anima_shard_61247"] = "On the wall above a small water fixture."
+L["anima_shard_61249"] = "Hidden behind a stone column on the upper level of Purity's Pinnacle."
+L["options_toggle_anima_shards"] = "Lost Anima Shards"
+L["options_toggle_anima_shards_desc"] = "Display the locations of all 50 lost anima shards for the Shard Labor achievement."
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
 
 L["chelicerae_note"] = "Destroy the {npc:159885} to activate the rare."
+L["deepscar_note"] = "Can appear in multiple entrances to the Theater of Pain."
 L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
 L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
 L["malkorak_note"] = "At the top of the tower (lots of stairs)."

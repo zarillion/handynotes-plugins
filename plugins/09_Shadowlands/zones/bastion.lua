@@ -3,10 +3,12 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 local isinstance = ns.isinstance
 
+local Node = ns.node.Node
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -32,26 +34,13 @@ local KYRIAN = ns.covenants.KYR
 local map = Map({ id=1533 })
 local nodes = map.nodes
 
-function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    if node == map.intro then return true end
-
-    -- add rlabel and warning if covenant doesn't match
-    ns.processCovenant(node)
-
-    local profile = ns.addon.db.profile
-    if isinstance(node, Rare) then return profile.rare_bastion end
-    if isinstance(node, Treasure) then return profile.treasure_bastion end
-    return true
-end
-
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
 defaults['rare_bastion'] = true
 defaults['treasure_bastion'] = true
+defaults['anima_shard_bastion'] = false
 
 options.groupBastion = {
     type = "header",
@@ -74,6 +63,15 @@ options.treasureBastion = {
     name = L["options_toggle_treasures"],
     desc = L["options_toggle_treasures_desc"],
     order = 12,
+    width = "normal",
+}
+
+options.animaShardBastion = {
+    type = "toggle",
+    arg = "anima_shard_bastion",
+    name = L["options_toggle_anima_shards"],
+    desc = L["options_toggle_anima_shards_desc"],
+    order = 13,
     width = "normal",
 }
 
@@ -531,14 +529,50 @@ nodes[58667135] = Treasure({
 ----------------------------- ANIMA CRYSTAL SHARDS ----------------------------
 -------------------------------------------------------------------------------
 
--- 61048566 61244
--- 54025967 61251
--- 65254288 61271
--- 31002747 61291
--- 30612373 61292
--- 26152262 61294
--- 24371821 61295
+local AnimaShard = Class('AnimaShard', Node, {
+    label=L["anima_shard"],
+    icon='anima_crystal',
+    scale=1.2,
+    rewards={
+        Achievement({id=14339, criteria={
+            {id=0, qty=true, suffix=" "..L["anima_shard"]}
+        }})
+    }
+})
+
+-- nodes[] = AnimaShard({quest=612, note=L["anima_shard_612"]})
+nodes[39057704] = AnimaShard({quest=61225, note=L["anima_shard_61225"]})
+nodes[43637622] = AnimaShard({quest=61235, note=L["anima_shard_61235"]})
+nodes[52677555] = AnimaShard({quest=61237, note=L["anima_shard_61237"]})
+nodes[53317362] = AnimaShard({quest=61238, note=L["anima_shard_61238"]})
+nodes[53498060] = AnimaShard({quest=61239, note=L["anima_shard_61239"]})
+nodes[55968666] = AnimaShard({quest=61241, note=L["anima_shard_61241"]})
+nodes[61048566] = AnimaShard({quest=61244, note=L["anima_shard_61244"]})
+nodes[58108008] = AnimaShard({quest=61245, note=L["anima_shard_61245"]})
+nodes[56877498] = AnimaShard({quest=61247, note=L["anima_shard_61247"]})
+nodes[65527192] = AnimaShard({quest=61249, note=L["anima_shard_61249"]})
+nodes[54025967] = AnimaShard({quest=61251})
+nodes[65254288] = AnimaShard({quest=61271})
+nodes[31002747] = AnimaShard({quest=61291})
+nodes[30612373] = AnimaShard({quest=61292})
+nodes[26152262] = AnimaShard({quest=61294})
+nodes[24371821] = AnimaShard({quest=61295})
 
 -------------------------------------------------------------------------------
+
+function map:enabled (node, coord, minimap)
+    if not Map.enabled(self, node, coord, minimap) then return false end
+
+    if node == map.intro then return true end
+
+    -- add rlabel and warning if covenant doesn't match
+    ns.processCovenant(node)
+
+    local profile = ns.addon.db.profile
+    if isinstance(node, Rare) then return profile.rare_bastion end
+    if isinstance(node, Treasure) then return profile.treasure_bastion end
+    if isinstance(node, AnimaShard) then return profile.anima_shard_bastion end
+    return true
+end
 
 ns.maps[map.id] = map

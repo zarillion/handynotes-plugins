@@ -70,7 +70,7 @@ function Achievement:render (tooltip)
     tooltip:AddTexture(icon, {margin={right=2}})
     for i, c in ipairs(self.criteria) do
         local cname,_,ccomp,qty,req = GetCriteriaInfo(self.id, c.id)
-        if (cname == '') then cname = qty..'/'..req end
+        if (cname == '' or c.qty) then cname = qty..'/'..req end
 
         local r, g, b = .6, .6, .6
         local ctext = "   • "..cname..(c.suffix or '')
