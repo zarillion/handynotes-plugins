@@ -208,11 +208,12 @@ nodes[61717949] = Rare({
 
 nodes[21803590] = Rare({
     id=160640,
-    quest=nil,
+    quest=58210,
     requires="{item:177223}",
     note=L["innervus_note"],
     rewards={
-        Achievement({id=14310, criteria=48801})
+        Achievement({id=14310, criteria=48801}),
+        Transmog({item=183735, slot=L["cloth"]}) -- Rogue Sinstealer's Mantle
     }
 }) -- Innervus
 
