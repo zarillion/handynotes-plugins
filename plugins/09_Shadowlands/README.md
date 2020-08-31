@@ -24,7 +24,7 @@ In Maldraxxus you will find a pool in which you can toss oozes, goos and oils as
 
 ## Maldraxxus - Slime Cats
 
-The locations of all nine cats you must `/pet` for the [Nine Afterlives](https://shadowlands.wowhead.com/achievement=14634/nine-afterlives) achievement are displayed with instructions on how to reach them. Each cat icon will disappear once you have pet the cat.
+The locations of all nine cats you must pet for the [Nine Afterlives](https://shadowlands.wowhead.com/achievement=14634/nine-afterlives) achievement are displayed with instructions on how to reach them. Each cat icon will disappear once you have pet the cat.
 
 ![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/09_Shadowlands/images/slime_cats.png)
 
