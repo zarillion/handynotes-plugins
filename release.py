@@ -46,7 +46,7 @@ def main():
 
     plugin_name = f'HandyNotes_{args.plugin[3:]}'
     target_dir = path.join('release', plugin_name)
-    target_zip = f'{target_dir}.{args.version}.zip'
+    target_zip = f'{target_dir}-{args.version}.zip'
 
     shutil.rmtree(target_dir, ignore_errors=True)
     os.makedirs(target_dir, exist_ok=True)
