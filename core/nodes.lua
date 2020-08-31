@@ -49,7 +49,7 @@ function Node:init ()
 end
 
 function Node.setters:requires (requirement)
-    self.sublabel = ns.color.Red('Requires '..requirement)
+    self.sublabel = ns.color.Red(L["Requires"]..' '..requirement)
 end
 
 function Node:display ()
