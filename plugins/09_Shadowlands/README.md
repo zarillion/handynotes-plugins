@@ -1,12 +1,12 @@
 **A [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for the Shadowlands expansion. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/09_Shadowlands/images/banner.png)
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/banner.png)
 
 ## Rare Mobs
 
 Rare mobs are listed as skulls on your map. If the skull is blue colored, that means you still need a collectible reward from that rare. If the rare has multiple spawn points, shares a spawn with common mobs or has a path, hovering over the skull will indicate all the points of interest or paths. Left-clicking on the skull will stick the points of interested on the map and minimap as you fly around.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/09_Shadowlands/images/rares.png)
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/rares.png)
 
 All nodes in the addon can be individually hidden or sent to TomTom to create a waypoint.
 
@@ -14,25 +14,25 @@ All nodes in the addon can be individually hidden or sent to TomTom to create a 
 
 Locations and solutions for treasures are displayed on the map, along with the achievement they are associated with and any rewards they contain. Each treasure icon will disappear once it has been looted.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/09_Shadowlands/images/treasures.png)
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/treasures.png)
 
 ## Maldraxxus - Pool of Mixed Monstrosities
 
 In Maldraxxus you will find a pool in which you can toss oozes, goos and oils as ingredients. Different rares will spawn depending on the combination used. The tooltip for this pool describes all the possible combinations, where to get the ingredients and your current loot and achievement status for each rare.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/09_Shadowlands/images/mixed_pool.png)
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/mixed_pool.png)
 
 ## Maldraxxus - Slime Cats
 
 The locations of all nine cats you must pet for the [Nine Afterlives](https://shadowlands.wowhead.com/achievement=14634/nine-afterlives) achievement are displayed with instructions on how to reach them. Each cat icon will disappear once you have pet the cat.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/09_Shadowlands/images/slime_cats.png)
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/slime_cats.png)
 
 ## Revendreth - Carriages
 
 The paths of all rideable carriages are mapped for the Revendreth zone. Hop in to drop combat and ride past all hostile mobs. Riding each carriage also gives credit towards [The Afterlife Express](https://shadowlands.wowhead.com/achievement=14771/the-afterlife-express) achievement.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/09_Shadowlands/images/carriages.png)
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/carriages.png)
 
 ## Options
 

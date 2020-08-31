@@ -1,6 +1,6 @@
 **A [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for the Uldum and Vale of Eternal Blossoms assaults added in 8.3. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/08_VisionsOfNZoth/images/nzoth_banner.png)
+![](https://www.tmdmguild.com/public/images/addons/nzoth_banner.png)
 
 ## Assault Zones: Uldum and Vale of the Eternal Blossoms
 
@@ -8,13 +8,13 @@ N'Zoths forces are assaulting Uldum and the Vale of Eternal Blossoms. This addon
 
 Unlocking the new assaults involves a introductory quest line. Once you have accepted "A Titanic Problem", you can check for large quest icons in both zones to track your progress towards unlocking assaults there.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/08_VisionsOfNZoth/images/nzoth_intro.png)
+![](https://www.tmdmguild.com/public/images/addons/nzoth_intro.png)
 
 ## Rare Mobs
 
 Rare mobs are listed as skulls on your map. If the skull is blue colored, that means you still need a collectible reward from that rare. If the rare has multiple spawn points, shares a spawn with common mobs or has a path, hovering over the skull will indicate all the points of interest or paths. Left-clicking on the skull will stick the points of interested on the map and minimap as you fly around.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/08_VisionsOfNZoth/images/nzoth_rares.png)
+![](https://www.tmdmguild.com/public/images/addons/nzoth_rares.png)
 
 All nodes in the addon can be individually hidden or sent to TomTom to create a waypoint.
 
@@ -22,7 +22,7 @@ All nodes in the addon can be individually hidden or sent to TomTom to create a 
 
 Every day, six different daily events will appear in Uldum and Vale. These locations will be marked on your map with yellow pins describing how to complete the event.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/08_VisionsOfNZoth/images/nzoth_events.png)
+![](https://www.tmdmguild.com/public/images/addons/nzoth_events.png)
 
 ## Assault Caches and Locked Coffers
 
@@ -30,23 +30,23 @@ Each assault comes with caches scattered throughout the zone that offer extra Co
 
 To help visualize this, each individual cache is displayed with a different color. A group of caches on the map of the same color are all the possible spawn locations for that cache. Once you loot it, all the locations will disappear for the day.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/08_VisionsOfNZoth/images/nzoth_caches.png)
+![](https://www.tmdmguild.com/public/images/addons/nzoth_caches.png)
 
 Each assault also has a locked coffer associated with it. These required a key constructed from items dropped in the zone and give a larger amount of Coalescing Visions. They are shown on the map with a spiked chest icon.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/08_VisionsOfNZoth/images/nzoth_coffers.png)
+![](https://www.tmdmguild.com/public/images/addons/nzoth_coffers.png)
 
 ## Battle Pets and Trainers
 
 The locations of the eight new pet battles are displayed on the map, four in each zone.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/08_VisionsOfNZoth/images/nzoth_pets.png)
+![](https://www.tmdmguild.com/public/images/addons/nzoth_pets.png)
 
 ## Horrific Visions (Orgrimmar and Stormwind)
 
 Inside the weekly horrific vision, you will find multiple notes on your map.
 
-![](https://media.githubusercontent.com/media/zarillion/handynotes-plugins/master/plugins/08_VisionsOfNZoth/images/nzoth_visions.png)
+![](https://www.tmdmguild.com/public/images/addons/nzoth_visions.png)
 
 Notes for the following things have been added (all can be enabled/disabled in the options):
 
