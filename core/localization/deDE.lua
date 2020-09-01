@@ -39,8 +39,8 @@ L["trinket"] = "Schmuck"
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
-L["activation_unknown"] = "Activation unknown!"
-L["requirement_not_found"] = "Requirement location unknown!"
+L["activation_unknown"] = "Aktivierung unbekannt!"
+L["requirement_not_found"] = "Voraussetzungsort unbekannt!"
 
 L["Requires"] = "Benötigt"
 L["focus"] = "Focus"
@@ -61,7 +61,7 @@ L["incomplete"] = "Unvollständig"
 L["known"] = "Bekannt"
 L["missing"] = "Fehlt"
 L["unobtainable"] = "Unerreichbar"
-L["unlearnable"] = "Unlernbar"
+L["unlearnable"] = "Nicht erlernbar"
 L["A"] = "L" -- available/alive
 L["D"] = "T" -- dead/defeated
 
