@@ -137,6 +137,7 @@ ns.options.args.VisibilityGroup = {
             name = L["options_restore_hidden_nodes"],
             desc = L["options_restore_hidden_nodes_desc"],
             order = 105,
+			width = "full",
             func = function ()
                 table.wipe(ns.addon.db.char)
                 ns.addon:Refresh()
