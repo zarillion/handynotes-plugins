@@ -50,7 +50,7 @@ options.buffBotsOperMech = {
     name = L["options_toggle_mech_buffs"],
     desc = L["options_toggle_mech_buffs_desc"],
     order = 21,
-    width = "normal",
+    width = "full",
 }
 
 -------------------------------------------------------------------------------
