@@ -551,7 +551,7 @@ nodes[39057704] = AnimaShard({quest=61225, note=L["anima_shard_61225"]})
 -- 61233 Vestibule of Eternity?
 -- 61234 https://shadowlands.wowhead.com/quest=61234/stonehucks-sinstone
 nodes[43637622] = AnimaShard({quest=61235, note=L["anima_shard_61235"]})
--- 61236 Aspirant's Rest area?
+nodes[48427273] = AnimaShard({quest=61236, note=L["anima_shard_61236"]})
 nodes[52677555] = AnimaShard({quest=61237, note=L["anima_shard_61237"]})
 nodes[53317362] = AnimaShard({quest=61238, note=L["anima_shard_61238"]})
 nodes[53498060] = AnimaShard({quest=61239, note=L["anima_shard_61239"]})
@@ -601,11 +601,11 @@ nodes[60451288] = AnimaShard({quest=61282, note=L["anima_shard_61282"]})
 nodes[52440942] = AnimaShard({quest=61283, note=L["anima_shard_61283"]})
 nodes[46691804] = AnimaShard({quest=61284, note=L["anima_shard_61284"]})
 nodes[44942845] = AnimaShard({quest=61285, note=L["anima_shard_61285"]})
--- 61286 West of Sagehaven?
+nodes[42302402] = AnimaShard({quest=61286, note=L["anima_shard_61286"]})
 nodes[37102468] = AnimaShard({quest=61287, note=L["anima_shard_61287"]})
 nodes[42813321] = AnimaShard({quest=61288, note=L["anima_shard_61288"]})
 nodes[42713940] = AnimaShard({quest=61289, note=L["anima_shard_61289"]})
--- 61290 Kraznir's Exchange?
+nodes[33033762] = AnimaShard({quest=61290, note=L["anima_shard_61290"]})
 nodes[31002747] = AnimaShard({quest=61291, note=L["anima_shard_61291"]})
 nodes[30612373] = AnimaShard({quest=61292, note=L["anima_shard_61292"]})
 nodes[24642298] = AnimaShard({quest=61293, note=L["anima_shard_61293"]})
