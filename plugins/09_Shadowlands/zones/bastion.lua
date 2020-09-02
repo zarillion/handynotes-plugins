@@ -572,6 +572,33 @@ nodes[24371821] = AnimaShard({quest=61295})
 
 -------------------------------------------------------------------------------
 
+local gardens = Map({id=1693})
+local font = Map({id=1694})
+local wake = Map({id=1666})
+
+gardens.nodes[46605310] = AnimaShard({quest=61298, note=L["anima_shard_61298"]})
+gardens.nodes[69403870] = AnimaShard({quest=61299, note=L["anima_shard_61299"]})
+font.nodes[49804690] = AnimaShard({quest=61300, note=L["anima_shard_61300"]})
+wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"]})
+
+function dungeonEnabled (self, node, coord, minimap)
+    if not Map.enabled(self, node, coord, minimap) then return false end
+    ns.processCovenant(node)
+    local profile = ns.addon.db.profile
+    if isinstance(node, AnimaShard) then return profile.anima_shard_bastion end
+    return true
+end
+
+gardens.enabled = dungeonEnabled
+font.enabled = dungeonEnabled
+wake.enabled = dungeonEnabled
+
+ns.maps[gardens.id] = gardens
+ns.maps[font.id] = font
+ns.maps[wake.id] = wake
+
+-------------------------------------------------------------------------------
+
 function map:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
 
