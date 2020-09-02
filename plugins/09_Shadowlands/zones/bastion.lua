@@ -532,7 +532,7 @@ nodes[58667135] = Treasure({
 local AnimaShard = Class('AnimaShard', Node, {
     label=L["anima_shard"],
     icon='anima_crystal',
-    scale=1.2,
+    scale=1.5,
     rewards={
         Achievement({id=14339, criteria={
             {id=0, qty=true, suffix=" "..L["anima_shard"]}
