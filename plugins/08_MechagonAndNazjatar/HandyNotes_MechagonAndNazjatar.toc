@@ -15,6 +15,7 @@ localization\enUS.lua
 localization\ruRU.lua
 localization\zhTW.lua
 localization\deDE.lua
+localization\zhCN.lua
 
 core\class.lua
 core\core.lua
