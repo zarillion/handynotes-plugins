@@ -92,6 +92,7 @@ L["gift_of_vesiphone"] = "Ring one of the bells to spawn a {npc:170849} and kill
 L["anima_shard"] = "Lost Anima Shard"
 L["anima_shard_61225"] = "On a lower platform below the bridge."
 L["anima_shard_61235"] = "On a ledge above the waterfall."
+L["anima_shard_61236"] = "On top of an arch halfway up the main structure."
 L["anima_shard_61237"] = "On a ledge just above the water."
 L["anima_shard_61238"] = "In the water beneath a small bridge."
 L["anima_shard_61239"] = "On top of a thin stone column."

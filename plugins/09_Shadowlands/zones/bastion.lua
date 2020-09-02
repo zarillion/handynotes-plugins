@@ -551,7 +551,7 @@ nodes[39057704] = AnimaShard({quest=61225, note=L["anima_shard_61225"]})
 -- 61233 Vestibule of Eternity?
 -- 61234 https://shadowlands.wowhead.com/quest=61234/stonehucks-sinstone
 nodes[43637622] = AnimaShard({quest=61235, note=L["anima_shard_61235"]})
--- 61236 Aspirant's Rest area?
+nodes[48427273] = AnimaShard({quest=61236, note=L["anima_shard_61236"]})
 nodes[52677555] = AnimaShard({quest=61237, note=L["anima_shard_61237"]})
 nodes[53317362] = AnimaShard({quest=61238, note=L["anima_shard_61238"]})
 nodes[53498060] = AnimaShard({quest=61239, note=L["anima_shard_61239"]})
