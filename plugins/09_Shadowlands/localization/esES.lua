@@ -24,7 +24,7 @@ L["rootwrithe_note"] = "Empuja a las {npc:167928} hasta que aparezca {npc=167726
 L["rotbriar_note"] = "Habla con {npc:171684} y comenzará a cantar. Tras algo de diálogo, aparecerá {npc:167724} cerca."
 L["slumbering_note"] = "Correr hacia la niebla te dormirá en pocos segundos y te alejará. Usa una bengala o una mascota con daño en área para sacar a {npc=167721} fuera de la niebla."
 L["skuld_vit_note"] = "En una cueva bloqueada por una barrera. Con el hechizo {spell:310143} de la curia de las Sílfides Nocturnas se podrá atravesar la barrera y entrar en la cueva. Una vez haya sido pulleado {npc=164415}, la barrera desaparecerá."
-L["valfir_note"] = "Haz click en el Sparkling Animaseed a mitad de camino y usa {spell:338045} para quitar el buff {spell:338038} de {npc=168647}."--Revisar que traducción le han puesto a Sparkling Animassed
+L["valfir_note"] = "Haz click en la Semilla de Ánima Brillante a mitad de camino y usa {spell:338045} para quitar el buff {spell:338038} de {npc=168647}."--Revisar que Sparkling Animaseed sea Semilla de Ánima Brillante
 L["wrigglemortis_note"] = "Estira el {npc:164179} para sacarlo de la tierra y hacer aparecer a {npc=164147}."
 
 L["star_lake"] = "Anfiteatro del Lago Estrellado"--Revisar que Star Lake Amphitheater sea Anfiteatro del Lago Estrellado"
@@ -65,7 +65,7 @@ L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén prese
 --L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el cuerno de la mesa cercana que hay al sureste (subiendo unas escaleras)."
 
 L["broken_flute"] = "Mata a los {npc:170009} cercanos hasta que uno suelte la {item:180536}. Usa las herramientas para repararla."
-L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar la parte. El ánima tiene varios sitios de aparición."
+L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar la parte. El ánima tiene varios sitios de aparición."--Revisar que anima sea ánima
 L["larion_harness"] = "Localizado dentro del Salón de las Bestias."--Revisar si Hall of Beasts es Salón de las Bestias
 L["memorial_offering"] = "Compra una botella de {item:180788} a {npc:171526} en el Retiro del Aspirante. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}."--Revisar si Aspirant's Rest es Retiro del Aspirante
 L["scroll_of_aeons"] = "Coge de un cuenco 2 {item:173973} en el centro del área y colócalos en los cuencos de tributo cercanos para revelar el tesoro {item:173984}."
@@ -90,3 +90,55 @@ Comulga con ellos en el orden Paciencia => Sabiduría => Visión. En la platafor
 El orbe te llevará al verdadero Incienso del Juicio. Comulga con él y aparecerá la última plataforma de vuelo que te dará la {spell:333068} al abrir el cofre.
 ]]--Revisar que Path of Wisdom sea Camino de la Sabiduría, que incenses sea inciensos, los tipos de incienso y que Path of Insightful Wisdom sea Camino de la Sabiduría Perspicaz
 L["gift_of_vesiphone"] = "Toca una de las campanas para hacer que aparezca una {npc:170849} y mátala para recibir el debuff {spell:333239}. El agua que cae frente al cofre limpiará el debuff y te dará la {spell:332785}."
+
+L["anima_shard"] = "Fragmento de Ánima perdida"--Revisar que Lost Anima Shard sea Fragmento de Ánima perdida
+L["anima_shard_61225"] = "En una plataforma inferior debajo del puente."
+L["anima_shard_61235"] = "En una repisa sobre la cascada."
+L["anima_shard_61237"] = "En una repisa justo sobre el agua."
+L["anima_shard_61238"] = "En el agua debajo de un puente pequeño."
+L["anima_shard_61239"] = "Encima de una fina columna de piedra."
+L["anima_shard_61241"] = "Sobre la entrada a la Cámara de la Primera Reflexión."--Revisar que Chamber of First Reflection sea Cámara de la Primera Reflexión
+L["anima_shard_61244"] = "En una roca en el lado del precipicio."
+L["anima_shard_61245"] = "En una roca sobre una cascada pequeña."
+L["anima_shard_61247"] = "En la pared sobre una fuente pequeña de agua."
+L["anima_shard_61249"] = "Oculto detrás de una columna de piedra en el nivel superior del Pináculo de la Pureza."--Revisar que Purity's Pinnacle sea Pináculo de la Pureza
+L["anima_shard_61250"] = "Reposando detrás de una escalera."
+L["anima_shard_61251"] = "Reposando debajo de una campana pequeña."
+L["anima_shard_61253"] = "Encima de un arco de piedra caido."
+L["anima_shard_61254"] = "Encima de una estructura de madera pequeña."
+L["anima_shard_61257"] = "En una repisa pequeña justo debajo de {npc:162523}."
+L["anima_shard_61258"] = "En una repisa pequeña en la parte inferior del Reposo del Héroe."--Revisar que Hero's Rest sea Reposo del Héroe
+L["anima_shard_61260"] = "En el suelo debajo de la plataforma."
+L["anima_shard_61263"] = "Sobre un pilar de piedra."
+L["anima_shard_61270"] = "Reposando en la base de un árbol."
+L["anima_shard_61271"] = "En una estantería en la plataforma superior."
+L["anima_shard_61273"] = "En una repisa justo debajo del precipicio que sobresale."
+L["anima_shard_61274"] = "Escondido debajo de la plataforma."
+L["anima_shard_61275"] = "En el Salón de las Bestias debajo de unos barriles."--Revisar si Hall of Beasts es Salón de las Bestias
+L["anima_shard_61277"] = "Sobre una fina columna de piedra."
+L["anima_shard_61278"] = "Debajo del puente y sobre una roca."
+L["anima_shard_61279"] = "Sobre una fina columna de piedra."
+L["anima_shard_61280"] = "En la esquina de la mesa."
+L["anima_shard_61281"] = "En una repisa sobre el tesoro de las Ofrendas Conmemorativas."--Revisar que Memorial Offerings sea Ofrendas Conmemorativas
+L["anima_shard_61282"] = "En una repisa debajo de la cima del precipio. Salta sobre la roca siguiente o serás llevado de vuelta arriba."
+L["anima_shard_61283"] = "En una cueva debajo de la Capilla de Miri, detrás de unos barriles."--Revisar que Miri's Chapel sea Capilla de Miri
+L["anima_shard_61284"] = "En una repisa debajo de un saliente rocoso, camino al sur."
+L["anima_shard_61285"] = "Al final de una pequeña repisa de roca."
+L["anima_shard_61287"] = "En una repisa sobre una cascada pequeña."
+L["anima_shard_61288"] = "En la punta de una repisa pequeña."
+L["anima_shard_61289"] = "Encima de la glorieta."--gazebo es ¿glorieta?
+L["anima_shard_61291"] = "En el fondo del estanque junto a los pies de una estatua."
+L["anima_shard_61292"] = "Sobre un arco de piedra."
+L["anima_shard_61293"] = "Sobre una fina columna de piedra en el nivel inferior."
+L["anima_shard_61294"] = "Escondido detrás de una pila de barriles."
+L["anima_shard_61295"] = "Detrás del {npc:156889} en una estantería."
+L["anima_shard_61297"] = "Detrás de un pilar de piedra."
+L["anima_shard_61298"] = "Reposando detrás de un sillón."
+L["anima_shard_61299"] = "Escondido detrás de una gran antorcha."
+L["anima_shard_61300"] = "En una repisa que cuelga sobre la fuente central."
+L["options_toggle_anima_shards"] = "Fragmentos Perdidos de Ánima"--Revisar que Lost Anima Shards sea Fragmentos Perdidos de Ánima
+L["options_toggle_anima_shards_desc"] = "Muestra la localización de los 50 fragmentos perdidos de ánima para el logro Trabajo Fragmentado."--Revisar que lost anima shards sea fragmentos perdidos de ánima y que Shard Labor sea Trabajo Fragmentado
+
+-------------------------------------------------------------------------------
+--------------------------------- MALDRAXXUS ----------------------------------
+-------------------------------------------------------------------------------
