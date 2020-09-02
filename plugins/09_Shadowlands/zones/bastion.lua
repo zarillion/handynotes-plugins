@@ -605,7 +605,7 @@ nodes[44942845] = AnimaShard({quest=61285, note=L["anima_shard_61285"]})
 nodes[37102468] = AnimaShard({quest=61287, note=L["anima_shard_61287"]})
 nodes[42813321] = AnimaShard({quest=61288, note=L["anima_shard_61288"]})
 nodes[42713940] = AnimaShard({quest=61289, note=L["anima_shard_61289"]})
--- 61290 Consortium Town?
+-- 61290 Kraznir's Exchange?
 nodes[31002747] = AnimaShard({quest=61291, note=L["anima_shard_61291"]})
 nodes[30612373] = AnimaShard({quest=61292, note=L["anima_shard_61292"]})
 nodes[24642298] = AnimaShard({quest=61293, note=L["anima_shard_61293"]})
