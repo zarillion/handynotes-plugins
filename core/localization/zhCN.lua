@@ -109,7 +109,7 @@ L["options_toggle_battle_pets_desc"] = "显示宠物训练师和 NPC 的位置�
 L["options_toggle_battle_pets"] = "战斗宠物"
 L["options_toggle_caves_desc"] = "显示其它项的洞穴入口。"
 L["options_toggle_caves"] = "洞穴"
-L["options_toggle_chests_desc"] = "显示宝箱位置（每日刷新）。"
+L["options_toggle_chests_desc"] = "显示宝箱位置（每日可拾取）。"
 L["options_toggle_chests"] = "宝箱"
 L["options_toggle_misc"] = "杂项"
 L["options_toggle_npcs"] = "NPC"
@@ -127,7 +127,7 @@ L["options_tooltip_settings_desc"] = "提示"
 L["options_toggle_show_loot"] = "显示拾取"
 L["options_toggle_show_loot_desc"] = "在提示中加入拾取信息"
 L["options_toggle_show_notes"] = "显示注释"
-L["options_toggle_show_notes_desc"] = "在提示中添加注解"
+L["options_toggle_show_notes_desc"] = "在提示中添加注释"
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
