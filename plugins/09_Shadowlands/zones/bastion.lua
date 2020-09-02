@@ -541,28 +541,57 @@ local AnimaShard = Class('AnimaShard', Node, {
 })
 
 nodes[39057704] = AnimaShard({quest=61225, note=L["anima_shard_61225"]})
+-- 61226 https://shadowlands.wowhead.com/quest=61226/extra-limbs
+-- 61227 https://shadowlands.wowhead.com/quest=61227/the-other-foot
+-- 61228 https://shadowlands.wowhead.com/quest=61228/dugs-missing-shovel
+-- 61229 Vestibule of Eternity?
+-- 61230 https://shadowlands.wowhead.com/quest=61230/outside-influence
+-- 61231 Vestibule of Eternity?
+-- 61232 Vestibule of Eternity?
+-- 61233 Vestibule of Eternity?
+-- 61234 https://shadowlands.wowhead.com/quest=61234/stonehucks-sinstone
 nodes[43637622] = AnimaShard({quest=61235, note=L["anima_shard_61235"]})
+-- 61236 Aspirant's Rest area?
 nodes[52677555] = AnimaShard({quest=61237, note=L["anima_shard_61237"]})
 nodes[53317362] = AnimaShard({quest=61238, note=L["anima_shard_61238"]})
 nodes[53498060] = AnimaShard({quest=61239, note=L["anima_shard_61239"]})
+-- 61240 Aspirant's Crucible?
 nodes[55968666] = AnimaShard({quest=61241, note=L["anima_shard_61241"]})
+-- 61242 Sundancer area?
+-- 61243 https://shadowlands.wowhead.com/quest=61243/thelas-memory-stone
 nodes[61048566] = AnimaShard({quest=61244, note=L["anima_shard_61244"]})
 nodes[58108008] = AnimaShard({quest=61245, note=L["anima_shard_61245"]})
+-- 61246 https://shadowlands.wowhead.com/quest=61246/power-of-the-chosen
 nodes[56877498] = AnimaShard({quest=61247, note=L["anima_shard_61247"]})
+-- 61248 https://shadowlands.wowhead.com/quest=61248/kaletars-freedom
 nodes[65527192] = AnimaShard({quest=61249, note=L["anima_shard_61249"]})
 nodes[58156391] = AnimaShard({quest=61250, note=L["anima_shard_61250"]})
 nodes[54005970] = AnimaShard({quest=61251, note=L["anima_shard_61251"]})
+-- 61252 https://shadowlands.wowhead.com/quest=61252/call-in-a-favor
 nodes[46706595] = AnimaShard({quest=61253, note=L["anima_shard_61253"]})
 nodes[50685614] = AnimaShard({quest=61254, note=L["anima_shard_61254"]})
+-- 61255 https://shadowlands.wowhead.com/quest=61255/rsvp-alexandros-mograine
+-- 61256 https://shadowlands.wowhead.com/quest=61256/rsvp-kleia-and-pelagos
 nodes[34846578] = AnimaShard({quest=61257, note=L["anima_shard_61257"]})
 nodes[51674802] = AnimaShard({quest=61258, note=L["anima_shard_61258"]})
+-- 61259 https://shadowlands.wowhead.com/quest=61259/ayeleths-hunger
 nodes[47084923] = AnimaShard({quest=61260, note=L["anima_shard_61260"]})
+-- 61261 Temple of Courage NE?
+-- 61262 https://shadowlands.wowhead.com/quest=61262/neriths-vengeance
 nodes[40045912] = AnimaShard({quest=61263, note=L["anima_shard_61263"]})
+-- 61264 ???
+-- 61265 https://shadowlands.wowhead.com/quest=61265/blueprint-charm-of-alacrity
+-- 61266 ???
+-- 61267 ???
+-- 61268 ???
+-- 61269 https://shadowlands.wowhead.com/quest=61269/ph-charm-of-perserverance
 nodes[57645567] = AnimaShard({quest=61270, note=L["anima_shard_61270"]})
 nodes[65254288] = AnimaShard({quest=61271, note=L["anima_shard_61271"]})
+-- 61272 https://shadowlands.wowhead.com/quest=61272/blueprint-charm-of-discord
 nodes[72384029] = AnimaShard({quest=61273, note=L["anima_shard_61273"]})
 nodes[66892692] = AnimaShard({quest=61274, note=L["anima_shard_61274"]})
 nodes[57553827] = AnimaShard({quest=61275, note=L["anima_shard_61275"]})
+-- 61276 Firstborne's Bounty?
 nodes[52163939] = AnimaShard({quest=61277, note=L["anima_shard_61277"]})
 nodes[49993826] = AnimaShard({quest=61278, note=L["anima_shard_61278"]})
 nodes[48483491] = AnimaShard({quest=61279, note=L["anima_shard_61279"]})
@@ -572,15 +601,17 @@ nodes[60451288] = AnimaShard({quest=61282, note=L["anima_shard_61282"]})
 nodes[52440942] = AnimaShard({quest=61283, note=L["anima_shard_61283"]})
 nodes[46691804] = AnimaShard({quest=61284, note=L["anima_shard_61284"]})
 nodes[44942845] = AnimaShard({quest=61285, note=L["anima_shard_61285"]})
+-- 61286 West of Sagehaven?
 nodes[37102468] = AnimaShard({quest=61287, note=L["anima_shard_61287"]})
 nodes[42813321] = AnimaShard({quest=61288, note=L["anima_shard_61288"]})
 nodes[42713940] = AnimaShard({quest=61289, note=L["anima_shard_61289"]})
+-- 61290 Consortium Town?
 nodes[31002747] = AnimaShard({quest=61291, note=L["anima_shard_61291"]})
 nodes[30612373] = AnimaShard({quest=61292, note=L["anima_shard_61292"]})
 nodes[24642298] = AnimaShard({quest=61293, note=L["anima_shard_61293"]})
 nodes[26152262] = AnimaShard({quest=61294, note=L["anima_shard_61294"]})
 nodes[24371821] = AnimaShard({quest=61295, note=L["anima_shard_61295"]})
--- nodes[] = AnimaShard({quest=612, note=L["anima_shard_612"]})
+-- 61296 Citadel of Loyalty?
 
 -------------------------------------------------------------------------------
 
@@ -588,10 +619,10 @@ local gardens = Map({id=1693})
 local font = Map({id=1694})
 local wake = Map({id=1666})
 
+wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"]})
 gardens.nodes[46605310] = AnimaShard({quest=61298, note=L["anima_shard_61298"]})
 gardens.nodes[69403870] = AnimaShard({quest=61299, note=L["anima_shard_61299"]})
 font.nodes[49804690] = AnimaShard({quest=61300, note=L["anima_shard_61300"]})
-wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"]})
 
 function dungeonEnabled (self, node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
