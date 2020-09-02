@@ -128,6 +128,7 @@ L["anima_shard_61285"] = "Al final de una pequeña repisa de roca."
 L["anima_shard_61287"] = "En una repisa sobre una cascada pequeña."
 L["anima_shard_61288"] = "En la punta de una repisa pequeña."
 L["anima_shard_61289"] = "Encima de la glorieta."--gazebo es ¿glorieta?
+L["anima_shard_61290"] = "Al final de un estrecho saliente rocoso."
 L["anima_shard_61291"] = "En el fondo del estanque junto a los pies de una estatua."
 L["anima_shard_61292"] = "Sobre un arco de piedra."
 L["anima_shard_61293"] = "Sobre una fina columna de piedra en el nivel inferior."
