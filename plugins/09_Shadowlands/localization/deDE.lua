@@ -90,16 +90,53 @@ Die Kugel wird dich zu der wahren Incense of Judgment bringen. Kommuniziere dort
 L["gift_of_vesiphone"] = "Läute an den Glocken, um eine {npc:170849} erscheinen zu lassen, töte diese um den Schwächungszauber {spell:333239} zu erhalten. Der Wasserfall gegenüber der Truhe wird diesen Schwächungszauber reinigen und dir den {spell:332785} gewähren, um die Truhe öffnen zu können."
 
 L["anima_shard"] = "Verlorener Animakristallsplitter"
-L["anima_shard_61225"] = "Auf einer unteren Plattform unterhalb der Brücke."
-L["anima_shard_61235"] = "Auf einem Felsvorsprung oberhalb des Wasserfalles."
-L["anima_shard_61237"] = "Auf einem Felsvorsprung direkt über dem Wasser."
-L["anima_shard_61238"] = "Im Wasser unterhalb der kleinen Brücke."
+L["anima_shard_61225"] = "Auf einer tiefer gelegenen Plattform unterhalb der Brücke."
+L["anima_shard_61235"] = "An einer Kante oberhalb des Wasserfalles."
+L["anima_shard_61236"] = "Auf einem Torbogen auf halber höhe des Hauptgebäudes."
+L["anima_shard_61237"] = "An einer Kante direkt über dem Wasser."
+L["anima_shard_61238"] = "Im Wasser unterhalb einer kleinen Brücke."
 L["anima_shard_61239"] = "Auf einer dünnen Steinsäule."
 L["anima_shard_61241"] = "Über dem Eingang zur Kammer der ersten Reflexion." --review Blizzard translation
 L["anima_shard_61244"] = "Auf einem Felsen an der Seite der Klippe."
 L["anima_shard_61245"] = "Auf einem Felsen oberhalb eines kleinen Wasserfalles."
 L["anima_shard_61247"] = "An der Mauer über einem kleinen Wandbrunnen."
-L["anima_shard_61249"] = "Versteckt hinter einer Steinsäule auf der oberen Etage der Spitze der Reinheit." --review
+L["anima_shard_61249"] = "Hinter einer Steinsäule auf der oberen Etage der Spitze der Reinheit versteckt."
+L["anima_shard_61250"] = "Hinter einer Treppe."
+L["anima_shard_61251"] = "Unter einer kleinen Glocke"
+L["anima_shard_61253"] = "Auf einem umgestürzten Steintorbogen."
+L["anima_shard_61254"] = "Auf einer kleinen Holzkonstruktion."
+L["anima_shard_61257"] = "An einer kleinen Kante direkt unterhalb von {npc:162523}."
+L["anima_shard_61258"] = "An einer kleinen Kante an der unterseite von Heldenrast."
+L["anima_shard_61260"] = "Am Boden unter einer Plattform."
+L["anima_shard_61263"] = "Auf einer Steinsäule."
+L["anima_shard_61270"] = "Am Fuße eines Baumes."
+L["anima_shard_61271"] = "In einem Bücherregal auf der oberen Plattform."
+L["anima_shard_61273"] = "An einer Kante direkt unter der hervorragenden Klippe."
+L["anima_shard_61274"] = "Unter der Plattform versteckt."
+L["anima_shard_61275"] = "In der Halle der Bestien hinter einigen Fässern." --review Blizzard translation
+L["anima_shard_61277"] = "Auf einer dünnen Steinsäule."
+L["anima_shard_61278"] = "Unter einer Brücke auf einem Felsen."
+L["anima_shard_61279"] = "Auf einer dünnen Steinsäule."
+L["anima_shard_61280"] = "An der Ecke des Tisches."
+L["anima_shard_61281"] = "An einer Kante über dem Schatz der Gedenkopfergabe."
+L["anima_shard_61282"] = "An einer Kante unterhalb der Klippe. Springe auf den Felsen daneben oder du wirst wieder hochteleportiert."
+L["anima_shard_61283"] = "In einer Höhle unter Miris Kapelle, hinter einigen Fässern." --review Blizzard translation
+L["anima_shard_61284"] = "Auf einer Kante unter einem steinigen Überhang. Nach Süden."
+L["anima_shard_61285"] = "Am Ende eines kleinen Felsvorsprungs."
+L["anima_shard_61286"] = "An einer Kante mit Blick auf den Weg." --review
+L["anima_shard_61287"] = "An einer Kante oberhalb des kleinen Wasserfalles."
+L["anima_shard_61288"] = "An der Spitze einer kleinen Kante."
+L["anima_shard_61289"] = "Oben auf dem Pavillon."
+L["anima_shard_61290"] = "Am Ende eines schmalen Felsvorsprungs."
+L["anima_shard_61291"] = "Am Boden des Teiches an den Füßen einer Statue."
+L["anima_shard_61292"] = "Oben auf dem steinernen Torbogen."
+L["anima_shard_61293"] = "Auf einer dünnen Steinsäule auf der unteren Ebene."
+L["anima_shard_61294"] = "Hinter einem Stapel Fässer versteckt."
+L["anima_shard_61295"] = "Hinter {npc:156889} in einem Bücherregal."
+L["anima_shard_61297"] = "Hinter einer Steinsäule."
+L["anima_shard_61298"] = "Hinter einem Liegestuhl."
+L["anima_shard_61299"] = "Hinter einer großen Fackel versteckt."
+L["anima_shard_61300"] = "An der Kante des mittleren Brunnens."
 L["options_toggle_anima_shards"] = "Verlorene Animakristallsplitter"
 L["options_toggle_anima_shards_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg \"Splitterpartie (ID:14339)\" an." --achievement 14339
 
@@ -124,12 +161,12 @@ Sammel Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 3
 • Sammel {spell:306722} von {npc:165027} und {npc:166438} aus dem Süden.
 ]]
 
-L["blackhound_cache"] = "Blackhound Cache" --review Blizzard translation
-L["bladesworn_supply_cache"] = "Bladesworn Supply Cache" --review Blizzard translation
+L["blackhound_cache"] = "Schwarzhund Truhe" --review Blizzard translation
+L["bladesworn_supply_cache"] = "Klingenschwur Vorratstruhe" --review Blizzard translation
 L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:172485} und beide {npc:172479}en, um die Truhe freizuschalten."
 L["kyrian_keepsake_note"] = "Untersuche die {npc:169664}, um den Schatz zu plündern."
 L["plaguefallen_chest_note"] = [[
-Stelle dich in grünen Schleim (benötigt Heilung!), sammel 10 Stapel von {spell:330069} an, um in ein {spell:330092} verwandelt zu werden.
+Stelle dich in grünen Schleim |cffff0000(benötigt Heilung!)|r, sammel 10 Stapel von {spell:330069} an, um in ein {spell:330092} verwandelt zu werden.
 
 Wenn du verwandelt bist, besuche die Höhle unterhalb von {npc:158406}es Plattform (Eingang auf der östlichen Seite ()) und klicke auf das Rohr, um zur Truhe zu gelangen.
 ]]--add coordinates
@@ -138,7 +175,7 @@ L["strange_growth_note"] = "Ziehe {npc:165037} heraus, um den Schatz zu enthüll
 L["vat_of_slime_note"] = "Klicken auf dem Tisch die Flasche an und danach auf den Schleimbehälter."
 
 L["pet_cat"] = "Streichel die verdammte Katze!"
-L["hairball"] = ns.color.Red("Erscheint nur im Schwärenden Sanktum in dem Dungeon Seuchensturz!")
+L["hairball"] = ns.color.Red("Erscheint nur in dem Dungeon \"Seuchensturz\" im Gebiet \n\"Das Schwärende Sanktum\"!")
 L["lime"] = "Sitzt auf dem großen Knochenbogen."
 L["moldstopheles"] = "Laufe um den Stiel herum und springe auf die Pilzplattformen. Verwende für die letzte Plattform ein Reittier und springe in die Ecke an der die Plattform am Stiel befestigt ist."
 L["pus_in_boots"] = "Befindet sich unter der Brücke."
