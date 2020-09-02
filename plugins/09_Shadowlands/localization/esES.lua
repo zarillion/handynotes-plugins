@@ -125,6 +125,7 @@ L["anima_shard_61282"] = "En una repisa debajo de la cima del precipio. Salta so
 L["anima_shard_61283"] = "En una cueva debajo de la Capilla de Miri, detrás de unos barriles."--Revisar que Miri's Chapel sea Capilla de Miri
 L["anima_shard_61284"] = "En una repisa debajo de un saliente rocoso, camino al sur."
 L["anima_shard_61285"] = "Al final de una pequeña repisa de roca."
+L["anima_shard_61286"] = "En una repisa que domina el camino."
 L["anima_shard_61287"] = "En una repisa sobre una cascada pequeña."
 L["anima_shard_61288"] = "En la punta de una repisa pequeña."
 L["anima_shard_61289"] = "Encima de la glorieta."--gazebo es ¿glorieta?
