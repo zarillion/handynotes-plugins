@@ -123,6 +123,7 @@ L["anima_shard_61282"] = "On a ledge way below the cliff top. Jump on the rock n
 L["anima_shard_61283"] = "In a cave under Miri's Chapel, behind some barrels."
 L["anima_shard_61284"] = "On a ledge under a rocky overhang, path to the south."
 L["anima_shard_61285"] = "At the end of a small rock ledge."
+L["anima_shard_61286"] = "On a ledge overlooking the path."
 L["anima_shard_61287"] = "On a ledge above the small waterfall."
 L["anima_shard_61288"] = "On the tip of a small ledge."
 L["anima_shard_61289"] = "On top of the gazebo."

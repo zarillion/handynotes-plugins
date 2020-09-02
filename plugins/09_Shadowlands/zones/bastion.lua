@@ -601,7 +601,7 @@ nodes[60451288] = AnimaShard({quest=61282, note=L["anima_shard_61282"]})
 nodes[52440942] = AnimaShard({quest=61283, note=L["anima_shard_61283"]})
 nodes[46691804] = AnimaShard({quest=61284, note=L["anima_shard_61284"]})
 nodes[44942845] = AnimaShard({quest=61285, note=L["anima_shard_61285"]})
--- 61286 West of Sagehaven?
+nodes[42302402] = AnimaShard({quest=61286, note=L["anima_shard_61286"]})
 nodes[37102468] = AnimaShard({quest=61287, note=L["anima_shard_61287"]})
 nodes[42813321] = AnimaShard({quest=61288, note=L["anima_shard_61288"]})
 nodes[42713940] = AnimaShard({quest=61289, note=L["anima_shard_61289"]})
