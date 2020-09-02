@@ -47,8 +47,8 @@ L["infested_cache"] = "Befallene Truhe"
 L["infested_strongbox"] = "Befallene Schließkassette"
 L["amathet_reliquary"] = "Reliquiar der Amathet"
 
-L["cursed_relic"] = "Benötigt {item:174768}"
-L["tolvir_relic"] = "Benötigt {item:174765}"
+L["cursed_relic"] = "|cffff0000Benötigt {item:174768}|r"
+L["tolvir_relic"] = "|cffff0000Benötigt {item:174765}|r"
 
 L["options_toggle_alpaca_uldum"] = "Freundliches Alpaka"
 L["options_toggle_alpaca_uldum_desc"] = "Zeigt Positionen für Gersahlstrauch und Freundliches Alpaka."
@@ -102,10 +102,10 @@ L["tisiphon"] = "Klicke auf Danielles Glücksangelrute."
 
 L["ambered_cache"] = "Bernbesetzte Truhe"
 L["ambered_coffer"] = "Bernbesetzte Kiste"
-L["mantid_relic"] = "Benötigt {item:174766}"
+L["mantid_relic"] = "|cffff0000Benötigt {item:174766}|r"
 L["mogu_plunder"] = "Mogubeute"
 L["mogu_strongbox"] = "Schließkassette der Mogu"
-L["mogu_relic"] = "Benötigt {item:174767}"
+L["mogu_relic"] = "|cffff0000Benötigt {item:174767}|r"
 
 L["abyssal_ritual"] = "Töte die {npc:153179} und dann die {npc:153171}."
 L["bound_guardian"] = "Töte drei {npc:154200}, um {npc:154187} zu befreien."
