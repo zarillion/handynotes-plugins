@@ -167,24 +167,24 @@ Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando 
 L["blackhound_cache"] = "Alijo del Can Negro"--Revisar que Blackhound Cache sea Alijo del Can Negro
 L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
 L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
-L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
+L["kyrian_keepsake_note"] = "Inspecciona el {npc:169664} para despojar el tesoro."
 L["plaguefallen_chest_note"] = [[
-Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} and be transformed into a {spell:330092}.
+Quédate de pie en la baba verde (¡requiere sanación!) para conseguir 10 acumulaciones de {spell:330069} y transformarte en {spell:330092}.
 
-Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on the east side) and click the pipe to transport to the chest.
+Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:158406} (la entrada está en el lado este) y haz click en el tubo para llegar al cofre.
 ]]
-L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
-L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
-L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
+L["stolen_jar_note"] = "En una cueva debajo de la seta gigante."
+L["strange_growth_note"] = "Estira de {npc:165037} para revelar el tesoro."
+L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar que vat of slime sea cuba de baba
 
-L["pet_cat"] = "Pet the damn cat!"
-L["hairball"] = ns.color.Red("Only appears in the Festering Sanctum inside the Plaguefall dungeon!")
-L["lime"] = "Sitting on top of the large bone arch."
-L["moldstopheles"] = "Run around the back of the stalk and jump up the mushroom platforms. For the final platform, use a mount and jump at the corner where it meets the stalk."
-L["pus_in_boots"] = "Located under the bridge."
+L["pet_cat"] = "¡Acaricia al maldito gato!"--Revisar que Pet the damn cat! sea ¡Acaricia al maldito gato!
+L["hairball"] = ns.color.Red("¡Sólo aparece en el Santuario Purulento dentro de la mazmorra Pestecadencia!")--Revisar que Festering Sanctum sea Santuario Purulento y Plaguefall sea Pestecadencia
+L["lime"] = "Reposando sobre el gran arco óseo."
+L["moldstopheles"] = "Corre alrededor de la parte posterior del tallo y salta en las plataformas con forma de seta. Para la última plataforma, usa una motura y salta a la raíz que rodea el tallo."
+L["pus_in_boots"] = "Está debajo del puente."
 
-L["options_toggle_kittens"] = "Kittens"
-L["options_toggle_kittens_desc"] = "Display locations of kittens for the Nine Afterlives achievement."
+L["options_toggle_kittens"] = "Gatitos"
+L["options_toggle_kittens_desc"] = "Muestra las localizaciones de los gatitos para el logro Nueve Restos de Vidas."--Revisar que Nine Afterlives sea Nueve Restos de Vidas
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
