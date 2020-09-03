@@ -1,4 +1,4 @@
-local ADDON_NAME, _ = ...
+local ADDON_NAME, ns = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "deDE", false, true)
 if not L then return end
 --German translation by Dathwada EU-Eredar
@@ -47,8 +47,8 @@ L["infested_cache"] = "Befallene Truhe"
 L["infested_strongbox"] = "Befallene Schließkassette"
 L["amathet_reliquary"] = "Reliquiar der Amathet"
 
-L["cursed_relic"] = "|cffff0000Benötigt {item:174768}|r"
-L["tolvir_relic"] = "|cffff0000Benötigt {item:174765}|r"
+L["cursed_relic"] = ns.color.Red("Benötigt {item:174768}")
+L["tolvir_relic"] = ns.color.Red("Benötigt {item:174765}")
 
 L["options_toggle_alpaca_uldum"] = "Freundliches Alpaka"
 L["options_toggle_alpaca_uldum_desc"] = "Zeigt Positionen für Gersahlstrauch und Freundliches Alpaka."
@@ -102,10 +102,10 @@ L["tisiphon"] = "Klicke auf Danielles Glücksangelrute."
 
 L["ambered_cache"] = "Bernbesetzte Truhe"
 L["ambered_coffer"] = "Bernbesetzte Kiste"
-L["mantid_relic"] = "|cffff0000Benötigt {item:174766}|r"
+L["mantid_relic"] = ns.color.Red("Benötigt {item:174766}")
 L["mogu_plunder"] = "Mogubeute"
 L["mogu_strongbox"] = "Schließkassette der Mogu"
-L["mogu_relic"] = "|cffff0000Benötigt {item:174767}|r"
+L["mogu_relic"] = ns.color.Red("Benötigt {item:174767}")
 
 L["abyssal_ritual"] = "Töte die {npc:153179} und dann die {npc:153171}."
 L["bound_guardian"] = "Töte drei {npc:154200}, um {npc:154187} zu befreien."
@@ -157,7 +157,7 @@ Violett => Schwarz
 L["bear_spirit"] = "Bärengeist"
 L["bear_spirit_note"] = "Töte {npc:160404} und alle Wellen von Gegnern, um einen 10% Tempo Stärkungszauber zu erhalten."
 L["buffs_change"] = "Verfügbare Stärkungszauber ändern sich jeden Durchlauf. Wenn das Gebäude geschlossen ist, der NPC oder das Objekt fehlt ist dieser in diesem Durchlauf nicht verfügbar."
-L["clear_sight"] = "Benötigt Klare Sicht Rang %d."
+L["clear_sight"] = ns.color.Red("Benötigt Klare Sicht Rang %d.")
 L["craggle"] = "Platziere ein Spielzeug auf dem Boden (z.b. das {item:44606), um ihn abzulenken. Ziehe seine Bots zurseite und töte diese zuerst."
 L["empowered"] = "Ermächtigt"
 L["empowered_note"] = "Gehe durch das Minenfeld die Treppe nach oben und stelle dich auf die Experimentelle Stärkungsmine für einen 10% Schaden Stärkungszauber."
