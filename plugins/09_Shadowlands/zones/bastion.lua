@@ -116,14 +116,14 @@ nodes[55358024] = Rare({
     id=161527,
     quest=nil,
     label=L["beasts_of_bastion"],
-    note=L["activation_unknown"],
+    note=L["beasts_of_bastion_note"],
     rewards={
         Achievement({id=14307, criteria={48825,48826,48827}}),
         Toy({item=174445}), -- Glimmerfly Cocoon
-        Transmog({item=179485, slot=L["dagger"]}), -- Fang of Nemaeus
-        Transmog({item=179486, slot=L["1h_mace"]}), -- Sigilback's Smashshell
-        Transmog({item=179487, slot=L["warglaive"]}), -- Aethon's Horn
-        Transmog({item=179488, slot=L["fist"]}), -- Cloudtail's Paw
+        Transmog({item=179485, slot=L["dagger"]}), -- Fang of Nemaeus (60569)
+        Transmog({item=179486, slot=L["1h_mace"]}), -- Sigilback's Smashshell (60570)
+        Transmog({item=179487, slot=L["warglaive"]}), -- Aethon's Horn (58526)
+        Transmog({item=179488, slot=L["fist"]}), -- Cloudtail's Paw (60571)
     }
 }) -- Beasts of Bastion
 

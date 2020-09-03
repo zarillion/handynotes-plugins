@@ -1,3 +1,7 @@
+# v3
+
+* Added five more Lost Anima Crystal locations. One more to go!
+
 # v2
 
 * Added remaining discovered Lost Anima Crystals.
