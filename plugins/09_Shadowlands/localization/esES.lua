@@ -147,26 +147,26 @@ L["options_toggle_anima_shards_desc"] = "Muestra la localización de los 50 frag
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
 
-L["chelicerae_note"] = "Destroy the {npc:159885} to activate the rare."
-L["deepscar_note"] = "Can appear in multiple entrances to the Theater of Pain."
-L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
-L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
-L["malkorak_note"] = "At the top of the tower (lots of stairs)."
-L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
+L["chelicerae_note"] = "Destruye la {npc:159885} para activar a {npc:159886}."
+L["deepscar_note"] = "Puede aparecer en varias entradas al Teatro del Dolor."
+L["gieger_note"] = "Tira de {npc:162815} para activar a {npc:162741}."
+L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:162588}."
+L["malkorak_note"] = "En lo alto de la torre (montones de escaleras)."
+L["schmitd_note"] = "Usa el {spell:313451} cercano para romper su escudo."
 
 L["mixed_pool_note"] = [[
-Gather ingredients from the surrounding mobs and toss them into the pool. Once 30 ingredients have been added, one of seven rares will spawn depending on the combination used.
+Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando hayan sido añadidos 30 ingredientes, aparecerá uno de los siete raros dependiendo de la combinación usada.
 
-• Collect {spell:306713} from {npc:167923} and {npc:167948} to the north.
+• Recoge {spell:306713} de {npc:167923} y de {npc:167948} al norte.
 
-• Collect {spell:306719} from {npc:165015} and {npc:171142} to the south.
+• Recoge {spell:306719} de {npc:165015} y de {npc:171142} al sur.
 
-• Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
+• Recoge {spell:306722} de {npc:165027} y de {npc:166438} al sur.
 ]]
 
-L["blackhound_cache"] = "Blackhound Cache"
-L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
-L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
+L["blackhound_cache"] = "Alijo del Can Negro"--Revisar que Blackhound Cache sea Alijo del Can Negro
+L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
+L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
 L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
 L["plaguefallen_chest_note"] = [[
 Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} and be transformed into a {spell:330092}.
