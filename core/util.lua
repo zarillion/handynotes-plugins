@@ -74,6 +74,14 @@ function renderLinks(str, nameOnly)
             local name = NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))
             if nameOnly then return name end
             return ns.color.NPC(name)
+        elseif type == 'achievement' then
+            if nameOnly then
+                local _, name = GetAchievementInfo(id)
+                if name then return name end
+            else
+                local link = GetAchievementLink(id)
+                if link then return link end
+            end
         elseif type == 'currency' then
             local info = C_CurrencyInfo.GetCurrencyInfo(id)
             if info then

@@ -14,6 +14,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
@@ -296,7 +297,7 @@ nodes[30365517] = Rare({
 nodes[61409050] = Rare({
     id=170548,
     quest=nil,
-    note=L["activation_unknown"],
+    note=L["sundancer_note"],
     rewards={
         Achievement({id=14307, criteria=48832})
     },
@@ -515,13 +516,16 @@ nodes[40504980] = Treasure({
 }) -- Stolen Equipment
 
 nodes[36012652] = Treasure({
-    quest=nil,
+    quest=61183,
     requires="{item:180858}",
-    note=L["requirement_not_found"],
+    note=L["vesper_of_silver_wind"],
     rewards={
-        Achievement({id=14311, criteria=50057})
+        Achievement({id=14311, criteria=50057}),
+        Mount({item=180772, id=1404}) -- Bastion - Larion - Silver
     }
 }) -- Vesper of the Silver Wind
+-- 61229 (mallet forged)
+-- 61191 (vesper rung)
 
 nodes[58667135] = Treasure({
     quest=60478,
@@ -625,6 +629,7 @@ local font = Map({id=1694})
 local wake = Map({id=1666})
 
 -- 61296 Necrotic Wake
+wake.nodes[52508860] = AnimaShard({quest=61296, note=L["anima_shard_61296"]})
 wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"]})
 gardens.nodes[46605310] = AnimaShard({quest=61298, note=L["anima_shard_61298"]})
 gardens.nodes[69403870] = AnimaShard({quest=61299, note=L["anima_shard_61299"]})

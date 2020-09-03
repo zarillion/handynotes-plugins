@@ -63,6 +63,7 @@ Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}
 Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside.
 ]]
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
+L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
 L["unstable_memory_note"] = "Can be spawned when {npc:171018}s are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
 --L["wingflayer_note"] = "To summon, click the horn on the nearby table (southeast, up the stairs)."
 
@@ -71,6 +72,7 @@ L["experimental_construct_part"] = "Loot a nearby {item:180534} and use it to re
 L["larion_harness"] = "Located inside the Hall of Beasts."
 L["memorial_offering"] = "Purchase a {item:180788} from {npc:171526} in Aspirant's Rest. Place it in the drink tray near the chest to obtain the {item:180797}."
 L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them on the nearby tribute platters to reveal the treasure."
+L["vesper_of_silver_wind"] = "Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to Spires of Ascension to forge a {item:180858}."
 
 L["gift_of_agthia"] = "Click the lit torch near the broken bridge to the northwest and carry {spell:333320} from torch to torch until you reach the chest. Lighting the final torch will grant you {spell:333063}."
 L["gift_of_chyrus"] = "Kneel in front of the chest to be granted {spell:333045}."
@@ -138,6 +140,7 @@ L["anima_shard_61292"] = "On top of the stone archway."
 L["anima_shard_61293"] = "On top of a thin stone column on the lower level."
 L["anima_shard_61294"] = "Hidden behind a stack of barrels."
 L["anima_shard_61295"] = "Behind {npc:156889} in a bookshelf."
+L["anima_shard_61296"] = "Behind the large fallen bell."
 L["anima_shard_61297"] = "Behind a stone pillar."
 L["anima_shard_61298"] = "Sitting behind a lounge chair."
 L["anima_shard_61299"] = "Hidden behind a large torch."
