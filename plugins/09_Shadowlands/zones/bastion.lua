@@ -576,7 +576,7 @@ nodes[34846578] = AnimaShard({quest=61257, note=L["anima_shard_61257"]})
 nodes[51674802] = AnimaShard({quest=61258, note=L["anima_shard_61258"]})
 -- 61259 https://shadowlands.wowhead.com/quest=61259/ayeleths-hunger
 nodes[47084923] = AnimaShard({quest=61260, note=L["anima_shard_61260"]})
--- 61261 Temple of Courage NE?
+nodes[41394663] = AnimaShard({quest=61261, note=L["anima_shard_61261"]})
 -- 61262 https://shadowlands.wowhead.com/quest=61262/neriths-vengeance
 nodes[40045912] = AnimaShard({quest=61263, note=L["anima_shard_61263"]})
 -- 61264 ???
