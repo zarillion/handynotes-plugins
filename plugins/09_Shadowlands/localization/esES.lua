@@ -30,7 +30,7 @@ L["wrigglemortis_note"] = "Estira el {npc:164179} para sacarlo de la tierra y ha
 L["star_lake"] = "Anfiteatro del Lago Estrellado"--Revisar que Star Lake Amphitheater sea Anfiteatro del Lago Estrellado"
 L["star_lake_note"] = "Habla con {npc:171743}, el Director de Escena, el cual iniciará uno de los combates especiales."--Revisar que Stage Director sea Director de Escena
 
-L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure." --WAS IN THE WRONG ZONE PLS TRANSLATE THIS TOO
+L["darkreach_supplies"] = "Salta en la {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro Alijo de la Noche." --Revisar que Cache of the Night treasure sea Alijo de la Noche
 L["desiccated_moth"] = "Salta sobre {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el Quemador de Incienso para conseguir el tesoro."--Revisar que Incense Burner sea Quemador de Incienso
 L["dreamsong_heart"] = "Salta sobre {npc:169997} lejos al noreste para ser lanzado dentro del árbol."
 L["elusive_faerie_cache"] = "Coge {spell:333923} en la esquina noreste de la Arboleda del Recuerdo y lo usas para despojar el cofre."--Revisar que Eventide Grove sea Arboleda del Recuerdo, comprobar el artículo si es lo o la
@@ -45,7 +45,7 @@ L["tame_gladerunner"] = "Asaltaclaros Domado"--Revisar que Tame Gladerunner sea 
 L["tame_gladerunner_note"] = [[
 Lee el "Cuento de una Confusión" y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
 
-Si tomas el camino equivocado y desaparece {npc:171767} cuando llegues al final, vuelve al comienzo y lee de nuevo el "Cuento de una Confusión" antes de volverlo a intentar.
+Si tomas el camino equivocado y desaparece el {npc:171699} cuando llegues al final, vuelve al comienzo y lee de nuevo el "Cuento de una Confusión" antes de volverlo a intentar. Si {npc:171767} no está, tendrás que esperar a que aparezca.
 ]]--Revisar que "Tale of the Tangle" sea "Cuento de una Confusión"
 
 -------------------------------------------------------------------------------
@@ -55,7 +55,10 @@ Si tomas el camino equivocado y desaparece {npc:171767} cuando llegues al final,
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con {npc:171211} como objetivo para activarlo."
 L["basilofos_note"] = "Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}."
 L["beasts_of_bastion"] = "Bestias del Bastión"
-L["beasts_of_bastion_note"] = "Habla con {npc:161441} para invocar una de las cuatro bestias."
+L["beasts_of_bastion_note"] = [[
+Habla con {npc:161441} para invocar una de las cuatro bestias.
+|cFFFF0000NOTE|r: El NPC se bugea frecuentemente y no hablará contigo. Aethon no es requisito para el logro y el segundo, Sigilback, realmente es Cloudtail.
+]]--Revisar los nombres de los raros del logro
 L["bookkeeper_mnemis_note"] = "Tiene la posibilidad de aparecer en lugar de los {npc:166867} del sitio."
 L["cloudfeather_patriarch_note"] = "Mata {npc:158110} en el aŕea hasta que {npc:170932} aparezca."
 L["collector_astor_note"] = "Lee los seis capítulos del Legado de Mercia dispersos por la habitación y recibirás un susurro de {npc:157979}. Habla con ella para recibir {spell:333779} el cual te permitirá encontrar el {item:180569} al noroeste. Al devolverle el capítulo, aparecerá {npc:171014}."--Revisar si Mercia's Legacy es Legado de Mercia
@@ -69,6 +72,7 @@ Recoge {item:172451} y úsalas para dar a {npc:158659} acumulaciones de {spell:3
 Las motas se pueden recoger de los Recipientes de Ánima Agotados cercanos localizados en la habitación o justo fuera.
 ]]--Revisar si Depleted Anima Canisters son Recipientes de Ánima Agotados
 L["nikara_note"] = "Con otros dos jugadores, haz click en el Ancient Incense para invocar a {npc:160882}."
+L["sundancer_note"] = "Haz click en la estatua para conseguir el buff {spell:332309}, entonces usa {item:180445} para planear hasta {npc:170548} y montarlo."
 L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén presentes. Arrastra un {npc:171018} dentro de otros para que reciba 10 acumulaciones de {spell:333558}, lo que hará que se convierta en {npc:171008}."
 --L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el cuerno de la mesa cercana que hay al sureste (subiendo unas escaleras)."
 
@@ -77,6 +81,7 @@ L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar 
 L["larion_harness"] = "Localizado dentro del Salón de las Bestias."--Revisar si Hall of Beasts es Salón de las Bestias
 L["memorial_offering"] = "Compra una botella de {item:180788} a {npc:171526} en el Retiro del Aspirante. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}."--Revisar si Aspirant's Rest es Retiro del Aspirante
 L["scroll_of_aeons"] = "Coge de un cuenco 2 {item:173973} en el centro del área y colócalos en los cuencos de tributo cercanos para revelar el tesoro {item:173984}."
+L["vesper_of_silver_wind"] = "Completa el logro {achievement:14339} y habla con {npc:171732} cerca de la entrada a los Capiteles de la Ascensión para forjar {item:180858}."
 
 L["gift_of_agthia"] = "Haz click en la antorcha encendida cerca del puente roto al noroeste y lleva la {spell:333320} de antorcha a antorcha hasta llegar al cofre. Encender la última antorcha te dará la {spell:333063}."
 L["gift_of_chyrus"] = "Arrollídate frente al cofre para conseguir la {spell:333045}."
@@ -144,6 +149,7 @@ L["anima_shard_61292"] = "Sobre un arco de piedra."
 L["anima_shard_61293"] = "Sobre una fina columna de piedra en el nivel inferior."
 L["anima_shard_61294"] = "Escondido detrás de una pila de barriles."
 L["anima_shard_61295"] = "Detrás del {npc:156889} en una estantería."
+L["anima_shard_61296"] = "Detrás de una gran campana caida."
 L["anima_shard_61297"] = "Detrás de un pilar de piedra."
 L["anima_shard_61298"] = "Reposando detrás de un sillón."
 L["anima_shard_61299"] = "Escondido detrás de una gran antorcha."
