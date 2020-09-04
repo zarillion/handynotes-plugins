@@ -379,7 +379,7 @@ nodes[37683688] = Treasure({
         Transmog({item=179510, slot=L["warglaive"]}) -- Dreamsong Warglaive
     },
     pois={
-        POI({43592290}) -- Bounding Shroom
+        POI({38013631}) -- Bounding Shroom
     }
 }) -- Dreamsong Heart
 

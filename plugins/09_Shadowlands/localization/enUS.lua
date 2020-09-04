@@ -28,8 +28,9 @@ L["wrigglemortis_note"] = "Pull the {npc:164179} to spawn the rare."
 L["star_lake"] = "Star Lake Amphitheater"
 L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one of the special encounters."
 
+L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["desiccated_moth"] = "Jump on the {npc:169997} northwest of the tree to float onto a branch. Burn {item:180784} in the Incense Burner to collect the treasure."
-L["dreamsong_heart"] = "Use the {npc:169997} far to the northeast to get launched into the tree."
+L["dreamsong_heart"] = "Use the {npc:169997} beneath the tree to get launched into the tree."
 L["elusive_faerie_cache"] = "Pick up the {spell:333923} in the northeast corner of Eventide Grove and use it to loot the chest."
 L["enchanted_dreamcatcher"] = "Hanging from the top of the roots. Easiest to jump up on the west side."
 L["faerie_trove"] = "Located underneath the platform."
@@ -218,7 +219,6 @@ L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she
 L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769}s and waves of {npc:155795}s until the rare spawns."
 L["worldedge_gorger_note"] = "Obtain an {item:173939} from World Reavers, Devourers and Mites in the Banewood and the Endmire. Use it to light the Worldedge Braziers and summon the rare."
 
-L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
 L["secret_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
