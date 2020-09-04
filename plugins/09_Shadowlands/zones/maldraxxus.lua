@@ -484,15 +484,6 @@ ns.maps[festering_sanctum.id] = festering_sanctum
 -- Add Hairball to the world map
 nodes[68108620] = HAIRBALL
 
-ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)
-    -- Watch for a spellcast event that signals the kitten was pet.
-    -- https://www.wowhead.com/spell=321337/petting
-    local _, source, _, spellID = ...
-    if source == 'player' and spellID == 321337 then
-        C_Timer.After(1, function() ns.addon:Refresh() end)
-    end
-end)
-
 -------------------------------------------------------------------------------
 
 function map:enabled (node, coord, minimap)

@@ -9,6 +9,21 @@ local isinstance = ns.isinstance
 local Rare = ns.node.Rare
 
 -------------------------------------------------------------------------------
+---------------------------------- CALLBACKS ----------------------------------
+-------------------------------------------------------------------------------
+
+ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)
+    -- Watch for a spellcast event that signals the kitten was pet.
+    -- https://www.wowhead.com/spell=321337/petting
+    -- Watch for a spellcast event for collecting a shard
+    -- https://shadowlands.wowhead.com/spell=335400/collecting
+    local _, source, _, spellID = ...
+    if source == 'player' and (spellID == 321337 or spellID == 335400) then
+        C_Timer.After(1, function() ns.addon:Refresh() end)
+    end
+end)
+
+-------------------------------------------------------------------------------
 ---------------------------------- COVENANTS ----------------------------------
 -------------------------------------------------------------------------------
 
