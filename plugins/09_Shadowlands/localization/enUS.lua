@@ -237,5 +237,13 @@ L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
 L["smuggled_cache"] = "Smuggled Cache"
 L["wayfairer_spoils"] = "Wayfairer's Abandoned Spoils"
 
+L["sinrunner_note"] = "Bring food and supplies to {npc:173468} for six days to obtain her reins. She only appears for a few minutes at a time."
+L["sinrunner_note_day1"] = "Offer Blanchy 8 {item:182581} from farm areas in Westfall."
+L["sinrunner_note_day2"] = "Obtain a {item:182585} from {npc:173570} in Darkhaven and use it to clean Blanchy."
+L["sinrunner_note_day3"] = "Equip Blanchy with 4 {item:182595} found on the roads surrounding Darkhaven."
+L["sinrunner_note_day4"] = "Pick up the {item:182620} near {npc:173570} and fill it with water from Bastion or Ardenweald. Return the {item:182599} to Blanchy."
+L["sinrunner_note_day5"] = "Equip Blanchy with a {item:182597}, sold by {npc:171808} near the Night Market in exchange for assorted meats."
+L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} by the Hole in the Wall."
+
 L["options_toggle_carriages"] = "Carriages"
 L["options_toggle_carriages_desc"] = "Display locations and paths of rideable carriages."
