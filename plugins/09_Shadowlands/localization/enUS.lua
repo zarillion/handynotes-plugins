@@ -42,7 +42,7 @@ L["tame_gladerunner"] = "Tame Gladerunner"
 L["tame_gladerunner_note"] = [[
 Read the "Tale of the Tangle" and then follow the blue lamps through the path until you reach {npc:171767}. Kill him and then loot the {npc:171699}.
 
-If you take a wrong path and {npc:171767} disappears when you reach the end, go back to the start and read "Tale of the Tangle" once more before trying again.
+If you take a wrong path and {npc:171699} disappears when you reach the end, go back to the start and read "Tale of the Tangle" once more before trying again. If {npc:171767} is not there, you will have to wait for him to respawn.
 ]]
 
 -------------------------------------------------------------------------------
