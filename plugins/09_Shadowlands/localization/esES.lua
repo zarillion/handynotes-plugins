@@ -57,6 +57,7 @@ L["basilofos_note"] = "Muévete alrededor de la roca hasta que una marca de fija
 L["beasts_of_bastion"] = "Bestias del Bastión"
 L["beasts_of_bastion_note"] = [[
 Habla con {npc:161441} para invocar una de las cuatro bestias.
+
 |cFFFF0000NOTE|r: El NPC se bugea frecuentemente y no hablará contigo. Aethon no es requisito para el logro y el segundo, Sigilback, realmente es Cloudtail.
 ]]--Revisar los nombres de los raros del logro
 L["bookkeeper_mnemis_note"] = "Tiene la posibilidad de aparecer en lugar de los {npc:166867} del sitio."
