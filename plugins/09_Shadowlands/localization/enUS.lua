@@ -250,3 +250,8 @@ L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} b
 
 L["options_toggle_carriages"] = "Carriages"
 L["options_toggle_carriages_desc"] = "Display locations and paths of rideable carriages."
+
+-------------------------------------------------------------------------------
+----------------------------------- THE MAW -----------------------------------
+-------------------------------------------------------------------------------
+
