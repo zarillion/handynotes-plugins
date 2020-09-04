@@ -371,7 +371,7 @@ nodes[32742127] = Treasure({
 nodes[47236216] = Treasure({
     quest=59358,
     rewards={
-		Achievement({id=14312, criteria=50063}),
+        Achievement({id=14312, criteria=50063}),
         Transmog({item=180749, slot=L["shield"]}) -- Hauk's Battle-Scarred Bulwark
     }
 }) -- Ornate Bone Shield
