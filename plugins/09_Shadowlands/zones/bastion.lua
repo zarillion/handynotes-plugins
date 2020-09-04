@@ -380,6 +380,22 @@ nodes[35834811] = Treasure({
     }
 }) -- Broken Flute
 
+nodes[53498880] = Treasure({
+    quest=nil,
+    label=L["cache_of_the_ascended"],
+    note=L["cache_of_the_ascended_note"],
+    rewards={},
+    pois={
+        POI({
+            64326980, -- Vesper of Purity
+            33325980, -- Vesper of Courage
+            71933896, -- Vesper of Humility
+            39132038, -- Vesper of Wisdom
+            32171776, -- Vesper of Loyalty
+        })
+    }
+}) -- Cache of the Ascended
+
 nodes[51471795] = Treasure({
     quest=61052,
     requires="{item:180534}",
