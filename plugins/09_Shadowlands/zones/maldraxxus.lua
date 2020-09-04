@@ -368,6 +368,14 @@ nodes[32742127] = Treasure({
     }
 }) -- Kyrian Keepsake
 
+nodes[47236216] = Treasure({
+    quest=59358,
+    rewards={
+		Achievement({id=14312, criteria=50063}),
+        Transmog({item=180749, slot=L["shield"]}) -- Hauk's Battle-Scarred Bulwark
+    }
+}) -- Ornate Bone Shield
+
 nodes[57667581] = Treasure({
     quest=61474,
     note=L["plaguefallen_chest_note"],
