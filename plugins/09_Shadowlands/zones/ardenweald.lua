@@ -461,6 +461,22 @@ nodes[76672974] = Treasure({
     }
 }) -- Swollen Anima Seed
 
+nodes[26285897] = Treasure({
+    quest=61192, -- 61208 = failed, 61198 = passed
+    label=L["tame_gladerunner"],
+    note=L["tame_gladerunner_note"],
+    rewards={
+        Mount({item=180727, id=1360}) -- Shimmermist Runner
+    },
+    pois={
+        Path({
+            32545304, 32005370, 31345426, 30745484, 30115532, 29455591,
+            29735683, 30015767, 29335798, 29385915, 28725860, 28205819,
+            27515788, 26985831, 26285897
+        })
+    }
+}) -- Tame Gladerunner
+
 nodes[52943729] = Treasure({
     quest=61065,
     rewards={

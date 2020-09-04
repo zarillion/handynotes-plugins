@@ -38,6 +38,13 @@ L["hearty_dragon_plume"] = "Click {spell:333554} at the top of the nearby waterf
 L["old_ardeite_note"] = "Kill {npc:160747} and {npc:160748} in Shimmerbough to the southeast for {item:174042}. Use this item to fly up near the rare and tag it."
 L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 
+L["tame_gladerunner"] = "Tame Gladerunner"
+L["tame_gladerunner_note"] = [[
+Read the "Tale of the Tangle" and then follow the blue lamps through the path until you reach {npc:171767}. Kill him and then loot the {npc:171699}.
+
+If you take a wrong path and {npc:171767} disappears when you reach the end, go back to the start and read "Tale of the Tangle" once more before trying again.
+]]
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
