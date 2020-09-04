@@ -78,8 +78,20 @@ function Achievement:render (tooltip)
             r, g, b = 0, 1, 0
         end
 
-        if c.note and ns.addon.db.profile.show_notes then
-            tooltip:AddDoubleLine(ctext, c.note, r, g, b)
+        local note = c.note
+        local status = nil
+
+        if c.quest then
+            if C_QuestLog.IsQuestFlaggedCompleted(c.quest) then
+                status = ns.status.Green(L['D'])
+            else
+                status = ns.status.Red(L['A'])
+            end
+            note = note and (note..'  '..status) or status
+        end
+
+        if note then
+            tooltip:AddDoubleLine(ctext, note, r, g, b)
         else
             tooltip:AddLine(ctext, r, g, b)
         end
@@ -277,7 +289,7 @@ function Transmog:render (tooltip)
     end
 
     local suffix = ' ('..L[self.slot]..')'
-    if self.note and ns.addon.db.profile.show_notes then
+    if self.note then
         suffix = suffix..' ('..self.note..')'
     end
 

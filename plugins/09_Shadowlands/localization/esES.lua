@@ -1,6 +1,6 @@
 --	Spanish Localization by (EU) Krovikan-Minahonda
 
-local ADDON_NAME, _ = ...
+local ADDON_NAME, ns = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "esES", false, true)
 if not L then return end
 
@@ -30,6 +30,7 @@ L["wrigglemortis_note"] = "Estira el {npc:164179} para sacarlo de la tierra y ha
 L["star_lake"] = "Anfiteatro del Lago Estrellado"--Revisar que Star Lake Amphitheater sea Anfiteatro del Lago Estrellado"
 L["star_lake_note"] = "Habla con {npc:171743}, el Director de Escena, el cual iniciará uno de los combates especiales."--Revisar que Stage Director sea Director de Escena
 
+L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure." --WAS IN THE WRONG ZONE PLS TRANSLATE THIS TOO
 L["desiccated_moth"] = "Salta sobre {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el Quemador de Incienso para conseguir el tesoro."--Revisar que Incense Burner sea Quemador de Incienso
 L["dreamsong_heart"] = "Salta sobre {npc:169997} lejos al noreste para ser lanzado dentro del árbol."
 L["elusive_faerie_cache"] = "Coge {spell:333923} en la esquina noreste de la Arboleda del Recuerdo y lo usas para despojar el cofre."--Revisar que Eventide Grove sea Arboleda del Recuerdo, comprobar el artículo si es lo o la
@@ -47,7 +48,7 @@ L["swollen_anima_seed"] = "Una gran semilla reposando dentro del tronco de un á
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con {npc:171211} como objetivo para activarlo."
 L["basilofos_note"] = "Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}."
 L["beasts_of_bastion"] = "Bestias del Bastión"
---L["beasts_of_bastion_note"] = "Habla con {npc:161441} para invocar una de las cuatro bestias."
+L["beasts_of_bastion_note"] = "Habla con {npc:161441} para invocar una de las cuatro bestias."
 L["bookkeeper_mnemis_note"] = "Tiene la posibilidad de aparecer en lugar de los {npc:166867} del sitio."
 L["cloudfeather_patriarch_note"] = "Mata {npc:158110} en el aŕea hasta que {npc:170932} aparezca."
 L["collector_astor_note"] = "Lee los seis capítulos del Legado de Mercia dispersos por la habitación y recibirás un susurro de {npc:157979}. Habla con ella para recibir {spell:333779} el cual te permitirá encontrar el {item:180569} al noroeste. Al devolverle el capítulo, aparecerá {npc:171014}."--Revisar si Mercia's Legacy es Legado de Mercia
@@ -110,6 +111,7 @@ L["anima_shard_61254"] = "Encima de una estructura de madera pequeña."
 L["anima_shard_61257"] = "En una repisa pequeña justo debajo de {npc:162523}."
 L["anima_shard_61258"] = "En una repisa pequeña en la parte inferior del Reposo del Héroe."--Revisar que Hero's Rest sea Reposo del Héroe
 L["anima_shard_61260"] = "En el suelo debajo de la plataforma."
+L["anima_shard_61261"] = "En una respisa sobre la cueva de {npc:163460}."
 L["anima_shard_61263"] = "Sobre un pilar de piedra."
 L["anima_shard_61270"] = "Reposando en la base de un árbol."
 L["anima_shard_61271"] = "En una estantería en la plataforma superior."
@@ -146,44 +148,44 @@ L["options_toggle_anima_shards_desc"] = "Muestra la localización de los 50 frag
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
 
-L["chelicerae_note"] = "Destroy the {npc:159885} to activate the rare."
-L["deepscar_note"] = "Can appear in multiple entrances to the Theater of Pain."
-L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
-L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
-L["malkorak_note"] = "At the top of the tower (lots of stairs)."
-L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
+L["chelicerae_note"] = "Destruye la {npc:159885} para activar a {npc:159886}."
+L["deepscar_note"] = "Puede aparecer en varias entradas al Teatro del Dolor."
+L["gieger_note"] = "Tira de {npc:162815} para activar a {npc:162741}."
+L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:162588}."
+L["malkorak_note"] = "En lo alto de la torre (montones de escaleras)."
+L["schmitd_note"] = "Usa el {spell:313451} cercano para romper su escudo."
 
 L["mixed_pool_note"] = [[
-Gather ingredients from the surrounding mobs and toss them into the pool. Once 30 ingredients have been added, one of seven rares will spawn depending on the combination used.
+Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando hayan sido añadidos 30 ingredientes, aparecerá uno de los siete raros dependiendo de la combinación usada.
 
-• Collect {spell:306713} from {npc:167923} and {npc:167948} to the north.
+• Recoge {spell:306713} de {npc:167923} y de {npc:167948} al norte.
 
-• Collect {spell:306719} from {npc:165015} and {npc:171142} to the south.
+• Recoge {spell:306719} de {npc:165015} y de {npc:171142} al sur.
 
-• Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
+• Recoge {spell:306722} de {npc:165027} y de {npc:166438} al sur.
 ]]
 
-L["blackhound_cache"] = "Blackhound Cache"
-L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
-L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
-L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
+L["blackhound_cache"] = "Alijo del Can Negro"--Revisar que Blackhound Cache sea Alijo del Can Negro
+L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
+L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
+L["kyrian_keepsake_note"] = "Inspecciona el {npc:169664} para despojar el tesoro."
 L["plaguefallen_chest_note"] = [[
-Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} and be transformed into a {spell:330092}.
+Quédate de pie en la baba verde (¡requiere sanación!) para conseguir 10 acumulaciones de {spell:330069} y transformarte en {spell:330092}.
 
-Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on the east side) and click the pipe to transport to the chest.
+Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:158406} (la entrada está en el lado este) y haz click en el tubo para llegar al cofre.
 ]]
-L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
-L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
-L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
+L["stolen_jar_note"] = "En una cueva debajo de la seta gigante."
+L["strange_growth_note"] = "Estira de {npc:165037} para revelar el tesoro."
+L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar que vat of slime sea cuba de baba
 
-L["pet_cat"] = "Pet the damn cat!"
-L["hairball"] = ns.color.Red("Only appears in the Festering Sanctum inside the Plaguefall dungeon!")
-L["lime"] = "Sitting on top of the large bone arch."
-L["moldstopheles"] = "Run around the back of the stalk and jump up the mushroom platforms. For the final platform, use a mount and jump at the corner where it meets the stalk."
-L["pus_in_boots"] = "Located under the bridge."
+L["pet_cat"] = "¡Acaricia al maldito gato!"--Revisar que Pet the damn cat! sea ¡Acaricia al maldito gato!
+L["hairball"] = ns.color.Red("¡Sólo aparece en el Santuario Purulento dentro de la mazmorra Pestecadencia!")--Revisar que Festering Sanctum sea Santuario Purulento y Plaguefall sea Pestecadencia
+L["lime"] = "Reposando sobre el gran arco óseo."
+L["moldstopheles"] = "Corre alrededor de la parte posterior del tallo y salta en las plataformas con forma de seta. Para la última plataforma, usa una motura y salta a la raíz que rodea el tallo."
+L["pus_in_boots"] = "Está debajo del puente."
 
-L["options_toggle_kittens"] = "Kittens"
-L["options_toggle_kittens_desc"] = "Display locations of kittens for the Nine Afterlives achievement."
+L["options_toggle_kittens"] = "Gatitos"
+L["options_toggle_kittens_desc"] = "Muestra las localizaciones de los gatitos para el logro Nueve Restos de Vidas."--Revisar que Nine Afterlives sea Nueve Restos de Vidas
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -205,7 +207,6 @@ L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she
 L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769}s and waves of {npc:155795}s until the rare spawns."
 L["worldedge_gorger_note"] = "Obtain an {item:173939} from World Reavers, Devourers and Mites in the Banewood and the Endmire. Use it to light the Worldedge Braziers and summon the rare."
 
-L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
 L["secret_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."

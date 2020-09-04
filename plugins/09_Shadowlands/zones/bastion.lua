@@ -14,6 +14,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
@@ -114,11 +115,17 @@ nodes[48985031] = Rare({
 
 nodes[55358024] = Rare({
     id=161527,
-    quest=nil,
     label=L["beasts_of_bastion"],
-    note=L["activation_unknown"],
-    rewards={
-        Achievement({id=14307, criteria={48825,48826,48827}}),
+    note=L["beasts_of_bastion_note"],
+    quest={60570, 60571, 60569, 58526},
+    questCount=true,
+    rewards = {
+        Achievement({id=14307, criteria={
+            {id=48825, quest=60570}, -- Sigilback
+            {id=48826, quest=60571}, -- Cloudtail (shows as Sigilback -_-)
+            {id=48827, quest=60569}, -- Nemaeus
+            -- {id=nil, quest=58526}, -- Aethon (no criteria ...)
+        }}),
         Toy({item=174445}), -- Glimmerfly Cocoon
         Transmog({item=179485, slot=L["dagger"]}), -- Fang of Nemaeus
         Transmog({item=179486, slot=L["1h_mace"]}), -- Sigilback's Smashshell
@@ -290,7 +297,7 @@ nodes[30365517] = Rare({
 nodes[61409050] = Rare({
     id=170548,
     quest=nil,
-    note=L["activation_unknown"],
+    note=L["sundancer_note"],
     rewards={
         Achievement({id=14307, criteria=48832})
     },
@@ -509,13 +516,16 @@ nodes[40504980] = Treasure({
 }) -- Stolen Equipment
 
 nodes[36012652] = Treasure({
-    quest=nil,
+    quest=61183,
     requires="{item:180858}",
-    note=L["requirement_not_found"],
+    note=L["vesper_of_silver_wind"],
     rewards={
-        Achievement({id=14311, criteria=50057})
+        Achievement({id=14311, criteria=50057}),
+        Mount({item=180772, id=1404}) -- Bastion - Larion - Silver
     }
 }) -- Vesper of the Silver Wind
+-- 61229 (mallet forged)
+-- 61191 (vesper rung)
 
 nodes[58667135] = Treasure({
     quest=60478,
@@ -611,7 +621,6 @@ nodes[30612373] = AnimaShard({quest=61292, note=L["anima_shard_61292"]})
 nodes[24642298] = AnimaShard({quest=61293, note=L["anima_shard_61293"]})
 nodes[26152262] = AnimaShard({quest=61294, note=L["anima_shard_61294"]})
 nodes[24371821] = AnimaShard({quest=61295, note=L["anima_shard_61295"]})
--- 61296 Citadel of Loyalty?
 
 -------------------------------------------------------------------------------
 
@@ -619,6 +628,8 @@ local gardens = Map({id=1693})
 local font = Map({id=1694})
 local wake = Map({id=1666})
 
+-- 61296 Necrotic Wake
+wake.nodes[52508860] = AnimaShard({quest=61296, note=L["anima_shard_61296"]})
 wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"]})
 gardens.nodes[46605310] = AnimaShard({quest=61298, note=L["anima_shard_61298"]})
 gardens.nodes[69403870] = AnimaShard({quest=61299, note=L["anima_shard_61299"]})

@@ -28,8 +28,9 @@ L["wrigglemortis_note"] = "Pull the {npc:164179} to spawn the rare."
 L["star_lake"] = "Star Lake Amphitheater"
 L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one of the special encounters."
 
+L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["desiccated_moth"] = "Jump on the {npc:169997} northwest of the tree to float onto a branch. Burn {item:180784} in the Incense Burner to collect the treasure."
-L["dreamsong_heart"] = "Use the {npc:169997} far to the northeast to get launched into the tree."
+L["dreamsong_heart"] = "Use the {npc:169997} beneath the tree to get launched into the tree."
 L["elusive_faerie_cache"] = "Pick up the {spell:333923} in the northeast corner of Eventide Grove and use it to loot the chest."
 L["enchanted_dreamcatcher"] = "Hanging from the top of the roots. Easiest to jump up on the west side."
 L["faerie_trove"] = "Located underneath the platform."
@@ -38,6 +39,13 @@ L["hearty_dragon_plume"] = "Click {spell:333554} at the top of the nearby waterf
 L["old_ardeite_note"] = "Kill {npc:160747} and {npc:160748} in Shimmerbough to the southeast for {item:174042}. Use this item to fly up near the rare and tag it."
 L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 
+L["tame_gladerunner"] = "Tame Gladerunner"
+L["tame_gladerunner_note"] = [[
+Read the "Tale of the Tangle" and then follow the blue lamps through the path until you reach {npc:171767}. Kill him and then loot the {npc:171699}.
+
+If you take a wrong path and {npc:171699} disappears when you reach the end, go back to the start and read "Tale of the Tangle" once more before trying again. If {npc:171767} is not there, you will have to wait for him to respawn.
+]]
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -45,7 +53,11 @@ L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to activate him."
 L["basilofos_note"] = "Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn."
 L["beasts_of_bastion"] = "Beasts of Bastion"
---L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."
+L["beasts_of_bastion_note"] = [[
+Talk to {npc:161441} to summon one of the four beasts.
+
+|cFFFF0000NOTE|r: The NPC is often bugged and will not talk to you. Aethon does not have an achievement criteria and the second Sigilback is actually Cloudtail.
+]]
 L["bookkeeper_mnemis_note"] = "Has a chance to spawn in place of the {npc:166867} units in the area."
 L["cloudfeather_patriarch_note"] = "Kill {npc:158110} in the area until the rare emotes and spawns."
 L["collector_astor_note"] = "Read all six chapters of Mercia's Legacy scattered around the room, after which you will receive a whisper from {npc:157979}. Talk to her to receive {spell:333779}, allowing you to find the hidden {item:180569} to the northwest. Returning the chapter will spawn the rare."
@@ -59,6 +71,7 @@ Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}
 Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside.
 ]]
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
+L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
 L["unstable_memory_note"] = "Can be spawned when {npc:171018}s are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
 --L["wingflayer_note"] = "To summon, click the horn on the nearby table (southeast, up the stairs)."
 
@@ -67,6 +80,7 @@ L["experimental_construct_part"] = "Loot a nearby {item:180534} and use it to re
 L["larion_harness"] = "Located inside the Hall of Beasts."
 L["memorial_offering"] = "Purchase a {item:180788} from {npc:171526} in Aspirant's Rest. Place it in the drink tray near the chest to obtain the {item:180797}."
 L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them on the nearby tribute platters to reveal the treasure."
+L["vesper_of_silver_wind"] = "Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to Spires of Ascension to forge a {item:180858}."
 
 L["gift_of_agthia"] = "Click the lit torch near the broken bridge to the northwest and carry {spell:333320} from torch to torch until you reach the chest. Lighting the final torch will grant you {spell:333063}."
 L["gift_of_chyrus"] = "Kneel in front of the chest to be granted {spell:333045}."
@@ -134,6 +148,7 @@ L["anima_shard_61292"] = "On top of the stone archway."
 L["anima_shard_61293"] = "On top of a thin stone column on the lower level."
 L["anima_shard_61294"] = "Hidden behind a stack of barrels."
 L["anima_shard_61295"] = "Behind {npc:156889} in a bookshelf."
+L["anima_shard_61296"] = "Behind the large fallen bell."
 L["anima_shard_61297"] = "Behind a stone pillar."
 L["anima_shard_61298"] = "Sitting behind a lounge chair."
 L["anima_shard_61299"] = "Hidden behind a large torch."
@@ -204,7 +219,6 @@ L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she
 L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769}s and waves of {npc:155795}s until the rare spawns."
 L["worldedge_gorger_note"] = "Obtain an {item:173939} from World Reavers, Devourers and Mites in the Banewood and the Endmire. Use it to light the Worldedge Braziers and summon the rare."
 
-L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
 L["secret_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."

@@ -296,50 +296,24 @@ local MISCIBLE_OOZE = "|T646670:0|t"
 local MEPHITIC_GOO = "|T136007:0|t"
 local VISCOUS_OIL = "|T136124:0|t"
 
-local PoolsRare = Class('PoolsRare', Rare, {
+nodes[58197421] = Rare({
+    id=157226,
+    quest={61718, 61719, 61720, 61721, 61722, 61723, 61724},
+    questCount=true,
     note=L["mixed_pool_note"],
-    _rewards = {
+    rewards = {
         Achievement({id=14721, criteria={
-            {id=48858, quest=61721, _note=MISCIBLE_OOZE..' > '..MEPHITIC_GOO..' '..VISCOUS_OIL}, -- Gelloh
-            {id=48863, quest=61719, _note=MEPHITIC_GOO..' > '..MISCIBLE_OOZE..' '..VISCOUS_OIL}, -- Corrupted Sediment
-            {id=48854, quest=61718, _note=VISCOUS_OIL..' > '..MISCIBLE_OOZE..' '..MEPHITIC_GOO}, -- Pulsing Leech
-            {id=48860, quest=61722, _note='('..MISCIBLE_OOZE..' = '..MEPHITIC_GOO..') > '..VISCOUS_OIL}, -- Boneslurp
-            {id=48862, quest=61723, _note='('..MISCIBLE_OOZE..' = '..VISCOUS_OIL..') > '..MEPHITIC_GOO}, -- Burnblister
-            {id=48861, quest=61720, _note='('..MEPHITIC_GOO..' = '..VISCOUS_OIL..') > '..MISCIBLE_OOZE}, -- Violet Mistake
-            {id=48859, quest=61724, _note=MISCIBLE_OOZE..' = '..MEPHITIC_GOO..' = '..VISCOUS_OIL}, -- Oily Invertebrate
+            {id=48858, quest=61721, note=MISCIBLE_OOZE..' > '..MEPHITIC_GOO..' '..VISCOUS_OIL}, -- Gelloh
+            {id=48863, quest=61719, note=MEPHITIC_GOO..' > '..MISCIBLE_OOZE..' '..VISCOUS_OIL}, -- Corrupted Sediment
+            {id=48854, quest=61718, note=VISCOUS_OIL..' > '..MISCIBLE_OOZE..' '..MEPHITIC_GOO}, -- Pulsing Leech
+            {id=48860, quest=61722, note='('..MISCIBLE_OOZE..' = '..MEPHITIC_GOO..') > '..VISCOUS_OIL}, -- Boneslurp
+            {id=48862, quest=61723, note='('..MISCIBLE_OOZE..' = '..VISCOUS_OIL..') > '..MEPHITIC_GOO}, -- Burnblister
+            {id=48861, quest=61720, note='('..MEPHITIC_GOO..' = '..VISCOUS_OIL..') > '..MISCIBLE_OOZE}, -- Violet Mistake
+            {id=48859, quest=61724, note=MISCIBLE_OOZE..' = '..MEPHITIC_GOO..' = '..VISCOUS_OIL}, -- Oily Invertebrate
         }}),
         Pet({item=181270, id=2960}) -- Decaying Oozewalker
     }
 })
-
-local POOL_QUESTS = {}
-for i, criteria in ipairs(PoolsRare._rewards[1].criteria) do
-    POOL_QUESTS[#POOL_QUESTS + 1] = criteria.quest
-end
-
-function PoolsRare.getters:rewards ()
-    for i, criteria in ipairs(self._rewards[1].criteria) do
-        if C_QuestLog.IsQuestFlaggedCompleted(criteria.quest) then
-            criteria.note = criteria._note..'  '..ns.status.Green(L['D'])
-        else
-            criteria.note = criteria._note..'  '..ns.status.Red(L['A'])
-        end
-    end
-    return self._rewards
-end
-
-function PoolsRare.getters:rlabel ()
-    local count = 0
-    for i, quest in ipairs(POOL_QUESTS) do
-        if C_QuestLog.IsQuestFlaggedCompleted(quest) then
-            count = count + 1
-        end
-    end
-    local color = (count == #POOL_QUESTS) and ns.status.Green or ns.status.Gray
-    return color(tostring(count)..'/'..#POOL_QUESTS)
-end
-
-nodes[58197421] = PoolsRare({id=157226, quest=POOL_QUESTS})
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

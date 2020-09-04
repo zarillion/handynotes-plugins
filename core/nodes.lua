@@ -23,6 +23,7 @@ Base class for all displayed nodes.
     minimap (bool): Should the node be displayed on the minimap
     quest (int|int[]): Quest IDs that cause this node to disappear
     questdeps (int|int[]): Quest IDs that must be true to appear
+    questCount (boolean): Display completed quest count as rlabel
     requires (str): Requirement to interact or unlock
     rewards (Reward[]): Array of rewards for this node
 
@@ -79,12 +80,18 @@ function Node:enabled (map, coord, minimap)
     -- Node may be faction restricted
     if self.faction and self.faction ~= ns.faction then return false end
 
-    -- All attached quest ids must be false
-    for i, quest in ipairs(self.quest or {}) do
-        if C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
+    -- Disable if all attached quest ids are true
+    if self.quest then
+        local count = 0
+        for i, quest in ipairs(self.quest) do
+            if C_QuestLog.IsQuestFlaggedCompleted(quest) then
+                count = count + 1
+            end
+        end
+        if count == #self.quest then return false end
     end
 
-    -- All required quest ids must be true
+    -- Disable if any dependent quest ids are false
     for i, quest in ipairs(self.questdeps or {}) do
         if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
     end
@@ -103,6 +110,19 @@ function Node:render(tooltip)
     tooltip:SetText(ns.NameResolver:Resolve(self.label))
 
     local rlabel = self.rlabel
+
+    if not rlabel and self.questCount and #(self.quest or {}) then
+        -- set rlabel to a (completed / total) display for quest ids
+        local count = 0
+        for i, quest in ipairs(self.quest) do
+            if C_QuestLog.IsQuestFlaggedCompleted(quest) then
+                count = count + 1
+            end
+        end
+        local color = (count == #self.quest) and ns.status.Green or ns.status.Gray
+        rlabel = color(tostring(count)..'/'..#self.quest)
+    end
+
     if not rlabel and self.pois then
         -- add an rlabel hint to use left-mouse to focus the node
         rlabel = ns.icons.left_mouse:link(12)..ns.status.Gray(L["focus"])

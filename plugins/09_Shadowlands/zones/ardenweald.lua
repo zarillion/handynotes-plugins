@@ -292,9 +292,12 @@ nodes[58306180] = Rare({
 
 --------------------------- STAR LAKE AMPHITHEATER ----------------------------
 
-local StarLake = Class('StarLake', Rare, {
+nodes[41254443] = Rare({
+    id=171743,
+    quest=nil,
+    label=L["star_lake"],
     note=L["star_lake_note"],
-    _rewards = {
+    rewards = {
         Achievement({id=14309, criteria={
             {id=48709, quest=nil}, -- Astra, As Azshara
             {id=48710, quest=nil}, -- Dreamweaver, As N'Zoth
@@ -315,35 +318,6 @@ local StarLake = Class('StarLake', Rare, {
         }, lineAbove=true})
     }
 })
-
--- local STAR_QUESTS = {}
--- for i, criteria in ipairs(StarLake._rewards[1].criteria) do
---     POOL_QUESTS[#POOL_QUESTS + 1] = criteria.quest
--- end
-
-function StarLake.getters:rewards ()
-    -- for i, criteria in ipairs(self._rewards[1].criteria) do
-    --     if C_QuestLog.IsQuestFlaggedCompleted(criteria.quest) then
-    --         criteria.note = criteria._note..'  '..ns.status.Green(L['D'])
-    --     else
-    --         criteria.note = criteria._note..'  '..ns.status.Red(L['A'])
-    --     end
-    -- end
-    return self._rewards
-end
-
--- function PoolsRare.getters:rlabel ()
---     local count = 0
---     for i, quest in ipairs(POOL_QUESTS) do
---         if C_QuestLog.IsQuestFlaggedCompleted(quest) then
---             count = count + 1
---         end
---     end
---     local color = (count == #POOL_QUESTS) and ns.status.Green or ns.status.Gray
---     return color(tostring(count)..'/'..#POOL_QUESTS)
--- end
-
-nodes[41254443] = StarLake({id=171743, label=L["star_lake"], quest=nil})
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -405,7 +379,7 @@ nodes[37683688] = Treasure({
         Transmog({item=179510, slot=L["warglaive"]}) -- Dreamsong Warglaive
     },
     pois={
-        POI({43592290}) -- Bounding Shroom
+        POI({38013631}) -- Bounding Shroom
     }
 }) -- Dreamsong Heart
 
@@ -486,6 +460,22 @@ nodes[76672974] = Treasure({
         Item({item=182730, quest=62186}) -- Swollen Anima Seed
     }
 }) -- Swollen Anima Seed
+
+nodes[26285897] = Treasure({
+    quest=61192, -- 61208 = failed, 61198 = passed
+    label=L["tame_gladerunner"],
+    note=L["tame_gladerunner_note"],
+    rewards={
+        Mount({item=180727, id=1360}) -- Shimmermist Runner
+    },
+    pois={
+        Path({
+            32545304, 32005370, 31345426, 30745484, 30115532, 29455591,
+            29735683, 30015767, 29335798, 29385915, 28725860, 28205819,
+            27515788, 26985831, 26285897
+        })
+    }
+}) -- Tame Gladerunner
 
 nodes[52943729] = Treasure({
     quest=61065,
