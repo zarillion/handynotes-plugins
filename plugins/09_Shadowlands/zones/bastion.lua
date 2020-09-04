@@ -384,7 +384,15 @@ nodes[53498880] = Treasure({
     quest=nil,
     label=L["cache_of_the_ascended"],
     note=L["cache_of_the_ascended_note"],
-    rewards={},
+    rewards={
+        Achievement({id=14734, criteria={
+            49818,
+            49815,
+            49816,
+            49819,
+            49817
+        }})
+    },
     pois={
         POI({
             64326980, -- Vesper of Purity

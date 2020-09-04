@@ -104,7 +104,7 @@ The orb will take you to the true Incense of Judgment. Commune with it and the f
 L["gift_of_vesiphone"] = "Ring one of the bells to spawn a {npc:170849} and kill it to receive the {spell:333239} debuff. The falling water opposite the chest will cleanse this debuff and grant you {spell:332785}."
 
 L["cache_of_the_ascended"] = "Cache of the Ascended"
-L["cache_of_the_ascended_note"] = "With four other players, click the five vespers of purity, courage, humility, wisdom and loyalty at the same time. Afterwards, head to Aspirant's Crucible to defeat the five champions and reveal the cache."
+L["cache_of_the_ascended_note"] = "With four other players, click the five Vespers of Purity, Courage, Humility, Wisdom and Loyalty at the same time. Afterwards, head to Aspirant's Crucible to defeat the Ascended Council and reveal the cache."
 
 L["anima_shard"] = "Lost Anima Shard"
 L["anima_shard_61225"] = "On a lower platform below the bridge."
