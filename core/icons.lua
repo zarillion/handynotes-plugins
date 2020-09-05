@@ -51,6 +51,7 @@ ns.icons = {
     envelope = { icon=ICONS, coords=coords(0, 8) },
     horseshoe = { icon=ICONS, coords=coords(0, 9) },
     anima_crystal = { icon=ICONS, coords=coords(1, 9) },
+    anima_crystal_green_glow = { icon=ICONS, coords=coords(3, 9) },
     left_mouse = { icon=ICONS, coords=coords(2, 9) },
     orange_crystal = { icon=ICONS, coords=coords(2, 6) },
 
@@ -63,6 +64,7 @@ ns.icons = {
     portal_red = { icon=ICONS, coords=coords(2, 5) },
 
     chest_gray = { icon=ICONS, coords=coords(3, 0) },
+    chest_gray_green_glow = { icon=ICONS, coords=coords(4, 9) },
     chest_yellow = { icon=ICONS, coords=coords(3, 1) },
     chest_orange = { icon=ICONS, coords=coords(3, 2) },
     chest_red = { icon=ICONS, coords=coords(3, 3) },
