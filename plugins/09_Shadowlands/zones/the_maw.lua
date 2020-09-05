@@ -219,6 +219,29 @@ nodes[38406260] = Rare({
 
 -------------------------------------------------------------------------------
 
+-- HACK: in development, hide all the obnoxious tomb-stone vignettes so we can
+-- get some work done ...
+
+hooksecurefunc(ns.addon, 'OnInitialize', function ()
+    if ns.addon.db.profile.development then
+        local _UpdatePosition = VignettePinMixin.UpdatePosition
+        VignettePinMixin.UpdatePosition = function (self, bestUniqueVignette)
+            if not self:GetMap() then return end
+            _UpdatePosition(self, bestUniqueVignette)
+        end
+        hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
+            local template = WorldMapFrame.pinPools.VignettePinTemplate
+            for pin in template:EnumerateActive() do
+                if pin.vignetteInfo.vignetteID == 4553 then
+                    template:Release(pin)
+                end
+            end
+        end)
+    end
+end)
+
+-------------------------------------------------------------------------------
+
 function map:enabled (node, coord, minimap)
     if not Map.enabled(self, node, coord, minimap) then return false end
 
