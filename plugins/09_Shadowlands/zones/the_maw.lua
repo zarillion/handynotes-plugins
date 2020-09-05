@@ -9,6 +9,7 @@ local Map = ns.Map
 local isinstance = ns.isinstance
 
 local Node = ns.node.Node
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -169,11 +170,16 @@ nodes[46207440] = Rare({
 --     }
 -- }) -- Obolos <Prime Adjutant>
 
-nodes[23802140] = Rare({
+nodes[23692139] = Rare({
     id=172577,
-    quest=nil,
+    quest=61519,
+    note=L["orophea_note"],
     rewards={
         Achievement({id=14744, criteria=49855}),
+        Toy({item=181794}) -- Orophea's Lyre
+    },
+    pois={
+        POI({26772932}) -- Eurydea's Amulet
     }
 }) -- Orophea
 
@@ -185,9 +191,9 @@ nodes[29805960] = Rare({
     }
 }) -- Shadeweaver Zeris
 
-nodes[36004120] = Rare({
+nodes[35974156] = Rare({
     id=166398,
-    quest=nil,
+    quest=60834,
     rewards={
         Achievement({id=14744, criteria=49857}),
     }
@@ -216,6 +222,164 @@ nodes[38406260] = Rare({
         Achievement({id=14744, criteria=49860}),
     }
 }) -- Yero the Skittish
+
+-------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
+-------------------------------------------------------------------------------
+
+local BonusBoss = Class('BonusBoss', NPC, { icon='peg_red', scale=1.8 })
+
+nodes[23004160] = BonusBoss({
+    id=169102,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=49485}),
+    }
+}) -- Agonix
+
+-- nodes[] = BonusBoss({
+--     id=170787,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14660, criteria=49487}),
+--     }
+-- }) -- Akros <Death's Hammer>
+
+nodes[27602380] = BonusBoss({
+    id=168693,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=49484}),
+    }
+}) -- Cyrixia <The Willbreaker>
+
+nodes[26001480] = BonusBoss({
+    id=162452,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=49476}),
+    }
+}) -- Dartanos <Flayer of Souls>
+
+nodes[19205740] = BonusBoss({
+    id=162844,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=50410}),
+    }
+}) -- Dath Rezara <Lord of Blades>
+
+nodes[34202000] = BonusBoss({
+    id=158314,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=49475}),
+    }
+}) -- Drifting Sorrow
+
+-- nodes[] = BonusBoss({
+--     id=172523,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14660, criteria=49490}),
+--     }
+-- }) -- Houndmaster Vasanok
+
+-- nodes[] = BonusBoss({
+--     id=170692,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14660, criteria=49486}),
+--     }
+-- }) -- Krala <Death's Wings>
+
+nodes[27201860] = BonusBoss({
+    id=171316,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=49488}),
+    }
+}) -- Malevolent Stygia
+
+nodes[43804800] = BonusBoss({
+    id=172207,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=50408}),
+    }
+}) -- Odalrik
+
+nodes[25604800] = BonusBoss({
+    id=162845,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=49480}),
+    }
+}) -- Orrholyn <Lord of Bloodletting>
+
+nodes[27003780] = BonusBoss({
+    id=162829,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=49479}),
+    }
+}) -- Razkazzar <Lord of Axes>
+
+-- nodes[] = BonusBoss({
+--     id=172521,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14660, criteria=49489}),
+--     }
+-- }) -- Sanngror the Torturer
+
+nodes[61607820] = BonusBoss({
+    id=172524,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=49491}),
+    }
+}) -- Skittering Broodmother
+
+nodes[21803060] = BonusBoss({
+    id=162965,
+    quest=nil,
+    rewards={
+        Achievement({id=14660, criteria=49481}),
+    }
+}) -- Sorath the Sated
+
+nodes[36253744] = BonusBoss({
+    id=165047,
+    quest=59441,
+    rewards={
+        Achievement({id=14660, criteria=49482}),
+    }
+}) -- Soulsmith Yol-Mattar
+
+nodes[36844480] = BonusBoss({
+    id=156203,
+    quest={62539, 62722},
+    rewards={
+        Achievement({id=14660, criteria=50409}),
+    }
+}) -- Stygian Incinerator
+
+-- nodes[] = BonusBoss({
+--     id=173086,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14660, criteria=49492}),
+--     }
+-- }) -- Valis the Cruel
+
+-- nodes[] = BonusBoss({
+--     id=165973,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=14660, criteria=49483}),
+--     }
+-- }) -- Warren Mongrel
 
 -------------------------------------------------------------------------------
 

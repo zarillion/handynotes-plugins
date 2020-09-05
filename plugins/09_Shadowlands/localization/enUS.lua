@@ -255,3 +255,4 @@ L["options_toggle_carriages_desc"] = "Display locations and paths of rideable ca
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
+L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
