@@ -368,6 +368,9 @@ nodes[46114536] = Treasure({
     note=L["in_cave"],
     rewards={
         Achievement({id=14311, criteria=50053})
+    },
+    pois={
+            POI({46454661, scale=0.75}) -- Entrance
     }
 }) -- Abandoned Stockpile
 
@@ -466,8 +469,10 @@ nodes[40601890] = Treasure({
     note=L["gift_of_thenios"],
     rewards={
         Achievement({id=14311, criteria=50061})
-    }
-}) -- Gift of Thenios
+    },
+    pois={
+        POI({41662331, 39551900, scale=0.75}) -- Transport platform
+}}) -- Gift of Thenios
 
 nodes[64877114] = Treasure({
     quest=60890,
@@ -485,6 +490,9 @@ nodes[58233999] = Treasure({
     rewards={
         Achievement({id=14311, criteria=50051}),
         Item({item=182652})
+    },
+    pois={
+        POI({55694287, scale=0.75}) -- Entrance
     }
 }) -- Larion Tamer's Harness
 
@@ -566,7 +574,6 @@ nodes[58667135] = Treasure({
 
 local AnimaShard = Class('AnimaShard', Node, {
     label=L["anima_shard"],
-    icon='anima_crystal',
     scale=1.5,
     rewards={
         Achievement({id=14339, criteria={
@@ -574,6 +581,13 @@ local AnimaShard = Class('AnimaShard', Node, {
         }})
     }
 })
+
+function AnimaShard.getters:icon ()
+    if self._focus then
+        return 'anima_crystal_green_glow'
+    end
+        return 'anima_crystal'
+end
 
 nodes[39057704] = AnimaShard({quest=61225, note=L["anima_shard_61225"]})
 -- 61226 https://shadowlands.wowhead.com/quest=61226/extra-limbs
@@ -599,7 +613,11 @@ nodes[58108008] = AnimaShard({quest=61245, note=L["anima_shard_61245"]})
 -- 61246 https://shadowlands.wowhead.com/quest=61246/power-of-the-chosen
 nodes[56877498] = AnimaShard({quest=61247, note=L["anima_shard_61247"]})
 -- 61248 https://shadowlands.wowhead.com/quest=61248/kaletars-freedom
-nodes[65527192] = AnimaShard({quest=61249, note=L["anima_shard_61249"]})
+nodes[65527192] = AnimaShard({quest=61249, note=L["anima_shard_61249"],
+    pois={
+        POI({63467240, scale=0.75}) -- Transport platform
+    }
+})
 nodes[58156391] = AnimaShard({quest=61250, note=L["anima_shard_61250"]})
 nodes[54005970] = AnimaShard({quest=61251, note=L["anima_shard_61251"]})
 -- 61252 https://shadowlands.wowhead.com/quest=61252/call-in-a-favor
@@ -625,15 +643,23 @@ nodes[65254288] = AnimaShard({quest=61271, note=L["anima_shard_61271"]})
 -- 61272 https://shadowlands.wowhead.com/quest=61272/blueprint-charm-of-discord
 nodes[72384029] = AnimaShard({quest=61273, note=L["anima_shard_61273"]})
 nodes[66892692] = AnimaShard({quest=61274, note=L["anima_shard_61274"]})
-nodes[57553827] = AnimaShard({quest=61275, note=L["anima_shard_61275"]})
+nodes[57553827] = AnimaShard({quest=61275, note=L["anima_shard_61275"],
+    pois={
+        POI({55694287, scale=0.75}) -- Entrance
+    }
+})
 -- 61276 Firstborne's Bounty?
 nodes[52163939] = AnimaShard({quest=61277, note=L["anima_shard_61277"]})
 nodes[49993826] = AnimaShard({quest=61278, note=L["anima_shard_61278"]})
 nodes[48483491] = AnimaShard({quest=61279, note=L["anima_shard_61279"]})
 nodes[56722884] = AnimaShard({quest=61280, note=L["anima_shard_61280"]})
 nodes[56201731] = AnimaShard({quest=61281, note=L["anima_shard_61281"]})
-nodes[60451288] = AnimaShard({quest=61282, note=L["anima_shard_61282"]})
-nodes[52440942] = AnimaShard({quest=61283, note=L["anima_shard_61283"]})
+nodes[59881391] = AnimaShard({quest=61282, note=L["anima_shard_61282"]})
+nodes[52440942] = AnimaShard({quest=61283, note=L["anima_shard_61283"],
+    pois={
+        POI({53650953, scale=0.75}) -- Entrance
+    }
+})
 nodes[46691804] = AnimaShard({quest=61284, note=L["anima_shard_61284"]})
 nodes[44942845] = AnimaShard({quest=61285, note=L["anima_shard_61285"]})
 nodes[42302402] = AnimaShard({quest=61286, note=L["anima_shard_61286"]})
