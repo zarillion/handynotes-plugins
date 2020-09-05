@@ -105,6 +105,9 @@ El orbe te llevará al verdadero Incienso del Juicio. Comulga con él y aparecer
 ]]--Revisar que Path of Wisdom sea Camino de la Sabiduría, que incenses sea inciensos, los tipos de incienso y que Path of Insightful Wisdom sea Camino de la Sabiduría Perspicaz
 L["gift_of_vesiphone"] = "Toca una de las campanas para hacer que aparezca una {npc:170849} y mátala para recibir el debuff {spell:333239}. El agua que cae frente al cofre limpiará el debuff y te dará la {spell:332785}."
 
+L["cache_of_the_ascended"] = "Alijo de los Ascendidos"--Revisar que Cache of the Ascended sea Alijo de los Ascendidos
+L["cache_of_the_ascended_note"] = "Con otros cuatro jugadores, hay que hacer click en las cinco vísperas de pureza, coraje, humildad, sabiduría y lealtad al mismo tiempo. Después, hay que ir al Crisol del Aspirante a derrotar los cinco campeones para que se revele el alijo."--Revisar que vespers of purity sea vísperas de pureza, que Aspirant's Crucible sea Crisol del Aspirante
+
 L["anima_shard"] = "Fragmento de Ánima perdida"--Revisar que Lost Anima Shard sea Fragmento de Ánima perdida
 L["anima_shard_61225"] = "En una plataforma inferior debajo del puente."
 L["anima_shard_61235"] = "En una repisa sobre la cascada."
@@ -249,3 +252,8 @@ L["sinrunner_note_day6"] = "Alimenta a Blanchy con 3 {item:179271}, vendidas por
 
 L["options_toggle_carriages"] = "Carriages"
 L["options_toggle_carriages_desc"] = "Display locations and paths of rideable carriages."
+
+-------------------------------------------------------------------------------
+----------------------------------- THE MAW -----------------------------------
+-------------------------------------------------------------------------------
+
