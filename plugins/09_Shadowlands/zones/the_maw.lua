@@ -74,7 +74,7 @@ nodes[19804160] = Rare({
     }
 }) -- Apholeias, Herald of Loss
 
-nodes[40603900] = Rare({
+nodes[39014119] = Rare({
     id=157833,
     quest=nil,
     rewards={
@@ -293,9 +293,9 @@ nodes[34202000] = BonusBoss({
 --     }
 -- }) -- Krala <Death's Wings>
 
-nodes[27201860] = BonusBoss({
+nodes[27311754] = BonusBoss({
     id=171316,
-    quest=nil,
+    quest=61125,
     rewards={
         Achievement({id=14660, criteria=49488}),
     }
@@ -380,6 +380,12 @@ nodes[36844480] = BonusBoss({
 --         Achievement({id=14660, criteria=49483}),
 --     }
 -- }) -- Warren Mongrel
+
+-------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE EVENTS ---------------------------
+-------------------------------------------------------------------------------
+
+-- 32401771 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
 
 -------------------------------------------------------------------------------
 
