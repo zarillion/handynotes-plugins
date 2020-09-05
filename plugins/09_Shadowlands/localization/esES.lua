@@ -208,16 +208,16 @@ L["options_toggle_kittens_desc"] = "Muestra las localizaciones de los gatitos pa
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_light_note"] = "Move all three mirror traps to release the rare."
-L["bog_beast_note"] = "Has a chance to spawn during the world quest \"Muck It Up\" after using {item:177880} on a {npc:166206}."
-L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."
-L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."
-L["famu_note"] = "Talk to {npc:166483} to trigger the event."
-L["grand_arcanist_dimitri_note"] = "Kill the four {npc:167467} to release the rare."
-L["innervus_note"] = "Kill nearby {npc:160375}s to obtain a {item:177223} and unlock the crypt."
-L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
-L["lord_mortegore_note"] = "Kill surrounding mobs to obtain {item:174378} and use it to empower a {npc:161870}. The rare will spawn once all four sigils are empowered."
-L["manifestation_of_wrath_note"] = "Has a chance to spawn when a {npc:169916} is recovered during the \"Swarming Souls\" world quest."
+L["amalgamation_of_light_note"] = "Mueve las tres trampas de espejos para liberar a {npc:164388}."
+L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo \"Muck It Up\" después de usar {item:177880} en {npc:166206}."--Revisar que nombre tiene la WQ Muck It Up
+L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:165229} y usa {spell:321826} en la parte superior de la Grieta Brillante."--Revisar qué es Anima Stake y que Shimmering Rift sea Grieta Brillante
+L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar {spell:324872}."
+L["famu_note"] = "Habla con {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}."
+L["grand_arcanist_dimitri_note"] = "Matar los cuatro {npc:167467} para liberar a {npc:167464}."
+L["innervus_note"] = "Mata a los {npc:160375} cercanos para conseguir la {item:177223} y desbloquear la cripta donde está {npc:160640}."
+L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca de {npc:165151} para comenzar el evento tras el cual aparecerá {npc:165152}."
+L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}."
+L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo \"Enjambre de Almas\"."--Revisar que Swarming Souls sea Enjambre de Almas
 L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
 L["sinstone_hoarder_note"] = "Appears on the minimap as a treasure chest. Attempt to loot the {npc:162503} and the rare will reveal itself."
 L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
@@ -257,3 +257,4 @@ L["options_toggle_carriages_desc"] = "Display locations and paths of rideable ca
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
+L["orophea_note"] = "Coge el {spell:337143} al sureste y ofrécelo a {npc:172577} para que se active." 
