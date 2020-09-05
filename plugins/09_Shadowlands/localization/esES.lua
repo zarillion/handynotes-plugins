@@ -239,5 +239,13 @@ L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
 L["smuggled_cache"] = "Smuggled Cache"
 L["wayfairer_spoils"] = "Wayfairer's Abandoned Spoils"
 
+L["sinrunner_note"] = "Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer."
+L["sinrunner_note_day1"] = "Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de Páramos de Poniente."
+L["sinrunner_note_day2"] = "Consigue un {item:182585} de {npc:173570} en Refugio Oscuro y úsalo para limpiar a Blanchy."--Revisar que Darkhaven sea Refugio Oscuro
+L["sinrunner_note_day3"] = "Equipa a Blanchy con 4 {item:182595} que se pueden encontrar por los caminos que rodean el Refugio Oscuro."--Revisar que Darkhaven sea Refugio Oscuro
+L["sinrunner_note_day4"] = "Coge el {item:182620} cerca de {npc:173570} y llénalo con agua en Bastión o Ardenweald. Llévale a Blanchy el {item:182599}."
+L["sinrunner_note_day5"] = "Equipa a Blanchy con una {item:182597}, vendida por {npc:171808} cerca del Mercado de la Noche a cambio de varias carnes."--Revisar que Night Market sea Mercado de la Noche
+L["sinrunner_note_day6"] = "Alimenta a Blanchy con 3 {item:179271}, vendidas por {npc:167815} que está por Agujero en la Pared."--Revisar que Hole in the Wall sea Agujero en la Pared
+
 L["options_toggle_carriages"] = "Carriages"
 L["options_toggle_carriages_desc"] = "Display locations and paths of rideable carriages."
