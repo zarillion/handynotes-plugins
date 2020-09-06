@@ -1,10 +1,19 @@
+-------------------------------------------------------------------------------
+---------------------------------- NAMESPACE ----------------------------------
+-------------------------------------------------------------------------------
+
 local _, ns = ...
 
+-------------------------------------------------------------------------------
+------------------------------------ CLASS ------------------------------------
+-------------------------------------------------------------------------------
+
 ns.Class = function (name, parent, attrs)
-    parent = parent or {}
+    if type(name) ~= 'string' then error('name parameter must be a string') end
+
     local Class = attrs or {}
-    Class.getters = {}
-    Class.setters = {}
+    Class.getters = Class.getters or {}
+    Class.setters = Class.setters or {}
 
     setmetatable(Class, {
         __call = function (self, instanceAttrs)
@@ -39,8 +48,8 @@ ns.Class = function (name, parent, attrs)
                 instance[k] = v
             end
 
-            local init = Class.init
-            if init then init(instance) end
+            -- call init() method for instance
+            Class.init(instance)
 
             return instance
         end,
@@ -56,13 +65,17 @@ ns.Class = function (name, parent, attrs)
         setmetatable(Class.getters, { __index = parent.getters })
         setmetatable(Class.setters, { __index = parent.setters })
         Class.__parent = parent
-    else
+    elseif not Class.init then
         -- Add default init() method for base class
         Class.init = function (self) end
     end
 
     return Class
 end
+
+-------------------------------------------------------------------------------
+----------------------------------- HELPERS -----------------------------------
+-------------------------------------------------------------------------------
 
 ns.isinstance = function (instance, class)
     local function compare (c1, c2)
