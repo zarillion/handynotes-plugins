@@ -257,4 +257,6 @@ L["options_toggle_carriages_desc"] = "Muestra las localizaciones posibles y cami
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["orophea_note"] = "Coge el {spell:337143} al sureste y ofrécelo a {npc:172577} para que se active." 
+L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331783} para invocar a {npc:170301}."
+L["orophea_note"] = "Coge el {spell:337143} al sureste y ofrécelo a {npc:172577} para que se active {npc:172577}." 
+L["talaporas_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331800} para invocar a {npc:170302}." 
