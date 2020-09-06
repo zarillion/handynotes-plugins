@@ -257,4 +257,7 @@ L["options_toggle_carriages_desc"] = "Display locations and paths of rideable ca
 
 L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
 L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
+L["sanngror_note"] = "If he is not attackable, wait until he is not experimenting on souls."
 L["talaporas_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331800} to summon the rare."
+L["valis_note"] = "Click the three {npc:174810} in the correct order to summon the rare. The order changes each time and clicking the wrong rune deals damage and debuffs you with {spell:343636}."
+L["yero_note"] = "Approach {npc:172862} and then follow him down into a nearby cave where he becomes hostile."

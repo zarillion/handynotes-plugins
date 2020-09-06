@@ -91,13 +91,14 @@ nodes[27731305] = Rare({
     }
 }) -- Conjured Death
 
--- nodes[] = Rare({
---     id=160770,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49845}),
---     }
--- }) -- Darithis the Bleak
+nodes[60964805] = Rare({
+    id=160770,
+    quest=nil,
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=14744, criteria=49845}),
+    }
+}) -- Darithis the Bleak
 
 -- nodes[] = Rare({
 --     id=158025,
@@ -155,9 +156,10 @@ nodes[16945102] = Rare({
     }
 }) -- Morguliax <Lord of Decapitation>
 
-nodes[46207440] = Rare({
+nodes[45507376] = Rare({
     id=158278,
-    quest=nil,
+    quest=57573,
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=14744, criteria=49853}),
     }
@@ -217,11 +219,18 @@ nodes[28701204] = Rare({
 --     }
 -- }) -- Thanassos <Death's Voice>
 
-nodes[38406260] = Rare({
+nodes[37676591] = Rare({
     id=172862,
-    quest=nil,
+    quest=61568,
+    note=L["yero_note"],
     rewards={
         Achievement({id=14744, criteria=49860}),
+    },
+    pois={
+        Path({
+            37446212, 37356052, 37585887, 38465859, 39185892, 39026021,
+            38456142, 38146265, 37936400, 37676591
+        })
     }
 }) -- Yero the Skittish
 
@@ -283,13 +292,13 @@ nodes[34202000] = BonusBoss({
     }
 }) -- Drifting Sorrow
 
--- nodes[] = BonusBoss({
---     id=172523,
---     quest=62209,
---     rewards={
---         Achievement({id=14660, criteria=49490}),
---     }
--- }) -- Houndmaster Vasanok
+nodes[60456478] = BonusBoss({
+    id=172523,
+    quest=62209,
+    rewards={
+        Achievement({id=14660, criteria=49490}),
+    }
+}) -- Houndmaster Vasanok
 
 -- nodes[] = BonusBoss({
 --     id=170692,
@@ -331,19 +340,27 @@ nodes[26173744] = BonusBoss({
     }
 }) -- Razkazzar <Lord of Axes>
 
--- nodes[] = BonusBoss({
---     id=172521,
---     quest=62210,
---     rewards={
---         Achievement({id=14660, criteria=49489}),
---     }
--- }) -- Sanngror the Torturer
+nodes[55626318] = BonusBoss({
+    id=172521,
+    quest=62210,
+    note=L["in_cave"]..' '..L["sanngror_note"],
+    rewards={
+        Achievement({id=14660, criteria=49489}),
+    },
+    pois={
+        POI({55806753}) -- Cave entrance
+    }
+}) -- Sanngror the Torturer
 
-nodes[61607820] = BonusBoss({
+nodes[61737795] = BonusBoss({
     id=172524,
     quest=62211,
+    note=L["in_cave"],
     rewards={
         Achievement({id=14660, criteria=49491}),
+    },
+    pois={
+        POI({59268001}) -- Cave entrance
     }
 }) -- Skittering Broodmother
 
@@ -371,13 +388,14 @@ nodes[36844480] = BonusBoss({
     }
 }) -- Stygian Incinerator
 
--- nodes[] = BonusBoss({
---     id=173086,
---     quest=61728,
---     rewards={
---         Achievement({id=14660, criteria=49492}),
---     }
--- }) -- Valis the Cruel
+nodes[40705959] = BonusBoss({
+    id=173086,
+    quest=61728,
+    note=L["valis_note"],
+    rewards={
+        Achievement({id=14660, criteria=49492}),
+    }
+}) -- Valis the Cruel
 
 -- nodes[] = BonusBoss({
 --     id=165973,
@@ -392,29 +410,30 @@ nodes[36844480] = BonusBoss({
 -------------------------------------------------------------------------------
 
 -- 32401771 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
+-- 30394255 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
 
 -------------------------------------------------------------------------------
 
 -- HACK: in development, hide all the obnoxious tomb-stone vignettes so we can
 -- get some work done ...
 
--- hooksecurefunc(ns.addon, 'OnInitialize', function ()
---     local _UpdatePosition = VignettePinMixin.UpdatePosition
---     VignettePinMixin.UpdatePosition = function (self, bestUniqueVignette)
---         if not self:GetMap() then return end
---         _UpdatePosition(self, bestUniqueVignette)
---     end
---     hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
---         local template = WorldMapFrame.pinPools.VignettePinTemplate
---         if template then
---             for pin in template:EnumerateActive() do
---                 if pin.vignetteInfo.vignetteID == 4553 then
---                     template:Release(pin)
---                 end
---             end
---         end
---     end)
--- end)
+hooksecurefunc(ns.addon, 'OnInitialize', function ()
+    local _UpdatePosition = VignettePinMixin.UpdatePosition
+    VignettePinMixin.UpdatePosition = function (self, bestUniqueVignette)
+        if not self:GetMap() then return end
+        _UpdatePosition(self, bestUniqueVignette)
+    end
+    hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
+        local template = WorldMapFrame.pinPools.VignettePinTemplate
+        if template then
+            for pin in template:EnumerateActive() do
+                if pin.vignetteInfo.vignetteID == 4553 then
+                    template:Release(pin)
+                end
+            end
+        end
+    end)
+end)
 
 -------------------------------------------------------------------------------
 
