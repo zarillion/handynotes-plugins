@@ -66,9 +66,10 @@ options.rareMaw = {
 --     }
 -- }) -- Adjutant Dekaris
 
-nodes[19804160] = Rare({
+nodes[19324172] = Rare({
     id=170301,
     quest=nil,
+    note=L["apholeias_note"],
     rewards={
         Achievement({id=14744, criteria=49842}),
     }
@@ -82,9 +83,9 @@ nodes[39014119] = Rare({
     }
 }) -- Borr-Geth
 
-nodes[28201380] = Rare({
+nodes[27731305] = Rare({
     id=171317,
-    quest=nil,
+    quest=61106,
     rewards={
         Achievement({id=14744, criteria=49844}),
     }
@@ -114,9 +115,9 @@ nodes[28201380] = Rare({
 --     }
 -- }) -- Dolos <Death's Knife>
 
-nodes[23205300] = Rare({
+nodes[23765341] = Rare({
     id=170774,
-    quest=nil,
+    quest=60915,
     rewards={
         Achievement({id=14744, criteria=49848}),
     }
@@ -146,9 +147,9 @@ nodes[23205300] = Rare({
 --     }
 -- }) -- Exos, Herald of Domination
 
-nodes[16205040] = Rare({
+nodes[16945102] = Rare({
     id=162849,
-    quest=nil,
+    quest=60987,
     rewards={
         Achievement({id=14744, criteria=49852}),
     }
@@ -199,9 +200,10 @@ nodes[35974156] = Rare({
     }
 }) -- Soulforger Rhovus
 
-nodes[28601160] = Rare({
+nodes[28701204] = Rare({
     id=170302,
     quest=nil,
+    note=L["talaporas_note"],
     rewards={
         Achievement({id=14744, criteria=49858}),
     }
@@ -232,8 +234,12 @@ local BonusBoss = Class('BonusBoss', NPC, { icon='peg_red', scale=1.8 })
 nodes[23004160] = BonusBoss({
     id=169102,
     quest=nil,
+    note=L["in_cave"],
     rewards={
         Achievement({id=14660, criteria=49485}),
+    },
+    pois={
+        POI({20813927}) -- Cave entrance
     }
 }) -- Agonix
 
@@ -245,17 +251,17 @@ nodes[23004160] = BonusBoss({
 --     }
 -- }) -- Akros <Death's Hammer>
 
-nodes[27602380] = BonusBoss({
+nodes[28712513] = BonusBoss({
     id=168693,
-    quest=nil,
+    quest=61346,
     rewards={
         Achievement({id=14660, criteria=49484}),
     }
 }) -- Cyrixia <The Willbreaker>
 
-nodes[26001480] = BonusBoss({
+nodes[25831479] = BonusBoss({
     id=162452,
-    quest=nil,
+    quest=59230,
     rewards={
         Achievement({id=14660, criteria=49476}),
     }
@@ -263,7 +269,7 @@ nodes[26001480] = BonusBoss({
 
 nodes[19205740] = BonusBoss({
     id=162844,
-    quest=nil,
+    quest={60988,61140},
     rewards={
         Achievement({id=14660, criteria=50410}),
     }
@@ -309,17 +315,17 @@ nodes[43804800] = BonusBoss({
     }
 }) -- Odalrik
 
-nodes[25604800] = BonusBoss({
+nodes[25364875] = BonusBoss({
     id=162845,
-    quest=nil,
+    quest=60991,
     rewards={
         Achievement({id=14660, criteria=49480}),
     }
 }) -- Orrholyn <Lord of Bloodletting>
 
-nodes[27003780] = BonusBoss({
+nodes[26173744] = BonusBoss({
     id=162829,
-    quest=nil,
+    quest=62228,
     rewards={
         Achievement({id=14660, criteria=49479}),
     }
@@ -341,7 +347,7 @@ nodes[61607820] = BonusBoss({
     }
 }) -- Skittering Broodmother
 
-nodes[21803060] = BonusBoss({
+nodes[20782968] = BonusBoss({
     id=162965,
     quest=nil,
     rewards={
@@ -392,25 +398,23 @@ nodes[36844480] = BonusBoss({
 -- HACK: in development, hide all the obnoxious tomb-stone vignettes so we can
 -- get some work done ...
 
-hooksecurefunc(ns.addon, 'OnInitialize', function ()
-    if ns.addon.db.profile.development then
-        local _UpdatePosition = VignettePinMixin.UpdatePosition
-        VignettePinMixin.UpdatePosition = function (self, bestUniqueVignette)
-            if not self:GetMap() then return end
-            _UpdatePosition(self, bestUniqueVignette)
-        end
-        hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
-            local template = WorldMapFrame.pinPools.VignettePinTemplate
-            if template then
-                for pin in template:EnumerateActive() do
-                    if pin.vignetteInfo.vignetteID == 4553 then
-                        template:Release(pin)
-                    end
-                end
-            end
-        end)
-    end
-end)
+-- hooksecurefunc(ns.addon, 'OnInitialize', function ()
+--     local _UpdatePosition = VignettePinMixin.UpdatePosition
+--     VignettePinMixin.UpdatePosition = function (self, bestUniqueVignette)
+--         if not self:GetMap() then return end
+--         _UpdatePosition(self, bestUniqueVignette)
+--     end
+--     hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
+--         local template = WorldMapFrame.pinPools.VignettePinTemplate
+--         if template then
+--             for pin in template:EnumerateActive() do
+--                 if pin.vignetteInfo.vignetteID == 4553 then
+--                     template:Release(pin)
+--                 end
+--             end
+--         end
+--     end)
+-- end)
 
 -------------------------------------------------------------------------------
 
