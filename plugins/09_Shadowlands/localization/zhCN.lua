@@ -14,29 +14,37 @@ L["covenant_required"] = "需要%s盟约。"
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
 
-L["deifir_note"] = "Ride the rare around in a circle and use {spell:319566} and {spell:319575} to slow and stun him."
-L["faeflayer_note"] = "In a small cave hidden behind a waterfall."
-L["humongozz_note"] = "Plant an {item:175247} in the Damp Loam to spawn a {npc:164122}. After a minute of {spell:319367}, the rare will spawn. The mushroom drops from numerous mobs in the zone."
-L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
-L["rootwrithe_note"] = "Poke the {npc:167928}s until the rare appears."
-L["rotbriar_note"] = "Talk to {npc:171684} nearby to summon the rare after some dialog."
-L["slumbering_note"] = "Running into the fog will stun and port you out. Use a flare or a pet with AOE to knock him out of the fog."
-L["skuld_vit_note"] = "In a cave blocked by a barrier. A Night Fae must use {spell:310143} to enter the cave. Once he is pulled, the barrier will disappear."
-L["valfir_note"] = "Click the Sparkling Animaseed midway down the path and use {spell:338045} to remove his {spell:338038} buff."
-L["wrigglemortis_note"] = "Pull the {npc:164179} to spawn the rare."
+L["deifir_note"] = "骑上圈内的稀有并使用 {spell:319566} 和 {spell:319575} 使其减速和昏迷。"
+L["faeflayer_note"] = "瀑布后面隐藏的小洞穴内。"
+L["humongozz_note"] = "种植一个 {item:175247} 在潮湿的沃土将刷新 {npc:164122}。在一分钟后 {spell:319367}，稀有将刷新。区域内的许多怪物都掉落蘑菇。"
+L["lehgo_note"] = "摧毁颤动的戈姆蛋并击杀 {npc:171827} 直到他出现。在洞穴内（入口在东南尘泥地穴内）。"
+L["rootwrithe_note"] = "触碰 {npc:167928} 直到稀有出现。"
+L["rotbriar_note"] = "和 {npc:171684} 交谈对话后在附近召唤稀有。"
+L["slumbering_note"] = "跑到迷雾中将昏迷并被带出。使用信号弹或带 AOE 的宠物把他击出迷雾。"
+L["skuld_vit_note"] = "在被障碍物阻挡的山洞中。法夜必须使用 {spell:310143} 进入洞穴。他进入战斗后，障碍物将消失。"
+L["valfir_note"] = "在闪光的心能之种下降过程中点击并使用 {spell:338045} 移除他的 {spell:338038} 增益。"
+L["wrigglemortis_note"] = "与 {npc:164179} 战斗刷新稀有。"
 
-L["star_lake"] = "Star Lake Amphitheater"
-L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one of the special encounters."
+L["star_lake"] = "泊星剧场"
+L["star_lake_note"] = "与舞台导演 {npc:171743} 交谈，会开启一场特殊的战斗。"
 
-L["desiccated_moth"] = "Jump on the {npc:169997} northwest of the tree to float onto a branch. Burn {item:180784} in the Incense Burner to collect the treasure."
-L["dreamsong_heart"] = "Use the {npc:169997} far to the northeast to get launched into the tree."
-L["elusive_faerie_cache"] = "Pick up the {spell:333923} in the northeast corner of Eventide Grove and use it to loot the chest."
-L["enchanted_dreamcatcher"] = "Hanging from the top of the roots. Easiest to jump up on the west side."
-L["faerie_trove"] = "Located underneath the platform."
-L["harmonic_chest"] = "Requires two people. One person plays the harp and the other plays the drum to unlock the chest."
-L["hearty_dragon_plume"] = "Click {spell:333554} at the top of the nearby waterfalls and use it to float down onto the branch."
-L["old_ardeite_note"] = "Kill {npc:160747} and {npc:160748} in Shimmerbough to the southeast for {item:174042}. Use this item to fly up near the rare and tag it."
-L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
+L["darkreach_supplies"] = "跳上 {npc:169995} 并滑翔到西南方进入空心山峰到达魅夜宝箱宝藏上面。"
+L["desiccated_moth"] = "跳上 {npc:169997} 滑翔到西北方的树的树枝上。燃烧 {item:180784} 于焚香炉收集宝藏。"
+L["dreamsong_heart"] = "使用 {npc:169997} 滑翔到东北方的树上。"
+L["elusive_faerie_cache"] = "拾取 {spell:333923} 在暮辉林地的东北角并使用拾取宝箱。"
+L["enchanted_dreamcatcher"] = "悬挂在树根顶上。从西侧往上跳最容易。"
+L["faerie_trove"] = "位于平台下方。"
+L["harmonic_chest"] = "需要两名玩家。一名玩家弹琴另一名玩家击鼓来解锁宝箱。"
+L["hearty_dragon_plume"] = "在附近瀑布的顶部点击 {spell:333554}，然后用它向下漂浮到树枝上。"
+L["old_ardeite_note"] = "击杀 {npc:160747} 和 {npc:160748} 于烁光林枝东南方 {item:174042}。使用此物品飞上附近稀有并标记它。"
+L["swollen_anima_seed"] = "在树干里面的一颗大种子。"
+
+L["tame_gladerunner"] = "驯服的巡林者"
+L["tame_gladerunner_note"] = [[
+阅读“Tale of the Tangle”并跟随蓝色的灯穿过小径到达 {npc:171767}。击杀他并拾取 {npc:171699}。
+
+如果走错路并且 {npc:171699} 消失当你到达最后，返回开始位置并再次阅读“Tale of the Tangle”尝试。如果 {npc:171767} 不在，需要等待他刷新。
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -44,8 +52,12 @@ L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
 
 L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to activate him."
 L["basilofos_note"] = "Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn."
-L["beasts_of_bastion"] = "Beasts of Bastion"
---L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."
+L["beasts_of_bastion"] = "晋升堡垒之兽"
+L["beasts_of_bastion_note"] = [[
+Talk to {npc:161441} to summon one of the four beasts.
+
+|cFFFF0000NOTE|r: The NPC is often bugged and will not talk to you. Aethon does not have an achievement criteria and the second Sigilback is actually Cloudtail.
+]]
 L["bookkeeper_mnemis_note"] = "Has a chance to spawn in place of the {npc:166867} units in the area."
 L["cloudfeather_patriarch_note"] = "Kill {npc:158110} in the area until the rare emotes and spawns."
 L["collector_astor_note"] = "Read all six chapters of Mercia's Legacy scattered around the room, after which you will receive a whisper from {npc:157979}. Talk to her to receive {spell:333779}, allowing you to find the hidden {item:180569} to the northwest. Returning the chapter will spawn the rare."
@@ -56,17 +68,19 @@ L["dionae_note"] = "When she becomes immune, click the four {npc:163747} to brea
 L["herculon_note"] = [[
 Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}. At 10 stacks, he will activate.
 
-Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside.
+Motes can be collected from nearby 耗尽的心能之罐 located in the room or just outside.
 ]]
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
+L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
 L["unstable_memory_note"] = "Can be spawned when {npc:171018}s are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
 --L["wingflayer_note"] = "To summon, click the horn on the nearby table (southeast, up the stairs)."
 
 L["broken_flute"] = "Kill nearby {npc:170009} until they drop the {item:180536}, then use the tools to repair it."
 L["experimental_construct_part"] = "Loot a nearby {item:180534} and use it to repair the part. The anima has multiple spawn locations."
-L["larion_harness"] = "Located inside the Hall of Beasts."
-L["memorial_offering"] = "Purchase a {item:180788} from {npc:171526} in Aspirant's Rest. Place it in the drink tray near the chest to obtain the {item:180797}."
+L["larion_harness"] = "Located inside the 野兽大厅."
+L["memorial_offering"] = "Purchase a {item:180788} from {npc:171526} in 候选者之憩. Place it in the drink tray near the chest to obtain the {item:180797}."
 L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them on the nearby tribute platters to reveal the treasure."
+L["vesper_of_silver_wind"] = "Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to Spires of Ascension to forge a {item:180858}."
 
 L["gift_of_agthia"] = "Click the lit torch near the broken bridge to the northwest and carry {spell:333320} from torch to torch until you reach the chest. Lighting the final torch will grant you {spell:333063}."
 L["gift_of_chyrus"] = "Kneel in front of the chest to be granted {spell:333045}."
@@ -76,7 +90,7 @@ Southwest of the chest is a torch where you can pick up the {spell:333912}. Moun
 Before picking up the flame, clear all mobs in front of the chest. While running the flame, click any {npc:156571} along the way for a {spell:335012} debuff that increases movement speed.
 ]]
 L["gift_of_thenios"] = [[
-Behind the chest is a flight pad called "Path of Wisdom". This leads to a sequence of platforms with different incenses you can commune with:
+Behind the chest is a flight pad called "智慧之路". This leads to a sequence of platforms with different incenses you can commune with:
 
 • Incense of Knowledge
 • Incense of Patience
@@ -89,9 +103,13 @@ The orb will take you to the true Incense of Judgment. Commune with it and the f
 ]]
 L["gift_of_vesiphone"] = "Ring one of the bells to spawn a {npc:170849} and kill it to receive the {spell:333239} debuff. The falling water opposite the chest will cleanse this debuff and grant you {spell:332785}."
 
-L["anima_shard"] = "Lost Anima Shard"
+L["cache_of_the_ascended"] = "Cache of the Ascended"
+L["cache_of_the_ascended_note"] = "With four other players, click the five Vespers of Purity, Courage, Humility, Wisdom and Loyalty at the same time. Afterwards, head to Aspirant's Crucible to defeat the Ascended Council and reveal the cache."
+
+L["anima_shard"] = "失落的心能碎片"
 L["anima_shard_61225"] = "On a lower platform below the bridge."
 L["anima_shard_61235"] = "On a ledge above the waterfall."
+L["anima_shard_61236"] = "On top of an arch halfway up the main structure."
 L["anima_shard_61237"] = "On a ledge just above the water."
 L["anima_shard_61238"] = "In the water beneath a small bridge."
 L["anima_shard_61239"] = "On top of a thin stone column."
@@ -99,14 +117,15 @@ L["anima_shard_61241"] = "Above the entrance to the Chamber of First Reflection.
 L["anima_shard_61244"] = "On a rock in the side of the cliff."
 L["anima_shard_61245"] = "On a rock above a small waterfall."
 L["anima_shard_61247"] = "On the wall above a small water fixture."
-L["anima_shard_61249"] = "Hidden behind a stone column on the upper level of Purity's Pinnacle."
+L["anima_shard_61249"] = "Hidden behind a stone column on the upper level of 纯洁之巅."
 L["anima_shard_61250"] = "Sitting behind a staircase."
 L["anima_shard_61251"] = "Sitting beneath a small bell."
 L["anima_shard_61253"] = "On top of a fallen stone archway."
 L["anima_shard_61254"] = "On top of a small wooden structure."
 L["anima_shard_61257"] = "On a small ledge directly beneath {npc:162523}."
-L["anima_shard_61258"] = "On a small ledge on the underside of Hero's Rest."
+L["anima_shard_61258"] = "On a small ledge on the underside of 英雄之眠."
 L["anima_shard_61260"] = "On the ground under the platform."
+L["anima_shard_61261"] = "On a ledge above {npc:163460}'s cave."
 L["anima_shard_61263"] = "On top of a stone pillar."
 L["anima_shard_61270"] = "Sitting at the base of a tree."
 L["anima_shard_61271"] = "In a bookcase on the upper platform."
@@ -122,27 +141,30 @@ L["anima_shard_61282"] = "On a ledge way below the cliff top. Jump on the rock n
 L["anima_shard_61283"] = "In a cave under Miri's Chapel, behind some barrels."
 L["anima_shard_61284"] = "On a ledge under a rocky overhang, path to the south."
 L["anima_shard_61285"] = "At the end of a small rock ledge."
+L["anima_shard_61286"] = "On a ledge overlooking the path."
 L["anima_shard_61287"] = "On a ledge above the small waterfall."
 L["anima_shard_61288"] = "On the tip of a small ledge."
 L["anima_shard_61289"] = "On top of the gazebo."
+L["anima_shard_61290"] = "At the end of a narrow rock ledge."
 L["anima_shard_61291"] = "At the bottom of the pond by the feet of a statue."
 L["anima_shard_61292"] = "On top of the stone archway."
 L["anima_shard_61293"] = "On top of a thin stone column on the lower level."
 L["anima_shard_61294"] = "Hidden behind a stack of barrels."
 L["anima_shard_61295"] = "Behind {npc:156889} in a bookshelf."
+L["anima_shard_61296"] = "Behind the large fallen bell."
 L["anima_shard_61297"] = "Behind a stone pillar."
 L["anima_shard_61298"] = "Sitting behind a lounge chair."
 L["anima_shard_61299"] = "Hidden behind a large torch."
 L["anima_shard_61300"] = "On a ledge hanging over the central font."
-L["options_toggle_anima_shards"] = "Lost Anima Shards"
-L["options_toggle_anima_shards_desc"] = "Display the locations of all 50 lost anima shards for the Shard Labor achievement."
+L["options_toggle_anima_shards"] = "失落的心能碎片"
+L["options_toggle_anima_shards_desc"] = "Display the locations of all 50 lost anima shards for the 碎片苦工 achievement."
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
 
 L["chelicerae_note"] = "Destroy the {npc:159885} to activate the rare."
-L["deepscar_note"] = "Can appear in multiple entrances to the Theater of Pain."
+L["deepscar_note"] = "Can appear in multiple entrances to the 伤逝剧场."
 L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
 L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
 L["malkorak_note"] = "At the top of the tower (lots of stairs)."
@@ -158,8 +180,8 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 • Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
 ]]
 
-L["blackhound_cache"] = "Blackhound Cache"
-L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
+L["blackhound_cache"] = "黑犬宝箱"
+L["bladesworn_supply_cache"] = "刃誓补给箱"
 L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
 L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
 L["plaguefallen_chest_note"] = [[
@@ -172,13 +194,13 @@ L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
 L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
 
 L["pet_cat"] = "Pet the damn cat!"
-L["hairball"] = ns.color.Red("Only appears in the Festering Sanctum inside the Plaguefall dungeon!")
+L["hairball"] = ns.color.Red("Only appears in the 腐烂圣所 inside the 凋魂之殇 dungeon!")
 L["lime"] = "Sitting on top of the large bone arch."
 L["moldstopheles"] = "Run around the back of the stalk and jump up the mushroom platforms. For the final platform, use a mount and jump at the corner where it meets the stalk."
 L["pus_in_boots"] = "Located under the bridge."
 
 L["options_toggle_kittens"] = "Kittens"
-L["options_toggle_kittens_desc"] = "Display locations of kittens for the Nine Afterlives achievement."
+L["options_toggle_kittens_desc"] = "Display locations of kittens for the 亡命九条 achievement."
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -200,7 +222,6 @@ L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she
 L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769}s and waves of {npc:155795}s until the rare spawns."
 L["worldedge_gorger_note"] = "Obtain an {item:173939} from World Reavers, Devourers and Mites in the Banewood and the Endmire. Use it to light the Worldedge Braziers and summon the rare."
 
-L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
 L["secret_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
@@ -219,5 +240,21 @@ L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
 L["smuggled_cache"] = "Smuggled Cache"
 L["wayfairer_spoils"] = "Wayfairer's Abandoned Spoils"
 
+L["sinrunner_note"] = "Bring food and supplies to {npc:173468} for six days to obtain her reins. She only appears for a few minutes at a time."
+L["sinrunner_note_day1"] = "Offer Blanchy 8 {item:182581} from farm areas in Westfall."
+L["sinrunner_note_day2"] = "Obtain a {item:182585} from {npc:173570} in Darkhaven and use it to clean Blanchy."
+L["sinrunner_note_day3"] = "Equip Blanchy with 4 {item:182595} found on the roads surrounding Darkhaven."
+L["sinrunner_note_day4"] = "Pick up the {item:182620} near {npc:173570} and fill it with water from Bastion or Ardenweald. Return the {item:182599} to Blanchy."
+L["sinrunner_note_day5"] = "Equip Blanchy with a {item:182597}, sold by {npc:171808} near the Night Market in exchange for assorted meats."
+L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} by the Hole in the Wall."
+
 L["options_toggle_carriages"] = "Carriages"
 L["options_toggle_carriages_desc"] = "Display locations and paths of rideable carriages."
+
+-------------------------------------------------------------------------------
+----------------------------------- THE MAW -----------------------------------
+-------------------------------------------------------------------------------
+
+L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
+L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
+L["talaporas_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331800} to summon the rare."
