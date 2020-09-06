@@ -194,6 +194,9 @@ Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:15
 L["stolen_jar_note"] = "En una cueva debajo de la seta gigante."
 L["strange_growth_note"] = "Estira de {npc:165037} para revelar el tesoro."
 L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar que vat of slime sea cuba de baba
+L["necro_tome_note"] = "Para tener acceso a la torre, has de empezar una pequeña cadena de misiones que te da {npc: 166657}. En un estante en el piso superior."
+L["misplaced_supplies"] = "Encima de la seta gigante"
+L["level_60"] = "Nivel 60"
 
 L["pet_cat"] = "¡Acaricia al maldito gato!"--Revisar que Pet the damn cat! sea ¡Acaricia al maldito gato!
 L["hairball"] = ns.color.Red("¡Sólo aparece en el Santuario Purulento dentro de la mazmorra Pestecadencia!")--Revisar que Festering Sanctum sea Santuario Purulento y Plaguefall sea Pestecadencia
