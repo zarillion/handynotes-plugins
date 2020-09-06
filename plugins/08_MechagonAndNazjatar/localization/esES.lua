@@ -8,17 +8,17 @@ if not L then return end
 ----------------------------------- GENERAL -----------------------------------
 -------------------------------------------------------------------------------
 
-L["context_menu_title"] = "HandyNotes Mechagon & Nazjatar"
-L["options_title"] = "Mechagon & Nazjatar"
+L["context_menu_title"] = "HandyNotes Mecandria & Nazjatar"
+L["options_title"] = "Mecandria & Nazjatar"
 
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
-L["operation_mechagon"] = "Operation Mechagon"
+L["operation_mechagon"] = "Operación Mecandria"
 
-L["avenger_note"] = "When Oglethorpe Obnoticus is in Rustbolt, kill the OOX-Fleetfoot/MG (runs all over the zone) to spawn.";
-L["beastbot_note"] = "Craft a Beastbot Powerpack at Pascal-K1N6 to activate.";
+L["avenger_note"] = "Cuando {npc:155254} esté en Pernoóxido, mata al {npc:151159} que corre por toda la zona para hacer aparecer al {npc:151296}.";
+L["beastbot_note"] = "Fabrica un {item:168045} en {npc:155373} para activar a la {npc:151933}.";
 L["cogstar_note"] = "Kill Upgraded Sentry mobs anywhere in the zone until he teleports in to reinforce them.";
 L["crazed_trogg_note"] = "Use a spraybot, paint filled bladder or the bots in Bondo's Yard to coat yourself in the color he yells.";
 L["deepwater_note"] = "Craft a Hundred-Fathom Lure at Pascal-K1N6 to summon.";
