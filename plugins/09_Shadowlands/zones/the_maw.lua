@@ -233,7 +233,7 @@ local BonusBoss = Class('BonusBoss', NPC, { icon='peg_red', scale=1.8 })
 
 nodes[23004160] = BonusBoss({
     id=169102,
-    quest=nil,
+    quest=61136,
     note=L["in_cave"],
     rewards={
         Achievement({id=14660, criteria=49485}),
@@ -245,7 +245,7 @@ nodes[23004160] = BonusBoss({
 
 -- nodes[] = BonusBoss({
 --     id=170787,
---     quest=nil,
+--     quest=60920,
 --     rewards={
 --         Achievement({id=14660, criteria=49487}),
 --     }
@@ -269,7 +269,7 @@ nodes[25831479] = BonusBoss({
 
 nodes[19205740] = BonusBoss({
     id=162844,
-    quest={60988,61140},
+    quest=61140,
     rewards={
         Achievement({id=14660, criteria=50410}),
     }
@@ -277,7 +277,7 @@ nodes[19205740] = BonusBoss({
 
 nodes[34202000] = BonusBoss({
     id=158314,
-    quest=nil,
+    quest=59183,
     rewards={
         Achievement({id=14660, criteria=49475}),
     }
@@ -285,7 +285,7 @@ nodes[34202000] = BonusBoss({
 
 -- nodes[] = BonusBoss({
 --     id=172523,
---     quest=nil,
+--     quest=62209,
 --     rewards={
 --         Achievement({id=14660, criteria=49490}),
 --     }
@@ -293,7 +293,7 @@ nodes[34202000] = BonusBoss({
 
 -- nodes[] = BonusBoss({
 --     id=170692,
---     quest=nil,
+--     quest=60903,
 --     rewards={
 --         Achievement({id=14660, criteria=49486}),
 --     }
@@ -309,7 +309,7 @@ nodes[27311754] = BonusBoss({
 
 nodes[43804800] = BonusBoss({
     id=172207,
-    quest=nil,
+    quest=62618,
     rewards={
         Achievement({id=14660, criteria=50408}),
     }
@@ -333,7 +333,7 @@ nodes[26173744] = BonusBoss({
 
 -- nodes[] = BonusBoss({
 --     id=172521,
---     quest=nil,
+--     quest=62210,
 --     rewards={
 --         Achievement({id=14660, criteria=49489}),
 --     }
@@ -341,7 +341,7 @@ nodes[26173744] = BonusBoss({
 
 nodes[61607820] = BonusBoss({
     id=172524,
-    quest=nil,
+    quest=62211,
     rewards={
         Achievement({id=14660, criteria=49491}),
     }
@@ -349,7 +349,7 @@ nodes[61607820] = BonusBoss({
 
 nodes[20782968] = BonusBoss({
     id=162965,
-    quest=nil,
+    quest=58918,
     rewards={
         Achievement({id=14660, criteria=49481}),
     }
@@ -365,7 +365,7 @@ nodes[36253744] = BonusBoss({
 
 nodes[36844480] = BonusBoss({
     id=156203,
-    quest={62539, 62722},
+    quest=62539,
     rewards={
         Achievement({id=14660, criteria=50409}),
     }
@@ -373,7 +373,7 @@ nodes[36844480] = BonusBoss({
 
 -- nodes[] = BonusBoss({
 --     id=173086,
---     quest=nil,
+--     quest=61728,
 --     rewards={
 --         Achievement({id=14660, criteria=49492}),
 --     }
@@ -381,7 +381,7 @@ nodes[36844480] = BonusBoss({
 
 -- nodes[] = BonusBoss({
 --     id=165973,
---     quest=nil,
+--     quest=61124,
 --     rewards={
 --         Achievement({id=14660, criteria=49483}),
 --     }
