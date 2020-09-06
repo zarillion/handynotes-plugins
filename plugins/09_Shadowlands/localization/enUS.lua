@@ -103,6 +103,9 @@ The orb will take you to the true Incense of Judgment. Commune with it and the f
 ]]
 L["gift_of_vesiphone"] = "Ring one of the bells to spawn a {npc:170849} and kill it to receive the {spell:333239} debuff. The falling water opposite the chest will cleanse this debuff and grant you {spell:332785}."
 
+L["cache_of_the_ascended"] = "Cache of the Ascended"
+L["cache_of_the_ascended_note"] = "With four other players, click the five Vespers of Purity, Courage, Humility, Wisdom and Loyalty at the same time. Afterwards, head to Aspirant's Crucible to defeat the Ascended Council and reveal the cache."
+
 L["anima_shard"] = "Lost Anima Shard"
 L["anima_shard_61225"] = "On a lower platform below the bridge."
 L["anima_shard_61235"] = "On a ledge above the waterfall."
@@ -237,5 +240,21 @@ L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
 L["smuggled_cache"] = "Smuggled Cache"
 L["wayfairer_spoils"] = "Wayfairer's Abandoned Spoils"
 
+L["sinrunner_note"] = "Bring food and supplies to {npc:173468} for six days to obtain her reins. She only appears for a few minutes at a time."
+L["sinrunner_note_day1"] = "Offer Blanchy 8 {item:182581} from farm areas in Westfall."
+L["sinrunner_note_day2"] = "Obtain a {item:182585} from {npc:173570} in Darkhaven and use it to clean Blanchy."
+L["sinrunner_note_day3"] = "Equip Blanchy with 4 {item:182595} found on the roads surrounding Darkhaven."
+L["sinrunner_note_day4"] = "Pick up the {item:182620} near {npc:173570} and fill it with water from Bastion or Ardenweald. Return the {item:182599} to Blanchy."
+L["sinrunner_note_day5"] = "Equip Blanchy with a {item:182597}, sold by {npc:171808} near the Night Market in exchange for assorted meats."
+L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} by the Hole in the Wall."
+
 L["options_toggle_carriages"] = "Carriages"
 L["options_toggle_carriages_desc"] = "Display locations and paths of rideable carriages."
+
+-------------------------------------------------------------------------------
+----------------------------------- THE MAW -----------------------------------
+-------------------------------------------------------------------------------
+
+L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
+L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
+L["talaporas_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331800} to summon the rare."

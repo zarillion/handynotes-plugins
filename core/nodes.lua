@@ -322,10 +322,16 @@ end
 -------------------------------------------------------------------------------
 
 local Treasure = Class('Treasure', Node, {
-    icon = 'chest_gray',
     scale = 1.3,
     group = 'treasures'
 })
+
+function Treasure.getters:icon ()
+    if self._focus then
+        return 'chest_gray_green_glow'
+    end
+        return 'chest_gray'
+end
 
 function Treasure:enabled (map, coord, minimap)
     local db = ns.addon.db
@@ -347,9 +353,12 @@ end
 -------------------------------------------------------------------------------
 
 local Supply = Class('Supply', Treasure, {
-    icon = 'star_chest',
     scale = 2
 })
+
+function Supply.getters:icon ()
+    return 'star_chest'
+end
 
 -------------------------------------------------------------------------------
 

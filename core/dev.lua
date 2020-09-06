@@ -138,6 +138,23 @@ end
 
 -------------------------------------------------------------------------------
 
+-- Debug function that iterates over each pin template and removes it from the
+-- map. This is helpful for determining which template a pin is coming from.
+
+local hidden = {}
+_G[ADDON_NAME..'RemovePins'] = function ()
+    for k, v in pairs(WorldMapFrame.pinPools) do
+        if not hidden[k] then
+            hidden[k] = true
+            print('Removing pin template:', k)
+            WorldMapFrame:RemoveAllPinsByTemplate(k)
+            return
+        end
+    end
+end
+
+-------------------------------------------------------------------------------
+
 local function debug(...)
     if (ns.addon.db.profile.development) then print(...) end
 end

@@ -368,6 +368,14 @@ nodes[32742127] = Treasure({
     }
 }) -- Kyrian Keepsake
 
+nodes[47236216] = Treasure({
+    quest=59358,
+    rewards={
+        Achievement({id=14312, criteria=50063}),
+        Transmog({item=180749, slot=L["shield"]}) -- Hauk's Battle-Scarred Bulwark
+    }
+}) -- Ornate Bone Shield
+
 nodes[57667581] = Treasure({
     quest=61474,
     note=L["plaguefallen_chest_note"],
@@ -483,15 +491,6 @@ ns.maps[festering_sanctum.id] = festering_sanctum
 
 -- Add Hairball to the world map
 nodes[68108620] = HAIRBALL
-
-ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)
-    -- Watch for a spellcast event that signals the kitten was pet.
-    -- https://www.wowhead.com/spell=321337/petting
-    local _, source, _, spellID = ...
-    if source == 'player' and spellID == 321337 then
-        C_Timer.After(1, function() ns.addon:Refresh() end)
-    end
-end)
 
 -------------------------------------------------------------------------------
 

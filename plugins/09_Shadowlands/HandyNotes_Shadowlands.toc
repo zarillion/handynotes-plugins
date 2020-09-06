@@ -34,3 +34,4 @@ zones\ardenweald.lua
 zones\bastion.lua
 zones\maldraxxus.lua
 zones\revendreth.lua
+zones\the_maw.lua

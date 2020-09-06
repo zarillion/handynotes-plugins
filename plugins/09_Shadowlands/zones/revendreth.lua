@@ -329,7 +329,10 @@ nodes[38607200] = Rare({
         Mount({item=182589, id=1391}) -- Loyal Gorger
     }
 }) -- Worldedge Gorger
--- 61188 => 61839 => 61843
+-- Prereq item: Impressionable Gorger Spawn 61188
+-- Daily completion: 61843
+-- Day 1: Nipping at the Undergrowth 61839
+-- Day 2: Vineroot on the Menu 61840
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -486,6 +489,38 @@ nodes[68446445] = Treasure({
     quest=59884,
     label=L["wayfairer_spoils"]
 }) -- Wayfairer's Abandoned Spoils
+
+-------------------------------------------------------------------------------
+------------------------------ SINRUNNER BLANCHY ------------------------------
+-------------------------------------------------------------------------------
+
+-- daily completed: 62107
+
+local Blanchy = Class('Blanchy', NPC, {
+    id=173468,
+    icon=2143082,
+    quest={62038, 62042, 62047, 62049, 62048, 62050},
+    questCount=true,
+    rewards={
+        Mount({item=182614, id=1414}) -- Blanchy's Reins
+    }
+})
+
+function Blanchy.getters:note ()
+    local note = L["sinrunner_note"]
+    local status = nil
+    for i, quest in ipairs(self.quest) do
+        if C_QuestLog.IsQuestFlaggedCompleted(quest) then
+            status = ns.status.Green(i)
+        else
+            status = ns.status.Red(i)
+        end
+        note = note..'\n\n'..status..' '..L["sinrunner_note_day"..i]
+    end
+    return note
+end
+
+nodes[62874341] = Blanchy()
 
 -------------------------------------------------------------------------------
 ---------------------------- THE AFTERLIFE EXPRESS ----------------------------
