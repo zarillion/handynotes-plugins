@@ -258,5 +258,9 @@ L["options_toggle_carriages_desc"] = "Muestra las localizaciones posibles y cami
 -------------------------------------------------------------------------------
 
 L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331783} para invocar a {npc:170301}."
+L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:330650} para invocar a {npc:169827}."
 L["orophea_note"] = "Coge el {spell:337143} al sureste y ofrécelo a {npc:172577} para que se active {npc:172577}." 
+L["sanngror_note"] = "Si no se puede atacar a {npc:172521}, espera hasta que no esté experimentando con las almas."
 L["talaporas_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331800} para invocar a {npc:170302}." 
+L["valis_note"] = "Haz click en las tres {npc:174810} en el orden correcto para invocar a {npc:173086}. El orden cambia cada vez y hacer click en la runa incorrecta produce daño y te pone el debuff {spell:343636}."
+L["yero_note"] = "Acércate a {npc:172862} y síguelo abajo hasta una cueva cercana donde él se vuelve hostil."
