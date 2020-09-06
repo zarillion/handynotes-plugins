@@ -124,13 +124,14 @@ nodes[23765341] = Rare({
     }
 }) -- Eketra <The Impaler>
 
--- nodes[] = Rare({
---     id=169827,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49849}),
---     }
--- }) -- Ekphoras, Herald of Grief
+nodes[42342108] = Rare({
+    id=169827,
+    quest=nil,
+    note=L["ekphoras_note"],
+    rewards={
+        Achievement({id=14744, criteria=49849}),
+    }
+}) -- Ekphoras, Herald of Grief
 
 -- nodes[] = Rare({
 --     id=154330,
@@ -417,23 +418,23 @@ nodes[40705959] = BonusBoss({
 -- HACK: in development, hide all the obnoxious tomb-stone vignettes so we can
 -- get some work done ...
 
-hooksecurefunc(ns.addon, 'OnInitialize', function ()
-    local _UpdatePosition = VignettePinMixin.UpdatePosition
-    VignettePinMixin.UpdatePosition = function (self, bestUniqueVignette)
-        if not self:GetMap() then return end
-        _UpdatePosition(self, bestUniqueVignette)
-    end
-    hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
-        local template = WorldMapFrame.pinPools.VignettePinTemplate
-        if template then
-            for pin in template:EnumerateActive() do
-                if pin.vignetteInfo.vignetteID == 4553 then
-                    template:Release(pin)
-                end
-            end
-        end
-    end)
-end)
+-- hooksecurefunc(ns.addon, 'OnInitialize', function ()
+--     local _UpdatePosition = VignettePinMixin.UpdatePosition
+--     VignettePinMixin.UpdatePosition = function (self, bestUniqueVignette)
+--         if not self:GetMap() then return end
+--         _UpdatePosition(self, bestUniqueVignette)
+--     end
+--     hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
+--         local template = WorldMapFrame.pinPools.VignettePinTemplate
+--         if template then
+--             for pin in template:EnumerateActive() do
+--                 if pin.vignetteInfo.vignetteID == 4553 then
+--                     template:Release(pin)
+--                 end
+--             end
+--         end
+--     end)
+-- end)
 
 -------------------------------------------------------------------------------
 
