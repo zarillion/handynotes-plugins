@@ -440,23 +440,23 @@ local SLIME_PETS = {
 };
 
 -- first quest is daily, second quest means done and gone until weekly reset
-nodes[32773951] = NPC({id=151782, icon="slime", quest={55430,55473},
+nodes[32773951] = NPC({id=151782, icon="slime", quest={55430,55473}, questAny=true,
     note=L["ravenous_slime_note"], rewards=SLIME_PETS});
-nodes[45692409] = NPC({id=151782, icon="slime", quest={55429,55472},
+nodes[45692409] = NPC({id=151782, icon="slime", quest={55429,55472}, questAny=true,
     note=L["ravenous_slime_note"], rewards=SLIME_PETS});
-nodes[54894868] = NPC({id=151782, icon="slime", quest={55427,55470},
+nodes[54894868] = NPC({id=151782, icon="slime", quest={55427,55470}, questAny=true,
     note=L["ravenous_slime_note"], rewards=SLIME_PETS});
-nodes[71722569] = NPC({id=151782, icon="slime", quest={55428,55471},
+nodes[71722569] = NPC({id=151782, icon="slime", quest={55428,55471}, questAny=true,
     note=L["ravenous_slime_note"], rewards=SLIME_PETS});
 
 -- once the second quest is true, the eggs should be displayed
-nodes[32773952] = Node({icon="green_egg", quest=55478, questdeps=55473,
+nodes[32773952] = Node({icon="green_egg", quest=55478, questDeps=55473,
     label=L["slimy_cocoon"], note=L["slimy_cocoon_note"], rewards=SLIME_PETS});
-nodes[45692410] = Node({icon="green_egg", quest=55477, questdeps=55472,
+nodes[45692410] = Node({icon="green_egg", quest=55477, questDeps=55472,
     label=L["slimy_cocoon"], note=L["slimy_cocoon_note"], rewards=SLIME_PETS});
-nodes[54894869] = Node({icon="green_egg", quest=55475, questdeps=55470,
+nodes[54894869] = Node({icon="green_egg", quest=55475, questDeps=55470,
     label=L["slimy_cocoon"], note=L["slimy_cocoon_note"], rewards=SLIME_PETS});
-nodes[71722570] = Node({icon="green_egg", quest=55476, questdeps=55471,
+nodes[71722570] = Node({icon="green_egg", quest=55476, questDeps=55471,
     label=L["slimy_cocoon"], note=L["slimy_cocoon_note"], rewards=SLIME_PETS});
 
 ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)

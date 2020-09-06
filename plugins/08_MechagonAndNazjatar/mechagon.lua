@@ -459,7 +459,7 @@ nodes[12088568] = TREASURE10
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-nodes[53486145] = Quest({quest=55743, questdeps=56117, daily=true, minimap=false, scale=1.8, rewards={
+nodes[53486145] = Quest({quest=55743, questDeps=56117, daily=true, minimap=false, scale=1.8, rewards={
     Achievement({id=13708, criteria={45772,45775,45776,45777,45778}}), -- Most Minis Wins
     Item({item=169848, weekly=57134}), -- Azeroth Mini Pack: Bondo's Yard
 }})

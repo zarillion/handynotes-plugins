@@ -22,9 +22,10 @@ Base class for all displayed nodes.
     scale (float): The default scale value for this type
     minimap (bool): Should the node be displayed on the minimap
     quest (int|int[]): Quest IDs that cause this node to disappear
-    questdeps (int|int[]): Quest IDs that must be true to appear
+    questAny (boolean): Hide node if *any* quests are true (default *all*)
     questCount (boolean): Display completed quest count as rlabel
-    requires (str): Requirement to interact or unlock
+    questDeps (int|int[]): Quest IDs that must be true to appear
+    requires (str): Requirement to interact or unlock (sets sublabel)
     rewards (Reward[]): Array of rewards for this node
 
 --]]
@@ -40,7 +41,7 @@ Node.group = "other"
 
 function Node:init ()
     -- normalize quest ids as tables instead of single values
-    for i, key in ipairs{'quest', 'questdeps'} do
+    for i, key in ipairs{'quest', 'questDeps'} do
         if type(self[key]) == 'number' then self[key] = {self[key]} end
     end
 
@@ -80,8 +81,13 @@ function Node:enabled (map, coord, minimap)
     -- Node may be faction restricted
     if self.faction and self.faction ~= ns.faction then return false end
 
-    -- Disable if all attached quest ids are true
-    if self.quest then
+    if self.quest and self.questAny then
+        -- Disable if *any* attached quest ids are true
+        for i, quest in ipairs(self.quest) do
+            if C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
+        end
+    elseif self.quest then
+        -- Disable if *all* attached quest ids are true
         local count = 0
         for i, quest in ipairs(self.quest) do
             if C_QuestLog.IsQuestFlaggedCompleted(quest) then
@@ -92,7 +98,7 @@ function Node:enabled (map, coord, minimap)
     end
 
     -- Disable if any dependent quest ids are false
-    for i, quest in ipairs(self.questdeps or {}) do
+    for i, quest in ipairs(self.questDeps or {}) do
         if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
     end
 
