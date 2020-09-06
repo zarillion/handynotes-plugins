@@ -8,7 +8,7 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes Shadowlands"
 L["options_title"] = "Shadowlands"
-L["covenant_required"] = "Benötigt ein Paktmitglied der %s" --review
+L["covenant_required"] = "Benötigt ein Paktmitglied der %s"
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -17,7 +17,7 @@ L["covenant_required"] = "Benötigt ein Paktmitglied der %s" --review
 L["deifir_note"] = "Reite auf {npc:164238} und verwende die Fähigkeiten {spell:319566} und {spell:319575}, um ihn zu verlangsamen und zu betäuben."
 L["faeflayer_note"] = "In einer kleinen Höhle, versteckt hinter einem Wasserfall."
 L["humongozz_note"] = "Pflanze einen {item:175247} in feuchten Lehm, um einen {npc:164122} erscheinen zu lassen. Nach einer Minute {spell:319367} wird {npc:164112} erscheinen. Der Pilz wird von mehreren Gegnern in diesem Gebiet fallen gelassen." --review Blizzard translation
-L["lehgo_note"] = "Zerstöre Zitternde Gormeier und töte |CFFFFFF00Wütende Eipfleger|r bis {npc:167851} erscheint. In einer Höhle. (Eingang nach Südosten (58.5 31.9))." --{npc:171827}
+L["lehgo_note"] = "Zerstöre Zitternde Gormeier und töte |CFFFFFF00Wütende Eipfleger|r bis {npc:167851} erscheint. In einer Höhle. (Eingang nach Südosten (58.5, 31.9))." --{npc:171827}
 L["rootwrithe_note"] = "Pike die |CFFFFFF00Inaktiven Blüten|r an, bis {npc:167726} erscheint." --{npc:167928}
 L["rotbriar_note"] = "Sprich mit {npc:171684} in der Nähe, um {npc:167724} nach einem Dialog zu beschwören."
 L["slumbering_note"] = "In den Nebel zu laufen wird dich betäuben und wieder herausteleportieren. Verwende ein Leuchtfeuer oder Begleiter mit Flächenschaden, um ihn aus dem Nebel zu stoßen."
@@ -50,8 +50,8 @@ Wenn du den falschen Pfad nimmst und {npc:171699} verschwindet, wenn du das Ende
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["aspirant_eolis_note"] = "Plündere {item:180613} in der Nähe und lese es ihm vor. \nEs erscheint eine Truhe."
-L["basilofos_note"] = "Beweg dich um den Felsen herum, bis ein lila Fixierungsmarker über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint." --review
+L["aspirant_eolis_note"] = "Plündere {item:180613} in der Nähe und lese es ihm vor. Es erscheint eine Truhe."
+L["basilofos_note"] = "Beweg dich auf den Felsen herum, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint."
 L["beasts_of_bastion"] = "Bestien der Bastion" --review Blizzard translation
 L["beasts_of_bastion_note"] = [[
 Sprich mit {npc:161441}, um eine der vier Bestien zu beschwören.
@@ -59,91 +59,94 @@ Sprich mit {npc:161441}, um eine der vier Bestien zu beschwören.
 |cFFFF0000HINWEIS|r: Der NPC ist oft verbuggt und will nicht mit dir reden. Aethon hat kein Erfolgskriterium und der zweite Sigilback ist momentan noch Cloudtail.
 ]]--TRANSLATE
 L["bookkeeper_mnemis_note"] = "Hat die Chance anstelle von {npc:166867} in diesem Gebiet zu erscheinen."
-L["cloudfeather_patriarch_note"] = "Töte {npc:158110} in diesem Gebiet, bis ein Emote ausgegeben wird und {npc:170932} erscheint."
+L["cloudfeather_patriarch_note"] = "Töte {npc:158110}|CFFFFFF00n|r in diesem Gebiet, bis ein Emote ausgegeben wird und der {npc:170932} erscheint."
 L["collector_astor_note"] = "Lies alle sechs Kapitel von Mercias Vermächtnis, die im Raum verstreut sind und das {npc:157979} wird zu dir flüstern. Sprich mit ihr, um {spell:333779} zu erhalten, der es dir erlaubt den versteckten {item:180569} im Nordwesten zu finden. Wenn das Kapitel zurückgeben wird, erscheint {npc:171014}."
-L["corrupted_clawguard_note"] = "Plündere einen {item:180651} im Schmiedefeuer Außenposten (den Berg hoch) und verwende es, um den {npc:171300} zu reparieren." --review location name
+L["corrupted_clawguard_note"] = "Plündere {item:180651} im Schmiedefeueraußenposten (den Berg hoch) und verwende es, um die {npc:171300} zu reparieren."
 L["dark_watcher_note"] = "Kann nur während des Todes gesehen werden. Sprich mit ihr und sie wird {spell:332830} auf dich wirken, bevor sie angreift."
 L["demi_hoarder_note"] = "Startet mit 99 Stapeln von {spell:333874} (Reduzierung des erlittenen Schadens). Stapel werden langsam durch Schaden entfernt. {npc:171011} folgt einem Pfad und verschwindet wenn sie das Ende erreicht."
-L["dionae_note"] = "\nWenn sie immun wird, klicke auf die vier {npc:163747}e, um ihr Schild zu brechen."
+L["dionae_note"] = "\nWenn sie immun wird, klicke auf die vier {npc:163747}|CFFFFFF00e|r, um ihr Schild zu brechen."
 L["herculon_note"] = [[
 Sammel {item:172451} und verwende dieses, um {npc:158659} Stapel von {spell:343531} zu gewähren. Bei 10 Stapeln wird er aktiv.
 
-Partikel können von nahegelegenen erschöpften Anima Kanistern gesammelt werden, die sich in diesem Raum oder direkt außerhalb befinden.
+Partikel können aus entleerten Animakanistern in der Nähe gesammelt werden, die sich in diesem Raum oder direkt außerhalb befinden.
 ]]
-L["nikara_note"] = "Klicke mit zwei anderen Spielern, die uralten Räuchergefäße an, um ihn zu beschwören." --review Blizzard translation
-L["sundancer_note"] = "Klicke die Statue an, um den {spell:332309} zu erhalten und verwende einen {item:180445}, um zu ihm zu gleiten und aufzusitzen."
+L["nikara_note"] = "Klicke mit zwei anderen Spielern die uralten Räuchergefäße an, um ein Ritual zu beginnen, {npc:160882} zu beschwören." --review Blizzard translation
+L["sundancer_note"] = "Klicke das Uralte Denkmal an, um den {spell:332309} zu erhalten und verwende einen {item:180445}, um zu ihm zu gleiten und aufzusitzen."
 L["unstable_memory_note"] = "Kann beschworen werden, wenn {npc:171018} anwesend ist. Ziehe dieses in andere, um ihm 10 Stapel von {spell:333558} zu gewähren, der es zu {npc:171008} heranwachsen lässt."
 --L["wingflayer_note"] = "Klicken zum Beschwören das Horn auf dem Tisch in der Nähe an. (Südosten, die Treppe hoch)"
 
-L["broken_flute"] = "Töte nahegelegene {npc:170009}, bis diese {item:180536} fallen lassen, dann verwende die Werkzeuge, um die Flöte zu reparieren."
+L["broken_flute"] = "Töte |CFFFFFF00Beunruhigte Ätherwyrme|r in diesem Gebiet, bis diese {item:180536} fallen lassen, dann verwende die Werkzeuge, um die Flöte zu reparieren." --{npc:170009}
 L["experimental_construct_part"] = "Plündere ein {item:180534} in der Nähe und verwende es, um den Gegenstand zu reparieren. Das {item:180534} erscheint an verschiedenen Stellen."
 L["larion_harness"] = "Befindet sich in der Halle der Bestien."
 L["memorial_offering"] = "Kaufe 1x {item:180788} von {npc:171526} in der Aspirantenrast (48.0, 73.9). Stelle es auf das Getränketablett in der Nähe der Truhe, um den {item:180797} zum öffnen der Truhe zu erhalten."
-L["scroll_of_aeons"] = "Plündere zwei {item:173973} im mittleren Bereich und lege sie auf die nahe gelegenen Tributplatten, um den Schatz zu enthüllen." --review Blizzard translation
-L["vesper_of_silver_wind"] = "Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to Spires of Ascension to forge a {item:180858}."
+L["scroll_of_aeons"] = "Plündere 2x {item:173973} im mittleren Bereich und platziere diese auf den Tributplatten in der Nähe, um den Schatz zu enthüllen."
+L["vesper_of_silver_wind"] = "Schließe den Erfolg {achievement:14339} ab und sprich dann mit {npc:171732} nahe dem Eingang zu den Spitzen des Aufstieges, um einen {item:180858} zu schmieden."
 
-L["gift_of_agthia"] = "Klicke auf die brennende Fackel in der Nähe der kaputten Brücke im Nordwesten (39.1, 54.5) und trage {spell:333320} von Fackel zu Fackel bis du die Truhe erreichst. Wenn du die letzte Fackel anzündest wird dir der {spell:333063} gewährt."
-L["gift_of_chyrus"] = "Knie vor er Truhe, um den {spell:333045} zu erhalten."
+L["gift_of_agthia"] = "Klicke auf die brennende Fackel in der Nähe der kaputten Brücke im Nordwesten (bei 39.1, 54.5) und trage {spell:333320} von Fackel zu Fackel bis du die Truhe erreichst. Wenn du die letzte Fackel anzündest wird dir der {spell:333063} gewährt, um die Truhe öffnen zu können."
+L["gift_of_chyrus"] = "Knie vor er Truhe, um den {spell:333045} zu erhalten. \nVerwende die Transportplattform (bei 69.4, 40.3), um nach oben zu gelangen."
 L["gift_of_devos"] = [[
-Südwestlich der Truhe ist eine Fackel von der du die {spell:333912} erhältst. Aufsitzen, Kampfbeitritt oder der erhalt von Schaden lassen die Flamme fallen. Du musst dir deinen Weg zurück zur Truhe bahnen und die Flamme in the Brazier of Devotion platzieren, um {spell:333070} zu erhalten.
+Südwestlich der Truhe ist eine Fackel von der du die {spell:333912} erhältst. Aufsitzen, Kampfbeitritt oder der erhalt von Schaden lassen die Flamme fallen. Du musst dir deinen Weg zurück zur Truhe bahnen und die Flamme in die Kohlenpfanne der Hingabe platzieren, um {spell:333070} zu erhalten.
 
-Bevor du die Flamme aufsammelst, töte alle Gegner vor der Truhe. Während du läufst klicke mehrere {npc:156571}n entlang des Weges an, um {spell:335012} zu erhalten, der deine Bewegungsgeschwindigkeit erhöht.
-]]--review Blizzard translation
+Bevor du die Flamme aufsammelst, töte alle Gegner vor der Truhe. Während du läufst klicke mehrere {npc:156571}|CFFFFFF00n|r entlang des Weges an, um {spell:335012} zu erhalten, der deine Bewegungsgeschwindigkeit erhöht.
+]]
 L["gift_of_thenios"] = [[
-Hinter der Truhe ist eine Flugfeld mit dem Namen "Pfad der Weisheit", diese führt zu einer Folge an Plattformen mit unterschiedlichen Räuchergefäßen mit denen kommuniziert werden kann:
+Hinter der Truhe ist eine Transportplattform mit dem Namen "Pfad der Weisheit", diese führt zu einer Folge von Plattformen mit unterschiedlichen Räuchergefäßen mit denen gesprochen werden kann:
 
-• Incense of Knowledge
-• Incense of Patience
-• Incense of Insight
-• Incense of Judgement
+• Räucherwerk des Wissens
+• Räucherwerk der Geduld
+• Räucherwerk der Einsicht
+• Räucherwerk des Richturteils
 
-Kommuniziere mit ihnen in der Reihenfolge Patience => Knowledge => Insight. Auf der Judgement Plattform wird eine Kugel mit dem Namen "Path of Insightful Wisdom" erscheinen.
+Sprich mit ihnen in der Reihenfolge |cFFFF0000Geduld => Wissen => Einsicht|r. Auf der Richturteil Plattform wird eine Kugel mit dem Namen "Weg der einsichtigen Weisheit" erscheinen.
 
-Die Kugel wird dich zu der wahren Incense of Judgment bringen. Kommuniziere dort mit ihr und das letzte Flugfeld wird dir den {spell:333068} gewähren, um die Truhe öffnen zu können.
-]] --review Blizzard translations
+Die Kugel wird dich zu dem wahren Räucherwerk des Richturteils bringen. Sprich dort mit ihm und die letzte Transportplattform wird dir den {spell:333068} gewähren, um die Truhe öffnen zu können.
+]]
 L["gift_of_vesiphone"] = "Läute an den Glocken, um eine {npc:170849} erscheinen zu lassen, töte diese um den Schwächungszauber {spell:333239} zu erhalten. Der Wasserfall gegenüber der Truhe wird diesen Schwächungszauber reinigen und dir den {spell:332785} gewähren, um die Truhe öffnen zu können."
+
+L["cache_of_the_ascended"] = "Cache of the Ascended" --review Blizzard translations
+L["cache_of_the_ascended_note"] = "Klicke mit vier anderen Spielern die Vesperglocke der Reinheit, des Mut, der Demut, der Weisheit und der Loyalität zur selben Zeit an. Begebt euch anschließend zum Prüfstein des Aspiranten, um den Aspirantenrat zu besiegen und die Truhe zu enthüllen." --review Blizzard Translation Aspirant's Aspiranten
 
 L["anima_shard"] = "Verlorener Animakristallsplitter"
 L["anima_shard_61225"] = "Auf einer tiefer gelegenen Plattform unterhalb der Brücke."
 L["anima_shard_61235"] = "An einer Kante oberhalb des Wasserfalles."
-L["anima_shard_61236"] = "Auf einem Torbogen auf halber höhe des Hauptgebäudes."
-L["anima_shard_61237"] = "An einer Kante direkt über dem Wasser."
-L["anima_shard_61238"] = "Im Wasser unterhalb einer kleinen Brücke."
+L["anima_shard_61236"] = "Auf einem Torbogen, auf halber höhe der Hauptstruktur."
+L["anima_shard_61237"] = "Auf einem Felsvorsprung direkt über dem Wasser."
+L["anima_shard_61238"] = "Im Wasser unterhalb der kleinen Brücke."
 L["anima_shard_61239"] = "Auf einer dünnen Steinsäule."
-L["anima_shard_61241"] = "Über dem Eingang zur Kammer der ersten Reflexion." --review Blizzard translation
+L["anima_shard_61241"] = "Über dem Eingang zur Kammer der Ersten Reflexion."
 L["anima_shard_61244"] = "Auf einem Felsen an der Seite der Klippe."
 L["anima_shard_61245"] = "Auf einem Felsen oberhalb eines kleinen Wasserfalles."
-L["anima_shard_61247"] = "An der Mauer über einem kleinen Wandbrunnen."
-L["anima_shard_61249"] = "Hinter einer Steinsäule auf der oberen Etage der Spitze der Reinheit versteckt."
+L["anima_shard_61247"] = "In einem kleinen Wandbrunnen an der Mauer."
+L["anima_shard_61249"] = "Hinter einer Steinsäule auf der oberen Etage der Spitze der Reinheit versteckt. Verwende die Transportplattform (bei 63.5, 72.4) um nach oben zu gelangen."
 L["anima_shard_61250"] = "Hinter einer Treppe."
-L["anima_shard_61251"] = "Unter einer kleinen Glocke"
+L["anima_shard_61251"] = "In einem Räuchergefäß."
 L["anima_shard_61253"] = "Auf einem umgestürzten Steintorbogen."
 L["anima_shard_61254"] = "Auf einer kleinen Holzkonstruktion."
 L["anima_shard_61257"] = "An einer kleinen Kante direkt unterhalb von {npc:162523}."
 L["anima_shard_61258"] = "An einer kleinen Kante an der unterseite von Heldenrast."
 L["anima_shard_61260"] = "Am Boden unter einer Plattform."
-L["anima_shard_61261"] = "An einer Kante über {npc:163460}s Höhle."
+L["anima_shard_61261"] = "An einer Kante über {npc:163460}|CFFFFFF00s|r Höhle."
 L["anima_shard_61263"] = "Auf einer Steinsäule."
 L["anima_shard_61270"] = "Am Fuße eines Baumes."
 L["anima_shard_61271"] = "In einem Bücherregal auf der oberen Plattform."
 L["anima_shard_61273"] = "An einer Kante direkt unter der hervorragenden Klippe."
 L["anima_shard_61274"] = "Unter der Plattform versteckt."
-L["anima_shard_61275"] = "In der Halle der Bestien hinter einigen Fässern." --review Blizzard translation
+L["anima_shard_61275"] = "Befindet sich in der Halle der Bestien hinter einigen Fässern."
 L["anima_shard_61277"] = "Auf einer dünnen Steinsäule."
 L["anima_shard_61278"] = "Unter einer Brücke auf einem Felsen."
 L["anima_shard_61279"] = "Auf einer dünnen Steinsäule."
-L["anima_shard_61280"] = "An der Ecke des Tisches."
+L["anima_shard_61280"] = "An einer Ecke des Tisches."
 L["anima_shard_61281"] = "An einer Kante über dem Schatz der Gedenkopfergabe."
 L["anima_shard_61282"] = "An einer Kante unterhalb der Klippe. Springe auf den Felsen daneben oder du wirst wieder hochteleportiert."
-L["anima_shard_61283"] = "In einer Höhle unter Miris Kapelle, hinter einigen Fässern." --review Blizzard translation
-L["anima_shard_61284"] = "Auf einer Kante unter einem steinigen Überhang. Nach Süden."
-L["anima_shard_61285"] = "Am Ende eines kleinen Felsvorsprungs."
-L["anima_shard_61286"] = "An einer Kante mit Blick auf den Weg." --review
+L["anima_shard_61283"] = "In {npc:171132}' Workshop, hinter einigen Fässern."
+L["anima_shard_61284"] = "Auf einer Kante unter einem steinigen Überhang. Gehe an der Steinkante entlang."
+L["anima_shard_61285"] = "An einer Kante eines kleinen Felsvorsprungs."
+L["anima_shard_61286"] = "An einer Kante mit Blick auf den Weg."
 L["anima_shard_61287"] = "An einer Kante oberhalb des kleinen Wasserfalles."
-L["anima_shard_61288"] = "An der Spitze einer kleinen Kante."
+L["anima_shard_61288"] = "An der Spitze eines kleinen Felsvorsprunges."
 L["anima_shard_61289"] = "Oben auf dem Pavillon."
 L["anima_shard_61290"] = "Am Ende eines schmalen Felsvorsprungs."
-L["anima_shard_61291"] = "Am Boden des Teiches an den Füßen einer Statue."
+L["anima_shard_61291"] = "Am Grund des Teiches an den Füßen einer Statue."
 L["anima_shard_61292"] = "Oben auf dem steinernen Torbogen."
 L["anima_shard_61293"] = "Auf einer dünnen Steinsäule auf der unteren Ebene."
 L["anima_shard_61294"] = "Hinter einem Stapel Fässer versteckt."
@@ -154,7 +157,7 @@ L["anima_shard_61298"] = "Hinter einem Liegestuhl."
 L["anima_shard_61299"] = "Hinter einer großen Fackel versteckt."
 L["anima_shard_61300"] = "An der Kante des mittleren Brunnens."
 L["options_toggle_anima_shards"] = "Verlorene Animakristallsplitter"
-L["options_toggle_anima_shards_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg \"Splitterpartie (ID:14339)\" an." --achievement 14339
+L["options_toggle_anima_shards_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg \"Splitterpartie (ID:14339)\" an." --{achievement:14339}
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -177,18 +180,21 @@ Sammel Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 3
 • Sammel {spell:306722} von {npc:165027} und {npc:166438} aus dem Süden.
 ]]
 
-L["blackhound_cache"] = "Schwarzhund Truhe" --review Blizzard translation
-L["bladesworn_supply_cache"] = "Klingenschwur Vorratstruhe" --review Blizzard translation
-L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:172485} und beide {npc:172479}en, um die Truhe freizuschalten."
+L["blackhound_cache"] = "Schwarzhundtruhe"
+L["bladesworn_supply_cache"] = "Vorräte des Klingenschwurs"
+L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:172485} und beide {npc:172479}|CFFFFFF00en|r, um die Truhe freizuschalten."
 L["kyrian_keepsake_note"] = "Untersuche die {npc:169664}, um den Schatz zu plündern."
 L["plaguefallen_chest_note"] = [[
 Stelle dich in grünen Schleim |cffff0000(benötigt Heilung!)|r, sammel 10 Stapel von {spell:330069} an, um in ein {spell:330092} verwandelt zu werden.
 
-Wenn du verwandelt bist, besuche die Höhle unterhalb von {npc:158406}es Plattform (Eingang auf der östlichen Seite ()) und klicke auf das Rohr, um zur Truhe zu gelangen.
-]]--add coordinates
+Wenn du verwandelt bist, besuche die Höhle unterhalb von {npc:158406}|CFFFFFF00es|r Plattform (Eingang auf der östlichen Seite) und klicke auf das Rohr, um zur Truhe zu gelangen.
+]]
 L["stolen_jar_note"] = "In einer Höhle unter dem Riesenpilz."
 L["strange_growth_note"] = "Ziehe {npc:165037} heraus, um den Schatz zu enthüllen."
 L["vat_of_slime_note"] = "Klicken auf dem Tisch die Flasche an und danach auf den Schleimbehälter."
+L["necro_tome_note"] = "Um Zugang zu dem Turm zu erhalten, musst du bei {npc:166657} erst eine kleine Questreihe beginnen. In einem Bücherregal in der obersten Etage."
+L["misplaced_supplies"] = "Oben auf dem Riesenpilz"
+L["level_60"] = "Stufe 60"
 
 L["pet_cat"] = "Streichel die verdammte Katze!"
 L["hairball"] = ns.color.Red("Erscheint nur in dem Dungeon \"Seuchensturz\" im Gebiet \"Das Schwärende Sanktum\"!")
@@ -203,7 +209,7 @@ L["options_toggle_kittens_desc"] = "Zeigt die Positionen der Kätzchen für den 
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["endlurker_note"] = "Klicke Anima Stake neben {npc:165229}|CFFFFFF00s|r Leiche an und verwende {spell:321826} an einem Schimmerndem Riss." --review Blizzard traslation
+L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
 L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest \"Muck It Up\" auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard traslation
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
@@ -217,7 +223,7 @@ L["scrivener_lenua_note"] = "Bringe {npc:160753} zurück zur Verbotenen Biblioth
 L["sinstone_hoarder_note"] = "Erscheint auf der Minimap als Schatztruhe. Versuch den {npc:162503} zu plündern und {npc:162481} wird sich offenbaren."
 L["soulstalker_doina_note"] = "Verfolge sie nach unten und durch den Spiegel wenn sie wegläuft."
 L["tomb_burster_note"] = "Kann beschworen werden, wenn {npc:155777} in einem Netz gefangen ist. Töte nahegelegene {npc:155769}|CFFFFFF00er|r und Wellen von {npc:155795}|CFFFFFF00n|r bis {npc:155779} erscheint."
-L["worldedge_gorger_note"] = "Erlange ein {item:173939} von World Reavers, Devourers und Mites in den Gebieten Fluchwald und dem Endmorast. Verwende es, to light the Worldedge Braziers und {npc:160821} zu beschwören." --review Blizzard traslation
+L["worldedge_gorger_note"] = "Erlange ein {item:173939} von Welten Reavers, Fressern und Milben in den Gebieten Fluchwald und dem Endmorast. Verwende es, um die Weltenrandkohlenpfannen zu entflammen und den {npc:160821} zu beschwören." --review Blizzard traslation
 
 L["dredglaive_note"] = "Unter der Brücke in der {npc:173671} Leiche."
 L["lost_quill_note"] = "Plündere {item:182475} von der Flasche auf dem Tisch in der Verbotenen Bibliothek."
@@ -237,5 +243,21 @@ L["remlates_cache_note"] = "Hinter der Außenmauer der Krypta in Dunkelhafen."
 L["smuggled_cache"] = "Geschmuggelte Truhe"
 L["wayfairer_spoils"] = "Zurückgelassene Beute eines Wanderers" --use Schattentor
 
+L["sinrunner_note"] = "Bring Essen und Vorräte für sechs Tage zu {npc:173468}, um ihre Zügel zu erhalten. Sie erscheint jeweils nur für einige Minuten."
+L["sinrunner_note_day1"] = "Verfüttere an Graumähne 8x {item:182581}, kann im umliegenden Gebiet der Farmen in Westfall gefunden werden."
+L["sinrunner_note_day2"] = "Erhalte eine {item:182585} von {npc:173570} in Dunkelhafen und benutze es, um Graumähne zu säubern."
+L["sinrunner_note_day3"] = "Rüste Graumähne mit 4x {item:182595} aus, kann auf den umliegenden Straßen von Dunkelhafen gefunden werden."
+L["sinrunner_note_day4"] = "Hebe {item:182620} nahe {npc:173570} auf und fülle ihn mit Wasser aus Bastion oder dem Ardenwald. Bringe den {item:182599} zu Graumähne."
+L["sinrunner_note_day5"] = "Rüste Graumähne mit {item:182597} aus, verkauft von {npc:171808} nahe dem Nachtmarkt (51.0, 78.8) im Austausch für verschiedene Fleischsorten."
+L["sinrunner_note_day6"] = "Verfüttere an Graumähne 3x {item:179271}, verkauft von {npc:167815} im Gebiet Loch in der Wand (40.8, 46.8)."
+
 L["options_toggle_carriages"] = "Kutschen"
 L["options_toggle_carriages_desc"] = "Zeigt die Positionen und Wege von fahrbaren Kutschen an."
+
+-------------------------------------------------------------------------------
+----------------------------------- THE MAW -----------------------------------
+-------------------------------------------------------------------------------
+
+L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331783}, um den seltenen Gegner zu beschwören."
+L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, zum aktivieren." --review
+L["talaporas_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331800}, um den seltenen Gegner zu beschwören."
