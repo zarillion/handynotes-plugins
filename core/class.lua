@@ -28,9 +28,18 @@ ns.Class = function (name, parent, attrs)
                 end,
 
                 __index = function (self, index)
-                    local getter = Class.getters[index]
-                    if getter then return getter(self) end
-                    return Class[index]
+                    -- Walk up the class hierarchy and check for a static value
+                    -- followed by a getter function on each parent class
+                    local _Class = Class
+                    repeat
+                        -- Use rawget to skip __index on Class, we want to
+                        -- check each class object individually
+                        local value = rawget(_Class, index)
+                        if value ~= nil then return value end
+                        local getter = _Class.getters[index]
+                        if getter then return getter(self) end
+                        _Class = _Class.__parent
+                    until _Class == nil
                 end,
 
                 __newindex = function (self, index, value)
@@ -58,13 +67,14 @@ ns.Class = function (name, parent, attrs)
             return '<class "'..name..'">'
         end,
 
+        -- Make parent class attributes accessible on child class objects
         __index = parent
     })
 
     if parent then
-        setmetatable(Class.getters, { __index = parent.getters })
-        setmetatable(Class.setters, { __index = parent.setters })
+        -- Set parent class and allow parent class setters to be used
         Class.__parent = parent
+        setmetatable(Class.setters, { __index = parent.setters })
     elseif not Class.init then
         -- Add default init() method for base class
         Class.init = function (self) end

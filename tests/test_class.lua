@@ -232,6 +232,7 @@ function TestInheritance:testAttributeInheritance ()
     luaunit.assertEquals(rare.icon, 'skull')
     luaunit.assertEquals(rare.alpha, 1)
     luaunit.assertEquals(rare.scale, 2)
+    luaunit.assertIsNil(rare.label)
 end
 
 function TestInheritance:testMethodInheritance ()
@@ -269,7 +270,7 @@ function TestInheritance:testGetterInheritance ()
     luaunit.assertIsNil(Node.id)
     luaunit.assertEquals(Rare.id, 456)
     luaunit.assertEquals(Node().id, 123)
-    luaunit.assertEquals(Rare().id, 123) -- FIXME: should be 456!
+    luaunit.assertEquals(Rare().id, 456)
     luaunit.assertEquals(Rare({ id=789 }).id, 789)
 
     -- Verify getter in child overrides getter in parent
