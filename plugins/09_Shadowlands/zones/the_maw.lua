@@ -401,9 +401,11 @@ hooksecurefunc(ns.addon, 'OnInitialize', function ()
         end
         hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
             local template = WorldMapFrame.pinPools.VignettePinTemplate
-            for pin in template:EnumerateActive() do
-                if pin.vignetteInfo.vignetteID == 4553 then
-                    template:Release(pin)
+            if template then
+                for pin in template:EnumerateActive() do
+                    if pin.vignetteInfo.vignetteID == 4553 then
+                        template:Release(pin)
+                    end
                 end
             end
         end)
