@@ -192,6 +192,9 @@ Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on
 L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
 L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
+L["necro_tome_note"] = "To get access to the tower, you have to start a small quest line from {npc: 166657}. In a bookcase on the top floor."
+L["misplaced_supplies"] = "Up on the giant mushroom"
+L["level_60"] = "Level 60"
 
 L["pet_cat"] = "Pet the damn cat!"
 L["hairball"] = ns.color.Red("Only appears in the Festering Sanctum inside the Plaguefall dungeon!")

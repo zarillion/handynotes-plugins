@@ -503,6 +503,7 @@ local Blanchy = Class('Blanchy', NPC, {
     quest={62038, 62042, 62047, 62049, 62048, 62050},
     questCount=true,
     rewards={
+        Achievement({id=14314, criteria=50083}), -- Blanchy Assisted
         Mount({item=182614, id=1414}) -- Blanchy's Reins
     }
 })
