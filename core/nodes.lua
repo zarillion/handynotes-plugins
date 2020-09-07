@@ -359,12 +359,9 @@ end
 -------------------------------------------------------------------------------
 
 local Supply = Class('Supply', Treasure, {
+    icon = 'star_chest',
     scale = 2
 })
-
-function Supply.getters:icon ()
-    return 'star_chest'
-end
 
 -------------------------------------------------------------------------------
 
