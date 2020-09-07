@@ -21,7 +21,7 @@ L["avenger_note"] = "Cuando {npc:155254} esté en Pernoóxido, mata al {npc:1511
 L["beastbot_note"] = "Fabrica un {item:168045} en {npc:150359} para activar a la {npc:151933}."
 L["cogstar_note"] = "Mata {npc:154213} en cualquier sitio de la zona hasta que {npc:153228} se teleporte a ayudarlos."
 L["crazed_trogg_note"] = "Usa un Roboespray, una vejiga llena de pintura, o un robot pintador en el Vertedero de Bondo para vestirte del color que grita {npc:152569}."
-L["deepwater_note"] = "Fabrica un {item:167649} en el {npc:150359} para invocar a {npc:151569}."
+L["deepwater_note"] = "Fabrica un {item:167649} en {npc:150359} para invocar a {npc:151569}."
 L["doppel_gang"] = "Los dobles"
 L["doppel_note"] = 'Junto a otros dos jugadores, ha de usar cada uno una {item:169470} para activar a {npc:155060}. La {item:169470} se consigue de la misión diaria "Frenesí constructor de Tuercanética".'
 L["drill_rig"] = "Requiere una {npc:150306}"
@@ -29,38 +29,38 @@ L["foul_manifest_note"] = "Activa el disyuntor y conecta los tres cables con los
 L["furor_note"] = 'Durante la misión diaria "Ayuda de Nordrassil", haz click en las pequeñas setas azules hasta que aparezca {npc:151884}.'
 L["killsaw_note"] = "Aparece en cualquier sitio del bosque al oeste de la isla donde hayan {npc:151871} cortando árboles. Has de matarlos para que aparezca {npc:152007} para vengarlos. Los {npc:151871} no aparecen los días que esté Ventura y Cía en el bosque."
 L["leachbeast_note"] = "Usa una {item:168961} que sueltan los enemigos de Depósito Trastovatio para activar la Máquina de alteración climática. Esto hará que comiencen a aparecer {npc:151745}. Tras matar a varios saldrá {npc:152764}"
-L["nullifier_note"] = 'Hack the "Hackable Nullifier Relay" using either the Remote Circuit Bypasser punch card or the DNT-Smashed Transport Relay. The former drops from The Scrap King while the latter drops from minions that attack the JD41 and JD99 drill rigs.';
-L["scrapclaw_note"] = "Off the shore in the water.";
-L["sparkqueen_note"] = 'Spawns only when the "Bugs, Lots of \'Em!" daily is active.';
-L["rusty_note"] = "Craft a Personal Time Displacer at Pascal-K1N6 to enter the alternate future. Only spawns when Chromie is NOT present in Rustbolt.";
-L["vaultbot_note"] = "Kite to the tesla coil in Bondo's Yard or craft a Vaultbot Key at Pascal-K1N6 to break him open.";
+L["nullifier_note"] = 'Para hacer aparecer al {npc:151124} hay que piratear el {npc:152174} usando ya sea la tarjeta {item=168435} o el {item:168023}. El primero puede caer de {npc:151625} mientras que el segundo puede caer de los enemigos que atacan a las {npc:150306} JD41 y JD99.'
+L["scrapclaw_note"] = "Cerca de la orilla bajo el agua (82.3 77.9) aparece {npc:155583}."
+L["sparkqueen_note"] = '{npc:153000} sólo aparece cuando la misión diaria "¡Bichos a montones!" está activa.'
+L["rusty_note"] = "Fabrica un {item:169114} en {npc:150359} para ir al futuro alternativo. {npc:154225} sólo aparece cuando {npc:73691} NO está presente en Pernoóxido."
+L["vaultbot_note"] = "Kitea al {npc:150394} hasta la bobina tesla en el Vertedero de Bondo o fabrica una {item:167062} en {npc:150359} para abrirlo."
 
-L["iron_chest"] = "Irontide Lockbox"
-L["mech_chest"] = "Mechanized Chest"
-L["msup_chest"] = "Mechanized Supply Chest"
-L["rust_chest"] = "Old Rusty Chest"
-L["iron_chest_note"] = "Open with an Irontide Lockbox Key dropped from mobs in the Western Spray."
-L["msup_chest_note"] = "Open with a Mechanized Supply Key dropped from mobs in the Western Spray."
-L["rust_chest_note"] = "Open with an Old Rusty Key dropped from mobs in the Western Spray."
+L["iron_chest"] = "Arcón de los Marea de Hierro"
+L["mech_chest"] = "Cofre mecanizado"
+L["msup_chest"] = "Cofre de Suministros Mecanizados"
+L["rust_chest"] = "Cofre Oxidado Viejo"
+L["iron_chest_note"] = "Ábrelo con la {item:169872} que sueltan los enemigos de Rocío del Oeste."
+L["msup_chest_note"] = "Ábrelo con la {item:169873} que sueltan los enemigos de Rocío del Oeste."
+L["rust_chest_note"] = "Ábrelo con la {item:169218} que sueltan los enemigos de Rocío del Oeste."
 
-L["rec_rig"] = "Reclamation Rig"
-L["rec_rig_note"] = "To activate hard-mode, use the Supercollider weapon to convert all Irradiated Elementals into Unstable Irradiated Elementals. Pets are obtainable on both difficulties."
+L["rec_rig"] = "{npc:150448}"
+L["rec_rig_note"] = "Para activar el modo difícil, has de usar el arma {spell:292352} para convertir todos los {npc:150825} en {npc:151049}. Las mascotas {npc:154904} y {npc:155579} se puede obtener en ambas dificultades."
 
-L["grease_bot"] = "Grease Bot"
-L["grease_bot_note"] = "Click the bot to gain 5% haste and 10% movement speed for 2 hours."
-L["shock_bot"] = "Shock Bot"
-L["shock_bot_note"] = "Click the bot to gain a chain lightning damage proc for 2 hours."
-L["welding_bot"] = "Welding Bot"
-L["welding_bot_note"] = "Click the bot to increase health and healing received by 10% for 2 hours."
+L["grease_bot"] = "{npc:155911}"
+L["grease_bot_note"] = "Haz click en el robot para conseguir 5% de celeridad y 10% de velocidad de movimiento durante 2 horas."
+L["shock_bot"] = "{npc:155909}"
+L["shock_bot_note"] = "Haz click en el robot para conseguir un proc de poder hacer daño a enemigos cercanos durante 2 horas."
+L["welding_bot"] = "{npc=155910}"
+L["welding_bot_note"] = "Haz click en el robot para aumentar la vida y la sanación recibida un 10% durante 2 horas."
 
-L["options_toggle_mech_buffs"] = "Buff Bots"
-L["options_toggle_mech_buffs_desc"] = "Display locations of grease, shock and welding bots on the map inside the dungeon."
-L["options_toggle_mech_chest"] = "Mechanized Chests"
-L["options_toggle_mech_chest_desc"] = "Display locations of mechanized chests. There are 10 unique chests that can be looted once a day and each chest has 4-5 spawn locations. Locations are grouped by color."
-L["options_toggle_locked_chest"] = "Locked Chests"
-L["options_toggle_locked_chest_desc"] = "Display locations of locked chests in the Western Spray."
-L["options_toggle_recrig"] = "Reclamation Rig"
-L["options_toggle_recrig_desc"] = "Display the location of the Reclamation Rig and its rewards."
+L["options_toggle_mech_buffs"] = "Buff de Robots"
+L["options_toggle_mech_buffs_desc"] = "Muestra las localizaciones de los robots de grasa, descargas y soldador en el mapa estando dentro de la mazmorra."
+L["options_toggle_mech_chest"] = "Cofres Mecanizados"
+L["options_toggle_mech_chest_desc"] = "Muestra las localizaciones de los cofres mecanizados. Hay 10 cofres únicos que pueden ser despojados una vez al día y cada cofre tiene 4-5 puntos de aparición. Las localizaciones están agrupadas por color."
+L["options_toggle_locked_chest"] = "Cofres Cerrados"
+L["options_toggle_locked_chest_desc"] = "Muestra las localizaciones de los cofres cerrados en Rocío del Oeste."
+L["options_toggle_recrig"] = "Equipo de Recuperación"
+L["options_toggle_recrig_desc"] = "Muestra la localización del Equipo de Recuperación y sus recompensas."
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
