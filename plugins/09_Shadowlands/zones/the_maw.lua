@@ -66,15 +66,16 @@ options.rareMaw = {
 --     }
 -- }) -- Adjutant Dekaris
 
-nodes[19804160] = Rare({
+nodes[19324172] = Rare({
     id=170301,
     quest=nil,
+    note=L["apholeias_note"],
     rewards={
         Achievement({id=14744, criteria=49842}),
     }
 }) -- Apholeias, Herald of Loss
 
-nodes[40603900] = Rare({
+nodes[39014119] = Rare({
     id=157833,
     quest=nil,
     rewards={
@@ -82,21 +83,22 @@ nodes[40603900] = Rare({
     }
 }) -- Borr-Geth
 
-nodes[28201380] = Rare({
+nodes[27731305] = Rare({
     id=171317,
-    quest=nil,
+    quest=61106,
     rewards={
         Achievement({id=14744, criteria=49844}),
     }
 }) -- Conjured Death
 
--- nodes[] = Rare({
---     id=160770,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49845}),
---     }
--- }) -- Darithis the Bleak
+nodes[60964805] = Rare({
+    id=160770,
+    quest=nil,
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=14744, criteria=49845}),
+    }
+}) -- Darithis the Bleak
 
 -- nodes[] = Rare({
 --     id=158025,
@@ -114,21 +116,22 @@ nodes[28201380] = Rare({
 --     }
 -- }) -- Dolos <Death's Knife>
 
-nodes[23205300] = Rare({
+nodes[23765341] = Rare({
     id=170774,
-    quest=nil,
+    quest=60915,
     rewards={
         Achievement({id=14744, criteria=49848}),
     }
 }) -- Eketra <The Impaler>
 
--- nodes[] = Rare({
---     id=169827,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49849}),
---     }
--- }) -- Ekphoras, Herald of Grief
+nodes[42342108] = Rare({
+    id=169827,
+    quest=nil,
+    note=L["ekphoras_note"],
+    rewards={
+        Achievement({id=14744, criteria=49849}),
+    }
+}) -- Ekphoras, Herald of Grief
 
 -- nodes[] = Rare({
 --     id=154330,
@@ -146,17 +149,18 @@ nodes[23205300] = Rare({
 --     }
 -- }) -- Exos, Herald of Domination
 
-nodes[16205040] = Rare({
+nodes[16945102] = Rare({
     id=162849,
-    quest=nil,
+    quest=60987,
     rewards={
         Achievement({id=14744, criteria=49852}),
     }
 }) -- Morguliax <Lord of Decapitation>
 
-nodes[46207440] = Rare({
+nodes[45507376] = Rare({
     id=158278,
-    quest=nil,
+    quest=57573,
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=14744, criteria=49853}),
     }
@@ -199,9 +203,10 @@ nodes[35974156] = Rare({
     }
 }) -- Soulforger Rhovus
 
-nodes[28601160] = Rare({
+nodes[28701204] = Rare({
     id=170302,
     quest=nil,
+    note=L["talaporas_note"],
     rewards={
         Achievement({id=14744, criteria=49858}),
     }
@@ -215,11 +220,18 @@ nodes[28601160] = Rare({
 --     }
 -- }) -- Thanassos <Death's Voice>
 
-nodes[38406260] = Rare({
+nodes[37676591] = Rare({
     id=172862,
-    quest=nil,
+    quest=61568,
+    note=L["yero_note"],
     rewards={
         Achievement({id=14744, criteria=49860}),
+    },
+    pois={
+        Path({
+            37446212, 37356052, 37585887, 38465859, 39185892, 39026021,
+            38456142, 38146265, 37936400, 37676591
+        })
     }
 }) -- Yero the Skittish
 
@@ -231,31 +243,35 @@ local BonusBoss = Class('BonusBoss', NPC, { icon='peg_red', scale=1.8 })
 
 nodes[23004160] = BonusBoss({
     id=169102,
-    quest=nil,
+    quest=61136,
+    note=L["in_cave"],
     rewards={
         Achievement({id=14660, criteria=49485}),
+    },
+    pois={
+        POI({20813927}) -- Cave entrance
     }
 }) -- Agonix
 
 -- nodes[] = BonusBoss({
 --     id=170787,
---     quest=nil,
+--     quest=60920,
 --     rewards={
 --         Achievement({id=14660, criteria=49487}),
 --     }
 -- }) -- Akros <Death's Hammer>
 
-nodes[27602380] = BonusBoss({
+nodes[28712513] = BonusBoss({
     id=168693,
-    quest=nil,
+    quest=61346,
     rewards={
         Achievement({id=14660, criteria=49484}),
     }
 }) -- Cyrixia <The Willbreaker>
 
-nodes[26001480] = BonusBoss({
+nodes[25831479] = BonusBoss({
     id=162452,
-    quest=nil,
+    quest=59230,
     rewards={
         Achievement({id=14660, criteria=49476}),
     }
@@ -263,7 +279,7 @@ nodes[26001480] = BonusBoss({
 
 nodes[19205740] = BonusBoss({
     id=162844,
-    quest=nil,
+    quest=61140,
     rewards={
         Achievement({id=14660, criteria=50410}),
     }
@@ -271,31 +287,31 @@ nodes[19205740] = BonusBoss({
 
 nodes[34202000] = BonusBoss({
     id=158314,
-    quest=nil,
+    quest=59183,
     rewards={
         Achievement({id=14660, criteria=49475}),
     }
 }) -- Drifting Sorrow
 
--- nodes[] = BonusBoss({
---     id=172523,
---     quest=nil,
---     rewards={
---         Achievement({id=14660, criteria=49490}),
---     }
--- }) -- Houndmaster Vasanok
+nodes[60456478] = BonusBoss({
+    id=172523,
+    quest=62209,
+    rewards={
+        Achievement({id=14660, criteria=49490}),
+    }
+}) -- Houndmaster Vasanok
 
 -- nodes[] = BonusBoss({
 --     id=170692,
---     quest=nil,
+--     quest=60903,
 --     rewards={
 --         Achievement({id=14660, criteria=49486}),
 --     }
 -- }) -- Krala <Death's Wings>
 
-nodes[27201860] = BonusBoss({
+nodes[27311754] = BonusBoss({
     id=171316,
-    quest=nil,
+    quest=61125,
     rewards={
         Achievement({id=14660, criteria=49488}),
     }
@@ -303,47 +319,55 @@ nodes[27201860] = BonusBoss({
 
 nodes[43804800] = BonusBoss({
     id=172207,
-    quest=nil,
+    quest=62618,
     rewards={
         Achievement({id=14660, criteria=50408}),
     }
 }) -- Odalrik
 
-nodes[25604800] = BonusBoss({
+nodes[25364875] = BonusBoss({
     id=162845,
-    quest=nil,
+    quest=60991,
     rewards={
         Achievement({id=14660, criteria=49480}),
     }
 }) -- Orrholyn <Lord of Bloodletting>
 
-nodes[27003780] = BonusBoss({
+nodes[26173744] = BonusBoss({
     id=162829,
-    quest=nil,
+    quest=62228,
     rewards={
         Achievement({id=14660, criteria=49479}),
     }
 }) -- Razkazzar <Lord of Axes>
 
--- nodes[] = BonusBoss({
---     id=172521,
---     quest=nil,
---     rewards={
---         Achievement({id=14660, criteria=49489}),
---     }
--- }) -- Sanngror the Torturer
+nodes[55626318] = BonusBoss({
+    id=172521,
+    quest=62210,
+    note=L["in_cave"]..' '..L["sanngror_note"],
+    rewards={
+        Achievement({id=14660, criteria=49489}),
+    },
+    pois={
+        POI({55806753}) -- Cave entrance
+    }
+}) -- Sanngror the Torturer
 
-nodes[61607820] = BonusBoss({
+nodes[61737795] = BonusBoss({
     id=172524,
-    quest=nil,
+    quest=62211,
+    note=L["in_cave"],
     rewards={
         Achievement({id=14660, criteria=49491}),
+    },
+    pois={
+        POI({59268001}) -- Cave entrance
     }
 }) -- Skittering Broodmother
 
-nodes[21803060] = BonusBoss({
+nodes[20782968] = BonusBoss({
     id=162965,
-    quest=nil,
+    quest=58918,
     rewards={
         Achievement({id=14660, criteria=49481}),
     }
@@ -359,50 +383,58 @@ nodes[36253744] = BonusBoss({
 
 nodes[36844480] = BonusBoss({
     id=156203,
-    quest={62539, 62722},
+    quest=62539,
     rewards={
         Achievement({id=14660, criteria=50409}),
     }
 }) -- Stygian Incinerator
 
--- nodes[] = BonusBoss({
---     id=173086,
---     quest=nil,
---     rewards={
---         Achievement({id=14660, criteria=49492}),
---     }
--- }) -- Valis the Cruel
+nodes[40705959] = BonusBoss({
+    id=173086,
+    quest=61728,
+    note=L["valis_note"],
+    rewards={
+        Achievement({id=14660, criteria=49492}),
+    }
+}) -- Valis the Cruel
 
 -- nodes[] = BonusBoss({
 --     id=165973,
---     quest=nil,
+--     quest=61124,
 --     rewards={
 --         Achievement({id=14660, criteria=49483}),
 --     }
 -- }) -- Warren Mongrel
 
 -------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE EVENTS ---------------------------
+-------------------------------------------------------------------------------
+
+-- 32401771 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
+-- 30394255 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
+
+-------------------------------------------------------------------------------
 
 -- HACK: in development, hide all the obnoxious tomb-stone vignettes so we can
 -- get some work done ...
 
-hooksecurefunc(ns.addon, 'OnInitialize', function ()
-    if ns.addon.db.profile.development then
-        local _UpdatePosition = VignettePinMixin.UpdatePosition
-        VignettePinMixin.UpdatePosition = function (self, bestUniqueVignette)
-            if not self:GetMap() then return end
-            _UpdatePosition(self, bestUniqueVignette)
-        end
-        hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
-            local template = WorldMapFrame.pinPools.VignettePinTemplate
-            for pin in template:EnumerateActive() do
-                if pin.vignetteInfo.vignetteID == 4553 then
-                    template:Release(pin)
-                end
-            end
-        end)
-    end
-end)
+-- hooksecurefunc(ns.addon, 'OnInitialize', function ()
+--     local _UpdatePosition = VignettePinMixin.UpdatePosition
+--     VignettePinMixin.UpdatePosition = function (self, bestUniqueVignette)
+--         if not self:GetMap() then return end
+--         _UpdatePosition(self, bestUniqueVignette)
+--     end
+--     hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
+--         local template = WorldMapFrame.pinPools.VignettePinTemplate
+--         if template then
+--             for pin in template:EnumerateActive() do
+--                 if pin.vignetteInfo.vignetteID == 4553 then
+--                     template:Release(pin)
+--                 end
+--             end
+--         end
+--     end)
+-- end)
 
 -------------------------------------------------------------------------------
 

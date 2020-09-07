@@ -165,14 +165,6 @@ nodes[38794333] = Rare({
     }
 }) -- Indomitable Schmitd
 
--- nodes[] = Rare({
---     id=162759,
---     quest=nil,
---     rewards={
---         Achievement({id=14308, criteria=48856})
---     }
--- }) -- Moregorger
-
 nodes[72872891] = Rare({
     id=174108,
     quest=62369,
@@ -324,7 +316,7 @@ nodes[44083989] = Treasure({
     label=L["blackhound_cache"]
 }) -- Blackhound Cache
 
-nodes[38607810] = Treasure({
+nodes[36797862] = Treasure({
     label=L["bladesworn_supply_cache"]
 }) -- Bladesworn Supply Cache
 
@@ -367,6 +359,29 @@ nodes[32742127] = Treasure({
         Item({item=175708, note=L["neck"]})
     }
 }) -- Kyrian Keepsake
+
+nodes[62505990] = Treasure({
+    quest=59245,
+    note=L["misplaced_supplies"],
+    rewards={
+        Achievement({id=14312, criteria=50071}),
+    },
+    pois={
+        POI({61925851, scale=0.75}) -- Way up
+    }
+}) -- Misplaced Supplies
+
+nodes[42432315] = Treasure({
+    quest=61470,
+    note=L["necro_tome_note"],
+    rewards={
+        Achievement({id=14312, criteria=50068}),
+        Toy({item=182732}) -- The Necronom-i-nom
+    },
+    pois={
+        POI({40693305, scale=0.75}) -- NPC location
+    }
+}) -- Necro Tome
 
 nodes[47236216] = Treasure({
     quest=59358,
@@ -423,6 +438,14 @@ nodes[55893897] = Treasure({
         Pet({item=182606, id=3013}) -- Bloodlouse Larva
     }
 }) -- Strange Growth
+
+-- nodes[] = Treasure({
+--     quest=,
+--     note=L[""],
+--     rewards={
+--         Achievement({id=14312, criteria=49436}),
+--     }
+-- }) -- Sword of Oonar
 
 nodes[59867906] = Treasure({
     quest=61444,

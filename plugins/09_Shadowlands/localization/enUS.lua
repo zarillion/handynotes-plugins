@@ -182,8 +182,11 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 
 L["blackhound_cache"] = "Blackhound Cache"
 L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
+
 L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
 L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
+L["misplaced_supplies"] = "On top of the giant mushroom. Run up the hill and jump onto the smaller brown mushroom, then run up the larger hill and jump onto the giant mushroom."
+L["necro_tome_note"] = "To get access to the tower, you have to start a small quest line from {npc:166657}. In a bookcase on the top floor."
 L["plaguefallen_chest_note"] = [[
 Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} and be transformed into a {spell:330092}.
 
@@ -255,4 +258,10 @@ L["options_toggle_carriages_desc"] = "Display locations and paths of rideable ca
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
+L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
+L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
 L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
+L["sanngror_note"] = "If he is not attackable, wait until he is not experimenting on souls."
+L["talaporas_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331800} to summon the rare."
+L["valis_note"] = "Click the three {npc:174810} in the correct order to summon the rare. The order changes each time and clicking the wrong rune deals damage and debuffs you with {spell:343636}."
+L["yero_note"] = "Approach {npc:172862} and then follow him down into a nearby cave where he becomes hostile."

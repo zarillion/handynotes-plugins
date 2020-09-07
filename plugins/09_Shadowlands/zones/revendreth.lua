@@ -333,6 +333,7 @@ nodes[38607200] = Rare({
 -- Daily completion: 61843
 -- Day 1: Nipping at the Undergrowth 61839
 -- Day 2: Vineroot on the Menu 61840
+-- Day 3: Vineroot Will Not Do 61842
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -502,6 +503,7 @@ local Blanchy = Class('Blanchy', NPC, {
     quest={62038, 62042, 62047, 62049, 62048, 62050},
     questCount=true,
     rewards={
+        Achievement({id=14314, criteria=50083}), -- Blanchy Assisted
         Mount({item=182614, id=1414}) -- Blanchy's Reins
     }
 })

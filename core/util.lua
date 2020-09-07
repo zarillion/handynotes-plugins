@@ -4,14 +4,18 @@ local ADDON_NAME, ns = ...
 ------------------------------ DATAMINE TOOLTIP -------------------------------
 -------------------------------------------------------------------------------
 
-local NamePreparer = CreateFrame("GameTooltip", ADDON_NAME.."_NamePreparer", UIParent, "GameTooltipTemplate")
-local NameResolver = CreateFrame("GameTooltip", ADDON_NAME.."_NameResolver", UIParent, "GameTooltipTemplate")
+local function CreateDatamineTooltip (name)
+    local f = CreateFrame("GameTooltip", name, UIParent, "GameTooltipTemplate")
+    f:SetOwner(UIParent, "ANCHOR_NONE")
+    return f
+end
 
-NameResolver.cache = {}
-NameResolver.prepared = {}
-
-NamePreparer:SetOwner(UIParent, "ANCHOR_NONE")
-NameResolver:SetOwner(UIParent, "ANCHOR_NONE")
+local NameResolver = {
+    cache = {},
+    prepared = {},
+    preparer = CreateDatamineTooltip(ADDON_NAME.."_NamePreparer"),
+    resolver = CreateDatamineTooltip(ADDON_NAME.."_NameResolver")
+}
 
 function NameResolver:IsLink (link)
     if link == nil then return link end
@@ -23,7 +27,7 @@ function NameResolver:Prepare (link)
         -- use a separate tooltip to spam load NPC names, doing this with the
         -- main tooltip can sometimes cause it to become unresponsive and never
         -- update its text until a reload
-        NamePreparer:SetHyperlink(link)
+        self.preparer:SetHyperlink(link)
         self.prepared[link] = true
     end
 end
@@ -39,9 +43,12 @@ function NameResolver:Resolve (link)
 
     local name = self.cache[link]
     if name == nil then
-        self:SetHyperlink(link)
-        name = _G[self:GetName().."TextLeft1"]:GetText() or UNKNOWN
-        if name ~= UNKNOWN then
+        self.resolver:SetHyperlink(link)
+        name = _G[self.resolver:GetName().."TextLeft1"]:GetText() or UNKNOWN
+        if name == UNKNOWN then
+            ns.debug('NameResolver returned UNKNOWN, recreating tooltip ...')
+            self.resolver = CreateDatamineTooltip(ADDON_NAME.."_NameResolver")
+        else
             self.cache[link] = name
         end
     end

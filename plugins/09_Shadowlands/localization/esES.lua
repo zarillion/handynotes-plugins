@@ -184,6 +184,7 @@ Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando 
 
 L["blackhound_cache"] = "Alijo del Can Negro"--Revisar que Blackhound Cache sea Alijo del Can Negro
 L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
+
 L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
 L["kyrian_keepsake_note"] = "Inspecciona el {npc:169664} para despojar el tesoro."
 L["plaguefallen_chest_note"] = [[
@@ -194,6 +195,8 @@ Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:15
 L["stolen_jar_note"] = "En una cueva debajo de la seta gigante."
 L["strange_growth_note"] = "Estira de {npc:165037} para revelar el tesoro."
 L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar que vat of slime sea cuba de baba
+L["necro_tome_note"] = "Para tener acceso a la torre, has de empezar una pequeña cadena de misiones que te da {npc: 166657}. En un estante en el piso superior."
+L["misplaced_supplies"] = "Encima de la seta gigante"
 
 L["pet_cat"] = "¡Acaricia al maldito gato!"--Revisar que Pet the damn cat! sea ¡Acaricia al maldito gato!
 L["hairball"] = ns.color.Red("¡Sólo aparece en el Santuario Purulento dentro de la mazmorra Pestecadencia!")--Revisar que Festering Sanctum sea Santuario Purulento y Plaguefall sea Pestecadencia
@@ -218,29 +221,29 @@ L["innervus_note"] = "Mata a los {npc:160375} cercanos para conseguir la {item:1
 L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca de {npc:165151} para comenzar el evento tras el cual aparecerá {npc:165152}."
 L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}."
 L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo \"Enjambre de Almas\"."--Revisar que Swarming Souls sea Enjambre de Almas
-L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
-L["sinstone_hoarder_note"] = "Appears on the minimap as a treasure chest. Attempt to loot the {npc:162503} and the rare will reveal itself."
-L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
-L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769}s and waves of {npc:155795}s until the rare spawns."
-L["worldedge_gorger_note"] = "Obtain an {item:173939} from World Reavers, Devourers and Mites in the Banewood and the Endmire. Use it to light the Worldedge Braziers and summon the rare."
+L["scrivener_lenua_note"] = "Devuelve los {npc:160753} a la Biblioteca Prohibida."--Revisar que Forbidden Library sea Biblioteca Prohibida
+L["sinstone_hoarder_note"] = "Aparece en el mapa como un cofre del tesoro. Intenta despojar el {npc:162503} y el {npc:162481} se revelará él solo."
+L["soulstalker_doina_note"] = "Sigue escaleras abajo y a través del espejo cuando se escape {npc:160392}."
+L["tomb_burster_note"] = "Puede aparecer si {npc:155777} queda atrapado en una telaraña. Mata los {npc:155769} cercanos y comenzarán a salir oleadas de {npc:155795} hasta que aparezca {npc:155779}."
+L["worldedge_gorger_note"] = "Consigue una {item:173939} de los Segadores del Mundo, Devoradores y Mites en el Banewood y en el Endmire. Úsala para encender los Blandones del Fin del Mundo e invocar a {npc:160821}."--Revisar que World Reavers sea Segadores del Mundo, qué es Mites, qué es Banewood, qué es Endmire, que Worldedge Braziers sea Blandones del Fin del Mundo
 
-L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
-L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
-L["secret_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
-L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
-L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
+L["dredglaive_note"] = "Debajo del puente en el cuerpo de un {npc:173671}."
+L["lost_quill_note"] = "Despoja {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida."--Revisar que Forbidden Library sea Biblioteca Prohibida
+L["secret_chamber_note"] = "Despoja un Bote de Ánima Desechada enfrente de la puerta y aprende {spell:340701}. Úsalo para drenar cinco {npc:173838} en las cercanías, entonces usa {spell:340866} enfrente del {npc:173786}."--Revisar que Discarded Anima Canister sea Bote de Ánima Desechada
+L["taskmaster_trove_note"] = "Lee el Ritual de Ingreso y el Ritual de Salida. Después sigue el camino al cofre con cuidado."--Revisar que Ingress Rite sea Ritual de Ingreso, que Egress Rite sea Ritual de Salida
+L["the_count_note"] = "Farmea 99 {currency:1820} en el Endmire y llévaselos a {npc:173488}."--Revisar qué es Endmire
 
-L["abandoned_curios"] = "Abandoned Curios"
-L["bleakwood_chest"] = "Bleakwood Chest"
-L["chest_of_envious_dreams"] = "Chest of Envious Dreams"
-L["filchers_prize"] = "Filcher's Prize"
-L["fleeing_soul_bundle"] = "Fleeing Soul's Bundle"
-L["gilded_plum_chest"] = "Gilded Plum Chest"
-L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
-L["remlates_cache"] = "Remlate's Hidden Cache"
-L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
-L["smuggled_cache"] = "Smuggled Cache"
-L["wayfairer_spoils"] = "Wayfairer's Abandoned Spoils"
+L["abandoned_curios"] = "Curiosidades Abandonadas"--Revisar que Abandoned Curios sea Curiosidades Abandonadas
+L["bleakwood_chest"] = "Cofre de Maderasombría"--Revisar que Bleakwood Chest sea Cofre de Maderasombría
+L["chest_of_envious_dreams"] = "Cofre de Sueños Envidiosos"--Revisar que Chest of Envious Dreams sea Cofre de Sueños Envidiosos
+L["filchers_prize"] = "Premio de Filcher"--Revisar que Filcher's Prize sea Premio de Filcher
+L["fleeing_soul_bundle"] = "Fardo del Alma Huidiza"--Revisar que Fleeing Soul's Bundle sea Fardo del Alma Huidiza
+L["gilded_plum_chest"] = "Cofre de Ciruela Dorada"--Revisar que Gilded Plum Chest sea Cofre de Ciruela Dorada
+L["gilded_plum_chest_note"] = "Mata a {npc:166680} que deambula camino arriba y abajo."
+L["remlates_cache"] = "Cofre Escondido de Remlate"--Revisar que Remlate's Hidden Cache sea Cofre Escondido de Remlate
+L["remlates_cache_note"] = "En la pared exterior de Refugio Oscuro detrás de la cripta."--Revisar que Darkhaven sea Refugio Oscuro
+L["smuggled_cache"] = "Cofre de Contrabando"--Revisar que Smuggled Cache sea Cofre de Contrabando
+L["wayfairer_spoils"] = "Botín Abandonado de Wayfairer"--Revisar que Wayfairer's Abandoned Spoils sea Botín Abandonado de Wayfairer
 
 L["sinrunner_note"] = "Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer."
 L["sinrunner_note_day1"] = "Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de Páramos de Poniente."
@@ -250,11 +253,17 @@ L["sinrunner_note_day4"] = "Coge el {item:182620} cerca de {npc:173570} y lléna
 L["sinrunner_note_day5"] = "Equipa a Blanchy con una {item:182597}, vendida por {npc:171808} cerca del Mercado de la Noche a cambio de varias carnes."--Revisar que Night Market sea Mercado de la Noche
 L["sinrunner_note_day6"] = "Alimenta a Blanchy con 3 {item:179271}, vendidas por {npc:167815} que está por Agujero en la Pared."--Revisar que Hole in the Wall sea Agujero en la Pared
 
-L["options_toggle_carriages"] = "Carriages"
-L["options_toggle_carriages_desc"] = "Display locations and paths of rideable carriages."
+L["options_toggle_carriages"] = "Carruajes"
+L["options_toggle_carriages_desc"] = "Muestra las localizaciones posibles y caminos de los carruajes que se pueden llevar."
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["orophea_note"] = "Coge el {spell:337143} al sureste y ofrécelo a {npc:172577} para que se active." 
+L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331783} para invocar a {npc:170301}."
+L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:330650} para invocar a {npc:169827}."
+L["orophea_note"] = "Coge el {spell:337143} al sureste y ofrécelo a {npc:172577} para que se active {npc:172577}."
+L["sanngror_note"] = "Si no se puede atacar a {npc:172521}, espera hasta que no esté experimentando con las almas."
+L["talaporas_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331800} para invocar a {npc:170302}."
+L["valis_note"] = "Haz click en las tres {npc:174810} en el orden correcto para invocar a {npc:173086}. El orden cambia cada vez y hacer click en la runa incorrecta produce daño y te pone el debuff {spell:343636}."
+L["yero_note"] = "Acércate a {npc:172862} y síguelo abajo hasta una cueva cercana donde él se vuelve hostil."
