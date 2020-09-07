@@ -334,6 +334,7 @@ nodes[38607200] = Rare({
 -- Day 1: Nipping at the Undergrowth 61839
 -- Day 2: Vineroot on the Menu 61840
 -- Day 3: Vineroot Will Not Do 61842
+-- Day 4: Hungry Hungry Gorger 61844
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
