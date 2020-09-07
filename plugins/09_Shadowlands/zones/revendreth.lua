@@ -528,7 +528,22 @@ nodes[62874341] = Blanchy()
 ---------------------------- THE AFTERLIFE EXPRESS ----------------------------
 -------------------------------------------------------------------------------
 
-local Carriage = Class('Carriage', NPC, { icon='horseshoe', scale=1.2 })
+local Carriage = Class('Carriage', NPC)
+
+function Carriage.getters:icon ()
+    if self._focus then
+        return 'horseshoe_green_glow'
+    end
+        return 'horseshoe'
+end
+
+function Carriage.getters:scale ()
+    if self._focus then
+        return 2.0
+    end
+        return 1.2
+end
+
 
 nodes[50217067] = Carriage({
     id=158365,
