@@ -165,14 +165,6 @@ nodes[38794333] = Rare({
     }
 }) -- Indomitable Schmitd
 
--- nodes[] = Rare({
---     id=162759,
---     quest=nil,
---     rewards={
---         Achievement({id=14308, criteria=48856})
---     }
--- }) -- Moregorger
-
 nodes[72872891] = Rare({
     id=174108,
     quest=62369,
