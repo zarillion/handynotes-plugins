@@ -184,6 +184,7 @@ Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando 
 
 L["blackhound_cache"] = "Alijo del Can Negro"--Revisar que Blackhound Cache sea Alijo del Can Negro
 L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
+
 L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
 L["kyrian_keepsake_note"] = "Inspecciona el {npc:169664} para despojar el tesoro."
 L["plaguefallen_chest_note"] = [[
