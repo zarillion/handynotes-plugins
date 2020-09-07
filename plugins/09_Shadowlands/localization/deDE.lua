@@ -194,7 +194,6 @@ L["strange_growth_note"] = "Ziehe {npc:165037} heraus, um den Schatz zu enthüll
 L["vat_of_slime_note"] = "Klicken auf dem Tisch die Flasche an und danach auf den Schleimbehälter."
 L["necro_tome_note"] = "Um Zugang zu dem Turm zu erhalten, musst du bei {npc:166657} erst eine kleine Questreihe beginnen. In einem Bücherregal in der obersten Etage."
 L["misplaced_supplies"] = "Oben auf dem Riesenpilz"
-L["level_60"] = "Stufe 60"
 
 L["pet_cat"] = "Streichel die verdammte Katze!"
 L["hairball"] = ns.color.Red("Erscheint nur in dem Dungeon \"Seuchensturz\" im Gebiet \"Das Schwärende Sanktum\"!")

@@ -368,6 +368,29 @@ nodes[32742127] = Treasure({
     }
 }) -- Kyrian Keepsake
 
+nodes[62505990] = Treasure({
+    quest=59245,
+    note=L["misplaced_supplies"],
+    rewards={
+        Achievement({id=14312, criteria=50071}),
+    },
+    pois={
+        POI({61925851, scale=0.75}) -- Way up
+    }
+}) -- Misplaced Supplies
+
+nodes[42432315] = Treasure({
+    quest=61470,
+    note=L["necro_tome_note"],
+    rewards={
+        Achievement({id=14312, criteria=50068}),
+        Toy({item=182732}) -- The Necronom-i-nom
+    },
+    pois={
+        POI({40693305, scale=0.75}) -- NPC location
+    }
+}) -- Necro Tome
+
 nodes[47236216] = Treasure({
     quest=59358,
     rewards={
@@ -424,6 +447,14 @@ nodes[55893897] = Treasure({
     }
 }) -- Strange Growth
 
+-- nodes[] = Treasure({
+--     quest=,
+--     note=L[""],
+--     rewards={
+--         Achievement({id=14312, criteria=49436}),
+--     }
+-- }) -- Sword of Oonar
+
 nodes[59867906] = Treasure({
     quest=61444,
     note=L["vat_of_slime_note"],
@@ -432,38 +463,6 @@ nodes[59867906] = Treasure({
         Toy({item=181825}) -- Phial of Ravenous Slime
     }
 }) -- Vat of Conspicuous Slime
-
-nodes[42432315] = Treasure({
-    quest=61470,
-    note=L["necro_tome_note"],
-    rewards={
-        Achievement({id=14312, criteria=50068}),
-        Toy({item=182732}) -- The Necronom-i-nom
-    },
-    pois={
-        POI({40693305, scale=0.75}) -- NPC location
-    }
-}) -- Necro Tome
---[[
-nodes[] = Treasure({
-    quest=,
-    note=L[""],
-    rewards={
-        Achievement({id=14312, criteria=49436}),
-    }
-}) -- Sword of Oonat = MISSING
-]]--
-nodes[62505990] = Treasure({
-    quest=59245,
-    note=L["misplaced_supplies"],
-    requires=L["level_60"],
-    rewards={
-        Achievement({id=14312, criteria=50071}),
-    },
-    pois={
-        POI({61925851, scale=0.75}) -- Way up
-    }
-}) -- Misplaced Supplies
 
 -------------------------------------------------------------------------------
 ------------------------------- NINE AFTERLIVES -------------------------------

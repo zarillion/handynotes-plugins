@@ -182,8 +182,11 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 
 L["blackhound_cache"] = "Blackhound Cache"
 L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
+
 L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
 L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
+L["misplaced_supplies"] = "On top of the giant mushroom. Run up the hill and jump onto the smaller brown mushroom, then run up the larger hill and jump onto the giant mushroom."
+L["necro_tome_note"] = "To get access to the tower, you have to start a small quest line from {npc:166657}. In a bookcase on the top floor."
 L["plaguefallen_chest_note"] = [[
 Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} and be transformed into a {spell:330092}.
 
@@ -192,9 +195,6 @@ Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on
 L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
 L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
-L["necro_tome_note"] = "To get access to the tower, you have to start a small quest line from {npc: 166657}. In a bookcase on the top floor."
-L["misplaced_supplies"] = "Up on the giant mushroom"
-L["level_60"] = "Level 60"
 
 L["pet_cat"] = "Pet the damn cat!"
 L["hairball"] = ns.color.Red("Only appears in the Festering Sanctum inside the Plaguefall dungeon!")
