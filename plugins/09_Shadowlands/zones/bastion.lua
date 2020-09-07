@@ -577,10 +577,7 @@ local AnimaShard = Class('AnimaShard', Node, {
 })
 
 function AnimaShard.getters:icon ()
-    if self._focus then
-        return 'anima_crystal_green_glow'
-    end
-        return 'anima_crystal'
+    return self._focus and 'anima_crystal_green_glow' or 'anima_crystal'
 end
 
 nodes[39057704] = AnimaShard({quest=61225, note=L["anima_shard_61225"]})

@@ -333,10 +333,7 @@ local Treasure = Class('Treasure', Node, {
 })
 
 function Treasure.getters:icon ()
-    if self._focus then
-        return 'chest_gray_green_glow'
-    end
-        return 'chest_gray'
+    return self._focus and 'chest_gray_green_glow' or 'chest_gray'
 end
 
 function Treasure:enabled (map, coord, minimap)

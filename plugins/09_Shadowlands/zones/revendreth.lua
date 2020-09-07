@@ -532,19 +532,12 @@ nodes[62874341] = Blanchy()
 local Carriage = Class('Carriage', NPC)
 
 function Carriage.getters:icon ()
-    if self._focus then
-        return 'horseshoe_green_glow'
-    end
-        return 'horseshoe'
+    return self._focus and 'horseshoe_green_glow' or 'horseshoe'
 end
 
 function Carriage.getters:scale ()
-    if self._focus then
-        return 2.0
-    end
-        return 1.2
+    return self._focus and 2.0 or 1.2
 end
-
 
 nodes[50217067] = Carriage({
     id=158365,
