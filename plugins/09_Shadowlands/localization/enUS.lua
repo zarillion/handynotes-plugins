@@ -187,47 +187,6 @@ L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485
 L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
 L["misplaced_supplies"] = "On top of the giant mushroom. Run up the hill and jump onto the smaller brown mushroom, then run up the larger hill and jump onto the giant mushroom."
 L["necro_tome_note"] = "To get access to the tower, you have to start a small quest line from {npc:166657}. In a bookcase on the top floor."
-L["oonarsarm_and_sorrwbane_note"] = [[
-There are several buffs that can be combined to loot the pet or the sword.
-
-• {spell:306272} (10 min, stackable to 3)
-  • Only available during the world quest 
-    "A Few Bumps Along the Way".
-    
-• {spell:327367} (2 min, stackable to 4)
-  • Available in Maldraxxus in the 
-    Glutharn's Decay area.
-    
-• {spell:338385} (1 min)
-  • Available from {npc:171808} in Revendreath.
-  
-• {spell:334436} (25 sek)
-  • Available from {npc:166640} in Maldraxxus.
-
-|cffff0000- Bind your {item:6948} to the Innkeeper
-  {npc:161702} at the Theater of Pain.|r
-
-|cff00ff00Oonar's arm: (easiest way)|r
-
-- Buy a {spell:334436}.
-- Get 3 stacks of {spell:327367} 
-  and use your {item:6948} immediately.
-- Go to Oonar's arm and use now the
-  {spell:334436}.
-- Click the arm.
-
-|cff00ff00Sorrowbane: (easiest way)|r
-
-- Buy a {spell:338385} potion.
-- Buy a {spell:334436}.
-- Get 2 stacks of {spell:306272}.
-- Get 4 stacks of {spell:327367}.
-  and use your {item:6948} immediately.
-- Go to Sorrowbane and use now
-  {spell:338385} and the
-  {spell:334436}.
-- Click the sword.
-]]
 L["plaguefallen_chest_note"] = [[
 Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} and be transformed into a {spell:330092}.
 
@@ -236,6 +195,24 @@ Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on
 L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
 L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
+
+L["oonar_sorrowbane_note"] = [[
+In the Theater of Pain, you will find Sorrowbane stuck in the ground and Oonar's Arm attached to it. |cFFFF8C00Before attempting to pull either, set your {item:6948} to {npc:161702} by the flight point.|r
+
+To pull {item:181164} free:
+
+• Travel to Glutharn's Decay to the east.
+• Eat 4x {spell:327367} (2min debuff).
+• Quickly hearth and pull on the arm.
+
+To pull {item:180273} free:
+
+• Purchase 1 {item:182163} from {npc:171808} in Revendreth.
+• Purchase 1 {item:180771} from {npc:166640} in Maldraxxus.
+• Get 2 stacks of {spell:306272} from the |cFFFFFD00[A Few Bumps Along the Way]|r world quest to the west.
+• Eat 4x {spell:327367} in Glutharn's Decay.
+• Quickly hearth, drink both potions and pull on the sword.
+]]
 
 L["pet_cat"] = "Pet the damn cat!"
 L["hairball"] = ns.color.Red("Only appears in the Festering Sanctum inside the Plaguefall dungeon!")

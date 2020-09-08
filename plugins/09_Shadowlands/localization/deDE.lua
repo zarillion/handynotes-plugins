@@ -187,20 +187,20 @@ L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:
 L["kyrian_keepsake_note"] = "Untersuche die {npc:169664}, um den Schatz zu plündern."
 L["misplaced_supplies"] = "Oben auf dem Riesenpilz"
 L["necro_tome_note"] = "Um Zugang zu dem Turm zu erhalten, musst du bei {npc:166657} erst eine kleine Questreihe beginnen. In einem Bücherregal in der obersten Etage."
-L["oonarsarm_and_sorrwbane_note"] = [[
+L["oonar_sorrowbane_note"] = [[
 Es gibt verschiedene Buffs, die kombiniert werden können, um das Haustier oder das Schwert zu erhalten.
 
 • {spell:306272} (10 min, Stapelbar bis 3)
-  • Nur während der Weltquest 
+  • Nur während der Weltquest
     "A Few Bumps Along the Way" erhältlich.
-    
+
 • {spell:327367} (2 min, Stapelbar bis 4)
-  • In Maldraxxus im Gebiet Glutherns Verfall erhältlich. 
+  • In Maldraxxus im Gebiet Glutherns Verfall erhältlich.
     (51.4, 48.5)
-    
+
 • {spell:338385} (1 min)
   • Erhältlich bei {npc:171808} in Revendreath (51.0, 78.8).
-  
+
 • {spell:334436} (25 sek)
   • Erhältlich bei {npc:166640} in Maldraxxus (50.9, 53.2).
 
@@ -210,7 +210,7 @@ Es gibt verschiedene Buffs, die kombiniert werden können, um das Haustier oder 
 |cff00ff00Oonars Arm: (einfachste Möglichkeit)|r
 
 - Kauf dir einen {spell:334436} Trank.
-- Hol dir 3 Stapel von {spell:327367} 
+- Hol dir 3 Stapel von {spell:327367}
   und benutze sofort deinen {item:6948}.
 - Gehe zu Oonars Arm und verwende jetzt
   den {spell:334436}.
@@ -253,7 +253,7 @@ L["options_toggle_kittens_desc"] = "Zeigt die Positionen der Kätzchen für den 
 L["amalgamation_of_filth_note"] = "Wenn die Weltquest \"Dirty Job: Demolition Detail\" verfügbar ist, klicke auf die Rubbish Box und verwende {spell:324115} ins Wasser hinein." --review Blizzard traslation
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
 L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest \"Muck It Up\" auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard traslation
-L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."                                                                                                                        
+L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
 L["famu_note"] = "Sprich mit {npc:166483}, um das Event auszulösen."
 L["grand_arcanist_dimitri_note"] = "Töte die vier |CFFFFFF00Verhüllten Ritualisten|r, um {npc:167464} freizulassen." --{npc:167467}
