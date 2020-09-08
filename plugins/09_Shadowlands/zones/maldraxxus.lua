@@ -456,6 +456,19 @@ nodes[59867906] = Treasure({
     }
 }) -- Vat of Conspicuous Slime
 
+nodes[51444848] = Treasure({
+--    quest=61127, -- Oonar's Arm / Sorrowbane questid missing
+    note=L["oonarsarm_and_sorrwbane_note"],
+    rewards={
+        Pet({item=181164, id=2944}), -- Oonar's Arm
+        Transmog({item=180273, slot=L["2h_sword"]}), --Sorrowbane
+        Achievement({id=14626, criteria=0})
+    },
+    pois={
+        POI({50945317, 37114699, 53634792, 76445672, scale=0.75})
+    }
+}) -- Oonar's Arm and Sorrowbane /Oornas Arm und Kummerfluch
+
 -------------------------------------------------------------------------------
 ------------------------------- NINE AFTERLIVES -------------------------------
 -------------------------------------------------------------------------------

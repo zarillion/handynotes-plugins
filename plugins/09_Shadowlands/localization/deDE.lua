@@ -187,6 +187,47 @@ L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:
 L["kyrian_keepsake_note"] = "Untersuche die {npc:169664}, um den Schatz zu plündern."
 L["misplaced_supplies"] = "Oben auf dem Riesenpilz"
 L["necro_tome_note"] = "Um Zugang zu dem Turm zu erhalten, musst du bei {npc:166657} erst eine kleine Questreihe beginnen. In einem Bücherregal in der obersten Etage."
+L["oonarsarm_and_sorrwbane_note"] = [[
+Es gibt verschiedene Buffs, die kombiniert werden können, um das Haustier oder das Schwert zu erhalten.
+
+• {spell:306272} (10 min, Stapelbar bis 3)
+  • Nur während der Weltquest 
+    "A Few Bumps Along the Way" erhältlich.
+    
+• {spell:327367} (2 min, Stapelbar bis 4)
+  • In Maldraxxus im Gebiet Glutherns Verfall erhältlich. 
+    (51.4, 48.5)
+    
+• {spell:338385} (1 min)
+  • Erhältlich bei {npc:171808} in Revendreath (51.0, 78.8).
+  
+• {spell:334436} (25 sek)
+  • Erhältlich bei {npc:166640} in Maldraxxus (50.9, 53.2).
+
+|cffff0000- Binde deinen {item:6948} an den Gastwirt
+  {npc:161702} beim Theather der Schmerzen.|r
+
+|cff00ff00Oonars Arm: (einfachste Möglichkeit)|r
+
+- Kauf dir einen {spell:334436} Trank.
+- Hol dir 3 Stapel von {spell:327367} 
+  und benutze sofort deinen {item:6948}.
+- Gehe zu Oonars Arm und verwende jetzt
+  den {spell:334436}.
+- Klick den arm an.
+
+|cff00ff00Kummerfluch: (einfachste Möglichkeit)|r
+
+- Kauf dir den Trank {spell:338385}.
+- Kauf dir einen {spell:334436}.
+- Hol dir 2 Stapel von {spell:306272}.
+- Hol dir 4 Stapel von {spell:327367}.
+  und benutze sofort deinen {item:6948}.
+- Gehe zum Kummerschwert und verwende jetzt
+  den Trank {spell:338385} und den
+  {spell:334436}.
+- Klick das Schwert an.
+]]
 L["plaguefallen_chest_note"] = [[
 Stelle dich in grünen Schleim |cffff0000(benötigt Heilung!)|r, sammel 10 Stapel von {spell:330069} an, um in ein {spell:330092} verwandelt zu werden.
 
