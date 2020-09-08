@@ -211,6 +211,7 @@ L["options_toggle_kittens_desc"] = "Muestra las localizaciones de los gatitos pa
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
+L["amalgamation_of_filth_note"] = "Cuando esté disponible la misión diaria \"Trabajo Sucio: Detalles de Demolición\" haz click en una Caja de Basura y usa {spell:324115} dentro del agua."--Revisar que Dirty Job: Demolition Detail sea Trabajo Sucio: Detalles de Demolición, que Rubbish Box sea Caja de Basura
 L["amalgamation_of_light_note"] = "Mueve las tres trampas de espejos para liberar a {npc:164388}."
 L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo \"Muck It Up\" después de usar {item:177880} en {npc:166206}."--Revisar que nombre tiene la WQ Muck It Up
 L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:165229} y usa {spell:321826} en la parte superior de la Grieta Brillante."--Revisar qué es Anima Stake y que Shimmering Rift sea Grieta Brillante
@@ -267,3 +268,13 @@ L["sanngror_note"] = "Si no se puede atacar a {npc:172521}, espera hasta que no 
 L["talaporas_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331800} para invocar a {npc:170302}."
 L["valis_note"] = "Haz click en las tres {npc:174810} en el orden correcto para invocar a {npc:173086}. El orden cambia cada vez y hacer click en la runa incorrecta produce daño y te pone el debuff {spell:343636}."
 L["yero_note"] = "Acércate a {npc:172862} y síguelo abajo hasta una cueva cercana donde él se vuelve hostil."
+
+L["exos_note"] = [[
+Mata a los tres Heraldos: {npc:169827}, {npc:170302} y {npc:170301}. Recoge de ellos sus inscripciones.
+
+• {item:182328}
+• {item:182326}
+• {item:182327}
+
+Combina las tres inscripciones para crear la {item:182329}, la cual debe ser usada para invocar a {npc:170303}. Usa el {npc:173892} para llegar al nivel superior.
+]]--Revisar que etchings sea inscripciones
