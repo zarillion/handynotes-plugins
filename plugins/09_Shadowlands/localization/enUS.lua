@@ -209,6 +209,7 @@ L["options_toggle_kittens_desc"] = "Display locations of kittens for the Nine Af
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
+L["amalgamation_of_filth_note"] = "When the world quest \"Dirty Job: Demolition Detail\" is available click on a Rubbish Box and use {spell:324115} into the water."
 L["amalgamation_of_light_note"] = "Move all three mirror traps to release the rare."
 L["bog_beast_note"] = "Has a chance to spawn during the world quest \"Muck It Up\" after using {item:177880} on a {npc:166206}."
 L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."

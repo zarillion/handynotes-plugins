@@ -76,13 +76,15 @@ options.carriageRevendreth = {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- nodes[] = Rare({
---     id=166393,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=48814})
---     }
--- }) -- Amalgamation of Filth
+nodes[53167302] = Rare({
+    id=166393,
+    quest=nil,
+    note=L["amalgamation_of_filth_note"],
+    rewards={
+        Achievement({id=14310, criteria=48814}),
+        Transmog({item=183729, slot=L["leather"]}) -- Filth-Splattered Headcover
+    }
+}) -- Amalgamation of Filth
 
 nodes[25304850] = Rare({
     id=164388,
