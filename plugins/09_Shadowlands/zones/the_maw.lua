@@ -68,10 +68,11 @@ options.rareMaw = {
 
 nodes[19324172] = Rare({
     id=170301,
-    quest=nil,
+    quest=60788,
     note=L["apholeias_note"],
     rewards={
         Achievement({id=14744, criteria=49842}),
+        Item({item=182327}) -- Dominion Etching Loss 182327
     }
 }) -- Apholeias, Herald of Loss
 
@@ -126,10 +127,11 @@ nodes[23765341] = Rare({
 
 nodes[42342108] = Rare({
     id=169827,
-    quest=nil,
+    quest=60666,
     note=L["ekphoras_note"],
     rewards={
         Achievement({id=14744, criteria=49849}),
+        Item({item=182328}) -- Dominion Etching: Grief
     }
 }) -- Ekphoras, Herald of Grief
 
@@ -141,13 +143,14 @@ nodes[42342108] = Rare({
 --     }
 -- }) -- Eternas the Tormentor
 
--- nodes[] = Rare({
---     id=170303,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49851}),
---     }
--- }) -- Exos, Herald of Domination
+nodes[20586935] = Rare({
+    id=170303,
+    quest=62260,
+    note=L["exos_note"],
+    rewards={
+        Achievement({id=14744, criteria=49851}),
+    }
+}) -- Exos, Herald of Domination
 
 nodes[16945102] = Rare({
     id=162849,
@@ -205,10 +208,11 @@ nodes[35974156] = Rare({
 
 nodes[28701204] = Rare({
     id=170302,
-    quest=nil,
+    quest=60789, -- 62722?
     note=L["talaporas_note"],
     rewards={
         Achievement({id=14744, criteria=49858}),
+        Item({item=182326}) -- Dominion Etching: Pain
     }
 }) -- Talaporas, Herald of Pain
 
@@ -410,6 +414,7 @@ nodes[40705959] = BonusBoss({
 ---------------------------- BONUS OBJECTIVE EVENTS ---------------------------
 -------------------------------------------------------------------------------
 
+-- 21573436 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
 -- 32401771 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
 -- 30394255 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
 
