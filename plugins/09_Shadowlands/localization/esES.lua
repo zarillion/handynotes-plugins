@@ -187,6 +187,8 @@ L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisa
 
 L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
 L["kyrian_keepsake_note"] = "Inspecciona el {npc:169664} para despojar el tesoro."
+L["misplaced_supplies"] = "Encima de la seta gigante"
+L["necro_tome_note"] = "Para tener acceso a la torre, has de empezar una pequeña cadena de misiones que te da {npc: 166657}. En un estante en el piso superior."
 L["plaguefallen_chest_note"] = [[
 Quédate de pie en la baba verde (¡requiere sanación!) para conseguir 10 acumulaciones de {spell:330069} y transformarte en {spell:330092}.
 
@@ -195,8 +197,24 @@ Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:15
 L["stolen_jar_note"] = "En una cueva debajo de la seta gigante."
 L["strange_growth_note"] = "Estira de {npc:165037} para revelar el tesoro."
 L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar que vat of slime sea cuba de baba
-L["necro_tome_note"] = "Para tener acceso a la torre, has de empezar una pequeña cadena de misiones que te da {npc: 166657}. En un estante en el piso superior."
-L["misplaced_supplies"] = "Encima de la seta gigante"
+
+L["oonar_sorrowbane_note"] = [[
+En el Teatro del Dolor, podrás encontrar {item:180273} clavada en el suelo y el Brazo de Oonar al lado. |cFFFF8C00Antes de intentar tirar de ninguno, pon tu {item:6948} en {npc:161702} por el punto de vuelo.|r
+
+Para tirar del {item:181164} sin problemas:
+
+• Viaja a la Corrupción de Glutharn al este.
+• Come 4 {spell:327367} (debuff de 2 minutos).
+• Vuelve volando rápidamente al Teatro del Dolor con la {item:6948} y tira del brazo.
+
+Para tirar de {item:180273} sin problemas:
+
+• Compra 1 {item:182163} de {npc:171808} en Revendreth.
+• Compra 1 {item:180771} de {npc:166640} en Maldraxxus.
+• Consigue 2 acumulaciones de {spell:306272} de la misión del mundo |cFFFFFD00[Algunos Baches en el Camino]|r al oeste.
+• Come 4 {spell:327367} en la Corrupción de Glutharn al este.
+• Vuelve volando rápidamente al Teatro del Dolor con la {item:6948}, bébete ambas pociones y tira de la espada.
+]]--Revisar que Glutharn's Decay sea Corrupción de Glutharn, que A Few Bumps Along the Way sea Algunos Baches en el Camino
 
 L["pet_cat"] = "¡Acaricia al maldito gato!"--Revisar que Pet the damn cat! sea ¡Acaricia al maldito gato!
 L["hairball"] = ns.color.Red("¡Sólo aparece en el Santuario Purulento dentro de la mazmorra Pestecadencia!")--Revisar que Festering Sanctum sea Santuario Purulento y Plaguefall sea Pestecadencia
