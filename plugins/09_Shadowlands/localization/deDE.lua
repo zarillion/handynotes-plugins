@@ -182,8 +182,11 @@ Sammel Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 3
 
 L["blackhound_cache"] = "Schwarzhundtruhe"
 L["bladesworn_supply_cache"] = "Vorräte des Klingenschwurs"
+
 L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:172485} und beide {npc:172479}|CFFFFFF00en|r, um die Truhe freizuschalten."
 L["kyrian_keepsake_note"] = "Untersuche die {npc:169664}, um den Schatz zu plündern."
+L["misplaced_supplies"] = "Oben auf dem Riesenpilz"
+L["necro_tome_note"] = "Um Zugang zu dem Turm zu erhalten, musst du bei {npc:166657} erst eine kleine Questreihe beginnen. In einem Bücherregal in der obersten Etage."
 L["plaguefallen_chest_note"] = [[
 Stelle dich in grünen Schleim |cffff0000(benötigt Heilung!)|r, sammel 10 Stapel von {spell:330069} an, um in ein {spell:330092} verwandelt zu werden.
 
@@ -192,8 +195,6 @@ Wenn du verwandelt bist, besuche die Höhle unterhalb von {npc:158406}|CFFFFFF00
 L["stolen_jar_note"] = "In einer Höhle unter dem Riesenpilz."
 L["strange_growth_note"] = "Ziehe {npc:165037} heraus, um den Schatz zu enthüllen."
 L["vat_of_slime_note"] = "Klicken auf dem Tisch die Flasche an und danach auf den Schleimbehälter."
-L["necro_tome_note"] = "Um Zugang zu dem Turm zu erhalten, musst du bei {npc:166657} erst eine kleine Questreihe beginnen. In einem Bücherregal in der obersten Etage."
-L["misplaced_supplies"] = "Oben auf dem Riesenpilz"
 
 L["pet_cat"] = "Streichel die verdammte Katze!"
 L["hairball"] = ns.color.Red("Erscheint nur in dem Dungeon \"Seuchensturz\" im Gebiet \"Das Schwärende Sanktum\"!")
@@ -208,14 +209,15 @@ L["options_toggle_kittens_desc"] = "Zeigt die Positionen der Kätzchen für den 
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
+L["amalgamation_of_filth_note"] = "Wenn die Weltquest \"Dirty Job: Demolition Detail\" verfügbar ist, klicke auf die Rubbish Box und verwende {spell:324115} ins Wasser hinein." --review Blizzard traslation
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
 L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest \"Muck It Up\" auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard traslation
+L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."                                                                                                                        
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
 L["famu_note"] = "Sprich mit {npc:166483}, um das Event auszulösen."
-L["leeched_soul_note"] = "In der nahe gelegenen Krypta. Gehe in die Nähe von {npc:165151}, um das Event zu starten."
 L["grand_arcanist_dimitri_note"] = "Töte die vier |CFFFFFF00Verhüllten Ritualisten|r, um {npc:167464} freizulassen." --{npc:167467}
 L["innervus_note"] = "Töte |CFFFFFF00Wilde Ritualisten|r in der Gegend, um einen {item:177223} zu erhalten, um die Krypta aufzuschließen." --{npc:160375}
+L["leeched_soul_note"] = "In der nahe gelegenen Krypta. Gehe in die Nähe von {npc:165151}, um das Event zu starten."
 L["lord_mortegore_note"] = "Töte Gegner in der Nähe, um eine {item:174378} zu erhalten und verwende diese, um ein {npc:161870} zu ermächtigen. {npc:161891} wird erscheinen, wenn alle vier Siegel ermächtigt wurden."
 L["manifestation_of_wrath_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest \"Swarming Souls\" eine {npc:169916} wiedererlangt wird." --review Blizzard traslation
 L["scrivener_lenua_note"] = "Bringe {npc:160753} zurück zur Verbotenen Bibliothek."
@@ -257,6 +259,20 @@ L["options_toggle_carriages_desc"] = "Zeigt die Positionen und Wege von fahrbare
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331783}, um den seltenen Gegner zu beschwören."
+L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331783}, um {npc:170301} zu beschwören."
+L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, zum aktivieren." --review
-L["talaporas_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331800}, um den seltenen Gegner zu beschwören."
+L["sanngror_note"] = "\nWenn er gerade nicht angreifbar ist, dann warte bis er nicht mehr mit Seelen experimentiert."
+L["talaporas_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331800}, um {npc:170302} zu beschwören."
+L["valis_note"] = "Klicke die drei {npc:174810} in der richtigen Reihenfolge an, um {npc:173086} zu beschwören. Die Reihenfolge ändert sich jedes Mal und wenn die falsche Rune angeklickt wird, erleidest du Schaden und wirst mit dem Schwachungszauber {spell:343636} belegt."
+L["yero_note"] = "Nähere dich {npc:172862} und folge ihm in die Höhle in der Nähe, wo er feindlich wird."
+
+L["exos_note"] = [[
+Töte die anderen drei Herolde der Trauer, der Pein und des Verlusts um ihre drei Gravuren zu erhalten.
+
+• {item:182328}
+• {item:182326}
+• {item:182327}
+
+Kombiniere alle drei Gravuren, um den {item:182329} herzustellen, welcher am Altar der Herrschaft verwendet werden kann, um den seltenen Gegner zu beschwören. Verwende das {npc:173892}, um in die obere Etage zu gelangen.
+]]
