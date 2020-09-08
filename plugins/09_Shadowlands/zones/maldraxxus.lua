@@ -217,7 +217,7 @@ nodes[50404820] = Rare({
 
 nodes[62107580] = Rare({
     id=158406,
-    quest=nil,
+    quest=58006,
     rewards={
         Achievement({id=14308, criteria=48857})
     }
