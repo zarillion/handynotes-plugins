@@ -94,7 +94,7 @@ nodes[27731305] = Rare({
 
 nodes[60964805] = Rare({
     id=160770,
-    quest=nil,
+    quest=62281,
     note=L["in_cave"],
     rewards={
         Achievement({id=14744, criteria=49845}),
@@ -417,6 +417,8 @@ nodes[40705959] = BonusBoss({
 -- 21573436 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
 -- 32401771 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
 -- 30394255 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
+
+-- 27846503 - 59784 - Obliterated Soul Shards - Collect Obliterated Soul Shards on the bridges.
 
 -------------------------------------------------------------------------------
 
