@@ -160,11 +160,9 @@ options.alpacaUldum = {
 ------------------------------------ INTRO ------------------------------------
 -------------------------------------------------------------------------------
 
-local Intro = Class('Intro', Node)
+local Intro = Class('Intro', ns.node.Intro)
 
 Intro.note = L["uldum_intro_note"]
-Intro.icon = 'quest_yellow'
-Intro.scale = 3
 
 function Intro:enabled ()
     if not Node.enabled(self) then return false end

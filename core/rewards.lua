@@ -222,13 +222,8 @@ function Quest:render (tooltip)
         status = (count == #self.id) and Green(status) or Red(status)
     end
 
-    local icon = ns.icons.quest_chalice
-    tooltip:AddDoubleLine((name or UNKNOWN), status)
-    tooltip:AddTexture(icon, {
-        width = 12,
-        height = 12,
-        margin = { right=5 }
-    })
+    local line = ns.icons.quest_yellow:link(13)..' '..(name or UNKNOWN)
+    tooltip:AddDoubleLine(line, status)
 end
 
 -------------------------------------------------------------------------------

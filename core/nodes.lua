@@ -115,9 +115,9 @@ function Node:render(tooltip)
     -- render the label text with NPC names resolved
     tooltip:SetText(ns.NameResolver:Resolve(self.label))
 
-    local rlabel = self.rlabel
+    local rlabel = self.rlabel or ''
 
-    if not rlabel and self.questCount and #(self.quest or {}) then
+    if self.questCount and #(self.quest or {}) then
         -- set rlabel to a (completed / total) display for quest ids
         local count = 0
         for i, quest in ipairs(self.quest) do
@@ -126,7 +126,7 @@ function Node:render(tooltip)
             end
         end
         local color = (count == #self.quest) and ns.status.Green or ns.status.Gray
-        rlabel = color(tostring(count)..'/'..#self.quest)
+        rlabel = rlabel..' '..color(tostring(count)..'/'..#self.quest)
     end
 
     if not rlabel and self.pois then
@@ -214,6 +214,15 @@ function Cave:enabled (map, coord, minimap)
 
     return true
 end
+
+-------------------------------------------------------------------------------
+------------------------------------ INTRO ------------------------------------
+-------------------------------------------------------------------------------
+
+local Intro = Class('Intro', Node, {
+    icon = 'quest_yellow',
+    scale = 3
+})
 
 -------------------------------------------------------------------------------
 ------------------------------------- NPC -------------------------------------
@@ -365,6 +374,7 @@ local Supply = Class('Supply', Treasure, {
 ns.node = {
     Node=Node,
     Cave=Cave,
+    Intro=Intro,
     NPC=NPC,
     PetBattle=PetBattle,
     Quest=Quest,

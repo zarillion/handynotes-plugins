@@ -157,11 +157,9 @@ options.miscNazjatar = {
 ------------------------------------ INTRO ------------------------------------
 -------------------------------------------------------------------------------
 
-local Intro = Class('Intro', Node)
+local Intro = Class('Intro', ns.node.Intro)
 
 Intro.note = L["naz_intro_note"]
-Intro.icon = 'quest_yellow'
-Intro.scale = 3
 
 function Intro.getters:label ()
     return GetAchievementCriteriaInfo(13710, 1) -- Welcome to Nazjatar

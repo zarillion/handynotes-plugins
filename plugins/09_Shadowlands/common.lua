@@ -36,8 +36,6 @@ ns.covenants = {
 
 ns.processCovenant = function (node)
     if node.covenant == nil then return end
-
-    -- Are we a member of this covenant?
     local data = C_Covenants.GetCovenantData(node.covenant.id)
 
     -- Add covenant sigil to top-right corner of tooltip

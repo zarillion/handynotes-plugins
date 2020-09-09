@@ -277,6 +277,8 @@ L["options_toggle_carriages_desc"] = "Display locations and paths of rideable ca
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
+L["maw_intro_note"] = "Complete the introductory quest chain to unlock rares and events in the Maw."
+
 L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
 L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."

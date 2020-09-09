@@ -17,6 +17,7 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Quest = ns.reward.Quest
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
@@ -30,8 +31,13 @@ local defaults = ns.optionDefaults.profile
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=1543 })
+local map = Map({ id=1543, phased=false })
 local nodes = map.nodes
+
+function map:prepare ()
+    Map.prepare(self)
+    self.phased = C_QuestLog.IsQuestFlaggedCompleted(60134)
+end
 
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
@@ -53,6 +59,36 @@ options.rareMaw = {
     order = 41,
     width = "normal",
 }
+
+-------------------------------------------------------------------------------
+------------------------------------ INTRO ------------------------------------
+-------------------------------------------------------------------------------
+
+local MawIntro = Class('MawIntro', ns.node.Intro, {
+    quest=60134,
+    note=L["maw_intro_note"]
+})
+
+function MawIntro:init ()
+    Node.init(self)
+    C_QuestLine.GetQuestLineInfo(60134, 1543) -- fetch info
+end
+
+function MawIntro.getters:label ()
+    local info = C_QuestLine.GetQuestLineInfo(60134, 1543)
+    return (info or {}).questLineName or 'Return to the Maw'
+end
+
+map.intro = MawIntro({
+    rewards={Quest({id=({
+        {60232, 61495, 61496, 60287, 61391, 61355, 60289, 60134}, -- Kyrian
+        {60234, 61515, 61496, 60287, 61391, 61355, 60289, 60134}, -- Venthyr
+        {60233, 61508, 61496, 60287, 61391, 61355, 60289, 60134}, -- Night Fae
+        {60130, 61513, 61496, 60287, 61391, 61355, 60289, 60134}  -- Necrolord
+    })[C_Covenants.GetActiveCovenantID() or 1]})}
+})
+
+nodes[80306280] = map.intro
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

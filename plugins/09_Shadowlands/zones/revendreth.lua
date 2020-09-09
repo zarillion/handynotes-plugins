@@ -331,12 +331,14 @@ nodes[38607200] = Rare({
         Mount({item=182589, id=1391}) -- Loyal Gorger
     }
 }) -- Worldedge Gorger
+
 -- Prereq item: Impressionable Gorger Spawn 61188
 -- Daily completion: 61843
 -- Day 1: Nipping at the Undergrowth 61839
 -- Day 2: Vineroot on the Menu 61840
 -- Day 3: Vineroot Will Not Do 61842
 -- Day 4: Hungry Hungry Gorger 61844
+-- Day 5: Standing Toe to Toe 62044
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
