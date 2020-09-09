@@ -22,7 +22,7 @@ local DropdownMenu = CreateFrame("Frame", ADDON_NAME.."DropdownMenu")
 DropdownMenu.displayMode = "MENU"
 local function initializeDropdownMenu (button, level, mapID, coord)
     if not level then return end
-    local node = ns.maps[mapID].nodes[coord];
+    local node = ns.maps[mapID].nodes[coord]
     local spacer = {text='', disabled=1, notClickable=1, notCheckable=1}
 
     if (level == 1) then
@@ -50,7 +50,7 @@ local function initializeDropdownMenu (button, level, mapID, coord)
         UIDropDownMenu_AddButton({
             text=L["context_menu_hide_node"], notCheckable=1,
             func=function (button)
-                Addon.db.char[mapID..'_coord_'..coord] = true;
+                Addon.db.char[mapID..'_coord_'..coord] = true
                 Addon:Refresh()
             end
         }, level)
@@ -63,7 +63,7 @@ local function initializeDropdownMenu (button, level, mapID, coord)
             end
         }, level)
 
-        UIDropDownMenu_AddButton(spacer, level);
+        UIDropDownMenu_AddButton(spacer, level)
 
         UIDropDownMenu_AddButton({
             text=CLOSE, notCheckable=1,
@@ -110,7 +110,7 @@ function Addon:OnClick(button, down, mapID, coord)
     if button == "RightButton" and down then
         DropdownMenu.initialize = function (button, level)
             initializeDropdownMenu(button, level, mapID, coord)
-        end;
+        end
         ToggleDropDownMenu(1, nil, DropdownMenu, self, 0, 0)
     elseif button == "LeftButton" and down then
         if node.pois then

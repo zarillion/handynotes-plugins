@@ -353,9 +353,9 @@ nodes[39694159] = Rare({id=162141, quest=58695, assault=AQR}) -- Zuythiz
 ------------------------------- NEFERSET RARES --------------------------------
 -------------------------------------------------------------------------------
 
-local start = 45009400;
+local start = 45009400
 local function coord(x, y)
-    return start + x*2500000 + y*400;
+    return start + x*2500000 + y*400
 end
 
 local NefRare = Class('NefersetRare', Rare, {

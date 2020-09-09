@@ -146,7 +146,7 @@ end
 ------------------------------------ MOUNT ------------------------------------
 -------------------------------------------------------------------------------
 
--- /run for i,m in ipairs(C_MountJournal.GetMountIDs()) do if (C_MountJournal.GetMountInfoByID(m) == "NAME") then print(m); end end
+-- /run for i,m in ipairs(C_MountJournal.GetMountIDs()) do if (C_MountJournal.GetMountInfoByID(m) == "NAME") then print(m) end end
 
 local Mount = Class('Mount', Item)
 
