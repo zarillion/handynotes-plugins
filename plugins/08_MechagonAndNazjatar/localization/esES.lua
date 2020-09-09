@@ -153,10 +153,10 @@ L["sfire"] = "Fuego Inferior"
 L["gfire"] = "Fuego Superior"
 L["searth"] = "Tierra Inferior"
 L["gearth"] = "Tierra Superior"
-L["murloco"] = "{npc:152593}";
+L["murloco"] = "{npc:152593}"
 L["tentacle_taco"] = "Vende "..ITEM_QUALITY_COLORS[4].hex.."[{item:170100}]|r si llevas puesto el {item:169489}."
 
-L["options_toggle_treasures_nazj"] = "Display locations of chests for the Trove Tracker achievement."
+L["options_toggle_treasures_nazj"] = "Muestra las localizaciones de los cofres para el logro Rastreador de tesoros."
 L["options_toggle_slimes_nazj"] = "Babas Voraces"
 L["options_toggle_slimes_nazj_desc"] = "Muestra las localizaciones de las cuatro Babas Voraces que producen mascotas al ser alimentadas."
 L["options_toggle_cats_nazj"] = "Figurillas de Gato Cristalinas"
