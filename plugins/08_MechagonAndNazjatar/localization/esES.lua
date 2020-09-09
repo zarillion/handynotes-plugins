@@ -66,7 +66,7 @@ L["options_toggle_recrig_desc"] = "Muestra la localización del Equipo de Recupe
 ----------------------------------- NAZJATAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L["naz_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures, and world quests on Nazjatar."
+L["naz_intro_note"] = "Completa la cadena de misiones instroductoria para desbloquear los raros, los tesoros y las misiones del mundo en Nazjatar."
 
 L["alga_note"] = "CAUTION: Cloaked with four adds!";
 L["allseer_note"] = "Spawns anywhere in lower Kal'methir.";
@@ -145,29 +145,29 @@ L["cat_figurine_08"] = "In a small cave. Dodge the arcane circles. Figurine is o
 L["cat_figurine_09"] = "In an underwater cave. Figurine is on the rock archway by the ceiling."
 L["cat_figurine_10"] = "In a cave just below the path. Figurine is between three barrels."
 
-L["mardivas_lab"] = "Mardivas's Laboratory";
-L["no_reagent"] = "No reagents"
-L["swater"] = "Small Water"
-L["gwater"] = "Greater Water"
-L["sfire"] = "Small Fire"
-L["gfire"] = "Greater Fire"
-L["searth"] = "Small Earth"
-L["gearth"] = "Greater Earth"
-L["murloco"] = "Murloco";
-L["tentacle_taco"] = "Sells "..ITEM_QUALITY_COLORS[4].hex.."[Hungry Herald's Tentacle Taco]|r if you are wearing the Benthic Azsh'ari Stormsurger Cape.";
+L["mardivas_lab"] = "Laboratorio de Mardivas"
+L["no_reagent"] = "Sin ingredientes"
+L["swater"] = "Agua Inferior"
+L["gwater"] = "Agua Superior"
+L["sfire"] = "Fuego Inferior"
+L["gfire"] = "Fuego Superior"
+L["searth"] = "Tierra Inferior"
+L["gearth"] = "Tierra Superior"
+L["murloco"] = "{npc:152593}";
+L["tentacle_taco"] = "Vende "..ITEM_QUALITY_COLORS[4].hex.."[{item:170100}]|r si llevas puesto el {item:169489}."
 
 L["options_toggle_treasures_nazj"] = "Display locations of chests for the Trove Tracker achievement."
-L["options_toggle_slimes_nazj"] = "Ravenous Slimes"
-L["options_toggle_slimes_nazj_desc"] = "Display locations of the four Ravenous Slimes that produce pets once fed."
-L["options_toggle_cats_nazj"] = "Cat Figurines"
-L["options_toggle_cats_nazj_desc"] = "Display locations of the crystalline cat figurines for the Feline Figurines Found achievement."
-L["options_toggle_misc_nazj"] = "Display the location of Murloco's cave and Mardivas's Laboratory."
+L["options_toggle_slimes_nazj"] = "Babas Voraces"
+L["options_toggle_slimes_nazj_desc"] = "Muestra las localizaciones de las cuatro Babas Voraces que producen mascotas al ser alimentadas."
+L["options_toggle_cats_nazj"] = "Figurillas de Gato Cristalinas"
+L["options_toggle_cats_nazj_desc"] = "Muestra las localizaciones de las figurillas de gato cristalinas para el logro Figurillas de felino encontradas."
+L["options_toggle_misc_nazj"] = "Muestra la localización de la cueva de Murloco y el Laboratorio de Mardivas."
 
 -------------------------------------------------------------------------------
 ------------------------------------ CAVES ------------------------------------
 -------------------------------------------------------------------------------
 
-L["blindlight_cave"] = "Cave entrance to Blindlight.";
-L["caverndark_cave"] = "Cave entrance to Caverndark Terror.";
-L["chasmhaunt_cave"] = "Cave entrance to Chasm-Haunter.";
-L["shassera_cave"] = "Cave entrance to Shassera.";
+L["blindlight_cave"] = "Cueva de entrada a {npc:152712}."
+L["caverndark_cave"] = "Cueva de entrada a {npc:152464}."
+L["chasmhaunt_cave"] = "Cueva de entrada a {npc:152556}."
+L["shassera_cave"] = "Cueva de entrada a {npc:152552}."
