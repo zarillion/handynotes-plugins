@@ -279,6 +279,8 @@ L["options_toggle_carriages_desc"] = "Muestra las localizaciones posibles y cami
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
+L["maw_intro_note"] = "Completa la cadena de misiones introductoria para desbloquear los raros y los eventos de Las Fauces."
+
 L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331783} para invocar a {npc:170301}."
 L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:330650} para invocar a {npc:169827}."
 L["orophea_note"] = "Coge el {spell:337143} al sureste y ofrécelo a {npc:172577} para que se active {npc:172577}."
