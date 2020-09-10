@@ -104,7 +104,7 @@ Die Kugel wird dich zu dem wahren Räucherwerk des Richturteils bringen. Sprich 
 L["gift_of_vesiphone"] = "Läute an den Glocken, um eine {npc:170849} erscheinen zu lassen, töte diese um den Schwächungszauber {spell:333239} zu erhalten. Der Wasserfall gegenüber der Truhe wird diesen Schwächungszauber reinigen und dir den {spell:332785} gewähren, um die Truhe öffnen zu können."
 
 L["cache_of_the_ascended"] = "Cache of the Ascended" --review Blizzard translations
-L["cache_of_the_ascended_note"] = "Klicke mit vier anderen Spielern die Vesperglocke der Reinheit, des Mut, der Demut, der Weisheit und der Loyalität zur selben Zeit an. Begebt euch anschließend zum Prüfstein des Aspiranten, um den Aspirantenrat zu besiegen und die Truhe zu enthüllen." --review Blizzard Translation Aspirant's Aspiranten
+L["cache_of_the_ascended_note"] = "Klicke mit vier anderen Spielern die Vesperglocke der Reinheit, des Mutes, der Demut, der Weisheit und der Loyalität zur selben Zeit an. Begebt euch anschließend zum Prüfstein des Aspiranten, um den Aspirantenrat zu besiegen und die Truhe zu enthüllen." --review Blizzard Translation Aspirant's Aspiranten
 
 L["anima_shard"] = "Verlorener Animakristallsplitter"
 L["anima_shard_61225"] = "Auf einer tiefer gelegenen Plattform unterhalb der Brücke."
@@ -187,47 +187,6 @@ L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:
 L["kyrian_keepsake_note"] = "Untersuche die {npc:169664}, um den Schatz zu plündern."
 L["misplaced_supplies"] = "Oben auf dem Riesenpilz"
 L["necro_tome_note"] = "Um Zugang zu dem Turm zu erhalten, musst du bei {npc:166657} erst eine kleine Questreihe beginnen. In einem Bücherregal in der obersten Etage."
-L["oonar_sorrowbane_note"] = [[
-Es gibt verschiedene Buffs, die kombiniert werden können, um das Haustier oder das Schwert zu erhalten.
-
-• {spell:306272} (10 min, Stapelbar bis 3)
-  • Nur während der Weltquest
-    "A Few Bumps Along the Way" erhältlich.
-
-• {spell:327367} (2 min, Stapelbar bis 4)
-  • In Maldraxxus im Gebiet Glutherns Verfall erhältlich.
-    (51.4, 48.5)
-
-• {spell:338385} (1 min)
-  • Erhältlich bei {npc:171808} in Revendreath (51.0, 78.8).
-
-• {spell:334436} (25 sek)
-  • Erhältlich bei {npc:166640} in Maldraxxus (50.9, 53.2).
-
-|cffff0000- Binde deinen {item:6948} an den Gastwirt
-  {npc:161702} beim Theather der Schmerzen.|r
-
-|cff00ff00Oonars Arm: (einfachste Möglichkeit)|r
-
-- Kauf dir einen {spell:334436} Trank.
-- Hol dir 3 Stapel von {spell:327367}
-  und benutze sofort deinen {item:6948}.
-- Gehe zu Oonars Arm und verwende jetzt
-  den {spell:334436}.
-- Klick den arm an.
-
-|cff00ff00Kummerfluch: (einfachste Möglichkeit)|r
-
-- Kauf dir den Trank {spell:338385}.
-- Kauf dir einen {spell:334436}.
-- Hol dir 2 Stapel von {spell:306272}.
-- Hol dir 4 Stapel von {spell:327367}.
-  und benutze sofort deinen {item:6948}.
-- Gehe zum Kummerschwert und verwende jetzt
-  den Trank {spell:338385} und den
-  {spell:334436}.
-- Klick das Schwert an.
-]]
 L["plaguefallen_chest_note"] = [[
 Stelle dich in grünen Schleim |cffff0000(benötigt Heilung!)|r, sammel 10 Stapel von {spell:330069} an, um in ein {spell:330092} verwandelt zu werden.
 
@@ -237,22 +196,44 @@ L["stolen_jar_note"] = "In einer Höhle unter dem Riesenpilz."
 L["strange_growth_note"] = "Ziehe {npc:165037} heraus, um den Schatz zu enthüllen."
 L["vat_of_slime_note"] = "Klicken auf dem Tisch die Flasche an und danach auf den Schleimbehälter."
 
+L["oonar_sorrowbane_note"] = [[
+Im Theater des Schmerzes, findest du im Boden steckend Kummerfluch und Oonars Arm daran befestigt. 
+|cFFFF8C00Bevor du versuchst eines der beiden ab oder heraus zu ziehen, setzte deinen {item:6948} bei {npc:161702} nahe des Flugpunktes.|r
+
+Um {item:181164} ab zu ziehen:
+
+• Reise zu Glutherns Verfall (51.4, 48.5) im Osten.
+• Esse 4x {spell:327367} (2min debuff).
+• Benutze schnell deinen {item:6948} und zieh am Arm.
+
+Um {item:180273} heraus zu ziehen:
+
+• Kaufe 1x {item:182163} von {npc:171808} in der Nähe
+   des Nachtmarktes in Revendreth (51.0, 78.8).
+• Kaufe 1x {item:180771} von 
+   {npc:166640} in Maldraxxus (50.9, 53.2).
+• Erhalte 2 Stapel {spell:306272} von der Weltquest |cFFFFFD00[A Few Bumps Along the Way]|r im Westen (37.0, 46.9).
+• Esse 4x {spell:327367} in Glutherns Verfall.
+• Benutze schnell deinen {item:6948}, trink beim 
+   Schwert die beiden Tränke und ziehe an diesem.
+]]
+
 L["pet_cat"] = "Streichel die verdammte Katze!"
 L["hairball"] = ns.color.Red("Erscheint nur in dem Dungeon \"Seuchensturz\" im Gebiet \"Das Schwärende Sanktum\"!")
 L["lime"] = "Sitzt auf dem großen Knochenbogen."
 L["moldstopheles"] = "Laufe um den Stiel herum und springe auf die Pilzplattformen. Verwende für die letzte Plattform ein Reittier und springe in die Ecke an der die Plattform am Stiel befestigt ist."
 L["pus_in_boots"] = "Befindet sich unter der Brücke."
 
-L["options_toggle_kittens"] = "Kätzchen" --review Blizzard translation
-L["options_toggle_kittens_desc"] = "Zeigt die Positionen der Kätzchen für den Erfolg \"Nine Afterlives (ID:14634)\" an." --review Blizzard traslation
+L["options_toggle_kittens"] = "Kätzchen"
+L["options_toggle_kittens_desc"] = "Zeigt die Positionen der Kätzchen für den Erfolg \"Neun jenseitige Leben (ID:14634)\" an."
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_filth_note"] = "Wenn die Weltquest \"Dirty Job: Demolition Detail\" verfügbar ist, klicke auf die Rubbish Box und verwende {spell:324115} ins Wasser hinein." --review Blizzard traslation
+L["amalgamation_of_filth_note"] = "Wenn die Weltquest |cFFFFFD00[Dirty Job: Demolition Detail]|r verfügbar ist, klicke auf die Rubbish Box und verwende {spell:324115} ins Wasser hinein." --review Blizzard traslation
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
-L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest \"Muck It Up\" auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard traslation
+L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Muck It Up]|r auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard traslation
 L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
 L["famu_note"] = "Sprich mit {npc:166483}, um das Event auszulösen."
@@ -260,7 +241,7 @@ L["grand_arcanist_dimitri_note"] = "Töte die vier |CFFFFFF00Verhüllten Rituali
 L["innervus_note"] = "Töte |CFFFFFF00Wilde Ritualisten|r in der Gegend, um einen {item:177223} zu erhalten, um die Krypta aufzuschließen." --{npc:160375}
 L["leeched_soul_note"] = "In der nahe gelegenen Krypta. Gehe in die Nähe von {npc:165151}, um das Event zu starten."
 L["lord_mortegore_note"] = "Töte Gegner in der Nähe, um eine {item:174378} zu erhalten und verwende diese, um ein {npc:161870} zu ermächtigen. {npc:161891} wird erscheinen, wenn alle vier Siegel ermächtigt wurden."
-L["manifestation_of_wrath_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest \"Swarming Souls\" eine {npc:169916} wiedererlangt wird." --review Blizzard traslation
+L["manifestation_of_wrath_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Swarming Souls]|r eine {npc:169916} wiedererlangt wird." --review Blizzard traslation
 L["scrivener_lenua_note"] = "Bringe {npc:160753} zurück zur Verbotenen Bibliothek."
 L["sinstone_hoarder_note"] = "Erscheint auf der Minimap als Schatztruhe. Versuch den {npc:162503} zu plündern und {npc:162481} wird sich offenbaren."
 L["soulstalker_doina_note"] = "Verfolge sie nach unten und durch den Spiegel wenn sie wegläuft."
@@ -300,6 +281,8 @@ L["options_toggle_carriages_desc"] = "Zeigt die Positionen und Wege von fahrbare
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
+L["maw_intro_note"] = "Schließe die Einführungsquestreihe ab, um im Schlund seltene Gegner und Events freizuschalten."
+
 L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331783}, um {npc:170301} zu beschwören."
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, zum aktivieren." --review
@@ -317,3 +300,6 @@ Töte die anderen drei Herolde der Trauer, der Pein und des Verlusts um ihre dre
 
 Kombiniere alle drei Gravuren, um den {item:182329} herzustellen, welcher am Altar der Herrschaft verwendet werden kann, um den seltenen Gegner zu beschwören. Verwende das {npc:173892}, um in die obere Etage zu gelangen.
 ]]
+
+L["soul_well_note"] = "Fange den Stygia ausbruch aus dem Seelenbrunnen." --review Blizzard translation
+L["obliterated_soul_shards_note"] = "Sammel Ausgelöschte Seelensplitter auf den Brücken." --review Blizzard translation
