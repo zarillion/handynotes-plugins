@@ -85,7 +85,7 @@ map.intro = MawIntro({
         {60234, 61515, 61496, 60287, 61391, 61355, 60289, 60134}, -- Venthyr
         {60233, 61508, 61496, 60287, 61391, 61355, 60289, 60134}, -- Night Fae
         {60130, 61513, 61496, 60287, 61391, 61355, 60289, 60134}  -- Necrolord
-    })[C_Covenants.GetActiveCovenantID() or 1]})}
+    })[math.max(C_Covenants.GetActiveCovenantID(), 1)]})}
 })
 
 nodes[80306280] = map.intro
