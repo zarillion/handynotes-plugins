@@ -283,14 +283,12 @@ end)
 -------------------------------- TIMED EVENT --------------------------------
 -------------------------------------------------------------------------------
 
-local TimedEvent = Class('TimedEvent', Quest, {scale=2, note=''})
-
-TimedEvent.group = "assaultevents"
-
-function TimedEvent.getters:icon ()
-    -- Override icon getter to be a simple yellow peg
-    return 'peg_yellow'
-end
+local TimedEvent = Class('TimedEvent', Quest, {
+    icon="peg_yellow",
+    scale=2,
+    group="assaultevents",
+    note=''
+})
 
 function TimedEvent:enabled (map, coord, minimap)
     -- Timed events that are not active today return nil here

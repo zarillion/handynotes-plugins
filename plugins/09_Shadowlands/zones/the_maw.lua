@@ -114,7 +114,7 @@ nodes[19324172] = Rare({
 
 nodes[39014119] = Rare({
     id=157833,
-    quest=nil,
+    quest=57469,
     rewards={
         Achievement({id=14744, criteria=49843}),
     }
@@ -450,34 +450,16 @@ nodes[40705959] = BonusBoss({
 ---------------------------- BONUS OBJECTIVE EVENTS ---------------------------
 -------------------------------------------------------------------------------
 
--- 21573436 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
--- 32401771 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
--- 30394255 - 59007 - Soul Well - Catch the Stygia erupting from the Soul Well (30)
+local BonusEvent = Class('BonusEvent', ns.node.Quest, {
+    icon='peg_yellow',
+    scale=1.8,
+    note=''
+})
 
--- 27846503 - 59784 - Obliterated Soul Shards - Collect Obliterated Soul Shards on the bridges.
-
--------------------------------------------------------------------------------
-
--- HACK: in development, hide all the obnoxious tomb-stone vignettes so we can
--- get some work done ...
-
--- hooksecurefunc(ns.addon, 'OnInitialize', function ()
---     local _UpdatePosition = VignettePinMixin.UpdatePosition
---     VignettePinMixin.UpdatePosition = function (self, bestUniqueVignette)
---         if not self:GetMap() then return end
---         _UpdatePosition(self, bestUniqueVignette)
---     end
---     hooksecurefunc(WorldMapFrame, 'OnMapChanged', function ()
---         local template = WorldMapFrame.pinPools.VignettePinTemplate
---         if template then
---             for pin in template:EnumerateActive() do
---                 if pin.vignetteInfo.vignetteID == 4553 then
---                     template:Release(pin)
---                 end
---             end
---         end
---     end)
--- end)
+nodes[21573436] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
+nodes[30394255] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
+nodes[32401771] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
+nodes[27446463] = BonusEvent({ quest=59784, note=L["obliterated_soul_shards_note"] })
 
 -------------------------------------------------------------------------------
 

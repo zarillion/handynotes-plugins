@@ -296,3 +296,6 @@ Kill the other three Heralds of Grief, Pain and Loss to collect their etchings.
 
 Combine all three etchings to create the {item:182329}, which can be used to summon the rare at the Altar of Domination. Use the {npc:173892} to reach the upper level.
 ]]
+
+L["soul_well_note"] = "Catch the Stygia erupting from the Soul Well."
+L["obliterated_soul_shards_note"] = "Collect Obliterated Soul Shards on the bridges."
