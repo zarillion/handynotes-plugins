@@ -320,16 +320,12 @@ nodes[43482524] = Rare({
     }
 }) -- Unstable Memory
 
-nodes[40705290] = Rare({
+nodes[40635306] = Rare({
     id=167078,
-    quest=nil,
-    note=L["activation_unknown"],
+    quest={60314,62197},
     rewards={
         Achievement({id=14307, criteria=48829}),
         Item({item=182749}) -- Regurgitated Kyrian Wings
-    },
-    pois={
-        POI({41635452})
     }
 }) -- Wingflayer the Cruel
 
