@@ -64,6 +64,8 @@ L["unobtainable"] = "Unobtainable"
 L["unlearnable"] = "Unlearnable"
 L["A"] = "A" -- available/alive
 L["D"] = "D" -- dead/defeated
+L["defeated"] = "Defeated"
+L["undefeated"] = "Undefeated"
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

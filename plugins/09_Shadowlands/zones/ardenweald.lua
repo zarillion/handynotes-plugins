@@ -207,7 +207,8 @@ nodes[50092091] = Rare({
 --     id=168135,
 --     quest=nil,
 --     rewards={
---         Achievement({id=14309, criteria=48793})
+--         Achievement({id=14309, criteria=48793}),
+--         Mount({item=180728, id=1306}) -- Swift Gloomhoof
 --     }
 -- }) -- Night Mare
 
@@ -336,7 +337,8 @@ nodes[56002101] = Treasure({
 -- nodes[] = Treasure({
 --     quest=nil,
 --     rewards={
---         Achievement({id=14313, criteria=50039})
+--         Achievement({id=14313, criteria=50039}),
+--         Mount({item=180731, id=1397}) -- Wildseed Cradle
 --     }
 -- }) -- Cache of the Moon
 

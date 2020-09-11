@@ -83,9 +83,9 @@ function Achievement:render (tooltip)
 
         if c.quest then
             if C_QuestLog.IsQuestFlaggedCompleted(c.quest) then
-                status = ns.status.Green(L['D'])
+                status = ns.status.Green(L['defeated'])
             else
-                status = ns.status.Red(L['A'])
+                status = ns.status.Red(L['undefeated'])
             end
             note = note and (note..'  '..status) or status
         end
@@ -157,7 +157,13 @@ end
 function Mount:render (tooltip)
     local collected = select(11, C_MountJournal.GetMountInfoByID(self.id))
     local status = collected and Green(L["known"]) or Red(L["missing"])
-    tooltip:AddDoubleLine(self.itemLink..' ('..L["mount"]..')', status)
+    local text = self.itemLink..' ('..L["mount"]..')'
+
+    if self.note then
+        text = text..' ('..self.note..')'
+    end
+
+    tooltip:AddDoubleLine(text, status)
     tooltip:AddTexture(self.itemIcon, {margin={right=2}})
 end
 

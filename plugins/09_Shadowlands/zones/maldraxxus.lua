@@ -177,7 +177,8 @@ nodes[66023532] = Rare({
     id=162690,
     quest=58851,
     rewards={
-        Achievement({id=14308, criteria=49723})
+        Achievement({id=14308, criteria=49723}),
+        Mount({item=182084, id=1373}) -- Gorespine
     }
 }) -- Nerissa Heartless
 
@@ -212,7 +213,8 @@ nodes[50354728] = Rare({
     quest=nil,
     note=L["activation_unknown"],
     rewards={
-        Achievement({id=14308, criteria=48874})
+        Achievement({id=14308, criteria=48874}),
+        Mount({item=182083, id=1374}) -- Bonecleaver's Skullboar
     }
 }) -- Sabreil the Bonecleaver
 
@@ -275,7 +277,8 @@ nodes[33538086] = Rare({
     quest=nil,
     note=L["malkorak_note"],
     rewards={
-        Achievement({id=14308, criteria=48875})
+        Achievement({id=14308, criteria=48875}),
+        Mount({item=182085, id=1372}) -- Umbral Bloodtusk
     }
 }) -- Warbringer Mal'Korak
 
@@ -308,7 +311,8 @@ nodes[58197421] = Rare({
             {id=48861, quest=61720, note='('..MEPHITIC_GOO..' = '..VISCOUS_OIL..') > '..MISCIBLE_OOZE}, -- Violet Mistake
             {id=48859, quest=61724, note=MISCIBLE_OOZE..' = '..MEPHITIC_GOO..' = '..VISCOUS_OIL}, -- Oily Invertebrate
         }}),
-        Pet({item=181270, id=2960}) -- Decaying Oozewalker
+        Mount({item=182079, id=1410, note=L["Violet"]}), -- Slime-Covered Reins of the Hulking Deathroc
+        Pet({item=181270, id=2960, note=L["Oily"]}) -- Decaying Oozewalker
     }
 })
 

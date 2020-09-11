@@ -300,7 +300,8 @@ nodes[61409050] = Rare({
     quest=nil,
     note=L["sundancer_note"],
     rewards={
-        Achievement({id=14307, criteria=48832})
+        Achievement({id=14307, criteria=48832}),
+        Mount({item=180773, id=1307}) -- Sundancer
     },
     pois={
         Path({
@@ -385,7 +386,8 @@ nodes[53498880] = Treasure({
     label=L["cache_of_the_ascended"],
     note=L["cache_of_the_ascended_note"],
     rewards={
-        Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817}})
+        Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817}}),
+        Mount({item=183741, id=1426}) -- Ascended Skymane
     },
     pois={
         POI({
@@ -544,7 +546,7 @@ nodes[36012652] = Treasure({
     note=L["vesper_of_silver_wind"],
     rewards={
         Achievement({id=14311, criteria=50057}),
-        Mount({item=180772, id=1404}) -- Bastion - Larion - Silver
+        Mount({item=180772, id=1404}) -- Silverwind Larion
     }
 }) -- Vesper of the Silver Wind
 -- 61229 (mallet forged)
