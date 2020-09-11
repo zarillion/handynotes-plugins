@@ -198,6 +198,13 @@ L["stolen_jar_note"] = "En una cueva debajo de la seta gigante."
 L["strange_growth_note"] = "Estira de {npc:165037} para revelar el tesoro."
 L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar que vat of slime sea cuba de baba
 
+L["giant_cache_of_epic_treasure"] = "Cofre Gigante de Tesoro Épico"--Revisar que Giant Cache of Epic Treasure sea Cofre Gigante de Tesoro Épico
+L["spinebug_note"] = [[
+¡Oh mira! ¡Un {spell:343124}! Acércate valiente aventurero, esto seguramente no es un engaño. Espera, ¿esa no es la música de Karazhan? ¿Qué hace aquí {npc:174663}...?
+
+¡{spell:343163}!
+]]--Revisar Approach it brave adventurer, this is surely not a ruse. Wait, is that the music from Karazhan? What is this {npc:174663} doing here ...? sea Acércate valiente aventurero, esto seguramente no es un engaño. Espera, ¿esa no es la música de Karazhan? ¿Qué hace aquí {npc:174663}...?
+
 L["oonar_sorrowbane_note"] = [[
 En el Teatro del Dolor, podrás encontrar {item:180273} clavada en el suelo y el Brazo de Oonar al lado. |cFFFF8C00Antes de intentar tirar de ninguno, pon tu {item:6948} en {npc:161702} por el punto de vuelo.|r
 
