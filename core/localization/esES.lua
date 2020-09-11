@@ -1,6 +1,4 @@
---[[
-	Spanish Localization by (EU) Krovikan-Minahonda
---]]
+--Spanish Localization by (EU) Krovikan-Minahonda
 
 local ADDON_NAME, _ = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "esES", false, true)
@@ -68,6 +66,8 @@ L["unobtainable"] = "No se puede obtener"
 L["unlearnable"] = "No se puede aprender"
 L["A"] = "V" -- available/alive
 L["D"] = "M" -- defeated/dead
+L["defeated"] = "Derrotado"
+L["undefeated"] = "Sin derrotar"
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
