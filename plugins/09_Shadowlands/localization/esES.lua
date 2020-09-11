@@ -264,6 +264,7 @@ L["bleakwood_chest"] = "Cofre de Maderasombría"--Revisar que Bleakwood Chest se
 L["chest_of_envious_dreams"] = "Cofre de Sueños Envidiosos"--Revisar que Chest of Envious Dreams sea Cofre de Sueños Envidiosos
 L["filchers_prize"] = "Premio de Filcher"--Revisar que Filcher's Prize sea Premio de Filcher
 L["fleeing_soul_bundle"] = "Fardo del Alma Huidiza"--Revisar que Fleeing Soul's Bundle sea Fardo del Alma Huidiza
+L["forgotten_anglers_rod"] = "Caña de Pescador Olvidada"--Revisar que Forgotten Angler's Rod sea Caña de Pescador Olvidada
 L["gilded_plum_chest"] = "Cofre de Ciruela Dorada"--Revisar que Gilded Plum Chest sea Cofre de Ciruela Dorada
 L["gilded_plum_chest_note"] = "Mata a {npc:166680} que deambula camino arriba y abajo."
 L["remlates_cache"] = "Cofre Escondido de Remlate"--Revisar que Remlate's Hidden Cache sea Cofre Escondido de Remlate
