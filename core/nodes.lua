@@ -129,13 +129,13 @@ function Node:render(tooltip)
         rlabel = rlabel..' '..color(tostring(count)..'/'..#self.quest)
     end
 
-    if not rlabel and self.pois then
+    if rlabel == '' and self.pois then
         -- add an rlabel hint to use left-mouse to focus the node
         rlabel = ns.icons.left_mouse:link(12)..ns.status.Gray(L["focus"])
     end
 
     -- render top-right label text
-    if rlabel then
+    if #rlabel > 0 then
         local rtext = _G[tooltip:GetName()..'TextRight1']
         rtext:SetTextColor(1, 1, 1)
         rtext:SetText(rlabel)
