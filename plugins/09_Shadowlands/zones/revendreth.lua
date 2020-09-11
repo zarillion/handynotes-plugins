@@ -278,7 +278,8 @@ nodes[33605540] = Rare({
     id=160857,
     quest=nil,
     rewards={
-        Achievement({id=14310, criteria=48806})
+        Achievement({id=14310, criteria=48806}),
+        Toy({item=180873}) -- Smolderheart
     }
 }) -- Sire Ladinas
 
@@ -402,7 +403,8 @@ nodes[63367398] = Treasure({
     quest=62199,
     note=L["taskmaster_trove_note"],
     rewards={
-        Achievement({id=14314, criteria=50082})
+        Achievement({id=14314, criteria=50082}),
+        Toy({item=183986}) -- Bondable Sinstone
     }
 }) -- Taskmaster's Trove
 
@@ -466,6 +468,14 @@ nodes[46395817] = Treasure({
     quest=59886,
     label=L["fleeing_soul_bundle"],
 }) -- Fleeing Soul's Bundle
+
+nodes[73597539] = Treasure({
+    quest=62196,
+    label=L["forgotten_anglers_rod"],
+    rewards={
+        Toy({item=180993}) -- Bat Visage Bobber
+    }
+}) -- Forgotten Angler's Rod
 
 nodes[75465542] = Treasure({
     quest=59887,
