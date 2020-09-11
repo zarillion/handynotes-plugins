@@ -142,7 +142,8 @@ nodes[54067601] = Rare({
     id=163370,
     quest=59006,
     rewards={
-        Achievement({id=14309, criteria=48795})
+        Achievement({id=14309, criteria=48795}),
+        Pet({item=183196, id=3035}) -- Lavender Nibbler
     }
 }) -- Gormbore
 
@@ -180,7 +181,8 @@ nodes[67465147] = Rare({
 --     id=164093,
 --     quest=nil,
 --     rewards={
---         Achievement({id=14309, criteria=48780})
+--         Achievement({id=14309, criteria=48780}),
+--         Pet({item=180644, id=2907}) -- Rocky
 --     }
 -- }) -- Macabre
 
@@ -342,7 +344,8 @@ nodes[36236527] = Treasure({
     quest=nil,
     note=L["activation_unknown"],
     rewards={
-        Achievement({id=14313, criteria=50044})
+        Achievement({id=14313, criteria=50044}),
+        Pet({item=180637, id=2914}) -- Starry Dreamfoal
     }
 }) -- Cache of the Night
 
@@ -481,7 +484,7 @@ nodes[52943729] = Treasure({
     quest=61065,
     rewards={
         Achievement({id=14313, criteria=50033}),
-        Pet({item=180642, id=2909})
+        Pet({item=180642, id=2909}) -- Downfeather Ragewing
     }
 }) -- Veilwing Egg (Ancient Cloudfeather Egg)
 

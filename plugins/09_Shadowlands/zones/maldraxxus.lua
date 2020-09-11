@@ -202,7 +202,8 @@ nodes[53841877] = Rare({
     id=159753,
     quest=58004,
     rewards={
-        Achievement({id=14308, criteria=48865})
+        Achievement({id=14308, criteria=48865}),
+        Pet({item=181283, id=2964}) -- Foulwing Hatchling
     }
 }) -- Ravenomous
 
@@ -219,7 +220,8 @@ nodes[62107580] = Rare({
     id=158406,
     quest=58006,
     rewards={
-        Achievement({id=14308, criteria=48857})
+        Achievement({id=14308, criteria=48857}),
+        Pet({item=181267, id=2957}) -- Writhing Spine
     }
 }) -- Scunner
 
@@ -228,7 +230,8 @@ nodes[55502361] = Rare({
     quest=58003,
     note=L["chelicerae_note"],
     rewards={
-        Achievement({id=14308, criteria=48873})
+        Achievement({id=14308, criteria=48873}),
+        Pet({item=181172, id=2948}) -- Boneweave Hatchling
     }
 }) -- Sister Chelicerae
 
@@ -237,6 +240,8 @@ nodes[42465345] = Rare({
     quest=58768,
     rewards={
         Achievement({id=14308, criteria=48869}),
+        Pet({item=181266, id=2956}), -- Bloodlouse Hatchling
+        Pet({item=181265, id=2955}) -- Corpselouse Hatchling
     }
 }) -- Smorgas the Feaster
 
@@ -335,6 +340,15 @@ nodes[22503030] = Treasure({
     }
 }) -- Forgotten Mementos
 
+nodes[41511953] = Treasure({
+    quest=62602,
+    label=L["giant_cache_of_epic_treasure"],
+    note=L["spinebug_note"],
+    rewards={
+        Pet({id=3047}) -- Spinebug
+    }
+}) -- Giant Cache of Epic Treasure
+
 nodes[72895365] = Treasure({
     quest=61484,
     note=L["glutharns_note"],
@@ -371,7 +385,7 @@ nodes[62505990] = Treasure({
     }
 }) -- Misplaced Supplies
 
-nodes[42432315] = Treasure({
+nodes[42382333] = Treasure({
     quest=61470,
     note=L["necro_tome_note"],
     rewards={

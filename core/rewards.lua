@@ -169,6 +169,16 @@ end
 
 local Pet = Class('Pet', Item)
 
+function Pet:init ()
+    if self.item then
+        Item.init(self)
+    else
+        local name, icon = C_PetJournal.GetPetInfoBySpeciesID(self.id)
+        self.itemIcon = icon
+        self.itemLink = '|cff1eff00['..name..']|r'
+    end
+end
+
 function Pet:obtained ()
     return C_PetJournal.GetNumCollectedInfo(self.id) > 0
 end

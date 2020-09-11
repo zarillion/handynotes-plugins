@@ -196,6 +196,13 @@ L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
 L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
 
+L["giant_cache_of_epic_treasure"] = "Giant Cache of Epic Treasure"
+L["spinebug_note"] = [[
+Oh look! A {spell:343124}! Approach it brave adventurer, this is surely not a ruse. Wait, is that the music from Karazhan? What is this {npc:174663} doing here ...?
+
+{spell:343163}!
+]]
+
 L["oonar_sorrowbane_note"] = [[
 In the Theater of Pain, you will find Sorrowbane stuck in the ground and Oonar's Arm attached to it. |cFFFF8C00Before attempting to pull either, set your {item:6948} to {npc:161702} by the flight point.|r
 

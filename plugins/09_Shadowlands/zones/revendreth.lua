@@ -316,7 +316,7 @@ nodes[43007910] = Rare({
     note=L["tomb_burster_note"],
     rewards={
         Achievement({id=14310, criteria=48802}),
-        Item({item=179613}) -- Extra Sticky Spidey Webs
+        Pet({item=180584, id=2891}) -- Rose Spiderling
     }
 }) -- Tomb Burster
 
@@ -339,6 +339,7 @@ nodes[38607200] = Rare({
 -- Day 3: Vineroot Will Not Do 61842
 -- Day 4: Hungry Hungry Gorger 61844
 -- Day 5: Standing Toe to Toe 62044
+-- Day 6: Ready for More 62045
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -439,6 +440,7 @@ nodes[51855954] = Treasure({
 --     quest=60665,
 --     label=L["bleakwood_chest"],
 --     rewards={
+--         Pet({item=180592, id=2901}), -- Trapped Stonefiend
 --         Transmog({item=182720, slot=L["mail"]}), -- Mail Courier's Tunic
 --         Transmog({item=180398, slot=L["polearm"]}) -- Stonewrought Legion Halberd
 --     }
