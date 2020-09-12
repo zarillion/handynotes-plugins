@@ -275,9 +275,10 @@ nodes[67443048] = Rare({
     }
 }) -- Sinstone Hoarder
 
-nodes[33605540] = Rare({
+nodes[34045555] = Rare({
     id=160857,
-    quest=nil,
+    quest=58263,
+    note=L["sire_ladinas_note"],
     rewards={
         Achievement({id=14310, criteria=48806}),
         Toy({item=180873}) -- Smolderheart
