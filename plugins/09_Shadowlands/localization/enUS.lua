@@ -25,6 +25,14 @@ L["skuld_vit_note"] = "In a cave blocked by a barrier. A Night Fae must use {spe
 L["valfir_note"] = "Click the Sparkling Animaseed midway down the path and use {spell:338045} to remove his {spell:338038} buff."
 L["wrigglemortis_note"] = "Pull the {npc:164179} to spawn the rare."
 
+L["night_mare_note"] = [[
+Travel to Tirna Scithe and follow the root path on the northwest cliff to a broken cart. There you can loot a {item:181243} on the ground.
+
+Take this item to {npc:165704} at Glitterfall Basin. She will give you a {item:181242} in exchange for 10 {item:173204}. |cFFFF8C00If she is not there, you must complete the |cFFFFFD00Trouble at the Gormling Corral|r and |cFFFFFD00Tricky Spriggans|r quest lines.|r
+
+Next, talk to {npc:160262} in the Heart of the Forest to exchange the {item:181242} for a {item:178675}. Use this item to get {spell:327083} buff, allowing you to see the {npc:168135}.
+]]
+
 L["star_lake"] = "Star Lake Amphitheater"
 L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one of the special encounters."
 
@@ -38,6 +46,16 @@ L["harmonic_chest"] = "Requires two people. One person plays the harp and the ot
 L["hearty_dragon_plume"] = "Click {spell:333554} at the top of the nearby waterfalls and use it to float down onto the branch."
 L["old_ardeite_note"] = "Kill {npc:160747} and {npc:160748} in Shimmerbough to the southeast for {item:174042}. Use this item to fly up near the rare and tag it."
 L["swollen_anima_seed"] = "A large seed sitting inside a tree trunk."
+
+L["playful_vulpin_note"] = [[
+Find and use the correct emote on the {npc:171206} five times to obtain the pet.
+
+• begins to dig curiously = |cFFFF8C00/curious|r
+• wanders around unable to sit still = |cFFFF8C00/sit|r
+• sings all alone = |cFFFF8C00/sing|r
+• dances with joy = |cFFFF8C00/dance|r
+• sits down lonely and sad = |cFFFF8C00/pet|r
+]]
 
 L["tame_gladerunner"] = "Tame Gladerunner"
 L["tame_gladerunner_note"] = [[
@@ -165,10 +183,12 @@ L["options_toggle_anima_shards_desc"] = "Display the locations of all 50 lost an
 
 L["chelicerae_note"] = "Destroy the {npc:159885} to activate the rare."
 L["deepscar_note"] = "Can appear in multiple entrances to the Theater of Pain."
+L["forgotten_mementos"] = "Pull the Vault Portcullis Chain in the chamber west of the treasure to open the gate."
 L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
 L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
 L["malkorak_note"] = "At the top of the tower (lots of stairs)."
 L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
+L["taskmaster_xox_note"] = "Shares a spawn with {npc:160204}, {npc:160230} and {npc:160226}."
 
 L["mixed_pool_note"] = [[
 Gather ingredients from the surrounding mobs and toss them into the pool. Once 30 ingredients have been added, one of seven rares will spawn depending on the combination used.
@@ -285,7 +305,11 @@ L["options_toggle_carriages_desc"] = "Display locations and paths of rideable ca
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["maw_intro_note"] = "Complete the introductory quest chain to unlock rares and events in the Maw."
+L["maw_intro_note"] = [[
+Complete the introductory quest chain to unlock rares and events in the Maw.
+
+Until you return {npc:170651} to Oribos, you will be phased from most other players.
+]]
 
 L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."

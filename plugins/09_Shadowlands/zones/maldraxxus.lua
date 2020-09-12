@@ -256,13 +256,14 @@ nodes[44215132] = Rare({
     }
 }) -- Tahonta
 
--- nodes[] = Rare({
---     id=160059,
---     quest=nil,
---     rewards={
---         Achievement({id=14308, criteria=48867})
---     }
--- }) -- Taskmaster Xox
+nodes[50562011] = Rare({
+    id=160059,
+    quest=58091,
+    note=L["taskmaster_xox_note"],
+    rewards={
+        Achievement({id=14308, criteria=48867})
+    }
+}) -- Taskmaster Xox
 
 -- nodes[] = Rare({
 --     id=162180,
@@ -336,13 +337,6 @@ nodes[49441509] = Treasure({
         Item({item=183696}) -- Sp-eye-glass
     }
 }) -- Chest of Eyes
-
-nodes[22503030] = Treasure({
-    quest=nil,
-    rewards={
-        Achievement({id=14312, criteria=50069})
-    }
-}) -- Forgotten Mementos
 
 nodes[41511953] = Treasure({
     quest=62602,
@@ -486,6 +480,35 @@ nodes[51444848] = Treasure({
         POI({50945317, 37114699, 53634792, 76445672, scale=0.75})
     }
 }) -- Oonar's Arm and Sorrowbane /Oornas Arm und Kummerfluch
+
+-------------------------------------------------------------------------------
+
+local etheric_vault = Map({id=1649})
+
+function etheric_vault:enabled (node, coord, minimap)
+    if not Map.enabled(self, node, coord, minimap) then return false end
+    ns.processCovenant(node)
+    local profile = ns.addon.db.profile
+    if isinstance(node, Treasure) then return profile.treasure_maldraxxus end
+    return true
+end
+
+local forgotten_treasure = Treasure({
+    quest=58710,
+    note=L["forgotten_mementos"],
+    rewards={
+        Achievement({id=14312, criteria=50069})
+    }
+}) -- Forgotten Mementos
+
+nodes[22503030] = forgotten_treasure
+etheric_vault.nodes[34565549] = ns.clone(forgotten_treasure, {
+    pois={
+        POI({25815353}) -- Vault Portcullis Chain
+    }
+})
+
+ns.maps[etheric_vault.id] = etheric_vault
 
 -------------------------------------------------------------------------------
 ------------------------------- NINE AFTERLIVES -------------------------------

@@ -40,5 +40,10 @@ ns.processCovenant = function (node)
 
     -- Add covenant sigil to top-right corner of tooltip
     node.rlabel = node.covenant.icon:link(13)
-    node.sublabel = ns.color.Orange(string.format(L["covenant_required"], data.name))
+
+    if not node._covenantProcessed then
+        local subl = ns.color.Orange(string.format(L["covenant_required"], data.name))
+        node.sublabel = node.sublabel and subl..'\n'..node.sublabel or subl
+        node._covenantProcessed = true
+    end
 end

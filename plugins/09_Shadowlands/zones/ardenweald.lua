@@ -85,6 +85,7 @@ options.treasureArdenweald = {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+-- Mysterious Mushroom Ring (36474814)
 -- Mysterious Mushroom Ring (47924018)
 
 nodes[34606800] = Rare({
@@ -203,14 +204,25 @@ nodes[50092091] = Rare({
     }
 }) -- Mystic Rainbowhorn
 
--- nodes[] = Rare({
---     id=168135,
---     quest=nil,
---     rewards={
---         Achievement({id=14309, criteria=48793}),
---         Mount({item=180728, id=1306}) -- Swift Gloomhoof
---     }
--- }) -- Night Mare
+nodes[57874983] = Rare({
+    id=168135,
+    quest=60306,
+    covenant=NIGHTFAE,
+    requires='{item:178675}',
+    note=L["night_mare_note"],
+    rewards={
+        Achievement({id=14309, criteria=48793}),
+        Mount({item=180728, id=1306}) -- Swift Gloomhoof
+    },
+    pois={
+        Path({
+            59175611, 59905695, 60875610, 62155544, 62445355, 62145199,
+            62075045, 61664920, 60634907, 59524941, 58534879, 57874983
+        }), -- Night Mare
+        Path({18356218, 17576184, 17756284, 18916346, 19776344}), -- Broken Soulweb
+        POI({50413303}) -- Elder Gwenna
+    }
+}) -- Night Mare
 
 nodes[51105740] = Rare({
     id=164391,
@@ -449,11 +461,20 @@ nodes[48282031] = Treasure({
     }
 }) -- Lost Satchel
 
-nodes[31764105] = Treasure({
-    quest=nil,
+nodes[31764100] = Treasure({
+    quest={61080, 61081, 61084, 61085, 61086},
+    questCount=true,
+    note=L["playful_vulpin_note"],
     rewards={
         Achievement({id=14313, criteria=50038}),
         Pet({item=180645, id=2905}) -- Dodger
+    },
+    pois={
+        POI({
+            31764100, 31854363, 32604292, 34104500, 40082870, 40722741,
+            40945156, 41312874, 41374979, 50215353, 51165507, 65222265,
+            67162888, 67553191, 70143004, 72393146
+        }) -- Possible spawns
     }
 }) -- Playful Vulpin Befriended (171206)
 

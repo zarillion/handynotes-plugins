@@ -129,9 +129,10 @@ function Node:render(tooltip)
         rlabel = rlabel..' '..color(tostring(count)..'/'..#self.quest)
     end
 
-    if rlabel == '' and self.pois then
+    if self.pois then
         -- add an rlabel hint to use left-mouse to focus the node
-        rlabel = ns.icons.left_mouse:link(12)..ns.status.Gray(L["focus"])
+        local focus = ns.icons.left_mouse:link(12)..ns.status.Gray(L["focus"])
+        rlabel = (#rlabel > 0) and focus..' '..rlabel or focus
     end
 
     -- render top-right label text
