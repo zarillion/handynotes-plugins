@@ -36,6 +36,7 @@ Next, talk to {npc:160262} in the Heart of the Forest to exchange the {item:1812
 L["star_lake"] = "Star Lake Amphitheater"
 L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one of the special encounters."
 
+L["cache_of_the_moon"] = "Collect {npc:171360}'s five missing tools in the Garden of Night and combine them to create {item:180753}. Return her toolkit and she will cast {spell:334353} on you, allowing you to see the cache."
 L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["desiccated_moth"] = "Jump on the {npc:169997} northwest of the tree to float onto a branch. Burn {item:180784} in the Incense Burner to collect the treasure."
 L["dreamsong_heart"] = "Use the {npc:169997} beneath the tree to get launched into the tree."
@@ -256,6 +257,7 @@ L["options_toggle_kittens_desc"] = "Display locations of kittens for the Nine Af
 
 L["amalgamation_of_filth_note"] = "When the world quest \"Dirty Job: Demolition Detail\" is available click on a Rubbish Box and use {spell:324115} into the water."
 L["amalgamation_of_light_note"] = "Move all three mirror traps to release the rare."
+L["amalgamation_of_sin_note"] = "Obtain {item:180376} from the \"Summon Your Sins\" world quest and use it to summon the rare."
 L["bog_beast_note"] = "Has a chance to spawn during the world quest \"Muck It Up\" after using {item:177880} on a {npc:166206}."
 L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."
 L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."

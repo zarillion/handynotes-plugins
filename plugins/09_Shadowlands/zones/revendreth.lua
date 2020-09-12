@@ -95,13 +95,14 @@ nodes[25304850] = Rare({
     }
 }) -- Amalgamation of Light
 
--- nodes[] = Rare({
---     id=170434,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=50029})
---     }
--- }) -- Amalgamation of Sin
+nodes[65902940] = Rare({
+    id=170434,
+    quest=nil,
+    note=L["amalgamation_of_sin_note"],
+    rewards={
+        Achievement({id=14310, criteria=50029})
+    }
+}) -- Amalgamation of Sin
 
 nodes[35817052] = Rare({
     id=166576,

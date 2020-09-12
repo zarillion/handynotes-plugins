@@ -85,9 +85,6 @@ options.treasureArdenweald = {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- Mysterious Mushroom Ring (36474814)
--- Mysterious Mushroom Ring (47924018)
-
 nodes[34606800] = Rare({
     id=164477,
     quest=59226,
@@ -177,6 +174,9 @@ nodes[67465147] = Rare({
         Quest({id=62246}) -- A Fallen Friend
     }
 }) -- Hunter Vivian
+
+-- Mysterious Mushroom Ring (36474814)
+-- Mysterious Mushroom Ring (47924018)
 
 -- nodes[] = Rare({
 --     id=164093,
@@ -346,13 +346,23 @@ nodes[56002101] = Treasure({
     }
 }) -- Aerto's Body
 
--- nodes[] = Treasure({
---     quest=nil,
---     rewards={
---         Achievement({id=14313, criteria=50039}),
---         Mount({item=180731, id=1397}) -- Wildseed Cradle
---     }
--- }) -- Cache of the Moon
+nodes[63893778] = Treasure({
+    quest=61074,
+    note=L["cache_of_the_moon"],
+    rewards={
+        Achievement({id=14313, criteria=50039}),
+        Mount({item=180731, id=1397}) -- Wildseed Cradle
+    },
+    pois={
+        POI({
+            38995696, -- Diary of the Night
+            39755440, -- Gardener's Hammer
+            40315262, -- Gardener's Basket
+            38495808, -- Gardener's Flute
+            38856010, -- Gardener's Wand
+        })
+    }
+}) -- Cache of the Moon
 
 nodes[36236527] = Treasure({
     quest=nil,
