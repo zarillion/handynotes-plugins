@@ -520,7 +520,3 @@ nodes[52943729] = Treasure({
         Pet({item=180642, id=2909}) -- Downfeather Ragewing
     }
 }) -- Veilwing Egg (Ancient Cloudfeather Egg)
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map

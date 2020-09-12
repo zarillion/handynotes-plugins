@@ -566,8 +566,3 @@ nodes[28553494] = PetBattle({id=162470}) -- Baruk Stone Defender
 nodes[56172822] = PetBattle({id=162468}) -- K'tiny the Mad
 nodes[57465427] = PetBattle({id=162469}) -- Tormentius
 nodes[07333190] = PetBattle({id=162471}) -- Vil'thik Hatchling
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map
-ns.maps[pmap.id] = pmap

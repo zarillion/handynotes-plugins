@@ -12,11 +12,16 @@ local Class = ns.Class
 local Map = Class('Map')
 
 Map.id = 0
+Map.name = nil
 Map.intro = nil
 Map.phased = true
 
 function Map:init ()
     self.nodes = {}
+
+    -- auto-register this map
+    if ns.maps[self.id] then error('Map already registered: '..self.id) end
+    ns.maps[self.id] = self
 end
 
 function Map:prepare ()

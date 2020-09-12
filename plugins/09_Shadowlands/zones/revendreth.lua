@@ -661,5 +661,3 @@ function map:enabled (node, coord, minimap)
     if isinstance(node, Carriage) then return profile.carriage_revendreth end
     return true
 end
-
-ns.maps[map.id] = map

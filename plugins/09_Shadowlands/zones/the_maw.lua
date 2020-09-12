@@ -475,5 +475,3 @@ function map:enabled (node, coord, minimap)
     if isinstance(node, Rare) then return profile.rare_maw end
     return true
 end
-
-ns.maps[map.id] = map

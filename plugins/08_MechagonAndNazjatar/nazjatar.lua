@@ -596,7 +596,3 @@ nodes[60683221] = Node({quest=55121, icon="portal_blue", scale=1.5, label=L["mar
 }})
 
 nodes[45993245] = Node({icon="diablo_murloc", label=L["murloco"], note=L["tentacle_taco"]})
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map

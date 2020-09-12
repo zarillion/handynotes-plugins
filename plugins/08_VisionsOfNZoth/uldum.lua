@@ -739,7 +739,3 @@ Gersahl.getters.rlabel = GetAlpacaStatus
 
 nodes[47004800] = Alpaca()
 nodes[58005169] = Gersahl()
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map

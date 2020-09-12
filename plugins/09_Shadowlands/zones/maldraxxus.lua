@@ -508,8 +508,6 @@ etheric_vault.nodes[34565549] = ns.clone(forgotten_treasure, {
     }
 })
 
-ns.maps[etheric_vault.id] = etheric_vault
-
 -------------------------------------------------------------------------------
 ------------------------------- NINE AFTERLIVES -------------------------------
 -------------------------------------------------------------------------------
@@ -564,7 +562,6 @@ local HAIRBALL = Kitten({id=174195, rewards={
 -- Add Hairball to the dungeon map
 local festering_sanctum = Map({ id=1697 })
 festering_sanctum.nodes[45203680] = HAIRBALL
-ns.maps[festering_sanctum.id] = festering_sanctum
 
 -- Add Hairball to the world map
 nodes[68108620] = HAIRBALL
@@ -585,5 +582,3 @@ function map:enabled (node, coord, minimap)
     if isinstance(node, Kitten) then return profile.kitten_maldraxxus end
     return true
 end
-
-ns.maps[map.id] = map

@@ -482,7 +482,3 @@ nodes[69976201] = RegRig({icon="peg_blue", scale=2, label=L["rec_rig"], rewards=
     Pet({id=2721, item=169396}), -- Echoing Oozeling
     Pet({id=2756, item=169879}) -- Irradiated Elementaling
 }, note=L["rec_rig_note"]}) -- Reclamation Rig ???=56079
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map

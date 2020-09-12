@@ -115,7 +115,3 @@ nodes[76005440] = WELDING
 --nodes[66905350] = clone(SHOCK, {note=L["shock_bot_note"]..'\n'..L["cave_spawn"]})
 --nodes[65605560] = clone(WELDING, {note=L["welding_bot_note"]..'\n'..L["cave_spawn"]})
 --nodes[69005310] = clone(WELDING, {note=L["welding_bot_note"]..'\n'..L["cave_spawn"]})
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map

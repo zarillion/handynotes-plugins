@@ -687,10 +687,6 @@ gardens.enabled = dungeonEnabled
 font.enabled = dungeonEnabled
 wake.enabled = dungeonEnabled
 
-ns.maps[gardens.id] = gardens
-ns.maps[font.id] = font
-ns.maps[wake.id] = wake
-
 -------------------------------------------------------------------------------
 
 function map:enabled (node, coord, minimap)
@@ -707,5 +703,3 @@ function map:enabled (node, coord, minimap)
     if isinstance(node, AnimaShard) then return profile.anima_shard_bastion end
     return true
 end
-
-ns.maps[map.id] = map

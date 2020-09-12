@@ -346,8 +346,3 @@ stormwind.nodes[59106390] = Rare({id=158284, note=L["craggle"], pois={
 }, rewards={
     Toy({item=174926}) -- Overly Sensitive Void Spectacles
 }}) -- Craggle Wobbletop
-
--------------------------------------------------------------------------------
-
-ns.maps[orgrimmar.id] = orgrimmar
-ns.maps[stormwind.id] = stormwind

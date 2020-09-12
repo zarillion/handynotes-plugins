@@ -62,7 +62,3 @@ nodes[43006900] = NPC({id=162681, icon=2916283, alpaca=true, pois={
 }, rewards={
     Mount({id=1324, item=174860}) -- Elusive Quickhoof
 }, note=L["elusive_alpaca"]})
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map
