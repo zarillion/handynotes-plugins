@@ -27,9 +27,18 @@ L["skuld_vit_note"] = "En una cueva bloqueada por una barrera. Con el hechizo {s
 L["valfir_note"] = "Haz click en la Semilla de Ánima Brillante a mitad de camino y usa {spell:338045} para quitar el buff {spell:338038} de {npc=168647}."--Revisar que Sparkling Animaseed sea Semilla de Ánima Brillante
 L["wrigglemortis_note"] = "Estira el {npc:164179} para sacarlo de la tierra y hacer aparecer a {npc=164147}."
 
+L["night_mare_note"] = [[
+Viaja a Guadaña de Tirna y sigue el camino de la raíz, en el acantilado noroeste, hasta llegar a un carro roto. Allí podrás despojar una {item:181243} en el suelo.
+
+Lleva ese objeto a {npc:165704} a la Cuenca de la Caida Relumbrante. Te dará una {item:181242} a cambio de 10 {item:173204}. |cFFFF8C00Si no está aquí el NPC, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormling|r y |cFFFFFD00Spriggans Difíciles|r quest lines.|r
+
+Después, habla con {npc:160262} en el Corazón del Bosque para cambiarle la {item:181242} por un {item:178675}. Usa este objeto para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
+]]--Revisar que Tirna Scithe sea Guadaña de Tirna, que follow the root path sea sigue el camino de la raíz o sigue el camino de raices, que Glitterfall Basin sea Cuenca de la Caida Relumbrante, que Trouble at the Gormling Corral sea Problemas en el Corral de Gormling, que Tricky Spriggans sean Spriggans Difíciles, que Heart of the Forest sea Corazón del Bosque
+
 L["star_lake"] = "Anfiteatro del Lago Estrellado"--Revisar que Star Lake Amphitheater sea Anfiteatro del Lago Estrellado"
 L["star_lake_note"] = "Habla con {npc:171743}, el Director de Escena, el cual iniciará uno de los combates especiales."--Revisar que Stage Director sea Director de Escena
 
+L["cache_of_the_moon"] = "Recoge las cinco herramientas perdidas de {npc:171360} en el Jardín de la Noche y combínalas para crear el {item:180753}. Dáselo y ella te lanzará {spell:334353}, permitiéndote ver el cofre."--Revisar que Garden of Night sea Jardín de la Noche
 L["darkreach_supplies"] = "Salta en la {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro Alijo de la Noche." --Revisar que Cache of the Night treasure sea Alijo de la Noche
 L["desiccated_moth"] = "Salta sobre {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el Quemador de Incienso para conseguir el tesoro."--Revisar que Incense Burner sea Quemador de Incienso
 L["dreamsong_heart"] = "Salta sobre {npc:169997} lejos al noreste para ser lanzado dentro del árbol."
@@ -40,6 +49,16 @@ L["harmonic_chest"] = "Requiere dos personas. Uno toca el arpa y el otro toca el
 L["hearty_dragon_plume"] = "Haz click en la {spell:333554} en la cima de las cascadas cercanas y úsala para flotar abajo hasta la rama."
 L["old_ardeite_note"] = "Mata al {npc:160747} y al {npc:160748} en Shimmerbough hacia el sureste para conseguir {item:174042}. Usa este objeto para volar cerca de {npc:164391} y targetearlo."
 L["swollen_anima_seed"] = "Una gran semilla reposando dentro del tronco de un árbol."
+
+L["playful_vulpin_note"] = [[
+Encuentra y usa la emoción correcta en el {npc:171206} cinco veces para conseguir la mascota.
+
+• comienza a escarbar con curiosidad = |cFFFF8C00/curiosear|r
+• corretea alrededor incapaz de quedarse quieto = |cFFFF8C00/sentar|r
+• canta solo = |cFFFF8C00/cantar|r
+• baila de alegría = |cFFFF8C00/bailar|r
+• se sienta solo y triste = |cFFFF8C00/mascota|r
+]]--Revisar emociones de texto y comandos /xxxxx
 
 L["tame_gladerunner"] = "Asaltaclaros Domado"--Revisar que Tame Gladerunner sea Asaltaclaros Domado
 L["tame_gladerunner_note"] = [[
@@ -167,10 +186,12 @@ L["options_toggle_anima_shards_desc"] = "Muestra la localización de los 50 frag
 
 L["chelicerae_note"] = "Destruye la {npc:159885} para activar a {npc:159886}."
 L["deepscar_note"] = "Puede aparecer en varias entradas al Teatro del Dolor."
+L["forgotten_mementos"] = "Tira de la Cadena de Rastrillo de la Bóveda en la cámara al oeste del tesoro para abrir la puerta."--Revisar que Vault Portcullis Chain sea Cadena de Rastrillo de la Bóveda
 L["gieger_note"] = "Tira de {npc:162815} para activar a {npc:162741}."
 L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:162588}."
 L["malkorak_note"] = "En lo alto de la torre (montones de escaleras)."
 L["schmitd_note"] = "Usa el {spell:313451} cercano para romper su escudo."
+L["taskmaster_xox_note"] = "Comparte lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
 
 L["mixed_pool_note"] = [[
 Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando hayan sido añadidos 30 ingredientes, aparecerá uno de los siete raros dependiendo de la combinación usada.
@@ -238,6 +259,7 @@ L["options_toggle_kittens_desc"] = "Muestra las localizaciones de los gatitos pa
 
 L["amalgamation_of_filth_note"] = "Cuando esté disponible la misión diaria |cFFFFFD00[Trabajo Sucio: Detalles de Demolición]|r haz click en una Caja de Basura y usa {spell:324115} dentro del agua."--Revisar que Dirty Job: Demolition Detail sea Trabajo Sucio: Detalles de Demolición, que Rubbish Box sea Caja de Basura
 L["amalgamation_of_light_note"] = "Mueve las tres trampas de espejos para liberar a {npc:164388}."
+L["amalgamation_of_sin_note"] = "Consigue la {item:180376} de la misión del mundo \"Invoca tus Pecados\" y úsala para invocar a la {npc:170434}."--Revisar que Summon Your Sins sea Invoca tus Pecados
 L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo |cFFFFFD00[Muck It Up]|r después de usar {item:177880} en {npc:166206}."--Revisar que nombre tiene la WQ Muck It Up
 L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:165229} y usa {spell:321826} en la parte superior de la Grieta Brillante."--Revisar qué es Anima Stake y que Shimmering Rift sea Grieta Brillante
 L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar {spell:324872}."
@@ -287,7 +309,11 @@ L["options_toggle_carriages_desc"] = "Muestra las localizaciones posibles y cami
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["maw_intro_note"] = "Completa la cadena de misiones introductoria para desbloquear los raros y los eventos de Las Fauces."
+L["maw_intro_note"] = [[
+Completa la cadena de misiones introductoria para desbloquear los raros y los eventos de Las Fauces.
+
+Hasta que vuelvas con {npc:170651} en Oribos, estarás en fase y no podrás ver a la mayoría de los jugadores.
+]]
 
 L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331783} para invocar a {npc:170301}."
 L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:330650} para invocar a {npc:169827}."
