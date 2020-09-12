@@ -51,7 +51,7 @@ Wenn du den falschen Pfad nimmst und {npc:171699} verschwindet, wenn du das Ende
 -------------------------------------------------------------------------------
 
 L["aspirant_eolis_note"] = "Plündere {item:180613} in der Nähe und lese es ihm vor. Es erscheint eine Truhe."
-L["basilofos_note"] = "Beweg dich auf den Felsen herum, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint."
+L["basilofos_note"] = "Beweg dich auf den Felsen umher, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint."
 L["beasts_of_bastion"] = "Bestien der Bastion" --review Blizzard translation
 L["beasts_of_bastion_note"] = [[
 Sprich mit {npc:161441}, um eine der vier Bestien zu beschwören.
@@ -60,8 +60,8 @@ Sprich mit {npc:161441}, um eine der vier Bestien zu beschwören.
 ]]--TRANSLATE
 L["bookkeeper_mnemis_note"] = "Hat die Chance anstelle von {npc:166867} in diesem Gebiet zu erscheinen."
 L["cloudfeather_patriarch_note"] = "Töte {npc:158110}|CFFFFFF00n|r in diesem Gebiet, bis ein Emote ausgegeben wird und der {npc:170932} erscheint."
-L["collector_astor_note"] = "Lies alle sechs Kapitel von Mercias Vermächtnis, die im Raum verstreut sind und das {npc:157979} wird zu dir flüstern. Sprich mit ihr, um {spell:333779} zu erhalten, der es dir erlaubt den versteckten {item:180569} im Nordwesten zu finden. Wenn das Kapitel zurückgeben wird, erscheint {npc:171014}."
-L["corrupted_clawguard_note"] = "Plündere {item:180651} im Schmiedefeueraußenposten (den Berg hoch) und verwende es, um die {npc:171300} zu reparieren."
+L["collector_astor_note"] = "Lies alle sechs Kapitel von Mercias Vermächtnis, die im Raum verstreut sind und das {npc:157979} wird zu dir flüstern. Sprich mit ihr, um {spell:333779} zu erhalten, der es dir erlaubt {item:180569} im Nordwesten zu finden. Wenn das Kapitel zurückgeben wird, erscheint {npc:171014}."
+L["corrupted_clawguard_note"] = "Plündere {item:180651} im Schmiedefeueraußenposten (54.9, 41.0) und verwende es, um die {npc:171300} zu reparieren."
 L["dark_watcher_note"] = "Kann nur während des Todes gesehen werden. Sprich mit ihr und sie wird {spell:332830} auf dich wirken, bevor sie angreift."
 L["demi_hoarder_note"] = "Startet mit 99 Stapeln von {spell:333874} (Reduzierung des erlittenen Schadens). Stapel werden langsam durch Schaden entfernt. {npc:171011} folgt einem Pfad und verschwindet wenn sie das Ende erreicht."
 L["dionae_note"] = "\nWenn sie immun wird, klicke auf die vier {npc:163747}|CFFFFFF00e|r, um ihr Schild zu brechen."
@@ -70,7 +70,7 @@ Sammel {item:172451} und verwende dieses, um {npc:158659} Stapel von {spell:3435
 
 Partikel können aus entleerten Animakanistern in der Nähe gesammelt werden, die sich in diesem Raum oder direkt außerhalb befinden.
 ]]
-L["nikara_note"] = "Klicke mit zwei anderen Spielern die uralten Räuchergefäße an, um ein Ritual zu beginnen, {npc:160882} zu beschwören." --review Blizzard translation
+L["nikara_note"] = "Klicke mit zwei anderen Spielern das Uralte Räucherwerk an, um ein Ritual zu beginnen, {npc:160882} zu beschwören."
 L["sundancer_note"] = "Klicke das Uralte Denkmal an, um den {spell:332309} zu erhalten und verwende einen {item:180445}, um zu ihm zu gleiten und aufzusitzen."
 L["unstable_memory_note"] = "Kann beschworen werden, wenn {npc:171018} anwesend ist. Ziehe dieses in andere, um ihm 10 Stapel von {spell:333558} zu gewähren, der es zu {npc:171008} heranwachsen lässt."
 --L["wingflayer_note"] = "Klicken zum Beschwören das Horn auf dem Tisch in der Nähe an. (Südosten, die Treppe hoch)"
@@ -103,8 +103,8 @@ Die Kugel wird dich zu dem wahren Räucherwerk des Richturteils bringen. Sprich 
 ]]
 L["gift_of_vesiphone"] = "Läute an den Glocken, um eine {npc:170849} erscheinen zu lassen, töte diese um den Schwächungszauber {spell:333239} zu erhalten. Der Wasserfall gegenüber der Truhe wird diesen Schwächungszauber reinigen und dir den {spell:332785} gewähren, um die Truhe öffnen zu können."
 
-L["cache_of_the_ascended"] = "Cache of the Ascended" --review Blizzard translations
-L["cache_of_the_ascended_note"] = "Klicke mit vier anderen Spielern die Vesperglocke der Reinheit, des Mutes, der Demut, der Weisheit und der Loyalität zur selben Zeit an. Begebt euch anschließend zum Prüfstein des Aspiranten, um den Aspirantenrat zu besiegen und die Truhe zu enthüllen." --review Blizzard Translation Aspirant's Aspiranten
+L["cache_of_the_ascended"] = "Truhe der Aufgestiegenen" --review Blizzard translations
+L["cache_of_the_ascended_note"] = "Klicke mit vier anderen Spielern die Vesperglocke der Reinheit, des Mutes, der Demut, der Weisheit und der Loyalität zur selben Zeit an. Begebt euch anschließend zum Prüfstein des Aspiranten, um den Rat der Aufgestiegenen zu besiegen und die Truhe zu enthüllen."
 
 L["anima_shard"] = "Verlorener Animakristallsplitter"
 L["anima_shard_61225"] = "Auf einer tiefer gelegenen Plattform unterhalb der Brücke."
@@ -196,6 +196,13 @@ L["stolen_jar_note"] = "In einer Höhle unter dem Riesenpilz."
 L["strange_growth_note"] = "Ziehe {npc:165037} heraus, um den Schatz zu enthüllen."
 L["vat_of_slime_note"] = "Klicken auf dem Tisch die Flasche an und danach auf den Schleimbehälter."
 
+L["giant_cache_of_epic_treasure"] = "Epischer Riesenschatz"
+L["spinebug_note"] = [[
+Oh schau! Ein {spell:343124}! Nähere dich ihm, tapferer Abenteurer, das ist sicher keine List. Warte, ist das die Musik aus Karazhan? Was macht dieser {npc:174663} hier ...?
+
+{spell:343163}!
+]]
+
 L["oonar_sorrowbane_note"] = [[
 Im Theater des Schmerzes, findest du im Boden steckend Kummerfluch und Oonars Arm daran befestigt. 
 |cFFFF8C00Bevor du versuchst eines der beiden ab oder heraus zu ziehen, setzte deinen {item:6948} bei {npc:161702} nahe des Flugpunktes.|r
@@ -212,7 +219,7 @@ Um {item:180273} heraus zu ziehen:
    des Nachtmarktes in Revendreth (51.0, 78.8).
 • Kaufe 1x {item:180771} von 
    {npc:166640} in Maldraxxus (50.9, 53.2).
-• Erhalte 2 Stapel {spell:306272} von der Weltquest |cFFFFFD00[A Few Bumps Along the Way]|r im Westen (37.0, 46.9).
+• Erhalte 2 Stapel {spell:306272} von der Weltquest |cFFFFFD00[Ein oder zwei Steine im Weg]|r im Westen (37.0, 46.9).
 • Esse 4x {spell:327367} in Glutherns Verfall.
 • Benutze schnell deinen {item:6948}, trink beim 
    Schwert die beiden Tränke und ziehe an diesem.
@@ -231,9 +238,9 @@ L["options_toggle_kittens_desc"] = "Zeigt die Positionen der Kätzchen für den 
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_filth_note"] = "Wenn die Weltquest |cFFFFFD00[Dirty Job: Demolition Detail]|r verfügbar ist, klicke auf die Rubbish Box und verwende {spell:324115} ins Wasser hinein." --review Blizzard traslation
+L["amalgamation_of_filth_note"] = "Wenn die Weltquest |cFFFFFD00[Drecksarbeit: Abrisstrupp]|r verfügbar ist, klicke auf die Rubbish Box und verwende {spell:324115} ins Wasser hinein."
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
-L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Muck It Up]|r auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard traslation
+L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Muck It Up]|r auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard translation /dump C_QuestLog.GetTitleForQuestID(59808)
 L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
 L["famu_note"] = "Sprich mit {npc:166483}, um das Event auszulösen."
@@ -241,7 +248,7 @@ L["grand_arcanist_dimitri_note"] = "Töte die vier |CFFFFFF00Verhüllten Rituali
 L["innervus_note"] = "Töte |CFFFFFF00Wilde Ritualisten|r in der Gegend, um einen {item:177223} zu erhalten, um die Krypta aufzuschließen." --{npc:160375}
 L["leeched_soul_note"] = "In der nahe gelegenen Krypta. Gehe in die Nähe von {npc:165151}, um das Event zu starten."
 L["lord_mortegore_note"] = "Töte Gegner in der Nähe, um eine {item:174378} zu erhalten und verwende diese, um ein {npc:161870} zu ermächtigen. {npc:161891} wird erscheinen, wenn alle vier Siegel ermächtigt wurden."
-L["manifestation_of_wrath_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Swarming Souls]|r eine {npc:169916} wiedererlangt wird." --review Blizzard traslation
+L["manifestation_of_wrath_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Seelenschwärme]|r eine {npc:169916} wiedererlangt wird."
 L["scrivener_lenua_note"] = "Bringe {npc:160753} zurück zur Verbotenen Bibliothek."
 L["sinstone_hoarder_note"] = "Erscheint auf der Minimap als Schatztruhe. Versuch den {npc:162503} zu plündern und {npc:162481} wird sich offenbaren."
 L["soulstalker_doina_note"] = "Verfolge sie nach unten und durch den Spiegel wenn sie wegläuft."
@@ -259,6 +266,7 @@ L["bleakwood_chest"] = "Bleakwood Chest" --review Blizzard traslation, can't fin
 L["chest_of_envious_dreams"] = "Truhe der neidischen Träume"
 L["filchers_prize"] = "Diebestrophäe"
 L["fleeing_soul_bundle"] = "Bündel der flüchtigen Seele"
+L["forgotten_anglers_rod"] = "Vergessene Angelrute"
 L["gilded_plum_chest"] = "Kiste mit vergoldeter Pflaume"
 L["gilded_plum_chest_note"] = "Töte die {npc:166680}, die die Straße hoch und runter läuft."
 L["remlates_cache"] = "Remlates versteckter Schatz"
