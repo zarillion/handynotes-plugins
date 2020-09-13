@@ -9,7 +9,8 @@ local _, ns = ...
 -------------------------------------------------------------------------------
 
 ns.Class = function (name, parent, attrs)
-    if type(name) ~= 'string' then error('name parameter must be a string') end
+    if type(name) ~= 'string' then error('name param must be a string') end
+    if parent and not ns.isclass(parent) then error('parent param must be a class') end
 
     local Class = attrs or {}
     Class.getters = Class.getters or {}
@@ -86,6 +87,10 @@ end
 -------------------------------------------------------------------------------
 ----------------------------------- HELPERS -----------------------------------
 -------------------------------------------------------------------------------
+
+ns.isclass = function (class)
+    return type(class) == 'table' and class.getters and class.setters
+end
 
 ns.isinstance = function (instance, class)
     local function compare (c1, c2)

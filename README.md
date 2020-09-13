@@ -53,7 +53,13 @@ Option | Description
 ------ | -----------
 Debug Map IDs | Print map IDs to the chat window when the World Map changes.
 Debug Quest IDs | Print quest IDs to the chat window as their completed state changes. Scans all quest IDs up to `100000` for changes every 1s.
-Force Nodes | Force displays all nodes currently enabled in the settings panel, ignoring the quest and completion status of each node.
+Force Nodes | Force displays all nodes, ignoring the quest and completion status of each node.
+
+## Quick Force Nodes
+
+When updating or creating nodes you often want to quickly force their display to make sure they are in the right place and render their tooltips correctly. Going into the settings UI and toggling the "Force Nodes" option on and off can get tedious, so a shortcut is available.
+
+With the World Map open, hold `LCTRL+LALT` to force display all nodes on the current map. This will also hide your character pin and any group member pins in case you are standing directly on the node you want to inspect.
 
 ## Helpful Addons and Macros
 

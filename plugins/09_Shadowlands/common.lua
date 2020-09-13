@@ -5,9 +5,6 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 
-local isinstance = ns.isinstance
-local Rare = ns.node.Rare
-
 -------------------------------------------------------------------------------
 ---------------------------------- CALLBACKS ----------------------------------
 -------------------------------------------------------------------------------
@@ -34,7 +31,7 @@ ns.covenants = {
     NEC = { id = 4, icon = ns.icons['necrolord_sigil'] }
 }
 
-ns.processCovenant = function (node)
+local function ProcessCovenant (node)
     if node.covenant == nil then return end
     local data = C_Covenants.GetCovenantData(node.covenant.id)
 
@@ -47,3 +44,18 @@ ns.processCovenant = function (node)
         node._covenantProcessed = true
     end
 end
+
+-------------------------------------------------------------------------------
+------------------------------------ MAPS -------------------------------------
+-------------------------------------------------------------------------------
+
+local Map = ns.Map
+local ShadowlandsMap = ns.Class('ShadowlandsMap', Map)
+
+function ShadowlandsMap:enabled (node, coord, minimap)
+    -- Update rlabel and sublabel for covenant-restricted nodes
+    ProcessCovenant(node)
+    return Map.enabled(self, node, coord, minimap)
+end
+
+ns.Map = ShadowlandsMap

@@ -4,9 +4,6 @@
 
 local ADDON_NAME, ns = ...
 local L = ns.locale
-local Class = ns.Class
-local Map = ns.Map
-local isinstance = ns.isinstance
 
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -22,70 +19,16 @@ local Toy = ns.reward.Toy
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
-local options = ns.options.args.VisibilityGroup.args
-local defaults = ns.optionDefaults.profile
-
 -------------------------------------------------------------------------------
 
 local NIGHTFAE = ns.covenants.FAE
-
--------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
--------------------------------------------------------------------------------
-
-local map = Map({ id=1565 })
-local nodes = map.nodes
-
-function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    if node == map.intro then return true end
-
-    -- add rlabel and warning if covenant doesn't match
-    ns.processCovenant(node)
-
-    local profile = ns.addon.db.profile
-    if isinstance(node, Rare) then return profile.rare_ardenweald end
-    if isinstance(node, Treasure) then return profile.treasure_ardenweald end
-    return true
-end
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-defaults['rare_ardenweald'] = true
-defaults['treasure_ardenweald'] = true
-
-options.groupArdenweald = {
-    type = "header",
-    name = C_Map.GetMapInfo(map.id).name,
-    order = 0,
-}
-
-options.rareArdenweald = {
-    type = "toggle",
-    arg = "rare_ardenweald",
-    name = L["options_toggle_rares"],
-    desc = L["options_toggle_rares_desc"],
-    order = 1,
-    width = "normal",
-}
-
-options.treasureArdenweald = {
-    type = "toggle",
-    arg = "treasure_ardenweald",
-    name = L["options_toggle_treasures"],
-    desc = L["options_toggle_treasures_desc"],
-    order = 2,
-    width = "normal",
-}
+local map = ns.Map({ id=1565 })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-nodes[34606800] = Rare({
+map.nodes[34606800] = Rare({
     id=164477,
     quest=59226,
     rewards={
@@ -93,7 +36,7 @@ nodes[34606800] = Rare({
     }
 }) -- Deathbinder Hroth
 
-nodes[47522845] = Rare({
+map.nodes[47522845] = Rare({
     id=164238,
     quest={59201,62271},
     note=L["deifir_note"],
@@ -110,7 +53,7 @@ nodes[47522845] = Rare({
     }
 }) -- Deifir the Untamed
 
-nodes[48397717] = Rare({
+map.nodes[48397717] = Rare({
     id=163229,
     quest=58987,
     rewards={
@@ -118,7 +61,7 @@ nodes[48397717] = Rare({
     }
 }) -- Dustbrawl
 
-nodes[57862955] = Rare({
+map.nodes[57862955] = Rare({
     id=167851,
     quest=60266,
     note=L["lehgo_note"],
@@ -127,7 +70,7 @@ nodes[57862955] = Rare({
     }
 }) -- Egg-Tender Leh'go
 
-nodes[68612765] = Rare({
+map.nodes[68612765] = Rare({
     id=171688,
     quest=61184,
     note=L["faeflayer_note"],
@@ -136,7 +79,7 @@ nodes[68612765] = Rare({
     }
 }) -- Faeflayer
 
-nodes[54067601] = Rare({
+map.nodes[54067601] = Rare({
     id=163370,
     quest=59006,
     rewards={
@@ -145,7 +88,7 @@ nodes[54067601] = Rare({
     }
 }) -- Gormbore
 
-nodes[27885248] = Rare({
+map.nodes[27885248] = Rare({
     id=164107,
     quest=59145,
     rewards={
@@ -154,7 +97,7 @@ nodes[27885248] = Rare({
     }
 }) -- Gormtamer Tizo
 
-nodes[32423026] = Rare({
+map.nodes[32423026] = Rare({
     id=164112,
     quest=59157,
     requires="{item:175247}",
@@ -165,7 +108,7 @@ nodes[32423026] = Rare({
     }
 }) -- Humon'gozz
 
-nodes[67465147] = Rare({
+map.nodes[67465147] = Rare({
     id=160448,
     quest=59221,
     rewards={
@@ -178,7 +121,7 @@ nodes[67465147] = Rare({
 -- Mysterious Mushroom Ring (36474814)
 -- Mysterious Mushroom Ring (47924018)
 
--- nodes[] = Rare({
+-- map.nodes[] = Rare({
 --     id=164093,
 --     quest=nil,
 --     rewards={
@@ -187,7 +130,7 @@ nodes[67465147] = Rare({
 --     }
 -- }) -- Macabre
 
-nodes[62102470] = Rare({
+map.nodes[62102470] = Rare({
     id=165053,
     quest=nil,
     rewards={
@@ -195,7 +138,7 @@ nodes[62102470] = Rare({
     }
 }) -- Mymaen
 
-nodes[50092091] = Rare({
+map.nodes[50092091] = Rare({
     id=164547,
     quest=59235,
     rewards={
@@ -204,7 +147,7 @@ nodes[50092091] = Rare({
     }
 }) -- Mystic Rainbowhorn
 
-nodes[57874983] = Rare({
+map.nodes[57874983] = Rare({
     id=168135,
     quest=60306,
     covenant=NIGHTFAE,
@@ -224,7 +167,7 @@ nodes[57874983] = Rare({
     }
 }) -- Night Mare
 
-nodes[51105740] = Rare({
+map.nodes[51105740] = Rare({
     id=164391,
     quest={59208,62270},
     note=L["old_ardeite_note"],
@@ -234,7 +177,7 @@ nodes[51105740] = Rare({
     }
 }) -- Old Ardeite
 
-nodes[65104430] = Rare({
+map.nodes[65104430] = Rare({
     id=167726,
     quest=60273,
     note=L["rootwrithe_note"],
@@ -243,7 +186,7 @@ nodes[65104430] = Rare({
     }
 }) -- Rootwrithe
 
-nodes[65702430] = Rare({
+map.nodes[65702430] = Rare({
     id=167724,
     quest=60258,
     note=L["rotbriar_note"],
@@ -253,7 +196,7 @@ nodes[65702430] = Rare({
     }
 }) -- Rotbriar Changeling
 
-nodes[72425175] = Rare({
+map.nodes[72425175] = Rare({
     id=171451,
     quest=61177,
     rewards={
@@ -262,7 +205,7 @@ nodes[72425175] = Rare({
     }
 }) -- Soultwister Cero
 
-nodes[37675917] = Rare({
+map.nodes[37675917] = Rare({
     id=164415,
     quest=59220,
     covenant=NIGHTFAE,
@@ -273,7 +216,7 @@ nodes[37675917] = Rare({
     }
 }) -- Skuld Vit
 
-nodes[59304660] = Rare({
+map.nodes[59304660] = Rare({
     id=167721,
     quest=60290,
     note=L["slumbering_note"],
@@ -282,7 +225,7 @@ nodes[59304660] = Rare({
     }
 }) -- The Slumbering Emperor
 
-nodes[30115536] = Rare({
+map.nodes[30115536] = Rare({
     id=168647,
     quest=61632,
     note=L["valfir_note"],
@@ -296,7 +239,7 @@ nodes[30115536] = Rare({
     }
 }) -- Valfir the Unrelenting
 
-nodes[58306180] = Rare({
+map.nodes[58306180] = Rare({
     id=164147,
     quest=59170,
     note=L["wrigglemortis_note"],
@@ -307,7 +250,7 @@ nodes[58306180] = Rare({
 
 --------------------------- STAR LAKE AMPHITHEATER ----------------------------
 
-nodes[41254443] = Rare({
+map.nodes[41254443] = Rare({
     id=171743,
     quest=nil,
     label=L["star_lake"],
@@ -338,7 +281,7 @@ nodes[41254443] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-nodes[56002101] = Treasure({
+map.nodes[56002101] = Treasure({
     quest=61072,
     rewards={
         Achievement({id=14313, criteria=50031}),
@@ -346,7 +289,7 @@ nodes[56002101] = Treasure({
     }
 }) -- Aerto's Body
 
-nodes[63893778] = Treasure({
+map.nodes[63893778] = Treasure({
     quest=61074,
     note=L["cache_of_the_moon"],
     rewards={
@@ -364,7 +307,7 @@ nodes[63893778] = Treasure({
     }
 }) -- Cache of the Moon
 
-nodes[36236527] = Treasure({
+map.nodes[36236527] = Treasure({
     quest=nil,
     note=L["activation_unknown"],
     rewards={
@@ -373,7 +316,7 @@ nodes[36236527] = Treasure({
     }
 }) -- Cache of the Night
 
-nodes[37646159] = Treasure({
+map.nodes[37646159] = Treasure({
     quest=61068,
     note=L["darkreach_supplies"],
     rewards={
@@ -385,7 +328,7 @@ nodes[37646159] = Treasure({
     }
 }) -- Darkreach Supplies
 
-nodes[41953253] = Treasure({
+map.nodes[41953253] = Treasure({
     quest=61147,
     note=L["desiccated_moth"],
     rewards={
@@ -398,7 +341,7 @@ nodes[41953253] = Treasure({
     }
 }) -- Desiccated Moth
 
-nodes[37683688] = Treasure({
+map.nodes[37683688] = Treasure({
     quest=61070,
     note=L["dreamsong_heart"],
     rewards={
@@ -410,7 +353,7 @@ nodes[37683688] = Treasure({
     }
 }) -- Dreamsong Heart
 
-nodes[44827587] = Treasure({
+map.nodes[44827587] = Treasure({
     quest=61175,
     note=L["elusive_faerie_cache"],
     rewards={
@@ -425,7 +368,7 @@ nodes[44827587] = Treasure({
     }
 }) -- Elusive Faerie Cache
 
-nodes[36422506] = Treasure({
+map.nodes[36422506] = Treasure({
     quest=62259,
     note=L["enchanted_dreamcatcher"],
     rewards={
@@ -434,7 +377,7 @@ nodes[36422506] = Treasure({
     }
 }) -- Enchanted Dreamcatcher
 
-nodes[49715589] = Treasure({
+map.nodes[49715589] = Treasure({
     quest=61073,
     note=L["faerie_trove"],
     rewards={
@@ -443,7 +386,7 @@ nodes[49715589] = Treasure({
     }
 }) -- Faerie Trove
 
-nodes[67803462] = Treasure({
+map.nodes[67803462] = Treasure({
     quest=61165,
     note=L["harmonic_chest"],
     rewards={
@@ -451,7 +394,7 @@ nodes[67803462] = Treasure({
     }
 }) -- Harmonic Chest
 
-nodes[48213927] = Treasure({
+map.nodes[48213927] = Treasure({
     quest=61067,
     note=L["hearty_dragon_plume"],
     rewards={
@@ -463,7 +406,7 @@ nodes[48213927] = Treasure({
     }
 }) -- Hearty Dragon Plume
 
-nodes[48282031] = Treasure({
+map.nodes[48282031] = Treasure({
     quest=62187,
     rewards={
         Achievement({id=14313, criteria=50032}),
@@ -471,7 +414,7 @@ nodes[48282031] = Treasure({
     }
 }) -- Lost Satchel
 
-nodes[31764100] = Treasure({
+map.nodes[31764100] = Treasure({
     quest={61080, 61081, 61084, 61085, 61086},
     questCount=true,
     note=L["playful_vulpin_note"],
@@ -488,7 +431,7 @@ nodes[31764100] = Treasure({
     }
 }) -- Playful Vulpin Befriended (171206)
 
-nodes[76672974] = Treasure({
+map.nodes[76672974] = Treasure({
     quest=62186,
     note=L["swollen_anima_seed"],
     rewards={
@@ -497,7 +440,7 @@ nodes[76672974] = Treasure({
     }
 }) -- Swollen Anima Seed
 
-nodes[26285897] = Treasure({
+map.nodes[26285897] = Treasure({
     quest=61192, -- 61208 = failed, 61198 = passed
     label=L["tame_gladerunner"],
     note=L["tame_gladerunner_note"],
@@ -513,7 +456,7 @@ nodes[26285897] = Treasure({
     }
 }) -- Tame Gladerunner
 
-nodes[52943729] = Treasure({
+map.nodes[52943729] = Treasure({
     quest=61065,
     rewards={
         Achievement({id=14313, criteria=50033}),

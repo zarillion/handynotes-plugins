@@ -6,59 +6,29 @@ local ADDON_NAME, ns = ...
 local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
-local isinstance = ns.isinstance
 
 local Node = ns.node.Node
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
-local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
-local Mount = ns.reward.Mount
-local Pet = ns.reward.Pet
 local Quest = ns.reward.Quest
-local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
-
-local options = ns.options.args.VisibilityGroup.args
-local defaults = ns.optionDefaults.profile
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
 local map = Map({ id=1543, phased=false })
-local nodes = map.nodes
 
 function map:prepare ()
     Map.prepare(self)
     self.phased = C_QuestLog.IsQuestFlaggedCompleted(60134)
 end
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-defaults['rare_maw'] = true
-
-options.groupMaw = {
-    type = "header",
-    name = C_Map.GetMapInfo(map.id).name,
-    order = 40,
-}
-
-options.rareMaw = {
-    type = "toggle",
-    arg = "rare_maw",
-    name = L["options_toggle_rares"],
-    desc = L["options_toggle_rares_desc"],
-    order = 41,
-    width = "normal",
-}
 
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
@@ -88,13 +58,13 @@ map.intro = MawIntro({
     })[math.max(C_Covenants.GetActiveCovenantID(), 1)]})}
 })
 
-nodes[80306280] = map.intro
+map.nodes[80306280] = map.intro
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- nodes[] = Rare({
+-- map.nodes[] = Rare({
 --     id=157964,
 --     quest=nil,
 --     rewards={
@@ -102,7 +72,7 @@ nodes[80306280] = map.intro
 --     }
 -- }) -- Adjutant Dekaris
 
-nodes[19324172] = Rare({
+map.nodes[19324172] = Rare({
     id=170301,
     quest=60788,
     note=L["apholeias_note"],
@@ -112,7 +82,7 @@ nodes[19324172] = Rare({
     }
 }) -- Apholeias, Herald of Loss
 
-nodes[39014119] = Rare({
+map.nodes[39014119] = Rare({
     id=157833,
     quest=57469,
     rewards={
@@ -120,7 +90,7 @@ nodes[39014119] = Rare({
     }
 }) -- Borr-Geth
 
-nodes[27731305] = Rare({
+map.nodes[27731305] = Rare({
     id=171317,
     quest=61106,
     rewards={
@@ -128,7 +98,7 @@ nodes[27731305] = Rare({
     }
 }) -- Conjured Death
 
-nodes[60964805] = Rare({
+map.nodes[60964805] = Rare({
     id=160770,
     quest=62281,
     note=L["in_cave"],
@@ -137,7 +107,7 @@ nodes[60964805] = Rare({
     }
 }) -- Darithis the Bleak
 
--- nodes[] = Rare({
+-- map.nodes[] = Rare({
 --     id=158025,
 --     quest=nil,
 --     rewards={
@@ -145,7 +115,7 @@ nodes[60964805] = Rare({
 --     }
 -- }) -- Darklord Taraxis
 
--- nodes[] = Rare({
+-- map.nodes[] = Rare({
 --     id=170711,
 --     quest=nil,
 --     rewards={
@@ -153,7 +123,7 @@ nodes[60964805] = Rare({
 --     }
 -- }) -- Dolos <Death's Knife>
 
-nodes[23765341] = Rare({
+map.nodes[23765341] = Rare({
     id=170774,
     quest=60915,
     rewards={
@@ -161,7 +131,7 @@ nodes[23765341] = Rare({
     }
 }) -- Eketra <The Impaler>
 
-nodes[42342108] = Rare({
+map.nodes[42342108] = Rare({
     id=169827,
     quest=60666,
     note=L["ekphoras_note"],
@@ -171,7 +141,7 @@ nodes[42342108] = Rare({
     }
 }) -- Ekphoras, Herald of Grief
 
--- nodes[] = Rare({
+-- map.nodes[] = Rare({
 --     id=154330,
 --     quest=nil,
 --     rewards={
@@ -179,7 +149,7 @@ nodes[42342108] = Rare({
 --     }
 -- }) -- Eternas the Tormentor
 
-nodes[20586935] = Rare({
+map.nodes[20586935] = Rare({
     id=170303,
     quest=62260,
     note=L["exos_note"],
@@ -188,7 +158,7 @@ nodes[20586935] = Rare({
     }
 }) -- Exos, Herald of Domination
 
-nodes[16945102] = Rare({
+map.nodes[16945102] = Rare({
     id=162849,
     quest=60987,
     rewards={
@@ -196,7 +166,7 @@ nodes[16945102] = Rare({
     }
 }) -- Morguliax <Lord of Decapitation>
 
-nodes[45507376] = Rare({
+map.nodes[45507376] = Rare({
     id=158278,
     quest=57573,
     note=L["in_small_cave"],
@@ -205,7 +175,7 @@ nodes[45507376] = Rare({
     }
 }) -- Nascent Devourer
 
--- nodes[] = Rare({
+-- map.nodes[] = Rare({
 --     id=164064,
 --     quest=nil,
 --     rewards={
@@ -213,7 +183,7 @@ nodes[45507376] = Rare({
 --     }
 -- }) -- Obolos <Prime Adjutant>
 
-nodes[23692139] = Rare({
+map.nodes[23692139] = Rare({
     id=172577,
     quest=61519,
     note=L["orophea_note"],
@@ -226,7 +196,7 @@ nodes[23692139] = Rare({
     }
 }) -- Orophea
 
-nodes[29805960] = Rare({
+map.nodes[29805960] = Rare({
     id=170634,
     quest=nil,
     rewards={
@@ -234,7 +204,7 @@ nodes[29805960] = Rare({
     }
 }) -- Shadeweaver Zeris
 
-nodes[35974156] = Rare({
+map.nodes[35974156] = Rare({
     id=166398,
     quest=60834,
     rewards={
@@ -242,7 +212,7 @@ nodes[35974156] = Rare({
     }
 }) -- Soulforger Rhovus
 
-nodes[28701204] = Rare({
+map.nodes[28701204] = Rare({
     id=170302,
     quest=60789, -- 62722?
     note=L["talaporas_note"],
@@ -252,7 +222,7 @@ nodes[28701204] = Rare({
     }
 }) -- Talaporas, Herald of Pain
 
--- nodes[] = Rare({
+-- map.nodes[] = Rare({
 --     id=170731,
 --     quest=nil,
 --     rewards={
@@ -260,7 +230,7 @@ nodes[28701204] = Rare({
 --     }
 -- }) -- Thanassos <Death's Voice>
 
-nodes[37676591] = Rare({
+map.nodes[37676591] = Rare({
     id=172862,
     quest=61568,
     note=L["yero_note"],
@@ -279,9 +249,13 @@ nodes[37676591] = Rare({
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
 
-local BonusBoss = Class('BonusBoss', NPC, { icon='peg_red', scale=1.8 })
+local BonusBoss = Class('BonusBoss', NPC, {
+    group='bonus_boss',
+    icon='peg_red',
+    scale=1.8
+})
 
-nodes[23004160] = BonusBoss({
+map.nodes[23004160] = BonusBoss({
     id=169102,
     quest=61136,
     note=L["in_cave"],
@@ -293,7 +267,7 @@ nodes[23004160] = BonusBoss({
     }
 }) -- Agonix
 
--- nodes[] = BonusBoss({
+-- map.nodes[] = BonusBoss({
 --     id=170787,
 --     quest=60920,
 --     rewards={
@@ -301,7 +275,7 @@ nodes[23004160] = BonusBoss({
 --     }
 -- }) -- Akros <Death's Hammer>
 
-nodes[28712513] = BonusBoss({
+map.nodes[28712513] = BonusBoss({
     id=168693,
     quest=61346,
     rewards={
@@ -309,7 +283,7 @@ nodes[28712513] = BonusBoss({
     }
 }) -- Cyrixia <The Willbreaker>
 
-nodes[25831479] = BonusBoss({
+map.nodes[25831479] = BonusBoss({
     id=162452,
     quest=59230,
     rewards={
@@ -317,7 +291,7 @@ nodes[25831479] = BonusBoss({
     }
 }) -- Dartanos <Flayer of Souls>
 
-nodes[19205740] = BonusBoss({
+map.nodes[19205740] = BonusBoss({
     id=162844,
     quest=61140,
     rewards={
@@ -325,7 +299,7 @@ nodes[19205740] = BonusBoss({
     }
 }) -- Dath Rezara <Lord of Blades>
 
-nodes[34202000] = BonusBoss({
+map.nodes[34202000] = BonusBoss({
     id=158314,
     quest=59183,
     rewards={
@@ -333,7 +307,7 @@ nodes[34202000] = BonusBoss({
     }
 }) -- Drifting Sorrow
 
-nodes[60456478] = BonusBoss({
+map.nodes[60456478] = BonusBoss({
     id=172523,
     quest=62209,
     rewards={
@@ -341,7 +315,7 @@ nodes[60456478] = BonusBoss({
     }
 }) -- Houndmaster Vasanok
 
--- nodes[] = BonusBoss({
+-- map.nodes[] = BonusBoss({
 --     id=170692,
 --     quest=60903,
 --     rewards={
@@ -349,7 +323,7 @@ nodes[60456478] = BonusBoss({
 --     }
 -- }) -- Krala <Death's Wings>
 
-nodes[27311754] = BonusBoss({
+map.nodes[27311754] = BonusBoss({
     id=171316,
     quest=61125,
     rewards={
@@ -357,7 +331,7 @@ nodes[27311754] = BonusBoss({
     }
 }) -- Malevolent Stygia
 
-nodes[43804800] = BonusBoss({
+map.nodes[43804800] = BonusBoss({
     id=172207,
     quest=62618,
     rewards={
@@ -365,7 +339,7 @@ nodes[43804800] = BonusBoss({
     }
 }) -- Odalrik
 
-nodes[25364875] = BonusBoss({
+map.nodes[25364875] = BonusBoss({
     id=162845,
     quest=60991,
     rewards={
@@ -373,7 +347,7 @@ nodes[25364875] = BonusBoss({
     }
 }) -- Orrholyn <Lord of Bloodletting>
 
-nodes[26173744] = BonusBoss({
+map.nodes[26173744] = BonusBoss({
     id=162829,
     quest=62228,
     rewards={
@@ -381,7 +355,7 @@ nodes[26173744] = BonusBoss({
     }
 }) -- Razkazzar <Lord of Axes>
 
-nodes[55626318] = BonusBoss({
+map.nodes[55626318] = BonusBoss({
     id=172521,
     quest=62210,
     note=L["in_cave"]..' '..L["sanngror_note"],
@@ -393,7 +367,7 @@ nodes[55626318] = BonusBoss({
     }
 }) -- Sanngror the Torturer
 
-nodes[61737795] = BonusBoss({
+map.nodes[61737795] = BonusBoss({
     id=172524,
     quest=62211,
     note=L["in_cave"],
@@ -405,7 +379,7 @@ nodes[61737795] = BonusBoss({
     }
 }) -- Skittering Broodmother
 
-nodes[20782968] = BonusBoss({
+map.nodes[20782968] = BonusBoss({
     id=162965,
     quest=58918,
     rewards={
@@ -413,7 +387,7 @@ nodes[20782968] = BonusBoss({
     }
 }) -- Sorath the Sated
 
-nodes[36253744] = BonusBoss({
+map.nodes[36253744] = BonusBoss({
     id=165047,
     quest=59441,
     rewards={
@@ -421,7 +395,7 @@ nodes[36253744] = BonusBoss({
     }
 }) -- Soulsmith Yol-Mattar
 
-nodes[36844480] = BonusBoss({
+map.nodes[36844480] = BonusBoss({
     id=156203,
     quest=62539,
     rewards={
@@ -429,7 +403,7 @@ nodes[36844480] = BonusBoss({
     }
 }) -- Stygian Incinerator
 
-nodes[40705959] = BonusBoss({
+map.nodes[40705959] = BonusBoss({
     id=173086,
     quest=61728,
     note=L["valis_note"],
@@ -438,7 +412,7 @@ nodes[40705959] = BonusBoss({
     }
 }) -- Valis the Cruel
 
--- nodes[] = BonusBoss({
+-- map.nodes[] = BonusBoss({
 --     id=165973,
 --     quest=61124,
 --     rewards={
@@ -451,27 +425,13 @@ nodes[40705959] = BonusBoss({
 -------------------------------------------------------------------------------
 
 local BonusEvent = Class('BonusEvent', ns.node.Quest, {
+    group='bonus_event',
     icon='peg_yellow',
     scale=1.8,
     note=''
 })
 
-nodes[21573436] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
-nodes[30394255] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
-nodes[32401771] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
-nodes[27446463] = BonusEvent({ quest=59784, note=L["obliterated_soul_shards_note"] })
-
--------------------------------------------------------------------------------
-
-function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    if node == map.intro then return true end
-
-    -- add rlabel and warning if covenant doesn't match
-    ns.processCovenant(node)
-
-    local profile = ns.addon.db.profile
-    if isinstance(node, Rare) then return profile.rare_maw end
-    return true
-end
+map.nodes[21573436] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
+map.nodes[30394255] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
+map.nodes[32401771] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
+map.nodes[27446463] = BonusEvent({ quest=59784, note=L["obliterated_soul_shards_note"] })

@@ -4,24 +4,58 @@
 
 local ADDON_NAME, ns = ...
 local Class = ns.Class
+local L = ns.locale
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local Map = Class('Map')
+--[[
 
-Map.id = 0
-Map.name = nil
-Map.intro = nil
-Map.phased = true
+Base class for all maps.
+
+    id (integer): MapID value for this map
+    intro (Node): An intro node to display when phased
+    phased (boolean): If false, hide all nodes except the intro node.
+    options (table): Group default options (toggle, scale, alpha)
+
+--]]
+
+local Map = Class('Map', nil, {
+    id = 0,
+    name = nil,
+    intro = nil,
+    phased = true
+})
 
 function Map:init ()
     self.nodes = {}
+    self.options = self.options or {}
+    self.parents = self.parents or {}
+
+    setmetatable(self.nodes, {
+        __newindex = function (nodes, coord, node)
+            self:add(coord, node)
+        end
+    })
 
     -- auto-register this map
     if ns.maps[self.id] then error('Map already registered: '..self.id) end
     ns.maps[self.id] = self
+end
+
+function Map:add(coord, node)
+    if not ns.isinstance(node, ns.node.Node) then
+        error('All nodes must be instances of the Node() class:', coord, node)
+    end
+
+    -- Initialize group defaults and UI controls for this map if the group does
+    -- not inherit its settings and defaults from a parent map
+    if not self.parents[node.group] then
+        ns.InitializeGroup(self, node.group)
+    end
+
+    rawset(self.nodes, coord, node)
 end
 
 function Map:prepare ()
@@ -32,9 +66,10 @@ end
 
 function Map:enabled (node, coord, minimap)
     local db = ns.addon.db
+    local profile = db.profile
 
     -- Debug option to force display all nodes
-    if db.profile.force_nodes or ns.dev_force then return true end
+    if profile.force_nodes or ns.dev_force then return true end
 
     -- Check if the zone is still phased
     if node ~= self.intro and not self.phased then return false end
@@ -45,7 +80,12 @@ function Map:enabled (node, coord, minimap)
     -- Check minimap, faction and quest completion
     if not node:enabled(self, coord, minimap) then return false end
 
-    return true
+    -- Display the intro node!
+    if node == self.intro then return true end
+
+    -- Display the node based off the group display setting
+    local mapid = self.parents[node.group] or self.id
+    return profile['icon_display_'..node.group..'_'..mapid]
 end
 
 -------------------------------------------------------------------------------

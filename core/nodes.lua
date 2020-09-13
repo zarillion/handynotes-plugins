@@ -16,7 +16,8 @@ local isinstance = ns.isinstance
 Base class for all displayed nodes.
 
     label (string): Tooltip title for this node
-    sublabel (strint): Oneline string to display under label
+    sublabel (string): Oneline string to display under label
+    group (string): Options group for this node (display, scale, alpha)
     icon (string|table): The icon texture to display
     alpha (float): The default alpha value for this type
     scale (float): The default scale value for this type
@@ -54,14 +55,20 @@ function Node.setters:requires (requirement)
     self.sublabel = ns.color.Red(L["Requires"]..' '..requirement)
 end
 
-function Node:display ()
-    local db = ns.addon.db
+function Node:display (map)
+    local profile = ns.addon.db.profile
+
     local icon = self.icon
     if type(icon) == 'string' then
         icon = ns.icons[self.icon] or ns.icons.default
     end
-    local scale = self.scale * (db.profile['icon_scale_'..self.group] or 1)
-    local alpha = self.alpha * (db.profile['icon_alpha_'..self.group] or 1)
+
+    local mapid = map.parents[self.group] or map.id
+    local s_opt = 'icon_scale_'..self.group
+    local a_opt = 'icon_alpha_'..self.group
+    local scale = self.scale * (profile[s_opt] or profile[s_opt..'_'..mapid] or 1)
+    local alpha = self.alpha * (profile[a_opt] or profile[a_opt..'_'..mapid] or 1)
+
     return icon, scale, alpha
 end
 
@@ -221,6 +228,7 @@ end
 -------------------------------------------------------------------------------
 
 local Intro = Class('Intro', Node, {
+    group = 'intro',
     icon = 'quest_yellow',
     scale = 3
 })
@@ -253,7 +261,8 @@ PetBattle.group = "pet_battles"
 ------------------------------------ QUEST ------------------------------------
 -------------------------------------------------------------------------------
 
-local Quest = Class('Quest', Node, {note=AVAILABLE_QUEST})
+local Quest = Class('Quest', Node, { note=AVAILABLE_QUEST })
+
 local QUEST_IDS = {}
 
 function Quest:init ()
@@ -263,6 +272,10 @@ function Quest:init ()
     for i, id in ipairs(self.quest) do
         QUEST_IDS[id] = true
     end
+end
+
+function Quest.getters:group ()
+    return self.daily and 'daily_quests' or 'quests'
 end
 
 function Quest.getters:icon ()
@@ -279,25 +292,6 @@ ns.addon:RegisterEvent('QUEST_TURNED_IN', function (_, id)
         C_Timer.After(1, function() ns.addon:Refresh() end)
     end
 end)
-
--------------------------------------------------------------------------------
--------------------------------- TIMED EVENT --------------------------------
--------------------------------------------------------------------------------
-
-local TimedEvent = Class('TimedEvent', Quest, {
-    icon="peg_yellow",
-    scale=2,
-    group="assaultevents",
-    note=''
-})
-
-function TimedEvent:enabled (map, coord, minimap)
-    -- Timed events that are not active today return nil here
-    if not C_TaskQuest.GetQuestTimeLeftMinutes(self.quest[1]) then
-        return false
-    end
-    return Quest.enabled(self, map, coord, minimap)
-end
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARE -------------------------------------
@@ -365,6 +359,7 @@ end
 
 local Supply = Class('Supply', Treasure, {
     icon = 'star_chest',
+    group = 'supplies',
     scale = 2
 })
 
@@ -379,6 +374,5 @@ ns.node = {
     Quest=Quest,
     Rare=Rare,
     Supply=Supply,
-    TimedEvent=TimedEvent,
     Treasure=Treasure
 }

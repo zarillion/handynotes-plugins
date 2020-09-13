@@ -33,7 +33,7 @@ core\util.lua
 
 pins.xml
 
-options.lua
+common.lua
 uldum.lua
 vale.lua
 visions.lua

@@ -142,7 +142,7 @@ function Addon:RegisterWithHandyNotes()
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
                 if node and map:enabled(node, coord, minimap) then
-                    local icon, scale, alpha = node:display()
+                    local icon, scale, alpha = node:display(map)
                     return coord, nil, icon, scale, alpha
                 end
                 coord, node = next(nodes, coord) -- Get next node
@@ -168,7 +168,7 @@ function Addon:RegisterWithHandyNotes()
         ns.BootstrapDevelopmentEnvironment()
     end
 
-    HandyNotes:RegisterPluginDB(ADDON_NAME, self, ns.options)
+    HandyNotes:RegisterPluginDB(ADDON_NAME, self, ns.options2)
 
     self:RegisterBucketEvent({
         "LOOT_CLOSED", "PLAYER_MONEY", "SHOW_LOOT_TOAST",

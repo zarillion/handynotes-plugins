@@ -6,7 +6,6 @@ local _, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
-local isinstance = ns.isinstance
 
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
@@ -20,9 +19,6 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
-
-local options = ns.options.args.VisibilityGroup.args
-local defaults = ns.optionDefaults.profile
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -38,25 +34,10 @@ function map:prepare ()
 end
 
 function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
     -- check node's future availability (nil=no, 1=yes, 2=both)
     if self.future and not node.future then return false end
     if not self.future and node.future == 1 then return false end
-
-    local profile = ns.addon.db.profile
-    if isinstance(node, Treasure) then
-        if node.quest then return profile.chest_mech end
-        return profile.locked_mech
-    end
-    if isinstance(node, Rare) then return profile.rare_mech end
-    if isinstance(node, PetBattle) then return profile.pet_mech end
-    if node.label == L["rec_rig"] then return profile.recrig_mech end
-
-    -- node for the More Recycling daily
-    if isinstance(node, Quest) then return true end
-
-    return false
+    return Map.enabled(self, node, coord, minimap)
 end
 
 -- Listen for aura applied/removed events so we can refresh when the player
@@ -70,68 +51,6 @@ ns.addon:RegisterEvent('COMBAT_LOG_EVENT_UNFILTERED', function ()
         end)
     end
 end)
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-defaults['chest_mech'] = false
-defaults['locked_mech'] = true
-defaults['rare_mech'] = true
-defaults['pet_mech'] = true
-defaults['recrig_mech'] = true
-
-options.groupMechagon = {
-    type = "header",
-    name = L["Mechagon"],
-    order = 0,
-}
-
-options.mechChestMechagon = {
-    type = "toggle",
-    arg = "chest_mech",
-    name = L["options_toggle_mech_chest"],
-    desc = L["options_toggle_mech_chest_desc"],
-    order = 1,
-    width = "normal",
-}
-
-
-options.lockedChestMechagon = {
-    type = "toggle",
-    arg = "locked_mech",
-    name = L["options_toggle_locked_chest"],
-    desc = L["options_toggle_locked_chest_desc"],
-    order = 2,
-    width = "normal",
-}
-
-options.rareMechagon = {
-    type = "toggle",
-    arg = "rare_mech",
-    name = L["options_toggle_rares"],
-    desc = L["options_toggle_rares_desc"],
-    order = 3,
-    width = "normal",
-}
-
-options.petMechagon = {
-    type = "toggle",
-    arg = "pet_mech",
-    name = L["options_toggle_battle_pets"],
-    desc = L["options_toggle_battle_pets_desc"],
-    order = 4,
-    width = "normal",
-}
-
-options.recrigMechagon = {
-    type = "toggle",
-    arg = "recrig_mech",
-    name = L["options_toggle_recrig"],
-    desc = L["options_toggle_recrig_desc"],
-    order = 5,
-    width = "normal",
-}
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -363,14 +282,14 @@ nodes[72107290] = PetBattle({id=154929}) -- Unit 17
 RED_PAINT = Item({item=170146, quest=56907}) -- Paint Bottle: Nukular Red
 
 -- Recently it looks like these are in fixed spawns compared to when 8.2 hit
-nodes[23195699] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
-nodes[13228581] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
-nodes[19018086] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
-nodes[30775964] = Treasure({label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
-nodes[20537120] = Treasure({label=L["msup_chest"], note=L["msup_chest_note"], rewards={RED_PAINT}})
-nodes[18357618] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
-nodes[25267825] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
-nodes[23988441] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
+nodes[23195699] = Treasure({group='locked_chest', label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
+nodes[13228581] = Treasure({group='locked_chest', label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
+nodes[19018086] = Treasure({group='locked_chest', label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
+nodes[30775964] = Treasure({group='locked_chest', label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
+nodes[20537120] = Treasure({group='locked_chest', label=L["msup_chest"], note=L["msup_chest_note"], rewards={RED_PAINT}})
+nodes[18357618] = Treasure({group='locked_chest', label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
+nodes[25267825] = Treasure({group='locked_chest', label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
+nodes[23988441] = Treasure({group='locked_chest', label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
 
 -------------------------------------------------------------------------------
 ------------------------------ MECHANIZED CHESTS ------------------------------
@@ -378,6 +297,7 @@ nodes[23988441] = Treasure({label=L["rust_chest"], note=L["rust_chest_note"], re
 
 local MechChest = Class('MechChest', Treasure)
 
+MechChest.group = 'mech_chest'
 MechChest.label = L["mech_chest"]
 MechChest.rewards = {
     Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
@@ -466,7 +386,7 @@ nodes[53486145] = Quest({quest=55743, questDeps=56117, daily=true, minimap=false
 
 -------------------------------------------------------------------------------
 
-local RegRig = Class('RegRig', Node)
+local RegRig = Class('RegRig', Node, { group='recrig' })
 
 function RegRig.getters:rlabel ()
     local G, GR, N, H = ns.status.Green, ns.status.Gray, L['normal'], L['hard']
