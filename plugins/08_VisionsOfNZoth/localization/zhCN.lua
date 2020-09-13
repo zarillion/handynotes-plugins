@@ -8,7 +8,6 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes 恩佐斯的幻象"
 L["options_title"] = "恩佐斯的幻象"
-L["options_icons_assaultevents"] = "事件图标"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------

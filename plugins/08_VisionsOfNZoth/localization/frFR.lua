@@ -8,7 +8,6 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes Visions of N'Zoth"
 L["options_title"] = "Visions of N'Zoth"
-L["options_icons_assaultevents"] = "Icônes d'événements d'Assaut"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
