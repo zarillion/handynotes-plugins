@@ -71,6 +71,7 @@ L["undefeated"] = "Undefeated"
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
 
+L["context_menu_set_waypoint"] = "Set map waypoint"
 L["context_menu_add_tomtom"] = "Add to TomTom"
 L["context_menu_hide_node"] = "Hide this node"
 L["context_menu_restore_hidden_nodes"] = "Restore all hidden nodes"
@@ -119,6 +120,7 @@ L["options_icons_daily_quests_desc"] = "Display locations of unmarked daily ques
 L["options_icons_daily_quests"] = "Daily Quests"
 L["options_icons_misc"] = "Miscellaneous"
 L["options_icons_npcs"] = "NPCs"
+L["options_icons_other_desc"] = "Display locations of other uncategorized nodes."
 L["options_icons_other"] = "Other"
 L["options_icons_quests_desc"] = "Display locations of unmarked quest lines."
 L["options_icons_quests"] = "Quests"

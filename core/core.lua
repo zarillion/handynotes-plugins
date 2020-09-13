@@ -32,6 +32,16 @@ local function initializeDropdownMenu (button, level, mapID, coord)
 
         UIDropDownMenu_AddButton(spacer, level)
 
+        UIDropDownMenu_AddButton({
+            text=L["context_menu_set_waypoint"], notCheckable=1,
+            disabled=not C_Map.CanSetUserWaypointOnMap(mapID),
+            func=function (button)
+                local x, y = HandyNotes:getXY(coord)
+                C_Map.SetUserWaypoint(UiMapPoint.CreateFromCoordinates(mapID, x, y))
+                C_SuperTrack.SetSuperTrackedUserWaypoint(true)
+            end
+        }, level)
+
         if select(2, IsAddOnLoaded('TomTom')) then
             UIDropDownMenu_AddButton({
                 text=L["context_menu_add_tomtom"], notCheckable=1,
