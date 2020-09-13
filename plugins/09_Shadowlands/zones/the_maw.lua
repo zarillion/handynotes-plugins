@@ -107,21 +107,21 @@ map.nodes[60964805] = Rare({
     }
 }) -- Darithis the Bleak
 
--- map.nodes[] = Rare({
---     id=158025,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49846}),
---     }
--- }) -- Darklord Taraxis
+map.nodes[49128175] = Rare({
+    id=158025,
+    quest=62282,
+    rewards={
+        Achievement({id=14744, criteria=49846}),
+    }
+}) -- Darklord Taraxis
 
--- map.nodes[] = Rare({
---     id=170711,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49847}),
---     }
--- }) -- Dolos <Death's Knife>
+map.nodes[32946646] = Rare({
+    id=170711,
+    quest=nil,
+    rewards={
+        Achievement({id=14744, criteria=49847}),
+    }
+}) -- Dolos <Death's Knife>
 
 map.nodes[23765341] = Rare({
     id=170774,
@@ -141,13 +141,13 @@ map.nodes[42342108] = Rare({
     }
 }) -- Ekphoras, Herald of Grief
 
--- map.nodes[] = Rare({
---     id=154330,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49850}),
---     }
--- }) -- Eternas the Tormentor
+map.nodes[27584966] = Rare({
+    id=154330,
+    quest=57509,
+    rewards={
+        Achievement({id=14744, criteria=49850}),
+    }
+}) -- Eternas the Tormentor
 
 map.nodes[20586935] = Rare({
     id=170303,
@@ -175,13 +175,13 @@ map.nodes[45507376] = Rare({
     }
 }) -- Nascent Devourer
 
--- map.nodes[] = Rare({
---     id=164064,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49854}),
---     }
--- }) -- Obolos <Prime Adjutant>
+map.nodes[48801830] = Rare({
+    id=164064,
+    quest=60667,
+    rewards={
+        Achievement({id=14744, criteria=49854}),
+    }
+}) -- Obolos <Prime Adjutant>
 
 map.nodes[23692139] = Rare({
     id=172577,
@@ -196,7 +196,7 @@ map.nodes[23692139] = Rare({
     }
 }) -- Orophea
 
-map.nodes[29805960] = Rare({
+map.nodes[30726036] = Rare({
     id=170634,
     quest=nil,
     rewards={
@@ -222,13 +222,13 @@ map.nodes[28701204] = Rare({
     }
 }) -- Talaporas, Herald of Pain
 
--- map.nodes[] = Rare({
---     id=170731,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49859}),
---     }
--- }) -- Thanassos <Death's Voice>
+map.nodes[27397152] = Rare({
+    id=170731,
+    quest=nil,
+    rewards={
+        Achievement({id=14744, criteria=49859}),
+    }
+}) -- Thanassos <Death's Voice>
 
 map.nodes[37676591] = Rare({
     id=172862,
@@ -267,13 +267,13 @@ map.nodes[23004160] = BonusBoss({
     }
 }) -- Agonix
 
--- map.nodes[] = BonusBoss({
---     id=170787,
---     quest=60920,
---     rewards={
---         Achievement({id=14660, criteria=49487}),
---     }
--- }) -- Akros <Death's Hammer>
+map.nodes[26075498] = BonusBoss({
+    id=170787,
+    quest=60920,
+    rewards={
+        Achievement({id=14660, criteria=49487}),
+    }
+}) -- Akros <Death's Hammer>
 
 map.nodes[28712513] = BonusBoss({
     id=168693,
@@ -315,13 +315,13 @@ map.nodes[60456478] = BonusBoss({
     }
 }) -- Houndmaster Vasanok
 
--- map.nodes[] = BonusBoss({
---     id=170692,
---     quest=60903,
---     rewards={
---         Achievement({id=14660, criteria=49486}),
---     }
--- }) -- Krala <Death's Wings>
+map.nodes[30846866] = BonusBoss({
+    id=170692,
+    quest=60903,
+    rewards={
+        Achievement({id=14660, criteria=49486}),
+    }
+}) -- Krala <Death's Wings>
 
 map.nodes[27311754] = BonusBoss({
     id=171316,

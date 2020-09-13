@@ -19,6 +19,7 @@ local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -138,10 +139,13 @@ map.nodes[20485298] = Rare({
 map.nodes[45847919] = Rare({
     id=165290,
     quest=nil,
-    note=L["activation_unknown"],
+    note=L["harika_note"],
     rewards={
         Achievement({id=14310, criteria=48813}),
         Mount({item=180461, id=1310}) -- Horrid Brood Dredwing
+    },
+    pois={
+        POI({43257769}) -- Ballista Bolt
     }
 }) -- Harika the Horrid
 
