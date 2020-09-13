@@ -242,9 +242,9 @@ map.nodes[33538086] = Rare({
 
 ------------------------- POOL OF MIXED MONSTROSITIES -------------------------
 
-local MISCIBLE_OOZE = "|T646670:0|t"
-local MEPHITIC_GOO = "|T136007:0|t"
-local VISCOUS_OIL = "|T136124:0|t"
+local OOZE = "|T646670:0|t"
+local GOO = "|T136007:0|t"
+local OIL = "|T136124:0|t"
 
 map.nodes[58197421] = Rare({
     id=157226,
@@ -253,13 +253,13 @@ map.nodes[58197421] = Rare({
     note=L["mixed_pool_note"],
     rewards = {
         Achievement({id=14721, criteria={
-            {id=48858, quest=61721, note=MISCIBLE_OOZE..' > '..MEPHITIC_GOO..' '..VISCOUS_OIL}, -- Gelloh
-            {id=48863, quest=61719, note=MEPHITIC_GOO..' > '..MISCIBLE_OOZE..' '..VISCOUS_OIL}, -- Corrupted Sediment
-            {id=48854, quest=61718, note=VISCOUS_OIL..' > '..MISCIBLE_OOZE..' '..MEPHITIC_GOO}, -- Pulsing Leech
-            {id=48860, quest=61722, note='('..MISCIBLE_OOZE..' = '..MEPHITIC_GOO..') > '..VISCOUS_OIL}, -- Boneslurp
-            {id=48862, quest=61723, note='('..MISCIBLE_OOZE..' = '..VISCOUS_OIL..') > '..MEPHITIC_GOO}, -- Burnblister
-            {id=48861, quest=61720, note='('..MEPHITIC_GOO..' = '..VISCOUS_OIL..') > '..MISCIBLE_OOZE}, -- Violet Mistake
-            {id=48859, quest=61724, note=MISCIBLE_OOZE..' = '..MEPHITIC_GOO..' = '..VISCOUS_OIL}, -- Oily Invertebrate
+            {id=48858, quest=61721, note=OOZE..' > '..GOO..' '..OIL}, -- Gelloh
+            {id=48863, quest=61719, note=GOO..' > '..OOZE..' '..OIL}, -- Corrupted Sediment
+            {id=48854, quest=61718, note=OIL..' > '..OOZE..' '..GOO}, -- Pulsing Leech
+            {id=48860, quest=61722, note='('..OOZE..' = '..GOO..') > '..OIL}, -- Boneslurp
+            {id=48862, quest=61723, note='('..OOZE..' = '..OIL..') > '..GOO}, -- Burnblister
+            {id=48861, quest=61720, note='('..GOO..' = '..OIL..') > '..OOZE}, -- Violet Mistake
+            {id=48859, quest=61724, note=OOZE..' = '..GOO..' = '..OIL}, -- Oily Invertebrate
         }}),
         Mount({item=182079, id=1410, note=L["Violet"]}), -- Slime-Covered Reins of the Hulking Deathroc
         Pet({item=181270, id=2960, note=L["Oily"]}) -- Decaying Oozewalker
