@@ -265,6 +265,7 @@ L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:1652
 L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar {spell:324872}."
 L["famu_note"] = "Habla con {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}."
 L["grand_arcanist_dimitri_note"] = "Matar los cuatro {npc:167467} para liberar a {npc:167464}."
+L["harika_note"] = "Despoja el Perno de Balista en Dredhollow y dáselo a {npc:165327}, dile entonces que dispare la {npc:165324} para conseguir bajar a {npc:165290}."--Revisar que Ballista Bolt sea Perno de Balista, qué es Dredhollow
 L["innervus_note"] = "Mata a los {npc:160375} cercanos para conseguir la {item:177223} y desbloquear la cripta donde está {npc:160640}."
 L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca de {npc:165151} para comenzar el evento tras el cual aparecerá {npc:165152}."
 L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}."
@@ -274,7 +275,11 @@ L["sinstone_hoarder_note"] = "Aparece en el mapa como un cofre del tesoro. Inten
 L["sire_ladinas_note"] = "Coge un {npc:160621} cercano y usa {spell:313065} en un {npc:157733}."
 L["soulstalker_doina_note"] = "Sigue escaleras abajo y a través del espejo cuando se escape {npc:160392}."
 L["tomb_burster_note"] = "Puede aparecer si {npc:155777} queda atrapado en una telaraña. Mata los {npc:155769} cercanos y comenzarán a salir oleadas de {npc:155795} hasta que aparezca {npc:155779}."
-L["worldedge_gorger_note"] = "Consigue una {item:173939} de los Segadores del Mundo, Devoradores y Mites en el Banewood y en el Endmire. Úsala para encender los Blandones del Fin del Mundo e invocar a {npc:160821}."--Revisar que World Reavers sea Segadores del Mundo, qué es Mites, qué es Banewood, qué es Endmire, que Worldedge Braziers sea Blandones del Fin del Mundo
+L["worldedge_gorger_note"] = [[
+Consigue una {item:173939} de los Segadores del Mundo, Devoradores y Mites en el Banewood y en el Endmire. Úsala para encender los Blandones del Fin del Mundo e invocar a {npc:160821}.
+
+Tiene probabilidades de soltar {item:180583}, con lo que comienza una línea de misiones de 7 días para conseguir la montura {spell:333027}.
+]]--Revisar que World Reavers sea Segadores del Mundo, qué es Mites, qué es Banewood, qué es Endmire, que Worldedge Braziers sea Blandones del Fin del Mundo
 
 L["dredglaive_note"] = "Debajo del puente en el cuerpo de un {npc:173671}."
 L["lost_quill_note"] = "Despoja {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida."--Revisar que Forbidden Library sea Biblioteca Prohibida
@@ -294,6 +299,8 @@ L["remlates_cache"] = "Cofre Escondido de Remlate"--Revisar que Remlate's Hidden
 L["remlates_cache_note"] = "En la pared exterior de Refugio Oscuro detrás de la cripta."--Revisar que Darkhaven sea Refugio Oscuro
 L["smuggled_cache"] = "Cofre de Contrabando"--Revisar que Smuggled Cache sea Cofre de Contrabando
 L["wayfairer_spoils"] = "Botín Abandonado de Wayfairer"--Revisar que Wayfairer's Abandoned Spoils sea Botín Abandonado de Wayfairer
+
+L["loyal_gorger_note"] = "Visita el Endmire y completa una misión diaria ofrecida por tu {npc:173498} 7 veces para conseguirlo como montura."--Revisar qué es Endmire
 
 L["sinrunner_note"] = "Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer."
 L["sinrunner_note_day1"] = "Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de Páramos de Poniente."
@@ -336,3 +343,8 @@ Combina las tres inscripciones para crear la {item:182329}, la cual debe ser usa
 
 L["soul_well_note"] = "Atrapa la Estigia que surge del Pozo de Almas."--Revisar que Stygia sea Estigia, que erupting sea surgiendo, que Soul Well sea Pozo de Almas
 L["obliterated_soul_shards_note"] = "Recoge Fragmentos de Almas Eliminadas en los puentes."--Revisar que Obliterated Soul Shards sea Fragmentos de Almas Eliminadas
+
+L["options_icons_bonus_boss"] = "Élites de Bonificación"
+L["options_icons_bonus_boss_desc"] = "Muestra las localizaciones de los élites de bonificación."
+L["options_icons_bonus_event"] = "Eventos de Bonificación"
+L["options_icons_bonus_event_desc"] = "Muestra las localizaciones de los eventos de bonificación."
