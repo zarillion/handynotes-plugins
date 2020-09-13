@@ -1,6 +1,4 @@
---[[
-	Spanish Localization by (EU) Krovikan-Minahonda
---]]
+--Spanish Localization by (EU) Krovikan-Minahonda
 
 local ADDON_NAME, _ = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "esES", false, true)
@@ -12,7 +10,6 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes Visiones de N'Zoth"
 L["options_title"] = "Visiones de N'Zoth"
-L["options_icons_assaultevents"] = "Iconos de los Eventos de los Asaltos"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
