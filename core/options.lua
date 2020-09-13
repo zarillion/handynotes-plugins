@@ -47,10 +47,7 @@ ns.optionDefaults = {
 --------------------------------- OPTIONS UI ----------------------------------
 -------------------------------------------------------------------------------
 
--- TODO: remove me
-ns.options = {args={VisibilityGroup={args={}}}}
-
-ns.options2 = {
+ns.options = {
     type = "group",
     name = L["options_title"],
     childGroups = "tab",
@@ -153,13 +150,13 @@ ns.options2 = {
 }
 
 for i, group in ipairs({'rares', 'treasures', 'pet_battles', 'other'}) do
-    ns.options2.args.GlobalTab.args['group_icon_'..group] = {
+    ns.options.args.GlobalTab.args['group_icon_'..group] = {
         type = "header",
         name = L["options_icons_"..group],
         order = i * 10,
     }
 
-    ns.options2.args.GlobalTab.args['icon_scale_'..group] = {
+    ns.options.args.GlobalTab.args['icon_scale_'..group] = {
         type = "range",
         name = L["options_scale"],
         desc = L["options_scale_desc"],
@@ -169,7 +166,7 @@ for i, group in ipairs({'rares', 'treasures', 'pet_battles', 'other'}) do
         order = i * 10 + 1,
     }
 
-    ns.options2.args.GlobalTab.args['icon_alpha_'..group] = {
+    ns.options.args.GlobalTab.args['icon_alpha_'..group] = {
         type = "range",
         name = L["options_opacity"],
         desc = L["options_opacity_desc"],
@@ -209,7 +206,7 @@ function ns.InitializeGroup (map, group)
     end
 
     -- Create map options group under zones tab
-    local map_options = ns.options2.args.ZonesTab.args['Zone_'..map.id]
+    local map_options = ns.options.args.ZonesTab.args['Zone_'..map.id]
     if not map_options then
         map_options = {
             type = "group",
@@ -231,7 +228,7 @@ function ns.InitializeGroup (map, group)
                 }
             }
         }
-        ns.options2.args.ZonesTab.args['Zone_'..map.id] = map_options
+        ns.options.args.ZonesTab.args['Zone_'..map.id] = map_options
     end
 
     map._icons_order = map._icons_order or 0

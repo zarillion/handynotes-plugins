@@ -25,26 +25,26 @@ To enable all development settings and functionality:
 
 local function BootstrapDevelopmentEnvironment()
     -- Add development settings to the UI
-    ns.options2.args.GeneralTab.args.DevelopmentHeader = {
+    ns.options.args.GeneralTab.args.DevelopmentHeader = {
         type = "header",
         name = L["options_dev_settings"],
         order = 100,
     }
-    ns.options2.args.GeneralTab.args.show_debug_map = {
+    ns.options.args.GeneralTab.args.show_debug_map = {
         type = "toggle",
         arg = "show_debug_map",
         name = L["options_toggle_show_debug_map"],
         desc = L["options_toggle_show_debug_map_desc"],
         order = 101,
     }
-    ns.options2.args.GeneralTab.args.show_debug_quest = {
+    ns.options.args.GeneralTab.args.show_debug_quest = {
         type = "toggle",
         arg = "show_debug_quest",
         name = L["options_toggle_show_debug_quest"],
         desc = L["options_toggle_show_debug_quest_desc"],
         order = 102,
     }
-    ns.options2.args.GeneralTab.args.force_nodes = {
+    ns.options.args.GeneralTab.args.force_nodes = {
         type = "toggle",
         arg = "force_nodes",
         name = L["options_toggle_force_nodes"],

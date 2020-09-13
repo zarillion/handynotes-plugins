@@ -168,7 +168,7 @@ function Addon:RegisterWithHandyNotes()
         ns.BootstrapDevelopmentEnvironment()
     end
 
-    HandyNotes:RegisterPluginDB(ADDON_NAME, self, ns.options2)
+    HandyNotes:RegisterPluginDB(ADDON_NAME, self, ns.options)
 
     self:RegisterBucketEvent({
         "LOOT_CLOSED", "PLAYER_MONEY", "SHOW_LOOT_TOAST",
