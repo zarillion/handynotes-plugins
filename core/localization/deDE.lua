@@ -71,6 +71,7 @@ L["undefeated"] = "Unbesiegt"
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
 
+L["context_menu_set_waypoint"] = "Kartenmarkierung setzen"
 L["context_menu_add_tomtom"] = "Zu TomTom hinzufügen"
 L["context_menu_hide_node"] = "Verstecke diesen Punkt"
 L["context_menu_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
@@ -80,11 +81,11 @@ L["context_menu_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 -------------------------------------------------------------------------------
 
 L["options_global"] = "Global"
-L["options_zones"] = "Zones"
+L["options_zones"] = "Zonen"
 
-L["options_general_description"] = "Settings that control the behavior of nodes and their rewards."
-L["options_global_description"] = "Settings that control the display of all nodes in all zones."
-L["options_zones_description"] = "Settings that control the display of nodes in each individual zone."
+L["options_general_description"] = "Einstellungen, die das Verhalten von Punkten und deren Belohnungen steuern."
+L["options_global_description"] = "Einstellungen, die die Darstellung aller Punkte in allen Zonen steuern."
+L["options_zones_description"] = "Einstellungen, die die Darstellung von Punkten in jeder einzelnen Zone steuern."
 
 ------------------------------------ ICONS ------------------------------------
 
@@ -115,9 +116,14 @@ L["options_icons_caves_desc"] = "Zeigt Höhleneingänge für andere Symbole an"
 L["options_icons_caves"] = "Höhlen"
 L["options_icons_daily_chests_desc"] = "Zeigt die Positionen von Truhen an \n(täglich plünderbar)."
 L["options_icons_daily_chests"] = "Truhen"
+L["options_icons_daily_quests_desc"] = "Zeigt die Positionen von nicht markierten täglichen Quests an."
+L["options_icons_daily_quests"] = "Tägliche Quests"
 L["options_icons_misc"] = "Sonstiges"
 L["options_icons_npcs"] = "NPCs"
+L["options_icons_other_desc"] = "Zeigt die Positionen von anderen nicht kategorisierten Punkten an."
 L["options_icons_other"] = "Andere Symbole"
+L["options_icons_quests_desc"] = "Zeigt die Positionen von nicht markierten Questreihen an."
+L["options_icons_quests"] = "Quests"
 L["options_icons_rares_desc"] = "Zeigt die Positionen von seltenen Gegnern an."
 L["options_icons_rares"] = "Seltene Gegner"
 L["options_icons_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."

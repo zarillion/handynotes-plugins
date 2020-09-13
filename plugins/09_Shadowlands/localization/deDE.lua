@@ -176,8 +176,8 @@ L["anima_shard_61297"] = "Hinter einer Steinsäule."
 L["anima_shard_61298"] = "Hinter einem Liegestuhl."
 L["anima_shard_61299"] = "Hinter einer großen Fackel versteckt."
 L["anima_shard_61300"] = "An der Kante des mittleren Brunnens."
-L["options_icons_anima_shards"] = "Verlorene Animakristallsplitter"
-L["options_icons_anima_shards_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg \"Splitterpartie (ID:14339)\" an." --{achievement:14339}
+L["options_icons_anima_shard"] = "Verlorene Animakristallsplitter"
+L["options_icons_anima_shard_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg \"Splitterpartie (ID:14339)\" an." --{achievement:14339}
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -268,6 +268,7 @@ L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Le
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
 L["famu_note"] = "Sprich mit {npc:166483}, um das Event auszulösen."
 L["grand_arcanist_dimitri_note"] = "Töte die vier |CFFFFFF00Verhüllten Ritualisten|r, um {npc:167464} freizulassen." --{npc:167467}
+L["harika_note"] = "Plündere den Ballistenbolzen in Schauerkuppe und gib diesen zu {npc:165327}, dann sage ihm er soll die {npc:165324} abfeuern, um {npc:165290} vom Himmel zu holen." --review Blizzard translation
 L["innervus_note"] = "Töte |CFFFFFF00Wilde Ritualisten|r in der Gegend, um einen {item:177223} zu erhalten, um die Krypta aufzuschließen." --{npc:160375}
 L["leeched_soul_note"] = "In der nahe gelegenen Krypta. Gehe in die Nähe von {npc:165151}, um das Event zu starten."
 L["lord_mortegore_note"] = "Töte Gegner in der Nähe, um eine {item:174378} zu erhalten und verwende diese, um ein {npc:161870} zu ermächtigen. {npc:161891} wird erscheinen, wenn alle vier Siegel ermächtigt wurden."
@@ -277,7 +278,11 @@ L["sinstone_hoarder_note"] = "Erscheint auf der Minimap als Schatztruhe. Versuch
 L["sire_ladinas_note"] = "Hebe Restlicht in der Nähe auf und verwende {spell:313065} auf einen {npc:157733}."
 L["soulstalker_doina_note"] = "Verfolge sie nach unten und durch den Spiegel wenn sie wegläuft."
 L["tomb_burster_note"] = "Kann beschworen werden, wenn {npc:155777} in einem Netz gefangen ist. Töte nahegelegene {npc:155769}|CFFFFFF00er|r und Wellen von {npc:155795}|CFFFFFF00n|r bis {npc:155779} erscheint."
-L["worldedge_gorger_note"] = "Erlange ein {item:173939} von Welten Reavers, Fressern und Milben in den Gebieten Fluchwald und dem Endmorast. Verwende es, um die Weltenrandkohlenpfannen zu entflammen und den {npc:160821} zu beschwören." --review Blizzard traslation
+L["worldedge_gorger_note"] = [[
+Erlange ein {item:173939} von Welten Reavers, Fressern und Milben in den Gebieten Fluchwald und dem Endmorast. Verwende es, um die Weltenrandkohlenpfannen zu entflammen und den {npc:160821} zu beschwören.
+
+Hat eine Chance die {item:180583} fallen zu lassen, welche eine 7-tägige Questreihe startet, um das Reittier {spell:333027} zu erhalten.
+]] --review Blizzard traslation
 
 L["dredglaive_note"] = "Unter der Brücke in der {npc:173671} Leiche."
 L["lost_quill_note"] = "Plündere {item:182475} von der Flasche auf dem Tisch in der Verbotenen Bibliothek."
@@ -297,6 +302,8 @@ L["remlates_cache"] = "Remlates versteckter Schatz"
 L["remlates_cache_note"] = "Hinter der Außenmauer der Krypta in Dunkelhafen."
 L["smuggled_cache"] = "Geschmuggelte Truhe"
 L["wayfairer_spoils"] = "Zurückgelassene Beute eines Wanderers" --use Schattentor
+
+L["loyal_gorger_note"] = "Besuch den Endmorast und schließe 7-mal eine tägliche Quest ab, die dir von deinem {npc:173498} angeboten wird, um ihn als Reittier zu erhalten."
 
 L["sinrunner_note"] = "Bring Essen und Vorräte für sechs Tage zu {npc:173468}, um ihre Zügel zu erhalten. Sie erscheint jeweils nur für einige Minuten."
 L["sinrunner_note_day1"] = "Verfüttere an Graumähne 8x {item:182581}, kann im umliegenden Gebiet der Farmen in Westfall gefunden werden."
@@ -339,3 +346,8 @@ Kombiniere alle drei Gravuren, um den {item:182329} herzustellen, welcher am Alt
 
 L["soul_well_note"] = "Fange den Stygia ausbruch aus dem Seelenbrunnen." --review Blizzard translation
 L["obliterated_soul_shards_note"] = "Sammel Ausgelöschte Seelensplitter auf den Brücken." --review Blizzard translation
+
+L["options_icons_bonus_boss"] = "Bonus Elitegegner"
+L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."
+L["options_icons_bonus_event"] = "Bonus Events"
+L["options_icons_bonus_event_desc"] = "Zeigt die Positionen von Bonus Events."
