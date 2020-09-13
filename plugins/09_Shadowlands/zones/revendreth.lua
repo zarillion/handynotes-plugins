@@ -282,19 +282,9 @@ map.nodes[38607200] = Rare({
     note=L["worldedge_gorger_note"],
     rewards={
         Achievement({id=14310, criteria=48805}),
-        Item({item=180583}), -- Impressionable Gorger Spawn
-        Mount({item=182589, id=1391}) -- Loyal Gorger
+        Item({item=180583, quest=61188}) -- Impressionable Gorger Spawn
     }
 }) -- Worldedge Gorger
-
--- Prereq item: Impressionable Gorger Spawn 61188
--- Daily completion: 61843
--- Day 1: Nipping at the Undergrowth 61839
--- Day 2: Vineroot on the Menu 61840
--- Day 3: Vineroot Will Not Do 61842
--- Day 4: Hungry Hungry Gorger 61844
--- Day 5: Standing Toe to Toe 62044
--- Day 6: Ready for More 62045
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -461,6 +451,32 @@ map.nodes[68446445] = Treasure({
     quest=59884,
     label=L["wayfairer_spoils"]
 }) -- Wayfairer's Abandoned Spoils
+
+-------------------------------------------------------------------------------
+-------------------------------- LOYAL GORGER ---------------------------------
+-------------------------------------------------------------------------------
+
+-- Daily completion: 61843
+
+map.nodes[59305700] = NPC({
+    id=173499,
+    icon=3601543,
+    quest={
+        61839, -- Nipping at the Undergrowth
+        61840, -- Vineroot on the Menu
+        61842, -- Vineroot Will Not Do
+        61844, -- Hungry Hungry Gorger
+        62044, -- Standing Toe to Toe
+        62045, -- Ready for More
+        62046  -- A New Pack
+    },
+    questDeps=61188,
+    questCount=true,
+    note=L["loyal_gorger_note"],
+    rewards={
+        Mount({item=182589, id=1391}) -- Loyal Gorger
+    }
+})
 
 -------------------------------------------------------------------------------
 ------------------------------ SINRUNNER BLANCHY ------------------------------
