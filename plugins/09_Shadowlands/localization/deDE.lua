@@ -25,9 +25,19 @@ L["skuld_vit_note"] = "In einer Höhle, blockiert von einer Barriere. Ein Paktmi
 L["valfir_note"] = "Klicke den Funkelnden Animasamen auf dem halben Weg nach unten an und verwende {spell:338045}, um seinen Stärkungszauber {spell:338038} zu entfernen." --review Blizzard translation
 L["wrigglemortis_note"] = "Ziehe die {npc:164179} heraus, um {npc:164147} erscheinen zu lassen."
 
+L["night_mare_note"] = [[
+Reise nach Tirna Scithe und folge dem Wurzelpfad an der nordwestlichen Klippe zu einem kaputten Karren. Dort kannst du auf dem Boden ein {item:181243} plündern.
+
+Bring diesen Gegenstand zu {npc:165704} im Schimmerkaskaden Becken.
+Sie wird dir ein {item:181242} im Austausch gegen 10 {item:173204} geben. |cFFFF8C00Wenn sie nicht da ist, musst du die Questreihen |cFFFFFD00Ärger am Gormlingpferch|r und |cFFFFFD00Listige Spriggans|r zuerst abschließen.|r
+
+Danach sprich mit {npc:160262} im Herz des Waldes, um {item:181242} gegen einen {item:178675} auszutauschen. Verwende diesen Gegenstand, um den Stärkungszauber {spell:327083} zu erhalten, der es dir erlaubt {npc:168135} zu sehen.
+]]
+
 L["star_lake"] = "Sternseeamphitheater"
 L["star_lake_note"] = "Sprich mit {npc:171743}, um eine der besonderen Begegnungen zu beginnen."
 
+L["cache_of_the_moon"] = "Sammel {npc:171360}|CFFFFFF00s|r fünf verlorene Werkzeuge im Garten der Nacht und kombiniere diese zu {item:180753}. Bring dieses zu ihr zurück und sie wird dir die {spell:334353} gewähren, um die Truhe sehen zu können."
 L["darkreach_supplies"] = "Verwende den {npc:169995}, um nach Südwesten in den ausgehöhlten Turm zu gleiten."
 L["desiccated_moth"] = "Verwende den {npc:169997}, nordwestlich des Baumes, um in die Baumkrone zu gleiten. Verbrenne {item:180784} im Räuchergefäß um den Schatz zu sammeln." --don't know how to get the flower.
 L["dreamsong_heart"] = "Verwende den {npc:169997} an der Seite des Baumes, um auf den Baum geschleudert zu werden."
@@ -38,6 +48,16 @@ L["harmonic_chest"] = "Benötigt zwei Spieler. Einer spielt die Harfe und der an
 L["hearty_dragon_plume"] = "Verwende die {spell:333554} an der Spitze der nahe gelegenen Wasserfälle (die Feder liegt bei (48.9, 41.0)), um auf den Ast zu gleiten."
 L["old_ardeite_note"] = "Töte |CFFFFFF00Ritualisten von Schimmergeäst|r oder |CFFFFFF00Besesene Verteidiger|r in dem Gebiet Schimmergeäst im Südosten, um eine {item:174042} zu erhalten. Verwende diese dazu, um zu {npc:164391} hoch zu fliegen." --{npc:160747} {npc:160748}
 L["swollen_anima_seed"] = "Ein großer Samen der in einem Baumstamm liegt."
+
+L["playful_vulpin_note"] = [[
+Finde und verwende fünf mal die richtigen Emotes für {npc:171206}, um das Haustier zu erhalten.
+
+• beginnt neugierig zu graben = |cFFFF8C00/neugierig|r
+• hoppelt umher und kann nicht stillsitzen = |cFFFF8C00/sitzen|r
+• singt ganz alleine = |cFFFF8C00/singen|r
+• tanzt vor Freude = |cFFFF8C00/tanzen|r
+• setzt sich einsam und traurig = |cFFFF8C00/streicheln|r
+]]
 
 L["tame_gladerunner"] = "Schimmernebelläufer"
 L["tame_gladerunner_note"] = [[
@@ -165,10 +185,12 @@ L["options_toggle_anima_shards_desc"] = "Zeigt die Positionen aller 50 verlorene
 
 L["chelicerae_note"] = "Zerstöre {npc:159885}, um {npc:159886} angreifen zu können."
 L["deepscar_note"] = "Kann in verschiedenen Eingängen vom Theater der Schmerzen erscheinen."
+L["forgotten_mementos"] = "Ziehe an der Vault Portcullis Chain in der Kammer westlich des Schatzes, um das Gatter zu öffnen." --review Blizzard translations
 L["gieger_note"] = "Ziehe an {npc:162815}, um {npc:162741} zu aktivieren."
 L["gristlebeak_note"] = "Zerbrich jedes {npc:162761} in der Nähe, daraufhin wird {npc:162588} zu euch herunter geflogen kommen."
 L["malkorak_note"] = "An der Spitze des Turms \n(eine menge Treppenstufen)."
 L["schmitd_note"] = "Benutze nahegelegene {spell:313451}, um sein Schild zu brechen."
+L["taskmaster_xox_note"] = "Teilt sich einen spawn mit {npc:160204}, {npc:160230} und {npc:160226}."
 
 L["mixed_pool_note"] = [[
 Sammel Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 30 Materialien hinzugefügt wurden, erscheint je nach verwendeter Kombination einer von sieben seltenen Gegnern.
@@ -240,6 +262,7 @@ L["options_toggle_kittens_desc"] = "Zeigt die Positionen der Kätzchen für den 
 
 L["amalgamation_of_filth_note"] = "Wenn die Weltquest |cFFFFFD00[Drecksarbeit: Abrisstrupp]|r verfügbar ist, klicke auf die Rubbish Box und verwende {spell:324115} ins Wasser hinein."
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
+L["amalgamation_of_sin_note"] = "Erhalte einen {item:180376} von der Weltquest |cFFFFFD00[Ruft Eure Sünden Herbei]|r und verwende es, um den {npc:170434} zu beschwören."
 L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Muck It Up]|r auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard translation /dump C_QuestLog.GetTitleForQuestID(59808)
 L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
@@ -251,6 +274,7 @@ L["lord_mortegore_note"] = "Töte Gegner in der Nähe, um eine {item:174378} zu 
 L["manifestation_of_wrath_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Seelenschwärme]|r eine {npc:169916} wiedererlangt wird."
 L["scrivener_lenua_note"] = "Bringe {npc:160753} zurück zur Verbotenen Bibliothek."
 L["sinstone_hoarder_note"] = "Erscheint auf der Minimap als Schatztruhe. Versuch den {npc:162503} zu plündern und {npc:162481} wird sich offenbaren."
+L["sire_ladinas_note"] = "Hebe Restlicht in der Nähe auf und verwende {spell:313065} auf einen {npc:157733}."
 L["soulstalker_doina_note"] = "Verfolge sie nach unten und durch den Spiegel wenn sie wegläuft."
 L["tomb_burster_note"] = "Kann beschworen werden, wenn {npc:155777} in einem Netz gefangen ist. Töte nahegelegene {npc:155769}|CFFFFFF00er|r und Wellen von {npc:155795}|CFFFFFF00n|r bis {npc:155779} erscheint."
 L["worldedge_gorger_note"] = "Erlange ein {item:173939} von Welten Reavers, Fressern und Milben in den Gebieten Fluchwald und dem Endmorast. Verwende es, um die Weltenrandkohlenpfannen zu entflammen und den {npc:160821} zu beschwören." --review Blizzard traslation
@@ -289,7 +313,11 @@ L["options_toggle_carriages_desc"] = "Zeigt die Positionen und Wege von fahrbare
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["maw_intro_note"] = "Schließe die Einführungsquestreihe ab, um im Schlund seltene Gegner und Events freizuschalten."
+L["maw_intro_note"] = [[
+Schließe die Einführungsquestreihe ab, um im Schlund seltene Gegner und Events freizuschalten.
+
+Bis du {npc:170651} zurück nach Oribos bringst, wirst du in einem anderen Phasing sein als die meisten anderen Spieler.
+]]
 
 L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331783}, um {npc:170301} zu beschwören."
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
