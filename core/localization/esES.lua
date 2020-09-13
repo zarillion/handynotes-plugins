@@ -73,6 +73,7 @@ L["undefeated"] = "Sin derrotar"
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
 
+L["context_menu_set_waypoint"] = "Añadir al mapa punto de ruta"
 L["context_menu_add_tomtom"] = "Agregar a TomTom"
 L["context_menu_hide_node"] = "Ocultar este nodo"
 L["context_menu_restore_hidden_nodes"] = "Restaurar todos los nodos ocultos"
@@ -121,6 +122,7 @@ L["options_icons_daily_quests_desc"] = "Muestra las localizaciones de las mision
 L["options_icons_daily_quests"] = "Misiones Diarias"
 L["options_icons_misc"] = "Miscelánea"
 L["options_icons_npcs"] = "NPCs"
+L["options_icons_other_desc"] = "Muestra las localizaciones de otros nodos sin categoría."
 L["options_icons_other"] = "Otros Iconos"
 L["options_icons_quests_desc"] = "Muestra las localizaciones de las líneas de misiones sin marcar."
 L["options_icons_quests"] = "Misiones"
