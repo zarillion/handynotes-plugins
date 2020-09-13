@@ -137,6 +137,13 @@ function Addon:OnInitialize()
         self:UnregisterEvent("PLAYER_ENTERING_WORLD")
         self:ScheduleTimer("RegisterWithHandyNotes", 1)
     end)
+
+    -- Add quick-toggle menu button to top-right corner of world map
+    WorldMapFrame:AddOverlayFrame(
+        ADDON_NAME.."WorldMapOptionsButtonTemplate",
+        "DROPDOWNTOGGLEBUTTON", "TOPRIGHT",
+        WorldMapFrame:GetCanvasContainer(), "TOPRIGHT", -68, -2
+    )
 end
 
 -------------------------------------------------------------------------------

@@ -76,6 +76,8 @@ L["context_menu_add_tomtom"] = "Add to TomTom"
 L["context_menu_hide_node"] = "Hide this node"
 L["context_menu_restore_hidden_nodes"] = "Restore all hidden nodes"
 
+L["map_button_text"] = "Adjust icon display, alpha and scaling for this map."
+
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------

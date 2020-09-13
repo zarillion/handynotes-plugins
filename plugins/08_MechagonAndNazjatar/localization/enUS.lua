@@ -6,7 +6,7 @@ if not L then return end
 ----------------------------------- GENERAL -----------------------------------
 -------------------------------------------------------------------------------
 
-L["context_menu_title"] = "HandyNotes Mechagon & Nazjatar"
+L["context_menu_title"] = "HandyNotes: Mechagon & Nazjatar"
 L["options_title"] = "Mechagon & Nazjatar"
 
 -------------------------------------------------------------------------------

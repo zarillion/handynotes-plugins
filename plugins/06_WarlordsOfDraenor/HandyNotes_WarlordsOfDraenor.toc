@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: HandyNotes: Warlords of Draenor
 ## Version: 1
 ## Notes: Warlords of Draenor Notes
@@ -22,8 +22,11 @@ core\dev.lua
 core\map.lua
 core\nodes.lua
 core\rewards.lua
+core\templates.lua
 core\pois.lua
 core\util.lua
+
+templates.xml
 
 zones\frostfire.lua
 zones\gorgrond.lua

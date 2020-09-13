@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: HandyNotes: Shadowlands
 ## Version: 3
 ## Notes: Shadowlands Notes
@@ -23,10 +23,11 @@ core\dev.lua
 core\map.lua
 core\nodes.lua
 core\rewards.lua
+core\templates.lua
 core\pois.lua
 core\util.lua
 
-pins.xml
+templates.xml
 
 common.lua
 zones\ardenweald.lua

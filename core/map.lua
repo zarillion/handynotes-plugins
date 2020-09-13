@@ -30,6 +30,7 @@ local Map = Class('Map', nil, {
 
 function Map:init ()
     self.nodes = {}
+    self.groups = {}
     self.options = self.options or {}
     self.parents = self.parents or {}
 
@@ -49,10 +50,18 @@ function Map:add(coord, node)
         error('All nodes must be instances of the Node() class:', coord, node)
     end
 
-    -- Initialize group defaults and UI controls for this map if the group does
-    -- not inherit its settings and defaults from a parent map
-    if not self.parents[node.group] then
-        ns.InitializeGroup(self, node.group)
+    if node.group ~= 'intro' then
+        -- Initialize group defaults and UI controls for this map if the group does
+        -- not inherit its settings and defaults from a parent map
+        if not self.parents[node.group] then
+            ns.InitializeGroup(self, node.group)
+        end
+
+        -- Keep track of all groups associated with this map
+        if not self.groups[node.group] then
+            self.groups[#self.groups + 1] = node.group
+            self.groups[node.group] = true
+        end
     end
 
     rawset(self.nodes, coord, node)

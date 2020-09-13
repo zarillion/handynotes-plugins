@@ -188,9 +188,6 @@ function ns.InitializeGroup (map, group)
     if _INITIALIZED[group..map.id] then return end
     _INITIALIZED[group..map.id] = true
 
-    -- Skip intro nodes
-    if group == 'intro' then return end
-
     -- Create default option values for this group if they are not set
     local defaults = ns.optionDefaults.profile
     local map_defaults = map.options[group] or {}
