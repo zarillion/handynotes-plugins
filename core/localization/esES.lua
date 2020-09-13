@@ -82,11 +82,11 @@ L["context_menu_restore_hidden_nodes"] = "Restaurar todos los nodos ocultos"
 -------------------------------------------------------------------------------
 
 L["options_global"] = "Global"
-L["options_zones"] = "Zones"
+L["options_zones"] = "Zonas"
 
-L["options_general_description"] = "Settings that control the behavior of nodes and their rewards."
-L["options_global_description"] = "Settings that control the display of all nodes in all zones."
-L["options_zones_description"] = "Settings that control the display of nodes in each individual zone."
+L["options_general_description"] = "Ajustes que controlan el comportamiento de los nodos y sus recompensas."
+L["options_global_description"] = "Ajustes que controlan la visualización de todos los nodos en todas las zonas."
+L["options_zones_description"] = "Ajustes que controlan la visualización de nodos en cada zona individual."
 
 ------------------------------------ ICONS ------------------------------------
 
@@ -113,13 +113,17 @@ L["options_restore_hidden_nodes_desc"] = "Vuelve a mostrar todos los nodos ocult
 
 L["options_icons_pet_battles_desc"] = "Muestra las localizaciones de los entrenadores de mascotas y NPCs."
 L["options_icons_pet_battles"] = "Mascotas de combate"
-L["options_icons_caves_desc"] = "Mostrar entradas de cuevas para otros nodos."
+L["options_icons_caves_desc"] = "Muestra las entradas de cuevas para otros nodos."
 L["options_icons_caves"] = "Cuevas"
-L["options_icons_daily_chests_desc"] = "Mostrar la localización de los cofres (despojables diariamente)."
+L["options_icons_daily_chests_desc"] = "Muestra la localización de los cofres (despojables diariamente)."
 L["options_icons_daily_chests"] = "Cofres"
+L["options_icons_daily_quests_desc"] = "Muestra las localizaciones de las misiones diarias sin marcar."
+L["options_icons_daily_quests"] = "Misiones Diarias"
 L["options_icons_misc"] = "Miscelánea"
 L["options_icons_npcs"] = "NPCs"
 L["options_icons_other"] = "Otros Iconos"
+L["options_icons_quests_desc"] = "Muestra las localizaciones de las líneas de misiones sin marcar."
+L["options_icons_quests"] = "Misiones"
 L["options_icons_rares_desc"] = "Muestra las localizaciones de los NPCs raros."
 L["options_icons_rares"] = "Raros"
 L["options_icons_supplies_desc"] = "Muestra todas las localizaciones posibles para los cajones de suministros de guerra."
