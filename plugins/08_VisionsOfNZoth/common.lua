@@ -15,7 +15,7 @@ local Quest = ns.node.Quest
 local TimedEvent = Class('TimedEvent', Quest, {
     icon="peg_yellow",
     scale=2,
-    group="assaultevents",
+    group="assault_events",
     note=''
 })
 

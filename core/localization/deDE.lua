@@ -79,14 +79,16 @@ L["context_menu_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["options_global"] = "Global"
+L["options_zones"] = "Zones"
+
+L["options_general_description"] = "Settings that control the behavior of nodes and their rewards."
+L["options_global_description"] = "Settings that control the display of all nodes in all zones."
+L["options_zones_description"] = "Settings that control the display of nodes in each individual zone."
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "Symboleinstellungen"
-L["options_icons_treasures"] = "Schatzsymbole"
-L["options_icons_rares"] = "Seltene Gegner Symbole"
-L["options_icons_caves"] = "Höhlensymbole"
-L["options_icons_pet_battles"] = "Haustierkampfsymbole"
-L["options_icons_other"] = "Andere Symbole"
 L["options_scale"] = "Symbolgröße"
 L["options_scale_desc"] = "1 = 100%"
 L["options_opacity"] = "Symboltransparenz"
@@ -107,20 +109,21 @@ L["options_toggle_hide_minimap_desc"] = "Blendet alle Symbole dieses Addons auf 
 L["options_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 L["options_restore_hidden_nodes_desc"] = "Stelle alle Punkte wiederher die über das Kontextmenü versteckt wurden."
 
-L["options_toggle_battle_pets_desc"] = "Zeigt Standorte von Kampfhaustiertrainern und NPCs an."
-L["options_toggle_battle_pets"] = "Kampfhaustiere"
-L["options_toggle_caves_desc"] = "Zeigt Höhleneingänge für andere Symbole an"
-L["options_toggle_caves"] = "Höhlen"
-L["options_toggle_chests_desc"] = "Zeigt die Positionen von Truhen an \n(täglich plünderbar)."
-L["options_toggle_chests"] = "Truhen"
-L["options_toggle_misc"] = "Sonstiges"
-L["options_toggle_npcs"] = "NPCs"
-L["options_toggle_rares_desc"] = "Zeigt die Positionen von seltenen Gegnern an."
-L["options_toggle_rares"] = "Seltene Gegner"
-L["options_toggle_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
-L["options_toggle_supplies"] = "Kisten mit Kriegsvorräten"
-L["options_toggle_treasures"] = "Schätze"
-L["options_toggle_treasures_desc"] = "Zeigt die Standorte versteckter Schätze an."
+L["options_icons_pet_battles_desc"] = "Zeigt Standorte von Kampfhaustiertrainern und NPCs an."
+L["options_icons_pet_battles"] = "Kampfhaustiere"
+L["options_icons_caves_desc"] = "Zeigt Höhleneingänge für andere Symbole an"
+L["options_icons_caves"] = "Höhlen"
+L["options_icons_daily_chests_desc"] = "Zeigt die Positionen von Truhen an \n(täglich plünderbar)."
+L["options_icons_daily_chests"] = "Truhen"
+L["options_icons_misc"] = "Sonstiges"
+L["options_icons_npcs"] = "NPCs"
+L["options_icons_other"] = "Andere Symbole"
+L["options_icons_rares_desc"] = "Zeigt die Positionen von seltenen Gegnern an."
+L["options_icons_rares"] = "Seltene Gegner"
+L["options_icons_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
+L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
+L["options_icons_treasures"] = "Schätze"
+L["options_icons_treasures_desc"] = "Zeigt die Standorte versteckter Schätze an."
 
 ---------------------------------- TOOLTIP ---------------------------------
 

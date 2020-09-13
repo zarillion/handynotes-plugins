@@ -51,14 +51,14 @@ L["shock_bot_note"] = "Click the bot to gain a chain lightning damage proc for 2
 L["welding_bot"] = "Welding Bot"
 L["welding_bot_note"] = "Click the bot to increase health and healing received by 10% for 2 hours."
 
-L["options_toggle_mech_buffs"] = "Buff Bots"
-L["options_toggle_mech_buffs_desc"] = "Display locations of grease, shock and welding bots on the map inside the dungeon."
-L["options_toggle_mech_chest"] = "Mechanized Chests"
-L["options_toggle_mech_chest_desc"] = "Display locations of mechanized chests. There are 10 unique chests that can be looted once a day and each chest has 4-5 spawn locations. Locations are grouped by color."
-L["options_toggle_locked_chest"] = "Locked Chests"
-L["options_toggle_locked_chest_desc"] = "Display locations of locked chests in the Western Spray."
-L["options_toggle_recrig"] = "Reclamation Rig"
-L["options_toggle_recrig_desc"] = "Display the location of the Reclamation Rig and its rewards."
+L["options_icons_mech_buffs"] = "Buff Bots"
+L["options_icons_mech_buffs_desc"] = "Display locations of grease, shock and welding bots on the map inside the dungeon."
+L["options_icons_mech_chest"] = "Mechanized Chests"
+L["options_icons_mech_chest_desc"] = "Display locations of mechanized chests. There are 10 unique chests that can be looted once a day and each chest has 4-5 spawn locations. Locations are grouped by color."
+L["options_icons_locked_chest"] = "Locked Chests"
+L["options_icons_locked_chest_desc"] = "Display locations of locked chests in the Western Spray."
+L["options_icons_recrig"] = "Reclamation Rig"
+L["options_icons_recrig_desc"] = "Display the location of the Reclamation Rig and its rewards."
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
@@ -154,12 +154,14 @@ L["gearth"] = "Greater Earth"
 L["murloco"] = "Murloco"
 L["tentacle_taco"] = "Sells "..ITEM_QUALITY_COLORS[4].hex.."[Hungry Herald's Tentacle Taco]|r if you are wearing the Benthic Azsh'ari Stormsurger Cape."
 
-L["options_toggle_treasures_nazj"] = "Display locations of chests for the Trove Tracker achievement."
-L["options_toggle_slimes_nazj"] = "Ravenous Slimes"
-L["options_toggle_slimes_nazj_desc"] = "Display locations of the four Ravenous Slimes that produce pets once fed."
-L["options_toggle_cats_nazj"] = "Cat Figurines"
-L["options_toggle_cats_nazj_desc"] = "Display locations of the crystalline cat figurines for the Feline Figurines Found achievement."
-L["options_toggle_misc_nazj"] = "Display the location of Murloco's cave and Mardivas's Laboratory."
+L["options_icons_treasures_nazj"] = "Treasures"
+L["options_icons_treasures_nazj_desc"] = "Display locations of chests for the Trove Tracker achievement."
+L["options_icons_slimes_nazj"] = "Ravenous Slimes"
+L["options_icons_slimes_nazj_desc"] = "Display locations of the four Ravenous Slimes that produce pets once fed."
+L["options_icons_cats_nazj"] = "Cat Figurines"
+L["options_icons_cats_nazj_desc"] = "Display locations of the crystalline cat figurines for the Feline Figurines Found achievement."
+L["options_icons_misc_nazj"] = "Miscellaneous"
+L["options_icons_misc_nazj_desc"] = "Display the location of Murloco's cave and Mardivas's Laboratory."
 
 -------------------------------------------------------------------------------
 ------------------------------------ CAVES ------------------------------------

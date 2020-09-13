@@ -53,14 +53,14 @@ L["shock_bot_note"] = "Haz click en el robot para conseguir un proc de poder hac
 L["welding_bot"] = "{npc=155910}"
 L["welding_bot_note"] = "Haz click en el robot para aumentar la vida y la sanación recibida un 10% durante 2 horas."
 
-L["options_toggle_mech_buffs"] = "Buff de Robots"
-L["options_toggle_mech_buffs_desc"] = "Muestra las localizaciones de los robots de grasa, descargas y soldador en el mapa estando dentro de la mazmorra."
-L["options_toggle_mech_chest"] = "Cofres Mecanizados"
-L["options_toggle_mech_chest_desc"] = "Muestra las localizaciones de los cofres mecanizados. Hay 10 cofres únicos que pueden ser despojados una vez al día y cada cofre tiene 4-5 puntos de aparición. Las localizaciones están agrupadas por color."
-L["options_toggle_locked_chest"] = "Cofres Cerrados"
-L["options_toggle_locked_chest_desc"] = "Muestra las localizaciones de los cofres cerrados en Rocío del Oeste."
-L["options_toggle_recrig"] = "Equipo de Recuperación"
-L["options_toggle_recrig_desc"] = "Muestra la localización del Equipo de Recuperación y sus recompensas."
+L["options_icons_mech_buffs"] = "Buff de Robots"
+L["options_icons_mech_buffs_desc"] = "Muestra las localizaciones de los robots de grasa, descargas y soldador en el mapa estando dentro de la mazmorra."
+L["options_icons_mech_chest"] = "Cofres Mecanizados"
+L["options_icons_mech_chest_desc"] = "Muestra las localizaciones de los cofres mecanizados. Hay 10 cofres únicos que pueden ser despojados una vez al día y cada cofre tiene 4-5 puntos de aparición. Las localizaciones están agrupadas por color."
+L["options_icons_locked_chest"] = "Cofres Cerrados"
+L["options_icons_locked_chest_desc"] = "Muestra las localizaciones de los cofres cerrados en Rocío del Oeste."
+L["options_icons_recrig"] = "Equipo de Recuperación"
+L["options_icons_recrig_desc"] = "Muestra la localización del Equipo de Recuperación y sus recompensas."
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
@@ -156,12 +156,14 @@ L["gearth"] = "Tierra Superior"
 L["murloco"] = "{npc:152593}"
 L["tentacle_taco"] = "Vende "..ITEM_QUALITY_COLORS[4].hex.."[{item:170100}]|r si llevas puesto el {item:169489}."
 
-L["options_toggle_treasures_nazj"] = "Muestra las localizaciones de los cofres para el logro Rastreador de tesoros."
-L["options_toggle_slimes_nazj"] = "Babas Voraces"
-L["options_toggle_slimes_nazj_desc"] = "Muestra las localizaciones de las cuatro Babas Voraces que producen mascotas al ser alimentadas."
-L["options_toggle_cats_nazj"] = "Figurillas de Gato Cristalinas"
-L["options_toggle_cats_nazj_desc"] = "Muestra las localizaciones de las figurillas de gato cristalinas para el logro Figurillas de felino encontradas."
-L["options_toggle_misc_nazj"] = "Muestra la localización de la cueva de Murloco y el Laboratorio de Mardivas."
+L["options_icons_treasures_nazj"] = "Tesoros"
+L["options_icons_treasures_nazj_desc"] = "Muestra las localizaciones de los cofres para el logro Rastreador de tesoros."
+L["options_icons_slimes_nazj"] = "Babas Voraces"
+L["options_icons_slimes_nazj_desc"] = "Muestra las localizaciones de las cuatro Babas Voraces que producen mascotas al ser alimentadas."
+L["options_icons_cats_nazj"] = "Figurillas de Gato Cristalinas"
+L["options_icons_cats_nazj_desc"] = "Muestra las localizaciones de las figurillas de gato cristalinas para el logro Figurillas de felino encontradas."
+L["options_icons_misc_nazj"] = "Miscelánea"
+L["options_icons_misc_nazj_desc"] = "Muestra la localización de la cueva de Murloco y el Laboratorio de Mardivas."
 
 -------------------------------------------------------------------------------
 ------------------------------------ CAVES ------------------------------------

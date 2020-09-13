@@ -81,14 +81,16 @@ L["context_menu_restore_hidden_nodes"] = "Restaurar todos los nodos ocultos"
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["options_global"] = "Global"
+L["options_zones"] = "Zones"
+
+L["options_general_description"] = "Settings that control the behavior of nodes and their rewards."
+L["options_global_description"] = "Settings that control the display of all nodes in all zones."
+L["options_zones_description"] = "Settings that control the display of nodes in each individual zone."
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "Configuración de Iconos"
-L["options_icons_treasures"] = "Iconos de Tesoro"
-L["options_icons_rares"] = "Iconos de Raros"
-L["options_icons_caves"] = "Iconos de Cueva"
-L["options_icons_pet_battles"] = "Iconos de duelos de mascotas"
-L["options_icons_other"] = "Otros Iconos"
 L["options_scale"] = "Escalar"
 L["options_scale_desc"] = "1 = 100%"
 L["options_opacity"] = "Opacidad"
@@ -109,20 +111,21 @@ L["options_toggle_hide_minimap_desc"] = "Oculta todos los iconos de este addon s
 L["options_restore_hidden_nodes"] = "Restaurar los nodos ocultos"
 L["options_restore_hidden_nodes_desc"] = "Vuelve a mostrar todos los nodos ocultos usando el menú contextual con click-derecho."
 
-L["options_toggle_battle_pets_desc"] = "Muestra las localizaciones de los entrenadores de mascotas y NPCs."
-L["options_toggle_battle_pets"] = "Mascotas de combate"
-L["options_toggle_caves_desc"] = "Mostrar entradas de cuevas para otros nodos."
-L["options_toggle_caves"] = "Cuevas"
-L["options_toggle_chests_desc"] = "Mostrar la localización de los cofres (despojables diariamente)."
-L["options_toggle_chests"] = "Cofres"
-L["options_toggle_misc"] = "Miscelánea"
-L["options_toggle_npcs"] = "NPCs"
-L["options_toggle_rares_desc"] = "Muestra las localizaciones de los NPCs raros."
-L["options_toggle_rares"] = "Raros"
-L["options_toggle_supplies_desc"] = "Muestra todas las localizaciones posibles para los cajones de suministros de guerra."
-L["options_toggle_supplies"] = "Localizaciones de suministros de guerra"
-L["options_toggle_treasures"] = "Tesoros"
-L["options_toggle_treasures_desc"] = "Muestra las localizaciones de los tesoros ocultos."
+L["options_icons_pet_battles_desc"] = "Muestra las localizaciones de los entrenadores de mascotas y NPCs."
+L["options_icons_pet_battles"] = "Mascotas de combate"
+L["options_icons_caves_desc"] = "Mostrar entradas de cuevas para otros nodos."
+L["options_icons_caves"] = "Cuevas"
+L["options_icons_daily_chests_desc"] = "Mostrar la localización de los cofres (despojables diariamente)."
+L["options_icons_daily_chests"] = "Cofres"
+L["options_icons_misc"] = "Miscelánea"
+L["options_icons_npcs"] = "NPCs"
+L["options_icons_other"] = "Otros Iconos"
+L["options_icons_rares_desc"] = "Muestra las localizaciones de los NPCs raros."
+L["options_icons_rares"] = "Raros"
+L["options_icons_supplies_desc"] = "Muestra todas las localizaciones posibles para los cajones de suministros de guerra."
+L["options_icons_supplies"] = "Localizaciones de suministros de guerra"
+L["options_icons_treasures"] = "Tesoros"
+L["options_icons_treasures_desc"] = "Muestra las localizaciones de los tesoros ocultos."
 
 ---------------------------------- TOOLTIP ---------------------------------
 

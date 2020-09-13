@@ -42,12 +42,12 @@ L["rust_chest_note"] = "開啟老舊生鏽箱子的鑰匙從西湧列島小怪�
 L["rec_rig"] = "廢料回收機"
 L["rec_rig_note"] = "要啟動困難模式，使用超級對撞機武器來將所有輻射元素轉換為不穩定輻射元素。寵物可以在兩種難度中獲得。"
 
-L["options_toggle_mech_chest"] = "機械化箱"
-L["options_toggle_mech_chest_desc"] = "顯示機械化箱子的位置。有10個獨特的箱子可以每天洗一次，每個箱子有4-5個產卵位置。位置按顏色分組。"
-L["options_toggle_locked_chest"] = "鎖定箱子"
-L["options_toggle_locked_chest_desc"] = "在西湧列島中顯示上鎖箱子的位置。"
-L["options_toggle_recrig"] = "廢料回收機"
-L["options_toggle_recrig_desc"] = "顯示廢料回收機的位置以及事件獎賞。"
+L["options_icons_mech_chest"] = "機械化箱"
+L["options_icons_mech_chest_desc"] = "顯示機械化箱子的位置。有10個獨特的箱子可以每天洗一次，每個箱子有4-5個產卵位置。位置按顏色分組。"
+L["options_icons_locked_chest"] = "鎖定箱子"
+L["options_icons_locked_chest_desc"] = "在西湧列島中顯示上鎖箱子的位置。"
+L["options_icons_recrig"] = "廢料回收機"
+L["options_icons_recrig_desc"] = "顯示廢料回收機的位置以及事件獎賞。"
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
@@ -144,12 +144,14 @@ L["gearth"] = "大土岩"
 L["murloco"] = "莫落哥"
 L["tentacle_taco"] = "出售 "..ITEM_QUALITY_COLORS[4].hex.."[飢餓使者的觸手捲]|r 如果你是穿著艾薩利怒濤者斗篷。"
 
-L["options_toggle_treasures_nazj"] = "顯示［尋寶追蹤者］成就的箱子位置。"
-L["options_toggle_slimes_nazj"] = "飢餓的軟泥"
-L["options_toggle_slimes_nazj_desc"] = "顯示已經餵養可以產出戰寵的四種飢餓軟泥的位置。"
-L["options_toggle_cats_nazj"] = "貓咪雕像"
-L["options_toggle_cats_nazj_desc"] = "顯示'喵出喵咪喵像'成就的水晶貓位置。"
-L["options_toggle_misc_nazj"] = "顯示莫洛哥的洞穴以及瑪爾迪瓦斯的實驗室的位置。"
+L["options_icons_treasures_nazj"] = "寶藏"
+L["options_icons_treasures_nazj_desc"] = "顯示［尋寶追蹤者］成就的箱子位置。"
+L["options_icons_slimes_nazj"] = "飢餓的軟泥"
+L["options_icons_slimes_nazj_desc"] = "顯示已經餵養可以產出戰寵的四種飢餓軟泥的位置。"
+L["options_icons_cats_nazj"] = "貓咪雕像"
+L["options_icons_cats_nazj_desc"] = "顯示'喵出喵咪喵像'成就的水晶貓位置。"
+L["options_icons_misc_nazj"] = "其他"
+L["options_icons_misc_nazj_desc"] = "顯示莫洛哥的洞穴以及瑪爾迪瓦斯的實驗室的位置。"
 
 -------------------------------------------------------------------------------
 ------------------------------------ CAVES ------------------------------------

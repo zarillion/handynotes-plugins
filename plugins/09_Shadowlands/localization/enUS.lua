@@ -175,8 +175,8 @@ L["anima_shard_61297"] = "Behind a stone pillar."
 L["anima_shard_61298"] = "Sitting behind a lounge chair."
 L["anima_shard_61299"] = "Hidden behind a large torch."
 L["anima_shard_61300"] = "On a ledge hanging over the central font."
-L["options_toggle_anima_shards"] = "Lost Anima Shards"
-L["options_toggle_anima_shards_desc"] = "Display the locations of all 50 lost anima shards for the Shard Labor achievement."
+L["options_icons_anima_shard"] = "Lost Anima Shards"
+L["options_icons_anima_shard_desc"] = "Display the locations of all 50 lost anima shards for the Shard Labor achievement."
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -248,8 +248,8 @@ L["lime"] = "Sitting on top of the large bone arch."
 L["moldstopheles"] = "Run around the back of the stalk and jump up the mushroom platforms. For the final platform, use a mount and jump at the corner where it meets the stalk."
 L["pus_in_boots"] = "Located under the bridge."
 
-L["options_toggle_kittens"] = "Kittens"
-L["options_toggle_kittens_desc"] = "Display locations of kittens for the Nine Afterlives achievement."
+L["options_icons_slime_cat"] = "Kittens"
+L["options_icons_slime_cat_desc"] = "Display locations of kittens for the Nine Afterlives achievement."
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -301,8 +301,8 @@ L["sinrunner_note_day4"] = "Pick up the {item:182620} near {npc:173570} and fill
 L["sinrunner_note_day5"] = "Equip Blanchy with a {item:182597}, sold by {npc:171808} near the Night Market in exchange for assorted meats."
 L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} by the Hole in the Wall."
 
-L["options_toggle_carriages"] = "Carriages"
-L["options_toggle_carriages_desc"] = "Display locations and paths of rideable carriages."
+L["options_icons_carriages"] = "Carriages"
+L["options_icons_carriages_desc"] = "Display locations and paths of rideable carriages."
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
@@ -334,3 +334,8 @@ Combine all three etchings to create the {item:182329}, which can be used to sum
 
 L["soul_well_note"] = "Catch the Stygia erupting from the Soul Well."
 L["obliterated_soul_shards_note"] = "Collect Obliterated Soul Shards on the bridges."
+
+L["options_icons_bonus_boss"] = "Bonus Elites"
+L["options_icons_bonus_boss_desc"] = "Display locations of bonus elites."
+L["options_icons_bonus_event"] = "Bonus Events"
+L["options_icons_bonus_event_desc"] = "Display locations of bonus events."

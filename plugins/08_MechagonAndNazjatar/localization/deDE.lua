@@ -50,14 +50,14 @@ L["shock_bot_note"] = "Klicke den Bot an, um {spell:304063} zu erhalten. (Angrif
 L["welding_bot"] = "Schweißerbot" --NPC:155910
 L["welding_bot_note"] = "Klicke den Bot an, um {spell:303952} zu erhalten. (Maximale Gesundheit und erhaltene Heilung um 10% erhöht.) \nDer Stärkungszauber hält 2 Stunden an."
 
-L["options_toggle_mech_buffs"] = "Schmier-, Schock- und Schweißerbots"
-L["options_toggle_mech_buffs_desc"] = "Zeigt die Standorte der Schmier-, Schock- und Schweißerbots auf der Karte im Dungeon Operation: Mechagon an."
-L["options_toggle_mech_chest"] = "Mechanisierte Truhe"
-L["options_toggle_mech_chest_desc"] = "Zeigt die Standorte der Mechanisierten Truhen an. Es gibt 10 einzigartige Truhen, die einmal am Tag geplündert werden können und jede Truhe hat 4-5 Orte an denen sie erscheinen kann. Standorte sind in Farben gruppiert."
-L["options_toggle_locked_chest"] = "Verschlossene Truhe"
-L["options_toggle_locked_chest_desc"] = "Zeigt die Standorte der Verschlossenen Truhen in der Westgischt an."
-L["options_toggle_recrig"] = "Rückgewinnungsturm"
-L["options_toggle_recrig_desc"] = "Zeigt den Standort und die Belohnungen des Rückgewinnungsturms an."
+L["options_icons_mech_buffs"] = "Schmier-, Schock- und Schweißerbots"
+L["options_icons_mech_buffs_desc"] = "Zeigt die Standorte der Schmier-, Schock- und Schweißerbots auf der Karte im Dungeon Operation: Mechagon an."
+L["options_icons_mech_chest"] = "Mechanisierte Truhe"
+L["options_icons_mech_chest_desc"] = "Zeigt die Standorte der Mechanisierten Truhen an. Es gibt 10 einzigartige Truhen, die einmal am Tag geplündert werden können und jede Truhe hat 4-5 Orte an denen sie erscheinen kann. Standorte sind in Farben gruppiert."
+L["options_icons_locked_chest"] = "Verschlossene Truhe"
+L["options_icons_locked_chest_desc"] = "Zeigt die Standorte der Verschlossenen Truhen in der Westgischt an."
+L["options_icons_recrig"] = "Rückgewinnungsturm"
+L["options_icons_recrig_desc"] = "Zeigt den Standort und die Belohnungen des Rückgewinnungsturms an."
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
@@ -153,12 +153,14 @@ L["gearth"] = "Große Erde"
 L["murloco"] = "Murloco" --NPC:152593
 L["tentacle_taco"] = "Verkauft {item:170100}, wenn du das {item:169489} trägst."
 
-L["options_toggle_treasures_nazj"] = "Zeigt die Position von Truhen für den Arkhamstern Erfolg an."
-L["options_toggle_slimes_nazj"] = "Gefräßige Schleime"
-L["options_toggle_slimes_nazj_desc"] = "Zeigt die Position von den vier Gefräßigen Schleimen die Haustiere bei Fütterung ergeben an."
-L["options_toggle_cats_nazj"] = "Katzenfiguren"
-L["options_toggle_cats_nazj_desc"] = "Zeigt die Position von Kristallkatzenstatuetten für den Gläserne Samtpfötchen Erfolg an."
-L["options_toggle_misc_nazj"] = "Zeigt die Position von Murlocos Höhle und Mardivas' Labor an."
+L["options_icons_treasures_nazj"] = "Schätze"
+L["options_icons_treasures_nazj_desc"] = "Zeigt die Position von Truhen für den Arkhamstern Erfolg an."
+L["options_icons_slimes_nazj"] = "Gefräßige Schleime"
+L["options_icons_slimes_nazj_desc"] = "Zeigt die Position von den vier Gefräßigen Schleimen die Haustiere bei Fütterung ergeben an."
+L["options_icons_cats_nazj"] = "Katzenfiguren"
+L["options_icons_cats_nazj_desc"] = "Zeigt die Position von Kristallkatzenstatuetten für den Gläserne Samtpfötchen Erfolg an."
+L["options_icons_misc_nazj"] = "Sonstiges"
+L["options_icons_misc_nazj_desc"] = "Zeigt die Position von Murlocos Höhle und Mardivas' Labor an."
 
 -------------------------------------------------------------------------------
 ------------------------------------ CAVES ------------------------------------

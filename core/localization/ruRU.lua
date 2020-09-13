@@ -68,14 +68,16 @@ L["context_menu_restore_hidden_nodes"] = "Восстановить все скр
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["options_global"] = "Global"
+L["options_zones"] = "Zones"
+
+L["options_general_description"] = "Settings that control the behavior of nodes and their rewards."
+L["options_global_description"] = "Settings that control the display of all nodes in all zones."
+L["options_zones_description"] = "Settings that control the display of nodes in each individual zone."
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "Настройки значков"
-L["options_icons_treasures"] = "Значки Сокровищ"
-L["options_icons_rares"] = "Значки Редких Монстров"
-L["options_icons_caves"] = "Значки Пещер"
-L["options_icons_pet_battles"] = "Значки Битв Питомцев"
-L["options_icons_other"] = "Прочие Значки"
 L["options_scale"] = "Масштаб"
 L["options_scale_desc"] = "1 = 100%"
 L["options_opacity"] = "Прозрачность"
@@ -96,19 +98,20 @@ L["options_toggle_hide_minimap_desc"] = "Скрывает все иконки и
 L["options_restore_hidden_nodes"] = "Восстановить скрытые места"
 L["options_restore_hidden_nodes_desc"] = "Восстановите все скрытые места, используя контекстное меню, вызываемое правой кнопкой мыши."
 
-L["options_toggle_battle_pets_desc"] = "Показать местонахождение наставников боевых питомцев и NPC."
-L["options_toggle_battle_pets"] = "Боевые Питомцы"
-L["options_toggle_caves_desc"] = "Отображение входов в пещеры для других точек."
-L["options_toggle_caves"] = "Пещеры"
-L["options_toggle_chests_desc"] = "Отображение местоположения сундуков (можно добывать ежедневно)."
-L["options_toggle_chests"] = "Сундуки"
-L["options_toggle_misc"] = "Разное"
-L["options_toggle_npcs"] = "НПС"
-L["options_toggle_rares_desc"] = "Показать местонахождение редких НПС."
-L["options_toggle_rares"] = "Редкие монстры"
-L["options_toggle_supplies_desc"] = "Показать все возможные места сундуков с военными припасами."
-L["options_toggle_supplies"] = "Сундук с военными припасами"
-L["options_toggle_treasures"] = "Сокровища"
+L["options_icons_pet_battles_desc"] = "Показать местонахождение наставников боевых питомцев и NPC."
+L["options_icons_pet_battles"] = "Боевые Питомцы"
+L["options_icons_caves_desc"] = "Отображение входов в пещеры для других точек."
+L["options_icons_caves"] = "Пещеры"
+L["options_icons_daily_chests_desc"] = "Отображение местоположения сундуков (можно добывать ежедневно)."
+L["options_icons_daily_chests"] = "Сундуки"
+L["options_icons_misc"] = "Разное"
+L["options_icons_npcs"] = "НПС"
+L["options_icons_other"] = "Прочие Значки"
+L["options_icons_rares_desc"] = "Показать местонахождение редких НПС."
+L["options_icons_rares"] = "Редкие монстры"
+L["options_icons_supplies_desc"] = "Показать все возможные места сундуков с военными припасами."
+L["options_icons_supplies"] = "Сундук с военными припасами"
+L["options_icons_treasures"] = "Сокровища"
 
 ---------------------------------- TOOLTIP ---------------------------------
 

@@ -176,8 +176,8 @@ L["anima_shard_61297"] = "Hinter einer Steinsäule."
 L["anima_shard_61298"] = "Hinter einem Liegestuhl."
 L["anima_shard_61299"] = "Hinter einer großen Fackel versteckt."
 L["anima_shard_61300"] = "An der Kante des mittleren Brunnens."
-L["options_toggle_anima_shards"] = "Verlorene Animakristallsplitter"
-L["options_toggle_anima_shards_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg \"Splitterpartie (ID:14339)\" an." --{achievement:14339}
+L["options_icons_anima_shards"] = "Verlorene Animakristallsplitter"
+L["options_icons_anima_shards_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg \"Splitterpartie (ID:14339)\" an." --{achievement:14339}
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -226,7 +226,7 @@ Oh schau! Ein {spell:343124}! Nähere dich ihm, tapferer Abenteurer, das ist sic
 ]]
 
 L["oonar_sorrowbane_note"] = [[
-Im Theater des Schmerzes, findest du im Boden steckend Kummerfluch und Oonars Arm daran befestigt. 
+Im Theater des Schmerzes, findest du im Boden steckend Kummerfluch und Oonars Arm daran befestigt.
 |cFFFF8C00Bevor du versuchst eines der beiden ab oder heraus zu ziehen, setzte deinen {item:6948} bei {npc:161702} nahe des Flugpunktes.|r
 
 Um {item:181164} ab zu ziehen:
@@ -239,11 +239,11 @@ Um {item:180273} heraus zu ziehen:
 
 • Kaufe 1x {item:182163} von {npc:171808} in der Nähe
    des Nachtmarktes in Revendreth (51.0, 78.8).
-• Kaufe 1x {item:180771} von 
+• Kaufe 1x {item:180771} von
    {npc:166640} in Maldraxxus (50.9, 53.2).
 • Erhalte 2 Stapel {spell:306272} von der Weltquest |cFFFFFD00[Ein oder zwei Steine im Weg]|r im Westen (37.0, 46.9).
 • Esse 4x {spell:327367} in Glutherns Verfall.
-• Benutze schnell deinen {item:6948}, trink beim 
+• Benutze schnell deinen {item:6948}, trink beim
    Schwert die beiden Tränke und ziehe an diesem.
 ]]
 
@@ -253,8 +253,8 @@ L["lime"] = "Sitzt auf dem großen Knochenbogen."
 L["moldstopheles"] = "Laufe um den Stiel herum und springe auf die Pilzplattformen. Verwende für die letzte Plattform ein Reittier und springe in die Ecke an der die Plattform am Stiel befestigt ist."
 L["pus_in_boots"] = "Befindet sich unter der Brücke."
 
-L["options_toggle_kittens"] = "Kätzchen"
-L["options_toggle_kittens_desc"] = "Zeigt die Positionen der Kätzchen für den Erfolg \"Neun jenseitige Leben (ID:14634)\" an."
+L["options_icons_slime_cat"] = "Kätzchen"
+L["options_icons_slime_cat_desc"] = "Zeigt die Positionen der Kätzchen für den Erfolg \"Neun jenseitige Leben (ID:14634)\" an."
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -306,8 +306,8 @@ L["sinrunner_note_day4"] = "Hebe {item:182620} nahe {npc:173570} auf und fülle 
 L["sinrunner_note_day5"] = "Rüste Graumähne mit {item:182597} aus, verkauft von {npc:171808} nahe dem Nachtmarkt (51.0, 78.8) im Austausch für verschiedene Fleischsorten."
 L["sinrunner_note_day6"] = "Verfüttere an Graumähne 3x {item:179271}, verkauft von {npc:167815} im Gebiet Loch in der Wand (40.8, 46.8)."
 
-L["options_toggle_carriages"] = "Kutschen"
-L["options_toggle_carriages_desc"] = "Zeigt die Positionen und Wege von fahrbaren Kutschen an."
+L["options_icons_carriages"] = "Kutschen"
+L["options_icons_carriages_desc"] = "Zeigt die Positionen und Wege von fahrbaren Kutschen an."
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------

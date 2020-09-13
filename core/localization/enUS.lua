@@ -79,14 +79,16 @@ L["context_menu_restore_hidden_nodes"] = "Restore all hidden nodes"
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["options_global"] = "Global"
+L["options_zones"] = "Zones"
+
+L["options_general_description"] = "Settings that control the behavior of nodes and their rewards."
+L["options_global_description"] = "Settings that control the display of all nodes in all zones."
+L["options_zones_description"] = "Settings that control the display of nodes in each individual zone."
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "Icon Settings"
-L["options_icons_treasures"] = "Treasure Icons"
-L["options_icons_rares"] = "Rare Icons"
-L["options_icons_caves"] = "Cave Icons"
-L["options_icons_pet_battles"] = "Pet Battle Icons"
-L["options_icons_other"] = "Other Icons"
 L["options_scale"] = "Scale"
 L["options_scale_desc"] = "1 = 100%"
 L["options_opacity"] = "Opacity"
@@ -107,20 +109,25 @@ L["options_toggle_hide_minimap_desc"] = "Hides all icons from this addon on the 
 L["options_restore_hidden_nodes"] = "Restore hidden nodes"
 L["options_restore_hidden_nodes_desc"] = "Restore all nodes hidden using the right-click context menu."
 
-L["options_toggle_battle_pets_desc"] = "Display locations of battle pet trainers and NPCs."
-L["options_toggle_battle_pets"] = "Battle Pets"
-L["options_toggle_caves_desc"] = "Display cave entrances for other nodes."
-L["options_toggle_caves"] = "Caves"
-L["options_toggle_chests_desc"] = "Display locations of chests (lootable daily)."
-L["options_toggle_chests"] = "Chests"
-L["options_toggle_misc"] = "Miscellaneous"
-L["options_toggle_npcs"] = "NPCs"
-L["options_toggle_rares_desc"] = "Display locations of rare NPCs."
-L["options_toggle_rares"] = "Rares"
-L["options_toggle_supplies_desc"] = "Display all possible locations for war supply crates."
-L["options_toggle_supplies"] = "War Supply Drops"
-L["options_toggle_treasures"] = "Treasures"
-L["options_toggle_treasures_desc"] = "Display locations of hidden treasures."
+L["options_icons_pet_battles_desc"] = "Display locations of battle pet trainers and NPCs."
+L["options_icons_pet_battles"] = "Pet Battles"
+L["options_icons_caves_desc"] = "Display cave entrances for other nodes."
+L["options_icons_caves"] = "Caves"
+L["options_icons_daily_chests_desc"] = "Display locations of chests (lootable daily)."
+L["options_icons_daily_chests"] = "Chests"
+L["options_icons_daily_quests_desc"] = "Display locations of unmarked daily quests."
+L["options_icons_daily_quests"] = "Daily Quests"
+L["options_icons_misc"] = "Miscellaneous"
+L["options_icons_npcs"] = "NPCs"
+L["options_icons_other"] = "Other"
+L["options_icons_quests_desc"] = "Display locations of unmarked quest lines."
+L["options_icons_quests"] = "Quests"
+L["options_icons_rares_desc"] = "Display locations of rare NPCs."
+L["options_icons_rares"] = "Rares"
+L["options_icons_supplies_desc"] = "Display all possible locations for war supply crates."
+L["options_icons_supplies"] = "War Supply Drops"
+L["options_icons_treasures"] = "Treasures"
+L["options_icons_treasures_desc"] = "Display locations of hidden treasures."
 
 ---------------------------------- TOOLTIP ---------------------------------
 
