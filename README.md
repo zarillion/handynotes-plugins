@@ -68,7 +68,7 @@ The [idTip](https://www.curseforge.com/wow/addons/idtip) addon is extremely usef
 In addition, the following macro is useful for getting your current map ID and coordinates in the format the plugin expects: `XXXXYYYY`.
 
 ```lua
-/script local m = C_Map.GetBestMapForUnit("player"); local p = C_Map.GetPlayerMapPosition(m, "player"); print(C_Map.GetBestMapForUnit('player')..': '..format("%04d",floor(p.x*10000))..tostring(format("%04d",p.y*10000)))
+/script local m = C_Map.GetBestMapForUnit("player"); local p = C_Map.GetPlayerMapPosition(m, "player"); print(m..': '..format("%04d",floor(p.x*10000))..tostring(format("%04d",p.y*10000)))
 ```
 
 ## Quest ID History
