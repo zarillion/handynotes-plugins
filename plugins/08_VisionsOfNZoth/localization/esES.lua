@@ -8,7 +8,7 @@ if not L then return end
 ----------------------------------- GENERAL -----------------------------------
 -------------------------------------------------------------------------------
 
-L["context_menu_title"] = "HandyNotes Visiones de N'Zoth"
+L["context_menu_title"] = "HandyNotes: Visiones de N'Zoth"
 L["options_title"] = "Visiones de N'Zoth"
 
 -------------------------------------------------------------------------------
