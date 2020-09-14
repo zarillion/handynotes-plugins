@@ -1,8 +1,8 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
-    <Script file="zones\frostfire.lua"/>
-    <Script file="zones\gorgrond.lua"/>
-    <Script file="zones\nagrand.lua"/>
-    <Script file="zones\shadowmoon.lua"/>
-    <Script file="zones\spires.lua"/>
-    <Script file="zones\talador.lua"/>
+  <Script file="zones\frostfire.lua"/>
+  <Script file="zones\gorgrond.lua"/>
+  <Script file="zones\nagrand.lua"/>
+  <Script file="zones\shadowmoon.lua"/>
+  <Script file="zones\spires.lua"/>
+  <Script file="zones\talador.lua"/>
 </Ui>

@@ -151,7 +151,7 @@ for i, group in ipairs({'rares', 'treasures', 'pet_battles', 'other'}) do
         type = "range",
         name = L["options_scale"],
         desc = L["options_scale_desc"],
-        min = 0.25, max = 3, step = 0.01,
+        min = 0.3, max = 3, step = 0.01,
         arg = "icon_scale_"..group,
         width = 1.13,
         order = i * 10 + 1,
@@ -249,7 +249,7 @@ function ns.InitializeGroup (map, group)
         name = L["options_scale"],
         desc = L["options_scale_desc"],
         disabled = function () return not ns.addon.db.profile[display_arg] end,
-        min = 0.25, max = 3, step = 0.01,
+        min = 0.3, max = 3, step = 0.01,
         arg = scale_arg,
         width = 0.95,
         order = map._visibility_order + 1

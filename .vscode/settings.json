@@ -1,4 +1,7 @@
 {
     "files.eol": "\n",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "[xml]": {
+        "editor.tabSize": 2
+    }
 }
