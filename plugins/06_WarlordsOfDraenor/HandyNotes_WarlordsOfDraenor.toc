@@ -8,29 +8,5 @@
 ## SavedVariables: HandyNotes_WarlordsOfDraenorDB
 
 embeds.xml
-
-core\colors.lua
-core\localization\locales.xml
-localization\enUS.lua
-localization\esES.lua
-
-core\class.lua
-core\core.lua
-core\icons.lua
-core\options.lua
-core\dev.lua
-core\map.lua
-core\nodes.lua
-core\rewards.lua
-core\templates.lua
-core\pois.lua
-core\util.lua
-
-templates.xml
-
-zones\frostfire.lua
-zones\gorgrond.lua
-zones\nagrand.lua
-zones\shadowmoon.lua
-zones\spires.lua
-zones\talador.lua
+core\core.xml
+plugin.xml
