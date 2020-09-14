@@ -76,6 +76,8 @@ L["context_menu_add_tomtom"] = "Zu TomTom hinzufügen"
 L["context_menu_hide_node"] = "Verstecke diesen Punkt"
 L["context_menu_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 
+L["map_button_text"] = "Passe die Symbolanzeige, die Transparenz und die Größe für diese Karte an."
+
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
