@@ -490,65 +490,6 @@ map.nodes[67626608] = PetBattle({
 }) -- Eyegor
 
 -------------------------------------------------------------------------------
--------------------------------- LOYAL GORGER ---------------------------------
--------------------------------------------------------------------------------
-
--- Daily completion: 61843
-
-map.nodes[59305700] = NPC({
-    id=173499,
-    icon=3601543,
-    quest={
-        61839, -- Nipping at the Undergrowth
-        61840, -- Vineroot on the Menu
-        61842, -- Vineroot Will Not Do
-        61844, -- Hungry Hungry Gorger
-        62044, -- Standing Toe to Toe
-        62045, -- Ready for More
-        62046  -- A New Pack
-    },
-    questDeps=61188,
-    questCount=true,
-    note=L["loyal_gorger_note"],
-    rewards={
-        Mount({item=182589, id=1391}) -- Loyal Gorger
-    }
-})
-
--------------------------------------------------------------------------------
------------------------------- SINRUNNER BLANCHY ------------------------------
--------------------------------------------------------------------------------
-
--- daily completed: 62107
-
-local Blanchy = Class('Blanchy', NPC, {
-    id=173468,
-    icon=2143082,
-    quest={62038, 62042, 62047, 62049, 62048, 62050},
-    questCount=true,
-    rewards={
-        Achievement({id=14314, criteria=50083}), -- Blanchy Assisted
-        Mount({item=182614, id=1414}) -- Blanchy's Reins
-    }
-})
-
-function Blanchy.getters:note ()
-    local note = L["sinrunner_note"]
-    local status = nil
-    for i, quest in ipairs(self.quest) do
-        if C_QuestLog.IsQuestFlaggedCompleted(quest) then
-            status = ns.status.Green(i)
-        else
-            status = ns.status.Red(i)
-        end
-        note = note..'\n\n'..status..' '..L["sinrunner_note_day"..i]
-    end
-    return note
-end
-
-map.nodes[62874341] = Blanchy()
-
--------------------------------------------------------------------------------
 ---------------------------- THE AFTERLIFE EXPRESS ----------------------------
 -------------------------------------------------------------------------------
 
@@ -650,3 +591,62 @@ map.nodes[52634155] = Carriage({
         })
     }
 }) -- The Castle Carriage
+
+-------------------------------------------------------------------------------
+-------------------------------- LOYAL GORGER ---------------------------------
+-------------------------------------------------------------------------------
+
+-- Daily completion: 61843
+
+map.nodes[59305700] = NPC({
+    id=173499,
+    icon=3601543,
+    quest={
+        61839, -- Nipping at the Undergrowth
+        61840, -- Vineroot on the Menu
+        61842, -- Vineroot Will Not Do
+        61844, -- Hungry Hungry Gorger
+        62044, -- Standing Toe to Toe
+        62045, -- Ready for More
+        62046  -- A New Pack
+    },
+    questDeps=61188,
+    questCount=true,
+    note=L["loyal_gorger_note"],
+    rewards={
+        Mount({item=182589, id=1391}) -- Loyal Gorger
+    }
+})
+
+-------------------------------------------------------------------------------
+------------------------------ SINRUNNER BLANCHY ------------------------------
+-------------------------------------------------------------------------------
+
+-- daily completed: 62107
+
+local Blanchy = Class('Blanchy', NPC, {
+    id=173468,
+    icon=2143082,
+    quest={62038, 62042, 62047, 62049, 62048, 62050},
+    questCount=true,
+    rewards={
+        Achievement({id=14314, criteria=50083}), -- Blanchy Assisted
+        Mount({item=182614, id=1414}) -- Blanchy's Reins
+    }
+})
+
+function Blanchy.getters:note ()
+    local note = L["sinrunner_note"]
+    local status = nil
+    for i, quest in ipairs(self.quest) do
+        if C_QuestLog.IsQuestFlaggedCompleted(quest) then
+            status = ns.status.Green(i)
+        else
+            status = ns.status.Red(i)
+        end
+        note = note..'\n\n'..status..' '..L["sinrunner_note_day"..i]
+    end
+    return note
+end
+
+map.nodes[62874341] = Blanchy()
