@@ -63,22 +63,22 @@
 
   <Frame name="{addon}AlphaMenuOption" inherits="UIDropDownCustomMenuEntryTemplate">
     <Size x="200" y="20"/>
-		<Layers>
-			<Layer>
-				<FontString parentKey="Label" inherits="GameFontHighlightSmallLeft">
-					<Size x="50" y="20"/>
-					<Anchors>
-						<Anchor point="LEFT"/>
-					</Anchors>
-				</FontString>
-				<FontString parentKey="Value" inherits="GameFontNormalSmall">
-					<Size x="40" y="20"/>
-					<Anchors>
-						<Anchor point="RIGHT"/>
-					</Anchors>
-				</FontString>
-			</Layer>
-		</Layers>
+    <Layers>
+      <Layer>
+        <FontString parentKey="Label" inherits="GameFontHighlightSmallLeft">
+          <Size x="50" y="20"/>
+          <Anchors>
+            <Anchor point="LEFT"/>
+          </Anchors>
+        </FontString>
+        <FontString parentKey="Value" inherits="GameFontNormalSmall">
+          <Size x="40" y="20"/>
+          <Anchors>
+            <Anchor point="RIGHT"/>
+          </Anchors>
+        </FontString>
+      </Layer>
+    </Layers>
     <Frames>
       <Slider parentKey="Slider" minValue="0" maxValue="1" valueStep="0.01" defaultValue="1" obeyStepOnDrag="true" inherits="PropertySliderTemplate">
         <Size x="0" y="20"/>
@@ -92,22 +92,22 @@
 
   <Frame name="{addon}ScaleMenuOption" inherits="UIDropDownCustomMenuEntryTemplate">
     <Size x="200" y="20"/>
-		<Layers>
-			<Layer>
-				<FontString parentKey="Label" inherits="GameFontHighlightSmallLeft">
-					<Size x="50" y="20"/>
-					<Anchors>
-						<Anchor point="LEFT"/>
-					</Anchors>
-				</FontString>
-				<FontString parentKey="Value" inherits="GameFontNormalSmall">
-					<Size x="40" y="20"/>
-					<Anchors>
-						<Anchor point="RIGHT"/>
-					</Anchors>
-				</FontString>
-			</Layer>
-		</Layers>
+    <Layers>
+      <Layer>
+        <FontString parentKey="Label" inherits="GameFontHighlightSmallLeft">
+          <Size x="50" y="20"/>
+          <Anchors>
+            <Anchor point="LEFT"/>
+          </Anchors>
+        </FontString>
+        <FontString parentKey="Value" inherits="GameFontNormalSmall">
+          <Size x="40" y="20"/>
+          <Anchors>
+            <Anchor point="RIGHT"/>
+          </Anchors>
+        </FontString>
+      </Layer>
+    </Layers>
     <Frames>
       <Slider parentKey="Slider" minValue="0.3" maxValue="3" valueStep="0.05" defaultValue="1" obeyStepOnDrag="true" inherits="PropertySliderTemplate">
         <Size x="0" y="20"/>
