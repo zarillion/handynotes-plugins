@@ -32,7 +32,7 @@ local nodes = map.nodes
 
 function map:prepare ()
     Map.prepare(self)
-    self.phased = self.intro:done()
+    self.phased = self.intro:completed()
 end
 
 -------------------------------------------------------------------------------

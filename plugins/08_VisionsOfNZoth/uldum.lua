@@ -77,9 +77,8 @@ local Intro = Class('Intro', ns.node.Intro)
 
 Intro.note = L["uldum_intro_note"]
 
-function Intro:enabled ()
-    if not Node.enabled(self) then return false end
-    return map.assault == nil
+function Intro:completed ()
+    return map.assault ~= nil
 end
 
 function Intro.getters:label ()
@@ -274,9 +273,8 @@ local NefRare = Class('NefersetRare', Rare, {
     pois={POI({50007868, 50568833, 55207930})}
 })
 
-function NefRare:enabled (map, coord, minimap)
-    if not Rare.enabled(self, map, coord, minimap) then return false end
-    -- Only show if a Summoning Ritual event is active or completed
+function NefRare:prerequisite ()
+    -- Show only if a Summoning Ritual event is active or completed
     for i, quest in ipairs({57359, 57620, 57621}) do
         if C_TaskQuest.GetQuestTimeLeftMinutes(quest) or C_QuestLog.IsQuestFlaggedCompleted(quest) then
             return true

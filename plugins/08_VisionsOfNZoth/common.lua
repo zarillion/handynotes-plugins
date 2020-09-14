@@ -19,12 +19,9 @@ local TimedEvent = Class('TimedEvent', Quest, {
     note=''
 })
 
-function TimedEvent:enabled (map, coord, minimap)
+function TimedEvent:prerequisite ()
     -- Timed events that are not active today return nil here
-    if not C_TaskQuest.GetQuestTimeLeftMinutes(self.quest[1]) then
-        return false
-    end
-    return Quest.enabled(self, map, coord, minimap)
+    return C_TaskQuest.GetQuestTimeLeftMinutes(self.quest[1])
 end
 
 ns.node.TimedEvent = TimedEvent

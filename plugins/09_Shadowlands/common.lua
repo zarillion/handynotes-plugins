@@ -52,10 +52,12 @@ end
 local Map = ns.Map
 local ShadowlandsMap = ns.Class('ShadowlandsMap', Map)
 
-function ShadowlandsMap:enabled (node, coord, minimap)
-    -- Update rlabel and sublabel for covenant-restricted nodes
-    ProcessCovenant(node)
-    return Map.enabled(self, node, coord, minimap)
+function ShadowlandsMap:prepare ()
+    Map.prepare(self)
+    for coord, node in pairs(self.nodes) do
+        -- Update rlabel and sublabel for covenant-restricted nodes
+        ProcessCovenant(node)
+    end
 end
 
 ns.Map = ShadowlandsMap

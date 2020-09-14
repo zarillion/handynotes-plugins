@@ -155,9 +155,8 @@ local SHAVE_KIT = Node({icon=1001616, group='visions_misc', label=L["shave_kit"]
     Toy({item=174920}) -- Coifcurl's Close Shave Kit
 }})
 
-function SHAVE_KIT:enabled (map, coord, minimap)
-    if not Node.enabled(self, map, coord, minimap) then return false end
-    return ns.addon.db.profile.always_show_treasures or (not self:done())
+function SHAVE_KIT:completed ()
+    return self:collected()
 end
 
 orgrimmar.nodes[39906120] = SHAVE_KIT
@@ -258,9 +257,8 @@ local VOID_SKULL = Node({icon=237272, group='visions_misc', label=L["void_skull"
     Toy({item=174921}) -- Void-Touched Skull
 }})
 
-function VOID_SKULL:enabled (map, coord, minimap)
-    if not Node.enabled(self, map, coord, minimap) then return false end
-    return ns.addon.db.profile.always_show_treasures or (not self:done())
+function VOID_SKULL:completed ()
+    return self:collected()
 end
 
 stormwind.nodes[58905290] = VOID_SKULL

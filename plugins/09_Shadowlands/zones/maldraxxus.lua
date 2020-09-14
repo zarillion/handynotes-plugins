@@ -459,10 +459,9 @@ local Kitten = Class('Kitten', NPC, {
     sublabel = L["pet_cat"]
 })
 
-function Kitten:enabled (map, coord, minimap)
+function Kitten:completed ()
     -- Stop showing the node once the achievement criteria is completed
-    if self:done() then return false end
-    return NPC.enabled(self, map, coord, minimap)
+    return self:collected()
 end
 
 map.nodes[65225065] = Kitten({id=174224, rewards={

@@ -26,10 +26,9 @@ ns.optionDefaults = {
         icon_alpha_treasures = 0.75,
 
         -- visibility
-        always_show_rares = false,
-        always_show_treasures = false,
         hide_done_rare = false,
         hide_minimap = false,
+        show_completed_nodes = false,
 
         -- tooltip
         show_loot = true,
@@ -65,20 +64,12 @@ ns.options = {
                     name = L["options_visibility_settings"],
                     order = 10,
                 },
-                always_show_rares = {
+                show_completed_nodes = {
                     type = "toggle",
-                    arg = "always_show_rares",
-                    name = L["options_toggle_looted_rares"],
-                    desc = L["options_toggle_looted_rares_desc"],
+                    arg = "show_completed_nodes",
+                    name = L["options_show_completed_nodes"],
+                    desc = L["options_show_completed_nodes_desc"],
                     order = 11,
-                    width = "full",
-                },
-                always_show_treasures = {
-                    type = "toggle",
-                    arg = "always_show_treasures",
-                    name = L["options_toggle_looted_treasures"],
-                    desc = L["options_toggle_looted_treasures_desc"],
-                    order = 12,
                     width = "full",
                 },
                 hide_done_rare = {
@@ -86,7 +77,7 @@ ns.options = {
                     arg = "hide_done_rare",
                     name = L["options_toggle_hide_done_rare"],
                     desc = L["options_toggle_hide_done_rare_desc"],
-                    order = 13,
+                    order = 12,
                     width = "full",
                 },
                 hide_minimap = {
@@ -94,14 +85,14 @@ ns.options = {
                     arg = "hide_minimap",
                     name = L["options_toggle_hide_minimap"],
                     desc = L["options_toggle_hide_minimap_desc"],
-                    order = 14,
+                    order = 13,
                     width = "full",
                 },
                 restore_all_nodes = {
                     type = "execute",
                     name = L["options_restore_hidden_nodes"],
                     desc = L["options_restore_hidden_nodes_desc"],
-                    order = 15,
+                    order = 14,
                     width = "full",
                     func = function ()
                         table.wipe(ns.addon.db.char)

@@ -75,9 +75,8 @@ local Intro = Class('Intro', ns.node.Intro)
 
 Intro.note = L["vale_intro_note"]
 
-function Intro:enabled ()
-    if not Node.enabled(self) then return false end
-    return map.assault == nil
+function Intro:completed ()
+    return map.assault ~= nil
 end
 
 function Intro.getters:label ()

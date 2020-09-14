@@ -51,9 +51,19 @@ function Node:init ()
     end
 end
 
+--[[
+The requires attribute is used to indicate some sort of requirement to
+interact with this node. It is often an item, spell or currency.
+--]]
+
 function Node.setters:requires (requirement)
     self.sublabel = ns.color.Red(L["Requires"]..' '..requirement)
 end
+
+--[[
+Return the associated texture, scale and alpha value to pass to HandyNotes
+for this node.
+--]]
 
 function Node:display (map)
     local profile = ns.addon.db.profile
@@ -72,51 +82,92 @@ function Node:display (map)
     return icon, scale, alpha
 end
 
-function Node:done ()
+--[[
+Return the "collected" status of this node. A node is collected if all
+associated rewards have been obtained (achievements, toys, pets, mounts).
+--]]
+
+function Node:collected ()
     for i, reward in ipairs(self.rewards or {}) do
         if not reward:obtained() then return false end
     end
     return true
 end
 
-function Node:enabled (map, coord, minimap)
+--[[
+Return true if this node should be displayed.
+--]]
+
+function Node:enabled ()
     local db = ns.addon.db
 
-    -- Minimap may be disabled for this node
-    if not self.minimap and minimap then return false end
+    -- Check prerequisites
+    if not self:prerequisite() then return false end
 
-    -- Node may be faction restricted
-    if self.faction and self.faction ~= ns.faction then return false end
-
-    if self.quest and self.questAny then
-        -- Disable if *any* attached quest ids are true
-        for i, quest in ipairs(self.quest) do
-            if C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
-        end
-    elseif self.quest then
-        -- Disable if *all* attached quest ids are true
-        local count = 0
-        for i, quest in ipairs(self.quest) do
-            if C_QuestLog.IsQuestFlaggedCompleted(quest) then
-                count = count + 1
-            end
-        end
-        if count == #self.quest then return false end
-    end
-
-    -- Disable if any dependent quest ids are false
-    for i, quest in ipairs(self.questDeps or {}) do
-        if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
+    -- Check completed state
+    if not db.profile.show_completed_nodes then
+        if self:completed() then return false end
     end
 
     return true
 end
+
+--[[
+Return the prerequisite state of this node. A node has its prerequisites met if
+all quests defined in the `questDeps` attribute are completed. This method can
+be overridden to check for other prerequisite criteria.
+--]]
+
+function Node:prerequisite ()
+    -- Prerequisite not met if any dependent quest ids are false
+    for i, quest in ipairs(self.questDeps or {}) do
+        if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
+    end
+    return true
+end
+
+--[[
+Return the "completed" state of this node. A node is completed if any or all
+associated quests have been completed. The behavior of any vs all is switched
+with the `questAny` attribute. This method can also be overridden to check for
+some other form of completion, such as an achievement criteria.
+
+This method is *not* called if the "Show completed" setting is enabled.
+--]]
+
+function Node:completed ()
+    if self.quest and self.questAny then
+        -- Completed if *any* attached quest ids are true
+        for i, quest in ipairs(self.quest) do
+            if C_QuestLog.IsQuestFlaggedCompleted(quest) then return true end
+        end
+    elseif self.quest then
+        -- Completed only if *all* attached quest ids are true
+        for i, quest in ipairs(self.quest) do
+            if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
+        end
+        return true
+    end
+    return false
+end
+
+--[[
+Prepare this node for display by fetching localization information for anything
+referenced in the text attributes of this node. This method is called when a
+world map containing this node is opened.
+--]]
 
 function Node:prepare ()
     ns.NameResolver:Prepare(self.label)
     ns.prepareLinks(self.sublabel)
     ns.prepareLinks(self.note)
 end
+
+--[[
+Render this node onto the given tooltip. Many features are optional depending
+on the attributes set on this specific node, such as setting an `rlabel` or
+`sublabel` value.
+--]]
 
 function Node:render(tooltip)
     -- render the label text with NPC names resolved
@@ -205,12 +256,10 @@ function Cave:init ()
     end
 end
 
-function Cave:enabled (map, coord, minimap)
-    if not Node.enabled(self, map, coord, minimap) then return false end
-
+function Cave:enabled ()
     local function hasEnabledParent ()
         for i, parent in ipairs(self.parent or {}) do
-            if parent:enabled(map, coord, minimap) then
+            if parent:enabled() then
                 return true
             end
         end
@@ -220,7 +269,7 @@ function Cave:enabled (map, coord, minimap)
     -- Check if all our parents are hidden
     if not hasEnabledParent() then return false end
 
-    return true
+    return Node.enabled(self)
 end
 
 -------------------------------------------------------------------------------
@@ -303,12 +352,12 @@ Rare.group = "rares"
 
 function Rare.getters:icon ()
     if self._focus then
-        return self:done() and 'skull_white_green_glow' or 'skull_blue_green_glow'
+        return self:collected() and 'skull_white_green_glow' or 'skull_blue_green_glow'
     end
     if ns.addon.db.profile.development and not self.quest then
-        return self:done() and 'skull_white_red_glow' or 'skull_blue_red_glow'
+        return self:collected() and 'skull_white_red_glow' or 'skull_blue_red_glow'
     end
-    return self:done() and 'skull_white' or 'skull_blue'
+    return self:collected() and 'skull_white' or 'skull_blue'
 end
 
 function Rare.getters:scale ()
@@ -318,11 +367,10 @@ function Rare.getters:scale ()
     return 1.2
 end
 
-function Rare:enabled (map, coord, minimap)
-    local db = ns.addon.db
-    if db.profile.hide_done_rare and self:done() then return false end
-    if db.profile.always_show_rares then return true end
-    return NPC.enabled(self, map, coord, minimap)
+function Rare:enabled ()
+    local hide_done_rares = ns.addon.db.profile.hide_done_rare
+    if hide_done_rares and self:collected() then return false end
+    return NPC.enabled(self)
 end
 
 -------------------------------------------------------------------------------
@@ -336,12 +384,6 @@ local Treasure = Class('Treasure', Node, {
 
 function Treasure.getters:icon ()
     return self._focus and 'chest_gray_green_glow' or 'chest_gray'
-end
-
-function Treasure:enabled (map, coord, minimap)
-    local db = ns.addon.db
-    if db.profile.always_show_treasures then return true end
-    return Node.enabled(self, map, coord, minimap)
 end
 
 function Treasure.getters:label ()

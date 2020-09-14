@@ -66,4 +66,16 @@ function WorldMapOptionsButtonMixin:InitializeDropDown()
 			end
 		})
 	end
+
+	UIDropDownMenu_AddSeparator()
+	UIDropDownMenu_AddButton({
+		text = L["options_show_completed_nodes"],
+		isNotRadio = true,
+		keepShownOnClick = true,
+		checked = profile.show_completed_nodes,
+		func = function (self, option)
+			profile.show_completed_nodes = self.checked
+			ns.addon:Refresh()
+		end
+	})
 end

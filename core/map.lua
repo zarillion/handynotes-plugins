@@ -86,11 +86,17 @@ function Map:enabled (node, coord, minimap)
     -- Check if we've been hidden by the user
     if db.char[self.id..'_coord_'..coord] then return false end
 
-    -- Check minimap, faction and quest completion
-    if not node:enabled(self, coord, minimap) then return false end
+    -- Minimap may be disabled for this node
+    if not node.minimap and minimap then return false end
+
+    -- Node may be faction restricted
+    if node.faction and node.faction ~= ns.faction then return false end
 
     -- Display the intro node!
-    if node == self.intro then return true end
+    if node == self.intro then return not node:completed() end
+
+    -- Check for prerequisites and quest (or custom) completion
+    if not node:enabled() then return false end
 
     -- Display the node based off the group display setting
     local mapid = self.parents[node.group] or self.id
