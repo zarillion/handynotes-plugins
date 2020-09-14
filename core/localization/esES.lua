@@ -103,6 +103,8 @@ L["options_opacity_desc"] = "0 = transparente, 1 = opaco"
 
 L["options_visibility_settings"] = "Visibilidad"
 L["options_general_settings"] = "General"
+L["options_show_completed_nodes"] = "Mostrar completados"
+L["options_show_completed_nodes_desc"] = "Muestra todos los nodos incluso si ya han sido despojados o completados hoy."
 L["options_toggle_hide_done_rare"] = "Ocultar los raros, si se conoce todo el botín"
 L["options_toggle_hide_done_rare_desc"] = "Oculta todos los raros a los que se les conozca el botín."
 L["options_toggle_hide_minimap"] = "Ocultar todos los iconos sobre el minimapa"
