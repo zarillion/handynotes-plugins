@@ -101,6 +101,8 @@ L["options_opacity_desc"] = "0 = transparent, 1 = undurchsichtig"
 
 L["options_visibility_settings"] = "Sichtbarkeit"
 L["options_general_settings"] = "Allgemeines"
+L["options_show_completed_nodes"] = "Zeige abgeschlossenes"
+L["options_show_completed_nodes_desc"] = "Zeigt alle Punkte an, auch wenn diese heute bereits geplündert oder abgeschlossen wurden."
 L["options_toggle_hide_done_rare"] = "Blende seltene Gegner aus deren Beute bekannt ist."
 L["options_toggle_hide_done_rare_desc"] = "Blendet alle seltenen Gegner deren Beute bereits bekannt ist aus."
 L["options_toggle_hide_minimap"] = "Blende alle Symbole auf der Minikarte aus"
