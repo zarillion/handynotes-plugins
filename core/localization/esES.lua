@@ -78,6 +78,8 @@ L["context_menu_add_tomtom"] = "Agregar a TomTom"
 L["context_menu_hide_node"] = "Ocultar este nodo"
 L["context_menu_restore_hidden_nodes"] = "Restaurar todos los nodos ocultos"
 
+L["map_button_text"] = "Ajustar visibilidad del icono, transparencia y escalado para este mapa."
+
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
