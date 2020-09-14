@@ -5,6 +5,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -425,7 +426,7 @@ map.nodes[31764100] = Treasure({
     pois={
         POI({
             31764100, 31854363, 32604292, 34104500, 40082870, 40722741,
-            40945156, 41312874, 41902742, 41374979, 50215353, 51165507, 
+            40945156, 41312874, 41902742, 41374979, 50215353, 51165507,
             65222265, 67162888, 67553191, 69003036, 70143004, 72393146
         }) -- Possible spawns
     }
@@ -463,3 +464,35 @@ map.nodes[52943729] = Treasure({
         Pet({item=180642, id=2909}) -- Downfeather Ragewing
     }
 }) -- Veilwing Egg (Ancient Cloudfeather Egg)
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[39956449] = PetBattle({
+    id=173376,
+    rewards={
+        Achievement({id=14625, criteria=49404})
+    }
+}) -- Nightfang
+
+map.nodes[40192880] = PetBattle({
+    id=173381,
+    rewards={
+        Achievement({id=14625, criteria=49402})
+    }
+}) -- Rascal
+
+map.nodes[51274406] = PetBattle({
+    id=173377,
+    rewards={
+        Achievement({id=14625, criteria=49403})
+    }
+}) -- Faryl
+
+map.nodes[58205690] = PetBattle({
+    id=173372,
+    rewards={
+        Achievement({id=14625, criteria=49405})
+    }
+}) -- Glitterdust

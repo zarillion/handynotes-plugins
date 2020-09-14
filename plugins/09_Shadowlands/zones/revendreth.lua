@@ -8,6 +8,7 @@ local Class = ns.Class
 local Map = ns.Map
 
 local NPC = ns.node.NPC
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -455,6 +456,38 @@ map.nodes[68446445] = Treasure({
     quest=59884,
     label=L["wayfairer_spoils"]
 }) -- Wayfairer's Abandoned Spoils
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[25263799] = PetBattle({
+    id=173303,
+    rewards={
+        Achievement({id=14625, criteria=49409})
+    }
+}) -- Scorch
+
+map.nodes[39945249] = PetBattle({
+    id=173315,
+    rewards={
+        Achievement({id=14625, criteria=49408})
+    }
+}) -- Sylla
+
+map.nodes[61354121] = PetBattle({
+    id=173331,
+    rewards={
+        Achievement({id=14625, criteria=49406})
+    }
+}) -- Addius the Tormentor
+
+map.nodes[67626608] = PetBattle({
+    id=173324,
+    rewards={
+        Achievement({id=14625, criteria=49407})
+    }
+}) -- Eyegor
 
 -------------------------------------------------------------------------------
 -------------------------------- LOYAL GORGER ---------------------------------

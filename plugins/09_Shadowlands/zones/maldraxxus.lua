@@ -8,6 +8,7 @@ local Class = ns.Class
 local Map = ns.Map
 
 local NPC = ns.node.NPC
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -448,6 +449,38 @@ etheric_vault.nodes[34565549] = ns.clone(forgotten_treasure, {
         POI({25815353}) -- Vault Portcullis Chain
     }
 })
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34005526] = PetBattle({
+    id=173263,
+    rewards={
+        Achievement({id=14625, criteria=49412})
+    }
+}) -- Rotgut
+
+map.nodes[46865000] = PetBattle({
+    id=173257,
+    rewards={
+        Achievement({id=14625, criteria=49413})
+    }
+}) -- Caregiver Maximillian
+
+map.nodes[54062806] = PetBattle({
+    id=173274,
+    rewards={
+        Achievement({id=14625, criteria=49410})
+    }
+}) -- Gorgemouth
+
+map.nodes[63234687] = PetBattle({
+    id=173267,
+    rewards={
+        Achievement({id=14625, criteria=49411})
+    }
+}) -- Dundley Stickyfingers
 
 -------------------------------------------------------------------------------
 ------------------------------- NINE AFTERLIVES -------------------------------

@@ -304,6 +304,7 @@ end
 local PetBattle = Class('PetBattle', NPC)
 
 PetBattle.icon = "paw_yellow"
+PetBattle.scale = 1.2
 PetBattle.group = "pet_battles"
 
 -------------------------------------------------------------------------------

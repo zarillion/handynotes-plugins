@@ -8,6 +8,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Node = ns.node.Node
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -514,6 +515,38 @@ map.nodes[58667135] = Treasure({
         Item({item=179982}) -- Kyrian Bell
     }
 }) -- Vesper of Virtues
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34806280] = PetBattle({
+    id=173131,
+    rewards={
+        Achievement({id=14625, criteria=49416})
+    }
+}) -- Stratios
+
+map.nodes[36603180] = PetBattle({
+    id=173133,
+    rewards={
+        Achievement({id=14625, criteria=49417})
+    }
+}) -- Jawbone
+
+map.nodes[51393833] = PetBattle({
+    id=173130,
+    rewards={
+        Achievement({id=14625, criteria=49415})
+    }
+}) -- Zolla
+
+map.nodes[54555609] = PetBattle({
+    id=173129,
+    rewards={
+        Achievement({id=14625, criteria=49414})
+    }
+}) -- Thenia
 
 -------------------------------------------------------------------------------
 ----------------------------- ANIMA CRYSTAL SHARDS ----------------------------
