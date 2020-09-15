@@ -192,7 +192,7 @@ L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:16
 L["malkorak_note"] = "En lo alto de la torre (montones de escaleras)."
 L["schmitd_note"] = "Usa el {spell:313451} cercano para romper su escudo."
 L["taskmaster_xox_note"] = "Comparte lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
-
+L["zargox_the_reborn_note"] = "Usa el {item:175841} encima de {npc:157124} para invocar a {npc:157125}. Para conseguir el {item:175841} tienes que completar la misión \"La Vida Etérea\" que da {npc:157076} y vuelve a hablar con él de nuevo."-->Revisar que The Aetherlife sea La Vida Etérea
 L["mixed_pool_note"] = [[
 Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando hayan sido añadidos 30 ingredientes, aparecerá uno de los siete raros dependiendo de la combinación usada.
 
