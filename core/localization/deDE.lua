@@ -92,9 +92,9 @@ L["options_zones_description"] = "Einstellungen, die die Darstellung von Punkten
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "Symboleinstellungen"
-L["options_scale"] = "Symbolgröße"
+L["options_scale"] = "Größe"
 L["options_scale_desc"] = "1 = 100%"
-L["options_opacity"] = "Symboltransparenz"
+L["options_opacity"] = "Transparenz"
 L["options_opacity_desc"] = "0 = transparent, 1 = undurchsichtig"
 
 ---------------------------------- VISIBILITY ---------------------------------

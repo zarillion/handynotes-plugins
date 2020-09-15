@@ -191,7 +191,7 @@ L["gristlebeak_note"] = "Zerbrich jedes {npc:162761} in der Nähe, daraufhin wir
 L["malkorak_note"] = "An der Spitze des Turms \n(eine menge Treppenstufen)."
 L["schmitd_note"] = "Benutze nahegelegene {spell:313451}, um sein Schild zu brechen."
 L["taskmaster_xox_note"] = "Teilt sich einen spawn mit {npc:160204}, {npc:160230} und {npc:160226}."
-
+L["zargox_the_reborn_note"] = "Verwende die {item:175841} auf der {npc:157124}. Die {item:175841} erhälst du, wenn du die Quest |cFFFFFD00[Das Ätherleben]|r von {npc:157076} abschließen und nochmal mit ihm sprichst."
 L["mixed_pool_note"] = [[
 Sammel Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 30 Materialien hinzugefügt wurden, erscheint je nach verwendeter Kombination einer von sieben seltenen Gegnern.
 

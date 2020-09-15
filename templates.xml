@@ -62,11 +62,11 @@
   </DropDownToggleButton>
 
   <Frame name="{addon}AlphaMenuOption" inherits="UIDropDownCustomMenuEntryTemplate">
-    <Size x="200" y="20"/>
+    <Size x="240" y="20"/>
     <Layers>
       <Layer>
         <FontString parentKey="Label" inherits="GameFontHighlightSmallLeft">
-          <Size x="50" y="20"/>
+          <Size x="65" y="20"/>
           <Anchors>
             <Anchor point="LEFT"/>
           </Anchors>
@@ -91,11 +91,11 @@
   </Frame>
 
   <Frame name="{addon}ScaleMenuOption" inherits="UIDropDownCustomMenuEntryTemplate">
-    <Size x="200" y="20"/>
+    <Size x="240" y="20"/>
     <Layers>
       <Layer>
         <FontString parentKey="Label" inherits="GameFontHighlightSmallLeft">
-          <Size x="50" y="20"/>
+          <Size x="65" y="20"/>
           <Anchors>
             <Anchor point="LEFT"/>
           </Anchors>
