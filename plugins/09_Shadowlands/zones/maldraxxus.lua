@@ -233,13 +233,17 @@ map.nodes[33538086] = Rare({
     }
 }) -- Warbringer Mal'Korak
 
--- map.nodes[] = Rare({
---     id=157125,
---     quest=nil,
---     rewards={
---         Achievement({id=14308, criteria=48864})
---     }
--- }) -- Zargox the Reborn
+map.nodes[28965138] = Rare({
+    id=157125,
+    quest=62079,
+    note=L["zargox_the_reborn_note"],
+    rewards={
+        Achievement({id=14308, criteria=48864})
+    },
+    pois={
+        POI({26314280})
+    }
+}) -- Zargox the Reborn
 
 ------------------------- POOL OF MIXED MONSTROSITIES -------------------------
 
