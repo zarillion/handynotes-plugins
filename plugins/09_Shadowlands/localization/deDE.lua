@@ -347,7 +347,11 @@ Kombiniere alle drei Gravuren, um den {item:182329} herzustellen, welcher am Alt
 L["soul_well_note"] = "Fange den Stygia ausbruch aus dem Seelenbrunnen." --review Blizzard translation
 L["obliterated_soul_shards_note"] = "Sammel Ausgelöschte Seelensplitter auf den Brücken." --review Blizzard translation
 
+L["chaotic_riftstone_note"] = "Aktiviere ihn, um mit einem {spell:344157} schnell durch den Schlund zu reisen."
+
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"
 L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."
 L["options_icons_bonus_event"] = "Bonus Events"
 L["options_icons_bonus_event_desc"] = "Zeigt die Positionen von Bonus Events."
+L["options_icons_riftstone"] = "Chaotische Risssteine"
+L["options_icons_riftstone_desc"] = "Zeigt die Positionen von Chaotischen Risssteinen an."
