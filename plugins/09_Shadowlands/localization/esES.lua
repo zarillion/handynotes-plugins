@@ -344,7 +344,11 @@ Combina las tres inscripciones para crear la {item:182329}, la cual debe ser usa
 L["soul_well_note"] = "Atrapa la Estigia que surge del Pozo de Almas."--Revisar que Stygia sea Estigia, que erupting sea surgiendo, que Soul Well sea Pozo de Almas
 L["obliterated_soul_shards_note"] = "Recoge Fragmentos de Almas Eliminadas en los puentes."--Revisar que Obliterated Soul Shards sea Fragmentos de Almas Eliminadas
 
+L["chaotic_riftstone_note"] = "Actívala para entrar en la {spell:344157} para cruzar rápidamente Las Fauces."
+
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
 L["options_icons_bonus_boss_desc"] = "Muestra las localizaciones de los élites de bonificación."
 L["options_icons_bonus_event"] = "Eventos de Bonificación"
 L["options_icons_bonus_event_desc"] = "Muestra las localizaciones de los eventos de bonificación."
+L["options_icons_riftstone"] = "Piedras de Falla Caóticas"
+L["options_icons_riftstone_desc"] = "Muestra las localizaciones de los teletransportadores de piedras de falla caóticas."
