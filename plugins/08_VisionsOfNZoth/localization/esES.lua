@@ -1,6 +1,4 @@
---[[
-	Spanish Localization by (EU) Krovikan-Minahonda
---]]
+--Spanish Localization by (EU) Krovikan-Minahonda
 
 local ADDON_NAME, _ = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "esES", false, true)
@@ -10,9 +8,8 @@ if not L then return end
 ----------------------------------- GENERAL -----------------------------------
 -------------------------------------------------------------------------------
 
-L["context_menu_title"] = "HandyNotes Visiones de N'Zoth"
+L["context_menu_title"] = "HandyNotes: Visiones de N'Zoth"
 L["options_title"] = "Visiones de N'Zoth"
-L["options_icons_assaultevents"] = "Iconos de los Eventos de los Asaltos"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -54,12 +51,12 @@ L["amathet_reliquary"] = "Relicario Amathet"
 L["cursed_relic"] = "Requiere una Reliquia Maldita"
 L["tolvir_relic"] = "Requiere una Reliquia de los Tol'vir"
 
-L["options_toggle_alpaca_uldum"] = "Alpaca de pelaje primaveral"
-L["options_toggle_alpaca_uldum_desc"] = "Muestra las localizaciones donde aparecen los Arbustos Garsahl y las Alpacas Amigables."
-L["options_toggle_assault_events"] = "Eventos del Asalto"
-L["options_toggle_assault_events_desc"] = "Muestra las localizaciones de los posibles eventos del asalto."
-L["options_toggle_coffers"] = "Alijos Cerrados"
-L["options_toggle_coffers_desc"] = "Muestra las localizaciones de los alijos cerrados (despojables una vez por asalto)."
+L["options_icons_alpaca_uldum"] = "Alpaca de pelaje primaveral"
+L["options_icons_alpaca_uldum_desc"] = "Muestra las localizaciones donde aparecen los Arbustos Garsahl y las Alpacas Amigables."
+L["options_icons_assault_events"] = "Eventos del Asalto"
+L["options_icons_assault_events_desc"] = "Muestra las localizaciones de los posibles eventos del asalto."
+L["options_icons_coffers"] = "Alijos Cerrados"
+L["options_icons_coffers_desc"] = "Muestra las localizaciones de los alijos cerrados (despojables una vez por asalto)."
 
 L["ambush_settlers"] = "Mata oleadas de enemigos hasta que acabe el evento."
 L["burrowing_terrors"] = "Salta encima de los Escarabajos Excavadores para aplastarlos."
@@ -148,9 +145,9 @@ L["weighted_artifact"] = "Coge el Jarrón Extrañamente Pesado y vuelve por dond
 L["colored_potion"] = "Poción Coloreada"
 L["colored_potion_note"] = [[
 La poción junto al cuerpo de %s siempre indica el color de la poción de efectos negativos de la visión en curso.
-                            
+
 El color de la poción de +100 de cordura se puede saber por el color de esta poción (|cFFFF0000bad|r => |cFF00FF00good|r):
-                            
+
 Negro => Verde
 Azul => Violeta
 Verde => Rojo
@@ -220,14 +217,16 @@ L["c_underneath_bridge"] = "Debajo del puente."
 L["c_walkway_corner"] = "En una esquina de la pasarela superior."
 L["c_walkway_platform"] = "En una plataforma sobre la pasarela superior."
 
-L["options_toggle_visions_buffs"] = "Buffs"
-L["options_toggle_visions_buffs_desc"] = "Muestra las localizaciones de eventos que garantizan buffs de daño durante 1 hora."
-L["options_toggle_visions_chest_desc"] = "Muestra las localizaciones posibles de cofres dentro de las visiones horripilantes."
-L["options_toggle_visions_crystals"] = "Cristales Extraños"
-L["options_toggle_visions_crystals_desc"] = "Muestra las localizaciones posibles de cristales extraños dentro de las visiones horripilantes."
-L["options_toggle_visions_mail"] = "Buzones"
-L["options_toggle_visions_mail_desc"] = "Muestra las localizaciones de buzones para la montura del Zampacorreos."
-L["options_toggle_visions_misc_desc"] = "Muestra las localizaciones de raros, juguetes, pociones y del etéreo dentro de las visiones horripilantes."
+L["options_icons_visions_buffs"] = "Buffs"
+L["options_icons_visions_buffs_desc"] = "Muestra las localizaciones de eventos que garantizan buffs de daño durante 1 hora."
+L["options_icons_visions_chest"] = "Cofres"
+L["options_icons_visions_chest_desc"] = "Muestra las localizaciones posibles de cofres dentro de las visiones horripilantes."
+L["options_icons_visions_crystals"] = "Cristales Extraños"
+L["options_icons_visions_crystals_desc"] = "Muestra las localizaciones posibles de cristales extraños dentro de las visiones horripilantes."
+L["options_icons_visions_mail"] = "Buzones"
+L["options_icons_visions_mail_desc"] = "Muestra las localizaciones de buzones para la montura del Zampacorreos."
+L["options_icons_visions_misc"] = "Miscelánea"
+L["options_icons_visions_misc_desc"] = "Muestra las localizaciones de raros, juguetes, pociones y del etéreo dentro de las visiones horripilantes."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -235,5 +234,5 @@ L["options_toggle_visions_misc_desc"] = "Muestra las localizaciones de raros, ju
 
 L["voldun"] = "Vol'dun"
 L["elusive_alpaca"] = "Alimenta a la alpaca con Mezcla de Lechugas Costeras para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
-L["options_toggle_alpaca_voldun_desc"] = "Muestra las localizaciones de aparición de la Pezuñapresta Esquiva."
-L["options_toggle_alpaca_voldun"] = "Pezuñapresta Esquiva"
+L["options_icons_alpaca_voldun_desc"] = "Muestra las localizaciones de aparición de la Pezuñapresta Esquiva."
+L["options_icons_alpaca_voldun"] = "Pezuñapresta Esquiva"

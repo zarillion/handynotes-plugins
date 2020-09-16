@@ -55,8 +55,9 @@ def main():
         for item in ('core', 'icons', 'libs', 'embeds.xml'):
             install(item, path.join(target_dir, item))
 
-        # install templated pins.xml file
-        with open('pins.xml') as f1, open(path.join(target_dir, 'pins.xml'), 'w') as f2:
+        # install templates.xml file
+        with open('templates.xml') as f1, open(path.join(target_dir, 'templates.xml'), 'w') as f2:
+            print(f"Writing templates.xml => {path.join(target_dir, 'templates.xml')}")
             f2.write(f1.read().format(addon=plugin_name))
 
 if __name__ == '__main__':

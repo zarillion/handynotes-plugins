@@ -4,19 +4,68 @@
 
 local ADDON_NAME, ns = ...
 local Class = ns.Class
+local L = ns.locale
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local Map = Class('Map')
+--[[
 
-Map.id = 0
-Map.intro = nil
-Map.phased = true
+Base class for all maps.
+
+    id (integer): MapID value for this map
+    intro (Node): An intro node to display when phased
+    phased (boolean): If false, hide all nodes except the intro node.
+    options (table): Group default options (toggle, scale, alpha)
+
+--]]
+
+local Map = Class('Map', nil, {
+    id = 0,
+    name = nil,
+    intro = nil,
+    phased = true
+})
 
 function Map:init ()
     self.nodes = {}
+    self.groups = {}
+
+    if not self.options then self.options = {} end
+    if not self.parents then self.parents = {} end
+
+    setmetatable(self.nodes, {
+        __newindex = function (nodes, coord, node)
+            self:add(coord, node)
+        end
+    })
+
+    -- auto-register this map
+    if ns.maps[self.id] then error('Map already registered: '..self.id) end
+    ns.maps[self.id] = self
+end
+
+function Map:add(coord, node)
+    if not ns.isinstance(node, ns.node.Node) then
+        error('All nodes must be instances of the Node() class:', coord, node)
+    end
+
+    if node.group ~= 'intro' then
+        -- Initialize group defaults and UI controls for this map if the group does
+        -- not inherit its settings and defaults from a parent map
+        if not self.parents[node.group] then
+            ns.InitializeGroup(self, node.group)
+        end
+
+        -- Keep track of all groups associated with this map
+        if not self.groups[node.group] then
+            self.groups[#self.groups + 1] = node.group
+            self.groups[node.group] = true
+        end
+    end
+
+    rawset(self.nodes, coord, node)
 end
 
 function Map:prepare ()
@@ -27,9 +76,10 @@ end
 
 function Map:enabled (node, coord, minimap)
     local db = ns.addon.db
+    local profile = db.profile
 
     -- Debug option to force display all nodes
-    if db.profile.force_nodes or ns.dev_force then return true end
+    if profile.force_nodes or ns.dev_force then return true end
 
     -- Check if the zone is still phased
     if node ~= self.intro and not self.phased then return false end
@@ -37,10 +87,21 @@ function Map:enabled (node, coord, minimap)
     -- Check if we've been hidden by the user
     if db.char[self.id..'_coord_'..coord] then return false end
 
-    -- Check minimap, faction and quest completion
-    if not node:enabled(self, coord, minimap) then return false end
+    -- Minimap may be disabled for this node
+    if not node.minimap and minimap then return false end
 
-    return true
+    -- Node may be faction restricted
+    if node.faction and node.faction ~= ns.faction then return false end
+
+    -- Display the intro node!
+    if node == self.intro then return not node:completed() end
+
+    -- Check for prerequisites and quest (or custom) completion
+    if not node:enabled() then return false end
+
+    -- Display the node based off the group display setting
+    local mapid = self.parents[node.group] or self.id
+    return profile['icon_display_'..node.group..'_'..mapid]
 end
 
 -------------------------------------------------------------------------------
@@ -70,9 +131,10 @@ MinimapDataProvider.scales = {
 MinimapDataProvider.sizes = {
     [1527] = {1750, 1312},   -- Uldum
     [1530] = {700, 466},     -- Vale
-    [1565] = {2000, 1500},   -- Ardenweald
-    [1533] = {2000, 1350},   -- Bastion
     [1525] = {1900, 1280},   -- Revendreth
+    [1533] = {2000, 1350},   -- Bastion
+    [1543] = {1325, 888},   -- The Maw
+    [1565] = {2000, 1500},   -- Ardenweald
 }
 
 function MinimapDataProvider:ReleasePin(pin)
@@ -134,8 +196,8 @@ function MinimapDataProvider:RefreshAllData()
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if (node._focus or node._hover) and map:enabled(node, coord, true) then
-            for i, poi in ipairs(node.pois or {}) do
+        if node.pois and (node._focus or node._hover) and map:enabled(node, coord, true) then
+            for i, poi in ipairs(node.pois) do
                 poi:render(self, map.id)
             end
         end
@@ -193,8 +255,8 @@ function WorldMapDataProvider:RefreshAllData(fromOnShow)
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if (node._focus or node._hover) and map:enabled(node, coord, false) then
-            for i, poi in ipairs(node.pois or {}) do
+        if node.pois and (node._focus or node._hover) and map:enabled(node, coord, false) then
+            for i, poi in ipairs(node.pois) do
                 poi:render(self:GetMap(), WorldMapPinTemplate)
             end
         end

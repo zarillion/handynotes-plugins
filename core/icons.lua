@@ -101,7 +101,7 @@ ns.icons = {
     necrolord_sigil = { icon=ICONS, coords=coords(2, 8)},
     nightfae_sigil = { icon=ICONS, coords=coords(3, 8)},
     venthyr_sigil = { icon=ICONS, coords=coords(4, 8)},
-};
+}
 
 for name, icon in pairs(ns.icons) do
     if type(icon) == 'table' then

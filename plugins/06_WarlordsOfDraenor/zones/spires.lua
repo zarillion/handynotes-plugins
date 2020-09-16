@@ -27,7 +27,3 @@ nodes[36431830] = Voidtalon
 nodes[47002010] = Voidtalon
 nodes[50400610] = Voidtalon
 nodes[60801123] = Voidtalon
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map

@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: HandyNotes: Visions Of N'Zoth
 ## Version: 38
 ## Notes: Visions Of N'Zoth Notes
@@ -8,33 +8,5 @@
 ## SavedVariables: HandyNotes_VisionsOfNZothDB
 
 embeds.xml
-
-core\colors.lua
-core\localization\locales.xml
-localization\enUS.lua
-localization\deDE.lua
-localization\esES.lua
-localization\esMX.lua
-localization\frFR.lua
-localization\ruRU.lua
-localization\zhCN.lua
-localization\zhTW.lua
-
-core\class.lua
-core\core.lua
-core\icons.lua
-core\options.lua
-core\dev.lua
-core\map.lua
-core\nodes.lua
-core\rewards.lua
-core\pois.lua
-core\util.lua
-
-pins.xml
-
-options.lua
-uldum.lua
-vale.lua
-visions.lua
-voldun.lua
+core\core.xml
+plugin.xml

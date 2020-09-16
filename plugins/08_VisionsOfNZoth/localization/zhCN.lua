@@ -8,7 +8,6 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes 恩佐斯的幻象"
 L["options_title"] = "恩佐斯的幻象"
-L["options_icons_assaultevents"] = "事件图标"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -46,12 +45,12 @@ L["amathet_reliquary"] = "阿玛赛特圣箱"
 L["cursed_relic"] = "需要诅咒圣物"
 L["tolvir_relic"] = "需要托维尔圣物"
 
-L["options_toggle_alpaca_uldum"] = "春袭羊驼"
-L["options_toggle_alpaca_uldum_desc"] = "显示友善的羊驼的位置"
-L["options_toggle_assault_events"] = "突袭事件"
-L["options_toggle_assault_events_desc"] = "显示可能的突袭事件的位置"
-L["options_toggle_coffers"] = "上锁的箱子"
-L["options_toggle_coffers_desc"] = "显示上锁的箱子（每次突袭拾取一次）"
+L["options_icons_alpaca_uldum"] = "春袭羊驼"
+L["options_icons_alpaca_uldum_desc"] = "显示友善的羊驼的位置"
+L["options_icons_assault_events"] = "突袭事件"
+L["options_icons_assault_events_desc"] = "显示可能的突袭事件的位置"
+L["options_icons_coffers"] = "上锁的箱子"
+L["options_icons_coffers_desc"] = "显示上锁的箱子（每次突袭拾取一次）"
 
 L["ambush_settlers"] = "保护NPC"
 L["combust_cocoon"] = "捡起自制火焰炸弹，然后丢到空中的卵上"
@@ -220,14 +219,16 @@ L["c_walkway_platform"] = "在走廊上方的平台上"
 L["c_walkway_corner"] = "在角落的走廊上"
 
 
-L["options_toggle_visions_buffs"] = "增益效果"
-L["options_toggle_visions_buffs_desc"] = "显示可以获得持续一小时的增益BUFF的事件位置"
-L["options_toggle_visions_chest_desc"] = "显示惊魂幻象内可能的宝箱位置"
-L["options_toggle_visions_crystals"] = "怪异水晶"
-L["options_toggle_visions_crystals_desc"] = "显示惊魂幻象内可能的怪异水晶的位置"
-L["options_toggle_visions_mail"] = "邮箱"
-L["options_toggle_visions_mail_desc"] = "显示会掉落邮件吞噬者坐骑的邮箱位置"
-L["options_toggle_visions_misc_desc"] = "显示惊魂幻象内可能的奖励位置"
+L["options_icons_visions_buffs"] = "增益效果"
+L["options_icons_visions_buffs_desc"] = "显示可以获得持续一小时的增益BUFF的事件位置"
+L["options_icons_visions_chest"] = "宝箱"
+L["options_icons_visions_chest_desc"] = "显示惊魂幻象内可能的宝箱位置"
+L["options_icons_visions_crystals"] = "怪异水晶"
+L["options_icons_visions_crystals_desc"] = "显示惊魂幻象内可能的怪异水晶的位置"
+L["options_icons_visions_mail"] = "邮箱"
+L["options_icons_visions_mail_desc"] = "显示会掉落邮件吞噬者坐骑的邮箱位置"
+L["options_icons_visions_misc"] = "杂项"
+L["options_icons_visions_misc_desc"] = "显示惊魂幻象内可能的奖励位置"
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -235,5 +236,5 @@ L["options_toggle_visions_misc_desc"] = "显示惊魂幻象内可能的奖励位
 
 L["voldun"] = "沃顿"
 L["elusive_alpaca"] = "将\"海滩叶蔬沙拉\"喂食\"轻盈的迅蹄驼\"以获得坐骑。羊驼刷新时间很长，每次存在10分钟。大部分8.0的食物供应商（比如雷龙）会出售该食物。"
-L["options_toggle_alpaca_voldun_desc"] = "显示轻盈的迅蹄驼的位置"
-L["options_toggle_alpaca_voldun"] = "轻盈的迅蹄驼"
+L["options_icons_alpaca_voldun_desc"] = "显示轻盈的迅蹄驼的位置"
+L["options_icons_alpaca_voldun"] = "轻盈的迅蹄驼"

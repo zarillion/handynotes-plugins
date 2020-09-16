@@ -8,7 +8,6 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes Видения Н'Зота"
 L["options_title"] = "Видения Н'Зота"
-L["options_icons_assaultevents"] = "Значки Событий Нападения"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -50,12 +49,12 @@ L["amathet_reliquary"] = "Реликвия Аматетов"
 L["cursed_relic"] = "Требуется Проклятая Реликвия"
 L["tolvir_relic"] = "Требуется Реликвия Тол'виров"
 
-L["options_toggle_alpaca_uldum"] = "Курчавая Альпака"
-L["options_toggle_alpaca_uldum_desc"] = "Показать в локации места появления Побега герсали и Дружелюбной альпаки."
-L["options_toggle_assault_events"] = "События Нападения"
-L["options_toggle_assault_events_desc"] = "Показать места возможных событий нападения."
-L["options_toggle_coffers"] = "Запертые Сундуки"
-L["options_toggle_coffers_desc"] = "Отображение местоположения запертых сундуков (можно открыть один раз за нападение)."
+L["options_icons_alpaca_uldum"] = "Курчавая Альпака"
+L["options_icons_alpaca_uldum_desc"] = "Показать в локации места появления Побега герсали и Дружелюбной альпаки."
+L["options_icons_assault_events"] = "События Нападения"
+L["options_icons_assault_events_desc"] = "Показать места возможных событий нападения."
+L["options_icons_coffers"] = "Запертые Сундуки"
+L["options_icons_coffers_desc"] = "Отображение местоположения запертых сундуков (можно открыть один раз за нападение)."
 
 L["ambush_settlers"] = "Защищайте Дервиша до окончания атак монстров."
 L["burrowing_terrors"] = "Прыгай на Закапывающихся Скарабеев, чтобы раздавить их."
@@ -216,14 +215,16 @@ L["c_underneath_bridge"] = "Под мостом."
 L["c_walkway_corner"] = "На верхней дорожке в углу."
 L["c_walkway_platform"] = "На платформе над верхней дорожкой."
 
-L["options_toggle_visions_buffs"] = "Баффы"
-L["options_toggle_visions_buffs_desc"] = "Показать места событий, которые дают баффы на урон, на час."
-L["options_toggle_visions_chest_desc"] = "Показать возможные места сундуков внутри жутких видений."
-L["options_toggle_visions_crystals"] = "Странные Кристаллы"
-L["options_toggle_visions_crystals_desc"] = "Показывать расположение Странных Кристаллов внутри жутких видений."
-L["options_toggle_visions_mail"] = "Почтовый Ящик"
-L["options_toggle_visions_mail_desc"] = "Показывать расположение почтовых ящиков для получения Письмоеда."
-L["options_toggle_visions_misc_desc"] = "Показать награды на карте внутри жутких видений."
+L["options_icons_visions_buffs"] = "Баффы"
+L["options_icons_visions_buffs_desc"] = "Показать места событий, которые дают баффы на урон, на час."
+L["options_icons_visions_chest"] = "Сундуки"
+L["options_icons_visions_chest_desc"] = "Показать возможные места сундуков внутри жутких видений."
+L["options_icons_visions_crystals"] = "Странные Кристаллы"
+L["options_icons_visions_crystals_desc"] = "Показывать расположение Странных Кристаллов внутри жутких видений."
+L["options_icons_visions_mail"] = "Почтовый Ящик"
+L["options_icons_visions_mail_desc"] = "Показывать расположение почтовых ящиков для получения Письмоеда."
+L["options_icons_visions_misc"] = "Разное"
+L["options_icons_visions_misc_desc"] = "Показать награды на карте внутри жутких видений."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -231,5 +232,5 @@ L["options_toggle_visions_misc_desc"] = "Показать награды на к
 
 L["voldun"] = "Вол'дун"
 L["elusive_alpaca"] = "Скормите Салат из приморской зелени, альпаке, чтобы выучить ее как маунта. Появляется в течение 10 минут в одном месте, затем долгое возрождение."
-L["options_toggle_alpaca_voldun_desc"] = "Показать места появления Неуловимого быстронога."
-L["options_toggle_alpaca_voldun"] = "Неуловимый быстроног"
+L["options_icons_alpaca_voldun_desc"] = "Показать места появления Неуловимого быстронога."
+L["options_icons_alpaca_voldun"] = "Неуловимый быстроног"

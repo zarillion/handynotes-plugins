@@ -5,9 +5,6 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 
-local isinstance = ns.isinstance
-local Rare = ns.node.Rare
-
 -------------------------------------------------------------------------------
 ---------------------------------- CALLBACKS ----------------------------------
 -------------------------------------------------------------------------------
@@ -34,13 +31,33 @@ ns.covenants = {
     NEC = { id = 4, icon = ns.icons['necrolord_sigil'] }
 }
 
-ns.processCovenant = function (node)
+local function ProcessCovenant (node)
     if node.covenant == nil then return end
-
-    -- Are we a member of this covenant?
     local data = C_Covenants.GetCovenantData(node.covenant.id)
 
     -- Add covenant sigil to top-right corner of tooltip
     node.rlabel = node.covenant.icon:link(13)
-    node.sublabel = ns.color.Orange(string.format(L["covenant_required"], data.name))
+
+    if not node._covenantProcessed then
+        local subl = ns.color.Orange(string.format(L["covenant_required"], data.name))
+        node.sublabel = node.sublabel and subl..'\n'..node.sublabel or subl
+        node._covenantProcessed = true
+    end
 end
+
+-------------------------------------------------------------------------------
+------------------------------------ MAPS -------------------------------------
+-------------------------------------------------------------------------------
+
+local Map = ns.Map
+local ShadowlandsMap = ns.Class('ShadowlandsMap', Map)
+
+function ShadowlandsMap:prepare ()
+    Map.prepare(self)
+    for coord, node in pairs(self.nodes) do
+        -- Update rlabel and sublabel for covenant-restricted nodes
+        ProcessCovenant(node)
+    end
+end
+
+ns.Map = ShadowlandsMap

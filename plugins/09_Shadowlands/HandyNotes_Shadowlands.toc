@@ -1,6 +1,6 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: HandyNotes: Shadowlands
-## Version: 3
+## Version: 4
 ## Notes: Shadowlands Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
@@ -8,29 +8,5 @@
 ## SavedVariables: HandyNotes_ShadowlandsDB
 
 embeds.xml
-
-core\colors.lua
-core\localization\locales.xml
-localization\enUS.lua
-localization\deDE.lua
-localization\esES.lua
-
-core\class.lua
-core\core.lua
-core\icons.lua
-core\options.lua
-core\dev.lua
-core\map.lua
-core\nodes.lua
-core\rewards.lua
-core\pois.lua
-core\util.lua
-
-pins.xml
-
-common.lua
-zones\ardenweald.lua
-zones\bastion.lua
-zones\maldraxxus.lua
-zones\revendreth.lua
-zones\the_maw.lua
+core\core.xml
+plugin.xml

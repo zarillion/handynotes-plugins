@@ -25,7 +25,7 @@ function TestClass:testConstructor ()
     luaunit.assertIsNil(Node.__parent)
 
     -- Verify name parameter must be a string
-    local msg = 'name parameter must be a string'
+    local msg = 'name param must be a string'
     luaunit.assertErrorMsgContains(msg, Class)
     luaunit.assertErrorMsgContains(msg, Class, 123)
 end

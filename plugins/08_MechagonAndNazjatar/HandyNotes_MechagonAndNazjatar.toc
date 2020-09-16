@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: HandyNotes: Mechagon & Nazjatar
 ## Version: 13
 ## Notes: Mechagon & Nazjatar Notes
@@ -8,26 +8,5 @@
 ## SavedVariables: HandyNotes_MechagonAndNazjatarDB
 
 embeds.xml
-
-core\colors.lua
-core\localization\locales.xml
-localization\enUS.lua
-localization\ruRU.lua
-localization\zhTW.lua
-localization\deDE.lua
-
-core\class.lua
-core\core.lua
-core\icons.lua
-core\options.lua
-core\dev.lua
-core\map.lua
-core\nodes.lua
-core\rewards.lua
-core\pois.lua
-core\util.lua
-
-pins.xml
-mechagon.lua
-nazjatar.lua
-#operation_mechagon.lua
+core\core.xml
+plugin.xml

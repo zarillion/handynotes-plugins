@@ -6,9 +6,9 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
-local isinstance = ns.isinstance
 
 local NPC = ns.node.NPC
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -20,71 +20,27 @@ local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
-local options = ns.options.args.VisibilityGroup.args
-local defaults = ns.optionDefaults.profile
-
--------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
 local map = Map({ id=1525 })
-local nodes = map.nodes
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-defaults['rare_revendreth'] = true
-defaults['treasure_revendreth'] = true
-defaults['carriage_revendreth'] = true
-
-options.groupRevendreth = {
-    type = "header",
-    name = C_Map.GetMapInfo(map.id).name,
-    order = 30,
-}
-
-options.rareRevendreth = {
-    type = "toggle",
-    arg = "rare_revendreth",
-    name = L["options_toggle_rares"],
-    desc = L["options_toggle_rares_desc"],
-    order = 31,
-    width = "normal",
-}
-
-options.treasureRevendreth = {
-    type = "toggle",
-    arg = "treasure_revendreth",
-    name = L["options_toggle_treasures"],
-    desc = L["options_toggle_treasures_desc"],
-    order = 32,
-    width = "normal",
-}
-
-options.carriageRevendreth = {
-    type = "toggle",
-    arg = "carriage_revendreth",
-    name = L["options_toggle_carriages"],
-    desc = L["options_toggle_carriages_desc"],
-    order = 33,
-    width = "normal",
-}
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- nodes[] = Rare({
---     id=166393,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=48814})
---     }
--- }) -- Amalgamation of Filth
+map.nodes[53167302] = Rare({
+    id=166393,
+    quest=nil,
+    note=L["amalgamation_of_filth_note"],
+    rewards={
+        Achievement({id=14310, criteria=48814}),
+        Transmog({item=183729, slot=L["leather"]}) -- Filth-Splattered Headcover
+    }
+}) -- Amalgamation of Filth
 
-nodes[25304850] = Rare({
+map.nodes[25304850] = Rare({
     id=164388,
     quest=59584,
     note=L["amalgamation_of_light_note"],
@@ -93,15 +49,16 @@ nodes[25304850] = Rare({
     }
 }) -- Amalgamation of Light
 
--- nodes[] = Rare({
---     id=170434,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=50029})
---     }
--- }) -- Amalgamation of Sin
+map.nodes[65902940] = Rare({
+    id=170434,
+    quest=nil,
+    note=L["amalgamation_of_sin_note"],
+    rewards={
+        Achievement({id=14310, criteria=50029})
+    }
+}) -- Amalgamation of Sin
 
-nodes[35817052] = Rare({
+map.nodes[35817052] = Rare({
     id=166576,
     quest=59893,
     rewards={
@@ -110,7 +67,7 @@ nodes[35817052] = Rare({
     }
 }) -- Azgar
 
-nodes[35003230] = Rare({
+map.nodes[35003230] = Rare({
     id=166292,
     quest=nil,
     note=L["bog_beast_note"],
@@ -120,7 +77,7 @@ nodes[35003230] = Rare({
     }
 }) -- Bog Beast
 
-nodes[66555946] = Rare({
+map.nodes[66555946] = Rare({
     id=165206,
     quest=59582,
     note=L["endlurker_note"],
@@ -130,7 +87,7 @@ nodes[66555946] = Rare({
     }
 }) -- Endlurker
 
-nodes[37084742] = Rare({
+map.nodes[37084742] = Rare({
     id=166710,
     quest=59913,
     note=L["executioner_aatron_note"],
@@ -141,7 +98,7 @@ nodes[37084742] = Rare({
     }
 }) -- Executioner Aatron
 
-nodes[43055183] = Rare({
+map.nodes[43055183] = Rare({
     id=161310,
     quest=58441,
     rewards={
@@ -153,7 +110,7 @@ nodes[43055183] = Rare({
     }
 }) -- Executioner Adrastia
 
-nodes[62484716] = Rare({
+map.nodes[62484716] = Rare({
     id=166521,
     quest=59869,
     note=L["famu_note"],
@@ -163,7 +120,7 @@ nodes[62484716] = Rare({
     }
 }) -- Famu the Infinite
 
--- nodes[] = Rare({
+-- map.nodes[] = Rare({
 --     id=159496,
 --     quest=nil,
 --     rewards={
@@ -171,7 +128,7 @@ nodes[62484716] = Rare({
 --     }
 -- }) -- Forgemaster Madalav
 
-nodes[20485298] = Rare({
+map.nodes[20485298] = Rare({
     id=167464,
     quest=60173,
     note=L["grand_arcanist_dimitri_note"],
@@ -180,17 +137,20 @@ nodes[20485298] = Rare({
     }
 }) -- Grand Arcanist Dimitri
 
-nodes[45847919] = Rare({
+map.nodes[45847919] = Rare({
     id=165290,
     quest=nil,
-    note=L["activation_unknown"],
+    note=L["harika_note"],
     rewards={
         Achievement({id=14310, criteria=48813}),
         Mount({item=180461, id=1310}) -- Horrid Brood Dredwing
+    },
+    pois={
+        POI({43257769}) -- Ballista Bolt
     }
 }) -- Harika the Horrid
 
-nodes[51985179] = Rare({
+map.nodes[51985179] = Rare({
     id=166679,
     quest=59900,
     rewards={
@@ -199,7 +159,7 @@ nodes[51985179] = Rare({
     }
 }) -- Hopecrusher
 
-nodes[61717949] = Rare({
+map.nodes[61717949] = Rare({
     id=166993,
     quest=60022,
     rewards={
@@ -209,7 +169,7 @@ nodes[61717949] = Rare({
     }
 }) -- Huntmaster Petrus
 
-nodes[21803590] = Rare({
+map.nodes[21803590] = Rare({
     id=160640,
     quest=58210,
     requires="{item:177223}",
@@ -220,7 +180,7 @@ nodes[21803590] = Rare({
     }
 }) -- Innervus
 
-nodes[67978179] = Rare({
+map.nodes[67978179] = Rare({
     id=165152,
     quest=59580,
     note=L["leeched_soul_note"],
@@ -231,7 +191,7 @@ nodes[67978179] = Rare({
     }
 }) -- Leeched Soul
 
-nodes[75976161] = Rare({
+map.nodes[75976161] = Rare({
     id=161891,
     quest=58633,
     note=L["lord_mortegore_note"],
@@ -241,7 +201,7 @@ nodes[75976161] = Rare({
     }
 }) -- Lord Mortegore
 
-nodes[49003490] = Rare({
+map.nodes[49003490] = Rare({
     id=170048,
     quest=nil,
     note=L["manifestation_of_wrath_note"],
@@ -251,7 +211,7 @@ nodes[49003490] = Rare({
     }
 }) -- Manifestation of Wrath (World Quest required)
 
-nodes[38316914] = Rare({
+map.nodes[38316914] = Rare({
     id=160675,
     quest=58213,
     note=L["scrivener_lenua_note"],
@@ -261,7 +221,7 @@ nodes[38316914] = Rare({
     }
 }) -- Scrivener Lenua
 
-nodes[67443048] = Rare({
+map.nodes[67443048] = Rare({
     id=162481,
     quest=62252,
     note=L["sinstone_hoarder_note"],
@@ -272,15 +232,17 @@ nodes[67443048] = Rare({
     }
 }) -- Sinstone Hoarder
 
-nodes[33605540] = Rare({
+map.nodes[34045555] = Rare({
     id=160857,
-    quest=nil,
+    quest=58263,
+    note=L["sire_ladinas_note"],
     rewards={
-        Achievement({id=14310, criteria=48806})
+        Achievement({id=14310, criteria=48806}),
+        Toy({item=180873}) -- Smolderheart
     }
 }) -- Sire Ladinas
 
-nodes[78934975] = Rare({
+map.nodes[78934975] = Rare({
     id=160385,
     quest=58130,
     note=L["soulstalker_doina_note"],
@@ -290,7 +252,7 @@ nodes[78934975] = Rare({
     }
 }) -- Soulstalker Doina
 
-nodes[31312324] = Rare({
+map.nodes[31312324] = Rare({
     id=159503,
     quest=62220,
     rewards={
@@ -299,7 +261,7 @@ nodes[31312324] = Rare({
     }
 }) -- Stonefist
 
-nodes[66507080] = Rare({
+map.nodes[66507080] = Rare({
     id=165253,
     quest=59595,
     rewards={
@@ -308,38 +270,32 @@ nodes[66507080] = Rare({
     }
 }) -- Tollkeeper Varaboss
 
-nodes[43007910] = Rare({
+map.nodes[43007910] = Rare({
     id=155779,
     quest=56877,
     note=L["tomb_burster_note"],
     rewards={
         Achievement({id=14310, criteria=48802}),
-        Item({item=179613}) -- Extra Sticky Spidey Webs
+        Pet({item=180584, id=2891}) -- Rose Spiderling
     }
 }) -- Tomb Burster
 
-nodes[38607200] = Rare({
+map.nodes[38607200] = Rare({
     id=160821,
     quest=58259,
     requires="{item:173939}",
     note=L["worldedge_gorger_note"],
     rewards={
         Achievement({id=14310, criteria=48805}),
-        Item({item=180583}), -- Impressionable Gorger Spawn
-        Mount({item=182589, id=1391}) -- Loyal Gorger
+        Item({item=180583, quest=61188}) -- Impressionable Gorger Spawn
     }
 }) -- Worldedge Gorger
--- Prereq item: Impressionable Gorger Spawn 61188
--- Daily completion: 61843
--- Day 1: Nipping at the Undergrowth 61839
--- Day 2: Vineroot on the Menu 61840
--- Day 3: Vineroot Will Not Do 61842
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- nodes[] = Treasure({
+-- map.nodes[] = Treasure({
 --     quest=nil,
 --     rewards={
 --         Achievement({id=14314, criteria=})
@@ -350,7 +306,7 @@ nodes[38607200] = Rare({
 -- Reliquary of Remembrance (79763376) (item=180403)
 -- Unimplemented treasure? (50244910)
 
-nodes[37726925] = Treasure({
+map.nodes[37726925] = Treasure({
     quest=61990,
     note=L["lost_quill_note"],
     rewards={
@@ -359,7 +315,7 @@ nodes[37726925] = Treasure({
     }
 }) -- Lost Quill
 
-nodes[29693723] = Treasure({
+map.nodes[29693723] = Treasure({
     quest=62198,
     requires="{currency:1820} x30",
     rewards={
@@ -368,7 +324,7 @@ nodes[29693723] = Treasure({
     }
 }) -- Makeshift Muckpool
 
-nodes[79993697] = Treasure({
+map.nodes[79993697] = Treasure({
     quest=nil,
     note=L["activation_unknown"],
     rewards={
@@ -376,7 +332,7 @@ nodes[79993697] = Treasure({
     }
 }) -- Rapier of the Fearless
 
-nodes[47335536] = Treasure({
+map.nodes[47335536] = Treasure({
     quest=62243,
     note=L["secret_chamber_note"],
     rewards={
@@ -384,7 +340,7 @@ nodes[47335536] = Treasure({
     }
 }) -- Secret Chamber
 
-nodes[38394424] = Treasure({
+map.nodes[38394424] = Treasure({
     quest=61999,
     rewards={
         Achievement({id=14314, criteria=50077}),
@@ -392,15 +348,16 @@ nodes[38394424] = Treasure({
     }
 }) -- Stylish Parasol
 
-nodes[63367398] = Treasure({
+map.nodes[63367398] = Treasure({
     quest=62199,
     note=L["taskmaster_trove_note"],
     rewards={
-        Achievement({id=14314, criteria=50082})
+        Achievement({id=14314, criteria=50082}),
+        Toy({item=183986}) -- Bondable Sinstone
     }
 }) -- Taskmaster's Trove
 
-nodes[57374337] = Treasure({
+map.nodes[57374337] = Treasure({
     quest=nil,
     requires="{currency:1820} x99",
     note=L["the_count_note"],
@@ -410,7 +367,7 @@ nodes[57374337] = Treasure({
     }
 }) -- The Count
 
-nodes[70176005] = Treasure({
+map.nodes[70176005] = Treasure({
     quest=62164,
     note=L["dredglaive_note"],
     rewards={
@@ -421,7 +378,7 @@ nodes[70176005] = Treasure({
 
 -------------------------------------------------------------------------------
 
-nodes[51855954] = Treasure({
+map.nodes[51855954] = Treasure({
     quest=59888,
     label=L["abandoned_curios"],
     rewards={
@@ -430,16 +387,17 @@ nodes[51855954] = Treasure({
 }) -- Abandoned Curios
 
 -- Not at this location for me -Zar
--- nodes[30342472] = Treasure({
+-- map.nodes[30342472] = Treasure({
 --     quest=60665,
 --     label=L["bleakwood_chest"],
 --     rewards={
+--         Pet({item=180592, id=2901}), -- Trapped Stonefiend
 --         Transmog({item=182720, slot=L["mail"]}), -- Mail Courier's Tunic
 --         Transmog({item=180398, slot=L["polearm"]}) -- Stonewrought Legion Halberd
 --     }
 -- }) -- Bleakwood Chest
 
-nodes[69327795] = Treasure({
+map.nodes[69327795] = Treasure({
     quest=59833,
     label=L["chest_of_envious_dreams"],
     rewards={
@@ -447,7 +405,7 @@ nodes[69327795] = Treasure({
     }
 }) -- Chest of Envious Dreams
 
-nodes[64187265] = Treasure({
+map.nodes[64187265] = Treasure({
     quest=59883,
     label=L["filchers_prize"],
     rewards={
@@ -455,12 +413,20 @@ nodes[64187265] = Treasure({
     }
 }) -- Filcher's Prize
 
-nodes[46395817] = Treasure({
+map.nodes[46395817] = Treasure({
     quest=59886,
     label=L["fleeing_soul_bundle"],
 }) -- Fleeing Soul's Bundle
 
-nodes[75465542] = Treasure({
+map.nodes[73597539] = Treasure({
+    quest=62196,
+    label=L["forgotten_anglers_rod"],
+    rewards={
+        Toy({item=180993}) -- Bat Visage Bobber
+    }
+}) -- Forgotten Angler's Rod
+
+map.nodes[75465542] = Treasure({
     quest=59887,
     label=L["gilded_plum_chest"],
     note=L["gilded_plum_chest_note"],
@@ -472,13 +438,13 @@ nodes[75465542] = Treasure({
     }
 }) -- Gilded Plum Chest
 
-nodes[61525864] = Treasure({
+map.nodes[61525864] = Treasure({
     quest=59885,
     label=L["remlates_cache"],
     note=L["remlates_cache_note"]
 }) -- Remlate's Hidden Cache
 
-nodes[31055506] = Treasure({
+map.nodes[31055506] = Treasure({
     quest=59889,
     label=L["smuggled_cache"],
     rewards={
@@ -486,10 +452,171 @@ nodes[31055506] = Treasure({
     }
 }) -- Smuggled Cache
 
-nodes[68446445] = Treasure({
+map.nodes[68446445] = Treasure({
     quest=59884,
     label=L["wayfairer_spoils"]
 }) -- Wayfairer's Abandoned Spoils
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[25263799] = PetBattle({
+    id=173303,
+    rewards={
+        Achievement({id=14625, criteria=49409})
+    }
+}) -- Scorch
+
+map.nodes[39945249] = PetBattle({
+    id=173315,
+    rewards={
+        Achievement({id=14625, criteria=49408})
+    }
+}) -- Sylla
+
+map.nodes[61354121] = PetBattle({
+    id=173331,
+    rewards={
+        Achievement({id=14625, criteria=49406})
+    }
+}) -- Addius the Tormentor
+
+map.nodes[67626608] = PetBattle({
+    id=173324,
+    rewards={
+        Achievement({id=14625, criteria=49407})
+    }
+}) -- Eyegor
+
+-------------------------------------------------------------------------------
+---------------------------- THE AFTERLIFE EXPRESS ----------------------------
+-------------------------------------------------------------------------------
+
+local Carriage = Class('Carriage', NPC, { group = 'carriages' })
+
+function Carriage.getters:icon ()
+    return self._focus and 'horseshoe_green_glow' or 'horseshoe'
+end
+
+function Carriage.getters:scale ()
+    return self._focus and 2.0 or 1.2
+end
+
+map.nodes[50217067] = Carriage({
+    id=158365,
+    rewards={ Achievement({id=14771, criteria=50170}) },
+    pois={
+        Path({
+            61646948, 61317022, 60747099, 60097166, 59487245, 58747306,
+            57937314, 57107308, 56317325, 55527318, 54907229, 54227157,
+            53457133, 52567129, 51737135, 51037104, 50217067, 49777078,
+            49087176, 48297197, 47527241, 46707290, 45867344, 45057385,
+            44307361, 43667254, 43147164, 42447066, 41696959, 40976873,
+            40386790, 40606672, 41056578, 41446465, 41596336, 41756230,
+            42116124, 42836046, 43485973, 43605910
+        })
+    }
+}) -- Banewood Carriage
+
+map.nodes[54784842] = Carriage({
+    id=174750,
+    rewards={ Achievement({id=14771, criteria=50168}) },
+    pois={
+        Path({
+            54784842, 53944909, 53044932, 52084962, 51335050, 50535120,
+            49945193, 49285216, 48765143, 48035069, 47394964, 46944832,
+            46764721, 47104691, 47564794, 47924913, 48475001, 48905053,
+            49435025, 50045066, 50774996, 51544918, 52294866, 53184838,
+            53994806, 54544773, 54784842
+        })
+    }
+}) -- Chalice Carriage
+
+map.nodes[63865885] = Carriage({
+    id=158336,
+    rewards={ Achievement({id=14771, criteria=50172}) },
+    pois={
+        Path({
+            62535921, 62426040, 61806117, 61156162, 61326239, 62046252,
+            62726224, 63436223, 64086263, 64866323, 65776393, 66626458,
+            67516524, 68276591, 68206736, 67676828, 66806772, 65846757,
+            65046796, 64276882, 63336907, 62526932, 61796934, 62216827,
+            62706719, 63046602, 63436485, 63976392, 64526285, 64706183,
+            64566066, 64405968, 63865885, 63015872, 62535921
+        })
+    }
+}) -- Darkhaven Carriage
+
+map.nodes[57263726] = Carriage({
+    id=174751,
+    rewards={ Achievement({id=14771, criteria=50169}) },
+    pois={
+        Path({
+            57263726, 57513861, 57823963, 58434056, 58944093, 59414007,
+            59173914, 58973790, 58983663, 59123533, 59563411, 59973304,
+            60483221, 59913144, 59443176, 59063262, 58533367, 58083468,
+            57583592, 57263726, 56503725, 55923724, 55293621, 54563601,
+            53773623, 53713765, 53843907, 54674041, 55173969, 55593869,
+            55923724
+        })
+    }
+}) -- Old Gate Carriage
+
+map.nodes[66727652] = Carriage({
+    id=161879,
+    rewards={ Achievement({id=14771, criteria=50171}) },
+    pois={
+        Path({
+            73116864, 72506873, 71626856, 70786928, 69946991, 69096963,
+            68356880, 67766840, 67166922, 66346979, 65297056, 65067173,
+            65217324, 65447461, 66117565, 66727652, 67047776, 67487904,
+            68358046, 68348124, 68568163, 68918168, 69188130, 69148075,
+            68838042, 68358046
+        })
+    }
+}) -- Pridefall Carriage
+
+map.nodes[52634155] = Carriage({
+    id=174754,
+    rewards={ Achievement({id=14771, criteria=50173}) },
+    pois={
+        Path({
+            46644671, 45864613, 45784494, 45354378, 44844287, 44374202,
+            44394091, 44844006, 45353914, 45743800, 45723704, 45583628,
+            46173554, 46853531, 47573540, 48223570, 48883619, 49673623,
+            50393626, 51023641, 51573725, 52173818, 52383928, 52404036,
+            52634155, 52384269, 52394388, 52024500, 51474591, 50764667,
+            49954673, 49174676, 48464699, 47694787, 47134703, 46644671
+        })
+    }
+}) -- The Castle Carriage
+
+-------------------------------------------------------------------------------
+-------------------------------- LOYAL GORGER ---------------------------------
+-------------------------------------------------------------------------------
+
+-- Daily completion: 61843
+
+map.nodes[59305700] = NPC({
+    id=173499,
+    icon=3601543,
+    quest={
+        61839, -- Nipping at the Undergrowth
+        61840, -- Vineroot on the Menu
+        61842, -- Vineroot Will Not Do
+        61844, -- Hungry Hungry Gorger
+        62044, -- Standing Toe to Toe
+        62045, -- Ready for More
+        62046  -- A New Pack
+    },
+    questDeps=61188,
+    questCount=true,
+    note=L["loyal_gorger_note"],
+    rewards={
+        Mount({item=182589, id=1391}) -- Loyal Gorger
+    }
+})
 
 -------------------------------------------------------------------------------
 ------------------------------ SINRUNNER BLANCHY ------------------------------
@@ -522,133 +649,4 @@ function Blanchy.getters:note ()
     return note
 end
 
-nodes[62874341] = Blanchy()
-
--------------------------------------------------------------------------------
----------------------------- THE AFTERLIFE EXPRESS ----------------------------
--------------------------------------------------------------------------------
-
-local Carriage = Class('Carriage', NPC)
-
-function Carriage.getters:icon ()
-    if self._focus then
-        return 'horseshoe_green_glow'
-    end
-        return 'horseshoe'
-end
-
-function Carriage.getters:scale ()
-    if self._focus then
-        return 2.0
-    end
-        return 1.2
-end
-
-
-nodes[50217067] = Carriage({
-    id=158365,
-    rewards={ Achievement({id=14771, criteria=50170}) },
-    pois={
-        Path({
-            61646948, 61317022, 60747099, 60097166, 59487245, 58747306,
-            57937314, 57107308, 56317325, 55527318, 54907229, 54227157,
-            53457133, 52567129, 51737135, 51037104, 50217067, 49777078,
-            49087176, 48297197, 47527241, 46707290, 45867344, 45057385,
-            44307361, 43667254, 43147164, 42447066, 41696959, 40976873,
-            40386790, 40606672, 41056578, 41446465, 41596336, 41756230,
-            42116124, 42836046, 43485973, 43605910
-        })
-    }
-}) -- Banewood Carriage
-
-nodes[54784842] = Carriage({
-    id=174750,
-    rewards={ Achievement({id=14771, criteria=50168}) },
-    pois={
-        Path({
-            54784842, 53944909, 53044932, 52084962, 51335050, 50535120,
-            49945193, 49285216, 48765143, 48035069, 47394964, 46944832,
-            46764721, 47104691, 47564794, 47924913, 48475001, 48905053,
-            49435025, 50045066, 50774996, 51544918, 52294866, 53184838,
-            53994806, 54544773, 54784842
-        })
-    }
-}) -- Chalice Carriage
-
-nodes[63865885] = Carriage({
-    id=158336,
-    rewards={ Achievement({id=14771, criteria=50172}) },
-    pois={
-        Path({
-            62535921, 62426040, 61806117, 61156162, 61326239, 62046252,
-            62726224, 63436223, 64086263, 64866323, 65776393, 66626458,
-            67516524, 68276591, 68206736, 67676828, 66806772, 65846757,
-            65046796, 64276882, 63336907, 62526932, 61796934, 62216827,
-            62706719, 63046602, 63436485, 63976392, 64526285, 64706183,
-            64566066, 64405968, 63865885, 63015872, 62535921
-        })
-    }
-}) -- Darkhaven Carriage
-
-nodes[57263726] = Carriage({
-    id=174751,
-    rewards={ Achievement({id=14771, criteria=50169}) },
-    pois={
-        Path({
-            57263726, 57513861, 57823963, 58434056, 58944093, 59414007,
-            59173914, 58973790, 58983663, 59123533, 59563411, 59973304,
-            60483221, 59913144, 59443176, 59063262, 58533367, 58083468,
-            57583592, 57263726, 56503725, 55923724, 55293621, 54563601,
-            53773623, 53713765, 53843907, 54674041, 55173969, 55593869,
-            55923724
-        })
-    }
-}) -- Old Gate Carriage
-
-nodes[66727652] = Carriage({
-    id=161879,
-    rewards={ Achievement({id=14771, criteria=50171}) },
-    pois={
-        Path({
-            73116864, 72506873, 71626856, 70786928, 69946991, 69096963,
-            68356880, 67766840, 67166922, 66346979, 65297056, 65067173,
-            65217324, 65447461, 66117565, 66727652, 67047776, 67487904,
-            68358046, 68348124, 68568163, 68918168, 69188130, 69148075,
-            68838042, 68358046
-        })
-    }
-}) -- Pridefall Carriage
-
-nodes[52634155] = Carriage({
-    id=174754,
-    rewards={ Achievement({id=14771, criteria=50173}) },
-    pois={
-        Path({
-            46644671, 45864613, 45784494, 45354378, 44844287, 44374202,
-            44394091, 44844006, 45353914, 45743800, 45723704, 45583628,
-            46173554, 46853531, 47573540, 48223570, 48883619, 49673623,
-            50393626, 51023641, 51573725, 52173818, 52383928, 52404036,
-            52634155, 52384269, 52394388, 52024500, 51474591, 50764667,
-            49954673, 49174676, 48464699, 47694787, 47134703, 46644671
-        })
-    }
-}) -- The Castle Carriage
-
--------------------------------------------------------------------------------
-
-function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    if node == map.intro then return true end
-
-    -- add rlabel and warning if covenant doesn't match
-    ns.processCovenant(node)
-
-    local profile = ns.addon.db.profile
-    if isinstance(node, Rare) then return profile.rare_revendreth end
-    if isinstance(node, Treasure) then return profile.treasure_revendreth end
-    if isinstance(node, Carriage) then return profile.carriage_revendreth end
-    return true
-end
-
-ns.maps[map.id] = map
+map.nodes[62874341] = Blanchy()

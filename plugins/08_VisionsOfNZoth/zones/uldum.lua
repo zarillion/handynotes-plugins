@@ -7,7 +7,6 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 local clone = ns.clone
-local isinstance = ns.isinstance
 
 local Node = ns.node.Node
 local Cave = ns.node.Cave
@@ -27,9 +26,6 @@ local Toy = ns.reward.Toy
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
-
-local options = ns.options.args.VisibilityGroup.args
-local defaults = ns.optionDefaults.profile
 
 local AQR, EMP, AMA = 0, 1, 2 -- assaults
 
@@ -61,10 +57,6 @@ function map:prepare ()
 end
 
 function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    if node == map.intro then return true end
-
     local assault = node.assault
     if assault then
         assault = type(assault) == 'number' and {assault} or assault
@@ -74,101 +66,19 @@ function map:enabled (node, coord, minimap)
         end
     end
 
-    local profile = ns.addon.db.profile
-    if isinstance(node, Treasure) then return profile.chest_uldum end
-    if isinstance(node, Supply) then return profile.coffer_uldum end
-    if isinstance(node, Rare) then return profile.rare_uldum end
-    if isinstance(node, PetBattle) then return profile.pet_uldum end
-    if isinstance(node, TimedEvent) then return profile.event_uldum end
-    if node.alpaca then return profile.alpaca_uldum end
-
-    return true
+    return Map.enabled(self, node, coord, minimap)
 end
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-defaults['chest_uldum'] = true
-defaults['coffer_uldum'] = true
-defaults['rare_uldum'] = true
-defaults['event_uldum'] = true
-defaults['pet_uldum'] = true
-defaults['alpaca_uldum'] = true
-
-options.groupUldum = {
-    type = "header",
-    name = L["uldum"],
-    order = 0,
-}
-
-options.chestUldum = {
-    type = "toggle",
-    arg = "chest_uldum",
-    name = L["options_toggle_chests"],
-    desc = L["options_toggle_chests_desc"],
-    order = 1,
-    width = "normal",
-}
-
-options.cofferUldum = {
-    type = "toggle",
-    arg = "coffer_uldum",
-    name = L["options_toggle_coffers"],
-    desc = L["options_toggle_coffers_desc"],
-    order = 2,
-    width = "normal",
-}
-
-options.rareUldum = {
-    type = "toggle",
-    arg = "rare_uldum",
-    name = L["options_toggle_rares"],
-    desc = L["options_toggle_rares_desc"],
-    order = 3,
-    width = "normal",
-}
-
-options.eventUldum = {
-    type = "toggle",
-    arg = "event_uldum",
-    name = L["options_toggle_assault_events"],
-    desc = L["options_toggle_assault_events_desc"],
-    order = 4,
-    width = "normal",
-}
-
-options.petUldum = {
-    type = "toggle",
-    arg = "pet_uldum",
-    name = L["options_toggle_battle_pets"],
-    desc = L["options_toggle_battle_pets_desc"],
-    order = 5,
-    width = "normal",
-}
-
-options.alpacaUldum = {
-    type = "toggle",
-    arg = "alpaca_uldum",
-    name = L["options_toggle_alpaca_uldum"],
-    desc = L["options_toggle_alpaca_uldum_desc"],
-    order = 6,
-    width = "normal",
-}
 
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
 -------------------------------------------------------------------------------
 
-local Intro = Class('Intro', Node)
+local Intro = Class('Intro', ns.node.Intro)
 
 Intro.note = L["uldum_intro_note"]
-Intro.icon = 'quest_yellow'
-Intro.scale = 3
 
-function Intro:enabled ()
-    if not Node.enabled(self) then return false end
-    return map.assault == nil
+function Intro:completed ()
+    return map.assault ~= nil
 end
 
 function Intro.getters:label ()
@@ -353,9 +263,9 @@ nodes[39694159] = Rare({id=162141, quest=58695, assault=AQR}) -- Zuythiz
 ------------------------------- NEFERSET RARES --------------------------------
 -------------------------------------------------------------------------------
 
-local start = 45009400;
+local start = 45009400
 local function coord(x, y)
-    return start + x*2500000 + y*400;
+    return start + x*2500000 + y*400
 end
 
 local NefRare = Class('NefersetRare', Rare, {
@@ -363,9 +273,8 @@ local NefRare = Class('NefersetRare', Rare, {
     pois={POI({50007868, 50568833, 55207930})}
 })
 
-function NefRare:enabled (map, coord, minimap)
-    if not Rare.enabled(self, map, coord, minimap) then return false end
-    -- Only show if a Summoning Ritual event is active or completed
+function NefRare:prerequisite ()
+    -- Show only if a Summoning Ritual event is active or completed
     for i, quest in ipairs({57359, 57620, 57621}) do
         if C_TaskQuest.GetQuestTimeLeftMinutes(quest) or C_QuestLog.IsQuestFlaggedCompleted(quest) then
             return true
@@ -388,7 +297,9 @@ nodes[coord(5, 0)] = NefRare({id=157469, quest=57435}) -- Zoth'rum the Intellect
 -------------------------------------------------------------------------------
 
 local AQRChest = Class('AQRChest', Treasure, {
-    assault=AQR, label=L["infested_cache"]
+    assault=AQR,
+    group='daily_chests',
+    label=L["infested_cache"]
 })
 
 local AQRTR1 = AQRChest({quest=58138, icon='chest_blue'})
@@ -447,13 +358,20 @@ nodes[36871616] = AQRTR5
 nodes[41592264] = clone(AQRTR5, {note=L["chamber_of_the_moon"]})
 nodes[45561320] = AQRTR5
 
-nodes[36252324] = Supply({quest=58137, assault=AQR,
-    label=L["infested_strongbox"], note=L["chamber_of_the_moon"]})
+nodes[36252324] = Supply({
+    quest=58137,
+    assault=AQR,
+    group='coffers',
+    label=L["infested_strongbox"],
+    note=L["chamber_of_the_moon"]
+})
 
 -------------------------------------------------------------------------------
 
 local EMPChest = Class('EMPChest', Treasure, {
-    assault=EMP, label=L["black_empire_cache"]
+    assault=EMP,
+    group='daily_chests',
+    label=L["black_empire_cache"]
 })
 
 local EMPTR1 = EMPChest({quest=57623, icon='chest_blue', note=L["single_chest"]})
@@ -515,15 +433,22 @@ nodes[52197757] = EMPTR6
 nodes[55397860] = EMPTR6
 nodes[55658346] = EMPTR6
 
-local EMPCOFF = Supply({quest=57628, assault=EMP, sublabel=L["cursed_relic"],
-    label=L["black_empire_coffer"]})
+local EMPCOFF = Supply({
+    quest=57628,
+    assault=EMP,
+    group='coffers',
+    sublabel=L["cursed_relic"],
+    label=L["black_empire_coffer"]
+})
 
 nodes[71657334] = EMPCOFF
 
 -------------------------------------------------------------------------------
 
 local AMAChest = Class('AMAChest', Treasure, {
-    assault=AMA, label=L["amathet_cache"]
+    assault=AMA,
+    group='daily_chests',
+    label=L["amathet_cache"]
 })
 
 local AMATR1 = AMAChest({quest=55689, icon='chest_blue'})
@@ -598,8 +523,13 @@ nodes[67172800] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[68222051] = AMATR6
 nodes[68933234] = AMATR6
 
-local AMACOFF = Supply({quest=55692, assault=AMA,
-    label=L["amathet_reliquary"], sublabel=L["tolvir_relic"]})
+local AMACOFF = Supply({
+    quest=55692,
+    assault=AMA,
+    group='coffers',
+    label=L["amathet_reliquary"],
+    sublabel=L["tolvir_relic"]
+})
 
 nodes[64463415] = clone(AMACOFF, {note=L["chamber_of_the_stars"]})
 nodes[66882414] = AMACOFF
@@ -713,7 +643,10 @@ local function GetAlpacaStatus ()
 end
 
 local Alpaca = Class('Alpaca', NPC, {
-    id=162765, icon=2916287, quest=58879, alpaca=true,
+    id=162765,
+    icon=2916287,
+    quest=58879,
+    group='alpaca_uldum',
     note=L["friendly_alpaca"],
     pois={POI({
         15006200, 24000900, 27004800, 30002900, 39000800, 41007000, 47004800,
@@ -723,7 +656,10 @@ local Alpaca = Class('Alpaca', NPC, {
 })
 
 local Gersahl = Class('Gersahl', Node, {
-    icon=134190, alpaca=true, label=L["gersahl"], note=L["gersahl_note"],
+    icon=134190,
+    group='alpaca_uldum',
+    label=L["gersahl"],
+    note=L["gersahl_note"],
     pois={POI({
         43802760, 46922961, 49453556, 50504167, 50583294, 53133577, 55484468,
         56114967, 56202550, 56265101, 56691882, 56901740, 57112548, 57235056,
@@ -741,7 +677,3 @@ Gersahl.getters.rlabel = GetAlpacaStatus
 
 nodes[47004800] = Alpaca()
 nodes[58005169] = Gersahl()
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map

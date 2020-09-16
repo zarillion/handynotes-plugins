@@ -26,7 +26,3 @@ local Voidtalon = Node({icon='voidtalon', label=L['edge_of_reality'], rewards={
 nodes[40504760] = Voidtalon
 nodes[44013067] = Voidtalon
 nodes[57302670] = Voidtalon
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map

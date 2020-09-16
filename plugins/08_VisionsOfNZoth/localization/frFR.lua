@@ -8,7 +8,6 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes Visions of N'Zoth"
 L["options_title"] = "Visions of N'Zoth"
-L["options_icons_assaultevents"] = "Icônes d'événements d'Assaut"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -49,12 +48,12 @@ L["amathet_reliquary"] = "Amathet Reliquary"
 L["cursed_relic"] = "Requires Cursed Relic"
 L["tolvir_relic"] = "Requires Tol'vir Relic"
 
-L["options_toggle_alpaca_uldum"] = "Springfur Alpaca"
-L["options_toggle_alpaca_uldum_desc"] = "Show locations for Gersahl Shrub and Friendly Alpaca spawns."
-L["options_toggle_assault_events"] = "Assault Events"
-L["options_toggle_assault_events_desc"] = "Show locations for possible assault events."
-L["options_toggle_coffers"] = "Locked Coffers"
-L["options_toggle_coffers_desc"] = "Display locations of locked coffers (lootable once per assault)."
+L["options_icons_alpaca_uldum"] = "Springfur Alpaca"
+L["options_icons_alpaca_uldum_desc"] = "Show locations for Gersahl Shrub and Friendly Alpaca spawns."
+L["options_icons_assault_events"] = "Assault Events"
+L["options_icons_assault_events_desc"] = "Show locations for possible assault events."
+L["options_icons_coffers"] = "Locked Coffers"
+L["options_icons_coffers_desc"] = "Display locations of locked coffers (lootable once per assault)."
 
 L["ambush_settlers"] = "Defeat waves of mobs until the event ends."
 L["burrowing_terrors"] = "Jump on the Burrowing Scarabs to squish them."
@@ -139,7 +138,6 @@ L["weighted_artifact"] = "Pick up the Oddly Heavy Vase and navigate the maze bac
 L["horrific_visions"] = "Horrific Visions"
 L["mailbox"] = "Mailbox"
 L["mail_muncher"] = "When opened, the Mail Muncher has a chance to spawn."
-L["options_toggle_visions_misc_desc"] = "Show rewards locations inside horrific visions."
 L["shave_kit"] = "Coifcurl's Close Shave Kit"
 L["shave_kit_note"] = "Inside the barber shop."
 L["void_skull"] = "Void-Touched Skull"
@@ -151,5 +149,5 @@ L["void_skull_note"] = "Click the skull on the ground to loot the toy."
 
 L["voldun"] = "Vol'dun"
 L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
-L["options_toggle_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
-L["options_toggle_alpaca_voldun"] = "Elusive Quickhoof"
+L["options_icons_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
+L["options_icons_alpaca_voldun"] = "Elusive Quickhoof"
