@@ -251,9 +251,12 @@ map.nodes[37676591] = Rare({
 
 local BonusBoss = Class('BonusBoss', NPC, {
     group='bonus_boss',
-    icon='peg_red',
     scale=1.8
 })
+
+function BonusBoss.getters:icon ()
+    return self._focus and 'peg_red_green_glow' or 'peg_red'
+end
 
 map.nodes[23004160] = BonusBoss({
     id=169102,
@@ -440,17 +443,33 @@ map.nodes[27446463] = BonusEvent({ quest=59784, note=L["obliterated_soul_shards_
 ------------------------------ CHAOTIC RIFTSTONES -----------------------------
 -------------------------------------------------------------------------------
 
-local Riftstone = Class('Riftstone', ns.node.NPC, {
+local Riftstone_red = Class('Riftstone', ns.node.NPC, {
     id=174962,
     note=L["chaotic_riftstone_note"],
     group='riftstone',
     scale=1.3
 })
 
+function Riftstone_red.getters:icon ()
+    return self._focus and 'portal_red_green_glow' or 'portal_red'
+end
+
 -------------------------------------------------------------------------------
 
-map.nodes[19184778] = Riftstone({
-    icon='portal_red',
+local Riftstone_blue = Class('Riftstone', ns.node.NPC, {
+    id=174962,
+    note=L["chaotic_riftstone_note"],
+    group='riftstone',
+    scale=1.3
+})
+
+function Riftstone_blue.getters:icon ()
+    return self._focus and 'portal_blue_green_glow' or 'portal_blue'
+end
+
+-------------------------------------------------------------------------------
+
+map.nodes[19184778] = Riftstone_red({
     pois = {
         Path({
             19184778, 19514836, 20374847, 20814712, 21054574, 21284422,
@@ -462,8 +481,7 @@ map.nodes[19184778] = Riftstone({
     }
 })
 
-map.nodes[25211784] = Riftstone({
-    icon='portal_red',
+map.nodes[25211784] = Riftstone_red({
     pois = {
         Path({
             25211784, 25591838, 25521963, 25232106, 24772195, 24222297,
@@ -477,8 +495,7 @@ map.nodes[25211784] = Riftstone({
 
 -------------------------------------------------------------------------------
 
-map.nodes[23433121] = Riftstone({
-    icon='portal_blue',
+map.nodes[23433121] = Riftstone_blue({
     pois = {
         Path({
             23433121, 22863048, 22972907, 23842859, 24742908, 25642985,
@@ -488,8 +505,7 @@ map.nodes[23433121] = Riftstone({
     }
 })
 
-map.nodes[34804362] = Riftstone({
-    icon='portal_blue',
+map.nodes[34804362] = Riftstone_blue({
     pois = {
         Path({
             34804362, 34734255, 34514116, 34083976, 33683863, 33063734,

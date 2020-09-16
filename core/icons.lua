@@ -41,6 +41,7 @@ ns.icons = {
 
     peg_blue = { icon=ICONS, coords=coords(1, 2) },
     peg_red = { icon=ICONS, coords=coords(1, 3) },
+    peg_red_green_glow = { icon=ICONS, coords=coords(1, 10) },
     peg_green = { icon=ICONS, coords=coords(1, 4) },
     peg_yellow = { icon=ICONS, coords=coords(1, 5) },
 
@@ -62,7 +63,9 @@ ns.icons = {
     door_up = { icon=ICONS, coords=coords(2, 3) },
 
     portal_blue = { icon=ICONS, coords=coords(2, 4) },
+    portal_blue_green_glow = { icon=ICONS, coords=coords(2, 10) },
     portal_red = { icon=ICONS, coords=coords(2, 5) },
+    portal_red_green_glow = { icon=ICONS, coords=coords(3, 10) },
 
     chest_gray = { icon=ICONS, coords=coords(3, 0) },
     chest_gray_green_glow = { icon=ICONS, coords=coords(4, 9) },
