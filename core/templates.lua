@@ -6,7 +6,32 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 
 -------------------------------------------------------------------------------
----------------------------- WORLD MAP BUTTON MIXIN ----------------------------
+--------------------------- UIDROPDOWNMENU_ADDSLIDER --------------------------
+-------------------------------------------------------------------------------
+
+local function UIDropDownMenu_AddSlider (info, level)
+    local function format (v)
+        if info.percentage then return FormatPercentage(v, true) end
+        return string.format("%.2f", v)
+    end
+
+    info.frame.Label:SetText(info.text)
+    info.frame.Value:SetText(format(info.value))
+    info.frame.Slider:SetMinMaxValues(info.min, info.max)
+    info.frame.Slider:SetMinMaxValues(info.min, info.max)
+    info.frame.Slider:SetValueStep(info.step)
+    info.frame.Slider:SetAccessorFunction(function () return info.value end)
+    info.frame.Slider:SetMutatorFunction(function (v)
+        info.frame.Value:SetText(format(v))
+        info.func(v)
+    end)
+    info.frame.Slider:UpdateVisibleState()
+
+    UIDropDownMenu_AddButton({ customFrame = info.frame }, level)
+end
+
+-------------------------------------------------------------------------------
+---------------------------- WORLD MAP BUTTON MIXIN ---------------------------
 -------------------------------------------------------------------------------
 
 local WorldMapOptionsButtonMixin = {}
@@ -17,11 +42,17 @@ function WorldMapOptionsButtonMixin:OnLoad()
         self:GetParent():InitializeDropDown(level)
     end)
     UIDropDownMenu_SetDisplayMode(self.DropDown, "MENU")
+
+    self.AlphaOption = CreateFrame('Frame', ADDON_NAME..'AlphaMenuSliderOption',
+        nil, ADDON_NAME..'SliderMenuOptionTemplate')
+    self.ScaleOption = CreateFrame('Frame', ADDON_NAME..'ScaleMenuSliderOption',
+        nil, ADDON_NAME..'SliderMenuOptionTemplate')
 end
 
 function WorldMapOptionsButtonMixin:OnMouseDown(button)
     self.Icon:SetPoint("TOPLEFT", 6, -6)
-    ToggleDropDownMenu(1, nil, self.DropDown, self, 0, -5)
+    local xOffset = WorldMapFrame.isMaximized and -125 or 0
+    ToggleDropDownMenu(1, nil, self.DropDown, self, xOffset, -5)
     PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON)
 end
 
@@ -95,29 +126,21 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         if not defaults[alphaArg] then alpha_arg = alphaArg..'_'..mapID end
         if not defaults[scaleArg] then scale_arg = scaleArg..'_'..mapID end
 
-        -- Adjust alpha/scale frames for this group
-        local alphaFrame = _G[ADDON_NAME.."AlphaMenuOption"]
-        local scaleFrame = _G[ADDON_NAME.."ScaleMenuOption"]
-        alphaFrame.Label:SetText(L["options_opacity"])
-        scaleFrame.Label:SetText(L["options_scale"])
-        alphaFrame.Value:SetText(FormatPercentage(profile[alphaArg] or 1, true))
-        scaleFrame.Value:SetText(string.format("%.2f", profile[scaleArg] or 1))
-        alphaFrame.Slider:SetAccessorFunction(function () return profile[alphaArg] or 1 end)
-        scaleFrame.Slider:SetAccessorFunction(function () return profile[scaleArg] or 1 end)
-        alphaFrame.Slider:SetMutatorFunction(function (v)
-            profile[alphaArg] = v
-            alphaFrame.Value:SetText(FormatPercentage(v, true))
-            ns.addon:Refresh()
-        end)
-        scaleFrame.Slider:SetMutatorFunction(function (v)
-            profile[scaleArg] = v
-            scaleFrame.Value:SetText(string.format("%.2f", v))
-            ns.addon:Refresh()
-        end)
-        alphaFrame.Slider:UpdateVisibleState()
-        scaleFrame.Slider:UpdateVisibleState()
+        UIDropDownMenu_AddSlider({
+            text = L["options_opacity"],
+            min = 0, max = 1, step=0.01,
+            value = profile[alphaArg] or 1,
+            frame = self.AlphaOption,
+            percentage = true,
+            func = function (v) profile[alphaArg] = v; ns.addon:Refresh() end
+        }, 2)
 
-        UIDropDownMenu_AddButton({ customFrame = alphaFrame }, 2)
-        UIDropDownMenu_AddButton({ customFrame = scaleFrame }, 2)
+        UIDropDownMenu_AddSlider({
+            text = L["options_scale"],
+            min = 0.3, max = 3, step=0.05,
+            value = profile[scaleArg] or 1,
+            frame = self.ScaleOption,
+            func = function (v) profile[scaleArg] = v; ns.addon:Refresh() end
+        }, 2)
     end
 end
