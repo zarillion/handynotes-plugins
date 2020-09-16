@@ -131,9 +131,10 @@ MinimapDataProvider.scales = {
 MinimapDataProvider.sizes = {
     [1527] = {1750, 1312},   -- Uldum
     [1530] = {700, 466},     -- Vale
-    [1565] = {2000, 1500},   -- Ardenweald
-    [1533] = {2000, 1350},   -- Bastion
     [1525] = {1900, 1280},   -- Revendreth
+    [1533] = {2000, 1350},   -- Bastion
+    [1543] = {1325, 888},   -- The Maw
+    [1565] = {2000, 1500},   -- Ardenweald
 }
 
 function MinimapDataProvider:ReleasePin(pin)
