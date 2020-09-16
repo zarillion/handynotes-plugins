@@ -67,13 +67,13 @@ local function BootstrapDevelopmentEnvironment()
     local QTFrame = CreateFrame('Frame', ADDON_NAME.."QT")
     local lastCheck = GetTime()
     local quests = {}
+    local changed = {}
     local max_quest_id = 100000
     C_Timer.After(2, function ()
         -- Give some time for quest info to load in before we start
         for id = 0, max_quest_id do quests[id] = C_QuestLog.IsQuestFlaggedCompleted(id) end
         QTFrame:SetScript('OnUpdate', function ()
             if GetTime() - lastCheck > 1 and ns.addon.db.profile.show_debug_quest then
-                local changed = {}
                 for id = 0, max_quest_id do
                     local s = C_QuestLog.IsQuestFlaggedCompleted(id)
                     if s ~= quests[id] then
@@ -89,12 +89,13 @@ local function BootstrapDevelopmentEnvironment()
                         ns.debugQuest(unpack(args))
                     end
                 end
-                if #history > 1000 then
-                    for i = #history, 1001, -1 do
+                if #history > 100 then
+                    for i = #history, 101, -1 do
                         history[i] = nil
                     end
                 end
                 lastCheck = GetTime()
+                wipe(changed)
             end
         end)
         ns.debugQuest('Quest IDs are now being tracked')

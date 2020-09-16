@@ -54,8 +54,10 @@ ns.Class = function (name, parent, attrs)
             })
 
             -- assign attributes after setmetatable() to trigger any setters
-            for k, v in pairs(instanceAttrs or {}) do
-                instance[k] = v
+            if instanceAttrs then
+                for k, v in pairs(instanceAttrs) do
+                    instance[k] = v
+                end
             end
 
             -- call init() method for instance
@@ -104,6 +106,8 @@ end
 ns.clone = function (instance, newattrs)
     local clone = {}
     for k, v in pairs(instance) do clone[k] = v end
-    for k, v in pairs(newattrs or {}) do clone[k] = v end
+    if newattrs then
+        for k, v in pairs(newattrs) do clone[k] = v end
+    end
     return instance.__class(clone)
 end

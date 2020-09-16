@@ -173,6 +173,7 @@ end
 -------------------------------------------------------------------------------
 
 local _INITIALIZED = {}
+local _EMPTY_DEFAULTS = {}
 
 function ns.InitializeGroup (map, group)
     -- Check if we've already initialized this group
@@ -181,7 +182,7 @@ function ns.InitializeGroup (map, group)
 
     -- Create default option values for this group if they are not set
     local defaults = ns.optionDefaults.profile
-    local map_defaults = map.options[group] or {}
+    local map_defaults = map.options[group] or _EMPTY_DEFAULTS
 
     -- Create display toggle default for this group. If global ones do not
     -- exist, also create scale/alpha defaults.

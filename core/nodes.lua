@@ -88,7 +88,8 @@ associated rewards have been obtained (achievements, toys, pets, mounts).
 --]]
 
 function Node:collected ()
-    for i, reward in ipairs(self.rewards or {}) do
+    if not self.rewards then return true end
+    for i, reward in ipairs(self.rewards) do
         if not reward:obtained() then return false end
     end
     return true
@@ -120,7 +121,8 @@ be overridden to check for other prerequisite criteria.
 
 function Node:prerequisite ()
     -- Prerequisite not met if any dependent quest ids are false
-    for i, quest in ipairs(self.questDeps or {}) do
+    if not self.questDeps then return true end
+    for i, quest in ipairs(self.questDeps) do
         if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
     end
     return true
@@ -175,7 +177,7 @@ function Node:render(tooltip)
 
     local rlabel = self.rlabel or ''
 
-    if self.questCount and #(self.quest or {}) then
+    if self.questCount and self.quest and #self.quest then
         -- set rlabel to a (completed / total) display for quest ids
         local count = 0
         for i, quest in ipairs(self.quest) do
@@ -216,9 +218,9 @@ function Node:render(tooltip)
 
     -- all rewards (achievements, pets, mounts, toys, quests) that can be
     -- collected or completed from this node
-    if ns.addon.db.profile.show_loot then
+    if self.rewards and ns.addon.db.profile.show_loot then
         local firstAchieve, firstOther = true, true
-        for i, reward in ipairs(self.rewards or {}) do
+        for i, reward in ipairs(self.rewards) do
 
             -- Add a blank line between achievements and other rewards
             local isAchieve = ns.isinstance(reward, ns.reward.Achievement)
@@ -258,7 +260,7 @@ end
 
 function Cave:enabled ()
     local function hasEnabledParent ()
-        for i, parent in ipairs(self.parent or {}) do
+        for i, parent in ipairs(self.parent) do
             if parent:enabled() then
                 return true
             end
@@ -388,7 +390,8 @@ function Treasure.getters:icon ()
 end
 
 function Treasure.getters:label ()
-    for i, reward in ipairs(self.rewards or {}) do
+    if not self.rewards then return UNKNOWN end
+    for i, reward in ipairs(self.rewards) do
         if isinstance(reward, ns.reward.Achievement) then
             return GetAchievementCriteriaInfoByID(reward.id, reward.criteria[1].id)
         end

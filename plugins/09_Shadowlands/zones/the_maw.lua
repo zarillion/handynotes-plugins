@@ -46,7 +46,7 @@ end
 
 function MawIntro.getters:label ()
     local info = C_QuestLine.GetQuestLineInfo(60134, 1543)
-    return (info or {}).questLineName or 'Return to the Maw'
+    return info and info.questLineName or 'Return to the Maw'
 end
 
 map.intro = MawIntro({

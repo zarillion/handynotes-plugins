@@ -31,8 +31,9 @@ local Map = Class('Map', nil, {
 function Map:init ()
     self.nodes = {}
     self.groups = {}
-    self.options = self.options or {}
-    self.parents = self.parents or {}
+
+    if not self.options then self.options = {} end
+    if not self.parents then self.parents = {} end
 
     setmetatable(self.nodes, {
         __newindex = function (nodes, coord, node)
@@ -194,8 +195,8 @@ function MinimapDataProvider:RefreshAllData()
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if (node._focus or node._hover) and map:enabled(node, coord, true) then
-            for i, poi in ipairs(node.pois or {}) do
+        if node.pois and (node._focus or node._hover) and map:enabled(node, coord, true) then
+            for i, poi in ipairs(node.pois) do
                 poi:render(self, map.id)
             end
         end
@@ -253,8 +254,8 @@ function WorldMapDataProvider:RefreshAllData(fromOnShow)
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if (node._focus or node._hover) and map:enabled(node, coord, false) then
-            for i, poi in ipairs(node.pois or {}) do
+        if node.pois and (node._focus or node._hover) and map:enabled(node, coord, false) then
+            for i, poi in ipairs(node.pois) do
                 poi:render(self:GetMap(), WorldMapPinTemplate)
             end
         end
