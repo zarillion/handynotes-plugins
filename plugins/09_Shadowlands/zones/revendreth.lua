@@ -30,13 +30,16 @@ local map = Map({ id=1525 })
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[53167302] = Rare({
+map.nodes[53247300] = Rare({
     id=166393,
-    quest=nil,
+    quest=59854,
     note=L["amalgamation_of_filth_note"],
     rewards={
         Achievement({id=14310, criteria=48814}),
         Transmog({item=183729, slot=L["leather"]}) -- Filth-Splattered Headcover
+    },
+    pois={
+        POI({52747386, 53857251}) -- Rubbish Box
     }
 }) -- Amalgamation of Filth
 
