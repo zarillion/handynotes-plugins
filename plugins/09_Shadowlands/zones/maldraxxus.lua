@@ -236,6 +236,7 @@ map.nodes[33538086] = Rare({
 map.nodes[28965138] = Rare({
     id=157125,
     quest=62079,
+    requires='{item:175841}',
     note=L["zargox_the_reborn_note"],
     rewards={
         Achievement({id=14308, criteria=48864})
