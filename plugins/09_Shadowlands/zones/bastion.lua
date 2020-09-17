@@ -571,29 +571,15 @@ function AnimaShard.getters:icon ()
 end
 
 map.nodes[39057704] = AnimaShard({quest=61225, note=L["anima_shard_61225"]})
--- 61226 https://shadowlands.wowhead.com/quest=61226/extra-limbs
--- 61227 https://shadowlands.wowhead.com/quest=61227/the-other-foot
--- 61228 https://shadowlands.wowhead.com/quest=61228/dugs-missing-shovel
--- 61229 Vestibule of Eternity?
--- 61230 https://shadowlands.wowhead.com/quest=61230/outside-influence
--- 61231 Vestibule of Eternity?
--- 61232 Vestibule of Eternity?
--- 61233 Vestibule of Eternity?
--- 61234 https://shadowlands.wowhead.com/quest=61234/stonehucks-sinstone
 map.nodes[43637622] = AnimaShard({quest=61235, note=L["anima_shard_61235"]})
 map.nodes[48427273] = AnimaShard({quest=61236, note=L["anima_shard_61236"]})
 map.nodes[52677555] = AnimaShard({quest=61237, note=L["anima_shard_61237"]})
 map.nodes[53317362] = AnimaShard({quest=61238, note=L["anima_shard_61238"]})
 map.nodes[53498060] = AnimaShard({quest=61239, note=L["anima_shard_61239"]})
--- 61240 Aspirant's Crucible?
 map.nodes[55968666] = AnimaShard({quest=61241, note=L["anima_shard_61241"]})
--- 61242 Sundancer area?
--- 61243 https://shadowlands.wowhead.com/quest=61243/thelas-memory-stone
 map.nodes[61048566] = AnimaShard({quest=61244, note=L["anima_shard_61244"]})
 map.nodes[58108008] = AnimaShard({quest=61245, note=L["anima_shard_61245"]})
--- 61246 https://shadowlands.wowhead.com/quest=61246/power-of-the-chosen
 map.nodes[56877498] = AnimaShard({quest=61247, note=L["anima_shard_61247"]})
--- 61248 https://shadowlands.wowhead.com/quest=61248/kaletars-freedom
 map.nodes[65527192] = AnimaShard({quest=61249, note=L["anima_shard_61249"],
     pois={
         POI({63467240, scale=0.75}) -- Transport platform
@@ -601,27 +587,16 @@ map.nodes[65527192] = AnimaShard({quest=61249, note=L["anima_shard_61249"],
 })
 map.nodes[58156391] = AnimaShard({quest=61250, note=L["anima_shard_61250"]})
 map.nodes[54005970] = AnimaShard({quest=61251, note=L["anima_shard_61251"]})
--- 61252 https://shadowlands.wowhead.com/quest=61252/call-in-a-favor
 map.nodes[46706595] = AnimaShard({quest=61253, note=L["anima_shard_61253"]})
 map.nodes[50685614] = AnimaShard({quest=61254, note=L["anima_shard_61254"]})
--- 61255 https://shadowlands.wowhead.com/quest=61255/rsvp-alexandros-mograine
--- 61256 https://shadowlands.wowhead.com/quest=61256/rsvp-kleia-and-pelagos
 map.nodes[34846578] = AnimaShard({quest=61257, note=L["anima_shard_61257"]})
 map.nodes[51674802] = AnimaShard({quest=61258, note=L["anima_shard_61258"]})
--- 61259 https://shadowlands.wowhead.com/quest=61259/ayeleths-hunger
 map.nodes[47084923] = AnimaShard({quest=61260, note=L["anima_shard_61260"]})
 map.nodes[41394663] = AnimaShard({quest=61261, note=L["anima_shard_61261"]})
--- 61262 https://shadowlands.wowhead.com/quest=61262/neriths-vengeance
 map.nodes[40045912] = AnimaShard({quest=61263, note=L["anima_shard_61263"]})
--- 61264 ???
--- 61265 https://shadowlands.wowhead.com/quest=61265/blueprint-charm-of-alacrity
--- 61266 ???
--- 61267 ???
--- 61268 ???
--- 61269 https://shadowlands.wowhead.com/quest=61269/ph-charm-of-perserverance
+-- 61264 ??? https://shadowlands.wowhead.com/spell=335590/dnt-anima-crystal-shard-complete-21
 map.nodes[57645567] = AnimaShard({quest=61270, note=L["anima_shard_61270"]})
 map.nodes[65254288] = AnimaShard({quest=61271, note=L["anima_shard_61271"]})
--- 61272 https://shadowlands.wowhead.com/quest=61272/blueprint-charm-of-discord
 map.nodes[72384029] = AnimaShard({quest=61273, note=L["anima_shard_61273"]})
 map.nodes[66892692] = AnimaShard({quest=61274, note=L["anima_shard_61274"]})
 map.nodes[57553827] = AnimaShard({quest=61275, note=L["anima_shard_61275"],
@@ -629,7 +604,6 @@ map.nodes[57553827] = AnimaShard({quest=61275, note=L["anima_shard_61275"],
         POI({55694287, scale=0.75}) -- Entrance
     }
 })
--- 61276 Firstborne's Bounty?
 map.nodes[52163939] = AnimaShard({quest=61277, note=L["anima_shard_61277"]})
 map.nodes[49993826] = AnimaShard({quest=61278, note=L["anima_shard_61278"]})
 map.nodes[48483491] = AnimaShard({quest=61279, note=L["anima_shard_61279"]})
