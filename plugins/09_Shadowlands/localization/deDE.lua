@@ -10,13 +10,19 @@ L["context_menu_title"] = "HandyNotes: Shadowlands"
 L["options_title"] = "Shadowlands"
 L["covenant_required"] = "Benötigt ein Paktmitglied der %s"
 
+local ACHAN = "Anima %s kanalisiert."
+L["achan_house_of_constructs"] = ACHAN:format('zum Haus der Konstrukte')
+L["achan_temple_of_courage"] = ACHAN:format('zum Tempel des Mutes')
+L["achan_tirna_scithe"] = ACHAN:format('nach Tirna Scithe')
+L["achan_wanecrypt_hill"] = ACHAN:format('zum Schwundgrufthügel') --TRANSLATE
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
 
 L["deifir_note"] = "Reite auf {npc:164238} und verwende die Fähigkeiten {spell:319566} und {spell:319575}, um ihn zu verlangsamen und zu betäuben."
 L["faeflayer_note"] = "In einer kleinen Höhle, versteckt hinter einem Wasserfall."
-L["humongozz_note"] = "Pflanze einen {item:175247} in feuchten Lehm, um einen {npc:164122} erscheinen zu lassen. Nach einer Minute {spell:319367} wird {npc:164112} erscheinen. Der Pilz wird von mehreren Gegnern in diesem Gebiet fallen gelassen." --review Blizzard translation
+L["humongozz_note"] = "Pflanze einen {item:175247} in den feuchten Lehm, um einen {npc:164122} erscheinen zu lassen. Nach einer Minute {spell:319367} wird {npc:164112} erscheinen. Der Pilz wird von mehreren Gegnern in diesem Gebiet fallen gelassen."
 L["lehgo_note"] = "Zerstöre Zitternde Gormeier und töte |CFFFFFF00Wütende Eipfleger|r bis {npc:167851} erscheint. In einer Höhle. (Eingang nach Südosten (58.5, 31.9))." --{npc:171827}
 L["rootwrithe_note"] = "Pike die |CFFFFFF00Inaktiven Blüten|r an, bis {npc:167726} erscheint." --{npc:167928}
 L["rotbriar_note"] = "Sprich mit {npc:171684} in der Nähe, um {npc:167724} nach einem Dialog zu beschwören."
@@ -39,9 +45,9 @@ L["star_lake_note"] = "Sprich mit {npc:171743}, um eine der besonderen Begegnung
 
 L["cache_of_the_moon"] = "Sammel {npc:171360}|CFFFFFF00s|r fünf verlorene Werkzeuge im Garten der Nacht und kombiniere diese zu {item:180753}. Bring dieses zu ihr zurück und sie wird dir die {spell:334353} gewähren, um die Truhe sehen zu können."
 L["darkreach_supplies"] = "Verwende den {npc:169995}, um nach Südwesten in den ausgehöhlten Turm zu gleiten."
-L["desiccated_moth"] = "Verwende den {npc:169997}, nordwestlich des Baumes, um in die Baumkrone zu gleiten. Verbrenne {item:180784} im Räuchergefäß um den Schatz zu sammeln." --don't know how to get the flower.
+L["desiccated_moth"] = "Verwende den {npc:169997}, nordwestlich des Baumes, um in die Baumkrone zu gleiten. Verbrenne {item:180784} im Räuchergefäß um den Schatz zu sammeln." --(31.7, 32,5)
 L["dreamsong_heart"] = "Verwende den {npc:169997} an der Seite des Baumes, um auf den Baum geschleudert zu werden."
-L["elusive_faerie_cache"] = "Hebe die {spell:333923}in Abendhein (46.5, 70.1) auf und verwende diese dazu die Truhe zu plündern."
+L["elusive_faerie_cache"] = "Hebe die {spell:333923} in Abendhein (46.5, 70.1) auf und verwende diese dazu die Truhe zu plündern."
 L["enchanted_dreamcatcher"] = "Hängt oben von den Wurzeln herunter. \nAm einfachsten hochzuklettern ist es auf der westlichen Seite."
 L["faerie_trove"] = "Befindet sich unter der Plattform."
 L["harmonic_chest"] = "Benötigt zwei Spieler. Einer spielt die Harfe und der andere die Trommel, um die Truhe freizuschalten."
@@ -76,8 +82,8 @@ L["beasts_of_bastion"] = "Bestien der Bastion" --review Blizzard translation
 L["beasts_of_bastion_note"] = [[
 Sprich mit {npc:161441}, um eine der vier Bestien zu beschwören.
 
-|cFFFF0000HINWEIS|r: Der NPC ist oft verbuggt und will nicht mit dir reden. Aethon hat kein Erfolgskriterium und der zweite Sigilback ist momentan noch Cloudtail.
-]]--TRANSLATE
+|cFFFF0000HINWEIS|r: Der NPC ist oft verbuggt und will nicht mit dir reden.
+]]
 L["bookkeeper_mnemis_note"] = "Hat die Chance anstelle von {npc:166867} in diesem Gebiet zu erscheinen."
 L["cloudfeather_patriarch_note"] = "Töte {npc:158110}|CFFFFFF00n|r in diesem Gebiet, bis ein Emote ausgegeben wird und der {npc:170932} erscheint."
 L["collector_astor_note"] = "Lies alle sechs Kapitel von Mercias Vermächtnis, die im Raum verstreut sind und das {npc:157979} wird zu dir flüstern. Sprich mit ihr, um {spell:333779} zu erhalten, der es dir erlaubt {item:180569} im Nordwesten zu finden. Wenn das Kapitel zurückgeben wird, erscheint {npc:171014}."
@@ -93,7 +99,7 @@ Partikel können aus entleerten Animakanistern in der Nähe gesammelt werden, di
 L["nikara_note"] = "Klicke mit zwei anderen Spielern das Uralte Räucherwerk an, um ein Ritual zu beginnen, {npc:160882} zu beschwören."
 L["sundancer_note"] = "Klicke das Uralte Denkmal an, um den {spell:332309} zu erhalten und verwende einen {item:180445}, um zu ihm zu gleiten und aufzusitzen."
 L["unstable_memory_note"] = "Kann beschworen werden, wenn {npc:171018} anwesend ist. Ziehe dieses in andere, um ihm 10 Stapel von {spell:333558} zu gewähren, der es zu {npc:171008} heranwachsen lässt."
---L["wingflayer_note"] = "Klicken zum Beschwören das Horn auf dem Tisch in der Nähe an. (Südosten, die Treppe hoch)"
+L["wingflayer_note"] = "Klicke zum Beschwören das Horn des Mutes auf dem Tisch in der Nähe an. (41.6, 54.5)"
 
 L["broken_flute"] = "Töte |CFFFFFF00Beunruhigte Ätherwyrme|r in diesem Gebiet, bis diese {item:180536} fallen lassen, dann verwende die Werkzeuge, um die Flöte zu reparieren." --{npc:170009}
 L["experimental_construct_part"] = "Plündere ein {item:180534} in der Nähe und verwende es, um den Gegenstand zu reparieren. Das {item:180534} erscheint an verschiedenen Stellen."
@@ -201,6 +207,8 @@ Sammel Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 3
 
 • Sammel {spell:306722} von {npc:165027} und {npc:166438} aus dem Süden.
 ]]
+L["Violet"] = "Violetter Fehler"
+L["Oily"] = "Öliger Invertebrat"
 
 L["blackhound_cache"] = "Schwarzhundtruhe"
 L["bladesworn_supply_cache"] = "Vorräte des Klingenschwurs"
@@ -241,7 +249,8 @@ Um {item:180273} heraus zu ziehen:
    des Nachtmarktes in Revendreth (51.0, 78.8).
 • Kaufe 1x {item:180771} von
    {npc:166640} in Maldraxxus (50.9, 53.2).
-• Erhalte 2 Stapel {spell:306272} von der Weltquest |cFFFFFD00[Ein oder zwei Steine im Weg]|r im Westen (37.0, 46.9).
+• Erhalte 2 Stapel {spell:306272} von der Weltquest
+   |cFFFFFD00[Ein oder zwei Steine im Weg]|r im Westen (37.0, 46.9).
 • Esse 4x {spell:327367} in Glutherns Verfall.
 • Benutze schnell deinen {item:6948}, trink beim
    Schwert die beiden Tränke und ziehe an diesem.
@@ -260,7 +269,7 @@ L["options_icons_slime_cat_desc"] = "Zeigt die Positionen der Kätzchen für den
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_filth_note"] = "Wenn die Weltquest |cFFFFFD00[Drecksarbeit: Abrisstrupp]|r verfügbar ist, klicke auf die Rubbish Box und verwende {spell:324115} ins Wasser hinein."
+L["amalgamation_of_filth_note"] = "Wenn die Weltquest |cFFFFFD00[Drecksarbeit: Abrisstrupp]|r verfügbar ist, klicke auf die Abfallkiste und verwende {spell:324115} nahe des Wassers."
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
 L["amalgamation_of_sin_note"] = "Erhalte einen {item:180376} von der Weltquest |cFFFFFD00[Ruft Eure Sünden Herbei]|r und verwende es, um den {npc:170434} zu beschwören."
 L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Muck It Up]|r auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard translation /dump C_QuestLog.GetTitleForQuestID(59808)
@@ -279,14 +288,14 @@ L["sire_ladinas_note"] = "Hebe Restlicht in der Nähe auf und verwende {spell:31
 L["soulstalker_doina_note"] = "Verfolge sie nach unten und durch den Spiegel wenn sie wegläuft."
 L["tomb_burster_note"] = "Kann beschworen werden, wenn {npc:155777} in einem Netz gefangen ist. Töte nahegelegene {npc:155769}|CFFFFFF00er|r und Wellen von {npc:155795}|CFFFFFF00n|r bis {npc:155779} erscheint."
 L["worldedge_gorger_note"] = [[
-Erlange ein {item:173939} von Welten Reavers, Fressern und Milben in den Gebieten Fluchwald und dem Endmorast. Verwende es, um die Weltenrandkohlenpfannen zu entflammen und den {npc:160821} zu beschwören.
+Erlange ein {item:173939} von Entartungen wie den Fressern und Milben in den Gebieten Fluchwald oder dem Endmorast. Verwende es, um die Weltenrandkohlenpfannen zu entflammen und den {npc:160821} zu beschwören.
 
 Hat eine Chance die {item:180583} fallen zu lassen, welche eine 7-tägige Questreihe startet, um das Reittier {spell:333027} zu erhalten.
-]] --review Blizzard traslation
+]]
 
 L["dredglaive_note"] = "Unter der Brücke in der {npc:173671} Leiche."
 L["lost_quill_note"] = "Plündere {item:182475} von der Flasche auf dem Tisch in der Verbotenen Bibliothek."
-L["secret_chamber_note"] = "Plündere den Weggeworfenen Animakanister vor der verschlossenen Tür auf der Bank, um {spell:340701} zu erlernen. Verwende es, um fünf in der Nähe befindlichen |CFFFFFF00Stillen Beobachtern|r ihr Anima zu entziehen, dann verwende {spell:340866} vor dem {npc:173786}." --{npc:173838}
+L["forbidden_chamber_note"] = "Plündere den Weggeworfenen Animakanister vor der verschlossenen Tür auf der Bank, um {spell:340701} zu erlernen. Verwende es, um fünf in der Nähe befindlichen |CFFFFFF00Stillen Beobachtern|r ihr Anima zu entziehen, dann verwende {spell:340866} vor dem {npc:173786}." --{npc:173838}
 L["taskmaster_trove_note"] = "Lies die Eintritts- und Austrittsriten und gehe behutsam zur Truhe."
 L["the_count_note"] = "Sammle 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}."
 
