@@ -40,7 +40,7 @@ map.nodes[53247300] = Rare({
         Transmog({item=183729, slot=L["leather"]}) -- Filth-Splattered Headcover
     },
     pois={
-        POI({52747386, 53857251}) -- Rubbish Box
+        POI({52747386, 53857251, 54537436, 53897368, scale=0.75 }) -- Rubbish Box
     }
 }) -- Amalgamation of Filth
 
@@ -340,11 +340,11 @@ map.nodes[79993697] = Treasure({
 
 map.nodes[47335536] = Treasure({
     quest=62243,
-    note=L["secret_chamber_note"],
+    note=L["forbidden_chamber_note"],
     rewards={
         Achievement({id=14314, criteria=50084})
     }
-}) -- Secret Chamber
+}) -- Forbidden Chamber
 
 map.nodes[38394424] = Treasure({
     quest=61999,

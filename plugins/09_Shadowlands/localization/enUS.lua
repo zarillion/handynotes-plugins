@@ -81,7 +81,7 @@ L["beasts_of_bastion"] = "Beasts of Bastion"
 L["beasts_of_bastion_note"] = [[
 Talk to {npc:161441} to summon one of the four beasts.
 
-|cFFFF0000NOTE|r: The NPC is often bugged and will not talk to you. Aethon does not have an achievement criteria and the second Sigilback is actually Cloudtail.
+|cFFFF0000NOTE|r: The NPC is often bugged and will not talk to you.
 ]]
 L["bookkeeper_mnemis_note"] = "Has a chance to spawn in place of the {npc:166867} units in the area."
 L["cloudfeather_patriarch_note"] = "Kill {npc:158110} in the area until the rare emotes and spawns."
@@ -287,7 +287,7 @@ Has a chance to drop an {item:180583}, which begins a 7 day quest line to obtain
 
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
-L["secret_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
+L["forbidden_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
 L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
 

@@ -79,9 +79,9 @@ map.nodes[55358024] = Rare({
     rewards = {
         Achievement({id=14307, criteria={
             {id=48825, quest=60570}, -- Sigilback
-            {id=48826, quest=60571}, -- Cloudtail (shows as Sigilback -_-)
+            {id=48826, quest=60571}, -- Cloudtail
             {id=48827, quest=60569}, -- Nemaeus
-            -- {id=nil, quest=58526}, -- Aethon (no criteria ...)
+            {id=50506, quest=58526}, -- Aethon
         }}),
         Toy({item=174445}), -- Glimmerfly Cocoon
         Transmog({item=179485, slot=L["dagger"]}), -- Fang of Nemaeus

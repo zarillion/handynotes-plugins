@@ -203,7 +203,8 @@ map.nodes[44215132] = Rare({
     quest=58783,
     rewards={
         Achievement({id=14308, criteria=48850}),
-        Transmog({item=182190, slot=L["leather"]}) -- Tauralus Hide Collar
+        Transmog({item=182190, slot=L["leather"]}), -- Tauralus Hide Collar
+        Mount({item=181815, id=1370,}) -- Armored Bonehoof Tauralus
     }
 }) -- Tahonta
 
