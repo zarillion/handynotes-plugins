@@ -24,6 +24,7 @@ local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
+local VENTHYR = ns.covenants.VEN
 local map = Map({ id=1525 })
 
 -------------------------------------------------------------------------------
@@ -143,6 +144,8 @@ map.nodes[20485298] = Rare({
 map.nodes[45847919] = Rare({
     id=165290,
     quest=nil,
+    covenant=VENTHYR,
+    requires=L["achan_wanecrypt_hill"],
     note=L["harika_note"],
     rewards={
         Achievement({id=14310, criteria=48813}),

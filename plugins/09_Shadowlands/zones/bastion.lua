@@ -280,6 +280,9 @@ map.nodes[43482524] = Rare({
 map.nodes[40635306] = Rare({
     id=167078,
     quest={60314,62197},
+    covenant=KYRIAN,
+    requires=L["achan_temple_of_courage"],
+    note=L["wingflayer_note"],
     rewards={
         Achievement({id=14307, criteria=48829}),
         Item({item=182749}) -- Regurgitated Kyrian Wings

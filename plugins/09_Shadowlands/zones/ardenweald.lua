@@ -229,6 +229,8 @@ map.nodes[59304660] = Rare({
 map.nodes[30115536] = Rare({
     id=168647,
     quest=61632,
+    covenant=NIGHTFAE,
+    requires=L["achan_tirna_scithe"],
     note=L["valfir_note"],
     rewards={
         Achievement({id=14309, criteria=48796}),

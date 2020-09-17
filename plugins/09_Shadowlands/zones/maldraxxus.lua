@@ -88,6 +88,7 @@ map.nodes[31603540] = Rare({
     id=162741,
     quest=58872,
     covenant=NECROLORD,
+    requires=L["achan_house_of_constructs"],
     note=L["gieger_note"],
     rewards={
         Achievement({id=14308, criteria=48871}),

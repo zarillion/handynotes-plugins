@@ -10,6 +10,12 @@ L["context_menu_title"] = "HandyNotes: Shadowlands"
 L["options_title"] = "Shadowlands"
 L["covenant_required"] = "Requires a member of the %s covenant."
 
+local ACHAN = "anima channeled to %s."
+L["achan_house_of_constructs"] = ACHAN:format('House of Constructs')
+L["achan_temple_of_courage"] = ACHAN:format('Temple of Courage')
+L["achan_tirna_scithe"] = ACHAN:format('Tirna Scithe')
+L["achan_wanecrypt_hill"] = ACHAN:format('Wanecrypt Hill')
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
@@ -92,7 +98,7 @@ Motes can be collected from nearby Depleted Anima Canisters located in the room 
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
 L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
 L["unstable_memory_note"] = "Can be spawned when {npc:171018}s are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
---L["wingflayer_note"] = "To summon, click the horn on the nearby table (southeast, up the stairs)."
+L["wingflayer_note"] = "To summon, click the Horn of Courage on the nearby table (southeast, up the stairs)."
 
 L["broken_flute"] = "Kill nearby {npc:170009} until they drop the {item:180536}, then use the tools to repair it."
 L["experimental_construct_part"] = "Loot a nearby {item:180534} and use it to repair the part. The anima has multiple spawn locations."
