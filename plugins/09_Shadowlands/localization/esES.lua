@@ -12,6 +12,12 @@ L["context_menu_title"] = "HandyNotes: Shadowlands"
 L["options_title"] = "Shadowlands"
 L["covenant_required"] = "Requiere ser miembro de la curia %s."
 
+local ACHAN = "ánima canalizada a %s."
+L["achan_house_of_constructs"] = ACHAN:format('Casa de las Construcciones')--Revisar que House of Constructs sea Casa de las Construcciones
+L["achan_temple_of_courage"] = ACHAN:format('Templo del Coraje')--Revisar que Temple of Courage sea Templo del Coraje
+L["achan_tirna_scithe"] = ACHAN:format('Guadaña de Tirna')--Revisar que Tirna Scithe sea Guadaña de Tirna
+L["achan_wanecrypt_hill"] = ACHAN:format('Cripta de la Colina Inclinada')--Revisar que Wanecrypt Hill sea Cripta de la Colina Inclinada
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
@@ -94,7 +100,7 @@ Las motas se pueden recoger de los Recipientes de Ánima Agotados cercanos local
 L["nikara_note"] = "Con otros dos jugadores, haz click en el Ancient Incense para invocar a {npc:160882}."
 L["sundancer_note"] = "Haz click en la estatua para conseguir el buff {spell:332309}, entonces usa {item:180445} para planear hasta {npc:170548} y montarlo."
 L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén presentes. Arrastra un {npc:171018} dentro de otros para que reciba 10 acumulaciones de {spell:333558}, lo que hará que se convierta en {npc:171008}."
---L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el cuerno de la mesa cercana que hay al sureste (subiendo unas escaleras)."
+L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno del Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras)."--Revisar que Horn of Courage sea Cuerno del Coraje
 
 L["broken_flute"] = "Mata a los {npc:170009} cercanos hasta que uno suelte la {item:180536}. Usa las herramientas para repararla."
 L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar la parte. El ánima tiene varios sitios de aparición."--Revisar que anima sea ánima
