@@ -83,8 +83,8 @@ L["beasts_of_bastion"] = "Bestias del Bastión"
 L["beasts_of_bastion_note"] = [[
 Habla con {npc:161441} para invocar una de las cuatro bestias.
 
-|cFFFF0000NOTE|r: El NPC se bugea frecuentemente y no hablará contigo. Aethon no es requisito para el logro y el segundo, Sigilback, realmente es Cloudtail.
-]]--Revisar los nombres de los raros del logro
+|cFFFF0000NOTE|r: El NPC se bugea frecuentemente y no hablará contigo.
+]]
 L["bookkeeper_mnemis_note"] = "Tiene la posibilidad de aparecer en lugar de los {npc:166867} del sitio."
 L["cloudfeather_patriarch_note"] = "Mata {npc:158110} en el aŕea hasta que {npc:170932} aparezca."
 L["collector_astor_note"] = "Lee los seis capítulos del Legado de Mercia dispersos por la habitación y recibirás un susurro de {npc:157979}. Habla con ella para recibir {spell:333779} el cual te permitirá encontrar el {item:180569} al noroeste. Al devolverle el capítulo, aparecerá {npc:171014}."--Revisar si Mercia's Legacy es Legado de Mercia
