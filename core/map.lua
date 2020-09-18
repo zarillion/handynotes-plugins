@@ -188,7 +188,9 @@ function MinimapDataProvider:CreatePin()
 end
 
 function MinimapDataProvider:RefreshAllData()
-    self.lastRefresh = GetTime()
+    -- Skip refresh if rotate minimap is on and we failed to get a facing value
+    if GetCVar('rotateMinimap') == '1' and self.facing == nil then return end
+
     HBDPins:RemoveAllMinimapIcons(MinimapPinsKey)
     self:ReleaseAllPins()
 
