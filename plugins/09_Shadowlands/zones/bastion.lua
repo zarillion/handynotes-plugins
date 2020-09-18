@@ -248,8 +248,20 @@ map.nodes[51456859] = Rare({
 map.nodes[30365517] = Rare({
     id=171327,
     quest=nil,
-    note=L["activation_unknown"]
+    note=L["activation_unknown"],
+    rewards={
+        Achievement({id=14307, criteria=48847}),
+    }
 }) -- Reekmonger
+
+--map.nodes[] = Rare({
+--    id=,
+--    quest=nil,
+--    note=L[""],
+--    rewards={
+--        Achievement({id=14307, criteria=nil}), -- criteria is still 0
+--    }
+--}) -- Sotiros and Orstus
 
 map.nodes[61409050] = Rare({
     id=170548,
@@ -346,6 +358,7 @@ map.nodes[53498880] = Treasure({
     note=L["cache_of_the_ascended_note"],
     rewards={
         Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817}}),
+--        Achievement({id=14734, criteria=nil}), -- Ascended Council / criteria is still 0
         Mount({item=183741, id=1426}) -- Ascended Skymane
     },
     pois={

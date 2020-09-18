@@ -194,6 +194,7 @@ L["deepscar_note"] = "Kann in verschiedenen Eingängen vom Theater der Schmerzen
 L["forgotten_mementos"] = "Ziehe an der Vault Portcullis Chain in der Kammer westlich des Schatzes, um das Gatter zu öffnen." --review Blizzard translations
 L["gieger_note"] = "Ziehe an {npc:162815}, um {npc:162741} zu aktivieren."
 L["gristlebeak_note"] = "Zerbrich jedes {npc:162761} in der Nähe, daraufhin wird {npc:162588} zu euch herunter geflogen kommen."
+L["leeda_note"] = "Töte die zwei {npc:162220} bis {npc:162180} erscheint."
 L["malkorak_note"] = "An der Spitze des Turms \n(eine menge Treppenstufen)."
 L["schmitd_note"] = "Benutze nahegelegene {spell:313451}, um sein Schild zu brechen."
 L["taskmaster_xox_note"] = "Teilt sich einen spawn mit {npc:160204}, {npc:160230} und {npc:160226}."
@@ -277,7 +278,11 @@ L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Le
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
 L["famu_note"] = "Sprich mit {npc:166483}, um das Event auszulösen."
 L["grand_arcanist_dimitri_note"] = "Töte die vier |CFFFFFF00Verhüllten Ritualisten|r, um {npc:167464} freizulassen." --{npc:167467}
-L["harika_note"] = "Plündere den Ballistenbolzen in Schauerkuppe und gib diesen zu {npc:165327}, dann sage ihm er soll die {npc:165324} abfeuern, um {npc:165290} vom Himmel zu holen." --review Blizzard translation
+L["harika_note"] = [[
+|cFFFF0000WICHTIG:|r Die Gegenstände müssen in der richtigen Reihenfolge abgegeben werden oder das Event wird buggen.
+
+Plündere den {item:176397} in Schauerkuppe und beide Sets von {item:176396}. Gib die Werkzeuge den beiden |CFFFFFF00Dreckgeborenen Handwerkern|r nahe der Balliste, dann gib {npc:165327} den Bolzen und sage ihm er soll {npc:165290} vom Himmel holen.
+]] --{npc:165328}
 L["innervus_note"] = "Töte |CFFFFFF00Wilde Ritualisten|r in der Gegend, um einen {item:177223} zu erhalten, um die Krypta aufzuschließen." --{npc:160375}
 L["leeched_soul_note"] = "In der nahe gelegenen Krypta. Gehe in die Nähe von {npc:165151}, um das Event zu starten."
 L["lord_mortegore_note"] = "Töte Gegner in der Nähe, um eine {item:174378} zu erhalten und verwende diese, um ein {npc:161870} zu ermächtigen. {npc:161891} wird erscheinen, wenn alle vier Siegel ermächtigt wurden."
