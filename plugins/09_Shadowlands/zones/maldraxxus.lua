@@ -217,13 +217,15 @@ map.nodes[50562011] = Rare({
     }
 }) -- Taskmaster Xox
 
--- map.nodes[] = Rare({
---     id=162180,
---     quest=nil,
---     rewards={
---         Achievement({id=14308, criteria=48870})
---     }
--- }) -- Thread Mistress Leeda
+map.nodes[24184297] = Rare({
+    id=162180,
+    quest=58678,
+    note=L["activation_unknown"],
+    rewards={
+        Achievement({id=14308, criteria=48870}),
+        Transmog({item=184180, slot=L["cloth"]})
+    }
+}) -- Thread Mistress Leeda
 
 map.nodes[33538086] = Rare({
     id=162819,
