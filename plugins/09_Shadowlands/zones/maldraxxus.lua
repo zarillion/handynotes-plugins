@@ -220,7 +220,7 @@ map.nodes[50562011] = Rare({
 map.nodes[24184297] = Rare({
     id=162180,
     quest=58678,
-    note=L["activation_unknown"],
+    note=L["leeda_note"],
     rewards={
         Achievement({id=14308, criteria=48870}),
         Transmog({item=184180, slot=L["cloth"]})
