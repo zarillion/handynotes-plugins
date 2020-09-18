@@ -607,7 +607,7 @@ map.nodes[51674802] = AnimaShard({quest=61258, note=L["anima_shard_61258"]})
 map.nodes[47084923] = AnimaShard({quest=61260, note=L["anima_shard_61260"]})
 map.nodes[41394663] = AnimaShard({quest=61261, note=L["anima_shard_61261"]})
 map.nodes[40045912] = AnimaShard({quest=61263, note=L["anima_shard_61263"]})
--- 61264 ??? https://shadowlands.wowhead.com/spell=335590/dnt-anima-crystal-shard-complete-21
+map.nodes[38525326] = AnimaShard({quest=61264, note=L["anima_shard_61264"]})
 map.nodes[57645567] = AnimaShard({quest=61270, note=L["anima_shard_61270"]})
 map.nodes[65254288] = AnimaShard({quest=61271, note=L["anima_shard_61271"]})
 map.nodes[72384029] = AnimaShard({quest=61273, note=L["anima_shard_61273"]})
