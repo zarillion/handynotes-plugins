@@ -143,16 +143,18 @@ map.nodes[20485298] = Rare({
 
 map.nodes[45847919] = Rare({
     id=165290,
-    quest=nil,
+    quest=59612,
     covenant=VENTHYR,
     requires=L["achan_wanecrypt_hill"],
     note=L["harika_note"],
     rewards={
         Achievement({id=14310, criteria=48813}),
+        Transmog({item=183720, slot=L["leather"]}), -- Dredbatskin Jerkin
         Mount({item=180461, id=1310}) -- Horrid Brood Dredwing
     },
     pois={
-        POI({43257769}) -- Ballista Bolt
+        POI({43257769}), -- Ballista Bolt
+        POI({41187469, 40917690}) -- Dredhollow Tools
     }
 }) -- Harika the Horrid
 
