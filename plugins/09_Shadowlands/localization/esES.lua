@@ -154,6 +154,7 @@ L["anima_shard_61258"] = "En una repisa pequeña en la parte inferior del Reposo
 L["anima_shard_61260"] = "En el suelo debajo de la plataforma."
 L["anima_shard_61261"] = "En una respisa sobre la cueva de {npc:163460}."
 L["anima_shard_61263"] = "Sobre un pilar de piedra."
+L["anima_shard_61264"] = "Encima de una estructura inclinada."
 L["anima_shard_61270"] = "Reposando en la base de un árbol."
 L["anima_shard_61271"] = "En una estantería en la plataforma superior."
 L["anima_shard_61273"] = "En una repisa justo debajo del precipicio que sobresale."
@@ -195,6 +196,7 @@ L["deepscar_note"] = "Puede aparecer en varias entradas al Teatro del Dolor."
 L["forgotten_mementos"] = "Tira de la Cadena de Rastrillo de la Bóveda en la cámara al oeste del tesoro para abrir la puerta."--Revisar que Vault Portcullis Chain sea Cadena de Rastrillo de la Bóveda
 L["gieger_note"] = "Tira de {npc:162815} para activar a {npc:162741}."
 L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:162588}."
+L["leeda_note"] = "Mata a los {npc:162220} hasta que aparezca {npc:162180}."
 L["malkorak_note"] = "En lo alto de la torre (montones de escaleras)."
 L["schmitd_note"] = "Usa el {spell:313451} cercano para romper su escudo."
 L["taskmaster_xox_note"] = "Comparte lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
@@ -271,7 +273,11 @@ L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:1652
 L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar {spell:324872}."
 L["famu_note"] = "Habla con {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}."
 L["grand_arcanist_dimitri_note"] = "Matar los cuatro {npc:167467} para liberar a {npc:167464}."
-L["harika_note"] = "Despoja el Perno de Balista en Dredhollow y dáselo a {npc:165327}, dile entonces que dispare la {npc:165324} para conseguir bajar a {npc:165290}."--Revisar que Ballista Bolt sea Perno de Balista, qué es Dredhollow
+L["harika_note"] = [[
+|cFFFF0000IMPORTANT:|r ¡Han de entregarse los objetos en el orden correcto o se bugeará el evento!
+
+In Dredhollow al oeste, despoja el {item:176397} y ambos conjuntos de {item:176396}. Dale ambos conjuntos de herramientas a {npc:165328} cerca de la balista. Después devuelve el {item:176397} a {npc:165327} y dile que tire para abajo a {npc:165290}.
+]]--Revisar qué es Dredhollow
 L["innervus_note"] = "Mata a los {npc:160375} cercanos para conseguir la {item:177223} y desbloquear la cripta donde está {npc:160640}."
 L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca de {npc:165151} para comenzar el evento tras el cual aparecerá {npc:165152}."
 L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}."
