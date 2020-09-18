@@ -1,5 +1,7 @@
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from os import path
+from shlex import quote
+from subprocess import run
 import os
 import re
 import shutil
@@ -14,8 +16,21 @@ NOTE: Must be run as administrator on Windows to allow symlink creation.
 eprint = lambda *args: print(*args, file=sys.stderr)
 
 def install(src, dst):
-    if not path.islink(dst):
-        print(f'Installing {src} => {dst}')
+    if path.islink(dst): return
+    print(f'Installing {src} => {dst}')
+    if 'WSL_DISTRO_NAME' in os.environ:
+        # os.symlink() does not create links that work from the Windows side.
+        # Use mklink to create a windows-compatible symlink from inside WSL.
+        #   1 - Use to parent dir of "dst" as CWD to this cmd.exe warning:
+        #       UNC paths are not supported.  Defaulting to Windows directory.
+        #   2 - Use the \\wsl$\<distro>\ network path as the link target
+        cwd = path.dirname(dst)
+        dir = '/D' if path.isdir(src) else ''
+        src = path.abspath(src).replace('/', '\\')
+        src = quote(f"\\\\wsl$\\{os.environ['WSL_DISTRO_NAME']}{src}")
+        dst = path.basename(dst)
+        run(f'cmd.exe /c mklink {dir} {dst} {src}', cwd=cwd, check=True, shell=True)
+    else:
         os.symlink(path.abspath(src), dst)
 
 def main():
