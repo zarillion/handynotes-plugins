@@ -11,9 +11,12 @@ L["options_title"] = "Shadowlands"
 L["covenant_required"] = "Requires a member of the %s covenant."
 
 local ACHAN = "anima channeled to %s."
+L["achan_citadel_of_loyalty"] = ACHAN:format('Citadel of Loyalty')
 L["achan_dominance_keep"] = ACHAN:format('Dominance Keep')
+L["achan_dreamsong_fenn"] = ACHAN:format('Dreamsong Fenn')
 L["achan_house_of_constructs"] = ACHAN:format('House of Constructs')
 L["achan_temple_of_courage"] = ACHAN:format('Temple of Courage')
+L["achan_theater_of_pain"] = ACHAN:format('Theater of Pain')
 L["achan_tirna_scithe"] = ACHAN:format('Tirna Scithe')
 L["achan_wanecrypt_hill"] = ACHAN:format('Wanecrypt Hill')
 
@@ -41,7 +44,7 @@ Next, talk to {npc:160262} in the Heart of the Forest to exchange the {item:1812
 ]]
 
 L["star_lake"] = "Star Lake Amphitheater"
-L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, the start one of the special encounters."
+L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, to start one of the special encounters."
 
 L["cache_of_the_moon"] = "Collect {npc:171360}'s five missing tools in the Garden of Night and combine them to create {item:180753}. Return her toolkit and she will cast {spell:334353} on you, allowing you to see the cache."
 L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."

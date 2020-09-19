@@ -162,6 +162,8 @@ map.nodes[53841877] = Rare({
 map.nodes[50354728] = Rare({
     id=168147,
     quest=nil,
+    covenant=NECROLORD,
+    requires=L["achan_theater_of_pain"],
     note=L["activation_unknown"],
     rewards={
         Achievement({id=14308, criteria=48874}),
