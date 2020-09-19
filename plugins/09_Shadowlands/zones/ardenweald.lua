@@ -313,11 +313,18 @@ map.nodes[63893778] = Treasure({
 }) -- Cache of the Moon
 
 map.nodes[36236527] = Treasure({
-    quest=nil,
-    note=L["activation_unknown"],
+    quest=61110,
+    requires='{item:180652}',
+    note=L["cache_of_the_night"],
     rewards={
         Achievement({id=14313, criteria=50044}),
         Pet({item=180637, id=2914}) -- Starry Dreamfoal
+    }, pois={
+        POI({
+            42414672, -- Enchanted Bough
+            51556160, -- Fae Ornament
+            36982983  -- Raw Dream Silk
+        })
     }
 }) -- Cache of the Night
 

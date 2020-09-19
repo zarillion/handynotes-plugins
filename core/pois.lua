@@ -25,7 +25,6 @@ function POI:draw (pin, xy)
     t:SetTexCoord(0, 1, 0, 1)
     t:SetVertexColor(0, 0.5, 1, 1)
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\circle")
-    pin:SetAlpha(0.75)
     pin:SetSize(size, size)
     return HandyNotes:getXY(xy)
 end
@@ -56,7 +55,6 @@ function Path:draw (pin, type, xy1, xy2)
     local size = pin.minimap and 5 or (pin.parentHeight * 0.005)
     local line_width = pin.minimap and 60 or (pin.parentHeight * 0.05)
 
-    pin:SetAlpha(0.75)
     if type == 'circle' then
         pin:SetSize(size, size)
         return HandyNotes:getXY(xy1)

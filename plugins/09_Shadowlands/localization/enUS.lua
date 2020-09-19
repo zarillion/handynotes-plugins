@@ -47,6 +47,7 @@ L["star_lake"] = "Star Lake Amphitheater"
 L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, to start one of the special encounters."
 
 L["cache_of_the_moon"] = "Collect {npc:171360}'s five missing tools in the Garden of Night and combine them to create {item:180753}. Return her toolkit and she will cast {spell:334353} on you, allowing you to see the cache."
+L["cache_of_the_night"] = "Collect {item:180656}, {item:180654} and {item:180655} from across the zone and combine them to create {item:180652}."
 L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["desiccated_moth"] = "Jump on the {npc:169997} northwest of the tree to float onto a branch. Burn {item:180784} in the Incense Burner to collect the treasure."
 L["dreamsong_heart"] = "Use the {npc:169997} beneath the tree to get launched into the tree."
