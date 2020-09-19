@@ -11,6 +11,7 @@ L["options_title"] = "Shadowlands"
 L["covenant_required"] = "Requires a member of the %s covenant."
 
 local ACHAN = "anima channeled to %s."
+L["achan_dominance_keep"] = ACHAN:format('Dominance Keep')
 L["achan_house_of_constructs"] = ACHAN:format('House of Constructs')
 L["achan_temple_of_courage"] = ACHAN:format('Temple of Courage')
 L["achan_tirna_scithe"] = ACHAN:format('Tirna Scithe')
@@ -279,6 +280,7 @@ In Dredhollow to the west, loot the {item:176397} and both sets of {item:176396}
 L["innervus_note"] = "Kill nearby {npc:160375}s to obtain a {item:177223} and unlock the crypt."
 L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
 L["lord_mortegore_note"] = "Kill surrounding mobs to obtain {item:174378} and use it to empower a {npc:161870}. The rare will spawn once all four sigils are empowered."
+L["madalav_note"] = "Click Madalav's Hammer on the nearby anvil to summon him."
 L["manifestation_of_wrath_note"] = "Has a chance to spawn when a {npc:169916} is recovered during the \"Swarming Souls\" world quest."
 L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
 L["sinstone_hoarder_note"] = "Appears on the minimap as a treasure chest. Attempt to loot the {npc:162503} and the rare will reveal itself."

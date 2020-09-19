@@ -124,13 +124,19 @@ map.nodes[62484716] = Rare({
     }
 }) -- Famu the Infinite
 
--- map.nodes[] = Rare({
---     id=159496,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=48804})
---     }
--- }) -- Forgemaster Madalav
+map.nodes[32641545] = Rare({
+    id=159496,
+    quest=61618,
+    covenant=VENTHYR,
+    requires=L["achan_dominance_keep"],
+    note=L["madalav_note"],
+    rewards={
+        Achievement({id=14310, criteria=48804})
+    },
+    pois={
+        POI({32661483}) -- Madalav's Hammer
+    }
+}) -- Forgemaster Madalav
 
 map.nodes[20485298] = Rare({
     id=167464,
