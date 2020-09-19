@@ -59,7 +59,7 @@ end
 -------------------------------- LINK RENDERER --------------------------------
 -------------------------------------------------------------------------------
 
-function prepareLinks(str)
+local function prepareLinks(str)
     if not str then return end
     for type, id in str:gmatch('{(%l+):(%d+)}') do
         id = tonumber(id)
@@ -74,7 +74,7 @@ function prepareLinks(str)
     end
 end
 
-function renderLinks(str, nameOnly)
+local function renderLinks(str, nameOnly)
     return str:gsub('{(%l+):(%d+)}', function (type, id)
         id = tonumber(id)
         if type == 'npc' then

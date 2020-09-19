@@ -38,8 +38,8 @@ local WorldMapOptionsButtonMixin = {}
 _G[ADDON_NAME.."WorldMapOptionsButtonMixin"] = WorldMapOptionsButtonMixin
 
 function WorldMapOptionsButtonMixin:OnLoad()
-    UIDropDownMenu_SetInitializeFunction(self.DropDown, function (self, level)
-        self:GetParent():InitializeDropDown(level)
+    UIDropDownMenu_SetInitializeFunction(self.DropDown, function (dropdown, level)
+        dropdown:GetParent():InitializeDropDown(level)
     end)
     UIDropDownMenu_SetDisplayMode(self.DropDown, "MENU")
 
@@ -93,8 +93,8 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                 value = group,
                 checked = profile['icon_display_'..group..'_'..mapID],
                 arg1 = 'icon_display_'..group..'_'..mapID,
-                func = function (self, option)
-                    profile[option] = self.checked
+                func = function (button, option)
+                    profile[option] = button.checked
                     ns.addon:Refresh()
                 end
             })
@@ -106,8 +106,8 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             isNotRadio = true,
             keepShownOnClick = true,
             checked = profile.show_completed_nodes,
-            func = function (self, option)
-                profile.show_completed_nodes = self.checked
+            func = function (button, option)
+                profile.show_completed_nodes = button.checked
                 ns.addon:Refresh()
             end
         })
@@ -123,8 +123,8 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         -- Check for global alpha/scale options before using map ones
         local alphaArg = 'icon_alpha_'..group
         local scaleArg = 'icon_scale_'..group
-        if not defaults[alphaArg] then alpha_arg = alphaArg..'_'..mapID end
-        if not defaults[scaleArg] then scale_arg = scaleArg..'_'..mapID end
+        if not defaults[alphaArg] then alphaArg = alphaArg..'_'..mapID end
+        if not defaults[scaleArg] then scaleArg = scaleArg..'_'..mapID end
 
         UIDropDownMenu_AddSlider({
             text = L["options_opacity"],

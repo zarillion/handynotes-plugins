@@ -279,7 +279,7 @@ nodes[72107290] = PetBattle({id=154929}) -- Unit 17
 -------------------------------------------------------------------------------
 
 -- All chests have a chance to drop
-RED_PAINT = Item({item=170146, quest=56907}) -- Paint Bottle: Nukular Red
+local RED_PAINT = Item({item=170146, quest=56907}) -- Paint Bottle: Nukular Red
 
 -- Recently it looks like these are in fixed spawns compared to when 8.2 hit
 nodes[23195699] = Treasure({group='locked_chest', label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})

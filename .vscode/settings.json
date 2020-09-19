@@ -3,5 +3,7 @@
     "files.trimTrailingWhitespace": true,
     "[xml]": {
         "editor.tabSize": 2
-    }
+    },
+    "lua.preferLuaCheckErrors": true,
+    "lua.targetVersion": "5.3"
 }

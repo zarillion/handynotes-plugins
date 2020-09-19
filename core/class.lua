@@ -18,7 +18,7 @@ ns.Class = function (name, parent, attrs)
 
     setmetatable(Class, {
         __call = function (self, instanceAttrs)
-            instance = {}
+            local instance = {}
             instance.__class = Class
 
             local address = tostring(instance):gsub("table: ", "", 1)

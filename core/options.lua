@@ -95,7 +95,7 @@ ns.options = {
                     order = 14,
                     width = "full",
                     func = function ()
-                        table.wipe(ns.addon.db.char)
+                        wipe(ns.addon.db.char)
                         ns.addon:Refresh()
                     end
                 },
@@ -223,16 +223,15 @@ function ns.InitializeGroup (map, group)
     map._icons_order = map._icons_order or 0
     map._visibility_order = map._visibility_order or 0
 
-    local defaults = ns.optionDefaults.profile
-    local display_arg = "icon_display_"..group.."_"..map.id
-    local alpha_arg = 'icon_alpha_'..group
-    local scale_arg = 'icon_scale_'..group
-    if not defaults[alpha_arg] then alpha_arg = alpha_arg..'_'..map.id end
-    if not defaults[scale_arg] then scale_arg = scale_arg..'_'..map.id end
+    local displayArg = "icon_display_"..group.."_"..map.id
+    local alphaArg = 'icon_alpha_'..group
+    local scaleArg = 'icon_scale_'..group
+    if not defaults[alphaArg] then alphaArg = alphaArg..'_'..map.id end
+    if not defaults[scaleArg] then scaleArg = scaleArg..'_'..map.id end
 
     map_options.args.IconsGroup.args["icon_toggle_"..group] = {
         type = "toggle",
-        arg = display_arg,
+        arg = displayArg,
         name = L["options_icons_"..group],
         desc = L["options_icons_"..group.."_desc"],
         width = 0.9,
@@ -249,9 +248,9 @@ function ns.InitializeGroup (map, group)
         type = "range",
         name = L["options_scale"],
         desc = L["options_scale_desc"],
-        disabled = function () return not ns.addon.db.profile[display_arg] end,
+        disabled = function () return not ns.addon.db.profile[displayArg] end,
         min = 0.3, max = 3, step = 0.01,
-        arg = scale_arg,
+        arg = scaleArg,
         width = 0.95,
         order = map._visibility_order + 1
     }
@@ -260,9 +259,9 @@ function ns.InitializeGroup (map, group)
         type = "range",
         name = L["options_opacity"],
         desc = L["options_opacity_desc"],
-        disabled = function () return not ns.addon.db.profile[display_arg] end,
+        disabled = function () return not ns.addon.db.profile[displayArg] end,
         min = 0, max = 1, step = 0.01,
-        arg = alpha_arg,
+        arg = alphaArg,
         width = 0.95,
         order = map._visibility_order + 2
     }

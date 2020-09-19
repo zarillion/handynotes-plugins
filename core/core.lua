@@ -20,7 +20,7 @@ ns.maps = {}
 
 local DropdownMenu = CreateFrame("Frame", ADDON_NAME.."DropdownMenu")
 DropdownMenu.displayMode = "MENU"
-local function initializeDropdownMenu (button, level, mapID, coord)
+local function initializeDropdownMenu (level, mapID, coord)
     if not level then return end
     local node = ns.maps[mapID].nodes[coord]
     local spacer = {text='', disabled=1, notClickable=1, notCheckable=1}
@@ -68,7 +68,7 @@ local function initializeDropdownMenu (button, level, mapID, coord)
         UIDropDownMenu_AddButton({
             text=L["context_menu_restore_hidden_nodes"], notCheckable=1,
             func=function ()
-                table.wipe(Addon.db.char)
+                wipe(Addon.db.char)
                 Addon:Refresh()
             end
         }, level)
@@ -118,8 +118,8 @@ end
 function Addon:OnClick(button, down, mapID, coord)
     local node = ns.maps[mapID].nodes[coord]
     if button == "RightButton" and down then
-        DropdownMenu.initialize = function (button, level)
-            initializeDropdownMenu(button, level, mapID, coord)
+        DropdownMenu.initialize = function (_, level)
+            initializeDropdownMenu(level, mapID, coord)
         end
         ToggleDropDownMenu(1, nil, DropdownMenu, self, 0, 0)
     elseif button == "LeftButton" and down then
