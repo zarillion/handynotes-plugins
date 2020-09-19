@@ -11,10 +11,14 @@ L["options_title"] = "Shadowlands"
 L["covenant_required"] = "Benötigt ein Paktmitglied der %s"
 
 local ACHAN = "Anima %s kanalisiert."
+L["achan_citadel_of_loyalty"] = ACHAN:format('zur Zitadelle der Loyalität') --review wrong Blizzard Translation Loyalität = Treue
+L["achan_dominance_keep"] = ACHAN:format('zur Herrschaftsburg')
+L["achan_dreamsong_fenn"] = ACHAN:format('nach Traumsang Fenn')
 L["achan_house_of_constructs"] = ACHAN:format('zum Haus der Konstrukte')
 L["achan_temple_of_courage"] = ACHAN:format('zum Tempel des Mutes')
+L["achan_theater_of_pain"] = ACHAN:format('Theater der Schmerzen')
 L["achan_tirna_scithe"] = ACHAN:format('nach Tirna Scithe')
-L["achan_wanecrypt_hill"] = ACHAN:format('zum Schwundgrufthügel') --TRANSLATE
+L["achan_wanecrypt_hill"] = ACHAN:format('zum Schwundgrufthügel')
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -153,6 +157,7 @@ L["anima_shard_61258"] = "An einer kleinen Kante an der unterseite von Heldenras
 L["anima_shard_61260"] = "Am Boden unter einer Plattform."
 L["anima_shard_61261"] = "An einer Kante über {npc:163460}|CFFFFFF00s|r Höhle."
 L["anima_shard_61263"] = "Auf einer Steinsäule."
+L["anima_shard_61264"] = "Auf einer geneigten Struktur."
 L["anima_shard_61270"] = "Am Fuße eines Baumes."
 L["anima_shard_61271"] = "In einem Bücherregal auf der oberen Plattform."
 L["anima_shard_61273"] = "An einer Kante direkt unter der hervorragenden Klippe."
@@ -223,6 +228,8 @@ Stelle dich in grünen Schleim |cffff0000(benötigt Heilung!)|r, sammel 10 Stape
 
 Wenn du verwandelt bist, besuche die Höhle unterhalb von {npc:158406}|CFFFFFF00es|r Plattform (Eingang auf der östlichen Seite) und klicke auf das Rohr, um zur Truhe zu gelangen.
 ]]
+L["ritualists_cache_note"] = "Plündere die {item:181558} von einem Knochenhaufen \n(69.9, 31.0 oder 69.1, 32.5) und benutze dann das Buch der Bindungsrituale (71.7, 35.4), dass dir das {spell:337041} gewährt, um die Truhe öffnen zu können."
+L["runespeakers_trove_note"] = "Töte {npc:170563} (37.9, 70.1), um den Schlüssel zu erhalten und den Schatz zu plündern."
 L["stolen_jar_note"] = "In einer Höhle unter dem Riesenpilz."
 L["strange_growth_note"] = "Ziehe {npc:165037} heraus, um den Schatz zu enthüllen."
 L["vat_of_slime_note"] = "Klicken auf dem Tisch die Flasche an und danach auf den Schleimbehälter."
@@ -235,7 +242,7 @@ Oh schau! Ein {spell:343124}! Nähere dich ihm, tapferer Abenteurer, das ist sic
 ]]
 
 L["oonar_sorrowbane_note"] = [[
-Im Theater des Schmerzes, findest du im Boden steckend Kummerfluch und Oonars Arm daran befestigt.
+Im Theater der Schmerzen, findest du im Boden steckend Kummerfluch und Oonars Arm daran befestigt.
 |cFFFF8C00Bevor du versuchst eines der beiden ab oder heraus zu ziehen, setzte deinen {item:6948} bei {npc:161702} nahe des Flugpunktes.|r
 
 Um {item:181164} ab zu ziehen:
@@ -286,6 +293,7 @@ Plündere den {item:176397} in Schauerkuppe und beide Sets von {item:176396}. Gi
 L["innervus_note"] = "Töte |CFFFFFF00Wilde Ritualisten|r in der Gegend, um einen {item:177223} zu erhalten, um die Krypta aufzuschließen." --{npc:160375}
 L["leeched_soul_note"] = "In der nahe gelegenen Krypta. Gehe in die Nähe von {npc:165151}, um das Event zu starten."
 L["lord_mortegore_note"] = "Töte Gegner in der Nähe, um eine {item:174378} zu erhalten und verwende diese, um ein {npc:161870} zu ermächtigen. {npc:161891} wird erscheinen, wenn alle vier Siegel ermächtigt wurden."
+L["madalav_note"] = "Klick Madalavs Hammer auf dem Amboss in der Nähe an, um ihn zu beschwören."
 L["manifestation_of_wrath_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Seelenschwärme]|r eine {npc:169916} wiedererlangt wird."
 L["scrivener_lenua_note"] = "Bringe {npc:160753} zurück zur Verbotenen Bibliothek."
 L["sinstone_hoarder_note"] = "Erscheint auf der Minimap als Schatztruhe. Versuch den {npc:162503} zu plündern und {npc:162481} wird sich offenbaren."

@@ -377,19 +377,27 @@ map.nodes[57667581] = Treasure({
 }) -- Plaguefallen Chest
 
 map.nodes[64672475] = Treasure({
-    quest=nil,
-    note=L["activation_unknown"],
+    quest=61514,
+    note=L["ritualists_cache_note"],
     rewards={
-        Achievement({id=14312, criteria=50075})
+        Achievement({id=14312, criteria=50075}),
+        Item({item=183517}) -- Page 76 of the Necronom-i-nom
+    },
+    pois={
+        POI({69873103, 69073250, 71733540, scale=0.75}) -- Step1: bone pile spawn 1, spawn 2, Step 2: Book of Binding Ritials
     }
 }) -- Ritualist's Cache
 
 map.nodes[31737004] = Treasure({
-    quest=nil,
+    quest=61491,
     requires="{item:181777}",
-    note=L["requirement_not_found"],
+    note=L["runespeakers_trove_note"],
     rewards={
-        Achievement({id=14312, criteria=50073})
+        Achievement({id=14312, criteria=50073}),
+        Item({item=183516}) -- Stained Bonefused Mantle
+    },
+    pois={
+        POI({37867013, scale=0.75})
     }
 }) -- Runespeaker's Trove
 
