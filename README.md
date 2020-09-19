@@ -6,6 +6,8 @@ Join our Discord server to discuss features and translations: https://discord.gg
 
 This repository hosts *all* of our HandyNotes plugins. Since they all share the same core code and features, it made sense to keep them in a single repository instead of individual ones. This means the repository cannot be cloned directly into your addons directory; the files won't be in the places WoW expects.
 
+> We recommend using [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/about) to work on the project. It makes it *much* easier to install the Python and Lua language dependencies needed to install, lint and test the project. See this [wiki page](https://github.com/zarillion/handynotes-plugins/wiki/Installing-with-WSL) for more information
+
 The `install.py` script can be used to install your clone of this repository into your `Interface/AddOns` directory. It will create symbolic links to directories and files in the source tree for each plugin. After installation, a `/reload` is all that is needed after editing a file to see the changes reflected in game.
 
 ```
