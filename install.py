@@ -23,11 +23,14 @@ def install(src, dst):
         # Use mklink to create a windows-compatible symlink from inside WSL.
         #   1 - Use to parent dir of "dst" as CWD to this cmd.exe warning:
         #       UNC paths are not supported.  Defaulting to Windows directory.
-        #   2 - Use the \\wsl$\<distro>\ network path as the link target
+        #   2 - Ensure the src is outside of WSL or Battle.net client bugs
+        src = path.realpath(src)
+        if not src.startswith('/mnt/'):
+            raise RuntimeError('Project files must not live inside WSL!')
+
         cwd = path.dirname(dst)
         dir = '/D' if path.isdir(src) else ''
-        src = path.abspath(src).replace('/', '\\')
-        src = quote(f"\\\\wsl$\\{os.environ['WSL_DISTRO_NAME']}{src}")
+        src = quote(re.sub(r'/mnt/([a-z])/', r'\1:\\\\', src).replace('/', '\\'))
         dst = path.basename(dst)
         run(f'cmd.exe /c mklink {dir} {dst} {src}', cwd=cwd, check=True, shell=True)
     else:
