@@ -13,8 +13,12 @@ L["options_title"] = "Shadowlands"
 L["covenant_required"] = "Requiere ser miembro de la curia %s."
 
 local ACHAN = "ánima canalizada a %s."
+L["achan_citadel_of_loyalty"] = ACHAN:format('Ciudadela de la Lealtad')--Revisar que Citadel of Loyalty sea Ciudadela de la Lealtad
+L["achan_dominance_keep"] = ACHAN:format('Fortaleza de la Dominancia')--Revisar que Dominance Keep sea Fortaleza de la Dominancia
+L["achan_dreamsong_fenn"] = ACHAN:format('Canción del Sueño de Fenn')--Revisar Dreamsong Fenn sea Canción del Sueño de Fenn
 L["achan_house_of_constructs"] = ACHAN:format('Casa de las Construcciones')--Revisar que House of Constructs sea Casa de las Construcciones
 L["achan_temple_of_courage"] = ACHAN:format('Templo del Coraje')--Revisar que Temple of Courage sea Templo del Coraje
+L["achan_theater_of_pain"] = ACHAN:format('Teatro del Dolor')--Revisar que Theater of Pain sea Teatro del Dolor
 L["achan_tirna_scithe"] = ACHAN:format('Guadaña de Tirna')--Revisar que Tirna Scithe sea Guadaña de Tirna
 L["achan_wanecrypt_hill"] = ACHAN:format('Cripta de la Colina Inclinada')--Revisar que Wanecrypt Hill sea Cripta de la Colina Inclinada
 
@@ -42,7 +46,7 @@ Después, habla con {npc:160262} en el Corazón del Bosque para cambiarle la {it
 ]]--Revisar que Tirna Scithe sea Guadaña de Tirna, que follow the root path sea sigue el camino de la raíz o sigue el camino de raices, que Glitterfall Basin sea Cuenca de la Caida Relumbrante, que Trouble at the Gormling Corral sea Problemas en el Corral de Gormling, que Tricky Spriggans sean Spriggans Difíciles, que Heart of the Forest sea Corazón del Bosque
 
 L["star_lake"] = "Anfiteatro del Lago Estrellado"--Revisar que Star Lake Amphitheater sea Anfiteatro del Lago Estrellado"
-L["star_lake_note"] = "Habla con {npc:171743}, el Director de Escena, el cual iniciará uno de los combates especiales."--Revisar que Stage Director sea Director de Escena
+L["star_lake_note"] = "Habla con {npc:171743}, el Director de Escena, para iniciar uno de los combates especiales."--Revisar que Stage Director sea Director de Escena
 
 L["cache_of_the_moon"] = "Recoge las cinco herramientas perdidas de {npc:171360} en el Jardín de la Noche y combínalas para crear el {item:180753}. Dáselo y ella te lanzará {spell:334353}, permitiéndote ver el cofre."--Revisar que Garden of Night sea Jardín de la Noche
 L["darkreach_supplies"] = "Salta en la {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro Alijo de la Noche." --Revisar que Cache of the Night treasure sea Alijo de la Noche
@@ -281,6 +285,7 @@ In Dredhollow al oeste, despoja el {item:176397} y ambos conjuntos de {item:1763
 L["innervus_note"] = "Mata a los {npc:160375} cercanos para conseguir la {item:177223} y desbloquear la cripta donde está {npc:160640}."
 L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca de {npc:165151} para comenzar el evento tras el cual aparecerá {npc:165152}."
 L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}."
+L["madalav_note"] = "Haz click en el Martillo de Madalav en el yunque cercano para invocar al {npc:159496}."
 L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo |cFFFFFD00[Enjambre de Almas]|r."--Revisar que Swarming Souls sea Enjambre de Almas
 L["scrivener_lenua_note"] = "Devuelve los {npc:160753} a la Biblioteca Prohibida."--Revisar que Forbidden Library sea Biblioteca Prohibida
 L["sinstone_hoarder_note"] = "Aparece en el mapa como un cofre del tesoro. Intenta despojar el {npc:162503} y el {npc:162481} se revelará él solo."
