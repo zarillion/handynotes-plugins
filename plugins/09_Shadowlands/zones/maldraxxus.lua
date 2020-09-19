@@ -167,6 +167,7 @@ map.nodes[50354728] = Rare({
     note=L["activation_unknown"],
     rewards={
         Achievement({id=14308, criteria=48874}),
+        Achievement({id=14802, criteria=48874}),
         Mount({item=182083, id=1374}) -- Bonecleaver's Skullboar
     }
 }) -- Sabreil the Bonecleaver
@@ -378,13 +379,15 @@ map.nodes[57667581] = Treasure({
 
 map.nodes[64672475] = Treasure({
     quest=61514,
+    requires='{spell:337041}',
     note=L["ritualists_cache_note"],
     rewards={
         Achievement({id=14312, criteria=50075}),
-        Item({item=183517}) -- Page 76 of the Necronom-i-nom
+        Item({item=183517, quest=62372}) -- Page 76 of the Necronom-i-nom
     },
     pois={
-        POI({69873103, 69073250, 71733540}) -- Step1: bone pile spawn 1, spawn 2, Step 2: Book of Binding Ritials
+        POI({69873103, 69073250, 71473663}), -- Bone Pile
+        POI({71733540}) -- Book of Binding Ritials
     }
 }) -- Ritualist's Cache
 
@@ -394,7 +397,7 @@ map.nodes[31737004] = Treasure({
     note=L["runespeakers_trove_note"],
     rewards={
         Achievement({id=14312, criteria=50073}),
-        Item({item=183516}) -- Stained Bonefused Mantle
+        Transmog({item=183516, slot=L['cloth']}) -- Stained Bonefused Mantle
     },
     pois={
         POI({37867013})

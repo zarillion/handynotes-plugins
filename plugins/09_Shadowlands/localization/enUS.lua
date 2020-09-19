@@ -226,8 +226,8 @@ Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} 
 
 Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on the east side) and click the pipe to transport to the chest.
 ]]
-L["ritualists_cache_note"] = "Loot the {item:181558} from a bone pile and then use the Book of Binding Ritials, which grants you the {spell:337041} to open the cache."
-L["runespeakers_trove_note"] = "Kill {npc:170563} to get the key and loot the treasure."
+L["ritualists_cache_note"] = "Loot the {item:181558} from a bone pile (multiple spawn locations). Use them to complete the Book of Binding Rituals on the stand behind {npc:174386} and gain the {spell:337041} buff."
+L["runespeakers_trove_note"] = "Find {npc:170563} to the east and kill him to obtain the {item:181777}."
 L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
 L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
