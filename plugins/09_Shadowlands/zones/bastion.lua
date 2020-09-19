@@ -353,12 +353,12 @@ map.nodes[35834811] = Treasure({
 }) -- Broken Flute
 
 map.nodes[53498880] = Treasure({
-    quest=nil,
+    quest=60977, -- 60933 makes the chest visible
     label=L["cache_of_the_ascended"],
     note=L["cache_of_the_ascended_note"],
     rewards={
         Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817}}),
---        Achievement({id=14734, criteria=nil}), -- Ascended Council / criteria is still 0
+        --Achievement({id=14307, criteria=nil}), -- Ascended Council / criteria is still 0
         Mount({item=183741, id=1426}) -- Ascended Skymane
     },
     pois={
