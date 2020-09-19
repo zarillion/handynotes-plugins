@@ -49,6 +49,7 @@ L["star_lake"] = "Anfiteatro del Lago Estrellado"--Revisar que Star Lake Amphith
 L["star_lake_note"] = "Habla con {npc:171743}, el Director de Escena, para iniciar uno de los combates especiales."--Revisar que Stage Director sea Director de Escena
 
 L["cache_of_the_moon"] = "Recoge las cinco herramientas perdidas de {npc:171360} en el Jardín de la Noche y combínalas para crear el {item:180753}. Dáselo y ella te lanzará {spell:334353}, permitiéndote ver el cofre."--Revisar que Garden of Night sea Jardín de la Noche
+L["cache_of_the_night"] = "Recoge {item:180656}, {item:180654} y {item:180655} por toda la zona y combínalo todo para crear {item:180652}."
 L["darkreach_supplies"] = "Salta en la {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro Alijo de la Noche." --Revisar que Cache of the Night treasure sea Alijo de la Noche
 L["desiccated_moth"] = "Salta sobre {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el Quemador de Incienso para conseguir el tesoro."--Revisar que Incense Burner sea Quemador de Incienso
 L["dreamsong_heart"] = "Salta sobre {npc:169997} lejos al noreste para ser lanzado dentro del árbol."
