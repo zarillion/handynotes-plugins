@@ -82,6 +82,7 @@ Si tomas el camino equivocado y desaparece el {npc:171699} cuando llegues al fin
 -------------------------------------------------------------------------------
 
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con {npc:171211} como objetivo para activarlo."
+L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."--Revisar que Casks of Fermenting Purian Fruit sea Barriles de Fruta Puriana Fermentada
 L["basilofos_note"] = "Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}."
 L["beasts_of_bastion"] = "Bestias del Bastión"
 L["beasts_of_bastion_note"] = [[
@@ -227,6 +228,8 @@ Quédate de pie en la baba verde (¡requiere sanación!) para conseguir 10 acumu
 
 Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:158406} (la entrada está en el lado este) y haz click en el tubo para llegar al cofre.
 ]]
+L["ritualists_cache_note"] = "Despoja las {item:181558} de una pila de huesos (aparece en varios sitios). Úsalas para completar el Libro de Rituales de Vínculo en el podio detrás de {npc:174386} con lo que ganarás el buff {spell:337041}."--Revisar que Book of Binding Rituals sea Libro de Rituales de Vínculo
+L["runespeakers_trove_note"] = "Busca a {npc:170563} al este y mátalo para conseguir la {item:181777}."
 L["stolen_jar_note"] = "En una cueva debajo de la seta gigante."
 L["strange_growth_note"] = "Estira de {npc:165037} para revelar el tesoro."
 L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar que vat of slime sea cuba de baba
