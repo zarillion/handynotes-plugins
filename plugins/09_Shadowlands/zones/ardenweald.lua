@@ -341,8 +341,8 @@ map.nodes[41953253] = Treasure({
         Pet({item=180640, id=2911}) -- Amber Glitterwing
     },
     pois={
-        POI({41413161, scale=0.5}), -- Bounding Shroom
-        POI({31763247, scale=0.5}) -- Aromatic Flowers
+        POI({41413161}), -- Bounding Shroom
+        POI({31763247}) -- Aromatic Flowers
     }
 }) -- Desiccated Moth
 
@@ -407,7 +407,7 @@ map.nodes[48213927] = Treasure({
         Toy({item=182729}) -- Hearty Dragon Plume
     },
     pois={
-        POI({46424032, 48964102, 50084159, scale=0.5})
+        POI({46424032, 48964102, 50084159})
     }
 }) -- Hearty Dragon Plume
 

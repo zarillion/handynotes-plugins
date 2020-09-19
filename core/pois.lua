@@ -12,8 +12,6 @@ local Class = ns.Class
 
 local POI = Class('POI')
 
-POI.scale = 1
-
 function POI:render (map, template)
     -- draw a circle at every coord
     for i=1, #self, 1 do
@@ -23,7 +21,7 @@ end
 
 function POI:draw (pin, xy)
     local t = pin.texture
-    local size = (pin.minimap and 10 or (pin.parentHeight * 0.015)) * self.scale
+    local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
     t:SetTexCoord(0, 1, 0, 1)
     t:SetVertexColor(0, 0.5, 1, 1)
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\circle")

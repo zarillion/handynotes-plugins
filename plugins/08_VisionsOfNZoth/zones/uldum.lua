@@ -165,13 +165,7 @@ nodes[48657067] = Rare({id=158491, quest=57662, assault=EMP, pois={
     Path({53287082, 54066945, 53446815, 49866959, 48097382, 46537211, 46257561, 44217851})
 }}) -- Falconer Amenophis
 nodes[75056816] = Rare({id=157120, quest=57258, assault={AQR, AMA}}) -- Fangtaker Orsa
-nodes[55475169] = Rare({id=158633, quest=57680, assault=EMP, pois={
-    POI({
-        53845079, 54215140, 54255185, 54575190, 54605233, 54635076, 54704963,
-        54925253, 55065317, 55214990, 55335305, 55445072, 55475169, 55495031,
-        55705404, 55835437, 55915107, 55935310, 56425386, 56485353, scale=0.5
-    })
-}, rewards={
+nodes[55475169] = Rare({id=158633, quest=57680, assault=EMP, rewards={
     Item({item=175142}), -- All-Seeing Right Eye
     Toy({item=175140}) -- All-Seeing Eye
 }, note=L["gaze_of_nzoth"]..' '..L["right_eye"]}) -- Gaze of N'Zoth

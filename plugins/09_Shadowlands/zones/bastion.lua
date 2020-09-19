@@ -338,7 +338,7 @@ map.nodes[46114536] = Treasure({
         Achievement({id=14311, criteria=50053})
     },
     pois={
-            POI({46454661, scale=0.75}) -- Entrance
+            POI({46454661}) -- Entrance
     }
 }) -- Abandoned Stockpile
 
@@ -406,7 +406,7 @@ map.nodes[70473645] = Treasure({
         Achievement({id=14311, criteria=50060})
     },
     pois={
-        POI({69374031, scale=0.75})
+        POI({69374031})
     }
 }) -- Gift of Chyrus
 
@@ -435,7 +435,7 @@ map.nodes[40601890] = Treasure({
         Achievement({id=14311, criteria=50061})
     },
     pois={
-        POI({41662331, 39551900, scale=0.75}) -- Transport platform
+        POI({41662331, 39551900}) -- Transport platform
 }}) -- Gift of Thenios
 
 map.nodes[64877114] = Treasure({
@@ -456,7 +456,7 @@ map.nodes[58233999] = Treasure({
         Item({item=182652})
     },
     pois={
-        POI({55694287, scale=0.75}) -- Entrance
+        POI({55694287}) -- Entrance
     }
 }) -- Larion Tamer's Harness
 
@@ -595,7 +595,7 @@ map.nodes[58108008] = AnimaShard({quest=61245, note=L["anima_shard_61245"]})
 map.nodes[56877498] = AnimaShard({quest=61247, note=L["anima_shard_61247"]})
 map.nodes[65527192] = AnimaShard({quest=61249, note=L["anima_shard_61249"],
     pois={
-        POI({63467240, scale=0.75}) -- Transport platform
+        POI({63467240}) -- Transport platform
     }
 })
 map.nodes[58156391] = AnimaShard({quest=61250, note=L["anima_shard_61250"]})
@@ -614,7 +614,7 @@ map.nodes[72384029] = AnimaShard({quest=61273, note=L["anima_shard_61273"]})
 map.nodes[66892692] = AnimaShard({quest=61274, note=L["anima_shard_61274"]})
 map.nodes[57553827] = AnimaShard({quest=61275, note=L["anima_shard_61275"],
     pois={
-        POI({55694287, scale=0.75}) -- Entrance
+        POI({55694287}) -- Entrance
     }
 })
 map.nodes[52163939] = AnimaShard({quest=61277, note=L["anima_shard_61277"]})
@@ -625,7 +625,7 @@ map.nodes[56201731] = AnimaShard({quest=61281, note=L["anima_shard_61281"]})
 map.nodes[59881391] = AnimaShard({quest=61282, note=L["anima_shard_61282"]})
 map.nodes[52440942] = AnimaShard({quest=61283, note=L["anima_shard_61283"],
     pois={
-        POI({53650953, scale=0.75}) -- Entrance
+        POI({53650953}) -- Entrance
     }
 })
 map.nodes[46691804] = AnimaShard({quest=61284, note=L["anima_shard_61284"]})

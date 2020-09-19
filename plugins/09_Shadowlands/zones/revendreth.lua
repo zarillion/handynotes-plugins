@@ -40,7 +40,7 @@ map.nodes[53247300] = Rare({
         Transmog({item=183729, slot=L["leather"]}) -- Filth-Splattered Headcover
     },
     pois={
-        POI({52747386, 53857251, 54537436, 53897368, scale=0.75 }) -- Rubbish Box
+        POI({52747386, 53857251, 54537436, 53897368}) -- Rubbish Box
     }
 }) -- Amalgamation of Filth
 

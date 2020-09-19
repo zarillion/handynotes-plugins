@@ -340,7 +340,7 @@ map.nodes[62505990] = Treasure({
         Achievement({id=14312, criteria=50071}),
     },
     pois={
-        POI({61925851, scale=0.75}) -- Way up
+        POI({61925851}) -- Way up
     }
 }) -- Misplaced Supplies
 
@@ -352,7 +352,7 @@ map.nodes[42382333] = Treasure({
         Toy({item=182732}) -- The Necronom-i-nom
     },
     pois={
-        POI({40693305, scale=0.75}) -- NPC location
+        POI({40693305}) -- NPC location
     }
 }) -- Necro Tome
 
@@ -372,7 +372,7 @@ map.nodes[57667581] = Treasure({
         Pet({item=183515, id=3045}) -- Reanimated Plague
     },
     pois={
-        POI({62487656, scale=0.75})
+        POI({62487656})
     }
 }) -- Plaguefallen Chest
 
@@ -384,7 +384,7 @@ map.nodes[64672475] = Treasure({
         Item({item=183517}) -- Page 76 of the Necronom-i-nom
     },
     pois={
-        POI({69873103, 69073250, 71733540, scale=0.75}) -- Step1: bone pile spawn 1, spawn 2, Step 2: Book of Binding Ritials
+        POI({69873103, 69073250, 71733540}) -- Step1: bone pile spawn 1, spawn 2, Step 2: Book of Binding Ritials
     }
 }) -- Ritualist's Cache
 
@@ -397,7 +397,7 @@ map.nodes[31737004] = Treasure({
         Item({item=183516}) -- Stained Bonefused Mantle
     },
     pois={
-        POI({37867013, scale=0.75})
+        POI({37867013})
     }
 }) -- Runespeaker's Trove
 
@@ -446,7 +446,7 @@ map.nodes[51444848] = Treasure({
         Transmog({item=180273, slot=L["2h_sword"]}), --Sorrowbane
     },
     pois={
-        POI({50945317, 37114699, 53634792, 76445672, scale=0.75})
+        POI({50945317, 37114699, 53634792, 76445672})
     }
 }) -- Oonar's Arm and Sorrowbane /Oornas Arm und Kummerfluch
 
