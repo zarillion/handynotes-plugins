@@ -53,8 +53,8 @@ map.nodes[32592336] = Rare({
 
 map.nodes[51344080] = Rare({
     id=160629,
-    quest=nil,
-    note=L["activation_unknown"],
+    quest={58648,62192},
+    note=L["baedos_note"],
     rewards={
         Achievement({id=14307, criteria=48828})
     }

@@ -80,6 +80,7 @@ If you take a wrong path and {npc:171699} disappears when you reach the end, go 
 -------------------------------------------------------------------------------
 
 L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to activate him."
+L["baedos_note"] = "Carry casks of Fermenting Purian Fruit from the surrounding area to {npc:161536} until he activates."
 L["basilofos_note"] = "Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn."
 L["beasts_of_bastion"] = "Beasts of Bastion"
 L["beasts_of_bastion_note"] = [[

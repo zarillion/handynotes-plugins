@@ -1,6 +1,12 @@
 {
     "files.eol": "\n",
+    "files.exclude": {
+        "release/": true
+    },
     "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+        "release/**": true
+    },
     "[xml]": {
         "editor.tabSize": 2
     },
