@@ -82,9 +82,7 @@ function Achievement:render (tooltip)
             r, g, b = 0, 1, 0
         end
 
-        local note = c.note
-        local status = nil
-
+        local note, status = c.note
         if c.quest then
             if C_QuestLog.IsQuestFlaggedCompleted(c.quest) then
                 status = ns.status.Green(L['defeated'])
@@ -229,7 +227,7 @@ end
 function Quest:render (tooltip)
     local name = C_QuestLog.GetTitleForQuestID(self.id[1])
 
-    local status = ''
+    local status
     if #self.id == 1 then
         local completed = C_QuestLog.IsQuestFlaggedCompleted(self.id[1])
         status = completed and Green(L['completed']) or Red(L['incomplete'])

@@ -4,7 +4,6 @@
 
 local ADDON_NAME, ns = ...
 local Class = ns.Class
-local L = ns.locale
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -272,7 +271,7 @@ function WorldMapPinMixin:OnLoad()
 end
 
 function WorldMapPinMixin:OnAcquired(poi, ...)
-    local l, b, w, h = self:GetParent():GetRect()
+    local _, _, w, h = self:GetParent():GetRect()
     self.parentWidth = w
     self.parentHeight = h
     if (w and h) then

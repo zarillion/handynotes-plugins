@@ -645,7 +645,7 @@ local Blanchy = Class('Blanchy', NPC, {
 
 function Blanchy.getters:note ()
     local note = L["sinrunner_note"]
-    local status = nil
+    local status
     for i, quest in ipairs(self.quest) do
         if C_QuestLog.IsQuestFlaggedCompleted(quest) then
             status = ns.status.Green(i)

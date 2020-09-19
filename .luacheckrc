@@ -1,6 +1,7 @@
+ignore = {'ADDON_NAME'}
 max_line_length = false
 redefined = false
-unused = false
+unused_args = false
 
 read_globals = {
     -- WoW helper functions

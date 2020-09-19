@@ -8,7 +8,6 @@ local Class = ns.Class
 local Map = ns.Map
 local clone = ns.clone
 
-local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Supply = ns.node.Supply

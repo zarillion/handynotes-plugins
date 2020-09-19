@@ -5,7 +5,6 @@
 local _, ns = ...
 
 local Class = ns.Class
-local L = ns.locale
 local Quest = ns.node.Quest
 
 -------------------------------------------------------------------------------
