@@ -298,7 +298,7 @@ map.nodes[49441509] = Treasure({
 }) -- Chest of Eyes
 
 map.nodes[41511953] = Treasure({
-    quest=62602,
+    quest=62602, -- Currently account-wide? Spinebug is lootable on alts but treasure is gone
     label=L["giant_cache_of_epic_treasure"],
     note=L["spinebug_note"],
     rewards={
