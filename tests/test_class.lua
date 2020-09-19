@@ -68,7 +68,7 @@ function TestClass:testInstantiation ()
     local node = Node()
 
     luaunit.assertIsTable(node)
-    luaunit.assertStrMatches(tostring(node), '<Node object at [0-9a-f]+>')
+    luaunit.assertStrMatches(tostring(node), '<Node object at [0-9a-fx]+>')
     luaunit.assertIs(node.__class, Node)
 end
 
@@ -226,8 +226,8 @@ function TestInheritance:testAttributeInheritance ()
     local node = Node()
     local rare = Rare({ icon='skull' })
 
-    luaunit.assertStrMatches(tostring(node), '<Node object at [0-9a-f]+>')
-    luaunit.assertStrMatches(tostring(rare), '<Rare object at [0-9a-f]+>')
+    luaunit.assertStrMatches(tostring(node), '<Node object at [0-9a-fx]+>')
+    luaunit.assertStrMatches(tostring(rare), '<Rare object at [0-9a-fx]+>')
 
     luaunit.assertEquals(rare.icon, 'skull')
     luaunit.assertEquals(rare.alpha, 1)
