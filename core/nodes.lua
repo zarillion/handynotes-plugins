@@ -349,25 +349,13 @@ end)
 ------------------------------------ RARE -------------------------------------
 -------------------------------------------------------------------------------
 
-local Rare = Class('Rare', NPC)
-
-Rare.group = "rares"
+local Rare = Class('Rare', NPC, {
+    group='rares',
+    scale=1.2
+})
 
 function Rare.getters:icon ()
-    if self._focus then
-        return self:collected() and 'skull_white_green_glow' or 'skull_blue_green_glow'
-    end
-    if ns.addon.db.profile.development and not self.quest then
-        return self:collected() and 'skull_white_red_glow' or 'skull_blue_red_glow'
-    end
     return self:collected() and 'skull_white' or 'skull_blue'
-end
-
-function Rare.getters:scale ()
-    if self._focus or (ns.addon.db.profile.development and not self.quest) then
-        return 2.0
-    end
-    return 1.2
 end
 
 function Rare:enabled ()
@@ -381,13 +369,10 @@ end
 -------------------------------------------------------------------------------
 
 local Treasure = Class('Treasure', Node, {
+    icon = 'chest_gray',
     scale = 1.3,
     group = 'treasures'
 })
-
-function Treasure.getters:icon ()
-    return self._focus and 'chest_gray_green_glow' or 'chest_gray'
-end
 
 function Treasure.getters:label ()
     if not self.rewards then return UNKNOWN end

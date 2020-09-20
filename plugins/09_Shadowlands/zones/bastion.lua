@@ -571,6 +571,7 @@ map.nodes[54555609] = PetBattle({
 local AnimaShard = Class('AnimaShard', Node, {
     group='anima_shard',
     label=L["anima_shard"],
+    icon='anima_crystal',
     scale=1.5,
     rewards={
         Achievement({id=14339, criteria={
@@ -578,10 +579,6 @@ local AnimaShard = Class('AnimaShard', Node, {
         }})
     }
 })
-
-function AnimaShard.getters:icon ()
-    return self._focus and 'anima_crystal_green_glow' or 'anima_crystal'
-end
 
 map.nodes[39057704] = AnimaShard({quest=61225, note=L["anima_shard_61225"]})
 map.nodes[43637622] = AnimaShard({quest=61235, note=L["anima_shard_61235"]})

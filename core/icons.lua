@@ -50,9 +50,7 @@ ns.icons = {
 
     envelope = { icon=ICONS, coords=coords(0, 8) },
     horseshoe = { icon=ICONS, coords=coords(0, 9) },
-    horseshoe_green_glow = { icon=ICONS, coords=coords(0, 5, 48, 160) },
     anima_crystal = { icon=ICONS, coords=coords(1, 9) },
-    anima_crystal_green_glow = { icon=ICONS, coords=coords(3, 9) },
     left_mouse = { icon=ICONS, coords=coords(2, 9) },
     orange_crystal = { icon=ICONS, coords=coords(2, 6) },
 
@@ -65,7 +63,6 @@ ns.icons = {
     portal_red = { icon=ICONS, coords=coords(2, 5) },
 
     chest_gray = { icon=ICONS, coords=coords(3, 0) },
-    chest_gray_green_glow = { icon=ICONS, coords=coords(4, 9) },
     chest_yellow = { icon=ICONS, coords=coords(3, 1) },
     chest_orange = { icon=ICONS, coords=coords(3, 2) },
     chest_red = { icon=ICONS, coords=coords(3, 3) },
@@ -84,18 +81,13 @@ ns.icons = {
     skull_white = { icon=ICONS, coords=coords(4, 6) },
     skull_blue = { icon=ICONS, coords=coords(4, 7) },
 
-    skull_white_red_glow = { icon=ICONS, coords=coords(0, 0, 48, 160) },
-    skull_blue_red_glow = { icon=ICONS, coords=coords(0, 1, 48, 160) },
-    skull_white_green_glow = { icon=ICONS, coords=coords(1, 0, 48, 160) },
-    skull_blue_green_glow = { icon=ICONS, coords=coords(1, 1, 48, 160) },
+    star_chest = { icon=ICONS, coords=coords(0, 0, 48, 160) },
+    star_skull = { icon=ICONS, coords=coords(0, 1, 48, 160) },
+    star_swords = { icon=ICONS, coords=coords(0, 2, 48, 160) },
 
-    star_chest = { icon=ICONS, coords=coords(0, 2, 48, 160) },
-    star_skull = { icon=ICONS, coords=coords(0, 3, 48, 160) },
-    star_swords = { icon=ICONS, coords=coords(0, 4, 48, 160) },
-
-    shootbox_blue = { icon=ICONS, coords=coords(1, 2, 48, 160) },
-    shootbox_yellow = { icon=ICONS, coords=coords(1, 3, 48, 160) },
-    shootbox_pink = { icon=ICONS, coords=coords(1, 4, 48, 160) },
+    shootbox_blue = { icon=ICONS, coords=coords(0, 3, 48, 160) },
+    shootbox_yellow = { icon=ICONS, coords=coords(0, 4, 48, 160) },
+    shootbox_pink = { icon=ICONS, coords=coords(0, 5, 48, 160) },
 
     kyrian_sigil = { icon=ICONS, coords=coords(1, 8)},
     necrolord_sigil = { icon=ICONS, coords=coords(2, 8)},

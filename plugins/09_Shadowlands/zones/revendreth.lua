@@ -507,15 +507,11 @@ map.nodes[67626608] = PetBattle({
 ---------------------------- THE AFTERLIFE EXPRESS ----------------------------
 -------------------------------------------------------------------------------
 
-local Carriage = Class('Carriage', NPC, { group = 'carriages' })
-
-function Carriage.getters:icon ()
-    return self._focus and 'horseshoe_green_glow' or 'horseshoe'
-end
-
-function Carriage.getters:scale ()
-    return self._focus and 2.0 or 1.2
-end
+local Carriage = Class('Carriage', NPC, {
+    group='carriages',
+    icon='horseshoe',
+    scale=1.2
+})
 
 map.nodes[50217067] = Carriage({
     id=158365,
