@@ -624,13 +624,13 @@ local BloodMirror = Class('BloodMirror', ns.node.Node, {
 
 local R = L["transport_research"]
 
--- map.nodes[] = BloodMirror({ label=L["pridefall_hamlet"], sublabel=R:format(1) })
--- map.nodes[] = BloodMirror({ label=L["eternal_terrace"], sublabel=R:format(1) })
+map.nodes[56803250] = BloodMirror({ label=L["eternal_terrace"], sublabel=R:format(1) })
+map.nodes[70707540] = BloodMirror({ label=L["pridefall_hamlet"], sublabel=R:format(1) })
 
--- map.nodes[] = BloodMirror({ label=L["halls_of_atonement"], sublabel=R:format(2) })
--- map.nodes[] = BloodMirror({ label=L["the_banewood"], sublabel=R:format(2) })
--- map.nodes[] = BloodMirror({ label=L["dominance_keep"], sublabel=R:format(2) })
--- map.nodes[] = BloodMirror({ label=L["feeders_thicket"], sublabel=R:format(2) })
+map.nodes[25502690] = BloodMirror({ label=L["dominance_keep"], sublabel=R:format(2) })
+map.nodes[43505720] = BloodMirror({ label=L["the_banewood"], sublabel=R:format(2) })
+map.nodes[58306280] = BloodMirror({ label=L["feeders_thicket"], sublabel=R:format(2) })
+map.nodes[73604390] = BloodMirror({ label=L["halls_of_atonement"], sublabel=R:format(2) })
 
 -------------------------------------------------------------------------------
 -------------------------------- LOYAL GORGER ---------------------------------
