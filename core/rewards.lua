@@ -1,3 +1,7 @@
+-------------------------------------------------------------------------------
+---------------------------------- NAMESPACE ----------------------------------
+-------------------------------------------------------------------------------
+
 local ADDON_NAME, ns = ...
 
 local Class = ns.Class
@@ -78,14 +82,12 @@ function Achievement:render (tooltip)
             r, g, b = 0, 1, 0
         end
 
-        local note = c.note
-        local status = nil
-
+        local note, status = c.note
         if c.quest then
             if C_QuestLog.IsQuestFlaggedCompleted(c.quest) then
-                status = ns.status.Green(L['D'])
+                status = ns.status.Green(L['defeated'])
             else
-                status = ns.status.Red(L['A'])
+                status = ns.status.Red(L['undefeated'])
             end
             note = note and (note..'  '..status) or status
         end
@@ -146,7 +148,7 @@ end
 ------------------------------------ MOUNT ------------------------------------
 -------------------------------------------------------------------------------
 
--- /run for i,m in ipairs(C_MountJournal.GetMountIDs()) do if (C_MountJournal.GetMountInfoByID(m) == "NAME") then print(m); end end
+-- /run for i,m in ipairs(C_MountJournal.GetMountIDs()) do if (C_MountJournal.GetMountInfoByID(m) == "NAME") then print(m) end end
 
 local Mount = Class('Mount', Item)
 
@@ -157,7 +159,13 @@ end
 function Mount:render (tooltip)
     local collected = select(11, C_MountJournal.GetMountInfoByID(self.id))
     local status = collected and Green(L["known"]) or Red(L["missing"])
-    tooltip:AddDoubleLine(self.itemLink..' ('..L["mount"]..')', status)
+    local text = self.itemLink..' ('..L["mount"]..')'
+
+    if self.note then
+        text = text..' ('..self.note..')'
+    end
+
+    tooltip:AddDoubleLine(text, status)
     tooltip:AddTexture(self.itemIcon, {margin={right=2}})
 end
 
@@ -168,6 +176,16 @@ end
 -- /run print(C_PetJournal.FindPetIDByName("NAME"))
 
 local Pet = Class('Pet', Item)
+
+function Pet:init ()
+    if self.item then
+        Item.init(self)
+    else
+        local name, icon = C_PetJournal.GetPetInfoBySpeciesID(self.id)
+        self.itemIcon = icon
+        self.itemLink = '|cff1eff00['..name..']|r'
+    end
+end
 
 function Pet:obtained ()
     return C_PetJournal.GetNumCollectedInfo(self.id) > 0
@@ -209,7 +227,7 @@ end
 function Quest:render (tooltip)
     local name = C_QuestLog.GetTitleForQuestID(self.id[1])
 
-    local status = ''
+    local status
     if #self.id == 1 then
         local completed = C_QuestLog.IsQuestFlaggedCompleted(self.id[1])
         status = completed and Green(L['completed']) or Red(L['incomplete'])
@@ -222,13 +240,8 @@ function Quest:render (tooltip)
         status = (count == #self.id) and Green(status) or Red(status)
     end
 
-    local icon = ns.icons.quest_chalice
-    tooltip:AddDoubleLine((name or UNKNOWN), status)
-    tooltip:AddTexture(icon, {
-        width = 12,
-        height = 12,
-        margin = { right=5 }
-    })
+    local line = ns.icons.quest_yellow:link(13)..' '..(name or UNKNOWN)
+    tooltip:AddDoubleLine(line, status)
 end
 
 -------------------------------------------------------------------------------

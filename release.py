@@ -58,7 +58,7 @@ def main():
     copy('libs', path.join(target_dir, 'libs'))
     copy('embeds.xml', path.join(target_dir, 'embeds.xml'))
 
-    with open('pins.xml') as f1, open(path.join(target_dir, 'pins.xml'), 'w') as f2:
+    with open('templates.xml') as f1, open(path.join(target_dir, 'templates.xml'), 'w') as f2:
         f2.write(f1.read().format(addon=plugin_name))
 
     for item in os.listdir(plugin_dir):

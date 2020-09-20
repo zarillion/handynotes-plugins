@@ -8,7 +8,6 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes 恩若司的幻象"
 L["options_title"] = "恩若司的幻象"
-L["options_icons_assaultevents"] = "突擊事件圖示"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -50,12 +49,12 @@ L["amathet_reliquary"] = "阿瑪賽特聖匣"
 L["cursed_relic"] = "需要詛咒聖物"
 L["tolvir_relic"] = "需要托維爾聖物"
 
-L["options_toggle_alpaca_uldum"] = "躍毛羊駝"
-L["options_toggle_alpaca_uldum_desc"] = "顯示吉薩爾草叢以及友善的羊駝出生位置。"
-L["options_toggle_assault_events"] = "突擊事件"
-L["options_toggle_assault_events_desc"] = "顯示突擊事件可能的位置。"
-L["options_toggle_coffers"] = "上鎖的大寶箱"
-L["options_toggle_coffers_desc"] = "顯示上鎖的大寶箱的位置 (每次突擊只能拾取一次)。"
+L["options_icons_alpaca_uldum"] = "躍毛羊駝"
+L["options_icons_alpaca_uldum_desc"] = "顯示吉薩爾草叢以及友善的羊駝出生位置。"
+L["options_icons_assault_events"] = "突擊事件"
+L["options_icons_assault_events_desc"] = "顯示突擊事件可能的位置。"
+L["options_icons_coffers"] = "上鎖的大寶箱"
+L["options_icons_coffers_desc"] = "顯示上鎖的大寶箱的位置 (每次突擊只能拾取一次)。"
 
 L["ambush_settlers"] = "打敗一波波的怪物，直到事件結束。"
 L["burrowing_terrors"] = "跳起來將穴居甲蟲它們壓扁。"
@@ -216,14 +215,16 @@ L["c_underneath_bridge"] = "在橋下。"
 L["c_walkway_corner"] = "在角落的上層人行道上。"
 L["c_walkway_platform"] = "在上走道上方的平台上。"
 
-L["options_toggle_visions_buffs"] = "增益"
-L["options_toggle_visions_buffs_desc"] = "顯示可以造成1小時傷害增強的事件的位置。"
-L["options_toggle_visions_chest_desc"] = "在驚懼幻象中顯示可能的寶箱位置。"
-L["options_toggle_visions_crystals"] = "奇怪的水晶"
-L["options_toggle_visions_crystals_desc"] = "在驚懼幻象中顯示奇怪的水晶位置。"
-L["options_toggle_visions_mail"] = "郵箱"
-L["options_toggle_visions_mail_desc"] = "顯示郵件咀嚼者坐騎的郵箱位置。"
-L["options_toggle_visions_misc_desc"] = "在驚懼幻象中顯示稀有、玩具、藥水和增強的位置。"
+L["options_icons_visions_buffs"] = "增益"
+L["options_icons_visions_buffs_desc"] = "顯示可以造成1小時傷害增強的事件的位置。"
+L["options_icons_visions_chest"] = "寶箱"
+L["options_icons_visions_chest_desc"] = "在驚懼幻象中顯示可能的寶箱位置。"
+L["options_icons_visions_crystals"] = "奇怪的水晶"
+L["options_icons_visions_crystals_desc"] = "在驚懼幻象中顯示奇怪的水晶位置。"
+L["options_icons_visions_mail"] = "郵箱"
+L["options_icons_visions_mail_desc"] = "顯示郵件咀嚼者坐騎的郵箱位置。"
+L["options_icons_visions_misc"] = "其他"
+L["options_icons_visions_misc_desc"] = "在驚懼幻象中顯示稀有、玩具、藥水和增強的位置。"
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -231,5 +232,5 @@ L["options_toggle_visions_misc_desc"] = "在驚懼幻象中顯示稀有、玩具
 
 L["voldun"] = "沃魯敦"
 L["elusive_alpaca"] = "餵羊駝濱海綜合綠色蔬菜以學習坐騎。 在一個位置出現10分鐘，然後很久才重生。"
-L["options_toggle_alpaca_voldun_desc"] = "顯示玄渺快蹄出現的位置。"
-L["options_toggle_alpaca_voldun"] = "玄渺快蹄"
+L["options_icons_alpaca_voldun_desc"] = "顯示玄渺快蹄出現的位置。"
+L["options_icons_alpaca_voldun"] = "玄渺快蹄"

@@ -6,9 +6,8 @@ if not L then return end
 ----------------------------------- GENERAL -----------------------------------
 -------------------------------------------------------------------------------
 
-L["context_menu_title"] = "HandyNotes Visions of N'Zoth"
+L["context_menu_title"] = "HandyNotes: Visions of N'Zoth"
 L["options_title"] = "Visions of N'Zoth"
-L["options_icons_assaultevents"] = "Angriffevents Symbole"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -50,12 +49,12 @@ L["amathet_reliquary"] = "Reliquiar der Amathet"
 L["cursed_relic"] = ns.color.Red("Benötigt {item:174768}")
 L["tolvir_relic"] = ns.color.Red("Benötigt {item:174765}")
 
-L["options_toggle_alpaca_uldum"] = "Freundliches Alpaka"
-L["options_toggle_alpaca_uldum_desc"] = "Zeigt Positionen für Gersahlstrauch und Freundliches Alpaka."
-L["options_toggle_assault_events"] = "Angriffevents"
-L["options_toggle_assault_events_desc"] = "Zeigt mögliche Positionen für Angriffevents."
-L["options_toggle_coffers"] = "Verschlossene Kisten"
-L["options_toggle_coffers_desc"] = "Zeigt die Positionen von Verschlossene Kisten (einmal pro Angriff plünderbar)."
+L["options_icons_alpaca_uldum"] = "Freundliches Alpaka"
+L["options_icons_alpaca_uldum_desc"] = "Zeigt Positionen für Gersahlstrauch und Freundliches Alpaka."
+L["options_icons_assault_events"] = "Angriffevents"
+L["options_icons_assault_events_desc"] = "Zeigt mögliche Positionen für Angriffevents."
+L["options_icons_coffers"] = "Verschlossene Kisten"
+L["options_icons_coffers_desc"] = "Zeigt die Positionen von Verschlossene Kisten (einmal pro Angriff plünderbar)."
 
 L["ambush_settlers"] = "Besiege Wellen von Gegner bis das Event endet."
 L["burrowing_terrors"] = "Springe auf Grabende Skarabäen, um sie zu zerquetschen."
@@ -216,14 +215,16 @@ L["c_underneath_bridge"] = "Unter der Brücke."
 L["c_walkway_corner"] = "Auf dem oberen Gehweg in einer Ecke."
 L["c_walkway_platform"] = "Auf einer Plattform über dem oberen Gehweg."
 
-L["options_toggle_visions_buffs"] = "Stärkungszauber"
-L["options_toggle_visions_buffs_desc"] = "Zeigt die Positionen von Events die einen 1 Stunde Stärkungszauber gewähren."
-L["options_toggle_visions_chest_desc"] = "Zeigt mögliche Truhen Positionen in Verstörenden Visionen an."
-L["options_toggle_visions_crystals"] = "Seltsame Kristalle"
-L["options_toggle_visions_crystals_desc"] = "Zeigt mögliche Positionen für die Seltsamen Kristalle in Verstörenden Visionen an."
-L["options_toggle_visions_mail"] = "Briefkästen"
-L["options_toggle_visions_mail_desc"] = "Zeigt die Positionen von Briefkästen für das Postmampfer Reittier."
-L["options_toggle_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, Spielzeugen, Fläschchen und Astralen in Verstörenden Visionen."
+L["options_icons_visions_buffs"] = "Stärkungszauber"
+L["options_icons_visions_buffs_desc"] = "Zeigt die Positionen von Events die einen 1 Stunde Stärkungszauber gewähren."
+L["options_icons_visions_chest"] = "Truhen"
+L["options_icons_visions_chest_desc"] = "Zeigt mögliche Truhen Positionen in Verstörenden Visionen an."
+L["options_icons_visions_crystals"] = "Seltsame Kristalle"
+L["options_icons_visions_crystals_desc"] = "Zeigt mögliche Positionen für die Seltsamen Kristalle in Verstörenden Visionen an."
+L["options_icons_visions_mail"] = "Briefkästen"
+L["options_icons_visions_mail_desc"] = "Zeigt die Positionen von Briefkästen für das Postmampfer Reittier."
+L["options_icons_visions_misc"] = "Sonstiges"
+L["options_icons_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, Spielzeugen, Fläschchen und Astralen in Verstörenden Visionen."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -231,5 +232,5 @@ L["options_toggle_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner,
 
 L["voldun"] = "Vol'dun"
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
-L["options_toggle_alpaca_voldun_desc"] = "Zeigt die Positionen für Schlüpfriger Flinkhuf an."
-L["options_toggle_alpaca_voldun"] = "Schlüpfriger Flinkhuf"
+L["options_icons_alpaca_voldun_desc"] = "Zeigt die Positionen für Schlüpfriger Flinkhuf an."
+L["options_icons_alpaca_voldun"] = "Schlüpfriger Flinkhuf"

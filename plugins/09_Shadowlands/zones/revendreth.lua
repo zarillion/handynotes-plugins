@@ -6,9 +6,9 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
-local isinstance = ns.isinstance
 
 local NPC = ns.node.NPC
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -20,71 +20,31 @@ local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
 local Path = ns.poi.Path
-
-local options = ns.options.args.VisibilityGroup.args
-local defaults = ns.optionDefaults.profile
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
--------------------------------------------------------------------------------
 
+local VENTHYR = ns.covenants.VEN
 local map = Map({ id=1525 })
-local nodes = map.nodes
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-defaults['rare_revendreth'] = true
-defaults['treasure_revendreth'] = true
-defaults['carriage_revendreth'] = true
-
-options.groupRevendreth = {
-    type = "header",
-    name = C_Map.GetMapInfo(map.id).name,
-    order = 30,
-}
-
-options.rareRevendreth = {
-    type = "toggle",
-    arg = "rare_revendreth",
-    name = L["options_toggle_rares"],
-    desc = L["options_toggle_rares_desc"],
-    order = 31,
-    width = "normal",
-}
-
-options.treasureRevendreth = {
-    type = "toggle",
-    arg = "treasure_revendreth",
-    name = L["options_toggle_treasures"],
-    desc = L["options_toggle_treasures_desc"],
-    order = 32,
-    width = "normal",
-}
-
-options.carriageRevendreth = {
-    type = "toggle",
-    arg = "carriage_revendreth",
-    name = L["options_toggle_carriages"],
-    desc = L["options_toggle_carriages_desc"],
-    order = 33,
-    width = "normal",
-}
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- nodes[] = Rare({
---     id=166393,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=48814})
---     }
--- }) -- Amalgamation of Filth
+map.nodes[53247300] = Rare({
+    id=166393,
+    quest=59854,
+    note=L["amalgamation_of_filth_note"],
+    rewards={
+        Achievement({id=14310, criteria=48814}),
+        Transmog({item=183729, slot=L["leather"]}) -- Filth-Splattered Headcover
+    },
+    pois={
+        POI({52747386, 53857251, 54537436, 53897368}) -- Rubbish Box
+    }
+}) -- Amalgamation of Filth
 
-nodes[25304850] = Rare({
+map.nodes[25304850] = Rare({
     id=164388,
     quest=59584,
     note=L["amalgamation_of_light_note"],
@@ -93,15 +53,16 @@ nodes[25304850] = Rare({
     }
 }) -- Amalgamation of Light
 
--- nodes[] = Rare({
---     id=170434,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=50029})
---     }
--- }) -- Amalgamation of Sin
+map.nodes[65902940] = Rare({
+    id=170434,
+    quest=nil,
+    note=L["amalgamation_of_sin_note"],
+    rewards={
+        Achievement({id=14310, criteria=50029})
+    }
+}) -- Amalgamation of Sin
 
-nodes[35817052] = Rare({
+map.nodes[35817052] = Rare({
     id=166576,
     quest=59893,
     rewards={
@@ -110,7 +71,7 @@ nodes[35817052] = Rare({
     }
 }) -- Azgar
 
-nodes[35003230] = Rare({
+map.nodes[35003230] = Rare({
     id=166292,
     quest=nil,
     note=L["bog_beast_note"],
@@ -120,7 +81,7 @@ nodes[35003230] = Rare({
     }
 }) -- Bog Beast
 
-nodes[66555946] = Rare({
+map.nodes[66555946] = Rare({
     id=165206,
     quest=59582,
     note=L["endlurker_note"],
@@ -130,7 +91,7 @@ nodes[66555946] = Rare({
     }
 }) -- Endlurker
 
-nodes[37084742] = Rare({
+map.nodes[37084742] = Rare({
     id=166710,
     quest=59913,
     note=L["executioner_aatron_note"],
@@ -141,7 +102,7 @@ nodes[37084742] = Rare({
     }
 }) -- Executioner Aatron
 
-nodes[43055183] = Rare({
+map.nodes[43055183] = Rare({
     id=161310,
     quest=58441,
     rewards={
@@ -153,7 +114,7 @@ nodes[43055183] = Rare({
     }
 }) -- Executioner Adrastia
 
-nodes[62484716] = Rare({
+map.nodes[62484716] = Rare({
     id=166521,
     quest=59869,
     note=L["famu_note"],
@@ -163,15 +124,21 @@ nodes[62484716] = Rare({
     }
 }) -- Famu the Infinite
 
--- nodes[] = Rare({
---     id=159496,
---     quest=nil,
---     rewards={
---         Achievement({id=14310, criteria=48804})
---     }
--- }) -- Forgemaster Madalav
+map.nodes[32641545] = Rare({
+    id=159496,
+    quest=61618,
+    covenant=VENTHYR,
+    requires=L["achan_dominance_keep"],
+    note=L["madalav_note"],
+    rewards={
+        Achievement({id=14310, criteria=48804})
+    },
+    pois={
+        POI({32661483}) -- Madalav's Hammer
+    }
+}) -- Forgemaster Madalav
 
-nodes[20485298] = Rare({
+map.nodes[20485298] = Rare({
     id=167464,
     quest=60173,
     note=L["grand_arcanist_dimitri_note"],
@@ -180,17 +147,24 @@ nodes[20485298] = Rare({
     }
 }) -- Grand Arcanist Dimitri
 
-nodes[45847919] = Rare({
+map.nodes[45847919] = Rare({
     id=165290,
-    quest=nil,
-    note=L["activation_unknown"],
+    quest=59612,
+    covenant=VENTHYR,
+    requires=L["achan_wanecrypt_hill"],
+    note=L["harika_note"],
     rewards={
         Achievement({id=14310, criteria=48813}),
+        Transmog({item=183720, slot=L["leather"]}), -- Dredbatskin Jerkin
         Mount({item=180461, id=1310}) -- Horrid Brood Dredwing
+    },
+    pois={
+        POI({43257769}), -- Ballista Bolt
+        POI({41187469, 40917690}) -- Dredhollow Tools
     }
 }) -- Harika the Horrid
 
-nodes[51985179] = Rare({
+map.nodes[51985179] = Rare({
     id=166679,
     quest=59900,
     rewards={
@@ -199,7 +173,7 @@ nodes[51985179] = Rare({
     }
 }) -- Hopecrusher
 
-nodes[61717949] = Rare({
+map.nodes[61717949] = Rare({
     id=166993,
     quest=60022,
     rewards={
@@ -209,7 +183,7 @@ nodes[61717949] = Rare({
     }
 }) -- Huntmaster Petrus
 
-nodes[21803590] = Rare({
+map.nodes[21803590] = Rare({
     id=160640,
     quest=58210,
     requires="{item:177223}",
@@ -220,7 +194,7 @@ nodes[21803590] = Rare({
     }
 }) -- Innervus
 
-nodes[67978179] = Rare({
+map.nodes[67978179] = Rare({
     id=165152,
     quest=59580,
     note=L["leeched_soul_note"],
@@ -231,7 +205,7 @@ nodes[67978179] = Rare({
     }
 }) -- Leeched Soul
 
-nodes[75976161] = Rare({
+map.nodes[75976161] = Rare({
     id=161891,
     quest=58633,
     note=L["lord_mortegore_note"],
@@ -241,7 +215,7 @@ nodes[75976161] = Rare({
     }
 }) -- Lord Mortegore
 
-nodes[49003490] = Rare({
+map.nodes[49003490] = Rare({
     id=170048,
     quest=nil,
     note=L["manifestation_of_wrath_note"],
@@ -251,7 +225,7 @@ nodes[49003490] = Rare({
     }
 }) -- Manifestation of Wrath (World Quest required)
 
-nodes[38316914] = Rare({
+map.nodes[38316914] = Rare({
     id=160675,
     quest=58213,
     note=L["scrivener_lenua_note"],
@@ -261,7 +235,7 @@ nodes[38316914] = Rare({
     }
 }) -- Scrivener Lenua
 
-nodes[67443048] = Rare({
+map.nodes[67443048] = Rare({
     id=162481,
     quest=62252,
     note=L["sinstone_hoarder_note"],
@@ -272,15 +246,17 @@ nodes[67443048] = Rare({
     }
 }) -- Sinstone Hoarder
 
-nodes[33605540] = Rare({
+map.nodes[34045555] = Rare({
     id=160857,
-    quest=nil,
+    quest=58263,
+    note=L["sire_ladinas_note"],
     rewards={
-        Achievement({id=14310, criteria=48806})
+        Achievement({id=14310, criteria=48806}),
+        Toy({item=180873}) -- Smolderheart
     }
 }) -- Sire Ladinas
 
-nodes[78934975] = Rare({
+map.nodes[78934975] = Rare({
     id=160385,
     quest=58130,
     note=L["soulstalker_doina_note"],
@@ -290,7 +266,7 @@ nodes[78934975] = Rare({
     }
 }) -- Soulstalker Doina
 
-nodes[31312324] = Rare({
+map.nodes[31312324] = Rare({
     id=159503,
     quest=62220,
     rewards={
@@ -299,7 +275,7 @@ nodes[31312324] = Rare({
     }
 }) -- Stonefist
 
-nodes[66507080] = Rare({
+map.nodes[66507080] = Rare({
     id=165253,
     quest=59595,
     rewards={
@@ -308,37 +284,32 @@ nodes[66507080] = Rare({
     }
 }) -- Tollkeeper Varaboss
 
-nodes[43007910] = Rare({
+map.nodes[43007910] = Rare({
     id=155779,
     quest=56877,
     note=L["tomb_burster_note"],
     rewards={
         Achievement({id=14310, criteria=48802}),
-        Item({item=179613}) -- Extra Sticky Spidey Webs
+        Pet({item=180584, id=2891}) -- Rose Spiderling
     }
 }) -- Tomb Burster
 
-nodes[38607200] = Rare({
+map.nodes[38607200] = Rare({
     id=160821,
     quest=58259,
     requires="{item:173939}",
     note=L["worldedge_gorger_note"],
     rewards={
         Achievement({id=14310, criteria=48805}),
-        Item({item=180583}), -- Impressionable Gorger Spawn
-        Mount({item=182589, id=1391}) -- Loyal Gorger
+        Item({item=180583, quest=61188}) -- Impressionable Gorger Spawn
     }
 }) -- Worldedge Gorger
--- Prereq item: Impressionable Gorger Spawn 61188
--- Daily completion: 61843
--- Day 1: Nipping at the Undergrowth 61839
--- Day 2: Vineroot on the Menu 61840
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- nodes[] = Treasure({
+-- map.nodes[] = Treasure({
 --     quest=nil,
 --     rewards={
 --         Achievement({id=14314, criteria=})
@@ -349,7 +320,7 @@ nodes[38607200] = Rare({
 -- Reliquary of Remembrance (79763376) (item=180403)
 -- Unimplemented treasure? (50244910)
 
-nodes[37726925] = Treasure({
+map.nodes[37726925] = Treasure({
     quest=61990,
     note=L["lost_quill_note"],
     rewards={
@@ -358,7 +329,7 @@ nodes[37726925] = Treasure({
     }
 }) -- Lost Quill
 
-nodes[29693723] = Treasure({
+map.nodes[29693723] = Treasure({
     quest=62198,
     requires="{currency:1820} x30",
     rewards={
@@ -367,7 +338,7 @@ nodes[29693723] = Treasure({
     }
 }) -- Makeshift Muckpool
 
-nodes[79993697] = Treasure({
+map.nodes[79993697] = Treasure({
     quest=nil,
     note=L["activation_unknown"],
     rewards={
@@ -375,15 +346,15 @@ nodes[79993697] = Treasure({
     }
 }) -- Rapier of the Fearless
 
-nodes[47335536] = Treasure({
+map.nodes[47335536] = Treasure({
     quest=62243,
-    note=L["secret_chamber_note"],
+    note=L["forbidden_chamber_note"],
     rewards={
         Achievement({id=14314, criteria=50084})
     }
-}) -- Secret Chamber
+}) -- Forbidden Chamber
 
-nodes[38394424] = Treasure({
+map.nodes[38394424] = Treasure({
     quest=61999,
     rewards={
         Achievement({id=14314, criteria=50077}),
@@ -391,15 +362,16 @@ nodes[38394424] = Treasure({
     }
 }) -- Stylish Parasol
 
-nodes[63367398] = Treasure({
+map.nodes[63367398] = Treasure({
     quest=62199,
     note=L["taskmaster_trove_note"],
     rewards={
-        Achievement({id=14314, criteria=50082})
+        Achievement({id=14314, criteria=50082}),
+        Toy({item=183986}) -- Bondable Sinstone
     }
 }) -- Taskmaster's Trove
 
-nodes[57374337] = Treasure({
+map.nodes[57374337] = Treasure({
     quest=nil,
     requires="{currency:1820} x99",
     note=L["the_count_note"],
@@ -409,7 +381,7 @@ nodes[57374337] = Treasure({
     }
 }) -- The Count
 
-nodes[70176005] = Treasure({
+map.nodes[70176005] = Treasure({
     quest=62164,
     note=L["dredglaive_note"],
     rewards={
@@ -420,7 +392,7 @@ nodes[70176005] = Treasure({
 
 -------------------------------------------------------------------------------
 
-nodes[51855954] = Treasure({
+map.nodes[51855954] = Treasure({
     quest=59888,
     label=L["abandoned_curios"],
     rewards={
@@ -429,16 +401,17 @@ nodes[51855954] = Treasure({
 }) -- Abandoned Curios
 
 -- Not at this location for me -Zar
--- nodes[30342472] = Treasure({
+-- map.nodes[30342472] = Treasure({
 --     quest=60665,
 --     label=L["bleakwood_chest"],
 --     rewards={
+--         Pet({item=180592, id=2901}), -- Trapped Stonefiend
 --         Transmog({item=182720, slot=L["mail"]}), -- Mail Courier's Tunic
 --         Transmog({item=180398, slot=L["polearm"]}) -- Stonewrought Legion Halberd
 --     }
 -- }) -- Bleakwood Chest
 
-nodes[69327795] = Treasure({
+map.nodes[69327795] = Treasure({
     quest=59833,
     label=L["chest_of_envious_dreams"],
     rewards={
@@ -446,7 +419,7 @@ nodes[69327795] = Treasure({
     }
 }) -- Chest of Envious Dreams
 
-nodes[64187265] = Treasure({
+map.nodes[64187265] = Treasure({
     quest=59883,
     label=L["filchers_prize"],
     rewards={
@@ -454,12 +427,20 @@ nodes[64187265] = Treasure({
     }
 }) -- Filcher's Prize
 
-nodes[46395817] = Treasure({
+map.nodes[46395817] = Treasure({
     quest=59886,
     label=L["fleeing_soul_bundle"],
 }) -- Fleeing Soul's Bundle
 
-nodes[75465542] = Treasure({
+map.nodes[73597539] = Treasure({
+    quest=62196,
+    label=L["forgotten_anglers_rod"],
+    rewards={
+        Toy({item=180993}) -- Bat Visage Bobber
+    }
+}) -- Forgotten Angler's Rod
+
+map.nodes[75465542] = Treasure({
     quest=59887,
     label=L["gilded_plum_chest"],
     note=L["gilded_plum_chest_note"],
@@ -471,13 +452,13 @@ nodes[75465542] = Treasure({
     }
 }) -- Gilded Plum Chest
 
-nodes[61525864] = Treasure({
+map.nodes[61525864] = Treasure({
     quest=59885,
     label=L["remlates_cache"],
     note=L["remlates_cache_note"]
 }) -- Remlate's Hidden Cache
 
-nodes[31055506] = Treasure({
+map.nodes[31055506] = Treasure({
     quest=59889,
     label=L["smuggled_cache"],
     rewards={
@@ -485,50 +466,58 @@ nodes[31055506] = Treasure({
     }
 }) -- Smuggled Cache
 
-nodes[68446445] = Treasure({
+map.nodes[68446445] = Treasure({
     quest=59884,
     label=L["wayfairer_spoils"]
 }) -- Wayfairer's Abandoned Spoils
 
 -------------------------------------------------------------------------------
------------------------------- SINRUNNER BLANCHY ------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
--- daily completed: 62107
-
-local Blanchy = Class('Blanchy', NPC, {
-    id=173468,
-    icon=2143082,
-    quest={62038, 62042, 62047, 62049, 62048, 62050},
-    questCount=true,
+map.nodes[25263799] = PetBattle({
+    id=173303,
     rewards={
-        Mount({item=182614, id=1414}) -- Blanchy's Reins
+        Achievement({id=14625, criteria=49409})
     }
-})
+}) -- Scorch
 
-function Blanchy.getters:note ()
-    local note = L["sinrunner_note"]
-    local status = nil
-    for i, quest in ipairs(self.quest) do
-        if C_QuestLog.IsQuestFlaggedCompleted(quest) then
-            status = ns.status.Green(i)
-        else
-            status = ns.status.Red(i)
-        end
-        note = note..'\n\n'..status..' '..L["sinrunner_note_day"..i]
-    end
-    return note
-end
+map.nodes[39945249] = PetBattle({
+    id=173315,
+    rewards={
+        Achievement({id=14625, criteria=49408})
+    }
+}) -- Sylla
 
-nodes[62874341] = Blanchy()
+map.nodes[61354121] = PetBattle({
+    id=173331,
+    rewards={
+        Achievement({id=14625, criteria=49406})
+    }
+}) -- Addius the Tormentor
+
+map.nodes[67626608] = PetBattle({
+    id=173324,
+    rewards={
+        Achievement({id=14625, criteria=49407})
+    }
+}) -- Eyegor
 
 -------------------------------------------------------------------------------
 ---------------------------- THE AFTERLIFE EXPRESS ----------------------------
 -------------------------------------------------------------------------------
 
-local Carriage = Class('Carriage', NPC, { icon='horseshoe', scale=1.2 })
+local Carriage = Class('Carriage', NPC, { group = 'carriages' })
 
-nodes[50217067] = Carriage({
+function Carriage.getters:icon ()
+    return self._focus and 'horseshoe_green_glow' or 'horseshoe'
+end
+
+function Carriage.getters:scale ()
+    return self._focus and 2.0 or 1.2
+end
+
+map.nodes[50217067] = Carriage({
     id=158365,
     rewards={ Achievement({id=14771, criteria=50170}) },
     pois={
@@ -544,7 +533,7 @@ nodes[50217067] = Carriage({
     }
 }) -- Banewood Carriage
 
-nodes[54784842] = Carriage({
+map.nodes[54784842] = Carriage({
     id=174750,
     rewards={ Achievement({id=14771, criteria=50168}) },
     pois={
@@ -558,7 +547,7 @@ nodes[54784842] = Carriage({
     }
 }) -- Chalice Carriage
 
-nodes[63865885] = Carriage({
+map.nodes[63865885] = Carriage({
     id=158336,
     rewards={ Achievement({id=14771, criteria=50172}) },
     pois={
@@ -573,7 +562,7 @@ nodes[63865885] = Carriage({
     }
 }) -- Darkhaven Carriage
 
-nodes[57263726] = Carriage({
+map.nodes[57263726] = Carriage({
     id=174751,
     rewards={ Achievement({id=14771, criteria=50169}) },
     pois={
@@ -588,7 +577,7 @@ nodes[57263726] = Carriage({
     }
 }) -- Old Gate Carriage
 
-nodes[66727652] = Carriage({
+map.nodes[66727652] = Carriage({
     id=161879,
     rewards={ Achievement({id=14771, criteria=50171}) },
     pois={
@@ -602,7 +591,7 @@ nodes[66727652] = Carriage({
     }
 }) -- Pridefall Carriage
 
-nodes[52634155] = Carriage({
+map.nodes[52634155] = Carriage({
     id=174754,
     rewards={ Achievement({id=14771, criteria=50173}) },
     pois={
@@ -618,20 +607,60 @@ nodes[52634155] = Carriage({
 }) -- The Castle Carriage
 
 -------------------------------------------------------------------------------
+-------------------------------- LOYAL GORGER ---------------------------------
+-------------------------------------------------------------------------------
 
-function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
+-- Daily completion: 61843
 
-    if node == map.intro then return true end
+map.nodes[59305700] = NPC({
+    id=173499,
+    icon=3601543,
+    quest={
+        61839, -- Nipping at the Undergrowth
+        61840, -- Vineroot on the Menu
+        61842, -- Vineroot Will Not Do
+        61844, -- Hungry Hungry Gorger
+        62044, -- Standing Toe to Toe
+        62045, -- Ready for More
+        62046  -- A New Pack
+    },
+    questDeps=61188,
+    questCount=true,
+    note=L["loyal_gorger_note"],
+    rewards={
+        Mount({item=182589, id=1391}) -- Loyal Gorger
+    }
+})
 
-    -- add rlabel and warning if covenant doesn't match
-    ns.processCovenant(node)
+-------------------------------------------------------------------------------
+------------------------------ SINRUNNER BLANCHY ------------------------------
+-------------------------------------------------------------------------------
 
-    local profile = ns.addon.db.profile
-    if isinstance(node, Rare) then return profile.rare_revendreth end
-    if isinstance(node, Treasure) then return profile.treasure_revendreth end
-    if isinstance(node, Carriage) then return profile.carriage_revendreth end
-    return true
+-- daily completed: 62107
+
+local Blanchy = Class('Blanchy', NPC, {
+    id=173468,
+    icon=2143082,
+    quest={62038, 62042, 62047, 62049, 62048, 62050},
+    questCount=true,
+    rewards={
+        Achievement({id=14314, criteria=50083}), -- Blanchy Assisted
+        Mount({item=182614, id=1414}) -- Blanchy's Reins
+    }
+})
+
+function Blanchy.getters:note ()
+    local note = L["sinrunner_note"]
+    local status
+    for i, quest in ipairs(self.quest) do
+        if C_QuestLog.IsQuestFlaggedCompleted(quest) then
+            status = ns.status.Green(i)
+        else
+            status = ns.status.Red(i)
+        end
+        note = note..'\n\n'..status..' '..L["sinrunner_note_day"..i]
+    end
+    return note
 end
 
-ns.maps[map.id] = map
+map.nodes[62874341] = Blanchy()

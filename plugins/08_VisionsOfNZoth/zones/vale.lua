@@ -7,9 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 local clone = ns.clone
-local isinstance = ns.isinstance
 
-local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Supply = ns.node.Supply
@@ -25,9 +23,6 @@ local Toy = ns.reward.Toy
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
-
-local options = ns.options.args.VisibilityGroup.args
-local defaults = ns.optionDefaults.profile
 
 local MAN, MOG, EMP = 0, 1, 2 -- assaults
 
@@ -59,10 +54,6 @@ function map:prepare ()
 end
 
 function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    if node == map.intro then return true end
-
     local assault = node.assault
     if assault then
         assault = type(assault) == 'number' and {assault} or assault
@@ -72,90 +63,19 @@ function map:enabled (node, coord, minimap)
         end
     end
 
-    local profile = ns.addon.db.profile
-    if isinstance(node, Treasure) then return profile.chest_vale end
-    if isinstance(node, Supply) then return profile.coffer_vale end
-    if isinstance(node, Rare) then return profile.rare_vale end
-    if isinstance(node, PetBattle) then return profile.pet_vale end
-    if isinstance(node, TimedEvent) then return profile.event_vale end
-
-    return true
+    return Map.enabled(self, node, coord, minimap)
 end
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-defaults['chest_vale'] = true
-defaults['coffer_vale'] = true
-defaults['rare_vale'] = true
-defaults['event_vale'] = true
-defaults['pet_vale'] = true
-
-options.groupVale = {
-    type = "header",
-    name = L["vale"],
-    order = 10,
-}
-
-options.chestVale = {
-    type = "toggle",
-    arg = "chest_vale",
-    name = L["options_toggle_chests"],
-    desc = L["options_toggle_chests_desc"],
-    order = 11,
-    width = "normal",
-}
-
-options.cofferVale = {
-    type = "toggle",
-    arg = "coffer_vale",
-    name = L["options_toggle_coffers"],
-    desc = L["options_toggle_coffers_desc"],
-    order = 12,
-    width = "normal",
-}
-
-options.rareVale = {
-    type = "toggle",
-    arg = "rare_vale",
-    name = L["options_toggle_rares"],
-    desc = L["options_toggle_rares_desc"],
-    order = 13,
-    width = "normal",
-}
-
-options.eventVale = {
-    type = "toggle",
-    arg = "event_vale",
-    name = L["options_toggle_assault_events"],
-    desc = L["options_toggle_assault_events_desc"],
-    order = 14,
-    width = "normal",
-}
-
-options.petVale = {
-    type = "toggle",
-    arg = "pet_vale",
-    name = L["options_toggle_battle_pets"],
-    desc = L["options_toggle_battle_pets_desc"],
-    order = 15,
-    width = "normal",
-}
 
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
 -------------------------------------------------------------------------------
 
-local Intro = Class('Intro', Node)
+local Intro = Class('Intro', ns.node.Intro)
 
 Intro.note = L["vale_intro_note"]
-Intro.icon = 'quest_yellow'
-Intro.scale = 3
 
-function Intro:enabled ()
-    if not Node.enabled(self) then return false end
-    return map.assault == nil
+function Intro:completed ()
+    return map.assault ~= nil
 end
 
 function Intro.getters:label ()
@@ -274,12 +194,17 @@ nodes[70954053] = Rare({id=154087, quest=56084, assault=EMP}) -- Zror'um the Inf
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-local MANChest = Class('MANChest', Treasure, { assault=MAN })
-local MANTR1 = MANChest({quest=58224, label=L["ambered_cache"], icon='chest_blue'})
-local MANTR2 = MANChest({quest=58225, label=L["ambered_cache"], icon='chest_purple'})
-local MANTR3 = MANChest({quest=58226, label=L["ambered_cache"], icon='chest_orange'})
-local MANTR4 = MANChest({quest=58227, label=L["ambered_cache"], icon='chest_yellow'})
-local MANTR5 = MANChest({quest=58228, label=L["ambered_cache"], icon='chest_teal'})
+local MANChest = Class('MANChest', Treasure, {
+    assault=MAN,
+    group='daily_chests',
+    label=L["ambered_cache"]
+})
+
+local MANTR1 = MANChest({quest=58224, icon='chest_blue'})
+local MANTR2 = MANChest({quest=58225, icon='chest_purple'})
+local MANTR3 = MANChest({quest=58226, icon='chest_orange'})
+local MANTR4 = MANChest({quest=58227, icon='chest_yellow'})
+local MANTR5 = MANChest({quest=58228, icon='chest_teal'})
 
 -- quest=58224
 nodes[04066172] = MANTR1
@@ -326,17 +251,28 @@ nodes[19975976] = MANTR5
 nodes[21506269] = MANTR5
 nodes[21636992] = MANTR5
 
-nodes[21586246] = Supply({quest=58770, assault=MAN, label=L["ambered_coffer"], sublabel=L["mantid_relic"]})
+nodes[21586246] = Supply({
+    quest=58770,
+    assault=MAN,
+    group='coffers',
+    label=L["ambered_coffer"],
+    sublabel=L["mantid_relic"]
+})
 
 -------------------------------------------------------------------------------
 
-local MOGChest = Class('MOGChest', Treasure, { assault=MOG })
-local MOGTR1 = MOGChest({quest=57206, label=L["mogu_plunder"], icon='chest_blue', note=L["guolai"]})
-local MOGTR2 = MOGChest({quest=57208, label=L["mogu_plunder"], icon='chest_lime'})
-local MOGTR3 = MOGChest({quest=57209, label=L["mogu_plunder"], icon='chest_orange'})
-local MOGTR4 = MOGChest({quest=57211, label=L["mogu_plunder"], icon='chest_yellow'})
-local MOGTR5 = MOGChest({quest=57212, label=L["mogu_plunder"], icon='chest_teal'})
-local MOGTR6 = MOGChest({quest=57213, label=L["mogu_plunder"], icon='chest_purple'})
+local MOGChest = Class('MOGChest', Treasure, {
+    assault=MOG,
+    group='daily_chests',
+    label=L["mogu_plunder"]
+})
+
+local MOGTR1 = MOGChest({quest=57206, icon='chest_blue', note=L["guolai"]})
+local MOGTR2 = MOGChest({quest=57208, icon='chest_lime'})
+local MOGTR3 = MOGChest({quest=57209, icon='chest_orange'})
+local MOGTR4 = MOGChest({quest=57211, icon='chest_yellow'})
+local MOGTR5 = MOGChest({quest=57212, icon='chest_teal'})
+local MOGTR6 = MOGChest({quest=57213, icon='chest_purple'})
 
 -- quest=57206
 nodes[13500720] = MOGTR1
@@ -386,8 +322,13 @@ nodes[33876683] = MOGTR6
 nodes[37666584] = MOGTR6
 nodes[38417028] = MOGTR6
 
-local MOGCOFF = Supply({quest=57214, assault=MOG, label=L["mogu_strongbox"],
-    sublabel=L["mogu_relic"]})
+local MOGCOFF = Supply({
+    quest=57214,
+    assault=MOG,
+    group='coffers',
+    label=L["mogu_strongbox"],
+    sublabel=L["mogu_relic"]
+})
 
 nodes[10782831] = MOGCOFF
 nodes[20006321] = MOGCOFF
@@ -397,13 +338,18 @@ nodes[50182143] = MOGCOFF
 
 -------------------------------------------------------------------------------
 
-local EMPChest = Class('EMPChest', Treasure, { assault=EMP })
-local EMPTR1 = EMPChest({quest=57197, label=L["black_empire_cache"], icon='chest_blue'})
-local EMPTR2 = EMPChest({quest=57199, label=L["black_empire_cache"], icon='chest_purple', note=L["pools_of_power"]})
-local EMPTR3 = EMPChest({quest=57200, label=L["black_empire_cache"], icon='chest_orange'})
-local EMPTR4 = EMPChest({quest=57201, label=L["black_empire_cache"], icon='chest_yellow'})
-local EMPTR5 = EMPChest({quest=57202, label=L["black_empire_cache"], icon='chest_teal', note=L["big_blossom_mine"]})
-local EMPTR6 = EMPChest({quest=57203, label=L["black_empire_cache"], icon='chest_lime'})
+local EMPChest = Class('EMPChest', Treasure, {
+    assault=EMP,
+    group='daily_chests',
+    label=L["black_empire_cache"]
+})
+
+local EMPTR1 = EMPChest({quest=57197, icon='chest_blue'})
+local EMPTR2 = EMPChest({quest=57199, icon='chest_purple', note=L["pools_of_power"]})
+local EMPTR3 = EMPChest({quest=57200, icon='chest_orange'})
+local EMPTR4 = EMPChest({quest=57201, icon='chest_yellow'})
+local EMPTR5 = EMPChest({quest=57202, icon='chest_teal', note=L["big_blossom_mine"]})
+local EMPTR6 = EMPChest({quest=57203, icon='chest_lime'})
 
 -- quest=57197
 nodes[42024621] = EMPTR1
@@ -462,8 +408,13 @@ nodes[48476579] = EMPTR6
 nodes[51136323] = EMPTR6
 nodes[52266732] = EMPTR6
 
-local EMPCOFF = Supply({quest=57628, assault=EMP,
-    label=L["black_empire_coffer"], sublabel=L["cursed_relic"]})
+local EMPCOFF = Supply({
+    quest=57628,
+    assault=EMP,
+    group='coffers',
+    label=L["black_empire_coffer"],
+    sublabel=L["cursed_relic"]
+})
 
 nodes[53116634] = EMPCOFF
 nodes[54804100] = clone(EMPCOFF, {note=L["platform"]})
@@ -474,25 +425,30 @@ nodes[76626437] = EMPCOFF
 
 -------------------------------------------------------------------------------
 
--- Blizzard added a separate map for the pools of power midway through the
--- first week, yay ...
+local pmap = Map({
+    id=1579,
+    parents={
+        coffers=1530,
+        daily_chests=1530
+    }
+})
 
-local pmap = clone(map, {id=1579, nodes={}})
-local pnodes = pmap.nodes
-pmap.intro = nil
+function pmap:prepare ()
+    map.prepare(self)
+end
 
 -- quest=57199
-pnodes[09235255] = EMPTR2
-pnodes[09554460] = EMPTR2
-pnodes[15235182] = EMPTR2
-pnodes[23234539] = EMPTR2
-pnodes[32504372] = EMPTR2
-pnodes[38294622] = EMPTR2
-pnodes[45715972] = EMPTR2
-pnodes[46313359] = EMPTR2
-pnodes[54384017] = EMPTR2
+pmap.nodes[09235255] = EMPTR2
+pmap.nodes[09554460] = EMPTR2
+pmap.nodes[15235182] = EMPTR2
+pmap.nodes[23234539] = EMPTR2
+pmap.nodes[32504372] = EMPTR2
+pmap.nodes[38294622] = EMPTR2
+pmap.nodes[45715972] = EMPTR2
+pmap.nodes[46313359] = EMPTR2
+pmap.nodes[54384017] = EMPTR2
 
-pnodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
+pmap.nodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
 
 -------------------------------------------------------------------------------
 -------------------------------- ASSAULT EVENTS -------------------------------
@@ -559,8 +515,3 @@ nodes[28553494] = PetBattle({id=162470}) -- Baruk Stone Defender
 nodes[56172822] = PetBattle({id=162468}) -- K'tiny the Mad
 nodes[57465427] = PetBattle({id=162469}) -- Tormentius
 nodes[07333190] = PetBattle({id=162471}) -- Vil'thik Hatchling
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map
-ns.maps[pmap.id] = pmap

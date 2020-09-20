@@ -68,14 +68,16 @@ L["context_menu_restore_hidden_nodes"] = "恢復所有隱藏節點"
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["options_global"] = "Global"
+L["options_zones"] = "Zones"
+
+L["options_general_description"] = "Settings that control the behavior of nodes and their rewards."
+L["options_global_description"] = "Settings that control the display of all nodes in all zones."
+L["options_zones_description"] = "Settings that control the display of nodes in each individual zone."
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "圖示設定"
-L["options_icons_treasures"] = "寶藏圖示"
-L["options_icons_rares"] = "稀有圖示"
-L["options_icons_caves"] = "洞穴圖示"
-L["options_icons_pet_battles"] = "戰寵圖示"
-L["options_icons_other"] = "其他圖示"
 L["options_scale"] = "縮放"
 L["options_scale_desc"] = "1 = 100%"
 L["options_opacity"] = "透明度"
@@ -85,10 +87,6 @@ L["options_opacity_desc"] = "0 = 透明, 1 = 不透明"
 
 L["options_visibility_settings"] = "可視性"
 L["options_general_settings"] = "一般"
-L["options_toggle_looted_rares"] = "永遠顯示所有稀有"
-L["options_toggle_looted_rares_desc"] = "不論拾取狀態顯示所有稀有"
-L["options_toggle_looted_treasures"] = "已經拾取的寶藏"
-L["options_toggle_looted_treasures_desc"] = "不論拾取狀態顯示所有寶藏"
 L["options_toggle_hide_done_rare"] = "如果戰利品已收藏，隱藏稀有"
 L["options_toggle_hide_done_rare_desc"] = "隱藏所有戰利品已收藏的稀有。"
 L["options_toggle_hide_minimap"] = "隱藏小地圖上的所有圖示"
@@ -96,19 +94,20 @@ L["options_toggle_hide_minimap_desc"] = "在小地圖上隱藏此插件的所有
 L["options_restore_hidden_nodes"] = "恢復隱藏的節點"
 L["options_restore_hidden_nodes_desc"] = "恢復所有使用右鍵選單隱藏的節點。"
 
-L["options_toggle_battle_pets_desc"] = "顯示戰寵訓練師與NPC的位置。"
-L["options_toggle_battle_pets"] = "戰寵"
-L["options_toggle_caves_desc"] = "顯示其他節點的洞穴入口。"
-L["options_toggle_caves"] = "洞穴"
-L["options_toggle_chests_desc"] = "顯示寶箱位置 (每日可拾取的)。"
-L["options_toggle_chests"] = "寶箱"
-L["options_toggle_misc"] = "其他"
-L["options_toggle_npcs"] = "NPC"
-L["options_toggle_rares_desc"] = "顯示稀有NPC的位置。"
-L["options_toggle_rares"] = "稀有"
-L["options_toggle_supplies_desc"] = "顯示戰爭補給箱的所有可能位置。"
-L["options_toggle_supplies"] = "戰爭補給空投"
-L["options_toggle_treasures"] = "寶藏"
+L["options_icons_pet_battles_desc"] = "顯示戰寵訓練師與NPC的位置。"
+L["options_icons_pet_battles"] = "戰寵"
+L["options_icons_caves_desc"] = "顯示其他節點的洞穴入口。"
+L["options_icons_caves"] = "洞穴"
+L["options_icons_daily_chests_desc"] = "顯示寶箱位置 (每日可拾取的)。"
+L["options_icons_daily_chests"] = "寶箱"
+L["options_icons_misc"] = "其他"
+L["options_icons_npcs"] = "NPC"
+L["options_icons_other"] = "其他圖示"
+L["options_icons_rares_desc"] = "顯示稀有NPC的位置。"
+L["options_icons_rares"] = "稀有"
+L["options_icons_supplies_desc"] = "顯示戰爭補給箱的所有可能位置。"
+L["options_icons_supplies"] = "戰爭補給空投"
+L["options_icons_treasures"] = "寶藏"
 
 ---------------------------------- TOOLTIP ---------------------------------
 

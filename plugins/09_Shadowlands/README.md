@@ -8,13 +8,25 @@ Rare mobs are listed as skulls on your map. If the skull is blue colored, that m
 
 ![](https://www.tmdmguild.com/public/images/addons/shadowlands/rares.png)
 
-All nodes in the addon can be individually hidden or sent to TomTom to create a waypoint.
-
 ## Treasures
 
 Locations and solutions for treasures are displayed on the map, along with the achievement they are associated with and any rewards they contain. Each treasure icon will disappear once it has been looted.
 
 ![](https://www.tmdmguild.com/public/images/addons/shadowlands/treasures.png)
+
+## Pet Battles
+
+All pet battle trainer locations are marked on the map with the familiar paw icon. They also show your progress in completing their respective world quests for the [Battle in Shadowlands](https://shadowlands.wowhead.com/achievement=14625/battle-in-shadowlands) achievement.
+
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/pet_battles.png)
+
+## Bastion - Lost Anima Shards
+
+Hidden all over Bastion (and inside its dungeons) are 50 Lost Anima Shards that can be collected for the [Shard Labor](https://shadowlands.wowhead.com/achievement=14339/shard-labor) achievement. This achievement allows you to reforge the hammer needed to ring the [Vesper of the Silver Wind](https://shadowlands.wowhead.com/object=355435/vesper-of-the-silver-wind) and obtain the [Silverwind Larion](https://shadowlands.wowhead.com/item=180772/silverwind-larion) mount!
+
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/lost_anima_shards.png)
+
+Each shard includes a short note describing its location.
 
 ## Maldraxxus - Pool of Mixed Monstrosities
 
@@ -34,12 +46,43 @@ The paths of all rideable carriages are mapped for the Revendreth zone. Hop in t
 
 ![](https://www.tmdmguild.com/public/images/addons/shadowlands/carriages.png)
 
-## Options
+## Revendreth - Sinrunner Blanchy and the Loyal Gorger
 
-* Change icon sizes and alpha based on type (rares, treasures, battle pets, etc)
-* Enable/disable icons by type
-* Show only rares that you still need rewards from
-* Show all rares and chests even if you've already looted them today
+The [Sinrunner Blanchy](https://shadowlands.wowhead.com/item=182614/blanchys-reins) and [Loyal Gorger](https://shadowlands.wowhead.com/item=182589/loyal-gorger) mounts both require you to perform tasks over several days. The addon will keep track of your progress and display how far along you are in their tooltips.
+
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/dead_blanchy.png)
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/loyal_gorger.png)
+
+The Loyal Gorger icon will only appear once you have looted the [Impressionable Gorger Spawn](https://shadowlands.wowhead.com/item=180583/impressionable-gorger-spawn) from the [Worldedge Gorger](https://shadowlands.wowhead.com/npc=160821/worldedge-gorger) rare.
+
+## The Maw - Event Locations
+
+Daily bonus bosses and events in the maw which grant extra [Stygia](https://shadowlands.wowhead.com/currency=1767/stygia) are marked on the map with red and yellow pins respectively.
+
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/maw_events.png)
+
+These bosses differ from regular rares in the zone, which are marked with the usual skull icons.
+
+## The Maw - Chaotic Riftstones
+
+A handful of [Chaotic Riftstones](https://shadowlands.wowhead.com/search?q=Chaotic+Riftstone) can be found in the maw that will quickly transport you across the map. Their locations and paths have been marked so you can make efficient use of them!
+
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/chaotic_riftstones.png)
+
+## Quick Toggle Menu
+
+In addition to the plugin settings menu found under *Interface > Addons > HandyNotes*, a quick toggle menu will appear on any map that contains nodes added by this plugin. This allows you to quickly toggle, resize or change the opacity of nodes displayed on the current map.
+
+![](https://www.tmdmguild.com/public/images/addons/shadowlands/quick_toggle.png)
+
+## Other Options & Features
+
+* Toggle the display, scale and opacity of icons based on type (rares, treasures, battle pets, etc).
+* Create a Blizzard waypoint (new in Shadowlands) from the right-click context menu.
+* Create a TomTom waypoint from the right-click context menu.
+* Hide individual nodes from the right-click context menu.
+* Show only rares that have uncollected rewards (toys, pets, mounts, etc).
+* Show completed nodes (i.e. rares and treasures that have already been looted).
 
 ## Localization
 

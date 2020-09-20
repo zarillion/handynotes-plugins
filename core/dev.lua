@@ -25,35 +25,31 @@ To enable all development settings and functionality:
 
 local function BootstrapDevelopmentEnvironment()
     -- Add development settings to the UI
-    ns.options.args.DevelopmentGroup = {
-        type = "group",
-        order = 30,
+    ns.options.args.GeneralTab.args.DevelopmentHeader = {
+        type = "header",
         name = L["options_dev_settings"],
-        desc = L["options_dev_settings_desc"],
-        inline = true,
-        args = {
-            show_debug_map = {
-                type = "toggle",
-                arg = "show_debug_map",
-                name = L["options_toggle_show_debug_map"],
-                desc = L["options_toggle_show_debug_map_desc"],
-                order = 1,
-            },
-            show_debug_quest = {
-                type = "toggle",
-                arg = "show_debug_quest",
-                name = L["options_toggle_show_debug_quest"],
-                desc = L["options_toggle_show_debug_quest_desc"],
-                order = 2,
-            },
-            force_nodes = {
-                type = "toggle",
-                arg = "force_nodes",
-                name = L["options_toggle_force_nodes"],
-                desc = L["options_toggle_force_nodes_desc"],
-                order = 3,
-            }
-        }
+        order = 100,
+    }
+    ns.options.args.GeneralTab.args.show_debug_map = {
+        type = "toggle",
+        arg = "show_debug_map",
+        name = L["options_toggle_show_debug_map"],
+        desc = L["options_toggle_show_debug_map_desc"],
+        order = 101,
+    }
+    ns.options.args.GeneralTab.args.show_debug_quest = {
+        type = "toggle",
+        arg = "show_debug_quest",
+        name = L["options_toggle_show_debug_quest"],
+        desc = L["options_toggle_show_debug_quest_desc"],
+        order = 102,
+    }
+    ns.options.args.GeneralTab.args.force_nodes = {
+        type = "toggle",
+        arg = "force_nodes",
+        name = L["options_toggle_force_nodes"],
+        desc = L["options_toggle_force_nodes_desc"],
+        order = 103,
     }
 
     -- Register all addons objects for the CTRL+ALT handler
@@ -71,13 +67,13 @@ local function BootstrapDevelopmentEnvironment()
     local QTFrame = CreateFrame('Frame', ADDON_NAME.."QT")
     local lastCheck = GetTime()
     local quests = {}
+    local changed = {}
     local max_quest_id = 100000
     C_Timer.After(2, function ()
         -- Give some time for quest info to load in before we start
         for id = 0, max_quest_id do quests[id] = C_QuestLog.IsQuestFlaggedCompleted(id) end
         QTFrame:SetScript('OnUpdate', function ()
             if GetTime() - lastCheck > 1 and ns.addon.db.profile.show_debug_quest then
-                local changed = {}
                 for id = 0, max_quest_id do
                     local s = C_QuestLog.IsQuestFlaggedCompleted(id)
                     if s ~= quests[id] then
@@ -93,12 +89,13 @@ local function BootstrapDevelopmentEnvironment()
                         ns.debugQuest(unpack(args))
                     end
                 end
-                if #history > 1000 then
-                    for i = #history, 1001, -1 do
+                if #history > 100 then
+                    for i = #history, 101, -1 do
                         history[i] = nil
                     end
                 end
                 lastCheck = GetTime()
+                wipe(changed)
             end
         end)
         ns.debugQuest('Quest IDs are now being tracked')

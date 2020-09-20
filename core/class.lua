@@ -9,7 +9,8 @@ local _, ns = ...
 -------------------------------------------------------------------------------
 
 ns.Class = function (name, parent, attrs)
-    if type(name) ~= 'string' then error('name parameter must be a string') end
+    if type(name) ~= 'string' then error('name param must be a string') end
+    if parent and not ns.isclass(parent) then error('parent param must be a class') end
 
     local Class = attrs or {}
     Class.getters = Class.getters or {}
@@ -17,8 +18,8 @@ ns.Class = function (name, parent, attrs)
 
     setmetatable(Class, {
         __call = function (self, instanceAttrs)
-            instance = {}
-            instance.__class = Class;
+            local instance = {}
+            instance.__class = Class
 
             local address = tostring(instance):gsub("table: ", "", 1)
 
@@ -28,9 +29,18 @@ ns.Class = function (name, parent, attrs)
                 end,
 
                 __index = function (self, index)
-                    local getter = Class.getters[index]
-                    if getter then return getter(self) end
-                    return Class[index]
+                    -- Walk up the class hierarchy and check for a static value
+                    -- followed by a getter function on each parent class
+                    local _Class = Class
+                    repeat
+                        -- Use rawget to skip __index on Class, we want to
+                        -- check each class object individually
+                        local value = rawget(_Class, index)
+                        if value ~= nil then return value end
+                        local getter = _Class.getters[index]
+                        if getter then return getter(self) end
+                        _Class = _Class.__parent
+                    until _Class == nil
                 end,
 
                 __newindex = function (self, index, value)
@@ -44,8 +54,10 @@ ns.Class = function (name, parent, attrs)
             })
 
             -- assign attributes after setmetatable() to trigger any setters
-            for k, v in pairs(instanceAttrs or {}) do
-                instance[k] = v
+            if instanceAttrs then
+                for k, v in pairs(instanceAttrs) do
+                    instance[k] = v
+                end
             end
 
             -- call init() method for instance
@@ -58,13 +70,14 @@ ns.Class = function (name, parent, attrs)
             return '<class "'..name..'">'
         end,
 
+        -- Make parent class attributes accessible on child class objects
         __index = parent
     })
 
     if parent then
-        setmetatable(Class.getters, { __index = parent.getters })
-        setmetatable(Class.setters, { __index = parent.setters })
+        -- Set parent class and allow parent class setters to be used
         Class.__parent = parent
+        setmetatable(Class.setters, { __index = parent.setters })
     elseif not Class.init then
         -- Add default init() method for base class
         Class.init = function (self) end
@@ -76,6 +89,10 @@ end
 -------------------------------------------------------------------------------
 ----------------------------------- HELPERS -----------------------------------
 -------------------------------------------------------------------------------
+
+ns.isclass = function (class)
+    return type(class) == 'table' and class.getters and class.setters
+end
 
 ns.isinstance = function (instance, class)
     local function compare (c1, c2)
@@ -89,6 +106,8 @@ end
 ns.clone = function (instance, newattrs)
     local clone = {}
     for k, v in pairs(instance) do clone[k] = v end
-    for k, v in pairs(newattrs or {}) do clone[k] = v end
+    if newattrs then
+        for k, v in pairs(newattrs) do clone[k] = v end
+    end
     return instance.__class(clone)
 end

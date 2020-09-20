@@ -6,57 +6,18 @@ local _, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
-local clone = ns.clone
-local isinstance = ns.isinstance
 local Node = ns.node.Node
 
-local options = ns.options.args.VisibilityGroup.args
-local defaults = ns.optionDefaults.profile
-
--------------------------------------------------------------------------------
-
-local Buff = Class('Buff', Node, {scale=0.75})
-
--------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
 local map = Map({ id=1490 })
 local nodes = map.nodes
 
-function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    local profile = ns.addon.db.profile
-    if isinstance(node, Buff) then return profile.buffs_opermech end
-    return false
-end
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-defaults['buffs_opermech'] = true
-
-options.groupOperMech = {
-    type = "header",
-    name = L["operation_mechagon"],
-    order = 20,
-}
-
-options.buffBotsOperMech = {
-    type = "toggle",
-    arg = "buffs_opermech",
-    name = L["options_toggle_mech_buffs"],
-    desc = L["options_toggle_mech_buffs_desc"],
-    order = 21,
-    width = "full",
-}
-
 -------------------------------------------------------------------------------
 ---------------------------------- BUFF BOTS ----------------------------------
 -------------------------------------------------------------------------------
 
+local Buff = Class('Buff', Node, {group='mech_buffs', scale=0.75})
 local GREASE = Buff({icon=252178, label=L["grease_bot"], note=L["grease_bot_note"]})
 local SHOCK = Buff({icon=136099, label=L["shock_bot"], note=L["shock_bot_note"]})
 local WELDING = Buff({icon=134952, label=L["welding_bot"], note=L["welding_bot_note"]})
@@ -115,7 +76,3 @@ nodes[76005440] = WELDING
 --nodes[66905350] = clone(SHOCK, {note=L["shock_bot_note"]..'\n'..L["cave_spawn"]})
 --nodes[65605560] = clone(WELDING, {note=L["welding_bot_note"]..'\n'..L["cave_spawn"]})
 --nodes[69005310] = clone(WELDING, {note=L["welding_bot_note"]..'\n'..L["cave_spawn"]})
-
--------------------------------------------------------------------------------
-
-ns.maps[map.id] = map

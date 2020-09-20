@@ -6,9 +6,9 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
-local isinstance = ns.isinstance
 
 local NPC = ns.node.NPC
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -21,66 +21,16 @@ local Toy = ns.reward.Toy
 
 local POI = ns.poi.POI
 
-local options = ns.options.args.VisibilityGroup.args
-local defaults = ns.optionDefaults.profile
-
 -------------------------------------------------------------------------------
 
 local NECROLORD = ns.covenants.NEC
-
--------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
--------------------------------------------------------------------------------
-
 local map = Map({ id=1536 })
-local nodes = map.nodes
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-defaults['rare_maldraxxus'] = true
-defaults['treasure_maldraxxus'] = true
-defaults['kitten_maldraxxus'] = true
-
-options.groupMaldraxxus = {
-    type = "header",
-    name = C_Map.GetMapInfo(map.id).name,
-    order = 20,
-}
-
-options.rareMaldraxxus = {
-    type = "toggle",
-    arg = "rare_maldraxxus",
-    name = L["options_toggle_rares"],
-    desc = L["options_toggle_rares_desc"],
-    order = 21,
-    width = "normal",
-}
-
-options.treasureMaldraxxus = {
-    type = "toggle",
-    arg = "treasure_maldraxxus",
-    name = L["options_toggle_treasures"],
-    desc = L["options_toggle_treasures_desc"],
-    order = 22,
-    width = "normal",
-}
-
-options.kittenMaldraxxus = {
-    type = "toggle",
-    arg = "kitten_maldraxxus",
-    name = L["options_toggle_kittens"],
-    desc = L["options_toggle_kittens_desc"],
-    order = 23,
-    width = "normal",
-}
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-nodes[52663542] = Rare({
+map.nodes[52663542] = Rare({
     id=162727,
     quest=58870,
     rewards={
@@ -88,7 +38,7 @@ nodes[52663542] = Rare({
     }
 }) -- Bubbleblood
 
-nodes[49012351] = Rare({
+map.nodes[49012351] = Rare({
     id=159105,
     quest=58005,
     rewards={
@@ -96,7 +46,7 @@ nodes[49012351] = Rare({
     }
 }) -- Collector Kash
 
-nodes[26392633] = Rare({
+map.nodes[26392633] = Rare({
     id=157058,
     quest=58335,
     rewards={
@@ -104,7 +54,7 @@ nodes[26392633] = Rare({
     }
 }) -- Corpsecutter (Bonebreaker) Moroc
 
-nodes[76835707] = Rare({
+map.nodes[76835707] = Rare({
     id=162711,
     quest=58868,
     rewards={
@@ -113,7 +63,7 @@ nodes[76835707] = Rare({
     }
 }) -- Deadly Dapperling
 
-nodes[46734550] = Rare({
+map.nodes[46734550] = Rare({
     id=162797,
     quest=58878,
     note=L["deepscar_note"],
@@ -126,7 +76,7 @@ nodes[46734550] = Rare({
     }
 }) -- Deepscar
 
-nodes[45052842] = Rare({
+map.nodes[45052842] = Rare({
     id=162669,
     quest=58835,
     rewards={
@@ -134,10 +84,11 @@ nodes[45052842] = Rare({
     }
 }) -- Devour'us
 
-nodes[31603540] = Rare({
+map.nodes[31603540] = Rare({
     id=162741,
     quest=58872,
     covenant=NECROLORD,
+    requires=L["achan_house_of_constructs"],
     note=L["gieger_note"],
     rewards={
         Achievement({id=14308, criteria=48871}),
@@ -145,7 +96,7 @@ nodes[31603540] = Rare({
     }
 }) -- Gieger
 
-nodes[57795155] = Rare({
+map.nodes[57795155] = Rare({
     id=162588,
     quest=58837,
     note=L["gristlebeak_note"],
@@ -155,7 +106,7 @@ nodes[57795155] = Rare({
     }
 }) -- Gristlebeak
 
-nodes[38794333] = Rare({
+map.nodes[38794333] = Rare({
     id=161105,
     quest=58332,
     note=L["schmitd_note"],
@@ -165,15 +116,7 @@ nodes[38794333] = Rare({
     }
 }) -- Indomitable Schmitd
 
--- nodes[] = Rare({
---     id=162759,
---     quest=nil,
---     rewards={
---         Achievement({id=14308, criteria=48856})
---     }
--- }) -- Moregorger
-
-nodes[72872891] = Rare({
+map.nodes[72872891] = Rare({
     id=174108,
     quest=62369,
     rewards={
@@ -181,15 +124,16 @@ nodes[72872891] = Rare({
     }
 }) -- Necromantic Anomaly
 
-nodes[66023532] = Rare({
+map.nodes[66023532] = Rare({
     id=162690,
     quest=58851,
     rewards={
-        Achievement({id=14308, criteria=49723})
+        Achievement({id=14308, criteria=49723}),
+        Mount({item=182084, id=1373}) -- Gorespine
     }
 }) -- Nerissa Heartless
 
-nodes[53726132] = Rare({
+map.nodes[53726132] = Rare({
     id=162767,
     quest=58875,
     rewards={
@@ -198,7 +142,7 @@ nodes[53726132] = Rare({
     }
 }) -- Nirvaska the Summoner
 
-nodes[50346328] = Rare({
+map.nodes[50346328] = Rare({
     id=161857,
     quest=58629,
     rewards={
@@ -206,112 +150,132 @@ nodes[50346328] = Rare({
     }
 }) -- Pesticide
 
-nodes[53841877] = Rare({
+map.nodes[53841877] = Rare({
     id=159753,
     quest=58004,
     rewards={
-        Achievement({id=14308, criteria=48865})
+        Achievement({id=14308, criteria=48865}),
+        Pet({item=181283, id=2964}) -- Foulwing Hatchling
     }
 }) -- Ravenomous
 
-nodes[50404820] = Rare({
+map.nodes[50354728] = Rare({
     id=168147,
     quest=nil,
+    covenant=NECROLORD,
+    requires=L["achan_theater_of_pain"],
     note=L["activation_unknown"],
     rewards={
-        Achievement({id=14308, criteria=48874})
+        Achievement({id=14308, criteria=48874}),
+        Achievement({id=14802, criteria=48874}),
+        Mount({item=182083, id=1374}) -- Bonecleaver's Skullboar
     }
 }) -- Sabreil the Bonecleaver
 
-nodes[62107580] = Rare({
+map.nodes[62107580] = Rare({
     id=158406,
-    quest=nil,
+    quest=58006,
     rewards={
-        Achievement({id=14308, criteria=48857})
+        Achievement({id=14308, criteria=48857}),
+        Pet({item=181267, id=2957}) -- Writhing Spine
     }
 }) -- Scunner
 
-nodes[55502361] = Rare({
+map.nodes[55502361] = Rare({
     id=159886,
     quest=58003,
     note=L["chelicerae_note"],
     rewards={
-        Achievement({id=14308, criteria=48873})
+        Achievement({id=14308, criteria=48873}),
+        Pet({item=181172, id=2948}) -- Boneweave Hatchling
     }
 }) -- Sister Chelicerae
 
-nodes[42465345] = Rare({
+map.nodes[42465345] = Rare({
     id=162528,
     quest=58768,
     rewards={
         Achievement({id=14308, criteria=48869}),
+        Pet({item=181266, id=2956}), -- Bloodlouse Hatchling
+        Pet({item=181265, id=2955}) -- Corpselouse Hatchling
     }
 }) -- Smorgas the Feaster
 
-nodes[44215132] = Rare({
+map.nodes[44215132] = Rare({
     id=162586,
     quest=58783,
     rewards={
         Achievement({id=14308, criteria=48850}),
-        Transmog({item=182190, slot=L["leather"]}) -- Tauralus Hide Collar
+        Transmog({item=182190, slot=L["leather"]}), -- Tauralus Hide Collar
+        Mount({item=181815, id=1370,}) -- Armored Bonehoof Tauralus
     }
 }) -- Tahonta
 
--- nodes[] = Rare({
---     id=160059,
---     quest=nil,
---     rewards={
---         Achievement({id=14308, criteria=48867})
---     }
--- }) -- Taskmaster Xox
+map.nodes[50562011] = Rare({
+    id=160059,
+    quest=58091,
+    note=L["taskmaster_xox_note"],
+    rewards={
+        Achievement({id=14308, criteria=48867})
+    }
+}) -- Taskmaster Xox
 
--- nodes[] = Rare({
---     id=162180,
---     quest=nil,
---     rewards={
---         Achievement({id=14308, criteria=48870})
---     }
--- }) -- Thread Mistress Leeda
+map.nodes[24184297] = Rare({
+    id=162180,
+    quest=58678,
+    note=L["leeda_note"],
+    rewards={
+        Achievement({id=14308, criteria=48870}),
+        Transmog({item=184180, slot=L["cloth"]})
+    }
+}) -- Thread Mistress Leeda
 
-nodes[33538086] = Rare({
+map.nodes[33538086] = Rare({
     id=162819,
     quest=nil,
     note=L["malkorak_note"],
     rewards={
-        Achievement({id=14308, criteria=48875})
+        Achievement({id=14308, criteria=48875}),
+        Mount({item=182085, id=1372}) -- Umbral Bloodtusk
     }
 }) -- Warbringer Mal'Korak
 
--- nodes[] = Rare({
---     id=157125,
---     quest=nil,
---     rewards={
---         Achievement({id=14308, criteria=48864})
---     }
--- }) -- Zargox the Reborn
+map.nodes[28965138] = Rare({
+    id=157125,
+    quest=62079,
+    requires='{item:175841}',
+    note=L["zargox_the_reborn_note"],
+    rewards={
+        Achievement({id=14308, criteria=48864})
+    },
+    pois={
+        POI({26314280})
+    }
+}) -- Zargox the Reborn
 
 ------------------------- POOL OF MIXED MONSTROSITIES -------------------------
 
-local MISCIBLE_OOZE = "|T646670:0|t"
-local MEPHITIC_GOO = "|T136007:0|t"
-local VISCOUS_OIL = "|T136124:0|t"
+local OOZE = "|T646670:0|t"
+local GOO = "|T136007:0|t"
+local OIL = "|T136124:0|t"
 
-nodes[58197421] = Rare({
+map.nodes[58197421] = Rare({
     id=157226,
     quest={61718, 61719, 61720, 61721, 61722, 61723, 61724},
     questCount=true,
     note=L["mixed_pool_note"],
     rewards = {
         Achievement({id=14721, criteria={
-            {id=48858, quest=61721, note=MISCIBLE_OOZE..' > '..MEPHITIC_GOO..' '..VISCOUS_OIL}, -- Gelloh
-            {id=48863, quest=61719, note=MEPHITIC_GOO..' > '..MISCIBLE_OOZE..' '..VISCOUS_OIL}, -- Corrupted Sediment
-            {id=48854, quest=61718, note=VISCOUS_OIL..' > '..MISCIBLE_OOZE..' '..MEPHITIC_GOO}, -- Pulsing Leech
-            {id=48860, quest=61722, note='('..MISCIBLE_OOZE..' = '..MEPHITIC_GOO..') > '..VISCOUS_OIL}, -- Boneslurp
-            {id=48862, quest=61723, note='('..MISCIBLE_OOZE..' = '..VISCOUS_OIL..') > '..MEPHITIC_GOO}, -- Burnblister
-            {id=48861, quest=61720, note='('..MEPHITIC_GOO..' = '..VISCOUS_OIL..') > '..MISCIBLE_OOZE}, -- Violet Mistake
-            {id=48859, quest=61724, note=MISCIBLE_OOZE..' = '..MEPHITIC_GOO..' = '..VISCOUS_OIL}, -- Oily Invertebrate
+            {id=48858, quest=61721, note=OOZE..' > '..GOO..' '..OIL}, -- Gelloh
+            {id=48863, quest=61719, note=GOO..' > '..OOZE..' '..OIL}, -- Corrupted Sediment
+            {id=48854, quest=61718, note=OIL..' > '..OOZE..' '..GOO}, -- Pulsing Leech
+            {id=48860, quest=61722, note='('..OOZE..' = '..GOO..') > '..OIL}, -- Boneslurp
+            {id=48862, quest=61723, note='('..OOZE..' = '..OIL..') > '..GOO}, -- Burnblister
+            {id=48861, quest=61720, note='('..GOO..' = '..OIL..') > '..OOZE}, -- Violet Mistake
+            {id=48859, quest=61724, note=OOZE..' = '..GOO..' = '..OIL}, -- Oily Invertebrate
         }}),
-        Pet({item=181270, id=2960}) -- Decaying Oozewalker
+        Mount({item=182079, id=1410, note=L["Violet"]}), -- Slime-Covered Reins of the Hulking Deathroc
+        Pet({item=181270, id=2960, note=L["Oily"]}) -- Decaying Oozewalker
     }
 })
 
@@ -319,16 +283,16 @@ nodes[58197421] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-nodes[44083989] = Treasure({
+map.nodes[44083989] = Treasure({
     quest=60368,
     label=L["blackhound_cache"]
 }) -- Blackhound Cache
 
-nodes[38607810] = Treasure({
+map.nodes[36797862] = Treasure({
     label=L["bladesworn_supply_cache"]
 }) -- Bladesworn Supply Cache
 
-nodes[49441509] = Treasure({
+map.nodes[49441509] = Treasure({
     quest=59244,
     rewards={
         Achievement({id=14312, criteria=50070}),
@@ -336,14 +300,16 @@ nodes[49441509] = Treasure({
     }
 }) -- Chest of Eyes
 
-nodes[22503030] = Treasure({
-    quest=nil,
+map.nodes[41511953] = Treasure({
+    quest=62602, -- Currently account-wide? Spinebug is lootable on alts but treasure is gone
+    label=L["giant_cache_of_epic_treasure"],
+    note=L["spinebug_note"],
     rewards={
-        Achievement({id=14312, criteria=50069})
+        Pet({id=3047}) -- Spinebug
     }
-}) -- Forgotten Mementos
+}) -- Giant Cache of Epic Treasure
 
-nodes[72895365] = Treasure({
+map.nodes[72895365] = Treasure({
     quest=61484,
     note=L["glutharns_note"],
     rewards={
@@ -351,14 +317,14 @@ nodes[72895365] = Treasure({
     }
 }) -- Glutharn's Stash
 
-nodes[30792874] = Treasure({
+map.nodes[30792874] = Treasure({
     quest=60730,
     rewards={
         Achievement({id=14312, criteria=50065})
     }
 }) -- Halis's Lunch Pail
 
-nodes[32742127] = Treasure({
+map.nodes[32742127] = Treasure({
     quest=60587,
     note=L["kyrian_keepsake_note"],
     rewards={
@@ -368,7 +334,30 @@ nodes[32742127] = Treasure({
     }
 }) -- Kyrian Keepsake
 
-nodes[47236216] = Treasure({
+map.nodes[62505990] = Treasure({
+    quest=59245,
+    note=L["misplaced_supplies"],
+    rewards={
+        Achievement({id=14312, criteria=50071}),
+    },
+    pois={
+        POI({61925851}) -- Way up
+    }
+}) -- Misplaced Supplies
+
+map.nodes[42382333] = Treasure({
+    quest=61470,
+    note=L["necro_tome_note"],
+    rewards={
+        Achievement({id=14312, criteria=50068}),
+        Toy({item=182732}) -- The Necronom-i-nom
+    },
+    pois={
+        POI({40693305}) -- NPC location
+    }
+}) -- Necro Tome
+
+map.nodes[47236216] = Treasure({
     quest=59358,
     rewards={
         Achievement({id=14312, criteria=50063}),
@@ -376,7 +365,7 @@ nodes[47236216] = Treasure({
     }
 }) -- Ornate Bone Shield
 
-nodes[57667581] = Treasure({
+map.nodes[57667581] = Treasure({
     quest=61474,
     note=L["plaguefallen_chest_note"],
     rewards={
@@ -384,28 +373,38 @@ nodes[57667581] = Treasure({
         Pet({item=183515, id=3045}) -- Reanimated Plague
     },
     pois={
-        POI({62487656, scale=0.75})
+        POI({62487656})
     }
 }) -- Plaguefallen Chest
 
-nodes[64672475] = Treasure({
-    quest=nil,
-    note=L["activation_unknown"],
+map.nodes[64672475] = Treasure({
+    quest=61514,
+    requires='{spell:337041}',
+    note=L["ritualists_cache_note"],
     rewards={
-        Achievement({id=14312, criteria=50075})
+        Achievement({id=14312, criteria=50075}),
+        Item({item=183517, quest=62372}) -- Page 76 of the Necronom-i-nom
+    },
+    pois={
+        POI({69873103, 69073250, 71473663}), -- Bone Pile
+        POI({71733540}) -- Book of Binding Ritials
     }
 }) -- Ritualist's Cache
 
-nodes[31737004] = Treasure({
-    quest=nil,
+map.nodes[31737004] = Treasure({
+    quest=61491,
     requires="{item:181777}",
-    note=L["requirement_not_found"],
+    note=L["runespeakers_trove_note"],
     rewards={
-        Achievement({id=14312, criteria=50073})
+        Achievement({id=14312, criteria=50073}),
+        Transmog({item=183516, slot=L['cloth']}) -- Stained Bonefused Mantle
+    },
+    pois={
+        POI({37867013})
     }
 }) -- Runespeaker's Trove
 
-nodes[73564986] = Treasure({
+map.nodes[73564986] = Treasure({
     quest=61451,
     note=L["stolen_jar_note"],
     rewards={
@@ -414,7 +413,7 @@ nodes[73564986] = Treasure({
     }
 }) -- Stolen Jar
 
-nodes[55893897] = Treasure({
+map.nodes[55893897] = Treasure({
     quest={59428,59429},
     label='unit:Creature-0-0-0-0-165037',
     note=L["strange_growth_note"],
@@ -424,7 +423,15 @@ nodes[55893897] = Treasure({
     }
 }) -- Strange Growth
 
-nodes[59867906] = Treasure({
+-- map.nodes[] = Treasure({
+--     quest=,
+--     note=L[""],
+--     rewards={
+--         Achievement({id=14312, criteria=49436}),
+--     }
+-- }) -- Sword of Oonar
+
+map.nodes[59867906] = Treasure({
     quest=61444,
     note=L["vat_of_slime_note"],
     rewards={
@@ -433,50 +440,114 @@ nodes[59867906] = Treasure({
     }
 }) -- Vat of Conspicuous Slime
 
+map.nodes[51444848] = Treasure({
+--    quest=61127, -- Oonar's Arm / Sorrowbane questid missing
+    note=L["oonar_sorrowbane_note"],
+    rewards={
+        Achievement({id=14626, criteria=0}),
+        Pet({item=181164, id=2944}), -- Oonar's Arm
+        Transmog({item=180273, slot=L["2h_sword"]}), --Sorrowbane
+    },
+    pois={
+        POI({50945317, 37114699, 53634792, 76445672})
+    }
+}) -- Oonar's Arm and Sorrowbane /Oornas Arm und Kummerfluch
+
+-------------------------------------------------------------------------------
+
+local forgotten_treasure = Treasure({
+    quest=58710,
+    note=L["forgotten_mementos"],
+    rewards={
+        Achievement({id=14312, criteria=50069})
+    }
+}) -- Forgotten Mementos
+
+map.nodes[22503030] = forgotten_treasure
+
+local etheric_vault = Map({id=1649, parents={treasures=1536}})
+etheric_vault.nodes[34565549] = ns.clone(forgotten_treasure, {
+    pois={
+        POI({25815353}) -- Vault Portcullis Chain
+    }
+})
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34005526] = PetBattle({
+    id=173263,
+    rewards={
+        Achievement({id=14625, criteria=49412})
+    }
+}) -- Rotgut
+
+map.nodes[46865000] = PetBattle({
+    id=173257,
+    rewards={
+        Achievement({id=14625, criteria=49413})
+    }
+}) -- Caregiver Maximillian
+
+map.nodes[54062806] = PetBattle({
+    id=173274,
+    rewards={
+        Achievement({id=14625, criteria=49410})
+    }
+}) -- Gorgemouth
+
+map.nodes[63234687] = PetBattle({
+    id=173267,
+    rewards={
+        Achievement({id=14625, criteria=49411})
+    }
+}) -- Dundley Stickyfingers
+
 -------------------------------------------------------------------------------
 ------------------------------- NINE AFTERLIVES -------------------------------
 -------------------------------------------------------------------------------
 
 local Kitten = Class('Kitten', NPC, {
+    group = 'slime_cat',
     icon = 3732497, -- inv_catslime
     sublabel = L["pet_cat"]
 })
 
-function Kitten:enabled (map, coord, minimap)
+function Kitten:completed ()
     -- Stop showing the node once the achievement criteria is completed
-    if self:done() then return false end
-    return NPC.enabled(self, map, coord, minimap)
+    return self:collected()
 end
 
-nodes[65225065] = Kitten({id=174224, rewards={
+map.nodes[65225065] = Kitten({id=174224, rewards={
     Achievement({id=14634, criteria=49428})
 }}) -- Envy
 
-nodes[51002750] = Kitten({id=174230, rewards={
+map.nodes[51002750] = Kitten({id=174230, rewards={
     Achievement({id=14634, criteria=49430})
 }, note=L["lime"]}) -- Lime
 
-nodes[49461761] = Kitten({id=174234, rewards={
+map.nodes[49461761] = Kitten({id=174234, rewards={
     Achievement({id=14634, criteria=49431})
 }}) -- Mayhem
 
-nodes[34305310] = Kitten({id=174237, rewards={
+map.nodes[34305310] = Kitten({id=174237, rewards={
     Achievement({id=14634, criteria=49433})
 }}) -- Meowmalade
 
-nodes[47533375] = Kitten({id=174236, rewards={
+map.nodes[47533375] = Kitten({id=174236, rewards={
     Achievement({id=14634, criteria=49432})
 }, note=L["moldstopheles"]}) -- Moldstopheles
 
-nodes[64802240] = Kitten({id=174226, rewards={
+map.nodes[64802240] = Kitten({id=174226, rewards={
     Achievement({id=14634, criteria=49429})
 }}) -- Mr. Jigglesworth
 
-nodes[50246027] = Kitten({id=174223, rewards={
+map.nodes[50246027] = Kitten({id=174223, rewards={
     Achievement({id=14634, criteria=49427})
 }, note=L["pus_in_boots"]}) -- Pus-In-Boots
 
-nodes[32005700] = Kitten({id=174221, rewards={
+map.nodes[32005700] = Kitten({id=174221, rewards={
     Achievement({id=14634, criteria=49426})
 }}) -- Snots
 
@@ -485,28 +556,8 @@ local HAIRBALL = Kitten({id=174195, rewards={
 }, note=L["hairball"]}) -- Hairball
 
 -- Add Hairball to the dungeon map
-local festering_sanctum = Map({ id=1697 })
+local festering_sanctum = Map({id=1697, parents={slime_cat=1536}})
 festering_sanctum.nodes[45203680] = HAIRBALL
-ns.maps[festering_sanctum.id] = festering_sanctum
 
 -- Add Hairball to the world map
-nodes[68108620] = HAIRBALL
-
--------------------------------------------------------------------------------
-
-function map:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    if node == map.intro then return true end
-
-    -- add rlabel and warning if covenant doesn't match
-    ns.processCovenant(node)
-
-    local profile = ns.addon.db.profile
-    if isinstance(node, Rare) then return profile.rare_maldraxxus end
-    if isinstance(node, Treasure) then return profile.treasure_maldraxxus end
-    if isinstance(node, Kitten) then return profile.kitten_maldraxxus end
-    return true
-end
-
-ns.maps[map.id] = map
+map.nodes[68108620] = HAIRBALL

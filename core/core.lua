@@ -20,9 +20,9 @@ ns.maps = {}
 
 local DropdownMenu = CreateFrame("Frame", ADDON_NAME.."DropdownMenu")
 DropdownMenu.displayMode = "MENU"
-local function initializeDropdownMenu (button, level, mapID, coord)
+local function initializeDropdownMenu (level, mapID, coord)
     if not level then return end
-    local node = ns.maps[mapID].nodes[coord];
+    local node = ns.maps[mapID].nodes[coord]
     local spacer = {text='', disabled=1, notClickable=1, notCheckable=1}
 
     if (level == 1) then
@@ -31,6 +31,16 @@ local function initializeDropdownMenu (button, level, mapID, coord)
         }, level)
 
         UIDropDownMenu_AddButton(spacer, level)
+
+        UIDropDownMenu_AddButton({
+            text=L["context_menu_set_waypoint"], notCheckable=1,
+            disabled=not C_Map.CanSetUserWaypointOnMap(mapID),
+            func=function (button)
+                local x, y = HandyNotes:getXY(coord)
+                C_Map.SetUserWaypoint(UiMapPoint.CreateFromCoordinates(mapID, x, y))
+                C_SuperTrack.SetSuperTrackedUserWaypoint(true)
+            end
+        }, level)
 
         if select(2, IsAddOnLoaded('TomTom')) then
             UIDropDownMenu_AddButton({
@@ -50,7 +60,7 @@ local function initializeDropdownMenu (button, level, mapID, coord)
         UIDropDownMenu_AddButton({
             text=L["context_menu_hide_node"], notCheckable=1,
             func=function (button)
-                Addon.db.char[mapID..'_coord_'..coord] = true;
+                Addon.db.char[mapID..'_coord_'..coord] = true
                 Addon:Refresh()
             end
         }, level)
@@ -58,12 +68,12 @@ local function initializeDropdownMenu (button, level, mapID, coord)
         UIDropDownMenu_AddButton({
             text=L["context_menu_restore_hidden_nodes"], notCheckable=1,
             func=function ()
-                table.wipe(Addon.db.char)
+                wipe(Addon.db.char)
                 Addon:Refresh()
             end
         }, level)
 
-        UIDropDownMenu_AddButton(spacer, level);
+        UIDropDownMenu_AddButton(spacer, level)
 
         UIDropDownMenu_AddButton({
             text=CLOSE, notCheckable=1,
@@ -108,9 +118,9 @@ end
 function Addon:OnClick(button, down, mapID, coord)
     local node = ns.maps[mapID].nodes[coord]
     if button == "RightButton" and down then
-        DropdownMenu.initialize = function (button, level)
-            initializeDropdownMenu(button, level, mapID, coord)
-        end;
+        DropdownMenu.initialize = function (_, level)
+            initializeDropdownMenu(level, mapID, coord)
+        end
         ToggleDropDownMenu(1, nil, DropdownMenu, self, 0, 0)
     elseif button == "LeftButton" and down then
         if node.pois then
@@ -127,6 +137,13 @@ function Addon:OnInitialize()
         self:UnregisterEvent("PLAYER_ENTERING_WORLD")
         self:ScheduleTimer("RegisterWithHandyNotes", 1)
     end)
+
+    -- Add quick-toggle menu button to top-right corner of world map
+    WorldMapFrame:AddOverlayFrame(
+        ADDON_NAME.."WorldMapOptionsButtonTemplate",
+        "DROPDOWNTOGGLEBUTTON", "TOPRIGHT",
+        WorldMapFrame:GetCanvasContainer(), "TOPRIGHT", -68, -2
+    )
 end
 
 -------------------------------------------------------------------------------
@@ -142,7 +159,7 @@ function Addon:RegisterWithHandyNotes()
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
                 if node and map:enabled(node, coord, minimap) then
-                    local icon, scale, alpha = node:display()
+                    local icon, scale, alpha = node:display(map)
                     return coord, nil, icon, scale, alpha
                 end
                 coord, node = next(nodes, coord) -- Get next node

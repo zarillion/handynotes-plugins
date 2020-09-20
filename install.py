@@ -1,5 +1,7 @@
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from os import path
+from shlex import quote
+from subprocess import run
 import os
 import re
 import shutil
@@ -14,8 +16,24 @@ NOTE: Must be run as administrator on Windows to allow symlink creation.
 eprint = lambda *args: print(*args, file=sys.stderr)
 
 def install(src, dst):
-    if not path.islink(dst):
-        print(f'Installing {src} => {dst}')
+    if path.islink(dst): return
+    print(f'Installing {src} => {dst}')
+    if 'WSL_DISTRO_NAME' in os.environ:
+        # os.symlink() does not create links that work from the Windows side.
+        # Use mklink to create a windows-compatible symlink from inside WSL.
+        #   1 - Use to parent dir of "dst" as CWD to this cmd.exe warning:
+        #       UNC paths are not supported.  Defaulting to Windows directory.
+        #   2 - Ensure the src is outside of WSL or Battle.net client bugs
+        src = path.realpath(src)
+        if not src.startswith('/mnt/'):
+            raise RuntimeError('Project files must not live inside WSL!')
+
+        cwd = path.dirname(dst)
+        dir = '/D' if path.isdir(src) else ''
+        src = quote(re.sub(r'/mnt/([a-z])/', r'\1:\\\\', src).replace('/', '\\'))
+        dst = path.basename(dst)
+        run(f'cmd.exe /c mklink {dir} {dst} {src}', cwd=cwd, check=True, shell=True)
+    else:
         os.symlink(path.abspath(src), dst)
 
 def main():
@@ -55,8 +73,9 @@ def main():
         for item in ('core', 'icons', 'libs', 'embeds.xml'):
             install(item, path.join(target_dir, item))
 
-        # install templated pins.xml file
-        with open('pins.xml') as f1, open(path.join(target_dir, 'pins.xml'), 'w') as f2:
+        # install templates.xml file
+        with open('templates.xml') as f1, open(path.join(target_dir, 'templates.xml'), 'w') as f2:
+            print(f"Writing templates.xml => {path.join(target_dir, 'templates.xml')}")
             f2.write(f1.read().format(addon=plugin_name))
 
 if __name__ == '__main__':

@@ -25,7 +25,7 @@ function TestClass:testConstructor ()
     luaunit.assertIsNil(Node.__parent)
 
     -- Verify name parameter must be a string
-    local msg = 'name parameter must be a string'
+    local msg = 'name param must be a string'
     luaunit.assertErrorMsgContains(msg, Class)
     luaunit.assertErrorMsgContains(msg, Class, 123)
 end
@@ -68,7 +68,7 @@ function TestClass:testInstantiation ()
     local node = Node()
 
     luaunit.assertIsTable(node)
-    luaunit.assertStrMatches(tostring(node), '<Node object at [0-9a-f]+>')
+    luaunit.assertStrMatches(tostring(node), '<Node object at [0-9a-fx]+>')
     luaunit.assertIs(node.__class, Node)
 end
 
@@ -226,12 +226,13 @@ function TestInheritance:testAttributeInheritance ()
     local node = Node()
     local rare = Rare({ icon='skull' })
 
-    luaunit.assertStrMatches(tostring(node), '<Node object at [0-9a-f]+>')
-    luaunit.assertStrMatches(tostring(rare), '<Rare object at [0-9a-f]+>')
+    luaunit.assertStrMatches(tostring(node), '<Node object at [0-9a-fx]+>')
+    luaunit.assertStrMatches(tostring(rare), '<Rare object at [0-9a-fx]+>')
 
     luaunit.assertEquals(rare.icon, 'skull')
     luaunit.assertEquals(rare.alpha, 1)
     luaunit.assertEquals(rare.scale, 2)
+    luaunit.assertIsNil(rare.label)
 end
 
 function TestInheritance:testMethodInheritance ()
@@ -269,7 +270,7 @@ function TestInheritance:testGetterInheritance ()
     luaunit.assertIsNil(Node.id)
     luaunit.assertEquals(Rare.id, 456)
     luaunit.assertEquals(Node().id, 123)
-    luaunit.assertEquals(Rare().id, 123) -- FIXME: should be 456!
+    luaunit.assertEquals(Rare().id, 456)
     luaunit.assertEquals(Rare({ id=789 }).id, 789)
 
     -- Verify getter in child overrides getter in parent

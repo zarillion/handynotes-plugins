@@ -43,7 +43,7 @@ L["activation_unknown"] = "Aktivierung unbekannt!"
 L["requirement_not_found"] = "Voraussetzungsort unbekannt!"
 
 L["Requires"] = "Benötigt"
-L["focus"] = "Focus"
+L["focus"] = "fokussieren"
 L["retrieving"] = "Gegenstandslink wird abgerufen ..."
 L["in_cave"] = "In einer Höhle."
 L["in_small_cave"] = "In einer kleinen Höhle."
@@ -60,44 +60,49 @@ L["completed"] = "Abgeschlossen"
 L["incomplete"] = "Unvollständig"
 L["known"] = "Bekannt"
 L["missing"] = "Fehlt"
-L["unobtainable"] = "Unerreichbar"
+L["unobtainable"] = "Nicht erhältlich"
 L["unlearnable"] = "Nicht erlernbar"
 L["A"] = "L" -- available/alive
 L["D"] = "T" -- dead/defeated
+L["defeated"] = "Besiegt"
+L["undefeated"] = "Unbesiegt"
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
 
+L["context_menu_set_waypoint"] = "Kartenmarkierung setzen"
 L["context_menu_add_tomtom"] = "Zu TomTom hinzufügen"
 L["context_menu_hide_node"] = "Verstecke diesen Punkt"
 L["context_menu_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
+
+L["map_button_text"] = "Passe die Symbolanzeige, die Transparenz und die Größe für diese Karte an."
 
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["options_global"] = "Global"
+L["options_zones"] = "Zonen"
+
+L["options_general_description"] = "Einstellungen, die das Verhalten von Punkten und deren Belohnungen steuern."
+L["options_global_description"] = "Einstellungen, die die Darstellung aller Punkte in allen Zonen steuern."
+L["options_zones_description"] = "Einstellungen, die die Darstellung von Punkten in jeder einzelnen Zone steuern."
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "Symboleinstellungen"
-L["options_icons_treasures"] = "Schatzsymbole"
-L["options_icons_rares"] = "Seltene Gegner Symbole"
-L["options_icons_caves"] = "Höhlensymbole"
-L["options_icons_pet_battles"] = "Haustierkampfsymbole"
-L["options_icons_other"] = "Andere Symbole"
-L["options_scale"] = "Symbolgröße"
+L["options_scale"] = "Größe"
 L["options_scale_desc"] = "1 = 100%"
-L["options_opacity"] = "Symboltransparenz"
+L["options_opacity"] = "Transparenz"
 L["options_opacity_desc"] = "0 = transparent, 1 = undurchsichtig"
 
 ---------------------------------- VISIBILITY ---------------------------------
 
 L["options_visibility_settings"] = "Sichtbarkeit"
 L["options_general_settings"] = "Allgemeines"
-L["options_toggle_looted_rares"] = "Zeige immer alle seltenen Gegner an"
-L["options_toggle_looted_rares_desc"] = "Zeigt alle seltenen Gegner unabhängig vom Lootstatus"
-L["options_toggle_looted_treasures"] = "Bereits geplünderte Schätze anzeigen"
-L["options_toggle_looted_treasures_desc"] = "Zeigt alle Schätze unabhängig vom Lootstatus"
+L["options_show_completed_nodes"] = "Zeige abgeschlossenes"
+L["options_show_completed_nodes_desc"] = "Zeigt alle Punkte an, auch wenn diese heute bereits geplündert oder abgeschlossen wurden."
 L["options_toggle_hide_done_rare"] = "Blende seltene Gegner aus deren Beute bekannt ist."
 L["options_toggle_hide_done_rare_desc"] = "Blendet alle seltenen Gegner deren Beute bereits bekannt ist aus."
 L["options_toggle_hide_minimap"] = "Blende alle Symbole auf der Minikarte aus"
@@ -105,20 +110,26 @@ L["options_toggle_hide_minimap_desc"] = "Blendet alle Symbole dieses Addons auf 
 L["options_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 L["options_restore_hidden_nodes_desc"] = "Stelle alle Punkte wiederher die über das Kontextmenü versteckt wurden."
 
-L["options_toggle_battle_pets_desc"] = "Zeigt Standorte von Kampfhaustiertrainern und NPCs an."
-L["options_toggle_battle_pets"] = "Kampfhaustiere"
-L["options_toggle_caves_desc"] = "Zeigt Höhleneingänge für andere Symbole an"
-L["options_toggle_caves"] = "Höhlen"
-L["options_toggle_chests_desc"] = "Zeigt die Positionen von Truhen an \n(täglich plünderbar)."
-L["options_toggle_chests"] = "Truhen"
-L["options_toggle_misc"] = "Sonstiges"
-L["options_toggle_npcs"] = "NPCs"
-L["options_toggle_rares_desc"] = "Zeigt die Positionen von seltenen Gegnern an."
-L["options_toggle_rares"] = "Seltene Gegner"
-L["options_toggle_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
-L["options_toggle_supplies"] = "Kisten mit Kriegsvorräten"
-L["options_toggle_treasures"] = "Schätze"
-L["options_toggle_treasures_desc"] = "Zeigt die Standorte versteckter Schätze an."
+L["options_icons_pet_battles_desc"] = "Zeigt Standorte von Kampfhaustiertrainern und NPCs an."
+L["options_icons_pet_battles"] = "Kampfhaustiere"
+L["options_icons_caves_desc"] = "Zeigt Höhleneingänge für andere Symbole an"
+L["options_icons_caves"] = "Höhlen"
+L["options_icons_daily_chests_desc"] = "Zeigt die Positionen von Truhen an \n(täglich plünderbar)."
+L["options_icons_daily_chests"] = "Truhen"
+L["options_icons_daily_quests_desc"] = "Zeigt die Positionen von nicht markierten täglichen Quests an."
+L["options_icons_daily_quests"] = "Tägliche Quests"
+L["options_icons_misc"] = "Sonstiges"
+L["options_icons_npcs"] = "NPCs"
+L["options_icons_other_desc"] = "Zeigt die Positionen von anderen nicht kategorisierten Punkten an."
+L["options_icons_other"] = "Andere Symbole"
+L["options_icons_quests_desc"] = "Zeigt die Positionen von nicht markierten Questreihen an."
+L["options_icons_quests"] = "Quests"
+L["options_icons_rares_desc"] = "Zeigt die Positionen von seltenen Gegnern an."
+L["options_icons_rares"] = "Seltene Gegner"
+L["options_icons_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
+L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
+L["options_icons_treasures"] = "Schätze"
+L["options_icons_treasures_desc"] = "Zeigt die Standorte versteckter Schätze an."
 
 ---------------------------------- TOOLTIP ---------------------------------
 

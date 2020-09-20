@@ -6,7 +6,6 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local clone = ns.clone
-local isinstance = ns.isinstance
 
 local Map = ns.Map
 local Node = ns.node.Node
@@ -17,111 +16,39 @@ local Mount = ns.reward.Mount
 local Toy = ns.reward.Toy
 local Path = ns.poi.Path
 
-local options = ns.options.args.VisibilityGroup.args
-local defaults = ns.optionDefaults.profile
-
 -------------------------------------------------------------------------------
 
-local Buff = Class('Buff', Node)
-local Crystal = Class('Crystal', Node, {icon='orange_crystal', scale=1.5, label=L["odd_crystal"]})
+local Buff = Class('Buff', Node, { group='visions_buffs' })
 
-local MAIL = Node({icon='envelope', scale=1.2, label=L["mailbox"], rewards={
-    Mount({id=1315, item=174653}) -- Mail Muncher
-}, note=L["mail_muncher"]})
+local Crystal = Class('Crystal', Node, {
+    icon='orange_crystal',
+    scale=1.5,
+    group='visions_crystals',
+    label=L["odd_crystal"]
+})
 
-local CHEST1 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 1)})
-local CHEST2 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 2)})
-local CHEST3 = Treasure({label=L["black_empire_cache"], sublabel=string.format(L["clear_sight"], 3)})
+local MAIL = Node({
+    icon='envelope',
+    scale=1.2,
+    group='visions_mail',
+    label=L["mailbox"],
+    note=L["mail_muncher"],
+    rewards={
+        Mount({id=1315, item=174653}) -- Mail Muncher
+    }
+})
+
+local CHEST = Treasure({group='visions_chest', label=L["black_empire_cache"]})
+local CHEST1 = clone(CHEST, {sublabel=string.format(L["clear_sight"], 1)})
+local CHEST2 = clone(CHEST, {sublabel=string.format(L["clear_sight"], 2)})
+local CHEST3 = clone(CHEST, {sublabel=string.format(L["clear_sight"], 3)})
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
 local orgrimmar = Map({ id=1469 })
-
-function orgrimmar:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    local profile = ns.addon.db.profile
-    if isinstance(node, Treasure) then return profile.chest_visions end
-    if isinstance(node, Buff) then return profile.buff_visions end
-    if node == MAIL then return profile.mail_visions end
-    return profile.misc_visions
-end
-
 local stormwind = Map({ id=1470 })
-
-function stormwind:enabled (node, coord, minimap)
-    if not Map.enabled(self, node, coord, minimap) then return false end
-
-    local profile = ns.addon.db.profile
-    if isinstance(node, Treasure) then return profile.chest_visions end
-    if isinstance(node, Buff) then return profile.buff_visions end
-    if isinstance(node, Crystal) then return profile.crystal_visions end
-    if node == MAIL then return profile.mail_visions end
-    return profile.misc_visions
-end
-
--------------------------------------------------------------------------------
------------------------------------ OPTIONS -----------------------------------
--------------------------------------------------------------------------------
-
-defaults['chest_visions'] = true
-defaults['buff_visions'] = true
-defaults['crystal_visions'] = true
-defaults['mail_visions'] = true
-defaults['misc_visions'] = true
-
-options.groupVisions = {
-    type = "header",
-    name = L["horrific_visions"],
-    order = 20,
-}
-
-options.chestVisions = {
-    type = "toggle",
-    arg = "chest_visions",
-    name = L["options_toggle_chests"],
-    desc = L["options_toggle_visions_chest_desc"],
-    order = 21,
-    width = "normal",
-}
-
-options.buffVisions = {
-    type = "toggle",
-    arg = "buff_visions",
-    name = L["options_toggle_visions_buffs"],
-    desc = L["options_toggle_visions_buffs_desc"],
-    order = 22,
-    width = "normal",
-}
-
-options.crystalVisions = {
-    type = "toggle",
-    arg = "crystal_visions",
-    name = L["options_toggle_visions_crystals"],
-    desc = L["options_toggle_visions_crystals_desc"],
-    order = 23,
-    width = "normal",
-}
-
-options.mailVisions = {
-    type = "toggle",
-    arg = "mail_visions",
-    name = L["options_toggle_visions_mail"],
-    desc = L["options_toggle_visions_mail_desc"],
-    order = 24,
-    width = "normal",
-}
-
-options.miscVisions = {
-    type = "toggle",
-    arg = "misc_visions",
-    name = L["options_toggle_misc"],
-    desc = L["options_toggle_visions_misc_desc"],
-    order = 25,
-    width = "normal",
-}
 
 -------------------------------------------------------------------------------
 ---------------------------------- ORGRIMMAR ----------------------------------
@@ -220,17 +147,16 @@ orgrimmar.nodes[57676513] = Buff({icon=1717106, label=L["ethereal_essence"],
 
 -------------------------------------------------------------------------------
 
-orgrimmar.nodes[54027044] = NPC({id=162358, icon=2823166, note=L["ethereal_note"]})
-orgrimmar.nodes[46828078] = Node({icon=967522, label=L["colored_potion"],
+orgrimmar.nodes[54027044] = NPC({id=162358, icon=2823166, group='visions_misc', note=L["ethereal_note"]})
+orgrimmar.nodes[46828078] = Node({icon=967522, group='visions_misc', label=L["colored_potion"],
     note=string.format(L["colored_potion_note"], L["yelmak"])})
 
-local SHAVE_KIT = Node({icon=1001616, label=L["shave_kit"], note=L["shave_kit_note"], rewards={
+local SHAVE_KIT = Node({icon=1001616, group='visions_misc', label=L["shave_kit"], note=L["shave_kit_note"], rewards={
     Toy({item=174920}) -- Coifcurl's Close Shave Kit
 }})
 
-function SHAVE_KIT:enabled (map, coord, minimap)
-    if not Node.enabled(self, map, coord, minimap) then return false end
-    return ns.addon.db.profile.always_show_treasures or (not self:done())
+function SHAVE_KIT:completed ()
+    return self:collected()
 end
 
 orgrimmar.nodes[39906120] = SHAVE_KIT
@@ -323,22 +249,21 @@ stormwind.nodes[63107740] = Buff({icon=133784, label=L["enriched"],
 
 -------------------------------------------------------------------------------
 
-stormwind.nodes[57204620] = NPC({id=162358, icon=2823166, note=L["ethereal_note"]})
-stormwind.nodes[51765852] = Node({icon=967522, label=L["colored_potion"],
+stormwind.nodes[57204620] = NPC({id=162358, icon=2823166, group='visions_misc', note=L["ethereal_note"]})
+stormwind.nodes[51765852] = Node({icon=967522, group='visions_misc', label=L["colored_potion"],
     note=string.format(L["colored_potion_note"], L["morgan_pestle"])})
 
-local VOID_SKULL = Node({icon=237272, label=L["void_skull"], note=L["void_skull_note"], rewards={
+local VOID_SKULL = Node({icon=237272, group='visions_misc', label=L["void_skull"], note=L["void_skull_note"], rewards={
     Toy({item=174921}) -- Void-Touched Skull
 }})
 
-function VOID_SKULL:enabled (map, coord, minimap)
-    if not Node.enabled(self, map, coord, minimap) then return false end
-    return ns.addon.db.profile.always_show_treasures or (not self:done())
+function VOID_SKULL:completed ()
+    return self:collected()
 end
 
 stormwind.nodes[58905290] = VOID_SKULL
 
-stormwind.nodes[59106390] = Rare({id=158284, note=L["craggle"], pois={
+stormwind.nodes[59106390] = Rare({id=158284, group='visions_misc', note=L["craggle"], pois={
     Path({
         58707630, 57507290, 56406950, 56706670, 59106390, 62306130, 64706190,
         67006490, 68406710
@@ -346,8 +271,3 @@ stormwind.nodes[59106390] = Rare({id=158284, note=L["craggle"], pois={
 }, rewards={
     Toy({item=174926}) -- Overly Sensitive Void Spectacles
 }}) -- Craggle Wobbletop
-
--------------------------------------------------------------------------------
-
-ns.maps[orgrimmar.id] = orgrimmar
-ns.maps[stormwind.id] = stormwind

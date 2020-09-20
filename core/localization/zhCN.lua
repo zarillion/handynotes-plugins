@@ -131,6 +131,21 @@ L["options_icons_supplies"] = "战争补给箱"
 L["options_icons_treasures"] = "宝藏"
 L["options_icons_treasures_desc"] = "显示隐藏宝藏位置。"
 
+L["options_icons_pet_battles_desc"] = "显示宠物训练师的位置"
+L["options_icons_pet_battles"] = "战斗宠物"
+L["options_icons_caves_desc"] = "显示其它项的洞穴入口"
+L["options_icons_caves"] = "洞穴"
+L["options_icons_daily_chests_desc"] = "显示宝箱位置 (每日刷新)。"
+L["options_icons_daily_chests"] = "宝箱"
+L["options_icons_misc"] = "杂项"
+L["options_icons_npcs"] = "NPC"
+L["options_icons_other"] = "其他图标"
+L["options_icons_rares_desc"] = "显示稀有位置"
+L["options_icons_rares"] = "稀有"
+L["options_icons_supplies_desc"] = "显示战争补给箱（空投）的位置"
+L["options_icons_supplies"] = "战争补给箱（空投）"
+L["options_icons_treasures"] = "宝藏"
+
 ---------------------------------- TOOLTIP ---------------------------------
 
 L["options_tooltip_settings"] = "提示"

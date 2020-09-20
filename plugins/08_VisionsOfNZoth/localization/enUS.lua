@@ -6,9 +6,8 @@ if not L then return end
 ----------------------------------- GENERAL -----------------------------------
 -------------------------------------------------------------------------------
 
-L["context_menu_title"] = "HandyNotes Visions of N'Zoth"
+L["context_menu_title"] = "HandyNotes: Visions of N'Zoth"
 L["options_title"] = "Visions of N'Zoth"
-L["options_icons_assaultevents"] = "Assault Event Icons"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -50,12 +49,12 @@ L["amathet_reliquary"] = "Amathet Reliquary"
 L["cursed_relic"] = "Requires Cursed Relic"
 L["tolvir_relic"] = "Requires Tol'vir Relic"
 
-L["options_toggle_alpaca_uldum"] = "Springfur Alpaca"
-L["options_toggle_alpaca_uldum_desc"] = "Show locations for Gersahl Shrub and Friendly Alpaca spawns."
-L["options_toggle_assault_events"] = "Assault Events"
-L["options_toggle_assault_events_desc"] = "Show locations for possible assault events."
-L["options_toggle_coffers"] = "Locked Coffers"
-L["options_toggle_coffers_desc"] = "Display locations of locked coffers (lootable once per assault)."
+L["options_icons_alpaca_uldum"] = "Springfur Alpaca"
+L["options_icons_alpaca_uldum_desc"] = "Show locations for Gersahl Shrub and Friendly Alpaca spawns."
+L["options_icons_assault_events"] = "Assault Events"
+L["options_icons_assault_events_desc"] = "Show locations for possible assault events."
+L["options_icons_coffers"] = "Locked Coffers"
+L["options_icons_coffers_desc"] = "Display locations of locked coffers (lootable once per assault)."
 
 L["ambush_settlers"] = "Defeat waves of mobs until the event ends."
 L["burrowing_terrors"] = "Jump on the Burrowing Scarabs to squish them."
@@ -216,14 +215,16 @@ L["c_underneath_bridge"] = "Underneath the bridge."
 L["c_walkway_corner"] = "On the upper walkway in a corner."
 L["c_walkway_platform"] = "On a platform above the upper walkway."
 
-L["options_toggle_visions_buffs"] = "Buffs"
-L["options_toggle_visions_buffs_desc"] = "Show locations of events that grant 1 hour damage buffs."
-L["options_toggle_visions_chest_desc"] = "Show possible chest locations inside horrific visions."
-L["options_toggle_visions_crystals"] = "Odd Crystals"
-L["options_toggle_visions_crystals_desc"] = "Show possible odd crystal locations inside horrific visions."
-L["options_toggle_visions_mail"] = "Mailboxes"
-L["options_toggle_visions_mail_desc"] = "Show mailbox locations for the Mail Muncher mount."
-L["options_toggle_visions_misc_desc"] = "Show rare, toy, potion and ethereal locations inside horrific visions."
+L["options_icons_visions_buffs"] = "Buffs"
+L["options_icons_visions_buffs_desc"] = "Show locations of events that grant 1 hour damage buffs."
+L["options_icons_visions_chest"] = "Chests"
+L["options_icons_visions_chest_desc"] = "Show possible chest locations inside horrific visions."
+L["options_icons_visions_crystals"] = "Odd Crystals"
+L["options_icons_visions_crystals_desc"] = "Show possible odd crystal locations inside horrific visions."
+L["options_icons_visions_mail"] = "Mailboxes"
+L["options_icons_visions_mail_desc"] = "Show mailbox locations for the Mail Muncher mount."
+L["options_icons_visions_misc"] = "Miscellaneous"
+L["options_icons_visions_misc_desc"] = "Show rare, toy, potion and ethereal locations inside horrific visions."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -231,5 +232,5 @@ L["options_toggle_visions_misc_desc"] = "Show rare, toy, potion and ethereal loc
 
 L["voldun"] = "Vol'dun"
 L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
-L["options_toggle_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
-L["options_toggle_alpaca_voldun"] = "Elusive Quickhoof"
+L["options_icons_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
+L["options_icons_alpaca_voldun"] = "Elusive Quickhoof"

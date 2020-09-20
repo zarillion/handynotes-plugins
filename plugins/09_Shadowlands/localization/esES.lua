@@ -1,4 +1,4 @@
---	Spanish Localization by (EU) Krovikan-Minahonda
+-- Spanish Localization by (EU) Krovikan-Minahonda
 
 local ADDON_NAME, ns = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "esES", false, true)
@@ -8,9 +8,19 @@ if not L then return end
 ----------------------------------- GENERAL -----------------------------------
 -------------------------------------------------------------------------------
 
-L["context_menu_title"] = "HandyNotes Shadowlands"
+L["context_menu_title"] = "HandyNotes: Shadowlands"
 L["options_title"] = "Shadowlands"
 L["covenant_required"] = "Requiere ser miembro de la curia %s."
+
+local ACHAN = "ánima canalizada a %s."
+L["achan_citadel_of_loyalty"] = ACHAN:format('Ciudadela de la Lealtad')--Revisar que Citadel of Loyalty sea Ciudadela de la Lealtad
+L["achan_dominance_keep"] = ACHAN:format('Fortaleza de la Dominancia')--Revisar que Dominance Keep sea Fortaleza de la Dominancia
+L["achan_dreamsong_fenn"] = ACHAN:format('Canción del Sueño de Fenn')--Revisar Dreamsong Fenn sea Canción del Sueño de Fenn
+L["achan_house_of_constructs"] = ACHAN:format('Casa de las Construcciones')--Revisar que House of Constructs sea Casa de las Construcciones
+L["achan_temple_of_courage"] = ACHAN:format('Templo del Coraje')--Revisar que Temple of Courage sea Templo del Coraje
+L["achan_theater_of_pain"] = ACHAN:format('Teatro del Dolor')--Revisar que Theater of Pain sea Teatro del Dolor
+L["achan_tirna_scithe"] = ACHAN:format('Guadaña de Tirna')--Revisar que Tirna Scithe sea Guadaña de Tirna
+L["achan_wanecrypt_hill"] = ACHAN:format('Cripta de la Colina Inclinada')--Revisar que Wanecrypt Hill sea Cripta de la Colina Inclinada
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -27,9 +37,19 @@ L["skuld_vit_note"] = "En una cueva bloqueada por una barrera. Con el hechizo {s
 L["valfir_note"] = "Haz click en la Semilla de Ánima Brillante a mitad de camino y usa {spell:338045} para quitar el buff {spell:338038} de {npc=168647}."--Revisar que Sparkling Animaseed sea Semilla de Ánima Brillante
 L["wrigglemortis_note"] = "Estira el {npc:164179} para sacarlo de la tierra y hacer aparecer a {npc=164147}."
 
-L["star_lake"] = "Anfiteatro del Lago Estrellado"--Revisar que Star Lake Amphitheater sea Anfiteatro del Lago Estrellado"
-L["star_lake_note"] = "Habla con {npc:171743}, el Director de Escena, el cual iniciará uno de los combates especiales."--Revisar que Stage Director sea Director de Escena
+L["night_mare_note"] = [[
+Viaja a Guadaña de Tirna y sigue el camino de la raíz, en el acantilado noroeste, hasta llegar a un carro roto. Allí podrás despojar una {item:181243} en el suelo.
 
+Lleva ese objeto a {npc:165704} a la Cuenca de la Caida Relumbrante. Te dará una {item:181242} a cambio de 10 {item:173204}. |cFFFF8C00Si no está aquí el NPC, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormling|r y |cFFFFFD00Spriggans Difíciles|r quest lines.|r
+
+Después, habla con {npc:160262} en el Corazón del Bosque para cambiarle la {item:181242} por un {item:178675}. Usa este objeto para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
+]]--Revisar que Tirna Scithe sea Guadaña de Tirna, que follow the root path sea sigue el camino de la raíz o sigue el camino de raices, que Glitterfall Basin sea Cuenca de la Caida Relumbrante, que Trouble at the Gormling Corral sea Problemas en el Corral de Gormling, que Tricky Spriggans sean Spriggans Difíciles, que Heart of the Forest sea Corazón del Bosque
+
+L["star_lake"] = "Anfiteatro del Lago Estrellado"--Revisar que Star Lake Amphitheater sea Anfiteatro del Lago Estrellado"
+L["star_lake_note"] = "Habla con {npc:171743}, el Director de Escena, para iniciar uno de los combates especiales."--Revisar que Stage Director sea Director de Escena
+
+L["cache_of_the_moon"] = "Recoge las cinco herramientas perdidas de {npc:171360} en el Jardín de la Noche y combínalas para crear el {item:180753}. Dáselo y ella te lanzará {spell:334353}, permitiéndote ver el cofre."--Revisar que Garden of Night sea Jardín de la Noche
+L["cache_of_the_night"] = "Recoge {item:180656}, {item:180654} y {item:180655} por toda la zona y combínalo todo para crear {item:180652}."
 L["darkreach_supplies"] = "Salta en la {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro Alijo de la Noche." --Revisar que Cache of the Night treasure sea Alijo de la Noche
 L["desiccated_moth"] = "Salta sobre {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el Quemador de Incienso para conseguir el tesoro."--Revisar que Incense Burner sea Quemador de Incienso
 L["dreamsong_heart"] = "Salta sobre {npc:169997} lejos al noreste para ser lanzado dentro del árbol."
@@ -40,6 +60,16 @@ L["harmonic_chest"] = "Requiere dos personas. Uno toca el arpa y el otro toca el
 L["hearty_dragon_plume"] = "Haz click en la {spell:333554} en la cima de las cascadas cercanas y úsala para flotar abajo hasta la rama."
 L["old_ardeite_note"] = "Mata al {npc:160747} y al {npc:160748} en Shimmerbough hacia el sureste para conseguir {item:174042}. Usa este objeto para volar cerca de {npc:164391} y targetearlo."
 L["swollen_anima_seed"] = "Una gran semilla reposando dentro del tronco de un árbol."
+
+L["playful_vulpin_note"] = [[
+Encuentra y usa la emoción correcta en el {npc:171206} cinco veces para conseguir la mascota.
+
+• comienza a escarbar con curiosidad = |cFFFF8C00/curiosear|r
+• corretea alrededor incapaz de quedarse quieto = |cFFFF8C00/sentar|r
+• canta solo = |cFFFF8C00/cantar|r
+• baila de alegría = |cFFFF8C00/bailar|r
+• se sienta solo y triste = |cFFFF8C00/mascota|r
+]]--Revisar emociones de texto y comandos /xxxxx
 
 L["tame_gladerunner"] = "Asaltaclaros Domado"--Revisar que Tame Gladerunner sea Asaltaclaros Domado
 L["tame_gladerunner_note"] = [[
@@ -53,13 +83,14 @@ Si tomas el camino equivocado y desaparece el {npc:171699} cuando llegues al fin
 -------------------------------------------------------------------------------
 
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con {npc:171211} como objetivo para activarlo."
+L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."--Revisar que Casks of Fermenting Purian Fruit sea Barriles de Fruta Puriana Fermentada
 L["basilofos_note"] = "Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}."
 L["beasts_of_bastion"] = "Bestias del Bastión"
 L["beasts_of_bastion_note"] = [[
 Habla con {npc:161441} para invocar una de las cuatro bestias.
 
-|cFFFF0000NOTE|r: El NPC se bugea frecuentemente y no hablará contigo. Aethon no es requisito para el logro y el segundo, Sigilback, realmente es Cloudtail.
-]]--Revisar los nombres de los raros del logro
+|cFFFF0000NOTE|r: El NPC se bugea frecuentemente y no hablará contigo.
+]]
 L["bookkeeper_mnemis_note"] = "Tiene la posibilidad de aparecer en lugar de los {npc:166867} del sitio."
 L["cloudfeather_patriarch_note"] = "Mata {npc:158110} en el aŕea hasta que {npc:170932} aparezca."
 L["collector_astor_note"] = "Lee los seis capítulos del Legado de Mercia dispersos por la habitación y recibirás un susurro de {npc:157979}. Habla con ella para recibir {spell:333779} el cual te permitirá encontrar el {item:180569} al noroeste. Al devolverle el capítulo, aparecerá {npc:171014}."--Revisar si Mercia's Legacy es Legado de Mercia
@@ -75,7 +106,7 @@ Las motas se pueden recoger de los Recipientes de Ánima Agotados cercanos local
 L["nikara_note"] = "Con otros dos jugadores, haz click en el Ancient Incense para invocar a {npc:160882}."
 L["sundancer_note"] = "Haz click en la estatua para conseguir el buff {spell:332309}, entonces usa {item:180445} para planear hasta {npc:170548} y montarlo."
 L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén presentes. Arrastra un {npc:171018} dentro de otros para que reciba 10 acumulaciones de {spell:333558}, lo que hará que se convierta en {npc:171008}."
---L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el cuerno de la mesa cercana que hay al sureste (subiendo unas escaleras)."
+L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno del Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras)."--Revisar que Horn of Courage sea Cuerno del Coraje
 
 L["broken_flute"] = "Mata a los {npc:170009} cercanos hasta que uno suelte la {item:180536}. Usa las herramientas para repararla."
 L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar la parte. El ánima tiene varios sitios de aparición."--Revisar que anima sea ánima
@@ -129,6 +160,7 @@ L["anima_shard_61258"] = "En una repisa pequeña en la parte inferior del Reposo
 L["anima_shard_61260"] = "En el suelo debajo de la plataforma."
 L["anima_shard_61261"] = "En una respisa sobre la cueva de {npc:163460}."
 L["anima_shard_61263"] = "Sobre un pilar de piedra."
+L["anima_shard_61264"] = "Encima de una estructura inclinada."
 L["anima_shard_61270"] = "Reposando en la base de un árbol."
 L["anima_shard_61271"] = "En una estantería en la plataforma superior."
 L["anima_shard_61273"] = "En una repisa justo debajo del precipicio que sobresale."
@@ -158,8 +190,8 @@ L["anima_shard_61297"] = "Detrás de un pilar de piedra."
 L["anima_shard_61298"] = "Reposando detrás de un sillón."
 L["anima_shard_61299"] = "Escondido detrás de una gran antorcha."
 L["anima_shard_61300"] = "En una repisa que cuelga sobre la fuente central."
-L["options_toggle_anima_shards"] = "Fragmentos Perdidos de Ánima"--Revisar que Lost Anima Shards sea Fragmentos Perdidos de Ánima
-L["options_toggle_anima_shards_desc"] = "Muestra la localización de los 50 fragmentos perdidos de ánima para el logro Trabajo Fragmentado."--Revisar que lost anima shards sea fragmentos perdidos de ánima y que Shard Labor sea Trabajo Fragmentado
+L["options_icons_anima_shards"] = "Fragmentos Perdidos de Ánima"--Revisar que Lost Anima Shards sea Fragmentos Perdidos de Ánima
+L["options_icons_anima_shards_desc"] = "Muestra la localización de los 50 fragmentos perdidos de ánima para el logro Trabajo Fragmentado."--Revisar que lost anima shards sea fragmentos perdidos de ánima y que Shard Labor sea Trabajo Fragmentado
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -167,11 +199,14 @@ L["options_toggle_anima_shards_desc"] = "Muestra la localización de los 50 frag
 
 L["chelicerae_note"] = "Destruye la {npc:159885} para activar a {npc:159886}."
 L["deepscar_note"] = "Puede aparecer en varias entradas al Teatro del Dolor."
+L["forgotten_mementos"] = "Tira de la Cadena de Rastrillo de la Bóveda en la cámara al oeste del tesoro para abrir la puerta."--Revisar que Vault Portcullis Chain sea Cadena de Rastrillo de la Bóveda
 L["gieger_note"] = "Tira de {npc:162815} para activar a {npc:162741}."
 L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:162588}."
+L["leeda_note"] = "Mata a los {npc:162220} hasta que aparezca {npc:162180}."
 L["malkorak_note"] = "En lo alto de la torre (montones de escaleras)."
 L["schmitd_note"] = "Usa el {spell:313451} cercano para romper su escudo."
-
+L["taskmaster_xox_note"] = "Comparte lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
+L["zargox_the_reborn_note"] = "Usa el {item:175841} encima de {npc:157124} para invocar a {npc:157125}. Para conseguir el {item:175841} tienes que completar la misión \"La Vida Etérea\" que da {npc:157076} y vuelve a hablar con él de nuevo."-->Revisar que The Aetherlife sea La Vida Etérea
 L["mixed_pool_note"] = [[
 Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando hayan sido añadidos 30 ingredientes, aparecerá uno de los siete raros dependiendo de la combinación usada.
 
@@ -184,16 +219,46 @@ Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando 
 
 L["blackhound_cache"] = "Alijo del Can Negro"--Revisar que Blackhound Cache sea Alijo del Can Negro
 L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
+
 L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
 L["kyrian_keepsake_note"] = "Inspecciona el {npc:169664} para despojar el tesoro."
+L["misplaced_supplies"] = "Encima de la seta gigante"
+L["necro_tome_note"] = "Para tener acceso a la torre, has de empezar una pequeña cadena de misiones que te da {npc: 166657}. En un estante en el piso superior."
 L["plaguefallen_chest_note"] = [[
 Quédate de pie en la baba verde (¡requiere sanación!) para conseguir 10 acumulaciones de {spell:330069} y transformarte en {spell:330092}.
 
 Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:158406} (la entrada está en el lado este) y haz click en el tubo para llegar al cofre.
 ]]
+L["ritualists_cache_note"] = "Despoja las {item:181558} de una pila de huesos (aparece en varios sitios). Úsalas para completar el Libro de Rituales de Vínculo en el podio detrás de {npc:174386} con lo que ganarás el buff {spell:337041}."--Revisar que Book of Binding Rituals sea Libro de Rituales de Vínculo
+L["runespeakers_trove_note"] = "Busca a {npc:170563} al este y mátalo para conseguir la {item:181777}."
 L["stolen_jar_note"] = "En una cueva debajo de la seta gigante."
 L["strange_growth_note"] = "Estira de {npc:165037} para revelar el tesoro."
 L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar que vat of slime sea cuba de baba
+
+L["giant_cache_of_epic_treasure"] = "Cofre Gigante de Tesoro Épico"--Revisar que Giant Cache of Epic Treasure sea Cofre Gigante de Tesoro Épico
+L["spinebug_note"] = [[
+¡Oh mira! ¡Un {spell:343124}! Acércate valiente aventurero, esto seguramente no es un engaño. Espera, ¿esa no es la música de Karazhan? ¿Qué hace aquí {npc:174663}...?
+
+¡{spell:343163}!
+]]--Revisar Approach it brave adventurer, this is surely not a ruse. Wait, is that the music from Karazhan? What is this {npc:174663} doing here ...? sea Acércate valiente aventurero, esto seguramente no es un engaño. Espera, ¿esa no es la música de Karazhan? ¿Qué hace aquí {npc:174663}...?
+
+L["oonar_sorrowbane_note"] = [[
+En el Teatro del Dolor, podrás encontrar {item:180273} clavada en el suelo y el Brazo de Oonar al lado. |cFFFF8C00Antes de intentar tirar de ninguno, pon tu {item:6948} en {npc:161702} por el punto de vuelo.|r
+
+Para tirar del {item:181164} sin problemas:
+
+• Viaja a la Corrupción de Glutharn al este.
+• Come 4 {spell:327367} (debuff de 2 minutos).
+• Vuelve volando rápidamente al Teatro del Dolor con la {item:6948} y tira del brazo.
+
+Para tirar de {item:180273} sin problemas:
+
+• Compra 1 {item:182163} de {npc:171808} en Revendreth.
+• Compra 1 {item:180771} de {npc:166640} en Maldraxxus.
+• Consigue 2 acumulaciones de {spell:306272} de la misión del mundo |cFFFFFD00[Algunos Baches en el Camino]|r al oeste.
+• Come 4 {spell:327367} en la Corrupción de Glutharn al este.
+• Vuelve volando rápidamente al Teatro del Dolor con la {item:6948}, bébete ambas pociones y tira de la espada.
+]]--Revisar que Glutharn's Decay sea Corrupción de Glutharn, que A Few Bumps Along the Way sea Algunos Baches en el Camino
 
 L["pet_cat"] = "¡Acaricia al maldito gato!"--Revisar que Pet the damn cat! sea ¡Acaricia al maldito gato!
 L["hairball"] = ns.color.Red("¡Sólo aparece en el Santuario Purulento dentro de la mazmorra Pestecadencia!")--Revisar que Festering Sanctum sea Santuario Purulento y Plaguefall sea Pestecadencia
@@ -201,46 +266,62 @@ L["lime"] = "Reposando sobre el gran arco óseo."
 L["moldstopheles"] = "Corre alrededor de la parte posterior del tallo y salta en las plataformas con forma de seta. Para la última plataforma, usa una motura y salta a la raíz que rodea el tallo."
 L["pus_in_boots"] = "Está debajo del puente."
 
-L["options_toggle_kittens"] = "Gatitos"
-L["options_toggle_kittens_desc"] = "Muestra las localizaciones de los gatitos para el logro Nueve Restos de Vidas."--Revisar que Nine Afterlives sea Nueve Restos de Vidas
+L["options_icons_slime_cat"] = "Gatitos"
+L["options_icons_slime_cat_desc"] = "Muestra las localizaciones de los gatitos para el logro Nueve Restos de Vidas."--Revisar que Nine Afterlives sea Nueve Restos de Vidas
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
+L["amalgamation_of_filth_note"] = "Cuando esté disponible la misión diaria |cFFFFFD00[Trabajo Sucio: Detalles de Demolición]|r haz click en una Caja de Basura y usa {spell:324115} dentro del agua."--Revisar que Dirty Job: Demolition Detail sea Trabajo Sucio: Detalles de Demolición, que Rubbish Box sea Caja de Basura
 L["amalgamation_of_light_note"] = "Mueve las tres trampas de espejos para liberar a {npc:164388}."
-L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo \"Muck It Up\" después de usar {item:177880} en {npc:166206}."--Revisar que nombre tiene la WQ Muck It Up
+L["amalgamation_of_sin_note"] = "Consigue la {item:180376} de la misión del mundo \"Invoca tus Pecados\" y úsala para invocar a la {npc:170434}."--Revisar que Summon Your Sins sea Invoca tus Pecados
+L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo |cFFFFFD00[Muck It Up]|r después de usar {item:177880} en {npc:166206}."--Revisar que nombre tiene la WQ Muck It Up
 L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:165229} y usa {spell:321826} en la parte superior de la Grieta Brillante."--Revisar qué es Anima Stake y que Shimmering Rift sea Grieta Brillante
 L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar {spell:324872}."
 L["famu_note"] = "Habla con {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}."
 L["grand_arcanist_dimitri_note"] = "Matar los cuatro {npc:167467} para liberar a {npc:167464}."
+L["harika_note"] = [[
+|cFFFF0000IMPORTANT:|r ¡Han de entregarse los objetos en el orden correcto o se bugeará el evento!
+
+In Dredhollow al oeste, despoja el {item:176397} y ambos conjuntos de {item:176396}. Dale ambos conjuntos de herramientas a {npc:165328} cerca de la balista. Después devuelve el {item:176397} a {npc:165327} y dile que tire para abajo a {npc:165290}.
+]]--Revisar qué es Dredhollow
 L["innervus_note"] = "Mata a los {npc:160375} cercanos para conseguir la {item:177223} y desbloquear la cripta donde está {npc:160640}."
 L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca de {npc:165151} para comenzar el evento tras el cual aparecerá {npc:165152}."
 L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}."
-L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo \"Enjambre de Almas\"."--Revisar que Swarming Souls sea Enjambre de Almas
+L["madalav_note"] = "Haz click en el Martillo de Madalav en el yunque cercano para invocar al {npc:159496}."
+L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo |cFFFFFD00[Enjambre de Almas]|r."--Revisar que Swarming Souls sea Enjambre de Almas
 L["scrivener_lenua_note"] = "Devuelve los {npc:160753} a la Biblioteca Prohibida."--Revisar que Forbidden Library sea Biblioteca Prohibida
 L["sinstone_hoarder_note"] = "Aparece en el mapa como un cofre del tesoro. Intenta despojar el {npc:162503} y el {npc:162481} se revelará él solo."
+L["sire_ladinas_note"] = "Coge un {npc:160621} cercano y usa {spell:313065} en un {npc:157733}."
 L["soulstalker_doina_note"] = "Sigue escaleras abajo y a través del espejo cuando se escape {npc:160392}."
 L["tomb_burster_note"] = "Puede aparecer si {npc:155777} queda atrapado en una telaraña. Mata los {npc:155769} cercanos y comenzarán a salir oleadas de {npc:155795} hasta que aparezca {npc:155779}."
-L["worldedge_gorger_note"] = "Consigue una {item:173939} de los Segadores del Mundo, Devoradores y Mites en el Banewood y en el Endmire. Úsala para encender los Blandones del Fin del Mundo e invocar a {npc:160821}."--Revisar que World Reavers sea Segadores del Mundo, qué es Mites, qué es Banewood, qué es Endmire, que Worldedge Braziers sea Blandones del Fin del Mundo
+L["worldedge_gorger_note"] = [[
+Consigue una {item:173939} de los Segadores del Mundo, Devoradores y Mites en el Banewood y en el Endmire. Úsala para encender los Blandones del Fin del Mundo e invocar a {npc:160821}.
 
-L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
-L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
-L["secret_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
-L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
-L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
+Tiene probabilidades de soltar {item:180583}, con lo que comienza una línea de misiones de 7 días para conseguir la montura {spell:333027}.
+]]--Revisar que World Reavers sea Segadores del Mundo, qué es Mites, qué es Banewood, qué es Endmire, que Worldedge Braziers sea Blandones del Fin del Mundo
 
-L["abandoned_curios"] = "Abandoned Curios"
-L["bleakwood_chest"] = "Bleakwood Chest"
-L["chest_of_envious_dreams"] = "Chest of Envious Dreams"
-L["filchers_prize"] = "Filcher's Prize"
-L["fleeing_soul_bundle"] = "Fleeing Soul's Bundle"
-L["gilded_plum_chest"] = "Gilded Plum Chest"
-L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
-L["remlates_cache"] = "Remlate's Hidden Cache"
-L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
-L["smuggled_cache"] = "Smuggled Cache"
-L["wayfairer_spoils"] = "Wayfairer's Abandoned Spoils"
+L["dredglaive_note"] = "Debajo del puente en el cuerpo de un {npc:173671}."
+L["lost_quill_note"] = "Despoja {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida."--Revisar que Forbidden Library sea Biblioteca Prohibida
+L["forbidden_chamber_note"] = "Despoja un Bote de Ánima Desechada enfrente de la puerta y aprende {spell:340701}. Úsalo para drenar cinco {npc:173838} en las cercanías, entonces usa {spell:340866} enfrente del {npc:173786}."--Revisar que Discarded Anima Canister sea Bote de Ánima Desechada
+L["taskmaster_trove_note"] = "Lee el Ritual de Ingreso y el Ritual de Salida. Después sigue el camino al cofre con cuidado."--Revisar que Ingress Rite sea Ritual de Ingreso, que Egress Rite sea Ritual de Salida
+L["the_count_note"] = "Farmea 99 {currency:1820} en el Endmire y llévaselos a {npc:173488}."--Revisar qué es Endmire
+
+L["abandoned_curios"] = "Curiosidades Abandonadas"--Revisar que Abandoned Curios sea Curiosidades Abandonadas
+L["bleakwood_chest"] = "Cofre de Maderasombría"--Revisar que Bleakwood Chest sea Cofre de Maderasombría
+L["chest_of_envious_dreams"] = "Cofre de Sueños Envidiosos"--Revisar que Chest of Envious Dreams sea Cofre de Sueños Envidiosos
+L["filchers_prize"] = "Premio de Filcher"--Revisar que Filcher's Prize sea Premio de Filcher
+L["fleeing_soul_bundle"] = "Fardo del Alma Huidiza"--Revisar que Fleeing Soul's Bundle sea Fardo del Alma Huidiza
+L["forgotten_anglers_rod"] = "Caña de Pescador Olvidada"--Revisar que Forgotten Angler's Rod sea Caña de Pescador Olvidada
+L["gilded_plum_chest"] = "Cofre de Ciruela Dorada"--Revisar que Gilded Plum Chest sea Cofre de Ciruela Dorada
+L["gilded_plum_chest_note"] = "Mata a {npc:166680} que deambula camino arriba y abajo."
+L["remlates_cache"] = "Cofre Escondido de Remlate"--Revisar que Remlate's Hidden Cache sea Cofre Escondido de Remlate
+L["remlates_cache_note"] = "En la pared exterior de Refugio Oscuro detrás de la cripta."--Revisar que Darkhaven sea Refugio Oscuro
+L["smuggled_cache"] = "Cofre de Contrabando"--Revisar que Smuggled Cache sea Cofre de Contrabando
+L["wayfairer_spoils"] = "Botín Abandonado de Wayfairer"--Revisar que Wayfairer's Abandoned Spoils sea Botín Abandonado de Wayfairer
+
+L["loyal_gorger_note"] = "Visita el Endmire y completa una misión diaria ofrecida por tu {npc:173498} 7 veces para conseguirlo como montura."--Revisar qué es Endmire
 
 L["sinrunner_note"] = "Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer."
 L["sinrunner_note_day1"] = "Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de Páramos de Poniente."
@@ -250,11 +331,45 @@ L["sinrunner_note_day4"] = "Coge el {item:182620} cerca de {npc:173570} y lléna
 L["sinrunner_note_day5"] = "Equipa a Blanchy con una {item:182597}, vendida por {npc:171808} cerca del Mercado de la Noche a cambio de varias carnes."--Revisar que Night Market sea Mercado de la Noche
 L["sinrunner_note_day6"] = "Alimenta a Blanchy con 3 {item:179271}, vendidas por {npc:167815} que está por Agujero en la Pared."--Revisar que Hole in the Wall sea Agujero en la Pared
 
-L["options_toggle_carriages"] = "Carruajes"
-L["options_toggle_carriages_desc"] = "Muestra las localizaciones posibles y caminos de los carruajes que se pueden llevar."
+L["options_icons_carriages"] = "Carruajes"
+L["options_icons_carriages_desc"] = "Muestra las localizaciones posibles y caminos de los carruajes que se pueden llevar."
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["orophea_note"] = "Coge el {spell:337143} al sureste y ofrécelo a {npc:172577} para que se active." 
+L["maw_intro_note"] = [[
+Completa la cadena de misiones introductoria para desbloquear los raros y los eventos de Las Fauces.
+
+Hasta que vuelvas con {npc:170651} en Oribos, estarás en fase y no podrás ver a la mayoría de los jugadores.
+]]
+
+L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331783} para invocar a {npc:170301}."
+L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:330650} para invocar a {npc:169827}."
+L["orophea_note"] = "Coge el {spell:337143} al sureste y ofrécelo a {npc:172577} para que se active {npc:172577}."
+L["sanngror_note"] = "Si no se puede atacar a {npc:172521}, espera hasta que no esté experimentando con las almas."
+L["talaporas_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331800} para invocar a {npc:170302}."
+L["valis_note"] = "Haz click en las tres {npc:174810} en el orden correcto para invocar a {npc:173086}. El orden cambia cada vez y hacer click en la runa incorrecta produce daño y te pone el debuff {spell:343636}."
+L["yero_note"] = "Acércate a {npc:172862} y síguelo abajo hasta una cueva cercana donde él se vuelve hostil."
+
+L["exos_note"] = [[
+Mata a los tres Heraldos: {npc:169827}, {npc:170302} y {npc:170301}. Recoge de ellos sus inscripciones.
+
+• {item:182328}
+• {item:182326}
+• {item:182327}
+
+Combina las tres inscripciones para crear la {item:182329}, la cual debe ser usada para invocar a {npc:170303}. Usa el {npc:173892} para llegar al nivel superior.
+]]--Revisar que etchings sea inscripciones
+
+L["soul_well_note"] = "Atrapa la Estigia que surge del Pozo de Almas."--Revisar que Stygia sea Estigia, que erupting sea surgiendo, que Soul Well sea Pozo de Almas
+L["obliterated_soul_shards_note"] = "Recoge Fragmentos de Almas Eliminadas en los puentes."--Revisar que Obliterated Soul Shards sea Fragmentos de Almas Eliminadas
+
+L["chaotic_riftstone_note"] = "Actívala para entrar en la {spell:344157} para cruzar rápidamente Las Fauces."
+
+L["options_icons_bonus_boss"] = "Élites de Bonificación"
+L["options_icons_bonus_boss_desc"] = "Muestra las localizaciones de los élites de bonificación."
+L["options_icons_bonus_event"] = "Eventos de Bonificación"
+L["options_icons_bonus_event_desc"] = "Muestra las localizaciones de los eventos de bonificación."
+L["options_icons_riftstone"] = "Piedras de Falla Caóticas"
+L["options_icons_riftstone_desc"] = "Muestra las localizaciones de los teletransportadores de piedras de falla caóticas."

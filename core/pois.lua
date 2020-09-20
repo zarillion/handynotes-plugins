@@ -1,3 +1,7 @@
+-------------------------------------------------------------------------------
+---------------------------------- NAMESPACE ----------------------------------
+-------------------------------------------------------------------------------
+
 local ADDON_NAME, ns = ...
 
 local Class = ns.Class
@@ -8,8 +12,6 @@ local Class = ns.Class
 
 local POI = Class('POI')
 
-POI.scale = 1
-
 function POI:render (map, template)
     -- draw a circle at every coord
     for i=1, #self, 1 do
@@ -19,20 +21,13 @@ end
 
 function POI:draw (pin, xy)
     local t = pin.texture
-    local size = (pin.minimap and 10 or (pin.parentHeight * 0.015)) * self.scale
+    local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
     t:SetTexCoord(0, 1, 0, 1)
     t:SetVertexColor(0, 0.5, 1, 1)
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\circle")
-    pin:SetAlpha(0.75)
     pin:SetSize(size, size)
     return HandyNotes:getXY(xy)
 end
-
--------------------------------------------------------------------------------
------------------------------------- BLOB -------------------------------------
--------------------------------------------------------------------------------
-
-local Blob = Class('Blob')
 
 -------------------------------------------------------------------------------
 ------------------------------------ PATH -------------------------------------
@@ -60,7 +55,6 @@ function Path:draw (pin, type, xy1, xy2)
     local size = pin.minimap and 5 or (pin.parentHeight * 0.005)
     local line_width = pin.minimap and 60 or (pin.parentHeight * 0.05)
 
-    pin:SetAlpha(0.75)
     if type == 'circle' then
         pin:SetSize(size, size)
         return HandyNotes:getXY(xy1)
