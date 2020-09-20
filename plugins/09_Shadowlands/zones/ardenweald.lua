@@ -262,7 +262,7 @@ map.nodes[41254443] = Rare({
     note=L["star_lake_note"],
     rewards = {
         Achievement({id=14309, criteria={
-            {id=48709, quest=nil}, -- Astra, As Azshara
+            {id=48709, quest=61633}, -- Astra, As Azshara
             {id=48710, quest=nil}, -- Dreamweaver, As N'Zoth
             {id=48704, quest=nil}, -- Glimmerdust, As Jaina
             {id=48707, quest=nil}, -- Glimmerdust, As Kil'Jaeden
