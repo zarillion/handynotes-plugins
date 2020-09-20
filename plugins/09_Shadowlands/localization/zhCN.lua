@@ -11,14 +11,14 @@ L["options_title"] = "暗影国度"
 L["covenant_required"] = "需要%s盟约。"
 
 local ACHAN = "anima channeled to %s."
-L["achan_citadel_of_loyalty"] = ACHAN:format('Citadel of Loyalty')
-L["achan_dominance_keep"] = ACHAN:format('Dominance Keep')
-L["achan_dreamsong_fenn"] = ACHAN:format('Dreamsong Fenn')
-L["achan_house_of_constructs"] = ACHAN:format('House of Constructs')
-L["achan_temple_of_courage"] = ACHAN:format('Temple of Courage')
-L["achan_theater_of_pain"] = ACHAN:format('Theater of Pain')
-L["achan_tirna_scithe"] = ACHAN:format('Tirna Scithe')
-L["achan_wanecrypt_hill"] = ACHAN:format('Wanecrypt Hill')
+L["achan_citadel_of_loyalty"] = ACHAN:format('忠诚堡垒')
+L["achan_dominance_keep"] = ACHAN:format('统御要塞')
+L["achan_dreamsong_fenn"] = ACHAN:format('梦歌沼泽')
+L["achan_house_of_constructs"] = ACHAN:format('造物密院')
+L["achan_temple_of_courage"] = ACHAN:format('勇气神庙')
+L["achan_theater_of_pain"] = ACHAN:format('伤逝剧场')
+L["achan_tirna_scithe"] = ACHAN:format('塞兹仙林')
+L["achan_wanecrypt_hill"] = ACHAN:format('凋窖岭')
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -36,18 +36,18 @@ L["valfir_note"] = "在闪光的心能之种下降过程中点击并使用 {spel
 L["wrigglemortis_note"] = "与 {npc:164179} 战斗刷新稀有。"
 
 L["night_mare_note"] = [[
-Travel to Tirna Scithe and follow the root path on the northwest cliff to a broken cart. There you can loot a {item:181243} on the ground.
+前往塞兹仙林，并沿着西北悬崖的树根路前往破损的车。在那可以在地面上拾取 {item:181243}。
 
-Take this item to {npc:165704} at Glitterfall Basin. She will give you a {item:181242} in exchange for 10 {item:173204}. |cFFFF8C00If she is not there, you must complete the |cFFFFFD00Trouble at the Gormling Corral|r and |cFFFFFD00Tricky Spriggans|r quest lines.|r
+把此物品带给位于闪瀑盆地的 {npc:165704}。她讲给你一个 {item:181242} 换成10个 {item:173204}。|cFFFF8C00如果她不在这里，你必须完成|cFFFFFD00戈姆蛴围栏的麻烦|r和|cFFFFFD00捣蛋的林鬼|r任务线。|r
 
-Next, talk to {npc:160262} in the Heart of the Forest to exchange the {item:181242} for a {item:178675}. Use this item to get {spell:327083} buff, allowing you to see the {npc:168135}.
+接下来，和森林之心的 {npc:160262} 交谈兑换 {item:181242} 为 {item:178675}。使用此物品得到 {spell:327083} 增益，可以让你看见 {npc:168135}。
 ]]
 
 L["star_lake"] = "泊星剧场"
 L["star_lake_note"] = "与舞台导演 {npc:171743} 交谈，会开启一场特殊的战斗。"
 
-L["cache_of_the_moon"] = "Collect {npc:171360}'s five missing tools in the Garden of Night and combine them to create {item:180753}. Return her toolkit and she will cast {spell:334353} on you, allowing you to see the cache."
-L["cache_of_the_night"] = "Collect {item:180656}, {item:180654} and {item:180655} from across the zone and combine them to create {item:180652}."
+L["cache_of_the_moon"] = "在魅夜花园收集 {npc:171360} 的五个遗失工具并组合它们制造 {item:180753}。交给她工具包后会施放 {spell:334353} 给你，可以让你看到宝箱。"
+L["cache_of_the_night"] = "在整个区域收集 {item:180656}，{item:180654} 和 {item:180655} 组合它们制造 {item:180652}。"
 L["darkreach_supplies"] = "跳上 {npc:169995} 并滑翔到西南方进入空心山峰到达魅夜宝箱宝藏上面。"
 L["desiccated_moth"] = "跳上 {npc:169997} 滑翔到西北方的树的树枝上。燃烧 {item:180784} 于焚香炉收集宝藏。"
 L["dreamsong_heart"] = "使用 {npc:169997} 滑翔到东北方的树上。"
@@ -56,17 +56,17 @@ L["enchanted_dreamcatcher"] = "悬挂在树根顶上。从西侧往上跳最容�
 L["faerie_trove"] = "位于平台下方。"
 L["harmonic_chest"] = "需要两名玩家。一名玩家弹琴另一名玩家击鼓来解锁宝箱。"
 L["hearty_dragon_plume"] = "在附近瀑布的顶部点击 {spell:333554}，然后用它向下漂浮到树枝上。"
-L["old_ardeite_note"] = "击杀 {npc:160747} 和 {npc:160748} 于烁光林枝东南方 {item:174042}。使用此物品飞上附近稀有并标记它。"
+L["old_ardeite_note"] = "在烁光林枝东南方击杀 {npc:160747} 和 {npc:160748} 得到 {item:174042}。使用此物品飞到附近稀有上面并标记它。"
 L["swollen_anima_seed"] = "在树干里面的一颗大种子。"
 
 L["playful_vulpin_note"] = [[
-Find and use the correct emote on the {npc:171206} five times to obtain the pet.
+在 {npc:171206} 找到并使用正确的表情五次后获得宠物。
 
-• begins to dig curiously = |cFFFF8C00/curious|r
-• wanders around unable to sit still = |cFFFF8C00/sit|r
-• sings all alone = |cFFFF8C00/sing|r
-• dances with joy = |cFFFF8C00/dance|r
-• sits down lonely and sad = |cFFFF8C00/pet|r
+• 开始好奇的挖掘 = |cFFFF8C00/curious（/好奇）|r
+• 仍然徘徊在无法坐下的地方 = |cFFFF8C00/sit（/坐下）|r
+• 独自一人唱歌 = |cFFFF8C00/sing（/唱歌）|r
+• 欢乐地跳舞 = |cFFFF8C00/dance（/跳舞）|r
+• 孤独悲伤的坐着 = |cFFFF8C00/pet（/拍）|r
 ]]
 
 L["tame_gladerunner"] = "驯服的巡林者"
