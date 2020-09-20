@@ -252,7 +252,12 @@ function Node:glow (map)
         local _, scale, alpha = self:display(map)
         self._glow.alpha = alpha
         self._glow.scale = scale
-        self._glow.r, self._glow.g, self._glow.b = 0, 1, 0
+        if self._focus then
+            self._glow.r, self._glow.g, self._glow.b = 0, 1, 0
+        else
+            self._glow.r, self._glow.g, self._glow.b = 1, 1, 0
+            self._glow.a = 0.5
+        end
         return self._glow
     end
 end

@@ -60,13 +60,13 @@ function Glow:draw (pin, xy)
         hn_scale = HandyNotes.db.profile.icon_scale
     end
 
-    local size = 14 * hn_scale * self.scale
+    local size = 15 * hn_scale * self.scale
 
     t:SetTexCoord(self.icon.tCoordLeft, self.icon.tCoordRight, self.icon.tCoordTop, self.icon.tCoordBottom)
     t:SetTexture(self.icon.icon)
 
     if self.r then
-        t:SetVertexColor(self.r, self.g, self.b, 1)
+        t:SetVertexColor(self.r, self.g, self.b, self.a or 1)
     end
 
     pin.frameOffset = 1
