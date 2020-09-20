@@ -254,14 +254,22 @@ map.nodes[30365517] = Rare({
     }
 }) -- Reekmonger
 
---map.nodes[] = Rare({
---    id=,
---    quest=nil,
---    note=L[""],
---    rewards={
---        Achievement({id=14307, criteria=nil}), -- criteria is still 0
---    }
---}) -- Sotiros and Orstus
+local Sotirstus = Class('Sotirstus', Rare)
+
+function Sotirstus.getters:label ()
+    return GetAchievementCriteriaInfo(14307, 27) -- Welcome to Nazjatar
+end
+
+map.nodes[22432285] = Sotirstus({
+   id=156339,
+   quest=61634,
+   covenant=KYRIAN,
+   requires=L["achan_citadel_of_loyalty"],
+   note=L["sotiros_orstus_note"],
+   rewards={
+       Achievement({id=14307, criteria=27})
+   }
+}) -- Sotiros and Orstus
 
 map.nodes[61409050] = Rare({
     id=170548,
@@ -357,8 +365,8 @@ map.nodes[53498880] = Treasure({
     label=L["cache_of_the_ascended"],
     note=L["cache_of_the_ascended_note"],
     rewards={
+        Achievement({id=14307, criteria=28}),
         Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817}}),
-        --Achievement({id=14307, criteria=nil}), -- Ascended Council / criteria is still 0
         Mount({item=183741, id=1426}) -- Ascended Skymane
     },
     pois={

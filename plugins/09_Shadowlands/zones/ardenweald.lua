@@ -142,6 +142,7 @@ map.nodes[62102470] = Rare({
 map.nodes[50092091] = Rare({
     id=164547,
     quest=59235,
+    note=L["rainbowhorn_note"],
     rewards={
         Achievement({id=14309, criteria=48715}),
         Item({item=182179, quest=62434}) -- Runestag Soul

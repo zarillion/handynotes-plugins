@@ -117,7 +117,7 @@ map.nodes[49128175] = Rare({
 
 map.nodes[32946646] = Rare({
     id=170711,
-    quest=nil,
+    quest=60909,
     rewards={
         Achievement({id=14744, criteria=49847}),
     }
@@ -224,7 +224,7 @@ map.nodes[28701204] = Rare({
 
 map.nodes[27397152] = Rare({
     id=170731,
-    quest=nil,
+    quest=60914,
     rewards={
         Achievement({id=14744, criteria=49859}),
     }

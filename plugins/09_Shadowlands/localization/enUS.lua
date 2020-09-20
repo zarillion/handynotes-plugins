@@ -28,6 +28,7 @@ L["deifir_note"] = "Ride the rare around in a circle and use {spell:319566} and 
 L["faeflayer_note"] = "In a small cave hidden behind a waterfall."
 L["humongozz_note"] = "Plant an {item:175247} in the Damp Loam to spawn a {npc:164122}. After a minute of {spell:319367}, the rare will spawn. The mushroom drops from numerous mobs in the zone."
 L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
+L["rainbowhorn_note"] = "\n|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r"
 L["rootwrithe_note"] = "Poke the {npc:167928}s until the rare appears."
 L["rotbriar_note"] = "Talk to {npc:171684} nearby to summon the rare after some dialog."
 L["slumbering_note"] = "Running into the fog will stun and port you out. Use a flare or a pet with AOE to knock him out of the fog."
@@ -102,6 +103,7 @@ Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}
 Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside.
 ]]
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
+L["sotiros_orstus_note"] = "Click the Black Bell to summon the rares."
 L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
 L["unstable_memory_note"] = "Can be spawned when {npc:171018}s are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
 L["wingflayer_note"] = "To summon, click the Horn of Courage on the nearby table (southeast, up the stairs)."
