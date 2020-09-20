@@ -38,7 +38,7 @@ L["wrigglemortis_note"] = "与 {npc:164179} 战斗刷新稀有。"
 L["night_mare_note"] = [[
 前往塞兹仙林，并沿着西北悬崖的树根路前往破损的车。在那可以在地面上拾取 {item:181243}。
 
-把此物品带给位于闪瀑盆地的 {npc:165704}。她讲给你一个 {item:181242} 换成10个 {item:173204}。|cFFFF8C00如果她不在这里，你必须完成|cFFFFFD00戈姆蛴围栏的麻烦|r和|cFFFFFD00捣蛋的林鬼|r任务线。|r
+把此物品带给位于闪瀑盆地的 {npc:165704}。她会你一个 {item:181242} 换成10个 {item:173204}。|cFFFF8C00如果她不在这里，你必须完成|cFFFFFD00戈姆蛴围栏的麻烦|r和|cFFFFFD00捣蛋的林鬼|r任务线。|r
 
 接下来，和森林之心的 {npc:160262} 交谈兑换 {item:181242} 为 {item:178675}。使用此物品得到 {spell:327083} 增益，可以让你看见 {npc:168135}。
 ]]
@@ -80,14 +80,14 @@ L["tame_gladerunner_note"] = [[
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to activate him."
-L["baedos_note"] = "Carry casks of Fermenting Purian Fruit from the surrounding area to {npc:161536} until he activates."
-L["basilofos_note"] = "Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn."
+L["aspirant_eolis_note"] = "拾取附近的 {item:180613} 并与 NPC 目标阅读激活他。"
+L["baedos_note"] = "从周围地区带一桶发酵的莲榴果给 {npc:161536} 直到她激活。"
+L["basilofos_note"] = "在岩石上移动，直到紫色的追踪标记出现在你的头顶。 站着不动，等待四种表情出现，然后他会刷新。"
 L["beasts_of_bastion"] = "晋升堡垒之兽"
 L["beasts_of_bastion_note"] = [[
-Talk to {npc:161441} to summon one of the four beasts.
+和 {npc:161441} 交谈召唤四个野兽之一。
 
-|cFFFF0000NOTE|r: The NPC is often bugged and will not talk to you.
+|cFFFF0000注意|r：此 NPC 经常出错并不会与你交谈。
 ]]
 L["bookkeeper_mnemis_note"] = "Has a chance to spawn in place of the {npc:166867} units in the area."
 L["cloudfeather_patriarch_note"] = "Kill {npc:158110} in the area until the rare emotes and spawns."
