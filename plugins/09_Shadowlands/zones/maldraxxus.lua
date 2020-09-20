@@ -20,10 +20,12 @@ local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
 local POI = ns.poi.POI
+local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 
 local NECROLORD = ns.covenants.NEC
+
 local map = Map({
     id=1536,
     options = {
@@ -33,6 +35,8 @@ local map = Map({
         }
     }
 })
+
+local sanctum = Map({ id=1698, parents={ bone_deathgate=1536 }})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -581,10 +585,33 @@ local Deathgate = Class('Deathgate', ns.node.Node, {
 })
 
 local R = L["transport_research"]
+local GATE_SEAT = Deathgate({ label=L["overlook_primus"], sublabel=R:format(1) })
+local GATE_EXOR = Deathgate({ label=L["exoramas"], sublabel=R:format(2) })
+local GATE_NURA = Deathgate({ label=L["nurakkir"], sublabel=R:format(2) })
+local GATE_ZERE = Deathgate({ label=L["zerekriss"], sublabel=R:format(3) })
+local GATE_PH = Deathgate({ label=L["???"] })
 
--- map.nodes[] = Deathgate({ label=L[""], sublabel=R:format(1) }) ???
+map.nodes[50397398] = GATE_SEAT
+map.nodes[51631638] = GATE_NURA
+map.nodes[74453364] = GATE_EXOR
+map.nodes[42776079] = ns.clone(GATE_ZERE, { pois={
+    Path({
+        60134279, 60304031, 60323777, 60093537, 59503334, 58513191, 57373110,
+        55913045, 54262997, 52502962, 50712938, 49012922, 47492912, 45822907,
+        44142925, 42622963, 41173014, 39743076, 38243139, 36543194, 34813258,
+        33303349, 32243482, 31883656, 32013833, 32444050, 33094293, 33884546,
+        34734793, 35565018, 36285209, 37325437, 38605626, 39775755, 40685862,
+        42776079, 44466070, 45906036, 47585989, 49335934, 50925878, 52555834,
+        54145794, 55615727, 56855600, 57705437, 58455236, 59095008, 59604762,
+        59934521, 60134279
+    }) -- Zerekriss Path
+}, note=L["zerekriss_note"] })
 
-map.nodes[51631638] = Deathgate({ label=L["nurakkir"], sublabel=R:format(2) })
-map.nodes[74453364] = Deathgate({ label=L["exoramas"], sublabel=R:format(2) })
+-------------------------------------------------------------------------------
 
--- map.nodes[] = Deathgate({ label=L[""], sublabel=R:format(3) }) ???
+sanctum.nodes[56383147] = GATE_PH
+sanctum.nodes[56433697] = GATE_PH
+sanctum.nodes[58782300] = GATE_SEAT
+sanctum.nodes[61583041] = GATE_EXOR
+sanctum.nodes[61603773] = GATE_NURA
+sanctum.nodes[62963427] = GATE_ZERE

@@ -295,6 +295,9 @@ L["options_icons_slime_cat_desc"] = "Display locations of kittens for the Nine A
 
 L["exoramas"] = "Exoramas, House of Rituals"
 L["nurakkir"] = "Nurakkir, House of Eyes"
+L["overlook_primus"] = "Overlook, Seat of the Primus"
+L["zerekriss"] = "Zerekriss, Maldraxxus"
+L["zerekriss_note"] = "Once activated, the necropolis will fly around the zone. Grab hold of {npc:165822} to glide down to the surface."
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
