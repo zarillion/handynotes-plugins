@@ -197,9 +197,19 @@ function MinimapDataProvider:RefreshAllData()
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if node.pois and (node._focus or node._hover) and map:enabled(node, coord, true) then
-            for i, poi in ipairs(node.pois) do
-                poi:render(self, map.id)
+        if map:enabled(node, coord, true) then
+            -- If this icon has a glow enabled, render it
+            local glow = node:glow(map)
+            if glow then
+                glow[1] = coord -- update POI coord for this placement
+                glow:render(self, map.id)
+            end
+
+            -- Render any POIs this icon has registered
+            if node.pois and (node._focus or node._hover) then
+                for i, poi in ipairs(node.pois) do
+                    poi:render(self, map.id)
+                end
             end
         end
     end
@@ -256,9 +266,19 @@ function WorldMapDataProvider:RefreshAllData(fromOnShow)
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if node.pois and (node._focus or node._hover) and map:enabled(node, coord, false) then
-            for i, poi in ipairs(node.pois) do
-                poi:render(self:GetMap(), WorldMapPinTemplate)
+        if map:enabled(node, coord, false) then
+            -- If this icon has a glow enabled, render it
+            local glow = node:glow(map)
+            if glow then
+                glow[1] = coord -- update POI coord for this placement
+                glow:render(self:GetMap(), WorldMapPinTemplate)
+            end
+
+            -- Render any POIs this icon has registered
+            if node.pois and (node._focus or node._hover) then
+                for i, poi in ipairs(node.pois) do
+                    poi:render(self:GetMap(), WorldMapPinTemplate)
+                end
             end
         end
     end
@@ -276,8 +296,16 @@ function WorldMapPinMixin:OnAcquired(poi, ...)
     self.parentHeight = h
     if (w and h) then
         local x, y = poi:draw(self, ...)
+        self:ApplyCurrentScale()
         self:SetPosition(x, y)
     end
+end
+
+function WorldMapPinMixin:ApplyFrameLevel()
+    -- Allow frame level adjustments in POIs even if the current frame level
+    -- type has a range of only 1 frame level
+    MapCanvasPinMixin.ApplyFrameLevel(self)
+    self:SetFrameLevel(self:GetFrameLevel() + self.frameOffset)
 end
 
 -------------------------------------------------------------------------------

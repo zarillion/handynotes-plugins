@@ -46,6 +46,16 @@ function Node:init ()
         if type(self[key]) == 'number' then self[key] = {self[key]} end
     end
 
+    -- initialize icon from string name
+    if type(self.icon) == 'string' then
+        self.icon = ns.icons[self.icon] or ns.icons.default
+    end
+
+    -- initialize glow POI (if glow icon available)
+    if type(self.icon) == 'table' and self.icon.glow and ns.glows[self.icon.glow] then
+        self._glow = ns.poi.Glow({ icon=ns.glows[self.icon.glow] })
+    end
+
     if self.minimap == nil then
         self.minimap = true
     end
@@ -67,19 +77,12 @@ for this node.
 
 function Node:display (map)
     local profile = ns.addon.db.profile
-
-    local icon = self.icon
-    if type(icon) == 'string' then
-        icon = ns.icons[self.icon] or ns.icons.default
-    end
-
     local mapid = map.parents[self.group] or map.id
     local s_opt = 'icon_scale_'..self.group
     local a_opt = 'icon_alpha_'..self.group
     local scale = self.scale * (profile[s_opt] or profile[s_opt..'_'..mapid] or 1)
     local alpha = self.alpha * (profile[a_opt] or profile[a_opt..'_'..mapid] or 1)
-
-    return icon, scale, alpha
+    return self.icon, scale, alpha
 end
 
 --[[
@@ -237,6 +240,21 @@ function Node:render(tooltip)
     end
 end
 
+--[[
+Return the glow POI for this node. If the node is hovered or focused, a green
+glow is applyed to help highlight the node.
+--]]
+
+function Node:glow (map)
+    if self._glow and (self._focus or self._hover) then
+        local _, scale, alpha = self:display(map)
+        self._glow.alpha = alpha
+        self._glow.scale = scale
+        self._glow.r, self._glow.g, self._glow.b = 0, 1, 0
+        return self._glow
+    end
+end
+
 -------------------------------------------------------------------------------
 ------------------------------------ CAVE -------------------------------------
 -------------------------------------------------------------------------------
@@ -364,6 +382,19 @@ function Rare:enabled ()
     return NPC.enabled(self)
 end
 
+function Rare:glow (map)
+    local glow = NPC.glow(self, map)
+    if glow then return glow end
+
+    if ns.addon.db.profile.development and not self.quest then
+        local _, scale, alpha = self:display(map)
+        self._glow.alpha = alpha
+        self._glow.scale = scale
+        self._glow.r, self._glow.g, self._glow.b = 1, 0, 0
+        return self._glow
+    end
+end
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURE -----------------------------------
 -------------------------------------------------------------------------------
@@ -382,6 +413,19 @@ function Treasure.getters:label ()
         end
     end
     return UNKNOWN
+end
+
+function Treasure:glow (map)
+    local glow = Node.glow(self, map)
+    if glow then return glow end
+
+    if ns.addon.db.profile.development and not self.quest then
+        local _, scale, alpha = self:display(map)
+        self._glow.alpha = alpha
+        self._glow.scale = scale
+        self._glow.r, self._glow.g, self._glow.b = 1, 0, 0
+        return self._glow
+    end
 end
 
 -------------------------------------------------------------------------------
