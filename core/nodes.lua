@@ -160,7 +160,8 @@ function Node:prepare ()
 
     -- initialize glow POI (if glow icon available)
     if type(self.icon) == 'table' and self.icon.glow and ns.glows[self.icon.glow] then
-        self._glow = ns.poi.Glow({ icon=ns.glows[self.icon.glow] })
+        local Glow = self.GlowClass or ns.poi.Glow
+        self._glow = Glow({ icon=ns.glows[self.icon.glow] })
     end
 
     ns.NameResolver:Prepare(self.label)

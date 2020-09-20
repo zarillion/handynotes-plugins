@@ -9,6 +9,16 @@
     </Layers>
   </Frame>
 
+  <Button name="{addon}MinimapPinTemplate" hidden="true" mixin="{addon}MinimapPinMixin" virtual="true">
+    <Size x="12" y="12"/>
+    <Layers>
+      <Layer level="OVERLAY">
+        <Texture parentKey="texture" setAllPoints="true" texelSnappingBias="0.0" snapToPixelGrid="false">
+        </Texture>
+      </Layer>
+    </Layers>
+  </Button>
+
   <DropDownToggleButton name="{addon}WorldMapOptionsButtonTemplate" frameStrata="HIGH" mixin="{addon}WorldMapOptionsButtonMixin" virtual="true">
     <Size x="32" y="32"/>
     <Layers>

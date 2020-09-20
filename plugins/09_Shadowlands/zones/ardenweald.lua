@@ -3,6 +3,7 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 
 local PetBattle = ns.node.PetBattle
@@ -139,9 +140,28 @@ map.nodes[62102470] = Rare({
     }
 }) -- Mymaen
 
+local RainbowGlow = Class('RainbowGlow', ns.poi.Glow)
+
+function RainbowGlow:draw(pin, xy)
+    local r, g, b, diff = 10, 0, 0, 1
+    pin.ticker = C_Timer.NewTicker(0.05, function ()
+        if r == 0 and g > b then b = b + diff
+        elseif g == 0 and b > r then r = r + diff
+        elseif b == 0 and r > g then g = g + diff
+        elseif r == 0 and g <= b then g = g - diff
+        elseif g == 0 and b <= r then b = b - diff
+        elseif b == 0 and r <= g then r = r - diff
+        end
+        pin.texture:SetVertexColor(r/10, g/10, b/10, 1)
+    end)
+    self.r, self.g, self.b = 1, 0, 0
+    return ns.poi.Glow.draw(self, pin, xy)
+end
+
 map.nodes[50092091] = Rare({
     id=164547,
     quest=59235,
+    GlowClass = RainbowGlow,
     note=L["rainbowhorn_note"],
     rewards={
         Achievement({id=14309, criteria=48715}),
