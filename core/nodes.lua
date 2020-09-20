@@ -46,16 +46,6 @@ function Node:init ()
         if type(self[key]) == 'number' then self[key] = {self[key]} end
     end
 
-    -- initialize icon from string name
-    if type(self.icon) == 'string' then
-        self.icon = ns.icons[self.icon] or ns.icons.default
-    end
-
-    -- initialize glow POI (if glow icon available)
-    if type(self.icon) == 'table' and self.icon.glow and ns.glows[self.icon.glow] then
-        self._glow = ns.poi.Glow({ icon=ns.glows[self.icon.glow] })
-    end
-
     if self.minimap == nil then
         self.minimap = true
     end
@@ -163,9 +153,21 @@ world map containing this node is opened.
 --]]
 
 function Node:prepare ()
+    -- initialize icon from string name
+    if type(self.icon) == 'string' then
+        self.icon = ns.icons[self.icon] or ns.icons.default
+    end
+
+    -- initialize glow POI (if glow icon available)
+    if type(self.icon) == 'table' and self.icon.glow and ns.glows[self.icon.glow] then
+        self._glow = ns.poi.Glow({ icon=ns.glows[self.icon.glow] })
+    end
+
     ns.NameResolver:Prepare(self.label)
     ns.prepareLinks(self.sublabel)
     ns.prepareLinks(self.note)
+
+    self._prepared = true
 end
 
 --[[

@@ -197,7 +197,7 @@ function MinimapDataProvider:RefreshAllData()
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if map:enabled(node, coord, true) then
+        if node._prepared and map:enabled(node, coord, true) then
             -- If this icon has a glow enabled, render it
             local glow = node:glow(map)
             if glow then
@@ -266,7 +266,7 @@ function WorldMapDataProvider:RefreshAllData(fromOnShow)
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if map:enabled(node, coord, false) then
+        if node._prepared and map:enabled(node, coord, false) then
             -- If this icon has a glow enabled, render it
             local glow = node:glow(map)
             if glow then
