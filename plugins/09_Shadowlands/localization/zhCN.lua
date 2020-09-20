@@ -38,7 +38,7 @@ L["wrigglemortis_note"] = "与 {npc:164179} 战斗刷新稀有。"
 L["night_mare_note"] = [[
 前往塞兹仙林，并沿着西北悬崖的树根路前往破损的车。在那可以在地面上拾取 {item:181243}。
 
-把此物品带给位于闪瀑盆地的 {npc:165704}。她会你一个 {item:181242} 换成10个 {item:173204}。|cFFFF8C00如果她不在这里，你必须完成|cFFFFFD00戈姆蛴围栏的麻烦|r和|cFFFFFD00捣蛋的林鬼|r任务线。|r
+把此物品带给位于闪瀑盆地的 {npc:165704}。她将给你一个 {item:181242} 换成10个 {item:173204}。|cFFFF8C00如果她不在这里，你必须完成|cFFFFFD00戈姆蛴围栏的麻烦|r和|cFFFFFD00捣蛋的林鬼|r任务线。|r
 
 接下来，和森林之心的 {npc:160262} 交谈兑换 {item:181242} 为 {item:178675}。使用此物品得到 {spell:327083} 增益，可以让你看见 {npc:168135}。
 ]]
@@ -89,107 +89,107 @@ L["beasts_of_bastion_note"] = [[
 
 |cFFFF0000注意|r：此 NPC 经常出错并不会与你交谈。
 ]]
-L["bookkeeper_mnemis_note"] = "Has a chance to spawn in place of the {npc:166867} units in the area."
-L["cloudfeather_patriarch_note"] = "Kill {npc:158110} in the area until the rare emotes and spawns."
-L["collector_astor_note"] = "Read all six chapters of Mercia's Legacy scattered around the room, after which you will receive a whisper from {npc:157979}. Talk to her to receive {spell:333779}, allowing you to find the hidden {item:180569} to the northwest. Returning the chapter will spawn the rare."
-L["corrupted_clawguard_note"] = "Loot a {item:180651} in Forgefire Outpost up the hill and use it to repair the {npc:171300}."
-L["dark_watcher_note"] = "Can only be seen while dead. Talk to her and she will cast {spell:332830} on you before attacking."
-L["demi_hoarder_note"] = "Starts with 99 stacks of {spell:333874}, reducing damage taken. Stacks are slowly removed with damage. The rare will follow a path and despawn if it reaches the end."
-L["dionae_note"] = "When she becomes immune, click the four {npc:163747} to break her shield."
+L["bookkeeper_mnemis_note"] = "在地区有几率刷新代替 {npc:166867} 单位。"
+L["cloudfeather_patriarch_note"] = "在地区击杀 {npc:158110} 直到稀有表情和刷新。"
+L["collector_astor_note"] = "阅读散落在房间里的全部六章 Mercia's Legacy，之后会收到来自 {npc:157979} 的悄悄话。和她交谈会得到 {spell:333779}，让你在西北方找到隐藏的 {item:180569}。交还章节将刷新稀有。"
+L["corrupted_clawguard_note"] = "在炉火岗哨山上拾取 {item:180651} 并使用它修理 {npc:171300}。"
+L["dark_watcher_note"] = "只在死亡后可以看到。和她交谈会施放 {spell:332830} 在攻击之前给你。"
+L["demi_hoarder_note"] = "开始时堆叠99层 {spell:333874}，降低承受伤害。伤害后堆叠缓慢消失。稀有将沿着路径前进，如果到达终点则将消失。"
+L["dionae_note"] = "当她变为免疫时，点击四个 {npc:163747} 打破她的护盾。"
 L["herculon_note"] = [[
-Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}. At 10 stacks, he will activate.
+收集 {item:172451} 并使用给 {npc:158659} 堆叠 {spell:343531}。10层时，他将激活。
 
-Motes can be collected from nearby 耗尽的心能之罐 located in the room or just outside.
+可以从房间内或室外的耗尽的心能之罐中收集微粒。
 ]]
-L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
-L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
-L["unstable_memory_note"] = "Can be spawned when {npc:171018}s are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
-L["wingflayer_note"] = "To summon, click the Horn of Courage on the nearby table (southeast, up the stairs)."
+L["nikara_note"] = "和两名其他玩家，点击远古焚香来召唤。"
+L["sundancer_note"] = "点击雕像获得 {spell:332309} 增益，然后使用 {item:180445} 滑翔到稀有并骑上它。"
+L["unstable_memory_note"] = "当 {npc:171018} 存在时可以刷新。拉一个 {npc:171018} 到其它会给它10层堆叠 {spell:333558}，把它变成稀有。"
+L["wingflayer_note"] = "点击附近桌上的勇气号角召唤（东南方，楼梯上）。"
 
-L["broken_flute"] = "Kill nearby {npc:170009} until they drop the {item:180536}, then use the tools to repair it."
-L["experimental_construct_part"] = "Loot a nearby {item:180534} and use it to repair the part. The anima has multiple spawn locations."
-L["larion_harness"] = "Located inside the 野兽大厅."
-L["memorial_offering"] = "Purchase a {item:180788} from {npc:171526} in 候选者之憩. Place it in the drink tray near the chest to obtain the {item:180797}."
-L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them on the nearby tribute platters to reveal the treasure."
-L["vesper_of_silver_wind"] = "Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to Spires of Ascension to forge a {item:180858}."
+L["broken_flute"] = "击杀附近的 {npc:170009} 直到掉落 {item:180536}，使用此工具修理它。"
+L["experimental_construct_part"] = "拾取附近 {item:180534} 并使用修理部件。新能有多个刷新地点。."
+L["larion_harness"] = "位于野兽大厅内。"
+L["memorial_offering"] = "从候选者之憩的 {npc:171526} 购买 {item:180788}。将其放在靠近宝箱的饮料托盘中以获取 {item:180797}。"
+L["scroll_of_aeons"] = "在中心地区拾取2个 {item:173973} 并将它们放在附近的贡品盘上显出宝藏。"
+L["vesper_of_silver_wind"] = "完成 {achievement:14339} 成就并和晋升高塔入口的 {npc:171732} 交谈铸造 {item:180858}。"
 
-L["gift_of_agthia"] = "Click the lit torch near the broken bridge to the northwest and carry {spell:333320} from torch to torch until you reach the chest. Lighting the final torch will grant you {spell:333063}."
-L["gift_of_chyrus"] = "Kneel in front of the chest to be granted {spell:333045}."
+L["gift_of_agthia"] = "点击通往西北方断桥的火炬并携带 {spell:333320} 从火炬到火炬直到到达宝箱。点亮最后的火炬你会受益 {spell:333063}。"
+L["gift_of_chyrus"] = "在宝箱前面跪下将被授予 {spell:333045}。"
 L["gift_of_devos"] = [[
-Southwest of the chest is a torch where you can pick up the {spell:333912}. Mounting, entering combat or taking damage will drop the flame. You must make your way back to the chest and place the flame in the Brazier of Devotion to be granted {spell:333070}.
+宝箱西南方一个火炬可以拾取获得 {spell:333912}。上坐骑，参加战斗或受到伤害将火焰会掉落。必须回到宝箱并将火焰放在虔诚的火盆以获取 {spell:333070}。
 
-Before picking up the flame, clear all mobs in front of the chest. While running the flame, click any {npc:156571} along the way for a {spell:335012} debuff that increases movement speed.
+拾取火焰之前，清除宝箱前面的全部怪物。在运送火焰时，点击任意路上的 {npc:156571} 获得 {spell:335012} 负面效果提高移动速度。
 ]]
 L["gift_of_thenios"] = [[
-Behind the chest is a flight pad called "智慧之路". This leads to a sequence of platforms with different incenses you can commune with:
+（临）宝箱后面称为“智慧之路”。这会指引一系列平台上不同的熏香进行沟通：
 
-• Incense of Knowledge
-• Incense of Patience
-• Incense of Insight
-• Incense of Judgement
+• 知识熏香
+• 忍耐熏香
+• 洞察熏香
+• 审判熏香
 
-Commune with them in the order Patience => Knowledge => Insight. On the Judgement platform an orb called the "Path of Insightful Wisdom" will appear.
+小心按顺序与他们沟通 => 知识 => 洞察。在审判平台会出现“有见识的智慧之路”的宝珠。
 
-The orb will take you to the true Incense of Judgment. Commune with it and the final flight pad will grant you {spell:333068} to open the chest.
+这个宝珠将把你进入真正的审判熏香。与它沟通后最终飞行平台让你获得 {spell:333068} 打开宝箱。
 ]]
-L["gift_of_vesiphone"] = "Ring one of the bells to spawn a {npc:170849} and kill it to receive the {spell:333239} debuff. The falling water opposite the chest will cleanse this debuff and grant you {spell:332785}."
+L["gift_of_vesiphone"] = "敲钟刷新一个 {npc:170849} 并击杀获得 {spell:333239} 负面效果。宝箱正对面的流水将清洁此负面效果，并获得 {spell:332785}。"
 
-L["cache_of_the_ascended"] = "Cache of the Ascended"
-L["cache_of_the_ascended_note"] = "With four other players, click the five Vespers of Purity, Courage, Humility, Wisdom and Loyalty at the same time. Afterwards, head to Aspirant's Crucible to defeat the Ascended Council and reveal the cache."
+L["cache_of_the_ascended"] = "晋升宝箱"
+L["cache_of_the_ascended_note"] = "与其他四名玩家，同时点击五个纯净的容器，勇气，谦卑，智慧和忠诚。然后前往候选者试练场击败晋升者议会获得宝箱奖励。"
 
 L["anima_shard"] = "失落的心能碎片"
-L["anima_shard_61225"] = "On a lower platform below the bridge."
-L["anima_shard_61235"] = "On a ledge above the waterfall."
-L["anima_shard_61236"] = "On top of an arch halfway up the main structure."
-L["anima_shard_61237"] = "On a ledge just above the water."
-L["anima_shard_61238"] = "In the water beneath a small bridge."
-L["anima_shard_61239"] = "On top of a thin stone column."
-L["anima_shard_61241"] = "Above the entrance to the Chamber of First Reflection."
-L["anima_shard_61244"] = "On a rock in the side of the cliff."
-L["anima_shard_61245"] = "On a rock above a small waterfall."
-L["anima_shard_61247"] = "On the wall above a small water fixture."
-L["anima_shard_61249"] = "Hidden behind a stone column on the upper level of 纯洁之巅."
-L["anima_shard_61250"] = "Sitting behind a staircase."
-L["anima_shard_61251"] = "Sitting beneath a small bell."
-L["anima_shard_61253"] = "On top of a fallen stone archway."
-L["anima_shard_61254"] = "On top of a small wooden structure."
-L["anima_shard_61257"] = "On a small ledge directly beneath {npc:162523}."
-L["anima_shard_61258"] = "On a small ledge on the underside of 英雄之眠."
-L["anima_shard_61260"] = "On the ground under the platform."
-L["anima_shard_61261"] = "On a ledge above {npc:163460}'s cave."
-L["anima_shard_61263"] = "On top of a stone pillar."
-L["anima_shard_61264"] = "On top of a tilted structure."
-L["anima_shard_61270"] = "Sitting at the base of a tree."
-L["anima_shard_61271"] = "In a bookcase on the upper platform."
-L["anima_shard_61273"] = "On a ledge directly below the jutting cliff."
-L["anima_shard_61274"] = "Hidden beneath the platform."
-L["anima_shard_61275"] = "In the Hall of Beasts behind some barrels."
-L["anima_shard_61277"] = "On top of a thin stone column."
-L["anima_shard_61278"] = "Underneath the bridge on a rock."
-L["anima_shard_61279"] = "On top of a thin stone column."
-L["anima_shard_61280"] = "On the corner of the table."
-L["anima_shard_61281"] = "On a ledge above the Memorial Offerings treasure."
-L["anima_shard_61282"] = "On a ledge way below the cliff top. Jump on the rock next to it or you will be ported back up."
-L["anima_shard_61283"] = "In a cave under Miri's Chapel, behind some barrels."
-L["anima_shard_61284"] = "On a ledge under a rocky overhang, path to the south."
-L["anima_shard_61285"] = "At the end of a small rock ledge."
-L["anima_shard_61286"] = "On a ledge overlooking the path."
-L["anima_shard_61287"] = "On a ledge above the small waterfall."
-L["anima_shard_61288"] = "On the tip of a small ledge."
-L["anima_shard_61289"] = "On top of the gazebo."
-L["anima_shard_61290"] = "At the end of a narrow rock ledge."
-L["anima_shard_61291"] = "At the bottom of the pond by the feet of a statue."
-L["anima_shard_61292"] = "On top of the stone archway."
-L["anima_shard_61293"] = "On top of a thin stone column on the lower level."
-L["anima_shard_61294"] = "Hidden behind a stack of barrels."
-L["anima_shard_61295"] = "Behind {npc:156889} in a bookshelf."
-L["anima_shard_61296"] = "Behind the large fallen bell."
-L["anima_shard_61297"] = "Behind a stone pillar."
-L["anima_shard_61298"] = "Sitting behind a lounge chair."
-L["anima_shard_61299"] = "Hidden behind a large torch."
-L["anima_shard_61300"] = "On a ledge hanging over the central font."
+L["anima_shard_61225"] = "在桥下的较低平台上。"
+L["anima_shard_61235"] = "在瀑布上方的壁架上。"
+L["anima_shard_61236"] = "在主体结构中间的拱顶上。"
+L["anima_shard_61237"] = "在水面上方的壁架上。"
+L["anima_shard_61238"] = "在水中的一座小桥下。"
+L["anima_shard_61239"] = "在薄石柱上。"
+L["anima_shard_61241"] = "在初思之厅入口上方。"
+L["anima_shard_61244"] = "在悬崖边的一块岩石上。"
+L["anima_shard_61245"] = "在小瀑布上方的岩石上。"
+L["anima_shard_61247"] = "在墙上的小水具上方。"
+L["anima_shard_61249"] = "隐藏在纯洁之巅上层的石柱后面。"
+L["anima_shard_61250"] = "坐在楼梯后面。"
+L["anima_shard_61251"] = "坐在小铃铛下面。"
+L["anima_shard_61253"] = "在一个下落的石拱道顶部。"
+L["anima_shard_61254"] = "在一个小的木结构上。"
+L["anima_shard_61257"] = "在正下方 {npc:162523} 的小壁架上。"
+L["anima_shard_61258"] = "在英雄之眠下面的小壁架上。"
+L["anima_shard_61260"] = "在平台下的地面上。"
+L["anima_shard_61261"] = "在 {npc:163460} 洞穴上面的壁架上。"
+L["anima_shard_61263"] = "在石柱上。"
+L["anima_shard_61264"] = "在倾斜结构的顶部。"
+L["anima_shard_61270"] = "坐在树的底部。"
+L["anima_shard_61271"] = "在上层平台的一个书柜中。"
+L["anima_shard_61273"] = "在突出悬崖正下方的壁架上。"
+L["anima_shard_61274"] = "隐藏在平台下方。"
+L["anima_shard_61275"] = "在野兽大厅一些桶的后面。"
+L["anima_shard_61277"] = "在薄石柱上。"
+L["anima_shard_61278"] = "在岩石下的桥下。"
+L["anima_shard_61279"] = "在薄石柱上。"
+L["anima_shard_61280"] = "在桌子的一角。"
+L["anima_shard_61281"] = "在纪念祭珍品上方的壁架上。"
+L["anima_shard_61282"] = "在悬崖顶下的壁架上。 跳到旁边的岩石上，否则您将被传送回去。"
+L["anima_shard_61283"] = "米莉的礼拜堂下面洞穴内，在桶后面。"
+L["anima_shard_61284"] = "在岩石悬突下的壁架上，向南行。"
+L["anima_shard_61285"] = "在一个小的岩石壁架的尽头。"
+L["anima_shard_61286"] = "在俯瞰道路的壁架上。"
+L["anima_shard_61287"] = "在小瀑布上方的壁架上。"
+L["anima_shard_61288"] = "在小壁架的顶端。"
+L["anima_shard_61289"] = "在凉亭上。"
+L["anima_shard_61290"] = "在狭窄的岩石壁架的尽头。"
+L["anima_shard_61291"] = "在的池塘底部雕像脚下。"
+L["anima_shard_61292"] = "在石牌坊的顶部。"
+L["anima_shard_61293"] = "在较低水平的细石柱上。"
+L["anima_shard_61294"] = "隐藏在一堆桶后面。"
+L["anima_shard_61295"] = "在书架上 {npc:156889} 后面。"
+L["anima_shard_61296"] = "在倒下的大钟后面。"
+L["anima_shard_61297"] = "在石柱后面。"
+L["anima_shard_61298"] = "坐在躺椅后面。"
+L["anima_shard_61299"] = "隐藏在大火炬的后面。"
+L["anima_shard_61300"] = "挂在中央字体的壁架上。"
 L["options_icons_anima_shard"] = "失落的心能碎片"
-L["options_icons_anima_shard_desc"] = "Display the locations of all 50 lost anima shards for the 碎片苦工 achievement."
+L["options_icons_anima_shard_desc"] = "显示“碎片苦工”成就所需的全部50个失落的心能碎片。"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
