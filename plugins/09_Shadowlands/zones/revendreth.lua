@@ -49,7 +49,9 @@ map.nodes[25304850] = Rare({
     quest=59584,
     note=L["amalgamation_of_light_note"],
     rewards={
-        Achievement({id=14310, criteria=48811})
+        Achievement({id=14310, criteria=48811}),
+        Transmog({item=179924, slot=L["leather"]}), -- Light-Infused Jacket
+        Item({item=180688}) -- Infused Remnant of Light
     }
 }) -- Amalgamation of Light
 
