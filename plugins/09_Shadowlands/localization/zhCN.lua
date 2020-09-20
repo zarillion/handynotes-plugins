@@ -6,7 +6,7 @@ if not L then return end
 ----------------------------------- GENERAL -----------------------------------
 -------------------------------------------------------------------------------
 
-L["context_menu_title"] = "HandyNotes 暗影国度"
+L["context_menu_title"] = "HandyNotes：暗影国度"
 L["options_title"] = "暗影国度"
 L["covenant_required"] = "需要%s盟约。"
 
