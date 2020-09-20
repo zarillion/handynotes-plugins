@@ -95,12 +95,22 @@ function Map:enabled (node, coord, minimap)
     -- Display the intro node!
     if node == self.intro then return not node:completed() end
 
+    -- Check if node's group is disabled
+    if not self:IsGroupEnabled(node.group) then return false end
+
     -- Check for prerequisites and quest (or custom) completion
     if not node:enabled() then return false end
 
     -- Display the node based off the group display setting
     local mapid = self.parents[node.group] or self.id
     return profile['icon_display_'..node.group..'_'..mapid]
+end
+
+function Map:IsGroupEnabled (group)
+    if self.options[group] and self.options[group].enabled then
+        return self.options[group].enabled()
+    end
+    return true
 end
 
 -------------------------------------------------------------------------------

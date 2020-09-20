@@ -29,7 +29,13 @@ local KYRIAN = ns.covenants.KYR
 local map = Map({
     id = 1533,
     options = {
-        anima_shard = { display = false }
+        anima_shard = {
+            display = false
+        },
+        kyrian_gateway = {
+            display = false,
+            enabled = function () return C_Covenants.GetActiveCovenantID() == 1 end
+        }
     }
 })
 
@@ -657,3 +663,26 @@ wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"]})
 gardens.nodes[46605310] = AnimaShard({quest=61298, note=L["anima_shard_61298"]})
 gardens.nodes[69403870] = AnimaShard({quest=61299, note=L["anima_shard_61299"]})
 font.nodes[49804690] = AnimaShard({quest=61300, note=L["anima_shard_61300"]})
+
+-------------------------------------------------------------------------------
+------------------------------- KYRIAN GATEWAYS -------------------------------
+-------------------------------------------------------------------------------
+
+local Gateway = Class('Gateway', ns.node.Node, {
+    icon='portal_blue',
+    scale=1.5,
+    group='kyrian_gateway'
+})
+
+local R = L["transport_research"]
+
+map.nodes[40715520] = Gateway({ label=L["xandrias_vigil"], sublabel=R:format(1) })
+map.nodes[48327284] = Gateway({ label=L["aspirants_rest"], sublabel=R:format(1) })
+map.nodes[51754681] = Gateway({ label=L["heros_rest"], sublabel=R:format(1) })
+
+map.nodes[44163302] = Gateway({ label=L["sagehaven"], sublabel=R:format(2) })
+map.nodes[58363097] = Gateway({ label=L["seat_of_eternal_hymns"], sublabel=R:format(2) })
+map.nodes[59427711] = Gateway({ label=L["temple_of_purity"], sublabel=R:format(2) })
+
+-- map.nodes[] = Gateway({ label=L["temple_of_humility"], sublabel=R:format(3) })
+-- map.nodes[] = Gateway({ label=L["exaltations_rise"], sublabel=R:format(3) })

@@ -24,7 +24,15 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local NIGHTFAE = ns.covenants.FAE
-local map = ns.Map({ id=1565 })
+local map = ns.Map({
+    id=1565,
+    options = {
+        mycelial_network = {
+            display = false,
+            enabled = function () return C_Covenants.GetActiveCovenantID() == 3 end
+        }
+    }
+})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -528,3 +536,34 @@ map.nodes[58205690] = PetBattle({
         Achievement({id=14625, criteria=49405})
     }
 }) -- Glitterdust
+
+-------------------------------------------------------------------------------
+------------------------------- MYCELIAL NETWORK ------------------------------
+-------------------------------------------------------------------------------
+
+local Mushroom = Class('Mushroom', ns.node.Node, {
+    icon='portal_purple',
+    scale=1.5,
+    group='mycelial_network'
+})
+
+function Mushroom.getters:label ()
+    return GetSpellInfo(self.id)
+end
+
+-- Traverse to the Ring 308437
+-- Traverse to the Heart of the Forest 325602
+
+local R = L["transport_research"]
+
+map.nodes[29513463] = Mushroom({ id=308436, sublabel=R:format(1) }) -- Stalks
+map.nodes[57494258] = Mushroom({ id=325614, sublabel=R:format(1) }) -- Stillglade
+map.nodes[65726026] = Mushroom({ id=325621, sublabel=R:format(1) }) -- Forest's Edge
+
+map.nodes[26445124] = Mushroom({ id=325620, sublabel=R:format(2) }) -- Elder Strand
+map.nodes[49392754] = Mushroom({ id=325616, sublabel=R:format(2) }) -- The Bank's of Life
+map.nodes[53277905] = Mushroom({ id=325618, sublabel=R:format(2) }) -- Gormhive
+
+map.nodes[20286695] = Mushroom({ id=325619, sublabel=R:format(3) }) -- Tirna Scithe
+map.nodes[41106952] = Mushroom({ id=325617, sublabel=R:format(3) }) -- Eventide Grove Shroom
+map.nodes[73682522] = Mushroom({ id=325607, sublabel=R:format(3) }) -- Crumbled Ridge

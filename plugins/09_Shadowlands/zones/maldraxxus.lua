@@ -24,7 +24,15 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local NECROLORD = ns.covenants.NEC
-local map = Map({ id=1536 })
+local map = Map({
+    id=1536,
+    options = {
+        bone_deathgate = {
+            display = false,
+            enabled = function () return C_Covenants.GetActiveCovenantID() == 4 end
+        }
+    }
+})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -561,3 +569,22 @@ festering_sanctum.nodes[45203680] = HAIRBALL
 
 -- Add Hairball to the world map
 map.nodes[68108620] = HAIRBALL
+
+-------------------------------------------------------------------------------
+------------------------------- BONE DEATHGATES -------------------------------
+-------------------------------------------------------------------------------
+
+local Deathgate = Class('Deathgate', ns.node.Node, {
+    icon='portal_green',
+    scale=1.5,
+    group='bone_deathgate'
+})
+
+local R = L["transport_research"]
+
+-- map.nodes[] = Deathgate({ label=L[""], sublabel=R:format(1) }) ???
+
+map.nodes[51631638] = Deathgate({ label=L["nurakkir"], sublabel=R:format(2) })
+map.nodes[74453364] = Deathgate({ label=L["exoramas"], sublabel=R:format(2) })
+
+-- map.nodes[] = Deathgate({ label=L[""], sublabel=R:format(3) }) ???

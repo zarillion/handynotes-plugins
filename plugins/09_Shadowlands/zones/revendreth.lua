@@ -25,7 +25,15 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local VENTHYR = ns.covenants.VEN
-local map = Map({ id=1525 })
+local map = Map({
+    id=1525,
+    options = {
+        blood_mirror = {
+            display = false,
+            enabled = function () return C_Covenants.GetActiveCovenantID() == 2 end
+        }
+    }
+})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -603,6 +611,26 @@ map.nodes[52634155] = Carriage({
         })
     }
 }) -- The Castle Carriage
+
+-------------------------------------------------------------------------------
+-------------------------------- BLOOD MIRRORS --------------------------------
+-------------------------------------------------------------------------------
+
+local BloodMirror = Class('BloodMirror', ns.node.Node, {
+    icon='portal_red',
+    scale=1.5,
+    group='blood_mirror'
+})
+
+local R = L["transport_research"]
+
+-- map.nodes[] = BloodMirror({ label=L["pridefall_hamlet"], sublabel=R:format(1) })
+-- map.nodes[] = BloodMirror({ label=L["eternal_terrace"], sublabel=R:format(1) })
+
+-- map.nodes[] = BloodMirror({ label=L["halls_of_atonement"], sublabel=R:format(2) })
+-- map.nodes[] = BloodMirror({ label=L["the_banewood"], sublabel=R:format(2) })
+-- map.nodes[] = BloodMirror({ label=L["dominance_keep"], sublabel=R:format(2) })
+-- map.nodes[] = BloodMirror({ label=L["feeders_thicket"], sublabel=R:format(2) })
 
 -------------------------------------------------------------------------------
 -------------------------------- LOYAL GORGER ---------------------------------

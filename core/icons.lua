@@ -76,6 +76,8 @@ ns.icons = {
 
     portal_blue = { icon=ICONS, coords=coords(2, 4), glow='portal' },
     portal_red = { icon=ICONS, coords=coords(2, 5), glow='portal' },
+    portal_green = { icon=ICONS, coords=coords(3, 9), glow='portal' },
+    portal_purple = { icon=ICONS, coords=coords(4, 9), glow='portal' },
 
     chest_gray = { icon=ICONS, coords=coords(3, 0), glow='treasure' },
     chest_yellow = { icon=ICONS, coords=coords(3, 1), glow='treasure' },

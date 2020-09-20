@@ -8,7 +8,13 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes: Shadowlands"
 L["options_title"] = "Shadowlands"
+
+-------------------------------------------------------------------------------
+---------------------------------- COVENANTS ----------------------------------
+-------------------------------------------------------------------------------
+
 L["covenant_required"] = "Requires a member of the %s covenant."
+L["transport_research"] = "Requires Transport Network Tier %d"
 
 local ACHAN = "anima channeled to %s."
 L["achan_citadel_of_loyalty"] = ACHAN:format('Citadel of Loyalty')
@@ -19,6 +25,15 @@ L["achan_temple_of_courage"] = ACHAN:format('Temple of Courage')
 L["achan_theater_of_pain"] = ACHAN:format('Theater of Pain')
 L["achan_tirna_scithe"] = ACHAN:format('Tirna Scithe')
 L["achan_wanecrypt_hill"] = ACHAN:format('Wanecrypt Hill')
+
+L["options_icons_blood_mirror_desc"] = "Display all transport destinations for the Venthyr blood mirrors."
+L["options_icons_blood_mirror"] = "Blood Mirrors"
+L["options_icons_bone_deathgate_desc"] = "Display all transport destinations for the Necrolord bone deathgates."
+L["options_icons_bone_deathgate"] = "Bone Deathgates"
+L["options_icons_kyrian_gateway_desc"] = "Display all transport destinations for the Kyrian gateway network."
+L["options_icons_kyrian_gateway"] = "Kyrian Gateways"
+L["options_icons_mycelial_network_desc"] = "Display all transport destinations for the Night Fae mushroom network."
+L["options_icons_mycelial_network"] = "Mycelial Network"
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -193,6 +208,15 @@ L["anima_shard_61300"] = "On a ledge hanging over the central font."
 L["options_icons_anima_shard"] = "Lost Anima Shards"
 L["options_icons_anima_shard_desc"] = "Display the locations of all 50 lost anima shards for the Shard Labor achievement."
 
+L["aspirants_rest"] = "Aspirant's Rest"
+L["exaltations_rise"] = "Exaltation's Rise"
+L["heros_rest"] = "Hero's Rest"
+L["sagehaven"] = "Sagehaven"
+L["seat_of_eternal_hymns"] = "Seat of Eternal Hymns"
+L["temple_of_humility"] = "Temple of Humility"
+L["temple_of_purity"] = "Temple of Purity"
+L["xandrias_vigil"] = "Xandria's Vigil"
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -269,6 +293,9 @@ L["pus_in_boots"] = "Located under the bridge."
 L["options_icons_slime_cat"] = "Kittens"
 L["options_icons_slime_cat_desc"] = "Display locations of kittens for the Nine Afterlives achievement."
 
+L["exoramas"] = "Exoramas, House of Rituals"
+L["nurakkir"] = "Nurakkir, House of Eyes"
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -333,6 +360,13 @@ L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} b
 
 L["options_icons_carriages"] = "Carriages"
 L["options_icons_carriages_desc"] = "Display locations and paths of rideable carriages."
+
+L["dominance_keep"] = "Dominance Keep"
+L["eternal_terrace"] = "The Eternal Terrace"
+L["feeders_thicket"] = "Feeder's Thicket"
+L["halls_of_atonement"] = "Halls of Atonement"
+L["pridefall_hamlet"] = "Pridefall Hamlet"
+L["the_banewood"] = "The Banewood"
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
