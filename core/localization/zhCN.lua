@@ -64,27 +64,34 @@ L["unobtainable"] = "无法获得"
 L["unlearnable"] = "无法解锁"
 L["A"] = "生" -- available/alive
 L["D"] = "死" -- dead/defeated
+L["defeated"] = "已击杀"
+L["undefeated"] = "未击杀"
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
 
+L["context_menu_set_waypoint"] = "设置地图路径点"
 L["context_menu_add_tomtom"] = "加入到 TomTom"
 L["context_menu_hide_node"] = "隐藏此项"
 L["context_menu_restore_hidden_nodes"] = "恢复所有隐藏项"
+
+L["map_button_text"] = "调整此地图上的图标显示，透明度和缩放。"
 
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["options_global"] = "全局"
+L["options_zones"] = "区域"
+
+L["options_general_description"] = "控制该项的特性及其奖励的设置。"
+L["options_global_description"] = "控制全部区域中全部的项显示的设置。"
+L["options_zones_description"] = "控制每个单独区域中的项显示的设置。"
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "图标设置"
-L["options_icons_treasures"] = "宝藏图标"
-L["options_icons_rares"] = "稀有图标"
-L["options_icons_caves"] = "洞穴图标"
-L["options_icons_pet_battles"] = "战斗宠物图标"
-L["options_icons_other"] = "其它图标"
 L["options_scale"] = "缩放"
 L["options_scale_desc"] = "1 = 100%"
 L["options_opacity"] = "透明度"
@@ -94,10 +101,8 @@ L["options_opacity_desc"] = "0 = 透明, 1 = 不透明"
 
 L["options_visibility_settings"] = "可见性"
 L["options_general_settings"] = "通用"
-L["options_toggle_looted_rares"] = "永远显示所有稀有"
-L["options_toggle_looted_rares_desc"] = "显示所有稀有忽略拾取状态"
-L["options_toggle_looted_treasures"] = "显示已拾取的宝藏"
-L["options_toggle_looted_treasures_desc"] = "显示所有宝藏忽略拾取状态"
+L["options_show_completed_nodes"] = "显示已完成"
+L["options_show_completed_nodes_desc"] = "显示全部项即使它们今天已被拾取或完成。"
 L["options_toggle_hide_done_rare"] = "隐藏所有拾取已解锁的稀有。"
 L["options_toggle_hide_done_rare_desc"] = "隐藏所有拾取已解锁的稀有。"
 L["options_toggle_hide_minimap"] = "隐藏小地图上的所有图标"
@@ -105,20 +110,26 @@ L["options_toggle_hide_minimap_desc"] = "在小地图上隐藏此插件的所有
 L["options_restore_hidden_nodes"] = "恢复隐藏项"
 L["options_restore_hidden_nodes_desc"] = "使用右击菜单恢复全部隐藏项。"
 
-L["options_toggle_battle_pets_desc"] = "显示宠物训练师和 NPC 的位置。"
-L["options_toggle_battle_pets"] = "战斗宠物"
-L["options_toggle_caves_desc"] = "显示其它项的洞穴入口。"
-L["options_toggle_caves"] = "洞穴"
-L["options_toggle_chests_desc"] = "显示宝箱位置（每日可拾取）。"
-L["options_toggle_chests"] = "宝箱"
-L["options_toggle_misc"] = "杂项"
-L["options_toggle_npcs"] = "NPC"
-L["options_toggle_rares_desc"] = "显示稀有 NPC 位置。"
-L["options_toggle_rares"] = "稀有"
-L["options_toggle_supplies_desc"] = "显示全部可能出现战争补给箱的位置。"
-L["options_toggle_supplies"] = "战争补给箱"
-L["options_toggle_treasures"] = "宝藏"
-L["options_toggle_treasures_desc"] = "显示隐藏宝藏位置。"
+L["options_icons_pet_battles_desc"] = "显示宠物训练师和 NPC 的位置。"
+L["options_icons_pet_battles"] = "战斗宠物"
+L["options_icons_caves_desc"] = "显示其它项的洞穴入口。"
+L["options_icons_caves"] = "洞穴"
+L["options_icons_chests_desc"] = "显示宝箱位置（每日可拾取）。"
+L["options_icons_chests"] = "宝箱"
+L["options_icons_daily_quests_desc"] = "显示未标记每日任务的位置。"
+L["options_icons_daily_quests"] = "每日任务"
+L["options_icons_misc"] = "杂项"
+L["options_icons_npcs"] = "NPC"
+L["options_icons_other_desc"] = "显示其它未分类项的位置。"
+L["options_icons_other"] = "其它"
+L["options_icons_quests_desc"] = "显示未标记任务线的位置。"
+L["options_icons_quests"] = "任务"
+L["options_icons_rares_desc"] = "显示稀有 NPC 的位置。"
+L["options_icons_rares"] = "稀有"
+L["options_icons_supplies_desc"] = "显示全部可能出现战争补给箱的位置。"
+L["options_icons_supplies"] = "战争补给箱"
+L["options_icons_treasures"] = "宝藏"
+L["options_icons_treasures_desc"] = "显示隐藏宝藏位置。"
 
 ---------------------------------- TOOLTIP ---------------------------------
 

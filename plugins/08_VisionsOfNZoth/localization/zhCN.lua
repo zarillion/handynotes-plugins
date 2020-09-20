@@ -8,7 +8,6 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes 恩佐斯的幻象"
 L["options_title"] = "恩佐斯的幻象"
-L["options_icons_assaultevents"] = "突袭事件图标"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -50,12 +49,12 @@ L["amathet_reliquary"] = "阿玛赛特圣箱"
 L["cursed_relic"] = "需要诅咒圣物"
 L["tolvir_relic"] = "需要托维尔圣物"
 
-L["options_toggle_alpaca_uldum"] = "春袭羊驼"
-L["options_toggle_alpaca_uldum_desc"] = "显示友善的羊驼的刷新位置。"
-L["options_toggle_assault_events"] = "突袭事件"
-L["options_toggle_assault_events_desc"] = "显示可能的突袭事件的位置。"
-L["options_toggle_coffers"] = "上锁的箱子"
-L["options_toggle_coffers_desc"] = "显示上锁的箱子（每次突袭拾取一次）。"
+L["options_icons_alpaca_uldum"] = "春袭羊驼"
+L["options_icons_alpaca_uldum_desc"] = "显示友善的羊驼的刷新位置。"
+L["options_icons_assault_events"] = "突袭事件"
+L["options_icons_assault_events_desc"] = "显示可能的突袭事件的位置。"
+L["options_icons_coffers"] = "上锁的箱子"
+L["options_icons_coffers_desc"] = "显示上锁的箱子（每次突袭拾取一次）。"
 
 L["ambush_settlers"] = "击败几波怪物直到事件结束。"
 L["burrowing_terrors"] = "踩死穴居甲虫。"
@@ -216,14 +215,16 @@ L["c_underneath_bridge"] = "在桥下。"
 L["c_walkway_corner"] = "在上层行道的角落。"
 L["c_walkway_platform"] = "在行道上面的平台上。"
 
-L["options_toggle_visions_buffs"] = "增益"
-L["options_toggle_visions_buffs_desc"] = "显示获得1小时伤害增益的事件位置。"
-L["options_toggle_visions_chest_desc"] = "显示惊魂幻象内可能的宝箱位置。"
-L["options_toggle_visions_crystals"] = "怪异水晶"
-L["options_toggle_visions_crystals_desc"] = "显示惊魂幻象内怪异水晶可能的位置。"
-L["options_toggle_visions_mail"] = "邮箱"
-L["options_toggle_visions_mail_desc"] = "显示邮件吞噬者坐骑邮箱位置。"
-L["options_toggle_visions_misc_desc"] = "显示惊魂幻象内稀有，玩具，药水和虚灵的位置。"
+L["options_icons_visions_buffs"] = "增益"
+L["options_icons_visions_buffs_desc"] = "显示获得1小时伤害增益的事件位置。"
+L["options_icons_visions_chest"] = "宝箱"
+L["options_icons_visions_chest_desc"] = "显示惊魂幻象内可能的宝箱位置。"
+L["options_icons_visions_crystals"] = "怪异水晶"
+L["options_icons_visions_crystals_desc"] = "显示惊魂幻象内怪异水晶可能的位置。"
+L["options_icons_visions_mail"] = "邮箱"
+L["options_icons_visions_mail_desc"] = "显示邮件吞噬者坐骑邮箱位置。"
+L["options_icons_visions_misc"] = "杂项"
+L["options_icons_visions_misc_desc"] = "显示惊魂幻象内稀有，玩具，药水和虚灵的位置。"
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -231,5 +232,5 @@ L["options_toggle_visions_misc_desc"] = "显示惊魂幻象内稀有，玩具，
 
 L["voldun"] = "沃顿"
 L["elusive_alpaca"] = "将海滩叶蔬沙拉喂给轻盈的迅蹄驼以获得坐骑。羊驼每次存在10分钟，刷新时间很长。"
-L["options_toggle_alpaca_voldun_desc"] = "显示轻盈的迅蹄驼的刷新位置。"
-L["options_toggle_alpaca_voldun"] = "轻盈的迅蹄驼"
+L["options_icons_alpaca_voldun_desc"] = "显示轻盈的迅蹄驼的刷新位置。"
+L["options_icons_alpaca_voldun"] = "轻盈的迅蹄驼"
