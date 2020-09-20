@@ -14,6 +14,8 @@ ns.addon = Addon
 ns.locale = L
 ns.maps = {}
 
+_G[ADDON_NAME] = Addon
+
 -------------------------------------------------------------------------------
 ----------------------------------- HELPERS -----------------------------------
 -------------------------------------------------------------------------------
@@ -196,7 +198,11 @@ function Addon:RegisterWithHandyNotes()
 end
 
 function Addon:Refresh()
-    self:SendMessage("HandyNotes_NotifyUpdate", ADDON_NAME)
-    ns.MinimapDataProvider:RefreshAllData()
-    ns.WorldMapDataProvider:RefreshAllData()
+    if self._refreshTimer then return end
+    self._refreshTimer = C_Timer.NewTimer(0.1, function ()
+        self._refreshTimer = nil
+        self:SendMessage("HandyNotes_NotifyUpdate", ADDON_NAME)
+        ns.MinimapDataProvider:RefreshAllData()
+        ns.WorldMapDataProvider:RefreshAllData()
+    end)
 end

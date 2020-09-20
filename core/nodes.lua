@@ -80,8 +80,8 @@ function Node:display (map)
     local mapid = map.parents[self.group] or map.id
     local s_opt = 'icon_scale_'..self.group
     local a_opt = 'icon_alpha_'..self.group
-    local scale = self.scale * (profile[s_opt] or profile[s_opt..'_'..mapid] or 1)
-    local alpha = self.alpha * (profile[a_opt] or profile[a_opt..'_'..mapid] or 1)
+    local scale = self.scale * (profile[s_opt..'_'..mapid] or profile[s_opt] or 1)
+    local alpha = self.alpha * (profile[a_opt..'_'..mapid] or profile[a_opt] or 1)
     return self.icon, scale, alpha
 end
 
