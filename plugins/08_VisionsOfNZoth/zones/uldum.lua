@@ -50,8 +50,8 @@ local function GetAssault ()
     end
 end
 
-function map:prepare ()
-    Map.prepare(self)
+function map:Prepare ()
+    Map.Prepare(self)
     self.assault = GetAssault()
     self.phased = self.assault ~= nil
 end

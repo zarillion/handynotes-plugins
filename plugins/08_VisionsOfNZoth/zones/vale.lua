@@ -47,8 +47,8 @@ local function GetAssault()
     end
 end
 
-function map:prepare ()
-    Map.prepare(self)
+function map:Prepare ()
+    Map.Prepare(self)
     self.assault = GetAssault()
     self.phased = self.assault ~= nil
 end
@@ -427,8 +427,8 @@ nodes[76626437] = EMPCOFF
 
 local pmap = Map({ id=1579 })
 
-function pmap:prepare ()
-    map.prepare(self)
+function pmap:Prepare ()
+    map.Prepare(self)
 end
 
 -- quest=57199

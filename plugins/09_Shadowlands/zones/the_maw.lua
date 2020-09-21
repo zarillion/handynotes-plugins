@@ -25,8 +25,8 @@ local POI = ns.poi.POI
 
 local map = Map({ id=1543, phased=false })
 
-function map:prepare ()
-    Map.prepare(self)
+function map:Prepare ()
+    Map.Prepare(self)
     self.phased = C_QuestLog.IsQuestFlaggedCompleted(60134)
 end
 

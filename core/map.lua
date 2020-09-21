@@ -63,9 +63,13 @@ function Map:add(coord, node)
     rawset(self.nodes, coord, node)
 end
 
-function Map:prepare ()
+function Map:Prepare ()
     for coord, node in pairs(self.nodes) do
-        node:prepare()
+        -- prepare each node once to ensure its dependent data is loaded
+        if not node._prepared then
+            node:Prepare()
+            node._prepared = true
+        end
     end
 end
 

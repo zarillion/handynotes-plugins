@@ -177,7 +177,7 @@ function Addon:RegisterWithHandyNotes()
             minimap = _minimap
 
             if map then
-                map:prepare()
+                map:Prepare()
                 return iter, map.nodes, nil
             end
 

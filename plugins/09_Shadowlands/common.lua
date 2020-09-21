@@ -103,8 +103,8 @@ ns.groups.VEN_NETWORK = SLGroup({
 
 local SLMap = Class('ShadowlandsMap', Map)
 
-function SLMap:prepare ()
-    Map.prepare(self)
+function SLMap:Prepare ()
+    Map.Prepare(self)
     for coord, node in pairs(self.nodes) do
         -- Update rlabel and sublabel for covenant-restricted nodes
         ProcessCovenant(node)
