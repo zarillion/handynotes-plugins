@@ -154,6 +154,8 @@ world map containing this node is opened.
 --]]
 
 function Node:prepare ()
+    if self._prepared then return end
+
     -- initialize icon from string name
     if type(self.icon) == 'string' then
         self.icon = ns.icons[self.icon] or ns.icons.default
