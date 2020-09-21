@@ -95,6 +95,7 @@ ns.isclass = function (class)
 end
 
 ns.isinstance = function (instance, class)
+    if type(instance) ~= 'table' then return false end
     local function compare (c1, c2)
         if c2 == nil then return false end
         if c1 == c2 then return true end

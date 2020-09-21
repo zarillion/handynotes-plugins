@@ -24,15 +24,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local NIGHTFAE = ns.covenants.FAE
-local map = ns.Map({
-    id=1565,
-    options = {
-        mycelial_network = {
-            display = false,
-            enabled = function () return C_Covenants.GetActiveCovenantID() == 3 end
-        }
-    }
-})
+local map = ns.Map({ id=1565 })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -544,7 +536,7 @@ map.nodes[58205690] = PetBattle({
 local Mushroom = Class('Mushroom', ns.node.Node, {
     icon='portal_purple',
     scale=1.5,
-    group='mycelial_network'
+    group=ns.groups.FAE_NETWORK
 })
 
 function Mushroom.getters:label ()

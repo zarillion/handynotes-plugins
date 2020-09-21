@@ -5,8 +5,13 @@
 local _, ns = ...
 local L = ns.locale
 local Class = ns.Class
+local Group = ns.Group
 local Map = ns.Map
 local Node = ns.node.Node
+
+-------------------------------------------------------------------------------
+
+ns.groups.MECH_BUFF = Group({name='mech_buffs'})
 
 -------------------------------------------------------------------------------
 
@@ -17,7 +22,7 @@ local nodes = map.nodes
 ---------------------------------- BUFF BOTS ----------------------------------
 -------------------------------------------------------------------------------
 
-local Buff = Class('Buff', Node, {group='mech_buffs', scale=0.75})
+local Buff = Class('Buff', Node, {group=ns.groups.MECH_BUFF, scale=0.75})
 local GREASE = Buff({icon=252178, label=L["grease_bot"], note=L["grease_bot_note"]})
 local SHOCK = Buff({icon=136099, label=L["shock_bot"], note=L["shock_bot_note"]})
 local WELDING = Buff({icon=134952, label=L["welding_bot"], note=L["welding_bot_note"]})

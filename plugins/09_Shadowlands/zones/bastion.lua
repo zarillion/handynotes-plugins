@@ -26,20 +26,8 @@ local POI = ns.poi.POI
 
 local KYRIAN = ns.covenants.KYR
 
-local map = Map({
-    id = 1533,
-    options = {
-        anima_shard = {
-            display = false
-        },
-        kyrian_gateway = {
-            display = false,
-            enabled = function () return C_Covenants.GetActiveCovenantID() == 1 end
-        }
-    }
-})
-
-local sanctum = Map({ id=1707, parents={ kyrian_gateway=1533 }})
+local map = Map({ id = 1533 })
+local sanctum = Map({ id=1707, settings=false })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -585,11 +573,11 @@ map.nodes[54555609] = PetBattle({
 -------------------------------------------------------------------------------
 
 local AnimaShard = Class('AnimaShard', Node, {
-    group='anima_shard',
-    label=L["anima_shard"],
-    icon='anima_crystal',
-    scale=1.5,
-    rewards={
+    label = L["anima_shard"],
+    icon = 'anima_crystal',
+    scale = 1.5,
+    group = ns.groups.ANIMA_SHARD,
+    rewards = {
         Achievement({id=14339, criteria={
             {id=0, qty=true, suffix=" "..L["anima_shard"]}
         }})
@@ -656,9 +644,9 @@ map.nodes[24371821] = AnimaShard({quest=61295, note=L["anima_shard_61295"]})
 
 -------------------------------------------------------------------------------
 
-local gardens = Map({id=1693, parents={anima_shard=1533}})
-local font = Map({id=1694, parents={anima_shard=1533}})
-local wake = Map({id=1666, parents={anima_shard=1533}})
+local gardens = Map({ id=1693, settings=false })
+local font = Map({ id=1694, settings=false })
+local wake = Map({ id=1666, settings=false })
 
 wake.nodes[52508860] = AnimaShard({quest=61296, note=L["anima_shard_61296"]})
 wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"]})
@@ -671,9 +659,9 @@ font.nodes[49804690] = AnimaShard({quest=61300, note=L["anima_shard_61300"]})
 -------------------------------------------------------------------------------
 
 local Gateway = Class('Gateway', ns.node.Node, {
-    icon='portal_blue',
-    scale=1.5,
-    group='kyrian_gateway'
+    icon = 'portal_blue',
+    scale = 1.5,
+    group = ns.groups.KYR_NETWORK
 })
 
 local R = L["transport_research"]

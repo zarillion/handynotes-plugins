@@ -11,20 +11,6 @@ local L = ns.locale
 
 ns.optionDefaults = {
     profile = {
-        -- icon scales
-        icon_scale_caves = 1,
-        icon_scale_other = 1,
-        icon_scale_pet_battles = 1,
-        icon_scale_rares = 1,
-        icon_scale_treasures = 1,
-
-        -- icon alphas
-        icon_alpha_caves = 0.75,
-        icon_alpha_other = 1.0,
-        icon_alpha_pet_battles = 1.0,
-        icon_alpha_rares = 0.75,
-        icon_alpha_treasures = 0.75,
-
         -- visibility
         hide_done_rare = false,
         hide_minimap = false,
@@ -140,32 +126,42 @@ ns.options = {
     }
 }
 
-for i, group in ipairs({'rares', 'treasures', 'pet_battles', 'other'}) do
-    ns.options.args.GlobalTab.args['group_icon_'..group] = {
-        type = "header",
-        name = L["options_icons_"..group],
-        order = i * 10,
-    }
+-- Display these groups in the global settings tab. They are the most common
+-- group options that players might want to customize.
 
-    ns.options.args.GlobalTab.args['icon_scale_'..group] = {
-        type = "range",
-        name = L["options_scale"],
-        desc = L["options_scale_desc"],
-        min = 0.3, max = 3, step = 0.01,
-        arg = "icon_scale_"..group,
-        width = 1.13,
-        order = i * 10 + 1,
-    }
+function ns.CreateGlobalGroupOptions()
+    for i, group in ipairs({
+        ns.groups.RARE,
+        ns.groups.TREASURE,
+        ns.groups.PETBATTLE,
+        ns.groups.OTHER
+    }) do
+        ns.options.args.GlobalTab.args['group_icon_'..group.name] = {
+            type = "header",
+            name = L["options_icons_"..group.name],
+            order = i * 10,
+        }
 
-    ns.options.args.GlobalTab.args['icon_alpha_'..group] = {
-        type = "range",
-        name = L["options_opacity"],
-        desc = L["options_opacity_desc"],
-        min = 0, max = 1, step = 0.01,
-        arg = "icon_alpha_"..group,
-        width = 1.13,
-        order = i * 10 + 2,
-    }
+        ns.options.args.GlobalTab.args['icon_scale_'..group.name] = {
+            type = "range",
+            name = L["options_scale"],
+            desc = L["options_scale_desc"],
+            min = 0.3, max = 3, step = 0.01,
+            arg = group.scaleArg,
+            width = 1.13,
+            order = i * 10 + 1,
+        }
+
+        ns.options.args.GlobalTab.args['icon_alpha_'..group.name] = {
+            type = "range",
+            name = L["options_opacity"],
+            desc = L["options_opacity_desc"],
+            min = 0, max = 1, step = 0.01,
+            arg = group.alphaArg,
+            width = 1.13,
+            order = i * 10 + 2,
+        }
+    end
 end
 
 -------------------------------------------------------------------------------
@@ -173,31 +169,16 @@ end
 -------------------------------------------------------------------------------
 
 local _INITIALIZED = {}
-local _EMPTY_DEFAULTS = {}
 
-function ns.InitializeGroup (map, group)
+function ns.CreateGroupOptions (map, group)
     -- Check if we've already initialized this group
-    if _INITIALIZED[group..map.id] then return end
-    _INITIALIZED[group..map.id] = true
-
-    -- Create default option values for this group if they are not set
-    local defaults = ns.optionDefaults.profile
-    local map_defaults = map.options[group] or _EMPTY_DEFAULTS
-
-    -- Create display toggle default for this group. If global ones do not
-    -- exist, also create scale/alpha defaults.
-    defaults['icon_display_'..group..'_'..map.id] = map_defaults.display ~= false
-    if not defaults['icon_alpha_'..group] then
-        defaults['icon_alpha_'..group..'_'..map.id] = map_defaults.alpha or 1
-    end
-    if not defaults['icon_scale_'..group] then
-        defaults['icon_scale_'..group..'_'..map.id] = map_defaults.scale or 1
-    end
+    if _INITIALIZED[group.name..map.id] then return end
+    _INITIALIZED[group.name..map.id] = true
 
     -- Create map options group under zones tab
-    local map_options = ns.options.args.ZonesTab.args['Zone_'..map.id]
-    if not map_options then
-        map_options = {
+    local options = ns.options.args.ZonesTab.args['Zone_'..map.id]
+    if not options then
+        options = {
             type = "group",
             name = C_Map.GetMapInfo(map.id).name,
             args = {
@@ -217,51 +198,46 @@ function ns.InitializeGroup (map, group)
                 }
             }
         }
-        ns.options.args.ZonesTab.args['Zone_'..map.id] = map_options
+        ns.options.args.ZonesTab.args['Zone_'..map.id] = options
     end
 
     map._icons_order = map._icons_order or 0
     map._visibility_order = map._visibility_order or 0
 
-    local displayArg = "icon_display_"..group.."_"..map.id
-    local alphaArg = 'icon_alpha_'..group
-    local scaleArg = 'icon_scale_'..group
-    if not defaults[alphaArg] then alphaArg = alphaArg..'_'..map.id end
-    if not defaults[scaleArg] then scaleArg = scaleArg..'_'..map.id end
-
-    map_options.args.IconsGroup.args["icon_toggle_"..group] = {
+    options.args.IconsGroup.args["icon_toggle_"..group.name] = {
         type = "toggle",
-        arg = displayArg,
-        name = L["options_icons_"..group],
-        desc = L["options_icons_"..group.."_desc"],
+        arg = group.displayArg,
+        name = L["options_icons_"..group.name],
+        desc = L["options_icons_"..group.name.."_desc"],
+        disabled = function () return not group:IsEnabled() end,
         width = 0.9,
         order = map._icons_order
     }
 
-    map_options.args.VisibilityGroup.args["header_"..group] = {
+    options.args.VisibilityGroup.args["header_"..group.name] = {
         type = "header",
-        name = L["options_icons_"..group],
+        name = L["options_icons_"..group.name],
         order = map._visibility_order
     }
 
-    map_options.args.VisibilityGroup.args['icon_scale_'..group] = {
+    options.args.VisibilityGroup.args['icon_scale_'..group.name] = {
         type = "range",
         name = L["options_scale"],
         desc = L["options_scale_desc"],
-        disabled = function () return not ns.addon.db.profile[displayArg] end,
+        disabled = function () return not (group:IsEnabled() and group:GetDisplay()) end,
         min = 0.3, max = 3, step = 0.01,
-        arg = scaleArg,
+        arg = group.scaleArg,
         width = 0.95,
         order = map._visibility_order + 1
     }
 
-    map_options.args.VisibilityGroup.args['icon_alpha_'..group] = {
+    options.args.VisibilityGroup.args['icon_alpha_'..group.name] = {
         type = "range",
         name = L["options_opacity"],
         desc = L["options_opacity_desc"],
-        disabled = function () return not ns.addon.db.profile[displayArg] end,
+        disabled = function () return not (group:IsEnabled() and group:GetDisplay()) end,
         min = 0, max = 1, step = 0.01,
-        arg = alphaArg,
+        arg = group.alphaArg,
         width = 0.95,
         order = map._visibility_order + 2
     }

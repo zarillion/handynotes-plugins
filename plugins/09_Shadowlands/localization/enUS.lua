@@ -26,14 +26,14 @@ L["achan_theater_of_pain"] = ACHAN:format('Theater of Pain')
 L["achan_tirna_scithe"] = ACHAN:format('Tirna Scithe')
 L["achan_wanecrypt_hill"] = ACHAN:format('Wanecrypt Hill')
 
-L["options_icons_blood_mirror_desc"] = "Display all transport destinations for the Venthyr blood mirrors."
-L["options_icons_blood_mirror"] = "Blood Mirrors"
-L["options_icons_bone_deathgate_desc"] = "Display all transport destinations for the Necrolord bone deathgates."
-L["options_icons_bone_deathgate"] = "Bone Deathgates"
-L["options_icons_kyrian_gateway_desc"] = "Display all transport destinations for the Kyrian gateway network."
-L["options_icons_kyrian_gateway"] = "Kyrian Gateways"
-L["options_icons_mycelial_network_desc"] = "Display all transport destinations for the Night Fae mushroom network."
-L["options_icons_mycelial_network"] = "Mycelial Network"
+L["options_icons_fae_network_desc"] = "Display all transport destinations for the Night Fae mushroom network."
+L["options_icons_fae_network"] = "Mycelial Network"
+L["options_icons_kyr_network_desc"] = "Display all transport destinations for the Kyrian gateway network."
+L["options_icons_kyr_network"] = "Kyrian Gateways"
+L["options_icons_nec_network_desc"] = "Display all transport destinations for the Necrolord bone deathgates."
+L["options_icons_nec_network"] = "Bone Deathgates"
+L["options_icons_ven_network_desc"] = "Display all transport destinations for the Venthyr blood mirrors."
+L["options_icons_ven_network"] = "Blood Mirrors"
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------

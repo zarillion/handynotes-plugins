@@ -26,17 +26,8 @@ local Path = ns.poi.Path
 
 local NECROLORD = ns.covenants.NEC
 
-local map = Map({
-    id=1536,
-    options = {
-        bone_deathgate = {
-            display = false,
-            enabled = function () return C_Covenants.GetActiveCovenantID() == 4 end
-        }
-    }
-})
-
-local sanctum = Map({ id=1698, parents={ bone_deathgate=1536 }})
+local map = Map({ id=1536 })
+local sanctum = Map({ id=1698, settings=false })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -477,7 +468,7 @@ local forgotten_treasure = Treasure({
 
 map.nodes[22503030] = forgotten_treasure
 
-local etheric_vault = Map({id=1649, parents={treasures=1536}})
+local etheric_vault = Map({ id=1649, settings=false })
 etheric_vault.nodes[34565549] = ns.clone(forgotten_treasure, {
     pois={
         POI({25815353}) -- Vault Portcullis Chain
@@ -521,9 +512,9 @@ map.nodes[63234687] = PetBattle({
 -------------------------------------------------------------------------------
 
 local Kitten = Class('Kitten', NPC, {
-    group = 'slime_cat',
+    sublabel = L["pet_cat"],
     icon = 3732497, -- inv_catslime
-    sublabel = L["pet_cat"]
+    group = ns.groups.SLIME_CAT
 })
 
 function Kitten:completed ()
@@ -568,7 +559,7 @@ local HAIRBALL = Kitten({id=174195, rewards={
 }, note=L["hairball"]}) -- Hairball
 
 -- Add Hairball to the dungeon map
-local festering_sanctum = Map({id=1697, parents={slime_cat=1536}})
+local festering_sanctum = Map({ id=1697, settings=false })
 festering_sanctum.nodes[45203680] = HAIRBALL
 
 -- Add Hairball to the world map
@@ -579,9 +570,9 @@ map.nodes[68108620] = HAIRBALL
 -------------------------------------------------------------------------------
 
 local Deathgate = Class('Deathgate', ns.node.Node, {
-    icon='portal_green',
-    scale=1.5,
-    group='bone_deathgate'
+    icon = 'portal_green',
+    scale = 1.5,
+    group = ns.groups.NEC_NETWORK
 })
 
 local R = L["transport_research"]

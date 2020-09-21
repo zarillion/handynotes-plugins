@@ -25,15 +25,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local VENTHYR = ns.covenants.VEN
-local map = Map({
-    id=1525,
-    options = {
-        blood_mirror = {
-            display = false,
-            enabled = function () return C_Covenants.GetActiveCovenantID() == 2 end
-        }
-    }
-})
+local map = Map({ id=1525 })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -518,9 +510,9 @@ map.nodes[67626608] = PetBattle({
 -------------------------------------------------------------------------------
 
 local Carriage = Class('Carriage', NPC, {
-    group='carriages',
-    icon='horseshoe',
-    scale=1.2
+    icon = 'horseshoe',
+    scale = 1.2,
+    group = ns.groups.CARRIAGE
 })
 
 map.nodes[50217067] = Carriage({
@@ -617,9 +609,9 @@ map.nodes[52634155] = Carriage({
 -------------------------------------------------------------------------------
 
 local BloodMirror = Class('BloodMirror', ns.node.Node, {
-    icon='portal_red',
-    scale=1.5,
-    group='blood_mirror'
+    icon = 'portal_red',
+    scale = 1.5,
+    group = ns.groups.VEN_NETWORK
 })
 
 local R = L["transport_research"]

@@ -5,6 +5,7 @@
 local _, ns = ...
 local L = ns.locale
 local Class = ns.Class
+local Group = ns.Group
 local Map = ns.Map
 
 local Node = ns.node.Node
@@ -19,6 +20,12 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+
+-------------------------------------------------------------------------------
+
+ns.groups.LOCKED_CHEST = Group({name='locked_chest'})
+ns.groups.MECH_CHEST = Group({name='mech_chest'})
+ns.groups.RECRIG = Group({name='recrig'})
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -282,14 +289,61 @@ nodes[72107290] = PetBattle({id=154929}) -- Unit 17
 local RED_PAINT = Item({item=170146, quest=56907}) -- Paint Bottle: Nukular Red
 
 -- Recently it looks like these are in fixed spawns compared to when 8.2 hit
-nodes[23195699] = Treasure({group='locked_chest', label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
-nodes[13228581] = Treasure({group='locked_chest', label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
-nodes[19018086] = Treasure({group='locked_chest', label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
-nodes[30775964] = Treasure({group='locked_chest', label=L["iron_chest"], note=L["iron_chest_note"], rewards={RED_PAINT}})
-nodes[20537120] = Treasure({group='locked_chest', label=L["msup_chest"], note=L["msup_chest_note"], rewards={RED_PAINT}})
-nodes[18357618] = Treasure({group='locked_chest', label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
-nodes[25267825] = Treasure({group='locked_chest', label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
-nodes[23988441] = Treasure({group='locked_chest', label=L["rust_chest"], note=L["rust_chest_note"], rewards={RED_PAINT}})
+nodes[23195699] = Treasure({
+    group=ns.groups.LOCKED_CHEST,
+    label=L["iron_chest"],
+    note=L["iron_chest_note"],
+    rewards={RED_PAINT}
+})
+
+nodes[13228581] = Treasure({
+    group=ns.groups.LOCKED_CHEST,
+    label=L["iron_chest"],
+    note=L["iron_chest_note"],
+    rewards={RED_PAINT}
+})
+
+nodes[19018086] = Treasure({
+    group=ns.groups.LOCKED_CHEST,
+    label=L["iron_chest"],
+    note=L["iron_chest_note"],
+    rewards={RED_PAINT}
+})
+
+nodes[30775964] = Treasure({
+    group=ns.groups.LOCKED_CHEST,
+    label=L["iron_chest"],
+    note=L["iron_chest_note"],
+    rewards={RED_PAINT}
+})
+
+nodes[20537120] = Treasure({
+    group=ns.groups.LOCKED_CHEST,
+    label=L["msup_chest"],
+    note=L["msup_chest_note"],
+    rewards={RED_PAINT}
+})
+
+nodes[18357618] = Treasure({
+    group=ns.groups.LOCKED_CHEST,
+    label=L["rust_chest"],
+    note=L["rust_chest_note"],
+    rewards={RED_PAINT}
+})
+
+nodes[25267825] = Treasure({
+    group=ns.groups.LOCKED_CHEST,
+    label=L["rust_chest"],
+    note=L["rust_chest_note"],
+    rewards={RED_PAINT}
+})
+
+nodes[23988441] = Treasure({
+    group=ns.groups.LOCKED_CHEST,
+    label=L["rust_chest"],
+    note=L["rust_chest_note"],
+    rewards={RED_PAINT}
+})
 
 -------------------------------------------------------------------------------
 ------------------------------ MECHANIZED CHESTS ------------------------------
@@ -297,7 +351,7 @@ nodes[23988441] = Treasure({group='locked_chest', label=L["rust_chest"], note=L[
 
 local MechChest = Class('MechChest', Treasure)
 
-MechChest.group = 'mech_chest'
+MechChest.group = ns.groups.MECH_CHEST
 MechChest.label = L["mech_chest"]
 MechChest.rewards = {
     Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
@@ -386,7 +440,7 @@ nodes[53486145] = Quest({quest=55743, questDeps=56117, daily=true, minimap=false
 
 -------------------------------------------------------------------------------
 
-local RegRig = Class('RegRig', Node, { group='recrig' })
+local RegRig = Class('RegRig', Node, { group=ns.groups.RECRIG })
 
 function RegRig.getters:rlabel ()
     local G, GR, N, H = ns.status.Green, ns.status.Gray, L['normal'], L['hard']
