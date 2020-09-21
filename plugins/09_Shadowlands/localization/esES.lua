@@ -352,7 +352,7 @@ L["gilded_plum_chest_note"] = "Mata a {npc:166680} que deambula camino arriba y 
 L["remlates_cache"] = "Cofre Escondido de Remlate"--Revisar que Remlate's Hidden Cache sea Cofre Escondido de Remlate
 L["remlates_cache_note"] = "En la pared exterior de Refugio Oscuro detrás de la cripta."--Revisar que Darkhaven sea Refugio Oscuro
 L["smuggled_cache"] = "Cofre de Contrabando"--Revisar que Smuggled Cache sea Cofre de Contrabando
-L["wayfairer_spoils"] = "Botín Abandonado de Wayfairer"--Revisar que Wayfairer's Abandoned Spoils sea Botín Abandonado de Wayfairer
+L["wayfarer_spoils"] = "Botín Abandonado de Wayfarer"--Revisar que Wayfarer's Abandoned Spoils sea Botín Abandonado de Wayfarer
 
 L["loyal_gorger_note"] = "Visita el Endmire y completa una misión diaria ofrecida por tu {npc:173498} 7 veces para conseguirlo como montura."--Revisar qué es Endmire
 
