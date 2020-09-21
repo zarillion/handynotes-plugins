@@ -304,73 +304,73 @@ L["zerekriss_note"] = "激活后，浮空城将在该区域飞行。抓住 {npc:
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_filth_note"] = "When the world quest \"Dirty Job: Demolition Detail\" is available click on a Rubbish Box and use {spell:324115} into the water."
-L["amalgamation_of_light_note"] = "Move all three mirror traps to release the rare."
-L["amalgamation_of_sin_note"] = "Obtain {item:180376} from the \"Summon Your Sins\" world quest and use it to summon the rare."
-L["bog_beast_note"] = "Has a chance to spawn during the world quest \"Muck It Up\" after using {item:177880} on a {npc:166206}."
-L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."
-L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."
-L["famu_note"] = "Talk to {npc:166483} to trigger the event."
-L["grand_arcanist_dimitri_note"] = "Kill the four {npc:167467} to release the rare."
+L["amalgamation_of_filth_note"] = "当世界任务“脏活累活：爆破计划”可做时点击一个垃圾箱并使用 {spell:324115} 进入水里。"
+L["amalgamation_of_light_note"] = "移动全部三个镜子陷阱释放稀有。"
+L["amalgamation_of_sin_note"] = "从世界任务“唤起罪业”获得 {item:180376} 并使用它召唤稀有。"
+L["bog_beast_note"] = "世界任务“又脏又乱”期间有机率刷新后给 {npc:166206} 使用 {item:177880}。"
+L["endlurker_note"] = "在微光裂隙顶上点击 {npc:165229} 尸体附近的心能之桩并使用 {spell:321826}。"
+L["executioner_aatron_note"] = "击杀三个附近的 {npc:166715} 移除 {spell:324872}。"
+L["famu_note"] = "和 {npc:166483} 交谈触发事件。"
+L["grand_arcanist_dimitri_note"] = "击杀四个 {npc:167467} 释放稀有。"
 L["harika_note"] = [[
-|cFFFF0000IMPORTANT:|r Items must be handed in in the correct order or the event will bug!
+|cFFFF0000重要：|r 必须按照正确的顺序上交物品，否则事件会出错！
 
-In Dredhollow to the west, loot the {item:176397} and both sets of {item:176396}. Give the tools to both {npc:165328} near the ballista, then turn the bolt into {npc:165327} and tell him to bring down the rare.
+在惧谷镇西侧，拾取 {item:176397} 和两套 {item:176396}。把两套工具交给弩车附近的 {npc:165328}，然后把箭交给 {npc:165327} 后和他交谈击落稀有。
 ]]
-L["innervus_note"] = "Kill nearby {npc:160375}s to obtain a {item:177223} and unlock the crypt."
-L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
-L["lord_mortegore_note"] = "Kill surrounding mobs to obtain {item:174378} and use it to empower a {npc:161870}. The rare will spawn once all four sigils are empowered."
-L["madalav_note"] = "Click Madalav's Hammer on the nearby anvil to summon him."
-L["manifestation_of_wrath_note"] = "Has a chance to spawn when a {npc:169916} is recovered during the \"Swarming Souls\" world quest."
-L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
-L["sinstone_hoarder_note"] = "Appears on the minimap as a treasure chest. Attempt to loot the {npc:162503} and the rare will reveal itself."
-L["sire_ladinas_note"] = "Pick up a Remnant of Light nearby and use {spell:313065} on {npc:157733}."
-L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
-L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769}s and waves of {npc:155795}s until the rare spawns."
+L["innervus_note"] = "击杀附近的 {npc:160375} 获得 {item:177223} 并打开墓穴。"
+L["leeched_soul_note"] = "进入附近的墓穴。走到 {npc:165151} 附近开始事件。"
+L["lord_mortegore_note"] = "击杀周围的怪物获得 {item:174378} 并使用它强化 {npc:161870}。所有四个徽记获得强化，稀有就会刷新。"
+L["madalav_note"] = "点击铁砧附近的马达拉夫的锤子召唤他。"
+L["manifestation_of_wrath_note"] = "世界任务“蜂拥之魂” {npc:169916} 恢复有几率刷新稀有。"
+L["scrivener_lenua_note"] = "返回禁忌图书馆 {npc:160753}。"
+L["sinstone_hoarder_note"] = "在小地图上显示为宝箱。尝试拾取 {npc:162503} 后稀有会出来。"
+L["sire_ladinas_note"] = "拾取附近的圣光残余并使用 {spell:313065} 给 {npc:157733}。"
+L["soulstalker_doina_note"] = "跟随下楼并当她逃跑时穿过镜子。"
+L["tomb_burster_note"] = "如果 {npc:155777} 被网困住会刷新。击杀附近 {npc:155769} 和几波 {npc:155795} 直到稀有刷新。"
 L["worldedge_gorger_note"] = [[
-Obtain an {item:173939} from World Reavers, Devourers and Mites in the Banewood and the Endmire. Use it to light the Worldedge Braziers and summon the rare.
+从灾厄林和末日迷沼的世界掠夺者、吞噬者和幼虫获得一个 {item:173939}。使用它点着界缘火盆召唤稀有。
 
-Has a chance to drop an {item:180583}, which begins a 7 day quest line to obtain the {spell:333027} mount.
+有几率掉落一个 {item:180583}，然后开始七天任务线获得 {spell:333027} 坐骑。
 ]]
 
-L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
-L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
-L["forbidden_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
-L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
-L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
+L["dredglaive_note"] = "在 {npc:173671} 尸体的桥下。"
+L["lost_quill_note"] = "从禁忌图书馆的桌上瓶子拾取 {item:182475}。"
+L["forbidden_chamber_note"] = "拾取一个废弃的心能之罐在锁着的门前学习 {spell:340701}。使用它吸取五个附近的 {npc:173838}s，然后在 {npc:173786} 前使用 {spell:340866}。"
+L["taskmaster_trove_note"] = "阅读Ingress and Egress Rites然后小心地走到宝箱。"
+L["the_count_note"] = "获得99个 {currency:1820} 末日迷沼然后把它带给 {npc:173488}。"
 
-L["abandoned_curios"] = "Abandoned Curios"
-L["bleakwood_chest"] = "Bleakwood Chest"
-L["chest_of_envious_dreams"] = "Chest of Envious Dreams"
-L["filchers_prize"] = "Filcher's Prize"
-L["fleeing_soul_bundle"] = "Fleeing Soul's Bundle"
-L["forgotten_anglers_rod"] = "Forgotten Angler's Rod"
-L["gilded_plum_chest"] = "Gilded Plum Chest"
-L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
-L["remlates_cache"] = "Remlate's Hidden Cache"
-L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
-L["smuggled_cache"] = "Smuggled Cache"
-L["wayfairer_spoils"] = "Wayfairer's Abandoned Spoils"
+L["abandoned_curios"] = "被遗弃的奇珍"
+L["bleakwood_chest"] = "冷木宝箱"
+L["chest_of_envious_dreams"] = "妒梦之箱"
+L["filchers_prize"] = "菲尔彻斯奖赏"
+L["fleeing_soul_bundle"] = "逃亡的灵魂包裹"
+L["forgotten_anglers_rod"] = "被遗忘的渔翁之竿"
+L["gilded_plum_chest"] = "金梅宝箱"
+L["gilded_plum_chest_note"] = "击杀在路上徘徊的 {npc:166680}。"
+L["remlates_cache"] = "重联隐藏宝箱"
+L["remlates_cache_note"] = "暗湾镇后面墓穴外墙上。"
+L["smuggled_cache"] = "走私的箱子"
+L["wayfarer_spoils"] = "徒步旅行者被遗弃的战利品"
 
-L["loyal_gorger_note"] = "Visit the Endmire and complete a daily offered by your {npc:173498} 7 times to obtain him as a mount."
+L["loyal_gorger_note"] = "到末日迷沼完成{npc:173498} 的每日任务七次将获得他的坐骑。"
 
-L["sinrunner_note"] = "Bring food and supplies to {npc:173468} for six days to obtain her reins. She only appears for a few minutes at a time."
-L["sinrunner_note_day1"] = "Offer Blanchy 8 {item:182581} from farm areas in Westfall."
-L["sinrunner_note_day2"] = "Obtain a {item:182585} from {npc:173570} in Darkhaven and use it to clean Blanchy."
-L["sinrunner_note_day3"] = "Equip Blanchy with 4 {item:182595} found on the roads surrounding Darkhaven."
-L["sinrunner_note_day4"] = "Pick up the {item:182620} near {npc:173570} and fill it with water from Bastion or Ardenweald. Return the {item:182599} to Blanchy."
-L["sinrunner_note_day5"] = "Equip Blanchy with a {item:182597}, sold by {npc:171808} near the Night Market in exchange for assorted meats."
-L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} by the Hole in the Wall."
+L["sinrunner_note"] = "将食物和补给品给 {npc:173468} 共六天获得她的缰绳。她一次只出现几分钟。"
+L["sinrunner_note_day1"] = "在西部荒野农场的8个 {item:182581} 给布兰契。"
+L["sinrunner_note_day2"] = "从暗湾镇的 {npc:173570} 获得 {item:182585} 并梳理布兰契。"
+L["sinrunner_note_day3"] = "在暗湾镇道路周围找到4个 {item:182595} 给布兰契装配上。"
+L["sinrunner_note_day4"] = "在 {npc:173570} 处拾取 {item:182620} 并填满晋升堡垒或炽蓝仙野的水。把 {item:182599} 给布兰契。"
+L["sinrunner_note_day5"] = "从午夜集市的 {npc:171808} 用不同的肉换取 {item:182597}，给布兰契装配上。"
+L["sinrunner_note_day6"] = "从城墙巨洞的 {npc:167815} 购买3个 {item:179271}，喂食布兰契。"
 
-L["options_icons_carriages"] = "Carriages"
-L["options_icons_carriages_desc"] = "Display locations and paths of rideable carriages."
+L["options_icons_carriages"] = "马车"
+L["options_icons_carriages_desc"] = "显示可骑乘马车的位置和路径。"
 
-L["dominance_keep"] = "Dominance Keep"
-L["eternal_terrace"] = "The Eternal Terrace"
-L["feeders_thicket"] = "Feeder's Thicket"
-L["halls_of_atonement"] = "Halls of Atonement"
-L["pridefall_hamlet"] = "Pridefall Hamlet"
-L["the_banewood"] = "The Banewood"
+L["dominance_keep"] = "统御要塞"
+L["eternal_terrace"] = "永恒高台"
+L["feeders_thicket"] = "饲育者林地"
+L["halls_of_atonement"] = "赎罪大厅"
+L["pridefall_hamlet"] = "堕傲庄"
+L["the_banewood"] = "灾厄林"
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
