@@ -586,9 +586,9 @@ local Deathgate = Class('Deathgate', ns.node.Node, {
 
 local R = L["transport_research"]
 local GATE_SEAT = Deathgate({ label=L["overlook_primus"], sublabel=R:format(1) })
-local GATE_EXOR = Deathgate({ label=L["exoramas"], sublabel=R:format(2) })
-local GATE_NURA = Deathgate({ label=L["nurakkir"], sublabel=R:format(2) })
-local GATE_ZERE = Deathgate({ label=L["zerekriss"], sublabel=R:format(3) })
+local GATE_NURA = Deathgate({ label=L["nurakkir"], sublabel=R:format(1) })
+local GATE_ZERE = Deathgate({ label=L["zerekriss"], sublabel=R:format(2) })
+local GATE_EXOR = Deathgate({ label=L["exoramas"], sublabel=R:format(3) })
 local GATE_PH = Deathgate({ label=L["???"] })
 
 map.nodes[50397398] = GATE_SEAT
