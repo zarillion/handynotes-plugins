@@ -84,20 +84,22 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         local profile = ns.addon.db.profile
 
         for i, group in ipairs(map.groups) do
-            local mapID = map.parents[group] or map.id
-            UIDropDownMenu_AddButton({
-                text = L["options_icons_"..group],
-                isNotRadio = true,
-                keepShownOnClick = true,
-                hasArrow = true,
-                value = group,
-                checked = profile['icon_display_'..group..'_'..mapID],
-                arg1 = 'icon_display_'..group..'_'..mapID,
-                func = function (button, option)
-                    profile[option] = button.checked
-                    ns.addon:Refresh()
-                end
-            })
+            if map:IsGroupEnabled(group) then
+                local mapID = map.parents[group] or map.id
+                UIDropDownMenu_AddButton({
+                    text = L["options_icons_"..group],
+                    isNotRadio = true,
+                    keepShownOnClick = true,
+                    hasArrow = true,
+                    value = group,
+                    checked = profile['icon_display_'..group..'_'..mapID],
+                    arg1 = 'icon_display_'..group..'_'..mapID,
+                    func = function (button, option)
+                        profile[option] = button.checked
+                        ns.addon:Refresh()
+                    end
+                })
+            end
         end
 
         UIDropDownMenu_AddSeparator()

@@ -3,6 +3,7 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 
 local PetBattle = ns.node.PetBattle
@@ -23,7 +24,15 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local NIGHTFAE = ns.covenants.FAE
-local map = ns.Map({ id=1565 })
+local map = ns.Map({
+    id=1565,
+    options = {
+        mycelial_network = {
+            display = false,
+            enabled = function () return C_Covenants.GetActiveCovenantID() == 3 end
+        }
+    }
+})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -139,9 +148,29 @@ map.nodes[62102470] = Rare({
     }
 }) -- Mymaen
 
+local RainbowGlow = Class('RainbowGlow', ns.poi.Glow)
+
+function RainbowGlow:draw(pin, xy)
+    local r, g, b, diff = 10, 0, 0, 1
+    pin.ticker = C_Timer.NewTicker(0.05, function ()
+        if r == 0 and g > b then b = b + diff
+        elseif g == 0 and b > r then r = r + diff
+        elseif b == 0 and r > g then g = g + diff
+        elseif r == 0 and g <= b then g = g - diff
+        elseif g == 0 and b <= r then b = b - diff
+        elseif b == 0 and r <= g then r = r - diff
+        end
+        pin.texture:SetVertexColor(r/10, g/10, b/10, 1)
+    end)
+    self.r, self.g, self.b = 1, 0, 0
+    return ns.poi.Glow.draw(self, pin, xy)
+end
+
 map.nodes[50092091] = Rare({
     id=164547,
     quest=59235,
+    GlowClass = RainbowGlow,
+    note=L["rainbowhorn_note"],
     rewards={
         Achievement({id=14309, criteria=48715}),
         Item({item=182179, quest=62434}) -- Runestag Soul
@@ -262,7 +291,7 @@ map.nodes[41254443] = Rare({
     note=L["star_lake_note"],
     rewards = {
         Achievement({id=14309, criteria={
-            {id=48709, quest=nil}, -- Astra, As Azshara
+            {id=48709, quest=61633}, -- Astra, As Azshara
             {id=48710, quest=nil}, -- Dreamweaver, As N'Zoth
             {id=48704, quest=nil}, -- Glimmerdust, As Jaina
             {id=48707, quest=nil}, -- Glimmerdust, As Kil'Jaeden
@@ -507,3 +536,34 @@ map.nodes[58205690] = PetBattle({
         Achievement({id=14625, criteria=49405})
     }
 }) -- Glitterdust
+
+-------------------------------------------------------------------------------
+------------------------------- MYCELIAL NETWORK ------------------------------
+-------------------------------------------------------------------------------
+
+local Mushroom = Class('Mushroom', ns.node.Node, {
+    icon='portal_purple',
+    scale=1.5,
+    group='mycelial_network'
+})
+
+function Mushroom.getters:label ()
+    return GetSpellInfo(self.id)
+end
+
+-- Traverse to the Ring 308437
+-- Traverse to the Heart of the Forest 325602
+
+local R = L["transport_research"]
+
+map.nodes[29513463] = Mushroom({ id=308436, sublabel=R:format(1) }) -- Stalks
+map.nodes[57494258] = Mushroom({ id=325614, sublabel=R:format(1) }) -- Stillglade
+map.nodes[65726026] = Mushroom({ id=325621, sublabel=R:format(1) }) -- Forest's Edge
+
+map.nodes[26445124] = Mushroom({ id=325620, sublabel=R:format(2) }) -- Elder Strand
+map.nodes[49392754] = Mushroom({ id=325616, sublabel=R:format(2) }) -- The Bank's of Life
+map.nodes[53277905] = Mushroom({ id=325618, sublabel=R:format(2) }) -- Gormhive
+
+map.nodes[20286695] = Mushroom({ id=325619, sublabel=R:format(3) }) -- Tirna Scithe
+map.nodes[41106952] = Mushroom({ id=325617, sublabel=R:format(3) }) -- Eventide Grove Shroom
+map.nodes[73682522] = Mushroom({ id=325607, sublabel=R:format(3) }) -- Crumbled Ridge

@@ -95,12 +95,22 @@ function Map:enabled (node, coord, minimap)
     -- Display the intro node!
     if node == self.intro then return not node:completed() end
 
+    -- Check if node's group is disabled
+    if not self:IsGroupEnabled(node.group) then return false end
+
     -- Check for prerequisites and quest (or custom) completion
     if not node:enabled() then return false end
 
     -- Display the node based off the group display setting
     local mapid = self.parents[node.group] or self.id
     return profile['icon_display_'..node.group..'_'..mapid]
+end
+
+function Map:IsGroupEnabled (group)
+    if self.options[group] and self.options[group].enabled then
+        return self.options[group].enabled()
+    end
+    return true
 end
 
 -------------------------------------------------------------------------------
@@ -111,6 +121,10 @@ local HBD = LibStub("HereBeDragons-2.0")
 local HBDPins = LibStub("HereBeDragons-Pins-2.0")
 local MinimapPinsKey = ADDON_NAME.."MinimapPins"
 local MinimapDataProvider = CreateFrame("Frame", ADDON_NAME.."MinimapDP")
+local MinimapPinTemplate = ADDON_NAME..'MinimapPinTemplate'
+local MinimapPinMixin = {}
+
+_G[ADDON_NAME..'MinimapPinMixin'] = MinimapPinMixin
 
 MinimapDataProvider.facing = GetPlayerFacing()
 MinimapDataProvider.indoors = GetCVar("minimapZoom")+0 == Minimap:GetZoom() and "outdoor" or "indoor"
@@ -132,58 +146,31 @@ MinimapDataProvider.sizes = {
     [1530] = {700, 466},     -- Vale
     [1525] = {1900, 1280},   -- Revendreth
     [1533] = {2000, 1350},   -- Bastion
+    [1536] = {2000, 1350},   -- Maldraxxus
     [1543] = {1325, 888},   -- The Maw
     [1565] = {2000, 1500},   -- Ardenweald
 }
 
-function MinimapDataProvider:ReleasePin(pin)
-    pin:Hide()
-    self.pool[pin] = true
-end
-
 function MinimapDataProvider:ReleaseAllPins()
     for i, pin in ipairs(self.pins) do
-        self:ReleasePin(pin)
+        self.pool[pin] = true
+        pin:OnReleased()
+        pin:Hide()
     end
 end
 
-function MinimapDataProvider:AcquirePin(mapID, poi, ...)
+function MinimapDataProvider:AcquirePin(template, ...)
     local pin = next(self.pool)
     if pin then
         self.pool[pin] = nil -- remove it from the pool
     else
-        pin = self:CreatePin()
+        pin = CreateFrame("Button", ADDON_NAME.."Pin"..(#self.pins + 1), Minimap, template)
+        pin.provider = self
+        pin:OnLoad()
+        pin:Hide()
+        self.pins[#self.pins + 1] = pin
     end
-
-    local scale = self.scales[self.indoors][Minimap:GetZoom()+1]
-    local sizes = self.sizes[mapID] or {750, 500}
-    pin.parentWidth = sizes[1] * scale
-    pin.parentHeight = sizes[2] * scale
-
-    local x, y = poi:draw(pin, ...)
-    if GetCVar('rotateMinimap') == '1' then
-        pin.texture:SetRotation(pin.texture:GetRotation() + math.pi*2 - self.facing)
-    end
-    HBDPins:AddMinimapIconMap(MinimapPinsKey, pin, mapID, x, y, true)
-end
-
-function MinimapDataProvider:CreatePin()
-    local name = ADDON_NAME.."Pin"..(#self.pins + 1)
-    local pin = CreateFrame("Button", name, Minimap)
-    local texture = pin:CreateTexture(nil, "OVERLAY")
-    pin:SetFrameLevel(Minimap:GetFrameLevel() + 3)
-    pin:SetFrameStrata(Minimap:GetFrameStrata())
-    pin:SetParent(Minimap)
-    pin:SetWidth(12)
-    pin:SetHeight(12)
-    pin.minimap = true
-    pin.texture = texture
-    texture:SetAllPoints(pin)
-    texture:SetTexelSnappingBias(0)
-    texture:SetSnapToPixelGrid(false)
-    pin:Hide()
-    self.pins[#self.pins + 1] = pin
-    return pin
+    pin:OnAcquired(...)
 end
 
 function MinimapDataProvider:RefreshAllData()
@@ -197,9 +184,19 @@ function MinimapDataProvider:RefreshAllData()
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if node.pois and (node._focus or node._hover) and map:enabled(node, coord, true) then
-            for i, poi in ipairs(node.pois) do
-                poi:render(self, map.id)
+        if node._prepared and map:enabled(node, coord, true) then
+            -- If this icon has a glow enabled, render it
+            local glow = node:glow(map)
+            if glow then
+                glow[1] = coord -- update POI coord for this placement
+                glow:render(self, MinimapPinTemplate)
+            end
+
+            -- Render any POIs this icon has registered
+            if node.pois and (node._focus or node._hover) then
+                for i, poi in ipairs(node.pois) do
+                    poi:render(self, MinimapPinTemplate)
+                end
             end
         end
     end
@@ -212,6 +209,33 @@ function MinimapDataProvider:OnUpdate()
             self:RefreshAllData()
         end
         self.facing = facing
+    end
+end
+
+function MinimapPinMixin:OnLoad ()
+    self:SetFrameLevel(Minimap:GetFrameLevel() + 3)
+    self:SetFrameStrata(Minimap:GetFrameStrata())
+    self.minimap = true
+end
+
+function MinimapPinMixin:OnAcquired (poi, ...)
+    local mapID = HBD:GetPlayerZone()
+    local scale = self.provider.scales[self.provider.indoors][Minimap:GetZoom()+1]
+    local sizes = self.provider.sizes[mapID] or {750, 500}
+    self.parentWidth = sizes[1] * scale
+    self.parentHeight = sizes[2] * scale
+
+    local x, y = poi:draw(self, ...)
+    if GetCVar('rotateMinimap') == '1' then
+        self.texture:SetRotation(self.texture:GetRotation() + math.pi*2 - self.provider.facing)
+    end
+    HBDPins:AddMinimapIconMap(MinimapPinsKey, self, mapID, x, y, true)
+end
+
+function MinimapPinMixin:OnReleased ()
+    if self.ticker then
+        self.ticker:Cancel()
+        self.ticker = nil
     end
 end
 
@@ -256,9 +280,19 @@ function WorldMapDataProvider:RefreshAllData(fromOnShow)
     if not map then return end
 
     for coord, node in pairs(map.nodes) do
-        if node.pois and (node._focus or node._hover) and map:enabled(node, coord, false) then
-            for i, poi in ipairs(node.pois) do
-                poi:render(self:GetMap(), WorldMapPinTemplate)
+        if node._prepared and map:enabled(node, coord, false) then
+            -- If this icon has a glow enabled, render it
+            local glow = node:glow(map)
+            if glow then
+                glow[1] = coord -- update POI coord for this placement
+                glow:render(self:GetMap(), WorldMapPinTemplate)
+            end
+
+            -- Render any POIs this icon has registered
+            if node.pois and (node._focus or node._hover) then
+                for i, poi in ipairs(node.pois) do
+                    poi:render(self:GetMap(), WorldMapPinTemplate)
+                end
             end
         end
     end
@@ -276,8 +310,23 @@ function WorldMapPinMixin:OnAcquired(poi, ...)
     self.parentHeight = h
     if (w and h) then
         local x, y = poi:draw(self, ...)
+        self:ApplyCurrentScale()
         self:SetPosition(x, y)
     end
+end
+
+function WorldMapPinMixin:OnReleased()
+    if self.ticker then
+        self.ticker:Cancel()
+        self.ticker = nil
+    end
+end
+
+function WorldMapPinMixin:ApplyFrameLevel()
+    -- Allow frame level adjustments in POIs even if the current frame level
+    -- type has a range of only 1 frame level
+    MapCanvasPinMixin.ApplyFrameLevel(self)
+    self:SetFrameLevel(self:GetFrameLevel() + self.frameOffset)
 end
 
 -------------------------------------------------------------------------------

@@ -117,7 +117,7 @@ map.nodes[49128175] = Rare({
 
 map.nodes[32946646] = Rare({
     id=170711,
-    quest=nil,
+    quest=60909,
     rewards={
         Achievement({id=14744, criteria=49847}),
     }
@@ -224,7 +224,7 @@ map.nodes[28701204] = Rare({
 
 map.nodes[27397152] = Rare({
     id=170731,
-    quest=nil,
+    quest=60914,
     rewards={
         Achievement({id=14744, criteria=49859}),
     }
@@ -431,9 +431,11 @@ local BonusEvent = Class('BonusEvent', ns.node.Quest, {
     note=''
 })
 
-map.nodes[21573436] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
-map.nodes[30394255] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
-map.nodes[32401771] = BonusEvent({ quest=59007, note=L["soul_well_note"] })
+local SOUL_WELL = BonusEvent({ quest=59007, note=L["soul_well_note"] })
+
+map.nodes[21573436] = SOUL_WELL
+map.nodes[30394255] = SOUL_WELL
+map.nodes[32401771] = SOUL_WELL
 map.nodes[27446463] = BonusEvent({ quest=59784, note=L["obliterated_soul_shards_note"] })
 
 -------------------------------------------------------------------------------

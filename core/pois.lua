@@ -7,6 +7,20 @@ local ADDON_NAME, ns = ...
 local Class = ns.Class
 
 -------------------------------------------------------------------------------
+
+local function ResetPin(pin)
+    pin.texture:SetRotation(0)
+    pin.texture:SetTexCoord(0, 1, 0, 1)
+    pin.texture:SetVertexColor(1, 1, 1, 1)
+    pin.frameOffset = 0
+    pin:SetAlpha(1)
+    if pin.SetScalingLimits then -- World map only!
+        pin:SetScalingLimits(nil, nil, nil)
+    end
+    return pin.texture
+end
+
+-------------------------------------------------------------------------------
 -------------------------- POI (Point of Interest) ----------------------------
 -------------------------------------------------------------------------------
 
@@ -20,11 +34,46 @@ function POI:render (map, template)
 end
 
 function POI:draw (pin, xy)
-    local t = pin.texture
+    local t = ResetPin(pin)
     local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
-    t:SetTexCoord(0, 1, 0, 1)
     t:SetVertexColor(0, 0.5, 1, 1)
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\circle")
+    pin:SetSize(size, size)
+    return HandyNotes:getXY(xy)
+end
+
+-------------------------------------------------------------------------------
+------------------------------------ GLOW -------------------------------------
+-------------------------------------------------------------------------------
+
+local Glow = Class('Glow', POI)
+
+function Glow:draw (pin, xy)
+    local t = ResetPin(pin)
+
+    local hn_alpha, hn_scale
+    if pin.minimap then
+        hn_alpha = HandyNotes.db.profile.icon_alpha_minimap
+        hn_scale = HandyNotes.db.profile.icon_scale_minimap
+    else
+        hn_alpha = HandyNotes.db.profile.icon_alpha
+        hn_scale = HandyNotes.db.profile.icon_scale
+    end
+
+    local size = 15 * hn_scale * self.scale
+
+    t:SetTexCoord(self.icon.tCoordLeft, self.icon.tCoordRight, self.icon.tCoordTop, self.icon.tCoordBottom)
+    t:SetTexture(self.icon.icon)
+
+    if self.r then
+        t:SetVertexColor(self.r, self.g, self.b, self.a or 1)
+    end
+
+    pin.frameOffset = 1
+    if pin.SetScalingLimits then -- World map only!
+        pin:SetScalingLimits(1, 1.0, 1.2)
+    end
+    pin:SetAlpha(hn_alpha * self.alpha)
     pin:SetSize(size, size)
     return HandyNotes:getXY(xy)
 end
@@ -46,8 +95,7 @@ function Path:render (map, template)
 end
 
 function Path:draw (pin, type, xy1, xy2)
-    local t = pin.texture
-    t:SetTexCoord(0, 1, 0, 1)
+    local t = ResetPin(pin)
     t:SetVertexColor(0, 0.5, 1, 1)
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\"..type)
 
@@ -75,5 +123,6 @@ end
 
 ns.poi = {
     POI=POI,
+    Glow=Glow,
     Path=Path
 }

@@ -8,7 +8,13 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes: Shadowlands"
 L["options_title"] = "Shadowlands"
+
+-------------------------------------------------------------------------------
+---------------------------------- COVENANTS ----------------------------------
+-------------------------------------------------------------------------------
+
 L["covenant_required"] = "Requires a member of the %s covenant."
+L["transport_research"] = "Requires Transport Network Tier %d"
 
 local ACHAN = "anima channeled to %s."
 L["achan_citadel_of_loyalty"] = ACHAN:format('Citadel of Loyalty')
@@ -20,6 +26,15 @@ L["achan_theater_of_pain"] = ACHAN:format('Theater of Pain')
 L["achan_tirna_scithe"] = ACHAN:format('Tirna Scithe')
 L["achan_wanecrypt_hill"] = ACHAN:format('Wanecrypt Hill')
 
+L["options_icons_blood_mirror_desc"] = "Display all transport destinations for the Venthyr blood mirrors."
+L["options_icons_blood_mirror"] = "Blood Mirrors"
+L["options_icons_bone_deathgate_desc"] = "Display all transport destinations for the Necrolord bone deathgates."
+L["options_icons_bone_deathgate"] = "Bone Deathgates"
+L["options_icons_kyrian_gateway_desc"] = "Display all transport destinations for the Kyrian gateway network."
+L["options_icons_kyrian_gateway"] = "Kyrian Gateways"
+L["options_icons_mycelial_network_desc"] = "Display all transport destinations for the Night Fae mushroom network."
+L["options_icons_mycelial_network"] = "Mycelial Network"
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
@@ -28,6 +43,7 @@ L["deifir_note"] = "Ride the rare around in a circle and use {spell:319566} and 
 L["faeflayer_note"] = "In a small cave hidden behind a waterfall."
 L["humongozz_note"] = "Plant an {item:175247} in the Damp Loam to spawn a {npc:164122}. After a minute of {spell:319367}, the rare will spawn. The mushroom drops from numerous mobs in the zone."
 L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
+L["rainbowhorn_note"] = "\n|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r"
 L["rootwrithe_note"] = "Poke the {npc:167928}s until the rare appears."
 L["rotbriar_note"] = "Talk to {npc:171684} nearby to summon the rare after some dialog."
 L["slumbering_note"] = "Running into the fog will stun and port you out. Use a flare or a pet with AOE to knock him out of the fog."
@@ -102,6 +118,7 @@ Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}
 Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside.
 ]]
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
+L["sotiros_orstus_note"] = "Click the Black Bell to summon the rares."
 L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
 L["unstable_memory_note"] = "Can be spawned when {npc:171018}s are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
 L["wingflayer_note"] = "To summon, click the Horn of Courage on the nearby table (southeast, up the stairs)."
@@ -191,6 +208,16 @@ L["anima_shard_61300"] = "On a ledge hanging over the central font."
 L["options_icons_anima_shard"] = "Lost Anima Shards"
 L["options_icons_anima_shard_desc"] = "Display the locations of all 50 lost anima shards for the Shard Labor achievement."
 
+L["aspirants_rest"] = "Aspirant's Rest"
+L["eternal_gateway"] = "Eternal Gateway"
+L["exaltations_rise"] = "Exaltation's Rise"
+L["heros_rest"] = "Hero's Rest"
+L["sagehaven"] = "Sagehaven"
+L["seat_of_eternal_hymns"] = "Seat of Eternal Hymns"
+L["temple_of_humility"] = "Temple of Humility"
+L["temple_of_purity"] = "Temple of Purity"
+L["xandrias_vigil"] = "Xandria's Vigil"
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -267,6 +294,12 @@ L["pus_in_boots"] = "Located under the bridge."
 L["options_icons_slime_cat"] = "Kittens"
 L["options_icons_slime_cat_desc"] = "Display locations of kittens for the Nine Afterlives achievement."
 
+L["exoramas"] = "Exoramas, House of Rituals"
+L["nurakkir"] = "Nurakkir, House of Eyes"
+L["overlook_primus"] = "Overlook, Seat of the Primus"
+L["zerekriss"] = "Zerekriss, Maldraxxus"
+L["zerekriss_note"] = "Once activated, the necropolis will fly around the zone. Grab hold of {npc:165822} to glide down to the surface."
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -331,6 +364,13 @@ L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} b
 
 L["options_icons_carriages"] = "Carriages"
 L["options_icons_carriages_desc"] = "Display locations and paths of rideable carriages."
+
+L["dominance_keep"] = "Dominance Keep"
+L["eternal_terrace"] = "The Eternal Terrace"
+L["feeders_thicket"] = "Feeder's Thicket"
+L["halls_of_atonement"] = "Halls of Atonement"
+L["pridefall_hamlet"] = "Pridefall Hamlet"
+L["the_banewood"] = "The Banewood"
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------

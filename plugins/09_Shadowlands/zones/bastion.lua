@@ -29,9 +29,17 @@ local KYRIAN = ns.covenants.KYR
 local map = Map({
     id = 1533,
     options = {
-        anima_shard = { display = false }
+        anima_shard = {
+            display = false
+        },
+        kyrian_gateway = {
+            display = false,
+            enabled = function () return C_Covenants.GetActiveCovenantID() == 1 end
+        }
     }
 })
+
+local sanctum = Map({ id=1707, parents={ kyrian_gateway=1533 }})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -254,14 +262,22 @@ map.nodes[30365517] = Rare({
     }
 }) -- Reekmonger
 
---map.nodes[] = Rare({
---    id=,
---    quest=nil,
---    note=L[""],
---    rewards={
---        Achievement({id=14307, criteria=nil}), -- criteria is still 0
---    }
---}) -- Sotiros and Orstus
+local Sotirstus = Class('Sotirstus', Rare)
+
+function Sotirstus.getters:label ()
+    return GetAchievementCriteriaInfo(14307, 27) -- Welcome to Nazjatar
+end
+
+map.nodes[22432285] = Sotirstus({
+   id=156339,
+   quest=61634,
+   covenant=KYRIAN,
+   requires=L["achan_citadel_of_loyalty"],
+   note=L["sotiros_orstus_note"],
+   rewards={
+       Achievement({id=14307, criteria=27})
+   }
+}) -- Sotiros and Orstus
 
 map.nodes[61409050] = Rare({
     id=170548,
@@ -357,8 +373,8 @@ map.nodes[53498880] = Treasure({
     label=L["cache_of_the_ascended"],
     note=L["cache_of_the_ascended_note"],
     rewards={
+        Achievement({id=14307, criteria=28}),
         Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817}}),
-        --Achievement({id=14307, criteria=nil}), -- Ascended Council / criteria is still 0
         Mount({item=183741, id=1426}) -- Ascended Skymane
     },
     pois={
@@ -571,6 +587,7 @@ map.nodes[54555609] = PetBattle({
 local AnimaShard = Class('AnimaShard', Node, {
     group='anima_shard',
     label=L["anima_shard"],
+    icon='anima_crystal',
     scale=1.5,
     rewards={
         Achievement({id=14339, criteria={
@@ -578,10 +595,6 @@ local AnimaShard = Class('AnimaShard', Node, {
         }})
     }
 })
-
-function AnimaShard.getters:icon ()
-    return self._focus and 'anima_crystal_green_glow' or 'anima_crystal'
-end
 
 map.nodes[39057704] = AnimaShard({quest=61225, note=L["anima_shard_61225"]})
 map.nodes[43637622] = AnimaShard({quest=61235, note=L["anima_shard_61235"]})
@@ -652,3 +665,28 @@ wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"]})
 gardens.nodes[46605310] = AnimaShard({quest=61298, note=L["anima_shard_61298"]})
 gardens.nodes[69403870] = AnimaShard({quest=61299, note=L["anima_shard_61299"]})
 font.nodes[49804690] = AnimaShard({quest=61300, note=L["anima_shard_61300"]})
+
+-------------------------------------------------------------------------------
+------------------------------- KYRIAN GATEWAYS -------------------------------
+-------------------------------------------------------------------------------
+
+local Gateway = Class('Gateway', ns.node.Node, {
+    icon='portal_blue',
+    scale=1.5,
+    group='kyrian_gateway'
+})
+
+local R = L["transport_research"]
+
+map.nodes[40715520] = Gateway({ label=L["xandrias_vigil"], sublabel=R:format(1) })
+map.nodes[48327284] = Gateway({ label=L["aspirants_rest"], sublabel=R:format(1) })
+map.nodes[51754681] = Gateway({ label=L["heros_rest"], sublabel=R:format(1) })
+
+map.nodes[44163302] = Gateway({ label=L["sagehaven"], sublabel=R:format(2) })
+map.nodes[58363097] = Gateway({ label=L["seat_of_eternal_hymns"], sublabel=R:format(2) })
+map.nodes[59427711] = Gateway({ label=L["temple_of_purity"], sublabel=R:format(2) })
+
+map.nodes[66594790] = Gateway({ label=L["temple_of_humility"], sublabel=R:format(3) })
+map.nodes[32322045] = Gateway({ label=L["exaltations_rise"], sublabel=R:format(3) })
+
+sanctum.nodes[48606168] = Gateway({ label=L["eternal_gateway"], sublabel=R:format(1) })

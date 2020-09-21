@@ -25,7 +25,15 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local VENTHYR = ns.covenants.VEN
-local map = Map({ id=1525 })
+local map = Map({
+    id=1525,
+    options = {
+        blood_mirror = {
+            display = false,
+            enabled = function () return C_Covenants.GetActiveCovenantID() == 2 end
+        }
+    }
+})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -49,7 +57,9 @@ map.nodes[25304850] = Rare({
     quest=59584,
     note=L["amalgamation_of_light_note"],
     rewards={
-        Achievement({id=14310, criteria=48811})
+        Achievement({id=14310, criteria=48811}),
+        Transmog({item=179924, slot=L["leather"]}), -- Light-Infused Jacket
+        Item({item=180688}) -- Infused Remnant of Light
     }
 }) -- Amalgamation of Light
 
@@ -507,15 +517,11 @@ map.nodes[67626608] = PetBattle({
 ---------------------------- THE AFTERLIFE EXPRESS ----------------------------
 -------------------------------------------------------------------------------
 
-local Carriage = Class('Carriage', NPC, { group = 'carriages' })
-
-function Carriage.getters:icon ()
-    return self._focus and 'horseshoe_green_glow' or 'horseshoe'
-end
-
-function Carriage.getters:scale ()
-    return self._focus and 2.0 or 1.2
-end
+local Carriage = Class('Carriage', NPC, {
+    group='carriages',
+    icon='horseshoe',
+    scale=1.2
+})
 
 map.nodes[50217067] = Carriage({
     id=158365,
@@ -605,6 +611,26 @@ map.nodes[52634155] = Carriage({
         })
     }
 }) -- The Castle Carriage
+
+-------------------------------------------------------------------------------
+-------------------------------- BLOOD MIRRORS --------------------------------
+-------------------------------------------------------------------------------
+
+local BloodMirror = Class('BloodMirror', ns.node.Node, {
+    icon='portal_red',
+    scale=1.5,
+    group='blood_mirror'
+})
+
+local R = L["transport_research"]
+
+map.nodes[56803250] = BloodMirror({ label=L["eternal_terrace"], sublabel=R:format(1) })
+map.nodes[70707540] = BloodMirror({ label=L["pridefall_hamlet"], sublabel=R:format(1) })
+
+map.nodes[25502690] = BloodMirror({ label=L["dominance_keep"], sublabel=R:format(2) })
+map.nodes[43505720] = BloodMirror({ label=L["the_banewood"], sublabel=R:format(2) })
+map.nodes[58306280] = BloodMirror({ label=L["feeders_thicket"], sublabel=R:format(2) })
+map.nodes[73604390] = BloodMirror({ label=L["halls_of_atonement"], sublabel=R:format(2) })
 
 -------------------------------------------------------------------------------
 -------------------------------- LOYAL GORGER ---------------------------------
