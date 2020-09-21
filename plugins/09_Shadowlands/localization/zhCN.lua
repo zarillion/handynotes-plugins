@@ -377,37 +377,37 @@ L["the_banewood"] = "灾厄林"
 -------------------------------------------------------------------------------
 
 L["maw_intro_note"] = [[
-Complete the introductory quest chain to unlock rares and events in the Maw.
+完成指引任务线以解锁噬渊稀有和事件。
 
-Until you return {npc:170651} to Oribos, you will be phased from most other players.
+返回至 {npc:170651} 到奥利波斯，你将和大多数其他玩家处于同一阶段。
 ]]
 
-L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
-L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
-L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
-L["sanngror_note"] = "If he is not attackable, wait until he is not experimenting on souls."
-L["talaporas_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331800} to summon the rare."
-L["valis_note"] = "Click the three {npc:174810} in the correct order to summon the rare. The order changes each time and clicking the wrong rune deals damage and debuffs you with {spell:343636}."
-L["yero_note"] = "Approach {npc:172862} and then follow him down into a nearby cave where he becomes hostile."
+L["apholeias_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:331783} 召唤稀有。"
+L["ekphoras_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:330650} 召唤稀有。"
+L["orophea_note"] = "从东南方的拾取 {spell:337143} 并提供给 {npc:172577} 激活。"
+L["sanngror_note"] = "如果他是不可攻击，等待直到他不再灵魂实验。"
+L["talaporas_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:331800} 召唤稀有。"
+L["valis_note"] = "按正确顺序点击三个 {npc:174810} 召唤稀有。顺序每次点击都会更换并且错误点击符文会受到伤害和负面效果 {spell:343636}。"
+L["yero_note"] = "靠近 {npc:172862} 然后跟着他进入附近的一个山洞，在那里他变为敌对。"
 
 L["exos_note"] = [[
-Kill the other three Heralds of Grief, Pain and Loss to collect their etchings.
+击杀其他三个悲伤、痛苦和失落先驱收集他们的铭刻。
 
 • {item:182328}
 • {item:182326}
 • {item:182327}
 
-Combine all three etchings to create the {item:182329}, which can be used to summon the rare at the Altar of Domination. Use the {npc:173892} to reach the upper level.
+组合全部三个铭刻制造 {item:182329}，可以用来在统御祭坛召唤稀有。使用 {npc:173892} 到达上层。
 ]]
 
-L["soul_well_note"] = "Catch the Stygia erupting from the Soul Well."
-L["obliterated_soul_shards_note"] = "Collect Obliterated Soul Shards on the bridges."
+L["soul_well_note"] = "从灵魂之井抓住冥殇爆发。"
+L["obliterated_soul_shards_note"] = "在桥上收集灭绝之魂碎片。"
 
-L["chaotic_riftstone_note"] = "Activate to {spell:344157} quickly across the Maw."
+L["chaotic_riftstone_note"] = "激活 {spell:344157} 快速穿过噬渊。"
 
-L["options_icons_bonus_boss"] = "Bonus Elites"
-L["options_icons_bonus_boss_desc"] = "Display locations of bonus elites."
-L["options_icons_bonus_event"] = "Bonus Events"
-L["options_icons_bonus_event_desc"] = "Display locations of bonus events."
-L["options_icons_riftstone"] = "Chaotic Riftstones"
-L["options_icons_riftstone_desc"] = "Display the locations of chaotic riftstone teleporters."
+L["options_icons_bonus_boss"] = "奖励精英"
+L["options_icons_bonus_boss_desc"] = "显示奖励精英位置。"
+L["options_icons_bonus_event"] = "奖励事件"
+L["options_icons_bonus_event_desc"] = "显示奖励事件位置。"
+L["options_icons_riftstone"] = "混乱裂隙石"
+L["options_icons_riftstone_desc"] = "显示混乱裂隙石传送者位置。"
