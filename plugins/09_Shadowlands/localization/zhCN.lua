@@ -8,9 +8,15 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes：暗影国度"
 L["options_title"] = "暗影国度"
-L["covenant_required"] = "需要%s盟约。"
 
-local ACHAN = "anima channeled to %s."
+-------------------------------------------------------------------------------
+---------------------------------- COVENANTS ----------------------------------
+-------------------------------------------------------------------------------
+
+L["covenant_required"] = "需要%s盟约成员。"
+L["transport_research"] = "需要传送网络%d级"
+
+local ACHAN = "心能连接到%s。"
 L["achan_citadel_of_loyalty"] = ACHAN:format('忠诚堡垒')
 L["achan_dominance_keep"] = ACHAN:format('统御要塞')
 L["achan_dreamsong_fenn"] = ACHAN:format('梦歌沼泽')
@@ -20,6 +26,15 @@ L["achan_theater_of_pain"] = ACHAN:format('伤逝剧场')
 L["achan_tirna_scithe"] = ACHAN:format('塞兹仙林')
 L["achan_wanecrypt_hill"] = ACHAN:format('凋窖岭')
 
+L["options_icons_fae_network_desc"] = "显示全部法夜蘑网的传送目的地。"
+L["options_icons_fae_network"] = "菌丝网络"
+L["options_icons_kyr_network_desc"] = "显示全部格里恩传送门网络的传送目的地。"
+L["options_icons_kyr_network"] = "格里恩传送门"
+L["options_icons_nec_network_desc"] = "显示全部通灵领主白骨死亡之门的传送目的地。"
+L["options_icons_nec_network"] = "白骨死亡之门"
+L["options_icons_ven_network_desc"] = "显示全部温西尔猩红之镜的传送目的地。"
+L["options_icons_ven_network"] = "猩红之镜"
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
@@ -28,6 +43,7 @@ L["deifir_note"] = "骑上圈内的稀有并使用 {spell:319566} 和 {spell:319
 L["faeflayer_note"] = "瀑布后面隐藏的小洞穴内。"
 L["humongozz_note"] = "种植一个 {item:175247} 在潮湿的沃土将刷新 {npc:164122}。在一分钟后 {spell:319367}，稀有将刷新。区域内的许多怪物都掉落蘑菇。"
 L["lehgo_note"] = "摧毁颤动的戈姆蛋并击杀 {npc:171827} 直到他出现。在洞穴内（入口在东南尘泥地穴内）。"
+L["rainbowhorn_note"] = "\n|cffff5400品|r|cffffaa00尝|r|cffffff00绝|r|cffaaff00妙|r|cff54ff00的|r |cff00ff55美|r|cff00ffa9丽|r|cff00ffff的|r |cff0055ff七|r|cff0000ff彩|r|cff5400ff之|r|cffaa00ff虹|r|cffff00ff好|r|cffff00aa味|r|cffff0054道|r|cffff0000！|r"
 L["rootwrithe_note"] = "触碰 {npc:167928} 直到稀有出现。"
 L["rotbriar_note"] = "和 {npc:171684} 交谈对话后在附近召唤稀有。"
 L["slumbering_note"] = "跑到迷雾中将昏迷并被带出。使用信号弹或带 AOE 的宠物把他击出迷雾。"
@@ -102,6 +118,7 @@ L["herculon_note"] = [[
 可以从房间内或室外的耗尽的心能之罐中收集微粒。
 ]]
 L["nikara_note"] = "和两名其他玩家，点击远古焚香来召唤。"
+L["sotiros_orstus_note"] = "点击黑色的钟召唤稀有。"
 L["sundancer_note"] = "点击雕像获得 {spell:332309} 增益，然后使用 {item:180445} 滑翔到稀有并骑上它。"
 L["unstable_memory_note"] = "当 {npc:171018} 存在时可以刷新。拉一个 {npc:171018} 到其它会给它10层堆叠 {spell:333558}，把它变成稀有。"
 L["wingflayer_note"] = "点击附近桌上的勇气号角召唤（东南方，楼梯上）。"
@@ -191,6 +208,16 @@ L["anima_shard_61300"] = "挂在中央字体的壁架上。"
 L["options_icons_anima_shard"] = "失落的心能碎片"
 L["options_icons_anima_shard_desc"] = "显示“碎片苦工”成就所需的全部50个失落的心能碎片。"
 
+L["aspirants_rest"] = "候选者之憩"
+L["eternal_gateway"] = "永恒之门"
+L["exaltations_rise"] = "提振高地"
+L["heros_rest"] = "英雄之眠"
+L["sagehaven"] = "贤者港湾"
+L["seat_of_eternal_hymns"] = "恒歌之座"
+L["temple_of_humility"] = "谦逊神庙"
+L["temple_of_purity"] = "纯洁神庙"
+L["xandrias_vigil"] = "山德里娅的戒卫"
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -267,6 +294,12 @@ L["pus_in_boots"] = "Located under the bridge."
 L["options_icons_slime_cat"] = "Kittens"
 L["options_icons_slime_cat_desc"] = "Display locations of kittens for the 亡命九条 achievement."
 
+L["exoramas"] = "Exoramas, House of Rituals"
+L["nurakkir"] = "Nurakkir, House of Eyes"
+L["overlook_primus"] = "Overlook, Seat of the Primus"
+L["zerekriss"] = "Zerekriss, Maldraxxus"
+L["zerekriss_note"] = "Once activated, the necropolis will fly around the zone. Grab hold of {npc:165822} to glide down to the surface."
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -331,6 +364,13 @@ L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} b
 
 L["options_icons_carriages"] = "Carriages"
 L["options_icons_carriages_desc"] = "Display locations and paths of rideable carriages."
+
+L["dominance_keep"] = "Dominance Keep"
+L["eternal_terrace"] = "The Eternal Terrace"
+L["feeders_thicket"] = "Feeder's Thicket"
+L["halls_of_atonement"] = "Halls of Atonement"
+L["pridefall_hamlet"] = "Pridefall Hamlet"
+L["the_banewood"] = "The Banewood"
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
