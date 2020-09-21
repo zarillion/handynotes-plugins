@@ -350,7 +350,7 @@ L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the r
 L["remlates_cache"] = "Remlate's Hidden Cache"
 L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
 L["smuggled_cache"] = "Smuggled Cache"
-L["wayfairer_spoils"] = "Wayfairer's Abandoned Spoils"
+L["wayfarer_spoils"] = "Wayfarer's Abandoned Spoils"
 
 L["loyal_gorger_note"] = "Visit the Endmire and complete a daily offered by your {npc:173498} 7 times to obtain him as a mount."
 

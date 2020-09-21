@@ -470,8 +470,8 @@ map.nodes[31055506] = Treasure({
 
 map.nodes[68446445] = Treasure({
     quest=59884,
-    label=L["wayfairer_spoils"]
-}) -- Wayfairer's Abandoned Spoils
+    label=L["wayfarer_spoils"]
+}) -- Wayfarer's Abandoned Spoils
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
