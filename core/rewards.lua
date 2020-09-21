@@ -17,11 +17,11 @@ local Red = ns.status.Red
 
 local Reward = Class('Reward')
 
-function Reward:obtained ()
+function Reward:IsObtained()
     return true
 end
 
-function Reward:render (tooltip)
+function Reward:Render(tooltip)
     tooltip:AddLine('Render not implemented: '..tostring(self))
 end
 
@@ -40,7 +40,7 @@ local GetCriteriaInfo = function (id, criteria)
     return unpack(results)
 end
 
-function Achievement:init ()
+function Achievement:Initialize()
     -- we allow a single number, table of numbers or table of
     -- objects: {id=<number>, note=<string>}
     if type(self.criteria) == 'number' then
@@ -58,7 +58,7 @@ function Achievement:init ()
     end
 end
 
-function Achievement:obtained ()
+function Achievement:IsObtained()
     if select(4, GetAchievementInfo(self.id)) then return true end
     for i, c in ipairs(self.criteria) do
         local _, _, completed = GetCriteriaInfo(self.id, c.id)
@@ -67,7 +67,7 @@ function Achievement:obtained ()
     return true
 end
 
-function Achievement:render (tooltip)
+function Achievement:Render(tooltip)
     if self.lineAbove then tooltip:AddLine(' ') end
     local _,name,_,completed,_,_,_,_,_,icon = GetAchievementInfo(self.id)
     tooltip:AddLine(ACHIEVEMENT_COLOR_CODE..'['..name..']|r')
@@ -106,7 +106,7 @@ end
 
 local Item = Class('Item', Reward)
 
-function Item:init ()
+function Item:Initialize()
     if not self.item then
         error('Item() reward requires an item id to be set')
     end
@@ -121,12 +121,12 @@ function Item:init ()
     end
 end
 
-function Item:obtained ()
+function Item:IsObtained()
     if self.quest then return C_QuestLog.IsQuestFlaggedCompleted(self.quest) end
     return true
 end
 
-function Item:render (tooltip)
+function Item:Render(tooltip)
     local text = self.itemLink
     local status = ''
     if self.quest then
@@ -152,11 +152,11 @@ end
 
 local Mount = Class('Mount', Item)
 
-function Mount:obtained ()
+function Mount:IsObtained()
     return select(11, C_MountJournal.GetMountInfoByID(self.id))
 end
 
-function Mount:render (tooltip)
+function Mount:Render(tooltip)
     local collected = select(11, C_MountJournal.GetMountInfoByID(self.id))
     local status = collected and Green(L["known"]) or Red(L["missing"])
     local text = self.itemLink..' ('..L["mount"]..')'
@@ -177,9 +177,9 @@ end
 
 local Pet = Class('Pet', Item)
 
-function Pet:init ()
+function Pet:Initialize()
     if self.item then
-        Item.init(self)
+        Item.Initialize(self)
     else
         local name, icon = C_PetJournal.GetPetInfoBySpeciesID(self.id)
         self.itemIcon = icon
@@ -187,11 +187,11 @@ function Pet:init ()
     end
 end
 
-function Pet:obtained ()
+function Pet:IsObtained()
     return C_PetJournal.GetNumCollectedInfo(self.id) > 0
 end
 
-function Pet:render (tooltip)
+function Pet:Render(tooltip)
     local n, m = C_PetJournal.GetNumCollectedInfo(self.id)
     local text = self.itemLink..' ('..L["pet"]..')'
     local status = (n > 0) and Green(n..'/'..m) or Red(n..'/'..m)
@@ -210,21 +210,21 @@ end
 
 local Quest = Class('Quest', Reward)
 
-function Quest:init ()
+function Quest:Initialize()
     if type(self.id) == 'number' then
         self.id = {self.id}
     end
     C_QuestLog.GetTitleForQuestID(self.id[1]) -- fetch info from server
 end
 
-function Quest:obtained ()
+function Quest:IsObtained()
     for i, id in ipairs(self.id) do
         if not C_QuestLog.IsQuestFlaggedCompleted(id) then return false end
     end
     return true
 end
 
-function Quest:render (tooltip)
+function Quest:Render(tooltip)
     local name = C_QuestLog.GetTitleForQuestID(self.id[1])
 
     local status
@@ -250,11 +250,11 @@ end
 
 local Toy = Class('Toy', Item)
 
-function Toy:obtained ()
+function Toy:IsObtained()
     return PlayerHasToy(self.item)
 end
 
-function Toy:render (tooltip)
+function Toy:Render(tooltip)
     local collected = PlayerHasToy(self.item)
     local status = collected and Green(L["known"]) or Red(L["missing"])
     tooltip:AddDoubleLine(self.itemLink..' ('..L["toy"]..')', status)
@@ -268,7 +268,7 @@ end
 local Transmog = Class('Transmog', Item)
 local CTC = C_TransmogCollection
 
-function Transmog:obtained ()
+function Transmog:IsObtained()
     -- Check if the player knows the appearance
     if CTC.PlayerHasTransmog(self.item) then return true end
 
@@ -283,7 +283,7 @@ function Transmog:obtained ()
     return false
 end
 
-function Transmog:render (tooltip)
+function Transmog:Render(tooltip)
     local collected = CTC.PlayerHasTransmog(self.item)
     local status = collected and Green(L["known"]) or Red(L["missing"])
 

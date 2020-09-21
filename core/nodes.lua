@@ -6,7 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Group = ns.Group
-local isinstance = ns.isinstance
+local IsInstance = ns.IsInstance
 
 -------------------------------------------------------------------------------
 ------------------------------------ NODE -------------------------------------
@@ -41,14 +41,14 @@ Node.scale = 1
 Node.icon = "default"
 Node.group = ns.groups.OTHER
 
-function Node:init ()
+function Node:Initialize()
     -- normalize quest ids as tables instead of single values
     for i, key in ipairs{'quest', 'questDeps'} do
         if type(self[key]) == 'number' then self[key] = {self[key]} end
     end
 
     -- materialize group if given as a name
-    if not ns.isinstance(self.group, Group) then
+    if not IsInstance(self.group, Group) then
         error('group attribute must be a Group class instance: '..self.group)
     end
 
@@ -61,7 +61,7 @@ The requires attribute is used to indicate some sort of requirement to
 interact with this node. It is often an item, spell or currency.
 --]]
 
-function Node.setters:requires (requirement)
+function Node.setters:requires(requirement)
     self.sublabel = ns.color.Red(L["Requires"]..' '..requirement)
 end
 
@@ -70,10 +70,30 @@ Return the associated texture, scale and alpha value to pass to HandyNotes
 for this node.
 --]]
 
-function Node:display (map)
+function Node:GetDisplayInfo(map)
     local scale = self.scale * self.group:GetScale()
     local alpha = self.alpha * self.group:GetAlpha()
     return self.icon, scale, alpha
+end
+
+--[[
+Return the glow POI for this node. If the node is hovered or focused, a green
+glow is applyed to help highlight the node.
+--]]
+
+function Node:GetGlow(map)
+    if self._glow and (self._focus or self._hover) then
+        local _, scale, alpha = self:GetDisplayInfo(map)
+        self._glow.alpha = alpha
+        self._glow.scale = scale
+        if self._focus then
+            self._glow.r, self._glow.g, self._glow.b = 0, 1, 0
+        else
+            self._glow.r, self._glow.g, self._glow.b = 1, 1, 0
+            self._glow.a = 0.5
+        end
+        return self._glow
+    end
 end
 
 --[[
@@ -81,10 +101,10 @@ Return the "collected" status of this node. A node is collected if all
 associated rewards have been obtained (achievements, toys, pets, mounts).
 --]]
 
-function Node:collected ()
+function Node:IsCollected()
     if not self.rewards then return true end
     for i, reward in ipairs(self.rewards) do
-        if not reward:obtained() then return false end
+        if not reward:IsObtained() then return false end
     end
     return true
 end
@@ -93,15 +113,15 @@ end
 Return true if this node should be displayed.
 --]]
 
-function Node:enabled ()
+function Node:IsEnabled()
     local db = ns.addon.db
 
     -- Check prerequisites
-    if not self:prerequisite() then return false end
+    if not self:PrerequisiteCompleted() then return false end
 
     -- Check completed state
     if not db.profile.show_completed_nodes then
-        if self:completed() then return false end
+        if self:IsCompleted() then return false end
     end
 
     return true
@@ -113,7 +133,7 @@ all quests defined in the `questDeps` attribute are completed. This method can
 be overridden to check for other prerequisite criteria.
 --]]
 
-function Node:prerequisite ()
+function Node:PrerequisiteCompleted()
     -- Prerequisite not met if any dependent quest ids are false
     if not self.questDeps then return true end
     for i, quest in ipairs(self.questDeps) do
@@ -131,7 +151,7 @@ some other form of completion, such as an achievement criteria.
 This method is *not* called if the "Show completed" setting is enabled.
 --]]
 
-function Node:completed ()
+function Node:IsCompleted()
     if self.quest and self.questAny then
         -- Completed if *any* attached quest ids are true
         for i, quest in ipairs(self.quest) do
@@ -153,9 +173,7 @@ referenced in the text attributes of this node. This method is called when a
 world map containing this node is opened.
 --]]
 
-function Node:prepare ()
-    if self._prepared then return end
-
+function Node:Prepare()
     -- initialize icon from string name
     if type(self.icon) == 'string' then
         self.icon = ns.icons[self.icon] or ns.icons.default
@@ -168,10 +186,8 @@ function Node:prepare ()
     end
 
     ns.NameResolver:Prepare(self.label)
-    ns.prepareLinks(self.sublabel)
-    ns.prepareLinks(self.note)
-
-    self._prepared = true
+    ns.PrepareLinks(self.sublabel)
+    ns.PrepareLinks(self.note)
 end
 
 --[[
@@ -180,7 +196,7 @@ on the attributes set on this specific node, such as setting an `rlabel` or
 `sublabel` value.
 --]]
 
-function Node:render(tooltip)
+function Node:Render(tooltip)
     -- render the label text with NPC names resolved
     tooltip:SetText(ns.NameResolver:Resolve(self.label))
 
@@ -215,14 +231,14 @@ function Node:render(tooltip)
     -- optional text under label, usually used to indicate a oneline
     -- requirement such as a key, item or covenant
     if self.sublabel then
-        tooltip:AddLine(ns.renderLinks(self.sublabel, true), 1, 1, 1)
+        tooltip:AddLine(ns.RenderLinks(self.sublabel, true), 1, 1, 1)
     end
 
     -- additional text for the node to describe how to interact with the
     -- object or summon the rare
     if self.note and ns.addon.db.profile.show_notes then
         if self.sublabel then tooltip:AddLine(" ") end
-        tooltip:AddLine(ns.renderLinks(self.note), 1, 1, 1, true)
+        tooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)
     end
 
     -- all rewards (achievements, pets, mounts, toys, quests) that can be
@@ -232,7 +248,7 @@ function Node:render(tooltip)
         for i, reward in ipairs(self.rewards) do
 
             -- Add a blank line between achievements and other rewards
-            local isAchieve = ns.isinstance(reward, ns.reward.Achievement)
+            local isAchieve = IsInstance(reward, ns.reward.Achievement)
             if isAchieve and firstAchieve then
                 tooltip:AddLine(" ")
                 firstAchieve = false
@@ -241,28 +257,8 @@ function Node:render(tooltip)
                 firstOther = false
             end
 
-            reward:render(tooltip)
+            reward:Render(tooltip)
         end
-    end
-end
-
---[[
-Return the glow POI for this node. If the node is hovered or focused, a green
-glow is applyed to help highlight the node.
---]]
-
-function Node:glow (map)
-    if self._glow and (self._focus or self._hover) then
-        local _, scale, alpha = self:display(map)
-        self._glow.alpha = alpha
-        self._glow.scale = scale
-        if self._focus then
-            self._glow.r, self._glow.g, self._glow.b = 0, 1, 0
-        else
-            self._glow.r, self._glow.g, self._glow.b = 1, 1, 0
-            self._glow.a = 0.5
-        end
-        return self._glow
     end
 end
 
@@ -276,21 +272,21 @@ local Cave = Class('Cave', Node, {
     group = ns.groups.CAVE
 })
 
-function Cave:init ()
-    Node.init(self)
+function Cave:Initialize()
+    Node.Initialize(self)
 
     if self.parent == nil then
         error('One or more parent nodes are required for Cave nodes')
-    elseif isinstance(self.parent, Node) then
+    elseif IsInstance(self.parent, Node) then
         -- normalize parent nodes as tables instead of single values
         self.parent = {self.parent}
     end
 end
 
-function Cave:enabled ()
-    local function hasEnabledParent ()
+function Cave:IsEnabled()
+    local function HasEnabledParent()
         for i, parent in ipairs(self.parent) do
-            if parent:enabled() then
+            if parent:IsEnabled() then
                 return true
             end
         end
@@ -298,9 +294,9 @@ function Cave:enabled ()
     end
 
     -- Check if all our parents are hidden
-    if not hasEnabledParent() then return false end
+    if not HasEnabledParent() then return false end
 
-    return Node.enabled(self)
+    return Node.IsEnabled(self)
 end
 
 -------------------------------------------------------------------------------
@@ -319,12 +315,12 @@ local Intro = Class('Intro', Node, {
 
 local NPC = Class('NPC', Node)
 
-function NPC:init ()
-    Node.init(self)
+function NPC:Initialize()
+    Node.Initialize(self)
     if not self.id then error('id required for NPC nodes') end
 end
 
-function NPC.getters:label ()
+function NPC.getters:label()
     return ("unit:Creature-0-0-0-0-%d"):format(self.id)
 end
 
@@ -349,8 +345,8 @@ local Quest = Class('Quest', Node, {
 
 local QUEST_IDS = {}
 
-function Quest:init ()
-    Node.init(self)
+function Quest:Initialize()
+    Node.Initialize(self)
     C_QuestLog.GetTitleForQuestID(self.quest[1]) -- fetch info from server
 
     for i, id in ipairs(self.quest) do
@@ -358,11 +354,11 @@ function Quest:init ()
     end
 end
 
-function Quest.getters:icon ()
+function Quest.getters:icon()
     return self.daily and 'quest_blue' or 'quest_yellow'
 end
 
-function Quest.getters:label ()
+function Quest.getters:label()
     return C_QuestLog.GetTitleForQuestID(self.quest[1])
 end
 
@@ -382,22 +378,22 @@ local Rare = Class('Rare', NPC, {
     group = ns.groups.RARE
 })
 
-function Rare.getters:icon ()
-    return self:collected() and 'skull_white' or 'skull_blue'
+function Rare.getters:icon()
+    return self:IsCollected() and 'skull_white' or 'skull_blue'
 end
 
-function Rare:enabled ()
+function Rare:IsEnabled()
     local hide_done_rares = ns.addon.db.profile.hide_done_rare
-    if hide_done_rares and self:collected() then return false end
-    return NPC.enabled(self)
+    if hide_done_rares and self:IsCollected() then return false end
+    return NPC.IsEnabled(self)
 end
 
-function Rare:glow (map)
-    local glow = NPC.glow(self, map)
+function Rare:GetGlow(map)
+    local glow = NPC.GetGlow(self, map)
     if glow then return glow end
 
     if ns.addon.db.profile.development and not self.quest then
-        local _, scale, alpha = self:display(map)
+        local _, scale, alpha = self:GetDisplayInfo(map)
         self._glow.alpha = alpha
         self._glow.scale = scale
         self._glow.r, self._glow.g, self._glow.b = 1, 0, 0
@@ -415,22 +411,22 @@ local Treasure = Class('Treasure', Node, {
     group = ns.groups.TREASURE
 })
 
-function Treasure.getters:label ()
+function Treasure.getters:label()
     if not self.rewards then return UNKNOWN end
     for i, reward in ipairs(self.rewards) do
-        if isinstance(reward, ns.reward.Achievement) then
+        if IsInstance(reward, ns.reward.Achievement) then
             return GetAchievementCriteriaInfoByID(reward.id, reward.criteria[1].id)
         end
     end
     return UNKNOWN
 end
 
-function Treasure:glow (map)
-    local glow = Node.glow(self, map)
+function Treasure:GetGlow(map)
+    local glow = Node.GetGlow(self, map)
     if glow then return glow end
 
     if ns.addon.db.profile.development and not self.quest then
-        local _, scale, alpha = self:display(map)
+        local _, scale, alpha = self:GetDisplayInfo(map)
         self._glow.alpha = alpha
         self._glow.scale = scale
         self._glow.r, self._glow.g, self._glow.b = 1, 0, 0

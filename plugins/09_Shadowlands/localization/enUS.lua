@@ -210,7 +210,7 @@ L["options_icons_anima_shard_desc"] = "Display the locations of all 50 lost anim
 
 L["aspirants_rest"] = "Aspirant's Rest"
 L["eternal_gateway"] = "Eternal Gateway"
-L["exaltations_rise"] = "Exaltation's Rise"
+L["exaltations_rise"] = "Exaltation Rise"
 L["heros_rest"] = "Hero's Rest"
 L["sagehaven"] = "Sagehaven"
 L["seat_of_eternal_hymns"] = "Seat of Eternal Hymns"

@@ -38,9 +38,9 @@ ns.groups.TREASURES_NAZJ = Group({name='treasures_nazj'})
 local map = Map({ id=1355, phased=false })
 local nodes = map.nodes
 
-function map:prepare ()
-    Map.prepare(self)
-    self.phased = self.intro:completed()
+function map:Prepare ()
+    Map.Prepare(self)
+    self.phased = self.intro:IsCompleted()
 end
 
 -------------------------------------------------------------------------------
@@ -79,7 +79,7 @@ nodes[11952801] = map.intro
 
 ns.addon:RegisterEvent('QUEST_TURNED_IN', function (_, questID)
     if questID == 56156 or questID == 55500 then
-        ns.debug('Nazjatar unlock detected')
+        ns.Debug('Nazjatar unlock detected')
         C_Timer.After(1, function()
             ns.addon:Refresh()
         end)

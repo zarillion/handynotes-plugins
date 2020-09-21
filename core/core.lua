@@ -22,7 +22,7 @@ _G[ADDON_NAME] = Addon
 
 local DropdownMenu = CreateFrame("Frame", ADDON_NAME.."DropdownMenu")
 DropdownMenu.displayMode = "MENU"
-local function initializeDropdownMenu (level, mapID, coord)
+local function InitializeDropdownMenu(level, mapID, coord)
     if not level then return end
     local node = ns.maps[mapID].nodes[coord]
     local spacer = {text='', disabled=1, notClickable=1, notCheckable=1}
@@ -98,7 +98,7 @@ function Addon:OnEnter(mapID, coord)
         tooltip:SetOwner(self, "ANCHOR_RIGHT")
     end
 
-    node:render(tooltip)
+    node:Render(tooltip)
     node._hover = true
     ns.MinimapDataProvider:RefreshAllData()
     ns.WorldMapDataProvider:RefreshAllData()
@@ -121,7 +121,7 @@ function Addon:OnClick(button, down, mapID, coord)
     local node = ns.maps[mapID].nodes[coord]
     if button == "RightButton" and down then
         DropdownMenu.initialize = function (_, level)
-            initializeDropdownMenu(level, mapID, coord)
+            InitializeDropdownMenu(level, mapID, coord)
         end
         ToggleDropDownMenu(1, nil, DropdownMenu, self, 0, 0)
     elseif button == "LeftButton" and down then
@@ -163,8 +163,8 @@ function Addon:RegisterWithHandyNotes()
             if minimap and self.db.profile.hide_minimap then return nil end
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
-                if node and map:enabled(node, coord, minimap) then
-                    local icon, scale, alpha = node:display(map)
+                if node and map:IsNodeEnabled(node, coord, minimap) then
+                    local icon, scale, alpha = node:GetDisplayInfo(map)
                     return coord, nil, icon, scale, alpha
                 end
                 coord, node = next(nodes, coord) -- Get next node
@@ -172,12 +172,12 @@ function Addon:RegisterWithHandyNotes()
             return nil, nil, nil, nil
         end
         function Addon:GetNodes2(mapID, _minimap)
-            ns.debugMap('Loading nodes for map: '..mapID..' (minimap='..tostring(_minimap)..')')
+            ns.DebugMap('Loading nodes for map: '..mapID..' (minimap='..tostring(_minimap)..')')
             map = ns.maps[mapID]
             minimap = _minimap
 
             if map then
-                map:prepare()
+                map:Prepare()
                 return iter, map.nodes, nil
             end
 

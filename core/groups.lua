@@ -11,7 +11,7 @@ local Class = ns.Class
 
 local Group = Class('Group')
 
-function Group:init()
+function Group:Initialize()
     if not self.name then
         error('Groups must be initialized with a name!')
     end

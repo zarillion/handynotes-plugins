@@ -5,6 +5,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
+local Clone = ns.Clone
 local Map = ns.Map
 
 local NPC = ns.node.NPC
@@ -469,7 +470,7 @@ local forgotten_treasure = Treasure({
 map.nodes[22503030] = forgotten_treasure
 
 local etheric_vault = Map({ id=1649, settings=false })
-etheric_vault.nodes[34565549] = ns.clone(forgotten_treasure, {
+etheric_vault.nodes[34565549] = Clone(forgotten_treasure, {
     pois={
         POI({25815353}) -- Vault Portcullis Chain
     }
@@ -517,9 +518,9 @@ local Kitten = Class('Kitten', NPC, {
     group = ns.groups.SLIME_CAT
 })
 
-function Kitten:completed ()
+function Kitten:IsCompleted()
     -- Stop showing the node once the achievement criteria is completed
-    return self:collected()
+    return self:IsCollected()
 end
 
 map.nodes[65225065] = Kitten({id=174224, rewards={
@@ -585,7 +586,7 @@ local GATE_PH = Deathgate({ label=L["???"] })
 map.nodes[50397398] = GATE_SEAT
 map.nodes[51631638] = GATE_NURA
 map.nodes[74453364] = GATE_EXOR
-map.nodes[42776079] = ns.clone(GATE_ZERE, { pois={
+map.nodes[42776079] = Clone(GATE_ZERE, { pois={
     Path({
         60134279, 60304031, 60323777, 60093537, 59503334, 58513191, 57373110,
         55913045, 54262997, 52502962, 50712938, 49012922, 47492912, 45822907,

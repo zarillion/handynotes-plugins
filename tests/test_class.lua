@@ -31,10 +31,10 @@ function TestClass:testConstructor ()
 end
 
 function TestClass:testDefaultInitMethod ()
-    -- Verify all base classes are given a default noop init() method
+    -- Verify all base classes are given a default noop Initialize() method
     local Node = Class('Node')
-    luaunit.assertIsFunction(Node.init)
-    luaunit.assertIsNil(Node.init())
+    luaunit.assertIsFunction(Node.Initialize)
+    luaunit.assertIsNil(Node.Initialize())
 end
 
 function TestClass:testAttributeAssignment ()
@@ -82,10 +82,10 @@ function TestClass:testInstantiationWithAttributes ()
 end
 
 function TestClass:testInitMethod ()
-    -- Verify class init() method is called upon instantiation
+    -- Verify class Initialize() method is called upon instantiation
     local Node = Class('Node', nil, { scale = 1 })
 
-    function Node:init ()
+    function Node:Initialize ()
         self.icon = 'default'
         self.scale = self.scale + 1
     end
@@ -191,12 +191,12 @@ end
 TestInheritance = {}
 
 function TestInheritance:testInitOverride ()
-    -- Verify subclasses can override the init() method
+    -- Verify subclasses can override the Initialize() method
     local Node = Class('Node')
     local Rare = Class('Rare', Node)
 
-    function Node:init () self.scale = 1 end
-    function Rare:init () self.icon = 'skull' end
+    function Node:Initialize () self.scale = 1 end
+    function Rare:Initialize () self.icon = 'skull' end
 
     local node = Node()
     local rare = Rare()
@@ -324,26 +324,26 @@ end
 TestHelpers = {}
 
 function TestHelpers:testIsInstance ()
-    -- isinstance() should check the inheritance chain for a matching class
+    -- IsInstance() should check the inheritance chain for a matching class
     local Node = Class('Node')
     local Rare = Class('Rare', Node)
     local NPC = Class('NPC')
 
-    luaunit.assertIsTrue(isinstance(Rare(), Rare))
-    luaunit.assertIsTrue(isinstance(Rare(), Node))
-    luaunit.assertIsFalse(isinstance(Rare(), NPC))
-    luaunit.assertIsFalse(isinstance(NPC(), Node))
+    luaunit.assertIsTrue(IsInstance(Rare(), Rare))
+    luaunit.assertIsTrue(IsInstance(Rare(), Node))
+    luaunit.assertIsFalse(IsInstance(Rare(), NPC))
+    luaunit.assertIsFalse(IsInstance(NPC(), Node))
 end
 
 function TestHelpers:testClone ()
-    -- clone() should duplicate a class instance and override attributes
+    -- Clone() should duplicate a class instance and override attributes
     local Node = Class('Node', nil, { icon='default' })
     local node1 = Node({ scale=1 })
-    local node2 = clone(node1, { scale=2 })
+    local node2 = Clone(node1, { scale=2 })
 
     luaunit.assertNotIs(node1, node2)
-    luaunit.assertIsTrue(isinstance(node1, Node))
-    luaunit.assertIsTrue(isinstance(node2, Node))
+    luaunit.assertIsTrue(IsInstance(node1, Node))
+    luaunit.assertIsTrue(IsInstance(node2, Node))
     luaunit.assertEquals(node1.icon, 'default')
     luaunit.assertEquals(node1.scale, 1)
     luaunit.assertEquals(node2.icon, 'default')

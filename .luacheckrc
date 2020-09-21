@@ -91,5 +91,5 @@ globals = {
 
 files["tests/test_class.lua"] = {
     globals = {'TestClass', 'TestInheritance', 'TestHelpers'},
-    read_globals = {'Class', 'isinstance', 'clone'}
+    read_globals = {'Class', 'Clone', 'IsInstance'}
 }

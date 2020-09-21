@@ -35,16 +35,16 @@ local map = Map({ id=1462 })
 local nodes = map.nodes
 local TIME_DISPLACEMENT = 296644
 
-function map:prepare ()
-    Map.prepare(self)
+function map:Prepare ()
+    Map.Prepare(self)
     self.future = AuraUtil.FindAuraByName(GetSpellInfo(TIME_DISPLACEMENT), 'player')
 end
 
-function map:enabled (node, coord, minimap)
+function map:IsNodeEnabled(node, coord, minimap)
     -- check node's future availability (nil=no, 1=yes, 2=both)
     if self.future and not node.future then return false end
     if not self.future and node.future == 1 then return false end
-    return Map.enabled(self, node, coord, minimap)
+    return Map.IsNodeEnabled(self, node, coord, minimap)
 end
 
 -- Listen for aura applied/removed events so we can refresh when the player

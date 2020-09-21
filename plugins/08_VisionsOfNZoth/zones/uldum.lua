@@ -6,7 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
-local clone = ns.clone
+local Clone = ns.Clone
 
 local Node = ns.node.Node
 local Cave = ns.node.Cave
@@ -36,27 +36,27 @@ local AQR, EMP, AMA = 0, 1, 2 -- assaults
 local map = Map({ id=1527, phased=false })
 local nodes = map.nodes
 
-local function GetAssault ()
+local function GetAssault()
     local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
     if textures and textures[1].fileDataIDs[1] == 3165083 then
-        ns.debugMap('Uldum assault: AQR')
+        ns.DebugMap('Uldum assault: AQR')
         return AQR -- left
     elseif textures and textures[1].fileDataIDs[1] == 3165092 then
-        ns.debugMap('Uldum assault: EMP')
+        ns.DebugMap('Uldum assault: EMP')
         return EMP -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3165098 then
-        ns.debugMap('Uldum assault: AMA')
+        ns.DebugMap('Uldum assault: AMA')
         return AMA -- right
     end
 end
 
-function map:prepare ()
-    Map.prepare(self)
+function map:Prepare()
+    Map.Prepare(self)
     self.assault = GetAssault()
     self.phased = self.assault ~= nil
 end
 
-function map:enabled (node, coord, minimap)
+function map:IsNodeEnabled(node, coord, minimap)
     local assault = node.assault
     if assault then
         assault = type(assault) == 'number' and {assault} or assault
@@ -66,7 +66,7 @@ function map:enabled (node, coord, minimap)
         end
     end
 
-    return Map.enabled(self, node, coord, minimap)
+    return Map.IsNodeEnabled(self, node, coord, minimap)
 end
 
 -------------------------------------------------------------------------------
@@ -77,11 +77,11 @@ local Intro = Class('Intro', ns.node.Intro)
 
 Intro.note = L["uldum_intro_note"]
 
-function Intro:completed ()
+function Intro:IsCompleted()
     return map.assault ~= nil
 end
 
-function Intro.getters:label ()
+function Intro.getters:label()
     return select(2, GetAchievementInfo(14153)) -- Uldum Under Assault
 end
 
@@ -103,7 +103,7 @@ nodes[46004300] = map.intro
 ns.addon:RegisterEvent('QUEST_WATCH_UPDATE', function (_, index)
     local info = C_QuestLog.GetInfo(index)
     if info and info.questID == 56376 then
-        ns.debug('Uldum assaults unlock detected')
+        ns.Debug('Uldum assaults unlock detected')
         C_Timer.After(1, function()
             ns.addon:Refresh()
         end)
@@ -267,7 +267,7 @@ local NefRare = Class('NefersetRare', Rare, {
     pois={POI({50007868, 50568833, 55207930})}
 })
 
-function NefRare:prerequisite ()
+function NefRare:PrerequisiteCompleted()
     -- Show only if a Summoning Ritual event is active or completed
     for i, quest in ipairs({57359, 57620, 57621}) do
         if C_TaskQuest.GetQuestTimeLeftMinutes(quest) or C_QuestLog.IsQuestFlaggedCompleted(quest) then
@@ -303,9 +303,9 @@ local AQRTR4 = AQRChest({quest=58141, icon='chest_yellow'})
 local AQRTR5 = AQRChest({quest=58142, icon='chest_teal'})
 
 -- quest=58138
-nodes[43925868] = clone(AQRTR1, {note=L["chamber_of_the_sun"]})
+nodes[43925868] = Clone(AQRTR1, {note=L["chamber_of_the_sun"]})
 nodes[44855696] = AQRTR1
-nodes[45845698] = clone(AQRTR1, {note=L["chamber_of_the_sun"]})
+nodes[45845698] = Clone(AQRTR1, {note=L["chamber_of_the_sun"]})
 nodes[46176156] = AQRTR1
 nodes[46525801] = AQRTR1
 nodes[50555882] = AQRTR1
@@ -349,7 +349,7 @@ nodes[33953036] = AQRTR5
 nodes[35101878] = AQRTR5
 nodes[35413157] = AQRTR5
 nodes[36871616] = AQRTR5
-nodes[41592264] = clone(AQRTR5, {note=L["chamber_of_the_moon"]})
+nodes[41592264] = Clone(AQRTR5, {note=L["chamber_of_the_moon"]})
 nodes[45561320] = AQRTR5
 
 nodes[36252324] = Supply({
@@ -509,11 +509,11 @@ nodes[69874163] = AMATR5
 nodes[60932455] = AMATR6
 nodes[61343060] = AMATR6
 nodes[62722355] = AMATR6
-nodes[63122508] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
+nodes[63122508] = Clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[63532160] = AMATR6
 nodes[65543142] = AMATR6
-nodes[65882147] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
-nodes[67172800] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
+nodes[65882147] = Clone(AMATR6, {note=L["chamber_of_the_stars"]})
+nodes[67172800] = Clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[68222051] = AMATR6
 nodes[68933234] = AMATR6
 
@@ -525,7 +525,7 @@ local AMACOFF = Supply({
     sublabel=L["tolvir_relic"]
 })
 
-nodes[64463415] = clone(AMACOFF, {note=L["chamber_of_the_stars"]})
+nodes[64463415] = Clone(AMACOFF, {note=L["chamber_of_the_stars"]})
 nodes[66882414] = AMACOFF
 nodes[67464294] = AMACOFF
 nodes[73337356] = AMACOFF

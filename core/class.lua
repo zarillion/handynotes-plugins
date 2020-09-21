@@ -10,7 +10,7 @@ local _, ns = ...
 
 ns.Class = function (name, parent, attrs)
     if type(name) ~= 'string' then error('name param must be a string') end
-    if parent and not ns.isclass(parent) then error('parent param must be a class') end
+    if parent and not ns.IsClass(parent) then error('parent param must be a class') end
 
     local Class = attrs or {}
     Class.getters = Class.getters or {}
@@ -60,8 +60,8 @@ ns.Class = function (name, parent, attrs)
                 end
             end
 
-            -- call init() method for instance
-            Class.init(instance)
+            -- call Initialize() method for instance
+            Class.Initialize(instance)
 
             return instance
         end,
@@ -78,9 +78,9 @@ ns.Class = function (name, parent, attrs)
         -- Set parent class and allow parent class setters to be used
         Class.__parent = parent
         setmetatable(Class.setters, { __index = parent.setters })
-    elseif not Class.init then
-        -- Add default init() method for base class
-        Class.init = function (self) end
+    elseif not Class.Initialize then
+        -- Add default Initialize() method for base class
+        Class.Initialize = function (self) end
     end
 
     return Class
@@ -90,11 +90,11 @@ end
 ----------------------------------- HELPERS -----------------------------------
 -------------------------------------------------------------------------------
 
-ns.isclass = function (class)
+ns.IsClass = function (class)
     return type(class) == 'table' and class.getters and class.setters
 end
 
-ns.isinstance = function (instance, class)
+ns.IsInstance = function (instance, class)
     if type(instance) ~= 'table' then return false end
     local function compare (c1, c2)
         if c2 == nil then return false end
@@ -104,7 +104,7 @@ ns.isinstance = function (instance, class)
     return compare(class, instance.__class)
 end
 
-ns.clone = function (instance, newattrs)
+ns.Clone = function (instance, newattrs)
     local clone = {}
     for k, v in pairs(instance) do clone[k] = v end
     if newattrs then

@@ -32,7 +32,7 @@ local TimedEvent = Class('TimedEvent', Quest, {
     note = ''
 })
 
-function TimedEvent:prerequisite ()
+function TimedEvent:PrerequisiteCompleted()
     -- Timed events that are not active today return nil here
     return C_TaskQuest.GetQuestTimeLeftMinutes(self.quest[1])
 end

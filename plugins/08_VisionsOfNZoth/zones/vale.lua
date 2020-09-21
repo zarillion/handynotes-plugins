@@ -6,7 +6,7 @@ local _, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
-local clone = ns.clone
+local Clone = ns.Clone
 
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
@@ -36,24 +36,24 @@ local nodes = map.nodes
 local function GetAssault()
     local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
     if textures and textures[1].fileDataIDs[1] == 3155826 then
-        ns.debugMap('Vale assault: MAN')
+        ns.DebugMap('Vale assault: MAN')
         return MAN -- left
     elseif textures and textures[1].fileDataIDs[1] == 3155832 then
-        ns.debugMap('Vale assault: MOG')
+        ns.DebugMap('Vale assault: MOG')
         return MOG -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3155841 then
-        ns.debugMap('Vale assault: EMP')
+        ns.DebugMap('Vale assault: EMP')
         return EMP -- right
     end
 end
 
-function map:prepare ()
-    Map.prepare(self)
+function map:Prepare()
+    Map.Prepare(self)
     self.assault = GetAssault()
     self.phased = self.assault ~= nil
 end
 
-function map:enabled (node, coord, minimap)
+function map:IsNodeEnabled(node, coord, minimap)
     local assault = node.assault
     if assault then
         assault = type(assault) == 'number' and {assault} or assault
@@ -63,7 +63,7 @@ function map:enabled (node, coord, minimap)
         end
     end
 
-    return Map.enabled(self, node, coord, minimap)
+    return Map.IsNodeEnabled(self, node, coord, minimap)
 end
 
 -------------------------------------------------------------------------------
@@ -74,11 +74,11 @@ local Intro = Class('Intro', ns.node.Intro)
 
 Intro.note = L["vale_intro_note"]
 
-function Intro:completed ()
+function Intro:IsCompleted()
     return map.assault ~= nil
 end
 
-function Intro.getters:label ()
+function Intro.getters:label()
     return select(2, GetAchievementInfo(14154)) -- Defend the Vale
 end
 
@@ -101,7 +101,7 @@ nodes[26005200] = map.intro
 
 ns.addon:RegisterEvent('QUEST_ACCEPTED', function (_, _, id)
     if id == 56540 then
-        ns.debug('Vale assaults unlock detected')
+        ns.Debug('Vale assaults unlock detected')
         C_Timer.After(1, function()
             ns.addon:Refresh()
         end)
@@ -217,7 +217,7 @@ nodes[15887672] = MANTR1
 -- quest=58225
 nodes[16021946] = MANTR2
 nodes[17432634] = MANTR2
-nodes[19001350] = clone(MANTR2, {note=L["guolai"]})
+nodes[19001350] = Clone(MANTR2, {note=L["guolai"]})
 nodes[21051415] = MANTR2
 nodes[26301110] = MANTR2
 -- quest=58226
@@ -332,7 +332,7 @@ local MOGCOFF = Supply({
 
 nodes[10782831] = MOGCOFF
 nodes[20006321] = MOGCOFF
-nodes[24430269] = clone(MOGCOFF, {note=L["guolai_center"]})
+nodes[24430269] = Clone(MOGCOFF, {note=L["guolai_center"]})
 nodes[43134209] = MOGCOFF
 nodes[50182143] = MOGCOFF
 
@@ -417,9 +417,9 @@ local EMPCOFF = Supply({
 })
 
 nodes[53116634] = EMPCOFF
-nodes[54804100] = clone(EMPCOFF, {note=L["platform"]})
+nodes[54804100] = Clone(EMPCOFF, {note=L["platform"]})
 nodes[62975086] = EMPCOFF
-nodes[68662806] = clone(EMPCOFF, {note=L["pools_of_power"]})
+nodes[68662806] = Clone(EMPCOFF, {note=L["pools_of_power"]})
 nodes[69516094] = EMPCOFF
 nodes[76626437] = EMPCOFF
 
@@ -427,8 +427,8 @@ nodes[76626437] = EMPCOFF
 
 local pmap = Map({ id=1579 })
 
-function pmap:prepare ()
-    map.prepare(self)
+function pmap:Prepare ()
+    map.Prepare(self)
 end
 
 -- quest=57199
@@ -442,7 +442,7 @@ pmap.nodes[45715972] = EMPTR2
 pmap.nodes[46313359] = EMPTR2
 pmap.nodes[54384017] = EMPTR2
 
-pmap.nodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
+pmap.nodes[42104690] = Clone(EMPCOFF, {note=L["pools_of_power"]})
 
 -------------------------------------------------------------------------------
 -------------------------------- ASSAULT EVENTS -------------------------------
