@@ -222,83 +222,83 @@ L["xandrias_vigil"] = "山德里娅的戒卫"
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
 
-L["chelicerae_note"] = "Destroy the {npc:159885} to activate the rare."
-L["deepscar_note"] = "Can appear in multiple entrances to the 伤逝剧场."
-L["forgotten_mementos"] = "Pull the Vault Portcullis Chain in the chamber west of the treasure to open the gate."
-L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
-L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
-L["leeda_note"] = "Kill the two {npc:162220}s until the rare spawns."
-L["malkorak_note"] = "At the top of the tower (lots of stairs)."
-L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
-L["taskmaster_xox_note"] = "Shares a spawn with {npc:160204}, {npc:160230} and {npc:160226}."
-L["zargox_the_reborn_note"] = "Use {item:175841} on top of the {npc:157124}. To obtain the orb, you must complete the quest \"The Aetherlife\" from {npc:157076} and talk to him again."
+L["chelicerae_note"] = "摧毁 {npc:159885} 后激活稀有。"
+L["deepscar_note"] = "可能出现在伤逝剧场的多个入口。"
+L["forgotten_mementos"] = "在宝藏西侧的房间拖拽宝库闸门之链打开大门。"
+L["gieger_note"] = "攻击 {npc:162815} 后激活稀有。"
+L["gristlebeak_note"] = "破坏附近的 {npc:162761} 后激活稀有。"
+L["leeda_note"] = "击杀两个 {npc:162220} 单位后稀有刷新。"
+L["malkorak_note"] = "在塔顶（很多楼梯）。"
+L["schmitd_note"] = "使用附近的 {spell:313451} 破坏他的护盾。"
+L["taskmaster_xox_note"] = "与 {npc:160204}，{npc:160230} 和 {npc:160226} 共享刷新。"
+L["zargox_the_reborn_note"] = "使用 {item:175841} 位于 {npc:157124} 顶上。获得宝珠，你必须完成 {npc:157076} 的任务“以太生命”之后再与他交谈。"
 L["mixed_pool_note"] = [[
-Gather ingredients from the surrounding mobs and toss them into the pool. Once 30 ingredients have been added, one of seven rares will spawn depending on the combination used.
+从周围怪物收集材料并扔进池中。每30个材料，根据所使用的组合，将刷新七个稀有中的一个。
 
-• Collect {spell:306713} from {npc:167923} and {npc:167948} to the north.
+• 从北侧的 {npc:167923} 和 {npc:167948} 收集 {spell:306713}。
 
-• Collect {spell:306719} from {npc:165015} and {npc:171142} to the south.
+• 从南侧的 {npc:165015} 和 {npc:171142} 收集 {spell:306719}。
 
-• Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
+• 从南侧的 {npc:165027} 和 {npc:166438} 收集 {spell:306722}。
 ]]
 
 L["blackhound_cache"] = "黑犬宝箱"
 L["bladesworn_supply_cache"] = "刃誓补给箱"
 
-L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
-L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
-L["misplaced_supplies"] = "On top of the giant mushroom. Run up the hill and jump onto the smaller brown mushroom, then run up the larger hill and jump onto the giant mushroom."
-L["necro_tome_note"] = "To get access to the tower, you have to start a small quest line from {npc:166657}. In a bookcase on the top floor."
+L["glutharns_note"] = "在软泥瀑布后面的一个山洞里。击杀 {npc:172485} 和 {npc:172479} 解锁宝箱。"
+L["kyrian_keepsake_note"] = "检查 {npc:169664} 拾取宝藏。"
+L["misplaced_supplies"] = "在巨大的蘑菇顶上。上山后跳上较小的棕色蘑菇，然后上山跳上巨大的蘑菇。"
+L["necro_tome_note"] = "要进入塔楼，必须完成一个 {npc:166657} 的小任务线。在顶层的书柜里。"
 L["plaguefallen_chest_note"] = [[
-Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} and be transformed into a {spell:330092}.
+站在绿色软泥中（需要治疗！）获得10层 {spell:330069} 并会转化为 {spell:330092}。
 
-Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on the east side) and click the pipe to transport to the chest.
+转化后，到 {npc:158406} 平台（入口在东侧）下面洞穴并点击管道传送宝箱。
 ]]
-L["ritualists_cache_note"] = "Loot the {item:181558} from a bone pile (multiple spawn locations). Use them to complete the Book of Binding Rituals on the stand behind {npc:174386} and gain the {spell:337041} buff."
-L["runespeakers_trove_note"] = "Find {npc:170563} to the east and kill him to obtain the {item:181777}."
-L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
-L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
-L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
+L["ritualists_cache_note"] = "从骨头堆（多个刷新点）拾取 {item:181558}。在 {npc:174386} 后面使用它完成装订仪式书并获得 {spell:337041} 增益。"
+L["runespeakers_trove_note"] = "东侧找到 {npc:170563} 并击杀他获得 {item:181777}。"
+L["stolen_jar_note"] = "在巨大的蘑菇下面的山洞里。"
+L["strange_growth_note"] = "攻击 {npc:165037} 获得宝藏。"
+L["vat_of_slime_note"] = "点击桌上的瓶子，然后点击软泥桶。"
 
-L["giant_cache_of_epic_treasure"] = "Giant Cache of Epic Treasure"
+L["giant_cache_of_epic_treasure"] = "巨大的史诗财宝箱"
 L["spinebug_note"] = [[
-Oh look! A {spell:343124}! Approach it brave adventurer, this is surely not a ruse. Wait, is that the music from Karazhan? What is this {npc:174663} doing here ...?
+快看！{spell:343124}！勇敢的冒险家快过去，这肯定不是诡计。等一下，那是卡拉赞的音乐吗？{npc:174663} 在这里干嘛…？
 
 {spell:343163}!
 ]]
 
 L["oonar_sorrowbane_note"] = [[
-In the Theater of Pain, you will find Sorrowbane stuck in the ground and Oonar's Arm attached to it. |cFFFF8C00Before attempting to pull either, set your {item:6948} to {npc:161702} by the flight point.|r
+在伤逝剧场，可以找到哀伤克星插在地上和乌纳尔的手臂附在一起。|cFFFF8C00在尝试拉出之前，设置 {item:6948} 到 {npc:161702} 飞行点。|r
 
-To pull {item:181164} free:
+拉出 {item:181164}：
 
-• Travel to Glutharn's Decay to the east.
-• Eat 4x {spell:327367} (2min debuff).
-• Quickly hearth and pull on the arm.
+• 到格拉萨恩之腐东侧。
+• 吃4层 {spell:327367} （2分钟负面效果）。
+• 迅速炉石并拉动手臂。
 
-To pull {item:180273} free:
+拉出 {item:180273}：
 
-• Purchase 1 {item:182163} from {npc:171808} in Revendreth.
-• Purchase 1 {item:180771} from {npc:166640} in Maldraxxus.
-• Get 2 stacks of {spell:306272} from the |cFFFFFD00[A Few Bumps Along the Way]|r world quest to the west.
-• Eat 4x {spell:327367} in Glutharn's Decay.
-• Quickly hearth, drink both potions and pull on the sword.
+• 从雷文德斯的 {npc:171808} 买个 {item:182163}。
+• 从玛卓克萨斯的 {npc:166640} 买个 {item:180771}。
+• 从 |cFFFFFD00[一路磕磕绊绊]|r 世界任务西侧得到2层 {spell:306272}。
+• 在格拉萨恩之腐吃4层 {spell:327367}。
+• 迅速炉石，喝下2种药水并拉出大宝剑。
 ]]
 
-L["pet_cat"] = "Pet the damn cat!"
-L["hairball"] = ns.color.Red("Only appears in the 腐烂圣所 inside the 凋魂之殇 dungeon!")
-L["lime"] = "Sitting on top of the large bone arch."
-L["moldstopheles"] = "Run around the back of the stalk and jump up the mushroom platforms. For the final platform, use a mount and jump at the corner where it meets the stalk."
-L["pus_in_boots"] = "Located under the bridge."
+L["pet_cat"] = "宠爱该死的猫！"
+L["hairball"] = ns.color.Red("只在凋魂之殇地下城内的腐烂圣所出现！")
+L["lime"] = "坐在大骨头拱顶上。"
+L["moldstopheles"] = "绕到茎秆后面并跳上蘑菇平台。到达最后的平台，使用坐骑并在茎秆上跳来跳去到达。"
+L["pus_in_boots"] = "在桥的下面。"
 
-L["options_icons_slime_cat"] = "Kittens"
-L["options_icons_slime_cat_desc"] = "Display locations of kittens for the 亡命九条 achievement."
+L["options_icons_slime_cat"] = "猫咪"
+L["options_icons_slime_cat_desc"] = "显示成就亡命九条的猫咪位置。"
 
-L["exoramas"] = "Exoramas, House of Rituals"
-L["nurakkir"] = "Nurakkir, House of Eyes"
-L["overlook_primus"] = "Overlook, Seat of the Primus"
-L["zerekriss"] = "Zerekriss, Maldraxxus"
-L["zerekriss_note"] = "Once activated, the necropolis will fly around the zone. Grab hold of {npc:165822} to glide down to the surface."
+L["exoramas"] = "埃索拉玛斯，祭仪密院"
+L["nurakkir"] = "努拉基尔，锐眼密院"
+L["overlook_primus"] = "瞭望台，兵主之座"
+L["zerekriss"] = "泽雷克利斯，玛卓克萨斯"
+L["zerekriss_note"] = "激活后，浮空城将在该区域飞行。抓住 {npc:165822} 滑落到地面。"
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
