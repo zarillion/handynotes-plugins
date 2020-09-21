@@ -40,7 +40,7 @@ local GetCriteriaInfo = function (id, criteria)
     return unpack(results)
 end
 
-function Achievement:init ()
+function Achievement:Initialize ()
     -- we allow a single number, table of numbers or table of
     -- objects: {id=<number>, note=<string>}
     if type(self.criteria) == 'number' then
@@ -106,7 +106,7 @@ end
 
 local Item = Class('Item', Reward)
 
-function Item:init ()
+function Item:Initialize ()
     if not self.item then
         error('Item() reward requires an item id to be set')
     end
@@ -177,9 +177,9 @@ end
 
 local Pet = Class('Pet', Item)
 
-function Pet:init ()
+function Pet:Initialize ()
     if self.item then
-        Item.init(self)
+        Item.Initialize(self)
     else
         local name, icon = C_PetJournal.GetPetInfoBySpeciesID(self.id)
         self.itemIcon = icon
@@ -210,7 +210,7 @@ end
 
 local Quest = Class('Quest', Reward)
 
-function Quest:init ()
+function Quest:Initialize ()
     if type(self.id) == 'number' then
         self.id = {self.id}
     end

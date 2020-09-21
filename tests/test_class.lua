@@ -31,10 +31,10 @@ function TestClass:testConstructor ()
 end
 
 function TestClass:testDefaultInitMethod ()
-    -- Verify all base classes are given a default noop init() method
+    -- Verify all base classes are given a default noop Initialize() method
     local Node = Class('Node')
-    luaunit.assertIsFunction(Node.init)
-    luaunit.assertIsNil(Node.init())
+    luaunit.assertIsFunction(Node.Initialize)
+    luaunit.assertIsNil(Node.Initialize())
 end
 
 function TestClass:testAttributeAssignment ()
@@ -82,10 +82,10 @@ function TestClass:testInstantiationWithAttributes ()
 end
 
 function TestClass:testInitMethod ()
-    -- Verify class init() method is called upon instantiation
+    -- Verify class Initialize() method is called upon instantiation
     local Node = Class('Node', nil, { scale = 1 })
 
-    function Node:init ()
+    function Node:Initialize ()
         self.icon = 'default'
         self.scale = self.scale + 1
     end
@@ -191,12 +191,12 @@ end
 TestInheritance = {}
 
 function TestInheritance:testInitOverride ()
-    -- Verify subclasses can override the init() method
+    -- Verify subclasses can override the Initialize() method
     local Node = Class('Node')
     local Rare = Class('Rare', Node)
 
-    function Node:init () self.scale = 1 end
-    function Rare:init () self.icon = 'skull' end
+    function Node:Initialize () self.scale = 1 end
+    function Rare:Initialize () self.icon = 'skull' end
 
     local node = Node()
     local rare = Rare()

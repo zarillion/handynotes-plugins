@@ -39,8 +39,8 @@ local MawIntro = Class('MawIntro', ns.node.Intro, {
     note=L["maw_intro_note"]
 })
 
-function MawIntro:init ()
-    Node.init(self)
+function MawIntro:Initialize ()
+    Node.Initialize(self)
     C_QuestLine.GetQuestLineInfo(60134, 1543) -- fetch info
 end
 

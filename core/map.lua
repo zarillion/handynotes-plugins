@@ -27,7 +27,7 @@ local Map = Class('Map', nil, {
     phased = true
 })
 
-function Map:init ()
+function Map:Initialize ()
     self.nodes = {}
     self.groups = {}
     self.settings = self.settings ~= false

@@ -60,8 +60,8 @@ ns.Class = function (name, parent, attrs)
                 end
             end
 
-            -- call init() method for instance
-            Class.init(instance)
+            -- call Initialize() method for instance
+            Class.Initialize(instance)
 
             return instance
         end,
@@ -78,9 +78,9 @@ ns.Class = function (name, parent, attrs)
         -- Set parent class and allow parent class setters to be used
         Class.__parent = parent
         setmetatable(Class.setters, { __index = parent.setters })
-    elseif not Class.init then
-        -- Add default init() method for base class
-        Class.init = function (self) end
+    elseif not Class.Initialize then
+        -- Add default Initialize() method for base class
+        Class.Initialize = function (self) end
     end
 
     return Class
