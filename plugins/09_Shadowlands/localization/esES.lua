@@ -369,7 +369,7 @@ L["options_icons_carriages_desc"] = "Muestra las localizaciones posibles y camin
 
 L["dominance_keep"] = "Guarida de la Dominancia"--Revisar que Dominance Keep sea Guarida de la Dominancia
 L["eternal_terrace"] = "El Bancal Eterno"--Revisar que The Eternal Terrace sea El Bancal Eterno
-L["feeders_thicket"] = "Arboleda de Feeder"--Revisar que Feeder's Thicket sea Arboleda de Feeder
+L["feeders_thicket"] = "Arboleda de Feeder"--Revisar que Feeders' Thicket sea Arboleda de Feeder
 L["halls_of_atonement"] = "Salones de Expiación"--Revisar que Halls of Atonement sea Salones de Expiación
 L["pridefall_hamlet"] = "Aldea de la Caída del Orgullo"--Revisar que Pridefall Hamlet sea Aldea de la Caída del Orgullo
 L["the_banewood"] = "The Banewood"--Revisar como puede ser
