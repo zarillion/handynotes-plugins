@@ -250,9 +250,9 @@ map.nodes[37676591] = Rare({
 -------------------------------------------------------------------------------
 
 local BonusBoss = Class('BonusBoss', NPC, {
-    group='bonus_boss',
-    icon='peg_red',
-    scale=1.8
+    icon = 'peg_red',
+    scale = 1.8,
+    group = ns.groups.BONUS_BOSS
 })
 
 map.nodes[23004160] = BonusBoss({
@@ -425,10 +425,10 @@ map.nodes[40705959] = BonusBoss({
 -------------------------------------------------------------------------------
 
 local BonusEvent = Class('BonusEvent', ns.node.Quest, {
-    group='bonus_event',
-    icon='peg_yellow',
-    scale=1.8,
-    note=''
+    icon = 'peg_yellow',
+    scale = 1.8,
+    group = ns.groups.BONUS_EVENT,
+    note = ''
 })
 
 local SOUL_WELL = BonusEvent({ quest=59007, note=L["soul_well_note"] })
@@ -443,10 +443,10 @@ map.nodes[27446463] = BonusEvent({ quest=59784, note=L["obliterated_soul_shards_
 -------------------------------------------------------------------------------
 
 local Riftstone = Class('Riftstone', ns.node.NPC, {
-    id=174962,
-    note=L["chaotic_riftstone_note"],
-    group='riftstone',
-    scale=1.3
+    id = 174962,
+    scale = 1.3,
+    group = ns.groups.RIFTSTONE,
+    note = L["chaotic_riftstone_note"]
 })
 
 -------------------------------------------------------------------------------

@@ -5,6 +5,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
+local Group = ns.Group
 local isinstance = ns.isinstance
 
 -------------------------------------------------------------------------------
@@ -17,7 +18,7 @@ Base class for all displayed nodes.
 
     label (string): Tooltip title for this node
     sublabel (string): Oneline string to display under label
-    group (string): Options group for this node (display, scale, alpha)
+    group (Group): Options group for this node (display, scale, alpha)
     icon (string|table): The icon texture to display
     alpha (float): The default alpha value for this type
     scale (float): The default scale value for this type
@@ -38,7 +39,7 @@ Node.minimap = true
 Node.alpha = 1
 Node.scale = 1
 Node.icon = "default"
-Node.group = "other"
+Node.group = ns.groups.OTHER
 
 function Node:init ()
     -- normalize quest ids as tables instead of single values
@@ -46,9 +47,13 @@ function Node:init ()
         if type(self[key]) == 'number' then self[key] = {self[key]} end
     end
 
-    if self.minimap == nil then
-        self.minimap = true
+    -- materialize group if given as a name
+    if not ns.isinstance(self.group, Group) then
+        error('group attribute must be a Group class instance: '..self.group)
     end
+
+    -- display nodes on minimap by default
+    self.minimap = self.minimap ~= false
 end
 
 --[[
@@ -66,12 +71,8 @@ for this node.
 --]]
 
 function Node:display (map)
-    local profile = ns.addon.db.profile
-    local mapid = map.parents[self.group] or map.id
-    local s_opt = 'icon_scale_'..self.group
-    local a_opt = 'icon_alpha_'..self.group
-    local scale = self.scale * (profile[s_opt..'_'..mapid] or profile[s_opt] or 1)
-    local alpha = self.alpha * (profile[a_opt..'_'..mapid] or profile[a_opt] or 1)
+    local scale = self.scale * self.group:GetScale()
+    local alpha = self.alpha * self.group:GetAlpha()
     return self.icon, scale, alpha
 end
 
@@ -267,11 +268,11 @@ end
 ------------------------------------ CAVE -------------------------------------
 -------------------------------------------------------------------------------
 
-local Cave = Class('Cave', Node)
-
-Cave.icon = "door_down"
-Cave.scale = 1.2
-Cave.group = "caves"
+local Cave = Class('Cave', Node, {
+    icon = 'door_down',
+    scale = 1.2,
+    group = ns.groups.CAVE
+})
 
 function Cave:init ()
     Node.init(self)
@@ -305,9 +306,9 @@ end
 -------------------------------------------------------------------------------
 
 local Intro = Class('Intro', Node, {
-    group = 'intro',
     icon = 'quest_yellow',
-    scale = 3
+    scale = 3,
+    group = ns.groups.INTRO,
 })
 
 -------------------------------------------------------------------------------
@@ -329,17 +330,20 @@ end
 ---------------------------------- PETBATTLE ----------------------------------
 -------------------------------------------------------------------------------
 
-local PetBattle = Class('PetBattle', NPC)
-
-PetBattle.icon = "paw_yellow"
-PetBattle.scale = 1.2
-PetBattle.group = "pet_battles"
+local PetBattle = Class('PetBattle', NPC, {
+    icon = 'paw_yellow',
+    scale = 1.2,
+    group = ns.groups.PETBATTLE
+})
 
 -------------------------------------------------------------------------------
 ------------------------------------ QUEST ------------------------------------
 -------------------------------------------------------------------------------
 
-local Quest = Class('Quest', Node, { note=AVAILABLE_QUEST })
+local Quest = Class('Quest', Node, {
+    note = AVAILABLE_QUEST,
+    group = ns.groups.QUEST
+})
 
 local QUEST_IDS = {}
 
@@ -350,10 +354,6 @@ function Quest:init ()
     for i, id in ipairs(self.quest) do
         QUEST_IDS[id] = true
     end
-end
-
-function Quest.getters:group ()
-    return self.daily and 'daily_quests' or 'quests'
 end
 
 function Quest.getters:icon ()
@@ -376,8 +376,8 @@ end)
 -------------------------------------------------------------------------------
 
 local Rare = Class('Rare', NPC, {
-    group='rares',
-    scale=1.2
+    scale = 1.2,
+    group = ns.groups.RARE
 })
 
 function Rare.getters:icon ()
@@ -410,7 +410,7 @@ end
 local Treasure = Class('Treasure', Node, {
     icon = 'chest_gray',
     scale = 1.3,
-    group = 'treasures'
+    group = ns.groups.TREASURE
 })
 
 function Treasure.getters:label ()
@@ -442,8 +442,8 @@ end
 
 local Supply = Class('Supply', Treasure, {
     icon = 'star_chest',
-    group = 'supplies',
-    scale = 2
+    scale = 2,
+    group = ns.groups.SUPPLY
 })
 
 -------------------------------------------------------------------------------

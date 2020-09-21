@@ -292,7 +292,7 @@ nodes[coord(5, 0)] = NefRare({id=157469, quest=57435}) -- Zoth'rum the Intellect
 
 local AQRChest = Class('AQRChest', Treasure, {
     assault=AQR,
-    group='daily_chests',
+    group=ns.groups.DAILY_CHESTS,
     label=L["infested_cache"]
 })
 
@@ -355,7 +355,7 @@ nodes[45561320] = AQRTR5
 nodes[36252324] = Supply({
     quest=58137,
     assault=AQR,
-    group='coffers',
+    group=ns.groups.COFFERS,
     label=L["infested_strongbox"],
     note=L["chamber_of_the_moon"]
 })
@@ -364,7 +364,7 @@ nodes[36252324] = Supply({
 
 local EMPChest = Class('EMPChest', Treasure, {
     assault=EMP,
-    group='daily_chests',
+    group=ns.groups.DAILY_CHESTS,
     label=L["black_empire_cache"]
 })
 
@@ -430,7 +430,7 @@ nodes[55658346] = EMPTR6
 local EMPCOFF = Supply({
     quest=57628,
     assault=EMP,
-    group='coffers',
+    group=ns.groups.COFFERS,
     sublabel=L["cursed_relic"],
     label=L["black_empire_coffer"]
 })
@@ -441,7 +441,7 @@ nodes[71657334] = EMPCOFF
 
 local AMAChest = Class('AMAChest', Treasure, {
     assault=AMA,
-    group='daily_chests',
+    group=ns.groups.DAILY_CHESTS,
     label=L["amathet_cache"]
 })
 
@@ -520,7 +520,7 @@ nodes[68933234] = AMATR6
 local AMACOFF = Supply({
     quest=55692,
     assault=AMA,
-    group='coffers',
+    group=ns.groups.COFFERS,
     label=L["amathet_reliquary"],
     sublabel=L["tolvir_relic"]
 })
@@ -640,7 +640,7 @@ local Alpaca = Class('Alpaca', NPC, {
     id=162765,
     icon=2916287,
     quest=58879,
-    group='alpaca_uldum',
+    group=ns.groups.ALPACA_ULDUM,
     note=L["friendly_alpaca"],
     pois={POI({
         15006200, 24000900, 27004800, 30002900, 39000800, 41007000, 47004800,
@@ -651,7 +651,7 @@ local Alpaca = Class('Alpaca', NPC, {
 
 local Gersahl = Class('Gersahl', Node, {
     icon=134190,
-    group='alpaca_uldum',
+    group=ns.groups.ALPACA_ULDUM,
     label=L["gersahl"],
     note=L["gersahl_note"],
     pois={POI({

@@ -18,19 +18,19 @@ local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 
-local Buff = Class('Buff', Node, { group='visions_buffs' })
+local Buff = Class('Buff', Node, { group=ns.groups.VISIONS_BUFFS })
 
 local Crystal = Class('Crystal', Node, {
     icon='orange_crystal',
     scale=1.5,
-    group='visions_crystals',
+    group=ns.groups.VISIONS_CRYSTALS,
     label=L["odd_crystal"]
 })
 
 local MAIL = Node({
     icon='envelope',
     scale=1.2,
-    group='visions_mail',
+    group=ns.groups.VISIONS_MAIL,
     label=L["mailbox"],
     note=L["mail_muncher"],
     rewards={
@@ -38,7 +38,7 @@ local MAIL = Node({
     }
 })
 
-local CHEST = Treasure({group='visions_chest', label=L["black_empire_cache"]})
+local CHEST = Treasure({group=ns.groups.VISIONS_CHEST, label=L["black_empire_cache"]})
 local CHEST1 = clone(CHEST, {sublabel=string.format(L["clear_sight"], 1)})
 local CHEST2 = clone(CHEST, {sublabel=string.format(L["clear_sight"], 2)})
 local CHEST3 = clone(CHEST, {sublabel=string.format(L["clear_sight"], 3)})
@@ -147,11 +147,11 @@ orgrimmar.nodes[57676513] = Buff({icon=1717106, label=L["ethereal_essence"],
 
 -------------------------------------------------------------------------------
 
-orgrimmar.nodes[54027044] = NPC({id=162358, icon=2823166, group='visions_misc', note=L["ethereal_note"]})
-orgrimmar.nodes[46828078] = Node({icon=967522, group='visions_misc', label=L["colored_potion"],
+orgrimmar.nodes[54027044] = NPC({id=162358, icon=2823166, group=ns.groups.VISIONS_MISC, note=L["ethereal_note"]})
+orgrimmar.nodes[46828078] = Node({icon=967522, group=ns.groups.VISIONS_MISC, label=L["colored_potion"],
     note=string.format(L["colored_potion_note"], L["yelmak"])})
 
-local SHAVE_KIT = Node({icon=1001616, group='visions_misc', label=L["shave_kit"], note=L["shave_kit_note"], rewards={
+local SHAVE_KIT = Node({icon=1001616, group=ns.groups.VISIONS_MISC, label=L["shave_kit"], note=L["shave_kit_note"], rewards={
     Toy({item=174920}) -- Coifcurl's Close Shave Kit
 }})
 
@@ -249,11 +249,11 @@ stormwind.nodes[63107740] = Buff({icon=133784, label=L["enriched"],
 
 -------------------------------------------------------------------------------
 
-stormwind.nodes[57204620] = NPC({id=162358, icon=2823166, group='visions_misc', note=L["ethereal_note"]})
-stormwind.nodes[51765852] = Node({icon=967522, group='visions_misc', label=L["colored_potion"],
+stormwind.nodes[57204620] = NPC({id=162358, icon=2823166, group=ns.groups.VISIONS_MISC, note=L["ethereal_note"]})
+stormwind.nodes[51765852] = Node({icon=967522, group=ns.groups.VISIONS_MISC, label=L["colored_potion"],
     note=string.format(L["colored_potion_note"], L["morgan_pestle"])})
 
-local VOID_SKULL = Node({icon=237272, group='visions_misc', label=L["void_skull"], note=L["void_skull_note"], rewards={
+local VOID_SKULL = Node({icon=237272, group=ns.groups.VISIONS_MISC, label=L["void_skull"], note=L["void_skull_note"], rewards={
     Toy({item=174921}) -- Void-Touched Skull
 }})
 
@@ -263,7 +263,7 @@ end
 
 stormwind.nodes[58905290] = VOID_SKULL
 
-stormwind.nodes[59106390] = Rare({id=158284, group='visions_misc', note=L["craggle"], pois={
+stormwind.nodes[59106390] = Rare({id=158284, group=ns.groups.VISIONS_MISC, note=L["craggle"], pois={
     Path({
         58707630, 57507290, 56406950, 56706670, 59106390, 62306130, 64706190,
         67006490, 68406710

@@ -8,6 +8,7 @@
   <Script file="options.lua"/>
   <Script file="dev.lua"/>
   <Script file="map.lua"/>
+  <Script file="groups.lua"/>
   <Script file="nodes.lua"/>
   <Script file="rewards.lua"/>
   <Script file="templates.lua"/>

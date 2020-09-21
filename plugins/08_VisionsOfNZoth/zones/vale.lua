@@ -196,7 +196,7 @@ nodes[70954053] = Rare({id=154087, quest=56084, assault=EMP}) -- Zror'um the Inf
 
 local MANChest = Class('MANChest', Treasure, {
     assault=MAN,
-    group='daily_chests',
+    group=ns.groups.DAILY_CHESTS,
     label=L["ambered_cache"]
 })
 
@@ -254,7 +254,7 @@ nodes[21636992] = MANTR5
 nodes[21586246] = Supply({
     quest=58770,
     assault=MAN,
-    group='coffers',
+    group=ns.groups.COFFERS,
     label=L["ambered_coffer"],
     sublabel=L["mantid_relic"]
 })
@@ -263,7 +263,7 @@ nodes[21586246] = Supply({
 
 local MOGChest = Class('MOGChest', Treasure, {
     assault=MOG,
-    group='daily_chests',
+    group=ns.groups.DAILY_CHESTS,
     label=L["mogu_plunder"]
 })
 
@@ -325,7 +325,7 @@ nodes[38417028] = MOGTR6
 local MOGCOFF = Supply({
     quest=57214,
     assault=MOG,
-    group='coffers',
+    group=ns.groups.COFFERS,
     label=L["mogu_strongbox"],
     sublabel=L["mogu_relic"]
 })
@@ -340,7 +340,7 @@ nodes[50182143] = MOGCOFF
 
 local EMPChest = Class('EMPChest', Treasure, {
     assault=EMP,
-    group='daily_chests',
+    group=ns.groups.DAILY_CHESTS,
     label=L["black_empire_cache"]
 })
 
@@ -411,7 +411,7 @@ nodes[52266732] = EMPTR6
 local EMPCOFF = Supply({
     quest=57628,
     assault=EMP,
-    group='coffers',
+    group=ns.groups.COFFERS,
     label=L["black_empire_coffer"],
     sublabel=L["cursed_relic"]
 })
@@ -425,13 +425,7 @@ nodes[76626437] = EMPCOFF
 
 -------------------------------------------------------------------------------
 
-local pmap = Map({
-    id=1579,
-    parents={
-        coffers=1530,
-        daily_chests=1530
-    }
-})
+local pmap = Map({ id=1579 })
 
 function pmap:prepare ()
     map.prepare(self)

@@ -3,7 +3,10 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
+local Class = ns.Class
+local Group = ns.Group
 local L = ns.locale
+local Map = ns.Map
 
 -------------------------------------------------------------------------------
 ---------------------------------- CALLBACKS ----------------------------------
@@ -46,13 +49,61 @@ local function ProcessCovenant (node)
 end
 
 -------------------------------------------------------------------------------
+----------------------------------- GROUPS ------------------------------------
+-------------------------------------------------------------------------------
+
+local SLGroup = Class('ShadowlandsGroup', Group)
+
+function SLGroup:IsEnabled()
+    if self.covenant then
+        return C_Covenants.GetActiveCovenantID() == self.covenant.id
+    end
+    return true
+end
+
+ns.Group = SLGroup
+
+-------------------------------------------------------------------------------
+
+ns.groups.ANIMA_SHARD = SLGroup({name='anima_shard', defaults=ns.GROUP_HIDDEN})
+ns.groups.BONUS_BOSS = SLGroup({name='bonus_boss'})
+ns.groups.BONUS_EVENT = SLGroup({name='bonus_event'})
+ns.groups.CARRIAGE = SLGroup({name='carriages'})
+ns.groups.RIFTSTONE = SLGroup({name='riftstone'})
+ns.groups.SLIME_CAT = SLGroup({name='slime_cat'})
+
+ns.groups.FAE_NETWORK = SLGroup({
+    name='fae_network',
+    covenant=ns.covenants.FAE,
+    defaults=ns.GROUP_HIDDEN
+})
+
+ns.groups.KYR_NETWORK = SLGroup({
+    name='kyr_network',
+    covenant=ns.covenants.KYR,
+    defaults=ns.GROUP_HIDDEN
+})
+
+ns.groups.NEC_NETWORK = SLGroup({
+    name='nec_network',
+    covenant=ns.covenants.NEC,
+    defaults=ns.GROUP_HIDDEN
+})
+
+ns.groups.VEN_NETWORK = SLGroup({
+    name='ven_network',
+    covenant=ns.covenants.VEN,
+    defaults=ns.GROUP_HIDDEN
+})
+
+
+-------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------
 -------------------------------------------------------------------------------
 
-local Map = ns.Map
-local ShadowlandsMap = ns.Class('ShadowlandsMap', Map)
+local SLMap = Class('ShadowlandsMap', Map)
 
-function ShadowlandsMap:prepare ()
+function SLMap:prepare ()
     Map.prepare(self)
     for coord, node in pairs(self.nodes) do
         -- Update rlabel and sublabel for covenant-restricted nodes
@@ -60,4 +111,4 @@ function ShadowlandsMap:prepare ()
     end
 end
 
-ns.Map = ShadowlandsMap
+ns.Map = SLMap

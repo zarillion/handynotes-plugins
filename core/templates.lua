@@ -68,8 +68,8 @@ function WorldMapOptionsButtonMixin:OnEnter()
 end
 
 function WorldMapOptionsButtonMixin:Refresh()
-    local mapID = self:GetParent():GetMapID()
-    if mapID and ns.maps[mapID] then self:Show() else self:Hide() end
+    local map = ns.maps[self:GetParent():GetMapID() or 0]
+    if map and map:HasEnabledGroups() then self:Show() else self:Hide() end
 end
 
 function WorldMapOptionsButtonMixin:InitializeDropDown(level)
@@ -84,16 +84,15 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         local profile = ns.addon.db.profile
 
         for i, group in ipairs(map.groups) do
-            if map:IsGroupEnabled(group) then
-                local mapID = map.parents[group] or map.id
+            if group:IsEnabled() then
                 UIDropDownMenu_AddButton({
-                    text = L["options_icons_"..group],
+                    text = L["options_icons_"..group.name],
                     isNotRadio = true,
                     keepShownOnClick = true,
                     hasArrow = true,
                     value = group,
-                    checked = profile['icon_display_'..group..'_'..mapID],
-                    arg1 = 'icon_display_'..group..'_'..mapID,
+                    checked = group:GetDisplay(),
+                    arg1 = group.displayArg,
                     func = function (button, option)
                         profile[option] = button.checked
                         ns.addon:Refresh()
@@ -114,35 +113,24 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             end
         })
     elseif level == 2 then
-        local defaults = ns.optionDefaults.profile
-        local profile = ns.addon.db.profile
-
         -- Get correct map ID to query/set options for
         local group = UIDROPDOWNMENU_MENU_VALUE
-        local map = ns.maps[self:GetParent():GetMapID()]
-        local mapID = map.parents[group] or map.id
-
-        -- Check for global alpha/scale options before using map ones
-        local alphaArg = 'icon_alpha_'..group
-        local scaleArg = 'icon_scale_'..group
-        if not defaults[alphaArg] then alphaArg = alphaArg..'_'..mapID end
-        if not defaults[scaleArg] then scaleArg = scaleArg..'_'..mapID end
 
         UIDropDownMenu_AddSlider({
             text = L["options_opacity"],
             min = 0, max = 1, step=0.01,
-            value = profile[alphaArg] or 1,
+            value = group:GetAlpha(),
             frame = self.AlphaOption,
             percentage = true,
-            func = function (v) profile[alphaArg] = v; ns.addon:Refresh() end
+            func = function (v) group:SetAlpha(v); ns.addon:Refresh() end
         }, 2)
 
         UIDropDownMenu_AddSlider({
             text = L["options_scale"],
             min = 0.3, max = 3, step=0.05,
-            value = profile[scaleArg] or 1,
+            value = group:GetScale(),
             frame = self.ScaleOption,
-            func = function (v) profile[scaleArg] = v; ns.addon:Refresh() end
+            func = function (v) group:SetScale(v); ns.addon:Refresh() end
         }, 2)
     end
 end

@@ -140,6 +140,9 @@ function Addon:OnInitialize()
         self:ScheduleTimer("RegisterWithHandyNotes", 1)
     end)
 
+    -- Add global groups to settings panel
+    ns.CreateGlobalGroupOptions()
+
     -- Add quick-toggle menu button to top-right corner of world map
     WorldMapFrame:AddOverlayFrame(
         ADDON_NAME.."WorldMapOptionsButtonTemplate",

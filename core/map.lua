@@ -16,7 +16,7 @@ Base class for all maps.
     id (integer): MapID value for this map
     intro (Node): An intro node to display when phased
     phased (boolean): If false, hide all nodes except the intro node.
-    options (table): Group default options (toggle, scale, alpha)
+    settings (boolean): Create a settings panel for this map (default: true).
 
 --]]
 
@@ -30,9 +30,7 @@ local Map = Class('Map', nil, {
 function Map:init ()
     self.nodes = {}
     self.groups = {}
-
-    if not self.options then self.options = {} end
-    if not self.parents then self.parents = {} end
+    self.settings = self.settings ~= false
 
     setmetatable(self.nodes, {
         __newindex = function (nodes, coord, node)
@@ -50,17 +48,15 @@ function Map:add(coord, node)
         error('All nodes must be instances of the Node() class:', coord, node)
     end
 
-    if node.group ~= 'intro' then
+    if node.group.name ~= 'intro' then
         -- Initialize group defaults and UI controls for this map if the group does
         -- not inherit its settings and defaults from a parent map
-        if not self.parents[node.group] then
-            ns.InitializeGroup(self, node.group)
-        end
+        if self.settings then ns.CreateGroupOptions(self, node.group) end
 
         -- Keep track of all groups associated with this map
-        if not self.groups[node.group] then
+        if not self.groups[node.group.name] then
             self.groups[#self.groups + 1] = node.group
-            self.groups[node.group] = true
+            self.groups[node.group.name] = true
         end
     end
 
@@ -96,21 +92,20 @@ function Map:enabled (node, coord, minimap)
     if node == self.intro then return not node:completed() end
 
     -- Check if node's group is disabled
-    if not self:IsGroupEnabled(node.group) then return false end
+    if not node.group:IsEnabled() then return false end
 
     -- Check for prerequisites and quest (or custom) completion
     if not node:enabled() then return false end
 
     -- Display the node based off the group display setting
-    local mapid = self.parents[node.group] or self.id
-    return profile['icon_display_'..node.group..'_'..mapid]
+    return node.group:GetDisplay()
 end
 
-function Map:IsGroupEnabled (group)
-    if self.options[group] and self.options[group].enabled then
-        return self.options[group].enabled()
+function Map:HasEnabledGroups()
+    for i, group in ipairs(self.groups) do
+        if group:IsEnabled() then return true end
     end
-    return true
+    return false
 end
 
 -------------------------------------------------------------------------------
