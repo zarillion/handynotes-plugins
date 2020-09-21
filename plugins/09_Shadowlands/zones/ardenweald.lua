@@ -142,7 +142,7 @@ map.nodes[62102470] = Rare({
 
 local RainbowGlow = Class('RainbowGlow', ns.poi.Glow)
 
-function RainbowGlow:draw(pin, xy)
+function RainbowGlow:Draw(pin, xy)
     local r, g, b, diff = 10, 0, 0, 1
     pin.ticker = C_Timer.NewTicker(0.05, function ()
         if r == 0 and g > b then b = b + diff
@@ -155,7 +155,7 @@ function RainbowGlow:draw(pin, xy)
         pin.texture:SetVertexColor(r/10, g/10, b/10, 1)
     end)
     self.r, self.g, self.b = 1, 0, 0
-    return ns.poi.Glow.draw(self, pin, xy)
+    return ns.poi.Glow.Draw(self, pin, xy)
 end
 
 map.nodes[50092091] = Rare({

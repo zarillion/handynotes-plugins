@@ -36,24 +36,24 @@ local nodes = map.nodes
 local function GetAssault()
     local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
     if textures and textures[1].fileDataIDs[1] == 3155826 then
-        ns.debugMap('Vale assault: MAN')
+        ns.DebugMap('Vale assault: MAN')
         return MAN -- left
     elseif textures and textures[1].fileDataIDs[1] == 3155832 then
-        ns.debugMap('Vale assault: MOG')
+        ns.DebugMap('Vale assault: MOG')
         return MOG -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3155841 then
-        ns.debugMap('Vale assault: EMP')
+        ns.DebugMap('Vale assault: EMP')
         return EMP -- right
     end
 end
 
-function map:Prepare ()
+function map:Prepare()
     Map.Prepare(self)
     self.assault = GetAssault()
     self.phased = self.assault ~= nil
 end
 
-function map:enabled (node, coord, minimap)
+function map:IsNodeEnabled(node, coord, minimap)
     local assault = node.assault
     if assault then
         assault = type(assault) == 'number' and {assault} or assault
@@ -63,7 +63,7 @@ function map:enabled (node, coord, minimap)
         end
     end
 
-    return Map.enabled(self, node, coord, minimap)
+    return Map.IsNodeEnabled(self, node, coord, minimap)
 end
 
 -------------------------------------------------------------------------------
@@ -74,11 +74,11 @@ local Intro = Class('Intro', ns.node.Intro)
 
 Intro.note = L["vale_intro_note"]
 
-function Intro:completed ()
+function Intro:IsCompleted()
     return map.assault ~= nil
 end
 
-function Intro.getters:label ()
+function Intro.getters:label()
     return select(2, GetAchievementInfo(14154)) -- Defend the Vale
 end
 
@@ -101,7 +101,7 @@ nodes[26005200] = map.intro
 
 ns.addon:RegisterEvent('QUEST_ACCEPTED', function (_, _, id)
     if id == 56540 then
-        ns.debug('Vale assaults unlock detected')
+        ns.Debug('Vale assaults unlock detected')
         C_Timer.After(1, function()
             ns.addon:Refresh()
         end)

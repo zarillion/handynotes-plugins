@@ -26,14 +26,14 @@ end
 
 local POI = Class('POI')
 
-function POI:render (map, template)
+function POI:Render(map, template)
     -- draw a circle at every coord
     for i=1, #self, 1 do
         map:AcquirePin(template, self, self[i])
     end
 end
 
-function POI:draw (pin, xy)
+function POI:Draw(pin, xy)
     local t = ResetPin(pin)
     local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
     t:SetVertexColor(0, 0.5, 1, 1)
@@ -48,7 +48,7 @@ end
 
 local Glow = Class('Glow', POI)
 
-function Glow:draw (pin, xy)
+function Glow:Draw(pin, xy)
     local t = ResetPin(pin)
 
     local hn_alpha, hn_scale
@@ -84,7 +84,7 @@ end
 
 local Path = Class('Path', POI)
 
-function Path:render (map, template)
+function Path:Render(map, template)
     -- draw a circle at every coord and a line between them
     for i=1, #self, 1 do
         map:AcquirePin(template, self, 'circle', self[i])
@@ -94,7 +94,7 @@ function Path:render (map, template)
     end
 end
 
-function Path:draw (pin, type, xy1, xy2)
+function Path:Draw(pin, type, xy1, xy2)
     local t = ResetPin(pin)
     t:SetVertexColor(0, 0.5, 1, 1)
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\"..type)

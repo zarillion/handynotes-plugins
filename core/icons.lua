@@ -128,7 +128,7 @@ ns.glows = {
     shootbox = { icon=ICONSW, coords=coords(0, 1, 48, 160) },
 }
 
-local function InitIcon (icon, width, height)
+local function InitIcon(icon, width, height)
     if type(icon) == 'table' then
         icon.tCoordLeft = icon.coords[1]/width
         icon.tCoordRight = icon.coords[2]/width

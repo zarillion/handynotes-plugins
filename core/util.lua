@@ -38,7 +38,7 @@ function NameResolver:Resolve (link)
 
     -- all npcs must be prepared ahead of time to avoid breaking the resolver
     if not self.prepared[link] then
-        ns.debug('ERROR: npc link not prepared:', link)
+        ns.Debug('ERROR: npc link not prepared:', link)
     end
 
     local name = self.cache[link]
@@ -46,7 +46,7 @@ function NameResolver:Resolve (link)
         self.resolver:SetHyperlink(link)
         name = _G[self.resolver:GetName().."TextLeft1"]:GetText() or UNKNOWN
         if name == UNKNOWN then
-            ns.debug('NameResolver returned UNKNOWN, recreating tooltip ...')
+            ns.Debug('NameResolver returned UNKNOWN, recreating tooltip ...')
             self.resolver = CreateDatamineTooltip(ADDON_NAME.."_NameResolver")
         else
             self.cache[link] = name
@@ -59,7 +59,7 @@ end
 -------------------------------- LINK RENDERER --------------------------------
 -------------------------------------------------------------------------------
 
-local function prepareLinks(str)
+local function PrepareLinks(str)
     if not str then return end
     for type, id in str:gmatch('{(%l+):(%d+)}') do
         id = tonumber(id)
@@ -74,7 +74,7 @@ local function prepareLinks(str)
     end
 end
 
-local function renderLinks(str, nameOnly)
+local function RenderLinks(str, nameOnly)
     return str:gsub('{(%l+):(%d+)}', function (type, id)
         id = tonumber(id)
         if type == 'npc' then
@@ -119,5 +119,5 @@ end
 -------------------------------------------------------------------------------
 
 ns.NameResolver = NameResolver
-ns.prepareLinks = prepareLinks
-ns.renderLinks = renderLinks
+ns.PrepareLinks = PrepareLinks
+ns.RenderLinks = RenderLinks

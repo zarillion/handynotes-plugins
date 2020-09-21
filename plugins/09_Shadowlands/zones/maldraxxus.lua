@@ -518,9 +518,9 @@ local Kitten = Class('Kitten', NPC, {
     group = ns.groups.SLIME_CAT
 })
 
-function Kitten:completed ()
+function Kitten:IsCompleted()
     -- Stop showing the node once the achievement criteria is completed
-    return self:collected()
+    return self:IsCollected()
 end
 
 map.nodes[65225065] = Kitten({id=174224, rewards={

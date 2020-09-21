@@ -86,7 +86,7 @@ local function BootstrapDevelopmentEnvironment()
                     -- ids to flip state, we do not want to report on those
                     for i, args in ipairs(changed) do
                         table.insert(history, 1, args)
-                        ns.debugQuest(unpack(args))
+                        ns.DebugQuest(unpack(args))
                     end
                 end
                 if #history > 100 then
@@ -98,7 +98,7 @@ local function BootstrapDevelopmentEnvironment()
                 wipe(changed)
             end
         end)
-        ns.debugQuest('Quest IDs are now being tracked')
+        ns.DebugQuest('Quest IDs are now being tracked')
     end)
 
     -- Listen for LCTRL + LALT when the map is open to force display nodes
@@ -152,21 +152,17 @@ end
 
 -------------------------------------------------------------------------------
 
-local function debug(...)
+function ns.Debug(...)
     if (ns.addon.db.profile.development) then print(...) end
 end
 
-local function debugMap(...)
+function ns.DebugMap(...)
     if (ns.addon.db.profile.show_debug_map) then print(...) end
 end
 
-local function debugQuest(...)
+function ns.DebugQuest(...)
     if (ns.addon.db.profile.show_debug_quest) then print(...) end
 end
-
-ns.debug = debug
-ns.debugMap = debugMap
-ns.debugQuest = debugQuest
 
 -------------------------------------------------------------------------------
 

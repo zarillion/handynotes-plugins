@@ -36,27 +36,27 @@ local AQR, EMP, AMA = 0, 1, 2 -- assaults
 local map = Map({ id=1527, phased=false })
 local nodes = map.nodes
 
-local function GetAssault ()
+local function GetAssault()
     local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
     if textures and textures[1].fileDataIDs[1] == 3165083 then
-        ns.debugMap('Uldum assault: AQR')
+        ns.DebugMap('Uldum assault: AQR')
         return AQR -- left
     elseif textures and textures[1].fileDataIDs[1] == 3165092 then
-        ns.debugMap('Uldum assault: EMP')
+        ns.DebugMap('Uldum assault: EMP')
         return EMP -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3165098 then
-        ns.debugMap('Uldum assault: AMA')
+        ns.DebugMap('Uldum assault: AMA')
         return AMA -- right
     end
 end
 
-function map:Prepare ()
+function map:Prepare()
     Map.Prepare(self)
     self.assault = GetAssault()
     self.phased = self.assault ~= nil
 end
 
-function map:enabled (node, coord, minimap)
+function map:IsNodeEnabled(node, coord, minimap)
     local assault = node.assault
     if assault then
         assault = type(assault) == 'number' and {assault} or assault
@@ -66,7 +66,7 @@ function map:enabled (node, coord, minimap)
         end
     end
 
-    return Map.enabled(self, node, coord, minimap)
+    return Map.IsNodeEnabled(self, node, coord, minimap)
 end
 
 -------------------------------------------------------------------------------
@@ -77,11 +77,11 @@ local Intro = Class('Intro', ns.node.Intro)
 
 Intro.note = L["uldum_intro_note"]
 
-function Intro:completed ()
+function Intro:IsCompleted()
     return map.assault ~= nil
 end
 
-function Intro.getters:label ()
+function Intro.getters:label()
     return select(2, GetAchievementInfo(14153)) -- Uldum Under Assault
 end
 
@@ -103,7 +103,7 @@ nodes[46004300] = map.intro
 ns.addon:RegisterEvent('QUEST_WATCH_UPDATE', function (_, index)
     local info = C_QuestLog.GetInfo(index)
     if info and info.questID == 56376 then
-        ns.debug('Uldum assaults unlock detected')
+        ns.Debug('Uldum assaults unlock detected')
         C_Timer.After(1, function()
             ns.addon:Refresh()
         end)
@@ -267,7 +267,7 @@ local NefRare = Class('NefersetRare', Rare, {
     pois={POI({50007868, 50568833, 55207930})}
 })
 
-function NefRare:prerequisite ()
+function NefRare:PrerequisiteCompleted()
     -- Show only if a Summoning Ritual event is active or completed
     for i, quest in ipairs({57359, 57620, 57621}) do
         if C_TaskQuest.GetQuestTimeLeftMinutes(quest) or C_QuestLog.IsQuestFlaggedCompleted(quest) then

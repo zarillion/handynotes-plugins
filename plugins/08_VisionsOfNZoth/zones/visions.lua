@@ -155,8 +155,8 @@ local SHAVE_KIT = Node({icon=1001616, group=ns.groups.VISIONS_MISC, label=L["sha
     Toy({item=174920}) -- Coifcurl's Close Shave Kit
 }})
 
-function SHAVE_KIT:completed ()
-    return self:collected()
+function SHAVE_KIT:IsCompleted()
+    return self:IsCollected()
 end
 
 orgrimmar.nodes[39906120] = SHAVE_KIT
@@ -257,8 +257,8 @@ local VOID_SKULL = Node({icon=237272, group=ns.groups.VISIONS_MISC, label=L["voi
     Toy({item=174921}) -- Void-Touched Skull
 }})
 
-function VOID_SKULL:completed ()
-    return self:collected()
+function VOID_SKULL:IsCompleted()
+    return self:IsCollected()
 end
 
 stormwind.nodes[58905290] = VOID_SKULL
