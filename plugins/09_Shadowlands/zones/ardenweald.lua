@@ -4,6 +4,7 @@
 
 local ADDON_NAME, ns = ...
 local Class = ns.Class
+local Map = ns.Map
 local L = ns.locale
 
 local PetBattle = ns.node.PetBattle
@@ -24,7 +25,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local NIGHTFAE = ns.covenants.FAE
-local map = ns.Map({ id=1565 })
+local map = Map({ id=1565 })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -543,9 +544,6 @@ function Mushroom.getters:label ()
     return GetSpellInfo(self.id)
 end
 
--- Traverse to the Ring 308437
--- Traverse to the Heart of the Forest 325602
-
 local R = L["transport_research"]
 
 map.nodes[29513463] = Mushroom({ id=308436, sublabel=R:format(1) }) -- Stalks
@@ -559,3 +557,33 @@ map.nodes[53277905] = Mushroom({ id=325618, sublabel=R:format(2) }) -- Gormhive
 map.nodes[20286695] = Mushroom({ id=325619, sublabel=R:format(3) }) -- Tirna Scithe
 map.nodes[41106952] = Mushroom({ id=325617, sublabel=R:format(3) }) -- Eventide Grove Shroom
 map.nodes[73682522] = Mushroom({ id=325607, sublabel=R:format(3) }) -- Crumbled Ridge
+
+-------------------------------------------------------------------------------
+
+local roots = Map({ id=1702 }) -- The Roots
+
+roots.nodes[55442673] = Mushroom({ id=308437, sublabel=R:format(1) }) -- The Ring
+roots.nodes[57516562] = Mushroom({ id=335702, sublabel=R:format(1) }) -- Queen's Conservatory
+
+Map({id=1825}).nodes[50437614] = Mushroom({ id=308437 }) -- The Unknown 1
+Map({id=1826}).nodes[50187317] = Mushroom({ id=308437 }) -- The Unknown 2
+Map({id=1827}).nodes[48247310] = Mushroom({ id=308437 }) -- The Unknown 3
+
+-------------------------------------------------------------------------------
+
+local ring = Map({ id=1819 }) -- The Ring
+
+ring.nodes[41273983] = Mushroom({ id=308436, sublabel=R:format(1) }) -- Stalks
+ring.nodes[41936098] = Mushroom({ id=325621, sublabel=R:format(1) }) -- Forest's Edge
+ring.nodes[56383740] = Mushroom({ id=325614, sublabel=R:format(1) }) -- Stillglade
+ring.nodes[58896232] = Mushroom({ id=325602, sublabel=R:format(1) }) -- Heart of the Forest
+
+ring.nodes[38424806] = Mushroom({ id=325616, sublabel=R:format(2) }) -- The Bank's of Life
+ring.nodes[51853564] = Mushroom({ id=325620, sublabel=R:format(2) }) -- Elder Strand
+ring.nodes[52696820] = Mushroom({ id=325618, sublabel=R:format(2) }) -- Gormhive
+ring.nodes[59965292] = Mushroom({ id=325657, sublabel=R:format(2) }) -- The Unknown
+
+ring.nodes[38875544] = Mushroom({ id=325627, sublabel=R:format(3) }) -- The Unknown
+ring.nodes[45756677] = Mushroom({ id=325607, sublabel=R:format(3) }) -- Crumbled Ridge
+ring.nodes[46703589] = Mushroom({ id=325617, sublabel=R:format(3) }) -- Eventide Grove Shroom
+ring.nodes[58894369] = Mushroom({ id=325619, sublabel=R:format(3) }) -- Tirna Scithe
