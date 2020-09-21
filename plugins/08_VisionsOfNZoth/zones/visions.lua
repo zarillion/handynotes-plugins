@@ -5,7 +5,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
-local clone = ns.clone
+local Clone = ns.Clone
 
 local Map = ns.Map
 local Node = ns.node.Node
@@ -39,9 +39,9 @@ local MAIL = Node({
 })
 
 local CHEST = Treasure({group=ns.groups.VISIONS_CHEST, label=L["black_empire_cache"]})
-local CHEST1 = clone(CHEST, {sublabel=string.format(L["clear_sight"], 1)})
-local CHEST2 = clone(CHEST, {sublabel=string.format(L["clear_sight"], 2)})
-local CHEST3 = clone(CHEST, {sublabel=string.format(L["clear_sight"], 3)})
+local CHEST1 = Clone(CHEST, {sublabel=string.format(L["clear_sight"], 1)})
+local CHEST2 = Clone(CHEST, {sublabel=string.format(L["clear_sight"], 2)})
+local CHEST3 = Clone(CHEST, {sublabel=string.format(L["clear_sight"], 3)})
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -72,12 +72,12 @@ orgrimmar.nodes[37528493] = CHEST2
 orgrimmar.nodes[39388038] = CHEST2
 
 -- The Drag
-orgrimmar.nodes[56915817] = clone(CHEST2, {note=L["inside_building"]})
+orgrimmar.nodes[56915817] = Clone(CHEST2, {note=L["inside_building"]})
 orgrimmar.nodes[57116273] = CHEST2
 orgrimmar.nodes[57415604] = CHEST2
 orgrimmar.nodes[57554961] = CHEST2
 orgrimmar.nodes[60175638] = CHEST2
-orgrimmar.nodes[60745806] = clone(CHEST2, {note=L["inside_building"]})
+orgrimmar.nodes[60745806] = Clone(CHEST2, {note=L["inside_building"]})
 orgrimmar.nodes[60985254] = CHEST2
 
 -- Valley of Wisdom
@@ -195,7 +195,7 @@ stormwind.nodes[54048542] = CHEST3
 stormwind.nodes[72056202] = CHEST3
 stormwind.nodes[73565625] = CHEST3
 stormwind.nodes[75286476] = CHEST3
-stormwind.nodes[76475374] = clone(CHEST3, {note=L["inside_building"]})
+stormwind.nodes[76475374] = Clone(CHEST3, {note=L["inside_building"]})
 
 -------------------------------------------------------------------------------
 

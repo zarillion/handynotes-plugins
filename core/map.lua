@@ -44,7 +44,7 @@ function Map:Initialize ()
 end
 
 function Map:add(coord, node)
-    if not ns.isinstance(node, ns.node.Node) then
+    if not ns.IsInstance(node, ns.node.Node) then
         error('All nodes must be instances of the Node() class:', coord, node)
     end
 

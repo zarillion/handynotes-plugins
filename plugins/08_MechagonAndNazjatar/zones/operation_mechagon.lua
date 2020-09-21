@@ -77,7 +77,7 @@ nodes[69405270] = WELDING
 nodes[71906280] = WELDING
 nodes[76005440] = WELDING
 
---nodes[67305350] = clone(GREASE, {note=L["grease_bot_note"]..'\n'..L["cave_spawn"]})
---nodes[66905350] = clone(SHOCK, {note=L["shock_bot_note"]..'\n'..L["cave_spawn"]})
---nodes[65605560] = clone(WELDING, {note=L["welding_bot_note"]..'\n'..L["cave_spawn"]})
---nodes[69005310] = clone(WELDING, {note=L["welding_bot_note"]..'\n'..L["cave_spawn"]})
+--nodes[67305350] = Clone(GREASE, {note=L["grease_bot_note"]..'\n'..L["cave_spawn"]})
+--nodes[66905350] = Clone(SHOCK, {note=L["shock_bot_note"]..'\n'..L["cave_spawn"]})
+--nodes[65605560] = Clone(WELDING, {note=L["welding_bot_note"]..'\n'..L["cave_spawn"]})
+--nodes[69005310] = Clone(WELDING, {note=L["welding_bot_note"]..'\n'..L["cave_spawn"]})

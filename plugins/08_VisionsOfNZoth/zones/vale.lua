@@ -6,7 +6,7 @@ local _, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
-local clone = ns.clone
+local Clone = ns.Clone
 
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
@@ -217,7 +217,7 @@ nodes[15887672] = MANTR1
 -- quest=58225
 nodes[16021946] = MANTR2
 nodes[17432634] = MANTR2
-nodes[19001350] = clone(MANTR2, {note=L["guolai"]})
+nodes[19001350] = Clone(MANTR2, {note=L["guolai"]})
 nodes[21051415] = MANTR2
 nodes[26301110] = MANTR2
 -- quest=58226
@@ -332,7 +332,7 @@ local MOGCOFF = Supply({
 
 nodes[10782831] = MOGCOFF
 nodes[20006321] = MOGCOFF
-nodes[24430269] = clone(MOGCOFF, {note=L["guolai_center"]})
+nodes[24430269] = Clone(MOGCOFF, {note=L["guolai_center"]})
 nodes[43134209] = MOGCOFF
 nodes[50182143] = MOGCOFF
 
@@ -417,9 +417,9 @@ local EMPCOFF = Supply({
 })
 
 nodes[53116634] = EMPCOFF
-nodes[54804100] = clone(EMPCOFF, {note=L["platform"]})
+nodes[54804100] = Clone(EMPCOFF, {note=L["platform"]})
 nodes[62975086] = EMPCOFF
-nodes[68662806] = clone(EMPCOFF, {note=L["pools_of_power"]})
+nodes[68662806] = Clone(EMPCOFF, {note=L["pools_of_power"]})
 nodes[69516094] = EMPCOFF
 nodes[76626437] = EMPCOFF
 
@@ -442,7 +442,7 @@ pmap.nodes[45715972] = EMPTR2
 pmap.nodes[46313359] = EMPTR2
 pmap.nodes[54384017] = EMPTR2
 
-pmap.nodes[42104690] = clone(EMPCOFF, {note=L["pools_of_power"]})
+pmap.nodes[42104690] = Clone(EMPCOFF, {note=L["pools_of_power"]})
 
 -------------------------------------------------------------------------------
 -------------------------------- ASSAULT EVENTS -------------------------------

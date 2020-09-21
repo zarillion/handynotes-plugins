@@ -6,7 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
-local clone = ns.clone
+local Clone = ns.Clone
 
 local Node = ns.node.Node
 local Cave = ns.node.Cave
@@ -303,9 +303,9 @@ local AQRTR4 = AQRChest({quest=58141, icon='chest_yellow'})
 local AQRTR5 = AQRChest({quest=58142, icon='chest_teal'})
 
 -- quest=58138
-nodes[43925868] = clone(AQRTR1, {note=L["chamber_of_the_sun"]})
+nodes[43925868] = Clone(AQRTR1, {note=L["chamber_of_the_sun"]})
 nodes[44855696] = AQRTR1
-nodes[45845698] = clone(AQRTR1, {note=L["chamber_of_the_sun"]})
+nodes[45845698] = Clone(AQRTR1, {note=L["chamber_of_the_sun"]})
 nodes[46176156] = AQRTR1
 nodes[46525801] = AQRTR1
 nodes[50555882] = AQRTR1
@@ -349,7 +349,7 @@ nodes[33953036] = AQRTR5
 nodes[35101878] = AQRTR5
 nodes[35413157] = AQRTR5
 nodes[36871616] = AQRTR5
-nodes[41592264] = clone(AQRTR5, {note=L["chamber_of_the_moon"]})
+nodes[41592264] = Clone(AQRTR5, {note=L["chamber_of_the_moon"]})
 nodes[45561320] = AQRTR5
 
 nodes[36252324] = Supply({
@@ -509,11 +509,11 @@ nodes[69874163] = AMATR5
 nodes[60932455] = AMATR6
 nodes[61343060] = AMATR6
 nodes[62722355] = AMATR6
-nodes[63122508] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
+nodes[63122508] = Clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[63532160] = AMATR6
 nodes[65543142] = AMATR6
-nodes[65882147] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
-nodes[67172800] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
+nodes[65882147] = Clone(AMATR6, {note=L["chamber_of_the_stars"]})
+nodes[67172800] = Clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[68222051] = AMATR6
 nodes[68933234] = AMATR6
 
@@ -525,7 +525,7 @@ local AMACOFF = Supply({
     sublabel=L["tolvir_relic"]
 })
 
-nodes[64463415] = clone(AMACOFF, {note=L["chamber_of_the_stars"]})
+nodes[64463415] = Clone(AMACOFF, {note=L["chamber_of_the_stars"]})
 nodes[66882414] = AMACOFF
 nodes[67464294] = AMACOFF
 nodes[73337356] = AMACOFF

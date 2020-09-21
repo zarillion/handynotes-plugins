@@ -6,7 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Group = ns.Group
-local isinstance = ns.isinstance
+local IsInstance = ns.IsInstance
 
 -------------------------------------------------------------------------------
 ------------------------------------ NODE -------------------------------------
@@ -48,7 +48,7 @@ function Node:Initialize ()
     end
 
     -- materialize group if given as a name
-    if not ns.isinstance(self.group, Group) then
+    if not IsInstance(self.group, Group) then
         error('group attribute must be a Group class instance: '..self.group)
     end
 
@@ -228,7 +228,7 @@ function Node:render(tooltip)
         for i, reward in ipairs(self.rewards) do
 
             -- Add a blank line between achievements and other rewards
-            local isAchieve = ns.isinstance(reward, ns.reward.Achievement)
+            local isAchieve = IsInstance(reward, ns.reward.Achievement)
             if isAchieve and firstAchieve then
                 tooltip:AddLine(" ")
                 firstAchieve = false
@@ -277,7 +277,7 @@ function Cave:Initialize ()
 
     if self.parent == nil then
         error('One or more parent nodes are required for Cave nodes')
-    elseif isinstance(self.parent, Node) then
+    elseif IsInstance(self.parent, Node) then
         -- normalize parent nodes as tables instead of single values
         self.parent = {self.parent}
     end
@@ -414,7 +414,7 @@ local Treasure = Class('Treasure', Node, {
 function Treasure.getters:label ()
     if not self.rewards then return UNKNOWN end
     for i, reward in ipairs(self.rewards) do
-        if isinstance(reward, ns.reward.Achievement) then
+        if IsInstance(reward, ns.reward.Achievement) then
             return GetAchievementCriteriaInfoByID(reward.id, reward.criteria[1].id)
         end
     end
