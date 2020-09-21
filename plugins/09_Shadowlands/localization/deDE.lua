@@ -8,7 +8,13 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes: Shadowlands"
 L["options_title"] = "Shadowlands"
+
+-------------------------------------------------------------------------------
+---------------------------------- COVENANTS ----------------------------------
+-------------------------------------------------------------------------------
+
 L["covenant_required"] = "Benötigt ein Paktmitglied der %s"
+L["transport_research"] = "Benötigt Stufe %d des Reisenetzwerks"
 
 local ACHAN = "Anima %s kanalisiert."
 L["achan_citadel_of_loyalty"] = ACHAN:format('zur Zitadelle der Loyalität') --review wrong Blizzard Translation Loyalität = Treue
@@ -20,6 +26,15 @@ L["achan_theater_of_pain"] = ACHAN:format('Theater der Schmerzen')
 L["achan_tirna_scithe"] = ACHAN:format('nach Tirna Scithe')
 L["achan_wanecrypt_hill"] = ACHAN:format('zum Schwundgrufthügel')
 
+L["options_icons_fae_network_desc"] = "Zeigt alle Pilze für das Reisenetzwerk der Nachtfae an."
+L["options_icons_fae_network"] = "Pilznetzwerk"
+L["options_icons_kyr_network_desc"] = "Zeigt alle Animaportale für das Reisenetzwerk der Kyrian an."
+L["options_icons_kyr_network"] = "Animaportale"
+L["options_icons_nec_network_desc"] = "Zeigt alle Knochentoren für das Reisenetzwerk der Necrolord an."
+L["options_icons_nec_network"] = "Knochentoren"
+L["options_icons_ven_network_desc"] = "Zeigt alle Blutspiegel für das Reisenetzwerk der Venthyr an."
+L["options_icons_ven_network"] = "Blutspiegel"
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
@@ -28,6 +43,7 @@ L["deifir_note"] = "Reite auf {npc:164238} und verwende die Fähigkeiten {spell:
 L["faeflayer_note"] = "In einer kleinen Höhle, versteckt hinter einem Wasserfall."
 L["humongozz_note"] = "Pflanze einen {item:175247} in den feuchten Lehm, um einen {npc:164122} erscheinen zu lassen. Nach einer Minute {spell:319367} wird {npc:164112} erscheinen. Der Pilz wird von mehreren Gegnern in diesem Gebiet fallen gelassen."
 L["lehgo_note"] = "Zerstöre Zitternde Gormeier und töte |CFFFFFF00Wütende Eipfleger|r bis {npc:167851} erscheint. In einer Höhle. (Eingang nach Südosten (58.5, 31.9))." --{npc:171827}
+L["rainbowhorn_note"] = "Wenn er nicht da sein sollte, klicke das Große Horn des Runenhirsches an. \n\n|cffff4200S|r|cffff8500C|r|cffffc700H|r|cfff3ff00M|r|cffb1ff00E|r|cff6eff00C|r|cff2cff00K|r |cff00ff58D|r|cff00ff9bE|r|cff00ffddN|r |cff009bffR|r|cff0058ffE|r|cff0016ffG|r|cff2c00ffE|r|cff6e00ffN|r|cffb100ffB|r|cfff300ffO|r|cffff00c7G|r|cffff0085E|r|cffff0042N|r|cffff0000!|r"
 L["rootwrithe_note"] = "Pike die |CFFFFFF00Inaktiven Blüten|r an, bis {npc:167726} erscheint." --{npc:167928}
 L["rotbriar_note"] = "Sprich mit {npc:171684} in der Nähe, um {npc:167724} nach einem Dialog zu beschwören."
 L["slumbering_note"] = "In den Nebel zu laufen wird dich betäuben und wieder herausteleportieren. Verwende ein Leuchtfeuer oder Begleiter mit Flächenschaden, um ihn aus dem Nebel zu stoßen."
@@ -48,6 +64,7 @@ L["star_lake"] = "Sternseeamphitheater"
 L["star_lake_note"] = "Sprich mit {npc:171743}, um eine der besonderen Begegnungen zu beginnen."
 
 L["cache_of_the_moon"] = "Sammel {npc:171360}|CFFFFFF00s|r fünf verlorene Werkzeuge im Garten der Nacht und kombiniere diese zu {item:180753}. Bring dieses zu ihr zurück und sie wird dir die {spell:334353} gewähren, um die Truhe sehen zu können."
+L["cache_of_the_night"] = "Sammel {item:180656}, {item:180654} und {item:180655} aus der ganzen Zone und kombiniere diese zu einem {item:180652}."
 L["darkreach_supplies"] = "Verwende den {npc:169995}, um nach Südwesten in den ausgehöhlten Turm zu gleiten."
 L["desiccated_moth"] = "Verwende den {npc:169997}, nordwestlich des Baumes, um in die Baumkrone zu gleiten. Verbrenne {item:180784} im Räuchergefäß um den Schatz zu sammeln." --(31.7, 32,5)
 L["dreamsong_heart"] = "Verwende den {npc:169997} an der Seite des Baumes, um auf den Baum geschleudert zu werden."
@@ -81,6 +98,7 @@ Wenn du den falschen Pfad nimmst und {npc:171699} verschwindet, wenn du das Ende
 -------------------------------------------------------------------------------
 
 L["aspirant_eolis_note"] = "Plündere {item:180613} in der Nähe und lese es ihm vor. Es erscheint eine Truhe."
+L["baedos_note"] = "Trage zum Aktivieren, Fässer mit fermentierenden purianischen Früchten aus der Umgebung zu {npc:161536}." --review Blizzard Translation casks of Fermenting Purian Fruit
 L["basilofos_note"] = "Beweg dich auf den Felsen umher, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint."
 L["beasts_of_bastion"] = "Bestien der Bastion" --review Blizzard translation
 L["beasts_of_bastion_note"] = [[
@@ -101,6 +119,7 @@ Sammel {item:172451} und verwende dieses, um {npc:158659} Stapel von {spell:3435
 Partikel können aus entleerten Animakanistern in der Nähe gesammelt werden, die sich in diesem Raum oder direkt außerhalb befinden.
 ]]
 L["nikara_note"] = "Klicke mit zwei anderen Spielern das Uralte Räucherwerk an, um ein Ritual zu beginnen, {npc:160882} zu beschwören."
+L["sotiros_orstus_note"] = "Klicke zum Beschwören die Schwarze Glocke an."
 L["sundancer_note"] = "Klicke das Uralte Denkmal an, um den {spell:332309} zu erhalten und verwende einen {item:180445}, um zu ihm zu gleiten und aufzusitzen."
 L["unstable_memory_note"] = "Kann beschworen werden, wenn {npc:171018} anwesend ist. Ziehe dieses in andere, um ihm 10 Stapel von {spell:333558} zu gewähren, der es zu {npc:171008} heranwachsen lässt."
 L["wingflayer_note"] = "Klicke zum Beschwören das Horn des Mutes auf dem Tisch in der Nähe an. (41.6, 54.5)"
@@ -190,6 +209,16 @@ L["anima_shard_61300"] = "An der Kante des mittleren Brunnens."
 L["options_icons_anima_shard"] = "Verlorene Animakristallsplitter"
 L["options_icons_anima_shard_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg \"Splitterpartie (ID:14339)\" an." --{achievement:14339}
 
+L["aspirants_rest"] = "Aspirantenrast"
+L["eternal_gateway"] = "Ewiges Tor"
+L["exaltations_rise"] = "Anhöhe der Herrlichkeit"
+L["heros_rest"] = "Heldenrast"
+L["sagehaven"] = "Weisenhafen"
+L["seat_of_eternal_hymns"] = "Sitz der Ewigen Hymnen"
+L["temple_of_humility"] = "Tempel der Demut"
+L["temple_of_purity"] = "Tempel der Reinheit"
+L["xandrias_vigil"] = "Xandrias Wacht"
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -228,8 +257,8 @@ Stelle dich in grünen Schleim |cffff0000(benötigt Heilung!)|r, sammel 10 Stape
 
 Wenn du verwandelt bist, besuche die Höhle unterhalb von {npc:158406}|CFFFFFF00es|r Plattform (Eingang auf der östlichen Seite) und klicke auf das Rohr, um zur Truhe zu gelangen.
 ]]
-L["ritualists_cache_note"] = "Plündere die {item:181558} von einem Knochenhaufen \n(69.9, 31.0 oder 69.1, 32.5) und benutze dann das Buch der Bindungsrituale (71.7, 35.4), dass dir das {spell:337041} gewährt, um die Truhe öffnen zu können."
-L["runespeakers_trove_note"] = "Töte {npc:170563} (37.9, 70.1), um den Schlüssel zu erhalten und den Schatz zu plündern."
+L["ritualists_cache_note"] = "Plündere die {item:181558} von einem Knochenhaufen (mehrere Erscheinungspunkte), um das Buch der Bindungsrituale (71.7, 35.4) zu vervollständigen, dass dir das {spell:337041} gewährt."
+L["runespeakers_trove_note"] = "Finde {npc:170563} im Osten (37.9, 70.1) und töte ihm, um den {item:181777} zu erhalten."
 L["stolen_jar_note"] = "In einer Höhle unter dem Riesenpilz."
 L["strange_growth_note"] = "Ziehe {npc:165037} heraus, um den Schatz zu enthüllen."
 L["vat_of_slime_note"] = "Klicken auf dem Tisch die Flasche an und danach auf den Schleimbehälter."
@@ -272,6 +301,12 @@ L["pus_in_boots"] = "Befindet sich unter der Brücke."
 
 L["options_icons_slime_cat"] = "Kätzchen"
 L["options_icons_slime_cat_desc"] = "Zeigt die Positionen der Kätzchen für den Erfolg \"Neun jenseitige Leben (ID:14634)\" an."
+
+L["exoramas"] = "Exoramas, Haus der Rituale"
+L["nurakkir"] = "Nurakkir, Haus der Augen"
+L["overlook_primus"] = "Warte, Sitz des Primus"
+L["zerekriss"] = "Zerekriss, Maldraxxus"
+L["zerekriss_note"] = "Nach der Aktivierung fliegt die Nekropole durch die Zone. Halte dich an {npc:165822} fest, um an die Oberfläche zu gleiten."
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -323,7 +358,7 @@ L["gilded_plum_chest_note"] = "Töte die {npc:166680}, die die Straße hoch und 
 L["remlates_cache"] = "Remlates versteckter Schatz"
 L["remlates_cache_note"] = "Hinter der Außenmauer der Krypta in Dunkelhafen."
 L["smuggled_cache"] = "Geschmuggelte Truhe"
-L["wayfairer_spoils"] = "Zurückgelassene Beute eines Wanderers" --use Schattentor
+L["wayfarer_spoils"] = "Zurückgelassene Beute eines Wanderers" --use Schattentor
 
 L["loyal_gorger_note"] = "Besuch den Endmorast und schließe 7-mal eine tägliche Quest ab, die dir von deinem {npc:173498} angeboten wird, um ihn als Reittier zu erhalten."
 
@@ -337,6 +372,13 @@ L["sinrunner_note_day6"] = "Verfüttere an Graumähne 3x {item:179271}, verkauft
 
 L["options_icons_carriages"] = "Kutschen"
 L["options_icons_carriages_desc"] = "Zeigt die Positionen und Wege von fahrbaren Kutschen an."
+
+L["dominance_keep"] = "Herrschaftsburg"
+L["eternal_terrace"] = "Die Ewige Terrasse"
+L["feeders_thicket"] = "Der Fluchwald"
+L["halls_of_atonement"] = "Hallen der Sühne"
+L["pridefall_hamlet"] = "Stolzsturzweiler"
+L["the_banewood"] = "Fresserdickicht"
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
