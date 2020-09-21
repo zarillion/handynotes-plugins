@@ -10,7 +10,13 @@ if not L then return end
 
 L["context_menu_title"] = "HandyNotes: Shadowlands"
 L["options_title"] = "Shadowlands"
+
+-------------------------------------------------------------------------------
+---------------------------------- COVENANTS ----------------------------------
+-------------------------------------------------------------------------------
+
 L["covenant_required"] = "Requiere ser miembro de la curia %s."
+L["transport_research"] = "Requiere Red de Transporte al Rango %d"
 
 local ACHAN = "ánima canalizada a %s."
 L["achan_citadel_of_loyalty"] = ACHAN:format('Ciudadela de la Lealtad')--Revisar que Citadel of Loyalty sea Ciudadela de la Lealtad
@@ -21,6 +27,15 @@ L["achan_temple_of_courage"] = ACHAN:format('Templo del Coraje')--Revisar que Te
 L["achan_theater_of_pain"] = ACHAN:format('Teatro del Dolor')--Revisar que Theater of Pain sea Teatro del Dolor
 L["achan_tirna_scithe"] = ACHAN:format('Guadaña de Tirna')--Revisar que Tirna Scithe sea Guadaña de Tirna
 L["achan_wanecrypt_hill"] = ACHAN:format('Cripta de la Colina Inclinada')--Revisar que Wanecrypt Hill sea Cripta de la Colina Inclinada
+
+L["options_icons_fae_network_desc"] = "Muestra todos los destinos de los transportes para la red de setas de las Sílfides Nocturnas."
+L["options_icons_fae_network"] = "Red Mycelial"--Revisar si es Mycelial
+L["options_icons_kyr_network_desc"] = "Muestra todos los destinos de los transportes para la red de Portales Kyrianos."
+L["options_icons_kyr_network"] = "Portales Kyrianos"
+L["options_icons_nec_network_desc"] = "Muestra todos los destinos de los transportes para los Portones de la Muerte de Hueso de los Necroseñores."--Revisar que Bone Deathgates sea Portón de la Muerte de Hueso
+L["options_icons_nec_network"] = "Portones de la Muerte de Hueso"--Revisar que Bone Deathgates sea Portón de la Muerte de Hueso
+L["options_icons_ven_network_desc"] = "Muestra todos los destinos de los transportes para los Espejos de Sangre de los Venthyr."--Revisar que Blood Mirrors sea Espejos de Sangre
+L["options_icons_ven_network"] = "Espejos de Sangre"--Revisar que Blood Mirrors sea Espejos de Sangre
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -195,6 +210,16 @@ L["anima_shard_61300"] = "En una repisa que cuelga sobre la fuente central."
 L["options_icons_anima_shards"] = "Fragmentos Perdidos de Ánima"--Revisar que Lost Anima Shards sea Fragmentos Perdidos de Ánima
 L["options_icons_anima_shards_desc"] = "Muestra la localización de los 50 fragmentos perdidos de ánima para el logro Trabajo Fragmentado."--Revisar que lost anima shards sea fragmentos perdidos de ánima y que Shard Labor sea Trabajo Fragmentado
 
+L["aspirants_rest"] = "Reposo del Aspirante"--Revisar que Aspirant's Rest sea Reposo del Aspirante
+L["eternal_gateway"] = "Portal Eterno"--Revisar que Eternal Gateway sea Portal Eterno
+L["exaltations_rise"] = "Ascenso de la Exaltación"--Revisar que Exaltation Rise sea Ascenso de la Exaltación
+L["heros_rest"] = "Reposo del Héroe"--Revisar que Hero's Rest sea Reposo del Héroe
+L["sagehaven"] = "Refugio del Sabio"--Revisar que Sagehaven sea Refugio del Sabio
+L["seat_of_eternal_hymns"] = "Trono de los Himnos Eternos"--Revisar que Seat of Eternal Hymns sea Trono de los Himnos Eternos
+L["temple_of_humility"] = "Templo de la Humildad"--Revisar que Temple of Humility sea Templo de la Humildad
+L["temple_of_purity"] = "Templo de la Pureza"--Revisar que Temple of Purity sea Templo de la Pureza
+L["xandrias_vigil"] = "Vigilia de Xandria"--Revisar que Xandria's Vigil sea Vigilia de Xandria
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -271,6 +296,12 @@ L["pus_in_boots"] = "Está debajo del puente."
 L["options_icons_slime_cat"] = "Gatitos"
 L["options_icons_slime_cat_desc"] = "Muestra las localizaciones de los gatitos para el logro Nueve Restos de Vidas."--Revisar que Nine Afterlives sea Nueve Restos de Vidas
 
+L["exoramas"] = "Exoramas, Casa de los Rituales"--Revisar que House of Rituals sea Casa de los Rituales
+L["nurakkir"] = "Nurakkir, Casa de los Ojos"--Revisar que House of Eyes sea Casa de los Ojos
+L["overlook_primus"] = "Overlook, Bancal de los Principales"--Revisar que Overlook, Seat of the Primus sea Overlook, Bancal de los Principales
+L["zerekriss"] = "Zerekriss, Maldraxxus"
+L["zerekriss_note"] = "Una vez activada, la necrópolis volará alrededor de la zona. Agárrate de {npc:165822} para planear hacia el suelo."
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -335,6 +366,13 @@ L["sinrunner_note_day6"] = "Alimenta a Blanchy con 3 {item:179271}, vendidas por
 
 L["options_icons_carriages"] = "Carruajes"
 L["options_icons_carriages_desc"] = "Muestra las localizaciones posibles y caminos de los carruajes que se pueden llevar."
+
+L["dominance_keep"] = "Guarida de la Dominancia"--Revisar que Dominance Keep sea Guarida de la Dominancia
+L["eternal_terrace"] = "El Bancal Eterno"--Revisar que The Eternal Terrace sea El Bancal Eterno
+L["feeders_thicket"] = "Arboleda de Feeder"--Revisar que Feeder's Thicket sea Arboleda de Feeder
+L["halls_of_atonement"] = "Salones de Expiación"--Revisar que Halls of Atonement sea Salones de Expiación
+L["pridefall_hamlet"] = "Aldea de la Caída del Orgullo"--Revisar que Pridefall Hamlet sea Aldea de la Caída del Orgullo
+L["the_banewood"] = "The Banewood"--Revisar como puede ser
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
