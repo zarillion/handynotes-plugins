@@ -367,7 +367,7 @@ L["options_icons_carriages_desc"] = "Display locations and paths of rideable car
 
 L["dominance_keep"] = "Dominance Keep"
 L["eternal_terrace"] = "The Eternal Terrace"
-L["feeders_thicket"] = "Feeder's Thicket"
+L["feeders_thicket"] = "Feeders' Thicket"
 L["halls_of_atonement"] = "Halls of Atonement"
 L["pridefall_hamlet"] = "Pridefall Hamlet"
 L["the_banewood"] = "The Banewood"
