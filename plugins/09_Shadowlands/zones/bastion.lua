@@ -39,6 +39,8 @@ local map = Map({
     }
 })
 
+local sanctum = Map({ id=1707, parents={ kyrian_gateway=1533 }})
+
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
@@ -684,5 +686,7 @@ map.nodes[44163302] = Gateway({ label=L["sagehaven"], sublabel=R:format(2) })
 map.nodes[58363097] = Gateway({ label=L["seat_of_eternal_hymns"], sublabel=R:format(2) })
 map.nodes[59427711] = Gateway({ label=L["temple_of_purity"], sublabel=R:format(2) })
 
--- map.nodes[] = Gateway({ label=L["temple_of_humility"], sublabel=R:format(3) })
--- map.nodes[] = Gateway({ label=L["exaltations_rise"], sublabel=R:format(3) })
+map.nodes[66594790] = Gateway({ label=L["temple_of_humility"], sublabel=R:format(3) })
+map.nodes[32322045] = Gateway({ label=L["exaltations_rise"], sublabel=R:format(3) })
+
+sanctum.nodes[48606168] = Gateway({ label=L["eternal_gateway"], sublabel=R:format(1) })

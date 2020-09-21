@@ -209,6 +209,7 @@ L["options_icons_anima_shard"] = "Lost Anima Shards"
 L["options_icons_anima_shard_desc"] = "Display the locations of all 50 lost anima shards for the Shard Labor achievement."
 
 L["aspirants_rest"] = "Aspirant's Rest"
+L["eternal_gateway"] = "Eternal Gateway"
 L["exaltations_rise"] = "Exaltation's Rise"
 L["heros_rest"] = "Hero's Rest"
 L["sagehaven"] = "Sagehaven"
