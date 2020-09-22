@@ -77,7 +77,7 @@ This addon has been translated to the following languages:
 * `esMX` - Spanish (Mexico) (thanks Herida!)
 * `frFR` - French (thanks Herida!)
 * `ruRU` - Russian (thanks Hubbotu!)
-* `zhCN` - Chinese (Simplified) (thanks wyjbuxiu!)
+* `zhCN` - Chinese (Simplified) (thanks Adavak and wyjbuxiu!)
 * `zhTW` - Chinese (Traditional) (thanks BNS333!)
 
 If you would like to translate the addon to another language, please open a [ticket](https://github.com/zarillion/handynotes-plugins/issues) or submit a [pull request](https://github.com/zarillion/handynotes-plugins/pulls) on GitHub.

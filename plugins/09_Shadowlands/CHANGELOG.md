@@ -1,3 +1,12 @@
+# v5
+
+* Added covenant transport networks.
+* Added final Lost Anima Shard location.
+* Added notes for rares with anima channeling requirements.
+* Added info/loot to numerous rares and treasures.
+* Added highlight and focus glows for *all* icons.
+* Added zhCN translation (thanks Adavak!)
+
 # v4
 
 * Added rares, bonus bosses and bonus events to the Maw.

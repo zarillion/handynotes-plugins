@@ -39,6 +39,7 @@ For rares that drop appearances, the rare will appear blue if one or more of you
 This addon has been translated to the following languages:
 
 * `ruRU` - Russian (thanks Hubbotu!)
+* `zhCN` - Chinese (Simplified) (thanks Adavak!)
 * `zhTW` - Chinese (Traditional) (thanks BNS333!)
 
 If you would like to translate the addon to another language, please open a [ticket](https://github.com/zarillion/handynotes-plugins/issues) or submit a [pull request](https://github.com/zarillion/handynotes-plugins/pulls) on GitHub.
