@@ -38,6 +38,8 @@ For rares that drop appearances, the rare will appear blue if one or more of you
 
 This addon has been translated to the following languages:
 
+* `deDE` - German (thanks Dathwada!)
+* `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
 * `ruRU` - Russian (thanks Hubbotu!)
 * `zhCN` - Chinese (Simplified) (thanks Adavak!)
 * `zhTW` - Chinese (Traditional) (thanks BNS333!)
