@@ -427,14 +427,6 @@ map.nodes[55893897] = Treasure({
     }
 }) -- Strange Growth
 
--- map.nodes[] = Treasure({
---     quest=,
---     note=L[""],
---     rewards={
---         Achievement({id=14312, criteria=49436}),
---     }
--- }) -- Sword of Oonar
-
 map.nodes[59867906] = Treasure({
     quest=61444,
     note=L["vat_of_slime_note"],
@@ -445,9 +437,11 @@ map.nodes[59867906] = Treasure({
 }) -- Vat of Conspicuous Slime
 
 map.nodes[51444848] = Treasure({
---    quest=61127, -- Oonar's Arm / Sorrowbane questid missing
+    quest={61127,61128}, -- {arm, sword}
+    questCount=true,
     note=L["oonar_sorrowbane_note"],
     rewards={
+        Achievement({id=14312, criteria=49436}),
         Achievement({id=14626, criteria=0}),
         Pet({item=181164, id=2944}), -- Oonar's Arm
         Transmog({item=180273, slot=L["2h_sword"]}), --Sorrowbane
@@ -455,7 +449,22 @@ map.nodes[51444848] = Treasure({
     pois={
         POI({50945317, 37114699, 53634792, 76445672})
     }
-}) -- Oonar's Arm and Sorrowbane /Oornas Arm und Kummerfluch
+}) -- Oonar's Arm and Sorrowbane
+
+-------------------------------------------------------------------------------
+
+local cache_of_eyes = Treasure({
+    quest=nil,
+    label=L["cache_of_eyes"],
+    rewards={
+        -- Achievement({id=14312, criteria=50070}),
+        Pet({item=181171, id=2947}) -- Luminous Webspinner
+    }
+}) -- Cache of Eyes
+
+local sightless_hold = Map({ id=1650, settings=false })
+map.nodes[55251160] = cache_of_eyes
+sightless_hold.nodes[62307139] = cache_of_eyes
 
 -------------------------------------------------------------------------------
 

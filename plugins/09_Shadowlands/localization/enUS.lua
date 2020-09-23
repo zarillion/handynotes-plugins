@@ -245,6 +245,7 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 
 L["blackhound_cache"] = "Blackhound Cache"
 L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
+L["cache_of_eyes"] = "Cache of Eyes"
 
 L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
 L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
