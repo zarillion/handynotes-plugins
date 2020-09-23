@@ -120,6 +120,7 @@ Motes can be collected from nearby Depleted Anima Canisters located in the room 
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
 L["sotiros_orstus_note"] = "Click the Black Bell to summon the rares."
 L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
+L["swelling_tear_note"] = "Click the {npc:171012} to summon one of three rares. Tears can appear in multiple locations in the zone."
 L["unstable_memory_note"] = "Can be spawned when {npc:171018}s are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
 L["wingflayer_note"] = "To summon, click the Horn of Courage on the nearby table (southeast, up the stairs)."
 

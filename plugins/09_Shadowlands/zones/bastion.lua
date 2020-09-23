@@ -43,7 +43,10 @@ map.nodes[32592336] = Rare({
         Transmog({item=183607, slot=L["polearm"]}) -- Uncertain Aspirant's Spear
     },
     pois={
-        POI({32322113, 32762034}) -- Fragile Humility Scroll
+        POI({
+            31412295, 31412386, 32052123, 32122305, 32332113, 32562449,
+            32762035, 33062071, 33172321,
+        }) -- Fragile Humility Scroll
     }
 }) -- Aspirant Eolis
 
@@ -105,7 +108,7 @@ map.nodes[50435804] = Rare({
         Achievement({id=14307, criteria=48835}),
         Pet({item=180812, id=2925}) -- Golden Teroclaw
     }
-}) -- Cloudfeather Patriarch
+}) -- Cloudfeather Guardian
 
 map.nodes[66004367] = Rare({
     id=171014,
@@ -186,14 +189,6 @@ map.nodes[45546459] = Rare({
     }
 }) -- Echo of Aella <Hand of Courage>
 
-map.nodes[56111447] = Rare({
-    id=171013,
-    quest=nil,
-    rewards={
-        Achievement({id=14307, criteria=48838})
-    }
-}) -- Embodied Hunger
-
 map.nodes[51151953] = Rare({
     id=171009,
     quest=60998,
@@ -241,6 +236,16 @@ map.nodes[51456859] = Rare({
     }
 }) -- Nikara Blackheart
 
+map.nodes[61295090] = Rare({
+    id=160985,
+    quest=58320,
+    note=L["nikara_note"],
+    rewards={
+        Achievement({id=14307, criteria=48830}),
+        Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
+    }
+}) -- Nikara the Reborn
+
 map.nodes[30365517] = Rare({
     id=171327,
     quest=nil,
@@ -284,6 +289,24 @@ map.nodes[61409050] = Rare({
     }
 }) -- Sundancer
 
+map.nodes[63503590] = Rare({
+    id=171012,
+    quest={61001,61046,61047},
+    questCount=true,
+    note=L["swelling_tear_note"],
+    rewards={
+        Achievement({id=14307, criteria={
+            {id=48838, quest=61001}, -- Embodied Hunger
+            {id=48840, quest=61047}, -- Worldfeaster Chronn
+            {id=48839, quest=61046}, -- Xixin the Ravening
+        }}),
+        Transmog({item=183605, slot=L["warglaive"]}) -- Devourer Wrought Warglaive
+    },
+    pois={
+        POI({47434282, 52203280, 56031463, 59825165, 63503590})
+    }
+}) -- Swelling Tear
+
 map.nodes[43482524] = Rare({
     id=171008,
     quest=60997,
@@ -304,27 +327,6 @@ map.nodes[40635306] = Rare({
         Item({item=182749}) -- Regurgitated Kyrian Wings
     }
 }) -- Wingflayer the Cruel
-
-map.nodes[48004290] = Rare({
-    id=171041,
-    quest=61047,
-    rewards={
-        Achievement({id=14307, criteria=48840}),
-        Transmog({item=183605, slot=L["warglaive"]}) -- Devourer Wrought Warglaive
-    },
-    pois={
-        POI({48004290, 52013263, 56111447})
-    }
-}) -- Worldfeaster Chronn
-
-map.nodes[63503590] = Rare({
-    id=171040,
-    quest=61046,
-    rewards={
-        Achievement({id=14307, criteria=48839}),
-        Transmog({item=183605, slot=L["warglaive"]}) -- Devourer Wrought Warglaive
-    }
-}) -- Xixin the Ravening
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
