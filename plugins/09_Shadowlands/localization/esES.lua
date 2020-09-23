@@ -122,6 +122,7 @@ Las motas se pueden recoger de los Recipientes de Ánima Agotados cercanos local
 L["nikara_note"] = "Con otros dos jugadores, haz click en el Ancient Incense para invocar a {npc:160882}."
 L["sotiros_orstus_note"] = "Haz click en la Campana Negra para invocar a los raros."--Revisar si Black Bell es Campana Negra
 L["sundancer_note"] = "Haz click en la estatua para conseguir el buff {spell:332309}, entonces usa {item:180445} para planear hasta {npc:170548} y montarlo."
+L["swelling_tear_note"] = "Haz click en {npc:171012} para invocar a uno de los tres raros. Las Lágrimas pueden aparecer en múltiples sitios de la zona."
 L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén presentes. Arrastra un {npc:171018} dentro de otros para que reciba 10 acumulaciones de {spell:333558}, lo que hará que se convierta en {npc:171008}."
 L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno del Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras)."--Revisar que Horn of Courage sea Cuerno del Coraje
 
@@ -246,6 +247,7 @@ Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando 
 
 L["blackhound_cache"] = "Alijo del Can Negro"--Revisar que Blackhound Cache sea Alijo del Can Negro
 L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
+L["cache_of_eyes"] = "Alijo de Ojos"--Revisar que Cache of Eyes sea Alijo de ojos
 
 L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
 L["kyrian_keepsake_note"] = "Inspecciona el {npc:169664} para despojar el tesoro."
