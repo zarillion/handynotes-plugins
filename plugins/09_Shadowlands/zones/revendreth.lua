@@ -311,16 +311,17 @@ map.nodes[38607200] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[] = Treasure({
---     quest=nil,
---     rewards={
---         Achievement({id=14314, criteria=})
---     }
--- }) --
-
 -- Stoneguard Satchel (76226410) (60896,60939)
 -- Reliquary of Remembrance (79763376) (item=180403)
 -- Unimplemented treasure? (50244910)
+
+map.nodes[47335536] = Treasure({
+    quest=62243,
+    note=L["forbidden_chamber_note"],
+    rewards={
+        Achievement({id=14314, criteria=50084})
+    }
+}) -- Forbidden Chamber
 
 map.nodes[37726925] = Treasure({
     quest=61990,
@@ -342,19 +343,11 @@ map.nodes[29693723] = Treasure({
 
 map.nodes[79993697] = Treasure({
     quest=nil,
-    note=L["activation_unknown"],
+    note=L["rapier_fearless_note"],
     rewards={
         Achievement({id=14314, criteria=50079})
     }
 }) -- Rapier of the Fearless
-
-map.nodes[47335536] = Treasure({
-    quest=62243,
-    note=L["forbidden_chamber_note"],
-    rewards={
-        Achievement({id=14314, criteria=50084})
-    }
-}) -- Forbidden Chamber
 
 map.nodes[38394424] = Treasure({
     quest=61999,

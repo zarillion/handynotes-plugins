@@ -336,8 +336,9 @@ Has a chance to drop an {item:180583}, which begins a 7 day quest line to obtain
 ]]
 
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
-L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
 L["forbidden_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
+L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
+L["rapier_fearless_note"] = "Click the rapier on the ground, then defeat {npc:173603}."
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
 L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
 
