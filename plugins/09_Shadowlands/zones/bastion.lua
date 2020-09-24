@@ -39,7 +39,7 @@ map.nodes[32592336] = Rare({
     requires='{item:180613}',
     note=L["aspirant_eolis_note"],
     rewards={
-        Achievement({id=14307, criteria=48844}),
+        Achievement({id=14307, criteria=50613}),
         Transmog({item=183607, slot=L["polearm"]}) -- Uncertain Aspirant's Spear
     },
     pois={
@@ -55,7 +55,7 @@ map.nodes[51344080] = Rare({
     quest={58648,62192},
     note=L["baedos_note"],
     rewards={
-        Achievement({id=14307, criteria=48828})
+        Achievement({id=14307, criteria=50592})
     }
 }) -- Baedos
 
@@ -64,7 +64,7 @@ map.nodes[48985031] = Rare({
     quest={60897,62158},
     note=L["basilofos_note"],
     rewards={
-        Achievement({id=14307, criteria=48833}),
+        Achievement({id=14307, criteria=50602}),
         Toy({item=182655}) -- Hill King's Roarbox
     }
 }) -- Basilofos, King of the Hill
@@ -77,10 +77,10 @@ map.nodes[55358024] = Rare({
     questCount=true,
     rewards = {
         Achievement({id=14307, criteria={
-            {id=48825, quest=60570}, -- Sigilback
-            {id=48826, quest=60571}, -- Cloudtail
-            {id=48827, quest=60569}, -- Nemaeus
-            {id=50506, quest=58526}, -- Aethon
+            {id=50597, quest=60570}, -- Sigilback
+            {id=50598, quest=60571}, -- Cloudtail
+            {id=50599, quest=60569}, -- Nemaeus
+            {id=50617, quest=58526}, -- Aethon
         }}),
         Toy({item=174445}), -- Glimmerfly Cocoon
         Transmog({item=179485, slot=L["dagger"]}), -- Fang of Nemaeus
@@ -95,7 +95,7 @@ map.nodes[55826249] = Rare({
     quest={59022,62167},
     note=L["bookkeeper_mnemis_note"],
     rewards={
-        Achievement({id=14307, criteria=48843}),
+        Achievement({id=14307, criteria=50612}),
         Item({item=182682, note=L["trinket"]}) -- Book-Borrower Identification
     }
 }) -- Bookkeeper Mnemis
@@ -105,7 +105,7 @@ map.nodes[50435804] = Rare({
     quest={60978,62191},
     note=L["cloudfeather_patriarch_note"],
     rewards={
-        Achievement({id=14307, criteria=48835}),
+        Achievement({id=14307, criteria=50604}),
         Pet({item=180812, id=2925}) -- Golden Teroclaw
     }
 }) -- Cloudfeather Guardian
@@ -115,7 +115,7 @@ map.nodes[66004367] = Rare({
     quest=61002,
     note=L["collector_astor_note"],
     rewards={
-        Achievement({id=14307, criteria=48841})
+        Achievement({id=14307, criteria=50610})
     },
     pois={
         POI({
@@ -136,7 +136,7 @@ map.nodes[56904778] = Rare({
     requires="{item:180651}",
     note=L["corrupted_clawguard_note"],
     rewards={
-        Achievement({id=14307, criteria=48846})
+        Achievement({id=14307, criteria=50615})
     },
     pois={
         POI({55004125}) -- Forgefire Outpost
@@ -148,7 +148,7 @@ map.nodes[27823014] = Rare({
     quest=60883,
     note=L["dark_watcher_note"],
     rewards={
-        Achievement({id=14307, criteria=48834})
+        Achievement({id=14307, criteria=50603})
         -- also dropped class-specific finesse conduits
     }
 }) -- Dark Watcher
@@ -158,7 +158,7 @@ map.nodes[37004180] = Rare({
     quest={61069,61000},
     note=L["demi_hoarder_note"],
     rewards={
-        Achievement({id=14307, criteria=48842})
+        Achievement({id=14307, criteria=50611})
     },
     pois={
         Path({
@@ -173,7 +173,7 @@ map.nodes[41354887] = Rare({
     quest=62650,
     note=L["in_small_cave"]..' '..L["dionae_note"],
     rewards={
-        Achievement({id=14307, criteria=48831})
+        Achievement({id=14307, criteria=50595})
     }
 }) -- Dionae
 
@@ -181,7 +181,7 @@ map.nodes[45546459] = Rare({
     id=171255,
     quest={61082,61091,62251},
     rewards={
-        Achievement({id=14307, criteria=48845}),
+        Achievement({id=14307, criteria=50614}),
         Item({item=180062}) -- Heavenly Drum
     },
     pois={
@@ -193,7 +193,7 @@ map.nodes[51151953] = Rare({
     id=171009,
     quest=60998,
     rewards={
-        Achievement({id=14307, criteria=48836})
+        Achievement({id=14307, criteria=50605})
     },
     pois={
         Path({
@@ -208,7 +208,7 @@ map.nodes[60427305] = Rare({
     id=160721,
     quest=58222,
     rewards={
-        Achievement({id=14307, criteria=48824}),
+        Achievement({id=14307, criteria=50596}),
         Transmog({item=180444, slot=L["leather"]}) -- Harmonia's Chosen Belt
     },
     pois={
@@ -222,7 +222,7 @@ map.nodes[42908265] = Rare({
     note=L["herculon_note"],
     requires="{item:172451} x10",
     rewards={
-        Achievement({id=14307, criteria=48823})
+        Achievement({id=14307, criteria=50582})
     }
 }) -- Herculon
 
@@ -231,29 +231,29 @@ map.nodes[51456859] = Rare({
     quest=58319,
     note=L["nikara_note"],
     rewards={
-        Achievement({id=14307, criteria=48830}),
+        Achievement({id=14307, criteria=50594}),
         Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
     }
 }) -- Nikara Blackheart
-
-map.nodes[61295090] = Rare({
-    id=160985,
-    quest=58320,
-    note=L["nikara_note"],
-    rewards={
-        Achievement({id=14307, criteria=48830}),
-        Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
-    }
-}) -- Nikara the Reborn
 
 map.nodes[30365517] = Rare({
     id=171327,
     quest=nil,
     note=L["activation_unknown"],
     rewards={
-        Achievement({id=14307, criteria=48847}),
+        Achievement({id=14307, criteria=50616}),
     }
 }) -- Reekmonger
+
+map.nodes[61295090] = Rare({
+    id=160985,
+    quest=58320,
+    note=L["nikara_note"],
+    rewards={
+        Achievement({id=14307, criteria=50593}),
+        Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
+    }
+}) -- Selena the Reborn
 
 local Sotirstus = Class('Sotirstus', Rare)
 
@@ -268,16 +268,16 @@ map.nodes[22432285] = Sotirstus({
    requires=L["achan_citadel_of_loyalty"],
    note=L["sotiros_orstus_note"],
    rewards={
-       Achievement({id=14307, criteria=27})
+       Achievement({id=14307, criteria=50618})
    }
-}) -- Sotiros and Orstus
+}) -- Orstus and Sotiros
 
 map.nodes[61409050] = Rare({
     id=170548,
     quest=nil,
     note=L["sundancer_note"],
     rewards={
-        Achievement({id=14307, criteria=48832}),
+        Achievement({id=14307, criteria=50601}),
         Mount({item=180773, id=1307}) -- Sundancer
     },
     pois={
@@ -296,9 +296,9 @@ map.nodes[63503590] = Rare({
     note=L["swelling_tear_note"],
     rewards={
         Achievement({id=14307, criteria={
-            {id=48838, quest=61001}, -- Embodied Hunger
-            {id=48840, quest=61047}, -- Worldfeaster Chronn
-            {id=48839, quest=61046}, -- Xixin the Ravening
+            {id=50607, quest=61001}, -- Embodied Hunger
+            {id=50609, quest=61047}, -- Worldfeaster Chronn
+            {id=50608, quest=61046}, -- Xixin the Ravening
         }}),
         Transmog({item=183605, slot=L["warglaive"]}) -- Devourer Wrought Warglaive
     },
@@ -312,7 +312,7 @@ map.nodes[43482524] = Rare({
     quest=60997,
     note=L["unstable_memory_note"],
     rewards={
-        Achievement({id=14307, criteria=48837})
+        Achievement({id=14307, criteria=50606})
     }
 }) -- Unstable Memory
 
@@ -323,7 +323,7 @@ map.nodes[40635306] = Rare({
     requires=L["achan_temple_of_courage"],
     note=L["wingflayer_note"],
     rewards={
-        Achievement({id=14307, criteria=48829}),
+        Achievement({id=14307, criteria=50600}),
         Item({item=182749}) -- Regurgitated Kyrian Wings
     }
 }) -- Wingflayer the Cruel
