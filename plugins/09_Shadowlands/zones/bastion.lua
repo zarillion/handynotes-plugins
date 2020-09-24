@@ -363,8 +363,8 @@ map.nodes[53498880] = Treasure({
     label=L["cache_of_the_ascended"],
     note=L["cache_of_the_ascended_note"],
     rewards={
-        Achievement({id=14307, criteria=28}),
-        Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817}}),
+        Achievement({id=14307, criteria=50619}),
+        Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817}, lineAbove=true }),
         Mount({item=183741, id=1426}) -- Ascended Skymane
     },
     pois={
