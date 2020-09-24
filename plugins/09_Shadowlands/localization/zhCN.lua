@@ -101,7 +101,7 @@ L["baedos_note"] = "从周围地区带一桶发酵的莲榴果给 {npc:161536} �
 L["basilofos_note"] = "在岩石上移动，直到紫色的追踪标记出现在你的头顶。 站着不动，等待四种表情出现，然后他会刷新。"
 L["beasts_of_bastion"] = "晋升堡垒之兽"
 L["beasts_of_bastion_note"] = [[
-和 {npc:161441} 交谈召唤四个野兽之一。
+和 {npc:161441} 交谈召唤四个野兽中的一个。
 
 |cFFFF0000注意|r：此 NPC 经常出错并不会与你交谈。
 ]]
@@ -120,6 +120,7 @@ L["herculon_note"] = [[
 L["nikara_note"] = "和两名其他玩家，点击远古焚香来召唤。"
 L["sotiros_orstus_note"] = "点击黑色的钟召唤稀有。"
 L["sundancer_note"] = "点击雕像获得 {spell:332309} 增益，然后使用 {item:180445} 滑翔到稀有并骑上它。"
+L["swelling_tear_note"] = "点击 {npc:171012} 召唤三个稀有中的一个。眼泪可以在区域内的多个位置出现。"
 L["unstable_memory_note"] = "当 {npc:171018} 存在时可以刷新。拉一个 {npc:171018} 到其它会给它10层堆叠 {spell:333558}，把它变成稀有。"
 L["wingflayer_note"] = "点击附近桌上的勇气号角召唤（东南方，楼梯上）。"
 
@@ -244,6 +245,7 @@ L["mixed_pool_note"] = [[
 
 L["blackhound_cache"] = "黑犬宝箱"
 L["bladesworn_supply_cache"] = "刃誓补给箱"
+L["cache_of_eyes"] = "锐眼宝箱"
 
 L["glutharns_note"] = "在软泥瀑布后面的一个山洞里。击杀 {npc:172485} 和 {npc:172479} 解锁宝箱。"
 L["kyrian_keepsake_note"] = "检查 {npc:169664} 拾取宝藏。"
@@ -306,7 +308,7 @@ L["zerekriss_note"] = "激活后，浮空城将在该区域飞行。抓住 {npc:
 
 L["amalgamation_of_filth_note"] = "当世界任务“脏活累活：爆破计划”可做时点击一个垃圾箱并使用 {spell:324115} 进入水里。"
 L["amalgamation_of_light_note"] = "移动全部三个镜子陷阱释放稀有。"
-L["amalgamation_of_sin_note"] = "从世界任务“唤起罪业”获得 {item:180376} 并使用它召唤稀有。"
+L["amalgamation_of_sin_note"] = "使用世界任务“唤起罪业”的能量催化剂获得 {item:180376} 并使用它召唤稀有。"
 L["bog_beast_note"] = "世界任务“又脏又乱”期间有机率刷新后给 {npc:166206} 使用 {item:177880}。"
 L["endlurker_note"] = "在微光裂隙顶上点击 {npc:165229} 尸体附近的心能之桩并使用 {spell:321826}。"
 L["executioner_aatron_note"] = "击杀三个附近的 {npc:166715} 移除 {spell:324872}。"
@@ -323,7 +325,7 @@ L["lord_mortegore_note"] = "击杀周围的怪物获得 {item:174378} 并使用�
 L["madalav_note"] = "点击铁砧附近的马达拉夫的锤子召唤他。"
 L["manifestation_of_wrath_note"] = "世界任务“蜂拥之魂” {npc:169916} 恢复有几率刷新稀有。"
 L["scrivener_lenua_note"] = "返回禁忌图书馆 {npc:160753}。"
-L["sinstone_hoarder_note"] = "在小地图上显示为宝箱。尝试拾取 {npc:162503} 后稀有会出来。"
+L["sinstone_hoarder_note"] = "尝试拾取 {npc:162503} 后稀有会出来。"
 L["sire_ladinas_note"] = "拾取附近的圣光残余并使用 {spell:313065} 给 {npc:157733}。"
 L["soulstalker_doina_note"] = "跟随下楼并当她逃跑时穿过镜子。"
 L["tomb_burster_note"] = "如果 {npc:155777} 被网困住会刷新。击杀附近 {npc:155769} 和几波 {npc:155795} 直到稀有刷新。"
@@ -334,8 +336,9 @@ L["worldedge_gorger_note"] = [[
 ]]
 
 L["dredglaive_note"] = "在 {npc:173671} 尸体的桥下。"
-L["lost_quill_note"] = "从禁忌图书馆的桌上瓶子拾取 {item:182475}。"
 L["forbidden_chamber_note"] = "拾取一个废弃的心能之罐在锁着的门前学习 {spell:340701}。使用它吸取五个附近的 {npc:173838}s，然后在 {npc:173786} 前使用 {spell:340866}。"
+L["lost_quill_note"] = "从禁忌图书馆的桌上瓶子拾取 {item:182475}。"
+L["rapier_fearless_note"] = "点击地上的剑杆，然后击败 {npc:173603}。"
 L["taskmaster_trove_note"] = "阅读Ingress and Egress Rites然后小心地走到宝箱。"
 L["the_count_note"] = "获得99个 {currency:1820} 末日迷沼然后把它带给 {npc:173488}。"
 
