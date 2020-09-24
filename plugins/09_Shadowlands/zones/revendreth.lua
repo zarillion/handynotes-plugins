@@ -55,9 +55,9 @@ map.nodes[25304850] = Rare({
     }
 }) -- Amalgamation of Light
 
-map.nodes[65902940] = Rare({
+map.nodes[65782914] = Rare({
     id=170434,
-    quest=nil,
+    quest=60836,
     note=L["amalgamation_of_sin_note"],
     rewards={
         Achievement({id=14310, criteria=50029})

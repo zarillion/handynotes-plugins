@@ -308,7 +308,7 @@ L["zerekriss_note"] = "Once activated, the necropolis will fly around the zone. 
 
 L["amalgamation_of_filth_note"] = "When the world quest \"Dirty Job: Demolition Detail\" is available click on a Rubbish Box and use {spell:324115} into the water."
 L["amalgamation_of_light_note"] = "Move all three mirror traps to release the rare."
-L["amalgamation_of_sin_note"] = "Obtain {item:180376} from the \"Summon Your Sins\" world quest and use it to summon the rare."
+L["amalgamation_of_sin_note"] = "Use the Catalyst of Power to obtain {item:180376} from the \"Summon Your Sins\" world quest, then use the item to summon the rare."
 L["bog_beast_note"] = "Has a chance to spawn during the world quest \"Muck It Up\" after using {item:177880} on a {npc:166206}."
 L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."
 L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."
@@ -325,7 +325,7 @@ L["lord_mortegore_note"] = "Kill surrounding mobs to obtain {item:174378} and us
 L["madalav_note"] = "Click Madalav's Hammer on the nearby anvil to summon him."
 L["manifestation_of_wrath_note"] = "Has a chance to spawn when a {npc:169916} is recovered during the \"Swarming Souls\" world quest."
 L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
-L["sinstone_hoarder_note"] = "Appears on the minimap as a treasure chest. Attempt to loot the {npc:162503} and the rare will reveal itself."
+L["sinstone_hoarder_note"] = "Attempt to loot the {npc:162503} and the rare will reveal itself."
 L["sire_ladinas_note"] = "Pick up a Remnant of Light nearby and use {spell:313065} on {npc:157733}."
 L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
 L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769}s and waves of {npc:155795}s until the rare spawns."
