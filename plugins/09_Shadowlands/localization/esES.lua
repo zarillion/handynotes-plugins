@@ -310,7 +310,7 @@ L["zerekriss_note"] = "Una vez activada, la necrópolis volará alrededor de la 
 
 L["amalgamation_of_filth_note"] = "Cuando esté disponible la misión diaria |cFFFFFD00[Trabajo Sucio: Detalles de Demolición]|r haz click en una Caja de Basura y usa {spell:324115} dentro del agua."--Revisar que Dirty Job: Demolition Detail sea Trabajo Sucio: Detalles de Demolición, que Rubbish Box sea Caja de Basura
 L["amalgamation_of_light_note"] = "Mueve las tres trampas de espejos para liberar a {npc:164388}."
-L["amalgamation_of_sin_note"] = "Consigue la {item:180376} de la misión del mundo \"Invoca tus Pecados\" y úsala para invocar a la {npc:170434}."--Revisar que Summon Your Sins sea Invoca tus Pecados
+L["amalgamation_of_sin_note"] = "Usa el Catalizador de Poder para conseguir Use the  to obtain {item:180376} de la misión del mundo \"Invoca tus Pecados\". Usa el objeto para invocar a la {npc:170434}."--Revisar que Catalyst of Power sea Catalizador de Poder y que Summon Your Sins sea Invoca tus Pecados
 L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo |cFFFFFD00[Muck It Up]|r después de usar {item:177880} en {npc:166206}."--Revisar que nombre tiene la WQ Muck It Up
 L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:165229} y usa {spell:321826} en la parte superior de la Grieta Brillante."--Revisar qué es Anima Stake y que Shimmering Rift sea Grieta Brillante
 L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar {spell:324872}."
@@ -327,7 +327,7 @@ L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {
 L["madalav_note"] = "Haz click en el Martillo de Madalav en el yunque cercano para invocar al {npc:159496}."
 L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo |cFFFFFD00[Enjambre de Almas]|r."--Revisar que Swarming Souls sea Enjambre de Almas
 L["scrivener_lenua_note"] = "Devuelve los {npc:160753} a la Biblioteca Prohibida."--Revisar que Forbidden Library sea Biblioteca Prohibida
-L["sinstone_hoarder_note"] = "Aparece en el mapa como un cofre del tesoro. Intenta despojar el {npc:162503} y el {npc:162481} se revelará él solo."
+L["sinstone_hoarder_note"] = "Intenta despojar el {npc:162503} y el {npc:162481} se revelará él solo."
 L["sire_ladinas_note"] = "Coge un {npc:160621} cercano y usa {spell:313065} en un {npc:157733}."
 L["soulstalker_doina_note"] = "Sigue escaleras abajo y a través del espejo cuando se escape {npc:160392}."
 L["tomb_burster_note"] = "Puede aparecer si {npc:155777} queda atrapado en una telaraña. Mata los {npc:155769} cercanos y comenzarán a salir oleadas de {npc:155795} hasta que aparezca {npc:155779}."
