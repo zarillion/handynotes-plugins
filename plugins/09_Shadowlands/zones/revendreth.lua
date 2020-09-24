@@ -60,7 +60,8 @@ map.nodes[65782914] = Rare({
     quest=60836,
     note=L["amalgamation_of_sin_note"],
     rewards={
-        Achievement({id=14310, criteria=50029})
+        Achievement({id=14310, criteria=50029}),
+        Transmog({item=183730, slot=L["plate"]}) -- Sinstone-Studded Greathelm
     }
 }) -- Amalgamation of Sin
 
