@@ -220,6 +220,12 @@ ns.addon:RegisterEvent('MINIMAP_UPDATE_ZOOM', function (...)
     MinimapDataProvider:RefreshAllData()
 end)
 
+ns.addon:RegisterEvent('CVAR_UPDATE', function (_, varname)
+    if varname == 'ROTATE_MINIMAP' then
+        MinimapDataProvider:RefreshAllData()
+    end
+end)
+
 -------------------------------------------------------------------------------
 --------------------------- WORLD MAP DATA PROVIDER ---------------------------
 -------------------------------------------------------------------------------
