@@ -204,7 +204,7 @@ map.nodes[67978179] = Rare({
     rewards={
         Achievement({id=14310, criteria=48809}),
         Transmog({item=183736, slot=L["cloth"]}),
-        Pet({item=180585, id=2897}) -- Emotional Leecher
+        Pet({item=180585, id=2897}) -- Bottled Up Emotions
     }
 }) -- Leeched Soul
 
@@ -220,13 +220,13 @@ map.nodes[75976161] = Rare({
 
 map.nodes[49003490] = Rare({
     id=170048,
-    quest=nil,
+    quest=60729,
     note=L["manifestation_of_wrath_note"],
     rewards={
         Achievement({id=14310, criteria=48822}),
-        Pet({item=180591, id=2898}) -- Vial of Roiling Emotions
+        Pet({item=180585, id=2897}) -- Bottled Up Emotions
     }
-}) -- Manifestation of Wrath (World Quest required)
+}) -- Manifestation of Wrath
 
 map.nodes[38316914] = Rare({
     id=160675,
@@ -343,7 +343,7 @@ map.nodes[29693723] = Treasure({
 }) -- Makeshift Muckpool
 
 map.nodes[79993697] = Treasure({
-    quest=nil,
+    quest=62156,
     note=L["rapier_fearless_note"],
     rewards={
         Achievement({id=14314, criteria=50079})
