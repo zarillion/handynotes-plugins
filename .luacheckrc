@@ -17,6 +17,7 @@ read_globals = {
     'C_CurrencyInfo',
     'C_Map',
     'C_MapExplorationInfo',
+    'C_Minimap',
     'C_MountJournal',
     'C_PetJournal',
     'C_QuestLine',
