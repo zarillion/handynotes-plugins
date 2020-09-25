@@ -121,6 +121,7 @@ Partikel können aus entleerten Animakanistern in der Nähe gesammelt werden, di
 L["nikara_note"] = "Klicke mit zwei anderen Spielern das Uralte Räucherwerk an, um ein Ritual zu beginnen, {npc:160882} zu beschwören."
 L["sotiros_orstus_note"] = "Klicke zum Beschwören die Schwarze Glocke an."
 L["sundancer_note"] = "Klicke das Uralte Denkmal an, um den {spell:332309} zu erhalten und verwende einen {item:180445}, um zu ihm zu gleiten und aufzusitzen."
+L["swelling_tear_note"] = "Klicke den {npc:171012} an, um einen von drei Seltenen Gegnern zu beschwören. Risse können an mehreren Orten in der Zone erscheinen."
 L["unstable_memory_note"] = "Kann beschworen werden, wenn {npc:171018} anwesend ist. Ziehe dieses in andere, um ihm 10 Stapel von {spell:333558} zu gewähren, der es zu {npc:171008} heranwachsen lässt."
 L["wingflayer_note"] = "Klicke zum Beschwören das Horn des Mutes auf dem Tisch in der Nähe an. (41.6, 54.5)"
 
@@ -247,6 +248,7 @@ L["Oily"] = "Öliger Invertebrat"
 
 L["blackhound_cache"] = "Schwarzhundtruhe"
 L["bladesworn_supply_cache"] = "Vorräte des Klingenschwurs"
+L["cache_of_eyes"] = "Augenlager"
 
 L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:172485} und beide {npc:172479}|CFFFFFF00en|r, um die Truhe freizuschalten."
 L["kyrian_keepsake_note"] = "Untersuche die {npc:169664}, um den Schatz zu plündern."
@@ -276,7 +278,7 @@ Im Theater der Schmerzen, findest du im Boden steckend Kummerfluch und Oonars Ar
 
 Um {item:181164} ab zu ziehen:
 
-• Reise zu Glutherns Verfall (51.4, 48.5) im Osten.
+• Reise zu Glutherns Verfall (76.4, 56.7) im Osten.
 • Esse 4x {spell:327367} (2min debuff).
 • Benutze schnell deinen {item:6948} und zieh am Arm.
 
@@ -314,7 +316,7 @@ L["zerekriss_note"] = "Nach der Aktivierung fliegt die Nekropole durch die Zone.
 
 L["amalgamation_of_filth_note"] = "Wenn die Weltquest |cFFFFFD00[Drecksarbeit: Abrisstrupp]|r verfügbar ist, klicke auf die Abfallkiste und verwende {spell:324115} nahe des Wassers."
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
-L["amalgamation_of_sin_note"] = "Erhalte einen {item:180376} von der Weltquest |cFFFFFD00[Ruft Eure Sünden Herbei]|r und verwende es, um den {npc:170434} zu beschwören."
+L["amalgamation_of_sin_note"] = "Verwende den Catalyst of Power, um von der Weltquest |cFFFFFD00[Ruft Eure Sünden Herbei]|r einen {item:180376} zu erhalten und verwende es, um den {npc:170434} zu beschwören." --review Blizzard Translation
 L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Muck It Up]|r auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard translation /dump C_QuestLog.GetTitleForQuestID(59808)
 L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
@@ -331,7 +333,7 @@ L["lord_mortegore_note"] = "Töte Gegner in der Nähe, um eine {item:174378} zu 
 L["madalav_note"] = "Klick Madalavs Hammer auf dem Amboss in der Nähe an, um ihn zu beschwören."
 L["manifestation_of_wrath_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Seelenschwärme]|r eine {npc:169916} wiedererlangt wird."
 L["scrivener_lenua_note"] = "Bringe {npc:160753} zurück zur Verbotenen Bibliothek."
-L["sinstone_hoarder_note"] = "Erscheint auf der Minimap als Schatztruhe. Versuch den {npc:162503} zu plündern und {npc:162481} wird sich offenbaren."
+L["sinstone_hoarder_note"] = "Versuch den {npc:162503} zu plündern und {npc:162481} wird sich offenbaren."
 L["sire_ladinas_note"] = "Hebe Restlicht in der Nähe auf und verwende {spell:313065} auf einen {npc:157733}."
 L["soulstalker_doina_note"] = "Verfolge sie nach unten und durch den Spiegel wenn sie wegläuft."
 L["tomb_burster_note"] = "Kann beschworen werden, wenn {npc:155777} in einem Netz gefangen ist. Töte nahegelegene {npc:155769}|CFFFFFF00er|r und Wellen von {npc:155795}|CFFFFFF00n|r bis {npc:155779} erscheint."
@@ -342,8 +344,9 @@ Hat eine Chance die {item:180583} fallen zu lassen, welche eine 7-tägige Questr
 ]]
 
 L["dredglaive_note"] = "Unter der Brücke in der {npc:173671} Leiche."
-L["lost_quill_note"] = "Plündere {item:182475} von der Flasche auf dem Tisch in der Verbotenen Bibliothek."
 L["forbidden_chamber_note"] = "Plündere den Weggeworfenen Animakanister vor der verschlossenen Tür auf der Bank, um {spell:340701} zu erlernen. Verwende es, um fünf in der Nähe befindlichen |CFFFFFF00Stillen Beobachtern|r ihr Anima zu entziehen, dann verwende {spell:340866} vor dem {npc:173786}." --{npc:173838}
+L["lost_quill_note"] = "Plündere {item:182475} von der Flasche auf dem Tisch in der Verbotenen Bibliothek."
+L["rapier_fearless_note"] = "Klicke das Rapier auf dem Boden an und besiege {npc:173603}."
 L["taskmaster_trove_note"] = "Lies die Eintritts- und Austrittsriten und gehe behutsam zur Truhe."
 L["the_count_note"] = "Sammle 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}."
 
