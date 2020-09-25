@@ -3,8 +3,8 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
-
 local Class = ns.Class
+local HBD = LibStub('HereBeDragons-2.0')
 
 -------------------------------------------------------------------------------
 
@@ -109,12 +109,26 @@ function Path:Draw(pin, type, xy1, xy2)
     else
         local x1, y1 = HandyNotes:getXY(xy1)
         local x2, y2 = HandyNotes:getXY(xy2)
-        local x1p = x1 * pin.parentWidth
-        local x2p = x2 * pin.parentWidth
-        local y1p = y1 * pin.parentHeight
-        local y2p = y2 * pin.parentHeight
-        pin:SetSize(sqrt((x2p-x1p)^2 + (y2p-y1p)^2), line_width)
-        t:SetRotation(-math.atan2(y2p-y1p, x2p-x1p))
+        local line_length
+
+        if pin.minimap then
+            local mapID = HBD:GetPlayerZone()
+            local wx1, wy1 = HBD:GetWorldCoordinatesFromZone(x1, y1, mapID)
+            local wx2, wy2 = HBD:GetWorldCoordinatesFromZone(x2, y2, mapID)
+            local wmapDistance = sqrt((wx2-wx1)^2 + (wy2-wy1)^2)
+            local mmapDiameter = C_Minimap:GetViewRadius() * 2
+            line_length = Minimap:GetWidth() * (wmapDistance / mmapDiameter)
+            t:SetRotation(-math.atan2(wy2-wy1, wx2-wx1))
+        else
+            local x1p = x1 * pin.parentWidth
+            local x2p = x2 * pin.parentWidth
+            local y1p = y1 * pin.parentHeight
+            local y2p = y2 * pin.parentHeight
+            line_length = sqrt((x2p-x1p)^2 + (y2p-y1p)^2)
+            t:SetRotation(-math.atan2(y2p-y1p, x2p-x1p))
+        end
+        pin:SetSize(line_length, line_width)
+
         return (x1+x2)/2, (y1+y2)/2
     end
 end

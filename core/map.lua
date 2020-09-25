@@ -126,29 +126,8 @@ local MinimapPinMixin = {}
 _G[ADDON_NAME..'MinimapPinMixin'] = MinimapPinMixin
 
 MinimapDataProvider.facing = GetPlayerFacing()
-MinimapDataProvider.indoors = GetCVar("minimapZoom")+0 == Minimap:GetZoom() and "outdoor" or "indoor"
 MinimapDataProvider.pins = {}
 MinimapDataProvider.pool = {}
-
--- The HBD author has already figured out the scale values for each zoom level
-MinimapDataProvider.scales = {
-    indoor = {1, 1.25, 5/3, 2.5, 3.75, 6},
-    outdoor = {1, 7/6, 1.4, 1.75, 7/3, 3.5}
-}
-
--- These values for width/height seem to render the minimap POIs correctly. I
--- still haven't figured out how to get these values out of the API, these were
--- manually found by tweaking values at a 1.5 width/height ratio (the ratio of
--- all world maps) until things looked right =/.
-MinimapDataProvider.sizes = {
-    [1527] = {1750, 1312},   -- Uldum
-    [1530] = {700, 466},     -- Vale
-    [1525] = {1900, 1280},   -- Revendreth
-    [1533] = {2000, 1350},   -- Bastion
-    [1536] = {2000, 1350},   -- Maldraxxus
-    [1543] = {1325, 888},   -- The Maw
-    [1565] = {2000, 1500},   -- Ardenweald
-}
 
 function MinimapDataProvider:ReleaseAllPins()
     for i, pin in ipairs(self.pins) do
@@ -219,11 +198,6 @@ end
 
 function MinimapPinMixin:OnAcquired(poi, ...)
     local mapID = HBD:GetPlayerZone()
-    local scale = self.provider.scales[self.provider.indoors][Minimap:GetZoom()+1]
-    local sizes = self.provider.sizes[mapID] or {750, 500}
-    self.parentWidth = sizes[1] * scale
-    self.parentHeight = sizes[2] * scale
-
     local x, y = poi:Draw(self, ...)
     if GetCVar('rotateMinimap') == '1' then
         self.texture:SetRotation(self.texture:GetRotation() + math.pi*2 - self.provider.facing)
@@ -243,15 +217,6 @@ MinimapDataProvider:SetScript('OnUpdate', function ()
 end)
 
 ns.addon:RegisterEvent('MINIMAP_UPDATE_ZOOM', function (...)
-    local zoom = Minimap:GetZoom()
-    if GetCVar("minimapZoom") == GetCVar("minimapInsideZoom") then
-        Minimap:SetZoom(zoom < 2 and zoom + 1 or zoom - 1)
-    end
-    MinimapDataProvider.indoors = GetCVar("minimapZoom")+0 == Minimap:GetZoom() and "outdoor" or "indoor"
-    Minimap:SetZoom(zoom)
-end)
-
-hooksecurefunc(Minimap, "SetZoom", function ()
     MinimapDataProvider:RefreshAllData()
 end)
 
