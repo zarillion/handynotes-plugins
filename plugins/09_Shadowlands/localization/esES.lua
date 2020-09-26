@@ -109,7 +109,9 @@ L["herculon_note"] = [[
 Recoge {item:172451} y úsalas para dar a {npc:158659} acumulaciones de {spell:343531}. A las 10 acumulaciones, se activará.
 
 Las motas se pueden recoger de los Recipientes de Ánima Agotados cercanos localizados en la habitación o justo fuera.
-]]--Revisar si Depleted Anima Canisters son Recipientes de Ánima Agotados
+
+|cFFFF8C00No puede ser derrotado durante la misión del mundo "Asalto al Vestíbulo".|r
+]]--Revisar si Depleted Anima Canisters son Recipientes de Ánima Agotados y si Assault on the Vestibule es Asalto al Vestíbulo
 L["nikara_note"] = "Con otros dos jugadores, haz click en el Ancient Incense para invocar a {npc:160882}."
 L["sotiros_orstus_note"] = "Haz click en la Campana Negra para invocar a los raros."--Revisar si Black Bell es Campana Negra
 L["sundancer_note"] = "Haz click en la estatua para conseguir el buff {spell:332309}, entonces usa {item:180445} para planear hasta {npc:170548} y montarlo."
