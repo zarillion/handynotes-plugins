@@ -225,6 +225,7 @@ L["gieger_note"] = "Tira de {npc:162815} para activar a {npc:162741}."
 L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:162588}."
 L["leeda_note"] = "Mata a los {npc:162220} hasta que aparezca {npc:162180}."
 L["malkorak_note"] = "En lo alto de la torre (montones de escaleras)."
+L["sabriel_note"] = "Puede aparecer como uno de los campeones del Teatro del Dolor."--Revisar que Theater of Pain sea Teatro del Dolor
 L["schmitd_note"] = "Usa el {spell:313451} cercano para romper su escudo."
 L["taskmaster_xox_note"] = "Comparte lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
 L["zargox_the_reborn_note"] = "Usa el {item:175841} encima de {npc:157124} para invocar a {npc:157125}. Para conseguir el {item:175841} tienes que completar la misión \"La Vida Etérea\" que da {npc:157076} y vuelve a hablar con él de nuevo."-->Revisar que The Aetherlife sea La Vida Etérea
