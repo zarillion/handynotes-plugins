@@ -226,7 +226,7 @@ L["malkorak_note"] = "At the top of the tower (lots of stairs)."
 L["sabriel_note"] = "Can appear as one of the champions in the Theater of Pain."
 L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
 L["taskmaster_xox_note"] = "Shares a spawn with {npc:160204}, {npc:160230} and {npc:160226}."
-L["zargox_the_reborn_note"] = "Use {item:175841} on top of the {npc:157124}. To obtain the orb, you must complete the quest \"The Aetherlife\" from {npc:157076} and talk to him again."
+L["zargox_the_reborn_note"] = "Use {item:175841} on top of the {npc:157124}. To obtain the orb, you must complete the quest {quest:57245} from {npc:157076} and talk to him again."
 L["mixed_pool_note"] = [[
 Gather ingredients from the surrounding mobs and toss them into the pool. Once 30 ingredients have been added, one of seven rares will spawn depending on the combination used.
 

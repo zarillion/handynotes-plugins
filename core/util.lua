@@ -67,6 +67,8 @@ local function PrepareLinks(str)
             NameResolver:Prepare(("unit:Creature-0-0-0-0-%d"):format(id))
         elseif type == 'item' then
             GetItemInfo(tonumber(id)) -- prime item info
+        elseif type == 'quest' then
+            C_QuestLog.GetTitleForQuestID(tonumber(id)) -- prime quest title
         elseif type == 'spell' then
             GetSpellInfo(tonumber(id)) -- prime spell info
         end
@@ -101,6 +103,11 @@ local function RenderLinks(str, nameOnly)
             if link and icon then
                 if nameOnly then return name end
                 return '|T'..icon..':0:0:1:-1|t '..link
+            end
+        elseif type == 'quest' then
+            local name = C_QuestLog.GetTitleForQuestID(tonumber(id))
+            if name then
+                return ns.icons.quest_yellow:link(12)..ns.color.Yellow(name)
             end
         elseif type == 'spell' then
             local name, _, icon = GetSpellInfo(tonumber(id))
