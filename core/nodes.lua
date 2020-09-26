@@ -236,7 +236,7 @@ function Node:Render(tooltip)
         for i, req in ipairs(self.requires) do
             if IsInstance(req, Requirement) then
                 color = req:IsMet() and ns.color.White or ns.color.Red
-                text = color(L["Requires"]..' '..req.text)
+                text = color(L["Requires"]..' '..req:GetText())
             else
                 text = ns.color.Red(L["Requires"]..' '..req)
             end

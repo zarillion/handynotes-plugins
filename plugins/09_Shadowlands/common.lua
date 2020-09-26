@@ -7,7 +7,6 @@ local Class = ns.Class
 local Group = ns.Group
 local L = ns.locale
 local Map = ns.Map
-local Requirement = ns.requirement.Requirement
 
 -------------------------------------------------------------------------------
 ---------------------------------- CALLBACKS ----------------------------------
@@ -96,20 +95,6 @@ ns.groups.VEN_NETWORK = SLGroup({
     covenant=ns.covenants.VEN,
     defaults=ns.GROUP_HIDDEN
 })
-
--------------------------------------------------------------------------------
---------------------------------- REQUIREMENTS --------------------------------
--------------------------------------------------------------------------------
-
-local AnimaChannel = Class('AnimaChannel', Requirement)
-
-function AnimaChannel:IsMet()
-    local info = C_Garrison.GetTalentInfo(self.id)
-    self.text = L["anima_channeled"]:format(info.name)
-    return info and info.researched
-end
-
-ns.requirement.AnimaChannel = AnimaChannel
 
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------

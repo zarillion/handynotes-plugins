@@ -265,7 +265,7 @@ map.nodes[22432285] = Sotirstus({
    id=156339,
    quest=61634,
    covenant=KYRIAN,
-   requires=ns.requirement.AnimaChannel({id=1241}),
+   requires=ns.requirement.GarrisonTalent({id=1241, text=L["anima_channeled"]}),
    note=L["sotiros_orstus_note"],
    rewards={
        Achievement({id=14307, criteria=50618})
@@ -320,7 +320,7 @@ map.nodes[40635306] = Rare({
     id=167078,
     quest={60314,62197},
     covenant=KYRIAN,
-    requires=ns.requirement.AnimaChannel({id=1238}),
+    requires=ns.requirement.GarrisonTalent({id=1238, text=L["anima_channeled"]}),
     note=L["wingflayer_note"],
     rewards={
         Achievement({id=14307, criteria=50600}),
@@ -667,16 +667,19 @@ local Gateway = Class('Gateway', ns.node.Node, {
 })
 
 local R = L["transport_research"]
+local T1 = ns.requirement.GarrisonTalent({id=1056, text=R:format(1)})
+local T2 = ns.requirement.GarrisonTalent({id=1057, text=R:format(2)})
+local T3 = ns.requirement.GarrisonTalent({id=1058, text=R:format(3)})
 
-map.nodes[40715520] = Gateway({ label=L["xandrias_vigil"], sublabel=R:format(1) })
-map.nodes[48327284] = Gateway({ label=L["aspirants_rest"], sublabel=R:format(1) })
-map.nodes[51754681] = Gateway({ label=L["heros_rest"], sublabel=R:format(1) })
+map.nodes[40715520] = Gateway({ label=L["xandrias_vigil"], requires=T1 })
+map.nodes[48327284] = Gateway({ label=L["aspirants_rest"], requires=T1 })
+map.nodes[51754681] = Gateway({ label=L["heros_rest"], requires=T1 })
 
-map.nodes[44163302] = Gateway({ label=L["sagehaven"], sublabel=R:format(2) })
-map.nodes[58363097] = Gateway({ label=L["seat_of_eternal_hymns"], sublabel=R:format(2) })
-map.nodes[59427711] = Gateway({ label=L["temple_of_purity"], sublabel=R:format(2) })
+map.nodes[44163302] = Gateway({ label=L["sagehaven"], requires=T2 })
+map.nodes[58363097] = Gateway({ label=L["seat_of_eternal_hymns"], requires=T2 })
+map.nodes[59427711] = Gateway({ label=L["temple_of_purity"], requires=T2 })
 
-map.nodes[66594790] = Gateway({ label=L["temple_of_humility"], sublabel=R:format(3) })
-map.nodes[32322045] = Gateway({ label=L["exaltations_rise"], sublabel=R:format(3) })
+map.nodes[66594790] = Gateway({ label=L["temple_of_humility"], requires=T3 })
+map.nodes[32322045] = Gateway({ label=L["exaltations_rise"], requires=T3 })
 
-sanctum.nodes[48606168] = Gateway({ label=L["eternal_gateway"], sublabel=R:format(1) })
+sanctum.nodes[48606168] = Gateway({ label=L["eternal_gateway"], requires=T1 })

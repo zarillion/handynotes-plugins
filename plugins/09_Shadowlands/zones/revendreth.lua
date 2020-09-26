@@ -131,7 +131,7 @@ map.nodes[32641545] = Rare({
     id=159496,
     quest=61618,
     covenant=VENTHYR,
-    requires=ns.requirement.AnimaChannel({id=1259}),
+    requires=ns.requirement.GarrisonTalent({id=1259, text=L["anima_channeled"]}),
     note=L["madalav_note"],
     rewards={
         Achievement({id=14310, criteria=48804})
@@ -154,7 +154,7 @@ map.nodes[45847919] = Rare({
     id=165290,
     quest=59612,
     covenant=VENTHYR,
-    requires=ns.requirement.AnimaChannel({id=1256}),
+    requires=ns.requirement.GarrisonTalent({id=1256, text=L["anima_channeled"]}),
     note=L["harika_note"],
     rewards={
         Achievement({id=14310, criteria=48813}),
@@ -609,29 +609,32 @@ local BloodMirror = Class('BloodMirror', ns.node.Node, {
 })
 
 local R = L["transport_research"]
+local T1 = ns.requirement.GarrisonTalent({id=1047, text=R:format(1)})
+local T2 = ns.requirement.GarrisonTalent({id=1048, text=R:format(2)})
+local T3 = ns.requirement.GarrisonTalent({id=1049, text=R:format(3)})
 
-map.nodes[56803250] = BloodMirror({ label=L["eternal_terrace"], sublabel=R:format(1) })
-map.nodes[70707540] = BloodMirror({ label=L["pridefall_hamlet"], sublabel=R:format(1) })
+map.nodes[56803250] = BloodMirror({ label=L["eternal_terrace"], requires=T1 })
+map.nodes[70707540] = BloodMirror({ label=L["pridefall_hamlet"], requires=T1 })
 
-map.nodes[43505720] = BloodMirror({ label=L["the_banewood"], sublabel=R:format(2) })
-map.nodes[73604390] = BloodMirror({ label=L["halls_of_atonement"], sublabel=R:format(2) })
+map.nodes[43505720] = BloodMirror({ label=L["the_banewood"], requires=T2 })
+map.nodes[73604390] = BloodMirror({ label=L["halls_of_atonement"], requires=T2 })
 
-map.nodes[25502690] = BloodMirror({ label=L["dominance_keep"], sublabel=R:format(3) })
-map.nodes[58306280] = BloodMirror({ label=L["feeders_thicket"], sublabel=R:format(3) })
+map.nodes[25502690] = BloodMirror({ label=L["dominance_keep"], requires=T3 })
+map.nodes[58306280] = BloodMirror({ label=L["feeders_thicket"], requires=T3 })
 
 -------------------------------------------------------------------------------
 
 local reaches = Map({ id=1699 })
 local depths = Map({ id=1700 })
 
-reaches.nodes[42073630] = BloodMirror({ label=L["pridefall_hamlet"], sublabel=R:format(1) })
-reaches.nodes[46054944] = BloodMirror({ label=L["eternal_terrace"], sublabel=R:format(1) })
+reaches.nodes[42073630] = BloodMirror({ label=L["pridefall_hamlet"], requires=T1 })
+reaches.nodes[46054944] = BloodMirror({ label=L["eternal_terrace"], requires=T1 })
 
-depths.nodes[58383662] = BloodMirror({ label=L["the_banewood"], sublabel=R:format(2) })
-depths.nodes[63625343] = BloodMirror({ label=L["halls_of_atonement"], sublabel=R:format(2) })
+depths.nodes[58383662] = BloodMirror({ label=L["the_banewood"], requires=T2 })
+depths.nodes[63625343] = BloodMirror({ label=L["halls_of_atonement"], requires=T2 })
 
-depths.nodes[71841967] = BloodMirror({ label=L["feeders_thicket"], sublabel=R:format(3) })
-depths.nodes[80984895] = BloodMirror({ label=L["dominance_keep"], sublabel=R:format(3) })
+depths.nodes[71841967] = BloodMirror({ label=L["feeders_thicket"], requires=T3 })
+depths.nodes[80984895] = BloodMirror({ label=L["dominance_keep"], requires=T3 })
 
 -------------------------------------------------------------------------------
 -------------------------------- LOYAL GORGER ---------------------------------

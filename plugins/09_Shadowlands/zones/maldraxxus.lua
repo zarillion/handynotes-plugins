@@ -92,7 +92,7 @@ map.nodes[31603540] = Rare({
     id=162741,
     quest=58872,
     covenant=NECROLORD,
-    requires=ns.requirement.AnimaChannel({id=1250}),
+    requires=ns.requirement.GarrisonTalent({id=1250, text=L["anima_channeled"]}),
     note=L["gieger_note"],
     rewards={
         Achievement({id=14308, criteria=48871}),
@@ -167,7 +167,7 @@ map.nodes[50354728] = Rare({
     id=168147,
     quest=nil,
     covenant=NECROLORD,
-    requires=ns.requirement.AnimaChannel({id=1253}),
+    requires=ns.requirement.GarrisonTalent({id=1253, text=L["anima_channeled"]}),
     note=L["activation_unknown"],
     rewards={
         Achievement({id=14308, criteria=48874}),
@@ -592,10 +592,14 @@ local Deathgate = Class('Deathgate', ns.node.Node, {
 })
 
 local R = L["transport_research"]
-local GATE_SEAT = Deathgate({ label=L["overlook_primus"], sublabel=R:format(1) })
-local GATE_NURA = Deathgate({ label=L["nurakkir"], sublabel=R:format(1) })
-local GATE_ZERE = Deathgate({ label=L["zerekriss"], sublabel=R:format(2) })
-local GATE_EXOR = Deathgate({ label=L["exoramas"], sublabel=R:format(3) })
+local T1 = ns.requirement.GarrisonTalent({id=1050, text=R:format(1)})
+local T2 = ns.requirement.GarrisonTalent({id=1051, text=R:format(2)})
+local T3 = ns.requirement.GarrisonTalent({id=1052, text=R:format(3)})
+
+local GATE_SEAT = Deathgate({ label=L["overlook_primus"], requires=T1 })
+local GATE_NURA = Deathgate({ label=L["nurakkir"], requires=T1 })
+local GATE_ZERE = Deathgate({ label=L["zerekriss"], requires=T2 })
+local GATE_EXOR = Deathgate({ label=L["exoramas"], requires=T3 })
 local GATE_PH = Deathgate({ label=L["???"] })
 
 map.nodes[50397398] = GATE_SEAT

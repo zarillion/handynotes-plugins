@@ -18,6 +18,7 @@ Base class for all node requirements.
 --]]
 
 local Requirement = Class('Requirement', nil, { text = UNKNOWN })
+function Requirement:GetText() return self.text end
 function Requirement:IsMet() return false end
 
 -------------------------------------------------------------------------------
@@ -33,6 +34,22 @@ end
 function Currency:IsMet()
     local info = C_CurrencyInfo.GetCurrencyInfo(self.id)
     return info and info.quantity >= self.count
+end
+
+-------------------------------------------------------------------------------
+------------------------------- GARRISON TALENT -------------------------------
+-------------------------------------------------------------------------------
+
+local GarrisonTalent = Class('GarrisonTalent', Requirement)
+
+function GarrisonTalent:GetText()
+    local info = C_Garrison.GetTalentInfo(self.id)
+    return self.text:format(info.name)
+end
+
+function GarrisonTalent:IsMet()
+    local info = C_Garrison.GetTalentInfo(self.id)
+    return info and info.researched
 end
 
 -------------------------------------------------------------------------------
@@ -101,6 +118,7 @@ end
 
 ns.requirement = {
     Currency=Currency,
+    GarrisonTalent=GarrisonTalent,
     Item=Item,
     Requirement=Requirement,
     Spell=Spell
