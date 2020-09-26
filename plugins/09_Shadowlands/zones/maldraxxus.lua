@@ -163,18 +163,19 @@ map.nodes[53841877] = Rare({
     }
 }) -- Ravenomous
 
-map.nodes[50354728] = Rare({
+map.nodes[51744439] = Rare({
     id=168147,
-    quest=nil,
+    quest=58784,
     covenant=NECROLORD,
     requires=ns.requirement.GarrisonTalent({id=1253, text=L["anima_channeled"]}),
-    note=L["activation_unknown"],
+    note=L["sabriel_note"],
     rewards={
         Achievement({id=14308, criteria=48874}),
         Achievement({id=14802, criteria=48874}),
-        Mount({item=182083, id=1374}) -- Bonecleaver's Skullboar
+        Mount({item=182083, id=1374}), -- Bonecleaver's Skullboar
+        Mount({item=182075, id=1374}) -- Bonehoof Tauralus
     }
-}) -- Sabreil the Bonecleaver
+}) -- Sabriel the Bonecleaver
 
 map.nodes[62107580] = Rare({
     id=158406,
@@ -283,11 +284,24 @@ map.nodes[58197421] = Rare({
     }
 })
 
-------------------------- THEATER OF PAIN -------------------------
+------------------------------- THEATER OF PAIN -------------------------------
 
--- Unbreakable Urtz 62786
--- Ti'or ???
--- They all might share the same daily quest id
+map.nodes[50354728] = Rare({
+    id=162853,
+    quest=62786,
+    label=C_Map.GetMapInfo(1683).name,
+    rewards = {
+        Achievement({id=14802, criteria={
+            50397, -- Azmogal
+            50398, -- Unbreakable Urtz
+            50399, -- Xantuth the Blighted
+            50400, -- Mistress Dyrax
+            50402, -- Devmorta
+            50403, -- Ti'or
+            48874  -- Sabriel the Bonecleaver
+        }})
+    }
+})
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
