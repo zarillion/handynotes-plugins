@@ -103,13 +103,9 @@ ns.groups.VEN_NETWORK = SLGroup({
 
 local AnimaChannel = Class('AnimaChannel', Requirement)
 
-function AnimaChannel:Initialize()
-    local info = C_Garrison.GetTalentInfo(self.id)
-    self.text = L["anima_channeled"]:format(info.name)
-end
-
 function AnimaChannel:IsMet()
     local info = C_Garrison.GetTalentInfo(self.id)
+    self.text = L["anima_channeled"]:format(info.name)
     return info and info.researched
 end
 

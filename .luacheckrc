@@ -15,6 +15,7 @@ read_globals = {
     'AuraUtil',
     'C_Covenants',
     'C_CurrencyInfo',
+    'C_Garrison',
     'C_Map',
     'C_MapExplorationInfo',
     'C_Minimap',
@@ -31,6 +32,9 @@ read_globals = {
     'GetAchievementCriteriaInfoByID',
     'GetAchievementInfo',
     'GetAchievementLink',
+    'GetContainerItemID',
+    'GetContainerItemInfo',
+    'GetContainerNumSlots',
     'GetCVar',
     'GetItemInfo',
     'GetItemSpecInfo',
@@ -45,6 +49,7 @@ read_globals = {
     'PlaySound',
     'UiMapPoint',
     'UnitFactionGroup',
+    'UnitAura',
     'UnitName',
 
     -- WoW Widget Functions
