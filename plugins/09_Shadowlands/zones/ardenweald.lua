@@ -277,20 +277,20 @@ map.nodes[58306180] = Rare({
 
 map.nodes[41254443] = Rare({
     id=171743,
-    quest=nil,
+    quest=61633,
     covenant=NIGHTFAE,
     requires=ns.requirement.GarrisonTalent({id=1244, text=L["anima_channeled"]}),
     label=L["star_lake"],
     note=L["star_lake_note"],
     rewards = {
         Achievement({id=14309, criteria={
-            {id=48709, quest=61633}, -- Astra, As Azshara
-            {id=48710, quest=nil}, -- Dreamweaver, As N'Zoth
-            {id=48704, quest=nil}, -- Glimmerdust, As Jaina
-            {id=48707, quest=nil}, -- Glimmerdust, As Kil'Jaeden
-            {id=48708, quest=nil}, -- Mi'Kai, As Argus
-            {id=48705, quest=nil}, -- Niya, As Xavius
-            {id=48706, quest=nil}  -- Senthii, As Gul'dan
+            48709, -- Astra, As Azshara
+            48710, -- Dreamweaver, As N'Zoth
+            48704, -- Glimmerdust, As Jaina
+            48707, -- Glimmerdust, As Kil'Jaeden
+            48708, -- Mi'Kai, As Argus
+            48705, -- Niya, As Xavius
+            48706  -- Senthii, As Gul'dan
         }}),
         Achievement({id=14353, criteria={
             48708, -- Argus

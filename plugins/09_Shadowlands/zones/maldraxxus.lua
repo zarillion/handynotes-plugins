@@ -316,6 +316,16 @@ map.nodes[36797862] = Treasure({
     label=L["bladesworn_supply_cache"]
 }) -- Bladesworn Supply Cache
 
+map.nodes[54011234] = Treasure({
+    quest=nil,
+    label=L["cache_of_eyes"],
+    note=L["cache_of_eyes_note"],
+    rewards={
+        -- Achievement({id=14312, criteria=50070}),
+        Pet({item=181171, id=2947}) -- Luminous Webspinner
+    }
+}) -- Cache of Eyes
+
 map.nodes[49441509] = Treasure({
     quest=59244,
     rewards={
@@ -470,21 +480,6 @@ map.nodes[51444848] = Treasure({
         POI({50945317, 37114699, 53634792, 76445672})
     }
 }) -- Oonar's Arm and Sorrowbane
-
--------------------------------------------------------------------------------
-
-local cache_of_eyes = Treasure({
-    quest=nil,
-    label=L["cache_of_eyes"],
-    rewards={
-        -- Achievement({id=14312, criteria=50070}),
-        Pet({item=181171, id=2947}) -- Luminous Webspinner
-    }
-}) -- Cache of Eyes
-
-local sightless_hold = Map({ id=1650, settings=false })
-map.nodes[55251160] = cache_of_eyes
-sightless_hold.nodes[62307139] = cache_of_eyes
 
 -------------------------------------------------------------------------------
 

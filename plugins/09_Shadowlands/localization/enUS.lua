@@ -108,7 +108,7 @@ Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}
 
 Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside.
 
-|cFFFF8C00Cannot be defeated during the "Assault on the Vestibule" world quest.|r
+|cFFFF8C00Cannot be defeated during the {wq:Assault on the Vestibule} world quest.|r
 ]]
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
 L["sotiros_orstus_note"] = "Click the Black Bell to summon the rares."
@@ -240,6 +240,7 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 L["blackhound_cache"] = "Blackhound Cache"
 L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
 L["cache_of_eyes"] = "Cache of Eyes"
+L["cache_of_eyes_note"] = "Spawns at multiple locations within the Sightless Hold."
 
 L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
 L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
@@ -276,7 +277,7 @@ To pull {item:180273} free:
 
 • Purchase 1 {item:182163} from {npc:171808} in Revendreth.
 • Purchase 1 {item:180771} from {npc:166640} in Maldraxxus.
-• Get 2 stacks of {spell:306272} from the |cFFFFFD00[A Few Bumps Along the Way]|r world quest to the west.
+• Get 2 stacks of {spell:306272} from the {wq:A Few Bumps Along the Way} world quest to the west.
 • Eat 4x {spell:327367} in Glutharn's Decay.
 • Quickly hearth, drink both potions and pull on the sword.
 ]]
@@ -300,10 +301,10 @@ L["zerekriss_note"] = "Once activated, the necropolis will fly around the zone. 
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_filth_note"] = "When the world quest \"Dirty Job: Demolition Detail\" is available click on a Rubbish Box and use {spell:324115} into the water."
+L["amalgamation_of_filth_note"] = "When the world quest {wq:Dirty Job: Demolition Detail} is available click on a Rubbish Box and use {spell:324115} into the water."
 L["amalgamation_of_light_note"] = "Move all three mirror traps to release the rare."
-L["amalgamation_of_sin_note"] = "Use the Catalyst of Power to obtain {item:180376} from the \"Summon Your Sins\" world quest, then use the item to summon the rare."
-L["bog_beast_note"] = "Has a chance to spawn during the world quest \"Muck It Up\" after using {item:177880} on a {npc:166206}."
+L["amalgamation_of_sin_note"] = "Use the Catalyst of Power to obtain {item:180376} from the {wq:Summon Your Sins} world quest, then use the item to summon the rare."
+L["bog_beast_note"] = "Has a chance to spawn during the world quest {wq:Muck It Up} after using {item:177880} on a {npc:166206}."
 L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."
 L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."
 L["famu_note"] = "Talk to {npc:166483} to trigger the event."
@@ -317,7 +318,7 @@ L["innervus_note"] = "Kill nearby {npc:160375}s to obtain a {item:177223} and un
 L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
 L["lord_mortegore_note"] = "Kill surrounding mobs to obtain {item:174378} and use it to empower a {npc:161870}. The rare will spawn once all four sigils are empowered."
 L["madalav_note"] = "Click Madalav's Hammer on the nearby anvil to summon him."
-L["manifestation_of_wrath_note"] = "Has a chance to spawn when a {npc:169916} is recovered during the \"Swarming Souls\" world quest."
+L["manifestation_of_wrath_note"] = "Has a chance to spawn when a {npc:169916} is recovered during the {wq:Swarming Souls} world quest."
 L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
 L["sinstone_hoarder_note"] = "Attempt to loot the {npc:162503} and the rare will reveal itself."
 L["sire_ladinas_note"] = "Pick up a Remnant of Light nearby and use {spell:313065} on {npc:157733}."

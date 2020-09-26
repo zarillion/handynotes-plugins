@@ -61,56 +61,56 @@ end
 
 local function PrepareLinks(str)
     if not str then return end
-    for type, id in str:gmatch('{(%l+):(%d+)}') do
-        id = tonumber(id)
+    for type, id in str:gmatch('{(%l+):(%w+)}') do
         -- NOTE: no prep apprears to be necessary for currencies
         if type == 'npc' then
             NameResolver:Prepare(("unit:Creature-0-0-0-0-%d"):format(id))
         elseif type == 'item' then
-            GetItemInfo(id) -- prime item info
+            GetItemInfo(tonumber(id)) -- prime item info
         elseif type == 'spell' then
-            GetSpellInfo(id) -- prime spell info
+            GetSpellInfo(tonumber(id)) -- prime spell info
         end
     end
 end
 
 local function RenderLinks(str, nameOnly)
-    return str:gsub('{(%l+):(%d+)}', function (type, id)
-        id = tonumber(id)
+    return str:gsub('{(%l+):([^}]+)}', function (type, id)
         if type == 'npc' then
             local name = NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))
             if nameOnly then return name end
             return ns.color.NPC(name)
         elseif type == 'achievement' then
             if nameOnly then
-                local _, name = GetAchievementInfo(id)
+                local _, name = GetAchievementInfo(tonumber(id))
                 if name then return name end
             else
-                local link = GetAchievementLink(id)
+                local link = GetAchievementLink(tonumber(id))
                 if link then return link end
             end
         elseif type == 'currency' then
-            local info = C_CurrencyInfo.GetCurrencyInfo(id)
+            local info = C_CurrencyInfo.GetCurrencyInfo(tonumber(id))
             if info then
                 if nameOnly then return info.name end
-                local link = C_CurrencyInfo.GetCurrencyLink(id, 0)
+                local link = C_CurrencyInfo.GetCurrencyLink(tonumber(id), 0)
                 if link then
                     return '|T'..info.iconFileID..':0:0:1:-1|t '..link
                 end
             end
         elseif type == 'item' then
-            local name, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
+            local name, link, _, _, _, _, _, _, _, icon = GetItemInfo(tonumber(id))
             if link and icon then
                 if nameOnly then return name end
                 return '|T'..icon..':0:0:1:-1|t '..link
             end
         elseif type == 'spell' then
-            local name, _, icon = GetSpellInfo(id)
+            local name, _, icon = GetSpellInfo(tonumber(id))
             if name and icon then
                 if nameOnly then return name end
                 local spell = ns.color.Spell('|Hspell:'..id..'|h['..name..']|h')
                 return '|T'..icon..':0:0:1:-1|t '..spell
             end
+        elseif type == 'wq' then
+            return ns.icons.world_quest:link(16)..ns.color.Yellow(id)
         end
         return type..'+'..id
     end)
