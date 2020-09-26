@@ -252,7 +252,7 @@ map.nodes[30115536] = Rare({
     id=168647,
     quest=61632,
     covenant=NIGHTFAE,
-    requires=L["achan_tirna_scithe"],
+    requires=ns.requirement.AnimaChannel({id=1247}),
     note=L["valfir_note"],
     rewards={
         Achievement({id=14309, criteria=48796}),
@@ -279,7 +279,7 @@ map.nodes[41254443] = Rare({
     id=171743,
     quest=nil,
     covenant=NIGHTFAE,
-    requires=L["achan_dreamsong_fenn"],
+    requires=ns.requirement.AnimaChannel({id=1244}),
     label=L["star_lake"],
     note=L["star_lake_note"],
     rewards = {

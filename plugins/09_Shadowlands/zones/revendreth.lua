@@ -131,7 +131,7 @@ map.nodes[32641545] = Rare({
     id=159496,
     quest=61618,
     covenant=VENTHYR,
-    requires=L["achan_dominance_keep"],
+    requires=ns.requirement.AnimaChannel({id=1259}),
     note=L["madalav_note"],
     rewards={
         Achievement({id=14310, criteria=48804})
@@ -154,7 +154,7 @@ map.nodes[45847919] = Rare({
     id=165290,
     quest=59612,
     covenant=VENTHYR,
-    requires=L["achan_wanecrypt_hill"],
+    requires=ns.requirement.AnimaChannel({id=1256}),
     note=L["harika_note"],
     rewards={
         Achievement({id=14310, criteria=48813}),

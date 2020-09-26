@@ -15,16 +15,7 @@ L["options_title"] = "暗影国度"
 
 L["covenant_required"] = "需要%s盟约成员。"
 L["transport_research"] = "需要传送网络%d级"
-
-local ACHAN = "心能连接到%s。"
-L["achan_citadel_of_loyalty"] = ACHAN:format('忠诚堡垒')
-L["achan_dominance_keep"] = ACHAN:format('统御要塞')
-L["achan_dreamsong_fenn"] = ACHAN:format('梦歌沼泽')
-L["achan_house_of_constructs"] = ACHAN:format('造物密院')
-L["achan_temple_of_courage"] = ACHAN:format('勇气神庙')
-L["achan_theater_of_pain"] = ACHAN:format('伤逝剧场')
-L["achan_tirna_scithe"] = ACHAN:format('塞兹仙林')
-L["achan_wanecrypt_hill"] = ACHAN:format('凋窖岭')
+L["anima_channeled"] = "心能连接到%s。"
 
 L["options_icons_fae_network_desc"] = "显示全部法夜蘑网的传送目的地。"
 L["options_icons_fae_network"] = "菌丝网络"

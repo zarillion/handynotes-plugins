@@ -17,16 +17,7 @@ L["options_title"] = "Shadowlands"
 
 L["covenant_required"] = "Requiere ser miembro de la curia %s."
 L["transport_research"] = "Requiere Red de Transporte al Rango %d"
-
-local ACHAN = "ánima canalizada a %s."
-L["achan_citadel_of_loyalty"] = ACHAN:format('Ciudadela de la Lealtad')--Revisar que Citadel of Loyalty sea Ciudadela de la Lealtad
-L["achan_dominance_keep"] = ACHAN:format('Fortaleza de la Dominancia')--Revisar que Dominance Keep sea Fortaleza de la Dominancia
-L["achan_dreamsong_fenn"] = ACHAN:format('Canción del Sueño de Fenn')--Revisar Dreamsong Fenn sea Canción del Sueño de Fenn
-L["achan_house_of_constructs"] = ACHAN:format('Casa de las Construcciones')--Revisar que House of Constructs sea Casa de las Construcciones
-L["achan_temple_of_courage"] = ACHAN:format('Templo del Coraje')--Revisar que Temple of Courage sea Templo del Coraje
-L["achan_theater_of_pain"] = ACHAN:format('Teatro del Dolor')--Revisar que Theater of Pain sea Teatro del Dolor
-L["achan_tirna_scithe"] = ACHAN:format('Guadaña de Tirna')--Revisar que Tirna Scithe sea Guadaña de Tirna
-L["achan_wanecrypt_hill"] = ACHAN:format('Cripta de la Colina Inclinada')--Revisar que Wanecrypt Hill sea Cripta de la Colina Inclinada
+L["anima_channeled"] = "ánima canalizada a %s."
 
 L["options_icons_fae_network_desc"] = "Muestra todos los destinos de los transportes para la red de setas de las Sílfides Nocturnas."
 L["options_icons_fae_network"] = "Red Mycelial"--Revisar si es Mycelial

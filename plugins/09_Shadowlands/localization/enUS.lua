@@ -15,16 +15,7 @@ L["options_title"] = "Shadowlands"
 
 L["covenant_required"] = "Requires a member of the %s covenant."
 L["transport_research"] = "Requires Transport Network Tier %d"
-
-local ACHAN = "anima channeled to %s."
-L["achan_citadel_of_loyalty"] = ACHAN:format('Citadel of Loyalty')
-L["achan_dominance_keep"] = ACHAN:format('Dominance Keep')
-L["achan_dreamsong_fenn"] = ACHAN:format('Dreamsong Fenn')
-L["achan_house_of_constructs"] = ACHAN:format('House of Constructs')
-L["achan_temple_of_courage"] = ACHAN:format('Temple of Courage')
-L["achan_theater_of_pain"] = ACHAN:format('Theater of Pain')
-L["achan_tirna_scithe"] = ACHAN:format('Tirna Scithe')
-L["achan_wanecrypt_hill"] = ACHAN:format('Wanecrypt Hill')
+L["anima_channeled"] = "anima channeled to %s."
 
 L["options_icons_fae_network_desc"] = "Display all transport destinations for the Night Fae mushroom network."
 L["options_icons_fae_network"] = "Mycelial Network"

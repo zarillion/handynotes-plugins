@@ -92,7 +92,7 @@ map.nodes[31603540] = Rare({
     id=162741,
     quest=58872,
     covenant=NECROLORD,
-    requires=L["achan_house_of_constructs"],
+    requires=ns.requirement.AnimaChannel({id=1250}),
     note=L["gieger_note"],
     rewards={
         Achievement({id=14308, criteria=48871}),
@@ -167,7 +167,7 @@ map.nodes[50354728] = Rare({
     id=168147,
     quest=nil,
     covenant=NECROLORD,
-    requires=L["achan_theater_of_pain"],
+    requires=ns.requirement.AnimaChannel({id=1253}),
     note=L["activation_unknown"],
     rewards={
         Achievement({id=14308, criteria=48874}),

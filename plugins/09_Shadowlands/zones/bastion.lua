@@ -265,7 +265,7 @@ map.nodes[22432285] = Sotirstus({
    id=156339,
    quest=61634,
    covenant=KYRIAN,
-   requires=L["achan_citadel_of_loyalty"],
+   requires=ns.requirement.AnimaChannel({id=1241}),
    note=L["sotiros_orstus_note"],
    rewards={
        Achievement({id=14307, criteria=50618})
@@ -320,7 +320,7 @@ map.nodes[40635306] = Rare({
     id=167078,
     quest={60314,62197},
     covenant=KYRIAN,
-    requires=L["achan_temple_of_courage"],
+    requires=ns.requirement.AnimaChannel({id=1238}),
     note=L["wingflayer_note"],
     rewards={
         Achievement({id=14307, criteria=50600}),

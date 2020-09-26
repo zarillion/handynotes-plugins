@@ -15,16 +15,7 @@ L["options_title"] = "Shadowlands"
 
 L["covenant_required"] = "Benötigt ein Paktmitglied der %s"
 L["transport_research"] = "Benötigt Stufe %d des Reisenetzwerks"
-
-local ACHAN = "Anima %s kanalisiert."
-L["achan_citadel_of_loyalty"] = ACHAN:format('zur Zitadelle der Loyalität') --review wrong Blizzard Translation Loyalität = Treue
-L["achan_dominance_keep"] = ACHAN:format('zur Herrschaftsburg')
-L["achan_dreamsong_fenn"] = ACHAN:format('nach Traumsang Fenn')
-L["achan_house_of_constructs"] = ACHAN:format('zum Haus der Konstrukte')
-L["achan_temple_of_courage"] = ACHAN:format('zum Tempel des Mutes')
-L["achan_theater_of_pain"] = ACHAN:format('Theater der Schmerzen')
-L["achan_tirna_scithe"] = ACHAN:format('nach Tirna Scithe')
-L["achan_wanecrypt_hill"] = ACHAN:format('zum Schwundgrufthügel')
+L["anima_channeled"] "Anima %s kanalisiert."
 
 L["options_icons_fae_network_desc"] = "Zeigt alle Pilze für das Reisenetzwerk der Nachtfae an."
 L["options_icons_fae_network"] = "Pilznetzwerk"
