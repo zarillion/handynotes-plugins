@@ -116,6 +116,8 @@ L["herculon_note"] = [[
 Collect {item:172451} and use them to give {npc:158659} stacks of {spell:343531}. At 10 stacks, he will activate.
 
 Motes can be collected from nearby Depleted Anima Canisters located in the room or just outside.
+
+|cFFFF8C00Cannot be defeated during the "Assault on the Vestibule" world quest.|r
 ]]
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
 L["sotiros_orstus_note"] = "Click the Black Bell to summon the rares."

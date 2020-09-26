@@ -103,7 +103,7 @@ map.nodes[27885248] = Rare({
 map.nodes[32423026] = Rare({
     id=164112,
     quest=59157,
-    requires="{item:175247}",
+    requires=ns.requirement.Item({id=175247}),
     note=L["humongozz_note"],
     rewards={
         Achievement({id=14309, criteria=48782}),
@@ -174,7 +174,7 @@ map.nodes[57874983] = Rare({
     id=168135,
     quest=60306,
     covenant=NIGHTFAE,
-    requires='{item:178675}',
+    requires=ns.requirement.Item({id=178675}),
     note=L["night_mare_note"],
     rewards={
         Achievement({id=14309, criteria=48793}),
@@ -336,7 +336,7 @@ map.nodes[63893778] = Treasure({
 
 map.nodes[36236527] = Treasure({
     quest=61110,
-    requires='{item:180652}',
+    requires=ns.requirement.Item({id=180652}),
     note=L["cache_of_the_night"],
     rewards={
         Achievement({id=14313, criteria=50044}),

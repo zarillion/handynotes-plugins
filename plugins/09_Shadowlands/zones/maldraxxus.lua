@@ -247,7 +247,7 @@ map.nodes[33538086] = Rare({
 map.nodes[28965138] = Rare({
     id=157125,
     quest=62079,
-    requires='{item:175841}',
+    requires=ns.requirement.Item({id=175841}),
     note=L["zargox_the_reborn_note"],
     rewards={
         Achievement({id=14308, criteria=48864})
@@ -389,7 +389,7 @@ map.nodes[57667581] = Treasure({
 
 map.nodes[64672475] = Treasure({
     quest=61514,
-    requires='{spell:337041}',
+    requires=ns.requirement.Spell({id=337041}),
     note=L["ritualists_cache_note"],
     rewards={
         Achievement({id=14312, criteria=50075}),
@@ -403,7 +403,7 @@ map.nodes[64672475] = Treasure({
 
 map.nodes[31737004] = Treasure({
     quest=61491,
-    requires="{item:181777}",
+    requires=ns.requirement.Item({id=181777}),
     note=L["runespeakers_trove_note"],
     rewards={
         Achievement({id=14312, criteria=50073}),

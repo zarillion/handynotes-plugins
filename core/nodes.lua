@@ -7,6 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Group = ns.Group
 local IsInstance = ns.IsInstance
+local Requirement = ns.requirement.Requirement
 
 -------------------------------------------------------------------------------
 ------------------------------------ NODE -------------------------------------
@@ -47,6 +48,11 @@ function Node:Initialize()
         if type(self[key]) == 'number' then self[key] = {self[key]} end
     end
 
+    -- normalize requirements as a table
+    if type(self.requires) == 'string' or IsInstance(self.requires, Requirement) then
+        self.requires = {self.requires}
+    end
+
     -- materialize group if given as a name
     if not IsInstance(self.group, Group) then
         error('group attribute must be a Group class instance: '..self.group)
@@ -54,15 +60,6 @@ function Node:Initialize()
 
     -- display nodes on minimap by default
     self.minimap = self.minimap ~= false
-end
-
---[[
-The requires attribute is used to indicate some sort of requirement to
-interact with this node. It is often an item, spell or currency.
---]]
-
-function Node.setters:requires(requirement)
-    self.sublabel = ns.color.Red(L["Requires"]..' '..requirement)
 end
 
 --[[
@@ -200,6 +197,7 @@ function Node:Render(tooltip)
     -- render the label text with NPC names resolved
     tooltip:SetText(ns.NameResolver:Resolve(self.label))
 
+    local color, text
     local rlabel = self.rlabel or ''
 
     if self.questCount and self.quest and #self.quest then
@@ -210,7 +208,7 @@ function Node:Render(tooltip)
                 count = count + 1
             end
         end
-        local color = (count == #self.quest) and ns.status.Green or ns.status.Gray
+        color = (count == #self.quest) and ns.status.Green or ns.status.Gray
         rlabel = rlabel..' '..color(tostring(count)..'/'..#self.quest)
     end
 
@@ -228,16 +226,28 @@ function Node:Render(tooltip)
         rtext:Show()
     end
 
-    -- optional text under label, usually used to indicate a oneline
-    -- requirement such as a key, item or covenant
+    -- optional text directly under label
     if self.sublabel then
         tooltip:AddLine(ns.RenderLinks(self.sublabel, true), 1, 1, 1)
+    end
+
+    -- display item, spell or other requirements
+    if self.requires then
+        for i, req in ipairs(self.requires) do
+            if IsInstance(req, Requirement) then
+                color = req:IsMet() and ns.color.White or ns.color.Red
+                text = color(L["Requires"]..' '..req.text)
+            else
+                text = ns.color.Red(L["Requires"]..' '..req)
+            end
+            tooltip:AddLine(ns.RenderLinks(text, true))
+        end
     end
 
     -- additional text for the node to describe how to interact with the
     -- object or summon the rare
     if self.note and ns.addon.db.profile.show_notes then
-        if self.sublabel then tooltip:AddLine(" ") end
+        if self.requires or self.sublabel then tooltip:AddLine(" ") end
         tooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)
     end
 

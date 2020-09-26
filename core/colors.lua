@@ -14,6 +14,7 @@ ns.COLORS = {
     Red = 'FFFF0000',
     Orange = 'FFFF8C00',
     Yellow = 'FFFFFF00',
+    White = 'FFFFFFFF',
     --------------------
     NPC = 'FFFFFD00',
     Spell = 'FF71D5FF'

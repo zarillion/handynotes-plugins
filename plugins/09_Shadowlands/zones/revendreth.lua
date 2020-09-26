@@ -189,7 +189,7 @@ map.nodes[61717949] = Rare({
 map.nodes[21803590] = Rare({
     id=160640,
     quest=58210,
-    requires="{item:177223}",
+    requires=ns.requirement.Item({id=177223}),
     note=L["innervus_note"],
     rewards={
         Achievement({id=14310, criteria=48801}),
@@ -300,7 +300,7 @@ map.nodes[43007910] = Rare({
 map.nodes[38607200] = Rare({
     id=160821,
     quest=58259,
-    requires="{item:173939}",
+    requires=ns.requirement.Item({id=173939}),
     note=L["worldedge_gorger_note"],
     rewards={
         Achievement({id=14310, criteria=48805}),
@@ -335,7 +335,7 @@ map.nodes[37726925] = Treasure({
 
 map.nodes[29693723] = Treasure({
     quest=62198,
-    requires="{currency:1820} x30",
+    requires=ns.requirement.Currency({id=1820, count=30}),
     rewards={
         Achievement({id=14314, criteria=50081}),
         Toy({item=182780}) -- Muckpool Cookpot
@@ -369,7 +369,7 @@ map.nodes[63367398] = Treasure({
 
 map.nodes[57374337] = Treasure({
     quest=nil,
-    requires="{currency:1820} x99",
+    requires=ns.requirement.Currency({id=1820, count=99}),
     note=L["the_count_note"],
     rewards={
         Achievement({id=14314, criteria=50078}),
