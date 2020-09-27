@@ -25,6 +25,11 @@ jobs:
       - name: Install luacheck
         run: luarocks install luacheck
 
+      - name: Install Python 3.8
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
       - name: Lint Sources
         run: |
           luacheck core plugins tests/test_*.lua
