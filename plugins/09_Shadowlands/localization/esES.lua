@@ -47,7 +47,7 @@ L["wrigglemortis_note"] = "Estira el {npc:164179} para sacarlo de la tierra y ha
 L["night_mare_note"] = [[
 Viaja a Guadaña de Tirna y sigue el camino de la raíz, en el acantilado noroeste, hasta llegar a un carro roto. Allí podrás despojar una {item:181243} en el suelo.
 
-Lleva ese objeto a {npc:165704} a la Cuenca de la Caida Relumbrante. Te dará una {item:181242} a cambio de 10 {item:173204}. |cFFFF8C00Si no está aquí el NPC, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormling|r y |cFFFFFD00Spriggans Difíciles|r quest lines.|r
+Lleva ese objeto a {npc:165704} a la Cuenca de la Caida Relumbrante. Te dará una {item:181242} a cambio de 10 {item:173204}. |cFFFF8C00Si no está aquí el NPC, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormling|r y |cFFFFFD00Spriggans Difíciles|r.|r
 
 Después, habla con {npc:160262} en el Corazón del Bosque para cambiarle la {item:181242} por un {item:178675}. Usa este objeto para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
 ]]--Revisar que Tirna Scithe sea Guadaña de Tirna, que follow the root path sea sigue el camino de la raíz o sigue el camino de raices, que Glitterfall Basin sea Cuenca de la Caida Relumbrante, que Trouble at the Gormling Corral sea Problemas en el Corral de Gormling, que Tricky Spriggans sean Spriggans Difíciles, que Heart of the Forest sea Corazón del Bosque
@@ -228,7 +228,7 @@ L["malkorak_note"] = "En lo alto de la torre (montones de escaleras)."
 L["sabriel_note"] = "Puede aparecer como uno de los campeones del Teatro del Dolor."--Revisar que Theater of Pain sea Teatro del Dolor
 L["schmitd_note"] = "Usa el {spell:313451} cercano para romper su escudo."
 L["taskmaster_xox_note"] = "Comparte lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
-L["zargox_the_reborn_note"] = "Usa el {item:175841} encima de {npc:157124} para invocar a {npc:157125}. Para conseguir el {item:175841} tienes que completar la misión \"La Vida Etérea\" que da {npc:157076} y vuelve a hablar con él de nuevo."-->Revisar que The Aetherlife sea La Vida Etérea
+L["zargox_the_reborn_note"] = "Usa el {item:175841} encima de {npc:157124} para invocar a {npc:157125}. Para conseguir el {item:175841} tienes que completar la misión {quest:57245} que da {npc:157076} y vuelve a hablar con él de nuevo."
 L["mixed_pool_note"] = [[
 Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando hayan sido añadidos 30 ingredientes, aparecerá uno de los siete raros dependiendo de la combinación usada.
 
