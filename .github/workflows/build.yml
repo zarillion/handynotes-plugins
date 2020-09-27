@@ -26,7 +26,9 @@ jobs:
         run: luarocks install luacheck
 
       - name: Lint Sources
-        run: luacheck core plugins tests/test_*
+        run: |
+          luacheck core plugins tests/test_*.lua
+          python tests/test_locales.py
 
       # TODO: write script to iterate and run multiple test files
       - name: Run Tests
