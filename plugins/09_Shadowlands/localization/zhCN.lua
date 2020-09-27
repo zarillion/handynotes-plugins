@@ -107,6 +107,8 @@ L["herculon_note"] = [[
 收集 {item:172451} 并使用给 {npc:158659} 堆叠 {spell:343531}。10层时，他将激活。
 
 可以从房间内或室外的耗尽的心能之罐中收集微粒。
+
+|cFFFF8C00不能在世界任务 {wq:突袭前庭} 期间击败。|r
 ]]
 L["nikara_note"] = "和两名其他玩家，点击远古焚香来召唤。"
 L["sotiros_orstus_note"] = "点击黑色的钟召唤稀有。"
@@ -221,9 +223,10 @@ L["gieger_note"] = "攻击 {npc:162815} 后激活稀有。"
 L["gristlebeak_note"] = "破坏附近的 {npc:162761} 后激活稀有。"
 L["leeda_note"] = "击杀两个 {npc:162220} 单位后稀有刷新。"
 L["malkorak_note"] = "在塔顶（很多楼梯）。"
+L["sabriel_note"] = "可以作为伤逝剧场的冠军之一出现。"
 L["schmitd_note"] = "使用附近的 {spell:313451} 破坏他的护盾。"
 L["taskmaster_xox_note"] = "与 {npc:160204}，{npc:160230} 和 {npc:160226} 共享刷新。"
-L["zargox_the_reborn_note"] = "使用 {item:175841} 位于 {npc:157124} 顶上。获得宝珠，你必须完成 {npc:157076} 的任务“以太生命”之后再与他交谈。"
+L["zargox_the_reborn_note"] = "使用 {item:175841} 位于 {npc:157124} 顶上。获得宝珠，你必须完成 {npc:157076} 的任务 {quest:57245} 之后再与他交谈。"
 L["mixed_pool_note"] = [[
 从周围怪物收集材料并扔进池中。每30个材料，根据所使用的组合，将刷新七个稀有中的一个。
 
@@ -237,6 +240,7 @@ L["mixed_pool_note"] = [[
 L["blackhound_cache"] = "黑犬宝箱"
 L["bladesworn_supply_cache"] = "刃誓补给箱"
 L["cache_of_eyes"] = "锐眼宝箱"
+L["cache_of_eyes_note"] = "在盲眼堡垒有多个刷新点。"
 
 L["glutharns_note"] = "在软泥瀑布后面的一个山洞里。击杀 {npc:172485} 和 {npc:172479} 解锁宝箱。"
 L["kyrian_keepsake_note"] = "检查 {npc:169664} 拾取宝藏。"
@@ -273,7 +277,7 @@ L["oonar_sorrowbane_note"] = [[
 
 • 从雷文德斯的 {npc:171808} 买个 {item:182163}。
 • 从玛卓克萨斯的 {npc:166640} 买个 {item:180771}。
-• 从 |cFFFFFD00[一路磕磕绊绊]|r 世界任务西侧得到2层 {spell:306272}。
+• 从 |cFFFFFD00{wq:一路磕磕绊绊}|r 世界任务西侧得到2层 {spell:306272}。
 • 在格拉萨恩之腐吃4层 {spell:327367}。
 • 迅速炉石，喝下2种药水并拉出大宝剑。
 ]]
@@ -297,10 +301,10 @@ L["zerekriss_note"] = "激活后，浮空城将在该区域飞行。抓住 {npc:
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_filth_note"] = "当世界任务“脏活累活：爆破计划”可做时点击一个垃圾箱并使用 {spell:324115} 进入水里。"
+L["amalgamation_of_filth_note"] = "当世界任务 {wq:脏活累活：爆破计划} 可做时点击一个垃圾箱并使用 {spell:324115} 进入水里。"
 L["amalgamation_of_light_note"] = "移动全部三个镜子陷阱释放稀有。"
-L["amalgamation_of_sin_note"] = "使用世界任务“唤起罪业”的能量催化剂获得 {item:180376} 并使用它召唤稀有。"
-L["bog_beast_note"] = "世界任务“又脏又乱”期间有机率刷新后给 {npc:166206} 使用 {item:177880}。"
+L["amalgamation_of_sin_note"] = "使用世界任务 {wq:唤起罪业} 的能量催化剂获得 {item:180376} 并使用它召唤稀有。"
+L["bog_beast_note"] = "世界任务 {wq:又脏又乱} 期间有机率刷新后给 {npc:166206} 使用 {item:177880}。"
 L["endlurker_note"] = "在微光裂隙顶上点击 {npc:165229} 尸体附近的心能之桩并使用 {spell:321826}。"
 L["executioner_aatron_note"] = "击杀三个附近的 {npc:166715} 移除 {spell:324872}。"
 L["famu_note"] = "和 {npc:166483} 交谈触发事件。"
@@ -314,7 +318,7 @@ L["innervus_note"] = "击杀附近的 {npc:160375} 获得 {item:177223} 并打�
 L["leeched_soul_note"] = "进入附近的墓穴。走到 {npc:165151} 附近开始事件。"
 L["lord_mortegore_note"] = "击杀周围的怪物获得 {item:174378} 并使用它强化 {npc:161870}。所有四个徽记获得强化，稀有就会刷新。"
 L["madalav_note"] = "点击铁砧附近的马达拉夫的锤子召唤他。"
-L["manifestation_of_wrath_note"] = "世界任务“蜂拥之魂” {npc:169916} 恢复有几率刷新稀有。"
+L["manifestation_of_wrath_note"] = "世界任务 {wq:蜂拥之魂} 的 {npc:169916} 恢复有几率刷新稀有。"
 L["scrivener_lenua_note"] = "返回禁忌图书馆 {npc:160753}。"
 L["sinstone_hoarder_note"] = "尝试拾取 {npc:162503} 后稀有会出来。"
 L["sire_ladinas_note"] = "拾取附近的圣光残余并使用 {spell:313065} 给 {npc:157733}。"
