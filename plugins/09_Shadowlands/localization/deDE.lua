@@ -15,7 +15,7 @@ L["options_title"] = "Shadowlands"
 
 L["covenant_required"] = "Benötigt ein Paktmitglied der %s"
 L["transport_research"] = "Benötigt Stufe %d des Reisenetzwerks"
-L["anima_channeled"] "Anima %s kanalisiert."
+L["anima_channeled"] = "Anima %s kanalisiert."
 
 L["options_icons_fae_network_desc"] = "Zeigt alle Pilze für das Reisenetzwerk der Nachtfae an."
 L["options_icons_fae_network"] = "Pilznetzwerk"
