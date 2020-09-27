@@ -110,7 +110,7 @@ Recoge {item:172451} y úsalas para dar a {npc:158659} acumulaciones de {spell:3
 
 Las motas se pueden recoger de los Recipientes de Ánima Agotados cercanos localizados en la habitación o justo fuera.
 
-|cFFFF8C00No puede ser derrotado durante la misión del mundo "Asalto al Vestíbulo".|r
+|cFFFF8C00No puede ser derrotado durante la misión del mundo {wq:Asalto al Vestíbulo}.|r
 ]]--Revisar si Depleted Anima Canisters son Recipientes de Ánima Agotados y si Assault on the Vestibule es Asalto al Vestíbulo
 L["nikara_note"] = "Con otros dos jugadores, haz click en el Ancient Incense para invocar a {npc:160882}."
 L["sotiros_orstus_note"] = "Haz click en la Campana Negra para invocar a los raros."--Revisar si Black Bell es Campana Negra
@@ -242,6 +242,7 @@ Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando 
 L["blackhound_cache"] = "Alijo del Can Negro"--Revisar que Blackhound Cache sea Alijo del Can Negro
 L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
 L["cache_of_eyes"] = "Alijo de Ojos"--Revisar que Cache of Eyes sea Alijo de ojos
+L["cache_of_eyes_note"] = "Aparece en varios sitios dentro del Bastión del Invidente."--Revisar que Sightless Hold sea Bastión del Invidente
 
 L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
 L["kyrian_keepsake_note"] = "Inspecciona el {npc:169664} para despojar el tesoro."
@@ -278,7 +279,7 @@ Para tirar de {item:180273} sin problemas:
 
 • Compra 1 {item:182163} de {npc:171808} en Revendreth.
 • Compra 1 {item:180771} de {npc:166640} en Maldraxxus.
-• Consigue 2 acumulaciones de {spell:306272} de la misión del mundo |cFFFFFD00[Algunos Baches en el Camino]|r al oeste.
+• Consigue 2 acumulaciones de {spell:306272} de la misión del mundo {wq:Algunos Baches en el Camino} al oeste.
 • Come 4 {spell:327367} en la Corrupción de Glutharn al este.
 • Vuelve volando rápidamente al Teatro del Dolor con la {item:6948}, bébete ambas pociones y tira de la espada.
 ]]--Revisar que Glutharn's Decay sea Corrupción de Glutharn, que A Few Bumps Along the Way sea Algunos Baches en el Camino
@@ -302,10 +303,10 @@ L["zerekriss_note"] = "Una vez activada, la necrópolis volará alrededor de la 
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_filth_note"] = "Cuando esté disponible la misión diaria |cFFFFFD00[Trabajo Sucio: Detalles de Demolición]|r haz click en una Caja de Basura y usa {spell:324115} dentro del agua."--Revisar que Dirty Job: Demolition Detail sea Trabajo Sucio: Detalles de Demolición, que Rubbish Box sea Caja de Basura
+L["amalgamation_of_filth_note"] = "Cuando esté disponible la misión del mundo {wq:Trabajo Sucio: Detalles de Demolición} haz click en una Caja de Basura y usa {spell:324115} dentro del agua."--Revisar que Dirty Job: Demolition Detail sea Trabajo Sucio: Detalles de Demolición, que Rubbish Box sea Caja de Basura
 L["amalgamation_of_light_note"] = "Mueve las tres trampas de espejos para liberar a {npc:164388}."
-L["amalgamation_of_sin_note"] = "Usa el Catalizador de Poder para conseguir Use the  to obtain {item:180376} de la misión del mundo \"Invoca tus Pecados\". Usa el objeto para invocar a la {npc:170434}."--Revisar que Catalyst of Power sea Catalizador de Poder y que Summon Your Sins sea Invoca tus Pecados
-L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo |cFFFFFD00[Muck It Up]|r después de usar {item:177880} en {npc:166206}."--Revisar que nombre tiene la WQ Muck It Up
+L["amalgamation_of_sin_note"] = "Usa el Catalizador de Poder para conseguir Use the  to obtain {item:180376} de la misión del mundo {wq:Invoca tus Pecados}. Usa el objeto para invocar a la {npc:170434}."--Revisar que Catalyst of Power sea Catalizador de Poder y que Summon Your Sins sea Invoca tus Pecados
+L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo {wq:Muck It Up} después de usar {item:177880} en {npc:166206}."--Revisar que nombre tiene la WQ Muck It Up
 L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:165229} y usa {spell:321826} en la parte superior de la Grieta Brillante."--Revisar qué es Anima Stake y que Shimmering Rift sea Grieta Brillante
 L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar {spell:324872}."
 L["famu_note"] = "Habla con {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}."
@@ -319,7 +320,7 @@ L["innervus_note"] = "Mata a los {npc:160375} cercanos para conseguir la {item:1
 L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca de {npc:165151} para comenzar el evento tras el cual aparecerá {npc:165152}."
 L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}."
 L["madalav_note"] = "Haz click en el Martillo de Madalav en el yunque cercano para invocar al {npc:159496}."
-L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo |cFFFFFD00[Enjambre de Almas]|r."--Revisar que Swarming Souls sea Enjambre de Almas
+L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo {wq:Enjambre de Almas}."--Revisar que Swarming Souls sea Enjambre de Almas
 L["scrivener_lenua_note"] = "Devuelve los {npc:160753} a la Biblioteca Prohibida."--Revisar que Forbidden Library sea Biblioteca Prohibida
 L["sinstone_hoarder_note"] = "Intenta despojar el {npc:162503} y el {npc:162481} se revelará él solo."
 L["sire_ladinas_note"] = "Coge un {npc:160621} cercano y usa {spell:313065} en un {npc:157733}."
