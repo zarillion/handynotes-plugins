@@ -108,6 +108,8 @@ L["herculon_note"] = [[
 Sammel {item:172451} und verwende dieses, um {npc:158659} Stapel von {spell:343531} zu gewähren. Bei 10 Stapeln wird er aktiv.
 
 Partikel können aus entleerten Animakanistern in der Nähe gesammelt werden, die sich in diesem Raum oder direkt außerhalb befinden.
+
+|cFFFF8C00Kann nicht während der Weltquest {wq:Angriff auf die Vorhallen} besiegt werden.
 ]]
 L["nikara_note"] = "Klicke mit zwei anderen Spielern das Uralte Räucherwerk an, um ein Ritual zu beginnen, {npc:160882} zu beschwören."
 L["sotiros_orstus_note"] = "Klicke zum Beschwören die Schwarze Glocke an."
@@ -222,9 +224,10 @@ L["gieger_note"] = "Ziehe an {npc:162815}, um {npc:162741} zu aktivieren."
 L["gristlebeak_note"] = "Zerbrich jedes {npc:162761} in der Nähe, daraufhin wird {npc:162588} zu euch herunter geflogen kommen."
 L["leeda_note"] = "Töte die zwei {npc:162220} bis {npc:162180} erscheint."
 L["malkorak_note"] = "An der Spitze des Turms \n(eine menge Treppenstufen)."
+L["sabriel_note"] = "Kann als einer der Champions im Theater der Schmerzen auftreten."
 L["schmitd_note"] = "Benutze nahegelegene {spell:313451}, um sein Schild zu brechen."
 L["taskmaster_xox_note"] = "Teilt sich einen spawn mit {npc:160204}, {npc:160230} und {npc:160226}."
-L["zargox_the_reborn_note"] = "Verwende die {item:175841} auf der {npc:157124}. Die {item:175841} erhälst du, wenn du die Quest |cFFFFFD00[Das Ätherleben]|r von {npc:157076} abschließen und nochmal mit ihm sprichst."
+L["zargox_the_reborn_note"] = "Verwende die {item:175841} auf der {npc:157124}. Die {item:175841} erhälst du, wenn du die Quest {quest:57245} von {npc:157076} abschließen und nochmal mit ihm sprichst."
 L["mixed_pool_note"] = [[
 Sammel Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 30 Materialien hinzugefügt wurden, erscheint je nach verwendeter Kombination einer von sieben seltenen Gegnern.
 
@@ -240,6 +243,7 @@ L["Oily"] = "Öliger Invertebrat"
 L["blackhound_cache"] = "Schwarzhundtruhe"
 L["bladesworn_supply_cache"] = "Vorräte des Klingenschwurs"
 L["cache_of_eyes"] = "Augenlager"
+L["cache_of_eyes_note"] = "Erscheint an mehreren Positionen in der Augenlosen Festung."
 
 L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:172485} und beide {npc:172479}|CFFFFFF00en|r, um die Truhe freizuschalten."
 L["kyrian_keepsake_note"] = "Untersuche die {npc:169664}, um den Schatz zu plündern."
@@ -280,7 +284,7 @@ Um {item:180273} heraus zu ziehen:
 • Kaufe 1x {item:180771} von
    {npc:166640} in Maldraxxus (50.9, 53.2).
 • Erhalte 2 Stapel {spell:306272} von der Weltquest
-   |cFFFFFD00[Ein oder zwei Steine im Weg]|r im Westen (37.0, 46.9).
+   {wq:Ein oder zwei Steine im Weg} im Westen (37.0, 46.9).
 • Esse 4x {spell:327367} in Glutherns Verfall.
 • Benutze schnell deinen {item:6948}, trink beim
    Schwert die beiden Tränke und ziehe an diesem.
@@ -305,10 +309,10 @@ L["zerekriss_note"] = "Nach der Aktivierung fliegt die Nekropole durch die Zone.
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_filth_note"] = "Wenn die Weltquest |cFFFFFD00[Drecksarbeit: Abrisstrupp]|r verfügbar ist, klicke auf die Abfallkiste und verwende {spell:324115} nahe des Wassers."
+L["amalgamation_of_filth_note"] = "Wenn die Weltquest {wq:Drecksarbeit: Abrisstrupp} verfügbar ist, klicke auf die Abfallkiste und verwende {spell:324115} nahe des Wassers."
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
-L["amalgamation_of_sin_note"] = "Verwende den Catalyst of Power, um von der Weltquest |cFFFFFD00[Ruft Eure Sünden Herbei]|r einen {item:180376} zu erhalten und verwende es, um den {npc:170434} zu beschwören." --review Blizzard Translation
-L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Muck It Up]|r auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard translation /dump C_QuestLog.GetTitleForQuestID(59808)
+L["amalgamation_of_sin_note"] = "Verwende den Catalyst of Power, um von der Weltquest {wq:Ruft Eure Sünden Herbei} einen {item:180376} zu erhalten und verwende es, um den {npc:170434} zu beschwören." --review Blizzard Translation
+L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest {wq:Muck It Up} auf einen {npc:166206} {item:177880} angewendet wird." --review Blizzard translation /dump C_QuestLog.GetTitleForQuestID(59808)
 L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
 L["famu_note"] = "Sprich mit {npc:166483}, um das Event auszulösen."
@@ -322,7 +326,7 @@ L["innervus_note"] = "Töte |CFFFFFF00Wilde Ritualisten|r in der Gegend, um eine
 L["leeched_soul_note"] = "In der nahe gelegenen Krypta. Gehe in die Nähe von {npc:165151}, um das Event zu starten."
 L["lord_mortegore_note"] = "Töte Gegner in der Nähe, um eine {item:174378} zu erhalten und verwende diese, um ein {npc:161870} zu ermächtigen. {npc:161891} wird erscheinen, wenn alle vier Siegel ermächtigt wurden."
 L["madalav_note"] = "Klick Madalavs Hammer auf dem Amboss in der Nähe an, um ihn zu beschwören."
-L["manifestation_of_wrath_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest |cFFFFFD00[Seelenschwärme]|r eine {npc:169916} wiedererlangt wird."
+L["manifestation_of_wrath_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest {wq:Seelenschwärme} eine {npc:169916} wiedererlangt wird."
 L["scrivener_lenua_note"] = "Bringe {npc:160753} zurück zur Verbotenen Bibliothek."
 L["sinstone_hoarder_note"] = "Versuch den {npc:162503} zu plündern und {npc:162481} wird sich offenbaren."
 L["sire_ladinas_note"] = "Hebe Restlicht in der Nähe auf und verwende {spell:313065} auf einen {npc:157733}."
