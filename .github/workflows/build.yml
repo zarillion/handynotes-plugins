@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install Lua
+      - name: Install lua
         uses: leafo/gh-actions-lua@v6
         with:
           luaVersion: 5.3
@@ -25,17 +25,17 @@ jobs:
       - name: Install luacheck
         run: luarocks install luacheck
 
-      - name: Install Python 3.8
+      - name: Install python 3.8
         uses: actions/setup-python@v2
         with:
           python-version: '3.8'
 
-      - name: Lint Sources
+      - name: Lint sources
         run: |
           luacheck core plugins tests/test_*.lua
           python tests/test_locales.py
 
       # TODO: write script to iterate and run multiple test files
-      - name: Run Tests
+      - name: Run tests
         run: lua test_class.lua
         working-directory: tests

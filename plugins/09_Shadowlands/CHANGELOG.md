@@ -5,6 +5,8 @@
 * Added notes for rares with anima channeling requirements.
 * Added info/loot to numerous rares and treasures.
 * Added highlight and focus glows for *all* icons.
+* Requirement text will now turn white once met (item, spell, etc).
+* Added a workaround for the [MINIMAP_UPDATE_ZOOM bug](https://www.curseforge.com/wow/addons/herebedragons/issues/28).
 * Added zhCN translation (thanks Adavak!)
 
 # v4
