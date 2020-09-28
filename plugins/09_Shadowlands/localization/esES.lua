@@ -20,13 +20,13 @@ L["transport_research"] = "Requiere Red de Transporte al Rango %d"
 L["anima_channeled"] = "ánima canalizada a %s."
 
 L["options_icons_fae_network_desc"] = "Muestra todos los destinos de los transportes para la red de setas de las Sílfides Nocturnas."
-L["options_icons_fae_network"] = "Red Mycelial"--Revisar NO ESTÁ Mycelial
+L["options_icons_fae_network"] = "Red Mycelial"--Revisar (SPELLNAME) Mycelial
 L["options_icons_kyr_network_desc"] = "Muestra todos los destinos de los transportes para la red de Portales Kyrianos."
 L["options_icons_kyr_network"] = "Portales Kyrianos"
-L["options_icons_nec_network_desc"] = "Muestra todos los destinos de los transportes para los Portones de la Muerte de Hueso de los Necroseñores."--Revisar que Bone Deathgates sea Portón de la Muerte de Hueso
-L["options_icons_nec_network"] = "Portones de la Muerte de Hueso"--Revisar NO ESTÁ que Bone Deathgates sea Portón de la Muerte de Hueso
-L["options_icons_ven_network_desc"] = "Muestra todos los destinos de los transportes para los Espejos de Sangre de los Venthyr."--Revisar que Blood Mirrors sea Espejos de Sangre
-L["options_icons_ven_network"] = "Espejos de Sangre"--Revisar NO ESTÁ que Blood Mirrors sea Espejos de Sangre
+L["options_icons_nec_network_desc"] = "Muestra todos los destinos de los transportes para los Portones de la Muerte de Hueso de los Necroseñores."--Revisar (NO DATABLE) que Bone Deathgates sea Portón de la Muerte de Hueso
+L["options_icons_nec_network"] = "Portones de la Muerte de Hueso"--Revisar (NO DATABLE) que Bone Deathgates sea Portón de la Muerte de Hueso
+L["options_icons_ven_network_desc"] = "Muestra todos los destinos de los transportes para los Espejos de Sangre de los Venthyr."--Revisar (SPELLNAME) que Blood Mirrors sea Espejos de Sangre
+L["options_icons_ven_network"] = "Espejos de Sangre"--Revisar (SPELLNAME) que Blood Mirrors sea Espejos de Sangre
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -34,33 +34,33 @@ L["options_icons_ven_network"] = "Espejos de Sangre"--Revisar NO ESTÁ que Blood
 
 L["deifir_note"] = "Monta {npc=164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente."
 L["faeflayer_note"] = "En una cueva pequeña escondida tras una cascada."
-L["humongozz_note"] = "Planta una {item:175247} en la Tierra Húmeda para hacer aparecer {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. La seta cae de muchos enemigos de la zona."--Revisar NO ESTÁ que Damp Loam sea Tierra Húmeda
-L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca {npc:167851}. En una cueva (entrada al sureste en las Madrigueras Polvorientas Dusty Burrows(58.5 31.9))."--Revisar NO ESTÁ Dusty Burrows sea Madrigueras Polvorientas y Revisar que Quivering Gorm Eggs sean Huevos de Gorm Temblorosos
+L["humongozz_note"] = "Planta una {item:175247} en la Tierra Húmeda para hacer aparecer {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. La seta cae de muchos enemigos de la zona."--Revisar (NO DATABLE) que Damp Loam sea Tierra Húmeda
+L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca {npc:167851}. En una cueva (entrada al sureste en las Madrigueras Polvorientas Dusty Burrows(58.5 31.9))."--Revisar (AREATABLE) que Dusty Burrows sea Madrigueras Polvorientas y Revisar (NO DATABLE) que Quivering Gorm Eggs sean Huevos de Gorm Temblorosos
 L["rainbowhorn_note"] = "\n|cffff4800¡|r|cffff9100P|r|cffffda00r|r|cffdaff00u|r|cff91ff00e|r|cff48ff00b|r|cff00ff00a|r |cff00ff91e|r|cff00ffdal|r |cff0091ffA|r|cff0048ffr|r|cff0000ffc|r|cff4800ffo|r |cffda00ffI|r|cffff00dar|r|cffff0091i|r|cffff0048s|r|cffff0000!|r"
 L["rootwrithe_note"] = "Empuja a las {npc:167928} hasta que aparezca {npc=167726}."
 L["rotbriar_note"] = "Habla con {npc:171684} y comenzará a cantar. Tras algo de diálogo, aparecerá {npc:167724} cerca."
 L["slumbering_note"] = "Correr hacia la niebla te dormirá en pocos segundos y te alejará. Usa una bengala o una mascota con daño en área para sacar a {npc=167721} fuera de la niebla."
 L["skuld_vit_note"] = "En una cueva bloqueada por una barrera. Con el hechizo {spell:310143} de la curia de las Sílfides Nocturnas se podrá atravesar la barrera y entrar en la cueva. Una vez haya sido pulleado {npc=164415}, la barrera desaparecerá."
-L["valfir_note"] = "Haz click en la Semilla de Ánima Brillante a mitad de camino y usa {spell:338045} para quitar el buff {spell:338038} de {npc=168647}."--Revisar NO ESTÁ que Sparkling Animaseed sea Semilla de Ánima Brillante
+L["valfir_note"] = "Haz click en la Semilla de Ánima Brillante a mitad de camino y usa {spell:338045} para quitar el buff {spell:338038} de {npc=168647}."--Revisar (VIGNETTE) que Sparkling Animaseed sea Semilla de Ánima Brillante
 L["wrigglemortis_note"] = "Estira el {npc:164179} para sacarlo de la tierra y hacer aparecer a {npc=164147}."
 
 L["night_mare_note"] = [[
-Viaja a Guadaña de Tirna y sigue el camino de la raíz, en el acantilado noroeste, hasta llegar a un carro roto. Allí podrás despojar una {item:181243} en el suelo.
+Viaja a Tirna Scithe y sigue el camino de la raíz, en el acantilado noroeste, hasta llegar a un carro roto. Allí podrás despojar una {item:181243} en el suelo.
 
 Lleva ese objeto a {npc:165704} a la Cuenca Brillocascada. Te dará una {item:181242} a cambio de 10 {item:173204}. |cFFFF8C00Si no está aquí el NPC, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormling|r y |cFFFFFD00Spriggans Difíciles|r.|r
 
 Después, habla con {npc:160262} en el Corazón del Bosque para cambiarle la {item:181242} por un {item:178675}. Usa este objeto para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
-]]--Revisar NO ESTÁ que Tirna Scithe sea Guadaña de Tirna, que follow the root path sea sigue el camino de la raíz o sigue el camino de raices, que NO ESTÁ Trouble at the Gormling Corral sea Problemas en el Corral de Gormling, NO ESTÁ que Tricky Spriggans sean Spriggans Difíciles, NO ESTÁ que Heart of the Forest sea Corazón del Bosque
+]]--Revisar que follow the root path sea sigue el camino de la raíz o sigue el camino de raices, que (QUESTLINE) Trouble at the Gormling Corral sea Problemas en el Corral de Gormling, (QUESTLINE) que Tricky Spriggans sean Spriggans Difíciles, (AREATABLE) que Heart of the Forest sea Corazón del Bosque
 
 L["star_lake"] = "Anfiteatro del Lago Estrellado"
-L["star_lake_note"] = "Habla con {npc:171743}, el Director de Escena, para iniciar uno de los combates especiales."--Revisar NO ESTÁ que Stage Director sea Director de Escena
+L["star_lake_note"] = "Habla con {npc:171743} para iniciar uno de los combates especiales."
 
 L["cache_of_the_moon"] = "Recoge las cinco herramientas perdidas de {npc:171360} en el Jardín de la Noche y combínalas para crear el {item:180753}. Dáselo y ella te lanzará {spell:334353}, permitiéndote ver el cofre."
 L["cache_of_the_night"] = "Recoge {item:180656}, {item:180654} y {item:180655} por toda la zona y combínalo todo para crear {item:180652}."
-L["darkreach_supplies"] = "Salta en la {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro Alijo de la Noche." --Revisar que Cache of the Night treasure sea Alijo de la Noche
-L["desiccated_moth"] = "Salta sobre {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el Quemador de Incienso para conseguir el tesoro."--Revisar que Incense Burner sea Quemador de Incienso
+L["darkreach_supplies"] = "Salta en la {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro Alijo de la Noche." --Revisar (VIGNETTE, CRITERIATREE) que Cache of the Night treasure sea Alijo de la Noche
+L["desiccated_moth"] = "Salta sobre {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el Quemador de Incienso para conseguir el tesoro."--Revisar (ITEMSPARSE) que Incense Burner sea Quemador de Incienso
 L["dreamsong_heart"] = "Salta sobre {npc:169997} lejos al noreste para ser lanzado dentro del árbol."
-L["elusive_faerie_cache"] = "Coge {spell:333923} en la esquina noreste de la Arboleda del Manto Nocturno y lo usas para despojar el cofre."--Revisar "y lo usas" el artículo si es lo o la cuando sepa como es el spell 333923
+L["elusive_faerie_cache"] = "Coge el {spell:333923} en la esquina noreste de la Arboleda del Manto Nocturno y lo usas para despojar el cofre."
 L["enchanted_dreamcatcher"] = "Colgando de la parte superior de las raíces. La forma más facil del saltar arriba es en el lado oeste."
 L["faerie_trove"] = "Está debajo de la plataforma."
 L["harmonic_chest"] = "Requiere dos personas. Uno toca el arpa y el otro toca el tambor para desbloquear el cofre."
@@ -78,19 +78,19 @@ Encuentra y usa la emoción correcta en el {npc:171206} cinco veces para consegu
 • se sienta solo y triste = |cFFFF8C00/mascota|r
 ]]--Revisar emociones de texto y comandos /xxxxx
 
-L["tame_gladerunner"] = "Asaltaclaros Domado"--Revisar que Tame Gladerunner sea Asaltaclaros Domado
+L["tame_gladerunner"] = "Asaltaclaros Domado"--Revisar (VIGNETTE) que Tame Gladerunner sea Asaltaclaros Domado
 L["tame_gladerunner_note"] = [[
-Lee el "Cuento de una Confusión" y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
+Lee la "Historia de una Confusión" y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
 
 Si tomas el camino equivocado y desaparece el {npc:171699} cuando llegues al final, vuelve al comienzo y lee de nuevo el "Cuento de una Confusión" antes de volverlo a intentar. Si {npc:171767} no está, tendrás que esperar a que aparezca.
-]]--Revisar que "Tale of the Tangle" sea "Cuento de una Confusión"
+]]--Revisar (NODATABLE) que "Tale of the Tangle" sea "Historia de una Confusión"
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con {npc:171211} como objetivo para activarlo."
-L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."--Revisar que Casks of Fermenting Purian Fruit sea Barriles de Fruta Puriana Fermentada
+L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."--Revisar (SPELLNAME) que Casks of Fermenting Purian Fruit sea Barriles de Fruta Puriana Fermentada
 L["basilofos_note"] = "Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}."
 L["beasts_of_bastion"] = "Bestias del Bastión"
 L["beasts_of_bastion_note"] = [[
@@ -100,28 +100,28 @@ Habla con {npc:161441} para invocar una de las cuatro bestias.
 ]]
 L["bookkeeper_mnemis_note"] = "Tiene la posibilidad de aparecer en lugar de los {npc:166867} del sitio."
 L["cloudfeather_patriarch_note"] = "Mata {npc:158110} en el aŕea hasta que {npc:170932} aparezca."
-L["collector_astor_note"] = "Lee los seis capítulos del Legado de Mercia dispersos por la habitación y recibirás un susurro de {npc:157979}. Habla con ella para recibir {spell:333779} el cual te permitirá encontrar el {item:180569} al noroeste. Al devolverle el capítulo, aparecerá {npc:171014}."--Revisar si Mercia's Legacy es Legado de Mercia
-L["corrupted_clawguard_note"] = "Despoja un {item:180651} en Avanzada Forjafuego subiendo la colina y úsalo para reparar el {npc:171300}."--Revisar si Forgefire Outpost es Avanzada Forjafuego
+L["collector_astor_note"] = "Lee los seis capítulos del Legado de Mercia dispersos por la habitación y recibirás un susurro de {npc:157979}. Habla con ella para recibir {spell:333779} el cual te permitirá encontrar el {item:180569} al noroeste. Al devolverle el capítulo, aparecerá {npc:171014}."--Revisar (NODATABLE) que Mercia's Legacy sea Legado de Mercia
+L["corrupted_clawguard_note"] = "Despoja un {item:180651} en Avanzada Forjafuego subiendo la colina y úsalo para reparar el {npc:171300}."--Revisar (AREATABLE) que Forgefire Outpost es Avanzada Forjafuego
 L["dark_watcher_note"] = "Sólo puede verse estando muerto. Habla con {npc:170623} y lanzará {spell:332830} en ti antes de que seas atacado."
 L["demi_hoarder_note"] = "Comienza con 99 acumulaciones de {spell:333874}, reduciendo el daño recibido. Las acumulaciones bajan lentamente con el daño. {npc:171011} seguirá una ruta. Desaparecerá si alcanza el final."
-L["dionae_note"] = "Cuando {npc:163460} se hace immune, haz click en las cuatro {npc:163747} para romperle el escudo."--Revisar genero de las/los npc:163747
+L["dionae_note"] = "Cuando {npc:163460} se hace immune, haz click en las cuatro {npc:163747} para romperle el escudo."--Revisar (SPELLNAME, SPELL) genero de las/los npc:163747
 L["herculon_note"] = [[
 Recoge {item:172451} y úsalas para dar a {npc:158659} acumulaciones de {spell:343531}. A las 10 acumulaciones, se activará.
 
 Las motas se pueden recoger de los Recipientes de Ánima Agotados cercanos localizados en la habitación o justo fuera.
 
 |cFFFF8C00No puede ser derrotado durante la misión del mundo {wq:Asalto al Vestíbulo}.|r
-]]--Revisar si Depleted Anima Canisters son Recipientes de Ánima Agotados y si Assault on the Vestibule es Asalto al Vestíbulo
+]]--Revisar (NO DATABLE) que Depleted Anima Canisters sean Recipientes de Ánima Agotados y (QUESTV2CLITASK) que Assault on the Vestibule sea Asalto al Vestíbulo
 L["nikara_note"] = "Con otros dos jugadores, haz click en el Ancient Incense para invocar a {npc:160882}."
-L["sotiros_orstus_note"] = "Haz click en la Campana Negra para invocar a los raros."--Revisar si Black Bell es Campana Negra
+L["sotiros_orstus_note"] = "Haz click en la Campana Negra para invocar a los raros."--Revisar (VIGNETTE) que Black Bell sea Campana Negra
 L["sundancer_note"] = "Haz click en la estatua para conseguir el buff {spell:332309}, entonces usa {item:180445} para planear hasta {npc:170548} y montarlo."
 L["swelling_tear_note"] = "Haz click en {npc:171012} para invocar a uno de los tres raros. Las Lágrimas pueden aparecer en múltiples sitios de la zona."
 L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén presentes. Arrastra un {npc:171018} dentro de otros para que reciba 10 acumulaciones de {spell:333558}, lo que hará que se convierta en {npc:171008}."
-L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno del Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras)."--Revisar que Horn of Courage sea Cuerno del Coraje
+L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno del Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras)."--Revisar (VIGNETTE) que Horn of Courage sea Cuerno del Coraje
 
 L["broken_flute"] = "Mata a los {npc:170009} cercanos hasta que uno suelte la {item:180536}. Usa las herramientas para repararla."
-L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar la parte. El ánima tiene varios sitios de aparición."--Revisar que anima sea ánima
-L["larion_harness"] = "Localizado dentro del Salón de las Bestias."--Revisar si Hall of Beasts es Salón de las Bestias
+L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar la parte. El ánima tiene varios sitios de aparición."--Revisar (SPELLNAME ANIMA CRYSTAL) que anima sea ánima
+L["larion_harness"] = "Localizado dentro del Salón de las Bestias."--Revisar que Hall of Beasts sea Salón de las Bestias
 L["memorial_offering"] = "Compra una botella de {item:180788} a {npc:171526} en el Reposo del Aspirante. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}."
 L["scroll_of_aeons"] = "Coge de un cuenco 2 {item:173973} en el centro del área y colócalos en los cuencos de tributo cercanos para revelar el tesoro {item:173984}."
 L["vesper_of_silver_wind"] = "Completa el logro {achievement:14339} y habla con {npc:171732} cerca de la entrada a los Capiteles de la Ascensión para forjar {item:180858}."
