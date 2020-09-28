@@ -71,14 +71,14 @@ L["swollen_anima_seed"] = "Una gran semilla reposando dentro del tronco de un á
 L["playful_vulpin_note"] = [[
 Encuentra y usa la emoción correcta en el {npc:171206} cinco veces para conseguir la mascota.
 
-• comienza a escarbar con curiosidad = |cFFFF8C00/curiosear|r
-• corretea alrededor incapaz de quedarse quieto = |cFFFF8C00/sentar|r
+• comienza a escarbar con curiosidad = |cFFFF8C00/curiosidad|r
+• corretea alrededor incapaz de quedarse quieto = |cFFFF8C00/sentarse|r
 • canta solo = |cFFFF8C00/cantar|r
 • baila de alegría = |cFFFF8C00/bailar|r
-• se sienta solo y triste = |cFFFF8C00/mascota|r
-]]--Revisar emociones de texto y comandos /xxxxx
+• se sienta solo y triste = |cFFFF8C00/acariciar|r
+]]--Revisar emociones de texto
 
-L["tame_gladerunner"] = "Asaltaclaros Domado"--Revisar (VIGNETTE) que Tame Gladerunner sea Asaltaclaros Domado
+L["tame_gladerunner"] = "Muerdeclaros Faucespina"
 L["tame_gladerunner_note"] = [[
 Lee la "Historia de una Confusión" y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
 
@@ -120,7 +120,7 @@ L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén prese
 L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno del Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras)."--Revisar (VIGNETTE) que Horn of Courage sea Cuerno del Coraje
 
 L["broken_flute"] = "Mata a los {npc:170009} cercanos hasta que uno suelte la {item:180536}. Usa las herramientas para repararla."
-L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar la parte. El ánima tiene varios sitios de aparición."--Revisar (SPELLNAME ANIMA CRYSTAL) que anima sea ánima
+L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar la parte. El ánima tiene varios sitios de aparición."
 L["larion_harness"] = "Localizado dentro del Salón de las Bestias."--Revisar que Hall of Beasts sea Salón de las Bestias
 L["memorial_offering"] = "Compra una botella de {item:180788} a {npc:171526} en el Reposo del Aspirante. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}."
 L["scroll_of_aeons"] = "Coge de un cuenco 2 {item:173973} en el centro del área y colócalos en los cuencos de tributo cercanos para revelar el tesoro {item:173984}."
@@ -150,7 +150,7 @@ L["gift_of_vesiphone"] = "Toca una de las campanas para hacer que aparezca una {
 L["cache_of_the_ascended"] = "Alijo de los Ascendidos"--Revisar que Cache of the Ascended sea Alijo de los Ascendidos
 L["cache_of_the_ascended_note"] = "Con otros cuatro jugadores, hay que hacer click en las cinco vísperas de pureza, coraje, humildad, sabiduría y lealtad al mismo tiempo. Después, hay que ir al Crisol del Aspirante a derrotar los cinco campeones para que se revele el alijo."--Revisar que vespers of purity sea vísperas de pureza
 
-L["anima_shard"] = "Fragmento de Ánima perdida"--Revisar que Lost Anima Shard sea Fragmento de Ánima perdida
+L["anima_shard"] = "Fragmento de Cristal de Ánima Perdido"
 L["anima_shard_61225"] = "En una plataforma inferior debajo del puente."
 L["anima_shard_61235"] = "En una repisa sobre la cascada."
 L["anima_shard_61236"] = "Sobre un arco enmedio de la estructura principal."
@@ -167,7 +167,7 @@ L["anima_shard_61251"] = "Reposando debajo de una campana pequeña."
 L["anima_shard_61253"] = "Encima de un arco de piedra caido."
 L["anima_shard_61254"] = "Encima de una estructura de madera pequeña."
 L["anima_shard_61257"] = "En una repisa pequeña justo debajo de {npc:162523}."
-L["anima_shard_61258"] = "En una repisa pequeña en la parte inferior del Reposo del Héroe."--Revisar que Hero's Rest sea Reposo del Héroe
+L["anima_shard_61258"] = "En una repisa pequeña en la parte inferior del Reposo del Héroe."
 L["anima_shard_61260"] = "En el suelo debajo de la plataforma."
 L["anima_shard_61261"] = "En una respisa sobre la cueva de {npc:163460}."
 L["anima_shard_61263"] = "Sobre un pilar de piedra."
@@ -201,8 +201,8 @@ L["anima_shard_61297"] = "Detrás de un pilar de piedra."
 L["anima_shard_61298"] = "Reposando detrás de un sillón."
 L["anima_shard_61299"] = "Escondido detrás de una gran antorcha."
 L["anima_shard_61300"] = "En una repisa que cuelga sobre la fuente central."
-L["options_icons_anima_shards"] = "Fragmentos Perdidos de Ánima"--Revisar que Lost Anima Shards sea Fragmentos Perdidos de Ánima
-L["options_icons_anima_shards_desc"] = "Muestra la localización de los 50 fragmentos perdidos de ánima para el logro Trabajo Fragmentado."--Revisar que lost anima shards sea fragmentos perdidos de ánima y que Shard Labor sea Trabajo Fragmentado
+L["options_icons_anima_shards"] = "Fragmentos de Cristal de Ánima Perdidos"
+L["options_icons_anima_shards_desc"] = "Muestra la localización de los 50 fragmentos de cristal de ánima perdidos para el logro Trabajo Fragmentario."
 
 L["aspirants_rest"] = "Reposo del Aspirante"
 L["eternal_gateway"] = "Portal Eterno"--Revisar que Eternal Gateway sea Portal Eterno
@@ -291,7 +291,7 @@ L["moldstopheles"] = "Corre alrededor de la parte posterior del tallo y salta en
 L["pus_in_boots"] = "Está debajo del puente."
 
 L["options_icons_slime_cat"] = "Gatitos"
-L["options_icons_slime_cat_desc"] = "Muestra las localizaciones de los gatitos para el logro Nueve Restos de Vidas."--Revisar que Nine Afterlives sea Nueve Restos de Vidas
+L["options_icons_slime_cat_desc"] = "Muestra las localizaciones de los gatitos para el logro Siete Vidas Más."
 
 L["exoramas"] = "Exoramas, Casa de los Rituales"--Revisar que House of Rituals sea Casa de los Rituales
 L["nurakkir"] = "Nurakkir, Casa de los Ojos"
