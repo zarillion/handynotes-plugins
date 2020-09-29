@@ -26,10 +26,10 @@ local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
-ns.groups.CATS_NAZJ = Group({name='cats_nazj'})
-ns.groups.MISC_NAZJ = Group({name='misc_nazj'})
-ns.groups.SLIMES_NAZJ = Group({name='slimes_nazj'})
-ns.groups.TREASURES_NAZJ = Group({name='treasures_nazj'})
+ns.groups.CATS_NAZJ = Group('cats_nazj')
+ns.groups.MISC_NAZJ = Group('misc_nazj')
+ns.groups.SLIMES_NAZJ = Group('slimes_nazj')
+ns.groups.TREASURES_NAZJ = Group('treasures_nazj')
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------

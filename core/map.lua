@@ -22,12 +22,14 @@ Base class for all maps.
 
 local Map = Class('Map', nil, {
     id = 0,
-    name = nil,
     intro = nil,
-    phased = true
+    phased = true,
+    settings = false
 })
 
-function Map:Initialize()
+function Map:Initialize(attrs)
+    for k, v in pairs(attrs) do self[k] = v end
+
     self.nodes = {}
     self.groups = {}
     self.settings = self.settings or false

@@ -92,7 +92,7 @@ map.nodes[31603540] = Rare({
     id=162741,
     quest=58872,
     covenant=NECROLORD,
-    requires=ns.requirement.GarrisonTalent({id=1250, text=L["anima_channeled"]}),
+    requires=ns.requirement.GarrisonTalent(1250, L["anima_channeled"]),
     note=L["gieger_note"],
     rewards={
         Achievement({id=14308, criteria=48871}),
@@ -167,7 +167,7 @@ map.nodes[51744439] = Rare({
     id=168147,
     quest=58784,
     covenant=NECROLORD,
-    requires=ns.requirement.GarrisonTalent({id=1253, text=L["anima_channeled"]}),
+    requires=ns.requirement.GarrisonTalent(1253, L["anima_channeled"]),
     note=L["sabriel_note"],
     rewards={
         Achievement({id=14308, criteria=48874}),
@@ -248,7 +248,7 @@ map.nodes[33538086] = Rare({
 map.nodes[28965138] = Rare({
     id=157125,
     quest=62079,
-    requires=ns.requirement.Item({id=175841}),
+    requires=ns.requirement.Item(175841),
     note=L["zargox_the_reborn_note"],
     rewards={
         Achievement({id=14308, criteria=48864})
@@ -413,7 +413,7 @@ map.nodes[57667581] = Treasure({
 
 map.nodes[64672475] = Treasure({
     quest=61514,
-    requires=ns.requirement.Spell({id=337041}),
+    requires=ns.requirement.Spell(337041),
     note=L["ritualists_cache_note"],
     rewards={
         Achievement({id=14312, criteria=50075}),
@@ -427,7 +427,7 @@ map.nodes[64672475] = Treasure({
 
 map.nodes[31737004] = Treasure({
     quest=61491,
-    requires=ns.requirement.Item({id=181777}),
+    requires=ns.requirement.Item(181777),
     note=L["runespeakers_trove_note"],
     rewards={
         Achievement({id=14312, criteria=50073}),
@@ -601,9 +601,9 @@ local Deathgate = Class('Deathgate', ns.node.Node, {
 })
 
 local R = L["transport_research"]
-local T1 = ns.requirement.GarrisonTalent({id=1050, text=R:format(1)})
-local T2 = ns.requirement.GarrisonTalent({id=1051, text=R:format(2)})
-local T3 = ns.requirement.GarrisonTalent({id=1052, text=R:format(3)})
+local T1 = ns.requirement.GarrisonTalent(1050, R:format(1))
+local T2 = ns.requirement.GarrisonTalent(1051, R:format(2))
+local T3 = ns.requirement.GarrisonTalent(1052, R:format(3))
 
 local GATE_SEAT = Deathgate({ label=L["overlook_primus"], requires=T1 })
 local GATE_NURA = Deathgate({ label=L["nurakkir"], requires=T1 })

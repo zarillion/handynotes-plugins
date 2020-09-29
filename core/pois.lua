@@ -26,6 +26,10 @@ end
 
 local POI = Class('POI')
 
+function POI:Initialize(attrs)
+    for k, v in pairs(attrs) do self[k] = v end
+end
+
 function POI:Render(map, template)
     -- draw a circle at every coord
     for i=1, #self, 1 do

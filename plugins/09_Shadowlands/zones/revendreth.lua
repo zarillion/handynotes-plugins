@@ -131,7 +131,7 @@ map.nodes[32641545] = Rare({
     id=159496,
     quest=61618,
     covenant=VENTHYR,
-    requires=ns.requirement.GarrisonTalent({id=1259, text=L["anima_channeled"]}),
+    requires=ns.requirement.GarrisonTalent(1259, L["anima_channeled"]),
     note=L["madalav_note"],
     rewards={
         Achievement({id=14310, criteria=48804})
@@ -154,7 +154,7 @@ map.nodes[45847919] = Rare({
     id=165290,
     quest=59612,
     covenant=VENTHYR,
-    requires=ns.requirement.GarrisonTalent({id=1256, text=L["anima_channeled"]}),
+    requires=ns.requirement.GarrisonTalent(1256, L["anima_channeled"]),
     note=L["harika_note"],
     rewards={
         Achievement({id=14310, criteria=48813}),
@@ -189,7 +189,7 @@ map.nodes[61717949] = Rare({
 map.nodes[21803590] = Rare({
     id=160640,
     quest=58210,
-    requires=ns.requirement.Item({id=177223}),
+    requires=ns.requirement.Item(177223),
     note=L["innervus_note"],
     rewards={
         Achievement({id=14310, criteria=48801}),
@@ -300,7 +300,7 @@ map.nodes[43007910] = Rare({
 map.nodes[38607200] = Rare({
     id=160821,
     quest=58259,
-    requires=ns.requirement.Item({id=173939}),
+    requires=ns.requirement.Item(173939),
     note=L["worldedge_gorger_note"],
     rewards={
         Achievement({id=14310, criteria=48805}),
@@ -609,9 +609,9 @@ local BloodMirror = Class('BloodMirror', ns.node.Node, {
 })
 
 local R = L["transport_research"]
-local T1 = ns.requirement.GarrisonTalent({id=1047, text=R:format(1)})
-local T2 = ns.requirement.GarrisonTalent({id=1048, text=R:format(2)})
-local T3 = ns.requirement.GarrisonTalent({id=1049, text=R:format(3)})
+local T1 = ns.requirement.GarrisonTalent(1047, R:format(1))
+local T2 = ns.requirement.GarrisonTalent(1048, R:format(2))
+local T3 = ns.requirement.GarrisonTalent(1049, R:format(3))
 
 map.nodes[56803250] = BloodMirror({ label=L["eternal_terrace"], requires=T1 })
 map.nodes[70707540] = BloodMirror({ label=L["pridefall_hamlet"], requires=T1 })

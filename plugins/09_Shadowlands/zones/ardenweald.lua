@@ -103,7 +103,7 @@ map.nodes[27885248] = Rare({
 map.nodes[32423026] = Rare({
     id=164112,
     quest=59157,
-    requires=ns.requirement.Item({id=175247}),
+    requires=ns.requirement.Item(175247),
     note=L["humongozz_note"],
     rewards={
         Achievement({id=14309, criteria=48782}),
@@ -174,7 +174,7 @@ map.nodes[57874983] = Rare({
     id=168135,
     quest=60306,
     covenant=NIGHTFAE,
-    requires=ns.requirement.Item({id=178675}),
+    requires=ns.requirement.Item(178675),
     note=L["night_mare_note"],
     rewards={
         Achievement({id=14309, criteria=48793}),
@@ -252,7 +252,7 @@ map.nodes[30115536] = Rare({
     id=168647,
     quest=61632,
     covenant=NIGHTFAE,
-    requires=ns.requirement.GarrisonTalent({id=1247, text=L["anima_channeled"]}),
+    requires=ns.requirement.GarrisonTalent(1247, L["anima_channeled"]),
     note=L["valfir_note"],
     rewards={
         Achievement({id=14309, criteria=48796}),
@@ -279,7 +279,7 @@ map.nodes[41254443] = Rare({
     id=171743,
     quest=61633,
     covenant=NIGHTFAE,
-    requires=ns.requirement.GarrisonTalent({id=1244, text=L["anima_channeled"]}),
+    requires=ns.requirement.GarrisonTalent(1244, L["anima_channeled"]),
     label=L["star_lake"],
     note=L["star_lake_note"],
     rewards = {
@@ -336,7 +336,7 @@ map.nodes[63893778] = Treasure({
 
 map.nodes[36236527] = Treasure({
     quest=61110,
-    requires=ns.requirement.Item({id=180652}),
+    requires=ns.requirement.Item(180652),
     note=L["cache_of_the_night"],
     rewards={
         Achievement({id=14313, criteria=50044}),
@@ -545,9 +545,9 @@ function Mushroom.getters:label ()
 end
 
 local R = L["transport_research"]
-local T1 = ns.requirement.GarrisonTalent({id=1053, text=R:format(1)})
-local T2 = ns.requirement.GarrisonTalent({id=1054, text=R:format(2)})
-local T3 = ns.requirement.GarrisonTalent({id=1055, text=R:format(3)})
+local T1 = ns.requirement.GarrisonTalent(1053, R:format(1))
+local T2 = ns.requirement.GarrisonTalent(1054, R:format(2))
+local T3 = ns.requirement.GarrisonTalent(1055, R:format(3))
 
 map.nodes[29513463] = Mushroom({ id=308436, requires=T1 }) -- Stalks
 map.nodes[57494258] = Mushroom({ id=325614, requires=T1 }) -- Stillglade

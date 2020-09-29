@@ -17,6 +17,10 @@ local Red = ns.status.Red
 
 local Reward = Class('Reward')
 
+function Reward:Initialize(attrs)
+    for k, v in pairs(attrs) do self[k] = v end
+end
+
 function Reward:IsObtained()
     return true
 end
@@ -40,7 +44,9 @@ local GetCriteriaInfo = function (id, criteria)
     return unpack(results)
 end
 
-function Achievement:Initialize()
+function Achievement:Initialize(attrs)
+    Reward.Initialize(self, attrs)
+
     -- we allow a single number, table of numbers or table of
     -- objects: {id=<number>, note=<string>}
     if type(self.criteria) == 'number' then
@@ -106,7 +112,9 @@ end
 
 local Item = Class('Item', Reward)
 
-function Item:Initialize()
+function Item:Initialize(attrs)
+    Reward.Initialize(self, attrs)
+
     if not self.item then
         error('Item() reward requires an item id to be set')
     end
@@ -177,10 +185,11 @@ end
 
 local Pet = Class('Pet', Item)
 
-function Pet:Initialize()
-    if self.item then
-        Item.Initialize(self)
+function Pet:Initialize(attrs)
+    if attrs.item then
+        Item.Initialize(self, attrs)
     else
+        Reward.Initialize(self, attrs)
         local name, icon = C_PetJournal.GetPetInfoBySpeciesID(self.id)
         self.itemIcon = icon
         self.itemLink = '|cff1eff00['..name..']|r'
@@ -210,7 +219,8 @@ end
 
 local Quest = Class('Quest', Reward)
 
-function Quest:Initialize()
+function Quest:Initialize(attrs)
+    Reward.Initialize(self, attrs)
     if type(self.id) == 'number' then
         self.id = {self.id}
     end

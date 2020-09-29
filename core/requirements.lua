@@ -27,7 +27,8 @@ function Requirement:IsMet() return false end
 
 local Currency = Class('Currency', Requirement)
 
-function Currency:Initialize()
+function Currency:Initialize(id, count)
+    self.id, self.count = id, count
     self.text = string.format('{currency:%d} x%d', self.id, self.count)
 end
 
@@ -41,6 +42,10 @@ end
 -------------------------------------------------------------------------------
 
 local GarrisonTalent = Class('GarrisonTalent', Requirement)
+
+function GarrisonTalent:Initialize(id, text)
+    self.id, self.text = id, text
+end
 
 function GarrisonTalent:GetText()
     local info = C_Garrison.GetTalentInfo(self.id)
@@ -77,7 +82,8 @@ end
 
 local Item = Class('Item', Requirement)
 
-function Item:Initialize()
+function Item:Initialize(id, count)
+    self.id, self.count = id, count
     self.text = string.format('{item:%d}', self.id)
     if self.count and self.count > 1 then
         self.text = self.text..' x'..self.count
@@ -101,7 +107,8 @@ end
 
 local Spell = Class('Spell', Requirement)
 
-function Spell:Initialize()
+function Spell:Initialize(id)
+    self.id = id
     self.text = string.format('{spell:%d}', self.id)
 end
 

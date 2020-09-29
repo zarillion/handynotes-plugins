@@ -42,7 +42,12 @@ Node.scale = 1
 Node.icon = "default"
 Node.group = ns.groups.OTHER
 
-function Node:Initialize()
+function Node:Initialize(attrs)
+    -- assign all attributes
+    if attrs then
+        for k, v in pairs(attrs) do self[k] = v end
+    end
+
     -- normalize quest ids as tables instead of single values
     for i, key in ipairs{'quest', 'questDeps'} do
         if type(self[key]) == 'number' then self[key] = {self[key]} end
@@ -282,8 +287,8 @@ local Cave = Class('Cave', Node, {
     group = ns.groups.CAVE
 })
 
-function Cave:Initialize()
-    Node.Initialize(self)
+function Cave:Initialize(attrs)
+    Node.Initialize(self, attrs)
 
     if self.parent == nil then
         error('One or more parent nodes are required for Cave nodes')
@@ -325,8 +330,8 @@ local Intro = Class('Intro', Node, {
 
 local NPC = Class('NPC', Node)
 
-function NPC:Initialize()
-    Node.Initialize(self)
+function NPC:Initialize(attrs)
+    Node.Initialize(self, attrs)
     if not self.id then error('id required for NPC nodes') end
 end
 
@@ -355,8 +360,8 @@ local Quest = Class('Quest', Node, {
 
 local QUEST_IDS = {}
 
-function Quest:Initialize()
-    Node.Initialize(self)
+function Quest:Initialize(attrs)
+    Node.Initialize(self, attrs)
     C_QuestLog.GetTitleForQuestID(self.quest[1]) -- fetch info from server
 
     for i, id in ipairs(self.quest) do

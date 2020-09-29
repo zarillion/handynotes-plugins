@@ -36,7 +36,7 @@ local sanctum = Map({ id=1707 })
 map.nodes[32592336] = Rare({
     id=171211,
     quest=61083,
-    requires=ns.requirement.Item({id=180613}),
+    requires=ns.requirement.Item(180613),
     note=L["aspirant_eolis_note"],
     rewards={
         Achievement({id=14307, criteria=50613}),
@@ -133,7 +133,7 @@ map.nodes[66004367] = Rare({
 map.nodes[56904778] = Rare({
     id=171010,
     quest=60999,
-    requires=ns.requirement.Item({id=180651}),
+    requires=ns.requirement.Item(180651),
     note=L["corrupted_clawguard_note"],
     rewards={
         Achievement({id=14307, criteria=50615})
@@ -220,7 +220,7 @@ map.nodes[42908265] = Rare({
     id=158659,
     quest={57705,57708},
     note=L["herculon_note"],
-    requires=ns.requirement.Item({id=172451, count=10}),
+    requires=ns.requirement.Item(172451, 10),
     rewards={
         Achievement({id=14307, criteria=50582})
     }
@@ -265,7 +265,7 @@ map.nodes[22432285] = Sotirstus({
    id=156339,
    quest=61634,
    covenant=KYRIAN,
-   requires=ns.requirement.GarrisonTalent({id=1241, text=L["anima_channeled"]}),
+   requires=ns.requirement.GarrisonTalent(1241, L["anima_channeled"]),
    note=L["sotiros_orstus_note"],
    rewards={
        Achievement({id=14307, criteria=50618})
@@ -320,7 +320,7 @@ map.nodes[40635306] = Rare({
     id=167078,
     quest={60314,62197},
     covenant=KYRIAN,
-    requires=ns.requirement.GarrisonTalent({id=1238, text=L["anima_channeled"]}),
+    requires=ns.requirement.GarrisonTalent(1238, L["anima_channeled"]),
     note=L["wingflayer_note"],
     rewards={
         Achievement({id=14307, criteria=50600}),
@@ -350,7 +350,7 @@ map.nodes[46114536] = Treasure({
 
 map.nodes[35834811] = Treasure({
     quest=61053,
-    requires=ns.requirement.Item({id=180536}),
+    requires=ns.requirement.Item(180536),
     note=L["broken_flute"],
     rewards={
         Achievement({id=14311, criteria=50055}),
@@ -380,7 +380,7 @@ map.nodes[53498880] = Treasure({
 
 map.nodes[51471795] = Treasure({
     quest=61052,
-    requires=ns.requirement.Item({id=180534}),
+    requires=ns.requirement.Item(180534),
     note=L["experimental_construct_part"],
     rewards={
         Achievement({id=14311, criteria=50054}),
@@ -393,7 +393,7 @@ map.nodes[51471795] = Treasure({
 
 map.nodes[35085805] = Treasure({
     quest=60893,
-    requires=ns.requirement.Spell({id=333063}),
+    requires=ns.requirement.Spell(333063),
     note=L["gift_of_agthia"],
     rewards={
         Achievement({id=14311, criteria=50058}),
@@ -406,7 +406,7 @@ map.nodes[35085805] = Treasure({
 
 map.nodes[70473645] = Treasure({
     quest=60892,
-    requires=ns.requirement.Spell({id=333045}),
+    requires=ns.requirement.Spell(333045),
     note=L["gift_of_chyrus"],
     rewards={
         Achievement({id=14311, criteria=50060})
@@ -418,7 +418,7 @@ map.nodes[70473645] = Treasure({
 
 map.nodes[27602179] = Treasure({
     quest=60895,
-    requires=ns.requirement.Spell({id=333070}),
+    requires=ns.requirement.Spell(333070),
     note=L["gift_of_devos"],
     rewards={
         Achievement({id=14311, criteria=50062}),
@@ -435,7 +435,7 @@ map.nodes[27602179] = Treasure({
 
 map.nodes[40601890] = Treasure({
     quest=60894,
-    requires=ns.requirement.Spell({id=333068}),
+    requires=ns.requirement.Spell(333068),
     note=L["gift_of_thenios"],
     rewards={
         Achievement({id=14311, criteria=50061})
@@ -446,7 +446,7 @@ map.nodes[40601890] = Treasure({
 
 map.nodes[64877114] = Treasure({
     quest=60890,
-    requires=ns.requirement.Spell({id=332785}),
+    requires=ns.requirement.Spell(332785),
     note=L["gift_of_vesiphone"],
     rewards={
         Achievement({id=14311, criteria=50059}),
@@ -476,7 +476,7 @@ map.nodes[59336092] = Treasure({
 
 map.nodes[56481714] = Treasure({
     quest=61150,
-    requires=ns.requirement.Item({id=180797}),
+    requires=ns.requirement.Item(180797),
     note=L["memorial_offering"],
     rewards={
         Achievement({id=14311, criteria=50056})
@@ -520,7 +520,7 @@ map.nodes[40504980] = Treasure({
 
 map.nodes[36012652] = Treasure({
     quest=61183,
-    requires=ns.requirement.Item({id=180858}),
+    requires=ns.requirement.Item(180858),
     note=L["vesper_of_silver_wind"],
     rewards={
         Achievement({id=14311, criteria=50057}),
@@ -667,9 +667,9 @@ local Gateway = Class('Gateway', ns.node.Node, {
 })
 
 local R = L["transport_research"]
-local T1 = ns.requirement.GarrisonTalent({id=1056, text=R:format(1)})
-local T2 = ns.requirement.GarrisonTalent({id=1057, text=R:format(2)})
-local T3 = ns.requirement.GarrisonTalent({id=1058, text=R:format(3)})
+local T1 = ns.requirement.GarrisonTalent(1056, R:format(1))
+local T2 = ns.requirement.GarrisonTalent(1057, R:format(2))
+local T3 = ns.requirement.GarrisonTalent(1058, R:format(3))
 
 map.nodes[40715520] = Gateway({ label=L["xandrias_vigil"], requires=T1 })
 map.nodes[48327284] = Gateway({ label=L["aspirants_rest"], requires=T1 })

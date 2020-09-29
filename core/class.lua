@@ -17,7 +17,7 @@ ns.Class = function (name, parent, attrs)
     Class.setters = Class.setters or {}
 
     setmetatable(Class, {
-        __call = function (self, instanceAttrs)
+        __call = function (self, ...)
             local instance = {}
             instance.__class = Class
 
@@ -53,16 +53,7 @@ ns.Class = function (name, parent, attrs)
                 end
             })
 
-            -- assign attributes after setmetatable() to trigger any setters
-            if instanceAttrs then
-                for k, v in pairs(instanceAttrs) do
-                    instance[k] = v
-                end
-            end
-
-            -- call Initialize() method for instance
-            Class.Initialize(instance)
-
+            instance:Initialize(...)
             return instance
         end,
 

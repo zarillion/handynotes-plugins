@@ -75,6 +75,9 @@ end
 function TestClass:testInstantiationWithAttributes ()
     -- Verify instances can be created with initial attributes
     local Node = Class('Node')
+    function Node:Initialize(attrs)
+        for k, v in pairs(attrs or {}) do self[k] = v end
+    end
     local node = Node({ foo='bar' })
 
     luaunit.assertIsNil(Node.foo)
@@ -99,6 +102,9 @@ end
 function TestClass:testClassMethod ()
     -- Class methods should be called with the instance as self
     local Node = Class('Node', nil, { icon='default' })
+    function Node:Initialize(attrs)
+        for k, v in pairs(attrs or {}) do self[k] = v end
+    end
     function Node:update() return 123 end
     function Node:getIcon() return self.icon end
     local node = Node({ icon='treasure' })
@@ -175,6 +181,9 @@ end
 function TestClass:testSetterCalledFromInstanceAttrs ()
     -- Setter functions should be called from initial attributes
     local Node = Class('Node', nil)
+    function Node:Initialize(attrs)
+        for k, v in pairs(attrs or {}) do self[k] = v end
+    end
     function Node.setters:icon (value) self._icon = value end
     local node = Node({ icon='default' })
 
@@ -214,6 +223,9 @@ end
 function TestInheritance:testAttributeInheritance ()
     -- Class attributes should be interited and accessible from instances
     local Node = Class('Node', nil, { icon='default', scale=1 })
+    function Node:Initialize(attrs)
+        for k, v in pairs(attrs or {}) do self[k] = v end
+    end
     local Rare = Class('Rare', Node, { alpha=1, scale=2 })
 
     luaunit.assertEquals(Rare.icon, 'default')
@@ -238,6 +250,9 @@ end
 function TestInheritance:testMethodInheritance ()
     -- Parent class methods should be accessible and overridable
     local Node = Class('Node')
+    function Node:Initialize(attrs)
+        for k, v in pairs(attrs or {}) do self[k] = v end
+    end
     function Node:update() return 123 end
     function Node:getIcon() return self.icon end
     local Rare = Class('Rare', Node)
@@ -255,6 +270,9 @@ end
 function TestInheritance:testGetterInheritance ()
     -- Verify getter is inherited from parent
     local Node = Class('Node')
+    function Node:Initialize(attrs)
+        for k, v in pairs(attrs or {}) do self[k] = v end
+    end
     function Node.getters:id () return 123 end
     local Rare = Class('Rare', Node)
 
@@ -287,6 +305,9 @@ end
 function TestInheritance:testSetterInheritance ()
     -- Verify setters are inherited from parent
     local Node = Class('Node')
+    function Node:Initialize(attrs)
+        for k, v in pairs(attrs or {}) do self[k] = v end
+    end
     function Node.setters:id (value) self._id = value end
     local Rare = Class('Rare', Node)
 
@@ -338,6 +359,9 @@ end
 function TestHelpers:testClone ()
     -- Clone() should duplicate a class instance and override attributes
     local Node = Class('Node', nil, { icon='default' })
+    function Node:Initialize(attrs)
+        for k, v in pairs(attrs or {}) do self[k] = v end
+    end
     local node1 = Node({ scale=1 })
     local node2 = Clone(node1, { scale=2 })
 

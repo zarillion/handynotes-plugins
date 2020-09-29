@@ -54,6 +54,11 @@ end
 
 local SLGroup = Class('ShadowlandsGroup', Group)
 
+function SLGroup:Initialize(name, defaults, covenant)
+    Group.Initialize(self, name, defaults)
+    self.covenant = covenant
+end
+
 function SLGroup:IsEnabled()
     if self.covenant then
         return C_Covenants.GetActiveCovenantID() == self.covenant.id
@@ -65,36 +70,17 @@ ns.Group = SLGroup
 
 -------------------------------------------------------------------------------
 
-ns.groups.ANIMA_SHARD = SLGroup({name='anima_shard', defaults=ns.GROUP_HIDDEN})
-ns.groups.BONUS_BOSS = SLGroup({name='bonus_boss'})
-ns.groups.BONUS_EVENT = SLGroup({name='bonus_event'})
-ns.groups.CARRIAGE = SLGroup({name='carriages'})
-ns.groups.RIFTSTONE = SLGroup({name='riftstone'})
-ns.groups.SLIME_CAT = SLGroup({name='slime_cat'})
+ns.groups.ANIMA_SHARD = SLGroup('anima_shard', ns.GROUP_HIDDEN)
+ns.groups.BONUS_BOSS = SLGroup('bonus_boss')
+ns.groups.BONUS_EVENT = SLGroup('bonus_event')
+ns.groups.CARRIAGE = SLGroup('carriages')
+ns.groups.RIFTSTONE = SLGroup('riftstone')
+ns.groups.SLIME_CAT = SLGroup('slime_cat')
 
-ns.groups.FAE_NETWORK = SLGroup({
-    name='fae_network',
-    covenant=ns.covenants.FAE,
-    defaults=ns.GROUP_HIDDEN
-})
-
-ns.groups.KYR_NETWORK = SLGroup({
-    name='kyr_network',
-    covenant=ns.covenants.KYR,
-    defaults=ns.GROUP_HIDDEN
-})
-
-ns.groups.NEC_NETWORK = SLGroup({
-    name='nec_network',
-    covenant=ns.covenants.NEC,
-    defaults=ns.GROUP_HIDDEN
-})
-
-ns.groups.VEN_NETWORK = SLGroup({
-    name='ven_network',
-    covenant=ns.covenants.VEN,
-    defaults=ns.GROUP_HIDDEN
-})
+ns.groups.FAE_NETWORK = SLGroup('fae_network', ns.GROUP_HIDDEN, ns.covenants.FAE)
+ns.groups.KYR_NETWORK = SLGroup('kyr_network', ns.GROUP_HIDDEN, ns.covenants.KYR)
+ns.groups.NEC_NETWORK = SLGroup('nec_network', ns.GROUP_HIDDEN, ns.covenants.NEC)
+ns.groups.VEN_NETWORK = SLGroup('ven_network', ns.GROUP_HIDDEN, ns.covenants.VEN)
 
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------

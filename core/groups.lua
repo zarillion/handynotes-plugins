@@ -11,20 +11,21 @@ local Class = ns.Class
 
 local Group = Class('Group')
 
-function Group:Initialize()
-    if not self.name then
-        error('Groups must be initialized with a name!')
-    end
+function Group:Initialize(name, defaults)
+    if not name then error('Groups must be initialized with a name!') end
+
+    self.name = name
+    self.defaults = defaults
 
     self.alphaArg = 'icon_alpha_'..self.name
     self.scaleArg = 'icon_scale_'..self.name
     self.displayArg = 'icon_display_'..self.name
 
-    local defaults = ns.optionDefaults.profile
+    local opt_defaults = ns.optionDefaults.profile
     if not self.defaults then self.defaults = {} end
-    defaults[self.alphaArg] = self.defaults.alpha or 1
-    defaults[self.scaleArg] = self.defaults.scale or 1
-    defaults[self.displayArg] = self.defaults.display ~= false
+    opt_defaults[self.alphaArg] = self.defaults.alpha or 1
+    opt_defaults[self.scaleArg] = self.defaults.scale or 1
+    opt_defaults[self.displayArg] = self.defaults.display ~= false
 end
 
 function Group.getters:db()
@@ -52,12 +53,12 @@ ns.GROUP_HIDDEN = {display=false}
 ns.GROUP_ALPHA75 = {alpha=0.75}
 
 ns.groups = {
-    CAVE = Group({name='caves', defaults=ns.GROUP_ALPHA75}),
-    INTRO = Group({name='intro'}),
-    OTHER = Group({name='other'}),
-    PETBATTLE = Group({name='pet_battles'}),
-    QUEST = Group({name='quest'}),
-    RARE = Group({name='rares', defaults=ns.GROUP_ALPHA75}),
-    SUPPLY = Group({name='supplies'}),
-    TREASURE = Group({name='treasures', defaults=ns.GROUP_ALPHA75}),
+    CAVE = Group('caves', ns.GROUP_ALPHA75),
+    INTRO = Group('intro'),
+    OTHER = Group('other'),
+    PETBATTLE = Group('pet_battles'),
+    QUEST = Group('quest'),
+    RARE = Group('rares', ns.GROUP_ALPHA75),
+    SUPPLY = Group('supplies'),
+    TREASURE = Group('treasures', ns.GROUP_ALPHA75),
 }
