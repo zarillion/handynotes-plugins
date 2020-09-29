@@ -335,7 +335,7 @@ map.nodes[37726925] = Treasure({
 
 map.nodes[29693723] = Treasure({
     quest=62198,
-    requires=ns.requirement.Currency({id=1820, count=30}),
+    requires=ns.requirement.Currency(1820, 30),
     rewards={
         Achievement({id=14314, criteria=50081}),
         Toy({item=182780}) -- Muckpool Cookpot
@@ -369,7 +369,7 @@ map.nodes[63367398] = Treasure({
 
 map.nodes[57374337] = Treasure({
     quest=nil,
-    requires=ns.requirement.Currency({id=1820, count=99}),
+    requires=ns.requirement.Currency(1820, 99),
     note=L["the_count_note"],
     rewards={
         Achievement({id=14314, criteria=50078}),
