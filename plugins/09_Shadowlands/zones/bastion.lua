@@ -26,8 +26,8 @@ local POI = ns.poi.POI
 
 local KYRIAN = ns.covenants.KYR
 
-local map = Map({ id = 1533 })
-local sanctum = Map({ id=1707, settings=false })
+local map = Map({ id = 1533, settings=true })
+local sanctum = Map({ id=1707 })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -646,9 +646,9 @@ map.nodes[24371821] = AnimaShard({quest=61295, note=L["anima_shard_61295"]})
 
 -------------------------------------------------------------------------------
 
-local gardens = Map({ id=1693, settings=false })
-local font = Map({ id=1694, settings=false })
-local wake = Map({ id=1666, settings=false })
+local gardens = Map({ id=1693 })
+local font = Map({ id=1694 })
+local wake = Map({ id=1666 })
 
 wake.nodes[52508860] = AnimaShard({quest=61296, note=L["anima_shard_61296"]})
 wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"]})

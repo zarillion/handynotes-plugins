@@ -16,7 +16,7 @@ Base class for all maps.
     id (integer): MapID value for this map
     intro (Node): An intro node to display when phased
     phased (boolean): If false, hide all nodes except the intro node.
-    settings (boolean): Create a settings panel for this map (default: true).
+    settings (boolean): Create a settings panel for this map (default: false).
 
 --]]
 
@@ -30,7 +30,7 @@ local Map = Class('Map', nil, {
 function Map:Initialize()
     self.nodes = {}
     self.groups = {}
-    self.settings = self.settings ~= false
+    self.settings = self.settings or false
 
     setmetatable(self.nodes, {
         __newindex = function (nodes, coord, node)

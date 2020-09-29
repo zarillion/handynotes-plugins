@@ -27,8 +27,8 @@ local Path = ns.poi.Path
 
 local NECROLORD = ns.covenants.NEC
 
-local map = Map({ id=1536 })
-local sanctum = Map({ id=1698, settings=false })
+local map = Map({ id=1536, settings=true })
+local sanctum = Map({ id=1698 })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -493,7 +493,7 @@ local forgotten_treasure = Treasure({
 
 map.nodes[22503030] = forgotten_treasure
 
-local etheric_vault = Map({ id=1649, settings=false })
+local etheric_vault = Map({ id=1649 })
 etheric_vault.nodes[34565549] = Clone(forgotten_treasure, {
     pois={
         POI({25815353}) -- Vault Portcullis Chain
@@ -584,7 +584,7 @@ local HAIRBALL = Kitten({id=174195, rewards={
 }, note=L["hairball"]}) -- Hairball
 
 -- Add Hairball to the dungeon map
-local festering_sanctum = Map({ id=1697, settings=false })
+local festering_sanctum = Map({ id=1697 })
 festering_sanctum.nodes[45203680] = HAIRBALL
 
 -- Add Hairball to the world map

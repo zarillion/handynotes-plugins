@@ -25,7 +25,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local VENTHYR = ns.covenants.VEN
-local map = Map({ id=1525 })
+local map = Map({ id=1525, settings=true })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -624,8 +624,8 @@ map.nodes[58306280] = BloodMirror({ label=L["feeders_thicket"], requires=T3 })
 
 -------------------------------------------------------------------------------
 
-local reaches = Map({ id=1699, settings=false })
-local depths = Map({ id=1700, settings=false })
+local reaches = Map({ id=1699 })
+local depths = Map({ id=1700 })
 
 reaches.nodes[42073630] = BloodMirror({ label=L["pridefall_hamlet"], requires=T1 })
 reaches.nodes[46054944] = BloodMirror({ label=L["eternal_terrace"], requires=T1 })

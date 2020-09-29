@@ -25,7 +25,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local NIGHTFAE = ns.covenants.FAE
-local map = Map({ id=1565 })
+local map = Map({ id=1565, settings=true })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -563,18 +563,18 @@ map.nodes[73682522] = Mushroom({ id=325607, requires=T3 }) -- Crumbled Ridge
 
 -------------------------------------------------------------------------------
 
-local roots = Map({ id=1702, settings=false }) -- The Roots
+local roots = Map({ id=1702 }) -- The Roots
 
 roots.nodes[55442673] = Mushroom({ id=308437, requires=T1 }) -- The Ring
 roots.nodes[57516562] = Mushroom({ id=335702, requires=T1 }) -- Queen's Conservatory
 
-Map({id=1825, settings=false}).nodes[50437614] = Mushroom({ id=308437 }) -- The Unknown 1
-Map({id=1826, settings=false}).nodes[50187317] = Mushroom({ id=308437 }) -- The Unknown 2
-Map({id=1827, settings=false}).nodes[48247310] = Mushroom({ id=308437 }) -- The Unknown 3
+Map({id=1825}).nodes[50437614] = Mushroom({ id=308437 }) -- The Unknown 1
+Map({id=1826}).nodes[50187317] = Mushroom({ id=308437 }) -- The Unknown 2
+Map({id=1827}).nodes[48247310] = Mushroom({ id=308437 }) -- The Unknown 3
 
 -------------------------------------------------------------------------------
 
-local ring = Map({ id=1819, settings=false }) -- The Ring
+local ring = Map({ id=1819 }) -- The Ring
 
 ring.nodes[41273983] = Mushroom({ id=308436, requires=T1 }) -- Stalks
 ring.nodes[41936098] = Mushroom({ id=325621, requires=T1 }) -- Forest's Edge

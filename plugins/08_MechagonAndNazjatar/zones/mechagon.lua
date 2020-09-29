@@ -31,7 +31,7 @@ ns.groups.RECRIG = Group({name='recrig'})
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=1462 })
+local map = Map({ id=1462, settings=true })
 local nodes = map.nodes
 local TIME_DISPLACEMENT = 296644
 

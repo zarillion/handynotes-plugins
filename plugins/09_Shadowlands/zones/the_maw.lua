@@ -23,7 +23,7 @@ local POI = ns.poi.POI
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=1543, phased=false })
+local map = Map({ id=1543, phased=false, settings=true })
 
 function map:Prepare ()
     Map.Prepare(self)

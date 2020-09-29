@@ -33,7 +33,7 @@ local AQR, EMP, AMA = 0, 1, 2 -- assaults
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=1527, phased=false })
+local map = Map({ id=1527, phased=false, settings=true })
 local nodes = map.nodes
 
 local function GetAssault()

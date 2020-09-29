@@ -35,7 +35,7 @@ ns.groups.TREASURES_NAZJ = Group({name='treasures_nazj'})
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=1355, phased=false })
+local map = Map({ id=1355, phased=false, settings=true })
 local nodes = map.nodes
 
 function map:Prepare ()
