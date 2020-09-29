@@ -121,7 +121,7 @@ L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno del 
 
 L["broken_flute"] = "Mata a los {npc:170009} cercanos hasta que uno suelte la {item:180536}. Usa las herramientas para repararla."
 L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar la parte. El ánima tiene varios sitios de aparición."
-L["larion_harness"] = "Localizado dentro del Salón de las Bestias."--Revisar que Hall of Beasts sea Salón de las Bestias
+L["larion_harness"] = "Localizado dentro del Salón de las Bestias."--Revisar (AREATABLE) que Hall of Beasts sea Salón de las Bestias
 L["memorial_offering"] = "Compra una botella de {item:180788} a {npc:171526} en el Reposo del Aspirante. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}."
 L["scroll_of_aeons"] = "Coge de un cuenco 2 {item:173973} en el centro del área y colócalos en los cuencos de tributo cercanos para revelar el tesoro {item:173984}."
 L["vesper_of_silver_wind"] = "Completa el logro {achievement:14339} y habla con {npc:171732} cerca de la entrada a los Capiteles de la Ascensión para forjar {item:180858}."
@@ -132,7 +132,7 @@ L["gift_of_devos"] = [[
 Al suroeste del cofre hay una antorcha donde puedes coger {spell:333912}. Montar, entrar en combate o recibir daño hará que sueltes la llama. Debes hacer tu camino de regreso al cofre y poner la llama en el Blandón de Devoción para conseguir la {spell:333070}.
 
 Antes de coger la llama, limpia de enemigos el camino al cofre. Mientras corras con la llama, haz click en algún {npc:156571} a lo largo del camino para conseguir {spell:335012} el cual incrementa la velocidad de movimiento.
-]]--Revisar que Brazier of Devotion sea Blandón de Devoción
+]]--Revisar (NODATABLE) que Brazier of Devotion sea Blandón de Devoción
 L["gift_of_thenios"] = [[
 Detrás del cofre hay una plataforma de vuelo llamada "Camino de la Sabiduría". Esto lleva a una secuencia de plataformas con diferentes inciensos con los que puedes comulgar:
 
@@ -144,11 +144,11 @@ Detrás del cofre hay una plataforma de vuelo llamada "Camino de la Sabiduría".
 Comulga con ellos en el orden Paciencia => Sabiduría => Visión. En la plataforma del Juicio aparecerá un orbe llamado "Camino de la Sabiduría Perspicaz".
 
 El orbe te llevará al verdadero Incienso del Juicio. Comulga con él y aparecerá la última plataforma de vuelo que te dará la {spell:333068} al abrir el cofre.
-]]--Revisar que Path of Wisdom sea Camino de la Sabiduría, que incenses sea inciensos, los tipos de incienso y que Path of Insightful Wisdom sea Camino de la Sabiduría Perspicaz
+]]--Revisar (AREATABLE, SPELL) que Path of Wisdom sea Camino de la Sabiduría, que incenses sea inciensos, (SPELLNAME) los tipos de incienso y (NODATABLE) que Path of Insightful Wisdom sea Camino de la Sabiduría Perspicaz
 L["gift_of_vesiphone"] = "Toca una de las campanas para hacer que aparezca una {npc:170849} y mátala para recibir el debuff {spell:333239}. El agua que cae frente al cofre limpiará el debuff y te dará la {spell:332785}."
 
-L["cache_of_the_ascended"] = "Alijo de los Ascendidos"--Revisar que Cache of the Ascended sea Alijo de los Ascendidos
-L["cache_of_the_ascended_note"] = "Con otros cuatro jugadores, hay que hacer click en las cinco vísperas de pureza, coraje, humildad, sabiduría y lealtad al mismo tiempo. Después, hay que ir al Crisol del Aspirante a derrotar los cinco campeones para que se revele el alijo."--Revisar que vespers of purity sea vísperas de pureza
+L["cache_of_the_ascended"] = "Alijo de los Ascendidos"--Revisar (MOUNT) que Cache of the Ascended sea Alijo de los Ascendidos
+L["cache_of_the_ascended_note"] = "Con otros cuatro jugadores, hay que hacer click en las cinco vísperas de pureza, coraje, humildad, sabiduría y lealtad al mismo tiempo. Después, hay que ir al Crisol del Aspirante a derrotar los cinco campeones para que se revele el alijo."--Revisar (QUESTOBJECTIVE, CRITERIATREE) que vesper of purity sea víspera de pureza
 
 L["anima_shard"] = "Fragmento de Cristal de Ánima Perdido"
 L["anima_shard_61225"] = "En una plataforma inferior debajo del puente."
@@ -157,7 +157,7 @@ L["anima_shard_61236"] = "Sobre un arco enmedio de la estructura principal."
 L["anima_shard_61237"] = "En una repisa justo sobre el agua."
 L["anima_shard_61238"] = "En el agua debajo de un puente pequeño."
 L["anima_shard_61239"] = "Encima de una fina columna de piedra."
-L["anima_shard_61241"] = "Sobre la entrada a la Cámara de la Primera Reflexión."--Revisar que Chamber of First Reflection sea Cámara de la Primera Reflexión
+L["anima_shard_61241"] = "Sobre la entrada a la Cámara de la Primera Reflexión."--Revisar que (AREATABLE, WMOAREATABLE) Chamber of First Reflection sea Cámara de la Primera Reflexión
 L["anima_shard_61244"] = "En una roca en el lado del precipicio."
 L["anima_shard_61245"] = "En una roca sobre una cascada pequeña."
 L["anima_shard_61247"] = "En la pared sobre una fuente pequeña de agua."
@@ -176,12 +176,12 @@ L["anima_shard_61270"] = "Reposando en la base de un árbol."
 L["anima_shard_61271"] = "En una estantería en la plataforma superior."
 L["anima_shard_61273"] = "En una repisa justo debajo del precipicio que sobresale."
 L["anima_shard_61274"] = "Escondido debajo de la plataforma."
-L["anima_shard_61275"] = "En el Salón de las Bestias debajo de unos barriles."--Revisar si Hall of Beasts es Salón de las Bestias
+L["anima_shard_61275"] = "En el Salón de las Bestias debajo de unos barriles."--Revisar (AREATABLE) que Hall of Beasts sea Salón de las Bestias
 L["anima_shard_61277"] = "Sobre una fina columna de piedra."
 L["anima_shard_61278"] = "Debajo del puente y sobre una roca."
 L["anima_shard_61279"] = "Sobre una fina columna de piedra."
 L["anima_shard_61280"] = "En la esquina de la mesa."
-L["anima_shard_61281"] = "En una repisa sobre el tesoro de las Ofrendas Conmemorativas."--Revisar que Memorial Offerings sea Ofrendas Conmemorativas
+L["anima_shard_61281"] = "En una repisa sobre el tesoro de las Ofrendas Conmemorativas."--Revisar que (VIGNETTE) Memorial Offerings sea Ofrendas Conmemorativas
 L["anima_shard_61282"] = "En una repisa debajo de la cima del precipio. Salta sobre la roca siguiente o serás llevado de vuelta arriba."
 L["anima_shard_61283"] = "En una cueva debajo de la Capilla de Miri, detrás de unos barriles."
 L["anima_shard_61284"] = "En una repisa debajo de un saliente rocoso, camino al sur."
@@ -189,7 +189,7 @@ L["anima_shard_61285"] = "Al final de una pequeña repisa de roca."
 L["anima_shard_61286"] = "En una repisa que domina el camino."
 L["anima_shard_61287"] = "En una repisa sobre una cascada pequeña."
 L["anima_shard_61288"] = "En la punta de una repisa pequeña."
-L["anima_shard_61289"] = "Encima de la glorieta."--gazebo es ¿glorieta?
+L["anima_shard_61289"] = "Encima de la glorieta."--Revisar (SPELL) que gazebo sea ¿glorieta?
 L["anima_shard_61290"] = "Al final de un estrecho saliente rocoso."
 L["anima_shard_61291"] = "En el fondo del estanque junto a los pies de una estatua."
 L["anima_shard_61292"] = "Sobre un arco de piedra."
@@ -205,7 +205,7 @@ L["options_icons_anima_shards"] = "Fragmentos de Cristal de Ánima Perdidos"
 L["options_icons_anima_shards_desc"] = "Muestra la localización de los 50 fragmentos de cristal de ánima perdidos para el logro Trabajo Fragmentario."
 
 L["aspirants_rest"] = "Reposo del Aspirante"
-L["eternal_gateway"] = "Portal Eterno"--Revisar que Eternal Gateway sea Portal Eterno
+L["eternal_gateway"] = "Portal Eterno"--Revisar (NODATABLE) que Eternal Gateway sea Portal Eterno
 L["exaltations_rise"] = "Alto de la Exaltación"
 L["heros_rest"] = "Reposo del Héroe"
 L["sagehaven"] = "Refugio Sabio"
@@ -220,7 +220,7 @@ L["xandrias_vigil"] = "Vigilia de Xandria"
 
 L["chelicerae_note"] = "Destruye la {npc:159885} para activar a {npc:159886}."
 L["deepscar_note"] = "Puede aparecer en varias entradas al Teatro del Dolor."
-L["forgotten_mementos"] = "Tira de la Cadena de Rastrillo de la Bóveda en la cámara al oeste del tesoro para abrir la puerta."--Revisar que Vault Portcullis Chain sea Cadena de Rastrillo de la Bóveda
+L["forgotten_mementos"] = "Tira de la Cadena de Rastrillo de la Bóveda en la cámara al oeste del tesoro para abrir la puerta."--Revisar (SPELLNAME Vault Chain Pull y Portcullis Chain) que Vault Portcullis Chain sea Cadena de Rastrillo de la Bóveda
 L["gieger_note"] = "Tira de {npc:162815} para activar a {npc:162741}."
 L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:162588}."
 L["leeda_note"] = "Mata a los {npc:162220} hasta que aparezca {npc:162180}."
@@ -239,9 +239,9 @@ Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando 
 • Recoge {spell:306722} de {npc:165027} y de {npc:166438} al sur.
 ]]
 
-L["blackhound_cache"] = "Alijo del Can Negro"--Revisar que Blackhound Cache sea Alijo del Can Negro
-L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
-L["cache_of_eyes"] = "Alijo de Ojos"--Revisar que Cache of Eyes sea Alijo de ojos
+L["blackhound_cache"] = "Alijo del Can Negro"--Revisar (VIGNETTE, TOY) que Blackhound Cache sea Alijo del Can Negro
+L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que (VIGNETTE) Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
+L["cache_of_eyes"] = "Alijo de Ojos"--Revisar que (VIGNETTE, BATTLEPETSPECIES) Cache of Eyes sea Alijo de ojos
 L["cache_of_eyes_note"] = "Aparece en varios sitios dentro de Bastión Invidente."
 
 L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
@@ -253,18 +253,18 @@ Quédate de pie en la baba verde (¡requiere sanación!) para conseguir 10 acumu
 
 Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:158406} (la entrada está en el lado este) y haz click en el tubo para llegar al cofre.
 ]]
-L["ritualists_cache_note"] = "Despoja las {item:181558} de una pila de huesos (aparece en varios sitios). Úsalas para completar el Libro de Rituales de Vínculo en el podio detrás de {npc:174386} con lo que ganarás el buff {spell:337041}."--Revisar que Book of Binding Rituals sea Libro de Rituales de Vínculo
+L["ritualists_cache_note"] = "Despoja las {item:181558} de una pila de huesos (aparece en varios sitios). Úsalas para completar el Libro de Rituales de Vínculo en el podio detrás de {npc:174386} con lo que ganarás el buff {spell:337041}."--Revisar (MOUNT Binding Rituals) que Book of Binding Rituals sea Libro de Rituales de Vínculo
 L["runespeakers_trove_note"] = "Busca a {npc:170563} al este y mátalo para conseguir la {item:181777}."
 L["stolen_jar_note"] = "En una cueva debajo de la seta gigante."
 L["strange_growth_note"] = "Estira de {npc:165037} para revelar el tesoro."
-L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar que vat of slime sea cuba de baba
+L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar (NODATABLE) que vat of slime sea cuba de baba
 
-L["giant_cache_of_epic_treasure"] = "Cofre Gigante de Tesoro Épico"--Revisar que Giant Cache of Epic Treasure sea Cofre Gigante de Tesoro Épico
+L["giant_cache_of_epic_treasure"] = "Cofre Gigante de Tesoro Épico"--Revisar (SPELLNAME, VIGNETTE) que Giant Cache of Epic Treasure sea Cofre Gigante de Tesoro Épico
 L["spinebug_note"] = [[
 ¡Oh mira! ¡Un {spell:343124}! Acércate valiente aventurero, esto seguramente no es un engaño. Espera, ¿esa no es la música de Karazhan? ¿Qué hace aquí {npc:174663}...?
 
 ¡{spell:343163}!
-]]--Revisar Approach it brave adventurer, this is surely not a ruse. Wait, is that the music from Karazhan? What is this {npc:174663} doing here ...? sea Acércate valiente aventurero, esto seguramente no es un engaño. Espera, ¿esa no es la música de Karazhan? ¿Qué hace aquí {npc:174663}...?
+]]--Revisar (NODATABLE) que Approach it brave adventurer, this is surely not a ruse. Wait, is that the music from Karazhan? What is this {npc:174663} doing here ...? sea Acércate valiente aventurero, esto seguramente no es un engaño. Espera, ¿esa no es la música de Karazhan? ¿Qué hace aquí {npc:174663}...?
 
 L["oonar_sorrowbane_note"] = [[
 En el Teatro del Dolor, podrás encontrar {item:180273} clavada en el suelo y el Brazo de Oonar al lado. |cFFFF8C00Antes de intentar tirar de ninguno, pon tu {item:6948} en {npc:161702} por el punto de vuelo.|r
@@ -282,9 +282,9 @@ Para tirar de {item:180273} sin problemas:
 • Consigue 2 acumulaciones de {spell:306272} de la misión del mundo {wq:Algunos Baches en el Camino} al oeste.
 • Come 4 {spell:327367} en la Corrupción de Glutharn al este.
 • Vuelve volando rápidamente al Teatro del Dolor con la {item:6948}, bébete ambas pociones y tira de la espada.
-]]--Revisar que A Few Bumps Along the Way sea Algunos Baches en el Camino
+]]--Revisar (QUESTV2CLITASK) que A Few Bumps Along the Way sea Algunos Baches en el Camino
 
-L["pet_cat"] = "¡Acaricia al maldito gato!"--Revisar que Pet the damn cat! sea ¡Acaricia al maldito gato!
+L["pet_cat"] = "¡Acaricia al maldito gato!"--Revisar (NODATABLE) que Pet the damn cat! sea ¡Acaricia al maldito gato!
 L["hairball"] = ns.color.Red("¡Sólo aparece en el Sagrario Purulento dentro de la mazmorra Bajapeste!")
 L["lime"] = "Reposando sobre el gran arco óseo."
 L["moldstopheles"] = "Corre alrededor de la parte posterior del tallo y salta en las plataformas con forma de seta. Para la última plataforma, usa una motura y salta a la raíz que rodea el tallo."
@@ -293,7 +293,7 @@ L["pus_in_boots"] = "Está debajo del puente."
 L["options_icons_slime_cat"] = "Gatitos"
 L["options_icons_slime_cat_desc"] = "Muestra las localizaciones de los gatitos para el logro Siete Vidas Más."
 
-L["exoramas"] = "Exoramas, Casa de los Rituales"--Revisar que House of Rituals sea Casa de los Rituales
+L["exoramas"] = "Exoramas, Casa de los Rituales"--Revisar que (AREATABLE, CRITERIATREE, SPELL, SPELLNAME, SCENARIO) House of Rituals sea Casa de los Rituales
 L["nurakkir"] = "Nurakkir, Casa de los Ojos"
 L["overlook_primus"] = "Overlook, Trono del Prelado"
 L["zerekriss"] = "Zerekriss, Maldraxxus"
