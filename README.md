@@ -5,6 +5,10 @@ Join our Discord server to discuss features and translations: https://discord.gg
 
 ![](https://github.com/zarillion/handynotes-plugins/workflows/Automated%20Build/badge.svg)
 
+* [HandyNotes: Mechagon & Nazjatar](https://www.curseforge.com/wow/addons/handynotes-mechagon-nazjatar)
+* [HandyNotes: Visions of N'Zoth](https://www.curseforge.com/wow/addons/handynotes-visions-of-nzoth)
+* [HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands)
+
 ## Development Setup
 
 This repository hosts *all* of our HandyNotes plugins. Since they all share the same core code and features, it made sense to keep them in a single repository instead of individual ones. This means the repository cannot be cloned directly into your addons directory; the files won't be in the places WoW expects.
