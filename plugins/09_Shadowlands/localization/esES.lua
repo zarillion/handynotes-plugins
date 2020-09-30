@@ -303,11 +303,11 @@ L["zerekriss_note"] = "Una vez activada, la necrópolis volará alrededor de la 
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_filth_note"] = "Cuando esté disponible la misión del mundo {wq:Trabajo Sucio: Detalles de Demolición} haz click en una Caja de Basura y usa {spell:324115} dentro del agua."--Revisar que Dirty Job: Demolition Detail sea Trabajo Sucio: Detalles de Demolición, que Rubbish Box sea Caja de Basura
+L["amalgamation_of_filth_note"] = "Cuando esté disponible la misión del mundo {wq:Trabajo Sucio: Detalles de Demolición} haz click en una Caja de Basura y usa {spell:324115} dentro del agua."--Revisar (QUESTV2CLITASK) que Dirty Job: Demolition Detail sea Trabajo Sucio: Detalles de Demolición, que (NODATABLE) Rubbish Box sea Caja de Basura
 L["amalgamation_of_light_note"] = "Mueve las tres trampas de espejos para liberar a {npc:164388}."
-L["amalgamation_of_sin_note"] = "Usa el Catalizador de Poder para conseguir Use the  to obtain {item:180376} de la misión del mundo {wq:Invoca tus Pecados}. Usa el objeto para invocar a la {npc:170434}."--Revisar que Catalyst of Power sea Catalizador de Poder y que Summon Your Sins sea Invoca tus Pecados
-L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo {wq:Muck It Up} después de usar {item:177880} en {npc:166206}."--Revisar que nombre tiene la WQ Muck It Up
-L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:165229} y usa {spell:321826} en la parte superior de la Grieta Brillante."--Revisar qué es Anima Stake y que Shimmering Rift sea Grieta Brillante
+L["amalgamation_of_sin_note"] = "Usa el Catalizador de Poder para conseguir la {item:180376} de la misión del mundo {wq:Invoca tus Pecados}. Usa el objeto para invocar a la {npc:170434}."--Revisar (NODATABLE) que Catalyst of Power sea Catalizador de Poder y (QUESTV2CLITASK) que Summon Your Sins sea Invoca tus Pecados
+L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo {wq:Muck It Up} después de usar {item:177880} en {npc:166206}."--Revisar (QUESTV2CLITASK) qué nombre tiene la WQ Muck It Up
+L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:165229} y usa {spell:321826} en la parte superior de la Grieta Brillante."--Revisar (SPELL, SPELLNAME) qué es Anima Stake y (SPELLFOCUSOBJECT) que Shimmering Rift sea Grieta Brillante
 L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar {spell:324872}."
 L["famu_note"] = "Habla con {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}."
 L["grand_arcanist_dimitri_note"] = "Matar los cuatro {npc:167467} para liberar a {npc:167464}."
@@ -320,7 +320,7 @@ L["innervus_note"] = "Mata a los {npc:160375} cercanos para conseguir la {item:1
 L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca de {npc:165151} para comenzar el evento tras el cual aparecerá {npc:165152}."
 L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}."
 L["madalav_note"] = "Haz click en el Martillo de Madalav en el yunque cercano para invocar al {npc:159496}."
-L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo {wq:Enjambre de Almas}."--Revisar que Swarming Souls sea Enjambre de Almas
+L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo {wq:Enjambre de Almas}."--Revisar (QUESTV2CLITASK, BATTLEPETSPECIES) que Swarming Souls sea Enjambre de Almas
 L["scrivener_lenua_note"] = "Devuelve los {npc:160753} a la Biblioteca Prohibida."
 L["sinstone_hoarder_note"] = "Intenta despojar el {npc:162503} y el {npc:162481} se revelará él solo."
 L["sire_ladinas_note"] = "Coge un {npc:160621} cercano y usa {spell:313065} en un {npc:157733}."
@@ -330,29 +330,29 @@ L["worldedge_gorger_note"] = [[
 Consigue una {item:173939} de los Segadores del Mundo, Devoradores y Mites en el Bosque de la Desgracia y en el Cenagal del Fin. Úsala para encender los Blandones del Fin del Mundo e invocar a {npc:160821}.
 
 Tiene probabilidades de soltar {item:180583}, con lo que comienza una línea de misiones de 7 días para conseguir la montura {spell:333027}.
-]]--Revisar que World Reavers sea Segadores del Mundo, qué es Mites, que Worldedge Braziers sea Blandones del Fin del Mundo
+]]--Revisar (NODATABLE) que World Reavers sea Segadores del Mundo, (ITEMSPARSE) qué es Mites, (SPELL, SPELLFOCUSOBJECT) que Worldedge Braziers sea Blandones del Fin del Mundo
 
 L["dredglaive_note"] = "Debajo del puente en el cuerpo de un {npc:173671}."
-L["forbidden_chamber_note"] = "Despoja un Bote de Ánima Desechada enfrente de la puerta y aprende {spell:340701}. Úsalo para drenar cinco {npc:173838} en las cercanías, entonces usa {spell:340866} enfrente del {npc:173786}."--Revisar que Discarded Anima Canister sea Bote de Ánima Desechada
+L["forbidden_chamber_note"] = "Despoja un Bote de Ánima Desechada enfrente de la puerta y aprende {spell:340701}. Úsalo para drenar cinco {npc:173838} en las cercanías, entonces usa {spell:340866} enfrente del {npc:173786}."--Revisar (NODATABLE) que Discarded Anima Canister sea Bote de Ánima Desechada
 L["lost_quill_note"] = "Despoja {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida."
 L["rapier_fearless_note"] = "Haz click en el estoque del suelo, y entonces derrota a {npc:173603}."
-L["taskmaster_trove_note"] = "Lee el Ritual de Ingreso y el Ritual de Salida. Después sigue el camino al cofre con cuidado."--Revisar que Ingress Rite sea Ritual de Ingreso, que Egress Rite sea Ritual de Salida
+L["taskmaster_trove_note"] = "Lee el Ritual de Ingreso y el Ritual de Salida. Después sigue el camino al cofre con cuidado."--Revisar (NODATABLE) que Ingress Rite sea Ritual de Ingreso, (NODATABLE) que Egress Rite sea Ritual de Salida
 L["the_count_note"] = "Farmea 99 {currency:1820} en el Cenagal del Fin y llévaselos a {npc:173488}."
 
-L["abandoned_curios"] = "Curiosidades Abandonadas"--Revisar que Abandoned Curios sea Curiosidades Abandonadas
-L["bleakwood_chest"] = "Cofre de Maderasombría"--Revisar que Bleakwood Chest sea Cofre de Maderasombría
-L["chest_of_envious_dreams"] = "Cofre de Sueños Envidiosos"--Revisar que Chest of Envious Dreams sea Cofre de Sueños Envidiosos
-L["filchers_prize"] = "Premio de Filcher"--Revisar que Filcher's Prize sea Premio de Filcher
-L["fleeing_soul_bundle"] = "Fardo del Alma Huidiza"--Revisar que Fleeing Soul's Bundle sea Fardo del Alma Huidiza
-L["forgotten_anglers_rod"] = "Caña de Pescador Olvidada"--Revisar que Forgotten Angler's Rod sea Caña de Pescador Olvidada
-L["gilded_plum_chest"] = "Cofre de Ciruela Dorada"--Revisar que Gilded Plum Chest sea Cofre de Ciruela Dorada
+L["abandoned_curios"] = "Curiosidades Abandonadas"--Revisar (NODATABLE) que Abandoned Curios sea Curiosidades Abandonadas
+L["bleakwood_chest"] = "Cofre de Maderasombría"--Revisar (VIGNETTE, BATTLEPETSPECIES) que Bleakwood Chest sea Cofre de Maderasombría
+L["chest_of_envious_dreams"] = "Cofre de Sueños Envidiosos"--Revisar (NODATABLE) que Chest of Envious Dreams sea Cofre de Sueños Envidiosos
+L["filchers_prize"] = "Premio de Filcher"--Revisar (NODATABLE) que Filcher's Prize sea Premio de Filcher
+L["fleeing_soul_bundle"] = "Fardo del Alma Huidiza"--Revisar (NODATABLE) que Fleeing Soul's Bundle sea Fardo del Alma Huidiza
+L["forgotten_anglers_rod"] = "Caña de Pescador Olvidada"--Revisar (VIGNETTE, TOY) que Forgotten Angler's Rod sea Caña de Pescador Olvidada
+L["gilded_plum_chest"] = "Cofre de Ciruela Dorada"--Revisar (NODATABLE) que Gilded Plum Chest sea Cofre de Ciruela Dorada
 L["gilded_plum_chest_note"] = "Mata a {npc:166680} que deambula camino arriba y abajo."
-L["remlates_cache"] = "Cofre Escondido de Remlate"--Revisar que Remlate's Hidden Cache sea Cofre Escondido de Remlate
+L["remlates_cache"] = "Cofre Escondido de Remlate"--Revisar (NODATABLE) que Remlate's Hidden Cache sea Cofre Escondido de Remlate
 L["remlates_cache_note"] = "En la pared exterior de Refugioscuro detrás de la cripta."
-L["smuggled_cache"] = "Cofre de Contrabando"--Revisar que Smuggled Cache sea Cofre de Contrabando
-L["wayfarer_spoils"] = "Botín Abandonado de Wayfarer"--Revisar que Wayfarer's Abandoned Spoils sea Botín Abandonado de Wayfarer
+L["smuggled_cache"] = "Cofre de Contrabando"--Revisar (SPELLNAME) que Smuggled Cache sea Cofre de Contrabando
+L["wayfarer_spoils"] = "Botín Abandonado de Wayfarer"--Revisar (NODATABLE) que Wayfarer's Abandoned Spoils sea Botín Abandonado de Wayfarer
 
-L["loyal_gorger_note"] = "Visita el Endmire y completa una misión diaria ofrecida por tu {npc:173498} 7 veces para conseguirlo como montura."--Revisar qué es Endmire
+L["loyal_gorger_note"] = "Visita el Cenagal del Fin y completa una misión diaria ofrecida por tu {npc:173498} 7 veces para conseguirlo como montura."
 
 L["sinrunner_note"] = "Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer."
 L["sinrunner_note_day1"] = "Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de Páramos de Poniente."
@@ -398,10 +398,10 @@ Mata a los tres Heraldos: {npc:169827}, {npc:170302} y {npc:170301}. Recoge de e
 • {item:182327}
 
 Combina las tres inscripciones para crear la {item:182329}, la cual debe ser usada para invocar a {npc:170303}. Usa el {npc:173892} para llegar al nivel superior.
-]]--Revisar que etchings sea inscripciones
+]]--Revisar (SPELLNAME) que etchings sea inscripciones
 
-L["soul_well_note"] = "Atrapa la Estigia que surge del Pozo de Almas."--Revisar que Stygia sea Estigia, que erupting sea surgiendo, que Soul Well sea Pozo de Almas
-L["obliterated_soul_shards_note"] = "Recoge Fragmentos de Almas Eliminadas en los puentes."--Revisar que Obliterated Soul Shards sea Fragmentos de Almas Eliminadas
+L["soul_well_note"] = "Atrapa la Estigia que surge del Pozo de Almas."--Revisar (SPELLNAME) que Stygia sea Estigia, que erupting sea surgiendo, (VIGNETTE, SPELLNAME, QUESTV2CLI) que Soul Well sea Pozo de Almas
+L["obliterated_soul_shards_note"] = "Recoge Fragmentos de Almas Eliminadas en los puentes."--Revisar (QUESTV2CLITASK) que Obliterated Soul Shards sea Fragmentos de Almas Eliminadas
 
 L["chaotic_riftstone_note"] = "Actívala para entrar en la {spell:344157} para cruzar rápidamente Las Fauces."
 
