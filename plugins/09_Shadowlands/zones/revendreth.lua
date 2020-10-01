@@ -133,9 +133,6 @@ map.nodes[32641545] = Rare({
     covenant=VENTHYR,
     requires=ns.requirement.GarrisonTalent(1259, L["anima_channeled"]),
     note=L["madalav_note"],
-    rewards={
-        Achievement({id=14310, criteria=48804})
-    },
     pois={
         POI({32661483}) -- Madalav's Hammer
     }
@@ -157,7 +154,6 @@ map.nodes[45847919] = Rare({
     requires=ns.requirement.GarrisonTalent(1256, L["anima_channeled"]),
     note=L["harika_note"],
     rewards={
-        Achievement({id=14310, criteria=48813}),
         Transmog({item=183720, slot=L["leather"]}), -- Dredbatskin Jerkin
         Mount({item=180461, id=1310}) -- Horrid Brood Dredwing
     },
@@ -674,7 +670,6 @@ local Blanchy = Class('Blanchy', NPC, {
     quest={62038, 62042, 62047, 62049, 62048, 62050},
     questCount=true,
     rewards={
-        Achievement({id=14314, criteria=50083}), -- Blanchy Assisted
         Mount({item=182614, id=1414}) -- Blanchy's Reins
     }
 })

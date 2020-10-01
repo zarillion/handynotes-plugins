@@ -95,7 +95,6 @@ map.nodes[31603540] = Rare({
     requires=ns.requirement.GarrisonTalent(1250, L["anima_channeled"]),
     note=L["gieger_note"],
     rewards={
-        Achievement({id=14308, criteria=48871}),
         Mount({item=182080, id=1411}) -- Predatory Bonejowl
     }
 }) -- Gieger
@@ -471,7 +470,6 @@ map.nodes[51444848] = Treasure({
     questCount=true,
     note=L["oonar_sorrowbane_note"],
     rewards={
-        Achievement({id=14312, criteria=49436}),
         Achievement({id=14626, criteria=0}),
         Pet({item=181164, id=2944}), -- Oonar's Arm
         Transmog({item=180273, slot=L["2h_sword"]}), --Sorrowbane

@@ -523,7 +523,6 @@ map.nodes[36012652] = Treasure({
     requires=ns.requirement.Item(180858),
     note=L["vesper_of_silver_wind"],
     rewards={
-        Achievement({id=14311, criteria=50057}),
         Mount({item=180772, id=1404}) -- Silverwind Larion
     }
 }) -- Vesper of the Silver Wind
