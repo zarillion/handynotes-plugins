@@ -108,7 +108,7 @@ L["options_toggle_hide_done_rare_desc"] = "Blendet alle seltenen Gegner deren Be
 L["options_toggle_hide_minimap"] = "Blende alle Symbole auf der Minikarte aus"
 L["options_toggle_hide_minimap_desc"] = "Blendet alle Symbole dieses Addons auf der Minikarte aus und zeigt sie nur auf der Hauptkarte an."
 L["options_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
-L["options_restore_hidden_nodes_desc"] = "Stelle alle Punkte wiederher die über das Kontextmenü versteckt wurden."
+L["options_restore_hidden_nodes_desc"] = "Stellt alle Punkte wieder her, die über das Kontextmenü versteckt wurden."
 
 L["options_icons_pet_battles_desc"] = "Zeigt Standorte von Kampfhaustiertrainern und NPCs an."
 L["options_icons_pet_battles"] = "Kampfhaustiere"
