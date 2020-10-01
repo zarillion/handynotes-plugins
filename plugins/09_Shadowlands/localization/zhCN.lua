@@ -339,16 +339,16 @@ L["the_count_note"] = "获得99个 {currency:1820} 末日迷沼然后把它带�
 
 L["abandoned_curios"] = "被遗弃的奇珍"
 L["bleakwood_chest"] = "冷木宝箱"
-L["chest_of_envious_dreams"] = "妒梦之箱"
-L["filchers_prize"] = "菲尔彻斯奖赏"
-L["fleeing_soul_bundle"] = "逃亡的灵魂包裹"
+L["chest_of_envious_dreams"] = "妒梦宝箱"
+L["filchers_prize"] = "窃贼的奖励"
+L["fleeing_soul_bundle"] = "逃难之魂的包袱"
 L["forgotten_anglers_rod"] = "被遗忘的渔翁之竿"
 L["gilded_plum_chest"] = "金梅宝箱"
 L["gilded_plum_chest_note"] = "击杀在路上徘徊的 {npc:166680}。"
-L["remlates_cache"] = "重联隐藏宝箱"
+L["remlates_cache"] = "伦姆莱特的隐藏宝箱"
 L["remlates_cache_note"] = "暗湾镇后面墓穴外墙上。"
 L["smuggled_cache"] = "走私的箱子"
-L["wayfarer_spoils"] = "徒步旅行者被遗弃的战利品"
+L["wayfarer_spoils"] = "旅者抛弃的战利品"
 
 L["loyal_gorger_note"] = "到末日迷沼完成{npc:173498} 的每日任务七次将获得他的坐骑。"
 
