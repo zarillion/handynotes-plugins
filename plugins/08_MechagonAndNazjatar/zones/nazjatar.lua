@@ -77,15 +77,6 @@ end
 
 nodes[11952801] = map.intro
 
-ns.addon:RegisterEvent('QUEST_TURNED_IN', function (_, questID)
-    if questID == 56156 or questID == 55500 then
-        ns.Debug('Nazjatar unlock detected')
-        C_Timer.After(1, function()
-            ns.addon:Refresh()
-        end)
-    end
-end)
-
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------

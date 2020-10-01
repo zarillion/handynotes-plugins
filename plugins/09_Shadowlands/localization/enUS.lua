@@ -374,10 +374,9 @@ L["the_banewood"] = "The Banewood"
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
+L["return_to_the_maw"] = "Return to the Maw"
 L["maw_intro_note"] = [[
-Complete the introductory quest chain to unlock rares and events in the Maw.
-
-Until you return {npc:170651} to Oribos, you will be phased from most other players.
+Begin the introductory quest chain from {npc:162804} to unlock rares and events in the maw.
 ]]
 
 L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."

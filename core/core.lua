@@ -194,7 +194,7 @@ function Addon:RegisterWithHandyNotes()
 
     self:RegisterBucketEvent({
         "LOOT_CLOSED", "PLAYER_MONEY", "SHOW_LOOT_TOAST",
-        "SHOW_LOOT_TOAST_UPGRADE"
+        "SHOW_LOOT_TOAST_UPGRADE", "QUEST_TURNED_IN"
     }, 2, "Refresh")
 
     self:Refresh()

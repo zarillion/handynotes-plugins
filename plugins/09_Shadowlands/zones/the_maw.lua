@@ -27,7 +27,7 @@ local map = Map({ id=1543, phased=false, settings=true })
 
 function map:Prepare ()
     Map.Prepare(self)
-    self.phased = C_QuestLog.IsQuestFlaggedCompleted(60134)
+    self.phased = C_QuestLog.IsQuestFlaggedCompleted(62907)
 end
 
 -------------------------------------------------------------------------------
@@ -35,7 +35,8 @@ end
 -------------------------------------------------------------------------------
 
 local MawIntro = Class('MawIntro', ns.node.Intro, {
-    quest=60134,
+    quest=62907, -- Eye of the Jailor activation
+    label=L['return_to_the_maw'],
     note=L["maw_intro_note"]
 })
 
@@ -44,18 +45,13 @@ function MawIntro:Initialize (attrs)
     C_QuestLine.GetQuestLineInfo(60134, 1543) -- fetch info
 end
 
-function MawIntro.getters:label ()
-    local info = C_QuestLine.GetQuestLineInfo(60134, 1543)
-    return info and info.questLineName or 'Return to the Maw'
-end
-
 map.intro = MawIntro({
-    rewards={Quest({id=({
-        {60232, 61495, 61496, 60287, 61391, 61355, 60289, 60134}, -- Kyrian
-        {60234, 61515, 61496, 60287, 61391, 61355, 60289, 60134}, -- Venthyr
-        {60233, 61508, 61496, 60287, 61391, 61355, 60289, 60134}, -- Night Fae
-        {60130, 61513, 61496, 60287, 61391, 61355, 60289, 60134}  -- Necrolord
-    })[math.max(C_Covenants.GetActiveCovenantID(), 1)]})}
+    rewards={
+        Quest({id={
+            62882, -- Setting the Ground Rules
+            60287  -- Rule 1: Have an Escape Plan
+        }})
+    }
 })
 
 map.nodes[80306280] = map.intro
