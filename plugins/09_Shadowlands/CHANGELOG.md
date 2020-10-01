@@ -1,3 +1,9 @@
+# v6
+
+* Removed all achievement criteria removed in today's patch.
+* Removed some sub-maps that were not meant to appear in the setting panel.
+* Added frFR translation (thanks Lightuky!)
+
 # v5
 
 * Added covenant transport networks.
