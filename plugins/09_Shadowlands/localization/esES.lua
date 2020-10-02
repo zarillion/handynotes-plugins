@@ -104,7 +104,7 @@ L["collector_astor_note"] = "Lee los seis capítulos del Legado de Mercia disper
 L["corrupted_clawguard_note"] = "Despoja un {item:180651} en Avanzada Forjafuego subiendo la colina y úsalo para reparar el {npc:171300}."--Revisar (AREATABLE) que Forgefire Outpost es Avanzada Forjafuego
 L["dark_watcher_note"] = "Sólo puede verse estando muerto. Habla con {npc:170623} y lanzará {spell:332830} en ti antes de que seas atacado."
 L["demi_hoarder_note"] = "Comienza con 99 acumulaciones de {spell:333874}, reduciendo el daño recibido. Las acumulaciones bajan lentamente con el daño. {npc:171011} seguirá una ruta. Desaparecerá si alcanza el final."
-L["dionae_note"] = "Cuando {npc:163460} se hace immune, haz click en las cuatro {npc:163747} para romperle el escudo."--Revisar (SPELLNAME, SPELL) genero de las/los npc:163747
+L["dionae_note"] = "Cuando {npc:163460} se hace immune, haz click en las cuatro {npc:163747} para romperle el escudo."--Revisar (SPELLNAME, SPELL) genero de las/los Anima Spear (npc:163747)
 L["herculon_note"] = [[
 Recoge {item:172451} y úsalas para dar a {npc:158659} acumulaciones de {spell:343531}. A las 10 acumulaciones, se activará.
 
@@ -376,11 +376,8 @@ L["the_banewood"] = "Bosque de la Desgracia"
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["maw_intro_note"] = [[
-Completa la cadena de misiones introductoria para desbloquear los raros y los eventos de Las Fauces.
-
-Hasta que vuelvas con {npc:170651} en Oribos, estarás en fase y no podrás ver a la mayoría de los jugadores.
-]]
+L["return_to_the_maw"] = "Vuelta a Las Fauces"
+L["maw_intro_note"] = "Comienza la cadena de misiones introductoria de {npc:162804} para desbloquear los raros y los eventos en Las Fauces."
 
 L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331783} para invocar a {npc:170301}."
 L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:330650} para invocar a {npc:169827}."
