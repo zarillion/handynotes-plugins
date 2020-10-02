@@ -375,9 +375,7 @@ L["the_banewood"] = "The Banewood"
 -------------------------------------------------------------------------------
 
 L["return_to_the_maw"] = "Return to the Maw"
-L["maw_intro_note"] = [[
-Begin the introductory quest chain from {npc:162804} to unlock rares and events in the maw.
-]]
+L["maw_intro_note"] = "Begin the introductory quest chain from {npc:162804} to unlock rares and events in the maw."
 
 L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
