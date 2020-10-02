@@ -1,3 +1,7 @@
+# v7
+
+* Fixed intro node for the Maw.
+
 # v6
 
 * Removed all achievement criteria removed in today's patch.
