@@ -382,11 +382,8 @@ L["the_banewood"] = "Fresserdickicht"
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["maw_intro_note"] = [[
-Schließe die Einführungsquestreihe ab, um im Schlund seltene Gegner und Events freizuschalten.
-
-Bis du {npc:170651} zurück nach Oribos bringst, wirst du in einem anderen Phasing sein als die meisten anderen Spieler.
-]]
+L["return_to_the_maw"] = "Rückkehr zum Schlund"
+L["maw_intro_note"] = "Beginne die Einführungsquestreihe bei {npc:162804}, um im Schlund seltene Gegner und Events freizuschalten."
 
 L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331783}, um {npc:170301} zu beschwören."
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
