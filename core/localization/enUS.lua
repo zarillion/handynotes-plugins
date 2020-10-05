@@ -138,6 +138,8 @@ L["options_poi_color"] = "POI color"
 L["options_poi_color_desc"] = "Sets the color for points of interest when an icon is in focus."
 L["options_path_color"] = "Path color"
 L["options_path_color_desc"] = "Sets the color for the paths when an icon is in focus."
+L["options_reset_poi_colors"] = "Reset colors"
+L["options_reset_poi_colors_desc"] = "Reset the above colors to their defaults."
 
 ---------------------------------- TOOLTIP ---------------------------------
 

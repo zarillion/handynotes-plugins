@@ -73,7 +73,7 @@ local function BootstrapDevelopmentEnvironment()
         -- Give some time for quest info to load in before we start
         for id = 0, max_quest_id do quests[id] = C_QuestLog.IsQuestFlaggedCompleted(id) end
         QTFrame:SetScript('OnUpdate', function ()
-            if GetTime() - lastCheck > 1 and ns.addon.db.profile.show_debug_quest then
+            if GetTime() - lastCheck > 1 and ns:GetOpt('show_debug_quest') then
                 for id = 0, max_quest_id do
                     local s = C_QuestLog.IsQuestFlaggedCompleted(id)
                     if s ~= quests[id] then
@@ -153,15 +153,15 @@ end
 -------------------------------------------------------------------------------
 
 function ns.Debug(...)
-    if (ns.addon.db.profile.development) then print(...) end
+    if ns:GetOpt('development') then print(...) end
 end
 
 function ns.DebugMap(...)
-    if (ns.addon.db.profile.show_debug_map) then print(...) end
+    if ns:GetOpt('show_debug_map') then print(...) end
 end
 
 function ns.DebugQuest(...)
-    if (ns.addon.db.profile.show_debug_quest) then print(...) end
+    if ns:GetOpt('show_debug_quest') then print(...) end
 end
 
 -------------------------------------------------------------------------------

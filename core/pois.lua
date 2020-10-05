@@ -38,10 +38,9 @@ function POI:Render(map, template)
 end
 
 function POI:Draw(pin, xy)
-    local db = ns.addon.db.profile
     local t = ResetPin(pin)
     local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
-    t:SetVertexColor(db.poi_color_R, db.poi_color_G, db.poi_color_B, 1)
+    t:SetVertexColor(unpack({ns:GetColorOpt('poi_color')}))
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\circle")
     pin:SetSize(size, size)
     return HandyNotes:getXY(xy)
@@ -100,9 +99,8 @@ function Path:Render(map, template)
 end
 
 function Path:Draw(pin, type, xy1, xy2)
-    local db = ns.addon.db.profile
     local t = ResetPin(pin)
-    t:SetVertexColor(db.path_color_R, db.path_color_G, db.path_color_B, 1)
+    t:SetVertexColor(unpack({ns:GetColorOpt('path_color')}))
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\"..type)
 
     -- constant size for minimaps, variable size for world maps

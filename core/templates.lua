@@ -81,7 +81,6 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         })
 
         local map = ns.maps[self:GetParent():GetMapID()]
-        local profile = ns.addon.db.profile
 
         for i, group in ipairs(map.groups) do
             if group:IsEnabled() then
@@ -92,10 +91,9 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                     hasArrow = true,
                     value = group,
                     checked = group:GetDisplay(),
-                    arg1 = group.displayArg,
-                    func = function (button, option)
-                        profile[option] = button.checked
-                        ns.addon:Refresh()
+                    arg1 = group,
+                    func = function (button, group)
+                        group:SetDisplay(button.checked)
                     end
                 })
             end
@@ -106,10 +104,9 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             text = L["options_show_completed_nodes"],
             isNotRadio = true,
             keepShownOnClick = true,
-            checked = profile.show_completed_nodes,
+            checked = ns:GetOpt('show_completed_nodes'),
             func = function (button, option)
-                profile.show_completed_nodes = button.checked
-                ns.addon:Refresh()
+                ns:SetOpt('show_completed_nodes', button.checked)
             end
         })
     elseif level == 2 then
@@ -122,7 +119,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             value = group:GetAlpha(),
             frame = self.AlphaOption,
             percentage = true,
-            func = function (v) group:SetAlpha(v); ns.addon:Refresh() end
+            func = function (v) group:SetAlpha(v) end
         }, 2)
 
         UIDropDownMenu_AddSlider({
@@ -130,7 +127,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             min = 0.3, max = 3, step=0.05,
             value = group:GetScale(),
             frame = self.ScaleOption,
-            func = function (v) group:SetScale(v); ns.addon:Refresh() end
+            func = function (v) group:SetScale(v) end
         }, 2)
     end
 end

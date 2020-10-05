@@ -28,15 +28,35 @@ ns.optionDefaults = {
 
         -- poi color
         poi_color_R = 0,
-        poi_color_G = 0,
+        poi_color_G = 0.5,
         poi_color_B = 1,
+        poi_color_A = 1,
 
         -- path color
         path_color_R = 0,
-        path_color_G = 0,
-        path_color_B = 1
+        path_color_G = 0.5,
+        path_color_B = 1,
+        path_color_A = 1
     },
 }
+
+-------------------------------------------------------------------------------
+----------------------------------- HELPERS -----------------------------------
+-------------------------------------------------------------------------------
+
+function ns:GetOpt(n) return ns.addon.db.profile[n] end
+function ns:SetOpt(n, v) ns.addon.db.profile[n] = v; ns.addon:Refresh() end
+
+function ns:GetColorOpt(n)
+    local db = ns.addon.db.profile
+    return db[n..'_R'], db[n..'_G'], db[n..'_B'], db[n..'_A']
+end
+
+function ns:SetColorOpt(n, r, g, b, a)
+    local db = ns.addon.db.profile
+    db[n..'_R'], db[n..'_G'], db[n..'_B'], db[n..'_A'] = r, g, b, a
+    ns.addon:Refresh()
+end
 
 -------------------------------------------------------------------------------
 --------------------------------- OPTIONS UI ----------------------------------
@@ -46,8 +66,8 @@ ns.options = {
     type = "group",
     name = L["options_title"],
     childGroups = "tab",
-    get = function(info) return ns.addon.db.profile[info.arg] end,
-    set = function(info, v) ns.addon.db.profile[info.arg] = v; ns.addon:Refresh() end,
+    get = function(info) return ns:GetOpt(info.arg) end,
+    set = function(info, v) ns:SetOpt(info.arg, v) end,
     args = {
         GeneralTab = {
             type = "group",
@@ -98,60 +118,56 @@ ns.options = {
                 FocusHeader = {
                     type = "header",
                     name = L["options_focus_settings"],
-                    order = 15,
+                    order = 20,
                 },
                 POI_color = {
                     type = "color",
                     name = L["options_poi_color"],
                     desc = L["options_poi_color_desc"],
-                    set = function(_,r,g,b,a)
-                    ns.addon.db.profile.poi_color_R = r
-                    ns.addon.db.profile.poi_color_G = g
-                    ns.addon.db.profile.poi_color_B = b
-                    ns.addon:Refresh()
-                    end,
-                    get = function(info) return
-                    ns.addon.db.profile.poi_color_R,
-                    ns.addon.db.profile.poi_color_G,
-                    ns.addon.db.profile.poi_color_B
-                    end,
-                    order = 16,
+                    hasAlpha = true,
+                    set = function(_, ...) ns:SetColorOpt('poi_color', ...) end,
+                    get = function() return ns:GetColorOpt('poi_color') end,
+                    order = 21,
                 },
                 PATH_color = {
                     type = "color",
                     name = L["options_path_color"],
                     desc = L["options_path_color_desc"],
-                    set = function(_,r,g,b,a)
-                    ns.addon.db.profile.path_color_R = r
-                    ns.addon.db.profile.path_color_G = g
-                    ns.addon.db.profile.path_color_B = b
-                    ns.addon:Refresh()
-                    end,
-                    get = function(info) return
-                    ns.addon.db.profile.path_color_R,
-                    ns.addon.db.profile.path_color_G,
-                    ns.addon.db.profile.path_color_B
-                    end,
-                    order = 17,
+                    hasAlpha = true,
+                    set = function(_, ...) ns:SetColorOpt('path_color', ...) end,
+                    get = function() return ns:GetColorOpt('path_color') end,
+                    order = 22,
+                },
+                restore_poi_colors = {
+                    type = "execute",
+                    name = L["options_reset_poi_colors"],
+                    desc = L["options_reset_poi_colors_desc"],
+                    order = 23,
+                    width = "full",
+                    func = function ()
+                        local df = ns.optionDefaults.profile
+                        ns:SetColorOpt('poi_color', df.poi_color_R, df.poi_color_G, df.poi_color_B, df.poi_color_A)
+                        ns:SetColorOpt('path_color', df.path_color_R, df.path_color_G, df.path_color_B, df.path_color_A)
+                    end
                 },
                 TooltipsHeader = {
                     type = "header",
                     name = L["options_tooltip_settings"],
-                    order = 20,
+                    order = 30,
                 },
                 show_loot = {
                     type = "toggle",
                     arg = "show_loot",
                     name = L["options_toggle_show_loot"],
                     desc = L["options_toggle_show_loot_desc"],
-                    order = 21,
+                    order = 31,
                 },
                 show_notes = {
                     type = "toggle",
                     arg = "show_notes",
                     name = L["options_toggle_show_notes"],
                     desc = L["options_toggle_show_notes_desc"],
-                    order = 22,
+                    order = 32,
                 }
             }
         },

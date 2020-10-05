@@ -116,13 +116,11 @@ Return true if this node should be displayed.
 --]]
 
 function Node:IsEnabled()
-    local db = ns.addon.db
-
     -- Check prerequisites
     if not self:PrerequisiteCompleted() then return false end
 
     -- Check completed state
-    if not db.profile.show_completed_nodes then
+    if not ns:GetOpt('show_completed_nodes') then
         if self:IsCompleted() then return false end
     end
 
@@ -251,14 +249,14 @@ function Node:Render(tooltip)
 
     -- additional text for the node to describe how to interact with the
     -- object or summon the rare
-    if self.note and ns.addon.db.profile.show_notes then
+    if self.note and ns:GetOpt('show_notes') then
         if self.requires or self.sublabel then tooltip:AddLine(" ") end
         tooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)
     end
 
     -- all rewards (achievements, pets, mounts, toys, quests) that can be
     -- collected or completed from this node
-    if self.rewards and ns.addon.db.profile.show_loot then
+    if self.rewards and ns:GetOpt('show_loot') then
         local firstAchieve, firstOther = true, true
         for i, reward in ipairs(self.rewards) do
 
@@ -385,8 +383,7 @@ function Rare.getters:icon()
 end
 
 function Rare:IsEnabled()
-    local hide_done_rares = ns.addon.db.profile.hide_done_rare
-    if hide_done_rares and self:IsCollected() then return false end
+    if ns:GetOpt('hide_done_rares') and self:IsCollected() then return false end
     return NPC.IsEnabled(self)
 end
 
@@ -394,7 +391,7 @@ function Rare:GetGlow(map)
     local glow = NPC.GetGlow(self, map)
     if glow then return glow end
 
-    if ns.addon.db.profile.development and not self.quest then
+    if ns:GetOpt('development') and not self.quest then
         local _, scale, alpha = self:GetDisplayInfo(map)
         self._glow.alpha = alpha
         self._glow.scale = scale
@@ -427,7 +424,7 @@ function Treasure:GetGlow(map)
     local glow = Node.GetGlow(self, map)
     if glow then return glow end
 
-    if ns.addon.db.profile.development and not self.quest then
+    if ns:GetOpt('development') and not self.quest then
         local _, scale, alpha = self:GetDisplayInfo(map)
         self._glow.alpha = alpha
         self._glow.scale = scale

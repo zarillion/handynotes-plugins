@@ -160,7 +160,7 @@ function Addon:RegisterWithHandyNotes()
         local map, minimap
         local function iter(nodes, precoord)
             if not nodes then return nil end
-            if minimap and self.db.profile.hide_minimap then return nil end
+            if minimap and ns:GetOpt('hide_minimap') then return nil end
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
                 if node and map:IsNodeEnabled(node, coord, minimap) then
@@ -186,7 +186,7 @@ function Addon:RegisterWithHandyNotes()
         end
     end
 
-    if self.db.profile.development then
+    if ns:GetOpt('development') then
         ns.BootstrapDevelopmentEnvironment()
     end
 
