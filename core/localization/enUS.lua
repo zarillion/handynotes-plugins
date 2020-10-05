@@ -133,7 +133,7 @@ L["options_icons_treasures_desc"] = "Display locations of hidden treasures."
 
 ---------------------------------- FOCUS ---------------------------------
 
-L["options_focus_settings"] = "Focus colors"
+L["options_focus_settings"] = "Points of Interest"
 L["options_poi_color"] = "POI color"
 L["options_poi_color_desc"] = "Sets the color for points of interest when an icon is in focus."
 L["options_path_color"] = "Path color"

@@ -40,6 +40,7 @@ end
 function POI:Draw(pin, xy)
     local t = ResetPin(pin)
     local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
+    size = size * ns:GetOpt('poi_scale')
     t:SetVertexColor(unpack({ns:GetColorOpt('poi_color')}))
     t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\circle")
     pin:SetSize(size, size)
@@ -106,6 +107,10 @@ function Path:Draw(pin, type, xy1, xy2)
     -- constant size for minimaps, variable size for world maps
     local size = pin.minimap and 5 or (pin.parentHeight * 0.005)
     local line_width = pin.minimap and 60 or (pin.parentHeight * 0.05)
+
+    -- apply user scaling
+    size = size * ns:GetOpt('poi_scale')
+    line_width = line_width * ns:GetOpt('poi_scale')
 
     if type == 'circle' then
         pin:SetSize(size, size)
