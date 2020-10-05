@@ -133,11 +133,13 @@ L["options_icons_treasures_desc"] = "Zeigt die Standorte versteckter Schätze an
 
 ---------------------------------- FOCUS ---------------------------------
 
-L["options_focus_settings"] = "Fokussierungsfarben"
-L["options_poi_color"] = "POI-farbe"
-L["options_poi_color_desc"] = "Legt die Farbe für den POI fest, wenn das Symbol fokussiert ist."
+L["options_focus_settings"] = "Orte von Interesse"
+L["options_poi_color"] = "Punktfarbe"
+L["options_poi_color_desc"] = "Legt die Farbe für Punkte fest, wenn ein Symbol fokussiert ist."
 L["options_path_color"] = "Wegfarbe"
-L["options_path_color_desc"] = "Legt die Farbe für den Weg fest, wenn das Symbol fokussiert ist."
+L["options_path_color_desc"] = "Legt die Farbe des Weges fest, wenn ein Symbol fokussiert ist."
+L["options_reset_poi_colors"] = "Farben zurücksetzen"
+L["options_reset_poi_colors_desc"] = "Setzet die obigen Farben auf ihre Standardeinstellungen zurück."
 
 ---------------------------------- TOOLTIP ---------------------------------
 
