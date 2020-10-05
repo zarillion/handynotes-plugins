@@ -131,6 +131,14 @@ L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
 L["options_icons_treasures"] = "Schätze"
 L["options_icons_treasures_desc"] = "Zeigt die Standorte versteckter Schätze an."
 
+---------------------------------- FOCUS ---------------------------------
+
+L["options_focus_settings"] = "Fokussierungsfarben"
+L["options_poi_color"] = "POI-farbe"
+L["options_poi_color_desc"] = "Legt die Farbe für den POI fest, wenn das Symbol fokussiert ist."
+L["options_path_color"] = "Wegfarbe"
+L["options_path_color_desc"] = "Legt die Farbe für den Weg fest, wenn das Symbol fokussiert ist."
+
 ---------------------------------- TOOLTIP ---------------------------------
 
 L["options_tooltip_settings"] = "Tooltip"

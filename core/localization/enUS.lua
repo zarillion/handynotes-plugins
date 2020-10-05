@@ -131,6 +131,14 @@ L["options_icons_supplies"] = "War Supply Drops"
 L["options_icons_treasures"] = "Treasures"
 L["options_icons_treasures_desc"] = "Display locations of hidden treasures."
 
+---------------------------------- FOCUS ---------------------------------
+
+L["options_focus_settings"] = "Focus colors"
+L["options_poi_color"] = "POI color"
+L["options_poi_color_desc"] = "Sets the color for the POI when the icon is in focus."
+L["options_path_color"] = "Path color"
+L["options_path_color_desc"] = "Sets the color for the Path when the icon is in focus."
+
 ---------------------------------- TOOLTIP ---------------------------------
 
 L["options_tooltip_settings"] = "Tooltip"
