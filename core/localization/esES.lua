@@ -135,11 +135,13 @@ L["options_icons_treasures_desc"] = "Muestra las localizaciones de los tesoros o
 
 ---------------------------------- FOCUS ---------------------------------
 
-L["options_focus_settings"] = "Colores de Foco"
-L["options_poi_color"] = "Color de POI"
-L["options_poi_color_desc"] = "Establece el color para el POI cuando el icono está en el foco."
-L["options_path_color"] = "Color de Ruta"
-L["options_path_color_desc"] = "Establece el color para la Ruta cuando el icono está en el foco."
+L["options_focus_settings"] = "Lugares de Interés"
+L["options_poi_color"] = "Color de Lugares de Interés"
+L["options_poi_color_desc"] = "Establece el color para el punto de interés cuando un icono está en el foco."
+L["options_path_color"] = "Color de Caminos"
+L["options_path_color_desc"] = "Establece el color para los caminos cuando un icono está en el foco."
+L["options_reset_poi_colors"] = "Resetear colores"
+L["options_reset_poi_colors_desc"] = "Establece los colores de encima a sus valores por defecto."
 
 ---------------------------------- TOOLTIP ---------------------------------
 
