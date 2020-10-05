@@ -25,12 +25,12 @@ ns.optionDefaults = {
         show_debug_map = false,
         show_debug_quest = false,
         force_nodes = false,
-        
+
         -- poi color
         poi_color_R = 0,
         poi_color_G = 0,
         poi_color_B = 1,
-        
+
         -- path color
         path_color_R = 0,
         path_color_G = 0,
@@ -110,9 +110,9 @@ ns.options = {
                     ns.addon.db.profile.poi_color_B = b
                     ns.addon:Refresh()
                     end,
-                    get = function(info) return 
-                    ns.addon.db.profile.poi_color_R, 
-                    ns.addon.db.profile.poi_color_G, 
+                    get = function(info) return
+                    ns.addon.db.profile.poi_color_R,
+                    ns.addon.db.profile.poi_color_G,
                     ns.addon.db.profile.poi_color_B
                     end,
                     order = 16,
