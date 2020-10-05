@@ -133,6 +133,14 @@ L["options_icons_supplies"] = "Localizaciones de suministros de guerra"
 L["options_icons_treasures"] = "Tesoros"
 L["options_icons_treasures_desc"] = "Muestra las localizaciones de los tesoros ocultos."
 
+---------------------------------- FOCUS ---------------------------------
+
+L["options_focus_settings"] = "Colores de Foco"
+L["options_poi_color"] = "Color de POI"
+L["options_poi_color_desc"] = "Establece el color para el POI cuando el icono está en el foco."
+L["options_path_color"] = "Color de Ruta"
+L["options_path_color_desc"] = "Establece el color para la Ruta cuando el icono está en el foco."
+
 ---------------------------------- TOOLTIP ---------------------------------
 
 L["options_tooltip_settings"] = "Tooltip"
