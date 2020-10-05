@@ -24,7 +24,17 @@ ns.optionDefaults = {
         development = false,
         show_debug_map = false,
         show_debug_quest = false,
-        force_nodes = false
+        force_nodes = false,
+        
+        -- poi color
+        poi_color_R = 0,
+        poi_color_G = 0,
+        poi_color_B = 1,
+        
+        -- path color
+        path_color_R = 0,
+        path_color_G = 0,
+        path_color_B = 1
     },
 }
 
@@ -84,6 +94,45 @@ ns.options = {
                         wipe(ns.addon.db.char)
                         ns.addon:Refresh()
                     end
+                },
+                FocusHeader = {
+                    type = "header",
+                    name = L["options_focus_settings"],
+                    order = 15,
+                },
+                POI_color = {
+                    type = "color",
+                    name = L["options_poi_color"],
+                    desc = L["options_poi_color_desc"],
+                    set = function(_,r,g,b,a)
+                    ns.addon.db.profile.poi_color_R = r
+                    ns.addon.db.profile.poi_color_G = g
+                    ns.addon.db.profile.poi_color_B = b
+                    ns.addon:Refresh()
+                    end,
+                    get = function(info) return 
+                    ns.addon.db.profile.poi_color_R, 
+                    ns.addon.db.profile.poi_color_G, 
+                    ns.addon.db.profile.poi_color_B
+                    end,
+                    order = 16,
+                },
+                PATH_color = {
+                    type = "color",
+                    name = L["options_path_color"],
+                    desc = L["options_path_color_desc"],
+                    set = function(_,r,g,b,a)
+                    ns.addon.db.profile.path_color_R = r
+                    ns.addon.db.profile.path_color_G = g
+                    ns.addon.db.profile.path_color_B = b
+                    ns.addon:Refresh()
+                    end,
+                    get = function(info) return
+                    ns.addon.db.profile.path_color_R,
+                    ns.addon.db.profile.path_color_G,
+                    ns.addon.db.profile.path_color_B
+                    end,
+                    order = 17,
                 },
                 TooltipsHeader = {
                     type = "header",
