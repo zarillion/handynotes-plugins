@@ -131,6 +131,16 @@ L["options_icons_supplies"] = "战争补给箱"
 L["options_icons_treasures"] = "宝藏"
 L["options_icons_treasures_desc"] = "显示隐藏宝藏位置。"
 
+---------------------------------- FOCUS ---------------------------------
+
+L["options_focus_settings"] = "兴趣点"
+L["options_poi_color"] = "兴趣点颜色"
+L["options_poi_color_desc"] = "图标为焦点时设定兴趣点颜色。"
+L["options_path_color"] = "路径颜色"
+L["options_path_color_desc"] = "图标为焦点时设定路径颜色。"
+L["options_reset_poi_colors"] = "颜色重置"
+L["options_reset_poi_colors_desc"] = "重置上面的颜色为预设。"
+
 ---------------------------------- TOOLTIP ---------------------------------
 
 L["options_tooltip_settings"] = "提示"
