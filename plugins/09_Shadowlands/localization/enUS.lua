@@ -332,23 +332,16 @@ Has a chance to drop an {item:180583}, which begins a 7 day quest line to obtain
 
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
 L["forbidden_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
+L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
 L["rapier_fearless_note"] = "Click the rapier on the ground, then defeat {npc:173603}."
+L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
 L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
 
 L["abandoned_curios"] = "Abandoned Curios"
 L["bleakwood_chest"] = "Bleakwood Chest"
-L["chest_of_envious_dreams"] = "Chest of Envious Dreams"
-L["filchers_prize"] = "Filcher's Prize"
-L["fleeing_soul_bundle"] = "Fleeing Soul's Bundle"
 L["forgotten_anglers_rod"] = "Forgotten Angler's Rod"
-L["gilded_plum_chest"] = "Gilded Plum Chest"
-L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
-L["remlates_cache"] = "Remlate's Hidden Cache"
-L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
-L["smuggled_cache"] = "Smuggled Cache"
-L["wayfarer_spoils"] = "Wayfarer's Abandoned Spoils"
 
 L["loyal_gorger_note"] = "Visit the Endmire and complete a daily offered by your {npc:173498} 7 times to obtain him as a mount."
 

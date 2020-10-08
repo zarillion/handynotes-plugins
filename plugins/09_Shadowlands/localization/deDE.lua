@@ -15,7 +15,7 @@ L["options_title"] = "Shadowlands"
 
 L["covenant_required"] = "Benötigt ein Paktmitglied der %s"
 L["transport_research"] = "Benötigt Stufe %d des Reisenetzwerks"
-L["anima_channeled"] = "Anima %s kanalisiert."
+L["anima_channeled"] = "%s mit Anima versorgt."
 
 L["options_icons_fae_network_desc"] = "Zeigt alle Pilze für das Reisenetzwerk der Nachtfae an."
 L["options_icons_fae_network"] = "Pilznetzwerk"
@@ -340,23 +340,16 @@ Hat eine Chance die {item:180583} fallen zu lassen, welche eine 7-tägige Questr
 
 L["dredglaive_note"] = "Unter der Brücke in der {npc:173671} Leiche."
 L["forbidden_chamber_note"] = "Plündere den Weggeworfenen Animakanister vor der verschlossenen Tür auf der Bank, um {spell:340701} zu erlernen. Verwende es, um fünf in der Nähe befindlichen |CFFFFFF00Stillen Beobachtern|r ihr Anima zu entziehen, dann verwende {spell:340866} vor dem {npc:173786}." --{npc:173838}
+L["gilded_plum_chest_note"] = "Töte die {npc:166680}, die die Straße hoch und runter läuft."
 L["lost_quill_note"] = "Plündere {item:182475} von der Flasche auf dem Tisch in der Verbotenen Bibliothek."
 L["rapier_fearless_note"] = "Klicke das Rapier auf dem Boden an und besiege {npc:173603}."
+L["remlates_cache_note"] = "Hinter der Außenmauer der Krypta in Dunkelhafen."
 L["taskmaster_trove_note"] = "Lies die Eintritts- und Austrittsriten und gehe behutsam zur Truhe."
 L["the_count_note"] = "Sammle 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}."
 
 L["abandoned_curios"] = "Verlassene Schätze"
 L["bleakwood_chest"] = "Kahlholzkiste"
-L["chest_of_envious_dreams"] = "Truhe der neidischen Träume"
-L["filchers_prize"] = "Diebestrophäe"
-L["fleeing_soul_bundle"] = "Bündel der flüchtigen Seele"
 L["forgotten_anglers_rod"] = "Vergessene Angelrute"
-L["gilded_plum_chest"] = "Kiste mit vergoldeter Pflaume"
-L["gilded_plum_chest_note"] = "Töte die {npc:166680}, die die Straße hoch und runter läuft."
-L["remlates_cache"] = "Remlates versteckter Schatz"
-L["remlates_cache_note"] = "Hinter der Außenmauer der Krypta in Dunkelhafen."
-L["smuggled_cache"] = "Geschmuggelte Truhe"
-L["wayfarer_spoils"] = "Zurückgelassene Beute eines Wanderers" --use Schattentor
 
 L["loyal_gorger_note"] = "Besuch den Endmorast und schließe 7-mal eine tägliche Quest ab, die dir von deinem {npc:173498} angeboten wird, um ihn als Reittier zu erhalten."
 

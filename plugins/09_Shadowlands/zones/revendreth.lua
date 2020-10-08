@@ -312,6 +312,29 @@ map.nodes[38607200] = Rare({
 -- Reliquary of Remembrance (79763376) (item=180403)
 -- Unimplemented treasure? (50244910)
 
+map.nodes[69327795] = Treasure({
+    quest=59833,
+    rewards={
+        Achievement({id=14314, criteria=50896}),
+        Toy({item=179393}) -- Mirror of Envious Dreams
+    }
+}) -- Chest of Envious Dreams
+
+map.nodes[64187265] = Treasure({
+    quest=59883,
+    rewards={
+        Achievement({id=14314, criteria=50897}),
+        Item({item=179392}) -- Orb of Burgeoning Ambition
+    }
+}) -- Filcher's Prize
+
+map.nodes[46395817] = Treasure({
+    quest=59886,
+    rewards={
+        Achievement({id=14314, criteria=50900})
+    }
+}) -- Fleeing Soul's Bundle
+
 map.nodes[47335536] = Treasure({
     quest=62243,
     note=L["forbidden_chamber_note"],
@@ -319,6 +342,18 @@ map.nodes[47335536] = Treasure({
         Achievement({id=14314, criteria=50084})
     }
 }) -- Forbidden Chamber
+
+map.nodes[75465542] = Treasure({
+    quest=59887,
+    note=L["gilded_plum_chest_note"],
+    rewards={
+        Achievement({id=14314, criteria=50901}),
+        Item({item=179390}) -- Tantalizingly Large Golden Plum
+    },
+    pois={
+        Path({74625754, 75095665, 75465542, 76015458, 76455372})
+    }
+}) -- Gilded Plum Chest
 
 map.nodes[37726925] = Treasure({
     quest=61990,
@@ -345,6 +380,22 @@ map.nodes[79993697] = Treasure({
         Achievement({id=14314, criteria=50079})
     }
 }) -- Rapier of the Fearless
+
+map.nodes[61525864] = Treasure({
+    quest=59885,
+    note=L["remlates_cache_note"],
+    rewards={
+        Achievement({id=14314, criteria=50899})
+    }
+}) -- Remlate's Hidden Cache
+
+map.nodes[31055506] = Treasure({
+    quest=59889,
+    rewards={
+        Achievement({id=14314, criteria=50895}),
+        Item({item=182738, quest=62189}) -- Bundle of Smuggled Parasol Components
+    }
+}) -- Smuggled Cache
 
 map.nodes[38394424] = Treasure({
     quest=61999,
@@ -382,6 +433,13 @@ map.nodes[70176005] = Treasure({
     }
 }) -- Vrytha's Dredglaive
 
+map.nodes[68446445] = Treasure({
+    quest=59884,
+    rewards={
+        Achievement({id=14314, criteria=50898})
+    }
+}) -- Wayfarer's Abandoned Spoils
+
 -------------------------------------------------------------------------------
 
 map.nodes[51855954] = Treasure({
@@ -403,27 +461,6 @@ map.nodes[51855954] = Treasure({
 --     }
 -- }) -- Bleakwood Chest
 
-map.nodes[69327795] = Treasure({
-    quest=59833,
-    label=L["chest_of_envious_dreams"],
-    rewards={
-        Toy({item=179393}) -- Mirror of Envious Dreams
-    }
-}) -- Chest of Envious Dreams
-
-map.nodes[64187265] = Treasure({
-    quest=59883,
-    label=L["filchers_prize"],
-    rewards={
-        Item({item=179392}) -- Orb of Burgeoning Ambition
-    }
-}) -- Filcher's Prize
-
-map.nodes[46395817] = Treasure({
-    quest=59886,
-    label=L["fleeing_soul_bundle"],
-}) -- Fleeing Soul's Bundle
-
 map.nodes[73597539] = Treasure({
     quest=62196,
     label=L["forgotten_anglers_rod"],
@@ -431,37 +468,6 @@ map.nodes[73597539] = Treasure({
         Toy({item=180993}) -- Bat Visage Bobber
     }
 }) -- Forgotten Angler's Rod
-
-map.nodes[75465542] = Treasure({
-    quest=59887,
-    label=L["gilded_plum_chest"],
-    note=L["gilded_plum_chest_note"],
-    rewards={
-        Item({item=179390}) -- Tantalizingly Large Golden Plum
-    },
-    pois={
-        Path({74625754, 75095665, 75465542, 76015458, 76455372})
-    }
-}) -- Gilded Plum Chest
-
-map.nodes[61525864] = Treasure({
-    quest=59885,
-    label=L["remlates_cache"],
-    note=L["remlates_cache_note"]
-}) -- Remlate's Hidden Cache
-
-map.nodes[31055506] = Treasure({
-    quest=59889,
-    label=L["smuggled_cache"],
-    rewards={
-        Item({item=182738, quest=62189}) -- Bundle of Smuggled Parasol Components
-    }
-}) -- Smuggled Cache
-
-map.nodes[68446445] = Treasure({
-    quest=59884,
-    label=L["wayfarer_spoils"]
-}) -- Wayfarer's Abandoned Spoils
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
