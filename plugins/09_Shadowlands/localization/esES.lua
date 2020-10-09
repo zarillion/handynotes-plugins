@@ -334,23 +334,16 @@ Tiene probabilidades de soltar {item:180583}, con lo que comienza una línea de 
 
 L["dredglaive_note"] = "Debajo del puente en el cuerpo de un {npc:173671}."
 L["forbidden_chamber_note"] = "Despoja un Bote de Ánima Desechada enfrente de la puerta y aprende {spell:340701}. Úsalo para drenar cinco {npc:173838} en las cercanías, entonces usa {spell:340866} enfrente del {npc:173786}."--Revisar (NODATABLE) que Discarded Anima Canister sea Bote de Ánima Desechada
+L["gilded_plum_chest_note"] = "Mata a {npc:166680} que deambula camino arriba y abajo."
 L["lost_quill_note"] = "Despoja {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida."
 L["rapier_fearless_note"] = "Haz click en el estoque del suelo, y entonces derrota a {npc:173603}."
+L["remlates_cache_note"] = "En la pared exterior de Refugioscuro detrás de la cripta."
 L["taskmaster_trove_note"] = "Lee el Ritual de Ingreso y el Ritual de Salida. Después sigue el camino al cofre con cuidado."--Revisar (NODATABLE) que Ingress Rite sea Ritual de Ingreso, (NODATABLE) que Egress Rite sea Ritual de Salida
 L["the_count_note"] = "Farmea 99 {currency:1820} en el Cenagal del Fin y llévaselos a {npc:173488}."
 
 L["abandoned_curios"] = "Curiosidades Abandonadas"--Revisar (NODATABLE) que Abandoned Curios sea Curiosidades Abandonadas
 L["bleakwood_chest"] = "Cofre de Maderasombría"--Revisar (VIGNETTE, BATTLEPETSPECIES) que Bleakwood Chest sea Cofre de Maderasombría
-L["chest_of_envious_dreams"] = "Cofre de Sueños Envidiosos"--Revisar (NODATABLE) que Chest of Envious Dreams sea Cofre de Sueños Envidiosos
-L["filchers_prize"] = "Premio de Filcher"--Revisar (NODATABLE) que Filcher's Prize sea Premio de Filcher
-L["fleeing_soul_bundle"] = "Fardo del Alma Huidiza"--Revisar (NODATABLE) que Fleeing Soul's Bundle sea Fardo del Alma Huidiza
 L["forgotten_anglers_rod"] = "Caña de Pescador Olvidada"--Revisar (VIGNETTE, TOY) que Forgotten Angler's Rod sea Caña de Pescador Olvidada
-L["gilded_plum_chest"] = "Cofre de Ciruela Dorada"--Revisar (NODATABLE) que Gilded Plum Chest sea Cofre de Ciruela Dorada
-L["gilded_plum_chest_note"] = "Mata a {npc:166680} que deambula camino arriba y abajo."
-L["remlates_cache"] = "Cofre Escondido de Remlate"--Revisar (NODATABLE) que Remlate's Hidden Cache sea Cofre Escondido de Remlate
-L["remlates_cache_note"] = "En la pared exterior de Refugioscuro detrás de la cripta."
-L["smuggled_cache"] = "Cofre de Contrabando"--Revisar (SPELLNAME) que Smuggled Cache sea Cofre de Contrabando
-L["wayfarer_spoils"] = "Botín Abandonado de Wayfarer"--Revisar (NODATABLE) que Wayfarer's Abandoned Spoils sea Botín Abandonado de Wayfarer
 
 L["loyal_gorger_note"] = "Visita el Cenagal del Fin y completa una misión diaria ofrecida por tu {npc:173498} 7 veces para conseguirlo como montura."
 
