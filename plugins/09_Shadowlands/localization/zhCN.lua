@@ -332,23 +332,16 @@ L["worldedge_gorger_note"] = [[
 
 L["dredglaive_note"] = "在 {npc:173671} 尸体的桥下。"
 L["forbidden_chamber_note"] = "拾取一个废弃的心能之罐在锁着的门前学习 {spell:340701}。使用它吸取五个附近的 {npc:173838}s，然后在 {npc:173786} 前使用 {spell:340866}。"
+L["gilded_plum_chest_note"] = "击杀在路上徘徊的 {npc:166680}。"
 L["lost_quill_note"] = "从禁忌图书馆的桌上瓶子拾取 {item:182475}。"
 L["rapier_fearless_note"] = "点击地上的剑杆，然后击败 {npc:173603}。"
+L["remlates_cache_note"] = "在暗湾镇墓穴后面的外墙上。"
 L["taskmaster_trove_note"] = "阅读Ingress and Egress Rites然后小心地走到宝箱。"
 L["the_count_note"] = "获得99个 {currency:1820} 末日迷沼然后把它带给 {npc:173488}。"
 
 L["abandoned_curios"] = "被遗弃的奇珍"
 L["bleakwood_chest"] = "冷木宝箱"
-L["chest_of_envious_dreams"] = "妒梦宝箱"
-L["filchers_prize"] = "窃贼的奖励"
-L["fleeing_soul_bundle"] = "逃难之魂的包袱"
 L["forgotten_anglers_rod"] = "被遗忘的渔翁之竿"
-L["gilded_plum_chest"] = "金梅宝箱"
-L["gilded_plum_chest_note"] = "击杀在路上徘徊的 {npc:166680}。"
-L["remlates_cache"] = "伦姆莱特的隐藏宝箱"
-L["remlates_cache_note"] = "暗湾镇后面墓穴外墙上。"
-L["smuggled_cache"] = "走私的箱子"
-L["wayfarer_spoils"] = "旅者抛弃的战利品"
 
 L["loyal_gorger_note"] = "到末日迷沼完成{npc:173498} 的每日任务七次将获得他的坐骑。"
 
