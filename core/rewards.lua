@@ -18,7 +18,9 @@ local Red = ns.status.Red
 local Reward = Class('Reward')
 
 function Reward:Initialize(attrs)
-    for k, v in pairs(attrs) do self[k] = v end
+    if attrs then
+        for k, v in pairs(attrs) do self[k] = v end
+    end
 end
 
 function Reward:IsObtained()
@@ -27,6 +29,31 @@ end
 
 function Reward:Render(tooltip)
     tooltip:AddLine('Render not implemented: '..tostring(self))
+end
+
+-------------------------------------------------------------------------------
+----------------------------------- SECTION -----------------------------------
+-------------------------------------------------------------------------------
+
+local Section = Class('Section', Reward)
+
+function Section:Initialize(title)
+    self.title = title
+end
+
+function Section:Render(tooltip)
+    tooltip:AddLine(self.title..':')
+    tooltip:AddLine(' ')
+end
+
+-------------------------------------------------------------------------------
+----------------------------------- SPACER ------------------------------------
+-------------------------------------------------------------------------------
+
+local Spacer = Class('Spacer', Reward)
+
+function Spacer:Render(tooltip)
+    tooltip:AddLine(' ')
 end
 
 -------------------------------------------------------------------------------
@@ -324,6 +351,8 @@ end
 
 ns.reward = {
     Reward=Reward,
+    Section=Section,
+    Spacer=Spacer,
     Achievement=Achievement,
     Item=Item,
     Mount=Mount,
