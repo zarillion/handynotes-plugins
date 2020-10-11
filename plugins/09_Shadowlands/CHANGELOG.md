@@ -1,3 +1,9 @@
+# v8
+
+* POI and path colors can now be customized (thanks Dathwada!).
+* Added new achievement criterias for Revendreth treasures.
+* Added prepatch event rares and rewards.
+
 # v7
 
 * Fixed intro node for the Maw.
