@@ -7,7 +7,6 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local Node = ns.node.Node
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 

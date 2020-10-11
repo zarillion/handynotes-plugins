@@ -42,6 +42,7 @@ read_globals = {
     'GetQuestObjectiveInfo',
     'GetSpellInfo',
     'GetTime',
+    'EJ_GetInstanceInfo',
     'IsAddOnLoaded',
     'IsLeftAltKeyDown',
     'IsLeftControlKeyDown',

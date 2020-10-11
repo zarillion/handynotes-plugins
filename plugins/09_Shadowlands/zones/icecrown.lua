@@ -6,7 +6,6 @@ local _, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
-local Node = ns.node.Node
 local Rare = ns.node.Rare
 
 local Section = ns.reward.Section
