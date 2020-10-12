@@ -401,3 +401,26 @@ L["options_icons_bonus_event"] = "Eventos de Bonificación"
 L["options_icons_bonus_event_desc"] = "Muestra las localizaciones de los eventos de bonificación."
 L["options_icons_riftstone"] = "Piedras de Falla Caóticas"
 L["options_icons_riftstone_desc"] = "Muestra las localizaciones de los teletransportadores de piedras de falla caóticas."
+
+-------------------------------------------------------------------------------
+----------------------------------- ICECROWN ----------------------------------
+-------------------------------------------------------------------------------
+
+L["prepatch_intro"] = "Completa las misiones introductorias del evento del pre parche para desbloquear los raros de esta zona."
+L["icecrown_rares"] = "Todos los raros aparecen en un orden fijado cada 20 minutos."
+L["shared_loot"] = "Botín Compartido"
+L["unique_loot"] = "Botín Único"
+
+local ORIG = ns.color.Orange("Originalmente en %s.")
+
+L["orig_atk"] = ORIG:format(EJ_GetInstanceInfo(271))
+L["orig_azn"] = ORIG:format(EJ_GetInstanceInfo(272))
+L["orig_dtk"] = ORIG:format(EJ_GetInstanceInfo(273))
+L["orig_fos"] = ORIG:format(EJ_GetInstanceInfo(280))
+L["orig_hor"] = ORIG:format(EJ_GetInstanceInfo(276))
+L["orig_icc"] = ORIG:format(EJ_GetInstanceInfo(758))
+L["orig_nax"] = ORIG:format(EJ_GetInstanceInfo(754))
+L["orig_pos"] = ORIG:format(EJ_GetInstanceInfo(278))
+L["orig_tot"] = ORIG:format(EJ_GetInstanceInfo(284))
+L["orig_utk"] = ORIG:format(EJ_GetInstanceInfo(285))
+L["orig_utp"] = ORIG:format(EJ_GetInstanceInfo(286))
