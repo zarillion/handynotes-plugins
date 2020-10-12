@@ -6,6 +6,7 @@ unused_args = false
 read_globals = {
     -- WoW helper functions
     'FormatPercentage',
+    'floor',
     'hooksecurefunc',
     'sqrt',
     'strsub',
