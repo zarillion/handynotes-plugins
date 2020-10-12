@@ -129,6 +129,7 @@ _G[ADDON_NAME..'MinimapPinMixin'] = MinimapPinMixin
 MinimapDataProvider.facing = GetPlayerFacing()
 MinimapDataProvider.pins = {}
 MinimapDataProvider.pool = {}
+MinimapDataProvider.minimap = true
 
 function MinimapDataProvider:ReleaseAllPins()
     for i, pin in ipairs(self.pins) do

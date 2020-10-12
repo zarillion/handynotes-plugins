@@ -143,9 +143,84 @@ function Path:Draw(pin, type, xy1, xy2)
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ LINE -------------------------------------
+-------------------------------------------------------------------------------
+
+local Line = Class('Line', Path)
+
+function Line:Initialize(attrs)
+    Path.Initialize(self, attrs)
+
+    -- draw a segmented line between two far-away points
+    local x1, y1 = HandyNotes:getXY(self[1])
+    local x2, y2 = HandyNotes:getXY(self[2])
+
+    -- find an appropriate number of segments
+    self.distance = sqrt(((x2-x1) * 1.85)^2 + (y2-y1)^2)
+    self.segments = floor(self.distance / 0.015)
+
+    self.path = {}
+    for i=0, self.segments, 1 do
+        self.path[#self.path + 1] = HandyNotes:getCoord(
+            x1 + (x2-x1) / self.segments * i,
+            y1 + (y2-y1) / self.segments * i
+        )
+    end
+end
+
+function Line:Render(map, template)
+    if map.minimap then
+        for i=1, #self.path, 1 do
+            map:AcquirePin(template, self, 'circle', self.path[i])
+            if i < #self.path then
+                map:AcquirePin(template, self, 'line', self.path[i], self.path[i+1])
+            end
+        end
+    else
+        map:AcquirePin(template, self, 'circle', self[1])
+        map:AcquirePin(template, self, 'circle', self[2])
+        map:AcquirePin(template, self, 'line', self[1], self[2])
+    end
+end
+
+-------------------------------------------------------------------------------
+------------------------------------ ARROW ------------------------------------
+-------------------------------------------------------------------------------
+
+local Arrow = Class('Arrow', Path)
+
+function Arrow:Initialize(attrs)
+    Line.Initialize(self, attrs)
+
+    local x1, y1 = HandyNotes:getXY(self[1])
+    local x2, y2 = HandyNotes:getXY(self[2])
+    local angle = math.atan2(y2 - y1, (x2 - x1) * 1.85) + (math.pi * 0.5)
+    local xdiff = math.cos(angle) * (self.distance / self.segments / 4)
+    local ydiff = math.sin(angle) * (self.distance / self.segments / 4)
+
+    local xl, yl = HandyNotes:getXY(self.path[#self.path - 1])
+    self.corner1 = HandyNotes:getCoord(xl + xdiff, yl + ydiff)
+    self.corner2 = HandyNotes:getCoord(xl - xdiff, yl - ydiff)
+end
+
+function Arrow:Render(map, template)
+    -- draw a segmented line
+    Line.Render(self, map, template)
+
+    -- draw the head of the arrow
+    map:AcquirePin(template, self, 'circle', self.corner1)
+    map:AcquirePin(template, self, 'circle', self.corner2)
+    map:AcquirePin(template, self, 'line', self.corner1, self.path[#self.path])
+    map:AcquirePin(template, self, 'line', self.corner2, self.path[#self.path])
+    map:AcquirePin(template, self, 'line', self.corner1, self.corner2)
+end
+
+-------------------------------------------------------------------------------
 
 ns.poi = {
     POI=POI,
     Glow=Glow,
-    Path=Path
+    Path=Path,
+    Line=Line,
+    Arrow=Arrow
 }

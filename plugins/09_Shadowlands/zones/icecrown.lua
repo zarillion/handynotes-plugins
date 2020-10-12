@@ -12,6 +12,8 @@ local Section = ns.reward.Section
 local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
 
+local Arrow = ns.poi.Arrow
+
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
@@ -92,7 +94,8 @@ nodes[31607050] = Rare({
     rewards=SharedLoot({
         Transmog({item=183642, slot=L["cloth"]}), -- Robes of Rasped Breaths
         Item({item=183676, note=L["ring"]}) -- Hailstone Loop
-    })
+    }),
+    pois={ Arrow({31607050, 36506740}) }
 }) -- Noth the Plaguebringer
 
 nodes[36506740] = Rare({
@@ -105,7 +108,8 @@ nodes[36506740] = Rare({
         Transmog({item=183643, slot=L["2h_axe"]}), -- Severance of Mortality
         Transmog({item=183645, slot=L["leather"]}), -- Cinch of the Tortured
         Transmog({item=183644, slot=L["mail"]}) -- Regurgitator's Shoulderpads
-    })
+    }),
+    pois={ Arrow({36506740, 49703270}) }
 }) -- Patchwerk
 
 nodes[49703270] = Rare({
@@ -118,7 +122,8 @@ nodes[49703270] = Rare({
         Transmog({item=183647, slot=L["polearm"]}), -- Bloodspatter
         Transmog({item=183646, slot=L["mail"]}), -- Chestguard of Siphoned Vitality
         Transmog({item=183648, slot=L["plate"]}) -- Veincrusher Gauntlets
-    })
+    }),
+    pois={ Arrow({49703270, 57103030}) }
 }) -- Blood Queen Lana'thel
 
 nodes[57103030] = Rare({
@@ -131,7 +136,8 @@ nodes[57103030] = Rare({
         Transmog({item=183649, slot=L["leather"]}), -- Bag of Discarded Entrails
         Transmog({item=183651, slot=L["leather"]}), -- Chestplate of Septic Sutures
         Item({item=183650, note=L["trinket"]}) -- Miniscule Abomination in a Jar
-    })
+    }),
+    pois={ Arrow({57103030, 51107850}) }
 }) -- Professor Putricide
 
 nodes[51107850] = Rare({
@@ -144,7 +150,8 @@ nodes[51107850] = Rare({
         Transmog({item=183641, slot=L["cloth"]}), -- Shoulderpads of Corpal Rigidity
         Transmog({item=183653, slot=L["leather"]}), -- Deathwhisper Vestment
         Transmog({item=183655, slot=L["mail"]}) -- Handgrips of Rime and Sleet
-    })
+    }),
+    pois={ Arrow({51107850, 57805610}) }
 }) -- Lady Deathwhisper
 
 nodes[57805610] = Rare({
@@ -157,7 +164,8 @@ nodes[57805610] = Rare({
         Transmog({item=183656, slot=L["leather"]}), -- Drake Rider's Jerkin
         Transmog({item=183657, slot=L["mail"]}), -- Skadi's Scaled Sollerets
         Transmog({item=183670, slot=L["plate"]}) -- Skadi's Saronite Belt
-    })
+    }),
+    pois={ Arrow({57805610, 52305260}) }
 }) -- Skadi the Ruthless
 
 nodes[52305260] = Rare({
@@ -170,7 +178,8 @@ nodes[52305260] = Rare({
         Transmog({item=183658, slot=L["2h_axe"]}), -- Ingvar's Monolithic Skullcleaver
         Transmog({item=183668, slot=L["leather"]}), -- Razor-Barbed Leather Belt
         Item({item=183659, note=L["ring"]}) -- Annhylde's Band
-    })
+    }),
+    pois={ Arrow({52305260, 54004470}) }
 }) -- Ingvar the Plunderer
 
 nodes[54004470] = Rare({
@@ -186,7 +195,8 @@ nodes[54004470] = Rare({
         Transmog({item=183661, slot=L["mail"]}), -- Drake Stabler's Gauntlets
         Transmog({item=183680, slot=L["cloak"]}), -- Royal Sanguine Cloak
         Item({item=183625, note=L["neck"]}) -- Reforged Necklace of Taldaram
-    })
+    }),
+    pois={ Arrow({54004470, 64802210}) }
 }) -- Prince Keleseth
 
 nodes[64802210] = Rare({
@@ -199,7 +209,8 @@ nodes[64802210] = Rare({
         Transmog({item=183638, slot=L["dagger"]}), -- Phantasmic Kris
         Transmog({item=183637, slot=L["leather"]}), -- Shoulderpads of the Notorious Knave
         Transmog({item=183636, slot=L["plate"]}) -- Helm of the Violent Fracas
-    })
+    }),
+    pois={ Arrow({64802210, 70603850}) }
 }) -- The Black Knight
 
 nodes[70603850] = Rare({
@@ -214,7 +225,8 @@ nodes[70603850] = Rare({
         Transmog({item=183639, slot=L["mail"]}), -- Gaze of Bewilderment
         Transmog({item=183635, slot=L["plate"]}), -- Grieving Gauntlets
         Item({item=183634}) -- Papa's Mint Condition Bag
-    })
+    }),
+    pois={ Arrow({70603850, 47406720}) }
 }) -- Bronjahm
 
 nodes[47406720] = Rare({
@@ -227,7 +239,8 @@ nodes[47406720] = Rare({
         Transmog({item=183674, slot=L["cloth"]}), -- Rimewoven Pantaloons
         Transmog({item=183633, slot=L["leather"]}), -- Fringed Wyrmleather Leggings
         Transmog({item=183632, slot=L["shield"]}) -- Protector of Stolen Souls
-    })
+    }),
+    pois={ Arrow({47406720, 59107240}) }
 }) -- Scourgelord Tyrannus
 
 nodes[59107240] = Rare({
@@ -240,7 +253,8 @@ nodes[59107240] = Rare({
         Transmog({item=183630, slot=L["2h_axe"]}), -- Garfrost's Two-Ton Bludgeon
         Transmog({item=183666, slot=L["plate"]}), -- Legguards of the Frosty Fathoms
         Item({item=183631, note=L["ring"]}) -- Ring of Carnelian and Sinew
-    })
+    }),
+    pois={ Arrow({59107240, 58208350}) }
 }) -- Forgemaster Garfrost
 
 nodes[58208350] = Rare({
@@ -253,7 +267,8 @@ nodes[58208350] = Rare({
         Transmog({item=183687, slot=L["cloth"]}), -- Frayed Flesh-Stitched Shoulderguards
         Transmog({item=183663, slot=L["cloth"]}), -- Sightless Capuchin of Ulmaas
         Transmog({item=183662, slot=L["mail"]}) -- Frostsworn Rattleshirt
-    })
+    }),
+    pois={ Arrow({58208350, 50208810}) }
 }) -- Marwyn
 
 nodes[50208810] = Rare({
@@ -266,7 +281,8 @@ nodes[50208810] = Rare({
         Transmog({item=183664, slot=L["cloth"]}), -- Bracer of Ground Molars
         Transmog({item=183665, slot=L["plate"]}), -- Valonforth's Marred Pauldrons
         Transmog({item=183666, slot=L["plate"]}) -- Legguards of the Frosty Fathoms
-    })
+    }),
+    pois={ Arrow({50208810, 80106120}) }
 }) -- Falric
 
 nodes[80106120] = Rare({
@@ -279,7 +295,8 @@ nodes[80106120] = Rare({
         Transmog({item=183686, slot=L["leather"]}), -- Breeches of the Skeletal Serpent
         Transmog({item=183684, slot=L["shield"]}), -- Tharon'ja's Protectorate
         Item({item=183685, note=L["ring"]}) -- Phantasmic Seal of the Prophet
-    })
+    }),
+    pois={ Arrow({80106120, 77806610}) }
 }) -- The Prophet Tharon'ja
 
 nodes[77806610] = Rare({
@@ -292,7 +309,8 @@ nodes[77806610] = Rare({
         Transmog({item=183627, slot=L["1h_mace"]}), -- Summoner's Granite Gavel
         Transmog({item=183671, slot=L["mail"]}), -- Necromantic Wristwraps
         Transmog({item=183672, slot=L["plate"]}) -- Cuirass of Undeath
-    })
+    }),
+    pois={ Arrow({77806610, 58303940}) }
 }) -- Novos the Summoner
 
 nodes[58303940] = Rare({
@@ -304,7 +322,8 @@ nodes[58303940] = Rare({
     rewards=SharedLoot({
         Transmog({item=183626, slot=L["2h_sword"]}), -- Troll Gorer
         Transmog({item=183669, slot=L["cloth"]}) -- Cowl of the Rampaging Troll
-    })
+    }),
+    pois={ Arrow({58303940, 67505800}) }
 }) -- Trollgore
 
 nodes[67505800] = Rare({
@@ -315,7 +334,8 @@ nodes[67505800] = Rare({
     note=L["icecrown_rares"],
     rewards=SharedLoot({
         Transmog({item=183681, slot=L["dagger"]}) -- Webrending Machete
-    })
+    }),
+    pois={ Arrow({67505800, 29606220}) }
 }) -- Krik'thir the Gatewatcher
 
 nodes[29606220] = Rare({
@@ -331,7 +351,8 @@ nodes[29606220] = Rare({
         Transmog({item=183661, slot=L["mail"]}), -- Drake Stabler's Gauntlets
         Transmog({item=183680, slot=L["cloak"]}), -- Royal Sanguine Cloak
         Item({item=183625, note=L["neck"]}) -- Reforged Necklace of Taldaram
-    })
+    }),
+    pois={ Arrow({29606220, 44204910}) }
 }) -- Prince Taldaram
 
 nodes[44204910] = Rare({
@@ -343,5 +364,6 @@ nodes[44204910] = Rare({
     rewards=SharedLoot({
         Transmog({item=183624, slot=L["dagger"]}), -- Serrated Blade of Nadox
         Item({item=183673, note=L["ring"]}) -- Nerubian Aegis Ring
-    })
+    }),
+    pois={ Arrow({44204910, 31607050}) }
 }) -- Elder Nadox
