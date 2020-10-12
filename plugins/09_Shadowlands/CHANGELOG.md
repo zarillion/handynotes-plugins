@@ -2,7 +2,7 @@
 
 * POI and path colors can now be customized (thanks Dathwada!).
 * Added new achievement criterias for Revendreth treasures.
-* Added prepatch event rares and rewards.
+* Added prepatch event rares and rewards (based on adrianganjiang's work).
 
 # v7
 
