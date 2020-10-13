@@ -1,6 +1,6 @@
 ## Interface: 90002
 ## Title: HandyNotes: Visions Of N'Zoth
-## Version: 38
+## Version: 39
 ## Notes: Visions Of N'Zoth Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes

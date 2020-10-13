@@ -1,3 +1,9 @@
+# v39
+
+* Updated code for Shadowlands.
+* Updated translations for esES, deDE and zhCN.
+* All new features from [HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands) backported.
+
 # v38
 
 * Added odd crystal locations for horrific visions! (thanks Wowhead and others for the coords).
