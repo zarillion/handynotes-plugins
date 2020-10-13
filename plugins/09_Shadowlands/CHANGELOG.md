@@ -1,3 +1,7 @@
+# v9
+
+* Updated translations for prepatch event.
+
 # v8
 
 * POI and path colors can now be customized (thanks Dathwada!).
