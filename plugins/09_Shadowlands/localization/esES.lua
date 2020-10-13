@@ -19,14 +19,14 @@ L["covenant_required"] = "Requiere ser miembro de la curia %s."
 L["transport_research"] = "Requiere Red de Transporte al Rango %d"
 L["anima_channeled"] = "ánima canalizada a %s."
 
-L["options_icons_fae_network_desc"] = "Muestra todos los destinos de los transportes para la red de setas de las Sílfides Nocturnas."
-L["options_icons_fae_network"] = "Red Mycelial"--Revisar (SPELLNAME) Mycelial
+L["options_icons_fae_network_desc"] = "Muestra todos los destinos de los transportes para los anillos de los champiñones de las Sílfides Nocturnas."
+L["options_icons_fae_network"] = "Anillos de las Sílfides"
 L["options_icons_kyr_network_desc"] = "Muestra todos los destinos de los transportes para la red de Portales Kyrianos."
 L["options_icons_kyr_network"] = "Portales Kyrianos"
-L["options_icons_nec_network_desc"] = "Muestra todos los destinos de los transportes para los Portones de la Muerte de Hueso de los Necroseñores."--Revisar (NO DATABLE) que Bone Deathgates sea Portón de la Muerte de Hueso
-L["options_icons_nec_network"] = "Portones de la Muerte de Hueso"--Revisar (NO DATABLE) que Bone Deathgates sea Portón de la Muerte de Hueso
-L["options_icons_ven_network_desc"] = "Muestra todos los destinos de los transportes para los Espejos de Sangre de los Venthyr."--Revisar (SPELLNAME) que Blood Mirrors sea Espejos de Sangre
-L["options_icons_ven_network"] = "Espejos de Sangre"--Revisar (SPELLNAME) que Blood Mirrors sea Espejos de Sangre
+L["options_icons_nec_network_desc"] = "Muestra todos los destinos de los transportes de Abominaciones de los Necroseñores."
+L["options_icons_nec_network"] = "Transporte Abominable"
+L["options_icons_ven_network_desc"] = "Muestra todos los destinos de los transportes para los Espejos de Sangre de los Venthyr."
+L["options_icons_ven_network"] = "Espejos de Sangre"
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
