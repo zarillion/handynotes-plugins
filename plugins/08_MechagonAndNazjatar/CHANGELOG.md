@@ -1,3 +1,9 @@
+# v14
+
+* Updated code for Shadowlands.
+* Added translations for deDE, esES and zhCN.
+* All new features from [HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands) backported.
+
 # v13
 
 * Added a node for the Junkwatt Depot daily "More Recycling"
