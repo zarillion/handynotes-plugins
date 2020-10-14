@@ -258,7 +258,7 @@ map.nodes[61295090] = Rare({
 local Sotirstus = Class('Sotirstus', Rare)
 
 function Sotirstus.getters:label ()
-    return GetAchievementCriteriaInfo(14307, 27) -- Welcome to Nazjatar
+    return GetAchievementCriteriaInfoByID(14307, 50618)
 end
 
 map.nodes[22432285] = Sotirstus({

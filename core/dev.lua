@@ -153,16 +153,21 @@ end
 -------------------------------------------------------------------------------
 
 function ns.Debug(...)
-    if ns:GetOpt('development') then print(...) end
+    if ns:GetOpt('development') then print(ns.color.Blue('DEBUG:'), ...) end
 end
 
 function ns.DebugMap(...)
-    if ns:GetOpt('show_debug_map') then print(...) end
+    if ns:GetOpt('show_debug_map') then print(ns.color.Blue('DEBUG:'), ...) end
 end
 
 function ns.DebugQuest(...)
-    if ns:GetOpt('show_debug_quest') then print(...) end
+    if ns:GetOpt('show_debug_quest') then print(ns.color.Blue('DEBUG:'), ...) end
 end
+
+function ns.Error(...)
+    if ns:GetOpt('development') then print(ns.color.Red('ERROR:'), ...) end
+end
+
 
 -------------------------------------------------------------------------------
 

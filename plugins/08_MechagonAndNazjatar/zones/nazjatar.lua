@@ -52,7 +52,7 @@ local Intro = Class('Intro', ns.node.Intro)
 Intro.note = L["naz_intro_note"]
 
 function Intro.getters:label ()
-    return GetAchievementCriteriaInfo(13710, 1) -- Welcome to Nazjatar
+    return GetAchievementCriteriaInfoByID(13709, 45756) -- Welcome to Nazjatar
 end
 
 if UnitFactionGroup('player') == 'Alliance' then

@@ -33,6 +33,7 @@ read_globals = {
     'GetAchievementCriteriaInfoByID',
     'GetAchievementInfo',
     'GetAchievementLink',
+    'GetAchievementNumCriteria',
     'GetContainerItemID',
     'GetContainerItemInfo',
     'GetContainerNumSlots',

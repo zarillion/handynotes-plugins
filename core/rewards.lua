@@ -66,7 +66,12 @@ local Achievement = Class('Achievement', Reward)
 local GetCriteriaInfo = function (id, criteria)
     local results = {GetAchievementCriteriaInfoByID(id, criteria)}
     if not results[1] then
-        results = {GetAchievementCriteriaInfo(id, criteria)}
+        if criteria <= GetAchievementNumCriteria(id) then
+            results = {GetAchievementCriteriaInfo(id, criteria)}
+        else
+            ns.Error('unknown achievement criteria ('..id..', '..criteria..')')
+            return UNKNOWN
+        end
     end
     return unpack(results)
 end
