@@ -1,3 +1,7 @@
+# v15
+
+* Fixed "Hide rare, if all loot known" option.
+
 # v14
 
 * Updated code for Shadowlands.
