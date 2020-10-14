@@ -12,7 +12,7 @@ local L = ns.locale
 ns.optionDefaults = {
     profile = {
         -- visibility
-        hide_done_rare = false,
+        hide_done_rares = false,
         hide_minimap = false,
         show_completed_nodes = false,
 
@@ -93,7 +93,7 @@ ns.options = {
                 },
                 hide_done_rare = {
                     type = "toggle",
-                    arg = "hide_done_rare",
+                    arg = "hide_done_rares",
                     name = L["options_toggle_hide_done_rare"],
                     desc = L["options_toggle_hide_done_rare_desc"],
                     order = 12,
