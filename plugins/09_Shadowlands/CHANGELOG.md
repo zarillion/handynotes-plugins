@@ -1,3 +1,7 @@
+# v10
+
+* Fix criteria errors on retail (mostly in Bastion).
+
 # v9
 
 * Updated translations for prepatch event.
