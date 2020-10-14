@@ -291,7 +291,7 @@ map.nodes[41254443] = Rare({
             48707, -- Kil'jaeden
             48710, -- N'Zoth
             48705  -- Xavius
-        }, lineAbove=true})
+        }})
     }
 })
 

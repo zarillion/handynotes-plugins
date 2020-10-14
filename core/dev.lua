@@ -69,6 +69,11 @@ local function BootstrapDevelopmentEnvironment()
     local quests = {}
     local changed = {}
     local max_quest_id = 100000
+
+    local function DebugQuest(...)
+        if ns:GetOpt('show_debug_quest') then ns.Debug(...) end
+    end
+
     C_Timer.After(2, function ()
         -- Give some time for quest info to load in before we start
         for id = 0, max_quest_id do quests[id] = C_QuestLog.IsQuestFlaggedCompleted(id) end
@@ -86,7 +91,7 @@ local function BootstrapDevelopmentEnvironment()
                     -- ids to flip state, we do not want to report on those
                     for i, args in ipairs(changed) do
                         table.insert(history, 1, args)
-                        ns.DebugQuest(unpack(args))
+                        DebugQuest(unpack(args))
                     end
                 end
                 if #history > 100 then
@@ -98,7 +103,7 @@ local function BootstrapDevelopmentEnvironment()
                 wipe(changed)
             end
         end)
-        ns.DebugQuest('Quest IDs are now being tracked')
+        DebugQuest('Quest IDs are now being tracked')
     end)
 
     -- Listen for LCTRL + LALT when the map is open to force display nodes
@@ -156,18 +161,13 @@ function ns.Debug(...)
     if ns:GetOpt('development') then print(ns.color.Blue('DEBUG:'), ...) end
 end
 
-function ns.DebugMap(...)
-    if ns:GetOpt('show_debug_map') then print(ns.color.Blue('DEBUG:'), ...) end
-end
-
-function ns.DebugQuest(...)
-    if ns:GetOpt('show_debug_quest') then print(ns.color.Blue('DEBUG:'), ...) end
+function ns.Warn(...)
+    if ns:GetOpt('development') then print(ns.color.Orange('WARN:'), ...) end
 end
 
 function ns.Error(...)
     if ns:GetOpt('development') then print(ns.color.Red('ERROR:'), ...) end
 end
-
 
 -------------------------------------------------------------------------------
 

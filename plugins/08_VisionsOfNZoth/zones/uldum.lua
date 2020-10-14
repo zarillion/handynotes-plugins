@@ -39,13 +39,13 @@ local nodes = map.nodes
 local function GetAssault()
     local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
     if textures and textures[1].fileDataIDs[1] == 3165083 then
-        ns.DebugMap('Uldum assault: AQR')
+        if ns:GetOpt('show_debug_map') then ns.Debug('Uldum assault: AQR') end
         return AQR -- left
     elseif textures and textures[1].fileDataIDs[1] == 3165092 then
-        ns.DebugMap('Uldum assault: EMP')
+        if ns:GetOpt('show_debug_map') then ns.Debug('Uldum assault: EMP') end
         return EMP -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3165098 then
-        ns.DebugMap('Uldum assault: AMA')
+        if ns:GetOpt('show_debug_map') then ns.Debug('Uldum assault: AMA') end
         return AMA -- right
     end
 end

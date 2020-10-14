@@ -36,13 +36,13 @@ local nodes = map.nodes
 local function GetAssault()
     local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
     if textures and textures[1].fileDataIDs[1] == 3155826 then
-        ns.DebugMap('Vale assault: MAN')
+        if ns:GetOpt('show_debug_map') then ns.Debug('Vale assault: MAN') end
         return MAN -- left
     elseif textures and textures[1].fileDataIDs[1] == 3155832 then
-        ns.DebugMap('Vale assault: MOG')
+        if ns:GetOpt('show_debug_map') then ns.Debug('Vale assault: MOG') end
         return MOG -- middle
     elseif textures and textures[1].fileDataIDs[1] == 3155841 then
-        ns.DebugMap('Vale assault: EMP')
+        if ns:GetOpt('show_debug_map') then ns.Debug('Vale assault: EMP') end
         return EMP -- right
     end
 end

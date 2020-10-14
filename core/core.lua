@@ -172,7 +172,9 @@ function Addon:RegisterWithHandyNotes()
             return nil, nil, nil, nil
         end
         function Addon:GetNodes2(mapID, _minimap)
-            ns.DebugMap('Loading nodes for map: '..mapID..' (minimap='..tostring(_minimap)..')')
+            if ns:GetOpt('show_debug_map') then
+                ns.Debug('Loading nodes for map: '..mapID..' (minimap='..tostring(_minimap)..')')
+            end
             map = ns.maps[mapID]
             minimap = _minimap
 

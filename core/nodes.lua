@@ -262,10 +262,11 @@ function Node:Render(tooltip)
 
             -- Add a blank line between achievements and other rewards
             local isAchieve = IsInstance(reward, ns.reward.Achievement)
+            local isSpacer = IsInstance(reward, ns.reward.Spacer)
             if isAchieve and firstAchieve then
                 tooltip:AddLine(" ")
                 firstAchieve = false
-            elseif not isAchieve and firstOther then
+            elseif not (isAchieve or isSpacer) and firstOther then
                 tooltip:AddLine(" ")
                 firstOther = false
             end
