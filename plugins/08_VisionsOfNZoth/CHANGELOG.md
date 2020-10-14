@@ -1,3 +1,7 @@
+# v40
+
+* Fixed "Hide rare, if all loot known" option.
+
 # v39
 
 * Updated code for Shadowlands.
