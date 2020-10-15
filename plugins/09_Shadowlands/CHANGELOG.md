@@ -1,3 +1,8 @@
+# v11
+
+* Fixed "Hide rare, if all loot known" option.
+* Set interface version to 90001 until SL launch.
+
 # v10
 
 * Fix criteria errors on retail (mostly in Bastion).
