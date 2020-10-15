@@ -76,7 +76,7 @@ local function PrepareLinks(str)
 end
 
 local function RenderLinks(str, nameOnly)
-    return str:gsub('{(%l+):([^}]+)}', function (type, id)
+    local links, _ = str:gsub('{(%l+):([^}]+)}', function (type, id)
         if type == 'npc' then
             local name = NameResolver:Resolve(("unit:Creature-0-0-0-0-%d"):format(id))
             if nameOnly then return name end
@@ -121,6 +121,7 @@ local function RenderLinks(str, nameOnly)
         end
         return type..'+'..id
     end)
+    return links
 end
 
 -------------------------------------------------------------------------------

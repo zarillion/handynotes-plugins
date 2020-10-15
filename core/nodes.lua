@@ -185,7 +185,7 @@ function Node:Prepare()
         self._glow = Glow({ icon=ns.glows[self.icon.glow] })
     end
 
-    ns.NameResolver:Prepare(self.label)
+    ns.PrepareLinks(self.label)
     ns.PrepareLinks(self.sublabel)
     ns.PrepareLinks(self.note)
 end
@@ -198,7 +198,7 @@ on the attributes set on this specific node, such as setting an `rlabel` or
 
 function Node:Render(tooltip)
     -- render the label text with NPC names resolved
-    tooltip:SetText(ns.NameResolver:Resolve(self.label))
+    tooltip:SetText(ns.RenderLinks(self.label, true))
 
     local color, text
     local rlabel = self.rlabel or ''
@@ -335,7 +335,7 @@ function NPC:Initialize(attrs)
 end
 
 function NPC.getters:label()
-    return ("unit:Creature-0-0-0-0-%d"):format(self.id)
+    return ("{npc:%d}"):format(self.id)
 end
 
 -------------------------------------------------------------------------------

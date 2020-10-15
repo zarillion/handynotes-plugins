@@ -386,3 +386,17 @@ L["voldun"] = "Vol'dun"
 L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
 L["options_icons_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
 L["options_icons_alpaca_voldun"] = "Elusive Quickhoof"
+
+-------------------------------------------------------------------------------
+----------------------------------- ZULDAZAR ----------------------------------
+-------------------------------------------------------------------------------
+
+L["cache_of_secrets_note"] = "Held by an {npc:137234} in a cave behind a waterfall."
+L["da_white_shark_note"] = "Stand near {npc:133208} until she becomes hostile."
+L["dazars_forgotten_chest_note"] = "Path begins near {npc:134738}."
+L["gift_of_the_brokenhearted_note"] = "Place the incense to spawn the chest."
+L["offerings_of_the_chosen_note"] = "On the second level of Zanchul."
+L["riches_of_tornowa_note"] = "On the side of a cliff."
+L["spoils_of_pandaria_note"] = "On the lowest deck of the ship."
+L["tiny_voodoo_mask_note"] = "Sitting on the hut above {npc:141617}."
+L["warlords_cache_note"] = "On top at the helm of the ship."
