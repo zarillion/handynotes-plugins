@@ -20,7 +20,13 @@ Examples:
 """
 
 PROJECTS = {
+    '01_Classic': None,
+    '02_BurningCrusade': None,
+    '03_WrathOfTheLichKing': None,
+    '04_Cataclysm': None,
+    '05_MistsOfPandaria': None,
     '06_WarlordsOfDraenor': None,
+    '07_Legion': None,
     '08_BattleForAzeroth': None,
     '09_Shadowlands': 363739
 }
