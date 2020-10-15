@@ -1,3 +1,7 @@
+# v16
+
+* Set interface version to 90001 until SL launch.
+
 # v15
 
 * Fixed "Hide rare, if all loot known" option.
