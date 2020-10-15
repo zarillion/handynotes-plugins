@@ -1,4 +1,4 @@
-## Interface: 90002
+## Interface: 90001
 ## Title: HandyNotes: Visions Of N'Zoth
 ## Version: 40
 ## Notes: Visions Of N'Zoth Notes
