@@ -1,0 +1,12 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <Script file="common.lua"/>
+  <Script file="zones\azsuna.lua"/>
+  <Script file="zones\broken_shore.lua"/>
+  <Script file="zones\highmountain.lua"/>
+  <Script file="zones\stormheim.lua"/>
+  <Script file="zones\suramar.lua"/>
+  <Script file="zones\valsharah.lua"/>
+  <Script file="zones\antoran_wastes.lua"/>
+  <Script file="zones\krokuun.lua"/>
+  <Script file="zones\macaree.lua"/>
+</Ui>

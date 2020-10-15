@@ -1,0 +1,12 @@
+## Interface: 90001
+## Title: HandyNotes: Cataclysm
+## Version: 1
+## Notes: Cataclysm Notes
+## OptionalDeps: Ace3
+## RequiredDeps: HandyNotes
+## X-Embeds: Ace3
+## SavedVariables: HandyNotes_CataclysmDB
+
+embeds.xml
+core\core.xml
+plugin.xml

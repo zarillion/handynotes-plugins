@@ -1,0 +1,12 @@
+## Interface: 90001
+## Title: HandyNotes: The Burning Crusade
+## Version: 1
+## Notes: Burning Crusade Notes
+## OptionalDeps: Ace3
+## RequiredDeps: HandyNotes
+## X-Embeds: Ace3
+## SavedVariables: HandyNotes_BurningCrusadeDB
+
+embeds.xml
+core\core.xml
+plugin.xml

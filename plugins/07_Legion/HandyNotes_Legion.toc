@@ -1,0 +1,12 @@
+## Interface: 90001
+## Title: HandyNotes: Legion
+## Version: 1
+## Notes: Legion Notes
+## OptionalDeps: Ace3
+## RequiredDeps: HandyNotes
+## X-Embeds: Ace3
+## SavedVariables: HandyNotes_LegionDB
+
+embeds.xml
+core\core.xml
+plugin.xml

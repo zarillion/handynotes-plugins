@@ -1,0 +1,12 @@
+## Interface: 90001
+## Title: HandyNotes: Mists of Pandaria
+## Version: 1
+## Notes: Mists of Pandaria Notes
+## OptionalDeps: Ace3
+## RequiredDeps: HandyNotes
+## X-Embeds: Ace3
+## SavedVariables: HandyNotes_MistsOfPandariaDB
+
+embeds.xml
+core\core.xml
+plugin.xml

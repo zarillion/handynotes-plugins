@@ -6,4 +6,5 @@
   <Script file="zones\shadowmoon.lua"/>
   <Script file="zones\spires.lua"/>
   <Script file="zones\talador.lua"/>
+  <Script file="zones\tanaan_jungle.lua"/>
 </Ui>

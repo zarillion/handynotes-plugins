@@ -45,6 +45,7 @@ read_globals = {
     'GetSpellInfo',
     'GetTime',
     'EJ_GetInstanceInfo',
+    'EJ_GetTierInfo',
     'IsAddOnLoaded',
     'IsLeftAltKeyDown',
     'IsLeftControlKeyDown',

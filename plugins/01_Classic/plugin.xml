@@ -1,0 +1,8 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <Script file="common.lua"/>
+  <Script file="zones\durotar.lua"/>
+  <Script file="zones\elwynn_forest.lua"/>
+  <Script file="zones\mulgore.lua"/>
+  <Script file="zones\tirisfal_glades.lua"/>
+  <Script file="zones\westfall.lua"/>
+</Ui>
