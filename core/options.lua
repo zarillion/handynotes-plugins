@@ -67,7 +67,7 @@ end
 
 ns.options = {
     type = "group",
-    name = L["options_title"],
+    name = nil, -- populated in core.lua
     childGroups = "tab",
     get = function(info) return ns:GetOpt(info.arg) end,
     set = function(info, v) ns:SetOpt(info.arg, v) end,

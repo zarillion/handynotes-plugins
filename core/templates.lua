@@ -62,7 +62,7 @@ end
 
 function WorldMapOptionsButtonMixin:OnEnter()
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip_SetTitle(GameTooltip, L["context_menu_title"])
+    GameTooltip_SetTitle(GameTooltip, ns.plugin_name)
     GameTooltip_AddNormalLine(GameTooltip, L["map_button_text"])
     GameTooltip:Show()
 end

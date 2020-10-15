@@ -10,6 +10,10 @@ local Quest = ns.node.Quest
 
 -------------------------------------------------------------------------------
 
+ns.expansion = 8
+
+-------------------------------------------------------------------------------
+
 ns.groups.ALPACA_ULDUM = Group('alpaca_uldum')
 ns.groups.ALPACA_VOLDUN = Group('alpaca_voldun')
 ns.groups.ASSAULT_EVENT = Group('assault_events')

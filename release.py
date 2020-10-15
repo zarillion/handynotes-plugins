@@ -20,8 +20,8 @@ Examples:
 """
 
 PROJECTS = {
-    '08_MechagonAndNazjatar': 327568,
-    '08_VisionsOfNZoth': 358359,
+    '06_WarlordsOfDraenor': None,
+    '08_BattleForAzeroth': None,
     '09_Shadowlands': 363739
 }
 

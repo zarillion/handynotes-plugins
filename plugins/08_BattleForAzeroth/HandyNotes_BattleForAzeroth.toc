@@ -1,11 +1,11 @@
 ## Interface: 90001
-## Title: HandyNotes: Warlords of Draenor
+## Title: HandyNotes: Battle for Azeroth
 ## Version: 1
-## Notes: Warlords of Draenor Notes
+## Notes: Battle for Azeroth Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3
-## SavedVariables: HandyNotes_WarlordsOfDraenorDB
+## SavedVariables: HandyNotes_BattleForAzerothDB
 
 embeds.xml
 core\core.xml

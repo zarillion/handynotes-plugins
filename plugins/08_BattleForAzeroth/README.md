@@ -1,6 +1,24 @@
-**A [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for the Uldum and Vale of Eternal Blossoms assaults added in 8.3. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
+**A [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for the Battle for Azeroth expansion. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
 
 ![](https://www.tmdmguild.com/public/images/addons/nzoth_banner.png)
+
+### Mechagon
+
+* Rares listed as colored skulls. A blue skull means you still need a reward from it.
+* Pet battle locations.
+* Mechanized chest locations (off by default).
+* Locked chest location in the Western Spray for the keys that drop in the area.
+* Reclamation Rig position and rewards.
+
+### Nazjatar
+
+* Rares listed as colored skulls. A blue skull means you still need a reward from it.
+* Pet battle locations.
+* Chest locations for the Trove Tracker achievement.
+* War supply drop locations.
+* Ravenous slime locations. Icons disappear as you feed them.
+* Cat Figurine locations for the Feline Figurines Found achievement.
+* Murloco and Mardivas' Laboratory.
 
 ## Assault Zones: Uldum and Vale of the Eternal Blossoms
 

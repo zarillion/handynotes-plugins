@@ -29,7 +29,7 @@ local function InitializeDropdownMenu(level, mapID, coord)
 
     if (level == 1) then
         UIDropDownMenu_AddButton({
-            text=L["context_menu_title"], isTitle=1, notCheckable=1
+            text=ns.plugin_name, isTitle=1, notCheckable=1
         }, level)
 
         UIDropDownMenu_AddButton(spacer, level)
@@ -149,6 +149,12 @@ function Addon:OnInitialize()
         "DROPDOWNTOGGLEBUTTON", "TOPRIGHT",
         WorldMapFrame:GetCanvasContainer(), "TOPRIGHT", -68, -2
     )
+
+    -- Query localized expansion title
+    if not ns.expansion then error('Expansion not set: '..ADDON_NAME) end
+    local expansion_name = EJ_GetTierInfo(ns.expansion)
+    ns.plugin_name = 'HandyNotes: '..expansion_name
+    ns.options.name = ('%02d - '):format(ns.expansion)..expansion_name
 end
 
 -------------------------------------------------------------------------------
