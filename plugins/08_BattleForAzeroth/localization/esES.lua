@@ -393,6 +393,9 @@ L["options_icons_alpaca_voldun"] = "Pezuñapresta Esquiva"
 ----------------------------------- ZULDAZAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L["murderbeak_note"] = "Lanza el cubo de anzuelos al mar y, entonces, mata {npc:134780} hasta que aparezca {npc:134782}."
+L["vukuba_note"] = "Investiga el {npc:134049} y, entonces, mata oleadas de {npc:134047} hasta que aparezca {npc:134048}."
+
 L["cache_of_secrets_note"] = "Sostenido por un {npc:137234} en una cueva detrás de una cascada."
 L["da_white_shark_note"] = "Espera cerca de {npc:133208} hasta que se vuelva hostil."
 L["dazars_forgotten_chest_note"] = "El camino comienza cerca de {npc:134738}."
@@ -402,3 +405,7 @@ L["riches_of_tornowa_note"] = "En el lado del acantilado."
 L["spoils_of_pandaria_note"] = "En el piso inferior del barco."
 L["tiny_voodoo_mask_note"] = "Sentado en la choza encima de {npc:141617}."
 L["warlords_cache_note"] = "En la parte superior del barco, cerca del timón."
+
+L["totem_of_paku_note"] = "Habla con la {npc:137510} al norte del Gran Sello para seleccionar a Pa'ku como tu loa en Zuldazar."
+L["options_icons_paku_totems"] = "Tótems de Pa'ku"
+L["options_icons_paku_totems_desc"] = "Muestra las rutas de viaje para los tótems de Pa'ku en Dazar'alor."
