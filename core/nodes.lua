@@ -72,10 +72,15 @@ Return the associated texture, scale and alpha value to pass to HandyNotes
 for this node.
 --]]
 
-function Node:GetDisplayInfo(map)
+function Node:GetDisplayInfo()
+    local icon = self.icon
+    if type(icon) == 'string' then
+        icon = ns.icons[icon] or ns.icons.default
+    end
+
     local scale = self.scale * self.group:GetScale()
     local alpha = self.alpha * self.group:GetAlpha()
-    return self.icon, scale, alpha
+    return icon, scale, alpha
 end
 
 --[[
@@ -83,9 +88,9 @@ Return the glow POI for this node. If the node is hovered or focused, a green
 glow is applyed to help highlight the node.
 --]]
 
-function Node:GetGlow(map)
+function Node:GetGlow()
     if self._glow and (self._focus or self._hover) then
-        local _, scale, alpha = self:GetDisplayInfo(map)
+        local _, scale, alpha = self:GetDisplayInfo()
         self._glow.alpha = alpha
         self._glow.scale = scale
         if self._focus then
@@ -174,15 +179,12 @@ world map containing this node is opened.
 --]]
 
 function Node:Prepare()
-    -- initialize icon from string name
-    if type(self.icon) == 'string' then
-        self.icon = ns.icons[self.icon] or ns.icons.default
-    end
+    local icon = self:GetDisplayInfo()
 
     -- initialize glow POI (if glow icon available)
-    if type(self.icon) == 'table' and self.icon.glow and ns.glows[self.icon.glow] then
+    if type(icon) == 'table' and icon.glow and ns.glows[icon.glow] then
         local Glow = self.GlowClass or ns.poi.Glow
-        self._glow = Glow({ icon=ns.glows[self.icon.glow] })
+        self._glow = Glow({ icon=ns.glows[icon.glow] })
     end
 
     ns.PrepareLinks(self.label)
@@ -388,12 +390,12 @@ function Rare:IsEnabled()
     return NPC.IsEnabled(self)
 end
 
-function Rare:GetGlow(map)
-    local glow = NPC.GetGlow(self, map)
+function Rare:GetGlow()
+    local glow = NPC.GetGlow(self)
     if glow then return glow end
 
     if ns:GetOpt('development') and not self.quest then
-        local _, scale, alpha = self:GetDisplayInfo(map)
+        local _, scale, alpha = self:GetDisplayInfo()
         self._glow.alpha = alpha
         self._glow.scale = scale
         self._glow.r, self._glow.g, self._glow.b = 1, 0, 0
@@ -421,12 +423,12 @@ function Treasure.getters:label()
     return UNKNOWN
 end
 
-function Treasure:GetGlow(map)
-    local glow = Node.GetGlow(self, map)
+function Treasure:GetGlow()
+    local glow = Node.GetGlow(self)
     if glow then return glow end
 
     if ns:GetOpt('development') and not self.quest then
-        local _, scale, alpha = self:GetDisplayInfo(map)
+        local _, scale, alpha = self:GetDisplayInfo()
         self._glow.alpha = alpha
         self._glow.scale = scale
         self._glow.r, self._glow.g, self._glow.b = 1, 0, 0

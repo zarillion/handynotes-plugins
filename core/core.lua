@@ -170,7 +170,7 @@ function Addon:RegisterWithHandyNotes()
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
                 if node and map:IsNodeEnabled(node, coord, minimap) then
-                    local icon, scale, alpha = node:GetDisplayInfo(map)
+                    local icon, scale, alpha = node:GetDisplayInfo()
                     return coord, nil, icon, scale, alpha
                 end
                 coord, node = next(nodes, coord) -- Get next node
