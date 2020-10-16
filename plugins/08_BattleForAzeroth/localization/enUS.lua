@@ -391,6 +391,9 @@ L["options_icons_alpaca_voldun"] = "Elusive Quickhoof"
 ----------------------------------- ZULDAZAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L["murderbeak_note"] = "Toss the chum into the sea, then kill {npc:134780}s until {npc:134782} spawns."
+L["vukuba_note"] = "Investigate the {npc:134049}, then kill waves of {npc:134047}s until {npc:134048} spawns."
+
 L["cache_of_secrets_note"] = "Held by an {npc:137234} in a cave behind a waterfall."
 L["da_white_shark_note"] = "Stand near {npc:133208} until she becomes hostile."
 L["dazars_forgotten_chest_note"] = "Path begins near {npc:134738}."
