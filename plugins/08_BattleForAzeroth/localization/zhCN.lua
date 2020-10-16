@@ -386,3 +386,17 @@ L["voldun"] = "沃顿"
 L["elusive_alpaca"] = "将海滩叶蔬沙拉喂给轻盈的迅蹄驼以获得坐骑。羊驼每次存在10分钟，刷新时间很长。"
 L["options_icons_alpaca_voldun_desc"] = "显示轻盈的迅蹄驼的刷新位置。"
 L["options_icons_alpaca_voldun"] = "轻盈的迅蹄驼"
+
+-------------------------------------------------------------------------------
+----------------------------------- ZULDAZAR ----------------------------------
+-------------------------------------------------------------------------------
+
+L["cache_of_secrets_note"] = "瀑布后面的洞穴内一个 {npc:137234} 拿着。"
+L["da_white_shark_note"] = "站在 {npc:133208} 附近直到她变为敌对。"
+L["dazars_forgotten_chest_note"] = "路径开始于 {npc:134738} 附近。"
+L["gift_of_the_brokenhearted_note"] = "放置熏香刷新宝箱。"
+L["offerings_of_the_chosen_note"] = "位于赞枢尔第二层。"
+L["riches_of_tornowa_note"] = "在悬崖边上。"
+L["spoils_of_pandaria_note"] = "在船的下层甲板。"
+L["tiny_voodoo_mask_note"] = "在 {npc:141617} 小屋的上方。"
+L["warlords_cache_note"] = "在船舵顶层。"
