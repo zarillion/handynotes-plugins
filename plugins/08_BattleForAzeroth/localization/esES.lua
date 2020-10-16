@@ -388,3 +388,17 @@ L["voldun"] = "Vol'dun"
 L["elusive_alpaca"] = "Alimenta a la alpaca con Mezcla de Lechugas Costeras para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
 L["options_icons_alpaca_voldun_desc"] = "Muestra las localizaciones de aparición de la Pezuñapresta Esquiva."
 L["options_icons_alpaca_voldun"] = "Pezuñapresta Esquiva"
+
+-------------------------------------------------------------------------------
+----------------------------------- ZULDAZAR ----------------------------------
+-------------------------------------------------------------------------------
+
+L["cache_of_secrets_note"] = "Sostenido por un {npc:137234} en una cueva detrás de una cascada."
+L["da_white_shark_note"] = "Espera cerca de {npc:133208} hasta que se vuelva hostil."
+L["dazars_forgotten_chest_note"] = "El camino comienza cerca de {npc:134738}."
+L["gift_of_the_brokenhearted_note"] = "Coloca el incienso para hacer aparecer el cofre."
+L["offerings_of_the_chosen_note"] = "En el segundo nivel de Zanchul."
+L["riches_of_tornowa_note"] = "En el lado del acantilado."
+L["spoils_of_pandaria_note"] = "En el piso inferior del barco."
+L["tiny_voodoo_mask_note"] = "Sentado en la choza encima de {npc:141617}."
+L["warlords_cache_note"] = "En la parte superior del barco, cerca del timón."
