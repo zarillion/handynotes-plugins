@@ -403,3 +403,7 @@ L["riches_of_tornowa_note"] = "On the side of a cliff."
 L["spoils_of_pandaria_note"] = "On the lowest deck of the ship."
 L["tiny_voodoo_mask_note"] = "Sitting on the hut above {npc:141617}."
 L["warlords_cache_note"] = "On top at the helm of the ship."
+
+L["totem_of_paku_note"] = "Speak to {npc:137510} north of the Great Seal to select Pa'ku as your loa in Zuldazar."
+L["options_icons_paku_totems"] = "Totems of Pa'ku"
+L["options_icons_paku_totems_desc"] = "Display travel paths for Totems of Pa'ku in Dazar'alor"

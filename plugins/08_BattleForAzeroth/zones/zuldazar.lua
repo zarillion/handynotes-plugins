@@ -5,13 +5,16 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 
+local Class = ns.Class
 local Map = ns.Map
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
+local Line = ns.poi.Line
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -386,3 +389,31 @@ map.nodes[64712167] = Treasure({
         Achievement({id=12851, criteria=40989})
     }
 }) -- Witch Doctor's Hoard
+
+-------------------------------------------------------------------------------
+--------------------------------- PAKU TOTEMS ---------------------------------
+-------------------------------------------------------------------------------
+
+local Totem = Class('Totem', NPC, {
+    id=131154,
+    icon=1624583,
+    group=ns.groups.PAKU_TOTEMS,
+    note=L["totem_of_paku_note"]
+})
+
+daz.nodes[40668427] = Totem({pois={Line({40668427, 46908558})}})
+daz.nodes[40801107] = Totem({pois={Line({40801107, 42832293})}})
+daz.nodes[41193782] = Totem({pois={Line({46888548, 41193782})}})
+daz.nodes[41253911] = Totem({pois={Line({41253911, 49883972})}})
+daz.nodes[42832293] = Totem({pois={Line({42832293, 40801107})}})
+daz.nodes[44680588] = Totem({pois={Line({44680588, 52881242})}})
+daz.nodes[46591999] = Totem({pois={Line({46591999, 50263259})}})
+daz.nodes[46888548] = Totem({pois={Line({46888548, 41193782})}})
+daz.nodes[49543283] = Totem({pois={Line({49543283, 49913955})}})
+daz.nodes[51364094] = Totem({pois={Line({51364094, 49984342})}})
+daz.nodes[52881242] = Totem({pois={Line({52881242, 44680588})}})
+daz.nodes[52931129] = Totem({pois={Line({52931129, 59111062})}})
+daz.nodes[53221892] = Totem({pois={Line({53221892, 52761184})}})
+daz.nodes[58313263] = Totem({pois={Line({58313263, 75683985})}})
+daz.nodes[59111062] = Totem({pois={Line({52931129, 59111062})}})
+daz.nodes[72081446] = Totem({pois={Line({72081446, 59232283})}})
