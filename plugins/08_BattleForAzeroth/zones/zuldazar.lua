@@ -153,7 +153,7 @@ map.nodes[75613582] = Rare({
     }
 }) -- Kiboku
 
-kulkrazahn = Rare({
+local kulkrazahn = Rare({
     id=120899,
     quest=48333,
     rewards={
