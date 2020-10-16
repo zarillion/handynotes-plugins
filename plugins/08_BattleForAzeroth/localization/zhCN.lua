@@ -403,3 +403,7 @@ L["riches_of_tornowa_note"] = "在悬崖边上。"
 L["spoils_of_pandaria_note"] = "在船的下层甲板。"
 L["tiny_voodoo_mask_note"] = "在 {npc:141617} 小屋的上方。"
 L["warlords_cache_note"] = "在船舵顶层。"
+
+L["totem_of_paku_note"] = "和巨擘封印北侧的 {npc:137510} 交谈选择帕库为你的祖达萨洛阿神灵。"
+L["options_icons_paku_totems"] = "帕库图腾"
+L["options_icons_paku_totems_desc"] = "显示达萨罗帕库图腾的旅行路径。"
