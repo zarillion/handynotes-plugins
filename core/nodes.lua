@@ -104,6 +104,20 @@ function Node:GetGlow()
 end
 
 --[[
+Return the icon that should be used for the background glow under the real
+node icon.
+]]
+
+function Node:GetGlowIcon(icon)
+    if type(icon) == 'table' and icon.glow and ns.glows[icon.glow] then
+        return ns.glows[icon.glow]
+    end
+    if type(icon) == 'number' then
+        return ns.glows.square_icon
+    end
+end
+
+--[[
 Return the "collected" status of this node. A node is collected if all
 associated rewards have been obtained (achievements, toys, pets, mounts).
 --]]
@@ -180,11 +194,12 @@ world map containing this node is opened.
 
 function Node:Prepare()
     local icon = self:GetDisplayInfo()
+    local glow = self:GetGlowIcon(icon)
 
     -- initialize glow POI (if glow icon available)
-    if type(icon) == 'table' and icon.glow and ns.glows[icon.glow] then
+    if glow then
         local Glow = self.GlowClass or ns.poi.Glow
-        self._glow = Glow({ icon=ns.glows[icon.glow] })
+        self._glow = Glow({ icon=glow })
     end
 
     ns.PrepareLinks(self.label)

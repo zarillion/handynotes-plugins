@@ -67,6 +67,7 @@ ns.icons = {
     horseshoe = { icon=ICONS, coords=coords(0, 9), glow='horseshoe' },
     world_quest = { icon=ICONS, coords=coords(0, 10), glow='world_quest' },
     anima_crystal = { icon=ICONS, coords=coords(1, 9), glow='crystal' },
+    flight_point = { icon=ICONS, coords=coords(1, 10), glow='flight_point' },
     left_mouse = { icon=ICONS, coords=coords(2, 9) },
     orange_crystal = { icon=ICONS, coords=coords(2, 6), glow='crystal' },
 
@@ -126,6 +127,8 @@ ns.glows = {
     paw = { icon=ICONSW, coords=coords(2, 1) },
     skull = { icon=ICONSW, coords=coords(2, 2) },
     world_quest = { icon=ICONSW, coords=coords(2, 3) },
+    flight_point = { icon=ICONSW, coords=coords(3, 0) },
+    square_icon = { icon=ICONSW, coords=coords(3, 1) },
     star_chest = { icon=ICONSW, coords=coords(0, 0, 48, 160) },
     shootbox = { icon=ICONSW, coords=coords(0, 1, 48, 160) },
 }

@@ -396,7 +396,8 @@ map.nodes[64712167] = Treasure({
 
 local Totem = Class('Totem', NPC, {
     id=131154,
-    icon=1624583,
+    icon='flight_point',
+    scale=2,
     group=ns.groups.PAKU_TOTEMS,
     note=L["totem_of_paku_note"]
 })
