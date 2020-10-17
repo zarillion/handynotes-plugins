@@ -36,6 +36,7 @@ L["rust_chest_note"] = "Zum Öffnen wird ein {item:169218} benötigt. \nDieser w
 
 L["rec_rig"] = "Rückgewinnungsturm"
 L["rec_rig_note"] = "Um den Schwerenmodus zu aktivieren, verwende die {spell:292352}-Waffe, um alle {npc:150825} in {npc:151049} zu verwandeln. \nHaustiere können auf beiden Schwierigkeitsgraden erhalten werden."
+
 L["grease_bot"] = "Schmierbot" --NPC:155911
 L["grease_bot_note"] = "Klicke den Bot an, um {spell:303924} zu erhalten. (Erhöht die Bewegungsgeschwindigkeit um 10%. Erhöht das Tempo um 5%.) \nDer Stärkungszauber hält 2 Stunden an."
 L["shock_bot"] = "Schockbot" --NPC:155909
@@ -71,7 +72,7 @@ L["lasher_note"] = "Pflanze {item:166888} in die Erde und füttere es mit Fliege
 L["matriarch_note"] = "Teilt sich einen Respawntimer mit den anderen beiden Schuppenmatriarchinnen"
 L["needle_note"] = "Erscheint normalerweise in dem Gebiet Tor der Königin."
 L["oronu_note"] = "Beschwöre dein Haustier {npc:154849}, um {npc:152397} zu aktivieren."
-L["rockweed_note"] = "Töte {npc:152549} und {npc:151166} überall im Gebiet, bis {npc:150583} erschient. Eine Schlachtzugsgruppe ist Empfehlenswert, da dies eine lange Angelegenheit sein kann."
+L["rockweed_note"] = "Töte {npc:152549} und {npc:151166} überall im Gebiet, bis {npc:150583} erscheint. Eine Schlachtzugsgruppe ist Empfehlenswert, da dies eine lange Angelegenheit sein kann."
 L["sandcastle_note"] = "Verwende einen {item:167077} um Kisten überall in diesem Gebiet sichtbar zu machen und öffne diese bis {npc:151870} erscheint."
 L["tidelord_note"] = "Töte die drei {npc:145326}. Es kann ein {npc:153999} erscheinen oder der Gezeitenlord."
 L["tidemistress_note"] = "Klicke die Ungestörten Exemplare an, bis sie erscheint."
@@ -82,7 +83,7 @@ L["area_spawn"] = "Erscheint im umliegenden Gebiet."
 L["cora_spawn"] = "Erscheint irgendwo im Korallenwald."
 L["cave_spawn"] = "Erscheint in einer Höhle."
 L["east_spawn"] = "Erscheint irgendwo in der östlichen häflte des Gebiets."
-L["ucav_spawn"] = "Erschient in einer Unterwasserhöhle."
+L["ucav_spawn"] = "Erscheint in einer Unterwasserhöhle."
 L["zone_spawn"] = "Erscheint überall in diesem Gebiet."
 
 L["supply_chest"] = "Kiste mit Kriegsvorräten"
@@ -385,3 +386,32 @@ L["voldun"] = "Vol'dun"
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
 L["options_icons_alpaca_voldun_desc"] = "Zeigt die Positionen für Schlüpfriger Flinkhuf an."
 L["options_icons_alpaca_voldun"] = "Schlüpfriger Flinkhuf"
+
+-------------------------------------------------------------------------------
+----------------------------------- ZULDAZAR ----------------------------------
+-------------------------------------------------------------------------------
+
+L["murderbeak_note"] = "Wirf den Köder in den See, töte dann {npc:134780} bis {npc:134782} erscheint."
+L["vukuba_note"] = "Untersuche das {npc:134049}, töte dann Wellen von {npc:134047}en bis {npc:134048} erscheint."
+
+L["cache_of_secrets_note"] = "Ein {npc:137234} hält den Schatz in einer Höhle hinter dem Wasserfall in seinen Händen."
+L["da_white_shark_note"] = "Stelle dich neben {npc:133208} bis sie feindlich wird."
+L["dazars_forgotten_chest_note"] = "Der Weg beginnt neben {npc:134738}."
+L["gift_of_the_brokenhearted_note"] = "Interagiere mit dem Räucherwerk, um die Kiste erscheinen zu lassen."
+L["offerings_of_the_chosen_note"] = "Auf der zweiten Ebene von Zanchul."
+L["riches_of_tornowa_note"] = "An der Seite einer Klippe."
+L["spoils_of_pandaria_note"] = "Auf der untersten Etage des Schiffs."
+L["tiny_voodoo_mask_note"] = "Auf dem Hüttendach über {npc:141617}."
+L["warlords_cache_note"] = "Auf dem Kopf der Galionsfigur des Schiffs."
+
+L["kuafon_note"] = [[
+Plündere ein {item:157782} von Pterrordaxen in Zandalar um die Questreihe zu beginnen. Einige Quests dauern mehrere Tage.
+
+Zum farmen bieten sich {npc:126618} in Zanchul (bei 39.0, 14.2) oder {npc:122113} im Luftreißernest (bei 67.8, 34.2) an.
+]]
+L["torcali_note"] = "Schließe Quests im Kriegsbestienkral ab, bis {quest:47261} verfügbar ist. Einige Quests dauern mehrere Tage."
+
+
+L["totem_of_paku_note"] = "Sprich mit {npc:137510} (bei 50.7, 35.4), um Pa'ku als deinen Loa aus zu wählen."
+L["options_icons_paku_totems"] = "Totems von Pa'ku"
+L["options_icons_paku_totems_desc"] = "Zeigt die Totems von Pa'ku in Dazar'alor an."
