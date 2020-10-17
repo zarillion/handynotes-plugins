@@ -406,6 +406,13 @@ L["spoils_of_pandaria_note"] = "En el piso inferior del barco."
 L["tiny_voodoo_mask_note"] = "Sentado en la choza encima de {npc:141617}."
 L["warlords_cache_note"] = "En la parte superior del barco, cerca del timón."
 
+L["kuafon_note"] = [[
+Despoja un {item:157782} de cualquier Pterrordáctilo en Zandalar para empezar la cadena de misiones. Algunas misiones tardarán varios dias en ser completadas.
+
+Los mejores Pterrordáctilos para matar son {npc:126618} en Zanchul o {npc:122113} justo al sur de Tal'gurub.
+]]
+L["torcali_note"] = "Completa misiones en el Redil Bestia de Guerra hasta que {quest:47261} esté disponible para hacer. Algunas misiones tardarán varios dias en ser completadas."
+
 L["totem_of_paku_note"] = "Habla con la {npc:137510} al norte del Gran Sello para seleccionar a Pa'ku como tu loa en Zuldazar."
 L["options_icons_paku_totems"] = "Tótems de Pa'ku"
 L["options_icons_paku_totems_desc"] = "Muestra las rutas de viaje para los tótems de Pa'ku en Dazar'alor."
