@@ -10,6 +10,12 @@
 
 * Filter covenant-specific rewards
 
+### Optional
+
+* [Ardenweald Gourmand](https://www.wowhead.com/achievement=14774/ardenweald-gourmand)
+* [Fractured Faerie Tales](https://www.wowhead.com/achievement=14788/fractured-faerie-tales)
+* [It's Always Sinny in Revendreth](https://www.wowhead.com/achievement=14276/its-always-sinny-in-revendreth)
+
 # Battle for Azeroth
 
 * [Battle on Zandalar and Kul Tiras](https://www.wowhead.com/achievement=12936/battle-on-zandalar-and-kul-tiras)
