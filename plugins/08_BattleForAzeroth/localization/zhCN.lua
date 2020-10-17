@@ -404,6 +404,13 @@ L["spoils_of_pandaria_note"] = "在船的下层甲板。"
 L["tiny_voodoo_mask_note"] = "在 {npc:141617} 小屋的上方。"
 L["warlords_cache_note"] = "在船舵顶层。"
 
+L["kuafon_note"] = [[
+从赞达拉的任意翼手龙拾取一个 {item:157782} 开始任务线。一些任务将花费数天来完成。
+
+最好收割的怪物是赞枢尔的 {npc:126618} 或位于塔尔格拉布南侧裂天者林地的 {npc:122113}。
+]]
+L["torcali_note"] = "在战兽栏完成任务直到 {quest:47261} 变为可用。一些任务将花费数天来完成。"
+
 L["totem_of_paku_note"] = "和巨擘封印北侧的 {npc:137510} 交谈选择帕库为你的祖达萨洛阿神灵。"
 L["options_icons_paku_totems"] = "帕库图腾"
 L["options_icons_paku_totems_desc"] = "显示达萨罗帕库图腾的旅行路径。"
