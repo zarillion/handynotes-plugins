@@ -404,6 +404,13 @@ L["spoils_of_pandaria_note"] = "On the lowest deck of the ship."
 L["tiny_voodoo_mask_note"] = "Sitting on the hut above {npc:141617}."
 L["warlords_cache_note"] = "On top at the helm of the ship."
 
+L["kuafon_note"] = [[
+Loot a {item:157782} from any Pterrordax in Zandalar to begin the quest line. Some quests will take multiple days to complete.
+
+The best mobs to farm are {npc:126618} in Zanchul or {npc:122113}s at Skyrender Eyrie south of Tal'gurub.
+]]
+L["torcali_note"] = "Complete quests at Warbeast Kraal until {quest:47261} becomes available. Some quests will take multiple days to complete."
+
 L["totem_of_paku_note"] = "Speak to {npc:137510} north of the Great Seal to select Pa'ku as your loa in Zuldazar."
 L["options_icons_paku_totems"] = "Totems of Pa'ku"
 L["options_icons_paku_totems_desc"] = "Display travel paths for Totems of Pa'ku in Dazar'alor"

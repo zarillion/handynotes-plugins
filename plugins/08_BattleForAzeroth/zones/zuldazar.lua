@@ -4,16 +4,19 @@
 
 local ADDON_NAME, ns = ...
 local L = ns.locale
-
 local Class = ns.Class
 local Map = ns.Map
+
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
+
 local Line = ns.poi.Line
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -66,7 +69,6 @@ map.nodes[66743228] = Rare({
     rewards={
         Achievement({id=12944, criteria=41867}),
         Transmog({item=161020, slot=L["cloth"]}) -- Sky-Hunter Breeches
-        --Item({item=157782, quest=nil}) -- Pterrordax Egg
     }
 }) -- Bramblewing
 
@@ -418,3 +420,38 @@ daz.nodes[53221892] = Totem({pois={Line({53221892, 52761184})}})
 daz.nodes[58313263] = Totem({pois={Line({58313263, 75683985})}})
 daz.nodes[59111062] = Totem({pois={Line({52931129, 59111062})}})
 daz.nodes[72081446] = Totem({pois={Line({72081446, 59232283})}})
+
+-------------------------------------------------------------------------------
+----------------------------------- MOUNTS ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[68174172] = NPC({
+    id=122939,
+    icon=2429953,
+    quest={
+        47261, 48581, 47310, 47260, 52855, 52857, 55254, 55252, 55253,
+        55258, 55462, 55503, 55504, 55506, 55505, 55507, 55247, 55795,
+        55796, 55797, 55798
+    },
+    questCount=true,
+    faction='Horde',
+    note=L["torcali_note"],
+    rewards={
+        Mount({item=168408, id=1249})
+    }
+}) -- Child of Torcali
+
+map.nodes[70605100] = NPC({
+    id=141025,
+    icon=1624590,
+    quest={
+        50393, 50394, 50402, 52305, 50395, 50401, 50412, 52447, 50396,
+        50886, 50887, 50900, 52748, 50397, 50940, 50942, 50943, 50944
+    },
+    questCount=true,
+    faction='Horde',
+    note=L["kuafon_note"],
+    rewards={
+        Mount({item=159146, id=1043})
+    }
+}) -- Kua'fon
