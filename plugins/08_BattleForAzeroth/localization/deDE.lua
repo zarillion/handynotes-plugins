@@ -411,7 +411,6 @@ Zum farmen bieten sich {npc:126618} in Zanchul (bei 39.0, 14.2) oder {npc:122113
 ]]
 L["torcali_note"] = "Schließe Quests im Kriegsbestienkral ab, bis {quest:47261} verfügbar ist. Einige Quests dauern mehrere Tage."
 
-
 L["totem_of_paku_note"] = "Sprich mit {npc:137510} (bei 50.7, 35.4), um Pa'ku als deinen Loa aus zu wählen."
 L["options_icons_paku_totems"] = "Totems von Pa'ku"
 L["options_icons_paku_totems_desc"] = "Zeigt die Totems von Pa'ku in Dazar'alor an."
