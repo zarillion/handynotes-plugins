@@ -605,7 +605,7 @@ map.nodes[52634155] = Carriage({
 -------------------------------------------------------------------------------
 
 local BloodMirror = Class('BloodMirror', ns.node.Node, {
-    icon = 'portal_red',
+    icon = 'portal_r',
     scale = 1.5,
     group = ns.groups.VEN_NETWORK
 })

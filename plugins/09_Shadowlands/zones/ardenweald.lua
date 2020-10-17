@@ -526,7 +526,7 @@ map.nodes[58205690] = PetBattle({
 -------------------------------------------------------------------------------
 
 local Mushroom = Class('Mushroom', ns.node.Node, {
-    icon='portal_purple',
+    icon='portal_p',
     scale=1.5,
     group=ns.groups.FAE_NETWORK
 })

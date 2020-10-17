@@ -32,11 +32,10 @@
         </Texture>
       </Layer>
       <Layer level="ARTWORK">
-        <Texture parentKey="Icon" file="Interface\Addons\{addon}\icons\icons.blp">
-          <Size x="25" y="25"/>
-          <TexCoords left="0.38" right="0.5" top="0" bottom="0.06" />
+        <Texture parentKey="Icon" file="Interface\Addons\{addon}\core\artwork\icons\chest_gray.blp">
+          <Size x="20" y="20"/>
           <Anchors>
-            <Anchor point="TOPLEFT" x="4" y="-4"/>
+            <Anchor point="TOPLEFT" x="6" y="-6"/>
           </Anchors>
         </Texture>
       </Layer>

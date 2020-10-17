@@ -23,6 +23,11 @@ To enable all development settings and functionality:
 
 --]]
 
+-- Register all addons objects for the CTRL+ALT handler
+local plugins = "HandyNotes_ZarPlugins"
+if _G[plugins] == nil then _G[plugins] = {} end
+_G[plugins][#_G[plugins] + 1] = ns
+
 local function BootstrapDevelopmentEnvironment()
     -- Add development settings to the UI
     ns.options.args.GeneralTab.args.DevelopmentHeader = {
@@ -51,11 +56,6 @@ local function BootstrapDevelopmentEnvironment()
         desc = L["options_toggle_force_nodes_desc"],
         order = 103,
     }
-
-    -- Register all addons objects for the CTRL+ALT handler
-    local plugins = "HandyNotes_ZarPlugins"
-    if _G[plugins] == nil then _G[plugins] = {} end
-    _G[plugins][#_G[plugins] + 1] = ns
 
     -- Initialize a history for quest ids so we still have a record after /reload
     if _G[ADDON_NAME.."DB"]['quest_id_history'] == nil then

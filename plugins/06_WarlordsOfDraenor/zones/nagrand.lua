@@ -19,7 +19,7 @@ local nodes = map.nodes
 ------------------------------------ NODES ------------------------------------
 -------------------------------------------------------------------------------
 
-local Voidtalon = Node({icon='voidtalon', label=L['edge_of_reality'], rewards={
+local Voidtalon = Node({icon=1094600, label=L['edge_of_reality'], rewards={
     Mount({id=682, item=121815}) -- Voidtalon of the Dark Star
 }})
 

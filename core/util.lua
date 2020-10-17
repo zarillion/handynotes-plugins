@@ -107,7 +107,7 @@ local function RenderLinks(str, nameOnly)
         elseif type == 'quest' then
             local name = C_QuestLog.GetTitleForQuestID(tonumber(id))
             if name then
-                return ns.icons.quest_yellow:link(12)..ns.color.Yellow(name)
+                return ns.GetIconLink('quest_ay', 12)..ns.color.Yellow(name)
             end
         elseif type == 'spell' then
             local name, _, icon = GetSpellInfo(tonumber(id))
@@ -117,7 +117,7 @@ local function RenderLinks(str, nameOnly)
                 return '|T'..icon..':0:0:1:-1|t '..spell
             end
         elseif type == 'wq' then
-            return ns.icons.world_quest:link(16)..ns.color.Yellow(id)
+            return ns.GetIconLink('world_quest', 16)..ns.color.Yellow(id)
         end
         return type..'+'..id
     end)

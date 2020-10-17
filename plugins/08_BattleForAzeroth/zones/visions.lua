@@ -21,7 +21,7 @@ local Path = ns.poi.Path
 local Buff = Class('Buff', Node, { group=ns.groups.VISIONS_BUFFS })
 
 local Crystal = Class('Crystal', Node, {
-    icon='orange_crystal',
+    icon='crystal_o',
     scale=1.5,
     group=ns.groups.VISIONS_CRYSTALS,
     label=L["odd_crystal"]

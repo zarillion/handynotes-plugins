@@ -576,7 +576,7 @@ map.nodes[54555609] = PetBattle({
 
 local AnimaShard = Class('AnimaShard', Node, {
     label = L["anima_shard"],
-    icon = 'anima_crystal',
+    icon = 'crystal_b',
     scale = 1.5,
     group = ns.groups.ANIMA_SHARD,
     rewards = {
@@ -661,7 +661,7 @@ font.nodes[49804690] = AnimaShard({quest=61300, note=L["anima_shard_61300"]})
 -------------------------------------------------------------------------------
 
 local Gateway = Class('Gateway', ns.node.Node, {
-    icon = 'portal_blue',
+    icon = 'portal_b',
     scale = 1.5,
     group = ns.groups.KYR_NETWORK
 })

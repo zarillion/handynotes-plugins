@@ -240,7 +240,7 @@ map.nodes[37676591] = Rare({
 -------------------------------------------------------------------------------
 
 local BonusBoss = Class('BonusBoss', NPC, {
-    icon = 'peg_red',
+    icon = 'peg_wr',
     scale = 1.8,
     group = ns.groups.BONUS_BOSS
 })
@@ -415,7 +415,7 @@ map.nodes[40705959] = BonusBoss({
 -------------------------------------------------------------------------------
 
 local BonusEvent = Class('BonusEvent', ns.node.Quest, {
-    icon = 'peg_yellow',
+    icon = 'peg_wy',
     scale = 1.8,
     group = ns.groups.BONUS_EVENT,
     note = ''
@@ -442,7 +442,7 @@ local Riftstone = Class('Riftstone', ns.node.NPC, {
 -------------------------------------------------------------------------------
 
 map.nodes[19184778] = Riftstone({
-    icon='portal_red',
+    icon='portal_r',
     pois = {
         Path({
             19184778, 19514836, 20374847, 20814712, 21054574, 21284422,
@@ -455,7 +455,7 @@ map.nodes[19184778] = Riftstone({
 })
 
 map.nodes[25211784] = Riftstone({
-    icon='portal_red',
+    icon='portal_r',
     pois = {
         Path({
             25211784, 25591838, 25521963, 25232106, 24772195, 24222297,
@@ -470,7 +470,7 @@ map.nodes[25211784] = Riftstone({
 -------------------------------------------------------------------------------
 
 map.nodes[23433121] = Riftstone({
-    icon='portal_blue',
+    icon='portal_b',
     pois = {
         Path({
             23433121, 22863048, 22972907, 23842859, 24742908, 25642985,
@@ -481,7 +481,7 @@ map.nodes[23433121] = Riftstone({
 })
 
 map.nodes[34804362] = Riftstone({
-    icon='portal_blue',
+    icon='portal_b',
     pois = {
         Path({
             34804362, 34734255, 34514116, 34083976, 33683863, 33063734,

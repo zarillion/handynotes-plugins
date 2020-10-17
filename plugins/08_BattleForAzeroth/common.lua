@@ -31,7 +31,7 @@ ns.groups.VISIONS_CHEST = Group('visions_chest')
 -------------------------------------------------------------------------------
 
 local TimedEvent = Class('TimedEvent', Quest, {
-    icon = "peg_yellow",
+    icon = "peg_wy",
     scale = 2,
     group = ns.groups.ASSAULT_EVENT,
     note = ''

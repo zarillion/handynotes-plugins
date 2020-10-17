@@ -438,7 +438,8 @@ map.nodes[68174172] = NPC({
     note=L["torcali_note"],
     rewards={
         Mount({item=168408, id=1249})
-    }
+    },
+    IsCompleted = function (self) return self:IsCollected() end
 }) -- Child of Torcali
 
 map.nodes[70605100] = NPC({
@@ -453,5 +454,6 @@ map.nodes[70605100] = NPC({
     note=L["kuafon_note"],
     rewards={
         Mount({item=159146, id=1043})
-    }
+    },
+    IsCompleted = function (self) return self:IsCollected() end
 }) -- Kua'fon

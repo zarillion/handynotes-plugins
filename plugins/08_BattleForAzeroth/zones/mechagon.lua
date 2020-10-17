@@ -359,16 +359,16 @@ MechChest.rewards = {
     Item({item=169850, weekly=57133}) -- Azeroth Mini Pack: Mechagon
 }
 
-local TREASURE1 = MechChest({quest=55547, icon='chest_blue'})
-local TREASURE2 = MechChest({quest=55548, icon='chest_brown'})
-local TREASURE3 = MechChest({quest=55549, icon='chest_orange'})
-local TREASURE4 = MechChest({quest=55550, icon='chest_yellow'})
-local TREASURE5 = MechChest({quest=55551, icon='chest_camo', future=1})
-local TREASURE6 = MechChest({quest=55552, icon='chest_lime'})
-local TREASURE7 = MechChest({quest=55553, icon='chest_red'})
-local TREASURE8 = MechChest({quest=55554, icon='chest_purple'})
-local TREASURE9 = MechChest({quest=55555, icon='chest_teal'})
-local TREASURE10 = MechChest({quest=55556, icon='chest_lblue'})
+local TREASURE1 = MechChest({quest=55547, icon='chest_bl'})
+local TREASURE2 = MechChest({quest=55548, icon='chest_bn'})
+local TREASURE3 = MechChest({quest=55549, icon='chest_bk'})
+local TREASURE4 = MechChest({quest=55550, icon='chest_yw'})
+local TREASURE5 = MechChest({quest=55551, icon='chest_gn', future=1})
+local TREASURE6 = MechChest({quest=55552, icon='chest_lm'})
+local TREASURE7 = MechChest({quest=55553, icon='chest_rd'})
+local TREASURE8 = MechChest({quest=55554, icon='chest_pp'})
+local TREASURE9 = MechChest({quest=55555, icon='chest_tl'})
+local TREASURE10 = MechChest({quest=55556, icon='chest_pk'})
 
 -- object 325659
 nodes[43304977] = TREASURE1
@@ -433,10 +433,17 @@ nodes[12088568] = TREASURE10
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-nodes[53486145] = Quest({quest=55743, questDeps=56117, daily=true, minimap=false, scale=1.8, rewards={
-    Achievement({id=13708, criteria={45772,45775,45776,45777,45778}}), -- Most Minis Wins
-    Item({item=169848, weekly=57134}), -- Azeroth Mini Pack: Bondo's Yard
-}})
+nodes[53486145] = Quest({
+    quest=55743,
+    questDeps=56117,
+    daily=true,
+    minimap=false,
+    scale=1.8,
+    rewards={
+        Achievement({id=13708, criteria={45772,45775,45776,45777,45778}}), -- Most Minis Wins
+        Item({item=169848, weekly=57134}), -- Azeroth Mini Pack: Bondo's Yard
+    }
+})
 
 -------------------------------------------------------------------------------
 
@@ -449,7 +456,7 @@ function RegRig.getters:rlabel ()
     return normal..' '..hard
 end
 
-nodes[69976201] = RegRig({icon="peg_blue", scale=2, label=L["rec_rig"], rewards={
+nodes[69976201] = RegRig({icon="peg_wb", scale=2, label=L["rec_rig"], rewards={
     Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
     Item({item=169850, note=L["normal"], weekly=57132}), -- Azeroth Mini Pack: Mechagon
     Item({item=168495, note=L["hard"], quest=55074}), -- Blueprint: Rustbolt Requisitions

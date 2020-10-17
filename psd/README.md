@@ -1,4 +1,4 @@
-To update the `icons.blp` file using Photoshop, download the following:
+To update the `*.blp` files using Photoshop, download the following:
 
     https://www.curseforge.com/wow/addons/photoshop-blp-format-plugin
     https://www.wowinterface.com/downloads/info14110-BLPConverter.html

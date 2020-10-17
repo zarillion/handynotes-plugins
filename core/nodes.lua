@@ -48,6 +48,11 @@ function Node:Initialize(attrs)
         for k, v in pairs(attrs) do self[k] = v end
     end
 
+    -- verify chosen icon exists
+    if type(self.icon) == 'string' and ns.icons[self.icon] == nil then
+        error('unknown icon: '..self.icon)
+    end
+
     -- normalize quest ids as tables instead of single values
     for i, key in ipairs{'quest', 'questDeps'} do
         if type(self[key]) == 'number' then self[key] = {self[key]} end
@@ -73,11 +78,7 @@ for this node.
 --]]
 
 function Node:GetDisplayInfo()
-    local icon = self.icon
-    if type(icon) == 'string' then
-        icon = ns.icons[icon] or ns.icons.default
-    end
-
+    local icon = ns.GetIconPath(self.icon)
     local scale = self.scale * self.group:GetScale()
     local alpha = self.alpha * self.group:GetAlpha()
     return icon, scale, alpha
@@ -100,20 +101,6 @@ function Node:GetGlow()
             self._glow.a = 0.5
         end
         return self._glow
-    end
-end
-
---[[
-Return the icon that should be used for the background glow under the real
-node icon.
-]]
-
-function Node:GetGlowIcon(icon)
-    if type(icon) == 'table' and icon.glow and ns.glows[icon.glow] then
-        return ns.glows[icon.glow]
-    end
-    if type(icon) == 'number' then
-        return ns.glows.square_icon
     end
 end
 
@@ -193,10 +180,8 @@ world map containing this node is opened.
 --]]
 
 function Node:Prepare()
-    local icon = self:GetDisplayInfo()
-    local glow = self:GetGlowIcon(icon)
-
     -- initialize glow POI (if glow icon available)
+    local glow = ns.GetGlowPath(self.icon)
     if glow then
         local Glow = self.GlowClass or ns.poi.Glow
         self._glow = Glow({ icon=glow })
@@ -234,7 +219,7 @@ function Node:Render(tooltip)
 
     if self.pois then
         -- add an rlabel hint to use left-mouse to focus the node
-        local focus = ns.icons.left_mouse:link(12)..ns.status.Gray(L["focus"])
+        local focus = ns.GetIconLink('left_mouse', 12)..ns.status.Gray(L["focus"])
         rlabel = (#rlabel > 0) and focus..' '..rlabel or focus
     end
 
@@ -335,7 +320,7 @@ end
 -------------------------------------------------------------------------------
 
 local Intro = Class('Intro', Node, {
-    icon = 'quest_yellow',
+    icon = 'quest_ay',
     scale = 3,
     group = ns.groups.INTRO,
 })
@@ -360,7 +345,7 @@ end
 -------------------------------------------------------------------------------
 
 local PetBattle = Class('PetBattle', NPC, {
-    icon = 'paw_yellow',
+    icon = 'paw_y',
     scale = 1.2,
     group = ns.groups.PETBATTLE
 })
@@ -380,7 +365,7 @@ function Quest:Initialize(attrs)
 end
 
 function Quest.getters:icon()
-    return self.daily and 'quest_blue' or 'quest_yellow'
+    return self.daily and 'quest_ab' or 'quest_ay'
 end
 
 function Quest.getters:label()
@@ -397,7 +382,7 @@ local Rare = Class('Rare', NPC, {
 })
 
 function Rare.getters:icon()
-    return self:IsCollected() and 'skull_white' or 'skull_blue'
+    return self:IsCollected() and 'skull_w' or 'skull_b'
 end
 
 function Rare:IsEnabled()
@@ -423,7 +408,7 @@ end
 -------------------------------------------------------------------------------
 
 local Treasure = Class('Treasure', Node, {
-    icon = 'chest_gray',
+    icon = 'chest_gy',
     scale = 1.3,
     group = ns.groups.TREASURE
 })
@@ -456,8 +441,8 @@ end
 -------------------------------------------------------------------------------
 
 local Supply = Class('Supply', Treasure, {
-    icon = 'star_chest',
-    scale = 2,
+    icon = 'star_chest_g',
+    scale = 1.5,
     group = ns.groups.SUPPLY
 })
 

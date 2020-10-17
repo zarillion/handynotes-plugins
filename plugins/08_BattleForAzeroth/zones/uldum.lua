@@ -296,11 +296,11 @@ local AQRChest = Class('AQRChest', Treasure, {
     label=L["infested_cache"]
 })
 
-local AQRTR1 = AQRChest({quest=58138, icon='chest_blue'})
-local AQRTR2 = AQRChest({quest=58139, icon='chest_purple'})
-local AQRTR3 = AQRChest({quest=58140, icon='chest_orange'})
-local AQRTR4 = AQRChest({quest=58141, icon='chest_yellow'})
-local AQRTR5 = AQRChest({quest=58142, icon='chest_teal'})
+local AQRTR1 = AQRChest({quest=58138, icon='chest_bl'})
+local AQRTR2 = AQRChest({quest=58139, icon='chest_pp'})
+local AQRTR3 = AQRChest({quest=58140, icon='chest_bk'})
+local AQRTR4 = AQRChest({quest=58141, icon='chest_yw'})
+local AQRTR5 = AQRChest({quest=58142, icon='chest_tl'})
 
 -- quest=58138
 nodes[43925868] = Clone(AQRTR1, {note=L["chamber_of_the_sun"]})
@@ -368,12 +368,12 @@ local EMPChest = Class('EMPChest', Treasure, {
     label=L["black_empire_cache"]
 })
 
-local EMPTR1 = EMPChest({quest=57623, icon='chest_blue', note=L["single_chest"]})
-local EMPTR2 = EMPChest({quest=57624, icon='chest_purple', note=L["single_chest"]})
-local EMPTR3 = EMPChest({quest=57625, icon='chest_lime', note=L["in_water"]..' '..L["single_chest"]})
-local EMPTR4 = EMPChest({quest=57626, icon='chest_orange'})
-local EMPTR5 = EMPChest({quest=57627, icon='chest_yellow'})
-local EMPTR6 = EMPChest({quest=57635, icon='chest_teal'})
+local EMPTR1 = EMPChest({quest=57623, icon='chest_bl', note=L["single_chest"]})
+local EMPTR2 = EMPChest({quest=57624, icon='chest_pp', note=L["single_chest"]})
+local EMPTR3 = EMPChest({quest=57625, icon='chest_lm', note=L["in_water"]..' '..L["single_chest"]})
+local EMPTR4 = EMPChest({quest=57626, icon='chest_bk'})
+local EMPTR5 = EMPChest({quest=57627, icon='chest_yw'})
+local EMPTR6 = EMPChest({quest=57635, icon='chest_tl'})
 
 -- quest=57623
 nodes[58361535] = EMPTR1
@@ -445,12 +445,12 @@ local AMAChest = Class('AMAChest', Treasure, {
     label=L["amathet_cache"]
 })
 
-local AMATR1 = AMAChest({quest=55689, icon='chest_blue'})
-local AMATR2 = AMAChest({quest=55690, icon='chest_purple'})
-local AMATR3 = AMAChest({quest=55691, icon='chest_orange'})
-local AMATR4 = AMAChest({quest=55698, icon='chest_yellow'})
-local AMATR5 = AMAChest({quest=55699, icon='chest_teal'})
-local AMATR6 = AMAChest({quest=55700, icon='chest_lime'})
+local AMATR1 = AMAChest({quest=55689, icon='chest_bl'})
+local AMATR2 = AMAChest({quest=55690, icon='chest_pp'})
+local AMATR3 = AMAChest({quest=55691, icon='chest_bk'})
+local AMATR4 = AMAChest({quest=55698, icon='chest_yw'})
+local AMATR5 = AMAChest({quest=55699, icon='chest_tl'})
+local AMATR6 = AMAChest({quest=55700, icon='chest_lm'})
 
 -- quest=55689
 nodes[78265073] = AMATR1

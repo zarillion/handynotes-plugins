@@ -13,6 +13,18 @@ local Map = ns.Map
 ns.expansion = 9
 
 -------------------------------------------------------------------------------
+------------------------------------ ICONS ------------------------------------
+-------------------------------------------------------------------------------
+
+local ICONS = "Interface\\Addons\\"..ADDON_NAME.."\\artwork\\icons"
+local function Icon(name) return ICONS..'\\'..name..'.blp' end
+
+ns.icons.cov_sigil_ky = {Icon('covenant_kyrian'), nil}
+ns.icons.cov_sigil_nl = {Icon('covenant_necrolord'), nil}
+ns.icons.cov_sigil_nf = {Icon('covenant_nightfae'), nil}
+ns.icons.cov_sigil_vn = {Icon('covenant_venthyr'), nil}
+
+-------------------------------------------------------------------------------
 ---------------------------------- CALLBACKS ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -32,10 +44,10 @@ end)
 -------------------------------------------------------------------------------
 
 ns.covenants = {
-    KYR = { id = 1, icon = ns.icons['kyrian_sigil'] },
-    VEN = { id = 2, icon = ns.icons['venthyr_sigil'] },
-    FAE = { id = 3, icon = ns.icons['nightfae_sigil'] },
-    NEC = { id = 4, icon = ns.icons['necrolord_sigil'] }
+    KYR = { id = 1, icon = 'cov_sigil_ky' },
+    VEN = { id = 2, icon = 'cov_sigil_vn' },
+    FAE = { id = 3, icon = 'cov_sigil_nf' },
+    NEC = { id = 4, icon = 'cov_sigil_nl' }
 }
 
 local function ProcessCovenant (node)
@@ -43,7 +55,7 @@ local function ProcessCovenant (node)
     local data = C_Covenants.GetCovenantData(node.covenant.id)
 
     -- Add covenant sigil to top-right corner of tooltip
-    node.rlabel = node.covenant.icon:link(13)
+    node.rlabel = ns.GetIconLink(node.covenant.icon, 13)
 
     if not node._covenantProcessed then
         local subl = ns.color.Orange(string.format(L["covenant_required"], data.name))

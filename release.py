@@ -80,10 +80,6 @@ def main():
     os.makedirs(target_dir, exist_ok=True)
 
     copy('core', path.join(target_dir, 'core'))
-    copy(path.join('icons', 'circle.tga'), path.join(target_dir, 'icons', 'circle.tga'))
-    copy(path.join('icons', 'icons.blp'), path.join(target_dir, 'icons', 'icons.blp'))
-    copy(path.join('icons', 'icons_white.blp'), path.join(target_dir, 'icons', 'icons_white.blp'))
-    copy(path.join('icons', 'line.tga'), path.join(target_dir, 'icons', 'line.tga'))
     copy('libs', path.join(target_dir, 'libs'))
     copy('embeds.xml', path.join(target_dir, 'embeds.xml'))
 

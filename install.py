@@ -70,7 +70,7 @@ def main():
             install(path.join(plugin_dir, item), path.join(target_dir, item))
 
         # link core + library dirs
-        for item in ('core', 'icons', 'libs', 'embeds.xml'):
+        for item in ('core', 'libs', 'embeds.xml'):
             install(item, path.join(target_dir, item))
 
         # install templates.xml file

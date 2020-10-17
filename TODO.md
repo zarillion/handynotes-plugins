@@ -5,7 +5,6 @@
 * Sub-tooltips on hover to inspect items, spells and rewards
 * Add checkmark to completed nodes
 * Add list of map items to quest log panel (new tab?)
-* Switch from atlas texture to individual files and categorize by core/plugin
 
 # Shadowlands
 

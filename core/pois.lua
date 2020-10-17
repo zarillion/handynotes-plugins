@@ -6,6 +6,9 @@ local ADDON_NAME, ns = ...
 local Class = ns.Class
 local HBD = LibStub('HereBeDragons-2.0')
 
+local CIRCLE = "Interface\\AddOns\\"..ADDON_NAME.."\\core\\artwork\\circle"
+local LINE = "Interface\\AddOns\\"..ADDON_NAME.."\\core\\artwork\\line"
+
 -------------------------------------------------------------------------------
 
 local function ResetPin(pin)
@@ -42,7 +45,7 @@ function POI:Draw(pin, xy)
     local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
     size = size * ns:GetOpt('poi_scale')
     t:SetVertexColor(unpack({ns:GetColorOpt('poi_color')}))
-    t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\circle")
+    t:SetTexture(CIRCLE)
     pin:SetSize(size, size)
     return HandyNotes:getXY(xy)
 end
@@ -67,8 +70,7 @@ function Glow:Draw(pin, xy)
 
     local size = 15 * hn_scale * self.scale
 
-    t:SetTexCoord(self.icon.tCoordLeft, self.icon.tCoordRight, self.icon.tCoordTop, self.icon.tCoordBottom)
-    t:SetTexture(self.icon.icon)
+    t:SetTexture(self.icon)
 
     if self.r then
         t:SetVertexColor(self.r, self.g, self.b, self.a or 1)
@@ -92,9 +94,9 @@ local Path = Class('Path', POI)
 function Path:Render(map, template)
     -- draw a circle at every coord and a line between them
     for i=1, #self, 1 do
-        map:AcquirePin(template, self, 'circle', self[i])
+        map:AcquirePin(template, self, CIRCLE, self[i])
         if i < #self then
-            map:AcquirePin(template, self, 'line', self[i], self[i+1])
+            map:AcquirePin(template, self, LINE, self[i], self[i+1])
         end
     end
 end
@@ -102,7 +104,7 @@ end
 function Path:Draw(pin, type, xy1, xy2)
     local t = ResetPin(pin)
     t:SetVertexColor(unpack({ns:GetColorOpt('path_color')}))
-    t:SetTexture("Interface\\AddOns\\"..ADDON_NAME.."\\icons\\"..type)
+    t:SetTexture(type)
 
     -- constant size for minimaps, variable size for world maps
     local size = pin.minimap and 5 or (pin.parentHeight * 0.005)
@@ -112,7 +114,7 @@ function Path:Draw(pin, type, xy1, xy2)
     size = size * ns:GetOpt('poi_scale')
     line_width = line_width * ns:GetOpt('poi_scale')
 
-    if type == 'circle' then
+    if type == CIRCLE then
         pin:SetSize(size, size)
         return HandyNotes:getXY(xy1)
     else
@@ -171,15 +173,15 @@ end
 function Line:Render(map, template)
     if map.minimap then
         for i=1, #self.path, 1 do
-            map:AcquirePin(template, self, 'circle', self.path[i])
+            map:AcquirePin(template, self, CIRCLE, self.path[i])
             if i < #self.path then
-                map:AcquirePin(template, self, 'line', self.path[i], self.path[i+1])
+                map:AcquirePin(template, self, LINE, self.path[i], self.path[i+1])
             end
         end
     else
-        map:AcquirePin(template, self, 'circle', self[1])
-        map:AcquirePin(template, self, 'circle', self[2])
-        map:AcquirePin(template, self, 'line', self[1], self[2])
+        map:AcquirePin(template, self, CIRCLE, self[1])
+        map:AcquirePin(template, self, CIRCLE, self[2])
+        map:AcquirePin(template, self, LINE, self[1], self[2])
     end
 end
 
@@ -187,7 +189,7 @@ end
 ------------------------------------ ARROW ------------------------------------
 -------------------------------------------------------------------------------
 
-local Arrow = Class('Arrow', Path)
+local Arrow = Class('Arrow', Line)
 
 function Arrow:Initialize(attrs)
     Line.Initialize(self, attrs)
@@ -208,11 +210,11 @@ function Arrow:Render(map, template)
     Line.Render(self, map, template)
 
     -- draw the head of the arrow
-    map:AcquirePin(template, self, 'circle', self.corner1)
-    map:AcquirePin(template, self, 'circle', self.corner2)
-    map:AcquirePin(template, self, 'line', self.corner1, self.path[#self.path])
-    map:AcquirePin(template, self, 'line', self.corner2, self.path[#self.path])
-    map:AcquirePin(template, self, 'line', self.corner1, self.corner2)
+    map:AcquirePin(template, self, CIRCLE, self.corner1)
+    map:AcquirePin(template, self, CIRCLE, self.corner2)
+    map:AcquirePin(template, self, LINE, self.corner1, self.path[#self.path])
+    map:AcquirePin(template, self, LINE, self.corner2, self.path[#self.path])
+    map:AcquirePin(template, self, LINE, self.corner1, self.corner2)
 end
 
 -------------------------------------------------------------------------------

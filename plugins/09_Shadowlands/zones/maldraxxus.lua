@@ -448,7 +448,7 @@ map.nodes[73564986] = Treasure({
 
 map.nodes[55893897] = Treasure({
     quest={59428,59429},
-    label='unit:Creature-0-0-0-0-165037',
+    label='{npc:165037}',
     note=L["strange_growth_note"],
     rewards={
         --Item({item=182607}), -- Hairy Egg
@@ -593,7 +593,7 @@ map.nodes[68108620] = HAIRBALL
 -------------------------------------------------------------------------------
 
 local Deathgate = Class('Deathgate', ns.node.Node, {
-    icon = 'portal_green',
+    icon = 'portal_g',
     scale = 1.5,
     group = ns.groups.NEC_NETWORK
 })

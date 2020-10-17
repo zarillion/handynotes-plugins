@@ -281,7 +281,7 @@ function Quest:Render(tooltip)
         status = (count == #self.id) and Green(status) or Red(status)
     end
 
-    local line = ns.icons.quest_yellow:link(13)..' '..(name or UNKNOWN)
+    local line = ns.GetIconLink('quest_ay', 13)..' '..(name or UNKNOWN)
     tooltip:AddDoubleLine(line, status)
 end
 
