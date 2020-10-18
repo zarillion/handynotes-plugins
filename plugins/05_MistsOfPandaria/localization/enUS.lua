@@ -12,7 +12,7 @@ L["emerald_gander_note"] = "Kill {npc:72762} mobs around the Celestial Court unt
 L["great_turtle_furyshell_note"] = "Kill {npc:72764} or {npc:72763} mobs until {npc:73161} spawns."
 L["imperial_python_note"] = "Kill {npc:72841} mobs around the Celestial Court until {npc:73163} spawns."
 L["ironfur_steelhorn_note"] = "Kill {npc:72844} mobs around the Celestial Court until {npc:73160} spawns."
-L["monstrous_spineclaw_note"] = "All around the island. Kill Ancient Spineclaw mobs until {npc:73166} spawns."
+L["monstrous_spineclaw_note"] = "All around the island. Kill {npc:72766} mobs until {npc:73166} spawns."
 L["spelurk_note"] = "If you can't get in use {item:70161} (or other sitting toys) right in front of the rocks. Sit. Then stand and walk straight in."
 
 L["blazing_chest"] = "Blazing Chest"
