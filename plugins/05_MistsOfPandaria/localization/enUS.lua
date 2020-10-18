@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["chelon_note"] = "Click on Conspicuously Empty Shell to spawn the rare."
-L["dread_ship_note"] = "Loot the the {item:104115} from {npc:73279} and use it at the Cursed Gravestone to summon the rare."
+L["dread_ship_note"] = "Loot the {item:104115} from {npc:73279} and use it at the Cursed Gravestone to summon the rare."
 L["emerald_gander_note"] = "Kill {npc:72762} mobs around the Celestial Court until {npc:73158} spawns."
 L["great_turtle_furyshell_note"] = "Kill {npc:72764} or {npc:72763} mobs until {npc:73161} spawns."
 L["imperial_python_note"] = "Kill {npc:72841} mobs around the Celestial Court until {npc:73163} spawns."
