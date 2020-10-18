@@ -1,11 +1,11 @@
 ## Interface: 90001
-## Title: HandyNotes: Classic
+## Title: HandyNotes: World of Warcraft
 ## Version: 1
-## Notes: Classic Notes
+## Notes: World of Warcraft Original Zone Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3
-## SavedVariables: HandyNotes_ClassicDB
+## SavedVariables: HandyNotes_WorldOfWarcraftDB
 
 embeds.xml
 core\core.xml

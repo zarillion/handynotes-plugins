@@ -20,14 +20,14 @@ Examples:
 """
 
 PROJECTS = {
-    '01_Classic': None,
-    '02_BurningCrusade': None,
-    '03_WrathOfTheLichKing': None,
-    '04_Cataclysm': None,
-    '05_MistsOfPandaria': None,
-    '06_WarlordsOfDraenor': None,
-    '07_Legion': None,
-    '08_BattleForAzeroth': None,
+    '01_WorldOfWarcraft': 413932,
+    '02_BurningCrusade': 413928,
+    '03_WrathOfTheLichKing': 413927,
+    '04_Cataclysm': 413926,
+    '05_MistsOfPandaria': 413925,
+    '06_WarlordsOfDraenor': 413924,
+    '07_Legion': 413923,
+    '08_BattleForAzeroth': 413922,
     '09_Shadowlands': 363739
 }
 
