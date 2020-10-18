@@ -3,11 +3,19 @@ local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "enUS", true, true)
 if not L then return end
 
 -------------------------------------------------------------------------------
------------------------------------ Drustvar ----------------------------------
+----------------------------------- DRUSTVAR ----------------------------------
 -------------------------------------------------------------------------------
 
 L["merchants_chest_note"] = "Kill the nearby {npc:137468} that is holding a keyring to acquire {item:163710}"
 L["the_caterer_note"] = "Use the Ruined Wedding Cake to activate."
+L["wicker_pup_note"] = [[
+Combine the items from all four chests to create a {npc:143189}.
+
+• Bespelled: {item:163790}
+• Enchanted: {item:163796}
+• Ensorcelled: {item:163791}
+• Hexed: {item:163789}
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------

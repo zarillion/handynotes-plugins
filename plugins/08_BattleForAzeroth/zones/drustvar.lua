@@ -12,7 +12,9 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
+local Toy = ns.reward.Toy
 
 local POI = ns.poi.POI
 
@@ -107,7 +109,7 @@ map.nodes[66585068] = Rare({
         Achievement({id=12941, criteria=41711}),
         Transmog({item=154376, slot=L["plate"]}) -- Bonecurse Guantlets
     }
-}) -- Bonesquall item=154376,
+}) -- Bonesquall
 
 map.nodes[26935962] = Rare({
     id=139321,
@@ -135,14 +137,14 @@ map.nodes[52074697] = Rare({
     rewards={
         Achievement({id=12941, criteria=41715})
     }
-}) -- Cottontail Matron item=163036,
+}) -- Cottontail Matron
 
 map.nodes[18746057] = Rare({
     id=134706,
     quest=50669,
     rewards={
         Achievement({id=12941, criteria=42342}),
-        Item({item=161100, slot=L["trinket"]}) -- Doom Shroom
+        Item({item=158555, note=L["trinket"]}) -- Doom Shroom
     }
 }) -- Deathcap
 
@@ -273,7 +275,8 @@ map.nodes[33245765] = Rare({
     id=138863,
     quest=51748,
     rewards={
-        Achievement({id=12941, criteria=41745})
+        Achievement({id=12941, criteria=41745}),
+        Transmog({item=155299, slot=L["wand"]}) -- Sister Martha's Soulstealer
     }
 }) -- Sister Martha
 
@@ -291,7 +294,7 @@ map.nodes[25101624] = Rare({
     quest=51949,
     note=L["the_caterer_note"],
     rewards={
-        Item({item=155560, slot=L["ring"]}) -- Lazy-Baker's Ring
+        Item({item=155560, note=L["ring"]}) -- Lazy-Baker's Ring
     }
 }) -- The Caterer
 
@@ -320,7 +323,7 @@ map.nodes[30476344] = Rare({
         Achievement({id=12941, criteria=41751}),
         Transmog({item=154315, slot=L["fist"]}) -- Rusty Steelclaw
     }
-}) -- Whitney "Steelclaw" Ramsay item=154315,
+}) -- Whitney "Steelclaw" Ramsay
 
 -- map.nodes[43463611] = Rare({
 --     id=nil,
@@ -334,46 +337,63 @@ map.nodes[30476344] = Rare({
 --     id=nil,
 --     quest=49341,
 --     rewards={
---         Achievement({id=12941, criteria=41719})
+--         Achievement({id=12941, criteria=41719}),
+--         Item({item=158598, note=L["ring"]}) -- Band of Seething Manifest
 --     }
--- }) -- Seething Cache item=158598
-
+-- }) -- Seething Cache
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+-- 29872746 51907
+-- 32001821 box despawned on approach
+
+-------------------------------------------------------------------------------
+
 map.nodes[55605181] = Treasure({
     quest=53472,
+    note=L["wicker_pup_note"],
     rewards={
-        Achievement({id=12995, criteria=41703})
+        Achievement({id=12995, criteria=41703}),
+        Item({item=163790}), -- Spooky Incantation
+        Pet({item=163497, id=2411}) -- Wicker Pup
     }
-}) -- Bespelled Chest item=163790,
+}) -- Bespelled Chest
 
 map.nodes[25382349] = Treasure({
     quest=53474,
+    note=L["wicker_pup_note"],
     rewards={
         Achievement({id=12995, criteria=41705}),
-        Item({item=163796})
+        Item({item=163796}), -- Wolf Pup Spine
+        Pet({item=163497, id=2411}) -- Wicker Pup
     }
 }) -- Enchanted Chest
 
 map.nodes[67767367] = Treasure({
     quest=53473,
+    note=L["wicker_pup_note"],
     rewards={
-        Achievement({id=12995, criteria=41704})
+        Achievement({id=12995, criteria=41704}),
+        Item({item=163791}), -- Miniature Stag Skull
+        Pet({item=163497, id=2411}) -- Wicker Pup
     }
-}) -- Ensorcelled Chest item=163791,
+}) -- Ensorcelled Chest
 
 map.nodes[18515133] = Treasure({
     quest=53471,
+    note=L["wicker_pup_note"],
     rewards={
-        Achievement({id=12995, criteria=41702})
+        Achievement({id=12995, criteria=41702}),
+        Item({item=163789}), -- Bundle of Wicker Sticks
+        Pet({item=163497, id=2411}) -- Wicker Pup
     }
-}) -- Hexed Chest item=163789,
+}) -- Hexed Chest
 
 map.nodes[25751995] = Treasure({
     quest=53357,
+    requires='{item:163710}',
     note=L["merchants_chest_note"],
     rewards={
         Achievement({id=12995, criteria=41698})
@@ -383,23 +403,26 @@ map.nodes[25751995] = Treasure({
 map.nodes[63306585] = Treasure({
     quest=53385,
     rewards={
-        Achievement({id=12995, criteria=41699})
+        Achievement({id=12995, criteria=41699}),
+        Item({item=163743}) -- Drust Soulcatcher
     }
-}) -- Runebound Cache item=163743,
+}) -- Runebound Cache
 
 map.nodes[44222770] = Treasure({
     quest=53386,
     rewards={
-        Achievement({id=12995, criteria=41700})
+        Achievement({id=12995, criteria=41700}),
+        Toy({item=163742}) -- Heartsbane Grimoire
     }
-}) -- Runebound Chest  item=163742,
+}) -- Runebound Chest
 
 map.nodes[33687173] = Treasure({
     quest=53387,
     rewards={
-        Achievement({id=12995, criteria=41701})
+        Achievement({id=12995, criteria=41701}),
+        Toy({item=163740}) -- Drust Ritual Knife
     }
-}) -- Runebound Coffer item=163740,
+}) -- Runebound Coffer
 
 map.nodes[24304840] = Treasure({
     quest=53475,
@@ -414,7 +437,3 @@ map.nodes[33713008] = Treasure({
         Achievement({id=12995, criteria=41697})
     }
 }) -- Web-Covered Chest
-
-
--- 29872746 51907
---32001821 box despawned on approach
