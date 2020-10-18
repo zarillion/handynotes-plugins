@@ -37,10 +37,8 @@
 
 ## Kul Tiras
 
-* [Adventurer of Drustvar](https://www.wowhead.com/achievement=12941/adventurer-of-drustvar)
 * [Adventurer of Stormsong Valley](https://www.wowhead.com/achievement=12940/adventurer-of-stormsong-valley)
 * [Adventurer of Tiragarde Sound](https://www.wowhead.com/achievement=12939/adventurer-of-tiragarde-sound)
-* [Treasures of Drustvar](https://www.wowhead.com/achievement=12995/treasures-of-drustvar)
 * [Treasures of Stormsong Valley](https://www.wowhead.com/achievement=12853/treasures-of-stormsong-valley)
 * [Treasures of Tiragarde Sound](https://www.wowhead.com/achievement=12852/treasures-of-tiragarde-sound)
 
