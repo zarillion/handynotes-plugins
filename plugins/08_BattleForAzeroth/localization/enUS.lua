@@ -412,13 +412,13 @@ L["grayals_offering_note"] = "After completing {quest:50702}, enter Atul'Aman an
 L["kimbul_offerings_note"] = "On the hill above the Temple of Kimbul."
 L["sandsunken_note"] = "Click the Abandoned Bobber to pull the treasure out of the sand."
 
-L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
+L["elusive_alpaca"] = "Feed {item:161128} to the {npc:162681} to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
 
 -------------------------------------------------------------------------------
 ---------------------------------- WARFRONTS ----------------------------------
 -------------------------------------------------------------------------------
 
-L["boulderfist_outpost"] = "Inside Boulderfist Output (a large cave). Entrance to the northeast."
+L["boulderfist_outpost"] = "Inside Boulderfist Outpost (a large cave). Entrance to the northeast."
 L["burning_goliath_note"] = "When defeated, a {npc:141663} will spawn near {npc:141668}."
 L["cresting_goliath_note"] = "When defeated, a {npc:141658} will spawn near {npc:141668}."
 L["rumbling_goliath_note"] = "When defeated, a {npc:141659} will spawn near {npc:141668}."
