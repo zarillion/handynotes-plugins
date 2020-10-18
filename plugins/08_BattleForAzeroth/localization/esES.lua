@@ -5,6 +5,21 @@ local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "esES", false, true)
 if not L then return end
 
 -------------------------------------------------------------------------------
+----------------------------------- DRUSTVAR ----------------------------------
+-------------------------------------------------------------------------------
+
+L["merchants_chest_note"] = "Mata al {npc:137468} cercano que sostiene un llavero para conseguir la {item:163710} para poder abrir el cofre."
+L["the_caterer_note"] = "Usa el Pastel de Boda Arruinado para invocar a {npc:139358}."
+L["wicker_pup_note"] = [[
+Combina los objetos de los cuatro cofres para crear un {npc:143189}.
+
+• Embrujado: {item:163790}
+• Encantado: {item:163796}
+• Hechizado: {item:163791}
+• Maldito: {item:163789}
+]]
+
+-------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -160,6 +175,17 @@ L["blindlight_cave"] = "Cueva de entrada a {npc:152712}."
 L["caverndark_cave"] = "Cueva de entrada a {npc:152464}."
 L["chasmhaunt_cave"] = "Cueva de entrada a {npc:152556}."
 L["shassera_cave"] = "Cueva de entrada a {npc:152552}."
+
+-------------------------------------------------------------------------------
+------------------------------------ NAZMIR -----------------------------------
+-------------------------------------------------------------------------------
+
+L["captain_mukala_note"] = "Intenta abrir el Cofre Maldito para invocar a {npc:125232}."
+L["enraged_water_note"] = "Examina el {npc:134295} para invocar al {npc:134294}."
+L["lucille_note"] = "Habla con {npc:134297} para invocar a {npc:134296}."
+L["offering_to_bwonsamdi_note"] = "Corre al árbol cercano y salta dentro de la estructura rota."
+L["shambling_ambusher_note"] = "Intenta abrir el {npc:124473} para activar al {npc=124475}."
+L["zaamar_note"] = "Dentro de las Catacumbas de la Necrópolis, entrada al sur, te encontrarás con {npc:129657}."
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -377,7 +403,30 @@ L["options_icons_visions_misc_desc"] = "Muestra las localizaciones de raros, jug
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
-L["elusive_alpaca"] = "Alimenta a la alpaca con Mezcla de Lechugas Costeras para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
+L["bloodwing_bonepicker_note"] = "Recoge el {npc:136390} en la cumbre para invocar al buitre {npc:136393}."
+L["nezara_note"] = "Corta las cuerdas sujetas a los cuatro {npc:128952} para liberar a {npc:128951}."
+L["vathikur_note"] = "Mata a las {npc:126894} para invocar a {npc=130401}."
+L["zunashi_note"] = "Entrando por el norte de la boca de un gran cráneo se accederá a {npc:129411}."
+
+L["ashvane_spoils_note"] = "Monta en la {npc:132662} para bajar colina abajo para hacer aparecer el botín en la parte de abajo."
+L["excavators_greed_note"] = "Dentro de un túnel colapsado."
+L["grayals_offering_note"] = "Tras completar {quest:50702}, entra en Atul'Aman y haz click en el Altar Antiguo para hacer aparecer la ofrenda."
+L["kimbul_offerings_note"] = "Encima de una colina sobre el Templo de Kimbul."
+L["sandsunken_note"] = "Haz click en el Corcho Abandonado para sacar el tesoro fuera de la arena."
+
+L["elusive_alpaca"] = "Alimenta a la {npc:162681} con {item:161128} para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
+
+-------------------------------------------------------------------------------
+---------------------------------- WARFRONTS ----------------------------------
+-------------------------------------------------------------------------------
+
+L["boulderfist_outpost"] = "Dentro de la cueva de los Puño de Roca (a cueva grande). Entrada al noreste."
+L["burning_goliath_note"] = "Una vez derrotado, aparecerá un {npc:141663} cerca del {npc:141668}."
+L["cresting_goliath_note"] = "Una vez derrotado, aparecerá un {npc:141658} cerca del {npc:141668}."
+L["rumbling_goliath_note"] = "Una vez derrotado, aparecerá un {npc:141659} cerca del {npc:141668}."
+L["thundering_goliath_note"] = "Una vez derrotado, aparecerá un {npc:141648} cerca del {npc:141668}."
+L["echo_of_myzrael_note"] = "Cuando hayan sido derrotados los cuatro goliats elementales, aparecerá el {npc:141668}."
+L["frightened_kodo_note"] = "Desaparece tras unos pocos minutos. La aparición está garantizada tras un reinicio del servidor."
 
 -------------------------------------------------------------------------------
 ----------------------------------- ZULDAZAR ----------------------------------
