@@ -453,5 +453,8 @@ map.nodes[70605100] = NPC({
     rewards={
         Mount({item=159146, id=1043})
     },
+    pois ={
+        POI({54333384, 67803420}) -- farm spots
+    },
     IsCompleted = function (self) return self:IsCollected() end
 }) -- Kua'fon

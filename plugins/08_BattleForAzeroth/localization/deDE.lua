@@ -446,7 +446,7 @@ L["warlords_cache_note"] = "Auf dem Kopf der Galionsfigur des Schiffs."
 L["kuafon_note"] = [[
 Plündere ein {item:157782} von Pterrordaxen in Zandalar um die Questreihe zu beginnen. Einige Quests dauern mehrere Tage.
 
-Zum farmen bieten sich {npc:126618} in Zanchul (bei 39.0, 14.2) oder {npc:122113} im Luftreißernest (bei 67.8, 34.2) an.
+Zum farmen bieten sich {npc:126618} in Zanchul oder {npc:122113} im Luftreißernest an.
 ]]
 L["torcali_note"] = "Schließe Quests im Kriegsbestienkral ab, bis {quest:47261} verfügbar ist. Einige Quests dauern mehrere Tage."
 
