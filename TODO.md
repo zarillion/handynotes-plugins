@@ -25,9 +25,7 @@
 
 ## Zandalar
 
-* [Adventurer of Nazmir](https://www.wowhead.com/achievement=12942/adventurer-of-nazmir)
 * [Adventurer of Vol'dun](https://www.wowhead.com/achievement=12943/adventurer-of-voldun)
-* [Treasures of Nazmir](https://www.wowhead.com/achievement=12771/treasures-of-nazmir)
 * [Treasures of Vol'dun](https://www.wowhead.com/achievement=12849/treasures-of-voldun)
 
 ### Optional

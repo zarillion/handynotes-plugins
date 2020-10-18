@@ -162,6 +162,17 @@ L["chasmhaunt_cave"] = "Cave entrance to Chasm-Haunter."
 L["shassera_cave"] = "Cave entrance to Shassera."
 
 -------------------------------------------------------------------------------
+------------------------------------ NAZMIR -----------------------------------
+-------------------------------------------------------------------------------
+
+L["captain_mukala_note"] = "Attempt to loot the Cursed Chest to summon the captain."
+L["enraged_water_note"] = "Examine the {npc:134295} to summon the elemental."
+L["lucille_note"] = "Talk to {npc:134297} to summon the rare."
+L["offering_to_bwonsamdi_note"] = "Run up the nearby tree and jump into the broken structure."
+L["shambling_ambusher_note"] = "Attempt to loot the {npc:124473} to activate the rare."
+L["zaamar_note"] = "Inside the Necropolis Catacombs, entrance to the south."
+
+-------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 

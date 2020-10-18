@@ -319,7 +319,10 @@ function Transmog:IsObtained()
 
     -- Verify the player can learn the item's appearance
     local sourceID = select(2, CTC.GetItemInfo(self.item))
-    if not (sourceID and select(2, CTC.PlayerCanCollectSource(sourceID))) then return true end
+    if sourceID then
+        local infoReady, canCollect = CTC.PlayerCanCollectSource(sourceID)
+        if infoReady and not canCollect then return true end
+    end
 
     return false
 end

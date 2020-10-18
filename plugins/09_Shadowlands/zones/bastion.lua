@@ -258,7 +258,7 @@ map.nodes[61295090] = Rare({
 local Sotirstus = Class('Sotirstus', Rare)
 
 function Sotirstus.getters:label ()
-    return GetAchievementCriteriaInfoByID(14307, 50618)
+    return GetAchievementCriteriaInfoByID(14307, 50618) or UNKNOWN
 end
 
 map.nodes[22432285] = Sotirstus({

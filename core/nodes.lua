@@ -417,7 +417,7 @@ function Treasure.getters:label()
     if not self.rewards then return UNKNOWN end
     for i, reward in ipairs(self.rewards) do
         if IsInstance(reward, ns.reward.Achievement) then
-            return GetAchievementCriteriaInfoByID(reward.id, reward.criteria[1].id)
+            return GetAchievementCriteriaInfoByID(reward.id, reward.criteria[1].id) or UNKNOWN
         end
     end
     return UNKNOWN
