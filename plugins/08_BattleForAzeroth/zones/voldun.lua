@@ -398,11 +398,19 @@ map.nodes[29388742] = Treasure({
 ------------------------------ ELUSIVE QUICKHOOF ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[43006900] = NPC({id=162681, icon=2916283, group=ns.groups.ALPACA_VOLDUN, pois={
-    POI({
-        26405250, 29006600, 31106730, 42006000, 43006900, 51108590, 52508900,
-        54008200, 54605320, 55007300
-    })
-}, rewards={
-    Mount({id=1324, item=174860}) -- Elusive Quickhoof
-}, note=L["elusive_alpaca"]})
+map.nodes[43006900] = NPC({
+    id=162681,
+    icon=2916283,
+    group=ns.groups.ALPACA_VOLDUN,
+    note=L["elusive_alpaca"],
+    rewards={
+        Mount({id=1324, item=174860}) -- Elusive Quickhoof
+    },
+    pois={
+        POI({
+            26405250, 29006600, 31106730, 42006000, 43006900, 51108590,
+            52508900, 54008200, 54605320, 55007300
+        })
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+})

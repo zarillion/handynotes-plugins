@@ -636,7 +636,7 @@ local function GetAlpacaStatus ()
     if count ~= nil then return ns.status.Gray(tostring(count)..'/7') end
 end
 
-local Alpaca = Class('Alpaca', NPC, {
+local alpaca = Class('Alpaca', NPC, {
     id=162765,
     icon=2916287,
     quest=58879,
@@ -646,10 +646,12 @@ local Alpaca = Class('Alpaca', NPC, {
         15006200, 24000900, 27004800, 30002900, 39000800, 41007000, 47004800,
         52001900, 55006900, 62705340, 63011446, 70003900, 76636813
     })},
-    rewards={Mount({id=1329, item=174859})} -- Springfur Alpaca
-})
+    rewards={Mount({id=1329, item=174859})}, -- Springfur Alpaca
+    getters={rlabel=GetAlpacaStatus},
+    IsCompleted = function (self) return self:IsCollected() end
+})()
 
-local Gersahl = Class('Gersahl', Node, {
+local gersahl = Class('Gersahl', Node, {
     icon=134190,
     group=ns.groups.ALPACA_ULDUM,
     label=L["gersahl"],
@@ -663,11 +665,10 @@ local Gersahl = Class('Gersahl', Node, {
         65427433, 66047881, 66137572, 66217063, 66257753, 66557212, 67377771,
         68097535, 68117202, 68517407, 68947308, 69237501, 71087875, 71657803
     })},
-    rewards={Item({item=174858})} -- Gersahl Greens
-})
+    rewards={Item({item=174858})}, -- Gersahl Greens
+    getters={rlabel=GetAlpacaStatus},
+    IsCompleted = function (self) return alpaca:IsCollected() end
+})()
 
-Alpaca.getters.rlabel = GetAlpacaStatus
-Gersahl.getters.rlabel = GetAlpacaStatus
-
-nodes[47004800] = Alpaca()
-nodes[58005169] = Gersahl()
+nodes[47004800] = alpaca
+nodes[58005169] = gersahl
