@@ -24,6 +24,10 @@ L["sturdy_chest_note"] = "Hit an {npc:73531} to get carried here."
 
 L["gleaming_treasure_satchel_note"] = "Walk on the ropes of the ship then jump on the pole where the satchel is hanging from."
 L["gleaming_treasure_chest_note"] = "Jump on the pillars to the treasure."
-L["mist_covered_treasure_chest_note"] = "Feather Falling: click on Gleaming Crane Statue.\n\n|cFFFF0000Requires Gleaming Treasure Chest and Rope-Bound Treasure Chest to be looted first.|r"
+L["mist_covered_treasure_chest_note"] = [[
+Requires Gleaming Treasure Chest and Rope-Bound Treasure Chest to be looted first.
+
+Then click on Gleaming Crane Statue (58,60) to fly until reach the treasure.
+]]
 L["ropebound_treasure_chest_note"] = "Walk on the ropes to the treasure."
 L["sunken_treasure_note"] = "Kill elites on the sunken ship for the key."
