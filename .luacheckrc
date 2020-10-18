@@ -14,6 +14,7 @@ read_globals = {
 
     -- WoW API functions
     'AuraUtil',
+    'C_ContributionCollector',
     'C_Covenants',
     'C_CurrencyInfo',
     'C_Garrison',
