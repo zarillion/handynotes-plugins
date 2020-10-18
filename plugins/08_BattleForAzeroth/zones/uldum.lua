@@ -9,7 +9,6 @@ local Map = ns.Map
 local Clone = ns.Clone
 
 local Node = ns.node.Node
-local Cave = ns.node.Cave
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
@@ -230,8 +229,7 @@ nodes[21236105] = Rare({id=162140, quest=58697, assault=AQR, rewards={
 nodes[66676804] = Rare({id=162372, quest=58715, assault={AQR, AMA}, pois={
     POI({58606160, 58038282, 66676804, 70997407})
 }}) -- Spirit of Cyrus the Black
-nodes[49944011] = Rare({id=162352, quest=58716, assault={AQR, AMA}, note=L["in_water_cave"]}) -- Spirit of Dark Ritualist Zakahn
-nodes[52154012] = Cave({parent=nodes[49944011], assault={AQR, AMA}, label=L["spirit_cave"]}) -- Entrance
+nodes[49944011] = Rare({id=162352, quest=58716, assault={AQR, AMA}, note=L["in_water_cave"], pois={POI({52154012})}}) -- Spirit of Dark Ritualist Zakahn
 nodes[78986389] = Rare({id=151878, quest=58613, assault=AMA}) -- Sun King Nahkotep
 nodes[84785704] = Rare({id=151897, quest=55479, assault=AMA}) -- Sun Priestess Nubitt
 nodes[73347447] = Rare({id=151609, quest=55353, assault=AMA}) -- Sun Prophet Epaphos
@@ -640,7 +638,6 @@ local alpaca = Class('Alpaca', NPC, {
     id=162765,
     icon=2916287,
     quest=58879,
-    group=ns.groups.ALPACA_ULDUM,
     note=L["friendly_alpaca"],
     pois={POI({
         15006200, 24000900, 27004800, 30002900, 39000800, 41007000, 47004800,
@@ -653,7 +650,6 @@ local alpaca = Class('Alpaca', NPC, {
 
 local gersahl = Class('Gersahl', Node, {
     icon=134190,
-    group=ns.groups.ALPACA_ULDUM,
     label=L["gersahl"],
     note=L["gersahl_note"],
     pois={POI({

@@ -19,7 +19,6 @@ L["hmiasma"] = "Alimentalo con el moco circundante hasta que esté activo."
 L["left_eye"] = "Te da la mitad izquierda del juegete Ojos que todo lo ven."
 L["platform"] = "Desova encima de la plataforma flotante."
 L["reshef"] = "Comparte un spawn con Alto guardia deformado por el Vacío."
-L["spirit_cave"] = "La entrada de la cueva de Espíritu de ritualista oscuro Zakahn."
 L["wastewander"] = "Comparte un spawn con Anfitrión vagayermos."
 
 L["amathet_cache"] = "Amathet Cache"

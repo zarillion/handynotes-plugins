@@ -194,7 +194,6 @@ L["left_eye"] = "Drops the left half of the All-Seeing Eyes toy."
 L["neferset_rare"] = "These six rares share the same three spawn locations in Neferset. After a number of Summoning Ritual events have been completed, a random set of three will spawn."
 L["platform"] = "Spawns on top of the floating platform."
 L["single_chest"] = "This chest spawns in only one location! If it is not there, wait a bit and it will respawn."
-L["spirit_cave"] = "Cave entrance for Spirit of Dark Ritualist Zakahn."
 L["tomb_widow"] = "When the white egg-sacs are present by the pillars, kill the invisible spiders to summon."
 L["uatka"] = "Along with two other players, click each Mysterious Device. Requires a Suntouched Amulet from an Amathet Reliquary."
 L["wastewander"] = "Shares a spawn with Wastewander Hosts."
@@ -209,8 +208,6 @@ L["amathet_reliquary"] = "Amathet Reliquary"
 L["cursed_relic"] = "Requires Cursed Relic"
 L["tolvir_relic"] = "Requires Tol'vir Relic"
 
-L["options_icons_alpaca_uldum"] = "Springfur Alpaca"
-L["options_icons_alpaca_uldum_desc"] = "Show locations for Gersahl Shrub and Friendly Alpaca spawns."
 L["options_icons_assault_events"] = "Assault Events"
 L["options_icons_assault_events_desc"] = "Show locations for possible assault events."
 L["options_icons_coffers"] = "Locked Coffers"
@@ -401,8 +398,6 @@ L["kimbul_offerings_note"] = "On the hill above the Temple of Kimbul."
 L["sandsunken_note"] = "Click the Abandoned Bobber to pull the treasure out of the sand."
 
 L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
-L["options_icons_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
-L["options_icons_alpaca_voldun"] = "Elusive Quickhoof"
 
 -------------------------------------------------------------------------------
 ----------------------------------- ZULDAZAR ----------------------------------

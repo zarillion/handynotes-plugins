@@ -25,7 +25,6 @@ L["kanebti"] = "Collect a Jeweled Scarab Figurine from a Jeweled Tomb Scarab, wh
 L["left_eye"] = "Il donne la moitié gauche du jouet Yeux omnivoyants."
 L["neferset_rare"] = "These six rares share the same three spawn locations in Neferset. After a number of Summoning Ritual events have been completed, a random set of three will spawn."
 L["platform"] = "Il fraie au dessus de la plateforme flottante."
-L["spirit_cave"] = "C'est l'entrée de la grotte pour Esprit du ritualiste sombre Zakahn."
 L["tomb_widow"] = "When the white egg-sacs are present by the pillars, kill the invisible spiders to summon."
 L["uatka"] = "Along with two other players, click each Mysterious Device. Requires a Suntouched Amulet from an Amathet Reliquary."
 L["wastewander"] = "Il partage un spawn avec les Hôtes bat-le-désert ."
@@ -40,8 +39,6 @@ L["amathet_reliquary"] = "Amathet Reliquary"
 L["cursed_relic"] = "Requires Cursed Relic"
 L["tolvir_relic"] = "Requires Tol'vir Relic"
 
-L["options_icons_alpaca_uldum"] = "Springfur Alpaca"
-L["options_icons_alpaca_uldum_desc"] = "Show locations for Gersahl Shrub and Friendly Alpaca spawns."
 L["options_icons_assault_events"] = "Assault Events"
 L["options_icons_assault_events_desc"] = "Show locations for possible assault events."
 L["options_icons_coffers"] = "Locked Coffers"
@@ -139,5 +136,3 @@ L["void_skull_note"] = "Click the skull on the ground to loot the toy."
 -------------------------------------------------------------------------------
 
 L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
-L["options_icons_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
-L["options_icons_alpaca_voldun"] = "Elusive Quickhoof"

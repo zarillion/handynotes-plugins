@@ -174,7 +174,6 @@ L["left_eye"] = "放下全知之眼玩具的左半部分。"
 L["neferset_rare"] = "這六個稀有怪在奈斐賽特具有相同的三個出生位置。 完成許多“召喚儀式”事件後，將隨機產生三個。"
 L["platform"] = "出生在浮動平台頂部。"
 L["single_chest"] = "此箱子僅在一個位置產生！ 如果不存在，請稍等一下，它將重新生成。"
-L["spirit_cave"] = "黑暗祭儀師扎坎恩之魂的洞穴入口。"
 L["tomb_widow"] = "當柱子上出現白色卵囊時，殺死隱形的蜘蛛來召喚。"
 L["uatka"] = "與其他兩個玩家一起，點擊每個神秘設備。 需要來自阿瑪賽特聖匣的觸日者護符。"
 L["wastewander"] = "與廢土漫遊者隊長共用出生點。"
@@ -189,8 +188,6 @@ L["amathet_reliquary"] = "阿瑪賽特聖匣"
 L["cursed_relic"] = "需要詛咒聖物"
 L["tolvir_relic"] = "需要托維爾聖物"
 
-L["options_icons_alpaca_uldum"] = "躍毛羊駝"
-L["options_icons_alpaca_uldum_desc"] = "顯示吉薩爾草叢以及友善的羊駝出生位置。"
 L["options_icons_assault_events"] = "突擊事件"
 L["options_icons_assault_events_desc"] = "顯示突擊事件可能的位置。"
 L["options_icons_coffers"] = "上鎖的大寶箱"
@@ -370,5 +367,3 @@ L["options_icons_visions_misc_desc"] = "在驚懼幻象中顯示稀有、玩具�
 -------------------------------------------------------------------------------
 
 L["elusive_alpaca"] = "餵羊駝濱海綜合綠色蔬菜以學習坐騎。 在一個位置出現10分鐘，然後很久才重生。"
-L["options_icons_alpaca_voldun_desc"] = "顯示玄渺快蹄出現的位置。"
-L["options_icons_alpaca_voldun"] = "玄渺快蹄"

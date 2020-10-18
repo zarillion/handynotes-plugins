@@ -401,7 +401,6 @@ map.nodes[29388742] = Treasure({
 map.nodes[43006900] = NPC({
     id=162681,
     icon=2916283,
-    group=ns.groups.ALPACA_VOLDUN,
     note=L["elusive_alpaca"],
     rewards={
         Mount({id=1324, item=174860}) -- Elusive Quickhoof

@@ -183,7 +183,6 @@ L["left_eye"] = "Lässt die linke Hälfte des {item:175140} Spielzeugs fallen."
 L["neferset_rare"] = "Diese sechs Seltenen Gegner teilen sich die gleichen drei Spawnplätze in Neferset. Nachdem eine Reihe von Beschwörungsritual-Ereignissen abgeschlossen wurden, werden zufällig drei von ihnen erscheinen."
 L["platform"] = "Erscheint auf der schwebenden Plattform."
 L["single_chest"] = "Diese Truhe erscheint nur an einem Ort! Wenn sie nicht da ist, warte ein bisschen und sie wird wiedererscheinen."
-L["spirit_cave"] = "Höhleneingang für den Geist des dunklen Ritualisten Zakahn."
 L["tomb_widow"] = "Wenn die weißen Eiersäcke an den Säulen vorhanden sind, töte die unsichtbaren {npc:157184}, um sie zu beschwören."
 L["uatka"] = "Klick zusammen mit zwei anderen Spielern auf jeweils ein  Mysteriöses Gerät. \nBenötigt ein {item:171208} aus einem Reliquiar der Amathet."
 L["wastewander"] = "Teilt sich den spawn mit {npc:154369}."
@@ -198,8 +197,6 @@ L["amathet_reliquary"] = "Reliquiar der Amathet"
 L["cursed_relic"] = ns.color.Red("Benötigt {item:174768}")
 L["tolvir_relic"] = ns.color.Red("Benötigt {item:174765}")
 
-L["options_icons_alpaca_uldum"] = "Freundliches Alpaka"
-L["options_icons_alpaca_uldum_desc"] = "Zeigt Positionen für Gersahlstrauch und Freundliches Alpaka."
 L["options_icons_assault_events"] = "Angriffevents"
 L["options_icons_assault_events_desc"] = "Zeigt mögliche Positionen für Angriffevents."
 L["options_icons_coffers"] = "Verschlossene Kisten"
@@ -379,8 +376,6 @@ L["options_icons_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, 
 -------------------------------------------------------------------------------
 
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
-L["options_icons_alpaca_voldun_desc"] = "Zeigt die Positionen für Schlüpfriger Flinkhuf an."
-L["options_icons_alpaca_voldun"] = "Schlüpfriger Flinkhuf"
 
 -------------------------------------------------------------------------------
 ----------------------------------- ZULDAZAR ----------------------------------

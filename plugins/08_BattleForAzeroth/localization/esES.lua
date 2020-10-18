@@ -185,7 +185,6 @@ L["left_eye"] = "Te da la mitad izquierda del juguete Ojos que todo lo ven."
 L["neferset_rare"] = "Los seis raros comparten los tres lugares de aparición en Neferset. Tras completar un número de veces el evento del Ritual de Invocación, aparecerán tres raros aleatorios."
 L["platform"] = "Aparece encima de la plataforma flotante."
 L["single_chest"] = "¡Este cofre aparece sólo en una localización! Si no está aquí, espera un poco y aparecerá."
-L["spirit_cave"] = "Entrada de la cueva para el Espíritu del Ritualista Oscuro Zakahn."
 L["tomb_widow"] = "Para invocarlo: cuando los sacos de huevos blancos están presentes por los pilares, mata las arañas invisibles."
 L["uatka"] = "Junto con otros dos jugadores más, haced click al mismo tiempo al Dispositivo Misterioso. Requiere que cada uno tenga un Amuleto Fúlgido de un Relicario Amathet."
 L["wastewander"] = "Comparte lugar de aparición con Huésped Vagayermos."
@@ -200,8 +199,6 @@ L["amathet_reliquary"] = "Relicario Amathet"
 L["cursed_relic"] = "Requiere una Reliquia Maldita"
 L["tolvir_relic"] = "Requiere una Reliquia de los Tol'vir"
 
-L["options_icons_alpaca_uldum"] = "Alpaca de pelaje primaveral"
-L["options_icons_alpaca_uldum_desc"] = "Muestra las localizaciones donde aparecen los Arbustos Garsahl y las Alpacas Amigables."
 L["options_icons_assault_events"] = "Eventos del Asalto"
 L["options_icons_assault_events_desc"] = "Muestra las localizaciones de los posibles eventos del asalto."
 L["options_icons_coffers"] = "Alijos Cerrados"
@@ -381,8 +378,6 @@ L["options_icons_visions_misc_desc"] = "Muestra las localizaciones de raros, jug
 -------------------------------------------------------------------------------
 
 L["elusive_alpaca"] = "Alimenta a la alpaca con Mezcla de Lechugas Costeras para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
-L["options_icons_alpaca_voldun_desc"] = "Muestra las localizaciones de aparición de la Pezuñapresta Esquiva."
-L["options_icons_alpaca_voldun"] = "Pezuñapresta Esquiva"
 
 -------------------------------------------------------------------------------
 ----------------------------------- ZULDAZAR ----------------------------------

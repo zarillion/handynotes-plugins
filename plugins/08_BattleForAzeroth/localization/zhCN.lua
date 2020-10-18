@@ -183,7 +183,6 @@ L["left_eye"] = "掉落全视双眼玩具的左半部分。"
 L["neferset_rare"] = "这六个稀有在尼斐塞特具有共享三个刷新点。 完成召唤仪式事件后，将随机刷新三个。"
 L["platform"] = "刷新在浮空平台顶部。"
 L["single_chest"] = "此宝箱只在一处刷新！如果没有在这没有发现，等待一会儿将会刷新。"
-L["spirit_cave"] = "黑暗仪祭师扎卡汗的洞穴入口。"
 L["tomb_widow"] = "当柱子上出现白色卵囊时，杀死看不见的蜘蛛召唤。"
 L["uatka"] = "需要三个人分别同时点击神秘的装置，消耗一个日灼护符出自阿玛塞特圣箱。"
 L["wastewander"] = "与废土宿主共享刷新点。"
@@ -198,8 +197,6 @@ L["amathet_reliquary"] = "阿玛赛特圣箱"
 L["cursed_relic"] = "需要诅咒圣物"
 L["tolvir_relic"] = "需要托维尔圣物"
 
-L["options_icons_alpaca_uldum"] = "春袭羊驼"
-L["options_icons_alpaca_uldum_desc"] = "显示友善的羊驼的刷新位置。"
 L["options_icons_assault_events"] = "突袭事件"
 L["options_icons_assault_events_desc"] = "显示可能的突袭事件的位置。"
 L["options_icons_coffers"] = "上锁的箱子"
@@ -379,8 +376,6 @@ L["options_icons_visions_misc_desc"] = "显示惊魂幻象内稀有，玩具，�
 -------------------------------------------------------------------------------
 
 L["elusive_alpaca"] = "将海滩叶蔬沙拉喂给轻盈的迅蹄驼以获得坐骑。羊驼每次存在10分钟，刷新时间很长。"
-L["options_icons_alpaca_voldun_desc"] = "显示轻盈的迅蹄驼的刷新位置。"
-L["options_icons_alpaca_voldun"] = "轻盈的迅蹄驼"
 
 -------------------------------------------------------------------------------
 ----------------------------------- ZULDAZAR ----------------------------------

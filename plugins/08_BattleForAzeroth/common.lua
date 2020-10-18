@@ -14,8 +14,6 @@ ns.expansion = 8
 
 -------------------------------------------------------------------------------
 
-ns.groups.ALPACA_ULDUM = Group('alpaca_uldum')
-ns.groups.ALPACA_VOLDUN = Group('alpaca_voldun')
 ns.groups.ASSAULT_EVENT = Group('assault_events')
 ns.groups.DAILY_CHESTS = Group('daily_chests')
 ns.groups.COFFERS = Group('coffers')
