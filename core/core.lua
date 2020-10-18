@@ -163,13 +163,13 @@ end
 
 function Addon:RegisterWithHandyNotes()
     do
-        local map, minimap
+        local map, minimap, force
         local function iter(nodes, precoord)
             if not nodes then return nil end
             if minimap and ns:GetOpt('hide_minimap') then return nil end
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
-                if node and map:IsNodeEnabled(node, coord, minimap) then
+                if node and (force or map:IsNodeEnabled(node, coord, minimap)) then
                     local icon, scale, alpha = node:GetDisplayInfo()
                     return coord, nil, icon, scale, alpha
                 end
@@ -181,8 +181,10 @@ function Addon:RegisterWithHandyNotes()
             if ns:GetOpt('show_debug_map') then
                 ns.Debug('Loading nodes for map: '..mapID..' (minimap='..tostring(_minimap)..')')
             end
+
             map = ns.maps[mapID]
             minimap = _minimap
+            force = ns:GetOpt('force_nodes') or ns.dev_force
 
             if map then
                 map:Prepare()
@@ -202,7 +204,7 @@ function Addon:RegisterWithHandyNotes()
 
     self:RegisterBucketEvent({
         "LOOT_CLOSED", "PLAYER_MONEY", "SHOW_LOOT_TOAST",
-        "SHOW_LOOT_TOAST_UPGRADE", "QUEST_TURNED_IN"
+        "SHOW_LOOT_TOAST_UPGRADE", "QUEST_TURNED_IN", "ZONE_CHANGED_NEW_AREA"
     }, 2, "Refresh")
 
     self:Refresh()

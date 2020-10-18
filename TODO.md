@@ -19,9 +19,7 @@
 # Battle for Azeroth
 
 * [Battle on Zandalar and Kul Tiras](https://www.wowhead.com/achievement=12936/battle-on-zandalar-and-kul-tiras)
-* [Frightened Kodo](https://www.wowhead.com/item=166433/frightened-kodo)
 * Solve daily chest glows with some cloned, some not
-* Warfront (Arathi Highlands and Darkshore) Rares
 
 ## Zandalar
 

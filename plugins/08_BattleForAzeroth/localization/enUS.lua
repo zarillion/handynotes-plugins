@@ -407,6 +407,18 @@ L["sandsunken_note"] = "Click the Abandoned Bobber to pull the treasure out of t
 L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
 
 -------------------------------------------------------------------------------
+---------------------------------- WARFRONTS ----------------------------------
+-------------------------------------------------------------------------------
+
+L["boulderfist_outpost"] = "Inside Boulderfist Output (a large cave). Entrance to the northeast."
+L["burning_goliath_note"] = "When defeated, a {npc:141663} will spawn near {npc:141668}."
+L["cresting_goliath_note"] = "When defeated, a {npc:141658} will spawn near {npc:141668}."
+L["rumbling_goliath_note"] = "When defeated, a {npc:141659} will spawn near {npc:141668}."
+L["thundering_goliath_note"] = "When defeated, a {npc:141648} will spawn near {npc:141668}."
+L["echo_of_myzrael_note"] = "Once all four elemental goliaths are defeated, {npc:141668} will appear."
+L["frightened_kodo_note"] = "Despawns after a few minutes. Guaranteed to spawn after a server restart."
+
+-------------------------------------------------------------------------------
 ----------------------------------- ZULDAZAR ----------------------------------
 -------------------------------------------------------------------------------
 

@@ -6,6 +6,7 @@ local _, ns = ...
 
 local Class = ns.Class
 local Group = ns.Group
+local Map = ns.Map
 local Quest = ns.node.Quest
 
 -------------------------------------------------------------------------------
@@ -41,3 +42,21 @@ function TimedEvent:PrerequisiteCompleted()
 end
 
 ns.node.TimedEvent = TimedEvent
+
+-------------------------------------------------------------------------------
+-------------------------------- WARFRONT MAP ---------------------------------
+-------------------------------------------------------------------------------
+
+local WarfrontMap = Class('WarfrontMap', Map)
+
+function WarfrontMap:IsNodeEnabled(node, coord, minimap)
+    -- Disable nodes that are not available when the other faction controls
+    if node.controllingFaction then
+        local state = C_ContributionCollector.GetState(self.collector)
+        local faction = (state == 1 or state == 2) and 'Alliance' or 'Horde'
+        if faction ~= node.controllingFaction then return false end
+    end
+    return Map.IsNodeEnabled(self, node, coord, minimap)
+end
+
+ns.WarfrontMap = WarfrontMap

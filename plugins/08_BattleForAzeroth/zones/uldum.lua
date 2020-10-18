@@ -88,11 +88,11 @@ end
 local Q = Quest({id={58506, 56374, 56209, 56375, 56472, 56376}})
 
 if UnitFactionGroup('player') == 'Alliance' then
-    map.intro = Intro({faction='Alliance', rewards={
+    map.intro = Intro({rewards={
         Quest({id={58496, 58498, 58502}}), Q
     }})
 else
-    map.intro = Intro({faction='Horde', rewards={
+    map.intro = Intro({rewards={
         Quest({id={58582, 58583}}), Q
     }})
 end

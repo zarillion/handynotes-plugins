@@ -205,6 +205,10 @@ function Node:Render(tooltip)
     local color, text
     local rlabel = self.rlabel or ''
 
+    if self.faction then
+        rlabel = rlabel..' '..ns.GetIconLink(self.faction:lower(), 16, 1, -1)
+    end
+
     if self.questCount and self.quest and #self.quest then
         -- set rlabel to a (completed / total) display for quest ids
         local count = 0
@@ -369,7 +373,7 @@ function Quest.getters:icon()
 end
 
 function Quest.getters:label()
-    return C_QuestLog.GetTitleForQuestID(self.quest[1])
+    return C_QuestLog.GetTitleForQuestID(self.quest[1]) or UNKNOWN
 end
 
 -------------------------------------------------------------------------------

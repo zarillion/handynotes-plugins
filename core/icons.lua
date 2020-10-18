@@ -63,6 +63,9 @@ ns.icons = { -- name => path
 
     ------------------------------ MISCELLANEOUS ------------------------------
 
+    alliance = {Icon('alliance'), nil},
+    horde = {Icon('horde'), nil},
+
     door_down = {Icon('door_down'), Glow('door_down')},
     envelope = {Icon('envelope'), Glow('envelope')},
     flight_point = {Icon('flight_point'), Glow('flight_point')},
@@ -82,8 +85,12 @@ local function GetIconPath(name)
     return info and info[1] or DEFAULT_ICON
 end
 
-local function GetIconLink(name, size)
-    return "|T"..GetIconPath(name)..":"..size..":"..size.."|t"
+local function GetIconLink(name, size, offsetX, offsetY)
+    local link = "|T"..GetIconPath(name)..":"..size..":"..size
+    if offsetX and offsetY then
+        link = link..':'..offsetX..':'..offsetY
+    end
+    return link.."|t"
 end
 
 local function GetGlowPath(name)
