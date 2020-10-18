@@ -25,9 +25,6 @@
 
 ## Zandalar
 
-* [Adventurer of Vol'dun](https://www.wowhead.com/achievement=12943/adventurer-of-voldun)
-* [Treasures of Vol'dun](https://www.wowhead.com/achievement=12849/treasures-of-voldun)
-
 ### Optional
 
 * [A Loa of a Tale](https://www.wowhead.com/achievement=13036/a-loa-of-a-tale)
