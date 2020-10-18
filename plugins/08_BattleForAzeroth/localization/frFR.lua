@@ -6,7 +6,6 @@ if not L then return end
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
-L["uldum"] = "Uldum"
 L["uldum_intro_note"] = "Complète la chaîne de quêtes d'introduction pour débloquer les monstres rares, les trésors et les quêtes d'assaut dans Uldum."
 
 L["aqir_flayer"] = "Il partage un spawn avec les Ouvriers de l'essaim aqir et les Faucheurs aqir."
@@ -75,7 +74,6 @@ L["unsealed_tomb"] = "Protect Heru from waves of mobs."
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
-L["vale"] = "Val de l'Éternel Printemps"
 L["vale_intro_note"] = "Complète la chaîne de quêtes d'introduction pour débloquer les monstres rares, les trésors et les quêtes d'assaut dans Val de l'Éternel Printemps."
 
 L["big_blossom_mine"] = "C'est l'intérieur de Mine du Grand Printemps. L'entrée est au nord-est."
@@ -140,7 +138,6 @@ L["void_skull_note"] = "Click the skull on the ground to loot the toy."
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
-L["voldun"] = "Vol'dun"
 L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
 L["options_icons_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
 L["options_icons_alpaca_voldun"] = "Elusive Quickhoof"

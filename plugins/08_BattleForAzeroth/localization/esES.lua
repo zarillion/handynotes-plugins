@@ -8,8 +8,6 @@ if not L then return end
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
-L["operation_mechagon"] = "Operación Mecandria"
-
 L["avenger_note"] = "Cuando {npc:155254} esté en Pernoóxido, mata al {npc:151159} que corre por toda la zona para hacer aparecer al {npc:151296}."
 L["beastbot_note"] = "Fabrica un {item:168045} en {npc:150359} para activar a la {npc:151933}."
 L["cogstar_note"] = "Mata {npc:154213} en cualquier sitio de la zona hasta que {npc:153228} se teleporte a ayudarlos."
@@ -167,7 +165,6 @@ L["shassera_cave"] = "Cueva de entrada a {npc:152552}."
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
-L["uldum"] = "Uldum"
 L["uldum_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los raros, tesoros y misiones de asalto en Uldum."
 
 L["aqir_flayer"] = "Comparte lugar de aparición con Trabajador Colmen'Ashi y Segador aqir."
@@ -241,7 +238,6 @@ L["unsealed_tomb"] = "Protege a Heru de las oleadas de enemigos."
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
-L["vale"] = "Valle de la Flor Eterna"
 L["vale_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los raros, tesoros y misiones de asalto en el Valle de la Flor Eterna."
 
 L["big_blossom_mine"] = "Está dentro de la Mina de la Gran Flor. La entrada está al noreste."
@@ -384,7 +380,6 @@ L["options_icons_visions_misc_desc"] = "Muestra las localizaciones de raros, jug
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
-L["voldun"] = "Vol'dun"
 L["elusive_alpaca"] = "Alimenta a la alpaca con Mezcla de Lechugas Costeras para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
 L["options_icons_alpaca_voldun_desc"] = "Muestra las localizaciones de aparición de la Pezuñapresta Esquiva."
 L["options_icons_alpaca_voldun"] = "Pezuñapresta Esquiva"

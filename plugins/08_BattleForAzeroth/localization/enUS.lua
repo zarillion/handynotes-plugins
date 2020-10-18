@@ -6,8 +6,6 @@ if not L then return end
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
-L["operation_mechagon"] = "Operation Mechagon"
-
 L["avenger_note"] = "When Oglethorpe Obnoticus is in Rustbolt, kill the OOX-Fleetfoot/MG (runs all over the zone) to spawn."
 L["beastbot_note"] = "Craft a Beastbot Powerpack at Pascal-K1N6 to activate."
 L["cogstar_note"] = "Kill Upgraded Sentry mobs anywhere in the zone until he teleports in to reinforce them."
@@ -15,7 +13,7 @@ L["crazed_trogg_note"] = "Use a spraybot, paint filled bladder or the bots in Bo
 L["deepwater_note"] = "Craft a Hundred-Fathom Lure at Pascal-K1N6 to summon."
 L["doppel_gang"] = "The Doppel Gang"
 L["doppel_note"] = 'Along with two other players, use a Pressure Relief Valve from the "Cogfrenzy\'s Construction Frenzy" daily to activate.'
-L["drill_rig"] = "Requires Drill Rig "
+L["drill_rig"] = "Requires Drill Rig"
 L["foul_manifest_note"] = "Connect all three circuit breakers to the pylons in the water."
 L["furor_note"] = 'During the "Aid From Nordrassil" daily quest, click the small blue mushrooms until he spawns.'
 L["killsaw_note"] = "Spawns anywhere in the Fleeting Forest, likely in response to killing Sawblade Clearcutters. Does not spawn on days when the Venture Company is in the forest and Clearcutters are not available."
@@ -176,7 +174,6 @@ L["zaamar_note"] = "Inside the Necropolis Catacombs, entrance to the south."
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
-L["uldum"] = "Uldum"
 L["uldum_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in Uldum."
 
 L["aqir_flayer"] = "Shares a spawn with Aqir Hive Workers and Aqir Reapers."
@@ -250,7 +247,6 @@ L["unsealed_tomb"] = "Protect Heru from waves of mobs."
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
-L["vale"] = "Vale of Eternal Blossoms"
 L["vale_intro_note"] = "Complete the introductory quest chain to unlock rares, treasures and assault quests in the Vale of Eternal Blossoms."
 
 L["big_blossom_mine"] = "Inside the Big Blossom Mine. Entrance to the north-east."
@@ -393,7 +389,8 @@ L["options_icons_visions_misc_desc"] = "Show rare, toy, potion and ethereal loca
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
-L["voldun"] = "Vol'dun"
+L["excavators_greed_note"] = "Inside a collapsed tunnel."
+
 L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
 L["options_icons_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."
 L["options_icons_alpaca_voldun"] = "Elusive Quickhoof"

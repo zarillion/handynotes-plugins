@@ -6,7 +6,6 @@ if not L then return end
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
-L["uldum"] = "Uldum"
 L["uldum_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los monstruos raros, tesoros y misiones de asalto en Uldum."
 
 L["aqir_flayer"] = "Comparte un spawn con Trabajador de la colmena aqir y Segador aqir."
@@ -34,7 +33,6 @@ L["amathet_reliquary"] = "Amathet Reliquary"
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
-L["vale"] = "Valle de la Flor Eterna"
 L["vale_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los monstruos raros, tesoros y misiones de asalto en Valle de la Flor Eterna."
 
 L["big_blossom_mine"] = "Está dentro del Big Blossom Mine. La entrada está al noreste."

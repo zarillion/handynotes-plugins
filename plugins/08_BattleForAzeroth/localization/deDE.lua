@@ -6,8 +6,6 @@ if not L then return end
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
-L["operation_mechagon"] = "Operation: Mechagon"
-
 L["avenger_note"] = "Wenn {npc:155254} in Rostbolzen anzutreffen ist, töte {npc:151159} (läuft überall in der Zone umher), um {npc:151296} erscheinen zu lassen."
 L["beastbot_note"] = "Stelle bei {npc:150359} eine {item:168045} her, um {npc:151933} zu aktivieren."
 L["cogstar_note"] = "Töte {npc:150667} überall in der Zone, bis {npc:155443} sich teleportiert, um sie zu verstärken."
@@ -165,7 +163,6 @@ L["shassera_cave"] = "Höhleneingang zu Shassera." --NPC:152552
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
-L["uldum"] = "Uldum"
 L["uldum_intro_note"] = "Schließe die Einführungsquestreihe ab, um in Uldum seltene Gegner, Schätze und Angriffsquests freizuschalten."
 
 L["aqir_flayer"] = "Teilt sich den spawn mit {npc:163114} und {npc:154365}."
@@ -239,7 +236,6 @@ L["unsealed_tomb"] = "Beschütze {npc:152439} vor Wellen von Gegnern."
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
-L["vale"] = "Tal der Ewigen Blüten"
 L["vale_intro_note"] = "Schließe die Einführungsquestreihe ab, um im Tal der Ewigen Blüten seltene Gegner, Schätze und Angriffsquests freizuschalten."
 
 L["big_blossom_mine"] = "In der Großblütenmine. \nEingang im Nordosten (70.0 58.4)."
@@ -382,7 +378,6 @@ L["options_icons_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, 
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
-L["voldun"] = "Vol'dun"
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
 L["options_icons_alpaca_voldun_desc"] = "Zeigt die Positionen für Schlüpfriger Flinkhuf an."
 L["options_icons_alpaca_voldun"] = "Schlüpfriger Flinkhuf"
