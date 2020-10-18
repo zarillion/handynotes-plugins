@@ -3,6 +3,21 @@ local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "deDE", false, true)
 if not L then return end
 --German translation by Dathwada EU-Eredar
 -------------------------------------------------------------------------------
+----------------------------------- DRUSTVAR ----------------------------------
+-------------------------------------------------------------------------------
+
+L["merchants_chest_note"] = "Töte {npc:137468}, um den {item:163710} zu erhalten."
+L["the_caterer_note"] = "Klicke die ruinierte Hochzeitstorte zum aktiviern an."
+L["wicker_pup_note"] = [[
+Kombiniere alle Gegenstände aus den vier Truhen zu einem {npc:143189}.
+
+• Zaubergeschützte: {item:163790}
+• Verzauberte: {item:163796}
+• Bezauberte: {item:163791}
+• Verhexte: {item:163789}
+]]
+
+-------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -12,7 +27,7 @@ L["cogstar_note"] = "Töte {npc:150667} überall in der Zone, bis {npc:155443} s
 L["crazed_trogg_note"] = "Verwende einen Sprühbot, mit Farbe gefüllte Blase oder die Bots in Bondos Hof um dich in der Farbe anzumalen die er ruft."
 L["deepwater_note"] = "Stelle bei {npc:150359} einen {item:167649} her, um {npc:151569} zu beschwören."
 L["doppel_gang"] = "Die Doppelgang"
-L["doppel_note"] = 'Verwende zusammen mit zwei anderen Spielern ein {item:169470} von der täglichen Quest "Wutritzels Konstruktionswahn", um die Doppelgang zu aktivieren.' --{quest:56405}
+L["doppel_note"] = 'Verwende zusammen mit zwei anderen Spielern ein {item:169470} von der täglichen Quest {quest:56405}, um die Doppelgang zu aktivieren.'
 L["drill_rig"] = "Benötigt die {npc:150306}"
 L["foul_manifest_note"] = "Verbinde alle drei Spulen mit den Pylonen im Wasser."
 L["furor_note"] = 'Klicke während der täglichen Quest "Hilfe von Nordrassil" die kleinen blauen Pilze an, bis {npc:151884} erscheint.'
@@ -20,7 +35,7 @@ L["killsaw_note"] = "Erscheint irgendwo im Weichenden Wald, als Reaktion auf das
 L["leachbeast_note"] = "Verwende eine {item:168961}, um die Wetteränderungsmaschine zu aktivieren."
 L["nullifier_note"] = 'Hack das "{npc:152174}", verwende entweder die {item:168435}s Lochkarte oder ein {item:168023}. Ersteres wird von {npc:151625} fallen gelassen, während letzteres von Gegnern fallen gelassen wird, die die {npc:150306} JD41 und JD99 angreifen.'
 L["scrapclaw_note"] = "Vor der Küste im Wasser"
-L["sparkqueen_note"] = 'Erscheint nur, wenn die tägliche Quest "Ungeziefer, in rauen Mengen!" verfügbar ist.' --{quest:55765}
+L["sparkqueen_note"] = 'Erscheint nur, wenn die tägliche Quest {quest:55765} verfügbar ist.'
 L["rusty_note"] = "Stelle bei {npc:150359} einen {item:169114} her, um die alternative Zukunft zu betretten. Erscheint nur, wenn {npc:153993} nicht in Rostbolzen anzutreffen ist."
 L["vaultbot_note"] = "Ziehe den {npc:150394} zu der {npc:73198} in Bondos Hof oder stelle bei {npc:150359} eine {item:167062} her, um ihn aufzubrechen."
 
@@ -158,6 +173,17 @@ L["blindlight_cave"] = "Höhleneingang zu Blindlicht." --NPC:152712
 L["caverndark_cave"] = "Höhleneingang zu Höhlendunkelschrecken." --NPC:152464
 L["chasmhaunt_cave"] = "Höhleneingang zu Schluchtschatten." --NPC:152556
 L["shassera_cave"] = "Höhleneingang zu Shassera." --NPC:152552
+
+-------------------------------------------------------------------------------
+------------------------------------ NAZMIR -----------------------------------
+-------------------------------------------------------------------------------
+
+L["captain_mukala_note"] = "Versuche die verfluchte Truhe zu plündern, um den Käpt'n erscheinen zu lassen."
+L["enraged_water_note"] = "Untersuchen die {npc:134295}, um den Elementar erscheinen zu lassen."
+L["lucille_note"] = "Sprich mit {npc:134297}, um {npc:134296} erscheinen zu lassen."
+L["offering_to_bwonsamdi_note"] = "Laufe am Baum hoch, um in das zerstörte Gebäude zu kommen."
+L["shambling_ambusher_note"] = "Versuche den {npc:124473} zu plündern, um den {npc:124475} zu aktivieren."
+L["zaamar_note"] = "In den Katakomben der Nekropole."
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -375,7 +401,30 @@ L["options_icons_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, 
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
+L["bloodwing_bonepicker_note"] = "Sammel {npc:136390} am Gipfel, um {npc:136393} erscheinen zu lassen."
+L["nezara_note"] = "Durchtrenne die vier Seile an den Pfählen, um {npc:128951} zu befreien."
+L["vathikur_note"] = "Töte {npc:126894}en, bis {npc:130401} erscheint."
+L["zunashi_note"] = "Der Eingang befindet sich im Norden, in dem Maul des großen Schädels."
+
+L["ashvane_spoils_note"] = "Fahre mit der {npc:132662} den Berg herunter, um die Schätze erscheinen zu lassen."
+L["excavators_greed_note"] = "In einem eingestürzten Tunnel."
+L["grayals_offering_note"] = "Nach dem Abschluss der Quest {quest:50702}, betritt Atul'Aman und klicke den uralten Altar an, um den Schatz erscheinen zu lassen."
+L["kimbul_offerings_note"] = "Auf dem Berg, über dem Tempel von Kimbul."
+L["sandsunken_note"] = "Klicke den zurückgelassenen Schwimmer an, um den Schatz aus dem Sand zu ziehen."
+
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
+
+-------------------------------------------------------------------------------
+---------------------------------- WARFRONTS ----------------------------------
+-------------------------------------------------------------------------------
+
+L["boulderfist_outpost"] = "Im Außenposten der Felsfäuste (eine große Höhle). Der Eingang befindet sich im nordosten."
+L["burning_goliath_note"] = "Wenn besiegt, wird ein {npc:141663} in der Nähe von {npc:141668} erscheinen."
+L["cresting_goliath_note"] = "Wenn besiegt, wird ein {npc:141658} in der Nähe von {npc:141668} erscheinen."
+L["rumbling_goliath_note"] = "Wenn besiegt, wird ein {npc:141659} in der Nähe von {npc:141668} erscheinen."
+L["thundering_goliath_note"] = "Wenn besiegt, wird ein {npc:141648} in der Nähe von {npc:141668} erscheinen."
+L["echo_of_myzrael_note"] = "Sobald alle vier elementaren Goliaths besiegt sind, wird {npc:141668} erscheinen."
+L["frightened_kodo_note"] = "Verschwindet nach ein paar Minuten wieder. Erscheint nach einem Serverneustart garantiert."
 
 -------------------------------------------------------------------------------
 ----------------------------------- ZULDAZAR ----------------------------------
