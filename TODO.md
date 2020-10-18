@@ -5,6 +5,7 @@
 * Sub-tooltips on hover to inspect items, spells and rewards
 * Add checkmark to completed nodes
 * Add list of map items to quest log panel (new tab?)
+* Add support for explicit focus/glow groups
 
 # Shadowlands
 
@@ -19,7 +20,6 @@
 # Battle for Azeroth
 
 * [Battle on Zandalar and Kul Tiras](https://www.wowhead.com/achievement=12936/battle-on-zandalar-and-kul-tiras)
-* Solve daily chest glows with some cloned, some not
 
 ## Zandalar
 
