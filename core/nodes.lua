@@ -48,11 +48,6 @@ function Node:Initialize(attrs)
         for k, v in pairs(attrs) do self[k] = v end
     end
 
-    -- verify chosen icon exists
-    if type(self.icon) == 'string' and ns.icons[self.icon] == nil then
-        error('unknown icon: '..self.icon)
-    end
-
     -- normalize quest ids as tables instead of single values
     for i, key in ipairs{'quest', 'questDeps'} do
         if type(self[key]) == 'number' then self[key] = {self[key]} end
@@ -180,6 +175,11 @@ world map containing this node is opened.
 --]]
 
 function Node:Prepare()
+    -- verify chosen icon exists
+    if type(self.icon) == 'string' and ns.icons[self.icon] == nil then
+        error('unknown icon: '..self.icon)
+    end
+
     -- initialize glow POI (if glow icon available)
     local glow = ns.GetGlowPath(self.icon)
     if glow then
