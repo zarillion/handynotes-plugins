@@ -20,7 +20,7 @@ L["moss_covered_chest"] = "Moss-Covered Chest"
 L["skull_covered_chest"] = "Skull-Covered Chest"
 L["smoldering_chest"] = "Smoldering Chest"
 L["sturdy_chest"] = "Sturdy Chest"
-L["sturdy_chest_note"] = "Hit an Highwind Albatross to get carried here."
+L["sturdy_chest_note"] = "Hit an {npc:73531} to get carried here."
 
 L["gleaming_treasure_satchel_note"] = "Walk on the ropes of the ship then jump on the pole where the satchel is hanging from."
 L["gleaming_treasure_chest_note"] = "Jump on the pillars to the treasure."
