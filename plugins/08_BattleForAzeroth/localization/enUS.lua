@@ -389,7 +389,16 @@ L["options_icons_visions_misc_desc"] = "Show rare, toy, potion and ethereal loca
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
+L["bloodwing_bonepicker_note"] = "Collect the {npc:136390} at the summit to summon the vulture."
+L["nezara_note"] = "Cut the ropes attached to all four {npc:128952}s to release the rare."
+L["vathikur_note"] = "Kill the {npc:126894}s to summon the rare."
+L["zunashi_note"] = "Entrance to the north in the mouth of a large skull."
+
+L["ashvane_spoils_note"] = "Ride the {npc:132662} down the hill to spawn the treasure at the bottom."
 L["excavators_greed_note"] = "Inside a collapsed tunnel."
+L["grayals_offering_note"] = "After completing {quest:50702}, enter Atul'Aman and click the Ancient Altar to spawn the treasure."
+L["kimbul_offerings_note"] = "On the hill above the Temple of Kimbul."
+L["sandsunken_note"] = "Click the Abandoned Bobber to pull the treasure out of the sand."
 
 L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
 L["options_icons_alpaca_voldun_desc"] = "Show locations for Elusive Quickhoof spawns."

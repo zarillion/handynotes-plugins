@@ -25,7 +25,7 @@ local map = Map({ id=864, settings=true })
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[50378160] = Rare({
+map.nodes[50328163] = Rare({
     id=135852,
     quest=51058,
     rewards={
@@ -34,7 +34,7 @@ map.nodes[50378160] = Rare({
     }
 }) -- Ak'tar
 
-map.nodes[54701517] = Rare({
+map.nodes[54701513] = Rare({
     id=130439,
     quest=47532,
     rewards={
@@ -43,11 +43,15 @@ map.nodes[54701517] = Rare({
     }
 }) -- Ashmane
 
-map.nodes[49058905] = Rare({
+map.nodes[49028903] = Rare({
     id=128553,
     quest=49252,
+    note=L["in_cave"],
     rewards={
         Achievement({id=12943, criteria=41608})
+    },
+    pois={
+        POI({47888819}) -- Cave entrance
     }
 }) -- Azer'tor
 
@@ -60,7 +64,7 @@ map.nodes[31008109] = Rare({
     }
 }) -- Bajiani the Slick
 
-map.nodes[49064989] = Rare({
+map.nodes[48855005] = Rare({
     id=129476,
     quest=47562,
     rewards={
@@ -69,16 +73,17 @@ map.nodes[49064989] = Rare({
     }
 }) -- Bloated Krolusk
 
-map.nodes[56105356] = Rare({
+map.nodes[56065359] = Rare({
     id=136393,
     quest=51079,
+    note=L["bloodwing_bonepicker_note"],
     rewards={
         Achievement({id=12943, criteria=41611}),
         Transmog({item=161019, slot=L["cloth"]}) -- Dread Vulture Waistcord
     }
 }) -- Bloodwing Bonepicker
 
-map.nodes[41272449] = Rare({
+map.nodes[41412410] = Rare({
     id=136346,
     quest=51073,
     rewards={
@@ -87,7 +92,7 @@ map.nodes[41272449] = Rare({
     }
 }) -- Captain Stef "Marrow" Quin
 
-map.nodes[42679245] = Rare({
+map.nodes[42519208] = Rare({
     id=124722,
     quest=50905,
     rewards={
@@ -96,7 +101,7 @@ map.nodes[42679245] = Rare({
     }
 }) -- Commodore Calhoun
 
-map.nodes[61853788] = Rare({
+map.nodes[61983783] = Rare({
     id=136335,
     quest=51077,
     rewards={
@@ -105,25 +110,30 @@ map.nodes[61853788] = Rare({
     }
 }) -- Enraged Krolusk
 
-map.nodes[64004757] = Rare({
+map.nodes[64014750] = Rare({
     id=128674,
     quest=49270,
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=12943, criteria=41615}),
         Transmog({item=161105, slot=L["mail"]}) -- Gluttonous Carnivore Treads
     }
 }) -- Gut-Gut the Glutton
 
-map.nodes[53685347] = Rare({
+map.nodes[53605373] = Rare({
     id=130443,
     quest=47533,
+    note=L["in_cave"],
     rewards={
         Achievement({id=12943, criteria=41616}),
         Transmog({item=161027, slot=L["leather"]}) -- Venomous Hivemother Cord
+    },
+    pois={
+        POI({53865150}) -- Cave entrance
     }
 }) -- Hivemother Kraxi
 
-map.nodes[37428498] = Rare({
+map.nodes[37408479] = Rare({
     id=129283,
     quest=49392,
     rewards={
@@ -141,34 +151,40 @@ map.nodes[60561801] = Rare({
     }
 }) -- Jungleweb Hunter
 
-map.nodes[35085183] = Rare({
+map.nodes[35065184] = Rare({
     id=128686,
     quest=50528,
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=12943, criteria=41619}),
         Transmog({item=161038, slot=L["plate"]}) -- Sand Trapper's Legguards
     }
 }) -- Kamid the Trapper
 
-map.nodes[38284138] = Rare({
+map.nodes[38284140] = Rare({
     id=137681,
     quest=51424,
+    note=L["in_cave"],
     rewards={
         Achievement({id=12943, criteria=41620}),
         Transmog({item=161108, slot=L["plate"]}) -- Kingshell Legplates
+    },
+    pois={
+        POI({37324051}) -- Cave entrance
     }
 }) -- King Clickyclack
 
-map.nodes[43758624] = Rare({
+map.nodes[43768623] = Rare({
     id=128951,
     quest=50898,
+    note=L["nezara_note"],
     rewards={
         Achievement({id=12943, criteria=41621}),
         Transmog({item=161024, slot=L["cloth"]}) -- Wrathful Sister's Cincture
     }
 }) -- Nez'ara
 
-map.nodes[49017210] = Rare({
+map.nodes[48987216] = Rare({
     id=136340,
     quest=51126,
     rewards={
@@ -186,7 +202,7 @@ map.nodes[44538023] = Rare({
     }
 }) -- Scaleclaw Broodmother
 
-map.nodes[32716522] = Rare({
+map.nodes[32706507] = Rare({
     id=136336,
     quest=51076,
     rewards={
@@ -195,7 +211,7 @@ map.nodes[32716522] = Rare({
     }
 }) -- Scorpox
 
-map.nodes[24736850] = Rare({
+map.nodes[24566845] = Rare({
     id=136338,
     quest=51075,
     rewards={
@@ -207,13 +223,17 @@ map.nodes[24736850] = Rare({
 map.nodes[46972518] = Rare({
     id=134571,
     quest=50637,
+    note=L["in_cave"],
     rewards={
         Achievement({id=12943, criteria=41626}),
         Transmog({item=160968, slot=L["staff"]}) -- Skycaller Spellstaff
+    },
+    pois={
+        POI({46312713}) -- Cave entrance
     }
 }) -- Skycaller Teskris
 
-map.nodes[51263645] = Rare({
+map.nodes[51293645] = Rare({
     id=134745,
     quest=50686,
     rewards={
@@ -231,16 +251,17 @@ map.nodes[66892446] = Rare({
     }
 }) -- Songstress Nahjeen
 
-map.nodes[57197349] = Rare({
+map.nodes[57317329] = Rare({
     id=130401,
     quest=49674,
+    note=L["vathikur_note"],
     rewards={
         Achievement({id=12943, criteria=41629}),
         Transmog({item=161097, slot=L["leather"]}) -- Rattling Earth Armwraps
     }
 }) -- Vathikur
 
-map.nodes[37084616] = Rare({
+map.nodes[37064605] = Rare({
     id=129180,
     quest=49373,
     rewards={
@@ -249,7 +270,7 @@ map.nodes[37084616] = Rare({
     }
 }) -- Warbringer Hozzik
 
-map.nodes[30115256] = Rare({
+map.nodes[30205256] = Rare({
     id=134638,
     quest=50662,
     rewards={
@@ -267,9 +288,10 @@ map.nodes[50713086] = Rare({
     }
 }) -- Warmother Captive
 
-map.nodes[43915405] = Rare({
+map.nodes[43905405] = Rare({
     id=129411,
     quest=48319,
+    note=L["in_cave"]..' '..L["zunashi_note"],
     rewards={
         Achievement({id=12943, criteria=41633}),
         Item({item=161119, note=L["trinket"]}) -- Ravasaur Skull Bijou
@@ -280,8 +302,16 @@ map.nodes[43915405] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+-- 47527542 50925
+-- 48338890 50920
+-- 49778730 51673
+-- 52613184 50917
+
+-------------------------------------------------------------------------------
+
 map.nodes[46598801] = Treasure({
     quest=50237,
+    note=L["ashvane_spoils_note"],
     rewards={
         Achievement({id=12849, criteria=40966})
     }
@@ -304,13 +334,18 @@ map.nodes[57746464] = Treasure({
 
 map.nodes[48186469] = Treasure({
     quest=51093,
+    note=L["grayals_offering_note"],
     rewards={
         Achievement({id=12849, criteria=40967})
+    },
+    pois={
+        POI({49076468}) -- Entrance
     }
 }) -- Grayal's Last Offering
 
 map.nodes[49787940] = Treasure({
     quest=51132,
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=12849, criteria=40968})
     }
@@ -318,6 +353,7 @@ map.nodes[49787940] = Treasure({
 
 map.nodes[57061121] = Treasure({
     quest=52992,
+    note=L["kimbul_offerings_note"],
     rewards={
         Achievement({id=12849, criteria=41002})
     }
@@ -330,8 +366,9 @@ map.nodes[47195846] = Treasure({
     }
 }) -- Sandfury Reserve
 
-map.nodes[26484534] = Treasure({
+map.nodes[26484535] = Treasure({
     quest=53004,
+    note=L["sandsunken_note"],
     rewards={
         Achievement({id=12849, criteria=41004})
     }
@@ -350,6 +387,12 @@ map.nodes[29388742] = Treasure({
         Achievement({id=12849, criteria=40972})
     }
 }) -- Zem'lan's Buried Treasure
+
+-------------------------------------------------------------------------------
+------------------------------ MUSHROOM HARVEST -------------------------------
+-------------------------------------------------------------------------------
+
+-- 61031832 143313 Portakillo
 
 -------------------------------------------------------------------------------
 ------------------------------ ELUSIVE QUICKHOOF ------------------------------
