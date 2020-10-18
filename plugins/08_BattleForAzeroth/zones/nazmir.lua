@@ -13,6 +13,8 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
 
+local POI = ns.poi.POI
+
 -------------------------------------------------------------------------------
 
 local map = Map({ id=863, settings=true })
@@ -309,6 +311,9 @@ map.nodes[38782676] = Rare({
     rewards={
         Achievement({id=12942, criteria=41476}),
         Transmog({item=161095, slot=L["leather"]}) -- Queensguard Specter Legwraps
+    },
+    pois={
+        POI({38772885}) -- Entrance
     }
 }) -- Za'amar the Queen's Blade
 

@@ -295,6 +295,9 @@ map.nodes[43905405] = Rare({
     rewards={
         Achievement({id=12943, criteria=41633}),
         Item({item=161119, note=L["trinket"]}) -- Ravasaur Skull Bijou
+    },
+    pois={
+        POI({43975252}) -- Entrance
     }
 }) -- Zunashi the Exile
 
