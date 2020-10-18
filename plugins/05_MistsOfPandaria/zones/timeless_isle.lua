@@ -4,7 +4,6 @@
 
 local ADDON_NAME, ns = ...
 local Class = ns.Class
-local Group = ns.Group
 local Map = ns.Map
 local L = ns.locale
 
@@ -500,7 +499,7 @@ map.nodes[54007820] = Treasure({
 -------------------------------------------------------------------------------
 
 map.nodes[49676941] = Treasure({
-    quest=32969, 
+    quest=32969,
     note=L["gleaming_treasure_chest_note"],
     icon="star_chest_g",
     scale=1.5,
