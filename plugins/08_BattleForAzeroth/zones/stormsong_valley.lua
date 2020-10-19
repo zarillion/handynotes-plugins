@@ -147,7 +147,7 @@ map.nodes[60641767] = Rare({
     id=154154,
     quest=57674, -- second quest 57726 ???
     rewards={
-        Pet({id=172493, id=2794}), -- Snarling Butterfly Crate
+        Pet({id=2794, item=172493}), -- Snarling Butterfly Crate
         Item({item=169944}), -- Minuscule Fez
         Item({item=169858}) -- "Bee Bee" Gun
     }
