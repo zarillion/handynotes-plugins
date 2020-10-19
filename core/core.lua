@@ -202,9 +202,15 @@ function Addon:RegisterWithHandyNotes()
 
     HandyNotes:RegisterPluginDB(ADDON_NAME, self, ns.options)
 
+    -- Refresh in any cases where node status may have changed
     self:RegisterBucketEvent({
-        "LOOT_CLOSED", "PLAYER_MONEY", "SHOW_LOOT_TOAST",
-        "SHOW_LOOT_TOAST_UPGRADE", "QUEST_TURNED_IN", "ZONE_CHANGED_NEW_AREA"
+        "CRITERIA_UPDATE",
+        "LOOT_CLOSED",
+        "PLAYER_MONEY",
+        "SHOW_LOOT_TOAST",
+        "SHOW_LOOT_TOAST_UPGRADE",
+        "QUEST_TURNED_IN",
+        "ZONE_CHANGED_NEW_AREA"
     }, 2, "Refresh")
 
     self:Refresh()

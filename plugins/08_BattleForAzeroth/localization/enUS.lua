@@ -186,6 +186,34 @@ L["shambling_ambusher_note"] = "Attempt to loot the {npc:124473} to activate the
 L["zaamar_note"] = "Inside the Necropolis Catacombs, entrance to the south."
 
 -------------------------------------------------------------------------------
+------------------------------- TIRAGARDE SOUND -------------------------------
+-------------------------------------------------------------------------------
+
+L["honey_slitherer_note"] = "Talk to {npc:137176} to summon the rare."
+L["tempestria_note"] = "Inspect the Suspicious Pile of Meat to summon the rare."
+L["twin_hearted_note"] = "Disturb the Ritual Effigy to activate the construct."
+L["wintersail_note"] = "Destroy the Smuggler's Cache to summon the captain."
+
+L["hay_covered_chest_note"] = "Ride the {npc:130350} down the road to {npc:131453} to spawn the treasure."
+L["pirate_treasure_note"] = [[
+Requires the corresponding treasure map.
+
+The maps drop from any pirate mobs in Kul Tiras. Freehold (open world) is a good place to farm pirates.
+]]
+
+local damp_note =  "\n\nRead all five scrolls to gain access to the treasure."
+
+L["damp_scroll"] = "A Damp Scroll"
+L["damp_scroll_note_1"] = "Entrance in Stormsong Monastery."..damp_note
+L["damp_scroll_note_2"] = "On the floor in a basement behind a {npc:136343}."..damp_note
+L["damp_scroll_note_3"] = "On the floor upstairs next to a {npc:136343}."..damp_note
+L["damp_scroll_note_4"] = "On the floor in a basement next to a {npc:136343}."..damp_note
+L["damp_scroll_note_5"] = "In a corner under the boardwalk."..damp_note
+L["ominous_altar"] = "Ominous Altar"
+L["ominous_altar_note"] = "Talk to the Ominous Altar to be teleported to the treasure."
+L["secret_of_the_depths_note"] = "Read all five Damp Scrolls, then talk to the Ominous Altar to teleport to the treasure."
+
+-------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 

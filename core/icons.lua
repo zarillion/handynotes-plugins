@@ -71,6 +71,7 @@ ns.icons = { -- name => path
     flight_point = {Icon('flight_point'), Glow('flight_point')},
     horseshoe = {Icon('horseshoe'), Glow('horseshoe')},
     left_mouse = {Icon('left_mouse'), nil},
+    scroll = {Icon('scroll'), Glow('scroll')},
     world_quest = {Icon('world_quest'), Glow('world_quest')},
 
 }
