@@ -38,9 +38,6 @@
 
 ## Kul Tiras
 
-* [Adventurer of Stormsong Valley](https://www.wowhead.com/achievement=12940/adventurer-of-stormsong-valley)
-* [Treasures of Stormsong Valley](https://www.wowhead.com/achievement=12853/treasures-of-stormsong-valley)
-
 ### Optional
 
 * [Drust the Facts, Ma'am](https://www.wowhead.com/achievement=13064/drust-the-facts-maam)

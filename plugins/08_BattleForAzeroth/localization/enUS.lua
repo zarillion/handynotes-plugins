@@ -186,6 +186,32 @@ L["shambling_ambusher_note"] = "Attempt to loot the {npc:124473} to activate the
 L["zaamar_note"] = "Inside the Necropolis Catacombs, entrance to the south."
 
 -------------------------------------------------------------------------------
+------------------------------- STORMSONG VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L["in_basement"] = "In the basement."
+L["jakala_note"] = "Talk to {npc:140925}."
+L["nestmother_acada_note"] = "Click on Acada's Nest to spawn the rare."
+L["sabertron_note"] = "Kill {npc:139334} to activate one of the {npc:139328}s."
+
+L["discarded_lunchbox_note"] = "In the building on top of the bookshelf."
+L["hidden_scholars_chest_note"] = "On the roof of the building."
+L["honey_vat"] =  "Honey Vat"
+L["smugglers_stash_note"] = "In the water under the platform."
+L["sunken_strongbox_note"] = "In the water under the ship."
+L["venture_co_supply_chest_note"] = "Climb up the ladder on the ship."
+L["weathered_treasure_chest_note"] = "The cave is hidden behind a cluster of trees."
+
+L["curious_grain_sack"] = "Curious Grain Sack"
+L["small_treasure_chest"] = "Small Treasure Chest"
+L["small_treasure_51927"] = "In the building under the stairs."
+L["small_treasure_51940"] = "In the building."
+
+L["these_hills_sing_note"] = "Open {item:160485} here. Buy then from {npc:138096} (Horde) or {npc:138221} (Alliance) or loot one from the \"Discarded Lunchbox\" treasure in Brennadam."
+
+L["ancient_tidesage_scroll"] = "Ancient Tidesage Scroll"
+
+-------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
 -------------------------------------------------------------------------------
 

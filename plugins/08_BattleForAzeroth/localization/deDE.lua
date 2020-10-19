@@ -186,6 +186,32 @@ L["shambling_ambusher_note"] = "Versuche den {npc:124473} zu plündern, um den {
 L["zaamar_note"] = "In den Katakomben der Nekropole."
 
 -------------------------------------------------------------------------------
+------------------------------- STORMSONG VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L["in_basement"] = "Im Keller."
+L["jakala_note"] = "Sprich mit {npc:140925}."
+L["nestmother_acada_note"] = "Klicke Acadas Nest an, um die Nestmutter erscheinen zu lassen."
+L["sabertron_note"] = "Töte den {npc:139334}, um einen der {npc:139328} zu aktivieren."
+
+L["discarded_lunchbox_note"] = "In dem Gebäude auf dem Bücherregal."
+L["hidden_scholars_chest_note"] = "Auf dem Dach des Gebäudes."
+L["honey_vat"] =  "Honigbottich"
+L["smugglers_stash_note"] = "Im Wasser unter dem Steg."
+L["sunken_strongbox_note"] = "Im Wasser unter dem Schiff."
+L["venture_co_supply_chest_note"] = "Kletter die Leiter am Schiff hinauf."
+L["weathered_treasure_chest_note"] = "In einer Höhle, die hinter einer Baumgruppe versteckt ist."
+
+L["curious_grain_sack"] = "Seltsamer Getreidesack"
+L["small_treasure_chest"] = "Kleine Schatztruhe"
+L["small_treasure_51927"] = "Im Gebäude unter der Treppe."
+L["small_treasure_51940"] = "Im Gebäude."
+
+L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei {npc:138096} (Horde) oder bei {npc:138221} (Allianz) gekauft werden oder aus dem Schatz \"Zurückgelassene Vesperdose\" in Brennadam geplündert werden."
+
+L["ancient_tidesage_scroll"] = "Uralte Schriftrolle der Gezeitenweisen"
+
+-------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
