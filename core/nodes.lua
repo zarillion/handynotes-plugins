@@ -189,8 +189,17 @@ function Node:Prepare()
 
     ns.PrepareLinks(self.label)
     ns.PrepareLinks(self.sublabel)
-    -- ns.PrepareLinks(self.requires)
     ns.PrepareLinks(self.note)
+
+    if self.requires then
+        for i, req in ipairs(self.requires) do
+            if IsInstance(req, Requirement) then
+                ns.PrepareLinks(req:GetText())
+            else
+                ns.PrepareLinks(req)
+            end
+        end
+    end
 end
 
 --[[

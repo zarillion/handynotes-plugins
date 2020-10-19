@@ -393,7 +393,7 @@ map.nodes[18515133] = Treasure({
 
 map.nodes[25751995] = Treasure({
     quest=53357,
-    requires='{item:163710}',
+    requires=ns.requirement.Item(163710),
     note=L["merchants_chest_note"],
     rewards={
         Achievement({id=12995, criteria=41698})
