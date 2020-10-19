@@ -83,7 +83,7 @@ function Achievement:Initialize(attrs)
     -- objects: {id=<number>, note=<string>}
     if type(self.criteria) == 'number' then
         self.criteria = {{id=self.criteria}}
-    else
+    elseif type(self.criteria) == 'table' then
         local crittab = {}
         for i, criteria in ipairs(self.criteria) do
             if type(criteria) == 'number' then
@@ -98,42 +98,51 @@ end
 
 function Achievement:IsObtained()
     if select(4, GetAchievementInfo(self.id)) then return true end
-    for i, c in ipairs(self.criteria) do
-        local _, _, completed = GetCriteriaInfo(self.id, c.id)
-        if not completed then return false end
+    if self.criteria then
+        for i, c in ipairs(self.criteria) do
+            local _, _, completed = GetCriteriaInfo(self.id, c.id)
+            if not completed then return false end
+        end
+        return true
     end
-    return true
+    return false
 end
 
 function Achievement:Render(tooltip)
     local _,name,_,completed,_,_,_,_,_,icon = GetAchievementInfo(self.id)
-    tooltip:AddLine(ACHIEVEMENT_COLOR_CODE..'['..name..']|r')
-    tooltip:AddTexture(icon, {margin={right=2}})
-    for i, c in ipairs(self.criteria) do
-        local cname,_,ccomp,qty,req = GetCriteriaInfo(self.id, c.id)
-        if (cname == '' or c.qty) then cname = qty..'/'..req end
+    if self.criteria then
+        tooltip:AddLine(ACHIEVEMENT_COLOR_CODE..'['..name..']|r')
+        tooltip:AddTexture(icon, {margin={right=2}})
+        for i, c in ipairs(self.criteria) do
+            local cname,_,ccomp,qty,req = GetCriteriaInfo(self.id, c.id)
+            if (cname == '' or c.qty) then cname = qty..'/'..req end
 
-        local r, g, b = .6, .6, .6
-        local ctext = "   • "..cname..(c.suffix or '')
-        if (completed or ccomp) then
-            r, g, b = 0, 1, 0
-        end
-
-        local note, status = c.note
-        if c.quest then
-            if C_QuestLog.IsQuestFlaggedCompleted(c.quest) then
-                status = ns.status.Green(L['defeated'])
-            else
-                status = ns.status.Red(L['undefeated'])
+            local r, g, b = .6, .6, .6
+            local ctext = "   • "..cname..(c.suffix or '')
+            if (completed or ccomp) then
+                r, g, b = 0, 1, 0
             end
-            note = note and (note..'  '..status) or status
-        end
 
-        if note then
-            tooltip:AddDoubleLine(ctext, note, r, g, b)
-        else
-            tooltip:AddLine(ctext, r, g, b)
+            local note, status = c.note
+            if c.quest then
+                if C_QuestLog.IsQuestFlaggedCompleted(c.quest) then
+                    status = ns.status.Green(L['defeated'])
+                else
+                    status = ns.status.Red(L['undefeated'])
+                end
+                note = note and (note..'  '..status) or status
+            end
+
+            if note then
+                tooltip:AddDoubleLine(ctext, note, r, g, b)
+            else
+                tooltip:AddLine(ctext, r, g, b)
+            end
         end
+    else
+        local status = completed and Green(L['completed']) or Red(L['incomplete'])
+        tooltip:AddDoubleLine(ACHIEVEMENT_COLOR_CODE..'['..name..']|r', status)
+        tooltip:AddTexture(icon, {margin={right=2}})
     end
 end
 

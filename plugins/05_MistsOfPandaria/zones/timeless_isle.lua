@@ -7,7 +7,8 @@ local Class = ns.Class
 local Map = ns.Map
 local L = ns.locale
 
-local Rare = ns.node.Rare
+local Node = ns.node.Node
+local NPC = ns.node.NPC
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -21,6 +22,24 @@ local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
+local Rare = Class('TimelessRare', ns.node.Rare)
+
+function Rare:Render(tooltip)
+    ns.node.Rare.Render(self, tooltip)
+
+    -- If two quests are given, the first is flipped the first time you ever
+    -- loot the rare and the second is the daily tracker. On the first day, you
+    -- can loot each rare twice.
+    if self.quest and #self.quest == 2 then
+        if not C_QuestLog.IsQuestFlaggedCompleted(self.quest[1]) then
+            tooltip:AddLine(' ')
+            tooltip:AddLine(ns.color.Orange(L["looted_twice"]), 1, 1, 1, true)
+        end
+    end
+end
+
+-------------------------------------------------------------------------------
+
 local map = Map({ id=554, settings=true })
 local lostspirits = Map({ id=555 }) -- Cavern of Lost Spirits
 
@@ -30,22 +49,32 @@ local lostspirits = Map({ id=555 }) -- Cavern of Lost Spirits
 
 map.nodes[34403250] = Rare({
     id=73666,
+    quest={33288, 33312},
+    note=L["archiereus_note"],
     rewards={
         Achievement({id=8714, criteria=31})
+    },
+    pois={
+        POI({42805480}) -- Mistweaver Ku
     }
 }) -- Archiereus of Flame
 
-map.nodes[64817465] = Rare({
+map.nodes[62097715] = Rare({
     id=72775,
+    quest={33276, 33301},
     rewards={
         Achievement({id=8714, criteria=23986}),
         Achievement({id=8728, criteria=24034}), -- Gulp Froglet
         Pet({id=1338, item=104169}) -- Gulp Froglet
+    },
+    pois={
+        POI({62097715, 63607260, 64807460, 65606980, 66806660}) -- Spawns
     }
 }) -- Bufo
 
 map.nodes[25063598] = Rare({
     id=72045,
+    quest={33318, 32966},
     note=L["chelon_note"],
     rewards={
         Achievement({id=8714, criteria=23974}),
@@ -54,8 +83,9 @@ map.nodes[25063598] = Rare({
     }
 }) -- Chelon
 
-map.nodes[65426021] = Rare({
+map.nodes[62384384] = Rare({
     id=73171,
+    quest={33274, 33299},
     rewards={
         Achievement({id=8714, criteria=23996}),
         Achievement({id=8728, criteria={24055, 24074}}), -- Blackflame Daggers, Big Bag of Herbs
@@ -72,6 +102,7 @@ map.nodes[65426021] = Rare({
 
 map.nodes[52954988] = Rare({
     id=73175,
+    quest={33286, 33310},
     rewards={
         Achievement({id=8714, criteria=23981}),
         Achievement({id=8728, criteria={24054, 24038}}), -- Falling Flame, Glowing Blue Ash
@@ -82,15 +113,21 @@ map.nodes[52954988] = Rare({
 
 map.nodes[43896989] = Rare({
     id=72049,
+    quest={33319, 32967},
+    note=L["cranegnasher_note"],
     rewards={
         Achievement({id=8714, criteria=23976}),
         Achievement({id=8728, criteria=24041}), -- Pristine Stalker Hide
         Item({item=104268}) -- Pristine Stalker Hide
+    },
+    pois={
+        POI({45238400}) -- Fishgorged Cranes
     }
 }) -- Cranegnasher
 
 map.nodes[26082283] = Rare({
     id=73281,
+    quest={33290, 33314},
     requires=ns.requirement.Item(104115),
     note=L["dread_ship_note"],
     rewards={
@@ -103,30 +140,54 @@ map.nodes[26082283] = Rare({
     }
 }) -- Dread Ship Vazuvius
 
-map.nodes[40704140] = Rare({
+map.nodes[30535067] = Rare({
     id=73158,
+    quest={33261, 33295},
     note=L["emerald_gander_note"],
     rewards={
         Achievement({id=8714, criteria=23967})
+    },
+    pois={
+        POI({
+            29465012, 30076178, 30185857, 30535067, 30584364, 31286682,
+            31386563, 31493965, 31517989, 31766262, 31958040, 32055222,
+            32424870, 36224036, 36638408, 38334073, 39476853, 40594355,
+            41074082, 42176766, 42706996, 44306167, 44755486, 45095358
+        })
     }
 }) -- Emerald Gander
 
 map.nodes[14215240] = Rare({
     id=73279,
+    quest={33289, 33313},
+    note=L["evermaw_note"],
     rewards={
         Achievement({id=8714, criteria=23990}),
         Item({item=104115}) -- Mist-Filled Spirit Lantern
     },
     pois={
         Path({
-            71018760, 59419760, 44619760, 24008281, 17606761, 14215240, 14013760,
-            19601481, 28810381, 45810321, 57810641, 66570900, 74411780, 80603421
+            33019113, 30568918, 28068714, 25608463, 23658160, 22107833,
+            20617473, 19057094, 17566721, 16116356, 14855997, 14375586,
+            14255183, 14174775, 14094376, 14003959, 13923549, 14083139,
+            15012764, 16212413, 17582050, 18941689, 20321337, 21931006,
+            24860678, 27530425, 30750261, 34290222, 37810248, 42060284,
+            45270305, 48090364, 51040433, 53980511, 56580581, 58950612,
+            61680640, 64120704, 64140707, 66320848, 68531052, 70571266,
+            72521474, 74181725, 75552016, 76852319, 78152623, 79212939,
+            80083238, 80963554, 81603881, 81664251, 81514619, 81384975,
+            81255324, 81035661, 80826003, 80626356, 80406708, 79597027,
+            78627337, 77667631, 76607942, 75448221, 73748450, 72078649,
+            70138864, 68099073, 66159267, 64269456, 62259625, 59859709,
+            57379739, 55019758, 52569771, 49929782, 47529798, 45119807,
+            42599776, 40289655, 38019499, 35819325, 33019113
         })
     }
 }) -- Evermaw
 
 map.nodes[44003400] = Rare({
     id=73172,
+    quest={33285, 33309},
     rewards={
         Achievement({id=8714, criteria=23995}),
         Achievement({id=8728, criteria=24053}), -- Ordon Death Chime
@@ -136,6 +197,7 @@ map.nodes[44003400] = Rare({
 
 map.nodes[64002700] = Rare({
     id=73282,
+    quest={33275, 33300},
     rewards={
         Achievement({id=8714, criteria=23982}),
         Achievement({id=8728, criteria=24027}), -- Ruby Droplet
@@ -143,8 +205,9 @@ map.nodes[64002700] = Rare({
     }
 }) -- Garnia
 
-map.nodes[62506350] = Rare({
+map.nodes[62086372] = Rare({
     id=72970,
+    quest={33291, 33315},
     rewards={
         Achievement({id=8714, criteria=23988}),
         Achievement({id=8728, criteria={24039, 24040}}), -- Odd Polished Stone, Glinting Pile of Stone
@@ -155,6 +218,7 @@ map.nodes[62506350] = Rare({
 
 map.nodes[24805500] = Rare({
     id=73161,
+    quest={33272, 33297},
     note=L["great_turtle_furyshell_note"],
     rewards={
         Achievement({id=8714, criteria=23969}),
@@ -162,23 +226,38 @@ map.nodes[24805500] = Rare({
         Toy({item=86584}) -- Hardened Shell
     },
     pois={
-        Path({26617241, 22416720, 23606281, 25376059, 25815741, 24805500, 24205050, 22014420})
+        Path({24134948, 23174726, 22024583, 21494263}),
+        Path({24807031, 23146803, 22816508, 22856185}),
+        POI({
+            20724295, 21966163, 22096756, 22286598, 22354287, 22355353,
+            22456783, 23155999, 23455775, 23584919, 23606338, 23665353,
+            24565808, 24785905, 25165270, 25605832, 25645600, 25765788,
+            25867230, 26045024
+        }) -- Stationary spawns
     }
 }) -- Great Turtle Furyshell
 
-map.nodes[38007500] = Rare({
+map.nodes[42387523] = Rare({
     id=72909,
+    quest={33260, 33294},
     rewards={
         Achievement({id=8714, criteria=23970}),
         Achievement({id=8728, criteria={24047, 24046}}), -- Swarmling of Gu'chi, Sticky Silkworm Goo
         Pet({id=1345, item=104291}), -- Swarmling of Gu'chi
         Item({item=104290}) -- Sticky Silkworm Goo
+    },
+    pois={
+        Path({
+            41467211, 40916989, 38847014, 36256953, 34197060, 31987059,
+            29937174, 31417454, 32287785, 33918004, 35928119, 38018272,
+            40198236, 40647913, 42387523, 41467211
+        })
     }
 }) -- Gu'chi the Swarmbringer
 
 map.nodes[65875660] = Rare({
     id=73167,
-    quest=33311,
+    quest={33287, 33311},
     rewards={
         Achievement({id=8714, criteria=23984}),
         Achievement({id=8728, criteria=24081}), -- Reins of the Thundering Onyx Cloud Serpent
@@ -186,26 +265,43 @@ map.nodes[65875660] = Rare({
     }
 }) -- Huolon
 
-map.nodes[38704140] = Rare({
+map.nodes[28764361] = Rare({
     id=73163,
+    quest={33278, 33303},
     note=L["imperial_python_note"],
     rewards={
         Achievement({id=8714, criteria=23989}),
         Achievement({id=8728, criteria=24029}), -- Death Adder Hatchling
         Pet({item=104161, id=1330}) -- Death Adder Hatchling
+    },
+    pois={
+        POI({
+            25914618, 27056896, 27656178, 28764361, 28916409, 29337383,
+            30563630, 30907608, 33674610, 34057420, 36397405, 44316581,
+            50684582, 53325823
+        })
     }
 }) -- Imperial Python
 
-map.nodes[36704140] = Rare({
+map.nodes[34046916] = Rare({
     id=73160,
+    quest={33270, 33296},
     note=L["ironfur_steelhorn_note"],
     rewards={
         Achievement({id=8714, criteria=23968})
+    },
+    pois={
+        POI({
+            27024610, 27564009, 29937026, 32044588, 32564426, 33236147,
+            33976228, 34046774, 34046916, 35026757, 35736952, 39976625,
+            41046615, 41203741, 43905468, 44785287, 46046378
+        })
     }
 }) -- Ironfur Steelhorn
 
-map.nodes[52008100] = Rare({
+map.nodes[53298314] = Rare({
     id=73169,
+    quest={33281, 33306},
     rewards={
         Achievement({id=8714, criteria=23994}),
         Achievement({id=8728, criteria=24068}), -- Warning Sign
@@ -215,6 +311,8 @@ map.nodes[52008100] = Rare({
 
 map.nodes[34088384] = Rare({
     id=72193,
+    quest={33258, 33292},
+    note=L["karkanos_note"],
     rewards={
         Achievement({id=8714, criteria=23973}),
         Achievement({id=8728, criteria=24079}), -- Giant Purse of Timeless Coins
@@ -224,6 +322,7 @@ map.nodes[34088384] = Rare({
 
 map.nodes[67614423] = Rare({
     id=73277,
+    quest={33273, 33298},
     rewards={
         Achievement({id=8714, criteria=23979}),
         Achievement({id=8728, criteria=24025}), -- Ashleaf Spriteling
@@ -231,8 +330,9 @@ map.nodes[67614423] = Rare({
     }
 }) -- Leafmender
 
-map.nodes[28027961] = Rare({
+map.nodes[18036202] = Rare({
     id=73166,
+    quest={33277, 33302},
     note=L["monstrous_spineclaw_note"],
     rewards={
         Achievement({id=8714, criteria=23985}),
@@ -240,15 +340,22 @@ map.nodes[28027961] = Rare({
         Pet({item=104168, id=1337}) -- Spineclaw Crab
     },
     pois={
-        Path({
-            68017423, 63217981, 61038492, 52328842, 44808961, 40419021, 35408701,
-            28027961, 25617460, 21817668, 19596572, 19074819, 19073855, 22613081
+        POI({
+            16103654, 16306071, 17377226, 17735384, 18036202, 18255509,
+            18355853, 18767563, 20394765, 20717747, 20797142, 21053567,
+            21153248, 21156353, 21913600, 22383043, 22793512, 23502794,
+            23713527, 24727504, 25357482, 27517472, 27768033, 29368443,
+            30743114, 33188564, 36068786, 40749101, 44778961, 52368699,
+            62138293, 62508013, 65707822, 67937803, 68907404, 69947106,
+            70466704, 71396302
         })
     }
 }) -- Monstrous Spineclaw
 
-map.nodes[61008860] = Rare({
+map.nodes[60768795] = Rare({
     id=72048,
+    quest=nil,
+    note=L["rattleskew_note"],
     rewards={
         Achievement({id=8714, criteria=23977}),
         Achievement({id=8728, criteria=24065}), -- Captain Zvezdan's Lost Leg
@@ -258,33 +365,41 @@ map.nodes[61008860] = Rare({
 
 local rockmoss = Rare({
     id=73157,
-    note=L["in_cave"],
+    quest={33283, 33307},
+    note=L["cavern_of_lost_spirits"],
     rewards={
         Achievement({id=8714, criteria=23980}),
         Achievement({id=8728, criteria=24063}), -- Golden Moss
         Item({item=104313, note=L["trinket"]}) -- Golden Moss
-    },
-    pois={
-        POI({43624055}) -- Cave Entrance
     }
 }) -- Rock Moss
 
-map.nodes[46003800] = rockmoss
+map.nodes[44843838] = ns.Clone(rockmoss, {pois={POI({43624055})}})
 lostspirits.nodes[42153233] = rockmoss
 
 map.nodes[59004880] = Rare({
     id=71864,
-    note=L["in_small_cave"].."\n"..L["spelurk_note"],
+    quest=32960, -- 33164
+    note=L["spelurk_note"],
     rewards={
         Achievement({id=8714, criteria=23975}),
         Achievement({id=8728, criteria=24064}), -- Cursed Talisman
         Item({item=104320}) -- Cursed Talisman
+    },
+    pois={
+        POI({
+            22403870, 25007190, 32006150, 32603280, 33805450, 37704110,
+            39607780, 42805540, 47308080, 48005120, 50407170, 52206260,
+            55107290, 55305030, 55605930, 63104530, 64507230, 65405170,
+            68406040
+        }) -- Lost Artifact locations
     }
 }) -- Spelurk
 
 local spirit = Rare({
     id=72769,
-    note=L["in_cave"],
+    quest={33259, 33293},
+    note=L["cavern_of_lost_spirits"],
     rewards={
         Achievement({id=8714, criteria=23978}),
         Achievement({id=8728, criteria={24060, 24037}}), -- Jadefire Spirit, Glowing Green Ash
@@ -292,15 +407,19 @@ local spirit = Rare({
         Item({item=104258}) -- Glowing Green Ash
     },
     pois={
-        POI({43624055}) -- Cave Entrance
+        POI({
+            48006094, 54797178, 55633192, 62283465, 65236484, 70776311,
+            74443334
+        }) -- Caverns spawns
     }
 }) -- Spirit of Jadefire
 
-map.nodes[44003800] = spirit
+map.nodes[42923838] = ns.Clone(spirit, {pois={POI({43624055})}})
 lostspirits.nodes[48116069] = spirit
 
-map.nodes[71588185] = Rare({
+map.nodes[71348293] = Rare({
     id=73704,
+    quest={33280, 33305},
     rewards={
         Achievement({id=8714, criteria=24144})
     }
@@ -308,6 +427,7 @@ map.nodes[71588185] = Rare({
 
 map.nodes[54094240] = Rare({
     id=72808,
+    quest={33279, 33304},
     note=L["in_small_cave"],
     rewards={
         Achievement({id=8714, criteria=23983}),
@@ -318,6 +438,7 @@ map.nodes[54094240] = Rare({
 
 map.nodes[43002500] = Rare({
     id=73173,
+    quest={33284, 33308},
     rewards={
         Achievement({id=8714, criteria=23993}),
         Achievement({id=8728, criteria=24059}), -- Sunset Stone
@@ -327,6 +448,7 @@ map.nodes[43002500] = Rare({
 
 map.nodes[57617660] = Rare({
     id=73170,
+    quest={33321, 33322}, -- 44696
     rewards={
         Achievement({id=8714, criteria=23992}),
         Achievement({id=8728, criteria=24058}), -- Ashen Stone
@@ -334,22 +456,9 @@ map.nodes[57617660] = Rare({
     }
 }) -- Watcher Osu
 
-local zarhym = Rare({
-    id=71876,
-    note=L["in_cave"],
-    rewards={
-        Achievement({id=8743, criteria=0}) -- review this
-    },
-    pois={
-        POI({43624055}) -- Cave Entrance
-    }
-}) -- Zarhym
-
-map.nodes[46004000] = zarhym
-lostspirits.nodes[53395699] = zarhym
-
 map.nodes[47008700] = Rare({
     id=72245,
+    quest={32997, 33316},
     rewards={
         Achievement({id=8714, criteria=23971}),
         Achievement({id=8728, criteria=24056}), -- Rain Stone
@@ -357,8 +466,10 @@ map.nodes[47008700] = Rare({
     }
 }) -- Zesqua
 
-map.nodes[37557731] = Rare({
+map.nodes[37797773] = Rare({
     id=71919,
+    quest={33317, 32959},
+    note=L["zhugon_note"],
     rewards={
         Achievement({id=8714, criteria=23972}),
         Achievement({id=8728, criteria=24032}), -- Skunky Alemental
@@ -416,16 +527,13 @@ map.nodes[29703180] = MossCoveredChest({ quest=33202 })
 local skullchest = Treasure({
     quest=33203,
     label=L["skull_covered_chest"],
-    note=L["in_cave"],
+    note=L["cavern_of_lost_spirits"],
     rewards={
         Achievement({id=8729, criteria=2})
-    },
-    pois={
-        POI({43624055}) -- Cave Entrance
     }
 }) -- Skull-Covered Chest
 
-map.nodes[42003800] = skullchest
+map.nodes[41674049] = ns.Clone(skullchest, {pois={POI({43624055})}})
 lostspirits.nodes[62853535] = skullchest
 
 map.nodes[47602760] = Treasure({
@@ -469,11 +577,11 @@ map.nodes[64607040] = Treasure({
 map.nodes[59204950] = Treasure({
     quest=33207,
     label=L["sturdy_chest"],
-    note=L["in_small_cave"].."\n"..L["spelurk_note"],
+    note=L["spelurk_cave"],
     icon="chest_bn",
     rewards={
         Achievement({id=8729, criteria=4})
-    }
+    },
 }) -- Sturdy Chest
 
 map.nodes[69503290] = Treasure({
@@ -495,7 +603,7 @@ map.nodes[54007820] = Treasure({
 }) -- Smoldering Chest
 
 -------------------------------------------------------------------------------
---------------------------- Extreme Treasure Hunter ---------------------------
+--------------------------- EXTREME TREASURE HUNTER ---------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[49676941] = Treasure({
@@ -537,7 +645,7 @@ map.nodes[58506010] = Treasure({
 }) -- Mist-Covered Treasure Chest
 
 -------------------------------------------------------------------------------
--------------------- Where There's Pirates, There's Booty ---------------------
+-------------------- WHERE THERE'S PIRATES, THERE'S BOOTY ---------------------
 -------------------------------------------------------------------------------
 
 map.nodes[22705890] = Treasure({
@@ -575,3 +683,31 @@ map.nodes[40409300] = Treasure({
         Toy({item=134024}) -- Cursed Swabby Helmet
     }
 }) -- Sunken Treasure
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[46177088] = Node({
+    quest=32961,
+    icon=132781,
+    label=L["neverending_spritewood"],
+    note=L["neverending_spritewood_note"],
+    rewards={
+        Achievement({id=8728, criteria=24028}), -- Dandelion Frolicker
+        Pet({item=104160, id=1329}) -- Dandelion Frolicker
+    }
+})
+
+local zarhym = NPC({
+    id=71876,
+    icon=133730,
+    quest=32962,
+    note=L["cavern_of_lost_spirits"]..' '..L["zarhym_note"],
+    rewards={
+        Achievement({id=8743}) -- Zarhym Altogether
+    }
+}) -- Zarhym
+
+map.nodes[46004049] = ns.Clone(zarhym, {pois={POI({43624055})}})
+lostspirits.nodes[53395699] = zarhym

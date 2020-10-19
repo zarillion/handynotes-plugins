@@ -189,6 +189,7 @@ function Node:Prepare()
 
     ns.PrepareLinks(self.label)
     ns.PrepareLinks(self.sublabel)
+    -- ns.PrepareLinks(self.requires)
     ns.PrepareLinks(self.note)
 end
 
@@ -398,7 +399,7 @@ function Rare:GetGlow()
     local glow = NPC.GetGlow(self)
     if glow then return glow end
 
-    if ns:GetOpt('development') and not self.quest then
+    if _G['HandyNotes_ZarPluginsDevelopment'] and not self.quest then
         local _, scale, alpha = self:GetDisplayInfo()
         self._glow.alpha = alpha
         self._glow.scale = scale
@@ -431,7 +432,7 @@ function Treasure:GetGlow()
     local glow = Node.GetGlow(self)
     if glow then return glow end
 
-    if ns:GetOpt('development') and not self.quest then
+    if _G['HandyNotes_ZarPluginsDevelopment'] and not self.quest then
         local _, scale, alpha = self:GetDisplayInfo()
         self._glow.alpha = alpha
         self._glow.scale = scale

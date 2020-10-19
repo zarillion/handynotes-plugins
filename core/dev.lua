@@ -29,6 +29,8 @@ if _G[plugins] == nil then _G[plugins] = {} end
 _G[plugins][#_G[plugins] + 1] = ns
 
 local function BootstrapDevelopmentEnvironment()
+    _G['HandyNotes_ZarPluginsDevelopment'] = true
+
     -- Add development settings to the UI
     ns.options.args.GeneralTab.args.DevelopmentHeader = {
         type = "header",
