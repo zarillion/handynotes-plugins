@@ -188,6 +188,34 @@ L["shambling_ambusher_note"] = "Intenta abrir el {npc:124473} para activar al {n
 L["zaamar_note"] = "Dentro de las Catacumbas de la Necrópolis, entrada al sur, te encontrarás con {npc:129657}."
 
 -------------------------------------------------------------------------------
+------------------------------- TIRAGARDE SOUND -------------------------------
+-------------------------------------------------------------------------------
+
+L["honey_slitherer_note"] = "Habla con {npc:137176} para invocar al {npc:137183}."
+L["tempestria_note"] = "Inspecciona el Montón de Carne Sospechosa para invocar a {npc:133356}."
+L["twin_hearted_note"] = "Molesta a la Efigie Ritual para activar el ensamblaje."
+L["wintersail_note"] = "Destruye el Alijo de Contrabandista para invocar al capitán."
+
+L["hay_covered_chest_note"] = "Monta al {npc:130350} camino abajo hasta {npc:131453} para hacer aparecer el tesoro."
+L["pirate_treasure_note"] = [[
+Requiere el mapa del tesoro correspondiente.
+
+Los mapas caen de cualquier pirata de Kul Tiras. Fuerte Libre (mundo abierto) es un buen lugar para matar piratas.
+]]
+
+local damp_note =  "\n\nLee los cinco pergaminos para ganar acceso al tesoro."
+
+L["damp_scroll"] = "Un Pergamino Húmedo"
+L["damp_scroll_note_1"] = "Entrada en Monasterio Canto Tormenta."..damp_note
+L["damp_scroll_note_2"] = "En el suelo de un sótano detrás del {npc:136343}."..damp_note
+L["damp_scroll_note_3"] = "En el suelo del piso de arriba junto al {npc:136343}."..damp_note
+L["damp_scroll_note_4"] = "En el suelo de un sótano junto al {npc:136343}."..damp_note
+L["damp_scroll_note_5"] = "En una esquina bajo el malecón."..damp_note
+L["ominous_altar"] = "Altar Agorero"
+L["ominous_altar_note"] = "Habla con el Altar Agorero para ser teleportado al tesoro."
+L["secret_of_the_depths_note"] = "Lee los cinco Pergaminos Húmedos, y entonces habla con el Altar Agorero para ser teleportado al tesoro."
+
+-------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
@@ -207,7 +235,7 @@ L["gersahl_note"] = "Alimenta a una Alpaca Amistosa siete veces para una montura
 L["gersahl"] = "Arbusto Gershal"
 L["hmiasma"] = "Atrae Putrefacción Rezumante y Bilis Enloquecedora al círculo azul donde está Miasma Hambriento para alimentarle. Cuando haya crecido lo suficiente se activará."
 L["kanebti"] = "Recoge Figurilla de Escarabajo con Joyas haciendo click en Escarabajo de Tumba con Joyas, los cuales comparten lugar de aparición con los Escarabajos de Tumba normales. Inserta la Figurilla en el Altar del Escarabajo para invocar el raro."
-L["left_eye"] = "Te da la mitad izquierda del juguete Ojos que todo lo ven."
+L["right_eye"] = "Te da la mitad derecha del juguete Ojos que todo lo ven."
 L["neferset_rare"] = "Los seis raros comparten los tres lugares de aparición en Neferset. Tras completar un número de veces el evento del Ritual de Invocación, aparecerán tres raros aleatorios."
 L["platform"] = "Aparece encima de la plataforma flotante."
 L["single_chest"] = "¡Este cofre aparece sólo en una localización! Si no está aquí, espera un poco y aparecerá."
@@ -269,7 +297,7 @@ L["guolai_left"] = "Está dentro de las Salas Guo-Lai (pasillo de la izquierda).
 L["guolai_center"] = "Está dentro de las Salas Guo-Lai (pasillo central)."
 L["guolai_right"] = "Está dentro de las Salas Guo-Lai (pasillo de la derecha)."
 L["pools_of_power"] = "Está dentro de las Pozas de Poder. La entrada está por La Pagoda Dorada."
-L["right_eye"] = "Te da la mitad derecha del juguete Ojos que todo lo ven."
+L["left_eye"] = "Te da la mitad izquierda del juguete Ojos que todo lo ven."
 L["tisiphon"] = "Haz click en la Caña de pescar de la suerte de Danielle."
 
 L["ambered_cache"] = "Alijo ámbar"
