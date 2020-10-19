@@ -39,9 +39,7 @@
 ## Kul Tiras
 
 * [Adventurer of Stormsong Valley](https://www.wowhead.com/achievement=12940/adventurer-of-stormsong-valley)
-* [Adventurer of Tiragarde Sound](https://www.wowhead.com/achievement=12939/adventurer-of-tiragarde-sound)
 * [Treasures of Stormsong Valley](https://www.wowhead.com/achievement=12853/treasures-of-stormsong-valley)
-* [Treasures of Tiragarde Sound](https://www.wowhead.com/achievement=12852/treasures-of-tiragarde-sound)
 
 ### Optional
 
