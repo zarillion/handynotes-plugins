@@ -212,6 +212,34 @@ L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei {npc:138
 L["ancient_tidesage_scroll"] = "Uralte Schriftrolle der Gezeitenweisen"
 
 -------------------------------------------------------------------------------
+------------------------------- TIRAGARDE SOUND -------------------------------
+-------------------------------------------------------------------------------
+
+L["honey_slitherer_note"] = "Sprich mit {npc:137176}, um den Gleiter zu beschwören."
+L["tempestria_note"] = "Untersuche den verdächtigen Fleischhaufen, um {npc:133356} zu beschwören."
+L["twin_hearted_note"] = "Zerstöre das Ritualabbild, um das {npc:131984} zu beschwören."
+L["wintersail_note"] = "\nZerstöre die Schugglerversteck Kisten, um den Kapitän zu beschwören."
+
+L["hay_covered_chest_note"] = "Reite auf dem {npc:130350} die Straße entlang zu {npc:131453}, um den Schatz erscheinen zu lassen."
+L["pirate_treasure_note"] = [[
+Benötigt die dazugehörige Schatzkarte.
+
+Die Karten werden von Piraten in Kul Tiras fallen gelassen. Freihafen (offene Welt) ist ein guter Ort zum farmen.
+]]
+
+local damp_note =  "\n\nLies alle fünf Schriftrollen, um zugang zum Schatz zu erhalten."
+
+L["damp_scroll"] = "Eine feuchte Schriftrolle"
+L["damp_scroll_note_1"] = "\nDer Eingang ist in der Sturmsangabtei.\nEin Skellet auf dem Boden hält diese vor dem Ominösen Altar in den Händen."..damp_note
+L["damp_scroll_note_2"] = "Auf dem Fußboden in einem Keller, hinter einem {npc:136343}."..damp_note
+L["damp_scroll_note_3"] = "Auf dem Fußboden die Treppe hoch, neben einem {npc:136343}."..damp_note
+L["damp_scroll_note_4"] = "Auf dem Fußboden in einem Keller, neben einem {npc:136343}."..damp_note
+L["damp_scroll_note_5"] = "In einer Ecke unter der Plattform."..damp_note
+L["ominous_altar"] = "Ominöser Altar"
+L["ominous_altar_note"] = "\nSprich mit dem Ominösen Altar, um zum Schatz teleportiert zu werden."
+L["secret_of_the_depths_note"] = "Lies alle fünf feuchten Schriftrollen und sprich dann mit dem Ominösen Altar, um zum Schatz teleportiert zu werden."
+
+-------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
@@ -231,9 +259,9 @@ L["gersahl_note"] = "Füttere siebenmal ein {npc:162765} damit, um es als Reitti
 L["gersahl"] = "Gersahlstrauch"
 L["hmiasma"] = "Töte Schleime in der Umgebung bis {npc:160623} aktiv wird."
 L["kanebti"] = "Sammle eine {item:168160} von einem Juwelenbesetzter Skarabäus, der sich einen spawn mit normalen Grabskarabäen teilt. Setze die Figur in den Skarabäusschrein ein, um {npc:152431} zu beschwören."
-L["left_eye"] = "Lässt die linke Hälfte des {item:175140} Spielzeugs fallen."
 L["neferset_rare"] = "Diese sechs Seltenen Gegner teilen sich die gleichen drei Spawnplätze in Neferset. Nachdem eine Reihe von Beschwörungsritual-Ereignissen abgeschlossen wurden, werden zufällig drei von ihnen erscheinen."
 L["platform"] = "Erscheint auf der schwebenden Plattform."
+L["right_eye"] = "\nLässt die rechte Hälfte des {item:175140} Spielzeugs fallen."
 L["single_chest"] = "Diese Truhe erscheint nur an einem Ort! Wenn sie nicht da ist, warte ein bisschen und sie wird wiedererscheinen."
 L["tomb_widow"] = "Wenn die weißen Eiersäcke an den Säulen vorhanden sind, töte die unsichtbaren {npc:157184}, um sie zu beschwören."
 L["uatka"] = "Klick zusammen mit zwei anderen Spielern auf jeweils ein  Mysteriöses Gerät. \nBenötigt ein {item:171208} aus einem Reliquiar der Amathet."
@@ -293,7 +321,6 @@ L["guolai_left"] = "In den Guo-Lai Hallen (linker Korridor)."
 L["guolai_center"] = "In den Guo-Lai Hallen (mittlerer Korridor)."
 L["guolai_right"] = "In den Guo-Lai Hallen (rechter Korridor)."
 L["pools_of_power"] = "Im Becken der Macht. \nEingang bei der Golden Pagode (57.4 38.0)."
-L["right_eye"] = "Lässt die rechte Hälfte des Allsehende Augen Spielzeugs fallen."
 L["tisiphon"] = "Klicke auf Danielles Glücksangelrute."
 
 L["ambered_cache"] = "Bernbesetzte Truhe"
@@ -317,6 +344,7 @@ L["font_corruption"] = "Drehe die Mogustatuen bis beide Strahlen die Rückseite 
 L["goldbough_guardian"] = "Beschütze {npc:156623} vor Wellen an Gegnern."
 L["infested_statue"] = "Ziehe alle Zuckenden Augen von der Statue."
 L["kunchong_incubator"] = "Zerstöre alle Feldgeneratoren."
+L["left_eye"] = "Lässt die linke Hälfte des {item:175140} Spielzeugs fallen."
 L["mantid_hatch"] = "Hebe den {spell:305301} auf und zerstöre die Larveninkubatoren."
 L["mending_monstro"] = "Zerstöre alle Heilbernkristalle."
 L["mystery_sacro"] = "Zerstöre alle Verdächtigen Grabsteine und töte dann die {npc:157298}."

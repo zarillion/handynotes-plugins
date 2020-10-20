@@ -6,6 +6,7 @@ if not L then return end
 ------------------------------------ GEAR -------------------------------------
 -------------------------------------------------------------------------------
 
+L["bag"] = "Tasche"
 L["cloth"] = "Stoff"
 L["leather"] = "Leder"
 L["mail"] = "Kette"
@@ -48,6 +49,7 @@ L["retrieving"] = "Gegenstandslink wird abgerufen ..."
 L["in_cave"] = "In einer Höhle."
 L["in_small_cave"] = "In einer kleinen Höhle."
 L["in_water_cave"] = "In einer Unterwasserhöhle."
+L["in_waterfall_cave"] = "In einer Höhle hinter einem Wasserfall."
 L["in_water"] = "Im Wasser."
 L["daily"] = "Täglich"
 L["weekly"] = "Wöchentlich"

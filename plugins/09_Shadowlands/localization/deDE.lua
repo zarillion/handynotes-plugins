@@ -212,7 +212,7 @@ L["xandrias_vigil"] = "Xandrias Wacht"
 
 L["chelicerae_note"] = "Zerstöre {npc:159885}, um {npc:159886} angreifen zu können."
 L["deepscar_note"] = "Kann in verschiedenen Eingängen vom Theater der Schmerzen erscheinen."
-L["forgotten_mementos"] = "Ziehe an der Vault Portcullis Chain in der Kammer westlich des Schatzes, um das Gatter zu öffnen." --review Blizzard translations
+L["forgotten_mementos"] = "Ziehe am Kerkerkettenzug in der Kammer westlich des Schatzes, um das Kerkerfallgatter zu öffnen."
 L["gieger_note"] = "Ziehe an {npc:162815}, um {npc:162741} zu aktivieren."
 L["gristlebeak_note"] = "Zerbrich jedes {npc:162761} in der Nähe, daraufhin wird {npc:162588} zu euch herunter geflogen kommen."
 L["leeda_note"] = "Töte die zwei {npc:162220} bis {npc:162180} erscheint."
