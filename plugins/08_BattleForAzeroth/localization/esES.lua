@@ -188,6 +188,32 @@ L["shambling_ambusher_note"] = "Intenta abrir el {npc:124473} para activar al {n
 L["zaamar_note"] = "Dentro de las Catacumbas de la Necrópolis, entrada al sur, te encontrarás con {npc:129657}."
 
 -------------------------------------------------------------------------------
+------------------------------- STORMSONG VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L["in_basement"] = "En el sótano."
+L["jakala_note"] = "Habla con {npc:140925}."
+L["nestmother_acada_note"] = "Haz click en el Nido de Acada para hacer aparecer a la {npc:138963}."
+L["sabertron_note"] = "Mata al {npc:139334} para activar uno de los {npc:139328}."
+
+L["discarded_lunchbox_note"] = "Dentro del edificio encima de la estantería más alta."
+L["hidden_scholars_chest_note"] = "Encima del techo del edificio."
+L["honey_vat"] =  "Tanque de Miel"
+L["smugglers_stash_note"] = "En el agua debajo de la plataforma."
+L["sunken_strongbox_note"] = "En el agua debajo del barco."
+L["venture_co_supply_chest_note"] = "Sube por la escalerilla a la cubierta del barco."
+L["weathered_treasure_chest_note"] = "La cueva está escondida detrás de un grupo de árboles."
+
+L["curious_grain_sack"] = "Saco de Grano Curioso"
+L["small_treasure_chest"] = "Cofre del Tesoro Pequeño"
+L["small_treasure_51927"] = "En el edificio debajo de las escaleras."
+L["small_treasure_51940"] = "En el edificio."
+
+L["these_hills_sing_note"] = "Abre {item:160485} aquí. Cómpraselo a {npc:138096} (Horda) o a {npc:138221} (Alianza) o despoja uno del tesoro \"Fiambrera desechada\" en Brennadam."
+
+L["ancient_tidesage_scroll"] = "Pergamino Antiguo de Sabiomar"
+
+-------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
 -------------------------------------------------------------------------------
 
