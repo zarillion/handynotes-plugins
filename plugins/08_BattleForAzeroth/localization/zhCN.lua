@@ -186,6 +186,32 @@ L["shambling_ambusher_note"] = "尝试拾取 {npc:124473} 来激活稀有。"
 L["zaamar_note"] = "在冥宫古墓内，入口在南侧。"
 
 -------------------------------------------------------------------------------
+------------------------------- STORMSONG VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L["in_basement"] = "在地下室。"
+L["jakala_note"] = "和 {npc:140925} 交谈。"
+L["nestmother_acada_note"] = "点击阿卡达之巢来刷新此稀有。"
+L["sabertron_note"] = "击杀 {npc:139334} 来激活 {npc:139328} 其中之一。"
+
+L["discarded_lunchbox_note"] = "建筑物内书架顶上。"
+L["hidden_scholars_chest_note"] = "建筑物屋顶上。"
+L["honey_vat"] =  "蜂蜜大桶"
+L["smugglers_stash_note"] = "平台下面水中。"
+L["sunken_strongbox_note"] = "船下面水中。"
+L["venture_co_supply_chest_note"] = "爬上船上的梯子。"
+L["weathered_treasure_chest_note"] = "此洞穴藏在一群树后面。"
+
+L["curious_grain_sack"] = "奇怪的谷物袋"
+L["small_treasure_chest"] = "小宝箱"
+L["small_treasure_51927"] = "建筑物内楼梯下。"
+L["small_treasure_51940"] = "建筑物内。"
+
+L["these_hills_sing_note"] = "在这里打开 {item:160485}。从 {npc:138096}（部落）或 {npc:138221}（联盟）购买或者从布伦纳丹的“被丢弃的午餐盒”拾取宝藏。"
+
+L["ancient_tidesage_scroll"] = "古代海潮贤者卷轴"
+
+-------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
 -------------------------------------------------------------------------------
 
