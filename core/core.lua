@@ -90,19 +90,18 @@ end
 
 function Addon:OnEnter(mapID, coord)
     local node = ns.maps[mapID].nodes[coord]
-    local tooltip = self:GetParent() == WorldMapButton and WorldMapTooltip or GameTooltip
 
     if self:GetCenter() > UIParent:GetCenter() then
-        tooltip:SetOwner(self, "ANCHOR_LEFT")
+        GameTooltip:SetOwner(self, "ANCHOR_LEFT")
     else
-        tooltip:SetOwner(self, "ANCHOR_RIGHT")
+        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     end
 
-    node:Render(tooltip)
+    node:Render(GameTooltip)
     node._hover = true
     ns.MinimapDataProvider:RefreshAllData()
     ns.WorldMapDataProvider:RefreshAllData()
-    tooltip:Show()
+    GameTooltip:Show()
 end
 
 function Addon:OnLeave(mapID, coord)
@@ -110,11 +109,7 @@ function Addon:OnLeave(mapID, coord)
     node._hover = false
     ns.MinimapDataProvider:RefreshAllData()
     ns.WorldMapDataProvider:RefreshAllData()
-    if self:GetParent() == WorldMapButton then
-        WorldMapTooltip:Hide()
-    else
-        GameTooltip:Hide()
-    end
+    GameTooltip:Hide()
 end
 
 function Addon:OnClick(button, down, mapID, coord)

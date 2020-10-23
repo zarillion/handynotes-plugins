@@ -75,9 +75,7 @@ read_globals = {
     'MapCanvasPinMixin',
     'Minimap',
     'UIParent',
-    'WorldMapButton',
     'WorldMapFrame',
-    'WorldMapTooltip',
 
     -- WoW Global variables
     'ACHIEVEMENT_COLOR_CODE',

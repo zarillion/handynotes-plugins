@@ -6,16 +6,28 @@ if not L then return end
 ----------------------------------- DRUSTVAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L["ancient_sarco_note"] = "Open the Ancient Sarcophagus to summon waves of {npc:128181}."
+L["beshol_note"] = "Open the Obviously Safe Chest to summon the rare."
+L["cottontail_matron_note"] = "Study the Beastly Ritual Skull to summon the rare."
+L["gluttonous_yeti_note"] = "This {npc:127979} is doomed ..."
+L["seething_cache_note"] = "Open the Seething Cache to summon waves of {npc:129031}."
+L["the_caterer_note"] = "Study the Ruined Wedding Cake to activate."
+L["vicemaul_note"] = "Click the {npc:127652} to reel in the rare."
+
 L["merchants_chest_note"] = "Kill the nearby {npc:137468} that is holding a keyring to acquire {item:163710}"
-L["the_caterer_note"] = "Use the Ruined Wedding Cake to activate."
 L["wicker_pup_note"] = [[
-Combine the items from all four chests to create a {npc:143189}.
+Light the inactive {npc:143609}es to activate the chest. Combine the items from all four chests to create a {npc:143189}.
 
 • Bespelled: {item:163790}
 • Enchanted: {item:163796}
 • Ensorcelled: {item:163791}
 • Hexed: {item:163789}
 ]]
+
+local runebound = "Activate the {npc:143688}s in the order shown on the metal plates behind the chest:\n\n"
+L["runebound_cache_note"] = runebound.."Left -> Bottom -> Top -> Right"
+L["runebound_chest_note"] = runebound.."Left -> Right -> Bottom -> Top"
+L["runebound_coffer_note"] = runebound.."Right -> Top -> Left -> Bottom"
 
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------

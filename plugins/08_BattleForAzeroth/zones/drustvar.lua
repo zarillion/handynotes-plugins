@@ -5,7 +5,6 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
-local Class = ns.Class
 
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -16,6 +15,7 @@ local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -26,7 +26,17 @@ local map = Map({ id=896, settings=true })
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[29056863] = Rare({
+map.nodes[41953647] = Rare({
+    id=128181,
+    quest=49137,
+    label=GetAchievementCriteriaInfoByID(12941, 41714),
+    note=L["in_small_cave"]..' '..L["ancient_sarco_note"],
+    rewards={
+        Achievement({id=12941, criteria=41714})
+    }
+}) -- Ancient Sarcophagus
+
+map.nodes[29226901] = Rare({
     id=137824,
     quest=51470,
     rewards={
@@ -35,7 +45,7 @@ map.nodes[29056863] = Rare({
     }
 }) -- Arclight
 
-map.nodes[34966921] = Rare({
+map.nodes[34886921] = Rare({
     id=137529,
     quest=51383,
     rewards={
@@ -44,7 +54,7 @@ map.nodes[34966921] = Rare({
     }
 }) -- Arvon the Betrayed
 
-map.nodes[43808828] = Rare({
+map.nodes[43768802] = Rare({
     id=137825,
     quest=51471,
     rewards={
@@ -53,34 +63,43 @@ map.nodes[43808828] = Rare({
     }
 }) -- Avalanche
 
-map.nodes[56572924] = Rare({
+map.nodes[55472882] = Rare({
     id=130143,
     quest=49602,
     rewards={
         Achievement({id=12941, criteria=41726}),
         Transmog({item=160475, slot=L["plate"]}) -- Barksnapper Girdle
+    },
+    pois={
+        Path({
+            55472882, 56102946, 56762915, 57662950, 58572980, 58932879,
+            59262784, 59182660, 58382635, 57652668, 56922702, 56352754,
+            55752805, 55472882
+        })
     }
 }) -- Balethorn
 
-map.nodes[58901790] = Rare({
+map.nodes[59101676] = Rare({
     id=127333,
     quest=48842,
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=12941, criteria=41708}),
         Transmog({item=155425, slot=L["fist"]}) -- Barbthorn Queen's Stinger
     }
 }) -- Barbthorn Queen
 
-map.nodes[51352957] = Rare({
+map.nodes[50543005] = Rare({
     id=129805,
     quest=49481,
+    note=L["in_small_cave"]..' '..L["beshol_note"],
     rewards={
         Achievement({id=12941, criteria=41722}),
         Transmog({item=158363, slot=L["cloth"]}) -- Spiderhair Circlet
     }
 }) -- Beshol
 
-map.nodes[59933466] = Rare({
+map.nodes[58463317] = Rare({
     id=124548,
     quest=47884,
     rewards={
@@ -89,7 +108,7 @@ map.nodes[59933466] = Rare({
     }
 }) -- Betsy
 
-map.nodes[35013320] = Rare({
+map.nodes[35053326] = Rare({
     id=132319,
     quest=50163,
     note=L["in_cave"],
@@ -111,7 +130,7 @@ map.nodes[66585068] = Rare({
     }
 }) -- Bonesquall
 
-map.nodes[26935962] = Rare({
+map.nodes[27635958] = Rare({
     id=139321,
     quest=51922,
     rewards={
@@ -120,35 +139,38 @@ map.nodes[26935962] = Rare({
     }
 }) -- Braedan Whitewall
 
-map.nodes[27561421] = Rare({
+map.nodes[27561420] = Rare({
     id=135796,
     quest=50939,
     rewards={
         Achievement({id=12941, criteria=41730}),
         Transmog({item=160450, slot=L["gun"]}) -- Leadshot Heavy Rifle
+    },
+    pois={
+        Path({28301415, 27561420, 26781427})
     }
 }) -- Captain Leadfist
-
--- 26771428, 28261417
 
 map.nodes[52074697] = Rare({
     id=129904,
     quest=49216,
+    note=L["in_small_cave"]..' ' ..L["cottontail_matron_note"],
     rewards={
         Achievement({id=12941, criteria=41715})
     }
 }) -- Cottontail Matron
 
-map.nodes[18746057] = Rare({
+map.nodes[18716138] = Rare({
     id=134706,
     quest=50669,
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=12941, criteria=42342}),
         Item({item=158555, note=L["trinket"]}) -- Doom Shroom
     }
 }) -- Deathcap
 
-map.nodes[63414020] = Rare({
+map.nodes[63404009] = Rare({
     id=129995,
     quest=49530,
     rewards={
@@ -157,7 +179,7 @@ map.nodes[63414020] = Rare({
     }
 }) -- Emily Mayville
 
-map.nodes[31011831] = Rare({
+map.nodes[30881839] = Rare({
     id=134213,
     quest=50546,
     rewards={
@@ -166,31 +188,28 @@ map.nodes[31011831] = Rare({
     }
 }) -- Executioner Blackwell
 
-local FungiTrio = Class('FungiTrio', Rare)
-
-function FungiTrio.getters:label ()
-    return GetAchievementCriteriaInfoByID(12941, 41748) or UNKNOWN
-end
-
-map.nodes[24322194] = FungiTrio({
+map.nodes[24462195] = Rare({
     id=138866,
     quest=51749,
+    label=GetAchievementCriteriaInfoByID(12941, 41748),
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=12941, criteria=41748}),
         Transmog({item=154217, slot=L["dagger"]}) -- Pearly-White Jackknife
     }
 }) -- Fungi Trio
 
-map.nodes[62956938] = Rare({
+map.nodes[63036963] = Rare({
     id=127844,
     quest=48979,
+    note=L["gluttonous_yeti_note"],
     rewards={
         Achievement({id=12941, criteria=41712}),
         Transmog({item=158683, slot=L["shield"]}) -- Giant Yeti's Bowl
     }
 }) -- Gluttonous Yeti
 
-map.nodes[57424380] = Rare({
+map.nodes[57124431] = Rare({
     id=129835,
     quest=49480,
     rewards={
@@ -208,7 +227,7 @@ map.nodes[28002593] = Rare({
     }
 }) -- Gorged Boar
 
-map.nodes[50842040] = Rare({
+map.nodes[50332063] = Rare({
     id=127129,
     quest=49388,
     rewards={
@@ -217,7 +236,7 @@ map.nodes[50842040] = Rare({
     }
 }) -- Grozgore
 
-map.nodes[24043025] = Rare({
+map.nodes[24073029] = Rare({
     id=138618,
     quest=51698,
     rewards={
@@ -226,7 +245,7 @@ map.nodes[24043025] = Rare({
     }
 }) -- Haywire Golem
 
-map.nodes[22934796] = Rare({
+map.nodes[22934948] = Rare({
     id=134754,
     quest=50688,
     rewards={
@@ -244,7 +263,7 @@ map.nodes[59245526] = Rare({
     }
 }) -- Longfang & Henry Breakwater
 
-map.nodes[59874478] = Rare({
+map.nodes[59934547] = Rare({
     id=130138,
     quest=49601,
     rewards={
@@ -253,7 +272,7 @@ map.nodes[59874478] = Rare({
     }
 }) -- Nevermore
 
-map.nodes[66574259] = Rare({
+map.nodes[66574273] = Rare({
     id=125453,
     quest=48178,
     rewards={
@@ -262,16 +281,28 @@ map.nodes[66574259] = Rare({
     }
 }) -- Quillrat Matriarch
 
-map.nodes[59557181] = Rare({
+map.nodes[59617183] = Rare({
     id=128707,
     quest=49269,
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=12941, criteria=41717}),
         Transmog({item=158345, slot=L["mail"]}) -- Coldsnap Pauldrons
     }
 }) -- Rimestone
 
-map.nodes[33245765] = Rare({
+map.nodes[67986688] = Rare({
+    id=129031,
+    quest=49341,
+    label=GetAchievementCriteriaInfoByID(12941, 41719),
+    note=L["seething_cache_note"],
+    rewards={
+        Achievement({id=12941, criteria=41719}),
+        Item({item=158598, note=L["ring"]}) -- Band of Seething Manifest
+    }
+}) -- Seething Cache
+
+map.nodes[32985711] = Rare({
     id=138863,
     quest=51748,
     rewards={
@@ -280,7 +311,7 @@ map.nodes[33245765] = Rare({
     }
 }) -- Sister Martha
 
-map.nodes[32204036] = Rare({
+map.nodes[31934061] = Rare({
     id=129950,
     quest=49528,
     rewards={
@@ -298,16 +329,17 @@ map.nodes[25101624] = Rare({
     }
 }) -- The Caterer
 
-map.nodes[72786036] = Rare({
+map.nodes[72856047] = Rare({
     id=127651,
     quest=48928,
+    note=L["vicemaul_note"],
     rewards={
         Achievement({id=12941, criteria=41709}),
         Transmog({item=160474, slot=L["plate"]}) -- Vicemaul Wristpinchers
     }
 }) -- Vicemaul
 
-map.nodes[65002266] = Rare({
+map.nodes[64952147] = Rare({
     id=128973,
     quest=49311,
     rewards={
@@ -316,7 +348,7 @@ map.nodes[65002266] = Rare({
     }
 }) -- Whargarble the Ill-Tempered
 
-map.nodes[30476344] = Rare({
+map.nodes[29506410] = Rare({
     id=139322,
     quest=51923,
     rewards={
@@ -325,29 +357,20 @@ map.nodes[30476344] = Rare({
     }
 }) -- Whitney "Steelclaw" Ramsay
 
--- map.nodes[43463611] = Rare({
---     id=nil,
---     quest=49137,
---     rewards={
---         Achievement({id=12941, criteria=41714})
---     }
--- }) -- Ancient Sarcophagus
-
--- map.nodes[67936683] = Rare({
---     id=nil,
---     quest=49341,
---     rewards={
---         Achievement({id=12941, criteria=41719}),
---         Item({item=158598, note=L["ring"]}) -- Band of Seething Manifest
---     }
--- }) -- Seething Cache
-
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+-- 18245922 51912
+-- 26673167 51907
+-- 28255916 51913
 -- 29872746 51907
 -- 32001821 box despawned on approach
+-- 34311949 51902
+-- 58963042 51875
+-- 64706195 51896
+-- 69576674 51899
+-- 72046008 51899
 
 -------------------------------------------------------------------------------
 
@@ -361,9 +384,9 @@ map.nodes[55605181] = Treasure({
     }
 }) -- Bespelled Chest
 
-map.nodes[25382349] = Treasure({
+map.nodes[25452417] = Treasure({
     quest=53474,
-    note=L["wicker_pup_note"],
+    note=L["in_small_cave"]..' '..L["wicker_pup_note"],
     rewards={
         Achievement({id=12995, criteria=41705}),
         Item({item=163796}), -- Wolf Pup Spine
@@ -396,12 +419,14 @@ map.nodes[25751995] = Treasure({
     requires=ns.requirement.Item(163710),
     note=L["merchants_chest_note"],
     rewards={
-        Achievement({id=12995, criteria=41698})
+        Achievement({id=12995, criteria=41698}),
+        Item({item=163036, note='x5'})
     }
 }) -- Merchant's Chest
 
 map.nodes[63306585] = Treasure({
     quest=53385,
+    note=L["in_small_cave"]..' '..L["runebound_cache_note"],
     rewards={
         Achievement({id=12995, criteria=41699}),
         Item({item=163743}) -- Drust Soulcatcher
@@ -410,6 +435,7 @@ map.nodes[63306585] = Treasure({
 
 map.nodes[44222770] = Treasure({
     quest=53386,
+    note=L["runebound_chest_note"],
     rewards={
         Achievement({id=12995, criteria=41700}),
         Toy({item=163742}) -- Heartsbane Grimoire
@@ -418,16 +444,19 @@ map.nodes[44222770] = Treasure({
 
 map.nodes[33687173] = Treasure({
     quest=53387,
+    note=L["runebound_coffer_note"],
     rewards={
         Achievement({id=12995, criteria=41701}),
         Toy({item=163740}) -- Drust Ritual Knife
     }
 }) -- Runebound Coffer
 
-map.nodes[24304840] = Treasure({
+map.nodes[24264830] = Treasure({
     quest=53475,
+    note=L["in_small_cave"],
     rewards={
-        Achievement({id=12995, criteria=41752})
+        Achievement({id=12995, criteria=41752}),
+        Item({item=163036, note='x5'})
     }
 }) -- Stolen Thornspeaker Cache
 
