@@ -10,6 +10,7 @@ L["merchants_chest_note"] = "Kill the nearby {npc:137468} that is holding a keyr
 L["the_caterer_note"] = "Use the Ruined Wedding Cake to activate."
 L["wicker_pup_note"] = [[
 Combine the items from all four chests to create a {npc:143189}.
+
 • Bespelled: {item:163790}
 • Enchanted: {item:163796}
 • Ensorcelled: {item:163791}
