@@ -109,6 +109,8 @@ L["options_toggle_hide_done_rare"] = "Hide rare, if all loot known"
 L["options_toggle_hide_done_rare_desc"] = "Hide all rares for which all loot is known."
 L["options_toggle_hide_minimap"] = "Hide all icons on the minimap"
 L["options_toggle_hide_minimap_desc"] = "Hides all icons from this addon on the minimap and displays them only on the main map."
+L["options_toggle_use_char_achieves"] = "Use character achievements"
+L["options_toggle_use_char_achieves_desc"] = "Display achievement progress for this character instead of the overall account."
 L["options_restore_hidden_nodes"] = "Restore hidden nodes"
 L["options_restore_hidden_nodes_desc"] = "Restore all nodes hidden using the right-click context menu."
 

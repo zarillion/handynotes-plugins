@@ -117,7 +117,7 @@ local function RenderLinks(str, nameOnly)
                 return '|T'..icon..':0:0:1:-1|t '..spell
             end
         elseif type == 'wq' then
-            return ns.GetIconLink('world_quest', 16)..ns.color.Yellow(id)
+            return ns.GetIconLink('world_quest', 16, 0, -1)..ns.color.Yellow(id)
         end
         return type..'+'..id
     end)

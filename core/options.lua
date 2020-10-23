@@ -15,6 +15,7 @@ ns.optionDefaults = {
         hide_done_rares = false,
         hide_minimap = false,
         show_completed_nodes = false,
+        use_char_achieves = false,
 
         -- tooltip
         show_loot = true,
@@ -107,11 +108,19 @@ ns.options = {
                     order = 13,
                     width = "full",
                 },
+                use_char_achieves = {
+                    type = "toggle",
+                    arg = "use_char_achieves",
+                    name = L["options_toggle_use_char_achieves"],
+                    desc = L["options_toggle_use_char_achieves_desc"],
+                    order = 14,
+                    width = "full",
+                },
                 restore_all_nodes = {
                     type = "execute",
                     name = L["options_restore_hidden_nodes"],
                     desc = L["options_restore_hidden_nodes_desc"],
-                    order = 14,
+                    order = 15,
                     width = "full",
                     func = function ()
                         wipe(ns.addon.db.char)

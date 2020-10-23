@@ -97,7 +97,9 @@ function Achievement:Initialize(attrs)
 end
 
 function Achievement:IsObtained()
-    if select(4, GetAchievementInfo(self.id)) then return true end
+    local _,_,_,completed,_,_,_,_,_,_,_,_,earnedByMe = GetAchievementInfo(self.id)
+    completed = completed and (not ns:GetOpt('use_char_achieves') or earnedByMe)
+    if completed then return true end
     if self.criteria then
         for i, c in ipairs(self.criteria) do
             local _, _, completed = GetCriteriaInfo(self.id, c.id)
@@ -109,7 +111,8 @@ function Achievement:IsObtained()
 end
 
 function Achievement:Render(tooltip)
-    local _,name,_,completed,_,_,_,_,_,icon = GetAchievementInfo(self.id)
+    local _,name,_,completed,_,_,_,_,_,icon,_,_,earnedByMe = GetAchievementInfo(self.id)
+    completed = completed and (not ns:GetOpt('use_char_achieves') or earnedByMe)
     if self.criteria then
         tooltip:AddLine(ACHIEVEMENT_COLOR_CODE..'['..name..']|r')
         tooltip:AddTexture(icon, {margin={right=2}})

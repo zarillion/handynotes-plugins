@@ -100,6 +100,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         end
 
         UIDropDownMenu_AddSeparator()
+
         UIDropDownMenu_AddButton({
             text = L["options_show_completed_nodes"],
             isNotRadio = true,
@@ -107,6 +108,16 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             checked = ns:GetOpt('show_completed_nodes'),
             func = function (button, option)
                 ns:SetOpt('show_completed_nodes', button.checked)
+            end
+        })
+
+        UIDropDownMenu_AddButton({
+            text = L["options_toggle_use_char_achieves"],
+            isNotRadio = true,
+            keepShownOnClick = true,
+            checked = ns:GetOpt('use_char_achieves'),
+            func = function (button, option)
+                ns:SetOpt('use_char_achieves', button.checked)
             end
         })
     elseif level == 2 then
