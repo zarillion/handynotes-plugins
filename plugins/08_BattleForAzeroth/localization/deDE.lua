@@ -6,16 +6,28 @@ if not L then return end
 ----------------------------------- DRUSTVAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L["merchants_chest_note"] = "Töte {npc:137468}, um den {item:163710} zu erhalten."
+L["ancient_sarco_note"] = "Öffne den uralten Sarkophag, um Wellen von {npc:128181} zu beschwören."
+L["beshol_note"] = "Öffne die offensichtlich sichere Truhe, um den seltenen Gegner erscheinen zu lassen."
+L["cottontail_matron_note"] = "Untersuche den abscheulichen Ritualschädel, um den seltenen Gegner erscheinen zu lassen."
+L["gluttonous_yeti_note"] = "Diese {npc:127979} ist verflucht ..."
+L["seething_cache_note"] = "Öffne die brodelnde Truhe, um Wellen von {npc:129031} zu beschwören."
 L["the_caterer_note"] = "Klicke die ruinierte Hochzeitstorte zum aktiviern an."
+L["vicemaul_note"] = "Klicke die {npc:127652} an, um den seltenen Gegner an Land zu ziehen."
+
+L["merchants_chest_note"] = "Töte {npc:137468}, um den {item:163710} zu erhalten."
 L["wicker_pup_note"] = [[
-Kombiniere alle Gegenstände aus den vier Truhen zu einem {npc:143189}.
+Zünde die {npc:143609}n an, um die Kiste plündern zu können. Kombiniere alle Gegenstände aus den vier Truhen zu einem {npc:143189}.
 
 • Zaubergeschützte: {item:163790}
 • Verzauberte: {item:163796}
 • Bezauberte: {item:163791}
 • Verhexte: {item:163789}
 ]]
+
+local runebound = "Aktiviere den {npc:143688} in der Reihenfolge, die auf der Metallplatten hinter der Truhe angegeben ist:\n\n"
+L["runebound_cache_note"] = runebound.."links -> unten -> oben -> rechts"
+L["runebound_chest_note"] = runebound.."links -> rechts -> unten -> oben"
+L["runebound_coffer_note"] = runebound.."rechts -> oben -> links -> unten"
 
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
@@ -191,8 +203,9 @@ L["zaamar_note"] = "In den Katakomben der Nekropole."
 
 L["in_basement"] = "Im Keller."
 L["jakala_note"] = "Sprich mit {npc:140925}."
-L["nestmother_acada_note"] = "Klicke Acadas Nest an, um die Nestmutter erscheinen zu lassen."
+L["nestmother_acada_note"] = "Untersuche Acadas Nest, um die Nestmutter erscheinen zu lassen."
 L["sabertron_note"] = "Töte den {npc:139334}, um einen der {npc:139328} zu aktivieren."
+L["whiplash_note"] = "Erscheint nur, wenn die Weltquest {wq:Whiplash} aktiv ist."
 
 L["discarded_lunchbox_note"] = "In dem Gebäude auf dem Bücherregal."
 L["hidden_scholars_chest_note"] = "Auf dem Dach des Gebäudes."
@@ -200,16 +213,20 @@ L["honey_vat"] =  "Honigbottich"
 L["smugglers_stash_note"] = "Im Wasser unter dem Steg."
 L["sunken_strongbox_note"] = "Im Wasser unter dem Schiff."
 L["venture_co_supply_chest_note"] = "Kletter die Leiter am Schiff hinauf."
-L["weathered_treasure_chest_note"] = "In einer Höhle, die hinter einer Baumgruppe versteckt ist."
+L["weathered_treasure_chest_note"] = "In einer versteckten Höhle. Es gibt drei Eingänge, jeder davon ist hinter einer Baumgruppe versteckt."
 
 L["curious_grain_sack"] = "Seltsamer Getreidesack"
 L["small_treasure_chest"] = "Kleine Schatztruhe"
 L["small_treasure_51927"] = "Im Gebäude unter der Treppe."
 L["small_treasure_51940"] = "Im Gebäude."
 
-L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei {npc:138096} (Horde) oder bei {npc:138221} (Allianz) gekauft werden oder aus dem Schatz \"Zurückgelassene Vesperdose\" in Brennadam geplündert werden."
+local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in der Reisszahnfeste'
+L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei "..luncheon.." gekauft werden oder aus dem Schatz \"Zurückgelassene Vesperdose\" in Brennadam geplündert werden."
 
 L["ancient_tidesage_scroll"] = "Uralte Schriftrolle der Gezeitenweisen"
+L["ancient_tidesage_scroll_note"] = "Lies alle 8 uralten Schriftrollen der Gezeitenweisen, um den Erfolg zu erringen."
+L["options_icons_tidesage_legends"] = "Legenden der Gezeitenweisen"
+L["options_icons_tidesage_legends_desc"] = "Zeigt die Positionen der uralten Schrifftrollen für den Erfolg Legenden der Gezeitenweisen an."
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------

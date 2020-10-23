@@ -109,6 +109,8 @@ L["options_toggle_hide_done_rare"] = "Blende seltene Gegner aus deren Beute beka
 L["options_toggle_hide_done_rare_desc"] = "Blendet alle seltenen Gegner deren Beute bereits bekannt ist aus."
 L["options_toggle_hide_minimap"] = "Blende alle Symbole auf der Minikarte aus"
 L["options_toggle_hide_minimap_desc"] = "Blendet alle Symbole dieses Addons auf der Minikarte aus und zeigt sie nur auf der Hauptkarte an."
+L["options_toggle_use_char_achieves"] = "Verwende charakterspezifische Erfolge"
+L["options_toggle_use_char_achieves_desc"] = "Zeigt den Erfolgsfortschritt von diesem Charakter, anstelle des gesamten Accounts an."
 L["options_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 L["options_restore_hidden_nodes_desc"] = "Stellt alle Punkte wieder her, die über das Kontextmenü versteckt wurden."
 
