@@ -80,12 +80,17 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             text = WORLD_MAP_FILTER_TITLE
         })
 
-        local map = ns.maps[self:GetParent():GetMapID()]
+        local map, icon = ns.maps[self:GetParent():GetMapID()]
 
         for i, group in ipairs(map.groups) do
             if group:IsEnabled() then
+                if type(group.icon) == 'number' then
+                    icon = ns.GetIconLink(group.icon, 12, 1, 0)..' '
+                else
+                    icon = ns.GetIconLink(group.icon, 16)
+                end
                 UIDropDownMenu_AddButton({
-                    text = L["options_icons_"..group.name],
+                    text = icon..' '..L["options_icons_"..group.name],
                     isNotRadio = true,
                     keepShownOnClick = true,
                     hasArrow = true,

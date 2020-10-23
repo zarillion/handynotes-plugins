@@ -11,10 +11,11 @@ local Class = ns.Class
 
 local Group = Class('Group')
 
-function Group:Initialize(name, defaults)
+function Group:Initialize(name, icon, defaults)
     if not name then error('Groups must be initialized with a name!') end
 
     self.name = name
+    self.icon = icon
     self.defaults = defaults
 
     self.alphaArg = 'icon_alpha_'..self.name
@@ -49,12 +50,12 @@ ns.GROUP_HIDDEN = {display=false}
 ns.GROUP_ALPHA75 = {alpha=0.75}
 
 ns.groups = {
-    CAVE = Group('caves', ns.GROUP_ALPHA75),
-    INTRO = Group('intro'),
-    OTHER = Group('other'),
-    PETBATTLE = Group('pet_battles'),
-    QUEST = Group('quests'),
-    RARE = Group('rares', ns.GROUP_ALPHA75),
-    SUPPLY = Group('supplies'),
-    TREASURE = Group('treasures', ns.GROUP_ALPHA75),
+    CAVE = Group('caves', 'door_down', ns.GROUP_ALPHA75),
+    INTRO = Group('intro', 'quest_ay'),
+    OTHER = Group('other', 454046),
+    PETBATTLE = Group('pet_battles', 'paw_y'),
+    QUEST = Group('quests', 'quest_ay'),
+    RARE = Group('rares', 'skull_w', ns.GROUP_ALPHA75),
+    SUPPLY = Group('supplies', 'star_chest_g'),
+    TREASURE = Group('treasures', 'chest_gy', ns.GROUP_ALPHA75),
 }

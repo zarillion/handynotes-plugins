@@ -15,16 +15,16 @@ ns.expansion = 8
 
 -------------------------------------------------------------------------------
 
-ns.groups.ASSAULT_EVENT = Group('assault_events')
-ns.groups.DAILY_CHESTS = Group('daily_chests')
-ns.groups.COFFERS = Group('coffers')
-ns.groups.PAKU_TOTEMS = Group('paku_totems', ns.GROUP_HIDDEN)
-ns.groups.TIDESAGE_LEGENDS = Group('tidesage_legends', ns.GROUP_HIDDEN)
-ns.groups.VISIONS_BUFFS = Group('visions_buffs')
-ns.groups.VISIONS_CRYSTALS = Group('visions_crystals')
-ns.groups.VISIONS_MAIL = Group('visions_mail')
-ns.groups.VISIONS_MISC = Group('visions_misc')
-ns.groups.VISIONS_CHEST = Group('visions_chest')
+ns.groups.ASSAULT_EVENT = Group('assault_events', 'peg_wy')
+ns.groups.DAILY_CHESTS = Group('daily_chests', 'chest_bl')
+ns.groups.COFFERS = Group('coffers', 'star_chest_g')
+ns.groups.PAKU_TOTEMS = Group('paku_totems', 'flight_point', ns.GROUP_HIDDEN)
+ns.groups.TIDESAGE_LEGENDS = Group('tidesage_legends', 1500881, ns.GROUP_HIDDEN)
+ns.groups.VISIONS_BUFFS = Group('visions_buffs', 132183)
+ns.groups.VISIONS_CRYSTALS = Group('visions_crystals', 'crystal_o')
+ns.groups.VISIONS_MAIL = Group('visions_mail', 'envelope')
+ns.groups.VISIONS_MISC = Group('visions_misc', 2823166)
+ns.groups.VISIONS_CHEST = Group('visions_chest', 'chest_gy')
 
 -------------------------------------------------------------------------------
 -------------------------------- TIMED EVENTS ---------------------------------

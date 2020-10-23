@@ -70,8 +70,8 @@ end
 
 local SLGroup = Class('ShadowlandsGroup', Group)
 
-function SLGroup:Initialize(name, defaults, covenant)
-    Group.Initialize(self, name, defaults)
+function SLGroup:Initialize(name, icon, defaults, covenant)
+    Group.Initialize(self, name, icon, defaults)
     self.covenant = covenant
 end
 
@@ -86,17 +86,17 @@ ns.Group = SLGroup
 
 -------------------------------------------------------------------------------
 
-ns.groups.ANIMA_SHARD = SLGroup('anima_shard', ns.GROUP_HIDDEN)
-ns.groups.BONUS_BOSS = SLGroup('bonus_boss')
-ns.groups.BONUS_EVENT = SLGroup('bonus_event')
-ns.groups.CARRIAGE = SLGroup('carriages')
-ns.groups.RIFTSTONE = SLGroup('riftstone')
-ns.groups.SLIME_CAT = SLGroup('slime_cat')
+ns.groups.ANIMA_SHARD = SLGroup('anima_shard', 'crystal_b', ns.GROUP_HIDDEN)
+ns.groups.BONUS_BOSS = SLGroup('bonus_boss', 'peg_wr')
+ns.groups.BONUS_EVENT = SLGroup('bonus_event', 'peg_wy')
+ns.groups.CARRIAGE = SLGroup('carriages', 'horseshoe')
+ns.groups.RIFTSTONE = SLGroup('riftstone', 'portal_b')
+ns.groups.SLIME_CAT = SLGroup('slime_cat', 3732497)
 
-ns.groups.FAE_NETWORK = SLGroup('fae_network', ns.GROUP_HIDDEN, ns.covenants.FAE)
-ns.groups.KYR_NETWORK = SLGroup('kyr_network', ns.GROUP_HIDDEN, ns.covenants.KYR)
-ns.groups.NEC_NETWORK = SLGroup('nec_network', ns.GROUP_HIDDEN, ns.covenants.NEC)
-ns.groups.VEN_NETWORK = SLGroup('ven_network', ns.GROUP_HIDDEN, ns.covenants.VEN)
+ns.groups.FAE_NETWORK = SLGroup('fae_network', 'portal_p', ns.GROUP_HIDDEN, ns.covenants.FAE)
+ns.groups.KYR_NETWORK = SLGroup('kyr_network', 'portal_b', ns.GROUP_HIDDEN, ns.covenants.KYR)
+ns.groups.NEC_NETWORK = SLGroup('nec_network', 'portal_g', ns.GROUP_HIDDEN, ns.covenants.NEC)
+ns.groups.VEN_NETWORK = SLGroup('ven_network', 'portal_r', ns.GROUP_HIDDEN, ns.covenants.VEN)
 
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------

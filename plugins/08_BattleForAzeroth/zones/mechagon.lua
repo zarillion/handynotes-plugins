@@ -23,9 +23,9 @@ local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
-ns.groups.LOCKED_CHEST = Group('locked_chest')
-ns.groups.MECH_CHEST = Group('mech_chest')
-ns.groups.RECRIG = Group('recrig')
+ns.groups.LOCKED_CHEST = Group('locked_chest', 'chest_gy')
+ns.groups.MECH_CHEST = Group('mech_chest', 'chest_rd')
+ns.groups.RECRIG = Group('recrig', 'peg_wb')
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
