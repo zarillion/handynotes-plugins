@@ -175,6 +175,71 @@ L["chasmhaunt_cave"] = "Вход в пещеру к Ужасу морских р
 L["shassera_cave"] = "Вход в пещеру к Шассире."
 
 -------------------------------------------------------------------------------
+------------------------------------ NAZMIR -----------------------------------
+-------------------------------------------------------------------------------
+
+L["captain_mukala_note"] = "Attempt to loot the Cursed Chest to summon the captain."
+L["enraged_water_note"] = "Examine the {npc:134295} to summon the elemental."
+L["lucille_note"] = "Talk to {npc:134297} to summon the rare."
+L["offering_to_bwonsamdi_note"] = "Run up the nearby tree and jump into the broken structure."
+L["shambling_ambusher_note"] = "Attempt to loot the {npc:124473} to activate the rare."
+L["zaamar_note"] = "Inside the Necropolis Catacombs, entrance to the south."
+
+-------------------------------------------------------------------------------
+------------------------------- STORMSONG VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L["in_basement"] = "In the basement."
+L["jakala_note"] = "Talk to {npc:140925}."
+L["nestmother_acada_note"] = "Click on Acada's Nest to spawn the rare."
+L["sabertron_note"] = "Kill {npc:139334} to activate one of the {npc:139328}s."
+
+L["discarded_lunchbox_note"] = "In the building on top of the bookshelf."
+L["hidden_scholars_chest_note"] = "On the roof of the building."
+L["honey_vat"] =  "Honey Vat"
+L["smugglers_stash_note"] = "In the water under the platform."
+L["sunken_strongbox_note"] = "In the water under the ship."
+L["venture_co_supply_chest_note"] = "Climb up the ladder on the ship."
+L["weathered_treasure_chest_note"] = "The cave is hidden behind a cluster of trees."
+
+L["curious_grain_sack"] = "Curious Grain Sack"
+L["small_treasure_chest"] = "Small Treasure Chest"
+L["small_treasure_51927"] = "In the building under the stairs."
+L["small_treasure_51940"] = "In the building."
+
+L["these_hills_sing_note"] = "Open {item:160485} here. Buy then from {npc:138096} (Horde) or {npc:138221} (Alliance) or loot one from the \"Discarded Lunchbox\" treasure in Brennadam."
+
+L["ancient_tidesage_scroll"] = "Ancient Tidesage Scroll"
+
+-------------------------------------------------------------------------------
+------------------------------- TIRAGARDE SOUND -------------------------------
+-------------------------------------------------------------------------------
+
+L["honey_slitherer_note"] = "Talk to {npc:137176} to summon the rare."
+L["tempestria_note"] = "Inspect the Suspicious Pile of Meat to summon the rare."
+L["twin_hearted_note"] = "Disturb the Ritual Effigy to activate the construct."
+L["wintersail_note"] = "Destroy the Smuggler's Cache to summon the captain."
+
+L["hay_covered_chest_note"] = "Ride the {npc:130350} down the road to {npc:131453} to spawn the treasure."
+L["pirate_treasure_note"] = [[
+Requires the corresponding treasure map.
+
+The maps drop from any pirate mobs in Kul Tiras. Freehold (open world) is a good place to farm pirates.
+]]
+
+local damp_note =  "\n\nRead all five scrolls to gain access to the treasure."
+
+L["damp_scroll"] = "A Damp Scroll"
+L["damp_scroll_note_1"] = "Entrance in Stormsong Monastery."..damp_note
+L["damp_scroll_note_2"] = "On the floor in a basement behind a {npc:136343}."..damp_note
+L["damp_scroll_note_3"] = "On the floor upstairs next to a {npc:136343}."..damp_note
+L["damp_scroll_note_4"] = "On the floor in a basement next to a {npc:136343}."..damp_note
+L["damp_scroll_note_5"] = "In a corner under the boardwalk."..damp_note
+L["ominous_altar"] = "Ominous Altar"
+L["ominous_altar_note"] = "Talk to the Ominous Altar to be teleported to the treasure."
+L["secret_of_the_depths_note"] = "Read all five Damp Scrolls, then talk to the Ominous Altar to teleport to the treasure."
+
+-------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
@@ -390,4 +455,55 @@ L["options_icons_visions_misc_desc"] = "Показать награды на к�
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
+L["bloodwing_bonepicker_note"] = "Collect the {npc:136390} at the summit to summon the vulture."
+L["nezara_note"] = "Cut the ropes attached to all four {npc:128952}s to release the rare."
+L["vathikur_note"] = "Kill the {npc:126894}s to summon the rare."
+L["zunashi_note"] = "Entrance to the north in the mouth of a large skull."
+
+L["ashvane_spoils_note"] = "Ride the {npc:132662} down the hill to spawn the treasure at the bottom."
+L["excavators_greed_note"] = "Inside a collapsed tunnel."
+L["grayals_offering_note"] = "After completing {quest:50702}, enter Atul'Aman and click the Ancient Altar to spawn the treasure."
+L["kimbul_offerings_note"] = "On the hill above the Temple of Kimbul."
+L["sandsunken_note"] = "Click the Abandoned Bobber to pull the treasure out of the sand."
+
 L["elusive_alpaca"] = "Скормите Салат из приморской зелени, альпаке, чтобы выучить ее как маунта. Появляется в течение 10 минут в одном месте, затем долгое возрождение."
+
+-------------------------------------------------------------------------------
+---------------------------------- WARFRONTS ----------------------------------
+-------------------------------------------------------------------------------
+
+L["boulderfist_outpost"] = "Inside Boulderfist Outpost (a large cave). Entrance to the northeast."
+L["burning_goliath_note"] = "When defeated, a {npc:141663} will spawn near {npc:141668}."
+L["cresting_goliath_note"] = "When defeated, a {npc:141658} will spawn near {npc:141668}."
+L["rumbling_goliath_note"] = "When defeated, a {npc:141659} will spawn near {npc:141668}."
+L["thundering_goliath_note"] = "When defeated, a {npc:141648} will spawn near {npc:141668}."
+L["echo_of_myzrael_note"] = "Once all four elemental goliaths are defeated, {npc:141668} will appear."
+L["frightened_kodo_note"] = "Despawns after a few minutes. Guaranteed to spawn after a server restart."
+
+-------------------------------------------------------------------------------
+----------------------------------- ZULDAZAR ----------------------------------
+-------------------------------------------------------------------------------
+
+L["murderbeak_note"] = "Toss the chum into the sea, then kill {npc:134780}s until {npc:134782} spawns."
+L["vukuba_note"] = "Investigate the {npc:134049}, then kill waves of {npc:134047}s until {npc:134048} spawns."
+
+L["cache_of_secrets_note"] = "Held by an {npc:137234} in a cave behind a waterfall."
+L["da_white_shark_note"] = "Stand near {npc:133208} until she becomes hostile."
+L["dazars_forgotten_chest_note"] = "Path begins near {npc:134738}."
+L["gift_of_the_brokenhearted_note"] = "Place the incense to spawn the chest."
+L["offerings_of_the_chosen_note"] = "On the second level of Zanchul."
+L["riches_of_tornowa_note"] = "On the side of a cliff."
+L["spoils_of_pandaria_note"] = "On the lowest deck of the ship."
+L["tiny_voodoo_mask_note"] = "Sitting on the hut above {npc:141617}."
+L["warlords_cache_note"] = "On top at the helm of the ship."
+
+L["kuafon_note"] = [[
+Loot a {item:157782} from any Pterrordax in Zandalar to begin the quest line. Some quests will take multiple days to complete.
+
+The best mobs to farm are {npc:126618} in Zanchul or {npc:122113}s at Skyrender Eyrie south of Tal'gurub.
+]]
+L["torcali_note"] = "Complete quests at Warbeast Kraal until {quest:47261} becomes available. Some quests will take multiple days to complete."
+
+L["totem_of_paku_note"] = "Speak to {npc:137510} north of the Great Seal to select Pa'ku as your loa in Zuldazar."
+L["options_icons_paku_totems"] = "Totems of Pa'ku"
+L["options_icons_paku_totems_desc"] = "Display travel paths for Totems of Pa'ku in Dazar'alor"
