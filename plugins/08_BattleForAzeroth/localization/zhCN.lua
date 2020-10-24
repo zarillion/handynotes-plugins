@@ -221,7 +221,7 @@ L["small_treasure_51927"] = "建筑物内楼梯下。"
 L["small_treasure_51940"] = "建筑物内。"
 
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} 位于布伦纳丹' or '{npc:138096} 位于战牙要塞'
-L["these_hills_sing_note"] = "在这里打开 {item:160485}。从 {npc:138096}（部落）或 {npc:138221}（联盟）购买或者从布伦纳丹的“被丢弃的午餐盒”拾取宝藏。"
+L["these_hills_sing_note"] = "在这里打开 {item:160485}。从"..luncheon.."购买或者从布伦纳丹的“被丢弃的午餐盒”拾取宝藏。"
 
 L["ancient_tidesage_scroll"] = "古代海潮贤者卷轴"
 L["ancient_tidesage_scroll_note"] = "阅读全部8个海潮贤者卷轴获得成就。"
