@@ -8,16 +8,28 @@ if not L then return end
 ----------------------------------- DRUSTVAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L["merchants_chest_note"] = "Mata al {npc:137468} cercano que sostiene un llavero para conseguir la {item:163710} para poder abrir el cofre."
+L["ancient_sarco_note"] = "Abre el Sarcófago Antiguo para invocar oleadas de {npc:128181}."
+L["beshol_note"] = "Abre el Cofre Claramente Seguro para invocar a {npc:129805}."
+L["cottontail_matron_note"] = "Haz click en el Cráneo del Ritual Bestial para invocar a {npc:129904}."
+L["gluttonous_yeti_note"] = "Esta {npc:127979} está condenada ..."
+L["seething_cache_note"] = "Abre el Alijo Hirviente para invocar oleadas de {npc:129031}."
 L["the_caterer_note"] = "Usa el Pastel de Boda Arruinado para invocar a {npc:139358}."
+L["vicemaul_note"] = "Haz click en la {npc:127652} para pescar a {npc:127651}."
+
+L["merchants_chest_note"] = "Mata al {npc:137468} cercano que sostiene un llavero para conseguir la {item:163710} para poder abrir el cofre."
 L["wicker_pup_note"] = [[
-Combina los objetos de los cuatro cofres para crear un {npc:143189}.
+Enciende las {npc:143609} apagadas para activar el cofre. Combina los objetos de los cuatro cofres para crear un {npc:143189}.
 
 • Embrujado: {item:163790}
 • Encantado: {item:163796}
 • Hechizado: {item:163791}
 • Maldito: {item:163789}
 ]]
+
+local runebound = "Activa los {npc:143688} en el orden mostrado en las placas de metal detrás del cofre:\n\n"
+L["runebound_cache_note"] = runebound.."Izquierda -> Abajo -> Arriba -> Derecha"
+L["runebound_chest_note"] = runebound.."Izquierda -> Derecha -> Abajo -> Arriba"
+L["runebound_coffer_note"] = runebound.."Derecha -> Arriba -> Izquierda -> Abajo"
 
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
@@ -193,8 +205,9 @@ L["zaamar_note"] = "Dentro de las Catacumbas de la Necrópolis, entrada al sur, 
 
 L["in_basement"] = "En el sótano."
 L["jakala_note"] = "Habla con {npc:140925}."
-L["nestmother_acada_note"] = "Haz click en el Nido de Acada para hacer aparecer a la {npc:138963}."
+L["nestmother_acada_note"] = "Inspecciona el Nido de Acada para hacer aparecer a la {npc:138963}."
 L["sabertron_note"] = "Mata al {npc:139334} para activar uno de los {npc:139328}."
+L["whiplash_note"] = "Sólo aparece cuando la misión {wq:Trallazo} está activa."
 
 L["discarded_lunchbox_note"] = "Dentro del edificio encima de la estantería más alta."
 L["hidden_scholars_chest_note"] = "Encima del techo del edificio."
@@ -202,16 +215,20 @@ L["honey_vat"] =  "Tanque de Miel"
 L["smugglers_stash_note"] = "En el agua debajo de la plataforma."
 L["sunken_strongbox_note"] = "En el agua debajo del barco."
 L["venture_co_supply_chest_note"] = "Sube por la escalerilla a la cubierta del barco."
-L["weathered_treasure_chest_note"] = "La cueva está escondida detrás de un grupo de árboles."
+L["weathered_treasure_chest_note"] = "En una cueva oculta. Tiene tres entradas, todas escondidas detrás de un grupo de árboles."
 
 L["curious_grain_sack"] = "Saco de Grano Curioso"
 L["small_treasure_chest"] = "Cofre del Tesoro Pequeño"
 L["small_treasure_51927"] = "En el edificio debajo de las escaleras."
 L["small_treasure_51940"] = "En el edificio."
 
-L["these_hills_sing_note"] = "Abre {item:160485} aquí. Cómpraselo a {npc:138096} (Horda) o a {npc:138221} (Alianza) o despoja uno del tesoro \"Fiambrera desechada\" en Brennadam."
+local luncheon = (UnitFactionGroup('player') == 'Alianza') and '{npc:138221} en Brennadam' or '{npc:138096} en Fuerte Guerracolmillo'
+L["these_hills_sing_note"] = "Abre {item:160485} aquí. Cómpraselo a "..luncheon.." o despoja uno del tesoro \"Fiambrera desechada\" en Brennadam."
 
 L["ancient_tidesage_scroll"] = "Pergamino Antiguo de Sabiomar"
+L["ancient_tidesage_scroll_note"] = "Lee los 8 Pergamino Antiguo de Sabiomar para conseguir el logro."
+L["options_icons_tidesage_legends"] = "Leyendas de los Sabiomar"
+L["options_icons_tidesage_legends_desc"] = "Muestra las localizaciones de los pergaminos antiguos para el logro Leyendas de los Sabiomar."
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
