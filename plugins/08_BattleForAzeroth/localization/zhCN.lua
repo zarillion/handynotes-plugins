@@ -205,7 +205,7 @@ L["in_basement"] = "在地下室。"
 L["jakala_note"] = "和 {npc:140925} 交谈。"
 L["nestmother_acada_note"] = "点击阿卡达之巢来刷新此稀有。"
 L["sabertron_note"] = "击杀 {npc:139334} 来激活 {npc:139328} 其中之一。"
-L["whiplash_note"] = "只在 {quest:52299} 激活时刷新。"
+L["whiplash_note"] = "只在 {wq:食肉笞} 激活时刷新。"
 
 L["discarded_lunchbox_note"] = "建筑物内书架顶上。"
 L["hidden_scholars_chest_note"] = "建筑物屋顶上。"

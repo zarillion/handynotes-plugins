@@ -222,7 +222,7 @@ L["small_treasure_chest"] = "Cofre del Tesoro Pequeño"
 L["small_treasure_51927"] = "En el edificio debajo de las escaleras."
 L["small_treasure_51940"] = "En el edificio."
 
-local luncheon = (UnitFactionGroup('player') == 'Alianza') and '{npc:138221} en Brennadam' or '{npc:138096} en Fuerte Guerracolmillo'
+local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} en Brennadam' or '{npc:138096} en Fuerte Guerracolmillo'
 L["these_hills_sing_note"] = "Abre {item:160485} aquí. Cómpraselo a "..luncheon.." o despoja uno del tesoro \"Fiambrera desechada\" en Brennadam."
 
 L["ancient_tidesage_scroll"] = "Pergamino Antiguo de Sabiomar"
