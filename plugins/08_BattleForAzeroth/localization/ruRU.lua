@@ -6,15 +6,15 @@ if not L then return end
 ----------------------------------- DRUSTVAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L["merchants_chest_note"] = "Kill the nearby {npc:137468} that is holding a keyring to acquire {item:163710}"
-L["the_caterer_note"] = "Use the Ruined Wedding Cake to activate."
+L["merchants_chest_note"] = "Убить поблизости {npc:137468} у которого есть ключ для вызова {item:163710}"
+L["the_caterer_note"] = "Используйте Испорченный свадебный торт, чтобы активировать."
 L["wicker_pup_note"] = [[
-Combine the items from all four chests to create a {npc:143189}.
+Объедините предметы из всех четырех сундуков, чтобы создать {npc:143189}.
 
-• Bespelled: {item:163790}
-• Enchanted: {item:163796}
-• Ensorcelled: {item:163791}
-• Hexed: {item:163789}
+• Зачарованный сундук: {item:163790}
+• Зачарованный сундук: {item:163796}
+• Заколдованный сундук: {item:163791}
+• Проклятый сундук: {item:163789}
 ]]
 
 -------------------------------------------------------------------------------
@@ -178,12 +178,12 @@ L["shassera_cave"] = "Вход в пещеру к Шассире."
 ------------------------------------ NAZMIR -----------------------------------
 -------------------------------------------------------------------------------
 
-L["captain_mukala_note"] = "Attempt to loot the Cursed Chest to summon the captain."
-L["enraged_water_note"] = "Examine the {npc:134295} to summon the elemental."
-L["lucille_note"] = "Talk to {npc:134297} to summon the rare."
-L["offering_to_bwonsamdi_note"] = "Run up the nearby tree and jump into the broken structure."
-L["shambling_ambusher_note"] = "Attempt to loot the {npc:124473} to activate the rare."
-L["zaamar_note"] = "Inside the Necropolis Catacombs, entrance to the south."
+L["captain_mukala_note"] = "Попытайтесь найти Проклятый сундук, чтобы вызвать капитана."
+L["enraged_water_note"] = "Изучите {npc:134295} для вызова элементаля."
+L["lucille_note"] = "Поговорите с {npc:134297} для вызова монстра."
+L["offering_to_bwonsamdi_note"] = "Бегите по ближайшему дереву и прыгайте в сломанную конструкцию."
+L["shambling_ambusher_note"] = "Попытайтесь собрать {npc:124473} для вызова монстра."
+L["zaamar_note"] = "Внутри катакомб Некрополя, вход с юга."
 
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
