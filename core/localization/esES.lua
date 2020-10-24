@@ -110,7 +110,9 @@ L["options_show_completed_nodes_desc"] = "Muestra todos los nodos incluso si ya 
 L["options_toggle_hide_done_rare"] = "Ocultar los raros, si se conoce todo el botín"
 L["options_toggle_hide_done_rare_desc"] = "Oculta todos los raros a los que se les conozca el botín."
 L["options_toggle_hide_minimap"] = "Ocultar todos los iconos sobre el minimapa"
-L["options_toggle_hide_minimap_desc"] = "Oculta todos los iconos de este addon sobre el minimapa y mostrarlos solamente sobre el mapa principal."
+L["options_toggle_hide_minimap_desc"] = "Oculta todos los iconos de este addon sobre el minimapa y mostrarlos solamente sobre el mapa principal."L["options_toggle_use_char_achieves"] = "Use character achievements"
+L["options_toggle_use_char_achieves"] = "Mostrar logros de personaje"
+L["options_toggle_use_char_achieves_desc"] = "Muestra el progreso de logros para este personaje en lugar de para toda la cuenta."
 L["options_restore_hidden_nodes"] = "Restaurar los nodos ocultos"
 L["options_restore_hidden_nodes_desc"] = "Vuelve a mostrar todos los nodos ocultos usando el menú contextual con click-derecho."
 
