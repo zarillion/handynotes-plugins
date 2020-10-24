@@ -189,33 +189,33 @@ L["zaamar_note"] = "Внутри катакомб Некрополя, вход �
 ------------------------------- STORMSONG VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
-L["in_basement"] = "In the basement."
-L["jakala_note"] = "Talk to {npc:140925}."
-L["nestmother_acada_note"] = "Click on Acada's Nest to spawn the rare."
-L["sabertron_note"] = "Kill {npc:139334} to activate one of the {npc:139328}s."
+L["in_basement"] = "В подвале."
+L["jakala_note"] = "Поговорите с {npc:140925}."
+L["nestmother_acada_note"] = "Нажмите на Гнездо Акады, чтобы вызвать монстра."
+L["sabertron_note"] = "Убейте {npc:139334} чтобы активировать один из {npc:139328}s."
 
-L["discarded_lunchbox_note"] = "In the building on top of the bookshelf."
-L["hidden_scholars_chest_note"] = "On the roof of the building."
-L["honey_vat"] =  "Honey Vat"
-L["smugglers_stash_note"] = "In the water under the platform."
-L["sunken_strongbox_note"] = "In the water under the ship."
-L["venture_co_supply_chest_note"] = "Climb up the ladder on the ship."
-L["weathered_treasure_chest_note"] = "The cave is hidden behind a cluster of trees."
+L["discarded_lunchbox_note"] = "В здании на книжной полке."
+L["hidden_scholars_chest_note"] = "На крыше здания."
+L["honey_vat"] =  "Бочка с медом"
+L["smugglers_stash_note"] = "В воде под платформой."
+L["sunken_strongbox_note"] = "В воде под кораблем."
+L["venture_co_supply_chest_note"] = "Поднимитесь по трапу корабля."
+L["weathered_treasure_chest_note"] = "Пещера скрыта за скоплением деревьев."
 
-L["curious_grain_sack"] = "Curious Grain Sack"
-L["small_treasure_chest"] = "Small Treasure Chest"
-L["small_treasure_51927"] = "In the building under the stairs."
-L["small_treasure_51940"] = "In the building."
+L["curious_grain_sack"] = "Странный мешок с зерном"
+L["small_treasure_chest"] = "Маленький сундук с сокровищами"
+L["small_treasure_51927"] = "В здании под лестницей."
+L["small_treasure_51940"] = "В здании."
 
-L["these_hills_sing_note"] = "Open {item:160485} here. Buy then from {npc:138096} (Horde) or {npc:138221} (Alliance) or loot one from the \"Discarded Lunchbox\" treasure in Brennadam."
+L["these_hills_sing_note"] = "Откройте {item:160485} здесь. Купите тогда у {npc:138096} (Орда) или {npc:138221} (Альянс) или найди одно из сокровищ \"Выброшенная коробка для завтрака\" в Бреннадаме."
 
-L["ancient_tidesage_scroll"] = "Ancient Tidesage Scroll"
+L["ancient_tidesage_scroll"] = "Ancient Tidesage ScrollДревний свиток жрецов моря"
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
 -------------------------------------------------------------------------------
 
-L["honey_slitherer_note"] = "Talk to {npc:137176} to summon the rare."
+L["honey_slitherer_note"] = "Поговорите с {npc:137176} для вызова монстра."
 L["tempestria_note"] = "Inspect the Suspicious Pile of Meat to summon the rare."
 L["twin_hearted_note"] = "Disturb the Ritual Effigy to activate the construct."
 L["wintersail_note"] = "Destroy the Smuggler's Cache to summon the captain."
