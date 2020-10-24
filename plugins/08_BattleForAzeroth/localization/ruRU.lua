@@ -229,7 +229,7 @@ The maps drop from any pirate mobs in Kul Tiras. Freehold (open world) is a good
 
 local damp_note =  "\n\nRead all five scrolls to gain access to the treasure."
 
-L["damp_scroll"] = "A Damp Scroll"
+L["damp_scroll"] = "Мокрый свиток"
 L["damp_scroll_note_1"] = "Entrance in Stormsong Monastery."..damp_note
 L["damp_scroll_note_2"] = "On the floor in a basement behind a {npc:136343}."..damp_note
 L["damp_scroll_note_3"] = "On the floor upstairs next to a {npc:136343}."..damp_note
