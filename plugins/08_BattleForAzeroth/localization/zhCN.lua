@@ -6,16 +6,28 @@ if not L then return end
 ----------------------------------- DRUSTVAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L["ancient_sarco_note"] = "打开古代石棺来召唤数波 {npc:128181}。"
+L["beshol_note"] = "打开显然很安全的宝箱来召唤稀有。"
+L["cottontail_matron_note"] = "研究骇人的仪式颅骨来召唤稀有。"
+L["gluttonous_yeti_note"] = "此 {npc:127979} 注定…"
+L["seething_cache_note"] = "打开沸燃之箱来召唤数波 {npc:129031}。"
+L["the_caterer_note"] = "研究被砸烂的婚礼蛋糕来激活。"
+L["vicemaul_note"] = "点击 {npc:127652} 来钓出稀有。"
+
 L["merchants_chest_note"] = "击杀附近持有钥匙的 {npc:137468} 以获得 {item:163710}。"
-L["the_caterer_note"] = "使用被砸烂的婚礼蛋糕来激活。"
 L["wicker_pup_note"] = [[
-合并所有四个箱子中的物品创建一个 {npc:143189}。
+点亮未激活的 {npc:143609} 来激活宝箱。组合所有四个箱子中的物品创建一个 {npc:143189}。
 
 • 咒蛊：{item:163790}
 • 附魔：{item:163796}
 • 迷惑：{item:163791}
 • 妖术：{item:163789}
 ]]
+
+local runebound = "激活 {npc:143688} 按照宝箱后面金属板上显示的顺序：\n\n"
+L["runebound_cache_note"] = runebound.."左 -> 下 -> 上 -> 右"
+L["runebound_chest_note"] = runebound.."左 -> 右 -> 下 -> 上"
+L["runebound_coffer_note"] = runebound.."右 -> 上 -> 左 -> 下"
 
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
@@ -193,6 +205,7 @@ L["in_basement"] = "在地下室。"
 L["jakala_note"] = "和 {npc:140925} 交谈。"
 L["nestmother_acada_note"] = "点击阿卡达之巢来刷新此稀有。"
 L["sabertron_note"] = "击杀 {npc:139334} 来激活 {npc:139328} 其中之一。"
+L["whiplash_note"] = "只在 {wq:食肉笞} 激活时刷新。"
 
 L["discarded_lunchbox_note"] = "建筑物内书架顶上。"
 L["hidden_scholars_chest_note"] = "建筑物屋顶上。"
@@ -207,9 +220,13 @@ L["small_treasure_chest"] = "小宝箱"
 L["small_treasure_51927"] = "建筑物内楼梯下。"
 L["small_treasure_51940"] = "建筑物内。"
 
+local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} 位于布伦纳丹' or '{npc:138096} 位于战牙要塞'
 L["these_hills_sing_note"] = "在这里打开 {item:160485}。从 {npc:138096}（部落）或 {npc:138221}（联盟）购买或者从布伦纳丹的“被丢弃的午餐盒”拾取宝藏。"
 
 L["ancient_tidesage_scroll"] = "古代海潮贤者卷轴"
+L["ancient_tidesage_scroll_note"] = "阅读全部8个海潮贤者卷轴获得成就。"
+L["options_icons_tidesage_legends"] = "海贤传说"
+L["options_icons_tidesage_legends_desc"] = "显示“海贤传说”成就中古代卷轴的位置。"
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
