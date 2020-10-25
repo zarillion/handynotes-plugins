@@ -105,8 +105,7 @@ associated rewards have been obtained (achievements, toys, pets, mounts).
 --]]
 
 function Node:IsCollected()
-    if not self.rewards then return true end
-    for i, reward in ipairs(self.rewards) do
+    for reward in self:IterateRewards() do
         if not reward:IsObtained() then return false end
     end
     return true
@@ -126,6 +125,23 @@ function Node:IsEnabled()
     end
 
     return true
+end
+
+--[[
+Iterate over rewards that are enabled for this character.
+--]]
+
+function Node:IterateRewards()
+    local index, reward = 0
+    return function ()
+        if not (self.rewards and #self.rewards) then return end
+        repeat
+            index = index + 1
+            if index > #self.rewards then return end
+            reward = self.rewards[index]
+        until reward:IsEnabled()
+        return reward
+    end
 end
 
 --[[
@@ -274,7 +290,7 @@ function Node:Render(tooltip)
     -- collected or completed from this node
     if self.rewards and ns:GetOpt('show_loot') then
         local firstAchieve, firstOther = true, true
-        for i, reward in ipairs(self.rewards) do
+        for reward in self:IterateRewards() do
 
             -- Add a blank line between achievements and other rewards
             local isAchieve = IsInstance(reward, ns.reward.Achievement)
@@ -428,8 +444,7 @@ local Treasure = Class('Treasure', Node, {
 })
 
 function Treasure.getters:label()
-    if not self.rewards then return UNKNOWN end
-    for i, reward in ipairs(self.rewards) do
+    for reward in self:IterateRewards() do
         if IsInstance(reward, ns.reward.Achievement) then
             return GetAchievementCriteriaInfoByID(reward.id, reward.criteria[1].id) or UNKNOWN
         end

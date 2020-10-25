@@ -128,6 +128,7 @@ function Addon:OnClick(button, down, mapID, coord)
 end
 
 function Addon:OnInitialize()
+    ns.class = select(2, UnitClass('player'))
     ns.faction = UnitFactionGroup('player')
     self.db = LibStub("AceDB-3.0"):New(ADDON_NAME..'DB', ns.optionDefaults, "Default")
     self:RegisterEvent("PLAYER_ENTERING_WORLD", function ()

@@ -42,7 +42,6 @@
 
 * [Drust the Facts, Ma'am](https://www.wowhead.com/achievement=13064/drust-the-facts-maam)
 * [Everything Old Is New Again](https://www.wowhead.com/achievement=13082/everything-old-is-new-again) (Alliance)
-* [Legends of the Tidesages](https://www.wowhead.com/achievement=13051/legends-of-the-tidesages)
 * [Let's Bee Friends](https://www.wowhead.com/achievement=13062/lets-bee-friends) (Alliance)
 * [Sausage Sampler](https://www.wowhead.com/achievement=13087/sausage-sampler)
 * [Shanty Raid](https://www.wowhead.com/achievement=13057/shanty-raid)

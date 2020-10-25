@@ -14,6 +14,7 @@ local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
+local Spell = ns.reward.Spell
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
@@ -146,13 +147,20 @@ map.nodes[35207780] = Rare({
     }
 }) -- Haegol the Hammer
 
-map.nodes[60641767] = Rare({
+map.nodes[60651775] = Rare({
     id=154154,
-    quest=57674, -- second quest 57726 ???
+    quest=57674, -- 57726
     rewards={
         Pet({id=2794, item=172493}), -- Snarling Butterfly Crate
-        Item({item=169944}), -- Minuscule Fez
-        Item({item=169858}) -- "Bee Bee" Gun
+        Spell({item=172405, spell=309328, class='SHAMAN'}) -- Tome of Hex: Living Honey
+    },
+    pois={
+        Path({
+            60651775, 61051679, 61571590, 61961535, 62471589, 62761672,
+            61921703, 61381769, 60871816, 60651775, 60001753, 59321683,
+            59201758, 59161817, 59641817, 60401874, 60941896, 61011843,
+            60871816
+        })
     }
 }) -- Honey Smasher
 

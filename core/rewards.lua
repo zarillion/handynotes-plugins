@@ -23,6 +23,12 @@ function Reward:Initialize(attrs)
     end
 end
 
+function Reward:IsEnabled()
+    if self.class and self.class ~= ns.class then return false end
+    if self.faction and self.faction ~= ns.faction then return false end
+    return true
+end
+
 function Reward:IsObtained()
     return true
 end
@@ -298,6 +304,23 @@ function Quest:Render(tooltip)
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ SPELL ------------------------------------
+-------------------------------------------------------------------------------
+
+local Spell = Class('Spell', Item)
+
+function Spell:IsObtained()
+    return IsSpellKnown(self.spell)
+end
+
+function Spell:Render(tooltip)
+    local collected = IsSpellKnown(self.spell)
+    local status = collected and Green(L["known"]) or Red(L["missing"])
+    tooltip:AddDoubleLine(self.itemLink..' ('..L["spell"]..')', status)
+    tooltip:AddTexture(self.itemIcon, {margin={right=2}})
+end
+
+-------------------------------------------------------------------------------
 ------------------------------------- TOY -------------------------------------
 -------------------------------------------------------------------------------
 
@@ -377,6 +400,7 @@ ns.reward = {
     Mount=Mount,
     Pet=Pet,
     Quest=Quest,
+    Spell=Spell,
     Toy=Toy,
     Transmog=Transmog
 }
