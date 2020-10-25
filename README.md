@@ -4,6 +4,7 @@
 Join our Discord server to discuss features and translations: https://discord.gg/EXCcmYW
 
 ![](https://github.com/zarillion/handynotes-plugins/workflows/Automated%20Build/badge.svg)
+[![](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dzarillion%26type%3Dpatrons&style=plastic)](https://www.patreon.com/bePatron?u=44499780)
 
 * [HandyNotes: Mechagon & Nazjatar](https://www.curseforge.com/wow/addons/handynotes-mechagon-nazjatar)
 * [HandyNotes: Visions of N'Zoth](https://www.curseforge.com/wow/addons/handynotes-visions-of-nzoth)
