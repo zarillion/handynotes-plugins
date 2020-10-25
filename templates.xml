@@ -70,6 +70,22 @@
     </Scripts>
   </DropDownToggleButton>
 
+  <Frame name="{addon}TextMenuOptionTemplate" inherits="UIDropDownCustomMenuEntryTemplate" virtual="true">
+    <Size x="240" y="20"/>
+    <Layers>
+      <Layer>
+        <FontString parentKey="Text" inherits="GameFontHighlightSmallLeft">
+          <Anchors>
+            <Anchor point="TOP"/>
+            <Anchor point="BOTTOM"/>
+            <Anchor point="LEFT"/>
+            <Anchor point="RIGHT"/>
+          </Anchors>
+        </FontString>
+      </Layer>
+    </Layers>
+  </Frame>
+
   <Frame name="{addon}SliderMenuOptionTemplate" inherits="UIDropDownCustomMenuEntryTemplate" virtual="true">
     <Size x="240" y="20"/>
     <Layers>

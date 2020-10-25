@@ -43,6 +43,8 @@ function WorldMapOptionsButtonMixin:OnLoad()
     end)
     UIDropDownMenu_SetDisplayMode(self.DropDown, "MENU")
 
+    self.GroupDesc = CreateFrame('Frame', ADDON_NAME..'GroupMenuSliderOption',
+        nil, ADDON_NAME..'TextMenuOptionTemplate')
     self.AlphaOption = CreateFrame('Frame', ADDON_NAME..'AlphaMenuSliderOption',
         nil, ADDON_NAME..'SliderMenuOptionTemplate')
     self.ScaleOption = CreateFrame('Frame', ADDON_NAME..'ScaleMenuSliderOption',
@@ -128,6 +130,13 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
     elseif level == 2 then
         -- Get correct map ID to query/set options for
         local group = UIDROPDOWNMENU_MENU_VALUE
+
+        self.GroupDesc.Text:SetText(L["options_icons_"..group.name.."_desc"])
+        UIDropDownMenu_AddButton({ customFrame = self.GroupDesc }, 2)
+        UIDropDownMenu_AddButton({
+            notClickable = true,
+            notCheckable = true
+        }, 2)
 
         UIDropDownMenu_AddSlider({
             text = L["options_opacity"],
