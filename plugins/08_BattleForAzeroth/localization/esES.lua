@@ -222,6 +222,10 @@ L["small_treasure_chest"] = "Cofre del Tesoro Pequeño"
 L["small_treasure_51927"] = "En el edificio debajo de las escaleras."
 L["small_treasure_51940"] = "En el edificio."
 
+L["honeyback_harvester_note"] = "Habla con {npc:155193} para empezar el evento. El Depósito de Jalea Fresca puede ser despojado una vez a la hora y se restablece pasada una hora."
+L["options_icons_honeybacks"] = "Cosechadora Mielabdomen"
+L["options_icons_honeybacks_desc"] = "Muestra las localizaciones del evento de la Cosechadora Mielabdomen para el farmeo de la reputación Colmena Mielabdomen."
+
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} en Brennadam' or '{npc:138096} en Fuerte Guerracolmillo'
 L["these_hills_sing_note"] = "Abre {item:160485} aquí. Cómpraselo a "..luncheon.." o despoja uno del tesoro \"Fiambrera desechada\" en Brennadam."
 
