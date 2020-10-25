@@ -29,6 +29,14 @@ L["runebound_cache_note"] = runebound.."左 -> 下 -> 上 -> 右"
 L["runebound_chest_note"] = runebound.."左 -> 右 -> 下 -> 上"
 L["runebound_coffer_note"] = runebound.."右 -> 上 -> 左 -> 下"
 
+-- NOTE: These quotes (and for trainers in other zones) were taken from the quotes
+-- for this NPC on Wowhead. If no quotes were listed, I started a battle with the NPC
+-- and jotted down the opening line. Adds a little flavor to the tooltips.
+L["captain_hermes_note"] = "耶！尝尝甲壳之力！"
+L["dilbert_mcclint_note"] = "嗨，害虫防治专家呆伯特·麦克林特向您报道。非常高兴能和一位像我一样的蜘蛛爱好者一较高下。"
+L["fizzie_spark_note"] = "你觉得你的宠物有机会打败我注入了艾泽里特的队伍？想得美！"
+L["michael_skarn_note"] = "一旦我们开始战斗，你得记住这是你自找的。"
+
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
@@ -197,6 +205,10 @@ L["offering_to_bwonsamdi_note"] = "跑到附近的树上然后跳进破碎的建
 L["shambling_ambusher_note"] = "尝试拾取 {npc:124473} 来激活稀有。"
 L["zaamar_note"] = "在冥宫古墓内，入口在南侧。"
 
+L["grady_prett_note"] = "是时候下场战斗了！来吧！"
+L["korval_dark_note"] = "这地方真吓人，我们快点打完吧。"
+L["lozu_note"] = "我们来荣耀地战斗吧，陌生人。"
+
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
 -------------------------------------------------------------------------------
@@ -219,6 +231,14 @@ L["curious_grain_sack"] = "奇怪的谷物袋"
 L["small_treasure_chest"] = "小宝箱"
 L["small_treasure_51927"] = "建筑物内楼梯下。"
 L["small_treasure_51940"] = "建筑物内。"
+
+L["eddie_fixit_note"] = "准备面对我的高度定制版改装机器人小队吧！"
+L["ellie_vern_note"] = "但我有海洋中最强的生物为我而战，你根本不可能赢。"
+L["leana_darkwind_note"] = "我怀疑这片大陆的奇怪生物也会带来奇怪的战斗。"
+
+L["honeyback_harvester_note"] = "和 {npc:155193} 交谈开始事件。新鲜的蜜胶块每小时可以拾取一次，一小时后重置。"
+L["options_icons_honeybacks"] = "蜜背收割者"
+L["options_icons_honeybacks_desc"] = "显示收割蜜背蜂群声望的蜜背收割者事件位置。"
 
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} 位于布伦纳丹' or '{npc:138096} 位于战牙要塞'
 L["these_hills_sing_note"] = "在这里打开 {item:160485}。从"..luncheon.."购买或者从布伦纳丹的“被丢弃的午餐盒”拾取宝藏。"
@@ -255,6 +275,10 @@ L["damp_scroll_note_5"] = "在木板路下的一个角落。"..damp_note
 L["ominous_altar"] = "不祥祭坛"
 L["ominous_altar_note"] = "和不祥祭坛交谈会被传送到宝藏。"
 L["secret_of_the_depths_note"] = "阅读全部五个卷轴，然后和不祥祭坛交谈会被传送到宝藏。"
+
+L["burly_note"] = "这些小家伙很奇怪，但确实强而有力。你确定要进行战斗？"
+L["delia_hanako_note"] = "在我们开始之前，我想要提醒你，当我的队伍把你的碾压了之后，可不要哭鼻子。"
+L["kwint_note"] = "一个人对一头鲨鱼，可能还算是一场公平的较量。但是一对三？你可真是疯了。"
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -483,6 +507,10 @@ L["grayals_offering_note"] = "完成 {quest:50702} 后，进入阿图阿曼并�
 L["kimbul_offerings_note"] = "在吉布尔神殿上方的山上。"
 L["sandsunken_note"] = "点击被遗弃的浮标把宝箱从沙子里拉出来。"
 
+L["keeyo_note"] = "是时候开始一场精彩的冒险了！"
+L["kusa_note"] = "我正保持连胜，你不可能战胜我和我的队伍。"
+L["sizzik_note"] = "我一直很欣赏能和新的挑战者来一场精彩的战斗。"
+
 L["elusive_alpaca"] = "将 {item:161128} 喂给 {npc:162681} 以获得坐骑。一个位置存在10分钟，很长时间刷新。"
 
 -------------------------------------------------------------------------------
@@ -513,6 +541,10 @@ L["riches_of_tornowa_note"] = "在悬崖边上。"
 L["spoils_of_pandaria_note"] = "在船的下层甲板。"
 L["tiny_voodoo_mask_note"] = "在 {npc:141617} 小屋的上方。"
 L["warlords_cache_note"] = "在船舵顶层。"
+
+L["karaga_note"] = "我已经很久没战斗过了，不过我仍然很有机会战胜你。"
+L["talia_spark_note"] = "这片大陆上的小动物很凶猛，我希望你准备好了。"
+L["zujai_note"] = "你居然到我家来找我战斗？祝你好运。"
 
 L["kuafon_note"] = [[
 从赞达拉的任意翼手龙拾取一个 {item:157782} 开始任务线。一些任务将花费数天来完成。
