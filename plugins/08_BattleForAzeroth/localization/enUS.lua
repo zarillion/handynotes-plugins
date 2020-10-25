@@ -220,6 +220,10 @@ L["small_treasure_chest"] = "Small Treasure Chest"
 L["small_treasure_51927"] = "In the building under the stairs."
 L["small_treasure_51940"] = "In the building."
 
+L["honeyback_harvester_note"] = "Talk to the {npc:155193} to begin the event. The Fresh Jelly Deposit can be looted once an hour and resets on the hour."
+L["options_icons_honeybacks"] = "Honeyback Harvesters"
+L["options_icons_honeybacks_desc"] = "Display Honeyback Harvester event locations for farming Honeyback Hive reputation."
+
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in Warfang Hold'
 L["these_hills_sing_note"] = "Open {item:160485} here. Buy one from "..luncheon.." or loot one from the \"Discarded Lunchbox\" treasure in Brennadam."
 

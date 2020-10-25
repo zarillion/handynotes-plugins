@@ -8,6 +8,7 @@ local Class = ns.Class
 local Map = ns.Map
 
 local Node = ns.node.Node
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -543,6 +544,39 @@ map.nodes[66921206] = Treasure({
 -- map.nodes[57645092] = SmallTreasure({quest=51946})
 -- map.nodes[60865118] = SmallTreasure({quest=51946})
 -- map.nodes[46915393] = SmallTreasure({quest=51949})
+
+-------------------------------------------------------------------------------
+-------------------------- HONEYBACK HARVESTER EVENTS -------------------------
+-------------------------------------------------------------------------------
+
+-- quest 56413 start
+-- quest 56414, 57703 honeycomb loot
+
+local honeyback = Class('Honeyback', NPC, {
+    id=155193,
+    icon=2066005,
+    group=ns.groups.HONEYBACKS,
+    note=L["honeyback_harvester_note"],
+    getters={
+        rlabel=function(self)
+            local completed = C_QuestLog.IsQuestFlaggedCompleted(56414)
+            local color = completed and ns.status.Green or ns.status.Gray
+            return color(L['hourly'])
+        end
+    }
+})()
+
+map.nodes[25667224] = honeyback
+map.nodes[33053243] = honeyback
+map.nodes[40936214] = honeyback
+map.nodes[43003300] = honeyback
+map.nodes[47453212] = honeyback
+map.nodes[57175125] = honeyback
+map.nodes[61893195] = honeyback
+map.nodes[63012131] = honeyback
+map.nodes[66307000] = honeyback
+map.nodes[69007000] = honeyback
+map.nodes[72105230] = honeyback
 
 -------------------------------------------------------------------------------
 --------------------------- LEGENDS OF THE TIDESAGES --------------------------
