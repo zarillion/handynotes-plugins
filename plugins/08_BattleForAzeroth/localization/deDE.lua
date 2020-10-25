@@ -508,6 +508,9 @@ L["keeyo_note"] = "Zeit für ein großartiges Abenteuer!"
 L["kusa_note"] = "Ich habe einen Lauf. Ihr habt keine Chance gegen mich und mein Team."
 L["sizzik_note"] = "Ich freue mich immer über gute Kämpfe gegen neue Herausforderer."
 
+L["options_icons_dune_rider"] = "Dünenreiter"
+L["options_icons_dune_rider_desc"] = "Zeigt die Positionen der wackeligen Planken für den Erfolg 'Dünenreiter' an."
+
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
 
 -------------------------------------------------------------------------------

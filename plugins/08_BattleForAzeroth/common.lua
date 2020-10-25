@@ -17,6 +17,7 @@ ns.expansion = 8
 
 ns.groups.ASSAULT_EVENT = Group('assault_events', 'peg_wy')
 ns.groups.DAILY_CHESTS = Group('daily_chests', 'chest_bl', {defaults=ns.GROUP_ALPHA75})
+ns.groups.DUNE_RIDER = Group('dune_rider', 134962, {defaults=ns.GROUP_HIDDEN})
 ns.groups.COFFERS = Group('coffers', 'star_chest_g')
 ns.groups.HONEYBACKS = Group('honeybacks', 2066005, {defaults=ns.GROUP_HIDDEN, faction='Alliance'})
 ns.groups.PAKU_TOTEMS = Group('paku_totems', 'flight_point', {defaults=ns.GROUP_HIDDEN, faction='Horde'})

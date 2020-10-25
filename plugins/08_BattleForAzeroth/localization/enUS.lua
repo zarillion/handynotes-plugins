@@ -511,6 +511,9 @@ L["keeyo_note"] = "Time for a great adventure!"
 L["kusa_note"] = "I'm on a winning streak, you have no chance against me and my team."
 L["sizzik_note"] = "I always appreciate a good battle with a new challenger."
 
+L["options_icons_dune_rider"] = "Dune Rider"
+L["options_icons_dune_rider_desc"] = "Show rickety plank locations for the Dune Rider achievement."
+
 L["elusive_alpaca"] = "Feed {item:161128} to the {npc:162681} to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
 
 -------------------------------------------------------------------------------
