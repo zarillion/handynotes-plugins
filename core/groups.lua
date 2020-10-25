@@ -11,12 +11,16 @@ local Class = ns.Class
 
 local Group = Class('Group')
 
-function Group:Initialize(name, icon, defaults)
+function Group:Initialize(name, icon, attrs)
     if not name then error('Groups must be initialized with a name!') end
+    if not icon then error('Groups must be initialized with an icon!') end
 
     self.name = name
     self.icon = icon
-    self.defaults = defaults
+
+    if attrs then
+        for k, v in pairs(attrs) do self[k] = v end
+    end
 
     self.alphaArg = 'icon_alpha_'..self.name
     self.scaleArg = 'icon_scale_'..self.name
@@ -30,7 +34,11 @@ function Group:Initialize(name, icon, defaults)
 end
 
 -- Override to hide this group in the UI under certain circumstances
-function Group:IsEnabled() return true end
+function Group:IsEnabled()
+    if self.class and self.class ~= ns.class then return false end
+    if self.faction and self.faction ~= ns.faction then return false end
+    return true
+end
 
 -- Get group settings
 function Group:GetAlpha() return ns:GetOpt(self.alphaArg) end
@@ -50,12 +58,12 @@ ns.GROUP_HIDDEN = {display=false}
 ns.GROUP_ALPHA75 = {alpha=0.75}
 
 ns.groups = {
-    CAVE = Group('caves', 'door_down', ns.GROUP_ALPHA75),
+    CAVE = Group('caves', 'door_down', {defaults=ns.GROUP_ALPHA75}),
     INTRO = Group('intro', 'quest_ay'),
     OTHER = Group('other', 454046),
     PETBATTLE = Group('pet_battles', 'paw_y'),
     QUEST = Group('quests', 'quest_ay'),
-    RARE = Group('rares', 'skull_w', ns.GROUP_ALPHA75),
+    RARE = Group('rares', 'skull_w', {defaults=ns.GROUP_ALPHA75}),
     SUPPLY = Group('supplies', 'star_chest_g'),
-    TREASURE = Group('treasures', 'chest_gy', ns.GROUP_ALPHA75),
+    TREASURE = Group('treasures', 'chest_gy', {defaults=ns.GROUP_ALPHA75}),
 }
