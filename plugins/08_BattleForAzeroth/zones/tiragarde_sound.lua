@@ -7,6 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -365,6 +366,7 @@ map.nodes[70331248] = Rare({
 -- 73328244 48596 Small Treasure Chest
 -- 76106733 48608 Small Treasure Chest
 -- 76368091 48595 Small Treasure Chest
+-- 83643572 53631 Dusty Marine Supplies (Scrimshaw Cache on minimap)
 
 -------------------------------------------------------------------------------
 
@@ -496,3 +498,71 @@ map.nodes[73103950] = Treasure({
     note=L["secret_of_the_depths_note"],
     rewards=Scroll.rewards
 }) -- Secret of the Depths
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[88628019] = PetBattle({
+    id=141215,
+    rewards={
+        Achievement({id=12936, criteria=44218})
+    }
+}) -- Unbreakable (Chitara)
+
+map.nodes[59583330] = PetBattle({
+    id=141292,
+    note=L["delia_hanako_note"],
+    rewards={
+        Achievement({id=12936, criteria=44219}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=9, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=9, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=9, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=9, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=9, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=9, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=9, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=9, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=9, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=9, oneline=true})  -- Humanoid
+    }
+}) -- That's a Big Carcass (Delia Hanako)
+
+map.nodes[67711285] = PetBattle({
+    id=141479,
+    note=L["burly_note"],
+    rewards={
+        Achievement({id=12936, criteria=44220}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=10, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=10, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=10, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=10, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=10, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=10, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=10, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=10, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=10, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=10, oneline=true})  -- Humanoid
+    }
+}) -- Strange Looking Dogs (Burly)
+
+map.nodes[86213862] = PetBattle({
+    id=141077,
+    note=L["kwint_note"],
+    rewards={
+        Achievement({id=12936, criteria=44217}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=8, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=8, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=8, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=8, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=8, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=8, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=8, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=8, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=8, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=8, oneline=true})  -- Humanoid
+    }
+}) -- Not So Bad Down Here (Kwint)

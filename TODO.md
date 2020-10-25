@@ -20,8 +20,6 @@
 
 # Battle for Azeroth
 
-* [Battle on Zandalar and Kul Tiras](https://www.wowhead.com/achievement=12936/battle-on-zandalar-and-kul-tiras)
-
 ## Zandalar
 
 ### Optional

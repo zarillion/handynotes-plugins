@@ -9,6 +9,7 @@ local Map = ns.Map
 
 local Node = ns.node.Node
 local NPC = ns.node.NPC
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -544,6 +545,74 @@ map.nodes[66921206] = Treasure({
 -- map.nodes[57645092] = SmallTreasure({quest=51946})
 -- map.nodes[60865118] = SmallTreasure({quest=51946})
 -- map.nodes[46915393] = SmallTreasure({quest=51949})
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[42537678] = PetBattle({
+    id=139987,
+    rewards={
+        Achievement({id=12936, criteria=44209})
+    }
+}) -- This Little Piggy Has Sharp Tusks (Bristlespine)
+
+map.nodes[36533365] = PetBattle({
+    id=140315,
+    note=L["eddie_fixit_note"],
+    rewards={
+        Achievement({id=12936, criteria=44211}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=2, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=2, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=2, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=2, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=2, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=2, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=2, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=2, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=2, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=2, oneline=true})  -- Humanoid
+    }
+}) -- Automated Chaos (Eddie Fixit)
+
+map.nodes[65035082] = PetBattle({
+    id=141002,
+    note=L["ellie_vern_note"],
+    rewards={
+        Achievement({id=12936, criteria=44215}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=6, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=6, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=6, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=6, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=6, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=6, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=6, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=6, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=6, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=6, oneline=true})  -- Humanoid
+    }
+}) -- Sea Creatures Are Weird (Ellie Vern)
+
+map.nodes[77182915] = PetBattle({
+    id=141046,
+    note=L["leana_darkwind_note"],
+    rewards={
+        Achievement({id=12936, criteria=44216}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=7, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=7, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=7, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=7, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=7, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=7, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=7, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=7, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=7, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=7, oneline=true})  -- Humanoid
+    }
+}) -- Captured Evil (Leana Darkwind)
 
 -------------------------------------------------------------------------------
 -------------------------- HONEYBACK HARVESTER EVENTS -------------------------

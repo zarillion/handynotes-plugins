@@ -29,6 +29,14 @@ L["runebound_cache_note"] = runebound.."Left -> Bottom -> Top -> Right"
 L["runebound_chest_note"] = runebound.."Left -> Right -> Bottom -> Top"
 L["runebound_coffer_note"] = runebound.."Right -> Top -> Left -> Bottom"
 
+-- NOTE: These quotes (and for trainers in other zones) were taken from the quotes
+-- for this NPC on Wowhead. If no quotes were listed, I started a battle with the NPC
+-- and jotted down the opening line. Adds a little flavor to the tooltips.
+L["captain_hermes_note"] = "Yeah! Crustacean power!"
+L["dilbert_mcclint_note"] = "Hey there, name's {npc:140461}, Infestation Management. Always nice to battle a fellow arachnoid enthusiast."
+L["fizzie_spark_note"] = "You think your pets have a chance against my Azerite infused team? You wish!"
+L["michael_skarn_note"] = "Just remember as we start this battle, you asked for this."
+
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
@@ -197,6 +205,10 @@ L["offering_to_bwonsamdi_note"] = "Run up the nearby tree and jump into the brok
 L["shambling_ambusher_note"] = "Attempt to loot the {npc:124473} to activate the rare."
 L["zaamar_note"] = "Inside the Necropolis Catacombs, entrance to the south."
 
+L["grady_prett_note"] = "Time to get down and battle! Lets do this!"
+L["korval_dark_note"] = "This place is spooky, lets make this a quick battle."
+L["lozu_note"] = "Lets fight with honor, stranger."
+
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
 -------------------------------------------------------------------------------
@@ -219,6 +231,10 @@ L["curious_grain_sack"] = "Curious Grain Sack"
 L["small_treasure_chest"] = "Small Treasure Chest"
 L["small_treasure_51927"] = "In the building under the stairs."
 L["small_treasure_51940"] = "In the building."
+
+L["eddie_fixit_note"] = "Prepare to face my unbeatable team of highly modified and customized robots!"
+L["ellie_vern_note"] = "I've found the toughest sea creatures around to battle for me, you don't stand a chance."
+L["leana_darkwind_note"] = "Strange creatures on this island will make for a strange battle I suspect."
 
 L["honeyback_harvester_note"] = "Talk to the {npc:155193} to begin the event. The Fresh Jelly Deposit can be looted once an hour and resets on the hour."
 L["options_icons_honeybacks"] = "Honeyback Harvesters"
@@ -259,6 +275,10 @@ L["damp_scroll_note_5"] = "In a corner under the boardwalk."..damp_note
 L["ominous_altar"] = "Ominous Altar"
 L["ominous_altar_note"] = "Talk to the Ominous Altar to be teleported to the treasure."
 L["secret_of_the_depths_note"] = "Read all five Damp Scrolls, then talk to the Ominous Altar to teleport to the treasure."
+
+L["burly_note"] = "These little guys are pretty strange, but they sure pack a punch. Are you sure you want this fight?"
+L["delia_hanako_note"] = "Before we start, I just want to remind you to not feel too bad when my team annihilates yours."
+L["kwint_note"] = "One person against one shark, maybe an even fight. One person against three? You're insane."
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -487,6 +507,10 @@ L["grayals_offering_note"] = "After completing {quest:50702}, enter Atul'Aman an
 L["kimbul_offerings_note"] = "On the hill above the Temple of Kimbul."
 L["sandsunken_note"] = "Click the Abandoned Bobber to pull the treasure out of the sand."
 
+L["keeyo_note"] = "Time for a great adventure!"
+L["kusa_note"] = "I'm on a winning streak, you have no chance against me and my team."
+L["sizzik_note"] = "I always appreciate a good battle with a new challenger."
+
 L["elusive_alpaca"] = "Feed {item:161128} to the {npc:162681} to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
 
 -------------------------------------------------------------------------------
@@ -517,6 +541,10 @@ L["riches_of_tornowa_note"] = "On the side of a cliff."
 L["spoils_of_pandaria_note"] = "On the lowest deck of the ship."
 L["tiny_voodoo_mask_note"] = "Sitting on the hut above {npc:141617}."
 L["warlords_cache_note"] = "On top at the helm of the ship."
+
+L["karaga_note"] = "I have not battled in a long while, I hope I am still a good challenge to you."
+L["talia_spark_note"] = "The critters in this land are vicious, I hope you're ready for this."
+L["zujai_note"] = "You come to face me in my own home? Good luck."
 
 L["kuafon_note"] = [[
 Loot a {item:157782} from any Pterrordax in Zandalar to begin the quest line. Some quests will take multiple days to complete.

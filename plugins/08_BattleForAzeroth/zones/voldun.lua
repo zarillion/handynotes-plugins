@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local NPC = ns.node.NPC
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -390,6 +391,74 @@ map.nodes[29388742] = Treasure({
         Achievement({id=12849, criteria=40972})
     }
 }) -- Zem'lan's Buried Treasure
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[30526194] = PetBattle({
+    id=141969,
+    rewards={
+        Achievement({id=12936, criteria=44226})
+    }
+}) -- What Do You Mean, Mind Controlling Plants? (Spineleaf)
+
+map.nodes[26585492] = PetBattle({
+    id=141945,
+    note=L["sizzik_note"],
+    rewards={
+        Achievement({id=12936, criteria=44228}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=15, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=15, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=15, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=15, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=15, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=15, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=15, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=15, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=15, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=15, oneline=true})  -- Humanoid
+    }
+}) -- Snakes on a Terrace (Sizzik)
+
+map.nodes[45134642] = PetBattle({
+    id=142054,
+    note=L["kusa_note"],
+    rewards={
+        Achievement({id=12936, criteria=44227}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=16, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=16, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=16, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=16, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=16, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=16, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=16, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=16, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=16, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=16, oneline=true})  -- Humanoid
+    }
+}) -- Desert Survivors (Kusa)
+
+map.nodes[57134896] = PetBattle({
+    id=141879,
+    note=L["keeyo_note"],
+    rewards={
+        Achievement({id=12936, criteria=44225}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=14, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=14, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=14, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=14, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=14, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=14, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=14, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=14, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=14, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=14, oneline=true})  -- Humanoid
+    }
+}) -- Keeyo's Champions of Vol'dun (Keeyo)
 
 -------------------------------------------------------------------------------
 ------------------------------ MUSHROOM HARVEST -------------------------------

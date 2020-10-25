@@ -6,6 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -412,3 +413,71 @@ map.nodes[35455498] = Treasure({
         Achievement({id=12771, criteria=40866})
     }
 }) -- Wunja's Trove
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[46657384] = PetBattle({
+    id=141588,
+    rewards={
+        Achievement({id=12936, criteria=44222})
+    }
+}) -- Crawg in the Bog (Bloodtusk)
+
+map.nodes[35935460] = PetBattle({
+    id=141799,
+    note=L["grady_prett_note"],
+    rewards={
+        Achievement({id=12936, criteria=44223}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=12, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=12, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=12, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=12, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=12, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=12, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=12, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=12, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=12, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=12, oneline=true})  -- Humanoid
+    }
+}) -- Pack Leader (Grady Prett)
+
+map.nodes[43003880] = PetBattle({
+    id=141814,
+    note=L["korval_dark_note"],
+    rewards={
+        Achievement({id=12936, criteria=44224}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=13, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=13, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=13, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=13, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=13, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=13, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=13, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=13, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=13, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=13, oneline=true})  -- Humanoid
+    }
+}) -- Accidental Dread (Korval Darkbeard)
+
+map.nodes[72864859] = PetBattle({
+    id=141529,
+    note=L["lozu_note"],
+    rewards={
+        Achievement({id=12936, criteria=44221}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=11, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=11, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=11, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=11, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=11, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=11, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=11, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=11, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=11, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=11, oneline=true})  -- Humanoid
+    }
+}) -- Marshdwellers (Lozu)

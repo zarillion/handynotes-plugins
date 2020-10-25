@@ -117,14 +117,16 @@ function Achievement:IsObtained()
 end
 
 function Achievement:Render(tooltip)
-    local _,name,_,completed,_,_,_,_,_,icon,_,_,earnedByMe = GetAchievementInfo(self.id)
-    completed = completed and (not ns:GetOpt('use_char_achieves') or earnedByMe)
-    if self.criteria then
+    local _,name,_,_,_,_,_,_,_,icon = GetAchievementInfo(self.id)
+    local completed = self:IsObtained()
+    if self.criteria and not self.oneline then
         tooltip:AddLine(ACHIEVEMENT_COLOR_CODE..'['..name..']|r')
         tooltip:AddTexture(icon, {margin={right=2}})
         for i, c in ipairs(self.criteria) do
             local cname,_,ccomp,qty,req = GetCriteriaInfo(self.id, c.id)
-            if (cname == '' or c.qty) then cname = qty..'/'..req end
+            if (cname == '' or c.qty) then
+                cname = completed and req..'/'..req or qty..'/'..req
+            end
 
             local r, g, b = .6, .6, .6
             local ctext = "   • "..cname..(c.suffix or '')

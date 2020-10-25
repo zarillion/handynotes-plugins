@@ -6,6 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -466,3 +467,83 @@ map.nodes[33713008] = Treasure({
         Achievement({id=12995, criteria=41697})
     }
 }) -- Web-Covered Chest
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[21406645] = PetBattle({
+    id=139489,
+    note=L["captain_hermes_note"],
+    rewards={
+        Achievement({id=12936, criteria=44208}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=1, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=1, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=1, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=1, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=1, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=1, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=1, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=1, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=1, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=1, oneline=true})  -- Humanoid
+    }
+}) -- Crab People (Captain Hermes)
+
+map.nodes[38153860] = PetBattle({
+    id=140813,
+    note=L["fizzie_spark_note"],
+    rewards={
+        Achievement({id=12936, criteria=44213}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=4, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=4, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=4, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=4, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=4, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=4, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=4, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=4, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=4, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=4, oneline=true})  -- Humanoid
+    }
+}) -- Rogue Azerite (Fizzie Sparkwhistle)
+
+map.nodes[61061771] = PetBattle({
+    id=140880,
+    note=L["michael_skarn_note"],
+    rewards={
+        Achievement({id=12936, criteria=44214}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=5, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=5, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=5, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=5, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=5, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=5, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=5, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=5, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=5, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=5, oneline=true})  -- Humanoid
+    }
+}) -- What's the Buzz? (Michael Skarn)
+
+map.nodes[63605971] = PetBattle({
+    id=140461,
+    note=L["dilbert_mcclint_note"],
+    rewards={
+        Achievement({id=12936, criteria=44212}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=3, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=3, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=3, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=3, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=3, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=3, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=3, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=3, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=3, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=3, oneline=true})  -- Humanoid
+    }
+}) -- Night Horrors (Dilbert McClint)

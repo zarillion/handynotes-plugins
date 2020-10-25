@@ -23,8 +23,8 @@ local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
-ns.groups.LOCKED_CHEST = Group('locked_chest', 'chest_gy')
-ns.groups.MECH_CHEST = Group('mech_chest', 'chest_rd')
+ns.groups.LOCKED_CHEST = Group('locked_chest', 'chest_gy', {defaults=ns.GROUP_ALPHA75})
+ns.groups.MECH_CHEST = Group('mech_chest', 'chest_rd', {defaults=ns.GROUP_ALPHA75})
 ns.groups.RECRIG = Group('recrig', 'peg_wb')
 
 -------------------------------------------------------------------------------

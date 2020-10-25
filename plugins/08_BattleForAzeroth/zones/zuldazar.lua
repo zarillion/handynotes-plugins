@@ -8,6 +8,7 @@ local Class = ns.Class
 local Map = ns.Map
 
 local NPC = ns.node.NPC
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -389,6 +390,74 @@ map.nodes[64712167] = Treasure({
         Achievement({id=12851, criteria=40989})
     }
 }) -- Witch Doctor's Hoard
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[68003400] = PetBattle({
+    id=142151,
+    rewards={
+        Achievement({id=12936, criteria=44231})
+    }
+}) -- You've Never Seen Jammer Upset (Jammer)
+
+map.nodes[48403500] = PetBattle({
+    id=142114,
+    note=L["talia_spark_note"],
+    rewards={
+        Achievement({id=12936, criteria=44230}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=18, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=18, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=18, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=18, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=18, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=18, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=18, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=18, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=18, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=18, oneline=true})  -- Humanoid
+    }
+}) -- Add More to the Collection (Talia Sparkbrow)
+
+map.nodes[50562391] = PetBattle({
+    id=142234,
+    note=L["zujai_note"],
+    rewards={
+        Achievement({id=12936, criteria=44232}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=19, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=19, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=19, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=19, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=19, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=19, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=19, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=19, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=19, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=19, oneline=true})  -- Humanoid
+    }
+}) -- Small Beginnings (Zujai)
+
+map.nodes[70552959] = PetBattle({
+    id=142096,
+    note=L["karaga_note"],
+    rewards={
+        Achievement({id=12936, criteria=44229}),
+        ns.reward.Spacer(),
+        Achievement({id=13270, criteria=17, oneline=true}), -- Beast
+        Achievement({id=13271, criteria=17, oneline=true}), -- Critter
+        Achievement({id=13272, criteria=17, oneline=true}), -- Dragon
+        Achievement({id=13273, criteria=17, oneline=true}), -- Elemental
+        Achievement({id=13274, criteria=17, oneline=true}), -- Flying
+        Achievement({id=13275, criteria=17, oneline=true}), -- Magic
+        Achievement({id=13277, criteria=17, oneline=true}), -- Mechanical
+        Achievement({id=13278, criteria=17, oneline=true}), -- Undead
+        Achievement({id=13280, criteria=17, oneline=true}), -- Aquatic
+        Achievement({id=13281, criteria=17, oneline=true})  -- Humanoid
+    }
+}) -- Critters are Friends, Not Food (Karaga)
 
 -------------------------------------------------------------------------------
 --------------------------------- PAKU TOTEMS ---------------------------------
