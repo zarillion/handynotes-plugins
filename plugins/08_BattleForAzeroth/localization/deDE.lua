@@ -29,6 +29,11 @@ L["runebound_cache_note"] = runebound.."links -> unten -> oben -> rechts"
 L["runebound_chest_note"] = runebound.."links -> rechts -> unten -> oben"
 L["runebound_coffer_note"] = runebound.."rechts -> oben -> links -> unten"
 
+L["captain_hermes_note"] = "Jawohl! Die Kraft der Krustentiere!"
+L["dilbert_mcclint_note"] = "Tag auch, {npc:140461}, Befallsbekämpfung. Immer schön, sich mit einem gleichgesinnten Arachnoidenbegeisterten einen Kampf zu liefern."
+L["fizzie_spark_note"] = "Denkt Ihr, dass Eure Haustiere gegen mein azeritdurchströmtes Team eine Chance haben? Das hättet Ihr wohl gerne!"
+L["michael_skarn_note"] = "Bevor wir loslegen... Vergesst nicht, dass Ihr das so wolltet!"
+
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
@@ -42,7 +47,7 @@ L["doppel_gang"] = "Die Doppelgang"
 L["doppel_note"] = 'Verwende zusammen mit zwei anderen Spielern ein {item:169470} von der täglichen Quest {quest:56405}, um die Doppelgang zu aktivieren.'
 L["drill_rig"] = "Benötigt die {npc:150306}"
 L["foul_manifest_note"] = "Verbinde alle drei Spulen mit den Pylonen im Wasser."
-L["furor_note"] = 'Klicke während der täglichen Quest "Hilfe von Nordrassil" die kleinen blauen Pilze an, bis {npc:151884} erscheint.'
+L["furor_note"] = 'Klicke während der täglichen Quest {quest:55463} die kleinen blauen Pilze an, bis {npc:151884} erscheint.'
 L["killsaw_note"] = "Erscheint irgendwo im Weichenden Wald, als Reaktion auf das Töten von {npc:151871}. Erscheint nicht an Tagen, an denen sich die Venture Company im Wald befindet und {npc:151871} nicht vorhanden sind."
 L["leachbeast_note"] = "Verwende eine {item:168961}, um die Wetteränderungsmaschine zu aktivieren."
 L["nullifier_note"] = 'Hack das "{npc:152174}", verwende entweder die {item:168435}s Lochkarte oder ein {item:168023}. Ersteres wird von {npc:151625} fallen gelassen, während letzteres von Gegnern fallen gelassen wird, die die {npc:150306} JD41 und JD99 angreifen.'
@@ -197,6 +202,10 @@ L["offering_to_bwonsamdi_note"] = "Laufe am Baum hoch, um in das zerstörte Geb�
 L["shambling_ambusher_note"] = "Versuche den {npc:124473} zu plündern, um den {npc:124475} zu aktivieren."
 L["zaamar_note"] = "In den Katakomben der Nekropole."
 
+L["grady_prett_note"] = "Zeit für den Kampf! Legen wir los!"
+L["korval_dark_note"] = "Da ist unheimlich hier. Lasst und den Kampf schnell hinter uns bringen."
+L["lozu_note"] = "Kämpf'n wir ehrenhaft, Fremdling."
+
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
 -------------------------------------------------------------------------------
@@ -205,7 +214,7 @@ L["in_basement"] = "Im Keller."
 L["jakala_note"] = "Sprich mit {npc:140925}."
 L["nestmother_acada_note"] = "Untersuche Acadas Nest, um die Nestmutter erscheinen zu lassen."
 L["sabertron_note"] = "Töte den {npc:139334}, um einen der {npc:139328} zu aktivieren."
-L["whiplash_note"] = "Erscheint nur, wenn die Weltquest {wq:Whiplash} aktiv ist."
+L["whiplash_note"] = "\nErscheint nur, wenn die Weltquest {wq:Peitschenstengel} aktiv ist."
 
 L["discarded_lunchbox_note"] = "In dem Gebäude auf dem Bücherregal."
 L["hidden_scholars_chest_note"] = "Auf dem Dach des Gebäudes."
@@ -219,6 +228,14 @@ L["curious_grain_sack"] = "Seltsamer Getreidesack"
 L["small_treasure_chest"] = "Kleine Schatztruhe"
 L["small_treasure_51927"] = "Im Gebäude unter der Treppe."
 L["small_treasure_51940"] = "Im Gebäude."
+
+L["eddie_fixit_note"] = "Macht Euch bereit, meinem unschlagbaren Team aus extrem modifizierten und maßangefertigten Roboter gegenüberzutreten!"
+L["ellie_vern_note"] = "Ich habe die stärksten Meereskreaturen, die es gibt, hier versammelt. Ihr habt keine Chance."
+L["leana_darkwind_note"] = "Ich wette, mit den komischen Kreaturen auf dieser Insel gibt es bestimmt auch komische Kämpfe.."
+
+L["honeyback_harvester_note"] = "Sprich mit der {npc:155193}, um das Event zu beginnen. Die Frische Geléeablagerung kann stündlich geplündert werden The Fresh Jelly Deposit can be looted once an hour and resets on the hour."
+L["options_icons_honeybacks"] = "Honigrückenernterin"
+L["options_icons_honeybacks_desc"] = "Zeigt die Positionen von Honigrückenernterinnen für Events zum sammeln von Ruf für die Fraktion Honigrückenschwarm an."
 
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in der Reisszahnfeste'
 L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei "..luncheon.." gekauft werden oder aus dem Schatz \"Zurückgelassene Vesperdose\" in Brennadam geplündert werden."
@@ -255,6 +272,10 @@ L["damp_scroll_note_5"] = "In einer Ecke unter der Plattform."..damp_note
 L["ominous_altar"] = "Ominöser Altar"
 L["ominous_altar_note"] = "\nSprich mit dem Ominösen Altar, um zum Schatz teleportiert zu werden."
 L["secret_of_the_depths_note"] = "Lies alle fünf feuchten Schriftrollen und sprich dann mit dem Ominösen Altar, um zum Schatz teleportiert zu werden."
+
+L["burly_note"] = "Die kleinen Jungs sind wirklich komisch, aber sie haben ganz schön Wumms in den Knochen. Seid Ihr sicher, dass Ihr diesen Kampf wollt?"
+L["delia_hanako_note"] = "Bevor wir anfangen, will ich Euch nur daran erinnern, dass Ihr Euch nicht zu arg grämen sollt, wenn mein Team das Eure vernichtet."
+L["kwint_note"] = "Wenn Ihr meinesgleichen besiegen wollt, werdetIhr ein größeres Boot brauchen, um die hier wegzuschaffen."
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -483,6 +504,10 @@ L["grayals_offering_note"] = "Nach dem Abschluss der Quest {quest:50702}, betrit
 L["kimbul_offerings_note"] = "Auf dem Berg, über dem Tempel von Kimbul."
 L["sandsunken_note"] = "Klicke den zurückgelassenen Schwimmer an, um den Schatz aus dem Sand zu ziehen."
 
+L["keeyo_note"] = "Zeit für ein großartiges Abenteuer!"
+L["kusa_note"] = "Ich habe einen Lauf. Ihr habt keine Chance gegen mich und mein Team."
+L["sizzik_note"] = "Ich freue mich immer über gute Kämpfe gegen neue Herausforderer."
+
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
 
 -------------------------------------------------------------------------------
@@ -513,6 +538,10 @@ L["riches_of_tornowa_note"] = "An der Seite einer Klippe."
 L["spoils_of_pandaria_note"] = "Auf der untersten Etage des Schiffs."
 L["tiny_voodoo_mask_note"] = "Auf dem Hüttendach über {npc:141617}."
 L["warlords_cache_note"] = "Auf dem Kopf der Galionsfigur des Schiffs."
+
+L["karaga_note"] = "Ich habe schon länger nicht mehr gekämpft. Ich hoffe, ich bin immer noch eine würdige Herausforderung."
+L["talia_spark_note"] = "Die Viecher in diesem Land sind teuflisch. Ich hoffe, Ihr seid bereit dafür."
+L["zujai_note"] = "Ihr wollt mich in meinem eig'nen Heim schlag'n? Viel Glück."
 
 L["kuafon_note"] = [[
 Plündere ein {item:157782} von Pterrordaxen in Zandalar um die Questreihe zu beginnen. Einige Quests dauern mehrere Tage.
