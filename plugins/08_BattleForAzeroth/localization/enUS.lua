@@ -559,3 +559,10 @@ L["torcali_note"] = "Complete quests at Warbeast Kraal until {quest:47261} becom
 L["totem_of_paku_note"] = "Speak to {npc:137510} north of the Great Seal to select Pa'ku as your loa in Zuldazar."
 L["options_icons_paku_totems"] = "Totems of Pa'ku"
 L["options_icons_paku_totems_desc"] = "Display travel paths for Totems of Pa'ku in Dazar'alor"
+
+-------------------------------------------------------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
+-------------------------------------------------------------------------------
+
+L["options_icons_mushroom_harvest"] = "Mushroom Harvest"
+L["options_icons_mushroom_harvest_desc"] = "Show fungarian villain locations for the Mushroom Harvest achievement."

@@ -490,6 +490,7 @@ map.nodes[72864859] = PetBattle({
 map.nodes[52367026] = NPC({
     id=143316,
     icon=1869654,
+    group=ns.groups.MUSHROOM_HARVEST,
     rewards={
         Achievement({id=13027, criteria=41390})
     },
@@ -498,8 +499,9 @@ map.nodes[52367026] = NPC({
 
 map.nodes[73634868] = NPC({
     id=143311,
-    note=L["in_small_cave"],
     icon=1869654,
+    note=L["in_small_cave"],
+    group=ns.groups.MUSHROOM_HARVEST,
     rewards={
         Achievement({id=13027, criteria=41393})
     },

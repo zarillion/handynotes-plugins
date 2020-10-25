@@ -535,6 +535,7 @@ map.nodes[70605100] = NPC({
 map.nodes[45497920] = NPC({
     id=143314,
     icon=1869654,
+    group=ns.groups.MUSHROOM_HARVEST,
     rewards={
         Achievement({id=13027, criteria=41391})
     },

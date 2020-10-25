@@ -488,6 +488,7 @@ map.nodes[54902140] = DuneRider()
 map.nodes[61001820] = NPC({
     id=143313,
     icon=1869654,
+    group=ns.groups.MUSHROOM_HARVEST,
     rewards={
         Achievement({id=13027, criteria=41392})
     },
