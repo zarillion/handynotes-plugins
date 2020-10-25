@@ -461,6 +461,55 @@ map.nodes[57134896] = PetBattle({
 }) -- Keeyo's Champions of Vol'dun (Keeyo)
 
 -------------------------------------------------------------------------------
+--------------------------------- DUNE RIDER ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[32146908] = NPC({
+    id=123535,
+    icon=134962,
+    rewards={
+        Achievement({id=13018})
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+}) -- Rickety Plank 1
+
+map.nodes[38037098] = NPC({
+    id=123535,
+    icon=134962,
+    rewards={
+        Achievement({id=13018})
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+}) -- Rickety Plank 2
+
+map.nodes[45746360] = NPC({
+    id=123535,
+    icon=134962,
+    rewards={
+        Achievement({id=13018})
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+}) -- Rickety Plank 3
+
+map.nodes[47916247] = NPC({
+    id=123535,
+    icon=134962,
+    rewards={
+        Achievement({id=13018})
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+}) -- Rickety Plank 4
+
+map.nodes[54902140] = NPC({
+    id=123535,
+    icon=134962,
+    rewards={
+        Achievement({id=13018})
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+}) -- Rickety Plank 5
+
+-------------------------------------------------------------------------------
 ------------------------------ MUSHROOM HARVEST -------------------------------
 -------------------------------------------------------------------------------
 

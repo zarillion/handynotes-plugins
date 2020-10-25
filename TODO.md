@@ -27,7 +27,6 @@
 * [A Loa of a Tale](https://www.wowhead.com/achievement=13036/a-loa-of-a-tale)
 * [Bow to Your Masters](https://www.wowhead.com/achievement=13020/bow-to-your-masters) (Horde)
 * [Carved in Stone, Written in Blood](https://www.wowhead.com/achievement=13024/carved-in-stone-written-in-blood)
-* [Dune Rider](https://www.wowhead.com/achievement=13018/dune-rider)
 * [Get Hek'd](https://www.wowhead.com/achievement=12482/get-hekd)
 * [Hoppin' Sad](https://www.wowhead.com/achievement=13028/hoppin-sad)
 * [Life Finds a Way... To Die!](https://www.wowhead.com/achievement=13048/life-finds-a-way-to-die)
