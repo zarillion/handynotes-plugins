@@ -6,6 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -481,3 +482,26 @@ map.nodes[72864859] = PetBattle({
         Achievement({id=13281, criteria=11, oneline=true})  -- Humanoid
     }
 }) -- Marshdwellers (Lozu)
+
+-------------------------------------------------------------------------------
+------------------------------ MUSHROOM HARVEST -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[52367026] = NPC({
+    id=143316,
+    icon=1869654,
+    rewards={
+        Achievement({id=13027, criteria=41390})
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+}) -- Skullcap
+
+map.nodes[73634868] = NPC({
+    id=143311,
+    note=L["in_small_cave"],
+    icon=1869654,
+    rewards={
+        Achievement({id=13027, criteria=41393})
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+}) -- Toadcruel

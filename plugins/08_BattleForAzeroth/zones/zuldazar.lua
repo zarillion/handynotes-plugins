@@ -527,3 +527,17 @@ map.nodes[70605100] = NPC({
     },
     IsCompleted = function (self) return self:IsCollected() end
 }) -- Kua'fon
+
+-------------------------------------------------------------------------------
+------------------------------ MUSHROOM HARVEST -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[45497920] = NPC({
+    id=143314,
+    icon=1869654,
+    rewards={
+        Achievement({id=13027, criteria=41391})
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+}) -- Bane of the Woods
+
