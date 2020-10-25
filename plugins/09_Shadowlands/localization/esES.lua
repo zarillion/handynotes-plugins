@@ -12,12 +12,12 @@ L["covenant_required"] = "Requiere ser miembro de la curia %s."
 L["transport_research"] = "Requiere Red de Transporte al Rango %d"
 L["anima_channeled"] = "ánima canalizada a %s."
 
-L["options_icons_fae_network_desc"] = "Muestra todos los destinos de los transportes para los anillos de los champiñones de las Sílfides Nocturnas."
-L["options_icons_fae_network"] = "Anillos de las Sílfides"
+L["options_icons_fae_network_desc"] = "Muestra todos los destinos de los transportes de champiñones de las Sílfides Nocturnas."
+L["options_icons_fae_network"] = "Red Micelial"
 L["options_icons_kyr_network_desc"] = "Muestra todos los destinos de los transportes para la red de Portales Kyrianos."
 L["options_icons_kyr_network"] = "Portales Kyrianos"
 L["options_icons_nec_network_desc"] = "Muestra todos los destinos de los transportes de Abominaciones de los Necroseñores."
-L["options_icons_nec_network"] = "Transporte Abominable"
+L["options_icons_nec_network"] = "Transportes Abominables"
 L["options_icons_ven_network_desc"] = "Muestra todos los destinos de los transportes para los Espejos de Sangre de los Venthyr."
 L["options_icons_ven_network"] = "Espejos de Sangre"
 
@@ -25,12 +25,12 @@ L["options_icons_ven_network"] = "Espejos de Sangre"
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
 
-L["deifir_note"] = "Monta {npc=164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente."
+L["deifir_note"] = "Monta en {npc=164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente."
 L["faeflayer_note"] = "En una cueva pequeña escondida tras una cascada."
-L["humongozz_note"] = "Planta una {item:175247} en la Tierra Húmeda para hacer aparecer {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. La seta cae de muchos enemigos de la zona."--Revisar (NO DATABLE) que Damp Loam sea Tierra Húmeda
-L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca {npc:167851}. En una cueva (entrada al sureste en las Madrigueras Polvorientas Dusty Burrows(58.5 31.9))."--Revisar (AREATABLE) que Dusty Burrows sea Madrigueras Polvorientas y Revisar (NO DATABLE) que Quivering Gorm Eggs sean Huevos de Gorm Temblorosos
+L["humongozz_note"] = "Planta un {item:175247} en la Tierra Húmeda para hacer aparecer un {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. El champiñón cae de muchos enemigos de la zona."--Revisar (NO DATABLE) que Damp Loam sea Tierra Húmeda
+L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas)."
 L["rainbowhorn_note"] = "\n|cffff4800¡|r|cffff9100P|r|cffffda00r|r|cffdaff00u|r|cff91ff00e|r|cff48ff00b|r|cff00ff00a|r |cff00ff91e|r|cff00ffdal|r |cff0091ffA|r|cff0048ffr|r|cff0000ffc|r|cff4800ffo|r |cffda00ffI|r|cffff00dar|r|cffff0091i|r|cffff0048s|r|cffff0000!|r"
-L["rootwrithe_note"] = "Empuja a las {npc:167928} hasta que aparezca {npc=167726}."
+L["rootwrithe_note"] = "Empuja a las {npc:167928} hasta que aparezca {npc=167726}."--TOCA SEGUIR AQUI
 L["rotbriar_note"] = "Habla con {npc:171684} y comenzará a cantar. Tras algo de diálogo, aparecerá {npc:167724} cerca."
 L["slumbering_note"] = "Correr hacia la niebla te dormirá en pocos segundos y te alejará. Usa una bengala o una mascota con daño en área para sacar a {npc=167721} fuera de la niebla."
 L["skuld_vit_note"] = "En una cueva bloqueada por una barrera. Con el hechizo {spell:310143} de la curia de las Sílfides Nocturnas se podrá atravesar la barrera y entrar en la cueva. Una vez haya sido pulleado {npc=164415}, la barrera desaparecerá."
