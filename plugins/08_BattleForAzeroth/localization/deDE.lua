@@ -206,6 +206,15 @@ L["grady_prett_note"] = "Zeit für den Kampf! Legen wir los!"
 L["korval_dark_note"] = "Da ist unheimlich hier. Lasst und den Kampf schnell hinter uns bringen."
 L["lozu_note"] = "Kämpf'n wir ehrenhaft, Fremdling."
 
+L["hoppin_sad_53419"] = "Hinter zwei Bäumen unter einer riesigen Würzel."
+L["hoppin_sad_53420"] = "In den Ruinen."
+L["hoppin_sad_53424"] = "An der Klippe."
+L["hoppin_sad_53425"] = "Am Baum nahe des Wasserfalls."
+L["hoppin_sad_53426"] = "Unter ein paar Wurzeln."
+
+L["options_icons_hoppin_sad"] = "Husch, kleiner Hüpfer"
+L["options_icons_hoppin_sad_desc"] = "Zeigt die Positionen der verlorenen Sprösslinge von Krag'wa für den Erfolg |CFFFFFF00'Husch, kleiner Hüpfer'|r an."
+
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
 -------------------------------------------------------------------------------

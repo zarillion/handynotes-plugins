@@ -209,6 +209,15 @@ L["grady_prett_note"] = "Time to get down and battle! Lets do this!"
 L["korval_dark_note"] = "This place is spooky, lets make this a quick battle."
 L["lozu_note"] = "Lets fight with honor, stranger."
 
+L["hoppin_sad_53419"] = "Behind two trees under a huge root."
+L["hoppin_sad_53420"] = "In the ruins."
+L["hoppin_sad_53424"] = "On a cliff."
+L["hoppin_sad_53425"] = "On the tree near the waterfall."
+L["hoppin_sad_53426"] = "Under a few roots."
+
+L["options_icons_hoppin_sad"] = "Hoppin' Sad"
+L["options_icons_hoppin_sad_desc"] = "Show lost spawn of Krag'wa locations for the Hoppin' Sad achievement."
+
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
 -------------------------------------------------------------------------------

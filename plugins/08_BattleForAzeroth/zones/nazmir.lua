@@ -4,6 +4,7 @@
 
 local ADDON_NAME, ns = ...
 local L = ns.locale
+local Class = ns.Class
 local Map = ns.Map
 
 local NPC = ns.node.NPC
@@ -482,6 +483,30 @@ map.nodes[72864859] = PetBattle({
         Achievement({id=13281, criteria=11, oneline=true})  -- Humanoid
     }
 }) -- Marshdwellers (Lozu)
+
+-------------------------------------------------------------------------------
+--------------------------------- HOPPIN' SAD ---------------------------------
+-------------------------------------------------------------------------------
+
+local HoppinSad = Class('HoppinSad', Rare, {
+    id=143317,
+    icon=804969,
+    group=ns.groups.HOPPIN_SAD,
+    rewards={
+        Achievement({id=13028, criteria=1})
+    }
+})
+
+map.nodes[69575866] = HoppinSad({quest=53417, note=L["in_water_cave"]})
+map.nodes[65575093] = HoppinSad({quest=53418, note=L["in_water_cave"]})
+map.nodes[56026506] = HoppinSad({quest=53419, note=L["hoppin_sad_53419"]})
+map.nodes[52834285] = HoppinSad({quest=53420, note=L["hoppin_sad_53420"]})
+map.nodes[34156191] = HoppinSad({quest=53421, note=L["in_small_cave"]})
+map.nodes[44629278] = HoppinSad({quest=53422, note=L["in_waterfall_cave"], pois={POI({45379127})}})
+map.nodes[28898316] = HoppinSad({quest=53423, note=L["in_small_cave"]})
+map.nodes[24179172] = HoppinSad({quest=53424, note=L["hoppin_sad_53424"]})
+map.nodes[21866934] = HoppinSad({quest=53425, note=L["hoppin_sad_53425"]})
+map.nodes[25674057] = HoppinSad({quest=53426, note=L["hoppin_sad_53426"]})
 
 -------------------------------------------------------------------------------
 ------------------------------ MUSHROOM HARVEST -------------------------------
