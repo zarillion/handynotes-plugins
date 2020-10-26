@@ -211,6 +211,13 @@ L["tales_hireek_note"] = "Die Schriftrolle auf dem Tisch."
 L["tales_kragwa_note"] = "An der zerstörten Mauer."
 L["tales_torga_note"] = "Unter Wasser, an der zerstörten Säule."
 
+L["carved_in_stone_41860"] = "In einem zerstörten Gebäude in der Nähe des Berges"
+L["carved_in_stone_41861"] = "An der zerstörten Säule."
+L["carved_in_stone_41862"] = "An der zerstörten Mauer, vor der riesigen Säule."
+L["carved_in_stone_42116"] = "An einer Säule in der Nähe von {npc:126126}"
+L["options_icons_carved_in_stone"] = "In Stein gemeißelt, in Blut geschrieben"
+L["options_icons_carved_in_stone_desc"] = "Zeigt die Positionen der Piktogramme für den Erfolg |CFFFFFF00'In Stein gemeißelt, in Blut geschrieben'|r an."
+
 L["hoppin_sad_53419"] = "Hinter zwei Bäumen unter einer riesigen Würzel."
 L["hoppin_sad_53420"] = "In den Ruinen."
 L["hoppin_sad_53424"] = "An der Klippe."

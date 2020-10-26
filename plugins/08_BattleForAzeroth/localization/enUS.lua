@@ -214,6 +214,13 @@ L["tales_hireek_note"] = "A Scroll on the table."
 L["tales_kragwa_note"] = "At the destroyed wall"
 L["tales_torga_note"] = "Underwater at a destroyed pillar."
 
+L["carved_in_stone_41860"] = "Inside a destroyed building near the mountain."
+L["carved_in_stone_41861"] = "At the destroyed pillar."
+L["carved_in_stone_41862"] = "At the destroyed wall, in front of the huge pillar."
+L["carved_in_stone_42116"] = "At a pillar next to {npc:126126}."
+L["options_icons_carved_in_stone"] = "Carved in Stone, Written in Blood"
+L["options_icons_carved_in_stone_desc"] = "Show pictograph locations for the Carved in Stone, Written in Blood achievement."
+
 L["hoppin_sad_53419"] = "Behind two trees under a huge root."
 L["hoppin_sad_53420"] = "In the ruins."
 L["hoppin_sad_53424"] = "On a cliff."

@@ -527,6 +527,44 @@ map.nodes[72850760] = TalesOfTheLoa({
 }) -- Tales of de Loa: Torga
 
 -------------------------------------------------------------------------------
+---------------------- CARVED IN STONE, WRITTEN IN BLOOD ----------------------
+-------------------------------------------------------------------------------
+
+local CarvedInStone = Class('CarvedInStone', Treasure, {
+    icon=134424,
+    group=ns.groups.CARVED_IN_STONE,
+    IsCompleted = function (self) return self:IsCollected() end
+})
+
+map.nodes[56355736] = CarvedInStone({
+    note=L["carved_in_stone_41860"],
+    rewards={
+        Achievement({id=13024, criteria=41860})
+    }
+})  -- Ancient Nazmani Tablet
+
+map.nodes[43354811] = CarvedInStone({
+    note=L["carved_in_stone_41861"],
+    rewards={
+        Achievement({id=13024, criteria=41861})
+    }
+})  -- Weathered Nazmani Tablet
+
+map.nodes[51278510] = CarvedInStone({
+    note=L["carved_in_stone_41862"],
+    rewards={
+        Achievement({id=13024, criteria=41862})
+    }
+})  -- Cracked Tablet
+
+map.nodes[42555710] = CarvedInStone({
+    note=L["carved_in_stone_42116"],
+    rewards={
+        Achievement({id=13024, criteria=42116})
+    }
+})  -- Fractured Tablet
+
+-------------------------------------------------------------------------------
 --------------------------------- HOPPIN' SAD ---------------------------------
 -------------------------------------------------------------------------------
 
