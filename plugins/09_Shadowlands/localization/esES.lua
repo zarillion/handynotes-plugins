@@ -30,35 +30,35 @@ L["faeflayer_note"] = "En una cueva pequeña escondida tras una cascada."
 L["humongozz_note"] = "Planta un {item:175247} en la Tierra Húmeda para hacer aparecer un {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. El champiñón cae de muchos enemigos de la zona."--Revisar (NO DATABLE) que Damp Loam sea Tierra Húmeda
 L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas)."
 L["rainbowhorn_note"] = "\n|cffff4800¡|r|cffff9100P|r|cffffda00r|r|cffdaff00u|r|cff91ff00e|r|cff48ff00b|r|cff00ff00a|r |cff00ff91e|r|cff00ffdal|r |cff0091ffA|r|cff0048ffr|r|cff0000ffc|r|cff4800ffo|r |cffda00ffI|r|cffff00dar|r|cffff0091i|r|cffff0048s|r|cffff0000!|r"
-L["rootwrithe_note"] = "Empuja a las {npc:167928} hasta que aparezca {npc=167726}."--TOCA SEGUIR AQUI
+L["rootwrithe_note"] = "Haz click en las {npc:167928} hasta que aparezca el {npc=167726}."
 L["rotbriar_note"] = "Habla con {npc:171684} y comenzará a cantar. Tras algo de diálogo, aparecerá {npc:167724} cerca."
-L["slumbering_note"] = "Correr hacia la niebla te dormirá en pocos segundos y te alejará. Usa una bengala o una mascota con daño en área para sacar a {npc=167721} fuera de la niebla."
+L["slumbering_note"] = "Correr hacia la niebla te dormirá en pocos segundos y te alejará. Usa una bengala o una mascota con daño en área para sacar al {npc=167721} fuera de la niebla."
 L["skuld_vit_note"] = "En una cueva bloqueada por una barrera. Con el hechizo {spell:310143} de la curia de las Sílfides Nocturnas se podrá atravesar la barrera y entrar en la cueva. Una vez haya sido pulleado {npc=164415}, la barrera desaparecerá."
-L["valfir_note"] = "Haz click en la Semilla de Ánima Brillante a mitad de camino y usa {spell:338045} para quitar el buff {spell:338038} de {npc=168647}."--Revisar (VIGNETTE) que Sparkling Animaseed sea Semilla de Ánima Brillante
-L["wrigglemortis_note"] = "Estira el {npc:164179} para sacarlo de la tierra y hacer aparecer a {npc=164147}."
+L["valfir_note"] = "Haz click en la Semilla de Ánima Brillante a mitad de camino y usa la {spell:338045} para quitar el buff {spell:338038} de {npc=168647}."
+L["wrigglemortis_note"] = "Estira del {npc:164179} para sacarlo de la tierra y hacer aparecer al {npc=164147}."
 
 L["night_mare_note"] = [[
-Viaja a Tirna Scithe y sigue el camino de la raíz, en el acantilado noroeste, hasta llegar a un carro roto. Allí podrás despojar una {item:181243} en el suelo.
+Viaja a Tirna Scithe y sigue el camino por la raíz, en el acantilado noroeste, hasta llegar a una vagoneta rota. Allí podrás despojar una {item:181243} en el suelo.
 
-Lleva ese objeto a {npc:165704} a la Cuenca Brillocascada. Te dará una {item:181242} a cambio de 10 {item:173204}. |cFFFF8C00Si no está aquí el NPC, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormling|r y |cFFFFFD00Spriggans Difíciles|r.|r
+Lleva ese objeto a la {npc:165704} a la Cuenca Brillocascada. Te dará una {item:181242} a cambio de 10 {item:173204}. |cFFFF8C00Si ella no está aquí, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormitos|r y |cFFFFFD00Spriggans marrulleros|r.|r
 
 Después, habla con {npc:160262} en el Corazón del Bosque para cambiarle la {item:181242} por un {item:178675}. Usa este objeto para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
-]]--Revisar que follow the root path sea sigue el camino de la raíz o sigue el camino de raices, que (QUESTLINE) Trouble at the Gormling Corral sea Problemas en el Corral de Gormling, (QUESTLINE) que Tricky Spriggans sean Spriggans Difíciles, (AREATABLE) que Heart of the Forest sea Corazón del Bosque
+]]
 
 L["star_lake"] = "Anfiteatro del Lago Estrellado"
 L["star_lake_note"] = "Habla con {npc:171743} para iniciar uno de los combates especiales."
 
-L["cache_of_the_moon"] = "Recoge las cinco herramientas perdidas de {npc:171360} en el Jardín de la Noche y combínalas para crear el {item:180753}. Dáselo y ella te lanzará {spell:334353}, permitiéndote ver el cofre."
-L["cache_of_the_night"] = "Recoge {item:180656}, {item:180654} y {item:180655} por toda la zona y combínalo todo para crear {item:180652}."
-L["darkreach_supplies"] = "Salta en la {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro Alijo de la Noche." --Revisar (VIGNETTE, CRITERIATREE) que Cache of the Night treasure sea Alijo de la Noche
-L["desiccated_moth"] = "Salta sobre {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el Quemador de Incienso para conseguir el tesoro."--Revisar (ITEMSPARSE) que Incense Burner sea Quemador de Incienso
-L["dreamsong_heart"] = "Salta sobre {npc:169997} lejos al noreste para ser lanzado dentro del árbol."
-L["elusive_faerie_cache"] = "Coge el {spell:333923} en la esquina noreste de la Arboleda del Manto Nocturno y lo usas para despojar el cofre."
-L["enchanted_dreamcatcher"] = "Colgando de la parte superior de las raíces. La forma más facil del saltar arriba es en el lado oeste."
+L["cache_of_the_moon"] = "Recoge las cinco herramientas perdidas de {npc:171360} en el Jardín de la Noche y combínalas para crear las {item:180753}. Dáselas y ella te lanzará {spell:334353}, permitiéndote ver el cofre."
+L["cache_of_the_night"] = "Recoge una {item:180656}, un {item:180654} y {item:180655} por toda la zona y combínalo todo para crear un {item:180652}."
+L["darkreach_supplies"] = "Salta en un {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro Alijo de la Noche."
+L["desiccated_moth"] = "Salta sobre un {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el Quemador de Incienso para conseguir el tesoro."
+L["dreamsong_heart"] = "Usa un {npc:169997} debajo del árbol para ser lanzado dentro."
+L["elusive_faerie_cache"] = "Coge el {spell:333923} en la esquina noreste de la Arboleda del Manto Nocturno y úsalo para despojar el cofre."
+L["enchanted_dreamcatcher"] = "Colgando de la parte superior de las raíces. La forma más facil de saltar arriba es en el lado oeste."
 L["faerie_trove"] = "Está debajo de la plataforma."
 L["harmonic_chest"] = "Requiere dos personas. Uno toca el arpa y el otro toca el tambor para desbloquear el cofre."
 L["hearty_dragon_plume"] = "Haz click en la {spell:333554} en la cima de las cascadas cercanas y úsala para flotar abajo hasta la rama."
-L["old_ardeite_note"] = "Mata al {npc:160747} y al {npc:160748} en Shimmerbough hacia el sureste para conseguir {item:174042}. Usa este objeto para volar cerca de {npc:164391} y targetearlo."
+L["old_ardeite_note"] = "Mata al {npc:160747} y al {npc:160748} en Ramacentella hacia el sureste para conseguir el {item:174042}. Usa este objeto para volar cerca del {npc:164391} y targetearlo."
 L["swollen_anima_seed"] = "Una gran semilla reposando dentro del tronco de un árbol."
 
 L["playful_vulpin_note"] = [[
@@ -69,18 +69,18 @@ Encuentra y usa la emoción correcta en el {npc:171206} cinco veces para consegu
 • canta solo = |cFFFF8C00/cantar|r
 • baila de alegría = |cFFFF8C00/bailar|r
 • se sienta solo y triste = |cFFFF8C00/acariciar|r
-]]--Revisar emociones de texto
+]]
 
-L["tame_gladerunner"] = "Muerdeclaros Faucespina"
+L["tame_gladerunner"] = "Asaltaclaros domesticado"
 L["tame_gladerunner_note"] = [[
 Lee la "Historia de una Confusión" y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
 
-Si tomas el camino equivocado y desaparece el {npc:171699} cuando llegues al final, vuelve al comienzo y lee de nuevo el "Cuento de una Confusión" antes de volverlo a intentar. Si {npc:171767} no está, tendrás que esperar a que aparezca.
+Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo el "Cuento de una Confusión" antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
 ]]--Revisar (NODATABLE) que "Tale of the Tangle" sea "Historia de una Confusión"
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
--------------------------------------------------------------------------------
+------------------------------------------------------------------------------- --TOCA SEGUIR AQUI
 
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con {npc:171211} como objetivo para activarlo."
 L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."--Revisar (SPELLNAME) que Casks of Fermenting Purian Fruit sea Barriles de Fruta Puriana Fermentada
