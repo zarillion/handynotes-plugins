@@ -520,6 +520,12 @@ L["keeyo_note"] = "Time for a great adventure!"
 L["kusa_note"] = "I'm on a winning streak, you have no chance against me and my team."
 L["sizzik_note"] = "I always appreciate a good battle with a new challenger."
 
+L["plank_1"] = "Where the sand ends at the top of the hill."
+L["plank_2"] = "Next to a broken building."
+L["plank_3"] = "On the side of the pyramid. Path starts at the other nearby plank."
+L["plank_4"] = "At the top of a sand dune along the side of the pyramid."
+L["plank_5"] = "Follow the serpent's tail to find the plank."
+L["planks_ridden"] = "rickety planks ridden"
 L["options_icons_dune_rider"] = "Dune Rider"
 L["options_icons_dune_rider_desc"] = "Show rickety plank locations for the Dune Rider achievement."
 

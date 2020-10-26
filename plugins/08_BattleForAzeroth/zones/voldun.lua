@@ -17,6 +17,7 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Transmog = ns.reward.Transmog
 
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -470,16 +471,30 @@ local DuneRider = Class('DuneRider', NPC, {
     icon=134962,
     group=ns.groups.DUNE_RIDER,
     rewards={
-        Achievement({id=13018})
+        Achievement({id=13018, criteria={
+            {id=1, qty=true, suffix=" "..L["planks_ridden"]}
+        }})
     },
-    IsCompleted = function (self) return self:IsCollected() end
+    IsCompleted = function (self)
+        if self:IsCollected() then return true end
+        return select(3, GetAchievementCriteriaInfoByID(13018, self.criteria))
+    end
 })
 
-map.nodes[32146908] = DuneRider()
-map.nodes[38037098] = DuneRider()
-map.nodes[45746360] = DuneRider()
-map.nodes[47916247] = DuneRider()
-map.nodes[54902140] = DuneRider()
+map.nodes[32146908] = DuneRider({criteria=41361, note=L["plank_1"]}) -- Cracked Coast
+map.nodes[38037098] = DuneRider({criteria=41363, note=L["plank_2"]}) -- Zemlan
+map.nodes[45746360] = DuneRider({criteria=41560, note=L["plank_3"], pois={
+    Path({47916247, 47616221, 47106220, 46886272, 45936272, 46086301, 45746360})
+}}) -- Drop Off
+map.nodes[47916247] = DuneRider({criteria=41360, note=L["plank_4"]}) -- Atul'Aman
+map.nodes[54902140] = DuneRider({criteria=41362, note=L["plank_5"], pois={
+    Path({
+        53493195, 54143208, 54853156, 55023033, 55422922, 56152855,
+        56972813, 57562721, 57572598, 57332477, 57362349, 57232223,
+        56572163, 55732185, 54902140
+    }),
+    POI({53493195})
+}}) -- Skycaller's Spire
 
 -------------------------------------------------------------------------------
 ------------------------------ MUSHROOM HARVEST -------------------------------
