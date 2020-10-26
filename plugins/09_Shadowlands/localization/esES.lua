@@ -82,29 +82,29 @@ Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al fi
 ----------------------------------- BASTION -----------------------------------
 ------------------------------------------------------------------------------- --TOCA SEGUIR AQUI
 
-L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con {npc:171211} como objetivo para activarlo."
-L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."--Revisar (SPELLNAME) que Casks of Fermenting Purian Fruit sea Barriles de Fruta Puriana Fermentada
+L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con el {npc:171211} como objetivo para activarlo."
+L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."
 L["basilofos_note"] = "Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}."
-L["beasts_of_bastion"] = "Bestias del Bastión"
+L["beasts_of_bastion"] = "Bestias de Bastión"
 L["beasts_of_bastion_note"] = [[
-Habla con {npc:161441} para invocar una de las cuatro bestias.
+Habla con la {npc:161441} para invocar una de las cuatro bestias.
 
-|cFFFF0000NOTE|r: El NPC se bugea frecuentemente y no hablará contigo.
+|cFFFF0000NOTE|r: La NPC se bugea frecuentemente y no hablará contigo.
 ]]
-L["bookkeeper_mnemis_note"] = "Tiene la posibilidad de aparecer en lugar de los {npc:166867} del sitio."
-L["cloudfeather_patriarch_note"] = "Mata {npc:158110} en el aŕea hasta que {npc:170932} aparezca."
-L["collector_astor_note"] = "Lee los seis capítulos del Legado de Mercia dispersos por la habitación y recibirás un susurro de {npc:157979}. Habla con ella para recibir {spell:333779} el cual te permitirá encontrar el {item:180569} al noroeste. Al devolverle el capítulo, aparecerá {npc:171014}."--Revisar (NODATABLE) que Mercia's Legacy sea Legado de Mercia
-L["corrupted_clawguard_note"] = "Despoja un {item:180651} en Avanzada Forjafuego subiendo la colina y úsalo para reparar el {npc:171300}."--Revisar (AREATABLE) que Forgefire Outpost es Avanzada Forjafuego
-L["dark_watcher_note"] = "Sólo puede verse estando muerto. Habla con {npc:170623} y lanzará {spell:332830} en ti antes de que seas atacado."
+L["bookkeeper_mnemis_note"] = "Tiene la posibilidad de aparecer en lugar de las {npc:166867} del sitio."
+L["cloudfeather_patriarch_note"] = "Mata {npc:158110} en el aŕea hasta que aparezca el {npc:170932}."
+L["collector_astor_note"] = "Lee los seis capítulos del Legado de Mercia dispersos por la habitación y recibirás un susurro del {npc:157979}. Habla con ella para recibir {spell:333779} la cual te permitirá encontrar {item:180569} al noroeste. Al devolvérselo, aparecerá el {npc:171014}."--Revisar (NODATABLE) que Mercia's Legacy sea Legado de Mercia
+L["corrupted_clawguard_note"] = "Despoja un {item:180651} en Avanzada Forjafuego subiendo la colina y úsalo para reparar el {npc:171300}."
+L["dark_watcher_note"] = "Sólo puede verse estando muerto. Habla con la {npc:170623} y te lanzará {spell:332830} antes de que seas atacado."
 L["demi_hoarder_note"] = "Comienza con 99 acumulaciones de {spell:333874}, reduciendo el daño recibido. Las acumulaciones bajan lentamente con el daño. {npc:171011} seguirá una ruta. Desaparecerá si alcanza el final."
-L["dionae_note"] = "Cuando {npc:163460} se hace immune, haz click en las cuatro {npc:163747} para romperle el escudo."--Revisar (SPELLNAME, SPELL) genero de las/los Anima Spear (npc:163747)
+L["dionae_note"] = "Cuando {npc:163460} se hace immune, haz click en las cuatro {npc:163747} para romperle el escudo."
 L["herculon_note"] = [[
 Recoge {item:172451} y úsalas para dar a {npc:158659} acumulaciones de {spell:343531}. A las 10 acumulaciones, se activará.
 
 Las motas se pueden recoger de los Recipientes de Ánima Agotados cercanos localizados en la habitación o justo fuera.
 
 |cFFFF8C00No puede ser derrotado durante la misión del mundo {wq:Assault on the Vestibule}.|r
-]]--Revisar (NO DATABLE) que Depleted Anima Canisters sean Recipientes de Ánima Agotados y (QUESTV2CLITASK) que Assault on the Vestibule sea Asalto al Vestíbulo
+]]--Revisar (NO DATABLE) que Depleted Anima Canisters sean Recipientes de Ánima Agotados y (QUESTV2CLITASK) que Assault on the Vestibule sea Asalto al Vestíbulo  TOCA SEGUIR POR AQUÍ
 L["nikara_note"] = "Con otros dos jugadores, haz click en el Ancient Incense para invocar a {npc:160882}."
 L["sotiros_orstus_note"] = "Haz click en la Campana Negra para invocar a los raros."--Revisar (VIGNETTE) que Black Bell sea Campana Negra
 L["sundancer_note"] = "Haz click en la estatua para conseguir el buff {spell:332309}, entonces usa {item:180445} para planear hasta {npc:170548} y montarlo."
