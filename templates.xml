@@ -74,7 +74,7 @@
     <Size x="240" y="20"/>
     <Layers>
       <Layer>
-        <FontString parentKey="Text" inherits="GameFontHighlightSmallLeft">
+        <FontString parentKey="Text" inherits="GameFontHighlightSmallLeft" wordwrap="true" maxLines="2">
           <Anchors>
             <Anchor point="TOP"/>
             <Anchor point="BOTTOM"/>
