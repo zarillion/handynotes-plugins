@@ -24,7 +24,6 @@
 
 ### Optional
 
-* [A Loa of a Tale](https://www.wowhead.com/achievement=13036/a-loa-of-a-tale)
 * [Bow to Your Masters](https://www.wowhead.com/achievement=13020/bow-to-your-masters) (Horde)
 * [Carved in Stone, Written in Blood](https://www.wowhead.com/achievement=13024/carved-in-stone-written-in-blood)
 * [Get Hek'd](https://www.wowhead.com/achievement=12482/get-hekd)

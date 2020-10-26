@@ -463,6 +463,39 @@ map.nodes[57134896] = PetBattle({
 }) -- Keeyo's Champions of Vol'dun (Keeyo)
 
 -------------------------------------------------------------------------------
+------------------------------- A LOA OF A TALE -------------------------------
+-------------------------------------------------------------------------------
+
+local TalesOfTheLoa = Class('TalesOfTheLoa', Treasure, {
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
+})
+
+map.nodes[42206206] = TalesOfTheLoa({
+    quest=53532,
+    note=L["tales_akunda_note"],
+    rewards={
+        Achievement({id=13036, criteria=41564})
+    }
+}) -- Tales of de Loa: Akunda
+
+map.nodes[27706205] = TalesOfTheLoa({
+    quest=53539,
+    note=L["tales_kimbul_note"],
+    rewards={
+        Achievement({id=13036, criteria=41570})
+    }
+}) -- Tales of de Loa: Kimbul
+
+map.nodes[49592446] = TalesOfTheLoa({
+    quest=53543,
+    note=L["tales_sethraliss_note"],
+    rewards={
+        Achievement({id=13036, criteria=41574})
+    }
+}) -- Tales of de Loa: Sethraliss
+
+-------------------------------------------------------------------------------
 --------------------------------- DUNE RIDER ----------------------------------
 -------------------------------------------------------------------------------
 

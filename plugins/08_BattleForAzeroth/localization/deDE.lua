@@ -206,6 +206,11 @@ L["grady_prett_note"] = "Zeit für den Kampf! Legen wir los!"
 L["korval_dark_note"] = "Da ist unheimlich hier. Lasst und den Kampf schnell hinter uns bringen."
 L["lozu_note"] = "Kämpf'n wir ehrenhaft, Fremdling."
 
+L["tales_bwonsamdi_note"] = "An der zerstörten Säule."
+L["tales_hireek_note"] = "Die Schriftrolle auf dem Tisch."
+L["tales_kragwa_note"] = "An der zerstörten Mauer."
+L["tales_torga_note"] = "Unter Wasser, an der zerstörten Säule."
+
 L["hoppin_sad_53419"] = "Hinter zwei Bäumen unter einer riesigen Würzel."
 L["hoppin_sad_53420"] = "In den Ruinen."
 L["hoppin_sad_53424"] = "An der Klippe."
@@ -517,6 +522,10 @@ L["keeyo_note"] = "Zeit für ein großartiges Abenteuer!"
 L["kusa_note"] = "Ich habe einen Lauf. Ihr habt keine Chance gegen mich und mein Team."
 L["sizzik_note"] = "Ich freue mich immer über gute Kämpfe gegen neue Herausforderer."
 
+L["tales_akunda_note"] = "Im Teich."
+L["tales_kimbul_note"] = "Neben dem verdorrten Baum."
+L["tales_sethraliss_note"] = "Auf dem Boden neben dem Tisch."
+
 L["options_icons_dune_rider"] = "Dünenreiter"
 L["options_icons_dune_rider_desc"] = "Zeigt die Positionen der wackeligen Planken für den Erfolg |CFFFFFF00'Dünenreiter'|r an."
 
@@ -566,9 +575,21 @@ L["totem_of_paku_note"] = "Sprich mit {npc:137510} (bei 50.7, 35.4), um Pa'ku al
 L["options_icons_paku_totems"] = "Totems von Pa'ku"
 L["options_icons_paku_totems_desc"] = "Zeigt die Totems von Pa'ku in Dazar'alor an."
 
+L["tales_gonk_note"] = "Liegt auf der Decke."
+L["tales_gral_note"] = "An den Wurzeln des Baumes."
+L["tales_jani_note"] = "Hängt an der zerbrochenen Steinsäule."
+L["tales_paku_note"] = "Auf dem Gebäude, auf einem Felsen am Wasser."
+L["tales_rezan_note"] = "Über der Höhle von {npc:136428}."
+L["tales_shadra_note"] = "Neben dem Eingang, hinter einer Fackel."
+L["tales_torcali_note"] = "Zwischen ein paar Fässern und der Treppe."
+L["tales_zandalar_note"] = "Hinter {npc:132989}."
+
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
 L["options_icons_mushroom_harvest"] = "Pilzernte"
-L["options_icons_mushroom_harvest_desc"] = "Zeigt die Positionen der Fungianerbösewichte für den Erfolg 'Pilzernte' an."
+L["options_icons_mushroom_harvest_desc"] = "Zeigt die Positionen der Fungianerbösewichte für den Erfolg |CFFFFFF00'Pilzernte'|r an."
+
+L["options_icons_tales_of_de_loa"] = "Aus dem Leben eines Loas"
+L["options_icons_tales_of_de_loa_desc"] = "Zeigt die Positionen der Legend'n der Loa für den Erfolg |CFFFFFF00'Aus dem Leben eines Loas'|r an."

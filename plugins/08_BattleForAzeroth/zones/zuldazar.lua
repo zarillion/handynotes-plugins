@@ -529,6 +529,82 @@ map.nodes[70605100] = NPC({
 }) -- Kua'fon
 
 -------------------------------------------------------------------------------
+------------------------------- A LOA OF A TALE -------------------------------
+-------------------------------------------------------------------------------
+
+local TalesOfTheLoa = Class('TalesOfTheLoa', Treasure, {
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
+})
+
+map.nodes[51692825] = TalesOfTheLoa({
+    quest=53535,
+    note=L["tales_gonk_note"],
+    rewards={
+        Achievement({id=13036, criteria=41566})
+    }
+}) -- Tales of de Loa: Gonk
+
+map.nodes[75506760] = TalesOfTheLoa({
+    quest=53536,
+    note=L["tales_gral_note"],
+    rewards={
+        Achievement({id=13036, criteria=41567})
+    }
+}) -- Tales of de Loa: Gral
+
+map.nodes[48545460] = TalesOfTheLoa({
+    quest=53538,
+    note=L["tales_jani_note"],
+    rewards={
+        Achievement({id=13036, criteria=41569})
+    }
+}) -- Tales of de Loa: Jani
+
+map.nodes[49004129] = TalesOfTheLoa({
+    quest=53541,
+    note=L["tales_paku_note"],
+    rewards={
+        Achievement({id=13036, criteria=41572})
+    }
+}) -- Tales of de Loa: Paku
+
+map.nodes[43737673] = TalesOfTheLoa({
+    quest=53542,
+    note=L["tales_rezan_note"],
+    rewards={
+        Achievement({id=13036, criteria=41573})
+    }
+}) -- Tales of de Loa: Rezan
+
+map.nodes[47842884] = TalesOfTheLoa({
+    quest=53544,
+    note=L["tales_shadra_note"],
+    rewards={
+        Achievement({id=13036, criteria=41576})
+    }
+}) -- Tales of de Loa: Shadra
+
+map.nodes[67281762] = TalesOfTheLoa({
+    quest=53546,
+    note=L["tales_torcali_note"],
+    rewards={
+        Achievement({id=13036, criteria=41577})
+    }
+}) -- Tales of de Loa: Torcali
+
+local taleszandalar = TalesOfTheLoa({
+    quest=53548,
+    note=L["tales_zandalar_note"],
+    rewards={
+        Achievement({id=13036, criteria=41581})
+    }
+}) -- Tales of de Loa: Zandalar
+
+map.nodes[59053218] = ns.Clone(taleszandalar)
+daz.nodes[53230929] = taleszandalar
+
+-------------------------------------------------------------------------------
 ------------------------------ MUSHROOM HARVEST -------------------------------
 -------------------------------------------------------------------------------
 

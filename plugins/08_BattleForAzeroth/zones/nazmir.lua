@@ -485,6 +485,48 @@ map.nodes[72864859] = PetBattle({
 }) -- Marshdwellers (Lozu)
 
 -------------------------------------------------------------------------------
+------------------------------- A LOA OF A TALE -------------------------------
+-------------------------------------------------------------------------------
+
+local TalesOfTheLoa = Class('TalesOfTheLoa', Treasure, {
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
+--    IsCompleted = function (self) return self:IsCollected() end
+})
+
+map.nodes[39123865] = TalesOfTheLoa({
+    quest=53534,
+    note=L["tales_bwonsamdi_note"],
+    rewards={
+        Achievement({id=13036, criteria=41565})
+    }
+}) -- Tales of de Loa: Bwonsamdi
+
+map.nodes[39575467] = TalesOfTheLoa({
+    quest=53537,
+    note=L["tales_hireek_note"],
+    rewards={
+        Achievement({id=13036, criteria=41568})
+    }
+}) -- Tales of de Loa: Hir'eek
+
+map.nodes[58924865] = TalesOfTheLoa({
+    quest=53540,
+    note=L["tales_kragwa_note"],
+    rewards={
+        Achievement({id=13036, criteria=41571})
+    }
+}) -- Tales of de Loa: Krag'wa
+
+map.nodes[72850760] = TalesOfTheLoa({
+    quest=53547,
+    note= L["tales_torga_note"],
+    rewards={
+        Achievement({id=13036, criteria=41579})
+    }
+}) -- Tales of de Loa: Torga
+
+-------------------------------------------------------------------------------
 --------------------------------- HOPPIN' SAD ---------------------------------
 -------------------------------------------------------------------------------
 

@@ -209,6 +209,11 @@ L["grady_prett_note"] = "Time to get down and battle! Lets do this!"
 L["korval_dark_note"] = "This place is spooky, lets make this a quick battle."
 L["lozu_note"] = "Lets fight with honor, stranger."
 
+L["tales_bwonsamdi_note"] = "At the destroyed pillar."
+L["tales_hireek_note"] = "A Scroll on the table."
+L["tales_kragwa_note"] = "At the destroyed wall"
+L["tales_torga_note"] = "Underwater at a destroyed pillar."
+
 L["hoppin_sad_53419"] = "Behind two trees under a huge root."
 L["hoppin_sad_53420"] = "In the ruins."
 L["hoppin_sad_53424"] = "On a cliff."
@@ -520,6 +525,10 @@ L["keeyo_note"] = "Time for a great adventure!"
 L["kusa_note"] = "I'm on a winning streak, you have no chance against me and my team."
 L["sizzik_note"] = "I always appreciate a good battle with a new challenger."
 
+L["tales_akunda_note"] = "In the pond"
+L["tales_kimbul_note"] = "Next to the withered tree"
+L["tales_sethraliss_note"] = "On the ground next to the table."
+
 L["plank_1"] = "Where the sand ends at the top of the hill."
 L["plank_2"] = "Next to a broken building."
 L["plank_3"] = "On the side of the pyramid. Path starts at the other nearby plank."
@@ -575,9 +584,21 @@ L["totem_of_paku_note"] = "Speak to {npc:137510} north of the Great Seal to sele
 L["options_icons_paku_totems"] = "Totems of Pa'ku"
 L["options_icons_paku_totems_desc"] = "Display travel paths for Totems of Pa'ku in Dazar'alor"
 
+L["tales_gonk_note"] = "Lies on the blanket."
+L["tales_gral_note"] = "At the roots of the tree."
+L["tales_jani_note"] = "At the destroyed pillar."
+L["tales_paku_note"] = "On top of the building, on a rock near the water."
+L["tales_rezan_note"] = "Above the cave of {npc:136428}."
+L["tales_shadra_note"] = "Next to the entrance, behind a torch."
+L["tales_torcali_note"] = "Between a couple of barrels and the stairs."
+L["tales_zandalar_note"] = "Behind {npc:132989}."
+
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
 L["options_icons_mushroom_harvest"] = "Mushroom Harvest"
 L["options_icons_mushroom_harvest_desc"] = "Show fungarian villain locations for the Mushroom Harvest achievement."
+
+L["options_icons_tales_of_de_loa"] = "A Loa of a Tale"
+L["options_icons_tales_of_de_loa_desc"] = "Show tales of de loa locations for the A Loa of a Tale achievement."

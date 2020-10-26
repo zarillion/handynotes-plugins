@@ -23,6 +23,7 @@ ns.groups.HONEYBACKS = Group('honeybacks', 2066005, {defaults=ns.GROUP_HIDDEN, f
 ns.groups.HOPPIN_SAD = Group('hoppin_sad', 804969, {defaults=ns.GROUP_HIDDEN})
 ns.groups.MUSHROOM_HARVEST = Group('mushroom_harvest', 1869654, {defaults=ns.GROUP_HIDDEN})
 ns.groups.PAKU_TOTEMS = Group('paku_totems', 'flight_point', {defaults=ns.GROUP_HIDDEN, faction='Horde'})
+ns.groups.TALES_OF_DE_LOA = Group('tales_of_de_loa', 1875083, {defaults=ns.GROUP_HIDDEN})
 ns.groups.TIDESAGE_LEGENDS = Group('tidesage_legends', 1500881, {defaults=ns.GROUP_HIDDEN})
 ns.groups.VISIONS_BUFFS = Group('visions_buffs', 132183)
 ns.groups.VISIONS_CRYSTALS = Group('visions_crystals', 'crystal_o')
