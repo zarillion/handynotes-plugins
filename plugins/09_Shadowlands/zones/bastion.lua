@@ -581,7 +581,7 @@ local AnimaShard = Class('AnimaShard', Node, {
     group = ns.groups.ANIMA_SHARD,
     rewards = {
         Achievement({id=14339, criteria={
-            {id=0, qty=true, suffix=" "..L["anima_shard"]}
+            {id=0, qty=true, suffix=L["anima_shard"]}
         }})
     }
 })

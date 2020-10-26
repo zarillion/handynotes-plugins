@@ -573,8 +573,12 @@ local HoppinSad = Class('HoppinSad', Rare, {
     icon=804969,
     group=ns.groups.HOPPIN_SAD,
     rewards={
-        Achievement({id=13028, criteria=1})
-    }
+        Achievement({id=13028, criteria={{id=1, qty=true}}})
+    },
+    IsCompleted = function (self)
+        if self:IsCollected() then return true end
+        return Rare.IsCompleted(self)
+    end
 })
 
 map.nodes[69575866] = HoppinSad({quest=53417, note=L["in_water_cave"]})

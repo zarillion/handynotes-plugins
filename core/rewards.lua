@@ -125,11 +125,12 @@ function Achievement:Render(tooltip)
         for i, c in ipairs(self.criteria) do
             local cname,_,ccomp,qty,req = GetCriteriaInfo(self.id, c.id)
             if (cname == '' or c.qty) then
-                cname = completed and req..'/'..req or qty..'/'..req
+                cname = c.suffix or cname
+                cname = (completed and req..'/'..req or qty..'/'..req)..' '..cname
             end
 
             local r, g, b = .6, .6, .6
-            local ctext = "   • "..cname..(c.suffix or '')
+            local ctext = "   • "..cname
             if (completed or ccomp) then
                 r, g, b = 0, 1, 0
             end

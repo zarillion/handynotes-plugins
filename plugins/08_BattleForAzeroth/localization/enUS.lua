@@ -120,7 +120,7 @@ L["ucav_spawn"] = "Spawns in an underwater cave."
 L["zone_spawn"] = "Spawns all over the zone."
 
 L["supply_chest"] = "War Supply Chest"
-L["assassin_looted"] = " looted while an assassin."
+L["assassin_looted"] = "looted while an assassin."
 
 L["arcane_chest"] = "Arcane Chest"
 L["glowing_chest"] = "Glowing Arcane Trunk"
