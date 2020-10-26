@@ -520,6 +520,12 @@ L["keeyo_note"] = "是时候开始一场精彩的冒险了！"
 L["kusa_note"] = "我正保持连胜，你不可能战胜我和我的队伍。"
 L["sizzik_note"] = "我一直很欣赏能和新的挑战者来一场精彩的战斗。"
 
+L["plank_1"] = "沙漠边缘的山顶。"
+L["plank_2"] = "损坏的建筑物旁边。"
+L["plank_3"] = "在金字塔的一侧。路径从附近的另一个木板开始。"
+L["plank_4"] = "在金字塔侧面的沙丘顶部。"
+L["plank_5"] = "沿着蛇的尾巴找到木板。"
+L["planks_ridden"] = "骑上摇晃的木板"
 L["options_icons_dune_rider"] = "沙丘骑手"
 L["options_icons_dune_rider_desc"] = "显示沙丘骑手成就中摇晃的木板的位置。"
 
