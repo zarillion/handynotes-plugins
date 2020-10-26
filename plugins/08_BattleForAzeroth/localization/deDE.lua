@@ -178,11 +178,11 @@ L["murloco"] = "Murloco" --NPC:152593
 L["tentacle_taco"] = "Verkauft {item:170100}, wenn du das {item:169489} trägst."
 
 L["options_icons_treasures_nazj"] = "Schätze"
-L["options_icons_treasures_nazj_desc"] = "Zeigt die Position von Truhen für den Arkhamstern Erfolg an."
+L["options_icons_treasures_nazj_desc"] = "Zeigt die Position von Truhen für den Erfolg |CFFFFFF00'Arkhamstern'|r an."
 L["options_icons_slimes_nazj"] = "Gefräßige Schleime"
-L["options_icons_slimes_nazj_desc"] = "Zeigt die Position von den vier Gefräßigen Schleimen die Haustiere bei Fütterung ergeben an."
+L["options_icons_slimes_nazj_desc"] = "Zeigt die Position der vier Gefräßigen Schleime, die Haustiere bei Fütterung ergeben an."
 L["options_icons_cats_nazj"] = "Katzenfiguren"
-L["options_icons_cats_nazj_desc"] = "Zeigt die Position von Kristallkatzenstatuetten für den Gläserne Samtpfötchen Erfolg an."
+L["options_icons_cats_nazj_desc"] = "Zeigt die Position von Kristallkatzenstatuetten für den Erfolg |CFFFFFF00'Gläserne Samtpfötchen'|r an."
 L["options_icons_misc_nazj"] = "Sonstiges"
 L["options_icons_misc_nazj_desc"] = "Zeigt die Position von Murlocos Höhle und Mardivas' Labor an."
 
@@ -243,7 +243,7 @@ L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei "..lunch
 L["ancient_tidesage_scroll"] = "Uralte Schriftrolle der Gezeitenweisen"
 L["ancient_tidesage_scroll_note"] = "Lies alle 8 uralten Schriftrollen der Gezeitenweisen, um den Erfolg zu erringen."
 L["options_icons_tidesage_legends"] = "Legenden der Gezeitenweisen"
-L["options_icons_tidesage_legends_desc"] = "Zeigt die Positionen der uralten Schrifftrollen für den Erfolg Legenden der Gezeitenweisen an."
+L["options_icons_tidesage_legends_desc"] = "Zeigt die Positionen der uralten Schrifftrollen für den Erfolg |CFFFFFF00'Legenden der Gezeitenweisen'|r an."
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
@@ -509,7 +509,7 @@ L["kusa_note"] = "Ich habe einen Lauf. Ihr habt keine Chance gegen mich und mein
 L["sizzik_note"] = "Ich freue mich immer über gute Kämpfe gegen neue Herausforderer."
 
 L["options_icons_dune_rider"] = "Dünenreiter"
-L["options_icons_dune_rider_desc"] = "Zeigt die Positionen der wackeligen Planken für den Erfolg 'Dünenreiter' an."
+L["options_icons_dune_rider_desc"] = "Zeigt die Positionen der wackeligen Planken für den Erfolg |CFFFFFF00'Dünenreiter'|r an."
 
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
 

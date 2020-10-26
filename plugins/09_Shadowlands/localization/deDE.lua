@@ -194,7 +194,7 @@ L["anima_shard_61298"] = "Hinter einem Liegestuhl."
 L["anima_shard_61299"] = "Hinter einer großen Fackel versteckt."
 L["anima_shard_61300"] = "An der Kante des mittleren Brunnens."
 L["options_icons_anima_shard"] = "Verlorene Animakristallsplitter"
-L["options_icons_anima_shard_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg \"Splitterpartie (ID:14339)\" an." --{achievement:14339}
+L["options_icons_anima_shard_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg |CFFFFFF00'Splitterpartie'|r an."
 
 L["aspirants_rest"] = "Aspirantenrast"
 L["eternal_gateway"] = "Ewiges Tor"
@@ -290,7 +290,7 @@ L["moldstopheles"] = "Laufe um den Stiel herum und springe auf die Pilzplattform
 L["pus_in_boots"] = "Befindet sich unter der Brücke."
 
 L["options_icons_slime_cat"] = "Kätzchen"
-L["options_icons_slime_cat_desc"] = "Zeigt die Positionen der Kätzchen für den Erfolg \"Neun jenseitige Leben (ID:14634)\" an."
+L["options_icons_slime_cat_desc"] = "Zeigt die Positionen der Kätzchen für den Erfolg |CFFFFFF00'Neun jenseitige Leben'|r an."
 
 L["exoramas"] = "Exoramas, Haus der Rituale"
 L["nurakkir"] = "Nurakkir, Haus der Augen"
