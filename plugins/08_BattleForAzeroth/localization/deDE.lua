@@ -254,7 +254,7 @@ L["eddie_fixit_note"] = "Macht Euch bereit, meinem unschlagbaren Team aus extrem
 L["ellie_vern_note"] = "Ich habe die stärksten Meereskreaturen, die es gibt, hier versammelt. Ihr habt keine Chance."
 L["leana_darkwind_note"] = "Ich wette, mit den komischen Kreaturen auf dieser Insel gibt es bestimmt auch komische Kämpfe.."
 
-L["honeyback_harvester_note"] = "Sprich mit der {npc:155193}, um das Event zu beginnen. Die Frische Geléeablagerung kann stündlich geplündert werden The Fresh Jelly Deposit can be looted once an hour and resets on the hour."
+L["honeyback_harvester_note"] = "Sprich mit der {npc:155193}, um das Event zu beginnen. Die Frische Geléeablagerung kann stündlich geplündert werden und setzt sich jede volle Stunde zurück."
 L["options_icons_honeybacks"] = "Honigrückenernterin"
 L["options_icons_honeybacks_desc"] = "Zeigt die Positionen von Honigrückenernterinnen für Events zum sammeln von Ruf für die Fraktion Honigrückenschwarm an."
 
@@ -533,6 +533,12 @@ L["tales_akunda_note"] = "Im Teich."
 L["tales_kimbul_note"] = "Neben dem verdorrten Baum."
 L["tales_sethraliss_note"] = "Auf dem Boden neben dem Tisch."
 
+L["plank_1"] = "Oben auf dem Hügel, wo der Sand endet."
+L["plank_2"] = "Neben einem zerstörten Gebäude."
+L["plank_3"] = "An einer Kante der Pyramide. Der Weg dorthinstartet bei der anderen Planke in der Nähe."
+L["plank_4"] = "Am oberen Ende einer Sanddüne, entlang der Seite der Pyramide."
+L["plank_5"] = "Folge dem Schlangenschwanz, um die Planke zu finden."
+L["planks_ridden"] = "Wackelige Planken geritten."
 L["options_icons_dune_rider"] = "Dünenreiter"
 L["options_icons_dune_rider_desc"] = "Zeigt die Positionen der wackeligen Planken für den Erfolg |CFFFFFF00'Dünenreiter'|r an."
 
