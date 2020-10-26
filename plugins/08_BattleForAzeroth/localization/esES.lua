@@ -211,6 +211,15 @@ L["grady_prett_note"] = "¡Tiempo de luchar y caer! ¡Hagámoslo!"
 L["korval_dark_note"] = "Este lugar es escalofriante, hagamos un combate rápido."
 L["lozu_note"] = "Luchemos con honor, extrangero."
 
+L["hoppin_sad_53419"] = "Detrás de dos árboles bajo una raíz enorme."
+L["hoppin_sad_53420"] = "En las ruinas."
+L["hoppin_sad_53424"] = "En un acantalido."
+L["hoppin_sad_53425"] = "En el árbol cerca de la cascada."
+L["hoppin_sad_53426"] = "Bajo algunas raices."
+
+L["options_icons_hoppin_sad"] = "Tristeza Saltarina"
+L["options_icons_hoppin_sad_desc"] = "Muestra las localizaciones de los engendros de Krag'wa perdidos para el logro Tristeza Saltarina."
+
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
 -------------------------------------------------------------------------------
@@ -513,6 +522,12 @@ L["keeyo_note"] = "¡Tiempo para una gran aventura!"
 L["kusa_note"] = "Estoy en una racha ganadora, no tienes ni una oportunidad contra mi y mi equipo."
 L["sizzik_note"] = "Siempre aprecio un buen combate con un desafiador nuevo."
 
+L["plank_1"] = "Donde acaba la arena en la cima de la colina."
+L["plank_2"] = "Junto a un edificio destruido."
+L["plank_3"] = "En el lado de la pirámide. El camino empieza en el otro tablón cercano."
+L["plank_4"] = "Sobre una duna de arena a lo largo del lado de la pirámide."
+L["plank_5"] = "Sigue la cola de la serpiente para encontrar el tablón."
+L["planks_ridden"] = "tablones destartalados montados"
 L["options_icons_dune_rider"] = "Jinete de las Dunas"
 L["options_icons_dune_rider_desc"] = "Muestra las localizaciones de los tablones destartalados para el logro Jinete de las Dunas."
 
