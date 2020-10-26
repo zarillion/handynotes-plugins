@@ -80,7 +80,7 @@ Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al fi
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
-------------------------------------------------------------------------------- --TOCA SEGUIR AQUI
+-------------------------------------------------------------------------------
 
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con el {npc:171211} como objetivo para activarlo."
 L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."
