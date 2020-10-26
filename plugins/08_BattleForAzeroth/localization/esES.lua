@@ -513,6 +513,9 @@ L["keeyo_note"] = "¡Tiempo para una gran aventura!"
 L["kusa_note"] = "Estoy en una racha ganadora, no tienes ni una oportunidad contra mi y mi equipo."
 L["sizzik_note"] = "Siempre aprecio un buen combate con un desafiador nuevo."
 
+L["options_icons_dune_rider"] = "Jinete de las Dunas"
+L["options_icons_dune_rider_desc"] = "Muestra las localizaciones de los tablones destartalados para el logro Jinete de las Dunas."
+
 L["elusive_alpaca"] = "Alimenta a la {npc:162681} con {item:161128} para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
 
 -------------------------------------------------------------------------------
@@ -558,3 +561,10 @@ L["torcali_note"] = "Completa misiones en el Redil Bestia de Guerra hasta que {q
 L["totem_of_paku_note"] = "Habla con la {npc:137510} al norte del Gran Sello para seleccionar a Pa'ku como tu loa en Zuldazar."
 L["options_icons_paku_totems"] = "Tótems de Pa'ku"
 L["options_icons_paku_totems_desc"] = "Muestra las rutas de viaje para los tótems de Pa'ku en Dazar'alor."
+
+-------------------------------------------------------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
+-------------------------------------------------------------------------------
+
+L["options_icons_mushroom_harvest"] = "Cosecha de Champiñones"
+L["options_icons_mushroom_harvest_desc"] = "Muestra las localizaciones de los villanos fungáricos para el logro Cosecha de Champiñones."
