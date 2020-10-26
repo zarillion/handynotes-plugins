@@ -99,49 +99,49 @@ L["dark_watcher_note"] = "Sólo puede verse estando muerto. Habla con la {npc:17
 L["demi_hoarder_note"] = "Comienza con 99 acumulaciones de {spell:333874}, reduciendo el daño recibido. Las acumulaciones bajan lentamente con el daño. {npc:171011} seguirá una ruta. Desaparecerá si alcanza el final."
 L["dionae_note"] = "Cuando {npc:163460} se hace immune, haz click en las cuatro {npc:163747} para romperle el escudo."
 L["herculon_note"] = [[
-Recoge {item:172451} y úsalas para dar a {npc:158659} acumulaciones de {spell:343531}. A las 10 acumulaciones, se activará.
+Recoge {item:172451} y úsalas para darle a {npc:158659} acumulaciones de {spell:343531}. A las 10 acumulaciones, se activará.
 
-Las motas se pueden recoger de los Recipientes de Ánima Agotados cercanos localizados en la habitación o justo fuera.
+Las motas se pueden recoger de los Botes de Ánima Agotados cercanos localizados en la habitación o justo fuera.
 
-|cFFFF8C00No puede ser derrotado durante la misión del mundo {wq:Assault on the Vestibule}.|r
-]]--Revisar (NO DATABLE) que Depleted Anima Canisters sean Recipientes de Ánima Agotados y (QUESTV2CLITASK) que Assault on the Vestibule sea Asalto al Vestíbulo  TOCA SEGUIR POR AQUÍ
-L["nikara_note"] = "Con otros dos jugadores, haz click en el Ancient Incense para invocar a {npc:160882}."
-L["sotiros_orstus_note"] = "Haz click en la Campana Negra para invocar a los raros."--Revisar (VIGNETTE) que Black Bell sea Campana Negra
-L["sundancer_note"] = "Haz click en la estatua para conseguir el buff {spell:332309}, entonces usa {item:180445} para planear hasta {npc:170548} y montarlo."
-L["swelling_tear_note"] = "Haz click en {npc:171012} para invocar a uno de los tres raros. Las Lágrimas pueden aparecer en múltiples sitios de la zona."
-L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén presentes. Arrastra un {npc:171018} dentro de otros para que reciba 10 acumulaciones de {spell:333558}, lo que hará que se convierta en {npc:171008}."
-L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno del Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras)."--Revisar (VIGNETTE) que Horn of Courage sea Cuerno del Coraje
+|cFFFF8C00No puede ser derrotado durante la misión del mundo {wq:Asalto al Vestíbulo}.|r
+]]
+L["nikara_note"] = "Con otros dos jugadores, haz click en el Incienso Antiguo para invocar a {npc:160882}."
+L["sotiros_orstus_note"] = "Haz click en la Campana Negra para invocar a los raros."
+L["sundancer_note"] = "Haz click en la estatua para conseguir el buff {spell:332309}. Usa entonces un {item:180445} para planear hasta {npc:170548} y montarlo."
+L["swelling_tear_note"] = "Haz click en la {npc:171012} para invocar a uno de los tres raros. Las Lágrimas pueden aparecer en varios sitios de la zona."
+L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén presentes. Arrastra un {npc:171018} dentro de otros para que reciba 10 acumulaciones de {spell:333558}, lo que hará que se convierta en el {npc:171008}."
+L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno de Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras)."
 
-L["broken_flute"] = "Mata a los {npc:170009} cercanos hasta que uno suelte la {item:180536}. Usa las herramientas para repararla."
-L["experimental_construct_part"] = "Despoja {item:180534} y úsalo para reparar la parte. El ánima tiene varios sitios de aparición."
-L["larion_harness"] = "Localizado dentro del Salón de las Bestias."--Revisar (AREATABLE) que Hall of Beasts sea Salón de las Bestias
+L["broken_flute"] = "Mata a las {npc:170009} cercanas hasta que una suelte la {item:180536}. Usa las herramientas para repararla."
+L["experimental_construct_part"] = "Despoja un {item:180534} cercano y úsalo para reparar la Pieza de Ensamblaje Experimental. El ánima tiene varios sitios de aparición."
+L["larion_harness"] = "Localizado dentro de la Sala de las Bestias."
 L["memorial_offering"] = "Compra una botella de {item:180788} a {npc:171526} en el Reposo del Aspirante. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}."
-L["scroll_of_aeons"] = "Coge de un cuenco 2 {item:173973} en el centro del área y colócalos en los cuencos de tributo cercanos para revelar el tesoro {item:173984}."
-L["vesper_of_silver_wind"] = "Completa el logro {achievement:14339} y habla con {npc:171732} cerca de la entrada a los Capiteles de la Ascensión para forjar {item:180858}."
+L["scroll_of_aeons"] = "Coge de un cuenco 2 {item:173973} en el centro del área y colócalas en los cuencos de tributo cercanos para revelar el tesoro {item:173984}."
+L["vesper_of_silver_wind"] = "Completa el logro {achievement:14339} y habla con el {npc:171732} cerca de la entrada a las Agujas de Ascensión para forjar la {item:180858}."
 
-L["gift_of_agthia"] = "Haz click en la antorcha encendida cerca del puente roto al noroeste y lleva la {spell:333320} de antorcha a antorcha hasta llegar al cofre. Encender la última antorcha te dará la {spell:333063}."
-L["gift_of_chyrus"] = "Arrollídate frente al cofre para conseguir la {spell:333045}."
+L["gift_of_agthia"] = "Haz click en la antorcha encendida cerca del puente roto al noroeste y lleva la {spell:333320} de antorcha a antorcha hasta llegar al cofre. Al encender la última antorcha conseguirás la {spell:333063}."
+L["gift_of_chyrus"] = "Arrodíllate frente al cofre para conseguir la {spell:333045}."
 L["gift_of_devos"] = [[
-Al suroeste del cofre hay una antorcha donde puedes coger {spell:333912}. Montar, entrar en combate o recibir daño hará que sueltes la llama. Debes hacer tu camino de regreso al cofre y poner la llama en el Blandón de Devoción para conseguir la {spell:333070}.
+Al suroeste del cofre hay una antorcha donde puedes coger la {spell:333912}. Montar, entrar en combate o recibir daño hará que sueltes la llama. Debes volver de regreso al cofre y poner la llama en el Blandón de Devoción para conseguir la {spell:333070}.
 
-Antes de coger la llama, limpia de enemigos el camino al cofre. Mientras corras con la llama, haz click en algún {npc:156571} a lo largo del camino para conseguir {spell:335012} el cual incrementa la velocidad de movimiento.
+Antes de coger la llama, limpia de enemigos el camino al cofre. Mientras corras con la llama, haz click en alguna {npc:156571} a lo largo del camino para conseguir {spell:335012} el cual incrementa la velocidad de movimiento.
 ]]--Revisar (NODATABLE) que Brazier of Devotion sea Blandón de Devoción
 L["gift_of_thenios"] = [[
 Detrás del cofre hay una plataforma de vuelo llamada "Camino de la Sabiduría". Esto lleva a una secuencia de plataformas con diferentes inciensos con los que puedes comulgar:
 
-• Incienso de la Sabiduría
+• Incienso del Conocimiento
 • Incienso de la Paciencia
-• Incienso de la Visión
+• Incienso de la Perspicacia
 • Incienso del Juicio
 
-Comulga con ellos en el orden Paciencia => Sabiduría => Visión. En la plataforma del Juicio aparecerá un orbe llamado "Camino de la Sabiduría Perspicaz".
+Comulga con ellos en el orden Paciencia => Conocimiento => Perspicacia. En la plataforma del Juicio aparecerá un orbe llamado "Camino de la Sabiduría Perspicaz".
 
 El orbe te llevará al verdadero Incienso del Juicio. Comulga con él y aparecerá la última plataforma de vuelo que te dará la {spell:333068} al abrir el cofre.
-]]--Revisar (AREATABLE, SPELL) que Path of Wisdom sea Camino de la Sabiduría, que incenses sea inciensos, (SPELLNAME) los tipos de incienso y (NODATABLE) que Path of Insightful Wisdom sea Camino de la Sabiduría Perspicaz
+]]
 L["gift_of_vesiphone"] = "Toca una de las campanas para hacer que aparezca una {npc:170849} y mátala para recibir el debuff {spell:333239}. El agua que cae frente al cofre limpiará el debuff y te dará la {spell:332785}."
 
-L["cache_of_the_ascended"] = "Alijo de los Ascendidos"--Revisar (MOUNT) que Cache of the Ascended sea Alijo de los Ascendidos
-L["cache_of_the_ascended_note"] = "Con otros cuatro jugadores, hay que hacer click en las cinco vísperas de pureza, coraje, humildad, sabiduría y lealtad al mismo tiempo. Después, hay que ir al Crisol del Aspirante a derrotar los cinco campeones para que se revele el alijo."--Revisar (QUESTOBJECTIVE, CRITERIATREE) que vesper of purity sea víspera de pureza
+L["cache_of_the_ascended"] = "Alijo de los Ascendidos"
+L["cache_of_the_ascended_note"] = "Con otros cuatro jugadores, hay que hacer click en las cinco campanas de vísperas: pureza, coraje, humildad, sabiduría y lealtad al mismo tiempo. Después, hay que ir al Crisol del Aspirante para derrotar el Consejo de los Ascendidos y que se revele el alijo."
 
 L["anima_shard"] = "Fragmento de Cristal de Ánima Perdido"
 L["anima_shard_61225"] = "En una plataforma inferior debajo del puente."
