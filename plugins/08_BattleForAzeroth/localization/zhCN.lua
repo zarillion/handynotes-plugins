@@ -209,6 +209,18 @@ L["grady_prett_note"] = "是时候下场战斗了！来吧！"
 L["korval_dark_note"] = "这地方真吓人，我们快点打完吧。"
 L["lozu_note"] = "我们来荣耀地战斗吧，陌生人。"
 
+L["tales_bwonsamdi_note"] = "在被毁的柱子上。"
+L["tales_hireek_note"] = "桌子上的卷轴。"
+L["tales_kragwa_note"] = "在被毁的墙上。"
+L["tales_torga_note"] = "水下被毁的柱子上。"
+
+L["carved_in_stone_41860"] = "在山附近一栋被毁的建筑物内。"
+L["carved_in_stone_41861"] = "在被毁的柱子上。"
+L["carved_in_stone_41862"] = "在被毁的墙上，在巨大的柱子前面。"
+L["carved_in_stone_42116"] = "{npc:126126} 旁边的柱子上。"
+L["options_icons_carved_in_stone"] = "石上沙，血中画"
+L["options_icons_carved_in_stone_desc"] = "显示石上沙，血中画成就中象形图画的位置。"
+
 L["hoppin_sad_53419"] = "两棵树后面巨大树根下面。"
 L["hoppin_sad_53420"] = "废墟内。"
 L["hoppin_sad_53424"] = "悬崖上。"
@@ -520,6 +532,10 @@ L["keeyo_note"] = "是时候开始一场精彩的冒险了！"
 L["kusa_note"] = "我正保持连胜，你不可能战胜我和我的队伍。"
 L["sizzik_note"] = "我一直很欣赏能和新的挑战者来一场精彩的战斗。"
 
+L["tales_akunda_note"] = "在池塘里。"
+L["tales_kimbul_note"] = "在枯树旁。"
+L["tales_sethraliss_note"] = "在桌子旁边的地面上。"
+
 L["plank_1"] = "沙漠边缘的山顶。"
 L["plank_2"] = "损坏的建筑物旁边。"
 L["plank_3"] = "在金字塔的一侧。路径从附近的另一个木板开始。"
@@ -575,9 +591,21 @@ L["totem_of_paku_note"] = "和巨擘封印北侧的 {npc:137510} 交谈选择帕
 L["options_icons_paku_totems"] = "帕库图腾"
 L["options_icons_paku_totems_desc"] = "显示达萨罗帕库图腾的旅行路径。"
 
+L["tales_gonk_note"] = "在毯子上。"
+L["tales_gral_note"] = "在树的根部。"
+L["tales_jani_note"] = "在被毁的柱子上。"
+L["tales_paku_note"] = "建筑物顶上，水旁边的岩石上。"
+L["tales_rezan_note"] = "{npc:136428} 洞穴的上面。"
+L["tales_shadra_note"] = "入口旁边，火炬后面。"
+L["tales_torcali_note"] = "在几个桶和楼梯之间。"
+L["tales_zandalar_note"] = "{npc:132989} 后面。"
+
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
 L["options_icons_mushroom_harvest"] = "菌菇大丰收"
 L["options_icons_mushroom_harvest_desc"] = "显示菌菇大丰收成就中真菌人的位置。"
+
+L["options_icons_tales_of_de_loa"] = "神灵传说"
+L["options_icons_tales_of_de_loa_desc"] = "显示神灵传说成就中洛阿神灵传说的位置。"

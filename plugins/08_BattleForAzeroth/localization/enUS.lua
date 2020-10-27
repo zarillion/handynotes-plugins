@@ -211,7 +211,7 @@ L["lozu_note"] = "Lets fight with honor, stranger."
 
 L["tales_bwonsamdi_note"] = "At the destroyed pillar."
 L["tales_hireek_note"] = "A Scroll on the table."
-L["tales_kragwa_note"] = "At the destroyed wall"
+L["tales_kragwa_note"] = "At the destroyed wall."
 L["tales_torga_note"] = "Underwater at a destroyed pillar."
 
 L["carved_in_stone_41860"] = "Inside a destroyed building near the mountain."
@@ -532,8 +532,8 @@ L["keeyo_note"] = "Time for a great adventure!"
 L["kusa_note"] = "I'm on a winning streak, you have no chance against me and my team."
 L["sizzik_note"] = "I always appreciate a good battle with a new challenger."
 
-L["tales_akunda_note"] = "In the pond"
-L["tales_kimbul_note"] = "Next to the withered tree"
+L["tales_akunda_note"] = "In the pond."
+L["tales_kimbul_note"] = "Next to the withered tree."
 L["tales_sethraliss_note"] = "On the ground next to the table."
 
 L["plank_1"] = "Where the sand ends at the top of the hill."
