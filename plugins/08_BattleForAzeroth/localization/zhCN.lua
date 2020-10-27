@@ -120,7 +120,7 @@ L["ucav_spawn"] = "在水下的洞穴刷新。"
 L["zone_spawn"] = "在整个区域刷新。"
 
 L["supply_chest"] = "战争补给箱"
-L["assassin_looted"] = "战争模式下周期性由飞行器空投到随机地点，作为刺客时拾取25个宝箱获得刺客补给成就。" --Periodically drop by Flying Machine random place in War Mode, Loot 25 Chests while an Assassin to Supplying the Assassins achievement.
+L["assassin_looted"] = "充当刺客时拾取。"
 
 L["arcane_chest"] = "奥术宝箱"
 L["glowing_chest"] = "发光的奥能宝箱"
