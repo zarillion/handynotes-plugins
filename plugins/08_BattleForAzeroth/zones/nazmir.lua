@@ -488,11 +488,7 @@ map.nodes[72864859] = PetBattle({
 ------------------------------- A LOA OF A TALE -------------------------------
 -------------------------------------------------------------------------------
 
-local TalesOfTheLoa = Class('TalesOfTheLoa', Treasure, {
-    icon=1875083,
-    group=ns.groups.TALES_OF_DE_LOA,
---    IsCompleted = function (self) return self:IsCollected() end
-})
+local TalesOfTheLoa = ns.node.TalesOfTheLoa
 
 map.nodes[39123865] = TalesOfTheLoa({
     quest=53534,

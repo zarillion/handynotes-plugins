@@ -466,10 +466,7 @@ map.nodes[57134896] = PetBattle({
 ------------------------------- A LOA OF A TALE -------------------------------
 -------------------------------------------------------------------------------
 
-local TalesOfTheLoa = Class('TalesOfTheLoa', Treasure, {
-    icon=1875083,
-    group=ns.groups.TALES_OF_DE_LOA,
-})
+local TalesOfTheLoa = ns.node.TalesOfTheLoa
 
 map.nodes[42206206] = TalesOfTheLoa({
     quest=53532,

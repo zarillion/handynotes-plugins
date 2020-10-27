@@ -8,6 +8,7 @@ local Class = ns.Class
 local Group = ns.Group
 local Map = ns.Map
 local Quest = ns.node.Quest
+local Treasure = ns.node.Treasure
 
 -------------------------------------------------------------------------------
 
@@ -31,6 +32,19 @@ ns.groups.VISIONS_CRYSTALS = Group('visions_crystals', 'crystal_o')
 ns.groups.VISIONS_MAIL = Group('visions_mail', 'envelope')
 ns.groups.VISIONS_MISC = Group('visions_misc', 2823166)
 ns.groups.VISIONS_CHEST = Group('visions_chest', 'chest_gy')
+
+-------------------------------------------------------------------------------
+------------------------------- A LOA OF A TALE -------------------------------
+-------------------------------------------------------------------------------
+
+ns.node.TalesOfTheLoa = Class('TalesOfTheLoa', Treasure, {
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
+    IsCompleted = function (self)
+        if self:IsCollected() then return true end
+        return Treasure.IsCompleted(self)
+    end
+})
 
 -------------------------------------------------------------------------------
 -------------------------------- TIMED EVENTS ---------------------------------
