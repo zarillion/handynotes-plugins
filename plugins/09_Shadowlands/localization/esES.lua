@@ -219,11 +219,11 @@ L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:16
 L["leeda_note"] = "Mata a los dos {npc:162220} hasta que aparezca la {npc:162180}."
 L["malkorak_note"] = "En lo alto de la torre (montones de escaleras)."
 L["sabriel_note"] = "Puede aparecer como uno de los campeones del Teatro del Dolor."
-L["schmitd_note"] = "Usa el {spell:313451} cercano para romper su escudo."
-L["taskmaster_xox_note"] = "Comparte lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
-L["zargox_the_reborn_note"] = "Usa el {item:175841} encima de {npc:157124} para invocar a {npc:157125}. Para conseguir el {item:175841} tienes que completar la misión {quest:57245} que da {npc:157076} y vuelve a hablar con él de nuevo."
+L["schmitd_note"] = "Usa un {spell:313451} cercano para romper su escudo."
+L["taskmaster_xox_note"] = "Comparte el lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
+L["zargox_the_reborn_note"] = "Usa el {item:175841} encima del {npc:157124} para invocar a {npc:157125}. Para conseguir el {item:175841} tienes que completar la misión {quest:57245} que da {npc:157076} y vuelve a hablar con él de nuevo."
 L["mixed_pool_note"] = [[
-Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando hayan sido añadidos 30 ingredientes, aparecerá uno de los siete raros dependiendo de la combinación usada.
+Recoge ingredientes de los enemigos de alrededor y tíralos en la poza. Cuando hayan sido añadidos 30 ingredientes, aparecerá uno de los siete raros dependiendo de la combinación usada.
 
 • Recoge {spell:306713} de {npc:167923} y de {npc:167948} al norte.
 
@@ -232,63 +232,63 @@ Recoge ingredientes de los enemigos que la rodean y tíralos en la poza. Cuando 
 • Recoge {spell:306722} de {npc:165027} y de {npc:166438} al sur.
 ]]
 
-L["blackhound_cache"] = "Alijo del Can Negro"--Revisar (VIGNETTE, TOY) que Blackhound Cache sea Alijo del Can Negro
-L["bladesworn_supply_cache"] = "Alijo de Suministros de los Juraespadas"--Revisar que (VIGNETTE) Bladesworn Supply Cache sea Alijo de Suministros de los Juraespadas
-L["cache_of_eyes"] = "Alijo de Ojos"--Revisar que (VIGNETTE, BATTLEPETSPECIES) Cache of Eyes sea Alijo de ojos
-L["cache_of_eyes_note"] = "Aparece en varios sitios dentro de Bastión Invidente."
+L["blackhound_cache"] = "Alijo Sabueso Negro"
+L["bladesworn_supply_cache"] = "Alijo de Suministros Juraespadas"
+L["cache_of_eyes"] = "Alijo de Ojos"
+L["cache_of_eyes_note"] = "Aparece en varios sitios dentro del Bastión Invidente."
 
-L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a los dos {npc:172479} para desbloquear el cofre."
+L["glutharns_note"] = "En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a dos {npc:172479} para desbloquear el cofre."
 L["kyrian_keepsake_note"] = "Inspecciona el {npc:169664} para despojar el tesoro."
-L["misplaced_supplies"] = "Encima de la seta gigante"
-L["necro_tome_note"] = "Para tener acceso a la torre, has de empezar una pequeña cadena de misiones que te da {npc: 166657}. En un estante en el piso superior."
+L["misplaced_supplies"] = "Encima del champiñón gigante. Corre colina arriba y salta sobre el champiñón marrón más pequeño. Después corre colina arriba por la más grande y salta sobre el champiñón gigante."
+L["necro_tome_note"] = "Para tener acceso a la torre, has de empezar una pequeña cadena de misiones que te da {npc:166657}. En un estante en el piso superior."
 L["plaguefallen_chest_note"] = [[
-Quédate de pie en la baba verde (¡requiere sanación!) para conseguir 10 acumulaciones de {spell:330069} y transformarte en {spell:330092}.
+Quédate de pie en la baba verde (¡requiere sanación!) para conseguir 10 acumulaciones de {spell:330069} y transformarte en un {spell:330092}.
 
 Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:158406} (la entrada está en el lado este) y haz click en el tubo para llegar al cofre.
 ]]
-L["ritualists_cache_note"] = "Despoja las {item:181558} de una pila de huesos (aparece en varios sitios). Úsalas para completar el Libro de Rituales de Vínculo en el podio detrás de {npc:174386} con lo que ganarás el buff {spell:337041}."--Revisar (MOUNT Binding Rituals) que Book of Binding Rituals sea Libro de Rituales de Vínculo
-L["runespeakers_trove_note"] = "Busca a {npc:170563} al este y mátalo para conseguir la {item:181777}."
-L["stolen_jar_note"] = "En una cueva debajo de la seta gigante."
-L["strange_growth_note"] = "Estira de {npc:165037} para revelar el tesoro."
-L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."--Revisar (NODATABLE) que vat of slime sea cuba de baba
+L["ritualists_cache_note"] = "Despoja las {item:181558} de una pila de huesos (aparece en varios sitios). Úsalas para completar el Libro de Rituales de Vinculación en el podio detrás de {npc:174386} con lo que ganarás el buff del {spell:337041}."
+L["runespeakers_trove_note"] = "Busca al {npc:170563} al este y mátalo para conseguir la {item:181777}."
+L["stolen_jar_note"] = "En una cueva debajo del champiñón gigante."
+L["strange_growth_note"] = "Estira del {npc:165037} para revelar el tesoro."
+L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."
 
-L["giant_cache_of_epic_treasure"] = "Cofre Gigante de Tesoro Épico"--Revisar (SPELLNAME, VIGNETTE) que Giant Cache of Epic Treasure sea Cofre Gigante de Tesoro Épico
+L["giant_cache_of_epic_treasure"] = "Alijo Gigantesco de Tesoro Épico"
 L["spinebug_note"] = [[
-¡Oh mira! ¡Un {spell:343124}! Acércate valiente aventurero, esto seguramente no es un engaño. Espera, ¿esa no es la música de Karazhan? ¿Qué hace aquí {npc:174663}...?
+¡Oh mira! ¡Un {spell:343124}! Acércate valiente aventurero, seguramente esto no es ningún engaño. Espera, ¿esa es la música de Karazhan? ¿Qué hace aquí este {npc:174663}...?
 
 ¡{spell:343163}!
-]]--Revisar (NODATABLE) que Approach it brave adventurer, this is surely not a ruse. Wait, is that the music from Karazhan? What is this {npc:174663} doing here ...? sea Acércate valiente aventurero, esto seguramente no es un engaño. Espera, ¿esa no es la música de Karazhan? ¿Qué hace aquí {npc:174663}...?
+]]
 
 L["oonar_sorrowbane_note"] = [[
-En el Teatro del Dolor, podrás encontrar {item:180273} clavada en el suelo y el Brazo de Oonar al lado. |cFFFF8C00Antes de intentar tirar de ninguno, pon tu {item:6948} en {npc:161702} por el punto de vuelo.|r
+En el Teatro del Dolor, podrás encontrar a {item:180273} clavada en el suelo y el {item:181164} cogiéndola. |cFFFF8C00Antes de intentar tirar de ninguno, pon tu {item:6948} en {npc:161702} por el punto de vuelo.|r
 
 Para tirar del {item:181164} sin problemas:
 
 • Viaja a la Descomposición de Glutharn al este.
 • Come 4 {spell:327367} (debuff de 2 minutos).
-• Vuelve volando rápidamente al Teatro del Dolor con la {item:6948} y tira del brazo.
+• Vuelve rápidamente al Teatro del Dolor con la {item:6948} y tira del brazo.
 
 Para tirar de {item:180273} sin problemas:
 
 • Compra 1 {item:182163} de {npc:171808} en Revendreth.
 • Compra 1 {item:180771} de {npc:166640} en Maldraxxus.
-• Consigue 2 acumulaciones de {spell:306272} de la misión del mundo {wq:A Few Bumps Along the Way} al oeste.
-• Come 4 {spell:327367} en la Corrupción de Glutharn al este.
-• Vuelve volando rápidamente al Teatro del Dolor con la {item:6948}, bébete ambas pociones y tira de la espada.
-]]--Revisar (QUESTV2CLITASK) que A Few Bumps Along the Way sea Algunos Baches en el Camino
+• Consigue 2 acumulaciones de {spell:306272} de la misión del mundo {wq:Un par de baches en el camino} al oeste.
+• Come 4 {spell:327367} en la Descomposición de Glutharn.
+• Vuelve rápidamente al Teatro del Dolor con la {item:6948}, bébete ambas pociones y tira de la espada.
+]]
 
-L["pet_cat"] = "¡Acaricia al maldito gato!"--Revisar (NODATABLE) que Pet the damn cat! sea ¡Acaricia al maldito gato!
+L["pet_cat"] = "¡Acaricia al maldito gato!"
 L["hairball"] = ns.color.Red("¡Sólo aparece en el Sagrario Purulento dentro de la mazmorra Bajapeste!")
 L["lime"] = "Reposa sobre el gran arco óseo."
-L["moldstopheles"] = "Corre alrededor de la parte posterior del tallo y salta en las plataformas con forma de seta. Para la última plataforma, usa una motura y salta a la raíz que rodea el tallo."
+L["moldstopheles"] = "Corre alrededor de la parte posterior del tallo y salta en las plataformas con forma de champiñón. Para la última plataforma, usa una montura y salta en la esquina que rodea el tallo."
 L["pus_in_boots"] = "Está debajo del puente."
 
 L["options_icons_slime_cat"] = "Gatitos"
 L["options_icons_slime_cat_desc"] = "Muestra las localizaciones de los gatitos para el logro Siete Vidas Más."
 
-L["exoramas"] = "Exoramas, Casa de los Rituales"--Revisar que (AREATABLE, CRITERIATREE, SPELL, SPELLNAME, SCENARIO) House of Rituals sea Casa de los Rituales
+L["exoramas"] = "Exoramas, Casa de los Rituales"
 L["nurakkir"] = "Nurakkir, Casa de los Ojos"
-L["overlook_primus"] = "Overlook, Trono del Prelado"
+L["overlook_primus"] = "Overlook, Trono del Prelado"--Overlook, ¿tendrá traducción?
 L["zerekriss"] = "Zerekriss, Maldraxxus"
 L["zerekriss_note"] = "Una vez activada, la necrópolis volará alrededor de la zona. Agárrate de {npc:165822} para planear hacia el suelo."
 
