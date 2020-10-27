@@ -211,6 +211,18 @@ L["grady_prett_note"] = "¡Tiempo de luchar y caer! ¡Hagámoslo!"
 L["korval_dark_note"] = "Este lugar es escalofriante, hagamos un combate rápido."
 L["lozu_note"] = "Luchemos con honor, extrangero."
 
+L["tales_bwonsamdi_note"] = "En el pilar destruido."
+L["tales_hireek_note"] = "Un Pergamino en la mesa."
+L["tales_kragwa_note"] = "En la pared destruida"
+L["tales_torga_note"] = "Bajo el agua de un pilar destruido."
+
+L["carved_in_stone_41860"] = "Dentro de un edificio destruido cerca de la montaña."
+L["carved_in_stone_41861"] = "En el pilar destruido."
+L["carved_in_stone_41862"] = "En la pared destruida, enfrente del pilar grandioso."
+L["carved_in_stone_42116"] = "En el pilar que hay al lado del {npc:126126}."
+L["options_icons_carved_in_stone"] = "Tallada en Piedra y Escrita en Sangre"
+L["options_icons_carved_in_stone_desc"] = "Muestra las localizaciones de los pictogramas para el logro Tallada en Piedra y Escrita en Sangre."
+
 L["hoppin_sad_53419"] = "Detrás de dos árboles bajo una raíz enorme."
 L["hoppin_sad_53420"] = "En las ruinas."
 L["hoppin_sad_53424"] = "En un acantalido."
@@ -522,6 +534,10 @@ L["keeyo_note"] = "¡Tiempo para una gran aventura!"
 L["kusa_note"] = "Estoy en una racha ganadora, no tienes ni una oportunidad contra mi y mi equipo."
 L["sizzik_note"] = "Siempre aprecio un buen combate con un desafiador nuevo."
 
+L["tales_akunda_note"] = "En el estanque"
+L["tales_kimbul_note"] = "Junto al árbol marchito"
+L["tales_sethraliss_note"] = "En el suelo junto a la mesa."
+
 L["plank_1"] = "Donde acaba la arena en la cima de la colina."
 L["plank_2"] = "Junto a un edificio destruido."
 L["plank_3"] = "En el lado de la pirámide. El camino empieza en el otro tablón cercano."
@@ -577,9 +593,21 @@ L["totem_of_paku_note"] = "Habla con la {npc:137510} al norte del Gran Sello par
 L["options_icons_paku_totems"] = "Tótems de Pa'ku"
 L["options_icons_paku_totems_desc"] = "Muestra las rutas de viaje para los tótems de Pa'ku en Dazar'alor."
 
+L["tales_gonk_note"] = "Reposa en la manta."
+L["tales_gral_note"] = "En las raices del árbol."
+L["tales_jani_note"] = "En el pilar destruido."
+L["tales_paku_note"] = "Encima del edificio, en una roca cerca del agua."
+L["tales_rezan_note"] = "Encima de la cueva del {npc:136428}."
+L["tales_shadra_note"] = "Junto a la entrada, detrás de una antorcha."
+L["tales_torcali_note"] = "Entre un grupo de barriles y las escaleras."
+L["tales_zandalar_note"] = "Detrás de {npc:132989}."
+
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
 L["options_icons_mushroom_harvest"] = "Cosecha de Champiñones"
 L["options_icons_mushroom_harvest_desc"] = "Muestra las localizaciones de los villanos fungáricos para el logro Cosecha de Champiñones."
+
+L["options_icons_tales_of_de_loa"] = "Érase una Vez un Loa"
+L["options_icons_tales_of_de_loa_desc"] = "Muestra las localizaciones de las historias para el logro Érase una Vez un Loa."
