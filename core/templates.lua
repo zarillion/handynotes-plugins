@@ -92,7 +92,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                     icon = ns.GetIconLink(group.icon, 16)
                 end
                 UIDropDownMenu_AddButton({
-                    text = icon..' '..L["options_icons_"..group.name],
+                    text = icon..' '..group.label,
                     isNotRadio = true,
                     keepShownOnClick = true,
                     hasArrow = true,
@@ -131,7 +131,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         -- Get correct map ID to query/set options for
         local group = UIDROPDOWNMENU_MENU_VALUE
 
-        self.GroupDesc.Text:SetText(L["options_icons_"..group.name.."_desc"])
+        self.GroupDesc.Text:SetText(ns.RenderLinks(group.desc))
         UIDropDownMenu_AddButton({ customFrame = self.GroupDesc }, 2)
         UIDropDownMenu_AddButton({
             notClickable = true,

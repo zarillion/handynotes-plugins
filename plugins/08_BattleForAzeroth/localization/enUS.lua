@@ -180,12 +180,12 @@ L["gearth"] = "Greater Earth"
 L["murloco"] = "Murloco"
 L["tentacle_taco"] = "Sells "..ITEM_QUALITY_COLORS[4].hex.."[Hungry Herald's Tentacle Taco]|r if you are wearing the Benthic Azsh'ari Stormsurger Cape."
 
-L["options_icons_treasures_nazj"] = "Treasures"
-L["options_icons_treasures_nazj_desc"] = "Display locations of chests for the Trove Tracker achievement."
+L["options_icons_treasures_nazj"] = "Trove Tracker"
+L["options_icons_treasures_nazj_desc"] = "Display locations of arcane chests for the {achievement:13549} achievement."
 L["options_icons_slimes_nazj"] = "Ravenous Slimes"
 L["options_icons_slimes_nazj_desc"] = "Display locations of the four Ravenous Slimes that produce pets once fed."
-L["options_icons_cats_nazj"] = "Cat Figurines"
-L["options_icons_cats_nazj_desc"] = "Display locations of the crystalline cat figurines for the Feline Figurines Found achievement."
+L["options_icons_cats_nazj"] = "Feline Figurines"
+L["options_icons_cats_nazj_desc"] = "Display locations of the cat figurines for the {achievement:13836} achievement."
 L["options_icons_misc_nazj"] = "Miscellaneous"
 L["options_icons_misc_nazj_desc"] = "Display the location of Murloco's cave and Mardivas's Laboratory."
 
@@ -218,8 +218,8 @@ L["carved_in_stone_41860"] = "Inside a destroyed building near the mountain."
 L["carved_in_stone_41861"] = "At the destroyed pillar."
 L["carved_in_stone_41862"] = "At the destroyed wall, in front of the huge pillar."
 L["carved_in_stone_42116"] = "At a pillar next to {npc:126126}."
-L["options_icons_carved_in_stone"] = "Carved in Stone, Written in Blood"
-L["options_icons_carved_in_stone_desc"] = "Show pictograph locations for the Carved in Stone, Written in Blood achievement."
+L["options_icons_carved_in_stone"] = "Carved in Stone"
+L["options_icons_carved_in_stone_desc"] = "Display pictograph locations for {achievement:13024}."
 
 L["hoppin_sad_53419"] = "Behind two trees under a huge root."
 L["hoppin_sad_53420"] = "In the ruins."
@@ -228,7 +228,7 @@ L["hoppin_sad_53425"] = "On the tree near the waterfall."
 L["hoppin_sad_53426"] = "Under a few roots."
 
 L["options_icons_hoppin_sad"] = "Hoppin' Sad"
-L["options_icons_hoppin_sad_desc"] = "Show lost spawn of Krag'wa locations for the Hoppin' Sad achievement."
+L["options_icons_hoppin_sad_desc"] = "Display {npc:143317} locations for the {achievement:13028} achievement."
 
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
@@ -267,7 +267,7 @@ L["these_hills_sing_note"] = "Open {item:160485} here. Buy one from "..luncheon.
 L["ancient_tidesage_scroll"] = "Ancient Tidesage Scroll"
 L["ancient_tidesage_scroll_note"] = "Read all 8 Ancient Tidesage Scrolls to earn the achievement."
 L["options_icons_tidesage_legends"] = "Legends of the Tidesages"
-L["options_icons_tidesage_legends_desc"] = "Show ancient scroll locations for the Legends of the Tidesages achievement."
+L["options_icons_tidesage_legends_desc"] = "Display ancient scroll locations for the {achievement:13051} achievement."
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
@@ -340,7 +340,7 @@ L["cursed_relic"] = "Requires Cursed Relic"
 L["tolvir_relic"] = "Requires Tol'vir Relic"
 
 L["options_icons_assault_events"] = "Assault Events"
-L["options_icons_assault_events_desc"] = "Show locations for possible assault events."
+L["options_icons_assault_events_desc"] = "Display locations for possible assault events."
 L["options_icons_coffers"] = "Locked Coffers"
 L["options_icons_coffers_desc"] = "Display locations of locked coffers (lootable once per assault)."
 
@@ -503,15 +503,15 @@ L["c_walkway_corner"] = "On the upper walkway in a corner."
 L["c_walkway_platform"] = "On a platform above the upper walkway."
 
 L["options_icons_visions_buffs"] = "Buffs"
-L["options_icons_visions_buffs_desc"] = "Show locations of events that grant 1 hour damage buffs."
+L["options_icons_visions_buffs_desc"] = "Display locations of events that grant 1 hour damage buffs."
 L["options_icons_visions_chest"] = "Chests"
-L["options_icons_visions_chest_desc"] = "Show possible chest locations inside horrific visions."
+L["options_icons_visions_chest_desc"] = "Display possible chest locations inside horrific visions."
 L["options_icons_visions_crystals"] = "Odd Crystals"
-L["options_icons_visions_crystals_desc"] = "Show possible odd crystal locations inside horrific visions."
+L["options_icons_visions_crystals_desc"] = "Display possible odd crystal locations inside horrific visions."
 L["options_icons_visions_mail"] = "Mailboxes"
-L["options_icons_visions_mail_desc"] = "Show mailbox locations for the Mail Muncher mount."
+L["options_icons_visions_mail_desc"] = "Display mailbox locations for the Mail Muncher mount."
 L["options_icons_visions_misc"] = "Miscellaneous"
-L["options_icons_visions_misc_desc"] = "Show rare, toy, potion and ethereal locations inside horrific visions."
+L["options_icons_visions_misc_desc"] = "Display rare, toy, potion and ethereal locations inside horrific visions."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -543,7 +543,7 @@ L["plank_4"] = "At the top of a sand dune along the side of the pyramid."
 L["plank_5"] = "Follow the serpent's tail to find the plank."
 L["planks_ridden"] = "rickety planks ridden"
 L["options_icons_dune_rider"] = "Dune Rider"
-L["options_icons_dune_rider_desc"] = "Show rickety plank locations for the Dune Rider achievement."
+L["options_icons_dune_rider_desc"] = "Display rickety plank locations for the {achievement:13018} achievement."
 
 L["elusive_alpaca"] = "Feed {item:161128} to the {npc:162681} to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
 
@@ -589,7 +589,7 @@ L["torcali_note"] = "Complete quests at Warbeast Kraal until {quest:47261} becom
 
 L["totem_of_paku_note"] = "Speak to {npc:137510} north of the Great Seal to select Pa'ku as your loa in Zuldazar."
 L["options_icons_paku_totems"] = "Totems of Pa'ku"
-L["options_icons_paku_totems_desc"] = "Display travel paths for Totems of Pa'ku in Dazar'alor"
+L["options_icons_paku_totems_desc"] = "Display {npc:131154} locations and their travel paths in Dazar'alor."
 
 L["tales_gonk_note"] = "Lies on the blanket."
 L["tales_gral_note"] = "At the roots of the tree."
@@ -605,7 +605,7 @@ L["tales_zandalar_note"] = "Behind {npc:132989}."
 -------------------------------------------------------------------------------
 
 L["options_icons_mushroom_harvest"] = "Mushroom Harvest"
-L["options_icons_mushroom_harvest_desc"] = "Show fungarian villain locations for the Mushroom Harvest achievement."
+L["options_icons_mushroom_harvest_desc"] = "Display fungarian villain locations for the {achievement:13027} achievement."
 
 L["options_icons_tales_of_de_loa"] = "A Loa of a Tale"
-L["options_icons_tales_of_de_loa_desc"] = "Show tales of de loa locations for the A Loa of a Tale achievement."
+L["options_icons_tales_of_de_loa_desc"] = "Display tablet locations for the {achievement:13036} achievement."

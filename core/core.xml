@@ -6,6 +6,7 @@
   <Script file="core.lua"/>
   <Script file="icons.lua"/>
   <Script file="options.lua"/>
+  <Script file="util.lua"/>
   <Script file="dev.lua"/>
   <Script file="map.lua"/>
   <Script file="groups.lua"/>
@@ -14,7 +15,6 @@
   <Script file="rewards.lua"/>
   <Script file="templates.lua"/>
   <Script file="pois.lua"/>
-  <Script file="util.lua"/>
 
   <!-- Must be outside of core/ for dev purposes -->
   <Include file="..\templates.xml"/>

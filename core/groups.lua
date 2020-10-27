@@ -3,6 +3,7 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
+local L = ns.locale
 local Class = ns.Class
 
 -------------------------------------------------------------------------------
@@ -17,6 +18,12 @@ function Group:Initialize(name, icon, attrs)
 
     self.name = name
     self.icon = icon
+
+    self.label = L["options_icons_"..name]
+    self.desc = L["options_icons_"..name.."_desc"]
+
+    -- Prepare any links in this group description
+    ns.PrepareLinks(self.desc)
 
     if attrs then
         for k, v in pairs(attrs) do self[k] = v end

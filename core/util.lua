@@ -87,7 +87,9 @@ local function RenderLinks(str, nameOnly)
                 if name then return name end
             else
                 local link = GetAchievementLink(tonumber(id))
-                if link then return link end
+                if link then
+                    return ns.GetIconLink('achievement', 15)..link
+                end
             end
         elseif type == 'currency' then
             local info = C_CurrencyInfo.GetCurrencyInfo(tonumber(id))

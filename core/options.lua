@@ -224,7 +224,7 @@ function ns.CreateGlobalGroupOptions()
     }) do
         ns.options.args.GlobalTab.args['group_icon_'..group.name] = {
             type = "header",
-            name = L["options_icons_"..group.name],
+            name = group.label,
             order = i * 10,
         }
 
@@ -293,8 +293,8 @@ function ns.CreateGroupOptions (map, group)
     options.args.IconsGroup.args["icon_toggle_"..group.name] = {
         type = "toggle",
         arg = group.displayArg,
-        name = L["options_icons_"..group.name],
-        desc = L["options_icons_"..group.name.."_desc"],
+        name = group.label,
+        desc = ns.RenderLinks(group.desc),
         disabled = function () return not group:IsEnabled() end,
         width = 0.9,
         order = map._icons_order
@@ -302,7 +302,7 @@ function ns.CreateGroupOptions (map, group)
 
     options.args.VisibilityGroup.args["header_"..group.name] = {
         type = "header",
-        name = L["options_icons_"..group.name],
+        name = group.label,
         order = map._visibility_order
     }
 

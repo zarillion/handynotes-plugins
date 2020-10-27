@@ -66,6 +66,7 @@ ns.icons = { -- name => path
     alliance = {Icon('alliance'), nil},
     horde = {Icon('horde'), nil},
 
+    achievement = {Icon('achievement'), nil},
     door_down = {Icon('door_down'), Glow('door_down')},
     envelope = {Icon('envelope'), Glow('envelope')},
     flight_point = {Icon('flight_point'), Glow('flight_point')},

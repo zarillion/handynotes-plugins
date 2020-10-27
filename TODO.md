@@ -20,6 +20,8 @@
 
 # Battle for Azeroth
 
+* War Supply drop locations in 8.0 zones
+
 ## Zandalar
 
 ### Optional
