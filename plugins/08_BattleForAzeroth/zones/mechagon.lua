@@ -272,14 +272,14 @@ nodes[53824933] = Rare({id=150394, quest=55546, future=2, note=L["vaultbot_note"
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
-nodes[64706460] = PetBattle({id=154922}) -- Gnomefeaster
-nodes[60704650] = PetBattle({id=154923}) -- Sputtertude
-nodes[60605690] = PetBattle({id=154924}) -- Goldenbot XD
-nodes[59205090] = PetBattle({id=154925}) -- Creakclank
-nodes[65405770] = PetBattle({id=154926}) -- CK-9 Micro-Oppression Unit
-nodes[51104540] = PetBattle({id=154927}) -- Unit 35
-nodes[39504010] = PetBattle({id=154928}) -- Unit 6
-nodes[72107290] = PetBattle({id=154929}) -- Unit 17
+nodes[64706460] = PetBattle({id=154922, rewards={Achievement({id=13625, criteria=45459})} }) -- Gnomefeaster
+nodes[60704650] = PetBattle({id=154923, rewards={Achievement({id=13625, criteria=45460})} }) -- Sputtertude
+nodes[60605690] = PetBattle({id=154924, rewards={Achievement({id=13625, criteria=45461})} }) -- Goldenbot XD
+nodes[59205090] = PetBattle({id=154925, rewards={Achievement({id=13625, criteria=45462})} }) -- Creakclank
+nodes[65405770] = PetBattle({id=154926, rewards={Achievement({id=13625, criteria=45463})} }) -- CK-9 Micro-Oppression Unit
+nodes[51104540] = PetBattle({id=154927, rewards={Achievement({id=13625, criteria=45464})} }) -- Unit 35
+nodes[39504010] = PetBattle({id=154928, rewards={Achievement({id=13625, criteria=45465})} }) -- Unit 6
+nodes[72107290] = PetBattle({id=154929, rewards={Achievement({id=13625, criteria=45466})} }) -- Unit 17
 
 -------------------------------------------------------------------------------
 -------------------------------- LOCKED CHESTS --------------------------------
