@@ -120,7 +120,7 @@ L["ucav_spawn"] = "在水下的洞穴刷新。"
 L["zone_spawn"] = "在整个区域刷新。"
 
 L["supply_chest"] = "战争补给箱"
-L["assassin_looted"] = " 是刺客时可以拾取。"
+L["assassin_looted"] = "战争模式启用时可以拾取。"
 
 L["arcane_chest"] = "奥术宝箱"
 L["glowing_chest"] = "发光的奥能宝箱"
