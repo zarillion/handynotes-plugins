@@ -213,7 +213,7 @@ L["lozu_note"] = "Luchemos con honor, extrangero."
 
 L["tales_bwonsamdi_note"] = "En el pilar destruido."
 L["tales_hireek_note"] = "Un Pergamino en la mesa."
-L["tales_kragwa_note"] = "En la pared destruida"
+L["tales_kragwa_note"] = "En la pared destruida."
 L["tales_torga_note"] = "Bajo el agua de un pilar destruido."
 
 L["carved_in_stone_41860"] = "Dentro de un edificio destruido cerca de la montaña."
@@ -534,8 +534,8 @@ L["keeyo_note"] = "¡Tiempo para una gran aventura!"
 L["kusa_note"] = "Estoy en una racha ganadora, no tienes ni una oportunidad contra mi y mi equipo."
 L["sizzik_note"] = "Siempre aprecio un buen combate con un desafiador nuevo."
 
-L["tales_akunda_note"] = "En el estanque"
-L["tales_kimbul_note"] = "Junto al árbol marchito"
+L["tales_akunda_note"] = "En el estanque."
+L["tales_kimbul_note"] = "Junto al árbol marchito."
 L["tales_sethraliss_note"] = "En el suelo junto a la mesa."
 
 L["plank_1"] = "Donde acaba la arena en la cima de la colina."
