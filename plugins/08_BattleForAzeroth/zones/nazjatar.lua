@@ -414,18 +414,18 @@ end)
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
-nodes[34702740] = PetBattle({id=154910, note=L["in_cave"]}) -- Prince Wiggletail
-nodes[71905110] = PetBattle({id=154911}) -- Chomp
-nodes[58304810] = PetBattle({id=154912}) -- Silence
-nodes[42201400] = PetBattle({id=154913}) -- Shadowspike Lurker
-nodes[50605030] = PetBattle({id=154914, note=L["in_cave"]}) -- Pearlhusk Crawler
-nodes[51307500] = PetBattle({id=154915}) -- Elderspawn of Nalaada
-nodes[29604970] = PetBattle({id=154916, note=L["in_cave"]}) -- Ravenous Scalespawn
-nodes[56400810] = PetBattle({id=154917, note=L["in_cave"]}) -- Mindshackle
-nodes[46602800] = PetBattle({id=154918, note=L["in_cave"]}) -- Kelpstone
-nodes[37501670] = PetBattle({id=154919, note=L["in_cave"]}) -- Voltgorger
-nodes[61472290] = PetBattle({id=154920, note=L["in_cave"]}) -- Frenzied Knifefang
-nodes[28102670] = PetBattle({id=154921, note=L["in_cave"]}) -- Giant Opaline Conch
+nodes[34702740] = PetBattle({id=154910, rewards={Achievement({id=13626, criteria=45467})}, note=L["in_cave"]}) -- Prince Wiggletail
+nodes[71905110] = PetBattle({id=154911, rewards={Achievement({id=13626, criteria=45468})} }) -- Chomp
+nodes[58304810] = PetBattle({id=154912, rewards={Achievement({id=13626, criteria=45469})} }) -- Silence
+nodes[42201400] = PetBattle({id=154913, rewards={Achievement({id=13626, criteria=45470})} }) -- Shadowspike Lurker
+nodes[50605030] = PetBattle({id=154914, rewards={Achievement({id=13626, criteria=45471})}, note=L["in_cave"]}) -- Pearlhusk Crawler
+nodes[51307500] = PetBattle({id=154915, rewards={Achievement({id=13626, criteria=45472})} }) -- Elderspawn of Nalaada
+nodes[29604970] = PetBattle({id=154916, rewards={Achievement({id=13626, criteria=45473})}, note=L["in_cave"]}) -- Ravenous Scalespawn
+nodes[56400810] = PetBattle({id=154917, rewards={Achievement({id=13626, criteria=45474})}, note=L["in_cave"]}) -- Mindshackle
+nodes[46602800] = PetBattle({id=154918, rewards={Achievement({id=13626, criteria=45475})}, note=L["in_cave"]}) -- Kelpstone
+nodes[37501670] = PetBattle({id=154919, rewards={Achievement({id=13626, criteria=45476})}, note=L["in_cave"]}) -- Voltgorger
+nodes[61472290] = PetBattle({id=154920, rewards={Achievement({id=13626, criteria=45477})}, note=L["in_cave"]}) -- Frenzied Knifefang
+nodes[28102670] = PetBattle({id=154921, rewards={Achievement({id=13626, criteria=45478})}, note=L["in_cave"]}) -- Giant Opaline Conch
 
 -------------------------------------------------------------------------------
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
