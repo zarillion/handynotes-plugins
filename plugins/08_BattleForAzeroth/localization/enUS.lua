@@ -16,7 +16,7 @@ L["vicemaul_note"] = "Click the {npc:127652} to reel in the rare."
 
 L["merchants_chest_note"] = "Kill the nearby {npc:137468} that is holding a keyring to acquire {item:163710}"
 L["wicker_pup_note"] = [[
-Light the inactive {npc:143609}es to activate the chest. Combine the items from all four chests to create a {npc:143189}.
+Light the inactive {npc:143609es} to activate the chest. Combine the items from all four chests to create a {npc:143189}.
 
 • Bespelled: {item:163790}
 • Enchanted: {item:163796}
@@ -24,7 +24,7 @@ Light the inactive {npc:143609}es to activate the chest. Combine the items from 
 • Hexed: {item:163789}
 ]]
 
-local runebound = "Activate the {npc:143688}s in the order shown on the metal plates behind the chest:\n\n"
+local runebound = "Activate the {npc:143688s} in the order shown on the metal plates behind the chest:\n\n"
 L["runebound_cache_note"] = runebound.."Left -> Bottom -> Top -> Right"
 L["runebound_chest_note"] = runebound.."Left -> Right -> Bottom -> Top"
 L["runebound_coffer_note"] = runebound.."Right -> Top -> Left -> Bottom"
@@ -237,7 +237,7 @@ L["options_icons_hoppin_sad_desc"] = "Display {npc:143317} locations for the {ac
 L["in_basement"] = "In the basement."
 L["jakala_note"] = "Talk to {npc:140925}."
 L["nestmother_acada_note"] = "Inspect Acada's Nest to spawn the rare."
-L["sabertron_note"] = "Kill the {npc:139334} to activate one of the {npc:139328}s."
+L["sabertron_note"] = "Kill the {npc:139334} to activate one of the {npc:139328s}."
 L["whiplash_note"] = "Only spawns when {wq:Whiplash} is active."
 
 L["discarded_lunchbox_note"] = "In the building on top of the bookshelf."
@@ -518,8 +518,8 @@ L["options_icons_visions_misc_desc"] = "Display rare, toy, potion and ethereal l
 -------------------------------------------------------------------------------
 
 L["bloodwing_bonepicker_note"] = "Collect the {npc:136390} at the summit to summon the vulture."
-L["nezara_note"] = "Cut the ropes attached to all four {npc:128952}s to release the rare."
-L["vathikur_note"] = "Kill the {npc:126894}s to summon the rare."
+L["nezara_note"] = "Cut the ropes attached to all four {npc:128952s} to release the rare."
+L["vathikur_note"] = "Kill the {npc:126894s} to summon the rare."
 L["zunashi_note"] = "Entrance to the north in the mouth of a large skull."
 
 L["ashvane_spoils_note"] = "Ride the {npc:132662} down the hill to spawn the treasure at the bottom."
@@ -563,8 +563,8 @@ L["frightened_kodo_note"] = "Despawns after a few minutes. Guaranteed to spawn a
 ----------------------------------- ZULDAZAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L["murderbeak_note"] = "Toss the chum into the sea, then kill {npc:134780}s until {npc:134782} spawns."
-L["vukuba_note"] = "Investigate the {npc:134049}, then kill waves of {npc:134047}s until {npc:134048} spawns."
+L["murderbeak_note"] = "Toss the chum into the sea, then kill {npc:134780s} until {npc:134782} spawns."
+L["vukuba_note"] = "Investigate the {npc:134049}, then kill waves of {npc:134047s} until {npc:134048} spawns."
 
 L["cache_of_secrets_note"] = "Held by an {npc:137234} in a cave behind a waterfall."
 L["da_white_shark_note"] = "Stand near {npc:133208} until she becomes hostile."
@@ -583,7 +583,7 @@ L["zujai_note"] = "You come to face me in my own home? Good luck."
 L["kuafon_note"] = [[
 Loot a {item:157782} from any Pterrordax in Zandalar to begin the quest line. Some quests will take multiple days to complete.
 
-The best mobs to farm are {npc:126618} in Zanchul or {npc:122113}s at Skyrender Eyrie south of Tal'gurub.
+The best mobs to farm are {npc:126618} in Zanchul or {npc:122113s} at Skyrender Eyrie south of Tal'gurub.
 ]]
 L["torcali_note"] = "Complete quests at Warbeast Kraal until {quest:47261} becomes available. Some quests will take multiple days to complete."
 

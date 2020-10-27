@@ -28,7 +28,7 @@ L["faeflayer_note"] = "In a small cave hidden behind a waterfall."
 L["humongozz_note"] = "Plant an {item:175247} in the Damp Loam to spawn a {npc:164122}. After a minute of {spell:319367}, the rare will spawn. The mushroom drops from numerous mobs in the zone."
 L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
 L["rainbowhorn_note"] = "\n|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r"
-L["rootwrithe_note"] = "Poke the {npc:167928}s until the rare appears."
+L["rootwrithe_note"] = "Poke the {npc:167928s} until the rare appears."
 L["rotbriar_note"] = "Talk to {npc:171684} nearby to summon the rare after some dialog."
 L["slumbering_note"] = "Running into the fog will stun and port you out. Use a flare or a pet with AOE to knock him out of the fog."
 L["skuld_vit_note"] = "In a cave blocked by a barrier. A Night Fae must use {spell:310143} to enter the cave. Once he is pulled, the barrier will disappear."
@@ -107,7 +107,7 @@ L["nikara_note"] = "With two other players, click the Ancient Incense to summon.
 L["sotiros_orstus_note"] = "Click the Black Bell to summon the rares."
 L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
 L["swelling_tear_note"] = "Click the {npc:171012} to summon one of three rares. Tears can appear in multiple locations in the zone."
-L["unstable_memory_note"] = "Can be spawned when {npc:171018}s are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
+L["unstable_memory_note"] = "Can be spawned when {npc:171018s} are present. Drag one {npc:171018} into others to give it 10 stacks of {spell:333558}, turning it into the rare."
 L["wingflayer_note"] = "To summon, click the Horn of Courage on the nearby table (southeast, up the stairs)."
 
 L["broken_flute"] = "Kill nearby {npc:170009} until they drop the {item:180536}, then use the tools to repair it."
@@ -214,7 +214,7 @@ L["deepscar_note"] = "Can appear in multiple entrances to the Theater of Pain."
 L["forgotten_mementos"] = "Pull the Vault Portcullis Chain in the chamber west of the treasure to open the gate."
 L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
 L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
-L["leeda_note"] = "Kill the two {npc:162220}s until the rare spawns."
+L["leeda_note"] = "Kill the two {npc:162220s} until the rare spawns."
 L["malkorak_note"] = "At the top of the tower (lots of stairs)."
 L["sabriel_note"] = "Can appear as one of the champions in the Theater of Pain."
 L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
@@ -307,7 +307,7 @@ L["harika_note"] = [[
 
 In Dredhollow to the west, loot the {item:176397} and both sets of {item:176396}. Give the tools to both {npc:165328} near the ballista, then turn the bolt into {npc:165327} and tell him to bring down the rare.
 ]]
-L["innervus_note"] = "Kill nearby {npc:160375}s to obtain a {item:177223} and unlock the crypt."
+L["innervus_note"] = "Kill nearby {npc:160375s} to obtain a {item:177223} and unlock the crypt."
 L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
 L["lord_mortegore_note"] = "Kill surrounding mobs to obtain {item:174378} and use it to empower a {npc:161870}. The rare will spawn once all four sigils are empowered."
 L["madalav_note"] = "Click Madalav's Hammer on the nearby anvil to summon him."
@@ -316,7 +316,7 @@ L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
 L["sinstone_hoarder_note"] = "Attempt to loot the {npc:162503} and the rare will reveal itself."
 L["sire_ladinas_note"] = "Pick up a Remnant of Light nearby and use {spell:313065} on {npc:157733}."
 L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
-L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769}s and waves of {npc:155795}s until the rare spawns."
+L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769s} and waves of {npc:155795s} until the rare spawns."
 L["worldedge_gorger_note"] = [[
 Obtain an {item:173939} from World Reavers, Devourers and Mites in the Banewood and the Endmire. Use it to light the Worldedge Braziers and summon the rare.
 
@@ -324,7 +324,7 @@ Has a chance to drop an {item:180583}, which begins a 7 day quest line to obtain
 ]]
 
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
-L["forbidden_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838}s, then use {spell:340866} in front of the {npc:173786}."
+L["forbidden_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838s}, then use {spell:340866} in front of the {npc:173786}."
 L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
 L["rapier_fearless_note"] = "Click the rapier on the ground, then defeat {npc:173603}."
