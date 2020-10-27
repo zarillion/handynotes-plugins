@@ -122,7 +122,7 @@ L["ucav_spawn"] = "Aparece en una cueva bajo el agua."
 L["zone_spawn"] = "Aparece por toda la zona."
 
 L["supply_chest"] = "Cofre de Suministros de Guerra"
-L["assassin_looted"] = " despojado mientras un asesino."
+L["assassin_looted"] = "despojado mientras era un asesino."
 
 L["arcane_chest"] = "Cofre Arcano"
 L["glowing_chest"] = "Valija Arcana Resplandeciente"
