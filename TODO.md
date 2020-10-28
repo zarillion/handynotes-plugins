@@ -6,7 +6,6 @@
 * Add checkmark to completed nodes
 * Add list of map items to quest log panel (new tab?)
 * Add support for explicit focus/glow groups
-* Allow suffixes in {} format strings
 
 # Shadowlands
 
