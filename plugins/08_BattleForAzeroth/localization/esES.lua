@@ -48,15 +48,19 @@ L["beastbot_note"] = "Fabrica un {item:168045} en {npc:150359} para activar a la
 L["cogstar_note"] = "Mata {npc:154213} en cualquier sitio de la zona hasta que {npc:153228} se teleporte a ayudarlos."
 L["crazed_trogg_note"] = "Usa un Roboespray, una vejiga llena de pintura, o un robot pintador en el Vertedero de Bondo para vestirte del color que grita {npc:152569}."
 L["deepwater_note"] = "Fabrica un {item:167649} en {npc:150359} para invocar a {npc:151569}."
-L["doppel_note"] = 'Junto a otros dos jugadores, ha de usar cada uno una {item:169470} para activar a {npc:155060}. La {item:169470} se consigue de la misión diaria {quest:56405}.'
+L["doppel_note"] = "Junto a otros dos jugadores, ha de usar cada uno una {item:169470} para activar a {npc:155060}. La {item:169470} se consigue de la misión diaria {daily:56405}."
 L["foul_manifest_note"] = "Activa el disyuntor y conecta los tres cables con los tres pilones del agua para invocar a la {npc:151202}."
-L["furor_note"] = 'Durante la misión diaria {quest:55463}, haz click en las pequeñas setas azules hasta que aparezca {npc:151884}.'
+L["furor_note"] = "Durante la misión diaria {daily:55463}, haz click en las pequeñas setas azules hasta que aparezca {npc:151884}."
 L["killsaw_note"] = "Aparece en cualquier sitio del bosque al oeste de la isla donde hayan {npc:151871} cortando árboles. Has de matarlos para que aparezca {npc:152007} para vengarlos. Los {npc:151871} no aparecen los días que esté Ventura y Cía en el bosque."
-L["leachbeast_note"] = "Usa una {item:168961} que sueltan los enemigos de Depósito Trastovatio para activar la Máquina de alteración climática. Esto hará que comiencen a aparecer {npc:151745}. Tras matar a varios saldrá {npc:152764}"
-L["nullifier_note"] = 'Para hacer aparecer al {npc:151124} hay que piratear el {npc:152174} usando ya sea la tarjeta {item=168435} o el {item:168023}. El primero puede caer de {npc:151625} mientras que el segundo puede caer de los enemigos que atacan a las {npc:150306} JD41 y JD99.'
+L["leachbeast_note"] = "Usa una {item:168961} que sueltan los enemigos de Depósito Trastovatio para activar la Máquina de alteración climática. Esto hará que llueva y que comiencen a aparecer {npc:151745}. Tras matar a varios saldrá {npc:152764}"
+L["nullifier_note"] = [[
+Piratea el {npc:152174} usando uno de estos objetos:
+• Una tarjeta perforada {item:168435} despojada de {npc:151625}.
+• Un {item:168023} despojado de los enemigos que atacan a las tuneladoras JD41 y JD99.
+]]
 L["scrapclaw_note"] = "Cerca de la orilla bajo el agua (82.3 77.9) aparece {npc:155583}."
-L["sparkqueen_note"] = '{npc:153000} sólo aparece cuando la misión diaria {quest:55765} está activa.'
-L["rusty_note"] = "Fabrica un {item:169114} en {npc:150359} para ir al futuro alternativo. {npc:154225} sólo aparece cuando {npc:73691} NO está presente en Pernoóxido."
+L["sparkqueen_note"] = "{npc:153000} sólo aparece cuando la misión diaria {daily:55765} está activa."
+L["rusty_note"] = "Fabrica un {item:169114} en {npc:150359} para ir al futuro alternativo. {npc:154225} sólo aparece cuando {npc:153993} NO está presente en Pernoóxido."
 L["vaultbot_note"] = "Kitea al {npc:150394} hasta la bobina tesla en el Vertedero de Bondo o fabrica una {item:167062} en {npc:150359} para abrirlo."
 
 L["iron_chest"] = "Arcón de los Marea de Hierro"
@@ -80,7 +84,7 @@ L["options_icons_mech_chest_desc"] = "Muestra las localizaciones de los cofres m
 L["options_icons_locked_chest"] = "Cofres Cerrados"
 L["options_icons_locked_chest_desc"] = "Muestra las localizaciones de los cofres cerrados en Rocío del Oeste."
 L["options_icons_recrig"] = "Equipo de Recuperación"
-L["options_icons_recrig_desc"] = "Muestra la localización del Equipo de Recuperación y sus recompensas."
+L["options_icons_recrig_desc"] = "Muestra la localización del {npc:150448} y sus recompensas."
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
@@ -100,8 +104,8 @@ L["kelpwillow_note"] = "Para activar a {npc:152567} llévale una {npc:154725} us
 L["lasher_note"] = "Planta una {item:166888} en el suelo y aliméntala con moscas hasta que aparezca el {npc:149653}."
 L["matriarch_note"] = "{npc:152542}, {npc:152548} y {npc:152545} comparten entre sí el tiempo de aparición."
 L["needle_note"] = "Normalmente aparece en la zona de la Puerta de la Reina."
-L["oronu_note"] = "Para activar a {npc:152397} invoca una {npc:154849}."
-L["rockweed_note"] = "Mata a todos los {npc:152549} y {npc:151166} de la zona hasta que aparezca el {npc:150583}. Se recomienda un grupo de banda ya que esto puede requerir mucho tiempo."
+L["oronu_note"] = "Para activar a {npc:152397} invoca la mascota {npc:154849}."
+L["rockweed_note"] = "Mata a todos los {npc:152549} y al {npc:151166} de la zona hasta que aparezca el {npc:150583}. Se recomienda un grupo de banda ya que esto puede requerir mucho tiempo."
 L["sandcastle_note"] = "Usa una {item:167077} para revelar todos los cofres de la zona hasta que aparezca {npc:151870}."
 L["tidelord_note"] = "Mata a los tres {npc:145326} y al {npc:153999} que ellos invocan hasta que aparezca {npc:153928} o {npc:153898}."
 L["tidemistress_note"] = "Haz click en los huevos de Espécimen Inalterado hasta que aparezca {npc:154148}."
@@ -164,6 +168,7 @@ L["cat_figurine_07"] = "En una cueva pequeña. La Figurilla está en la pared en
 L["cat_figurine_08"] = "En una cueva pequeña. Esquiva las áreas arcanas. La Figurilla está encima de una roca alta en la parte trasera."
 L["cat_figurine_09"] = "En una cueva bajo el agua. La Figurila está en la parte superior del arco rocoso por el techo."
 L["cat_figurine_10"] = "En una cueva justo debajo del camino. La Figurilla está entre los tres barriles."
+L["figurines_found"] = "Figurilla de Cristal Encontrada"
 
 L["mardivas_lab"] = "Laboratorio de Mardivas"
 L["no_reagent"] = "Sin ingredientes"
@@ -177,8 +182,8 @@ L["tentacle_taco"] = "Vende {item:170100} si llevas puesto el {item:169489}."
 
 L["options_icons_slimes_nazj"] = "Babas Voraces"
 L["options_icons_slimes_nazj_desc"] = "Muestra las localizaciones de las cuatro Babas Voraces que producen mascotas al ser alimentadas."
-L["options_icons_cats_nazj"] = "Figurillas de Gato Cristalinas"
-L["options_icons_cats_nazj_desc"] = "Muestra las localizaciones de las figurillas de gato cristalinas para el logro Figurillas de felino encontradas."
+L["options_icons_cats_nazj"] = "Figurillas de Gato"
+L["options_icons_cats_nazj_desc"] = "Muestra las localizaciones de las figurillas de gato para el logro {achievement:13836}."
 L["options_icons_misc_nazj"] = "Miscelánea"
 L["options_icons_misc_nazj_desc"] = "Muestra la localización de la cueva de Murloco y el Laboratorio de Mardivas."
 
@@ -206,8 +211,8 @@ L["carved_in_stone_41860"] = "Dentro de un edificio destruido cerca de la monta�
 L["carved_in_stone_41861"] = "En el pilar destruido."
 L["carved_in_stone_41862"] = "En la pared destruida, enfrente del pilar grandioso."
 L["carved_in_stone_42116"] = "En el pilar que hay al lado del {npc:126126}."
-L["options_icons_carved_in_stone"] = "Tallada en Piedra y Escrita en Sangre"
-L["options_icons_carved_in_stone_desc"] = "Muestra las localizaciones de los pictogramas para el logro Tallada en Piedra y Escrita en Sangre."
+L["options_icons_carved_in_stone"] = "Tallada en Piedra"
+L["options_icons_carved_in_stone_desc"] = "Muestra las localizaciones de las pictografías para el logro {achievement:13024}."
 
 L["hoppin_sad_53419"] = "Detrás de dos árboles bajo una raíz enorme."
 L["hoppin_sad_53420"] = "En las ruinas."
@@ -216,7 +221,7 @@ L["hoppin_sad_53425"] = "En el árbol cerca de la cascada."
 L["hoppin_sad_53426"] = "Bajo algunas raices."
 
 L["options_icons_hoppin_sad"] = "Tristeza Saltarina"
-L["options_icons_hoppin_sad_desc"] = "Muestra las localizaciones de los engendros de Krag'wa perdidos para el logro Tristeza Saltarina."
+L["options_icons_hoppin_sad_desc"] = "Muestra las localizaciones de los {npc:143317} para el logro {achievement:13028}."
 
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
@@ -255,7 +260,7 @@ L["these_hills_sing_note"] = "Abre {item:160485} aquí. Cómpraselo a "..luncheo
 L["ancient_tidesage_scroll"] = "Pergamino Antiguo de Sabiomar"
 L["ancient_tidesage_scroll_note"] = "Lee los 8 Pergamino Antiguo de Sabiomar para conseguir el logro."
 L["options_icons_tidesage_legends"] = "Leyendas de los Sabiomar"
-L["options_icons_tidesage_legends_desc"] = "Muestra las localizaciones de los pergaminos antiguos para el logro Leyendas de los Sabiomar."
+L["options_icons_tidesage_legends_desc"] = "Muestra las localizaciones de los pergaminos antiguos para el logro {achievement:13051}."
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
@@ -295,7 +300,7 @@ L["kwint_note"] = "Una persona contra un tiburón, quizás sea una pelea justa. 
 
 L["uldum_intro_note"] = "Completa la cadena de misiones introductorias para desbloquear los raros, tesoros y misiones de asalto en Uldum."
 
-L["aqir_flayer"] = "Comparte lugar de aparición con {npc:11721} y {npc:154365}."
+L["aqir_flayer"] = "Comparte lugar de aparición con {npc:163114} y {npc:154365}."
 L["aqir_titanus"] = "Comparte lugar de aparición con {npc:154353}."
 L["aqir_warcaster"] = "Comparte lugar de aparición con {npc:154352}."
 L["atekhramun"] = "Aplasta los {npc:152765} hasta que aparezca {npc:152757}."
@@ -309,7 +314,7 @@ L["gersahl_note"] = "Alimenta a una {npc:162765} siete veces para una montura. N
 L["gersahl"] = "Arbusto Gershal"
 L["hmiasma"] = "Atrae {npc:158703} y {npc:160625} al círculo azul donde está {npc:160623} para alimentarle. Cuando haya crecido lo suficiente se activará."
 L["kanebti"] = "Recoge {item:168160} haciendo click en {npc:152427}, los cuales comparten lugar de aparición con los {npc:151859} normales. Inserta la Figurilla en el Altar del Escarabajo para invocar a {npc:152431}."
-L["right_eye"] = "Te da la mitad derecha del juguete {item:175140}."
+L["right_eye"] = "Te da {item:175142} que es la mitad derecha del juguete {item:175140}."
 L["neferset_rare"] = "Los seis raros comparten los tres lugares de aparición en Neferset. Tras completar un número de veces el evento del Ritual de Invocación, aparecerán tres raros aleatorios."
 L["platform"] = "Aparece encima de la plataforma flotante."
 L["single_chest"] = "¡Este cofre aparece sólo en una localización! Si no está aquí, espera un poco y aparecerá."
@@ -330,7 +335,7 @@ L["options_icons_coffers"] = "Alijos Cerrados"
 L["options_icons_coffers_desc"] = "Muestra las localizaciones de los alijos cerrados (despojables una vez por asalto)."
 
 L["ambush_settlers"] = "Mata oleadas de enemigos hasta que acabe el evento."
-L["burrowing_terrors"] = "Salta encima de los {npc:162066} para aplastarlos."
+L["burrowing_terrors"] = "Salta encima de los {npc:162073} para aplastarlos."
 L["call_of_void"] = "Haz click para purificar el Pilón de Ritual."
 L["combust_cocoon"] = "Lanza las bombas de fuego a las crisálidas del techo."
 L["dormant_destroyer"] = "Haz click en todos los cristales de {npc:162194}."
@@ -345,7 +350,7 @@ L["ritual_ascension"] = "Mata a todos los {npc:152233}."
 L["solar_collector"] = "Enciende los cinco cristales de poder en todos los lados del Recolector. Haciendo click en un cristal enciendes o apagas todos los cristales que están a su lado."
 L["summoning_ritual"] = "Mata a los acólitos y cierra el portal de invocación. Tras completar el evento cierto número de veces, aparecerán tres raros aleatorios aldrededor de Neferset."
 L["titanus_egg"] = "Destruye el {npc:163257} y mata al {npc:163268}."
-L["unearthed_keeper"] = "Destruye el {npc:156869}."
+L["unearthed_keeper"] = "Destruye el {npc:156849}."
 L["virnall_front"] = "Mata oleadas de enemigos hasta que aparezca {npc:152163}."
 L["voidflame_ritual"] = "Apaga todas las velas tocadas por el Vacío."
 
@@ -368,7 +373,7 @@ L["guolai_left"] = "Está dentro de las Salas Guo-Lai (pasillo de la izquierda).
 L["guolai_center"] = "Está dentro de las Salas Guo-Lai (pasillo central)."
 L["guolai_right"] = "Está dentro de las Salas Guo-Lai (pasillo de la derecha)."
 L["pools_of_power"] = "Está dentro de las Pozas de Poder. La entrada está por La Pagoda Dorada."
-L["left_eye"] = "Te da la mitad izquierda del juguete {item:175140}."
+L["left_eye"] = "Te da {item:175141} que es la mitad izquierda del juguete {item:175140}."
 L["tisiphon"] = "Haz click en la Caña de pescar de la suerte de Danielle."
 
 L["ambered_cache"] = "Alijo ámbar"
@@ -377,7 +382,7 @@ L["mogu_plunder"] = "Botín mogu"
 L["mogu_strongbox"] = "Caja fuerte mogu"
 
 L["abyssal_ritual"] = "Mata a los {npc:153179} y después a la {npc:153171}."
-L["bound_guardian"] = "Mata a los tres {npc:154200} y libera a la {npc:154328}."
+L["bound_guardian"] = "Mata a los tres {npc:154329} y libera a la {npc:154328}."
 L["colored_flames"] = "Coge las llamas coloreadas de sus antorchas y llévalas a las runas de su color."
 L["construction_ritual"] = "Pon la estatua del tigre en el rayo."
 L["consuming_maw"] = "Haz click en Tentáculos y Tumores Corruptos hasta que te saque fuera."
@@ -400,7 +405,7 @@ L["ravager_hive"] = "Destruye todas las colmenas del árbol."
 L["ritual_wakening"] = "Mata a los {npc:157942}."
 L["serpent_binding"] = "Mata los {npc:157345} y después a {npc:157341}."
 L["stormchosen_arena"] = "Mata todos los enemigos de la arena y después al General del Clan."
-L["swarm_caller"] = "Destruye el pilón {npc:157718}."
+L["swarm_caller"] = "Destruye el pilón {npc:157719}."
 L["vault_of_souls"] = "Haz click en la urna y destruye todas las estatuas."
 L["void_conduit"] = "Haz click en el {npc:162194} y aplasta los ojos del suelo hasta que te saque fuera."
 L["war_banner"] = "Quema los estandartes y mata oleadas de enemigos hasta que aparezca el comandante."
@@ -513,7 +518,7 @@ L["plank_4"] = "Sobre una duna de arena a lo largo del lado de la pirámide."
 L["plank_5"] = "Sigue la cola de la serpiente para encontrar el tablón."
 L["planks_ridden"] = "tablones destartalados montados"
 L["options_icons_dune_rider"] = "Jinete de las Dunas"
-L["options_icons_dune_rider_desc"] = "Muestra las localizaciones de los tablones destartalados para el logro Jinete de las Dunas."
+L["options_icons_dune_rider_desc"] = "Muestra las localizaciones de los tablones destartalados para el logro {achievement:13018}."
 
 L["elusive_alpaca"] = "Alimenta a la {npc:162681} con {item:161128} para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
 
@@ -559,7 +564,7 @@ L["torcali_note"] = "Completa misiones en el Redil Bestia de Guerra hasta que {q
 
 L["totem_of_paku_note"] = "Habla con la {npc:137510} al norte del Gran Sello para seleccionar a Pa'ku como tu loa en Zuldazar."
 L["options_icons_paku_totems"] = "Tótems de Pa'ku"
-L["options_icons_paku_totems_desc"] = "Muestra las rutas de viaje para los tótems de Pa'ku en Dazar'alor."
+L["options_icons_paku_totems_desc"] = "Muestra las localizaciones de los {npc:131154} y sus rutas de viaje en Dazar'alor."
 
 L["tales_gonk_note"] = "Reposa en la manta."
 L["tales_gral_note"] = "En las raices del árbol."
@@ -575,7 +580,7 @@ L["tales_zandalar_note"] = "Detrás de {npc:132989}."
 -------------------------------------------------------------------------------
 
 L["options_icons_mushroom_harvest"] = "Cosecha de Champiñones"
-L["options_icons_mushroom_harvest_desc"] = "Muestra las localizaciones de los villanos fungáricos para el logro Cosecha de Champiñones."
+L["options_icons_mushroom_harvest_desc"] = "Muestra las localizaciones de los villanos fungáricos para el logro {achievement:13027}."
 
 L["options_icons_tales_of_de_loa"] = "Érase una Vez un Loa"
-L["options_icons_tales_of_de_loa_desc"] = "Muestra las localizaciones de las historias para el logro Érase una Vez un Loa."
+L["options_icons_tales_of_de_loa_desc"] = "Muestra las localizaciones de los volúmenes para el logro {achievement:13036}."
