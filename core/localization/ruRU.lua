@@ -27,7 +27,7 @@ L["gun"] = "Ружье"
 L["wand"] = "Жезл"
 L["crossbow"] = "Арбалет"
 L["offhand"] = "Левая Рука"
-L["warglaives"] = "Боевые клинки"
+L["warglaive"] = "Боевые клинки"
 
 L["ring"] = "Кольцо"
 L["amulet"] = "Шея"

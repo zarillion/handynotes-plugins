@@ -770,12 +770,13 @@ map.nodes[60683221] = Node({
             {id=45689, note=' ('..L["searth"].." + "..L["gearth"]..')'}, -- Herald of Salgos
             {id=45690, note=' ('..L["searth"].." + "..L["gfire"]..')'} -- Salgos the Eternal
         }}),
+        Item({item=170477, note=L["Arcane"]}), -- Mardivas's Universally Lauded Tote
         Transmog({item=170138, slot=L["offhand"], note=L["Watery"]}), -- Scroll of Violent Tides
         Transmog({item=170126, slot=L["bow"], note=L["Burning"]}), -- Igneous Longbow
         Transmog({item=170383, slot=L["shield"], note=L["Dusty"]}), -- Coralspine Bulwark
         Transmog({item=170137, slot=L["dagger"], note=L["Zomera"]}), -- Azerite-Infused Crystal Flayer
         Transmog({item=170132, slot=L["1h_sword"], note=L["Omus"]}), -- Slicer of Omus
-        Transmog({item=170130, slot=L["warglaives"], note=L["Osgen"]}), -- Glaive of Swells
+        Transmog({item=170130, slot=L["warglaive"], note=L["Osgen"]}), -- Glaive of Swells
         Transmog({item=170128, slot=L["staff"], note=L["Moghiea"]}), -- Majestic Shirakess Greatstaff
         Transmog({item=170127, slot=L["polearm"], note=L["Xue"]}), -- Pyroclastic Halberd
         Transmog({item=170131, slot=L["wand"], note=L["Ungormath"]}), -- Tidal Wand of Malevolence

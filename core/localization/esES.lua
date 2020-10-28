@@ -31,7 +31,7 @@ L["gun"] = "Arma de fuego"
 L["wand"] = "Varita"
 L["crossbow"] = "Ballesta"
 L["offhand"] = "Mano Izquierda"
-L["warglaives"] = "Guja de guerra"
+L["warglaive"] = "Guja de guerra"
 
 L["ring"] = "Anillo"
 L["amulet"] = "Amuleto"
