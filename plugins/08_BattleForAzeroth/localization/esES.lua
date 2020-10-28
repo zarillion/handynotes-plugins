@@ -55,7 +55,9 @@ L["killsaw_note"] = "Aparece en cualquier sitio del bosque al oeste de la isla d
 L["leachbeast_note"] = "Usa una {item:168961} que sueltan los enemigos de Depósito Trastovatio para activar la Máquina de alteración climática. Esto hará que llueva y que comiencen a aparecer {npc:151745}. Tras matar a varios saldrá {npc:152764}"
 L["nullifier_note"] = [[
 Piratea el {npc:152174} usando uno de estos objetos:
+
 • Una tarjeta perforada {item:168435} despojada de {npc:151625}.
+
 • Un {item:168023} despojado de los enemigos que atacan a las tuneladoras JD41 y JD99.
 ]]
 L["scrapclaw_note"] = "Cerca de la orilla bajo el agua (82.3 77.9) aparece {npc:155583}."
@@ -314,7 +316,7 @@ L["gersahl_note"] = "Alimenta a una {npc:162765} siete veces para una montura. N
 L["gersahl"] = "Arbusto Gershal"
 L["hmiasma"] = "Atrae {npc:158703} y {npc:160625} al círculo azul donde está {npc:160623} para alimentarle. Cuando haya crecido lo suficiente se activará."
 L["kanebti"] = "Recoge {item:168160} haciendo click en {npc:152427}, los cuales comparten lugar de aparición con los {npc:151859} normales. Inserta la Figurilla en el Altar del Escarabajo para invocar a {npc:152431}."
-L["right_eye"] = "Te da {item:175142} que es la mitad derecha del juguete {item:175140}."
+L["right_eye"] = "Te da la mitad derecha del juguete {item:175140}."
 L["neferset_rare"] = "Los seis raros comparten los tres lugares de aparición en Neferset. Tras completar un número de veces el evento del Ritual de Invocación, aparecerán tres raros aleatorios."
 L["platform"] = "Aparece encima de la plataforma flotante."
 L["single_chest"] = "¡Este cofre aparece sólo en una localización! Si no está aquí, espera un poco y aparecerá."
@@ -373,7 +375,7 @@ L["guolai_left"] = "Está dentro de las Salas Guo-Lai (pasillo de la izquierda).
 L["guolai_center"] = "Está dentro de las Salas Guo-Lai (pasillo central)."
 L["guolai_right"] = "Está dentro de las Salas Guo-Lai (pasillo de la derecha)."
 L["pools_of_power"] = "Está dentro de las Pozas de Poder. La entrada está por La Pagoda Dorada."
-L["left_eye"] = "Te da {item:175141} que es la mitad izquierda del juguete {item:175140}."
+L["left_eye"] = "Te da la mitad izquierda del juguete {item:175140}."
 L["tisiphon"] = "Haz click en la Caña de pescar de la suerte de Danielle."
 
 L["ambered_cache"] = "Alijo ámbar"
@@ -430,12 +432,12 @@ Rojo => Azul
 
 L["bear_spirit_note"] = "Mata el {npc:160404} y todas las oleadas de enemigos para conseguir un buff de 10% de celeridad."
 L["buffs_change"] = "Los buffs disponibles cambian en cada pasada. Si el edificio está cerrado o el NPC/objeto no está, es que el buff no está en esa pasada."
-L["clear_sight"] = "Requiere {spell:312629} rango %d."
+L["clear_sight"] = "Requiere {spell:307519} rango %d."
 L["craggle"] = "Deja un juguete en el suelo (como el {item:44606}) para distraerlo mientras sus robots siguen patrullando. Cuando estén suficientemente separados, mata los robots y después a {npc:158284}."
 L["empowered_note"] = "Atraviesa el laberinto de minas hasta el piso superior y súbete encima de la {npc:161324} para conseguir un buff de 10% de daño incrementado."
 L["enriched_note"] = "Mata al {npc:161293} para conseguir un buff de 10% de crítico."
 L["ethereal_essence_note"] = "Mata a {npc:161198} para conseguir un buff de 10% de crítico."
-L["ethereal_note"] = "Consigue cristales naranjas escondidos a lo largo de la visión y llévaselos a este NPC para conseguir Recuerdos adicionales. Hay un total de 10 cristales, 2 en cada zona.\n\n|cFF00FF00¡No olvides despojar el cofre!|r"
+L["ethereal_note"] = "Consigue cristales naranjas escondidos a lo largo de la visión y llévaselos a {npc:162358} para conseguir Recuerdos adicionales. Hay un total de 10 cristales, 2 en cada zona.\n\n|cFF00FF00¡No olvides despojar el cofre!|r"
 L["heroes_bulwark_note"] = "Mata a {npc:158588} dentro de la taberna para conseguir un buff de 10% de vida."
 L["inside_building"] = "Dentro de un edificio."
 L["mailbox"] = "Buzón de Correos"
@@ -484,7 +486,7 @@ L["options_icons_visions_chest_desc"] = "Muestra las localizaciones posibles de 
 L["options_icons_visions_crystals"] = "Cristales Extraños"
 L["options_icons_visions_crystals_desc"] = "Muestra las localizaciones posibles de cristales extraños dentro de las visiones horripilantes."
 L["options_icons_visions_mail"] = "Buzones"
-L["options_icons_visions_mail_desc"] = "Muestra las localizaciones de buzones para la montura del Zampacorreos."
+L["options_icons_visions_mail_desc"] = "Muestra las localizaciones de buzones para la montura del {item:174653}."
 L["options_icons_visions_misc"] = "Miscelánea"
 L["options_icons_visions_misc_desc"] = "Muestra las localizaciones de raros, juguetes, pociones y del etéreo dentro de las visiones horripilantes."
 
