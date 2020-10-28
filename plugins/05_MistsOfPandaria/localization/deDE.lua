@@ -27,7 +27,7 @@ L["monstrous_spineclaw_note"] = "Töte {npc:72766} um die Insel herum, bis die {
 L["rattleskew_note"] = "Töte Wellen von {npc:72033}, bis der seltene Gegner erscheint."
 L["spelurk_cave"] = "In der Höhle von {npc:71864}."
 L["spelurk_note"] = [[
-Um in {npc:71864}s Höhle zugelangen, find one of the lost artifacts scattered around the island and use its ability on the rocks blocking the entrance.
+Um in {npc:71864s} Höhle zugelangen, finde eines der verlorenen Artefakte, die über die ganze Insel verteilt sind und verwende ihre Fähigkeit dazu die Steine vor dem Eingang zu entfernen.
 
 • {spell:147278}
 • {spell:149333}

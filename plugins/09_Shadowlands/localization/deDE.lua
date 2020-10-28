@@ -47,7 +47,7 @@ Danach sprich mit {npc:160262} im Herz des Waldes, um {item:181242} gegen einen 
 L["star_lake"] = "Sternseeamphitheater"
 L["star_lake_note"] = "Sprich mit {npc:171743}, um eine der besonderen Begegnungen zu beginnen."
 
-L["cache_of_the_moon"] = "Sammel {npc:171360}|CFFFFFF00s|r fünf verlorene Werkzeuge im Garten der Nacht und kombiniere diese zu {item:180753}. Bring dieses zu ihr zurück und sie wird dir die {spell:334353} gewähren, um die Truhe sehen zu können."
+L["cache_of_the_moon"] = "Sammel {npc:171360s} fünf verlorene Werkzeuge im Garten der Nacht und kombiniere diese zu {item:180753}. Bring dieses zu ihr zurück und sie wird dir die {spell:334353} gewähren, um die Truhe sehen zu können."
 L["cache_of_the_night"] = "Sammel {item:180656}, {item:180654} und {item:180655} aus der ganzen Zone und kombiniere diese zu einem {item:180652}."
 L["darkreach_supplies"] = "Verwende den {npc:169995}, um nach Südwesten in den ausgehöhlten Turm zu gleiten."
 L["desiccated_moth"] = "Verwende den {npc:169997}, nordwestlich des Baumes, um in die Baumkrone zu gleiten. Verbrenne {item:180784} im Räuchergefäß um den Schatz zu sammeln." --(31.7, 32,5)
@@ -91,12 +91,12 @@ Sprich mit {npc:161441}, um eine der vier Bestien zu beschwören.
 |cFFFF0000HINWEIS|r: Der NPC ist oft verbuggt und will nicht mit dir reden.
 ]]
 L["bookkeeper_mnemis_note"] = "Hat die Chance anstelle von {npc:166867} in diesem Gebiet zu erscheinen."
-L["cloudfeather_patriarch_note"] = "Töte {npc:158110}|CFFFFFF00n|r in diesem Gebiet, bis ein Emote ausgegeben wird und der {npc:170932} erscheint."
+L["cloudfeather_patriarch_note"] = "Töte {npc:158110n} in diesem Gebiet, bis ein Emote ausgegeben wird und der {npc:170932} erscheint."
 L["collector_astor_note"] = "Lies alle sechs Kapitel von Mercias Vermächtnis, die im Raum verstreut sind und das {npc:157979} wird zu dir flüstern. Sprich mit ihr, um {spell:333779} zu erhalten, der es dir erlaubt {item:180569} im Nordwesten zu finden. Wenn das Kapitel zurückgeben wird, erscheint {npc:171014}."
 L["corrupted_clawguard_note"] = "Plündere {item:180651} im Schmiedefeueraußenposten (54.9, 41.0) und verwende es, um die {npc:171300} zu reparieren."
 L["dark_watcher_note"] = "Kann nur während des Todes gesehen werden. Sprich mit ihr und sie wird {spell:332830} auf dich wirken, bevor sie angreift."
 L["demi_hoarder_note"] = "Startet mit 99 Stapeln von {spell:333874} (Reduzierung des erlittenen Schadens). Stapel werden langsam durch Schaden entfernt. {npc:171011} folgt einem Pfad und verschwindet wenn sie das Ende erreicht."
-L["dionae_note"] = "\nWenn sie immun wird, klicke auf die vier {npc:163747}|CFFFFFF00e|r, um ihr Schild zu brechen."
+L["dionae_note"] = "\nWenn sie immun wird, klicke auf die vier {npc:163747e}, um ihr Schild zu brechen."
 L["herculon_note"] = [[
 Sammel {item:172451} und verwende dieses, um {npc:158659} Stapel von {spell:343531} zu gewähren. Bei 10 Stapeln wird er aktiv.
 
@@ -123,7 +123,7 @@ L["gift_of_chyrus"] = "Knie vor er Truhe, um den {spell:333045} zu erhalten. \nV
 L["gift_of_devos"] = [[
 Südwestlich der Truhe ist eine Fackel von der du die {spell:333912} erhältst. Aufsitzen, Kampfbeitritt oder der erhalt von Schaden lassen die Flamme fallen. Du musst dir deinen Weg zurück zur Truhe bahnen und die Flamme in die Kohlenpfanne der Hingabe platzieren, um {spell:333070} zu erhalten.
 
-Bevor du die Flamme aufsammelst, töte alle Gegner vor der Truhe. Während du läufst klicke mehrere {npc:156571}|CFFFFFF00n|r entlang des Weges an, um {spell:335012} zu erhalten, der deine Bewegungsgeschwindigkeit erhöht.
+Bevor du die Flamme aufsammelst, töte alle Gegner vor der Truhe. Während du läufst klicke mehrere {npc:156571n} entlang des Weges an, um {spell:335012} zu erhalten, der deine Bewegungsgeschwindigkeit erhöht.
 ]]
 L["gift_of_thenios"] = [[
 Hinter der Truhe ist eine Transportplattform mit dem Namen "Pfad der Weisheit", diese führt zu einer Folge von Plattformen mit unterschiedlichen Räuchergefäßen mit denen gesprochen werden kann:
@@ -161,7 +161,7 @@ L["anima_shard_61254"] = "Auf einer kleinen Holzkonstruktion."
 L["anima_shard_61257"] = "An einer kleinen Kante direkt unterhalb von {npc:162523}."
 L["anima_shard_61258"] = "An einer kleinen Kante an der unterseite von Heldenrast."
 L["anima_shard_61260"] = "Am Boden unter einer Plattform."
-L["anima_shard_61261"] = "An einer Kante über {npc:163460}|CFFFFFF00s|r Höhle."
+L["anima_shard_61261"] = "An einer Kante über {npc:163460s} Höhle."
 L["anima_shard_61263"] = "Auf einer Steinsäule."
 L["anima_shard_61264"] = "Auf einer geneigten Struktur."
 L["anima_shard_61270"] = "Am Fuße eines Baumes."
@@ -193,8 +193,8 @@ L["anima_shard_61297"] = "Hinter einer Steinsäule."
 L["anima_shard_61298"] = "Hinter einem Liegestuhl."
 L["anima_shard_61299"] = "Hinter einer großen Fackel versteckt."
 L["anima_shard_61300"] = "An der Kante des mittleren Brunnens."
-L["options_icons_anima_shard"] = "Verlorene Animakristallsplitter"
-L["options_icons_anima_shard_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg |CFFFFFF00'Splitterpartie'|r an."
+L["options_icons_anima_shard"] = "Splitterpartie"
+L["options_icons_anima_shard_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg {achievement:14339} an."
 
 L["aspirants_rest"] = "Aspirantenrast"
 L["eternal_gateway"] = "Ewiges Tor"
@@ -238,14 +238,14 @@ L["bladesworn_supply_cache"] = "Vorräte des Klingenschwurs"
 L["cache_of_eyes"] = "Augenlager"
 L["cache_of_eyes_note"] = "Erscheint an mehreren Positionen in der Augenlosen Festung."
 
-L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:172485} und beide {npc:172479}|CFFFFFF00en|r, um die Truhe freizuschalten."
+L["glutharns_note"] = "In einer Höhle hinter dem Schleimwasserfall. Töte {npc:172485} und beide {npc:172479en}, um die Truhe freizuschalten."
 L["kyrian_keepsake_note"] = "Untersuche die {npc:169664}, um den Schatz zu plündern."
 L["misplaced_supplies"] = "Oben auf dem Riesenpilz"
 L["necro_tome_note"] = "Um Zugang zu dem Turm zu erhalten, musst du bei {npc:166657} erst eine kleine Questreihe beginnen. In einem Bücherregal in der obersten Etage."
 L["plaguefallen_chest_note"] = [[
 Stelle dich in grünen Schleim |cffff0000(benötigt Heilung!)|r, sammel 10 Stapel von {spell:330069} an, um in ein {spell:330092} verwandelt zu werden.
 
-Wenn du verwandelt bist, besuche die Höhle unterhalb von {npc:158406}|CFFFFFF00es|r Plattform (Eingang auf der östlichen Seite) und klicke auf das Rohr, um zur Truhe zu gelangen.
+Wenn du verwandelt bist, besuche die Höhle unterhalb von {npc:158406es} Plattform (Eingang auf der östlichen Seite) und klicke auf das Rohr, um zur Truhe zu gelangen.
 ]]
 L["ritualists_cache_note"] = "Plündere die {item:181558} von einem Knochenhaufen (mehrere Erscheinungspunkte), um das Buch der Bindungsrituale (71.7, 35.4) zu vervollständigen, dass dir das {spell:337041} gewährt."
 L["runespeakers_trove_note"] = "Finde {npc:170563} im Osten (37.9, 70.1) und töte ihm, um den {item:181777} zu erhalten."
@@ -289,8 +289,8 @@ L["lime"] = "Sitzt auf dem großen Knochenbogen."
 L["moldstopheles"] = "Laufe um den Stiel herum und springe auf die Pilzplattformen. Verwende für die letzte Plattform ein Reittier und springe in die Ecke an der die Plattform am Stiel befestigt ist."
 L["pus_in_boots"] = "Befindet sich unter der Brücke."
 
-L["options_icons_slime_cat"] = "Kätzchen"
-L["options_icons_slime_cat_desc"] = "Zeigt die Positionen der Kätzchen für den Erfolg |CFFFFFF00'Neun jenseitige Leben'|r an."
+L["options_icons_slime_cat"] = "Neun jenseitige Leben"
+L["options_icons_slime_cat_desc"] = "Zeigt die Positionen der Kätzchen für den Erfolg {achievement:14634} an."
 
 L["exoramas"] = "Exoramas, Haus der Rituale"
 L["nurakkir"] = "Nurakkir, Haus der Augen"
@@ -306,7 +306,7 @@ L["amalgamation_of_filth_note"] = "Wenn die Weltquest {wq:Drecksarbeit: Abrisstr
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
 L["amalgamation_of_sin_note"] = "Verwende den Catalyst of Power, um von der Weltquest {wq:Ruft Eure Sünden Herbei} einen {item:180376} zu erhalten und verwende es, um den {npc:170434} zu beschwören." --review Blizzard Translation
 L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest {wq:Losgeschmuddelt} auf einen {npc:166206} {item:177880} angewendet wird."
-L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229}|CFFFFFF00s|r Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
+L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229s} Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
 L["famu_note"] = "Sprich mit {npc:166483}, um das Event auszulösen."
 L["grand_arcanist_dimitri_note"] = "Töte die vier |CFFFFFF00Verhüllten Ritualisten|r, um {npc:167464} freizulassen." --{npc:167467}
@@ -324,7 +324,7 @@ L["scrivener_lenua_note"] = "Bringe {npc:160753} zurück zur Verbotenen Biblioth
 L["sinstone_hoarder_note"] = "Versuch den {npc:162503} zu plündern und {npc:162481} wird sich offenbaren."
 L["sire_ladinas_note"] = "Hebe Restlicht in der Nähe auf und verwende {spell:313065} auf einen {npc:157733}."
 L["soulstalker_doina_note"] = "Verfolge sie nach unten und durch den Spiegel wenn sie wegläuft."
-L["tomb_burster_note"] = "Kann beschworen werden, wenn {npc:155777} in einem Netz gefangen ist. Töte nahegelegene {npc:155769}|CFFFFFF00er|r und Wellen von {npc:155795}|CFFFFFF00n|r bis {npc:155779} erscheint."
+L["tomb_burster_note"] = "Kann beschworen werden, wenn {npc:155777} in einem Netz gefangen ist. Töte nahegelegene {npc:155769er} und Wellen von {npc:155795n} bis {npc:155779} erscheint."
 L["worldedge_gorger_note"] = [[
 Erlange ein {item:173939} von Entartungen wie den Fressern und Milben in den Gebieten Fluchwald oder dem Endmorast. Verwende es, um die Weltenrandkohlenpfannen zu entflammen und den {npc:160821} zu beschwören.
 

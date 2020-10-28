@@ -16,7 +16,7 @@ L["vicemaul_note"] = "Klicke die {npc:127652} an, um den seltenen Gegner an Land
 
 L["merchants_chest_note"] = "Töte {npc:137468}, um den {item:163710} zu erhalten."
 L["wicker_pup_note"] = [[
-Zünde die {npc:143609}n an, um die Kiste plündern zu können. Kombiniere alle Gegenstände aus den vier Truhen zu einem {npc:143189}.
+Zünde die {npc:143609n} an, um die Kiste plündern zu können. Kombiniere alle Gegenstände aus den vier Truhen zu einem {npc:143189}.
 
 • Zaubergeschützte: {item:163790}
 • Verzauberte: {item:163796}
@@ -50,7 +50,7 @@ L["foul_manifest_note"] = "Verbinde alle drei Spulen mit den Pylonen im Wasser."
 L["furor_note"] = 'Klicke während der täglichen Quest {quest:55463} die kleinen blauen Pilze an, bis {npc:151884} erscheint.'
 L["killsaw_note"] = "Erscheint irgendwo im Weichenden Wald, als Reaktion auf das Töten von {npc:151871}. Erscheint nicht an Tagen, an denen sich die Venture Company im Wald befindet und {npc:151871} nicht vorhanden sind."
 L["leachbeast_note"] = "Verwende eine {item:168961}, um die Wetteränderungsmaschine zu aktivieren."
-L["nullifier_note"] = 'Hack das "{npc:152174}", verwende entweder die {item:168435}s Lochkarte oder ein {item:168023}. Ersteres wird von {npc:151625} fallen gelassen, während letzteres von Gegnern fallen gelassen wird, die die {npc:150306} JD41 und JD99 angreifen.'
+L["nullifier_note"] = 'Hack das "{npc:152174}", verwende entweder die {item:168435s} Lochkarte oder ein {item:168023}. Ersteres wird von {npc:151625} fallen gelassen, während letzteres von Gegnern fallen gelassen wird, die die {npc:150306} JD41 und JD99 angreifen.'
 L["scrapclaw_note"] = "Vor der Küste im Wasser"
 L["sparkqueen_note"] = 'Erscheint nur, wenn die tägliche Quest {quest:55765} verfügbar ist.'
 L["rusty_note"] = "Stelle bei {npc:150359} einen {item:169114} her, um die alternative Zukunft zu betretten. Erscheint nur, wenn {npc:153993} nicht in Rostbolzen anzutreffen ist."
@@ -177,12 +177,12 @@ L["gearth"] = "Große Erde"
 L["murloco"] = "Murloco" --NPC:152593
 L["tentacle_taco"] = "Verkauft {item:170100}, wenn du das {item:169489} trägst."
 
-L["options_icons_treasures_nazj"] = "Schätze"
-L["options_icons_treasures_nazj_desc"] = "Zeigt die Position von Truhen für den Erfolg |CFFFFFF00'Arkhamstern'|r an."
+L["options_icons_treasures_nazj"] = "Arkhamstern"
+L["options_icons_treasures_nazj_desc"] = "Zeigt die Position von Arkanen Truhen für den Erfolg {achievement:13549} an."
 L["options_icons_slimes_nazj"] = "Gefräßige Schleime"
 L["options_icons_slimes_nazj_desc"] = "Zeigt die Position der vier Gefräßigen Schleime, die Haustiere bei Fütterung ergeben an."
-L["options_icons_cats_nazj"] = "Katzenfiguren"
-L["options_icons_cats_nazj_desc"] = "Zeigt die Position von Kristallkatzenstatuetten für den Erfolg |CFFFFFF00'Gläserne Samtpfötchen'|r an."
+L["options_icons_cats_nazj"] = "Gläserne Samtpfötchen"
+L["options_icons_cats_nazj_desc"] = "Zeigt die Position von Kristallkatzenstatuetten für den Erfolg {achievement:13836} an."
 L["options_icons_misc_nazj"] = "Sonstiges"
 L["options_icons_misc_nazj_desc"] = "Zeigt die Position von Murlocos Höhle und Mardivas' Labor an."
 
@@ -216,7 +216,7 @@ L["carved_in_stone_41861"] = "An der zerstörten Säule."
 L["carved_in_stone_41862"] = "An der zerstörten Mauer, vor der riesigen Säule."
 L["carved_in_stone_42116"] = "An einer Säule in der Nähe von {npc:126126}"
 L["options_icons_carved_in_stone"] = "In Stein gemeißelt, in Blut geschrieben"
-L["options_icons_carved_in_stone_desc"] = "Zeigt die Positionen der Piktogramme für den Erfolg |CFFFFFF00'In Stein gemeißelt, in Blut geschrieben'|r an."
+L["options_icons_carved_in_stone_desc"] = "Zeigt die Positionen der Piktogramme für den Erfolg {achievement:13024} an."
 
 L["hoppin_sad_53419"] = "Hinter zwei Bäumen unter einer riesigen Würzel."
 L["hoppin_sad_53420"] = "In den Ruinen."
@@ -225,7 +225,7 @@ L["hoppin_sad_53425"] = "Am Baum nahe des Wasserfalls."
 L["hoppin_sad_53426"] = "Unter ein paar Wurzeln."
 
 L["options_icons_hoppin_sad"] = "Husch, kleiner Hüpfer"
-L["options_icons_hoppin_sad_desc"] = "Zeigt die Positionen der verlorenen Sprösslinge von Krag'wa für den Erfolg |CFFFFFF00'Husch, kleiner Hüpfer'|r an."
+L["options_icons_hoppin_sad_desc"] = "Zeigt die Positionen der |CFFFFFF00Sprösslinge von Krag'wa|r für den Erfolg {achievement:13028} an."
 
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
@@ -264,7 +264,7 @@ L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei "..lunch
 L["ancient_tidesage_scroll"] = "Uralte Schriftrolle der Gezeitenweisen"
 L["ancient_tidesage_scroll_note"] = "Lies alle 8 uralten Schriftrollen der Gezeitenweisen, um den Erfolg zu erringen."
 L["options_icons_tidesage_legends"] = "Legenden der Gezeitenweisen"
-L["options_icons_tidesage_legends_desc"] = "Zeigt die Positionen der uralten Schrifftrollen für den Erfolg |CFFFFFF00'Legenden der Gezeitenweisen'|r an."
+L["options_icons_tidesage_legends_desc"] = "Zeigt die Positionen der uralten Schrifftrollen für den Erfolg {achievement:13051} an."
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
@@ -353,7 +353,7 @@ L["monstrous_summon"] = "Töte jeden {npc:160914}, um die Beschwörung zu stoppe
 L["obsidian_extract"] = "Zerstöre jeden Leerengestaltenobsidian Kristall."
 L["purging_flames"] = "Hebe die Körper auf und werfe sie ins Feuer."
 L["pyre_amalgamated"] = "Läutere den Scheiterhaufen, töte die Fleischbestien bis die {npc:157593} erscheint."
-L["ritual_ascension"] = "Töte die {npc:152233}en."
+L["ritual_ascension"] = "Töte die {npc:152233en}."
 L["solar_collector"] = "Aktiviere alle fünf Machtkristalle an allen Seiten des Sonnensammlers. Durch klicken auf eine Kristall werden alle Kristalle umgeschaltet die dieser berührt."
 L["summoning_ritual"] = "Töte die anwesenden {npc:161134} und läutere das Beschwörungsportal."
 L["titanus_egg"] = "Zerstöre das {npc:163257} und besiege dann das {npc:163268}."
@@ -516,7 +516,7 @@ L["options_icons_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, 
 
 L["bloodwing_bonepicker_note"] = "Sammel {npc:136390} am Gipfel, um {npc:136393} erscheinen zu lassen."
 L["nezara_note"] = "Durchtrenne die vier Seile an den Pfählen, um {npc:128951} zu befreien."
-L["vathikur_note"] = "Töte {npc:126894}en, bis {npc:130401} erscheint."
+L["vathikur_note"] = "Töte {npc:126894en}, bis {npc:130401} erscheint."
 L["zunashi_note"] = "Der Eingang befindet sich im Norden, in dem Maul des großen Schädels."
 
 L["ashvane_spoils_note"] = "Fahre mit der {npc:132662} den Berg herunter, um die Schätze erscheinen zu lassen."
@@ -540,7 +540,7 @@ L["plank_4"] = "Am oberen Ende einer Sanddüne, entlang der Seite der Pyramide."
 L["plank_5"] = "Folge dem Schlangenschwanz, um die Planke zu finden."
 L["planks_ridden"] = "Wackelige Planken geritten."
 L["options_icons_dune_rider"] = "Dünenreiter"
-L["options_icons_dune_rider_desc"] = "Zeigt die Positionen der wackeligen Planken für den Erfolg |CFFFFFF00'Dünenreiter'|r an."
+L["options_icons_dune_rider_desc"] = "Zeigt die Positionen der wackeligen Planken für den Erfolg {achievement:13018} an."
 
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
 
@@ -561,7 +561,7 @@ L["frightened_kodo_note"] = "Verschwindet nach ein paar Minuten wieder. Erschein
 -------------------------------------------------------------------------------
 
 L["murderbeak_note"] = "Wirf den Köder in den See, töte dann {npc:134780} bis {npc:134782} erscheint."
-L["vukuba_note"] = "Untersuche das {npc:134049}, töte dann Wellen von {npc:134047}en bis {npc:134048} erscheint."
+L["vukuba_note"] = "Untersuche das {npc:134049}, töte dann Wellen von {npc:134047en} bis {npc:134048} erscheint."
 
 L["cache_of_secrets_note"] = "Ein {npc:137234} hält den Schatz in einer Höhle hinter dem Wasserfall in seinen Händen."
 L["da_white_shark_note"] = "Stelle dich neben {npc:133208} bis sie feindlich wird."
@@ -586,7 +586,7 @@ L["torcali_note"] = "Schließe Quests im Kriegsbestienkral ab, bis {quest:47261}
 
 L["totem_of_paku_note"] = "Sprich mit {npc:137510} (bei 50.7, 35.4), um Pa'ku als deinen Loa aus zu wählen."
 L["options_icons_paku_totems"] = "Totems von Pa'ku"
-L["options_icons_paku_totems_desc"] = "Zeigt die Totems von Pa'ku in Dazar'alor an."
+L["options_icons_paku_totems_desc"] = "Zeigt die Positionen von {npc:131154} und ihre Wege in Dazar'alor an."
 
 L["tales_gonk_note"] = "Liegt auf der Decke."
 L["tales_gral_note"] = "An den Wurzeln des Baumes."
@@ -602,7 +602,7 @@ L["tales_zandalar_note"] = "Hinter {npc:132989}."
 -------------------------------------------------------------------------------
 
 L["options_icons_mushroom_harvest"] = "Pilzernte"
-L["options_icons_mushroom_harvest_desc"] = "Zeigt die Positionen der Fungianerbösewichte für den Erfolg |CFFFFFF00'Pilzernte'|r an."
+L["options_icons_mushroom_harvest_desc"] = "Zeigt die Positionen der Fungianerbösewichte für den Erfolg {achievement:13027} an."
 
 L["options_icons_tales_of_de_loa"] = "Aus dem Leben eines Loas"
-L["options_icons_tales_of_de_loa_desc"] = "Zeigt die Positionen der Legend'n der Loa für den Erfolg |CFFFFFF00'Aus dem Leben eines Loas'|r an."
+L["options_icons_tales_of_de_loa_desc"] = "Zeigt die Positionen der Legend'n der Loa für den Erfolg {achievement:13036} an."
