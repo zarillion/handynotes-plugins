@@ -67,7 +67,7 @@ local function PrepareLinks(str)
             NameResolver:Prepare(("unit:Creature-0-0-0-0-%d"):format(id))
         elseif type == 'item' then
             GetItemInfo(id) -- prime item info
-        elseif type == 'quest' then
+        elseif type == 'daily' or type == 'quest' then
             C_QuestLog.GetTitleForQuestID(id) -- prime quest title
         elseif type == 'spell' then
             GetSpellInfo(id) -- prime spell info
@@ -109,10 +109,11 @@ local function RenderLinks(str, nameOnly)
                 if nameOnly then return name end
                 return '|T'..icon..':0:0:1:-1|t '..link
             end
-        elseif type == 'quest' then
+        elseif type == 'daily' or type == 'quest' then
             local name = C_QuestLog.GetTitleForQuestID(id)
             if name then
-                return ns.GetIconLink('quest_ay', 12)..ns.color.Yellow(name)
+                local icon = (type == 'daily') and 'quest_ab' or 'quest_ay'
+                return ns.GetIconLink(icon, 12)..ns.color.Yellow('['..name..']')
             end
         elseif type == 'spell' then
             local name, _, icon = GetSpellInfo(id)
@@ -127,7 +128,8 @@ local function RenderLinks(str, nameOnly)
     -- render non-numeric ids
     links, _ = links:gsub('{(%l+):([^}]+)}', function (type, id)
         if type == 'wq' then
-            return ns.GetIconLink('world_quest', 16, 0, -1)..ns.color.Yellow(id)
+            local icon = ns.GetIconLink('world_quest', 16, 0, -1)
+            return icon..ns.color.Yellow('['..id..']')
         end
         return type..'+'..id
     end)

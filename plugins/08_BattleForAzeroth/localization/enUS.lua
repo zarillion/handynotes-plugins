@@ -47,15 +47,21 @@ L["cogstar_note"] = "Kill Upgraded Sentry mobs anywhere in the zone until he tel
 L["crazed_trogg_note"] = "Use a spraybot, paint filled bladder or the bots in Bondo's Yard to coat yourself in the color he yells."
 L["deepwater_note"] = "Craft a Hundred-Fathom Lure at Pascal-K1N6 to summon."
 L["doppel_gang"] = "The Doppel Gang"
-L["doppel_note"] = 'Along with two other players, use a Pressure Relief Valve from the "Cogfrenzy\'s Construction Frenzy" daily to activate.'
+L["doppel_note"] = "Along with two other players, use a Pressure Relief Valve from {daily:56405} to activate."
 L["drill_rig"] = "Requires Drill Rig"
 L["foul_manifest_note"] = "Connect all three circuit breakers to the pylons in the water."
-L["furor_note"] = 'During the "Aid From Nordrassil" daily quest, click the small blue mushrooms until he spawns.'
+L["furor_note"] = "During {daily:55463}, click the small blue mushrooms until he spawns."
 L["killsaw_note"] = "Spawns anywhere in the Fleeting Forest, likely in response to killing Sawblade Clearcutters. Does not spawn on days when the Venture Company is in the forest and Clearcutters are not available."
 L["leachbeast_note"] = "Use an Exothermic Evaporator Coil to activate the Weather Alteration Machine."
-L["nullifier_note"] = 'Hack the "Hackable Nullifier Relay" using either the Remote Circuit Bypasser punch card or the DNT-Smashed Transport Relay. The former drops from The Scrap King while the latter drops from minions that attack the JD41 and JD99 drill rigs.'
+L["nullifier_note"] = [[
+Hack the {npc:152174} using either:
+
+• A {item:168435} punch card from {npc:151625}.
+
+• A {item:168023} from minions that attack the JD41 and JD99 drill rigs.
+]]
 L["scrapclaw_note"] = "Off the shore in the water."
-L["sparkqueen_note"] = 'Spawns only when the "Bugs, Lots of \'Em!" daily is active.'
+L["sparkqueen_note"] = 'Spawns only when {daily:55765} is active.'
 L["rusty_note"] = "Craft a Personal Time Displacer at Pascal-K1N6 to enter the alternate future. Only spawns when Chromie is NOT present in Rustbolt."
 L["vaultbot_note"] = "Kite to the tesla coil in Bondo's Yard or craft a Vaultbot Key at Pascal-K1N6 to break him open."
 

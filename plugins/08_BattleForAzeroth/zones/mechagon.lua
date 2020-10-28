@@ -167,6 +167,9 @@ nodes[57165258] = Rare({id=151124, quest=55207, note=L["nullifier_note"], reward
     Achievement({id=13470, criteria=45117}), -- Kill
     Item({item=168490, quest=55069}), -- Blueprint: Protocol Transference Device
     Item({item=169688, quest=56515}) -- Vinyl: Gnomeregan Forever
+}, requires={
+    ns.requirement.Item(168023),
+    ns.requirement.Item(168435)
 }}) -- Mechagonian Nullifier
 
 nodes[88142077] = Rare({id=151672, quest=55386, future=2, note=nil, rewards={
@@ -235,7 +238,7 @@ nodes[26257806] = Rare({id=153226, quest=55854, note=nil, rewards={
     Item({item=169692, quest=56519}) -- Vinyl: Triumph of Gnomeregan
 }}) -- Steel Singer Freza
 
-nodes[80962019] = Rare({id=155060, quest=56419, note=L["doppel_note"], label=L["doppel_gang"], rewards={
+nodes[80962019] = Rare({id=155060, quest=56419, requires=ns.requirement.Item(169470), note=L["doppel_note"], label=L["doppel_gang"], rewards={
     Achievement({id=13470, criteria=45433}) -- Kill
 }}) -- The Doppel Gang
 
