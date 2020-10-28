@@ -174,9 +174,6 @@ L["infested_cache"] = "被感染的儲藏箱"
 L["infested_strongbox"] = "被感染的保險箱"
 L["amathet_reliquary"] = "阿瑪賽特聖匣"
 
-L["cursed_relic"] = "需要詛咒聖物"
-L["tolvir_relic"] = "需要托維爾聖物"
-
 L["options_icons_assault_events"] = "突擊事件"
 L["options_icons_assault_events_desc"] = "顯示突擊事件可能的位置。"
 L["options_icons_coffers"] = "上鎖的大寶箱"
@@ -226,10 +223,8 @@ L["tisiphon"] = "點擊丹妮爾的幸運釣竿。"
 
 L["ambered_cache"] = "琥珀化寶箱"
 L["ambered_coffer"] = "琥珀寶庫"
-L["mantid_relic"] = "需要螳螂人聖物"
 L["mogu_plunder"] = "魔古的財寶"
 L["mogu_strongbox"] = "魔古寶箱"
-L["mogu_relic"] = "需要魔古聖物"
 
 L["abyssal_ritual"] = "殺死沉沒的擁護者然後殺死深淵巨怪。"
 L["bound_guardian"] = "殺死三隻淵裔束縛者以釋放純淨水滴。"

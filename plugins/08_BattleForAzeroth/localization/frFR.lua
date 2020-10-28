@@ -36,9 +36,6 @@ L["infested_cache"] = "Infested Cache"
 L["infested_strongbox"] = "Infested Strongbox"
 L["amathet_reliquary"] = "Amathet Reliquary"
 
-L["cursed_relic"] = "Requires Cursed Relic"
-L["tolvir_relic"] = "Requires Tol'vir Relic"
-
 L["options_icons_assault_events"] = "Assault Events"
 L["options_icons_assault_events_desc"] = "Show locations for possible assault events."
 L["options_icons_coffers"] = "Locked Coffers"
@@ -84,10 +81,8 @@ L["tisiphon"] = "Clique sur Canne à pêche porte-bonheur de Danielle."
 
 L["ambered_cache"] = "Cache ambré"
 L["ambered_coffer"] = "Coffre ambré"
-L["mantid_relic"] = "Requires Mantid Relic"
 L["mogu_plunder"] = "Butin mogu "
 L["mogu_strongbox"] = "Coffre mogu"
-L["mogu_relic"] = "Requires Mogu Relic"
 
 L["abyssal_ritual"] = "Kill the Drowned Adherents and then the Depths Monstrosity."
 L["bound_guardian"] = "Kill the three Depthsborn Binders to free the Pristine Droplet."

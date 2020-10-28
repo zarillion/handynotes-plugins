@@ -3,6 +3,7 @@
 -------------------------------------------------------------------------------
 
 local _, ns = ...
+local L = ns.locale
 
 local Class = ns.Class
 local Group = ns.Group
@@ -118,7 +119,8 @@ ns.node.TimedEvent = TimedEvent
 ns.node.Supply = Class('Supply', Node, {
     icon = 'star_chest_g',
     scale = 1.5,
-    group = ns.groups.SUPPLY
+    group = ns.groups.SUPPLY,
+    label = L["supply_chest"]
 })
 
 -------------------------------------------------------------------------------

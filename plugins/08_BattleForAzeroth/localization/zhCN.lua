@@ -341,9 +341,6 @@ L["infested_cache"] = "感染宝箱"
 L["infested_strongbox"] = "感染的保险箱"
 L["amathet_reliquary"] = "阿玛赛特圣箱"
 
-L["cursed_relic"] = "需要诅咒圣物"
-L["tolvir_relic"] = "需要托维尔圣物"
-
 L["options_icons_assault_events"] = "突袭事件"
 L["options_icons_assault_events_desc"] = "显示可能的突袭事件的位置。"
 L["options_icons_coffers"] = "上锁的箱子"
@@ -393,10 +390,8 @@ L["tisiphon"] = "点击丹妮尔的好运鱼竿。"
 
 L["ambered_cache"] = "琥珀宝箱"
 L["ambered_coffer"] = "琥珀制成的箱子"
-L["mantid_relic"] = "需要螳螂妖遗物"
 L["mogu_plunder"] = "魔古掠夺品"
 L["mogu_strongbox"] = "魔古保险箱"
-L["mogu_relic"] = "需要魔古遗物"
 
 L["abyssal_ritual"] = "击杀 {npc:153179} 之后再杀 {npc:153171}。"
 L["bound_guardian"] = "击杀3个 {npc:154200} 解救 {npc:154328}。"

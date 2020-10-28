@@ -559,7 +559,6 @@ map.nodes[80493194] = Glowing({quest=56547, note=L["glowing_chest_8"]})
 -------------------------------------------------------------------------------
 
 local supply_chest = Supply({
-    label=L["supply_chest"],
     rewards={
         Achievement({id=13720, criteria={
             {id=45790, suffix=L["assassin_looted"]}

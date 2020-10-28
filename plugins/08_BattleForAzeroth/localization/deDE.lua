@@ -319,9 +319,6 @@ L["infested_cache"] = "Befallene Truhe"
 L["infested_strongbox"] = "Befallene Schließkassette"
 L["amathet_reliquary"] = "Reliquiar der Amathet"
 
-L["cursed_relic"] = ns.color.Red("Benötigt {item:174768}")
-L["tolvir_relic"] = ns.color.Red("Benötigt {item:174765}")
-
 L["options_icons_assault_events"] = "Angriffevents"
 L["options_icons_assault_events_desc"] = "Zeigt mögliche Positionen für Angriffevents."
 L["options_icons_coffers"] = "Verschlossene Kisten"
@@ -370,10 +367,8 @@ L["tisiphon"] = "Klicke auf Danielles Glücksangelrute."
 
 L["ambered_cache"] = "Bernbesetzte Truhe"
 L["ambered_coffer"] = "Bernbesetzte Kiste"
-L["mantid_relic"] = ns.color.Red("Benötigt {item:174766}")
 L["mogu_plunder"] = "Mogubeute"
 L["mogu_strongbox"] = "Schließkassette der Mogu"
-L["mogu_relic"] = ns.color.Red("Benötigt {item:174767}")
 
 L["abyssal_ritual"] = "Töte die {npc:153179} und dann die {npc:153171}."
 L["bound_guardian"] = "Töte drei {npc:154200}, um {npc:154187} zu befreien."

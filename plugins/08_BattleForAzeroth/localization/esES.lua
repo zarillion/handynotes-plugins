@@ -324,9 +324,6 @@ L["infested_cache"] = "Alijo Infestado"
 L["infested_strongbox"] = "Caja fuerte Infestada"
 L["amathet_reliquary"] = "Relicario Amathet"
 
-L["cursed_relic"] = "Requiere una {item:174768}"
-L["tolvir_relic"] = "Requiere una {item:174765}"
-
 L["options_icons_assault_events"] = "Eventos del Asalto"
 L["options_icons_assault_events_desc"] = "Muestra las localizaciones de los posibles eventos del asalto."
 L["options_icons_coffers"] = "Alijos Cerrados"
@@ -376,10 +373,8 @@ L["tisiphon"] = "Haz click en la Caña de pescar de la suerte de Danielle."
 
 L["ambered_cache"] = "Alijo ámbar"
 L["ambered_coffer"] = "Arca de ámbar"
-L["mantid_relic"] = "Requiere una {item:174766}"
 L["mogu_plunder"] = "Botín mogu"
 L["mogu_strongbox"] = "Caja fuerte mogu"
-L["mogu_relic"] = "Requiere una {item:174767}"
 
 L["abyssal_ritual"] = "Mata a los {npc:153179} y después a la {npc:153171}."
 L["bound_guardian"] = "Mata a los tres {npc:154200} y libera a la {npc:154328}."
