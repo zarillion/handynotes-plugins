@@ -7,7 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Group = ns.Group
 local Map = ns.Map
-local Node = ns.node.Node
+local NPC = ns.node.NPC
 
 -------------------------------------------------------------------------------
 
@@ -22,10 +22,10 @@ local nodes = map.nodes
 ---------------------------------- BUFF BOTS ----------------------------------
 -------------------------------------------------------------------------------
 
-local Buff = Class('Buff', Node, {group=ns.groups.MECH_BUFF, scale=0.75})
-local GREASE = Buff({icon=252178, label=L["grease_bot"], note=L["grease_bot_note"]})
-local SHOCK = Buff({icon=136099, label=L["shock_bot"], note=L["shock_bot_note"]})
-local WELDING = Buff({icon=134952, label=L["welding_bot"], note=L["welding_bot_note"]})
+local Buff = Class('Buff', NPC, {group=ns.groups.MECH_BUFF, scale=0.75})
+local GREASE = Buff({id=155911, icon=252178, note=L["grease_bot_note"]})
+local SHOCK = Buff({id=155909, icon=136099, note=L["shock_bot_note"]})
+local WELDING = Buff({id=155910, icon=134952, note=L["welding_bot_note"]})
 
 nodes[56702140] = GREASE
 nodes[59103300] = GREASE

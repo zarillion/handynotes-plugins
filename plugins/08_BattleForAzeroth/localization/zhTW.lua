@@ -11,9 +11,7 @@ L["beastbot_note"] = "在帕斯卡K1N6型製作一個［野獸機器人動力包
 L["cogstar_note"] = "殺死區域內任何地方的升級版哨衛，直到他傳送進來加強小怪。"
 L["crazed_trogg_note"] = "在邦多的機械廠裡使用噴塗機，塗滿油漆的氣囊或機器人，用他大喊的顏色塗上自己。"
 L["deepwater_note"] = "在帕斯卡K1N6型製作一個［百噚誘餌］來召喚。"
-L["doppel_gang"] = "分身"
 L["doppel_note"] = '從每日任務＂輪狂的建造狂熱＂獲得［減壓閥］，與其他兩名玩家一起啟動。'
-L["drill_rig"] = "需要鑽探機 "
 L["foul_manifest_note"] = "連接水中的電塔到外圍電塔通電，然後到旁邊山坡上找到開關按下就會出現。"
 L["furor_note"] = '在每日任務 "來自諾達希爾的協助" 期間，點擊小藍色蘑菇直到出現。'
 L["killsaw_note"] = "在飛逝森林的任何地方出現，似乎殺死鋸刃伐木機器人後比較容易出現。不會在風險投資公司在森林裡的時候出現，那時候沒有伐木機器人。"
@@ -32,7 +30,6 @@ L["iron_chest_note"] = "開啟鐵潮帶鎖箱的鑰匙從西湧列島小怪掉�
 L["msup_chest_note"] = "開啟機械補給箱的鑰匙從西湧列島小怪掉落。"
 L["rust_chest_note"] = "開啟老舊生鏽箱子的鑰匙從西湧列島小怪掉落。"
 
-L["rec_rig"] = "廢料回收機"
 L["rec_rig_note"] = "要啟動困難模式，使用超級對撞機武器來將所有輻射元素轉換為不穩定輻射元素。寵物可以在兩種難度中獲得。"
 
 L["options_icons_mech_chest"] = "機械化箱"
@@ -133,8 +130,7 @@ L["sfire"] = "小火炎"
 L["gfire"] = "大火炎"
 L["searth"] = "小土岩"
 L["gearth"] = "大土岩"
-L["murloco"] = "莫落哥"
-L["tentacle_taco"] = "出售 "..ITEM_QUALITY_COLORS[4].hex.."[飢餓使者的觸手捲]|r 如果你是穿著艾薩利怒濤者斗篷。"
+L["tentacle_taco"] = "出售 {item:170100} 如果你是穿著艾薩利怒濤者斗篷。"
 
 L["options_icons_treasures_nazj"] = "寶藏"
 L["options_icons_treasures_nazj_desc"] = "顯示［尋寶追蹤者］成就的箱子位置。"

@@ -48,9 +48,7 @@ L["beastbot_note"] = "Fabrica un {item:168045} en {npc:150359} para activar a la
 L["cogstar_note"] = "Mata {npc:154213} en cualquier sitio de la zona hasta que {npc:153228} se teleporte a ayudarlos."
 L["crazed_trogg_note"] = "Usa un Roboespray, una vejiga llena de pintura, o un robot pintador en el Vertedero de Bondo para vestirte del color que grita {npc:152569}."
 L["deepwater_note"] = "Fabrica un {item:167649} en {npc:150359} para invocar a {npc:151569}."
-L["doppel_gang"] = "Los dobles"
 L["doppel_note"] = 'Junto a otros dos jugadores, ha de usar cada uno una {item:169470} para activar a {npc:155060}. La {item:169470} se consigue de la misión diaria {quest:56405}.'
-L["drill_rig"] = "Requiere una {npc:150306}"
 L["foul_manifest_note"] = "Activa el disyuntor y conecta los tres cables con los tres pilones del agua para invocar a la {npc:151202}."
 L["furor_note"] = 'Durante la misión diaria {quest:55463}, haz click en las pequeñas setas azules hasta que aparezca {npc:151884}.'
 L["killsaw_note"] = "Aparece en cualquier sitio del bosque al oeste de la isla donde hayan {npc:151871} cortando árboles. Has de matarlos para que aparezca {npc:152007} para vengarlos. Los {npc:151871} no aparecen los días que esté Ventura y Cía en el bosque."
@@ -69,14 +67,10 @@ L["iron_chest_note"] = "Ábrelo con la {item:169872} que sueltan los enemigos de
 L["msup_chest_note"] = "Ábrelo con la {item:169873} que sueltan los enemigos de Rocío del Oeste."
 L["rust_chest_note"] = "Ábrelo con la {item:169218} que sueltan los enemigos de Rocío del Oeste."
 
-L["rec_rig"] = "{npc:150448}"
 L["rec_rig_note"] = "Para activar el modo difícil, has de usar el arma {spell:292352} para convertir todos los {npc:150825} en {npc:151049}. Las mascotas {npc:154904} y {npc:155579} se puede obtener en ambas dificultades."
 
-L["grease_bot"] = "{npc:155911}"
 L["grease_bot_note"] = "Haz click en el robot para conseguir 5% de celeridad y 10% de velocidad de movimiento durante 2 horas."
-L["shock_bot"] = "{npc:155909}"
 L["shock_bot_note"] = "Haz click en el robot para conseguir un proc de poder hacer daño a enemigos cercanos durante 2 horas."
-L["welding_bot"] = "{npc=155910}"
 L["welding_bot_note"] = "Haz click en el robot para aumentar la vida y la sanación recibida un 10% durante 2 horas."
 
 L["options_icons_mech_buffs"] = "Buff de Robots"
@@ -179,8 +173,7 @@ L["sfire"] = "Fuego Inferior"
 L["gfire"] = "Fuego Superior"
 L["searth"] = "Tierra Inferior"
 L["gearth"] = "Tierra Superior"
-L["murloco"] = "{npc:152593}"
-L["tentacle_taco"] = "Vende "..ITEM_QUALITY_COLORS[4].hex.."[{item:170100}]|r si llevas puesto el {item:169489}."
+L["tentacle_taco"] = "Vende {item:170100} si llevas puesto el {item:169489}."
 
 L["options_icons_treasures_nazj"] = "Tesoros"
 L["options_icons_treasures_nazj_desc"] = "Muestra las localizaciones de los cofres para el logro Rastreador de tesoros."

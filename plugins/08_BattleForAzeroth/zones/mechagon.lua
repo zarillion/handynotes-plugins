@@ -8,7 +8,7 @@ local Class = ns.Class
 local Group = ns.Group
 local Map = ns.Map
 
-local Node = ns.node.Node
+local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Quest = ns.node.Quest
 local Rare = ns.node.Rare
@@ -20,6 +20,8 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -73,7 +75,7 @@ nodes[55622571] = Rare({id=151308, quest=55539, note=nil, rewards={
     Item({item=169688, quest=56515}) -- Vinyl: Gnomeregan Forever
 }}) -- Boggac Skullbash
 
-nodes[51265010] = Rare({id=153200, quest=55857, note=L["drill_rig"]..'(DR-JD41).', rewards={
+nodes[51265010] = Rare({id=153200, quest=55857, requires='{npc:150306} (DR-JD41)', rewards={
     Achievement({id=13470, criteria=45152}), -- Kill
     Item({item=167042, quest=55030}), -- Blueprint: Scrap Trap
     Item({item=169691, quest=56518}) -- Vinyl: Depths of Ulduar
@@ -85,7 +87,7 @@ nodes[65842288] = Rare({id=152001, quest=55537, note=L["cave_spawn"], rewards={
     Pet({id=2719, item=169392}) -- Bonebiter
 }}) -- Bonepicker
 
-nodes[66535891] = Rare({id=154739, quest=56368, note=L["drill_rig"]..'(DR-CC73).', rewards={
+nodes[66535891] = Rare({id=154739, quest=56368, requires='{npc:150306} (DR-CC73)', rewards={
     Achievement({id=13470, criteria=45411}), -- Kill
     Item({item=169170, quest=55078}) -- Blueprint: Utility Mechanoclaw
 }}) -- Caustic Mechaslime
@@ -99,12 +101,12 @@ nodes[82522072] = Rare({id=149847, quest=55812, note=L["crazed_trogg_note"], rew
     Item({item=167793, quest=55457}) -- Paint Vial: Overload Orange
 }}) -- Crazed Trogg
 
-nodes[35464229] = Rare({id=151569, quest=55514, note=L["deepwater_note"], rewards={
+nodes[35464229] = Rare({id=151569, quest=55514, note=L["deepwater_note"], requires=ns.requirement.Item(167649), rewards={
     Achievement({id=13470, criteria=45128}), -- Kill
     Item({item=167836, quest=55057}), -- Blueprint: Canned Minnows
 }}) --Deepwater Maw
 
-nodes[63122559] = Rare({id=150342, quest=55814, note=L["drill_rig"]..'(DR-TR35).', rewards={
+nodes[63122559] = Rare({id=150342, quest=55814, requires='{npc:150306} (DR-TR35)', rewards={
     Achievement({id=13470, criteria=45138}), -- Kill
     Item({item=167042, quest=55030}), -- Blueprint: Scrap Trap
     Item({item=169691, quest=56518}) -- Vinyl: Depths of Ulduar
@@ -136,12 +138,12 @@ nodes[61395117] = Rare({id=153228, quest=55852, note=L["cogstar_note"], rewards=
     Transmog({item=170467, slot=L["1h_sword"]}) -- Whirring Chainblade
 }}) -- Gear Checker Cogstar
 
-nodes[59836701] = Rare({id=153205, quest=55855, note=L["drill_rig"]..'(DR-JD99).', rewards={
+nodes[59836701] = Rare({id=153205, quest=55855, requires='{npc:150306} (DR-JD99)', rewards={
     Achievement({id=13470, criteria=45146}), -- Kill
     Item({item=169691, quest=56518}) -- Vinyl: Depths of Ulduar
 }}) -- Gemicide
 
-nodes[73135414] = Rare({id=154701, quest=56367, note=L["drill_rig"]..'(DR-CC61).', rewards={
+nodes[73135414] = Rare({id=154701, quest=56367, requires='{npc:150306} (DR-CC61)', rewards={
     Achievement({id=13470, criteria=45410}), -- Kill
     Item({item=167846, quest=55061}) -- Blueprint: Mechano-Treat
 }}) -- Gorged Gear-Cruncher
@@ -155,7 +157,7 @@ nodes[44824637] = Rare({id=152007, quest=55369, note=L["killsaw_note"], rewards=
     Toy({item=167931}) -- Mechagonian Sawblades
 }}) -- Killsaw
 
-nodes[60654217] = Rare({id=151933, quest=55544, note=L["beastbot_note"], rewards={
+nodes[60654217] = Rare({id=151933, quest=55544, note=L["beastbot_note"], requires=ns.requirement.Item(168045), rewards={
     Achievement({id=13470, criteria=45136}), -- Kill
     Achievement({id=13708, criteria={45772,45775,45776,45777,45778}}), -- Most Minis Wins
     Item({item=169848, weekly=57135}), -- Azeroth Mini Pack: Bondo's Yard
@@ -183,7 +185,7 @@ nodes[61036101] = Rare({id=151627, quest=55859, note=nil, rewards={
     Transmog({item=170467, slot=L["1h_sword"]}) -- Whirring Chainblade
 }}) -- Mr. Fixthis
 
-nodes[56243595] = Rare({id=153206, quest=55853, note=L["drill_rig"]..'(DR-TR28).', rewards={
+nodes[56243595] = Rare({id=153206, quest=55853, requires='{npc:150306} (DR-TR28)', rewards={
     Achievement({id=13470, criteria=45145}), -- Kill
     Item({item=167846, quest=55061}), -- Blueprint: Mechano-Treat
     Item({item=169691, quest=56518}), -- Vinyl: Depths of Ulduar
@@ -238,17 +240,17 @@ nodes[26257806] = Rare({id=153226, quest=55854, note=nil, rewards={
     Item({item=169692, quest=56519}) -- Vinyl: Triumph of Gnomeregan
 }}) -- Steel Singer Freza
 
-nodes[80962019] = Rare({id=155060, quest=56419, requires=ns.requirement.Item(169470), note=L["doppel_note"], label=L["doppel_gang"], rewards={
+nodes[80962019] = Rare({id=155060, quest=56419, requires=ns.requirement.Item(169470), note=L["doppel_note"], label=GetAchievementCriteriaInfoByID(13470, 45433), rewards={
     Achievement({id=13470, criteria=45433}) -- Kill
 }}) -- The Doppel Gang
 
-nodes[68434776] = Rare({id=152113, quest=55858, note=L["drill_rig"]..'(DR-CC88).', rewards={
+nodes[68434776] = Rare({id=152113, quest=55858, requires='{npc:150306} (DR-CC88)', rewards={
     Achievement({id=13470, criteria=45153}), -- Kill
     Item({item=169691, quest=56518}), -- Vinyl: Depths of Ulduar
     Pet({id=2753, item=169886}) -- Spraybot 0D
 }}) -- The Kleptoboss
 
-nodes[57335827] = Rare({id=154225, quest=56182, future=2, note=L["rusty_note"], rewards={
+nodes[57335827] = Rare({id=154225, quest=56182, future=2, note=L["rusty_note"], requires=ns.requirement.Item(169114), rewards={
     Achievement({id=13470, criteria=45374}), -- Kill
     Toy({item=169347}), -- Judgment of Mechagon
     Transmog({item=170467, slot=L["1h_sword"]}) -- Whirring Chainblade
@@ -264,11 +266,13 @@ nodes[57062218] = Rare({id=151940, quest=55538, note=L["cave_spawn"], rewards={
     Achievement({id=13470, criteria=45132}) -- Kill
 }}) -- Uncle T'Rogg
 
-nodes[53824933] = Rare({id=150394, quest=55546, future=2, note=L["vaultbot_note"], rewards={
+nodes[53824933] = Rare({id=150394, quest=55546, future=2, requires=ns.requirement.Item(167062), note=L["vaultbot_note"], rewards={
     Achievement({id=13470, criteria=45158}), -- Kill
     Item({item=167843, quest=55058}), -- Blueprint: Vaultbot Key
     Item({item=167796, quest=55455}), -- Paint Vial: Mechagon Gold
     Pet({id=2766, item=170072}) -- Armored Vaultbot
+}, pois={
+    POI({63263885}) -- Tesla Coil
 }}) -- Armored Vaultbot
 
 -------------------------------------------------------------------------------
@@ -296,6 +300,7 @@ nodes[23195699] = Treasure({
     group=ns.groups.LOCKED_CHEST,
     label=L["iron_chest"],
     note=L["iron_chest_note"],
+    requires=ns.requirement.Item(169872),
     rewards={RED_PAINT}
 })
 
@@ -303,6 +308,7 @@ nodes[13228581] = Treasure({
     group=ns.groups.LOCKED_CHEST,
     label=L["iron_chest"],
     note=L["iron_chest_note"],
+    requires=ns.requirement.Item(169872),
     rewards={RED_PAINT}
 })
 
@@ -310,6 +316,7 @@ nodes[19018086] = Treasure({
     group=ns.groups.LOCKED_CHEST,
     label=L["iron_chest"],
     note=L["iron_chest_note"],
+    requires=ns.requirement.Item(169872),
     rewards={RED_PAINT}
 })
 
@@ -317,6 +324,7 @@ nodes[30775964] = Treasure({
     group=ns.groups.LOCKED_CHEST,
     label=L["iron_chest"],
     note=L["iron_chest_note"],
+    requires=ns.requirement.Item(169872),
     rewards={RED_PAINT}
 })
 
@@ -324,28 +332,32 @@ nodes[20537120] = Treasure({
     group=ns.groups.LOCKED_CHEST,
     label=L["msup_chest"],
     note=L["msup_chest_note"],
-    rewards={RED_PAINT}
+    requires=ns.requirement.Item(169873),
+    rewards={
+        Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
+        Item({item=169850, weekly=57133}) -- Azeroth Mini Pack: Mechagon
+    }
 })
 
 nodes[18357618] = Treasure({
     group=ns.groups.LOCKED_CHEST,
     label=L["rust_chest"],
     note=L["rust_chest_note"],
-    rewards={RED_PAINT}
+    requires=ns.requirement.Item(169218)
 })
 
 nodes[25267825] = Treasure({
     group=ns.groups.LOCKED_CHEST,
     label=L["rust_chest"],
     note=L["rust_chest_note"],
-    rewards={RED_PAINT}
+    requires=ns.requirement.Item(169218)
 })
 
 nodes[23988441] = Treasure({
     group=ns.groups.LOCKED_CHEST,
     label=L["rust_chest"],
     note=L["rust_chest_note"],
-    rewards={RED_PAINT}
+    requires=ns.requirement.Item(169218)
 })
 
 -------------------------------------------------------------------------------
@@ -450,19 +462,25 @@ nodes[53486145] = Quest({
 
 -------------------------------------------------------------------------------
 
-local RegRig = Class('RegRig', Node, { group=ns.groups.RECRIG })
-
-function RegRig.getters:rlabel ()
-    local G, GR, N, H = ns.status.Green, ns.status.Gray, L['normal'], L['hard']
-    local normal = C_QuestLog.IsQuestFlaggedCompleted(55847) and G(N) or GR(N)
-    local hard = C_QuestLog.IsQuestFlaggedCompleted(55848) and G(H) or GR(H)
-    return normal..' '..hard
-end
-
-nodes[69976201] = RegRig({icon="peg_wb", scale=2, label=L["rec_rig"], rewards={
-    Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
-    Item({item=169850, note=L["normal"], weekly=57132}), -- Azeroth Mini Pack: Mechagon
-    Item({item=168495, note=L["hard"], quest=55074}), -- Blueprint: Rustbolt Requisitions
-    Pet({id=2721, item=169396}), -- Echoing Oozeling
-    Pet({id=2756, item=169879}) -- Irradiated Elementaling
-}, note=L["rec_rig_note"]}) -- Reclamation Rig ???=56079
+nodes[69976201] = Class('RegRig', NPC, {
+    id=150448,
+    icon="peg_wb",
+    scale=2,
+    note=L["rec_rig_note"],
+    group=ns.groups.RECRIG,
+    rewards={
+        Achievement({id=13708, criteria={45773,45781,45779,45780,45785}}), -- Most Minis Wins
+        Item({item=169850, note=L["normal"], weekly=57132}), -- Azeroth Mini Pack: Mechagon
+        Item({item=168495, note=L["hard"], quest=55074}), -- Blueprint: Rustbolt Requisitions
+        Pet({id=2721, item=169396}), -- Echoing Oozeling
+        Pet({id=2756, item=169879}) -- Irradiated Elementaling
+    },
+    getters = {
+        rlabel = function (self)
+            local G, GR, N, H = ns.status.Green, ns.status.Gray, L['normal'], L['hard']
+            local normal = C_QuestLog.IsQuestFlaggedCompleted(55847) and G(N) or GR(N)
+            local hard = C_QuestLog.IsQuestFlaggedCompleted(55848) and G(H) or GR(H)
+            return normal..' '..hard
+        end
+    }
+})() -- Reclamation Rig ???=56079

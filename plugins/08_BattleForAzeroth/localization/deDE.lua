@@ -43,9 +43,7 @@ L["beastbot_note"] = "Stelle bei {npc:150359} eine {item:168045} her, um {npc:15
 L["cogstar_note"] = "Töte {npc:150667} überall in der Zone, bis {npc:155443} sich teleportiert, um sie zu verstärken."
 L["crazed_trogg_note"] = "Verwende einen Sprühbot, mit Farbe gefüllte Blase oder die Bots in Bondos Hof um dich in der Farbe anzumalen die er ruft."
 L["deepwater_note"] = "Stelle bei {npc:150359} einen {item:167649} her, um {npc:151569} zu beschwören."
-L["doppel_gang"] = "Die Doppelgang"
 L["doppel_note"] = 'Verwende zusammen mit zwei anderen Spielern ein {item:169470} von der täglichen Quest {quest:56405}, um die Doppelgang zu aktivieren.'
-L["drill_rig"] = "Benötigt die {npc:150306}"
 L["foul_manifest_note"] = "Verbinde alle drei Spulen mit den Pylonen im Wasser."
 L["furor_note"] = 'Klicke während der täglichen Quest {quest:55463} die kleinen blauen Pilze an, bis {npc:151884} erscheint.'
 L["killsaw_note"] = "Erscheint irgendwo im Weichenden Wald, als Reaktion auf das Töten von {npc:151871}. Erscheint nicht an Tagen, an denen sich die Venture Company im Wald befindet und {npc:151871} nicht vorhanden sind."
@@ -64,14 +62,10 @@ L["iron_chest_note"] = "Zum Öffnen wird ein {item:169872} benötigt. \nDieser w
 L["msup_chest_note"] = "Zum Öffnen wird ein {item:169873} benötigt. \nDieser wird von Gegnern in der Westgischt fallen gelassen."
 L["rust_chest_note"] = "Zum Öffnen wird ein {item:169218} benötigt. \nDieser wird von Gegnern in der Westgischt fallen gelassen."
 
-L["rec_rig"] = "Rückgewinnungsturm"
 L["rec_rig_note"] = "Um den Schwerenmodus zu aktivieren, verwende die {spell:292352}-Waffe, um alle {npc:150825} in {npc:151049} zu verwandeln. \nHaustiere können auf beiden Schwierigkeitsgraden erhalten werden."
 
-L["grease_bot"] = "Schmierbot" --NPC:155911
 L["grease_bot_note"] = "Klicke den Bot an, um {spell:303924} zu erhalten. (Erhöht die Bewegungsgeschwindigkeit um 10%. Erhöht das Tempo um 5%.) \nDer Stärkungszauber hält 2 Stunden an."
-L["shock_bot"] = "Schockbot" --NPC:155909
 L["shock_bot_note"] = "Klicke den Bot an, um {spell:304063} zu erhalten. (Angriffe haben eine Chance, zusätzlich Naturschaden zu verursachen, der auf Gegner in der Nähe überspringt.) \nDer Stärkungszauber hält 2 Stunden an."
-L["welding_bot"] = "Schweißerbot" --NPC:155910
 L["welding_bot_note"] = "Klicke den Bot an, um {spell:303952} zu erhalten. (Maximale Gesundheit und erhaltene Heilung um 10% erhöht.) \nDer Stärkungszauber hält 2 Stunden an."
 
 L["options_icons_mech_buffs"] = "Schmier-, Schock- und Schweißerbots"
@@ -174,7 +168,6 @@ L["sfire"] = "Kleines Feuer"
 L["gfire"] = "Großes Feuer"
 L["searth"] = "Kleine Erde"
 L["gearth"] = "Große Erde"
-L["murloco"] = "Murloco" --NPC:152593
 L["tentacle_taco"] = "Verkauft {item:170100}, wenn du das {item:169489} trägst."
 
 L["options_icons_treasures_nazj"] = "Arkhamstern"
