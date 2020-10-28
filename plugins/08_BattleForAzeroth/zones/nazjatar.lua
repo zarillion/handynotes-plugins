@@ -9,7 +9,6 @@ local Group = ns.Group
 local Map = ns.Map
 
 local Node = ns.node.Node
-local Cave = ns.node.Cave
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
@@ -23,6 +22,8 @@ local Pet = ns.reward.Pet
 local Quest = ns.reward.Quest
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -104,16 +105,22 @@ nodes[73985395] = Rare({id=152361, quest=56282, note=L["banescale_note"], reward
 nodes[37378256] = Rare({id=152712, quest=56269, note=L["cave_spawn"], rewards={
     Achievement({id=13691, criteria=45525}), -- Kill
     Pet({id=2682, item=169372}) -- Necrofin Tadpole
+}, pois={
+    POI({39897717}) -- Cave entrance
 }}) -- Blindlight
 
 nodes[40790735] = Rare({id=152464, quest=56283, note=L["cave_spawn"], rewards={
     Achievement({id=13691, criteria=45527}), -- Kill
     Pet({id=2690, item=169356}) -- Caverndark Nightmare
+}, pois={
+    POI({42261342}) -- Cave entrance
 }}) -- Caverndark Terror
 
 nodes[49208875] = Rare({id=152556, quest=56270, note=L["ucav_spawn"], rewards={
     Achievement({id=13691, criteria=45528}), -- Kill
     Achievement({id=13692, criteria=46101}), -- Eel Filet
+}, pois={
+    POI({47588538}) -- Cave entrance
 }}) -- Chasm-Haunter
 
 nodes[57074363] = Rare({id=152291, quest=56272, note=L["cora_spawn"], rewards={
@@ -189,6 +196,8 @@ nodes[28604664] = Rare({id=152542, quest=56294, note=L["matriarch_note"], reward
 nodes[62740809] = Rare({id=152552, quest=56295, note=L["cave_spawn"], rewards={
     Achievement({id=13691, criteria=45548}), -- Kill
     Toy({item=170187}) -- Shadescale
+}, pois={
+    POI({63081189}) -- Cave entrance
 }}) -- Shassera
 
 nodes[39601700] = Rare({id=153658, quest=56296, note=L["area_spawn"], rewards={
@@ -294,15 +303,6 @@ nodes[coord(2,1)] = Rare({id=152795, quest=56277, minimap=false, note=L["east_sp
     Achievement({id=13692, criteria=46099}), -- Giant Crab Leg
     Pet({id=2684, item=169350}) -- Glittering Diamondshell
 }}) -- Sandclaw Stoneshell
-
--------------------------------------------------------------------------------
------------------------------------- CAVES ------------------------------------
--------------------------------------------------------------------------------
-
-nodes[39897717] = Cave({parent=nodes[37378256], label=L["blindlight_cave"]})
-nodes[42261342] = Cave({parent=nodes[40790735], label=L["caverndark_cave"]})
-nodes[47588538] = Cave({parent=nodes[49208875], label=L["chasmhaunt_cave"]})
-nodes[63081189] = Cave({parent=nodes[62740809], label=L["shassera_cave"]})
 
 -------------------------------------------------------------------------------
 ------------------------------------ SLIMES -----------------------------------

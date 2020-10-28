@@ -189,11 +189,6 @@ L["options_icons_cats_nazj_desc"] = "Display locations of the cat figurines for 
 L["options_icons_misc_nazj"] = "Miscellaneous"
 L["options_icons_misc_nazj_desc"] = "Display the location of Murloco's cave and Mardivas's Laboratory."
 
-L["blindlight_cave"] = "Cave entrance to {npc:152712}."
-L["caverndark_cave"] = "Cave entrance to {npc:152464}."
-L["chasmhaunt_cave"] = "Cave entrance to {npc:152556}."
-L["shassera_cave"] = "Cave entrance to {npc:152552}."
-
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
 -------------------------------------------------------------------------------

@@ -184,11 +184,6 @@ L["options_icons_cats_nazj_desc"] = "Muestra las localizaciones de las figurilla
 L["options_icons_misc_nazj"] = "Miscelánea"
 L["options_icons_misc_nazj_desc"] = "Muestra la localización de la cueva de Murloco y el Laboratorio de Mardivas."
 
-L["blindlight_cave"] = "Cueva de entrada a {npc:152712}."
-L["caverndark_cave"] = "Cueva de entrada a {npc:152464}."
-L["chasmhaunt_cave"] = "Cueva de entrada a {npc:152556}."
-L["shassera_cave"] = "Cueva de entrada a {npc:152552}."
-
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
 -------------------------------------------------------------------------------

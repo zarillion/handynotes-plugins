@@ -309,43 +309,6 @@ function Node:Render(tooltip)
 end
 
 -------------------------------------------------------------------------------
------------------------------------- CAVE -------------------------------------
--------------------------------------------------------------------------------
-
-local Cave = Class('Cave', Node, {
-    icon = 'door_down',
-    scale = 1.2,
-    group = ns.groups.CAVE
-})
-
-function Cave:Initialize(attrs)
-    Node.Initialize(self, attrs)
-
-    if self.parent == nil then
-        error('One or more parent nodes are required for Cave nodes')
-    elseif IsInstance(self.parent, Node) then
-        -- normalize parent nodes as tables instead of single values
-        self.parent = {self.parent}
-    end
-end
-
-function Cave:IsEnabled()
-    local function HasEnabledParent()
-        for i, parent in ipairs(self.parent) do
-            if parent:IsEnabled() then
-                return true
-            end
-        end
-        return false
-    end
-
-    -- Check if all our parents are hidden
-    if not HasEnabledParent() then return false end
-
-    return Node.IsEnabled(self)
-end
-
--------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
 -------------------------------------------------------------------------------
 
@@ -479,7 +442,6 @@ local Supply = Class('Supply', Treasure, {
 
 ns.node = {
     Node=Node,
-    Cave=Cave,
     Intro=Intro,
     NPC=NPC,
     PetBattle=PetBattle,

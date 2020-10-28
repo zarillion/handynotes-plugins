@@ -179,11 +179,6 @@ L["options_icons_cats_nazj_desc"] = "Zeigt die Position von Kristallkatzenstatue
 L["options_icons_misc_nazj"] = "Sonstiges"
 L["options_icons_misc_nazj_desc"] = "Zeigt die Position von Murlocos Höhle und Mardivas' Labor an."
 
-L["blindlight_cave"] = "Höhleneingang zu Blindlicht." --NPC:152712
-L["caverndark_cave"] = "Höhleneingang zu Höhlendunkelschrecken." --NPC:152464
-L["chasmhaunt_cave"] = "Höhleneingang zu Schluchtschatten." --NPC:152556
-L["shassera_cave"] = "Höhleneingang zu Shassera." --NPC:152552
-
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
 -------------------------------------------------------------------------------
