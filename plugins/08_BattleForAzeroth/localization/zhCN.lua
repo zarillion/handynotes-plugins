@@ -44,18 +44,24 @@ L["michael_skarn_note"] = "一旦我们开始战斗，你得记住这是你自�
 L["avenger_note"] = "当 {npc:155254} 是访客时，击杀 {npc:151159}（在全地图跑）来刷新。"
 L["beastbot_note"] = "在 {npc:150359} 制作一个 {item:168045} 来激活。"
 L["cogstar_note"] = "在任意区域内击 {npc:150667} 直到他传送来加强它们。"
-L["crazed_trogg_note"] = "在邦多的大杂院使用喷洒机器人或颜料囊袋，把自己染色成他大喊的颜色然后去找他。"
+L["crazed_trogg_note"] = "在邦多的大杂院使用 {npc:154573} 或颜料囊袋，把自己染色成他大喊的颜色然后去找他。"
 L["deepwater_note"] = "在 {npc:150359} 制作一个 {item:167649} 来召唤。"
 L["doppel_gang"] = "同行者"
-L["doppel_note"] = '从日常任务 {quest:56405} 获得 {item:169470}，与其他两名玩家使用来激活。'
+L["doppel_note"] = "与其他两名玩家，使用 {daily:56405} 获得的 {item:169470} 来激活。"
 L["drill_rig"] = "需要 {npc:150306}"
 L["foul_manifest_note"] = "连接三个断路器到水中的电塔。"
-L["furor_note"] = '在日常任务 {quest:55463} 期间，点击蓝色小 {npc:135497} 直到它刷新。'
+L["furor_note"] = "在 {daily:55463} 期间，点击蓝色小 {npc:135497} 直到它刷新。"
 L["killsaw_note"] = "在瀑溪森林任何地方出现，似乎因为击杀 {npc:151871} 后比较容易刷新。不会在风险投资公司在森林里时刷新，那时候没有 {npc:151871}。"
 L["leachbeast_note"] = "使用 {item:168961} 来激活天气更迭器。"
-L["nullifier_note"] = '使用 {item:168435} 或 {item:168023} 侵入 {npc:152174}。前者为 {npc:151625} 掉落，后者为钻机JD41与JD99的小怪掉落。'
+L["nullifier_note"] = [[
+侵入 {npc:152174} 使用其一：
+
+• {npc:151625} 掉落的 {item:168435}。
+
+• 钻机JD41与JD99的小怪掉落的 {item:168023} 。
+]]
 L["scrapclaw_note"] = "远离岸边的水中。"
-L["sparkqueen_note"] = '只在日常任务 {quest:55765} 期间刷新。'
+L["sparkqueen_note"] = "只在 {daily:55765} 期间刷新。"
 L["rusty_note"] = "在 {npc:150359} 制作一个 {item:169114} 进入平行未来时空。只在 {npc:153993} *不是*锈栓镇访客期间才会刷新。"
 L["vaultbot_note"] = "风筝到邦多的大杂院的电磁圈或在 {npc:150359} 制作一个 {item:167062} 来打开它。"
 
@@ -80,7 +86,7 @@ L["welding_bot_note"] = "点击 {npc:155910} 增加生命值和承受治疗效�
 L["options_icons_mech_buffs"] = "增益机器人"
 L["options_icons_mech_buffs_desc"] = "显示 {npc:155911}、{npc:155909} 和 {npc:155910} 在地下城内地图上的位置。"
 L["options_icons_mech_chest"] = "机械补给箱"
-L["options_icons_mech_chest_desc"] = "显示机械补给箱的位置。有10个独立的箱子可以日常拾取一次，每个箱子有4-5个刷新位置。位置按颜色分组。"
+L["options_icons_mech_chest_desc"] = "显示机械补给箱的位置。有10个独立的箱子可以每日拾取一次，每个箱子有4-5个刷新位置。位置按颜色分组。"
 L["options_icons_locked_chest"] = "锁住的箱子"
 L["options_icons_locked_chest_desc"] = "在西浪岩显示锁住的箱子的位置。"
 L["options_icons_recrig"] = "开垦钻机"
