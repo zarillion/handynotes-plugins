@@ -83,12 +83,15 @@ map.nodes[52394183] = Rare({
     }
 }) -- Alga the Eyeless
 
-map.nodes[66443875] = Rare({
+map.nodes[65603880] = Rare({
     id=152416,
     quest=56280,
     note=L["allseer_note"],
     rewards={
         Achievement({id=13691, criteria=45520}) -- Kill
+    },
+    pois={
+        POI({65603880, 66204060, 67803700, 69604060, 71003460})
     }
 }) -- Allseer Oma'kill
 
@@ -102,6 +105,15 @@ map.nodes[58605329] = Rare({
         Item({item=170184, weekly=57140}) -- Ancient Reefwalker Bark
     }
 }) -- Anemonar
+
+map.nodes[36931120] = Rare({
+    id=150191, quest=55584,
+    note=L["avarius_note"],
+    requires=ns.requirement.Item(167012),
+    rewards={
+        Pet({id=2706, item=169373}) -- Brinestone Algan
+    }
+}) -- Avarius
 
 map.nodes[73985395] = Rare({
     id=152361,
@@ -124,6 +136,16 @@ map.nodes[37378256] = Rare({
         POI({39897717}) -- Cave entrance
     }
 }) -- Blindlight
+
+map.nodes[54664179] = Rare({
+    id=149653,
+    quest=55366,
+    note=L["lasher_note"],
+    requires=ns.requirement.Item(166888),
+    rewards={
+        Pet({id=2708, item=169375}) -- Coral Lashling
+    }
+}) -- Carnivorous Lasher
 
 map.nodes[40790735] = Rare({
     id=152464,
@@ -187,7 +209,7 @@ map.nodes[36044496] = Rare({
     }
 }) -- Garnetscale
 
-map.nodes[45715170] = Rare({
+map.nodes[43355507] = Rare({
     id=152448,
     quest=56286,
     note=L["glimmershell_note"],
@@ -195,6 +217,13 @@ map.nodes[45715170] = Rare({
         Achievement({id=13691, criteria=45534}), -- Kill
         Achievement({id=13692, criteria=46099}), -- Giant Crab Leg
         Pet({id=2686, item=169352}) -- Pearlescent Glimmershell
+    },
+    pois={
+        POI({
+            39984945, 40354831, 42164806, 42634727, 43355507, 44385569,
+            45335615, 45774702, 46035411, 46645255, 47235611, 49595150,
+            55845610, 56165729, 57425751, 58614000, 59163967, 61724212,
+        })
     }
 }) -- Iridescent Glimmershell
 
@@ -219,6 +248,21 @@ map.nodes[29412899] = Rare({
         Pet({id=2681, item=169371}) -- Murgle
     }
 }) -- King Gakula
+
+map.nodes[48601760] = Rare({
+    id=152465,
+    quest=56275,
+    minimap=false,
+    note=L["needle_note"],
+    rewards={
+        Achievement({id=13691, criteria=45538}), -- Kill
+        Achievement({id=13692, criteria=46099}), -- Giant Crab Leg
+        Pet({id=2689, item=169355}) -- Chitterspine Needler
+    },
+    pois={
+        POI({39602800, 46002560, 47003080, 48601760, 50401960, 56600860, 70602460})
+    }
+}) -- Needlespine
 
 map.nodes[78132501] = Rare({
     id=152397,
@@ -313,7 +357,7 @@ map.nodes[71365456] = Rare({
     }
 }) -- Siltstalker the Packmother
 
-map.nodes[59704791] = Rare({
+map.nodes[60204740] = Rare({
     id=152290,
     quest=56298,
     note=L["cora_spawn"],
@@ -321,6 +365,9 @@ map.nodes[59704791] = Rare({
         Achievement({id=13691, criteria=45551}), -- Kill
         Achievement({id=13692, criteria=46096}), -- Fathom Ray Wing
         Mount({id=1257, item=169163}) -- Silent Glider
+    },
+    pois={
+        POI({53804220, 54605020, 57605180, 58204140, 60204740, 62605960, 64805180})
     }
 }) -- Soundless
 
@@ -384,25 +431,6 @@ map.nodes[67243458] = Rare({
     }
 }) -- Voice in the Deeps
 
-map.nodes[36931120] = Rare({
-    id=150191, quest=55584,
-    note=L["avarius_note"],
-    requires=ns.requirement.Item(167012),
-    rewards={
-        Pet({id=2706, item=169373}) -- Brinestone Algan
-    }
-}) -- Avarius
-
-map.nodes[54664179] = Rare({
-    id=149653,
-    quest=55366,
-    note=L["lasher_note"],
-    requires=ns.requirement.Item(166888),
-    rewards={
-        Pet({id=2708, item=169375}) -- Coral Lashling
-    }
-}) -- Carnivorous Lasher
-
 map.nodes[48002427] = Rare({
     id=150468,
     quest=55603,
@@ -457,18 +485,6 @@ map.nodes[coord(2,0)] = Rare({
 }) -- Mirecrawler
 
 map.nodes[coord(0,1)] = Rare({
-    id=152465,
-    quest=56275,
-    minimap=false,
-    note=L["needle_note"],
-    rewards={
-        Achievement({id=13691, criteria=45538}), -- Kill
-        Achievement({id=13692, criteria=46099}), -- Giant Crab Leg
-        Pet({id=2689, item=169355}) -- Chitterspine Needler
-    }
-}) -- Needlespine
-
-map.nodes[coord(1,2)] = Rare({
     id=150583,
     quest=56291,
     minimap=false,
