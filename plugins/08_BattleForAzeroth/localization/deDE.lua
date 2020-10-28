@@ -43,14 +43,20 @@ L["beastbot_note"] = "Stelle bei {npc:150359} eine {item:168045} her, um {npc:15
 L["cogstar_note"] = "Töte {npc:150667} überall in der Zone, bis {npc:155443} sich teleportiert, um sie zu verstärken."
 L["crazed_trogg_note"] = "Verwende einen Sprühbot, mit Farbe gefüllte Blase oder die Bots in Bondos Hof um dich in der Farbe anzumalen die er ruft."
 L["deepwater_note"] = "Stelle bei {npc:150359} einen {item:167649} her, um {npc:151569} zu beschwören."
-L["doppel_note"] = 'Verwende zusammen mit zwei anderen Spielern ein {item:169470} von der täglichen Quest {quest:56405}, um die Doppelgang zu aktivieren.'
+L["doppel_note"] = 'Verwende zusammen mit zwei anderen Spielern ein {item:169470} von der täglichen Quest {daily:56405}, um die Doppelgang zu aktivieren.'
 L["foul_manifest_note"] = "Verbinde alle drei Spulen mit den Pylonen im Wasser."
-L["furor_note"] = 'Klicke während der täglichen Quest {quest:55463} die kleinen blauen Pilze an, bis {npc:151884} erscheint.'
+L["furor_note"] = 'Klicke während der täglichen Quest {daily:55463} die kleinen blauen Pilze an, bis {npc:151884} erscheint.'
 L["killsaw_note"] = "Erscheint irgendwo im Weichenden Wald, als Reaktion auf das Töten von {npc:151871}. Erscheint nicht an Tagen, an denen sich die Venture Company im Wald befindet und {npc:151871} nicht vorhanden sind."
 L["leachbeast_note"] = "Verwende eine {item:168961}, um die Wetteränderungsmaschine zu aktivieren."
-L["nullifier_note"] = 'Hack das "{npc:152174}", verwende entweder die {item:168435s} Lochkarte oder ein {item:168023}. Ersteres wird von {npc:151625} fallen gelassen, während letzteres von Gegnern fallen gelassen wird, die die {npc:150306} JD41 und JD99 angreifen.'
+L["nullifier_note"] = [[
+Hack das "{npc:152174}", verwende entweder:
+
+• {item:168435s} Lochkarte von {npc:151625}.
+
+• {item:168023} von Gegnern, die die {npc:150306} JD41 und JD99 angreifen.
+]]
 L["scrapclaw_note"] = "Vor der Küste im Wasser"
-L["sparkqueen_note"] = 'Erscheint nur, wenn die tägliche Quest {quest:55765} verfügbar ist.'
+L["sparkqueen_note"] = 'Erscheint nur, wenn die tägliche Quest {daily:55765} verfügbar ist.'
 L["rusty_note"] = "Stelle bei {npc:150359} einen {item:169114} her, um die alternative Zukunft zu betretten. Erscheint nur, wenn {npc:153993} nicht in Rostbolzen anzutreffen ist."
 L["vaultbot_note"] = "Ziehe den {npc:150394} zu der {npc:73198} in Bondos Hof oder stelle bei {npc:150359} eine {item:167062} her, um ihn aufzubrechen."
 
@@ -75,7 +81,7 @@ L["options_icons_mech_chest_desc"] = "Zeigt die Standorte der Mechanisierten Tru
 L["options_icons_locked_chest"] = "Verschlossene Truhe"
 L["options_icons_locked_chest_desc"] = "Zeigt die Standorte der Verschlossenen Truhen in der Westgischt an."
 L["options_icons_recrig"] = "Rückgewinnungsturm"
-L["options_icons_recrig_desc"] = "Zeigt den Standort und die Belohnungen des Rückgewinnungsturms an."
+L["options_icons_recrig_desc"] = "Zeigt den Standort und die Belohnungen des {npc:150448s} an."
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
@@ -84,7 +90,7 @@ L["options_icons_recrig_desc"] = "Zeigt den Standort und die Belohnungen des Rü
 L["naz_intro_note"] = "Schließe die Einführungsquestreihe ab, um in Nazjatar seltene Gegner, Schätze und Weltquests freizuschalten."
 
 L["alga_note"] = "VORSICHT: Tarnt sich mit 4 weiteren Gegnern!"
-L["allseer_note"] = "Erscheint irgendwo im unteren Teil von  Kal'methir."
+L["allseer_note"] = "Erscheint irgendwo im unteren Teil von Kal'methir."
 L["anemonar_note"] = "Ziehe den Riesenhimmelsrochen zu ihm hin und töte diesen über ihm, um ihn zu aktivieren."
 L["avarius_note"] = "Verwende eine {item:167012} um die farbigen Kristalle abzubauen und auf die Podeste zu setzen. \nDu musst Bergbau nicht erlernt haben!"
 L["banescale_note"] = "Geringe Chance, nach dem Töten der Rudelmutter zu erscheinen."
@@ -159,6 +165,7 @@ L["cat_figurine_07"] = "In einer kleinen Höhle. Die Figur ist in einer Koralle 
 L["cat_figurine_08"] = "In einer kleinen Höhle. Weiche den arkanen Kreisen aus. Die Figur befindet sich auf einem hohen Felsen im Hintergrund."
 L["cat_figurine_09"] = "In einer Unterwasserhöhle. Die Figur befindet sich auf dem Torbogen an der Decke."
 L["cat_figurine_10"] = "In einer Höhle direkt unter dem Weg. Die Figur ist zwischen drei Fässern."
+L["figurines_found"] = "Kristallfiguren gefunden"
 
 L["mardivas_lab"] = "Mardivas' Labor"
 L["no_reagent"] = "Keine Reagenzien"
@@ -168,6 +175,19 @@ L["sfire"] = "Kleines Feuer"
 L["gfire"] = "Großes Feuer"
 L["searth"] = "Kleine Erde"
 L["gearth"] = "Große Erde"
+L["Arcane"] = "Arkane Verschmelzung"
+L["Watery"] = "Wässrige Verschmelzung"
+L["Burning"] = "Brennende Verschmelzung"
+L["Dusty"] = "Staubige Verschmelzung"
+L["Zomera"] = true
+L["Omus"] = true
+L["Osgen"] = true
+L["Moghiea"] = true
+L["Xue"] = true
+L["Ungormath"] = true
+L["Spawn"] = "Brut von Salgos"
+L["Herald"] = "Herold von Salgos"
+L["Salgos"] = "Salgos der Ewige"
 L["tentacle_taco"] = "Verkauft {item:170100}, wenn du das {item:169489} trägst."
 
 L["options_icons_slimes_nazj"] = "Gefräßige Schleime"
@@ -175,7 +195,7 @@ L["options_icons_slimes_nazj_desc"] = "Zeigt die Position der vier Gefräßigen 
 L["options_icons_cats_nazj"] = "Gläserne Samtpfötchen"
 L["options_icons_cats_nazj_desc"] = "Zeigt die Position von Kristallkatzenstatuetten für den Erfolg {achievement:13836} an."
 L["options_icons_misc_nazj"] = "Sonstiges"
-L["options_icons_misc_nazj_desc"] = "Zeigt die Position von Murlocos Höhle und Mardivas' Labor an."
+L["options_icons_misc_nazj_desc"] = "Zeigt die Position von {npc:152593s} Höhle und Mardivas' Labor an."
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
@@ -225,7 +245,7 @@ L["whiplash_note"] = "\nErscheint nur, wenn die Weltquest {wq:Peitschenstengel} 
 
 L["discarded_lunchbox_note"] = "In dem Gebäude auf dem Bücherregal."
 L["hidden_scholars_chest_note"] = "Auf dem Dach des Gebäudes."
-L["honey_vat"] =  "Honigbottich"
+L["honey_vat"] = "Honigbottich"
 L["smugglers_stash_note"] = "Im Wasser unter dem Steg."
 L["sunken_strongbox_note"] = "Im Wasser unter dem Schiff."
 L["venture_co_supply_chest_note"] = "Kletter die Leiter am Schiff hinauf."
@@ -268,7 +288,7 @@ Benötigt die dazugehörige Schatzkarte.
 Die Karten werden von Piraten in Kul Tiras fallen gelassen. Freihafen (offene Welt) ist ein guter Ort zum farmen.
 ]]
 
-local damp_note =  "\n\nLies alle fünf Schriftrollen, um zugang zum Schatz zu erhalten."
+local damp_note = "\n\nLies alle fünf Schriftrollen, um zugang zum Schatz zu erhalten."
 
 L["damp_scroll"] = "Eine feuchte Schriftrolle"
 L["damp_scroll_note_1"] = "\nDer Eingang ist in der Sturmsangabtei.\nEin Skellet auf dem Boden hält diese vor dem Ominösen Altar in den Händen."..damp_note
@@ -309,7 +329,7 @@ L["platform"] = "Erscheint auf der schwebenden Plattform."
 L["right_eye"] = "\nLässt die rechte Hälfte des {item:175140} Spielzeugs fallen."
 L["single_chest"] = "Diese Truhe erscheint nur an einem Ort! Wenn sie nicht da ist, warte ein bisschen und sie wird wiedererscheinen."
 L["tomb_widow"] = "Wenn die weißen Eiersäcke an den Säulen vorhanden sind, töte die unsichtbaren {npc:157184}, um sie zu beschwören."
-L["uatka"] = "Klick zusammen mit zwei anderen Spielern auf jeweils ein  Mysteriöses Gerät. \nBenötigt ein {item:171208} aus einem Reliquiar der Amathet."
+L["uatka"] = "Klick zusammen mit zwei anderen Spielern auf jeweils ein Mysteriöses Gerät. \nBenötigt ein {item:171208} aus einem Reliquiar der Amathet."
 L["wastewander"] = "Teilt sich den spawn mit {npc:154369}."
 
 L["amathet_cache"] = "Truhe der Amathet"
@@ -446,12 +466,12 @@ L["c_behind_cart"] = "Hinter einem zerstörten Wagen."
 L["c_behind_house_counter"] = "Im Haus hinter der Theke."
 L["c_behind_mailbox"] = "Hinter dem Briefkasten."
 L["c_behind_pillar"] = "Hinter einer Säule hinter dem Botschaftsgebäude."
-L["c_behind_rexxar"] = "Auf der rechten Seite hinter Rexxars Gebäude."
-L["c_behind_stables"] = "Hinter den Ställen bei Shaw."
+L["c_behind_rexxar"] = "Auf der rechten Seite hinter {npc:155098s} Gebäude."
+L["c_behind_stables"] = "Hinter den Ställen bei {npc:158157}."
 L["c_by_pillar_boxes"] = "Bei der Mauer zwischen einer Säule und einigen Kisten."
 L["c_center_building"] = "Auf der untersten Ebene des mittleren Gebäudes."
 L["c_forge_corner"] = "In der Ecke bei einer Schmiede."
-L["c_hidden_boxes"] = "Versteckt hinter einigen Kisten hinter Thralls Gebäude."
+L["c_hidden_boxes"] = "Versteckt hinter einigen Kisten hinter {npc:152089s} Gebäude."
 L["c_inside_auction"] = "Im Auktionshaus rechts."
 L["c_inside_big_tent"] = "Links im großen Zelt."
 L["c_inside_cacti"] = "Im Kaktusfeld um die Ecke."
@@ -468,15 +488,15 @@ L["c_walkway_corner"] = "Auf dem oberen Gehweg in einer Ecke."
 L["c_walkway_platform"] = "Auf einer Plattform über dem oberen Gehweg."
 
 L["options_icons_visions_buffs"] = "Stärkungszauber"
-L["options_icons_visions_buffs_desc"] = "Zeigt die Positionen von Events die einen 1 Stunde Stärkungszauber gewähren."
+L["options_icons_visions_buffs_desc"] = "Zeigt die Positionen von Events die einen ein Stündigen Stärkungszauber gewähren."
 L["options_icons_visions_chest"] = "Truhen"
 L["options_icons_visions_chest_desc"] = "Zeigt mögliche Truhen Positionen in Verstörenden Visionen an."
 L["options_icons_visions_crystals"] = "Seltsame Kristalle"
 L["options_icons_visions_crystals_desc"] = "Zeigt mögliche Positionen für die Seltsamen Kristalle in Verstörenden Visionen an."
 L["options_icons_visions_mail"] = "Briefkästen"
-L["options_icons_visions_mail_desc"] = "Zeigt die Positionen von Briefkästen für das Postmampfer Reittier."
+L["options_icons_visions_mail_desc"] = "Zeigt die Positionen von Briefkästen für das {item:174653} Reittier an."
 L["options_icons_visions_misc"] = "Sonstiges"
-L["options_icons_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, Spielzeugen, Fläschchen und Astralen in Verstörenden Visionen."
+L["options_icons_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, Spielzeugen, Fläschchen und Astralen in Verstörenden Visionen an."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
