@@ -170,8 +170,6 @@ L["searth"] = "Kleine Erde"
 L["gearth"] = "Große Erde"
 L["tentacle_taco"] = "Verkauft {item:170100}, wenn du das {item:169489} trägst."
 
-L["options_icons_treasures_nazj"] = "Arkhamstern"
-L["options_icons_treasures_nazj_desc"] = "Zeigt die Position von Arkanen Truhen für den Erfolg {achievement:13549} an."
 L["options_icons_slimes_nazj"] = "Gefräßige Schleime"
 L["options_icons_slimes_nazj_desc"] = "Zeigt die Position der vier Gefräßigen Schleime, die Haustiere bei Fütterung ergeben an."
 L["options_icons_cats_nazj"] = "Gläserne Samtpfötchen"

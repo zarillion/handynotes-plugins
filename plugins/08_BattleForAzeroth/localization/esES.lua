@@ -175,8 +175,6 @@ L["searth"] = "Tierra Inferior"
 L["gearth"] = "Tierra Superior"
 L["tentacle_taco"] = "Vende {item:170100} si llevas puesto el {item:169489}."
 
-L["options_icons_treasures_nazj"] = "Tesoros"
-L["options_icons_treasures_nazj_desc"] = "Muestra las localizaciones de los cofres para el logro Rastreador de tesoros."
 L["options_icons_slimes_nazj"] = "Babas Voraces"
 L["options_icons_slimes_nazj_desc"] = "Muestra las localizaciones de las cuatro Babas Voraces que producen mascotas al ser alimentadas."
 L["options_icons_cats_nazj"] = "Figurillas de Gato Cristalinas"

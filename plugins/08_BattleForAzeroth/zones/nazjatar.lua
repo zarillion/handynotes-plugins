@@ -30,7 +30,6 @@ local POI = ns.poi.POI
 ns.groups.CATS_NAZJ = Group('cats_nazj', 454045)
 ns.groups.MISC_NAZJ = Group('misc_nazj', 528288)
 ns.groups.SLIMES_NAZJ = Group('slimes_nazj', 132107)
-ns.groups.TREASURES_NAZJ = Group('treasures_nazj', 'chest_bl')
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -305,6 +304,89 @@ nodes[coord(2,1)] = Rare({id=152795, quest=56277, minimap=false, note=L["east_sp
 }}) -- Sandclaw Stoneshell
 
 -------------------------------------------------------------------------------
+-------------------------------- TROVE TRACKER --------------------------------
+-------------------------------------------------------------------------------
+
+local Arcane = Class('ArcaneChest', Treasure, {
+    label=L["arcane_chest"],
+    rewards={
+        Achievement({id=13549, criteria=1})
+    }
+})
+
+local Glowing = Class('GlowingChest', Treasure, {
+    icon='chest_bl',
+    label=L["glowing_chest"],
+    rewards={
+        Achievement({id=13549, criteria=2})
+    }
+})
+
+-- Arcane Chests
+nodes[34454040] = Arcane({quest=55954, note=L["arcane_chest_01"]})
+nodes[49576450] = Arcane({quest=55949, note=L["arcane_chest_02"]})
+nodes[85303860] = Arcane({quest=55938, note=L["arcane_chest_03"]})
+nodes[37906050] = Arcane({quest=55957, note=L["arcane_chest_04"]})
+nodes[79502720] = Arcane({quest=55942, note=L["arcane_chest_05"]})
+nodes[44704890] = Arcane({quest=55947, note=L["arcane_chest_06"]})
+nodes[34604360] = Arcane({quest=55952, note=L["arcane_chest_07"]})
+nodes[26003240] = Arcane({quest=55953, note=L["arcane_chest_08"]})
+nodes[50605000] = Arcane({quest=55955, note=L["arcane_chest_09"]})
+nodes[64303330] = Arcane({quest=55943, note=L["arcane_chest_10"]})
+nodes[52804980] = Arcane({quest=55945, note=L["arcane_chest_11"]})
+nodes[48508740] = Arcane({quest=55951, note=L["arcane_chest_12"]})
+nodes[43405820] = Arcane({quest=55948, note=L["arcane_chest_13"]})
+nodes[73203580] = Arcane({quest=55941, note=L["arcane_chest_14"]})
+nodes[80402980] = Arcane({quest=55939, note=L["arcane_chest_15"]})
+nodes[58003500] = Arcane({quest=55946, note=L["arcane_chest_16"]})
+nodes[74805320] = Arcane({quest=55940, note=L["arcane_chest_17"]})
+nodes[39804920] = Arcane({quest=55956, note=L["arcane_chest_18"]})
+nodes[38707440] = Arcane({quest=55950, note=L["arcane_chest_19"]})
+nodes[56303380] = Arcane({quest=55944, note=L["arcane_chest_20"]})
+
+-- Glowing Arcane Chests
+nodes[37900640] = Glowing({quest=55959, note=L["glowing_chest_1"]})
+nodes[43951693] = Glowing({quest=55963, note=L["glowing_chest_2"]})
+nodes[24803520] = Glowing({quest=56912, note=L["glowing_chest_3"]})
+nodes[55701450] = Glowing({quest=55961, note=L["glowing_chest_4"]})
+nodes[61402290] = Glowing({quest=55958, note=L["glowing_chest_5"]})
+nodes[64102860] = Glowing({quest=55962, note=L["glowing_chest_6"]})
+nodes[37201920] = Glowing({quest=55960, note=L["glowing_chest_7"]})
+nodes[80493194] = Glowing({quest=56547, note=L["glowing_chest_8"]})
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+local ASSASSIN_ACHIEVE = Achievement({id=13720, criteria={
+    {id=45790, suffix=L["assassin_looted"]}
+}})
+
+nodes[47864647] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- north basin
+nodes[47285170] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- south basin
+nodes[45237040] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- south of newhome
+nodes[33493889] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- ashen strand (also 33283441?)
+nodes[59663755] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- coral forest
+nodes[76873699] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- zin-azshari
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+nodes[34702740] = PetBattle({id=154910, rewards={Achievement({id=13626, criteria=45467})}, note=L["in_cave"]}) -- Prince Wiggletail
+nodes[71905110] = PetBattle({id=154911, rewards={Achievement({id=13626, criteria=45468})} }) -- Chomp
+nodes[58304810] = PetBattle({id=154912, rewards={Achievement({id=13626, criteria=45469})} }) -- Silence
+nodes[42201400] = PetBattle({id=154913, rewards={Achievement({id=13626, criteria=45470})} }) -- Shadowspike Lurker
+nodes[50605030] = PetBattle({id=154914, rewards={Achievement({id=13626, criteria=45471})}, note=L["in_cave"]}) -- Pearlhusk Crawler
+nodes[51307500] = PetBattle({id=154915, rewards={Achievement({id=13626, criteria=45472})} }) -- Elderspawn of Nalaada
+nodes[29604970] = PetBattle({id=154916, rewards={Achievement({id=13626, criteria=45473})}, note=L["in_cave"]}) -- Ravenous Scalespawn
+nodes[56400810] = PetBattle({id=154917, rewards={Achievement({id=13626, criteria=45474})}, note=L["in_cave"]}) -- Mindshackle
+nodes[46602800] = PetBattle({id=154918, rewards={Achievement({id=13626, criteria=45475})}, note=L["in_cave"]}) -- Kelpstone
+nodes[37501670] = PetBattle({id=154919, rewards={Achievement({id=13626, criteria=45476})}, note=L["in_cave"]}) -- Voltgorger
+nodes[61472290] = PetBattle({id=154920, rewards={Achievement({id=13626, criteria=45477})}, note=L["in_cave"]}) -- Frenzied Knifefang
+nodes[28102670] = PetBattle({id=154921, rewards={Achievement({id=13626, criteria=45478})}, note=L["in_cave"]}) -- Giant Opaline Conch
+
+-------------------------------------------------------------------------------
 ------------------------------------ SLIMES -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -350,67 +432,6 @@ ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)
 end)
 
 -------------------------------------------------------------------------------
--------------------------------- TROVE TRACKER --------------------------------
--------------------------------------------------------------------------------
-
-local Arcane = Class('ArcaneChest', Treasure, {
-    group=ns.groups.TREASURES_NAZJ,
-    label=L["arcane_chest"],
-    rewards={
-        Achievement({id=13549, criteria=1})
-    },
-    IsCompleted = function (self)
-        if self:IsCollected() then return true end
-        return Treasure.IsCompleted(self)
-    end
-})
-
-local Glowing = Class('GlowingChest', Treasure, {
-    icon='chest_bl',
-    group=ns.groups.TREASURES_NAZJ,
-    label=L["glowing_chest"],
-    rewards={
-        Achievement({id=13549, criteria=2})
-    },
-    IsCompleted = function (self)
-        if self:IsCollected() then return true end
-        return Treasure.IsCompleted(self)
-    end
-})
-
--- Arcane Chests
-nodes[34454040] = Arcane({quest=55954, note=L["arcane_chest_01"]})
-nodes[49576450] = Arcane({quest=55949, note=L["arcane_chest_02"]})
-nodes[85303860] = Arcane({quest=55938, note=L["arcane_chest_03"]})
-nodes[37906050] = Arcane({quest=55957, note=L["arcane_chest_04"]})
-nodes[79502720] = Arcane({quest=55942, note=L["arcane_chest_05"]})
-nodes[44704890] = Arcane({quest=55947, note=L["arcane_chest_06"]})
-nodes[34604360] = Arcane({quest=55952, note=L["arcane_chest_07"]})
-nodes[26003240] = Arcane({quest=55953, note=L["arcane_chest_08"]})
-nodes[50605000] = Arcane({quest=55955, note=L["arcane_chest_09"]})
-nodes[64303330] = Arcane({quest=55943, note=L["arcane_chest_10"]})
-nodes[52804980] = Arcane({quest=55945, note=L["arcane_chest_11"]})
-nodes[48508740] = Arcane({quest=55951, note=L["arcane_chest_12"]})
-nodes[43405820] = Arcane({quest=55948, note=L["arcane_chest_13"]})
-nodes[73203580] = Arcane({quest=55941, note=L["arcane_chest_14"]})
-nodes[80402980] = Arcane({quest=55939, note=L["arcane_chest_15"]})
-nodes[58003500] = Arcane({quest=55946, note=L["arcane_chest_16"]})
-nodes[74805320] = Arcane({quest=55940, note=L["arcane_chest_17"]})
-nodes[39804920] = Arcane({quest=55956, note=L["arcane_chest_18"]})
-nodes[38707440] = Arcane({quest=55950, note=L["arcane_chest_19"]})
-nodes[56303380] = Arcane({quest=55944, note=L["arcane_chest_20"]})
-
--- Glowing Arcane Chests
-nodes[37900640] = Glowing({quest=55959, note=L["glowing_chest_1"]})
-nodes[43951693] = Glowing({quest=55963, note=L["glowing_chest_2"]})
-nodes[24803520] = Glowing({quest=56912, note=L["glowing_chest_3"]})
-nodes[55701450] = Glowing({quest=55961, note=L["glowing_chest_4"]})
-nodes[61402290] = Glowing({quest=55958, note=L["glowing_chest_5"]})
-nodes[64102860] = Glowing({quest=55962, note=L["glowing_chest_6"]})
-nodes[37201920] = Glowing({quest=55960, note=L["glowing_chest_7"]})
-nodes[80493194] = Glowing({quest=56547, note=L["glowing_chest_8"]})
-
--------------------------------------------------------------------------------
 -------------------------------- CAT FIGURINES --------------------------------
 -------------------------------------------------------------------------------
 
@@ -449,38 +470,6 @@ ns.addon:RegisterEvent('CRITERIA_EARNED', function (...)
         end)
     end
 end)
-
--------------------------------------------------------------------------------
---------------------------------- BATTLE PETS ---------------------------------
--------------------------------------------------------------------------------
-
-nodes[34702740] = PetBattle({id=154910, rewards={Achievement({id=13626, criteria=45467})}, note=L["in_cave"]}) -- Prince Wiggletail
-nodes[71905110] = PetBattle({id=154911, rewards={Achievement({id=13626, criteria=45468})} }) -- Chomp
-nodes[58304810] = PetBattle({id=154912, rewards={Achievement({id=13626, criteria=45469})} }) -- Silence
-nodes[42201400] = PetBattle({id=154913, rewards={Achievement({id=13626, criteria=45470})} }) -- Shadowspike Lurker
-nodes[50605030] = PetBattle({id=154914, rewards={Achievement({id=13626, criteria=45471})}, note=L["in_cave"]}) -- Pearlhusk Crawler
-nodes[51307500] = PetBattle({id=154915, rewards={Achievement({id=13626, criteria=45472})} }) -- Elderspawn of Nalaada
-nodes[29604970] = PetBattle({id=154916, rewards={Achievement({id=13626, criteria=45473})}, note=L["in_cave"]}) -- Ravenous Scalespawn
-nodes[56400810] = PetBattle({id=154917, rewards={Achievement({id=13626, criteria=45474})}, note=L["in_cave"]}) -- Mindshackle
-nodes[46602800] = PetBattle({id=154918, rewards={Achievement({id=13626, criteria=45475})}, note=L["in_cave"]}) -- Kelpstone
-nodes[37501670] = PetBattle({id=154919, rewards={Achievement({id=13626, criteria=45476})}, note=L["in_cave"]}) -- Voltgorger
-nodes[61472290] = PetBattle({id=154920, rewards={Achievement({id=13626, criteria=45477})}, note=L["in_cave"]}) -- Frenzied Knifefang
-nodes[28102670] = PetBattle({id=154921, rewards={Achievement({id=13626, criteria=45478})}, note=L["in_cave"]}) -- Giant Opaline Conch
-
--------------------------------------------------------------------------------
------------------------------- WAR SUPPLY CHESTS ------------------------------
--------------------------------------------------------------------------------
-
-local ASSASSIN_ACHIEVE = Achievement({id=13720, criteria={
-    {id=45790, suffix=L["assassin_looted"]}
-}})
-
-nodes[47864647] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- north basin
-nodes[47285170] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- south basin
-nodes[45237040] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- south of newhome
-nodes[33493889] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- ashen strand (also 33283441?)
-nodes[59663755] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- coral forest
-nodes[76873699] = Supply({label=L["supply_chest"], rewards={ASSASSIN_ACHIEVE}}) -- zin-azshari
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

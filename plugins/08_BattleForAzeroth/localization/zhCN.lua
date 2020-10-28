@@ -179,8 +179,6 @@ L["searth"] = "小土"
 L["gearth"] = "大土"
 L["tentacle_taco"] = "出售 {item:170100}，如果你穿着艾萨亚雷风暴涌流者斗篷。"
 
-L["options_icons_treasures_nazj"] = "寻宝达人"
-L["options_icons_treasures_nazj_desc"] = "显示 {achievement:13549} 成就宝箱位置。"
 L["options_icons_slimes_nazj"] = "贪婪的粘液"
 L["options_icons_slimes_nazj_desc"] = "显示四个喂食一次可获得宠物的贪婪的粘液位置。"
 L["options_icons_cats_nazj"] = "猫咪雕像"

@@ -132,8 +132,6 @@ L["searth"] = "小土岩"
 L["gearth"] = "大土岩"
 L["tentacle_taco"] = "出售 {item:170100} 如果你是穿著艾薩利怒濤者斗篷。"
 
-L["options_icons_treasures_nazj"] = "寶藏"
-L["options_icons_treasures_nazj_desc"] = "顯示［尋寶追蹤者］成就的箱子位置。"
 L["options_icons_slimes_nazj"] = "飢餓的軟泥"
 L["options_icons_slimes_nazj_desc"] = "顯示已經餵養可以產出戰寵的四種飢餓軟泥的位置。"
 L["options_icons_cats_nazj"] = "貓咪雕像"

@@ -180,14 +180,12 @@ L["searth"] = "Small Earth"
 L["gearth"] = "Greater Earth"
 L["tentacle_taco"] = "Sells {item:170100} if you are wearing the Benthic {item:169489}."
 
-L["options_icons_treasures_nazj"] = "Trove Tracker"
-L["options_icons_treasures_nazj_desc"] = "Display locations of arcane chests for the {achievement:13549} achievement."
 L["options_icons_slimes_nazj"] = "Ravenous Slimes"
-L["options_icons_slimes_nazj_desc"] = "Display locations of the four Ravenous Slimes that produce pets once fed."
+L["options_icons_slimes_nazj_desc"] = "Display locations of the four {npc:151782s} that produce pets once fed."
 L["options_icons_cats_nazj"] = "Feline Figurines"
 L["options_icons_cats_nazj_desc"] = "Display locations of the cat figurines for the {achievement:13836} achievement."
 L["options_icons_misc_nazj"] = "Miscellaneous"
-L["options_icons_misc_nazj_desc"] = "Display the location of Murloco's cave and Mardivas's Laboratory."
+L["options_icons_misc_nazj_desc"] = "Display the location of {npc:152593}'s cave and Mardivas's Laboratory."
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
