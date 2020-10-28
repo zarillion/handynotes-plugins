@@ -11,7 +11,6 @@ local Map = ns.Map
 local Node = ns.node.Node
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
-local Treasure = ns.node.Treasure
 local Mount = ns.reward.Mount
 local Toy = ns.reward.Toy
 local Path = ns.poi.Path
@@ -38,7 +37,13 @@ local MAIL = Node({
     }
 })
 
-local CHEST = Treasure({group=ns.groups.VISIONS_CHEST, label=L["black_empire_cache"]})
+local CHEST = Node({
+    icon='chest_gy',
+    scale=1.3,
+    group=ns.groups.VISIONS_CHEST,
+    label=L["black_empire_cache"]
+})
+
 local CHEST1 = Clone(CHEST, {sublabel=string.format(L["clear_sight"], 1)})
 local CHEST2 = Clone(CHEST, {sublabel=string.format(L["clear_sight"], 2)})
 local CHEST3 = Clone(CHEST, {sublabel=string.format(L["clear_sight"], 3)})
@@ -136,30 +141,56 @@ orgrimmar.nodes[67673924] = MAIL
 
 -------------------------------------------------------------------------------
 
-orgrimmar.nodes[32106430] = Buff({icon=461119, label=L["spirit_of_wind"],
-    note=L["spirit_of_wind_note"]..'\n\n'..L["buffs_change"]})
-orgrimmar.nodes[44667697] = Buff({icon=133044, label=L["smiths_strength"],
-    note=L["smiths_strength_note"]..'\n\n'..L["buffs_change"]})
-orgrimmar.nodes[54277833] = Buff({icon=134991, label=L["heroes_bulwark"],
-    note=L["heroes_bulwark_note"]..'\n\n'..L["buffs_change"]})
-orgrimmar.nodes[57676513] = Buff({icon=1717106, label=L["ethereal_essence"],
-    note=L["ethereal_essence_note"]..'\n\n'..L["buffs_change"]})
+orgrimmar.nodes[32106430] = Buff({
+    icon=461119,
+    label='{spell:313670}',
+    note=L["spirit_of_wind_note"]..'\n\n'..L["buffs_change"]
+}) -- Spirit of the Wind (Bwemba)
+
+orgrimmar.nodes[44667697] = Buff({
+    icon=133044,
+    label='{spell:313770}',
+    note=L["smiths_strength_note"]..'\n\n'..L["buffs_change"]
+}) -- Smith's Strength (Naros)
+
+orgrimmar.nodes[54277833] = Buff({
+    icon=134991,
+    label='{spell:313749}',
+    note=L["heroes_bulwark_note"]..'\n\n'..L["buffs_change"]
+}) -- Heroes' Bulwark (Gamon)
+
+orgrimmar.nodes[57676513] = Buff({
+    icon=1717106,
+    label='{spell:313961}',
+    note=L["ethereal_essence_note"]..'\n\n'..L["buffs_change"]
+}) -- Ethereal Essence (Warpweaver Dushar)
 
 -------------------------------------------------------------------------------
 
-orgrimmar.nodes[54027044] = NPC({id=162358, icon=2823166, group=ns.groups.VISIONS_MISC, note=L["ethereal_note"]})
-orgrimmar.nodes[46828078] = Node({icon=967522, group=ns.groups.VISIONS_MISC, label=L["colored_potion"],
-    note=string.format(L["colored_potion_note"], L["yelmak"])})
+orgrimmar.nodes[54027044] = NPC({
+    id=162358,
+    icon=2823166,
+    group=ns.groups.VISIONS_MISC,
+    note=L["ethereal_note"]
+}) -- Zarhaal
 
-local SHAVE_KIT = Node({icon=1001616, group=ns.groups.VISIONS_MISC, label=L["shave_kit"], note=L["shave_kit_note"], rewards={
-    Toy({item=174920}) -- Coifcurl's Close Shave Kit
-}})
+orgrimmar.nodes[46828078] = Node({
+    icon=967522,
+    group=ns.groups.VISIONS_MISC,
+    label=L["colored_potion"],
+    note=string.format(L["colored_potion_note"], '{npc:162324}')
+})
 
-function SHAVE_KIT:IsCompleted()
-    return self:IsCollected()
-end
-
-orgrimmar.nodes[39906120] = SHAVE_KIT
+orgrimmar.nodes[39906120] = NPC({
+    id=163441,
+    icon=1001616,
+    group=ns.groups.VISIONS_MISC,
+    note=L["shave_kit_note"],
+    rewards={
+        Toy({item=174920}) -- Coifcurl's Close Shave Kit
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+})
 
 -------------------------------------------------------------------------------
 ---------------------------------- STORMWIND ----------------------------------
@@ -238,36 +269,68 @@ stormwind.nodes[75716456] = MAIL
 
 -------------------------------------------------------------------------------
 
-stormwind.nodes[58404919] = Buff({icon=132183, label=L["bear_spirit"],
-    note=L["bear_spirit_note"]..'\n\n'..L["buffs_change"]})
-stormwind.nodes[53545906] = Buff({icon=1621334, label=L["requited_bulwark"],
-    note=L["requited_bulwark_note"]..'\n\n'..L["buffs_change"]})
-stormwind.nodes[59553713] = Buff({icon=133035, label=L["empowered"],
-    note=L["empowered_note"]..'\n\n'..L["buffs_change"]})
-stormwind.nodes[63107740] = Buff({icon=133784, label=L["enriched"],
-    note=L["enriched_note"]..'\n\n'..L["buffs_change"]})
+stormwind.nodes[58404919] = Buff({
+    icon=132183,
+    label='{spell:312355}',
+    note=L["bear_spirit_note"]..'\n\n'..L["buffs_change"]
+}) -- Bear Spirit (Angry Bear Rug Spirit)
+
+stormwind.nodes[53545906] = Buff({
+    icon=1621334,
+    label='{spell:314203}',
+    note=L["requited_bulwark_note"]..'\n\n'..L["buffs_change"]
+}) -- Requited Bulwark (Agustus Moulaine)
+
+stormwind.nodes[59553713] = Buff({
+    icon=133035,
+    label='{spell:314165}',
+    note=L["empowered_note"]..'\n\n'..L["buffs_change"]
+}) -- Empowered (Experimental Buff Mine)
+
+stormwind.nodes[63107740] = Buff({
+    icon=133784,
+    label='{spell:314087}',
+    note=L["enriched_note"]..'\n\n'..L["buffs_change"]
+}) -- Enriched (Neglected Guild Bank)
 
 -------------------------------------------------------------------------------
 
-stormwind.nodes[57204620] = NPC({id=162358, icon=2823166, group=ns.groups.VISIONS_MISC, note=L["ethereal_note"]})
-stormwind.nodes[51765852] = Node({icon=967522, group=ns.groups.VISIONS_MISC, label=L["colored_potion"],
-    note=string.format(L["colored_potion_note"], L["morgan_pestle"])})
+stormwind.nodes[57204620] = NPC({
+    id=162358,
+    icon=2823166,
+    group=ns.groups.VISIONS_MISC,
+    note=L["ethereal_note"]
+}) -- Zarhaal
 
-local VOID_SKULL = Node({icon=237272, group=ns.groups.VISIONS_MISC, label=L["void_skull"], note=L["void_skull_note"], rewards={
-    Toy({item=174921}) -- Void-Touched Skull
-}})
+stormwind.nodes[51765852] = Node({
+    icon=967522,
+    group=ns.groups.VISIONS_MISC,
+    label=L["colored_potion"],
+    note=string.format(L["colored_potion_note"], '{npc:162231}')
+})
 
-function VOID_SKULL:IsCompleted()
-    return self:IsCollected()
-end
+stormwind.nodes[58905290] = Node({
+    icon=237272,
+    group=ns.groups.VISIONS_MISC,
+    label='{item:174921}',
+    note=L["void_skull_note"],
+    rewards={
+        Toy({item=174921}) -- Void-Touched Skull
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+})
 
-stormwind.nodes[58905290] = VOID_SKULL
-
-stormwind.nodes[59106390] = Rare({id=158284, group=ns.groups.VISIONS_MISC, note=L["craggle"], pois={
-    Path({
-        58707630, 57507290, 56406950, 56706670, 59106390, 62306130, 64706190,
-        67006490, 68406710
-    })
-}, rewards={
-    Toy({item=174926}) -- Overly Sensitive Void Spectacles
-}}) -- Craggle Wobbletop
+stormwind.nodes[59106390] = Rare({
+    id=158284,
+    group=ns.groups.VISIONS_MISC,
+    note=L["craggle"],
+    pois={
+        Path({
+            58707630, 57507290, 56406950, 56706670, 59106390, 62306130,
+            64706190, 67006490, 68406710
+        })
+    },
+    rewards={
+        Toy({item=174926}) -- Overly Sensitive Void Spectacles
+    }
+}) -- Craggle Wobbletop
