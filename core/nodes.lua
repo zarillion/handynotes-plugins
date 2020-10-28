@@ -316,6 +316,7 @@ local Intro = Class('Intro', Node, {
     icon = 'quest_ay',
     scale = 3,
     group = ns.groups.INTRO,
+    minimap = false
 })
 
 -------------------------------------------------------------------------------
@@ -429,16 +430,6 @@ function Treasure:GetGlow()
 end
 
 -------------------------------------------------------------------------------
------------------------------------ SUPPLY ------------------------------------
--------------------------------------------------------------------------------
-
-local Supply = Class('Supply', Treasure, {
-    icon = 'star_chest_g',
-    scale = 1.5,
-    group = ns.groups.SUPPLY
-})
-
--------------------------------------------------------------------------------
 
 ns.node = {
     Node=Node,
@@ -447,6 +438,5 @@ ns.node = {
     PetBattle=PetBattle,
     Quest=Quest,
     Rare=Rare,
-    Supply=Supply,
     Treasure=Treasure
 }

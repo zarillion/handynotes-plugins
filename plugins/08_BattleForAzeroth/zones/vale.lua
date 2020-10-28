@@ -99,15 +99,6 @@ end
 
 nodes[26005200] = map.intro
 
-ns.addon:RegisterEvent('QUEST_ACCEPTED', function (_, _, id)
-    if id == 56540 then
-        ns.Debug('Vale assaults unlock detected')
-        C_Timer.After(1, function()
-            ns.addon:Refresh()
-        end)
-    end
-end)
-
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------

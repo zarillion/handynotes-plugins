@@ -65,12 +65,10 @@ ns.GROUP_HIDDEN = {display=false}
 ns.GROUP_ALPHA75 = {alpha=0.75}
 
 ns.groups = {
-    CAVE = Group('caves', 'door_down', {defaults=ns.GROUP_ALPHA75}),
     INTRO = Group('intro', 'quest_ay'),
     OTHER = Group('other', 454046),
     PETBATTLE = Group('pet_battles', 'paw_y'),
     QUEST = Group('quests', 'quest_ay'),
     RARE = Group('rares', 'skull_w', {defaults=ns.GROUP_ALPHA75}),
-    SUPPLY = Group('supplies', 'star_chest_g'),
     TREASURE = Group('treasures', 'chest_gy', {defaults=ns.GROUP_ALPHA75}),
 }
