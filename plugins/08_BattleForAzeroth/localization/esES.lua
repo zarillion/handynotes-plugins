@@ -1,6 +1,6 @@
 --Spanish Localization by (EU) Krovikan-Minahonda
 
-local ADDON_NAME, _ = ...
+local ADDON_NAME, ns = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "esES", false, true)
 if not L then return end
 
@@ -577,6 +577,12 @@ L["tales_shadra_note"] = "Junto a la entrada, detrás de una antorcha."
 L["tales_torcali_note"] = "Entre un grupo de barriles y las escaleras."
 L["tales_zandalar_note"] = "Detrás de {npc:132989}."
 
+L["azuresail_note"] = "Comparte tiempo de aparición con {npc:135512} y {npc:135508}."
+L["thunderfoot_note"] = "Comparte tiempo de aparición con {npc:135510} y {npc:135508}."
+L["kil_tawan_note"] = "Comparte tiempo de aparición con {npc:135510} y {npc:135512}."
+L["options_icons_life_finds_a_way"] = "La vida se abre camino... ¡hacia la muerte!"
+L["options_icons_life_finds_a_way_desc"] = "Muestra las localizaciones de los dinosaurios aterradores para el logro {achievement:13048}."
+
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
@@ -586,3 +592,9 @@ L["options_icons_mushroom_harvest_desc"] = "Muestra las localizaciones de los vi
 
 L["options_icons_tales_of_de_loa"] = "Érase una Vez un Loa"
 L["options_icons_tales_of_de_loa_desc"] = "Muestra las localizaciones de los volúmenes para el logro {achievement:13036}."
+
+L["jani_note"] = "Haz click en el Montón de Basura Misteriosa para que aparezca {npc: 126334}."
+L["rezan_note"] = ns.color.Red("Dentro de la mazmorra Atal'Dazar.")
+L["bow_to_your_masters_note"] = "Reverencia a los loa de Zandalar. (/reverenciar)"
+L["options_icons_bow_to_your_masters"] = "Inclinarte ante tus maestros"
+L["options_icons_bow_to_your_masters_desc"] = "Muestra las localizaciones para el logro {achievement:13020}."
