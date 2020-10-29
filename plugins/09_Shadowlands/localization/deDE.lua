@@ -340,7 +340,6 @@ L["remlates_cache_note"] = "Hinter der Außenmauer der Krypta in Dunkelhafen."
 L["taskmaster_trove_note"] = "Lies die Eintritts- und Austrittsriten und gehe behutsam zur Truhe."
 L["the_count_note"] = "Sammle 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}."
 
-L["abandoned_curios"] = "Verlassene Schätze"
 L["bleakwood_chest"] = "Kahlholzkiste"
 L["forgotten_anglers_rod"] = "Vergessene Angelrute"
 

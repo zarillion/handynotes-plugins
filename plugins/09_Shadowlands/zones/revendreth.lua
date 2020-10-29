@@ -312,6 +312,14 @@ map.nodes[38607200] = Rare({
 -- Reliquary of Remembrance (79763376) (item=180403)
 -- Unimplemented treasure? (50244910)
 
+map.nodes[51855954] = Treasure({
+    quest=59888,
+    rewards={
+        Achievement({id=14314, criteria=50902}),
+        Item({item=182744}) -- Ornate Belt Buckle
+    }
+}) -- Abandoned Curios
+
 map.nodes[69327795] = Treasure({
     quest=59833,
     rewards={
@@ -441,14 +449,6 @@ map.nodes[68446445] = Treasure({
 }) -- Wayfarer's Abandoned Spoils
 
 -------------------------------------------------------------------------------
-
-map.nodes[51855954] = Treasure({
-    quest=59888,
-    label=L["abandoned_curios"],
-    rewards={
-        Item({item=182744}) -- Ornate Belt Buckle
-    }
-}) -- Abandoned Curios
 
 -- Not at this location for me -Zar
 -- map.nodes[30342472] = Treasure({

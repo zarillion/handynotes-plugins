@@ -332,7 +332,6 @@ L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
 L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
 
-L["abandoned_curios"] = "Abandoned Curios"
 L["bleakwood_chest"] = "Bleakwood Chest"
 L["forgotten_anglers_rod"] = "Forgotten Angler's Rod"
 

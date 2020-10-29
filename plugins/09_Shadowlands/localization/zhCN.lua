@@ -332,7 +332,6 @@ L["remlates_cache_note"] = "在暗湾镇墓穴后面的外墙上。"
 L["taskmaster_trove_note"] = "阅读Ingress and Egress Rites然后小心地走到宝箱。"
 L["the_count_note"] = "获得99个 {currency:1820} 末日迷沼然后把它带给 {npc:173488}。"
 
-L["abandoned_curios"] = "被遗弃的奇珍"
 L["bleakwood_chest"] = "冷木宝箱"
 L["forgotten_anglers_rod"] = "被遗忘的渔翁之竿"
 

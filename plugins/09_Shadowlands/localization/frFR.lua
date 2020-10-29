@@ -332,7 +332,6 @@ L["rapier_fearless_note"] = "Cliquer la rapière au sol, puis vaincre {npc:17360
 L["taskmaster_trove_note"] = "Lisez les rites d'entrée et sortie, puis dirigez-vous avec précaution vers le coffre."
 L["the_count_note"] = "Farmez 99 {currency:1820} dans le Marais des Affres et amenez-les ensuite à {npc:173488}."
 
-L["abandoned_curios"] = "Bibelots abandonnés"
 L["bleakwood_chest"] = "Coffre en bois sombre" --Correction : Doute sur le nom du coffre
 L["chest_of_envious_dreams"] = "Coffre des rêves envieux"
 L["filchers_prize"] = "Trophée du chapardeur"

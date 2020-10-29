@@ -334,7 +334,6 @@ L["remlates_cache_note"] = "En la pared exterior de Refugioscuro detrás de la c
 L["taskmaster_trove_note"] = "Lee el Ritual de Ingreso y el Ritual de Salida. Después sigue el camino al cofre con cuidado."--Revisar (NODATABLE) que Ingress Rite sea Ritual de Ingreso, (NODATABLE) que Egress Rite sea Ritual de Salida
 L["the_count_note"] = "Farmea 99 {currency:1820} en el Cenagal del Fin y llévaselos a {npc:173488}."
 
-L["abandoned_curios"] = "Curiosidades Abandonadas"--Revisar (NODATABLE) que Abandoned Curios sea Curiosidades Abandonadas
 L["bleakwood_chest"] = "Cofre de Maderasombría"--Revisar (VIGNETTE, BATTLEPETSPECIES) que Bleakwood Chest sea Cofre de Maderasombría
 L["forgotten_anglers_rod"] = "Caña de Pescador Olvidada"--Revisar (VIGNETTE, TOY) que Forgotten Angler's Rod sea Caña de Pescador Olvidada
 
