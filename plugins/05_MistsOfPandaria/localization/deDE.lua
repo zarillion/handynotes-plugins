@@ -54,3 +54,10 @@ Klicke die Glitzernde Kranichstatue an, um zur Truhe zu fliegen.
 ]]
 L["ropebound_treasure_chest_note"] = "Laufe auf den Seilen zum Schatz."
 L["sunken_treasure_note"] = "Töte die Elitegegner auf dem gesunkenen Schiff für den Schlüssel."
+
+-------------------------------------------------------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
+-------------------------------------------------------------------------------
+
+L["zandalari_warbringer_note"] = "Kann mehrfach am Tag geplündert werden. \nDie Farbe vom Reittier des {npc:69842} bestimmt die Farbe des geplünderten Reittiers."
+L["zandalari_warbringer_killed"] = "Kriegshetzer der Zandalari getötet."

@@ -53,3 +53,10 @@ Click the Gleaming Crane Statue to fly up to the treasure.
 ]]
 L["ropebound_treasure_chest_note"] = "Walk on the ropes to the treasure."
 L["sunken_treasure_note"] = "Kill elites on the sunken ship for the key."
+
+-------------------------------------------------------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
+-------------------------------------------------------------------------------
+
+L["zandalari_warbringer_note"] = "Can be looted multiple times a day. \nThe color of the {npc:69842} mount will determine the dropped mount's color."
+L["zandalari_warbringer_killed"] = "Zandalari Warbringer killed."
