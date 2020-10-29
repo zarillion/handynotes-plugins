@@ -63,4 +63,4 @@ L["zandalari_warbringer_note"] = [[
 
 {npc:69842} 坐骑的颜色决定了掉落坐骑的颜色。
 ]]
-L["zandalari_warbringer_killed"] = "{npc:69842}  已击杀。"
+L["zandalari_warbringer_killed"] = "{npc:69842} 已击杀。"
