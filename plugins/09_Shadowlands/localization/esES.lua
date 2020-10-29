@@ -385,7 +385,12 @@ Combina las tres inscripciones para crear la {item:182329}, la cual debe ser usa
 L["soul_well_note"] = "Atrapa la Estigia que surge del Pozo de Almas."--Revisar (SPELLNAME) que Stygia sea Estigia, que erupting sea surgiendo, (VIGNETTE, SPELLNAME, QUESTV2CLI) que Soul Well sea Pozo de Almas
 L["obliterated_soul_shards_note"] = "Recoge Fragmentos de Almas Eliminadas en los puentes."--Revisar (QUESTV2CLITASK) que Obliterated Soul Shards sea Fragmentos de Almas Eliminadas
 
-L["chaotic_riftstone_note"] = "Actívala para entrar en la {spell:344157} para cruzar rápidamente Las Fauces."
+L["chaotic_riftstone_note"] = [[
+Activa el {spell:344157} para cruzar rápidamente por Las Fauces.
+
+Require la mejora {item:184613} de {npc:162804}.
+]]
+L["venari_upgrade"] = "Mejora de {npc:162804}"
 
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
 L["options_icons_bonus_boss_desc"] = "Muestra las localizaciones de los élites de bonificación."
