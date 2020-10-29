@@ -21,7 +21,7 @@ ns.expansion = 8
 -------------------------------------------------------------------------------
 
 ns.groups.ASSAULT_EVENT = Group('assault_events', 'peg_wy')
-ns.groups.BOW_TO_YOUR_MASTERS = Group('bow_to_your_masters', 1850548, {defaults=ns.GROUP_HIDDEN})
+ns.groups.BOW_TO_YOUR_MASTERS = Group('bow_to_your_masters', 1850548, {defaults=ns.GROUP_HIDDEN, faction='Horde'})
 ns.groups.CARVED_IN_STONE = Group('carved_in_stone', 134424, {defaults=ns.GROUP_HIDDEN})
 ns.groups.CATS_NAZJ = Group('cats_nazj', 454045)
 ns.groups.COFFERS = Group('coffers', 'star_chest_g')
@@ -103,7 +103,6 @@ ns.node.TalesOfTheLoa = Class('TalesOfTheLoa', Treasure, {
 
 ns.node.BowToYourMasters = Class('BowToYourMasters', NPC, {
     icon=1850548,
-    faction="Horde",
     sublabel=L["bow_to_your_masters_note"],
     group=ns.groups.BOW_TO_YOUR_MASTERS,
     IsCompleted = function (self) return self:IsCollected() end
