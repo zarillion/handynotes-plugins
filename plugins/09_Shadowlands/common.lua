@@ -109,3 +109,20 @@ function SLMap:Prepare ()
 end
 
 ns.Map = SLMap
+
+-------------------------------------------------------------------------------
+--------------------------------- REQUIREMENTS --------------------------------
+-------------------------------------------------------------------------------
+
+local Venari = Class('Venari', ns.requirement.Requirement)
+
+function Venari:Initialize(quest)
+    self.text = L["venari_upgrade"]
+    self.quest = quest
+end
+
+function Venari:IsMet()
+    return C_QuestLog.IsQuestFlaggedCompleted(self.quest)
+end
+
+ns.requirement.Venari = Venari

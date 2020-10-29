@@ -289,7 +289,7 @@ map.nodes[19205740] = BonusBoss({
     }
 }) -- Dath Rezara <Lord of Blades>
 
-map.nodes[34202000] = BonusBoss({
+map.nodes[31982122] = BonusBoss({
     id=158314,
     quest=59183,
     rewards={
@@ -321,7 +321,7 @@ map.nodes[27311754] = BonusBoss({
     }
 }) -- Malevolent Stygia
 
-map.nodes[43804800] = BonusBoss({
+map.nodes[38642880] = BonusBoss({
     id=172207,
     quest=62618,
     rewards={
@@ -436,6 +436,7 @@ local Riftstone = Class('Riftstone', ns.node.NPC, {
     id = 174962,
     scale = 1.3,
     group = ns.groups.RIFTSTONE,
+    requires = ns.requirement.Venari(63177),
     note = L["chaotic_riftstone_note"]
 })
 

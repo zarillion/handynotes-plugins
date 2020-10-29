@@ -383,7 +383,12 @@ Combine all three etchings to create the {item:182329}, which can be used to sum
 L["soul_well_note"] = "Catch the Stygia erupting from the Soul Well."
 L["obliterated_soul_shards_note"] = "Collect Obliterated Soul Shards on the bridges."
 
-L["chaotic_riftstone_note"] = "Activate to {spell:344157} quickly across the Maw."
+L["chaotic_riftstone_note"] = [[
+Activate to {spell:344157} quickly across the Maw.
+
+Requires the {item:184613} upgrade from {npc:162804}.
+]]
+L["venari_upgrade"] = "{npc:162804} Upgrade"
 
 L["options_icons_bonus_boss"] = "Bonus Elites"
 L["options_icons_bonus_boss_desc"] = "Display locations of bonus elites."
