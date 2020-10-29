@@ -1,4 +1,3 @@
-
 local ADDON_NAME, _ = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "zhCN", false, true)
 if not L then return end
@@ -54,3 +53,10 @@ L["mist_covered_treasure_chest_note"] = [[
 ]]
 L["ropebound_treasure_chest_note"] = "走绳子到达宝藏。"
 L["sunken_treasure_note"] = "杀死沉船上的精英以获取钥匙。"
+
+-------------------------------------------------------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
+-------------------------------------------------------------------------------
+
+L["zandalari_warbringer_note"] = "每日可以多次拾取。\n{npc:69842} 坐骑的颜色决定了掉落坐骑的颜色。"
+L["zandalari_warbringer_killed"] = "赞达拉战争使者已击杀。"

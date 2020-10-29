@@ -1,4 +1,4 @@
-local ADDON_NAME, _ = ...
+local ADDON_NAME, ns = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "zhCN", false, true)
 if not L then return end
 
@@ -7,3 +7,12 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["edge_of_reality"] = "现世边界"
+
+-------------------------------------------------------------------------------
+--------------------------------- TANAAN JUNGLE -------------------------------
+-------------------------------------------------------------------------------
+
+L["deathtalon_note"] = ns.color.Red("暗影领主艾斯卡喊道：在彼岸，你能找到的只有死亡！")
+L["doomroller_note"] = ns.color.Red("攻城大师玛塔克喊道：哈哈！狠狠践踏他们的尸体吧！")
+L["terrorfist_note"] = ns.color.Red("弗甘喊道：一头巨型小戈隆正冲向游侠避难所！我们需要援助！")
+L["vengeance_note"] = ns.color.Red("暴君维哈里喊道：爬虫只配被碾死！")
