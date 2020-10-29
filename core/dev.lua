@@ -160,14 +160,17 @@ end
 -------------------------------------------------------------------------------
 
 function ns.Debug(...)
+    if not ns.addon.db then return end
     if ns:GetOpt('development') then print(ns.color.Blue('DEBUG:'), ...) end
 end
 
 function ns.Warn(...)
+    if not ns.addon.db then return end
     if ns:GetOpt('development') then print(ns.color.Orange('WARN:'), ...) end
 end
 
 function ns.Error(...)
+    if not ns.addon.db then return end
     if ns:GetOpt('development') then print(ns.color.Red('ERROR:'), ...) end
 end
 
