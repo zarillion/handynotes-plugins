@@ -1,4 +1,4 @@
-local ADDON_NAME, _ = ...
+local ADDON_NAME, ns = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "enUS", true, true)
 if not L then return end
 
@@ -589,3 +589,9 @@ L["options_icons_mushroom_harvest_desc"] = "Display fungarian villain locations 
 
 L["options_icons_tales_of_de_loa"] = "A Loa of a Tale"
 L["options_icons_tales_of_de_loa_desc"] = "Display tablet locations for the {achievement:13036} achievement."
+
+L["jani_note"] = "Click on the Mysterious Trashpile to reveal {npc: 126334}."
+L["rezan_note"] = ns.color.Red("Inside the Atal'Dazar dungeon.")
+L["bow_to_your_masters_note"] = "Bow to the loa of Zandalar. (/bow)"
+L["options_icons_bow_to_your_masters"] = "Bow to Your Masters"
+L["options_icons_bow_to_your_masters_desc"] = "Display loa locations for the {achievement:13020} achievement."

@@ -493,6 +493,33 @@ map.nodes[49592446] = TalesOfTheLoa({
 }) -- Tales of de Loa: Sethraliss
 
 -------------------------------------------------------------------------------
+----------------------------- BOW TO YOUR MASTERS -----------------------------
+-------------------------------------------------------------------------------
+
+local BowToYourMasters = ns.node.BowToYourMasters
+
+map.nodes[53189164] = BowToYourMasters({
+    id=128152,
+    rewards={
+        Achievement({id=13020, criteria=41497})
+    }
+}) -- Akunda
+
+map.nodes[56571023] = BowToYourMasters({
+    id=123052,
+    rewards={
+        Achievement({id=13020, criteria=41499})
+    }
+}) -- Kimbul
+
+map.nodes[27185257] = BowToYourMasters({
+    id=135210,
+    rewards={
+        Achievement({id=13020, criteria=41503})
+    }
+}) -- Sethraliss
+
+-------------------------------------------------------------------------------
 --------------------------------- DUNE RIDER ----------------------------------
 -------------------------------------------------------------------------------
 

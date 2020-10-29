@@ -599,3 +599,9 @@ L["options_icons_mushroom_harvest_desc"] = "Zeigt die Positionen der Fungianerb�
 
 L["options_icons_tales_of_de_loa"] = "Aus dem Leben eines Loas"
 L["options_icons_tales_of_de_loa_desc"] = "Zeigt die Positionen der Legend'n der Loa für den Erfolg {achievement:13036} an."
+
+L["jani_note"] = "Klicke den Mysteriösen Müllhaufen an, damit {npc:126334} erscheint."
+L["rezan_note"] = ns.color.Red("Im Dungeon \"Atal'Dazar\"")
+L["bow_to_your_masters_note"] = "Zollt den Loa Zandalars Respekt, indem Ihr Euch vor ihnen verbeugt. (/verbeugen)"
+L["options_icons_bow_to_your_masters"] = "Verbeugt Euch vor Euren Meistern"
+L["options_icons_bow_to_your_masters_desc"] = "Zeigt die Positionen der Loa für den Erfolg {achievement:13020} an."

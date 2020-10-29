@@ -26,6 +26,7 @@ local POI = ns.poi.POI
 
 local map = Map({ id=862, settings=true })
 local daz = Map({ id=1165, settings=true })
+local atal = Map({ id=935, settings=true })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -600,6 +601,48 @@ local taleszandalar = TalesOfTheLoa({
 
 map.nodes[59053218] = ns.Clone(taleszandalar)
 daz.nodes[53230929] = taleszandalar
+
+-------------------------------------------------------------------------------
+----------------------------- BOW TO YOUR MASTERS -----------------------------
+-------------------------------------------------------------------------------
+
+local BowToYourMasters = ns.node.BowToYourMasters
+
+map.nodes[49274433] = BowToYourMasters({
+    id=129740,
+    rewards={
+        Achievement({id=13020, criteria=41498})
+    }
+}) -- Gonk
+
+local bowjani = BowToYourMasters({
+    id=126334,
+    note=L["jani_note"],
+    rewards={
+        Achievement({id=13020, criteria=41500})
+    }
+}) -- Jani
+
+map.nodes[53103165] = ns.Clone(bowjani)
+daz.nodes[35350767] = bowjani
+
+map.nodes[71544942] = BowToYourMasters({
+    id=127377,
+    rewards={
+        Achievement({id=13020, criteria=41501})
+    }
+}) -- Pa'ku
+
+local bowrezan = BowToYourMasters({
+    id=124948,
+    note=L["rezan_note"],
+    rewards={
+        Achievement({id=13020, criteria=41502})
+    }
+}) -- Rezan
+
+map.nodes[44823815] = ns.Clone(bowrezan)
+atal.nodes[37185259] = bowrezan
 
 -------------------------------------------------------------------------------
 ------------------------- LIFE FINDS A WAY... TO DIE! -------------------------

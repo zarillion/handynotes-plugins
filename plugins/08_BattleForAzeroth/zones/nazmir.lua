@@ -524,6 +524,26 @@ map.nodes[72850760] = TalesOfTheLoa({
 }) -- Tales of de Loa: Torga
 
 -------------------------------------------------------------------------------
+----------------------------- BOW TO YOUR MASTERS -----------------------------
+-------------------------------------------------------------------------------
+
+local BowToYourMasters = ns.node.BowToYourMasters
+
+map.nodes[39562460] = BowToYourMasters({
+    id=122688,
+    rewards={
+        Achievement({id=13020, criteria=41525})
+    }
+}) -- Bwonsamdi
+
+map.nodes[75495684] = BowToYourMasters({
+    id=120551,
+    rewards={
+        Achievement({id=13020, criteria=41495})
+    }
+}) -- Krag'wa
+
+-------------------------------------------------------------------------------
 ---------------------- CARVED IN STONE, WRITTEN IN BLOOD ----------------------
 -------------------------------------------------------------------------------
 

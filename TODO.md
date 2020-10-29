@@ -25,7 +25,6 @@
 
 ### Optional
 
-* [Bow to Your Masters](https://www.wowhead.com/achievement=13020/bow-to-your-masters) (Horde)
 * [Get Hek'd](https://www.wowhead.com/achievement=12482/get-hekd)
 * [Scavenger of the Sands](https://www.wowhead.com/achievement=13016/scavenger-of-the-sands)
 
