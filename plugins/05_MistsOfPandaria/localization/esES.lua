@@ -55,3 +55,14 @@ Haz click en la Estatua de la Grulla Reluciente para volar hasta el tesoro.
 ]]
 L["ropebound_treasure_chest_note"] = "Camina por las cuerdas hasta llegar al tesoro."
 L["sunken_treasure_note"] = "Mata élites en el barco hundido hasta conseguir la llave."
+
+-------------------------------------------------------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
+-------------------------------------------------------------------------------
+
+L["zandalari_warbringer_note"] = [[
+Puede ser despojado varias veces al día.
+
+El color de la montura del {npc:69842} determinará el color de la montura que se despoje.
+]]
+L["zandalari_warbringer_killed"] = "Ha muerto el {npc:69842}."
