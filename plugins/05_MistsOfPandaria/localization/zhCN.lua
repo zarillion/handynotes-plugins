@@ -58,5 +58,9 @@ L["sunken_treasure_note"] = "杀死沉船上的精英以获取钥匙。"
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["zandalari_warbringer_note"] = "每日可以多次拾取。\n{npc:69842} 坐骑的颜色决定了掉落坐骑的颜色。"
-L["zandalari_warbringer_killed"] = "赞达拉战争使者已击杀。"
+L["zandalari_warbringer_note"] = [[
+每日可以多次拾取。
+
+{npc:69842} 坐骑的颜色决定了掉落坐骑的颜色。
+]]
+L["zandalari_warbringer_killed"] = "{npc:69842}  已击杀。"
