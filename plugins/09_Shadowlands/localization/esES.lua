@@ -296,34 +296,34 @@ L["zerekriss_note"] = "Una vez activada, la necrópolis volará alrededor de la 
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L["amalgamation_of_filth_note"] = "Cuando esté disponible la misión del mundo {wq:Dirty Job: Demolition Detail} haz click en una Caja de Basura y usa {spell:324115} dentro del agua."--Revisar (QUESTV2CLITASK) que Dirty Job: Demolition Detail sea Trabajo Sucio: Detalles de Demolición, que (NODATABLE) Rubbish Box sea Caja de Basura
-L["amalgamation_of_light_note"] = "Mueve las tres trampas de espejos para liberar a {npc:164388}."
-L["amalgamation_of_sin_note"] = "Usa el Catalizador de Poder para conseguir la {item:180376} de la misión del mundo {wq:Summon Your Sins}. Usa el objeto para invocar a la {npc:170434}."--Revisar (NODATABLE) que Catalyst of Power sea Catalizador de Poder y (QUESTV2CLITASK) que Summon Your Sins sea Invoca tus Pecados
-L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo {wq:Muck It Up} después de usar {item:177880} en {npc:166206}."--Revisar (QUESTV2CLITASK) qué nombre tiene la WQ Muck It Up
-L["endlurker_note"] = "Haz click en la Anima Stake cerca del cuerpo de {npc:165229} y usa {spell:321826} en la parte superior de la Grieta Brillante."--Revisar (SPELL, SPELLNAME) qué es Anima Stake y (SPELLFOCUSOBJECT) que Shimmering Rift sea Grieta Brillante
-L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar {spell:324872}."
-L["famu_note"] = "Habla con {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}."
-L["grand_arcanist_dimitri_note"] = "Matar los cuatro {npc:167467} para liberar a {npc:167464}."
+L["amalgamation_of_filth_note"] = "Cuando esté disponible la misión del mundo {wq:Trabajo sucio: equipo de demolición} haz click en una Caja de Basura y usa {spell:324115} en el agua."
+L["amalgamation_of_light_note"] = "Mueve las tres trampas de espejos para liberar a la {npc:164388}."
+L["amalgamation_of_sin_note"] = "Usa el Catalizador de Poder para conseguir la {item:180376} de la misión del mundo {wq:Invocar tus pecados}. Usa el objeto para invocar a la {npc:170434}."
+L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo {wq:Mugre a mansalva} después de usar la {item:177880} en el {npc:166206}."
+L["endlurker_note"] = "Haz click en el Poste de Ánima cerca del cuerpo del {npc:165229} y usa el {spell:321826} en la parte superior de la Falla Fulgurante."
+L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar la {spell:324872} del {npc:166710}."
+L["famu_note"] = "Habla con la {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}."
+L["grand_arcanist_dimitri_note"] = "Mata a los cuatro {npc:167467} para liberar al {npc:167464}."
 L["harika_note"] = [[
-|cFFFF0000IMPORTANT:|r ¡Han de entregarse los objetos en el orden correcto o se bugeará el evento!
+|cFFFF0000IMPORTANT:|r ¡Los objetos han de entregarse en el orden correcto o el evento se bugeará!
 
-En Cuenca Aterradora al oeste, despoja el {item:176397} y ambos conjuntos de {item:176396}. Dale ambos conjuntos de herramientas a {npc:165328} cerca de la balista. Después devuelve el {item:176397} a {npc:165327} y dile que tire para abajo a {npc:165290}.
+En Cuenca Aterradora al oeste, despoja la {item:176397} y dos {item:176396}. Dale las dos herramientas al {npc:165328} cerca de la balista. Después devuelve la {item:176397} al {npc:165327} y dile que derribe a {npc:165290}.
 ]]
 L["innervus_note"] = "Mata a los {npc:160375} cercanos para conseguir la {item:177223} y desbloquear la cripta donde está {npc:160640}."
-L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca de {npc:165151} para comenzar el evento tras el cual aparecerá {npc:165152}."
+L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca del {npc:165151} para comenzar el evento tras el cual aparecerá el {npc:165152}."
 L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}."
 L["madalav_note"] = "Haz click en el Martillo de Madalav en el yunque cercano para invocar al {npc:159496}."
-L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recogida una {npc:169916} durante la misión del mundo {wq:Swarming Souls}."--Revisar (QUESTV2CLITASK, BATTLEPETSPECIES) que Swarming Souls sea Enjambre de Almas
+L["manifestation_of_wrath_note"] = "Tiene probabilidad de aparecer cuando es recuperada una {npc:169916} durante la misión del mundo {wq:Almas enjambradoras}."
 L["scrivener_lenua_note"] = "Devuelve los {npc:160753} a la Biblioteca Prohibida."
 L["sinstone_hoarder_note"] = "Intenta despojar el {npc:162503} y el {npc:162481} se revelará él solo."
-L["sire_ladinas_note"] = "Coge un {npc:160621} cercano y usa {spell:313065} en un {npc:157733}."
-L["soulstalker_doina_note"] = "Sigue escaleras abajo y a través del espejo cuando se escape {npc:160392}."
-L["tomb_burster_note"] = "Puede aparecer si {npc:155777} queda atrapado en una telaraña. Mata los {npc:155769} cercanos y comenzarán a salir oleadas de {npc:155795} hasta que aparezca {npc:155779}."
+L["sire_ladinas_note"] = "Coge un Remanente de la Luz cercano y usa {spell:313065} en los {npc:157733} hasta que aparezca {npc:160857}."
+L["soulstalker_doina_note"] = "Sigue a la {npc:160392} cuando se escape escaleras abajo y dentro del espejo esquivando trampas."
+L["tomb_burster_note"] = "Puede aparecer si {npc:155777} queda atrapado en una telaraña. Mata los {npc:155769} cercanos y a las oleadas de {npc:155795} que comenzarán a salir hasta que aparezca la {npc:155779}."
 L["worldedge_gorger_note"] = [[
-Consigue una {item:173939} de los Segadores del Mundo, Devoradores y Mites en el Bosque de la Desgracia y en el Cenagal del Fin. Úsala para encender los Blandones del Fin del Mundo e invocar a {npc:160821}.
+Consigue una {item:173939} de los Saqueadores del Mundo, Devoradores y Ácaros en el Bosque de la Desgracia y en el Cenagal del Fin. Úsala para encender los Blandones del Fin del Mundo e invocar al {npc:160821}.
 
-Tiene probabilidades de soltar {item:180583}, con lo que comienza una línea de misiones de 7 días para conseguir la montura {spell:333027}.
-]]--Revisar (NODATABLE) que World Reavers sea Segadores del Mundo, (ITEMSPARSE) qué es Mites, (SPELL, SPELLFOCUSOBJECT) que Worldedge Braziers sea Blandones del Fin del Mundo
+Tiene probabilidades de soltar un {item:180583}, el cual empieza una cadena de misiones de 7 días para conseguir la montura {spell:333027}.
+]]--Revisar (NODATABLE) que World Reavers sea Saqueadores del Mundo
 
 L["dredglaive_note"] = "Debajo del puente en el cuerpo de un {npc:173671}."
 L["forbidden_chamber_note"] = "Despoja un Bote de Ánima Desechada enfrente de la puerta y aprende {spell:340701}. Úsalo para drenar cinco {npc:173838} en las cercanías, entonces usa {spell:340866} enfrente del {npc:173786}."--Revisar (NODATABLE) que Discarded Anima Canister sea Bote de Ánima Desechada
