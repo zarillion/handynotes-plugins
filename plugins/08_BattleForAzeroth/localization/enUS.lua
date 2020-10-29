@@ -575,6 +575,11 @@ L["tales_shadra_note"] = "Next to the entrance, behind a torch."
 L["tales_torcali_note"] = "Between a couple of barrels and the stairs."
 L["tales_zandalar_note"] = "Behind {npc:132989}."
 
+L["azuresail_note"] = "Shares a respawn timer with {npc:135512} and {npc:135508}."
+L["thunderfoot_note"] = "Shares a respawn timer with {npc:135510} and {npc:135508}."
+L["options_icons_life_finds_a_way"] = "Life Finds a Way... To Die!"
+L["options_icons_life_finds_a_way_desc"] = "Display fearsome dinosaur locations for the {achievement:13048} achievement."
+
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------

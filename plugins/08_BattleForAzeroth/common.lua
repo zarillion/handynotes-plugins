@@ -27,6 +27,7 @@ ns.groups.DAILY_CHESTS = Group('daily_chests', 'chest_bl', {defaults=ns.GROUP_AL
 ns.groups.DUNE_RIDER = Group('dune_rider', 134962, {defaults=ns.GROUP_HIDDEN})
 ns.groups.HONEYBACKS = Group('honeybacks', 2066005, {defaults=ns.GROUP_HIDDEN, faction='Alliance'})
 ns.groups.HOPPIN_SAD = Group('hoppin_sad', 804969, {defaults=ns.GROUP_HIDDEN})
+ns.groups.LIFE_FINDS_A_WAY = Group('life_finds_a_way', 236192, {defaults=ns.GROUP_HIDDEN})
 ns.groups.LOCKED_CHEST = Group('locked_chest', 'chest_gy', {defaults=ns.GROUP_ALPHA75})
 ns.groups.MECH_CHEST = Group('mech_chest', 'chest_rd', {defaults=ns.GROUP_ALPHA75})
 ns.groups.MISC_NAZJ = Group('misc_nazj', 528288)

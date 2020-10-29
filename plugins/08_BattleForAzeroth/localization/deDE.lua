@@ -585,6 +585,11 @@ L["tales_shadra_note"] = "Neben dem Eingang, hinter einer Fackel."
 L["tales_torcali_note"] = "Zwischen ein paar Fässern und der Treppe."
 L["tales_zandalar_note"] = "Hinter {npc:132989}."
 
+L["azuresail_note"] = "Kann erscheinen, wenn du einen der anderen beiden Dinosaurier {npc:135512} oder {npc:135508} tötest."
+L["thunderfoot_note"] = "Kann erscheinen, wenn du einen der anderen beiden Dinosaurier {npc:135510} oder {npc:135508} tötest."
+L["options_icons_life_finds_a_way"] = "Das Leben findet einen Weg... ins Jenseits!"
+L["options_icons_life_finds_a_way_desc"] = "Zeigt die Positionen der fürchterlichen Dinosaurier für den Erfolg {achievement:13048} an."
+
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------

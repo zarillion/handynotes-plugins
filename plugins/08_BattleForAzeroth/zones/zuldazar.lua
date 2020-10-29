@@ -602,6 +602,76 @@ map.nodes[59053218] = ns.Clone(taleszandalar)
 daz.nodes[53230929] = taleszandalar
 
 -------------------------------------------------------------------------------
+------------------------- LIFE FINDS A WAY... TO DIE! -------------------------
+-------------------------------------------------------------------------------
+
+local LifeFindsAWay = Class('LifeFindsAWay', NPC, {
+    icon=236192,
+    group=ns.groups.LIFE_FINDS_A_WAY,
+    IsCompleted = function (self) return self:IsCollected() end
+})
+
+map.nodes[67012670] = LifeFindsAWay({
+    id=135510,
+    note=L["azuresail_note"],
+    rewards={
+        Achievement({id=13048, criteria=41676})
+    },
+    pois={
+        POI({67802900, 69103085})
+    }
+}) -- Azuresail the Ancient
+
+map.nodes[70552262] = LifeFindsAWay({
+    id=123502,
+    rewards={
+        Achievement({id=13048, criteria=41677})
+    },
+    pois={
+        Path({69512264, 68002268, 67922214, 68052173, 68422217, 69512264, 70552262, 71142249, 71422207, 71622141, 71712025})
+    }
+}) -- King K'tal
+
+map.nodes[61582548] = LifeFindsAWay({
+    id=130741,
+    rewards={
+        Achievement({id=13048, criteria=41673})
+    }
+}) -- Nol'ixwan
+
+map.nodes[71104026] = LifeFindsAWay({
+    id=139365,
+    rewards={
+        Achievement({id=13048, criteria=41672})
+    }
+}) -- Queenfeather
+
+map.nodes[52424774] = LifeFindsAWay({
+    id=129323,
+    rewards={
+        Achievement({id=13048, criteria=41674})
+    }
+}) -- Sabertusk Empress
+
+map.nodes[66102246] = LifeFindsAWay({
+    id=143910,
+    rewards={
+        Achievement({id=13048, criteria=41684})
+    }
+}) -- Sludgecrusher
+
+map.nodes[67802900] = LifeFindsAWay({
+    id=135512,
+    note=L["thunderfoot_note"],
+    rewards={
+        Achievement({id=13048, criteria=41675})
+    },
+    pois={
+        POI({67012670, 69103085})
+    }
+}) -- Thunderfoot
+
+-------------------------------------------------------------------------------
 ------------------------------ MUSHROOM HARVEST -------------------------------
 -------------------------------------------------------------------------------
 

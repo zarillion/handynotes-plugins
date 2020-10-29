@@ -17,6 +17,7 @@ local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
+local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 
@@ -587,6 +588,23 @@ map.nodes[28898316] = HoppinSad({quest=53423, note=L["in_small_cave"]})
 map.nodes[24179172] = HoppinSad({quest=53424, note=L["hoppin_sad_53424"]})
 map.nodes[21866934] = HoppinSad({quest=53425, note=L["hoppin_sad_53425"]})
 map.nodes[25674057] = HoppinSad({quest=53426, note=L["hoppin_sad_53426"]})
+
+-------------------------------------------------------------------------------
+------------------------- LIFE FINDS A WAY... TO DIE! -------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[24507282] = NPC({
+    icon=236192,
+    group=ns.groups.LIFE_FINDS_A_WAY,
+    id=143898,
+    rewards={
+        Achievement({id=13048, criteria=41683})
+    },
+    pois={
+        Path({23627079, 24507282, 25407490, 25977537, 26687500, 26577351, 25797109, 25347037, 24436965, 23706943, 23496991, 23627079})
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+}) -- Makatau
 
 -------------------------------------------------------------------------------
 ------------------------------ MUSHROOM HARVEST -------------------------------

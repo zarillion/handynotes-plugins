@@ -27,7 +27,6 @@
 
 * [Bow to Your Masters](https://www.wowhead.com/achievement=13020/bow-to-your-masters) (Horde)
 * [Get Hek'd](https://www.wowhead.com/achievement=12482/get-hekd)
-* [Life Finds a Way... To Die!](https://www.wowhead.com/achievement=13048/life-finds-a-way-to-die)
 * [Scavenger of the Sands](https://www.wowhead.com/achievement=13016/scavenger-of-the-sands)
 
 ## Kul Tiras
