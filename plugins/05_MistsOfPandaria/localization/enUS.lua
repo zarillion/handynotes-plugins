@@ -63,4 +63,4 @@ Can be looted multiple times a day.
 
 The color of the {npc:69842} mount will determine the dropped mount's color.
 ]]
-L["zandalari_warbringer_killed"] = "{npc:69842} killed."
+L["zandalari_warbringer_killed"] = "Zandalari Warbringer killed."
