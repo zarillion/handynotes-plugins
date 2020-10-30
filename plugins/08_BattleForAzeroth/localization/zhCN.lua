@@ -588,8 +588,9 @@ L["tales_shadra_note"] = "入口旁边，火炬后面。"
 L["tales_torcali_note"] = "在几个桶和楼梯之间。"
 L["tales_zandalar_note"] = "{npc:132989} 后面。"
 
-L["azuresail_note"] = "与 {npc:135512} 和 {npc:135508} 共享刷新计时器。"
-L["thunderfoot_note"] = "与 {npc:135510} 和 {npc:135508} 共享刷新计时器。"
+local shared_dinos = "从 {npc:133680} 的任务线 {daily:50860} 日常必须激活（四个可能的日常之一）让他们出现，任何人可以在这些天看到他们。"
+L["azuresail_note"] = "与 {npc:135512} 和 {npc:135508} 共享刷新计时器。\n\n"..shared_dinos
+L["thunderfoot_note"] = "与 {npc:135510} 和 {npc:135508} 共享刷新计时器。\n\n"..shared_dinos
 L["options_icons_life_finds_a_way"] = "狩猎侏罗纪"
 L["options_icons_life_finds_a_way_desc"] = "显示 {achievement:13048} 成就中可怕恐龙的位置。"
 
@@ -603,8 +604,8 @@ L["options_icons_mushroom_harvest_desc"] = "显示 {achievement:13027} 成就中
 L["options_icons_tales_of_de_loa"] = "神灵传说"
 L["options_icons_tales_of_de_loa_desc"] = "显示 {achievement:13036} 成就中洛阿神灵传说的位置。"
 
-L["jani_note"] = "点击神秘垃圾堆显露 {npc: 126334}。"
+L["jani_note"] = "点击神秘垃圾堆显露 {npc:126334}。"
 L["rezan_note"] = ns.color.Red("位于阿塔达萨地下城。")
-L["bow_to_your_masters_note"] = "向赞达拉洛阿神灵鞠躬。（/bow）"
+L["bow_to_your_masters_note"] = "向赞达拉洛阿神灵鞠躬（"..ns.color.Orange('/bow').."）。"
 L["options_icons_bow_to_your_masters"] = "俯首称臣"
 L["options_icons_bow_to_your_masters_desc"] = "显示 {achievement:13020} 成就中洛阿神灵的位置。"
