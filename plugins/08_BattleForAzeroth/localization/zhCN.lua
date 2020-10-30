@@ -636,6 +636,6 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ 以下饮料
 • {item:162560}
 • {item:163098}
 ]] or ''
-L["three_sheets_note"] = "获得每一种饮料中的一种来获得成就。"..horde_sheets
+L["three_sheets_note"] = "获得所有饮料中的每一种获得成就。"..horde_sheets
 L["options_icons_three_sheets"] = "酩酊大醉"
 L["options_icons_three_sheets_desc"] = "显示 {achievement:13061} 成就中供应商的位置。"
