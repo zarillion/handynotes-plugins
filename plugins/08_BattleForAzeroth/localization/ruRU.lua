@@ -7,7 +7,14 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["merchants_chest_note"] = "Убить поблизости {npc:137468} у которого есть ключ для вызова {item:163710}"
+L["beshol_note"] = "Откройте Совершенно безопасный сундук, чтобы вызвать монстра."
+L["cottontail_matron_note"] = "Используйте Ритуальный череп животного, чтобы призвать монстра."
+L["gluttonous_yeti_note"] = "Этот {npc:127979} обречен ..."
+L["seething_cache_note"] = "Откройте Дымящийся тайник, чтобы вызвать {npc:129031}."
 L["the_caterer_note"] = "Используйте Испорченный свадебный торт, чтобы активировать."
+L["vicemaul_note"] = "Нажмите на {npc:127652} чтобы призвать монстра."
+
+L["merchants_chest_note"] = "Убейте поблизости {npc:137468} который держит ключ для призыва {item:163710}"
 L["wicker_pup_note"] = [[
 Объедините предметы из всех четырех сундуков, чтобы создать {npc:143189}.
 
@@ -16,6 +23,19 @@ L["wicker_pup_note"] = [[
 • Заколдованный сундук: {item:163791}
 • Проклятый сундук: {item:163789}
 ]]
+
+local runebound = "Активируйте {npc:143688s} в порядке, указанном на металлических пластинах за сундуком:\n\n"
+L["runebound_cache_note"] = runebound.."Лево -> Низ -> Вверх -> Право"
+L["runebound_chest_note"] = runebound.."Лево -> Право -> Низ -> Вверх"
+L["runebound_coffer_note"] = runebound.."Право -> Вверх -> Лево -> Низ"
+
+-- NOTE: These quotes (and for trainers in other zones) were taken from the quotes
+-- for this NPC on Wowhead. If no quotes were listed, I started a battle with the NPC
+-- and jotted down the opening line. Adds a little flavor to the tooltips.
+L["captain_hermes_note"] = "Да уж! Ракообразная сила!"
+L["dilbert_mcclint_note"] = "Эй там, меня зовут {npc:140461}, эколог. Всегда приятно сразиться с таким же энтузиастом арахноидов."
+L["fizzie_spark_note"] = "Вы думаете, что у ваших питомцев есть шанс против моей команды, наполненной Азеритом? Вы хотите!"
+L["michael_skarn_note"] = "Просто помни, когда мы начнем эту битву, ты сам напросился на это."
 
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
@@ -31,7 +51,13 @@ L["foul_manifest_note"] = "Активируйте Автоматический �
 L["furor_note"] = 'Во время задания "Помощь Нордрассила" нажимайте на маленькие голубые грибы, пока он не появится.'
 L["killsaw_note"] = "Появляется в случайном месте в вырубаемом лесу, вероятно, в ответ на убийство Циркулярных лесопилов. Не появляется в дни, когда Торговая компания находится в лесу, а Циркуляры недоступны."
 L["leachbeast_note"] = "Используйте Экзотермический испарительный змеевик, чтобы активировать Устройство для изменения погоды."
-L["nullifier_note"] = 'Взломайте "Уязвимый узел нейтрализатора", используя перфокарту "Взломщик цепи удаленного действия" или Разбитый транспортный узел. Первый выпадает из Короля-над-свалкой, а второй - из миньонов, атакующих буровые установки ДЫР-ДЖ41 и ДЫР-ДЖ99.'
+L["nullifier_note"] = [[
+Взломайте {npc:152174} используя:
+
+•  {item:168435} перфокарту с {npc:151625}.
+
+•  {item:168023} из миньонов, атакующих буровые установки ДЫР-ДЖ41 и ДЫР-ДЖ99.
+]]
 L["scrapclaw_note"] = "У берега в воде."
 L["sparkqueen_note"] = 'Появляется только тогда, когда доступно задание "Жуки – множество их!".'
 L["rusty_note"] = "Создайте Персональная машина времени у Паскаль-К0Р0Л6, чтобы войти в альтернативное будущее. Появляется только тогда, когда в Ржавом Болту нет Хроми."
@@ -142,6 +168,7 @@ L["cat_figurine_07"] = "В маленькой пещере. Статуэтка �
 L["cat_figurine_08"] = "В маленькой пещере. Уворачивайся от кругов на земле. Статуэтка на высоком камне в конце пещеры."
 L["cat_figurine_09"] = "В подводной пещере. Статуэтка на каменной арке у потолка."
 L["cat_figurine_10"] = "В пещере чуть ниже дороги. Статуэтка между тремя бочками."
+L["figurines_found"] = "Найдены статуэтки кошек"
 
 L["mardivas_lab"] = "Лаборатория Мардиваса"
 L["no_reagent"] = "Без реагентов"
@@ -171,6 +198,31 @@ L["offering_to_bwonsamdi_note"] = "Бегите по ближайшему дер
 L["shambling_ambusher_note"] = "Попытайтесь собрать {npc:124473} для вызова монстра."
 L["zaamar_note"] = "Внутри катакомб Некрополя, вход с юга."
 
+L["grady_prett_note"] = "Time to get down and battle! Lets do this!"
+L["korval_dark_note"] = "This place is spooky, lets make this a quick battle."
+L["lozu_note"] = "Lets fight with honor, stranger."
+
+L["tales_bwonsamdi_note"] = "At the destroyed pillar."
+L["tales_hireek_note"] = "A Scroll on the table."
+L["tales_kragwa_note"] = "At the destroyed wall."
+L["tales_torga_note"] = "Underwater at a destroyed pillar."
+
+L["carved_in_stone_41860"] = "Inside a destroyed building near the mountain."
+L["carved_in_stone_41861"] = "At the destroyed pillar."
+L["carved_in_stone_41862"] = "At the destroyed wall, in front of the huge pillar."
+L["carved_in_stone_42116"] = "At a pillar next to {npc:126126}."
+L["options_icons_carved_in_stone"] = "Carved in Stone"
+L["options_icons_carved_in_stone_desc"] = "Display pictograph locations for {achievement:13024}."
+
+L["hoppin_sad_53419"] = "Behind two trees under a huge root."
+L["hoppin_sad_53420"] = "In the ruins."
+L["hoppin_sad_53424"] = "On a cliff."
+L["hoppin_sad_53425"] = "On the tree near the waterfall."
+L["hoppin_sad_53426"] = "Under a few roots."
+
+L["options_icons_hoppin_sad"] = "Hoppin' Sad"
+L["options_icons_hoppin_sad_desc"] = "Display {npc:143317} locations for the {achievement:13028} achievement."
+
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
 -------------------------------------------------------------------------------
@@ -179,6 +231,7 @@ L["in_basement"] = "В подвале."
 L["jakala_note"] = "Поговорите с {npc:140925}."
 L["nestmother_acada_note"] = "Нажмите на Гнездо Акады, чтобы вызвать монстра."
 L["sabertron_note"] = "Убейте {npc:139334} чтобы активировать один из {npc:139328}s."
+L["whiplash_note"] = "Only spawns when {wq:Whiplash} is active."
 
 L["discarded_lunchbox_note"] = "В здании на книжной полке."
 L["hidden_scholars_chest_note"] = "На крыше здания."
@@ -193,9 +246,21 @@ L["small_treasure_chest"] = "Маленький сундук с сокровищ
 L["small_treasure_51927"] = "В здании под лестницей."
 L["small_treasure_51940"] = "В здании."
 
+L["eddie_fixit_note"] = "Prepare to face my unbeatable team of highly modified and customized robots!"
+L["ellie_vern_note"] = "I've found the toughest sea creatures around to battle for me, you don't stand a chance."
+L["leana_darkwind_note"] = "Strange creatures on this island will make for a strange battle I suspect."
+
+L["honeyback_harvester_note"] = "Talk to the {npc:155193} to begin the event. The Fresh Jelly Deposit can be looted once an hour and resets on the hour."
+L["options_icons_honeybacks"] = "Honeyback Harvesters"
+L["options_icons_honeybacks_desc"] = "Display Honeyback Harvester event locations for farming Honeyback Hive reputation."
+
+local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in Warfang Hold'
 L["these_hills_sing_note"] = "Откройте {item:160485} здесь. Купите тогда у {npc:138096} (Орда) или {npc:138221} (Альянс) или найди одно из сокровищ \"Выброшенная коробка для завтрака\" в Бреннадаме."
 
 L["ancient_tidesage_scroll"] = "Ancient Tidesage ScrollДревний свиток жрецов моря"
+L["ancient_tidesage_scroll_note"] = "Read all 8 Ancient Tidesage Scrolls to earn the achievement."
+L["options_icons_tidesage_legends"] = "Legends of the Tidesages"
+L["options_icons_tidesage_legends_desc"] = "Display ancient scroll locations for the {achievement:13051} achievement."
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
@@ -224,6 +289,10 @@ L["damp_scroll_note_5"] = "In a corner under the boardwalk."..damp_note
 L["ominous_altar"] = "Ominous Altar"
 L["ominous_altar_note"] = "Talk to the Ominous Altar to be teleported to the treasure."
 L["secret_of_the_depths_note"] = "Read all five Damp Scrolls, then talk to the Ominous Altar to teleport to the treasure."
+
+L["burly_note"] = "These little guys are pretty strange, but they sure pack a punch. Are you sure you want this fight?"
+L["delia_hanako_note"] = "Before we start, I just want to remind you to not feel too bad when my team annihilates yours."
+L["kwint_note"] = "One person against one shark, maybe an even fight. One person against three? You're insane."
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -434,6 +503,23 @@ L["grayals_offering_note"] = "After completing {quest:50702}, enter Atul'Aman an
 L["kimbul_offerings_note"] = "On the hill above the Temple of Kimbul."
 L["sandsunken_note"] = "Click the Abandoned Bobber to pull the treasure out of the sand."
 
+L["keeyo_note"] = "Time for a great adventure!"
+L["kusa_note"] = "I'm on a winning streak, you have no chance against me and my team."
+L["sizzik_note"] = "I always appreciate a good battle with a new challenger."
+
+L["tales_akunda_note"] = "In the pond."
+L["tales_kimbul_note"] = "Next to the withered tree."
+L["tales_sethraliss_note"] = "On the ground next to the table."
+
+L["plank_1"] = "Where the sand ends at the top of the hill."
+L["plank_2"] = "Next to a broken building."
+L["plank_3"] = "On the side of the pyramid. Path starts at the other nearby plank."
+L["plank_4"] = "At the top of a sand dune along the side of the pyramid."
+L["plank_5"] = "Follow the serpent's tail to find the plank."
+L["planks_ridden"] = "rickety planks ridden"
+L["options_icons_dune_rider"] = "Dune Rider"
+L["options_icons_dune_rider_desc"] = "Display rickety plank locations for the {achievement:13018} achievement."
+
 L["elusive_alpaca"] = "Скормите Салат из приморской зелени, альпаке, чтобы выучить ее как маунта. Появляется в течение 10 минут в одном месте, затем долгое возрождение."
 
 -------------------------------------------------------------------------------
@@ -452,8 +538,8 @@ L["frightened_kodo_note"] = "Despawns after a few minutes. Guaranteed to spawn a
 ----------------------------------- ZULDAZAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L["murderbeak_note"] = "Toss the chum into the sea, then kill {npc:134780}s until {npc:134782} spawns."
-L["vukuba_note"] = "Investigate the {npc:134049}, then kill waves of {npc:134047}s until {npc:134048} spawns."
+L["murderbeak_note"] = "Toss the chum into the sea, then kill {npc:134780s} until {npc:134782} spawns."
+L["vukuba_note"] = "Investigate the {npc:134049}, then kill waves of {npc:134047s} until {npc:134048} spawns."
 
 L["cache_of_secrets_note"] = "Held by an {npc:137234} in a cave behind a waterfall."
 L["da_white_shark_note"] = "Stand near {npc:133208} until she becomes hostile."
@@ -465,13 +551,47 @@ L["spoils_of_pandaria_note"] = "On the lowest deck of the ship."
 L["tiny_voodoo_mask_note"] = "Sitting on the hut above {npc:141617}."
 L["warlords_cache_note"] = "On top at the helm of the ship."
 
+L["karaga_note"] = "I have not battled in a long while, I hope I am still a good challenge to you."
+L["talia_spark_note"] = "The critters in this land are vicious, I hope you're ready for this."
+L["zujai_note"] = "You come to face me in my own home? Good luck."
+
 L["kuafon_note"] = [[
 Loot a {item:157782} from any Pterrordax in Zandalar to begin the quest line. Some quests will take multiple days to complete.
 
-The best mobs to farm are {npc:126618} in Zanchul or {npc:122113}s at Skyrender Eyrie south of Tal'gurub.
+The best mobs to farm are {npc:126618} in Zanchul or {npc:122113s} at Skyrender Eyrie south of Tal'gurub.
 ]]
 L["torcali_note"] = "Complete quests at Warbeast Kraal until {quest:47261} becomes available. Some quests will take multiple days to complete."
 
 L["totem_of_paku_note"] = "Speak to {npc:137510} north of the Great Seal to select Pa'ku as your loa in Zuldazar."
 L["options_icons_paku_totems"] = "Totems of Pa'ku"
-L["options_icons_paku_totems_desc"] = "Display travel paths for Totems of Pa'ku in Dazar'alor"
+L["options_icons_paku_totems_desc"] = "Display {npc:131154} locations and their travel paths in Dazar'alor."
+
+L["tales_gonk_note"] = "Lies on the blanket."
+L["tales_gral_note"] = "At the roots of the tree."
+L["tales_jani_note"] = "At the destroyed pillar."
+L["tales_paku_note"] = "On top of the building, on a rock near the water."
+L["tales_rezan_note"] = "Above the cave of {npc:136428}."
+L["tales_shadra_note"] = "Next to the entrance, behind a torch."
+L["tales_torcali_note"] = "Between a couple of barrels and the stairs."
+L["tales_zandalar_note"] = "Behind {npc:132989}."
+
+L["azuresail_note"] = "Shares a respawn timer with {npc:135512} and {npc:135508}."
+L["thunderfoot_note"] = "Shares a respawn timer with {npc:135510} and {npc:135508}."
+L["options_icons_life_finds_a_way"] = "Life Finds a Way... To Die!"
+L["options_icons_life_finds_a_way_desc"] = "Display fearsome dinosaur locations for the {achievement:13048} achievement."
+
+-------------------------------------------------------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
+-------------------------------------------------------------------------------
+
+L["options_icons_mushroom_harvest"] = "Mushroom Harvest"
+L["options_icons_mushroom_harvest_desc"] = "Display fungarian villain locations for the {achievement:13027} achievement."
+
+L["options_icons_tales_of_de_loa"] = "A Loa of a Tale"
+L["options_icons_tales_of_de_loa_desc"] = "Display tablet locations for the {achievement:13036} achievement."
+
+L["jani_note"] = "Click on the Mysterious Trashpile to reveal {npc: 126334}."
+L["rezan_note"] = ns.color.Red("Inside the Atal'Dazar dungeon.")
+L["bow_to_your_masters_note"] = "Bow to the loa of Zandalar. (/bow)"
+L["options_icons_bow_to_your_masters"] = "Bow to Your Masters"
+L["options_icons_bow_to_your_masters_desc"] = "Display loa locations for the {achievement:13020} achievement."
