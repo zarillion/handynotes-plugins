@@ -37,6 +37,8 @@ L["dilbert_mcclint_note"] = "Hey there, name's {npc:140461}, Infestation Managem
 L["fizzie_spark_note"] = "You think your pets have a chance against my Azerite infused team? You wish!"
 L["michael_skarn_note"] = "Just remember as we start this battle, you asked for this."
 
+L["linda_deepwater_note"] = "To gain access, you must complete {npc:136458}'s quest line just outside of Anyport."
+
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
@@ -261,6 +263,8 @@ L["ancient_tidesage_scroll"] = "Ancient Tidesage Scroll"
 L["ancient_tidesage_scroll_note"] = "Read all 8 Ancient Tidesage Scrolls to earn the achievement."
 L["options_icons_tidesage_legends"] = "Legends of the Tidesages"
 L["options_icons_tidesage_legends_desc"] = "Display ancient scroll locations for the {achievement:13051} achievement."
+
+L["long_forgotten_rum_note"] = "To enter the cave, {quest:50697} must be completed from {npc:134710} in Deadwash. Also sold by {npc:137040} in Drustvar."
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
@@ -608,3 +612,17 @@ L["rezan_note"] = ns.color.Red("Inside the Atal'Dazar dungeon.")
 L["bow_to_your_masters_note"] = "Bow to the loa of Zandalar ("..ns.color.Orange('/bow')..")."
 L["options_icons_bow_to_your_masters"] = "Bow to Your Masters"
 L["options_icons_bow_to_your_masters_desc"] = "Display loa locations for the {achievement:13020} achievement."
+
+-- For Horde, include a note about drinks that must be purchased on the AH
+local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ The following drinks are unavailable to Horde and must be purchased on the auction house:
+
+• {item:163639}
+• {item:163638}
+• {item:158927}
+• {item:162026}
+• {item:162560}
+• {item:163098}
+]] or ''
+L["three_sheets_note"] = "Acquire one of every drink to earn the achievement."..horde_sheets
+L["options_icons_three_sheets"] = "Three Sheets to the Wind"
+L["options_icons_three_sheets_desc"] = "Display vendor locations for the {achievement:13061} achievement."

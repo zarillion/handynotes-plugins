@@ -569,6 +569,255 @@ map.nodes[86213862] = PetBattle({
 }) -- Not So Bad Down Here (Kwint)
 
 -------------------------------------------------------------------------------
+--------------------------- THREE SHEETS TO THE WIND --------------------------
+-------------------------------------------------------------------------------
+
+local joseph = ns.node.ThreeSheets({
+    id=137411,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41396, -- "Aurora Borealis"
+            41400, -- Blacktooth Bloodwine
+            41403, -- Dark and Stormy
+            41406, -- Hook Point Porter
+            41415, -- Thornspeaker Moonshine
+            41417, -- Whitegrove Pale Ale
+        }})
+    }
+}) -- Joseph Stephens
+
+map.nodes[68863123] = joseph
+bor.nodes[47744734] = joseph
+
+local moal = ns.node.ThreeSheets({
+    id=143487,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41398, -- Arathor Single Cask
+            41402  -- Corlain Estate 12 Year
+        }})
+    }
+}) -- Nicolas Moal
+
+map.nodes[71413678] = moal
+bor.nodes[58177024] = moal
+
+local ruddy = ns.node.ThreeSheets({
+    id=142189,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41397, -- Admiralty-Issued Grog
+            41406, -- Hook Point Porter
+            41411, -- Patina Pale Ale
+            41414, -- Snowberry Berliner
+            41416, -- Tradewinds Kolsch
+            41417, -- Whitegrove Pale Ale
+        }})
+    }
+}) -- Ruddy the Rat
+
+map.nodes[74102699] = ruddy
+bor.nodes[69262986] = ruddy
+
+local harold_atkey = ns.node.ThreeSheets({
+    id=123639,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41396, -- "Aurora Borealis"
+            41399, -- Bitter Darkroot Vodka
+            41400, -- Blacktooth Bloodwine
+            41401, -- Brennadam Apple Brandy
+            41407, -- Hook Point Schnapps
+            41410, -- Mildenhall Mead
+            41417, -- Whitegrove Pale Ale
+        }})
+    }
+}) -- Harold Atkey
+
+map.nodes[75582327] = harold_atkey
+bor.nodes[75331442] = harold_atkey
+
+local weber = ns.node.ThreeSheets({
+    id=142188,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41396, -- "Aurora Borealis"
+            41399, -- Bitter Darkroot Vodka
+            41400, -- Blacktooth Bloodwine
+            41401, -- Brennadam Apple Brandy
+            41407, -- Hook Point Schnapps
+            41415, -- Thornspeaker Moonshine
+        }})
+    }
+}) -- Allison Weber
+
+map.nodes[75302407] = weber
+bor.nodes[74241776] = weber
+
+local ktatt = ns.node.ThreeSheets({
+    id=149397,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41396, -- "Aurora Borealis"
+            41399, -- Bitter Darkroot Vodka
+            41400, -- Blacktooth Bloodwine
+            41401, -- Brennadam Apple Brandy
+            41407, -- Hook Point Schnapps
+            41415, -- Thornspeaker Moonshine
+        }})
+    }
+}) -- Kul Tiran Attendant
+
+map.nodes[74563450] = ktatt
+bor.nodes[71186089] = ktatt
+
+local crimper = ns.node.ThreeSheets({
+    id=134729,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41397, -- Admiralty-Issued Grog
+            41406, -- Hook Point Porter
+            41411, -- Patina Pale Ale
+            41414, -- Snowberry Berliner
+            41416, -- Tradewinds Kolsch
+            41417, -- Whitegrove Pale Ale
+        }})
+    }
+}) -- Crimper Mirjam
+
+map.nodes[70653032] = crimper
+bor.nodes[54994361] = crimper
+
+local garrett = ns.node.ThreeSheets({
+    id=143246,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41397, -- Admiralty-Issued Grog
+            41400, -- Blacktooth Bloodwine
+        }})
+    }
+}) -- Garrett Elmendorf
+
+map.nodes[75602427] = garrett
+bor.nodes[75451861] = garrett
+
+local rockhold = ns.node.ThreeSheets({
+    id=135153,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41399, -- Bitter Darkroot Vodka
+            41404, -- Drop Anchor Dunkel
+            41406, -- Hook Point Porter
+            41417, -- Whitegrove Pale Ale
+        }})
+    }
+}) -- Wesley Rockhold
+
+map.nodes[75272283] = rockhold
+bor.nodes[74121265] = rockhold
+
+local seafinch = ns.node.ThreeSheets({
+    id=144115,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41399, -- Bitter Darkroot Vodka
+            41404, -- Drop Anchor Dunkel
+            41406, -- Hook Point Porter
+            41417, -- Whitegrove Pale Ale
+        }})
+    }
+}) -- Diana Seafinch
+
+map.nodes[73443462] = seafinch
+bor.nodes[66516137] = seafinch
+
+local victor = ns.node.ThreeSheets({
+    id=143244,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41404, -- Drop Anchor Dunkel
+            41406, -- Hook Point Porter
+            41407, -- Hook Point Schnapps
+            41408, -- Kul Tiran Tripel
+            41412, -- Pontoon Pilsner
+            41416, -- Tradewinds Kolsch
+        }})
+    }
+}) -- Victor Esquivias
+
+map.nodes[74792338] = victor
+bor.nodes[72141491] = ns.Clone(victor, {pois={
+    Path({
+        73881267, 73411449, 74791580, 75411818, 74051785, 72651602,
+        71101619, 72141491, 73411449
+    })
+}})
+
+local bored = ns.node.ThreeSheets({
+    id=139113,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41404, -- Drop Anchor Dunkel
+            41407, -- Hook Point Schnapps
+            41408, -- Kul Tiran Tripel
+        }})
+    }
+}) -- Bored Barkeep
+
+map.nodes[70403797] = bored
+bor.nodes[53987523] = bored
+
+local mahogany = ns.node.ThreeSheets({
+    id=135216,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria=41404}) -- Drop Anchor Dunkel
+    }
+}) -- Ron Mahogany <The Anchor Man>
+
+map.nodes[73182928] = mahogany
+bor.nodes[65463929] = mahogany
+
+-------------------------------------------------------------------------------
+
+map.nodes[49792529] = ns.node.ThreeSheets({
+    id=126601,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41404, -- Drop Anchor Dunkel
+            41406, -- Hook Point Porter
+            41407, -- Hook Point Schnapps
+            41408, -- Kul Tiran Tripel
+            41412, -- Pontoon Pilsner
+            41416, -- Tradewinds Kolsch
+        }})
+    }
+}) -- Sarella Griffin
+
+map.nodes[77198426] = ns.node.ThreeSheets({
+    id=129044,
+    rewards={
+        Achievement({id=13061, criteria={
+            41397, -- Admiralty-Issued Grog
+            41400, -- Blacktooth Bloodwine
+        }})
+    }
+}) -- Martha Mae
+
+-------------------------------------------------------------------------------
 ------------------------------ UPRIGHT CITIZENS -------------------------------
 -------------------------------------------------------------------------------
 

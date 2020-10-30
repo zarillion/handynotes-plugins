@@ -26,7 +26,6 @@ local POI = ns.poi.POI
 
 local map = Map({ id=862, settings=true })
 local daz = Map({ id=1165, settings=true })
-local atal = Map({ id=935, settings=true })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -599,7 +598,7 @@ local taleszandalar = TalesOfTheLoa({
     }
 }) -- Tales of de Loa: Zandalar
 
-map.nodes[59053218] = ns.Clone(taleszandalar)
+map.nodes[59053218] = taleszandalar
 daz.nodes[53230929] = taleszandalar
 
 -------------------------------------------------------------------------------
@@ -641,8 +640,8 @@ local bowrezan = BowToYourMasters({
     }
 }) -- Rezan
 
-map.nodes[44823815] = ns.Clone(bowrezan)
-atal.nodes[37185259] = bowrezan
+map.nodes[44823815] = bowrezan
+Map({id=935}).nodes[37185259] = bowrezan
 
 -------------------------------------------------------------------------------
 ------------------------- LIFE FINDS A WAY... TO DIE! -------------------------
@@ -728,3 +727,42 @@ map.nodes[45497920] = NPC({
     IsCompleted = function (self) return self:IsCollected() end
 }) -- Bane of the Woods
 
+-------------------------------------------------------------------------------
+--------------------------- THREE SHEETS TO THE WIND --------------------------
+-------------------------------------------------------------------------------
+
+local zuaba = ns.node.ThreeSheets({
+    id=131781,
+    faction='Horde',
+    rewards={
+        Achievement({id=13061, criteria={
+            41404, -- Drop Anchor Dunkel
+            41412, -- Pontoon Pilsner
+        }})
+    }
+}) -- Zuaba Sonja
+
+map.nodes[53123464] = zuaba
+daz.nodes[35411665] = zuaba
+
+local lenne = ns.node.ThreeSheets({
+    id=129376,
+    rewards={
+        Achievement({id=13061, criteria=41403}) -- Dark and Stormy
+    }
+}) -- Lenne
+
+map.nodes[56995955] = lenne
+daz.nodes[47049155] = lenne
+
+local whistlebrew = ns.node.ThreeSheets({
+    id=131511,
+    faction='Horde',
+    rewards={
+        Achievement({id=13061, criteria=41400}) -- Blacktooth Bloodwine
+    }
+}) -- Lily Whistlebrew
+
+map.nodes[57484395] = whistlebrew
+daz.nodes[48524465] = whistlebrew
+Map({id=1164}).nodes[26525057] = whistlebrew

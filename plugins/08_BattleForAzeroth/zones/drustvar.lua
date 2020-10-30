@@ -547,3 +547,41 @@ map.nodes[63605971] = PetBattle({
         Achievement({id=13281, criteria=3, oneline=true})  -- Humanoid
     }
 }) -- Night Horrors (Dilbert McClint)
+
+-------------------------------------------------------------------------------
+--------------------------- THREE SHEETS TO THE WIND --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[21146615] = ns.node.ThreeSheets({
+    id=139638,
+    rewards={
+        Achievement({id=13061, criteria={
+            41400, -- Blacktooth Bloodwine
+            41408, -- Kul Tiran Tripel
+            41413, -- Sausage Martini
+            41414, -- Snowberry Berliner
+            41417, -- Whitegrove Pale Ale
+        }})
+    }
+}) -- Barkeep Cotner
+
+map.nodes[21474360] = ns.node.ThreeSheets({
+    id=137040,
+    note=L["three_sheets_note"]..'\n\n'..L["linda_deepwater_note"],
+    rewards={
+        Achievement({id=13061, criteria={
+            41397, -- Admiralty-Issued Grog
+            41399, -- Bitter Darkroot Vodka
+            41400, -- Blacktooth Bloodwine
+            41407, -- Hook Point Schnapps
+            41408, -- Kul Tiran Tripel
+            41409, -- Long Forgotten Rum
+            41410, -- Mildenhall Mead
+            41415, -- Thornspeaker Moonshine
+            41417, -- Whitegrove Pale Ale
+        }})
+    },
+    pois={
+        POI({22884623}) -- Cesi Loosecannon
+    }
+}) -- Linda Deepwater

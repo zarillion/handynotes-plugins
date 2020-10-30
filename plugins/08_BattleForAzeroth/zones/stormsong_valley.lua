@@ -708,6 +708,66 @@ map.nodes[75073113] = AncientScroll({
 }) -- Part 8 (Near the Shrine of the Storm entrance)
 
 -------------------------------------------------------------------------------
+--------------------------- THREE SHEETS TO THE WIND --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[41215020] = ns.node.ThreeSheets({
+    id=141853,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41401, -- Brennadam Apple Brandy
+            41403, -- Dark and Stormy
+        }})
+    }
+}) -- Rebecca Barnes
+
+map.nodes[44455419] = ns.node.ThreeSheets({
+    id=135600,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria=41405}) -- Foaming Turtle Broth
+    }
+}) -- Emma Haribull
+
+map.nodes[50883354] = ns.node.ThreeSheets({
+    id=138905,
+    faction='Horde',
+    rewards={
+        Achievement({id=13061, criteria={
+            41396, -- "Aurora Borealis"
+            41401, -- Brennadam Apple Brandy
+            41403, -- Dark and Stormy
+            41410, -- Mildenhall Mead
+        }})
+    }
+}) -- Rusty Blade Waitress
+
+map.nodes[58637025] = ns.node.ThreeSheets({
+    id=138221,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13061, criteria={
+            41396, -- "Aurora Borealis"
+            41401, -- Brennadam Apple Brandy
+            41410, -- Mildenhall Mead
+        }})
+    }
+}) -- "Nasty" Buck
+
+map.nodes[49075722] = Treasure({
+    icon=135999,
+    scale=1,
+    faction='Alliance',
+    note=L["three_sheets_note"]..'\n\n'..L["long_forgotten_rum_note"],
+    group=ns.groups.THREE_SHEETS,
+    rewards={
+        Achievement({id=13061, criteria=41409}) -- Long Forgotten Rum
+    },
+    IsCompleted = function (self) return self:IsCollected() end
+}) -- Long Forgotten Rum
+
+-------------------------------------------------------------------------------
 ------------------------------- THESE HILLS SING ------------------------------
 -------------------------------------------------------------------------------
 

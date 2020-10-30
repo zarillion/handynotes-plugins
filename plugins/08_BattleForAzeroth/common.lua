@@ -39,6 +39,7 @@ ns.groups.RECRIG = Group('recrig', 'peg_wb')
 ns.groups.SLIMES_NAZJ = Group('slimes_nazj', 132107)
 ns.groups.SUPPLY = Group('supplies', 'star_chest_g')
 ns.groups.TALES_OF_DE_LOA = Group('tales_of_de_loa', 1875083, {defaults=ns.GROUP_HIDDEN})
+ns.groups.THREE_SHEETS = Group('three_sheets', 135999, {defaults=ns.GROUP_HIDDEN})
 ns.groups.TIDESAGE_LEGENDS = Group('tidesage_legends', 1500881, {defaults=ns.GROUP_HIDDEN})
 ns.groups.UPRIGHT_CITIZENS = Group('upright_citizens', 516667, {defaults=ns.GROUP_HIDDEN, faction='Alliance'})
 ns.groups.VISIONS_BUFFS = Group('visions_buffs', 132183)
@@ -107,6 +108,17 @@ ns.node.BowToYourMasters = Class('BowToYourMasters', NPC, {
     icon=1850548,
     sublabel=L["bow_to_your_masters_note"],
     group=ns.groups.BOW_TO_YOUR_MASTERS,
+    IsCompleted = function (self) return self:IsCollected() end
+})
+
+-------------------------------------------------------------------------------
+-------------------------- THREE SHEETS TO THE WIND ---------------------------
+-------------------------------------------------------------------------------
+
+ns.node.ThreeSheets = Class('ThreeSheets', NPC, {
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     IsCompleted = function (self) return self:IsCollected() end
 })
 
