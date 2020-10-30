@@ -623,7 +623,7 @@ local bowjani = BowToYourMasters({
     }
 }) -- Jani
 
-map.nodes[53103165] = ns.Clone(bowjani)
+map.nodes[53103165] = bowjani
 daz.nodes[35350767] = bowjani
 
 map.nodes[71544942] = BowToYourMasters({

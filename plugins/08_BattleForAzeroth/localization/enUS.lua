@@ -575,8 +575,9 @@ L["tales_shadra_note"] = "Next to the entrance, behind a torch."
 L["tales_torcali_note"] = "Between a couple of barrels and the stairs."
 L["tales_zandalar_note"] = "Behind {npc:132989}."
 
-L["azuresail_note"] = "Shares a respawn timer with {npc:135512} and {npc:135508}."
-L["thunderfoot_note"] = "Shares a respawn timer with {npc:135510} and {npc:135508}."
+local shared_dinos = "The {daily:50860} daily must be active (one of four possible dailies) from the {npc:133680} quest line for them to appear. Anyone can see them on those days."
+L["azuresail_note"] = "Shares a short respawn timer with {npc:135512} and {npc:135508}.\n\n"..shared_dinos
+L["thunderfoot_note"] = "Shares a short respawn timer with {npc:135510} and {npc:135508}.\n\n"..shared_dinos
 L["options_icons_life_finds_a_way"] = "Life Finds a Way... To Die!"
 L["options_icons_life_finds_a_way_desc"] = "Display fearsome dinosaur locations for the {achievement:13048} achievement."
 
@@ -590,8 +591,8 @@ L["options_icons_mushroom_harvest_desc"] = "Display fungarian villain locations 
 L["options_icons_tales_of_de_loa"] = "A Loa of a Tale"
 L["options_icons_tales_of_de_loa_desc"] = "Display tablet locations for the {achievement:13036} achievement."
 
-L["jani_note"] = "Click on the Mysterious Trashpile to reveal {npc: 126334}."
+L["jani_note"] = "Click on the Mysterious Trashpile to reveal {npc:126334}."
 L["rezan_note"] = ns.color.Red("Inside the Atal'Dazar dungeon.")
-L["bow_to_your_masters_note"] = "Bow to the loa of Zandalar. (/bow)"
+L["bow_to_your_masters_note"] = "Bow to the loa of Zandalar ("..ns.color.Orange('/bow')..")."
 L["options_icons_bow_to_your_masters"] = "Bow to Your Masters"
 L["options_icons_bow_to_your_masters_desc"] = "Display loa locations for the {achievement:13020} achievement."

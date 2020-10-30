@@ -549,6 +549,7 @@ map.nodes[75495684] = BowToYourMasters({
 
 local CarvedInStone = Class('CarvedInStone', Treasure, {
     icon=134424,
+    scale=1,
     group=ns.groups.CARVED_IN_STONE,
     IsCompleted = function (self) return self:IsCollected() end
 })
@@ -588,6 +589,7 @@ map.nodes[42555710] = CarvedInStone({
 local HoppinSad = Class('HoppinSad', Rare, {
     id=143317,
     icon=804969,
+    scale=1,
     group=ns.groups.HOPPIN_SAD,
     rewards={
         Achievement({id=13028, criteria={{id=1, qty=true}}})

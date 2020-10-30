@@ -90,6 +90,7 @@ end)
 
 ns.node.TalesOfTheLoa = Class('TalesOfTheLoa', Treasure, {
     icon=1875083,
+    scale=1,
     group=ns.groups.TALES_OF_DE_LOA,
     IsCompleted = function (self)
         if self:IsCollected() then return true end
