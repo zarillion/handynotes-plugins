@@ -34,6 +34,8 @@ L["dilbert_mcclint_note"] = "Tag auch, {npc:140461}, Befallsbekämpfung. Immer s
 L["fizzie_spark_note"] = "Denkt Ihr, dass Eure Haustiere gegen mein azeritdurchströmtes Team eine Chance haben? Das hättet Ihr wohl gerne!"
 L["michael_skarn_note"] = "Bevor wir loslegen... Vergesst nicht, dass Ihr das so wolltet!"
 
+L["linda_deepwater_note"] = "Um Zugang zu erhalten, musst du zuerst von {npc:136458} außerhalb von Jederhafen die Questreihe abschließen."
+
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
@@ -272,6 +274,8 @@ L["ancient_tidesage_scroll_note"] = "Lies alle 8 uralten Schriftrollen der Gezei
 L["options_icons_tidesage_legends"] = "Legenden der Gezeitenweisen"
 L["options_icons_tidesage_legends_desc"] = "Zeigt die Positionen der uralten Schrifftrollen für den Erfolg {achievement:13051} an."
 
+L["long_forgotten_rum_note"] = "Um die Höhle betreten zu können, muss von {npc:134710} die Quest {quest:50697} in 'Die Totenschwemme' abgeschlossen werden. Wird auch von {npc:137040} in Drustvar verkauft."
+
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
 -------------------------------------------------------------------------------
@@ -303,6 +307,18 @@ L["secret_of_the_depths_note"] = "Lies alle fünf feuchten Schriftrollen und spr
 L["burly_note"] = "Die kleinen Jungs sind wirklich komisch, aber sie haben ganz schön Wumms in den Knochen. Seid Ihr sicher, dass Ihr diesen Kampf wollt?"
 L["delia_hanako_note"] = "Bevor wir anfangen, will ich Euch nur daran erinnern, dass Ihr Euch nicht zu arg grämen sollt, wenn mein Team das Eure vernichtet."
 L["kwint_note"] = "Wenn Ihr meinesgleichen besiegen wollt, werdetIhr ein größeres Boot brauchen, um die hier wegzuschaffen."
+
+L["upright_citizens_node"] = [[
+Jedesmal, wenn die Übergriffsquest {wq:Nicht allzu nüchterne Bürgerwehr} aktiv ist, wird einer der drei unteren NPCs erscheinen.
+
+• {npc:146295}
+• {npc:145107}
+• {npc:145101}
+
+Rekrutiere jeden von ihnen, um den Erfolg zu erringen. Du wirst die Zone für den Angriff, die Weltquest und bis der richtige NPC akiv ist mehrfach überprüfen müssen.
+]]
+L["options_icons_upright_citizens"] = "Redliche Bürger"
+L["options_icons_upright_citizens_desc"] = "Zeigt die Positionen der NPCs für den Erfolg {achievement:13285} an."
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -585,8 +601,9 @@ L["tales_shadra_note"] = "Neben dem Eingang, hinter einer Fackel."
 L["tales_torcali_note"] = "Zwischen ein paar Fässern und der Treppe."
 L["tales_zandalar_note"] = "Hinter {npc:132989}."
 
-L["azuresail_note"] = "Kann erscheinen, wenn du einen der anderen beiden Dinosaurier {npc:135512} oder {npc:135508} tötest."
-L["thunderfoot_note"] = "Kann erscheinen, wenn du einen der anderen beiden Dinosaurier {npc:135510} oder {npc:135508} tötest."
+local shared_dinos = "Von {npc:133680s} Questreihe muss die tägliche Quest {daily:50860} verfügbar sein (eine von vier möglichen), um zu erscheinen. Jeder kann sie an diesen Tagen sehen."
+L["azuresail_note"] = "Kann erscheinen, wenn du einen der anderen beiden Dinosaurier {npc:135512} oder {npc:135508} tötest.\n\n"..shared_dinos
+L["thunderfoot_note"] = "Kann erscheinen, wenn du einen der anderen beiden Dinosaurier {npc:135510} oder {npc:135508} tötest.\n\n"..shared_dinos
 L["options_icons_life_finds_a_way"] = "Das Leben findet einen Weg... ins Jenseits!"
 L["options_icons_life_finds_a_way_desc"] = "Zeigt die Positionen der fürchterlichen Dinosaurier für den Erfolg {achievement:13048} an."
 
@@ -602,6 +619,20 @@ L["options_icons_tales_of_de_loa_desc"] = "Zeigt die Positionen der Legend'n der
 
 L["jani_note"] = "Klicke den Mysteriösen Müllhaufen an, damit {npc:126334} erscheint."
 L["rezan_note"] = ns.color.Red("Im Dungeon \"Atal'Dazar\"")
-L["bow_to_your_masters_note"] = "Zollt den Loa Zandalars Respekt, indem Ihr Euch vor ihnen verbeugt. (/verbeugen)"
+L["bow_to_your_masters_note"] = "Zollt den Loa Zandalars Respekt, indem Ihr Euch vor ihnen verbeugt ("..ns.color.Orange('/verbeugen')..")."
 L["options_icons_bow_to_your_masters"] = "Verbeugt Euch vor Euren Meistern"
 L["options_icons_bow_to_your_masters_desc"] = "Zeigt die Positionen der Loa für den Erfolg {achievement:13020} an."
+
+-- For Horde, include a note about drinks that must be purchased on the AH
+local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Die folgenden Getränke sind für Horde nicht verfügbar und müssen im Auktionshaus gekauft werden:
+
+• {item:163639}
+• {item:163638}
+• {item:158927}
+• {item:162026}
+• {item:162560}
+• {item:163098}
+]] or ''
+L["three_sheets_note"] = "Erwirb alle Getränke, um den Erfolg zu erringen."..horde_sheets
+L["options_icons_three_sheets"] = "Voll bis Oberkante Unterlippe"
+L["options_icons_three_sheets_desc"] = "Zeigt die Positionen der Händler für den Erfolg {achievement:13061} an."

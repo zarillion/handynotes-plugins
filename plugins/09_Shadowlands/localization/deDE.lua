@@ -391,7 +391,12 @@ Kombiniere alle drei Gravuren, um den {item:182329} herzustellen, welcher am Alt
 L["soul_well_note"] = "Fange den Stygia ausbruch aus dem Seelenbrunnen." --review Blizzard translation
 L["obliterated_soul_shards_note"] = "Sammel Ausgelöschte Seelensplitter auf den Brücken." --review Blizzard translation
 
-L["chaotic_riftstone_note"] = "Aktiviere ihn, um mit einem {spell:344157} schnell durch den Schlund zu reisen."
+L["chaotic_riftstone_note"] = [[
+Aktiviere ihn, um mit einem {spell:344157} schnell durch den Schlund zu reisen.
+
+Benötigt die Aufwertung {item:184613} von {npc:162804}.
+]]
+L["venari_upgrade"] = "eine Aufwertung von {npc:162804}"
 
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"
 L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."
