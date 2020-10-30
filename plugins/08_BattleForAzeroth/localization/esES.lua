@@ -611,7 +611,7 @@ L["options_icons_tales_of_de_loa_desc"] = "Muestra las localizaciones de los vol
 
 L["jani_note"] = "Haz click en el Montón de Basura Misteriosa para que aparezca {npc:126334}."
 L["rezan_note"] = ns.color.Red("Dentro de la mazmorra Atal'Dazar.")
-L["bow_to_your_masters_note"] = "Reverencia a los loa de Zandalar ("..ns.color.Orange('/bow')..")."
+L["bow_to_your_masters_note"] = "Reverencia a los loa de Zandalar ("..ns.color.Orange('/reverenciar')..")."
 L["options_icons_bow_to_your_masters"] = "Inclinarte ante tus maestros"
 L["options_icons_bow_to_your_masters_desc"] = "Muestra las localizaciones para el logro {achievement:13020}."
 
