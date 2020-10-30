@@ -294,6 +294,18 @@ L["burly_note"] = "These little guys are pretty strange, but they sure pack a pu
 L["delia_hanako_note"] = "Before we start, I just want to remind you to not feel too bad when my team annihilates yours."
 L["kwint_note"] = "One person against one shark, maybe an even fight. One person against three? You're insane."
 
+L["upright_citizens_node"] = [[
+One of the three NPCs below will appear each time the {wq:Not Too Sober Citizens Brigade} assault quest is active.
+
+• {npc:146295}
+• {npc:145107}
+• {npc:145101}
+
+Recruit each one to complete the achievement. You will need to check the zone many times for the assault, world quest and correct NPCs to be active.
+]]
+L["options_icons_upright_citizens"] = "Upright Citizens"
+L["options_icons_upright_citizens_desc"] = "Display NPC locations for the {achievement:13285} achievement."
+
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------

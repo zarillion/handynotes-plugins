@@ -7,6 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 
+local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -566,3 +567,38 @@ map.nodes[86213862] = PetBattle({
         Achievement({id=13281, criteria=8, oneline=true})  -- Humanoid
     }
 }) -- Not So Bad Down Here (Kwint)
+
+-------------------------------------------------------------------------------
+------------------------------ UPRIGHT CITIZENS -------------------------------
+-------------------------------------------------------------------------------
+
+local Citizen = Class('UprightCitizen', NPC, {
+    icon=516667,
+    group=ns.groups.UPRIGHT_CITIZENS,
+    note=L["upright_citizens_node"],
+    IsCompleted = function (self) return self:IsCollected() end
+})
+
+bor.nodes[66806410] = Citizen({
+    id=145107,
+    rewards={
+        Achievement({id=13285, criteria=43720}),
+        Toy({item=166247}) -- Citizens Brigade Whistle
+    }
+}) -- Leeroy Jenkins
+
+bor.nodes[72306160] = Citizen({
+    id=146295,
+    rewards={
+        Achievement({id=13285, criteria=43719}),
+        Toy({item=166247}) -- Citizens Brigade Whistle
+    }
+}) -- Flynn Fairwind
+
+bor.nodes[72706920] = Citizen({
+    id=145101,
+    rewards={
+        Achievement({id=13285, criteria=43718}),
+        Toy({item=166247}) -- Citizens Brigade Whistle
+    }
+}) -- Russel the Bard

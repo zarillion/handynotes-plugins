@@ -38,7 +38,6 @@
 * [Sausage Sampler](https://www.wowhead.com/achievement=13087/sausage-sampler)
 * [Shanty Raid](https://www.wowhead.com/achievement=13057/shanty-raid)
 * [Three Sheets to the Wind](https://www.wowhead.com/achievement=13061/three-sheets-to-the-wind)
-* [Upright Citizens](https://www.wowhead.com/achievement=13285/upright-citizens) (Alliance)
 
 # Legion
 
