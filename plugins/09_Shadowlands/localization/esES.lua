@@ -326,18 +326,18 @@ Tiene probabilidades de soltar un {item:180583}, el cual empieza una cadena de m
 ]]--Revisar (NODATABLE) que World Reavers sea Saqueadores del Mundo
 
 L["dredglaive_note"] = "Debajo del puente en el cuerpo de un {npc:173671}."
-L["forbidden_chamber_note"] = "Despoja un Bote de Ánima Desechada enfrente de la puerta y aprende {spell:340701}. Úsalo para drenar cinco {npc:173838} en las cercanías, entonces usa {spell:340866} enfrente del {npc:173786}."--Revisar (NODATABLE) que Discarded Anima Canister sea Bote de Ánima Desechada
-L["gilded_plum_chest_note"] = "Mata a {npc:166680} que deambula camino arriba y abajo."
-L["lost_quill_note"] = "Despoja {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida."
+L["forbidden_chamber_note"] = "Despoja un Bote de Ánima Agotado enfrente de la puerta cerrada y aprende {spell:340701}. Úsalo para drenar a cinco {npc:173838} en las cercanías. Después usa {spell:340866} enfrente del {npc:173786}."
+L["gilded_plum_chest_note"] = "Mata al {npc:166680} que deambula por el camino arriba y abajo."
+L["lost_quill_note"] = "Despoja una {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida."
 L["rapier_fearless_note"] = "Haz click en el estoque del suelo, y entonces derrota a {npc:173603}."
 L["remlates_cache_note"] = "En la pared exterior de Refugioscuro detrás de la cripta."
 L["taskmaster_trove_note"] = "Lee el Ritual de Ingreso y el Ritual de Salida. Después sigue el camino al cofre con cuidado."--Revisar (NODATABLE) que Ingress Rite sea Ritual de Ingreso, (NODATABLE) que Egress Rite sea Ritual de Salida
 L["the_count_note"] = "Farmea 99 {currency:1820} en el Cenagal del Fin y llévaselos a {npc:173488}."
 
-L["bleakwood_chest"] = "Cofre de Maderasombría"--Revisar (VIGNETTE, BATTLEPETSPECIES) que Bleakwood Chest sea Cofre de Maderasombría
-L["forgotten_anglers_rod"] = "Caña de Pescador Olvidada"--Revisar (VIGNETTE, TOY) que Forgotten Angler's Rod sea Caña de Pescador Olvidada
+L["bleakwood_chest"] = "Cofre de Leñogrís"
+L["forgotten_anglers_rod"] = "Caña de Pescador Olvidada"
 
-L["loyal_gorger_note"] = "Visita el Cenagal del Fin y completa una misión diaria ofrecida por tu {npc:173498} 7 veces para conseguirlo como montura."
+L["loyal_gorger_note"] = "Visita el Cenagal del Fin y completa una misión diaria ofrecida por el {npc:173498} 7 veces para conseguirlo como montura."--Revisar Juvenile Gorger (nombre exacto)
 
 L["sinrunner_note"] = "Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer."
 L["sinrunner_note_day1"] = "Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de Páramos de Poniente."
