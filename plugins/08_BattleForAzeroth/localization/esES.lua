@@ -39,6 +39,8 @@ L["dilbert_mcclint_note"] = "Hola, mi nombre es {npc:140461}, el Gestor de Infec
 L["fizzie_spark_note"] = "¿Piensas que tus mascotas tienen alguna oportunidad contra mi equipo imbuido por la Azerita? ¡Eso desearías!"
 L["michael_skarn_note"] = "Sólo recuerda cómo empezamos esta batalla, tú pedistes esto."
 
+L["linda_deepwater_note"] = "Para poder acceder, debes haber completado la cadena de misiones de {npc:136458} justo fuera de Calacualquiera."
+
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
@@ -264,6 +266,8 @@ L["ancient_tidesage_scroll_note"] = "Lee los 8 Pergamino Antiguo de Sabiomar par
 L["options_icons_tidesage_legends"] = "Leyendas de los Sabiomar"
 L["options_icons_tidesage_legends_desc"] = "Muestra las localizaciones de los pergaminos antiguos para el logro {achievement:13051}."
 
+L["long_forgotten_rum_note"] = "Para entrar en la cueva debe haberse completado la misión {quest:50697} de {npc:134710} en Ribera Inerte. También lo vende {npc:137040} en Drustvar."
+
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
 -------------------------------------------------------------------------------
@@ -295,6 +299,18 @@ L["secret_of_the_depths_note"] = "Lee los cinco Pergaminos Húmedos, y entonces 
 L["burly_note"] = "Estos pequeños son muy extraños, pero seguro que pegan muy duro. ¿Estás seguro de querer empezar este combate?"
 L["delia_hanako_note"] = "Antes de que empecemos, sólo te quiero recordar que no te sientas muy mal cuando mi equipo aniquile al tuyo."
 L["kwint_note"] = "Una persona contra un tiburón, quizás sea una pelea justa. ¿Una persona contra tres? Estás loco."
+
+L["upright_citizens_node"] = [[
+Uno de los tres NPCs de debajo aparecerá cada vez que la misión de asalto {wq:Una brigada de ciudadanos no demasiado sobrios} esté activa.
+
+• {npc:146295}
+• {npc:145107}
+• {npc:145101}
+
+Recluta a cada uno para conseguir el logro. Durante varios asaltos hará falta comprobar la zona, la misión del mundo y que el NPC correcto esté activo.
+]]
+L["options_icons_upright_citizens"] = "Ciudadanos ejemplares"
+L["options_icons_upright_citizens_desc"] = "Muestra las localizaciones de los NPC para el logro {achievement:13285}."
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -577,9 +593,9 @@ L["tales_shadra_note"] = "Junto a la entrada, detrás de una antorcha."
 L["tales_torcali_note"] = "Entre un grupo de barriles y las escaleras."
 L["tales_zandalar_note"] = "Detrás de {npc:132989}."
 
-L["azuresail_note"] = "Comparte tiempo de aparición con {npc:135512} y {npc:135508}."
-L["thunderfoot_note"] = "Comparte tiempo de aparición con {npc:135510} y {npc:135508}."
-L["kil_tawan_note"] = "Comparte tiempo de aparición con {npc:135510} y {npc:135512}."
+local shared_dinos = "La misión diaria {daily:50860} debe estar activa (una de las cuatro diarias posibles) de la cadena de misiones de {npc:133680} para que aparezca. Esos días cualquiera puede verlos."
+L["azuresail_note"] = "Comparte tiempo de aparición con {npc:135512} y {npc:135508}\n\n"..shared_dinos
+L["thunderfoot_note"] = "Comparte tiempo de aparición con {npc:135510} y {npc:135508}\n\n"..shared_dinos
 L["options_icons_life_finds_a_way"] = "La vida se abre camino... ¡hacia la muerte!"
 L["options_icons_life_finds_a_way_desc"] = "Muestra las localizaciones de los dinosaurios aterradores para el logro {achievement:13048}."
 
@@ -593,8 +609,22 @@ L["options_icons_mushroom_harvest_desc"] = "Muestra las localizaciones de los vi
 L["options_icons_tales_of_de_loa"] = "Érase una Vez un Loa"
 L["options_icons_tales_of_de_loa_desc"] = "Muestra las localizaciones de los volúmenes para el logro {achievement:13036}."
 
-L["jani_note"] = "Haz click en el Montón de Basura Misteriosa para que aparezca {npc: 126334}."
+L["jani_note"] = "Haz click en el Montón de Basura Misteriosa para que aparezca {npc:126334}."
 L["rezan_note"] = ns.color.Red("Dentro de la mazmorra Atal'Dazar.")
-L["bow_to_your_masters_note"] = "Reverencia a los loa de Zandalar. (/reverenciar)"
+L["bow_to_your_masters_note"] = "Reverencia a los loa de Zandalar ("..ns.color.Orange('/bow')..")."
 L["options_icons_bow_to_your_masters"] = "Inclinarte ante tus maestros"
 L["options_icons_bow_to_your_masters_desc"] = "Muestra las localizaciones para el logro {achievement:13020}."
+
+-- Para la Horda, incluida una nota para las bebidas que deben comprarse en la AH
+local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Las siguientes bebidas son inaccesibles para la Horda y deben comprarse en la casa de subastas:
+
+• {item:163639}
+• {item:163638}
+• {item:158927}
+• {item:162026}
+• {item:162560}
+• {item:163098}
+]] or ''
+L["three_sheets_note"] = "Adquiere cada una de las bebidas para conseguir el logro."..horde_sheets
+L["options_icons_three_sheets"] = "Como una cuba"
+L["options_icons_three_sheets_desc"] = "Muestra las localizaciones de los vendedores para el logro {achievement:13061}."
