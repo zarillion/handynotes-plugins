@@ -168,6 +168,7 @@ L["cat_figurine_07"] = "在一个小洞穴。雕像在一些珊瑚的墙上。"
 L["cat_figurine_08"] = "在一个小洞穴。躲避奥术陷阱。雕像在后面的高大的岩石上。"
 L["cat_figurine_09"] = "在一个水下洞穴。雕像位于天花板的岩石拱门上。"
 L["cat_figurine_10"] = "在路径下方的一个洞穴里。雕像在三个桶之间。"
+L["figurines_found"] = "已找到水晶猫咪雕像"
 
 L["mardivas_lab"] = "马蒂瓦斯的实验室"
 L["no_reagent"] = "不使用材料"
@@ -190,7 +191,7 @@ L["Ungormath"] ="安戈马斯"
 L["Spawn"] ="索尔苟斯之嗣"
 L["Herald"] ="索尔苟斯的使徒"
 L["Salgos"] ="永恒的索尔苟斯"
-L["tentacle_taco"] = "出售 {item:170100}，如果你穿着艾萨亚雷风暴涌流者斗篷。"
+L["tentacle_taco"] = "出售 {item:170100}，如果你穿着底栖 {item:169489}。"
 
 L["options_icons_slimes_nazj"] = "贪婪的粘液"
 L["options_icons_slimes_nazj_desc"] = "显示四个喂食一次可获得宠物的贪婪的粘液位置。"
@@ -587,6 +588,11 @@ L["tales_shadra_note"] = "入口旁边，火炬后面。"
 L["tales_torcali_note"] = "在几个桶和楼梯之间。"
 L["tales_zandalar_note"] = "{npc:132989} 后面。"
 
+L["azuresail_note"] = "与 {npc:135512} 和 {npc:135508} 共享刷新计时器。"
+L["thunderfoot_note"] = "与 {npc:135510} 和 {npc:135508} 共享刷新计时器。"
+L["options_icons_life_finds_a_way"] = "狩猎侏罗纪"
+L["options_icons_life_finds_a_way_desc"] = "显示 {achievement:13048} 成就中可怕恐龙的位置。"
+
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
@@ -596,3 +602,9 @@ L["options_icons_mushroom_harvest_desc"] = "显示 {achievement:13027} 成就中
 
 L["options_icons_tales_of_de_loa"] = "神灵传说"
 L["options_icons_tales_of_de_loa_desc"] = "显示 {achievement:13036} 成就中洛阿神灵传说的位置。"
+
+L["jani_note"] = "点击神秘垃圾堆显露 {npc: 126334}。"
+L["rezan_note"] = ns.color.Red("位于阿塔达萨地下城。")
+L["bow_to_your_masters_note"] = "向赞达拉洛阿神灵鞠躬。（/bow）"
+L["options_icons_bow_to_your_masters"] = "俯首称臣"
+L["options_icons_bow_to_your_masters_desc"] = "显示 {achievement:13020} 成就中洛阿神灵的位置。"
