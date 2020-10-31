@@ -381,7 +381,7 @@ Combine all three etchings to create the {item:182329}, which can be used to sum
 ]]
 
 L["soul_well_note"] = "Catch the Stygia erupting from the Soul Well."
-L["obliterated_soul_shards_note"] = "Collect Obliterated Soul Shards on the bridges."
+L["obliterated_soul_shards_note"] = "Collect {item:177834} on the bridges."
 
 L["chaotic_riftstone_note"] = [[
 Activate to {spell:344157} quickly across the Maw.
