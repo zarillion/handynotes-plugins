@@ -192,7 +192,7 @@ L["anima_shard_61297"] = "在石柱后面。"
 L["anima_shard_61298"] = "坐在躺椅后面。"
 L["anima_shard_61299"] = "隐藏在大火炬的后面。"
 L["anima_shard_61300"] = "挂在中央字体的壁架上。"
-L["options_icons_anima_shard"] = "碎片苦工"
+L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "显示 {achievement:14339} 成就中全部50个失落的心能碎片的位置。"
 
 L["aspirants_rest"] = "候选者之憩"
@@ -281,7 +281,7 @@ L["lime"] = "坐在大骨头拱顶上。"
 L["moldstopheles"] = "绕到茎秆后面并跳上蘑菇平台。到达最后的平台，使用坐骑并在茎秆上跳来跳去到达。"
 L["pus_in_boots"] = "在桥的下面。"
 
-L["options_icons_slime_cat"] = "亡命九条"
+L["options_icons_slime_cat"] = "{achievement:14634}"
 L["options_icons_slime_cat_desc"] = "显示 {achievement:14634} 成就中猫咪的位置。"
 
 L["exoramas"] = "埃索拉玛斯，祭仪密院"

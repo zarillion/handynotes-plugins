@@ -85,7 +85,7 @@ L["options_icons_mech_chest"] = "机械补给箱"
 L["options_icons_mech_chest_desc"] = "显示机械补给箱的位置。有10个独立的箱子可以每日拾取一次，每个箱子有4-5个刷新位置。位置按颜色分组。"
 L["options_icons_locked_chest"] = "锁住的箱子"
 L["options_icons_locked_chest_desc"] = "在西浪岩显示锁住的箱子的位置。"
-L["options_icons_recrig"] = "开垦钻机"
+L["options_icons_recrig"] = "{npc:150448}"
 L["options_icons_recrig_desc"] = "显示 {npc:150448} 的位置和奖励。"
 
 -------------------------------------------------------------------------------
@@ -195,9 +195,9 @@ L["Herald"] ="索尔苟斯的使徒"
 L["Salgos"] ="永恒的索尔苟斯"
 L["tentacle_taco"] = "出售 {item:170100}，如果你穿着底栖 {item:169489}。"
 
-L["options_icons_slimes_nazj"] = "贪婪的粘液"
+L["options_icons_slimes_nazj"] = "{npc:151782s}"
 L["options_icons_slimes_nazj_desc"] = "显示四个喂食一次可获得宠物的贪婪的粘液位置。"
-L["options_icons_cats_nazj"] = "猫咪雕像"
+L["options_icons_cats_nazj"] = "{achievement:13836}"
 L["options_icons_cats_nazj_desc"] = "显示 {achievement:13836} 成就水晶猫咪雕像位置。"
 L["options_icons_misc_nazj"] = "杂项"
 L["options_icons_misc_nazj_desc"] = "显示莫洛戈藏身处以及马蒂瓦斯的实验室的位置。"
@@ -226,7 +226,7 @@ L["carved_in_stone_41860"] = "在山附近一栋被毁的建筑物内。"
 L["carved_in_stone_41861"] = "在被毁的柱子上。"
 L["carved_in_stone_41862"] = "在被毁的墙上，在巨大的柱子前面。"
 L["carved_in_stone_42116"] = "{npc:126126} 旁边的柱子上。"
-L["options_icons_carved_in_stone"] = "石上沙，血中画"
+L["options_icons_carved_in_stone"] = "{achievement:13024}"
 L["options_icons_carved_in_stone_desc"] = "显示 {achievement:13024} 成就中象形图画的位置。"
 
 L["hoppin_sad_53419"] = "两棵树后面巨大树根下面。"
@@ -235,7 +235,7 @@ L["hoppin_sad_53424"] = "悬崖上。"
 L["hoppin_sad_53425"] = "瀑布旁边的树上。"
 L["hoppin_sad_53426"] = "一些树根下。"
 
-L["options_icons_hoppin_sad"] = "思乡心切"
+L["options_icons_hoppin_sad"] = "{achievement:13028}"
 L["options_icons_hoppin_sad_desc"] = "显示 {achievement:13028} 成就中 {npc:143317} 的位置。"
 
 -------------------------------------------------------------------------------
@@ -266,15 +266,15 @@ L["ellie_vern_note"] = "但我有海洋中最强的生物为我而战，你根�
 L["leana_darkwind_note"] = "我怀疑这片大陆的奇怪生物也会带来奇怪的战斗。"
 
 L["honeyback_harvester_note"] = "和 {npc:155193} 交谈开始事件。新鲜的蜜胶块每小时可以拾取一次，一小时后重置。"
-L["options_icons_honeybacks"] = "蜜背收割者"
-L["options_icons_honeybacks_desc"] = "显示收割蜜背蜂群声望的蜜背收割者事件位置。"
+L["options_icons_honeybacks"] = "{npc:155193s}"
+L["options_icons_honeybacks_desc"] = "显示收割蜜背蜂群声望的 {npc:155193} 事件位置。"
 
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} 位于布伦纳丹' or '{npc:138096} 位于战牙要塞'
 L["these_hills_sing_note"] = "在这里打开 {item:160485}。从"..luncheon.."购买或者从布伦纳丹的“被丢弃的午餐盒”拾取宝藏。"
 
 L["ancient_tidesage_scroll"] = "古代海潮贤者卷轴"
 L["ancient_tidesage_scroll_note"] = "阅读全部8个海潮贤者卷轴获得成就。"
-L["options_icons_tidesage_legends"] = "海贤传说"
+L["options_icons_tidesage_legends"] = "{achievement:13051}"
 L["options_icons_tidesage_legends_desc"] = "显示 {achievement:13051} 成就中古代卷轴的位置。"
 
 L["long_forgotten_rum_note"] = "要进入洞穴，必须完成位于死亡浅滩 {npc:134710} 的 {quest:50697}。德鲁斯瓦 {npc:137040} 也出售。"
@@ -320,7 +320,7 @@ L["upright_citizens_node"] = [[
 
 招募每个人来完成成就。突袭时期需要多次检查区域，世界任务和准确的 NPC 处于激活状态。
 ]]
-L["options_icons_upright_citizens"] = "模范市民"
+L["options_icons_upright_citizens"] = "{achievement:13285}"
 L["options_icons_upright_citizens_desc"] = "显示 {achievement:13285} 成就中 NPC 的位置。"
 
 -------------------------------------------------------------------------------
@@ -436,7 +436,7 @@ L["serpent_binding"] = "击杀 {npc:157345}，然后击杀 {npc:157341}。"
 L["stormchosen_arena"] = "清除竞技场全部怪物，然后击杀氏族将军。"
 L["swarm_caller"] = "销毁虫群召唤器。"
 L["vault_of_souls"] = "打开宝库，摧毁所有雕像。"
-L["void_conduit"] = "点击 {spell:299226} 后去踩眼睛。"
+L["void_conduit"] = "点击虚空浮石后去踩眼睛。"
 L["war_banner"] = "燃烧战旗然后杀怪，直到指挥官出现。"
 L["weighted_artifact"] = "拾取沉得出奇的花瓶并迷宫返回到基座。被雕像晕住花瓶会掉。"
 
@@ -546,7 +546,7 @@ L["plank_3"] = "在金字塔的一侧。路径从附近的另一个木板开始�
 L["plank_4"] = "在金字塔侧面的沙丘顶部。"
 L["plank_5"] = "沿着蛇的尾巴找到木板。"
 L["planks_ridden"] = "骑上摇晃的木板"
-L["options_icons_dune_rider"] = "沙丘骑手"
+L["options_icons_dune_rider"] = "{achievement:13018}"
 L["options_icons_dune_rider_desc"] = "显示 {achievement:13018} 成就中摇晃的木板的位置。"
 
 L["elusive_alpaca"] = "将 {item:161128} 喂给 {npc:162681} 以获得坐骑。一个位置存在10分钟，很长时间刷新。"
@@ -607,23 +607,23 @@ L["tales_zandalar_note"] = "{npc:132989} 后面。"
 local shared_dinos = "从 {npc:133680} 的任务线 {daily:50860} 日常必须激活（四个可能的日常之一）让他们出现，任何人可以在这些天看到他们。"
 L["azuresail_note"] = "与 {npc:135512} 和 {npc:135508} 共享刷新计时器。\n\n"..shared_dinos
 L["thunderfoot_note"] = "与 {npc:135510} 和 {npc:135508} 共享刷新计时器。\n\n"..shared_dinos
-L["options_icons_life_finds_a_way"] = "狩猎侏罗纪"
+L["options_icons_life_finds_a_way"] = "{achievement:13048}"
 L["options_icons_life_finds_a_way_desc"] = "显示 {achievement:13048} 成就中可怕恐龙的位置。"
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["options_icons_mushroom_harvest"] = "菌菇大丰收"
+L["options_icons_mushroom_harvest"] = "{achievement:13027}"
 L["options_icons_mushroom_harvest_desc"] = "显示 {achievement:13027} 成就中真菌人的位置。"
 
-L["options_icons_tales_of_de_loa"] = "神灵传说"
+L["options_icons_tales_of_de_loa"] = "{achievement:13036}"
 L["options_icons_tales_of_de_loa_desc"] = "显示 {achievement:13036} 成就中洛阿神灵传说的位置。"
 
 L["jani_note"] = "点击神秘垃圾堆显露 {npc:126334}。"
 L["rezan_note"] = ns.color.Red("位于阿塔达萨地下城。")
-L["bow_to_your_masters_note"] = "向赞达拉洛阿神灵鞠躬（"..ns.color.Orange('/bow').."）。"
-L["options_icons_bow_to_your_masters"] = "俯首称臣"
+L["bow_to_your_masters_note"] = "向赞达拉洛阿神灵鞠躬（"..ns.color.Orange('/bow（/鞠躬）').."）。"
+L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
 L["options_icons_bow_to_your_masters_desc"] = "显示 {achievement:13020} 成就中洛阿神灵的位置。"
 
 -- For Horde, include a note about drinks that must be purchased on the AH
@@ -637,5 +637,5 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ 以下饮料
 • {item:163098}
 ]] or ''
 L["three_sheets_note"] = "获得所有饮料中的每一种获得成就。"..horde_sheets
-L["options_icons_three_sheets"] = "酩酊大醉"
+L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "显示 {achievement:13061} 成就中供应商的位置。"
