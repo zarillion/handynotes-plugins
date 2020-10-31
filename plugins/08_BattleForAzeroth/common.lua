@@ -36,6 +36,7 @@ ns.groups.MUSHROOM_HARVEST = Group('mushroom_harvest', 1869654, {defaults=ns.GRO
 ns.groups.PAKU_TOTEMS = Group('paku_totems', 'flight_point', {defaults=ns.GROUP_HIDDEN, faction='Horde'})
 ns.groups.RECRIG = Group('recrig', 'peg_wb')
 ns.groups.SCAVENGER_OF_THE_SANDS = Group('scavenger_of_the_sands', 135725, {defaults=ns.GROUP_HIDDEN})
+ns.groups.SHANTY_RAID = Group('shanty_raid', 1500866, {defaults=ns.GROUP_HIDDEN})
 ns.groups.SLIMES_NAZJ = Group('slimes_nazj', 132107)
 ns.groups.SUPPLY = Group('supplies', 'star_chest_g')
 ns.groups.TALES_OF_DE_LOA = Group('tales_of_de_loa', 1875083, {defaults=ns.GROUP_HIDDEN})

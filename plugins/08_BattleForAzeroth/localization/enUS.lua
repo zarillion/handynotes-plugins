@@ -298,6 +298,13 @@ L["burly_note"] = "These little guys are pretty strange, but they sure pack a pu
 L["delia_hanako_note"] = "Before we start, I just want to remind you to not feel too bad when my team annihilates yours."
 L["kwint_note"] = "One person against one shark, maybe an even fight. One person against three? You're insane."
 
+L["shanty_fruit_note"] = "Loot the Dusty Songbook, found on the floor in a small cave."
+L["shanty_horse_note"] = "Loot the Scoundrel's Songbook, found on the bar inside the tavern."
+L["shanty_inebriation_note"] = "Loot Jay's Songbook, found on the floor behind {npc:141066}."
+L["shanty_lively_note"] = "Loot Russel's Songbook, found on top of the fireplace mantel."
+L["options_icons_shanty_raid"] = "{achievement:13057}"
+L["options_icons_shanty_raid_desc"] = "Display sea shanty locations for the {achievement:13057} achievement."
+
 L["upright_citizens_node"] = [[
 One of the three NPCs below will appear each time the {wq:Not Too Sober Citizens Brigade} assault quest is active.
 

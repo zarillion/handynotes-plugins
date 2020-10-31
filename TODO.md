@@ -31,7 +31,6 @@
 * [Everything Old Is New Again](https://www.wowhead.com/achievement=13082/everything-old-is-new-again) (Alliance)
 * [Let's Bee Friends](https://www.wowhead.com/achievement=13062/lets-bee-friends) (Alliance)
 * [Sausage Sampler](https://www.wowhead.com/achievement=13087/sausage-sampler)
-* [Shanty Raid](https://www.wowhead.com/achievement=13057/shanty-raid)
 
 # Legion
 

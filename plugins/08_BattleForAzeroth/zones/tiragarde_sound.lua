@@ -569,6 +569,57 @@ map.nodes[86213862] = PetBattle({
 }) -- Not So Bad Down Here (Kwint)
 
 -------------------------------------------------------------------------------
+--------------------------------- SHANTY RAID ---------------------------------
+-------------------------------------------------------------------------------
+
+local lively = Collectible({
+    icon=1500866,
+    note=L["shanty_lively_note"],
+    group=ns.groups.SHANTY_RAID,
+    rewards={
+        Achievement({id=13057, criteria=41541}),
+        Item({item=163714})
+    }
+}) -- Shanty of the Lively Men
+
+bor.nodes[72426942] = lively
+map.nodes[74863657] = lively
+
+local inebriation = Collectible({
+    icon=1500866,
+    note=L["shanty_inebriation_note"],
+    group=ns.groups.SHANTY_RAID,
+    rewards={
+        Achievement({id=13057, criteria=41543}),
+        Item({item=163716})
+    }
+}) -- Shanty of Inebriation
+
+bor.nodes[53141767] = inebriation
+map.nodes[70202405] = inebriation
+
+map.nodes[43482559] = Collectible({
+    icon=1500866,
+    note=L["shanty_fruit_note"],
+    group=ns.groups.SHANTY_RAID,
+    rewards={
+        Achievement({id=13057, criteria=41542}),
+        Item({item=163715})
+    }
+}) -- Shanty of Fruit Counting
+
+map.nodes[73218414] = Collectible({
+    icon=1500866,
+    note=L["shanty_horse_note"],
+    group=ns.groups.SHANTY_RAID,
+    rewards={
+        Achievement({id=13057, criteria=41546}),
+        Item({item=163719})
+    }
+}) -- Shanty of the Horse
+
+
+-------------------------------------------------------------------------------
 --------------------------- THREE SHEETS TO THE WIND --------------------------
 -------------------------------------------------------------------------------
 
