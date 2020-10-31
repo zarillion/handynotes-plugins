@@ -87,7 +87,7 @@ L["options_icons_mech_chest"] = "Cofres Mecanizados"
 L["options_icons_mech_chest_desc"] = "Muestra las localizaciones de los cofres mecanizados. Hay 10 cofres únicos que pueden ser despojados una vez al día y cada cofre tiene 4-5 puntos de aparición. Las localizaciones están agrupadas por color."
 L["options_icons_locked_chest"] = "Cofres Cerrados"
 L["options_icons_locked_chest_desc"] = "Muestra las localizaciones de los cofres cerrados en Rocío del Oeste."
-L["options_icons_recrig"] = "Equipo de Recuperación"
+L["options_icons_recrig"] = "{npc:150448}"
 L["options_icons_recrig_desc"] = "Muestra la localización del {npc:150448} y sus recompensas."
 
 -------------------------------------------------------------------------------
@@ -184,9 +184,9 @@ L["searth"] = "Tierra Inferior"
 L["gearth"] = "Tierra Superior"
 L["tentacle_taco"] = "Vende {item:170100} si llevas puesto el {item:169489}."
 
-L["options_icons_slimes_nazj"] = "Babas Voraces"
+L["options_icons_slimes_nazj"] = "{npc:151782}"
 L["options_icons_slimes_nazj_desc"] = "Muestra las localizaciones de las cuatro Babas Voraces que producen mascotas al ser alimentadas."
-L["options_icons_cats_nazj"] = "Figurillas de Gato"
+L["options_icons_cats_nazj"] = "{achievement:13836}"
 L["options_icons_cats_nazj_desc"] = "Muestra las localizaciones de las figurillas de gato para el logro {achievement:13836}."
 L["options_icons_misc_nazj"] = "Miscelánea"
 L["options_icons_misc_nazj_desc"] = "Muestra la localización de la cueva de Murloco y el Laboratorio de Mardivas."
@@ -215,7 +215,7 @@ L["carved_in_stone_41860"] = "Dentro de un edificio destruido cerca de la monta�
 L["carved_in_stone_41861"] = "En el pilar destruido."
 L["carved_in_stone_41862"] = "En la pared destruida, enfrente del pilar grandioso."
 L["carved_in_stone_42116"] = "En el pilar que hay al lado del {npc:126126}."
-L["options_icons_carved_in_stone"] = "Tallada en Piedra"
+L["options_icons_carved_in_stone"] = "{achievement:13024}"
 L["options_icons_carved_in_stone_desc"] = "Muestra las localizaciones de las pictografías para el logro {achievement:13024}."
 
 L["hoppin_sad_53419"] = "Detrás de dos árboles bajo una raíz enorme."
@@ -224,7 +224,7 @@ L["hoppin_sad_53424"] = "En un acantalido."
 L["hoppin_sad_53425"] = "En el árbol cerca de la cascada."
 L["hoppin_sad_53426"] = "Bajo algunas raices."
 
-L["options_icons_hoppin_sad"] = "Tristeza Saltarina"
+L["options_icons_hoppin_sad"] = "{achievement:13028}"
 L["options_icons_hoppin_sad_desc"] = "Muestra las localizaciones de los {npc:143317} para el logro {achievement:13028}."
 
 -------------------------------------------------------------------------------
@@ -255,15 +255,15 @@ L["ellie_vern_note"] = "He encontrado las criaturas marinas más duras del mundo
 L["leana_darkwind_note"] = "Sospecho que las raras criaturas de esta isla harán un combate extraño."
 
 L["honeyback_harvester_note"] = "Habla con {npc:155193} para empezar el evento. El Depósito de Jalea Fresca puede ser despojado una vez a la hora y se restablece pasada una hora."
-L["options_icons_honeybacks"] = "Cosechadora Mielabdomen"
-L["options_icons_honeybacks_desc"] = "Muestra las localizaciones del evento de la Cosechadora Mielabdomen para el farmeo de la reputación Colmena Mielabdomen."
+L["options_icons_honeybacks"] = "{npc:155193}"
+L["options_icons_honeybacks_desc"] = "Muestra las localizaciones del evento de la {npc:155193} para el farmeo de la reputación Colmena Mielabdomen."
 
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} en Brennadam' or '{npc:138096} en Fuerte Guerracolmillo'
 L["these_hills_sing_note"] = "Abre {item:160485} aquí. Cómpraselo a "..luncheon.." o despoja uno del tesoro \"Fiambrera desechada\" en Brennadam."
 
 L["ancient_tidesage_scroll"] = "Pergamino Antiguo de Sabiomar"
 L["ancient_tidesage_scroll_note"] = "Lee los 8 Pergamino Antiguo de Sabiomar para conseguir el logro."
-L["options_icons_tidesage_legends"] = "Leyendas de los Sabiomar"
+L["options_icons_tidesage_legends"] = "{achievement:13051}"
 L["options_icons_tidesage_legends_desc"] = "Muestra las localizaciones de los pergaminos antiguos para el logro {achievement:13051}."
 
 L["long_forgotten_rum_note"] = "Para entrar en la cueva debe haberse completado la misión {quest:50697} de {npc:134710} en Ribera Inerte. También lo vende {npc:137040} en Drustvar."
@@ -309,7 +309,7 @@ Uno de los tres NPCs de debajo aparecerá cada vez que la misión de asalto {wq:
 
 Recluta a cada uno para conseguir el logro. Durante varios asaltos hará falta comprobar la zona, la misión del mundo y que el NPC correcto esté activo.
 ]]
-L["options_icons_upright_citizens"] = "Ciudadanos ejemplares"
+L["options_icons_upright_citizens"] = "{achievement:13285}"
 L["options_icons_upright_citizens_desc"] = "Muestra las localizaciones de los NPC para el logro {achievement:13285}."
 
 -------------------------------------------------------------------------------
@@ -535,7 +535,7 @@ L["plank_3"] = "En el lado de la pirámide. El camino empieza en el otro tablón
 L["plank_4"] = "Sobre una duna de arena a lo largo del lado de la pirámide."
 L["plank_5"] = "Sigue la cola de la serpiente para encontrar el tablón."
 L["planks_ridden"] = "tablones destartalados montados"
-L["options_icons_dune_rider"] = "Jinete de las Dunas"
+L["options_icons_dune_rider"] = "{achievement:13018}"
 L["options_icons_dune_rider_desc"] = "Muestra las localizaciones de los tablones destartalados para el logro {achievement:13018}."
 
 L["elusive_alpaca"] = "Alimenta a la {npc:162681} con {item:161128} para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
@@ -596,23 +596,23 @@ L["tales_zandalar_note"] = "Detrás de {npc:132989}."
 local shared_dinos = "La misión diaria {daily:50860} debe estar activa (una de las cuatro diarias posibles) de la cadena de misiones de {npc:133680} para que aparezca. Esos días cualquiera puede verlos."
 L["azuresail_note"] = "Comparte tiempo de aparición con {npc:135512} y {npc:135508}\n\n"..shared_dinos
 L["thunderfoot_note"] = "Comparte tiempo de aparición con {npc:135510} y {npc:135508}\n\n"..shared_dinos
-L["options_icons_life_finds_a_way"] = "La vida se abre camino... ¡hacia la muerte!"
+L["options_icons_life_finds_a_way"] = "{achievement:13048}"
 L["options_icons_life_finds_a_way_desc"] = "Muestra las localizaciones de los dinosaurios aterradores para el logro {achievement:13048}."
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["options_icons_mushroom_harvest"] = "Cosecha de Champiñones"
+L["options_icons_mushroom_harvest"] = "{achievement:13027}"
 L["options_icons_mushroom_harvest_desc"] = "Muestra las localizaciones de los villanos fungáricos para el logro {achievement:13027}."
 
-L["options_icons_tales_of_de_loa"] = "Érase una Vez un Loa"
+L["options_icons_tales_of_de_loa"] = "{achievement:13036}"
 L["options_icons_tales_of_de_loa_desc"] = "Muestra las localizaciones de los volúmenes para el logro {achievement:13036}."
 
 L["jani_note"] = "Haz click en el Montón de Basura Misteriosa para que aparezca {npc:126334}."
 L["rezan_note"] = ns.color.Red("Dentro de la mazmorra Atal'Dazar.")
 L["bow_to_your_masters_note"] = "Reverencia a los loa de Zandalar ("..ns.color.Orange('/reverenciar')..")."
-L["options_icons_bow_to_your_masters"] = "Inclinarte ante tus maestros"
+L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
 L["options_icons_bow_to_your_masters_desc"] = "Muestra las localizaciones para el logro {achievement:13020}."
 
 -- Para la Horda, incluida una nota para las bebidas que deben comprarse en la AH
@@ -626,5 +626,5 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Las siguient
 • {item:163098}
 ]] or ''
 L["three_sheets_note"] = "Adquiere cada una de las bebidas para conseguir el logro."..horde_sheets
-L["options_icons_three_sheets"] = "Como una cuba"
+L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "Muestra las localizaciones de los vendedores para el logro {achievement:13061}."
