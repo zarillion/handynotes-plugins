@@ -649,7 +649,7 @@ Map({id=935}).nodes[37185259] = Collectible({
 map.nodes[66211662] = Collectible({
     quest=50332,
     icon=1604165,
-    note=format(L["get_hekd_req_quest"], "{quest:50332}"),
+    note=L["hunter_junk_note"] ,
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40038})
@@ -659,7 +659,7 @@ map.nodes[66211662] = Collectible({
 map.nodes[62632058] = Collectible({
     quest=50331,
     icon=1604165,
-    note=format(L["get_hekd_req_item"], "{item:157794}", "{npc:132410s}"),
+    note=L["feathered_junk_note"],
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40040})
@@ -669,7 +669,7 @@ map.nodes[62632058] = Collectible({
 map.nodes[71704128] = Collectible({
     quest=50308,
     icon=1604165,
-    note=format(L["get_hekd_req_item"], "{item:156963}", "{npc:122504s}"),
+    note=L["golden_junk_note"],
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40037})
@@ -679,7 +679,7 @@ map.nodes[71704128] = Collectible({
 daz.nodes[61825347] = Collectible({
     quest=50381,
     icon=1604165,
-    note=format(L["get_hekd_req_quest"], "{quest:50381}"),
+    note=L["great_hat_junk_note"],
     group=ns.groups.GET_HEKD,
     parent=map.id,
     rewards={

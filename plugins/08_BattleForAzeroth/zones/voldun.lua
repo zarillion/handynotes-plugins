@@ -571,7 +571,7 @@ map.nodes[54902140] = DuneRider({criteria=41362, note=L["plank_5"], pois={
 map.nodes[46984655] = Collectible({
     quest=50883,
     icon=1604165,
-    note=format(L["get_hekd_req_item"], "{item:158910}", "{npc:135727s}"),
+    note=L["charged_junk_note"],
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40045})
@@ -581,7 +581,7 @@ map.nodes[46984655] = Collectible({
 map.nodes[56271527] = Collectible({
     quest=50890,
     icon=1604165,
-    note=format(L["get_hekd_req_item"], "{item:158915}", "{npc:130316s}"),
+    note=L["ringhorn_junk_note"],
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40046})
@@ -591,7 +591,7 @@ map.nodes[56271527] = Collectible({
 map.nodes[42187208] = Collectible({
     quest=50901,
     icon=1604165,
-    note=format(L["get_hekd_req_quest"], "{quest:50901}"),
+    note=L["saurid_junk_note"],
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40048})
@@ -601,7 +601,7 @@ map.nodes[42187208] = Collectible({
 map.nodes[49368440] = Collectible({
     quest=50892,
     icon=1604165,
-    note=format(L["get_hekd_req_item"], "{item:158916}", "{npc:134718s}"),
+    note=L["redrock_junk_note"],
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40047})

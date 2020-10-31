@@ -621,7 +621,7 @@ map.nodes[25674057] = HoppinSad({quest=53426, note=L["hoppin_sad_53426"]})
 map.nodes[68533283] = Collectible({
     quest=50440,
     icon=1604165,
-    note=format(L["get_hekd_req_item"], "{item:157802}", "{npc:131155s}"),
+    note=L["nazwathan_junk_note"],
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40043})
@@ -631,7 +631,7 @@ map.nodes[68533283] = Collectible({
 map.nodes[34007510] = Collectible({
     quest=50437,
     icon=1604165,
-    note=format(L["get_hekd_req_item"], "{item:157801}", "{npc:126723s}"),
+    note=L["snapjaw_junk_note"],
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40042})
@@ -641,7 +641,7 @@ map.nodes[34007510] = Collectible({
 map.nodes[54007410] = Collectible({
     quest=50444,
     icon=1604165,
-    note=format(L["get_hekd_req_quest"], "{quest:50444}"),
+    note=L["loa_road_junk_note"],
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40044})
@@ -651,7 +651,7 @@ map.nodes[54007410] = Collectible({
 map.nodes[80904680] = Collectible({
     quest=50435,
     icon=1604165,
-    note=format(L["get_hekd_req_item"], "{item:157797}", "{npc:125393s}"),
+    note=L["vilescale_junk_note"],
     group=ns.groups.GET_HEKD,
     rewards={
         Achievement({id=12482, criteria=40041})

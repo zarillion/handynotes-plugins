@@ -614,10 +614,27 @@ L["options_icons_life_finds_a_way_desc"] = "Zeigt die Positionen der fürchterli
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["get_hekd_req_quest"] = "Schließe die Quest %s von {npc:126334} ab."
-L["get_hekd_req_item"] = "Plündere den Gegenstand %s von %s in der Nähe und bringe ihn zu {npc:126334}."
-local get_hekd_quests = (UnitFactionGroup('player') == 'Horde') and "\n{quest:47441} von {npc:127665} in Dazar'alor und\n{quest:47442} von {npc:126334}" or "\n{quest:51142} von {npc:136562} in Voldun und {quest:51145}\nvon {npc:136559}"
-L["get_hekd_note"] = "Um Zugang zu Jani zu erhalten, müssen zuerst die zwei Quests"..get_hekd_quests.." abgeschlossen werden."
+local hekd_note = "\n\nUm Zugang zu Jani zu erhalten, müssen zuerst die zwei Quests %s abgeschlossen werden."
+if UnitFactionGroup('player') == 'Horde' then
+    hekd_note = hekd_note:format("{quest:47441} von {npc:127665} in Dazar'alor und {quest:47442} von {npc:126334}")
+else
+    hekd_note = hekd_note:format("{quest:51142} von {npc:136562} in Voldun und {quest:51145} von {npc:136559}")
+end
+local hekd_quest = "Schließe die Quest %s von {npc:126334} ab."..ns.color.Orange(hekd_note)
+local hekd_item = "Plündere den Gegenstand %s von %s in der Nähe und bringe ihn zu {npc:126334}."..ns.color.Orange(hekd_note)
+
+L["charged_junk_note"] = format(hekd_item, "{item:158910}", "{npc:135727}")
+L["feathered_junk_note"] = format(hekd_item, "{item:157794}", "{npc:132410}")
+L["golden_junk_note"] = format(hekd_item, "{item:156963}", "{npc:122504}")
+L["great_hat_junk_note"] = format(hekd_quest, "{quest:50381}")
+L["hunter_junk_note"] = format(hekd_quest, "{quest:50332}")
+L["loa_road_junk_note"] = format(hekd_quest, "{quest:50444}")
+L["nazwathan_junk_note"] = format(hekd_item, "{item:157802}", "{npc:131155}")
+L["redrock_junk_note"] = format(hekd_item, "{item:158916}", "{npc:134718}")
+L["ringhorn_junk_note"] = format(hekd_item, "{item:158915}", "{npc:130316}")
+L["saurid_junk_note"] = format(hekd_quest, "{quest:50901}")
+L["snapjaw_junk_note"] = format(hekd_item, "{item:157801}", "{npc:126723}")
+L["vilescale_junk_note"] = format(hekd_item, "{item:157797}", "{npc:125393}")
 L["options_icons_get_hekd"] = "{achievement:12482}"
 L["options_icons_get_hekd_desc"] = "Zeigt die Positionen der Aufgaben von Jani für den Erfolg {achievement:12482} an."
 
