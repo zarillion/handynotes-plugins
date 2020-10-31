@@ -538,6 +538,9 @@ L["planks_ridden"] = "tablones destartalados montados"
 L["options_icons_dune_rider"] = "{achievement:13018}"
 L["options_icons_dune_rider_desc"] = "Muestra las localizaciones de los tablones destartalados para el logro {achievement:13018}."
 
+L["options_icons_scavenger_of_the_sands"] = "{achievement:13016}"
+L["options_icons_scavenger_of_the_sands_desc"] = "Muestra las localizaciones de los objetos de chatarra para el logro {achievement:13016}."
+
 L["elusive_alpaca"] = "Alimenta a la {npc:162681} con {item:161128} para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
 
 -------------------------------------------------------------------------------
