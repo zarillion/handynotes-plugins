@@ -379,13 +379,12 @@ local wagga = Rare({
     rewards={
         Achievement({id=12940, criteria=41843}),
         Transmog({item=154431, slot=L["offhand"]}) -- Earthshaker's Flame
-    },
-    pois={
-        POI({43537598}) -- Cave Entrance
     }
 }) -- Wagga Snarltusk
 
-map.nodes[41997466] = wagga
+map.nodes[41997466] = ns.Clone(wagga, {pois={
+    POI({43537598}) -- Cave Entrance
+}})
 Map({id=1183}).nodes[12002845] = wagga
 
 map.nodes[47206580] = Rare({

@@ -84,22 +84,7 @@ end
 
 function Achievement:Initialize(attrs)
     Reward.Initialize(self, attrs)
-
-    -- we allow a single number, table of numbers or table of
-    -- objects: {id=<number>, note=<string>}
-    if type(self.criteria) == 'number' then
-        self.criteria = {{id=self.criteria}}
-    elseif type(self.criteria) == 'table' then
-        local crittab = {}
-        for i, criteria in ipairs(self.criteria) do
-            if type(criteria) == 'number' then
-                crittab[#crittab + 1] = {id=criteria}
-            else
-                crittab[#crittab + 1] = criteria
-            end
-        end
-        self.criteria = crittab
-    end
+    self.criteria = ns.AsIDTable(self.criteria)
 end
 
 function Achievement:IsObtained()

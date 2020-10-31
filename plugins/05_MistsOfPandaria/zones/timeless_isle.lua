@@ -363,19 +363,17 @@ map.nodes[60768795] = Rare({
     }
 }) -- Rattleskew
 
-local rockmoss = Rare({
+lostspirits.nodes[42153233] = Rare({
     id=73157,
     quest={33283, 33307},
     note=L["cavern_of_lost_spirits"],
+    parent={ id=map.id, pois={POI({43624055})} },
     rewards={
         Achievement({id=8714, criteria=23980}),
         Achievement({id=8728, criteria=24063}), -- Golden Moss
         Item({item=104313, note=L["trinket"]}) -- Golden Moss
     }
 }) -- Rock Moss
-
-map.nodes[44843838] = ns.Clone(rockmoss, {pois={POI({43624055})}})
-lostspirits.nodes[42153233] = rockmoss
 
 map.nodes[59004880] = Rare({
     id=71864,
@@ -396,10 +394,11 @@ map.nodes[59004880] = Rare({
     }
 }) -- Spelurk
 
-local spirit = Rare({
+lostspirits.nodes[48116069] = Rare({
     id=72769,
     quest={33259, 33293},
     note=L["cavern_of_lost_spirits"],
+    parent={ id=map.id, pois={POI({43624055})} },
     rewards={
         Achievement({id=8714, criteria=23978}),
         Achievement({id=8728, criteria={24060, 24037}}), -- Jadefire Spirit, Glowing Green Ash
@@ -413,9 +412,6 @@ local spirit = Rare({
         }) -- Caverns spawns
     }
 }) -- Spirit of Jadefire
-
-map.nodes[42923838] = ns.Clone(spirit, {pois={POI({43624055})}})
-lostspirits.nodes[48116069] = spirit
 
 map.nodes[71348293] = Rare({
     id=73704,
@@ -524,17 +520,15 @@ map.nodes[24603850] = MossCoveredChest({ quest=33200 })
 map.nodes[59903130] = MossCoveredChest({ quest=33201 })
 map.nodes[29703180] = MossCoveredChest({ quest=33202 })
 
-local skullchest = Treasure({
+lostspirits.nodes[62853535] = Treasure({
     quest=33203,
     label=L["skull_covered_chest"],
     note=L["cavern_of_lost_spirits"],
+    parent={ id=map.id, pois={POI({43624055})} },
     rewards={
         Achievement({id=8729, criteria=2})
     }
 }) -- Skull-Covered Chest
-
-map.nodes[41674049] = ns.Clone(skullchest, {pois={POI({43624055})}})
-lostspirits.nodes[62853535] = skullchest
 
 map.nodes[47602760] = Treasure({
     quest=33210,
@@ -699,15 +693,13 @@ map.nodes[46177088] = Node({
     }
 })
 
-local zarhym = NPC({
+lostspirits.nodes[53395699] = NPC({
     id=71876,
     icon=133730,
     quest=32962,
     note=L["cavern_of_lost_spirits"]..' '..L["zarhym_note"],
+    parent={ id=map.id, pois={POI({43624055})} },
     rewards={
         Achievement({id=8743}) -- Zarhym Altogether
     }
 }) -- Zarhym
-
-map.nodes[46004049] = ns.Clone(zarhym, {pois={POI({43624055})}})
-lostspirits.nodes[53395699] = zarhym

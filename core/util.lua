@@ -138,7 +138,32 @@ local function RenderLinks(str, nameOnly)
 end
 
 -------------------------------------------------------------------------------
+------------------------------ TABLE CONVERTERS -------------------------------
+-------------------------------------------------------------------------------
+
+local function AsTable (value, class)
+    -- normalize to table of scalars
+    if type(value) == 'nil' then return end
+    if type(value) ~= 'table' then return {value} end
+    if class and ns.IsInstance(value, class) then return {value} end
+    return value
+end
+
+local function AsIDTable (value)
+    -- normalize to table of id objects
+    if type(value) == 'nil' then return end
+    if type(value) ~= 'table' then return {{id=value}} end
+    if value.id then return {value} end
+    for i, v in ipairs(value) do
+        if type(v) == 'number' then value[i] = {id=v} end
+    end
+    return value
+end
+
+-------------------------------------------------------------------------------
 
 ns.NameResolver = NameResolver
 ns.PrepareLinks = PrepareLinks
 ns.RenderLinks = RenderLinks
+ns.AsTable = AsTable
+ns.AsIDTable = AsIDTable

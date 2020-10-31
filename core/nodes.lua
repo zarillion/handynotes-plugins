@@ -24,6 +24,7 @@ Base class for all displayed nodes.
     alpha (float): The default alpha value for this type
     scale (float): The default scale value for this type
     minimap (bool): Should the node be displayed on the minimap
+    parent (int|int[]): Parent map IDs to display the node on
     quest (int|int[]): Quest IDs that cause this node to disappear
     questAny (boolean): Hide node if *any* quests are true (default *all*)
     questCount (boolean): Display completed quest count as rlabel
@@ -47,15 +48,11 @@ function Node:Initialize(attrs)
         for k, v in pairs(attrs) do self[k] = v end
     end
 
-    -- normalize quest ids as tables instead of single values
-    for i, key in ipairs{'quest', 'questDeps'} do
-        if type(self[key]) == 'number' then self[key] = {self[key]} end
-    end
-
-    -- normalize requirements as a table
-    if type(self.requires) == 'string' or IsInstance(self.requires, Requirement) then
-        self.requires = {self.requires}
-    end
+    -- normalize table values
+    self.quest = ns.AsTable(self.quest)
+    self.questDeps = ns.AsTable(self.questDeps)
+    self.parent = ns.AsIDTable(self.parent)
+    self.requires = ns.AsTable(self.requires, Requirement)
 
     -- ensure proper group is assigned
     if not IsInstance(self.group, Group) then

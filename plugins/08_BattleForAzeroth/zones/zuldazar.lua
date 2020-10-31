@@ -158,17 +158,15 @@ map.nodes[75613582] = Rare({
     }
 }) -- Kiboku
 
-local kulkrazahn = Rare({
+daz.nodes[54988253] = Rare({
     id=120899,
     quest=48333,
+    parent=map.id,
     rewards={
         Achievement({id=12944, criteria=41875}),
         Transmog({item=160947, slot=L["1h_axe"]}) -- Amani Berserker's Chopper
     }
 }) -- Kul'krazahn
-
-daz.nodes[54988253] = kulkrazahn
-map.nodes[59605640] = kulkrazahn
 
 map.nodes[58677417] = Rare({
     id=131233,
@@ -200,18 +198,16 @@ map.nodes[69563691] = Rare({
     }
 }) -- N'chala the Egg Thief
 
-local syrawon = Rare({
+daz.nodes[36004620] = Rare({
     id=136413,
     quest=51080,
     note=L["in_small_cave"],
+    parent=map.id,
     rewards={
         Achievement({id=12944, criteria=41853}),
         Transmog({item=161047, slot=L["cloth"]}) -- Shadow Wind Leggings
     }
 }) -- Syrawon the Dominus
-
-daz.nodes[36004620] = syrawon
-map.nodes[53404465] = syrawon
 
 map.nodes[77711029] = Rare({
     id=131687,
@@ -241,18 +237,16 @@ map.nodes[71423239] = Rare({
     }
 }) -- Umbra'jin
 
-local vukuba = Rare({
+daz.nodes[61705120] = Rare({
     id=134048,
     quest=50508,
     note=L["vukuba_note"],
+    parent=map.id,
     rewards={
         Achievement({id=12944, criteria=41858}),
         Transmog({item=162613, slot=L["cloth"]}) -- Mantle of Brood Mimicry
     }
 }) -- Vukuba
-
-daz.nodes[61705120] = vukuba
-map.nodes[61904622] = vukuba
 
 map.nodes[43952544] = Rare({
     id=133842,
@@ -283,39 +277,33 @@ map.nodes[48005424] = Rare({
 
 -------------------------------------------------------------------------------
 
-local voodoo = Treasure({
+daz.nodes[39001580] = Treasure({
     label='{item:161443}',
     quest=52269,
     note=L["tiny_voodoo_mask_note"],
+    parent=map.id,
     rewards={
         Item({item=161443, quest=52269})
     }
 }) -- A Tiny Voodoo Mask
 
-daz.nodes[39001580] = voodoo
-map.nodes[54303440] = voodoo
-
-local cache_of_secrets = Treasure({
+daz.nodes[44472690] = Treasure({
     quest=51338,
     note=L["cache_of_secrets_note"],
+    parent=map.id,
     rewards={
         Achievement({id=12851, criteria=40996})
     }
 }) -- Cache of Secrets
 
-daz.nodes[44472690] = cache_of_secrets
-map.nodes[56123806] = cache_of_secrets
-
-local white_shark = Treasure({
+daz.nodes[59308866] = Treasure({
     quest=50947,
     note=L["da_white_shark_note"],
+    parent=map.id,
     rewards={
         Achievement({id=12851, criteria=40994})
     }
 }) -- Da White Shark's Bounty
-
-daz.nodes[59308866] = white_shark
-map.nodes[61065863] = white_shark
 
 map.nodes[38793444] = Treasure({
     quest=50707,
@@ -336,38 +324,32 @@ map.nodes[51442661] = Treasure({
     }
 }) -- Gift of the Brokenhearted
 
-local offerings = Treasure({
+daz.nodes[38280714] = Treasure({
     quest=48938,
     note=L["offerings_of_the_chosen_note"],
+    parent=map.id,
     rewards={
         Achievement({id=12851, criteria=40988})
     }
 }) -- Offerings of the Chosen
 
-daz.nodes[38280714] = offerings
-map.nodes[54093150] = offerings
-
-local riches = Treasure({
+daz.nodes[34905440] = Treasure({
     quest=51624,
     note=L["riches_of_tornowa_note"],
+    parent=map.id,
     rewards={
         Achievement({id=12851, criteria=40997})
     }
 }) -- Riches of Tor'nowa
 
-daz.nodes[34905440] = riches
-map.nodes[52974719] = riches
-
-local spoils = Treasure({
+Map({id=1177}).nodes[23132391] = Treasure({
     quest=49936,
     note=L["spoils_of_pandaria_note"],
+    parent=map.id,
     rewards={
         Achievement({id=12851, criteria=40990})
     }
 }) -- Spoils of Pandaria
-
-map.nodes[51718690] = spoils
-Map({id=1177}).nodes[23132391] = spoils
 
 map.nodes[71821677] = Treasure({
     quest=50949,
@@ -601,18 +583,16 @@ map.nodes[67281762] = Collectible({
     }
 }) -- Tales of de Loa: Torcali
 
-local taleszandalar = Collectible({
+daz.nodes[53230929] = Collectible({
     quest=53548,
     icon=1875083,
     group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_zandalar_note"],
+    parent=map.id,
     rewards={
         Achievement({id=13036, criteria=41581})
     }
 }) -- Tales of de Loa: Zandalar
-
-map.nodes[59053218] = taleszandalar
-daz.nodes[53230929] = taleszandalar
 
 -------------------------------------------------------------------------------
 ----------------------------- BOW TO YOUR MASTERS -----------------------------
@@ -628,19 +608,17 @@ map.nodes[49274433] = Collectible({
     }
 }) -- Gonk
 
-local bowjani = Collectible({
+daz.nodes[35350767] = Collectible({
     id=126334,
     icon=1850548,
     sublabel=L["bow_to_your_masters_note"],
     group=ns.groups.BOW_TO_YOUR_MASTERS,
     note=L["jani_note"],
+    parent=map.id,
     rewards={
         Achievement({id=13020, criteria=41500})
     }
 }) -- Jani
-
-map.nodes[53103165] = bowjani
-daz.nodes[35350767] = bowjani
 
 map.nodes[71544942] = Collectible({
     id=127377,
@@ -652,19 +630,17 @@ map.nodes[71544942] = Collectible({
     }
 }) -- Pa'ku
 
-local bowrezan = Collectible({
+Map({id=935}).nodes[37185259] = Collectible({
     id=124948,
     icon=1850548,
     sublabel=L["bow_to_your_masters_note"],
     group=ns.groups.BOW_TO_YOUR_MASTERS,
     note=L["rezan_note"],
+    parent=map.id,
     rewards={
         Achievement({id=13020, criteria=41502})
     }
 }) -- Rezan
-
-map.nodes[44823815] = bowrezan
-Map({id=935}).nodes[37185259] = bowrezan
 
 -------------------------------------------------------------------------------
 ---------------------------------- GET HEK'D ----------------------------------
@@ -700,18 +676,16 @@ map.nodes[71704128] = Collectible({
     }
 }) -- Golden Ravasaur Egg (156963)
 
-local greathatrobbery = Collectible({
+daz.nodes[61825347] = Collectible({
     quest=50381,
     icon=1604165,
     note=format(L["get_hekd_req_quest"], "{quest:50381}"),
     group=ns.groups.GET_HEKD,
+    parent=map.id,
     rewards={
         Achievement({id=12482, criteria=40039})
     }
 }) -- The Great Hat Robbery
-
-map.nodes[61964689] = greathatrobbery
-daz.nodes[61825347] = greathatrobbery
 
 -------------------------------------------------------------------------------
 ------------------------- LIFE FINDS A WAY... TO DIE! -------------------------
@@ -799,12 +773,13 @@ map.nodes[45497920] = Collectible({
 --------------------------- THREE SHEETS TO THE WIND --------------------------
 -------------------------------------------------------------------------------
 
-local zuaba = Collectible({
+daz.nodes[35411665] = Collectible({
     id=131781,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Horde',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41404, -- Drop Anchor Dunkel
@@ -813,33 +788,25 @@ local zuaba = Collectible({
     }
 }) -- Zuaba Sonja
 
-map.nodes[53123464] = zuaba
-daz.nodes[35411665] = zuaba
-
-local lenne = Collectible({
+daz.nodes[47049155] = Collectible({
     id=129376,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria=41403}) -- Dark and Stormy
     }
 }) -- Lenne
 
-map.nodes[56995955] = lenne
-daz.nodes[47049155] = lenne
-
-local whistlebrew = Collectible({
+Map({id=1164}).nodes[26525057] = Collectible({
     id=131511,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Horde',
+    parent={daz.id, map.id},
     rewards={
         Achievement({id=13061, criteria=41400}) -- Blacktooth Bloodwine
     }
 }) -- Lily Whistlebrew
-
-map.nodes[57484395] = whistlebrew
-daz.nodes[48524465] = whistlebrew
-Map({id=1164}).nodes[26525057] = whistlebrew

@@ -599,7 +599,7 @@ local HoppinSad = Class('HoppinSad', Collectible, {
     icon=804969,
     group=ns.groups.HOPPIN_SAD,
     rewards={
-        Achievement({id=13028, criteria={{id=1, qty=true}}})
+        Achievement({id=13028, criteria={id=1, qty=true}})
     }
 })
 

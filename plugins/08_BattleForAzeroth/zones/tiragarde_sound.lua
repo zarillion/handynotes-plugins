@@ -244,24 +244,21 @@ map.nodes[58651480] = Rare({
     }
 }) -- Saurolisk Tamer Mugg
 
-local sawtooth = Rare({
+bor.nodes[80594456] = Rare({
     id=139287,
     quest=51877,
+    parent=map.id,
     rewards={
         Achievement({id=12939, criteria=41830}),
         Transmog({item=155273, slot=L["1h_axe"]}) -- Sharktooth Hatchet
-    }
-}) -- Sawtooth
-
-map.nodes[76773045] = sawtooth
-bor.nodes[80594456] = ns.Clone(sawtooth, {
+    },
     pois={
         Path({
             76143832, 78343810, 79844112, 80594456, 80394854, 78485012,
             76764657, 76024247, 76143832
         })
     }
-})
+}) -- Sawtooth
 
 map.nodes[55123241] = Rare({
     id=139285,
@@ -410,16 +407,14 @@ map.nodes[56033319] = Treasure({
     }
 }) -- Precarious Noble Cache
 
-local scrimshaw = Treasure({
+bor.nodes[63270617] = Treasure({
     quest=52870,
     note=L["in_small_cave"],
+    parent=map.id,
     rewards={
         Achievement({id=12852, criteria=41016})
     }
 }) -- Scrimshaw Cache
-
-bor.nodes[63270617] = scrimshaw
-map.nodes[72642132] = scrimshaw
 
 -------------------------------- TREASURE MAPS --------------------------------
 
@@ -572,31 +567,27 @@ map.nodes[86213862] = PetBattle({
 --------------------------------- SHANTY RAID ---------------------------------
 -------------------------------------------------------------------------------
 
-local lively = Collectible({
+bor.nodes[72426942] = Collectible({
     icon=1500866,
     note=L["shanty_lively_note"],
     group=ns.groups.SHANTY_RAID,
+    parent=map.id,
     rewards={
         Achievement({id=13057, criteria=41541}),
         Item({item=163714})
     }
 }) -- Shanty of the Lively Men
 
-bor.nodes[72426942] = lively
-map.nodes[74863657] = lively
-
-local inebriation = Collectible({
+bor.nodes[53141767] = Collectible({
     icon=1500866,
     note=L["shanty_inebriation_note"],
     group=ns.groups.SHANTY_RAID,
+    parent=map.id,
     rewards={
         Achievement({id=13057, criteria=41543}),
         Item({item=163716})
     }
 }) -- Shanty of Inebriation
-
-bor.nodes[53141767] = inebriation
-map.nodes[70202405] = inebriation
 
 map.nodes[43482559] = Collectible({
     icon=1500866,
@@ -618,17 +609,17 @@ map.nodes[73218414] = Collectible({
     }
 }) -- Shanty of the Horse
 
-
 -------------------------------------------------------------------------------
 --------------------------- THREE SHEETS TO THE WIND --------------------------
 -------------------------------------------------------------------------------
 
-local joseph = Collectible({
+bor.nodes[47744734] = Collectible({
     id=137411,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41396, -- "Aurora Borealis"
@@ -641,15 +632,13 @@ local joseph = Collectible({
     }
 }) -- Joseph Stephens
 
-map.nodes[68863123] = joseph
-bor.nodes[47744734] = joseph
-
-local moal = Collectible({
+bor.nodes[58177024] = Collectible({
     id=143487,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41398, -- Arathor Single Cask
@@ -658,15 +647,13 @@ local moal = Collectible({
     }
 }) -- Nicolas Moal
 
-map.nodes[71413678] = moal
-bor.nodes[58177024] = moal
-
-local ruddy = Collectible({
+bor.nodes[69262986] = Collectible({
     id=142189,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41397, -- Admiralty-Issued Grog
@@ -679,15 +666,13 @@ local ruddy = Collectible({
     }
 }) -- Ruddy the Rat
 
-map.nodes[74102699] = ruddy
-bor.nodes[69262986] = ruddy
-
-local harold_atkey = Collectible({
+bor.nodes[75331442] = Collectible({
     id=123639,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41396, -- "Aurora Borealis"
@@ -701,15 +686,13 @@ local harold_atkey = Collectible({
     }
 }) -- Harold Atkey
 
-map.nodes[75582327] = harold_atkey
-bor.nodes[75331442] = harold_atkey
-
-local weber = Collectible({
+bor.nodes[74241776] = Collectible({
     id=142188,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41396, -- "Aurora Borealis"
@@ -722,15 +705,13 @@ local weber = Collectible({
     }
 }) -- Allison Weber
 
-map.nodes[75302407] = weber
-bor.nodes[74241776] = weber
-
-local ktatt = Collectible({
+bor.nodes[71186089] = Collectible({
     id=149397,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41396, -- "Aurora Borealis"
@@ -743,15 +724,13 @@ local ktatt = Collectible({
     }
 }) -- Kul Tiran Attendant
 
-map.nodes[74563450] = ktatt
-bor.nodes[71186089] = ktatt
-
-local crimper = Collectible({
+bor.nodes[54994361] = Collectible({
     id=134729,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41397, -- Admiralty-Issued Grog
@@ -764,15 +743,13 @@ local crimper = Collectible({
     }
 }) -- Crimper Mirjam
 
-map.nodes[70653032] = crimper
-bor.nodes[54994361] = crimper
-
-local garrett = Collectible({
+bor.nodes[75451861] = Collectible({
     id=143246,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41397, -- Admiralty-Issued Grog
@@ -781,15 +758,13 @@ local garrett = Collectible({
     }
 }) -- Garrett Elmendorf
 
-map.nodes[75602427] = garrett
-bor.nodes[75451861] = garrett
-
-local rockhold = Collectible({
+bor.nodes[74121265] = Collectible({
     id=135153,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41399, -- Bitter Darkroot Vodka
@@ -800,15 +775,13 @@ local rockhold = Collectible({
     }
 }) -- Wesley Rockhold
 
-map.nodes[75272283] = rockhold
-bor.nodes[74121265] = rockhold
-
-local seafinch = Collectible({
+bor.nodes[66516137] = Collectible({
     id=144115,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41399, -- Bitter Darkroot Vodka
@@ -819,15 +792,13 @@ local seafinch = Collectible({
     }
 }) -- Diana Seafinch
 
-map.nodes[73443462] = seafinch
-bor.nodes[66516137] = seafinch
-
-local victor = Collectible({
+bor.nodes[72141491] = Collectible({
     id=143244,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41404, -- Drop Anchor Dunkel
@@ -837,23 +808,22 @@ local victor = Collectible({
             41412, -- Pontoon Pilsner
             41416, -- Tradewinds Kolsch
         }})
+    },
+    pois={
+        Path({
+            73881267, 73411449, 74791580, 75411818, 74051785, 72651602,
+            71101619, 72141491, 73411449
+        })
     }
 }) -- Victor Esquivias
 
-map.nodes[74792338] = victor
-bor.nodes[72141491] = ns.Clone(victor, {pois={
-    Path({
-        73881267, 73411449, 74791580, 75411818, 74051785, 72651602,
-        71101619, 72141491, 73411449
-    })
-}})
-
-local bored = Collectible({
+bor.nodes[53987523] = Collectible({
     id=139113,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria={
             41404, -- Drop Anchor Dunkel
@@ -863,22 +833,17 @@ local bored = Collectible({
     }
 }) -- Bored Barkeep
 
-map.nodes[70403797] = bored
-bor.nodes[53987523] = bored
-
-local mahogany = Collectible({
+bor.nodes[65463929] = Collectible({
     id=135216,
     icon=135999,
     note=L["three_sheets_note"],
     group=ns.groups.THREE_SHEETS,
     faction='Alliance',
+    parent=map.id,
     rewards={
         Achievement({id=13061, criteria=41404}) -- Drop Anchor Dunkel
     }
 }) -- Ron Mahogany <The Anchor Man>
-
-map.nodes[73182928] = mahogany
-bor.nodes[65463929] = mahogany
 
 -------------------------------------------------------------------------------
 

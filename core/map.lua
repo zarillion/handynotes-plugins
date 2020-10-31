@@ -5,6 +5,9 @@
 local ADDON_NAME, ns = ...
 local Class = ns.Class
 
+local HBD = LibStub("HereBeDragons-2.0")
+local HBDPins = LibStub("HereBeDragons-Pins-2.0")
+
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
@@ -47,7 +50,7 @@ end
 
 function Map:AddNode(coord, node)
     if not ns.IsInstance(node, ns.node.Node) then
-        error('All nodes must be instances of the Node() class:', coord, node)
+        error(format('All nodes must be instances of the Node() class: %d %s', coord, tostring(node)))
     end
 
     if node.group.name ~= 'intro' then
@@ -63,6 +66,22 @@ function Map:AddNode(coord, node)
     end
 
     rawset(self.nodes, coord, node)
+
+    -- Add node to each parent map ID requested
+    if node.parent then
+        -- Calculate world coordinates for the node
+        local x, y = HandyNotes:getXY(coord)
+        local wx, wy = HBD:GetWorldCoordinatesFromZone(x, y, self.id)
+        for i, parent in ipairs(node.parent) do
+            -- Calculate parent zone coordinates and add node
+            local px, py = HBD:GetZoneCoordinatesFromWorld(wx, wy, parent.id)
+            if not (px and py) then
+                error(format('No parent coords for node: %d %s %d', coord, tostring(node), parent.id))
+            end
+            local map = ns.maps[parent.id] or Map({id=parent.id})
+            map.nodes[HandyNotes:getCoord(px, py)] = ns.Clone(node, {pois=(parent.pois or false)})
+        end
+    end
 end
 
 function Map:Prepare()
@@ -117,8 +136,6 @@ end
 ---------------------------- MINIMAP DATA PROVIDER ----------------------------
 -------------------------------------------------------------------------------
 
-local HBD = LibStub("HereBeDragons-2.0")
-local HBDPins = LibStub("HereBeDragons-Pins-2.0")
 local MinimapPinsKey = ADDON_NAME.."MinimapPins"
 local MinimapDataProvider = CreateFrame("Frame", ADDON_NAME.."MinimapDP")
 local MinimapPinTemplate = ADDON_NAME..'MinimapPinTemplate'
