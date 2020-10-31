@@ -647,6 +647,13 @@ L["bow_to_your_masters_note"] = "Bow to the loa of Zandalar ("..ns.color.Orange(
 L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
 L["options_icons_bow_to_your_masters_desc"] = "Display loa locations for the {achievement:13020} achievement."
 
+L["alisha_note"] = "This vendor requires quest progress in Drustvar."
+L["elijah_note"] = "This vendor requires quest progress in Drustvar. He begins selling sausage after {quest:47945}."
+L["raal_note"] = ns.color.Red("Inside the Waycrest Manor dungeon.")
+L["sausage_sampler_note"] = "Eat one of every sausage to earn the achievement."
+L["options_icons_sausage_sampler"] = "{achievement:13087}"
+L["options_icons_sausage_sampler_desc"] = "Display vendor locations for the {achievement:13087} achievement."
+
 -- For Horde, include a note about drinks that must be purchased on the AH
 local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ The following drinks are unavailable to Horde and must be purchased on the auction house:
 

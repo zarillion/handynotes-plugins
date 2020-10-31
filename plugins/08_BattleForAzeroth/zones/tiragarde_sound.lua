@@ -564,6 +564,56 @@ map.nodes[86213862] = PetBattle({
 }) -- Not So Bad Down Here (Kwint)
 
 -------------------------------------------------------------------------------
+------------------------------- SAUSAGE SAMPLER -------------------------------
+-------------------------------------------------------------------------------
+
+bor.nodes[70622130] = Collectible({
+    id=142167,
+    icon=133200,
+    note=L["sausage_sampler_note"],
+    group=ns.groups.SAUSAGE_SAMPLER,
+    parent=map.id,
+    rewards={
+        Achievement({id=13087, criteria={
+            41648, -- Goldshire Farms Smoked Sausage
+            41651, -- Roland's Famous Frankfurter
+            41652, -- Rosco Fryer's Mostly-Meat Brat
+            41653, -- Timmy Gene Sunrise Pork
+        }})
+    }
+}) -- Charisse Payton
+
+bor.nodes[72606841] = Collectible({
+    id=135525,
+    icon=133200,
+    note=L["sausage_sampler_note"],
+    group=ns.groups.SAUSAGE_SAMPLER,
+    parent=map.id,
+    rewards={
+        Achievement({id=13087, criteria={
+            41652, -- Rosco Fryer's Mostly-Meat Brat
+            41653, -- Timmy Gene Sunrise Pork
+        }})
+    }
+}) -- Jaela Billman
+
+bor.nodes[47454604] = Collectible({
+    id=137407,
+    icon=133200,
+    note=L["sausage_sampler_note"],
+    group=ns.groups.SAUSAGE_SAMPLER,
+    parent=map.id,
+    rewards={
+        Achievement({id=13087, criteria={
+            41648, -- Goldshire Farms Smoked Sausage
+            41651, -- Roland's Famous Frankfurter
+            41652, -- Rosco Fryer's Mostly-Meat Brat
+            41653, -- Timmy Gene Sunrise Pork
+        }})
+    }
+}) -- Edward Stephens
+
+-------------------------------------------------------------------------------
 --------------------------------- SHANTY RAID ---------------------------------
 -------------------------------------------------------------------------------
 

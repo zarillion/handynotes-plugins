@@ -550,6 +550,66 @@ map.nodes[63605971] = PetBattle({
 }) -- Night Horrors (Dilbert McClint)
 
 -------------------------------------------------------------------------------
+------------------------------- SAUSAGE SAMPLER -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[55563479] = Collectible({
+    id=128467,
+    icon=133200,
+    note=L["sausage_sampler_note"]..' '..L["elijah_note"],
+    group=ns.groups.SAUSAGE_SAMPLER,
+    rewards={
+        Achievement({id=13087, criteria={
+            41648, -- Goldshire Farms Smoked Sausage
+            41651, -- Roland's Famous Frankfurter
+            41652, -- Rosco Fryer's Mostly-Meat Brat
+            41653, -- Timmy Gene Sunrise Pork
+        }})
+    }
+}) -- Elijah Eggleton
+
+map.nodes[37894905] = Collectible({
+    id=137031,
+    icon=133200,
+    note=L["sausage_sampler_note"],
+    group=ns.groups.SAUSAGE_SAMPLER,
+    rewards={
+        Achievement({id=13087, criteria={
+            41651, -- Roland's Famous Frankfurter
+        }})
+    }
+}) -- Jake Storm
+
+map.nodes[26677253] = Collectible({
+    id=136655,
+    icon=133200,
+    note=L["sausage_sampler_note"]..' '..L["alisha_note"],
+    group=ns.groups.SAUSAGE_SAMPLER,
+    rewards={
+        Achievement({id=13087, criteria={
+            41649, -- Fried Boar Sausage
+            41652, -- Rosco Fryer's Mostly-Meat Brat
+        }})
+    }
+}) -- Alisha Darkwater
+
+local raal = Collectible({
+    id=131863,
+    icon=133200,
+    note=L["sausage_sampler_note"]..'\n\n'..L["raal_note"],
+    group=ns.groups.SAUSAGE_SAMPLER,
+    rewards={
+        Achievement({id=13087, criteria={
+            41650, -- Heartsbane Hexwurst
+        }}),
+        Item({item=163833}) -- Recipe: Heartsbane Hexwurst
+    }
+}) -- Raal the Gluttonous
+
+map.nodes[34581008] = raal
+Map({id=1015}).nodes[67434813] = raal
+
+-------------------------------------------------------------------------------
 --------------------------- THREE SHEETS TO THE WIND --------------------------
 -------------------------------------------------------------------------------
 
