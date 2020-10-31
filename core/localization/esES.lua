@@ -95,6 +95,10 @@ L["options_general_description"] = "Ajustes que controlan el comportamiento de l
 L["options_global_description"] = "Ajustes que controlan la visualización de todos los nodos en todas las zonas."
 L["options_zones_description"] = "Ajustes que controlan la visualización de nodos en cada zona individual."
 
+L["options_open_settings_panel"] = "Abrir ek Panel de Preferencias..."
+L["options_open_world_map"] = "Abrir el Mapa del Mundo"
+L["options_open_world_map_desc"] = "Abre esta zona en el mapa del mundo."
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "Configuración de Iconos"
