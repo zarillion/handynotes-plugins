@@ -125,7 +125,7 @@ L["gift_of_devos"] = [[
 Al suroeste del cofre hay una antorcha donde puedes coger la {spell:333912}. Montar, entrar en combate o recibir daño hará que sueltes la llama. Debes volver de regreso al cofre y poner la llama en el Blandón de Devoción para conseguir la {spell:333070}.
 
 Antes de coger la llama, limpia de enemigos el camino al cofre. Mientras corras con la llama, haz click en alguna {npc:156571} a lo largo del camino para conseguir {spell:335012} el cual incrementa la velocidad de movimiento.
-]]--Revisar (NODATABLE) que Brazier of Devotion sea Blandón de Devoción
+]]
 L["gift_of_thenios"] = [[
 Detrás del cofre hay una plataforma de vuelo llamada "Camino de la Sabiduría". Esto lleva a una secuencia de plataformas con diferentes inciensos con los que puedes comulgar:
 
@@ -337,15 +337,15 @@ L["the_count_note"] = "Farmea 99 {currency:1820} en el Cenagal del Fin y llévas
 L["bleakwood_chest"] = "Cofre de Leñogrís"
 L["forgotten_anglers_rod"] = "Caña de Pescador Olvidada"
 
-L["loyal_gorger_note"] = "Visita el Cenagal del Fin y completa una misión diaria ofrecida por el {npc:173498} 7 veces para conseguirlo como montura."--Revisar Juvenile Gorger (nombre exacto)
+L["loyal_gorger_note"] = "Visita el Cenagal del Fin y completa una misión diaria ofrecida por el {npc:173498} 7 veces para conseguirlo como montura."
 
 L["sinrunner_note"] = "Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer."
 L["sinrunner_note_day1"] = "Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de Páramos de Poniente."
 L["sinrunner_note_day2"] = "Consigue un {item:182585} de {npc:173570} en Refugioscuro y úsalo para limpiar a Blanchy."
-L["sinrunner_note_day3"] = "Equipa a Blanchy con 4 {item:182595} que se pueden encontrar por los caminos que rodean el Refugioscuro."
+L["sinrunner_note_day3"] = "Equipa a Blanchy con 4 {item:182595} que se pueden encontrar por los caminos que rodean Refugioscuro."
 L["sinrunner_note_day4"] = "Coge el {item:182620} cerca de {npc:173570} y llénalo con agua en Bastión o Ardenweald. Llévale a Blanchy el {item:182599}."
 L["sinrunner_note_day5"] = "Equipa a Blanchy con una {item:182597}, vendida por {npc:171808} cerca del Mercado Nocturno a cambio de varias carnes."
-L["sinrunner_note_day6"] = "Alimenta a Blanchy con 3 {item:179271}, vendidas por {npc:167815} que está por Agujero en la Pared."
+L["sinrunner_note_day6"] = "Alimenta a Blanchy con 3 {item:179271}, vendidas por {npc:167815} que está en Agujero en la Pared."
 
 L["options_icons_carriages"] = "Carruajes"
 L["options_icons_carriages_desc"] = "Muestra las localizaciones posibles y caminos de los carruajes que se pueden llevar."
@@ -361,29 +361,29 @@ L["the_banewood"] = "Bosque de la Desgracia"
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["return_to_the_maw"] = "Vuelta a Las Fauces"
+L["return_to_the_maw"] = "Regreso a Las Fauces"
 L["maw_intro_note"] = "Comienza la cadena de misiones introductoria de {npc:162804} para desbloquear los raros y los eventos en Las Fauces."
 
-L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331783} para invocar a {npc:170301}."
-L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:330650} para invocar a {npc:169827}."
-L["orophea_note"] = "Coge el {spell:337143} al sureste y ofrécelo a {npc:172577} para que se active {npc:172577}."
+L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331783} para hacer aparecer a {npc:170301}."
+L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:330650} para hacer aparecer a {npc:169827}."
+L["orophea_note"] = "Coge el {spell:337143} al sureste y ofréceselo a {npc:172577} para que se active."
 L["sanngror_note"] = "Si no se puede atacar a {npc:172521}, espera hasta que no esté experimentando con las almas."
-L["talaporas_note"] = "Con otros 3 jugadores, situaos en las esquina de la plataforma y lanzad {spell:331800} para invocar a {npc:170302}."
+L["talaporas_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331800} para hacer aparecer a {npc:170302}."
 L["valis_note"] = "Haz click en las tres {npc:174810} en el orden correcto para invocar a {npc:173086}. El orden cambia cada vez y hacer click en la runa incorrecta produce daño y te pone el debuff {spell:343636}."
-L["yero_note"] = "Acércate a {npc:172862} y síguelo abajo hasta una cueva cercana donde él se vuelve hostil."
+L["yero_note"] = "Acércate a {npc:172862} y síguelo para abajo hasta una cueva cercana donde él se vuelve hostil."
 
 L["exos_note"] = [[
-Mata a los tres Heraldos: {npc:169827}, {npc:170302} y {npc:170301}. Recoge de ellos sus inscripciones.
+Mata a los tres Heraldos: {npc:169827}, {npc:170302} y {npc:170301}. Recoge de ellos sus grabados.
 
 • {item:182328}
 • {item:182326}
 • {item:182327}
 
-Combina las tres inscripciones para crear la {item:182329}, la cual debe ser usada para invocar a {npc:170303}. Usa el {npc:173892} para llegar al nivel superior.
-]]--Revisar (SPELLNAME) que etchings sea inscripciones
+Combina los tres grabados para crear la {item:182329}, la cual puede ser usada para invocar a {npc:170303} en el Altar de Dominación. Usa el {npc:173892} para llegar al nivel superior.
+]]
 
-L["soul_well_note"] = "Atrapa la Estigia que surge del Pozo de Almas."--Revisar (SPELLNAME) que Stygia sea Estigia, que erupting sea surgiendo, (VIGNETTE, SPELLNAME, QUESTV2CLI) que Soul Well sea Pozo de Almas
-L["obliterated_soul_shards_note"] = "Recoge Fragmentos de Almas Eliminadas en los puentes."--Revisar (QUESTV2CLITASK) que Obliterated Soul Shards sea Fragmentos de Almas Eliminadas
+L["soul_well_note"] = "Atrapa la Estigia que sale del Pozo de Almas."
+L["obliterated_soul_shards_note"] = "Recoge {item:177834} en los puentes."
 
 L["chaotic_riftstone_note"] = [[
 Activa el {spell:344157} para cruzar rápidamente por Las Fauces.
@@ -403,7 +403,7 @@ L["options_icons_riftstone_desc"] = "Muestra las localizaciones de los teletrans
 ----------------------------------- ICECROWN ----------------------------------
 -------------------------------------------------------------------------------
 
-L["prepatch_intro"] = "Completa las misiones introductorias del evento del pre parche para desbloquear los raros de esta zona."
+L["prepatch_intro"] = "Completa las misiones introductorias del evento del preparche para desbloquear los raros de esta zona."
 L["icecrown_rares"] = "Todos los raros aparecen en un orden fijado cada 20 minutos."
 L["shared_loot"] = "Botín Compartido"
 L["unique_loot"] = "Botín Único"
