@@ -7,6 +7,7 @@ read_globals = {
     -- WoW helper functions
     'FormatPercentage',
     'floor',
+    'format',
     'hooksecurefunc',
     'sqrt',
     'strsub',
