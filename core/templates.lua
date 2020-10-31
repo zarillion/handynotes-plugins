@@ -92,7 +92,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                     icon = ns.GetIconLink(group.icon, 16)
                 end
                 UIDropDownMenu_AddButton({
-                    text = icon..' '..group.label,
+                    text = icon..' '..ns.RenderLinks(group.label, true),
                     isNotRadio = true,
                     keepShownOnClick = true,
                     hasArrow = true,

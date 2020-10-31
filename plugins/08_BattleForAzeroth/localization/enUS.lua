@@ -85,7 +85,7 @@ L["options_icons_mech_chest"] = "Mechanized Chests"
 L["options_icons_mech_chest_desc"] = "Display locations of mechanized chests. There are 10 unique chests that can be looted once a day and each chest has 4-5 spawn locations. Locations are grouped by color."
 L["options_icons_locked_chest"] = "Locked Chests"
 L["options_icons_locked_chest_desc"] = "Display locations of locked chests in the Western Spray."
-L["options_icons_recrig"] = "Reclamation Rig"
+L["options_icons_recrig"] = "{npc:150448}"
 L["options_icons_recrig_desc"] = "Display the location of the {npc:150448} and its rewards."
 
 -------------------------------------------------------------------------------
@@ -182,9 +182,9 @@ L["searth"] = "Small Earth"
 L["gearth"] = "Greater Earth"
 L["tentacle_taco"] = "Sells {item:170100} if you are wearing the Benthic {item:169489}."
 
-L["options_icons_slimes_nazj"] = "Ravenous Slimes"
+L["options_icons_slimes_nazj"] = "{npc:151782s}"
 L["options_icons_slimes_nazj_desc"] = "Display locations of the four {npc:151782s} that produce pets once fed."
-L["options_icons_cats_nazj"] = "Feline Figurines"
+L["options_icons_cats_nazj"] = "{achievement:13836}"
 L["options_icons_cats_nazj_desc"] = "Display locations of the cat figurines for the {achievement:13836} achievement."
 L["options_icons_misc_nazj"] = "Miscellaneous"
 L["options_icons_misc_nazj_desc"] = "Display the location of {npc:152593}'s cave and Mardivas's Laboratory."
@@ -213,7 +213,7 @@ L["carved_in_stone_41860"] = "Inside a destroyed building near the mountain."
 L["carved_in_stone_41861"] = "At the destroyed pillar."
 L["carved_in_stone_41862"] = "At the destroyed wall, in front of the huge pillar."
 L["carved_in_stone_42116"] = "At a pillar next to {npc:126126}."
-L["options_icons_carved_in_stone"] = "Carved in Stone"
+L["options_icons_carved_in_stone"] = "{achievement:13024}"
 L["options_icons_carved_in_stone_desc"] = "Display pictograph locations for {achievement:13024}."
 
 L["hoppin_sad_53419"] = "Behind two trees under a huge root."
@@ -222,7 +222,7 @@ L["hoppin_sad_53424"] = "On a cliff."
 L["hoppin_sad_53425"] = "On the tree near the waterfall."
 L["hoppin_sad_53426"] = "Under a few roots."
 
-L["options_icons_hoppin_sad"] = "Hoppin' Sad"
+L["options_icons_hoppin_sad"] = "{achievement:13028}"
 L["options_icons_hoppin_sad_desc"] = "Display {npc:143317} locations for the {achievement:13028} achievement."
 
 -------------------------------------------------------------------------------
@@ -253,15 +253,15 @@ L["ellie_vern_note"] = "I've found the toughest sea creatures around to battle f
 L["leana_darkwind_note"] = "Strange creatures on this island will make for a strange battle I suspect."
 
 L["honeyback_harvester_note"] = "Talk to the {npc:155193} to begin the event. The Fresh Jelly Deposit can be looted once an hour and resets on the hour."
-L["options_icons_honeybacks"] = "Honeyback Harvesters"
-L["options_icons_honeybacks_desc"] = "Display Honeyback Harvester event locations for farming Honeyback Hive reputation."
+L["options_icons_honeybacks"] = "{npc:155193s}"
+L["options_icons_honeybacks_desc"] = "Display {npc:155193} event locations for farming Honeyback Hive reputation."
 
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in Warfang Hold'
 L["these_hills_sing_note"] = "Open {item:160485} here. Buy one from "..luncheon.." or loot one from the \"Discarded Lunchbox\" treasure in Brennadam."
 
 L["ancient_tidesage_scroll"] = "Ancient Tidesage Scroll"
 L["ancient_tidesage_scroll_note"] = "Read all 8 Ancient Tidesage Scrolls to earn the achievement."
-L["options_icons_tidesage_legends"] = "Legends of the Tidesages"
+L["options_icons_tidesage_legends"] = "{achievement:13051}"
 L["options_icons_tidesage_legends_desc"] = "Display ancient scroll locations for the {achievement:13051} achievement."
 
 L["long_forgotten_rum_note"] = "To enter the cave, {quest:50697} must be completed from {npc:134710} in Deadwash. Also sold by {npc:137040} in Drustvar."
@@ -307,7 +307,7 @@ One of the three NPCs below will appear each time the {wq:Not Too Sober Citizens
 
 Recruit each one to complete the achievement. You will need to check the zone many times for the assault, world quest and correct NPCs to be active.
 ]]
-L["options_icons_upright_citizens"] = "Upright Citizens"
+L["options_icons_upright_citizens"] = "{achievement:13285}"
 L["options_icons_upright_citizens_desc"] = "Display NPC locations for the {achievement:13285} achievement."
 
 -------------------------------------------------------------------------------
@@ -533,7 +533,7 @@ L["plank_3"] = "On the side of the pyramid. Path starts at the other nearby plan
 L["plank_4"] = "At the top of a sand dune along the side of the pyramid."
 L["plank_5"] = "Follow the serpent's tail to find the plank."
 L["planks_ridden"] = "rickety planks ridden"
-L["options_icons_dune_rider"] = "Dune Rider"
+L["options_icons_dune_rider"] = "{achievement:13018}"
 L["options_icons_dune_rider_desc"] = "Display rickety plank locations for the {achievement:13018} achievement."
 
 L["elusive_alpaca"] = "Feed {item:161128} to the {npc:162681} to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
@@ -594,23 +594,23 @@ L["tales_zandalar_note"] = "Behind {npc:132989}."
 local shared_dinos = "The {daily:50860} daily must be active (one of four possible dailies) from the {npc:133680} quest line for them to appear. Anyone can see them on those days."
 L["azuresail_note"] = "Shares a short respawn timer with {npc:135512} and {npc:135508}.\n\n"..shared_dinos
 L["thunderfoot_note"] = "Shares a short respawn timer with {npc:135510} and {npc:135508}.\n\n"..shared_dinos
-L["options_icons_life_finds_a_way"] = "Life Finds a Way... To Die!"
+L["options_icons_life_finds_a_way"] = "{achievement:13048}"
 L["options_icons_life_finds_a_way_desc"] = "Display fearsome dinosaur locations for the {achievement:13048} achievement."
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["options_icons_mushroom_harvest"] = "Mushroom Harvest"
+L["options_icons_mushroom_harvest"] = "{achievement:13027}"
 L["options_icons_mushroom_harvest_desc"] = "Display fungarian villain locations for the {achievement:13027} achievement."
 
-L["options_icons_tales_of_de_loa"] = "A Loa of a Tale"
+L["options_icons_tales_of_de_loa"] = "{achievement:13036}"
 L["options_icons_tales_of_de_loa_desc"] = "Display tablet locations for the {achievement:13036} achievement."
 
 L["jani_note"] = "Click on the Mysterious Trashpile to reveal {npc:126334}."
 L["rezan_note"] = ns.color.Red("Inside the Atal'Dazar dungeon.")
 L["bow_to_your_masters_note"] = "Bow to the loa of Zandalar ("..ns.color.Orange('/bow')..")."
-L["options_icons_bow_to_your_masters"] = "Bow to Your Masters"
+L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
 L["options_icons_bow_to_your_masters_desc"] = "Display loa locations for the {achievement:13020} achievement."
 
 -- For Horde, include a note about drinks that must be purchased on the AH
@@ -624,5 +624,5 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ The followin
 • {item:163098}
 ]] or ''
 L["three_sheets_note"] = "Acquire one of every drink to earn the achievement."..horde_sheets
-L["options_icons_three_sheets"] = "Three Sheets to the Wind"
+L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "Display vendor locations for the {achievement:13061} achievement."

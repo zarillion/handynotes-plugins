@@ -22,7 +22,8 @@ function Group:Initialize(name, icon, attrs)
     self.label = L["options_icons_"..name]
     self.desc = L["options_icons_"..name.."_desc"]
 
-    -- Prepare any links in this group description
+    -- Prepare any links in this group label/description
+    ns.PrepareLinks(self.label)
     ns.PrepareLinks(self.desc)
 
     if attrs then
