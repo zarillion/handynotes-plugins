@@ -295,7 +295,7 @@ L["pirate_treasure_note"] = [[
 地图从任意的库尔提拉斯的海盗怪物掉落。自由镇（开放世界）是个收割海盗的好地点。
 ]]
 
-local damp_note =  "\n\n阅读全部五个卷轴以获得宝藏。"
+local damp_note =  "\n\n阅读全部五个卷轴以获得宝藏权限。"
 
 L["damp_scroll"] = "受潮的卷轴"
 L["damp_scroll_note_1"] = "入口在斯托颂修道院。"..damp_note
@@ -549,6 +549,9 @@ L["planks_ridden"] = "骑上摇晃的木板"
 L["options_icons_dune_rider"] = "{achievement:13018}"
 L["options_icons_dune_rider_desc"] = "显示 {achievement:13018} 成就中摇晃的木板的位置。"
 
+L["options_icons_scavenger_of_the_sands"] = "{achievement:13016}"
+L["options_icons_scavenger_of_the_sands_desc"] = "显示 {achievement:13016} 成就中垃圾物品的位置。"
+
 L["elusive_alpaca"] = "将 {item:161128} 喂给 {npc:162681} 以获得坐骑。一个位置存在10分钟，很长时间刷新。"
 
 -------------------------------------------------------------------------------
@@ -613,6 +616,13 @@ L["options_icons_life_finds_a_way_desc"] = "显示 {achievement:13048} 成就中
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
+
+L["get_hekd_req_quest"] = "从 {npc:126334} 处完成任务%s。"
+L["get_hekd_req_item"] = "拾取 %s 从 %s 垃圾堆附近拾取并带给 {npc:126334}。"
+local get_hekd_quests = (UnitFactionGroup('player') == 'Horde') and "\n位于达萨罗 {npc:127665} 的 {quest:47441} 和 {npc:126334} 的 {quest:47442}" or "\n位于沃顿 {npc:136562} 的 {quest:51142} 和 {npc:136559} 的 {quest:51145}"
+L["get_hekd_note"] = "要获得 {npc:126334} 访问权限，必须之前完成任务 "..get_hekd_quests.."。"
+L["options_icons_get_hekd"] = "{achievement:12482}"
+L["options_icons_get_hekd_desc"] = "显示 {achievement:12482} 成就中 {npc:126334} 任务的位置。"
 
 L["options_icons_mushroom_harvest"] = "{achievement:13027}"
 L["options_icons_mushroom_harvest_desc"] = "显示 {achievement:13027} 成就中真菌人的位置。"
