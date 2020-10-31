@@ -7,7 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 
-local Node = ns.node.Node
+local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
@@ -651,12 +651,11 @@ map.nodes[72105230] = honeyback
 --------------------------- LEGENDS OF THE TIDESAGES --------------------------
 -------------------------------------------------------------------------------
 
-local AncientScroll = Class('AncientScroll', Node, {
+local AncientScroll = Class('AncientScroll', Collectible, {
     icon=1500881,
     label=L["ancient_tidesage_scroll"],
     note=L["ancient_tidesage_scroll_note"],
-    group=ns.groups.TIDESAGE_LEGENDS,
-    IsCompleted = function (self) return self:IsCollected() end
+    group=ns.groups.TIDESAGE_LEGENDS
 })
 
 map.nodes[49518090] = AncientScroll({
@@ -711,8 +710,11 @@ map.nodes[75073113] = AncientScroll({
 --------------------------- THREE SHEETS TO THE WIND --------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[41215020] = ns.node.ThreeSheets({
+map.nodes[41215020] = Collectible({
     id=141853,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -722,16 +724,22 @@ map.nodes[41215020] = ns.node.ThreeSheets({
     }
 }) -- Rebecca Barnes
 
-map.nodes[44455419] = ns.node.ThreeSheets({
+map.nodes[44455419] = Collectible({
     id=135600,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria=41405}) -- Foaming Turtle Broth
     }
 }) -- Emma Haribull
 
-map.nodes[50883354] = ns.node.ThreeSheets({
+map.nodes[50883354] = Collectible({
     id=138905,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Horde',
     rewards={
         Achievement({id=13061, criteria={
@@ -743,8 +751,11 @@ map.nodes[50883354] = ns.node.ThreeSheets({
     }
 }) -- Rusty Blade Waitress
 
-map.nodes[58637025] = ns.node.ThreeSheets({
+map.nodes[58637025] = Collectible({
     id=138221,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -755,29 +766,26 @@ map.nodes[58637025] = ns.node.ThreeSheets({
     }
 }) -- "Nasty" Buck
 
-map.nodes[49075722] = Treasure({
+map.nodes[49075722] = Collectible({
     icon=135999,
-    scale=1,
     faction='Alliance',
     note=L["three_sheets_note"]..'\n\n'..L["long_forgotten_rum_note"],
     group=ns.groups.THREE_SHEETS,
     rewards={
         Achievement({id=13061, criteria=41409}) -- Long Forgotten Rum
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 }) -- Long Forgotten Rum
 
 -------------------------------------------------------------------------------
 ------------------------------- THESE HILLS SING ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[41256950] = Node({
+map.nodes[41256950] = Collectible({
     label="{achievement:13046}",
     note=L["these_hills_sing_note"],
     requires=ns.requirement.Item(160485), -- An Unforgettable Luncheon
     icon=2065627,
     rewards={
         Achievement({id=13046})
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 }) -- These Hills Sing

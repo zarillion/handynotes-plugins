@@ -10,9 +10,7 @@ local Group = ns.Group
 local Map = ns.Map
 
 local Node = ns.node.Node
-local NPC = ns.node.NPC
 local Quest = ns.node.Quest
-local Treasure = ns.node.Treasure
 
 -------------------------------------------------------------------------------
 
@@ -85,42 +83,6 @@ ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)
         C_Timer.After(1, function() ns.addon:Refresh() end)
     end
 end)
-
--------------------------------------------------------------------------------
-------------------------------- A LOA OF A TALE -------------------------------
--------------------------------------------------------------------------------
-
-ns.node.TalesOfTheLoa = Class('TalesOfTheLoa', Treasure, {
-    icon=1875083,
-    scale=1,
-    group=ns.groups.TALES_OF_DE_LOA,
-    IsCompleted = function (self)
-        if self:IsCollected() then return true end
-        return Treasure.IsCompleted(self)
-    end
-})
-
--------------------------------------------------------------------------------
------------------------------ BOW TO YOUR MASTERS -----------------------------
--------------------------------------------------------------------------------
-
-ns.node.BowToYourMasters = Class('BowToYourMasters', NPC, {
-    icon=1850548,
-    sublabel=L["bow_to_your_masters_note"],
-    group=ns.groups.BOW_TO_YOUR_MASTERS,
-    IsCompleted = function (self) return self:IsCollected() end
-})
-
--------------------------------------------------------------------------------
--------------------------- THREE SHEETS TO THE WIND ---------------------------
--------------------------------------------------------------------------------
-
-ns.node.ThreeSheets = Class('ThreeSheets', NPC, {
-    icon=135999,
-    note=L["three_sheets_note"],
-    group=ns.groups.THREE_SHEETS,
-    IsCompleted = function (self) return self:IsCollected() end
-})
 
 -------------------------------------------------------------------------------
 -------------------------------- TIMED EVENTS ---------------------------------

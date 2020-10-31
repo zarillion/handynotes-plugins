@@ -8,7 +8,7 @@ local Class = ns.Class
 local Clone = ns.Clone
 local Map = ns.Map
 
-local NPC = ns.node.NPC
+local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -534,16 +534,11 @@ map.nodes[63234687] = PetBattle({
 ------------------------------- NINE AFTERLIVES -------------------------------
 -------------------------------------------------------------------------------
 
-local Kitten = Class('Kitten', NPC, {
+local Kitten = Class('Kitten', Collectible, {
     sublabel = L["pet_cat"],
     icon = 3732497, -- inv_catslime
     group = ns.groups.SLIME_CAT
 })
-
-function Kitten:IsCompleted()
-    -- Stop showing the node once the achievement criteria is completed
-    return self:IsCollected()
-end
 
 map.nodes[65225065] = Kitten({id=174224, rewards={
     Achievement({id=14634, criteria=49428})

@@ -7,7 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 
-local NPC = ns.node.NPC
+local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -489,34 +489,40 @@ map.nodes[72864859] = PetBattle({
 ------------------------------- A LOA OF A TALE -------------------------------
 -------------------------------------------------------------------------------
 
-local TalesOfTheLoa = ns.node.TalesOfTheLoa
-
-map.nodes[39123865] = TalesOfTheLoa({
+map.nodes[39123865] = Collectible({
     quest=53534,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_bwonsamdi_note"],
     rewards={
         Achievement({id=13036, criteria=41565})
     }
 }) -- Tales of de Loa: Bwonsamdi
 
-map.nodes[39575467] = TalesOfTheLoa({
+map.nodes[39575467] = Collectible({
     quest=53537,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_hireek_note"],
     rewards={
         Achievement({id=13036, criteria=41568})
     }
 }) -- Tales of de Loa: Hir'eek
 
-map.nodes[58924865] = TalesOfTheLoa({
+map.nodes[58924865] = Collectible({
     quest=53540,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_kragwa_note"],
     rewards={
         Achievement({id=13036, criteria=41571})
     }
 }) -- Tales of de Loa: Krag'wa
 
-map.nodes[72850760] = TalesOfTheLoa({
+map.nodes[72850760] = Collectible({
     quest=53547,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note= L["tales_torga_note"],
     rewards={
         Achievement({id=13036, criteria=41579})
@@ -527,17 +533,21 @@ map.nodes[72850760] = TalesOfTheLoa({
 ----------------------------- BOW TO YOUR MASTERS -----------------------------
 -------------------------------------------------------------------------------
 
-local BowToYourMasters = ns.node.BowToYourMasters
-
-map.nodes[39562460] = BowToYourMasters({
+map.nodes[39562460] = Collectible({
     id=122688,
+    icon=1850548,
+    sublabel=L["bow_to_your_masters_note"],
+    group=ns.groups.BOW_TO_YOUR_MASTERS,
     rewards={
         Achievement({id=13020, criteria=41525})
     }
 }) -- Bwonsamdi
 
-map.nodes[75495684] = BowToYourMasters({
+map.nodes[75495684] = Collectible({
     id=120551,
+    icon=1850548,
+    sublabel=L["bow_to_your_masters_note"],
+    group=ns.groups.BOW_TO_YOUR_MASTERS,
     rewards={
         Achievement({id=13020, criteria=41495})
     }
@@ -547,11 +557,9 @@ map.nodes[75495684] = BowToYourMasters({
 ---------------------- CARVED IN STONE, WRITTEN IN BLOOD ----------------------
 -------------------------------------------------------------------------------
 
-local CarvedInStone = Class('CarvedInStone', Treasure, {
+local CarvedInStone = Class('CarvedInStone', Collectible, {
     icon=134424,
-    scale=1,
-    group=ns.groups.CARVED_IN_STONE,
-    IsCompleted = function (self) return self:IsCollected() end
+    group=ns.groups.CARVED_IN_STONE
 })
 
 map.nodes[56355736] = CarvedInStone({
@@ -586,18 +594,13 @@ map.nodes[42555710] = CarvedInStone({
 --------------------------------- HOPPIN' SAD ---------------------------------
 -------------------------------------------------------------------------------
 
-local HoppinSad = Class('HoppinSad', Rare, {
+local HoppinSad = Class('HoppinSad', Collectible, {
     id=143317,
     icon=804969,
-    scale=1,
     group=ns.groups.HOPPIN_SAD,
     rewards={
         Achievement({id=13028, criteria={{id=1, qty=true}}})
-    },
-    IsCompleted = function (self)
-        if self:IsCollected() then return true end
-        return Rare.IsCompleted(self)
-    end
+    }
 })
 
 map.nodes[69575866] = HoppinSad({quest=53417, note=L["in_water_cave"]})
@@ -615,7 +618,7 @@ map.nodes[25674057] = HoppinSad({quest=53426, note=L["hoppin_sad_53426"]})
 ------------------------- LIFE FINDS A WAY... TO DIE! -------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[24507282] = NPC({
+map.nodes[24507282] = Collectible({
     icon=236192,
     group=ns.groups.LIFE_FINDS_A_WAY,
     id=143898,
@@ -624,31 +627,28 @@ map.nodes[24507282] = NPC({
     },
     pois={
         Path({23627079, 24507282, 25407490, 25977537, 26687500, 26577351, 25797109, 25347037, 24436965, 23706943, 23496991, 23627079})
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 }) -- Makatau
 
 -------------------------------------------------------------------------------
 ------------------------------ MUSHROOM HARVEST -------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[52367026] = NPC({
+map.nodes[52367026] = Collectible({
     id=143316,
     icon=1869654,
     group=ns.groups.MUSHROOM_HARVEST,
     rewards={
         Achievement({id=13027, criteria=41390})
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 }) -- Skullcap
 
-map.nodes[73634868] = NPC({
+map.nodes[73634868] = Collectible({
     id=143311,
     icon=1869654,
     note=L["in_small_cave"],
     group=ns.groups.MUSHROOM_HARVEST,
     rewards={
         Achievement({id=13027, criteria=41393})
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 }) -- Toadcruel

@@ -7,6 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
@@ -733,7 +734,7 @@ map.nodes[71722570] = Cocoon({quest=55476, questDeps=55471})
 -------------------------------- CAT FIGURINES --------------------------------
 -------------------------------------------------------------------------------
 
-local Figurine = Class('CatFigurine', Node, {
+local Figurine = Class('CatFigurine', Collectible, {
     icon=454045,
     group=ns.groups.CATS_NAZJ,
     label=L["cat_figurine"],
@@ -741,11 +742,7 @@ local Figurine = Class('CatFigurine', Node, {
         Achievement({id=13836, criteria={
             {id=1, qty=true, suffix=L["figurines_found"]}
         }})
-    },
-    IsCompleted = function (self)
-        if self:IsCollected() then return true end
-        return Node.IsCompleted(self)
-    end
+    }
 })
 
 map.nodes[28752910] = Figurine({quest=56983, note=L["cat_figurine_01"]})

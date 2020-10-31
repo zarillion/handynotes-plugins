@@ -93,7 +93,7 @@ function Map:IsNodeEnabled(node, coord, minimap)
     -- Node may be faction restricted
     if node.faction and node.faction ~= ns.faction then return false end
 
-    -- Display the intro node!
+    -- Show/hide intro node, ignoring "Show completed"
     if node == self.intro then return not node:IsCompleted() end
 
     -- Check if node's group is disabled

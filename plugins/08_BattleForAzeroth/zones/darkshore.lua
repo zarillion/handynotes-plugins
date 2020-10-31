@@ -6,7 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.WarfrontMap
 
-local NPC = ns.node.NPC
+local Collectible = ns.node.Collectible
 local Rare = ns.Class('WFRare', ns.node.Rare, { questAny=true })
 
 local Mount = ns.reward.Mount
@@ -295,7 +295,7 @@ map.nodes[62390986] = Rare({
 ------------------------------- FRIGHTENED KODO -------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[41316548] = NPC({
+map.nodes[41316548] = Collectible({
     id=148790,
     icon=132245,
     note=L["frightened_kodo_note"],
@@ -304,7 +304,6 @@ map.nodes[41316548] = NPC({
     },
     pois={
         POI({41316548, 44046756, 41275401, 38006600, 39205650, 44006500})
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 }) -- Frightened Kodo
 

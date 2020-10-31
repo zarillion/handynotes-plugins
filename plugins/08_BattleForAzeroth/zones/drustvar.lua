@@ -6,6 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -552,8 +553,11 @@ map.nodes[63605971] = PetBattle({
 --------------------------- THREE SHEETS TO THE WIND --------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[21146615] = ns.node.ThreeSheets({
+map.nodes[21146615] = Collectible({
     id=139638,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     rewards={
         Achievement({id=13061, criteria={
             41400, -- Blacktooth Bloodwine
@@ -565,9 +569,11 @@ map.nodes[21146615] = ns.node.ThreeSheets({
     }
 }) -- Barkeep Cotner
 
-map.nodes[21474360] = ns.node.ThreeSheets({
+map.nodes[21474360] = Collectible({
     id=137040,
+    icon=135999,
     note=L["three_sheets_note"]..'\n\n'..L["linda_deepwater_note"],
+    group=ns.groups.THREE_SHEETS,
     rewards={
         Achievement({id=13061, criteria={
             41397, -- Admiralty-Issued Grog

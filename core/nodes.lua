@@ -20,7 +20,7 @@ Base class for all displayed nodes.
     label (string): Tooltip title for this node
     sublabel (string): Oneline string to display under label
     group (Group): Options group for this node (display, scale, alpha)
-    icon (string|table): The icon texture to display
+    icon (string|number): The icon texture to display
     alpha (float): The default alpha value for this type
     scale (float): The default scale value for this type
     minimap (bool): Should the node be displayed on the minimap
@@ -28,19 +28,18 @@ Base class for all displayed nodes.
     questAny (boolean): Hide node if *any* quests are true (default *all*)
     questCount (boolean): Display completed quest count as rlabel
     questDeps (int|int[]): Quest IDs that must be true to appear
-    requires (str): Requirement to interact or unlock (sets sublabel)
+    requires (str|Requirement[]): Requirements to interact or unlock
     rewards (Reward[]): Array of rewards for this node
-
 --]]
 
-local Node = Class('Node')
-
-Node.label = UNKNOWN
-Node.minimap = true
-Node.alpha = 1
-Node.scale = 1
-Node.icon = "default"
-Node.group = ns.groups.OTHER
+local Node = Class('Node', nil, {
+    label = UNKNOWN,
+    minimap = true,
+    alpha = 1,
+    scale = 1,
+    icon = "default",
+    group = ns.groups.OTHER
+})
 
 function Node:Initialize(attrs)
     -- assign all attributes
@@ -58,13 +57,10 @@ function Node:Initialize(attrs)
         self.requires = {self.requires}
     end
 
-    -- materialize group if given as a name
+    -- ensure proper group is assigned
     if not IsInstance(self.group, Group) then
         error('group attribute must be a Group class instance: '..self.group)
     end
-
-    -- display nodes on minimap by default
-    self.minimap = self.minimap ~= false
 end
 
 --[[
@@ -109,6 +105,33 @@ function Node:IsCollected()
         if not reward:IsObtained() then return false end
     end
     return true
+end
+
+--[[
+Return the "completed" state of this node. A node is completed if any or all
+associated quests have been completed. The behavior of any vs all is switched
+with the `questAny` attribute (default: all).
+
+This method can also be overridden to check for some other form of completion,
+such as an achievement criteria.
+
+This method is *not* called if the "Show completed" setting is enabled.
+--]]
+
+function Node:IsCompleted()
+    if self.quest and self.questAny then
+        -- Completed if *any* attached quest ids are true
+        for i, quest in ipairs(self.quest) do
+            if C_QuestLog.IsQuestFlaggedCompleted(quest) then return true end
+        end
+    elseif self.quest then
+        -- Completed only if *all* attached quest ids are true
+        for i, quest in ipairs(self.quest) do
+            if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
+        end
+        return true
+    end
+    return false
 end
 
 --[[
@@ -157,31 +180,6 @@ function Node:PrerequisiteCompleted()
         if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
     end
     return true
-end
-
---[[
-Return the "completed" state of this node. A node is completed if any or all
-associated quests have been completed. The behavior of any vs all is switched
-with the `questAny` attribute. This method can also be overridden to check for
-some other form of completion, such as an achievement criteria.
-
-This method is *not* called if the "Show completed" setting is enabled.
---]]
-
-function Node:IsCompleted()
-    if self.quest and self.questAny then
-        -- Completed if *any* attached quest ids are true
-        for i, quest in ipairs(self.quest) do
-            if C_QuestLog.IsQuestFlaggedCompleted(quest) then return true end
-        end
-    elseif self.quest then
-        -- Completed only if *all* attached quest ids are true
-        for i, quest in ipairs(self.quest) do
-            if not C_QuestLog.IsQuestFlaggedCompleted(quest) then return false end
-        end
-        return true
-    end
-    return false
 end
 
 --[[
@@ -309,6 +307,27 @@ function Node:Render(tooltip)
 end
 
 -------------------------------------------------------------------------------
+--------------------------------- COLLECTIBLE ---------------------------------
+-------------------------------------------------------------------------------
+
+local Collectible = Class('Collectible', Node)
+
+function Collectible.getters:label()
+    if self.id then return ("{npc:%d}"):format(self.id) end
+    for reward in self:IterateRewards() do
+        if IsInstance(reward, ns.reward.Achievement) then
+            return GetAchievementCriteriaInfoByID(reward.id, reward.criteria[1].id) or UNKNOWN
+        end
+    end
+    return UNKNOWN
+end
+
+function Collectible:IsCompleted()
+    if self:IsCollected() then return true end
+    return Node.IsCompleted(self)
+end
+
+-------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
 -------------------------------------------------------------------------------
 
@@ -433,6 +452,7 @@ end
 
 ns.node = {
     Node=Node,
+    Collectible=Collectible,
     Intro=Intro,
     NPC=NPC,
     PetBattle=PetBattle,

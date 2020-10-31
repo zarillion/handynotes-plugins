@@ -7,7 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 
-local NPC = ns.node.NPC
+local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -466,26 +466,30 @@ map.nodes[57134896] = PetBattle({
 ------------------------------- A LOA OF A TALE -------------------------------
 -------------------------------------------------------------------------------
 
-local TalesOfTheLoa = ns.node.TalesOfTheLoa
-
-map.nodes[42206206] = TalesOfTheLoa({
+map.nodes[42206206] = Collectible({
     quest=53532,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_akunda_note"],
     rewards={
         Achievement({id=13036, criteria=41564})
     }
 }) -- Tales of de Loa: Akunda
 
-map.nodes[27706205] = TalesOfTheLoa({
+map.nodes[27706205] = Collectible({
     quest=53539,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_kimbul_note"],
     rewards={
         Achievement({id=13036, criteria=41570})
     }
 }) -- Tales of de Loa: Kimbul
 
-map.nodes[49592446] = TalesOfTheLoa({
+map.nodes[49592446] = Collectible({
     quest=53543,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_sethraliss_note"],
     rewards={
         Achievement({id=13036, criteria=41574})
@@ -496,24 +500,31 @@ map.nodes[49592446] = TalesOfTheLoa({
 ----------------------------- BOW TO YOUR MASTERS -----------------------------
 -------------------------------------------------------------------------------
 
-local BowToYourMasters = ns.node.BowToYourMasters
-
-map.nodes[53189164] = BowToYourMasters({
+map.nodes[53189164] = Collectible({
     id=128152,
+    icon=1850548,
+    sublabel=L["bow_to_your_masters_note"],
+    group=ns.groups.BOW_TO_YOUR_MASTERS,
     rewards={
         Achievement({id=13020, criteria=41497})
     }
 }) -- Akunda
 
-map.nodes[56571023] = BowToYourMasters({
+map.nodes[56571023] = Collectible({
     id=123052,
+    icon=1850548,
+    sublabel=L["bow_to_your_masters_note"],
+    group=ns.groups.BOW_TO_YOUR_MASTERS,
     rewards={
         Achievement({id=13020, criteria=41499})
     }
 }) -- Kimbul
 
-map.nodes[27185257] = BowToYourMasters({
+map.nodes[27185257] = Collectible({
     id=135210,
+    icon=1850548,
+    sublabel=L["bow_to_your_masters_note"],
+    group=ns.groups.BOW_TO_YOUR_MASTERS,
     rewards={
         Achievement({id=13020, criteria=41503})
     }
@@ -523,7 +534,7 @@ map.nodes[27185257] = BowToYourMasters({
 --------------------------------- DUNE RIDER ----------------------------------
 -------------------------------------------------------------------------------
 
-local DuneRider = Class('DuneRider', NPC, {
+local DuneRider = Class('DuneRider', Collectible, {
     id=123535,
     icon=134962,
     group=ns.groups.DUNE_RIDER,
@@ -557,21 +568,20 @@ map.nodes[54902140] = DuneRider({criteria=41362, note=L["plank_5"], pois={
 ------------------------------ MUSHROOM HARVEST -------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[61001820] = NPC({
+map.nodes[61001820] = Collectible({
     id=143313,
     icon=1869654,
     group=ns.groups.MUSHROOM_HARVEST,
     rewards={
         Achievement({id=13027, criteria=41392})
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 }) -- Portakillo
 
 -------------------------------------------------------------------------------
 ------------------------------ ELUSIVE QUICKHOOF ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[43006900] = NPC({
+map.nodes[43006900] = Collectible({
     id=162681,
     icon=2916283,
     note=L["elusive_alpaca"],
@@ -583,6 +593,5 @@ map.nodes[43006900] = NPC({
             26405250, 29006600, 31106730, 42006000, 43006900, 51108590,
             52508900, 54008200, 54605320, 55007300
         })
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 })

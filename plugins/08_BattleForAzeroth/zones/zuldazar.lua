@@ -7,6 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
@@ -492,7 +493,7 @@ daz.nodes[72081446] = Totem({pois={Line({72081446, 59232283})}})
 ----------------------------------- MOUNTS ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[68174172] = NPC({
+map.nodes[68174172] = Collectible({
     id=122939,
     icon=2429953,
     quest={
@@ -505,11 +506,10 @@ map.nodes[68174172] = NPC({
     note=L["torcali_note"],
     rewards={
         Mount({item=168408, id=1249})
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 }) -- Child of Torcali
 
-map.nodes[70605100] = NPC({
+map.nodes[70605100] = Collectible({
     id=141025,
     icon=1624590,
     quest={
@@ -524,74 +524,87 @@ map.nodes[70605100] = NPC({
     },
     pois ={
         POI({54333384, 67803420}) -- farm spots
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 }) -- Kua'fon
 
 -------------------------------------------------------------------------------
 ------------------------------- A LOA OF A TALE -------------------------------
 -------------------------------------------------------------------------------
 
-local TalesOfTheLoa = ns.node.TalesOfTheLoa
-
-map.nodes[51692825] = TalesOfTheLoa({
+map.nodes[51692825] = Collectible({
     quest=53535,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_gonk_note"],
     rewards={
         Achievement({id=13036, criteria=41566})
     }
 }) -- Tales of de Loa: Gonk
 
-map.nodes[75506760] = TalesOfTheLoa({
+map.nodes[75506760] = Collectible({
     quest=53536,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_gral_note"],
     rewards={
         Achievement({id=13036, criteria=41567})
     }
 }) -- Tales of de Loa: Gral
 
-map.nodes[48545460] = TalesOfTheLoa({
+map.nodes[48545460] = Collectible({
     quest=53538,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_jani_note"],
     rewards={
         Achievement({id=13036, criteria=41569})
     }
 }) -- Tales of de Loa: Jani
 
-map.nodes[49004129] = TalesOfTheLoa({
+map.nodes[49004129] = Collectible({
     quest=53541,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_paku_note"],
     rewards={
         Achievement({id=13036, criteria=41572})
     }
 }) -- Tales of de Loa: Paku
 
-map.nodes[43737673] = TalesOfTheLoa({
+map.nodes[43737673] = Collectible({
     quest=53542,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_rezan_note"],
     rewards={
         Achievement({id=13036, criteria=41573})
     }
 }) -- Tales of de Loa: Rezan
 
-map.nodes[47842884] = TalesOfTheLoa({
+map.nodes[47842884] = Collectible({
     quest=53544,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_shadra_note"],
     rewards={
         Achievement({id=13036, criteria=41576})
     }
 }) -- Tales of de Loa: Shadra
 
-map.nodes[67281762] = TalesOfTheLoa({
+map.nodes[67281762] = Collectible({
     quest=53546,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_torcali_note"],
     rewards={
         Achievement({id=13036, criteria=41577})
     }
 }) -- Tales of de Loa: Torcali
 
-local taleszandalar = TalesOfTheLoa({
+local taleszandalar = Collectible({
     quest=53548,
+    icon=1875083,
+    group=ns.groups.TALES_OF_DE_LOA,
     note=L["tales_zandalar_note"],
     rewards={
         Achievement({id=13036, criteria=41581})
@@ -605,17 +618,21 @@ daz.nodes[53230929] = taleszandalar
 ----------------------------- BOW TO YOUR MASTERS -----------------------------
 -------------------------------------------------------------------------------
 
-local BowToYourMasters = ns.node.BowToYourMasters
-
-map.nodes[49274433] = BowToYourMasters({
+map.nodes[49274433] = Collectible({
     id=129740,
+    icon=1850548,
+    sublabel=L["bow_to_your_masters_note"],
+    group=ns.groups.BOW_TO_YOUR_MASTERS,
     rewards={
         Achievement({id=13020, criteria=41498})
     }
 }) -- Gonk
 
-local bowjani = BowToYourMasters({
+local bowjani = Collectible({
     id=126334,
+    icon=1850548,
+    sublabel=L["bow_to_your_masters_note"],
+    group=ns.groups.BOW_TO_YOUR_MASTERS,
     note=L["jani_note"],
     rewards={
         Achievement({id=13020, criteria=41500})
@@ -625,15 +642,21 @@ local bowjani = BowToYourMasters({
 map.nodes[53103165] = bowjani
 daz.nodes[35350767] = bowjani
 
-map.nodes[71544942] = BowToYourMasters({
+map.nodes[71544942] = Collectible({
     id=127377,
+    icon=1850548,
+    sublabel=L["bow_to_your_masters_note"],
+    group=ns.groups.BOW_TO_YOUR_MASTERS,
     rewards={
         Achievement({id=13020, criteria=41501})
     }
 }) -- Pa'ku
 
-local bowrezan = BowToYourMasters({
+local bowrezan = Collectible({
     id=124948,
+    icon=1850548,
+    sublabel=L["bow_to_your_masters_note"],
+    group=ns.groups.BOW_TO_YOUR_MASTERS,
     note=L["rezan_note"],
     rewards={
         Achievement({id=13020, criteria=41502})
@@ -647,10 +670,9 @@ Map({id=935}).nodes[37185259] = bowrezan
 ------------------------- LIFE FINDS A WAY... TO DIE! -------------------------
 -------------------------------------------------------------------------------
 
-local LifeFindsAWay = Class('LifeFindsAWay', NPC, {
+local LifeFindsAWay = Class('LifeFindsAWay', Collectible, {
     icon=236192,
-    group=ns.groups.LIFE_FINDS_A_WAY,
-    IsCompleted = function (self) return self:IsCollected() end
+    group=ns.groups.LIFE_FINDS_A_WAY
 })
 
 map.nodes[67012670] = LifeFindsAWay({
@@ -717,22 +739,24 @@ map.nodes[67802900] = LifeFindsAWay({
 ------------------------------ MUSHROOM HARVEST -------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[45497920] = NPC({
+map.nodes[45497920] = Collectible({
     id=143314,
     icon=1869654,
     group=ns.groups.MUSHROOM_HARVEST,
     rewards={
         Achievement({id=13027, criteria=41391})
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 }) -- Bane of the Woods
 
 -------------------------------------------------------------------------------
 --------------------------- THREE SHEETS TO THE WIND --------------------------
 -------------------------------------------------------------------------------
 
-local zuaba = ns.node.ThreeSheets({
+local zuaba = Collectible({
     id=131781,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Horde',
     rewards={
         Achievement({id=13061, criteria={
@@ -745,8 +769,11 @@ local zuaba = ns.node.ThreeSheets({
 map.nodes[53123464] = zuaba
 daz.nodes[35411665] = zuaba
 
-local lenne = ns.node.ThreeSheets({
+local lenne = Collectible({
     id=129376,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     rewards={
         Achievement({id=13061, criteria=41403}) -- Dark and Stormy
     }
@@ -755,8 +782,11 @@ local lenne = ns.node.ThreeSheets({
 map.nodes[56995955] = lenne
 daz.nodes[47049155] = lenne
 
-local whistlebrew = ns.node.ThreeSheets({
+local whistlebrew = Collectible({
     id=131511,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Horde',
     rewards={
         Achievement({id=13061, criteria=41400}) -- Blacktooth Bloodwine

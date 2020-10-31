@@ -8,8 +8,7 @@ local Class = ns.Class
 local Map = ns.Map
 local Clone = ns.Clone
 
-local Node = ns.node.Node
-local NPC = ns.node.NPC
+local Collectible = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Supply = ns.node.Supply
@@ -932,7 +931,7 @@ local function GetAlpacaStatus ()
     if count ~= nil then return ns.status.Gray(tostring(count)..'/7') end
 end
 
-local alpaca = Class('Alpaca', NPC, {
+local alpaca = Class('Alpaca', Collectible, {
     id=162765,
     icon=2916287,
     quest=58879,
@@ -942,11 +941,10 @@ local alpaca = Class('Alpaca', NPC, {
         52001900, 55006900, 62705340, 63011446, 70003900, 76636813
     })},
     rewards={Mount({id=1329, item=174859})}, -- Springfur Alpaca
-    getters={rlabel=GetAlpacaStatus},
-    IsCompleted = function (self) return self:IsCollected() end
+    getters={rlabel=GetAlpacaStatus}
 })()
 
-local gersahl = Class('Gersahl', Node, {
+local gersahl = Class('Gersahl', Collectible, {
     icon=134190,
     label=L["gersahl"],
     note=L["gersahl_note"],

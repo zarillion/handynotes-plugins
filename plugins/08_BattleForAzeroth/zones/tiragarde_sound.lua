@@ -7,7 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 
-local NPC = ns.node.NPC
+local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -572,8 +572,11 @@ map.nodes[86213862] = PetBattle({
 --------------------------- THREE SHEETS TO THE WIND --------------------------
 -------------------------------------------------------------------------------
 
-local joseph = ns.node.ThreeSheets({
+local joseph = Collectible({
     id=137411,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -590,8 +593,11 @@ local joseph = ns.node.ThreeSheets({
 map.nodes[68863123] = joseph
 bor.nodes[47744734] = joseph
 
-local moal = ns.node.ThreeSheets({
+local moal = Collectible({
     id=143487,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -604,8 +610,11 @@ local moal = ns.node.ThreeSheets({
 map.nodes[71413678] = moal
 bor.nodes[58177024] = moal
 
-local ruddy = ns.node.ThreeSheets({
+local ruddy = Collectible({
     id=142189,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -622,8 +631,11 @@ local ruddy = ns.node.ThreeSheets({
 map.nodes[74102699] = ruddy
 bor.nodes[69262986] = ruddy
 
-local harold_atkey = ns.node.ThreeSheets({
+local harold_atkey = Collectible({
     id=123639,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -641,8 +653,11 @@ local harold_atkey = ns.node.ThreeSheets({
 map.nodes[75582327] = harold_atkey
 bor.nodes[75331442] = harold_atkey
 
-local weber = ns.node.ThreeSheets({
+local weber = Collectible({
     id=142188,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -659,8 +674,11 @@ local weber = ns.node.ThreeSheets({
 map.nodes[75302407] = weber
 bor.nodes[74241776] = weber
 
-local ktatt = ns.node.ThreeSheets({
+local ktatt = Collectible({
     id=149397,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -677,8 +695,11 @@ local ktatt = ns.node.ThreeSheets({
 map.nodes[74563450] = ktatt
 bor.nodes[71186089] = ktatt
 
-local crimper = ns.node.ThreeSheets({
+local crimper = Collectible({
     id=134729,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -695,8 +716,11 @@ local crimper = ns.node.ThreeSheets({
 map.nodes[70653032] = crimper
 bor.nodes[54994361] = crimper
 
-local garrett = ns.node.ThreeSheets({
+local garrett = Collectible({
     id=143246,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -709,8 +733,11 @@ local garrett = ns.node.ThreeSheets({
 map.nodes[75602427] = garrett
 bor.nodes[75451861] = garrett
 
-local rockhold = ns.node.ThreeSheets({
+local rockhold = Collectible({
     id=135153,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -725,8 +752,11 @@ local rockhold = ns.node.ThreeSheets({
 map.nodes[75272283] = rockhold
 bor.nodes[74121265] = rockhold
 
-local seafinch = ns.node.ThreeSheets({
+local seafinch = Collectible({
     id=144115,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -741,8 +771,11 @@ local seafinch = ns.node.ThreeSheets({
 map.nodes[73443462] = seafinch
 bor.nodes[66516137] = seafinch
 
-local victor = ns.node.ThreeSheets({
+local victor = Collectible({
     id=143244,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -764,8 +797,11 @@ bor.nodes[72141491] = ns.Clone(victor, {pois={
     })
 }})
 
-local bored = ns.node.ThreeSheets({
+local bored = Collectible({
     id=139113,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -779,8 +815,11 @@ local bored = ns.node.ThreeSheets({
 map.nodes[70403797] = bored
 bor.nodes[53987523] = bored
 
-local mahogany = ns.node.ThreeSheets({
+local mahogany = Collectible({
     id=135216,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria=41404}) -- Drop Anchor Dunkel
@@ -792,8 +831,11 @@ bor.nodes[65463929] = mahogany
 
 -------------------------------------------------------------------------------
 
-map.nodes[49792529] = ns.node.ThreeSheets({
+map.nodes[49792529] = Collectible({
     id=126601,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     faction='Alliance',
     rewards={
         Achievement({id=13061, criteria={
@@ -807,8 +849,11 @@ map.nodes[49792529] = ns.node.ThreeSheets({
     }
 }) -- Sarella Griffin
 
-map.nodes[77198426] = ns.node.ThreeSheets({
+map.nodes[77198426] = Collectible({
     id=129044,
+    icon=135999,
+    note=L["three_sheets_note"],
+    group=ns.groups.THREE_SHEETS,
     rewards={
         Achievement({id=13061, criteria={
             41397, -- Admiralty-Issued Grog
@@ -821,11 +866,10 @@ map.nodes[77198426] = ns.node.ThreeSheets({
 ------------------------------ UPRIGHT CITIZENS -------------------------------
 -------------------------------------------------------------------------------
 
-local Citizen = Class('UprightCitizen', NPC, {
+local Citizen = Class('UprightCitizen', Collectible, {
     icon=516667,
     group=ns.groups.UPRIGHT_CITIZENS,
-    note=L["upright_citizens_node"],
-    IsCompleted = function (self) return self:IsCollected() end
+    note=L["upright_citizens_node"]
 })
 
 bor.nodes[66806410] = Citizen({

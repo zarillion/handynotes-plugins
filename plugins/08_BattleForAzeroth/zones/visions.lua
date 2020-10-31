@@ -8,11 +8,15 @@ local Class = ns.Class
 local Clone = ns.Clone
 
 local Map = ns.Map
+
+local Collectible = ns.node.Collectible
 local Node = ns.node.Node
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
+
 local Mount = ns.reward.Mount
 local Toy = ns.reward.Toy
+
 local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
@@ -181,15 +185,14 @@ orgrimmar.nodes[46828078] = Node({
     note=string.format(L["colored_potion_note"], '{npc:162324}')
 })
 
-orgrimmar.nodes[39906120] = NPC({
+orgrimmar.nodes[39906120] = Collectible({
     id=163441,
     icon=1001616,
     group=ns.groups.VISIONS_MISC,
     note=L["shave_kit_note"],
     rewards={
         Toy({item=174920}) -- Coifcurl's Close Shave Kit
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 })
 
 -------------------------------------------------------------------------------
@@ -309,15 +312,14 @@ stormwind.nodes[51765852] = Node({
     note=string.format(L["colored_potion_note"], '{npc:162231}')
 })
 
-stormwind.nodes[58905290] = Node({
+stormwind.nodes[58905290] = Collectible({
     icon=237272,
     group=ns.groups.VISIONS_MISC,
     label='{item:174921}',
     note=L["void_skull_note"],
     rewards={
         Toy({item=174921}) -- Void-Touched Skull
-    },
-    IsCompleted = function (self) return self:IsCollected() end
+    }
 })
 
 stormwind.nodes[59106390] = Rare({
