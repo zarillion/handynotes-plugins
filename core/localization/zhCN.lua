@@ -93,6 +93,10 @@ L["options_general_description"] = "控制该项的特性及其奖励的设置�
 L["options_global_description"] = "控制全部区域中全部的项显示的设置。"
 L["options_zones_description"] = "控制每个单独区域中的项显示的设置。"
 
+L["options_open_settings_panel"] = "打开设置面板…"
+L["options_open_world_map"] = "打开世界地图"
+L["options_open_world_map_desc"] = "打开此区域世界地图。"
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "图标设置"
