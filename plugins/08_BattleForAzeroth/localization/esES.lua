@@ -258,6 +258,13 @@ L["honeyback_harvester_note"] = "Habla con {npc:155193} para empezar el evento. 
 L["options_icons_honeybacks"] = "{npc:155193}"
 L["options_icons_honeybacks_desc"] = "Muestra las localizaciones del evento de la {npc:155193} para el farmeo de la reputación Colmena Mielabdomen."
 
+L["lets_bee_friends_note"] = "Completa la misión diaria {daily:53371} siete veces para conseguir el logro y la mascota. Para desbloquear la misión diaria:"
+L["lets_bee_friends_step_1"] = "Completa la cadena de misiones desde {quest:50343} hasta {quest:50553}."
+L["lets_bee_friends_step_2"] = "Kill {npc:133429} y {npc:131663} en Granja de Hidromiel Mildenhall hasta que te encuentres un {item:163699}."
+L["lets_bee_friends_step_3"] = "Dale el {item:163699} a {npc:143128} en Boralus."
+L["lets_bee_friends_step_4"] = "Dale la {item:163702} a {npc:133907} en Granja de Hidromiel Mildenhall."
+L["lets_bee_friends_step_5"] = "Completa la misión {quest:53347} para {npc:133907}."
+
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} en Brennadam' or '{npc:138096} en Fuerte Guerracolmillo'
 L["these_hills_sing_note"] = "Abre {item:160485} aquí. Cómpraselo a "..luncheon.." o despoja uno del tesoro \"Fiambrera desechada\" en Brennadam."
 
@@ -648,6 +655,13 @@ L["rezan_note"] = ns.color.Red("Dentro de la mazmorra Atal'Dazar.")
 L["bow_to_your_masters_note"] = "Reverencia a los loa de Zandalar ("..ns.color.Orange('/reverenciar')..")."
 L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
 L["options_icons_bow_to_your_masters_desc"] = "Muestra las localizaciones para el logro {achievement:13020}."
+
+L["alisha_note"] = "Este vendedor requiere progresar en las misiones de Drustvar."
+L["elijah_note"] = "Este vendedor requiere progresar en las misiones de Drustvar. Él comienza a vender salchichas tras hacer la misión {quest:47945}."
+L["raal_note"] = ns.color.Red("Está dentro de la mazmorraz Mansión Crestavía.")
+L["sausage_sampler_note"] = "Come cada una de las salchichas para conseguir el logro."
+L["options_icons_sausage_sampler"] = "{achievement:13087}"
+L["options_icons_sausage_sampler_desc"] = "Muestra las localizaciones de los vendedores para el logro {achievement:13087}."
 
 -- Para la Horda, incluida una nota para las bebidas que deben comprarse en la AH
 local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Las siguientes bebidas son inaccesibles para la Horda y deben comprarse en la casa de subastas:
