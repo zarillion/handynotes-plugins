@@ -619,9 +619,21 @@ if UnitFactionGroup('player') == 'Horde' then
 else
     hekd_note = hekd_note:format("{quest:51142} que te da el {npc:136562} en Voldun le sigue la misión {quest:51145} que te da {npc:136559}")
 end
+local hekd_quest = "Completa la misión %s que te da {npc:126334}."..ns.color.Orange(hekd_note)
+local hekd_item = "Despoja %s de %s cerca del montón de basura y llévaselo a {npc:126334}."..ns.color.Orange(hekd_note)
 
-L["get_hekd_req_quest"] = "Completa la misión %s que te da {npc:126334}."..ns.color.Orange(hekd_note)
-L["get_hekd_req_item"] = "Despoja %s de %s cerca del montón de basura y llévaselo a {npc:126334}."..ns.color.Orange(hekd_note)
+L["charged_junk_note"] = format(hekd_item, "{item:158910}", "{npc:135727}")
+L["feathered_junk_note"] = format(hekd_item, "{item:157794}", "{npc:132410}")
+L["golden_junk_note"] = format(hekd_item, "{item:156963}", "{npc:122504}")
+L["great_hat_junk_note"] = format(hekd_quest, "{quest:50381}")
+L["hunter_junk_note"] = format(hekd_quest, "{quest:50332}")
+L["loa_road_junk_note"] = format(hekd_quest, "{quest:50444}")
+L["nazwathan_junk_note"] = format(hekd_item, "{item:157802}", "{npc:131155}")
+L["redrock_junk_note"] = format(hekd_item, "{item:158916}", "{npc:134718}")
+L["ringhorn_junk_note"] = format(hekd_item, "{item:158915}", "{npc:130316}")
+L["saurid_junk_note"] = format(hekd_quest, "{quest:50901}")
+L["snapjaw_junk_note"] = format(hekd_item, "{item:157801}", "{npc:126723}")
+L["vilescale_junk_note"] = format(hekd_item, "{item:157797}", "{npc:125393}")
 L["options_icons_get_hekd"] = "{achievement:12482}"
 L["options_icons_get_hekd_desc"] = "Muestras las localizaciones de las tareas de {npc:126334} para el logro {achievement:12482}."
 
