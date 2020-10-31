@@ -192,7 +192,7 @@ L["anima_shard_61297"] = "Behind a stone pillar."
 L["anima_shard_61298"] = "Sitting behind a lounge chair."
 L["anima_shard_61299"] = "Hidden behind a large torch."
 L["anima_shard_61300"] = "On a ledge hanging over the central font."
-L["options_icons_anima_shard"] = "Shard Labor"
+L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "Display the locations of all 50 lost anima shards for the {achievement:14339} achievement."
 
 L["aspirants_rest"] = "Aspirant's Rest"
@@ -281,7 +281,7 @@ L["lime"] = "Sitting on top of the large bone arch."
 L["moldstopheles"] = "Run around the back of the stalk and jump up the mushroom platforms. For the final platform, use a mount and jump at the corner where it meets the stalk."
 L["pus_in_boots"] = "Located under the bridge."
 
-L["options_icons_slime_cat"] = "Nine Afterlives"
+L["options_icons_slime_cat"] = "{achievement:14634}"
 L["options_icons_slime_cat_desc"] = "Display locations of kittens for the {achievement:14634} achievement."
 
 L["exoramas"] = "Exoramas, House of Rituals"
