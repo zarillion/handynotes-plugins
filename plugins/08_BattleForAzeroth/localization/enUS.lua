@@ -604,6 +604,13 @@ L["options_icons_life_finds_a_way_desc"] = "Display fearsome dinosaur locations 
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
+L["get_hekd_req_quest"] = "Complete the quest %s from {npc:126334}."
+L["get_hekd_req_item"] = "Loot %s from %s near the trashpile and bring it to {npc:126334}."
+local get_hekd_quests = (UnitFactionGroup('player') == 'Horde') and "\n{quest:47441} from {npc:127665} in Dazar'alor and {quest:47442} from {npc:126334}" or "\n{quest:51142} from {npc:136562} in Voldun and {quest:51145} from {npc:136559}"
+L["get_hekd_note"] = "To gain access to {npc:126334}, you need to complete the quests "..get_hekd_quests.." before."
+L["options_icons_get_hekd"] = "{achievement:12482}"
+L["options_icons_get_hekd_desc"] = "Display tasks for {npc:126334} locations for the {achievement:12482} achievement."
+
 L["options_icons_mushroom_harvest"] = "{achievement:13027}"
 L["options_icons_mushroom_harvest_desc"] = "Display fungarian villain locations for the {achievement:13027} achievement."
 

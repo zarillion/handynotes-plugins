@@ -23,12 +23,6 @@
 
 * War Supply drop locations in 8.0 zones
 
-## Zandalar
-
-### Optional
-
-* [Get Hek'd](https://www.wowhead.com/achievement=12482/get-hekd)
-
 ## Kul Tiras
 
 ### Optional

@@ -667,6 +667,59 @@ map.nodes[44823815] = bowrezan
 Map({id=935}).nodes[37185259] = bowrezan
 
 -------------------------------------------------------------------------------
+---------------------------------- GET HEK'D ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[66211662] = Collectible({
+    quest=50332,
+    icon=1604165,
+    sublabel=L["get_hekd_note"],
+    note=format(L["get_hekd_req_quest"], "{quest:50332}"),
+    group=ns.groups.GET_HEKD,
+    rewards={
+        Achievement({id=12482, criteria=40038})
+    }
+}) -- Big Hunter Mon
+
+map.nodes[62632058] = Collectible({
+    quest=50331,
+    icon=1604165,
+    sublabel=L["get_hekd_note"],
+    note=format(L["get_hekd_req_item"], "{item:157794}", "{npc:132410}"),
+    group=ns.groups.GET_HEKD,
+--    item=157794,
+    rewards={
+        Achievement({id=12482, criteria=40040})
+    }
+}) -- Feathered Serpent Scale
+
+map.nodes[71704128] = Collectible({
+    quest=50308,
+    icon=1604165,
+    sublabel=L["get_hekd_note"],
+    note=format(L["get_hekd_req_item"], "{item:156963}", "{npc:122504}"),
+    group=ns.groups.GET_HEKD,
+--    item=156963,
+    rewards={
+        Achievement({id=12482, criteria=40037})
+    }
+}) -- Golden Ravasaur Egg
+
+local greathatrobbery = Collectible({
+    quest=50381,
+    icon=1604165,
+    sublabel=L["get_hekd_note"],
+    note=format(L["get_hekd_req_quest"], "{quest:50381}"),
+    group=ns.groups.GET_HEKD,
+    rewards={
+        Achievement({id=12482, criteria=40039})
+    }
+}) -- The Great Hat Robbery
+
+map.nodes[61964689] = greathatrobbery
+daz.nodes[61825347] = greathatrobbery
+
+-------------------------------------------------------------------------------
 ------------------------- LIFE FINDS A WAY... TO DIE! -------------------------
 -------------------------------------------------------------------------------
 

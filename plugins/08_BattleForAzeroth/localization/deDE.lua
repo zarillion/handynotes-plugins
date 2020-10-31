@@ -614,6 +614,13 @@ L["options_icons_life_finds_a_way_desc"] = "Zeigt die Positionen der fürchterli
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
+L["get_hekd_req_quest"] = "Schließe die Quest %s von {npc:126334} ab."
+L["get_hekd_req_item"] = "Plündere den Gegenstand %s von %s in der Nähe und bringe ihn zu {npc:126334}."
+local get_hekd_quests = (UnitFactionGroup('player') == 'Horde') and "\n{quest:47441} von {npc:127665} in Dazar'alor und\n{quest:47442} von {npc:126334}" or "\n{quest:51142} von {npc:136562} in Voldun und {quest:51145}\nvon {npc:136559}"
+L["get_hekd_note"] = "Um Zugang zu Jani zu erhalten, müssen zuerst die zwei Quests"..get_hekd_quests.." abgeschlossen werden."
+L["options_icons_get_hekd"] = "{achievement:12482}"
+L["options_icons_get_hekd_desc"] = "Zeigt die Positionen der Aufgaben von Jani für den Erfolg {achievement:12482} an."
+
 L["options_icons_mushroom_harvest"] = "Pilzernte"
 L["options_icons_mushroom_harvest_desc"] = "Zeigt die Positionen der Fungianerbösewichte für den Erfolg {achievement:13027} an."
 
