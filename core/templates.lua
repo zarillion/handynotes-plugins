@@ -107,7 +107,6 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         end
 
         UIDropDownMenu_AddSeparator()
-
         UIDropDownMenu_AddButton({
             text = L["options_show_completed_nodes"],
             isNotRadio = true,
@@ -117,7 +116,6 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                 ns:SetOpt('show_completed_nodes', button.checked)
             end
         })
-
         UIDropDownMenu_AddButton({
             text = L["options_toggle_use_char_achieves"],
             isNotRadio = true,
@@ -125,6 +123,21 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             checked = ns:GetOpt('use_char_achieves'),
             func = function (button, option)
                 ns:SetOpt('use_char_achieves', button.checked)
+            end
+        })
+
+        UIDropDownMenu_AddSeparator()
+        UIDropDownMenu_AddButton({
+            text = L["options_open_settings_panel"],
+            isNotRadio = true,
+            notCheckable = true,
+            disabled = not map.settings,
+            func = function (button, option)
+                InterfaceOptionsFrame_Show()
+                InterfaceOptionsFrame_OpenToCategory('HandyNotes')
+                LibStub('AceConfigDialog-3.0'):SelectGroup(
+                    'HandyNotes', 'plugins', ADDON_NAME, 'ZonesTab', 'Zone_'..map.id
+                )
             end
         })
     elseif level == 2 then

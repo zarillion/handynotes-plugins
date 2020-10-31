@@ -65,6 +65,10 @@ read_globals = {
     'CreateFromMixins',
     'GameTooltip_AddNormalLine',
     'GameTooltip_SetTitle',
+    'HideUIPanel',
+    'InterfaceOptionsFrame_Show',
+    'InterfaceOptionsFrame_OpenToCategory',
+    'OpenWorldMap',
     'ToggleDropDownMenu',
     'UIDropDownMenu_AddButton',
     'UIDropDownMenu_AddSeparator',
@@ -72,7 +76,9 @@ read_globals = {
     'UIDropDownMenu_SetInitializeFunction',
 
     -- WoW UI Frames & Mixins
+    'GameMenuFrame',
     'GameTooltip',
+    'InterfaceOptionsFrame',
     'MapCanvasDataProviderMixin',
     'MapCanvasPinMixin',
     'Minimap',

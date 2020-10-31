@@ -93,6 +93,10 @@ L["options_general_description"] = "Settings that control the behavior of nodes 
 L["options_global_description"] = "Settings that control the display of all nodes in all zones."
 L["options_zones_description"] = "Settings that control the display of nodes in each individual zone."
 
+L["options_open_settings_panel"] = "Open Settings Panel ..."
+L["options_open_world_map"] = "Open World Map"
+L["options_open_world_map_desc"] = "Open this zone in the world map."
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "Icon Settings"

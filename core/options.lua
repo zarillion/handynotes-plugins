@@ -268,18 +268,32 @@ function ns.CreateGroupOptions (map, group)
             type = "group",
             name = C_Map.GetMapInfo(map.id).name,
             args = {
+                OpenWorldMap = {
+                    type = "execute",
+                    name = L["options_open_world_map"],
+                    desc = L["options_open_world_map_desc"],
+                    order = 1,
+                    width = "full",
+                    func = function ()
+                        if not WorldMapFrame:IsShown() then
+                            InterfaceOptionsFrame:Hide()
+                            HideUIPanel(GameMenuFrame)
+                        end
+                        OpenWorldMap(map.id)
+                    end
+                },
                 IconsGroup = {
                     type = "group",
                     name = L["options_icon_settings"],
                     inline = true,
-                    order = 1,
+                    order = 2,
                     args = {}
                 },
                 VisibilityGroup = {
                     type = "group",
                     name = L["options_visibility_settings"],
                     inline = true,
-                    order = 2,
+                    order = 3,
                     args = {}
                 }
             }
