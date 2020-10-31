@@ -632,7 +632,7 @@ else
 end
 
 L["get_hekd_req_quest"] = "从 {npc:126334} 完成任务 %s。"..ns.color.Orange(hekd_note)
-L["get_hekd_req_item"] = "拾取 %s 从 %s 垃圾堆附近拾取并带给 {npc:126334}。"..ns.color.Orange(hekd_note)
+L["get_hekd_req_item"] = "从垃圾堆附近的 %2$s 拾取 %1$s 并带给 {npc:126334}。"..ns.color.Orange(hekd_note)
 L["options_icons_get_hekd"] = "{achievement:12482}"
 L["options_icons_get_hekd_desc"] = "显示 {achievement:12482} 成就中 {npc:126334} 任务的位置。"
 
