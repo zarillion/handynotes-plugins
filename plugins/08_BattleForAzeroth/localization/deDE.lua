@@ -546,6 +546,9 @@ L["planks_ridden"] = "Wackelige Planken geritten."
 L["options_icons_dune_rider"] = "Dünenreiter"
 L["options_icons_dune_rider_desc"] = "Zeigt die Positionen der wackeligen Planken für den Erfolg {achievement:13018} an."
 
+L["options_icons_scavenger_of_the_sands"] = "{achievement:13016}"
+L["options_icons_scavenger_of_the_sands_desc"] = "Zeigt die Positionen des Plunders für den Erfolg {achievement:13016} an."
+
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
 
 -------------------------------------------------------------------------------

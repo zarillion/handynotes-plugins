@@ -536,6 +536,9 @@ L["planks_ridden"] = "rickety planks ridden"
 L["options_icons_dune_rider"] = "{achievement:13018}"
 L["options_icons_dune_rider_desc"] = "Display rickety plank locations for the {achievement:13018} achievement."
 
+L["options_icons_scavenger_of_the_sands"] = "{achievement:13016}"
+L["options_icons_scavenger_of_the_sands_desc"] = "Show junk item locations for the {achievement:13016} achievement."
+
 L["elusive_alpaca"] = "Feed {item:161128} to the {npc:162681} to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
 
 -------------------------------------------------------------------------------

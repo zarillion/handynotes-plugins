@@ -578,6 +578,136 @@ map.nodes[61001820] = Collectible({
 }) -- Portakillo
 
 -------------------------------------------------------------------------------
+--------------------------- SCAVENGER OF THE SANDS ----------------------------
+-------------------------------------------------------------------------------
+
+local ScavengerOfTheSands = Class('ScavengerOfTheSands', Collectible, {
+    icon=135725,
+    scale=1,
+    group=ns.groups.SCAVENGER_OF_THE_SANDS,
+})
+
+map.nodes[37803046] = ScavengerOfTheSands({
+    quest=53135,
+    rewards={
+        Achievement({id=13016, criteria=41345}),
+--        Item({item=163324})
+    }
+}) -- Brian's Broken Compass
+
+map.nodes[45883073] = ScavengerOfTheSands({
+    quest=53141,
+    rewards={
+        Achievement({id=13016, criteria=41351}),
+--        Item({item=163372})
+    }
+}) -- Damarcus' Backpack
+
+map.nodes[36217838] = ScavengerOfTheSands({
+    quest=53133,
+    rewards={
+        Achievement({id=13016, criteria=41343}),
+--        Item({item=163322})
+    }
+}) -- Ian's Empty Bottle
+
+map.nodes[56297011] = ScavengerOfTheSands({
+    quest=53132,
+    rewards={
+        Achievement({id=13016, criteria=41342}),
+--        Item({item=163321})
+    }
+}) -- Jason's Rusty Blade
+
+map.nodes[47933673] = ScavengerOfTheSands({
+    quest=53143,
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=13016, criteria=41353}),
+--        Item({item=163374})
+    },
+    pois={
+        POI({47923545}) -- Entrance
+    }
+}) -- Josh's Fang Necklace
+
+map.nodes[53568981] = ScavengerOfTheSands({
+    quest=53134,
+    rewards={
+        Achievement({id=13016, criteria=41344}),
+--        Item({item=163323})
+    }
+}) -- Julie's Cracked Dish
+
+map.nodes[52431439] = ScavengerOfTheSands({
+    quest=53138,
+    rewards={
+        Achievement({id=13016, criteria=41348}),
+--        Item({item=163327})
+    }
+}) -- Julien's Left Boot
+
+map.nodes[62862267] = ScavengerOfTheSands({
+    quest=53145,
+    rewards={
+        Achievement({id=13016, criteria=41355}),
+--        Item({item=163376})
+    }
+}) -- Kurt's Ornate Key
+
+map.nodes[43217700] = ScavengerOfTheSands({
+    quest=53139,
+    rewards={
+        Achievement({id=13016, criteria=41349}),
+--        Item({item=163328})
+    }
+}) -- Navarro's Flask
+
+map.nodes[26795291] = ScavengerOfTheSands({
+    quest=53136,
+    rewards={
+        Achievement({id=13016, criteria=41346}),
+--        Item({item=163325})
+    }
+}) -- Ofer's Bound Journal
+
+map.nodes[45229114] = ScavengerOfTheSands({
+    quest=53144,
+    rewards={
+        Achievement({id=13016, criteria=41354}),
+--        Item({item=163375})
+    }
+}) -- Portrait of Commander Martens
+
+map.nodes[66413595] = ScavengerOfTheSands({
+    quest=53142,
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=13016, criteria=41352}),
+--        Item({item=163373})
+    },
+    pois={
+        POI({64873610}) -- Entrance
+    }
+}) -- Rachel's Flute
+
+map.nodes[29465938] = ScavengerOfTheSands({
+    quest=53137,
+    rewards={
+        Achievement({id=13016, criteria=41347}),
+--        Item({item=163326})
+    }
+}) -- Skye's Pet Rock
+
+map.nodes[47067577] = ScavengerOfTheSands({
+    quest=53140,
+    rewards={
+        Achievement({id=13016, criteria=41350}),
+--        Item({item=163329})
+    }
+}) -- Zach's Canteen
+
+-------------------------------------------------------------------------------
 ------------------------------ ELUSIVE QUICKHOOF ------------------------------
 -------------------------------------------------------------------------------
 
