@@ -308,6 +308,14 @@ L["burly_note"] = "Die kleinen Jungs sind wirklich komisch, aber sie haben ganz 
 L["delia_hanako_note"] = "Bevor wir anfangen, will ich Euch nur daran erinnern, dass Ihr Euch nicht zu arg grämen sollt, wenn mein Team das Eure vernichtet."
 L["kwint_note"] = "Wenn Ihr meinesgleichen besiegen wollt, werdet Ihr ein größeres Boot brauchen, um die hier wegzuschaffen."
 
+L["shanty_fruit_note"] = "Plündere das Staubige Gesangbuch. Auf dem Boden in einer kleinen Höhle."
+L["shanty_horse_note"] = "Plündere das Gesangbuch des Halunken, Auf der Bar in der Taverne."
+L["shanty_inebriation_note"] = "Plündere Jays Gesangbuch. Auf dem Boden hinter {npc:141066}."
+L["shanty_lively_note"] = "Plündere Russells Gesangbuch. Auf dem Kaminsims."
+L["options_icons_shanty_raid"] = "{achievement:13057}"
+L["options_icons_shanty_raid_desc"] = "Zeigt die Positionen der verbotenen Seemannslieder für den Erfolg {achievement:13057} an."
+
+
 L["upright_citizens_node"] = [[
 Jedesmal, wenn die Übergriffsquest {wq:Nicht allzu nüchterne Bürgerwehr} aktiv ist, wird einer der drei unteren NPCs erscheinen.
 
@@ -614,7 +622,7 @@ L["options_icons_life_finds_a_way_desc"] = "Zeigt die Positionen der fürchterli
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-local hekd_note = "\n\nUm Zugang zu Jani zu erhalten, müssen zuerst die zwei Quests %s abgeschlossen werden."
+local hekd_note = "\n\nUm Zugang zu {npc:126334} zu erhalten, müssen zuerst die zwei Quests %s abgeschlossen werden."
 if UnitFactionGroup('player') == 'Horde' then
     hekd_note = hekd_note:format("{quest:47441} von {npc:127665} in Dazar'alor und {quest:47442} von {npc:126334}")
 else
@@ -623,18 +631,18 @@ end
 local hekd_quest = "Schließe die Quest %s von {npc:126334} ab."..ns.color.Orange(hekd_note)
 local hekd_item = "Plündere den Gegenstand %s von %s in der Nähe und bringe ihn zu {npc:126334}."..ns.color.Orange(hekd_note)
 
-L["charged_junk_note"] = format(hekd_item, "{item:158910}", "{npc:135727}")
-L["feathered_junk_note"] = format(hekd_item, "{item:157794}", "{npc:132410}")
-L["golden_junk_note"] = format(hekd_item, "{item:156963}", "{npc:122504}")
+L["charged_junk_note"] = format(hekd_item, "{item:158910}", "{npc:135727n}")
+L["feathered_junk_note"] = format(hekd_item, "{item:157794}", "{npc:132410n}")
+L["golden_junk_note"] = format(hekd_item, "{item:156963}", "{npc:122504en}")
 L["great_hat_junk_note"] = format(hekd_quest, "{quest:50381}")
 L["hunter_junk_note"] = format(hekd_quest, "{quest:50332}")
 L["loa_road_junk_note"] = format(hekd_quest, "{quest:50444}")
-L["nazwathan_junk_note"] = format(hekd_item, "{item:157802}", "{npc:131155}")
-L["redrock_junk_note"] = format(hekd_item, "{item:158916}", "{npc:134718}")
-L["ringhorn_junk_note"] = format(hekd_item, "{item:158915}", "{npc:130316}")
+L["nazwathan_junk_note"] = format(hekd_item, "{item:157802}", ns.color.Yellow("Wächtern von Nazwatha")) -- {npc:131155}
+L["redrock_junk_note"] = format(hekd_item, "{item:158916}", ns.color.Yellow("Aasfressern von Rotfels")) -- {npc:134718}
+L["ringhorn_junk_note"] = format(hekd_item, "{item:158915}", "{npc:130316n}")
 L["saurid_junk_note"] = format(hekd_quest, "{quest:50901}")
-L["snapjaw_junk_note"] = format(hekd_item, "{item:157801}", "{npc:126723}")
-L["vilescale_junk_note"] = format(hekd_item, "{item:157797}", "{npc:125393}")
+L["snapjaw_junk_note"] = format(hekd_item, "{item:157801}", "{npc:126723n}")
+L["vilescale_junk_note"] = format(hekd_item, "{item:157797}", ns.color.Yellow("Wächtern der Faulschuppen")) -- {npc:125393}
 L["options_icons_get_hekd"] = "{achievement:12482}"
 L["options_icons_get_hekd_desc"] = "Zeigt die Positionen der Aufgaben von Jani für den Erfolg {achievement:12482} an."
 
@@ -650,6 +658,13 @@ L["bow_to_your_masters_note"] = "Zollt den Loa Zandalars Respekt, indem Ihr Euch
 L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
 L["options_icons_bow_to_your_masters_desc"] = "Zeigt die Positionen der Loa für den Erfolg {achievement:13020} an."
 
+L["alisha_note"] = "Dieser Händler benötigt einen gewissen Questfortschritt in Drustvar."
+L["elijah_note"] = "Dieser Händler benötigt einen gewissen Questfortschritt in Drustvar. Er verkauft erst nach der Quest {quest:47945} Würste."
+L["raal_note"] = ns.color.Red("Im Dungeon \"Das Kronsteiganwesen\".")
+L["sausage_sampler_note"] = "Iss einmal jede Wurst, um den Erfolg zu erringen."
+L["options_icons_sausage_sampler"] = "{achievement:13087}"
+L["options_icons_sausage_sampler_desc"] = "Zeigt die Positionen der Händler für den Erfolg {achievement:13087} an."
+
 -- For Horde, include a note about drinks that must be purchased on the AH
 local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Die folgenden Getränke sind für Horde nicht verfügbar und müssen im Auktionshaus gekauft werden:
 
@@ -661,5 +676,5 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Die folgende
 • {item:163098}
 ]] or ''
 L["three_sheets_note"] = "Erwirb alle Getränke, um den Erfolg zu erringen."..horde_sheets
-L["options_icons_three_sheets"] = "Voll bis Oberkante Unterlippe"
+L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "Zeigt die Positionen der Händler für den Erfolg {achievement:13061} an."
