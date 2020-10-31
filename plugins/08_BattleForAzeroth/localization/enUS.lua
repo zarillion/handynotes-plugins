@@ -256,6 +256,13 @@ L["honeyback_harvester_note"] = "Talk to the {npc:155193} to begin the event. Th
 L["options_icons_honeybacks"] = "{npc:155193s}"
 L["options_icons_honeybacks_desc"] = "Display {npc:155193} event locations for farming Honeyback Hive reputation."
 
+L["lets_bee_friends_note"] = "Complete {daily:53371} seven times to earn the achievement and pet. To unlock the daily:"
+L["lets_bee_friends_step_1"] = "Complete the Mildenhall Meadery questline through {quest:50553}."
+L["lets_bee_friends_step_2"] = "Kill {npc:133429s} and {npc:131663s} at Mildenhall Meadery until you find an {item:163699}."
+L["lets_bee_friends_step_3"] = "Bring {item:163699} to {npc:143128} in Boralus."
+L["lets_bee_friends_step_4"] = "Bring {item:163702} to {npc:133907} at Mildenhall Meadery."
+L["lets_bee_friends_step_5"] = "Complete {quest:53347} for {npc:133907}."
+
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in Warfang Hold'
 L["these_hills_sing_note"] = "Open {item:160485} here. Buy one from "..luncheon.." or loot one from the \"Discarded Lunchbox\" treasure in Brennadam."
 

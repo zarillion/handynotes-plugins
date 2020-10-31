@@ -775,6 +775,50 @@ map.nodes[49075722] = Collectible({
     }
 }) -- Long Forgotten Rum
 
+
+-------------------------------------------------------------------------------
+------------------------------ LET'S BEE FRIENDS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[71106917] = Class('Bumbles', Collectible, {
+    id=143658,
+    icon=2027853,
+    faction='Alliance',
+    rewards={
+        Achievement({id=13062, criteria={id=1, qty=true}}),
+        Pet({item=163776, id=2442}) -- Large Honeycomb Cluster
+    },
+    getters={
+        note=function(self)
+            local function qstep(step, quest)
+                if C_QuestLog.IsQuestFlaggedCompleted(quest) then
+                    return ns.status.Green(step)
+                else
+                    return ns.status.Red(step)
+                end
+            end
+            local function istep(step, item, quest)
+                if ns.PlayerHasItem(item) or C_QuestLog.IsQuestFlaggedCompleted(quest) then
+                    return ns.status.Green(step)
+                else
+                    return ns.status.Red(step)
+                end
+            end
+
+            local note = L["lets_bee_friends_note"]
+            note = note..'\n\n'..qstep(1, 50553)..' '..L["lets_bee_friends_step_1"]
+            note = note..'\n\n'..istep(2, 163699, 53111)..' '..L["lets_bee_friends_step_2"]
+            note = note..'\n\n'..qstep(3, 53111)..' '..L["lets_bee_friends_step_3"]
+            note = note..'\n\n'..qstep(4, 53200)..' '..L["lets_bee_friends_step_4"]
+            note = note..'\n\n'..qstep(5, 53347)..' '..L["lets_bee_friends_step_5"]
+            return note
+        end,
+        rlabel=function(self)
+            return ns.status.Gray(select(9, GetAchievementCriteriaInfo(13062, 1)))
+        end
+    }
+})()
+
 -------------------------------------------------------------------------------
 ------------------------------- THESE HILLS SING ------------------------------
 -------------------------------------------------------------------------------

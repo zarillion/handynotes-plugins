@@ -61,25 +61,6 @@ end
 ------------------------------------ ITEM -------------------------------------
 -------------------------------------------------------------------------------
 
-local function IterateBagSlots()
-    local bag, slot, slots = nil, 1, 1
-    return function ()
-        if bag == nil or slot == slots then
-            repeat
-                bag = (bag or -1) + 1
-                slot = 1
-                slots = GetContainerNumSlots(bag)
-            until slots > 0 or bag > 4
-            if bag > 4 then return end
-        else
-            slot = slot + 1
-        end
-        return bag, slot
-    end
-end
-
--------------------------------------------------------------------------------
-
 local Item = Class('Item', Requirement)
 
 function Item:Initialize(id, count)
@@ -91,14 +72,7 @@ function Item:Initialize(id, count)
 end
 
 function Item:IsMet()
-    for bag, slot in IterateBagSlots() do
-        if GetContainerItemID(bag, slot) == self.id then
-            if self.count and self.count > 1 then
-                return select(2, GetContainerItemInfo(bag, slot)) >= self.count
-            else return true end
-        end
-    end
-    return false
+    return ns.PlayerHasItem(self.id, self.count)
 end
 
 -------------------------------------------------------------------------------
