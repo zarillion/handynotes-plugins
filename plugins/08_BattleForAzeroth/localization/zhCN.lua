@@ -311,6 +311,13 @@ L["burly_note"] = "这些小家伙很奇怪，但确实强而有力。你确定�
 L["delia_hanako_note"] = "在我们开始之前，我想要提醒你，当我的队伍把你的碾压了之后，可不要哭鼻子。"
 L["kwint_note"] = "一个人对一头鲨鱼，可能还算是一场公平的较量。但是一对三？你可真是疯了。"
 
+L["shanty_fruit_note"] = "拾取布满灰尘的歌谱，在小洞穴内的地面上。"
+L["shanty_horse_note"] = "拾取痞子的歌谱，在酒馆内的吧台上。"
+L["shanty_inebriation_note"] = "拾取杰伊的歌谱，在 {npc:141066} 后面地面上。"
+L["shanty_lively_note"] = "拾取罗素的歌谱，在壁炉架顶上。"
+L["options_icons_shanty_raid"] = "{achievement:13057}"
+L["options_icons_shanty_raid_desc"] = "显示 {achievement:13057} 成就中禁忌船歌的位置。"
+
 L["upright_citizens_node"] = [[
 每当 {wq:烂醉市民旅团} 突袭任务激活时，以下三个 NPC 之一就会出现。
 
@@ -617,10 +624,15 @@ L["options_icons_life_finds_a_way_desc"] = "显示 {achievement:13048} 成就中
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["get_hekd_req_quest"] = "从 {npc:126334} 处完成任务%s。"
-L["get_hekd_req_item"] = "拾取 %s 从 %s 垃圾堆附近拾取并带给 {npc:126334}。"
-local get_hekd_quests = (UnitFactionGroup('player') == 'Horde') and "\n位于达萨罗 {npc:127665} 的 {quest:47441} 和 {npc:126334} 的 {quest:47442}" or "\n位于沃顿 {npc:136562} 的 {quest:51142} 和 {npc:136559} 的 {quest:51145}"
-L["get_hekd_note"] = "要获得 {npc:126334} 访问权限，必须之前完成任务 "..get_hekd_quests.."。"
+local hekd_note = "\n\n要获得 {npc:126334} 访问权限，必须完成任务 %s。"
+if UnitFactionGroup('player') == 'Horde' then
+    hekd_note = hekd_note:format("位于达萨罗 {npc:127665} 的 {quest:47441} 然后是 {npc:126334} 的 {quest:47442}")
+else
+    hekd_note = hekd_note:format("位于沃顿 {npc:136562} 的 {quest:51142} 然后是 {npc:136559} 的 {quest:51145}")
+end
+
+L["get_hekd_req_quest"] = "从 {npc:126334} 完成任务 %s。"..ns.color.Orange(hekd_note)
+L["get_hekd_req_item"] = "拾取 %s 从 %s 垃圾堆附近拾取并带给 {npc:126334}。"..ns.color.Orange(hekd_note)
 L["options_icons_get_hekd"] = "{achievement:12482}"
 L["options_icons_get_hekd_desc"] = "显示 {achievement:12482} 成就中 {npc:126334} 任务的位置。"
 
