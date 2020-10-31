@@ -194,7 +194,7 @@ L["tentacle_taco"] = "Verkauft {item:170100}, wenn du das {item:169489} trägst.
 
 L["options_icons_slimes_nazj"] = "Gefräßige Schleime"
 L["options_icons_slimes_nazj_desc"] = "Zeigt die Position der vier Gefräßigen Schleime, die Haustiere bei Fütterung ergeben an."
-L["options_icons_cats_nazj"] = "Gläserne Samtpfötchen"
+L["options_icons_cats_nazj"] = "{achievement:13836}"
 L["options_icons_cats_nazj_desc"] = "Zeigt die Position von Kristallkatzenstatuetten für den Erfolg {achievement:13836} an."
 L["options_icons_misc_nazj"] = "Sonstiges"
 L["options_icons_misc_nazj_desc"] = "Zeigt die Position von {npc:152593s} Höhle und Mardivas' Labor an."
@@ -223,7 +223,7 @@ L["carved_in_stone_41860"] = "In einem zerstörten Gebäude in der Nähe des Ber
 L["carved_in_stone_41861"] = "An der zerstörten Säule."
 L["carved_in_stone_41862"] = "An der zerstörten Mauer, vor der riesigen Säule."
 L["carved_in_stone_42116"] = "An einer Säule in der Nähe von {npc:126126}"
-L["options_icons_carved_in_stone"] = "In Stein gemeißelt, in Blut geschrieben"
+L["options_icons_carved_in_stone"] = "{achievement:13024}"
 L["options_icons_carved_in_stone_desc"] = "Zeigt die Positionen der Piktogramme für den Erfolg {achievement:13024} an."
 
 L["hoppin_sad_53419"] = "Hinter zwei Bäumen unter einer riesigen Würzel."
@@ -232,7 +232,7 @@ L["hoppin_sad_53424"] = "An der Klippe."
 L["hoppin_sad_53425"] = "Am Baum nahe des Wasserfalls."
 L["hoppin_sad_53426"] = "Unter ein paar Wurzeln."
 
-L["options_icons_hoppin_sad"] = "Husch, kleiner Hüpfer"
+L["options_icons_hoppin_sad"] = "{achievement:13028}"
 L["options_icons_hoppin_sad_desc"] = "Zeigt die Positionen der |CFFFFFF00Sprösslinge von Krag'wa|r für den Erfolg {achievement:13028} an."
 
 -------------------------------------------------------------------------------
@@ -271,7 +271,7 @@ L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei "..lunch
 
 L["ancient_tidesage_scroll"] = "Uralte Schriftrolle der Gezeitenweisen"
 L["ancient_tidesage_scroll_note"] = "Lies alle 8 uralten Schriftrollen der Gezeitenweisen, um den Erfolg zu erringen."
-L["options_icons_tidesage_legends"] = "Legenden der Gezeitenweisen"
+L["options_icons_tidesage_legends"] = "{achievement:13051}"
 L["options_icons_tidesage_legends_desc"] = "Zeigt die Positionen der uralten Schrifftrollen für den Erfolg {achievement:13051} an."
 
 L["long_forgotten_rum_note"] = "Um die Höhle betreten zu können, muss von {npc:134710} die Quest {quest:50697} in 'Die Totenschwemme' abgeschlossen werden. Wird auch von {npc:137040} in Drustvar verkauft."
@@ -306,7 +306,7 @@ L["secret_of_the_depths_note"] = "Lies alle fünf feuchten Schriftrollen und spr
 
 L["burly_note"] = "Die kleinen Jungs sind wirklich komisch, aber sie haben ganz schön Wumms in den Knochen. Seid Ihr sicher, dass Ihr diesen Kampf wollt?"
 L["delia_hanako_note"] = "Bevor wir anfangen, will ich Euch nur daran erinnern, dass Ihr Euch nicht zu arg grämen sollt, wenn mein Team das Eure vernichtet."
-L["kwint_note"] = "Wenn Ihr meinesgleichen besiegen wollt, werdetIhr ein größeres Boot brauchen, um die hier wegzuschaffen."
+L["kwint_note"] = "Wenn Ihr meinesgleichen besiegen wollt, werdet Ihr ein größeres Boot brauchen, um die hier wegzuschaffen."
 
 L["upright_citizens_node"] = [[
 Jedesmal, wenn die Übergriffsquest {wq:Nicht allzu nüchterne Bürgerwehr} aktiv ist, wird einer der drei unteren NPCs erscheinen.
@@ -317,7 +317,7 @@ Jedesmal, wenn die Übergriffsquest {wq:Nicht allzu nüchterne Bürgerwehr} akti
 
 Rekrutiere jeden von ihnen, um den Erfolg zu erringen. Du wirst die Zone für den Angriff, die Weltquest und bis der richtige NPC akiv ist mehrfach überprüfen müssen.
 ]]
-L["options_icons_upright_citizens"] = "Redliche Bürger"
+L["options_icons_upright_citizens"] = "{achievement:13285}"
 L["options_icons_upright_citizens_desc"] = "Zeigt die Positionen der NPCs für den Erfolg {achievement:13285} an."
 
 -------------------------------------------------------------------------------
@@ -543,7 +543,7 @@ L["plank_3"] = "An einer Kante der Pyramide. Der Weg dorthinstartet bei der ande
 L["plank_4"] = "Am oberen Ende einer Sanddüne, entlang der Seite der Pyramide."
 L["plank_5"] = "Folge dem Schlangenschwanz, um die Planke zu finden."
 L["planks_ridden"] = "Wackelige Planken geritten."
-L["options_icons_dune_rider"] = "Dünenreiter"
+L["options_icons_dune_rider"] = "{achievement:13018}"
 L["options_icons_dune_rider_desc"] = "Zeigt die Positionen der wackeligen Planken für den Erfolg {achievement:13018} an."
 
 L["options_icons_scavenger_of_the_sands"] = "{achievement:13016}"
@@ -607,7 +607,7 @@ L["tales_zandalar_note"] = "Hinter {npc:132989}."
 local shared_dinos = "Von {npc:133680s} Questreihe muss die tägliche Quest {daily:50860} verfügbar sein (eine von vier möglichen), um zu erscheinen. Jeder kann sie an diesen Tagen sehen."
 L["azuresail_note"] = "Kann erscheinen, wenn du einen der anderen beiden Dinosaurier {npc:135512} oder {npc:135508} tötest.\n\n"..shared_dinos
 L["thunderfoot_note"] = "Kann erscheinen, wenn du einen der anderen beiden Dinosaurier {npc:135510} oder {npc:135508} tötest.\n\n"..shared_dinos
-L["options_icons_life_finds_a_way"] = "Das Leben findet einen Weg... ins Jenseits!"
+L["options_icons_life_finds_a_way"] = "{achievement:13048}"
 L["options_icons_life_finds_a_way_desc"] = "Zeigt die Positionen der fürchterlichen Dinosaurier für den Erfolg {achievement:13048} an."
 
 -------------------------------------------------------------------------------
@@ -621,16 +621,16 @@ L["get_hekd_note"] = "Um Zugang zu Jani zu erhalten, müssen zuerst die zwei Que
 L["options_icons_get_hekd"] = "{achievement:12482}"
 L["options_icons_get_hekd_desc"] = "Zeigt die Positionen der Aufgaben von Jani für den Erfolg {achievement:12482} an."
 
-L["options_icons_mushroom_harvest"] = "Pilzernte"
+L["options_icons_mushroom_harvest"] = "{achievement:13027}"
 L["options_icons_mushroom_harvest_desc"] = "Zeigt die Positionen der Fungianerbösewichte für den Erfolg {achievement:13027} an."
 
-L["options_icons_tales_of_de_loa"] = "Aus dem Leben eines Loas"
+L["options_icons_tales_of_de_loa"] = "{achievement:13036}"
 L["options_icons_tales_of_de_loa_desc"] = "Zeigt die Positionen der Legend'n der Loa für den Erfolg {achievement:13036} an."
 
 L["jani_note"] = "Klicke den Mysteriösen Müllhaufen an, damit {npc:126334} erscheint."
 L["rezan_note"] = ns.color.Red("Im Dungeon \"Atal'Dazar\"")
 L["bow_to_your_masters_note"] = "Zollt den Loa Zandalars Respekt, indem Ihr Euch vor ihnen verbeugt ("..ns.color.Orange('/verbeugen')..")."
-L["options_icons_bow_to_your_masters"] = "Verbeugt Euch vor Euren Meistern"
+L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
 L["options_icons_bow_to_your_masters_desc"] = "Zeigt die Positionen der Loa für den Erfolg {achievement:13020} an."
 
 -- For Horde, include a note about drinks that must be purchased on the AH

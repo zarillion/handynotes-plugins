@@ -93,6 +93,10 @@ L["options_general_description"] = "Einstellungen, die das Verhalten von Punkten
 L["options_global_description"] = "Einstellungen, die die Darstellung aller Punkte in allen Zonen steuern."
 L["options_zones_description"] = "Einstellungen, die die Darstellung von Punkten in jeder einzelnen Zone steuern."
 
+L["options_open_settings_panel"] = "Einstellungsmenü öffnen ..."
+L["options_open_world_map"] = "Weltkarte öffnen"
+L["options_open_world_map_desc"] = "Öffnet diese Zone auf der Weltkarte."
+
 ------------------------------------ ICONS ------------------------------------
 
 L["options_icon_settings"] = "Symboleinstellungen"
