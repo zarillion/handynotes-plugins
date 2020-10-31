@@ -621,31 +621,26 @@ map.nodes[25674057] = HoppinSad({quest=53426, note=L["hoppin_sad_53426"]})
 map.nodes[68533283] = Collectible({
     quest=50440,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
-    note=format(L["get_hekd_req_item"], "{item:157802}", "{npc:131155}"),
+    note=format(L["get_hekd_req_item"], "{item:157802}", "{npc:131155s}"),
     group=ns.groups.GET_HEKD,
---    item=157802,
     rewards={
         Achievement({id=12482, criteria=40043})
     }
-}) -- Naz'wathan Relic
+}) -- Naz'wathan Relic (157802)
 
 map.nodes[34007510] = Collectible({
     quest=50437,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
-    note=format(L["get_hekd_req_item"], "{item:157801}", "{npc:126723}"),
+    note=format(L["get_hekd_req_item"], "{item:157801}", "{npc:126723s}"),
     group=ns.groups.GET_HEKD,
---    item=157801,
     rewards={
         Achievement({id=12482, criteria=40042})
     }
-}) -- Snapjaw Tail
+}) -- Snapjaw Tail (157801)
 
 map.nodes[54007410] = Collectible({
     quest=50444,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
     note=format(L["get_hekd_req_quest"], "{quest:50444}"),
     group=ns.groups.GET_HEKD,
     rewards={
@@ -656,14 +651,12 @@ map.nodes[54007410] = Collectible({
 map.nodes[80904680] = Collectible({
     quest=50435,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
-    note=format(L["get_hekd_req_item"], "{item:157797}", "{npc:125393}"),
+    note=format(L["get_hekd_req_item"], "{item:157797}", "{npc:125393s}"),
     group=ns.groups.GET_HEKD,
---    item=157797,
     rewards={
         Achievement({id=12482, criteria=40041})
     }
-}) -- Vilescale Pearl
+}) -- Vilescale Pearl (157797)
 
 -------------------------------------------------------------------------------
 ------------------------- LIFE FINDS A WAY... TO DIE! -------------------------

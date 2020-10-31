@@ -673,7 +673,6 @@ Map({id=935}).nodes[37185259] = bowrezan
 map.nodes[66211662] = Collectible({
     quest=50332,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
     note=format(L["get_hekd_req_quest"], "{quest:50332}"),
     group=ns.groups.GET_HEKD,
     rewards={
@@ -684,31 +683,26 @@ map.nodes[66211662] = Collectible({
 map.nodes[62632058] = Collectible({
     quest=50331,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
-    note=format(L["get_hekd_req_item"], "{item:157794}", "{npc:132410}"),
+    note=format(L["get_hekd_req_item"], "{item:157794}", "{npc:132410s}"),
     group=ns.groups.GET_HEKD,
---    item=157794,
     rewards={
         Achievement({id=12482, criteria=40040})
     }
-}) -- Feathered Serpent Scale
+}) -- Feathered Serpent Scale (157794)
 
 map.nodes[71704128] = Collectible({
     quest=50308,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
-    note=format(L["get_hekd_req_item"], "{item:156963}", "{npc:122504}"),
+    note=format(L["get_hekd_req_item"], "{item:156963}", "{npc:122504s}"),
     group=ns.groups.GET_HEKD,
---    item=156963,
     rewards={
         Achievement({id=12482, criteria=40037})
     }
-}) -- Golden Ravasaur Egg
+}) -- Golden Ravasaur Egg (156963)
 
 local greathatrobbery = Collectible({
     quest=50381,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
     note=format(L["get_hekd_req_quest"], "{quest:50381}"),
     group=ns.groups.GET_HEKD,
     rewards={

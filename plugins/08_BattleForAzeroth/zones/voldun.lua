@@ -571,31 +571,26 @@ map.nodes[54902140] = DuneRider({criteria=41362, note=L["plank_5"], pois={
 map.nodes[46984655] = Collectible({
     quest=50883,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
-    note=format(L["get_hekd_req_item"], "{item:158910}", "{npc:135727}"),
+    note=format(L["get_hekd_req_item"], "{item:158910}", "{npc:135727s}"),
     group=ns.groups.GET_HEKD,
---    item=158910,
     rewards={
         Achievement({id=12482, criteria=40045})
     }
-}) -- Charged Ranishu Antennae
+}) -- Charged Ranishu Antennae (158910)
 
 map.nodes[56271527] = Collectible({
     quest=50890,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
-    note=format(L["get_hekd_req_item"], "{item:158915}", "{npc:130316}"),
+    note=format(L["get_hekd_req_item"], "{item:158915}", "{npc:130316s}"),
     group=ns.groups.GET_HEKD,
---    item=158915,
     rewards={
         Achievement({id=12482, criteria=40046})
     }
-}) -- Polished Ringhorn Hoof
+}) -- Polished Ringhorn Hoof (158915)
 
 map.nodes[42187208] = Collectible({
     quest=50901,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
     note=format(L["get_hekd_req_quest"], "{quest:50901}"),
     group=ns.groups.GET_HEKD,
     rewards={
@@ -606,14 +601,12 @@ map.nodes[42187208] = Collectible({
 map.nodes[49368440] = Collectible({
     quest=50892,
     icon=1604165,
-    sublabel=L["get_hekd_note"],
-    note=format(L["get_hekd_req_item"], "{item:158916}", "{npc:134718}"),
+    note=format(L["get_hekd_req_item"], "{item:158916}", "{npc:134718s}"),
     group=ns.groups.GET_HEKD,
---  item=158916,
     rewards={
         Achievement({id=12482, criteria=40047})
     }
-}) -- Sturdy Redrock Jaw
+}) -- Sturdy Redrock Jaw (158916)
 
 -------------------------------------------------------------------------------
 ------------------------------ MUSHROOM HARVEST -------------------------------
@@ -634,129 +627,114 @@ map.nodes[61001820] = Collectible({
 
 local ScavengerOfTheSands = Class('ScavengerOfTheSands', Collectible, {
     icon=135725,
-    scale=1,
     group=ns.groups.SCAVENGER_OF_THE_SANDS,
 })
 
 map.nodes[37803046] = ScavengerOfTheSands({
     quest=53135,
     rewards={
-        Achievement({id=13016, criteria=41345}),
---        Item({item=163324})
+        Achievement({id=13016, criteria=41345})
     }
-}) -- Brian's Broken Compass
+}) -- Brian's Broken Compass (163324)
 
 map.nodes[45883073] = ScavengerOfTheSands({
     quest=53141,
     rewards={
-        Achievement({id=13016, criteria=41351}),
---        Item({item=163372})
+        Achievement({id=13016, criteria=41351})
     }
-}) -- Damarcus' Backpack
+}) -- Damarcus' Backpack (163372)
 
 map.nodes[36217838] = ScavengerOfTheSands({
     quest=53133,
     rewards={
-        Achievement({id=13016, criteria=41343}),
---        Item({item=163322})
+        Achievement({id=13016, criteria=41343})
     }
-}) -- Ian's Empty Bottle
+}) -- Ian's Empty Bottle (163322)
 
 map.nodes[56297011] = ScavengerOfTheSands({
     quest=53132,
     rewards={
-        Achievement({id=13016, criteria=41342}),
---        Item({item=163321})
+        Achievement({id=13016, criteria=41342})
     }
-}) -- Jason's Rusty Blade
+}) -- Jason's Rusty Blade (163321)
 
 map.nodes[47933673] = ScavengerOfTheSands({
     quest=53143,
     note=L["in_cave"],
     rewards={
-        Achievement({id=13016, criteria=41353}),
---        Item({item=163374})
+        Achievement({id=13016, criteria=41353})
     },
     pois={
         POI({47923545}) -- Entrance
     }
-}) -- Josh's Fang Necklace
+}) -- Josh's Fang Necklace (163374)
 
 map.nodes[53568981] = ScavengerOfTheSands({
     quest=53134,
     rewards={
-        Achievement({id=13016, criteria=41344}),
---        Item({item=163323})
+        Achievement({id=13016, criteria=41344})
     }
-}) -- Julie's Cracked Dish
+}) -- Julie's Cracked Dish (163323)
 
 map.nodes[52431439] = ScavengerOfTheSands({
     quest=53138,
     rewards={
-        Achievement({id=13016, criteria=41348}),
---        Item({item=163327})
+        Achievement({id=13016, criteria=41348})
     }
-}) -- Julien's Left Boot
+}) -- Julien's Left Boot (163327)
 
 map.nodes[62862267] = ScavengerOfTheSands({
     quest=53145,
     rewards={
-        Achievement({id=13016, criteria=41355}),
---        Item({item=163376})
+        Achievement({id=13016, criteria=41355})
     }
-}) -- Kurt's Ornate Key
+}) -- Kurt's Ornate Key (163376)
 
 map.nodes[43217700] = ScavengerOfTheSands({
     quest=53139,
     rewards={
-        Achievement({id=13016, criteria=41349}),
---        Item({item=163328})
+        Achievement({id=13016, criteria=41349})
     }
-}) -- Navarro's Flask
+}) -- Navarro's Flask (163328)
 
 map.nodes[26795291] = ScavengerOfTheSands({
     quest=53136,
     rewards={
-        Achievement({id=13016, criteria=41346}),
---        Item({item=163325})
+        Achievement({id=13016, criteria=41346})
     }
-}) -- Ofer's Bound Journal
+}) -- Ofer's Bound Journal (163325)
 
 map.nodes[45229114] = ScavengerOfTheSands({
     quest=53144,
     rewards={
-        Achievement({id=13016, criteria=41354}),
---        Item({item=163375})
+        Achievement({id=13016, criteria=41354})
     }
-}) -- Portrait of Commander Martens
+}) -- Portrait of Commander Martens (163375)
 
 map.nodes[66413595] = ScavengerOfTheSands({
     quest=53142,
     note=L["in_cave"],
     rewards={
-        Achievement({id=13016, criteria=41352}),
---        Item({item=163373})
+        Achievement({id=13016, criteria=41352})
     },
     pois={
         POI({64873610}) -- Entrance
     }
-}) -- Rachel's Flute
+}) -- Rachel's Flute (163373)
 
 map.nodes[29465938] = ScavengerOfTheSands({
     quest=53137,
     rewards={
-        Achievement({id=13016, criteria=41347}),
---        Item({item=163326})
+        Achievement({id=13016, criteria=41347})
     }
-}) -- Skye's Pet Rock
+}) -- Skye's Pet Rock (163326)
 
 map.nodes[47067577] = ScavengerOfTheSands({
     quest=53140,
     rewards={
-        Achievement({id=13016, criteria=41350}),
---        Item({item=163329})
+        Achievement({id=13016, criteria=41350})
     }
-}) -- Zach's Canteen
+}) -- Zach's Canteen (163329)
 
 -------------------------------------------------------------------------------
 ------------------------------ ELUSIVE QUICKHOOF ------------------------------
