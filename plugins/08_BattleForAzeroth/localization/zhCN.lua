@@ -195,7 +195,7 @@ L["Herald"] ="索尔苟斯的使徒"
 L["Salgos"] ="永恒的索尔苟斯"
 L["tentacle_taco"] = "出售 {item:170100}，如果你穿着底栖 {item:169489}。"
 
-L["options_icons_slimes_nazj"] = "{npc:151782s}"
+L["options_icons_slimes_nazj"] = "{npc:151782}"
 L["options_icons_slimes_nazj_desc"] = "显示四个喂食一次可获得宠物的贪婪的粘液位置。"
 L["options_icons_cats_nazj"] = "{achievement:13836}"
 L["options_icons_cats_nazj_desc"] = "显示 {achievement:13836} 成就水晶猫咪雕像位置。"
@@ -266,7 +266,7 @@ L["ellie_vern_note"] = "但我有海洋中最强的生物为我而战，你根�
 L["leana_darkwind_note"] = "我怀疑这片大陆的奇怪生物也会带来奇怪的战斗。"
 
 L["honeyback_harvester_note"] = "和 {npc:155193} 交谈开始事件。新鲜的蜜胶块每小时可以拾取一次，一小时后重置。"
-L["options_icons_honeybacks"] = "{npc:155193s}"
+L["options_icons_honeybacks"] = "{npc:155193}"
 L["options_icons_honeybacks_desc"] = "显示收割蜜背蜂群声望的 {npc:155193} 事件位置。"
 
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} 位于布伦纳丹' or '{npc:138096} 位于战牙要塞'
