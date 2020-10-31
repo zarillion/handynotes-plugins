@@ -6,7 +6,6 @@
 * Add checkmark to completed nodes
 * Add list of map items to quest log panel (new tab?)
 * Add support for explicit focus/glow groups
-* Automatically mark locations on n-levels of parent maps with `parents` attr.
 * Fix transmog collected state on initial load.
 
 # Shadowlands
