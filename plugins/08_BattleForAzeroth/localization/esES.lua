@@ -300,6 +300,13 @@ L["burly_note"] = "Estos pequeños son muy extraños, pero seguro que pegan muy 
 L["delia_hanako_note"] = "Antes de que empecemos, sólo te quiero recordar que no te sientas muy mal cuando mi equipo aniquile al tuyo."
 L["kwint_note"] = "Una persona contra un tiburón, quizás sea una pelea justa. ¿Una persona contra tres? Estás loco."
 
+L["shanty_fruit_note"] = "Despoja el Cancionero Polvoriento. Se encuentra en el suelo de una cueva pequeña."
+L["shanty_horse_note"] = "Despoja el Cancionero del Canalla. Se encuentra encima de la barra dentro de la taberna."
+L["shanty_inebriation_note"] = "Despoja el Cancionero de Jay. Se encuentra en el suelo detrás de {npc:141066}."
+L["shanty_lively_note"] = "Despoja el Cancionero de Russel. Se encuentra encima de la chimenea."
+L["options_icons_shanty_raid"] = "{achievement:13057}"
+L["options_icons_shanty_raid_desc"] = "Muestra las localizaciones de las salomas para el logro {achievement:13057}."
+
 L["upright_citizens_node"] = [[
 Uno de los tres NPCs de debajo aparecerá cada vez que la misión de asalto {wq:Una brigada de ciudadanos no demasiado sobrios} esté activa.
 
@@ -605,6 +612,18 @@ L["options_icons_life_finds_a_way_desc"] = "Muestra las localizaciones de los di
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
+
+local hekd_note = "\n\nPara conseguir acceso a {npc:126334}, necesitas completar %s."
+if UnitFactionGroup('player') == 'Horde' then
+    hekd_note = hekd_note:format("{quest:47441} que te da {npc:127665} en Dazar'alor le sigue la misión {quest:47442} que te da {npc:126334}")
+else
+    hekd_note = hekd_note:format("{quest:51142} que te da el {npc:136562} en Voldun le sigue la misión {quest:51145} que te da {npc:136559}")
+end
+
+L["get_hekd_req_quest"] = "Completa la misión %s que te da {npc:126334}."..ns.color.Orange(hekd_note)
+L["get_hekd_req_item"] = "Despoja %s de %s cerca del montón de basura y llévaselo a {npc:126334}."..ns.color.Orange(hekd_note)
+L["options_icons_get_hekd"] = "{achievement:12482}"
+L["options_icons_get_hekd_desc"] = "Muestras las localizaciones de las tareas de {npc:126334} para el logro {achievement:12482}."
 
 L["options_icons_mushroom_harvest"] = "{achievement:13027}"
 L["options_icons_mushroom_harvest_desc"] = "Muestra las localizaciones de los villanos fungáricos para el logro {achievement:13027}."
