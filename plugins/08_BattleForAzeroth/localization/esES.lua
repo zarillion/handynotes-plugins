@@ -692,3 +692,8 @@ L["options_icons_three_sheets_desc"] = "Muestra las localizaciones de los vended
 L["supply_chest"] = "Cofre de Suministros de Guerra"
 L["options_icons_supplies_desc"] = "Muestra todas las localizaciones posibles para los cajones de suministros de guerra."
 L["options_icons_supplies"] = "Localizaciones de suministros de guerra"
+
+L["secret_supply_chest"] = "Cofres de Suministros Secreto"
+L["secret_supply_chest_note"] = "Cuando está activo un asalto de facción, puede aparecer un cofre de suministros secreto en una de estas localizaciones por poco tiempo."
+L["options_icons_secret_supplies"] = "Cofre de Suministros Secreto"
+L["options_icons_secret_supplies_desc"] = "Muestra las localizaciones de los cofres de suministros para el logro {achievement:13317}."
