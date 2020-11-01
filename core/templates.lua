@@ -53,7 +53,8 @@ end
 
 function WorldMapOptionsButtonMixin:OnMouseDown(button)
     self.Icon:SetPoint("TOPLEFT", 8, -8)
-    local xOffset = WorldMapFrame.isMaximized and -125 or 0
+    local xOffset = WorldMapFrame.isMaximized and 30 or 0
+    self.DropDown.point = WorldMapFrame.isMaximized and "TOPRIGHT" or "TOPLEFT"
     ToggleDropDownMenu(1, nil, self.DropDown, self, xOffset, -5)
     PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON)
 end
