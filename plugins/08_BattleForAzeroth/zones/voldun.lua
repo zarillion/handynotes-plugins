@@ -395,6 +395,24 @@ map.nodes[29388742] = Treasure({
 }) -- Zem'lan's Buried Treasure
 
 -------------------------------------------------------------------------------
+----------------------------- SECRET SUPPLY CHESTS ----------------------------
+-------------------------------------------------------------------------------
+
+local SECRET_CHEST = ns.node.SecretSupply({
+    -- Quest behavior needs more investigation across other assaults, for now
+    -- we'll just keep them visible always when checked.
+    --quest={53640, 54718, 55389},
+    --questAny=true,
+    rewards = {
+        Achievement({id=13317, criteria=43935})
+    }
+})
+
+map.nodes[33704550] = SECRET_CHEST
+map.nodes[37035019] = SECRET_CHEST
+map.nodes[38605710] = SECRET_CHEST
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 

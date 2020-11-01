@@ -96,11 +96,21 @@ function Spell:IsMet()
 end
 
 -------------------------------------------------------------------------------
+----------------------------------- WAR MODE ----------------------------------
+-------------------------------------------------------------------------------
+
+local WarMode = Class('WarMode', Requirement, {
+    text = PVP_LABEL_WAR_MODE,
+    IsMet = function () return C_PvP.IsWarModeActive() or C_PvP.IsWarModeDesired() end
+})()
+
+-------------------------------------------------------------------------------
 
 ns.requirement = {
     Currency=Currency,
     GarrisonTalent=GarrisonTalent,
     Item=Item,
     Requirement=Requirement,
-    Spell=Spell
+    Spell=Spell,
+    WarMode=WarMode
 }

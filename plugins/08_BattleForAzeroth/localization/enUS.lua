@@ -674,3 +674,8 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ The followin
 L["three_sheets_note"] = "Acquire one of every drink to earn the achievement."..horde_sheets
 L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "Display vendor locations for the {achievement:13061} achievement."
+
+L["secret_supply_chest"] = "Secret Supply Chest"
+L["secret_supply_chest_note"] = "When a faction assault is active, a secret supply chest can appear at one of these locations for a short time."
+L["options_icons_secret_supplies"] = "Secret Supply Chests"
+L["options_icons_secret_supplies_desc"] = "Display secret supply chest locations for the {achievement:13317} achievement."

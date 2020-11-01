@@ -61,6 +61,9 @@ ns.icons = { -- name => path
     star_chest_p = {Icon('star_chest_pink'), Glow('star_chest')},
     star_chest_y = {Icon('star_chest_yellow'), Glow('star_chest')},
 
+    war_mode_flags = {Icon('war_mode_flags'), nil},
+    war_mode_swords = {Icon('war_mode_swords'), nil},
+
     ------------------------------ MISCELLANEOUS ------------------------------
 
     alliance = {Icon('alliance'), nil},

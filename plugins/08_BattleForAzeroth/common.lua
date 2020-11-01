@@ -37,6 +37,7 @@ ns.groups.PAKU_TOTEMS = Group('paku_totems', 'flight_point', {defaults=ns.GROUP_
 ns.groups.RECRIG = Group('recrig', 'peg_wb')
 ns.groups.SAUSAGE_SAMPLER = Group('sausage_sampler', 133200, {defaults=ns.GROUP_HIDDEN, faction='Alliance'})
 ns.groups.SCAVENGER_OF_THE_SANDS = Group('scavenger_of_the_sands', 135725, {defaults=ns.GROUP_HIDDEN})
+ns.groups.SECRET_SUPPLY = Group('secret_supplies', 'star_chest_b', {defaults=ns.GROUP_HIDDEN})
 ns.groups.SHANTY_RAID = Group('shanty_raid', 1500866, {defaults=ns.GROUP_HIDDEN})
 ns.groups.SLIMES_NAZJ = Group('slimes_nazj', 132107)
 ns.groups.SUPPLY = Group('supplies', 'star_chest_g')
@@ -107,14 +108,23 @@ end
 ns.node.TimedEvent = TimedEvent
 
 -------------------------------------------------------------------------------
------------------------------- WAR SUPPLY CRATE -------------------------------
+------------------------------ WAR SUPPLY CRATES ------------------------------
 -------------------------------------------------------------------------------
 
 ns.node.Supply = Class('Supply', Node, {
     icon = 'star_chest_g',
     scale = 1.5,
-    group = ns.groups.SUPPLY,
-    label = L["supply_chest"]
+    label = L["supply_chest"],
+    rlabel = ns.GetIconLink('war_mode_swords', 16),
+    requires = ns.requirement.WarMode,
+    group = ns.groups.SUPPLY
+})
+
+ns.node.SecretSupply = Class('SecretSupply', ns.node.Supply, {
+    icon = 'star_chest_b',
+    group = ns.groups.SECRET_SUPPLY,
+    label = L["secret_supply_chest"],
+    note = L["secret_supply_chest_note"]
 })
 
 -------------------------------------------------------------------------------
