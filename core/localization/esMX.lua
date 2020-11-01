@@ -120,16 +120,10 @@ L["options_toggle_use_char_achieves_desc"] = nil
 L["options_restore_hidden_nodes"] = nil
 L["options_restore_hidden_nodes_desc"] = nil
 
-L["options_icons_daily_chests_desc"] = "Mostrar el lugar de los cofres (se puede ser saqueable diariamente)."
-L["options_icons_daily_chests"] = "Cofres"
-L["options_icons_daily_quests_desc"] = nil
-L["options_icons_daily_quests"] = nil
 L["options_icons_misc_desc"] = nil
 L["options_icons_misc"] = "Miscelánea"
 L["options_icons_pet_battles_desc"] = "Mostrar los lugares de instructores de mascotas y PNJs."
 L["options_icons_pet_battles"] = "Mascotas de duelo"
-L["options_icons_quests_desc"] = nil
-L["options_icons_quests"] = nil
 L["options_icons_rares_desc"] = "Mostrar los lugares de los NPCs raros."
 L["options_icons_rares"] = "Raros"
 L["options_icons_treasures_desc"] = nil

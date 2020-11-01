@@ -689,6 +689,9 @@ L["three_sheets_note"] = "Adquiere cada una de las bebidas para conseguir el log
 L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "Muestra las localizaciones de los vendedores para el logro {achievement:13061}."
 
+L["options_icons_daily_chests_desc"] = "Muestra la localización de los cofres (despojables diariamente)."
+L["options_icons_daily_chests"] = "Cofres"
+
 L["supply_chest"] = "Cofre de Suministros de Guerra"
 L["options_icons_supplies_desc"] = "Muestra todas las localizaciones posibles para los cajones de suministros de guerra."
 L["options_icons_supplies"] = "Localizaciones de suministros de guerra"

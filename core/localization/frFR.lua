@@ -120,16 +120,10 @@ L["options_toggle_use_char_achieves_desc"] = nil
 L["options_restore_hidden_nodes"] = nil
 L["options_restore_hidden_nodes_desc"] = nil
 
-L["options_icons_daily_chests_desc"] = "Afficher les emplacements des coffres (pouvoir être pillé quotidiennement)."
-L["options_icons_daily_chests"] = "Coffres"
-L["options_icons_daily_quests_desc"] = nil
-L["options_icons_daily_quests"] = nil
 L["options_icons_misc_desc"] = nil
 L["options_icons_misc"] = "Divers"
 L["options_icons_pet_battles_desc"] = "Afficher les emplacements des Dresseurs de Mascottes de Combat et des PNJ."
 L["options_icons_pet_battles"] = "Mascottes de Combat"
-L["options_icons_quests_desc"] = nil
-L["options_icons_quests"] = nil
 L["options_icons_rares_desc"] = "Afficher les emplacements des PNJ rares."
 L["options_icons_rares"] = "Les Monstres Rares"
 L["options_icons_treasures_desc"] = nil

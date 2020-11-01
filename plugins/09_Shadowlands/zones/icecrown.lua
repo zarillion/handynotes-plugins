@@ -6,10 +6,12 @@ local _, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Intro = ns.node.Intro
 local Rare = ns.node.Rare
 
 local Section = ns.reward.Section
 local Item = ns.reward.Item
+local Quest = ns.reward.Quest
 local Transmog = ns.reward.Transmog
 
 local Arrow = ns.poi.Arrow
@@ -37,23 +39,19 @@ end
 -------------------------------------------------------------------------------
 
 if UnitFactionGroup('player') == 'Alliance' then
-    map.intro = ns.node.Quest({
+    map.intro = Intro({
         quest=60767,
-        scale=3,
         note=L["prepatch_intro"],
-        group=ns.groups.INTRO,
         rewards={
-            ns.reward.Quest({id={60113, 60116, 60117, 59876, 60766, 60767}})
+            Quest({id={60113, 60116, 60117, 59876, 60766, 60767}})
         }
     })
 else
-    map.intro = ns.node.Quest({
+    map.intro = Intro({
         quest=60761,
-        scale=3,
         note=L["prepatch_intro"],
-        group=ns.groups.INTRO,
         rewards={
-            ns.reward.Quest({id={60115, 60669, 60670, 60725, 60759, 60761}})
+            Quest({id={60115, 60669, 60670, 60725, 60759, 60761}})
         }
     })
 end

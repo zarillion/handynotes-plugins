@@ -53,7 +53,7 @@ function Map:AddNode(coord, node)
         error(format('All nodes must be instances of the Node() class: %d %s', coord, tostring(node)))
     end
 
-    if node.group.name ~= 'intro' then
+    if node.group ~= ns.groups.QUEST then
         -- Initialize group defaults and UI controls for this map if the group does
         -- not inherit its settings and defaults from a parent map
         if self.settings then ns.CreateGroupOptions(self, node.group) end
@@ -111,9 +111,6 @@ function Map:IsNodeEnabled(node, coord, minimap)
 
     -- Node may be faction restricted
     if node.faction and node.faction ~= ns.faction then return false end
-
-    -- Show/hide intro node, ignoring "Show completed"
-    if node == self.intro then return not node:IsCompleted() end
 
     -- Check if node's group is disabled
     if not node.group:IsEnabled() then return false end

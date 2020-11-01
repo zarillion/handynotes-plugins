@@ -687,6 +687,9 @@ L["three_sheets_note"] = "获得所有饮料中的每一种获得成就。"..hor
 L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "显示 {achievement:13061} 成就中供应商的位置。"
 
+L["options_icons_daily_chests_desc"] = "显示宝箱位置（每日可拾取）。"
+L["options_icons_daily_chests"] = "宝箱"
+
 L["supply_chest"] = "战争补给箱"
 L["options_icons_supplies_desc"] = "显示全部可能出现战争补给箱的位置。"
 L["options_icons_supplies"] = "战争补给箱"

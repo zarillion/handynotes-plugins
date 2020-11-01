@@ -140,7 +140,7 @@ function Node:IsEnabled()
     if not self:PrerequisiteCompleted() then return false end
 
     -- Check completed state
-    if not ns:GetOpt('show_completed_nodes') then
+    if self.group == ns.groups.QUEST or not ns:GetOpt('show_completed_nodes') then
         if self:IsCompleted() then return false end
     end
 
@@ -331,9 +331,23 @@ end
 local Intro = Class('Intro', Node, {
     icon = 'quest_ay',
     scale = 3,
-    group = ns.groups.INTRO,
+    group = ns.groups.QUEST,
     minimap = false
 })
+
+function Intro:Initialize(attrs)
+    Node.Initialize(self, attrs)
+    if self.quest then
+        C_QuestLog.GetTitleForQuestID(self.quest[1]) -- fetch info from server
+    end
+end
+
+function Intro.getters:label()
+    if self.quest then
+        return C_QuestLog.GetTitleForQuestID(self.quest[1]) or UNKNOWN
+    end
+    return UNKNOWN
+end
 
 -------------------------------------------------------------------------------
 ------------------------------------- NPC -------------------------------------

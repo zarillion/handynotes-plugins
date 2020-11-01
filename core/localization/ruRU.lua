@@ -120,16 +120,10 @@ L["options_toggle_use_char_achieves_desc"] = nil
 L["options_restore_hidden_nodes"] = "Восстановить скрытые места"
 L["options_restore_hidden_nodes_desc"] = "Восстановите все скрытые места, используя контекстное меню, вызываемое правой кнопкой мыши."
 
-L["options_icons_daily_chests_desc"] = "Отображение местоположения сундуков (можно добывать ежедневно)."
-L["options_icons_daily_chests"] = "Сундуки"
-L["options_icons_daily_quests_desc"] = nil
-L["options_icons_daily_quests"] = nil
 L["options_icons_misc_desc"] = nil
 L["options_icons_misc"] = "Разное"
 L["options_icons_pet_battles_desc"] = "Показать местонахождение наставников боевых питомцев и NPC."
 L["options_icons_pet_battles"] = "Боевые Питомцы"
-L["options_icons_quests_desc"] = nil
-L["options_icons_quests"] = nil
 L["options_icons_rares_desc"] = "Показать местонахождение редких НПС."
 L["options_icons_rares"] = "Редкие монстры"
 L["options_icons_treasures_desc"] = nil

@@ -687,6 +687,9 @@ L["three_sheets_note"] = "Acquire one of every drink to earn the achievement."..
 L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "Display vendor locations for the {achievement:13061} achievement."
 
+L["options_icons_daily_chests_desc"] = "Display locations of chests (lootable daily)."
+L["options_icons_daily_chests"] = "Chests"
+
 L["supply_chest"] = "War Supply Chest"
 L["options_icons_supplies_desc"] = "Display all possible locations for war supply crates."
 L["options_icons_supplies"] = "War Supply Drops"

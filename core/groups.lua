@@ -66,7 +66,6 @@ ns.GROUP_HIDDEN = {display=false}
 ns.GROUP_ALPHA75 = {alpha=0.75}
 
 ns.groups = {
-    INTRO = Group('intro', 'quest_ay'),
     PETBATTLE = Group('pet_battles', 'paw_y'),
     QUEST = Group('quests', 'quest_ay'),
     RARE = Group('rares', 'skull_w', {defaults=ns.GROUP_ALPHA75}),

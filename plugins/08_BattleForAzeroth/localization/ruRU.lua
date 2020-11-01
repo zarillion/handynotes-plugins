@@ -649,6 +649,9 @@ L["three_sheets_note"] = nil
 L["options_icons_three_sheets"] = nil
 L["options_icons_three_sheets_desc"] = nil
 
+L["options_icons_daily_chests_desc"] = "Отображение местоположения сундуков (можно добывать ежедневно)."
+L["options_icons_daily_chests"] = "Сундуки"
+
 L["supply_chest"] = "Сундук с военными припасами"
 L["options_icons_supplies_desc"] = "Показать все возможные места сундуков с военными припасами."
 L["options_icons_supplies"] = "Сундук с военными припасами"

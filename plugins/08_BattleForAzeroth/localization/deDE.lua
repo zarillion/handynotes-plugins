@@ -684,6 +684,9 @@ L["three_sheets_note"] = "Erwirb alle Getränke, um den Erfolg zu erringen."..ho
 L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "Zeigt die Positionen der Händler für den Erfolg {achievement:13061} an."
 
+L["options_icons_daily_chests_desc"] = "Zeigt die Positionen von Truhen an \n(täglich plünderbar)."
+L["options_icons_daily_chests"] = "Truhen"
+
 L["supply_chest"] = "Kiste mit Kriegsvorräten"
 L["options_icons_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
 L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
