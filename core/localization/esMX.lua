@@ -94,13 +94,9 @@ L["options_toggle_hide_minimap_desc"] = "Oculta todos íconos de este addon sobr
 
 L["options_icons_pet_battles_desc"] = "Mostrar los lugares de instructores de mascotas y PNJs."
 L["options_icons_pet_battles"] = "Mascotas de duelo"
-L["options_icons_caves_desc"] = "Mostrar entradas de cuevas para otros nodos."
-L["options_icons_caves"] = "Cuevas"
 L["options_icons_daily_chests_desc"] = "Mostrar el lugar de los cofres (se puede ser saqueable diariamente)."
 L["options_icons_daily_chests"] = "Cofres"
 L["options_icons_misc"] = "Miscelánea"
-L["options_icons_npcs"] = "NPCs"
-L["options_icons_other"] = "Otros Íconos"
 L["options_icons_rares_desc"] = "Mostrar los lugares de los NPCs raros."
 L["options_icons_rares"] = "Raros"
 L["options_icons_supplies_desc"] = "Mostrar todos lugares posibles para los cajones de suministros de guerra."

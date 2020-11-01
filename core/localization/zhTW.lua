@@ -96,13 +96,9 @@ L["options_restore_hidden_nodes_desc"] = "恢復所有使用右鍵選單隱藏�
 
 L["options_icons_pet_battles_desc"] = "顯示戰寵訓練師與NPC的位置。"
 L["options_icons_pet_battles"] = "戰寵"
-L["options_icons_caves_desc"] = "顯示其他節點的洞穴入口。"
-L["options_icons_caves"] = "洞穴"
 L["options_icons_daily_chests_desc"] = "顯示寶箱位置 (每日可拾取的)。"
 L["options_icons_daily_chests"] = "寶箱"
 L["options_icons_misc"] = "其他"
-L["options_icons_npcs"] = "NPC"
-L["options_icons_other"] = "其他圖示"
 L["options_icons_rares_desc"] = "顯示稀有NPC的位置。"
 L["options_icons_rares"] = "稀有"
 L["options_icons_supplies_desc"] = "顯示戰爭補給箱的所有可能位置。"

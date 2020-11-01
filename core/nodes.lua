@@ -39,7 +39,7 @@ local Node = Class('Node', nil, {
     alpha = 1,
     scale = 1,
     icon = "default",
-    group = ns.groups.OTHER
+    group = ns.groups.MISC
 })
 
 function Node:Initialize(attrs)

@@ -220,7 +220,7 @@ function ns.CreateGlobalGroupOptions()
         ns.groups.RARE,
         ns.groups.TREASURE,
         ns.groups.PETBATTLE,
-        ns.groups.OTHER
+        ns.groups.MISC
     }) do
         ns.options.args.GlobalTab.args['group_icon_'..group.name] = {
             type = "header",

@@ -96,13 +96,9 @@ L["options_restore_hidden_nodes_desc"] = "Восстановите все скр
 
 L["options_icons_pet_battles_desc"] = "Показать местонахождение наставников боевых питомцев и NPC."
 L["options_icons_pet_battles"] = "Боевые Питомцы"
-L["options_icons_caves_desc"] = "Отображение входов в пещеры для других точек."
-L["options_icons_caves"] = "Пещеры"
 L["options_icons_daily_chests_desc"] = "Отображение местоположения сундуков (можно добывать ежедневно)."
 L["options_icons_daily_chests"] = "Сундуки"
 L["options_icons_misc"] = "Разное"
-L["options_icons_npcs"] = "НПС"
-L["options_icons_other"] = "Прочие Значки"
 L["options_icons_rares_desc"] = "Показать местонахождение редких НПС."
 L["options_icons_rares"] = "Редкие монстры"
 L["options_icons_supplies_desc"] = "Показать все возможные места сундуков с военными припасами."

@@ -93,13 +93,9 @@ L["options_toggle_hide_minimap_desc"] = "Cache toutes les icônes de cet addon s
 
 L["options_icons_pet_battles_desc"] = "Afficher les emplacements des Dresseurs de Mascottes de Combat et des PNJ."
 L["options_icons_pet_battles"] = "Mascottes de Combat"
-L["options_icons_caves_desc"] = "Afficher les entrées des grottes pour les autres nœuds."
-L["options_icons_caves"] = "Les Grottes"
 L["options_icons_daily_chests_desc"] = "Afficher les emplacements des coffres (pouvoir être pillé quotidiennement)."
 L["options_icons_daily_chests"] = "Coffres"
 L["options_icons_misc"] = "Divers"
-L["options_icons_npcs"] = "Des PNJ"
-L["options_icons_other"] = "Les Autres Icônes"
 L["options_icons_rares_desc"] = "Afficher les emplacements des PNJ rares."
 L["options_icons_rares"] = "Les Monstres Rares"
 L["options_icons_supplies_desc"] = "Afficher tous les emplacements possibles pour les caisses de fournitures de guerre."
