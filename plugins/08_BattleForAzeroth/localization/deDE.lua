@@ -265,6 +265,13 @@ L["honeyback_harvester_note"] = "Sprich mit der {npc:155193}, um das Event zu be
 L["options_icons_honeybacks"] = "Honigrückenernterin"
 L["options_icons_honeybacks_desc"] = "Zeigt die Positionen von Honigrückenernterinnen für Events zum sammeln von Ruf für die Fraktion Honigrückenschwarm an."
 
+L["lets_bee_friends_note"] = "Schließe die tägliche Quest {daily:53371} sieben mal ab, um das Pet und den Erfolg zu erhalten. Um die tägliche Quest freizuschalten:"
+L["lets_bee_friends_step_1"] = "Schließe die Metbrauerei Mildenhall Questreihe bis hin zu {quest:50553} ab."
+L["lets_bee_friends_step_2"] = "Töte {npc:133429} und {npc:131663} bei der Metbrauerei Mildenhall, bis du ein {item:163699} findest."
+L["lets_bee_friends_step_3"] = "Bringe den Gegenstand {item:163699} zu {npc:143128} in Boralus."
+L["lets_bee_friends_step_4"] = "Bringe {item:163702} zu {npc:133907} bei der Metbrauerei Mildenhall."
+L["lets_bee_friends_step_5"] = "Schließe die Quest {quest:53347} für {npc:133907} ab."
+
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in der Reisszahnfeste'
 L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei "..luncheon.." gekauft werden oder aus dem Schatz \"Zurückgelassene Vesperdose\" in Brennadam geplündert werden."
 
@@ -313,7 +320,6 @@ L["shanty_inebriation_note"] = "Plündere Jays Gesangbuch. Auf dem Boden hinter 
 L["shanty_lively_note"] = "Plündere Russells Gesangbuch. Auf dem Kaminsims."
 L["options_icons_shanty_raid"] = "{achievement:13057}"
 L["options_icons_shanty_raid_desc"] = "Zeigt die Positionen der verbotenen Seemannslieder für den Erfolg {achievement:13057} an."
-
 
 L["upright_citizens_node"] = [[
 Jedesmal, wenn die Übergriffsquest {wq:Nicht allzu nüchterne Bürgerwehr} aktiv ist, wird einer der drei unteren NPCs erscheinen.
@@ -681,3 +687,8 @@ L["options_icons_three_sheets_desc"] = "Zeigt die Positionen der Händler für d
 L["supply_chest"] = "Kiste mit Kriegsvorräten"
 L["options_icons_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
 L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
+
+L["secret_supply_chest"] = "Geheime Vorratstruhe"
+L["secret_supply_chest_note"] = "Wenn ein Übergriff aktiv ist, kann eine geheime Vorratstruhe für eine kurze Zeit an einer dieser Positionen erscheinen."
+L["options_icons_secret_supplies"] = "Geheime Vorratstruhen"
+L["options_icons_secret_supplies_desc"] = "Zeigt die Positionen der geheimen Vorratstruhen für den Erfolg {achievement:13317} an."
