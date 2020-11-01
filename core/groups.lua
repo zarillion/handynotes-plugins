@@ -63,6 +63,7 @@ function Group:SetDisplay(v) ns:SetOpt(self.displayArg, v) end
 ns.Group = Group
 
 ns.GROUP_HIDDEN = {display=false}
+ns.GROUP_HIDDEN75 = {alpha=0.75, display=false}
 ns.GROUP_ALPHA75 = {alpha=0.75}
 
 ns.groups = {
