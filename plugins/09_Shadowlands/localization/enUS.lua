@@ -326,7 +326,7 @@ Has a chance to drop an {item:180583}, which begins a 7 day quest line to obtain
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
 L["forbidden_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838s}, then use {spell:340866} in front of the {npc:173786}."
 L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
-L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
+L["lost_quill_note"] = "Loot {item:182613} from the bottle on the table in the Forbidden Library."
 L["rapier_fearless_note"] = "Click the rapier on the ground, then defeat {npc:173603}."
 L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."

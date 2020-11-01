@@ -327,7 +327,7 @@ A une chance de lâcher un {item:180583}, qui commence une ligne de quête de 7 
 
 L["dredglaive_note"] = "Sous le pont, dans le cadavre de {npc:173671}."
 L["forbidden_chamber_note"] = "Procurez-vous un Bidon d'Anima jeté devant la porte fermée à clé et apprenez {spell:340701}. Utilisez-le pour vider cinq des {npc:173838}s à proximité, puis utilisez {spell:340866} devant le {npc:173786}."
-L["lost_quill_note"] = "Ramasser {item:182475} depuis la bouteille sur la table de la bibliothèque interdite."
+L["lost_quill_note"] = "Ramasser {item:182613} depuis la bouteille sur la table de la bibliothèque interdite."
 L["rapier_fearless_note"] = "Cliquer la rapière au sol, puis vaincre {npc:173603}."
 L["taskmaster_trove_note"] = "Lisez les rites d'entrée et sortie, puis dirigez-vous avec précaution vers le coffre."
 L["the_count_note"] = "Farmez 99 {currency:1820} dans le Marais des Affres et amenez-les ensuite à {npc:173488}."
