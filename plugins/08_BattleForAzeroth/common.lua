@@ -40,7 +40,7 @@ ns.groups.SCAVENGER_OF_THE_SANDS = Group('scavenger_of_the_sands', 135725, {defa
 ns.groups.SECRET_SUPPLY = Group('secret_supplies', 'star_chest_b', {defaults=ns.GROUP_HIDDEN75})
 ns.groups.SHANTY_RAID = Group('shanty_raid', 1500866, {defaults=ns.GROUP_HIDDEN})
 ns.groups.SLIMES_NAZJ = Group('slimes_nazj', 132107)
-ns.groups.SUPPLY = Group('supplies', 'star_chest_g')
+ns.groups.SUPPLY = Group('supplies', 'star_chest_g', {defaults=ns.GROUP_ALPHA75})
 ns.groups.TALES_OF_DE_LOA = Group('tales_of_de_loa', 1875083, {defaults=ns.GROUP_HIDDEN})
 ns.groups.THREE_SHEETS = Group('three_sheets', 135999, {defaults=ns.GROUP_HIDDEN})
 ns.groups.TIDESAGE_LEGENDS = Group('tidesage_legends', 1500881, {defaults=ns.GROUP_HIDDEN})
