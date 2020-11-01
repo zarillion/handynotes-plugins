@@ -62,14 +62,20 @@ end
 TestLocales = {}
 
 function TestLocales:CreateNamespace(expectedKeys)
-    local ns = { keys = {}, expectedKeys = expectedKeys }
+    local ns = { keys = {}, seen = {}, expectedKeys = expectedKeys }
     ColorModule('TEST', ns)
 
     function ns.NewLocale(locale)
         local L = {}
         setmetatable(L, {
-            __index = function(self, key) assert(false) end,
+            __index = function(self, key)
+                error(format('string "%s" cannot be accessed', key))
+            end,
             __newindex = function(self, key, value)
+                if ns.seen[key] then
+                    error(format('string "%s" assigned twice', key))
+                end
+                ns.seen[key] = true
                 ns.keys[#ns.keys + 1] = key
                 if expectedKeys and key ~= expectedKeys[#ns.keys] then
                     error(format('expected "%s" instead of "%s"', expectedKeys[#ns.keys], key))
