@@ -231,6 +231,8 @@ Rassemblez des ingrédients des monstres environnants et jetez-les dans la bassi
 
 • Récupérez {spell:306722} sur les {npc:165027} et {npc:166438} au sud.
 ]]
+L["Violet"] = nil
+L["Oily"] = nil
 
 L["blackhound_cache"] = "Cache de Noir-Mâtin"
 L["bladesworn_supply_cache"] = "Cache de fournitures des ligelames"
@@ -327,22 +329,15 @@ A une chance de lâcher un {item:180583}, qui commence une ligne de quête de 7 
 
 L["dredglaive_note"] = "Sous le pont, dans le cadavre de {npc:173671}."
 L["forbidden_chamber_note"] = "Procurez-vous un Bidon d'Anima jeté devant la porte fermée à clé et apprenez {spell:340701}. Utilisez-le pour vider cinq des {npc:173838}s à proximité, puis utilisez {spell:340866} devant le {npc:173786}."
+L["gilded_plum_chest_note"] = "Tuez les {npc:166680} qui errent sur la route."
 L["lost_quill_note"] = "Ramasser {item:182475} depuis la bouteille sur la table de la bibliothèque interdite."
 L["rapier_fearless_note"] = "Cliquer la rapière au sol, puis vaincre {npc:173603}."
+L["remlates_cache_note"] = "Sur le mur extérieur de Sombrehavre, derrière la crypte."
 L["taskmaster_trove_note"] = "Lisez les rites d'entrée et sortie, puis dirigez-vous avec précaution vers le coffre."
 L["the_count_note"] = "Farmez 99 {currency:1820} dans le Marais des Affres et amenez-les ensuite à {npc:173488}."
 
 L["bleakwood_chest"] = "Coffre en bois sombre" --Correction : Doute sur le nom du coffre
-L["chest_of_envious_dreams"] = "Coffre des rêves envieux"
-L["filchers_prize"] = "Trophée du chapardeur"
-L["fleeing_soul_bundle"] = "Paquet d'âme en fuite"
 L["forgotten_anglers_rod"] = "Canne à pêche oubliée"
-L["gilded_plum_chest"] = "Coffre de la prune d'or"
-L["gilded_plum_chest_note"] = "Tuez les {npc:166680} qui errent sur la route."
-L["remlates_cache"] = "Cache de Remlate"
-L["remlates_cache_note"] = "Sur le mur extérieur de Sombrehavre, derrière la crypte."
-L["smuggled_cache"] = "Cache clandestine"
-L["wayfarer_spoils"] = "Butin de voyageur abandonné"
 
 L["loyal_gorger_note"] = "Visitez le Marais des Affres et complétez une quête journalière offerte par votre {npc:173498} 7 fois pour l'obtenir en tant que monture."
 
@@ -368,6 +363,7 @@ L["the_banewood"] = "Le Malbois"
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
+L["return_to_the_maw"] = nil
 L["maw_intro_note"] = [[
 Complétez la suite de quêtes d'introduction pour débloquer les rares et les événements dans l'Antre.
 
@@ -396,6 +392,7 @@ L["soul_well_note"] = "Attrapez la Stygia qui jaillit du Puit d'âmes." --Correc
 L["obliterated_soul_shards_note"] = "Collectez des éclats d'âme oblitérés sur les ponts."
 
 L["chaotic_riftstone_note"] = "Activer pour {spell:344157} rapidement à travers l'Antre."
+L["venari_upgrade"] = nil
 
 L["options_icons_bonus_boss"] = "Élites bonus"
 L["options_icons_bonus_boss_desc"] = "Afficher les emplacements des élites bonus."

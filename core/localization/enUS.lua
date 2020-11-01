@@ -120,22 +120,22 @@ L["options_toggle_use_char_achieves_desc"] = "Display achievement progress for t
 L["options_restore_hidden_nodes"] = "Restore hidden nodes"
 L["options_restore_hidden_nodes_desc"] = "Restore all nodes hidden using the right-click context menu."
 
-L["options_icons_pet_battles_desc"] = "Display locations of battle pet trainers and NPCs."
-L["options_icons_pet_battles"] = "Pet Battles"
 L["options_icons_daily_chests_desc"] = "Display locations of chests (lootable daily)."
 L["options_icons_daily_chests"] = "Chests"
 L["options_icons_daily_quests_desc"] = "Display locations of unmarked daily quests."
 L["options_icons_daily_quests"] = "Daily Quests"
-L["options_icons_misc"] = "Miscellaneous"
 L["options_icons_misc_desc"] = "Display locations of other miscellaneous nodes."
+L["options_icons_misc"] = "Miscellaneous"
+L["options_icons_pet_battles_desc"] = "Display locations of battle pet trainers and NPCs."
+L["options_icons_pet_battles"] = "Pet Battles"
 L["options_icons_quests_desc"] = "Display locations of unmarked quest lines."
 L["options_icons_quests"] = "Quests"
 L["options_icons_rares_desc"] = "Display locations of rare NPCs."
 L["options_icons_rares"] = "Rares"
-L["options_icons_treasures"] = "Treasures"
 L["options_icons_treasures_desc"] = "Display locations of hidden treasures."
+L["options_icons_treasures"] = "Treasures"
 
----------------------------------- FOCUS ---------------------------------
+------------------------------------ FOCUS ------------------------------------
 
 L["options_focus_settings"] = "Points of Interest"
 L["options_poi_color"] = "POI color"
@@ -145,7 +145,7 @@ L["options_path_color_desc"] = "Sets the color for the paths when an icon is in 
 L["options_reset_poi_colors"] = "Reset colors"
 L["options_reset_poi_colors_desc"] = "Reset the above colors to their defaults."
 
----------------------------------- TOOLTIP ---------------------------------
+----------------------------------- TOOLTIP -----------------------------------
 
 L["options_tooltip_settings"] = "Tooltip"
 L["options_tooltip_settings_desc"] = "Tooltip"

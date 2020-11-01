@@ -120,22 +120,22 @@ L["options_toggle_use_char_achieves_desc"] = "显示成就进度为此角色而�
 L["options_restore_hidden_nodes"] = "恢复隐藏项"
 L["options_restore_hidden_nodes_desc"] = "使用右击菜单恢复全部隐藏项。"
 
-L["options_icons_pet_battles_desc"] = "显示宠物训练师和 NPC 的位置。"
-L["options_icons_pet_battles"] = "战斗宠物"
 L["options_icons_daily_chests_desc"] = "显示宝箱位置（每日可拾取）。"
 L["options_icons_daily_chests"] = "宝箱"
 L["options_icons_daily_quests_desc"] = "显示未标记每日任务的位置。"
 L["options_icons_daily_quests"] = "每日任务"
-L["options_icons_misc"] = "杂项"
 L["options_icons_misc_desc"] = "显示其它未分类项的位置。"
+L["options_icons_misc"] = "杂项"
+L["options_icons_pet_battles_desc"] = "显示宠物训练师和 NPC 的位置。"
+L["options_icons_pet_battles"] = "战斗宠物"
 L["options_icons_quests_desc"] = "显示未标记任务线的位置。"
 L["options_icons_quests"] = "任务"
 L["options_icons_rares_desc"] = "显示稀有 NPC 的位置。"
 L["options_icons_rares"] = "稀有"
-L["options_icons_treasures"] = "宝藏"
 L["options_icons_treasures_desc"] = "显示隐藏宝藏位置。"
+L["options_icons_treasures"] = "宝藏"
 
----------------------------------- FOCUS ---------------------------------
+------------------------------------ FOCUS ------------------------------------
 
 L["options_focus_settings"] = "兴趣点"
 L["options_poi_color"] = "兴趣点颜色"
@@ -145,7 +145,7 @@ L["options_path_color_desc"] = "图标为焦点时设定路径颜色。"
 L["options_reset_poi_colors"] = "颜色重置"
 L["options_reset_poi_colors_desc"] = "重置上面的颜色为预设。"
 
----------------------------------- TOOLTIP ---------------------------------
+----------------------------------- TOOLTIP -----------------------------------
 
 L["options_tooltip_settings"] = "提示"
 L["options_tooltip_settings_desc"] = "提示"

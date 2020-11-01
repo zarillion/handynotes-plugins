@@ -6,10 +6,12 @@ if not L then return end
 ------------------------------------ GEAR -------------------------------------
 -------------------------------------------------------------------------------
 
+L["bag"] = nil
 L["cloth"] = "Tela"
 L["leather"] = "Cuero"
 L["mail"] = "Malla"
 L["plate"] = "Placas"
+L["cosmetic"] = nil
 
 L["1h_mace"] = "1m Maza"
 L["1h_sword"] = "1m Espada"
@@ -30,7 +32,7 @@ L["offhand"] = "Mano Izquierda"
 L["warglaive"] = "Glaive"
 
 L["ring"] = "Anillo"
-L["amulet"] = "Amuleto"
+L["neck"] = "Amuleto"
 L["cloak"] = "Capa"
 L["trinket"] = "Abalorio"
 
@@ -38,16 +40,25 @@ L["trinket"] = "Abalorio"
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["activation_unknown"] = nil
+L["requirement_not_found"] = nil
+
+L["Requires"] = nil
+L["focus"] = nil
 L["retrieving"] = "Recuperando el enlace del elemento ..."
 L["in_cave"] = "En una cueva."
 L["in_small_cave"] = "En una cueva pequeña."
 L["in_water_cave"] = "En una cueva submarina."
+L["in_waterfall_cave"] = nil
 L["in_water"] = "Bajo el agua."
+L["hourly"] = nil
+L["daily"] = nil
 L["weekly"] = "Semanal"
 L["normal"] = "Normal"
 L["hard"] = "Difícil"
 L["mount"] = "Montura"
 L["pet"] = "Mascota"
+L["spell"] = nil
 L["toy"] = "Juguete"
 L["completed"] = "Terminado"
 L["incomplete"] = "Incompleto"
@@ -55,25 +66,36 @@ L["known"] = "Conocido"
 L["missing"] = "Desconocido"
 L["unobtainable"] = "No se puede obtener"
 L["unlearnable"] = "No se puede aprender"
+L["A"] = nil
+L["D"] = nil
+L["defeated"] = nil
+L["undefeated"] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
 
+L["context_menu_set_waypoint"] = nil
 L["context_menu_add_tomtom"] = "Agregar a TomTom"
 L["context_menu_hide_node"] = "Ocultar este nodo"
 L["context_menu_restore_hidden_nodes"] = "Restaurar todos los nodos ocultos"
+
+L["map_button_text"] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
 -------------------------------------------------------------------------------
 
-L["options_global"] = "Global"
-L["options_zones"] = "Zones"
+L["options_global"] = nil
+L["options_zones"] = nil
 
-L["options_general_description"] = "Settings that control the behavior of nodes and their rewards."
-L["options_global_description"] = "Settings that control the display of all nodes in all zones."
-L["options_zones_description"] = "Settings that control the display of nodes in each individual zone."
+L["options_general_description"] = nil
+L["options_global_description"] = nil
+L["options_zones_description"] = nil
+
+L["options_open_settings_panel"] = nil
+L["options_open_world_map"] = nil
+L["options_open_world_map_desc"] = nil
 
 ------------------------------------ ICONS ------------------------------------
 
@@ -87,19 +109,41 @@ L["options_opacity_desc"] = "0 = transparencia, 1 = opaco"
 
 L["options_visibility_settings"] = "Visibilidad"
 L["options_general_settings"] = "General"
+L["options_show_completed_nodes"] = nil
+L["options_show_completed_nodes_desc"] = nil
 L["options_toggle_hide_done_rare"] = "Ocultar el raro si todo el botín se conoce"
 L["options_toggle_hide_done_rare_desc"] = "Ocultar todos los raros de botín conocido."
 L["options_toggle_hide_minimap"] = "Ocultar todos los íconos sobre el minimapa"
 L["options_toggle_hide_minimap_desc"] = "Oculta todos íconos de este addon sobre el minimapa y los mostra solamente sobre el mapa principal."
+L["options_toggle_use_char_achieves"] = nil
+L["options_toggle_use_char_achieves_desc"] = nil
+L["options_restore_hidden_nodes"] = nil
+L["options_restore_hidden_nodes_desc"] = nil
 
-L["options_icons_pet_battles_desc"] = "Mostrar los lugares de instructores de mascotas y PNJs."
-L["options_icons_pet_battles"] = "Mascotas de duelo"
 L["options_icons_daily_chests_desc"] = "Mostrar el lugar de los cofres (se puede ser saqueable diariamente)."
 L["options_icons_daily_chests"] = "Cofres"
+L["options_icons_daily_quests_desc"] = nil
+L["options_icons_daily_quests"] = nil
+L["options_icons_misc_desc"] = nil
 L["options_icons_misc"] = "Miscelánea"
+L["options_icons_pet_battles_desc"] = "Mostrar los lugares de instructores de mascotas y PNJs."
+L["options_icons_pet_battles"] = "Mascotas de duelo"
+L["options_icons_quests_desc"] = nil
+L["options_icons_quests"] = nil
 L["options_icons_rares_desc"] = "Mostrar los lugares de los NPCs raros."
 L["options_icons_rares"] = "Raros"
+L["options_icons_treasures_desc"] = nil
 L["options_icons_treasures"] = "Tesoros"
+
+------------------------------------ FOCUS ------------------------------------
+
+L["options_focus_settings"] = nil
+L["options_poi_color"] = nil
+L["options_poi_color_desc"] = nil
+L["options_path_color"] = nil
+L["options_path_color_desc"] = nil
+L["options_reset_poi_colors"] = nil
+L["options_reset_poi_colors_desc"] = nil
 
 ---------------------------------- TOOLTIP ---------------------------------
 

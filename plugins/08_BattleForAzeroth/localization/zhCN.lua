@@ -356,9 +356,9 @@ L["gersahl_note"] = "用于喂食 {npc:162765} 七次后可以获得坐骑。不
 L["gersahl"] = "基萨尔野菜"
 L["hmiasma"] = "喂食它周围的软泥直到激活。"
 L["kanebti"] = "从 {npc:152427} 身上收集 {item:168160}，与一般的 {npc:151859} 共享刷新。把雕像插入甲虫神龛召唤稀有。"
-L["right_eye"] = "掉落 {item:175140} 玩具的 {item:175142}。"
 L["neferset_rare"] = "这六个稀有在尼斐塞特具有共享三个刷新点。 完成召唤仪式事件后，将随机刷新三个。"
 L["platform"] = "刷新在浮空平台顶部。"
+L["right_eye"] = "掉落 {item:175140} 玩具的 {item:175142}。"
 L["single_chest"] = "此宝箱只在一处刷新！如果没有在这没有发现，等待一会儿将会刷新。"
 L["tomb_widow"] = "当柱子上出现白色卵囊时，杀死看不见的蜘蛛召唤。"
 L["uatka"] = "需要三个人分别同时点击 {npc:152777}，消耗一个 {item:171208} 出自阿玛塞特圣箱。"
@@ -414,8 +414,8 @@ L["guolai"] = "在郭莱古厅里面。"
 L["guolai_left"] = "进入郭莱古厅（左侧通道）。"
 L["guolai_center"] = "进入郭莱古厅（中间通道）。"
 L["guolai_right"] = "进入郭莱古厅（右侧通道）。"
-L["pools_of_power"] = "在能量池中，入口在鎏金亭。"
 L["left_eye"] = "掉落 {item:175140} 玩具的 {item:175141}。"
+L["pools_of_power"] = "在能量池中，入口在鎏金亭。"
 L["tisiphon"] = "点击丹妮尔的好运鱼竿。"
 
 L["ambered_cache"] = "琥珀宝箱"
@@ -637,20 +637,20 @@ else
     hekd_note = hekd_note:format("位于沃顿 {npc:136562} 的 {quest:51142} 然后是 {npc:136559} 的 {quest:51145}")
 end
 local hekd_quest = "从 {npc:126334} 完成任务 %s。"..ns.color.Orange(hekd_note)
-local hekd_item = "从垃圾堆附近的 %2$s 拾取 %1$s 并带给 {npc:126334}。"..ns.color.Orange(hekd_note)
+local hekd_item = "从垃圾堆附近的 %s 拾取 %s 并带给 {npc:126334}。"..ns.color.Orange(hekd_note)
 
-L["charged_junk_note"] = format(hekd_item, "{item:158910}", "球潮虫")
-L["feathered_junk_note"] = format(hekd_item, "{item:157794}", "{npc:132410}")
-L["golden_junk_note"] = format(hekd_item, "{item:156963}", "暴掠龙")
+L["charged_junk_note"] = format(hekd_item, "球潮虫", "{item:158910}")
+L["feathered_junk_note"] = format(hekd_item, "{npc:132410}", "{item:157794}")
+L["golden_junk_note"] = format(hekd_item, "暴掠龙", "{item:156963}")
 L["great_hat_junk_note"] = format(hekd_quest, "{quest:50381}")
 L["hunter_junk_note"] = format(hekd_quest, "{quest:50332}")
 L["loa_road_junk_note"] = format(hekd_quest, "{quest:50444}")
-L["nazwathan_junk_note"] = format(hekd_item, "{item:157802}", "纳兹瓦萨亡灵")
-L["redrock_junk_note"] = format(hekd_item, "{item:158916}", "赤岩土狼")
-L["ringhorn_junk_note"] = format(hekd_item, "{item:158915}", "{npc:130321}")
+L["nazwathan_junk_note"] = format(hekd_item, "纳兹瓦萨亡灵", "{item:157802}")
+L["redrock_junk_note"] = format(hekd_item, "赤岩土狼", "{item:158916}")
+L["ringhorn_junk_note"] = format(hekd_item, "{npc:130321}", "{item:158915}")
 L["saurid_junk_note"] = format(hekd_quest, "{quest:50901}")
-L["snapjaw_junk_note"] = format(hekd_item, "{item:157801}", "钳嘴鳄鱼")
-L["vilescale_junk_note"] = format(hekd_item, "{item:157797}", "邪鳞纳迦")
+L["snapjaw_junk_note"] = format(hekd_item, "钳嘴鳄鱼", "{item:157801}")
+L["vilescale_junk_note"] = format(hekd_item, "邪鳞纳迦", "{item:157797}")
 L["options_icons_get_hekd"] = "{achievement:12482}"
 L["options_icons_get_hekd_desc"] = "显示 {achievement:12482} 成就中 {npc:126334} 任务的位置。"
 

@@ -35,7 +35,8 @@ jobs:
           luacheck core plugins tests/test_*.lua
           python tests/test_locales.py
 
-      # TODO: write script to iterate and run multiple test files
       - name: Run tests
-        run: lua test_class.lua
+        run: |
+          lua test_class.lua
+          lua test_locales.lua
         working-directory: tests

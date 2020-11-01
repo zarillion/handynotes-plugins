@@ -229,6 +229,8 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 
 • Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
 ]]
+L["Violet"] = nil
+L["Oily"] = nil
 
 L["blackhound_cache"] = "Blackhound Cache"
 L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"

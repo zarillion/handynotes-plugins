@@ -194,8 +194,8 @@ L["anima_shard_61297"] = "Detrás de un pilar de piedra."
 L["anima_shard_61298"] = "Reposa detrás de un sillón."
 L["anima_shard_61299"] = "Oculta detrás de una gran antorcha."
 L["anima_shard_61300"] = "En una repisa que cuelga sobre la fuente central."
-L["options_icons_anima_shards"] = "{achievement:14339}"
-L["options_icons_anima_shards_desc"] = "Muestra la localización de los 50 fragmentos de cristal de ánima perdidos para el logro {achievement:14339}."
+L["options_icons_anima_shard"] = "{achievement:14339}"
+L["options_icons_anima_shard_desc"] = "Muestra la localización de los 50 fragmentos de cristal de ánima perdidos para el logro {achievement:14339}."
 
 L["aspirants_rest"] = "Reposo del Aspirante"
 L["eternal_gateway"] = "Portal Eterno"
@@ -231,6 +231,8 @@ Recoge ingredientes de los enemigos de alrededor y tíralos en la poza. Cuando h
 
 • Recoge {spell:306722} de {npc:165027} y de {npc:166438} al sur.
 ]]
+L["Violet"] = nil
+L["Oily"] = nil
 
 L["blackhound_cache"] = "Alijo Sabueso Negro"
 L["bladesworn_supply_cache"] = "Alijo de Suministros Juraespadas"

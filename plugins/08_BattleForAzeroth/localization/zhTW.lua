@@ -3,6 +3,32 @@ local L = ns.NewLocale("zhTW")
 if not L then return end
 
 -------------------------------------------------------------------------------
+----------------------------------- DRUSTVAR ----------------------------------
+-------------------------------------------------------------------------------
+
+L["ancient_sarco_note"] = nil
+L["beshol_note"] = nil
+L["cottontail_matron_note"] = nil
+L["gluttonous_yeti_note"] = nil
+L["seething_cache_note"] = nil
+L["the_caterer_note"] = nil
+L["vicemaul_note"] = nil
+
+L["merchants_chest_note"] = nil
+L["wicker_pup_note"] = nil
+
+L["runebound_cache_note"] = nil
+L["runebound_chest_note"] = nil
+L["runebound_coffer_note"] = nil
+
+L["captain_hermes_note"] = nil
+L["dilbert_mcclint_note"] = nil
+L["fizzie_spark_note"] = nil
+L["michael_skarn_note"] = nil
+
+L["linda_deepwater_note"] = nil
+
+-------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -32,6 +58,12 @@ L["rust_chest_note"] = "開啟老舊生鏽箱子的鑰匙從西湧列島小怪�
 
 L["rec_rig_note"] = "要啟動困難模式，使用超級對撞機武器來將所有輻射元素轉換為不穩定輻射元素。寵物可以在兩種難度中獲得。"
 
+L["grease_bot_note"] = nil
+L["shock_bot_note"] = nil
+L["welding_bot_note"] = nil
+
+L["options_icons_mech_buffs"] = nil
+L["options_icons_mech_buffs_desc"] = nil
 L["options_icons_mech_chest"] = "機械化箱"
 L["options_icons_mech_chest_desc"] = "顯示機械化箱子的位置。有10個獨特的箱子可以每天洗一次，每個箱子有4-5個產卵位置。位置按顏色分組。"
 L["options_icons_locked_chest"] = "鎖定箱子"
@@ -120,6 +152,7 @@ L["cat_figurine_07"] = "在一個小洞穴。雕像在一些珊瑚的牆上。"
 L["cat_figurine_08"] = "在一個小洞穴。躲避祕法圈。 小雕像在後面的高大的岩石上。"
 L["cat_figurine_09"] = "在一個水下洞穴。雕像位於天花板的岩石拱門上。"
 L["cat_figurine_10"] = "在路徑下方的一個洞穴裡。 雕像在三個桶之間。"
+L["figurines_found"] = nil
 
 L["mardivas_lab"] = "瑪爾迪瓦斯實驗室"
 L["no_reagent"] = "不使用水晶"
@@ -129,6 +162,19 @@ L["sfire"] = "小火炎"
 L["gfire"] = "大火炎"
 L["searth"] = "小土岩"
 L["gearth"] = "大土岩"
+L["Arcane"] = nil
+L["Watery"] = nil
+L["Burning"] = nil
+L["Dusty"] = nil
+L["Zomera"] = nil
+L["Omus"] = nil
+L["Osgen"] = nil
+L["Moghiea"] = nil
+L["Xue"] = nil
+L["Ungormath"] = nil
+L["Spawn"] = nil
+L["Herald"] = nil
+L["Salgos"] = nil
 L["tentacle_taco"] = "出售 {item:170100} 如果你是穿著艾薩利怒濤者斗篷。"
 
 L["options_icons_slimes_nazj"] = "飢餓的軟泥"
@@ -137,6 +183,126 @@ L["options_icons_cats_nazj"] = "貓咪雕像"
 L["options_icons_cats_nazj_desc"] = "顯示'喵出喵咪喵像'成就的水晶貓位置。"
 L["options_icons_misc_nazj"] = "其他"
 L["options_icons_misc_nazj_desc"] = "顯示莫洛哥的洞穴以及瑪爾迪瓦斯的實驗室的位置。"
+
+-------------------------------------------------------------------------------
+------------------------------------ NAZMIR -----------------------------------
+-------------------------------------------------------------------------------
+
+L["captain_mukala_note"] = nil
+L["enraged_water_note"] = nil
+L["lucille_note"] = nil
+L["offering_to_bwonsamdi_note"] = nil
+L["shambling_ambusher_note"] = nil
+L["zaamar_note"] = nil
+
+L["grady_prett_note"] = nil
+L["korval_dark_note"] = nil
+L["lozu_note"] = nil
+
+L["tales_bwonsamdi_note"] = nil
+L["tales_hireek_note"] = nil
+L["tales_kragwa_note"] = nil
+L["tales_torga_note"] = nil
+
+L["carved_in_stone_41860"] = nil
+L["carved_in_stone_41861"] = nil
+L["carved_in_stone_41862"] = nil
+L["carved_in_stone_42116"] = nil
+L["options_icons_carved_in_stone"] = nil
+L["options_icons_carved_in_stone_desc"] = nil
+
+L["hoppin_sad_53419"] = nil
+L["hoppin_sad_53420"] = nil
+L["hoppin_sad_53424"] = nil
+L["hoppin_sad_53425"] = nil
+L["hoppin_sad_53426"] = nil
+
+L["options_icons_hoppin_sad"] = nil
+L["options_icons_hoppin_sad_desc"] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- STORMSONG VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L["in_basement"] = nil
+L["jakala_note"] = nil
+L["nestmother_acada_note"] = nil
+L["sabertron_note"] = nil
+L["whiplash_note"] = nil
+
+L["discarded_lunchbox_note"] = nil
+L["hidden_scholars_chest_note"] = nil
+L["honey_vat"] = nil
+L["smugglers_stash_note"] = nil
+L["sunken_strongbox_note"] = nil
+L["venture_co_supply_chest_note"] = nil
+L["weathered_treasure_chest_note"] = nil
+
+L["curious_grain_sack"] = nil
+L["small_treasure_chest"] = nil
+L["small_treasure_51927"] = nil
+L["small_treasure_51940"] = nil
+
+L["eddie_fixit_note"] = nil
+L["ellie_vern_note"] = nil
+L["leana_darkwind_note"] = nil
+
+L["honeyback_harvester_note"] = nil
+L["options_icons_honeybacks"] = nil
+L["options_icons_honeybacks_desc"] = nil
+
+L["lets_bee_friends_note"] = nil
+L["lets_bee_friends_step_1"] = nil
+L["lets_bee_friends_step_2"] = nil
+L["lets_bee_friends_step_3"] = nil
+L["lets_bee_friends_step_4"] = nil
+L["lets_bee_friends_step_5"] = nil
+
+L["these_hills_sing_note"] = nil
+
+L["ancient_tidesage_scroll"] = nil
+L["ancient_tidesage_scroll_note"] = nil
+L["options_icons_tidesage_legends"] = nil
+L["options_icons_tidesage_legends_desc"] = nil
+
+L["long_forgotten_rum_note"] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- TIRAGARDE SOUND -------------------------------
+-------------------------------------------------------------------------------
+
+L["honey_slitherer_note"] = nil
+L["tempestria_note"] = nil
+L["twin_hearted_note"] = nil
+L["wintersail_note"] = nil
+
+L["hay_covered_chest_note"] = nil
+L["pirate_treasure_note"] = nil
+
+L["damp_scroll"] = nil
+L["damp_scroll_note_1"] = nil
+L["damp_scroll_note_2"] = nil
+L["damp_scroll_note_3"] = nil
+L["damp_scroll_note_4"] = nil
+L["damp_scroll_note_5"] = nil
+L["ominous_altar"] = nil
+L["ominous_altar_note"] = nil
+L["secret_of_the_depths_note"] = nil
+
+L["burly_note"] = nil
+L["delia_hanako_note"] = nil
+L["kwint_note"] = nil
+
+L["shanty_fruit_note"] = nil
+L["shanty_horse_note"] = nil
+L["shanty_inebriation_note"] = nil
+L["shanty_lively_note"] = nil
+L["options_icons_shanty_raid"] = nil
+L["options_icons_shanty_raid_desc"] = nil
+
+L["upright_citizens_node"] = nil
+L["options_icons_upright_citizens"] = nil
+L["options_icons_upright_citizens_desc"] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -158,9 +324,9 @@ L["gersahl_note"] = "餵給友善的羊駝七次獲得坐騎。 不需要草藥�
 L["gersahl"] = "吉薩爾草叢"
 L["hmiasma"] = "餵食它周圍的軟泥，直到它啟動。"
 L["kanebti"] = "從一個珠寶古墓聖甲蟲中收集一個珠寶聖甲蟲小雕像，該雕像與普通的古墓聖甲蟲共用出生點。 將雕像插入聖甲蟲聖壇以召喚稀有怪。"
-L["left_eye"] = "放下全知之眼玩具的左半部分。"
 L["neferset_rare"] = "這六個稀有怪在奈斐賽特具有相同的三個出生位置。 完成許多“召喚儀式”事件後，將隨機產生三個。"
 L["platform"] = "出生在浮動平台頂部。"
+L["right_eye"] = "放下全知之眼玩具的右半部分。"
 L["single_chest"] = "此箱子僅在一個位置產生！ 如果不存在，請稍等一下，它將重新生成。"
 L["tomb_widow"] = "當柱子上出現白色卵囊時，殺死隱形的蜘蛛來召喚。"
 L["uatka"] = "與其他兩個玩家一起，點擊每個神秘設備。 需要來自阿瑪賽特聖匣的觸日者護符。"
@@ -216,8 +382,8 @@ L["guolai"] = "在郭萊院中。"
 L["guolai_left"] = "在郭萊院中 (左邊通道)。"
 L["guolai_center"] = "在郭萊院中 (中央通道)。"
 L["guolai_right"] = "在郭萊院中 (右邊通道)。"
+L["left_eye"] = "放下全知之眼玩具的左半部分。"
 L["pools_of_power"] = "在能量之池中，入口在黃金寶塔。"
-L["right_eye"] = "放下全知之眼玩具的右半部分。"
 L["tisiphon"] = "點擊丹妮爾的幸運釣竿。"
 
 L["ambered_cache"] = "琥珀化寶箱"
@@ -336,12 +502,140 @@ L["options_icons_visions_misc_desc"] = "在驚懼幻象中顯示稀有、玩具�
 ----------------------------------- VOLDUN ------------------------------------
 -------------------------------------------------------------------------------
 
+L["bloodwing_bonepicker_note"] = nil
+L["nezara_note"] = nil
+L["vathikur_note"] = nil
+L["zunashi_note"] = nil
+
+L["ashvane_spoils_note"] = nil
+L["excavators_greed_note"] = nil
+L["grayals_offering_note"] = nil
+L["kimbul_offerings_note"] = nil
+L["sandsunken_note"] = nil
+
+L["keeyo_note"] = nil
+L["kusa_note"] = nil
+L["sizzik_note"] = nil
+
+L["tales_akunda_note"] = nil
+L["tales_kimbul_note"] = nil
+L["tales_sethraliss_note"] = nil
+
+L["plank_1"] = nil
+L["plank_2"] = nil
+L["plank_3"] = nil
+L["plank_4"] = nil
+L["plank_5"] = nil
+L["planks_ridden"] = nil
+L["options_icons_dune_rider"] = nil
+L["options_icons_dune_rider_desc"] = nil
+
+L["options_icons_scavenger_of_the_sands"] = nil
+L["options_icons_scavenger_of_the_sands_desc"] = nil
+
 L["elusive_alpaca"] = "餵羊駝濱海綜合綠色蔬菜以學習坐騎。 在一個位置出現10分鐘，然後很久才重生。"
+
+-------------------------------------------------------------------------------
+---------------------------------- WARFRONTS ----------------------------------
+-------------------------------------------------------------------------------
+
+L["boulderfist_outpost"] = nil
+L["burning_goliath_note"] = nil
+L["cresting_goliath_note"] = nil
+L["rumbling_goliath_note"] = nil
+L["thundering_goliath_note"] = nil
+L["echo_of_myzrael_note"] = nil
+L["frightened_kodo_note"] = nil
+
+-------------------------------------------------------------------------------
+----------------------------------- ZULDAZAR ----------------------------------
+-------------------------------------------------------------------------------
+
+L["murderbeak_note"] = nil
+L["vukuba_note"] = nil
+
+L["cache_of_secrets_note"] = nil
+L["da_white_shark_note"] = nil
+L["dazars_forgotten_chest_note"] = nil
+L["gift_of_the_brokenhearted_note"] = nil
+L["offerings_of_the_chosen_note"] = nil
+L["riches_of_tornowa_note"] = nil
+L["spoils_of_pandaria_note"] = nil
+L["tiny_voodoo_mask_note"] = nil
+L["warlords_cache_note"] = nil
+
+L["karaga_note"] = nil
+L["talia_spark_note"] = nil
+L["zujai_note"] = nil
+
+L["kuafon_note"] = nil
+L["torcali_note"] = nil
+
+L["totem_of_paku_note"] = nil
+L["options_icons_paku_totems"] = nil
+L["options_icons_paku_totems_desc"] = nil
+
+L["tales_gonk_note"] = nil
+L["tales_gral_note"] = nil
+L["tales_jani_note"] = nil
+L["tales_paku_note"] = nil
+L["tales_rezan_note"] = nil
+L["tales_shadra_note"] = nil
+L["tales_torcali_note"] = nil
+L["tales_zandalar_note"] = nil
+
+L["azuresail_note"] = nil
+L["thunderfoot_note"] = nil
+L["options_icons_life_finds_a_way"] = nil
+L["options_icons_life_finds_a_way_desc"] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
+L["charged_junk_note"] = nil
+L["feathered_junk_note"] = nil
+L["golden_junk_note"] = nil
+L["great_hat_junk_note"] = nil
+L["hunter_junk_note"] = nil
+L["loa_road_junk_note"] = nil
+L["nazwathan_junk_note"] = nil
+L["redrock_junk_note"] = nil
+L["ringhorn_junk_note"] = nil
+L["saurid_junk_note"] = nil
+L["snapjaw_junk_note"] = nil
+L["vilescale_junk_note"] = nil
+L["options_icons_get_hekd"] = nil
+L["options_icons_get_hekd_desc"] = nil
+
+L["options_icons_mushroom_harvest"] = nil
+L["options_icons_mushroom_harvest_desc"] = nil
+
+L["options_icons_tales_of_de_loa"] = nil
+L["options_icons_tales_of_de_loa_desc"] = nil
+
+L["jani_note"] = nil
+L["rezan_note"] = nil
+L["bow_to_your_masters_note"] = nil
+L["options_icons_bow_to_your_masters"] = nil
+L["options_icons_bow_to_your_masters_desc"] = nil
+
+L["alisha_note"] = nil
+L["elijah_note"] = nil
+L["raal_note"] = nil
+L["sausage_sampler_note"] = nil
+L["options_icons_sausage_sampler"] = nil
+L["options_icons_sausage_sampler_desc"] = nil
+
+L["three_sheets_note"] = nil
+L["options_icons_three_sheets"] = nil
+L["options_icons_three_sheets_desc"] = nil
+
 L["supply_chest"] = "戰爭補給箱"
 L["options_icons_supplies_desc"] = "顯示戰爭補給箱的所有可能位置。"
 L["options_icons_supplies"] = "戰爭補給空投"
+
+L["secret_supply_chest"] = nil
+L["secret_supply_chest_note"] = nil
+L["options_icons_secret_supplies"] = nil
+L["options_icons_secret_supplies_desc"] = nil

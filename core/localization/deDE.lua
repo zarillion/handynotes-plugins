@@ -120,20 +120,20 @@ L["options_toggle_use_char_achieves_desc"] = "Zeigt den Erfolgsfortschritt von d
 L["options_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 L["options_restore_hidden_nodes_desc"] = "Stellt alle Punkte wieder her, die über das Kontextmenü versteckt wurden."
 
-L["options_icons_pet_battles_desc"] = "Zeigt Standorte von Kampfhaustiertrainern und NPCs an."
-L["options_icons_pet_battles"] = "Kampfhaustiere"
 L["options_icons_daily_chests_desc"] = "Zeigt die Positionen von Truhen an \n(täglich plünderbar)."
 L["options_icons_daily_chests"] = "Truhen"
 L["options_icons_daily_quests_desc"] = "Zeigt die Positionen von nicht markierten täglichen Quests an."
 L["options_icons_daily_quests"] = "Tägliche Quests"
-L["options_icons_misc"] = "Sonstiges"
 L["options_icons_misc_desc"] = "Zeigt die Positionen von anderen nicht kategorisierten Punkten an."
+L["options_icons_misc"] = "Sonstiges"
+L["options_icons_pet_battles_desc"] = "Zeigt Standorte von Kampfhaustiertrainern und NPCs an."
+L["options_icons_pet_battles"] = "Kampfhaustiere"
 L["options_icons_quests_desc"] = "Zeigt die Positionen von nicht markierten Questreihen an."
 L["options_icons_quests"] = "Quests"
 L["options_icons_rares_desc"] = "Zeigt die Positionen von seltenen Gegnern an."
 L["options_icons_rares"] = "Seltene Gegner"
-L["options_icons_treasures"] = "Schätze"
 L["options_icons_treasures_desc"] = "Zeigt die Standorte versteckter Schätze an."
+L["options_icons_treasures"] = "Schätze"
 
 ---------------------------------- FOCUS ---------------------------------
 

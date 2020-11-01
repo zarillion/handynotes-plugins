@@ -229,6 +229,8 @@ L["mixed_pool_note"] = [[
 
 • 从南侧的 {npc:165027} 和 {npc:166438} 收集 {spell:306722}。
 ]]
+L["Violet"] = nil
+L["Oily"] = nil
 
 L["blackhound_cache"] = "黑犬宝箱"
 L["bladesworn_supply_cache"] = "刃誓补给箱"

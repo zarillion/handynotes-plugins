@@ -92,8 +92,6 @@ This addon has been translated to the following languages:
 
 * `deDE` - German (thanks Dathwada!)
 * `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
-* `esMX` - Spanish (Mexico) (thanks Herida!)
-* `frFR` - French (thanks Herida!)
 * `ruRU` - Russian (thanks Hubbotu!)
 * `zhCN` - Chinese (Simplified) (thanks Adavak and wyjbuxiu!)
 * `zhTW` - Chinese (Traditional) (thanks BNS333!)

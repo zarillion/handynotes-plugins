@@ -113,3 +113,12 @@ files["tests/test_class.lua"] = {
     globals = {'TestClass', 'TestInheritance', 'TestHelpers'},
     read_globals = {'Class', 'Clone', 'IsInstance'}
 }
+
+files["tests/test_locales.lua"] = {
+    globals = {
+        'TestLocales',
+        'EJ_GetInstanceInfo',
+        'UnitFactionGroup',
+        'format',
+    }
+}
