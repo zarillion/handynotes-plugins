@@ -641,6 +641,12 @@ L["options_icons_life_finds_a_way_desc"] = "Zeigt die Positionen der fürchterli
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
+L["goramor_note"] = nil
+L["makafon_note"] = nil
+L["stompy_note"] = nil
+L["options_icons_brutosaurs"] = nil
+L["options_icons_brutosaurs_desc"] = nil
+
 local hekd_note = "\n\nUm Zugang zu {npc:126334} zu erhalten, müssen zuerst die zwei Quests %s abgeschlossen werden."
 if UnitFactionGroup('player') == 'Horde' then
     hekd_note = hekd_note:format("{quest:47441} von {npc:127665} in Dazar'alor und {quest:47442} von {npc:126334}")

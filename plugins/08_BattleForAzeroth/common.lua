@@ -20,6 +20,7 @@ ns.expansion = 8
 
 ns.groups.ASSAULT_EVENT = Group('assault_events', 'peg_wy')
 ns.groups.BOW_TO_YOUR_MASTERS = Group('bow_to_your_masters', 1850548, {defaults=ns.GROUP_HIDDEN, faction='Horde'})
+ns.groups.BRUTOSAURS = Group('brutosaurs', 1881827, {defaults=ns.GROUP_HIDDEN})
 ns.groups.CARVED_IN_STONE = Group('carved_in_stone', 134424, {defaults=ns.GROUP_HIDDEN})
 ns.groups.CATS_NAZJ = Group('cats_nazj', 454045)
 ns.groups.COFFERS = Group('coffers', 'star_chest_g')

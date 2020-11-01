@@ -644,6 +644,12 @@ L["options_icons_life_finds_a_way_desc"] = "Display fearsome dinosaur locations 
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
+L["goramor_note"] = "Purchase a {item:163563} from {npc:126833} and feed it to {npc:143644}. {npc:126833} is located in a small cave near the Terrace of Sorrows."
+L["makafon_note"] = "Purchase an {item:163564} from {npc:124034} in Scaletrader Post and feed it to {npc:130922}."
+L["stompy_note"] = "Purchase a {item:163567} from {npc:133833} north of the Whistlebloom Oasis and feed it to {npc:143332}."
+L["options_icons_brutosaurs"] = "{achievement:13029}"
+L["options_icons_brutosaurs_desc"] = "Display brutosaur locations for the {achievement:13029} achievement."
+
 local hekd_note = "\n\nTo gain access to {npc:126334}, you need to complete %s."
 if UnitFactionGroup('player') == 'Horde' then
     hekd_note = hekd_note:format("{quest:47441} from {npc:127665} in Dazar'alor followed by {quest:47442} from {npc:126334}")

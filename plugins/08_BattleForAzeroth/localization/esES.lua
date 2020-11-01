@@ -643,6 +643,12 @@ L["options_icons_life_finds_a_way_desc"] = "Muestra las localizaciones de los di
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
+L["goramor_note"] = nil
+L["makafon_note"] = nil
+L["stompy_note"] = nil
+L["options_icons_brutosaurs"] = nil
+L["options_icons_brutosaurs_desc"] = nil
+
 local hekd_note = "\n\nPara conseguir acceso a {npc:126334}, necesitas completar %s."
 if UnitFactionGroup('player') == 'Horde' then
     hekd_note = hekd_note:format("{quest:47441} que te da {npc:127665} en Dazar'alor le sigue la misión {quest:47442} que te da {npc:126334}")

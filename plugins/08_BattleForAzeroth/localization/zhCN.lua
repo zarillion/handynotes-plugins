@@ -641,6 +641,12 @@ L["options_icons_life_finds_a_way_desc"] = "显示 {achievement:13048} 成就中
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
+L["goramor_note"] = nil
+L["makafon_note"] = nil
+L["stompy_note"] = nil
+L["options_icons_brutosaurs"] = nil
+L["options_icons_brutosaurs_desc"] = nil
+
 local hekd_note = "\n\n要获得 {npc:126334} 访问权限，必须完成任务 %s。"
 if UnitFactionGroup('player') == 'Horde' then
     hekd_note = hekd_note:format("位于达萨罗 {npc:127665} 的 {quest:47441} 然后是 {npc:126334} 的 {quest:47442}")

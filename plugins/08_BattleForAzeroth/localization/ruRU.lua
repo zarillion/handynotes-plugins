@@ -622,6 +622,12 @@ L["options_icons_life_finds_a_way_desc"] = nil
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
+L["goramor_note"] = nil
+L["makafon_note"] = nil
+L["stompy_note"] = nil
+L["options_icons_brutosaurs"] = nil
+L["options_icons_brutosaurs_desc"] = nil
+
 L["charged_junk_note"] = nil
 L["feathered_junk_note"] = nil
 L["golden_junk_note"] = nil
