@@ -269,6 +269,13 @@ L["honeyback_harvester_note"] = "和 {npc:155193} 交谈开始事件。新鲜的
 L["options_icons_honeybacks"] = "{npc:155193}"
 L["options_icons_honeybacks_desc"] = "显示收割蜜背蜂群声望的 {npc:155193} 事件位置。"
 
+L["lets_bee_friends_note"] = "完成 {daily:53371} 七次后获得成就和宠物。并解锁日常："
+L["lets_bee_friends_step_1"] = "完成米登霍尔蜜酒庄任务线直到 {quest:50553}。"
+L["lets_bee_friends_step_2"] = "在米登霍尔蜜酒庄击杀 {npc:133429} 和 {npc:131663} 直到找到 {item:163699}。"
+L["lets_bee_friends_step_3"] = "把 {item:163699} 交给位于伯拉勒斯 {npc:143128}。"
+L["lets_bee_friends_step_4"] = "把 {item:163702} 交给位于米登霍尔蜜酒庄 {npc:133907}。"
+L["lets_bee_friends_step_5"] = "完成 {npc:133907} 的 {quest:53347}。"
+
 local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} 位于布伦纳丹' or '{npc:138096} 位于战牙要塞'
 L["these_hills_sing_note"] = "在这里打开 {item:160485}。从"..luncheon.."购买或者从布伦纳丹的“被丢弃的午餐盒”拾取宝藏。"
 
@@ -633,18 +640,18 @@ end
 local hekd_quest = "从 {npc:126334} 完成任务 %s。"..ns.color.Orange(hekd_note)
 local hekd_item = "从垃圾堆附近的 %2$s 拾取 %1$s 并带给 {npc:126334}。"..ns.color.Orange(hekd_note)
 
-L["charged_junk_note"] = format(hekd_item, "{item:158910}", "{npc:135727}")
+L["charged_junk_note"] = format(hekd_item, "{item:158910}", "球潮虫")
 L["feathered_junk_note"] = format(hekd_item, "{item:157794}", "{npc:132410}")
-L["golden_junk_note"] = format(hekd_item, "{item:156963}", "{npc:122504}")
+L["golden_junk_note"] = format(hekd_item, "{item:156963}", "暴掠龙")
 L["great_hat_junk_note"] = format(hekd_quest, "{quest:50381}")
 L["hunter_junk_note"] = format(hekd_quest, "{quest:50332}")
 L["loa_road_junk_note"] = format(hekd_quest, "{quest:50444}")
-L["nazwathan_junk_note"] = format(hekd_item, "{item:157802}", "{npc:131155}")
-L["redrock_junk_note"] = format(hekd_item, "{item:158916}", "{npc:134718}")
-L["ringhorn_junk_note"] = format(hekd_item, "{item:158915}", "{npc:130316}")
+L["nazwathan_junk_note"] = format(hekd_item, "{item:157802}", "纳兹瓦萨亡灵")
+L["redrock_junk_note"] = format(hekd_item, "{item:158916}", "赤岩土狼")
+L["ringhorn_junk_note"] = format(hekd_item, "{item:158915}", "{npc:130321}")
 L["saurid_junk_note"] = format(hekd_quest, "{quest:50901}")
-L["snapjaw_junk_note"] = format(hekd_item, "{item:157801}", "{npc:126723}")
-L["vilescale_junk_note"] = format(hekd_item, "{item:157797}", "{npc:125393}")
+L["snapjaw_junk_note"] = format(hekd_item, "{item:157801}", "钳嘴鳄鱼")
+L["vilescale_junk_note"] = format(hekd_item, "{item:157797}", "邪鳞纳迦")
 L["options_icons_get_hekd"] = "{achievement:12482}"
 L["options_icons_get_hekd_desc"] = "显示 {achievement:12482} 成就中 {npc:126334} 任务的位置。"
 
@@ -659,6 +666,13 @@ L["rezan_note"] = ns.color.Red("位于阿塔达萨地下城。")
 L["bow_to_your_masters_note"] = "向赞达拉洛阿神灵鞠躬（"..ns.color.Orange('/bow（/鞠躬）').."）。"
 L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
 L["options_icons_bow_to_your_masters_desc"] = "显示 {achievement:13020} 成就中洛阿神灵的位置。"
+
+L["alisha_note"] = "此供应商需要德鲁斯瓦的任务进度。"
+L["elijah_note"] = "此供应商需要德鲁斯瓦的任务进度。完成 {quest:47945} 后他开始出售香肠。"
+L["raal_note"] = ns.color.Red("维克雷斯庄园地下城内。")
+L["sausage_sampler_note"] = "品尝每种香肠获得成就。"
+L["options_icons_sausage_sampler"] = "{achievement:13087}"
+L["options_icons_sausage_sampler_desc"] = "显示 {achievement:13087} 成就中供应商的位置。"
 
 -- For Horde, include a note about drinks that must be purchased on the AH
 local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ 以下饮料部落不提供，必须在拍卖行购买：

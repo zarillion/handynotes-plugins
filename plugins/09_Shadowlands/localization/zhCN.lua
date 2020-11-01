@@ -381,7 +381,7 @@ L["exos_note"] = [[
 ]]
 
 L["soul_well_note"] = "从灵魂之井抓住冥殇爆发。"
-L["obliterated_soul_shards_note"] = "在桥上收集灭绝之魂碎片。"
+L["obliterated_soul_shards_note"] = "在桥上收集 {item:177834}。"
 
 L["chaotic_riftstone_note"] = [[
 激活 {spell:344157} 快速穿过噬渊。"
