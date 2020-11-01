@@ -687,3 +687,8 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ 以下饮料
 L["three_sheets_note"] = "获得所有饮料中的每一种获得成就。"..horde_sheets
 L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "显示 {achievement:13061} 成就中供应商的位置。"
+
+L["secret_supply_chest"] = "秘密补给箱"
+L["secret_supply_chest_note"] = "当阵营入侵激活时，秘密补给箱可能短时间出现在这些位置之一。"
+L["options_icons_secret_supplies"] = "秘密补给箱"
+L["options_icons_secret_supplies_desc"] = "显示 {achievement:13317} 成就中秘密补给箱的位置。"
