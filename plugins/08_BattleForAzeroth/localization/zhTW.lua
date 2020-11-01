@@ -26,6 +26,11 @@ L["dilbert_mcclint_note"] = nil
 L["fizzie_spark_note"] = nil
 L["michael_skarn_note"] = nil
 
+L["drust_facts_note"] = nil
+L["stele_forest_note"] = nil
+L["options_icons_drust_facts_desc"] = nil
+L["options_icons_drust_facts"] = nil
+
 L["embers_crossbow_note"] = nil
 L["embers_flask_note"] = nil
 L["embers_hat_note"] = nil

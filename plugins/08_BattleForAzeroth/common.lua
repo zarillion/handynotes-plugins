@@ -24,6 +24,7 @@ ns.groups.CARVED_IN_STONE = Group('carved_in_stone', 134424, {defaults=ns.GROUP_
 ns.groups.CATS_NAZJ = Group('cats_nazj', 454045)
 ns.groups.COFFERS = Group('coffers', 'star_chest_g')
 ns.groups.DAILY_CHESTS = Group('daily_chests', 'chest_bl', {defaults=ns.GROUP_ALPHA75})
+ns.groups.DRUST_FACTS = Group('drust_facts', 2101971, {defaults=ns.GROUP_HIDDEN})
 ns.groups.DUNE_RIDER = Group('dune_rider', 134962, {defaults=ns.GROUP_HIDDEN})
 ns.groups.EMBER_RELICS = Group('ember_relics', 514016, {defaults=ns.GROUP_HIDDEN, faction='Alliance'})
 ns.groups.GET_HEKD = Group('get_hekd', 1604165, {defaults=ns.GROUP_HIDDEN})

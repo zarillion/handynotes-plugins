@@ -34,6 +34,11 @@ L["dilbert_mcclint_note"] = "Tag auch, {npc:140461}, Befallsbekämpfung. Immer s
 L["fizzie_spark_note"] = "Denkt Ihr, dass Eure Haustiere gegen mein azeritdurchströmtes Team eine Chance haben? Das hättet Ihr wohl gerne!"
 L["michael_skarn_note"] = "Bevor wir loslegen... Vergesst nicht, dass Ihr das so wolltet!"
 
+L["drust_facts_note"] = nil
+L["stele_forest_note"] = nil
+L["options_icons_drust_facts_desc"] = nil
+L["options_icons_drust_facts"] = nil
+
 L["embers_crossbow_note"] = nil
 L["embers_flask_note"] = nil
 L["embers_hat_note"] = nil

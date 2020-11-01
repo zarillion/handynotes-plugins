@@ -34,6 +34,11 @@ L["dilbert_mcclint_note"] = "嗨，害虫防治专家呆伯特·麦克林特向�
 L["fizzie_spark_note"] = "你觉得你的宠物有机会打败我注入了艾泽里特的队伍？想得美！"
 L["michael_skarn_note"] = "一旦我们开始战斗，你得记住这是你自找的。"
 
+L["drust_facts_note"] = nil
+L["stele_forest_note"] = nil
+L["options_icons_drust_facts_desc"] = nil
+L["options_icons_drust_facts"] = nil
+
 L["embers_crossbow_note"] = nil
 L["embers_flask_note"] = nil
 L["embers_hat_note"] = nil

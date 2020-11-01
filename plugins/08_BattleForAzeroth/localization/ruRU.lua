@@ -34,6 +34,11 @@ L["dilbert_mcclint_note"] = "Эй там, меня зовут {npc:140461}, эк
 L["fizzie_spark_note"] = "Вы думаете, что у ваших питомцев есть шанс против моей команды, наполненной Азеритом? Вы хотите!"
 L["michael_skarn_note"] = "Просто помни, когда мы начнем эту битву, ты сам напросился на это."
 
+L["drust_facts_note"] = nil
+L["stele_forest_note"] = nil
+L["options_icons_drust_facts_desc"] = nil
+L["options_icons_drust_facts"] = nil
+
 L["embers_crossbow_note"] = nil
 L["embers_flask_note"] = nil
 L["embers_hat_note"] = nil

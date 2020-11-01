@@ -36,6 +36,11 @@ L["dilbert_mcclint_note"] = "Hola, mi nombre es {npc:140461}, el Gestor de Infec
 L["fizzie_spark_note"] = "¿Piensas que tus mascotas tienen alguna oportunidad contra mi equipo imbuido por la Azerita? ¡Eso desearías!"
 L["michael_skarn_note"] = "Sólo recuerda cómo empezamos esta batalla, tú pedistes esto."
 
+L["drust_facts_note"] = nil
+L["stele_forest_note"] = nil
+L["options_icons_drust_facts_desc"] = nil
+L["options_icons_drust_facts"] = nil
+
 L["embers_crossbow_note"] = nil
 L["embers_flask_note"] = nil
 L["embers_hat_note"] = nil

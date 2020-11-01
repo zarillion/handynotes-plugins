@@ -22,12 +22,6 @@
 
 * War Supply drop locations in 8.0 zones
 
-## Kul Tiras
-
-### Optional
-
-* [Drust the Facts, Ma'am](https://www.wowhead.com/achievement=13064/drust-the-facts-maam)
-
 # Legion
 
 ## Broken Isles

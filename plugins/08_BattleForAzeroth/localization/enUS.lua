@@ -37,6 +37,11 @@ L["dilbert_mcclint_note"] = "Hey there, name's {npc:140461}, Infestation Managem
 L["fizzie_spark_note"] = "You think your pets have a chance against my Azerite infused team? You wish!"
 L["michael_skarn_note"] = "Just remember as we start this battle, you asked for this."
 
+L["drust_facts_note"] = "Read all of the steles to earn the achievement."
+L["stele_forest_note"] = "Inside Ulfar's Den."
+L["options_icons_drust_facts_desc"] = "Display stele locations for the {achievement:13064} achievement."
+L["options_icons_drust_facts"] = "{achievement:13064}"
+
 L["embers_crossbow_note"] = "Loot the {item:163749} on the ground between two trees, then return it to the ruins of Gol Var."
 L["embers_flask_note"] = "Loot the {item:163746} in the water between two rocks, then return it to the ruins of Gol Var."
 L["embers_hat_note"] = "Loot the {item:163748} from the pile of bones, then return it to the ruins of Gol Var."

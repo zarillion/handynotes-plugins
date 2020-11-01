@@ -566,6 +566,80 @@ map.nodes[63605971] = PetBattle({
 }) -- Night Horrors (Dilbert McClint)
 
 -------------------------------------------------------------------------------
+--------------------------- DRUST THE FACTS, MA'AM ----------------------------
+-------------------------------------------------------------------------------
+
+local Stele = Class('Stele', Collectible, {
+    icon=2101971,
+    group=ns.groups.DRUST_FACTS,
+    sublabel=L["drust_facts_note"]
+})
+
+map.nodes[19065787] = Stele({
+    rewards={
+        Achievement({id=13064, criteria=41443})
+    }
+}) -- Drust Stele: The Cycle
+
+map.nodes[27354833] = Stele({
+    rewards={
+        Achievement({id=13064, criteria=41438})
+    }
+}) -- Drust Stele: The Tree
+
+map.nodes[27605760] = Stele({
+    rewards={
+        Achievement({id=13064, criteria=41441})
+    }
+}) -- Drust Stele: Sacrifice
+
+map.nodes[36806450] = Stele({
+    rewards={
+        Achievement({id=13064, criteria=41436})
+    }
+}) -- Drust Stele: The Circle
+
+map.nodes[44584566] = Stele({
+    note=L["stele_forest_note"],
+    rewards={
+        Achievement({id=13064, criteria=41449})
+    },
+    pois={
+        POI({46094528}) -- Ulfar's Den
+    }
+}) -- Drust Stele: Protectors of the Forest
+
+map.nodes[46453723] = Stele({
+    rewards={
+        Achievement({id=13064, criteria=41445})
+    }
+}) -- Drust Stele: Conflict
+
+map.nodes[50144232] = Stele({
+    rewards={
+        Achievement({id=13064, criteria=41442})
+    }
+}) -- Drust Stele: Constructs
+
+map.nodes[50777371] = Stele({
+    rewards={
+        Achievement({id=13064, criteria=41437})
+    }
+}) -- Drust Stele: The Ritual
+
+map.nodes[56558583] = Stele({
+    rewards={
+        Achievement({id=13064, criteria=41446})
+    }
+}) -- Drust Stele: The Flayed Man
+
+map.nodes[59396668] = Stele({
+    rewards={
+        Achievement({id=13064, criteria=41439})
+    }
+}) -- Drust Stele: Breath Into Stone
+
+-------------------------------------------------------------------------------
 ------------------------- EVERYTHING OLD IS NEW AGAIN -------------------------
 -------------------------------------------------------------------------------
 
@@ -617,6 +691,7 @@ map.nodes[42432548] = Collectible({
     icon=514016,
     label=L["golvar_ruins"],
     note=L["embers_golvar_note"],
+    group=ns.groups.EMBER_RELICS,
     rewards={
         Achievement({id=13082, criteria={
             41636, -- Old Crossbow
