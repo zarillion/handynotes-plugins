@@ -101,8 +101,6 @@ L["options_icons_daily_chests"] = "寶箱"
 L["options_icons_misc"] = "其他"
 L["options_icons_rares_desc"] = "顯示稀有NPC的位置。"
 L["options_icons_rares"] = "稀有"
-L["options_icons_supplies_desc"] = "顯示戰爭補給箱的所有可能位置。"
-L["options_icons_supplies"] = "戰爭補給空投"
 L["options_icons_treasures"] = "寶藏"
 
 ---------------------------------- TOOLTIP ---------------------------------

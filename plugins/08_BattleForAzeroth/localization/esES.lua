@@ -123,7 +123,6 @@ L["east_spawn"] = "Aparece en cualquier sitio de la mitad este de la zona."
 L["ucav_spawn"] = "Aparece en una cueva bajo el agua."
 L["zone_spawn"] = "Aparece por toda la zona."
 
-L["supply_chest"] = "Cofre de Suministros de Guerra"
 L["assassin_looted"] = "despojado mientras eres un asesino."
 
 L["arcane_chest"] = "Cofre Arcano"
@@ -676,3 +675,7 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Las siguient
 L["three_sheets_note"] = "Adquiere cada una de las bebidas para conseguir el logro."..horde_sheets
 L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "Muestra las localizaciones de los vendedores para el logro {achievement:13061}."
+
+L["supply_chest"] = "Cofre de Suministros de Guerra"
+L["options_icons_supplies_desc"] = "Muestra todas las localizaciones posibles para los cajones de suministros de guerra."
+L["options_icons_supplies"] = "Localizaciones de suministros de guerra"

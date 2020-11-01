@@ -134,8 +134,6 @@ L["options_icons_quests_desc"] = "Muestra las localizaciones de las líneas de m
 L["options_icons_quests"] = "Misiones"
 L["options_icons_rares_desc"] = "Muestra las localizaciones de los NPCs raros."
 L["options_icons_rares"] = "Raros"
-L["options_icons_supplies_desc"] = "Muestra todas las localizaciones posibles para los cajones de suministros de guerra."
-L["options_icons_supplies"] = "Localizaciones de suministros de guerra"
 L["options_icons_treasures"] = "Tesoros"
 L["options_icons_treasures_desc"] = "Muestra las localizaciones de los tesoros ocultos."
 

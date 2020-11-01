@@ -132,8 +132,6 @@ L["options_icons_quests_desc"] = "Display locations of unmarked quest lines."
 L["options_icons_quests"] = "Quests"
 L["options_icons_rares_desc"] = "Display locations of rare NPCs."
 L["options_icons_rares"] = "Rares"
-L["options_icons_supplies_desc"] = "Display all possible locations for war supply crates."
-L["options_icons_supplies"] = "War Supply Drops"
 L["options_icons_treasures"] = "Treasures"
 L["options_icons_treasures_desc"] = "Display locations of hidden treasures."
 

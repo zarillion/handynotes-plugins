@@ -132,8 +132,6 @@ L["options_icons_quests_desc"] = "Zeigt die Positionen von nicht markierten Ques
 L["options_icons_quests"] = "Quests"
 L["options_icons_rares_desc"] = "Zeigt die Positionen von seltenen Gegnern an."
 L["options_icons_rares"] = "Seltene Gegner"
-L["options_icons_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
-L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
 L["options_icons_treasures"] = "Schätze"
 L["options_icons_treasures_desc"] = "Zeigt die Standorte versteckter Schätze an."
 

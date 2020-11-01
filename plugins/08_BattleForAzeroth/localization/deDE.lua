@@ -118,7 +118,6 @@ L["east_spawn"] = "Erscheint irgendwo in der östlichen häflte des Gebiets."
 L["ucav_spawn"] = "Erscheint in einer Unterwasserhöhle."
 L["zone_spawn"] = "Erscheint überall in diesem Gebiet."
 
-L["supply_chest"] = "Kiste mit Kriegsvorräten"
 L["assassin_looted"] = " geplündert während Ihr ein Attentäter seid."
 
 L["arcane_chest"] = "Arkane Truhe"
@@ -678,3 +677,7 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Die folgende
 L["three_sheets_note"] = "Erwirb alle Getränke, um den Erfolg zu erringen."..horde_sheets
 L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "Zeigt die Positionen der Händler für den Erfolg {achievement:13061} an."
+
+L["supply_chest"] = "Kiste mit Kriegsvorräten"
+L["options_icons_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
+L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"

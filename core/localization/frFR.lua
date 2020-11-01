@@ -98,8 +98,6 @@ L["options_icons_daily_chests"] = "Coffres"
 L["options_icons_misc"] = "Divers"
 L["options_icons_rares_desc"] = "Afficher les emplacements des PNJ rares."
 L["options_icons_rares"] = "Les Monstres Rares"
-L["options_icons_supplies_desc"] = "Afficher tous les emplacements possibles pour les caisses de fournitures de guerre."
-L["options_icons_supplies"] = "Caisse de Fourniture de Guerre"
 L["options_icons_treasures"] = "Les trésors"
 
 ---------------------------------- TOOLTIP ---------------------------------

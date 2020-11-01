@@ -99,8 +99,6 @@ L["options_icons_daily_chests"] = "Cofres"
 L["options_icons_misc"] = "Miscelánea"
 L["options_icons_rares_desc"] = "Mostrar los lugares de los NPCs raros."
 L["options_icons_rares"] = "Raros"
-L["options_icons_supplies_desc"] = "Mostrar todos lugares posibles para los cajones de suministros de guerra."
-L["options_icons_supplies"] = "Suministros de guerra lugares"
 L["options_icons_treasures"] = "Tesoros"
 
 ---------------------------------- TOOLTIP ---------------------------------

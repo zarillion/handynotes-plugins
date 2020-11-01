@@ -119,7 +119,6 @@ L["east_spawn"] = "Появляется в случайном месте в во
 L["ucav_spawn"] = "Появляется в подводной пещере."
 L["zone_spawn"] = "Появляется по всей локации."
 
-L["supply_chest"] = "Сундук с военными припасами"
 L["assassin_looted"] = " полутан с эффектом Убийцы."
 
 L["arcane_chest"] = "Чародейский сундук"
@@ -595,3 +594,7 @@ L["rezan_note"] = ns.color.Red("Inside the Atal'Dazar dungeon.")
 L["bow_to_your_masters_note"] = "Bow to the loa of Zandalar. (/bow)"
 L["options_icons_bow_to_your_masters"] = "Bow to Your Masters"
 L["options_icons_bow_to_your_masters_desc"] = "Display loa locations for the {achievement:13020} achievement."
+
+L["supply_chest"] = "Сундук с военными припасами"
+L["options_icons_supplies_desc"] = "Показать все возможные места сундуков с военными припасами."
+L["options_icons_supplies"] = "Сундук с военными припасами"

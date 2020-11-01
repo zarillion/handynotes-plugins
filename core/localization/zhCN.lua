@@ -132,8 +132,6 @@ L["options_icons_quests_desc"] = "显示未标记任务线的位置。"
 L["options_icons_quests"] = "任务"
 L["options_icons_rares_desc"] = "显示稀有 NPC 的位置。"
 L["options_icons_rares"] = "稀有"
-L["options_icons_supplies_desc"] = "显示全部可能出现战争补给箱的位置。"
-L["options_icons_supplies"] = "战争补给箱"
 L["options_icons_treasures"] = "宝藏"
 L["options_icons_treasures_desc"] = "显示隐藏宝藏位置。"
 

@@ -121,7 +121,6 @@ L["east_spawn"] = "Spawns anywhere in the eastern half of the zone."
 L["ucav_spawn"] = "Spawns in an underwater cave."
 L["zone_spawn"] = "Spawns all over the zone."
 
-L["supply_chest"] = "War Supply Chest"
 L["assassin_looted"] = "looted while an assassin."
 
 L["arcane_chest"] = "Arcane Chest"
@@ -674,6 +673,10 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ The followin
 L["three_sheets_note"] = "Acquire one of every drink to earn the achievement."..horde_sheets
 L["options_icons_three_sheets"] = "{achievement:13061}"
 L["options_icons_three_sheets_desc"] = "Display vendor locations for the {achievement:13061} achievement."
+
+L["supply_chest"] = "War Supply Chest"
+L["options_icons_supplies_desc"] = "Display all possible locations for war supply crates."
+L["options_icons_supplies"] = "War Supply Drops"
 
 L["secret_supply_chest"] = "Secret Supply Chest"
 L["secret_supply_chest_note"] = "When a faction assault is active, a secret supply chest can appear at one of these locations for a short time."

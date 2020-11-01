@@ -128,3 +128,10 @@ L["void_skull_note"] = "Click the skull on the ground to loot the toy."
 -------------------------------------------------------------------------------
 
 L["elusive_alpaca"] = "Feed the alpaca Seaside Leafy Greens Mix to learn it as a mount. Appears for 10 minutes in one location, then a long respawn."
+
+-------------------------------------------------------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
+-------------------------------------------------------------------------------
+
+L["options_icons_supplies_desc"] = "Afficher tous les emplacements possibles pour les caisses de fournitures de guerre."
+L["options_icons_supplies"] = "Caisse de Fourniture de Guerre"

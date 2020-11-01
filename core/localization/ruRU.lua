@@ -101,8 +101,6 @@ L["options_icons_daily_chests"] = "Сундуки"
 L["options_icons_misc"] = "Разное"
 L["options_icons_rares_desc"] = "Показать местонахождение редких НПС."
 L["options_icons_rares"] = "Редкие монстры"
-L["options_icons_supplies_desc"] = "Показать все возможные места сундуков с военными припасами."
-L["options_icons_supplies"] = "Сундук с военными припасами"
 L["options_icons_treasures"] = "Сокровища"
 
 ---------------------------------- TOOLTIP ---------------------------------

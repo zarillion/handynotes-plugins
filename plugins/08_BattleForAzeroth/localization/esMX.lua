@@ -45,3 +45,10 @@ L["ambered_cache"] = "Alijo ámbar"
 L["ambered_coffer"] = "Cofre ámbar"
 L["mogu_plunder"] = "Saqueo mogu"
 L["mogu_strongbox"] = "Caja fuerte mogu"
+
+-------------------------------------------------------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
+-------------------------------------------------------------------------------
+
+L["options_icons_supplies_desc"] = "Mostrar todos lugares posibles para los cajones de suministros de guerra."
+L["options_icons_supplies"] = "Suministros de guerra lugares"
