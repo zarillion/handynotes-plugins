@@ -170,6 +170,38 @@ local function PlayerHasItem(item, count)
 end
 
 -------------------------------------------------------------------------------
+------------------------------ LOCALE FUNCTIONS -------------------------------
+-------------------------------------------------------------------------------
+
+--[[
+
+Wrap the AceLocale NewLocale() function to return a slightly modified locale
+table. This table will ignore assignments of `nil`, allowing locales to include
+noop translation lines in their files without overriding the default enUS
+strings. This allows us to keep all the locale files in sync with the exact
+same keys in the exact same order even before actual translations are done.
+
+--]]
+
+local AceLocale = LibStub("AceLocale-3.0")
+local LOCALES = {}
+
+local function NewLocale (locale)
+    if LOCALES[locale] then return LOCALES[locale] end
+    local L = AceLocale:NewLocale(ADDON_NAME, locale, (locale == 'enUS'), true)
+    if not L then return end
+    local wrapper = {}
+    setmetatable(wrapper, {
+        __index = function (self, key) return L[key] end,
+        __newindex = function (self, key, value)
+            if value == nil then return end
+            L[key] = value
+        end
+    })
+    return wrapper
+end
+
+-------------------------------------------------------------------------------
 ------------------------------ TABLE CONVERTERS -------------------------------
 -------------------------------------------------------------------------------
 
@@ -194,9 +226,10 @@ end
 
 -------------------------------------------------------------------------------
 
+ns.AsIDTable = AsIDTable
+ns.AsTable = AsTable
 ns.NameResolver = NameResolver
+ns.NewLocale = NewLocale
+ns.PlayerHasItem = PlayerHasItem
 ns.PrepareLinks = PrepareLinks
 ns.RenderLinks = RenderLinks
-ns.PlayerHasItem = PlayerHasItem
-ns.AsTable = AsTable
-ns.AsIDTable = AsIDTable

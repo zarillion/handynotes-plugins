@@ -1,5 +1,5 @@
 local ADDON_NAME, ns = ...
-local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "enUS", true, true)
+local L = ns.NewLocale("enUS")
 if not L then return end
 
 -------------------------------------------------------------------------------

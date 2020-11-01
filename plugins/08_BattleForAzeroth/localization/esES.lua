@@ -1,7 +1,7 @@
 --Spanish Localization by (EU) Krovikan-Minahonda
 
 local ADDON_NAME, ns = ...
-local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "esES", false, true)
+local L = ns.NewLocale("esES")
 if not L then return end
 
 -------------------------------------------------------------------------------

@@ -1,5 +1,5 @@
-local ADDON_NAME, _ = ...
-local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "zhCN", false, true)
+local ADDON_NAME, ns = ...
+local L = ns.NewLocale("zhCN")
 if not L then return end
 
 -------------------------------------------------------------------------------
