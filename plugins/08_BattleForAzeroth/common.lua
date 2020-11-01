@@ -121,6 +121,7 @@ ns.node.Supply = Class('Supply', Node, {
 })
 
 ns.node.SecretSupply = Class('SecretSupply', ns.node.Supply, {
+    quest = 53640, -- lootable once per assault
     icon = 'star_chest_b',
     group = ns.groups.SECRET_SUPPLY,
     label = L["secret_supply_chest"],

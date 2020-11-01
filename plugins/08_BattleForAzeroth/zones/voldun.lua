@@ -399,14 +399,10 @@ map.nodes[29388742] = Treasure({
 -------------------------------------------------------------------------------
 
 local SECRET_CHEST = ns.node.SecretSupply({
-    -- Quest behavior needs more investigation across other assaults, for now
-    -- we'll just keep them visible always when checked.
-    --quest={53640, 54718, 55389},
-    --questAny=true,
     rewards = {
         Achievement({id=13317, criteria=43935})
     }
-})
+}) -- 54718 55389 (specific to this chest)
 
 map.nodes[33704550] = SECRET_CHEST
 map.nodes[37035019] = SECRET_CHEST
