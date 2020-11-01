@@ -200,6 +200,7 @@ function Addon:RegisterWithHandyNotes()
 
     -- Refresh in any cases where node status may have changed
     self:RegisterBucketEvent({
+        "BAG_UPDATE",
         "CRITERIA_EARNED",
         "CRITERIA_UPDATE",
         "LOOT_CLOSED",

@@ -4,6 +4,7 @@
 
 local ADDON_NAME, ns = ...
 local L = ns.locale
+local Class = ns.Class
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
@@ -563,6 +564,71 @@ map.nodes[63605971] = PetBattle({
         Achievement({id=13281, criteria=3, oneline=true})  -- Humanoid
     }
 }) -- Night Horrors (Dilbert McClint)
+
+-------------------------------------------------------------------------------
+------------------------- EVERYTHING OLD IS NEW AGAIN -------------------------
+-------------------------------------------------------------------------------
+
+local Relic = Class('OrderRelic', Collectible, {
+    icon=514016,
+    group=ns.groups.EMBER_RELICS,
+    pois={
+        POI({44892743}) -- Gol Var entrance
+    },
+    IsCompleted = function (self)
+        if ns.PlayerHasItem(self.item) then return true end
+        return Collectible.IsCompleted(self)
+    end
+})
+
+map.nodes[32585891] = Relic({
+    item=163747,
+    note=L["embers_knife_note"],
+    rewards={
+        Achievement({id=13082, criteria=41639})
+    }
+}) -- Order of Embers Knife
+
+map.nodes[35525187] = Relic({
+    item=163749,
+    note=L["embers_crossbow_note"],
+    rewards={
+        Achievement({id=13082, criteria=41636})
+    }
+}) -- Order of Embers Crossbow
+
+map.nodes[55432714] = Relic({
+    item=163748,
+    note=L["embers_hat_note"],
+    rewards={
+        Achievement({id=13082, criteria=41638})
+    }
+}) -- Order of Embers Hat
+
+map.nodes[64876779] = Relic({
+    item=163746,
+    note=L["embers_flask_note"],
+    rewards={
+        Achievement({id=13082, criteria=41637})
+    }
+}) -- Order of Embers Flask
+
+map.nodes[42432548] = Collectible({
+    icon=514016,
+    label=L["golvar_ruins"],
+    note=L["embers_golvar_note"],
+    rewards={
+        Achievement({id=13082, criteria={
+            41636, -- Old Crossbow
+            41637, -- Old Flask
+            41638, -- Old Hat
+            41639, -- Old Knife
+        }})
+    },
+    pois={
+        POI({44892743}) -- Gol Var entrance
+    }
+})
 
 -------------------------------------------------------------------------------
 ------------------------------- SAUSAGE SAMPLER -------------------------------

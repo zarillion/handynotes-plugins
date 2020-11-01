@@ -29,13 +29,19 @@ L["runebound_cache_note"] = runebound.."左 -> 下 -> 上 -> 右"
 L["runebound_chest_note"] = runebound.."左 -> 右 -> 下 -> 上"
 L["runebound_coffer_note"] = runebound.."右 -> 上 -> 左 -> 下"
 
--- NOTE: These quotes (and for trainers in other zones) were taken from the quotes
--- for this NPC on Wowhead. If no quotes were listed, I started a battle with the NPC
--- and jotted down the opening line. Adds a little flavor to the tooltips.
 L["captain_hermes_note"] = "耶！尝尝甲壳之力！"
 L["dilbert_mcclint_note"] = "嗨，害虫防治专家呆伯特·麦克林特向您报道。非常高兴能和一位像我一样的蜘蛛爱好者一较高下。"
 L["fizzie_spark_note"] = "你觉得你的宠物有机会打败我注入了艾泽里特的队伍？想得美！"
 L["michael_skarn_note"] = "一旦我们开始战斗，你得记住这是你自找的。"
+
+L["embers_crossbow_note"] = nil
+L["embers_flask_note"] = nil
+L["embers_hat_note"] = nil
+L["embers_knife_note"] = nil
+L["embers_golvar_note"] = nil
+L["golvar_ruins"] = nil
+L["options_icons_ember_relics_desc"] = nil
+L["options_icons_ember_relics"] = nil
 
 L["linda_deepwater_note"] = "要获得访问权限，必须完成就在安利港外面 {npc:136458} 的任务线。"
 

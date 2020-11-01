@@ -311,6 +311,7 @@ local Collectible = Class('Collectible', Node)
 
 function Collectible.getters:label()
     if self.id then return ("{npc:%d}"):format(self.id) end
+    if self.item then return ("{item:%d}"):format(self.item) end
     for reward in self:IterateRewards() do
         if IsInstance(reward, ns.reward.Achievement) then
             return GetAchievementCriteriaInfoByID(reward.id, reward.criteria[1].id) or UNKNOWN

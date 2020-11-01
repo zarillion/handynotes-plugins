@@ -31,13 +31,19 @@ L["runebound_cache_note"] = runebound.."Izquierda -> Abajo -> Arriba -> Derecha"
 L["runebound_chest_note"] = runebound.."Izquierda -> Derecha -> Abajo -> Arriba"
 L["runebound_coffer_note"] = runebound.."Derecha -> Arriba -> Izquierda -> Abajo"
 
--- NOTE: These quotes (and for trainers in other zones) were taken from the quotes
--- for this NPC on Wowhead. If no quotes were listed, I started a battle with the NPC
--- and jotted down the opening line. Adds a little flavor to the tooltips.
 L["captain_hermes_note"] = "¡Sí! ¡Poder crustáceo!"
 L["dilbert_mcclint_note"] = "Hola, mi nombre es {npc:140461}, el Gestor de Infecciones. Siempre es agradable luchar contra otro entusiasta de las arañas."
 L["fizzie_spark_note"] = "¿Piensas que tus mascotas tienen alguna oportunidad contra mi equipo imbuido por la Azerita? ¡Eso desearías!"
 L["michael_skarn_note"] = "Sólo recuerda cómo empezamos esta batalla, tú pedistes esto."
+
+L["embers_crossbow_note"] = nil
+L["embers_flask_note"] = nil
+L["embers_hat_note"] = nil
+L["embers_knife_note"] = nil
+L["embers_golvar_note"] = nil
+L["golvar_ruins"] = nil
+L["options_icons_ember_relics_desc"] = nil
+L["options_icons_ember_relics"] = nil
 
 L["linda_deepwater_note"] = "Para poder acceder, debes haber completado la cadena de misiones de {npc:136458} justo fuera de Calacualquiera."
 

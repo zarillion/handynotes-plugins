@@ -29,13 +29,19 @@ L["runebound_cache_note"] = runebound.."Лево -> Низ -> Вверх -> Пр
 L["runebound_chest_note"] = runebound.."Лево -> Право -> Низ -> Вверх"
 L["runebound_coffer_note"] = runebound.."Право -> Вверх -> Лево -> Низ"
 
--- NOTE: These quotes (and for trainers in other zones) were taken from the quotes
--- for this NPC on Wowhead. If no quotes were listed, I started a battle with the NPC
--- and jotted down the opening line. Adds a little flavor to the tooltips.
 L["captain_hermes_note"] = "Да уж! Ракообразная сила!"
 L["dilbert_mcclint_note"] = "Эй там, меня зовут {npc:140461}, эколог. Всегда приятно сразиться с таким же энтузиастом арахноидов."
 L["fizzie_spark_note"] = "Вы думаете, что у ваших питомцев есть шанс против моей команды, наполненной Азеритом? Вы хотите!"
 L["michael_skarn_note"] = "Просто помни, когда мы начнем эту битву, ты сам напросился на это."
+
+L["embers_crossbow_note"] = nil
+L["embers_flask_note"] = nil
+L["embers_hat_note"] = nil
+L["embers_knife_note"] = nil
+L["embers_golvar_note"] = nil
+L["golvar_ruins"] = nil
+L["options_icons_ember_relics_desc"] = nil
+L["options_icons_ember_relics"] = nil
 
 L["linda_deepwater_note"] = nil
 

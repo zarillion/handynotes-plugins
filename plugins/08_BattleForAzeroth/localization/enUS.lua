@@ -37,6 +37,15 @@ L["dilbert_mcclint_note"] = "Hey there, name's {npc:140461}, Infestation Managem
 L["fizzie_spark_note"] = "You think your pets have a chance against my Azerite infused team? You wish!"
 L["michael_skarn_note"] = "Just remember as we start this battle, you asked for this."
 
+L["embers_crossbow_note"] = "Loot the {item:163749} on the ground between two trees, then return it to the ruins of Gol Var."
+L["embers_flask_note"] = "Loot the {item:163746} in the water between two rocks, then return it to the ruins of Gol Var."
+L["embers_hat_note"] = "Loot the {item:163748} from the pile of bones, then return it to the ruins of Gol Var."
+L["embers_knife_note"] = "Pull the {item:163747} from the trunk of the tree, then return it to the ruins of Gol Var."
+L["embers_golvar_note"] = "Return each relic to the ruins of Gol Var to complete the achievement."
+L["golvar_ruins"] = "Ruins of Gol Var"
+L["options_icons_ember_relics_desc"] = "Display relic locations for the {achievement:13082} achievement."
+L["options_icons_ember_relics"] = "{achievement:13082}"
+
 L["linda_deepwater_note"] = "To gain access, you must complete {npc:136458}'s quest line just outside of Anyport."
 
 -------------------------------------------------------------------------------
