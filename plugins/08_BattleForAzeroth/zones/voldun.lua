@@ -19,7 +19,6 @@ local Mount = ns.reward.Mount
 local Transmog = ns.reward.Transmog
 
 local Arrow = ns.poi.Arrow
-local Line = ns.poi.Line
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -405,7 +404,7 @@ local SECRET_CHEST = ns.node.SecretSupply({
     rewards = {
         Achievement({id=13317, criteria=43935})
     }
-}) -- 54718 55389 (specific to this chest)
+}) -- quest = 54718 (looted ever) 55389 (looted today)
 
 map.nodes[33704550] = SECRET_CHEST
 map.nodes[37035019] = SECRET_CHEST
@@ -415,12 +414,33 @@ map.nodes[38605710] = SECRET_CHEST
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[53208380] = Supply({ fgroup='supply_path_1', pois={Arrow({53109000, 54102800})} })
-map.nodes[53406720] = Supply({ fgroup='supply_path_1' })
-map.nodes[53804660] = Supply({ fgroup='supply_path_1' })
-map.nodes[56604460] = Supply({ fgroup='supply_path_2', pois={Line({45006400, 72001884})} })
-map.nodes[62903400] = Supply({ fgroup='supply_path_2' })
-map.nodes[67602620] = Supply({ fgroup='supply_path_2' })
+map.nodes[53238427] = Supply({
+    quest=55412,
+    fgroup='supply_path_1',
+    pois={Arrow({53109000, 54102800})}
+})
+map.nodes[53406720] = Supply({
+    quest=55412,
+    fgroup='supply_path_1'
+})
+map.nodes[53804660] = Supply({
+    quest=55412,
+    fgroup='supply_path_1'
+})
+
+map.nodes[56604460] = Supply({
+    quest=55412,
+    fgroup='supply_path_2',
+    pois={Arrow({72001884, 45006400})}
+})
+map.nodes[62903400] = Supply({
+    quest=55412,
+    fgroup='supply_path_2'
+})
+map.nodes[67602620] = Supply({
+    quest=55412,
+    fgroup='supply_path_2'
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

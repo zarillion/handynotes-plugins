@@ -480,7 +480,7 @@ local SECRET_CHEST = ns.node.SecretSupply({
     rewards = {
         Achievement({id=13317, criteria=43931})
     }
-}) -- 54715 55375 (specific to this chest)
+}) -- quest = 54715 (looted ever) 55375 (looted today)
 
 map.nodes[29674100] = SECRET_CHEST
 -- map.nodes[30003300] = SECRET_CHEST
@@ -491,11 +491,33 @@ map.nodes[33804930] = SECRET_CHEST
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
--- quest = 55408
-map.nodes[31812232] = Supply({ fgroup='supply_path_1', pois={Arrow({33750842, 27005679})} })
-map.nodes[33071329] = Supply({ fgroup='supply_path_1' })
-map.nodes[58104270] = Supply({ fgroup='supply_path_2', pois={Arrow({66006682, 53002713})} })
-map.nodes[62825711] = Supply({ fgroup='supply_path_2' })
+map.nodes[30223362] = Supply({
+    quest=55408,
+    fgroup='supply_path_1'
+})
+map.nodes[31812232] = Supply({
+    quest=55408,
+    fgroup='supply_path_1',
+    pois={Arrow({33750842, 27005679})}
+})
+map.nodes[33051346] = Supply({
+    quest=55408,
+    fgroup='supply_path_1'
+})
+
+map.nodes[53422897] = Supply({
+    quest=55408,
+    fgroup='supply_path_2'
+})
+map.nodes[58104270] = Supply({
+    quest=55408,
+    fgroup='supply_path_2',
+    pois={Arrow({66006663, 50001873})}
+})
+map.nodes[62825711] = Supply({
+    quest=55408,
+    fgroup='supply_path_2'
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

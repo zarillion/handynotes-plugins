@@ -515,13 +515,33 @@ map.nodes[82903650] = SECRET_CHEST
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
--- quest = 55411
-map.nodes[40442072] = Supply({ fgroup='supply_path_1', pois={Arrow({30002033, 70002183})} })
-map.nodes[43802080] = Supply({ fgroup='supply_path_1' })
-map.nodes[49482106] = Supply({ fgroup='supply_path_1' })
-map.nodes[76667659] = Supply({ fgroup='supply_path_2', pois={Arrow({78809426, 73004645})} })
-map.nodes[77538379] = Supply({ fgroup='supply_path_2' })
-map.nodes[78278989] = Supply({ fgroup='supply_path_2' })
+map.nodes[40442072] = Supply({
+    quest=55411,
+    fgroup='supply_path_1',
+    pois={Arrow({30002033, 70002183})}
+})
+map.nodes[43802080] = Supply({
+    quest=55411,
+    fgroup='supply_path_1'
+})
+map.nodes[49482106] = Supply({
+    quest=55411,
+    fgroup='supply_path_1'
+})
+
+map.nodes[76667659] = Supply({
+    quest=55411,
+    fgroup='supply_path_2',
+    pois={Arrow({78809426, 73004645})}
+})
+map.nodes[77538379] = Supply({
+    quest=55411,
+    fgroup='supply_path_2'
+})
+map.nodes[78278989] = Supply({
+    quest=55411,
+    fgroup='supply_path_2'
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

@@ -37,6 +37,6 @@ jobs:
 
       - name: Run tests
         run: |
-          lua test_class.lua
-          lua test_locales.lua
+          lua test_class.lua -v
+          lua test_locales.lua -v
         working-directory: tests

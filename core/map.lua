@@ -98,6 +98,16 @@ function Map:HasEnabledGroups()
     return false
 end
 
+function Map:HasPOIs(node)
+    if node.pois ~= nil then return true end
+    if node.fgroup then
+        for i, coord in ipairs(self.fgroups[node.fgroup]) do
+            if self.nodes[coord].pois ~= nil then return true end
+        end
+    end
+    return false
+end
+
 function Map:IsNodeEnabled(node, coord, minimap)
     local db = ns.addon.db
 

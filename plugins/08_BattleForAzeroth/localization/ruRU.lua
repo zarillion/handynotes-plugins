@@ -671,6 +671,7 @@ L["options_icons_daily_chests"] = "Сундуки"
 
 L["supply_chest"] = "Сундук с военными припасами"
 L["supply_chest_note"] = nil
+L["supply_single_drop"] = nil
 L["options_icons_supplies_desc"] = "Показать все возможные места сундуков с военными припасами."
 L["options_icons_supplies"] = "Сундук с военными припасами"
 

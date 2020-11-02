@@ -711,7 +711,8 @@ L["options_icons_daily_chests_desc"] = "Display locations of chests (lootable da
 L["options_icons_daily_chests"] = "Chests"
 
 L["supply_chest"] = "War Supply Chest"
-L["supply_chest_note"] = "A {npc:135181} or {npc:138694} will fly overhead once every 45 minutes and drop a {npc:135238} at one of these locations."
+L["supply_chest_note"] = "A {npc:135181} or {npc:138694} will fly overhead once every 45 minutes and drop a {npc:135238} at one of three potential drop locations."
+L["supply_single_drop"] = ns.color.Orange("This flight path always drops the supply crate at this location.")
 L["options_icons_supplies_desc"] = "Display {npc:135238} drop locations."
 L["options_icons_supplies"] = "{npc:135238s}"
 

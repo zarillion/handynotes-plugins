@@ -220,7 +220,7 @@ on the attributes set on this specific node, such as setting an `rlabel` or
 `sublabel` value.
 --]]
 
-function Node:Render(tooltip)
+function Node:Render(tooltip, hasPOIs)
     -- render the label text with NPC names resolved
     tooltip:SetText(ns.RenderLinks(self.label, true))
 
@@ -243,7 +243,7 @@ function Node:Render(tooltip)
         rlabel = rlabel..' '..ns.GetIconLink(self.faction:lower(), 16, 1, -1)
     end
 
-    if self.pois then
+    if hasPOIs then
         -- add an rlabel hint to use left-mouse to focus the node
         local focus = ns.GetIconLink('left_mouse', 12)..ns.status.Gray(L["focus"])
         rlabel = (#rlabel > 0) and focus..' '..rlabel or focus

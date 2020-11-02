@@ -20,7 +20,7 @@ local Pet = ns.reward.Pet
 local Spell = ns.reward.Spell
 local Transmog = ns.reward.Transmog
 
-local Line = ns.poi.Line
+local Arrow = ns.poi.Arrow
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -563,11 +563,33 @@ map.nodes[46635657] = SECRET_CHEST
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[54406340] = Supply({ fgroup='supply_path_1', pois={Line({50003883, 58008350})} })
-map.nodes[55607080] = Supply({ fgroup='supply_path_1' })
-map.nodes[56807680] = Supply({ fgroup='supply_path_1' })
-map.nodes[59207160] = Supply({ fgroup='supply_path_2', pois={Line({40004942, 75008985})} })
-map.nodes[70808500] = Supply({ fgroup='supply_path_2' })
+map.nodes[54406340] = Supply({
+    quest=55410,
+    fgroup='supply_path_1',
+    pois={Arrow({58008350, 50003883})}
+})
+map.nodes[55707069] = Supply({
+    quest=55410,
+    fgroup='supply_path_1'
+})
+map.nodes[56767681] = Supply({
+    quest=55410,
+    fgroup='supply_path_1'
+})
+
+map.nodes[59197136] = Supply({
+    quest=55410,
+    fgroup='supply_path_2',
+    pois={Arrow({75009005, 40004867})}
+})
+map.nodes[65287856] = Supply({
+    quest=55410,
+    fgroup='supply_path_2'
+})
+map.nodes[70808500] = Supply({
+    quest=55410,
+    fgroup='supply_path_2'
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

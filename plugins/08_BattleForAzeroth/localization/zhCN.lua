@@ -709,6 +709,7 @@ L["options_icons_daily_chests"] = "宝箱"
 
 L["supply_chest"] = "战争补给箱"
 L["supply_chest_note"] = "一个 {npc:135181} 或 {npc:138694} 每隔45分钟就会在头顶飞过一次，并空投一个 {npc:135238} 到这些位置之一。"
+L["supply_single_drop"] = nil
 L["options_icons_supplies_desc"] = "显示全部可能出现战争补给箱的位置。"
 L["options_icons_supplies"] = "{npc:135238}"
 
