@@ -187,8 +187,8 @@ L["anima_shard_61292"] = "在石牌坊的顶部。"
 L["anima_shard_61293"] = "在较低水平的细石柱上。"
 L["anima_shard_61294"] = "隐藏在一堆桶后面。"
 L["anima_shard_61295"] = "在书架上 {npc:156889} 后面。"
-L["anima_shard_61296"] = "在倒下的大钟后面。"
-L["anima_shard_61297"] = "在石柱后面。"
+L["anima_shard_61296"] = "在倒下的大钟后面。\n\n"..ns.color.Red('通灵战潮地下城内。')
+L["anima_shard_61297"] = "在石柱后面。\n\n"..ns.color.Red('通灵战潮地下城内。')
 L["anima_shard_61298"] = "坐在躺椅后面。"
 L["anima_shard_61299"] = "隐藏在大火炬的后面。"
 L["anima_shard_61300"] = "挂在中央字体的壁架上。"
@@ -229,8 +229,8 @@ L["mixed_pool_note"] = [[
 
 • 从南侧的 {npc:165027} 和 {npc:166438} 收集 {spell:306722}。
 ]]
-L["Violet"] = nil
-L["Oily"] = nil
+L["Violet"] = "绛紫之误"
+L["Oily"] = "油腻的无脊者"
 
 L["blackhound_cache"] = "黑犬宝箱"
 L["bladesworn_supply_cache"] = "刃誓补给箱"
