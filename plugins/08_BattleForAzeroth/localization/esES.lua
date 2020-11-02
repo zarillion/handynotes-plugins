@@ -36,19 +36,19 @@ L["dilbert_mcclint_note"] = "Hola, mi nombre es {npc:140461}, el Gestor de Infec
 L["fizzie_spark_note"] = "¿Piensas que tus mascotas tienen alguna oportunidad contra mi equipo imbuido por la Azerita? ¡Eso desearías!"
 L["michael_skarn_note"] = "Sólo recuerda cómo empezamos esta batalla, tú pedistes esto."
 
-L["drust_facts_note"] = nil
-L["stele_forest_note"] = nil
-L["options_icons_drust_facts_desc"] = nil
-L["options_icons_drust_facts"] = nil
+L["drust_facts_note"] = "Lee todas las estelas Drust para conseguir el logro."
+L["stele_forest_note"] = "Dentro de la Guarida de Ulfar."
+L["options_icons_drust_facts_desc"] = "Muestra las localizaciones de las estelas Drust para el logro {achievement:13064}."
+L["options_icons_drust_facts"] = "{achievement:13064}"
 
-L["embers_crossbow_note"] = nil
-L["embers_flask_note"] = nil
-L["embers_hat_note"] = nil
-L["embers_knife_note"] = nil
-L["embers_golvar_note"] = nil
-L["golvar_ruins"] = nil
-L["options_icons_ember_relics_desc"] = nil
-L["options_icons_ember_relics"] = nil
+L["embers_crossbow_note"] = "Recoge la {item:163749} del suelo entre dos árboles y devuélvela a las ruinas de Gol Var."
+L["embers_flask_note"] = "Recoge el {item:163746} del agua entre dos rocas y devuélvelo a las ruinas de Gol Var."
+L["embers_hat_note"] = "Recoge el {item:163748} de la pila de huesos y devuélvelo a las ruinas de Gol Var."
+L["embers_knife_note"] = "Estira del {item:163747} para sacarlo del tronco del árbol y devuélvelo a las ruinas de Gol Var."
+L["embers_golvar_note"] = "Devuelve cada una de las reliquias a las ruinas de Gol Var para conseguir el logro."
+L["golvar_ruins"] = "Ruinas de Gol Var"
+L["options_icons_ember_relics_desc"] = "Muestra las localizaciones de las reliquias para el logro {achievement:13082}."
+L["options_icons_ember_relics"] = "{achievement:13082}"
 
 L["linda_deepwater_note"] = "Para poder acceder, debes haber completado la cadena de misiones de {npc:136458} justo fuera de Calacualquiera."
 
@@ -643,11 +643,11 @@ L["options_icons_life_finds_a_way_desc"] = "Muestra las localizaciones de los di
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["goramor_note"] = nil
-L["makafon_note"] = nil
-L["stompy_note"] = nil
-L["options_icons_brutosaurs"] = nil
-L["options_icons_brutosaurs_desc"] = nil
+L["goramor_note"] = "Compra una {item:163563} de {npc:126833} y alimenta a {npc:143644}. {npc:126833} está en una cueva pequeña cerca del Bancal de los Pesares."
+L["makafon_note"] = "Compra un {item:163564} de {npc:124034} en el Puesto Proveescamas y alimenta a {npc:130922}."
+L["stompy_note"] = "Compra una {item:163567} de {npc:133833} al norte del Oasis Silbaflor y alimenta al {npc:143332}."
+L["options_icons_brutosaurs"] = "{achievement:13029}"
+L["options_icons_brutosaurs_desc"] = "Muestra la localización de los brutosaurios para el logro {achievement:13029}."
 
 local hekd_note = "\n\nPara conseguir acceso a {npc:126334}, necesitas completar %s."
 if UnitFactionGroup('player') == 'Horde' then
@@ -710,11 +710,11 @@ L["options_icons_daily_chests_desc"] = "Muestra la localización de los cofres (
 L["options_icons_daily_chests"] = "Cofres"
 
 L["supply_chest"] = "Cofre de Suministros de Guerra"
-L["supply_chest_note"] = nil
-L["options_icons_supplies_desc"] = "Muestra todas las localizaciones posibles para los cajones de suministros de guerra."
-L["options_icons_supplies"] = "Localizaciones de suministros de guerra"
+L["supply_chest_note"] = "Una {npc:135181} o un {npc:138694} volarán por lo alto cada 45 minutos y soltarán un {npc:135238} en uno de estos sitios."
+L["options_icons_supplies_desc"] = "Muestra las localizaciones posibles para los {npc:135238}."
+L["options_icons_supplies"] = "{npc:135238}"
 
 L["secret_supply_chest"] = "Cofres de Suministros Secreto"
-L["secret_supply_chest_note"] = "Cuando está activo un asalto de facción, puede aparecer un cofre de suministros secreto en una de estas localizaciones por poco tiempo."
+L["secret_supply_chest_note"] = "Cuando está activo un asalto de facción, puede aparecer un "..ns.color.Yellow("Cofre de Suministros Secreto").." en una de estas localizaciones por poco tiempo."
 L["options_icons_secret_supplies"] = "Cofre de Suministros Secreto"
-L["options_icons_secret_supplies_desc"] = "Muestra las localizaciones de los cofres de suministros para el logro {achievement:13317}."
+L["options_icons_secret_supplies_desc"] = "Muestra las localizaciones de los "..ns.color.Yellow("Cofres de Suministros Secreto").." para el logro {achievement:13317}."
