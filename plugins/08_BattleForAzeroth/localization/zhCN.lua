@@ -34,19 +34,19 @@ L["dilbert_mcclint_note"] = "嗨，害虫防治专家呆伯特·麦克林特向�
 L["fizzie_spark_note"] = "你觉得你的宠物有机会打败我注入了艾泽里特的队伍？想得美！"
 L["michael_skarn_note"] = "一旦我们开始战斗，你得记住这是你自找的。"
 
-L["drust_facts_note"] = nil
-L["stele_forest_note"] = nil
-L["options_icons_drust_facts_desc"] = nil
-L["options_icons_drust_facts"] = nil
+L["drust_facts_note"] = "阅读全部石碑获得成就。"
+L["stele_forest_note"] = "奥尔法的兽穴内。"
+L["options_icons_drust_facts_desc"] = "显示 {achievement:13064} 成就中石碑的位置。"
+L["options_icons_drust_facts"] = "{achievement:13064}"
 
-L["embers_crossbow_note"] = nil
-L["embers_flask_note"] = nil
-L["embers_hat_note"] = nil
-L["embers_knife_note"] = nil
-L["embers_golvar_note"] = nil
-L["golvar_ruins"] = nil
-L["options_icons_ember_relics_desc"] = nil
-L["options_icons_ember_relics"] = nil
+L["embers_crossbow_note"] = "两棵树中间的地上拾取 {item:163749}，然后把它带回戈尔瓦遗迹。"
+L["embers_flask_note"] = "两块岩石中间的水里拾取 {item:163746}，然后把它带回戈尔瓦遗迹。"
+L["embers_hat_note"] = "一堆骨头中拾取 {item:163748}，然后把它带回戈尔瓦遗迹。"
+L["embers_knife_note"] = "从树干中拉出 {item:163747}，然后把它带回戈尔瓦遗迹。"
+L["embers_golvar_note"] = "把每个古物放回戈尔瓦遗迹后完成成就。"
+L["golvar_ruins"] = "戈尔瓦遗迹"
+L["options_icons_ember_relics_desc"] = "显示 {achievement:13082} 成就中古物的位置。"
+L["options_icons_ember_relics"] = "{achievement:13082}"
 
 L["linda_deepwater_note"] = "要获得访问权限，必须完成就在安利港外面 {npc:136458} 的任务线。"
 
@@ -641,11 +641,11 @@ L["options_icons_life_finds_a_way_desc"] = "显示 {achievement:13048} 成就中
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["goramor_note"] = nil
-L["makafon_note"] = nil
-L["stompy_note"] = nil
-L["options_icons_brutosaurs"] = nil
-L["options_icons_brutosaurs_desc"] = nil
+L["goramor_note"] = "从位于悲伤之地附近的小洞穴内的 {npc:126833} 购买一个 {item:163563} 并喂给 {npc:143644}。"
+L["makafon_note"] = "从位于鳞商驿站的 {npc:124034} 购买一个 {item:163564} 并喂给 {npc:130922}。"
+L["stompy_note"] = "从位于风花绿洲北侧的 {npc:133833} 购买一个 {item:163567} 并喂给 {npc:143332}。"
+L["options_icons_brutosaurs"] = "{achievement:13029}"
+L["options_icons_brutosaurs_desc"] = "显示 {achievement:13029} 成就中雷龙的位置。"
 
 local hekd_note = "\n\n要获得 {npc:126334} 访问权限，必须完成任务 %s。"
 if UnitFactionGroup('player') == 'Horde' then
