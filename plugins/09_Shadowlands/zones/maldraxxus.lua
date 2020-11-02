@@ -333,6 +333,18 @@ map.nodes[49441509] = Treasure({
     }
 }) -- Chest of Eyes
 
+Map({id=1649}).nodes[34565549] = Treasure({
+    quest=58710,
+    note=L["forgotten_mementos"],
+    parent=map.id,
+    rewards={
+        Achievement({id=14312, criteria=50069})
+    },
+    pois={
+        POI({25815353}) -- Vault Portcullis Chain
+    }
+}) -- Forgotten Mementos
+
 map.nodes[41511953] = Treasure({
     quest=62602, -- Currently account-wide? Spinebug is lootable on alts but treasure is gone
     label=L["giant_cache_of_epic_treasure"],
@@ -480,25 +492,6 @@ map.nodes[51444848] = Treasure({
 }) -- Oonar's Arm and Sorrowbane
 
 -------------------------------------------------------------------------------
-
-local forgotten_treasure = Treasure({
-    quest=58710,
-    note=L["forgotten_mementos"],
-    rewards={
-        Achievement({id=14312, criteria=50069})
-    }
-}) -- Forgotten Mementos
-
-map.nodes[22503030] = forgotten_treasure
-
-local etheric_vault = Map({ id=1649 })
-etheric_vault.nodes[34565549] = Clone(forgotten_treasure, {
-    pois={
-        POI({25815353}) -- Vault Portcullis Chain
-    }
-})
-
--------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -572,16 +565,9 @@ map.nodes[32005700] = Kitten({id=174221, rewards={
     Achievement({id=14634, criteria=49426})
 }}) -- Snots
 
-local HAIRBALL = Kitten({id=174195, rewards={
+Map({id=1697}).nodes[45203680] = Kitten({id=174195, parent=map.id, rewards={
     Achievement({id=14634, criteria=49425})
 }, note=L["hairball"]}) -- Hairball
-
--- Add Hairball to the dungeon map
-local festering_sanctum = Map({ id=1697 })
-festering_sanctum.nodes[45203680] = HAIRBALL
-
--- Add Hairball to the world map
-map.nodes[68108620] = HAIRBALL
 
 -------------------------------------------------------------------------------
 ------------------------------- BONE DEATHGATES -------------------------------

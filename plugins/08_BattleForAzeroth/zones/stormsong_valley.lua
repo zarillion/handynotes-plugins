@@ -374,20 +374,18 @@ map.nodes[49616806] = Rare({
     }
 }) -- Vinespeaker Ratha
 
-local wagga = Rare({
+Map({id=1183}).nodes[12002845] = Rare({
     id=130079,
     quest=50819,
     note=L["in_cave"],
+    parent={id=map.id, pois={
+        POI({43537598}) -- Cave Entrance
+    }},
     rewards={
         Achievement({id=12940, criteria=41843}),
         Transmog({item=154431, slot=L["offhand"]}) -- Earthshaker's Flame
     }
 }) -- Wagga Snarltusk
-
-map.nodes[41997466] = ns.Clone(wagga, {pois={
-    POI({43537598}) -- Cave Entrance
-}})
-Map({id=1183}).nodes[12002845] = wagga
 
 map.nodes[47206580] = Rare({
     id=129803,

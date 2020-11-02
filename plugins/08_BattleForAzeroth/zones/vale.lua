@@ -5,7 +5,7 @@
 local _, ns = ...
 local L = ns.locale
 local Class = ns.Class
-local Map = ns.Map
+local Map = ns.VisionsMap
 local Clone = ns.Clone
 
 local PetBattle = ns.node.PetBattle
@@ -24,16 +24,12 @@ local Toy = ns.reward.Toy
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+-------------------------------------------------------------------------------
+
 local MAN, MOG, EMP = 0, 1, 2 -- assaults
 
--------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
--------------------------------------------------------------------------------
-
-local map = Map({ id=1530, phased=false, settings=true })
-
 local function GetAssault()
-    local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
+    local textures = C_MapExplorationInfo.GetExploredMapTextures(1530)
     if textures and textures[1].fileDataIDs[1] == 3155826 then
         if ns:GetOpt('show_debug_map') then ns.Debug('Vale assault: MAN') end
         return MAN -- left
@@ -46,24 +42,10 @@ local function GetAssault()
     end
 end
 
-function map:Prepare()
-    Map.Prepare(self)
-    self.assault = GetAssault()
-    self.phased = self.assault ~= nil
-end
+-------------------------------------------------------------------------------
 
-function map:IsNodeEnabled(node, coord, minimap)
-    local assault = node.assault
-    if assault then
-        assault = type(assault) == 'number' and {assault} or assault
-        for i=1, #assault + 1, 1 do
-            if i > #assault then return false end
-            if assault[i] == self.assault then break end
-        end
-    end
-
-    return Map.IsNodeEnabled(self, node, coord, minimap)
-end
+local map = Map({id=1530, phased=false, settings=true, GetAssault=GetAssault})
+local pools = Map({id=1579, GetAssault=GetAssault})
 
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
@@ -423,7 +405,7 @@ local MANChest = Class('MANChest', Treasure, {
 })
 
 local MANTR1 = MANChest({quest=58224, icon='chest_bl'})
-local MANTR2 = MANChest({quest=58225, icon='chest_pp'})
+local MANTR2 = MANChest({quest=58225, icon='chest_pp', fgroup='manchest2'})
 local MANTR3 = MANChest({quest=58226, icon='chest_bk'})
 local MANTR4 = MANChest({quest=58227, icon='chest_yw'})
 local MANTR5 = MANChest({quest=58228, icon='chest_tl'})
@@ -548,6 +530,7 @@ local MOGCOFF = Supply({
     quest=57214,
     assault=MOG,
     group=ns.groups.COFFERS,
+    fgroup='mogcoffer',
     label=L["mogu_strongbox"],
     requires=ns.requirement.Item(174767)
 })
@@ -567,7 +550,7 @@ local EMPChest = Class('EMPChest', Treasure, {
 })
 
 local EMPTR1 = EMPChest({quest=57197, icon='chest_bl'})
-local EMPTR2 = EMPChest({quest=57199, icon='chest_pp', note=L["pools_of_power"]})
+local EMPTR2 = EMPChest({quest=57199, icon='chest_pp', note=L["pools_of_power"], parent=map.id})
 local EMPTR3 = EMPChest({quest=57200, icon='chest_bk'})
 local EMPTR4 = EMPChest({quest=57201, icon='chest_yw'})
 local EMPTR5 = EMPChest({quest=57202, icon='chest_tl', note=L["big_blossom_mine"]})
@@ -583,16 +566,16 @@ map.nodes[46314037] = EMPTR1
 map.nodes[50673444] = EMPTR1
 map.nodes[52673967] = EMPTR1
 map.nodes[53884179] = EMPTR1
--- quest=57199 (DONT FORGET TO ADD TO THE POOLS OF POWER MAP BELOW)
-map.nodes[56113034] = EMPTR2
-map.nodes[56152716] = EMPTR2
-map.nodes[58452979] = EMPTR2
-map.nodes[61422747] = EMPTR2
-map.nodes[64932682] = EMPTR2
-map.nodes[67222783] = EMPTR2
-map.nodes[69933311] = EMPTR2
-map.nodes[70282286] = EMPTR2
-map.nodes[73242533] = EMPTR2
+-- quest=57199
+pools.nodes[09235255] = EMPTR2
+pools.nodes[09554460] = EMPTR2
+pools.nodes[15235182] = EMPTR2
+pools.nodes[23234539] = EMPTR2
+pools.nodes[32504372] = EMPTR2
+pools.nodes[38294622] = EMPTR2
+pools.nodes[45715972] = EMPTR2
+pools.nodes[46313359] = EMPTR2
+pools.nodes[54384017] = EMPTR2
 -- quest=57200
 map.nodes[57334165] = EMPTR3
 map.nodes[59186181] = EMPTR3
@@ -634,6 +617,7 @@ local EMPCOFF = Supply({
     quest=57628,
     assault=EMP,
     group=ns.groups.COFFERS,
+    fgroup='empcoffer',
     label=L["black_empire_coffer"],
     requires=ns.requirement.Item(174768)
 })
@@ -641,30 +625,9 @@ local EMPCOFF = Supply({
 map.nodes[53116634] = EMPCOFF
 map.nodes[54804100] = Clone(EMPCOFF, {note=L["platform"]})
 map.nodes[62975086] = EMPCOFF
-map.nodes[68662806] = Clone(EMPCOFF, {note=L["pools_of_power"]})
+pools.nodes[42104690] = Clone(EMPCOFF, {note=L["pools_of_power"], parent=map.id})
 map.nodes[69516094] = EMPCOFF
 map.nodes[76626437] = EMPCOFF
-
--------------------------------------------------------------------------------
-
-local pmap = Map({ id=1579 })
-
-function pmap:Prepare ()
-    map.Prepare(self)
-end
-
--- quest=57199
-pmap.nodes[09235255] = EMPTR2
-pmap.nodes[09554460] = EMPTR2
-pmap.nodes[15235182] = EMPTR2
-pmap.nodes[23234539] = EMPTR2
-pmap.nodes[32504372] = EMPTR2
-pmap.nodes[38294622] = EMPTR2
-pmap.nodes[45715972] = EMPTR2
-pmap.nodes[46313359] = EMPTR2
-pmap.nodes[54384017] = EMPTR2
-
-pmap.nodes[42104690] = Clone(EMPCOFF, {note=L["pools_of_power"]})
 
 -------------------------------------------------------------------------------
 -------------------------------- ASSAULT EVENTS -------------------------------

@@ -492,7 +492,7 @@ map.nodes[33804930] = SECRET_CHEST
 -------------------------------------------------------------------------------
 
 -- quest = 55408
-map.nodes[31702260] = Supply({ fgroup='supply_path_1', pois={Arrow({33750867, 27005454})} })
+map.nodes[31812232] = Supply({ fgroup='supply_path_1', pois={Arrow({33750842, 27005679})} })
 map.nodes[33071329] = Supply({ fgroup='supply_path_1' })
 map.nodes[58104270] = Supply({ fgroup='supply_path_2', pois={Arrow({66006682, 53002713})} })
 map.nodes[62825711] = Supply({ fgroup='supply_path_2' })

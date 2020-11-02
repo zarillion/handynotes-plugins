@@ -5,7 +5,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
-local Map = ns.Map
+local Map = ns.VisionsMap
 local Clone = ns.Clone
 
 local Collectible = ns.node.Node
@@ -25,16 +25,12 @@ local Toy = ns.reward.Toy
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+-------------------------------------------------------------------------------
+
 local AQR, EMP, AMA = 0, 1, 2 -- assaults
 
--------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
--------------------------------------------------------------------------------
-
-local map = Map({ id=1527, phased=false, settings=true })
-
 local function GetAssault()
-    local textures = C_MapExplorationInfo.GetExploredMapTextures(map.id)
+    local textures = C_MapExplorationInfo.GetExploredMapTextures(1527)
     if textures and textures[1].fileDataIDs[1] == 3165083 then
         if ns:GetOpt('show_debug_map') then ns.Debug('Uldum assault: AQR') end
         return AQR -- left
@@ -47,24 +43,9 @@ local function GetAssault()
     end
 end
 
-function map:Prepare()
-    Map.Prepare(self)
-    self.assault = GetAssault()
-    self.phased = self.assault ~= nil
-end
+-------------------------------------------------------------------------------
 
-function map:IsNodeEnabled(node, coord, minimap)
-    local assault = node.assault
-    if assault then
-        assault = type(assault) == 'number' and {assault} or assault
-        for i=1, #assault + 1, 1 do
-            if i > #assault then return false end
-            if assault[i] == self.assault then break end
-        end
-    end
-
-    return Map.IsNodeEnabled(self, node, coord, minimap)
-end
+local map = Map({id=1527, phased=false, settings=true, GetAssault=GetAssault})
 
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
@@ -590,11 +571,11 @@ local AQRChest = Class('AQRChest', Treasure, {
     label=L["infested_cache"]
 })
 
-local AQRTR1 = AQRChest({quest=58138, icon='chest_bl'})
+local AQRTR1 = AQRChest({quest=58138, icon='chest_bl', fgroup='aqrchest1'})
 local AQRTR2 = AQRChest({quest=58139, icon='chest_pp'})
 local AQRTR3 = AQRChest({quest=58140, icon='chest_bk'})
 local AQRTR4 = AQRChest({quest=58141, icon='chest_yw'})
-local AQRTR5 = AQRChest({quest=58142, icon='chest_tl'})
+local AQRTR5 = AQRChest({quest=58142, icon='chest_tl', fgroup='aqrchest5'})
 
 -- quest=58138
 map.nodes[43925868] = Clone(AQRTR1, {note=L["chamber_of_the_sun"]})
@@ -745,7 +726,7 @@ local AMATR2 = AMAChest({quest=55690, icon='chest_pp'})
 local AMATR3 = AMAChest({quest=55691, icon='chest_bk'})
 local AMATR4 = AMAChest({quest=55698, icon='chest_yw'})
 local AMATR5 = AMAChest({quest=55699, icon='chest_tl'})
-local AMATR6 = AMAChest({quest=55700, icon='chest_lm'})
+local AMATR6 = AMAChest({quest=55700, icon='chest_lm', fgroup='amachest6'})
 
 -- quest=55689
 map.nodes[78265073] = AMATR1
@@ -816,6 +797,7 @@ local AMACOFF = Supply({
     quest=55692,
     assault=AMA,
     group=ns.groups.COFFERS,
+    fgroup='amacoffer',
     label=L["amathet_reliquary"],
     requires=ns.requirement.Item(174765)
 })

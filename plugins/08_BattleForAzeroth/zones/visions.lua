@@ -41,16 +41,16 @@ local MAIL = Node({
     }
 })
 
-local CHEST = Node({
+local Chest = Class('VisionsChest', Node, {
     icon='chest_gy',
     scale=1.3,
     group=ns.groups.VISIONS_CHEST,
     label=L["black_empire_cache"]
 })
 
-local CHEST1 = Clone(CHEST, {sublabel=string.format(L["clear_sight"], 1)})
-local CHEST2 = Clone(CHEST, {sublabel=string.format(L["clear_sight"], 2)})
-local CHEST3 = Clone(CHEST, {sublabel=string.format(L["clear_sight"], 3)})
+local CHEST1 = Chest({fgroup='c1', sublabel=string.format(L["clear_sight"], 1)})
+local CHEST2 = Chest({fgroup='c2', sublabel=string.format(L["clear_sight"], 2)})
+local CHEST3 = Chest({fgroup='c3', sublabel=string.format(L["clear_sight"], 3)})
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------

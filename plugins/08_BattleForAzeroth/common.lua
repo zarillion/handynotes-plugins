@@ -135,6 +135,33 @@ ns.node.SecretSupply = Class('SecretSupply', ns.node.Supply, {
 })
 
 -------------------------------------------------------------------------------
+----------------------------- VISIONS ASSAULT MAP -----------------------------
+-------------------------------------------------------------------------------
+
+local VisionsMap = Class('VisionsMap', Map)
+
+function VisionsMap:Prepare()
+    Map.Prepare(self)
+    self.assault = self.GetAssault()
+    self.phased = self.assault ~= nil
+end
+
+function VisionsMap:IsNodeEnabled(node, coord, minimap)
+    local assault = node.assault
+    if assault then
+        assault = type(assault) == 'number' and {assault} or assault
+        for i=1, #assault + 1, 1 do
+            if i > #assault then return false end
+            if assault[i] == self.assault then break end
+        end
+    end
+
+    return Map.IsNodeEnabled(self, node, coord, minimap)
+end
+
+ns.VisionsMap = VisionsMap
+
+-------------------------------------------------------------------------------
 -------------------------------- WARFRONT MAP ---------------------------------
 -------------------------------------------------------------------------------
 
