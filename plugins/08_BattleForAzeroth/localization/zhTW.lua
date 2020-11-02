@@ -655,6 +655,7 @@ L["options_icons_daily_chests_desc"] = "顯示寶箱位置 (每日可拾取的)�
 L["options_icons_daily_chests"] = "寶箱"
 
 L["supply_chest"] = "戰爭補給箱"
+L["supply_chest_note"] = nil
 L["options_icons_supplies_desc"] = "顯示戰爭補給箱的所有可能位置。"
 L["options_icons_supplies"] = "戰爭補給空投"
 

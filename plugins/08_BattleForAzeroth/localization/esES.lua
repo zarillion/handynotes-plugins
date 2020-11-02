@@ -710,6 +710,7 @@ L["options_icons_daily_chests_desc"] = "Muestra la localización de los cofres (
 L["options_icons_daily_chests"] = "Cofres"
 
 L["supply_chest"] = "Cofre de Suministros de Guerra"
+L["supply_chest_note"] = nil
 L["options_icons_supplies_desc"] = "Muestra todas las localizaciones posibles para los cajones de suministros de guerra."
 L["options_icons_supplies"] = "Localizaciones de suministros de guerra"
 

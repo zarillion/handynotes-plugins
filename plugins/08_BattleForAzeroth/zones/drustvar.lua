@@ -10,6 +10,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local Supply = ns.node.Supply
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -484,6 +485,15 @@ map.nodes[29674100] = SECRET_CHEST
 -- map.nodes[30003300] = SECRET_CHEST
 map.nodes[33704075] = SECRET_CHEST
 map.nodes[33804930] = SECRET_CHEST
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[31702260] = Supply({ rewards={Achievement({id=12572})} })
+map.nodes[33001340] = Supply({ rewards={Achievement({id=12572})} })
+map.nodes[58104270] = Supply({ rewards={Achievement({id=12572})} })
+map.nodes[62605700] = Supply({ rewards={Achievement({id=12572})} })
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

@@ -18,10 +18,6 @@
 * [Fractured Faerie Tales](https://www.wowhead.com/achievement=14788/fractured-faerie-tales)
 * [It's Always Sinny in Revendreth](https://www.wowhead.com/achievement=14276/its-always-sinny-in-revendreth)
 
-# Battle for Azeroth
-
-* War Supply drop locations in 8.0 zones
-
 # Legion
 
 ## Broken Isles

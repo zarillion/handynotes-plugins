@@ -711,10 +711,11 @@ L["options_icons_daily_chests_desc"] = "Display locations of chests (lootable da
 L["options_icons_daily_chests"] = "Chests"
 
 L["supply_chest"] = "War Supply Chest"
-L["options_icons_supplies_desc"] = "Display all possible locations for war supply crates."
-L["options_icons_supplies"] = "War Supply Drops"
+L["supply_chest_note"] = "A {npc:135181} or {npc:138694} will fly overhead once every 45 minutes and drop a {npc:135238} at one of these locations."
+L["options_icons_supplies_desc"] = "Display {npc:135238} drop locations."
+L["options_icons_supplies"] = "{npc:135238s}"
 
 L["secret_supply_chest"] = "Secret Supply Chest"
-L["secret_supply_chest_note"] = "When a faction assault is active, a secret supply chest can appear at one of these locations for a short time."
+L["secret_supply_chest_note"] = "When a faction assault is active, a "..ns.color.Yellow("Secret Supply Chest").." can appear at one of these locations for a short time."
 L["options_icons_secret_supplies"] = "Secret Supply Chests"
-L["options_icons_secret_supplies_desc"] = "Display secret supply chest locations for the {achievement:13317} achievement."
+L["options_icons_secret_supplies_desc"] = "Display "..ns.color.Yellow("Secret Supply Chest").." locations for the {achievement:13317} achievement."

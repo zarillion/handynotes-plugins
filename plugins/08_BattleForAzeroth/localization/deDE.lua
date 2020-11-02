@@ -708,6 +708,7 @@ L["options_icons_daily_chests_desc"] = "Zeigt die Positionen von Truhen an \n(t�
 L["options_icons_daily_chests"] = "Truhen"
 
 L["supply_chest"] = "Kiste mit Kriegsvorräten"
+L["supply_chest_note"] = nil
 L["options_icons_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
 L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
 
