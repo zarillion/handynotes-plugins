@@ -5,8 +5,8 @@
 * Sub-tooltips on hover to inspect items, spells and rewards
 * Add checkmark to completed nodes
 * Add list of map items to quest log panel (new tab?)
-* Add support for explicit focus/glow groups
 * Fix transmog collected state on initial load.
+* Investigate auto NPC coloring for tooltips (red, green, yellow).
 
 # Shadowlands
 

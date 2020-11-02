@@ -11,6 +11,7 @@ local Map = ns.Map
 
 local Node = ns.node.Node
 local Quest = ns.node.Quest
+local Achievement = ns.reward.Achievement
 
 -------------------------------------------------------------------------------
 
@@ -121,6 +122,7 @@ ns.node.Supply = Class('Supply', Node, {
     rlabel = ns.GetIconLink('war_mode_swords', 16),
     note=L["supply_chest_note"],
     requires = ns.requirement.WarMode,
+    rewards={ Achievement({id=12572}) },
     group = ns.groups.SUPPLY
 })
 

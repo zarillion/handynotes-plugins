@@ -17,6 +17,7 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
 
+local Arrow = ns.poi.Arrow
 local POI = ns.poi.POI
 local Path = ns.poi.Path
 
@@ -436,8 +437,9 @@ map.nodes[78901850] = SECRET_CHEST
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
--- quest = 55409?
-map.nodes[54144160] = Supply({ rewards={Achievement({id=12572})} })
+-- quest = 55409
+map.nodes[50366990] = Supply({ pois={Arrow({50398584, 50282739})} }) -- 50293270
+map.nodes[54144160] = Supply({ pois={Arrow({65002685, 40006081})} }) -- 52804342
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

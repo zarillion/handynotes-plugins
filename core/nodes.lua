@@ -20,6 +20,7 @@ Base class for all displayed nodes.
     label (string): Tooltip title for this node
     sublabel (string): Oneline string to display under label
     group (Group): Options group for this node (display, scale, alpha)
+    fgroup (string): A category of nodes that should be focused together
     icon (string|number): The icon texture to display
     alpha (float): The default alpha value for this type
     scale (float): The default scale value for this type

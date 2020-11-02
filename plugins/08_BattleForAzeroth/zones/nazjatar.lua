@@ -23,6 +23,7 @@ local Quest = ns.reward.Quest
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Arrow = ns.poi.Arrow
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -575,7 +576,7 @@ map.nodes[80493194] = Glowing({quest=56547, note=L["glowing_chest_8"]})
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
-local supply_chest = Supply({
+local NazSupply = Class('NazSupply', Supply, {
     quest=56792,
     rewards={
         Achievement({id=13720, criteria={
@@ -586,12 +587,12 @@ local supply_chest = Supply({
     }
 })
 
-map.nodes[47864647] = supply_chest -- north basin
-map.nodes[47285170] = supply_chest -- south basin
-map.nodes[45237040] = supply_chest -- south of newhome
-map.nodes[33493889] = supply_chest -- ashen strand (also 33283441?)
-map.nodes[59663755] = supply_chest -- coral forest
-map.nodes[76873699] = supply_chest -- zin-azshari
+map.nodes[45237040] = NazSupply({ fgroup='supply_path_1', pois={Arrow({50502245, 44008159})} }) -- south of newhome
+map.nodes[47285170] = NazSupply({ fgroup='supply_path_1' }) -- south basin
+map.nodes[47864647] = NazSupply({ fgroup='supply_path_1' }) -- north basin
+map.nodes[33493889] = NazSupply({ fgroup='supply_path_2', pois={Arrow({83003672, 25003926})} }) -- ashen strand (also 33283441?)
+map.nodes[59663755] = NazSupply({ fgroup='supply_path_2' }) -- coral forest
+map.nodes[76873699] = NazSupply({ fgroup='supply_path_2' }) -- zin-azshari
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

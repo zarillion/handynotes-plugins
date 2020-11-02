@@ -35,6 +35,7 @@ function Map:Initialize(attrs)
 
     self.nodes = {}
     self.groups = {}
+    self.fgroups = {}
     self.settings = self.settings or false
 
     setmetatable(self.nodes, {
@@ -51,6 +52,12 @@ end
 function Map:AddNode(coord, node)
     if not ns.IsInstance(node, ns.node.Node) then
         error(format('All nodes must be instances of the Node() class: %d %s', coord, tostring(node)))
+    end
+
+    if node.fgroup then
+        if not self.fgroups[node.fgroup] then self.fgroups[node.fgroup] = {} end
+        local fgroup = self.fgroups[node.fgroup]
+        fgroup[#fgroup + 1] = coord
     end
 
     if node.group ~= ns.groups.QUEST then
@@ -84,14 +91,11 @@ function Map:AddNode(coord, node)
     end
 end
 
-function Map:Prepare()
-    for coord, node in pairs(self.nodes) do
-        -- prepare each node once to ensure its dependent data is loaded
-        if not node._prepared then
-            node:Prepare()
-            node._prepared = true
-        end
+function Map:HasEnabledGroups()
+    for i, group in ipairs(self.groups) do
+        if group:IsEnabled() then return true end
     end
+    return false
 end
 
 function Map:IsNodeEnabled(node, coord, minimap)
@@ -122,11 +126,25 @@ function Map:IsNodeEnabled(node, coord, minimap)
     return node.group:GetDisplay()
 end
 
-function Map:HasEnabledGroups()
-    for i, group in ipairs(self.groups) do
-        if group:IsEnabled() then return true end
+function Map:Prepare()
+    for coord, node in pairs(self.nodes) do
+        -- prepare each node once to ensure its dependent data is loaded
+        if not node._prepared then
+            node:Prepare()
+            node._prepared = true
+        end
     end
-    return false
+end
+
+function Map:SetFocus(node, state, hover)
+    local attr = hover and '_hover' or '_focus'
+    if node.fgroup then
+        for i, coord in ipairs(self.fgroups[node.fgroup]) do
+            self.nodes[coord][attr] = state
+        end
+    else
+        node[attr] = state
+    end
 end
 
 -------------------------------------------------------------------------------

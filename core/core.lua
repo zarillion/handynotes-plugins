@@ -89,7 +89,8 @@ end
 -------------------------------------------------------------------------------
 
 function Addon:OnEnter(mapID, coord)
-    local node = ns.maps[mapID].nodes[coord]
+    local map = ns.maps[mapID]
+    local node = map.nodes[coord]
 
     if self:GetCenter() > UIParent:GetCenter() then
         GameTooltip:SetOwner(self, "ANCHOR_LEFT")
@@ -98,30 +99,32 @@ function Addon:OnEnter(mapID, coord)
     end
 
     node:Render(GameTooltip)
-    node._hover = true
+    map:SetFocus(node, true, true)
     ns.MinimapDataProvider:RefreshAllData()
     ns.WorldMapDataProvider:RefreshAllData()
     GameTooltip:Show()
 end
 
 function Addon:OnLeave(mapID, coord)
-    local node = ns.maps[mapID].nodes[coord]
-    node._hover = false
+    local map = ns.maps[mapID]
+    local node = map.nodes[coord]
+    map:SetFocus(node, false, true)
     ns.MinimapDataProvider:RefreshAllData()
     ns.WorldMapDataProvider:RefreshAllData()
     GameTooltip:Hide()
 end
 
 function Addon:OnClick(button, down, mapID, coord)
-    local node = ns.maps[mapID].nodes[coord]
+    local map = ns.maps[mapID]
+    local node = map.nodes[coord]
     if button == "RightButton" and down then
         DropdownMenu.initialize = function (_, level)
             InitializeDropdownMenu(level, mapID, coord)
         end
         ToggleDropDownMenu(1, nil, DropdownMenu, self, 0, 0)
     elseif button == "LeftButton" and down then
-        if node.pois then
-            node._focus = not node._focus
+        if node.pois or node.fgroup then
+            map:SetFocus(node, not node._focus)
             Addon:Refresh()
         end
     end

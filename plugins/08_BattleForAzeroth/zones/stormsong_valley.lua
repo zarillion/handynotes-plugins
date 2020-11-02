@@ -20,6 +20,7 @@ local Pet = ns.reward.Pet
 local Spell = ns.reward.Spell
 local Transmog = ns.reward.Transmog
 
+local Line = ns.poi.Line
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -564,11 +565,11 @@ map.nodes[46635657] = SECRET_CHEST
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[54406340] = Supply({ rewards={Achievement({id=12572})} })
-map.nodes[55607080] = Supply({ rewards={Achievement({id=12572})} })
-map.nodes[56807680] = Supply({ rewards={Achievement({id=12572})} })
-map.nodes[59207160] = Supply({ rewards={Achievement({id=12572})} })
-map.nodes[70808500] = Supply({ rewards={Achievement({id=12572})} })
+map.nodes[54406340] = Supply({ fgroup='supply_path_1', pois={Line({50003883, 58008350})} })
+map.nodes[55607080] = Supply({ fgroup='supply_path_1' })
+map.nodes[56807680] = Supply({ fgroup='supply_path_1' })
+map.nodes[59207160] = Supply({ fgroup='supply_path_2', pois={Line({40004942, 75008985})} })
+map.nodes[70808500] = Supply({ fgroup='supply_path_2' })
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
