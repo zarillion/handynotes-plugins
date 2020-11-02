@@ -394,10 +394,12 @@ map.nodes[81305530] = SECRET_CHEST
 ------------------------------ WAR SUPPLY CHESTS ------------------------------
 -------------------------------------------------------------------------------
 
+-- quest = 55413
 map.nodes[48206620] = Supply({ fgroup='supply_path_1', pois={Arrow({80002179, 40007765})} })
 daz.nodes[51606880] = Supply({ fgroup='supply_path_1', parent=map.id })
 map.nodes[71403380] = Supply({ fgroup='supply_path_1' })
-map.nodes[67203620] = Supply({ fgroup='supply_path_2', pois={Line({45003475, 85003736})} })
+daz.nodes[35041851] = Supply({ fgroup='supply_path_2', parent=map.id })
+map.nodes[67203620] = Supply({ fgroup='supply_path_2', pois={Arrow({45003475, 85003736})} })
 map.nodes[76403680] = Supply({ fgroup='supply_path_2' })
 
 -------------------------------------------------------------------------------
