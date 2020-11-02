@@ -708,7 +708,7 @@ L["options_icons_daily_chests_desc"] = "Zeigt die Positionen von Truhen an \n(t�
 L["options_icons_daily_chests"] = "Truhen"
 
 L["supply_chest"] = "Kiste mit Kriegsvorräten"
-L["supply_chest_note"] = nil
+L["supply_chest_note"] = "Eine {npc:135181} oder {npc:138694} fliegt alle 45 min durch die Zone und wirft eine {npc:135238} an einer dieser Positionen ab."
 L["options_icons_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
 L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
 
