@@ -34,19 +34,19 @@ L["dilbert_mcclint_note"] = "Tag auch, {npc:140461}, Befallsbekämpfung. Immer s
 L["fizzie_spark_note"] = "Denkt Ihr, dass Eure Haustiere gegen mein azeritdurchströmtes Team eine Chance haben? Das hättet Ihr wohl gerne!"
 L["michael_skarn_note"] = "Bevor wir loslegen... Vergesst nicht, dass Ihr das so wolltet!"
 
-L["drust_facts_note"] = nil
-L["stele_forest_note"] = nil
-L["options_icons_drust_facts_desc"] = nil
-L["options_icons_drust_facts"] = nil
+L["drust_facts_note"] = "Lies alle Druststelen, um den Erfolg zu erringen."
+L["stele_forest_note"] = "In Ulfars Höhle."
+L["options_icons_drust_facts_desc"] = "Zeigt die Positionen der Druststelen für den Erfolg {achievement:13064} an."
+L["options_icons_drust_facts"] = "{achievement:13064}"
 
-L["embers_crossbow_note"] = nil
-L["embers_flask_note"] = nil
-L["embers_hat_note"] = nil
-L["embers_knife_note"] = nil
-L["embers_golvar_note"] = nil
-L["golvar_ruins"] = nil
-L["options_icons_ember_relics_desc"] = nil
-L["options_icons_ember_relics"] = nil
+L["embers_crossbow_note"] = "Hebe die {item:163749} vom Boden zwischen zwei Bäumen auf und bringe sie zu den Ruinen von Gol Var."
+L["embers_flask_note"] = "Hebe ein {item:163746}, dass sich im Wasser zwischen zwei Felsen befindent auf und bringe es zu den Ruinen von Gol Var."
+L["embers_hat_note"] = "Plündere den {item:163748} aus einem Knochenhaufen und bringe ihn zu den Ruinen von Gol Var."
+L["embers_knife_note"] = "Ziehe ein {item:163747} aus dem Stamm des Baumes und bringe es zu den Ruinen von Gol Var."
+L["embers_golvar_note"] = "Bringe jedes Relikt zu den Ruinen von Gol Var zurück, um den Erfolg zu erringen."
+L["golvar_ruins"] = "Die Ruinen von Gol Var"
+L["options_icons_ember_relics"] = "{achievement:13082}"
+L["options_icons_ember_relics_desc"] = "Zeigt die Positionen der Relikte für den Erfolg {achievement:13082} an."
 
 L["linda_deepwater_note"] = "Um Zugang zu erhalten, musst du zuerst von {npc:136458} außerhalb von Jederhafen die Questreihe abschließen."
 
@@ -641,11 +641,11 @@ L["options_icons_life_finds_a_way_desc"] = "Zeigt die Positionen der fürchterli
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["goramor_note"] = nil
-L["makafon_note"] = nil
-L["stompy_note"] = nil
-L["options_icons_brutosaurs"] = nil
-L["options_icons_brutosaurs_desc"] = nil
+L["goramor_note"] = "Kaufe eine {item:163563} bei {npc:126833} und füttere {npc:143644} damit. {npc:126833} ist in einer kleinen Höhle in der Nähe der Terrasse des Kummers."
+L["makafon_note"] = "Kaufe ein {item:163564} bei {npc:124034} beim Schuppenhandelsposten und füttere {npc:130922} damit."
+L["stompy_note"] = "Kaufe einmal {item:163567} bei {npc:133833} nördlich der Pfiffblütenoase und füttere {npc:143332} damit."
+L["options_icons_brutosaurs"] = "{achievement:13029}"
+L["options_icons_brutosaurs_desc"] = "Zeigt die Positionen der Brutosaurier für den Erfolg {achievement:13029} an."
 
 local hekd_note = "\n\nUm Zugang zu {npc:126334} zu erhalten, müssen zuerst die zwei Quests %s abgeschlossen werden."
 if UnitFactionGroup('player') == 'Horde' then
