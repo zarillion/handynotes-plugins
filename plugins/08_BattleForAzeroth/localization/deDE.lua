@@ -709,10 +709,10 @@ L["options_icons_daily_chests"] = "Truhen"
 
 L["supply_chest"] = "Kiste mit Kriegsvorräten"
 L["supply_chest_note"] = "Eine {npc:135181} oder {npc:138694} fliegt alle 45 min durch die Zone und wirft eine {npc:135238} an einer dieser Positionen ab."
-L["options_icons_supplies_desc"] = "Zeigt alle möglichen Standorte für Kisten mit Kriegsvorräten an."
+L["options_icons_supplies_desc"] = "Zeigt alle möglichen Positionen für Kisten mit Kriegsvorräten an."
 L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
 
 L["secret_supply_chest"] = "Geheime Vorratstruhe"
-L["secret_supply_chest_note"] = "Wenn ein Übergriff aktiv ist, kann eine geheime Vorratstruhe für eine kurze Zeit an einer dieser Positionen erscheinen."
+L["secret_supply_chest_note"] = "Wenn ein Übergriff aktiv ist, kann eine "..ns.color.Yellow("geheime Vorratstruhe").." für eine kurze Zeit an einer dieser Positionen erscheinen."
 L["options_icons_secret_supplies"] = "Geheime Vorratstruhen"
-L["options_icons_secret_supplies_desc"] = "Zeigt die Positionen der geheimen Vorratstruhen für den Erfolg {achievement:13317} an."
+L["options_icons_secret_supplies_desc"] = "Zeigt die Positionen der "..ns.color.Yellow("geheimen Vorratstruhen").." für den Erfolg {achievement:13317} an."
