@@ -45,8 +45,8 @@ L["embers_hat_note"] = "Plündere den {item:163748} aus einem Knochenhaufen und 
 L["embers_knife_note"] = "Ziehe ein {item:163747} aus dem Stamm des Baumes und bringe es zu den Ruinen von Gol Var."
 L["embers_golvar_note"] = "Bringe jedes Relikt zu den Ruinen von Gol Var zurück, um den Erfolg zu erringen."
 L["golvar_ruins"] = "Die Ruinen von Gol Var"
-L["options_icons_ember_relics"] = "{achievement:13082}"
 L["options_icons_ember_relics_desc"] = "Zeigt die Positionen der Relikte für den Erfolg {achievement:13082} an."
+L["options_icons_ember_relics"] = "{achievement:13082}"
 
 L["linda_deepwater_note"] = "Um Zugang zu erhalten, musst du zuerst von {npc:136458} außerhalb von Jederhafen die Questreihe abschließen."
 
