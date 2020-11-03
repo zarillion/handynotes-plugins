@@ -713,8 +713,8 @@ L["options_icons_daily_chests_desc"] = "Muestra la localización de los cofres (
 L["options_icons_daily_chests"] = "Cofres"
 
 L["supply_chest"] = "Cofre de Suministros de Guerra"
-L["supply_chest_note"] = "Una {npc:135181} o un {npc:138694} volarán por lo alto cada 45 minutos y soltarán un {npc:135238} en uno de estos sitios."
-L["supply_single_drop"] = nil
+L["supply_chest_note"] = "Una {npc:135181} o un {npc:138694} volarán por lo alto cada 45 minutos y soltarán un {npc:135238} en uno de estos tres sitios."
+L["supply_single_drop"] = ns.color.Orange("Esta ruta de vuelo siempre suelta el cofre de suministros en este lugar.")
 L["options_icons_supplies_desc"] = "Muestra las localizaciones posibles para los {npc:135238}."
 L["options_icons_supplies"] = "{npc:135238}"
 
