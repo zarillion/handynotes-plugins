@@ -708,8 +708,8 @@ L["options_icons_daily_chests_desc"] = "Zeigt die Positionen von Truhen an \n(t�
 L["options_icons_daily_chests"] = "Truhen"
 
 L["supply_chest"] = "Kiste mit Kriegsvorräten"
-L["supply_chest_note"] = "Eine {npc:135181} oder {npc:138694} fliegt alle 45 min durch die Zone und wirft eine {npc:135238} an einer dieser Positionen ab."
-L["supply_single_drop"] = nil
+L["supply_chest_note"] = "Eine {npc:135181} oder {npc:138694} fliegt alle 45 min durch die Zone und wirft eine {npc:135238} an einer der drei möglichen Positionen ab."
+L["supply_single_drop"] = ns.color.Orange("Bei dieser Flugbahn wird die Versorgungskiste immer an dieser Stelle fallen gelassen.")
 L["options_icons_supplies_desc"] = "Zeigt alle möglichen Positionen für Kisten mit Kriegsvorräten an."
 L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
 
