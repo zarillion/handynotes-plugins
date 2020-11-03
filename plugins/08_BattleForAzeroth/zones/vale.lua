@@ -404,11 +404,11 @@ local MANChest = Class('MANChest', Treasure, {
     label=L["ambered_cache"]
 })
 
-local MANTR1 = MANChest({quest=58224, icon='chest_bl'})
-local MANTR2 = MANChest({quest=58225, icon='chest_pp', fgroup='manchest2'})
-local MANTR3 = MANChest({quest=58226, icon='chest_bk'})
-local MANTR4 = MANChest({quest=58227, icon='chest_yw'})
-local MANTR5 = MANChest({quest=58228, icon='chest_tl'})
+local MANTR1 = MANChest({quest=58224, icon='chest_rd'})
+local MANTR2 = MANChest({quest=58225, icon='chest_bl', fgroup='manchest2'})
+local MANTR3 = MANChest({quest=58226, icon='chest_yw'})
+local MANTR4 = MANChest({quest=58227, icon='chest_pp'})
+local MANTR5 = MANChest({quest=58228, icon='chest_gn'})
 
 -- quest=58224
 map.nodes[04066172] = MANTR1
@@ -471,12 +471,12 @@ local MOGChest = Class('MOGChest', Treasure, {
     label=L["mogu_plunder"]
 })
 
-local MOGTR1 = MOGChest({quest=57206, icon='chest_bl', note=L["guolai"]})
-local MOGTR2 = MOGChest({quest=57208, icon='chest_lm'})
-local MOGTR3 = MOGChest({quest=57209, icon='chest_bk'})
-local MOGTR4 = MOGChest({quest=57211, icon='chest_yw'})
-local MOGTR5 = MOGChest({quest=57212, icon='chest_tl'})
-local MOGTR6 = MOGChest({quest=57213, icon='chest_pp'})
+local MOGTR1 = MOGChest({quest=57206, icon='chest_rd', note=L["guolai"]})
+local MOGTR2 = MOGChest({quest=57208, icon='chest_bl'})
+local MOGTR3 = MOGChest({quest=57209, icon='chest_yw'})
+local MOGTR4 = MOGChest({quest=57211, icon='chest_pp'})
+local MOGTR5 = MOGChest({quest=57212, icon='chest_pk'})
+local MOGTR6 = MOGChest({quest=57213, icon='chest_gn'})
 
 -- quest=57206
 map.nodes[13500720] = MOGTR1
@@ -549,12 +549,12 @@ local EMPChest = Class('EMPChest', Treasure, {
     label=L["black_empire_cache"]
 })
 
-local EMPTR1 = EMPChest({quest=57197, icon='chest_bl'})
-local EMPTR2 = EMPChest({quest=57199, icon='chest_pp', note=L["pools_of_power"], parent=map.id})
-local EMPTR3 = EMPChest({quest=57200, icon='chest_bk'})
-local EMPTR4 = EMPChest({quest=57201, icon='chest_yw'})
-local EMPTR5 = EMPChest({quest=57202, icon='chest_tl', note=L["big_blossom_mine"]})
-local EMPTR6 = EMPChest({quest=57203, icon='chest_lm'})
+local EMPTR1 = EMPChest({quest=57197, icon='chest_rd'})
+local EMPTR2 = EMPChest({quest=57199, icon='chest_yw', note=L["pools_of_power"], parent=map.id})
+local EMPTR3 = EMPChest({quest=57200, icon='chest_gn'})
+local EMPTR4 = EMPChest({quest=57201, icon='chest_bl'})
+local EMPTR5 = EMPChest({quest=57202, icon='chest_pp', note=L["big_blossom_mine"]})
+local EMPTR6 = EMPChest({quest=57203, icon='chest_pk'})
 
 -- quest=57197
 map.nodes[42024621] = EMPTR1

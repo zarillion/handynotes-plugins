@@ -571,11 +571,11 @@ local AQRChest = Class('AQRChest', Treasure, {
     label=L["infested_cache"]
 })
 
-local AQRTR1 = AQRChest({quest=58138, icon='chest_bl', fgroup='aqrchest1'})
-local AQRTR2 = AQRChest({quest=58139, icon='chest_pp'})
-local AQRTR3 = AQRChest({quest=58140, icon='chest_bk'})
-local AQRTR4 = AQRChest({quest=58141, icon='chest_yw'})
-local AQRTR5 = AQRChest({quest=58142, icon='chest_tl', fgroup='aqrchest5'})
+local AQRTR1 = AQRChest({quest=58138, icon='chest_rd', fgroup='aqrchest1'})
+local AQRTR2 = AQRChest({quest=58139, icon='chest_yw'})
+local AQRTR3 = AQRChest({quest=58140, icon='chest_bl'})
+local AQRTR4 = AQRChest({quest=58141, icon='chest_pp'})
+local AQRTR5 = AQRChest({quest=58142, icon='chest_gn', fgroup='aqrchest5'})
 
 -- quest=58138
 map.nodes[43925868] = Clone(AQRTR1, {note=L["chamber_of_the_sun"]})
@@ -644,12 +644,12 @@ local EMPChest = Class('EMPChest', Treasure, {
     label=L["black_empire_cache"]
 })
 
-local EMPTR1 = EMPChest({quest=57623, icon='chest_bl', note=L["single_chest"]})
+local EMPTR1 = EMPChest({quest=57623, icon='chest_pk', note=L["single_chest"]})
 local EMPTR2 = EMPChest({quest=57624, icon='chest_pp', note=L["single_chest"]})
-local EMPTR3 = EMPChest({quest=57625, icon='chest_lm', note=L["in_water"]..' '..L["single_chest"]})
-local EMPTR4 = EMPChest({quest=57626, icon='chest_bk'})
-local EMPTR5 = EMPChest({quest=57627, icon='chest_yw'})
-local EMPTR6 = EMPChest({quest=57635, icon='chest_tl'})
+local EMPTR3 = EMPChest({quest=57625, icon='chest_gn', note=L["in_water"]..' '..L["single_chest"]})
+local EMPTR4 = EMPChest({quest=57626, icon='chest_yw'})
+local EMPTR5 = EMPChest({quest=57627, icon='chest_bl'})
+local EMPTR6 = EMPChest({quest=57635, icon='chest_rd'})
 
 -- quest=57623
 map.nodes[58361535] = EMPTR1
@@ -721,12 +721,12 @@ local AMAChest = Class('AMAChest', Treasure, {
     label=L["amathet_cache"]
 })
 
-local AMATR1 = AMAChest({quest=55689, icon='chest_bl'})
+local AMATR1 = AMAChest({quest=55689, icon='chest_rd'})
 local AMATR2 = AMAChest({quest=55690, icon='chest_pp'})
-local AMATR3 = AMAChest({quest=55691, icon='chest_bk'})
+local AMATR3 = AMAChest({quest=55691, icon='chest_bl'})
 local AMATR4 = AMAChest({quest=55698, icon='chest_yw'})
-local AMATR5 = AMAChest({quest=55699, icon='chest_tl'})
-local AMATR6 = AMAChest({quest=55700, icon='chest_lm', fgroup='amachest6'})
+local AMATR5 = AMAChest({quest=55699, icon='chest_gn'})
+local AMATR6 = AMAChest({quest=55700, icon='chest_pk', fgroup='amachest6'})
 
 -- quest=55689
 map.nodes[78265073] = AMATR1

@@ -507,16 +507,16 @@ MechChest.rewards = {
     Item({item=169850, weekly=57133}) -- Azeroth Mini Pack: Mechagon
 }
 
-local TREASURE1 = MechChest({quest=55547, icon='chest_bl'})
-local TREASURE2 = MechChest({quest=55548, icon='chest_bn'})
-local TREASURE3 = MechChest({quest=55549, icon='chest_bk'})
-local TREASURE4 = MechChest({quest=55550, icon='chest_yw'})
-local TREASURE5 = MechChest({quest=55551, icon='chest_gn', future=1})
-local TREASURE6 = MechChest({quest=55552, icon='chest_lm'})
-local TREASURE7 = MechChest({quest=55553, icon='chest_rd'})
-local TREASURE8 = MechChest({quest=55554, icon='chest_pp'})
-local TREASURE9 = MechChest({quest=55555, icon='chest_tl'})
-local TREASURE10 = MechChest({quest=55556, icon='chest_pk'})
+local TREASURE1 = MechChest({quest=55547, icon='chest_yw'})
+local TREASURE2 = MechChest({quest=55548, icon='chest_bl'})
+local TREASURE3 = MechChest({quest=55549, icon='chest_nv'})
+local TREASURE4 = MechChest({quest=55550, icon='chest_tl'})
+local TREASURE5 = MechChest({quest=55551, icon='chest_bk', future=1})
+local TREASURE6 = MechChest({quest=55552, icon='chest_pp'})
+local TREASURE7 = MechChest({quest=55553, icon='chest_gn'})
+local TREASURE8 = MechChest({quest=55554, icon='chest_pk'})
+local TREASURE9 = MechChest({quest=55555, icon='chest_lm'})
+local TREASURE10 = MechChest({quest=55556, icon='chest_rd'})
 
 -- object 325659
 map.nodes[43304977] = TREASURE1
@@ -548,12 +548,12 @@ map.nodes[61583230] = TREASURE5
 map.nodes[64365961] = TREASURE5
 map.nodes[70654796] = TREASURE5
 -- object 325664
-map.nodes[66432227] = TREASURE6
-map.nodes[64092627] = TREASURE6
+map.nodes[50662858] = TREASURE6
+map.nodes[55612404] = TREASURE6
 map.nodes[56782918] = TREASURE6
 map.nodes[57142283] = TREASURE6
-map.nodes[55612404] = TREASURE6
-map.nodes[50662858] = TREASURE6
+map.nodes[64092627] = TREASURE6
+map.nodes[66432227] = TREASURE6
 -- object 325665
 map.nodes[67322289] = TREASURE7
 map.nodes[80691868] = TREASURE7
@@ -572,10 +572,10 @@ map.nodes[76516601] = TREASURE9
 map.nodes[81167231] = TREASURE9
 map.nodes[85166335] = TREASURE9
 -- object 325668
-map.nodes[24796526] = TREASURE10
+map.nodes[12088568] = TREASURE10
 map.nodes[20537696] = TREASURE10
 map.nodes[21788303] = TREASURE10
-map.nodes[12088568] = TREASURE10
+map.nodes[24796526] = TREASURE10
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
