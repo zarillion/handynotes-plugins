@@ -713,6 +713,6 @@ L["options_icons_supplies_desc"] = "显示全部可能出现战争补给箱的�
 L["options_icons_supplies"] = "战争补给箱"
 
 L["secret_supply_chest"] = "秘密补给箱"
-L["secret_supply_chest_note"] = "当阵营入侵激活时，秘密补给箱可能短时间出现在这些位置之一。"
+L["secret_supply_chest_note"] = "当阵营入侵激活时，"..ns.color.Yellow("秘密补给箱").." 可能短时间出现在这些位置之一。"
 L["options_icons_secret_supplies"] = "秘密补给箱"
-L["options_icons_secret_supplies_desc"] = "显示 {achievement:13317} 成就中秘密补给箱的位置。"
+L["options_icons_secret_supplies_desc"] = "显示 {achievement:13317} 成就中 "..ns.color.Yellow("秘密补给箱").." 的位置。"
