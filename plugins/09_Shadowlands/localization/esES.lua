@@ -27,7 +27,7 @@ L["options_icons_ven_network"] = "Espejos de Sangre"
 
 L["deifir_note"] = "Monta en {npc=164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente."
 L["faeflayer_note"] = "En una cueva pequeña oculta tras una cascada."
-L["humongozz_note"] = "Planta un {item:175247} en la Tierra Húmeda para hacer aparecer un {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. El champiñón cae de muchos enemigos de la zona."--Revisar (NO DATABLE) que Damp Loam sea Tierra Húmeda
+L["humongozz_note"] = "Planta un {item:175247} en la Marga Húmeda para hacer aparecer un {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. El champiñón cae de muchos enemigos de la zona."
 L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas)."
 L["rainbowhorn_note"] = "\n|cffff4800¡|r|cffff9100P|r|cffffda00r|r|cffdaff00u|r|cff91ff00e|r|cff48ff00b|r|cff00ff00a|r |cff00ff91e|r|cff00ffdal|r |cff0091ffA|r|cff0048ffr|r|cff0000ffc|r|cff4800ffo|r |cffda00ffI|r|cffff00dar|r|cffff0091i|r|cffff0048s|r|cffff0000!|r"
 L["rootwrithe_note"] = "Haz click en las {npc:167928} hasta que aparezca el {npc=167726}."
@@ -73,10 +73,10 @@ Encuentra y usa la emoción correcta en el {npc:171206} cinco veces para consegu
 
 L["tame_gladerunner"] = "Asaltaclaros domesticado"
 L["tame_gladerunner_note"] = [[
-Lee la "Historia de una Confusión" y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
+Lee la "Historia del enredo" y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
 
-Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo el "Cuento de una Confusión" antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
-]]--Revisar (NODATABLE) que "Tale of the Tangle" sea "Historia de una Confusión"
+Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo el "Historia del enredo" antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -93,7 +93,7 @@ Habla con la {npc:161441} para invocar una de las cuatro bestias.
 ]]
 L["bookkeeper_mnemis_note"] = "Tiene la posibilidad de aparecer en lugar de las {npc:166867} del sitio."
 L["cloudfeather_patriarch_note"] = "Mata {npc:158110} en el aŕea hasta que aparezca el {npc:170932}."
-L["collector_astor_note"] = "Lee los seis capítulos del Legado de Mercia dispersos por la habitación y recibirás un susurro del {npc:157979}. Habla con ella para recibir {spell:333779} la cual te permitirá encontrar {item:180569} al noroeste. Al devolvérselo, aparecerá el {npc:171014}."--Revisar (NODATABLE) que Mercia's Legacy sea Legado de Mercia
+L["collector_astor_note"] = "Lee los seis capítulos de El Legado de Mercia dispersos por la habitación y recibirás un susurro del {npc:157979}. Habla con ella para recibir {spell:333779} la cual te permitirá encontrar {item:180569} al noroeste. Al devolvérselo, aparecerá el {npc:171014}."
 L["corrupted_clawguard_note"] = "Despoja un {item:180651} en Avanzada Forjafuego subiendo la colina y úsalo para reparar el {npc:171300}."
 L["dark_watcher_note"] = "Sólo puede verse estando muerto. Habla con la {npc:170623} y te lanzará {spell:332830} antes de que seas atacado."
 L["demi_hoarder_note"] = "Comienza con 99 acumulaciones de {spell:333874}, reduciendo el daño recibido. Las acumulaciones bajan lentamente con el daño. {npc:171011} seguirá una ruta. Desaparecerá si alcanza el final."
@@ -290,7 +290,7 @@ L["options_icons_slime_cat_desc"] = "Muestra las localizaciones de los gatitos p
 
 L["exoramas"] = "Exoramas, Casa de los Rituales"
 L["nurakkir"] = "Nurakkir, Casa de los Ojos"
-L["overlook_primus"] = "Overlook, Trono del Prelado"--Overlook, ¿tendrá traducción?
+L["overlook_primus"] = "Mirador, Trono del Prelado"
 L["zerekriss"] = "Zerekriss, Maldraxxus"
 L["zerekriss_note"] = "Una vez activada, la necrópolis volará alrededor de la zona. Agárrate de {npc:165822} para planear hacia el suelo."
 
@@ -322,10 +322,10 @@ L["sire_ladinas_note"] = "Coge un Remanente de la Luz cercano y usa {spell:31306
 L["soulstalker_doina_note"] = "Sigue a la {npc:160392} cuando se escape escaleras abajo y dentro del espejo esquivando trampas."
 L["tomb_burster_note"] = "Puede aparecer si {npc:155777} queda atrapado en una telaraña. Mata los {npc:155769} cercanos y a las oleadas de {npc:155795} que comenzarán a salir hasta que aparezca la {npc:155779}."
 L["worldedge_gorger_note"] = [[
-Consigue una {item:173939} de los Saqueadores del Mundo, Devoradores y Ácaros en el Bosque de la Desgracia y en el Cenagal del Fin. Úsala para encender los Blandones del Fin del Mundo e invocar al {npc:160821}.
+Consigue una {item:173939} de los Saqueadores del Mundo, Engullidores y Ácaros en el Bosque de la Desgracia y en el Cenagal del Fin. Úsala para encender los Blandones del Fin del Mundo e invocar al {npc:160821}.
 
 Tiene probabilidades de soltar un {item:180583}, el cual empieza una cadena de misiones de 7 días para conseguir la montura {spell:333027}.
-]]--Revisar (NODATABLE) que World Reavers sea Saqueadores del Mundo
+]]
 
 L["dredglaive_note"] = "Debajo del puente en el cuerpo de un {npc:173671}."
 L["forbidden_chamber_note"] = "Despoja un Bote de Ánima Agotado enfrente de la puerta cerrada y aprende {spell:340701}. Úsalo para drenar a cinco {npc:173838} en las cercanías. Después usa {spell:340866} enfrente del {npc:173786}."
@@ -333,7 +333,7 @@ L["gilded_plum_chest_note"] = "Mata al {npc:166680} que deambula por el camino a
 L["lost_quill_note"] = "Despoja una {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida."
 L["rapier_fearless_note"] = "Haz click en el estoque del suelo, y entonces derrota a {npc:173603}."
 L["remlates_cache_note"] = "En la pared exterior de Refugioscuro detrás de la cripta."
-L["taskmaster_trove_note"] = "Lee el Ritual de Ingreso y el Ritual de Salida. Después sigue el camino al cofre con cuidado."--Revisar (NODATABLE) que Ingress Rite sea Ritual de Ingreso, (NODATABLE) que Egress Rite sea Ritual de Salida
+L["taskmaster_trove_note"] = "Lee Ritos de Acceso y Salida. Después sigue el camino al cofre con cuidado."
 L["the_count_note"] = "Farmea 99 {currency:1820} en el Cenagal del Fin y llévaselos a {npc:173488}."
 
 L["bleakwood_chest"] = "Cofre de Leñogrís"
