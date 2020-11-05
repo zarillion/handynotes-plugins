@@ -8,9 +8,9 @@ local Class = ns.Class
 local Map = ns.VisionsMap
 local Clone = ns.Clone
 
+local Coffer = ns.node.Coffer
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
-local Supply = ns.node.Supply
 local TimedEvent = ns.node.TimedEvent
 local Treasure = ns.node.Treasure
 
@@ -455,10 +455,9 @@ map.nodes[19975976] = MANTR5
 map.nodes[21506269] = MANTR5
 map.nodes[21636992] = MANTR5
 
-map.nodes[21586246] = Supply({
+map.nodes[21586246] = Coffer({
     quest=58770,
     assault=MAN,
-    group=ns.groups.COFFERS,
     label=L["ambered_coffer"],
     requires=ns.requirement.Item(174766)
 })
@@ -526,10 +525,9 @@ map.nodes[33876683] = MOGTR6
 map.nodes[37666584] = MOGTR6
 map.nodes[38417028] = MOGTR6
 
-local MOGCOFF = Supply({
+local MOGCOFF = Coffer({
     quest=57214,
     assault=MOG,
-    group=ns.groups.COFFERS,
     fgroup='mogcoffer',
     label=L["mogu_strongbox"],
     requires=ns.requirement.Item(174767)
@@ -613,10 +611,9 @@ map.nodes[48476579] = EMPTR6
 map.nodes[51136323] = EMPTR6
 map.nodes[52266732] = EMPTR6
 
-local EMPCOFF = Supply({
+local EMPCOFF = Coffer({
     quest=57628,
     assault=EMP,
-    group=ns.groups.COFFERS,
     fgroup='empcoffer',
     label=L["black_empire_coffer"],
     requires=ns.requirement.Item(174768)

@@ -8,10 +8,10 @@ local Class = ns.Class
 local Map = ns.VisionsMap
 local Clone = ns.Clone
 
+local Coffer = ns.node.Coffer
 local Collectible = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
-local Supply = ns.node.Supply
 local TimedEvent = ns.node.TimedEvent
 local Treasure = ns.node.Treasure
 
@@ -627,10 +627,9 @@ map.nodes[36871616] = AQRTR5
 map.nodes[41592264] = Clone(AQRTR5, {note=L["chamber_of_the_moon"]})
 map.nodes[45561320] = AQRTR5
 
-map.nodes[36252324] = Supply({
+map.nodes[36252324] = Coffer({
     quest=58137,
     assault=AQR,
-    group=ns.groups.COFFERS,
     label=L["infested_strongbox"],
     note=L["chamber_of_the_moon"],
     requires=ns.requirement.Item(174761)
@@ -703,10 +702,9 @@ map.nodes[52197757] = EMPTR6
 map.nodes[55397860] = EMPTR6
 map.nodes[55658346] = EMPTR6
 
-local EMPCOFF = Supply({
+local EMPCOFF = Coffer({
     quest=57628,
     assault=EMP,
-    group=ns.groups.COFFERS,
     label=L["black_empire_coffer"],
     requires=ns.requirement.Item(174768)
 })
@@ -793,10 +791,9 @@ map.nodes[67172800] = Clone(AMATR6, {note=L["chamber_of_the_stars"]})
 map.nodes[68222051] = AMATR6
 map.nodes[68933234] = AMATR6
 
-local AMACOFF = Supply({
+local AMACOFF = Coffer({
     quest=55692,
     assault=AMA,
-    group=ns.groups.COFFERS,
     fgroup='amacoffer',
     label=L["amathet_reliquary"],
     requires=ns.requirement.Item(174765)

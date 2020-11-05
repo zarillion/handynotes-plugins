@@ -135,6 +135,12 @@ ns.node.SecretSupply = Class('SecretSupply', ns.node.Supply, {
     note = L["secret_supply_chest_note"]
 })
 
+ns.node.Coffer = Class('Coffer', Node, {
+    icon = 'star_chest_g',
+    scale = 1.5,
+    group = ns.groups.COFFERS
+})
+
 -------------------------------------------------------------------------------
 ----------------------------- VISIONS ASSAULT MAP -----------------------------
 -------------------------------------------------------------------------------
