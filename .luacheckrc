@@ -106,7 +106,10 @@ read_globals = {
 
 globals = {
     'HandyNotes.OnDisable',
-    'HandyNotes.OnEnable'
+    'HandyNotes.OnEnable',
+    'SLASH_MOUNTID1',
+    'SLASH_PETID1',
+    'SlashCmdList'
 }
 
 files["tests/test_class.lua"] = {

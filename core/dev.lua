@@ -141,36 +141,25 @@ local function BootstrapDevelopmentEnvironment()
 
     -- Slash commands
     SLASH_PETID1 = "/petid"
-    SlashCmdList["PETID"] = function(msg)
-    local _, _, arg = string.find(msg, "(.*)")
-    if arg ~= "" then
-        local petid = C_PetJournal.FindPetIDByName(arg)
-        if arg and petid then
-            print(arg..": "..petid)
+    SlashCmdList["PETID"] = function(name)
+        if #name == 0 then return print('Usage: /petid NAME') end
+        local petid = C_PetJournal.FindPetIDByName(name)
+        if petid then
+            print(name..": "..petid)
         else
-            print("NO MATCH FOR: /petid "..arg)
+            print("NO MATCH FOR: /petid "..name)
         end
-    else
-        print("please enter a PETNAME i.e. /petid Pengu")
-    end
     end
 
     SLASH_MOUNTID1 = "/mountid"
-    SlashCmdList["MOUNTID"] = function(msg)
-    local _, _, arg = string.find(msg, "(.*)")
-    function GetMountID()
-        if arg ~= "" then
-            for i,m in ipairs(C_MountJournal.GetMountIDs()) do
-                if (C_MountJournal.GetMountInfoByID(m) == arg) then
-                    return arg..": "..m
-                end
+    SlashCmdList["MOUNTID"] = function(name)
+        if #name == 0 then return print('Usage: /mountid NAME') end
+        for i, m in ipairs(C_MountJournal.GetMountIDs()) do
+            if (C_MountJournal.GetMountInfoByID(m) == name) then
+                return print(name..": "..m)
             end
-        else
-            return "please enter a MOUNTNAME i.e. /mountid Invincible"
         end
-        return "NO MATCH FOR: /mountid "..arg
-    end
-        print(GetMountID())
+        print("NO MATCH FOR: /mountid "..name)
     end
 
 end
