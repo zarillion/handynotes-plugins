@@ -550,7 +550,7 @@ local EMPChest = Class('EMPChest', Treasure, {
 })
 
 local EMPTR1 = EMPChest({quest=57197, icon='chest_rd'})
-local EMPTR2 = EMPChest({quest=57199, icon='chest_yw', note=L["pools_of_power"], parent=map.id})
+local EMPTR2 = EMPChest({quest=57199, icon='chest_yw', note=L["pools_of_power"], fgroup='empchest2', parent=map.id})
 local EMPTR3 = EMPChest({quest=57200, icon='chest_gn'})
 local EMPTR4 = EMPChest({quest=57201, icon='chest_bl'})
 local EMPTR5 = EMPChest({quest=57202, icon='chest_pp', note=L["big_blossom_mine"]})

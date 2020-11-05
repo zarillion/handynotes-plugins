@@ -99,10 +99,10 @@ function Map:HasEnabledGroups()
 end
 
 function Map:HasPOIs(node)
-    if node.pois ~= nil then return true end
+    if type(node.pois) == 'table' then return true end
     if node.fgroup then
         for i, coord in ipairs(self.fgroups[node.fgroup]) do
-            if self.nodes[coord].pois ~= nil then return true end
+            if type(self.nodes[coord].pois) == 'table' then return true end
         end
     end
     return false

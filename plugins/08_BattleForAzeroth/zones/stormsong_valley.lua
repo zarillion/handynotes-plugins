@@ -553,7 +553,7 @@ local SECRET_CHEST = ns.node.SecretSupply({
     rewards = {
         Achievement({id=13317, criteria=43933})
     }
-})
+}) -- quest = 54716 (looted ever) 55388 (looted today)
 
 map.nodes[40206250] = SECRET_CHEST
 map.nodes[43104690] = SECRET_CHEST
