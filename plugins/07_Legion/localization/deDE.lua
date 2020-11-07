@@ -36,6 +36,18 @@ L["treasure_42339"] = "Weck die Bären nicht auf."
 L["nightwatcher_merayl_note"] = nil
 
 -------------------------------------------------------------------------------
+---------------------------------- DALARAN ------------------------------------
+-------------------------------------------------------------------------------
+
+L["sheddles_chest"] = "Gussis Truhe"
+L["shoe_shine_kit_note"] = "Die Kiste erscheint nur von Samstag auf Sonntag um Mitternacht (CET Serverzeit)"
+
+L["sir_galveston_note"] = nil
+L["amalia_note"] = nil
+L["tiffany_nelson_note"] = nil
+L["Bohdi_sunwayver_note"] = nil
+
+-------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 

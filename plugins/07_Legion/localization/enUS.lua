@@ -36,6 +36,21 @@ L["treasure_42339"] = "Don't wake up the bears."
 L["nightwatcher_merayl_note"] = nil
 
 -------------------------------------------------------------------------------
+---------------------------------- DALARAN ------------------------------------
+-------------------------------------------------------------------------------
+
+L["sheddles_chest"] = "Sheddle's Chest"
+L["shoe_shine_kit_note"] = [[
+EU: The chest appears Saturday night to Sunday morning at midnight CET (Server Time)
+US: The chest appears Saturday night to Sunday morning at midnight PST
+]]
+
+L["sir_galveston_note"] = nil
+L["amalia_note"] = nil
+L["tiffany_nelson_note"] = nil
+L["Bohdi_sunwayver_note"] = nil
+
+-------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 

@@ -2,6 +2,7 @@
   <Script file="common.lua"/>
   <Script file="zones\azsuna.lua"/>
   <Script file="zones\broken_shore.lua"/>
+  <Script file="zones\dalaran.lua"/>
   <Script file="zones\highmountain.lua"/>
   <Script file="zones\stormheim.lua"/>
   <Script file="zones\suramar.lua"/>
