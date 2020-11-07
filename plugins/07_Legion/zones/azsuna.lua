@@ -22,6 +22,8 @@ local Path = ns.poi.Path
 -------------------------------------------------------------------------------
 
 local map = Map({ id=630, settings=true })
+local nar = Map({ id=631 })
+local cove = Map({ id=632 })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -354,7 +356,7 @@ map.nodes[49105520] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- 43 / 49 Treasures ( 6 Missing, criteriatree id = 53746 )
+-- 46 / 49 Treasures ( 3 Missing, criteriatree id = 53746 )
 
 local Treasure = Class('Treasure', Treasure, {
     label=L["small_treasure_chest"],
@@ -366,6 +368,13 @@ local Treasure = Class('Treasure', Treasure, {
 })
 
 map.nodes[53033726] = Treasure({quest=37596})
+
+cove.nodes[69294839] = Treasure({
+    quest=37649,
+    label=L["glimmering_treasure_chest"],
+    note=L["in_oceanus_cove"],
+    parent={ id=map.id, pois={ POI({50725877, 49025877, 45945522, 47835075})} }
+})
 
 map.nodes[44473946] = Treasure({
     quest=37713,
@@ -430,6 +439,7 @@ map.nodes[55621855] = Treasure({
     label=L["treasure_chest"],
     note=L["treasure_40711"]
 })
+
 map.nodes[66064345] = Treasure({quest=40751})
 map.nodes[58645340] = Treasure({quest=40752})
 map.nodes[59876316] = Treasure({quest=42272})
@@ -445,9 +455,15 @@ map.nodes[52004210] = Treasure({quest=42281})
 map.nodes[53684396] = Treasure({quest=42282, note=L["treasure_42282"]})
 map.nodes[53504545] = Treasure({quest=42283, note=L["treasure_42283"]})
 
-Map({id=631}).nodes[61968380] = Treasure({
+nar.nodes[61968380] = Treasure({
     quest=42284,
-    note=L["treasure_42284"],
+    note=L["in_academy"],
+    parent={ id=map.id, pois={ POI({53794043})} }
+})
+
+nar.nodes[71802155] = Treasure({
+    quest=42285,
+    note=L["in_academy"], -- quest progress
     parent={ id=map.id, pois={ POI({53794043})} }
 })
 
@@ -469,6 +485,12 @@ map.nodes[50215029] = Treasure({
     pois={
         POI({50094879})
     }
+})
+
+cove.nodes[45346686] = Treasure({
+    quest=42291,
+    note=L["in_oceanus_cove"],
+    parent={ id=map.id, pois={ POI({50725877, 49025877, 45945522, 47835075})} }
 })
 
 map.nodes[41393075] = Treasure({

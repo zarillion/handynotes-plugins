@@ -21,7 +21,8 @@ L["infernal_lord_note"] = "Klick den Höllenbestienvorrat an und töte {npc:9079
 L["inquisitor_tivos_note"] = "Verwende das Legions Portal. Er ist auf der unteren Ebene."
 
 L["disputed_treasure"] = "Umkämpfter Schatz"
-L["glimmering_treasure_chest"] = "Glitzernde Schatztruhe"
+L["in_academy"] = "In der Akademie von Nar'thalas."
+L["in_oceanus_cove"] = "In der Ozeanus' Bucht."
 L["seemingly_unguarded_treasure"] = "Scheinbar unbehüteter Schatz"
 L["seemingly_unguarded_treasure_note"] = "Versuche den Schatz zu plündern und töte dann ein paar Wellen von {npc:94167}."
 L["treasure_37958"] = "Im Keller des Gebäudes."
@@ -29,7 +30,6 @@ L["treasure_37980"] = "Verwende das Ley Portal auf der zerstörten Brücke, um z
 L["treasure_40711"] = "Verwende das Ley Portal im Turm, um zum Schatz zu gelangen."
 L["treasure_42282"] = "Auf dem Balkon in einer Ecke."
 L["treasure_42283"] = "In der zweiten Etage."
-L["treasure_42284"] = "In der Akademie."
 L["treasure_42287"] = "Unter Wasser."
 L["treasure_42339"] = "Weck die Bären nicht auf."
 

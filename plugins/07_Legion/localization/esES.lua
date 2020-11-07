@@ -23,7 +23,8 @@ L["infernal_lord_note"] = "Haz click en el Alijo de Infernales y mata {npc:90797
 L["inquisitor_tivos_note"] = "Usa el Portal de la Legión. Está en el piso inferior."
 
 L["disputed_treasure"] = "Tesoro Disputado"
-L["glimmering_treasure_chest"] = "Cofre del Tesoro Reluciente"
+L["in_academy"] = "Dentro de la Academia."
+L["in_oceanus_cove"] = nil
 L["seemingly_unguarded_treasure"] = "Tesoro Aparentemente sin Vigilancia"
 L["seemingly_unguarded_treasure_note"] = "Intenta despojar el tesoro y entonces matar algunas oleadas de {npc:94167}."
 L["treasure_37958"] = "En un nivel inferior del edificio."
@@ -31,7 +32,6 @@ L["treasure_37980"] = "Usa el Portal Ley en el puente roto."
 L["treasure_40711"] = "Usa el Portal Ley dentro de la torre."
 L["treasure_42282"] = "Detrás de un pilar en una esquina."
 L["treasure_42283"] = "En el segundo piso."
-L["treasure_42284"] = "Dentro de la Academia."
 L["treasure_42287"] = "Bajo el agua."
 L["treasure_42339"] = "No despiertes a los osos."
 
