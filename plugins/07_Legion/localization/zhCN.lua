@@ -48,9 +48,46 @@ L["tiffany_nelson_note"] = nil
 L["Bohdi_sunwayver_note"] = nil
 
 -------------------------------------------------------------------------------
+--------------------------------- VAL'SHARA -----------------------------------
+-------------------------------------------------------------------------------
+
+L["anthydas_note"] = nil
+L["elandris_note"] = nil
+L["gathenak_note"] = nil
+L["gorebeak_note"] = nil
+L["jinikki_note"] = nil
+L["kiranys_note"] = nil
+L["mad_henryk_note"] = nil
+L["skulvrax_note"] = nil
+L["theryssia_note"] = nil
+L["unguarded_thistleleaf_treasure"] = nil
+
+L["in_darkpens"] = nil
+L["treasure_38366"] = nil
+L["treasure_38386"] = nil
+L["treasure_38387"] = nil
+L["treasure_38391"] = nil
+L["treasure_38943"] = nil
+L["treasure_39069"] = nil
+L["treasure_39074"] = nil
+L["treasure_39080"] = nil
+L["treasure_39083"] = nil
+L["treasure_39088"] = nil
+L["treasure_39093"] = nil
+
+L["grumpy_note"] = nil
+
+L["xorvasc_note"] = nil
+L["durian_strongfruit_note"] = nil
+
+-------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
+L["in_house"] = nil
+L["in_small_cottage"] = nil
+
+L["glimmering_treasure_chest"] = "闪闪发光的宝箱"
 L["small_treasure_chest"] = "小宝箱"
 L["treasure_chest"] = "宝箱"
 L["treasures_discovered"] = "已发现宝箱"

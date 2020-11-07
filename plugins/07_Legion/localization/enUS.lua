@@ -51,9 +51,46 @@ L["tiffany_nelson_note"] = nil
 L["Bohdi_sunwayver_note"] = nil
 
 -------------------------------------------------------------------------------
+--------------------------------- VAL'SHARA -----------------------------------
+-------------------------------------------------------------------------------
+
+L["anthydas_note"] = "Plündere die Schatztruhe im zweiten Stock des Gebäudes neben der Spüle."
+L["elandris_note"] = "When the legion invasion world quest {wq:The Vale of Dead} is active, he isn't available."
+L["gathenak_note"] = "Speak with {npc:112472}."
+L["gorebeak_note"] = "Speak with {npc:92111}."
+L["jinikki_note"] = "Speak with {npc:93677} and kill {npc:93684} until the rare appears."
+L["kiranys_note"] = "Click the vibrating arcane trap."
+L["mad_henryk_note"] = "Step into the {npc:109602}."
+L["skulvrax_note"] = "Resuscitate {npc:92334} and follow her."
+L["theryssia_note"] = "Read {npc:94194s} nameplate on the gravestone."
+L["unguarded_thistleleaf_treasure"] = "Unguarded Thistleleaf Treasure"
+
+L["in_darkpens"] = "Inside the Darkpens."
+L["treasure_38366"] = "Under the tree roots."
+L["treasure_38386"] = "On the balcony on the second floor."
+L["treasure_38387"] = "In an small cave under the inn. The entrance is behind the building."
+L["treasure_38391"] = "Hidden behind a tree."
+L["treasure_38943"] = "Go up the right stairs."
+L["treasure_39069"] = "On the second floor balcony."
+L["treasure_39074"] = "Under the tree."
+L["treasure_39080"] = "In the basement. You need to start a questline. Started with the quest {quest:38643} by {npc:92688} followed from {quest:38644} by {npc:92683}."
+L["treasure_39083"] = "Hidden in a tree."
+L["treasure_39088"] = "Hidden in the lake between some roots."
+L["treasure_39093"] = "On the river under the roots."
+
+L["grumpy_note"] = "Upstairs in the burning building."
+
+L["xorvasc_note"] = nil
+L["durian_strongfruit_note"] = nil
+
+-------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
+L["in_house"] = "Inside the house."
+L["in_small_cottage"] = "In a small cottage."
+
+L["glimmering_treasure_chest"] = "Glimmering Treasure Chest"
 L["small_treasure_chest"] = "Small Treasure Chest"
 L["treasure_chest"] = "Treasure Chest"
 L["treasures_discovered"] = "treasures discovered"
