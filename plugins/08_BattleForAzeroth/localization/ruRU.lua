@@ -6,7 +6,7 @@ if not L then return end
 ----------------------------------- DRUSTVAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L["ancient_sarco_note"] = nil
+L["ancient_sarco_note"] = "Откройте Древний саркофаг, чтобы вызвать волны {npc:128181}."
 L["beshol_note"] = "Откройте Совершенно безопасный сундук, чтобы вызвать монстра."
 L["cottontail_matron_note"] = "Используйте Ритуальный череп животного, чтобы призвать монстра."
 L["gluttonous_yeti_note"] = "Этот {npc:127979} обречен ..."
@@ -29,26 +29,29 @@ L["runebound_cache_note"] = runebound.."Лево -> Низ -> Вверх -> Пр
 L["runebound_chest_note"] = runebound.."Лево -> Право -> Низ -> Вверх"
 L["runebound_coffer_note"] = runebound.."Право -> Вверх -> Лево -> Низ"
 
+-- NOTE: These quotes (and for trainers in other zones) were taken from the quotes
+-- for this NPC on Wowhead. If no quotes were listed, I started a battle with the NPC
+-- and jotted down the opening line. Adds a little flavor to the tooltips.
 L["captain_hermes_note"] = "Да уж! Ракообразная сила!"
 L["dilbert_mcclint_note"] = "Эй там, меня зовут {npc:140461}, эколог. Всегда приятно сразиться с таким же энтузиастом арахноидов."
 L["fizzie_spark_note"] = "Вы думаете, что у ваших питомцев есть шанс против моей команды, наполненной Азеритом? Вы хотите!"
 L["michael_skarn_note"] = "Просто помни, когда мы начнем эту битву, ты сам напросился на это."
 
-L["drust_facts_note"] = nil
-L["stele_forest_note"] = nil
-L["options_icons_drust_facts_desc"] = nil
-L["options_icons_drust_facts"] = nil
+L["drust_facts_note"] = "Прочтите все стелы, чтобы получить достижение."
+L["stele_forest_note"] = "Внутри берлоги Ульфара."
+L["options_icons_drust_facts_desc"] = "Отображение местоположения стел для достижения {achievement:13064}."
+L["options_icons_drust_facts"] = "{achievement:13064}"
 
-L["embers_crossbow_note"] = nil
-L["embers_flask_note"] = nil
-L["embers_hat_note"] = nil
-L["embers_knife_note"] = nil
-L["embers_golvar_note"] = nil
-L["golvar_ruins"] = nil
-L["options_icons_ember_relics_desc"] = nil
-L["options_icons_ember_relics"] = nil
+L["embers_crossbow_note"] = "Найдите {item:163749} на земле между двумя деревьями и верните его в руины Гол Вара."
+L["embers_flask_note"] = "Отыщите {item:163746} в воде между двумя камнями, затем верните его в руины Гол Вара."
+L["embers_hat_note"] = "Возьмите {item:163748} из кучи костей и верните его в руины Гол Вара."
+L["embers_knife_note"] = "Вытащите {item:163747} из ствола дерева и верните его в руины Гол Вара."
+L["embers_golvar_note"] = "Верните каждую реликвию в руины Гол Вара, чтобы завершить достижение."
+L["golvar_ruins"] = "Руины Гол Вараr"
+L["options_icons_ember_relics_desc"] = "Показать расположение реликвий для достижения {achievement:13082}."
+L["options_icons_ember_relics"] = "{achievement:13082}"
 
-L["linda_deepwater_note"] = nil
+L["linda_deepwater_note"] = "Чтобы получить доступ, вы должны выполнить цепочку заданий у {npc:136458} за пределами Порта-Которого-Нет."
 
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
@@ -190,19 +193,19 @@ L["sfire"] = "Маленький Огонь"
 L["gfire"] = "Большой Огонь"
 L["searth"] = "Маленькая Земля"
 L["gearth"] = "Большая Земля"
-L["Arcane"] = nil
-L["Watery"] = nil
-L["Burning"] = nil
-L["Dusty"] = nil
-L["Zomera"] = nil
-L["Omus"] = nil
-L["Osgen"] = nil
-L["Moghiea"] = nil
-L["Xue"] = nil
-L["Ungormath"] = nil
-L["Spawn"] = nil
-L["Herald"] = nil
-L["Salgos"] = nil
+L["Arcane"] = "Аркана
+L["Watery"] = "Вода"
+L["Burning"] = "Огонь"
+L["Dusty"] = "Земля
+L["Zomera"] = "Зомера"
+L["Omus"] = "Омус"
+L["Osgen"] = "Осген"
+L["Moghiea"] = "Могея"
+L["Xue"] = "Сюй"
+L["Ungormath"] = "Унгормат"
+L["Spawn"] = "Порождение Салгоса"
+L["Herald"] = "Глашатай Салгоса"
+L["Salgos"] = "Салгос Вечный"
 L["tentacle_taco"] = "Продает {item:170100} если вы носите бентосный Плащ азш'ари - призывательницы бурь."
 
 L["options_icons_slimes_nazj"] = "Прожорливый слизнюк"
