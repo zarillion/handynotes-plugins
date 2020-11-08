@@ -72,9 +72,10 @@ map.nodes[43200760] = PetBattle({
     }
 }) -- Lil'idan
 
-map.nodes[44602260] = PetBattle({
+Map({id=659}).nodes[47744458] = PetBattle({
     id=104553,
-    note=L["general_pet_tamer_note"].."\n\n"..L["odrogg_note"],
+    note=format("%s\n\n%s\n%s", L["general_pet_tamer_note"], L["in_cave"], L["odrogg_note"]),
+    parent={ id=map.id, pois={ POI({42572533}) } },
     rewards={
         Achievement({id=10876, criteria=31535}),
         ns.reward.Spacer(),

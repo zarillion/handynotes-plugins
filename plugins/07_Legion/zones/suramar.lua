@@ -18,9 +18,10 @@ local map = Map({ id=680, settings=true })
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[53908610] = PetBattle({
+Map({id=687}).nodes[53908610] = PetBattle({
     id=105323,
     note=L["general_pet_tamer_note"],
+    parent={ id=map.id },
     rewards={
         Achievement({id=10876, criteria=31544})
     }
