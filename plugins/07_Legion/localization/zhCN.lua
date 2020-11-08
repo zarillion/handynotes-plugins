@@ -21,8 +21,8 @@ L["infernal_lord_note"] = "点击地狱火宝箱并击杀 {npc:90797} 直到稀�
 L["inquisitor_tivos_note"] = "使用军团传送门。他在下层。"
 
 L["disputed_treasure"] = "有争议的宝藏"
-L["in_academy"] = "学院内。"
-L["in_oceanus_cove"] = nil
+L["in_academy"] = "纳萨拉斯学院内。"
+L["in_oceanus_cove"] = "欧逊努斯海窟内。"
 L["seemingly_unguarded_treasure"] = "看似无人看守的宝藏"
 L["seemingly_unguarded_treasure_note"] = "尝试拾取宝藏并击杀随后出现的数波 {npc:94167}。"
 L["treasure_37958"] = "位于建筑物下层。"
@@ -40,7 +40,11 @@ L["nightwatcher_merayl_note"] = nil
 -------------------------------------------------------------------------------
 
 L["sheddles_chest"] = "西德尔的箱子"
-L["shoe_shine_kit_note"] = nil
+L["shoe_shine_kit_note"] = [[
+国服：箱子会在周六晚上到周日早上的午夜零时出现。中国标准时间
+美服：箱子会在周六晚上到周日早上的午夜零时出现。太平洋标准时间
+欧服：箱子会在周六晚上到周日早上的午夜零时出现。欧洲中部时间（服务器时间）
+]]
 
 L["sir_galveston_note"] = nil
 L["amalia_note"] = nil
@@ -51,31 +55,31 @@ L["Bohdi_sunwayver_note"] = nil
 --------------------------------- VAL'SHARA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["anthydas_note"] = nil
-L["elandris_note"] = nil
-L["gathenak_note"] = nil
-L["gorebeak_note"] = nil
-L["jinikki_note"] = nil
-L["kiranys_note"] = nil
-L["mad_henryk_note"] = nil
-L["skulvrax_note"] = nil
-L["theryssia_note"] = nil
-L["unguarded_thistleleaf_treasure"] = nil
+L["anthydas_note"] = "建筑物二楼的水槽旁边拾取宝箱。"
+L["elandris_note"] = "当军团入侵世界任务 {wq:恐惧之谷} 激活时，他不出现。"
+L["gathenak_note"] = "和 {npc:112472} 交谈。"
+L["gorebeak_note"] = "和 {npc:92111} 交谈。"
+L["jinikki_note"] = "和 {npc:93677} 交谈并击杀 {npc:93684} 直到稀有出现。"
+L["kiranys_note"] = "点击魔力震荡陷阱。"
+L["mad_henryk_note"] = "靠近 {npc:109602}。"
+L["skulvrax_note"] = "复苏 {npc:92334} 并跟随她。"
+L["theryssia_note"] = "阅读墓碑上 {npc:94194} 姓名板。"
+L["unguarded_thistleleaf_treasure"] = "无人看守的蓟叶宝藏"
 
-L["in_darkpens"] = nil
-L["treasure_38366"] = nil
-L["treasure_38386"] = nil
-L["treasure_38387"] = nil
-L["treasure_38391"] = nil
-L["treasure_38943"] = nil
-L["treasure_39069"] = nil
-L["treasure_39074"] = nil
-L["treasure_39080"] = nil
-L["treasure_39083"] = nil
-L["treasure_39088"] = nil
-L["treasure_39093"] = nil
+L["in_darkpens"] = "黑暗围栏内。"
+L["treasure_38366"] = "树根下。"
+L["treasure_38386"] = "二层阳台上。"
+L["treasure_38387"] = "旅店下面小洞穴内。入口位于建筑物后面。"
+L["treasure_38391"] = "隐藏在树后。"
+L["treasure_38943"] = "上右侧楼梯。"
+L["treasure_39069"] = "二层阳台上。"
+L["treasure_39074"] = "树下。"
+L["treasure_39080"] = "地下室内。需要开始任务线。开始于 {npc:92688} 的 {quest:38643} 任务然后是 {npc:92683} 的 {quest:38644}。"
+L["treasure_39083"] = "藏在树内。"
+L["treasure_39088"] = "隐藏在一些树根之间的湖中。"
+L["treasure_39093"] = "河里树根下。"
 
-L["grumpy_note"] = nil
+L["grumpy_note"] = "燃烧的建筑物楼上。"
 
 L["xorvasc_note"] = nil
 L["durian_strongfruit_note"] = nil
@@ -84,8 +88,8 @@ L["durian_strongfruit_note"] = nil
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["in_house"] = nil
-L["in_small_cottage"] = nil
+L["in_house"] = "房屋内。"
+L["in_small_cottage"] = "小木屋内。"
 
 L["glimmering_treasure_chest"] = "闪闪发光的宝箱"
 L["small_treasure_chest"] = "小宝箱"

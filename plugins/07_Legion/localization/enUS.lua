@@ -54,12 +54,12 @@ L["Bohdi_sunwayver_note"] = nil
 --------------------------------- VAL'SHARA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["anthydas_note"] = "Plündere die Schatztruhe im zweiten Stock des Gebäudes neben der Spüle."
-L["elandris_note"] = "When the legion invasion world quest {wq:The Vale of Dead} is active, he isn't available."
+L["anthydas_note"] = "Loot the treasure chest on the second floor of the building next to the sink."
+L["elandris_note"] = "When the legion invasion world quest {wq:The Vale of Dread} is active, he isn't available."
 L["gathenak_note"] = "Speak with {npc:112472}."
 L["gorebeak_note"] = "Speak with {npc:92111}."
 L["jinikki_note"] = "Speak with {npc:93677} and kill {npc:93684} until the rare appears."
-L["kiranys_note"] = "Click the vibrating arcane trap."
+L["kiranys_note"] = "Click the Vibrating Arcane Trap."
 L["mad_henryk_note"] = "Step into the {npc:109602}."
 L["skulvrax_note"] = "Resuscitate {npc:92334} and follow her."
 L["theryssia_note"] = "Read {npc:94194s} nameplate on the gravestone."
