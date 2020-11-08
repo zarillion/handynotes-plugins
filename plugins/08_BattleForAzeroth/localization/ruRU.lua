@@ -47,7 +47,7 @@ L["embers_flask_note"] = "Отыщите {item:163746} в воде между д
 L["embers_hat_note"] = "Возьмите {item:163748} из кучи костей и верните его в руины Гол Вара."
 L["embers_knife_note"] = "Вытащите {item:163747} из ствола дерева и верните его в руины Гол Вара."
 L["embers_golvar_note"] = "Верните каждую реликвию в руины Гол Вара, чтобы завершить достижение."
-L["golvar_ruins"] = "Руины Гол Вараr"
+L["golvar_ruins"] = "Руины Гол Вара"
 L["options_icons_ember_relics_desc"] = "Показать расположение реликвий для достижения {achievement:13082}."
 L["options_icons_ember_relics"] = "{achievement:13082}"
 
