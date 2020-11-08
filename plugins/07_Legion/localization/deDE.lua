@@ -45,7 +45,7 @@ L["shoe_shine_kit_note"] = "Die Kiste erscheint nur von Samstag auf Sonntag um M
 L["sir_galveston_note"] = "Seid Ihr bereit, Sir Murkeston? Kämpft wacker!"
 L["amalia_note"] = "So wie Ihr bellt, beißt Ihr bestimmt nicht."
 L["tiffany_nelson_note"] = "Los geht's!"
-L["Bohdi_sunwayver_note"] = "Die Sonne kommt raus! Alle Haustiere nach draußen!"
+L["bohdi_sunwayver_note"] = "Die Sonne kommt raus! Alle Haustiere nach draußen!"
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------

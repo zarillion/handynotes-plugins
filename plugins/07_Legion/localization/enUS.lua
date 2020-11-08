@@ -48,7 +48,7 @@ US: The chest appears Saturday night to Sunday morning at midnight PST
 L["sir_galveston_note"] = "Are you ready Sir Murkeston? Fight gallantly!"
 L["amalia_note"] = "You're all bark and no bite."
 L["tiffany_nelson_note"] = "Bring it on!"
-L["Bohdi_sunwayver_note"] = "Sun's out! Pets out!"
+L["bohdi_sunwayver_note"] = "Sun's out! Pets out!"
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------

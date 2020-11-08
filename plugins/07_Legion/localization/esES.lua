@@ -47,7 +47,7 @@ L["shoe_shine_kit_note"] = nil
 L["sir_galveston_note"] = nil
 L["amalia_note"] = nil
 L["tiffany_nelson_note"] = nil
-L["Bohdi_sunwayver_note"] = nil
+L["bohdi_sunwayver_note"] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------

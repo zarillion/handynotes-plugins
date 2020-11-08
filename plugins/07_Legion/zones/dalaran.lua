@@ -54,7 +54,7 @@ map.nodes[28082610] = PetBattle({
 
 map.nodes[26992530] = PetBattle({
     id=99210,
-    note=L["general_pet_tamer_note"].."\n\n"..L["Bohdi_sunwayver_note"],
+    note=L["general_pet_tamer_note"].."\n\n"..L["bohdi_sunwayver_note"],
     rewards={
         Achievement({id=10876, criteria=31525}),
         ns.reward.Spacer(),
