@@ -226,30 +226,30 @@ L["offering_to_bwonsamdi_note"] = "Бегите по ближайшему дер
 L["shambling_ambusher_note"] = "Попытайтесь собрать {npc:124473} для вызова монстра."
 L["zaamar_note"] = "Внутри катакомб Некрополя, вход с юга."
 
-L["grady_prett_note"] = nil
-L["korval_dark_note"] = nil
-L["lozu_note"] = nil
+L["grady_prett_note"] = "Время спускаться и сражаться! Давай сделаем это!"
+L["korval_dark_note"] = "Это место жуткое, давайте сделаем все быстрее."
+L["lozu_note"] = "Давайте сражаться с честью, незнакомец."
 
-L["tales_bwonsamdi_note"] = nil
-L["tales_hireek_note"] = nil
-L["tales_kragwa_note"] = nil
-L["tales_torga_note"] = nil
+L["tales_bwonsamdi_note"] = "У разрушенного столба."
+L["tales_hireek_note"] = "Свиток на столе."
+L["tales_kragwa_note"] = "У разрушенной стены."
+L["tales_torga_note"] = "Под водой у разрушенного столба."
 
-L["carved_in_stone_41860"] = nil
-L["carved_in_stone_41861"] = nil
-L["carved_in_stone_41862"] = nil
-L["carved_in_stone_42116"] = nil
-L["options_icons_carved_in_stone"] = nil
-L["options_icons_carved_in_stone_desc"] = nil
+L["carved_in_stone_41860"] = "Внутри разрушенного здания у горы."
+L["carved_in_stone_41861"] = "У разрушенного столба."
+L["carved_in_stone_41862"] = "У разрушенной стены перед огромной колонной."
+L["carved_in_stone_42116"] = "У столба рядом с {npc:126126}."
+L["options_icons_carved_in_stone"] = "{achievement:13024}"
+L["options_icons_carved_in_stone_desc"] = "Отображать расположение пиктограмм для {achievement:13024}."
 
-L["hoppin_sad_53419"] = nil
-L["hoppin_sad_53420"] = nil
-L["hoppin_sad_53424"] = nil
-L["hoppin_sad_53425"] = nil
-L["hoppin_sad_53426"] = nil
+L["hoppin_sad_53419"] = "За двумя деревьями под огромным корнем."
+L["hoppin_sad_53420"] = "В руинах."
+L["hoppin_sad_53424"] = "На скале."
+L["hoppin_sad_53425"] = "На дереве у водопада."
+L["hoppin_sad_53426"] = "Под несколькими корнями."
 
-L["options_icons_hoppin_sad"] = nil
-L["options_icons_hoppin_sad_desc"] = nil
+L["options_icons_hoppin_sad"] = "{achievement:13028}"
+L["options_icons_hoppin_sad_desc"] = "Показать местоположение {npc:143317} для достижения {achievement:13028} achievement."
 
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
