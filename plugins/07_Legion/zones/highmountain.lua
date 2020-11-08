@@ -10,6 +10,8 @@ local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
 
+local POI = ns.poi.POI
+
 -------------------------------------------------------------------------------
 
 local map = Map({ id=650, settings=true })
