@@ -6,8 +6,8 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
-local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Toy = ns.reward.Toy
@@ -20,8 +20,9 @@ local map = Map({ id=627, settings=true })
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[45144682] = Treasure({
-    quest=nil,
+map.nodes[45144682] = Collectible({
+    icon="chest_gy",
+    scale=1.5,
     label=L["sheddles_chest"],
     note=L["shoe_shine_kit_note"],
     rewards={
