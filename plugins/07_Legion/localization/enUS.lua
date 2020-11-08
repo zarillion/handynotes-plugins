@@ -33,7 +33,7 @@ L["treasure_42283"] = "On the second floor."
 L["treasure_42287"] = "Under water."
 L["treasure_42339"] = "Don't wake up the bears."
 
-L["nightwatcher_merayl_note"] = nil
+L["nightwatcher_merayl_note"] = "Formations!"
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
@@ -45,10 +45,33 @@ EU: The chest appears Saturday night to Sunday morning at midnight CET (Server T
 US: The chest appears Saturday night to Sunday morning at midnight PST
 ]]
 
-L["sir_galveston_note"] = nil
-L["amalia_note"] = nil
-L["tiffany_nelson_note"] = nil
-L["Bohdi_sunwayver_note"] = nil
+L["sir_galveston_note"] = "Are you ready Sir Murkeston? Fight gallantly!"
+L["amalia_note"] = "You're all bark and no bite."
+L["tiffany_nelson_note"] = "Bring it on!"
+L["Bohdi_sunwayver_note"] = "Sun's out! Pets out!"
+
+-------------------------------------------------------------------------------
+-------------------------------- HIGHMOUNTAIN ---------------------------------
+-------------------------------------------------------------------------------
+
+L["odrogg_note"] = "You think you can best my snails?"
+L["grixis_tinypop_note"] = "This'll be easy!"
+L["bredda_tenderhide_note"] = "Let the bravest prove victorious!"
+
+-------------------------------------------------------------------------------
+--------------------------------- STORMHEIM -----------------------------------
+-------------------------------------------------------------------------------
+
+L["trapper_jarrun_note"] = "Muster your defenses mortal."
+L["robert_craig_note"] = "Sic 'em!"
+
+-------------------------------------------------------------------------------
+---------------------------------- SURAMAR ------------------------------------
+-------------------------------------------------------------------------------
+
+L["varenne_note"] = "I must get back to my cooking!"
+L["master_tamer_flummox_note"] = "Flummox no need pets! Flummox eats them NOW!"
+L["aulier_note"] = "Let's begin your lesson in humility."
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
@@ -80,8 +103,8 @@ L["treasure_39093"] = "On the river under the roots."
 
 L["grumpy_note"] = "Upstairs in the burning building."
 
-L["xorvasc_note"] = nil
-L["durian_strongfruit_note"] = nil
+L["xorvasc_note"] = "I'm your worst nightmare."
+L["durian_strongfruit_note"] = "If we must..."
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------

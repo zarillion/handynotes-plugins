@@ -33,7 +33,7 @@ L["treasure_42283"] = "In der zweiten Etage."
 L["treasure_42287"] = "Unter Wasser."
 L["treasure_42339"] = "Weck die Bären nicht auf."
 
-L["nightwatcher_merayl_note"] = nil
+L["nightwatcher_merayl_note"] = "Formationen!"
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
@@ -42,16 +42,39 @@ L["nightwatcher_merayl_note"] = nil
 L["sheddles_chest"] = "Gussis Truhe"
 L["shoe_shine_kit_note"] = "Die Kiste erscheint nur von Samstag auf Sonntag um Mitternacht (CET Serverzeit)"
 
-L["sir_galveston_note"] = nil
-L["amalia_note"] = nil
-L["tiffany_nelson_note"] = nil
-L["Bohdi_sunwayver_note"] = nil
+L["sir_galveston_note"] = "Seid Ihr bereit, Sir Murkeston? Kämpft wacker!"
+L["amalia_note"] = "So wie Ihr bellt, beißt Ihr bestimmt nicht."
+L["tiffany_nelson_note"] = "Los geht's!"
+L["Bohdi_sunwayver_note"] = "Die Sonne kommt raus! Alle Haustiere nach draußen!"
+
+-------------------------------------------------------------------------------
+-------------------------------- HIGHMOUNTAIN ---------------------------------
+-------------------------------------------------------------------------------
+
+L["odrogg_note"] = "Ihr glaubt, Ihr könnt meinen Schnecken bezwingen?"
+L["grixis_tinypop_note"] = "Das wird leicht!"
+L["bredda_tenderhide_note"] = "Mögen die Tapfersten siegreich sein!"
+
+-------------------------------------------------------------------------------
+--------------------------------- STORMHEIM -----------------------------------
+-------------------------------------------------------------------------------
+
+L["trapper_jarrun_note"] = "Verteidigt Euch, sterbliches Wesen."
+L["robert_craig_note"] = "Fass!"
+
+-------------------------------------------------------------------------------
+---------------------------------- SURAMAR ------------------------------------
+-------------------------------------------------------------------------------
+
+L["varenne_note"] = "Ich muss mich wieder meiner Kochkunst widmen!"
+L["master_tamer_flummox_note"] = "Flummox braucht keine Haustiere! Flummox frisst sie JETZT!"
+L["aulier_note"] = "Jetzt beginnt Eure Lektion in Sachen Demut!"
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["anthydas_note"] = "Loot the treasure chest inside the building on the second floor beneath the sink."
+L["anthydas_note"] = "Plündere die Schatztruhe im zweiten Stock des Gebäudes neben der Spüle."
 L["elandris_note"] = "Während die Legion Invasions Worldquest {wq:Das Tal der Angst} aktiv ist, ist er nicht verfügbar."
 L["gathenak_note"] = "Sprich mit {npc:112472}."
 L["gorebeak_note"] = "Sprich mit {npc:92111}."
@@ -77,8 +100,8 @@ L["treasure_39093"] = "Am Fluss unter den Wurzeln."
 
 L["grumpy_note"] = "Im oberen Stockwerk des brennenen Gebäudes."
 
-L["xorvasc_note"] = nil
-L["durian_strongfruit_note"] = nil
+L["xorvasc_note"] = "Ich bin Euer schlimmster Alptraum."
+L["durian_strongfruit_note"] = "Wenn es sein muss..."
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
