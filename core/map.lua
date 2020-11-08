@@ -208,7 +208,7 @@ function MinimapDataProvider:RefreshAllData()
     for coord, node in pairs(map.nodes) do
         if node._prepared and map:IsNodeEnabled(node, coord, true) then
             -- If this icon has a glow enabled, render it
-            local glow = node:GetGlow()
+            local glow = node:GetGlow(true)
             if glow then
                 glow[1] = coord -- update POI coord for this placement
                 glow:Render(self, MinimapPinTemplate)
@@ -296,7 +296,7 @@ function WorldMapDataProvider:RefreshAllData(fromOnShow)
     for coord, node in pairs(map.nodes) do
         if node._prepared and map:IsNodeEnabled(node, coord, false) then
             -- If this icon has a glow enabled, render it
-            local glow = node:GetGlow()
+            local glow = node:GetGlow(false)
             if glow then
                 glow[1] = coord -- update POI coord for this placement
                 glow:Render(self:GetMap(), WorldMapPinTemplate)

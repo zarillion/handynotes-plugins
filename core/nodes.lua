@@ -66,10 +66,15 @@ Return the associated texture, scale and alpha value to pass to HandyNotes
 for this node.
 --]]
 
-function Node:GetDisplayInfo()
+function Node:GetDisplayInfo(minimap)
     local icon = ns.GetIconPath(self.icon)
     local scale = self.scale * self.group:GetScale()
     local alpha = self.alpha * self.group:GetAlpha()
+
+    if not minimap and WorldMapFrame.isMaximized and ns:GetOpt('maximized_enlarged') then
+        scale = scale * 1.3 -- enlarge on maximized world map
+    end
+
     return icon, scale, alpha
 end
 
@@ -78,9 +83,9 @@ Return the glow POI for this node. If the node is hovered or focused, a green
 glow is applyed to help highlight the node.
 --]]
 
-function Node:GetGlow()
+function Node:GetGlow(minimap)
     if self._glow and (self._focus or self._hover) then
-        local _, scale, alpha = self:GetDisplayInfo()
+        local _, scale, alpha = self:GetDisplayInfo(minimap)
         self._glow.alpha = alpha
         self._glow.scale = scale
         if self._focus then
@@ -416,12 +421,12 @@ function Rare:IsEnabled()
     return NPC.IsEnabled(self)
 end
 
-function Rare:GetGlow()
-    local glow = NPC.GetGlow(self)
+function Rare:GetGlow(minimap)
+    local glow = NPC.GetGlow(self, minimap)
     if glow then return glow end
 
     if _G['HandyNotes_ZarPluginsDevelopment'] and not self.quest then
-        local _, scale, alpha = self:GetDisplayInfo()
+        local _, scale, alpha = self:GetDisplayInfo(minimap)
         self._glow.alpha = alpha
         self._glow.scale = scale
         self._glow.r, self._glow.g, self._glow.b = 1, 0, 0
@@ -448,12 +453,12 @@ function Treasure.getters:label()
     return UNKNOWN
 end
 
-function Treasure:GetGlow()
-    local glow = Node.GetGlow(self)
+function Treasure:GetGlow(minimap)
+    local glow = Node.GetGlow(self, minimap)
     if glow then return glow end
 
     if _G['HandyNotes_ZarPluginsDevelopment'] and not self.quest then
-        local _, scale, alpha = self:GetDisplayInfo()
+        local _, scale, alpha = self:GetDisplayInfo(minimap)
         self._glow.alpha = alpha
         self._glow.scale = scale
         self._glow.r, self._glow.g, self._glow.b = 1, 0, 0

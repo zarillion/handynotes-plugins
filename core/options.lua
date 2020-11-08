@@ -14,6 +14,7 @@ ns.optionDefaults = {
         -- visibility
         hide_done_rares = false,
         hide_minimap = false,
+        maximized_enlarged = false,
         show_completed_nodes = false,
         use_char_achieves = false,
 
@@ -108,19 +109,27 @@ ns.options = {
                     order = 13,
                     width = "full",
                 },
+                maximized_enlarged = {
+                    type = "toggle",
+                    arg = "maximized_enlarged",
+                    name = L["options_toggle_maximized_enlarged"],
+                    desc = L["options_toggle_maximized_enlarged_desc"],
+                    order = 14,
+                    width = "full",
+                },
                 use_char_achieves = {
                     type = "toggle",
                     arg = "use_char_achieves",
                     name = L["options_toggle_use_char_achieves"],
                     desc = L["options_toggle_use_char_achieves_desc"],
-                    order = 14,
+                    order = 15,
                     width = "full",
                 },
                 restore_all_nodes = {
                     type = "execute",
                     name = L["options_restore_hidden_nodes"],
                     desc = L["options_restore_hidden_nodes_desc"],
-                    order = 15,
+                    order = 16,
                     width = "full",
                     func = function ()
                         wipe(ns.addon.db.char)

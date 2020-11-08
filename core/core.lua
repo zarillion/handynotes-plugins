@@ -169,7 +169,7 @@ function Addon:RegisterWithHandyNotes()
             local coord, node = next(nodes, precoord)
             while coord do -- Have we reached the end of this zone?
                 if node and (force or map:IsNodeEnabled(node, coord, minimap)) then
-                    local icon, scale, alpha = node:GetDisplayInfo()
+                    local icon, scale, alpha = node:GetDisplayInfo(minimap)
                     return coord, nil, icon, scale, alpha
                 end
                 coord, node = next(nodes, coord) -- Get next node
@@ -213,6 +213,11 @@ function Addon:RegisterWithHandyNotes()
         "QUEST_TURNED_IN",
         "ZONE_CHANGED_NEW_AREA"
     }, 2, "Refresh")
+
+    -- Also refresh whenever the size of the world map frame changes
+    hooksecurefunc(WorldMapFrame, 'OnFrameSizeChanged', function ()
+        self:Refresh()
+    end)
 
     self:Refresh()
 end
