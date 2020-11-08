@@ -40,7 +40,8 @@ L["nightwatcher_merayl_note"] = "Formationen!"
 -------------------------------------------------------------------------------
 
 L["sheddles_chest"] = "Gussis Truhe"
-L["shoe_shine_kit_note"] = "Die Kiste erscheint nur von Samstag auf Sonntag um Mitternacht (CET Serverzeit)"
+L["shoe_shine_kit_note"] = "Die Kiste erscheint im oberen Stockwerk an der Position von {npc:97003} nur von Samstag auf Sonntag um Mitternacht (CET Serverzeit)."
+L["wand_simulated_life_note"] = "Im oberen Stockwerk auf dem Tisch."
 
 L["sir_galveston_note"] = "Seid Ihr bereit, Sir Murkeston? Kämpft wacker!"
 L["amalia_note"] = "So wie Ihr bellt, beißt Ihr bestimmt nicht."

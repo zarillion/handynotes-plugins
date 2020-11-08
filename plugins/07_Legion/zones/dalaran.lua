@@ -30,6 +30,17 @@ map.nodes[45144682] = Collectible({
     }
 }) -- Sheddle's Chest
 
+map.nodes[47364124] = Collectible({
+--  quest=45365,
+    icon="chest_gy",
+    scale=1.5,
+    label="{item:143534}",
+    note=L["wand_simulated_life_note"],
+    rewards={
+        Toy({item=143534}) -- Wand of Simulated Life
+    }
+}) -- Wand of Simulated Life
+
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------

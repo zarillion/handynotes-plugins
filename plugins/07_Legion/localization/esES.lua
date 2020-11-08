@@ -46,6 +46,7 @@ L["shoe_shine_kit_note"] = [[
 EU: El cofre aparece en la noche del Sábado al Domingo a medianoche CET (Tiempo del Servidor)
 US: El cofre aparece en la noche del Sábado al Domingo a medianoche PST
 ]]
+L["wand_simulated_life_note"] = nil
 
 L["sir_galveston_note"] = "¿Listo Sir Murkeston? ¡A luchar con gallardía!"
 L["amalia_note"] = "Mucho ladrar y poco morder."

@@ -41,9 +41,11 @@ L["nightwatcher_merayl_note"] = "Formations!"
 
 L["sheddles_chest"] = "Sheddle's Chest"
 L["shoe_shine_kit_note"] = [[
-EU: The chest appears Saturday night to Sunday morning at midnight CET (Server Time)
-US: The chest appears Saturday night to Sunday morning at midnight PST
+The chest appears upstairs at the location of {npc: 97003}.
+EU: Saturday night to Sunday morning at midnight CET (Server Time)
+US: Saturday night to Sunday morning at midnight PST
 ]]
+L["wand_simulated_life_note"] = "Upstairs on the table."
 
 L["sir_galveston_note"] = "Are you ready Sir Murkeston? Fight gallantly!"
 L["amalia_note"] = "You're all bark and no bite."
