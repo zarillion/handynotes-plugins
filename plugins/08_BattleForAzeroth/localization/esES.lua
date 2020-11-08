@@ -34,10 +34,10 @@ L["runebound_coffer_note"] = runebound.."Derecha -> Arriba -> Izquierda -> Abajo
 -- NOTE: These quotes (and for trainers in other zones) were taken from the quotes
 -- for this NPC on Wowhead. If no quotes were listed, I started a battle with the NPC
 -- and jotted down the opening line. Adds a little flavor to the tooltips.
-L["captain_hermes_note"] = "¡Sí! ¡Poder crustáceo!"
-L["dilbert_mcclint_note"] = "Hola, mi nombre es {npc:140461}, el Gestor de Infecciones. Siempre es agradable luchar contra otro entusiasta de las arañas."
-L["fizzie_spark_note"] = "¿Piensas que tus mascotas tienen alguna oportunidad contra mi equipo imbuido por la Azerita? ¡Eso desearías!"
-L["michael_skarn_note"] = "Sólo recuerda cómo empezamos esta batalla, tú pedistes esto."
+L["captain_hermes_note"] = "¡Por fin, un contendiente!"
+L["dilbert_mcclint_note"] = "Hola, me llamo {npc:140461}, y trabajo en el sector de cotrol de infestaciones. Siempre es un placer luchar contra otro amante del mundo arácnido."
+L["fizzie_spark_note"] = "¿Crees que tus mascotas tienen alguna posibilidad frente a mi equipo imbuido de azerita? ¡Qué más quisieras!"
+L["michael_skarn_note"] = "Recuerda que fuistes tú quien pidió esto."
 
 L["drust_facts_note"] = "Lee todas las estelas Drust para conseguir el logro."
 L["stele_forest_note"] = "Dentro de la Guarida de Ulfar."
@@ -228,9 +228,9 @@ L["offering_to_bwonsamdi_note"] = "Corre al árbol cercano y salta dentro de la 
 L["shambling_ambusher_note"] = "Intenta abrir el {npc:124473} para activar al {npc=124475}."
 L["zaamar_note"] = "Dentro de las Catacumbas de la Necrópolis, entrada al sur, te encontrarás con {npc:129657}."
 
-L["grady_prett_note"] = "¡Tiempo de luchar y caer! ¡Hagámoslo!"
-L["korval_dark_note"] = "Este lugar es escalofriante, hagamos un combate rápido."
-L["lozu_note"] = "Luchemos con honor, extrangero."
+L["grady_prett_note"] = "¡Hora de luchar! ¡Que empiece la acción!"
+L["korval_dark_note"] = "Este lugar es espeluznante, hagamos que esta batalle termine rápido."
+L["lozu_note"] = "Luchemos con honor, forastero."
 
 L["tales_bwonsamdi_note"] = "En el pilar destruido."
 L["tales_hireek_note"] = "Un Pergamino en la mesa."
@@ -276,9 +276,9 @@ L["small_treasure_chest"] = "Cofre del Tesoro Pequeño"
 L["small_treasure_51927"] = "En el edificio debajo de las escaleras."
 L["small_treasure_51940"] = "En el edificio."
 
-L["eddie_fixit_note"] = "¡Prepárate para enfrentarte a mi equipo inderrotable de robots altamente modificados y personalizados!"
-L["ellie_vern_note"] = "He encontrado las criaturas marinas más duras del mundo para luchar por mi, no tienes ni una oportunidad."
-L["leana_darkwind_note"] = "Sospecho que las raras criaturas de esta isla harán un combate extraño."
+L["eddie_fixit_note"] = "¡Prepárate para enfrentarte a mi invencible equipo de robots altamente modificados y personalizados!"
+L["ellie_vern_note"] = "He encontrado las criaturas marinas más poderosas de todas. No tienes posibilidades de vencerme."
+L["leana_darkwind_note"] = "Las extrañas criaturas de esta isla prometen brindarnos una batalla más extraña aún."
 
 L["honeyback_harvester_note"] = "Habla con {npc:155193} para empezar el evento. El Depósito de Jalea Fresca puede ser despojado una vez a la hora y se restablece pasada una hora."
 L["options_icons_honeybacks"] = "{npc:155193}"
@@ -329,9 +329,9 @@ L["ominous_altar"] = "Altar Agorero"
 L["ominous_altar_note"] = "Habla con el Altar Agorero para ser teleportado al tesoro."
 L["secret_of_the_depths_note"] = "Lee los cinco Pergaminos Húmedos, y entonces habla con el Altar Agorero para ser teleportado al tesoro."
 
-L["burly_note"] = "Estos pequeños son muy extraños, pero seguro que pegan muy duro. ¿Estás seguro de querer empezar este combate?"
-L["delia_hanako_note"] = "Antes de que empecemos, sólo te quiero recordar que no te sientas muy mal cuando mi equipo aniquile al tuyo."
-L["kwint_note"] = "Una persona contra un tiburón, quizás sea una pelea justa. ¿Una persona contra tres? Estás loco."
+L["burly_note"] = "Estos pequeñines son muy extraños, pero tienen muchísima fuerza. ¿Estás seguro de que quieres luchar?"
+L["delia_hanako_note"] = "Antes de comenzar, me gustaría recordarte que no hace falta que te sientas mal cuando mi equipo aniquile al tuyo."
+L["kwint_note"] = "Si quieres vencer a alguien como yo, necesitarás un barco más grande para llevarte a tus criaturas de aquí."
 
 L["shanty_fruit_note"] = "Despoja el Cancionero Polvoriento. Se encuentra en el suelo de una cueva pequeña."
 L["shanty_horse_note"] = "Despoja el Cancionero del Canalla. Se encuentra encima de la barra dentro de la taberna."
@@ -561,9 +561,9 @@ L["grayals_offering_note"] = "Tras completar {quest:50702}, entra en Atul'Aman y
 L["kimbul_offerings_note"] = "Encima de una colina sobre el Templo de Kimbul."
 L["sandsunken_note"] = "Haz click en el Corcho Abandonado para sacar el tesoro fuera de la arena."
 
-L["keeyo_note"] = "¡Tiempo para una gran aventura!"
-L["kusa_note"] = "Estoy en una racha ganadora, no tienes ni una oportunidad contra mi y mi equipo."
-L["sizzik_note"] = "Siempre aprecio un buen combate con un desafiador nuevo."
+L["keeyo_note"] = "¡Hora de una gran aventura!"
+L["kusa_note"] = "Tengo una racha ganadora, tú no tienes ninguna oportunidad contra mí y mi equipo."
+L["sizzik_note"] = "Siempre disfruto de una buena batalla con un contrincante nuevo."
 
 L["tales_akunda_note"] = "En el estanque."
 L["tales_kimbul_note"] = "Junto al árbol marchito."
@@ -612,9 +612,9 @@ L["spoils_of_pandaria_note"] = "En el piso inferior del barco."
 L["tiny_voodoo_mask_note"] = "Sentado en la choza encima de {npc:141617}."
 L["warlords_cache_note"] = "En la parte superior del barco, cerca del timón."
 
-L["karaga_note"] = "No he luchado en mucho tiempo, espero ser todavía un buen desafio para ti."
-L["talia_spark_note"] = "Las alimañas de esta tierra son viciosas, espero que estés listo para ello."
-L["zujai_note"] = "¿Has venido a luchar conmigo en mi propio hogar? Buena suerte."
+L["karaga_note"] = "Hace mucho que no peleo. Espero que todavía sea una buena contrincante para ti."
+L["talia_spark_note"] = "En esta tierra las criaturas son feroces. Espero que estés $listo:lista: para esto."
+L["zujai_note"] = "¿Te atreves a desafiarme en mi propia casa? Buena suerte."
 
 L["kuafon_note"] = [[
 Despoja un {item:157782} de cualquier Pterrordáctilo en Zandalar para empezar la cadena de misiones. Algunas misiones tardarán varios dias en ser completadas.
