@@ -50,7 +50,7 @@ US: El cofre aparece en la noche del Sábado al Domingo a medianoche PST
 L["sir_galveston_note"] = "¿Listo Sir Murkeston? ¡A luchar con gallardía!"
 L["amalia_note"] = "Mucho ladrar y poco morder."
 L["tiffany_nelson_note"] = "¡Adelante!"
-L["Bohdi_sunwayver_note"] = "¡Ha salido el sol! ¡Mascotas fuera!"
+L["bohdi_sunwayver_note"] = "¡Ha salido el sol! ¡Mascotas fuera!"
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
