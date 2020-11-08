@@ -477,7 +477,8 @@ map.nodes[33713008] = Treasure({
 -------------------------------------------------------------------------------
 
 local SECRET_CHEST = ns.node.SecretSupply({
-    rewards = {
+    quest=55375,
+    rewards={
         Achievement({id=13317, criteria=43931})
     }
 }) -- quest = 54715 (looted ever) 55375 (looted today)
