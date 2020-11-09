@@ -12,16 +12,13 @@ L["arcavellus_note"] = "Mata las {npc:90242} y las {npc:90243} hasta que aparezc
 L["beacher_note"] = "Cuando la misión del mundo {wq:Desembarco Helarjar: Marisma Gris} esté activa, no estará {npc:91187}."
 L["brogozog_note"] = "Habla con {npc:91097}."
 L["chief_bitterbrine_note"] = "En el barco, en la cubierta inferior."
-L["devious_sunrunner_note"] = [[
-Usa el Portal Ley en una cueva pequeña.
-No te de olvides despojar el cofre.
-]]
+L["devious_sunrunner_note"] = "Usa el Portal Ley en una cueva pequeña y no te de olvides despojar el cofre."
 L["doomlord_kazrok_note"] = "Habla con {npc:91580}."
 L["felwing_note"] = "Habla con {npc:105913} y mata {npc:105919} hasta que aparezca {npc:105938}."
 L["golza_note"] = "Sopla el Cuerno de la Sirena y mata {npc:90774} y {npc:90778} hasta que aparezca {npc:89816}."
 L["infernal_lord_note"] = "Haz click en el Alijo de Infernales y mata {npc:90797} hasta que aparezca el {npc:90803}."
 L["inquisitor_tivos_note"] = "Usa el Portal de la Legión. Está en el piso inferior."
-L["shaliman_note"] = nil
+L["shaliman_note"] = "Camina alrededor de la piscina."
 
 L["disputed_treasure"] = "Tesoro Disputado"
 L["in_academy"] = "Dentro de la Academia de Nar'thalas."
@@ -42,12 +39,12 @@ L["nightwatcher_merayl_note"] = "¡Formaciones!"
 ---------------------------------- DALARAN ------------------------------------
 -------------------------------------------------------------------------------
 
+-- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
+local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()]
+
 L["sheddles_chest"] = "Cofre de Sheddle"
-L["shoe_shine_kit_note"] = [[
-EU: El cofre aparece en la noche del Sábado al Domingo a medianoche CET (Tiempo del Servidor)
-US: El cofre aparece en la noche del Sábado al Domingo a medianoche PST
-]]
-L["wand_simulated_life_note"] = nil
+L["shoe_shine_kit_note"] = "Cada noche del Sábado al Domingo a medianoche ("..tz..") {npc:97003} soltará su cofre en el suelo unas horas y se irá."
+L["wand_simulated_life_note"] = "En la mesa que hay escaleras arriba."
 
 L["sir_galveston_note"] = "¿Listo Sir Murkeston? ¡A luchar con gallardía!"
 L["amalia_note"] = "Mucho ladrar y poco morder."
