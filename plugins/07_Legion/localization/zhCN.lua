@@ -38,10 +38,10 @@ L["nightwatcher_merayl_note"] = "列队！"
 -------------------------------------------------------------------------------
 
 -- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
-local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()]
+local tz = ({'太平洋标准时间', '韩国标准时间', '欧洲中部时间', '中国标准时间', '中国标准时间'})[GetCurrentRegion()]
 
 L["sheddles_chest"] = "西德尔的箱子"
-L["shoe_shine_kit_note"] = "每个星期六晚上的午夜（"..tz.."）{npc:97003} 将他的箱子丢在地上几小时并离开。"
+L["shoe_shine_kit_note"] = "每个星期六晚上的午夜零时（"..tz.."）{npc:97003} 将他的箱子丢在地上几小时并离开。"
 L["wand_simulated_life_note"] = "楼上的桌子上。"
 
 L["sir_galveston_note"] = "你准备好了吗，奔波尔斯顿爵士？勇敢地战斗吧！"
