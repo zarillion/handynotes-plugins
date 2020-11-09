@@ -248,7 +248,7 @@ local Treasure = Class('Treasure', Treasure, {
     label=L["small_treasure_chest"],
     rewards={
         Achievement({id=11258, criteria={
-            {id=1, qty=true, suffix=" "..L["treasures_discovered"]}
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
         }})
     }
 })

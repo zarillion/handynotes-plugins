@@ -21,6 +21,7 @@ L["felwing_note"] = "Habla con {npc:105913} y mata {npc:105919} hasta que aparez
 L["golza_note"] = "Sopla el Cuerno de la Sirena y mata {npc:90774} y {npc:90778} hasta que aparezca {npc:89816}."
 L["infernal_lord_note"] = "Haz click en el Alijo de Infernales y mata {npc:90797} hasta que aparezca el {npc:90803}."
 L["inquisitor_tivos_note"] = "Usa el Portal de la Legión. Está en el piso inferior."
+L["shaliman_note"] = nil
 
 L["disputed_treasure"] = "Tesoro Disputado"
 L["in_academy"] = "Dentro de la Academia de Nar'thalas."

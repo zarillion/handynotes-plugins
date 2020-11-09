@@ -42,6 +42,7 @@ read_globals = {
     'GetContainerItemID',
     'GetContainerItemInfo',
     'GetContainerNumSlots',
+    'GetCurrentRegion',
     'GetCVar',
     'GetItemInfo',
     'GetItemSpecInfo',
@@ -120,6 +121,7 @@ files["tests/test_class.lua"] = {
 files["tests/test_locales.lua"] = {
     globals = {
         'TestLocales',
+        'GetCurrentRegion',
         'EJ_GetInstanceInfo',
         'UnitFactionGroup',
         'format',

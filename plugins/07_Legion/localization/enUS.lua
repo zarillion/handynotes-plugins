@@ -6,26 +6,24 @@ if not L then return end
 ----------------------------------- AZSUNA ------------------------------------
 -------------------------------------------------------------------------------
 
-L["arcavellus_note"] = "Kill {npc:90242} and {npc:90243} until the rare appears."
-L["beacher_note"] = "When the world quest {wq:Helarjar Landing: Grey Shoals} is active, he isn't available."
+L["arcavellus_note"] = "Kill {npc:90242s} and {npc:90243s} until the rare appears."
+L["beacher_note"] = "Not available when the {wq:Helarjar Landing: Grey Shoals} world quest is active."
 L["brogozog_note"] = "Speak with {npc:91097}."
 L["chief_bitterbrine_note"] = "In the ship on the lower deck."
-L["devious_sunrunner_note"] = [[
-Use the Ley Portal in a small cave.
-Don't forget to loot the chest.
-]]
+L["devious_sunrunner_note"] = "Use the Ley Portal in a small cave. Don't forget to loot the chest."
 L["doomlord_kazrok_note"] = "Speak with {npc:91580}."
-L["felwing_note"] = "Speak with {npc:105913} and kill {npc:105919} until the rare appears."
-L["golza_note"] = "Blow the Horn of the Siren and kill {npc:90774} and {npc:90778} until the rare appears."
-L["infernal_lord_note"] = "Click the Cache of Infernals and kill {npc:90797} until the rare appears."
+L["felwing_note"] = "Speak with {npc:105913} and then kill {npc:105919s} until the rare appears."
+L["golza_note"] = "Blow the Horn of the Siren, then kill {npc:90774s} and {npc:90778s} until the rare appears."
+L["infernal_lord_note"] = "Click the Cache of Infernals and kill {npc:90797s} until the rare appears."
 L["inquisitor_tivos_note"] = "Use the Legion Portal. He is on a lower floor."
+L["shaliman_note"] = "Walks around the pool."
 
 L["disputed_treasure"] = "Disputed Treasure"
 L["in_academy"] = "Inside Nar'thalas Academy."
 L["in_oceanus_cove"] = "Inside the Oceanus Cove."
 L["seemingly_unguarded_treasure"] = "Seemingly Unguarded Treasure"
-L["seemingly_unguarded_treasure_note"] = "Try to loot the treasure and then kill a few waves of {npc:94167}."
-L["treasure_37958"] = "On a lower level of the buildig."
+L["seemingly_unguarded_treasure_note"] = "Try to loot the treasure and then kill a few waves of {npc:94167s}."
+L["treasure_37958"] = "On a lower level of the building."
 L["treasure_37980"] = "Use the Ley Portal on the broken bridge."
 L["treasure_40711"] = "Use the Ley Portal inside the tower."
 L["treasure_42282"] = "On the balcony in a corner."
@@ -39,12 +37,11 @@ L["nightwatcher_merayl_note"] = "Formations!"
 ---------------------------------- DALARAN ------------------------------------
 -------------------------------------------------------------------------------
 
+-- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
+local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()]
+
 L["sheddles_chest"] = "Sheddle's Chest"
-L["shoe_shine_kit_note"] = [[
-The chest appears upstairs at the location of {npc: 97003}.
-EU: Saturday night to Sunday morning at midnight CET (Server Time)
-US: Saturday night to Sunday morning at midnight PST
-]]
+L["shoe_shine_kit_note"] = "Every Saturday night at midnight ("..tz..") {npc:97003} will drop the his chest on the ground for a couple hours and leave."
 L["wand_simulated_life_note"] = "Upstairs on the table."
 
 L["sir_galveston_note"] = "Are you ready Sir Murkeston? Fight gallantly!"
@@ -80,14 +77,14 @@ L["aulier_note"] = "Let's begin your lesson in humility."
 -------------------------------------------------------------------------------
 
 L["anthydas_note"] = "Loot the treasure chest on the second floor of the building next to the sink."
-L["elandris_note"] = "When the legion invasion world quest {wq:The Vale of Dread} is active, he isn't available."
+L["elandris_note"] = "Not available when the legion invasion world quest {wq:The Vale of Dread} is active."
 L["gathenak_note"] = "Speak with {npc:112472}."
 L["gorebeak_note"] = "Speak with {npc:92111}."
-L["jinikki_note"] = "Speak with {npc:93677} and kill {npc:93684} until the rare appears."
+L["jinikki_note"] = "Speak with {npc:93677} and kill {npc:93684s} until the rare appears."
 L["kiranys_note"] = "Click the Vibrating Arcane Trap."
 L["mad_henryk_note"] = "Step into the {npc:109602}."
 L["skulvrax_note"] = "Resuscitate {npc:92334} and follow her."
-L["theryssia_note"] = "Read {npc:94194s} nameplate on the gravestone."
+L["theryssia_note"] = "Read {npc:94194}'s nameplate on the gravestone."
 L["unguarded_thistleleaf_treasure"] = "Unguarded Thistleleaf Treasure"
 
 L["in_darkpens"] = "Inside the Darkpens."
@@ -98,7 +95,7 @@ L["treasure_38391"] = "Hidden behind a tree."
 L["treasure_38943"] = "Go up the right stairs."
 L["treasure_39069"] = "On the second floor balcony."
 L["treasure_39074"] = "Under the tree."
-L["treasure_39080"] = "In the basement. You need to start a questline. Started with the quest {quest:38643} by {npc:92688} followed from {quest:38644} by {npc:92683}."
+L["treasure_39080"] = "In the basement. You need to start a questline beginning with {quest:38643} from {npc:92688} followed by {quest:38644} from {npc:92683}."
 L["treasure_39083"] = "Hidden in a tree."
 L["treasure_39088"] = "Hidden in the lake between some roots."
 L["treasure_39093"] = "On the river under the roots."
@@ -120,4 +117,4 @@ L["small_treasure_chest"] = "Small Treasure Chest"
 L["treasure_chest"] = "Treasure Chest"
 L["treasures_discovered"] = "treasures discovered"
 
-L["general_pet_tamer_note"] = ns.color.Orange("Only appears when the worldquest for him is available.")
+L["general_pet_tamer_note"] = ns.color.Orange("Only appears when the corresponding world quest is active.")

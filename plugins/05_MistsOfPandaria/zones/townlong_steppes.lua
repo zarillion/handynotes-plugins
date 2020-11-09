@@ -24,7 +24,7 @@ map.nodes[36608560] = Rare({
     note=L["zandalari_warbringer_note"],
     rewards={
         Achievement({id=8078, criteria={
-            {id=2, qty=true, suffix=" "..L["zandalari_warbringer_killed"]}
+            {id=2, qty=true, suffix=L["zandalari_warbringer_killed"]}
         }}),
         Mount({item=94229, id=535}), -- Reins of the Slate Primordial Direhorn
         Mount({item=94230, id=534}), -- Reins of the Amber Primordial Direhorn

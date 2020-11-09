@@ -32,7 +32,7 @@ local cove = Map({ id=632 })
 map.nodes[35483320] = Rare({
     id=107657,
     quest=42505,
-    note="Walks around the pool",
+    note=L["shaliman_note"],
     rewards={
         Achievement({id=11261, criteria=33372}),
         Transmog({item=141868, slot=L["cloth"]}) -- Shal'imanacles
@@ -362,7 +362,7 @@ local Treasure = Class('Treasure', Treasure, {
     label=L["small_treasure_chest"],
     rewards={
         Achievement({id=11256, criteria={
-            {id=1, qty=true, suffix=" "..L["treasures_discovered"]}
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
         }})
     }
 })

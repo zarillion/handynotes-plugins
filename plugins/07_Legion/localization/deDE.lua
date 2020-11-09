@@ -19,6 +19,7 @@ L["felwing_note"] = "Sprich mit {npc:105913} und töte {npc:105919}, bis der sel
 L["golza_note"] = "Blase in das Horn der Sirene und töte {npc:90774} und {npc:90778}, bis der seltene Gegner erscheint."
 L["infernal_lord_note"] = "Klick den Höllenbestienvorrat an und töte {npc:90797}, bis der seltene Gegner erscheint."
 L["inquisitor_tivos_note"] = "Verwende das Legions Portal. Er ist auf der unteren Ebene."
+L["shaliman_note"] = nil
 
 L["disputed_treasure"] = "Umkämpfter Schatz"
 L["in_academy"] = "In der Akademie von Nar'thalas."

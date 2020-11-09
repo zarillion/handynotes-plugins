@@ -8,6 +8,7 @@ local luaunit = require('luaunit')
 -------------------------------------------------------------------------------
 
 function EJ_GetInstanceInfo() return 'DUNGEON' end
+function GetCurrentRegion() return 1 end
 function UnitFactionGroup() return 'Horde' end
 format = string.format -- doesn't support %1$s syntax!
 
