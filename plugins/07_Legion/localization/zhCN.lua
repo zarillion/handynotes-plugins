@@ -41,11 +41,12 @@ L["nightwatcher_merayl_note"] = "列队！"
 
 L["sheddles_chest"] = "西德尔的箱子"
 L["shoe_shine_kit_note"] = [[
+箱子出现在楼上 {npc: 97003} 的位置。
 国服：箱子会在周六晚上到周日早上的午夜零时出现。中国标准时间
 美服：箱子会在周六晚上到周日早上的午夜零时出现。太平洋标准时间
 欧服：箱子会在周六晚上到周日早上的午夜零时出现。欧洲中部时间（服务器时间）
 ]]
-L["wand_simulated_life_note"] = nil
+L["wand_simulated_life_note"] = "楼上的桌子上。"
 
 L["sir_galveston_note"] = "你准备好了吗，奔波尔斯顿爵士？勇敢地战斗吧！"
 L["amalia_note"] = "你别光说不练啊。"
