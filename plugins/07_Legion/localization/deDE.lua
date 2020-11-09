@@ -19,7 +19,7 @@ L["felwing_note"] = "Sprich mit {npc:105913} und töte {npc:105919}, bis der sel
 L["golza_note"] = "Blase in das Horn der Sirene und töte {npc:90774} und {npc:90778}, bis der seltene Gegner erscheint."
 L["infernal_lord_note"] = "Klick den Höllenbestienvorrat an und töte {npc:90797}, bis der seltene Gegner erscheint."
 L["inquisitor_tivos_note"] = "Verwende das Legions Portal. Er ist auf der unteren Ebene."
-L["shaliman_note"] = nil
+L["shaliman_note"] = "Läuft um den Pool herum."
 
 L["disputed_treasure"] = "Umkämpfter Schatz"
 L["in_academy"] = "In der Akademie von Nar'thalas."
@@ -40,8 +40,10 @@ L["nightwatcher_merayl_note"] = "Formationen!"
 ---------------------------------- DALARAN ------------------------------------
 -------------------------------------------------------------------------------
 
+local tz = ({'PST', 'KST', 'MEZ', 'CST', 'CST'})[GetCurrentRegion()]
+
 L["sheddles_chest"] = "Gussis Truhe"
-L["shoe_shine_kit_note"] = "Die Kiste erscheint im oberen Stockwerk an der Position von {npc:97003} nur von Samstag auf Sonntag um Mitternacht (CET Serverzeit)."
+L["shoe_shine_kit_note"] = "Die Kiste erscheint im oberen Stockwerk an der Position von {npc:97003} nur von Samstag auf Sonntag um Mitternacht ("..tz.." Serverzeit)."
 L["wand_simulated_life_note"] = "Im oberen Stockwerk auf dem Tisch."
 
 L["sir_galveston_note"] = "Seid Ihr bereit, Sir Murkeston? Kämpft wacker!"
@@ -117,4 +119,4 @@ L["small_treasure_chest"] = "Kleine Schatztruhe"
 L["treasure_chest"] = "Schatztruhe"
 L["treasures_discovered"] = "Schätze entdeckt"
 
-L["general_pet_tamer_note"] = ns.color.Orange("Erscheint nur, wenn die Weltquest für ihn verfügbar ist.")
+L["general_pet_tamer_note"] = ns.color.Orange("Erscheint nur, wenn die entsprechende Weltquest aktiv ist.")

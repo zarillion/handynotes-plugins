@@ -41,7 +41,7 @@ L["nightwatcher_merayl_note"] = "Formations!"
 local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()]
 
 L["sheddles_chest"] = "Sheddle's Chest"
-L["shoe_shine_kit_note"] = "Every Saturday night at midnight ("..tz..") {npc:97003} will drop the his chest on the ground for a couple hours and leave."
+L["shoe_shine_kit_note"] = "Every Saturday night at midnight ("..tz..") {npc:97003} will drop his chest on the ground for a couple hours and leave."
 L["wand_simulated_life_note"] = "Upstairs on the table."
 
 L["sir_galveston_note"] = "Are you ready Sir Murkeston? Fight gallantly!"
