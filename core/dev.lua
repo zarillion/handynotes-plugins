@@ -84,7 +84,7 @@ local function BootstrapDevelopmentEnvironment()
                 for id = 0, max_quest_id do
                     local s = C_QuestLog.IsQuestFlaggedCompleted(id)
                     if s ~= quests[id] then
-                        changed[#changed + 1] = {'Quest', id, 'changed:', tostring(quests[id]), '=>', tostring(s)}
+                        changed[#changed + 1] = {time(), id, quests[id], s}
                         quests[id] = s
                     end
                 end
@@ -93,7 +93,7 @@ local function BootstrapDevelopmentEnvironment()
                     -- ids to flip state, we do not want to report on those
                     for i, args in ipairs(changed) do
                         table.insert(history, 1, args)
-                        DebugQuest(unpack(args))
+                        DebugQuest('Quest', args[2], 'changed:', args[3], '=>', args[4])
                     end
                 end
                 if #history > 100 then
@@ -162,6 +162,25 @@ local function BootstrapDevelopmentEnvironment()
         print("NO MATCH FOR: /mountid "..name)
     end
 
+end
+
+-------------------------------------------------------------------------------
+
+-- Debug function that prints entries from the quest id history
+
+_G[ADDON_NAME..'QuestHistory'] = function (count)
+    local history = _G[ADDON_NAME.."DB"]['quest_id_history']
+    for i = 1, (count or 10) do
+        local time, id, old, new, _
+        if history[i][1] == 'Quest' then
+            _, id, _, old, _, new = unpack(history[i])
+            time = 'MISSING'
+        else
+            time, id, old, new = unpack(history[i])
+            time = date('%H:%M:%S', time)
+        end
+        print(time, '::', id, '::', old, '=>', new)
+    end
 end
 
 -------------------------------------------------------------------------------

@@ -4,13 +4,15 @@ redefined = false
 unused_args = false
 
 read_globals = {
-    -- WoW helper functions
+    -- LUA / helper functions
+    'date',
     'FormatPercentage',
     'floor',
     'format',
     'hooksecurefunc',
     'sqrt',
     'strsub',
+    'time',
     'wipe',
 
     -- WoW API functions
