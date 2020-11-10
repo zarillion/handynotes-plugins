@@ -1,6 +1,6 @@
 ## Interface: 90001
 ## Title: HandyNotes: Mechagon & Nazjatar
-## Version: 16
+## Version: 17
 ## Notes: Mechagon & Nazjatar Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes

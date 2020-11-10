@@ -138,6 +138,22 @@ function Addon:OnInitialize()
     self:RegisterEvent("PLAYER_ENTERING_WORLD", function ()
         self:UnregisterEvent("PLAYER_ENTERING_WORLD")
         self:ScheduleTimer("RegisterWithHandyNotes", 1)
+
+        -- Deprecration warnings
+        C_Timer.After(1, function ()
+            local old = ns.color.Red(L["context_menu_title"])
+            local bfa = ns.color.Blue('HandyNotes: Battle for Azeroth')
+            local warn = ns.color.Orange('WARNING: ')
+            if IsAddOnLoaded('HandyNotes_BattleForAzeroth') then
+                local both = 'You have both the old '..old..' plugin and the new '..bfa..' plugin enabled.'
+                local dupe = 'Please uninstall the old plugin to avoid functionality duplication and collisions.'
+                print(warn..both..' '..dupe)
+            else
+                local deprecated = 'The '..old..' plugin will no longer receive updates.'
+                local replacement = 'Please uninstall the old plugin and download the new '..bfa..' plugin instead!'
+                print(warn..deprecated..' '..replacement)
+            end
+        end)
     end)
 
     -- Add global groups to settings panel
