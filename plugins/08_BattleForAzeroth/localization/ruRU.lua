@@ -259,7 +259,7 @@ L["in_basement"] = "В подвале."
 L["jakala_note"] = "Поговорите с {npc:140925}."
 L["nestmother_acada_note"] = "Нажмите на Гнездо Акады, чтобы вызвать монстра."
 L["sabertron_note"] = "Убейте {npc:139334} чтобы активировать один из {npc:139328}s."
-L["whiplash_note"] = nil
+L["whiplash_note"] = "Появляется только когда активен {wq:Флагеллятор}."
 
 L["discarded_lunchbox_note"] = "В здании на книжной полке."
 L["hidden_scholars_chest_note"] = "На крыше здания."
@@ -274,20 +274,20 @@ L["small_treasure_chest"] = "Маленький сундук с сокровищ
 L["small_treasure_51927"] = "В здании под лестницей."
 L["small_treasure_51940"] = "В здании."
 
-L["eddie_fixit_note"] = nil
-L["ellie_vern_note"] = nil
-L["leana_darkwind_note"] = nil
+L["eddie_fixit_note"] = "Приготовьтесь встретиться с моей непобедимой командой сильно модифицированных и настроенных роботов!"
+L["ellie_vern_note"] = "Я нашел самых крутых морских существ, они сражаются за меня, у тебя нет шансов."
+L["leana_darkwind_note"] = "Я подозреваю, что странные существа на этом острове устроят странную битву."
 
-L["honeyback_harvester_note"] = nil
-L["options_icons_honeybacks"] = nil
-L["options_icons_honeybacks_desc"] = nil
+L["honeyback_harvester_note"] = "Поговорите с {npc:155193}, чтобы начать событие. Свежую соту с пчелиным молочком можно получить раз в час."
+L["options_icons_honeybacks"] = "{npc:155193}"
+L["options_icons_honeybacks_desc"] = "Отображение {npc:155193} мест событий для получения репутации Улей Медокрылов."
 
-L["lets_bee_friends_note"] = nil
-L["lets_bee_friends_step_1"] = nil
-L["lets_bee_friends_step_2"] = nil
-L["lets_bee_friends_step_3"] = nil
-L["lets_bee_friends_step_4"] = nil
-L["lets_bee_friends_step_5"] = nil
+L["lets_bee_friends_note"] = "Выполните {daily:53371} семь раз, чтобы получить достижение и питомца. Чтобы разблокировать ежедневный:"
+L["lets_bee_friends_step_1"] = "Завершите цепочку заданий в медоварне Милденхоллов через {quest:50553}."
+L["lets_bee_friends_step_2"] = "Убивайте {npc:133429} и {npc:131663} на медоварне Милденхоллов, пока не найдете {item:163699}."
+L["lets_bee_friends_step_3"] = "Принесите {item:163699} {npc:143128} в Боралус."
+L["lets_bee_friends_step_4"] = "Отнесите {item:163702} к {npc:133907} на медоварню Милденхоллов."
+L["lets_bee_friends_step_5"] = "Завершение {quest:53347} у {npc:133907}."
 
 -- local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in Warfang Hold'
 L["these_hills_sing_note"] = "Откройте {item:160485} здесь. Купите тогда у {npc:138096} (Орда) или {npc:138221} (Альянс) или найди одно из сокровищ \"Выброшенная коробка для завтрака\" в Бреннадаме."
