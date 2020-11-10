@@ -1,3 +1,7 @@
+# v42
+
+* Add warning message for the [HandyNotes: Battle for Azeroth](https://www.curseforge.com/wow/addons/handynotes-battle-for-azeroth) replacement plugin.
+
 # v41
 
 * Set interface version to 90001 until SL launch.
