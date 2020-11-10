@@ -292,12 +292,12 @@ L["lets_bee_friends_step_5"] = "Завершение {quest:53347} у {npc:13390
 -- local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in Warfang Hold'
 L["these_hills_sing_note"] = "Откройте {item:160485} здесь. Купите тогда у {npc:138096} (Орда) или {npc:138221} (Альянс) или найди одно из сокровищ \"Выброшенная коробка для завтрака\" в Бреннадаме."
 
-L["ancient_tidesage_scroll"] = "Ancient Tidesage ScrollДревний свиток жрецов моря"
-L["ancient_tidesage_scroll_note"] = nil
-L["options_icons_tidesage_legends"] = nil
-L["options_icons_tidesage_legends_desc"] = nil
+L["ancient_tidesage_scroll"] = "Древний свиток жрецов моря"
+L["ancient_tidesage_scroll_note"] = "Прочтите все 8 древних свитков жрецов морей, чтобы получить достижение."
+L["options_icons_tidesage_legends"] = "{achievement:13051}"
+L["options_icons_tidesage_legends_desc"] = "Отображение местоположения древних свитков для достижения {achievement:13051}."
 
-L["long_forgotten_rum_note"] = nil
+L["long_forgotten_rum_note"] = "Чтобы войти в пещеру, {quest:50697} должен быть выполнен у {npc:134710} в Мертвецкой Трясине. Также продается у {npc:137040} в Друстваре."
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
