@@ -1,3 +1,11 @@
+# v14
+
+* Removed covenant transport networks (Blizzard now displays these).
+* Fixed a bug in the vignette scanning code: `(string expected, got nil)`
+* Mini-boss spawn timers are now saved between reloads.
+* The next boss to spawn is now highlighted.
+* Added frFR translations for the prepatch stuff (thanks Galiwyx!)
+
 # v13
 
 * Fixed the positioning of a couple prepatch bosses.
