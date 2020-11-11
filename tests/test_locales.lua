@@ -106,7 +106,11 @@ function TestLocales:LocalTestFactory(locale, dir)
         else
             -- Compare the locale to the declared keys in enUS
             local enUS = self:LoadLocale('enUS', dir)
-            self:LoadLocale(locale, dir, enUS.keys)
+            local rrCC = self:LoadLocale(locale, dir, enUS.keys)
+
+            if #rrCC.keys < #enUS.keys then
+                error(format('missing %d strings at eof', #enUS.keys - #rrCC.keys))
+            end
         end
     end
 end

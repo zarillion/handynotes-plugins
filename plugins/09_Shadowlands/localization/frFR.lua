@@ -400,3 +400,26 @@ L["options_icons_bonus_event"] = "Événements bonus"
 L["options_icons_bonus_event_desc"] = "Afficher les emplacements des événements bonus."
 L["options_icons_riftstone"] = "Failles Chaotiques" --Correction : Doute sur le nom précis des failles
 L["options_icons_riftstone_desc"] = "Affichez les emplacements des téléporteurs de Failles Chaotiques"
+
+-------------------------------------------------------------------------------
+----------------------------------- ICECROWN ----------------------------------
+-------------------------------------------------------------------------------
+
+L["prepatch_intro"] = nil
+L["icecrown_rares"] = nil
+L["next_spawn"] = nil
+L["shared_loot"] = nil
+L["unique_loot"] = nil
+
+L["orig_atk"] = nil
+L["orig_azn"] = nil
+L["orig_dtk"] = nil
+L["orig_fos"] = nil
+L["orig_hor"] = nil
+L["orig_icc"] = nil
+L["orig_nax"] = nil
+L["orig_pos"] = nil
+L["orig_tot"] = nil
+L["orig_utk"] = nil
+L["orig_utp"] = nil
+

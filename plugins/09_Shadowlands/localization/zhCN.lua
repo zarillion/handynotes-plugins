@@ -405,6 +405,7 @@ L["options_icons_riftstone_desc"] = "显示混乱裂隙石传送者位置。"
 
 L["prepatch_intro"] = "完成暗影国度前夕事件指引任务解锁此区域的首领。"
 L["icecrown_rares"] = "所有首领以固定的顺序每20分钟刷新一个。每个可以在一天拾取多次。"
+L["next_spawn"] = nil
 L["shared_loot"] = "共享拾取"
 L["unique_loot"] = "独立拾取"
 

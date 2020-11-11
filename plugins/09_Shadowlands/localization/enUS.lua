@@ -405,6 +405,7 @@ L["options_icons_riftstone_desc"] = "Display the locations of chaotic riftstone 
 
 L["prepatch_intro"] = "Complete the intro quests for the Shadowlands prepatch event to unlock bosses in this zone."
 L["icecrown_rares"] = "All bosses spawn in a fixed order on a 20 minute interval. Each can be looted multiple times a day!"
+L["next_spawn"] = "Next spawn at %s local time."
 L["shared_loot"] = "Shared Loot"
 L["unique_loot"] = "Unique Loot"
 

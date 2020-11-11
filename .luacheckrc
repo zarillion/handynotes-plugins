@@ -12,6 +12,7 @@ read_globals = {
     'hooksecurefunc',
     'sqrt',
     'strsub',
+    'strsplit',
     'time',
     'wipe',
 
@@ -33,6 +34,7 @@ read_globals = {
     'C_TaskQuest',
     'C_Timer',
     'C_TransmogCollection',
+    'C_VignetteInfo',
     'CombatLogGetCurrentEventInfo',
     'EJ_GetInstanceInfo',
     'EJ_GetTierInfo',

@@ -62,13 +62,52 @@ end
 map.nodes[43905720] = map.intro
 
 -------------------------------------------------------------------------------
+--------------------------------- SPAWN TIMES ---------------------------------
+-------------------------------------------------------------------------------
+
+local SPAWNS = {}
+local EXPECTED = {}
+for npc = 174048, 174067 do SPAWNS[npc] = 1 end
+
+local function UpdateSpawnTimes(startNPC, time)
+    EXPECTED[startNPC] = time + 24000 -- 6h40m
+    local next = function (id) return (id == 174048) and 174067 or (id - 1) end
+    local npc = next(startNPC)
+    while npc ~= startNPC do
+        time = time + 1200 -- 20 minutes
+        EXPECTED[npc] = time
+        npc = next(npc)
+    end
+end
+
+ns.addon:RegisterEvent('VIGNETTES_UPDATED', function (...)
+    for _, guid in ipairs(C_VignetteInfo.GetVignettes()) do
+        local info = C_VignetteInfo.GetVignetteInfo(guid)
+        if (info and info.onWorldMap) then
+            local id = select(6, strsplit("-", info.objectGUID))
+            local npc = tonumber(id)
+            if SPAWNS[npc] and time() - SPAWNS[npc] > 21600 then
+                SPAWNS[npc] = time()
+                ns.Debug('Detected '..info.name..' spawn at '..date('%H:%M:%S', SPAWNS[npc]))
+                UpdateSpawnTimes(npc, SPAWNS[npc])
+            end
+        end
+    end
+end)
+
+-------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-local ICCRare = Class('ICCRare', Rare, {
-    fgroup='iccrares',
-    note=L["icecrown_rares"]
-})
+local ICCRare = Class('ICCRare', Rare, { fgroup='iccrares' })
+
+function ICCRare.getters:note()
+    if EXPECTED[self.id] then
+        local spawn = ns.color.Blue(date('%H:%M', EXPECTED[self.id]))
+        return L["icecrown_rares"]..'\n\n'..L["next_spawn"]:format(spawn)
+    end
+    return L["icecrown_rares"]
+end
 
 function ICCRare:GetGlow(minimap)
     -- Skip Rare:GetGlow, no quest ids for these
@@ -231,7 +270,7 @@ nodes[70603850] = ICCRare({
     pois={ POI({64802210}), Arrow({64802210, 70603850}) }
 }) -- Bronjahm
 
-nodes[47406720] = ICCRare({
+nodes[47136590] = ICCRare({
     id=174057,
     --quest=62335,
     sublabel=L["orig_pos"],
@@ -241,7 +280,7 @@ nodes[47406720] = ICCRare({
         Transmog({item=183633, slot=L["leather"]}), -- Fringed Wyrmleather Leggings
         Transmog({item=183632, slot=L["shield"]}) -- Protector of Stolen Souls
     }),
-    pois={ POI({70603850}), Arrow({70603850, 47406720}) }
+    pois={ POI({70603850}), Arrow({70603850, 47136590}) }
 }) -- Scourgelord Tyrannus
 
 nodes[59107240] = ICCRare({
@@ -254,7 +293,7 @@ nodes[59107240] = ICCRare({
         Transmog({item=183666, slot=L["plate"]}), -- Legguards of the Frosty Fathoms
         Item({item=183631, note=L["ring"]}) -- Ring of Carnelian and Sinew
     }),
-    pois={ POI({47406720}), Arrow({47406720, 59107240}) }
+    pois={ POI({47136590}), Arrow({47136590, 59107240}) }
 }) -- Forgemaster Garfrost
 
 nodes[58208350] = ICCRare({
@@ -283,7 +322,7 @@ nodes[50208810] = ICCRare({
     pois={ POI({58208350}), Arrow({58208350, 50208810}) }
 }) -- Falric
 
-nodes[80106120] = ICCRare({
+nodes[80326135] = ICCRare({
     id=174053,
     --quest=62331,
     sublabel=L["orig_dtk"],
@@ -293,7 +332,7 @@ nodes[80106120] = ICCRare({
         Transmog({item=183684, slot=L["shield"]}), -- Tharon'ja's Protectorate
         Item({item=183685, note=L["ring"]}) -- Phantasmic Seal of the Prophet
     }),
-    pois={ POI({50208810}), Arrow({50208810, 80106120}) }
+    pois={ POI({50208810}), Arrow({50208810, 80326135}) }
 }) -- The Prophet Tharon'ja
 
 nodes[77806610] = ICCRare({
@@ -306,7 +345,7 @@ nodes[77806610] = ICCRare({
         Transmog({item=183671, slot=L["mail"]}), -- Necromantic Wristwraps
         Transmog({item=183672, slot=L["plate"]}) -- Cuirass of Undeath
     }),
-    pois={ POI({80106120}), Arrow({80106120, 77806610}) }
+    pois={ POI({80326135}), Arrow({80326135, 77806610}) }
 }) -- Novos the Summoner
 
 nodes[58303940] = ICCRare({
