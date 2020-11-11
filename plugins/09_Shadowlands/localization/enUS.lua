@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["covenant_required"] = "Requires a member of the %s covenant."
-L["transport_research"] = "Requires Transport Network Tier %d"
+L["transport_research"] = "Transport Network Tier %d"
 L["anima_channeled"] = "anima channeled to %s."
 
 L["options_icons_fae_network_desc"] = "Display all transport destinations for the Night Fae mushroom network."
