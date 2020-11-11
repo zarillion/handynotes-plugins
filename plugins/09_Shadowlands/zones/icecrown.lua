@@ -10,9 +10,10 @@ local Map = ns.Map
 local Intro = ns.node.Intro
 local Rare = ns.node.Rare
 
-local Section = ns.reward.Section
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Quest = ns.reward.Quest
+local Section = ns.reward.Section
 local Transmog = ns.reward.Transmog
 
 local Arrow = ns.poi.Arrow
@@ -167,7 +168,8 @@ nodes[57805610] = ICCRare({
     rewards=SharedLoot({
         Transmog({item=183656, slot=L["leather"]}), -- Drake Rider's Jerkin
         Transmog({item=183657, slot=L["mail"]}), -- Skadi's Scaled Sollerets
-        Transmog({item=183670, slot=L["plate"]}) -- Skadi's Saronite Belt
+        Transmog({item=183670, slot=L["plate"]}), -- Skadi's Saronite Belt
+        Mount({item=44151, id=264}) -- Reins of the Blue Proto-Drake
     }),
     pois={ POI({51107850}), Arrow({51107850, 57805610}) }
 }) -- Skadi the Ruthless
