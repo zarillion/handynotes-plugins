@@ -406,7 +406,7 @@ L["options_icons_riftstone_desc"] = "Display the locations of chaotic riftstone 
 
 L["prepatch_intro"] = "Завершите вводные задания для события подготовки к выходу Shadowlands, чтобы разблокировать редких монстров в этой локации."
 L["icecrown_rares"] = "Все редкие существа появляются в фиксированном порядке с интервалом в 20 минут."
-L["next_spawn"] = nil
+L["next_spawn"] = "Следующее возрождение в %s по местному времени."
 L["shared_loot"] = "Общая добыча"
 L["unique_loot"] = "Уникальная добыча"
 
