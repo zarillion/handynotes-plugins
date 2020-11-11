@@ -395,21 +395,23 @@ L["options_icons_riftstone_desc"] = "Affichez les emplacements des téléporteur
 ----------------------------------- ICECROWN ----------------------------------
 -------------------------------------------------------------------------------
 
-L["prepatch_intro"] = nil
-L["icecrown_rares"] = nil
-L["next_spawn"] = nil
-L["shared_loot"] = nil
-L["unique_loot"] = nil
+L["prepatch_intro"] = "Complétez les quêtes d'introduction de l'évènement de pré-lancement de Shadowlands pour déverrouiller les boss dans cette zone."
+L["icecrown_rares"] = "Les boss apparaissent dans un ordre fixe avec 20 minutes d'intervalle. Chacun peut être looté plusieurs fois par jour !"
+L["next_spawn"] = "Prochaine apparition à %s, heure locale."
+L["shared_loot"] = "Butin partagé"
+L["unique_loot"] = "Butin unique"
 
-L["orig_atk"] = nil
-L["orig_azn"] = nil
-L["orig_dtk"] = nil
-L["orig_fos"] = nil
-L["orig_hor"] = nil
-L["orig_icc"] = nil
-L["orig_nax"] = nil
-L["orig_pos"] = nil
-L["orig_tot"] = nil
-L["orig_utk"] = nil
-L["orig_utp"] = nil
+local ORIG = ns.color.Orange("A l'origine dans %s.")
+
+L["orig_atk"] = ORIG:format(EJ_GetInstanceInfo(271))
+L["orig_azn"] = ORIG:format(EJ_GetInstanceInfo(272))
+L["orig_dtk"] = ORIG:format(EJ_GetInstanceInfo(273))
+L["orig_fos"] = ORIG:format(EJ_GetInstanceInfo(280))
+L["orig_hor"] = ORIG:format(EJ_GetInstanceInfo(276))
+L["orig_icc"] = ORIG:format(EJ_GetInstanceInfo(758))
+L["orig_nax"] = ORIG:format(EJ_GetInstanceInfo(754))
+L["orig_pos"] = ORIG:format(EJ_GetInstanceInfo(278))
+L["orig_tot"] = ORIG:format(EJ_GetInstanceInfo(284))
+L["orig_utk"] = ORIG:format(EJ_GetInstanceInfo(285))
+L["orig_utp"] = ORIG:format(EJ_GetInstanceInfo(286))
 
