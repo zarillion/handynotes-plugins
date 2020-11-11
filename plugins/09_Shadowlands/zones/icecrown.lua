@@ -83,7 +83,7 @@ end
 ns.addon:RegisterEvent('VIGNETTES_UPDATED', function (...)
     for _, guid in ipairs(C_VignetteInfo.GetVignettes()) do
         local info = C_VignetteInfo.GetVignetteInfo(guid)
-        if (info and info.onWorldMap) then
+        if (info and info.objectGUID and info.onWorldMap) then
             local id = select(6, strsplit("-", info.objectGUID))
             local npc = tonumber(id)
             if SPAWNS[npc] and time() - SPAWNS[npc] > 3600 then
