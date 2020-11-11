@@ -406,7 +406,7 @@ L["options_icons_riftstone_desc"] = "Muestra las localizaciones de los teletrans
 -------------------------------------------------------------------------------
 
 L["prepatch_intro"] = "Completa las misiones introductorias del evento del preparche para desbloquear los raros de esta zona."
-L["icecrown_rares"] = "Todos los raros aparecen en un orden fijado cada 20 minutos."
+L["icecrown_rares"] = "Todos los bosses aparecen en un orden fijado cada 20 minutos. ¡Todos pueden ser despojados varias veces en el mismo día!"
 L["shared_loot"] = "Botín Compartido"
 L["unique_loot"] = "Botín Único"
 
