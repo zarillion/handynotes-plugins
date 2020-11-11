@@ -110,7 +110,7 @@ end)
 local ICCRare = Class('ICCRare', Rare, { fgroup='iccrares' })
 
 function ICCRare.getters:note()
-    if EXPECTED[self.id] then
+    if EXPECTED[self.id] and time() < EXPECTED[self.id] then
         local spawn = ns.color.Blue(date('%H:%M', EXPECTED[self.id]))
         return L["icecrown_rares"]..'\n\n'..L["next_spawn"]:format(spawn)
     end
