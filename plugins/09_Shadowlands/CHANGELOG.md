@@ -1,3 +1,7 @@
+# v16
+
+* Ignore old/stale saved spawn times for prepatch mini bosses.
+
 # v15
 
 * Another fix for vignette tracking.
