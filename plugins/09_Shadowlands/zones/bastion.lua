@@ -27,7 +27,6 @@ local POI = ns.poi.POI
 local KYRIAN = ns.covenants.KYR
 
 local map = Map({ id = 1533, settings=true })
-local sanctum = Map({ id=1707 })
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -655,31 +654,3 @@ wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"], par
 gardens.nodes[46605310] = AnimaShard({quest=61298, note=L["anima_shard_61298"]})
 gardens.nodes[69403870] = AnimaShard({quest=61299, note=L["anima_shard_61299"]})
 font.nodes[49804690] = AnimaShard({quest=61300, note=L["anima_shard_61300"]})
-
--------------------------------------------------------------------------------
-------------------------------- KYRIAN GATEWAYS -------------------------------
--------------------------------------------------------------------------------
-
-local Gateway = Class('Gateway', ns.node.Node, {
-    icon = 'portal_b',
-    scale = 1.5,
-    group = ns.groups.KYR_NETWORK
-})
-
-local R = L["transport_research"]
-local T1 = ns.requirement.GarrisonTalent(1056, R:format(1))
-local T2 = ns.requirement.GarrisonTalent(1057, R:format(2))
-local T3 = ns.requirement.GarrisonTalent(1058, R:format(3))
-
-map.nodes[40715520] = Gateway({ label=L["xandrias_vigil"], requires=T1 })
-map.nodes[48327284] = Gateway({ label=L["aspirants_rest"], requires=T1 })
-map.nodes[51754681] = Gateway({ label=L["heros_rest"], requires=T1 })
-
-map.nodes[44163302] = Gateway({ label=L["sagehaven"], requires=T2 })
-map.nodes[58363097] = Gateway({ label=L["seat_of_eternal_hymns"], requires=T2 })
-map.nodes[59427711] = Gateway({ label=L["temple_of_purity"], requires=T2 })
-
-map.nodes[66594790] = Gateway({ label=L["temple_of_humility"], requires=T3 })
-map.nodes[32322045] = Gateway({ label=L["exaltations_rise"], requires=T3 })
-
-sanctum.nodes[48606168] = Gateway({ label=L["eternal_gateway"], requires=T1 })

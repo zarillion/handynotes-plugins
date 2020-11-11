@@ -7,17 +7,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["covenant_required"] = "需要%s盟约成员。"
-L["transport_research"] = "需要传送网络%d级"
 L["anima_channeled"] = "心能连接到%s。"
-
-L["options_icons_fae_network_desc"] = "显示全部法夜蘑网的传送目的地。"
-L["options_icons_fae_network"] = "菌丝网络"
-L["options_icons_kyr_network_desc"] = "显示全部格里恩传送门网络的传送目的地。"
-L["options_icons_kyr_network"] = "格里恩传送门"
-L["options_icons_nec_network_desc"] = "显示全部通灵领主白骨死亡之门的传送目的地。"
-L["options_icons_nec_network"] = "白骨死亡之门"
-L["options_icons_ven_network_desc"] = "显示全部温西尔猩红之镜的传送目的地。"
-L["options_icons_ven_network"] = "猩红之镜"
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------

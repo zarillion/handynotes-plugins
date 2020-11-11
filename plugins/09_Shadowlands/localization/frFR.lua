@@ -9,17 +9,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["covenant_required"] = "Nécessite un membre de la congrégation %s."
-L["transport_research"] = "Nécessite un réseau de transport niveau %d"
 L["anima_channeled"] = "anima canalisé vers %s."
-
-L["options_icons_fae_network_desc"] = "Afficher toutes les destinations du réseau de champignons des Faë nocturnes."
-L["options_icons_fae_network"] = "Réseau Mycélium"
-L["options_icons_kyr_network_desc"] = "Afficher toutes les destinations du réseau de portes de transport Kyrien."
-L["options_icons_kyr_network"] = "Portes de transport Kyriennes"
-L["options_icons_nec_network_desc"] = "Afficher toutes les destinations des portes de la mort osseuses des Nécro-seigneurs."
-L["options_icons_nec_network"] = "Portes de la mort osseuses"
-L["options_icons_ven_network_desc"] = "Afficher toutes les destinations des miroirs de sang des Venthyr."
-L["options_icons_ven_network"] = "Miroirs de sang"
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------

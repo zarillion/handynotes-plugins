@@ -7,17 +7,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["covenant_required"] = "Benötigt ein Paktmitglied der %s"
-L["transport_research"] = "Benötigt Stufe %d des Reisenetzwerks"
 L["anima_channeled"] = "%s mit Anima versorgt."
-
-L["options_icons_fae_network_desc"] = "Zeigt alle Pilze für das Reisenetzwerk der Nachtfae an."
-L["options_icons_fae_network"] = "Pilznetzwerk"
-L["options_icons_kyr_network_desc"] = "Zeigt alle Animaportale für das Reisenetzwerk der Kyrian an."
-L["options_icons_kyr_network"] = "Animaportale"
-L["options_icons_nec_network_desc"] = "Zeigt alle Knochentoren für das Reisenetzwerk der Necrolord an."
-L["options_icons_nec_network"] = "Knochentoren"
-L["options_icons_ven_network_desc"] = "Zeigt alle Blutspiegel für das Reisenetzwerk der Venthyr an."
-L["options_icons_ven_network"] = "Blutspiegel"
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------

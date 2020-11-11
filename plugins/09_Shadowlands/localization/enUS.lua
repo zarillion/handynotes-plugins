@@ -7,17 +7,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["covenant_required"] = "Requires a member of the %s covenant."
-L["transport_research"] = "Transport Network Tier %d"
 L["anima_channeled"] = "anima channeled to %s."
-
-L["options_icons_fae_network_desc"] = "Display all transport destinations for the Night Fae mushroom network."
-L["options_icons_fae_network"] = "Mycelial Network"
-L["options_icons_kyr_network_desc"] = "Display all transport destinations for the Kyrian gateway network."
-L["options_icons_kyr_network"] = "Kyrian Gateways"
-L["options_icons_nec_network_desc"] = "Display all transport destinations for the Necrolord bone deathgates."
-L["options_icons_nec_network"] = "Bone Deathgates"
-L["options_icons_ven_network_desc"] = "Display all transport destinations for the Venthyr blood mirrors."
-L["options_icons_ven_network"] = "Blood Mirrors"
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------

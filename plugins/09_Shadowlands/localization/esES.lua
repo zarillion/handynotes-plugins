@@ -9,17 +9,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L["covenant_required"] = "Requiere ser miembro de la curia %s."
-L["transport_research"] = "Requiere Red de Transporte al Rango %d"
 L["anima_channeled"] = "ánima canalizada a %s."
-
-L["options_icons_fae_network_desc"] = "Muestra todos los destinos de los transportes de champiñones de las Sílfides Nocturnas."
-L["options_icons_fae_network"] = "Red Micelial"
-L["options_icons_kyr_network_desc"] = "Muestra todos los destinos de los transportes para la red de Portales Kyrianos."
-L["options_icons_kyr_network"] = "Portales Kyrianos"
-L["options_icons_nec_network_desc"] = "Muestra todos los destinos de los transportes de Abominaciones de los Necroseñores."
-L["options_icons_nec_network"] = "Transportes Abominables"
-L["options_icons_ven_network_desc"] = "Muestra todos los destinos de los transportes para los Espejos de Sangre de los Venthyr."
-L["options_icons_ven_network"] = "Espejos de Sangre"
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------

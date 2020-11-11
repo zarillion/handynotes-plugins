@@ -68,31 +68,12 @@ end
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-local SLGroup = Class('ShadowlandsGroup', Group)
-
-function SLGroup:IsEnabled()
-    if not Group.IsEnabled(self) then return false end
-    if self.covenant then
-        return C_Covenants.GetActiveCovenantID() == self.covenant.id
-    end
-    return true
-end
-
-ns.Group = SLGroup
-
--------------------------------------------------------------------------------
-
-ns.groups.ANIMA_SHARD = SLGroup('anima_shard', 'crystal_b', {defaults=ns.GROUP_HIDDEN})
-ns.groups.BONUS_BOSS = SLGroup('bonus_boss', 'peg_wr')
-ns.groups.BONUS_EVENT = SLGroup('bonus_event', 'peg_wy')
-ns.groups.CARRIAGE = SLGroup('carriages', 'horseshoe')
-ns.groups.RIFTSTONE = SLGroup('riftstone', 'portal_b')
-ns.groups.SLIME_CAT = SLGroup('slime_cat', 3732497)
-
-ns.groups.FAE_NETWORK = SLGroup('fae_network', 'portal_p', {defaults=ns.GROUP_HIDDEN, covenant=ns.covenants.FAE})
-ns.groups.KYR_NETWORK = SLGroup('kyr_network', 'portal_b', {defaults=ns.GROUP_HIDDEN, covenant=ns.covenants.KYR})
-ns.groups.NEC_NETWORK = SLGroup('nec_network', 'portal_g', {defaults=ns.GROUP_HIDDEN, covenant=ns.covenants.NEC})
-ns.groups.VEN_NETWORK = SLGroup('ven_network', 'portal_r', {defaults=ns.GROUP_HIDDEN, covenant=ns.covenants.VEN})
+ns.groups.ANIMA_SHARD = Group('anima_shard', 'crystal_b', {defaults=ns.GROUP_HIDDEN})
+ns.groups.BONUS_BOSS = Group('bonus_boss', 'peg_wr')
+ns.groups.BONUS_EVENT = Group('bonus_event', 'peg_wy')
+ns.groups.CARRIAGE = Group('carriages', 'horseshoe')
+ns.groups.RIFTSTONE = Group('riftstone', 'portal_b')
+ns.groups.SLIME_CAT = Group('slime_cat', 3732497, {defaults=ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------
