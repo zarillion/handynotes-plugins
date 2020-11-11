@@ -72,6 +72,10 @@ hooksecurefunc(ns.addon, 'OnInitialize', function ()
     SPAWNS = ns.GetDatabaseTable('prepatch', 'spawns')
     EXPECTED = ns.GetDatabaseTable('prepatch', 'expected')
 
+    for npc = 174048, 174067 do
+        if SPAWNS[npc] == nil then SPAWNS[npc] = 1 end
+    end
+
     local function UpdateSpawnTimes(startNPC, time)
         EXPECTED[startNPC] = time + 24000 -- 6h40m
         local next = function (id) return (id == 174048) and 174067 or (id - 1) end
