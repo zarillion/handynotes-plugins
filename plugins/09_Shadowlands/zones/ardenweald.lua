@@ -155,15 +155,15 @@ function RainbowGlow:Draw(pin, xy)
         end
         pin.texture:SetVertexColor(r/10, g/10, b/10, 1)
     end)
-    self.r, self.g, self.b = 1, 0, 0
+    self.r, self.g, self.b, self.a = 1, 0, 0, 1
     return ns.poi.Glow.Draw(self, pin, xy)
 end
 
 map.nodes[50092091] = Rare({
     id=164547,
     quest=59235,
-    GlowClass = RainbowGlow,
     note=L["rainbowhorn_note"],
+    glow=RainbowGlow({ icon=ns.GetGlowPath('skull_w') }),
     rewards={
         Achievement({id=14309, criteria=48715}),
         Item({item=182179, quest=62434}) -- Runestag Soul

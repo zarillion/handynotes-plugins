@@ -73,7 +73,7 @@ function Glow:Draw(pin, xy)
     t:SetTexture(self.icon)
 
     if self.r then
-        t:SetVertexColor(self.r, self.g, self.b, self.a or 1)
+        t:SetVertexColor(self.r, self.g, self.b, self.a or 0.5)
     end
 
     pin.frameOffset = 1

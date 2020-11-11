@@ -59,14 +59,9 @@ local function BootstrapDevelopmentEnvironment()
         order = 103,
     }
 
-    -- Initialize a history for quest ids so we still have a record after /reload
-    if _G[ADDON_NAME.."DB"]['quest_id_history'] == nil then
-        _G[ADDON_NAME.."DB"]['quest_id_history'] = {}
-    end
-    local history = _G[ADDON_NAME.."DB"]['quest_id_history']
-
     -- Print debug messages for each quest ID that is flipped
     local QTFrame = CreateFrame('Frame', ADDON_NAME.."QT")
+    local history = ns.GetDatabaseTable('quest_id_history')
     local lastCheck = GetTime()
     local quests = {}
     local changed = {}
@@ -169,8 +164,10 @@ end
 -- Debug function that prints entries from the quest id history
 
 _G[ADDON_NAME..'QuestHistory'] = function (count)
-    local history = _G[ADDON_NAME.."DB"]['quest_id_history']
+    local history = ns.GetDatabaseTable('quest_id_history')
+    if #history == 0 then return print('Quest ID history is empty') end
     for i = 1, (count or 10) do
+        if i > #history then break end
         local time, id, old, new, _
         if history[i][1] == 'Quest' then
             _, id, _, old, _, new = unpack(history[i])

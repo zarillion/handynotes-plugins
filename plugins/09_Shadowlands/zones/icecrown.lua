@@ -2,7 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 
-local _, ns = ...
+local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
@@ -67,32 +67,36 @@ map.nodes[43905720] = map.intro
 
 local SPAWNS = {}
 local EXPECTED = {}
-for npc = 174048, 174067 do SPAWNS[npc] = 1 end
 
-local function UpdateSpawnTimes(startNPC, time)
-    EXPECTED[startNPC] = time + 24000 -- 6h40m
-    local next = function (id) return (id == 174048) and 174067 or (id - 1) end
-    local npc = next(startNPC)
-    while npc ~= startNPC do
-        time = time + 1200 -- 20 minutes
-        EXPECTED[npc] = time
-        npc = next(npc)
-    end
-end
+hooksecurefunc(ns.addon, 'OnInitialize', function ()
+    SPAWNS = ns.GetDatabaseTable('prepatch', 'spawns')
+    EXPECTED = ns.GetDatabaseTable('prepatch', 'expected')
 
-ns.addon:RegisterEvent('VIGNETTES_UPDATED', function (...)
-    for _, guid in ipairs(C_VignetteInfo.GetVignettes()) do
-        local info = C_VignetteInfo.GetVignetteInfo(guid)
-        if (info and info.objectGUID and info.onWorldMap) then
-            local id = select(6, strsplit("-", info.objectGUID))
-            local npc = tonumber(id)
-            if SPAWNS[npc] and time() - SPAWNS[npc] > 3600 then
-                SPAWNS[npc] = time()
-                ns.Debug('Detected '..info.name..' spawn at '..date('%H:%M:%S', SPAWNS[npc]))
-                UpdateSpawnTimes(npc, SPAWNS[npc])
-            end
+    local function UpdateSpawnTimes(startNPC, time)
+        EXPECTED[startNPC] = time + 24000 -- 6h40m
+        local next = function (id) return (id == 174048) and 174067 or (id - 1) end
+        local npc = next(startNPC)
+        while npc ~= startNPC do
+            time = time + 1200 -- 20 minutes
+            EXPECTED[npc] = time
+            npc = next(npc)
         end
     end
+
+    ns.addon:RegisterEvent('VIGNETTES_UPDATED', function (...)
+        for _, guid in ipairs(C_VignetteInfo.GetVignettes()) do
+            local info = C_VignetteInfo.GetVignetteInfo(guid)
+            if (info and info.objectGUID and info.onWorldMap) then
+                local id = select(6, strsplit("-", info.objectGUID))
+                local npc = tonumber(id)
+                if SPAWNS[npc] and time() - SPAWNS[npc] > 3600 then
+                    SPAWNS[npc] = time()
+                    ns.Debug('Detected '..info.name..' spawn at '..date('%H:%M:%S', SPAWNS[npc]))
+                    UpdateSpawnTimes(npc, SPAWNS[npc])
+                end
+            end
+        end
+    end)
 end)
 
 -------------------------------------------------------------------------------
@@ -110,7 +114,13 @@ function ICCRare.getters:note()
 end
 
 function ICCRare:GetGlow(minimap)
-    -- Skip Rare:GetGlow, no quest ids for these
+    if EXPECTED[self.id] and EXPECTED[self.id] - time() < 1080 then
+        local _, scale, alpha = self:GetDisplayInfo(minimap)
+        self.glow.alpha = alpha
+        self.glow.scale = scale * 1.1
+        self.glow.r, self.glow.g, self.glow.b = 1, 0, 1
+        return self.glow
+    end
     return ns.node.NPC.GetGlow(self, minimap)
 end
 

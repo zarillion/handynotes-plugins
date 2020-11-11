@@ -170,6 +170,19 @@ local function PlayerHasItem(item, count)
 end
 
 -------------------------------------------------------------------------------
+------------------------------ DATABASE FUNCTIONS -----------------------------
+-------------------------------------------------------------------------------
+
+local function GetDatabaseTable(...)
+    local db = _G[ADDON_NAME.."DB"]
+    for _, key in ipairs({...}) do
+        if db[key] == nil then db[key] = {} end
+        db = db[key]
+    end
+    return db
+end
+
+-------------------------------------------------------------------------------
 ------------------------------ LOCALE FUNCTIONS -------------------------------
 -------------------------------------------------------------------------------
 
@@ -228,6 +241,7 @@ end
 
 ns.AsIDTable = AsIDTable
 ns.AsTable = AsTable
+ns.GetDatabaseTable = GetDatabaseTable
 ns.NameResolver = NameResolver
 ns.NewLocale = NewLocale
 ns.PlayerHasItem = PlayerHasItem
