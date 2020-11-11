@@ -1,3 +1,9 @@
+# v13
+
+* Fixed the positioning of a couple prepatch bosses.
+* Added spawn times to the prepatch boss tooltips (populated after seeing a boss appear).
+* Added Blue Proto-Drake drop for Skadi.
+
 # v12
 
 * Display upgrade requirement for Chaotic Riftstones.

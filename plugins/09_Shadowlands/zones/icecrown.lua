@@ -86,7 +86,7 @@ ns.addon:RegisterEvent('VIGNETTES_UPDATED', function (...)
         if (info and info.onWorldMap) then
             local id = select(6, strsplit("-", info.objectGUID))
             local npc = tonumber(id)
-            if SPAWNS[npc] and time() - SPAWNS[npc] > 21600 then
+            if SPAWNS[npc] and time() - SPAWNS[npc] > 3600 then
                 SPAWNS[npc] = time()
                 ns.Debug('Detected '..info.name..' spawn at '..date('%H:%M:%S', SPAWNS[npc]))
                 UpdateSpawnTimes(npc, SPAWNS[npc])
