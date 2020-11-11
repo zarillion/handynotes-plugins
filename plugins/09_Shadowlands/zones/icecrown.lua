@@ -352,6 +352,7 @@ nodes[44204910] = ICCRare({
     sublabel=L["orig_atk"],
     rlabel='(20)',
     rewards=SharedLoot({
+        Transmog({item=183641, slot=L["cloth"]}), -- Shoulderpads of Corpal Rigidity
         Transmog({item=183624, slot=L["dagger"]}), -- Serrated Blade of Nadox
         Item({item=183673, note=L["ring"]}) -- Nerubian Aegis Ring
     }),
