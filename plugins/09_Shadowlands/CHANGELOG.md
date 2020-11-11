@@ -1,3 +1,7 @@
+# v15
+
+* Another fix for vignette tracking.
+
 # v14
 
 * Removed covenant transport networks (Blizzard now displays these).
