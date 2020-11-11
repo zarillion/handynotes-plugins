@@ -1,88 +1,73 @@
 **A [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for the Shadowlands expansion. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
 
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/banner.png)
+![](https://www.tmdmguild.com/public/images/addons/banner-shadowlands.png)
 
-## Rare Mobs
+## Global Features
 
-Rare mobs are listed as skulls on your map. If the skull is blue colored, that means you still need a collectible reward from that rare. If the rare has multiple spawn points, shares a spawn with common mobs or has a path, hovering over the skull will indicate all the points of interest or paths. Left-clicking on the skull will stick the points of interested on the map and minimap as you fly around.
+### Rare Mobs
 
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/rares.png)
+Rare mobs are listed as skulls on your map. If the skull is blue colored, that means you still need a collectible reward from that rare. If the rare has multiple spawn points, shares a spawn with common mobs or has a path, hovering over the skull will indicate all the points of interest or paths. Left-clicking on the skull will stick the points of interested on the map and minimap as you travel.
 
-## Treasures
+### Treasures & Collectibles
 
-Locations and solutions for treasures are displayed on the map, along with the achievement they are associated with and any rewards they contain. Each treasure icon will disappear once it has been looted.
+Locations and solutions for treasures are displayed on the map, along with the achievement they are associated with and any rewards they contain. Each treasure icon will disappear once it has been looted. The locations of mounts, pets and other collectibles found in the open world are also noted.
 
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/treasures.png)
+### Battle Pets and Trainers
 
-## Pet Battles
+The locations of all pet trainers and creature battles are marked on the map. Any achievements associated with defeating that creature or trainer will appear in the tooltip.
 
-All pet battle trainer locations are marked on the map with the familiar paw icon. They also show your progress in completing their respective world quests for the [Battle in Shadowlands](https://shadowlands.wowhead.com/achievement=14625/battle-in-shadowlands) achievement.
+### Waypoints
 
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/pet_battles.png)
+Right-clicking a node to bring up its context menu. From this menu you can:
 
-## Bastion - Lost Anima Shards
+* Create a Blizzard or TomTom waypoint
+* Hide this node or restore all hidden nodes
 
-Hidden all over Bastion (and inside its dungeons) are 50 Lost Anima Shards that can be collected for the [Shard Labor](https://shadowlands.wowhead.com/achievement=14339/shard-labor) achievement. This achievement allows you to reforge the hammer needed to ring the [Vesper of the Silver Wind](https://shadowlands.wowhead.com/object=355435/vesper-of-the-silver-wind) and obtain the [Silverwind Larion](https://shadowlands.wowhead.com/item=180772/silverwind-larion) mount!
-
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/lost_anima_shards.png)
-
-Each shard includes a short note describing its location.
-
-## Maldraxxus - Pool of Mixed Monstrosities
-
-In Maldraxxus you will find a pool in which you can toss oozes, goos and oils as ingredients. Different rares will spawn depending on the combination used. The tooltip for this pool describes all the possible combinations, where to get the ingredients and your current loot and achievement status for each rare.
-
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/mixed_pool.png)
-
-## Maldraxxus - Slime Cats
-
-The locations of all nine cats you must pet for the [Nine Afterlives](https://shadowlands.wowhead.com/achievement=14634/nine-afterlives) achievement are displayed with instructions on how to reach them. Each cat icon will disappear once you have pet the cat.
-
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/slime_cats.png)
-
-## Revendreth - Carriages
-
-The paths of all rideable carriages are mapped for the Revendreth zone. Hop in to drop combat and ride past all hostile mobs. Riding each carriage also gives credit towards [The Afterlife Express](https://shadowlands.wowhead.com/achievement=14771/the-afterlife-express) achievement.
-
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/carriages.png)
-
-## Revendreth - Sinrunner Blanchy and the Loyal Gorger
-
-The [Sinrunner Blanchy](https://shadowlands.wowhead.com/item=182614/blanchys-reins) and [Loyal Gorger](https://shadowlands.wowhead.com/item=182589/loyal-gorger) mounts both require you to perform tasks over several days. The addon will keep track of your progress and display how far along you are in their tooltips.
-
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/dead_blanchy.png)
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/loyal_gorger.png)
-
-The Loyal Gorger icon will only appear once you have looted the [Impressionable Gorger Spawn](https://shadowlands.wowhead.com/item=180583/impressionable-gorger-spawn) from the [Worldedge Gorger](https://shadowlands.wowhead.com/npc=160821/worldedge-gorger) rare.
-
-## The Maw - Event Locations
-
-Daily bonus bosses and events in the maw which grant extra [Stygia](https://shadowlands.wowhead.com/currency=1767/stygia) are marked on the map with red and yellow pins respectively.
-
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/maw_events.png)
-
-These bosses differ from regular rares in the zone, which are marked with the usual skull icons.
-
-## The Maw - Chaotic Riftstones
-
-A handful of [Chaotic Riftstones](https://shadowlands.wowhead.com/search?q=Chaotic+Riftstone) can be found in the maw that will quickly transport you across the map. Their locations and paths have been marked so you can make efficient use of them!
-
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/chaotic_riftstones.png)
-
-## Quick Toggle Menu
+### Quick Toggle Menu
 
 In addition to the plugin settings menu found under *Interface > Addons > HandyNotes*, a quick toggle menu will appear on any map that contains nodes added by this plugin. This allows you to quickly toggle, resize or change the opacity of nodes displayed on the current map.
 
-![](https://www.tmdmguild.com/public/images/addons/shadowlands/quick_toggle.png)
+### Options
 
-## Other Options & Features
+* Change icon sizes and alpha based on type (rares, treasures, battle pets, etc)
+* Customize the size and color and POIs and paths.
+* Enable or disable groups of icons
+* Enlarge icons when the world map is maximized
+* Show only rares that you still need rewards from
+* Show already completed nodes
 
-* Toggle the display, scale and opacity of icons based on type (rares, treasures, battle pets, etc).
-* Create a Blizzard waypoint (new in Shadowlands) from the right-click context menu.
-* Create a TomTom waypoint from the right-click context menu.
-* Hide individual nodes from the right-click context menu.
-* Show only rares that have uncollected rewards (toys, pets, mounts, etc).
-* Show completed nodes (i.e. rares and treasures that have already been looted).
+## Expansion Features
+
+This plugin adds information to the map for the following zones:
+
+* Patch 9.0 (prepatch) - Icecrown
+* Patch 9.0 - Ardenweald, Bastion, Maldraxxus, Revendreth, The Maw
+
+In addition to rares, treasures and pet battles, this plugin also adds the following expansion or zone-specific items.
+
+### Icecrown (Prepatch)
+
+* Mini-boss locations, spawn order, spawn times and rewards.
+
+### Bastion
+
+* Lost Anima Shard locations for the [Shard Labor](https://shadowlands.wowhead.com/achievement=14339/shard-labor) achievement and [Silverwind Larion](https://shadowlands.wowhead.com/item=180772/silverwind-larion) mount.
+
+### Maldraxxus
+
+* Pool of Mixed Monstrosities summoning combinations and rewards.
+* Slime cat locations for the [Nine Afterlives](https://shadowlands.wowhead.com/achievement=14634/nine-afterlives) achievement.
+
+### Revendreth
+
+* Rideable carriage locations and paths for [The Afterlife Express](https://shadowlands.wowhead.com/achievement=14771/the-afterlife-express) achievement.
+* Dead Blanchy progress for the [Sinrunner Blanchy](https://shadowlands.wowhead.com/item=182614/blanchys-reins) mount.
+* Impressionable Gorger progress for the [Loyal Gorger](https://shadowlands.wowhead.com/item=182589/loyal-gorger) mount.
+
+### The Maw
+
+* Bonus boss and event locations for collecting [Stygia](https://shadowlands.wowhead.com/currency=1767/stygia).
+* Chaotic Riftstone locations and transport paths.
 
 ## Localization
 
@@ -91,6 +76,7 @@ This addon has been translated to the following languages:
 * `deDE` - German (thanks Dathwada!)
 * `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
 * `frFR` - French (thanks Lightuky!)
+* `ruRU` - Russian (thanks Hubbotu!)
 * `zhCN` - Chinese (Simplified) (thanks Adavak!)
 
 If you would like to translate the addon to another language, please open a [ticket](https://github.com/zarillion/handynotes-plugins/issues) or submit a [pull request](https://github.com/zarillion/handynotes-plugins/pulls) on GitHub.
