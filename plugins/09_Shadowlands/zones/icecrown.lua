@@ -4,6 +4,7 @@
 
 local _, ns = ...
 local L = ns.locale
+local Class = ns.Class
 local Map = ns.Map
 
 local Intro = ns.node.Intro
@@ -63,6 +64,16 @@ map.nodes[43905720] = map.intro
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+local ICCRare = Class('ICCRare', Rare, {
+    fgroup='iccrares',
+    note=L["icecrown_rares"]
+})
+
+function ICCRare:GetGlow(minimap)
+    -- Skip Rare:GetGlow, no quest ids for these
+    return ns.node.NPC.GetGlow(self, minimap)
+end
+
 local SHARED = {
     ns.reward.Spacer(),
     Section(L["shared_loot"]),
@@ -84,13 +95,11 @@ end
 
 -------------------------------------------------------------------------------
 
-nodes[31607050] = Rare({
+nodes[31607050] = ICCRare({
     id=174067,
     --quest=62345,
     sublabel=L["orig_nax"],
     rlabel='(1)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183642, slot=L["cloth"]}), -- Robes of Rasped Breaths
         Item({item=183676, note=L["ring"]}) -- Hailstone Loop
@@ -98,13 +107,11 @@ nodes[31607050] = Rare({
     pois={ POI({44204910}), Arrow({44204910, 31607050}) }
 }) -- Noth the Plaguebringer
 
-nodes[36506740] = Rare({
+nodes[36506740] = ICCRare({
     id=174066,
     --quest=62344,
     sublabel=L["orig_nax"],
     rlabel='(2)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183643, slot=L["2h_axe"]}), -- Severance of Mortality
         Transmog({item=183645, slot=L["leather"]}), -- Cinch of the Tortured
@@ -113,13 +120,11 @@ nodes[36506740] = Rare({
     pois={ POI({31607050}), Arrow({31607050, 36506740}) }
 }) -- Patchwerk
 
-nodes[49703270] = Rare({
+nodes[49703270] = ICCRare({
     id=174065,
     --quest=62343,
     sublabel=L["orig_icc"],
     rlabel='(3)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183647, slot=L["polearm"]}), -- Bloodspatter
         Transmog({item=183646, slot=L["mail"]}), -- Chestguard of Siphoned Vitality
@@ -128,13 +133,11 @@ nodes[49703270] = Rare({
     pois={ POI({36506740}), Arrow({36506740, 49703270}) }
 }) -- Blood Queen Lana'thel
 
-nodes[57103030] = Rare({
+nodes[57103030] = ICCRare({
     id=174064,
     --quest=62342,
     sublabel=L["orig_icc"],
     rlabel='(4)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183649, slot=L["leather"]}), -- Bag of Discarded Entrails
         Transmog({item=183651, slot=L["leather"]}), -- Chestplate of Septic Sutures
@@ -143,13 +146,11 @@ nodes[57103030] = Rare({
     pois={ POI({49703270}), Arrow({49703270, 57103030}) }
 }) -- Professor Putricide
 
-nodes[51107850] = Rare({
+nodes[51107850] = ICCRare({
     id=174063,
     --quest=62341,
     sublabel=L["orig_icc"],
     rlabel='(5)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183641, slot=L["cloth"]}), -- Shoulderpads of Corpal Rigidity
         Transmog({item=183653, slot=L["leather"]}), -- Deathwhisper Vestment
@@ -158,13 +159,11 @@ nodes[51107850] = Rare({
     pois={ POI({57103030}), Arrow({57103030, 51107850}) }
 }) -- Lady Deathwhisper
 
-nodes[57805610] = Rare({
+nodes[57805610] = ICCRare({
     id=174062,
     --quest=62340,
     sublabel=L["orig_utp"],
     rlabel='(6)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183656, slot=L["leather"]}), -- Drake Rider's Jerkin
         Transmog({item=183657, slot=L["mail"]}), -- Skadi's Scaled Sollerets
@@ -173,13 +172,11 @@ nodes[57805610] = Rare({
     pois={ POI({51107850}), Arrow({51107850, 57805610}) }
 }) -- Skadi the Ruthless
 
-nodes[52305260] = Rare({
+nodes[52305260] = ICCRare({
     id=174061,
     --quest=62339,
     sublabel=L["orig_utk"],
     rlabel='(7)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183658, slot=L["2h_axe"]}), -- Ingvar's Monolithic Skullcleaver
         Transmog({item=183668, slot=L["leather"]}), -- Razor-Barbed Leather Belt
@@ -188,13 +185,11 @@ nodes[52305260] = Rare({
     pois={ POI({57805610}), Arrow({57805610, 52305260}) }
 }) -- Ingvar the Plunderer
 
-nodes[54004470] = Rare({
+nodes[54004470] = ICCRare({
     id=174060,
     --quest=62338,
     sublabel=L["orig_utk"],
     rlabel='(8)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183678, slot=L["fist"]}), -- Keleseth's Influencer
         Transmog({item=183679, slot=L["leather"]}), -- Taldaram's Supple Slippers
@@ -206,13 +201,11 @@ nodes[54004470] = Rare({
     pois={ POI({52305260}), Arrow({52305260, 54004470}) }
 }) -- Prince Keleseth
 
-nodes[64802210] = Rare({
+nodes[64802210] = ICCRare({
     id=174059,
     --quest=62337,
     sublabel=L["orig_tot"],
     rlabel='(9)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183638, slot=L["dagger"]}), -- Phantasmic Kris
         Transmog({item=183637, slot=L["leather"]}), -- Shoulderpads of the Notorious Knave
@@ -221,13 +214,11 @@ nodes[64802210] = Rare({
     pois={ POI({54004470}), Arrow({54004470, 64802210}) }
 }) -- The Black Knight
 
-nodes[70603850] = Rare({
+nodes[70603850] = ICCRare({
     id=174058,
     --quest=62336,
     sublabel=L["orig_fos"],
     rlabel='(10)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183675, slot=L["cloth"]}), -- Cold Sweat Mitts
         Transmog({item=183668, slot=L["leather"]}), -- Razor-Barbed Leather Belt
@@ -238,13 +229,11 @@ nodes[70603850] = Rare({
     pois={ POI({64802210}), Arrow({64802210, 70603850}) }
 }) -- Bronjahm
 
-nodes[47406720] = Rare({
+nodes[47406720] = ICCRare({
     id=174057,
     --quest=62335,
     sublabel=L["orig_pos"],
     rlabel='(11)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183674, slot=L["cloth"]}), -- Rimewoven Pantaloons
         Transmog({item=183633, slot=L["leather"]}), -- Fringed Wyrmleather Leggings
@@ -253,13 +242,11 @@ nodes[47406720] = Rare({
     pois={ POI({70603850}), Arrow({70603850, 47406720}) }
 }) -- Scourgelord Tyrannus
 
-nodes[59107240] = Rare({
+nodes[59107240] = ICCRare({
     id=174056,
     --quest=62334,
     sublabel=L["orig_pos"],
     rlabel='(12)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183630, slot=L["2h_axe"]}), -- Garfrost's Two-Ton Bludgeon
         Transmog({item=183666, slot=L["plate"]}), -- Legguards of the Frosty Fathoms
@@ -268,13 +255,11 @@ nodes[59107240] = Rare({
     pois={ POI({47406720}), Arrow({47406720, 59107240}) }
 }) -- Forgemaster Garfrost
 
-nodes[58208350] = Rare({
+nodes[58208350] = ICCRare({
     id=174055,
     --quest=62333,
     sublabel=L["orig_hor"],
     rlabel='(13)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183687, slot=L["cloth"]}), -- Frayed Flesh-Stitched Shoulderguards
         Transmog({item=183663, slot=L["cloth"]}), -- Sightless Capuchin of Ulmaas
@@ -283,13 +268,11 @@ nodes[58208350] = Rare({
     pois={ POI({59107240}), Arrow({59107240, 58208350}) }
 }) -- Marwyn
 
-nodes[50208810] = Rare({
+nodes[50208810] = ICCRare({
     id=174054,
     --quest=62332,
     sublabel=L["orig_hor"],
     rlabel='(14)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183664, slot=L["cloth"]}), -- Bracer of Ground Molars
         Transmog({item=183665, slot=L["plate"]}), -- Valonforth's Marred Pauldrons
@@ -298,13 +281,11 @@ nodes[50208810] = Rare({
     pois={ POI({58208350}), Arrow({58208350, 50208810}) }
 }) -- Falric
 
-nodes[80106120] = Rare({
+nodes[80106120] = ICCRare({
     id=174053,
     --quest=62331,
     sublabel=L["orig_dtk"],
     rlabel='(15)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183686, slot=L["leather"]}), -- Breeches of the Skeletal Serpent
         Transmog({item=183684, slot=L["shield"]}), -- Tharon'ja's Protectorate
@@ -313,13 +294,11 @@ nodes[80106120] = Rare({
     pois={ POI({50208810}), Arrow({50208810, 80106120}) }
 }) -- The Prophet Tharon'ja
 
-nodes[77806610] = Rare({
+nodes[77806610] = ICCRare({
     id=174052,
     --quest=62330,
     sublabel=L["orig_dtk"],
     rlabel='(16)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183627, slot=L["1h_mace"]}), -- Summoner's Granite Gavel
         Transmog({item=183671, slot=L["mail"]}), -- Necromantic Wristwraps
@@ -328,13 +307,11 @@ nodes[77806610] = Rare({
     pois={ POI({80106120}), Arrow({80106120, 77806610}) }
 }) -- Novos the Summoner
 
-nodes[58303940] = Rare({
+nodes[58303940] = ICCRare({
     id=174051,
     --quest=62329,
     sublabel=L["orig_dtk"],
     rlabel='(17)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183626, slot=L["2h_sword"]}), -- Troll Gorer
         Transmog({item=183669, slot=L["cloth"]}) -- Cowl of the Rampaging Troll
@@ -342,26 +319,22 @@ nodes[58303940] = Rare({
     pois={ POI({77806610}), Arrow({77806610, 58303940}) }
 }) -- Trollgore
 
-nodes[67505800] = Rare({
+nodes[67505800] = ICCRare({
     id=174050,
     --quest=62328,
     sublabel=L["orig_azn"],
     rlabel='(18)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183681, slot=L["dagger"]}) -- Webrending Machete
     }),
     pois={ POI({58303940}), Arrow({58303940, 67505800}) }
 }) -- Krik'thir the Gatewatcher
 
-nodes[29606220] = Rare({
+nodes[29606220] = ICCRare({
     id=174049,
     --quest=62327,
     sublabel=L["orig_atk"],
     rlabel='(19)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183678, slot=L["fist"]}), -- Keleseth's Influencer
         Transmog({item=183679, slot=L["leather"]}), -- Taldaram's Supple Slippers
@@ -373,13 +346,11 @@ nodes[29606220] = Rare({
     pois={ POI({67505800}), Arrow({67505800, 29606220}) }
 }) -- Prince Taldaram
 
-nodes[44204910] = Rare({
+nodes[44204910] = ICCRare({
     id=174048,
     --quest=62326,
     sublabel=L["orig_atk"],
     rlabel='(20)',
-    note=L["icecrown_rares"],
-    fgroup='iccrares',
     rewards=SharedLoot({
         Transmog({item=183624, slot=L["dagger"]}), -- Serrated Blade of Nadox
         Item({item=183673, note=L["ring"]}) -- Nerubian Aegis Ring
