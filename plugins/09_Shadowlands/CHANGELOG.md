@@ -1,3 +1,20 @@
+# v12
+
+* Display upgrade requirement for Chaotic Riftstones.
+* Added an option to show character achievement progress instead of account progress.
+* Added an option to enlarge all icons by 30% when the world map is maximized.
+* Added quick-toggle option to open settings panel.
+* Added button in map settings to open corresponding world map.
+* Added descriptions and icons to the quick-toggle menu groups.
+* Improved tooltip formatting for quests, daily quests, world quests and achievements.
+* Numerous cleans and bugfixes to the core plugin code.
+* Localization updates for deDE, esES, ruRU and zhCN.
+
+## Prepatch Event
+
+* Do not remove prepatch bosses after kills (they are continuously lootable).
+* Highlight the full spawn path of the prepatch bosses on hover.
+
 # v11
 
 * Fixed "Hide rare, if all loot known" option.
