@@ -355,7 +355,9 @@ L["return_to_the_maw"] = "重返淵喉"
 L["maw_intro_note"] = "從 {npc:162804} 開始指引任務線以解鎖淵喉的稀有和事件。"
 
 L["apholeias_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:331783} 召喚稀有。"
+L["dekaris_note"] = nil
 L["ekphoras_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:330650} 召喚稀有。"
+L["ikras_note"] = nil
 L["orophea_note"] = "從東南方的拾取 {spell:337143} 並提供給 {npc:172577} 啟動。"
 L["sanngror_note"] = "如果他是不可攻擊，等待直到他不再對靈魂實驗。"
 L["talaporas_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:331800} 召喚稀有。"

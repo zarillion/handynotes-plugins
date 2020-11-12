@@ -361,7 +361,9 @@ Jusqu'à ce que vous rameniez {npc:170651} à Oribos, vous serez séparé de la 
 ]]
 
 L["apholeias_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:331783} pour invoquer le rare."
+L["dekaris_note"] = nil
 L["ekphoras_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:330650} pour invoquer le rare."
+L["ikras_note"] = nil
 L["orophea_note"] = "Ramassez {spell:337143} au sud-est et proposez-le à {npc:172577} pour l'activer."
 L["sanngror_note"] = "S'il n'est pas attaquable, attendez qu'il n'expérimente plus sur des âmes."
 L["talaporas_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:331800} pour invoquer le rare."

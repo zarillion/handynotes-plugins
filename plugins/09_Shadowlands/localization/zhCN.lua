@@ -355,7 +355,9 @@ L["return_to_the_maw"] = "重返噬渊"
 L["maw_intro_note"] = "从 {npc:162804} 开始指引任务线以解锁噬渊的稀有和事件。"
 
 L["apholeias_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:331783} 召唤稀有。"
+L["dekaris_note"] = nil
 L["ekphoras_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:330650} 召唤稀有。"
+L["ikras_note"] = nil
 L["orophea_note"] = "从东南方的拾取 {spell:337143} 并提供给 {npc:172577} 激活。"
 L["sanngror_note"] = "如果他是不可攻击，等待直到他不再灵魂实验。"
 L["talaporas_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:331800} 召唤稀有。"

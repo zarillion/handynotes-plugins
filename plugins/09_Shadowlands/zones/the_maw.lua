@@ -54,13 +54,14 @@ map.nodes[80306280] = map.intro
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[] = Rare({
---     id=157964,
---     quest=nil,
---     rewards={
---         Achievement({id=14744, criteria=49841}),
---     }
--- }) -- Adjutant Dekaris
+map.nodes[25923116] = Rare({
+    id=157964,
+    quest=57482,
+    note=L["dekaris_note"],
+    rewards={
+        Achievement({id=14744, criteria=49841})
+    }
+}) -- Adjutant Dekaris
 
 map.nodes[19324172] = Rare({
     id=170301,
@@ -131,7 +132,7 @@ map.nodes[42342108] = Rare({
     }
 }) -- Ekphoras, Herald of Grief
 
-map.nodes[27584966] = Rare({
+map.nodes[19194608] = Rare({ -- was 27584966
     id=154330,
     quest=57509,
     rewards={
@@ -147,6 +148,15 @@ map.nodes[20586935] = Rare({
         Achievement({id=14744, criteria=49851}),
     }
 }) -- Exos, Herald of Domination
+
+map.nodes[30775000] = Rare({
+    id=175012,
+    quest=nil,
+    note=L["ikras_note"],
+    rewards={
+        Achievement({id=14744, criteria=50621}),
+    }
+}) -- Ikras the Devourer
 
 map.nodes[16945102] = Rare({
     id=162849,
@@ -220,6 +230,11 @@ map.nodes[27397152] = Rare({
     }
 }) -- Thanassos <Death's Voice>
 
+-- map.nodes[] = Rare({
+--     id=165973,
+--     quest=61124,
+-- }) -- Warren Mongrel
+
 map.nodes[37676591] = Rare({
     id=172862,
     quest=61568,
@@ -245,9 +260,9 @@ local BonusBoss = Class('BonusBoss', NPC, {
     group = ns.groups.BONUS_BOSS
 })
 
-map.nodes[23004160] = BonusBoss({
+map.nodes[28204450] = BonusBoss({
     id=169102,
-    quest=61136,
+    quest=61136, -- 63380
     note=L["in_cave"],
     rewards={
         Achievement({id=14660, criteria=49485}),
@@ -337,6 +352,18 @@ map.nodes[25364875] = BonusBoss({
     }
 }) -- Orrholyn <Lord of Bloodletting>
 
+map.nodes[22674223] = BonusBoss({
+    id=175821,
+    quest=63044, -- 63388 ??
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=14660, criteria=51058}),
+    },
+    pois={
+        POI({20813927}) -- Cave entrance
+    }
+}) -- Ratgusher
+
 map.nodes[26173744] = BonusBoss({
     id=162829,
     quest=62228,
@@ -401,14 +428,6 @@ map.nodes[40705959] = BonusBoss({
         Achievement({id=14660, criteria=49492}),
     }
 }) -- Valis the Cruel
-
--- map.nodes[] = BonusBoss({
---     id=165973,
---     quest=61124,
---     rewards={
---         Achievement({id=14660, criteria=49483}),
---     }
--- }) -- Warren Mongrel
 
 -------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE EVENTS ---------------------------

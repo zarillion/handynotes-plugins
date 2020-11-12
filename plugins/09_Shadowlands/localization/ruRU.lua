@@ -356,7 +356,9 @@ L["return_to_the_maw"] = "Return to the Maw"
 L["maw_intro_note"] = "Begin the introductory quest chain from {npc:162804} to unlock rares and events in the maw."
 
 L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
+L["dekaris_note"] = nil
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
+L["ikras_note"] = nil
 L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
 L["sanngror_note"] = "If he is not attackable, wait until he is not experimenting on souls."
 L["talaporas_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331800} to summon the rare."

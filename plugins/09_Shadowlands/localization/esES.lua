@@ -357,7 +357,9 @@ L["return_to_the_maw"] = "Regreso a Las Fauces"
 L["maw_intro_note"] = "Comienza la cadena de misiones introductoria de {npc:162804} para desbloquear los raros y los eventos en Las Fauces."
 
 L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331783} para hacer aparecer a {npc:170301}."
+L["dekaris_note"] = nil
 L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:330650} para hacer aparecer a {npc:169827}."
+L["ikras_note"] = nil
 L["orophea_note"] = "Coge el {spell:337143} al sureste y ofréceselo a {npc:172577} para que se active."
 L["sanngror_note"] = "Si no se puede atacar a {npc:172521}, espera hasta que no esté experimentando con las almas."
 L["talaporas_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331800} para hacer aparecer a {npc:170302}."
