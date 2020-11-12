@@ -129,22 +129,9 @@ function ICCRare:GetGlow(minimap)
     return ns.node.NPC.GetGlow(self, minimap)
 end
 
-local SHARED = {
-    ns.reward.Spacer(),
-    Section(L["shared_loot"]),
-    Transmog({item=183652, slot=L["bow"]}), -- Zod's Echoing Longbow
-    Transmog({item=183682, slot=L["cloth"]}), -- Cinch of the Servant
-    Transmog({item=183683, slot=L["leather"]}), -- Skittering Vestments
-    Transmog({item=183640, slot=L["mail"]}), -- Leggings of Disreputable Charms
-    Transmog({item=183654, slot=L["plate"]}), -- Etched Dragonbone Stompers
-    Item({item=183616}) -- Accursed Keepsake
-}
-
 local function SharedLoot(rewards)
-    for i, r in ipairs(SHARED) do
-        rewards[#rewards + 1] = r
-    end
-    table.insert(rewards, 1, Section(L["unique_loot"]))
+    -- Only shared item on live appears to be the keepsake
+    rewards[#rewards + 1] = Item({item=183616}) -- Accursed Keepsake
     return rewards
 end
 
@@ -157,6 +144,7 @@ nodes[31607050] = ICCRare({
     rlabel='(1)',
     rewards=SharedLoot({
         Transmog({item=183642, slot=L["cloth"]}), -- Robes of Rasped Breaths
+        Transmog({item=183654, slot=L["plate"]}), -- Etched Dragonbone Stompers
         Item({item=183676, note=L["ring"]}) -- Hailstone Loop
     }),
     pois={ POI({44204910}), Arrow({44204910, 31607050}) }
@@ -207,7 +195,7 @@ nodes[51107850] = ICCRare({
     sublabel=L["orig_icc"],
     rlabel='(5)',
     rewards=SharedLoot({
-        Transmog({item=183641, slot=L["cloth"]}), -- Shoulderpads of Corpal Rigidity
+        Transmog({item=183652, slot=L["bow"]}), -- Zod's Echoing Longbow
         Transmog({item=183653, slot=L["leather"]}), -- Deathwhisper Vestment
         Transmog({item=183655, slot=L["mail"]}) -- Handgrips of Rime and Sleet
     }),
@@ -248,11 +236,8 @@ nodes[54004470] = ICCRare({
     rlabel='(8)',
     rewards=SharedLoot({
         Transmog({item=183678, slot=L["fist"]}), -- Keleseth's Influencer
-        Transmog({item=183679, slot=L["leather"]}), -- Taldaram's Supple Slippers
-        Transmog({item=183677, slot=L["mail"]}), -- Blood-Drinker's Belt
         Transmog({item=183661, slot=L["mail"]}), -- Drake Stabler's Gauntlets
-        Transmog({item=183680, slot=L["cloak"]}), -- Royal Sanguine Cloak
-        Item({item=183625, note=L["neck"]}) -- Reforged Necklace of Taldaram
+        Transmog({item=183680, slot=L["cloak"]}) -- Royal Sanguine Cloak
     }),
     pois={ POI({52305260}), Arrow({52305260, 54004470}) }
 }) -- Prince Keleseth
@@ -277,7 +262,6 @@ nodes[70603850] = ICCRare({
     rlabel='(10)',
     rewards=SharedLoot({
         Transmog({item=183675, slot=L["cloth"]}), -- Cold Sweat Mitts
-        Transmog({item=183668, slot=L["leather"]}), -- Razor-Barbed Leather Belt
         Transmog({item=183639, slot=L["mail"]}), -- Gaze of Bewilderment
         Transmog({item=183635, slot=L["plate"]}), -- Grieving Gauntlets
         Item({item=183634}) -- Papa's Mint Condition Bag
@@ -304,7 +288,7 @@ nodes[59107240] = ICCRare({
     sublabel=L["orig_pos"],
     rlabel='(12)',
     rewards=SharedLoot({
-        Transmog({item=183630, slot=L["2h_axe"]}), -- Garfrost's Two-Ton Bludgeon
+        Transmog({item=183630, slot=L["2h_mace"]}), -- Garfrost's Two-Ton Bludgeon
         Transmog({item=183666, slot=L["plate"]}), -- Legguards of the Frosty Fathoms
         Item({item=183631, note=L["ring"]}) -- Ring of Carnelian and Sinew
     }),
@@ -330,9 +314,9 @@ nodes[50208810] = ICCRare({
     sublabel=L["orig_hor"],
     rlabel='(14)',
     rewards=SharedLoot({
+        Transmog({item=183667, slot=L["1h_sword"]}), -- Geistslicer
         Transmog({item=183664, slot=L["cloth"]}), -- Bracer of Ground Molars
-        Transmog({item=183665, slot=L["plate"]}), -- Valonforth's Marred Pauldrons
-        Transmog({item=183666, slot=L["plate"]}) -- Legguards of the Frosty Fathoms
+        Transmog({item=183665, slot=L["plate"]}) -- Valonforth's Marred Pauldrons
     }),
     pois={ POI({58208350}), Arrow({58208350, 50208810}) }
 }) -- Falric
@@ -370,7 +354,8 @@ nodes[58303940] = ICCRare({
     rlabel='(17)',
     rewards=SharedLoot({
         Transmog({item=183626, slot=L["2h_sword"]}), -- Troll Gorer
-        Transmog({item=183669, slot=L["cloth"]}) -- Cowl of the Rampaging Troll
+        Transmog({item=183669, slot=L["cloth"]}), -- Cowl of the Rampaging Troll
+        Transmog({item=183640, slot=L["mail"]}) -- Leggings of Disreputable Charms
     }),
     pois={ POI({77806610}), Arrow({77806610, 58303940}) }
 }) -- Trollgore
@@ -381,7 +366,9 @@ nodes[67505800] = ICCRare({
     sublabel=L["orig_azn"],
     rlabel='(18)',
     rewards=SharedLoot({
-        Transmog({item=183681, slot=L["dagger"]}) -- Webrending Machete
+        Transmog({item=183681, slot=L["dagger"]}), -- Webrending Machete
+        Transmog({item=183682, slot=L["cloth"]}), -- Cinch of the Servant
+        Transmog({item=183683, slot=L["leather"]}) -- Skittering Vestments
     }),
     pois={ POI({58303940}), Arrow({58303940, 67505800}) }
 }) -- Krik'thir the Gatewatcher
@@ -392,11 +379,8 @@ nodes[29606220] = ICCRare({
     sublabel=L["orig_atk"],
     rlabel='(19)',
     rewards=SharedLoot({
-        Transmog({item=183678, slot=L["fist"]}), -- Keleseth's Influencer
         Transmog({item=183679, slot=L["leather"]}), -- Taldaram's Supple Slippers
         Transmog({item=183677, slot=L["mail"]}), -- Blood-Drinker's Belt
-        Transmog({item=183661, slot=L["mail"]}), -- Drake Stabler's Gauntlets
-        Transmog({item=183680, slot=L["cloak"]}), -- Royal Sanguine Cloak
         Item({item=183625, note=L["neck"]}) -- Reforged Necklace of Taldaram
     }),
     pois={ POI({67505800}), Arrow({67505800, 29606220}) }
@@ -408,8 +392,8 @@ nodes[44204910] = ICCRare({
     sublabel=L["orig_atk"],
     rlabel='(20)',
     rewards=SharedLoot({
-        Transmog({item=183641, slot=L["cloth"]}), -- Shoulderpads of Corpal Rigidity
         Transmog({item=183624, slot=L["dagger"]}), -- Serrated Blade of Nadox
+        Transmog({item=183641, slot=L["cloth"]}), -- Shoulderpads of Corpal Rigidity
         Item({item=183673, note=L["ring"]}) -- Nerubian Aegis Ring
     }),
     pois={ POI({29606220}), Arrow({29606220, 44204910}) }
