@@ -194,7 +194,7 @@ nodes[57103030] = ICCRare({
     rlabel='(4)',
     rewards=SharedLoot({
         Transmog({item=183649, slot=L["leather"]}), -- Bag of Discarded Entrails
-        Transmog({item=183651, slot=L["leather"]}), -- Chestplate of Septic Sutures
+        Transmog({item=183651, slot=L["plate"]}), -- Chestplate of Septic Sutures
         Item({item=183650, note=L["trinket"]}) -- Miniscule Abomination in a Jar
     }),
     pois={ POI({49703270}), Arrow({49703270, 57103030}) }
