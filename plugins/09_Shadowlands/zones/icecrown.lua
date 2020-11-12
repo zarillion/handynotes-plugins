@@ -13,7 +13,6 @@ local Rare = ns.node.Rare
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Quest = ns.reward.Quest
-local Section = ns.reward.Section
 local Transmog = ns.reward.Transmog
 
 local Arrow = ns.poi.Arrow
