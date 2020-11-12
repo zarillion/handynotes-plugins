@@ -1,3 +1,8 @@
+# v17
+
+* Fixed prepatch miniboss drop tables based on Wowhead data.
+* Fixed miniboss glows appearing for already-spawned bosses.
+
 # v16
 
 * Ignore old/stale saved spawn times for prepatch mini bosses.
