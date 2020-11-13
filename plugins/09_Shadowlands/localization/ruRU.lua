@@ -338,15 +338,15 @@ L["sinrunner_note_day4"] = "Pick up the {item:182620} near {npc:173570} and fill
 L["sinrunner_note_day5"] = "Equip Blanchy with a {item:182597}, sold by {npc:171808} near the Night Market in exchange for assorted meats."
 L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} by the Hole in the Wall."
 
-L["options_icons_carriages"] = "Carriages"
-L["options_icons_carriages_desc"] = "Display locations and paths of rideable carriages."
+L["options_icons_carriages"] = "Экипажи"
+L["options_icons_carriages_desc"] = "Отображение местоположения и пути проезжаемых экипажей."
 
-L["dominance_keep"] = "Dominance Keep"
-L["eternal_terrace"] = "The Eternal Terrace"
-L["feeders_thicket"] = "Feeders' Thicket"
-L["halls_of_atonement"] = "Halls of Atonement"
-L["pridefall_hamlet"] = "Pridefall Hamlet"
-L["the_banewood"] = "The Banewood"
+L["dominance_keep"] = "Крепость Господства"
+L["eternal_terrace"] = "Вечная терраса"
+L["feeders_thicket"] = "Чаща пожирателей"
+L["halls_of_atonement"] = "Чертоги Покаяния"
+L["pridefall_hamlet"] = "Кладбище Гордыни"
+L["the_banewood"] = ""Дорога в Гибельный лес""
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
