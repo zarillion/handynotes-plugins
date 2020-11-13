@@ -77,13 +77,9 @@ L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo c
 L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."
 L["basilofos_note"] = "Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}."
 L["beasts_of_bastion"] = "Bestias de Bastión"
-L["beasts_of_bastion_note"] = [[
-Habla con la {npc:161441} para invocar una de las cuatro bestias.
-
-|cFFFF0000NOTE|r: La NPC se bugea frecuentemente y no hablará contigo.
-]]
+L["beasts_of_bastion_note"] = "Habla con la {npc:161441} para invocar una de las cuatro bestias."
 L["bookkeeper_mnemis_note"] = "Tiene la posibilidad de aparecer en lugar de las {npc:166867} del sitio."
-L["cloudfeather_patriarch_note"] = "Mata {npc:158110} en el aŕea hasta que aparezca el {npc:170932}."
+L["cloudfeather_patriarch_note"] = "Mata {npc:158110} en el aŕea hasta que el {npc:170932} te ataque."
 L["collector_astor_note"] = "Lee los seis capítulos de El Legado de Mercia dispersos por la habitación y recibirás un susurro del {npc:157979}. Habla con ella para recibir {spell:333779} la cual te permitirá encontrar {item:180569} al noroeste. Al devolvérselo, aparecerá el {npc:171014}."
 L["corrupted_clawguard_note"] = "Despoja un {item:180651} en Avanzada Forjafuego subiendo la colina y úsalo para reparar el {npc:171300}."
 L["dark_watcher_note"] = "Sólo puede verse estando muerto. Habla con la {npc:170623} y te lanzará {spell:332830} antes de que seas atacado."
@@ -104,13 +100,13 @@ L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén prese
 L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno de Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras)."
 
 L["broken_flute"] = "Mata a las {npc:170009} cercanas hasta que una suelte la {item:180536}. Usa las herramientas para repararla."
-L["cloudwalkers_coffer"] = nil
-L["cloudwalkers_coffer_note"] = nil
+L["cloudwalkers_coffer"] = "Arca de Caminanubes"
+L["cloudwalkers_coffer_note"] = "usa las grandes flores lilas para saltar a la plataforma."
 L["experimental_construct_part"] = "Despoja un {item:180534} cercano y úsalo para reparar la Pieza de Ensamblaje Experimental. El ánima tiene varios sitios de aparición."
 L["larion_harness"] = "Localizado dentro de la Sala de las Bestias."
-L["memorial_offering"] = "Compra una botella de {item:180788} a {npc:171526} en el Reposo del Aspirante. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}."
+L["memorial_offering"] = "Encuentra a {npc:171526} en uno de estos lugares de Bastión y cómprale una botella de {item:180788}. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}."
 L["scroll_of_aeons"] = "Coge de un cuenco 2 {item:173973} en el centro del área y colócalas en los cuencos de tributo cercanos para revelar el tesoro {item:173984}."
-L["vesper_of_silver_wind"] = nil
+L["vesper_of_silver_wind"] = "Campana de Vísperas del Viento de Plata"
 L["vesper_of_silver_wind_note"] = "Completa el logro {achievement:14339} y habla con el {npc:171732} cerca de la entrada a las Agujas de Ascensión para forjar la {item:180858}."
 
 L["gift_of_agthia"] = "Haz click en la antorcha encendida cerca del puente roto al noroeste y lleva la {spell:333320} de antorcha a antorcha hasta llegar al cofre. Al encender la última antorcha conseguirás la {spell:333063}."
@@ -166,7 +162,7 @@ L["anima_shard_61278"] = "Debajo del puente y sobre una roca."
 L["anima_shard_61279"] = "Sobre una fina columna de piedra."
 L["anima_shard_61280"] = "En la esquina de la mesa."
 L["anima_shard_61281"] = "En una repisa sobre el tesoro de las Ofrendas Conmemorativas."
-L["anima_shard_61282"] = "En una repisa debajo de la cima del precipio. Salta sobre la roca siguiente o serás llevado de vuelta arriba."
+L["anima_shard_61282"] = "En una repisa debajo de la cima del precipio."
 L["anima_shard_61283"] = "En una cueva debajo de la Capilla de Miri, detrás de unos barriles."
 L["anima_shard_61284"] = "En una repisa debajo de un saliente rocoso, camino al sur."
 L["anima_shard_61285"] = "Al final de una pequeña repisa de roca."
