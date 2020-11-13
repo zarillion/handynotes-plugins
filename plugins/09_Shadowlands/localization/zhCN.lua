@@ -232,7 +232,7 @@ L["plaguefallen_chest_note"] = [[
 
 转化后，到 {npc:158406} 平台（入口在东侧）下面洞穴并点击管道传送宝箱。
 ]]
-L["ritualists_cache_note"] = "从骨头堆（多个刷新点）在地面上拾取 {item:181558} 并使用它完成装订仪式书。"
+L["ritualists_cache_note"] = "在地面上拾取 {item:181558} 并使用它完成装订仪式书。"
 L["runespeakers_trove_note"] = "东侧找到 {npc:170563} 并击杀他获得 {item:181777}。"
 L["stolen_jar_note"] = "在多个不同的洞穴刷新。"
 L["strange_growth_note"] = "攻击 {npc:165037} 获得宝藏。"
