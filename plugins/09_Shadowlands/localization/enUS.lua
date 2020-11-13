@@ -75,13 +75,9 @@ L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC
 L["baedos_note"] = "Carry casks of Fermenting Purian Fruit from the surrounding area to {npc:161536} until he activates."
 L["basilofos_note"] = "Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn."
 L["beasts_of_bastion"] = "Beasts of Bastion"
-L["beasts_of_bastion_note"] = [[
-Talk to {npc:161441} to summon one of the four beasts.
-
-|cFFFF0000NOTE|r: The NPC is often bugged and will not talk to you.
-]]
+L["beasts_of_bastion_note"] = "Talk to {npc:161441} to summon one of the four beasts."
 L["bookkeeper_mnemis_note"] = "Has a chance to spawn in place of the {npc:166867} units in the area."
-L["cloudfeather_patriarch_note"] = "Kill {npc:158110} in the area until the rare emotes and spawns."
+L["cloudfeather_patriarch_note"] = "Kill {npc:158110s} in the area until the guardian engages you."
 L["collector_astor_note"] = "Read all six chapters of Mercia's Legacy scattered around the room, after which you will receive a whisper from {npc:157979}. Talk to her to receive {spell:333779}, allowing you to find the hidden {item:180569} to the northwest. Returning the chapter will spawn the rare."
 L["corrupted_clawguard_note"] = "Loot a {item:180651} in Forgefire Outpost up the hill and use it to repair the {npc:171300}."
 L["dark_watcher_note"] = "Can only be seen while dead. Talk to her and she will cast {spell:332830} on you before attacking."
@@ -102,11 +98,14 @@ L["unstable_memory_note"] = "Can be spawned when {npc:171018s} are present. Drag
 L["wingflayer_note"] = "To summon, click the Horn of Courage on the nearby table (southeast, up the stairs)."
 
 L["broken_flute"] = "Kill nearby {npc:170009} until they drop the {item:180536}, then use the tools to repair it."
+L["cloudwalkers_coffer"] = "Cloudwalker's Coffer"
+L["cloudwalkers_coffer_note"] = "Use the large purple flowers to bounce up to the platform."
 L["experimental_construct_part"] = "Loot a nearby {item:180534} and use it to repair the part. The anima has multiple spawn locations."
 L["larion_harness"] = "Located inside the Hall of Beasts."
-L["memorial_offering"] = "Purchase a {item:180788} from {npc:171526} in Aspirant's Rest. Place it in the drink tray near the chest to obtain the {item:180797}."
+L["memorial_offering"] = "Find {npc:171526} at one of his locations across Bastion and purchase a {item:180788}. Place it in the drink tray near the chest to obtain the {item:180797}."
 L["scroll_of_aeons"] = "Loot 2 {item:173973} in the center area and place them on the nearby tribute platters to reveal the treasure."
-L["vesper_of_silver_wind"] = "Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to Spires of Ascension to forge a {item:180858}."
+L["vesper_of_silver_wind"] = "Vesper of the Silver Wind"
+L["vesper_of_silver_wind_note"] = "Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to Spires of Ascension to forge a {item:180858}."
 
 L["gift_of_agthia"] = "Click the lit torch near the broken bridge to the northwest and carry {spell:333320} from torch to torch until you reach the chest. Lighting the final torch will grant you {spell:333063}."
 L["gift_of_chyrus"] = "Kneel in front of the chest to be granted {spell:333045}."
@@ -161,7 +160,7 @@ L["anima_shard_61278"] = "Underneath the bridge on a rock."
 L["anima_shard_61279"] = "On top of a thin stone column."
 L["anima_shard_61280"] = "On the corner of the table."
 L["anima_shard_61281"] = "On a ledge above the Memorial Offerings treasure."
-L["anima_shard_61282"] = "On a ledge way below the cliff top. Jump on the rock next to it or you will be ported back up."
+L["anima_shard_61282"] = "On a ledge below the cliff top."
 L["anima_shard_61283"] = "In a cave under Miri's Chapel, behind some barrels."
 L["anima_shard_61284"] = "On a ledge under a rocky overhang, path to the south."
 L["anima_shard_61285"] = "At the end of a small rock ledge."

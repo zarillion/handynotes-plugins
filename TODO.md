@@ -7,11 +7,14 @@
 * Add list of map items to quest log panel (new tab?)
 * Fix transmog collected state on initial load.
 * Investigate auto NPC coloring for tooltips (red, green, yellow).
+* Double-click to create Blizzard waypoint.
 
 # Shadowlands
 
 * Filter covenant-specific rewards
 * Add Ve'nari node with available and purchased upgrades + ['Ghast Five](https://shadowlands.wowhead.com/achievement=14895)
+* Add [Family Exorcist](https://shadowlands.wowhead.com/achievement=14879/family-exorcist) achievements to trainers.
+* [Abhorrent Adversaries of the Afterlife](https://shadowlands.wowhead.com/achievement=14881/abhorrent-adversaries-of-the-afterlife)
 * [Ardenweald Gourmand](https://www.wowhead.com/achievement=14774/ardenweald-gourmand)
 * [Bat!](https://www.wowhead.com/achievement=14769/bat)
 * [Count Your Blessings](https://www.wowhead.com/achievement=14767/count-your-blessings)

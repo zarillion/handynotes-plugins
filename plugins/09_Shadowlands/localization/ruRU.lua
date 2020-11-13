@@ -103,11 +103,14 @@ L["unstable_memory_note"] = "Can be spawned when {npc:171018s} are present. Drag
 L["wingflayer_note"] = "To summon, click the Horn of Courage on the nearby table (southeast, up the stairs)."
 
 L["broken_flute"] = "Kill nearby {npc:170009} until they drop the {item:180536}, then use the tools to repair it."
+L["cloudwalkers_coffer"] = nil
+L["cloudwalkers_coffer_note"] = nil
 L["experimental_construct_part"] = "Найдите ближайший {item:180534} и используйте его, чтобы починить деталь. У анимы есть несколько мест появления."
 L["larion_harness"] = "Located inside the Hall of Beasts."
 L["memorial_offering"] = "Purchase a {item:180788} from {npc:171526} in Aspirant's Rest. Place it in the drink tray near the chest to obtain the {item:180797}."
 L["scroll_of_aeons"] = "Добудьте 2 {item:173973} в центре и поместите их на близлежащие подносы, чтобы найти сокровище."
-L["vesper_of_silver_wind"] = "Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to Spires of Ascension to forge a {item:180858}."
+L["vesper_of_silver_wind"] = nil
+L["vesper_of_silver_wind_note"] = "Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to Spires of Ascension to forge a {item:180858}."
 
 L["gift_of_agthia"] = "Click the lit torch near the broken bridge to the northwest and carry {spell:333320} from torch to torch until you reach the chest. Lighting the final torch will grant you {spell:333063}."
 L["gift_of_chyrus"] = "Встать на колени перед сундуком, чтобы получить {spell:333045}."

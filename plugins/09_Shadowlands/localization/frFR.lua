@@ -104,11 +104,14 @@ L["unstable_memory_note"] = "Peut être invoqué quand les {npc:171018}s sont pr
 L["wingflayer_note"] = "Pour l'invoquer, cliquez sur la Corne du Courage sur la table voisine (au sud-est, en haut des escaliers)."
 
 L["broken_flute"] = "Tuez les {npc:170009} à proximité jusqu'à ce qu'ils laissent tomber la {item:180536}, puis utilisez les outils pour la réparer."
+L["cloudwalkers_coffer"] = nil
+L["cloudwalkers_coffer_note"] = nil
 L["experimental_construct_part"] = "Procurez-vous un {item:180534} proche et utilisez-le pour réparer la pièce. L'anima a plusieurs lieux d'apparition."
 L["larion_harness"] = "Situé à l'intérieur du Hall des Bêtes."
 L["memorial_offering"] = "Achetez un {item:180788} auprès de {npc:171526} au Repos de l'Aspirant. Placez-le sur le plateau de boissons près du coffre pour obtenir la {item:180797}."
 L["scroll_of_aeons"] = "Procurez-vous 2 {item:173973} dans la zone centrale et placez-les sur les plateaux d'hommage à proximité pour révéler le trésor."
-L["vesper_of_silver_wind"] = "Terminez le haut-fait {achievement:14339} et parlez ensuite à {npc:171732} près de l'entrée des Flèches de l'Ascension pour forger un {item:180858}."
+L["vesper_of_silver_wind"] = nil
+L["vesper_of_silver_wind_note"] = "Terminez le haut-fait {achievement:14339} et parlez ensuite à {npc:171732} près de l'entrée des Flèches de l'Ascension pour forger un {item:180858}."
 
 L["gift_of_agthia"] = "Cliquez sur la torche allumée près du pont brisé au nord-ouest et portez {spell:333320} de torche en torche jusqu'au coffre. En allumant la dernière torche, vous obtiendrez {spell:333063}."
 L["gift_of_chyrus"] = "S'agenouiller devant le coffre pour recevoir {spell:333045}."

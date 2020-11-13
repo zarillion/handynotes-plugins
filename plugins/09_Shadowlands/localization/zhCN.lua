@@ -102,11 +102,14 @@ L["unstable_memory_note"] = "当 {npc:171018} 存在时可以刷新。拉一个 
 L["wingflayer_note"] = "点击附近桌上的勇气号角召唤（东南方，楼梯上）。"
 
 L["broken_flute"] = "击杀附近的 {npc:170009} 直到掉落 {item:180536}，使用此工具修理它。"
+L["cloudwalkers_coffer"] = nil
+L["cloudwalkers_coffer_note"] = nil
 L["experimental_construct_part"] = "拾取附近 {item:180534} 并使用修理部件。新能有多个刷新地点。."
 L["larion_harness"] = "位于野兽大厅内。"
 L["memorial_offering"] = "从候选者之憩的 {npc:171526} 购买 {item:180788}。将其放在靠近宝箱的饮料托盘中以获取 {item:180797}。"
 L["scroll_of_aeons"] = "在中心地区拾取2个 {item:173973} 并将它们放在附近的贡品盘上显出宝藏。"
-L["vesper_of_silver_wind"] = "完成 {achievement:14339} 成就并和晋升高塔入口的 {npc:171732} 交谈铸造 {item:180858}。"
+L["vesper_of_silver_wind"] = nil
+L["vesper_of_silver_wind_note"] = "完成 {achievement:14339} 成就并和晋升高塔入口的 {npc:171732} 交谈铸造 {item:180858}。"
 
 L["gift_of_agthia"] = "点击通往西北方断桥的火炬并携带 {spell:333320} 从火炬到火炬直到到达宝箱。点亮最后的火炬你会受益 {spell:333063}。"
 L["gift_of_chyrus"] = "在宝箱前面跪下将被授予 {spell:333045}。"

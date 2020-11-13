@@ -104,11 +104,14 @@ L["unstable_memory_note"] = "Puede aparecer cuando los {npc:171018} estén prese
 L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno de Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras)."
 
 L["broken_flute"] = "Mata a las {npc:170009} cercanas hasta que una suelte la {item:180536}. Usa las herramientas para repararla."
+L["cloudwalkers_coffer"] = nil
+L["cloudwalkers_coffer_note"] = nil
 L["experimental_construct_part"] = "Despoja un {item:180534} cercano y úsalo para reparar la Pieza de Ensamblaje Experimental. El ánima tiene varios sitios de aparición."
 L["larion_harness"] = "Localizado dentro de la Sala de las Bestias."
 L["memorial_offering"] = "Compra una botella de {item:180788} a {npc:171526} en el Reposo del Aspirante. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}."
 L["scroll_of_aeons"] = "Coge de un cuenco 2 {item:173973} en el centro del área y colócalas en los cuencos de tributo cercanos para revelar el tesoro {item:173984}."
-L["vesper_of_silver_wind"] = "Completa el logro {achievement:14339} y habla con el {npc:171732} cerca de la entrada a las Agujas de Ascensión para forjar la {item:180858}."
+L["vesper_of_silver_wind"] = nil
+L["vesper_of_silver_wind_note"] = "Completa el logro {achievement:14339} y habla con el {npc:171732} cerca de la entrada a las Agujas de Ascensión para forjar la {item:180858}."
 
 L["gift_of_agthia"] = "Haz click en la antorcha encendida cerca del puente roto al noroeste y lleva la {spell:333320} de antorcha a antorcha hasta llegar al cofre. Al encender la última antorcha conseguirás la {spell:333063}."
 L["gift_of_chyrus"] = "Arrodíllate frente al cofre para conseguir la {spell:333045}."

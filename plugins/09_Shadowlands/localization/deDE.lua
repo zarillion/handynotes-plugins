@@ -103,11 +103,14 @@ L["unstable_memory_note"] = "Kann beschworen werden, wenn {npc:171018} anwesend 
 L["wingflayer_note"] = "Klicke zum Beschwören das Horn des Mutes auf dem Tisch in der Nähe an. (41.6, 54.5)"
 
 L["broken_flute"] = "Töte |CFFFFFF00Beunruhigte Ätherwyrme|r in diesem Gebiet, bis diese {item:180536} fallen lassen, dann verwende die Werkzeuge, um die Flöte zu reparieren." --{npc:170009}
+L["cloudwalkers_coffer"] = nil
+L["cloudwalkers_coffer_note"] = nil
 L["experimental_construct_part"] = "Plündere ein {item:180534} in der Nähe und verwende es, um den Gegenstand zu reparieren. Das {item:180534} erscheint an verschiedenen Stellen."
 L["larion_harness"] = "Befindet sich in der Halle der Bestien."
 L["memorial_offering"] = "Kaufe 1x {item:180788} von {npc:171526} in der Aspirantenrast (48.0, 73.9). Stelle es auf das Getränketablett in der Nähe der Truhe, um den {item:180797} zum öffnen der Truhe zu erhalten."
 L["scroll_of_aeons"] = "Plündere 2x {item:173973} im mittleren Bereich und platziere diese auf den Tributplatten in der Nähe, um den Schatz zu enthüllen."
-L["vesper_of_silver_wind"] = "Schließe den Erfolg {achievement:14339} ab und sprich dann mit {npc:171732} nahe dem Eingang zu den Spitzen des Aufstieges, um einen {item:180858} zu schmieden."
+L["vesper_of_silver_wind"] = nil
+L["vesper_of_silver_wind_note"] = "Schließe den Erfolg {achievement:14339} ab und sprich dann mit {npc:171732} nahe dem Eingang zu den Spitzen des Aufstieges, um einen {item:180858} zu schmieden."
 
 L["gift_of_agthia"] = "Klicke auf die brennende Fackel in der Nähe der kaputten Brücke im Nordwesten (bei 39.1, 54.5) und trage {spell:333320} von Fackel zu Fackel bis du die Truhe erreichst. Wenn du die letzte Fackel anzündest wird dir der {spell:333063} gewährt, um die Truhe öffnen zu können."
 L["gift_of_chyrus"] = "Knie vor er Truhe, um den {spell:333045} zu erhalten. \nVerwende die Transportplattform (bei 69.4, 40.3), um nach oben zu gelangen."
