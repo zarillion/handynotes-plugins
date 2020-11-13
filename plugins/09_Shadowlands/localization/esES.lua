@@ -234,9 +234,9 @@ Quédate de pie en la baba verde (¡requiere sanación!) para conseguir 10 acumu
 
 Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:158406} (la entrada está en el lado este) y haz click en el tubo para llegar al cofre.
 ]]
-L["ritualists_cache_note"] = "Despoja las {item:181558} de una pila de huesos (aparece en varios sitios). Úsalas para completar el Libro de Rituales de Vinculación en el podio detrás de {npc:174386} con lo que ganarás el buff del {spell:337041}."
+L["ritualists_cache_note"] = "Recoge las {item:181558} del suelo y úsalas para completar el Libro de Rituales de Vinculación."
 L["runespeakers_trove_note"] = "Busca al {npc:170563} al este y mátalo para conseguir la {item:181777}."
-L["stolen_jar_note"] = "En una cueva debajo del champiñón gigante."
+L["stolen_jar_note"] = "Aparece en varias cuevas distintas."
 L["strange_growth_note"] = "Estira del {npc:165037} para revelar el tesoro."
 L["vat_of_slime_note"] = "Haz click en la botella que hay sobre la mesa y después haz click en la cuba de baba."
 
