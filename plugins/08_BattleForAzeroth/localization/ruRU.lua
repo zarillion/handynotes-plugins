@@ -304,37 +304,51 @@ L["long_forgotten_rum_note"] = "Чтобы войти в пещеру, {quest:50
 -------------------------------------------------------------------------------
 
 L["honey_slitherer_note"] = "Поговорите с {npc:137176} для вызова монстра."
-L["tempestria_note"] = nil
-L["twin_hearted_note"] = nil
-L["wintersail_note"] = nil
+L["tempestria_note"] = "Осмотрите подозрительную кучу мяса, чтобы вызвать редкого монстра."
+L["twin_hearted_note"] = "Разрушьте Ритуальную статую, чтобы активировать конструкцию."
+L["wintersail_note"] = "Уничтожьте тайник контрабандиста, чтобы вызвать капитана."
 
-L["hay_covered_chest_note"] = nil
-L["pirate_treasure_note"] = nil
+L["hay_covered_chest_note"] = "Езжайте на {npc:130350} по дороге к {npc:131453}, чтобы появилось сокровище."
+L["pirate_treasure_note"] = [[
+Требуется соответствующая карта сокровищ.
+
+Карты выпадают с любых пиратов в Кул-Тирасе. Вольная Гавань (открытый мир) - хорошее место для их фарма.
+]]
+
+local damp_note =  "\n\nПрочтите все пять свитков, чтобы получить доступ к сокровищам."
 
 L["damp_scroll"] = "Мокрый свиток"
-L["damp_scroll_note_1"] = nil
-L["damp_scroll_note_2"] = nil
-L["damp_scroll_note_3"] = nil
-L["damp_scroll_note_4"] = nil
-L["damp_scroll_note_5"] = nil
-L["ominous_altar"] = nil
-L["ominous_altar_note"] = nil
-L["secret_of_the_depths_note"] = nil
+L["damp_scroll_note_1"] = "Вход в монастырь Штормов."..damp_note
+L["damp_scroll_note_2"] = "На полу в подвале за {npc:136343}."..damp_note
+L["damp_scroll_note_3"] = "На верхнем этаже рядом с {npc:136343}."..damp_note
+L["damp_scroll_note_4"] = "В подвале рядом с {npc:136343}."..damp_note
+L["damp_scroll_note_5"] = "В углу под тротуаром."..damp_note
+L["ominous_altar"] = "Зловещий алтарь"
+L["ominous_altar_note"] = "Поговорите с Зловещим алтарем, чтобы вас телепортировали к сокровищам."
+L["secret_of_the_depths_note"] = "Прочтите все пять мокрых свитков, затем поговорите с Зловещим алтарем, чтобы телепортироваться к сокровищам."
 
-L["burly_note"] = nil
-L["delia_hanako_note"] = nil
-L["kwint_note"] = nil
+L["burly_note"] = "Эти маленькие парни довольно странные, но они действительно сильны. Ты уверен, что хочешь этого боя?"
+L["delia_hanako_note"] = "Прежде чем мы начнем, я просто хочу напомнить вам, чтобы вы не расстраивались, когда моя команда уничтожает вашу."
+L["kwint_note"] = "Один человек против одной акулы. Один человек против троих? Ты сумасшедший."
 
-L["shanty_fruit_note"] = nil
-L["shanty_horse_note"] = nil
-L["shanty_inebriation_note"] = nil
-L["shanty_lively_note"] = nil
-L["options_icons_shanty_raid"] = nil
-L["options_icons_shanty_raid_desc"] = nil
+L["shanty_fruit_note"] = "Найдите Пыльный сборник песен, на полу в небольшой пещере."
+L["shanty_horse_note"] = "Найдите Книгу песен проходимца, в баре в таверне."
+L["shanty_inebriation_note"] = "Найдите Книгу песен Джея, на полу позади {npc:141066}."
+L["shanty_lively_note"] = "Найдите Книгу песен Рассела, на вершине камина."
+L["options_icons_shanty_raid"] = "{achievement:13057}"
+L["options_icons_shanty_raid_desc"] = "Показать места морских лачуг для достижения {achievement:13057}."
 
-L["upright_citizens_node"] = nil
-L["options_icons_upright_citizens"] = nil
-L["options_icons_upright_citizens_desc"] = nil
+L["upright_citizens_node"] = [[
+Один из трех НПС ниже будет появляться каждый раз, когда активно задание при вторжении фракции {wq:Слегка нетрезвое ополчение}.
+
+• {npc:146295}
+• {npc:145107}
+• {npc:145101}
+
+Наймите каждого, чтобы завершить достижение. Вам нужно будет проверять локацию каждый раз как начинается вторжение и появляется данное локальное задание.
+]]
+L["options_icons_upright_citizens"] = "{achievement:13285}"
+L["options_icons_upright_citizens_desc"] = "Отображение местоположения НПС для достижения {achievement:13285}."
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
