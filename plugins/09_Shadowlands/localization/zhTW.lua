@@ -22,7 +22,7 @@ L["rootwrithe_note"] = "觸碰 {npc:167928} 直到稀有出現"
 L["rotbriar_note"] = "和 {npc:171684} 交談對話後在附近召喚稀有"
 L["slumbering_note"] = "跑到迷霧中將會昏迷並被帶出。使用信號彈或有範圍法術的寵物將他擊出迷霧"
 L["skuld_vit_note"] = "在被障礙物阻擋的山洞中。暗夜妖精必須使用 {spell:310143} 進入洞穴。他進入戰鬥後，障礙物將消失"
-L["valfir_note"] = "在閃光的靈魄之種下降過程中點選並使用 {spell:338045} 移除他的 {spell:338038} 增益"
+L["valfir_note"] = "在閃亮的靈魄種子下降過程中點選並使用 {spell:338045} 移除他的 {spell:338038} 增益"
 L["wrigglemortis_note"] = "與 {npc:164179} 戰鬥刷新稀有"
 
 L["night_mare_note"] = [[
@@ -102,13 +102,13 @@ L["unstable_memory_note"] = "當 {npc:171018} 存在時可以刷新。拉一個 
 L["wingflayer_note"] = "點選附近桌上的勇氣號角召喚(東南方，樓梯上)。"
 
 L["broken_flute"] = "擊殺附近的 {npc:170009} 直到掉落 {item:180536}，使用此工具修理它。"
-L["cloudwalkers_coffer"] = "雲行者的寶匣"
-L["cloudwalkers_coffer_note"] = "使用大型紫色花來彈跳到平台上"
+L["cloudwalkers_coffer"] = "雲行者寶箱"
+L["cloudwalkers_coffer_note"] = "使用大型紫色花來彈跳到平台上。"
 L["experimental_construct_part"] = "拾取附近 {item:180534} 並使用修理部件。靈魄有多個刷新地點。."
 L["larion_harness"] = "位於野獸大廳內。"
 L["memorial_offering"] = "從志士之墓的 {npc:171526} 購買 {item:180788}。將其放在靠近寶箱的飲料托盤中以獲取 {item:180797}。"
 L["scroll_of_aeons"] = "在中心地區拾取2個 {item:173973} 並將它們放在附近的貢品盤上顯出寶藏。"
-L["vesper_of_silver_wind"] = "銀風禱鍾"
+L["vesper_of_silver_wind"] = "銀風禱鐘"
 L["vesper_of_silver_wind_note"] = "完成 {achievement:14339} 成就並和晉升之巔入口的 {npc:171732} 交談鑄造 {item:180858}。"
 
 L["gift_of_agthia"] = "點選通往西北方斷橋的火炬並攜帶 {spell:333320} 從火炬到火炬直到到達寶箱。點亮最後的火炬你會受益 {spell:333063}。"
@@ -355,9 +355,9 @@ L["return_to_the_maw"] = "重返淵喉"
 L["maw_intro_note"] = "從 {npc:162804} 開始指引任務線以解鎖淵喉的稀有和事件。"
 
 L["apholeias_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:331783} 召喚稀有。"
-L["dekaris_note"] = "在一個大型的突出岩石上"
+L["dekaris_note"] = "在一個大型的突出岩石上。"
 L["ekphoras_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:330650} 召喚稀有。"
-L["ikras_note"] = "環繞墮滅堡飛行。這是個攻擊他的好位置"
+L["ikras_note"] = "環繞墮滅堡飛行。這是個攻擊他的好位置。"
 L["orophea_note"] = "從東南方的拾取 {spell:337143} 並提供給 {npc:172577} 啟動。"
 L["sanngror_note"] = "如果他是不可攻擊，等待直到他不再對靈魂實驗。"
 L["talaporas_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:331800} 召喚稀有。"
@@ -390,7 +390,6 @@ L["options_icons_bonus_event"] = "獎勵事件"
 L["options_icons_bonus_event_desc"] = "顯示獎勵事件位置。"
 L["options_icons_riftstone"] = "混亂裂隙石"
 L["options_icons_riftstone_desc"] = "顯示混亂裂隙石傳送者位置。"
-
 
 -------------------------------------------------------------------------------
 ----------------------------------- ICECROWN ----------------------------------
