@@ -202,7 +202,6 @@ L["forgotten_mementos"] = "Pull the Vault Portcullis Chain in the chamber west o
 L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
 L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
 L["leeda_note"] = "Kill the two {npc:162220s} until the rare spawns."
-L["malkorak_note"] = "At the top of the tower (lots of stairs)."
 L["sabriel_note"] = "Can appear as one of the champions in the Theater of Pain."
 L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
 L["taskmaster_xox_note"] = "Shares a spawn with {npc:160204}, {npc:160230} and {npc:160226}."
@@ -233,9 +232,9 @@ Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} 
 
 Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on the east side) and click the pipe to transport to the chest.
 ]]
-L["ritualists_cache_note"] = "Loot the {item:181558} from a bone pile (multiple spawn locations). Use them to complete the Book of Binding Rituals on the stand behind {npc:174386} and gain the {spell:337041} buff."
+L["ritualists_cache_note"] = "Pick up the {item:181558} on the floor and use them to complete the Book of Binding Rituals."
 L["runespeakers_trove_note"] = "Find {npc:170563} to the east and kill him to obtain the {item:181777}."
-L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
+L["stolen_jar_note"] = "Spawns in multiple different caves."
 L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
 L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
 

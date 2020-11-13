@@ -277,7 +277,7 @@ map.nodes[58306180] = Rare({
 
 map.nodes[41254443] = Rare({
     id=171743,
-    quest=61633,
+    quest=61633, -- 61205 ??
     covenant=NIGHTFAE,
     requires=ns.requirement.GarrisonTalent(1244, L["anima_channeled"]),
     label=L["star_lake"],

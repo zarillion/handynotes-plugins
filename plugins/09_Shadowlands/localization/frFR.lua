@@ -208,7 +208,6 @@ L["forgotten_mementos"] = "Tirez la chaîne de la herse de la chambre forte, dan
 L["gieger_note"] = "Tirez sur le {npc:162815} pour activer le rare."
 L["gristlebeak_note"] = "Brisez tout les {npc:162761} à proximité pour affronter le rare."
 L["leeda_note"] = "Tuez les deux {npc:162220} jusqu'à ce que le rare apparaisse."
-L["malkorak_note"] = "Au sommet de la tour (beaucoup d'escaliers)."
 L["sabriel_note"] = "Peut apparaître comme l'un des champions du Théâtre de la souffrance."
 L["schmitd_note"] = "Utilisez la {spell:313451} proche pour briser son bouclier."
 L["taskmaster_xox_note"] = "Partage son apparition avec {npc:160204}, {npc:160230} et {npc:160226}."

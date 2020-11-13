@@ -207,7 +207,6 @@ L["forgotten_mementos"] = "Pull the Vault Portcullis Chain in the chamber west o
 L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
 L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
 L["leeda_note"] = "Kill the two {npc:162220s} until the rare spawns."
-L["malkorak_note"] = "At the top of the tower (lots of stairs)."
 L["sabriel_note"] = "Can appear as one of the champions in the Theater of Pain."
 L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
 L["taskmaster_xox_note"] = "Shares a spawn with {npc:160204}, {npc:160230} and {npc:160226}."

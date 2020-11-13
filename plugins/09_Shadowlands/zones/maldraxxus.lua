@@ -35,7 +35,8 @@ map.nodes[52663542] = Rare({
     id=162727,
     quest=58870,
     rewards={
-        Achievement({id=14308, criteria=48876})
+        Achievement({id=14308, criteria=48876}),
+        Transmog({item=184154, slot=L["cloak"]}) -- Grungy Containment Pack
     }
 }) -- Bubbleblood
 
@@ -231,10 +232,9 @@ map.nodes[24184297] = Rare({
     }
 }) -- Thread Mistress Leeda
 
-map.nodes[33538086] = Rare({
+map.nodes[33718016] = Rare({
     id=162819,
-    quest=nil,
-    note=L["malkorak_note"],
+    quest=58889,
     rewards={
         Achievement({id=14308, criteria=48875}),
         Mount({item=182085, id=1372}) -- Umbral Bloodtusk
@@ -322,7 +322,7 @@ map.nodes[54011234] = Treasure({
     }
 }) -- Cache of Eyes
 
-map.nodes[49441509] = Treasure({
+map.nodes[48301630] = Treasure({
     quest=59244,
     rewards={
         Achievement({id=14312, criteria=50070}),
@@ -376,7 +376,7 @@ map.nodes[32742127] = Treasure({
     }
 }) -- Kyrian Keepsake
 
-map.nodes[62505990] = Treasure({
+map.nodes[62405997] = Treasure({
     quest=59245,
     note=L["misplaced_supplies"],
     rewards={
@@ -426,10 +426,6 @@ map.nodes[64672475] = Treasure({
     rewards={
         Achievement({id=14312, criteria=50075}),
         Item({item=183517, quest=62372}) -- Page 76 of the Necronom-i-nom
-    },
-    pois={
-        POI({69873103, 69073250, 71473663}), -- Bone Pile
-        POI({71733540}) -- Book of Binding Ritials
     }
 }) -- Ritualist's Cache
 
@@ -446,12 +442,15 @@ map.nodes[31737004] = Treasure({
     }
 }) -- Runespeaker's Trove
 
-map.nodes[73564986] = Treasure({
+map.nodes[66145045] = Treasure({
     quest=61451,
     note=L["stolen_jar_note"],
     rewards={
         Achievement({id=14312, criteria=50067}),
         Item({item=182618, quest=62085}) -- ... Why Me?
+    },
+    pois={
+        POI({66135027, 66145045, 73564986})
     }
 }) -- Stolen Jar
 

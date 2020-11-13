@@ -173,7 +173,8 @@ map.nodes[41354887] = Rare({
     quest=62650,
     note=L["in_small_cave"]..' '..L["dionae_note"],
     rewards={
-        Achievement({id=14307, criteria=50595})
+        Achievement({id=14307, criteria=50595}),
+        Pet({item=180856, id=2932}) -- Silvershell Snapper
     }
 }) -- Dionae
 

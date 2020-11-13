@@ -206,7 +206,6 @@ L["forgotten_mementos"] = "在宝藏西侧的房间拖拽宝库闸门之链打�
 L["gieger_note"] = "攻击 {npc:162815} 后激活稀有。"
 L["gristlebeak_note"] = "破坏附近的 {npc:162761} 后激活稀有。"
 L["leeda_note"] = "击杀两个 {npc:162220} 单位后稀有刷新。"
-L["malkorak_note"] = "在塔顶（很多楼梯）。"
 L["sabriel_note"] = "可以作为伤逝剧场的冠军之一出现。"
 L["schmitd_note"] = "使用附近的 {spell:313451} 破坏他的护盾。"
 L["taskmaster_xox_note"] = "与 {npc:160204}，{npc:160230} 和 {npc:160226} 共享刷新。"

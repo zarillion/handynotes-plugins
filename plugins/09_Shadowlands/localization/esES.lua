@@ -204,7 +204,6 @@ L["forgotten_mementos"] = "Tira de la Cadena del Rastrillo en la cámara al oest
 L["gieger_note"] = "Tira del {npc:162815} para activar a {npc:162741}."
 L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:162588}."
 L["leeda_note"] = "Mata a los dos {npc:162220} hasta que aparezca la {npc:162180}."
-L["malkorak_note"] = "En lo alto de la torre (montones de escaleras)."
 L["sabriel_note"] = "Puede aparecer como uno de los campeones del Teatro del Dolor."
 L["schmitd_note"] = "Usa un {spell:313451} cercano para romper su escudo."
 L["taskmaster_xox_note"] = "Comparte el lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
