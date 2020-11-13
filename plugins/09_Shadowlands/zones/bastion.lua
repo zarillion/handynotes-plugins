@@ -381,7 +381,10 @@ map.nodes[35834811] = Treasure({
 map.nodes[61061510] = Treasure({
     quest=61698,
     label=L["cloudwalkers_coffer"],
-    note=L["cloudwalkers_coffer_note"]
+    note=L["cloudwalkers_coffer_note"],
+    pois={
+        POI({59011639}) -- First Flower
+    }
 }) -- Cloudwalker's Coffer
 
 map.nodes[51471795] = Treasure({
