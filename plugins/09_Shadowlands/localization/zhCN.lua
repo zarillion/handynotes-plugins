@@ -75,13 +75,9 @@ L["aspirant_eolis_note"] = "拾取附近的 {item:180613} 并与 NPC 目标阅�
 L["baedos_note"] = "从周围地区带一桶发酵的莲榴果给 {npc:161536} 直到她激活。"
 L["basilofos_note"] = "在岩石上移动，直到紫色的追踪标记出现在你的头顶。 站着不动，等待四种表情出现，然后他会刷新。"
 L["beasts_of_bastion"] = "晋升堡垒之兽"
-L["beasts_of_bastion_note"] = [[
-和 {npc:161441} 交谈召唤四个野兽中的一个。
-
-|cFFFF0000注意|r：此 NPC 经常出错并不会与你交谈。
-]]
+L["beasts_of_bastion_note"] = "和 {npc:161441} 交谈召唤四个野兽中的一个。"
 L["bookkeeper_mnemis_note"] = "在地区有几率刷新代替 {npc:166867} 单位。"
-L["cloudfeather_patriarch_note"] = "在地区击杀 {npc:158110} 直到稀有表情和刷新。"
+L["cloudfeather_patriarch_note"] = "在地区击杀 {npc:158110} 直到守卫与你互动。"
 L["collector_astor_note"] = "阅读散落在房间里的全部六章 Mercia's Legacy，之后会收到来自 {npc:157979} 的悄悄话。和她交谈会得到 {spell:333779}，让你在西北方找到隐藏的 {item:180569}。交还章节将刷新稀有。"
 L["corrupted_clawguard_note"] = "在炉火岗哨山上拾取 {item:180651} 并使用它修理 {npc:171300}。"
 L["dark_watcher_note"] = "只在死亡后可以看到。和她交谈会施放 {spell:332830} 在攻击之前给你。"
@@ -102,13 +98,13 @@ L["unstable_memory_note"] = "当 {npc:171018} 存在时可以刷新。拉一个 
 L["wingflayer_note"] = "点击附近桌上的勇气号角召唤（东南方，楼梯上）。"
 
 L["broken_flute"] = "击杀附近的 {npc:170009} 直到掉落 {item:180536}，使用此工具修理它。"
-L["cloudwalkers_coffer"] = nil
-L["cloudwalkers_coffer_note"] = nil
+L["cloudwalkers_coffer"] = "云行者的宝匣"
+L["cloudwalkers_coffer_note"] = "使用大型紫色花弹跳到平台上。"
 L["experimental_construct_part"] = "拾取附近 {item:180534} 并使用修理部件。新能有多个刷新地点。."
 L["larion_harness"] = "位于野兽大厅内。"
-L["memorial_offering"] = "从候选者之憩的 {npc:171526} 购买 {item:180788}。将其放在靠近宝箱的饮料托盘中以获取 {item:180797}。"
+L["memorial_offering"] = "在晋升堡垒多个位置之一找到 {npc:171526} 并购买 {item:180788}。将其放在靠近宝箱的饮料托盘中以获取 {item:180797}。"
 L["scroll_of_aeons"] = "在中心地区拾取2个 {item:173973} 并将它们放在附近的贡品盘上显出宝藏。"
-L["vesper_of_silver_wind"] = nil
+L["vesper_of_silver_wind"] = "银风暮钟"
 L["vesper_of_silver_wind_note"] = "完成 {achievement:14339} 成就并和晋升高塔入口的 {npc:171732} 交谈铸造 {item:180858}。"
 
 L["gift_of_agthia"] = "点击通往西北方断桥的火炬并携带 {spell:333320} 从火炬到火炬直到到达宝箱。点亮最后的火炬你会受益 {spell:333063}。"
@@ -164,7 +160,7 @@ L["anima_shard_61278"] = "在岩石下的桥下。"
 L["anima_shard_61279"] = "在薄石柱上。"
 L["anima_shard_61280"] = "在桌子的一角。"
 L["anima_shard_61281"] = "在纪念祭珍品上方的壁架上。"
-L["anima_shard_61282"] = "在悬崖顶下的壁架上。 跳到旁边的岩石上，否则您将被传送回去。"
+L["anima_shard_61282"] = "在悬崖顶下的壁架上。"
 L["anima_shard_61283"] = "米莉的礼拜堂下面洞穴内，在桶后面。"
 L["anima_shard_61284"] = "在岩石悬突下的壁架上，向南行。"
 L["anima_shard_61285"] = "在一个小的岩石壁架的尽头。"
@@ -236,9 +232,9 @@ L["plaguefallen_chest_note"] = [[
 
 转化后，到 {npc:158406} 平台（入口在东侧）下面洞穴并点击管道传送宝箱。
 ]]
-L["ritualists_cache_note"] = "从骨头堆（多个刷新点）拾取 {item:181558}。在 {npc:174386} 后面使用它完成装订仪式书并获得 {spell:337041} 增益。"
+L["ritualists_cache_note"] = "从骨头堆（多个刷新点）在地面上拾取 {item:181558} 并使用它完成装订仪式书。"
 L["runespeakers_trove_note"] = "东侧找到 {npc:170563} 并击杀他获得 {item:181777}。"
-L["stolen_jar_note"] = "在巨大的蘑菇下面的山洞里。"
+L["stolen_jar_note"] = "在多个不同的洞穴刷新。"
 L["strange_growth_note"] = "攻击 {npc:165037} 获得宝藏。"
 L["vat_of_slime_note"] = "点击桌上的瓶子，然后点击软泥桶。"
 
