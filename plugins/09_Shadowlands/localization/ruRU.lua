@@ -14,7 +14,7 @@ L["anima_channeled"] = "анима направлена на %s."
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
 
-L["deifir_note"] = "Катайся на редком монстре по кругу и используй {spell:319566} и {spell:319575} замедлить и оглушить его."
+L["deifir_note"] = "Катайся на редком монстре по кругу и используй {spell:319566} и {spell:319575} чтобы замедлить и оглушить его."
 L["faeflayer_note"] = "В маленькой пещере, скрытой за водопадом."
 L["humongozz_note"] = "Посадить {item:175247} во влажный суглинок, чтобы вызвать {npc:164122}. Через минуту {spell:319367}, редкий монстр появиться. Гриб выпадает с многочисленных монстров в локации."
 L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
@@ -23,41 +23,41 @@ L["rootwrithe_note"] = "Тыкай по {npc:167928s} пока не появит
 L["rotbriar_note"] = "Поговорите с {npc:171684}, чтобы вызвать редкого монстра после некоторого диалога."
 L["slumbering_note"] = "Бегство в туман оглушит вас и перенесет. Используйте сигнальную ракету или питомца с AOE, чтобы выбить его из тумана."
 L["skuld_vit_note"] = "В пещере, заблокированной барьером. Ночной Народец должен использовать {spell:310143} чтобы войти в пещеру. Как только монстра атакуют, барьер исчезнет."
-L["valfir_note"] = "Click the Sparkling Animaseed midway down the path and use {spell:338045} to remove his {spell:338038} buff."
+L["valfir_note"] = "Нажмите на Свет анимасемени на полпути и используйте {spell:338045} убрать его {spell:338038} бафф"
 L["wrigglemortis_note"] = "Атакуйте {npc:164179} чтобы призвать редкого монстра."
 
 L["night_mare_note"] = [[
-Travel to Tirna Scithe and follow the root path on the northwest cliff to a broken cart. There you can loot a {item:181243} on the ground.
+Отправляйтесь в Тирна Скитт и следуйте по пути из корней на северо-западном утесе к сломанной тележке. Там вы можете добыть {item:181243} на земле.
 
-Take this item to {npc:165704} at Glitterfall Basin. She will give you a {item:181242} in exchange for 10 {item:173204}. |cFFFF8C00If she is not there, you must complete the |cFFFFFD00Trouble at the Gormling Corral|r and |cFFFFFD00Tricky Spriggans|r quest lines.|r
+Отнесите этот предмет к {npc:165704} в Низину Мерцающих Каскадов. Она даст вам {item:181242} в обмен на 10 {item:173204}. |cFFFF8C00Если ее нет, вы должны выполнить |cFFFFFD00Trouble at the Gormling Corral|r and |cFFFFFD00Tricky Spriggans|r линии заданий.|r
 
 Next, talk to {npc:160262} in the Heart of the Forest to exchange the {item:181242} for a {item:178675}. Use this item to get {spell:327083} buff, allowing you to see the {npc:168135}.
 ]]
 
 L["star_lake"] = "Амфитеатр Звездного озера"
-L["star_lake_note"] = "Talk to {npc:171743}, the Stage Director, to start one of the special encounters."
+L["star_lake_note"] = "Поговорите с {npc:171743}, постановщиком, чтобы начать одну из особых встреч."
 
 L["cache_of_the_moon"] = "Collect {npc:171360}'s five missing tools in the Garden of Night and combine them to create {item:180753}. Return her toolkit and she will cast {spell:334353} on you, allowing you to see the cache."
 L["cache_of_the_night"] = "Соберите {item:180656}, {item:180654} и {item:180655} со всей локации и объедините их, чтобы создать {item:180652}."
 L["darkreach_supplies"] = "Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the Cache of the Night treasure."
 L["desiccated_moth"] = "Перейти на {npc:169997} к северо-западу от дерева, чтобы заплыть на ветку. Сжечь {item:180784} в Курильнице, чтобы собрать сокровище."
 L["dreamsong_heart"] = "Используйте {npc:169997} под деревом, чтобы попасть в дерево."
-L["elusive_faerie_cache"] = "Pick up the {spell:333923} in the northeast corner of Eventide Grove and use it to loot the chest."
+L["elusive_faerie_cache"] = "Примените {spell:333923} в северо-восточном углу Сумеречной Рощи и используйте его, чтобы обыскать сундук."
 L["enchanted_dreamcatcher"] = "Свисает с верхушки корней. Легче всего прыгать с западной стороны."
 L["faerie_trove"] = "Расположен под платформой."
 L["harmonic_chest"] = "Требуется два человека. Один человек играет на арфе, а другой играет на барабане, чтобы открыть сундук."
 L["hearty_dragon_plume"] = "Нажмите {spell:333554} на вершине близлежащих водопадов и используйте его, чтобы спуститься на ветку."
-L["old_ardeite_note"] = "Kill {npc:160747} and {npc:160748} in Shimmerbough to the southeast for {item:174042}. Use this item to fly up near the rare and tag it."
+L["old_ardeite_note"] = "Убейте {npc:160747} и {npc:160748} в Мерцающей рощи на юго-востоке для {item:174042}. Используйте этот предмет, чтобы подлететь к редкому монстру и взять в цель его."
 L["swollen_anima_seed"] = "Большое семя, сидящее внутри ствола дерева."
 
 L["playful_vulpin_note"] = [[
-Find and use the correct emote on the {npc:171206} five times to obtain the pet.
+Найдите и используйте правильную эмоцию на {npc:171206} пять раз, чтобы получить питомца.
 
-• begins to dig curiously = |cFFFF8C00/curious|r
-• wanders around unable to sit still = |cFFFF8C00/sit|r
-• sings all alone = |cFFFF8C00/sing|r
-• dances with joy = |cFFFF8C00/dance|r
-• sits down lonely and sad = |cFFFF8C00/pet|r
+• начинает с любопытством копать = |cFFFF8C00/любопытство|r
+• бродит и не может усидеть на месте = |cFFFF8C00/сесть|r
+• поет совсем один = |cFFFF8C00/песня|r
+• танцует от радости = |cFFFF8C00/танец|r
+• сидит один и грустит = |cFFFF8C00/гладить|r
 ]]
 
 L["tame_gladerunner"] = "Tame Gladerunner"
