@@ -72,6 +72,7 @@ Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al fi
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
+L["ascended_council_note"] = "Con otros cuatro jugadores, hay que hacer click en las cinco campanas de vísperas: pureza, coraje, humildad, sabiduría y lealtad al mismo tiempo. Después, hay que ir al Crisol del Aspirante para derrotar el Consejo de los Ascendidos y que se revele el alijo."
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con el {npc:171211} como objetivo para activarlo."
 L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."
 L["basilofos_note"] = "Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}."
@@ -129,9 +130,6 @@ Comulga con ellos en el orden Paciencia => Conocimiento => Perspicacia. En la pl
 El orbe te llevará al verdadero Incienso del Juicio. Comulga con él y aparecerá la última plataforma de vuelo que te dará la {spell:333068} al abrir el cofre.
 ]]
 L["gift_of_vesiphone"] = "Toca una de las campanas para hacer que aparezca una {npc:170849} y mátala para recibir el debuff {spell:333239}. El agua que cae frente al cofre limpiará el debuff y te dará la {spell:332785}."
-
-L["cache_of_the_ascended"] = "Alijo de los Ascendidos"
-L["cache_of_the_ascended_note"] = "Con otros cuatro jugadores, hay que hacer click en las cinco campanas de vísperas: pureza, coraje, humildad, sabiduría y lealtad al mismo tiempo. Después, hay que ir al Crisol del Aspirante para derrotar el Consejo de los Ascendidos y que se revele el alijo."
 
 L["anima_shard"] = "Fragmento de Ánima Perdido"
 L["anima_shard_61225"] = "En una plataforma inferior debajo del puente."

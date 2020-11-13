@@ -71,6 +71,7 @@ Wenn du den falschen Pfad nimmst und {npc:171699} verschwindet, wenn du das Ende
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
+L["ascended_council_note"] = "Klicke mit vier anderen Spielern die Vesperglocke der Reinheit, des Mutes, der Demut, der Weisheit und der Loyalität zur selben Zeit an. Begebt euch anschließend zum Prüfstein des Aspiranten, um den Rat der Aufgestiegenen zu besiegen und die Truhe zu enthüllen."
 L["aspirant_eolis_note"] = "Plündere {item:180613} in der Nähe und lese es ihm vor. Es erscheint eine Truhe."
 L["baedos_note"] = "Trage zum Aktivieren, Fässer mit fermentierenden purianischen Früchten aus der Umgebung zu {npc:161536}." --review Blizzard Translation casks of Fermenting Purian Fruit
 L["basilofos_note"] = "Beweg dich auf den Felsen umher, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint."
@@ -128,9 +129,6 @@ Sprich mit ihnen in der Reihenfolge |cFFFF0000Geduld => Wissen => Einsicht|r. Au
 Die Kugel wird dich zu dem wahren Räucherwerk des Richturteils bringen. Sprich dort mit ihm und die letzte Transportplattform wird dir den {spell:333068} gewähren, um die Truhe öffnen zu können.
 ]]
 L["gift_of_vesiphone"] = "Läute an den Glocken, um eine {npc:170849} erscheinen zu lassen, töte diese um den Schwächungszauber {spell:333239} zu erhalten. Der Wasserfall gegenüber der Truhe wird diesen Schwächungszauber reinigen und dir den {spell:332785} gewähren, um die Truhe öffnen zu können."
-
-L["cache_of_the_ascended"] = "Truhe der Aufgestiegenen" --review Blizzard translations
-L["cache_of_the_ascended_note"] = "Klicke mit vier anderen Spielern die Vesperglocke der Reinheit, des Mutes, der Demut, der Weisheit und der Loyalität zur selben Zeit an. Begebt euch anschließend zum Prüfstein des Aspiranten, um den Rat der Aufgestiegenen zu besiegen und die Truhe zu enthüllen."
 
 L["anima_shard"] = "Verlorener Animakristallsplitter"
 L["anima_shard_61225"] = "Auf einer tiefer gelegenen Plattform unterhalb der Brücke."

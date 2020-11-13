@@ -254,14 +254,9 @@ map.nodes[61295090] = Rare({
     }
 }) -- Selena the Reborn
 
-local Sotirstus = Class('Sotirstus', Rare)
-
-function Sotirstus.getters:label ()
-    return GetAchievementCriteriaInfoByID(14307, 50618) or UNKNOWN
-end
-
-map.nodes[22432285] = Sotirstus({
+map.nodes[22432285] = Rare({
    id=156339,
+   label=GetAchievementCriteriaInfoByID(14307, 50618) or UNKNOWN,
    quest=61634,
    covenant=KYRIAN,
    requires=ns.requirement.GarrisonTalent(1241, L["anima_channeled"]),
@@ -305,6 +300,28 @@ map.nodes[63503590] = Rare({
         POI({47434282, 52203280, 56031463, 59825165, 63503590})
     }
 }) -- Swelling Tear
+
+map.nodes[53498880] = Rare({
+    id=170899,
+    quest=60977, -- 60933 makes Cache of the Ascended visible
+    label=GetAchievementCriteriaInfoByID(14307, 50619),
+    note=L["ascended_council_note"],
+    rewards={
+        Achievement({id=14307, criteria=50619}),
+        ns.reward.Spacer(),
+        Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817} }),
+        Mount({item=183741, id=1426}) -- Ascended Skymane
+    },
+    pois={
+        POI({
+            64326980, -- Vesper of Purity
+            33325980, -- Vesper of Courage
+            71933896, -- Vesper of Humility
+            39132038, -- Vesper of Wisdom
+            32171776, -- Vesper of Loyalty
+        })
+    }
+}) -- The Ascended Council
 
 map.nodes[43482524] = Rare({
     id=171008,
@@ -356,27 +373,6 @@ map.nodes[35834811] = Treasure({
         Item({item=180064}) -- Ascended Flute
     }
 }) -- Broken Flute
-
-map.nodes[53498880] = Treasure({
-    quest=60977, -- 60933 makes the chest visible
-    label=L["cache_of_the_ascended"],
-    note=L["cache_of_the_ascended_note"],
-    rewards={
-        Achievement({id=14307, criteria=50619}),
-        ns.reward.Spacer(),
-        Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817} }),
-        Mount({item=183741, id=1426}) -- Ascended Skymane
-    },
-    pois={
-        POI({
-            64326980, -- Vesper of Purity
-            33325980, -- Vesper of Courage
-            71933896, -- Vesper of Humility
-            39132038, -- Vesper of Wisdom
-            32171776, -- Vesper of Loyalty
-        })
-    }
-}) -- Cache of the Ascended
 
 map.nodes[51471795] = Treasure({
     quest=61052,

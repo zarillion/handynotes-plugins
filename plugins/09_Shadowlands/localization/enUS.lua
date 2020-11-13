@@ -70,6 +70,7 @@ If you take a wrong path and {npc:171699} disappears when you reach the end, go 
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
+L["ascended_council_note"] = "With four other players, click the five Vespers of Purity, Courage, Humility, Wisdom and Loyalty at the same time to summon the council."
 L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to activate him."
 L["baedos_note"] = "Carry casks of Fermenting Purian Fruit from the surrounding area to {npc:161536} until he activates."
 L["basilofos_note"] = "Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn."
@@ -127,9 +128,6 @@ Commune with them in the order Patience => Knowledge => Insight. On the Judgemen
 The orb will take you to the true Incense of Judgment. Commune with it and the final flight pad will grant you {spell:333068} to open the chest.
 ]]
 L["gift_of_vesiphone"] = "Ring one of the bells to spawn a {npc:170849} and kill it to receive the {spell:333239} debuff. The falling water opposite the chest will cleanse this debuff and grant you {spell:332785}."
-
-L["cache_of_the_ascended"] = "Cache of the Ascended"
-L["cache_of_the_ascended_note"] = "With four other players, click the five Vespers of Purity, Courage, Humility, Wisdom and Loyalty at the same time. Afterwards, head to Aspirant's Crucible to defeat the Ascended Council and reveal the cache."
 
 L["anima_shard"] = "Lost Anima Shard"
 L["anima_shard_61225"] = "On a lower platform below the bridge."

@@ -72,6 +72,7 @@ Si vous prenez un mauvais chemin et que {npc:171699} disparaît lorsque vous arr
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
+L["ascended_council_note"] = "Avec quatre autres joueurs, cliquez sur les cinq Vêpres de la pureté, du courage, de l'humilité, de la sagesse et de la loyauté en même temps. Ensuite, dirigez-vous vers le Creuset de l'aspirant pour vaincre le Conseil des Transcendés et révéler la cache."
 L["aspirant_eolis_note"] = "Prenez un {item:180613} à proximité et lisez-le avec le PNJ ciblé pour l'activer."
 L["baedos_note"] = "Transportez les fûts de fruits de purian fermentés des alentours vers {npc:161536} jusqu'à son activation."
 L["basilofos_note"] = "Déplacez-vous autour du rocher jusqu'à ce qu'un repère violet apparaisse au-dessus de votre tête. Ne bougez pas et attendez que quatre émotes apparaissent, puis il apparaîtra."
@@ -129,9 +130,6 @@ Communiez avec eux dans l'ordre Patience => Connaissance => Perspicacité. Sur l
 L'orbe vous emmènera au véritable encens du jugement. Communiez avec lui et la dernière plateforme de vol vous donnera {spell:333068}, permettant d'ouvrir le coffre.
 ]]
 L["gift_of_vesiphone"] = "Sonnez une des cloches pour faire apparaître une {npc:170849} et tuez-la pour recevoir le debuff {spell:333239}. L'eau qui tombe en face du coffre supprimera ce debuff et vous donnera {spell:332785}."
-
-L["cache_of_the_ascended"] = "Cache des transcendés"
-L["cache_of_the_ascended_note"] = "Avec quatre autres joueurs, cliquez sur les cinq Vêpres de la pureté, du courage, de l'humilité, de la sagesse et de la loyauté en même temps. Ensuite, dirigez-vous vers le Creuset de l'aspirant pour vaincre le Conseil des Transcendés et révéler la cache."
 
 L["anima_shard"] = "Eclat de cristal d'Anima perdu"
 L["anima_shard_61225"] = "Sur une plate-forme inférieure sous le pont."
