@@ -562,7 +562,7 @@ map.nodes[52727429] = PetBattle({
     }
 }) -- Crsytalsnap
 
-map.nodes[26013001] = PetBattle({
+map.nodes[25903078] = PetBattle({
     id=175783,
     rewards={
         Achievement({id=14881, criteria=51053})

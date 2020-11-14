@@ -500,22 +500,24 @@ map.nodes[52943729] = Treasure({
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[25866280] = PetBattle({
+map.nodes[34224452] = PetBattle({
     id=175778,
     rewards={
         Achievement({id=14881, criteria=51048})
     }
 }) -- Briarpaw
 
-map.nodes[52727429] = PetBattle({
+map.nodes[26546222] = PetBattle({
     id=175779,
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=14881, criteria=51049})
     }
 }) -- Chittermaw
 
-map.nodes[50304043] = PetBattle({
+map.nodes[49864183] = PetBattle({
     id=175780,
+    note=L["in_small_cave"],
     rewards={
         Achievement({id=14881, criteria=51050})
     }
