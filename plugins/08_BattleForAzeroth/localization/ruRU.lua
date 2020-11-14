@@ -559,9 +559,9 @@ L["grayals_offering_note"] = "Завершив {quest:50702}, войдите в 
 L["kimbul_offerings_note"] = "На холме над храмом Кимбул."
 L["sandsunken_note"] = "Нажмите на брошенный поплавок, чтобы вытащить сокровище из песка."
 
-L["keeyo_note"] = "Time for a great adventure!"
-L["kusa_note"] = "I'm on a winning streak, you have no chance against me and my team."
-L["sizzik_note"] = "I always appreciate a good battle with a new challenger."
+L["keeyo_note"] = "Время для больших приключений!"
+L["kusa_note"] = "У меня победная серия, у тебя нет шансов против меня и моей команды."
+L["sizzik_note"] = "Всегда ценю хорошую битву с новым претендентом."
 
 L["tales_akunda_note"] = "В пруду."
 L["tales_kimbul_note"] = "Рядом с засохшим деревом."
