@@ -491,14 +491,14 @@ map.nodes[51444848] = Treasure({
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[61907880] = PetBattle({
+map.nodes[61907879] = PetBattle({
     id=175784,
     rewards={
         Achievement({id=14881, criteria=51054})
     }
 }) -- Gelatinous
 
-map.nodes[26492675] = PetBattle({
+map.nodes[26482675] = PetBattle({
     id=175786,
     rewards={
         Achievement({id=14881, criteria=51056})
@@ -507,6 +507,7 @@ map.nodes[26492675] = PetBattle({
 
 map.nodes[34005526] = PetBattle({
     id=173263,
+    note=L["rotgut_note"],
     rewards={
         Achievement({id=14625, criteria=49412}),
         ns.reward.Spacer(),
@@ -525,6 +526,7 @@ map.nodes[34005526] = PetBattle({
 
 map.nodes[46865000] = PetBattle({
     id=173257,
+    note=L["maximillian_note"],
     rewards={
         Achievement({id=14625, criteria=49413}),
         ns.reward.Spacer(),
@@ -550,6 +552,7 @@ map.nodes[54062806] = PetBattle({
 
 map.nodes[63234687] = PetBattle({
     id=173267,
+    note=L["dundley_note"],
     rewards={
         Achievement({id=14625, criteria=49411}),
         ns.reward.Spacer(),

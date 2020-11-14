@@ -69,6 +69,9 @@ Read the "Tale of the Tangle" and then follow the blue lamps through the path un
 If you take a wrong path and {npc:171699} disappears when you reach the end, go back to the start and read "Tale of the Tangle" once more before trying again. If {npc:171767} is not there, you will have to wait for him to respawn.
 ]]
 
+L["faryl_note"] = nil
+L["glitterdust_note"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -199,6 +202,10 @@ L["temple_of_humility"] = "Temple of Humility"
 L["temple_of_purity"] = "Temple of Purity"
 L["xandrias_vigil"] = "Xandria's Vigil"
 
+L["stratios_note"] = nil
+L["thenia_note"] = nil
+L["zolla_note"] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -285,6 +292,10 @@ L["overlook_primus"] = "Overlook, Seat of the Primus"
 L["zerekriss"] = "Zerekriss, Maldraxxus"
 L["zerekriss_note"] = "Once activated, the necropolis will fly around the zone. Grab hold of {npc:165822} to glide down to the surface."
 
+L["dundley_note"] = nil
+L["maximillian_note"] = nil
+L["rotgut_note"] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -349,6 +360,10 @@ L["feeders_thicket"] = "Чаща пожирателей"
 L["halls_of_atonement"] = "Чертоги Покаяния"
 L["pridefall_hamlet"] = "Кладбище Гордыни"
 L["the_banewood"] = "Дорога в Гибельный лес"
+
+L["addius_note"] = nil
+L["eyegor_note"] = nil
+L["sylla_note"] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------

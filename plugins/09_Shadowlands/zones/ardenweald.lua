@@ -515,7 +515,7 @@ map.nodes[26546222] = PetBattle({
     }
 }) -- Chittermaw
 
-map.nodes[49864183] = PetBattle({
+map.nodes[49884175] = PetBattle({
     id=175780,
     note=L["in_small_cave"],
     rewards={
@@ -539,6 +539,7 @@ map.nodes[40192880] = PetBattle({
 
 map.nodes[51274406] = PetBattle({
     id=173377,
+    note=L["faryl_note"],
     rewards={
         Achievement({id=14625, criteria=49403}),
         ns.reward.Spacer(),
@@ -557,6 +558,7 @@ map.nodes[51274406] = PetBattle({
 
 map.nodes[58205690] = PetBattle({
     id=173372,
+    note=L["glitterdust_note"],
     rewards={
         Achievement({id=14625, criteria=49405}),
         ns.reward.Spacer(),

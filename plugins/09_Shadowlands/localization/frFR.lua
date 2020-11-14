@@ -70,6 +70,9 @@ Lisez le "Conte de l'enchevêtrement", puis suivez les lampes bleues à travers 
 Si vous prenez un mauvais chemin et que {npc:171699} disparaît lorsque vous arrivez à la fin, revenez au début et lisez à nouveau "Conte de l'enchevêtrement" avant d'essayer à nouveau. Si {npc:171767} n'est pas là, vous devrez attendre qu'il réapparaisse.
 ]]
 
+L["faryl_note"] = nil
+L["glitterdust_note"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -200,6 +203,10 @@ L["temple_of_humility"] = "Temple de l'humilité"
 L["temple_of_purity"] = "Temple de la pureté"
 L["xandrias_vigil"] = "La veillée de Xandria"
 
+L["stratios_note"] = nil
+L["thenia_note"] = nil
+L["zolla_note"] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -286,6 +293,10 @@ L["overlook_primus"] = "Overlook, Siège du Primat"
 L["zerekriss"] = "Zerekriss, Maldraxxus"
 L["zerekriss_note"] = "Une fois activé, la nécropole fera le tour de la zone. Saisissez le {npc:165822} pour planer jusqu'à la surface."
 
+L["dundley_note"] = nil
+L["maximillian_note"] = nil
+L["rotgut_note"] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -350,6 +361,10 @@ L["feeders_thicket"] = "Fourré des Dévoreurs"
 L["halls_of_atonement"] = "Salles de l'Expiation"
 L["pridefall_hamlet"] = "Tombe-Fierté"
 L["the_banewood"] = "Le Malbois"
+
+L["addius_note"] = nil
+L["eyegor_note"] = nil
+L["sylla_note"] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------

@@ -69,6 +69,9 @@ Lies die "Legende des Dickichts" am Baum (bei 32.5, 53.0) und folge den blauen L
 Wenn du den falschen Pfad nimmst und {npc:171699} verschwindet, wenn du das Ende erreichst, gehe zurück und lies die "Legende des Dickichts" erneut, um von vorne zu beginnen. Wenn {npc:171767} nicht da ist, warte auf ihn bis er Wiedererscheint.
 ]]
 
+L["faryl_note"] = nil
+L["glitterdust_note"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -195,6 +198,10 @@ L["temple_of_humility"] = "Tempel der Demut"
 L["temple_of_purity"] = "Tempel der Reinheit"
 L["xandrias_vigil"] = "Xandrias Wacht"
 
+L["stratios_note"] = nil
+L["thenia_note"] = nil
+L["zolla_note"] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -286,6 +293,10 @@ L["overlook_primus"] = "Warte, Sitz des Primus"
 L["zerekriss"] = "Zerekriss, Maldraxxus"
 L["zerekriss_note"] = "Nach der Aktivierung fliegt die Nekropole durch die Zone. Halte dich an {npc:165822} fest, um an die Oberfläche zu gleiten."
 
+L["dundley_note"] = nil
+L["maximillian_note"] = nil
+L["rotgut_note"] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -350,6 +361,10 @@ L["feeders_thicket"] = "Der Fluchwald"
 L["halls_of_atonement"] = "Hallen der Sühne"
 L["pridefall_hamlet"] = "Stolzsturzweiler"
 L["the_banewood"] = "Fresserdickicht"
+
+L["addius_note"] = nil
+L["eyegor_note"] = nil
+L["sylla_note"] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------

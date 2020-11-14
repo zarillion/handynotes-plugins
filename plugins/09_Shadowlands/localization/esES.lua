@@ -70,6 +70,9 @@ Lee la "Historia del enredo" y sigue las lámparas azules a través del camino h
 Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo el "Historia del enredo" antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
 ]]
 
+L["faryl_note"] = nil
+L["glitterdust_note"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -196,6 +199,10 @@ L["temple_of_humility"] = "Templo de la Humildad"
 L["temple_of_purity"] = "Templo de la Pureza"
 L["xandrias_vigil"] = "Vigilia de Xandria"
 
+L["stratios_note"] = nil
+L["thenia_note"] = nil
+L["zolla_note"] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -282,6 +289,10 @@ L["overlook_primus"] = "Mirador, Trono del Prelado"
 L["zerekriss"] = "Zerekriss, Maldraxxus"
 L["zerekriss_note"] = "Una vez activada, la necrópolis volará alrededor de la zona. Agárrate de {npc:165822} para planear hacia el suelo."
 
+L["dundley_note"] = nil
+L["maximillian_note"] = nil
+L["rotgut_note"] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -346,6 +357,10 @@ L["feeders_thicket"] = "Matorral de los Alimentadores"
 L["halls_of_atonement"] = "Salas de la Expiación"
 L["pridefall_hamlet"] = "Aldea de la Caída"
 L["the_banewood"] = "Bosque de la Desgracia"
+
+L["addius_note"] = nil
+L["eyegor_note"] = nil
+L["sylla_note"] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------

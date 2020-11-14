@@ -481,14 +481,14 @@ map.nodes[25263799] = PetBattle({
     }
 }) -- Scorch
 
-map.nodes[26002400] = PetBattle({
+map.nodes[25662361] = PetBattle({
     id=175781,
     rewards={
         Achievement({id=14881, criteria=51051})
     }
 }) -- Sewer Creeper
 
-map.nodes[53004100] = PetBattle({
+map.nodes[53004149] = PetBattle({
     id=175782,
     rewards={
         Achievement({id=14881, criteria=51052})
@@ -497,6 +497,7 @@ map.nodes[53004100] = PetBattle({
 
 map.nodes[39945249] = PetBattle({
     id=173315,
+    note=L["sylla_note"],
     rewards={
         Achievement({id=14625, criteria=49408}),
         ns.reward.Spacer(),
@@ -515,6 +516,7 @@ map.nodes[39945249] = PetBattle({
 
 map.nodes[61354121] = PetBattle({
     id=173331,
+    note=L["addius_note"],
     rewards={
         Achievement({id=14625, criteria=49406}),
         ns.reward.Spacer(),
@@ -533,6 +535,7 @@ map.nodes[61354121] = PetBattle({
 
 map.nodes[67626608] = PetBattle({
     id=173324,
+    note=L["eyegor_note"],
     rewards={
         Achievement({id=14625, criteria=49407}),
         ns.reward.Spacer(),
@@ -633,7 +636,7 @@ map.nodes[66727652] = Carriage({
     }
 }) -- Pridefall Carriage
 
-map.nodes[52634155] = Carriage({
+map.nodes[47694787] = Carriage({
     id=174754,
     rewards={ Achievement({id=14771, criteria=50173}) },
     pois={

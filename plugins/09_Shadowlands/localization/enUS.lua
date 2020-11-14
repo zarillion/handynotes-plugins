@@ -68,6 +68,9 @@ Read the "Tale of the Tangle" and then follow the blue lamps through the path un
 If you take a wrong path and {npc:171699} disappears when you reach the end, go back to the start and read "Tale of the Tangle" once more before trying again. If {npc:171767} is not there, you will have to wait for him to respawn.
 ]]
 
+L["faryl_note"] = "Let Ardenweald's defense be lead by the creatures in the sky."
+L["glitterdust_note"] = "The creatures of Ardenweald may look docile, but they will defend their territory with the strength and courage of the mightiest champions ever known. Do you have what it takes?"
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -194,6 +197,10 @@ L["temple_of_humility"] = "Temple of Humility"
 L["temple_of_purity"] = "Temple of Purity"
 L["xandrias_vigil"] = "Xandria's Vigil"
 
+L["stratios_note"] = "Even the smallest battles should be fought with honor and care. Present your team when you are ready."
+L["thenia_note"] = "Such magnificent open plains here. A glorious place to battle. Are you prepared?"
+L["zolla_note"] = "We take our defenses very seriously. Whether small or large, we are fully committed to maintain and train the resources that keep Bastion strong."
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -280,6 +287,10 @@ L["overlook_primus"] = "Overlook, Seat of the Primus"
 L["zerekriss"] = "Zerekriss, Maldraxxus"
 L["zerekriss_note"] = "Once activated, the necropolis will fly around the zone. Grab hold of {npc:165822} to glide down to the surface."
 
+L["dundley_note"] = "I'll battle my way to victory and gain the respect I finally deserve. The only downside is everything I own is now sticky. Everything."
+L["maximillian_note"] = "I have waited dozens of years for a worthy opponent. To the victor go the spoils!"
+L["rotgut_note"] = "Rotgut. Leftovers. Extra pieces. You fight."
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -344,6 +355,10 @@ L["feeders_thicket"] = "Feeders' Thicket"
 L["halls_of_atonement"] = "Halls of Atonement"
 L["pridefall_hamlet"] = "Pridefall Hamlet"
 L["the_banewood"] = "The Banewood"
+
+L["addius_note"] = "Weak minded beings should not waste my time, but if you insist, I will show you real pain."
+L["eyegor_note"] = "Eyegor ready for battle!"
+L["sylla_note"] = "One can never expect to have a distinguished battle out here in this awful area, but alas here we are. Do not waste my time."
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------

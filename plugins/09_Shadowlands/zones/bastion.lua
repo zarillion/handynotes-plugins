@@ -560,7 +560,7 @@ map.nodes[52727429] = PetBattle({
     rewards={
         Achievement({id=14881, criteria=51047})
     }
-}) -- Crsytalsnap
+}) -- Crystalsnap
 
 map.nodes[25903078] = PetBattle({
     id=175783,
@@ -569,7 +569,7 @@ map.nodes[25903078] = PetBattle({
     }
 }) -- Digallo
 
-map.nodes[46604940] = PetBattle({
+map.nodes[46524930] = PetBattle({
     id=175785,
     rewards={
         Achievement({id=14881, criteria=51055})
@@ -578,6 +578,7 @@ map.nodes[46604940] = PetBattle({
 
 map.nodes[34806280] = PetBattle({
     id=173131,
+    note=L["stratios_note"],
     rewards={
         Achievement({id=14625, criteria=49416}),
         ns.reward.Spacer(),
@@ -603,6 +604,7 @@ map.nodes[36603180] = PetBattle({
 
 map.nodes[51393833] = PetBattle({
     id=173130,
+    note=L["zolla_note"],
     rewards={
         Achievement({id=14625, criteria=49415}),
         ns.reward.Spacer(),
@@ -621,6 +623,7 @@ map.nodes[51393833] = PetBattle({
 
 map.nodes[54555609] = PetBattle({
     id=173129,
+    note=L["thenia_note"],
     rewards={
         Achievement({id=14625, criteria=49414}),
         ns.reward.Spacer(),
@@ -636,9 +639,6 @@ map.nodes[54555609] = PetBattle({
         Achievement({id=14877, criteria=8, oneline=true}), -- Undead
     }
 }) -- Thenia
-
-
-
 
 -------------------------------------------------------------------------------
 ----------------------------- ANIMA CRYSTAL SHARDS ----------------------------
