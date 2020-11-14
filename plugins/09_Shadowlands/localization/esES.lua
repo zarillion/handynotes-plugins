@@ -17,10 +17,10 @@ L["anima_channeled"] = "ánima canalizada a %s."
 
 L["deifir_note"] = "Monta en {npc=164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente."
 L["faeflayer_note"] = "En una cueva pequeña oculta tras una cascada."
-L["gormtamer_tizo_note"] = nil
+L["gormtamer_tizo_note"] = "Mata a los {npc:166735} y a los {npc:166736} que los montan hasta que aparezca {npc:164110}. Cuando lo mates aparecerá {npc:164107}."
 L["humongozz_note"] = "Planta un {item:175247} en la Marga Húmeda para hacer aparecer un {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. El champiñón cae de muchos enemigos de la zona."
 L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas)."
-L["mymaen_note"] = nil
+L["mymaen_note"] = "Mata duendes Pudrezarza en el área hasta que aparezca {npc:165053}."
 L["rainbowhorn_note"] = "\n|cffff4800¡|r|cffff9100P|r|cffffda00r|r|cffdaff00u|r|cff91ff00e|r|cff48ff00b|r|cff00ff00a|r |cff00ff91e|r|cff00ffdal|r |cff0091ffA|r|cff0048ffr|r|cff0000ffc|r|cff4800ffo|r |cffda00ffI|r|cffff00dar|r|cffff0091i|r|cffff0048s|r|cffff0000!|r"
 L["rootwrithe_note"] = "Haz click en las {npc:167928} hasta que aparezca el {npc=167726}."
 L["rotbriar_note"] = "Habla con {npc:171684} y comenzará a cantar. Tras algo de diálogo, aparecerá {npc:167724} cerca."
@@ -329,7 +329,7 @@ Tiene probabilidades de soltar un {item:180583}, el cual empieza una cadena de m
 L["dredglaive_note"] = "Debajo del puente en el cuerpo de un {npc:173671}."
 L["forbidden_chamber_note"] = "Despoja un Bote de Ánima Agotado enfrente de la puerta cerrada y aprende {spell:340701}. Úsalo para drenar a cinco {npc:173838} en las cercanías. Después usa {spell:340866} enfrente del {npc:173786}."
 L["gilded_plum_chest_note"] = "Mata al {npc:166680} que deambula por el camino arriba y abajo."
-L["lost_quill_note"] = "Despoja una {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida."
+L["lost_quill_note"] = "Despoja la {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida y dásela a la {npc:173449} encima del arco de fuera."
 L["rapier_fearless_note"] = "Haz click en el estoque del suelo, y entonces derrota a {npc:173603}."
 L["remlates_cache_note"] = "En la pared exterior de Refugioscuro detrás de la cripta."
 L["taskmaster_trove_note"] = "Lee Ritos de Acceso y Salida. Después sigue el camino al cofre con cuidado."
@@ -397,7 +397,7 @@ Activa el {spell:344157} para cruzar rápidamente por Las Fauces.
 
 Require la mejora {item:184613} de {npc:162804}.
 ]]
-L["venari_note"] = nil
+L["venari_note"] = "Usa {currency:1767} para comprar mejoras en Las Fauces y Torghast."
 L["venari_upgrade"] = "Mejora de {npc:162804}"
 
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
