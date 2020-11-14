@@ -15,8 +15,10 @@ L["anima_channeled"] = "anima channeled to %s."
 
 L["deifir_note"] = "Ride the rare around in a circle and use {spell:319566} and {spell:319575} to slow and stun him."
 L["faeflayer_note"] = "In a small cave hidden behind a waterfall."
+L["gormtamer_tizo_note"] = "Kill {npc:166735s} and the {npc:166736s} that are riding them until {npc:164110} spawns."
 L["humongozz_note"] = "Plant an {item:175247} in the Damp Loam to spawn a {npc:164122}. After a minute of {spell:319367}, the rare will spawn. The mushroom drops from numerous mobs in the zone."
 L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
+L["mymaen_note"] = "Kill Rotbriar sprites in the area until he emotes and spawns."
 L["rainbowhorn_note"] = "\n|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r"
 L["rootwrithe_note"] = "Poke the {npc:167928s} until the rare appears."
 L["rotbriar_note"] = "Talk to {npc:171684} nearby to summon the rare after some dialog."
@@ -314,7 +316,7 @@ Has a chance to drop an {item:180583}, which begins a 7 day quest line to obtain
 L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
 L["forbidden_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838s}, then use {spell:340866} in front of the {npc:173786}."
 L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
-L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
+L["lost_quill_note"] = "Loot the {item:182475} from the bottle on the table in the Forbidden Library, then give it to the {npc:173449} on top of the archway outside."
 L["rapier_fearless_note"] = "Click the rapier on the ground, then defeat {npc:173603}."
 L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
@@ -378,6 +380,7 @@ Activate to {spell:344157} quickly across the Maw.
 
 Requires the {item:184613} upgrade from {npc:162804}.
 ]]
+L["venari_note"] = "Use {currency:1767} to purchase Maw and Torghast upgrades."
 L["venari_upgrade"] = "{npc:162804} Upgrade"
 
 L["options_icons_bonus_boss"] = "Bonus Elites"

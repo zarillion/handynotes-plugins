@@ -17,8 +17,10 @@ L["anima_channeled"] = "anima canalisé vers %s."
 
 L["deifir_note"] = "Faites tourner le rare en cercle et utilisez {spell:319566}  et {spell:319575} pour le ralentir et l'étourdir."
 L["faeflayer_note"] = "Dans une petite grotte cachée derrière une chute d'eau."
+L["gormtamer_tizo_note"] = nil
 L["humongozz_note"] = "Plantez un {item:175247} dans le Terreau humide pour y faire apparaître un {npc:164122}. Après une minute de {spell:319367}, le rare apparaîtra. Le champignon peut être récupéré sur de nombreux monstres de la zone."
 L["lehgo_note"] = "Détruisez les œufs de Gorm frémissants et tuez des {npc:171827} jusqu'à ce qu'il apparaisse. Dans une grotte (entrée au sud-est dans les Terriers poussiéreux)."
+L["mymaen_note"] = nil
 L["rainbowhorn_note"] = "\n|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r"
 L["rootwrithe_note"] = "Tapez sur les {npc:167928} jusqu'à ce que le rare apparaisse."
 L["rotbriar_note"] = "Parlez à {npc:171684} à proximité pour faire apparaître le rare après un peu de dialogue."
@@ -384,6 +386,7 @@ L["soul_well_note"] = "Attrapez la Stygia qui jaillit du Puit d'âmes." --Correc
 L["obliterated_soul_shards_note"] = "Collectez des éclats d'âme oblitérés sur les ponts."
 
 L["chaotic_riftstone_note"] = "Activer pour {spell:344157} rapidement à travers l'Antre."
+L["venari_note"] = nil
 L["venari_upgrade"] = nil
 
 L["options_icons_bonus_boss"] = "Élites bonus"

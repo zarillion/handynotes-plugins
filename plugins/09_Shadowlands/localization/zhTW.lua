@@ -15,8 +15,10 @@ L["anima_channeled"] = "靈魄連接到 %s"
 
 L["deifir_note"] = "騎上圈內的稀有並使用 {spell:319566} 和 {spell:319575} 使其減速和昏迷"
 L["faeflayer_note"] = "瀑布後面隱藏的小洞穴內"
+L["gormtamer_tizo_note"] = nil
 L["humongozz_note"] = "種植一個 {item:175247} 在潮濕的沃土後將刷新 {npc:164122}。在一分鐘後 {spell:319367}，稀有將刷新。區域內的許多怪物都會掉落蘑菇"
 L["lehgo_note"] = "摧毀顫動的果姆蛋並擊殺 {npc:171827} 直到他出現。在洞穴內(入口在東南黃塵地穴內)"
+L["mymaen_note"] = nil
 L["rainbowhorn_note"] = "\n|cffff5400品|r|cffffaa00嘗|r|cffffff00絕|r|cffaaff00妙|r|cff54ff00的|r |cff00ff55美|r|cff00ffa9麗|r|cff00ffff的|r |cff0055ff七|r|cff0000ff彩|r|cff5400ff之|r|cffaa00ff虹|r|cffff00ff好|r|cffff00aa味|r|cffff0054道|r|cffff0000！|r"
 L["rootwrithe_note"] = "觸碰 {npc:167928} 直到稀有出現"
 L["rotbriar_note"] = "和 {npc:171684} 交談對話後在附近召喚稀有"
@@ -382,6 +384,7 @@ L["chaotic_riftstone_note"] = [[
 
 需要從 {npc:162804} 升級 {item:184613}。
 ]]
+L["venari_note"] = nil
 L["venari_upgrade"] = "{npc:162804} 升級"
 
 L["options_icons_bonus_boss"] = "獎勵精英"

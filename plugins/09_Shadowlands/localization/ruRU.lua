@@ -16,8 +16,10 @@ L["anima_channeled"] = "анима направлена на %s."
 
 L["deifir_note"] = "Катайся на редком монстре по кругу и используй {spell:319566} и {spell:319575} чтобы замедлить и оглушить его."
 L["faeflayer_note"] = "В маленькой пещере, скрытой за водопадом."
+L["gormtamer_tizo_note"] = nil
 L["humongozz_note"] = "Посадить {item:175247} во влажный суглинок, чтобы вызвать {npc:164122}. Через минуту {spell:319367}, редкий монстр появиться. Гриб выпадает с многочисленных монстров в локации."
 L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
+L["mymaen_note"] = nil
 L["rainbowhorn_note"] = "\n|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r"
 L["rootwrithe_note"] = "Тыкай по {npc:167928s} пока не появится редкий монстр."
 L["rotbriar_note"] = "Поговорите с {npc:171684}, чтобы вызвать редкого монстра после некоторого диалога."
@@ -383,6 +385,7 @@ Activate to {spell:344157} quickly across the Maw.
 
 Requires the {item:184613} upgrade from {npc:162804}.
 ]]
+L["venari_note"] = nil
 L["venari_upgrade"] = "{npc:162804} Upgrade"
 
 L["options_icons_bonus_boss"] = "Bonus Elites"

@@ -15,8 +15,10 @@ L["anima_channeled"] = "%s mit Anima versorgt."
 
 L["deifir_note"] = "Reite auf {npc:164238} und verwende die Fähigkeiten {spell:319566} und {spell:319575}, um ihn zu verlangsamen und zu betäuben."
 L["faeflayer_note"] = "In einer kleinen Höhle, versteckt hinter einem Wasserfall."
+L["gormtamer_tizo_note"] = nil
 L["humongozz_note"] = "Pflanze einen {item:175247} in den feuchten Lehm, um einen {npc:164122} erscheinen zu lassen. Nach einer Minute {spell:319367} wird {npc:164112} erscheinen. Der Pilz wird von mehreren Gegnern in diesem Gebiet fallen gelassen."
 L["lehgo_note"] = "Zerstöre Zitternde Gormeier und töte |CFFFFFF00Wütende Eipfleger|r bis {npc:167851} erscheint. In einer Höhle. (Eingang nach Südosten (58.5, 31.9))." --{npc:171827}
+L["mymaen_note"] = nil
 L["rainbowhorn_note"] = "Wenn er nicht da sein sollte, klicke das Große Horn des Runenhirsches an. \n\n|cffff4200S|r|cffff8500C|r|cffffc700H|r|cfff3ff00M|r|cffb1ff00E|r|cff6eff00C|r|cff2cff00K|r |cff00ff58D|r|cff00ff9bE|r|cff00ffddN|r |cff009bffR|r|cff0058ffE|r|cff0016ffG|r|cff2c00ffE|r|cff6e00ffN|r|cffb100ffB|r|cfff300ffO|r|cffff00c7G|r|cffff0085E|r|cffff0042N|r|cffff0000!|r"
 L["rootwrithe_note"] = "Pike die |CFFFFFF00Inaktiven Blüten|r an, bis {npc:167726} erscheint." --{npc:167928}
 L["rotbriar_note"] = "Sprich mit {npc:171684} in der Nähe, um {npc:167724} nach einem Dialog zu beschwören."
@@ -384,6 +386,7 @@ Aktiviere ihn, um mit einem {spell:344157} schnell durch den Schlund zu reisen.
 
 Benötigt die Aufwertung {item:184613} von {npc:162804}.
 ]]
+L["venari_note"] = nil
 L["venari_upgrade"] = "eine Aufwertung von {npc:162804}"
 
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"

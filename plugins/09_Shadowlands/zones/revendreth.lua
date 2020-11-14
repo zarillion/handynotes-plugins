@@ -347,7 +347,8 @@ map.nodes[47335536] = Treasure({
     quest=62243,
     note=L["forbidden_chamber_note"],
     rewards={
-        Achievement({id=14314, criteria=50084})
+        Achievement({id=14314, criteria=50084}),
+        Toy({item=184075}) -- Stonewrought Sentry
     }
 }) -- Forbidden Chamber
 

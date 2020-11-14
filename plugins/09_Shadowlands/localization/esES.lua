@@ -17,8 +17,10 @@ L["anima_channeled"] = "ánima canalizada a %s."
 
 L["deifir_note"] = "Monta en {npc=164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente."
 L["faeflayer_note"] = "En una cueva pequeña oculta tras una cascada."
+L["gormtamer_tizo_note"] = nil
 L["humongozz_note"] = "Planta un {item:175247} en la Marga Húmeda para hacer aparecer un {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. El champiñón cae de muchos enemigos de la zona."
 L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas)."
+L["mymaen_note"] = nil
 L["rainbowhorn_note"] = "\n|cffff4800¡|r|cffff9100P|r|cffffda00r|r|cffdaff00u|r|cff91ff00e|r|cff48ff00b|r|cff00ff00a|r |cff00ff91e|r|cff00ffdal|r |cff0091ffA|r|cff0048ffr|r|cff0000ffc|r|cff4800ffo|r |cffda00ffI|r|cffff00dar|r|cffff0091i|r|cffff0048s|r|cffff0000!|r"
 L["rootwrithe_note"] = "Haz click en las {npc:167928} hasta que aparezca el {npc=167726}."
 L["rotbriar_note"] = "Habla con {npc:171684} y comenzará a cantar. Tras algo de diálogo, aparecerá {npc:167724} cerca."
@@ -380,6 +382,7 @@ Activa el {spell:344157} para cruzar rápidamente por Las Fauces.
 
 Require la mejora {item:184613} de {npc:162804}.
 ]]
+L["venari_note"] = nil
 L["venari_upgrade"] = "Mejora de {npc:162804}"
 
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
