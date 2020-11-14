@@ -491,6 +491,20 @@ map.nodes[51444848] = Treasure({
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[61907880] = PetBattle({
+    id=175784,
+    rewards={
+        Achievement({id=14881, criteria=51054})
+    }
+}) -- Gelatinous
+
+map.nodes[26492675] = PetBattle({
+    id=175786,
+    rewards={
+        Achievement({id=14881, criteria=51056})
+    }
+}) -- Glurp
+
 map.nodes[34005526] = PetBattle({
     id=173263,
     rewards={

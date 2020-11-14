@@ -481,6 +481,20 @@ map.nodes[25263799] = PetBattle({
     }
 }) -- Scorch
 
+map.nodes[26002400] = PetBattle({
+    id=175781,
+    rewards={
+        Achievement({id=14881, criteria=51051})
+    }
+}) -- Sewer Creeper
+
+map.nodes[53004100] = PetBattle({
+    id=175782,
+    rewards={
+        Achievement({id=14881, criteria=51052})
+    }
+}) -- The Countess
+
 map.nodes[39945249] = PetBattle({
     id=173315,
     rewards={

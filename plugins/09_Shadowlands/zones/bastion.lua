@@ -555,6 +555,27 @@ map.nodes[58667135] = Treasure({
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[52727429] = PetBattle({
+    id=175777,
+    rewards={
+        Achievement({id=14881, criteria=51047})
+    }
+}) -- Crsytalsnap
+
+map.nodes[26013001] = PetBattle({
+    id=175783,
+    rewards={
+        Achievement({id=14881, criteria=51053})
+    }
+}) -- Digallo
+
+map.nodes[46604940] = PetBattle({
+    id=175785,
+    rewards={
+        Achievement({id=14881, criteria=51055})
+    }
+}) -- Kostos
+
 map.nodes[34806280] = PetBattle({
     id=173131,
     rewards={
@@ -615,6 +636,9 @@ map.nodes[54555609] = PetBattle({
         Achievement({id=14877, criteria=8, oneline=true}), -- Undead
     }
 }) -- Thenia
+
+
+
 
 -------------------------------------------------------------------------------
 ----------------------------- ANIMA CRYSTAL SHARDS ----------------------------
