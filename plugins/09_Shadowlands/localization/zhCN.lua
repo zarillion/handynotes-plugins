@@ -15,10 +15,10 @@ L["anima_channeled"] = "心能连接到%s。"
 
 L["deifir_note"] = "骑上圈内的稀有并使用 {spell:319566} 和 {spell:319575} 使其减速和昏迷。"
 L["faeflayer_note"] = "瀑布后面隐藏的小洞穴内。"
-L["gormtamer_tizo_note"] = nil
+L["gormtamer_tizo_note"] = "击杀 {npc:166735} 和 {npc:166736} 后骑着它们直到 {npc:164110} 刷新。"
 L["humongozz_note"] = "种植一个 {item:175247} 在潮湿的沃土将刷新 {npc:164122}。在一分钟后 {spell:319367}，稀有将刷新。区域内的许多怪物都掉落蘑菇。"
 L["lehgo_note"] = "摧毁颤动的戈姆蛋并击杀 {npc:171827} 直到他出现。在洞穴内（入口在东南尘泥地穴内）。"
-L["mymaen_note"] = nil
+L["mymaen_note"] = "击杀区域内的腐楠精灵直到他做出表情并出现。"
 L["rainbowhorn_note"] = "\n|cffff5400品|r|cffffaa00尝|r|cffffff00绝|r|cffaaff00妙|r|cff54ff00的|r |cff00ff55美|r|cff00ffa9丽|r|cff00ffff的|r |cff0055ff七|r|cff0000ff彩|r|cff5400ff之|r|cffaa00ff虹|r|cffff00ff好|r|cffff00aa味|r|cffff0054道|r|cffff0000！|r"
 L["rootwrithe_note"] = "触碰 {npc:167928} 直到稀有出现。"
 L["rotbriar_note"] = "和 {npc:171684} 交谈对话后在附近召唤稀有。"
@@ -68,8 +68,8 @@ L["tame_gladerunner_note"] = [[
 如果走错路并且 {npc:171699} 消失当你到达最后，返回开始位置并再次阅读“Tale of the Tangle”尝试。如果 {npc:171767} 不在，需要等待他刷新。
 ]]
 
-L["faryl_note"] = nil
-L["glitterdust_note"] = nil
+L["faryl_note"] = "让炽蓝仙野的防御由天空生物主宰。（暂）"
+L["glitterdust_note"] = "炽蓝仙野的生物看上去温顺，但他们将以有史以来最强大的冠军的力量和勇气捍卫自己的领土。你有什么需要？（暂）"
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -197,9 +197,9 @@ L["temple_of_humility"] = "谦逊神庙"
 L["temple_of_purity"] = "纯洁神庙"
 L["xandrias_vigil"] = "山德里娅的戒卫"
 
-L["stratios_note"] = nil
-L["thenia_note"] = nil
-L["zolla_note"] = nil
+L["stratios_note"] = "即使是最小的战斗，也应以荣誉和谨慎进行。准备好后，向您的团队介绍。（暂）"
+L["thenia_note"] = "如此宏伟的开阔平原。一个光荣的地方。准备好了吗？（暂）"
+L["zolla_note"] = "我们非常重视防御。无论规模大小，我们都将全力以赴维护和培训使堡垒保持强大实力的资源。（暂）"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -287,9 +287,9 @@ L["overlook_primus"] = "瞭望台，兵主之座"
 L["zerekriss"] = "泽雷克利斯，玛卓克萨斯"
 L["zerekriss_note"] = "激活后，浮空城将在该区域飞行。抓住 {npc:165822} 滑落到地面。"
 
-L["dundley_note"] = nil
-L["maximillian_note"] = nil
-L["rotgut_note"] = nil
+L["dundley_note"] = "我将为胜利而奋斗，并赢得应有的尊重。唯一的缺点是我现在拥有的所有东西都是粘性的。所有。（暂）"
+L["maximillian_note"] = "我等了几十年才找到一个值得的对手。胜利者要败了！（暂）"
+L["rotgut_note"] = "烂肠。剩菜。多余的东西。你上。（暂）"
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -327,7 +327,7 @@ L["worldedge_gorger_note"] = [[
 L["dredglaive_note"] = "在 {npc:173671} 尸体的桥下。"
 L["forbidden_chamber_note"] = "拾取一个废弃的心能之罐在锁着的门前学习 {spell:340701}。使用它吸取五个附近的 {npc:173838}s，然后在 {npc:173786} 前使用 {spell:340866}。"
 L["gilded_plum_chest_note"] = "击杀在路上徘徊的 {npc:166680}。"
-L["lost_quill_note"] = "从禁忌图书馆的桌上瓶子拾取 {item:182475}。"
+L["lost_quill_note"] = "从禁忌图书馆的桌上瓶子拾取 {item:182475}，然后把它交给外面拱门顶上的 {npc:173449}。"
 L["rapier_fearless_note"] = "点击地上的剑杆，然后击败 {npc:173603}。"
 L["remlates_cache_note"] = "在暗湾镇墓穴后面的外墙上。"
 L["taskmaster_trove_note"] = "阅读Ingress and Egress Rites然后小心地走到宝箱。"
@@ -356,9 +356,9 @@ L["halls_of_atonement"] = "赎罪大厅"
 L["pridefall_hamlet"] = "堕傲庄"
 L["the_banewood"] = "灾厄林"
 
-L["addius_note"] = nil
-L["eyegor_note"] = nil
-L["sylla_note"] = nil
+L["addius_note"] = "头脑虚弱的人不应浪费我的时间，但是如果您坚持，我会向您展示真正的痛苦。（暂）"
+L["eyegor_note"] = "艾戈尔准备作战！（暂） "
+L["sylla_note"] = "在这片令人毛骨悚然的地区，人们永远无法期望在这里展开一场出色的战斗，可惜我们在这里。不要浪费我的时间。（暂）"
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
@@ -395,7 +395,7 @@ L["chaotic_riftstone_note"] = [[
 
 需要从 {npc:162804} 升级 {item:184613}。
 ]]
-L["venari_note"] = nil
+L["venari_note"] = "使用 {currency:1767} 购买噬渊和托加斯特升级。"
 L["venari_upgrade"] = "{npc:162804} 升级"
 
 L["options_icons_bonus_boss"] = "奖励精英"
