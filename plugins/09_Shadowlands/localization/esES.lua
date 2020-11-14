@@ -70,8 +70,8 @@ Lee la "Historia del enredo" y sigue las lámparas azules a través del camino h
 Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo el "Historia del enredo" antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
 ]]
 
-L["faryl_note"] = nil --R
-L["glitterdust_note"] = nil --R
+L["faryl_note"] = "Deja que la defensa de Ardenweald la dirijan las criaturas de los cielos."
+L["glitterdust_note"] = "Puede que las criaturas de Ardenweald parezcan dóciles, pero defenderán su territorio con una fuerza y coraje dignas de los campeones más poderosos que hayas visto. ¿Crees que puedes plantarles cara?"
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -199,9 +199,9 @@ L["temple_of_humility"] = "Templo de la Humildad"
 L["temple_of_purity"] = "Templo de la Pureza"
 L["xandrias_vigil"] = "Vigilia de Xandria"
 
-L["stratios_note"] = nil --R
-L["thenia_note"] = nil --R
-L["zolla_note"] = nil --R
+L["stratios_note"] = "Incluso las pequeñas batallas se deben librar con honor y cuidado. Presenta a tu equipo cuando lo tengas todo listo."
+L["thenia_note"] = "Qué llanuras más maravillosas. Un lugar glorioso para combatir. ¿Listo?"
+L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o pequeños, nuestra máxima es mantener y formar los recursos que fortalecen Bastión."
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -289,9 +289,9 @@ L["overlook_primus"] = "Mirador, Trono del Prelado"
 L["zerekriss"] = "Zerekriss, Maldraxxus"
 L["zerekriss_note"] = "Una vez activada, la necrópolis volará alrededor de la zona. Agárrate de {npc:165822} para planear hacia el suelo."
 
-L["dundley_note"] = nil --R
-L["maximillian_note"] = nil --R
-L["rotgut_note"] = nil --R
+L["dundley_note"] = "¡Lucharé hasta alcanzar la victoria y por fin recibiré el respeto que merezco! El único inconveniente es que ahora todo lo que tengo está pegajoso. Todo."
+L["maximillian_note"] = "Llevo mucho tiempo esperando a un rival digno. ¡El botín será para el vencedor!"
+L["rotgut_note"] = "Pudretripa. Sobras. Más partes. Lucha."
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -358,9 +358,9 @@ L["halls_of_atonement"] = "Salas de la Expiación"
 L["pridefall_hamlet"] = "Aldea de la Caída"
 L["the_banewood"] = "Bosque de la Desgracia"
 
-L["addius_note"] = nil --R
-L["eyegor_note"] = nil --R
-L["sylla_note"] = nil --R
+L["addius_note"] = "No debería perder el tiempo con criaturas de mente débil, pero, si insistes, te haré sufrir de verdad."
+L["eyegor_note"] = "¡Jojobado listo para el combate!"
+L["sylla_note"] = "En esta zona tan horrible, una batalla honorable es lo último que cabe esperar, pero, bueno, aquí estamos. No me hagas perder el tiempo."
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
