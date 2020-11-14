@@ -12,7 +12,6 @@
 # Shadowlands
 
 * Filter covenant-specific rewards
-* [Abhorrent Adversaries of the Afterlife](https://shadowlands.wowhead.com/achievement=14881/abhorrent-adversaries-of-the-afterlife)
 * [Ardenweald Gourmand](https://www.wowhead.com/achievement=14774/ardenweald-gourmand)
 * [Bat!](https://www.wowhead.com/achievement=14769/bat)
 * [Count Your Blessings](https://www.wowhead.com/achievement=14767/count-your-blessings)
