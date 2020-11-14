@@ -517,13 +517,35 @@ map.nodes[40192880] = PetBattle({
 map.nodes[51274406] = PetBattle({
     id=173377,
     rewards={
-        Achievement({id=14625, criteria=49403})
+        Achievement({id=14625, criteria=49403}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=11, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=11, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=11, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=11, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=11, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=11, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=11, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=11, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=11, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=11, oneline=true}), -- Undead
     }
 }) -- Faryl
 
 map.nodes[58205690] = PetBattle({
     id=173372,
     rewards={
-        Achievement({id=14625, criteria=49405})
+        Achievement({id=14625, criteria=49405}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=10, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=10, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=10, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=10, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=10, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=10, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=10, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=10, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=10, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=10, oneline=true}), -- Undead
     }
 }) -- Glitterdust

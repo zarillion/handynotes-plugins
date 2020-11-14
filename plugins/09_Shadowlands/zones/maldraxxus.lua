@@ -494,14 +494,36 @@ map.nodes[51444848] = Treasure({
 map.nodes[34005526] = PetBattle({
     id=173263,
     rewards={
-        Achievement({id=14625, criteria=49412})
+        Achievement({id=14625, criteria=49412}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=4, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=4, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=4, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=4, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=4, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=4, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=4, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=4, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=4, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=4, oneline=true}), -- Undead
     }
 }) -- Rotgut
 
 map.nodes[46865000] = PetBattle({
     id=173257,
     rewards={
-        Achievement({id=14625, criteria=49413})
+        Achievement({id=14625, criteria=49413}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=6, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=6, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=6, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=6, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=6, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=6, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=6, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=6, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=6, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=6, oneline=true}), -- Undead
     }
 }) -- Caregiver Maximillian
 
@@ -515,7 +537,18 @@ map.nodes[54062806] = PetBattle({
 map.nodes[63234687] = PetBattle({
     id=173267,
     rewards={
-        Achievement({id=14625, criteria=49411})
+        Achievement({id=14625, criteria=49411}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=5, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=5, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=5, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=5, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=5, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=5, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=5, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=5, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=5, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=5, oneline=true}), -- Undead
     }
 }) -- Dundley Stickyfingers
 

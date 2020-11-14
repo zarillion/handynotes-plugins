@@ -1,3 +1,8 @@
+# v18
+
+* Added Ve'nari to the map to track Maw and Torghast upgrades.
+* Added Family Exorcist achievements to the pet trainer tooltips.
+
 # v17
 
 * Fixed prepatch miniboss drop tables based on Wowhead data.

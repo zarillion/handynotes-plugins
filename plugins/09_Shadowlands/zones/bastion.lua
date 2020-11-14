@@ -558,7 +558,18 @@ map.nodes[58667135] = Treasure({
 map.nodes[34806280] = PetBattle({
     id=173131,
     rewards={
-        Achievement({id=14625, criteria=49416})
+        Achievement({id=14625, criteria=49416}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=9, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=9, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=9, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=9, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=9, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=9, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=9, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=9, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=9, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=9, oneline=true}), -- Undead
     }
 }) -- Stratios
 
@@ -572,14 +583,36 @@ map.nodes[36603180] = PetBattle({
 map.nodes[51393833] = PetBattle({
     id=173130,
     rewards={
-        Achievement({id=14625, criteria=49415})
+        Achievement({id=14625, criteria=49415}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=7, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=7, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=7, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=7, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=7, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=7, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=7, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=7, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=7, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=7, oneline=true}), -- Undead
     }
 }) -- Zolla
 
 map.nodes[54555609] = PetBattle({
     id=173129,
     rewards={
-        Achievement({id=14625, criteria=49414})
+        Achievement({id=14625, criteria=49414}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=8, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=8, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=8, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=8, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=8, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=8, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=8, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=8, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=8, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=8, oneline=true}), -- Undead
     }
 }) -- Thenia
 

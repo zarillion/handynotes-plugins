@@ -484,21 +484,54 @@ map.nodes[25263799] = PetBattle({
 map.nodes[39945249] = PetBattle({
     id=173315,
     rewards={
-        Achievement({id=14625, criteria=49408})
+        Achievement({id=14625, criteria=49408}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=1, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=1, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=1, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=1, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=1, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=1, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=1, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=1, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=1, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=1, oneline=true}), -- Undead
     }
 }) -- Sylla
 
 map.nodes[61354121] = PetBattle({
     id=173331,
     rewards={
-        Achievement({id=14625, criteria=49406})
+        Achievement({id=14625, criteria=49406}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=3, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=3, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=3, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=3, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=3, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=3, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=3, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=3, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=3, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=3, oneline=true}), -- Undead
     }
 }) -- Addius the Tormentor
 
 map.nodes[67626608] = PetBattle({
     id=173324,
     rewards={
-        Achievement({id=14625, criteria=49407})
+        Achievement({id=14625, criteria=49407}),
+        ns.reward.Spacer(),
+        Achievement({id=14868, criteria=2, oneline=true}), -- Aquatic
+        Achievement({id=14869, criteria=2, oneline=true}), -- Beast
+        Achievement({id=14870, criteria=2, oneline=true}), -- Critter
+        Achievement({id=14871, criteria=2, oneline=true}), -- Dragon
+        Achievement({id=14872, criteria=2, oneline=true}), -- Elemental
+        Achievement({id=14873, criteria=2, oneline=true}), -- Flying
+        Achievement({id=14874, criteria=2, oneline=true}), -- Humanoid
+        Achievement({id=14875, criteria=2, oneline=true}), -- Magic
+        Achievement({id=14876, criteria=2, oneline=true}), -- Mechanical
+        Achievement({id=14877, criteria=2, oneline=true}), -- Undead
     }
 }) -- Eyegor
 
