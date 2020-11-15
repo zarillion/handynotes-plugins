@@ -330,7 +330,7 @@ L["gilded_plum_chest_note"] = "击杀在路上徘徊的 {npc:166680}。"
 L["lost_quill_note"] = "从禁忌图书馆的桌上瓶子拾取 {item:182475}，然后把它交给外面拱门顶上的 {npc:173449}。"
 L["rapier_fearless_note"] = "点击地上的剑杆，然后击败 {npc:173603}。"
 L["remlates_cache_note"] = "在暗湾镇墓穴后面的外墙上。"
-L["smuggled_cache_note"] = nil
+L["smuggled_cache_note"] = ns.color.Red("*在拾取之前*：").."确认已完成 {quest:60480} 分支任务否则宝藏和任务将缺少40个 {currency:1820}。"
 L["taskmaster_trove_note"] = "阅读Ingress and Egress Rites然后小心地走到宝箱。"
 L["the_count_note"] = "获得99个 {currency:1820} 末日迷沼然后把它带给 {npc:173488}。"
 
@@ -349,10 +349,10 @@ L["sinrunner_note_day6"] = "从城墙巨洞的 {npc:167815} 购买3个 {item:179
 
 L["options_icons_carriages"] = "马车"
 L["options_icons_carriages_desc"] = "显示可骑乘马车的位置和路径。"
-L["options_icons_dredbats"] = nil
-L["options_icons_dredbats_desc"] = nil
-L["options_icons_sinrunners"] = nil
-L["options_icons_sinrunners_desc"] = nil
+L["options_icons_dredbats"] = "恐惧蝠"
+L["options_icons_dredbats_desc"] = "显示{npc:161015}的位置和路径。"
+L["options_icons_sinrunners"] = "罪奔者"
+L["options_icons_sinrunners_desc"] = "显示{npc:174032}的位置和路径。"
 
 L["dominance_keep"] = "统御要塞"
 L["eternal_terrace"] = "永恒高台"
