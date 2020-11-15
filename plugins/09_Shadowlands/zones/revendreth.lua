@@ -19,6 +19,7 @@ local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
+local Arrow = ns.poi.Arrow
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -657,7 +658,7 @@ map.nodes[47694787] = Carriage({
 -------------------------------------------------------------------------------
 
 local Sinrunner = Class('Sinrunner', NPC, {
-    icon = 'horseshoe_r',
+    icon = 'horseshoe_o',
     scale = 1.2,
     group = ns.groups.SINRUNNER
 })
@@ -849,13 +850,28 @@ map.nodes[44035641] = Sinrunner({
     rewards={ Achievement({id=14770, criteria=50175}) },
     pois={
         Path({
-            44035641, 43715627,
-            42995614, 42295630, 41675639, 41035649, 40575560, 40125460,
-            39955357, 39485259, 39245155, 39335039, 39724939, 40174839,
-            40564749, 40844697
+            44035641, 43715627, 42995614, 42295630, 41675639, 41035649,
+            40575560, 40125460, 39955357, 39485259, 39245155, 39335039,
+            39724939, 40174839, 40564749, 40844697
         })
     }
 }) -- Charred Ramparts => Hole in the Wall
+
+-------------------------------------------------------------------------------
+------------------------------------- BAT! ------------------------------------
+-------------------------------------------------------------------------------
+
+local Dredbat = Class('Dredbat', NPC, {
+    id=161015,
+    icon='flight_point_g',
+    group=ns.groups.DREDBATS,
+    requires=ns.requirement.Currency(1820, 5),
+    rewards={ Achievement({id=14769, criteria={id=1, qty=true}}) }
+})
+
+map.nodes[57246125] = Dredbat({ pois={ Arrow({57246125, 60286116}) } })
+map.nodes[60396117] = Dredbat({ pois={ Arrow({60396117, 57495549}) } })
+map.nodes[64076201] = Dredbat({ pois={ Arrow({64076201, 70125719}) } })
 
 -------------------------------------------------------------------------------
 -------------------------------- LOYAL GORGER ---------------------------------

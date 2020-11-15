@@ -349,6 +349,8 @@ L["sinrunner_note_day6"] = "从城墙巨洞的 {npc:167815} 购买3个 {item:179
 
 L["options_icons_carriages"] = "马车"
 L["options_icons_carriages_desc"] = "显示可骑乘马车的位置和路径。"
+L["options_icons_dredbats"] = nil
+L["options_icons_dredbats_desc"] = nil
 L["options_icons_sinrunners"] = nil
 L["options_icons_sinrunners_desc"] = nil
 

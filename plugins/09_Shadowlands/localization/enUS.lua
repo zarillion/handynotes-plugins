@@ -349,6 +349,8 @@ L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} b
 
 L["options_icons_carriages"] = "Carriages"
 L["options_icons_carriages_desc"] = "Display locations and paths of rideable carriages."
+L["options_icons_dredbats"] = "Dredbats"
+L["options_icons_dredbats_desc"] = "Display locations and paths of {npc:161015s}."
 L["options_icons_sinrunners"] = "Sinrunners"
 L["options_icons_sinrunners_desc"] = "Display locations and paths of {npc:174032s}."
 

@@ -13,7 +13,6 @@
 
 * Filter covenant-specific rewards
 * [Ardenweald Gourmand](https://www.wowhead.com/achievement=14774/ardenweald-gourmand) (all at one vendor?!?)
-* [Bat!](https://www.wowhead.com/achievement=14769/bat)
 * [Count Your Blessings](https://www.wowhead.com/achievement=14767/count-your-blessings)
 * [Crypt Couture](https://www.wowhead.com/achievement=14763/crypt-couture) (Necrolord only?)
 * [Fractured Faerie Tales](https://www.wowhead.com/achievement=14788/fractured-faerie-tales)

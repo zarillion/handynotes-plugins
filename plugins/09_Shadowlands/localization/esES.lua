@@ -351,6 +351,8 @@ L["sinrunner_note_day6"] = "Alimenta a Blanchy con 3 {item:179271}, vendidas por
 
 L["options_icons_carriages"] = "Carruajes"
 L["options_icons_carriages_desc"] = "Muestra las localizaciones posibles y caminos de los carruajes que se pueden llevar."
+L["options_icons_dredbats"] = nil
+L["options_icons_dredbats_desc"] = nil
 L["options_icons_sinrunners"] = nil
 L["options_icons_sinrunners_desc"] = nil
 

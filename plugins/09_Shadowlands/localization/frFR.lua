@@ -355,6 +355,8 @@ L["sinrunner_note_day6"] = "Nourrissez blanchette avec 3 {item:179271}, vendus p
 
 L["options_icons_carriages"] = "Calèches"
 L["options_icons_carriages_desc"] = "Afficher les emplacements et les parcours des calèches."
+L["options_icons_dredbats"] = nil
+L["options_icons_dredbats_desc"] = nil
 L["options_icons_sinrunners"] = nil
 L["options_icons_sinrunners_desc"] = nil
 
