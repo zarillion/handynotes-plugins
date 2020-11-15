@@ -119,8 +119,6 @@ L["options_toggle_maximized_enlarged"] = "Symbole bei maximierter Weltkarte verg
 L["options_toggle_maximized_enlarged_desc"] = "Wenn die Weltkarte maximiert ist, werden alle Symbole vergrößert."
 L["options_toggle_use_char_achieves"] = "Verwende charakterspezifische Erfolge"
 L["options_toggle_use_char_achieves_desc"] = "Zeigt den Erfolgsfortschritt von diesem Charakter, anstelle des gesamten Accounts an."
-L["options_poi_refresh_rate"] = nil
-L["options_poi_refresh_rate_desc"] = nil
 L["options_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 L["options_restore_hidden_nodes_desc"] = "Stellt alle Punkte wieder her, die über das Kontextmenü versteckt wurden."
 

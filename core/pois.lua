@@ -16,6 +16,7 @@ local function ResetPin(pin)
     pin.texture:SetTexCoord(0, 1, 0, 1)
     pin.texture:SetVertexColor(1, 1, 1, 1)
     pin.frameOffset = 0
+    pin.rotation = nil
     pin:SetAlpha(1)
     if pin.SetScalingLimits then -- World map only!
         pin:SetScalingLimits(nil, nil, nil)
@@ -129,14 +130,16 @@ function Path:Draw(pin, type, xy1, xy2)
             local wmapDistance = sqrt((wx2-wx1)^2 + (wy2-wy1)^2)
             local mmapDiameter = C_Minimap:GetViewRadius() * 2
             line_length = Minimap:GetWidth() * (wmapDistance / mmapDiameter)
-            t:SetRotation(-math.atan2(wy2-wy1, wx2-wx1))
+            pin.rotation = -math.atan2(wy2-wy1, wx2-wx1)
+            t:SetRotation(pin.rotation)
         else
             local x1p = x1 * pin.parentWidth
             local x2p = x2 * pin.parentWidth
             local y1p = y1 * pin.parentHeight
             local y2p = y2 * pin.parentHeight
             line_length = sqrt((x2p-x1p)^2 + (y2p-y1p)^2)
-            t:SetRotation(-math.atan2(y2p-y1p, x2p-x1p))
+            pin.rotation = -math.atan2(y2p-y1p, x2p-x1p)
+            t:SetRotation(pin.rotation)
         end
         pin:SetSize(line_length, line_width)
 

@@ -119,8 +119,6 @@ L["options_toggle_maximized_enlarged"] = nil
 L["options_toggle_maximized_enlarged_desc"] = nil
 L["options_toggle_use_char_achieves"] = nil
 L["options_toggle_use_char_achieves_desc"] = nil
-L["options_poi_refresh_rate"] = nil
-L["options_poi_refresh_rate_desc"] = nil
 L["options_restore_hidden_nodes"] = "Восстановить скрытые места"
 L["options_restore_hidden_nodes_desc"] = "Восстановите все скрытые места, используя контекстное меню, вызываемое правой кнопкой мыши."
 
