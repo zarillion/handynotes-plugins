@@ -344,8 +344,8 @@ L["options_icons_dredbats_desc"] = "Afficher les emplacements et les trajets des
 L["options_icons_sinrunners"] = "{npc:174032s}"
 L["options_icons_sinrunners_desc"] = "Afficher les emplacements et les trajets des {npc:174032s}."
 
-L["addius_note"] = "Les êtres faibles d'esprit ne devraient pas me faire perdre mon temps, mais si vous insistez, je vous montrerai la vraie douleur. la bataille !"
-L["eyegor_note"] = "Carnœil prêt pour"
+L["addius_note"] = "Les êtres faibles d'esprit ne devraient pas me faire perdre mon temps, mais si vous insistez, je vous montrerai la vraie douleur."
+L["eyegor_note"] = "Carnœil prêt pour la bataille !"
 L["sylla_note"] = "On ne peut jamais s'attendre à avoir une bataille distinguée ici dans cette terrible région, mais hélas, nous y sommes. Ne me faites pas perdre mon temps."
 
 L["grand_inquisitor_note"] = "Donnez 10 {item:180451} à {npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
