@@ -9,7 +9,6 @@
 * Investigate auto NPC coloring for tooltips (red, green, yellow).
 * Double-click to create Blizzard waypoint.
 * Use proper texture for arrow POIs.
-* Add test for unused localization strings.
 
 # Shadowlands
 

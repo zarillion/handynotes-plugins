@@ -187,16 +187,6 @@ L["anima_shard_61300"] = "On a ledge hanging over the central font."
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "Display the locations of all 50 lost anima shards for the {achievement:14339} achievement."
 
-L["aspirants_rest"] = "Aspirant's Rest"
-L["eternal_gateway"] = "Eternal Gateway"
-L["exaltations_rise"] = "Exaltation Rise"
-L["heros_rest"] = "Hero's Rest"
-L["sagehaven"] = "Sagehaven"
-L["seat_of_eternal_hymns"] = "Seat of Eternal Hymns"
-L["temple_of_humility"] = "Temple of Humility"
-L["temple_of_purity"] = "Temple of Purity"
-L["xandrias_vigil"] = "Xandria's Vigil"
-
 L["stratios_note"] = "Even the smallest battles should be fought with honor and care. Present your team when you are ready."
 L["thenia_note"] = "Such magnificent open plains here. A glorious place to battle. Are you prepared?"
 L["zolla_note"] = "We take our defenses very seriously. Whether small or large, we are fully committed to maintain and train the resources that keep Bastion strong."
@@ -281,12 +271,6 @@ L["pus_in_boots"] = "Located under the bridge."
 L["options_icons_slime_cat"] = "{achievement:14634}"
 L["options_icons_slime_cat_desc"] = "Display locations of kittens for the {achievement:14634} achievement."
 
-L["exoramas"] = "Exoramas, House of Rituals"
-L["nurakkir"] = "Nurakkir, House of Eyes"
-L["overlook_primus"] = "Overlook, Seat of the Primus"
-L["zerekriss"] = "Zerekriss, Maldraxxus"
-L["zerekriss_note"] = "Once activated, the necropolis will fly around the zone. Grab hold of {npc:165822} to glide down to the surface."
-
 L["dundley_note"] = "I'll battle my way to victory and gain the respect I finally deserve. The only downside is everything I own is now sticky. Everything."
 L["maximillian_note"] = "I have waited dozens of years for a worthy opponent. To the victor go the spoils!"
 L["rotgut_note"] = "Rotgut. Leftovers. Extra pieces. You fight."
@@ -354,13 +338,6 @@ L["options_icons_dredbats_desc"] = "Display locations and paths of {npc:161015s}
 L["options_icons_sinrunners"] = "{npc:174032s}"
 L["options_icons_sinrunners_desc"] = "Display locations and paths of {npc:174032s}."
 
-L["dominance_keep"] = "Dominance Keep"
-L["eternal_terrace"] = "The Eternal Terrace"
-L["feeders_thicket"] = "Feeders' Thicket"
-L["halls_of_atonement"] = "Halls of Atonement"
-L["pridefall_hamlet"] = "Pridefall Hamlet"
-L["the_banewood"] = "The Banewood"
-
 L["addius_note"] = "Weak minded beings should not waste my time, but if you insist, I will show you real pain."
 L["eyegor_note"] = "Eyegor ready for battle!"
 L["sylla_note"] = "One can never expect to have a distinguished battle out here in this awful area, but alas here we are. Do not waste my time."
@@ -423,8 +400,6 @@ L["options_icons_riftstone_desc"] = "Display the locations of chaotic riftstone 
 L["prepatch_intro"] = "Complete the intro quests for the Shadowlands prepatch event to unlock bosses in this zone."
 L["icecrown_rares"] = "All bosses spawn in a fixed order on a 20 minute interval. Each can be looted multiple times a day!"
 L["next_spawn"] = "Next spawn at %s local time."
-L["shared_loot"] = "Shared Loot"
-L["unique_loot"] = "Unique Loot"
 
 local ORIG = ns.color.Orange("Originally in %s.")
 

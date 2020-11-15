@@ -1017,16 +1017,21 @@ local Blanchy = Class('Blanchy', NPC, {
 })
 
 function Blanchy.getters:note ()
-    local note = L["sinrunner_note"]
-    local status
-    for i, quest in ipairs(self.quest) do
-        if C_QuestLog.IsQuestFlaggedCompleted(quest) then
-            status = ns.status.Green(i)
+    local function status(i)
+        if C_QuestLog.IsQuestFlaggedCompleted(self.quest[i]) then
+            return ns.status.Green(i)
         else
-            status = ns.status.Red(i)
+            return ns.status.Red(i)
         end
-        note = note..'\n\n'..status..' '..L["sinrunner_note_day"..i]
     end
+
+    local note = L["sinrunner_note"]
+    note = note..'\n\n'..status(1)..' '..L["sinrunner_note_day1"]
+    note = note..'\n\n'..status(2)..' '..L["sinrunner_note_day2"]
+    note = note..'\n\n'..status(3)..' '..L["sinrunner_note_day3"]
+    note = note..'\n\n'..status(4)..' '..L["sinrunner_note_day4"]
+    note = note..'\n\n'..status(5)..' '..L["sinrunner_note_day5"]
+    note = note..'\n\n'..status(6)..' '..L["sinrunner_note_day6"]
     return note
 end
 

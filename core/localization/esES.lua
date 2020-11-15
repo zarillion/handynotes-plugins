@@ -68,8 +68,6 @@ L["known"] = "Conocido"
 L["missing"] = "Desconocido"
 L["unobtainable"] = "No se puede obtener"
 L["unlearnable"] = "No se puede aprender"
-L["A"] = "V" -- available/alive
-L["D"] = "M" -- defeated/dead
 L["defeated"] = "Derrotado"
 L["undefeated"] = "Sin derrotar"
 
@@ -146,7 +144,6 @@ L["options_reset_poi_colors_desc"] = "Establece los colores de encima a sus valo
 ---------------------------------- TOOLTIP ---------------------------------
 
 L["options_tooltip_settings"] = "Tooltip"
-L["options_tooltip_settings_desc"] = "Tooltip"
 L["options_toggle_show_loot"] = "Mostrar el botín"
 L["options_toggle_show_loot_desc"] = "Muestra la información de botín al tooltip"
 L["options_toggle_show_notes"] = "Mostrar las Notas"
@@ -155,7 +152,6 @@ L["options_toggle_show_notes_desc"] = "Agrega las notas útiles al tooltip cuand
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L["options_dev_settings"] = "Desarrollo"
-L["options_dev_settings_desc"] = "Opciones de Desarrollo"
 L["options_toggle_show_debug_map"] = "Depurar IDs del Mapa"
 L["options_toggle_show_debug_map_desc"] = "Muestra información de depuración para los mapas"
 L["options_toggle_show_debug_quest"] = "Depurar IDs de las Misiones"

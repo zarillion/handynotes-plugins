@@ -66,8 +66,6 @@ L["known"] = "Известно"
 L["missing"] = "Отсутствует"
 L["unobtainable"] = "Недоступно"
 L["unlearnable"] = "Не поддается изучению"
-L["A"] = nil
-L["D"] = nil
 L["defeated"] = nil
 L["undefeated"] = nil
 
@@ -144,7 +142,6 @@ L["options_reset_poi_colors_desc"] = nil
 ----------------------------------- TOOLTIP -----------------------------------
 
 L["options_tooltip_settings"] = "Подсказки"
-L["options_tooltip_settings_desc"] = "Подсказки"
 L["options_toggle_show_loot"] = "Показать Лут"
 L["options_toggle_show_loot_desc"] = "Добавить информацию о добыче в подсказку"
 L["options_toggle_show_notes"] = "Показать заметки"
@@ -153,7 +150,6 @@ L["options_toggle_show_notes_desc"] = "Добавьте полезные зам�
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L["options_dev_settings"] = "Разработка"
-L["options_dev_settings_desc"] = "Настройки разработчика"
 L["options_toggle_show_debug_map"] = "Отладка идентификаторов карты"
 L["options_toggle_show_debug_map_desc"] = "Показать отладочную информацию для карт"
 L["options_toggle_show_debug_quest"] = "Отлаживать"

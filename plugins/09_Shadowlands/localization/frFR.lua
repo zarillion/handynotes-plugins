@@ -35,7 +35,7 @@ Allez à Tirna Scithe et suivez le chemin de racines sur la falaise nord-ouest j
 Apportez cet objet à {npc:165704} au bassin Tombe-Lueur. Elle vous donnera une {item:181242} en échange de 10 {item:173204}. |cFFFF8C00Si elle n'est pas là, vous devez compléter les suites de quêtes |cFFFFFD00Règlement de compte chez les gormelins|r et |cFFFFFD00Spriggans farceurs|r.
 
 Ensuite, parlez à {npc:160262} au Coeur de la forêt pour échanger l'{item:181242} contre un {item:178675}. Utilisez cet objet pour obtenir le buff {spell:327083}, vous permettant de voir la {npc:168135}.
-]] 
+]]
 
 L["star_lake"] = "Amphithéâtre du Lac étoilé"
 L["star_lake_note"] = "Parlez à {npc:171743}, le metteur en scène, pour commencer l'une des rencontres spéciales."
@@ -193,16 +193,6 @@ L["anima_shard_61300"] = "Sur un rebord surplombant la fontaine centrale."
 L["options_icons_anima_shard"] = "Éclats de cristal d'anima perdus"
 L["options_icons_anima_shard_desc"] = "Afficher les emplacements des 50 éclats de cristal d'anima perdus pour l'exploit Mission éclatante."
 
-L["aspirants_rest"] = "Repos de l'Aspirant"
-L["eternal_gateway"] = "Portail éternel"
-L["exaltations_rise"] = "Cime de l'exaltation"
-L["heros_rest"] = "Repos du Héros"
-L["sagehaven"] = "Havre de la sagesse"
-L["seat_of_eternal_hymns"] = "Siège des hymnes éternels"
-L["temple_of_humility"] = "Temple de l'humilité"
-L["temple_of_purity"] = "Temple de la pureté"
-L["xandrias_vigil"] = "La veillée de Xandria"
-
 L["stratios_note"] = "Même les plus petites batailles doivent être menées avec honneur et prudence. Présentez votre équipe quand vous êtes prêt".
 L["thenia_note"] = "Quelles magnifiques plaines dégagées ici. Un endroit glorieux pour se battre. Êtes-vous prêt ?"
 L["zolla_note"] = "Nous prenons nos défenses très au sérieux. Qu'elles soient petites ou grandes, nous sommes pleinement engagés à maintenir et à former les ressources qui permettent au Bastion de rester fort".
@@ -287,12 +277,6 @@ L["pus_in_boots"] = "Situé sous le pont."
 L["options_icons_slime_cat"] = "Chatons"
 L["options_icons_slime_cat_desc"] = "Afficher les emplacements des chatons pour le haut-fait Neuf vies après la mort."
 
-L["exoramas"] = "Exoramas, Maison des Rituels"
-L["nurakkir"] = "Nurakkir, Maison des yeux"
-L["overlook_primus"] = "Overlook, Siège du Primat"
-L["zerekriss"] = "Zerekriss, Maldraxxus"
-L["zerekriss_note"] = "Une fois activé, la nécropole fera le tour de la zone. Saisissez le {npc:165822} pour planer jusqu'à la surface."
-
 L["dundley_note"] = "Je me battrai pour la victoire et gagnerai le respect que je mérite enfin. Le seul inconvénient est que tout ce que je possède est maintenant collant. Tout."
 L["maximillian_note"] = "J'ai attendu des dizaines d'années pour trouver un adversaire digne de ce nom. Au vainqueur, le butin !"
 L["rotgut_note"] = "Tord-Tripes. Les restes. Pièces supplémentaires. Battez-vous."
@@ -360,13 +344,6 @@ L["options_icons_dredbats_desc"] = "Afficher les emplacements et les trajets des
 L["options_icons_sinrunners"] = "{npc:174032s}"
 L["options_icons_sinrunners_desc"] = "Afficher les emplacements et les trajets des {npc:174032s}."
 
-L["dominance_keep"] = "Donjon de la Domination"
-L["eternal_terrace"] = "La terasse Éternelle"
-L["feeders_thicket"] = "Fourré des Dévoreurs"
-L["halls_of_atonement"] = "Salles de l'Expiation"
-L["pridefall_hamlet"] = "Tombe-Fierté"
-L["the_banewood"] = "Le Malbois"
-
 L["addius_note"] = "Les êtres faibles d'esprit ne devraient pas me faire perdre mon temps, mais si vous insistez, je vous montrerai la vraie douleur."
 L["eyegor_note"] = "Carnœil prêt pour la bataille !"
 L["sylla_note"] = "On ne peut jamais s'attendre à avoir une bataille distinguée ici dans cette terrible région, mais hélas, nous y sommes. Ne me faites pas perdre mon temps".
@@ -429,8 +406,6 @@ L["options_icons_riftstone_desc"] = "Affichez les emplacements des téléporteur
 L["prepatch_intro"] = "Complétez les quêtes d'introduction de l'évènement de pré-lancement de Shadowlands pour déverrouiller les boss dans cette zone."
 L["icecrown_rares"] = "Les boss apparaissent dans un ordre fixe avec 20 minutes d'intervalle. Chacun peut être looté plusieurs fois par jour !"
 L["next_spawn"] = "Prochaine apparition à %s, heure locale."
-L["shared_loot"] = "Butin partagé"
-L["unique_loot"] = "Butin unique"
 
 local ORIG = ns.color.Orange("A l'origine dans %s.")
 

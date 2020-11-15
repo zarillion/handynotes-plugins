@@ -2,9 +2,9 @@ name: Automated Build
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
@@ -25,15 +25,9 @@ jobs:
       - name: Install luacheck
         run: luarocks install luacheck
 
-      - name: Install python 3.8
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.8'
-
       - name: Lint sources
         run: |
           luacheck core plugins tests/test_*.lua
-          python tests/test_locales.py
 
       - name: Run tests
         run: |

@@ -188,16 +188,6 @@ L["anima_shard_61300"] = "An der Kante des mittleren Brunnens."
 L["options_icons_anima_shard"] = "Splitterpartie"
 L["options_icons_anima_shard_desc"] = "Zeigt die Positionen aller 50 verlorener Animakristallsplitter für den Erfolg {achievement:14339} an."
 
-L["aspirants_rest"] = "Aspirantenrast"
-L["eternal_gateway"] = "Ewiges Tor"
-L["exaltations_rise"] = "Anhöhe der Herrlichkeit"
-L["heros_rest"] = "Heldenrast"
-L["sagehaven"] = "Weisenhafen"
-L["seat_of_eternal_hymns"] = "Sitz der Ewigen Hymnen"
-L["temple_of_humility"] = "Tempel der Demut"
-L["temple_of_purity"] = "Tempel der Reinheit"
-L["xandrias_vigil"] = "Xandrias Wacht"
-
 L["stratios_note"] = "Auch die kleinst Schlacht sollte mit Bedacht und Ehre geschlagen werden. Präsentiert Euer Team, wenn Ihr bereit seid."
 L["thenia_note"] = "Welch prachtvolle weite Ebene. Einfach wunderbar für einen Kampf. Seid ihr bereit?"
 L["zolla_note"] = "Wir nehmen unsere Verteidigung sehr ernst. Ob groß oder klein, wir investieren viel in die Ausbildung und Instandhaltung der Ressourcen, die die Bastion stark machen."
@@ -287,12 +277,6 @@ L["pus_in_boots"] = "Befindet sich unter der Brücke."
 L["options_icons_slime_cat"] = "Neun jenseitige Leben"
 L["options_icons_slime_cat_desc"] = "Zeigt die Positionen der Kätzchen für den Erfolg {achievement:14634} an."
 
-L["exoramas"] = "Exoramas, Haus der Rituale"
-L["nurakkir"] = "Nurakkir, Haus der Augen"
-L["overlook_primus"] = "Warte, Sitz des Primus"
-L["zerekriss"] = "Zerekriss, Maldraxxus"
-L["zerekriss_note"] = "Nach der Aktivierung fliegt die Nekropole durch die Zone. Halte dich an {npc:165822} fest, um an die Oberfläche zu gleiten."
-
 L["dundley_note"] = "Ich erkämpfe mir den Sieg und den Respekt, den ich verdiene! Der einzige Nachteil ist, dass jetzt alles was ich besitze, klebrig ist. Alles"
 L["maximillian_note"] = "Dutzende von Jahren habe ich auf würdige Gegner gewartet. Dem Sieger die Beute!"
 L["rotgut_note"] = "Faulwanst. Reste. Mehr Teile. Ihr kämpft."
@@ -360,13 +344,6 @@ L["options_icons_dredbats_desc"] = "Zeigt die Positionen der {npc:161015n} und i
 L["options_icons_sinrunners"] = "{npc:174032}"
 L["options_icons_sinrunners_desc"] = "Zeigt die Positionen der {npc:174032} und ihre Wege an."
 
-L["dominance_keep"] = "Herrschaftsburg"
-L["eternal_terrace"] = "Die Ewige Terrasse"
-L["feeders_thicket"] = "Der Fluchwald"
-L["halls_of_atonement"] = "Hallen der Sühne"
-L["pridefall_hamlet"] = "Stolzsturzweiler"
-L["the_banewood"] = "Fresserdickicht"
-
 L["addius_note"] = "Willensschwache Wesen sollten nicht meine Zeit vergeuden, doch wenn Ihr darauf besteht, dann zeige ich Euch, was wahre Schmerzen sind."
 L["eyegor_note"] = "Iiihgor kampfbereit!"
 L["sylla_note"] = "Hier an diesem grässlichen Ort sollte man keinen Kampf erwarten, der es wert ist, und doch stehen wir nun hier. Vergeudet nicht meine Zeit."
@@ -429,8 +406,6 @@ L["options_icons_riftstone_desc"] = "Zeigt die Positionen von Chaotischen Rissst
 L["prepatch_intro"] = "Schließe die Einführungsquestreihe für den Shadowlands Prepatch ab, um in diesem Gebiet die Bosse freizuschalten."
 L["icecrown_rares"] = "Alle Bosse erscheinen in einer festgelegten Reihenfolge, in einem Intervall von 20 Minuten. Jeder von ihnen kann mehrfach am Tag geplündert werden."
 L["next_spawn"] = "Erscheint das nächste mal um %s Uhr (lokale Uhrzeit)."
-L["shared_loot"] = "Geteilte Beute"
-L["unique_loot"] = "Einzigartige Beute"
 
 local ORIG = ns.color.Orange("Ursprünglich in %s.")
 

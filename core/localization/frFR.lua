@@ -66,8 +66,6 @@ L["known"] = "Connu"
 L["missing"] = "Inconnu"
 L["unobtainable"] = "Introuvable"
 L["unlearnable"] = "Non Apprenable"
-L["A"] = nil
-L["D"] = nil
 L["defeated"] = nil
 L["undefeated"] = nil
 
@@ -144,7 +142,6 @@ L["options_reset_poi_colors_desc"] = nil
 ---------------------------------- TOOLTIP ---------------------------------
 
 L["options_tooltip_settings"] = "Infobulle"
-L["options_tooltip_settings_desc"] = "Infobulle"
 L["options_toggle_show_loot"] = "Montrer le Butin"
 L["options_toggle_show_loot_desc"] = "Ajouter l'information de butin à l'infobulle"
 L["options_toggle_show_notes"] = "Montrer les Notes"
@@ -153,7 +150,6 @@ L["options_toggle_show_notes_desc"] = "Ajouter les notes utiles à l'infobulle l
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L["options_dev_settings"] = "Développement"
-L["options_dev_settings_desc"] = "Paramètres de développement"
 L["options_toggle_show_debug_map"] = nil
 L["options_toggle_show_debug_map_desc"] = nil
 L["options_toggle_show_debug_quest"] = nil

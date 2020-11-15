@@ -192,16 +192,6 @@ L["anima_shard_61300"] = "На выступе, нависшем над цент�
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "Отображение местоположения всех 50 потерянных осколков анимы для достижения {achievement:14339}."
 
-L["aspirants_rest"] = "Aspirant's Rest"
-L["eternal_gateway"] = "Eternal Gateway"
-L["exaltations_rise"] = "Exaltation Rise"
-L["heros_rest"] = "Hero's Rest"
-L["sagehaven"] = "Sagehaven"
-L["seat_of_eternal_hymns"] = "Seat of Eternal Hymns"
-L["temple_of_humility"] = "Temple of Humility"
-L["temple_of_purity"] = "Temple of Purity"
-L["xandrias_vigil"] = "Xandria's Vigil"
-
 L["stratios_note"] = nil
 L["thenia_note"] = nil
 L["zolla_note"] = nil
@@ -286,12 +276,6 @@ L["pus_in_boots"] = "Located under the bridge."
 L["options_icons_slime_cat"] = "{achievement:14634}"
 L["options_icons_slime_cat_desc"] = "Display locations of kittens for the {achievement:14634} achievement."
 
-L["exoramas"] = "Exoramas, House of Rituals"
-L["nurakkir"] = "Nurakkir, House of Eyes"
-L["overlook_primus"] = "Overlook, Seat of the Primus"
-L["zerekriss"] = "Zerekriss, Maldraxxus"
-L["zerekriss_note"] = "Once activated, the necropolis will fly around the zone. Grab hold of {npc:165822} to glide down to the surface."
-
 L["dundley_note"] = nil
 L["maximillian_note"] = nil
 L["rotgut_note"] = nil
@@ -359,13 +343,6 @@ L["options_icons_dredbats_desc"] = nil
 L["options_icons_sinrunners"] = nil
 L["options_icons_sinrunners_desc"] = nil
 
-L["dominance_keep"] = "Крепость Господства"
-L["eternal_terrace"] = "Вечная терраса"
-L["feeders_thicket"] = "Чаща пожирателей"
-L["halls_of_atonement"] = "Чертоги Покаяния"
-L["pridefall_hamlet"] = "Кладбище Гордыни"
-L["the_banewood"] = "Дорога в Гибельный лес"
-
 L["addius_note"] = nil
 L["eyegor_note"] = nil
 L["sylla_note"] = nil
@@ -428,8 +405,6 @@ L["options_icons_riftstone_desc"] = "Display the locations of chaotic riftstone 
 L["prepatch_intro"] = "Завершите вводные задания для события подготовки к выходу Shadowlands, чтобы разблокировать редких монстров в этой локации."
 L["icecrown_rares"] = "Все редкие существа появляются в фиксированном порядке с интервалом в 20 минут."
 L["next_spawn"] = "Следующее возрождение в %s по местному времени."
-L["shared_loot"] = "Общая добыча"
-L["unique_loot"] = "Уникальная добыча"
 
 local ORIG = ns.color.Orange("Первоначально в %s.")
 

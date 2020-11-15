@@ -2,7 +2,6 @@
 --------------------------------- LOAD MODULE ---------------------------------
 -------------------------------------------------------------------------------
 
-local lfs = require('lfs')
 local luaunit = require('luaunit')
 
 -------------------------------------------------------------------------------
@@ -19,40 +18,42 @@ if err then print(err); os.exit() end
 ------------------------------- HELPER FUNCTIONS ------------------------------
 -------------------------------------------------------------------------------
 
-local function LocaleDirs()
-    local first, dir = true
-    local iter, dir_obj = lfs.dir('../plugins')
+local function Locales()
+    local cmd = 'find ../core/localization ../plugins/*/localization -name "*.lua"'
+    local iter = io.popen(cmd):lines()
     return function ()
-        -- always start with core localizations
-        if first then
-            first = false
-            return 'Core', '../core/localization'
-        end
-        repeat
-            dir = iter(dir_obj)
-        until dir == nil or string.find(dir, '%d%d_%a')
-        if dir then
-            return dir:sub(4), ('../plugins/%s/localization'):format(dir)
-        end
+        local file = iter()
+        if not file then return end
+        local plugin = file:find('/core/') and 'Core' or file:sub(file:find('%d%d_%a+')):sub(4)
+        return plugin, file:sub(-8, -5), file:sub(0, -10)
     end
 end
 
-local function Locales()
-    local iterDirs = LocaleDirs()
-    local plugin, dir = iterDirs()
-    local iterFiles, dir_obj = lfs.dir(dir)
-    local file
-    return function ()
-        repeat
-            file = iterFiles(dir_obj)
-            if file == nil then
-                plugin, dir = iterDirs()
-                if plugin ~= nil then
-                    iterFiles, dir_obj = lfs.dir(dir)
-                end
-            end
-        until (file == nil and plugin == nil) or (file and file:find('%a+.lua'))
-        if file then return plugin, file:sub(1, 4), dir end
+local function Code()
+    local cmd = 'find ../core ../plugins -name "*.lua" | grep -v localization'
+    return io.popen(cmd):lines()
+end
+
+-------------------------------------------------------------------------------
+------------------------- SCAN CODE FOR LOCALE STRINGS ------------------------
+-------------------------------------------------------------------------------
+
+-- Localization strings used in the code. Temporarily used strings should be
+-- placed here so that the test does not fail.
+local USED_STRINGS = {
+    activation_unknown = true,
+    requirement_not_found = true,
+    daily = true -- remove me once used
+}
+
+for file in Code() do
+    local code = io.open(file):read('*a')
+    for key in string.gmatch(code, 'L%[["\']([%w_]+)["\']%]') do
+        USED_STRINGS[key] = true
+    end
+    for group in string.gmatch(code, 'Group%(["\']([%w_]+)["\']') do
+        USED_STRINGS[('options_icons_%s'):format(group)] = true
+        USED_STRINGS[('options_icons_%s_desc'):format(group)] = true
     end
 end
 
@@ -75,6 +76,9 @@ function TestLocales:CreateNamespace(expectedKeys)
             __newindex = function(self, key, value)
                 if ns.seen[key] then
                     error(format('string "%s" assigned twice', key))
+                end
+                if not USED_STRINGS[key] then
+                    error(format('string "%s" is never used in the code', key))
                 end
                 ns.seen[key] = true
                 ns.keys[#ns.keys + 1] = key
