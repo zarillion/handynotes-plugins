@@ -336,7 +336,7 @@ L["gilded_plum_chest_note"] = "Töte die {npc:166680}, die die Straße hoch und 
 L["lost_quill_note"] = "Plündere die {item:182475} von der Flasche auf dem Tisch in der Verbotenen Bibliothek und gib sie dem {npc:173449}, der sich auf dem Dach der Verbotenen Bibliothek versteckt."
 L["rapier_fearless_note"] = "Klicke das Rapier auf dem Boden an und besiege {npc:173603}."
 L["remlates_cache_note"] = "Hinter der Außenmauer der Krypta in Dunkelhafen."
-L["smuggled_cache_note"] = nil
+L["smuggled_cache_note"] = ns.color.Red("BEVOR DU DIE TRUHE PLÜNDERST: ").."Geh sicher, dass du die Nebenquest {quest:60480} abgeschlossen hast oder du wirst 40x {currency:1820} von der Schatztruhe und Quest versäumen."
 L["taskmaster_trove_note"] = "Lies die Eintritts- und Austrittsriten und gehe behutsam zur Truhe."
 L["the_count_note"] = "Sammle 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}."
 
@@ -355,8 +355,8 @@ L["sinrunner_note_day6"] = "Verfüttere an Graumähne 3x {item:179271}, verkauft
 
 L["options_icons_carriages"] = "Kutschen"
 L["options_icons_carriages_desc"] = "Zeigt die Positionen und Wege von fahrbaren Kutschen an."
-L["options_icons_sinrunners"] = nil
-L["options_icons_sinrunners_desc"] = nil
+L["options_icons_sinrunners"] = "{npc:174032}"
+L["options_icons_sinrunners_desc"] = "Zeigt die Positionen der {npc:174032} und ihre Wege an."
 
 L["dominance_keep"] = "Herrschaftsburg"
 L["eternal_terrace"] = "Die Ewige Terrasse"
