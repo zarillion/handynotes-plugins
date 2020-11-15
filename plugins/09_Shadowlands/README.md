@@ -51,23 +51,27 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### Bastion
 
-* Lost Anima Shard locations for the [Shard Labor](https://shadowlands.wowhead.com/achievement=14339/shard-labor) achievement and [Silverwind Larion](https://shadowlands.wowhead.com/item=180772/silverwind-larion) mount.
+* Lost Anima Shard locations for the [Shard Labor](https://www.wowhead.com/achievement=14339/shard-labor) achievement and [Silverwind Larion](https://www.wowhead.com/item=180772/silverwind-larion) mount.
 
 ### Maldraxxus
 
 * Pool of Mixed Monstrosities summoning combinations and rewards.
-* Slime cat locations for the [Nine Afterlives](https://shadowlands.wowhead.com/achievement=14634/nine-afterlives) achievement.
+* Slime cat locations for the [Nine Afterlives](https://www.wowhead.com/achievement=14634/nine-afterlives) achievement.
 
 ### Revendreth
 
-* Rideable carriage locations and paths for [The Afterlife Express](https://shadowlands.wowhead.com/achievement=14771/the-afterlife-express) achievement.
-* Dead Blanchy progress for the [Sinrunner Blanchy](https://shadowlands.wowhead.com/item=182614/blanchys-reins) mount.
-* Impressionable Gorger progress for the [Loyal Gorger](https://shadowlands.wowhead.com/item=182589/loyal-gorger) mount.
+* Carriage locations and paths for [The Afterlife Express](https://www.wowhead.com/achievement=14771/the-afterlife-express) achievement.
+* Castle Sinrunner locations and paths for the [What We Ride in the Shadows](https://www.wowhead.com/achievement=14770/what-we-ride-in-the-shadows) achievement.
+* Dead Blanchy locations and progress for the [Sinrunner Blanchy](https://www.wowhead.com/item=182614/blanchys-reins) mount.
+* Dredbat Statue locations and paths for the [Bat!](https://www.wowhead.com/achievement=14769/bat) achievement.
+* Impressionable Gorger progress for the [Loyal Gorger](https://www.wowhead.com/item=182589/loyal-gorger) mount.
+* Inquisitor locations for the [It's Always Sinny in Revendreth](https://www.wowhead.com/achievement=14276/its-always-sinny-in-revendreth) achievement.
 
 ### The Maw
 
-* Bonus boss and event locations for collecting [Stygia](https://shadowlands.wowhead.com/currency=1767/stygia).
+* Bonus boss and event locations for collecting [Stygia](https://www.wowhead.com/currency=1767/stygia).
 * Chaotic Riftstone locations and transport paths.
+* Maw and Torghast upgrades purchased from [Ve'nari](https://www.wowhead.com/npc=162804/venari).
 
 ## Localization
 

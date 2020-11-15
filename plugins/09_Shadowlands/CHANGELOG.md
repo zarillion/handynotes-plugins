@@ -5,6 +5,8 @@
 * Added Castle Sinrunner routes for the What We Ride in the Shadows achievement.
 * Added Dredbat Statue routes for the Bat! achievement.
 * Added inquisitor locations for the Its Always Sinny in Revendreth achievement.
+* Added minimap POI refresh rate option to use when 'Rotate Minimap' is enabled.
+* Added more localization updates.
 
 # v17
 
