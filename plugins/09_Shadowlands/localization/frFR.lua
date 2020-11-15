@@ -17,10 +17,10 @@ L["anima_channeled"] = "anima canalisé vers %s."
 
 L["deifir_note"] = "Faites tourner le rare en cercle et utilisez {spell:319566}  et {spell:319575} pour le ralentir et l'étourdir."
 L["faeflayer_note"] = "Dans une petite grotte cachée derrière une chute d'eau."
-L["gormtamer_tizo_note"] = nil
+L["gormtamer_tizo_note"] = "Tuez les {npc:166735s} et les {npc:166736s} qui les chevauchent jusqu'à ce que {npc:164110} apparaisse."
 L["humongozz_note"] = "Plantez un {item:175247} dans le Terreau humide pour y faire apparaître un {npc:164122}. Après une minute de {spell:319367}, le rare apparaîtra. Le champignon peut être récupéré sur de nombreux monstres de la zone."
 L["lehgo_note"] = "Détruisez les œufs de Gorm frémissants et tuez des {npc:171827} jusqu'à ce qu'il apparaisse. Dans une grotte (entrée au sud-est dans les Terriers poussiéreux)."
-L["mymaen_note"] = nil
+L["mymaen_note"] = "Tuez les lutins putréronce dans la zone jusqu'à ce qu'il lance une émote et apparaisse."
 L["rainbowhorn_note"] = "\n|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r"
 L["rootwrithe_note"] = "Tapez sur les {npc:167928} jusqu'à ce que le rare apparaisse."
 L["rotbriar_note"] = "Parlez à {npc:171684} à proximité pour faire apparaître le rare après un peu de dialogue."
@@ -32,10 +32,10 @@ L["wrigglemortis_note"] = "Engagez la {npc:164179} pour faire apparaître le rar
 L["night_mare_note"] = [[
 Allez à Tirna Scithe et suivez le chemin de racines sur la falaise nord-ouest jusqu'à une charrette cassée. Là, vous pourrez ramasser une {item:181243} sur le sol.
 
-Apportez cet objet à {npc:165704} au bassin Tombe-Lueur. Elle vous donnera une {item:181242} en échange de 10 {item:173204}. |cFFFF8C00Si elle n'est pas là, vous devez compléter les suites de quêtes |cFFFFFD00Problèmes au Corral des rejetons Gorms|r et |cFFFFFD00Spriggans farceurs|r.
+Apportez cet objet à {npc:165704} au bassin Tombe-Lueur. Elle vous donnera une {item:181242} en échange de 10 {item:173204}. |cFFFF8C00Si elle n'est pas là, vous devez compléter les suites de quêtes |cFFFFFD00Règlement de compte chez les gormelins|r et |cFFFFFD00Spriggans farceurs|r.
 
 Ensuite, parlez à {npc:160262} au Coeur de la forêt pour échanger l'{item:181242} contre un {item:178675}. Utilisez cet objet pour obtenir le buff {spell:327083}, vous permettant de voir la {npc:168135}.
-]] --Correction : Sur la première suite de quêtes à compléter
+]] 
 
 L["star_lake"] = "Amphithéâtre du Lac étoilé"
 L["star_lake_note"] = "Parlez à {npc:171743}, le metteur en scène, pour commencer l'une des rencontres spéciales."
@@ -70,8 +70,8 @@ Lisez le "Conte de l'enchevêtrement", puis suivez les lampes bleues à travers 
 Si vous prenez un mauvais chemin et que {npc:171699} disparaît lorsque vous arrivez à la fin, revenez au début et lisez à nouveau "Conte de l'enchevêtrement" avant d'essayer à nouveau. Si {npc:171767} n'est pas là, vous devrez attendre qu'il réapparaisse.
 ]]
 
-L["faryl_note"] = nil
-L["glitterdust_note"] = nil
+L["faryl_note"] = "Que la défense de Sylvarden soit menée par les créatures du ciel."
+L["glitterdust_note"] = "Les créatures de Sylvarden peuvent paraître dociles, mais elles défendront leur territoire avec la force et le courage des plus grands champions jamais connus. Avez-vous ce qu'il faut ?"
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -109,13 +109,13 @@ L["unstable_memory_note"] = "Peut être invoqué quand les {npc:171018}s sont pr
 L["wingflayer_note"] = "Pour l'invoquer, cliquez sur la Corne du Courage sur la table voisine (au sud-est, en haut des escaliers)."
 
 L["broken_flute"] = "Tuez les {npc:170009} à proximité jusqu'à ce qu'ils laissent tomber la {item:180536}, puis utilisez les outils pour la réparer."
-L["cloudwalkers_coffer"] = nil
-L["cloudwalkers_coffer_note"] = nil
+L["cloudwalkers_coffer"] = "coffre de marche-nuage"
+L["cloudwalkers_coffer_note"] = "Utilisez les grandes fleurs violettes pour rebondir sur la plate-forme."
 L["experimental_construct_part"] = "Procurez-vous un {item:180534} proche et utilisez-le pour réparer la pièce. L'anima a plusieurs lieux d'apparition."
 L["larion_harness"] = "Situé à l'intérieur du Hall des Bêtes."
 L["memorial_offering"] = "Achetez un {item:180788} auprès de {npc:171526} au Repos de l'Aspirant. Placez-le sur le plateau de boissons près du coffre pour obtenir la {item:180797}."
 L["scroll_of_aeons"] = "Procurez-vous 2 {item:173973} dans la zone centrale et placez-les sur les plateaux d'hommage à proximité pour révéler le trésor."
-L["vesper_of_silver_wind"] = nil
+L["vesper_of_silver_wind"] = "Vêpre vent-d’argent"
 L["vesper_of_silver_wind_note"] = "Terminez le haut-fait {achievement:14339} et parlez ensuite à {npc:171732} près de l'entrée des Flèches de l'Ascension pour forger un {item:180858}."
 
 L["gift_of_agthia"] = "Cliquez sur la torche allumée près du pont brisé au nord-ouest et portez {spell:333320} de torche en torche jusqu'au coffre. En allumant la dernière torche, vous obtiendrez {spell:333063}."
@@ -185,8 +185,8 @@ L["anima_shard_61292"] = "Au-dessus de l'arche de pierre."
 L["anima_shard_61293"] = "Au sommet d'une mince colonne de pierre au niveau inférieur."
 L["anima_shard_61294"] = "Caché derrière une pile de barils."
 L["anima_shard_61295"] = "Derrière {npc:156889} dans une étagère."
-L["anima_shard_61296"] = "Derrière la grande cloche tombée."
-L["anima_shard_61297"] = "Derrière un pilier de pierre."
+L["anima_shard_61296"] = "Derrière la grande cloche tombée.\n\n"..ns.color.Red('Dans le donjon : Sillage nécrotique.')
+L["anima_shard_61297"] = "Derrière un pilier de pierre.\n\n"..ns.color.Red('Dans le donjon : Sillage nécrotique.')
 L["anima_shard_61298"] = "Situé derrière une chaise longue."
 L["anima_shard_61299"] = "Caché derrière une grande torche."
 L["anima_shard_61300"] = "Sur un rebord surplombant la fontaine centrale."
@@ -194,7 +194,7 @@ L["options_icons_anima_shard"] = "Éclats de cristal d'anima perdus"
 L["options_icons_anima_shard_desc"] = "Afficher les emplacements des 50 éclats de cristal d'anima perdus pour l'exploit Mission éclatante."
 
 L["aspirants_rest"] = "Repos de l'Aspirant"
-L["eternal_gateway"] = "Porte éternelle" --Correction : Doute sur la porte concernée
+L["eternal_gateway"] = "Portail éternel"
 L["exaltations_rise"] = "Cime de l'exaltation"
 L["heros_rest"] = "Repos du Héros"
 L["sagehaven"] = "Havre de la sagesse"
@@ -203,9 +203,9 @@ L["temple_of_humility"] = "Temple de l'humilité"
 L["temple_of_purity"] = "Temple de la pureté"
 L["xandrias_vigil"] = "La veillée de Xandria"
 
-L["stratios_note"] = nil
-L["thenia_note"] = nil
-L["zolla_note"] = nil
+L["stratios_note"] = "Même les plus petites batailles doivent être menées avec honneur et prudence. Présentez votre équipe quand vous êtes prêt".
+L["thenia_note"] = "Quelles magnifiques plaines dégagées ici. Un endroit glorieux pour se battre. Êtes-vous prêt ?"
+L["zolla_note"] = "Nous prenons nos défenses très au sérieux. Qu'elles soient petites ou grandes, nous sommes pleinement engagés à maintenir et à former les ressources qui permettent au Bastion de rester fort".
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -273,13 +273,13 @@ Pour extraire {item:180273} en toute sécurité :
 
 • Achetez 1 {item:182163} auprès de {npc:171808} à Revendreth.
 • Achetez 1 {item:180771} à {npc:166640} à Maldraxxus.
-• Obtenez 2 charges de {spell:306272} de l'expédition {wq:Quelques obstacles sur le chemin} à l'ouest.
+• Obtenez 2 charges de {spell:306272} de l'expédition {wq:Quelques accidents de parcours} à l'ouest.
 • Mangez 4x {spell:327367} dans la Deliquescense de Glutharn.
 • Utilisez rapidement votre pierre de foyer, buvez les deux potions et tirez sur l'épée.
-]] --Correction : Doute sur le nom de l'expédition
+]]
 
 L["pet_cat"] = "Caressez ce satané chat !"
-L["hairball"] = ns.color.Red("N'apparaît que dans le Sanctuaire Purulent à l'intérieur du donjon Malepeste !") --Correction : Doute sur le nom du Sanctum
+L["hairball"] = ns.color.Red("N'apparaît que dans le Sanctuaire Purulent à l'intérieur du donjon Malepeste !")
 L["lime"] = "Située au sommet de la grande arche osseuse."
 L["moldstopheles"] = "Courez à l'arrière de la tige et sautez sur les plates-formes en champignons. Pour la dernière plate-forme, utilisez une monture et sautez à l'angle où il rencontre la tige."
 L["pus_in_boots"] = "Situé sous le pont."
@@ -293,9 +293,9 @@ L["overlook_primus"] = "Overlook, Siège du Primat"
 L["zerekriss"] = "Zerekriss, Maldraxxus"
 L["zerekriss_note"] = "Une fois activé, la nécropole fera le tour de la zone. Saisissez le {npc:165822} pour planer jusqu'à la surface."
 
-L["dundley_note"] = nil
-L["maximillian_note"] = nil
-L["rotgut_note"] = nil
+L["dundley_note"] = "Je me battrai pour la victoire et gagnerai le respect que je mérite enfin. Le seul inconvénient est que tout ce que je possède est maintenant collant. Tout."
+L["maximillian_note"] = "J'ai attendu des dizaines d'années pour trouver un adversaire digne de ce nom. Au vainqueur, le butin !"
+L["rotgut_note"] = "Tord-Tripes. Les restes. Pièces supplémentaires. Battez-vous."
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -303,7 +303,7 @@ L["rotgut_note"] = nil
 
 L["amalgamation_of_filth_note"] = "Quand l'expédition {wq:Sale boulot : équipe de démolition} est disponible, cliquez sur une Boîte à ordures et utilisez {spell:324115} dans l'eau."
 L["amalgamation_of_light_note"] = "Déplacez les trois Miroirs piégés pour libérer le rare."
-L["amalgamation_of_sin_note"] = "Utilisez le Catalyseur de puissance pour obtenir {item:180376} lors de l'expédition {wq:Invoquez vos péchés}, puis utilisez l'objet pour invoquer le rare." --Correction : Doute sur le nom de l'expédition
+L["amalgamation_of_sin_note"] = "Utilisez le Catalyseur de puissance pour obtenir {item:180376} lors de l'expédition {wq:Invocation de vices}, puis utilisez l'objet pour invoquer le rare."
 L["bog_beast_note"] = "A une chance d'apparaître pendant l'expédition {wq:Foire aux idées} après avoir utilisé {item:177880} sur une {npc:166206}." --Correction : Doute sur le nom de l'expédition
 L["endlurker_note"] = "Cliquez sur le Pieu d'Anima près du cadavre de {npc:165229} et utilisez {spell:321826} au sommet de la Faille chatoyante."
 L["executioner_aatron_note"] = "Tuez les trois PNJ proches {npc:166715} pour retirer {spell:324872}."
@@ -336,11 +336,11 @@ L["gilded_plum_chest_note"] = "Tuez les {npc:166680} qui errent sur la route."
 L["lost_quill_note"] = "Ramasser {item:182475} depuis la bouteille sur la table de la bibliothèque interdite."
 L["rapier_fearless_note"] = "Cliquer la rapière au sol, puis vaincre {npc:173603}."
 L["remlates_cache_note"] = "Sur le mur extérieur de Sombrehavre, derrière la crypte."
-L["smuggled_cache_note"] = nil
+L["smuggled_cache_note"] = ns.color.Red("AVANT DE RAMASSER LE BUTIN: ").."Assurez-vous que vous avez terminé la quête secondaire {quest:60480} ou vous manquerez 40 {currency:1820} provenant du trésor et de la quête."
 L["taskmaster_trove_note"] = "Lisez les rites d'entrée et sortie, puis dirigez-vous avec précaution vers le coffre."
 L["the_count_note"] = "Farmez 99 {currency:1820} dans le Marais des Affres et amenez-les ensuite à {npc:173488}."
 
-L["bleakwood_chest"] = "Coffre en bois sombre" --Correction : Doute sur le nom du coffre
+L["bleakwood_chest"] = "Coffre du bois morne"
 L["forgotten_anglers_rod"] = "Canne à pêche oubliée"
 
 L["loyal_gorger_note"] = "Visitez le Marais des Affres et complétez une quête journalière offerte par votre {npc:173498} 7 fois pour l'obtenir en tant que monture."
@@ -355,10 +355,10 @@ L["sinrunner_note_day6"] = "Nourrissez blanchette avec 3 {item:179271}, vendus p
 
 L["options_icons_carriages"] = "Calèches"
 L["options_icons_carriages_desc"] = "Afficher les emplacements et les parcours des calèches."
-L["options_icons_dredbats"] = nil
-L["options_icons_dredbats_desc"] = nil
-L["options_icons_sinrunners"] = nil
-L["options_icons_sinrunners_desc"] = nil
+L["options_icons_dredbats"] = "{npc:161015s}"
+L["options_icons_dredbats_desc"] = "Afficher les emplacements et les trajets des {npc:161015s}."
+L["options_icons_sinrunners"] = "{npc:174032s}"
+L["options_icons_sinrunners_desc"] = "Afficher les emplacements et les trajets des {npc:174032s}."
 
 L["dominance_keep"] = "Donjon de la Domination"
 L["eternal_terrace"] = "La terasse Éternelle"
@@ -367,21 +367,21 @@ L["halls_of_atonement"] = "Salles de l'Expiation"
 L["pridefall_hamlet"] = "Tombe-Fierté"
 L["the_banewood"] = "Le Malbois"
 
-L["addius_note"] = nil
-L["eyegor_note"] = nil
-L["sylla_note"] = nil
+L["addius_note"] = "Les êtres faibles d'esprit ne devraient pas me faire perdre mon temps, mais si vous insistez, je vous montrerai la vraie douleur."
+L["eyegor_note"] = "Carnœil prêt pour la bataille !"
+L["sylla_note"] = "On ne peut jamais s'attendre à avoir une bataille distinguée ici dans cette terrible région, mais hélas, nous y sommes. Ne me faites pas perdre mon temps".
 
-L["grand_inquisitor_note"] = nil
-L["high_inquisitor_note"] = nil
-L["inquisitor_note"] = nil
-L["options_icons_inquisitors"] = nil
-L["options_icons_inquisitors_desc"] = nil
+L["grand_inquisitor_note"] = "Donnez 10 {item:180451} à {npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
+L["high_inquisitor_note"] = "Donnez 250 {currency:1816} à {npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
+L["inquisitor_note"] = "Donnez 100 {currency:1816} à {npc:160248} our avoir une chance d'obtenir cette stèle du vice."
+L["options_icons_inquisitors"] = "{achievement:14276}"
+L["options_icons_inquisitors_desc"] = "Afficher les emplacements des inquisiteurs pour le succès {achievement:14276}".
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["return_to_the_maw"] = nil
+L["return_to_the_maw"] = "Retour à l'Antre"
 L["maw_intro_note"] = [[
 Complétez la suite de quêtes d'introduction pour débloquer les rares et les événements dans l'Antre.
 
@@ -389,9 +389,9 @@ Jusqu'à ce que vous rameniez {npc:170651} à Oribos, vous serez séparé de la 
 ]]
 
 L["apholeias_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:331783} pour invoquer le rare."
-L["dekaris_note"] = nil
+L["dekaris_note"] = "Au sommet d'un gros rocher en saillie."
 L["ekphoras_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:330650} pour invoquer le rare."
-L["ikras_note"] = nil
+L["ikras_note"] = "Vole autour du Fort de la Perdition. C'est un bon endroit pour l'attirer."
 L["orophea_note"] = "Ramassez {spell:337143} au sud-est et proposez-le à {npc:172577} pour l'activer."
 L["sanngror_note"] = "S'il n'est pas attaquable, attendez qu'il n'expérimente plus sur des âmes."
 L["talaporas_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:331800} pour invoquer le rare."
@@ -399,27 +399,27 @@ L["valis_note"] = "Cliquez sur les trois {npc:174810} dans le bon ordre pour inv
 L["yero_note"] = "Approchez {npc:172862} puis suivez-le dans une grotte voisine où il devient hostile."
 
 L["exos_note"] = [[
-Tuez les trois autres Hérauts du Deuil, de la Douleur et de la Peine pour recueillir leurs gravures.
+Tuez les trois autres Hérauts du Deuil, de la Souffrance et du Chagrin pour recueillir leurs gravures.
 
 • {item:182328}
 • {item:182326}
 • {item:182327}
 
 Combinez les trois gravures pour créer {item:182329}, qui peut être utilisé pour invoquer le rare à l'Autel de la Domination. Utilisez le {npc:173892} pour atteindre le niveau supérieur.
-]] --Correction : Doute sur les noms des Hérauts
+]]
 
-L["soul_well_note"] = "Attrapez la Stygia qui jaillit du Puit d'âmes." --Correction : Doute sur le nom du puit
+L["soul_well_note"] = "Attrapez la Stygie qui jaillit du Puit d'âmes."
 L["obliterated_soul_shards_note"] = "Collectez des éclats d'âme oblitérés sur les ponts."
 
 L["chaotic_riftstone_note"] = "Activer pour {spell:344157} rapidement à travers l'Antre."
-L["venari_note"] = nil
-L["venari_upgrade"] = nil
+L["venari_note"] = "Utilisez {currency:1767} pour acheter des améliorations pour l'Antre et Tourment."
+L["venari_upgrade"] = "Améliorations de {npc:162804}"
 
 L["options_icons_bonus_boss"] = "Élites bonus"
 L["options_icons_bonus_boss_desc"] = "Afficher les emplacements des élites bonus."
 L["options_icons_bonus_event"] = "Événements bonus"
 L["options_icons_bonus_event_desc"] = "Afficher les emplacements des événements bonus."
-L["options_icons_riftstone"] = "Failles Chaotiques" --Correction : Doute sur le nom précis des failles
+L["options_icons_riftstone"] = "Failles Chaotiques"
 L["options_icons_riftstone_desc"] = "Affichez les emplacements des téléporteurs de Failles Chaotiques"
 
 -------------------------------------------------------------------------------
