@@ -355,8 +355,8 @@ L["sinrunner_note_day6"] = "Verfüttere an Graumähne 3x {item:179271}, verkauft
 
 L["options_icons_carriages"] = "Kutschen"
 L["options_icons_carriages_desc"] = "Zeigt die Positionen und Wege von fahrbaren Kutschen an."
-L["options_icons_dredbats"] = nil
-L["options_icons_dredbats_desc"] = nil
+L["options_icons_dredbats"] = "Fledermäuse"
+L["options_icons_dredbats_desc"] = "Zeigt die Positionen der {npc:161015n} und ihre Wege an."
 L["options_icons_sinrunners"] = "{npc:174032}"
 L["options_icons_sinrunners_desc"] = "Zeigt die Positionen der {npc:174032} und ihre Wege an."
 
