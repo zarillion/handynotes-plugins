@@ -371,6 +371,12 @@ L["addius_note"] = "Willensschwache Wesen sollten nicht meine Zeit vergeuden, do
 L["eyegor_note"] = "Iiihgor kampfbereit!"
 L["sylla_note"] = "Hier an diesem grässlichen Ort sollte man keinen Kampf erwarten, der es wert ist, und doch stehen wir nun hier. Vergeudet nicht meine Zeit."
 
+L["grand_inquisitor_note"] = nil
+L["high_inquisitor_note"] = nil
+L["inquisitor_note"] = nil
+L["options_icons_inquisitors"] = nil
+L["options_icons_inquisitors_desc"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------

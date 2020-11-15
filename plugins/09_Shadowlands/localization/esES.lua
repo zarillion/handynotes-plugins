@@ -367,6 +367,12 @@ L["addius_note"] = "No debería perder el tiempo con criaturas de mente débil, 
 L["eyegor_note"] = "¡Jojobado listo para el combate!"
 L["sylla_note"] = "En esta zona tan horrible, una batalla honorable es lo último que cabe esperar, pero, bueno, aquí estamos. No me hagas perder el tiempo."
 
+L["grand_inquisitor_note"] = nil
+L["high_inquisitor_note"] = nil
+L["inquisitor_note"] = nil
+L["options_icons_inquisitors"] = nil
+L["options_icons_inquisitors_desc"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------

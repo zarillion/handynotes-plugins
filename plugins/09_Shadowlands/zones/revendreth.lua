@@ -7,6 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
@@ -555,7 +556,7 @@ map.nodes[67626608] = PetBattle({
 }) -- Eyegor
 
 -------------------------------------------------------------------------------
----------------------------- THE AFTERLIFE EXPRESS ----------------------------
+---------------------------------- CARRIAGES ----------------------------------
 -------------------------------------------------------------------------------
 
 local Carriage = Class('Carriage', NPC, {
@@ -654,7 +655,7 @@ map.nodes[47694787] = Carriage({
 }) -- The Castle Carriage
 
 -------------------------------------------------------------------------------
-------------------------- WHAT WE RIDE IN THE SHADOWS -------------------------
+------------------------------ CASTLE SINRUNNERS ------------------------------
 -------------------------------------------------------------------------------
 
 local Sinrunner = Class('Sinrunner', NPC, {
@@ -858,7 +859,7 @@ map.nodes[44035641] = Sinrunner({
 }) -- Charred Ramparts => Hole in the Wall
 
 -------------------------------------------------------------------------------
-------------------------------------- BAT! ------------------------------------
+------------------------------- DREDBAT STATUES -------------------------------
 -------------------------------------------------------------------------------
 
 local Dredbat = Class('Dredbat', NPC, {
@@ -872,6 +873,106 @@ local Dredbat = Class('Dredbat', NPC, {
 map.nodes[57246125] = Dredbat({ pois={ Arrow({57246125, 60286116}) } })
 map.nodes[60396117] = Dredbat({ pois={ Arrow({60396117, 57495549}) } })
 map.nodes[64076201] = Dredbat({ pois={ Arrow({64076201, 70125719}) } })
+
+-------------------------------------------------------------------------------
+------------------------ ITS ALWAYS SINNY IN REVENDRETH -----------------------
+-------------------------------------------------------------------------------
+
+local Inquisitor = Class('Inquisitor', Collectible, {
+    icon=3528307,
+    group=ns.groups.INQUISITORS,
+    pois={ POI({72995199}) } -- Archivist Fane
+})
+
+map.nodes[76205210] = Inquisitor({
+    id=159151,
+    note=L["inquisitor_note"],
+    requires=ns.requirement.Item(172999),
+    rewards={
+        Achievement({id=14276, criteria=48136})
+    }
+}) -- Inquisitor Traian
+
+map.nodes[64704640] = Inquisitor({
+    id=156918,
+    note=L["inquisitor_note"],
+    requires=ns.requirement.Item(172998),
+    rewards={
+        Achievement({id=14276, criteria=48135})
+    }
+}) -- Inquisitor Otilia
+
+map.nodes[67304340] = Inquisitor({
+    id=156919,
+    note=L["inquisitor_note"],
+    requires=ns.requirement.Item(172997),
+    rewards={
+        Achievement({id=14276, criteria=48134})
+    }
+}) -- Inquisitor Petre
+
+map.nodes[69804720] = Inquisitor({
+    id=156916,
+    note=L["inquisitor_note"],
+    requires=ns.requirement.Item(172996),
+    rewards={
+        Achievement({id=14276, criteria=48133})
+    }
+}) -- Inquisitor Sorin
+
+map.nodes[75304420] = Inquisitor({
+    id=159152,
+    note=L["high_inquisitor_note"],
+    requires=ns.requirement.Item(173000),
+    rewards={
+        Achievement({id=14276, criteria=48137})
+    }
+}) -- High Inquisitor Gabi
+
+map.nodes[71204240] = Inquisitor({
+    id=159153,
+    note=L["high_inquisitor_note"],
+    requires=ns.requirement.Item(173001),
+    rewards={
+        Achievement({id=14276, criteria=48138})
+    }
+}) -- High Inquisitor Radu
+
+map.nodes[72105320] = Inquisitor({
+    id=159155,
+    note=L["high_inquisitor_note"],
+    requires=ns.requirement.Item(173006),
+    rewards={
+        Achievement({id=14276, criteria=48140})
+    }
+}) -- High Inquisitor Dacian
+
+map.nodes[69805230] = Inquisitor({
+    id=159154,
+    note=L["high_inquisitor_note"],
+    requires=ns.requirement.Item(173005),
+    rewards={
+        Achievement({id=14276, criteria=48139})
+    }
+}) -- High Inquisitor Magda
+
+map.nodes[69704540] = Inquisitor({
+    id=159157,
+    note=L["grand_inquisitor_note"],
+    requires=ns.requirement.Item(173008),
+    rewards={
+        Achievement({id=14276, criteria=48142})
+    }
+}) -- Grand Inquisitor Aurica
+
+map.nodes[64505270] = Inquisitor({
+    id=159156,
+    note=L["grand_inquisitor_note"],
+    requires=ns.requirement.Item(173007),
+    rewards={
+        Achievement({id=14276, criteria=48141})
+    }
+}) -- Grand Inquisitor Nicu
 
 -------------------------------------------------------------------------------
 -------------------------------- LOYAL GORGER ---------------------------------

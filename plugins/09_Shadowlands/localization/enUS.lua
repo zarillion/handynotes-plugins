@@ -349,9 +349,9 @@ L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} b
 
 L["options_icons_carriages"] = "Carriages"
 L["options_icons_carriages_desc"] = "Display locations and paths of rideable carriages."
-L["options_icons_dredbats"] = "Dredbats"
+L["options_icons_dredbats"] = "{npc:161015s}"
 L["options_icons_dredbats_desc"] = "Display locations and paths of {npc:161015s}."
-L["options_icons_sinrunners"] = "Sinrunners"
+L["options_icons_sinrunners"] = "{npc:174032s}"
 L["options_icons_sinrunners_desc"] = "Display locations and paths of {npc:174032s}."
 
 L["dominance_keep"] = "Dominance Keep"
@@ -364,6 +364,12 @@ L["the_banewood"] = "The Banewood"
 L["addius_note"] = "Weak minded beings should not waste my time, but if you insist, I will show you real pain."
 L["eyegor_note"] = "Eyegor ready for battle!"
 L["sylla_note"] = "One can never expect to have a distinguished battle out here in this awful area, but alas here we are. Do not waste my time."
+
+L["grand_inquisitor_note"] = "Turn in 10 {item:180451} to {npc:160248} for a chance at this sinstone."
+L["high_inquisitor_note"] = "Turn in 250 {currency:1816} to {npc:160248} for a chance at this sinstone."
+L["inquisitor_note"] = "Turn in 100 {currency:1816} to {npc:160248} for a chance at this sinstone."
+L["options_icons_inquisitors"] = "{achievement:14276}"
+L["options_icons_inquisitors_desc"] = "Display inquisitor locations for the {achievement:14276} achievement."
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------

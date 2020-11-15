@@ -4,6 +4,7 @@
 * Added Family Exorcist achievements to the pet trainer tooltips.
 * Added Castle Sinrunner routes for the What We Ride in the Shadows achievement.
 * Added Dredbat Statue routes for the Bat! achievement.
+* Added inquisitor locations for the Its Always Sinny in Revendreth achievement.
 
 # v17
 
