@@ -119,6 +119,8 @@ L["options_toggle_maximized_enlarged"] = nil
 L["options_toggle_maximized_enlarged_desc"] = nil
 L["options_toggle_use_char_achieves"] = nil
 L["options_toggle_use_char_achieves_desc"] = nil
+L["options_poi_refresh_rate"] = nil
+L["options_poi_refresh_rate_desc"] = nil
 L["options_restore_hidden_nodes"] = nil
 L["options_restore_hidden_nodes_desc"] = nil
 
