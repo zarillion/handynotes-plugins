@@ -334,6 +334,7 @@ L["gilded_plum_chest_note"] = "擊殺在路上徘徊的 {npc:166680}。"
 L["lost_quill_note"] = "從禁忌圖書館的桌上瓶子拾取 {item:182475}。"
 L["rapier_fearless_note"] = "點選地上的劍杆，然後擊敗 {npc:173603}。"
 L["remlates_cache_note"] = "在暗隱村墓穴後面的外牆上。"
+L["smuggled_cache_note"] = nil
 L["taskmaster_trove_note"] = "閱讀Ingress and Egress Rites然後小心地走到寶箱。"
 L["the_count_note"] = "在歿路沼澤農99個 {currency:1820} 然後把它帶給 {npc:173488}。"
 
@@ -352,6 +353,8 @@ L["sinrunner_note_day6"] = "從城牆破洞的 {npc:167815} 購買3個 {item:179
 
 L["options_icons_carriages"] = "馬車"
 L["options_icons_carriages_desc"] = "顯示可騎乘馬車的位置和路徑。"
+L["options_icons_sinrunners"] = nil
+L["options_icons_sinrunners_desc"] = nil
 
 L["dominance_keep"] = "威權要塞"
 L["eternal_terrace"] = "永恆露臺"

@@ -335,6 +335,7 @@ L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the r
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
 L["rapier_fearless_note"] = "Click the rapier on the ground, then defeat {npc:173603}."
 L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
+L["smuggled_cache_note"] = nil
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
 L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
 
@@ -353,6 +354,8 @@ L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} b
 
 L["options_icons_carriages"] = "Экипажи"
 L["options_icons_carriages_desc"] = "Отображение местоположения и пути проезжаемых экипажей."
+L["options_icons_sinrunners"] = nil
+L["options_icons_sinrunners_desc"] = nil
 
 L["dominance_keep"] = "Крепость Господства"
 L["eternal_terrace"] = "Вечная терраса"

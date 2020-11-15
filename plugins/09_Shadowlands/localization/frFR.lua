@@ -336,6 +336,7 @@ L["gilded_plum_chest_note"] = "Tuez les {npc:166680} qui errent sur la route."
 L["lost_quill_note"] = "Ramasser {item:182475} depuis la bouteille sur la table de la bibliothèque interdite."
 L["rapier_fearless_note"] = "Cliquer la rapière au sol, puis vaincre {npc:173603}."
 L["remlates_cache_note"] = "Sur le mur extérieur de Sombrehavre, derrière la crypte."
+L["smuggled_cache_note"] = nil
 L["taskmaster_trove_note"] = "Lisez les rites d'entrée et sortie, puis dirigez-vous avec précaution vers le coffre."
 L["the_count_note"] = "Farmez 99 {currency:1820} dans le Marais des Affres et amenez-les ensuite à {npc:173488}."
 
@@ -354,6 +355,8 @@ L["sinrunner_note_day6"] = "Nourrissez blanchette avec 3 {item:179271}, vendus p
 
 L["options_icons_carriages"] = "Calèches"
 L["options_icons_carriages_desc"] = "Afficher les emplacements et les parcours des calèches."
+L["options_icons_sinrunners"] = nil
+L["options_icons_sinrunners_desc"] = nil
 
 L["dominance_keep"] = "Donjon de la Domination"
 L["eternal_terrace"] = "La terasse Éternelle"

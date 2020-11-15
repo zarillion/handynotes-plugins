@@ -330,6 +330,7 @@ L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the r
 L["lost_quill_note"] = "Loot the {item:182475} from the bottle on the table in the Forbidden Library, then give it to the {npc:173449} on top of the archway outside."
 L["rapier_fearless_note"] = "Click the rapier on the ground, then defeat {npc:173603}."
 L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
+L["smuggled_cache_note"] = ns.color.Red("BEFORE YOU LOOT: ").."Make sure you have completed {quest:60480} side quest or you will miss out on 40 {currency:1820} from the treasure and quest."
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
 L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
 
@@ -348,6 +349,8 @@ L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} b
 
 L["options_icons_carriages"] = "Carriages"
 L["options_icons_carriages_desc"] = "Display locations and paths of rideable carriages."
+L["options_icons_sinrunners"] = "Sinrunners"
+L["options_icons_sinrunners_desc"] = "Display locations and paths of {npc:174032s}."
 
 L["dominance_keep"] = "Dominance Keep"
 L["eternal_terrace"] = "The Eternal Terrace"

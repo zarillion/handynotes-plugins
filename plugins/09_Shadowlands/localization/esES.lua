@@ -332,6 +332,7 @@ L["gilded_plum_chest_note"] = "Mata al {npc:166680} que deambula por el camino a
 L["lost_quill_note"] = "Despoja la {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida y dásela a la {npc:173449} encima del arco de fuera."
 L["rapier_fearless_note"] = "Haz click en el estoque del suelo, y entonces derrota a {npc:173603}."
 L["remlates_cache_note"] = "En la pared exterior de Refugioscuro detrás de la cripta."
+L["smuggled_cache_note"] = nil
 L["taskmaster_trove_note"] = "Lee Ritos de Acceso y Salida. Después sigue el camino al cofre con cuidado."
 L["the_count_note"] = "Farmea 99 {currency:1820} en el Cenagal del Fin y llévaselos a {npc:173488}."
 
@@ -350,6 +351,8 @@ L["sinrunner_note_day6"] = "Alimenta a Blanchy con 3 {item:179271}, vendidas por
 
 L["options_icons_carriages"] = "Carruajes"
 L["options_icons_carriages_desc"] = "Muestra las localizaciones posibles y caminos de los carruajes que se pueden llevar."
+L["options_icons_sinrunners"] = nil
+L["options_icons_sinrunners_desc"] = nil
 
 L["dominance_keep"] = "Fortaleza de la Dominancia"
 L["eternal_terrace"] = "Bancal Eterno"

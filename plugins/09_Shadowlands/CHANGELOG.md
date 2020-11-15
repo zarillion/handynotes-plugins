@@ -2,6 +2,7 @@
 
 * Added Ve'nari to the map to track Maw and Torghast upgrades.
 * Added Family Exorcist achievements to the pet trainer tooltips.
+* Added Castle Sinrunner routes for the What We Ride in the Shadows achievement.
 
 # v17
 

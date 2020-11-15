@@ -12,7 +12,7 @@
 # Shadowlands
 
 * Filter covenant-specific rewards
-* [Ardenweald Gourmand](https://www.wowhead.com/achievement=14774/ardenweald-gourmand)
+* [Ardenweald Gourmand](https://www.wowhead.com/achievement=14774/ardenweald-gourmand) (all at one vendor?!?)
 * [Bat!](https://www.wowhead.com/achievement=14769/bat)
 * [Count Your Blessings](https://www.wowhead.com/achievement=14767/count-your-blessings)
 * [Crypt Couture](https://www.wowhead.com/achievement=14763/crypt-couture) (Necrolord only?)
@@ -22,7 +22,6 @@
   * This one is covered by POIs for the Ascended Council rare, but may still be useful to have them displayed as stand-alone icons for people hunting this achievement or organizing the bells to be rung at the same time.
 * [To All the Squirrels I've Loved and Lost](https://www.wowhead.com/achievement=14731/to-all-the-squirrels-ive-loved-and-lost)
 * [What is that Melody?](https://www.wowhead.com/achievement=14768/what-is-that-melody)
-* [What We Ride in the Shadows](https://www.wowhead.com/achievement=14770/what-we-ride-in-the-shadows)
 * [Wild Hunting](https://www.wowhead.com/achievement=14779)
 
 # Legion
