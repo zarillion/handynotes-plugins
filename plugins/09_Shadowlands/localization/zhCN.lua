@@ -349,9 +349,9 @@ L["sinrunner_note_day6"] = "从城墙巨洞的 {npc:167815} 购买3个 {item:179
 
 L["options_icons_carriages"] = "马车"
 L["options_icons_carriages_desc"] = "显示可骑乘马车的位置和路径。"
-L["options_icons_dredbats"] = "恐惧蝠"
+L["options_icons_dredbats"] = "{npc:161015}"
 L["options_icons_dredbats_desc"] = "显示{npc:161015}的位置和路径。"
-L["options_icons_sinrunners"] = "罪奔者"
+L["options_icons_sinrunners"] = "{npc:174032}"
 L["options_icons_sinrunners_desc"] = "显示{npc:174032}的位置和路径。"
 
 L["dominance_keep"] = "统御要塞"
@@ -365,11 +365,11 @@ L["addius_note"] = "头脑虚弱的人不应浪费我的时间，但是如果您
 L["eyegor_note"] = "艾戈尔准备作战！（暂） "
 L["sylla_note"] = "在这片令人毛骨悚然的地区，人们永远无法期望在这里展开一场出色的战斗，可惜我们在这里。不要浪费我的时间。（暂）"
 
-L["grand_inquisitor_note"] = nil
-L["high_inquisitor_note"] = nil
-L["inquisitor_note"] = nil
-L["options_icons_inquisitors"] = nil
-L["options_icons_inquisitors_desc"] = nil
+L["grand_inquisitor_note"] = "把10个 {item:180451} 交给 {npc:160248} 有机会获得此罪碑。"
+L["high_inquisitor_note"] = "把250个 {currency:1816} 交给 {npc:160248} 有机会获得此罪碑。"
+L["inquisitor_note"] = "把100个 {currency:1816} 交给 {npc:160248} 有机会获得此罪碑。"
+L["options_icons_inquisitors"] = "{achievement:14276}"
+L["options_icons_inquisitors_desc"] = "显示 {achievement:14276} 成就中审判官的位置。"
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
