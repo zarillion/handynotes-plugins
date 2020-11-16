@@ -8,7 +8,6 @@
 * Fix transmog collected state on initial load.
 * Investigate auto NPC coloring for tooltips (red, green, yellow).
 * Double-click to create Blizzard waypoint.
-* Use proper texture for arrow POIs.
 
 # Shadowlands
 
