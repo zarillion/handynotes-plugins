@@ -890,7 +890,8 @@ local Dredbat = Class('Dredbat', NPC, {
     requires=ns.requirement.Currency(1820, 5),
     rewards={ Achievement({id=14769, criteria={id=1, qty=true}}) }
 })
-
+map.nodes[25103757] = Dredbat({ pois={ Arrow({25103757, 30024700}) } })
+map.nodes[64076201] = Dredbat({ pois={ Arrow({64076201, 70125719}) } })
 map.nodes[56236226] = Dredbat({ pois={ Arrow({56236226, 57485549}) } })
 map.nodes[57246125] = Dredbat({ pois={ Arrow({57246125, 60286116}) } })
 map.nodes[60396117] = Dredbat({ pois={ Arrow({60396117, 57495549}) } })
