@@ -134,6 +134,19 @@ Die Kugel wird dich zu dem wahren Räucherwerk des Richturteils bringen. Sprich 
 ]]
 L["gift_of_vesiphone"] = "Läute an den Glocken, um eine {npc:170849} erscheinen zu lassen, töte diese um den Schwächungszauber {spell:333239} zu erhalten. Der Wasserfall gegenüber der Truhe wird diesen Schwächungszauber reinigen und dir den {spell:332785} gewähren, um die Truhe öffnen zu können."
 
+L["count_your_blessings_note"] = nil
+L["options_icons_blessings"] = "{achievement:14767}"
+L["options_icons_blessings_desc"] = nil
+
+L["vesper_of_courage"] = nil
+L["vesper_of_humility"] = nil
+L["vesper_of_loyalty"] = nil
+L["vesper_of_purity"] = nil
+L["vesper_of_wisdom"] = nil
+L["vespers_ascended_note"] = nil
+L["options_icons_vespers"] = "{achievement:14734}"
+L["options_icons_vespers_desc"] = nil
+
 L["anima_shard"] = "Verlorener Animakristallsplitter"
 L["anima_shard_61225"] = "Auf einer tiefer gelegenen Plattform unterhalb der Brücke."
 L["anima_shard_61235"] = "An einer Kante oberhalb des Wasserfalles."

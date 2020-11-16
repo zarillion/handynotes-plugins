@@ -133,6 +133,19 @@ L["gift_of_thenios"] = [[
 ]]
 L["gift_of_vesiphone"] = "敲钟刷新一个 {npc:170849} 并击杀获得 {spell:333239} 负面效果。宝箱正对面的流水将清洁此负面效果，并获得 {spell:332785}。"
 
+L["count_your_blessings_note"] = nil
+L["options_icons_blessings"] = "{achievement:14767}"
+L["options_icons_blessings_desc"] = nil
+
+L["vesper_of_courage"] = nil
+L["vesper_of_humility"] = nil
+L["vesper_of_loyalty"] = nil
+L["vesper_of_purity"] = nil
+L["vesper_of_wisdom"] = nil
+L["vespers_ascended_note"] = nil
+L["options_icons_vespers"] = "{achievement:14734}"
+L["options_icons_vespers_desc"] = nil
+
 L["anima_shard"] = "失落的心能碎片"
 L["anima_shard_61225"] = "在桥下的较低平台上。"
 L["anima_shard_61235"] = "在瀑布上方的壁架上。"

@@ -52,6 +52,8 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 ### Bastion
 
 * Lost Anima Shard locations for the [Shard Labor](https://www.wowhead.com/achievement=14339/shard-labor) achievement and [Silverwind Larion](https://www.wowhead.com/item=180772/silverwind-larion) mount.
+* Tribute locations for the [Count Your Blessings](https://www.wowhead.com/achievement=14767/count-your-blessings) achievement.
+* Vesper locations for the [Rallying Cry of the Ascended](https://www.wowhead.com/achievement=14734/rallying-cry-of-the-ascended) achievement.
 
 ### Maldraxxus
 

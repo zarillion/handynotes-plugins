@@ -75,7 +75,7 @@ L["glitterdust_note"] = "The creatures of Ardenweald may look docile, but they w
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["ascended_council_note"] = "With four other players, click the five Vespers of Purity, Courage, Humility, Wisdom and Loyalty at the same time to summon the council."
+L["ascended_council_note"] = "With four other players, click the five temple vespers at the same time to summon the {npc:170899} at Aspirant's Crucible."
 L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to activate him."
 L["baedos_note"] = "Carry casks of Fermenting Purian Fruit from the surrounding area to {npc:161536} until he activates."
 L["basilofos_note"] = "Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn."
@@ -132,6 +132,19 @@ Commune with them in the order Patience => Knowledge => Insight. On the Judgemen
 The orb will take you to the true Incense of Judgment. Commune with it and the final flight pad will grant you {spell:333068} to open the chest.
 ]]
 L["gift_of_vesiphone"] = "Ring one of the bells to spawn a {npc:170849} and kill it to receive the {spell:333239} debuff. The falling water opposite the chest will cleanse this debuff and grant you {spell:332785}."
+
+L["count_your_blessings_note"] = "Place a {item:178915} in the tribute bowl to receive the blessing."
+L["options_icons_blessings"] = "{achievement:14767}"
+L["options_icons_blessings_desc"] = "Display tribute locations for the {achievement:14767} achievement."
+
+L["vesper_of_courage"] = "Vesper of Courage"
+L["vesper_of_humility"] = "Vesper of Humility"
+L["vesper_of_loyalty"] = "Vesper of Loyalty"
+L["vesper_of_purity"] = "Vesper of Purity"
+L["vesper_of_wisdom"] = "Vesper of Wisdom"
+L["vespers_ascended_note"] = "Click this vesper at the same time as the other four vespers to summon the {npc:170899} at Aspirant's Crucible."
+L["options_icons_vespers"] = "{achievement:14734}"
+L["options_icons_vespers_desc"] = "Display vesper locations for the {achievement:14734} achievement."
 
 L["anima_shard"] = "Lost Anima Shard"
 L["anima_shard_61225"] = "On a lower platform below the bridge."

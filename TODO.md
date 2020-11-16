@@ -13,11 +13,8 @@
 
 * Filter covenant-specific rewards
 * [Ardenweald Gourmand](https://www.wowhead.com/achievement=14774/ardenweald-gourmand) (all at one vendor?!?)
-* [Count Your Blessings](https://www.wowhead.com/achievement=14767/count-your-blessings)
 * [Crypt Couture](https://www.wowhead.com/achievement=14763/crypt-couture) (Necrolord only?)
 * [Fractured Faerie Tales](https://www.wowhead.com/achievement=14788/fractured-faerie-tales)
-* [Rallying Cry of the Ascended](https://www.wowhead.com/achievement=14734/rallying-cry-of-the-ascended)
-  * This one is covered by POIs for the Ascended Council rare, but may still be useful to have them displayed as stand-alone icons for people hunting this achievement or organizing the bells to be rung at the same time.
 * [To All the Squirrels I've Loved and Lost](https://www.wowhead.com/achievement=14731/to-all-the-squirrels-ive-loved-and-lost)
 * [What is that Melody?](https://www.wowhead.com/achievement=14768/what-is-that-melody)
 * [Wild Hunting](https://www.wowhead.com/achievement=14779)

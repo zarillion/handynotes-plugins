@@ -135,6 +135,19 @@ El orbe te llevará al verdadero Incienso del Juicio. Comulga con él y aparecer
 ]]
 L["gift_of_vesiphone"] = "Toca una de las campanas para hacer que aparezca una {npc:170849} y mátala para recibir el debuff {spell:333239}. El agua que cae frente al cofre limpiará el debuff y te dará la {spell:332785}."
 
+L["count_your_blessings_note"] = nil
+L["options_icons_blessings"] = "{achievement:14767}"
+L["options_icons_blessings_desc"] = nil
+
+L["vesper_of_courage"] = nil
+L["vesper_of_humility"] = nil
+L["vesper_of_loyalty"] = nil
+L["vesper_of_purity"] = nil
+L["vesper_of_wisdom"] = nil
+L["vespers_ascended_note"] = nil
+L["options_icons_vespers"] = "{achievement:14734}"
+L["options_icons_vespers_desc"] = nil
+
 L["anima_shard"] = "Fragmento de Ánima Perdido"
 L["anima_shard_61225"] = "En una plataforma inferior debajo del puente."
 L["anima_shard_61235"] = "En una repisa sobre la cascada."

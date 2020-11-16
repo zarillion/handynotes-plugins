@@ -139,6 +139,19 @@ L'orbe vous emmènera au véritable encens du jugement. Communiez avec lui et la
 ]]
 L["gift_of_vesiphone"] = "Sonnez une des cloches pour faire apparaître une {npc:170849} et tuez-la pour recevoir le debuff {spell:333239}. L'eau qui tombe en face du coffre supprimera ce debuff et vous donnera {spell:332785}."
 
+L["count_your_blessings_note"] = nil
+L["options_icons_blessings"] = "{achievement:14767}"
+L["options_icons_blessings_desc"] = nil
+
+L["vesper_of_courage"] = nil
+L["vesper_of_humility"] = nil
+L["vesper_of_loyalty"] = nil
+L["vesper_of_purity"] = nil
+L["vesper_of_wisdom"] = nil
+L["vespers_ascended_note"] = nil
+L["options_icons_vespers"] = "{achievement:14734}"
+L["options_icons_vespers_desc"] = nil
+
 L["anima_shard"] = "Eclat de cristal d'Anima perdu"
 L["anima_shard_61225"] = "Sur une plate-forme inférieure sous le pont."
 L["anima_shard_61235"] = "Sur un rebord au-dessus de la cascade."

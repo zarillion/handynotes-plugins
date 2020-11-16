@@ -1,3 +1,13 @@
+# v19
+
+* Added the two missing Dredbat statues.
+* Added a missing Castle Sinrunner location.
+* Added quest ID for The Count treasure / pet.
+* Added tribute locations for the [Count Your Blessings](https://www.wowhead.com/achievement=14767/count-your-blessings) achievement.
+* Added vesper locations for the [Rallying Cry of the Ascended](https://www.wowhead.com/achievement=14734/rallying-cry-of-the-ascended) achievement.
+* Added a proper texture for the head of POI arrows.
+* Removed the POI refresh rate option in favor of a much faster refresh method.
+
 # v18
 
 * Added Ve'nari to the map to track Maw and Torghast upgrades.
