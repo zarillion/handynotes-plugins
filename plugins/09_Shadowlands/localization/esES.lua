@@ -77,7 +77,7 @@ L["glitterdust_note"] = "Puede que las criaturas de Ardenweald parezcan dóciles
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["ascended_council_note"] = "Con otros cuatro jugadores, hay que hacer click en las cinco campanas de vísperas: pureza, coraje, humildad, sabiduría y lealtad al mismo tiempo. Después, hay que ir al Crisol del Aspirante para derrotar el Consejo de los Ascendidos y que se revele el alijo."
+L["ascended_council_note"] = "Con otros cuatro jugadores, hay que hacer click en los cinco templos de campanas de vísperas al mismo tiempo para invocar a {npc:170899} en el Crisol del Aspirante."
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con el {npc:171211} como objetivo para activarlo."
 L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."
 L["basilofos_note"] = "Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}."
@@ -135,18 +135,18 @@ El orbe te llevará al verdadero Incienso del Juicio. Comulga con él y aparecer
 ]]
 L["gift_of_vesiphone"] = "Toca una de las campanas para hacer que aparezca una {npc:170849} y mátala para recibir el debuff {spell:333239}. El agua que cae frente al cofre limpiará el debuff y te dará la {spell:332785}."
 
-L["count_your_blessings_note"] = nil
+L["count_your_blessings_note"] = "Coloca una {item:178915} en el cuenco de tributo para recibir su bendición."
 L["options_icons_blessings"] = "{achievement:14767}"
-L["options_icons_blessings_desc"] = nil
+L["options_icons_blessings_desc"] = "Muestra las localizaciones de los tributos para el logro {achievement:14767}."
 
-L["vesper_of_courage"] = nil
-L["vesper_of_humility"] = nil
-L["vesper_of_loyalty"] = nil
-L["vesper_of_purity"] = nil
-L["vesper_of_wisdom"] = nil
-L["vespers_ascended_note"] = nil
+L["vesper_of_courage"] = "Campana de Vísceras del Coraje"
+L["vesper_of_humility"] = "Campana de Vísceras de la Humildad"
+L["vesper_of_loyalty"] = "Campana de Vísceras de la Lealtad"
+L["vesper_of_purity"] = "Campana de Vísceras de la Pureza"
+L["vesper_of_wisdom"] = "Campana de Vísceras de la Sabiduría"
+L["vespers_ascended_note"] = "Haz click en la campana de vísceras al mismo tiempo que en las otras cuatro campanas de vísceras para invocar a {npc:170899} en el Crisol del Aspirante."
 L["options_icons_vespers"] = "{achievement:14734}"
-L["options_icons_vespers_desc"] = nil
+L["options_icons_vespers_desc"] = "Muestra las localizaciones de las campanas de vísceras para el logro {achievement:14734}."
 
 L["anima_shard"] = "Fragmento de Ánima Perdido"
 L["anima_shard_61225"] = "En una plataforma inferior debajo del puente."
