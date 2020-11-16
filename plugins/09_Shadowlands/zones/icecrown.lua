@@ -80,7 +80,7 @@ hooksecurefunc(ns.addon, 'OnInitialize', function ()
         local next = function (id) return (id == 174048) and 174067 or (id - 1) end
         local npc = next(startNPC)
         while npc ~= startNPC do
-            time = time + 1200 -- 20 minutes
+            time = time + 600 -- 10 minutes
             EXPECTED[npc] = time
             npc = next(npc)
         end
