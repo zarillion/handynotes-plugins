@@ -417,7 +417,7 @@ L["options_icons_riftstone_desc"] = "Zeigt die Positionen von Chaotischen Rissst
 -------------------------------------------------------------------------------
 
 L["prepatch_intro"] = "Schließe die Einführungsquestreihe für den Shadowlands Prepatch ab, um in diesem Gebiet die Bosse freizuschalten."
-L["icecrown_rares"] = "Alle Bosse erscheinen in einer festgelegten Reihenfolge, in einem Intervall von 20 Minuten. Jeder von ihnen kann mehrfach am Tag geplündert werden."
+L["icecrown_rares"] = "Alle Bosse erscheinen in einer festgelegten Reihenfolge, in einem Intervall von 10 Minuten. Jeder von ihnen kann mehrfach am Tag geplündert werden."
 L["next_spawn"] = "Erscheint das nächste mal um %s Uhr (lokale Uhrzeit)."
 
 local ORIG = ns.color.Orange("Ursprünglich in %s.")
