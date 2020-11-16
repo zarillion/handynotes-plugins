@@ -75,7 +75,7 @@ L["glitterdust_note"] = "炽蓝仙野的生物看上去温顺，但他们将以�
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["ascended_council_note"] = "与其他四名玩家，同时点击五个纯净的容器，勇气，谦卑，智慧和忠诚。然后前往候选者试练场击败晋升者议会获得宝箱奖励。"
+L["ascended_council_note"] = "与其他四名玩家，同时点击五个神庙的暮钟召唤候选者试练场的 {npc:170899}。"
 L["aspirant_eolis_note"] = "拾取附近的 {item:180613} 并与 NPC 目标阅读激活他。"
 L["baedos_note"] = "从周围地区带一桶发酵的莲榴果给 {npc:161536} 直到她激活。"
 L["basilofos_note"] = "在岩石上移动，直到紫色的追踪标记出现在你的头顶。 站着不动，等待四种表情出现，然后他会刷新。"
@@ -133,18 +133,18 @@ L["gift_of_thenios"] = [[
 ]]
 L["gift_of_vesiphone"] = "敲钟刷新一个 {npc:170849} 并击杀获得 {spell:333239} 负面效果。宝箱正对面的流水将清洁此负面效果，并获得 {spell:332785}。"
 
-L["count_your_blessings_note"] = nil
+L["count_your_blessings_note"] = "放置一个 {item:178915} 在贡碗内获得祝福。"
 L["options_icons_blessings"] = "{achievement:14767}"
-L["options_icons_blessings_desc"] = nil
+L["options_icons_blessings_desc"] = "显示 {achievement:14767} 成就中贡碗的位置。"
 
-L["vesper_of_courage"] = nil
-L["vesper_of_humility"] = nil
-L["vesper_of_loyalty"] = nil
-L["vesper_of_purity"] = nil
-L["vesper_of_wisdom"] = nil
-L["vespers_ascended_note"] = nil
+L["vesper_of_courage"] = "勇气暮钟"
+L["vesper_of_humility"] = "谦逊暮钟"
+L["vesper_of_loyalty"] = "忠诚暮钟"
+L["vesper_of_purity"] = "纯洁暮钟"
+L["vesper_of_wisdom"] = "历史暮钟"
+L["vespers_ascended_note"] = "与其它四个暮钟同时点击此暮钟召唤候选者试练场的 {npc:170899}。"
 L["options_icons_vespers"] = "{achievement:14734}"
-L["options_icons_vespers_desc"] = nil
+L["options_icons_vespers_desc"] = "显示 {achievement:14734} 成就中暮钟的位置。"
 
 L["anima_shard"] = "失落的心能碎片"
 L["anima_shard_61225"] = "在桥下的较低平台上。"
