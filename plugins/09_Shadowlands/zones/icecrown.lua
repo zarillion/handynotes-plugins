@@ -118,7 +118,7 @@ end
 
 function ICCRare:GetGlow(minimap)
     local expected = EXPECTED[self.id] or 0
-    if expected > time() and expected - time() < 1080 then
+    if expected > time() and expected - time() < 540 then
         local _, scale, alpha = self:GetDisplayInfo(minimap)
         self.glow.alpha = alpha
         self.glow.scale = scale * 1.1
