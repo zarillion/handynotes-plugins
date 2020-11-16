@@ -54,7 +54,7 @@ L["old_ardeite_note"] = "Tuer des {npc:160747}s et {npc:160748}s au sud-est de L
 L["swollen_anima_seed"] = "Une grande graine se trouvant à l'intérieur d'un tronc d'arbre."
 
 L["playful_vulpin_note"] = [[
-Trouvez et utilisez l'émote correcte sur le {npc:171206} cinq fois pour obtenir le pet.
+Trouvez et utilisez l'émote correcte sur le {npc:171206} cinq fois pour obtenir la mascotte.
 
 • commence à creuser curieusement = |cFFFF8C00/curieux|r
 • erre sans pouvoir rester assis = |cFFFF8C00/assis|r
@@ -109,7 +109,7 @@ L["unstable_memory_note"] = "Peut être invoqué quand les {npc:171018}s sont pr
 L["wingflayer_note"] = "Pour l'invoquer, cliquez sur la Corne du Courage sur la table voisine (au sud-est, en haut des escaliers)."
 
 L["broken_flute"] = "Tuez les {npc:170009} à proximité jusqu'à ce qu'ils laissent tomber la {item:180536}, puis utilisez les outils pour la réparer."
-L["cloudwalkers_coffer"] = "coffre de marche-nuage"
+L["cloudwalkers_coffer"] = "Coffre de marche-nuage"
 L["cloudwalkers_coffer_note"] = "Utilisez les grandes fleurs violettes pour rebondir sur la plate-forme."
 L["experimental_construct_part"] = "Procurez-vous un {item:180534} proche et utilisez-le pour réparer la pièce. L'anima a plusieurs lieux d'apparition."
 L["larion_harness"] = "Situé à l'intérieur du Hall des Bêtes."
@@ -139,18 +139,18 @@ L'orbe vous emmènera au véritable encens du jugement. Communiez avec lui et la
 ]]
 L["gift_of_vesiphone"] = "Sonnez une des cloches pour faire apparaître une {npc:170849} et tuez-la pour recevoir le debuff {spell:333239}. L'eau qui tombe en face du coffre supprimera ce debuff et vous donnera {spell:332785}."
 
-L["count_your_blessings_note"] = nil
+L["count_your_blessings_note"] = "Placez un {item:178915} dans le bol de tribut pour recevoir la bénédiction."
 L["options_icons_blessings"] = "{achievement:14767}"
-L["options_icons_blessings_desc"] = nil
+L["options_icons_blessings_desc"] = "Afficher les lieux de tributs pour le succès {achievement:14767}."
 
-L["vesper_of_courage"] = nil
-L["vesper_of_humility"] = nil
-L["vesper_of_loyalty"] = nil
-L["vesper_of_purity"] = nil
-L["vesper_of_wisdom"] = nil
-L["vespers_ascended_note"] = nil
+L["vesper_of_courage"] = "Vêpre du Courage"
+L["vesper_of_humility"] = "Vêpre de l'Humilité"
+L["vesper_of_loyalty"] = "Vêpre de Loyauté"
+L["vesper_of_purity"] = "Vêpre de la Pureté"
+L["vesper_of_wisdom"] = "Vêpre de la Sagesse"
+L["vespers_ascended_note"] = "Cliquez sur cette vêpre en même temps que les quatre autres vêpres pour invoquer le {npc:170899} au Creuset de l'aspirant."
 L["options_icons_vespers"] = "{achievement:14734}"
-L["options_icons_vespers_desc"] = nil
+L["options_icons_vespers_desc"] = "Afficher les emplacements des vêpres pour le succès {achievement:14734}."
 
 L["anima_shard"] = "Eclat de cristal d'Anima perdu"
 L["anima_shard_61225"] = "Sur une plate-forme inférieure sous le pont."
@@ -253,7 +253,7 @@ Une fois transformé, visitez la grotte située sous la plate-forme de {npc:1584
 L["ritualists_cache_note"] = "Ramassez des {item:181558} sur un tas d'os (plusieurs lieux d'apparition). Utilisez-les pour compléter le Livre des Rituels de Liaison sur le pupitre derrière {npc:174386} et recevoir le buff {spell:337041}." --Correction : Nom du livre possiblement erroné
 L["runespeakers_trove_note"] = "Trouvez {npc:170563} à l'est et tuez-le pour obtenir la {item:181777}."
 L["stolen_jar_note"] = "Dans une grotte sous le champignon géant."
-L["strange_growth_note"] = "Tirez sur le {npc:165037} pour révéler le trésor."
+L["strange_growth_note"] = "Tirez sur l'{npc:165037} pour révéler le trésor."
 L["vat_of_slime_note"] = "Cliquez sur la bouteille sur la table, puis sur la cuve de limon."
 
 L["giant_cache_of_epic_treasure"] = "Cache géante de trésors épiques"
