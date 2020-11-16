@@ -417,7 +417,7 @@ L["options_icons_riftstone_desc"] = "Affichez les emplacements des téléporteur
 -------------------------------------------------------------------------------
 
 L["prepatch_intro"] = "Complétez les quêtes d'introduction de l'évènement de pré-lancement de Shadowlands pour déverrouiller les boss dans cette zone."
-L["icecrown_rares"] = "Les boss apparaissent dans un ordre fixe avec 20 minutes d'intervalle. Chacun peut être looté plusieurs fois par jour !"
+L["icecrown_rares"] = "Les boss apparaissent dans un ordre fixe avec 10 minutes d'intervalle. Chacun peut être looté plusieurs fois par jour !"
 L["next_spawn"] = "Prochaine apparition à %s, heure locale."
 
 local ORIG = ns.color.Orange("A l'origine dans %s.")

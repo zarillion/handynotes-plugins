@@ -413,7 +413,7 @@ L["options_icons_riftstone_desc"] = "Muestra las localizaciones de los teletrans
 -------------------------------------------------------------------------------
 
 L["prepatch_intro"] = "Completa las misiones introductorias del evento del preparche para desbloquear los bosses de esta zona."
-L["icecrown_rares"] = "Todos los bosses aparecen en un orden fijado cada 20 minutos. ¡Todos pueden ser despojados varias veces en el mismo día!"
+L["icecrown_rares"] = "Todos los bosses aparecen en un orden fijado cada 10 minutos. ¡Todos pueden ser despojados varias veces en el mismo día!"
 L["next_spawn"] = "El siguiente aparecerá a las %s hora local."
 
 local ORIG = ns.color.Orange("Originalmente en %s.")
