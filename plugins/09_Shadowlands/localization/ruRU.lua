@@ -366,11 +366,11 @@ L["options_icons_inquisitors_desc"] = nil
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L["return_to_the_maw"] = "Return to the Maw"
-L["maw_intro_note"] = "Begin the introductory quest chain from {npc:162804} to unlock rares and events in the maw."
+L["return_to_the_maw"] = "Возвращение в Утробу"
+L["maw_intro_note"] = "Начните вводную цепочку заданий у {npc:162804}, чтобы разблокировать редких монстров и события в Утробе."
 
-L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
-L["dekaris_note"] = nil
+L["apholeias_note"] = "Вместе с 3 другими игроками встаньте на углы платформы и примените {spell:331783}, чтобы призвать редкого монстра."
+L["dekaris_note"] = "На вершине большой выступающей скалы."
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
 L["ikras_note"] = nil
 L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
@@ -380,7 +380,7 @@ L["valis_note"] = "Click the three {npc:174810} in the correct order to summon t
 L["yero_note"] = "Approach {npc:172862} and then follow him down into a nearby cave where he becomes hostile."
 
 L["exos_note"] = [[
-Kill the other three Heralds of Grief, Pain and Loss to collect their etchings.
+Убейте трех вестников скорби, боли и утраты, чтобы собрать их гравировки.
 
 • {item:182328}
 • {item:182326}
@@ -390,22 +390,22 @@ Combine all three etchings to create the {item:182329}, which can be used to sum
 ]]
 
 L["soul_well_note"] = "Catch the Stygia erupting from the Soul Well."
-L["obliterated_soul_shards_note"] = "Collect {item:177834s} on the bridges."
+L["obliterated_soul_shards_note"] = "Соберите {item:177834} на мостах."
 
 L["chaotic_riftstone_note"] = [[
-Activate to {spell:344157} quickly across the Maw.
+Активируйте, чтобы быстро {spell:344157} перейти через Утробу.
 
-Requires the {item:184613} upgrade from {npc:162804}.
+Требуется {item:184613} обновление с {npc:162804}.
 ]]
-L["venari_note"] = nil
-L["venari_upgrade"] = "{npc:162804} Upgrade"
+L["venari_note"] = "Используйте {currency:1767} для покупки улучшений в Утробе и Торгасте."
+L["venari_upgrade"] = "{npc:162804} Обновить"
 
-L["options_icons_bonus_boss"] = "Bonus Elites"
-L["options_icons_bonus_boss_desc"] = "Display locations of bonus elites."
-L["options_icons_bonus_event"] = "Bonus Events"
-L["options_icons_bonus_event_desc"] = "Display locations of bonus events."
-L["options_icons_riftstone"] = "Chaotic Riftstones"
-L["options_icons_riftstone_desc"] = "Display the locations of chaotic riftstone teleporters."
+L["options_icons_bonus_boss"] = "Бонусные элитные монстры"
+L["options_icons_bonus_boss_desc"] = "Отображение местоположения бонусных элитных монстров."
+L["options_icons_bonus_event"] = "Бонусные события"
+L["options_icons_bonus_event_desc"] = "Отображение местоположение бонусных событий."
+L["options_icons_riftstone"] = "Хаотичный камень разлома"
+L["options_icons_riftstone_desc"] = "Отображение местоположения хаотичных каменей разлома."
 
 -------------------------------------------------------------------------------
 ----------------------------------- ICECROWN ----------------------------------
