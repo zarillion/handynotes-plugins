@@ -38,25 +38,14 @@ The `-c/--clean` argument will delete the corresponding HandyNotes plugin direct
 
 ## Development Options
 
-Once installed, development-only options can be enabled in each *individual* plugin by manually setting a value in the corresponding database file for that plugin. For example, to enable the development features and options for **HandyNotes: Shadowlands**:
+Once installed, development-only options can be enabled in each *individual* plugin by running an in-game script command. For example, to enable the development features and options for **HandyNotes: Shadowlands**:
 
-1. Start the game with the plugin installed, tweak *any* option and then exit. This will create the `HandyNotes_Shadowlands.lua` database file.
-1. Open the file: `WTF/Account/<ACCOUNT>/SavedVariables/HandyNotes_Shadowlands.lua`.
-1. Add the following option:
+```
+/script HandyNotes_ShadowlandsDB.profiles.Default.development = true
+/reload
+```
 
-    ```lua
-    {
-        ["profiles"] = {
-            ["Default"] = {
-                ["development"] = true,
-            },
-        },
-    }
-    ```
-
-1. Start the game again and you should see additional development options at the bottom of the Shadowlands plugin settings panel.
-
-The follow development options are available:
+You should then see additional development options at the bottom of the Shadowlands plugin settings panel. The following development options are available:
 
 Option | Description
 ------ | -----------
@@ -84,29 +73,29 @@ In addition, the following macro is useful for getting your current map ID and c
 
 Sometimes you `/reload` before remembering to grab a quest ID out of the chat window. This can be frustrating and problematic if you do not have an easy way to reproduce what triggered the quest completion.
 
-When "Debug Quest IDs" is enabled, all quest ID state changes are recorded in a DB variable for that plugin. This can be accessed after a reload with:
+When "Debug Quest IDs" is enabled, all quest ID state changes are recorded between sessions. This can be accessed after a reload with:
 
 ```
-/dump HandyNotes_ShadowlandsDB.quest_id_history[1]
-Dump: value=HandyNotes_ShadowlandsDB.quest_id_history[1]
-[1]={
-  [1]="Quest",
-  [2]=55428,
-  [3]="changed:",
-  [4]="false",
-  [5]="=>",
-  [6]="true"
-}
-/dump HandyNotes_ShadowlandsDB.quest_id_history[2]
-Dump: value=HandyNotes_ShadowlandsDB.quest_id_history[2]
-[1]={
-  [1]="Quest",
-  [2]=62542,
-  [3]="changed:",
-  [4]="false",
-  [5]="=>",
-  [6]="true"
-}
+/run HandyNotes_ShadowlandsQuestHistory()
+20:59:37 :: 61588 :: true => false
+20:59:37 :: 60774 :: true => false
+20:57:15 :: 58327 :: false => true
+19:29:16 :: 61618 :: false => true
+19:23:52 :: 60826 :: false => true
+18:59:45 :: 62189 :: false => true
+18:59:12 :: 59889 :: false => true
+18:56:52 :: 60480 :: false => true
+18:52:11 :: 13807 :: false => true
+16:48:38 :: 62189 :: false => true
 ```
 
-The most recent 1,000 quest state changes are stored, with the most recent changes being inserted at the front of the table.
+By default the 10 most recent quest changes are displayed. The number of quests printed can be changed by passing the `count` parameter, up to the maximum of 100 stored quest changes.
+
+```
+/run HandyNotes_ShadowlandsQuestHistory(5)
+20:59:37 :: 61588 :: true => false
+20:59:37 :: 60774 :: true => false
+20:57:15 :: 58327 :: false => true
+19:29:16 :: 61618 :: false => true
+19:23:52 :: 60826 :: false => true
+```
