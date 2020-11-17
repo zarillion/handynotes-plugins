@@ -325,7 +325,7 @@ L["gilded_plum_chest_note"] = "擊殺在路上徘徊的 {npc:166680}。"
 L["lost_quill_note"] = "從禁忌圖書館的桌上瓶子拾取 {item:182475}，然後把它交給外面拱門頂上的 {npc:173449}。"
 L["rapier_fearless_note"] = "點擊地上的劍杆，然後擊敗 {npc:173603}。"
 L["remlates_cache_note"] = "在暗隱村墓穴後面的外牆上。"
-L["smuggled_cache_note"] = ns.color.Red("*在拾取之前*：").."確認已完成 {quest:60480} 分支任務否則寶藏和任務將缺少40個 {currency:1820}。"
+L["smuggled_cache_note"] = ns.color.Red("*在拾取之前*：").."請確認已完成 {quest:60480} 支線任務否則寶藏和任務將缺少40個 {currency:1820}。"
 L["taskmaster_trove_note"] = "閱讀Ingress and Egress Rites然後小心地走到寶箱。"
 L["the_count_note"] = "在歿路沼澤農99個 {currency:1820} 然後把它帶給 {npc:173488}。"
 
