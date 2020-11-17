@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: HandyNotes: World of Warcraft
 ## Version: 1
 ## Notes: World of Warcraft Original Zone Notes
