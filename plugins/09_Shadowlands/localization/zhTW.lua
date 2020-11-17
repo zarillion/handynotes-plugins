@@ -355,7 +355,7 @@ L["sylla_note"] = "在這片令人毛骨悚然的地區，人們永遠無法期�
 
 L["grand_inquisitor_note"] = "把10個 {item:180451} 交給 {npc:160248} 有機會獲得此罪孽石。"
 L["high_inquisitor_note"] = "把250個 {currency:1816} 交給 {npc:160248} 有機會獲得此罪孽石。"
-L["inquisitor_note"] = "把100個 {currency:1816} 交給 {npc:160248} 有機會獲得此罪碑。"
+L["inquisitor_note"] = "把100個 {currency:1816} 交給 {npc:160248} 有機會獲得此罪孽石。"
 L["options_icons_inquisitors"] = "{achievement:14276}"
 L["options_icons_inquisitors_desc"] = "顯示 {achievement:14276} 成就中審判官的位置。"
 
