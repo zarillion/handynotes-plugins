@@ -353,7 +353,7 @@ L["addius_note"] = "頭腦虛弱的人不應浪費我的時間，但是如果您
 L["eyegor_note"] = "艾戈爾准備作戰！（暫） "
 L["sylla_note"] = "在這片令人毛骨悚然的地區，人們永遠無法期望在這裡展開一場出色的戰鬥，可惜我們在這裡。不要浪費我的時間。（暫）"
 
-L["grand_inquisitor_note"] = "把10個 {item:180451} 交給 {npc:160248} 有機會獲得此罪碑。"
+L["grand_inquisitor_note"] = "把10個 {item:180451} 交給 {npc:160248} 有機會獲得此罪孽石。"
 L["high_inquisitor_note"] = "把250個 {currency:1816} 交給 {npc:160248} 有機會獲得此罪碑。"
 L["inquisitor_note"] = "把100個 {currency:1816} 交給 {npc:160248} 有機會獲得此罪碑。"
 L["options_icons_inquisitors"] = "{achievement:14276}"
