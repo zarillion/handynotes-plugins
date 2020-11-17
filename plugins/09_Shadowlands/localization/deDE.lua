@@ -76,7 +76,7 @@ L["glitterdust_note"] = "Die Kreaturen des Ardenwalds wirken vielleicht friedlic
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["ascended_council_note"] = "Klicke mit vier anderen Spielern die Vesperglocke der Reinheit, des Mutes, der Demut, der Weisheit und der Loyalität zur selben Zeit an. Begebt euch anschließend zum Prüfstein des Aspiranten, um den Rat der Aufgestiegenen zu besiegen und die Truhe zu enthüllen."
+L["ascended_council_note"] = "Läute gleichzeitig mit vier anderen Spielern die fünf Tempelvesperglocken, um den {npc:170899} beim Prüfstein des Aspiranten zu beschworen."
 L["aspirant_eolis_note"] = "Plündere {item:180613} in der Nähe und lese es ihm vor. Es erscheint eine Truhe."
 L["baedos_note"] = "Trage zum Aktivieren, Fässchen mit fermentierenden Purianfrüchten aus der Umgebung zu {npc:161536}."
 L["basilofos_note"] = "Beweg dich auf den Felsen umher, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint."
@@ -134,18 +134,18 @@ Die Kugel wird dich zu dem wahren Räucherwerk des Richturteils bringen. Sprich 
 ]]
 L["gift_of_vesiphone"] = "Läute an den Glocken, um eine {npc:170849} erscheinen zu lassen, töte diese um den Schwächungszauber {spell:333239} zu erhalten. Der Wasserfall gegenüber der Truhe wird diesen Schwächungszauber reinigen und dir den {spell:332785} gewähren, um die Truhe öffnen zu können."
 
-L["count_your_blessings_note"] = nil
+L["count_your_blessings_note"] = "Platziere eine {item:178915} in der Tributschale, um den Segen zu erhalten."
 L["options_icons_blessings"] = "{achievement:14767}"
-L["options_icons_blessings_desc"] = nil
+L["options_icons_blessings_desc"] = "Zeigt die Positionen der Tribute für den Erfolg {achievement:14767} an."
 
-L["vesper_of_courage"] = nil
-L["vesper_of_humility"] = nil
-L["vesper_of_loyalty"] = nil
-L["vesper_of_purity"] = nil
-L["vesper_of_wisdom"] = nil
-L["vespers_ascended_note"] = nil
+L["vesper_of_courage"] = "Vesperglocke des Mutes"
+L["vesper_of_humility"] = "Vesperglocke der Demut"
+L["vesper_of_loyalty"] = "Vesperglocke der Loyalität"
+L["vesper_of_purity"] = "Vesperglocke der Reinheit"
+L["vesper_of_wisdom"] = "Vesperglocke der Weisheit"
+L["vespers_ascended_note"] = "Läute diese Vesperglocke gleichzeitig mit den anderen vier Glocken, um den {npc:170899} beim Prüfstein des Aspiranten zu beschworen."
 L["options_icons_vespers"] = "{achievement:14734}"
-L["options_icons_vespers_desc"] = nil
+L["options_icons_vespers_desc"] = "Zeigt die Positionen der Vesperglocken für den Erfolg {achievement:14734} an."
 
 L["anima_shard"] = "Verlorener Animakristallsplitter"
 L["anima_shard_61225"] = "Auf einer tiefer gelegenen Plattform unterhalb der Brücke."
@@ -352,7 +352,7 @@ L["sinrunner_note_day6"] = "Verfüttere an Graumähne 3x {item:179271}, verkauft
 
 L["options_icons_carriages"] = "Kutschen"
 L["options_icons_carriages_desc"] = "Zeigt die Positionen und Wege von fahrbaren Kutschen an."
-L["options_icons_dredbats"] = "Fledermäuse"
+L["options_icons_dredbats"] = "{npc:161015n}"
 L["options_icons_dredbats_desc"] = "Zeigt die Positionen der {npc:161015n} und ihre Wege an."
 L["options_icons_sinrunners"] = "{npc:174032}"
 L["options_icons_sinrunners_desc"] = "Zeigt die Positionen der {npc:174032} und ihre Wege an."
@@ -361,11 +361,11 @@ L["addius_note"] = "Willensschwache Wesen sollten nicht meine Zeit vergeuden, do
 L["eyegor_note"] = "Iiihgor kampfbereit!"
 L["sylla_note"] = "Hier an diesem grässlichen Ort sollte man keinen Kampf erwarten, der es wert ist, und doch stehen wir nun hier. Vergeudet nicht meine Zeit."
 
-L["grand_inquisitor_note"] = nil
-L["high_inquisitor_note"] = nil
-L["inquisitor_note"] = nil
-L["options_icons_inquisitors"] = nil
-L["options_icons_inquisitors_desc"] = nil
+L["grand_inquisitor_note"] = "Gib 10 {item:180451} bei {npc:160248} ab, um eine Chance auf diesen Sündenstein zu erhalten."
+L["high_inquisitor_note"] = "Gib 250 {currency:1816} bei {npc:160248} ab, um eine Chance auf diesen Sündenstein zu erhalten."
+L["inquisitor_note"] = "Gib 100 {currency:1816} bei {npc:160248} ab, um eine Chance auf diesen Sündenstein zu erhalten."
+L["options_icons_inquisitors"] = "{achievement:14276}"
+L["options_icons_inquisitors_desc"] = "Zeigt die Positionen der Inquisitoren für den Erfolg {achievement:14276} an."
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
@@ -417,7 +417,7 @@ L["options_icons_riftstone_desc"] = "Zeigt die Positionen von Chaotischen Rissst
 -------------------------------------------------------------------------------
 
 L["prepatch_intro"] = "Schließe die Einführungsquestreihe für den Shadowlands Prepatch ab, um in diesem Gebiet die Bosse freizuschalten."
-L["icecrown_rares"] = "Alle Bosse erscheinen in einer festgelegten Reihenfolge, in einem Intervall von 20 Minuten. Jeder von ihnen kann mehrfach am Tag geplündert werden."
+L["icecrown_rares"] = "Alle Bosse erscheinen in einer festgelegten Reihenfolge, in einem Intervall von 10 Minuten. Jeder von ihnen kann mehrfach am Tag geplündert werden."
 L["next_spawn"] = "Erscheint das nächste mal um %s Uhr (lokale Uhrzeit)."
 
 local ORIG = ns.color.Orange("Ursprünglich in %s.")

@@ -1,5 +1,6 @@
 # v19
 
+* Updated ICC minibosses with new 10 minute spawn rate (thanks rombarcz!)
 * Added the two missing Dredbat statues.
 * Added a missing Castle Sinrunner location.
 * Added quest ID for The Count treasure / pet.
