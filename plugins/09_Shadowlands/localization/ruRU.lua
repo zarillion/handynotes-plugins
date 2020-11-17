@@ -371,13 +371,13 @@ L["maw_intro_note"] = "Начните вводную цепочку задани
 
 L["apholeias_note"] = "Вместе с 3 другими игроками встаньте на углы платформы и примените {spell:331783}, чтобы призвать редкого монстра."
 L["dekaris_note"] = "На вершине большой выступающей скалы."
-L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
-L["ikras_note"] = nil
-L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
-L["sanngror_note"] = "If he is not attackable, wait until he is not experimenting on souls."
-L["talaporas_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331800} to summon the rare."
-L["valis_note"] = "Click the three {npc:174810} in the correct order to summon the rare. The order changes each time and clicking the wrong rune deals damage and debuffs you with {spell:343636}."
-L["yero_note"] = "Approach {npc:172862} and then follow him down into a nearby cave where he becomes hostile."
+L["ekphoras_note"] = "Вместе с 3 другими игроками встаньте на углы платформы и примените {spell:330650}, чтобы призвать редкого монстра."
+L["ikras_note"] = "Летает вокруг Цитадели Вечных Мук. Это хорошее место, чтобы его атаковать."
+L["orophea_note"] = "Поднимите {spell:337143} на юго-востоке и предложите {npc:172577}, чтобы активировать."
+L["sanngror_note"] = "Если его нельзя атаковать, подождите, пока он не перестанет экспериментировать с душами."
+L["talaporas_note"] = "Вместе с 3 другими игроками встаньте на углы платформы и примените {spell:331800}, чтобы призвать редкого монстра."
+L["valis_note"] = "Нажмите на три {npc:174810} в правильном порядке, чтобы вызвать редкого монстра. Порядок меняется каждый раз, и нажатие не на ту руну наносит урон и снимает с вас дебаффы {spell:343636}."
+L["yero_note"] = "Подойдите к {npc:172862} и затем следуйте за ним в ближайшую пещеру, где он станет враждебным."
 
 L["exos_note"] = [[
 Убейте трех вестников скорби, боли и утраты, чтобы собрать их гравировки.
@@ -386,10 +386,10 @@ L["exos_note"] = [[
 • {item:182326}
 • {item:182327}
 
-Combine all three etchings to create the {item:182329}, which can be used to summon the rare at the Altar of Domination. Use the {npc:173892} to reach the upper level.
+Объедините все три гравировки, чтобы создать {item:182329}, который можно использовать для вызова редких монстров на Алтаре Господства. Используйте {npc:173892}, чтобы добраться до верхнего уровня.
 ]]
 
-L["soul_well_note"] = "Catch the Stygia erupting from the Soul Well."
+L["soul_well_note"] = "Поймайте Стигию, извергающуюся из Колодца душ."
 L["obliterated_soul_shards_note"] = "Соберите {item:177834} на мостах."
 
 L["chaotic_riftstone_note"] = [[
