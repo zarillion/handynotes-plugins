@@ -694,21 +694,24 @@ map.nodes[28102670] = PetBattle({
 ------------------------------ PRISMATIC CRYSTALS -----------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[55154877] = Node({
+    quest=56560,
+    icon='crystal_p',
+    scale=2,
+    label=L["strange_crystal"],
+    note=L["strange_crystal_note"],
+    group=ns.groups.PRISMATICS,
+    -- Hide node even when "Show completed" is enabled
+    IsEnabled = function () return not C_QuestLog.IsQuestFlaggedCompleted(56560) end
+}) -- A Curious Discovery
+
 local Crystal = Class('Crystal', Node, {
+    questDeps=56560,
     icon='crystal_p',
     scale=1.5,
     label='{item:167893}',
     note=L["prismatic_crystal_note"],
     group=ns.groups.PRISMATICS
-})
-
-map.nodes[55154877] = Crystal({
-    quest=56560,
-    scale=2,
-    label=L["strange_crystal"],
-    note=L["strange_crystal_note"],
-    -- Hide node even when "Show completed" is enabled
-    IsEnabled = function () return not C_QuestLog.IsQuestFlaggedCompleted(56560) end
 })
 
 map.nodes[29503608] = Crystal()
