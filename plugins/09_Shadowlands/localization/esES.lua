@@ -27,7 +27,7 @@ L["rotbriar_note"] = "Habla con {npc:171684} y comenzará a cantar. Tras algo de
 L["slumbering_note"] = "Correr hacia la niebla te dormirá en pocos segundos y te alejará. Usa una bengala o una mascota con daño en área para sacar al {npc=167721} fuera de la niebla."
 L["skuld_vit_note"] = "En una cueva bloqueada por una barrera. Con el hechizo {spell:310143} de la curia de las Sílfides Nocturnas se podrá atravesar la barrera y entrar en la cueva. Una vez haya sido pulleado {npc=164415}, la barrera desaparecerá."
 L["valfir_note"] = "Haz click en la Semilla de Ánima Brillante a mitad de camino y usa la {spell:338045} para quitar el buff {spell:338038} de {npc=168647}."
-L["wrigglemortis_note"] = "Estira del {npc:164179} para sacarlo de la tierra y hacer aparecer al {npc=164147}."
+L["wrigglemortis_note"] = "Tira del {npc:164179} para sacarlo de la tierra y hacer aparecer al {npc=164147}."
 
 L["night_mare_note"] = [[
 Viaja a Tirna Scithe y sigue el camino por la raíz, en el acantilado noroeste, hasta llegar a una vagoneta rota. Allí podrás despojar una {item:181243} en el suelo.
