@@ -165,11 +165,11 @@ L["glowing_chest_6"] = "解开连线。"
 L["glowing_chest_7"] = "消掉四个蓝色符文。"
 L["glowing_chest_8"] = "在屋顶。保护塔。"
 
-L["prismatic_crystal_note"] = nil
-L["strange_crystal"] = nil
-L["strange_crystal_note"] = nil
-L["options_icons_prismatics"] = nil
-L["options_icons_prismatics_desc"] = nil
+L["prismatic_crystal_note"] = "用它喂食小动物给纳沙塔尔的 {npc:151782}。"
+L["strange_crystal"] = "奇怪的水晶"
+L["strange_crystal_note"] = "解锁 {item:167893} 刷新，必须在此位置先拾取 {item:169778} 并把它上交 {quest:56560}。"
+L["options_icons_prismatics"] = "{item:167893}"
+L["options_icons_prismatics_desc"] = "显示喂食 {npc:151782} 的 {item:167893} 的位置。"
 
 L["slimy_cocoon"] = "粘糊糊的茧"
 L["ravenous_slime_note"] = "使用 {item:167893} 魅惑小动物喂养茧。重复五天直到它刷新一个宠物的蛋。茧会消失直到下周重置。"
