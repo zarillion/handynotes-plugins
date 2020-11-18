@@ -170,11 +170,11 @@ L["glowing_chest_6"] = "Descruza los cables."
 L["glowing_chest_7"] = "Alinea 4 runas azules."
 L["glowing_chest_8"] = "Sobre el tejado. Defiende el pilón."
 
-L["prismatic_crystal_note"] = nil
-L["strange_crystal"] = nil
-L["strange_crystal_note"] = nil
-L["options_icons_prismatics"] = nil
-L["options_icons_prismatics_desc"] = nil
+L["prismatic_crystal_note"] = "Úsalos para alimentar a {npc:151782} en Nazjatar con alimañas."
+L["strange_crystal"] = "Cristal Extraño"
+L["strange_crystal_note"] = "Para desbloquear las apariciones de {item:167893}, primero has de despojar el {item:169778} en este lugar y entregarlo para la misión {quest:56560}."
+L["options_icons_prismatics"] = "{item:167893}"
+L["options_icons_prismatics_desc"] = "Muestra las localizaciones de {item:167893} para alimentar a {npc:151782}."
 
 L["slimy_cocoon"] = "Crisálida babosa"
 L["ravenous_slime_note"] = "Alimenta a una {npc:151782} con una alimaña usando un {item:167893}. Repetir durante cinco días hasta que aparezca una Crisálida Babosa con una mascota en su interior. La babosa se habrá ido hasta el próximo reinicio semanal."
