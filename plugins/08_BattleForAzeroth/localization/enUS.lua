@@ -168,6 +168,12 @@ L["glowing_chest_6"] = "Uncross the wires."
 L["glowing_chest_7"] = "Match 4 blue runes."
 L["glowing_chest_8"] = "On top of the roof. Defend the pylon."
 
+L["prismatic_crystal_note"] = "Use these to feed critters to {npc:151782s} in Nazjatar."
+L["strange_crystal"] = "Strange Crystal"
+L["strange_crystal_note"] = "To unlock {item:167893} spawns, you must first loot the {item:169778} at this location and then turn in {quest:56560}."
+L["options_icons_prismatics"] = "{item:167893s}"
+L["options_icons_prismatics_desc"] = "Display {item:167893} locations for feeding {npc:151782s}."
+
 L["slimy_cocoon"] = "Slimy Cocoon"
 L["ravenous_slime_note"] = "Feed the slime a critter using a {item:167893}. Repeat five days until it spawns an egg with a pet inside. The slime will stay gone until the next weekly reset."
 L["slimy_cocoon_note"] = "A pet is ready to be collected from the cocoon! If it does not appear for you, the egg in on cooldown in your phase. Change phases or check back later."

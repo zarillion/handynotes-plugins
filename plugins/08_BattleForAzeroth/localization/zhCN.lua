@@ -165,6 +165,12 @@ L["glowing_chest_6"] = "解开连线。"
 L["glowing_chest_7"] = "消掉四个蓝色符文。"
 L["glowing_chest_8"] = "在屋顶。保护塔。"
 
+L["prismatic_crystal_note"] = nil
+L["strange_crystal"] = nil
+L["strange_crystal_note"] = nil
+L["options_icons_prismatics"] = nil
+L["options_icons_prismatics_desc"] = nil
+
 L["slimy_cocoon"] = "粘糊糊的茧"
 L["ravenous_slime_note"] = "使用 {item:167893} 魅惑小动物喂养茧。重复五天直到它刷新一个宠物的蛋。茧会消失直到下周重置。"
 L["slimy_cocoon_note"] = "一只宠物可以从茧中收集！如果它没有出现，茧在这个位面正在冷却，更换位面或稍后再来检查。"

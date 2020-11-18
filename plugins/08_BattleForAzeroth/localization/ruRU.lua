@@ -168,6 +168,12 @@ L["glowing_chest_6"] = "Развяжите линии."
 L["glowing_chest_7"] = "Используйте 4 голобых руны."
 L["glowing_chest_8"] = "На вершине крыши. Нужно защищать пилон."
 
+L["prismatic_crystal_note"] = nil
+L["strange_crystal"] = nil
+L["strange_crystal_note"] = nil
+L["options_icons_prismatics"] = nil
+L["options_icons_prismatics_desc"] = nil
+
 L["slimy_cocoon"] = "Склизкий кокон"
 L["ravenous_slime_note"] = "Приманите к слизню питомца, используя {item:167893}. Повторите пять дней, пока не появится яйцо с питомцем внутри. Кокон не исчезнет до следующего еженедельного сброса."
 L["slimy_cocoon_note"] = "Питомец готов к сбору из кокона! Если это он не появляется для вас, яйцо вступает в перезарядку в вашей фазе. Изменить фазу или проверить позже."

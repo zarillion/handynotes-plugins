@@ -38,6 +38,7 @@ ns.groups.MECH_CHEST = Group('mech_chest', 'chest_rd', {defaults=ns.GROUP_ALPHA7
 ns.groups.MISC_NAZJ = Group('misc_nazj', 528288)
 ns.groups.MUSHROOM_HARVEST = Group('mushroom_harvest', 1869654, {defaults=ns.GROUP_HIDDEN})
 ns.groups.PAKU_TOTEMS = Group('paku_totems', 'flight_point_y', {defaults=ns.GROUP_HIDDEN, faction='Horde'})
+ns.groups.PRISMATICS = Group('prismatics', 'crystal_p', {defaults=ns.GROUP_HIDDEN})
 ns.groups.RECRIG = Group('recrig', 'peg_wb')
 ns.groups.SAUSAGE_SAMPLER = Group('sausage_sampler', 133200, {defaults=ns.GROUP_HIDDEN, faction='Alliance'})
 ns.groups.SCAVENGER_OF_THE_SANDS = Group('scavenger_of_the_sands', 135725, {defaults=ns.GROUP_HIDDEN})

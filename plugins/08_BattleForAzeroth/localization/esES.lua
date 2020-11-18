@@ -170,6 +170,12 @@ L["glowing_chest_6"] = "Descruza los cables."
 L["glowing_chest_7"] = "Alinea 4 runas azules."
 L["glowing_chest_8"] = "Sobre el tejado. Defiende el pilón."
 
+L["prismatic_crystal_note"] = nil
+L["strange_crystal"] = nil
+L["strange_crystal_note"] = nil
+L["options_icons_prismatics"] = nil
+L["options_icons_prismatics_desc"] = nil
+
 L["slimy_cocoon"] = "Crisálida babosa"
 L["ravenous_slime_note"] = "Alimenta a una {npc:151782} con una alimaña usando un {item:167893}. Repetir durante cinco días hasta que aparezca una Crisálida Babosa con una mascota en su interior. La babosa se habrá ido hasta el próximo reinicio semanal."
 L["slimy_cocoon_note"] = "¡Una mascota está lista para ser recogida de la Crisálida! Si no te aparece, la Crisálida está en reutilización en tu fase. Cambia de fase o vuelve a comprobar más tarde."

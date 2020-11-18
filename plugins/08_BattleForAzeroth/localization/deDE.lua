@@ -165,6 +165,12 @@ L["glowing_chest_6"] = "Entwirre die Linien."
 L["glowing_chest_7"] = "Kombiniere 4 blaue Runen."
 L["glowing_chest_8"] = "Auf dem Dach. Verteidige den Pylon."
 
+L["prismatic_crystal_note"] = nil
+L["strange_crystal"] = nil
+L["strange_crystal_note"] = nil
+L["options_icons_prismatics"] = nil
+L["options_icons_prismatics_desc"] = nil
+
 L["slimy_cocoon"] = "Schleimiger Kokon"
 L["ravenous_slime_note"] = "Füttere den Schleim mit einem Kleintier benutze dafür einen prismatischen Kristall. Wiederhole diesen Vorgang fünf Tage lang, bis ein Ei mit einem Haustier darin erscheint. Der Schleim bleibt bis zur nächsten wöchentlichen Zurücksetzung verschwunden."
 L["slimy_cocoon_note"] = "Ein Haustier kann vom Kokon abgeholt werden! Wenn es nicht angezeigt wird, befindet sich das Ei in einer anderen Phase in der Abklingzeit. Ändere die Phasen oder versuche es später erneut."
