@@ -87,7 +87,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### Nazjatar
 
-* Ravenous slime locations. Icons disappear as you feed them.
+* Prismatic Crystal and Ravenous Slime locations. Slime icons disappear as you feed them each day.
 * Cat Figurine locations for the [Feline Figurines Found](https://www.wowhead.com/achievement=13836/feline-figurines-found) achievement.
 * Murloco and Mardivas' Laboratory locations.
 
