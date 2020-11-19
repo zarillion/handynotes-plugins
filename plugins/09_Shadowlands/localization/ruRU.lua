@@ -138,16 +138,16 @@ L["count_your_blessings_note"] = "Поместите {item:178915} в чашу �
 L["options_icons_blessings"] = "{achievement:14767}"
 L["options_icons_blessings_desc"] = "Показать места награждения за достижение {achievement:14767}."
 
-L["vesper_of_courage"] = nil
-L["vesper_of_humility"] = nil
-L["vesper_of_loyalty"] = nil
-L["vesper_of_purity"] = nil
-L["vesper_of_wisdom"] = nil
-L["vespers_ascended_note"] = nil
+L["vesper_of_courage"] = "Колокол Отваги"
+L["vesper_of_humility"] = "Колокол Смирения"
+L["vesper_of_loyalty"] = "Колокол Верности"
+L["vesper_of_purity"] = "Колокол Чистоты"
+L["vesper_of_wisdom"] = "Колокол Мудрости"
+L["vespers_ascended_note"] = "Активируйте этот колокол одновременно с четырьмя другими колоколами, чтобы призвать {npc:170899} в Горнило претендентов."
 L["options_icons_vespers"] = "{achievement:14734}"
-L["options_icons_vespers_desc"] = nil
+L["options_icons_vespers_desc"] = "Показать расположение колоколов для достижения {достижение:14734}."
 
-L["anima_shard"] = "Lost Anima Shard"
+L["anima_shard"] = "Пропавшие осколки анимы"
 L["anima_shard_61225"] = "На нижней площадке под мостомe."
 L["anima_shard_61235"] = "На уступе над водопадом."
 L["anima_shard_61236"] = "На вершине арки на полпути к основному строению."
@@ -209,71 +209,71 @@ L["zolla_note"] = "Мы очень серьезно относимся к наш
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
 
-L["chelicerae_note"] = "Destroy the {npc:159885} to activate the rare."
-L["deepscar_note"] = "Can appear in multiple entrances to the Theater of Pain."
+L["chelicerae_note"] = "Уничтожьте {npc:159885}, чтобы активировать редкого монстра."
+L["deepscar_note"] = "Может появляться у нескольких входов в Театр боли."
 L["forgotten_mementos"] = "Pull the Vault Portcullis Chain in the chamber west of the treasure to open the gate."
-L["gieger_note"] = "Pull the {npc:162815} to activate the rare."
-L["gristlebeak_note"] = "Break all nearby {npc:162761} to engage the rare."
-L["leeda_note"] = "Kill the two {npc:162220s} until the rare spawns."
-L["sabriel_note"] = "Can appear as one of the champions in the Theater of Pain."
-L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
-L["taskmaster_xox_note"] = "Shares a spawn with {npc:160204}, {npc:160230} and {npc:160226}."
-L["zargox_the_reborn_note"] = "Use {item:175841} on top of the {npc:157124}. To obtain the orb, you must complete the quest {quest:57245} from {npc:157076} and talk to him again."
+L["gieger_note"] = "Атакуйте {npc:162815}, чтобы активировать редкого монстра."
+L["gristlebeak_note"] = "Разбейте все {npc:162761} поблизости, чтобы атаковать редких монстров."
+L["leeda_note"] = "Убейте двух {npc:162220}, пока не появятся редкий монстр."
+L["sabriel_note"] = "Может появиться как один из чемпионов в Театре боли."
+L["schmitd_note"] = "Используйте поблизости {spell:313451}, чтобы сломать его щит."
+L["taskmaster_xox_note"] = "Делит появление с {npc:160204}, {npc:160230} и {npc:160226}."
+L["zargox_the_reborn_note"] = "Используйте {item:175841} на {npc:157124}. Чтобы получить сферу, вы должны выполнить задание {quest:57245} у {npc:157076} и снова поговорить с ним."
 L["mixed_pool_note"] = [[
-Gather ingredients from the surrounding mobs and toss them into the pool. Once 30 ingredients have been added, one of seven rares will spawn depending on the combination used.
+Соберите ингредиенты с окружающих монстров и бросьте их в бассейн. После добавления 30 ингредиентов появится один из семи редких монстров в зависимости от используемой комбинации.
 
-• Collect {spell:306713} from {npc:167923} and {npc:167948} to the north.
+• Соберите {spell:306713} с {npc:167923} и {npc:167948} на севере.
 
-• Collect {spell:306719} from {npc:165015} and {npc:171142} to the south.
+• Соберите {spell:306719} с {npc:165015} и {npc:171142} на юге.
 
-• Collect {spell:306722} from {npc:165027} and {npc:166438} to the south.
+• Соберите {spell:306722} с {npc:165027} и {npc:166438} на юге.
 ]]
-L["Violet"] = nil
-L["Oily"] = nil
+L["Violet"] = "Фиолетовая ошибка"
+L["Oily"] = "Бесформенная масса"
 
 L["blackhound_cache"] = "Blackhound Cache"
 L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
 L["cache_of_eyes"] = "Cache of Eyes"
 L["cache_of_eyes_note"] = "Spawns at multiple locations within the Sightless Hold."
 
-L["glutharns_note"] = "In a cave behind the waterfall of slime. Kill {npc:172485} and both {npc:172479} to unlock the chest."
-L["kyrian_keepsake_note"] = "Inspect the {npc:169664} to loot the treasure."
-L["misplaced_supplies"] = "On top of the giant mushroom. Run up the hill and jump onto the smaller brown mushroom, then run up the larger hill and jump onto the giant mushroom."
-L["necro_tome_note"] = "To get access to the tower, you have to start a small quest line from {npc:166657}. In a bookcase on the top floor."
+L["glutharns_note"] = "В пещере за водопадом слизи. Убейте {npc:172485} и обоих {npc: 172479}, чтобы открыть сундук."
+L["kyrian_keepsake_note"] = "Осмотрите {npc:169664}, чтобы добыть сокровище."
+L["misplaced_supplies"] = "На вершине гигантского гриба. Бегите на холм и прыгайте на меньший коричневый гриб, затем бегите на большой холм и прыгайте на гигантский гриб."
+L["necro_tome_note"] = "Чтобы получить доступ к башне, вы должны начать небольшую цепочку заданий у {npc:166657}. В книжном шкафу на верхнем этаже."
 L["plaguefallen_chest_note"] = [[
-Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} and be transformed into a {spell:330092}.
+Встаньте в зеленую слизь (требуется исцеление!), Чтобы получить 10 стаков {spell:330069} и превратиться в {spell:330092}.
 
-Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on the east side) and click the pipe to transport to the chest.
+После трансформации посетите пещеру под платформой {npc:158406} (вход с восточной стороны) и нажмите на трубу, чтобы переместить ее в сундук.
 ]]
 L["ritualists_cache_note"] = "Loot the {item:181558} from a bone pile (multiple spawn locations). Use them to complete the Book of Binding Rituals on the stand behind {npc:174386} and gain the {spell:337041} buff."
-L["runespeakers_trove_note"] = "Find {npc:170563} to the east and kill him to obtain the {item:181777}."
-L["stolen_jar_note"] = "In a cave underneath the giant mushroom."
-L["strange_growth_note"] = "Pull on the {npc:165037} to reveal the treasure."
-L["vat_of_slime_note"] = "Click the bottle on the table and then click on the vat of slime."
+L["runespeakers_trove_note"] = "Найдите {npc:170563} на востоке и убейте его, чтобы получить {item:181777}."
+L["stolen_jar_note"] = "В пещере под гигантским грибом."
+L["strange_growth_note"] = "Потяните за {npc:165037}, чтобы найти сокровище."
+L["vat_of_slime_note"] = "Нажмите на бутылку на столе и затем нажмите на чан со слизью."
 
 L["giant_cache_of_epic_treasure"] = "Giant Cache of Epic Treasure"
 L["spinebug_note"] = [[
-Oh look! A {spell:343124}! Approach it brave adventurer, this is surely not a ruse. Wait, is that the music from Karazhan? What is this {npc:174663} doing here ...?
+О, смотри! А {spell:343124}! Подойдите к нему отважный авантюрист, это уж точно не уловка. Подождите, это музыка из Каражана? Что здесь делает {npc:174663} ...?
 
 {spell:343163}!
 ]]
 
 L["oonar_sorrowbane_note"] = [[
-In the Theater of Pain, you will find Sorrowbane stuck in the ground and Oonar's Arm attached to it. |cFFFF8C00Before attempting to pull either, set your {item:6948} to {npc:161702} by the flight point.|r
+В Театре Боли вы найдете меч Гибельную Тоску застрявшим в земле и прикрепленным к нему питомца Руку Унары. |cFFFF8C00Прежде чем пытаться вытянуть его, вам надо привязать свой {item:6948} у {npc:161702}.|r
 
-To pull {item:181164} free:
+Чтобы вытащить {item:181164} бесплатно:
 
-• Travel to Glutharn's Decay to the east.
-• Eat 4x {spell:327367} (2min debuff).
-• Quickly hearth and pull on the arm.
+• Отправляйтесь в Пустошь Глутарна на восток.
+• Съешьте 4 раза {spell:327367} (2-минутный дебафф).
+• Быстро вернитесь в Театр боли с {item:6948} и потяните за руку.
 
-To pull {item:180273} free:
+Чтобы вытащить {item:180273} бесплатно:
 
-• Purchase 1 {item:182163} from {npc:171808} in Revendreth.
-• Purchase 1 {item:180771} from {npc:166640} in Maldraxxus.
-• Get 2 stacks of {spell:306272} from the {wq:A Few Bumps Along the Way} world quest to the west.
-• Eat 4x {spell:327367} in Glutharn's Decay.
-• Quickly hearth, drink both potions and pull on the sword.
+• Купите 1 {item:182163} у {npc:171808} в Ревендрете.
+• Купите 1 {item:180771} у {npc:166640} в Малдраксусе.
+• Получите 2 стака {spell:306272} из локального задания {wq:A Few Bumps Along the Way} на западе.
+• Съешьте 4 раза {spell:327367} в Пустоше Глутарна.
+• Быстро возвращайтесь в Театр боли с {item:6948}, выпейте оба зелья и вытащите меч.
 ]]
 
 L["pet_cat"] = "Pet the damn cat!"
