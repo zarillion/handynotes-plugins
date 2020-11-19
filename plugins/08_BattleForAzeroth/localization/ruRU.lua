@@ -650,60 +650,79 @@ L["options_icons_life_finds_a_way_desc"] = "Отобразить местопо�
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L["goramor_note"] = nil
-L["makafon_note"] = nil
-L["stompy_note"] = nil
-L["options_icons_brutosaurs"] = nil
-L["options_icons_brutosaurs_desc"] = nil
+L["goramor_note"] = "Купите {item:163563} у {npc:126833} и передайте его {npc:143644}. {npc:126833} находится в небольшой пещере недалеко от Террасы скорби."
+L["makafon_note"] = "Купите {item:163564} у {npc:124034} в Фактории Тортоланов и передайте его {npc:130922}."
+L["stompy_note"] = "Купите {item:163567} у {npc:133833} к северу от Оазиса свистоцветов и скормите его {npc:143332}."
+L["options_icons_brutosaurs"] = "{achievement:13029}"
+L["options_icons_brutosaurs_desc"] = "Отображение местоположения брутозавров для достижения {achievement:13029}."
 
-L["charged_junk_note"] = nil
-L["feathered_junk_note"] = nil
-L["golden_junk_note"] = nil
-L["great_hat_junk_note"] = nil
-L["hunter_junk_note"] = nil
-L["loa_road_junk_note"] = nil
-L["nazwathan_junk_note"] = nil
-L["redrock_junk_note"] = nil
-L["ringhorn_junk_note"] = nil
-L["saurid_junk_note"] = nil
-L["snapjaw_junk_note"] = nil
-L["vilescale_junk_note"] = nil
-L["options_icons_get_hekd"] = nil
-L["options_icons_get_hekd_desc"] = nil
+local hekd_note = "\n\nЧтобы получить доступ к {npc:126334}, вам необходимо выполнить %s."
+if UnitFactionGroup('player') == 'Horde' then
+    hekd_note = hekd_note:format("{quest:47441} от {npc:127665} в Дазар'алоре, за которым следует {quest:47442} от {npc:126334}")
+else
+    hekd_note = hekd_note:format("{quest:51142} от {npc:136562} в Вол'дуне, за которым следует {quest:51145} от {npc:136559}")
+end
+local hekd_quest = "Завершите задания %s у {npc:126334}."..ns.color.Orange(hekd_note)
+local hekd_item = "Соберите %s с %s рядом со свалкой и отнесите его к {npc:126334}."..ns.color.Orange(hekd_note)
 
-L["options_icons_mushroom_harvest"] = nil
-L["options_icons_mushroom_harvest_desc"] = nil
+L["charged_junk_note"] = format(hekd_item, "{item:158910}", "{npc:135727}")
+L["feathered_junk_note"] = format(hekd_item, "{item:157794}", "{npc:132410}")
+L["golden_junk_note"] = format(hekd_item, "{item:156963}", "{npc:122504}")
+L["great_hat_junk_note"] = format(hekd_quest, "{quest:50381}")
+L["hunter_junk_note"] = format(hekd_quest, "{quest:50332}")
+L["loa_road_junk_note"] = format(hekd_quest, "{quest:50444}")
+L["nazwathan_junk_note"] = format(hekd_item, "{item:157802}", "{npc:131155}")
+L["redrock_junk_note"] = format(hekd_item, "{item:158916}", "{npc:134718}")
+L["ringhorn_junk_note"] = format(hekd_item, "{item:158915}", "{npc:130316}")
+L["saurid_junk_note"] = format(hekd_quest, "{quest:50901}")
+L["snapjaw_junk_note"] = format(hekd_item, "{item:157801}", "{npc:126723}")
+L["vilescale_junk_note"] = format(hekd_item, "{item:157797}", "{npc:125393}")
+L["options_icons_get_hekd"] = "{achievement:12482}"
+L["options_icons_get_hekd_desc"] = "Отображение заданий {npc:126334} и места для достижения {achievement:12482}."
 
-L["options_icons_tales_of_de_loa"] = nil
-L["options_icons_tales_of_de_loa_desc"] = nil
+L["options_icons_mushroom_harvest"] = "{achievement:13027}"
+L["options_icons_mushroom_harvest_desc"] = "Отображение местоположения злодеев-грибостражей для достижения {achievement:13027}."
 
-L["jani_note"] = nil
-L["rezan_note"] = nil
-L["bow_to_your_masters_note"] = nil
-L["options_icons_bow_to_your_masters"] = nil
-L["options_icons_bow_to_your_masters_desc"] = nil
+L["options_icons_tales_of_de_loa"] = "{achievement:13036}"
+L["options_icons_tales_of_de_loa_desc"] = "Отображение местоположения табличек для достижения {achievement:13036}."
 
-L["alisha_note"] = nil
-L["elijah_note"] = nil
-L["raal_note"] = nil
-L["sausage_sampler_note"] = nil
-L["options_icons_sausage_sampler"] = nil
-L["options_icons_sausage_sampler_desc"] = nil
+L["jani_note"] = "Нажмите на Загадочную кучу мусора, чтобы открыть {npc:126334}."
+L["rezan_note"] = ns.color.Red("Внутри подземелья Атал'Дазар.")
+L["bow_to_your_masters_note"] = "Поклонись лоа Зандалара ("..ns.color.Orange('/поклон')..")."
+L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
+L["options_icons_bow_to_your_masters_desc"] = "Отображение местоположения лоа для достижения {achievement:13020}."
 
-L["three_sheets_note"] = nil
-L["options_icons_three_sheets"] = nil
-L["options_icons_three_sheets_desc"] = nil
+L["alisha_note"] = "Этому торговцу требуется прогресс заданий в Друстваре."
+L["elijah_note"] = "Этот продавец требует выполнения заданий в Друстваре. Он начинает продавать колбасу после {quest:47945}."
+L["raal_note"] = ns.color.Red("Внутри подземелья поместья Уэйкрестов.")
+L["sausage_sampler_note"] = "Съешьте каждую колбасу, чтобы получить достижение."
+L["options_icons_sausage_sampler"] = "{achievement:13087}"
+L["options_icons_sausage_sampler_desc"] = "Отображение местоположения продавцов для достижения {achievement:13087}."
 
-L["options_icons_daily_chests_desc"] = "Отображение местоположения сундуков (можно добывать ежедневно)."
+-- For Horde, include a note about drinks that must be purchased on the AH
+local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Следующие напитки недоступны для Орды и должны быть куплены на аукционе:
+
+• {item:163639}
+• {item:163638}
+• {item:158927}
+• {item:162026}
+• {item:162560}
+• {item:163098}
+]] or ''
+L["three_sheets_note"] = "Получите по одной порции каждого напитка, чтобы получить достижение."..horde_sheets
+L["options_icons_three_sheets"] = "{achievement:13061}"
+L["options_icons_three_sheets_desc"] = "Показать местонахождение продавцов для достижения {achievement:13061}."
+
+L["options_icons_daily_chests_desc"] = "Отображение местоположения сундуков (добывается ежедневно)."
 L["options_icons_daily_chests"] = "Сундуки"
 
 L["supply_chest"] = "Сундук с военными припасами"
-L["supply_chest_note"] = nil
-L["supply_single_drop"] = nil
-L["options_icons_supplies_desc"] = "Показать все возможные места сундуков с военными припасами."
-L["options_icons_supplies"] = "Сундук с военными припасами"
+L["supply_chest_note"] = "{npc:135181} или {npc:138694} будет пролетать над головой каждые 45 минут и сбрасывать {npc: 135238} в одном из трех возможных мест падения."
+L["supply_single_drop"] = ns.color.Orange("По этой траектории полета ящик с припасами всегда падает в этом месте.")
+L["options_icons_supplies_desc"] = "Показать места падения {npc:135238}."
+L["options_icons_supplies"] = "{npc:135238}"
 
-L["secret_supply_chest"] = nil
-L["secret_supply_chest_note"] = nil
-L["options_icons_secret_supplies"] = nil
-L["options_icons_secret_supplies_desc"] = nil
+L["secret_supply_chest"] = "Секретный сундук с припасами"
+L["secret_supply_chest_note"] = "Когда атака фракции активна, "..ns.color.Yellow("Секретный сундук с припасамиt").." может появиться в одном из этих мест на короткое время."
+L["options_icons_secret_supplies"] = "Секретные сундуки с припасами"
+L["options_icons_secret_supplies_desc"] = "Отобразить "..ns.color.Yellow("Секретные сундуки с припасами").." места для достижения {achievement:13317}."
