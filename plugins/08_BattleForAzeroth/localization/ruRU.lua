@@ -603,43 +603,48 @@ L["frightened_kodo_note"] = "Исчезает через несколько ми
 ----------------------------------- ZULDAZAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L["murderbeak_note"] = nil
-L["vukuba_note"] = nil
+L["murderbeak_note"] = "Бросьте ведро в море, затем убивайте {npc:134780}, пока не появится {npc:134782}."
+L["vukuba_note"] = "Исследуйте {npc:134049}, затем убивайте {npc:134047}, пока не появится {npc:134048}."
 
-L["cache_of_secrets_note"] = nil
-L["da_white_shark_note"] = nil
-L["dazars_forgotten_chest_note"] = nil
-L["gift_of_the_brokenhearted_note"] = nil
-L["offerings_of_the_chosen_note"] = nil
-L["riches_of_tornowa_note"] = nil
-L["spoils_of_pandaria_note"] = nil
-L["tiny_voodoo_mask_note"] = nil
-L["warlords_cache_note"] = nil
+L["cache_of_secrets_note"] = "Держится {npc:137234} в пещере за водопадом."
+L["da_white_shark_note"] = "Стой рядом с {npc:133208}, пока она не станет враждебной."
+L["dazars_forgotten_chest_note"] = "Путь начинается рядом с {npc:134738}."
+L["gift_of_the_brokenhearted_note"] = "Поместите ладан, чтобы вызвать сундук."
+L["offerings_of_the_chosen_note"] = "На втором уровне Занчула."
+L["riches_of_tornowa_note"] = "На склоне обрыва."
+L["spoils_of_pandaria_note"] = "На самой нижней палубе корабля."
+L["tiny_voodoo_mask_note"] = "Находится в хижине наверху {npc:141617}."
+L["warlords_cache_note"] = "Сверху у штурвала корабля."
 
-L["karaga_note"] = nil
-L["talia_spark_note"] = nil
-L["zujai_note"] = nil
+L["karaga_note"] = "Я давно не сражался, надеюсь, я все еще хороший вызов для тебя."
+L["talia_spark_note"] = "Существа на этой земле злые, я надеюсь, вы готовы к этому."
+L["zujai_note"] = "Вы встретитесь со мной в моем собственном доме? Удачи."
 
-L["kuafon_note"] = nil
-L["torcali_note"] = nil
+L["kuafon_note"] = [[
+Получите {item:157782} с любого терродактиля в Зандаларе, чтобы начать выполнение задания. Некоторые задания займут несколько дней.
 
-L["totem_of_paku_note"] = nil
-L["options_icons_paku_totems"] = nil
-L["options_icons_paku_totems_desc"] = nil
+Лучше всего фармить мобов {npc:126618} в Занчуле или {npc:122113} в Гнезде Бритвокрылов к югу от Тал'гуруба.
+]]
+L["torcali_note"] = "Выполняйте задания в краале боевых ящеров, пока {quest:47261} не станет доступным. Некоторые квесты займут несколько дней."
 
-L["tales_gonk_note"] = nil
-L["tales_gral_note"] = nil
-L["tales_jani_note"] = nil
-L["tales_paku_note"] = nil
-L["tales_rezan_note"] = nil
-L["tales_shadra_note"] = nil
-L["tales_torcali_note"] = nil
-L["tales_zandalar_note"] = nil
+L["totem_of_paku_note"] = "Поговорите с {npc:137510} к северу от Великой Печати, чтобы выбрать Па'ку своим лоа в Зулдазаре."
+L["options_icons_paku_totems"] = "Тотем Па'ку"
+L["options_icons_paku_totems_desc"] = "Показать {npc:131154} локации и пути их путешествия в Дазар'алоре."
 
-L["azuresail_note"] = nil
-L["thunderfoot_note"] = nil
-L["options_icons_life_finds_a_way"] = nil
-L["options_icons_life_finds_a_way_desc"] = nil
+L["tales_gonk_note"] = "Лежит на одеяле."
+L["tales_gral_note"] = "У корней дерева."
+L["tales_jani_note"] = "У разрушенного столба."
+L["tales_paku_note"] = "На вершине здания, на скале у воды."
+L["tales_rezan_note"] = "Над пещерой {npc:136428}."
+L["tales_shadra_note"] = "У входа, за факелом."
+L["tales_torcali_note"] = "Между парой бочек и лестницей."
+L["tales_zandalar_note"] = "Позади {npc:132989}."
+
+local shared_dinos = "Ежедневное задание {daily:50860} должно быть активно (одно из четырех возможных заданий) из цикла заданий у {npc:133680}, чтобы они появились. Кто угодно может их увидеть в те дни."
+L["azuresail_note"] = "Делит короткий таймер возрождения с {npc:135512} и {npc:135508}.\n\n"..shared_dinos
+L["thunderfoot_note"] = "Делит короткий таймер возрождения с {npc:135510} и {npc:135508}.\n\n"..shared_dinos
+L["options_icons_life_finds_a_way"] = "{achievement:13048}"
+L["options_icons_life_finds_a_way_desc"] = "Отобразить местоположение динозавров для достижения {achievement:13048}."
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
