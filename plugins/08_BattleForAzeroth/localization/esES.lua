@@ -116,7 +116,7 @@ L["anemonar_note"] = "Para activar a {npc:152566} mata la {npc:150467} enfrente 
 L["avarius_note"] = "Usa la {item:167012} para recoger y colocar los cristales de colores en sus pedestales para invocar a {npc:150191}. ¡No necesitas ser minero!"
 L["banescale_note"] = "Tiene una pequeña posibilidad de aparecer de inmediato tras matar a {npc:152359}."
 L["elderunu_note"] = "Aparece en cualquier sitio en la parte superior de Kal'methir."
-L["gakula_note"] = "Espanta a otro sitio a los {npc:152275} hasta que aparezca {npc=152323}."
+L["gakula_note"] = "Espanta a otro sitio a los {npc:152275} hasta que aparezca {npc:152323}."
 L["glimmershell_note"] = "Tiene una pequeña posibilidad de aparecer en lugar de {npc:152426}."
 L["kelpwillow_note"] = "Para activar a {npc:152567} llévale una {npc:154725} usando en ella un {item:167893}."
 L["lasher_note"] = "Planta una {item:166888} en el suelo y aliméntala con moscas hasta que aparezca el {npc:149653}."
