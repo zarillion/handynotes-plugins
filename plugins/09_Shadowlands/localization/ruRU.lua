@@ -99,8 +99,8 @@ Motes can be collected from nearby Depleted Anima Canisters located in the room 
 L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
 L["sotiros_orstus_note"] = "Click the Black Bell to summon the rares."
 L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
-L["swelling_tear_note"] = "Нажмите на {npc:171012}, чтобы вызвать одного из трех редких монстров. Слезы могут появляться в нескольких местах в локации."
-L["unstable_memory_note"] = "Может появиться при наличии {npc:171018}. Перетащите одного {npc:171018} в других, чтобы получить 10 стаков {spell:333558}, превратив его в редкого монстра."
+L["swelling_tear_note"] = "Нажмите на {npc:171012}, чтобы вызвать одного из трех редких монстров. Разломы могут появляться в нескольких местах в локации."
+L["unstable_memory_note"] = "Может появиться при наличии {npc:171018}. Перетащите один {npc:171018} к другим, чтобы получить 10 стаков {spell:333558}, превратив его в редкого монстра."
 L["wingflayer_note"] = "To summon, click the Horn of Courage on the nearby table (southeast, up the stairs)."
 
 L["broken_flute"] = "Убивайте поблизости {npc:170009}, пока они не уронят {item:180536}, затем воспользуйтесь инструментами, чтобы починить его."
@@ -251,9 +251,9 @@ L["stolen_jar_note"] = "В пещере под гигантским грибом
 L["strange_growth_note"] = "Потяните за {npc:165037}, чтобы найти сокровище."
 L["vat_of_slime_note"] = "Нажмите на бутылку на столе и затем нажмите на чан со слизью."
 
-L["giant_cache_of_epic_treasure"] = "Giant Cache of Epic Treasure"
+L["giant_cache_of_epic_treasure"] = "Огромный тайник с эпическим сокровищем"
 L["spinebug_note"] = [[
-О, смотри! А {spell:343124}! Подойдите к нему отважный авантюрист, это уж точно не уловка. Подождите, это музыка из Каражана? Что здесь делает {npc:174663} ...?
+О, смотри! {spell:343124}! Подойди к нему отважный авантюрист, это уж точно не уловка. Подождите, это музыка из Каражана? Что здесь делает {npc:174663} ...?
 
 {spell:343163}!
 ]]
@@ -276,17 +276,17 @@ L["oonar_sorrowbane_note"] = [[
 • Быстро возвращайтесь в Театр боли с {item:6948}, выпейте оба зелья и вытащите меч.
 ]]
 
-L["pet_cat"] = "Pet the damn cat!"
+L["pet_cat"] = "Погладить проклятого кота!"
 L["hairball"] = ns.color.Red("Only appears in the Festering Sanctum inside the Plaguefall dungeon!")
-L["lime"] = "Sitting on top of the large bone arch."
-L["moldstopheles"] = "Run around the back of the stalk and jump up the mushroom platforms. For the final platform, use a mount and jump at the corner where it meets the stalk."
-L["pus_in_boots"] = "Located under the bridge."
+L["lime"] = "Находится на вершине большой кости."
+L["moldstopheles"] = "Бегите по задней части стебля и подпрыгивайте на грибных платформах. Для последней платформы используйте маунта и прыгайте в угол, где он встречается со стеблем."
+L["pus_in_boots"] = "Расположен под мостом."
 
 L["options_icons_slime_cat"] = "{achievement:14634}"
-L["options_icons_slime_cat_desc"] = "Display locations of kittens for the {achievement:14634} achievement."
+L["options_icons_slime_cat_desc"] = "Отображение местоположения котят для достижения {achievement:14634}."
 
-L["dundley_note"] = nil
-L["maximillian_note"] = nil
+L["dundley_note"] = "Я буду сражаться за свой путь к победе и получу уважение, которое наконец заслуживаю. Единственный недостаток - все, что у меня есть, теперь липкое. Все."
+L["maximillian_note"] = "Я десятки лет ждал достойного соперника. К победителю идут трофеи!"
 L["rotgut_note"] = nil
 
 -------------------------------------------------------------------------------
@@ -294,41 +294,41 @@ L["rotgut_note"] = nil
 -------------------------------------------------------------------------------
 
 L["amalgamation_of_filth_note"] = "When the world quest {wq:Dirty Job: Demolition Detail} is available click on a Rubbish Box and use {spell:324115} into the water."
-L["amalgamation_of_light_note"] = "Move all three mirror traps to release the rare."
+L["amalgamation_of_light_note"] = "Переместите все три зеркальные ловушки, чтобы выпустить редкого монстра."
 L["amalgamation_of_sin_note"] = "Use the Catalyst of Power to obtain {item:180376} from the {wq:Summon Your Sins} world quest, then use the item to summon the rare."
 L["bog_beast_note"] = "Has a chance to spawn during the world quest {wq:Muck It Up} after using {item:177880} on a {npc:166206}."
 L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."
-L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."
-L["famu_note"] = "Talk to {npc:166483} to trigger the event."
-L["grand_arcanist_dimitri_note"] = "Kill the four {npc:167467} to release the rare."
+L["executioner_aatron_note"] = "Убейте трех ближайших {npc:166715}, чтобы удалить {spell:324872}."
+L["famu_note"] = "Поговорите с {npc:166483}, чтобы запустить событие."
+L["grand_arcanist_dimitri_note"] = "Убейте четырех {npc:167467}, чтобы выпустить редкого монстра."
 L["harika_note"] = [[
-|cFFFF0000IMPORTANT:|r Items must be handed in in the correct order or the event will bug!
+|cFFFF0000ВАЖНО:|r Предметы должны быть сданы в правильном порядке, иначе событие будет ошибочным!
 
-In Dredhollow to the west, loot the {item:176397} and both sets of {item:176396}. Give the tools to both {npc:165328} near the ballista, then turn the bolt into {npc:165327} and tell him to bring down the rare.
+В Жуткой Лощине на западе возьмите {item:176397} и два набора {item:176396}. Отдайте инструменты обоим {npc:165328} возле баллисты, затем поверните затвор в {npc:165327} и скажите ему сбить редкого монстра.
 ]]
-L["innervus_note"] = "Kill nearby {npc:160375s} to obtain a {item:177223} and unlock the crypt."
-L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
-L["lord_mortegore_note"] = "Kill surrounding mobs to obtain {item:174378} and use it to empower a {npc:161870}. The rare will spawn once all four sigils are empowered."
+L["innervus_note"] = "Убейте поблизости {npc:160375}, чтобы получить {item:177223} и открыть склеп."
+L["leeched_soul_note"] = "Внутри ближайшего склепа. Подойдите к {npc:165151}, чтобы начать событие."
+L["lord_mortegore_note"] = "Убейте окружающих монстров, чтобы получить {item:174378} и использовать его, чтобы усилить {npc: 161870}. Редкий монстр появится после того, как будут усилены все четыре печати."
 L["madalav_note"] = "Click Madalav's Hammer on the nearby anvil to summon him."
-L["manifestation_of_wrath_note"] = "Has a chance to spawn when a {npc:169916} is recovered during the {wq:Swarming Souls} world quest."
+L["manifestation_of_wrath_note"] = "Имеет шанс появиться, когда {npc:169916} восстанавливается во время локального задания {wq:Swarming Souls}."
 L["scrivener_lenua_note"] = "Return {npc:160753} to the Forbidden Library."
 L["sinstone_hoarder_note"] = "Attempt to loot the {npc:162503} and the rare will reveal itself."
 L["sire_ladinas_note"] = "Pick up a Remnant of Light nearby and use {spell:313065} on {npc:157733}."
-L["soulstalker_doina_note"] = "Follow downstairs and through the mirror when she runs away."
-L["tomb_burster_note"] = "Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769s} and waves of {npc:155795s} until the rare spawns."
+L["soulstalker_doina_note"] = "Следуй вниз и пройди через зеркало, когда она убегает."
+L["tomb_burster_note"] = "Может появиться, если {npc:155777} пойман в сети. Убивайте ближайших {npc:155769} и появившихся {npc:155795}, пока не появятся редкий монстр."
 L["worldedge_gorger_note"] = [[
 Obtain an {item:173939} from World Reavers, Devourers and Mites in the Banewood and the Endmire. Use it to light the Worldedge Braziers and summon the rare.
 
 Has a chance to drop an {item:180583}, which begins a 7 day quest line to obtain the {spell:333027} mount.
 ]]
 
-L["dredglaive_note"] = "Under the bridge in the {npc:173671} corpse."
+L["dredglaive_note"] = "Под мостом в трупе {npc:173671}."
 L["forbidden_chamber_note"] = "Loot a Discarded Anima Canister in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838s}, then use {spell:340866} in front of the {npc:173786}."
-L["gilded_plum_chest_note"] = "Kill the {npc:166680} wandering up and down the road."
+L["gilded_plum_chest_note"] = "Убейте {npc:166680}, бродящего по дороге."
 L["lost_quill_note"] = "Loot {item:182475} from the bottle on the table in the Forbidden Library."
-L["rapier_fearless_note"] = "Click the rapier on the ground, then defeat {npc:173603}."
+L["rapier_fearless_note"] = "Используйте рапиру на земле, затем победите {npc:173603}."
 L["remlates_cache_note"] = "On the outer wall of Darkhaven behind the crypt."
-L["smuggled_cache_note"] = nil
+L["smuggled_cache_note"] = ns.color.Red("ПЕРЕД ВАМИ: ").."Убедитесь, что вы выполнили побочное задание {quest:60480}, иначе вы пропустите 40 {currency:1820} из сокровищницы и задания."
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
 L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
 
@@ -337,8 +337,8 @@ L["forgotten_anglers_rod"] = "Forgotten Angler's Rod"
 
 L["loyal_gorger_note"] = "Visit the Endmire and complete a daily offered by your {npc:173498} 7 times to obtain him as a mount."
 
-L["sinrunner_note"] = "Bring food and supplies to {npc:173468} for six days to obtain her reins. She only appears for a few minutes at a time."
-L["sinrunner_note_day1"] = "Offer Blanchy 8 {item:182581} from farm areas in Westfall."
+L["sinrunner_note"] = "Приносите еду и припасы {npc:173468} в течении шести дней, чтобы получить ее поводья. Она появляется только на несколько минут."
+L["sinrunner_note_day1"] = "Предложите Бланчи 8 {item:182581} с фермы в Западном крае."
 L["sinrunner_note_day2"] = "Obtain a {item:182585} from {npc:173570} in Darkhaven and use it to clean Blanchy."
 L["sinrunner_note_day3"] = "Equip Blanchy with 4 {item:182595} found on the roads surrounding Darkhaven."
 L["sinrunner_note_day4"] = "Pick up the {item:182620} near {npc:173570} and fill it with water from Bastion or Ardenweald. Return the {item:182599} to Blanchy."
@@ -347,20 +347,20 @@ L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} b
 
 L["options_icons_carriages"] = "Экипажи"
 L["options_icons_carriages_desc"] = "Отображение местоположения и пути проезжаемых экипажей."
-L["options_icons_dredbats"] = nil
-L["options_icons_dredbats_desc"] = nil
-L["options_icons_sinrunners"] = nil
-L["options_icons_sinrunners_desc"] = nil
+L["options_icons_dredbats"] = "{npc:161015}"
+L["options_icons_dredbats_desc"] = "Показать местоположения и пути {npc:161015}."
+L["options_icons_sinrunners"] = "{npc:174032}"
+L["options_icons_sinrunners_desc"] = "Показать местоположения и пути {npc:174032}."
 
-L["addius_note"] = nil
-L["eyegor_note"] = nil
-L["sylla_note"] = nil
+L["addius_note"] = "Слабоумным существам не стоит тратить мое время, но если вы будете настаивать, я покажу вам настоящую боль."
+L["eyegor_note"] = "Глазгор готов к бою!"
+L["sylla_note"] = "Никогда нельзя ожидать выдающейся битвы здесь, в этом ужасном месте, но, увы, мы здесь. Не трать мое время."
 
-L["grand_inquisitor_note"] = nil
-L["high_inquisitor_note"] = nil
-L["inquisitor_note"] = nil
-L["options_icons_inquisitors"] = nil
-L["options_icons_inquisitors_desc"] = nil
+L["grand_inquisitor_note"] = "Сдайте 10 {item:180451} у {npc:160248}, чтобы получить шанс на этот камень греха."
+L["high_inquisitor_note"] = "Сдайте 250 {currency:1816} у {npc:160248}, чтобы получить шанс получить этот камень греха."
+L["inquisitor_note"] = "Сдайте 100 {currency:1816} у {npc:160248}, чтобы получить шанс получить этот камень греха."
+L["options_icons_inquisitors"] = "{achievement:14276}"
+L["options_icons_inquisitors_desc"] = "Показать местоположения инквизиторов для достижения {achievement:14276}."
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
