@@ -69,6 +69,9 @@ def main():
         for item in os.listdir(plugin_dir):
             install(path.join(plugin_dir, item), path.join(target_dir, item))
 
+        # add dummy .git directory so the plugins show up as "Working Copy" in the curse client
+        os.makedirs(path.join(target_dir, '.git'), exist_ok=True)
+
         # link core + library dirs
         for item in ('core', 'libs', 'embeds.xml'):
             install(item, path.join(target_dir, item))
