@@ -339,11 +339,11 @@ L["loyal_gorger_note"] = "Visit the Endmire and complete a daily offered by your
 
 L["sinrunner_note"] = "Приносите еду и припасы {npc:173468} в течении шести дней, чтобы получить ее поводья. Она появляется только на несколько минут."
 L["sinrunner_note_day1"] = "Предложите Бланчи 8 {item:182581} с фермы в Западном крае."
-L["sinrunner_note_day2"] = "Obtain a {item:182585} from {npc:173570} in Darkhaven and use it to clean Blanchy."
-L["sinrunner_note_day3"] = "Equip Blanchy with 4 {item:182595} found on the roads surrounding Darkhaven."
-L["sinrunner_note_day4"] = "Pick up the {item:182620} near {npc:173570} and fill it with water from Bastion or Ardenweald. Return the {item:182599} to Blanchy."
-L["sinrunner_note_day5"] = "Equip Blanchy with a {item:182597}, sold by {npc:171808} near the Night Market in exchange for assorted meats."
-L["sinrunner_note_day6"] = "Feed Blanchy 3 {item:179271}, sold by {npc:167815} by the Hole in the Wall."
+L["sinrunner_note_day2"] = "Получите {item:182585} у {npc:173570} в Темном Приюте и используйте ее, чтобы очистить Бланчи."
+L["sinrunner_note_day3"] = "Оденьте на Бланчи 4 {item:182595}, найденных на дорогах вокруг Темного Приюта."
+L["sinrunner_note_day4"] = "Возьмите {item:182620} рядом с {npc:173570} и наполните его водой из Бастиона или Арденвельда. Верните {item:182599} Бланчи."
+L["sinrunner_note_day5"] = "Оснастите Бланчи {item:182597}, которое обменивается у {npc:171808} возле ночного рынка на различное мясо из текущей локации."
+L["sinrunner_note_day6"] = "Купите 3 {item:179271}, у {npc:167815} для Бланчи."
 
 L["options_icons_carriages"] = "Экипажи"
 L["options_icons_carriages_desc"] = "Отображение местоположения и пути проезжаемых экипажей."
