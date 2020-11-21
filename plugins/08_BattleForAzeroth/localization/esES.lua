@@ -292,7 +292,7 @@ L["options_icons_honeybacks_desc"] = "Muestra las localizaciones del evento de l
 
 L["lets_bee_friends_note"] = "Completa la misión diaria {daily:53371} siete veces para conseguir el logro y la mascota. Para desbloquear la misión diaria:"
 L["lets_bee_friends_step_1"] = "Completa la cadena de misiones desde {quest:50343} hasta {quest:50553}."
-L["lets_bee_friends_step_2"] = "Kill {npc:133429} y {npc:131663} en Granja de Hidromiel Mildenhall hasta que te encuentres un {item:163699}."
+L["lets_bee_friends_step_2"] = "Mata {npc:133429} y {npc:131663} en Granja de Hidromiel Mildenhall hasta que te encuentres un {item:163699}."
 L["lets_bee_friends_step_3"] = "Dale el {item:163699} a {npc:143128} en Boralus."
 L["lets_bee_friends_step_4"] = "Dale la {item:163702} a {npc:133907} en Granja de Hidromiel Mildenhall."
 L["lets_bee_friends_step_5"] = "Completa la misión {quest:53347} para {npc:133907}."
