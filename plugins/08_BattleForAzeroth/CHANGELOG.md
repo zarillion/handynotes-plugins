@@ -1,3 +1,14 @@
+# v2
+
+* Bumped UI version to 90002.
+* Added missing Idej the Wise rare to Drustvar.
+* Added Prismatic Crystal locations in Nazjatar.
+* Added weapon transmogs for Visions of N'Zoth assault rares.
+* Added a proper texture for the head of POI arrows.
+* Improved performance of POI refreshes when 'Rotate Minimap' is enabled.
+* Enabled 'Enlarge icons on maximized world map' by default.
+* Localization updates for esES, frFR, ruRU, zhCN and zhTW.
+
 # v1
 
 * Merged [Mechagon & Nazjatar](https://www.curseforge.com/wow/addons/handynotes-mechagon-nazjatar) and [Visions of N'Zoth](https://www.curseforge.com/wow/addons/handynotes-visions-of-nzoth) into a single plugin.
