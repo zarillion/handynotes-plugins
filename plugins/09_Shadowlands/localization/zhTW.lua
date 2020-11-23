@@ -405,25 +405,3 @@ L["options_icons_bonus_event"] = "獎勵事件"
 L["options_icons_bonus_event_desc"] = "顯示獎勵事件位置。"
 L["options_icons_riftstone"] = "混亂裂隙石"
 L["options_icons_riftstone_desc"] = "顯示混亂裂隙石傳送者位置。"
-
--------------------------------------------------------------------------------
------------------------------------ ICECROWN ----------------------------------
--------------------------------------------------------------------------------
-
-L["prepatch_intro"] = "完成暗影之境前夕事件前置任務來解鎖此區域的首領"
-L["icecrown_rares"] = "所有首領以固定順序每10分鐘刷新一個.每個首領一天可以拾取多次"
-L["next_spawn"] = "下次刷新時間為本地時間 %s "
-
-local ORIG = ns.color.Orange("原本位於 %s。")
-
-L["orig_atk"] = ORIG:format(EJ_GetInstanceInfo(271))
-L["orig_azn"] = ORIG:format(EJ_GetInstanceInfo(272))
-L["orig_dtk"] = ORIG:format(EJ_GetInstanceInfo(273))
-L["orig_fos"] = ORIG:format(EJ_GetInstanceInfo(280))
-L["orig_hor"] = ORIG:format(EJ_GetInstanceInfo(276))
-L["orig_icc"] = ORIG:format(EJ_GetInstanceInfo(758))
-L["orig_nax"] = ORIG:format(EJ_GetInstanceInfo(754))
-L["orig_pos"] = ORIG:format(EJ_GetInstanceInfo(278))
-L["orig_tot"] = ORIG:format(EJ_GetInstanceInfo(284))
-L["orig_utk"] = ORIG:format(EJ_GetInstanceInfo(285))
-L["orig_utp"] = ORIG:format(EJ_GetInstanceInfo(286))

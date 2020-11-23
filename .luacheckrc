@@ -36,7 +36,6 @@ read_globals = {
     'C_TransmogCollection',
     'C_VignetteInfo',
     'CombatLogGetCurrentEventInfo',
-    'EJ_GetInstanceInfo',
     'EJ_GetTierInfo',
     'GetAchievementCriteriaInfo',
     'GetAchievementCriteriaInfoByID',
@@ -126,7 +125,6 @@ files["tests/test_locales.lua"] = {
     globals = {
         'TestLocales',
         'GetCurrentRegion',
-        'EJ_GetInstanceInfo',
         'UnitFactionGroup',
         'format',
     }

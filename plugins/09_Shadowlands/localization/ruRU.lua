@@ -406,25 +406,3 @@ L["options_icons_bonus_event"] = "Бонусные события"
 L["options_icons_bonus_event_desc"] = "Отображение местоположение бонусных событий."
 L["options_icons_riftstone"] = "Хаотичный камень разлома"
 L["options_icons_riftstone_desc"] = "Отображение местоположения хаотичных каменей разлома."
-
--------------------------------------------------------------------------------
------------------------------------ ICECROWN ----------------------------------
--------------------------------------------------------------------------------
-
-L["prepatch_intro"] = "Завершите вводные задания для события подготовки к выходу Shadowlands, чтобы разблокировать редких монстров в этой локации."
-L["icecrown_rares"] = "Все редкие существа появляются в фиксированном порядке с интервалом в 10 минут."
-L["next_spawn"] = "Следующее возрождение в %s по местному времени."
-
-local ORIG = ns.color.Orange("Первоначально в %s.")
-
-L["orig_atk"] = ORIG:format(EJ_GetInstanceInfo(271))
-L["orig_azn"] = ORIG:format(EJ_GetInstanceInfo(272))
-L["orig_dtk"] = ORIG:format(EJ_GetInstanceInfo(273))
-L["orig_fos"] = ORIG:format(EJ_GetInstanceInfo(280))
-L["orig_hor"] = ORIG:format(EJ_GetInstanceInfo(276))
-L["orig_icc"] = ORIG:format(EJ_GetInstanceInfo(758))
-L["orig_nax"] = ORIG:format(EJ_GetInstanceInfo(754))
-L["orig_pos"] = ORIG:format(EJ_GetInstanceInfo(278))
-L["orig_tot"] = ORIG:format(EJ_GetInstanceInfo(284))
-L["orig_utk"] = ORIG:format(EJ_GetInstanceInfo(285))
-L["orig_utp"] = ORIG:format(EJ_GetInstanceInfo(286))

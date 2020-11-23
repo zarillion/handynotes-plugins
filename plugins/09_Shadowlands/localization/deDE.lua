@@ -412,24 +412,3 @@ L["options_icons_bonus_event_desc"] = "Zeigt die Positionen von Bonus Events."
 L["options_icons_riftstone"] = "Chaotische Risssteine"
 L["options_icons_riftstone_desc"] = "Zeigt die Positionen von Chaotischen Risssteinen an."
 
--------------------------------------------------------------------------------
------------------------------------ ICECROWN ----------------------------------
--------------------------------------------------------------------------------
-
-L["prepatch_intro"] = "Schließe die Einführungsquestreihe für den Shadowlands Prepatch ab, um in diesem Gebiet die Bosse freizuschalten."
-L["icecrown_rares"] = "Alle Bosse erscheinen in einer festgelegten Reihenfolge, in einem Intervall von 10 Minuten. Jeder von ihnen kann mehrfach am Tag geplündert werden."
-L["next_spawn"] = "Erscheint das nächste mal um %s Uhr (lokale Uhrzeit)."
-
-local ORIG = ns.color.Orange("Ursprünglich in %s.")
-
-L["orig_atk"] = ORIG:format(EJ_GetInstanceInfo(271))
-L["orig_azn"] = ORIG:format(EJ_GetInstanceInfo(272))
-L["orig_dtk"] = ORIG:format("der "..EJ_GetInstanceInfo(273))
-L["orig_fos"] = ORIG:format("der Seelenschmiede") -- EJ_GetInstanceInfo(280)
-L["orig_hor"] = ORIG:format("den "..EJ_GetInstanceInfo(276))
-L["orig_icc"] = ORIG:format("der Eiskronenzitadelle") -- EJ_GetInstanceInfo(758)
-L["orig_nax"] = ORIG:format(EJ_GetInstanceInfo(754))
-L["orig_pos"] = ORIG:format("der "..EJ_GetInstanceInfo(278))
-L["orig_tot"] = ORIG:format("der "..EJ_GetInstanceInfo(284))
-L["orig_utk"] = ORIG:format(EJ_GetInstanceInfo(285))
-L["orig_utp"] = ORIG:format(EJ_GetInstanceInfo(286))
