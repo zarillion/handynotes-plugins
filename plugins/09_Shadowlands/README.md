@@ -40,14 +40,9 @@ In addition to the plugin settings menu found under *Interface > Addons > HandyN
 
 This plugin adds information to the map for the following zones:
 
-* Patch 9.0 (prepatch) - Icecrown
 * Patch 9.0 - Ardenweald, Bastion, Maldraxxus, Revendreth, The Maw
 
 In addition to rares, treasures and pet battles, this plugin also adds the following expansion or zone-specific items.
-
-### Icecrown (Prepatch)
-
-* Mini-boss locations, spawn order, spawn times and rewards.
 
 ### Bastion
 
