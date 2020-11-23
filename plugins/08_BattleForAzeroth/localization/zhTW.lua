@@ -10,6 +10,7 @@ L["ancient_sarco_note"] = nil
 L["beshol_note"] = nil
 L["cottontail_matron_note"] = nil
 L["gluttonous_yeti_note"] = nil
+L["idej_note"] = nil
 L["seething_cache_note"] = nil
 L["the_caterer_note"] = nil
 L["vicemaul_note"] = nil

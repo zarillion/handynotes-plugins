@@ -10,6 +10,7 @@ L["ancient_sarco_note"] = "Open the Ancient Sarcophagus to summon waves of {npc:
 L["beshol_note"] = "Open the Obviously Safe Chest to summon the rare."
 L["cottontail_matron_note"] = "Study the Beastly Ritual Skull to summon the rare."
 L["gluttonous_yeti_note"] = "This {npc:127979} is doomed ..."
+L["idej_note"] = "Stun his {spell:274005} cast or he may kill {npc:139380}!"
 L["seething_cache_note"] = "Open the Seething Cache to summon waves of {npc:129031}."
 L["the_caterer_note"] = "Study the Ruined Wedding Cake to activate."
 L["vicemaul_note"] = "Click the {npc:127652} to reel in the rare."

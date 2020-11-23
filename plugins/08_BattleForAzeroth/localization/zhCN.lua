@@ -10,6 +10,7 @@ L["ancient_sarco_note"] = "打开古代石棺来召唤数波 {npc:128181}。"
 L["beshol_note"] = "打开显然很安全的宝箱来召唤稀有。"
 L["cottontail_matron_note"] = "研究骇人的仪式颅骨来召唤稀有。"
 L["gluttonous_yeti_note"] = "此 {npc:127979} 注定…"
+L["idej_note"] = nil
 L["seething_cache_note"] = "打开沸燃之箱来召唤数波 {npc:129031}。"
 L["the_caterer_note"] = "研究被砸烂的婚礼蛋糕来激活。"
 L["vicemaul_note"] = "点击 {npc:127652} 来钓出稀有。"

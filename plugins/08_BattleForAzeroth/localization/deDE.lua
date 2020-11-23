@@ -10,6 +10,7 @@ L["ancient_sarco_note"] = "Öffne den uralten Sarkophag, um Wellen von {npc:1281
 L["beshol_note"] = "Öffne die offensichtlich sichere Truhe, um den seltenen Gegner erscheinen zu lassen."
 L["cottontail_matron_note"] = "Untersuche den abscheulichen Ritualschädel, um den seltenen Gegner erscheinen zu lassen."
 L["gluttonous_yeti_note"] = "Diese {npc:127979} ist verflucht ..."
+L["idej_note"] = nil
 L["seething_cache_note"] = "Öffne die brodelnde Truhe, um Wellen von {npc:129031} zu beschwören."
 L["the_caterer_note"] = "Klicke die ruinierte Hochzeitstorte zum aktiviern an."
 L["vicemaul_note"] = "Klicke die {npc:127652} an, um den seltenen Gegner an Land zu ziehen."
