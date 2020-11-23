@@ -1,6 +1,12 @@
+# v20
+
+* Bumped UI version to 90002.
+* Removed Icecrown prepatch minibosses.
+* Localization updates for esES, ruRU and zhTW.
+
 # v19
 
-* Updated ICC minibosses with new 10 minute spawn rate (thanks rombarcz!)
+* Updated Icecrown minibosses with new 10 minute spawn rate (thanks rombarcz!)
 * Added the two missing Dredbat statues.
 * Added a missing Castle Sinrunner location.
 * Added quest ID for The Count treasure / pet.
