@@ -80,6 +80,6 @@ jobs:
           changelog: ${{ steps.changelog.outputs.content }}
           changelog_type: markdown
           display_name: v${{ steps.pref.outputs.version }}
-          game_versions: WoW:9.0.1
+          game_versions: WoW:9.0.2
           release_type: ${{ steps.pref.outputs.reltype }}
           relations: handynotes:requiredDependency
