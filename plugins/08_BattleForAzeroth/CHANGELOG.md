@@ -1,3 +1,7 @@
+# v3
+
+* Fixed error on tooltip renderer for unresolved items.
+
 # v2
 
 * Bumped UI version to 90002.
