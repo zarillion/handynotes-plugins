@@ -1,3 +1,7 @@
+# v21
+
+* Fixed error on tooltip renderer for unresolved items.
+
 # v20
 
 * Bumped UI version to 90002.
