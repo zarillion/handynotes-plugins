@@ -231,7 +231,7 @@ L["mixed_pool_note"] = [[
 L["Violet"] = "Фиолетовая ошибка"
 L["Oily"] = "Бесформенная масса"
 
-L["blackhound_cache"] = "Blackhound Cache"
+L["blackhound_cache"] = "Тайник заставы Черного пса"
 L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
 L["cache_of_eyes"] = "Cache of Eyes"
 L["cache_of_eyes_note"] = "Spawns at multiple locations within the Sightless Hold."
