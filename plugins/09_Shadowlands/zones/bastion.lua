@@ -383,6 +383,9 @@ map.nodes[61061510] = Treasure({
     quest=61698,
     label=L["cloudwalkers_coffer"],
     note=L["cloudwalkers_coffer_note"],
+    rewards={
+        Item({item=180783}) -- Design: Crown of the Righteous
+    },
     pois={
         POI({59011639}) -- First Flower
     }
@@ -397,7 +400,7 @@ map.nodes[51471795] = Treasure({
         Transmog({item=183609, slot=L["fist"]}) -- Re-Powered Golliath Fists
     },
     pois={
-        POI({52471448, 53541715, 53141903}) -- Unstable Anima Core
+        POI({52041999, 52471448, 52861966, 53541715, 53141903}) -- Unstable Anima Core
     }
 }) -- Experimental Construct Part
 
