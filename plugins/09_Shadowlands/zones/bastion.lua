@@ -449,7 +449,8 @@ map.nodes[40601890] = Treasure({
     requires=ns.requirement.Spell(333068),
     note=L["gift_of_thenios"],
     rewards={
-        Achievement({id=14311, criteria=50061})
+        Achievement({id=14311, criteria=50061}),
+        Transmog({item=181290, slot=L["cloak"], covenant=KYRIAN})
     },
     pois={
         POI({41662331, 39551900}) -- Transport platform
