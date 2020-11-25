@@ -130,10 +130,10 @@ Derrière le coffre se trouve une plateforme de vol nommée "Chemin de la sagess
 
 • Encens de la connaissance
 • Encens de la patience
-• Encens de la perspicacité
+• Encens de la clairvoyance
 • Encens du jugement
 
-Communiez avec eux dans l'ordre Patience => Connaissance => Perspicacité. Sur la plateforme du Jugement, un orbe appelé "Chemin de la sagesse perspicace" apparaîtra.
+Communiez avec eux dans l'ordre Patience => Connaissance => Clairvoyance. Sur la plateforme du Jugement, un orbe appelé "Chemin de la sagesse perspicace" apparaîtra.
 
 L'orbe vous emmènera au véritable encens du jugement. Communiez avec lui et la dernière plateforme de vol vous donnera {spell:333068}, permettant d'ouvrir le coffre.
 ]]
@@ -331,11 +331,11 @@ L["dredglaive_note"] = "Sous le pont, dans le cadavre de {npc:173671}."
 L["forbidden_chamber_note"] = "Procurez-vous un Bidon d'Anima jeté devant la porte fermée à clé et apprenez {spell:340701}. Utilisez-le pour vider cinq des {npc:173838}s à proximité, puis utilisez {spell:340866} devant le {npc:173786}."
 L["gilded_plum_chest_note"] = "Tuez les {npc:166680} qui errent sur la route."
 L["lost_quill_note"] = "Ramasser {item:182475} depuis la bouteille sur la table de la bibliothèque interdite."
-L["rapier_fearless_note"] = "Cliquer la rapière au sol, puis vaincre {npc:173603}."
+L["rapier_fearless_note"] = "Cliquez sur la rapière au sol, puis vaincre {npc:173603}."
 L["remlates_cache_note"] = "Sur le mur extérieur de Sombrehavre, derrière la crypte."
 L["smuggled_cache_note"] = ns.color.Red("AVANT DE RAMASSER LE BUTIN: ").."Assurez-vous que vous avez terminé la quête secondaire {quest:60480} ou vous manquerez 40 {currency:1820} provenant du trésor et de la quête."
 L["taskmaster_trove_note"] = "Lisez les rites d'entrée et sortie, puis dirigez-vous avec précaution vers le coffre."
-L["the_count_note"] = "Farmez 99 {currency:1820} dans le Marais des Affres et amenez-les ensuite à {npc:173488}."
+L["the_count_note"] = "Collectez 99 {currency:1820} dans le Marais des Affres et amenez-les ensuite à {npc:173488}."
 
 L["bleakwood_chest"] = "Coffre du bois morne"
 L["forgotten_anglers_rod"] = "Canne à pêche oubliée"
