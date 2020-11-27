@@ -20,6 +20,7 @@ L["faeflayer_note"] = "Dans une petite grotte cachée derrière une chute d'eau.
 L["gormtamer_tizo_note"] = "Tuez les {npc:166735s} et les {npc:166736s} qui les chevauchent jusqu'à ce que {npc:164110} apparaisse."
 L["humongozz_note"] = "Plantez un {item:175247} dans le Terreau humide pour y faire apparaître un {npc:164122}. Après une minute de {spell:319367}, le rare apparaîtra. Le champignon peut être récupéré sur de nombreux monstres de la zone."
 L["lehgo_note"] = "Détruisez les œufs de Gorm frémissants et tuez des {npc:171827} jusqu'à ce qu'il apparaisse. Dans une grotte (entrée au sud-est dans les Terriers poussiéreux)."
+L["macabre_note"] = nil
 L["mymaen_note"] = "Tuez les lutins putréronce dans la zone jusqu'à ce qu'il lance une émote et apparaisse."
 L["rainbowhorn_note"] = "\n|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r"
 L["rootwrithe_note"] = "Tapez sur les {npc:167928} jusqu'à ce que le rare apparaisse."
@@ -39,6 +40,7 @@ Ensuite, parlez à {npc:160262} au Coeur de la forêt pour échanger l'{item:181
 
 L["star_lake"] = "Amphithéâtre du Lac étoilé"
 L["star_lake_note"] = "Parlez à {npc:171743}, le metteur en scène, pour commencer l'une des rencontres spéciales."
+L["guldan"] = nil
 
 L["cache_of_the_moon"] = "Rassemblez les cinq outils manquants de {npc:171360} dans le Jardin de la nuit et combinez-les pour créer {item:180753}. Rendez-lui sa boîte à outils et elle vous lancera {spell:334353}, ce qui vous permettra de voir la cache."
 L["cache_of_the_night"] = "Rassemblez {item:180656}, {item:180654} et {item:180655}, trouvables dans l'ensemble de la zone et combinez-les pour créer {item:180652}."
@@ -220,6 +222,7 @@ L["forgotten_mementos"] = "Tirez la chaîne de la herse de la chambre forte, dan
 L["gieger_note"] = "Tirez sur le {npc:162815} pour activer le rare."
 L["gristlebeak_note"] = "Brisez tout les {npc:162761} à proximité pour affronter le rare."
 L["leeda_note"] = "Tuez les deux {npc:162220} jusqu'à ce que le rare apparaisse."
+L["nirvaska_note"] = nil
 L["sabriel_note"] = "Peut apparaître comme l'un des champions du Théâtre de la souffrance."
 L["schmitd_note"] = "Utilisez la {spell:313451} proche pour briser son bouclier."
 L["taskmaster_xox_note"] = "Partage son apparition avec {npc:160204}, {npc:160230} et {npc:160226}."
@@ -233,8 +236,11 @@ Rassemblez des ingrédients des monstres environnants et jetez-les dans la bassi
 
 • Récupérez {spell:306722} sur les {npc:165027} et {npc:166438} au sud.
 ]]
-L["Violet"] = nil
+L["Boneslurp"] = nil
+L["Corrupted"] = nil
 L["Oily"] = nil
+L["Pulsing"] = nil
+L["Violet"] = nil
 
 L["blackhound_cache"] = "Cache de Noir-Mâtin"
 L["bladesworn_supply_cache"] = "Cache de fournitures des ligelames"
@@ -337,7 +343,6 @@ L["smuggled_cache_note"] = ns.color.Red("AVANT DE RAMASSER LE BUTIN: ").."Assure
 L["taskmaster_trove_note"] = "Lisez les rites d'entrée et sortie, puis dirigez-vous avec précaution vers le coffre."
 L["the_count_note"] = "Collectez 99 {currency:1820} dans le Marais des Affres et amenez-les ensuite à {npc:173488}."
 
-L["bleakwood_chest"] = "Coffre du bois morne"
 L["forgotten_anglers_rod"] = "Canne à pêche oubliée"
 
 L["loyal_gorger_note"] = "Visitez le Marais des Affres et complétez une quête journalière offerte par votre {npc:173498} 7 fois pour l'obtenir en tant que monture."

@@ -19,6 +19,7 @@ L["faeflayer_note"] = "В маленькой пещере, скрытой за �
 L["gormtamer_tizo_note"] = "Убивайте {npc:166735} и {npc:166736}, которые едут на них, пока не появится {npc:164110}."
 L["humongozz_note"] = "Посадить {item:175247} во влажный суглинок, чтобы вызвать {npc:164122}. Через минуту {spell:319367}, редкий монстр появиться. Гриб выпадает с многочисленных монстров в локации."
 L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."
+L["macabre_note"] = nil
 L["mymaen_note"] = nil
 L["rainbowhorn_note"] = "\n|cffff5400В|r|cffffaa00К|r|cffffff00У|r|cffaaff00С|r|cff54ff00Ы|r  |cff0055ffР|r|cff0000ffА|r|cff5400ffД|r|cffaa00ffУ|r|cffff00ffГ|r|cffff00aaИ|r|cffff0000!|r"
 L["rootwrithe_note"] = "Тыкай по {npc:167928} пока не появится редкий монстр."
@@ -38,6 +39,7 @@ L["night_mare_note"] = [[
 
 L["star_lake"] = "Амфитеатр Звездного озера"
 L["star_lake_note"] = "Поговорите с постановщиком {npc:171743}, чтобы запустить одну из сцен."
+L["guldan"] = nil
 
 L["cache_of_the_moon"] = "Collect {npc:171360}'s five missing tools in the Garden of Night and combine them to create {item:180753}. Return her toolkit and she will cast {spell:334353} on you, allowing you to see the cache."
 L["cache_of_the_night"] = "Соберите {item:180656}, {item:180654} и {item:180655} которые добываются со всей локации и объедините их, чтобы создать {item:180652}."
@@ -215,6 +217,7 @@ L["forgotten_mementos"] = "Pull the Vault Portcullis Chain in the chamber west o
 L["gieger_note"] = "Атакуйте {npc:162815}, чтобы активировать редкого монстра."
 L["gristlebeak_note"] = "Разбейте все {npc:162761} поблизости, чтобы атаковать редких монстров."
 L["leeda_note"] = "Убейте двух {npc:162220}, пока не появятся редкий монстр."
+L["nirvaska_note"] = nil
 L["sabriel_note"] = "Может появиться как один из чемпионов в Театре боли."
 L["schmitd_note"] = "Используйте поблизости {spell:313451}, чтобы сломать его щит."
 L["taskmaster_xox_note"] = "Делит появление с {npc:160204}, {npc:160230} и {npc:160226}."
@@ -228,8 +231,11 @@ L["mixed_pool_note"] = [[
 
 • Соберите {spell:306722} с {npc:165027} и {npc:166438} на юге.
 ]]
-L["Violet"] = "Фиолетовая ошибка"
+L["Boneslurp"] = nil
+L["Corrupted"] = nil
 L["Oily"] = "Бесформенная масса"
+L["Pulsing"] = nil
+L["Violet"] = "Фиолетовая ошибка"
 
 L["blackhound_cache"] = "Тайник заставы Черного пса"
 L["bladesworn_supply_cache"] = "Тайник с припасами присягнувших клинку"
@@ -332,7 +338,6 @@ L["smuggled_cache_note"] = ns.color.Red("ПЕРЕД ВАМИ: ").."Убедит�
 L["taskmaster_trove_note"] = "Read the Ingress and Egress Rites then carefully make your way to the chest."
 L["the_count_note"] = "Farm 99 {currency:1820} in the Endmire and then bring them to {npc:173488}."
 
-L["bleakwood_chest"] = "Bleakwood Chest"
 L["forgotten_anglers_rod"] = "Забытая удочка"
 
 L["loyal_gorger_note"] = "Visit the Endmire and complete a daily offered by your {npc:173498} 7 times to obtain him as a mount."

@@ -353,7 +353,9 @@ local CTC = C_TransmogCollection
 
 function Transmog:Initialize(attrs)
     Item.Initialize(self, attrs)
-    self.type = self.slot -- backwards compat
+    if self.slot then
+        self.type = self.slot -- backwards compat
+    end
 end
 
 function Transmog:IsObtained()

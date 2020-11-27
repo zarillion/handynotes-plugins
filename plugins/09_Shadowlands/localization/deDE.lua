@@ -18,6 +18,7 @@ L["faeflayer_note"] = "In einer kleinen Höhle, versteckt hinter einem Wasserfal
 L["gormtamer_tizo_note"] = "Töte {npc:166735} und die {npc:166736}, die auf ihm reiten, bis {npc:164110} erscheint."
 L["humongozz_note"] = "Pflanze einen {item:175247} in den feuchten Lehm, um einen {npc:164122} erscheinen zu lassen. Nach einer Minute {spell:319367} wird {npc:164112} erscheinen. Der Pilz wird von mehreren Gegnern in diesem Gebiet fallen gelassen."
 L["lehgo_note"] = "Zerstöre Zitternde Gormeier und töte |CFFFFFF00Wütende Eipfleger|r bis {npc:167851} erscheint. In einer Höhle. (Eingang nach Südosten (58.5, 31.9))." --{npc:171827}
+L["macabre_note"] = nil
 L["mymaen_note"] = "Töte Gegner in dem Gebiet, bis {npc:165053} schreit und erscheint."
 L["rainbowhorn_note"] = "Wenn er nicht da sein sollte, klicke das Große Horn des Runenhirsches an. \n\n|cffff4200S|r|cffff8500C|r|cffffc700H|r|cfff3ff00M|r|cffb1ff00E|r|cff6eff00C|r|cff2cff00K|r |cff00ff58D|r|cff00ff9bE|r|cff00ffddN|r |cff009bffR|r|cff0058ffE|r|cff0016ffG|r|cff2c00ffE|r|cff6e00ffN|r|cffb100ffB|r|cfff300ffO|r|cffff00c7G|r|cffff0085E|r|cffff0042N|r|cffff0000!|r"
 L["rootwrithe_note"] = "Pike die |CFFFFFF00Inaktiven Blüten|r an, bis {npc:167726} erscheint." --{npc:167928}
@@ -38,6 +39,7 @@ Danach sprich mit {npc:160262} im Herz des Waldes, um {item:181242} gegen einen 
 
 L["star_lake"] = "Sternseeamphitheater"
 L["star_lake_note"] = "Sprich mit {npc:171743}, um eine der besonderen Begegnungen zu beginnen."
+L["guldan"] = nil
 
 L["cache_of_the_moon"] = "Sammel {npc:171360s} fünf verlorene Werkzeuge im Garten der Nacht und kombiniere diese zu {item:180753}. Bring dieses zu ihr zurück und sie wird dir die {spell:334353} gewähren, um die Truhe sehen zu können."
 L["cache_of_the_night"] = "Sammel {item:180656}, {item:180654} und {item:180655} aus der ganzen Zone und kombiniere diese zu einem {item:180652}."
@@ -215,6 +217,7 @@ L["forgotten_mementos"] = "Ziehe am Kerkerkettenzug in der Kammer westlich des S
 L["gieger_note"] = "Ziehe an {npc:162815}, um {npc:162741} zu aktivieren."
 L["gristlebeak_note"] = "Zerbrich jedes {npc:162761} in der Nähe, daraufhin wird {npc:162588} zu euch herunter geflogen kommen."
 L["leeda_note"] = "Töte die zwei {npc:162220} bis {npc:162180} erscheint."
+L["nirvaska_note"] = nil
 L["sabriel_note"] = "Kann als einer der Champions im Theater der Schmerzen auftreten."
 L["schmitd_note"] = "Benutze nahegelegene {spell:313451}, um sein Schild zu brechen."
 L["taskmaster_xox_note"] = "Teilt sich einen spawn mit {npc:160204}, {npc:160230} und {npc:160226}."
@@ -228,8 +231,11 @@ Sammel Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 3
 
 • Sammel {spell:306722} von {npc:165027} und {npc:166438} aus dem Süden.
 ]]
-L["Violet"] = "Violetter Fehler"
+L["Boneslurp"] = nil
+L["Corrupted"] = nil
 L["Oily"] = "Öliger Invertebrat"
+L["Pulsing"] = nil
+L["Violet"] = "Violetter Fehler"
 
 L["blackhound_cache"] = "Schwarzhundtruhe"
 L["bladesworn_supply_cache"] = "Vorräte des Klingenschwurs"
@@ -337,7 +343,6 @@ L["smuggled_cache_note"] = ns.color.Red("BEVOR DU DIE TRUHE PLÜNDERST: ").."Geh
 L["taskmaster_trove_note"] = "Lies die Eintritts- und Austrittsriten und gehe behutsam zur Truhe."
 L["the_count_note"] = "Sammle 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}."
 
-L["bleakwood_chest"] = "Kahlholzkiste"
 L["forgotten_anglers_rod"] = "Vergessene Angelrute"
 
 L["loyal_gorger_note"] = "Besuch den Endmorast und schließe 7-mal eine tägliche Quest ab, die dir von deinem {npc:173498} angeboten wird, um ihn als Reittier zu erhalten."

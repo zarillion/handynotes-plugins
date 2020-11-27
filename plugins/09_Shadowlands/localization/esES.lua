@@ -20,6 +20,7 @@ L["faeflayer_note"] = "En una cueva pequeña oculta tras una cascada."
 L["gormtamer_tizo_note"] = "Mata a los {npc:166735} y a los {npc:166736} que los montan hasta que aparezca {npc:164110}. Cuando lo mates aparecerá {npc:164107}."
 L["humongozz_note"] = "Planta un {item:175247} en la Marga Húmeda para hacer aparecer un {npc:164122}. Tras un minuto de {spell:319367}, aparecerá {npc=164112}. El champiñón cae de muchos enemigos de la zona."
 L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas)."
+L["macabre_note"] = nil
 L["mymaen_note"] = "Mata duendes Pudrezarza en el área hasta que aparezca {npc:165053}."
 L["rainbowhorn_note"] = "\n|cffff4800¡|r|cffff9100P|r|cffffda00r|r|cffdaff00u|r|cff91ff00e|r|cff48ff00b|r|cff00ff00a|r |cff00ff91e|r|cff00ffdal|r |cff0091ffA|r|cff0048ffr|r|cff0000ffc|r|cff4800ffo|r |cffda00ffI|r|cffff00dar|r|cffff0091i|r|cffff0048s|r|cffff0000!|r"
 L["rootwrithe_note"] = "Haz click en las {npc:167928} hasta que aparezca el {npc=167726}."
@@ -39,6 +40,7 @@ Después, habla con {npc:160262} en el Corazón del Bosque para cambiarle la {it
 
 L["star_lake"] = "Anfiteatro del Lago Estrellado"
 L["star_lake_note"] = "Habla con {npc:171743} para iniciar uno de los combates especiales."
+L["guldan"] = nil
 
 L["cache_of_the_moon"] = "Recoge las cinco herramientas perdidas de {npc:171360} en el Jardín de la Noche y combínalas para crear las {item:180753}. Dáselas y ella te lanzará {spell:334353}, permitiéndote ver el cofre."
 L["cache_of_the_night"] = "Recoge una {item:180656}, un {item:180654} y {item:180655} por toda la zona y combínalo todo para crear un {item:180652}."
@@ -216,6 +218,7 @@ L["forgotten_mementos"] = "Tira de la Cadena del Rastrillo en la cámara al oest
 L["gieger_note"] = "Tira del {npc:162815} para activar a {npc:162741}."
 L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:162588}."
 L["leeda_note"] = "Mata a los dos {npc:162220} hasta que aparezca la {npc:162180}."
+L["nirvaska_note"] = nil
 L["sabriel_note"] = "Puede aparecer como uno de los campeones del Teatro del Dolor."
 L["schmitd_note"] = "Usa un {spell:313451} cercano para romper su escudo."
 L["taskmaster_xox_note"] = "Comparte el lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
@@ -229,8 +232,11 @@ Recoge ingredientes de los enemigos de alrededor y tíralos en la poza. Cuando h
 
 • Recoge {spell:306722} de {npc:165027} y de {npc:166438} al sur.
 ]]
-L["Violet"] = nil
+L["Boneslurp"] = nil
+L["Corrupted"] = nil
 L["Oily"] = nil
+L["Pulsing"] = nil
+L["Violet"] = nil
 
 L["blackhound_cache"] = "Alijo Sabueso Negro"
 L["bladesworn_supply_cache"] = "Alijo de Suministros Juraespadas"
@@ -333,7 +339,6 @@ L["smuggled_cache_note"] = ns.color.Red("ANTES DE QUE DESPOJES: ").."Asegúrate 
 L["taskmaster_trove_note"] = "Lee Ritos de Acceso y Salida. Después sigue el camino al cofre con cuidado."
 L["the_count_note"] = "Farmea 99 {currency:1820} en el Cenagal del Fin y llévaselos a {npc:173488}."
 
-L["bleakwood_chest"] = "Cofre de Leñogrís"
 L["forgotten_anglers_rod"] = "Caña de Pescador Olvidada"
 
 L["loyal_gorger_note"] = "Visita el Cenagal del Fin y completa una misión diaria ofrecida por el {npc:173498} 7 veces para conseguirlo como montura."
