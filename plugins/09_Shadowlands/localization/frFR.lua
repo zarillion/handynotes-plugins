@@ -243,6 +243,7 @@ L["Pulsing"] = nil
 L["Violet"] = nil
 
 L["blackhound_cache"] = "Cache de Noir-Mâtin"
+L["blackhound_cache_note"] = nil
 L["bladesworn_supply_cache"] = "Cache de fournitures des ligelames"
 L["cache_of_eyes"] = "Cache des yeux"
 L["cache_of_eyes_note"] = "Apparaît à plusieurs endroits dans la Forteresse Aveugle."

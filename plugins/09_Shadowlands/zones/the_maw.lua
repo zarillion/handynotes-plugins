@@ -241,7 +241,7 @@ map.nodes[27397152] = Rare({
 -- map.nodes[] = Rare({
 --     id=165973,
 --     quest=61124,
--- }) -- Warren Mongrel
+-- }) -- Gorged Shadehound
 
 map.nodes[37676591] = Rare({
     id=172862,

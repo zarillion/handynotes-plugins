@@ -239,6 +239,7 @@ L["Pulsing"] = nil
 L["Violet"] = nil
 
 L["blackhound_cache"] = "Alijo Sabueso Negro"
+L["blackhound_cache_note"] = nil
 L["bladesworn_supply_cache"] = "Alijo de Suministros Juraespadas"
 L["cache_of_eyes"] = "Alijo de Ojos"
 L["cache_of_eyes_note"] = "Aparece en varios sitios dentro del Bastión Invidente."

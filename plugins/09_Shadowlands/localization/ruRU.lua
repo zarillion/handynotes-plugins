@@ -238,6 +238,7 @@ L["Pulsing"] = nil
 L["Violet"] = "Фиолетовая ошибка"
 
 L["blackhound_cache"] = "Тайник заставы Черного пса"
+L["blackhound_cache_note"] = nil
 L["bladesworn_supply_cache"] = "Тайник с припасами присягнувших клинку"
 L["cache_of_eyes"] = "Тайник дома Глаз"
 L["cache_of_eyes_note"] = "Появляется в нескольких местах в пределах Слепой цитадели."

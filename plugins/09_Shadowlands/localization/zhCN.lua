@@ -237,6 +237,7 @@ L["Pulsing"] = nil
 L["Violet"] = "绛紫之误"
 
 L["blackhound_cache"] = "黑犬宝箱"
+L["blackhound_cache_note"] = nil
 L["bladesworn_supply_cache"] = "刃誓补给箱"
 L["cache_of_eyes"] = "锐眼宝箱"
 L["cache_of_eyes_note"] = "在盲眼堡垒有多个刷新点。"

@@ -238,6 +238,7 @@ L["Pulsing"] = nil
 L["Violet"] = "Violetter Fehler"
 
 L["blackhound_cache"] = "Schwarzhundtruhe"
+L["blackhound_cache_note"] = nil
 L["bladesworn_supply_cache"] = "Vorräte des Klingenschwurs"
 L["cache_of_eyes"] = "Augenlager"
 L["cache_of_eyes_note"] = "Erscheint an mehreren Positionen in der Augenlosen Festung."

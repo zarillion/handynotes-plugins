@@ -176,8 +176,8 @@ map.nodes[51744439] = Rare({
     rewards={
         Achievement({id=14308, criteria=48874}),
         Achievement({id=14802, criteria=48874}),
-        Mount({item=182083, id=1374}), -- Bonecleaver's Skullboar
-        Mount({item=182075, id=1374}) -- Bonehoof Tauralus
+        -- Mount({item=182083, id=1374}), -- Bonecleaver's Skullboar
+        Mount({item=182075, id=1374, covenant=NECROLORD}) -- Bonehoof Tauralus
     }
 }) -- Sabriel the Bonecleaver
 
@@ -217,7 +217,7 @@ map.nodes[44215132] = Rare({
     rewards={
         Achievement({id=14308, criteria=48850}),
         Transmog({item=182190, slot=L["leather"]}), -- Tauralus Hide Collar
-        Mount({item=181815, id=1370,}) -- Armored Bonehoof Tauralus
+        Mount({item=181815, id=1370, covenant=NECROLORD}) -- Bonehoof Tauralus
     }
 }) -- Tahonta
 
@@ -320,10 +320,15 @@ map.nodes[50354728] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[44083989] = Treasure({
---     quest=60368,
---     label=L["blackhound_cache"]
--- }) -- Blackhound Cache
+map.nodes[44083989] = Treasure({
+    quest=60368,
+    label=L["blackhound_cache"],
+    note=L["blackhound_cache_note"],
+    covenant=NECROLORD,
+    rewards={
+        Toy({item=184318}) -- Battlecry of Krexus
+    }
+}) -- Blackhound Cache
 
 -- map.nodes[36797862] = Treasure({
 --     label=L["bladesworn_supply_cache"]

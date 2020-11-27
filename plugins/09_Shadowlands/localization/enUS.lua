@@ -249,6 +249,7 @@ L["Pulsing"] = nil
 L["Violet"] = nil
 
 L["blackhound_cache"] = "Blackhound Cache"
+L["blackhound_cache_note"] = "Summon {npc:157843} at the Abomination Factory, then escort him to the Blackhound Outpost."
 L["bladesworn_supply_cache"] = "Bladesworn Supply Cache"
 L["cache_of_eyes"] = "Cache of Eyes"
 L["cache_of_eyes_note"] = "Spawns at multiple locations within the Sightless Hold."
