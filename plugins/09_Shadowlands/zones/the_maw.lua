@@ -263,12 +263,8 @@ local BonusBoss = Class('BonusBoss', NPC, {
 map.nodes[28204450] = BonusBoss({
     id=169102,
     quest=61136, -- 63380
-    note=L["in_cave"],
     rewards={
         Achievement({id=14660, criteria=49485}),
-    },
-    pois={
-        POI({20813927}) -- Cave entrance
     }
 }) -- Agonix
 
@@ -366,7 +362,7 @@ map.nodes[22674223] = BonusBoss({
 
 map.nodes[26173744] = BonusBoss({
     id=162829,
-    quest=62228,
+    quest=60992,
     rewards={
         Achievement({id=14660, criteria=49479}),
     }
