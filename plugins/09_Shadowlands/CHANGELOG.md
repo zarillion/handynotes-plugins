@@ -1,3 +1,12 @@
+# v22
+
+* Added many new rewards discovered by players since launch!
+* Added missing quest ids for Ikras and Bog Beast.
+* Added Macabre rare locations now that players have discovered how to summon him!
+* Fixed incorrect quest id for Razkazzar and incorrect POI/note for Agonix.
+* Rewards that only drop for a specific covenant now display that covenant's icon.
+* Localization updates for frFR, ruRU and zhTW.
+
 # v21
 
 * Fixed error on tooltip renderer for unresolved items.
