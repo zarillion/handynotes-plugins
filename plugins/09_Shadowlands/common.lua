@@ -9,6 +9,7 @@ local L = ns.locale
 
 local Map = ns.Map
 
+local Pet = ns.reward.Pet
 local Reward = ns.reward.Reward
 local Toy = ns.reward.Toy
 
@@ -50,7 +51,36 @@ end)
 -- Add reward information to Blizzard's vignette treasures for callings
 
 local VIGNETTES = {
-    [4366] = {Toy({item=184447})} -- Kevin's Party Supplies
+    [4212] = {
+        Pet({item=180592, id=2901}) -- Trapped Stonefiend
+    }, -- Bleakwood Chest
+    [4214] = {
+        Toy({item=184418}) -- Acrobatic Steward
+    }, -- Gilded Chest
+    [4366] = {
+        Toy({item=184447}) -- Kevin's Party Supplies
+    }, -- Slime-Coated Crate
+
+    -- [4202] = {}, -- Spouting Growth
+    -- [4213] = {}, -- Enchanted Chest
+    -- [4222] = {}, -- Faerie Stash
+    -- [4224] = {}, -- Faerie Stash
+    -- [4225] = {}, -- Faerie Stash
+    -- [4243] = {}, -- Skyward Bell
+    -- [4244] = {}, -- Wish Cricket
+    -- [4266] = {}, -- Silver Strongbox
+    -- [4270] = {}, -- Silver Strongbox
+    -- [4274] = {}, -- Steward's Golden Chest
+    -- [4314] = {}, -- Pugilist's Prize
+    -- [4323] = {}, -- Stoneborn Satchel
+    -- [4327] = {}, -- Stoneborn Satchel
+    -- [4347] = {}, -- Greedstone
+    -- [4363] = {}, -- Spouting Growth
+    -- [4374] = {}, -- Runebound Coffer
+    -- [4375] = {}, -- Runebound Coffer
+    -- [????] = {}, -- Bloated Lootfly
+    -- [????] = {}, -- Chosen Runecoffer
+    -- [????] = {}, -- Penitence of Purity
 }
 
 hooksecurefunc(GameTooltip, 'SetText', function(self)
