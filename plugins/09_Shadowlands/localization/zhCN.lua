@@ -94,20 +94,20 @@ L["basilofos_note"] = "在岩石上移动，直到紫色的追踪标记出现在
 L["beasts_of_bastion"] = "晋升堡垒之兽"
 L["beasts_of_bastion_note"] = "和 {npc:161441} 交谈召唤四个野兽中的一个。"
 L["bookkeeper_mnemis_note"] = "在地区有几率刷新代替 {npc:166867} 单位。"
-L["cloudfeather_patriarch_note"] = "在地区击杀 {npc:158110} 直到守卫与你互动。"
+L["cloudfeather_patriarch_note"] = "在地区击杀 {npc:158110} 直到守护者与你作战。"
 L["collector_astor_note"] = "阅读散落在房间里的全部六章 Mercia's Legacy，之后会收到来自 {npc:157979} 的悄悄话。和她交谈会得到 {spell:333779}，让你在西北方找到隐藏的 {item:180569}。交还章节将刷新稀有。"
-L["corrupted_clawguard_note"] = "在炉火岗哨山上拾取 {item:180651} 并使用它修理 {npc:171300}。"
+L["corrupted_clawguard_note"] = "在屋内或炉火岗哨山上拾取 {item:180651} 并使用它修理 {npc:171300}。"
 L["dark_watcher_note"] = "只在死亡后可以看到。和她交谈会施放 {spell:332830} 在攻击之前给你。"
 L["demi_hoarder_note"] = "开始时堆叠99层 {spell:333874}，降低承受伤害。伤害后堆叠缓慢消失。稀有将沿着路径前进，如果到达终点则将消失。"
 L["dionae_note"] = "当她变为免疫时，点击四个 {npc:163747} 打破她的护盾。"
 L["herculon_note"] = [[
 收集 {item:172451} 并使用给 {npc:158659} 堆叠 {spell:343531}。10层时，他将激活。
 
-可以从房间内或室外的耗尽的心能之罐中收集微粒。
+可以从房间内或室外的枯竭的心能之罐中收集微粒。
 
 |cFFFF8C00不能在世界任务 {wq:突袭前庭} 期间击败。|r
 ]]
-L["nikara_note"] = "和两名其他玩家，点击远古焚香来召唤。"
+L["nikara_note"] = "和两名其他玩家，点击上古熏香来召唤。"
 L["sotiros_orstus_note"] = "点击黑色的钟召唤稀有。"
 L["sundancer_note"] = "点击雕像获得 {spell:332309} 增益，然后使用 {item:180445} 滑翔到稀有并骑上它。"
 L["swelling_tear_note"] = "点击 {npc:171012} 召唤三个稀有中的一个。眼泪可以在区域内的多个位置出现。"
@@ -117,7 +117,7 @@ L["wingflayer_note"] = "点击附近桌上的勇气号角召唤（东南方，�
 L["broken_flute"] = "击杀附近的 {npc:170009} 直到掉落 {item:180536}，使用此工具修理它。"
 L["cloudwalkers_coffer"] = "云行者的宝匣"
 L["cloudwalkers_coffer_note"] = "使用大型紫色花弹跳到平台上。"
-L["experimental_construct_part"] = "拾取附近 {item:180534} 并使用修理部件。新能有多个刷新地点。."
+L["experimental_construct_part"] = "拾取附近 {item:180534} 并使用修理部件。心能有多个刷新地点。"
 L["larion_harness"] = "位于野兽大厅内。"
 L["memorial_offering"] = "在晋升堡垒多个位置之一找到 {npc:171526} 并购买 {item:180788}。将其放在靠近宝箱的饮料托盘中以获取 {item:180797}。"
 L["scroll_of_aeons"] = "在中心地区拾取2个 {item:173973} 并将它们放在附近的贡品盘上显出宝藏。"
