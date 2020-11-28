@@ -376,6 +376,7 @@ L["maw_intro_note"] = "從 {npc:162804} 開始指引任務線以解鎖淵喉的�
 
 L["apholeias_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:331783} 召喚稀有。"
 L["dekaris_note"] = "在一個大型的突出岩石上。"
+L["drifting_sorrow_note"] = nil
 L["ekphoras_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:330650} 召喚稀有。"
 L["ikras_note"] = "環繞墮滅堡飛行。這是個攻擊他的好位置。"
 L["orophea_note"] = "從東南方的拾取 {spell:337143} 並提供給 {npc:172577} 啟動。"

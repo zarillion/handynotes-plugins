@@ -314,6 +314,7 @@ map.nodes[19205740] = BonusBoss({
 map.nodes[31982122] = BonusBoss({
     id=158314,
     quest=59183,
+    note=L["drifting_sorrow_note"],
     rewards={
         Achievement({id=14660, criteria=49475}),
     }
