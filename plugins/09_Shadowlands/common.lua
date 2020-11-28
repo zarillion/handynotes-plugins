@@ -61,26 +61,32 @@ local VIGNETTES = {
         Toy({item=184447}) -- Kevin's Party Supplies
     }, -- Slime-Coated Crate
 
+    -- [4176] = {}, -- Secret Treasure
     -- [4202] = {}, -- Spouting Growth
     -- [4213] = {}, -- Enchanted Chest
     -- [4222] = {}, -- Faerie Stash
     -- [4224] = {}, -- Faerie Stash
     -- [4225] = {}, -- Faerie Stash
+    -- [4238] = {}, -- Lunarlight Pod
     -- [4243] = {}, -- Skyward Bell
     -- [4244] = {}, -- Wish Cricket
+    -- [4263] = {}, -- Silver Strongbox
     -- [4266] = {}, -- Silver Strongbox
     -- [4270] = {}, -- Silver Strongbox
+    -- [4271] = {}, -- Silver Strongbox
     -- [4274] = {}, -- Steward's Golden Chest
+    -- [4275] = {}, -- Skyward Bell
+    -- [4278] = {}, -- Hidden Hoard
+    -- [4308] = {}, -- Stoneborn Satchel
     -- [4314] = {}, -- Pugilist's Prize
     -- [4323] = {}, -- Stoneborn Satchel
+    -- [4325] = {}, -- Stoneborn Satchel
     -- [4327] = {}, -- Stoneborn Satchel
     -- [4347] = {}, -- Greedstone
+    -- [4362] = {}, -- Spouting Growth
     -- [4363] = {}, -- Spouting Growth
     -- [4374] = {}, -- Runebound Coffer
     -- [4375] = {}, -- Runebound Coffer
-    -- [????] = {}, -- Bloated Lootfly
-    -- [????] = {}, -- Chosen Runecoffer
-    -- [????] = {}, -- Penitence of Purity
 }
 
 hooksecurefunc(GameTooltip, 'SetText', function(self)
