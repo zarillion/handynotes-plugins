@@ -8,7 +8,9 @@ local Group = ns.Group
 local L = ns.locale
 
 local Map = ns.Map
+
 local Reward = ns.reward.Reward
+local Toy = ns.reward.Toy
 
 -------------------------------------------------------------------------------
 
@@ -38,6 +40,31 @@ ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function (...)
     local _, source, _, spellID = ...
     if source == 'player' and (spellID == 321337 or spellID == 335400) then
         C_Timer.After(1, function() ns.addon:Refresh() end)
+    end
+end)
+
+-------------------------------------------------------------------------------
+------------------------------ CALLING TREASURES ------------------------------
+-------------------------------------------------------------------------------
+
+-- Add reward information to Blizzard's vignette treasures for callings
+
+local VIGNETTES = {
+    [4366] = {Toy({item=184447})} -- Kevin's Party Supplies
+}
+
+hooksecurefunc(GameTooltip, 'SetText', function(self)
+    local owner = self:GetOwner()
+    if owner.vignetteID then
+        local rewards = VIGNETTES[owner.vignetteID]
+        if rewards and #rewards > 0 then
+            self:AddLine(' ') -- add blank line before rewards
+            for i, reward in ipairs(rewards) do
+                if reward:IsEnabled() then
+                    reward:Render(self)
+                end
+            end
+        end
     end
 end)
 
