@@ -125,7 +125,7 @@ map.nodes[67465147] = Rare({
 
 local MACABRE = Rare({
     id=164093,
-    quest=nil,
+    quest=59140,
     note=L["macabre_note"],
     rewards={
         Achievement({id=14309, criteria=48780}),
