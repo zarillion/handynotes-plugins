@@ -390,7 +390,7 @@ L["maw_intro_note"] = "Comienza la cadena de misiones introductoria de {npc:1628
 
 L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331783} para hacer aparecer a {npc:170301}."
 L["dekaris_note"] = "Encima de una gran roca que sobresale."
-L["drifting_sorrow_note"] = nil
+L["drifting_sorrow_note"] = "Mata {npc:175246} cerca del orbe flotante para activar el boss."
 L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:330650} para hacer aparecer a {npc:169827}."
 L["ikras_note"] = "Vuela alrededor del Bastión de la Perdición. Este es un buen sitio para pullearlo."
 L["orophea_note"] = "Coge el {spell:337143} al sureste y ofréceselo a {npc:172577} para que se active."
