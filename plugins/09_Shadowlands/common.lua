@@ -91,7 +91,7 @@ local VIGNETTES = {
 
 hooksecurefunc(GameTooltip, 'SetText', function(self)
     local owner = self:GetOwner()
-    if owner.vignetteID then
+    if owner and owner.vignetteID then
         local rewards = VIGNETTES[owner.vignetteID]
         if rewards and #rewards > 0 then
             self:AddLine(' ') -- add blank line before rewards
