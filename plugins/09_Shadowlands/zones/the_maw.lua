@@ -307,7 +307,8 @@ map.nodes[19205740] = BonusBoss({
     rewards={
         Achievement({id=14660, criteria=50410}),
         Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
-        Item({item=183067, quest=63161}) -- Korrath's Grimoire: Belidir
+        Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
+        Item({item=183068, quest=63162}) -- Korrath's Grimoire: Gyadrek
     }
 }) -- Dath Rezara <Lord of Blades>
 
