@@ -335,12 +335,13 @@ map.nodes[44083989] = Treasure({
 -- }) -- Bladesworn Supply Cache
 
 map.nodes[54011234] = Treasure({
-    quest=nil,
     label=L["cache_of_eyes"],
     note=L["cache_of_eyes_note"],
     rewards={
         Pet({item=181171, id=2947}) -- Luminous Webspinner
-    }
+    },
+    -- Still no quest id for this chest, so we'll just complete when collected
+    IsCompleted = function (self) return self:IsCollected() end
 }) -- Cache of Eyes
 
 map.nodes[48301630] = Treasure({
@@ -463,17 +464,18 @@ map.nodes[31737004] = Treasure({
     }
 }) -- Runespeaker's Trove
 
-map.nodes[66145045] = Treasure({
+local STOLEN_JAR = Treasure({
     quest=61451,
     note=L["stolen_jar_note"],
     rewards={
         Achievement({id=14312, criteria=50067}),
         Item({item=182618, quest=62085}) -- ... Why Me?
-    },
-    pois={
-        POI({66135027, 66145045, 73564986})
     }
 }) -- Stolen Jar
+
+map.nodes[66135027] = STOLEN_JAR
+map.nodes[66145045] = STOLEN_JAR
+map.nodes[73564986] = STOLEN_JAR
 
 map.nodes[55893897] = Treasure({
     quest={59428,59429},
