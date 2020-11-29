@@ -303,6 +303,7 @@ map.nodes[50354728] = Rare({
     id=162853,
     quest=62786,
     label=C_Map.GetMapInfo(1683).name,
+    note=L["theater_of_pain_note"],
     rewards = {
         Achievement({id=14802, criteria={
             50397, -- Azmogal
@@ -312,7 +313,8 @@ map.nodes[50354728] = Rare({
             50402, -- Devmorta
             50403, -- Ti'or
             48874  -- Sabriel the Bonecleaver
-        }})
+        }}),
+        Mount({item=184062, id=1437})
     }
 })
 

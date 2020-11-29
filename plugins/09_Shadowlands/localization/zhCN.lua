@@ -230,6 +230,7 @@ L["nirvaska_note"] = "只在世界任务 {wq:致命提醒} 出现时激活。"
 L["sabriel_note"] = "可以作为伤逝剧场的冠军之一出现。"
 L["schmitd_note"] = "使用附近的 {spell:313451} 破坏他的护盾。"
 L["taskmaster_xox_note"] = "与 {npc:160204}，{npc:160230} 和 {npc:160226} 共享刷新。"
+L["theater_of_pain_note"] = nil
 L["zargox_the_reborn_note"] = "使用 {item:175841} 位于 {npc:157124} 顶上。获得宝珠，你必须完成 {npc:157076} 的任务 {quest:57245} 之后再与他交谈。"
 L["mixed_pool_note"] = [[
 从周围怪物收集材料并扔进池中。每30个材料，根据所使用的组合，将刷新七个稀有中的一个。

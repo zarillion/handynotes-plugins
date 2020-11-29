@@ -232,6 +232,7 @@ L["nirvaska_note"] = "N'apparaît que lorsque l'expédition {wq:Rappel Mortel} e
 L["sabriel_note"] = "Peut apparaître comme l'un des champions du Théâtre de la souffrance."
 L["schmitd_note"] = "Utilisez la {spell:313451} proche pour briser son bouclier."
 L["taskmaster_xox_note"] = "Partage son apparition avec {npc:160204}, {npc:160230} et {npc:160226}."
+L["theater_of_pain_note"] = nil
 L["zargox_the_reborn_note"] = "Utilisez {item:175841} en plus de la {npc:157124}. Pour obtenir l'orbe, vous devez compléter la quête {quest:57245} de {npc:157076} et lui parler à nouveau."
 L["mixed_pool_note"] = [[
 Rassemblez des ingrédients des monstres environnants et jetez-les dans la bassine. Une fois que 30 ingrédients ont été ajoutés, un des sept rares apparaîtra selon la combinaison utilisée.

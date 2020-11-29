@@ -230,6 +230,7 @@ L["nirvaska_note"] = "只在世界任務 {wq:死亡宣告} 存在時啟動"
 L["sabriel_note"] = "可以作為苦痛劇場的冠軍之一出現。"
 L["schmitd_note"] = "使用附近的 {spell:313451} 破壞他的護盾。"
 L["taskmaster_xox_note"] = "與 {npc:160204}，{npc:160230} 和 {npc:160226} 共享刷新。"
+L["theater_of_pain_note"] = nil
 L["zargox_the_reborn_note"] = "使用 {item:175841} 位於 {npc:157124} 頂上。獲得寶珠，你必須完成 {npc:157076} 的任務 {quest:57245} 之後再與他交談。"
 L["mixed_pool_note"] = [[
 從周圍怪物收集材料並扔進池中。每30個材料，根據所使用的組合，將刷新七個稀有中的一個。
