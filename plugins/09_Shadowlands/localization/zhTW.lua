@@ -347,7 +347,7 @@ L["lost_quill_note"] = "從禁忌圖書館的桌上瓶子拾取 {item:182475}，
 L["rapier_fearless_note"] = "點擊地上的劍杆，然後擊敗 {npc:173603}。"
 L["remlates_cache_note"] = "在暗隱村墓穴後面的外牆上。"
 L["smuggled_cache_note"] = ns.color.Red("*在拾取之前*：").."請確認已完成 {quest:60480} 支線任務否則寶藏和任務將缺少40個 {currency:1820}。"
-L["taskmaster_trove_note"] = "閱讀"出入口儀式"然後小心地閃過球走到寶箱。"
+L["taskmaster_trove_note"] = '閱讀"出入口儀式"然後小心地閃過球走到寶箱。'
 L["the_count_note"] = "在歿路沼澤農99個 {currency:1820} 然後把它帶給 {npc:173488}。"
 
 L["forgotten_anglers_rod"] = "被遺忘的漁翁之竿"
