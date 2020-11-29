@@ -61,6 +61,7 @@ local VIGNETTES = {
         Toy({item=184447}) -- Kevin's Party Supplies
     }, -- Slime-Coated Crate
 
+    -- [4174] = {}, -- Secret Treasure
     -- [4176] = {}, -- Secret Treasure
     -- [4202] = {}, -- Spouting Growth
     -- [4213] = {}, -- Enchanted Chest
@@ -79,7 +80,9 @@ local VIGNETTES = {
     -- [4278] = {}, -- Hidden Hoard
     -- [4308] = {}, -- Stoneborn Satchel
     -- [4314] = {}, -- Pugilist's Prize
+    -- [4317] = {}, -- Pugilist's Prize
     -- [4323] = {}, -- Stoneborn Satchel
+    -- [4324] = {}, -- Stoneborn Satchel
     -- [4325] = {}, -- Stoneborn Satchel
     -- [4327] = {}, -- Stoneborn Satchel
     -- [4347] = {}, -- Greedstone
