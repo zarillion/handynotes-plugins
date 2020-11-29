@@ -98,7 +98,7 @@ L["beasts_of_bastion_note"] = "Parlez à {npc:161441} pour invoquer l'une des qu
 L["bookkeeper_mnemis_note"] = "A une chance d'apparaître à la place des unités {npc:166867} de la zone."
 L["cloudfeather_patriarch_note"] = "Tuez {npc:158110} dans la région jusqu'à ce que le rare lance une emote et apparaisse."
 L["collector_astor_note"] = "Lisez les six chapitres de L'héritage de Mercia éparpillés dans la salle, après quoi vous recevrez un murmure de {npc:157979}. Parlez-lui pour recevoir {spell:333779}, ce qui vous permettra de trouver le {item:180569} caché au nord-ouest. Rendre le chapitre fera apparaître le rare."
-L["corrupted_clawguard_note"] = "Procurez-vous un {item:180651} à l'avant-poste de Forgefeu en haut de la colline et utilisez-le pour réparer le {npc:171300}."
+L["corrupted_clawguard_note"] = "Procurez-vous un {item:180651} dans la pièce ou à l'avant-poste de Forgefeu en haut de la colline et utilisez-le pour réparer le {npc:171300}."
 L["dark_watcher_note"] = "Ne peut être vu qu'en étant mort. Parlez-lui et elle vous lancera {spell:332830} avant d'attaquer."
 L["demi_hoarder_note"] = "Commence avec 99 charges de {spell:333874}, réduisant les dégâts subis. Les charges sont lentement retirées par les dégâts. Le rare suivra un chemin et disparaîtra s'il atteint la fin."
 L["dionae_note"] = "Lorsqu'elle est immunisée, cliquez sur les quatre {npc:163747} pour briser son bouclier."
@@ -228,7 +228,7 @@ L["forgotten_mementos"] = "Tirez la chaîne de la herse de la chambre forte, dan
 L["gieger_note"] = "Tirez sur le {npc:162815} pour activer le rare."
 L["gristlebeak_note"] = "Brisez tout les {npc:162761} à proximité pour affronter le rare."
 L["leeda_note"] = "Tuez les deux {npc:162220} jusqu'à ce que le rare apparaisse."
-L["nirvaska_note"] = "N'apparaît que lorsque l'expédition {wq:Rappel Mortel} est active." --Correction : doute sur le nom de la world quest
+L["nirvaska_note"] = "N'apparaît que lorsque l'expédition {wq:Rappel Mortel} est active."
 L["sabriel_note"] = "Peut apparaître comme l'un des champions du Théâtre de la souffrance."
 L["schmitd_note"] = "Utilisez la {spell:313451} proche pour briser son bouclier."
 L["taskmaster_xox_note"] = "Partage son apparition avec {npc:160204}, {npc:160230} et {npc:160226}."
@@ -263,7 +263,7 @@ Placez-vous dans la bave verte (nécessite de se soigner !) pour obtenir 10 char
 
 Une fois transformé, visitez la grotte située sous la plate-forme de {npc:158406} (entrée du côté est) et cliquez sur le tuyau pour être transporté jusqu'au coffre.
 ]]
-L["ritualists_cache_note"] = "Ramassez des {item:181558} sur un tas d'os (plusieurs lieux d'apparition). Utilisez-les pour compléter le Livre des Rituels de Liaison sur le pupitre derrière {npc:174386} et recevoir le buff {spell:337041}." --Correction : Nom du livre possiblement erroné
+L["ritualists_cache_note"] = "Ramassez les {item:181558} au sol et utilisez-les pour compléter le Livre des rituels de lien."
 L["runespeakers_trove_note"] = "Trouvez {npc:170563} à l'est et tuez-le pour obtenir la {item:181777}."
 L["stolen_jar_note"] = "Dans une grotte sous le champignon géant."
 L["strange_growth_note"] = "Tirez sur l'{npc:165037} pour révéler le trésor."
@@ -314,7 +314,7 @@ L["rotgut_note"] = "Tord-Tripes. Les restes. Pièces supplémentaires. Battez-vo
 L["amalgamation_of_filth_note"] = "Quand l'expédition {wq:Sale boulot : équipe de démolition} est disponible, cliquez sur une Boîte à ordures et utilisez {spell:324115} dans l'eau."
 L["amalgamation_of_light_note"] = "Déplacez les trois Miroirs piégés pour libérer le rare."
 L["amalgamation_of_sin_note"] = "Utilisez le Catalyseur de puissance pour obtenir {item:180376} lors de l'expédition {wq:Invocation de vices}, puis utilisez l'objet pour invoquer le rare."
-L["bog_beast_note"] = "A une chance d'apparaître pendant l'expédition {wq:Foire aux idées} après avoir utilisé {item:177880} sur une {npc:166206}." --Correction : Doute sur le nom de l'expédition
+L["bog_beast_note"] = "A une chance d'apparaître pendant l'expédition {wq:Bourbe à gogo} après avoir utilisé {item:177880} sur une {npc:166206}."
 L["endlurker_note"] = "Cliquez sur le Pieu d'Anima près du cadavre de {npc:165229} et utilisez {spell:321826} au sommet de la Faille chatoyante."
 L["executioner_aatron_note"] = "Tuez les trois PNJ proches {npc:166715} pour retirer {spell:324872}."
 L["famu_note"] = "Parlez à {npc:166483} pour déclencher l'événement."
