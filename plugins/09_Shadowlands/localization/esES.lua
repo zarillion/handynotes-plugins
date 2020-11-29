@@ -232,7 +232,7 @@ L["nirvaska_note"] = "Soloa aparece cuando la misión del mundo {wq:Recordatorio
 L["sabriel_note"] = "Puede aparecer como uno de los campeones del Teatro del Dolor."
 L["schmitd_note"] = "Usa un {spell:313451} cercano para romper su escudo."
 L["taskmaster_xox_note"] = "Comparte el lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
-L["theater_of_pain_note"] = nil
+L["theater_of_pain_note"] = "El primer boss que mates cada día tiene una probabilidad de soltar la montura."
 L["zargox_the_reborn_note"] = "Usa el {item:175841} encima del {npc:157124} para invocar a {npc:157125}. Para conseguir el {item:175841} tienes que completar la misión {quest:57245} que da {npc:157076} y vuelve a hablar con él de nuevo."
 L["mixed_pool_note"] = [[
 Recoge ingredientes de los enemigos de alrededor y tíralos en la poza. Cuando hayan sido añadidos 30 ingredientes, aparecerá uno de los siete raros dependiendo de la combinación usada.
