@@ -72,6 +72,7 @@ map.nodes[19324172] = Rare({
     note=L["apholeias_note"],
     rewards={
         Achievement({id=14744, criteria=49842}),
+        Item({item=184106, note=L["ring"]}), -- Gimble
         Item({item=182327}) -- Dominion Etching: Loss
     }
 }) -- Apholeias, Herald of Loss
@@ -152,6 +153,7 @@ map.nodes[20586935] = Rare({
     note=L["exos_note"],
     rewards={
         Achievement({id=14744, criteria=49851}),
+        Item({item=184108, note=L["neck"]}) -- Vorpal Amulet
     }
 }) -- Exos, Herald of Domination
 
