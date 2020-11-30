@@ -37,7 +37,7 @@ L["michael_skarn_note"] = "Bevor wir loslegen... Vergesst nicht, dass Ihr das so
 
 L["drust_facts_note"] = "Lies alle Druststelen, um den Erfolg zu erringen."
 L["stele_forest_note"] = "In Ulfars Höhle."
-L["options_icons_drust_facts_desc"] = "Zeigt die Positionen der Druststelen für den Erfolg {achievement:13064} an."
+L["options_icons_drust_facts_desc"] = "Zeigt die Druststelen für den Erfolg {achievement:13064} an."
 L["options_icons_drust_facts"] = "{achievement:13064}"
 
 L["embers_crossbow_note"] = "Hebe die {item:163749} vom Boden zwischen zwei Bäumen auf und bringe sie zu den Ruinen von Gol Var."
@@ -46,7 +46,7 @@ L["embers_hat_note"] = "Plündere den {item:163748} aus einem Knochenhaufen und 
 L["embers_knife_note"] = "Ziehe ein {item:163747} aus dem Stamm des Baumes und bringe es zu den Ruinen von Gol Var."
 L["embers_golvar_note"] = "Bringe jedes Relikt zu den Ruinen von Gol Var zurück, um den Erfolg zu erringen."
 L["golvar_ruins"] = "Die Ruinen von Gol Var"
-L["options_icons_ember_relics_desc"] = "Zeigt die Positionen der Relikte für den Erfolg {achievement:13082} an."
+L["options_icons_ember_relics_desc"] = "Zeigt die Relikte für den Erfolg {achievement:13082} an."
 L["options_icons_ember_relics"] = "{achievement:13082}"
 
 L["linda_deepwater_note"] = "Um Zugang zu erhalten, musst du zuerst von {npc:136458} außerhalb von Jederhafen die Questreihe abschließen."
@@ -92,11 +92,11 @@ L["shock_bot_note"] = "Klicke den Bot an, um {spell:304063} zu erhalten. (Angrif
 L["welding_bot_note"] = "Klicke den Bot an, um {spell:303952} zu erhalten. (Maximale Gesundheit und erhaltene Heilung um 10% erhöht.) \nDer Stärkungszauber hält 2 Stunden an."
 
 L["options_icons_mech_buffs"] = "Schmier-, Schock- und Schweißerbots"
-L["options_icons_mech_buffs_desc"] = "Zeigt die Standorte der Schmier-, Schock- und Schweißerbots auf der Karte im Dungeon Operation: Mechagon an."
+L["options_icons_mech_buffs_desc"] = "Zeigt die Schmier-, Schock- und Schweißerbots auf der Karte im Dungeon Operation: Mechagon an."
 L["options_icons_mech_chest"] = "Mechanisierte Truhe"
-L["options_icons_mech_chest_desc"] = "Zeigt die Standorte der Mechanisierten Truhen an. Es gibt 10 einzigartige Truhen, die einmal am Tag geplündert werden können und jede Truhe hat 4-5 Orte an denen sie erscheinen kann. Standorte sind in Farben gruppiert."
+L["options_icons_mech_chest_desc"] = "Zeigt die Mechanisierten Truhen an. Es gibt 10 einzigartige Truhen, die einmal am Tag geplündert werden können und jede Truhe hat 4-5 Orte an denen sie erscheinen kann. Standorte sind in Farben gruppiert."
 L["options_icons_locked_chest"] = "Verschlossene Truhe"
-L["options_icons_locked_chest_desc"] = "Zeigt die Standorte der Verschlossenen Truhen in der Westgischt an."
+L["options_icons_locked_chest_desc"] = "Zeigt die Verschlossenen Truhen in der Westgischt an."
 L["options_icons_recrig"] = "Rückgewinnungsturm"
 L["options_icons_recrig_desc"] = "Zeigt den Standort und die Belohnungen des {npc:150448s} an."
 
@@ -213,9 +213,9 @@ L["Salgos"] = "Salgos der Ewige"
 L["tentacle_taco"] = "Verkauft {item:170100}, wenn du das {item:169489} trägst."
 
 L["options_icons_slimes_nazj"] = "Gefräßige Schleime"
-L["options_icons_slimes_nazj_desc"] = "Zeigt die Position der vier Gefräßigen Schleime, die Haustiere bei Fütterung ergeben an."
+L["options_icons_slimes_nazj_desc"] = "Zeigt die vier Gefräßigen Schleime, die Haustiere bei Fütterung ergeben an."
 L["options_icons_cats_nazj"] = "{achievement:13836}"
-L["options_icons_cats_nazj_desc"] = "Zeigt die Position von Kristallkatzenstatuetten für den Erfolg {achievement:13836} an."
+L["options_icons_cats_nazj_desc"] = "Zeigt die Kristallkatzenstatuetten für den Erfolg {achievement:13836} an."
 L["options_icons_misc_nazj"] = "Sonstiges"
 L["options_icons_misc_nazj_desc"] = "Zeigt die Position von {npc:152593s} Höhle und Mardivas' Labor an."
 
@@ -244,7 +244,7 @@ L["carved_in_stone_41861"] = "An der zerstörten Säule."
 L["carved_in_stone_41862"] = "An der zerstörten Mauer, vor der riesigen Säule."
 L["carved_in_stone_42116"] = "An einer Säule in der Nähe von {npc:126126}"
 L["options_icons_carved_in_stone"] = "{achievement:13024}"
-L["options_icons_carved_in_stone_desc"] = "Zeigt die Positionen der Piktogramme für den Erfolg {achievement:13024} an."
+L["options_icons_carved_in_stone_desc"] = "Zeigt die Piktogramme für den Erfolg {achievement:13024} an."
 
 L["hoppin_sad_53419"] = "Hinter zwei Bäumen unter einer riesigen Würzel."
 L["hoppin_sad_53420"] = "In den Ruinen."
@@ -253,7 +253,7 @@ L["hoppin_sad_53425"] = "Am Baum nahe des Wasserfalls."
 L["hoppin_sad_53426"] = "Unter ein paar Wurzeln."
 
 L["options_icons_hoppin_sad"] = "{achievement:13028}"
-L["options_icons_hoppin_sad_desc"] = "Zeigt die Positionen der |CFFFFFF00Sprösslinge von Krag'wa|r für den Erfolg {achievement:13028} an."
+L["options_icons_hoppin_sad_desc"] = "Zeigt die |CFFFFFF00Sprösslinge von Krag'wa|r für den Erfolg {achievement:13028} an."
 
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
@@ -284,7 +284,7 @@ L["leana_darkwind_note"] = "Ich wette, mit den komischen Kreaturen auf dieser In
 
 L["honeyback_harvester_note"] = "Sprich mit der {npc:155193}, um das Event zu beginnen. Die Frische Geléeablagerung kann stündlich geplündert werden und setzt sich jede volle Stunde zurück."
 L["options_icons_honeybacks"] = "Honigrückenernterin"
-L["options_icons_honeybacks_desc"] = "Zeigt die Positionen von Honigrückenernterinnen für Events zum sammeln von Ruf für die Fraktion Honigrückenschwarm an."
+L["options_icons_honeybacks_desc"] = "Zeigt die Honigrückenernterinnen für Events zum sammeln von Ruf für die Fraktion Honigrückenschwarm an."
 
 L["lets_bee_friends_note"] = "Schließe die tägliche Quest {daily:53371} sieben mal ab, um das Pet und den Erfolg zu erhalten. Um die tägliche Quest freizuschalten:"
 L["lets_bee_friends_step_1"] = "Schließe die Metbrauerei Mildenhall Questreihe bis hin zu {quest:50553} ab."
@@ -299,7 +299,7 @@ L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei "..lunch
 L["ancient_tidesage_scroll"] = "Uralte Schriftrolle der Gezeitenweisen"
 L["ancient_tidesage_scroll_note"] = "Lies alle 8 uralten Schriftrollen der Gezeitenweisen, um den Erfolg zu erringen."
 L["options_icons_tidesage_legends"] = "{achievement:13051}"
-L["options_icons_tidesage_legends_desc"] = "Zeigt die Positionen der uralten Schrifftrollen für den Erfolg {achievement:13051} an."
+L["options_icons_tidesage_legends_desc"] = "Zeigt die uralten Schrifftrollen für den Erfolg {achievement:13051} an."
 
 L["long_forgotten_rum_note"] = "Um die Höhle betreten zu können, muss von {npc:134710} die Quest {quest:50697} in 'Die Totenschwemme' abgeschlossen werden. Wird auch von {npc:137040} in Drustvar verkauft."
 
@@ -340,7 +340,7 @@ L["shanty_horse_note"] = "Plündere das Gesangbuch des Halunken, Auf der Bar in 
 L["shanty_inebriation_note"] = "Plündere Jays Gesangbuch. Auf dem Boden hinter {npc:141066}."
 L["shanty_lively_note"] = "Plündere Russells Gesangbuch. Auf dem Kaminsims."
 L["options_icons_shanty_raid"] = "{achievement:13057}"
-L["options_icons_shanty_raid_desc"] = "Zeigt die Positionen der verbotenen Seemannslieder für den Erfolg {achievement:13057} an."
+L["options_icons_shanty_raid_desc"] = "Zeigt die verbotenen Seemannslieder für den Erfolg {achievement:13057} an."
 
 L["upright_citizens_node"] = [[
 Jedesmal, wenn die Übergriffsquest {wq:Nicht allzu nüchterne Bürgerwehr} aktiv ist, wird einer der drei unteren NPCs erscheinen.
@@ -352,7 +352,7 @@ Jedesmal, wenn die Übergriffsquest {wq:Nicht allzu nüchterne Bürgerwehr} akti
 Rekrutiere jeden von ihnen, um den Erfolg zu erringen. Du wirst die Zone für den Angriff, die Weltquest und bis der richtige NPC akiv ist mehrfach überprüfen müssen.
 ]]
 L["options_icons_upright_citizens"] = "{achievement:13285}"
-L["options_icons_upright_citizens_desc"] = "Zeigt die Positionen der NPCs für den Erfolg {achievement:13285} an."
+L["options_icons_upright_citizens_desc"] = "Zeigt die NPCs für den Erfolg {achievement:13285} an."
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -392,7 +392,7 @@ L["amathet_reliquary"] = "Reliquiar der Amathet"
 L["options_icons_assault_events"] = "Angriffevents"
 L["options_icons_assault_events_desc"] = "Zeigt mögliche Positionen für Angriffevents."
 L["options_icons_coffers"] = "Verschlossene Kisten"
-L["options_icons_coffers_desc"] = "Zeigt die Positionen von Verschlossene Kisten (einmal pro Angriff plünderbar)."
+L["options_icons_coffers_desc"] = "Zeigt die Verschlossene Kisten (einmal pro Angriff plünderbar) an."
 
 L["ambush_settlers"] = "Besiege Wellen von Gegner bis das Event endet."
 L["burrowing_terrors"] = "Springe auf Grabende Skarabäen, um sie zu zerquetschen."
@@ -538,15 +538,15 @@ L["c_walkway_corner"] = "Auf dem oberen Gehweg in einer Ecke."
 L["c_walkway_platform"] = "Auf einer Plattform über dem oberen Gehweg."
 
 L["options_icons_visions_buffs"] = "Stärkungszauber"
-L["options_icons_visions_buffs_desc"] = "Zeigt die Positionen von Events die einen ein Stündigen Stärkungszauber gewähren."
+L["options_icons_visions_buffs_desc"] = "Zeigt die Events an, die einen ein Stündigen Stärkungszauber gewähren."
 L["options_icons_visions_chest"] = "Truhen"
-L["options_icons_visions_chest_desc"] = "Zeigt mögliche Truhen Positionen in Verstörenden Visionen an."
+L["options_icons_visions_chest_desc"] = "Zeigt mögliche Positionen der Truhen in Verstörenden Visionen an."
 L["options_icons_visions_crystals"] = "Seltsame Kristalle"
 L["options_icons_visions_crystals_desc"] = "Zeigt mögliche Positionen für die Seltsamen Kristalle in Verstörenden Visionen an."
 L["options_icons_visions_mail"] = "Briefkästen"
-L["options_icons_visions_mail_desc"] = "Zeigt die Positionen von Briefkästen für das {item:174653} Reittier an."
+L["options_icons_visions_mail_desc"] = "Zeigt die Briefkästen für das {item:174653} Reittier an."
 L["options_icons_visions_misc"] = "Sonstiges"
-L["options_icons_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, Spielzeugen, Fläschchen und Astralen in Verstörenden Visionen an."
+L["options_icons_visions_misc_desc"] = "Zeigt die Seltenen Gegner, Spielzeugen, Fläschchen und Astralen in Verstörenden Visionen an."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -578,10 +578,10 @@ L["plank_4"] = "Am oberen Ende einer Sanddüne, entlang der Seite der Pyramide."
 L["plank_5"] = "Folge dem Schlangenschwanz, um die Planke zu finden."
 L["planks_ridden"] = "Wackelige Planken geritten."
 L["options_icons_dune_rider"] = "{achievement:13018}"
-L["options_icons_dune_rider_desc"] = "Zeigt die Positionen der wackeligen Planken für den Erfolg {achievement:13018} an."
+L["options_icons_dune_rider_desc"] = "Zeigt die wackeligen Planken für den Erfolg {achievement:13018} an."
 
 L["options_icons_scavenger_of_the_sands"] = "{achievement:13016}"
-L["options_icons_scavenger_of_the_sands_desc"] = "Zeigt die Positionen des Plunders für den Erfolg {achievement:13016} an."
+L["options_icons_scavenger_of_the_sands_desc"] = "Zeigt den Plunder für den Erfolg {achievement:13016} an."
 
 L["elusive_alpaca"] = "Füttere das Alpaka einmal mit {item:161128}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht."
 
@@ -627,7 +627,7 @@ L["torcali_note"] = "Schließe Quests im Kriegsbestienkral ab, bis {quest:47261}
 
 L["totem_of_paku_note"] = "Sprich mit {npc:137510} (bei 50.7, 35.4), um Pa'ku als deinen Loa aus zu wählen."
 L["options_icons_paku_totems"] = "Totems von Pa'ku"
-L["options_icons_paku_totems_desc"] = "Zeigt die Positionen von {npc:131154} und ihre Wege in Dazar'alor an."
+L["options_icons_paku_totems_desc"] = "Zeigt die {npc:131154} und ihre Wege in Dazar'alor an."
 
 L["tales_gonk_note"] = "Liegt auf der Decke."
 L["tales_gral_note"] = "An den Wurzeln des Baumes."
@@ -642,7 +642,7 @@ local shared_dinos = "Von {npc:133680s} Questreihe muss die tägliche Quest {dai
 L["azuresail_note"] = "Kann erscheinen, wenn du einen der anderen beiden Dinosaurier {npc:135512} oder {npc:135508} tötest.\n\n"..shared_dinos
 L["thunderfoot_note"] = "Kann erscheinen, wenn du einen der anderen beiden Dinosaurier {npc:135510} oder {npc:135508} tötest.\n\n"..shared_dinos
 L["options_icons_life_finds_a_way"] = "{achievement:13048}"
-L["options_icons_life_finds_a_way_desc"] = "Zeigt die Positionen der fürchterlichen Dinosaurier für den Erfolg {achievement:13048} an."
+L["options_icons_life_finds_a_way_desc"] = "Zeigt die fürchterlichen Dinosaurier für den Erfolg {achievement:13048} an."
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
@@ -652,7 +652,7 @@ L["goramor_note"] = "Kaufe eine {item:163563} bei {npc:126833} und füttere {npc
 L["makafon_note"] = "Kaufe ein {item:163564} bei {npc:124034} beim Schuppenhandelsposten und füttere {npc:130922} damit."
 L["stompy_note"] = "Kaufe einmal {item:163567} bei {npc:133833} nördlich der Pfiffblütenoase und füttere {npc:143332} damit."
 L["options_icons_brutosaurs"] = "{achievement:13029}"
-L["options_icons_brutosaurs_desc"] = "Zeigt die Positionen der Brutosaurier für den Erfolg {achievement:13029} an."
+L["options_icons_brutosaurs_desc"] = "Zeigt die Brutosaurier für den Erfolg {achievement:13029} an."
 
 local hekd_note = "\n\nUm Zugang zu {npc:126334} zu erhalten, müssen zuerst die zwei Quests %s abgeschlossen werden."
 if UnitFactionGroup('player') == 'Horde' then
@@ -676,26 +676,26 @@ L["saurid_junk_note"] = format(hekd_quest, "{quest:50901}")
 L["snapjaw_junk_note"] = format(hekd_item, "{item:157801}", "{npc:126723n}")
 L["vilescale_junk_note"] = format(hekd_item, "{item:157797}", ns.color.Yellow("Wächtern der Faulschuppen")) -- {npc:125393}
 L["options_icons_get_hekd"] = "{achievement:12482}"
-L["options_icons_get_hekd_desc"] = "Zeigt die Positionen der Aufgaben von Jani für den Erfolg {achievement:12482} an."
+L["options_icons_get_hekd_desc"] = "Zeigt die Aufgaben von Jani für den Erfolg {achievement:12482} an."
 
 L["options_icons_mushroom_harvest"] = "{achievement:13027}"
-L["options_icons_mushroom_harvest_desc"] = "Zeigt die Positionen der Fungianerbösewichte für den Erfolg {achievement:13027} an."
+L["options_icons_mushroom_harvest_desc"] = "Zeigt die Fungianerbösewichte für den Erfolg {achievement:13027} an."
 
 L["options_icons_tales_of_de_loa"] = "{achievement:13036}"
-L["options_icons_tales_of_de_loa_desc"] = "Zeigt die Positionen der Legend'n der Loa für den Erfolg {achievement:13036} an."
+L["options_icons_tales_of_de_loa_desc"] = "Zeigt die Legend'n der Loa für den Erfolg {achievement:13036} an."
 
 L["jani_note"] = "Klicke den Mysteriösen Müllhaufen an, damit {npc:126334} erscheint."
 L["rezan_note"] = ns.color.Red("Im Dungeon \"Atal'Dazar\"")
 L["bow_to_your_masters_note"] = "Zollt den Loa Zandalars Respekt, indem Ihr Euch vor ihnen verbeugt ("..ns.color.Orange('/verbeugen')..")."
 L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
-L["options_icons_bow_to_your_masters_desc"] = "Zeigt die Positionen der Loa für den Erfolg {achievement:13020} an."
+L["options_icons_bow_to_your_masters_desc"] = "Zeigt die Loa für den Erfolg {achievement:13020} an."
 
 L["alisha_note"] = "Dieser Händler benötigt einen gewissen Questfortschritt in Drustvar."
 L["elijah_note"] = "Dieser Händler benötigt einen gewissen Questfortschritt in Drustvar. Er verkauft erst nach der Quest {quest:47945} Würste."
 L["raal_note"] = ns.color.Red("Im Dungeon \"Das Kronsteiganwesen\".")
 L["sausage_sampler_note"] = "Iss einmal jede Wurst, um den Erfolg zu erringen."
 L["options_icons_sausage_sampler"] = "{achievement:13087}"
-L["options_icons_sausage_sampler_desc"] = "Zeigt die Positionen der Händler für den Erfolg {achievement:13087} an."
+L["options_icons_sausage_sampler_desc"] = "Zeigt die Händler für den Erfolg {achievement:13087} an."
 
 -- For Horde, include a note about drinks that must be purchased on the AH
 local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Die folgenden Getränke sind für Horde nicht verfügbar und müssen im Auktionshaus gekauft werden:
@@ -709,7 +709,7 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Die folgende
 ]] or ''
 L["three_sheets_note"] = "Erwirb alle Getränke, um den Erfolg zu erringen."..horde_sheets
 L["options_icons_three_sheets"] = "{achievement:13061}"
-L["options_icons_three_sheets_desc"] = "Zeigt die Positionen der Händler für den Erfolg {achievement:13061} an."
+L["options_icons_three_sheets_desc"] = "Zeigt die Händler für den Erfolg {achievement:13061} an."
 
 L["options_icons_daily_chests_desc"] = "Zeigt die Positionen von Truhen an \n(täglich plünderbar)."
 L["options_icons_daily_chests"] = "Truhen"
@@ -723,4 +723,4 @@ L["options_icons_supplies"] = "Kisten mit Kriegsvorräten"
 L["secret_supply_chest"] = "Geheime Vorratstruhe"
 L["secret_supply_chest_note"] = "Wenn ein Übergriff aktiv ist, kann eine "..ns.color.Yellow("geheime Vorratstruhe").." für eine kurze Zeit an einer dieser Positionen erscheinen."
 L["options_icons_secret_supplies"] = "Geheime Vorratstruhen"
-L["options_icons_secret_supplies_desc"] = "Zeigt die Positionen der "..ns.color.Yellow("geheimen Vorratstruhen").." für den Erfolg {achievement:13317} an."
+L["options_icons_secret_supplies_desc"] = "Zeigt die "..ns.color.Yellow("geheimen Vorratstruhen").." für den Erfolg {achievement:13317} an."
