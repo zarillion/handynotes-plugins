@@ -374,6 +374,12 @@ L["addius_note"] = "意志軟弱的傢伙不該浪費我的時間，不過，要
 L["eyegor_note"] = "埃格準備好戰鬥了！"
 L["sylla_note"] = "誰也想不到居然能在這種糟糕的地方展開這麼特別的戰鬥，但人算不如天算。不要浪費我的時間。"
 
+L["avowed_ritualist_note"] = nil
+L["fugitive_soul_note"] = nil
+L["souls_absolved"] = nil
+L["options_icons_fugitives"] = "{achievement:14274}"
+L["options_icons_fugitives_desc"] = nil
+
 L["grand_inquisitor_note"] = "把10個 {item:180451} 交給 {npc:160248} 有機會獲得此罪孽石。"
 L["high_inquisitor_note"] = "把250個 {currency:1816} 交給 {npc:160248} 有機會獲得此罪孽石。"
 L["inquisitor_note"] = "把100個 {currency:1816} 交給 {npc:160248} 有機會獲得此罪孽石。"

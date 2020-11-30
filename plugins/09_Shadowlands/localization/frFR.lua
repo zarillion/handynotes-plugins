@@ -374,6 +374,12 @@ L["addius_note"] = "Les êtres faibles d'esprit ne devraient pas me faire perdre
 L["eyegor_note"] = "Carnœil prêt pour la bataille !"
 L["sylla_note"] = "On ne peut jamais s'attendre à avoir une bataille distinguée ici dans cette terrible région, mais hélas, nous y sommes. Ne me faites pas perdre mon temps."
 
+L["avowed_ritualist_note"] = nil
+L["fugitive_soul_note"] = nil
+L["souls_absolved"] = nil
+L["options_icons_fugitives"] = "{achievement:14274}"
+L["options_icons_fugitives_desc"] = nil
+
 L["grand_inquisitor_note"] = "Donnez 10 {item:180451} à {npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
 L["high_inquisitor_note"] = "Donnez 250 {currency:1816} à {npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
 L["inquisitor_note"] = "Donnez 100 {currency:1816} à {npc:160248} our avoir une chance d'obtenir cette stèle du vice."

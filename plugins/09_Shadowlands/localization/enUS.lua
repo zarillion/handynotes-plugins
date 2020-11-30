@@ -374,6 +374,12 @@ L["addius_note"] = "Weak minded beings should not waste my time, but if you insi
 L["eyegor_note"] = "Eyegor ready for battle!"
 L["sylla_note"] = "One can never expect to have a distinguished battle out here in this awful area, but alas here we are. Do not waste my time."
 
+L["avowed_ritualist_note"] = "Bring nearby {npc:160149s} here to absolve them."
+L["fugitive_soul_note"] = "Bring this {npc:160149} to a nearby {npc:166150} to begin a ritual of absolution."
+L["souls_absolved"] = "souls absolved"
+L["options_icons_fugitives"] = "{achievement:14274}"
+L["options_icons_fugitives_desc"] = "Display fugitive soul locations for the {achievement:14274} achievement."
+
 L["grand_inquisitor_note"] = "Turn in 10 {item:180451} to {npc:160248} for a chance at this sinstone."
 L["high_inquisitor_note"] = "Turn in 250 {currency:1816} to {npc:160248} for a chance at this sinstone."
 L["inquisitor_note"] = "Turn in 100 {currency:1816} to {npc:160248} for a chance at this sinstone."

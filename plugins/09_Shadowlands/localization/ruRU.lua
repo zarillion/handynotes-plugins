@@ -363,6 +363,12 @@ L["addius_note"] = "Слабоумным существам не стоит тр
 L["eyegor_note"] = "Глазгор готов к бою!"
 L["sylla_note"] = "Никогда нельзя ожидать выдающейся битвы здесь, в этом ужасном месте, но, увы, мы здесь. Не трать мое время."
 
+L["avowed_ritualist_note"] = nil
+L["fugitive_soul_note"] = nil
+L["souls_absolved"] = nil
+L["options_icons_fugitives"] = "{achievement:14274}"
+L["options_icons_fugitives_desc"] = nil
+
 L["grand_inquisitor_note"] = "Сдайте 10 {item:180451} у {npc:160248}, чтобы получить шанс на этот камень греха."
 L["high_inquisitor_note"] = "Сдайте 250 {currency:1816} у {npc:160248}, чтобы получить шанс получить этот камень греха."
 L["inquisitor_note"] = "Сдайте 100 {currency:1816} у {npc:160248}, чтобы получить шанс получить этот камень греха."
