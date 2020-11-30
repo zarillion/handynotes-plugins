@@ -136,6 +136,15 @@ function Reward:GetCategoryIcon()
     return self.covenant and ns.GetIconPath(self.covenant.icon)
 end
 
+function Reward:IsObtainable()
+    if self.covenant then
+        if self.covenant.id ~= C_Covenants.GetActiveCovenantID() then
+            return false
+        end
+    end
+    return true
+end
+
 -------------------------------------------------------------------------------
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
