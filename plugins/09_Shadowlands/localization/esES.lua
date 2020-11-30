@@ -85,6 +85,10 @@ Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al fi
 L["faryl_note"] = "Deja que la defensa de Ardenweald la dirijan las criaturas de los cielos."
 L["glitterdust_note"] = "Puede que las criaturas de Ardenweald parezcan dóciles, pero defenderán su territorio con una fuerza y coraje dignas de los campeones más poderosos que hayas visto. ¿Crees que puedes plantarles cara?"
 
+L["lost_book_note"] = nil
+L["options_icons_faerie_tales"] = "{achievement:14788}"
+L["options_icons_faerie_tales_desc"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------

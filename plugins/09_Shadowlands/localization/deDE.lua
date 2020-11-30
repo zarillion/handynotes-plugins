@@ -84,6 +84,10 @@ Wenn du den falschen Pfad nimmst und {npc:171699} verschwindet, wenn du das Ende
 L["faryl_note"] = "Lasst die Kreaturen des Himmels die Verteidigung des Ardenwalds anführen."
 L["glitterdust_note"] = "Die Kreaturen des Ardenwalds wirken vielleicht friedlich, aber sie verteidigen ihr Revier mit der Kraft und dem Mut der mächtigsten Champions aller Zeiten. Seid Ihr stark genug für diese Aufgabe?"
 
+L["lost_book_note"] = nil
+L["options_icons_faerie_tales"] = "{achievement:14788}"
+L["options_icons_faerie_tales_desc"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------

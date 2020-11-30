@@ -11,9 +11,7 @@
 
 # Shadowlands
 
-* [Ardenweald Gourmand](https://www.wowhead.com/achievement=14774/ardenweald-gourmand) (all at one vendor?!?)
 * [Crypt Couture](https://www.wowhead.com/achievement=14763/crypt-couture) (Necrolord only?)
-* [Fractured Faerie Tales](https://www.wowhead.com/achievement=14788/fractured-faerie-tales)
 * [To All the Squirrels I've Loved and Lost](https://www.wowhead.com/achievement=14731/to-all-the-squirrels-ive-loved-and-lost)
 * [What is that Melody?](https://www.wowhead.com/achievement=14768/what-is-that-melody) (scrolls spawn all over each temple, need more data)
 * [Wild Hunting](https://www.wowhead.com/achievement=14779)

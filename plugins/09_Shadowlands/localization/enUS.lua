@@ -83,6 +83,10 @@ If you take a wrong path and {npc:171699} disappears when you reach the end, go 
 L["faryl_note"] = "Let Ardenweald's defense be lead by the creatures in the sky."
 L["glitterdust_note"] = "The creatures of Ardenweald may look docile, but they will defend their territory with the strength and courage of the mightiest champions ever known. Do you have what it takes?"
 
+L["lost_book_note"] = "Return this lost book to {npc:165867} in the Grove of Memory."
+L["options_icons_faerie_tales"] = "{achievement:14788}"
+L["options_icons_faerie_tales_desc"] = "Display lost book locations for the {achievement:14788} achievement."
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------

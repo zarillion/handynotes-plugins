@@ -85,6 +85,10 @@ Si vous prenez un mauvais chemin et que {npc:171699} disparaît lorsque vous arr
 L["faryl_note"] = "Que la défense de Sylvarden soit menée par les créatures du ciel."
 L["glitterdust_note"] = "Les créatures de Sylvarden peuvent paraître dociles, mais elles défendront leur territoire avec la force et le courage des plus grands champions jamais connus. Avez-vous ce qu'il faut ?"
 
+L["lost_book_note"] = nil
+L["options_icons_faerie_tales"] = "{achievement:14788}"
+L["options_icons_faerie_tales_desc"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
