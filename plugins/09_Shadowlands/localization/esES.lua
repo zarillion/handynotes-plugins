@@ -122,7 +122,7 @@ L["wingflayer_note"] = "Para invocar a {npc:167078}, haz click en el Cuerno de C
 
 L["broken_flute"] = "Mata a las {npc:170009} cercanas hasta que una suelte la {item:180536}. Usa las herramientas para repararla."
 L["cloudwalkers_coffer"] = "Arca de Caminanubes"
-L["cloudwalkers_coffer_note"] = "usa las grandes flores lilas para saltar a la plataforma."
+L["cloudwalkers_coffer_note"] = "Usa las grandes flores lilas para saltar a la plataforma."
 L["experimental_construct_part"] = "Despoja un {item:180534} cercano y úsalo para reparar la Pieza de Ensamblaje Experimental. El ánima tiene varios sitios de aparición."
 L["larion_harness"] = "Localizado dentro de la Sala de las Bestias."
 L["memorial_offering"] = "Encuentra a {npc:171526} en uno de estos lugares de Bastión y cómprale una botella de {item:180788}. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}."
