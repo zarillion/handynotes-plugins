@@ -1,3 +1,17 @@
+# v23
+
+* Added lost book locations for the [Fractured Faerie Tales](https://www.wowhead.com/achievement=14788/fractured-faerie-tales#comments:id=3261263) achievement.
+* Added futigive soul locations for the [Absolution for All](https://www.wowhead.com/achievement=14274/absolution-for-all) achievement.
+* Added mount and note to the Theater of Pain tooltip.
+* Added pet and toy rewards to the vignette tooltips for Covenant Calling chests (the big ones on the world map).
+* Added missing quest id for Macabre.
+* Added a note for spawning the Drifting Sorrow bonus boss in the Maw.
+* Added a missing maw lore reward for Dath Rezara.
+* Added remaining maw set items to Apholeias and Exos.
+* Added some API improvements to help items and spells render in tooltips more reliably.
+* Fixed one of the Dredbat Statue locations for the Bat! achievement.
+* The Cache of Eyes treasure in Maldraxxus will now disappear once the pet is learned.
+
 # v22
 
 * Added many new rewards discovered by players since launch!
