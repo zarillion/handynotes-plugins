@@ -83,9 +83,9 @@ L["tame_gladerunner_note"] = [[
 L["faryl_note"] = "让炽蓝仙野的防御由天空生物主宰。（暂）"
 L["glitterdust_note"] = "炽蓝仙野的生物看上去温顺，但他们将以有史以来最强大的冠军的力量和勇气捍卫自己的领土。你有什么需要？（暂）"
 
-L["lost_book_note"] = nil
+L["lost_book_note"] = "把失落的书籍交给伤忆林地的 {npc:165867}。"
 L["options_icons_faerie_tales"] = "{achievement:14788}"
-L["options_icons_faerie_tales_desc"] = nil
+L["options_icons_faerie_tales_desc"] = "显示 {achievement:14788} 成就中失落的书籍的位置。"
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -234,8 +234,12 @@ L["nirvaska_note"] = "只在世界任务 {wq:致命提醒} 出现时激活。"
 L["sabriel_note"] = "可以作为伤逝剧场的冠军之一出现。"
 L["schmitd_note"] = "使用附近的 {spell:313451} 破坏他的护盾。"
 L["taskmaster_xox_note"] = "与 {npc:160204}，{npc:160230} 和 {npc:160226} 共享刷新。"
-L["theater_of_pain_note"] = nil
-L["zargox_the_reborn_note"] = "使用 {item:175841} 位于 {npc:157124} 顶上。获得宝珠，你必须完成 {npc:157076} 的任务 {quest:57245} 之后再与他交谈。"
+L["theater_of_pain_note"] = "每天第一次击杀首领有几率掉落坐骑。"
+L["zargox_the_reborn_note"] = [[
+使用 {item:175841} 位于 {npc:157124} 顶上。获得宝珠，你必须完成 {npc:157076} 的任务 {quest:57245} 之后再与他交谈。
+
+假如 {npc:157124} 不起来，复活区域内的 {npc:157132} 直到它出现。
+]]
 L["mixed_pool_note"] = [[
 从周围怪物收集材料并扔进池中。每30个材料，根据所使用的组合，将刷新七个稀有中的一个。
 
@@ -378,11 +382,11 @@ L["addius_note"] = "头脑虚弱的人不应浪费我的时间，但是如果您
 L["eyegor_note"] = "艾戈尔准备作战！（暂） "
 L["sylla_note"] = "在这片令人毛骨悚然的地区，人们永远无法期望在这里展开一场出色的战斗，可惜我们在这里。不要浪费我的时间。（暂）"
 
-L["avowed_ritualist_note"] = nil
-L["fugitive_soul_note"] = nil
-L["souls_absolved"] = nil
+L["avowed_ritualist_note"] = "把 {npc:160149} 带到这里赦免它们。"
+L["fugitive_soul_note"] = "把此 {npc:160149} 带到 {npc:166150} 附近开始赦罪仪式。"
+L["souls_absolved"] = "灵魂已赦免"
 L["options_icons_fugitives"] = "{achievement:14274}"
-L["options_icons_fugitives_desc"] = nil
+L["options_icons_fugitives_desc"] = "显示 {achievement:14274} 成就中逃亡之魂的位置。"
 
 L["grand_inquisitor_note"] = "把10个 {item:180451} 交给 {npc:160248} 有机会获得此罪碑。"
 L["high_inquisitor_note"] = "把250个 {currency:1816} 交给 {npc:160248} 有机会获得此罪碑。"
