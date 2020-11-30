@@ -80,7 +80,7 @@ map.nodes[68612765] = Rare({
     note=L["faeflayer_note"],
     rewards={
         Achievement({id=14309, criteria=48798}),
-        Transmog({item=180144, slot=L["1h_mace"]}) -- Faeflayer's Hatchet
+        Transmog({item=180144, slot=L["1h_axe"]}) -- Faeflayer's Hatchet
     }
 }) -- Faeflayer
 
