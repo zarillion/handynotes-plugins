@@ -176,8 +176,7 @@ map.nodes[51744439] = Rare({
     rewards={
         Achievement({id=14308, criteria=48874}),
         Achievement({id=14802, criteria=48874}),
-        -- Mount({item=182083, id=1374}), -- Bonecleaver's Skullboar
-        Mount({item=182075, id=1374, covenant=NECROLORD}) -- Bonehoof Tauralus
+        Mount({item=181815, id=1370, covenant=NECROLORD}) -- Armored Bonehoof Tauralus
     }
 }) -- Sabriel the Bonecleaver
 
@@ -217,7 +216,7 @@ map.nodes[44215132] = Rare({
     rewards={
         Achievement({id=14308, criteria=48850}),
         Transmog({item=182190, slot=L["leather"]}), -- Tauralus Hide Collar
-        Mount({item=181815, id=1370, covenant=NECROLORD}) -- Bonehoof Tauralus
+        Mount({item=182075, id=1366, covenant=NECROLORD}) -- Bonehoof Tauralus
     }
 }) -- Tahonta
 
