@@ -180,7 +180,6 @@ map.nodes[50092091] = Rare({
 map.nodes[57874983] = Rare({
     id=168135,
     quest=60306,
-    covenant=NIGHTFAE,
     requires=ns.requirement.Item(178675),
     note=L["night_mare_note"],
     rewards={
