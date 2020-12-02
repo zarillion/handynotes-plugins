@@ -338,7 +338,7 @@ L["leeched_soul_note"] = "进入附近的墓穴。走到 {npc:165151} 附近开�
 L["lord_mortegore_note"] = "击杀周围的怪物获得 {item:174378} 并使用它强化 {npc:161870}。所有四个徽记获得强化，稀有就会刷新。"
 L["madalav_note"] = "点击铁砧附近的马达拉夫的锤子召唤他。"
 L["manifestation_of_wrath_note"] = "世界任务 {wq:蜂拥之魂} 的 {npc:169916} 恢复有几率刷新稀有。"
-L["scrivener_lenua_note"] = "返回禁忌图书馆 {npc:160753}。"
+L["scrivener_lenua_note"] = "返还禁忌图书馆 {npc:160753}。"
 L["sinstone_hoarder_note"] = "尝试拾取 {npc:162503} 后稀有会出来。"
 L["sire_ladinas_note"] = "拾取附近的圣光残余并使用 {spell:313065} 给 {npc:157733}。"
 L["soulstalker_doina_note"] = "跟随下楼并当她逃跑时穿过镜子。"
@@ -379,7 +379,7 @@ L["options_icons_sinrunners"] = "{npc:174032}"
 L["options_icons_sinrunners_desc"] = "显示{npc:174032}的位置和路径。"
 
 L["addius_note"] = "头脑虚弱的人不应浪费我的时间，但是如果您坚持，我会向您展示真正的痛苦。（暂）"
-L["eyegor_note"] = "艾戈尔准备作战！（暂） "
+L["eyegor_note"] = "艾戈尔准备战斗！"
 L["sylla_note"] = "在这片令人毛骨悚然的地区，人们永远无法期望在这里展开一场出色的战斗，可惜我们在这里。不要浪费我的时间。（暂）"
 
 L["avowed_ritualist_note"] = "把 {npc:160149} 带到这里赦免它们。"
@@ -430,7 +430,11 @@ L["chaotic_riftstone_note"] = [[
 
 需要从 {npc:162804} 升级 {item:184613}。
 ]]
-L["venari_note"] = "使用 {currency:1767} 购买噬渊和托加斯特升级。"
+L["venari_note"] = [[
+使用 {currency:1767} 购买噬渊和托加斯特升级。"
+
+解锁后，下面的完成状态将更新！
+]]
 L["venari_upgrade"] = "{npc:162804} 升级"
 
 L["options_icons_bonus_boss"] = "奖励精英"
