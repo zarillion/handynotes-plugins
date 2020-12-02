@@ -439,9 +439,11 @@ Requires the {item:184613} upgrade from {npc:162804}.
 L["venari_note"] = [[
 Use {currency:1767} to purchase Maw and Torghast upgrades.
 
-Completion status below will be updated as we unlock them!
+|cFFFF8C00Account-wide Torghast upgrades will show as incomplete on alts!|r
+|cFFFF8C00Completion status below will be updated as we unlock them!|r
 ]]
 L["venari_upgrade"] = "{npc:162804} Upgrade"
+L["torghast"] = "Torghast"
 L["Ambivalent"] = nil
 L["Appreciative"] = nil
 L["Apprehensive"] = nil
