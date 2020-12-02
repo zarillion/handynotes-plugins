@@ -432,7 +432,11 @@ Activa el {spell:344157} para cruzar rápidamente por Las Fauces.
 
 Require la mejora {item:184613} de {npc:162804}.
 ]]
-L["venari_note"] = "Usa {currency:1767} para comprar mejoras en Las Fauces y Torghast."
+L["venari_note"] = [[
+Usa {currency:1767} para comprar mejoras en Las Fauces y Torghast.
+
+¡El estado de finalización se actualizará a continuación a medida que las desbloqueemos!
+]]
 L["venari_upgrade"] = "Mejora de {npc:162804}"
 
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
