@@ -428,7 +428,7 @@ Töte die anderen drei Herolde der Trauer, der Pein und des Verlusts um ihre dre
 Kombiniere alle drei Gravuren, um den {item:182329} herzustellen, welcher am Altar der Herrschaft verwendet werden kann, um den seltenen Gegner zu beschwören. Verwende das {npc:173892}, um in die obere Etage zu gelangen.
 ]]
 
-L["soul_well_note"] = "Fange den Stygia ausbruch aus dem Seelenbrunnen." --review Blizzard translation
+L["soul_well_note"] = "Fangt die aus dem Seelenbrunnen ausbrechende Stygia."
 L["obliterated_soul_shards_note"] = "Sammel Ausgelöschte Seelensplitter auf den Brücken." --review Blizzard translation
 
 L["chaotic_riftstone_note"] = [[
@@ -436,13 +436,17 @@ Aktiviere ihn, um mit einem {spell:344157} schnell durch den Schlund zu reisen.
 
 Benötigt die Aufwertung {item:184613} von {npc:162804}.
 ]]
-L["venari_note"] = "Verwende {currency:1767} dazu, um dauerhafte Aufwertungen für den Schlund und Torghast freizuschalten."
+L["venari_note"] = [[
+Verwende {currency:1767} dazu, um dauerhafte Aufwertungen für den Schlund und Torghast freizuschalten.
+
+Der Status für die Vervollständigung unten, wird aktualisiert, sobald wir sie freischalten!
+]]
 L["venari_upgrade"] = "eine Aufwertung von {npc:162804}"
-L["Ambivalent"] = nil
-L["Appreciative"] = nil
-L["Apprehensive"] = nil
-L["Cordial"] = nil
-L["Tentative"] = nil
+L["Ambivalent"] = "Zwiespältig"
+L["Appreciative"] = "Wertschätzend"
+L["Apprehensive"] = "Besorgt"
+L["Cordial"] = "Herzlich"
+L["Tentative"] = "Unverbindlich"
 
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"
 L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."
