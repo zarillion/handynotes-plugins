@@ -400,7 +400,7 @@ map.nodes[32742127] = Treasure({
 }) -- Kyrian Keepsake
 
 map.nodes[62405997] = Treasure({
-    quest=59245,
+    quest=60311,
     note=L["misplaced_supplies"],
     rewards={
         Achievement({id=14312, criteria=50071}),
