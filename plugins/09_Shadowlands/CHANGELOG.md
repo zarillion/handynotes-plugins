@@ -1,3 +1,14 @@
+# v24
+
+* Added POIs for the Great Horn of the Runestag (focus the Rainbowhorn by left-clicking).
+* Added exact routes for the Mystic Rainbowhorn (like he's going to live that long on retail!)
+* Fixed Zargox quest id and updated note with Bone Mass spawn trigger.
+* Fixed the backwards Tauralus for Tahonta and Sabriel.
+* Fixed the quest id for the Misplaced Supplies treasure.
+* Display Ve'nari upgrades as individual items (quest ids for higher upgrades to be added later).
+* Removed "Night Fae required" note for the Night Mare mount.
+* Localization updates!
+
 # v23
 
 * Added lost book locations for the [Fractured Faerie Tales](https://www.wowhead.com/achievement=14788/fractured-faerie-tales#comments:id=3261263) achievement.
