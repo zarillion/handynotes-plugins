@@ -26,7 +26,13 @@ Spawns in multiple locations. To summon, stand in the Mysterious Mushroom Ring w
 • Player 3 dances with Player 1
 ]]
 L["mymaen_note"] = "Kill Rotbriar sprites in the area until he emotes and spawns."
-L["rainbowhorn_note"] = "\n|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r"
+L["rainbowhorn_note"] = [[
+Find and click the |cffffff00Great Horn of the Runestag|r to summon the rare. The horn can spawn in multiple places across Ardenweald.
+
+He will always spawn north of Tirna Vaal, so set your {item:6948} there and watch for the zone emote.
+
+|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r
+]]
 L["rootwrithe_note"] = "Poke the {npc:167928s} until the rare appears."
 L["rotbriar_note"] = "Talk to {npc:171684} nearby to summon the rare after some dialog."
 L["slumbering_note"] = "Running into the fog will stun and port you out. Use a flare or a pet with AOE to knock him out of the fog."
