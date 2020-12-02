@@ -428,6 +428,7 @@ L["chaotic_riftstone_note"] = [[
 ]]
 L["venari_note"] = "使用 {currency:1767} 購買淵喉和托迦司升級。"
 L["venari_upgrade"] = "{npc:162804} 升級"
+L["torghast"] = nil
 L["Ambivalent"] = nil
 L["Appreciative"] = nil
 L["Apprehensive"] = nil

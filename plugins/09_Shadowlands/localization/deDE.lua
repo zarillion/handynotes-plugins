@@ -442,6 +442,7 @@ Verwende {currency:1767} dazu, um dauerhafte Aufwertungen für den Schlund und T
 Der Status für die Vervollständigung unten, wird aktualisiert, sobald wir sie freischalten!
 ]]
 L["venari_upgrade"] = "eine Aufwertung von {npc:162804}"
+L["torghast"] = nil
 L["Ambivalent"] = "Zwiespältig"
 L["Appreciative"] = "Wertschätzend"
 L["Apprehensive"] = "Besorgt"

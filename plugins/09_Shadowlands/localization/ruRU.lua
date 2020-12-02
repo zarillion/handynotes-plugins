@@ -427,6 +427,7 @@ L["chaotic_riftstone_note"] = [[
 ]]
 L["venari_note"] = "Используйте {currency:1767} для покупки улучшений в Утробе и Торгасте."
 L["venari_upgrade"] = "{npc:162804} Обновить"
+L["torghast"] = nil
 L["Ambivalent"] = nil
 L["Appreciative"] = nil
 L["Apprehensive"] = nil

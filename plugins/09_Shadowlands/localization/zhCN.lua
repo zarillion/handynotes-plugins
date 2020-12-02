@@ -436,6 +436,7 @@ L["venari_note"] = [[
 解锁后，下面的完成状态将更新！
 ]]
 L["venari_upgrade"] = "{npc:162804} 升级"
+L["torghast"] = nil
 L["Ambivalent"] = nil
 L["Appreciative"] = nil
 L["Apprehensive"] = nil
