@@ -430,7 +430,11 @@ Activate to {spell:344157} quickly across the Maw.
 
 Requires the {item:184613} upgrade from {npc:162804}.
 ]]
-L["venari_note"] = "Use {currency:1767} to purchase Maw and Torghast upgrades."
+L["venari_note"] = [[
+Use {currency:1767} to purchase Maw and Torghast upgrades.
+
+Completion status below will be updated as we unlock them!
+]]
 L["venari_upgrade"] = "{npc:162804} Upgrade"
 
 L["options_icons_bonus_boss"] = "Bonus Elites"
