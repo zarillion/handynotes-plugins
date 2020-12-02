@@ -427,6 +427,11 @@ L["chaotic_riftstone_note"] = [[
 ]]
 L["venari_note"] = "Используйте {currency:1767} для покупки улучшений в Утробе и Торгасте."
 L["venari_upgrade"] = "{npc:162804} Обновить"
+L["Ambivalent"] = nil
+L["Appreciative"] = nil
+L["Apprehensive"] = nil
+L["Cordial"] = nil
+L["Tentative"] = nil
 
 L["options_icons_bonus_boss"] = "Бонусные элитные монстры"
 L["options_icons_bonus_boss_desc"] = "Отображение местоположения бонусных элитных монстров."

@@ -436,6 +436,11 @@ L["venari_note"] = [[
 解锁后，下面的完成状态将更新！
 ]]
 L["venari_upgrade"] = "{npc:162804} 升级"
+L["Ambivalent"] = nil
+L["Appreciative"] = nil
+L["Apprehensive"] = nil
+L["Cordial"] = nil
+L["Tentative"] = nil
 
 L["options_icons_bonus_boss"] = "奖励精英"
 L["options_icons_bonus_boss_desc"] = "显示奖励精英位置。"

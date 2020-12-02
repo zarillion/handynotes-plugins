@@ -428,6 +428,11 @@ L["chaotic_riftstone_note"] = [[
 ]]
 L["venari_note"] = "使用 {currency:1767} 購買淵喉和托迦司升級。"
 L["venari_upgrade"] = "{npc:162804} 升級"
+L["Ambivalent"] = nil
+L["Appreciative"] = nil
+L["Apprehensive"] = nil
+L["Cordial"] = nil
+L["Tentative"] = nil
 
 L["options_icons_bonus_boss"] = "獎勵精英"
 L["options_icons_bonus_boss_desc"] = "顯示獎勵精英位置。"

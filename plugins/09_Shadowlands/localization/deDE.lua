@@ -438,6 +438,11 @@ Benötigt die Aufwertung {item:184613} von {npc:162804}.
 ]]
 L["venari_note"] = "Verwende {currency:1767} dazu, um dauerhafte Aufwertungen für den Schlund und Torghast freizuschalten."
 L["venari_upgrade"] = "eine Aufwertung von {npc:162804}"
+L["Ambivalent"] = nil
+L["Appreciative"] = nil
+L["Apprehensive"] = nil
+L["Cordial"] = nil
+L["Tentative"] = nil
 
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"
 L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."

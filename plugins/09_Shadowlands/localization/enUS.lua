@@ -436,6 +436,11 @@ Use {currency:1767} to purchase Maw and Torghast upgrades.
 Completion status below will be updated as we unlock them!
 ]]
 L["venari_upgrade"] = "{npc:162804} Upgrade"
+L["Ambivalent"] = nil
+L["Appreciative"] = nil
+L["Apprehensive"] = nil
+L["Cordial"] = nil
+L["Tentative"] = nil
 
 L["options_icons_bonus_boss"] = "Bonus Elites"
 L["options_icons_bonus_boss_desc"] = "Display locations of bonus elites."

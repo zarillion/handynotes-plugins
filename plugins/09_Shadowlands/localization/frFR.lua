@@ -428,6 +428,11 @@ L["obliterated_soul_shards_note"] = "Collectez des éclats d'âme oblitérés su
 L["chaotic_riftstone_note"] = "Activer pour {spell:344157} rapidement à travers l'Antre."
 L["venari_note"] = "Utilisez {currency:1767} pour acheter des améliorations pour l'Antre et Tourment."
 L["venari_upgrade"] = "Améliorations de {npc:162804}"
+L["Ambivalent"] = nil
+L["Appreciative"] = nil
+L["Apprehensive"] = nil
+L["Cordial"] = nil
+L["Tentative"] = nil
 
 L["options_icons_bonus_boss"] = "Élites bonus"
 L["options_icons_bonus_boss_desc"] = "Afficher les emplacements des élites bonus."

@@ -438,6 +438,11 @@ Usa {currency:1767} para comprar mejoras en Las Fauces y Torghast.
 ¡El estado de finalización se actualizará a continuación a medida que las desbloqueemos!
 ]]
 L["venari_upgrade"] = "Mejora de {npc:162804}"
+L["Ambivalent"] = nil
+L["Appreciative"] = nil
+L["Apprehensive"] = nil
+L["Cordial"] = nil
+L["Tentative"] = nil
 
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
 L["options_icons_bonus_boss_desc"] = "Muestra las localizaciones de los élites de bonificación."
