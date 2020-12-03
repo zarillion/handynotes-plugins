@@ -26,7 +26,13 @@ L["macabre_note"] = [[
 • 玩家3与玩家1跳舞
 ]]
 L["mymaen_note"] = "击杀区域内的腐楠精灵直到他做出表情并出现。"
-L["rainbowhorn_note"] = "\n|cffff5400品|r|cffffaa00尝|r|cffffff00绝|r|cffaaff00妙|r|cff54ff00的|r |cff00ff55美|r|cff00ffa9丽|r|cff00ffff的|r |cff0055ff七|r|cff0000ff彩|r|cff5400ff之|r|cffaa00ff虹|r|cffff00ff好|r|cffff00aa味|r|cffff0054道|r|cffff0000！|r"
+L["rainbowhorn_note"] = [[
+找到并点击|cffffff00符文牡鹿的巨角|r来召唤稀有。角可以在炽蓝仙野多个地点刷新。
+
+他总是在瓦尔仙林北侧刷新，所以设定 {item:6948} 到这里并留意区域的表情。
+
+|cffff5400品|r|cffffaa00尝|r|cffffff00绝|r|cffaaff00妙|r|cff54ff00的|r |cff00ff55美|r|cff00ffa9丽|r|cff00ffff的|r |cff0055ff七|r|cff0000ff彩|r|cff5400ff之|r|cffaa00ff虹|r|cffff00ff好|r|cffff00aa味|r|cffff0054道|r|cffff0000！|r
+]]
 L["rootwrithe_note"] = "触碰 {npc:167928} 直到稀有出现。"
 L["rotbriar_note"] = "和 {npc:171684} 交谈对话后在附近召唤稀有。"
 L["slumbering_note"] = "跑到迷雾中将昏迷并被带出。使用信号弹或带 AOE 的宠物把他击出迷雾。"
@@ -91,7 +97,7 @@ L["options_icons_faerie_tales_desc"] = "显示 {achievement:14788} 成就中失�
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["aegeon_note"] = nil
+L["aegeon_note"] = "杀死周围地区的敌人，直到艾格翁作为增援刷新。"
 L["ascended_council_note"] = "与其他四名玩家，同时点击五个神庙的暮钟召唤候选者试练场的 {npc:170899}。"
 L["aspirant_eolis_note"] = "拾取附近的 {item:180613} 并与 NPC 目标阅读激活他。"
 L["baedos_note"] = "从周围地区带一桶发酵的莲榴果给 {npc:161536} 直到她激活。"
@@ -434,15 +440,16 @@ L["chaotic_riftstone_note"] = [[
 L["venari_note"] = [[
 使用 {currency:1767} 购买噬渊和托加斯特升级。"
 
-解锁后，下面的完成状态将更新！
+|cFFFF8C00帐号通用托加斯特升级在小号上显示不完整！|r
+|cFFFF8C00解锁后，下面的完成状态将更新！|r
 ]]
 L["venari_upgrade"] = "{npc:162804} 升级"
-L["torghast"] = nil
-L["Ambivalent"] = nil
-L["Appreciative"] = nil
-L["Apprehensive"] = nil
-L["Cordial"] = nil
-L["Tentative"] = nil
+L["torghast"] = "托加斯特"
+L["Ambivalent"] = "纠结"
+L["Appreciative"] = "欣赏"
+L["Apprehensive"] = "防备"
+L["Cordial"] = "和善"
+L["Tentative"] = "犹豫"
 
 L["options_icons_bonus_boss"] = "奖励精英"
 L["options_icons_bonus_boss_desc"] = "显示奖励精英位置。"
