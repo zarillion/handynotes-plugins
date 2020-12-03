@@ -152,7 +152,7 @@ Detrás del cofre hay una plataforma de vuelo llamada "Camino de la Sabiduría".
 • Incienso de la Perspicacia
 • Incienso del Juicio
 
-Comulga con ellos en el orden Paciencia => Conocimiento => Perspicacia. En la plataforma del Juicio aparecerá un orbe llamado "Camino de la Sabiduría Perspicaz".
+Comulga con ellos en el orden Paciencia => Conocimiento => Perspicacia. En la plataforma del Juicio aparecerá un orbe llamado "Camino del Juicio".
 
 El orbe te llevará al verdadero Incienso del Juicio. Comulga con él y aparecerá la última plataforma de vuelo que te dará la {spell:333068} al abrir el cofre.
 ]]
