@@ -165,8 +165,7 @@ map.nodes[45847919] = Rare({
         Mount({item=180461, id=1310}) -- Horrid Brood Dredwing
     },
     pois={
-        POI({43257769}), -- Ballista Bolt
-        POI({41187469, 40917690}) -- Dredhollow Tools
+        POI({43257769}) -- Ballista Bolt
     }
 }) -- Harika the Horrid
 

@@ -544,7 +544,7 @@ map.nodes[46914169] = NPC({
         Section(L["torghast"]),
         Item({item=184620, quest=63202, note=L["Apprehensive"]}), -- Vessel of Unforunate Spirits
         Item({item=184615, quest=63183, note=L["Apprehensive"]}), -- Extradimensional Pockets
-        Item({item=184617, quest=nil, note=L["Tentative"]}), -- Bangle of Seniority
+        Item({item=184617, quest=63193, note=L["Tentative"]}), -- Bangle of Seniority
         Item({item=184621, quest=nil, note=L["Ambivalent"]}), -- Ritual Prism of Fortune
         Item({item=184618, quest=nil, note=L["Cordial"]}), -- Rank Insignia: Acquisitionist
         Item({item=184619, quest=nil, note=L["Cordial"]}), -- Loupe of Unusual Charm

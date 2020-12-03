@@ -73,6 +73,7 @@ local VIGNETTES = {
     -- [4244] = {}, -- Wish Cricket
     -- [4263] = {}, -- Silver Strongbox
     -- [4266] = {}, -- Silver Strongbox
+    -- [4269] = {}, -- Silver Strongbox
     -- [4270] = {}, -- Silver Strongbox
     -- [4271] = {}, -- Silver Strongbox
     -- [4272] = {}, -- Silver Strongbox

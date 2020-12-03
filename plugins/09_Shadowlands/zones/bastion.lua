@@ -300,7 +300,8 @@ local SWELLING_TEAR = Rare({
             {id=50609, quest=61047}, -- Worldfeaster Chronn
             {id=50608, quest=61046}, -- Xixin the Ravening
         }}),
-        Transmog({item=183605, slot=L["warglaive"]}) -- Devourer Wrought Warglaive
+        Transmog({item=183605, slot=L["warglaive"]}), -- Devourer Wrought Warglaive
+        Pet({item=180869, id=2940}) -- Devoured Wader
     }
 }) -- Swelling Tear
 

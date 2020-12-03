@@ -335,11 +335,7 @@ L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell
 L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."
 L["famu_note"] = "Talk to {npc:166483} to trigger the event."
 L["grand_arcanist_dimitri_note"] = "Kill the four {npc:167467} to release the rare."
-L["harika_note"] = [[
-|cFFFF0000IMPORTANT:|r Items must be handed in in the correct order or the event will bug!
-
-In Dredhollow to the west, loot the {item:176397} and both sets of {item:176396}. Give the tools to both {npc:165328} near the ballista, then turn the bolt into {npc:165327} and tell him to bring down the rare.
-]]
+L["harika_note"] = "In Dredhollow to the west, loot the {item:176397}, then turn the bolt into {npc:165327} and tell him to bring down the rare."
 L["innervus_note"] = "Kill nearby {npc:160375s} to obtain a {item:177223} and unlock the crypt."
 L["leeched_soul_note"] = "Inside the nearby crypt. Walk near {npc:165151} to start the event."
 L["lord_mortegore_note"] = "Kill surrounding mobs to obtain {item:174378} and use it to empower a {npc:161870}. The rare will spawn once all four sigils are empowered."
