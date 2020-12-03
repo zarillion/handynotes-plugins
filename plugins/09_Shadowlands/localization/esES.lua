@@ -93,6 +93,7 @@ L["options_icons_faerie_tales_desc"] = "Muestra las localizaciones de los libros
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
+L["aegeon_note"] = nil
 L["ascended_council_note"] = "Con otros cuatro jugadores, hay que hacer click en los cinco templos de campanas de vísperas al mismo tiempo para invocar a {npc:170899} en el Crisol del Aspirante."
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con el {npc:171211} como objetivo para activarlo."
 L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."

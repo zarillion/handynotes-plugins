@@ -92,6 +92,7 @@ L["options_icons_faerie_tales_desc"] = "Zeigt die verlorenen Bücher für den Er
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
+L["aegeon_note"] = nil
 L["ascended_council_note"] = "Läute gleichzeitig mit vier anderen Spielern die fünf Tempelvesperglocken, um den {npc:170899} beim Prüfstein des Aspiranten zu beschworen."
 L["aspirant_eolis_note"] = "Plündere {item:180613} in der Nähe und lese es ihm vor. Es erscheint eine Truhe."
 L["baedos_note"] = "Trage zum Aktivieren, Fässchen mit fermentierenden Purianfrüchten aus der Umgebung zu {npc:161536}."

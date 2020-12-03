@@ -92,6 +92,7 @@ L["options_icons_faerie_tales_desc"] = "Показать местонахожд�
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
+L["aegeon_note"] = nil
 L["ascended_council_note"] = "With four other players, click the five Vespers of Purity, Courage, Humility, Wisdom and Loyalty at the same time. Afterwards, head to Aspirant's Crucible to defeat the Ascended Council and reveal the cache."
 L["aspirant_eolis_note"] = "Обыскать поблизости {item:180613} и прочитать его с помощью НПС, нацеленного на его активацию."
 L["baedos_note"] = "Carry casks of Fermenting Purian Fruit from the surrounding area to {npc:161536} until he activates."

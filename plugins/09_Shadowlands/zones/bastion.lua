@@ -194,8 +194,10 @@ map.nodes[45546459] = Rare({
 map.nodes[51151953] = Rare({
     id=171009,
     quest=60998,
+    note=L["aegeon_note"],
     rewards={
-        Achievement({id=14307, criteria=50605})
+        Achievement({id=14307, criteria=50605}),
+        Toy({item=184404}) -- Ever-Abundant Hearth
     },
     pois={
         Path({

@@ -93,6 +93,7 @@ L["options_icons_faerie_tales_desc"] = nil
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
+L["aegeon_note"] = nil
 L["ascended_council_note"] = "Avec quatre autres joueurs, cliquez sur les cinq Vêpres de la pureté, du courage, de l'humilité, de la sagesse et de la loyauté en même temps. Ensuite, dirigez-vous vers le Creuset de l'aspirant pour vaincre le Conseil des Transcendés et révéler la cache."
 L["aspirant_eolis_note"] = "Prenez un {item:180613} à proximité et lisez-le avec le PNJ ciblé pour l'activer."
 L["baedos_note"] = "Transportez les fûts de fruits de purian fermentés des alentours vers {npc:161536} jusqu'à son activation."

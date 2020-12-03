@@ -97,6 +97,7 @@ L["options_icons_faerie_tales_desc"] = "Display lost book locations for the {ach
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
+L["aegeon_note"] = "Kill enemies in the surrounding area until Aegeon spawns as a reinforcement."
 L["ascended_council_note"] = "With four other players, click the five temple vespers at the same time to summon the {npc:170899} at Aspirant's Crucible."
 L["aspirant_eolis_note"] = "Loot a nearby {item:180613} and read it with the NPC targeted to activate him."
 L["baedos_note"] = "Carry casks of Fermenting Purian Fruit from the surrounding area to {npc:161536} until he activates."
