@@ -335,11 +335,7 @@ L["endlurker_note"] = "在微光裂隙顶上点击 {npc:165229} 尸体附近的�
 L["executioner_aatron_note"] = "击杀三个附近的 {npc:166715} 移除 {spell:324872}。"
 L["famu_note"] = "和 {npc:166483} 交谈触发事件。"
 L["grand_arcanist_dimitri_note"] = "击杀四个 {npc:167467} 释放稀有。"
-L["harika_note"] = [[
-|cFFFF0000重要：|r 必须按照正确的顺序上交物品，否则事件会出错！
-
-在惧谷镇西侧，拾取 {item:176397} 和两套 {item:176396}。把两套工具交给弩车附近的 {npc:165328}，然后把箭交给 {npc:165327} 后和他交谈击落稀有。
-]]
+L["harika_note"] = "在惧谷镇西侧，拾取 {item:176397}，然后把箭交给 {npc:165327} 后和他交谈击落稀有。"
 L["innervus_note"] = "击杀附近的 {npc:160375} 获得 {item:177223} 并打开墓穴。"
 L["leeched_soul_note"] = "进入附近的墓穴。走到 {npc:165151} 附近开始事件。"
 L["lord_mortegore_note"] = "击杀周围的怪物获得 {item:174378} 并使用它强化 {npc:161870}。所有四个徽记获得强化，稀有就会刷新。"
@@ -432,12 +428,8 @@ L["exos_note"] = [[
 L["soul_well_note"] = "接住从灵魂之井喷发而出的冥殇。"
 L["obliterated_soul_shards_note"] = "在桥上收集 {item:177834}。"
 
-L["animaflow_teleporter_note"] = nil
-L["chaotic_riftstone_note"] = [[
-激活 {spell:344157} 快速穿过噬渊。"
-
-需要从 {npc:162804} 升级 {item:184613}。
-]]
+L["animaflow_teleporter_note"] = "激活即可直接前往特玛库伦。"
+L["chaotic_riftstone_note"] = "激活 {spell:344157} 快速穿过噬渊。"
 L["venari_note"] = [[
 使用 {currency:1767} 购买噬渊和托加斯特升级。"
 
@@ -452,16 +444,16 @@ L["Apprehensive"] = "防备"
 L["Cordial"] = "和善"
 L["Tentative"] = "犹豫"
 
-L["stygian_cache"] = nil
-L["stygian_cache_note"] = nil
+L["stygian_cache"] = "冥殇宝箱"
+L["stygian_cache_note"] = "每次刷新只有一人可以拾取宝箱！"
 
 L["options_icons_bonus_boss"] = "奖励精英"
 L["options_icons_bonus_boss_desc"] = "显示奖励精英位置。"
 L["options_icons_bonus_event"] = "奖励事件"
 L["options_icons_bonus_event_desc"] = "显示奖励事件位置。"
-L["options_icons_riftstone"] = "混乱裂隙石"
+L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "显示混乱裂隙石传送者位置。"
-L["options_icons_grapples"] = nil
-L["options_icons_grapples_desc"] = nil
-L["options_icons_stygian_caches"] = nil
-L["options_icons_stygian_caches_desc"] = nil
+L["options_icons_grapples"] = "{npc:176308}"
+L["options_icons_grapples_desc"] = "显示 {item:184653} 升级锚点的位置。"
+L["options_icons_stygian_caches"] = "冥殇宝箱"
+L["options_icons_stygian_caches_desc"] = "显示获取额外冥殇的宝箱位置。"
