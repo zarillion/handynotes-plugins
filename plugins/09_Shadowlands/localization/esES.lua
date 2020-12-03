@@ -28,7 +28,13 @@ Aparece en varios sitios. Para invocar a {npc:164093}, espera en el Anillo de Ch
 • El Jugador 3 baila con el Jugador 1
 ]]
 L["mymaen_note"] = "Mata duendes Pudrezarza en el área hasta que aparezca {npc:165053}."
-L["rainbowhorn_note"] = "\n|cffff4800¡|r|cffff9100P|r|cffffda00r|r|cffdaff00u|r|cff91ff00e|r|cff48ff00b|r|cff00ff00a|r |cff00ff91e|r|cff00ffdal|r |cff0091ffA|r|cff0048ffr|r|cff0000ffc|r|cff4800ffo|r |cffda00ffI|r|cffff00dar|r|cffff0091i|r|cffff0048s|r|cffff0000!|r"
+L["rainbowhorn_note"] = [[
+Encuentra y haz click en el |cffffff00Gran Cuerno del Venado Rúnico|r para invocar al {npc:164547}. El cuerno puede aparecer en varios sitios a lo largo de Ardenweald.
+
+Siempre aparecerá al norte de Tirna Vaal, así que pon tu {item:6948} allí y estate atento al texto de emoción para toda la zona.
+
+|cffff4800¡|r|cffff9100P|r|cffffda00r|r|cffdaff00u|r|cff91ff00e|r|cff48ff00b|r|cff00ff00a|r |cff00ff91e|r|cff00ffdal|r |cff0091ffA|r|cff0048ffr|r|cff0000ffc|r|cff4800ffo|r |cffda00ffI|r|cffff00dar|r|cffff0091i|r|cffff0048s|r|cffff0000!|r
+]]
 L["rootwrithe_note"] = "Haz click en las {npc:167928} hasta que aparezca el {npc=167726}."
 L["rotbriar_note"] = "Habla con {npc:171684} y comenzará a cantar. Tras algo de diálogo, aparecerá {npc:167724} cerca."
 L["slumbering_note"] = "Correr hacia la niebla te dormirá en pocos segundos y te alejará. Usa una bengala o una mascota con daño en área para sacar al {npc=167721} fuera de la niebla."
@@ -93,7 +99,7 @@ L["options_icons_faerie_tales_desc"] = "Muestra las localizaciones de los libros
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["aegeon_note"] = nil
+L["aegeon_note"] = "Mata enemigos alrededor de la zona hasta que aparezca el {npc:171009}."
 L["ascended_council_note"] = "Con otros cuatro jugadores, hay que hacer click en los cinco templos de campanas de vísperas al mismo tiempo para invocar a {npc:170899} en el Crisol del Aspirante."
 L["aspirant_eolis_note"] = "Despoja un {item:180613} en las cercanías y leelo con el {npc:171211} como objetivo para activarlo."
 L["baedos_note"] = "Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}."
@@ -331,11 +337,7 @@ L["endlurker_note"] = "Haz click en el Poste de Ánima cerca del cuerpo del {npc
 L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar la {spell:324872} del {npc:166710}."
 L["famu_note"] = "Habla con la {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}."
 L["grand_arcanist_dimitri_note"] = "Mata a los cuatro {npc:167467} para liberar al {npc:167464}."
-L["harika_note"] = [[
-|cFFFF0000IMPORTANT:|r ¡Los objetos han de entregarse en el orden correcto o el evento se bugeará!
-
-En Cuenca Aterradora al oeste, despoja la {item:176397} y dos {item:176396}. Dale las dos herramientas al {npc:165328} cerca de la balista. Después devuelve la {item:176397} al {npc:165327} y dile que derribe a {npc:165290}.
-]]
+L["harika_note"] = "En Cuenca Aterradora al oeste, despoja el {item:176397}, entregáselo a {npc:165327} y dile que derribe a {npc:165290}."
 L["innervus_note"] = "Mata a los {npc:160375} cercanos para conseguir la {item:177223} y desbloquear la cripta donde está {npc:160640}."
 L["leeched_soul_note"] = "Dentro de una cripta cercana. Pasa cerca del {npc:165151} para comenzar el evento tras el cual aparecerá el {npc:165152}."
 L["lord_mortegore_note"] = "Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}."
@@ -428,35 +430,32 @@ Combina los tres grabados para crear la {item:182329}, la cual puede ser usada p
 L["soul_well_note"] = "Atrapa la Estigia que sale del Pozo de Almas."
 L["obliterated_soul_shards_note"] = "Recoge {item:177834} en los puentes."
 
-L["animaflow_teleporter_note"] = nil
-L["chaotic_riftstone_note"] = [[
-Activa el {spell:344157} para cruzar rápidamente por Las Fauces.
-
-Require la mejora {item:184613} de {npc:162804}.
-]]
+L["animaflow_teleporter_note"] = "Actívalo para viajar directamente al Tremaculum."
+L["chaotic_riftstone_note"] = "Activa el {spell:344157} para cruzar rápidamente por Las Fauces."
 L["venari_note"] = [[
 Usa {currency:1767} para comprar mejoras en Las Fauces y Torghast.
 
-¡El estado de finalización se actualizará a continuación a medida que las desbloqueemos!
+|cFFFF8C00Las mejoras Compartidas en la Cuenta de Torghast se mostrarán como incompletas en los alters!|r
+|cFFFF8C00¡El estado de finalización se actualizará a continuación a medida que las desbloqueemos!|r
 ]]
 L["venari_upgrade"] = "Mejora de {npc:162804}"
-L["torghast"] = nil
-L["Ambivalent"] = nil
-L["Appreciative"] = nil
-L["Apprehensive"] = nil
-L["Cordial"] = nil
-L["Tentative"] = nil
+L["torghast"] = "Torghast"
+L["Ambivalent"] = "Ambivalente"
+L["Appreciative"] = "Agradecida"
+L["Apprehensive"] = "Aprensiva"
+L["Cordial"] = "Cordial"
+L["Tentative"] = "Indecisa"
 
-L["stygian_cache"] = nil
-L["stygian_cache_note"] = nil
+L["stygian_cache"] = "Alijo de Estigia"
+L["stygian_cache_note"] = "¡Sólo una persona puede despojar el alijo cada vez que aparezca!"
 
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
 L["options_icons_bonus_boss_desc"] = "Muestra las localizaciones de los élites de bonificación."
 L["options_icons_bonus_event"] = "Eventos de Bonificación"
 L["options_icons_bonus_event_desc"] = "Muestra las localizaciones de los eventos de bonificación."
-L["options_icons_riftstone"] = "Piedras de Falla Caóticas"
+L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "Muestra las localizaciones de los teletransportadores de piedras de falla caóticas."
-L["options_icons_grapples"] = nil
-L["options_icons_grapples_desc"] = nil
-L["options_icons_stygian_caches"] = nil
-L["options_icons_stygian_caches_desc"] = nil
+L["options_icons_grapples"] = "{npc:176308}"
+L["options_icons_grapples_desc"] = "Muestra las localizaciones de los agarres para la mejora {item:184653}."
+L["options_icons_stygian_caches"] = "Alijos de Estigia"
+L["options_icons_stygian_caches_desc"] = "Muestra las localizaciones de los alijos con Estigia extra."
