@@ -119,8 +119,8 @@ L["options_toggle_maximized_enlarged"] = "Agrandar iconos en el mapa del mundo m
 L["options_toggle_maximized_enlarged_desc"] = "Cuando el mapa del mundo está maximizado, agranda todos los iconos."
 L["options_toggle_use_char_achieves"] = "Mostrar logros de personaje"
 L["options_toggle_use_char_achieves_desc"] = "Muestra el progreso de logros para este personaje en lugar de para toda la cuenta."
-L["options_toggle_per_map_settings"] = nil
-L["options_toggle_per_map_settings_desc"] = nil
+L["options_toggle_per_map_settings"] = "Usar opciones específicas para cada zona"
+L["options_toggle_per_map_settings_desc"] = "Aplicar opciones, escalado y opacidad para cada zona individualmente."
 L["options_restore_hidden_nodes"] = "Restaurar los nodos ocultos"
 L["options_restore_hidden_nodes_desc"] = "Vuelve a mostrar todos los nodos ocultos usando el menú contextual con click-derecho."
 
