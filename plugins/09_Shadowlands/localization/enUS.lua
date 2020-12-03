@@ -150,7 +150,7 @@ Behind the chest is a flight pad called "Path of Wisdom". This leads to a sequen
 • Incense of Insight
 • Incense of Judgement
 
-Commune with them in the order Patience => Knowledge => Insight. On the Judgement platform an orb called the "Path of Insightful Wisdom" will appear.
+Commune with them in the order Patience => Knowledge => Insight. On the Judgement platform an orb called the "Path of Judgement" will appear.
 
 The orb will take you to the true Incense of Judgment. Commune with it and the final flight pad will grant you {spell:333068} to open the chest.
 ]]
