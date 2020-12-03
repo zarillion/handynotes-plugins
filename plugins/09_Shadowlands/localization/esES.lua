@@ -428,6 +428,7 @@ Combina los tres grabados para crear la {item:182329}, la cual puede ser usada p
 L["soul_well_note"] = "Atrapa la Estigia que sale del Pozo de Almas."
 L["obliterated_soul_shards_note"] = "Recoge {item:177834} en los puentes."
 
+L["animaflow_teleporter_note"] = nil
 L["chaotic_riftstone_note"] = [[
 Activa el {spell:344157} para cruzar rápidamente por Las Fauces.
 
@@ -446,9 +447,16 @@ L["Apprehensive"] = nil
 L["Cordial"] = nil
 L["Tentative"] = nil
 
+L["stygian_cache"] = nil
+L["stygian_cache_note"] = nil
+
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
 L["options_icons_bonus_boss_desc"] = "Muestra las localizaciones de los élites de bonificación."
 L["options_icons_bonus_event"] = "Eventos de Bonificación"
 L["options_icons_bonus_event_desc"] = "Muestra las localizaciones de los eventos de bonificación."
 L["options_icons_riftstone"] = "Piedras de Falla Caóticas"
 L["options_icons_riftstone_desc"] = "Muestra las localizaciones de los teletransportadores de piedras de falla caóticas."
+L["options_icons_grapples"] = nil
+L["options_icons_grapples_desc"] = nil
+L["options_icons_stygian_caches"] = nil
+L["options_icons_stygian_caches_desc"] = nil

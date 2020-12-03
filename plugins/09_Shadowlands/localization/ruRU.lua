@@ -421,6 +421,7 @@ L["exos_note"] = [[
 L["soul_well_note"] = "Поймайте Стигию, извергающуюся из Колодца душ."
 L["obliterated_soul_shards_note"] = "Соберите {item:177834} на мостах."
 
+L["animaflow_teleporter_note"] = nil
 L["chaotic_riftstone_note"] = [[
 Активируйте, чтобы быстро {spell:344157} перейти через Утробу.
 
@@ -435,9 +436,16 @@ L["Apprehensive"] = nil
 L["Cordial"] = nil
 L["Tentative"] = nil
 
+L["stygian_cache"] = nil
+L["stygian_cache_note"] = nil
+
 L["options_icons_bonus_boss"] = "Бонусные элитные монстры"
 L["options_icons_bonus_boss_desc"] = "Отображение местоположения бонусных элитных монстров."
 L["options_icons_bonus_event"] = "Бонусные события"
 L["options_icons_bonus_event_desc"] = "Отображение местоположение бонусных событий."
 L["options_icons_riftstone"] = "Хаотичный камень разлома"
 L["options_icons_riftstone_desc"] = "Отображение местоположения хаотичных каменей разлома."
+L["options_icons_grapples"] = nil
+L["options_icons_grapples_desc"] = nil
+L["options_icons_stygian_caches"] = nil
+L["options_icons_stygian_caches_desc"] = nil

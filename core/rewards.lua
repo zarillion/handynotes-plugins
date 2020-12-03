@@ -182,6 +182,21 @@ function Achievement:GetLines()
 end
 
 -------------------------------------------------------------------------------
+----------------------------------- CURRENCY ----------------------------------
+-------------------------------------------------------------------------------
+
+local Currency = Class('Currency', Reward)
+
+function Currency:GetText()
+    local info = C_CurrencyInfo.GetCurrencyInfo(self.id)
+    local text = C_CurrencyInfo.GetCurrencyLink(self.id, 0)
+    if self.note then -- additional info
+        text = text..' ('..self.note..')'
+    end
+    return Icon(info.iconFileID)..text
+end
+
+-------------------------------------------------------------------------------
 ------------------------------------ ITEM -------------------------------------
 -------------------------------------------------------------------------------
 
@@ -405,6 +420,7 @@ ns.reward = {
     Section=Section,
     Spacer=Spacer,
     Achievement=Achievement,
+    Currency=Currency,
     Item=Item,
     Mount=Mount,
     Pet=Pet,

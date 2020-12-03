@@ -426,6 +426,7 @@ Combinez les trois gravures pour créer {item:182329}, qui peut être utilisé p
 L["soul_well_note"] = "Attrapez la Stygie qui jaillit du Puit d'âmes."
 L["obliterated_soul_shards_note"] = "Collectez des éclats d'âme oblitérés sur les ponts."
 
+L["animaflow_teleporter_note"] = nil
 L["chaotic_riftstone_note"] = "Activer pour {spell:344157} rapidement à travers l'Antre."
 L["venari_note"] = "Utilisez {currency:1767} pour acheter des améliorations pour l'Antre et Tourment."
 L["venari_upgrade"] = "Améliorations de {npc:162804}"
@@ -436,10 +437,16 @@ L["Apprehensive"] = nil
 L["Cordial"] = nil
 L["Tentative"] = nil
 
+L["stygian_cache"] = nil
+L["stygian_cache_note"] = nil
+
 L["options_icons_bonus_boss"] = "Élites bonus"
 L["options_icons_bonus_boss_desc"] = "Afficher les emplacements des élites bonus."
 L["options_icons_bonus_event"] = "Événements bonus"
 L["options_icons_bonus_event_desc"] = "Afficher les emplacements des événements bonus."
 L["options_icons_riftstone"] = "Failles Chaotiques"
 L["options_icons_riftstone_desc"] = "Affichez les emplacements des téléporteurs de Failles Chaotiques"
-
+L["options_icons_grapples"] = nil
+L["options_icons_grapples_desc"] = nil
+L["options_icons_stygian_caches"] = nil
+L["options_icons_stygian_caches_desc"] = nil

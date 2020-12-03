@@ -428,11 +428,8 @@ Combine all three etchings to create the {item:182329}, which can be used to sum
 L["soul_well_note"] = "Catch the Stygia erupting from the Soul Well."
 L["obliterated_soul_shards_note"] = "Collect {item:177834s} on the bridges."
 
-L["chaotic_riftstone_note"] = [[
-Activate to {spell:344157} quickly across the Maw.
-
-Requires the {item:184613} upgrade from {npc:162804}.
-]]
+L["animaflow_teleporter_note"] = "Activate to travel directly to the Tremaculum."
+L["chaotic_riftstone_note"] = "Activate to {spell:344157} quickly across the Maw."
 L["venari_note"] = [[
 Use {currency:1767} to purchase Maw and Torghast upgrades.
 
@@ -447,9 +444,16 @@ L["Apprehensive"] = nil
 L["Cordial"] = nil
 L["Tentative"] = nil
 
+L["stygian_cache"] = "Stygian Cache"
+L["stygian_cache_note"] = "Only one person can loot the cache each time it spawns!"
+
 L["options_icons_bonus_boss"] = "Bonus Elites"
 L["options_icons_bonus_boss_desc"] = "Display locations of bonus elites."
 L["options_icons_bonus_event"] = "Bonus Events"
 L["options_icons_bonus_event_desc"] = "Display locations of bonus events."
-L["options_icons_riftstone"] = "Chaotic Riftstones"
+L["options_icons_riftstone"] = "{npc:174962s}"
 L["options_icons_riftstone_desc"] = "Display the locations of chaotic riftstone teleporters."
+L["options_icons_grapples"] = "{npc:176308s}"
+L["options_icons_grapples_desc"] = "Display grapple locations for the {item:184653} upgrade."
+L["options_icons_stygian_caches"] = "Stygian Caches"
+L["options_icons_stygian_caches_desc"] = "Display cache locations containing extra Stygia."

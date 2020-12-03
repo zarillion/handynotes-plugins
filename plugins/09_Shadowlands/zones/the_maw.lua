@@ -17,6 +17,8 @@ local Section = ns.reward.Section
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Arrow = ns.poi.Arrow
+local Line = ns.poi.Line
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -113,7 +115,7 @@ map.nodes[49128175] = Rare({
     }
 }) -- Darklord Taraxis
 
-map.nodes[32946646] = Rare({
+map.nodes[28086058] = Rare({
     id=170711,
     quest=60909,
     rewards={
@@ -206,7 +208,7 @@ map.nodes[23692139] = Rare({
     }
 }) -- Orophea
 
-map.nodes[30726036] = Rare({
+map.nodes[32946646] = Rare({
     id=170634,
     quest=60884,
     rewards={
@@ -266,7 +268,7 @@ map.nodes[37676591] = Rare({
 -------------------------------------------------------------------------------
 
 local BonusBoss = Class('BonusBoss', NPC, {
-    icon = 'peg_wr',
+    icon = 'peg_rd',
     scale = 1.8,
     group = ns.groups.BONUS_BOSS
 })
@@ -279,7 +281,7 @@ map.nodes[28204450] = BonusBoss({
     }
 }) -- Agonix
 
-map.nodes[26075498] = BonusBoss({
+map.nodes[34087453] = BonusBoss({
     id=170787,
     quest=60920,
     rewards={
@@ -446,7 +448,7 @@ map.nodes[40705959] = BonusBoss({
 -------------------------------------------------------------------------------
 
 local BonusEvent = Class('BonusEvent', ns.node.Quest, {
-    icon = 'peg_wy',
+    icon = 'peg_yw',
     scale = 1.8,
     group = ns.groups.BONUS_EVENT,
     note = ''
@@ -464,65 +466,105 @@ map.nodes[27446463] = BonusEvent({ quest=59784, note=L["obliterated_soul_shards_
 -------------------------------------------------------------------------------
 
 local Riftstone = Class('Riftstone', ns.node.NPC, {
-    id = 174962,
-    scale = 1.3,
-    group = ns.groups.RIFTSTONE,
-    requires = ns.requirement.Venari(63177),
-    note = L["chaotic_riftstone_note"]
+    id=174962,
+    scale=1.3,
+    group=ns.groups.RIFTSTONE,
+    requires=ns.requirement.Venari(63177),
+    note=L["chaotic_riftstone_note"]
 })
 
 -------------------------------------------------------------------------------
 
 map.nodes[19184778] = Riftstone({
     icon='portal_r',
-    pois = {
-        Path({
-            19184778, 19514836, 20374847, 20814712, 21054574, 21284422,
-            21474288, 21674130, 21883962, 22093797, 22283651, 22523492,
-            22793322, 23023168, 23163023, 23072884, 22642774, 22172670,
-            22192555, 22632442, 23262330, 23952216, 24552100, 25181974,
-            25751848, 25211784
-        })
-    }
+    fgroup='riftstone1',
+    pois={Line({19184778, 25211784})}
 })
 
 map.nodes[25211784] = Riftstone({
     icon='portal_r',
-    pois = {
-        Path({
-            25211784, 25591838, 25521963, 25232106, 24772195, 24222297,
-            23772402, 23292515, 22812643, 22382788, 22102923, 21873072,
-            21663233, 21473393, 21303536, 21113691, 20943838, 20793981,
-            20644130, 20494291, 20364444, 20214618, 20074764, 19654902,
-            19184778
-        })
-    }
+    fgroup='riftstone1'
 })
 
 -------------------------------------------------------------------------------
 
 map.nodes[23433121] = Riftstone({
     icon='portal_b',
-    pois = {
-        Path({
-            23433121, 22863048, 22972907, 23842859, 24742908, 25642985,
-            26473071, 27183160, 27983266, 28793372, 29643479, 30453580,
-            31263682, 32143793, 32983903, 33724011, 34214141, 34804362
-        })
-    }
+    fgroup='riftstone2',
+    pois={Line({23433121, 34804362})}
 })
 
 map.nodes[34804362] = Riftstone({
     icon='portal_b',
-    pois = {
-        Path({
-            34804362, 34734255, 34514116, 34083976, 33683863, 33063734,
-            32353625, 31483515, 30653419, 29733318, 28853225, 28063145,
-            27193061, 26212974, 25282901, 24352838, 23382834, 22742938,
-            22693066, 23433121
-        })
+    fgroup='riftstone2'
+})
+
+-------------------------------------------------------------------------------
+
+map.nodes[48284145] = NPC({
+    group=ns.groups.RIFTSTONE,
+    icon='portal_b',
+    id=172925,
+    minimap=false,
+    note=L["animaflow_teleporter_note"],
+    requires=ns.requirement.Venari(61600),
+    scale=1.3,
+    pois={Arrow({48284145, 34181473})}
+})
+
+-------------------------------------------------------------------------------
+---------------------------------- GRAPPLES -----------------------------------
+-------------------------------------------------------------------------------
+
+local GRAPPLES = {
+    17574994, 20753838, 20764394, 21553194, 22014819, 22174389, 22475485,
+    22534798, 22942220, 22956723, 23034411, 23076836, 23676572, 24542916,
+    24833046, 24866552, 25456554, 25633108, 26116811, 26132722, 26306726,
+    26342905, 26541861, 26952753, 27202506, 27362593, 27896168, 28161347,
+    28634916, 29561776, 29661285, 29863694, 29951784, 30033617, 30132835,
+    30582337, 30591312, 30756551, 30942597, 31221584, 31316530, 31351499,
+    31655664, 32056840, 32194490, 32426772, 32674369, 32904238, 33102066,
+    33286365, 33295928, 33374532, 33584024, 33767056, 34074701, 34237005,
+    34463889, 34624440, 35006680, 36244139, 36264642, 37844512, 40334904,
+    41184945, 41304785, 42264174
+}
+
+for _, coord in ipairs(GRAPPLES) do
+    map.nodes[coord] = NPC({
+        group=ns.groups.GRAPPLES,
+        icon='peg_bk',
+        id=176308,
+        requires=ns.requirement.Venari(63217),
+        scale=1.25,
+    })
+end
+
+-------------------------------------------------------------------------------
+------------------------------- STYGIAN CACHES --------------------------------
+-------------------------------------------------------------------------------
+
+local Cache = Class('Cache', ns.node.Node, {
+    group=ns.groups.STYGIAN_CACHES,
+    icon='chest_nv',
+    label=L["stygian_cache"],
+    note=L["stygian_cache_note"],
+    scale=1.3,
+    rewards={
+        ns.reward.Currency({id=1767, note='48'})
     }
 })
+
+map.nodes[15705040] = Cache()
+map.nodes[19604460] = Cache()
+map.nodes[19805500] = Cache()
+map.nodes[24301660] = Cache()
+map.nodes[28402560] = Cache()
+map.nodes[29621283] = Cache()
+map.nodes[35201630] = Cache()
+map.nodes[35902360] = Cache()
+map.nodes[39802510] = Cache()
+map.nodes[44201870] = Cache()
+map.nodes[45204740] = Cache()
 
 -------------------------------------------------------------------------------
 ----------------------------------- VE'NARI -----------------------------------

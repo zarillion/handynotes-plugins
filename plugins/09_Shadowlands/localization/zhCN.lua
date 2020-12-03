@@ -432,6 +432,7 @@ L["exos_note"] = [[
 L["soul_well_note"] = "接住从灵魂之井喷发而出的冥殇。"
 L["obliterated_soul_shards_note"] = "在桥上收集 {item:177834}。"
 
+L["animaflow_teleporter_note"] = nil
 L["chaotic_riftstone_note"] = [[
 激活 {spell:344157} 快速穿过噬渊。"
 
@@ -451,9 +452,16 @@ L["Apprehensive"] = "防备"
 L["Cordial"] = "和善"
 L["Tentative"] = "犹豫"
 
+L["stygian_cache"] = nil
+L["stygian_cache_note"] = nil
+
 L["options_icons_bonus_boss"] = "奖励精英"
 L["options_icons_bonus_boss_desc"] = "显示奖励精英位置。"
 L["options_icons_bonus_event"] = "奖励事件"
 L["options_icons_bonus_event_desc"] = "显示奖励事件位置。"
 L["options_icons_riftstone"] = "混乱裂隙石"
 L["options_icons_riftstone_desc"] = "显示混乱裂隙石传送者位置。"
+L["options_icons_grapples"] = nil
+L["options_icons_grapples_desc"] = nil
+L["options_icons_stygian_caches"] = nil
+L["options_icons_stygian_caches_desc"] = nil
