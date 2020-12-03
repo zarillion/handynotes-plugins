@@ -117,8 +117,8 @@ L["options_toggle_maximized_enlarged"] = "Symbole bei maximierter Weltkarte verg
 L["options_toggle_maximized_enlarged_desc"] = "Wenn die Weltkarte maximiert ist, werden alle Symbole vergrößert."
 L["options_toggle_use_char_achieves"] = "Verwende charakterspezifische Erfolge"
 L["options_toggle_use_char_achieves_desc"] = "Zeigt den Erfolgsfortschritt von diesem Charakter, anstelle des gesamten Accounts an."
-L["options_toggle_per_map_settings"] = nil
-L["options_toggle_per_map_settings_desc"] = nil
+L["options_toggle_per_map_settings"] = "Verwende zonenspezifische Einstellungen"
+L["options_toggle_per_map_settings_desc"] = "Die Einstellungen zum Anzeigen/Ausblenden, die Größe und die Transparenz der Symbole werden auf jede Zone einzeln angewendet."
 L["options_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 L["options_restore_hidden_nodes_desc"] = "Stellt alle Punkte wieder her, die über das Kontextmenü versteckt wurden."
 

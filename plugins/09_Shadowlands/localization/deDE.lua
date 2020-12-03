@@ -26,7 +26,13 @@ Erscheint an verschiedenen Positionen. Zum Beschwören, stelle dich mit 2 andere
 • Spieler 3 tanzt mit Spieler 1
 ]]
 L["mymaen_note"] = "Töte Gegner in dem Gebiet, bis {npc:165053} schreit und erscheint."
-L["rainbowhorn_note"] = "\n|cffff4200S|r|cffff8500C|r|cffffc700H|r|cfff3ff00M|r|cffb1ff00E|r|cff6eff00C|r|cff2cff00K|r |cff00ff58D|r|cff00ff9bE|r|cff00ffddN|r |cff009bffR|r|cff0058ffE|r|cff0016ffG|r|cff2c00ffE|r|cff6e00ffN|r|cffb100ffB|r|cfff300ffO|r|cffff00c7G|r|cffff0085E|r|cffff0042N|r|cffff0000!|r"
+L["rainbowhorn_note"] = [[
+Finde und klicke das |cffffff00Große Horn des Runenhirsches|r an, um den Hirsch zu beschwören. Das Horn kann an mehreren Orten im Ardenwald erscheinen.
+
+Er wird immer nödlich von Tirna Vaal erscheinen, also setze deinen {item:6948} dorthin und halte ausschau nach einem Zonenemote.
+
+|cffff4200S|r|cffff8500C|r|cffffc700H|r|cfff3ff00M|r|cffb1ff00E|r|cff6eff00C|r|cff2cff00K|r |cff00ff58D|r|cff00ff9bE|r|cff00ffddN|r |cff009bffR|r|cff0058ffE|r|cff0016ffG|r|cff2c00ffE|r|cff6e00ffN|r|cffb100ffB|r|cfff300ffO|r|cffff00c7G|r|cffff0085E|r|cffff0042N|r|cffff0000!|r
+]]
 L["rootwrithe_note"] = "Pike die |CFFFFFF00Inaktiven Blüten|r an, bis {npc:167726} erscheint." --{npc:167928}
 L["rotbriar_note"] = "Sprich mit {npc:171684} in der Nähe, um {npc:167724} nach einem Dialog zu beschwören."
 L["slumbering_note"] = "In den Nebel zu laufen wird dich betäuben und wieder herausteleportieren. Verwende ein Leuchtfeuer oder Begleiter mit Flächenschaden, um ihn aus dem Nebel zu stoßen."
@@ -92,12 +98,12 @@ L["options_icons_faerie_tales_desc"] = "Zeigt die verlorenen Bücher für den Er
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["aegeon_note"] = nil
+L["aegeon_note"] = "Töte Gegner in der Umgebung, bis Aegeon als Verstärkung erscheint."
 L["ascended_council_note"] = "Läute gleichzeitig mit vier anderen Spielern die fünf Tempelvesperglocken, um den {npc:170899} beim Prüfstein des Aspiranten zu beschworen."
 L["aspirant_eolis_note"] = "Plündere {item:180613} in der Nähe und lese es ihm vor. Es erscheint eine Truhe."
 L["baedos_note"] = "Trage zum Aktivieren, Fässchen mit fermentierenden Purianfrüchten aus der Umgebung zu {npc:161536}."
 L["basilofos_note"] = "Beweg dich auf den Felsen umher, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint."
-L["beasts_of_bastion"] = "Bestien der Bastion" --review Blizzard translation
+L["beasts_of_bastion"] = "Bestien der Bastion"
 L["beasts_of_bastion_note"] = "Sprich mit {npc:161441}, um eine der vier Bestien zu beschwören."
 L["bookkeeper_mnemis_note"] = "Hat die Chance anstelle von {npc:166867} in diesem Gebiet zu erscheinen."
 L["cloudfeather_patriarch_note"] = "Töte {npc:158110n} in diesem Gebiet, bis der Wächter dich angreift."
@@ -335,11 +341,7 @@ L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229s} Leiche (65.4, 
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
 L["famu_note"] = "Sprich mit {npc:166483}, um das Event auszulösen."
 L["grand_arcanist_dimitri_note"] = "Töte die vier |CFFFFFF00Verhüllten Ritualisten|r, um {npc:167464} freizulassen." --{npc:167467}
-L["harika_note"] = [[
-|cFFFF0000WICHTIG:|r Die Gegenstände müssen in der richtigen Reihenfolge abgegeben werden oder das Event wird buggen.
-
-Plündere den {item:176397} in Schauerkuppe und beide Sets von {item:176396}. Gib die Werkzeuge den beiden |CFFFFFF00Dreckgeborenen Handwerkern|r nahe der Balliste, dann gib {npc:165327} den Bolzen und sage ihm er soll {npc:165290} vom Himmel holen.
-]] --{npc:165328}
+L["harika_note"] = "Plündere den {item:176397} in Schauerkuppe, dann gib {npc:165327} den Bolzen und sage ihm, er soll {npc:165290} vom Himmel holen."
 L["innervus_note"] = "Töte |CFFFFFF00Wilde Ritualisten|r in der Gegend, um einen {item:177223} zu erhalten, um die Krypta aufzuschließen." --{npc:160375}
 L["leeched_soul_note"] = "In der nahe gelegenen Krypta. Gehe in die Nähe von {npc:165151}, um das Event zu starten."
 L["lord_mortegore_note"] = "Töte Gegner in der Nähe, um eine {item:174378} zu erhalten und verwende diese, um ein {npc:161870} zu ermächtigen. {npc:161891} wird erscheinen, wenn alle vier Siegel ermächtigt wurden."
@@ -413,7 +415,7 @@ L["dekaris_note"] = "Auf einem großen hervorstehenden Felsen."
 L["drifting_sorrow_note"] = "Töte {npc:175246} in der Nähe der schwebenden Kugel, um den Boss zu aktivieren."
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
 L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen."
-L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, zum aktivieren." --review
+L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, um sie zu aktivieren."
 L["sanngror_note"] = "\nWenn er gerade nicht angreifbar ist, dann warte bis er nicht mehr mit Seelen experimentiert."
 L["talaporas_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331800}, um {npc:170302} zu beschwören."
 L["valis_note"] = "Klicke die drei {npc:174810} in der richtigen Reihenfolge an, um {npc:173086} zu beschwören. Die Reihenfolge ändert sich jedes Mal und wenn die falsche Rune angeklickt wird, erleidest du Schaden und wirst mit dem Schwachungszauber {spell:343636} belegt."
@@ -430,37 +432,33 @@ Kombiniere alle drei Gravuren, um den {item:182329} herzustellen, welcher am Alt
 ]]
 
 L["soul_well_note"] = "Fangt die aus dem Seelenbrunnen ausbrechende Stygia."
-L["obliterated_soul_shards_note"] = "Sammel Ausgelöschte Seelensplitter auf den Brücken." --review Blizzard translation
+L["obliterated_soul_shards_note"] = "Sammel Ausgelöschte Seelensplitter auf den Brücken."
 
-L["animaflow_teleporter_note"] = nil
-L["chaotic_riftstone_note"] = [[
-Aktiviere ihn, um mit einem {spell:344157} schnell durch den Schlund zu reisen.
-
-Benötigt die Aufwertung {item:184613} von {npc:162804}.
-]]
+L["animaflow_teleporter_note"] = "Bei Aktivierung gelangst du direkt zum Tremaculum."
+L["chaotic_riftstone_note"] = "Bei Aktivierung reist du mit einem {spell:344157} schnell durch den Schlund."
 L["venari_note"] = [[
 Verwende {currency:1767} dazu, um dauerhafte Aufwertungen für den Schlund und Torghast freizuschalten.
 
-Der Status für die Vervollständigung unten, wird aktualisiert, sobald wir sie freischalten!
+|cFFFF8C00Accountweite Aufwertungen für Torghast werden bei Twinks als unvollständig angezeigt!|r
+|cFFFF8C00Der Status für die Vervollständigung unten, wird aktualisiert, sobald wir sie freischalten!|r
 ]]
 L["venari_upgrade"] = "eine Aufwertung von {npc:162804}"
-L["torghast"] = nil
+L["torghast"] = "Torghast"
 L["Ambivalent"] = "Zwiespältig"
 L["Appreciative"] = "Wertschätzend"
 L["Apprehensive"] = "Besorgt"
 L["Cordial"] = "Herzlich"
 L["Tentative"] = "Unverbindlich"
 
-L["stygian_cache"] = nil
-L["stygian_cache_note"] = nil
-
+L["stygian_cache"] = "Stygische Truhe"
+L["stygian_cache_note"] = "Nur einen Spieler kann die Truhe plündern, wenn sie erscheint!"
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"
 L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."
 L["options_icons_bonus_event"] = "Bonus Events"
 L["options_icons_bonus_event_desc"] = "Zeigt die Positionen von Bonus Events."
 L["options_icons_riftstone"] = "Chaotische Risssteine"
 L["options_icons_riftstone_desc"] = "Zeigt die Positionen von Chaotischen Risssteinen an."
-L["options_icons_grapples"] = nil
-L["options_icons_grapples_desc"] = nil
-L["options_icons_stygian_caches"] = nil
-L["options_icons_stygian_caches_desc"] = nil
+L["options_icons_grapples"] = "{npc:176308}"
+L["options_icons_grapples_desc"] = "Zeigt Grapple Points für die {item:184653} Aufwertung an."
+L["options_icons_stygian_caches"] = "Stygische Truhen"
+L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
