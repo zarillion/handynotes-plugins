@@ -117,6 +117,8 @@ L["options_toggle_maximized_enlarged"] = "Augmenter la taille des icones sur la 
 L["options_toggle_maximized_enlarged_desc"] = "Quand la carte du monde est en plein écran, augmente la taille des icones"
 L["options_toggle_use_char_achieves"] = "Utilisez les hauts faits du joueur"
 L["options_toggle_use_char_achieves_desc"] = "Afficher la progression du haut fait de ce joueur plutôt que du compte complet"
+L["options_toggle_per_map_settings"] = nil
+L["options_toggle_per_map_settings_desc"] = nil
 L["options_restore_hidden_nodes"] = "Restaurer les nœuds cachés"
 L["options_restore_hidden_nodes_desc"] = "Restaure tous les nœuds cachés en utilisant le clic droit du menu contextuel" -- Need review
 
