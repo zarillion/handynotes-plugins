@@ -329,7 +329,7 @@ L["rotgut_note"] = "Rotgut. Leftovers. Extra pieces. You fight."
 
 L["amalgamation_of_filth_note"] = "When the world quest {wq:Dirty Job: Demolition Detail} is available click on a Rubbish Box and use {spell:324115} into the water."
 L["amalgamation_of_light_note"] = "Move all three mirror traps to release the rare."
-L["amalgamation_of_sin_note"] = "Use the Catalyst of Power to obtain {item:180376} from the {wq:Summon Your Sins} world quest, then use the item to summon the rare."
+L["amalgamation_of_sin_note"] = "During the {wq:Summon Your Sins} world quest, pick the Catalyst of Power for a chance to obtain {item:180376}, then use the item to summon the rare."
 L["bog_beast_note"] = "Has a chance to spawn during the world quest {wq:Muck It Up} after using {item:177880} on a {npc:166206}."
 L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."
 L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."

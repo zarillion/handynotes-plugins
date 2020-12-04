@@ -36,6 +36,7 @@ local map = Map({ id=1525, settings=true })
 map.nodes[53247300] = Rare({
     id=166393,
     quest=59854,
+    -- TODO: maybe doesn't need WQ anymore? check back later
     note=L["amalgamation_of_filth_note"],
     rewards={
         Achievement({id=14310, criteria=48814}),
@@ -127,6 +128,7 @@ map.nodes[62484716] = Rare({
     note=L["famu_note"],
     rewards={
         Achievement({id=14310, criteria=48815}),
+        Transmog({item=183739, slot=L["cloth"]}), -- Endmire Wristwarmers
         Mount({item=180582, id=1379}), -- Endmire Flyer
     }
 }) -- Famu the Infinite
@@ -150,7 +152,8 @@ map.nodes[20485298] = Rare({
     quest=60173,
     note=L["grand_arcanist_dimitri_note"],
     rewards={
-        Achievement({id=14310, criteria=48821})
+        Achievement({id=14310, criteria=48821}),
+        Transmog({item=180503, slot=L["dagger"]}) -- Grand Arcanist's Soulblade
     }
 }) -- Grand Arcanist Dimitri
 
@@ -205,7 +208,7 @@ map.nodes[67978179] = Rare({
     rewards={
         Achievement({id=14310, criteria=48809}),
         Transmog({item=183736, slot=L["cloth"]}), -- Pride Resistant Handwraps
-        Pet({item=180585, id=2897}) -- Bottled Up Emotions
+        Pet({item=180585, id=2897}) -- Bottled Up Rage
     }
 }) -- Leeched Soul
 
@@ -225,7 +228,7 @@ map.nodes[49003490] = Rare({
     note=L["manifestation_of_wrath_note"],
     rewards={
         Achievement({id=14310, criteria=48822}),
-        Pet({item=180585, id=2897}) -- Bottled Up Emotions
+        Pet({item=180585, id=2897}) -- Bottled Up Rage
     }
 }) -- Manifestation of Wrath
 
@@ -260,7 +263,7 @@ map.nodes[34045555] = Rare({
 }) -- Sire Ladinas
 
 map.nodes[78934975] = Rare({
-    id=160385,
+    id=160392,
     quest=58130,
     note=L["soulstalker_doina_note"],
     rewards={
