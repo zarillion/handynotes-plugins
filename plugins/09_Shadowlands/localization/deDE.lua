@@ -15,8 +15,8 @@ L["anima_channeled"] = "%s mit Anima versorgt."
 
 L["deifir_note"] = "Reite auf {npc:164238} und verwende die Fähigkeiten {spell:319566} und {spell:319575}, um ihn zu verlangsamen und zu betäuben."
 L["faeflayer_note"] = "In einer kleinen Höhle, versteckt hinter einem Wasserfall."
-L["gormtamer_tizo_note"] = "Töte {npc:166735} und die {npc:166736}, die auf ihm reiten, bis {npc:164110} erscheint."
-L["humongozz_note"] = "Pflanze einen {item:175247} in den feuchten Lehm, um einen {npc:164122} erscheinen zu lassen. Nach einer Minute {spell:319367} wird {npc:164112} erscheinen. Der Pilz wird von mehreren Gegnern in diesem Gebiet fallen gelassen."
+L["gormtamer_tizo_note"] = "Töte Borstenzapfen Kobolde im Nebelschleierdickicht, bis {npc:164110} erscheint."
+L["humongozz_note"] = "Pflanze einen {item:175247} in den feuchten Lehm, um einen {npc:164122} erscheinen zu lassen. Der Pilz wird von mehreren Gegnern in diesem Gebiet fallen gelassen."
 L["lehgo_note"] = "Zerstöre Zitternde Gormeier und töte |CFFFFFF00Wütende Eipfleger|r bis {npc:167851} erscheint. In einer Höhle. (Eingang nach Südosten (58.5, 31.9))." --{npc:171827}
 L["macabre_note"] = [[
 Erscheint an verschiedenen Positionen. Zum Beschwören, stelle dich mit 2 anderen Spielern in den Mysteriösen Pilzring und tanzt miteinander.
@@ -25,7 +25,7 @@ Erscheint an verschiedenen Positionen. Zum Beschwören, stelle dich mit 2 andere
 • Spieler 2 tanzt mit Spieler 3
 • Spieler 3 tanzt mit Spieler 1
 ]]
-L["mymaen_note"] = "Töte Gegner in dem Gebiet, bis {npc:165053} schreit und erscheint."
+L["mymaen_note"] = "Töte Fauldorn Kobolde in dem Gebiet, bis {npc:165053} schreit und erscheint."
 L["rainbowhorn_note"] = [[
 Finde und klicke das |cffffff00Große Horn des Runenhirsches|r an, um den Hirsch zu beschwören. Das Horn kann an mehreren Orten im Ardenwald erscheinen.
 
@@ -107,7 +107,7 @@ L["beasts_of_bastion"] = "Bestien der Bastion"
 L["beasts_of_bastion_note"] = "Sprich mit {npc:161441}, um eine der vier Bestien zu beschwören."
 L["bookkeeper_mnemis_note"] = "Hat die Chance anstelle von {npc:166867} in diesem Gebiet zu erscheinen."
 L["cloudfeather_patriarch_note"] = "Töte {npc:158110n} in diesem Gebiet, bis der Wächter dich angreift."
-L["collector_astor_note"] = "Lies alle sechs Kapitel von Mercias Vermächtnis, die im Raum verstreut sind und das {npc:157979} wird zu dir flüstern. Sprich mit ihr, um {spell:333779} zu erhalten, der es dir erlaubt {item:180569} im Nordwesten zu finden. Wenn das Kapitel zurückgeben wird, erscheint {npc:171014}."
+L["collector_astor_note"] = "Lies alle sechs Kapitel von Mercias Vermächtnis, die im Raum verstreut sind und sprich dann mit dem {npc:157979}, um {spell:333779} zu erhalten. Finde das versteckte {item:180569} in der Umgebung und bringe es zurück, um {npc:171014} zu beschwören."
 L["corrupted_clawguard_note"] = "Plündere {item:180651} in dem Raum oder im Schmiedefeueraußenposten (54.9, 41.0) und verwende es, um die {npc:171300} zu reparieren."
 L["dark_watcher_note"] = "Kann nur während des Todes gesehen werden. Sprich mit ihr und sie wird {spell:332830} auf dich wirken, bevor sie angreift."
 L["demi_hoarder_note"] = "Startet mit 99 Stapeln von {spell:333874} (Reduzierung des erlittenen Schadens). Stapel werden langsam durch Schaden entfernt. {npc:171011} folgt einem Pfad und verschwindet wenn sie das Ende erreicht."
@@ -335,7 +335,7 @@ L["rotgut_note"] = "Faulwanst. Reste. Mehr Teile. Ihr kämpft."
 
 L["amalgamation_of_filth_note"] = "Wenn die Weltquest {wq:Drecksarbeit: Abrisstrupp} verfügbar ist, klicke auf die Abfallkiste und verwende {spell:324115} nahe des Wassers."
 L["amalgamation_of_light_note"] = "Bewege alle drei Spiegelfallen, um {npc:164388} freizulassen."
-L["amalgamation_of_sin_note"] = "Verwende den Katalysator der Kraft, um von der Weltquest {wq:Ruft Eure Sünden Herbei} einen {item:180376} zu erhalten und verwende es, um den {npc:170434} zu beschwören."
+L["amalgamation_of_sin_note"] = "Wähle bei der Weltquest {wq:Ruft Eure Sünden Herbei} den Katalysator der Kraft aus, um möglicherweise einen {item:180376} zu erhalten und verwende diesen, um den {npc:170434} zu beschwören."
 L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest {wq:Losgeschmuddelt} auf einen {npc:166206} {item:177880} angewendet wird."
 L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229s} Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
