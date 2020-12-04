@@ -12,6 +12,7 @@ local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Pet = ns.reward.Pet
 local Quest = ns.reward.Quest
 local Section = ns.reward.Section
 local Toy = ns.reward.Toy
@@ -147,6 +148,7 @@ map.nodes[19194608] = Rare({ -- was 27584966
     quest=57509,
     rewards={
         Achievement({id=14744, criteria=49850}),
+        Pet({item=183407, id=3037}) -- Contained Essence of Dread
     }
 }) -- Eternas the Tormentor
 
@@ -213,6 +215,9 @@ map.nodes[32946646] = Rare({
     quest=60884,
     rewards={
         Achievement({id=14744, criteria=49856}),
+        -- Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
+        -- Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
+        -- Item({item=183068, quest=63162}) -- Korrath's Grimoire: Gyadrek
     }
 }) -- Shadeweaver Zeris
 
@@ -334,6 +339,14 @@ map.nodes[60456478] = BonusBoss({
     }
 }) -- Houndmaster Vasanok
 
+map.nodes[20782968] = BonusBoss({
+    id=162965,
+    quest=58918,
+    rewards={
+        Achievement({id=14660, criteria=49481}),
+    }
+}) -- Huwerath
+
 map.nodes[30846866] = BonusBoss({
     id=170692,
     quest=60903,
@@ -409,14 +422,6 @@ map.nodes[61737795] = BonusBoss({
         POI({59268001}) -- Cave entrance
     }
 }) -- Skittering Broodmother
-
-map.nodes[20782968] = BonusBoss({
-    id=162965,
-    quest=58918,
-    rewards={
-        Achievement({id=14660, criteria=49481}),
-    }
-}) -- Sorath the Sated
 
 map.nodes[36253744] = BonusBoss({
     id=165047,
