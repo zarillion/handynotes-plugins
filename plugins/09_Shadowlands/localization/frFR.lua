@@ -28,7 +28,13 @@ Apparaît en plusieurs endroits. Pour l'invoquer, placez-vous dans le mystérieu
 • Le joueur 3 danse avec le joueur 1
 ]]
 L["mymaen_note"] = "Tuez les lutins putréronce dans la zone jusqu'à ce qu'il lance une émote et apparaisse."
-L["rainbowhorn_note"] = "\n|cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r"
+L["rainbowhorn_note"] = [[
+Trouvez et cliquez sur la |cffffff00Grande corne du cerf runique|r pour invoquer le rare. La corne peut apparaître à plusieurs endroits dans Sylvarden.
+
+Il apparaîtra toujours au nord de Tirna Vaal, fixez votre {item:6948} là et attendez l'émote dans le chat de la zone.
+
+|cffff5400G|r|cffffaa00O|r|cffffff00Û|r|cffaaff00T|r|cff54ff00E|r|cff00ff55Z|r |cff00ffa9À|r |cff00ffffL|r|cff0055ff'|r|cff0000ffA|r|cff5400ffR|r|cffaa00ffC|r|cffff00ff-|r|cffff00aaE|r|cffff0054N|r|cffff0000-|r|cffff5400C|r|cffffaa00I|r|cffffff00E|r|cffaaff00L|r |cff54ff00!|r
+]]
 L["rootwrithe_note"] = "Tapez sur les {npc:167928} jusqu'à ce que le rare apparaisse."
 L["rotbriar_note"] = "Parlez à {npc:171684} à proximité pour faire apparaître le rare après un peu de dialogue."
 L["slumbering_note"] = "Courir dans le brouillard vous assommera et vous éjectera. Utilisez une fusée éclairante ou un familier avec une AOE pour le faire sortir du brouillard."
@@ -85,15 +91,15 @@ Si vous prenez un mauvais chemin et que {npc:171699} disparaît lorsque vous arr
 L["faryl_note"] = "Que la défense de Sylvarden soit menée par les créatures du ciel."
 L["glitterdust_note"] = "Les créatures de Sylvarden peuvent paraître dociles, mais elles défendront leur territoire avec la force et le courage des plus grands champions jamais connus. Avez-vous ce qu'il faut ?"
 
-L["lost_book_note"] = nil
+L["lost_book_note"] = "Rendez ce livre perdu à {npc:165867} dans le Bosquet du Souvenir."
 L["options_icons_faerie_tales"] = "{achievement:14788}"
-L["options_icons_faerie_tales_desc"] = nil
+L["options_icons_faerie_tales_desc"] = "Afficher les emplacements des livres perdus pour la réalisation de {achievement:14788}."
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L["aegeon_note"] = nil
+L["aegeon_note"] = "Tuez des ennemis dans les environs jusqu'à l'apparition d'Aegéon en renfort."
 L["ascended_council_note"] = "Avec quatre autres joueurs, cliquez sur les cinq Vêpres de la pureté, du courage, de l'humilité, de la sagesse et de la loyauté en même temps. Ensuite, dirigez-vous vers le Creuset de l'aspirant pour vaincre le Conseil des Transcendés et révéler la cache."
 L["aspirant_eolis_note"] = "Prenez un {item:180613} à proximité et lisez-le avec le PNJ ciblé pour l'activer."
 L["baedos_note"] = "Transportez les fûts de fruits de purian fermentés des alentours vers {npc:161536} jusqu'à son activation."
@@ -237,8 +243,12 @@ L["nirvaska_note"] = "N'apparaît que lorsque l'expédition {wq:Rappel Mortel} e
 L["sabriel_note"] = "Peut apparaître comme l'un des champions du Théâtre de la souffrance."
 L["schmitd_note"] = "Utilisez la {spell:313451} proche pour briser son bouclier."
 L["taskmaster_xox_note"] = "Partage son apparition avec {npc:160204}, {npc:160230} et {npc:160226}."
-L["theater_of_pain_note"] = nil
-L["zargox_the_reborn_note"] = "Utilisez {item:175841} en plus de la {npc:157124}. Pour obtenir l'orbe, vous devez compléter la quête {quest:57245} de {npc:157076} et lui parler à nouveau."
+L["theater_of_pain_note"] = "Votre premier boss tué chaque jour a une chance de donner la monture."
+L["zargox_the_reborn_note"] = [[
+Utilisez {item:175841} en plus de la {npc:157124}. Pour obtenir l'orbe, vous devez compléter la quête {quest:57245} de {npc:157076} et lui parler à nouveau.
+
+Si la {npc:157124} n'est pas là, réanimez les {npc:157132} dans la zone jusqu'à ce qu'elle apparaisse.
+]]
 L["mixed_pool_note"] = [[
 Rassemblez des ingrédients des monstres environnants et jetez-les dans la bassine. Une fois que 30 ingrédients ont été ajoutés, un des sept rares apparaîtra selon la combinaison utilisée.
 
@@ -248,11 +258,11 @@ Rassemblez des ingrédients des monstres environnants et jetez-les dans la bassi
 
 • Récupérez {spell:306722} sur les {npc:165027} et {npc:166438} au sud.
 ]]
-L["Boneslurp"] = nil
-L["Corrupted"] = nil
-L["Oily"] = nil
-L["Pulsing"] = nil
-L["Violet"] = nil
+L["Boneslurp"] = "Lape-Os"
+L["Corrupted"] = "Sédiment corrompu"
+L["Oily"] = "Invertébré huileux"
+L["Pulsing"] = "Sangsue palpitante"
+L["Violet"] = "Erreur pourpre"
 
 L["blackhound_cache"] = "Cache de Noir-Mâtin"
 L["blackhound_cache_note"] = "Invoquez {npc:157843} à la Fabrique à Abominations, puis escortez-le jusqu'à l'Avant-poste de Noir-Mâtin."
@@ -325,11 +335,7 @@ L["endlurker_note"] = "Cliquez sur le Pieu d'Anima près du cadavre de {npc:1652
 L["executioner_aatron_note"] = "Tuez les trois PNJ proches {npc:166715} pour retirer {spell:324872}."
 L["famu_note"] = "Parlez à {npc:166483} pour déclencher l'événement."
 L["grand_arcanist_dimitri_note"] = "Tuez les quatre PNJ {npc:167467} pour libérer le rare."
-L["harika_note"] = [[
-|cFFFF0000IMPORTANT:|r Les objets doivent être donnés dans le bon ordre, sinon l'événement va bugger !
-
-À Combeffroi, à l'ouest, procurez-vous le {item:176397} et les deux ensembles de {item:176396}. Donnez les outils aux deux {npc:165328} près de la baliste, puis donner le carreau à {npc:165327} et dites-lui de faire tomber le rare.
-]]
+L["harika_note"] = "À Combeffroi, à l'ouest, procurez-vous un {item:176397}, puis donnez le carreau à {npc:165327} et dites-lui de faire tomber le rare."
 L["innervus_note"] = "Tuez les {npc:160375}s proches pour obtenir une {item:177223} et déverrouiller la crypte."
 L["leeched_soul_note"] = "A l'intérieur de la crypte voisine. Marchez près de {npc:165151} pour démarrer l'événement."
 L["lord_mortegore_note"] = "Tuez les monstres alentour pour obtenir {item:174378} et utilisez-le pour donner du pouvoir à un {npc:161870}. Le rare apparaîtra une fois que les quatre sceaux seront activés."
@@ -379,15 +385,15 @@ L["addius_note"] = "Les êtres faibles d'esprit ne devraient pas me faire perdre
 L["eyegor_note"] = "Carnœil prêt pour la bataille !"
 L["sylla_note"] = "On ne peut jamais s'attendre à avoir une bataille distinguée ici dans cette terrible région, mais hélas, nous y sommes. Ne me faites pas perdre mon temps."
 
-L["avowed_ritualist_note"] = nil
-L["fugitive_soul_note"] = nil
-L["souls_absolved"] = nil
+L["avowed_ritualist_note"] = "Rassemblez les {npc:160149s} à proximité pour les absoudre."
+L["fugitive_soul_note"] = "Amenez cette {npc:160149} à un {npc:166150} proche pour commencer un rituel d'absolution."
+L["souls_absolved"] = "âmes absoutes"
 L["options_icons_fugitives"] = "{achievement:14274}"
-L["options_icons_fugitives_desc"] = nil
+L["options_icons_fugitives_desc"] = "Afficher les emplacements des âmes fugitives pour la réalisation de {achievement:14274}."
 
-L["grand_inquisitor_note"] = "Donnez 10 {item:180451} à {npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
-L["high_inquisitor_note"] = "Donnez 250 {currency:1816} à {npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
-L["inquisitor_note"] = "Donnez 100 {currency:1816} à {npc:160248} our avoir une chance d'obtenir cette stèle du vice."
+L["grand_inquisitor_note"] = "Donnez 10 {item:180451} à l'{npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
+L["high_inquisitor_note"] = "Donnez 250 {currency:1816} à l'{npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
+L["inquisitor_note"] = "Donnez 100 {currency:1816} à l'{npc:160248} our avoir une chance d'obtenir cette stèle du vice."
 L["options_icons_inquisitors"] = "{achievement:14276}"
 L["options_icons_inquisitors_desc"] = "Afficher les emplacements des inquisiteurs pour le succès {achievement:14276}."
 
@@ -426,27 +432,32 @@ Combinez les trois gravures pour créer {item:182329}, qui peut être utilisé p
 L["soul_well_note"] = "Attrapez la Stygie qui jaillit du Puit d'âmes."
 L["obliterated_soul_shards_note"] = "Collectez des éclats d'âme oblitérés sur les ponts."
 
-L["animaflow_teleporter_note"] = nil
+L["animaflow_teleporter_note"] = "Activer pour se rendre directement au Tremaculum."
 L["chaotic_riftstone_note"] = "Activer pour {spell:344157} rapidement à travers l'Antre."
-L["venari_note"] = "Utilisez {currency:1767} pour acheter des améliorations pour l'Antre et Tourment."
-L["venari_upgrade"] = "Améliorations de {npc:162804}"
-L["torghast"] = nil
-L["Ambivalent"] = nil
-L["Appreciative"] = nil
-L["Apprehensive"] = nil
-L["Cordial"] = nil
-L["Tentative"] = nil
+L["venari_note"] = [[
+Utilisez {currency:1767} pour acheter des améliorations pour l'Antre et Tourment.
 
-L["stygian_cache"] = nil
-L["stygian_cache_note"] = nil
+|cFFFF8C00Les améliorations de Tourment liées au compte s'afficheront comme incomplètes sur les alts !|r
+|cFFFF8C00L'état d'avancement ci-dessous sera mis à jour au fur et à mesure que nous les débloquerons !|r
+]]
+L["venari_upgrade"] = "Améliorations de {npc:162804}"
+L["torghast"] = "Tourment"
+L["Ambivalent"] = "Incertitude"
+L["Appreciative"] = "Reconnaissance"
+L["Apprehensive"] = "Crainte"
+L["Cordial"] = "Bienveillance"
+L["Tentative"] = "Hésitation"
+
+L["stygian_cache"] = "Cache stygienne"
+L["stygian_cache_note"] = "Une seule personne peut récupérer le butin de la cache à chaque apparition !"
 
 L["options_icons_bonus_boss"] = "Élites bonus"
 L["options_icons_bonus_boss_desc"] = "Afficher les emplacements des élites bonus."
 L["options_icons_bonus_event"] = "Événements bonus"
 L["options_icons_bonus_event_desc"] = "Afficher les emplacements des événements bonus."
-L["options_icons_riftstone"] = "Failles Chaotiques"
+L["options_icons_riftstone"] = "{npc:174962s}"
 L["options_icons_riftstone_desc"] = "Affichez les emplacements des téléporteurs de Failles Chaotiques"
-L["options_icons_grapples"] = nil
-L["options_icons_grapples_desc"] = nil
-L["options_icons_stygian_caches"] = nil
-L["options_icons_stygian_caches_desc"] = nil
+L["options_icons_grapples"] = "{npc:176308s}"
+L["options_icons_grapples_desc"] = "Afficher les emplacements des grappins pour l'amélioration {item:184653}."
+L["options_icons_stygian_caches"] = "Caches stygiennes"
+L["options_icons_stygian_caches_desc"] = "Afficher les emplacements des caches contenant de la Stygie supplémentaire."
