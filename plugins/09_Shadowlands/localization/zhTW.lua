@@ -15,8 +15,8 @@ L["anima_channeled"] = "靈魄連接到 %s"
 
 L["deifir_note"] = "騎上圈內的稀有並使用 {spell:319566} 和 {spell:319575} 使其減速和昏迷。"
 L["faeflayer_note"] = "瀑布後面隱藏的小洞穴內。"
-L["gormtamer_tizo_note"] = "擊殺 {npc:166735} 和 {npc:166736} 後騎著它們直到 {npc:164110} 刷新。"
-L["humongozz_note"] = "種植一個 {item:175247} 到潮濕的沃土後將刷新 {npc:164122}。在一分鐘後 {spell:319367}，稀有將刷新。區域內的許多怪物都會掉落蘑菇。"
+L["gormtamer_tizo_note"] = "在霧紗密林擊殺豎果妖精直到 {npc:164110} 刷新。"
+L["humongozz_note"] = "種植一個 {item:175247} 到潮濕的沃土後將刷新 {npc:164122}。區域內的許多怪物都會掉落蘑菇。"
 L["lehgo_note"] = "摧毀顫動的果姆蛋並擊殺 {npc:171827} 直到他出現。在洞穴內（入口在東南黃塵地穴內）"
 L["macabre_note"] = [[
 有多個刷新點。要召喚稀有，含另外兩個其他玩家戰在神秘的蘑菇環上並且對彼此跳舞。
@@ -31,7 +31,7 @@ L["rainbowhorn_note"] = [[
 
 他總是在特那瓦勒北邊刷新，所以設定你的 {item:6948} 到那裏並注意附近區域的表情。
 
-\n|cffff5400品|r|cffffaa00嘗|r|cffffff00絕|r|cffaaff00妙|r|cff54ff00的|r |cff00ff55美|r|cff00ffa9麗|r|cff00ffff的|r |cff0055ff七|r|cff0000ff彩|r|cff5400ff之|r|cffaa00ff虹|r|cffff00ff好|r|cffff00aa味|r|cffff0054道|r|cffff0000！|r
+|cffff5400品|r|cffffaa00嘗|r|cffffff00絕|r|cffaaff00妙|r|cff54ff00的|r |cff00ff55美|r|cff00ffa9麗|r|cff00ffff的|r |cff0055ff七|r|cff0000ff彩|r|cff5400ff之|r|cffaa00ff虹|r|cffff00ff好|r|cffff00aa味|r|cffff0054道|r|cffff0000！|r
 ]]
 L["rootwrithe_note"] = "觸碰 {npc:167928} 直到稀有出現。"
 L["rotbriar_note"] = "和 {npc:171684} 交談對話後在附近召喚稀有。"
@@ -106,7 +106,7 @@ L["beasts_of_bastion"] = "昇靈堡的野獸"
 L["beasts_of_bastion_note"] = "和 {npc:161441} 交談召喚四個野獸中的一個。"
 L["bookkeeper_mnemis_note"] = "在此區有機率代替 {npc:166867} 單位刷新"
 L["cloudfeather_patriarch_note"] = "在此區擊殺 {npc:158110} 直到稀有做出表情和刷新"
-L["collector_astor_note"] = "閱讀散落在房間裡的全部六章 Mercia's Legacy，之後會收到來自 {npc:157979} 的悄悄話。和她交談會得到 {spell:333779}，讓你在西北方找到隱藏的 {item:180569}。交還章節將刷新稀有"
+L["collector_astor_note"] = "閱讀散落在房間裡的全部六章 Mercia's Legacy，之後和 {npc:157979} 交談會得到 {spell:333779}，讓你在西北方找到隱藏的 {item:180569}。交還章節將刷新稀有"
 L["corrupted_clawguard_note"] = "在房間或是在煉火哨站山上拾取 {item:180651} 並使用它修理 {npc:171300}"
 L["dark_watcher_note"] = "只在死亡後可以看到。和她交談會在攻擊之前對你施放 {spell:332830} "
 L["demi_hoarder_note"] = "剛開始時會有99層的 {spell:333874}，降低所承受的傷害。受到傷害後堆疊緩慢消失。稀有將沿著固定路徑移動，如果到達路徑終點則會消失"
@@ -329,7 +329,7 @@ L["rotgut_note"] = "腐腸、殘渣。多出來的。你要打。"
 
 L["amalgamation_of_filth_note"] = "當世界任務 {wq:苦差事：拆除小隊} 可做時點選一個垃圾箱並使用 {spell:324115} 進入水裡。"
 L["amalgamation_of_light_note"] = "移動全部三個鏡子陷阱釋放稀有。"
-L["amalgamation_of_sin_note"] = "使用世界任務 {wq:召喚你的罪孽} 的能量催化劑獲得 {item:180376} 並使用它召喚稀有。"
+L["amalgamation_of_sin_note"] = "在世界任務 {wq:召喚你的罪孽} 的期間拾取能量催化劑有機會獲得 {item:180376} 並使用它來召喚稀有。"
 L["bog_beast_note"] = "世界任務 {wq:越髒越好} 期間有機率刷新後給 {npc:166206} 使用 {item:177880}。"
 L["endlurker_note"] = "在微光裂隙頂上點選 {npc:165229} 屍體附近的靈魄之樁並使用 {spell:321826}。"
 L["executioner_aatron_note"] = "擊殺三個附近的 {npc:166715} 移除 {spell:324872}。"
