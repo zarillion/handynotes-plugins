@@ -138,7 +138,7 @@ local MACABRE = Rare({
 map.nodes[32664480] = MACABRE
 map.nodes[36474814] = MACABRE
 map.nodes[47924018] = MACABRE
-map.nodes[57912935] = MACABRE
+-- map.nodes[57912935] = MACABRE
 map.nodes[59952940] = MACABRE
 
 map.nodes[62102470] = Rare({
