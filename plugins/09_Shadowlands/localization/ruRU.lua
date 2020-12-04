@@ -421,31 +421,32 @@ L["exos_note"] = [[
 L["soul_well_note"] = "Поймайте Стигию, извергающуюся из Колодца душ."
 L["obliterated_soul_shards_note"] = "Соберите {item:177834} на мостах."
 
-L["animaflow_teleporter_note"] = nil
-L["chaotic_riftstone_note"] = [[
-Активируйте, чтобы быстро {spell:344157} перейти через Утробу.
+L["animaflow_teleporter_note"] = "Активируйте, чтобы отправиться прямо в Тремакулюм."
+L["chaotic_riftstone_note"] = "Активируйте, чтобы быстро {spell:344157} перейти через Утробу."
+L["venari_note"] = [[
+Используйте {currency:1767} для покупки улучшений в Утробе и Торгасте.
 
-Требуется {item:184613} обновление с {npc:162804}.
+|cFFFF8C00Улучшения для Торгаста на всю учетную запись будут отображаться как незавершенные на альтернативных персонажах!|r
+|cFFFF8C00Статус завершения ниже будет обновляться, когда мы их разблокируем!|r
 ]]
-L["venari_note"] = "Используйте {currency:1767} для покупки улучшений в Утробе и Торгасте."
-L["venari_upgrade"] = "{npc:162804} Обновить"
-L["torghast"] = nil
-L["Ambivalent"] = nil
-L["Appreciative"] = nil
-L["Apprehensive"] = nil
-L["Cordial"] = nil
-L["Tentative"] = nil
+L["venari_upgrade"] = "{npc:162804} Улучшить"
+L["torghast"] = "Торгаст"
+L["Ambivalent"] = "с безразличием"
+L["Appreciative"] = "с признанием"
+L["Apprehensive"] = "с опаской"
+L["Cordial"] = "с сердечностью"
+L["Tentative"] = "с настороженностью"
 
-L["stygian_cache"] = nil
-L["stygian_cache_note"] = nil
+L["stygian_cache"] = "Стигийский тайник"
+L["stygian_cache_note"] = "Только один человек может открыть тайник каждый раз, когда он появляется!"
 
 L["options_icons_bonus_boss"] = "Бонусные элитные монстры"
 L["options_icons_bonus_boss_desc"] = "Отображение местоположения бонусных элитных монстров."
 L["options_icons_bonus_event"] = "Бонусные события"
 L["options_icons_bonus_event_desc"] = "Отображение местоположение бонусных событий."
-L["options_icons_riftstone"] = "Хаотичный камень разлома"
+L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "Отображение местоположения хаотичных каменей разлома."
-L["options_icons_grapples"] = nil
-L["options_icons_grapples_desc"] = nil
-L["options_icons_stygian_caches"] = nil
-L["options_icons_stygian_caches_desc"] = nil
+L["options_icons_grapples"] = "{npc:176308}"
+L["options_icons_grapples_desc"] = "Отображение местоположения крюков для улучшения {item:184653}."
+L["options_icons_stygian_caches"] = "Стигийский тайник"
+L["options_icons_stygian_caches_desc"] = "Показать места тайников, содержащих Стигию."
