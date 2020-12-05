@@ -890,63 +890,57 @@ map.nodes[64076201] = Dredbat({ pois={ Arrow({64076201, 70125719}) } })
 ------------------------------ ABSOLUTION FOR ALL -----------------------------
 -------------------------------------------------------------------------------
 
-local Fugitive = Class('Fugitive', NPC, {
-    id=160149,
-    icon=236247,
-    note=L["fugitive_soul_note"],
-    group=ns.groups.FUGITIVES,
-    rewards={
-        Achievement({id=14274, criteria={id=1, qty=true, suffix=L["souls_absolved"]}})
-    }
-})
+local SOULS = {
+    64894834, 65404450, 65704610, 65904250, 66274301, 67894205, 68165149,
+    68604460, 69215297, 70045363, 70105630, 70205500, 70494580, 70604340,
+    70605200, 70605200, 70804400, 71004180, 71305350, 71504690, 71584367,
+    71595309, 71705440, 72224482, 72304440, 72605510, 72624360, 72795195,
+    74455192, 75174702
+}
 
-map.nodes[65404450] = Fugitive()
-map.nodes[65704610] = Fugitive()
-map.nodes[65904250] = Fugitive()
-map.nodes[68604460] = Fugitive()
-map.nodes[70105630] = Fugitive()
-map.nodes[70205500] = Fugitive()
-map.nodes[70494580] = Fugitive()
-map.nodes[70604340] = Fugitive()
-map.nodes[70605200] = Fugitive()
-map.nodes[70605200] = Fugitive()
-map.nodes[70804400] = Fugitive()
-map.nodes[71004180] = Fugitive()
-map.nodes[71305350] = Fugitive()
-map.nodes[71504690] = Fugitive()
-map.nodes[71584367] = Fugitive()
-map.nodes[71705440] = Fugitive()
-map.nodes[72304440] = Fugitive()
-map.nodes[72605510] = Fugitive()
+for _, coord in ipairs(SOULS) do
+    map.nodes[coord] = NPC({
+        id=156150,
+        icon='peg_yw',
+        scale=1,
+        note=L["fugitive_soul_note"],
+        group=ns.groups.FUGITIVES,
+        rewards={
+            Achievement({id=14274, criteria={id=1, qty=true, suffix=L["souls_absolved"]}})
+        }
+    })
+end
 
-local Ritualist = Class('Ritualist', NPC, {
-    id=166150,
-    icon=458226,
-    note=L["avowed_ritualist_note"],
-    group=ns.groups.FUGITIVES,
-    rewards={
-        Achievement({id=14274, criteria={id=1, qty=true, suffix=L["souls_absolved"]}})
-    }
-})
+local RITUALISTS = {
+    65305069, 65324883, 66585357, 67204610, 69204650, 69304210, 71704790,
+    72004600, 72505390
+}
 
-map.nodes[72505390] = Ritualist()
-map.nodes[71704790] = Ritualist()
-map.nodes[72004600] = Ritualist()
-map.nodes[69304210] = Ritualist()
-map.nodes[67204610] = Ritualist()
-map.nodes[69204650] = Ritualist()
+for _, coord in ipairs(RITUALISTS) do
+    map.nodes[coord] = NPC({
+        id=159406,
+        icon='peg_bk',
+        scale=1.2,
+        note=L["avowed_ritualist_note"],
+        group=ns.groups.FUGITIVES,
+        rewards={
+            Achievement({id=14274, criteria={id=1, qty=true, suffix=L["souls_absolved"]}})
+        }
+    })
+end
 
 -------------------------------------------------------------------------------
 ------------------------ ITS ALWAYS SINNY IN REVENDRETH -----------------------
 -------------------------------------------------------------------------------
 
 local Inquisitor = Class('Inquisitor', Collectible, {
-    icon=3528307,
+    icon='peg_rd',
+    scale=1.3,
     group=ns.groups.INQUISITORS,
     pois={ POI({72995199}) } -- Archivist Fane
 })
 
-map.nodes[76205210] = Inquisitor({
+map.nodes[76185212] = Inquisitor({
     id=159151,
     note=L["inquisitor_note"],
     requires=ns.requirement.Item(172999),
@@ -955,7 +949,7 @@ map.nodes[76205210] = Inquisitor({
     }
 }) -- Inquisitor Traian
 
-map.nodes[64704640] = Inquisitor({
+map.nodes[64714638] = Inquisitor({
     id=156918,
     note=L["inquisitor_note"],
     requires=ns.requirement.Item(172998),
@@ -964,7 +958,7 @@ map.nodes[64704640] = Inquisitor({
     }
 }) -- Inquisitor Otilia
 
-map.nodes[67304340] = Inquisitor({
+map.nodes[67274339] = Inquisitor({
     id=156919,
     note=L["inquisitor_note"],
     requires=ns.requirement.Item(172997),
@@ -973,7 +967,7 @@ map.nodes[67304340] = Inquisitor({
     }
 }) -- Inquisitor Petre
 
-map.nodes[69804720] = Inquisitor({
+map.nodes[69764722] = Inquisitor({
     id=156916,
     note=L["inquisitor_note"],
     requires=ns.requirement.Item(172996),
@@ -982,7 +976,7 @@ map.nodes[69804720] = Inquisitor({
     }
 }) -- Inquisitor Sorin
 
-map.nodes[75304420] = Inquisitor({
+map.nodes[75304415] = Inquisitor({
     id=159152,
     note=L["high_inquisitor_note"],
     requires=ns.requirement.Item(173000),
@@ -991,7 +985,7 @@ map.nodes[75304420] = Inquisitor({
     }
 }) -- High Inquisitor Gabi
 
-map.nodes[71204240] = Inquisitor({
+map.nodes[71254236] = Inquisitor({
     id=159153,
     note=L["high_inquisitor_note"],
     requires=ns.requirement.Item(173001),
@@ -1000,7 +994,7 @@ map.nodes[71204240] = Inquisitor({
     }
 }) -- High Inquisitor Radu
 
-map.nodes[72105320] = Inquisitor({
+map.nodes[72085313] = Inquisitor({
     id=159155,
     note=L["high_inquisitor_note"],
     requires=ns.requirement.Item(173006),
@@ -1009,7 +1003,7 @@ map.nodes[72105320] = Inquisitor({
     }
 }) -- High Inquisitor Dacian
 
-map.nodes[69805230] = Inquisitor({
+map.nodes[69775225] = Inquisitor({
     id=159154,
     note=L["high_inquisitor_note"],
     requires=ns.requirement.Item(173005),
@@ -1018,7 +1012,7 @@ map.nodes[69805230] = Inquisitor({
     }
 }) -- High Inquisitor Magda
 
-map.nodes[69704540] = Inquisitor({
+map.nodes[69664542] = Inquisitor({
     id=159157,
     note=L["grand_inquisitor_note"],
     requires=ns.requirement.Item(173008),
@@ -1027,7 +1021,7 @@ map.nodes[69704540] = Inquisitor({
     }
 }) -- Grand Inquisitor Aurica
 
-map.nodes[64505270] = Inquisitor({
+map.nodes[64485273] = Inquisitor({
     id=159156,
     note=L["grand_inquisitor_note"],
     requires=ns.requirement.Item(173007),
