@@ -81,9 +81,9 @@ L["playful_vulpin_note"] = [[
 
 L["tame_gladerunner"] = "驯服的巡林者"
 L["tame_gladerunner_note"] = [[
-阅读“Tale of the Tangle”并跟随蓝色的灯穿过小径到达 {npc:171767}。击杀他并拾取 {npc:171699}。
+阅读“缠结传说”并跟随蓝色的灯穿过小径到达 {npc:171767}。击杀他并拾取 {npc:171699}。
 
-如果走错路并且 {npc:171699} 消失当你到达最后，返回开始位置并再次阅读“Tale of the Tangle”尝试。如果 {npc:171767} 不在，需要等待他刷新。
+如果走错路并且 {npc:171699} 消失当你到达最后，返回开始位置并再次阅读“缠结传说”尝试。如果 {npc:171767} 不在，需要等待他刷新。
 ]]
 
 L["faryl_note"] = "让空中的生物来引领炽蓝仙野的防御。"
@@ -106,7 +106,7 @@ L["beasts_of_bastion"] = "晋升堡垒之兽"
 L["beasts_of_bastion_note"] = "和 {npc:161441} 交谈召唤四个野兽中的一个。"
 L["bookkeeper_mnemis_note"] = "在地区有几率刷新代替 {npc:166867} 单位。"
 L["cloudfeather_patriarch_note"] = "在地区击杀 {npc:158110} 直到守护者与你作战。"
-L["collector_astor_note"] = "阅读散落在房间里的全部六章 Mercia's Legacy，之后和 {npc:157979} 交谈会得到 {spell:333779}。在西北周围地区找到隐藏的 {item:180569} 并交还将刷新稀有。"
+L["collector_astor_note"] = "阅读散落在房间里的全部六章梅希娅的传承，之后和 {npc:157979} 交谈会得到 {spell:333779}。在西北周围地区找到隐藏的 {item:180569} 并交还将刷新稀有。"
 L["corrupted_clawguard_note"] = "在屋内或炉火岗哨山上拾取 {item:180651} 并使用它修理 {npc:171300}。"
 L["dark_watcher_note"] = "只在死亡后可以看到。和她交谈会施放 {spell:332830} 在攻击之前给你。"
 L["demi_hoarder_note"] = "开始时堆叠99层 {spell:333874}，降低承受伤害。伤害后堆叠缓慢消失。稀有将沿着路径前进，如果到达终点则将消失。"
@@ -181,8 +181,8 @@ L["anima_shard_61244"] = "在悬崖边的一块岩石上。"
 L["anima_shard_61245"] = "在小瀑布上方的岩石上。"
 L["anima_shard_61247"] = "在墙上的小水装置上方。"
 L["anima_shard_61249"] = "隐藏在纯洁之巅上层的石柱后面。"
-L["anima_shard_61250"] = "坐在楼梯后面。"
-L["anima_shard_61251"] = "坐在小铃铛下面。"
+L["anima_shard_61250"] = "位于在楼梯后面。"
+L["anima_shard_61251"] = "位于在小铃铛下面。"
 L["anima_shard_61253"] = "在一个下落的石拱道顶部。"
 L["anima_shard_61254"] = "在一个小的木结构上。"
 L["anima_shard_61257"] = "在正下方 {npc:162523} 的小壁架上。"
@@ -191,7 +191,7 @@ L["anima_shard_61260"] = "在平台下的地面上。"
 L["anima_shard_61261"] = "在 {npc:163460} 洞穴上面的壁架上。"
 L["anima_shard_61263"] = "在石柱上。"
 L["anima_shard_61264"] = "在倾斜结构的顶部。"
-L["anima_shard_61270"] = "坐在树的底部。"
+L["anima_shard_61270"] = "位于在树的底部。"
 L["anima_shard_61271"] = "在上层平台的一个书柜中。"
 L["anima_shard_61273"] = "在突出悬崖正下方的壁架上。"
 L["anima_shard_61274"] = "隐藏在平台下方。"
@@ -217,7 +217,7 @@ L["anima_shard_61294"] = "隐藏在一堆桶后面。"
 L["anima_shard_61295"] = "在书架上 {npc:156889} 后面。"
 L["anima_shard_61296"] = "在倒下的大钟后面。\n\n"..ns.color.Red('通灵战潮地下城内。')
 L["anima_shard_61297"] = "在石柱后面。\n\n"..ns.color.Red('通灵战潮地下城内。')
-L["anima_shard_61298"] = "坐在躺椅后面。"
+L["anima_shard_61298"] = "位于在躺椅后面。"
 L["anima_shard_61299"] = "隐藏在大火炬的后面。"
 L["anima_shard_61300"] = "挂在中央字体的壁架上。"
 L["options_icons_anima_shard"] = "{achievement:14339}"
@@ -307,7 +307,7 @@ L["oonar_sorrowbane_note"] = [[
 
 L["pet_cat"] = "宠爱该死的猫！"
 L["hairball"] = ns.color.Red("只在凋魂之殇地下城内的腐烂圣所出现！")
-L["lime"] = "坐在大骨头拱顶上。"
+L["lime"] = "位于在大骨头拱顶上。"
 L["moldstopheles"] = "绕到茎秆后面并跳上蘑菇平台。到达最后的平台，使用坐骑并在茎秆上跳来跳去到达。"
 L["pus_in_boots"] = "在桥的下面。"
 
@@ -354,7 +354,7 @@ L["lost_quill_note"] = "从禁忌图书馆的桌上瓶子拾取 {item:182475}，
 L["rapier_fearless_note"] = "点击地上的剑杆，然后击败 {npc:173603}。"
 L["remlates_cache_note"] = "在暗湾镇墓穴后面的外墙上。"
 L["smuggled_cache_note"] = ns.color.Red("*在拾取之前*：").."确认已完成 {quest:60480} 分支任务否则宝藏和任务将缺少40个 {currency:1820}。"
-L["taskmaster_trove_note"] = "阅读Ingress and Egress Rites然后小心地走到宝箱。"
+L["taskmaster_trove_note"] = "阅读出入口仪式然后小心地走到宝箱。"
 L["the_count_note"] = "获得99个 {currency:1820} 末日迷沼然后把它带给 {npc:173488}。"
 
 L["forgotten_anglers_rod"] = "被遗忘的渔翁之竿"
