@@ -15,6 +15,10 @@ local Red = ns.status.Red
 
 local function Icon(icon) return '|T'..icon..':0:0:1:-1|t ' end
 
+-- in zhCN’s built-in font, ARHei.ttf, the glyph of U+2022 <bullet> is missing.
+-- use U+00B7 <middle dot> instead.
+local bullet = (GetLocale() == "zhCN" and "·" or "•")
+
 -------------------------------------------------------------------------------
 ----------------------------------- REWARD ------------------------------------
 -------------------------------------------------------------------------------
@@ -162,7 +166,7 @@ function Achievement:GetLines()
         end
 
         local r, g, b = .6, .6, .6
-        local ctext = "   • "..cname
+        local ctext = "   "..bullet.." "..cname
         if (completed or ccomp) then
             r, g, b = 0, 1, 0
         end
