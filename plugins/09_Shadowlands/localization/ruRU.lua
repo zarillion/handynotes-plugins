@@ -264,7 +264,7 @@ L["Pulsing"] = "Пульсирующий кровопийца"
 L["Violet"] = "Фиолетовая ошибка"
 
 L["blackhound_cache"] = "Тайник заставы Черного пса"
-L["blackhound_cache_note"] = "Summon {npc:157843} at the Abomination Factory, then escort him to the Blackhound Outpost."
+L["blackhound_cache_note"] = "Призовите {npc:157843} на фабрике поганищ, затем сопроводите его на заставу Черного Пса."
 L["bladesworn_supply_cache"] = "Тайник с припасами присягнувших клинку"
 L["cache_of_eyes"] = "Тайник дома Глаз"
 L["cache_of_eyes_note"] = "Появляется в нескольких местах в пределах Слепой цитадели."
