@@ -1,3 +1,29 @@
+# v25
+
+* Added a 'Zone-Specific settings' option to change display settings per-zone.
+* Added a node for the Animaflow Teleporter.
+* Added better covenant icons.
+* Added grapple locations for the Maw.
+* Added lots of (mostly 1H axe) transmogs from Maldraxxus rares.
+* Added missing bow transmog from the Mystic Rainbowhorn.
+* Added missing cosmetic cloak / quest reward from Oily Invertebrate.
+* Added missing Macabre spawn location.
+* Added missing pet reward for Swelling Tear rares.
+* Added missing pet reward from Eternas the Tormentor.
+* Added missing toy and note for Enforcer Aegeon.
+* Added missing transmog rewards to Demi the Relic Hoarder.
+* Added more spawn locations for Chapter 7 of Mercia's Legacy.
+* Added quest id for the Bangle of Seniority upgrade.
+* Added Stygian Cache locations for the Maw.
+* Cleaned up Inquisitor, Ritualist and Fugitive Soul displays in Revendreth.
+* Cleaned up the Mixed Pool of Monstrosities tooltip.
+* Fixed bullet-point character display for zhCN fonts.
+* Fixed spawn locations for Shadeweaver and Dolos.
+* Removed a beta-only maw event that has not spawned on retail.
+* Removed the beta summoning criteria for Harika.
+* Split Ve'nari upgrades into Maw / Torghast sections.
+* Lots of localization updates!
+
 # v24
 
 * Added POIs for the Great Horn of the Runestag (focus the Rainbowhorn by left-clicking).
