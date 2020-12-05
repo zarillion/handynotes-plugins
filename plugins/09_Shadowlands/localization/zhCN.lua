@@ -258,11 +258,6 @@ L["mixed_pool_note"] = [[
 
 击杀每种稀有一次后获得 {item:183903} 玩具。
 ]]
-L["Boneslurp"] = "骨啜"
-L["Corrupted"] = "腐化沉积物"
-L["Oily"] = "油腻的无脊者"
-L["Pulsing"] = "脉动的汲取者"
-L["Violet"] = "绛紫之误"
 
 L["blackhound_cache"] = "黑犬宝箱"
 L["blackhound_cache_note"] = "在憎恶工厂召唤 {npc:157843}，然后护送他到黑犬岗哨。"

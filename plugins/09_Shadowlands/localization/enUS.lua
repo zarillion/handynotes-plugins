@@ -258,11 +258,6 @@ Gather ingredients from the surrounding mobs and toss them into the pool. Once 3
 
 Kill each rare once to earn the {item:183903} toy.
 ]]
-L["Boneslurp"] = nil
-L["Corrupted"] = nil
-L["Oily"] = nil
-L["Pulsing"] = nil
-L["Violet"] = nil
 
 L["blackhound_cache"] = "Blackhound Cache"
 L["blackhound_cache_note"] = "Summon {npc:157843} at the Abomination Factory, then escort him to the Blackhound Outpost."

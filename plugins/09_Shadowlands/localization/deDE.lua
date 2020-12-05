@@ -259,11 +259,6 @@ Sammel Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 3
 
 Töte jeden der seltenen Gegner einmal, um das Spielzeug {item:183903} zu erhalten.
 ]]
-L["Boneslurp"] = "Knochenschlürfer"
-L["Corrupted"] = "Verderbtes Sediment"
-L["Oily"] = "Öliger Invertebrat"
-L["Pulsing"] = "Pulsierender Egel"
-L["Violet"] = "Violetter Fehler"
 
 L["blackhound_cache"] = "Schwarzhundtruhe"
 L["blackhound_cache_note"] = "Beschwöre {npc:157843} bei der Monstrositätenfabrik (Sanktumaufwertung der Necrolords), und eskortiere ihn zum Schwarzhundaußenposten."

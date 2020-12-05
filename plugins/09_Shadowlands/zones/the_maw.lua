@@ -582,6 +582,7 @@ map.nodes[46914169] = NPC({
     rewards={
         Achievement({id=14895, oneline=true}), -- 'Ghast Five
         Section(C_Map.GetMapInfo(1543).name),
+        ns.reward.Spacer(),
         Item({item=184613, quest=63177, note=L["Apprehensive"]}), -- Encased Riftwalker Essence
         Item({item=184653, quest=63217, note=L["Tentative"]}), -- Animated Levitating Chain
         Item({item=180949, quest=61600, note=L["Tentative"]}), -- Animaflow Stabilizer
@@ -589,6 +590,7 @@ map.nodes[46914169] = NPC({
         Item({item=184588, quest=nil, note=L["Ambivalent"]}), -- Soul-Stabilizing Salve
         ns.reward.Spacer(),
         Section(L["torghast"]),
+        ns.reward.Spacer(),
         Item({item=184620, quest=63202, note=L["Apprehensive"]}), -- Vessel of Unforunate Spirits
         Item({item=184615, quest=63183, note=L["Apprehensive"]}), -- Extradimensional Pockets
         Item({item=184617, quest=63193, note=L["Tentative"]}), -- Bangle of Seniority

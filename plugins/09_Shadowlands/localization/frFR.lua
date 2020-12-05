@@ -258,11 +258,6 @@ Rassemblez des ingrédients des monstres environnants et jetez-les dans la bassi
 
 • Récupérez {spell:306722} sur les {npc:165027} et {npc:166438} au sud.
 ]]
-L["Boneslurp"] = "Lape-Os"
-L["Corrupted"] = "Sédiment corrompu"
-L["Oily"] = "Invertébré huileux"
-L["Pulsing"] = "Sangsue palpitante"
-L["Violet"] = "Erreur pourpre"
 
 L["blackhound_cache"] = "Cache de Noir-Mâtin"
 L["blackhound_cache_note"] = "Invoquez {npc:157843} à la Fabrique à Abominations, puis escortez-le jusqu'à l'Avant-poste de Noir-Mâtin."

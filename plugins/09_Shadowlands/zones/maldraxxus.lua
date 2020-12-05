@@ -300,15 +300,21 @@ map.nodes[58197421] = Rare({
             {id=48861, quest=61720, note='('..GOO..' = '..OIL..') > '..OOZE}, -- Violet Mistake
             {id=48859, quest=61724, note=OOZE..' = '..GOO..' = '..OIL}, -- Oily Invertebrate
         }}),
-        Transmog({item=184302, slot=L["mail"], note=L["Corrupted"]}), -- Residue-Coated Muck Waders
-        Transmog({item=184300, slot=L["cloak"], note=L["Oily"]}), -- Fused Spineguard
-        Transmog({item=184301, slot=L["leather"], note=L["Violet"]}), -- Twenty-Loop Violet Girdle
+        Toy({item=183903}), -- Smelly Jelly
         -- Item({item=184185, type=L["neck"], note=L["Boneslurp"]}), -- Grunge-Caked Collarbone
         -- Item({item=184279, type=L["trinket"], note=L["Pulsing"]}), -- Siphoning Blood-Drinker
         ns.reward.Spacer(),
-        Mount({item=182079, id=1410, note=L["Violet"]}), -- Slime-Covered Reins of the Hulking Deathroc
-        Toy({item=183903}), -- Smelly Jelly
-        Pet({item=181270, id=2960, note=L["Oily"]}) -- Decaying Oozewalker
+        ns.reward.Section('{npc:157308}'), -- Corrupted Sediment
+        Transmog({item=184302, slot=L["mail"], indent=true}), -- Residue-Coated Muck Waders
+        ns.reward.Spacer(),
+        ns.reward.Section('{npc:157309}'), -- Violet Mistake
+        Transmog({item=184301, slot=L["leather"], indent=true}), -- Twenty-Loop Violet Girdle
+        Mount({item=182079, id=1410, indent=true}), -- Slime-Covered Reins of the Hulking Deathroc
+        ns.reward.Spacer(),
+        ns.reward.Section('{npc:157312}'), -- Oily Invertebrate
+        Transmog({item=184300, slot=L["cloak"], indent=true}), -- Fused Spineguard
+        Item({item=184155, quest=62804, indent=true}), -- Recovered Containment Pack
+        Pet({item=181270, id=2960, indent=true}) -- Decaying Oozewalker
     }
 })
 

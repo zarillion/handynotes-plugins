@@ -218,6 +218,10 @@ function Node:Prepare()
             end
         end
     end
+
+    for reward in self:IterateRewards() do
+        reward:Prepare()
+    end
 end
 
 --[[

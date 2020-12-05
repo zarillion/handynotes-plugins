@@ -260,11 +260,6 @@ Recoge ingredientes de los enemigos de alrededor y tíralos en la poza. Cuando h
 
 Mata a todos los raros una vez para ganar el juguete {item:183903}.
 ]]
-L["Boneslurp"] = "Sorbehuesos"
-L["Corrupted"] = "Sedimento Corrupto"
-L["Oily"] = "Invertebrado Aceitoso"
-L["Pulsing"] = "Sanguijuela Palpitante"
-L["Violet"] = "Error Violeta"
 
 L["blackhound_cache"] = "Alijo Sabueso Negro"
 L["blackhound_cache_note"] = "Invoca a {npc:157843} en la Fábrica de Abominaciones. Después escóltalo a la Avanzada Sabueso Negro."

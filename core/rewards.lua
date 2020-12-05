@@ -46,6 +46,8 @@ function Reward:GetCategoryIcon() end
 function Reward:GetStatus() end
 function Reward:GetText() return UNKNOWN end
 
+function Reward:Prepare() end
+
 function Reward:Render(tooltip)
     local text = self:GetText()
     local status = self:GetStatus()
@@ -54,6 +56,11 @@ function Reward:Render(tooltip)
     local icon = self:GetCategoryIcon()
     if text and icon then
         text = Icon(icon)..text
+    end
+
+    -- Add indent if requested
+    if self.indent then
+        text = '   '..text
     end
 
     -- Render main line and optional status
@@ -83,9 +90,12 @@ function Section:Initialize(title)
     self.title = title
 end
 
+function Section:Prepare()
+    ns.PrepareLinks(self.title)
+end
+
 function Section:Render(tooltip)
-    tooltip:AddLine(self.title..':')
-    tooltip:AddLine(' ')
+    tooltip:AddLine(ns.RenderLinks(self.title, true)..':')
 end
 
 -------------------------------------------------------------------------------
