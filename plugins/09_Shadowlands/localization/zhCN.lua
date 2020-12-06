@@ -376,9 +376,9 @@ L["options_icons_dredbats_desc"] = "显示{npc:161015}的位置和路径。"
 L["options_icons_sinrunners"] = "{npc:174032}"
 L["options_icons_sinrunners_desc"] = "显示{npc:174032}的位置和路径。"
 
-L["addius_note"] = "头脑虚弱的人不应浪费我的时间，但是如果您坚持，我会向您展示真正的痛苦。（暂）"
+L["addius_note"] = "意志薄弱的生灵不该来浪费我的时间，不过如果你坚持的话，我会让你见识下真正的痛苦。"
 L["eyegor_note"] = "艾戈尔准备战斗！"
-L["sylla_note"] = "在这片令人毛骨悚然的地区，人们永远无法期望在这里展开一场出色的战斗，可惜我们在这里。不要浪费我的时间。（暂）"
+L["sylla_note"] = "在这可怕的地方，谁也别指望能打出一场出色的战斗。但是，唉，我们就是在这么个地方。别再浪费我的时间了。"
 
 L["avowed_ritualist_note"] = "把 {npc:160149} 带到这里赦免它们。"
 L["fugitive_soul_note"] = "把此 {npc:160149} 带到 {npc:166150} 附近开始赦罪仪式。"
