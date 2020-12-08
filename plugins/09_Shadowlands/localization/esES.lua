@@ -233,13 +233,13 @@ L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o 
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
 
-L["chelicerae_note"] = "Destruye la {npc:159885} para activar a la {npc:159886}."
+L["chelicerae_note"] = "Destruye las {npc:159885} para activar a la {npc:159886}."
 L["deepscar_note"] = "Puede aparecer en varias entradas al Teatro del Dolor."
 L["forgotten_mementos"] = "Tira de la Cadena del Rastrillo en la cámara al oeste del tesoro para abrir la puerta."
 L["gieger_note"] = "Tira del {npc:162815} para activar a {npc:162741}."
 L["gristlebeak_note"] = "Rompe los {npc:162761} cercanos para provocar a {npc:162588}."
-L["leeda_note"] = "Mata a los dos {npc:162220} hasta que aparezca la {npc:162180}."
-L["nirvaska_note"] = "Soloa aparece cuando la misión del mundo {wq:Recordatorio Letal} está activa."
+L["leeda_note"] = "Mata a las dos {npc:162220} hasta que aparezca la {npc:162180}."
+L["nirvaska_note"] = "Sólo aparece cuando la misión del mundo {wq:Recordatorio Letal} está activa."
 L["sabriel_note"] = "Puede aparecer como uno de los campeones del Teatro del Dolor."
 L["schmitd_note"] = "Usa un {spell:313451} cercano para romper su escudo."
 L["taskmaster_xox_note"] = "Comparte el lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}."
@@ -247,7 +247,7 @@ L["theater_of_pain_note"] = "El primer boss que mates cada día tiene una probab
 L["zargox_the_reborn_note"] = [[
 Usa el {item:175841} encima de la {npc:157124}. Para conseguir el {item:175841} tienes que completar la misión {quest:57245} que da {npc:157076} y volver a hablar con él de nuevo.
 
-Si la {npc:157124} no está, reanima los {npc:157132} del aŕea hasta que aparezca.
+Si la {npc:157124} no está, reanima los {npc:157132} del área hasta que aparezca.
 ]]
 L["mixed_pool_note"] = [[
 Recoge ingredientes de los enemigos de alrededor y tíralos en la poza. Cuando hayan sido añadidos 30 ingredientes, aparecerá uno de los siete raros dependiendo de la combinación usada.
