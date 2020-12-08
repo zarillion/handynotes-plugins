@@ -17,6 +17,7 @@ local Quest = ns.reward.Quest
 local Section = ns.reward.Section
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Reputation = ns.reward.Reputation
 
 local Arrow = ns.poi.Arrow
 local Line = ns.poi.Line
@@ -67,7 +68,8 @@ map.nodes[25923116] = Rare({
     note=L["dekaris_note"],
     rewards={
         Achievement({id=14744, criteria=49841})
-    }
+    },
+    sublabel="80 rep"
 }) -- Adjutant Dekaris
 
 map.nodes[19324172] = Rare({
@@ -78,7 +80,8 @@ map.nodes[19324172] = Rare({
         Achievement({id=14744, criteria=49842}),
         Item({item=184106, note=L["ring"]}), -- Gimble
         Item({item=182327}) -- Dominion Etching: Loss
-    }
+    },
+    sublabel="100 rep"
 }) -- Apholeias, Herald of Loss
 
 map.nodes[39014119] = Rare({
@@ -376,6 +379,7 @@ map.nodes[25364875] = BonusBoss({
     quest=60991,
     rewards={
         Achievement({id=14660, criteria=49480}),
+        Reputation({rep=40}),
     }
 }) -- Orrholyn <Lord of Bloodletting>
 
@@ -396,6 +400,7 @@ map.nodes[26173744] = BonusBoss({
     quest=60992,
     rewards={
         Achievement({id=14660, criteria=49479}),
+        Reputation({rep=40}),
     }
 }) -- Razkazzar <Lord of Axes>
 
