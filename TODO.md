@@ -8,6 +8,12 @@
 * Fix transmog collected state on initial load.
 * Investigate auto NPC coloring for tooltips (red, green, yellow).
 * Double-click to create Blizzard waypoint.
+* Toggle setting for world map button.
+* Add hide-known-rares option to quick toggle menu.
+* Filter rewards based on type (include in quick toggle menu).
+* Add focusable attr (for Macabre and Swelling Tear).
+* Fix POI arrow to shorten line slightly.
+* Rework release workflow to also upload to WoWI.
 
 # Shadowlands
 
