@@ -67,7 +67,8 @@ map.nodes[25923116] = Rare({
     quest=57482,
     note=L["dekaris_note"],
     rewards={
-        Achievement({id=14744, criteria=49841})
+        Achievement({id=14744, criteria=49841}),
+        Reputation({rep=100}),
     },
     sublabel="80 rep"
 }) -- Adjutant Dekaris
@@ -79,9 +80,9 @@ map.nodes[19324172] = Rare({
     rewards={
         Achievement({id=14744, criteria=49842}),
         Item({item=184106, note=L["ring"]}), -- Gimble
-        Item({item=182327}) -- Dominion Etching: Loss
-    },
-    sublabel="100 rep"
+        Item({item=182327}), -- Dominion Etching: Loss
+        Reputation({rep=80}),
+    }
 }) -- Apholeias, Herald of Loss
 
 map.nodes[39014119] = Rare({
@@ -89,7 +90,8 @@ map.nodes[39014119] = Rare({
     quest=57469,
     rewards={
         Achievement({id=14744, criteria=49843}),
-        Toy({item=184312}) -- Borr-Geth's Fiery Brimstone
+        Toy({item=184312}), -- Borr-Geth's Fiery Brimstone
+        Reputation({rep=100}),
     }
 }) -- Borr-Geth
 
@@ -98,7 +100,8 @@ map.nodes[27731305] = Rare({
     quest=61106,
     rewards={
         Achievement({id=14744, criteria=49844}),
-        Transmog({item=183887, slot=L["1h_sword"]}) -- Suirhtaned, Blade of the Heir
+        Transmog({item=183887, slot=L["1h_sword"]}), -- Suirhtaned, Blade of the Heir
+        Reputation({rep=80}),
     }
 }) -- Conjured Death
 
@@ -108,6 +111,7 @@ map.nodes[60964805] = Rare({
     note=L["in_cave"],
     rewards={
         Achievement({id=14744, criteria=49845}),
+        Reputation({rep=100}),
     }
 }) -- Darithis the Bleak
 
@@ -116,6 +120,7 @@ map.nodes[49128175] = Rare({
     quest=62282,
     rewards={
         Achievement({id=14744, criteria=49846}),
+        Reputation({rep=100}),
     }
 }) -- Darklord Taraxis
 
@@ -124,6 +129,7 @@ map.nodes[28086058] = Rare({
     quest=60909,
     rewards={
         Achievement({id=14744, criteria=49847}),
+        Reputation({rep=80}),
     }
 }) -- Dolos <Death's Knife>
 
@@ -132,6 +138,7 @@ map.nodes[23765341] = Rare({
     quest=60915,
     rewards={
         Achievement({id=14744, criteria=49848}),
+        Reputation({rep=80}),
     }
 }) -- Eketra <The Impaler>
 
@@ -151,7 +158,8 @@ map.nodes[19194608] = Rare({ -- was 27584966
     quest=57509,
     rewards={
         Achievement({id=14744, criteria=49850}),
-        Pet({item=183407, id=3037}) -- Contained Essence of Dread
+        Pet({item=183407, id=3037}), -- Contained Essence of Dread
+        Reputation({rep=100}),
     }
 }) -- Eternas the Tormentor
 
@@ -161,7 +169,8 @@ map.nodes[20586935] = Rare({
     note=L["exos_note"],
     rewards={
         Achievement({id=14744, criteria=49851}),
-        Item({item=184108, note=L["neck"]}) -- Vorpal Amulet
+        Item({item=184108, note=L["neck"]}), -- Vorpal Amulet
+        Reputation({rep=80}),
     }
 }) -- Exos, Herald of Domination
 
@@ -171,6 +180,7 @@ map.nodes[30775000] = Rare({
     note=L["ikras_note"],
     rewards={
         Achievement({id=14744, criteria=50621}),
+        Reputation({rep=100}),
     }
 }) -- Ikras the Devourer
 
@@ -189,6 +199,7 @@ map.nodes[45507376] = Rare({
     note=L["in_small_cave"],
     rewards={
         Achievement({id=14744, criteria=49853}),
+        Reputation({rep=100}),
     }
 }) -- Nascent Devourer
 
@@ -197,6 +208,7 @@ map.nodes[48801830] = Rare({
     quest=60667,
     rewards={
         Achievement({id=14744, criteria=49854}),
+        Reputation({rep=80}),
     }
 }) -- Obolos <Prime Adjutant>
 
@@ -206,7 +218,8 @@ map.nodes[23692139] = Rare({
     note=L["orophea_note"],
     rewards={
         Achievement({id=14744, criteria=49855}),
-        Toy({item=181794}) -- Orophea's Lyre
+        Toy({item=181794}), -- Orophea's Lyre
+        Reputation({rep=80}),
     },
     pois={
         POI({26772932}) -- Eurydea's Amulet
@@ -218,6 +231,7 @@ map.nodes[32946646] = Rare({
     quest=60884,
     rewards={
         Achievement({id=14744, criteria=49856}),
+        Reputation({rep=100}),
         -- Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
         -- Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
         -- Item({item=183068, quest=63162}) -- Korrath's Grimoire: Gyadrek
@@ -229,6 +243,7 @@ map.nodes[35974156] = Rare({
     quest=60834,
     rewards={
         Achievement({id=14744, criteria=49857}),
+        Reputation({rep=100}),
     }
 }) -- Soulforger Rhovus
 
@@ -239,7 +254,8 @@ map.nodes[28701204] = Rare({
     rewards={
         Achievement({id=14744, criteria=49858}),
         Transmog({item=184107, slot=L["cloak"]}), -- Borogove Cloak
-        Item({item=182326}) -- Dominion Etching: Pain
+        Item({item=182326}), -- Dominion Etching: Pain
+        Reputation({rep=100}),
     }
 }) -- Talaporas, Herald of Pain
 
@@ -248,6 +264,7 @@ map.nodes[27397152] = Rare({
     quest=60914,
     rewards={
         Achievement({id=14744, criteria=49859}),
+        Reputation({rep=100}),
     }
 }) -- Thanassos <Death's Voice>
 
@@ -262,6 +279,7 @@ map.nodes[37676591] = Rare({
     note=L["yero_note"],
     rewards={
         Achievement({id=14744, criteria=49860}),
+        Reputation({rep=100}),
     },
     pois={
         Path({
@@ -286,6 +304,7 @@ map.nodes[28204450] = BonusBoss({
     quest=61136, -- 63380
     rewards={
         Achievement({id=14660, criteria=49485}),
+        Reputation({rep=40}),
     }
 }) -- Agonix
 
@@ -294,6 +313,7 @@ map.nodes[34087453] = BonusBoss({
     quest=60920,
     rewards={
         Achievement({id=14660, criteria=49487}),
+        Reputation({rep=40}),
     }
 }) -- Akros <Death's Hammer>
 
@@ -302,7 +322,8 @@ map.nodes[28712513] = BonusBoss({
     quest=61346,
     rewards={
         Achievement({id=14660, criteria=49484}),
-        Item({item=183070, quest=63164}) -- Mawsworn Orders
+        Item({item=183070, quest=63164}), -- Mawsworn Orders
+        Reputation({rep=40}),
     }
 }) -- Cyrixia <The Willbreaker>
 
@@ -311,6 +332,7 @@ map.nodes[25831479] = BonusBoss({
     quest=59230,
     rewards={
         Achievement({id=14660, criteria=49476}),
+        Reputation({rep=40}),
     }
 }) -- Dartanos <Flayer of Souls>
 
@@ -339,6 +361,7 @@ map.nodes[60456478] = BonusBoss({
     quest=62209,
     rewards={
         Achievement({id=14660, criteria=49490}),
+        Reputation({rep=40}),
     }
 }) -- Houndmaster Vasanok
 
@@ -347,6 +370,7 @@ map.nodes[20782968] = BonusBoss({
     quest=58918,
     rewards={
         Achievement({id=14660, criteria=49481}),
+        Reputation({rep=40}),
     }
 }) -- Huwerath
 
@@ -355,6 +379,7 @@ map.nodes[30846866] = BonusBoss({
     quest=60903,
     rewards={
         Achievement({id=14660, criteria=49486}),
+        Reputation({rep=40}),
     }
 }) -- Krala <Death's Wings>
 
@@ -371,6 +396,7 @@ map.nodes[38642880] = BonusBoss({
     quest=62618,
     rewards={
         Achievement({id=14660, criteria=50408}),
+        Reputation({rep=40}),
     }
 }) -- Odalrik
 
@@ -389,6 +415,7 @@ map.nodes[22674223] = BonusBoss({
     note=L["in_cave"],
     rewards={
         Achievement({id=14660, criteria=51058}),
+        Reputation({rep=40}),
     },
     pois={
         POI({20813927}) -- Cave entrance
@@ -410,6 +437,7 @@ map.nodes[55626318] = BonusBoss({
     note=L["in_cave"]..' '..L["sanngror_note"],
     rewards={
         Achievement({id=14660, criteria=49489}),
+        Reputation({rep=40}),
     },
     pois={
         POI({55806753}) -- Cave entrance
@@ -422,6 +450,7 @@ map.nodes[61737795] = BonusBoss({
     note=L["in_cave"],
     rewards={
         Achievement({id=14660, criteria=49491}),
+        Reputation({rep=40}),
     },
     pois={
         POI({59268001}) -- Cave entrance
@@ -441,6 +470,7 @@ map.nodes[36844480] = BonusBoss({
     quest=62539,
     rewards={
         Achievement({id=14660, criteria=50409}),
+        Reputation({rep=40}),
     }
 }) -- Stygian Incinerator
 
@@ -450,6 +480,7 @@ map.nodes[40705959] = BonusBoss({
     note=L["valis_note"],
     rewards={
         Achievement({id=14660, criteria=49492}),
+        Reputation({rep=40}),
     }
 }) -- Valis the Cruel
 
