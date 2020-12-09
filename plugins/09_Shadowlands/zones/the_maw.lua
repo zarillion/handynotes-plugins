@@ -554,7 +554,10 @@ map.nodes[48284145] = NPC({
     note=L["animaflow_teleporter_note"],
     requires=ns.requirement.Venari(61600),
     scale=1.3,
-    pois={Arrow({48284145, 34181473})}
+    pois={
+        Arrow({48284145, 34181473}), -- The Tremaculum
+        Arrow({48284145, 53426364}) -- The Beastwarrens
+    }
 })
 
 -------------------------------------------------------------------------------

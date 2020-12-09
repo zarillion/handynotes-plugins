@@ -423,7 +423,7 @@ Combine all three etchings to create the {item:182329}, which can be used to sum
 L["soul_well_note"] = "Catch the Stygia erupting from the Soul Well."
 L["obliterated_soul_shards_note"] = "Collect {item:177834s} on the bridges."
 
-L["animaflow_teleporter_note"] = "Activate to travel directly to the Tremaculum."
+L["animaflow_teleporter_note"] = "Activate to travel directly to other locations in the Maw."
 L["chaotic_riftstone_note"] = "Activate to {spell:344157} quickly across the Maw."
 L["venari_note"] = [[
 Use {currency:1767} to purchase Maw and Torghast upgrades.
