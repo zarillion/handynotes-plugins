@@ -638,8 +638,8 @@ map.nodes[46914169] = NPC({
         Item({item=184615, quest=63183, note=L["Apprehensive"]}), -- Extradimensional Pockets
         Item({item=184617, quest=63193, note=L["Tentative"]}), -- Bangle of Seniority
         Item({item=184621, quest=63204, note=L["Ambivalent"]}), -- Ritual Prism of Fortune
-        Item({item=184618, quest=nil, note=L["Cordial"]}), -- Rank Insignia: Acquisitionist
-        Item({item=184619, quest=nil, note=L["Cordial"]}), -- Loupe of Unusual Charm
+        Item({item=184618, quest=63200, note=L["Cordial"]}), -- Rank Insignia: Acquisitionist
+        Item({item=184619, quest=63201, note=L["Cordial"]}), -- Loupe of Unusual Charm
         Item({item=180952, quest=nil, note=L["Appreciative"]}), -- Possibility Matrix
     }
 })
