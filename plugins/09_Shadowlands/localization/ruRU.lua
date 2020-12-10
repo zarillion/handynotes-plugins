@@ -451,3 +451,5 @@ L["options_icons_grapples"] = "{npc:176308}"
 L["options_icons_grapples_desc"] = "Отображение местоположения крюков для улучшения {item:184653}."
 L["options_icons_stygian_caches"] = "Стигийский тайник"
 L["options_icons_stygian_caches_desc"] = "Показать места тайников, содержащих Стигию."
+
+L["reputation"] = "Reputation"

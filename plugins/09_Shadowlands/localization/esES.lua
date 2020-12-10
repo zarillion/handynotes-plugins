@@ -454,3 +454,5 @@ L["options_icons_grapples"] = "{npc:176308}"
 L["options_icons_grapples_desc"] = "Muestra las localizaciones de los agarres para la mejora {item:184653}."
 L["options_icons_stygian_caches"] = "Alijos de Estigia"
 L["options_icons_stygian_caches_desc"] = "Muestra las localizaciones de los alijos con Estigia extra."
+
+L["reputation"] = "Reputation"
