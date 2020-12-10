@@ -149,7 +149,8 @@ map.nodes[42342108] = Rare({
     rewards={
         Achievement({id=14744, criteria=49849}),
         Item({item=184105, note=L["ring"]}), -- Gyre
-        Item({item=182328}) -- Dominion Etching: Grief
+        Item({item=182328}), -- Dominion Etching: Grief
+        Reputation({rep=100}),
     }
 }) -- Ekphoras, Herald of Grief
 
@@ -189,7 +190,8 @@ map.nodes[16945102] = Rare({
     quest=60987,
     rewards={
         Achievement({id=14744, criteria=49852}),
-        Toy({item=184292}) -- Ancient Elethium Coin
+        Toy({item=184292}), -- Ancient Elethium Coin
+        Reputation({rep=100}),
     }
 }) -- Morguliax <Lord of Decapitation>
 
@@ -343,7 +345,8 @@ map.nodes[19205740] = BonusBoss({
         Achievement({id=14660, criteria=50410}),
         Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
         Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
-        Item({item=183068, quest=63162}) -- Korrath's Grimoire: Gyadrek
+        Item({item=183068, quest=63162}), -- Korrath's Grimoire: Gyadrek
+        Reputation({rep=100}),
     }
 }) -- Dath Rezara <Lord of Blades>
 
@@ -462,6 +465,7 @@ map.nodes[36253744] = BonusBoss({
     quest=59441,
     rewards={
         Achievement({id=14660, criteria=49482}),
+        Reputation({rep=40}),
     }
 }) -- Soulsmith Yol-Mattar
 
