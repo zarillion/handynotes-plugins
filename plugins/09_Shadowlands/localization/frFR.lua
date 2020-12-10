@@ -457,4 +457,4 @@ L["options_icons_grapples_desc"] = "Afficher les emplacements des grappins pour 
 L["options_icons_stygian_caches"] = "Caches stygiennes"
 L["options_icons_stygian_caches_desc"] = "Afficher les emplacements des caches contenant de la Stygie supplémentaire."
 
-L["reputation"] = "Reputation"
+L["reputation"] = nil

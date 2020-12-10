@@ -458,4 +458,4 @@ L["options_icons_grapples_desc"] = "Zeigt Grapple Points für die {item:184653} 
 L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
 
-L["reputation"] = "Reputation"
+L["reputation"] = nil

@@ -455,4 +455,4 @@ L["options_icons_grapples_desc"] = "Muestra las localizaciones de los agarres pa
 L["options_icons_stygian_caches"] = "Alijos de Estigia"
 L["options_icons_stygian_caches_desc"] = "Muestra las localizaciones de los alijos con Estigia extra."
 
-L["reputation"] = "Reputation"
+L["reputation"] = nil

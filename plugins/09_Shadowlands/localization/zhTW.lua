@@ -453,4 +453,4 @@ L["options_icons_grapples_desc"] = "顯示使用 {item:184653} 升級後可使�
 L["options_icons_stygian_caches"] = "冥魄聖匣"
 L["options_icons_stygian_caches_desc"] = "顯示含有額外冥魄寶箱的位置"
 
-L["reputation"] = "Reputation"
+L["reputation"] = nil

@@ -453,4 +453,4 @@ L["options_icons_grapples_desc"] = "显示 {item:184653} 升级锚点的位置�
 L["options_icons_stygian_caches"] = "冥殇宝箱"
 L["options_icons_stygian_caches_desc"] = "显示获取额外冥殇的宝箱位置。"
 
-L["reputation"] = "Reputation"
+L["reputation"] = nil

@@ -452,4 +452,4 @@ L["options_icons_grapples_desc"] = "Отображение местополож�
 L["options_icons_stygian_caches"] = "Стигийский тайник"
 L["options_icons_stygian_caches_desc"] = "Показать места тайников, содержащих Стигию."
 
-L["reputation"] = "Reputation"
+L["reputation"] = nil
