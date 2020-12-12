@@ -174,8 +174,8 @@ def upload_to_wowinterface(plugin, zip, token):
     })
 
 def upload_as_github_release(plugin, zip, token):
+    print('Uploading as GitHub release ...')
     auth = ('zarillion', token)
-
     headers = { 'Accept': 'application/vnd.github.v3+json' }
     resp = POST(f'{GITHUB_API}/releases', auth=auth, headers=headers, json={
         'tag_name': plugin.tag,
