@@ -400,7 +400,7 @@ map.nodes[38642880] = BonusBoss({
     rewards={
         Achievement({id=14660, criteria=50408}),
         Achievement({id=14761, criteria=49909}),
-        Item({item=183061, quest=nil}) -- Wailing Coin
+        Item({item=183061, quest=63158}) -- Wailing Coin
     }
 }) -- Odalrik
 
