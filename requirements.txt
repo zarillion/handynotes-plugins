@@ -1,0 +1,2 @@
+html2bbcode>=2.3
+Markdown>=3.1
