@@ -12,6 +12,7 @@ local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Quest = ns.reward.Quest
 local Section = ns.reward.Section
@@ -178,6 +179,15 @@ map.nodes[20586935] = Rare({
     }
 }) -- Exos, Herald of Domination
 
+map.nodes[53507950] = Rare({
+    id=174827,
+    note=L["gorged_shadehound_note"],
+    -- quest=61124,
+    rewards={
+        Mount({item=184167, id=1304}) -- Mawsworn Soulhunter
+    }
+}) -- Gorged Shadehound
+
 map.nodes[30775000] = Rare({
     id=175012,
     quest=62788,
@@ -272,11 +282,6 @@ map.nodes[27397152] = Rare({
         Reputation({rep=100}),
     }
 }) -- Thanassos <Death's Voice>
-
--- map.nodes[] = Rare({
---     id=165973,
---     quest=61124,
--- }) -- Gorged Shadehound
 
 map.nodes[37446212] = Rare({
     id=172862,
