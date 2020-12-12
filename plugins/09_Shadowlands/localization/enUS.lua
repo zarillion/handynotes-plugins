@@ -453,5 +453,3 @@ L["options_icons_grapples"] = "{npc:176308s}"
 L["options_icons_grapples_desc"] = "Display grapple locations for the {item:184653} upgrade."
 L["options_icons_stygian_caches"] = "Stygian Caches"
 L["options_icons_stygian_caches_desc"] = "Display cache locations containing extra Stygia."
-
-L["reputation"] = "Reputation"

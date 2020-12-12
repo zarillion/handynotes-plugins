@@ -60,6 +60,7 @@ L["mount"] = "Montura"
 L["pet"] = "Mascota"
 L["spell"] = nil
 L["toy"] = "Juguete"
+L["rep"] = nil
 L["completed"] = "Terminado"
 L["incomplete"] = "Incompleto"
 L["known"] = "Conocido"

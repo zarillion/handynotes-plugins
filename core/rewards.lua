@@ -427,22 +427,6 @@ function Transmog:GetStatus()
     return status
 end
 
-
--------------------------------------------------------------------------------
------------------------------------- REPUTATION ------------------------------------
--------------------------------------------------------------------------------
-
-local Reputation = Class('Reputation', Item, { type = L["reputation"]} )
-
-function Reputation:Initialize(attrs)
-    Reward.Initialize(self, attrs)
-end
-
-function Reputation:GetText()
-    return self.rep..' '..L["reputation"]
-end
-
-
 -------------------------------------------------------------------------------
 
 ns.reward = {
@@ -457,6 +441,5 @@ ns.reward = {
     Quest=Quest,
     Spell=Spell,
     Toy=Toy,
-    Transmog=Transmog,
-    Reputation=Reputation
+    Transmog=Transmog
 }

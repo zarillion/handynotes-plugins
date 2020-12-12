@@ -457,5 +457,3 @@ L["options_icons_grapples"] = "{npc:176308s}"
 L["options_icons_grapples_desc"] = "Afficher les emplacements des grappins pour l'amélioration {item:184653}."
 L["options_icons_stygian_caches"] = "Caches stygiennes"
 L["options_icons_stygian_caches_desc"] = "Afficher les emplacements des caches contenant de la Stygie supplémentaire."
-
-L["reputation"] = nil

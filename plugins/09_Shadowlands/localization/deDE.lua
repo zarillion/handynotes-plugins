@@ -458,5 +458,3 @@ L["options_icons_grapples"] = "{npc:176308}"
 L["options_icons_grapples_desc"] = "Zeigt Greifhakenziele für die {item:184653} Aufwertung an."
 L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
-
-L["reputation"] = nil
