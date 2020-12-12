@@ -449,9 +449,9 @@ L["Tentative"] = "Unverbindlich"
 L["stygian_cache"] = "Stygische Truhe"
 L["stygian_cache_note"] = "Nur einen Spieler kann die Truhe plündern, wenn sie erscheint!"
 
-L["box_of_torments_note"] = nil
-L["tormentors_notes_note"] = nil
-L["words_of_warden_note"] = nil
+L["box_of_torments_note"] = "Öffne die {npc:173837} unter dem Tremaculum."
+L["tormentors_notes_note"] = "Plündere die Leiche von {npc:173811}."
+L["words_of_warden_note"] = "Untersuche die |cffffff00Papierfetzen|r auf einem Stein hinter einigen Töpfen."
 
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"
 L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."
@@ -461,7 +461,7 @@ L["options_icons_riftstone"] = "Chaotische Risssteine"
 L["options_icons_riftstone_desc"] = "Zeigt die Positionen von Chaotischen Risssteinen an."
 L["options_icons_grapples"] = "{npc:176308}"
 L["options_icons_grapples_desc"] = "Zeigt Greifhakenziele für die {item:184653} Aufwertung an."
-L["options_icons_maw_lore"] = nil
-L["options_icons_maw_lore_desc"] = nil
+L["options_icons_maw_lore"] = "Mythen des Schlunds"
+L["options_icons_maw_lore_desc"] = "Zeigt die Mythen für den Erfolg {achievement:14761} an."
 L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
