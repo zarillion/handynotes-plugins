@@ -52,7 +52,7 @@ L["star_lake"] = "泊星剧场"
 L["star_lake_note"] = [[
 与舞台导演 {npc:171743} 交谈，会开启一场特殊的战斗。战斗每天会更换。
 
-参加全部七场战斗会从  {npc:163714} 解锁 {item:180748}。
+参加全部七场战斗会从 {npc:163714} 解锁 {item:180748}。
 ]]
 L["guldan"] = "古尔丹"
 
@@ -403,7 +403,7 @@ L["apholeias_note"] = "和3名其他玩家，站在平台的角落并施放 {spe
 L["dekaris_note"] = "在一块凸起的大岩石上。"
 L["drifting_sorrow_note"] = "在悬浮宝珠附近击杀 {npc:175246} 激活首领。"
 L["ekphoras_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:330650} 召唤稀有。"
-L["gorged_shadehound_note"] = nil
+L["gorged_shadehound_note"] = "只在 {wq:狩猎：影犬} 事件期间可用。"
 L["ikras_note"] = "在破灭堡飞来飞去。这里是攻击他的好位置。"
 L["orophea_note"] = "从东南方的拾取 {spell:337143} 并提供给 {npc:172577} 激活。"
 L["sanngror_note"] = "如果他是不可攻击，等待直到他不再灵魂实验。"
@@ -424,7 +424,7 @@ L["exos_note"] = [[
 L["soul_well_note"] = "接住从灵魂之井喷发而出的冥殇。"
 L["obliterated_soul_shards_note"] = "在桥上收集 {item:177834}。"
 
-L["animaflow_teleporter_note"] = "激活即可直接前往特玛库伦。"
+L["animaflow_teleporter_note"] = "激活即可直接前往噬渊其他位置。"
 L["chaotic_riftstone_note"] = "激活 {spell:344157} 快速穿过噬渊。"
 L["venari_note"] = [[
 使用 {currency:1767} 购买噬渊和托加斯特升级。"
