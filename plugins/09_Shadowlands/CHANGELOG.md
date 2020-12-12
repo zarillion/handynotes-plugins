@@ -1,3 +1,14 @@
+# v26
+
+* Added beastwarrens path to the Animaflow Teleporter node.
+* Added missing quest item drops for Shadeweaver and Exos.
+* Added quest ids for Ambivalent and Cordial Ve'nari upgrades.
+* Added reputation gains for maw rares and minibosses to the tooltips (thanks Kred88!)
+* Added the Gorged Shadehound to the map (Hunt: Shadehounds required).
+* Changed Blanchy and Loyal Gorger nodes to be hidden on alts after they are earned.
+* Fixed a bug with some achievements rendering incorrectly.
+* Fixed the displayed path for Yero (different from beta).
+
 # v25
 
 * Added a 'Zone-Specific settings' option to change display settings per-zone.
