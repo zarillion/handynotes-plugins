@@ -163,9 +163,7 @@ def upload_to_curseforge(plugin, zip, token):
 
 def upload_to_wowinterface(plugin, zip, token):
     print('Uploading to WoWInterface ...')
-    archive = 'No' if ('alpha' in plugin.version or 'beta' in plugin.version) else 'Yes'
     POST(f'{WOWI_API}/update', headers={ 'x-api-token': token }, files={
-        'archive': (None, archive),
         'id': (None, WOWI_PROJECTS[plugin.name]),
         'version': (None, plugin.version),
         'changelog': (None, get_changelog(plugin, bbcode=True, full=True)),
