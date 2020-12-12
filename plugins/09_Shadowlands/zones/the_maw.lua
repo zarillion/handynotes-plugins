@@ -171,7 +171,10 @@ map.nodes[20586935] = Rare({
     rewards={
         Achievement({id=14744, criteria=49851}),
         Item({item=184108, note=L["neck"]}), -- Vorpal Amulet
-        Reputation({rep=80}),
+        Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
+        Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
+        Item({item=183068, quest=63162}), -- Korrath's Grimoire: Gyadrek
+        Reputation({rep=80})
     }
 }) -- Exos, Herald of Domination
 
@@ -233,10 +236,10 @@ map.nodes[32946646] = Rare({
     quest=60884,
     rewards={
         Achievement({id=14744, criteria=49856}),
-        Reputation({rep=100}),
-        -- Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
-        -- Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
-        -- Item({item=183068, quest=63162}) -- Korrath's Grimoire: Gyadrek
+        Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
+        Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
+        Item({item=183068, quest=63162}), -- Korrath's Grimoire: Gyadrek
+        Reputation({rep=100})
     }
 }) -- Shadeweaver Zeris
 

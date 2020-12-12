@@ -104,7 +104,7 @@ map.nodes[31603540] = Rare({
     note=L["gieger_note"],
     rewards={
         Transmog({item=184298, slot=L["offhand"]}), -- Amalgamated Forsworn's Journal
-        Mount({item=182080, id=1411}) -- Predatory Plagueroc
+        Mount({item=182080, id=1411, covenant=NECROLORD}) -- Predatory Plagueroc
     }
 }) -- Gieger
 

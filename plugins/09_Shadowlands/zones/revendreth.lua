@@ -165,7 +165,7 @@ map.nodes[45847919] = Rare({
     note=L["harika_note"],
     rewards={
         Transmog({item=183720, slot=L["leather"]}), -- Dredbatskin Jerkin
-        Mount({item=180461, id=1310}) -- Horrid Brood Dredwing
+        Mount({item=180461, id=1310, covenant=VENTHYR}) -- Horrid Brood Dredwing
     },
     pois={
         POI({43257769}) -- Ballista Bolt
