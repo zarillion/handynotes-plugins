@@ -8,15 +8,15 @@
 * Fix transmog collected state on initial load.
 * Investigate auto NPC coloring for tooltips (red, green, yellow).
 * Double-click to create Blizzard waypoint.
+* Fix POI arrow to shorten line slightly.
 * Toggle setting for world map button.
 * Add hide-known-rares option to quick toggle menu.
 * Filter rewards based on type (include in quick toggle menu).
-* Add focusable attr (for Macabre and Swelling Tear).
-* Fix POI arrow to shorten line slightly.
-* Rework release workflow to also upload to WoWI.
 
 # Shadowlands
 
+* Add focusable attr (for Macabre and Swelling Tear).
+* Add Beast Warrens mount to Hunt vignette.
 * [Crypt Couture](https://www.wowhead.com/achievement=14763/crypt-couture) (Necrolord only?)
 * [To All the Squirrels I've Loved and Lost](https://www.wowhead.com/achievement=14731/to-all-the-squirrels-ive-loved-and-lost)
 * [What is that Melody?](https://www.wowhead.com/achievement=14768/what-is-that-melody) (scrolls spawn all over each temple, need more data)
