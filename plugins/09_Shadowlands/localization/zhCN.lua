@@ -443,6 +443,10 @@ L["Tentative"] = "犹豫"
 L["stygian_cache"] = "冥殇宝箱"
 L["stygian_cache_note"] = "每次刷新只有一人可以拾取宝箱！"
 
+L["box_of_torments_note"] = nil
+L["tormentors_notes_note"] = nil
+L["words_of_warden_note"] = nil
+
 L["options_icons_bonus_boss"] = "奖励精英"
 L["options_icons_bonus_boss_desc"] = "显示奖励精英位置。"
 L["options_icons_bonus_event"] = "奖励事件"
@@ -451,5 +455,7 @@ L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "显示混乱裂隙石传送者位置。"
 L["options_icons_grapples"] = "锚点"
 L["options_icons_grapples_desc"] = "显示 {item:184653} 升级锚点的位置。"
+L["options_icons_maw_lore"] = nil
+L["options_icons_maw_lore_desc"] = nil
 L["options_icons_stygian_caches"] = "冥殇宝箱"
 L["options_icons_stygian_caches_desc"] = "显示获取额外冥殇的宝箱位置。"

@@ -442,6 +442,10 @@ L["Tentative"] = "с настороженностью"
 L["stygian_cache"] = "Стигийский тайник"
 L["stygian_cache_note"] = "Только один человек может открыть тайник каждый раз, когда он появляется!"
 
+L["box_of_torments_note"] = nil
+L["tormentors_notes_note"] = nil
+L["words_of_warden_note"] = nil
+
 L["options_icons_bonus_boss"] = "Бонусные элитные монстры"
 L["options_icons_bonus_boss_desc"] = "Отображение местоположения бонусных элитных монстров."
 L["options_icons_bonus_event"] = "Бонусные события"
@@ -450,5 +454,7 @@ L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "Отображение местоположения хаотичных каменей разлома."
 L["options_icons_grapples"] = "{npc:176308}"
 L["options_icons_grapples_desc"] = "Отображение местоположения крюков для улучшения {item:184653}."
+L["options_icons_maw_lore"] = nil
+L["options_icons_maw_lore_desc"] = nil
 L["options_icons_stygian_caches"] = "Стигийский тайник"
 L["options_icons_stygian_caches_desc"] = "Показать места тайников, содержащих Стигию."

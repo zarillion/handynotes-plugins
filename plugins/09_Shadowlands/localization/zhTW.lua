@@ -443,6 +443,10 @@ L["Tentative"] = "猶豫"
 L["stygian_cache"] = "冥魄聖匣"
 L["stygian_cache_note"] = "每次重生只有一個人能夠拾取"
 
+L["box_of_torments_note"] = nil
+L["tormentors_notes_note"] = nil
+L["words_of_warden_note"] = nil
+
 L["options_icons_bonus_boss"] = "獎勵精英"
 L["options_icons_bonus_boss_desc"] = "顯示獎勵精英位置。"
 L["options_icons_bonus_event"] = "獎勵事件"
@@ -451,5 +455,7 @@ L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "顯示混亂裂隙石傳送者位置。"
 L["options_icons_grapples"] = "{npc:176308}"
 L["options_icons_grapples_desc"] = "顯示使用 {item:184653} 升級後可使用的 {npc:176308} 位置"
+L["options_icons_maw_lore"] = nil
+L["options_icons_maw_lore_desc"] = nil
 L["options_icons_stygian_caches"] = "冥魄聖匣"
 L["options_icons_stygian_caches_desc"] = "顯示含有額外冥魄寶箱的位置"

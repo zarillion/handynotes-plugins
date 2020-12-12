@@ -443,6 +443,10 @@ L["Tentative"] = nil
 L["stygian_cache"] = "Stygian Cache"
 L["stygian_cache_note"] = "Only one person can loot the cache each time it spawns!"
 
+L["box_of_torments_note"] = "Open the {npc:173837} under the Tremaculum."
+L["tormentors_notes_note"] = "Loot the corpse of {npc:173811}."
+L["words_of_warden_note"] = "Examine the |cffffff00Paper Scrap|r on a rock behind some pots."
+
 L["options_icons_bonus_boss"] = "Bonus Elites"
 L["options_icons_bonus_boss_desc"] = "Display locations of bonus elites."
 L["options_icons_bonus_event"] = "Bonus Events"
@@ -451,5 +455,7 @@ L["options_icons_riftstone"] = "{npc:174962s}"
 L["options_icons_riftstone_desc"] = "Display the locations of chaotic riftstone teleporters."
 L["options_icons_grapples"] = "{npc:176308s}"
 L["options_icons_grapples_desc"] = "Display grapple locations for the {item:184653} upgrade."
+L["options_icons_maw_lore"] = "Maw Lore"
+L["options_icons_maw_lore_desc"] = "Display maw lore locations for the {achievement:14761} achievement."
 L["options_icons_stygian_caches"] = "Stygian Caches"
 L["options_icons_stygian_caches_desc"] = "Display cache locations containing extra Stygia."

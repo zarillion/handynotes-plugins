@@ -448,6 +448,11 @@ L["Tentative"] = "Unverbindlich"
 
 L["stygian_cache"] = "Stygische Truhe"
 L["stygian_cache_note"] = "Nur einen Spieler kann die Truhe plündern, wenn sie erscheint!"
+
+L["box_of_torments_note"] = nil
+L["tormentors_notes_note"] = nil
+L["words_of_warden_note"] = nil
+
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"
 L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."
 L["options_icons_bonus_event"] = "Bonus Events"
@@ -456,5 +461,7 @@ L["options_icons_riftstone"] = "Chaotische Risssteine"
 L["options_icons_riftstone_desc"] = "Zeigt die Positionen von Chaotischen Risssteinen an."
 L["options_icons_grapples"] = "{npc:176308}"
 L["options_icons_grapples_desc"] = "Zeigt Greifhakenziele für die {item:184653} Aufwertung an."
+L["options_icons_maw_lore"] = nil
+L["options_icons_maw_lore_desc"] = nil
 L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
