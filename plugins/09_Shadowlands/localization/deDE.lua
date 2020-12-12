@@ -409,7 +409,7 @@ L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Pl
 L["dekaris_note"] = "Auf einem großen hervorstehenden Felsen."
 L["drifting_sorrow_note"] = "Töte {npc:175246} in der Nähe der schwebenden Kugel, um den Boss zu aktivieren."
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
-L["gorged_shadehound_note"] = nil
+L["gorged_shadehound_note"] = "Nur während dem Event {wq: Jagd: Schemenhunde} verfügbar."
 L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen."
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, um sie zu aktivieren."
 L["sanngror_note"] = "\nWenn er gerade nicht angreifbar ist, dann warte bis er nicht mehr mit Seelen experimentiert."
@@ -430,7 +430,7 @@ Kombiniere alle drei Gravuren, um den {item:182329} herzustellen, welcher am Alt
 L["soul_well_note"] = "Fangt die aus dem Seelenbrunnen ausbrechende Stygia."
 L["obliterated_soul_shards_note"] = "Sammel Ausgelöschte Seelensplitter auf den Brücken."
 
-L["animaflow_teleporter_note"] = "Bei Aktivierung gelangst du direkt zum Tremaculum."
+L["animaflow_teleporter_note"] = "Bei Aktivierung gelangst du direkt an andere Orte im Schlund."
 L["chaotic_riftstone_note"] = "Bei Aktivierung reist du mit einem {spell:344157} schnell durch den Schlund."
 L["venari_note"] = [[
 Verwende {currency:1767} dazu, um dauerhafte Aufwertungen für den Schlund und Torghast freizuschalten.
