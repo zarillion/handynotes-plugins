@@ -379,7 +379,7 @@ map.nodes[20782968] = BonusBoss({
 
 map.nodes[30846866] = BonusBoss({
     id=170692,
-    quest=60903,
+    quest=63381,
     rewards={
         Achievement({id=14660, criteria=49486})
     }
