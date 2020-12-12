@@ -9,6 +9,7 @@ local Map = ns.Map
 
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
+local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -397,7 +398,9 @@ map.nodes[38642880] = BonusBoss({
     id=172207,
     quest=62618,
     rewards={
-        Achievement({id=14660, criteria=50408})
+        Achievement({id=14660, criteria=50408}),
+        Achievement({id=14761, criteria=49909}),
+        Item({item=183061, quest=nil}) -- Wailing Coin
     }
 }) -- Odalrik
 
@@ -576,6 +579,49 @@ for _, coord in ipairs(GRAPPLES) do
         scale=1.25,
     })
 end
+
+-------------------------------------------------------------------------------
+---------------------------------- MAW LORE -----------------------------------
+-------------------------------------------------------------------------------
+
+local Lore = Class('MawLore', Treasure, {
+    group=ns.groups.MAW_LORE,
+    rlabel=ns.status.LightBlue('+150 '..L["rep"]),
+    IsCompleted=function(self)
+        if C_QuestLog.IsOnQuest(self.quest[1]) then return true end
+        return Treasure.IsCompleted(self)
+    end
+})
+
+Map({id=1822}).nodes[73121659] = Lore({
+    quest=63157,
+    note=L["box_of_torments_note"],
+    parent={ id=map.id, pois={POI({27702020})} },
+    rewards={
+        Achievement({id=14761, criteria=49908}),
+        Item({item=183060, quest=63157})
+    }
+}) -- Box of Torments
+
+-- Shadehound Armor Plating ??
+
+map.nodes[35764553] = Lore({
+    quest=63163,
+    note=L["tormentors_notes_note"],
+    rewards={
+        Achievement({id=14761, criteria=49914}),
+        Item({item=183069, quest=63163})
+    }
+}) -- Tormentor's Notes
+
+map.nodes[19363340] = Lore({
+    quest=63159,
+    note=L["words_of_warden_note"],
+    rewards={
+        Achievement({id=14761, criteria=49910}),
+        Item({item=183063, quest=63159})
+    }
+}) -- Words of the Warden
 
 -------------------------------------------------------------------------------
 ------------------------------- STYGIAN CACHES --------------------------------

@@ -447,6 +447,10 @@ L["Tentative"] = "Hésitation"
 L["stygian_cache"] = "Cache stygienne"
 L["stygian_cache_note"] = "Une seule personne peut récupérer le butin de la cache à chaque apparition !"
 
+L["box_of_torments_note"] = nil
+L["tormentors_notes_note"] = nil
+L["words_of_warden_note"] = nil
+
 L["options_icons_bonus_boss"] = "Élites bonus"
 L["options_icons_bonus_boss_desc"] = "Afficher les emplacements des élites bonus."
 L["options_icons_bonus_event"] = "Événements bonus"
@@ -455,5 +459,7 @@ L["options_icons_riftstone"] = "{npc:174962s}"
 L["options_icons_riftstone_desc"] = "Affichez les emplacements des téléporteurs de Failles Chaotiques"
 L["options_icons_grapples"] = "{npc:176308s}"
 L["options_icons_grapples_desc"] = "Afficher les emplacements des grappins pour l'amélioration {item:184653}."
+L["options_icons_maw_lore"] = nil
+L["options_icons_maw_lore_desc"] = nil
 L["options_icons_stygian_caches"] = "Caches stygiennes"
 L["options_icons_stygian_caches_desc"] = "Afficher les emplacements des caches contenant de la Stygie supplémentaire."
