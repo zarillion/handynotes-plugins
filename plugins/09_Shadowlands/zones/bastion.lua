@@ -851,3 +851,9 @@ wake.nodes[36202280] = AnimaShard({quest=61297, note=L["anima_shard_61297"], par
 gardens.nodes[46605310] = AnimaShard({quest=61298, note=L["anima_shard_61298"]})
 gardens.nodes[69403870] = AnimaShard({quest=61299, note=L["anima_shard_61299"]})
 font.nodes[49804690] = AnimaShard({quest=61300, note=L["anima_shard_61300"]})
+
+map.nodes[60552554] = AnimaShard({
+    quest={61298, 61299, 61300},
+    questCount=true,
+    note=L["anima_shard_spires"]
+})

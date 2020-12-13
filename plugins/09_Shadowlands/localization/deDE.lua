@@ -221,6 +221,7 @@ L["anima_shard_61297"] = "Hinter einer Steinsäule.\n\n"..ns.color.Red('Im Dunge
 L["anima_shard_61298"] = "Hinter einem Liegestuhl."
 L["anima_shard_61299"] = "Hinter einer großen Fackel versteckt."
 L["anima_shard_61300"] = "An der Kante des mittleren Brunnens."
+L["anima_shard_spires"] = nil
 L["options_icons_anima_shard"] = "Splitterpartie"
 L["options_icons_anima_shard_desc"] = "Zeigt alle 50 verlorenen Animakristallsplitter für den Erfolg {achievement:14339} an."
 

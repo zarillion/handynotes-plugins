@@ -220,6 +220,7 @@ L["anima_shard_61297"] = "Behind a stone pillar.\n\n"..ns.color.Red('Inside the 
 L["anima_shard_61298"] = "Sitting behind a lounge chair."
 L["anima_shard_61299"] = "Hidden behind a large torch."
 L["anima_shard_61300"] = "On a ledge hanging over the central font."
+L["anima_shard_spires"] = "Three shards are located in the Spires of Ascension dungeon."
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "Display the locations of all 50 lost anima shards for the {achievement:14339} achievement."
 

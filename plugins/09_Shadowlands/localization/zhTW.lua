@@ -220,6 +220,7 @@ L["anima_shard_61297"] = "在石柱後面。\n\n"..ns.color.Red('死靈戰地副
 L["anima_shard_61298"] = "位在躺椅後面。"
 L["anima_shard_61299"] = "隱藏在大火炬的後面。"
 L["anima_shard_61300"] = "掛在中央字體的壁架上。"
+L["anima_shard_spires"] = nil
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "顯示 {achievement:14339} 成就中全部50個失落的靈魄碎片的位置。"
 

@@ -221,6 +221,7 @@ L["anima_shard_61297"] = "За каменным столбом.\n\n"..ns.color.R
 L["anima_shard_61298"] = "Сидит за шезлонгом."
 L["anima_shard_61299"] = "Скрытый за большим факелом."
 L["anima_shard_61300"] = "На выступе, нависшем над центральной купелью."
+L["anima_shard_spires"] = nil
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "Отображение местоположения всех 50 потерянных осколков анимы для достижения {achievement:14339}."
 
