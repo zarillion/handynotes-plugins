@@ -291,7 +291,7 @@ map.nodes[66507080] = Rare({
 
 map.nodes[43007910] = Rare({
     id=155779,
-    quest=56877,
+    quest=61231,
     note=L["tomb_burster_note"],
     rewards={
         Achievement({id=14310, criteria=48802}),
