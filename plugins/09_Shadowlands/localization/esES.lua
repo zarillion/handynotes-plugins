@@ -445,9 +445,9 @@ L["Tentative"] = "Indecisa"
 L["stygian_cache"] = "Alijo de Estigia"
 L["stygian_cache_note"] = "¡Sólo una persona puede despojar el alijo cada vez que aparezca!"
 
-L["box_of_torments_note"] = nil
-L["tormentors_notes_note"] = nil
-L["words_of_warden_note"] = nil
+L["box_of_torments_note"] = "Abre los {npc:173837} bajo el Tremaculum."
+L["tormentors_notes_note"] = "Despoja el cuerpo del {npc:173811}."
+L["words_of_warden_note"] = "Examina el |cffffff00Trozo de Papel|r en la roca detrás de algunas ollas."
 
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
 L["options_icons_bonus_boss_desc"] = "Muestra las localizaciones de los élites de bonificación."
@@ -457,7 +457,7 @@ L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "Muestra las localizaciones de los teletransportadores de piedras de falla caóticas."
 L["options_icons_grapples"] = "{npc:176308}"
 L["options_icons_grapples_desc"] = "Muestra las localizaciones de los agarres para la mejora {item:184653}."
-L["options_icons_maw_lore"] = nil
-L["options_icons_maw_lore_desc"] = nil
+L["options_icons_maw_lore"] = "Tradiciones de Las Fauces"
+L["options_icons_maw_lore_desc"] = "Muestra las localizaciones para las tradiciones de Las Fauces para el logro {achievement:14761}."
 L["options_icons_stygian_caches"] = "Alijos de Estigia"
 L["options_icons_stygian_caches_desc"] = "Muestra las localizaciones de los alijos con Estigia extra."
