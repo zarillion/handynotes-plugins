@@ -220,6 +220,7 @@ L["anima_shard_61297"] = "在石柱后面。\n\n"..ns.color.Red('通灵战潮地
 L["anima_shard_61298"] = "位于在躺椅后面。"
 L["anima_shard_61299"] = "隐藏在大火炬的后面。"
 L["anima_shard_61300"] = "挂在中央字体的壁架上。"
+L["anima_shard_spires"] = nil
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "显示 {achievement:14339} 成就中全部50个失落的心能碎片的位置。"
 

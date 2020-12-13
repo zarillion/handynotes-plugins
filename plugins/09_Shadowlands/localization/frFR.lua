@@ -222,6 +222,7 @@ L["anima_shard_61297"] = "Derrière un pilier de pierre.\n\n"..ns.color.Red('Dan
 L["anima_shard_61298"] = "Situé derrière une chaise longue."
 L["anima_shard_61299"] = "Caché derrière une grande torche."
 L["anima_shard_61300"] = "Sur un rebord surplombant la fontaine centrale."
+L["anima_shard_spires"] = nil
 L["options_icons_anima_shard"] = "Éclats de cristal d'anima perdus"
 L["options_icons_anima_shard_desc"] = "Afficher les emplacements des 50 éclats de cristal d'anima perdus pour l'exploit Mission éclatante."
 

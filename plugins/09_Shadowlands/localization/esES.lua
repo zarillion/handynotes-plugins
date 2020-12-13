@@ -222,6 +222,7 @@ L["anima_shard_61297"] = "Detrás de un pilar de piedra.\n\n"..ns.color.Red('Den
 L["anima_shard_61298"] = "Reposa detrás de un sillón."
 L["anima_shard_61299"] = "Oculta detrás de una gran antorcha."
 L["anima_shard_61300"] = "En una repisa que cuelga sobre la fuente central."
+L["anima_shard_spires"] = nil
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "Muestra la localización de los 50 fragmentos de cristal de ánima perdidos para el logro {achievement:14339}."
 
