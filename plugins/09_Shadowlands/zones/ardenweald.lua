@@ -699,7 +699,9 @@ map.nodes[40094168] = JOURNAL
 map.nodes[49664016] = JOURNAL
 map.nodes[50202500] = JOURNAL
 map.nodes[50174187] = JOURNAL
+map.nodes[56002100] = JOURNAL
 
+map.nodes[24755197] = NAUGHTY
 map.nodes[33605740] = NAUGHTY
 map.nodes[39806560] = NAUGHTY
 map.nodes[51005480] = NAUGHTY

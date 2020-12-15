@@ -19,6 +19,7 @@
 * Add focusable attr (for Macabre and Swelling Tear).
 * Add Beast Warrens mount to Hunt vignette.
 * Add Beast Warrens grapple points.
+* Change inquisitors group name and always display them (for rep farming).
 * [Crypt Couture](https://www.wowhead.com/achievement=14763/crypt-couture) (Necrolord only?)
 * [To All the Squirrels I've Loved and Lost](https://www.wowhead.com/achievement=14731/to-all-the-squirrels-ive-loved-and-lost)
 * [What is that Melody?](https://www.wowhead.com/achievement=14768/what-is-that-melody) (scrolls spawn all over each temple, need more data)
