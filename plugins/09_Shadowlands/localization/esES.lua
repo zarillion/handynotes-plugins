@@ -311,7 +311,7 @@ Para tirar de {item:180273} sin problemas:
 L["pet_cat"] = "¡Acaricia al maldito gato!"
 L["hairball"] = ns.color.Red("¡Sólo aparece en el Sagrario Purulento dentro de la mazmorra Bajapeste!")
 L["lime"] = "Reposa sobre el gran arco óseo."
-L["moldstopheles"] = "Corre alrededor de la parte posterior del tallo y salta en las plataformas con forma de champiñón. Para la última plataforma, usa una montura y salta en la esquina que rodea el tallo."
+L["moldstopheles"] = "Corre alrededor del tallo y salta hacia la pared para saltar en la plataforma con forma de champiñón. Salta otra y para la última, usa una montura y salta en la raíz que rodea el tallo del champiñón gigante."
 L["pus_in_boots"] = "Está debajo del puente."
 
 L["options_icons_slime_cat"] = "{achievement:14634}"
