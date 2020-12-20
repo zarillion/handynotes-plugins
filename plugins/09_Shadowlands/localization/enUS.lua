@@ -118,7 +118,7 @@ Motes can be collected from nearby Depleted Anima Canisters located in the room 
 
 |cFFFF8C00Cannot be defeated during the {wq:Assault on the Vestibule} world quest.|r
 ]]
-L["nikara_note"] = "With two other players, click the Ancient Incense to summon."
+L["repair_note"] = "With two other players, click the Ancient Incense to summon."
 L["sotiros_orstus_note"] = "Click the Black Bell to summon the rares."
 L["sundancer_note"] = "Click the statue to obtain the {spell:332309} buff, then use a {item:180445} to glide to the rare and mount it."
 L["swelling_tear_note"] = "Click the {npc:171012} to summon one of three rares. Tears can appear in multiple locations in the zone."

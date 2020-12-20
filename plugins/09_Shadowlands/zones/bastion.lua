@@ -115,7 +115,8 @@ map.nodes[66004367] = Rare({
     quest=61002,
     note=L["collector_astor_note"],
     rewards={
-        Achievement({id=14307, criteria=50610})
+        Achievement({id=14307, criteria=50610}),
+        Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
     },
     pois={
         POI({
@@ -256,11 +257,10 @@ map.nodes[42908265] = Rare({
 
 map.nodes[51456859] = Rare({
     id=160882,
-    quest=58319,
-    note=L["nikara_note"],
+    quest=58320,
+    note=L["repair_note"],
     rewards={
-        Achievement({id=14307, criteria=50594}),
-        Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
+        Achievement({id=14307, criteria=50593}),
     }
 }) -- Nikara Blackheart
 
@@ -275,11 +275,10 @@ map.nodes[30365517] = Rare({
 
 map.nodes[61295090] = Rare({
     id=160985,
-    quest=58320,
-    note=L["nikara_note"],
+    quest=58319,
+    note=L["repair_note"],
     rewards={
-        Achievement({id=14307, criteria=50593}),
-        Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
+        Achievement({id=14307, criteria=50594})
     }
 }) -- Selena the Reborn
 

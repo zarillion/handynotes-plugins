@@ -119,7 +119,7 @@ Partikel können aus entleerten Animakanistern in der Nähe gesammelt werden, di
 
 |cFFFF8C00Kann nicht während der Weltquest {wq:Angriff auf die Vorhallen} besiegt werden.
 ]]
-L["nikara_note"] = "Klicke mit zwei anderen Spielern das Uralte Räucherwerk an, um ein Ritual zu beginnen, {npc:160882} zu beschwören."
+L["repair_note"] = "Klicke mit zwei anderen Spielern das Uralte Räucherwerk an, um ein Ritual zu beginnen, {npc:160882} zu beschwören."
 L["sotiros_orstus_note"] = "Klicke zum Beschwören die Schwarze Glocke an."
 L["sundancer_note"] = "Klicke das Uralte Denkmal an, um den {spell:332309} zu erhalten und verwende einen {item:180445}, um zu ihm zu gleiten und aufzusitzen."
 L["swelling_tear_note"] = "Klicke den {npc:171012} an, um einen von drei Seltenen Gegnern zu beschwören. Risse können an mehreren Orten in der Zone erscheinen."
