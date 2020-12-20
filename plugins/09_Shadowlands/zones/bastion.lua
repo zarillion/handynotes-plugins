@@ -261,6 +261,7 @@ map.nodes[51456859] = Rare({
     note=L["repair_note"],
     rewards={
         Achievement({id=14307, criteria=50593}),
+        Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
     }
 }) -- Nikara Blackheart
 
@@ -278,7 +279,8 @@ map.nodes[61295090] = Rare({
     quest=58319,
     note=L["repair_note"],
     rewards={
-        Achievement({id=14307, criteria=50594})
+        Achievement({id=14307, criteria=50594}),
+        Transmog({item=183608, slot=L["offhand"]}) -- Evernote Vesper
     }
 }) -- Selena the Reborn
 
