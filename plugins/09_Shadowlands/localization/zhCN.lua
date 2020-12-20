@@ -301,7 +301,7 @@ L["oonar_sorrowbane_note"] = [[
 
 · 从雷文德斯的 {npc:171808} 买个 {item:182163}。
 · 从玛卓克萨斯的 {npc:166640} 买个 {item:180771}。
-· 从 |cFFFFFD00{wq:一路磕磕绊绊}|r 世界任务西侧得到2层 {spell:306272}。
+· 从 {wq:一路磕磕绊绊} 世界任务西侧得到2层 {spell:306272}。
 · 在格拉萨恩之腐吃4层 {spell:327367}。
 · 迅速炉石，喝下2种药水并拉出大宝剑。
 ]]
@@ -360,10 +360,10 @@ L["the_count_note"] = "获得99个 {currency:1820} 末日迷沼然后把它带�
 
 L["forgotten_anglers_rod"] = "被遗忘的渔翁之竿"
 
-L["loyal_gorger_note"] = "到末日迷沼完成{npc:173498} 的每日任务七次将获得他的坐骑。"
+L["loyal_gorger_note"] = "到末日迷沼完成 {npc:173498} 的每日任务七次将获得他的坐骑。"
 
 L["sinrunner_note"] = "将食物和补给品给 {npc:173468} 共六天获得她的缰绳。她一次只出现几分钟。"
-L["sinrunner_note_day1"] = "在西部荒野农场的8个 {item:182581} 给布兰契。"
+L["sinrunner_note_day1"] = "带西部荒野农场的8个 {item:182581} 给布兰契。"
 L["sinrunner_note_day2"] = "从暗湾镇的 {npc:173570} 获得 {item:182585} 并梳理布兰契。"
 L["sinrunner_note_day3"] = "在暗湾镇道路周围找到4个 {item:182595} 给布兰契装配上。"
 L["sinrunner_note_day4"] = "在 {npc:173570} 处拾取 {item:182620} 并填满晋升堡垒或炽蓝仙野的水。把 {item:182599} 给布兰契。"
