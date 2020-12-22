@@ -121,7 +121,7 @@ L["herculon_note"] = [[
 L["repair_note"] = "和两名其他玩家，点击上古熏香来召唤。"
 L["sotiros_orstus_note"] = "点击黑色的钟召唤稀有。"
 L["sundancer_note"] = "点击雕像获得 {spell:332309} 增益，然后使用 {item:180445} 滑翔到稀有并骑上它。"
-L["swelling_tear_note"] = "点击 {npc:171012} 召唤三个稀有中的一个。眼泪可以在区域内的多个位置出现。"
+L["swelling_tear_note"] = "点击 {npc:171012} 召唤三个稀有中的一个。裂隙可以在区域内的多个位置出现。"
 L["unstable_memory_note"] = "当 {npc:171018} 存在时可以刷新。拉一个 {npc:171018} 到其它会给它10层堆叠 {spell:333558}，把它变成稀有。"
 L["wingflayer_note"] = "点击附近桌上的勇气号角召唤（东南方，楼梯上）。"
 
