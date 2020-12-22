@@ -349,14 +349,14 @@ L["worldedge_gorger_note"] = [[
 ]]
 
 L["dredglaive_note"] = "在 {npc:173671} 尸体的桥下。"
-L["forbidden_chamber_note"] = "拾取一个废弃的心能之罐在锁着的门前学习 {spell:340701}。使用它吸取五个附近的 {npc:173838}s，然后在 {npc:173786} 前使用 {spell:340866}。"
+L["forbidden_chamber_note"] = "在锁着的门前拾取一个被抛弃的心能之罐学习 {spell:340701}。使用它吸取五个附近的 {npc:173838}，然后在 {npc:173786} 前使用 {spell:340866}。"
 L["gilded_plum_chest_note"] = "击杀在路上徘徊的 {npc:166680}。"
 L["lost_quill_note"] = "从禁忌图书馆的桌上瓶子拾取 {item:182475}，然后把它交给外面拱门顶上的 {npc:173449}。"
 L["rapier_fearless_note"] = "点击地上的剑杆，然后击败 {npc:173603}。"
 L["remlates_cache_note"] = "在暗湾镇墓穴后面的外墙上。"
 L["smuggled_cache_note"] = ns.color.Red("*在拾取之前*：").."确认已完成 {quest:60480} 分支任务否则宝藏和任务将缺少40个 {currency:1820}。"
 L["taskmaster_trove_note"] = "阅读出入口仪式然后小心地走到宝箱。"
-L["the_count_note"] = "获得99个 {currency:1820} 末日迷沼然后把它带给 {npc:173488}。"
+L["the_count_note"] = "在末日迷沼获得99个 {currency:1820} 然后把它带给 {npc:173488}。"
 
 L["forgotten_anglers_rod"] = "被遗忘的渔翁之竿"
 
