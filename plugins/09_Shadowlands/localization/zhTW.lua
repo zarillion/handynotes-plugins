@@ -121,7 +121,7 @@ L["herculon_note"] = [[
 L["repair_note"] = "和兩名其他玩家，點選遠古焚香來召喚。"
 L["sotiros_orstus_note"] = "點選黑色的鐘召喚稀有。"
 L["sundancer_note"] = "點選雕像獲得 {spell:332309} 增益，然後使用 {item:180445} 滑翔到稀有並騎上它。"
-L["swelling_tear_note"] = "點選 {npc:171012} 召喚三個稀有中的一個。眼淚可以在區域內的多個位置出現。"
+L["swelling_tear_note"] = "點選 {npc:171012} 召喚三個稀有中的一個。裂隙可以在區域內的多個位置出現。"
 L["unstable_memory_note"] = "當 {npc:171018} 存在時可以刷新。拉一個 {npc:171018} 到其它會給它10層堆疊 {spell:333558}，把它變成稀有。"
 L["wingflayer_note"] = "點擊附近桌上的勇氣號角召喚（東南方，樓梯上）。"
 
@@ -301,7 +301,7 @@ L["oonar_sorrowbane_note"] = [[
 
 • 從瑞文崔斯的 {npc:171808} 買個 {item:182163}。
 • 從瑪卓薩斯的 {npc:166640} 買個 {item:180771}。
-• 從 |cFFFFFD00{wq:顛跛之路}|r 世界任務西側得到2層 {spell:306272}。
+• 從 {wq:顛跛之路} 世界任務西側得到2層 {spell:306272}。
 • 在格魯薩恩凋亡地吃4層 {spell:327367}。
 • 迅速爐石，喝下2種藥水並拉出大寶劍。
 ]]
@@ -349,7 +349,7 @@ L["worldedge_gorger_note"] = [[
 ]]
 
 L["dredglaive_note"] = "在 {npc:173671} 屍體的橋下。"
-L["forbidden_chamber_note"] = "在鎖著的門前拾取一個廢棄的靈魄之罐並學習 {spell:340701}。使用它吸取五個附近的 {npc:173838s}，然後在 {npc:173786} 前使用 {spell:340866}。"
+L["forbidden_chamber_note"] = "在鎖著的門前拾取一個廢棄的靈魄之罐並學習 {spell:340701}。使用它吸取五個附近的 {npc:173838}，然後在 {npc:173786} 前使用 {spell:340866}。"
 L["gilded_plum_chest_note"] = "擊殺在路上徘徊的 {npc:166680}。"
 L["lost_quill_note"] = "從禁忌圖書館的桌上瓶子拾取 {item:182475}，然後把它交給外面拱門頂上的 {npc:173449}。"
 L["rapier_fearless_note"] = "點擊地上的劍杆，然後擊敗 {npc:173603}。"
@@ -360,7 +360,7 @@ L["the_count_note"] = "在歿路沼澤農99個 {currency:1820} 然後把它帶�
 
 L["forgotten_anglers_rod"] = "被遺忘的漁翁之竿"
 
-L["loyal_gorger_note"] = "到歿路沼澤完成 {npc:173498} 的每日任務七次將以坐騎獲得他。"
+L["loyal_gorger_note"] = "到歿路沼澤完成 {npc:173498} 的每日任務七次將獲得他的坐騎。"
 
 L["sinrunner_note"] = "將食物和補給品帶給 {npc:173468} 持續六天後可獲得她的韁繩。她一次只會出現幾分鐘。"
 L["sinrunner_note_day1"] = "在西部荒野農場撿8個 {item:182581} 給布蘭契。"
