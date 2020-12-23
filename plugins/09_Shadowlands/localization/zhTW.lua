@@ -441,7 +441,7 @@ L["Apprehensive"] = "不安"
 L["Cordial"] = "友善"
 L["Tentative"] = "猶豫"
 
-L["stygian_cache"] = "冥魄聖匣"
+L["stygian_cache"] = "冥魄儲藏箱"
 L["stygian_cache_note"] = "每次重生只有一個人能夠拾取"
 
 L["box_of_torments_note"] = "在悲慘之牢下方開啟 {npc:173837}"
