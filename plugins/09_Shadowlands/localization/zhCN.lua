@@ -428,7 +428,7 @@ L["obliterated_soul_shards_note"] = "在桥上收集 {item:177834}。"
 L["animaflow_teleporter_note"] = "激活即可直接前往噬渊其他位置。"
 L["chaotic_riftstone_note"] = "激活 {spell:344157} 快速穿过噬渊。"
 L["venari_note"] = [[
-使用 {currency:1767} 购买噬渊和托加斯特升级。"
+使用 {currency:1767} 购买噬渊和托加斯特升级。
 
 |cFFFF8C00帐号通用托加斯特升级在小号上显示不完整！|r
 |cFFFF8C00解锁后，下面的完成状态将更新！|r
