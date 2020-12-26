@@ -943,7 +943,7 @@ end
 ------------------------ ITS ALWAYS SINNY IN REVENDRETH -----------------------
 -------------------------------------------------------------------------------
 
-local Inquisitor = Class('Inquisitor', Collectible, {
+local Inquisitor = Class('Inquisitor', NPC, {
     icon='peg_rd',
     scale=1.3,
     group=ns.groups.INQUISITORS,

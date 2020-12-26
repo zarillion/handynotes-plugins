@@ -394,7 +394,7 @@ L["options_icons_fugitives_desc"] = "Display fugitive soul locations for the {ac
 L["grand_inquisitor_note"] = "Turn in 10 {item:180451} to {npc:160248} for a chance at this sinstone."
 L["high_inquisitor_note"] = "Turn in 250 {currency:1816} to {npc:160248} for a chance at this sinstone."
 L["inquisitor_note"] = "Turn in 100 {currency:1816} to {npc:160248} for a chance at this sinstone."
-L["options_icons_inquisitors"] = "{achievement:14276}"
+L["options_icons_inquisitors"] = "Inquisitors"
 L["options_icons_inquisitors_desc"] = "Display inquisitor locations for the {achievement:14276} achievement."
 
 -------------------------------------------------------------------------------
