@@ -163,6 +163,7 @@ ns.groups.DREDBATS = Group('dredbats', 'flight_point_g', {defaults=ns.GROUP_HIDD
 ns.groups.FAERIE_TALES = Group('faerie_tales', 355498, {defaults=ns.GROUP_HIDDEN})
 ns.groups.FUGITIVES = Group('fugitives', 236247, {defaults=ns.GROUP_HIDDEN})
 ns.groups.GRAPPLES = Group('grapples', 'peg_bk', {defaults=ns.GROUP_HIDDEN})
+ns.groups.HYMNS = Group('hymns', 'scroll', {defaults=ns.GROUP_HIDDEN})
 ns.groups.INQUISITORS = Group('inquisitors', 3528307, {defaults=ns.GROUP_HIDDEN})
 ns.groups.MAW_LORE = Group('maw_lore', 'chest_gy')
 ns.groups.RIFTSTONE = Group('riftstone', 'portal_b')

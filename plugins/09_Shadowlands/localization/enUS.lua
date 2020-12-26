@@ -224,6 +224,10 @@ L["anima_shard_spires"] = "Three shards are located in the Spires of Ascension d
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "Display the locations of all 50 lost anima shards for the {achievement:14339} achievement."
 
+L["hymn_note"] = "Locate hymns at each of the temples and acquire their buffs to earn the achievement."
+L["options_icons_hymns"] = "{achievement:14768}"
+L["options_icons_hymns_desc"] = "Display hymn locations for the {achievement:14768} achievement."
+
 L["stratios_note"] = "Even the smallest battles should be fought with honor and care. Present your team when you are ready."
 L["thenia_note"] = "Such magnificent open plains here. A glorious place to battle. Are you prepared?"
 L["zolla_note"] = "We take our defenses very seriously. Whether small or large, we are fully committed to maintain and train the resources that keep Bastion strong."

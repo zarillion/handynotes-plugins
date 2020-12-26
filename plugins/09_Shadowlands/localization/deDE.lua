@@ -225,6 +225,10 @@ L["anima_shard_spires"] = "Drei Splitter befinden sich in dem Dungeon \"Die Spit
 L["options_icons_anima_shard"] = "Splitterpartie"
 L["options_icons_anima_shard_desc"] = "Zeigt alle 50 verlorenen Animakristallsplitter für den Erfolg {achievement:14339} an."
 
+L["hymn_note"] = nil
+L["options_icons_hymns"] = "{achievement:14768}"
+L["options_icons_hymns_desc"] = nil
+
 L["stratios_note"] = "Auch die kleinst Schlacht sollte mit Bedacht und Ehre geschlagen werden. Präsentiert Euer Team, wenn Ihr bereit seid."
 L["thenia_note"] = "Welch prachtvolle weite Ebene. Einfach wunderbar für einen Kampf. Seid ihr bereit?"
 L["zolla_note"] = "Wir nehmen unsere Verteidigung sehr ernst. Ob groß oder klein, wir investieren viel in die Ausbildung und Instandhaltung der Ressourcen, die die Bastion stark machen."

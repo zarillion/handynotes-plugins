@@ -224,6 +224,10 @@ L["anima_shard_spires"] = "三个碎片位于晋升高塔地下城。"
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "显示 {achievement:14339} 成就中全部50个失落的心能碎片的位置。"
 
+L["hymn_note"] = nil
+L["options_icons_hymns"] = "{achievement:14768}"
+L["options_icons_hymns_desc"] = nil
+
 L["stratios_note"] = "即便是最小规模的战斗也应该带着荣誉和谨慎而战。准备好以后就展示出你的队伍。"
 L["thenia_note"] = "如此壮丽而开阔的平原。多么光荣的战场。你准备好了吗？"
 L["zolla_note"] = "我们非常重视自身的防御。无论规模大小，我们都将全力维护和训练让晋升堡垒得以稳固的资源。"

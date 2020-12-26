@@ -226,6 +226,10 @@ L["anima_shard_spires"] = "Tres fragmentos están dentro de la mazmorra Agujas d
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "Muestra la localización de los 50 fragmentos de cristal de ánima perdidos para el logro {achievement:14339}."
 
+L["hymn_note"] = nil
+L["options_icons_hymns"] = "{achievement:14768}"
+L["options_icons_hymns_desc"] = nil
+
 L["stratios_note"] = "Incluso las pequeñas batallas se deben librar con honor y cuidado. Presenta a tu equipo cuando lo tengas todo listo."
 L["thenia_note"] = "Qué llanuras más maravillosas. Un lugar glorioso para combatir. ¿Listo?"
 L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o pequeños, nuestra máxima es mantener y formar los recursos que fortalecen Bastión."

@@ -224,6 +224,10 @@ L["anima_shard_spires"] = "三個碎片位於晉升之巔副本內"
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "顯示 {achievement:14339} 成就中全部50個失落的靈魄碎片的位置。"
 
+L["hymn_note"] = nil
+L["options_icons_hymns"] = "{achievement:14768}"
+L["options_icons_hymns_desc"] = nil
+
 L["stratios_note"] = "就算是規模再小的戰爭，也要慎重以對。等你準備好了，就展示你的隊伍。"
 L["thenia_note"] = "這裡有如此廣大的開放平原。正好適合拿來戰鬥。你準備好了嗎？"
 L["zolla_note"] = "我們非常嚴肅看待我們的防禦。無論大小，我們都致力於善用每一分資源，保護昇靈堡。"

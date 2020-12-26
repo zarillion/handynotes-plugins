@@ -226,6 +226,10 @@ L["anima_shard_spires"] = "Trois éclats de cristal sont situés dans le donjon 
 L["options_icons_anima_shard"] = "Éclats de cristal d'anima perdus"
 L["options_icons_anima_shard_desc"] = "Afficher les emplacements des 50 éclats de cristal d'anima perdus pour l'exploit Mission éclatante."
 
+L["hymn_note"] = nil
+L["options_icons_hymns"] = "{achievement:14768}"
+L["options_icons_hymns_desc"] = nil
+
 L["stratios_note"] = "Même les plus petites batailles doivent être menées avec honneur et prudence. Présentez votre équipe quand vous êtes prêt."
 L["thenia_note"] = "Quelles magnifiques plaines dégagées ici. Un endroit glorieux pour se battre. Êtes-vous prêt ?"
 L["zolla_note"] = "Nous prenons nos défenses très au sérieux. Qu'elles soient petites ou grandes, nous sommes pleinement engagés à maintenir et à former les ressources qui permettent au Bastion de rester fort."

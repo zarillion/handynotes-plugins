@@ -772,11 +772,11 @@ map.nodes[71933896] = Collectible({
 -------------------------------------------------------------------------------
 
 local AnimaShard = Class('AnimaShard', Node, {
-    label = L["anima_shard"],
-    icon = 'crystal_b',
-    scale = 1.5,
-    group = ns.groups.ANIMA_SHARD,
-    rewards = {
+    label=L["anima_shard"],
+    icon='crystal_b',
+    scale=1.5,
+    group=ns.groups.ANIMA_SHARD,
+    rewards={
         Achievement({id=14339, criteria={
             {id=0, qty=true, suffix=L["anima_shard"]}
         }})
@@ -858,3 +858,67 @@ map.nodes[60552554] = AnimaShard({
     questCount=true,
     note=L["anima_shard_spires"]
 })
+
+-------------------------------------------------------------------------------
+---------------------------- WHAT IS THAT MELODY? -----------------------------
+-------------------------------------------------------------------------------
+
+local Hymn = Class('Hymn', Collectible, {
+    icon='scroll',
+    note=L["hymn_note"],
+    group=ns.groups.HYMNS
+})
+
+local COURAGE = Hymn({
+    label='{spell:338912}',
+    rewards={
+        Achievement({id=14768, criteria=49948})
+    }
+})
+
+local HUMILITY = Hymn({
+    label='{spell:338910}',
+    rewards={
+        Achievement({id=14768, criteria=49949})
+    }
+})
+
+local PURITY = Hymn({
+    label='{spell:338911}',
+    rewards={
+        Achievement({id=14768, criteria=49947})
+    }
+})
+
+local WISDOM = Hymn({
+    label='{spell:338909}',
+    rewards={
+        Achievement({id=14768, criteria=49950})
+    }
+})
+
+map.nodes[31905460] = COURAGE
+map.nodes[32505770] = COURAGE
+map.nodes[34105850] = COURAGE
+map.nodes[35405560] = COURAGE
+map.nodes[39216038] = COURAGE -- available after phase
+map.nodes[40365882] = COURAGE -- available after phase
+
+map.nodes[63004290] = HUMILITY
+map.nodes[64504640] = HUMILITY
+map.nodes[66104080] = HUMILITY
+map.nodes[68704340] = HUMILITY
+map.nodes[69304110] = HUMILITY
+
+map.nodes[57927896] = PURITY
+map.nodes[61107610] = PURITY
+map.nodes[63607370] = PURITY
+map.nodes[63717413] = PURITY
+map.nodes[63907350] = PURITY
+
+map.nodes[41702420] = WISDOM
+map.nodes[41832781] = WISDOM
+map.nodes[42202370] = WISDOM
+map.nodes[42502560] = WISDOM
+map.nodes[42902730] = WISDOM
+map.nodes[43182813] = WISDOM
