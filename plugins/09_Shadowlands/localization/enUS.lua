@@ -292,21 +292,16 @@ Oh look! A {spell:343124}! Approach it brave adventurer, this is surely not a ru
 ]]
 
 L["oonar_sorrowbane_note"] = [[
-In the Theater of Pain, you will find Sorrowbane stuck in the ground and Oonar's Arm attached to it. |cFFFF8C00Before attempting to pull either, set your {item:6948} to {npc:161702} by the flight point.|r
+In the Theater of Pain, you will find {item:180273} stuck in the ground and {item:181164} attached to it. To pull them free:
 
-To pull {item:181164} free:
-
-• Travel to Glutharn's Decay to the east.
-• Eat 4x {spell:327367} (2min debuff).
-• Quickly hearth and pull on the arm.
-
-To pull {item:180273} free:
-
-• Purchase 1 {item:182163} from {npc:171808} in Revendreth.
-• Purchase 1 {item:180771} from {npc:166640} in Maldraxxus.
+• Purchase a {item:182163} from {npc:171808} in Revendreth.
+• Purchase a {item:180771} from {npc:166640} in Maldraxxus.
+• Purchase a {item:181163} from {npc:169964} in Maldraxxus.
 • Get 2 stacks of {spell:306272} from the {wq:A Few Bumps Along the Way} world quest to the west.
 • Eat 4x {spell:327367} in Glutharn's Decay.
-• Quickly hearth, drink both potions and pull on the sword.
+• Quickly use {item:181163}, drink both potions and pull on the arm and sword.
+
+To pull just the arm, only the {spell:327367} are needed.
 ]]
 
 L["pet_cat"] = "Pet the damn cat!"
