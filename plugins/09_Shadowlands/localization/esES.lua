@@ -303,7 +303,7 @@ En el Teatro del Dolor, podrás encontrar a {item:180273} clavada en el suelo y 
 • Come 4 {spell:327367} en la Descomposición de Glutharn.
 • Usa rápidamente la {item:181163}, bebe ambas pociones y tira del brazo y la espada.
 
-Para tirar sólo del brazo, sólo hacen falta las {spell:327367}
+Para tirar sólo del brazo, sólo hacen falta las {spell:327367}.
 ]]
 
 L["pet_cat"] = "¡Acaricia al maldito gato!"
