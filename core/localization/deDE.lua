@@ -106,8 +106,8 @@ L["options_opacity_desc"] = "0 = transparent, 1 = undurchsichtig"
 
 ---------------------------------- VISIBILITY ---------------------------------
 
-L["options_show_worldmap_button"] = nil
-L["options_show_worldmap_button_desc"] = nil
+L["options_show_worldmap_button"] = "Zeige den Weltkartenbutton"
+L["options_show_worldmap_button_desc"] = "Fügt der Weltkarte in der rechten oberen Ecke einen Button hinzu, womit per Dropdownmenü schnell auf Einstellungen zugegriffen werden kann."
 
 L["options_visibility_settings"] = "Sichtbarkeit"
 L["options_general_settings"] = "Allgemeines"
