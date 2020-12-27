@@ -435,7 +435,6 @@ L["venari_note"] = [[
 Use {currency:1767} to purchase Maw and Torghast upgrades.
 
 |cFFFF8C00Account-wide Torghast upgrades will show as incomplete on alts!|r
-|cFFFF8C00Completion status below will be updated as we unlock them!|r
 ]]
 L["venari_upgrade"] = "{npc:162804} Upgrade"
 L["torghast"] = "Torghast"
