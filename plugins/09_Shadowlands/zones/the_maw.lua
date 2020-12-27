@@ -642,23 +642,34 @@ local Cache = Class('Cache', ns.node.Node, {
     }
 })
 
-map.nodes[15705040] = Cache()
-map.nodes[19604460] = Cache()
-map.nodes[19805500] = Cache()
+map.nodes[15705050] = Cache()
+map.nodes[19203310] = Cache()
+map.nodes[19704460] = Cache()
+map.nodes[19705500] = Cache()
 map.nodes[24301660] = Cache()
-map.nodes[28402560] = Cache()
+map.nodes[25603660] = Cache()
+map.nodes[26602920] = Cache()
+map.nodes[27604570] = Cache()
+map.nodes[27607180] = Cache()
+map.nodes[28402550] = Cache()
 map.nodes[29621283] = Cache()
+map.nodes[34306190] = Cache()
 map.nodes[35201630] = Cache()
 map.nodes[35902360] = Cache()
 map.nodes[39802510] = Cache()
-map.nodes[44201870] = Cache()
+map.nodes[40306160] = Cache()
+map.nodes[44301870] = Cache()
+map.nodes[44804830] = Cache()
 map.nodes[45204740] = Cache()
+map.nodes[47407630] = Cache()
+map.nodes[50808390] = Cache()
 map.nodes[56196307] = Cache({
     note=L["in_cave"],
     pois={
         POI({55806753}) -- Cave entrance
     }
 })
+map.nodes[61505080] = Cache()
 
 -------------------------------------------------------------------------------
 ----------------------------------- VE'NARI -----------------------------------
