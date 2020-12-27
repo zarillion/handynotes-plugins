@@ -223,9 +223,9 @@ L["anima_shard_spires"] = "三个碎片位于晋升高塔地下城。"
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "显示 {achievement:14339} 成就中全部50个失落的心能碎片的位置。"
 
-L["hymn_note"] = nil
+L["hymn_note"] = "在每个神庙中找到赞美诗并获得它的增益来获得成就。"
 L["options_icons_hymns"] = "{achievement:14768}"
-L["options_icons_hymns_desc"] = nil
+L["options_icons_hymns_desc"] = "显示 {achievement:14768} 成就中赞美诗的位置。"
 
 L["stratios_note"] = "即便是最小规模的战斗也应该带着荣誉和谨慎而战。准备好以后就展示出你的队伍。"
 L["thenia_note"] = "如此壮丽而开阔的平原。多么光荣的战场。你准备好了吗？"
@@ -393,7 +393,7 @@ L["options_icons_fugitives_desc"] = "显示 {achievement:14274} 成就中逃亡�
 L["grand_inquisitor_note"] = "把10个 {item:180451} 交给 {npc:160248} 有机会获得此罪碑。"
 L["high_inquisitor_note"] = "把250个 {currency:1816} 交给 {npc:160248} 有机会获得此罪碑。"
 L["inquisitor_note"] = "把100个 {currency:1816} 交给 {npc:160248} 有机会获得此罪碑。"
-L["options_icons_inquisitors"] = "{achievement:14276}"
+L["options_icons_inquisitors"] = "审判官"
 L["options_icons_inquisitors_desc"] = "显示 {achievement:14276} 成就中审判官的位置。"
 
 -------------------------------------------------------------------------------
@@ -434,7 +434,6 @@ L["venari_note"] = [[
 使用 {currency:1767} 购买噬渊和托加斯特升级。
 
 |cFFFF8C00帐号通用托加斯特升级在小号上显示不完整！|r
-|cFFFF8C00解锁后，下面的完成状态将更新！|r
 ]]
 L["venari_upgrade"] = "{npc:162804} 升级"
 L["torghast"] = "托加斯特"

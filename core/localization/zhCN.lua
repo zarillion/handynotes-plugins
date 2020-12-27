@@ -106,8 +106,8 @@ L["options_opacity_desc"] = "0 = 透明, 1 = 不透明"
 
 ---------------------------------- VISIBILITY ---------------------------------
 
-L["options_show_worldmap_button"] = nil
-L["options_show_worldmap_button_desc"] = nil
+L["options_show_worldmap_button"] = "显示世界地图按钮"
+L["options_show_worldmap_button_desc"] = "在世界地图右上角添加一个快速切换下拉菜单。"
 
 L["options_visibility_settings"] = "可见性"
 L["options_general_settings"] = "通用"
@@ -126,16 +126,16 @@ L["options_toggle_per_map_settings_desc"] = "应用切换，缩放和透明度�
 L["options_restore_hidden_nodes"] = "恢复隐藏项"
 L["options_restore_hidden_nodes_desc"] = "使用右击菜单恢复全部隐藏项。"
 
-L["options_rewards_settings"] = nil
-L["options_reward_types"] = nil
-L["options_mount_rewards"] = nil
-L["options_mount_rewards_desc"] = nil
-L["options_pet_rewards"] = nil
-L["options_pet_rewards_desc"] = nil
-L["options_toy_rewards"] = nil
-L["options_toy_rewards_desc"] = nil
-L["options_transmog_rewards"] = nil
-L["options_transmog_rewards_desc"] = nil
+L["options_rewards_settings"] = "奖励"
+L["options_reward_types"] = "显示奖励类型"
+L["options_mount_rewards"] = "显示坐骑奖励"
+L["options_mount_rewards_desc"] = "在提示和追踪其收集状态显示坐骑奖励。"
+L["options_pet_rewards"] = "显示宠物奖励"
+L["options_pet_rewards_desc"] = "在提示和追踪其收集状态显示宠物奖励。"
+L["options_toy_rewards"] = "显示玩具奖励"
+L["options_toy_rewards_desc"] = "在提示和追踪其收集状态显示玩具奖励。"
+L["options_transmog_rewards"] = "显示幻化奖励"
+L["options_transmog_rewards_desc"] = "在提示和追踪其收集状态显示幻化奖励。"
 
 L["options_icons_misc_desc"] = "显示其它未分类项的位置。"
 L["options_icons_misc"] = "杂项"
