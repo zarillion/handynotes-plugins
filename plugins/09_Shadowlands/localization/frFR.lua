@@ -225,9 +225,9 @@ L["anima_shard_spires"] = "Trois éclats de cristal sont situés dans le donjon 
 L["options_icons_anima_shard"] = "Éclats de cristal d'anima perdus"
 L["options_icons_anima_shard_desc"] = "Afficher les emplacements des 50 éclats de cristal d'anima perdus pour l'exploit Mission éclatante."
 
-L["hymn_note"] = nil
+L["hymn_note"] = "Trouvez des hymnes dans chacun des temples et obtenez leurs buffs pour obtenir le haut-fait."
 L["options_icons_hymns"] = "{achievement:14768}"
-L["options_icons_hymns_desc"] = nil
+L["options_icons_hymns_desc"] = "Afficher les emplacements des hymnes pour la réalisation de {achievement:14768}."
 
 L["stratios_note"] = "Même les plus petites batailles doivent être menées avec honneur et prudence. Présentez votre équipe quand vous êtes prêt."
 L["thenia_note"] = "Quelles magnifiques plaines dégagées ici. Un endroit glorieux pour se battre. Êtes-vous prêt ?"
@@ -393,7 +393,7 @@ L["options_icons_fugitives_desc"] = "Afficher les emplacements des âmes fugitiv
 L["grand_inquisitor_note"] = "Donnez 10 {item:180451} à l'{npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
 L["high_inquisitor_note"] = "Donnez 250 {currency:1816} à l'{npc:160248} pour avoir une chance d'obtenir cette stèle du vice."
 L["inquisitor_note"] = "Donnez 100 {currency:1816} à l'{npc:160248} our avoir une chance d'obtenir cette stèle du vice."
-L["options_icons_inquisitors"] = "{achievement:14276}"
+L["options_icons_inquisitors"] = "Inquisiteurs"
 L["options_icons_inquisitors_desc"] = "Afficher les emplacements des inquisiteurs pour le succès {achievement:14276}."
 
 -------------------------------------------------------------------------------
@@ -438,7 +438,6 @@ L["venari_note"] = [[
 Utilisez {currency:1767} pour acheter des améliorations pour l'Antre et Tourment.
 
 |cFFFF8C00Les améliorations de Tourment liées au compte s'afficheront comme incomplètes sur les alts !|r
-|cFFFF8C00L'état d'avancement ci-dessous sera mis à jour au fur et à mesure que nous les débloquerons !|r
 ]]
 L["venari_upgrade"] = "Améliorations de {npc:162804}"
 L["torghast"] = "Tourment"
