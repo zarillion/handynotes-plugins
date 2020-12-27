@@ -127,6 +127,7 @@ L["options_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 L["options_restore_hidden_nodes_desc"] = "Stellt alle Punkte wieder her, die über das Kontextmenü versteckt wurden."
 
 L["options_rewards_settings"] = nil
+L["options_reward_types"] = nil
 L["options_mount_rewards"] = nil
 L["options_mount_rewards_desc"] = nil
 L["options_pet_rewards"] = nil

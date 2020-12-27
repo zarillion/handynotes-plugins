@@ -121,19 +121,14 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         end
 
         UIDropDownMenu_AddSeparator()
-        for i, type in ipairs({'mount', 'pet', 'toy', 'transmog'}) do
-            UIDropDownMenu_AddButton({
-                text = L["options_"..type.."_rewards"],
-                isNotRadio = true,
-                keepShownOnClick = true,
-                checked = ns:GetOpt('show_'..type..'_rewards'),
-                func = function (button, option)
-                    ns:SetOpt('show_'..type..'_rewards', button.checked)
-                end
-            })
-        end
-
-        UIDropDownMenu_AddSeparator()
+        UIDropDownMenu_AddButton({
+            text = L["options_reward_types"],
+            isNotRadio = true,
+            notCheckable = true,
+            keepShownOnClick = true,
+            hasArrow = true,
+            value = 'rewards'
+        })
         UIDropDownMenu_AddButton({
             text = L["options_show_completed_nodes"],
             isNotRadio = true,
@@ -177,31 +172,45 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             end
         })
     elseif level == 2 then
-        -- Get correct map ID to query/set options for
-        local group = UIDROPDOWNMENU_MENU_VALUE
+        if UIDROPDOWNMENU_MENU_VALUE == 'rewards' then
+            for i, type in ipairs({'mount', 'pet', 'toy', 'transmog'}) do
+                UIDropDownMenu_AddButton({
+                    text = L["options_"..type.."_rewards"],
+                    isNotRadio = true,
+                    keepShownOnClick = true,
+                    checked = ns:GetOpt('show_'..type..'_rewards'),
+                    func = function (button, option)
+                        ns:SetOpt('show_'..type..'_rewards', button.checked)
+                    end
+                }, 2)
+            end
+        else
+            -- Get correct map ID to query/set options for
+            local group = UIDROPDOWNMENU_MENU_VALUE
 
-        self.GroupDesc.Text:SetText(ns.RenderLinks(group.desc))
-        UIDropDownMenu_AddButton({ customFrame = self.GroupDesc }, 2)
-        UIDropDownMenu_AddButton({
-            notClickable = true,
-            notCheckable = true
-        }, 2)
+            self.GroupDesc.Text:SetText(ns.RenderLinks(group.desc))
+            UIDropDownMenu_AddButton({ customFrame = self.GroupDesc }, 2)
+            UIDropDownMenu_AddButton({
+                notClickable = true,
+                notCheckable = true
+            }, 2)
 
-        UIDropDownMenu_AddSlider({
-            text = L["options_opacity"],
-            min = 0, max = 1, step=0.01,
-            value = group:GetAlpha(map.id),
-            frame = self.AlphaOption,
-            percentage = true,
-            func = function (v) group:SetAlpha(v, map.id) end
-        }, 2)
+            UIDropDownMenu_AddSlider({
+                text = L["options_opacity"],
+                min = 0, max = 1, step=0.01,
+                value = group:GetAlpha(map.id),
+                frame = self.AlphaOption,
+                percentage = true,
+                func = function (v) group:SetAlpha(v, map.id) end
+            }, 2)
 
-        UIDropDownMenu_AddSlider({
-            text = L["options_scale"],
-            min = 0.3, max = 3, step=0.05,
-            value = group:GetScale(map.id),
-            frame = self.ScaleOption,
-            func = function (v) group:SetScale(v, map.id) end
-        }, 2)
+            UIDropDownMenu_AddSlider({
+                text = L["options_scale"],
+                min = 0.3, max = 3, step=0.05,
+                value = group:GetScale(map.id),
+                frame = self.ScaleOption,
+                func = function (v) group:SetScale(v, map.id) end
+            }, 2)
+        end
     end
 end

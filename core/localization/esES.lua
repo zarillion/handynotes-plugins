@@ -129,6 +129,7 @@ L["options_restore_hidden_nodes"] = "Restaurar los nodos ocultos"
 L["options_restore_hidden_nodes_desc"] = "Vuelve a mostrar todos los nodos ocultos usando el menú contextual con click-derecho."
 
 L["options_rewards_settings"] = nil
+L["options_reward_types"] = nil
 L["options_mount_rewards"] = nil
 L["options_mount_rewards_desc"] = nil
 L["options_pet_rewards"] = nil

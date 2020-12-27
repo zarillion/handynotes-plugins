@@ -127,6 +127,7 @@ L["options_restore_hidden_nodes"] = "恢复隐藏项"
 L["options_restore_hidden_nodes_desc"] = "使用右击菜单恢复全部隐藏项。"
 
 L["options_rewards_settings"] = nil
+L["options_reward_types"] = nil
 L["options_mount_rewards"] = nil
 L["options_mount_rewards_desc"] = nil
 L["options_pet_rewards"] = nil

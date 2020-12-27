@@ -127,6 +127,7 @@ L["options_restore_hidden_nodes"] = "Restaurer les nœuds cachés"
 L["options_restore_hidden_nodes_desc"] = "Restaure tous les nœuds cachés en utilisant le clic droit du menu contextuel" -- Need review
 
 L["options_rewards_settings"] = nil
+L["options_reward_types"] = nil
 L["options_mount_rewards"] = nil
 L["options_mount_rewards_desc"] = nil
 L["options_pet_rewards"] = nil
