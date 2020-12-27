@@ -294,21 +294,16 @@ L["spinebug_note"] = [[
 ]]
 
 L["oonar_sorrowbane_note"] = [[
-En el Teatro del Dolor, podrás encontrar a {item:180273} clavada en el suelo y el {item:181164} cogiéndola. |cFFFF8C00Antes de intentar tirar de ninguno, pon tu {item:6948} en {npc:161702} por el punto de vuelo.|r
-
-Para tirar del {item:181164} sin problemas:
-
-• Viaja a la Descomposición de Glutharn al este.
-• Come 4 {spell:327367} (debuff de 2 minutos).
-• Vuelve rápidamente al Teatro del Dolor con la {item:6948} y tira del brazo.
-
-Para tirar de {item:180273} sin problemas:
+En el Teatro del Dolor, podrás encontrar a {item:180273} clavada en el suelo y el {item:181164} cogiéndola. Para liberarla:
 
 • Compra 1 {item:182163} de {npc:171808} en Revendreth.
 • Compra 1 {item:180771} de {npc:166640} en Maldraxxus.
+• Compra 1 {item:181163} de {npc:169964} en Maldraxxus.
 • Consigue 2 acumulaciones de {spell:306272} de la misión del mundo {wq:Un par de baches en el camino} al oeste.
 • Come 4 {spell:327367} en la Descomposición de Glutharn.
-• Vuelve rápidamente al Teatro del Dolor con la {item:6948}, bébete ambas pociones y tira de la espada.
+• Usa rápidamente la {item:181163}, bebe ambas pociones y tira del brazo y la espada.
+
+Para tirar sólo del brazo, sólo hacen falta las {spell:327367}
 ]]
 
 L["pet_cat"] = "¡Acaricia al maldito gato!"
