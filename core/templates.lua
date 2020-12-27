@@ -76,7 +76,7 @@ function WorldMapOptionsButtonMixin:Refresh()
 end
 
 function WorldMapOptionsButtonMixin:InitializeDropDown(level)
-    local map, icon = ns.maps[self:GetParent():GetMapID()]
+    local map, icon, iconLink = ns.maps[self:GetParent():GetMapID()]
 
     if level == 1 then
         UIDropDownMenu_AddButton({
@@ -87,13 +87,25 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
 
         for i, group in ipairs(map.groups) do
             if group:IsEnabled() then
-                if type(group.icon) == 'number' then
-                    icon = ns.GetIconLink(group.icon, 12, 1, 0)..' '
-                else
-                    icon = ns.GetIconLink(group.icon, 16)
+                icon = group.icon
+                if group.name == 'misc' then
+                    -- find an icon from the misc nodes in the map
+                    for coord, node in pairs(map.nodes) do
+                        if node.group == group then
+                            icon = node.icon
+                            break
+                        end
+                    end
                 end
+
+                if type(icon) == 'number' then
+                    iconLink = ns.GetIconLink(icon, 12, 1, 0)..' '
+                else
+                    iconLink = ns.GetIconLink(icon, 16)
+                end
+
                 UIDropDownMenu_AddButton({
-                    text = icon..' '..ns.RenderLinks(group.label, true),
+                    text = iconLink..' '..ns.RenderLinks(group.label, true),
                     isNotRadio = true,
                     keepShownOnClick = true,
                     hasArrow = true,
