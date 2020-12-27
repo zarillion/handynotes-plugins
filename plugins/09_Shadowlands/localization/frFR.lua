@@ -225,7 +225,7 @@ L["anima_shard_spires"] = "Trois éclats de cristal sont situés dans le donjon 
 L["options_icons_anima_shard"] = "Éclats de cristal d'anima perdus"
 L["options_icons_anima_shard_desc"] = "Afficher les emplacements des 50 éclats de cristal d'anima perdus pour l'exploit Mission éclatante."
 
-L["hymn_note"] = "Trouvez des hymnes dans chacun des temples et obtenez leurs buffs pour obtenir le haut-fait."
+L["hymn_note"] = "Trouvez les hymnes dans chacun des temples et obtenez leurs buffs pour obtenir le haut-fait."
 L["options_icons_hymns"] = "{achievement:14768}"
 L["options_icons_hymns_desc"] = "Afficher les emplacements des hymnes pour la réalisation de {achievement:14768}."
 
