@@ -143,7 +143,7 @@ function Addon:OnInitialize()
     ns.CreateGlobalGroupOptions()
 
     -- Add quick-toggle menu button to top-right corner of world map
-    WorldMapFrame:AddOverlayFrame(
+    ns.world_map_button = WorldMapFrame:AddOverlayFrame(
         ADDON_NAME.."WorldMapOptionsButtonTemplate",
         "DROPDOWNTOGGLEBUTTON", "TOPRIGHT",
         WorldMapFrame:GetCanvasContainer(), "TOPRIGHT", -68, -2

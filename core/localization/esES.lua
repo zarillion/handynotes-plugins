@@ -108,6 +108,9 @@ L["options_opacity_desc"] = "0 = transparente, 1 = opaco"
 
 ---------------------------------- VISIBILITY ---------------------------------
 
+L["options_show_worldmap_button"] = nil
+L["options_show_worldmap_button_desc"] = nil
+
 L["options_visibility_settings"] = "Visibilidad"
 L["options_general_settings"] = "General"
 L["options_show_completed_nodes"] = "Mostrar completados"

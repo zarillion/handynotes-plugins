@@ -106,6 +106,9 @@ L["options_opacity_desc"] = "0 = transparent, 1 = opaque"
 
 ---------------------------------- VISIBILITY ---------------------------------
 
+L["options_show_worldmap_button"] = "Show world map button"
+L["options_show_worldmap_button_desc"] = "Add a quick-toggle dropdown menu to the top-right corner of the world map."
+
 L["options_visibility_settings"] = "Visibility"
 L["options_general_settings"] = "General"
 L["options_show_completed_nodes"] = "Show completed"

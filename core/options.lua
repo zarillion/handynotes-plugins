@@ -11,6 +11,8 @@ local L = ns.locale
 
 ns.optionDefaults = {
     profile = {
+        show_worldmap_button = true,
+
         -- visibility
         hide_done_rares = false,
         hide_minimap = false,
@@ -81,6 +83,39 @@ ns.options = {
             desc = L["options_general_description"],
             order = 0,
             args = {
+                GeneralHeader = {
+                    type = "header",
+                    name = L["options_general_settings"],
+                    order = 5,
+                },
+                show_worldmap_button = {
+                    type = "toggle",
+                    arg = "show_worldmap_button",
+                    name = L["options_show_worldmap_button"],
+                    desc = L["options_show_worldmap_button_desc"],
+                    set = function(info, v)
+                        ns:SetOpt(info.arg, v)
+                        ns.world_map_button:Refresh()
+                    end,
+                    order = 6,
+                    width = "full",
+                },
+                maximized_enlarged = {
+                    type = "toggle",
+                    arg = "maximized_enlarged",
+                    name = L["options_toggle_maximized_enlarged"],
+                    desc = L["options_toggle_maximized_enlarged_desc"],
+                    order = 7,
+                    width = "full",
+                },
+                per_map_settings = {
+                    type = "toggle",
+                    arg = "per_map_settings",
+                    name = L["options_toggle_per_map_settings"],
+                    desc = L["options_toggle_per_map_settings_desc"],
+                    order = 8,
+                    width = "full",
+                },
                 VisibilityHeader = {
                     type = "header",
                     name = L["options_visibility_settings"],
@@ -110,35 +145,19 @@ ns.options = {
                     order = 13,
                     width = "full",
                 },
-                maximized_enlarged = {
-                    type = "toggle",
-                    arg = "maximized_enlarged",
-                    name = L["options_toggle_maximized_enlarged"],
-                    desc = L["options_toggle_maximized_enlarged_desc"],
-                    order = 14,
-                    width = "full",
-                },
                 use_char_achieves = {
                     type = "toggle",
                     arg = "use_char_achieves",
                     name = L["options_toggle_use_char_achieves"],
                     desc = L["options_toggle_use_char_achieves_desc"],
-                    order = 15,
-                    width = "full",
-                },
-                per_map_settings = {
-                    type = "toggle",
-                    arg = "per_map_settings",
-                    name = L["options_toggle_per_map_settings"],
-                    desc = L["options_toggle_per_map_settings_desc"],
-                    order = 16,
+                    order = 14,
                     width = "full",
                 },
                 restore_all_nodes = {
                     type = "execute",
                     name = L["options_restore_hidden_nodes"],
                     desc = L["options_restore_hidden_nodes_desc"],
-                    order = 17,
+                    order = 15,
                     width = "full",
                     func = function ()
                         wipe(ns.addon.db.char)

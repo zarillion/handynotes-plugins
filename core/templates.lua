@@ -71,8 +71,9 @@ function WorldMapOptionsButtonMixin:OnEnter()
 end
 
 function WorldMapOptionsButtonMixin:Refresh()
+    local enabled = ns:GetOpt('show_worldmap_button')
     local map = ns.maps[self:GetParent():GetMapID() or 0]
-    if map and map:HasEnabledGroups() then self:Show() else self:Hide() end
+    if enabled and map and map:HasEnabledGroups() then self:Show() else self:Hide() end
 end
 
 function WorldMapOptionsButtonMixin:InitializeDropDown(level)
@@ -127,6 +128,15 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             checked = ns:GetOpt('show_completed_nodes'),
             func = function (button, option)
                 ns:SetOpt('show_completed_nodes', button.checked)
+            end
+        })
+        UIDropDownMenu_AddButton({
+            text = L["options_toggle_hide_done_rare"],
+            isNotRadio = true,
+            keepShownOnClick = true,
+            checked = ns:GetOpt('hide_done_rares'),
+            func = function (button, option)
+                ns:SetOpt('hide_done_rares', button.checked)
             end
         })
         UIDropDownMenu_AddButton({
