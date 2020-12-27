@@ -436,7 +436,6 @@ L["venari_note"] = [[
 Usa {currency:1767} para comprar mejoras en Las Fauces y Torghast.
 
 |cFFFF8C00Las mejoras Compartidas en la Cuenta de Torghast se mostrarán como incompletas en los alters!|r
-|cFFFF8C00¡El estado de finalización se actualizará a continuación a medida que las desbloqueemos!|r
 ]]
 L["venari_upgrade"] = "Mejora de {npc:162804}"
 L["torghast"] = "Torghast"
