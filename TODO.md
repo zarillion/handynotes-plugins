@@ -8,7 +8,6 @@
 * Fix transmog collected state on initial load.
 * Investigate auto NPC coloring for tooltips (red, green, yellow).
 * Fix POI arrow to shorten line slightly.
-* Filter rewards based on type (include in quick toggle menu).
 
 # Shadowlands
 

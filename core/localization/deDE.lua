@@ -126,6 +126,16 @@ L["options_toggle_per_map_settings_desc"] = "Die Einstellungen zum Anzeigen/Ausb
 L["options_restore_hidden_nodes"] = "Versteckte Punkte wiederherstellen"
 L["options_restore_hidden_nodes_desc"] = "Stellt alle Punkte wieder her, die über das Kontextmenü versteckt wurden."
 
+L["options_rewards_settings"] = nil
+L["options_mount_rewards"] = nil
+L["options_mount_rewards_desc"] = nil
+L["options_pet_rewards"] = nil
+L["options_pet_rewards_desc"] = nil
+L["options_toy_rewards"] = nil
+L["options_toy_rewards_desc"] = nil
+L["options_transmog_rewards"] = nil
+L["options_transmog_rewards_desc"] = nil
+
 L["options_icons_misc_desc"] = "Zeigt die Positionen von anderen nicht kategorisierten Punkten an."
 L["options_icons_misc"] = "Sonstiges"
 L["options_icons_pet_battles_desc"] = "Zeigt Standorte von Kampfhaustiertrainern und NPCs an."

@@ -128,6 +128,16 @@ L["options_toggle_per_map_settings_desc"] = "Aplicar opciones, escalado y opacid
 L["options_restore_hidden_nodes"] = "Restaurar los nodos ocultos"
 L["options_restore_hidden_nodes_desc"] = "Vuelve a mostrar todos los nodos ocultos usando el menú contextual con click-derecho."
 
+L["options_rewards_settings"] = nil
+L["options_mount_rewards"] = nil
+L["options_mount_rewards_desc"] = nil
+L["options_pet_rewards"] = nil
+L["options_pet_rewards_desc"] = nil
+L["options_toy_rewards"] = nil
+L["options_toy_rewards_desc"] = nil
+L["options_transmog_rewards"] = nil
+L["options_transmog_rewards_desc"] = nil
+
 L["options_icons_misc_desc"] = "Muestra las localizaciones de otros nodos sin categoría."
 L["options_icons_misc"] = "Miscelánea"
 L["options_icons_pet_battles_desc"] = "Muestra las localizaciones de los entrenadores de mascotas y NPCs."

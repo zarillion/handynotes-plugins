@@ -126,6 +126,16 @@ L["options_toggle_per_map_settings_desc"] = nil
 L["options_restore_hidden_nodes"] = "Restaurer les nœuds cachés"
 L["options_restore_hidden_nodes_desc"] = "Restaure tous les nœuds cachés en utilisant le clic droit du menu contextuel" -- Need review
 
+L["options_rewards_settings"] = nil
+L["options_mount_rewards"] = nil
+L["options_mount_rewards_desc"] = nil
+L["options_pet_rewards"] = nil
+L["options_pet_rewards_desc"] = nil
+L["options_toy_rewards"] = nil
+L["options_toy_rewards_desc"] = nil
+L["options_transmog_rewards"] = nil
+L["options_transmog_rewards_desc"] = nil
+
 L["options_icons_misc_desc"] = "Afficher les emplacements des nœuds divers"
 L["options_icons_misc"] = "Divers"
 L["options_icons_pet_battles_desc"] = "Afficher les emplacements des Dresseurs de Mascottes de Combat et des PNJ."

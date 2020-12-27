@@ -126,6 +126,16 @@ L["options_toggle_per_map_settings_desc"] = "应用切换，缩放和透明度�
 L["options_restore_hidden_nodes"] = "恢复隐藏项"
 L["options_restore_hidden_nodes_desc"] = "使用右击菜单恢复全部隐藏项。"
 
+L["options_rewards_settings"] = nil
+L["options_mount_rewards"] = nil
+L["options_mount_rewards_desc"] = nil
+L["options_pet_rewards"] = nil
+L["options_pet_rewards_desc"] = nil
+L["options_toy_rewards"] = nil
+L["options_toy_rewards_desc"] = nil
+L["options_transmog_rewards"] = nil
+L["options_transmog_rewards_desc"] = nil
+
 L["options_icons_misc_desc"] = "显示其它未分类项的位置。"
 L["options_icons_misc"] = "杂项"
 L["options_icons_pet_battles_desc"] = "显示宠物训练师和 NPC 的位置。"

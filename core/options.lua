@@ -25,6 +25,12 @@ ns.optionDefaults = {
         show_loot = true,
         show_notes = true,
 
+        -- rewards
+        show_mount_rewards = true,
+        show_pet_rewards = true,
+        show_toy_rewards = true,
+        show_transmog_rewards = true,
+
         -- development
         development = false,
         show_debug_map = false,
@@ -86,7 +92,7 @@ ns.options = {
                 GeneralHeader = {
                     type = "header",
                     name = L["options_general_settings"],
-                    order = 5,
+                    order = 1,
                 },
                 show_worldmap_button = {
                     type = "toggle",
@@ -97,7 +103,7 @@ ns.options = {
                         ns:SetOpt(info.arg, v)
                         ns.world_map_button:Refresh()
                     end,
-                    order = 6,
+                    order = 2,
                     width = "full",
                 },
                 maximized_enlarged = {
@@ -105,7 +111,7 @@ ns.options = {
                     arg = "maximized_enlarged",
                     name = L["options_toggle_maximized_enlarged"],
                     desc = L["options_toggle_maximized_enlarged_desc"],
-                    order = 7,
+                    order = 3,
                     width = "full",
                 },
                 per_map_settings = {
@@ -113,20 +119,57 @@ ns.options = {
                     arg = "per_map_settings",
                     name = L["options_toggle_per_map_settings"],
                     desc = L["options_toggle_per_map_settings_desc"],
-                    order = 8,
+                    order = 4,
+                    width = "full",
+                },
+                RewardsHeader = {
+                    type = "header",
+                    name = L["options_rewards_settings"],
+                    order = 10,
+                },
+                show_mount_rewards = {
+                    type = "toggle",
+                    arg = "show_mount_rewards",
+                    name = L["options_mount_rewards"],
+                    desc = L["options_mount_rewards_desc"],
+                    order = 11,
+                    width = "full",
+                },
+                show_pet_rewards = {
+                    type = "toggle",
+                    arg = "show_pet_rewards",
+                    name = L["options_pet_rewards"],
+                    desc = L["options_pet_rewards_desc"],
+                    order = 11,
+                    width = "full",
+                },
+                show_toy_rewards = {
+                    type = "toggle",
+                    arg = "show_toy_rewards",
+                    name = L["options_toy_rewards"],
+                    desc = L["options_toy_rewards_desc"],
+                    order = 11,
+                    width = "full",
+                },
+                show_transmog_rewards = {
+                    type = "toggle",
+                    arg = "show_transmog_rewards",
+                    name = L["options_transmog_rewards"],
+                    desc = L["options_transmog_rewards_desc"],
+                    order = 11,
                     width = "full",
                 },
                 VisibilityHeader = {
                     type = "header",
                     name = L["options_visibility_settings"],
-                    order = 10,
+                    order = 20,
                 },
                 show_completed_nodes = {
                     type = "toggle",
                     arg = "show_completed_nodes",
                     name = L["options_show_completed_nodes"],
                     desc = L["options_show_completed_nodes_desc"],
-                    order = 11,
+                    order = 21,
                     width = "full",
                 },
                 hide_done_rare = {
@@ -134,7 +177,7 @@ ns.options = {
                     arg = "hide_done_rares",
                     name = L["options_toggle_hide_done_rare"],
                     desc = L["options_toggle_hide_done_rare_desc"],
-                    order = 12,
+                    order = 22,
                     width = "full",
                 },
                 hide_minimap = {
@@ -142,7 +185,7 @@ ns.options = {
                     arg = "hide_minimap",
                     name = L["options_toggle_hide_minimap"],
                     desc = L["options_toggle_hide_minimap_desc"],
-                    order = 13,
+                    order = 23,
                     width = "full",
                 },
                 use_char_achieves = {
@@ -150,14 +193,14 @@ ns.options = {
                     arg = "use_char_achieves",
                     name = L["options_toggle_use_char_achieves"],
                     desc = L["options_toggle_use_char_achieves_desc"],
-                    order = 14,
+                    order = 24,
                     width = "full",
                 },
                 restore_all_nodes = {
                     type = "execute",
                     name = L["options_restore_hidden_nodes"],
                     desc = L["options_restore_hidden_nodes_desc"],
-                    order = 15,
+                    order = 25,
                     width = "full",
                     func = function ()
                         wipe(ns.addon.db.char)
@@ -167,7 +210,7 @@ ns.options = {
                 FocusHeader = {
                     type = "header",
                     name = L["options_focus_settings"],
-                    order = 20,
+                    order = 30,
                 },
                 POI_scale = {
                     type = "range",
@@ -176,7 +219,7 @@ ns.options = {
                     min = 1, max = 3, step = 0.01,
                     arg = "poi_scale",
                     width = "full",
-                    order = 21,
+                    order = 31,
                 },
                 POI_color = {
                     type = "color",
@@ -185,7 +228,7 @@ ns.options = {
                     hasAlpha = true,
                     set = function(_, ...) ns:SetColorOpt('poi_color', ...) end,
                     get = function() return ns:GetColorOpt('poi_color') end,
-                    order = 22,
+                    order = 32,
                 },
                 PATH_color = {
                     type = "color",
@@ -194,13 +237,13 @@ ns.options = {
                     hasAlpha = true,
                     set = function(_, ...) ns:SetColorOpt('path_color', ...) end,
                     get = function() return ns:GetColorOpt('path_color') end,
-                    order = 23,
+                    order = 33,
                 },
                 restore_poi_colors = {
                     type = "execute",
                     name = L["options_reset_poi_colors"],
                     desc = L["options_reset_poi_colors_desc"],
-                    order = 24,
+                    order = 34,
                     width = "full",
                     func = function ()
                         local df = ns.optionDefaults.profile
@@ -211,21 +254,21 @@ ns.options = {
                 TooltipsHeader = {
                     type = "header",
                     name = L["options_tooltip_settings"],
-                    order = 30,
+                    order = 40,
                 },
                 show_loot = {
                     type = "toggle",
                     arg = "show_loot",
                     name = L["options_toggle_show_loot"],
                     desc = L["options_toggle_show_loot_desc"],
-                    order = 31,
+                    order = 41,
                 },
                 show_notes = {
                     type = "toggle",
                     arg = "show_notes",
                     name = L["options_toggle_show_notes"],
                     desc = L["options_toggle_show_notes_desc"],
-                    order = 32,
+                    order = 42,
                 }
             }
         },

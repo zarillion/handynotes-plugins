@@ -121,6 +121,19 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         end
 
         UIDropDownMenu_AddSeparator()
+        for i, type in ipairs({'mount', 'pet', 'toy', 'transmog'}) do
+            UIDropDownMenu_AddButton({
+                text = L["options_"..type.."_rewards"],
+                isNotRadio = true,
+                keepShownOnClick = true,
+                checked = ns:GetOpt('show_'..type..'_rewards'),
+                func = function (button, option)
+                    ns:SetOpt('show_'..type..'_rewards', button.checked)
+                end
+            })
+        end
+
+        UIDropDownMenu_AddSeparator()
         UIDropDownMenu_AddButton({
             text = L["options_show_completed_nodes"],
             isNotRadio = true,

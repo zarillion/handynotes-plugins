@@ -126,6 +126,16 @@ L["options_toggle_per_map_settings_desc"] = nil
 L["options_restore_hidden_nodes"] = nil
 L["options_restore_hidden_nodes_desc"] = nil
 
+L["options_rewards_settings"] = nil
+L["options_mount_rewards"] = nil
+L["options_mount_rewards_desc"] = nil
+L["options_pet_rewards"] = nil
+L["options_pet_rewards_desc"] = nil
+L["options_toy_rewards"] = nil
+L["options_toy_rewards_desc"] = nil
+L["options_transmog_rewards"] = nil
+L["options_transmog_rewards_desc"] = nil
+
 L["options_icons_misc_desc"] = nil
 L["options_icons_misc"] = "Miscelánea"
 L["options_icons_pet_battles_desc"] = "Mostrar los lugares de instructores de mascotas y PNJs."

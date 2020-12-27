@@ -126,6 +126,16 @@ L["options_toggle_per_map_settings_desc"] = "Применяйте настрой
 L["options_restore_hidden_nodes"] = "Восстановить скрытые места"
 L["options_restore_hidden_nodes_desc"] = "Восстановите все скрытые места, используя контекстное меню, вызываемое правой кнопкой мыши."
 
+L["options_rewards_settings"] = nil
+L["options_mount_rewards"] = nil
+L["options_mount_rewards_desc"] = nil
+L["options_pet_rewards"] = nil
+L["options_pet_rewards_desc"] = nil
+L["options_toy_rewards"] = nil
+L["options_toy_rewards_desc"] = nil
+L["options_transmog_rewards"] = nil
+L["options_transmog_rewards_desc"] = nil
+
 L["options_icons_misc_desc"] = "Отображение местоположения других разных точек."
 L["options_icons_misc"] = "Разное"
 L["options_icons_pet_battles_desc"] = "Показать местонахождение наставников боевых питомцев и NPC."

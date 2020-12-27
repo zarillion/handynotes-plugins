@@ -126,6 +126,16 @@ L["options_toggle_per_map_settings_desc"] = "Apply toggle, scale and opacity set
 L["options_restore_hidden_nodes"] = "Restore hidden nodes"
 L["options_restore_hidden_nodes_desc"] = "Restore all nodes hidden using the right-click context menu."
 
+L["options_rewards_settings"] = "Rewards"
+L["options_mount_rewards"] = "Show mount rewards"
+L["options_mount_rewards_desc"] = "Display mount rewards in tooltips and track their collected status."
+L["options_pet_rewards"] = "Show pet rewards"
+L["options_pet_rewards_desc"] = "Display pet rewards in tooltips and track their collected status."
+L["options_toy_rewards"] = "Show toy rewards"
+L["options_toy_rewards_desc"] = "Display toy rewards in tooltips and track their collected status."
+L["options_transmog_rewards"] = "Show transmog rewards"
+L["options_transmog_rewards_desc"] = "Display transmog rewards in tooltips and track their collected status."
+
 L["options_icons_misc_desc"] = "Display locations of other miscellaneous nodes."
 L["options_icons_misc"] = "Miscellaneous"
 L["options_icons_pet_battles_desc"] = "Display locations of battle pet trainers and NPCs."

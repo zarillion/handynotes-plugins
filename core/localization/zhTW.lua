@@ -126,6 +126,16 @@ L["options_toggle_per_map_settings_desc"] = "只使用各個地圖各自獨立�
 L["options_restore_hidden_nodes"] = "恢復隱藏的節點"
 L["options_restore_hidden_nodes_desc"] = "恢復所有使用右鍵選單隱藏的節點。"
 
+L["options_rewards_settings"] = nil
+L["options_mount_rewards"] = nil
+L["options_mount_rewards_desc"] = nil
+L["options_pet_rewards"] = nil
+L["options_pet_rewards_desc"] = nil
+L["options_toy_rewards"] = nil
+L["options_toy_rewards_desc"] = nil
+L["options_transmog_rewards"] = nil
+L["options_transmog_rewards_desc"] = nil
+
 L["options_icons_misc_desc"] = "顯示其他節點的位置。"
 L["options_icons_misc"] = "其他"
 L["options_icons_pet_battles_desc"] = "顯示戰寵訓練師與NPC的位置。"
