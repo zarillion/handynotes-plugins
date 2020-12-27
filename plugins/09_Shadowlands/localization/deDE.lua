@@ -225,9 +225,9 @@ L["anima_shard_spires"] = "Drei Splitter befinden sich in dem Dungeon \"Die Spit
 L["options_icons_anima_shard"] = "Splitterpartie"
 L["options_icons_anima_shard_desc"] = "Zeigt alle 50 verlorenen Animakristallsplitter für den Erfolg {achievement:14339} an."
 
-L["hymn_note"] = nil
+L["hymn_note"] = "Suche bei jedem Tempel nach den Hymnen, um den Stärkungszauber zu erhalten, der benötigt wird, um den Erfolg zu erringen."
 L["options_icons_hymns"] = "{achievement:14768}"
-L["options_icons_hymns_desc"] = nil
+L["options_icons_hymns_desc"] = "Zeigt die Hymnen für den Erfolg {achievement:14768} an."
 
 L["stratios_note"] = "Auch die kleinst Schlacht sollte mit Bedacht und Ehre geschlagen werden. Präsentiert Euer Team, wenn Ihr bereit seid."
 L["thenia_note"] = "Welch prachtvolle weite Ebene. Einfach wunderbar für einen Kampf. Seid ihr bereit?"
