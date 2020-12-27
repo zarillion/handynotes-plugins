@@ -56,7 +56,6 @@ Parlez à {npc:171743}, le metteur en scène, pour commencer l'une des rencontre
 
 Participez aux sept combats pour débloquer {item:180748} de {npc:163714}.
 ]]
-L["guldan"] = "Gul'dan"
 
 L["cache_of_the_moon"] = "Rassemblez les cinq outils manquants de {npc:171360} dans le Jardin de la nuit et combinez-les pour créer {item:180753}. Rendez-lui sa boîte à outils et elle vous lancera {spell:334353}, ce qui vous permettra de voir la cache."
 L["cache_of_the_night"] = "Rassemblez {item:180656}, {item:180654} et {item:180655}, trouvables dans l'ensemble de la zone et combinez-les pour créer {item:180652}."

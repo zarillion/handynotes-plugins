@@ -56,7 +56,6 @@ Habla con {npc:171743}, el Director de Escena, para iniciar uno de los combates 
 
 Participa en los siete combates distintos para desbloquear la {item:180748} del {npc:163714}.
 ]]
-L["guldan"] = "Gul'dan"
 
 L["cache_of_the_moon"] = "Recoge las cinco herramientas perdidas de {npc:171360} en el Jardín de la Noche y combínalas para crear las {item:180753}. Dáselas y ella te lanzará {spell:334353}, permitiéndote ver el cofre."
 L["cache_of_the_night"] = "Recoge una {item:180656}, un {item:180654} y {item:180655} por toda la zona y combínalo todo para crear un {item:180652}."

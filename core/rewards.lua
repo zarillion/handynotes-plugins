@@ -237,6 +237,10 @@ function Item:Initialize(attrs)
     end
 end
 
+function Item:Prepare()
+    ns.PrepareLinks(self.note)
+end
+
 function Item:IsObtained()
     if self.quest then return C_QuestLog.IsQuestFlaggedCompleted(self.quest) end
     return true
@@ -248,7 +252,7 @@ function Item:GetText()
         text = text..' ('..self.type..')'
     end
     if self.note then -- additional info
-        text = text..' ('..self.note..')'
+        text = text..' ('..ns.RenderLinks(self.note, true)..')'
     end
     return Icon(self.itemIcon)..text
 end

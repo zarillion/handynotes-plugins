@@ -55,7 +55,6 @@ Sprich mit {npc:171743}, um eine der besonderen Begegnungen zu beginnen. Die Beg
 
 Nimm an allen sieben Begegnungen teil, um die {item:180748} von {npc:163714} freizuschalten.
 ]]
-L["guldan"] = "Gul'dan"
 
 L["cache_of_the_moon"] = "Sammel {npc:171360s} fünf verlorene Werkzeuge im Garten der Nacht und kombiniere diese zu {item:180753}. Bring dieses zu ihr zurück und sie wird dir die {spell:334353} gewähren, um die Truhe sehen zu können."
 L["cache_of_the_night"] = "Sammel {item:180656}, {item:180654} und {item:180655} aus der ganzen Zone und kombiniere diese zu einem {item:180652}."

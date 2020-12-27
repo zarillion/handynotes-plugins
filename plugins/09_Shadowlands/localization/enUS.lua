@@ -54,7 +54,6 @@ Talk to {npc:171743}, the Stage Director, to start one of the special encounters
 
 Participate in all seven encounters to unlock {item:180748} from {npc:163714}.
 ]]
-L["guldan"] = "Gul'dan"
 
 L["cache_of_the_moon"] = "Collect {npc:171360}'s five missing tools in the Garden of Night and combine them to create {item:180753}. Return her toolkit and she will cast {spell:334353} on you, allowing you to see the cache."
 L["cache_of_the_night"] = "Collect {item:180656}, {item:180654} and {item:180655} from across the zone and combine them to create {item:180652}."

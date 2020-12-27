@@ -219,8 +219,10 @@ function Node:Prepare()
         end
     end
 
-    for reward in self:IterateRewards() do
-        reward:Prepare()
+    if self.rewards then
+        for i, reward in ipairs(self.rewards) do
+            reward:Prepare()
+        end
     end
 end
 
