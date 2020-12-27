@@ -440,7 +440,6 @@ L["venari_note"] = [[
 Verwende {currency:1767} dazu, um dauerhafte Aufwertungen für den Schlund und Torghast freizuschalten.
 
 |cFFFF8C00Accountweite Aufwertungen für Torghast werden bei Twinks als unvollständig angezeigt!|r
-|cFFFF8C00Der Status für die Vervollständigung unten, wird aktualisiert, sobald wir sie freischalten!|r
 ]]
 L["venari_upgrade"] = "eine Aufwertung von {npc:162804}"
 L["torghast"] = "Torghast"
