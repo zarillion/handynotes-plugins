@@ -129,6 +129,7 @@ local MACABRE = Rare({
     id=164093,
     quest=59140,
     note=L["macabre_note"],
+    focusable=true,
     rewards={
         Achievement({id=14309, criteria=48780}),
         Pet({item=180644, id=2907}) -- Rocky

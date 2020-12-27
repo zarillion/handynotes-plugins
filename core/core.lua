@@ -98,7 +98,7 @@ function Addon:OnEnter(mapID, coord)
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     end
 
-    node:Render(GameTooltip, map:HasPOIs(node))
+    node:Render(GameTooltip, map:CanFocus(node))
     map:SetFocus(node, true, true)
     ns.MinimapDataProvider:RefreshAllData()
     ns.WorldMapDataProvider:RefreshAllData()
@@ -123,7 +123,7 @@ function Addon:OnClick(button, down, mapID, coord)
         end
         ToggleDropDownMenu(1, nil, DropdownMenu, self, 0, 0)
     elseif button == "LeftButton" and down then
-        if map:HasPOIs(node) then
+        if map:CanFocus(node) then
             map:SetFocus(node, not node._focus)
             Addon:Refresh()
         end

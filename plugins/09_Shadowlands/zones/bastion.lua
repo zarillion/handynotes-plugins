@@ -318,6 +318,7 @@ local SWELLING_TEAR = Rare({
     quest={61001,61046,61047},
     questCount=true,
     note=L["swelling_tear_note"],
+    focusable=true,
     rewards={
         Achievement({id=14307, criteria={
             {id=50607, quest=61001}, -- Embodied Hunger
