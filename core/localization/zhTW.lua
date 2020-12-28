@@ -57,7 +57,7 @@ L["weekly"] = "每週"
 L["normal"] = "普通"
 L["hard"] = "困難"
 L["mount"] = "坐騎"
-L["pet"] = "寵物"
+L["pet"] = "戰寵"
 L["spell"] = "法術"
 L["toy"] = "玩具"
 L["rep"] = "聲望"
@@ -106,14 +106,14 @@ L["options_opacity_desc"] = "0 = 透明, 1 = 不透明"
 
 ---------------------------------- VISIBILITY ---------------------------------
 
-L["options_show_worldmap_button"] = nil
-L["options_show_worldmap_button_desc"] = nil
+L["options_show_worldmap_button"] = "顯示世界地圖按鈕"
+L["options_show_worldmap_button_desc"] = "在世界地圖右上角新增一個快速切換內容的下拉式選單"
 
 L["options_visibility_settings"] = "可視性"
 L["options_general_settings"] = "一般"
 L["options_show_completed_nodes"] = "顯示已完成"
 L["options_show_completed_nodes_desc"] = "顯示所有的節點，即使它今天已被拾取或完成。"
-L["options_toggle_hide_done_rare"] = "如果戰利品已收藏，隱藏稀有"
+L["options_toggle_hide_done_rare"] = "隱藏所有戰利品已收藏的稀有"
 L["options_toggle_hide_done_rare_desc"] = "隱藏所有戰利品已收藏的稀有。"
 L["options_toggle_hide_minimap"] = "隱藏小地圖上的所有圖示"
 L["options_toggle_hide_minimap_desc"] = "在小地圖上隱藏此插件的所有圖示，並只在主地圖上顯示它們。"
@@ -126,16 +126,16 @@ L["options_toggle_per_map_settings_desc"] = "只使用各個地圖各自獨立�
 L["options_restore_hidden_nodes"] = "恢復隱藏的節點"
 L["options_restore_hidden_nodes_desc"] = "恢復所有使用右鍵選單隱藏的節點。"
 
-L["options_rewards_settings"] = nil
-L["options_reward_types"] = nil
-L["options_mount_rewards"] = nil
-L["options_mount_rewards_desc"] = nil
-L["options_pet_rewards"] = nil
-L["options_pet_rewards_desc"] = nil
-L["options_toy_rewards"] = nil
-L["options_toy_rewards_desc"] = nil
-L["options_transmog_rewards"] = nil
-L["options_transmog_rewards_desc"] = nil
+L["options_rewards_settings"] = "獎勵"
+L["options_reward_types"] = "顯示獎勵類型"
+L["options_mount_rewards"] = "顯示坐騎獎勵"
+L["options_mount_rewards_desc"] = "在提示顯示坐騎獎勵並追蹤收集狀態"
+L["options_pet_rewards"] = "顯示戰寵獎勵"
+L["options_pet_rewards_desc"] = "在提示顯示戰寵獎勵並追蹤收集狀態"
+L["options_toy_rewards"] = "顯示玩具獎勵"
+L["options_toy_rewards_desc"] = "在提示顯示玩具獎勵並追蹤收集狀態"
+L["options_transmog_rewards"] = "顯示塑形獎勵"
+L["options_transmog_rewards_desc"] = "在提示顯示塑型獎勵並追蹤收集狀態"
 
 L["options_icons_misc_desc"] = "顯示其他節點的位置。"
 L["options_icons_misc"] = "其他"
