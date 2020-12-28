@@ -223,9 +223,9 @@ L["anima_shard_spires"] = "三個碎片位於晉升之巔副本內"
 L["options_icons_anima_shard"] = "{achievement:14339}"
 L["options_icons_anima_shard_desc"] = "顯示 {achievement:14339} 成就中全部50個失落的靈魄碎片的位置。"
 
-L["hymn_note"] = nil
+L["hymn_note"] = "在每個神廟中找到頌歌並獲得它們的增益來取得成就"
 L["options_icons_hymns"] = "{achievement:14768}"
-L["options_icons_hymns_desc"] = nil
+L["options_icons_hymns_desc"] = "顯示 {achievement:14768} 成就中頌歌的位置"
 
 L["stratios_note"] = "就算是規模再小的戰爭，也要慎重以對。等你準備好了，就展示你的隊伍。"
 L["thenia_note"] = "這裡有如此廣大的開放平原。正好適合拿來戰鬥。你準備好了嗎？"
@@ -292,21 +292,16 @@ L["spinebug_note"] = [[
 ]]
 
 L["oonar_sorrowbane_note"] = [[
-在苦痛劇場，可以找到哀禍插在地上和烏納的手臂附在一起。|cFFFF8C00在嘗試拉出之前，設置 {item:6948} 到 {npc:161702} 飛行點。|r
+在苦痛劇場，可以找到和 {item:181164} 附在一起的 {item:180273} 插在地上。要拔出它們：
 
-拉出 {item:181164}：
-
-• 到格魯薩恩凋亡地東側。
-• 吃4層 {spell:327367} （2分鐘負面效果）。
-• 迅速爐石並拉動手臂。
-
-拉出 {item:180273}：
-
-• 從瑞文崔斯的 {npc:171808} 買個 {item:182163}。
-• 從瑪卓薩斯的 {npc:166640} 買個 {item:180771}。
-• 從 {wq:顛跛之路} 世界任務西側得到2層 {spell:306272}。
+• 從瑞文崔斯的 {npc:171808} 買一個 {item:182163}。
+• 從瑪卓薩斯的 {npc:166640} 買一個 {item:180771}。
+• 從瑪卓薩斯的 {npc:169964} 買一個 {item:181163}。
+• 從西側的世界任務 {wq:顛跛之路} 取得2層 {spell:306272}。
 • 在格魯薩恩凋亡地吃4層 {spell:327367}。
-• 迅速爐石，喝下2種藥水並拉出大寶劍。
+• 迅速使用 {item:181163}，喝下2種藥水並拉出大寶劍。
+
+只要拉出 {item:181164} 的話，只需要4層 {spell:327367}
 ]]
 
 L["pet_cat"] = "寵愛該死的貓！"
