@@ -389,7 +389,7 @@ L["options_icons_fugitives_desc"] = "Показать местонахожден
 L["grand_inquisitor_note"] = "Сдайте 10 {item:180451} у {npc:160248}, чтобы получить шанс на этот камень греха."
 L["high_inquisitor_note"] = "Сдайте 250 {currency:1816} у {npc:160248}, чтобы получить шанс получить этот камень греха."
 L["inquisitor_note"] = "Сдайте 100 {currency:1816} у {npc:160248}, чтобы получить шанс получить этот камень греха."
-L["options_icons_inquisitors"] = "{achievement:14276}"
+L["options_icons_inquisitors"] = "Инквизиторы"
 L["options_icons_inquisitors_desc"] = "Показать местоположения инквизиторов для достижения {achievement:14276}."
 
 -------------------------------------------------------------------------------
