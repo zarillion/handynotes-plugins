@@ -301,7 +301,7 @@ In the Theater of Pain, you will find {item:180273} stuck in the ground and {ite
 • Eat 4x {spell:327367} in Glutharn's Decay.
 • Quickly use {item:181163}, drink both potions and pull on the arm and sword.
 
-To pull just the arm, only the {spell:327367} are needed.
+To pull just the arm, only the 4x {spell:327367} are needed.
 ]]
 
 L["pet_cat"] = "Pet the damn cat!"
