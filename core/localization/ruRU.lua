@@ -106,8 +106,8 @@ L["options_opacity_desc"] = "0 = прозрачный, 1 = непрозрачн�
 
 ---------------------------------- VISIBILITY ---------------------------------
 
-L["options_show_worldmap_button"] = nil
-L["options_show_worldmap_button_desc"] = nil
+L["options_show_worldmap_button"] = "Показать кнопку карты мира"
+L["options_show_worldmap_button_desc"] = "Добавьте раскрывающееся меню с быстрым переключением в правом верхнем углу карты мира."
 
 L["options_visibility_settings"] = "Отображение"
 L["options_general_settings"] = "Общие настройки"
@@ -126,16 +126,16 @@ L["options_toggle_per_map_settings_desc"] = "Применяйте настрой
 L["options_restore_hidden_nodes"] = "Восстановить скрытые места"
 L["options_restore_hidden_nodes_desc"] = "Восстановите все скрытые места, используя контекстное меню, вызываемое правой кнопкой мыши."
 
-L["options_rewards_settings"] = nil
-L["options_reward_types"] = nil
-L["options_mount_rewards"] = nil
-L["options_mount_rewards_desc"] = nil
-L["options_pet_rewards"] = nil
-L["options_pet_rewards_desc"] = nil
-L["options_toy_rewards"] = nil
-L["options_toy_rewards_desc"] = nil
-L["options_transmog_rewards"] = nil
-L["options_transmog_rewards_desc"] = nil
+L["options_rewards_settings"] = "Награды"
+L["options_reward_types"] = "Показать типы наград"
+L["options_mount_rewards"] = "Показать маунтов"
+L["options_mount_rewards_desc"] = "Отображать маунтов во всплывающих подсказках и отслеживать их собранный статус."
+L["options_pet_rewards"] = "Показать питомцев"
+L["options_pet_rewards_desc"] = "Отображать питомцев во всплывающих подсказках и отслеживать их статус."
+L["options_toy_rewards"] = "Показать игрушки"
+L["options_toy_rewards_desc"] = "Отображать игрушки во всплывающих подсказках и отслеживание их статуса."
+L["options_transmog_rewards"] = "Показать трансмогрификацию"
+L["options_transmog_rewards_desc"] = "Отображать трансмогрификацию во всплывающих подсказках и отслеживать их статус."
 
 L["options_icons_misc_desc"] = "Отображение местоположения других разных точек."
 L["options_icons_misc"] = "Разное"
