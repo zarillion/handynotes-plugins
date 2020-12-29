@@ -292,21 +292,16 @@ Oh, regardez ! Une {spell:343124} ! Approchez-vous, courageux aventurier, ce n'e
 ]]
 
 L["oonar_sorrowbane_note"] = [[
-Dans le Théâtre de la souffrance, vous trouverez Fléau-de-chagrin coincé dans le sol et le Bras d'Oonar qui y est attaché. |cFFFF8C00Avant de tenter de tirer l'un ou l'autre, réglez votre {item:6948} sur {npc:161702} près du point de vol.|r
+Dans le Théâtre de la souffrance, vous trouverez {item:180273} coincé dans le sol et le {item:181164} qui y est attaché. Pour les libérer :
 
-Pour extraire {item:181164} en toute sécurité :
-
-• Voyagez vers la Deliquescense de Glutharn à l'est.
-• Mangez 4x {spell:327367} (debuff de 2min).
-• Utilisez rapidement votre pierre de foyer et tirez sur le bras.
-
-Pour extraire {item:180273} en toute sécurité :
-
-• Achetez 1 {item:182163} auprès de {npc:171808} à Revendreth.
+• Achetez 1 {item:182163} à {npc:171808} à Revendreth.
 • Achetez 1 {item:180771} à {npc:166640} à Maldraxxus.
+• Achetez 1 {item:181163} à {npc:169964} à Maldraxxus.
 • Obtenez 2 charges de {spell:306272} de l'expédition {wq:Quelques accidents de parcours} à l'ouest.
-• Mangez 4x {spell:327367} dans la Deliquescense de Glutharn.
-• Utilisez rapidement votre pierre de foyer, buvez les deux potions et tirez sur l'épée.
+• Mangez 4x {spell:327367} à la Deliquescense de Glutharn.
+• Utilisez rapidement le {item:181163}, buvez les deux potions et tirez sur l'épée ainsi que le bras.
+
+Pour retirer seulement le bras, seuls quatre 4x {spell:327367} sont nécessaires.
 ]]
 
 L["pet_cat"] = "Caressez ce satané chat !"
