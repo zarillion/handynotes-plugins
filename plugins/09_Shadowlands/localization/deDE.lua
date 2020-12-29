@@ -293,26 +293,17 @@ Oh schau! Ein {spell:343124}! Nähere dich ihm, tapferer Abenteurer, das ist sic
 ]]
 
 L["oonar_sorrowbane_note"] = [[
-Im Theater der Schmerzen, findest du im Boden steckend Kummerfluch und Oonars Arm daran befestigt.
-|cFFFF8C00Bevor du versuchst eines der beiden ab oder heraus zu ziehen, setzte deinen {item:6948} bei {npc:161702} nahe des Flugpunktes.|r
+Im Theater der Schmerzen, findest du {item:180273} im Boden stecken und {item:181164} sich daran festhalten.
+Um diese zu erhalten:
 
-Um {item:181164} ab zu ziehen:
+• Kaufe 1x {item:182163} von {npc:171808} in der Nähe des Nachtmarktes in Revendreth (51.0, 78.8).
+• Kaufe 1x {item:180771} von {npc:166640} in Maldraxxus (50.9, 53.2).
+• Kaufe 1x {item:181163} von {npc:169964} in Maldraxxus (53.1, 41.3).
+• Erhalte 2 Stapel {spell:306272} von der Weltquest {wq:Ein oder zwei Steine im Weg} im Westen (37.0, 46.9).
+• Iss 4x {spell:327367} in Glutherns Verfall (76.4, 56.7).
+• Benutze schnell die {item:181163}, trinke dann beide Tränke und zieh am Arm und dem Schwert.
 
-• Reise zu Glutherns Verfall (76.4, 56.7) im Osten.
-• Esse 4x {spell:327367} (2min debuff).
-• Benutze schnell deinen {item:6948} und zieh am Arm.
-
-Um {item:180273} heraus zu ziehen:
-
-• Kaufe 1x {item:182163} von {npc:171808} in der Nähe
-   des Nachtmarktes in Revendreth (51.0, 78.8).
-• Kaufe 1x {item:180771} von
-   {npc:166640} in Maldraxxus (50.9, 53.2).
-• Erhalte 2 Stapel {spell:306272} von der Weltquest
-   {wq:Ein oder zwei Steine im Weg} im Westen (37.0, 46.9).
-• Esse 4x {spell:327367} in Glutherns Verfall.
-• Benutze schnell deinen {item:6948}, trink beim
-   Schwert die beiden Tränke und ziehe an diesem.
+Um nur {item:181164} zu erhalten, wird 4x {spell:327367} benötigt.
 ]]
 
 L["pet_cat"] = "Streichel die verdammte Katze!"
