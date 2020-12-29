@@ -1,3 +1,19 @@
+# v27
+
+* Added an icon for the three shards in Spires to the Bastion map.
+* Added an option to hide the world map button.
+* Added locations for the temple hymns in Bastion.
+* Added lootable maw lore locations in the Maw.
+* Added missing Star Lake Amphitheater rewards.
+* Added remaining grapple points and stygian cache locations.
+* Added remaining Ve'nari upgrades to her tooltip.
+* Added reward filters for mounts, pets, toys and transmogs.
+* Added the 'Hide rares if all rewards known' option to the world map dropdown.
+* Fixed the quest id for Krala in the Maw.
+* Inquisitor locations are no longer hidden on achievement credit.
+* Removed the Tollkeeper Varaboss quest reward that never truly completes.
+* Updated the Sorrowbane instructions to use the Theater of Pain teleport scroll.
+
 # v26
 
 * Added beastwarrens path to the Animaflow Teleporter node.
