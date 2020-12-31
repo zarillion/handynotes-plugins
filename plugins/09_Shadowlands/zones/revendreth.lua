@@ -57,7 +57,8 @@ map.nodes[25304850] = Rare({
         Transmog({item=179924, slot=L["leather"]}), -- Light-Infused Jacket
         Transmog({item=179653, slot=L["mail"]}), -- Light-Infused Hauberk
         Transmog({item=179925, slot=L["plate"]}), -- Light-Infused Breastplate
-        Item({item=180688}) -- Infused Remnant of Light
+        Item({item=180688}), -- Infused Remnant of Light
+        Pet({item=180586, id=2892}) -- Lightbinders
     }
 }) -- Amalgamation of Light
 
