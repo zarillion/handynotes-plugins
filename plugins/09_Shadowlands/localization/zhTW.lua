@@ -278,7 +278,7 @@ L["plaguefallen_chest_note"] = [[
 
 轉化後，到 {npc:158406} 平台（入口在東側）下面洞穴並點擊管線來傳送到寶箱。
 ]]
-L["ritualists_cache_note"] = "從骨頭堆（多個刷新點）拾取 {item:181558}。在 {npc:174386} 後面使用它完成裝訂儀式書並獲得 {spell:337041} 增益。"
+L["ritualists_cache_note"] = "在地上拾取 {item:181558} 然後使用它來完成裝訂儀式書"
 L["runespeakers_trove_note"] = "東側找到 {npc:170563} 並擊殺他獲得 {item:181777}。"
 L["stolen_jar_note"] = "在巨大的蘑菇下面的山洞裡。"
 L["strange_growth_note"] = "攻擊 {npc:165037} 獲得寶藏。"
@@ -307,7 +307,7 @@ L["oonar_sorrowbane_note"] = [[
 L["pet_cat"] = "寵愛該死的貓！"
 L["hairball"] = ns.color.Red("只在瘟疫之臨副本內的膿瘡聖所出現！")
 L["lime"] = "位在大骨頭拱頂上。"
-L["moldstopheles"] = "繞到莖稈後面並跳上蘑菇平臺。到達最後的平臺，使用坐騎並在莖稈上跳來跳去到達。"
+L["moldstopheles"] = "繞到莖的後面並跳上莖上的平臺。使用坐騎對準莖和最後平台的夾角跳躍來到達目標。"
 L["pus_in_boots"] = "在橋的下面。"
 
 L["options_icons_slime_cat"] = "{achievement:14634}"
