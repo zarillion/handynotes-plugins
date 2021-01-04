@@ -119,7 +119,7 @@ Las motas se pueden recoger de los Botes de Ánima Agotados cercanos localizados
 
 |cFFFF8C00No puede ser derrotado durante la misión del mundo {wq:Asalto al Vestíbulo}.|r
 ]]
-L["reekmonger_note"] = nil
+L["reekmonger_note"] = "Mata enemigos en el Templo del Coraje hasta until que hable {npc:171327} y aterrice."
 L["repair_note"] = "Con otros dos jugadores, haz click en el Incienso Antiguo para invocar a {npc:160895}."
 L["sotiros_orstus_note"] = "Haz click en la Campana Negra para invocar a los raros."
 L["sundancer_note"] = "Haz click en la estatua para conseguir el buff {spell:332309}. Usa entonces un {item:180445} para planear hasta {npc:170548} y montarlo."
