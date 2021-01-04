@@ -405,7 +405,6 @@ L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Pl
 L["dekaris_note"] = "Auf einem großen hervorstehenden Felsen."
 L["drifting_sorrow_note"] = "Töte {npc:175246} in der Nähe der schwebenden Kugel, um den Boss zu aktivieren."
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
-L["gorged_shadehound_note"] = "Nur während dem Event {wq: Jagd: Schemenhunde} verfügbar."
 L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen."
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, um sie zu aktivieren."
 L["sanngror_note"] = "\nWenn er gerade nicht angreifbar ist, dann warte bis er nicht mehr mit Seelen experimentiert."

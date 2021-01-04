@@ -403,7 +403,6 @@ L["apholeias_note"] = "With 3 other players, stand on the corners of the platfor
 L["dekaris_note"] = "On top of a large jutting rock."
 L["drifting_sorrow_note"] = "Kill {npc:175246s} near the hovering orb to activate the boss."
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
-L["gorged_shadehound_note"] = "Only available during the {wq:Hunt: Shadehounds} event."
 L["ikras_note"] = "Flies around Perdition Hold. This is a good place to pull him."
 L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
 L["sanngror_note"] = "If he is not attackable, wait until he is not experimenting on souls."

@@ -9,6 +9,7 @@ local L = ns.locale
 
 local Map = ns.Map
 
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Reward = ns.reward.Reward
 local Toy = ns.reward.Toy
@@ -60,6 +61,9 @@ local VIGNETTES = {
     [4366] = {
         Toy({item=184447}) -- Kevin's Party Supplies
     }, -- Slime-Coated Crate
+    [4460] = {
+        Mount({item=184167, id=1304}) -- Mawsworn Soulhunter
+    }, -- Hunt: Shadehounds
 
     -- [4174] = {}, -- Secret Treasure
     -- [4176] = {}, -- Secret Treasure
