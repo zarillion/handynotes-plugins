@@ -119,7 +119,7 @@ Les Granules peuvent être collectées à partir de Bidons d'Anima épuisés sit
 
 |cFFFF8C00Ne peut être vaincu lors de l'expédition {wq:Assaut sur le vestibule}.|r
 ]]
-L["reekmonger_note"] = nil
+L["reekmonger_note"] = "Tuez des ennemis dans le Temple du Courage jusqu'à ce que {npc:171327} lance une émote dans le chat et atterrisse."
 L["repair_note"] = "Avec deux autres joueurs, cliquez sur l'encens antique pour l'invoquer."
 L["sotiros_orstus_note"] = "Cliquez sur la Cloche noire pour invoquer les rares."
 L["sundancer_note"] = "Cliquez sur la statue pour obtenir le buff {spell:332309}, puis utilisez un {item:180445} pour planer jusqu'au rare et le monter."
