@@ -117,6 +117,7 @@ L["herculon_note"] = [[
 
 |cFFFF8C00不能在世界任務 {wq:進攻門廊} 期間擊敗。|r
 ]]
+L["reekmonger_note"] = nil
 L["repair_note"] = "和兩名其他玩家，點選遠古焚香來召喚。"
 L["sotiros_orstus_note"] = "點選黑色的鐘召喚稀有。"
 L["sundancer_note"] = "點選雕像獲得 {spell:332309} 增益，然後使用 {item:180445} 滑翔到稀有並騎上它。"

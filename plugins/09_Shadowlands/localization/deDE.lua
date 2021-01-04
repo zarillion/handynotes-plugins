@@ -118,6 +118,7 @@ Partikel können aus entleerten Animakanistern in der Nähe gesammelt werden, di
 
 |cFFFF8C00Kann nicht während der Weltquest {wq:Angriff auf die Vorhallen} besiegt werden.
 ]]
+L["reekmonger_note"] = nil
 L["repair_note"] = "Klicke zum Beschwören mit zwei anderen Spielern das Uralte Räucherwerk an."
 L["sotiros_orstus_note"] = "Klicke zum Beschwören die Schwarze Glocke an."
 L["sundancer_note"] = "Klicke das Uralte Denkmal an, um den {spell:332309} zu erhalten und verwende einen {item:180445}, um zu ihm zu gleiten und aufzusitzen."
