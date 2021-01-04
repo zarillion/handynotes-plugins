@@ -407,7 +407,6 @@ L["apholeias_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la pl
 L["dekaris_note"] = "Au sommet d'un gros rocher en saillie."
 L["drifting_sorrow_note"] = "Tuez des {npc:175246s} près de l'orbe flottante pour activer le boss."
 L["ekphoras_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:330650} pour invoquer le rare."
-L["gorged_shadehound_note"] = "Disponible seulement pendant l'événement {wq:chasse : molosses d’ombre}."
 L["ikras_note"] = "Vole autour du Fort de la Perdition. C'est un bon endroit pour l'attirer."
 L["orophea_note"] = "Ramassez {spell:337143} au sud-est et proposez-le à {npc:172577} pour l'activer."
 L["sanngror_note"] = "S'il n'est pas attaquable, attendez qu'il n'expérimente plus sur des âmes."

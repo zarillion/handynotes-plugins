@@ -403,7 +403,6 @@ L["apholeias_note"] = "和3名其他玩家，站在平台的角落并施放 {spe
 L["dekaris_note"] = "在一块凸起的大岩石上。"
 L["drifting_sorrow_note"] = "在悬浮宝珠附近击杀 {npc:175246} 激活首领。"
 L["ekphoras_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:330650} 召唤稀有。"
-L["gorged_shadehound_note"] = "只在 {wq:狩猎：影犬} 事件期间可用。"
 L["ikras_note"] = "在破灭堡飞来飞去。这里是攻击他的好位置。"
 L["orophea_note"] = "从东南方的拾取 {spell:337143} 并提供给 {npc:172577} 激活。"
 L["sanngror_note"] = "如果他是不可攻击，等待直到他不再灵魂实验。"
