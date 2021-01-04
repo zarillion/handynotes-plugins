@@ -37,7 +37,7 @@ L["rootwrithe_note"] = "触碰 {npc:167928} 直到稀有出现。"
 L["rotbriar_note"] = "和 {npc:171684} 交谈对话后在附近召唤稀有。"
 L["slumbering_note"] = "跑到迷雾中将昏迷并被带出。使用信号弹或带 AOE 的宠物把他击出迷雾。"
 L["skuld_vit_note"] = "在被障碍物阻挡的山洞中。法夜必须使用 {spell:310143} 进入洞穴。他进入战斗后，障碍物将消失。"
-L["valfir_note"] = "在闪光的心能之种下降过程中点击并使用 {spell:338045} 移除他的 {spell:338038} 增益。"
+L["valfir_note"] = "在路径中途下坡点击闪光的心能之种并使用 {spell:338045} 移除他的 {spell:338038} 增益。"
 L["wrigglemortis_note"] = "拉动 {npc:164179} 刷新稀有。"
 
 L["night_mare_note"] = [[
@@ -117,7 +117,7 @@ L["herculon_note"] = [[
 
 |cFFFF8C00不能在世界任务 {wq:突袭前庭} 期间击败。|r
 ]]
-L["reekmonger_note"] = nil
+L["reekmonger_note"] = "在勇气神庙击杀敌人直到 {npc:171327} 做出表情并降落。"
 L["repair_note"] = "和两名其他玩家，点击上古熏香来召唤。"
 L["sotiros_orstus_note"] = "点击黑色的钟召唤稀有。"
 L["sundancer_note"] = "点击雕像获得 {spell:332309} 增益，然后使用 {item:180445} 滑翔到稀有并骑上它。"
