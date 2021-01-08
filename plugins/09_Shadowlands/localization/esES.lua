@@ -445,7 +445,7 @@ L["stygian_cache_note"] = "¡Sólo una persona puede despojar el alijo cada vez 
 
 L["box_of_torments_note"] = "Abre los {npc:173837} bajo el Tremaculum."
 L["tormentors_notes_note"] = "Despoja el cuerpo del {npc:173811}."
-L["words_of_warden_note"] = "Examina el |cffffff00Trozo de Papel|r en la roca detrás de algunas ollas."
+L["words_of_warden_note"] = "Examina el |cffffff00Trozo de Papel|r en la roca detrás de algunas urnas."
 
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
 L["options_icons_bonus_boss_desc"] = "Muestra las localizaciones de los élites de bonificación."
