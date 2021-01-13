@@ -222,7 +222,7 @@ L["anima_shard_61299"] = "隱藏在大火炬的後面。"
 L["anima_shard_61300"] = "掛在中央字體的岩架上。"
 L["anima_shard_spires"] = "三個碎片位於晉升之巔副本內"
 L["options_icons_anima_shard"] = "{achievement:14339}"
-L["options_icons_anima_shard_desc"] = "顯示 {achievement:14339} 成就中全部50個失落的靈魄碎片的位置。"
+L["options_icons_anima_shard_desc"] = "顯示 {achievement:14339} 成就中全部50個靈魄水晶碎片的位置。"
 
 L["hymn_note"] = "在每個神廟中找到頌歌並獲得它們的增益來取得成就"
 L["options_icons_hymns"] = "{achievement:14768}"
