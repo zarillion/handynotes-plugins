@@ -304,6 +304,9 @@ map.nodes[58197421] = Rare({
         -- Item({item=184185, type=L["neck"], note=L["Boneslurp"]}), -- Grunge-Caked Collarbone
         -- Item({item=184279, type=L["trinket"], note=L["Pulsing"]}), -- Siphoning Blood-Drinker
         ns.reward.Spacer(),
+        ns.reward.Section('{npc:157311}'), -- Burnblister
+        Transmog({item=184175, slot=L["wand"], indent=true}), -- Bone-Blistering Wand
+        ns.reward.Spacer(),
         ns.reward.Section('{npc:157308}'), -- Corrupted Sediment
         Transmog({item=184302, slot=L["mail"], indent=true}), -- Residue-Coated Muck Waders
         ns.reward.Spacer(),
