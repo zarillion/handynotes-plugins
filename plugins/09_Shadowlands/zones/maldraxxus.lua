@@ -37,7 +37,7 @@ map.nodes[52663542] = Rare({
     rewards={
         Achievement({id=14308, criteria=48876}),
         Transmog({item=184290, slot=L["dagger"]}), -- Blood-Dyed Bonesaw
-        Transmog({item=184154, slot=L["cosmetic"]}), -- Grungy Containment Pack
+        Transmog({item=184154, slot=L["cosmetic"], covenant=NECROLORD}), -- Grungy Containment Pack
         Toy({item=184476}) -- Regenerating Slime Vial
     }
 }) -- Bubbleblood
@@ -134,7 +134,7 @@ map.nodes[72872891] = Rare({
     rewards={
         Achievement({id=14308, criteria=49724}),
         -- Item({item=184174, note=L["ring"]}), -- Clasp of Death
-        Transmog({item=181810, slot=L["cosmetic"]}) -- Phylactery of the Dead Conniver
+        Transmog({item=181810, slot=L["cosmetic"], covenant=NECROLORD}) -- Phylactery of the Dead Conniver
     }
 }) -- Necromantic Anomaly
 
