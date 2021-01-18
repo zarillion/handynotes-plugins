@@ -245,6 +245,7 @@ L["gieger_note"] = "Tirez sur le {npc:162815} pour activer le rare."
 L["gristlebeak_note"] = "Brisez tout les {npc:162761} à proximité pour affronter le rare."
 L["leeda_note"] = "Tuez les deux {npc:162220} jusqu'à ce que le rare apparaisse."
 L["nirvaska_note"] = "N'apparaît que lorsque l'expédition {wq:Rappel Mortel} est active."
+L["ravenomous_note"] = nil
 L["sabriel_note"] = "Peut apparaître comme l'un des champions du Théâtre de la souffrance."
 L["schmitd_note"] = "Utilisez la {spell:313451} proche pour briser son bouclier."
 L["taskmaster_xox_note"] = "Partage son apparition avec {npc:160204}, {npc:160230} et {npc:160226}."
