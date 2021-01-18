@@ -75,7 +75,7 @@ L["playful_vulpin_note"] = [[
 • 四處亂走，就是靜不下來 = |cFFFF8C00/sit（/坐下）|r
 • 獨自歌唱 = |cFFFF8C00/sing（/唱歌）|r
 • 帶著歡笑舞動 = |cFFFF8C00/dance（/跳舞）|r
-• 孤單坐著一臉悲傷 = |cFFFF8C00/pet（/拍）|r
+• 孤單坐著一臉悲傷 = |cFFFF8C00/pet（/撫摸）|r
 ]]
 
 L["tame_gladerunner"] = "馴服的巡林者"
