@@ -243,6 +243,7 @@ L["gieger_note"] = "攻擊 {npc:162815} 後啟動稀有。"
 L["gristlebeak_note"] = "破壞附近的 {npc:162761} 後啟動稀有。"
 L["leeda_note"] = "擊殺兩個 {npc:162220} 單位後稀有刷新。"
 L["nirvaska_note"] = "只在世界任務 {wq:死亡宣告} 存在時啟動"
+L["ravenomous_note"] = nil
 L["sabriel_note"] = "可以作為苦痛劇場的冠軍之一出現。"
 L["schmitd_note"] = "使用附近的 {spell:313451} 破壞他的護盾。"
 L["taskmaster_xox_note"] = "與 {npc:160204}，{npc:160230} 和 {npc:160226} 共享刷新。"

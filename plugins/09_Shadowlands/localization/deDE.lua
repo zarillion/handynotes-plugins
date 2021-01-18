@@ -244,6 +244,7 @@ L["gieger_note"] = "Ziehe an {npc:162815}, um {npc:162741} zu aktivieren."
 L["gristlebeak_note"] = "Zerbrich jedes {npc:162761} in der Nähe, daraufhin wird {npc:162588} zu euch herunter geflogen kommen."
 L["leeda_note"] = "Töte die zwei {npc:162220} bis {npc:162180} erscheint."
 L["nirvaska_note"] = "Erscheint nur, wenn die Weltquest {wq:Tödliche Erinnerung} aktiv ist."
+L["ravenomous_note"] = nil
 L["sabriel_note"] = "Kann als einer der Champions im Theater der Schmerzen auftreten."
 L["schmitd_note"] = "Benutze nahegelegene {spell:313451}, um sein Schild zu brechen."
 L["taskmaster_xox_note"] = "Teilt sich einen spawn mit {npc:160204}, {npc:160230} und {npc:160226}."

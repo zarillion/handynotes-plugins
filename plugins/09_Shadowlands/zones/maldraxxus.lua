@@ -170,6 +170,7 @@ map.nodes[53726132] = Rare({
 map.nodes[53841877] = Rare({
     id=159753,
     quest=58004,
+	note=L["ravenomous_note"],
     rewards={
         Achievement({id=14308, criteria=48865}),
         Transmog({item=184184, slot=L["dagger"]}), -- Ravenomous's Acid-Tipped Stinger
