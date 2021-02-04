@@ -37,7 +37,7 @@ map.nodes[52663542] = Rare({
     rewards={
         Achievement({id=14308, criteria=48876}),
         Transmog({item=184290, slot=L["dagger"]}), -- Blood-Dyed Bonesaw
-        Transmog({item=184154, slot=L["cosmetic"], covenant=NECROLORD}), -- Grungy Containment Pack
+        Transmog({item=184154, slot=L["cosmetic"]}), -- Grungy Containment Pack
         Toy({item=184476}) -- Regenerating Slime Vial
     }
 }) -- Bubbleblood
