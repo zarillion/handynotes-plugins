@@ -331,6 +331,7 @@ L["amalgamation_of_sin_note"] = "Wähle bei der Weltquest {wq:Ruft Eure Sünden 
 L["bog_beast_note"] = "Hat eine Chance zu erscheinen, wenn während der Weltquest {wq:Losgeschmuddelt} auf einen {npc:166206} {item:177880} angewendet wird."
 L["endlurker_note"] = "Klicke den Animapflock neben {npc:165229s} Leiche (65.4, 60.0) an und verwende den {spell:321826} an einem Schimmerndem Riss."
 L["executioner_aatron_note"] = "Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen."
+L["executioner_adrastia_note"] = nil
 L["famu_note"] = "Sprich mit {npc:166483}, um das Event auszulösen."
 L["grand_arcanist_dimitri_note"] = "Töte die vier |CFFFFFF00Verhüllten Ritualisten|r, um {npc:167464} freizulassen." --{npc:167467}
 L["harika_note"] = "Plündere den {item:176397} in Schauerkuppe, dann gib {npc:165327} den Bolzen und sage ihm, er soll {npc:165290} vom Himmel holen."

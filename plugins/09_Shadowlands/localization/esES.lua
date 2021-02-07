@@ -331,6 +331,7 @@ L["amalgamation_of_sin_note"] = "Durante la misión del mundo {wq:Invocar tus pe
 L["bog_beast_note"] = "Tiene probabilidad de aparecer durante la misión de mundo {wq:Mugre a mansalva} después de usar la {item:177880} en el {npc:166206}."
 L["endlurker_note"] = "Haz click en el Poste de Ánima cerca del cuerpo del {npc:165229} y usa el {spell:321826} en la parte superior de la Falla Fulgurante."
 L["executioner_aatron_note"] = "Mata a los tres {npc:166715} cercanos para eliminar la {spell:324872} del {npc:166710}."
+L["executioner_adrastia_note"] = nil
 L["famu_note"] = "Habla con la {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}."
 L["grand_arcanist_dimitri_note"] = "Mata a los cuatro {npc:167467} para liberar al {npc:167464}."
 L["harika_note"] = "En Cuenca Aterradora al oeste, despoja el {item:176397}, entregáselo a {npc:165327} y dile que derribe a {npc:165290}."

@@ -114,6 +114,7 @@ map.nodes[37084742] = Rare({
 map.nodes[43055183] = Rare({
     id=161310,
     quest=58441,
+    note=L["executioner_adrastia_note"],
     rewards={
         Achievement({id=14310, criteria=48807}),
         Transmog({item=180502, slot=L["leather"]}) -- Adrastia's Executioner Gloves

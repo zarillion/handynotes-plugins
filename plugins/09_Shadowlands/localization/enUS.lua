@@ -329,6 +329,7 @@ L["amalgamation_of_sin_note"] = "During the {wq:Summon Your Sins} world quest, p
 L["bog_beast_note"] = "Has a chance to spawn during the world quest {wq:Muck It Up} after using {item:177880} on a {npc:166206}."
 L["endlurker_note"] = "Click Anima Stake near {npc:165229} corpse and use {spell:321826} on top of the Shimmering Rift."
 L["executioner_aatron_note"] = "Kill the three nearby {npc:166715} to remove {spell:324872}."
+L["executioner_adrastia_note"] = "Free {npc:161299s} in the surrounding area and escort them until they despawn. {npc:161310} will eventually spawn to squash the insurrection."
 L["famu_note"] = "Talk to {npc:166483} to trigger the event."
 L["grand_arcanist_dimitri_note"] = "Kill the four {npc:167467} to release the rare."
 L["harika_note"] = "In Dredhollow to the west, loot the {item:176397}, then turn the bolt into {npc:165327} and tell him to bring down the rare."

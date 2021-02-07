@@ -329,6 +329,7 @@ L["amalgamation_of_sin_note"] = "Lors de l'expédition {wq:Invocation de vices},
 L["bog_beast_note"] = "A une chance d'apparaître pendant l'expédition {wq:Bourbe à gogo} après avoir utilisé {item:177880} sur une {npc:166206}."
 L["endlurker_note"] = "Cliquez sur le Pieu d'Anima près du cadavre de {npc:165229} et utilisez {spell:321826} au sommet de la Faille chatoyante."
 L["executioner_aatron_note"] = "Tuez les trois PNJ proches {npc:166715} pour retirer {spell:324872}."
+L["executioner_adrastia_note"] = nil
 L["famu_note"] = "Parlez à {npc:166483} pour déclencher l'événement."
 L["grand_arcanist_dimitri_note"] = "Tuez les quatre PNJ {npc:167467} pour libérer le rare."
 L["harika_note"] = "À Combeffroi, à l'ouest, procurez-vous un {item:176397}, puis donnez le carreau à {npc:165327} et dites-lui de faire tomber le rare."
