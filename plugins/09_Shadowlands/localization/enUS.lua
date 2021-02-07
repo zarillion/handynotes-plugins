@@ -15,6 +15,7 @@ L["anima_channeled"] = "anima channeled to %s."
 
 L["deifir_note"] = "Ride the rare around in a circle and use {spell:319566} and {spell:319575} to slow and stun him."
 L["faeflayer_note"] = "In a small cave hidden behind a waterfall."
+L["gormbore_note"] = "Kill {npc:165420s} over the rumbling ground to spawn the rare."
 L["gormtamer_tizo_note"] = "Kill Bristlecone Sprites in the Mistveil Tangle until {npc:164110} spawns."
 L["humongozz_note"] = "Plant an {item:175247} in the Damp Loam to spawn a {npc:164122}. The mushroom drops from numerous mobs in the zone."
 L["lehgo_note"] = "Destroy Quivering Gorm Eggs and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows)."

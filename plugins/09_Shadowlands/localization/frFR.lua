@@ -17,6 +17,7 @@ L["anima_channeled"] = "anima canalisé vers %s."
 
 L["deifir_note"] = "Faites tourner le rare en cercle et utilisez {spell:319566}  et {spell:319575} pour le ralentir et l'étourdir."
 L["faeflayer_note"] = "Dans une petite grotte cachée derrière une chute d'eau."
+L["gormbore_note"] = nil
 L["gormtamer_tizo_note"] = "Tuez des Lutins Poil-de-pin dans le Maquis Voile-de-Brume jusqu'à ce que {npc:164110} apparaisse."
 L["humongozz_note"] = "Plantez un {item:175247} dans le Terreau humide pour y faire apparaître un {npc:164122}. Le champignon peut être récupéré sur de nombreux monstres de la zone."
 L["lehgo_note"] = "Détruisez les œufs de Gorm frémissants et tuez des {npc:171827} jusqu'à ce qu'il apparaisse. Dans une grotte (entrée au sud-est dans les Terriers poussiéreux)."

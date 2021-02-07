@@ -15,6 +15,7 @@ L["anima_channeled"] = "%s mit Anima versorgt."
 
 L["deifir_note"] = "Reite auf {npc:164238} und verwende die Fähigkeiten {spell:319566} und {spell:319575}, um ihn zu verlangsamen und zu betäuben."
 L["faeflayer_note"] = "In einer kleinen Höhle, versteckt hinter einem Wasserfall."
+L["gormbore_note"] = nil
 L["gormtamer_tizo_note"] = "Töte Borstenzapfen Kobolde im Nebelschleierdickicht, bis {npc:164110} erscheint."
 L["humongozz_note"] = "Pflanze einen {item:175247} in den feuchten Lehm, um einen {npc:164122} erscheinen zu lassen. Der Pilz wird von mehreren Gegnern in diesem Gebiet fallen gelassen."
 L["lehgo_note"] = "Zerstöre Zitternde Gormeier und töte |CFFFFFF00Wütende Eipfleger|r bis {npc:167851} erscheint. In einer Höhle. (Eingang nach Südosten (58.5, 31.9))." --{npc:171827}

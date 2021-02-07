@@ -88,6 +88,7 @@ map.nodes[68612765] = Rare({
 map.nodes[54067601] = Rare({
     id=163370,
     quest=59006,
+    note=L["gormbore_note"],
     rewards={
         Achievement({id=14309, criteria=48795}),
         Pet({item=183196, id=3035}) -- Lavender Nibbler

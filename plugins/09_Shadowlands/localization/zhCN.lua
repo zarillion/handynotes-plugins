@@ -15,6 +15,7 @@ L["anima_channeled"] = "心能连接到%s。"
 
 L["deifir_note"] = "骑上圈内的稀有并使用 {spell:319566} 和 {spell:319575} 使其减速和昏迷。"
 L["faeflayer_note"] = "瀑布后面隐藏的小洞穴内。"
+L["gormbore_note"] = nil
 L["gormtamer_tizo_note"] = "在纱雾迷结击杀蓟果精灵直到 {npc:164110} 刷新。"
 L["humongozz_note"] = "种植一个 {item:175247} 在潮湿的沃土将刷新 {npc:164122}。区域内的许多怪物都掉落蘑菇。"
 L["lehgo_note"] = "摧毁颤动的戈姆之卵并击杀 {npc:171827} 直到他出现。在洞穴内（入口在东南尘泥地穴内）。"

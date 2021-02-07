@@ -17,6 +17,7 @@ L["anima_channeled"] = "ánima canalizada a %s."
 
 L["deifir_note"] = "Monta en {npc:164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente."
 L["faeflayer_note"] = "En una cueva pequeña oculta tras una cascada."
+L["gormbore_note"] = nil
 L["gormtamer_tizo_note"] = "Mata Spriggans Conobarba en la Espesura Velo de Niebla hasta que aparezca {npc:164110} el cual tendrás que matar."
 L["humongozz_note"] = "Planta un {item:175247} en la Marga Húmeda para hacer aparecer un {npc:164122}. El champiñón cae de muchos enemigos de la zona."
 L["lehgo_note"] = "Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas)."
