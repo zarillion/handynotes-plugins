@@ -1,3 +1,13 @@
+# v4
+
+* Added a 'Zone-Specific settings' option to change display settings per-zone.
+* Added an option to hide the world map button.
+* Added reward filters for mounts, pets, toys and transmogs.
+* Added the 'Hide rares if all rewards known' option to the world map dropdown.
+* Fixed a bug with some achievements rendering incorrectly.
+* Fixed bullet-point character display for zhCN fonts.
+* Fixed quest id for Feathered Viper Scale (thanks FireSiku!).
+
 # v3
 
 * Fixed error on tooltip renderer for unresolved items.
