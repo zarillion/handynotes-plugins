@@ -154,7 +154,8 @@ map.nodes[50346328] = Rare({
     note=L["nirvaska_note"],
     rewards={
         Achievement({id=14308, criteria=48868}),
-        Transmog({item=183700, slot=L["cloth"]}) -- Forgotten Summoner's Shoulderpads
+        Transmog({item=183700, slot=L["cloth"]}), -- Forgotten Summoner's Shoulderpads
+        Transmog({item=181811, slot=L["cosmetic"], covenant=NECROLORD}) -- Beckoner's Shadowy Crystal
     }
 }) -- Nirvaska the Summoner
 
