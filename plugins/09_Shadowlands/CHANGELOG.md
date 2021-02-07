@@ -1,3 +1,16 @@
+# v28
+
+* Added mask drops for Hunter Vivanna.
+* Added missing cosmetic for Nirvaska.
+* Added missing pet (Bound Lightspawn) to Amalgamation of Light.
+* Added missing rewards for many vignette treasure icons.
+* Added missing shield transmog for Orstus and Sotiros.
+* Added missing wand drop for Burnblister.
+* Added notes for Adrastia, Gormbore and Ravenomous.
+* Added quest id and note for Reekmonger.
+* Added quest id for Sundancer.
+* Moved Shadehound mount to the Hunt vignette icon.
+
 # v27
 
 * Added an icon for the three shards in Spires to the Bastion map.
