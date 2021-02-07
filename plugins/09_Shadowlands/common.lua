@@ -13,6 +13,7 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Reward = ns.reward.Reward
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
@@ -55,6 +56,10 @@ local GILDED_WADER = Pet({item=180866, id=2938}) -- Gilded Wader
 
 local BLEAKWOOD_CHEST = { Pet({item=180592, id=2901}) } -- Trapped Stonefiend
 local BROKEN_SKYWARD_BELL = { GILDED_WADER, Toy({item=184415}) } -- Soothing Vesper
+local DECAYED_HUSK = {
+    Transmog({item=179593, slot=L["cloth"]}), -- Darkreach Mask
+    Transmog({item=179594, slot=L["leather"]}), -- Witherscorn Guise
+}
 local GILDED_CHEST = { Toy({item=184418}) } -- Acrobatic Steward
 local HIDDEN_HOARD = { GILDED_WADER }
 local HUNT_SHADEHOUNDS = { Mount({item=184167, id=1304}) } -- Mawsworn Soulhunter
@@ -80,6 +85,11 @@ local VIGNETTES = {
     [4202] = SPOUTING_GROWTH,
     [4212] = BLEAKWOOD_CHEST,
     [4214] = GILDED_CHEST,
+    [4217] = DECAYED_HUSK,
+    [4218] = DECAYED_HUSK,
+    [4219] = DECAYED_HUSK,
+    [4220] = DECAYED_HUSK,
+    [4221] = DECAYED_HUSK,
     [4239] = BROKEN_SKYWARD_BELL,
     [4240] = BROKEN_SKYWARD_BELL,
     [4241] = BROKEN_SKYWARD_BELL,
