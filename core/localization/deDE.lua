@@ -13,7 +13,7 @@ L["mail"] = "Kette"
 L["plate"] = "Platte"
 L["cosmetic"] = "Kosmetisch"
 
-L["1h_mace"] = "Einhandstreikolben"
+L["1h_mace"] = "Einhandstreitkolben"
 L["1h_sword"] = "Einhandschwert"
 L["1h_axe"] = "Einhandaxt"
 L["2h_mace"] = "Zweihandstreitkolben"
@@ -154,7 +154,7 @@ L["options_poi_color_desc"] = "Legt die Farbe für Punkte fest, wenn ein Symbol 
 L["options_path_color"] = "Wegfarbe"
 L["options_path_color_desc"] = "Legt die Farbe des Weges fest, wenn ein Symbol fokussiert ist."
 L["options_reset_poi_colors"] = "Farben zurücksetzen"
-L["options_reset_poi_colors_desc"] = "Setzet die obigen Farben auf ihre Standardeinstellungen zurück."
+L["options_reset_poi_colors_desc"] = "Setzt die obigen Farben auf ihre Standardeinstellungen zurück."
 
 ---------------------------------- TOOLTIP ---------------------------------
 

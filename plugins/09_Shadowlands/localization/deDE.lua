@@ -30,7 +30,7 @@ L["mymaen_note"] = "Töte Fauldorn Kobolde in dem Gebiet, bis {npc:165053} schre
 L["rainbowhorn_note"] = [[
 Finde und klicke das |cffffff00Große Horn des Runenhirsches|r an, um den Hirsch zu beschwören. Das Horn kann an mehreren Orten im Ardenwald erscheinen.
 
-Er wird immer nödlich von Tirna Vaal erscheinen, also setze deinen {item:6948} dorthin und halte ausschau nach einem Zonenemote.
+Er wird immer nördlich von Tirna Vaal erscheinen, also setze deinen {item:6948} dorthin und halte ausschau nach einem Zonenemote.
 
 |cffff4200S|r|cffff8500C|r|cffffc700H|r|cfff3ff00M|r|cffb1ff00E|r|cff6eff00C|r|cff2cff00K|r |cff00ff58D|r|cff00ff9bE|r|cff00ffddN|r |cff009bffR|r|cff0058ffE|r|cff0016ffG|r|cff2c00ffE|r|cff6e00ffN|r|cffb100ffB|r|cfff300ffO|r|cffff00c7G|r|cffff0085E|r|cffff0042N|r|cffff0000!|r
 ]]
@@ -67,7 +67,7 @@ L["enchanted_dreamcatcher"] = "Hängt oben von den Wurzeln herunter. \nAm einfac
 L["faerie_trove"] = "Befindet sich unter der Plattform."
 L["harmonic_chest"] = "Benötigt zwei Spieler. Einer spielt die Harfe und der andere die Trommel, um die Truhe freizuschalten."
 L["hearty_dragon_plume"] = "Verwende die {spell:333554} an der Spitze der nahe gelegenen Wasserfälle (die Feder liegt bei (48.9, 41.0)), um auf den Ast zu gleiten."
-L["old_ardeite_note"] = "Töte |CFFFFFF00Ritualisten von Schimmergeäst|r oder |CFFFFFF00Besesene Verteidiger|r in dem Gebiet Schimmergeäst im Südosten, um eine {item:174042} zu erhalten. Verwende diese dazu, um zu {npc:164391} hoch zu fliegen." --{npc:160747} {npc:160748}
+L["old_ardeite_note"] = "Töte |CFFFFFF00Ritualisten von Schimmergeäst|r oder |CFFFFFF00Besessene Verteidiger|r in dem Gebiet Schimmergeäst im Südosten, um eine {item:174042} zu erhalten. Verwende diese dazu, um zu {npc:164391} hoch zu fliegen." --{npc:160747} {npc:160748}
 L["swollen_anima_seed"] = "Ein großer Samen der in einem Baumstamm liegt."
 
 L["playful_vulpin_note"] = [[
@@ -102,7 +102,7 @@ L["aegeon_note"] = "Töte Gegner in der Umgebung, bis Aegeon als Verstärkung er
 L["ascended_council_note"] = "Läute gleichzeitig mit vier anderen Spielern die fünf Tempelvesperglocken, um den {npc:170899} beim Prüfstein des Aspiranten zu beschworen."
 L["aspirant_eolis_note"] = "Plündere {item:180613} in der Nähe und lese es ihm vor. Es erscheint eine Truhe."
 L["baedos_note"] = "Trage zum Aktivieren, Fässchen mit fermentierenden Purianfrüchten aus der Umgebung zu {npc:161536}."
-L["basilofos_note"] = "Beweg dich auf den Felsen umher, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint."
+L["basilofos_note"] = "Bewege dich auf den Felsen umher, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint."
 L["beasts_of_bastion"] = "Bestien der Bastion"
 L["beasts_of_bastion_note"] = "Sprich mit {npc:161441}, um eine der vier Bestien zu beschwören."
 L["bookkeeper_mnemis_note"] = "Hat die Chance anstelle von {npc:166867} in diesem Gebiet zu erscheinen."
@@ -251,7 +251,7 @@ L["schmitd_note"] = "Benutze nahegelegene {spell:313451}, um sein Schild zu brec
 L["taskmaster_xox_note"] = "Teilt sich einen spawn mit {npc:160204}, {npc:160230} und {npc:160226}."
 L["theater_of_pain_note"] = "Bei der ersten Tötung am Tag, besteht die Chance, dass das Reittier fallen gelassen wird."
 L["zargox_the_reborn_note"] = [[
-Verwende die {item:175841} auf der {npc:157124}. Die {item:175841} erhälst du, wenn du die Quest {quest:57245} von {npc:157076} abschließen und nochmal mit ihm sprichst.
+Verwende die {item:175841} auf der {npc:157124}. Die {item:175841} erhältst du, wenn du die Quest {quest:57245} von {npc:157076} abschließen und nochmal mit ihm sprichst.
 
 Wenn die {npc:157124} nicht da ist, belebe {npc:157132} in dem Gebiet, bis diese erscheint.
 ]]
@@ -412,7 +412,7 @@ L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Plat
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, um sie zu aktivieren."
 L["sanngror_note"] = "\nWenn er gerade nicht angreifbar ist, dann warte bis er nicht mehr mit Seelen experimentiert."
 L["talaporas_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331800}, um {npc:170302} zu beschwören."
-L["valis_note"] = "Klicke die drei {npc:174810} in der richtigen Reihenfolge an, um {npc:173086} zu beschwören. Die Reihenfolge ändert sich jedes Mal und wenn die falsche Rune angeklickt wird, erleidest du Schaden und wirst mit dem Schwachungszauber {spell:343636} belegt."
+L["valis_note"] = "Klicke die drei {npc:174810} in der richtigen Reihenfolge an, um {npc:173086} zu beschwören. Die Reihenfolge ändert sich jedes Mal und wenn die falsche Rune angeklickt wird, erleidest du Schaden und wirst mit dem Schwächungszauber {spell:343636} belegt."
 L["yero_note"] = "Nähere dich {npc:172862} und folge ihm in die Höhle in der Nähe, wo er feindlich wird."
 
 L["exos_note"] = [[

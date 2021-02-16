@@ -12,7 +12,7 @@ L["cottontail_matron_note"] = "Untersuche den abscheulichen Ritualschädel, um d
 L["gluttonous_yeti_note"] = "Diese {npc:127979} ist verflucht ..."
 L["idej_note"] = "Unterbrich seinen Zauber {spell:274005} oder er könnte {npc:139380} töten!"
 L["seething_cache_note"] = "Öffne die brodelnde Truhe, um Wellen von {npc:129031} zu beschwören."
-L["the_caterer_note"] = "Klicke die ruinierte Hochzeitstorte zum aktiviern an."
+L["the_caterer_note"] = "Klicke die ruinierte Hochzeitstorte zum aktivieren an."
 L["vicemaul_note"] = "Klicke die {npc:127652} an, um den seltenen Gegner an Land zu ziehen."
 
 L["merchants_chest_note"] = "Töte {npc:137468}, um den {item:163710} zu erhalten."
@@ -41,7 +41,7 @@ L["options_icons_drust_facts_desc"] = "Zeigt die Druststelen für den Erfolg {ac
 L["options_icons_drust_facts"] = "{achievement:13064}"
 
 L["embers_crossbow_note"] = "Hebe die {item:163749} vom Boden zwischen zwei Bäumen auf und bringe sie zu den Ruinen von Gol Var."
-L["embers_flask_note"] = "Hebe ein {item:163746}, dass sich im Wasser zwischen zwei Felsen befindent auf und bringe es zu den Ruinen von Gol Var."
+L["embers_flask_note"] = "Hebe ein {item:163746}, dass sich im Wasser zwischen zwei Felsen befindet auf und bringe es zu den Ruinen von Gol Var."
 L["embers_hat_note"] = "Plündere den {item:163748} aus einem Knochenhaufen und bringe ihn zu den Ruinen von Gol Var."
 L["embers_knife_note"] = "Ziehe ein {item:163747} aus dem Stamm des Baumes und bringe es zu den Ruinen von Gol Var."
 L["embers_golvar_note"] = "Bringe jedes Relikt zu den Ruinen von Gol Var zurück, um den Erfolg zu erringen."
@@ -74,7 +74,7 @@ Hack das "{npc:152174}", verwende entweder:
 ]]
 L["scrapclaw_note"] = "Vor der Küste im Wasser"
 L["sparkqueen_note"] = 'Erscheint nur, wenn die tägliche Quest {daily:55765} verfügbar ist.'
-L["rusty_note"] = "Stelle bei {npc:150359} einen {item:169114} her, um die alternative Zukunft zu betretten. Erscheint nur, wenn {npc:153993} nicht in Rostbolzen anzutreffen ist."
+L["rusty_note"] = "Stelle bei {npc:150359} einen {item:169114} her, um die alternative Zukunft zu betreten. Erscheint nur, wenn {npc:153993} nicht in Rostbolzen anzutreffen ist."
 L["vaultbot_note"] = "Ziehe den {npc:150394} zu der {npc:73198} in Bondos Hof oder stelle bei {npc:150359} eine {item:167062} her, um ihn aufzubrechen."
 
 L["iron_chest"] = "Schließkassette der Eisenfluträuber"
@@ -129,7 +129,7 @@ L["vorkoth_note"] = "Wirf {item:167059} in das Gewässer und töte {npc:150463},
 L["area_spawn"] = "Erscheint im umliegenden Gebiet."
 L["cora_spawn"] = "Erscheint irgendwo im Korallenwald."
 L["cave_spawn"] = "Erscheint in einer Höhle."
-L["east_spawn"] = "Erscheint irgendwo in der östlichen häflte des Gebiets."
+L["east_spawn"] = "Erscheint irgendwo in der östlichen hälfte des Gebiets."
 L["ucav_spawn"] = "Erscheint in einer Unterwasserhöhle."
 L["zone_spawn"] = "Erscheint überall in diesem Gebiet."
 
@@ -150,7 +150,7 @@ L["arcane_chest_10"] = "Unter einer gehäuteten Schale."
 L["arcane_chest_11"] = "Auf dem Hügel."
 L["arcane_chest_12"] = "Oben auf dem Wasserfall."
 L["arcane_chest_13"] = "Oben auf der Klippe, hinter einem Baum."
-L["arcane_chest_14"] = "Im Elun'alor Temple."
+L["arcane_chest_14"] = "Im Elun'alor Tempel."
 L["arcane_chest_15"] = "Auf der rechten Seite des Gebäudes."
 L["arcane_chest_16"] = "In einer Unterwasserhöhle. Eingang nach Süden."
 L["arcane_chest_17"] = "Oben auf dem Wasserfall."
@@ -170,7 +170,7 @@ L["prismatic_crystal_note"] = "Verwende diese dazu, um einen {npc:151782} in Naz
 L["strange_crystal"] = "Merkwürdiger Kristall"
 L["strange_crystal_note"] = "Um die {item:167893} freizuschalten, musst du zuerst diesen {item:169778} hier plünder und die Quest {quest:56560} abschließen."
 L["options_icons_prismatics"] = "Kristallprismen"
-L["options_icons_prismatics_desc"] = "Zeigt die Position von {item:167893} fürs Füttern der Gefräsigen Schleime an."
+L["options_icons_prismatics_desc"] = "Zeigt die Position von {item:167893} fürs Füttern der Gefräßigen Schleime an."
 
 L["slimy_cocoon"] = "Schleimiger Kokon"
 L["ravenous_slime_note"] = "Füttere den Schleim mit einem Kleintier benutze dafür einen prismatischen Kristall. Wiederhole diesen Vorgang fünf Tage lang, bis ein Ei mit einem Haustier darin erscheint. Der Schleim bleibt bis zur nächsten wöchentlichen Zurücksetzung verschwunden."
@@ -293,7 +293,7 @@ L["lets_bee_friends_step_3"] = "Bringe den Gegenstand {item:163699} zu {npc:1431
 L["lets_bee_friends_step_4"] = "Bringe {item:163702} zu {npc:133907} bei der Metbrauerei Mildenhall."
 L["lets_bee_friends_step_5"] = "Schließe die Quest {quest:53347} für {npc:133907} ab."
 
-local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in der Reisszahnfeste'
+local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in der Reißzahnfeste'
 L["these_hills_sing_note"] = "Öffne {item:160485} hier. Diese kann bei "..luncheon.." gekauft werden oder aus dem Schatz \"Zurückgelassene Vesperdose\" in Brennadam geplündert werden."
 
 L["ancient_tidesage_scroll"] = "Uralte Schriftrolle der Gezeitenweisen"
@@ -310,7 +310,7 @@ L["long_forgotten_rum_note"] = "Um die Höhle betreten zu können, muss von {npc
 L["honey_slitherer_note"] = "Sprich mit {npc:137176}, um den Gleiter zu beschwören."
 L["tempestria_note"] = "Untersuche den verdächtigen Fleischhaufen, um {npc:133356} zu beschwören."
 L["twin_hearted_note"] = "Zerstöre das Ritualabbild, um das {npc:131984} zu beschwören."
-L["wintersail_note"] = "\nZerstöre die Schugglerversteck Kisten, um den Kapitän zu beschwören."
+L["wintersail_note"] = "\nZerstöre die Schmugglerversteck Kisten, um den Kapitän zu beschwören."
 
 L["hay_covered_chest_note"] = "Reite auf dem {npc:130350} die Straße entlang zu {npc:131453}, um den Schatz erscheinen zu lassen."
 L["pirate_treasure_note"] = [[
@@ -322,7 +322,7 @@ Die Karten werden von Piraten in Kul Tiras fallen gelassen. Freihafen (offene We
 local damp_note = "\n\nLies alle fünf Schriftrollen, um zugang zum Schatz zu erhalten."
 
 L["damp_scroll"] = "Eine feuchte Schriftrolle"
-L["damp_scroll_note_1"] = "\nDer Eingang ist in der Sturmsangabtei.\nEin Skellet auf dem Boden hält diese vor dem Ominösen Altar in den Händen."..damp_note
+L["damp_scroll_note_1"] = "\nDer Eingang ist in der Sturmsangabtei.\nEin Skelett auf dem Boden hält diese vor dem Ominösen Altar in den Händen."..damp_note
 L["damp_scroll_note_2"] = "Auf dem Fußboden in einem Keller, hinter einem {npc:136343}."..damp_note
 L["damp_scroll_note_3"] = "Auf dem Fußboden die Treppe hoch, neben einem {npc:136343}."..damp_note
 L["damp_scroll_note_4"] = "Auf dem Fußboden in einem Keller, neben einem {npc:136343}."..damp_note
@@ -349,7 +349,7 @@ Jedesmal, wenn die Übergriffsquest {wq:Nicht allzu nüchterne Bürgerwehr} akti
 • {npc:145107}
 • {npc:145101}
 
-Rekrutiere jeden von ihnen, um den Erfolg zu erringen. Du wirst die Zone für den Angriff, die Weltquest und bis der richtige NPC akiv ist mehrfach überprüfen müssen.
+Rekrutiere jeden von ihnen, um den Erfolg zu erringen. Du wirst die Zone für den Angriff, die Weltquest und bis der richtige NPC aktiv ist mehrfach überprüfen müssen.
 ]]
 L["options_icons_upright_citizens"] = "{achievement:13285}"
 L["options_icons_upright_citizens_desc"] = "Zeigt die NPCs für den Erfolg {achievement:13285} an."
