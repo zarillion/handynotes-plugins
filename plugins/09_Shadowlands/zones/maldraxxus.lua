@@ -50,7 +50,8 @@ map.nodes[49012351] = Rare({
         Transmog({item=184188, slot=L["1h_axe"]}), -- Collector's Corpse Gambrel
         Transmog({item=184181, slot=L["1h_axe"]}), -- Kash's Favored Hook
         Transmog({item=184189, slot=L["1h_axe"]}), -- Stained Fleshgorer
-        Transmog({item=184182, slot=L["1h_axe"]}) -- Strengthened Abomination Hook
+        Transmog({item=184182, slot=L["1h_axe"]}), -- Strengthened Abomination Hook
+        Item({item=183692, quest=62408, covenant=NECROLORD}) -- Jagged Bonesaw
     }
 }) -- Collector Kash
 
@@ -274,7 +275,8 @@ map.nodes[28965138] = Rare({
     rewards={
         Achievement({id=14308, criteria=48864}),
         Transmog({item=184285, slot=L["plate"]}), -- Boneclutched Shackles
-        Transmog({item=181804, slot=L["cosmetic"], covenant=NECROLORD}) -- Trophy of the Reborn Bonelord
+        Transmog({item=181804, slot=L["cosmetic"], covenant=NECROLORD}), -- Trophy of the Reborn Bonelord
+        Item({item=183690, quest=62404, covenant=NECROLORD}) -- Ashen Ink
     },
     pois={
         POI({26314280})
