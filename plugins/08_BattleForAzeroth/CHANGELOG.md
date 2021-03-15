@@ -1,3 +1,7 @@
+# v5
+
+* Update TOC for 9.0.5.
+
 # v4
 
 * Added a 'Zone-Specific settings' option to change display settings per-zone.
