@@ -289,7 +289,7 @@ local OOZE = "|T646670:0|t"
 local GOO = "|T136007:0|t"
 local OIL = "|T136124:0|t"
 
-map.nodes[58197421] = Rare({
+map.nodes[57007421] = Rare({
     id=157226,
     quest={61718, 61719, 61720, 61721, 61722, 61723, 61724},
     questCount=true,
