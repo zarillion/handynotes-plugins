@@ -1,4 +1,4 @@
-## Interface: 90002
+## Interface: 90005
 ## Title: HandyNotes: The Burning Crusade
 ## Version: 1
 ## Notes: Burning Crusade Notes
