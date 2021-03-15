@@ -1,3 +1,10 @@
+# v29
+
+* Added new Broker Traversal Enhancer reward to Ven'ari.
+* Added some Crypt Couture rewards to Kash and Zargox.
+* Fixed reward displays on vignette tooltips (chests and hunts).
+* Moved the Pool of Mixed Monstrosities icon to the left slightly to avoid the daily icon.
+
 # v28
 
 * Added mask drops for Hunter Vivanna.
