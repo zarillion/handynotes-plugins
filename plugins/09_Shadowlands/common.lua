@@ -120,7 +120,12 @@ local VIGNETTES = {
     [4577] = SILVER_STRONGBOX
 }
 
+local isOwnShowCall = false
+
 hooksecurefunc(GameTooltip, 'Show', function(self)
+    if isOwnShowCall then
+        return
+    end
     local owner = self:GetOwner()
     if owner and owner.vignetteID then
         local rewards = VIGNETTES[owner.vignetteID]
@@ -131,6 +136,10 @@ hooksecurefunc(GameTooltip, 'Show', function(self)
                     reward:Render(self)
                 end
             end
+            
+            isOwnShowCall = true
+            self:Show()
+            isOwnShowCall = false
         end
     end
 end)
