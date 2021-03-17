@@ -136,7 +136,7 @@ hooksecurefunc(GameTooltip, 'Show', function(self)
                     reward:Render(self)
                 end
             end
-            
+
             isOwnShowCall = true
             self:Show()
             isOwnShowCall = false
