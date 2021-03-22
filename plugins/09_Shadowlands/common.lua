@@ -127,7 +127,7 @@ hooksecurefunc(GameTooltip, 'Show', function(self)
     local owner = self:GetOwner()
     if owner and owner.vignetteID then
         local rewards = VIGNETTES[owner.vignetteID]
-        if rewards and #rewards > 0 then            
+        if rewards and #rewards > 0 then
             self:AddLine(' ') -- add blank line before rewards
             for i, reward in ipairs(rewards) do
                 if reward:IsEnabled() then
