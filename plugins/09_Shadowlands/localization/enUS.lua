@@ -461,4 +461,4 @@ L["options_icons_maw_lore_desc"] = "Display maw lore locations for the {achievem
 L["options_icons_stygian_caches"] = "Stygian Caches"
 L["options_icons_stygian_caches_desc"] = "Display cache locations containing extra Stygia."
 L["options_icons_stygia_nexus"] = "Stygia Nexus"
-L["options_icons_stygia_nexus_desc"] = "Display Stygia Nexus locations Stygia Dust and Slivers needed for the Bound Shadeound mount."
+L["options_icons_stygia_nexus_desc"] = "Display Stygia Nexus locations Stygia Dust and Slivers needed for the Bound Shadehound mount."
