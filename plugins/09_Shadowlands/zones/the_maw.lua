@@ -427,7 +427,8 @@ map.nodes[55626318] = BonusBoss({
     quest=62210,
     note=L["in_cave"]..' '..L["sanngror_note"],
     rewards={
-        Achievement({id=14660, criteria=49489})
+        Achievement({id=14660, criteria=49489}),
+        Pet({item=183410, id=3040}) -- Sharpclaw
     },
     pois={
         POI({55806753}) -- Cave entrance
