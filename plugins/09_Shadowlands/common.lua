@@ -135,6 +135,7 @@ hooksecurefunc(GameTooltip, 'Show', function(self)
                 end
             end
             vignetteHandled = true
+            self:Show()
        end
     end
 end)
