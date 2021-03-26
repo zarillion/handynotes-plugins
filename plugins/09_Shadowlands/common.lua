@@ -135,12 +135,11 @@ hooksecurefunc(GameTooltip, 'Show', function(self)
                 end
             end
             vignetteHandled = true
-            self:Show()
        end
     end
 end)
 
-hooksecurefunc(GameTooltip, 'IsShown', function(self)
+hooksecurefunc(GameTooltip, 'ClearLines', function(self)
     vignetteHandled = false
 end)
 
