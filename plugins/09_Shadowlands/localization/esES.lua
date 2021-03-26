@@ -461,6 +461,6 @@ L["options_icons_grapples_desc"] = "Muestra las localizaciones de los agarres pa
 L["options_icons_maw_lore"] = "Tradiciones de Las Fauces"
 L["options_icons_maw_lore_desc"] = "Muestra las localizaciones para las tradiciones de Las Fauces para el logro {achievement:14761}."
 L["options_icons_stygia_nexus"] = "Nexos de Stigia"
-L["options_icons_stygia_nexus_desc"] = "Muestra las localizaciones de Nexos de Estigia (Polvo y Plata) necesarios para la montura Can de Sombras Vinculado."
+L["options_icons_stygia_nexus_desc"] = "Muestra las localizaciones de Nexos necesarios para la montura {item:184168}."
 L["options_icons_stygian_caches"] = "Alijos de Estigia"
 L["options_icons_stygian_caches_desc"] = "Muestra las localizaciones de los alijos con Estigia extra."
