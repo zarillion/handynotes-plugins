@@ -1,4 +1,4 @@
---Spanish Localization by (EU) Krovikan-Minahonda
+--Spanish Translation by (EU) Krovikan-Minahonda
 
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale("esES")
@@ -42,7 +42,7 @@ L["michael_skarn_note"] = "Recuerda que fuistes tú quien pidió esto."
 
 L["drust_facts_note"] = "Lee todas las estelas Drust para conseguir el logro."
 L["stele_forest_note"] = "Dentro de la Guarida de Ulfar."
-L["options_icons_drust_facts_desc"] = "Muestra las localizaciones de las estelas Drust para el logro {achievement:13064}."
+L["options_icons_drust_facts_desc"] = "Muestra dónde están las estelas Drust para el logro {achievement:13064}."
 L["options_icons_drust_facts"] = "{achievement:13064}"
 
 L["embers_crossbow_note"] = "Recoge la {item:163749} del suelo entre dos árboles y devuélvela a las ruinas de Gol Var."
@@ -51,7 +51,7 @@ L["embers_hat_note"] = "Recoge el {item:163748} de la pila de huesos y devuélve
 L["embers_knife_note"] = "Estira del {item:163747} para sacarlo del tronco del árbol y devuélvelo a las ruinas de Gol Var."
 L["embers_golvar_note"] = "Devuelve cada una de las reliquias a las ruinas de Gol Var para conseguir el logro."
 L["golvar_ruins"] = "Ruinas de Gol Var"
-L["options_icons_ember_relics_desc"] = "Muestra las localizaciones de las reliquias para el logro {achievement:13082}."
+L["options_icons_ember_relics_desc"] = "Muestra dónde están las reliquias para el logro {achievement:13082}."
 L["options_icons_ember_relics"] = "{achievement:13082}"
 
 L["linda_deepwater_note"] = "Para poder acceder, debes haber completado la cadena de misiones de {npc:136458} justo fuera de Calacualquiera."
@@ -97,13 +97,13 @@ L["shock_bot_note"] = "Haz click en el robot para conseguir un proc de poder hac
 L["welding_bot_note"] = "Haz click en el robot para aumentar la vida y la sanación recibida un 10% durante 2 horas."
 
 L["options_icons_mech_buffs"] = "Buff de Robots"
-L["options_icons_mech_buffs_desc"] = "Muestra las localizaciones de los robots de grasa, descargas y soldador en el mapa estando dentro de la mazmorra."
+L["options_icons_mech_buffs_desc"] = "Muestra dónde están los robots de grasa, descargas y soldador en el mapa estando dentro de la mazmorra."
 L["options_icons_mech_chest"] = "Cofres Mecanizados"
-L["options_icons_mech_chest_desc"] = "Muestra las localizaciones de los cofres mecanizados. Hay 10 cofres únicos que pueden ser despojados una vez al día y cada cofre tiene 4-5 puntos de aparición. Las localizaciones están agrupadas por color."
+L["options_icons_mech_chest_desc"] = "Muestra dónde están los cofres mecanizados. Hay 10 cofres únicos que pueden ser despojados una vez al día y cada cofre tiene 4-5 puntos de aparición. Los sitios están agrupados por color."
 L["options_icons_locked_chest"] = "Cofres Cerrados"
-L["options_icons_locked_chest_desc"] = "Muestra las localizaciones de los cofres cerrados en Rocío del Oeste."
+L["options_icons_locked_chest_desc"] = "Muestra dónde están los cofres cerrados en Rocío del Oeste."
 L["options_icons_recrig"] = "{npc:150448}"
-L["options_icons_recrig_desc"] = "Muestra la localización del {npc:150448} y sus recompensas."
+L["options_icons_recrig_desc"] = "Muestra dónde está el {npc:150448} y sus recompensas."
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
@@ -175,7 +175,7 @@ L["prismatic_crystal_note"] = "Úsalos para alimentar a {npc:151782} en Nazjatar
 L["strange_crystal"] = "Cristal Extraño"
 L["strange_crystal_note"] = "Para desbloquear las apariciones de {item:167893}, primero has de despojar el {item:169778} en este lugar y entregarlo para la misión {quest:56560}."
 L["options_icons_prismatics"] = "{item:167893}"
-L["options_icons_prismatics_desc"] = "Muestra las localizaciones de {item:167893} para alimentar a {npc:151782}."
+L["options_icons_prismatics_desc"] = "Muestra dónde están los {item:167893} para alimentar a {npc:151782}."
 
 L["slimy_cocoon"] = "Crisálida babosa"
 L["ravenous_slime_note"] = "Alimenta a una {npc:151782} con una alimaña usando un {item:167893}. Repetir durante cinco días hasta que aparezca una Crisálida Babosa con una mascota en su interior. La babosa se habrá ido hasta el próximo reinicio semanal."
@@ -218,11 +218,11 @@ L["Salgos"] = "Salgos el Eterno"
 L["tentacle_taco"] = "Vende {item:170100} si llevas puesto el {item:169489}."
 
 L["options_icons_slimes_nazj"] = "{npc:151782}"
-L["options_icons_slimes_nazj_desc"] = "Muestra las localizaciones de las cuatro Babas Voraces que producen mascotas al ser alimentadas."
+L["options_icons_slimes_nazj_desc"] = "Muestra dónde están las cuatro Babas Voraces que producen mascotas al ser alimentadas."
 L["options_icons_cats_nazj"] = "{achievement:13836}"
-L["options_icons_cats_nazj_desc"] = "Muestra las localizaciones de las figurillas de gato para el logro {achievement:13836}."
+L["options_icons_cats_nazj_desc"] = "Muestra dónde están las figurillas de gato para el logro {achievement:13836}."
 L["options_icons_misc_nazj"] = "Miscelánea"
-L["options_icons_misc_nazj_desc"] = "Muestra la localización de la cueva de Murloco y el Laboratorio de Mardivas."
+L["options_icons_misc_nazj_desc"] = "Muestra dónde está la cueva de Murloco y el Laboratorio de Mardivas."
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
@@ -249,7 +249,7 @@ L["carved_in_stone_41861"] = "En el pilar destruido."
 L["carved_in_stone_41862"] = "En la pared destruida, enfrente del pilar grandioso."
 L["carved_in_stone_42116"] = "En el pilar que hay al lado del {npc:126126}."
 L["options_icons_carved_in_stone"] = "{achievement:13024}"
-L["options_icons_carved_in_stone_desc"] = "Muestra las localizaciones de las pictografías para el logro {achievement:13024}."
+L["options_icons_carved_in_stone_desc"] = "Muestra dónde están las pictografías para el logro {achievement:13024}."
 
 L["hoppin_sad_53419"] = "Detrás de dos árboles bajo una raíz enorme."
 L["hoppin_sad_53420"] = "En las ruinas."
@@ -258,7 +258,7 @@ L["hoppin_sad_53425"] = "En el árbol cerca de la cascada."
 L["hoppin_sad_53426"] = "Bajo algunas raices."
 
 L["options_icons_hoppin_sad"] = "{achievement:13028}"
-L["options_icons_hoppin_sad_desc"] = "Muestra las localizaciones de los {npc:143317} para el logro {achievement:13028}."
+L["options_icons_hoppin_sad_desc"] = "Muestra dónde están los {npc:143317} para el logro {achievement:13028}."
 
 -------------------------------------------------------------------------------
 ------------------------------- STORMSONG VALLEY ------------------------------
@@ -289,7 +289,7 @@ L["leana_darkwind_note"] = "Las extrañas criaturas de esta isla prometen brinda
 
 L["honeyback_harvester_note"] = "Habla con {npc:155193} para empezar el evento. El Depósito de Jalea Fresca puede ser despojado una vez a la hora y se restablece pasada una hora."
 L["options_icons_honeybacks"] = "{npc:155193}"
-L["options_icons_honeybacks_desc"] = "Muestra las localizaciones del evento de la {npc:155193} para el farmeo de la reputación Colmena Mielabdomen."
+L["options_icons_honeybacks_desc"] = "Muestra dónde está el evento de la {npc:155193} para el farmeo de la reputación Colmena Mielabdomen."
 
 L["lets_bee_friends_note"] = "Completa la misión diaria {daily:53371} siete veces para conseguir el logro y la mascota. Para desbloquear la misión diaria:"
 L["lets_bee_friends_step_1"] = "Completa la cadena de misiones desde {quest:50343} hasta {quest:50553}."
@@ -304,7 +304,7 @@ L["these_hills_sing_note"] = "Abre {item:160485} aquí. Cómpraselo a "..luncheo
 L["ancient_tidesage_scroll"] = "Pergamino Antiguo de Sabiomar"
 L["ancient_tidesage_scroll_note"] = "Lee los 8 Pergamino Antiguo de Sabiomar para conseguir el logro."
 L["options_icons_tidesage_legends"] = "{achievement:13051}"
-L["options_icons_tidesage_legends_desc"] = "Muestra las localizaciones de los pergaminos antiguos para el logro {achievement:13051}."
+L["options_icons_tidesage_legends_desc"] = "Muestra dónde están los pergaminos antiguos para el logro {achievement:13051}."
 
 L["long_forgotten_rum_note"] = "Para entrar en la cueva debe haberse completado la misión {quest:50697} de {npc:134710} en Ribera Inerte. También lo vende {npc:137040} en Drustvar."
 
@@ -345,7 +345,7 @@ L["shanty_horse_note"] = "Despoja el Cancionero del Canalla. Se encuentra encima
 L["shanty_inebriation_note"] = "Despoja el Cancionero de Jay. Se encuentra en el suelo detrás de {npc:141066}."
 L["shanty_lively_note"] = "Despoja el Cancionero de Russel. Se encuentra encima de la chimenea."
 L["options_icons_shanty_raid"] = "{achievement:13057}"
-L["options_icons_shanty_raid_desc"] = "Muestra las localizaciones de las salomas para el logro {achievement:13057}."
+L["options_icons_shanty_raid_desc"] = "Muestra dónde están las salomas para el logro {achievement:13057}."
 
 L["upright_citizens_node"] = [[
 Uno de los tres NPCs de debajo aparecerá cada vez que la misión de asalto {wq:Una brigada de ciudadanos no demasiado sobrios} esté activa.
@@ -357,7 +357,7 @@ Uno de los tres NPCs de debajo aparecerá cada vez que la misión de asalto {wq:
 Recluta a cada uno para conseguir el logro. Durante varios asaltos hará falta comprobar la zona, la misión del mundo y que el NPC correcto esté activo.
 ]]
 L["options_icons_upright_citizens"] = "{achievement:13285}"
-L["options_icons_upright_citizens_desc"] = "Muestra las localizaciones de los NPC para el logro {achievement:13285}."
+L["options_icons_upright_citizens_desc"] = "Muestra dónde están los NPC para el logro {achievement:13285}."
 
 -------------------------------------------------------------------------------
 ------------------------------------ ULDUM ------------------------------------
@@ -373,7 +373,7 @@ L["chamber_of_the_moon"] = "Subterráneo en la Cámara de la Luna."
 L["chamber_of_the_stars"] = "Subterráneo en la Cámara de las Estrellas."
 L["chamber_of_the_sun"] = "Subterráneo en la Cámara del Sol."
 L["dunewalker"] = "Para poder atacarle hay que quitarle el escudo de inmunidad. Para ello, en la plataforma de encima haz click en la Esencia del Sol."
-L["friendly_alpaca"] = "Alimenta a la alpaca con {item:174858} siete veces para aprenderla como montura. Aparece durante 10 minutos en una localización, después tiene un largo tiempo de reaparición."
+L["friendly_alpaca"] = "Alimenta a la alpaca con {item:174858} siete veces para aprenderla como montura. Aparece durante 10 minutos en un sitio, después tiene un largo tiempo de reaparición."
 L["gaze_of_nzoth"] = "Comparte lugar de reaparición con {npc:156890}."
 L["gersahl_note"] = "Alimenta a una {npc:162765} siete veces para una montura. No requiere Herboristería."
 L["gersahl"] = "Arbusto Gershal"
@@ -382,7 +382,7 @@ L["kanebti"] = "Recoge {item:168160} haciendo click en {npc:152427}, los cuales 
 L["neferset_rare"] = "Los seis raros comparten los tres lugares de aparición en Neferset. Tras completar un número de veces el evento del Ritual de Invocación, aparecerán tres raros aleatorios."
 L["platform"] = "Aparece encima de la plataforma flotante."
 L["right_eye"] = "Te da la mitad derecha del juguete {item:175140}."
-L["single_chest"] = "¡Este cofre aparece sólo en una localización! Si no está aquí, espera un poco y aparecerá."
+L["single_chest"] = "¡Este cofre aparece sólo en un sitio! Si no está aquí, espera un poco y aparecerá."
 L["tomb_widow"] = "Para invocarlo: cuando los sacos de huevos blancos están presentes por los pilares, mata las arañas invisibles."
 L["uatka"] = "Junto con otros dos jugadores más, haced click al mismo tiempo en el {npc:152777}. Requiere que cada uno tenga un {item:171208} de un Relicario Amathet."
 L["wastewander"] = "Comparte lugar de aparición con {npc:154369}."
@@ -395,9 +395,9 @@ L["infested_strongbox"] = "Caja fuerte Infestada"
 L["amathet_reliquary"] = "Relicario Amathet"
 
 L["options_icons_assault_events"] = "Eventos del Asalto"
-L["options_icons_assault_events_desc"] = "Muestra las localizaciones de los posibles eventos del asalto."
+L["options_icons_assault_events_desc"] = "Muestra dónde están los posibles eventos del asalto."
 L["options_icons_coffers"] = "Alijos Cerrados"
-L["options_icons_coffers_desc"] = "Muestra las localizaciones de los alijos cerrados (despojables una vez por asalto)."
+L["options_icons_coffers_desc"] = "Muestra dónde están los alijos cerrados (despojables una vez por asalto)."
 
 L["ambush_settlers"] = "Mata oleadas de enemigos hasta que acabe el evento."
 L["burrowing_terrors"] = "Salta encima de los {npc:162073} para aplastarlos."
@@ -543,15 +543,15 @@ L["c_walkway_corner"] = "En una esquina de la pasarela superior."
 L["c_walkway_platform"] = "En una plataforma sobre la pasarela superior."
 
 L["options_icons_visions_buffs"] = "Buffs"
-L["options_icons_visions_buffs_desc"] = "Muestra las localizaciones de eventos que garantizan buffs de daño durante 1 hora."
+L["options_icons_visions_buffs_desc"] = "Muestra dónde están los eventos que garantizan buffs de daño durante 1 hora."
 L["options_icons_visions_chest"] = "Cofres"
-L["options_icons_visions_chest_desc"] = "Muestra las localizaciones posibles de cofres dentro de las visiones horripilantes."
+L["options_icons_visions_chest_desc"] = "Muestra dónde están los posibles de cofres dentro de las visiones horripilantes."
 L["options_icons_visions_crystals"] = "Cristales Extraños"
-L["options_icons_visions_crystals_desc"] = "Muestra las localizaciones posibles de cristales extraños dentro de las visiones horripilantes."
+L["options_icons_visions_crystals_desc"] = "Muestra dónde están los posibles cristales extraños dentro de las visiones horripilantes."
 L["options_icons_visions_mail"] = "Buzones"
-L["options_icons_visions_mail_desc"] = "Muestra las localizaciones de buzones para la montura del {item:174653}."
+L["options_icons_visions_mail_desc"] = "Muestra dónde están los buzones para la montura del {item:174653}."
 L["options_icons_visions_misc"] = "Miscelánea"
-L["options_icons_visions_misc_desc"] = "Muestra las localizaciones de raros, juguetes, pociones y del etéreo dentro de las visiones horripilantes."
+L["options_icons_visions_misc_desc"] = "Muestra dónde están los raros, juguetes, pociones y del etéreo dentro de las visiones horripilantes."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
@@ -583,12 +583,12 @@ L["plank_4"] = "Sobre una duna de arena a lo largo del lado de la pirámide."
 L["plank_5"] = "Sigue la cola de la serpiente para encontrar el tablón."
 L["planks_ridden"] = "tablones destartalados montados"
 L["options_icons_dune_rider"] = "{achievement:13018}"
-L["options_icons_dune_rider_desc"] = "Muestra las localizaciones de los tablones destartalados para el logro {achievement:13018}."
+L["options_icons_dune_rider_desc"] = "Muestra dónde están los tablones destartalados para el logro {achievement:13018}."
 
 L["options_icons_scavenger_of_the_sands"] = "{achievement:13016}"
-L["options_icons_scavenger_of_the_sands_desc"] = "Muestra las localizaciones de los objetos de chatarra para el logro {achievement:13016}."
+L["options_icons_scavenger_of_the_sands_desc"] = "Muestra dónde están los objetos de chatarra para el logro {achievement:13016}."
 
-L["elusive_alpaca"] = "Alimenta a la {npc:162681} con {item:161128} para aprenderla como montura. Aparece durante 10 minutos en una localización y después tiene un largo tiempo de reaparición."
+L["elusive_alpaca"] = "Alimenta a la {npc:162681} con {item:161128} para aprenderla como montura. Aparece durante 10 minutos en un sitio y después tiene un largo tiempo de reaparición."
 
 -------------------------------------------------------------------------------
 ---------------------------------- WARFRONTS ----------------------------------
@@ -632,7 +632,7 @@ L["torcali_note"] = "Completa misiones en el Redil Bestia de Guerra hasta que {q
 
 L["totem_of_paku_note"] = "Habla con la {npc:137510} al norte del Gran Sello para seleccionar a Pa'ku como tu loa en Zuldazar."
 L["options_icons_paku_totems"] = "Tótems de Pa'ku"
-L["options_icons_paku_totems_desc"] = "Muestra las localizaciones de los {npc:131154} y sus rutas de viaje en Dazar'alor."
+L["options_icons_paku_totems_desc"] = "Muestra dónde están los {npc:131154} y sus rutas de viaje en Dazar'alor."
 
 L["tales_gonk_note"] = "Reposa en la manta."
 L["tales_gral_note"] = "En las raices del árbol."
@@ -647,7 +647,7 @@ local shared_dinos = "La misión diaria {daily:50860} debe estar activa (una de 
 L["azuresail_note"] = "Comparte tiempo de aparición con {npc:135512} y {npc:135508}\n\n"..shared_dinos
 L["thunderfoot_note"] = "Comparte tiempo de aparición con {npc:135510} y {npc:135508}\n\n"..shared_dinos
 L["options_icons_life_finds_a_way"] = "{achievement:13048}"
-L["options_icons_life_finds_a_way_desc"] = "Muestra las localizaciones de los dinosaurios aterradores para el logro {achievement:13048}."
+L["options_icons_life_finds_a_way_desc"] = "Muestra dónde están los dinosaurios aterradores para el logro {achievement:13048}."
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
@@ -657,7 +657,7 @@ L["goramor_note"] = "Compra una {item:163563} de {npc:126833} y alimenta a {npc:
 L["makafon_note"] = "Compra un {item:163564} de {npc:124034} en el Puesto Proveescamas y alimenta a {npc:130922}."
 L["stompy_note"] = "Compra una {item:163567} de {npc:133833} al norte del Oasis Silbaflor y alimenta al {npc:143332}."
 L["options_icons_brutosaurs"] = "{achievement:13029}"
-L["options_icons_brutosaurs_desc"] = "Muestra la localización de los brutosaurios para el logro {achievement:13029}."
+L["options_icons_brutosaurs_desc"] = "Muestra dónde están los brutosaurios para el logro {achievement:13029}."
 
 local hekd_note = "\n\nPara conseguir acceso a {npc:126334}, necesitas completar %s."
 if UnitFactionGroup('player') == 'Horde' then
@@ -681,26 +681,26 @@ L["saurid_junk_note"] = format(hekd_quest, "{quest:50901}")
 L["snapjaw_junk_note"] = format(hekd_item, "{item:157801}", "{npc:126723}")
 L["vilescale_junk_note"] = format(hekd_item, "{item:157797}", "{npc:125393}")
 L["options_icons_get_hekd"] = "{achievement:12482}"
-L["options_icons_get_hekd_desc"] = "Muestras las localizaciones de las tareas de {npc:126334} para el logro {achievement:12482}."
+L["options_icons_get_hekd_desc"] = "Muestras dónde están las tareas de {npc:126334} para el logro {achievement:12482}."
 
 L["options_icons_mushroom_harvest"] = "{achievement:13027}"
-L["options_icons_mushroom_harvest_desc"] = "Muestra las localizaciones de los villanos fungáricos para el logro {achievement:13027}."
+L["options_icons_mushroom_harvest_desc"] = "Muestra dónde están los villanos fungáricos para el logro {achievement:13027}."
 
 L["options_icons_tales_of_de_loa"] = "{achievement:13036}"
-L["options_icons_tales_of_de_loa_desc"] = "Muestra las localizaciones de los volúmenes para el logro {achievement:13036}."
+L["options_icons_tales_of_de_loa_desc"] = "Muestra dónde están los volúmenes para el logro {achievement:13036}."
 
 L["jani_note"] = "Haz click en el Montón de Basura Misteriosa para que aparezca {npc:126334}."
 L["rezan_note"] = ns.color.Red("Dentro de la mazmorra Atal'Dazar.")
 L["bow_to_your_masters_note"] = "Reverencia a los loa de Zandalar ("..ns.color.Orange('/reverenciar')..")."
 L["options_icons_bow_to_your_masters"] = "{achievement:13020}"
-L["options_icons_bow_to_your_masters_desc"] = "Muestra las localizaciones para el logro {achievement:13020}."
+L["options_icons_bow_to_your_masters_desc"] = "Muestra los sitios para el logro {achievement:13020}."
 
 L["alisha_note"] = "Este vendedor requiere progresar en las misiones de Drustvar."
 L["elijah_note"] = "Este vendedor requiere progresar en las misiones de Drustvar. Él comienza a vender salchichas tras hacer la misión {quest:47945}."
 L["raal_note"] = ns.color.Red("Está dentro de la mazmorraz Mansión Crestavía.")
 L["sausage_sampler_note"] = "Come cada una de las salchichas para conseguir el logro."
 L["options_icons_sausage_sampler"] = "{achievement:13087}"
-L["options_icons_sausage_sampler_desc"] = "Muestra las localizaciones de los vendedores para el logro {achievement:13087}."
+L["options_icons_sausage_sampler_desc"] = "Muestra dónde están los vendedores para el logro {achievement:13087}."
 
 -- Para la Horda, incluida una nota para las bebidas que deben comprarse en la AH
 local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Las siguientes bebidas son inaccesibles para la Horda y deben comprarse en la casa de subastas:
@@ -714,18 +714,18 @@ local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Las siguient
 ]] or ''
 L["three_sheets_note"] = "Adquiere cada una de las bebidas para conseguir el logro."..horde_sheets
 L["options_icons_three_sheets"] = "{achievement:13061}"
-L["options_icons_three_sheets_desc"] = "Muestra las localizaciones de los vendedores para el logro {achievement:13061}."
+L["options_icons_three_sheets_desc"] = "Muestra dónde están los vendedores para el logro {achievement:13061}."
 
-L["options_icons_daily_chests_desc"] = "Muestra la localización de los cofres (despojables diariamente)."
+L["options_icons_daily_chests_desc"] = "Muestra dónde están los cofres (despojables diariamente)."
 L["options_icons_daily_chests"] = "Cofres"
 
 L["supply_chest"] = "Cofre de Suministros de Guerra"
 L["supply_chest_note"] = "Una {npc:135181} o un {npc:138694} volarán por lo alto cada 45 minutos y soltarán un {npc:135238} en uno de estos tres sitios."
 L["supply_single_drop"] = ns.color.Orange("Esta ruta de vuelo siempre suelta el cofre de suministros en este lugar.")
-L["options_icons_supplies_desc"] = "Muestra las localizaciones posibles para los {npc:135238}."
+L["options_icons_supplies_desc"] = "Muestra los sitios posibles para los {npc:135238}."
 L["options_icons_supplies"] = "{npc:135238}"
 
 L["secret_supply_chest"] = "Cofres de Suministros Secreto"
-L["secret_supply_chest_note"] = "Cuando está activo un asalto de facción, puede aparecer un "..ns.color.Yellow("Cofre de Suministros Secreto").." en una de estas localizaciones por poco tiempo."
+L["secret_supply_chest_note"] = "Cuando está activo un asalto de facción, puede aparecer un "..ns.color.Yellow("Cofre de Suministros Secreto").." en uno de estos sitios por poco tiempo."
 L["options_icons_secret_supplies"] = "Cofre de Suministros Secreto"
-L["options_icons_secret_supplies_desc"] = "Muestra las localizaciones de los "..ns.color.Yellow("Cofres de Suministros Secreto").." para el logro {achievement:13317}."
+L["options_icons_secret_supplies_desc"] = "Muestra dónde están los "..ns.color.Yellow("Cofres de Suministros Secreto").." para el logro {achievement:13317}."
