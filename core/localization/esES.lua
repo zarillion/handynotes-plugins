@@ -1,4 +1,4 @@
---Spanish Localization by (EU) Krovikan-Minahonda
+--Spanish Translation by (EU) Krovikan-Minahonda
 
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale("esES")
@@ -139,13 +139,13 @@ L["options_toy_rewards_desc"] = "Muestra las recompensas de juguetes en las nota
 L["options_transmog_rewards"] = "Mostrar recompensas de transfiguraciones"
 L["options_transmog_rewards_desc"] = "Muestra las recompensas de transfiguraciones en las notas y rastrea el estado de si ha sido aprendida."
 
-L["options_icons_misc_desc"] = "Muestra las localizaciones de otros nodos sin categoría."
+L["options_icons_misc_desc"] = "Muestra dónde están los nodos sin categoría."
 L["options_icons_misc"] = "Miscelánea"
-L["options_icons_pet_battles_desc"] = "Muestra las localizaciones de los entrenadores de mascotas y NPCs."
+L["options_icons_pet_battles_desc"] = "Muestra dónde están los entrenadores de mascotas y NPCs."
 L["options_icons_pet_battles"] = "Mascotas de combate"
-L["options_icons_rares_desc"] = "Muestra las localizaciones de los NPCs raros."
+L["options_icons_rares_desc"] = "Muestra dónde están los NPCs raros."
 L["options_icons_rares"] = "Raros"
-L["options_icons_treasures_desc"] = "Muestra las localizaciones de los tesoros ocultos."
+L["options_icons_treasures_desc"] = "Muestra dónde están los tesoros ocultos."
 L["options_icons_treasures"] = "Tesoros"
 
 ---------------------------------- FOCUS ---------------------------------
