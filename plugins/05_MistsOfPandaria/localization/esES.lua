@@ -1,4 +1,4 @@
--- Spanish Localization by (EU) Krovikan-Minahonda
+-- Spanish Translation by (EU) Krovikan-Minahonda
 
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale("esES")
