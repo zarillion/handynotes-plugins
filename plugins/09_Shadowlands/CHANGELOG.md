@@ -1,3 +1,10 @@
+# v30
+
+* Added Larion Pouncer pet drop from Orstus and Sotiros.
+* Added Sharpclaw pet drop from Sanngror.
+* Added Stygian Nexus nodes to the Maw (thanks [ChrisKader](https://github.com/ChrisKader)!)
+* Added tooltip rendering fix for Vignette chests (thanks [Wevah](https://github.com/Wevah)!)
+
 # v29
 
 * Added new Broker Traversal Enhancer reward to Ven'ari.
