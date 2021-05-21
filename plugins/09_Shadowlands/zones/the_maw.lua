@@ -123,6 +123,14 @@ map.nodes[49128175] = Rare({
     }
 }) -- Darklord Taraxis
 
+map.nodes[66365545] = Rare({
+    id=179779,
+    quest=nil,
+    rewards={
+        Achievement({id=15107, criteria=52286})
+    }
+}) -- Deomen the Vortex
+
 map.nodes[28086058] = Rare({
     id=170711,
     quest=60909,

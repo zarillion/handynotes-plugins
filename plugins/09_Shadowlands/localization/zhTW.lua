@@ -234,6 +234,17 @@ L["thenia_note"] = "這裡有如此廣大的開放平原。正好適合拿來戰
 L["zolla_note"] = "我們非常嚴肅看待我們的防禦。無論大小，我們都致力於善用每一分資源，保護昇靈堡。"
 
 -------------------------------------------------------------------------------
+----------------------------------- KORTHIA -----------------------------------
+-------------------------------------------------------------------------------
+
+L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
+L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
+L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
+L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
+L["pop_quiz_note"] = "Click on the planted veilstaff and answer the questions from {npc:180162}."
+L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
+
+-------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
 

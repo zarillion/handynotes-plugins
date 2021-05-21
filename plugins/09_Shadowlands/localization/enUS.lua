@@ -234,6 +234,17 @@ L["thenia_note"] = "Such magnificent open plains here. A glorious place to battl
 L["zolla_note"] = "We take our defenses very seriously. Whether small or large, we are fully committed to maintain and train the resources that keep Bastion strong."
 
 -------------------------------------------------------------------------------
+----------------------------------- KORTHIA -----------------------------------
+-------------------------------------------------------------------------------
+
+L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
+L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
+L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
+L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
+L["pop_quiz_note"] = "Click on the planted veilstaff and answer the questions from {npc:180162}."
+L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
+
+-------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
 

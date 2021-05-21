@@ -13,6 +13,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 --local Quest = ns.reward.Quest
 --local Section = ns.reward.Section
@@ -83,13 +84,14 @@ map.nodes[51164167] = Rare({
     }
 }) -- Consumption
 
--- map.nodes[] = Rare({
---     id=180042,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52299})
---     }
--- }) -- Corpse Heap
+map.nodes[59934371] = Rare({
+    id=180042,
+    quest=64349,
+    note=L["corpse_heap_note"],
+    rewards={
+        Achievement({id=15107, criteria=52299})
+    }
+}) -- Corpse Heap
 
 -- map.nodes[] = Rare({
 --     id=179913,
@@ -99,13 +101,6 @@ map.nodes[51164167] = Rare({
 --     }
 -- }) -- Deadsoul Hatcher
 
--- map.nodes[] = Rare({
---     id=179779,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52286})
---     }
--- }) -- Deomen the Vortex
 
 -- map.nodes[52602160] = Rare({
 --     id=177903,
@@ -118,9 +113,10 @@ map.nodes[51164167] = Rare({
 map.nodes[33083941] = Rare({
     id=180014,
     quest=64320,
+    note=L["wilderling_note"],
     rewards={
         Achievement({id=15107, criteria=52298}),
-        Item({id=187278}) --Talon-pierced Mawsworn Lockbox
+        Item({item=187278}) --Talon-pierced Mawsworn Lockbox
     }
 }) -- Escaped Wilderling
 
@@ -135,17 +131,19 @@ map.nodes[33083941] = Rare({
 map.nodes[60652315] = Rare({
     id=179684,
     quest=64233,
+    note=L["hunting_hunter_note"],
     rewards={
-        Achievement({id=15107, criteria=52283})
+        Achievement({id=15107, criteria=52283}),
+        Mount({item=186645, id=1506}) -- Crimson Shardhide
     }
 }) -- Hunting the Hunter
 
 map.nodes[44872902] = Rare({
     id=179472,
     quest=64246,64280,
+    note=L["konthrogz_note"],
     rewards={
-        Achievement({id=15107, criteria=52303}),
-        Item({id=187054}) --Lost Razorwing Egg
+        Achievement({id=15107, criteria=52303})
     }
 }) -- Konthrogz the Obliterator
 
@@ -159,7 +157,7 @@ map.nodes[59203580] = Rare({
     },
     pois={
         Path({
-            60893687, 62273605, 61313445, 59953388, 59053603, 58253784, 57033778, 56863623, 57923572, 59093603
+            59203580, 60893687, 62273605, 61313445, 59953388, 59053603, 58253784, 57033778, 56863623, 57923572, 59203580
         })
     }
 }) -- Kroke the Tormented
@@ -175,15 +173,17 @@ map.nodes[59203580] = Rare({
 map.nodes[32544305] = Rare({
     id=180162,
     quest=64457,
+    note=L["pop_quiz_note"],
     rewards={
         Achievement({id=15107, criteria=52319}),
-        Item({id=187264}) -- Ve'rayn's Head
+        Item({item=187264, quest=64513}) -- Ve'rayn's Head
     }
 }) -- Pop Quiz
 
 map.nodes[56873237] = Rare({
     id=180032,
     quest=64338,
+    note=L["popo_note"],
     rewards={
         Achievement({id=15107, criteria=52300})
     }
@@ -210,12 +210,13 @@ map.nodes[56873237] = Rare({
 --     quest=,
 --     rewards={
 --         Achievement({id=15107, criteria=52273})
+--Requires Repaired rift key
 --     }
 -- }) -- Screaming Shade
 
 -- map.nodes[] = Rare({
 --     id=179911,
---     quest=,
+--     quest=nil,
 --     rewards={
 --         Achievement({id=15107, criteria=52274})
 --     }
@@ -237,13 +238,13 @@ map.nodes[56873237] = Rare({
 --     }
 -- }) -- Torglluun
 
--- map.nodes[59603440] = Rare({
---     id=179760,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=522302})
---     }
--- }) -- Towering Exterminator
+map.nodes[29394514] = Rare({
+    id=179760,
+    quest=64245,
+    rewards={
+        Achievement({id=15107, criteria=52302})
+    }
+}) -- Towering Exterminator
 
 -- map.nodes[66404400] = Rare({
 --     id=177444,
@@ -259,7 +260,7 @@ map.nodes[27755885] = Rare({
     note=L["in_cave"],
     rewards={
         Achievement({id=15107, criteria=52301}),
-        Pet({id=186542}) --Korthian Specimen
+       Pet({item=186542, id=3136}) --Korthian Specimen
     },
     pois={
         POI({30385480}) -- Entrance
@@ -270,27 +271,28 @@ map.nodes[27755885] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[46114536] = Treasure({
---     quest=61006,
---     note=L["in_cave"],
---     rewards={
---         Achievement({id=14311, criteria=50053})
---     },
---     pois={
---         POI({46454661}) -- Entrance
---     }
--- }) -- Abandoned Stockpile
+-- -- map.nodes[46114536] = Treasure({
+-- --     quest=61006,
+-- --     note=L["in_cave"],
+-- --     rewards={
+-- --         Achievement({id=14311, criteria=50053})
+-- --     },
+-- --     pois={
+-- --         POI({46454661}) -- Entrance
+-- --     }
+-- -- }) -- Abandoned Stockpile
 
---map.nodes[52981474] = Treasure({
---     quest=64238,
---     rewards={
---         })
---     },
--- }) -- Lost Momento
+-- --map.nodes[52981474] = Treasure({
+-- --     quest=64238,
+-- --     rewards={
+-- --         })
+-- --     },
+-- -- }) -- Lost Momento
 
 map.nodes[29485345] = Treasure({
     quest=64244,
     rewards={
+        Achievement({id=15099, criteria=52241}),
         Item({item=187349}) -- Anima Laden Egg
     }
 }) -- Anima Laden Egg
@@ -298,35 +300,44 @@ map.nodes[29485345] = Treasure({
 map.nodes[42515596] = Treasure({
     quest=64264,
     rewards={
+        Achievement({id=15099, criteria=52245}),
         Item({item=187354}) -- Abandoned Broker Satchel
     }
 }) -- Infected Vestige
 
-map.nodes[53783793] = Treasure({
-    quest=64354,
-    rewards={
-        Item({item=187244}) -- Questionable Mawshrooms
-    }
-}) -- Invasive Mawshroom
-
--- map.nodes[42505482] = Treasure({
---     quest=64359,64360
+-- map.nodes[53783793] = Treasure({
+--     quest=64354,
 --     rewards={
+--         Item({item=187244}) -- Questionable Mawshrooms
+--     }
+-- }) -- Invasive Mawshroom
 
---         }
---     },
--- }) -- Nest of Unusual Materials
+-- -- map.nodes[61145795] = Treasure({
+-- --     quest=64363,
+-- --     rewards={
+-- --     }
+-- -- }) -- Mawsworn Cache
 
-map.nodes[25725108] = Treasure({
-    quest=nil,
-    rewards={
-        Item({item=nil, quest=nil}) --
-    }
-}) -- Raorwing Nest
+-- -- map.nodes[42505482] = Treasure({
+-- --     quest=64359,64360
+-- --     rewards={
 
-map.nodes[53783793] = Treasure({
-    quest=nil,
-    rewards={
-        Item({item=nil, quest=nil}) --
-    }
-}) -- Spectral Bound Chest
+-- --         }
+-- --     },
+-- -- }) -- Nest of Unusual Materials
+
+-- -- map.nodes[25725108] = Treasure({
+-- --     quest=nil,
+-- --     rewards={
+-- --         Item({item=nil, quest=nil}) --
+-- --     }
+-- -- }) -- Razorwing Nest
+
+-- -- map.nodes[53783793] = Treasure({
+-- --     quest=nil,
+-- --     rewards={
+-- --         Item({item=nil, quest=nil}) --
+-- --     }
+-- -- }) -- Spectral Bound Chest
+
+
