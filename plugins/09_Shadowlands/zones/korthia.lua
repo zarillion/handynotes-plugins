@@ -115,13 +115,14 @@ map.nodes[51164167] = Rare({
 --     }
 -- }) -- Dominated Protector
 
--- map.nodes[] = Rare({
---     id=180014,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52298})
---     }
--- }) -- Escaped Wilderling
+map.nodes[] = Rare({
+    id=180014,
+    quest=64320,
+    rewards={
+        Achievement({id=15107, criteria=52298}),
+        Item({id=187278}) --Talon-pierced Mawsworn Lockbox
+    }
+}) -- Escaped Wilderling
 
 -- map.nodes[] = Rare({
 --     id=179851,
@@ -139,21 +140,29 @@ map.nodes[60652315] = Rare({
     }
 }) -- Hunting the Hunter
 
--- map.nodes[] = Rare({
---     id=179472,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52303})
---     }
--- }) -- Konthrogz the Obliterator
+map.nodes[44872902] = Rare({
+    id=179472,
+    quest=64246,64280,
+    rewards={
+        Achievement({id=15107, criteria=52303}),
+        Item({id=187054}) --Lost Razorwing Egg
+    }
+}) -- Konthrogz the Obliterator
 
--- map.nodes[59203580] = Rare({
---     id=179108,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52304})
---     }
--- }) -- Kroke the Tormented
+map.nodes[59203580] = Rare({
+    id=179108,
+    quest=64428,
+    rewards={
+        Achievement({id=15107, criteria=52304}),
+        Transmog({item=187250, slot=L["Shoulder"]}) -- Kroke's Wingspiked Pauldrons
+
+    },
+    pois={
+        Path({
+            60893687, 62273605, 61313445, 59953388, 59053603, 58253784, 57033778, 56863623, 57923572, 59093603
+        })
+    }
+}) -- Kroke the Tormented
 
 -- map.nodes[] = Rare({
 --     id=179985,
@@ -163,21 +172,22 @@ map.nodes[60652315] = Rare({
 --     }
 -- }) -- No Stoneborn Left Behind
 
--- map.nodes[] = Rare({
---     id=,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52319})
---     }
--- }) -- Pop Quiz
+map.nodes[32544305] = Rare({
+    id=180162,
+    quest=64457,
+    rewards={
+        Achievement({id=15107, criteria=52319}),
+        Item({id=187264}) -- Ve'rayn's Head
+    }
+}) -- Pop Quiz
 
--- map.nodes[47003560] = Rare({
---     id=180032,
---     quest=64338,
---     rewards={
---         Achievement({id=15107, criteria=52300})
---     }
--- }) -- Popo's Potion Patrol
+map.nodes[47003560] = Rare({
+    id=180032,
+    quest=64338,
+    rewards={
+        Achievement({id=15107, criteria=52300})
+    }
+}) -- Popo's Potion Patrol
 
 -- map.nodes[22604140] = Rare({
 --     id=179931,
@@ -243,13 +253,18 @@ map.nodes[60652315] = Rare({
 --     }
 -- }) -- Ylva, Mate of Guarm
 
--- map.nodes[] = Rare({
---     id=177336,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52301})
---     }
--- }) -- Zelnithop
+map.nodes[27755885] = Rare({
+    id=177336,
+    quest=64442,
+    note=L["in_cave"]
+    rewards={
+        Achievement({id=15107, criteria=52301}),
+        Pet({id=186542}) --Korthian Specimen
+    },
+    pois={
+        POI({30385480}) -- Entrance
+    }
+}) -- Zelnithop
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -272,3 +287,51 @@ map.nodes[60652315] = Rare({
 --         })
 --     },
 -- }) -- Lost Momento
+
+map.nodes[29485345] = Treasure({
+    quest=64244,
+    rewards={
+        Item({item=187349}) -- Anima Laden Egg
+        })
+    },
+}) -- Anima Laden Egg
+
+map.nodes[42515596] = Treasure({
+    quest=64264,
+    rewards={
+        Item({item=187354}) -- Abandoned Broker Satchel
+        })
+    },
+}) -- Infected Vestige
+
+map.nodes[53783793] = Treasure({
+    quest=64354,
+    rewards={
+        Item({item=187244}) -- Questionable Mawshrooms
+        })
+    },
+}) -- Invasive Mawshroom
+
+map.nodes[42505482] = Treasure({
+    quest=64359,
+    rewards={
+
+        })
+    },
+}) -- Nest of Unusual Materials
+
+map.nodes[25725108] = Treasure({
+    quest=nil,
+    rewards={
+        Item({item=nil, quest=nil}) --
+        })
+    },
+}) -- Raorwing Nest
+
+map.nodes[53783793] = Treasure({
+    quest=nil,
+    rewards={
+        Item({item=nil, quest=nil}) --
+        })
+    },
+}) -- Spectral Bound Chest
