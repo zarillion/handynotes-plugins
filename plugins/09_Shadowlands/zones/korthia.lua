@@ -3,24 +3,24 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
-local Class = ns.Class
+--local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local NPC = ns.node.NPC
+--local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
-local Quest = ns.reward.Quest
-local Section = ns.reward.Section
-local Toy = ns.reward.Toy
+--local Quest = ns.reward.Quest
+--local Section = ns.reward.Section
+--local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
-local Arrow = ns.poi.Arrow
-local Line = ns.poi.Line
+--local Arrow = ns.poi.Arrow
+--local Line = ns.poi.Line
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -181,7 +181,7 @@ map.nodes[32544305] = Rare({
     }
 }) -- Pop Quiz
 
-map.nodes[47003560] = Rare({
+map.nodes[56873237] = Rare({
     id=180032,
     quest=64338,
     rewards={
@@ -310,7 +310,7 @@ map.nodes[53783793] = Treasure({
 }) -- Invasive Mawshroom
 
 -- map.nodes[42505482] = Treasure({
---     quest=64359,
+--     quest=64359,64360
 --     rewards={
 
 --         }
