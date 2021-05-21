@@ -239,12 +239,12 @@ L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o 
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
-L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
-L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
-L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
-L["pop_quiz_note"] = "Click on the planted veilstaff and answer the questions from {npc:180162}."
-L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
+L["corpse_heap_note"] = "Habla con {npc:180079} para comenzar el evento de recolección."
+L["hunting_hunter_note"] = "Habla con el {npc:179729} para ganar {spell:355078} y seguir las pisadas de pies hasta que encuentres los restos de carne."
+L["konthrogz_note"] = "Tras matar varias criaturas aparecerá {npc:179472}."
+L["popo_note"] = "Habla con {npc:180028} para comenzar el evento de escolta."
+L["pop_quiz_note"] = "Haz click en the planted veilstaff y responde a las preguntas de {npc:180162}."--planted veilstaff??
+L["wilderling_note"] = "Haz click en the {npc:180014} para empezar el evento de doma."--masculino o femenino el npc??
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
