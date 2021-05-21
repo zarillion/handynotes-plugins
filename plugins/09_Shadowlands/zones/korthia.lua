@@ -115,7 +115,7 @@ map.nodes[51164167] = Rare({
 --     }
 -- }) -- Dominated Protector
 
-map.nodes[] = Rare({
+map.nodes[33083941] = Rare({
     id=180014,
     quest=64320,
     rewards={
@@ -256,7 +256,7 @@ map.nodes[47003560] = Rare({
 map.nodes[27755885] = Rare({
     id=177336,
     quest=64442,
-    note=L["in_cave"]
+    note=L["in_cave"],
     rewards={
         Achievement({id=15107, criteria=52301}),
         Pet({id=186542}) --Korthian Specimen
@@ -292,46 +292,41 @@ map.nodes[29485345] = Treasure({
     quest=64244,
     rewards={
         Item({item=187349}) -- Anima Laden Egg
-        })
-    },
+    }
 }) -- Anima Laden Egg
 
 map.nodes[42515596] = Treasure({
     quest=64264,
     rewards={
         Item({item=187354}) -- Abandoned Broker Satchel
-        })
-    },
+    }
 }) -- Infected Vestige
 
 map.nodes[53783793] = Treasure({
     quest=64354,
     rewards={
         Item({item=187244}) -- Questionable Mawshrooms
-        })
-    },
+    }
 }) -- Invasive Mawshroom
 
-map.nodes[42505482] = Treasure({
-    quest=64359,
-    rewards={
+-- map.nodes[42505482] = Treasure({
+--     quest=64359,
+--     rewards={
 
-        })
-    },
-}) -- Nest of Unusual Materials
+--         }
+--     },
+-- }) -- Nest of Unusual Materials
 
 map.nodes[25725108] = Treasure({
     quest=nil,
     rewards={
         Item({item=nil, quest=nil}) --
-        })
-    },
+    }
 }) -- Raorwing Nest
 
 map.nodes[53783793] = Treasure({
     quest=nil,
     rewards={
         Item({item=nil, quest=nil}) --
-        })
-    },
+    }
 }) -- Spectral Bound Chest
