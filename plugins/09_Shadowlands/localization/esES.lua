@@ -239,19 +239,19 @@ L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o 
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["corpse_heap_note"] = "Habla con {npc:180079} para comenzar el evento de recolección."
-L["hunting_hunter_note"] = "Habla con el {npc:179729} para ganar {spell:355078} y seguir las pisadas de pies hasta que encuentres los restos de carne."
-L["konthrogz_note"] = "Tras matar varias criaturas aparecerá {npc:179472}."
+L["corpse_heap_note"] = nil
+L["hunting_hunter_note"] = nil
+L["konthrogz_note"] = nil
 L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
-L["pop_quiz_note"] = "Haz click en planted veilstaff y responde a las preguntas de {npc:180162}."--planted veilstaff??
-L["popo_note"] = "Habla con {npc:180028} para comenzar el evento de escolta."
+L["pop_quiz_note"] = nil
+L["popo_note"] = nil
 L["razorwing_nest"] = nil
 L["razorwing_note"] = nil
 L["reliwik_note"] = nil
 L["screaming_shade_note"] = nil
 L["towering_exterminator_note"] = nil
-L["wilderling_note"] = "Haz click en {npc:180014} para empezar el evento de doma."
+L["wilderling_note"] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
