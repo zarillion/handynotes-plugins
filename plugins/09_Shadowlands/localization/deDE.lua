@@ -238,12 +238,19 @@ L["zolla_note"] = "Wir nehmen unsere Verteidigung sehr ernst. Ob groß oder klei
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
-L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
-L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
-L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
-L["pop_quiz_note"] = "Click on the planted veilstaff and answer the questions from {npc:180162}."
-L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
+L["corpse_heap_note"] = nil
+L["hunting_hunter_note"] = nil
+L["konthrogz_note"] = nil
+L["no_stoneborne_note"] = nil
+L["offering_box_note"] = nil
+L["popo_note"] = nil
+L["pop_quiz_note"] = nil
+L["razorwing_nest"] = nil
+L["razorwing_note"] = nil
+L["reliwik_note"] = nil
+L["screaming_shade_note"] = nil
+L["towering_exterminator_note"] = nil
+L["wilderling_note"] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -417,6 +424,7 @@ L["maw_intro_note"] = "Beginne die Einführungsquestreihe bei {npc:162804}, um i
 
 L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331783}, um {npc:170301} zu beschwören."
 L["dekaris_note"] = "Auf einem großen hervorstehenden Felsen."
+L["deomen_note"] = nil
 L["drifting_sorrow_note"] = "Töte {npc:175246} in der Nähe der schwebenden Kugel, um den Boss zu aktivieren."
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
 L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen."

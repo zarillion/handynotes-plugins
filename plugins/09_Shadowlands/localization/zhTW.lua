@@ -240,8 +240,15 @@ L["zolla_note"] = "我們非常嚴肅看待我們的防禦。無論大小，我�
 L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
 L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
 L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
+L["no_stoneborne_note"] = nil
+L["offering_box_note"] = nil
 L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
 L["pop_quiz_note"] = "Click on the planted veilstaff and answer the questions from {npc:180162}."
+L["razorwing_nest"] = nil
+L["razorwing_note"] = nil
+L["reliwik_note"] = nil
+L["screaming_shade_note"] = nil
+L["towering_exterminator_note"] = nil
 L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 
 -------------------------------------------------------------------------------
@@ -415,6 +422,7 @@ L["maw_intro_note"] = "從 {npc:162804} 開始指引任務線以解鎖淵喉的�
 
 L["apholeias_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:331783} 召喚稀有。"
 L["dekaris_note"] = "在一個大型的突出岩石上。"
+L["deomen_note"] = nil
 L["drifting_sorrow_note"] = "在懸浮寶珠附近殺死 {npc:175246} 來啟動首領。"
 L["ekphoras_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:330650} 召喚稀有。"
 L["ikras_note"] = "環繞墮滅堡飛行。這是個攻擊他的好位置。"

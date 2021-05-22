@@ -123,9 +123,10 @@ map.nodes[49128175] = Rare({
     }
 }) -- Darklord Taraxis
 
-map.nodes[66365545] = Rare({
+map.nodes[66255555] = Rare({
     id=179779,
-    quest=nil,
+    quest=62679,
+    Note=L["deomen_note"],
     rewards={
         Achievement({id=15107, criteria=52286})
     }
@@ -280,6 +281,14 @@ map.nodes[27397152] = Rare({
     }
 }) -- Thanassos <Death's Voice>
 
+map.nodes[68124758] = Rare({
+    id=179805,
+    quest=64258, 64439,
+    rewards={
+        Achievement({id=15107, criteria=52289})
+    }
+}) -- Traitor Balthier
+
 map.nodes[37446212] = Rare({
     id=172862,
     quest=61568,
@@ -295,6 +304,16 @@ map.nodes[37446212] = Rare({
         })
     }
 }) -- Yero the Skittish
+
+map.nodes[66404400] = Rare({
+    id=177444,
+    quest=64152,
+    rewards={
+        Achievement({id=15107, criteria=52287}),
+        Item({item=186970, quest=62683}) -- Feeder's Hand and Key
+    }
+}) -- Ylva, Mate of Guarm
+
 
 -------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
@@ -729,3 +748,23 @@ map.nodes[46914169] = NPC({
         Item({item=180952, quest=61144, note=L["Appreciative"]}), -- Possibility Matrix
     }
 })
+
+-------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[66034876] = Treasure({
+    quest=64256,
+    rewards={
+        Achievement({id=15099, criteria=52243})
+    }
+}) -- Helsworn Chest
+
+map.nodes[66526129] = Treasure({
+    quest=64261,
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=15099, criteria=52244}),
+        Item({item=187352}) -- Jeweled Heart of Ezekiel
+    }
+}) -- Jeweled Heart

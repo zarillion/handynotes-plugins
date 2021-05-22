@@ -242,8 +242,15 @@ L["zolla_note"] = "Nous prenons nos défenses très au sérieux. Qu'elles soient
 L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
 L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
 L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
+L["no_stoneborne_note"] = nil
+L["offering_box_note"] = nil
 L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
 L["pop_quiz_note"] = "Click on the planted veilstaff and answer the questions from {npc:180162}."
+L["razorwing_nest"] = nil
+L["razorwing_note"] = nil
+L["reliwik_note"] = nil
+L["screaming_shade_note"] = nil
+L["towering_exterminator_note"] = nil
 L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 
 -------------------------------------------------------------------------------
@@ -419,6 +426,7 @@ Jusqu'à ce que vous rameniez {npc:170651} à Oribos, vous serez séparé de la 
 
 L["apholeias_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:331783} pour invoquer le rare."
 L["dekaris_note"] = "Au sommet d'un gros rocher en saillie."
+L["deomen_note"] = nil
 L["drifting_sorrow_note"] = "Tuez des {npc:175246s} près de l'orbe flottante pour activer le boss."
 L["ekphoras_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:330650} pour invoquer le rare."
 L["ikras_note"] = "Vole autour du Fort de la Perdition. C'est un bon endroit pour l'attirer."

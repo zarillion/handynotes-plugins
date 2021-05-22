@@ -240,8 +240,15 @@ L["zolla_note"] = "We take our defenses very seriously. Whether small or large, 
 L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
 L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
 L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
+L["no_stoneborne_note"] = "Talk to {npc:179974} to start the event."
+L["offering_box_note"] = "Requires Small Offering Key which can be found on the top of the west side wall of the near by ruins."
 L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
-L["pop_quiz_note"] = "Click on the planted veilstaff and answer the questions from {npc:180162}."
+L["pop_quiz_note"] = "The Pop Quiz event will spawn randomly on the map. Click on the planted veilstaff and answer the questions from {npc:180162}."
+L["razorwing_nest"] = "Razorwing Matriarch"
+L["razorwing_note"] = "Hand in {item:187054} dropped by nearby devourers."
+L["reliwik_note"] = "Click on the uncorrupted razorwing egg to pull him down."
+L["screaming_shade_note"] = "Requires {item:186731} from {npc:178257}."
+L["towering_exterminator_note"] = "Spawns from a mawsworn portal event."
 L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 
 -------------------------------------------------------------------------------
@@ -415,6 +422,7 @@ L["maw_intro_note"] = "Begin the introductory quest chain from {npc:162804} to u
 
 L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
 L["dekaris_note"] = "On top of a large jutting rock."
+L["deomen_note"] = "Enter the chamber to the west of his cell and activate the lock control to access him."
 L["drifting_sorrow_note"] = "Kill {npc:175246s} near the hovering orb to activate the boss."
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
 L["ikras_note"] = "Flies around Perdition Hold. This is a good place to pull him."
