@@ -241,8 +241,15 @@ L["zolla_note"] = "Мы очень серьезно относимся к наш
 L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
 L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
 L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
+L["no_stoneborne_note"] = nil
+L["offering_box_note"] = nil
 L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
 L["pop_quiz_note"] = "Click on the planted veilstaff and answer the questions from {npc:180162}."
+L["razorwing_nest"] = nil
+L["razorwing_note"] = nil
+L["reliwik_note"] = nil
+L["screaming_shade_note"] = nil
+L["towering_exterminator_note"] = nil
 L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 
 -------------------------------------------------------------------------------
@@ -416,6 +423,7 @@ L["maw_intro_note"] = "Начните вводную цепочку задани
 
 L["apholeias_note"] = "Вместе с 3 другими игроками встаньте на углы платформы и примените {spell:331783}, чтобы призвать редкого монстра."
 L["dekaris_note"] = "На вершине большой выступающей скалы."
+L["deomen_note"] = nil
 L["drifting_sorrow_note"] = "Убейте {npc:175246} рядом с парящей сферой, чтобы активировать босса."
 L["ekphoras_note"] = "Вместе с 3 другими игроками встаньте на углы платформы и примените {spell:330650}, чтобы призвать редкого монстра."
 L["ikras_note"] = "Летает вокруг Цитадели Вечных Мук. Это хорошее место, чтобы его атаковать."
