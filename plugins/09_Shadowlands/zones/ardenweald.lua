@@ -14,6 +14,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Currency = ns.reward.Currency
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
@@ -36,7 +37,8 @@ map.nodes[34606800] = Rare({
     quest=59226,
     rewards={
         Achievement({id=14309, criteria=48714}),
-        Transmog({item=180166, slot=L["staff"]}) -- Deathbinder's Staff
+        Transmog({item=180166, slot=L["staff"]}), -- Deathbinder's Staff
+        Currency({id=1813, note='35 base'})
     }
 }) -- Deathbinder Hroth
 
@@ -46,7 +48,8 @@ map.nodes[47522845] = Rare({
     note=L["deifir_note"],
     rewards={
         Achievement({id=14309, criteria=48784}),
-        Pet({item=180631, id=2920}) -- Gorm Needler
+        Pet({item=180631, id=2920}), -- Gorm Needler
+        Currency({id=1813, note='5-30 base'})
     },
     pois={
         Path({
@@ -61,7 +64,8 @@ map.nodes[48397717] = Rare({
     id=163229,
     quest=58987,
     rewards={
-        Achievement({id=14309, criteria=48794})
+        Achievement({id=14309, criteria=48794}),
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Dustbrawl
 
@@ -71,7 +75,8 @@ map.nodes[57862955] = Rare({
     note=L["lehgo_note"],
     rewards={
         Achievement({id=14309, criteria=48790}),
-        Transmog({item=179539, slot=L["2h_mace"]}) -- Kelox's Eggbeater
+        Transmog({item=179539, slot=L["2h_mace"]}), -- Kelox's Eggbeater
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Egg-Tender Leh'go
 
@@ -81,7 +86,8 @@ map.nodes[68612765] = Rare({
     note=L["faeflayer_note"],
     rewards={
         Achievement({id=14309, criteria=48798}),
-        Transmog({item=180144, slot=L["1h_axe"]}) -- Faeflayer's Hatchet
+        Transmog({item=180144, slot=L["1h_axe"]}), -- Faeflayer's Hatchet
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Faeflayer
 
@@ -91,7 +97,8 @@ map.nodes[54067601] = Rare({
     note=L["gormbore_note"],
     rewards={
         Achievement({id=14309, criteria=48795}),
-        Pet({item=183196, id=3035}) -- Lavender Nibbler
+        Pet({item=183196, id=3035}), -- Lavender Nibbler
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Gormbore
 
@@ -101,7 +108,8 @@ map.nodes[27885248] = Rare({
     note=L["gormtamer_tizo_note"],
     rewards={
         Achievement({id=14309, criteria=48781}),
-        Mount({item=180725, id=1362}) -- Spinemaw Gladechewer
+        Mount({item=180725, id=1362}), -- Spinemaw Gladechewer
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Gormtamer Tizo
 
@@ -124,7 +132,8 @@ map.nodes[67465147] = Rare({
         Transmog({item=179593, slot=L["cloth"]}), -- Darkreach Mask
         Transmog({item=179594, slot=L["leather"]}), -- Witherscorn Guise
         Transmog({item=179596, slot=L["cosmetic"]}), -- Drust Mask of Dominance
-        Item({item=183091, quest=62246}) -- Lifewoven Bracelet
+        Item({item=183091, quest=62246}), -- Lifewoven Bracelet
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Hunter Vivanna
 
@@ -135,7 +144,8 @@ local MACABRE = Rare({
     focusable=true,
     rewards={
         Achievement({id=14309, criteria=48780}),
-        Pet({item=180644, id=2907}) -- Rocky
+        Pet({item=180644, id=2907}), -- Rocky
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Macabre
 
@@ -151,7 +161,8 @@ map.nodes[62102470] = Rare({
     note=L["mymaen_note"],
     rewards={
         Achievement({id=14309, criteria=48788}),
-        Transmog({item=179502, slot=L["dagger"]}) -- Ripvine Barb
+        Transmog({item=179502, slot=L["dagger"]}), -- Ripvine Barb
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Mymaen
 
@@ -181,7 +192,8 @@ map.nodes[65702809] = Rare({
     rewards={
         Achievement({id=14309, criteria=48715}),
         Transmog({item=179586, slot=L["bow"]}), -- Elderwood Piercer
-        Item({item=182179, quest=62434, covenant=NIGHTFAE}) -- Runestag Soul
+        Item({item=182179, quest=62434, covenant=NIGHTFAE}), -- Runestag Soul
+        Currency({id=1813, note='35 base'})
     },
     pois={
         POI({
@@ -220,7 +232,8 @@ map.nodes[57874983] = Rare({
     note=L["night_mare_note"],
     rewards={
         Achievement({id=14309, criteria=48793}),
-        Mount({item=180728, id=1306}) -- Swift Gloomhoof
+        Mount({item=180728, id=1306}), -- Swift Gloomhoof
+        Currency({id=1813, note='35 base'})
     },
     pois={
         Path({
@@ -238,7 +251,8 @@ map.nodes[51105740] = Rare({
     note=L["old_ardeite_note"],
     rewards={
         Achievement({id=14309, criteria=48785}),
-        Pet({item=180643, id=2908}) -- Chirpy Valeshrieker
+        Pet({item=180643, id=2908}), -- Chirpy Valeshrieker
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Old Ardeite
 
@@ -248,7 +262,8 @@ map.nodes[65104430] = Rare({
     note=L["rootwrithe_note"],
     rewards={
         Achievement({id=14309, criteria=48791}),
-        Transmog({item=179603, slot=L["shield"]}) -- Nettlehusk Barrier
+        Transmog({item=179603, slot=L["shield"]}), -- Nettlehusk Barrier
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Rootwrithe
 
@@ -258,7 +273,8 @@ map.nodes[65702430] = Rare({
     note=L["rotbriar_note"],
     rewards={
         Achievement({id=14309, criteria=48789}),
-        Item({item=175729, note=L["trinket"]}) -- Rotbriar Sprout
+        Item({item=175729, note=L["trinket"]}), -- Rotbriar Sprout
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Rotbriar Boggart
 
@@ -267,7 +283,8 @@ map.nodes[72425175] = Rare({
     quest=61177,
     rewards={
         Achievement({id=14309, criteria=48797}),
-        Transmog({item=180164, slot=L["staff"]}) -- Soultwister's Scythe
+        Transmog({item=180164, slot=L["staff"]}), -- Soultwister's Scythe
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Soultwister Cero
 
@@ -279,7 +296,8 @@ map.nodes[37675917] = Rare({
     rewards={
         Achievement({id=14309, criteria=48786}),
         Transmog({item=180146, slot=L["1h_axe"]}), -- Axe of Broken Wills
-        Item({item=182183, quest=62439, covenant=NIGHTFAE}) -- Wolfhawk Soul
+        Item({item=182183, quest=62439, covenant=NIGHTFAE}), -- Wolfhawk Soul
+        Currency({id=1813, note='35 base'})
     }
 }) -- Skuld Vit
 
@@ -289,7 +307,8 @@ map.nodes[59304660] = Rare({
     note=L["slumbering_note"],
     rewards={
         Achievement({id=14309, criteria=48792}),
-        Item({item=175711, note=L["ring"]}) -- Slumberwood Band
+        Item({item=175711, note=L["ring"]}), -- Slumberwood Band
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- The Slumbering Emperor
 
@@ -303,7 +322,8 @@ map.nodes[30115536] = Rare({
         Achievement({id=14309, criteria=48796}),
         Transmog({item=180154, slot=L["2h_axe"]}), -- Greataxe of Unrelenting Pursuit
         Mount({item=180730, id=1393, covenant=NIGHTFAE}), -- Wild Glimmerfur Prowler
-        Item({item=182176, quest=62431, covenant=NIGHTFAE}) -- Shadowstalker Soul
+        Item({item=182176, quest=62431, covenant=NIGHTFAE}), -- Shadowstalker Soul
+        Currency({id=1813, note='35 base'})
     },
     pois={
         Path({29265611, 30115536, 30875464})
@@ -316,7 +336,8 @@ map.nodes[58306180] = Rare({
     note=L["wrigglemortis_note"],
     rewards={
         Achievement({id=14309, criteria=48783}),
-        Transmog({item=181396, slot=L["polearm"]}) -- Thornsweeper Scythe
+        Transmog({item=181396, slot=L["polearm"]}), -- Thornsweeper Scythe
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Wrigglemortis
 
@@ -339,6 +360,7 @@ map.nodes[41254443] = Rare({
             48710, -- N'Zoth
             48705  -- Xavius
         }}),
+        Currency({id=1813, note='5-30 base each'}),
         Transmog({item=179518, type=L["staff"], note='{npc:166135}'}), -- Glimmerlight Staff
         Transmog({item=179534, type=L["polearm"], note='{npc:166138}'}), -- Mi'kai's Deathscythe
         -- Item({item=182455, type=L["trinket"], note='{npc:166146}'}), -- Dreamer's Mending
@@ -365,7 +387,8 @@ map.nodes[63893778] = Treasure({
     note=L["cache_of_the_moon"],
     rewards={
         Achievement({id=14313, criteria=50039}),
-        Mount({item=180731, id=1397}) -- Wildseed Cradle
+        Mount({item=180731, id=1397}), -- Wildseed Cradle
+        Currency({id=1813, note='5-30 base'})
     },
     pois={
         POI({

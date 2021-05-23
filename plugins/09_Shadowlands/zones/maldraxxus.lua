@@ -14,6 +14,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Currency = ns.reward.Currency
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
@@ -38,7 +39,8 @@ map.nodes[52663542] = Rare({
         Achievement({id=14308, criteria=48876}),
         Transmog({item=184290, slot=L["dagger"]}), -- Blood-Dyed Bonesaw
         Transmog({item=184154, slot=L["cosmetic"]}), -- Grungy Containment Pack
-        Toy({item=184476}) -- Regenerating Slime Vial
+        Toy({item=184476}), -- Regenerating Slime Vial
+        Currency({id=1813, note='35 base'})
     }
 }) -- Bubbleblood
 
@@ -51,7 +53,8 @@ map.nodes[49012351] = Rare({
         Transmog({item=184181, slot=L["1h_axe"]}), -- Kash's Favored Hook
         Transmog({item=184189, slot=L["1h_axe"]}), -- Stained Fleshgorer
         Transmog({item=184182, slot=L["1h_axe"]}), -- Strengthened Abomination Hook
-        Item({item=183692, quest=62408, covenant=NECROLORD}) -- Jagged Bonesaw
+        Item({item=183692, quest=62408, covenant=NECROLORD}), -- Jagged Bonesaw
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Collector Kash
 
@@ -61,7 +64,8 @@ map.nodes[26392633] = Rare({
     rewards={
         Achievement({id=14308, criteria=48872}),
         Transmog({item=184177, slot=L["1h_axe"]}), -- Grotesque Goring Pick
-        Transmog({item=184176, slot=L["warglaive"]}) -- Moroc's Boneslicing Warglaive
+        Transmog({item=184176, slot=L["warglaive"]}), -- Moroc's Boneslicing Warglaive
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Corpsecutter Moroc
 
@@ -71,7 +75,8 @@ map.nodes[76835707] = Rare({
     rewards={
         Achievement({id=14308, criteria=48851}),
         Transmog({item=184280, slot=L["cloth"]}), -- Dapper Threads
-        Pet({id=2953, item=181263}) -- Shy Melvin
+        Pet({id=2953, item=181263}), -- Shy Melvin
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Deadly Dapperling
 
@@ -81,7 +86,8 @@ map.nodes[46734550] = Rare({
     note=L["deepscar_note"],
     rewards={
         Achievement({id=14308, criteria=48852}),
-        Transmog({item=182191, slot=L["1h_mace"]}) -- Slobber-Soaked Chew Toy
+        Transmog({item=182191, slot=L["1h_mace"]}), -- Slobber-Soaked Chew Toy
+        Currency({id=1813, note='5-30 base'})
     },
     pois={
         POI({48125190, 53974548})
@@ -93,7 +99,8 @@ map.nodes[45052842] = Rare({
     quest=58835,
     rewards={
         Achievement({id=14308, criteria=48855}),
-        Transmog({item=184178, slot=L["2h_sword"]}) -- Worldrending Claymore
+        Transmog({item=184178, slot=L["2h_sword"]}), -- Worldrending Claymore
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Devour'us
 
@@ -105,7 +112,8 @@ map.nodes[31603540] = Rare({
     note=L["gieger_note"],
     rewards={
         Transmog({item=184298, slot=L["offhand"]}), -- Amalgamated Forsworn's Journal
-        Mount({item=182080, id=1411, covenant=NECROLORD}) -- Predatory Plagueroc
+        Mount({item=182080, id=1411, covenant=NECROLORD}), -- Predatory Plagueroc
+        Currency({id=1813, note='35 base'})
     }
 }) -- Gieger
 
@@ -115,7 +123,8 @@ map.nodes[57795155] = Rare({
     note=L["gristlebeak_note"],
     rewards={
         Achievement({id=14308, criteria=48853}),
-        Transmog({item=182196, slot=L["crossbow"]}) -- Arbalest of the Colossal Predator
+        Transmog({item=182196, slot=L["crossbow"]}), -- Arbalest of the Colossal Predator
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Gristlebeak
 
@@ -125,7 +134,8 @@ map.nodes[38794333] = Rare({
     note=L["schmitd_note"],
     rewards={
         Achievement({id=14308, criteria=48848}),
-        Transmog({item=182192, slot=L["plate"]}) -- Knee-Obstructing Legguards
+        Transmog({item=182192, slot=L["plate"]}), -- Knee-Obstructing Legguards
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Indomitable Schmitd
 
@@ -135,7 +145,8 @@ map.nodes[72872891] = Rare({
     rewards={
         Achievement({id=14308, criteria=49724}),
         -- Item({item=184174, note=L["ring"]}), -- Clasp of Death
-        Transmog({item=181810, slot=L["cosmetic"], covenant=NECROLORD}) -- Phylactery of the Dead Conniver
+        Transmog({item=181810, slot=L["cosmetic"], covenant=NECROLORD}), -- Phylactery of the Dead Conniver
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Necromantic Anomaly
 
@@ -145,7 +156,8 @@ map.nodes[66023532] = Rare({
     rewards={
         Achievement({id=14308, criteria=49723}),
         Transmog({item=184179, slot=L["2h_sword"]}), -- Lichsworn Commander's Boneblade
-        Mount({item=182084, id=1373}) -- Gorespine
+        Mount({item=182084, id=1373}), -- Gorespine
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Nerissa Heartless
 
@@ -156,7 +168,8 @@ map.nodes[50346328] = Rare({
     rewards={
         Achievement({id=14308, criteria=48868}),
         Transmog({item=183700, slot=L["cloth"]}), -- Forgotten Summoner's Shoulderpads
-        Transmog({item=181811, slot=L["cosmetic"], covenant=NECROLORD}) -- Beckoner's Shadowy Crystal
+        Transmog({item=181811, slot=L["cosmetic"], covenant=NECROLORD}), -- Beckoner's Shadowy Crystal
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Nirvaska the Summoner
 
@@ -165,7 +178,8 @@ map.nodes[53726132] = Rare({
     quest=58875,
     rewards={
         Achievement({id=14308, criteria=48849}),
-        Transmog({item=182205, slot=L["mail"]}) -- Scarab-Shell Faceguard
+        Transmog({item=182205, slot=L["mail"]}), -- Scarab-Shell Faceguard
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Pesticide
 
@@ -176,7 +190,8 @@ map.nodes[53841877] = Rare({
     rewards={
         Achievement({id=14308, criteria=48865}),
         Transmog({item=184184, slot=L["dagger"]}), -- Ravenomous's Acid-Tipped Stinger
-        Pet({item=181283, id=2964}) -- Foulwing Buzzer
+        Pet({item=181283, id=2964}), -- Foulwing Buzzer
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Ravenomous
 
@@ -189,7 +204,8 @@ map.nodes[51744439] = Rare({
     rewards={
         Achievement({id=14308, criteria=48874}),
         Achievement({id=14802, criteria=48874}),
-        Mount({item=181815, id=1370, covenant=NECROLORD}) -- Armored Bonehoof Tauralus
+        Mount({item=181815, id=1370, covenant=NECROLORD}), -- Armored Bonehoof Tauralus
+        Currency({id=1813, note='35 base'})
     }
 }) -- Sabriel the Bonecleaver
 
@@ -199,7 +215,8 @@ map.nodes[62107580] = Rare({
     rewards={
         Achievement({id=14308, criteria=48857}),
         Transmog({item=184287, slot=L["mail"]}), -- Scum-Caked Epaulettes
-        Pet({item=181267, id=2957}) -- Writhing Spine
+        Pet({item=181267, id=2957}), -- Writhing Spine
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Scunner
 
@@ -210,7 +227,8 @@ map.nodes[55502361] = Rare({
     rewards={
         Achievement({id=14308, criteria=48873}),
         Transmog({item=184289, slot=L["1h_sword"]}), -- Spindlefang Spellblade
-        Pet({item=181172, id=2948}) -- Boneweave Hatchling
+        Pet({item=181172, id=2948}), -- Boneweave Hatchling
+        Currency({id=1813, note='35 base'})
     }
 }) -- Sister Chelicerae
 
@@ -221,7 +239,8 @@ map.nodes[42465345] = Rare({
         Achievement({id=14308, criteria=48869}),
         Transmog({item=184299, slot=L["leather"]}), -- Goresoaked Carapace
         Pet({item=181266, id=2956}), -- Bloodlouse Hatchling
-        Pet({item=181265, id=2955}) -- Corpselouse Hatchling
+        Pet({item=181265, id=2955}), -- Corpselouse Hatchling
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Smorgas the Feaster
 
@@ -231,7 +250,8 @@ map.nodes[44215132] = Rare({
     rewards={
         Achievement({id=14308, criteria=48850}),
         Transmog({item=182190, slot=L["leather"]}), -- Tauralus Hide Collar
-        Mount({item=182075, id=1366, covenant=NECROLORD}) -- Bonehoof Tauralus
+        Mount({item=182075, id=1366, covenant=NECROLORD}), -- Bonehoof Tauralus
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Tahonta
 
@@ -243,7 +263,8 @@ map.nodes[50562011] = Rare({
         Achievement({id=14308, criteria=48867}),
         Transmog({item=184186, slot=L["1h_axe"]}), -- Flesh-Fishing Hook
         Transmog({item=184192, slot=L["1h_axe"]}), -- Pristine Alabaster Gorer
-        Transmog({item=184187, slot=L["1h_axe"]}) -- Taskmaster's Tenderizer
+        Transmog({item=184187, slot=L["1h_axe"]}), -- Taskmaster's Tenderizer
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Taskmaster Xox
 
@@ -253,7 +274,8 @@ map.nodes[24184297] = Rare({
     note=L["leeda_note"],
     rewards={
         Achievement({id=14308, criteria=48870}),
-        Transmog({item=184180, slot=L["cloth"]}) -- Leeda's Unrefined Mask
+        Transmog({item=184180, slot=L["cloth"]}), -- Leeda's Unrefined Mask
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Thread Mistress Leeda
 
@@ -263,7 +285,8 @@ map.nodes[33718016] = Rare({
     rewards={
         Achievement({id=14308, criteria=48875}),
         Transmog({item=184288, slot=L["shield"]}), -- Ruthless Warlord's Barrier
-        Mount({item=182085, id=1372}) -- Blisterback Bloodtusk
+        Mount({item=182085, id=1372}), -- Blisterback Bloodtusk
+        Currency({id=1813, note='35 base'})
     }
 }) -- Warbringer Mal'Korak
 
@@ -276,7 +299,8 @@ map.nodes[28965138] = Rare({
         Achievement({id=14308, criteria=48864}),
         Transmog({item=184285, slot=L["plate"]}), -- Boneclutched Shackles
         Transmog({item=181804, slot=L["cosmetic"], covenant=NECROLORD}), -- Trophy of the Reborn Bonelord
-        Item({item=183690, quest=62404, covenant=NECROLORD}) -- Ashen Ink
+        Item({item=183690, quest=62404, covenant=NECROLORD}), -- Ashen Ink
+        Currency({id=1813, note='5-30 base'})
     },
     pois={
         POI({26314280})
@@ -304,6 +328,7 @@ map.nodes[57007421] = Rare({
             {id=48861, quest=61720, note='('..GOO..' = '..OIL..') > '..OOZE}, -- Violet Mistake
             {id=48859, quest=61724, note=OOZE..' = '..GOO..' = '..OIL}, -- Oily Invertebrate
         }}),
+        Currency({id=1813, note='5-30 base for each'}),
         Toy({item=183903}), -- Smelly Jelly
         -- Item({item=184185, type=L["neck"], note=L["Boneslurp"]}), -- Grunge-Caked Collarbone
         -- Item({item=184279, type=L["trinket"], note=L["Pulsing"]}), -- Siphoning Blood-Drinker
@@ -356,7 +381,9 @@ map.nodes[44083989] = Treasure({
     note=L["blackhound_cache_note"],
     covenant=NECROLORD,
     rewards={
-        Toy({item=184318}) -- Battlecry of Krexus
+        Toy({item=184318}), -- Battlecry of Krexus
+        Currency({id=1813, note='5-30 base'})
+        
     }
 }) -- Blackhound Cache
 
@@ -368,7 +395,8 @@ map.nodes[54011234] = Treasure({
     label=L["cache_of_eyes"],
     note=L["cache_of_eyes_note"],
     rewards={
-        Pet({item=181171, id=2947}) -- Luminous Webspinner
+        Pet({item=181171, id=2947}), -- Luminous Webspinner
+        Currency({id=1813, note='5-30 base'})
     },
     -- Still no quest id for this chest, so we'll just complete when collected
     IsCompleted = function (self) return self:IsCollected() end
@@ -378,7 +406,8 @@ map.nodes[48301630] = Treasure({
     quest=59244,
     rewards={
         Achievement({id=14312, criteria=50070}),
-        Item({item=183696}) -- Sp-eye-glass
+        Item({item=183696}), -- Sp-eye-glass
+        Currency({id=1813, note='5-30 base'}),
     }
 }) -- Chest of Eyes
 

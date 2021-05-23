@@ -15,6 +15,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Currency = ns.reward.Currency
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
@@ -40,7 +41,8 @@ map.nodes[53247300] = Rare({
     note=L["amalgamation_of_filth_note"],
     rewards={
         Achievement({id=14310, criteria=48814}),
-        Transmog({item=183729, slot=L["leather"]}) -- Filth-Splattered Headcover
+        Transmog({item=183729, slot=L["leather"]}), -- Filth-Splattered Headcover
+        Currency({id=1813, note='35 base'})
     },
     pois={
         POI({52747386, 53857251, 54537436, 53897368}) -- Rubbish Box
@@ -58,7 +60,8 @@ map.nodes[25304850] = Rare({
         Transmog({item=179653, slot=L["mail"]}), -- Light-Infused Hauberk
         Transmog({item=179925, slot=L["plate"]}), -- Light-Infused Breastplate
         Item({item=180688}), -- Infused Remnant of Light
-        Pet({item=180586, id=2892}) -- Lightbinders
+        Pet({item=180586, id=2892}), -- Lightbinders
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Amalgamation of Light
 
@@ -68,7 +71,8 @@ map.nodes[65782914] = Rare({
     note=L["amalgamation_of_sin_note"],
     rewards={
         Achievement({id=14310, criteria=50029}),
-        Transmog({item=183730, slot=L["plate"]}) -- Sinstone-Studded Greathelm
+        Transmog({item=183730, slot=L["plate"]}), -- Sinstone-Studded Greathelm
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Amalgamation of Sin
 
@@ -77,7 +81,8 @@ map.nodes[35817052] = Rare({
     quest=59893,
     rewards={
         Achievement({id=14310, criteria=48816}),
-        Transmog({item=183731, slot=L["plate"]}) -- Smolder-Tempered Legplates
+        Transmog({item=183731, slot=L["plate"]}), -- Smolder-Tempered Legplates
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Azgar
 
@@ -87,7 +92,8 @@ map.nodes[35003230] = Rare({
     note=L["bog_beast_note"],
     rewards={
         Achievement({id=14310, criteria=48818}),
-        Pet({item=180588, id=2896}) -- Bucket of Primordial Sludge
+        Pet({item=180588, id=2896}), -- Bucket of Primordial Sludge
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Bog Beast
 
@@ -97,7 +103,8 @@ map.nodes[66555946] = Rare({
     note=L["endlurker_note"],
     rewards={
         Achievement({id=14310, criteria=48810}),
-        Item({item=179927, note=L["trinket"]}) -- Glowing Endmire Stinger
+        Item({item=179927, note=L["trinket"]}), -- Glowing Endmire Stinger
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Endlurker
 
@@ -107,7 +114,8 @@ map.nodes[37084742] = Rare({
     note=L["executioner_aatron_note"],
     rewards={
         Achievement({id=14310, criteria=48819}),
-        Transmog({item=183737, slot=L["plate"]}) -- Aatron's Stone Girdle
+        Transmog({item=183737, slot=L["plate"]}), -- Aatron's Stone Girdle
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Executioner Aatron
 
@@ -117,7 +125,8 @@ map.nodes[43055183] = Rare({
     note=L["executioner_adrastia_note"],
     rewards={
         Achievement({id=14310, criteria=48807}),
-        Transmog({item=180502, slot=L["leather"]}) -- Adrastia's Executioner Gloves
+        Transmog({item=180502, slot=L["leather"]}), -- Adrastia's Executioner Gloves
+        Currency({id=1813, note='5-30 base'})
     },
     pois={
         Path({43055183, 41525104, 41264940, 42734893, 44135004, 44435182, 43055183})
@@ -132,6 +141,7 @@ map.nodes[62484716] = Rare({
         Achievement({id=14310, criteria=48815}),
         Transmog({item=183739, slot=L["cloth"]}), -- Endmire Wristwarmers
         Mount({item=180582, id=1379}), -- Endmire Flyer
+        Currency({id=1813, note='35 base'})
     }
 }) -- Famu the Infinite
 
@@ -142,7 +152,8 @@ map.nodes[32641545] = Rare({
     requires=ns.requirement.GarrisonTalent(1259, L["anima_channeled"]),
     note=L["madalav_note"],
     rewards={
-        Transmog({item=180939, slot=L["cosmetic"], covenant=VENTHYR}) -- Mantle of the Forgemaster's Dark Blades
+        Transmog({item=180939, slot=L["cosmetic"], covenant=VENTHYR}), -- Mantle of the Forgemaster's Dark Blades
+        Currency({id=1813, note='35 base'})
     },
     pois={
         POI({32661483}) -- Madalav's Hammer
@@ -155,7 +166,8 @@ map.nodes[20485298] = Rare({
     note=L["grand_arcanist_dimitri_note"],
     rewards={
         Achievement({id=14310, criteria=48821}),
-        Transmog({item=180503, slot=L["dagger"]}) -- Grand Arcanist's Soulblade
+        Transmog({item=180503, slot=L["dagger"]}), -- Grand Arcanist's Soulblade
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Grand Arcanist Dimitri
 
@@ -167,7 +179,8 @@ map.nodes[45847919] = Rare({
     note=L["harika_note"],
     rewards={
         Transmog({item=183720, slot=L["leather"]}), -- Dredbatskin Jerkin
-        Mount({item=180461, id=1310, covenant=VENTHYR}) -- Horrid Brood Dredwing
+        Mount({item=180461, id=1310, covenant=VENTHYR}), -- Horrid Brood Dredwing
+        Currency({id=1813, note='5-30 base'})
     },
     pois={
         POI({43257769}) -- Ballista Bolt
@@ -179,7 +192,8 @@ map.nodes[51985179] = Rare({
     quest=59900,
     rewards={
         Achievement({id=14310, criteria=48817}),
-        Mount({item=180581, id=1298, covenant=VENTHYR}) -- Hopecrusher Gargon
+        Mount({item=180581, id=1298, covenant=VENTHYR}), -- Hopecrusher Gargon
+        Currency({id=1813, note='35 base'})
     }
 }) -- Hopecrusher
 
@@ -188,7 +202,8 @@ map.nodes[61717949] = Rare({
     quest=60022,
     rewards={
         Achievement({id=14310, criteria=48820}),
-        Item({item=180705, class='HUNTER'}) -- Gargon Training Manual
+        Item({item=180705, class='HUNTER'}), -- Gargon Training Manual
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Huntmaster Petrus
 
@@ -199,7 +214,8 @@ map.nodes[21803590] = Rare({
     note=L["innervus_note"],
     rewards={
         Achievement({id=14310, criteria=48801}),
-        Transmog({item=183735, slot=L["cloth"]}) -- Rogue Sinstealer's Mantle
+        Transmog({item=183735, slot=L["cloth"]}), -- Rogue Sinstealer's Mantle
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Innervus
 
@@ -220,7 +236,8 @@ map.nodes[75976161] = Rare({
     note=L["lord_mortegore_note"],
     rewards={
         Achievement({id=14310, criteria=48808}),
-        Transmog({item=180501, slot=L["mail"]}) -- Skull-Formed Headcage
+        Transmog({item=180501, slot=L["mail"]}), -- Skull-Formed Headcage
+        Currency({id=1813, note='35 base'})
     }
 }) -- Lord Mortegore
 
@@ -230,7 +247,8 @@ map.nodes[49003490] = Rare({
     note=L["manifestation_of_wrath_note"],
     rewards={
         Achievement({id=14310, criteria=48822}),
-        Pet({item=180585, id=2897}) -- Bottled Up Rage
+        Pet({item=180585, id=2897}), -- Bottled Up Rage
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Manifestation of Wrath
 
@@ -240,7 +258,8 @@ map.nodes[38316914] = Rare({
     note=L["scrivener_lenua_note"],
     rewards={
         Achievement({id=14310, criteria=48800}),
-        Pet({item=180587, id=2893}) -- Animated Tome
+        Pet({item=180587, id=2893}), -- Animated Tome
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Scrivener Lenua
 
@@ -260,7 +279,8 @@ map.nodes[34045555] = Rare({
     note=L["sire_ladinas_note"],
     rewards={
         Achievement({id=14310, criteria=48806}),
-        Toy({item=180873}) -- Smolderheart
+        Toy({item=180873}), -- Smolderheart
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Sire Ladinas
 
@@ -269,7 +289,8 @@ map.nodes[78934975] = Rare({
     quest=58130,
     note=L["soulstalker_doina_note"],
     rewards={
-        Achievement({id=14310, criteria=48799})
+        Achievement({id=14310, criteria=48799}),
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Soulstalker Doina
 
@@ -278,7 +299,8 @@ map.nodes[31312324] = Rare({
     quest=62220,
     rewards={
         Achievement({id=14310, criteria=48803}),
-        Transmog({item=180488, slot=L["plate"]}) -- Fist-Forged Breastplate
+        Transmog({item=180488, slot=L["plate"]}), -- Fist-Forged Breastplate
+        Currency({id=1813, note='35 base'})
     }
 }) -- Stonefist
 
@@ -287,6 +309,8 @@ map.nodes[66507080] = Rare({
     quest=59595,
     rewards={
         Achievement({id=14310, criteria=48812}),
+        Currency({id=1813, note='5-30 base'})
+        
         -- Item({item=179363, quest=60517}) -- The Toll of the Road
         -- quest id for this never actually flips true?
     }
@@ -298,7 +322,8 @@ map.nodes[43007910] = Rare({
     note=L["tomb_burster_note"],
     rewards={
         Achievement({id=14310, criteria=48802}),
-        Pet({item=180584, id=2891}) -- Blushing Spiderling
+        Pet({item=180584, id=2891}), -- Blushing Spiderling
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Tomb Burster
 
@@ -319,7 +344,8 @@ map.nodes[38607200] = Rare({
                 return Item.IsObtained(self)
             end
         }), -- Impressionable Gorger Spawn
-        Mount({item=182589, id=1391}) -- Loyal Gorger
+        Mount({item=182589, id=1391}), -- Loyal Gorger
+        Currency({id=1813, note='35 base'})
     }
 }) -- Worldedge Gorger
 
