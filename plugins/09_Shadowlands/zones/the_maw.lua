@@ -84,6 +84,16 @@ map.nodes[19324172] = Rare({
     }
 }) -- Apholeias, Herald of Loss
 
+map.nodes[34564206] = Rare({
+    id=179853,
+    quest=64276,
+    note=L["in_rift_note"],
+    rewards={
+        Achievement({id=15107, criteria=52297}),
+        Item({item=187406, note=L["ring"]}) -- Band of Blinding Shadows
+    }
+}) -- Blinding Shadow
+
 map.nodes[39014119] = Rare({
     id=157833,
     quest=57469,
@@ -186,6 +196,23 @@ map.nodes[20586935] = Rare({
     }
 }) -- Exos, Herald of Domination
 
+map.nodes[49307274] = Rare({
+    id=179851,
+    quest=64272,
+    note=L["in_rift_note"],
+    rewards={
+        Achievement({id=15107, criteria=52293})
+    },
+    pois={
+        Path({
+            49307274, 49497182, 49587131, 49667100, 49777062, 49907029, 50206988, 50506945, 50686900, 50856866, 51076832, 51336810, 51536800, 51756789,
+            51986776, 52366778, 52616791, 52936806, 53176811, 53396846, 53626889, 53886923, 54266978, 54297040, 54287097, 54077141, 53757172, 53447210,
+            53277241, 53047280, 52747323, 52477358, 52207388, 51817431, 51527461, 51287494, 51047546, 50777520, 50547510, 50277500, 50027471, 49867442,
+            49717414, 49497367, 49307274
+        })
+    }
+}) -- Guard Orguluus
+
 map.nodes[30775000] = Rare({
     id=175012,
     quest=62788,
@@ -280,6 +307,16 @@ map.nodes[27397152] = Rare({
         Achievement({id=14744, criteria=49859})
     }
 }) -- Thanassos <Death's Voice>
+
+map.nodes[27672526] = Rare({
+    id=179735,
+    quest=64232,
+    note=L["in_rift_note"],
+    rewards={
+        Achievement({id=15107, criteria=52284}),
+        Item({item=186605}) --Nilganihmaht's Runed Band
+    }
+}) -- Torglluun
 
 map.nodes[68124758] = Rare({
     id=179805,

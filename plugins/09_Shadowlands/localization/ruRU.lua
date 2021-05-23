@@ -238,7 +238,11 @@ L["zolla_note"] = "Мы очень серьезно относимся к наш
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
+L["chamber_wisdom_note"] = nil
 L["corpse_heap_note"] = nil
+L["dislodged_nest_note"] = nil
+L["flayedwing_transporter_note"] = nil
+L["forgetten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
 L["no_stoneborne_note"] = nil
@@ -482,3 +486,5 @@ L["options_icons_stygia_nexus"] = "Скопление стигии"
 L["options_icons_stygia_nexus_desc"] = "Показать местоположения скоплений, необходимые для {item:184168}."
 L["options_icons_stygian_caches"] = "Стигийский тайник"
 L["options_icons_stygian_caches_desc"] = "Показать места тайников, содержащих Стигию."
+
+L["in_rift_note"] = nil

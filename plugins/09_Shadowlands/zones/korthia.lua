@@ -7,7 +7,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
---local NPC = ns.node.NPC
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -21,7 +21,7 @@ local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 
 --local Arrow = ns.poi.Arrow
---local Line = ns.poi.Line
+local Line = ns.poi.Line
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -47,21 +47,13 @@ local map = Map({ id=1961, settings=true })
 --     }
 -- }) --
 
--- map.nodes[] = Rare({
---     id=,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52290})
---     }
--- }) -- Assault Supply Carriage
-
--- map.nodes[] = Rare({
---     id=179853,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52297})
---     }
--- }) -- Blinding Shadow
+map.nodes[58211773] = Rare({
+    id=180246,
+    quest=64258, 64439,
+    rewards={
+        Achievement({id=15107, criteria=52290})
+    }
+}) -- Assault Supply Carriage
 
 -- map.nodes[] = Rare({
 --     id=,
@@ -71,14 +63,15 @@ local map = Map({ id=1961, settings=true })
 --     }
 -- }) -- Chamber of Knowledge
 
--- map.nodes[] = Rare({
---     id=,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52296}),
---         Pet({item=186538, id=3140})
---     }
--- }) -- Chamber of Wisdom
+map.nodes[44983552] = Rare({
+    id=179859,
+    quest=nil,
+    note=L["chamber_wisdom_note"],
+    rewards={
+        Achievement({id=15107, criteria=52296}),
+        Pet({item=186538, id=3140})
+    }
+}) -- Chamber of Wisdom
 
 map.nodes[51164167] = Rare({
     id=179768,
@@ -129,13 +122,6 @@ map.nodes[33083941] = Rare({
     }
 }) -- Escaped Wilderling
 
--- map.nodes[] = Rare({
---     id=179851,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52293})
---     }
--- }) -- Guard Orguluus
 
 map.nodes[60652315] = Rare({
     id=179684,
@@ -174,7 +160,7 @@ map.nodes[59203580] = Rare({
 
 map.nodes[46507959] = Rare({
     id=179985,
-    quest=nil,
+    quest=64313,
     covenant=VENTHYR,
     note=L["no_stoneborne_note"],
     rewards={
@@ -206,7 +192,7 @@ map.nodes[56873237] = Rare({
 
 map.nodes[22604140] = Rare({
     id=179931,
-    quest=nil,
+    quest=64291,
     rewards={
         Achievement({id=15107, criteria=52291})
     }
@@ -225,6 +211,7 @@ map.nodes[56276617] = Rare({
 map.nodes[44604240] = Rare({
     id=179608,
     quest=nil,
+    requires=ns.requirement.Item(186731),
     note=L["screaming_shade_note"],
     rewards={
         Achievement({id=15107, criteria=52273})
@@ -238,14 +225,6 @@ map.nodes[44604240] = Rare({
 --         Achievement({id=15107, criteria=52274})
 --     }
 -- }) -- Silent Soulstalker
-
--- map.nodes[] = Rare({
---     id=179735,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52284})
---     }
--- }) -- Torglluun
 
 map.nodes[71001512] = Rare({
     id=179760,
@@ -281,26 +260,30 @@ map.nodes[29485345] = Treasure({
     }
 }) -- Anima Laden Egg
 
--- map.nodes[] = Treasure({
---     quest=,
---     rewards={
---         Achievement({id=15099, criteria=52240})
---     }
--- }) -- Dislodged Nest
+map.nodes[47502920] = Treasure({
+    quest=64241,
+    note=L["dislodged_nest_note"],
+    rewards={
+        Achievement({id=15099, criteria=52240}),
+        Item({item=187339}) -- Silver Shardhide Whistle
+    }
+}) -- Dislodged Nest
 
 -- map.nodes[] = Treasure({
 --     quest=,
 --     rewards={
 --         Achievement({id=15099, criteria=52242})
 --     }
--- }) -- Displaced Relice
+-- }) -- Displaced Relic
 
--- map.nodes[] = Treasure({
---     quest=,
---     rewards={
---         Achievement({id=15099, criteria=52237})
---     }
--- }) -- Forgotten Feather
+map.nodes[68902990] = Treasure({
+    quest=64234,
+    note=L["forgetten_feather_note"],
+    rewards={
+        Achievement({id=15099, criteria=52237}),
+        Item({item=187051}) -- Forgotten Feather
+    }
+}) -- Forgotten Feather
 
 map.nodes[38344296] = Treasure({
     quest=64222,
@@ -348,4 +331,33 @@ map.nodes[25725108] = Treasure({
 --     }
 -- }) -- Spectral Bound Chest
 
+-------------------------------------------------------------------------------
+---------------------------------- TRANSPORT ----------------------------------
+-------------------------------------------------------------------------------
 
+map.nodes[47283992] = NPC({
+    id=178633,
+    note=L["flayedwing_transporter_note"],
+    icon='flight_point_y',
+    scale=1.25,
+    fgroup='flayedwing_transporter1',
+   pois={Line({47283992, 49356386})}
+})
+
+map.nodes[49356386] = NPC({
+    id=178637,
+    note=L["flayedwing_transporter_note"],
+    icon='flight_point_y',
+    scale=1.25,
+    fgroup='flayedwing_transporter1'
+})
+
+
+-------------------------------------------------------------------------------
+---------------------------------- MAELIE -------------------------------------
+-------------------------------------------------------------------------------
+
+-- /way #1961 39.7 34.8 hidden amongst the giant roots, hop down from above
+-- /way #1961 41.1 39.8 on the middle level of the cliffside
+-- /way #1961 49.3 41.8 hidden amongst the giant roots
+-- /way #1961 59.8 15.1 on the cliff
