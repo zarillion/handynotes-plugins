@@ -237,7 +237,11 @@ L["zolla_note"] = "We take our defenses very seriously. Whether small or large, 
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
+L["chamber_wisdom_note"] = "Take the repaired rift stone up to the boss platform."
 L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
+L["dislodged_nest_note"] = "Click on a nearby Noxious Moth to gain {spell:355181}. Use the {spell:355131} extra action button on {npc:178547} to gain control and ride it into the tree the nest is in."
+L["flayedwing_transporter_note"] = "Click on {npc:178633} to fly to or from the Vault of Secrets."
+L["forgetten_feather_note"] = "Floating on a small island accessed by jumping down from Keeper's Respite."
 L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
 L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
 L["no_stoneborne_note"] = "Talk to {npc:179974} to start the event."
@@ -481,3 +485,5 @@ L["options_icons_stygia_nexus"] = "Stygia Nexus"
 L["options_icons_stygia_nexus_desc"] = "Display nexus locations needed for the {item:184168} mount."
 L["options_icons_stygian_caches"] = "Stygian Caches"
 L["options_icons_stygian_caches_desc"] = "Display cache locations containing extra Stygia."
+
+L["in_rift_note"] = "Use the {item:187012} to gain the {spell:352795} buff to be able to see this rare."

@@ -239,9 +239,13 @@ L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o 
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["corpse_heap_note"] = nil
-L["hunting_hunter_note"] = nil
-L["konthrogz_note"] = nil
+L["chamber_wisdom_note"] = nil
+L["corpse_heap_note"] = "Habla con {npc:180079} para comenzar el evento de recolección."
+L["dislodged_nest_note"] = nil
+L["flayedwing_transporter_note"] = nil
+L["forgetten_feather_note"] = nil
+L["hunting_hunter_note"] = "Habla con el {npc:179729} para ganar {spell:355078} y seguir las pisadas de pies hasta que encuentres los restos de carne."
+L["konthrogz_note"] = "Tras matar varias criaturas aparecerá {npc:179472}."
 L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
 L["pop_quiz_note"] = nil
@@ -483,3 +487,5 @@ L["options_icons_stygia_nexus"] = "Nexos de Stigia"
 L["options_icons_stygia_nexus_desc"] = "Muestra dónde están los Nexos necesarios para la montura {item:184168}."
 L["options_icons_stygian_caches"] = "Alijos de Estigia"
 L["options_icons_stygian_caches_desc"] = "Muestra dónde están los alijos con Estigia extra."
+
+L["in_rift_note"] = nil

@@ -239,7 +239,11 @@ L["zolla_note"] = "Nous prenons nos défenses très au sérieux. Qu'elles soient
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
+L["chamber_wisdom_note"] = nil
 L["corpse_heap_note"] = nil
+L["dislodged_nest_note"] = nil
+L["flayedwing_transporter_note"] = nil
+L["forgetten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
 L["no_stoneborne_note"] = nil
@@ -485,3 +489,5 @@ L["options_icons_stygia_nexus"] = "Nexus de stygies"
 L["options_icons_stygia_nexus_desc"] = "Afficher les emplacements des Nexus de stygies nécessaires pour la monture {item:184168}."
 L["options_icons_stygian_caches"] = "Caches stygiennes"
 L["options_icons_stygian_caches_desc"] = "Afficher les emplacements des caches contenant de la Stygie supplémentaire."
+
+L["in_rift_note"] = nil

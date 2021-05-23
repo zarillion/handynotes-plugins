@@ -237,7 +237,11 @@ L["zolla_note"] = "我們非常嚴肅看待我們的防禦。無論大小，我�
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
+L["chamber_wisdom_note"] = nil
 L["corpse_heap_note"] = nil
+L["dislodged_nest_note"] = nil
+L["flayedwing_transporter_note"] = nil
+L["forgetten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
 L["no_stoneborne_note"] = nil
@@ -482,3 +486,5 @@ L["options_icons_stygia_nexus"] = "冥魄核心"
 L["options_icons_stygia_nexus_desc"] = "顯示 {item:184168} 坐騎所需的冥魄核心位置"
 L["options_icons_stygian_caches"] = "冥魄儲藏箱"
 L["options_icons_stygian_caches_desc"] = "顯示含有額外冥魄寶箱的位置"
+
+L["in_rift_note"] = nil

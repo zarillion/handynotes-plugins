@@ -238,7 +238,11 @@ L["zolla_note"] = "Wir nehmen unsere Verteidigung sehr ernst. Ob groß oder klei
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
+L["chamber_wisdom_note"] = nil
 L["corpse_heap_note"] = nil
+L["dislodged_nest_note"] = nil
+L["flayedwing_transporter_note"] = nil
+L["forgetten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
 L["no_stoneborne_note"] = nil
@@ -483,3 +487,5 @@ L["options_icons_stygia_nexus"] = "Stygianexus"
 L["options_icons_stygia_nexus_desc"] = "Zeigt Stygianexus an, die für das Reittier {item:184168} benötigt werden."
 L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
+
+L["in_rift_note"] = nil
