@@ -226,7 +226,8 @@ map.nodes[67978179] = Rare({
     rewards={
         Achievement({id=14310, criteria=48809}),
         Transmog({item=183736, slot=L["cloth"]}), -- Pride Resistant Handwraps
-        Pet({item=180585, id=2897}) -- Bottled Up Rage
+        Pet({item=180585, id=2897}), -- Bottled Up Rage
+        Currency({id=1813, note='5-30 base'})
     }
 }) -- Leeched Soul
 
