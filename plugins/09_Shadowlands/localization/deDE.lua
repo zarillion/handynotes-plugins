@@ -238,13 +238,15 @@ L["zolla_note"] = "Wir nehmen unsere Verteidigung sehr ernst. Ob groß oder klei
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["chamber_wisdom_note"] = nil
+L["chamber_note"] = nil
 L["corpse_heap_note"] = nil
+L["darkmaul_note"] = nil
 L["dislodged_nest_note"] = nil
 L["flayedwing_transporter_note"] = nil
 L["forgetten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
+L["maelie_wanderer"] = nil
 L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
 L["pop_quiz_note"] = nil
@@ -426,12 +428,18 @@ L["options_icons_inquisitors_desc"] = "Zeigt die Inquisitoren für den Erfolg {a
 L["return_to_the_maw"] = "Rückkehr zum Schlund"
 L["maw_intro_note"] = "Beginne die Einführungsquestreihe bei {npc:162804}, um im Schlund seltene Gegner und Events freizuschalten."
 
+L["in_rift_note"] = nil
+
 L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331783}, um {npc:170301} zu beschwören."
 L["dekaris_note"] = "Auf einem großen hervorstehenden Felsen."
 L["deomen_note"] = nil
 L["drifting_sorrow_note"] = "Töte {npc:175246} in der Nähe der schwebenden Kugel, um den Boss zu aktivieren."
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
+L["etherwyrm_label"] = nil
+L["etherwyrm_note"] = nil
 L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen."
+L["lilabom_label"] = nil
+L["lilabom_note"] = nil
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, um sie zu aktivieren."
 L["sanngror_note"] = "\nWenn er gerade nicht angreifbar ist, dann warte bis er nicht mehr mit Seelen experimentiert."
 L["talaporas_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331800}, um {npc:170302} zu beschwören."
@@ -488,4 +496,3 @@ L["options_icons_stygia_nexus_desc"] = "Zeigt Stygianexus an, die für das Reitt
 L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
 
-L["in_rift_note"] = nil

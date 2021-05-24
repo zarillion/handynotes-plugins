@@ -237,13 +237,15 @@ L["zolla_note"] = "We take our defenses very seriously. Whether small or large, 
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["chamber_wisdom_note"] = "Take the repaired rift stone up to the boss platform."
+L["chamber_note"] = "Use a {item:186718} from {npc:178257} on the Ancient Teleporter. Use the repaired Ancient Teleporter to access the rare. There are additional treasures in the chamber."
 L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
+L["darkmaul_note"] = "Collect {item:187153} from Invasive Mawshrooms and feed them to {npc:180063}. You will gain the {spell:356316} buff starting a taming event for 2 minutes. Complete this and repeat five times for the mount."
 L["dislodged_nest_note"] = "Click on a nearby Noxious Moth to gain {spell:355181}. Use the {spell:355131} extra action button on {npc:178547} to gain control and ride it into the tree the nest is in."
 L["flayedwing_transporter_note"] = "Click on {npc:178633} to fly to or from the Vault of Secrets."
 L["forgetten_feather_note"] = "Floating on a small island accessed by jumping down from Keeper's Respite."
 L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
 L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
+L["maelie_wanderer"] = "{npc:179912} will spawn in one of four locations each day. Once you have used {spell:355862} on her 7 different days return to {npc:179930} to earn the mount."
 L["no_stoneborne_note"] = "Talk to {npc:179974} to start the event."
 L["offering_box_note"] = "Requires Small Offering Key which can be found on the top of the west side wall of the near by ruins."
 L["pop_quiz_note"] = "The Pop Quiz event will spawn randomly on the map. Click on the planted veilstaff and answer the questions from {npc:180162}."
@@ -424,12 +426,18 @@ L["options_icons_inquisitors_desc"] = "Display inquisitor locations for the {ach
 L["return_to_the_maw"] = "Return to the Maw"
 L["maw_intro_note"] = "Begin the introductory quest chain from {npc:162804} to unlock rares and events in the maw."
 
+L["in_rift_note"] = "Requires the Night Fae Assault to be active. Use the {item:187012} to gain the {spell:352795} buff to be able to see this rare."
+
 L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
 L["dekaris_note"] = "On top of a large jutting rock."
 L["deomen_note"] = "Enter the chamber to the west of his cell and activate the lock control to access him."
 L["drifting_sorrow_note"] = "Kill {npc:175246s} near the hovering orb to activate the boss."
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
+L["etherwyrm_label"] = "Infused Etherwyrm Cage"
+L["etherwyrm_note"] = "To gain the {item:186190} kill an {npc:179030} while in the rift."
 L["ikras_note"] = "Flies around Perdition Hold. This is a good place to pull him."
+L["lilabom_label"] = "Lil'Abom"
+L["lilabom_note"] = "Collect All 5 parts to complete the pet."
 L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
 L["sanngror_note"] = "If he is not attackable, wait until he is not experimenting on souls."
 L["talaporas_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331800} to summon the rare."
@@ -486,4 +494,4 @@ L["options_icons_stygia_nexus_desc"] = "Display nexus locations needed for the {
 L["options_icons_stygian_caches"] = "Stygian Caches"
 L["options_icons_stygian_caches_desc"] = "Display cache locations containing extra Stygia."
 
-L["in_rift_note"] = "Use the {item:187012} to gain the {spell:352795} buff to be able to see this rare."
+
