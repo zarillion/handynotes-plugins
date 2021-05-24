@@ -237,13 +237,15 @@ L["zolla_note"] = "我们非常重视自身的防御。无论规模大小，我�
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["chamber_wisdom_note"] = nil
+L["chamber_note"] = nil
 L["corpse_heap_note"] = nil
+L["darkmaul_note"] = nil
 L["dislodged_nest_note"] = nil
 L["flayedwing_transporter_note"] = nil
 L["forgetten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
+L["maelie_wanderer"] = nil
 L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
 L["pop_quiz_note"] = nil
@@ -424,12 +426,18 @@ L["options_icons_inquisitors_desc"] = "显示 {achievement:14276} 成就中审�
 L["return_to_the_maw"] = "重返噬渊"
 L["maw_intro_note"] = "从 {npc:162804} 开始指引任务线以解锁噬渊的稀有和事件。"
 
+L["in_rift_note"] = nil
+
 L["apholeias_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:331783} 召唤稀有。"
 L["dekaris_note"] = "在一块凸起的大岩石上。"
 L["deomen_note"] = nil
 L["drifting_sorrow_note"] = "在悬浮宝珠附近击杀 {npc:175246} 激活首领。"
 L["ekphoras_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:330650} 召唤稀有。"
+L["etherwyrm_label"] = nil
+L["etherwyrm_note"] = nil
 L["ikras_note"] = "在破灭堡飞来飞去。这里是攻击他的好位置。"
+L["lilabom_label"] = nil
+L["lilabom_note"] = nil
 L["orophea_note"] = "从东南方的拾取 {spell:337143} 并提供给 {npc:172577} 激活。"
 L["sanngror_note"] = "如果他是不可攻击，等待直到他不再灵魂实验。"
 L["talaporas_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:331800} 召唤稀有。"
@@ -485,5 +493,3 @@ L["options_icons_stygia_nexus"] = "冥殇枢纽"
 L["options_icons_stygia_nexus_desc"] = "显示 {item:184168} 坐骑所需的枢纽位置。"
 L["options_icons_stygian_caches"] = "冥殇宝箱"
 L["options_icons_stygian_caches_desc"] = "显示获取额外冥殇的宝箱位置。"
-
-L["in_rift_note"] = nil

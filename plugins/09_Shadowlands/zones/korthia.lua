@@ -3,10 +3,11 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
---local Class = ns.Class
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -55,21 +56,26 @@ map.nodes[58211773] = Rare({
     }
 }) -- Assault Supply Carriage
 
--- map.nodes[] = Rare({
---     id=,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52295})
---     }
--- }) -- Chamber of Knowledge
+map.nodes[39405240] = Rare({
+    id=179802,
+    quest=64257,
+    requires=ns.requirement.Item(186718),
+    note=L["chamber_note"],
+    rewards={
+        Achievement({id=15107, criteria=52295}),
+        Item({item=187103, quest=63917}) -- Everliving Statuette
+    }
+}) -- Chamber of Knowledge
 
 map.nodes[44983552] = Rare({
     id=179859,
-    quest=nil,
-    note=L["chamber_wisdom_note"],
+    quest=64278,
+    requires=ns.requirement.Item(186718),
+    note=L["chamber_note"],
     rewards={
         Achievement({id=15107, criteria=52296}),
-        Pet({item=186538, id=3140})
+        Pet({item=186538, id=3140}), -- Gnashtooth
+        Item({item=187104, quest=63918}), -- Obelisk of Dark Tidings
     }
 }) -- Chamber of Wisdom
 
@@ -139,7 +145,8 @@ map.nodes[71001212] = Rare({
     note=L["konthrogz_note"],
     rewards={
         Achievement({id=15107, criteria=52303}),
-        Mount({item=187183, id=1514}) -- Rampaging Mauler
+        Mount({item=187183, id=1514}), -- Rampaging Mauler
+        Transmog({item=187378, slot=L["head"]}) --Visage of the Obliterator
     }
 }) -- Konthrogz the Obliterator
 
@@ -354,10 +361,51 @@ map.nodes[49356386] = NPC({
 
 
 -------------------------------------------------------------------------------
----------------------------------- MAELIE -------------------------------------
+---------------------------------- Collectibles -------------------------------
 -------------------------------------------------------------------------------
 
--- /way #1961 39.7 34.8 hidden amongst the giant roots, hop down from above
--- /way #1961 41.1 39.8 on the middle level of the cliffside
--- /way #1961 49.3 41.8 hidden amongst the giant roots
--- /way #1961 59.8 15.1 on the cliff
+local function GetMaelieStatus ()
+    local count = select(4, GetQuestObjectiveInfo(64298, 0, false))
+    if count ~= nil then return ns.status.Gray(tostring(count)..'/7') end
+end
+
+
+local maelie = Class('Maelie', Collectible, {
+    id=179912,
+    icon=3155422,
+    quest=64298,
+    note=L["maelie_wanderer"],
+    pois={POI({
+            39703480, 41103980, 49304170, 59801510
+        })},
+    rewards={Item({item=186643})}, -- Reins of the Wanderer
+    getters={rlabel=GetMaelieStatus}
+})()
+
+map.nodes[60562103] = maelie
+
+map.nodes[42803270] = Collectible({
+    id=180063,
+    icon=3931157,
+    quest=nil,
+    rewards={Mount({item=186646, id=1507})}, -- Darkmaul
+    note=L["darkmaul_note"],
+    pois={POI({
+            54204120, 53703790, 45603430, 39703480, 39603000
+        })},
+})
+
+
+
+
+
+
+--TODO
+-- Add Etherwyrm Cage
+--Fix notes for all rares
+--add Nilgahmet's Hand
+--Find Deadsoul Hatcher and Silent Stalker
+--Nests of Unusual Materials?
+--Mawsworn Caches?
+--Find all of little Abom and make better entry?
+

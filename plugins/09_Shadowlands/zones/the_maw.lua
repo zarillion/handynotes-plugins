@@ -87,6 +87,7 @@ map.nodes[19324172] = Rare({
 map.nodes[34564206] = Rare({
     id=179853,
     quest=64276,
+    requires=ns.requirement.Spell(352795),
     note=L["in_rift_note"],
     rewards={
         Achievement({id=15107, criteria=52297}),
@@ -199,6 +200,7 @@ map.nodes[20586935] = Rare({
 map.nodes[49307274] = Rare({
     id=179851,
     quest=64272,
+    requires=ns.requirement.Spell(352795),
     note=L["in_rift_note"],
     rewards={
         Achievement({id=15107, criteria=52293})
@@ -311,6 +313,7 @@ map.nodes[27397152] = Rare({
 map.nodes[27672526] = Rare({
     id=179735,
     quest=64232,
+    requires=ns.requirement.Spell(352795),
     note=L["in_rift_note"],
     rewards={
         Achievement({id=15107, criteria=52284}),
@@ -797,6 +800,19 @@ map.nodes[66034876] = Treasure({
     }
 }) -- Helsworn Chest
 
+map.nodes[23594190] = Treasure({
+   quest=64003,
+   requires=ns.requirement.Item(186190),
+   label=L["etherwyrm_label"],
+   note=L["etherwyrm_note"],
+   rewards={
+       Pet({item=186191, id=3099}) -- Infused Etherwyrm
+    },
+    pois={
+        POI({19143337}) -- Elusive Keybinder
+    }
+}) -- Infused Etherwyrm
+
 map.nodes[66526129] = Treasure({
     quest=64261,
     note=L["in_cave"],
@@ -805,3 +821,18 @@ map.nodes[66526129] = Treasure({
         Item({item=187352}) -- Jeweled Heart of Ezekiel
     }
 }) -- Jeweled Heart
+
+map.nodes[29376732] = Treasure({
+    quest=nil, --just the legs QID=64013 IID=186185
+    label=L["lilabom_label"],
+    note=L["lilabom_note"],
+    rewards={
+        Pet({item=186188, id=3099}) -- Lil'Abom
+     },
+     pois={
+         POI({30306330}), -- Head(186183)
+         POI({38505850}), -- Right Hand(186186) in cave
+         POI({39206650}), -- Spare Arm(186187)
+         POI({39906260}) -- Torso(186184)
+     }
+ }) -- Lil'Abom

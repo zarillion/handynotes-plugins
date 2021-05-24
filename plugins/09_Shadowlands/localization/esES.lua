@@ -239,13 +239,15 @@ L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o 
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["chamber_wisdom_note"] = nil
+L["chamber_note"] = nil
 L["corpse_heap_note"] = nil
+L["darkmaul_note"] = nil
 L["dislodged_nest_note"] = nil
 L["flayedwing_transporter_note"] = nil
 L["forgetten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
+L["maelie_wanderer"] = nil
 L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
 L["pop_quiz_note"] = nil
@@ -426,12 +428,18 @@ L["options_icons_inquisitors_desc"] = "Muestra dónde están los inquisidores pa
 L["return_to_the_maw"] = "Regreso a Las Fauces"
 L["maw_intro_note"] = "Comienza la cadena de misiones introductoria de {npc:162804} para desbloquear los raros y los eventos en Las Fauces."
 
+L["in_rift_note"] = nil
+
 L["apholeias_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331783} para hacer aparecer a {npc:170301}."
 L["dekaris_note"] = "Encima de una gran roca que sobresale."
 L["deomen_note"] = nil
 L["drifting_sorrow_note"] = "Mata {npc:175246} cerca del orbe flotante para activar el boss."
 L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:330650} para hacer aparecer a {npc:169827}."
+L["etherwyrm_label"] = nil
+L["etherwyrm_note"] = nil
 L["ikras_note"] = "Vuela alrededor del Bastión de la Perdición. Este es un buen sitio para pullearlo."
+L["lilabom_label"] = nil
+L["lilabom_note"] = nil
 L["orophea_note"] = "Coge el {spell:337143} al sureste y ofréceselo a {npc:172577} para que se active."
 L["sanngror_note"] = "Si no se puede atacar a {npc:172521}, espera hasta que no esté experimentando con las almas."
 L["talaporas_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331800} para hacer aparecer a {npc:170302}."
@@ -488,4 +496,3 @@ L["options_icons_stygia_nexus_desc"] = "Muestra dónde están los Nexos necesari
 L["options_icons_stygian_caches"] = "Alijos de Estigia"
 L["options_icons_stygian_caches_desc"] = "Muestra dónde están los alijos con Estigia extra."
 
-L["in_rift_note"] = nil
