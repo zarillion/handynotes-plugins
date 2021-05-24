@@ -38,7 +38,7 @@ map.nodes[34606800] = Rare({
     rewards={
         Achievement({id=14309, criteria=48714}),
         Transmog({item=180166, slot=L["staff"]}), -- Deathbinder's Staff
-        Currency({id=1813, note='35 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(true)})
     }
 }) -- Deathbinder Hroth
 
@@ -49,7 +49,7 @@ map.nodes[47522845] = Rare({
     rewards={
         Achievement({id=14309, criteria=48784}),
         Pet({item=180631, id=2920}), -- Gorm Needler
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         Path({
@@ -65,7 +65,7 @@ map.nodes[48397717] = Rare({
     quest=58987,
     rewards={
         Achievement({id=14309, criteria=48794}),
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Dustbrawl
 
@@ -76,7 +76,7 @@ map.nodes[57862955] = Rare({
     rewards={
         Achievement({id=14309, criteria=48790}),
         Transmog({item=179539, slot=L["2h_mace"]}), -- Kelox's Eggbeater
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Egg-Tender Leh'go
 
@@ -87,7 +87,7 @@ map.nodes[68612765] = Rare({
     rewards={
         Achievement({id=14309, criteria=48798}),
         Transmog({item=180144, slot=L["1h_axe"]}), -- Faeflayer's Hatchet
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Faeflayer
 
@@ -98,7 +98,7 @@ map.nodes[54067601] = Rare({
     rewards={
         Achievement({id=14309, criteria=48795}),
         Pet({item=183196, id=3035}), -- Lavender Nibbler
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Gormbore
 
@@ -109,7 +109,7 @@ map.nodes[27885248] = Rare({
     rewards={
         Achievement({id=14309, criteria=48781}),
         Mount({item=180725, id=1362}), -- Spinemaw Gladechewer
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Gormtamer Tizo
 
@@ -133,7 +133,7 @@ map.nodes[67465147] = Rare({
         Transmog({item=179594, slot=L["leather"]}), -- Witherscorn Guise
         Transmog({item=179596, slot=L["cosmetic"]}), -- Drust Mask of Dominance
         Item({item=183091, quest=62246}), -- Lifewoven Bracelet
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Hunter Vivanna
 
@@ -145,7 +145,7 @@ local MACABRE = Rare({
     rewards={
         Achievement({id=14309, criteria=48780}),
         Pet({item=180644, id=2907}), -- Rocky
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Macabre
 
@@ -162,7 +162,7 @@ map.nodes[62102470] = Rare({
     rewards={
         Achievement({id=14309, criteria=48788}),
         Transmog({item=179502, slot=L["dagger"]}), -- Ripvine Barb
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Mymaen
 
@@ -193,7 +193,7 @@ map.nodes[65702809] = Rare({
         Achievement({id=14309, criteria=48715}),
         Transmog({item=179586, slot=L["bow"]}), -- Elderwood Piercer
         Item({item=182179, quest=62434, covenant=NIGHTFAE}), -- Runestag Soul
-        Currency({id=1813, note='35 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(true)})
     },
     pois={
         POI({
@@ -233,7 +233,7 @@ map.nodes[57874983] = Rare({
     rewards={
         Achievement({id=14309, criteria=48793}),
         Mount({item=180728, id=1306}), -- Swift Gloomhoof
-        Currency({id=1813, note='35 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(true)})
     },
     pois={
         Path({
@@ -252,7 +252,7 @@ map.nodes[51105740] = Rare({
     rewards={
         Achievement({id=14309, criteria=48785}),
         Pet({item=180643, id=2908}), -- Chirpy Valeshrieker
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Old Ardeite
 
@@ -263,7 +263,7 @@ map.nodes[65104430] = Rare({
     rewards={
         Achievement({id=14309, criteria=48791}),
         Transmog({item=179603, slot=L["shield"]}), -- Nettlehusk Barrier
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Rootwrithe
 
@@ -274,7 +274,7 @@ map.nodes[65702430] = Rare({
     rewards={
         Achievement({id=14309, criteria=48789}),
         Item({item=175729, note=L["trinket"]}), -- Rotbriar Sprout
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Rotbriar Boggart
 
@@ -284,7 +284,7 @@ map.nodes[72425175] = Rare({
     rewards={
         Achievement({id=14309, criteria=48797}),
         Transmog({item=180164, slot=L["staff"]}), -- Soultwister's Scythe
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Soultwister Cero
 
@@ -297,7 +297,7 @@ map.nodes[37675917] = Rare({
         Achievement({id=14309, criteria=48786}),
         Transmog({item=180146, slot=L["1h_axe"]}), -- Axe of Broken Wills
         Item({item=182183, quest=62439, covenant=NIGHTFAE}), -- Wolfhawk Soul
-        Currency({id=1813, note='35 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(true)})
     }
 }) -- Skuld Vit
 
@@ -308,7 +308,7 @@ map.nodes[59304660] = Rare({
     rewards={
         Achievement({id=14309, criteria=48792}),
         Item({item=175711, note=L["ring"]}), -- Slumberwood Band
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- The Slumbering Emperor
 
@@ -323,7 +323,7 @@ map.nodes[30115536] = Rare({
         Transmog({item=180154, slot=L["2h_axe"]}), -- Greataxe of Unrelenting Pursuit
         Mount({item=180730, id=1393, covenant=NIGHTFAE}), -- Wild Glimmerfur Prowler
         Item({item=182176, quest=62431, covenant=NIGHTFAE}), -- Shadowstalker Soul
-        Currency({id=1813, note='35 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(true)})
     },
     pois={
         Path({29265611, 30115536, 30875464})
@@ -337,7 +337,7 @@ map.nodes[58306180] = Rare({
     rewards={
         Achievement({id=14309, criteria=48783}),
         Transmog({item=181396, slot=L["polearm"]}), -- Thornsweeper Scythe
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Wrigglemortis
 
@@ -360,7 +360,7 @@ map.nodes[41254443] = Rare({
             48710, -- N'Zoth
             48705  -- Xavius
         }}),
-        Currency({id=1813, note='5-30 base each'}),
+        Currency({id=1813, note=ns:GetAnimaAmountText(false) .. ' for each'}),
         Transmog({item=179518, type=L["staff"], note='{npc:166135}'}), -- Glimmerlight Staff
         Transmog({item=179534, type=L["polearm"], note='{npc:166138}'}), -- Mi'kai's Deathscythe
         -- Item({item=182455, type=L["trinket"], note='{npc:166146}'}), -- Dreamer's Mending
@@ -388,7 +388,7 @@ map.nodes[63893778] = Treasure({
     rewards={
         Achievement({id=14313, criteria=50039}),
         Mount({item=180731, id=1397}), -- Wildseed Cradle
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         POI({

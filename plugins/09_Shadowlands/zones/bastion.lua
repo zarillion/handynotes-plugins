@@ -42,7 +42,7 @@ map.nodes[32592336] = Rare({
     rewards={
         Achievement({id=14307, criteria=50613}),
         Transmog({item=183607, slot=L["polearm"]}), -- Uncertain Aspirant's Spear
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         POI({
@@ -58,7 +58,7 @@ map.nodes[51344080] = Rare({
     note=L["baedos_note"],
     rewards={
         Achievement({id=14307, criteria=50592}),
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Baedos
 
@@ -68,7 +68,7 @@ map.nodes[48985031] = Rare({
     note=L["basilofos_note"],
     rewards={
         Achievement({id=14307, criteria=50602}),
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
         -- Toy({item=182655}) -- Hill King's Roarbox (gone?)
     }
 }) -- Basilofos, King of the Hill
@@ -86,7 +86,7 @@ map.nodes[55358024] = Rare({
             {id=50599, quest=60569}, -- Nemaeus
             {id=50617, quest=58526}, -- Aethon
         }}),
-        Currency({id=1813, note='5-30 base each'}),
+        Currency({id=1813, note=ns:GetAnimaAmountText(false) .. ' for each'}),
         -- Toy({item=174445}), -- Glimmerfly Cocoon
         Transmog({item=179485, slot=L["dagger"]}), -- Fang of Nemaeus
         Transmog({item=179486, slot=L["1h_mace"]}), -- Sigilback's Smashshell
@@ -102,7 +102,7 @@ map.nodes[55826249] = Rare({
     rewards={
         Achievement({id=14307, criteria=50612}),
         Item({item=182682, note=L["trinket"]}), -- Book-Borrower Identification
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Bookkeeper Mnemis
 
@@ -113,7 +113,7 @@ map.nodes[50435804] = Rare({
     rewards={
         Achievement({id=14307, criteria=50604}),
         Pet({item=180812, id=2925}), -- Golden Cloudfeather
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Cloudfeather Guardian
 
@@ -124,7 +124,7 @@ map.nodes[66004367] = Rare({
     rewards={
         Achievement({id=14307, criteria=50610}),
         Transmog({item=183608, slot=L["offhand"]}), -- Evernote Vesper
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         POI({
@@ -153,7 +153,7 @@ map.nodes[56904778] = Rare({
     note=L["corrupted_clawguard_note"],
     rewards={
         Achievement({id=14307, criteria=50615}),
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         POI({55004125}) -- Forgefire Outpost
@@ -167,7 +167,7 @@ map.nodes[27823014] = Rare({
     rewards={
         Achievement({id=14307, criteria=50603}),
         Transmog({item=184297, slot=L["2h_sword"]}), -- Death Warden's Greatblade
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Dark Watcher
 
@@ -184,7 +184,7 @@ map.nodes[37004180] = Rare({
         Transmog({item=183611, slot=L["2h_sword"]}), -- Humble Ophelia's Greatblade
         Transmog({item=183609, slot=L["fist"]}), -- Re-Powered Golliath Fists
         Transmog({item=183607, slot=L["polearm"]}), -- Uncertain Aspirant's Spear
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         Path({
@@ -201,7 +201,7 @@ map.nodes[41354887] = Rare({
     rewards={
         Achievement({id=14307, criteria=50595}),
         Pet({item=180856, id=2932}), -- Silvershell Snapper
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Dionae
 
@@ -211,7 +211,7 @@ map.nodes[45656550] = Rare({
     rewards={
         Achievement({id=14307, criteria=50614}),
         Item({item=180062}), -- Heavenly Drum
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         Path({
@@ -234,7 +234,7 @@ map.nodes[51151953] = Rare({
     rewards={
         Achievement({id=14307, criteria=50605}),
         Toy({item=184404}), -- Ever-Abundant Hearth
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         Path({
@@ -251,7 +251,7 @@ map.nodes[60427305] = Rare({
     rewards={
         Achievement({id=14307, criteria=50596}),
         Transmog({item=180444, slot=L["leather"]}), -- Harmonia's Chosen Belt
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         Path({60137285, 60427305, 60597376})
@@ -286,7 +286,7 @@ map.nodes[30365517] = Rare({
     note=L["reekmonger_note"],
     rewards={
         Achievement({id=14307, criteria=50616}),
-        Currency({id=1813, note='35 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(true)})
     }
 }) -- Reekmonger
 
@@ -344,7 +344,7 @@ local SWELLING_TEAR = Rare({
             {id=50609, quest=61047}, -- Worldfeaster Chronn
             {id=50608, quest=61046}, -- Xixin the Ravening
         }}),
-        Currency({id=1813, note='5-30 base'}),
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)}),
         Transmog({item=183605, slot=L["warglaive"]}), -- Devourer Wrought Warglaive
         Pet({item=180869, id=2940}) -- Devoured Wader
     }
@@ -367,7 +367,7 @@ map.nodes[53498868] = Rare({
         ns.reward.Spacer(),
         Achievement({id=14734, criteria={49818, 49815, 49816, 49819, 49817} }),
         Mount({item=183741, id=1426}), -- Ascended Skymane
-        Currency({id=1813, note='35 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(true)})
     },
     pois={
         POI({
@@ -387,7 +387,7 @@ map.nodes[43482524] = Rare({
     rewards={
         Achievement({id=14307, criteria=50606}),
         Toy({item=184413}), -- Mnemonic Attunement Pane
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Unstable Memory
 
@@ -400,7 +400,7 @@ map.nodes[40635306] = Rare({
     rewards={
         Achievement({id=14307, criteria=50600}),
         Item({item=182749}), -- Regurgitated Kyrian Wings
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Wingflayer the Cruel
 
@@ -418,7 +418,7 @@ map.nodes[46114536] = Treasure({
     note=L["in_cave"],
     rewards={
         Achievement({id=14311, criteria=50053}),
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         POI({46454661}) -- Entrance
@@ -441,7 +441,7 @@ map.nodes[61061510] = Treasure({
     note=L["cloudwalkers_coffer_note"],
     rewards={
         Item({item=180783}), -- Design: Crown of the Righteous
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         POI({59011639}) -- First Flower
@@ -471,7 +471,7 @@ map.nodes[35085805] = Treasure({
     rewards={
         Achievement({id=14311, criteria=50058}),
         Item({item=180063}), -- Unearthly Chime
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         Path({39085448, 38455706, 37405674, 37115684, 35165822})
@@ -485,7 +485,7 @@ map.nodes[70473645] = Treasure({
     rewards={
         Achievement({id=14311, criteria=50060}),
         Toy({item=183988}), -- Bondable Val'kyr Diadem
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         POI({69374031})
@@ -499,7 +499,7 @@ map.nodes[27602179] = Treasure({
     rewards={
         Achievement({id=14311, criteria=50062}),
         Item({item=179977}), -- Benevolent Gong
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         Path({
@@ -517,7 +517,7 @@ map.nodes[40601890] = Treasure({
     rewards={
         Achievement({id=14311, criteria=50061}),
         Transmog({item=181290, slot=L["cosmetic"], covenant=KYRIAN}), -- Harmonious Sigil of the Archon
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         POI({41662331, 39551900}) -- Transport platform
@@ -530,7 +530,7 @@ map.nodes[64877114] = Treasure({
     rewards={
         Achievement({id=14311, criteria=50059}),
         Pet({item=180859, id=2935}), -- Purity
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     }
 }) -- Gift of Vesiphone
 
@@ -560,7 +560,7 @@ map.nodes[56481714] = Treasure({
     note=L["memorial_offering"],
     rewards={
         Achievement({id=14311, criteria=50056}),
-        Currency({id=1813, note='5-30 base'})
+        Currency({id=1813, note=ns:GetAnimaAmountText(false)})
     },
     pois={
         POI({

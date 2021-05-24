@@ -238,3 +238,33 @@ function Venari:IsMet()
 end
 
 ns.requirement.Venari = Venari
+
+-------------------------------------------------------------------------------
+--------------------------------- Anima Rewards Currency ----------------------
+-------------------------------------------------------------------------------
+
+local extraAnimaReward = 0
+-- Sanctum Superior - 3 extra
+local _,_,_,completed = GetAchievementInfo(15025)
+if completed then
+    extraAnimaReward = 3
+else
+    -- Denying the Drought - 2 extra
+    local _,_,_,completed = GetAchievementInfo(15024)
+    if completed then
+        extraAnimaReward = 2
+    else
+        -- We Can Rebuild - 1 extra
+        local _,_,_,completed = GetAchievementInfo(15023)
+        extraAnimaReward = 1
+    end
+end
+
+function ns:GetAnimaAmountText(isBigReward)
+    if isBigReward then
+        -- Base amount is 35, and don't reward a range of items
+        return tostring(35 + (35 * extraAnimaReward))
+    end
+    -- Base amount is 5, and rewards 1-6 of the items
+    return tostring(5 + (5 * extraAnimaReward)) .. '-' .. tostring(30 + (5 * extraAnimaReward))
+end
