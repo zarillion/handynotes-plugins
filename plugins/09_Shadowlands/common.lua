@@ -245,18 +245,20 @@ ns.requirement.Venari = Venari
 
 local extraAnimaReward = 0
 -- Sanctum Superior - 3 extra
-local _,_,_,completed = GetAchievementInfo(15025)
-if completed then
+local _,_,_,completed,_,_,_,_,_,_,_,_,earnedByMe = GetAchievementInfo(15025)
+if completed and earnedByMe then
     extraAnimaReward = 3
 else
     -- Denying the Drought - 2 extra
-    local _,_,_,completed = GetAchievementInfo(15024)
-    if completed then
+    local _,_,_,completed,_,_,_,_,_,_,_,_,earnedByMe = GetAchievementInfo(15024)
+    if completed and earnedByMe  then
         extraAnimaReward = 2
     else
         -- We Can Rebuild - 1 extra
-        local _,_,_,completed = GetAchievementInfo(15023)
-        extraAnimaReward = 1
+        local _,_,_,completed,_,_,_,_,_,_,_,_,earnedByMe = GetAchievementInfo(15023)
+        if completed and earnedByMe  then
+            extraAnimaReward = 1
+        end
     end
 end
 
