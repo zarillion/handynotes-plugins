@@ -830,9 +830,9 @@ map.nodes[29376732] = Treasure({
         Pet({item=186188, id=3099}) -- Lil'Abom
      },
      pois={
-         POI({30306330}), -- Head(186183)
-         POI({38505850}), -- Right Hand(186186) in cave
-         POI({39206650}), -- Spare Arm(186187)
-         POI({39906260}) -- Torso(186184)
+         POI({32215608}), -- Head(186183) 64010
+         POI({38505850}), -- Right Hand(186186) in cave 64008
+         POI({39286648}), -- Spare Arm(186187) 64009
+         POI({39906260}) -- Torso(186184) MISSING?????
      }
  }) -- Lil'Abom

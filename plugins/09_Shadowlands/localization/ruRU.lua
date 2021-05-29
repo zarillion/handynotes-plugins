@@ -246,6 +246,7 @@ L["flayedwing_transporter_note"] = nil
 L["forgetten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
+L["korthia_rift_note"] = nil
 L["maelie_wanderer"] = nil
 L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
@@ -254,7 +255,6 @@ L["popo_note"] = nil
 L["razorwing_nest"] = nil
 L["razorwing_note"] = nil
 L["reliwik_note"] = nil
-L["screaming_shade_note"] = nil
 L["towering_exterminator_note"] = nil
 L["wilderling_note"] = nil
 
