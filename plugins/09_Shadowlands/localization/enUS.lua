@@ -252,10 +252,16 @@ L["offering_box_note"] = "Requires Small Offering Key which can be found on the 
 L["pop_quiz_note"] = "The Pop Quiz event will spawn randomly on the map. Click on the planted veilstaff and answer the questions from {npc:180162}."
 L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
 L["razorwing_nest"] = "Razorwing Matriarch"
-L["razorwing_note"] = "Hand in {item:187054} dropped by nearby devourers."
+L["razorwing_note"] = "Hand in {item:187054} dropped by devourers."
 L["reliwik_note"] = "Click on the uncorrupted razorwing egg to pull him down."
 L["towering_exterminator_note"] = "Spawns from a mawsworn portal event."
 L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
+
+L["archivist_key_note"] = "Requires {item:186984} from {npc:178257} to unlock."
+L["gorak_claw_fetish"] = "Gorak Claw Fetish"
+L["guise_changeling"] = "Guise of the Changeling"
+L["ring_of_self_reflection"] = "Ring of Self-Reflection"
+L["the_netherstar"] = "The Netherstar"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------

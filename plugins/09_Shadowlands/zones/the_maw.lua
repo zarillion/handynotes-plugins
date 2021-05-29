@@ -836,3 +836,17 @@ map.nodes[29376732] = Treasure({
          POI({39906260}) -- Torso(186184) MISSING?????
      }
  }) -- Lil'Abom
+
+-------------------------------------------------------------------------------
+---------------------------------- NILGANIHMAHT -------------------------------
+-------------------------------------------------------------------------------
+
+-- local Nilganihmet = Class('Nilganihmet', ns.node.Node, {
+--     group=ns.groups.Nilgahmet_Mount,
+--     icon=1391724,
+--     note=L["Nilganihment_Mount"],
+--     requires=ns.requirement.Item(186984),
+--     scale=1.25
+-- })
+
+--https://ptr.wowhead.com/item=186713/nilganihmaht-control-ring#comments DEAL WITH THIS ASAP?

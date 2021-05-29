@@ -120,7 +120,7 @@ map.nodes[51822081] = Rare({
     }
 }) -- Dominated Protector
 
-map.nodes[33083941] = Rare({
+map.nodes[33183938] = Rare({
     id=180014,
     quest=64320,
     covenant=NIGHTFAE,
@@ -238,7 +238,7 @@ map.nodes[56276617] = Rare({
 
 map.nodes[44604240] = Rare({
     id=179608,
-    quest=nil,
+    quest=64263,
     requires=ns.requirement.Item(186731),
     note=L["korthia_rift_note"],
     rewards={
@@ -295,7 +295,7 @@ map.nodes[47502920] = Treasure({
     note=L["dislodged_nest_note"],
     rewards={
         Achievement({id=15099, criteria=52240}),
-        Item({item=187339}) -- Silver Shardhide Whistle
+        Toy({item=187339}) -- Silver Shardhide Whistle
     }
 }) -- Dislodged Nest
 
@@ -347,7 +347,7 @@ map.nodes[45336714] = Treasure({
 }) -- Offering Box
 
 map.nodes[25725108] = Treasure({
-    quest=nil,
+    quest=64274,
     label=L["razorwing_nest"],
     note=L["razorwing_note"],
     rewards={
@@ -360,6 +360,51 @@ map.nodes[25725108] = Treasure({
 --     rewards={
 --     }
 -- }) -- Spectral Bound Chest
+
+-------------------------------------------------------------------------------
+---------------------------------- Relic Boxes --------------------------------
+-------------------------------------------------------------------------------
+local RelicBox = Class('RelicBox', ns.node.Node, {
+    group=ns.groups.RELIC_BOXES,
+    icon='chest_nv',
+    note=L["archivist_key_note"],
+    requires=ns.requirement.Item(186984),
+    scale=1.3
+})
+
+map.nodes[41146015] = RelicBox({
+    quest=63924,
+    label=L["gorak_claw_fetish"],
+    rewards={
+        Item({item=187150}) -- Gorak Claw Fetish
+    }
+}) -- Gorak Claw Fetish
+
+map.nodes[41304330] = RelicBox({
+    quest=63909,
+    label=L["guise_changeling"],
+    rewards={
+        Item({item=187047, quest=63909}), -- Guise of the Changeling
+        Toy({item=187155}) -- Guise of the Changeling
+    }
+}) -- Guise of the Changeling
+
+map.nodes[33004190] = RelicBox({
+    quest=63910,
+    label=L["the_netherstar"],
+    rewards={
+        Item({item=187052}) -- The Netherstar
+    }
+}) -- The Netherstar
+
+map.nodes[43847698] = RelicBox({
+    quest=63921,
+    label=L["ring_of_self_reflection"],
+    rewards={
+        Item({item=187119, quest=63921}), -- Ring of Self-Reflection
+        Toy({item=187140}) -- Ring of Duplicity
+    }
+}) -- Ring of Self-Reflection
 
 -------------------------------------------------------------------------------
 ---------------------------------- TRANSPORT ----------------------------------
@@ -426,8 +471,7 @@ map.nodes[42873269] = Collectible({
 --TODO
 --Fix notes for all rares
 --add Nilgahmet's Hand
---Find Deadsoul Hatcher and Fallen Charger
---Nests of Unusual Materials?
---Mawsworn Caches?
+--Find Fallen Charger
+
 
 
