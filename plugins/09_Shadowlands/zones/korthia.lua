@@ -18,7 +18,7 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 --local Quest = ns.reward.Quest
 --local Section = ns.reward.Section
---local Toy = ns.reward.Toy
+local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 --local Arrow = ns.poi.Arrow
@@ -99,13 +99,17 @@ map.nodes[59934371] = Rare({
     }
 }) -- Corpse Heap
 
--- map.nodes[] = Rare({
---     id=179913,
---     quest=,
---     rewards={
---         Achievement({id=15107, criteria=52275})
---     }
--- }) -- Deadsoul Hatcher
+map.nodes[59335221] = Rare({
+    id=179913,
+    quest=64285,
+    requires=ns.requirement.Item(186731),
+    note=L["korthia_rift_note"],
+    rewards={
+        Achievement({id=15107, criteria=52275}),
+        Toy({item=187174}) -- Shaded Judgement Stone
+
+    }
+}) -- Deadsoul Hatcher
 
 
 map.nodes[51822081] = Rare({
@@ -123,11 +127,18 @@ map.nodes[33083941] = Rare({
     note=L["wilderling_note"],
     rewards={
         Achievement({id=15107, criteria=52298}),
-        Item({item=187278}), --Talon-pierced Mawsworn Lockbox
         Mount({item=186492, id=1487}) --Summer Wilderling
     }
 }) -- Escaped Wilderling
 
+-- map.nodes[] = Rare({
+--     id=177903,
+--     quest=nil,
+--     rewards={
+--         Achievement({id=15107, criteria=52292}),
+--         Mount({item=186658, id=}) --Fallen Charger's Reins
+--     }
+-- }) -- Fallen Charger
 
 map.nodes[60652315] = Rare({
     id=179684,
@@ -175,6 +186,16 @@ map.nodes[46507959] = Rare({
     }
 }) -- No Stoneborn Left Behind
 
+map.nodes[50307590] = Rare({
+    id=179914,
+    quest=nil,
+    requires=ns.requirement.Item(186731),
+    note=L["korthia_rift_note"],
+    rewards={
+        Achievement({id=15107, criteria=52294})
+    }
+}) -- Observer Yorik
+
 map.nodes[71001812] = Rare({
     id=180162,
     quest=64457,
@@ -192,7 +213,7 @@ map.nodes[56873237] = Rare({
     note=L["popo_note"],
     rewards={
         Achievement({id=15107, criteria=52300}),
-        Item({item=187176}), -- Vesper of Harmony
+        Toy({item=187176}), -- Vesper of Harmony
         Mount({item=186483, id=1493}) -- Foresworn Aquilon
     }
 }) -- Popo's Potion Patrol
@@ -219,19 +240,21 @@ map.nodes[44604240] = Rare({
     id=179608,
     quest=nil,
     requires=ns.requirement.Item(186731),
-    note=L["screaming_shade_note"],
+    note=L["korthia_rift_note"],
     rewards={
         Achievement({id=15107, criteria=52273})
     }
 }) -- Screaming Shade
 
--- map.nodes[] = Rare({
---     id=179911,
---     quest=nil,
---     rewards={
---         Achievement({id=15107, criteria=52274})
---     }
--- }) -- Silent Soulstalker
+map.nodes[57607040] = Rare({
+    id=179911,
+    quest=nil,
+    requires=ns.requirement.Item(186731),
+    note=L["korthia_rift_note"],
+    rewards={
+        Achievement({id=15107, criteria=52274})
+    }
+}) -- Silent Soulstalker
 
 map.nodes[71001512] = Rare({
     id=179760,
@@ -288,7 +311,7 @@ map.nodes[68902990] = Treasure({
     note=L["forgetten_feather_note"],
     rewards={
         Achievement({id=15099, criteria=52237}),
-        Item({item=187051}) -- Forgotten Feather
+        Toy({item=187051}) -- Forgotten Feather
     }
 }) -- Forgotten Feather
 
@@ -319,7 +342,7 @@ map.nodes[45336714] = Treasure({
     note=L["offering_box_note"],
     rewards={
         Achievement({id=15099, criteria=52246}),
-        Item({item=187344}) -- Offering Kit Maker
+        Toy({item=187344}) -- Offering Kit Maker
     }
 }) -- Offering Box
 
@@ -364,27 +387,27 @@ map.nodes[49356386] = NPC({
 ---------------------------------- Collectibles -------------------------------
 -------------------------------------------------------------------------------
 
-local function GetMaelieStatus ()
-    local count = select(4, GetQuestObjectiveInfo(64298, 0, false))
-    if count ~= nil then return ns.status.Gray(tostring(count)..'/7') end
-end
+-- local function GetMaelieStatus ()
+--     local count = select(4, GetQuestObjectiveInfo(nil, 0, false))
+--     if count ~= nil then return ns.status.Gray(tostring(count)..'/7') end
+-- end
 
 
 local maelie = Class('Maelie', Collectible, {
     id=179912,
     icon=3155422,
-    quest=64298,
+    quest=nil,
     note=L["maelie_wanderer"],
     pois={POI({
             39703480, 41103980, 49304170, 59801510
         })},
     rewards={Item({item=186643})}, -- Reins of the Wanderer
-    getters={rlabel=GetMaelieStatus}
+--    getters={rlabel=GetMaelieStatus}
 })()
 
 map.nodes[60562103] = maelie
 
-map.nodes[42803270] = Collectible({
+map.nodes[42873269] = Collectible({
     id=180063,
     icon=3931157,
     quest=nil,
@@ -401,11 +424,10 @@ map.nodes[42803270] = Collectible({
 
 
 --TODO
--- Add Etherwyrm Cage
 --Fix notes for all rares
 --add Nilgahmet's Hand
---Find Deadsoul Hatcher and Silent Stalker
+--Find Deadsoul Hatcher and Fallen Charger
 --Nests of Unusual Materials?
 --Mawsworn Caches?
---Find all of little Abom and make better entry?
+
 
