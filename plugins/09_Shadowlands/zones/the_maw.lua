@@ -801,7 +801,7 @@ map.nodes[66034876] = Treasure({
 }) -- Helsworn Chest
 
 map.nodes[23594190] = Treasure({
-   quest=64003,
+   quest=64000,
    requires=ns.requirement.Item(186190),
    label=L["etherwyrm_label"],
    note=L["etherwyrm_note"],
