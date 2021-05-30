@@ -360,7 +360,7 @@ map.nodes[25725108] = Treasure({
 }) -- Razorwing Nest
 
 -- map.nodes[53783793] = Treasure({
---     quest=nil,
+--     quest=64247,
 --     rewards={
 --     }
 -- }) -- Spectral Bound Chest
@@ -376,7 +376,6 @@ local Relic = Class('Relic', ns.node.Treasure, {
 
 map.nodes[27305670] = Relic({
     quest=63899,
-    note=L["mad_witch_note"],
     rewards={
         Achievement({id=15066, criteria=52131})
     }
@@ -384,7 +383,7 @@ map.nodes[27305670] = Relic({
 
 map.nodes[60803490] = Relic({
     quest=63919,
-    note=L["tormented_sorcerer_note"],
+    note=L["korthia_rift_note"],
     requires=ns.requirement.Item(186731),
     rewards={
         Achievement({id=15066, criteria=52264})
@@ -462,7 +461,7 @@ map.nodes[41304330] = Relic({
     }
 }) -- Guise of the Changeling
 
-map.nodes[42305660] = Relic({
+map.nodes[24365660] = Relic({
     quest=63923,
     note=L["korthian_shrine_note"],
 --    requires=ns.requirement.Quest(64511),
@@ -504,7 +503,8 @@ map.nodes[39404270] = Relic({
     note=L["korthian_shrine_note"],
 --    requires=ns.requirement.Quest(64511),
     rewards={
-        Achievement({id=15066, criteria=52266})
+        Achievement({id=15066, criteria=52266}),
+        Toy({item=187159}) -- Shadow Slicing Shortsword
     }
 }) -- Shadow Slicing Sword
 
