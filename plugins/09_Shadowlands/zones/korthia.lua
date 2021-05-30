@@ -63,7 +63,8 @@ map.nodes[39405240] = Rare({
     note=L["chamber_note"],
     rewards={
         Achievement({id=15107, criteria=52295}),
-        Item({item=187103, quest=63917}) -- Everliving Statuette
+        Item({item=187103, quest=63917}), -- Everliving Statuette
+        Achievement({id=15066, criteria=52262}) --Everliving Statuette
     }
 }) -- Chamber of Knowledge
 
@@ -76,6 +77,7 @@ map.nodes[44983552] = Rare({
         Achievement({id=15107, criteria=52296}),
         Pet({item=186538, id=3140}), -- Gnashtooth
         Item({item=187104, quest=63918}), -- Obelisk of Dark Tidings
+        Achievement({id=15066, criteria=52263})
     }
 }) -- Chamber of Wisdom
 
@@ -299,12 +301,13 @@ map.nodes[47502920] = Treasure({
     }
 }) -- Dislodged Nest
 
--- map.nodes[] = Treasure({
---     quest=,
---     rewards={
---         Achievement({id=15099, criteria=52242})
---     }
--- }) -- Displaced Relic
+map.nodes[50478446] = Treasure({
+    quest=64252,
+    rewards={
+        Achievement({id=15099, criteria=52242}),
+        Item({item=187350}) --Displaced Relic
+    }
+}) -- Displaced Relic
 
 map.nodes[68902990] = Treasure({
     quest=64234,
@@ -324,6 +327,7 @@ map.nodes[38344296] = Treasure({
 
 map.nodes[42515596] = Treasure({
     quest=64264,
+    note=L["in_cave"],
     rewards={
         Achievement({id=15099, criteria=52245}),
         Item({item=187354}) -- Abandoned Broker Satchel
@@ -362,49 +366,171 @@ map.nodes[25725108] = Treasure({
 -- }) -- Spectral Bound Chest
 
 -------------------------------------------------------------------------------
----------------------------------- Relic Boxes --------------------------------
+---------------------------------- Relics -------------------------------------
 -------------------------------------------------------------------------------
-local RelicBox = Class('RelicBox', ns.node.Node, {
-    group=ns.groups.RELIC_BOXES,
+local Relic = Class('Relic', ns.node.Treasure, {
+    group=ns.groups.RELIC,
     icon='chest_nv',
-    note=L["archivist_key_note"],
-    requires=ns.requirement.Item(186984),
     scale=1.3
 })
 
-map.nodes[41146015] = RelicBox({
-    quest=63924,
-    label=L["gorak_claw_fetish"],
+map.nodes[27305670] = Relic({
+    quest=63899,
+    note=L["mad_witch_note"],
     rewards={
-        Item({item=187150}) -- Gorak Claw Fetish
+        Achievement({id=15066, criteria=52131})
+    }
+}) -- Book of Binding: The Mad Witch
+
+map.nodes[60803490] = Relic({
+    quest=63919,
+    note=L["tormented_sorcerer_note"],
+    requires=ns.requirement.Item(186731),
+    rewards={
+        Achievement({id=15066, criteria=52264})
+    }
+}) -- Book of Binding: The Tormented Sorcerer
+
+map.nodes[18503800] = Relic({
+    quest=63908,
+    note=L["korthian_shrine_note"],
+--    requires=ns.requirement.Quest(64511),
+    rewards={
+        Achievement({id=15066, criteria=52254})
+    }
+}) -- Bulwark of Divine Intent
+
+map.nodes[45105610] = Relic({
+    quest=63912,
+    rewards={
+        Achievement({id=15066, criteria=52258})
+    }
+}) -- Celestial Shadowlands Chart
+
+map.nodes[29005420] = Relic({
+    quest=63914,
+    note=L["korthia_rift_note"],
+    requires=ns.requirement.Item(186731),
+    rewards={
+        Achievement({id=15066, criteria=52260})
+    }
+}) -- Cipher of Understanding
+
+-- map.nodes[] = Relic({
+--     quest=63892,
+--     note=L[""],
+--     requires=ns.requirement.Item(),
+--     rewards={
+--         Achievement({id=15066, criteria=52130})
+--     }
+-- }) -- Diviner's Rune Chits (Drops from all the single use shared treasures in all of korthia. Do we mark these?)
+
+map.nodes[39405240] = Relic({
+    quest=63915,
+    note=L["chamber_note"],
+    requires=ns.requirement.Item(186718),
+    rewards={
+        Achievement({id=15066, criteria=52269})
+    }
+}) -- Drum of Driving
+
+map.nodes[52005260] = Relic({
+    quest=63920,
+    note=L["korthia_rift_note"],
+    requires=ns.requirement.Item(186731),
+    rewards={
+        Achievement({id=15066, criteria=52270})
+    }
+}) -- Enigmatic Decrypting Device
+
+map.nodes[41146015] = Relic({
+    quest=63924,
+    note=L["archivist_key_note"],
+   requires=ns.requirement.Item(186984),
+    rewards={
+        Achievement({id=15066, criteria=52268})
     }
 }) -- Gorak Claw Fetish
 
-map.nodes[41304330] = RelicBox({
+map.nodes[41304330] = Relic({
     quest=63909,
-    label=L["guise_changeling"],
+    note=L["archivist_key_note"],
+    requires=ns.requirement.Item(186984),
     rewards={
-        Item({item=187047, quest=63909}), -- Guise of the Changeling
+        Achievement({id=15066, criteria=52255}),
         Toy({item=187155}) -- Guise of the Changeling
     }
 }) -- Guise of the Changeling
 
-map.nodes[33004190] = RelicBox({
-    quest=63910,
-    label=L["the_netherstar"],
+map.nodes[42305660] = Relic({
+    quest=63923,
+    note=L["korthian_shrine_note"],
+--    requires=ns.requirement.Quest(64511),
     rewards={
-        Item({item=187052}) -- The Netherstar
+        Achievement({id=15066, criteria=52267})
+    }
+}) -- Lang Family Wood-Carving
+
+map.nodes[33004190] = Relic({
+    quest=63910,
+    note=L["archivist_key_note"],
+    requires=ns.requirement.Item(186984),
+    rewards={
+        Achievement({id=15066, criteria=52256}),
     }
 }) -- The Netherstar
 
-map.nodes[43847698] = RelicBox({
+map.nodes[43847698] = Relic({
     quest=63921,
-    label=L["ring_of_self_reflection"],
+    note=L["archivist_key_note"],
+    requires=ns.requirement.Item(186984),
     rewards={
-        Item({item=187119, quest=63921}), -- Ring of Self-Reflection
+        Achievement({id=15066, criteria=52265}),
         Toy({item=187140}) -- Ring of Duplicity
     }
 }) -- Ring of Self-Reflection
+
+map.nodes[45003550] = Relic({
+    quest=63916,
+    note=L["chamber_note"],
+    requires=ns.requirement.Item(186718),
+    rewards={
+        Achievement({id=15066, criteria=52261})
+    }
+}) -- Sack of Strange Soil
+
+map.nodes[39404270] = Relic({
+    quest=63922,
+    note=L["korthian_shrine_note"],
+--    requires=ns.requirement.Quest(64511),
+    rewards={
+        Achievement({id=15066, criteria=52266})
+    }
+}) -- Shadow Slicing Sword
+
+map.nodes[62005680] = Relic({
+    quest=63911,
+    rewards={
+        Achievement({id=15066, criteria=52257})
+    }
+}) -- Singing Steel Ingot
+
+map.nodes[40504140] = Relic({
+    quest=63860,
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=15066, criteria=52126})
+    }
+}) -- Talisman of the Eternal Scholar
+
+map.nodes[51402010] = Relic({
+    quest=63913,
+    note=L["korthia_rift_note"],
+    requires=ns.requirement.Item(186731),
+    rewards={
+        Achievement({id=15066, criteria=52259})
+    }
+}) -- Unstable Sin'dorei Explosive
 
 -------------------------------------------------------------------------------
 ---------------------------------- TRANSPORT ----------------------------------

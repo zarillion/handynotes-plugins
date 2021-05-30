@@ -237,7 +237,7 @@ L["zolla_note"] = "We take our defenses very seriously. Whether small or large, 
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["chamber_note"] = "Use a {item:186718} from {npc:178257} on the Ancient Teleporter. Use the repaired Ancient Teleporter to access the rare. There are additional treasures in the chamber."
+L["chamber_note"] = "Use a {item:186718} from {npc:178257} on the Ancient Teleporter. Use the repaired Ancient Teleporter to access the chamber. There are additional treasures in the chamber."
 L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
 L["darkmaul_note"] = "Collect {item:187153} from Invasive Mawshrooms and feed them to {npc:180063}. You will gain the {spell:356316} buff starting a taming event for 2 minutes. Repeat until after the buff expires you gain the mount."
 L["dislodged_nest_note"] = "Click on a nearby Noxious Moth to gain {spell:355181}. Use the {spell:355131} extra action button on {npc:178547} to gain control and ride it into the tree the nest is in."
@@ -245,7 +245,7 @@ L["flayedwing_transporter_note"] = "Click on {npc:178633} to fly to or from the 
 L["forgetten_feather_note"] = "Floating on a small island accessed by jumping down from Keeper's Respite."
 L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
 L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
-L["korthia_rift_note"] = "Requires {item:186731} from {npc:178257} to enter the rift and access the rare."
+L["korthia_rift_note"] = "Purchase {item:186731} from {npc:178257} to enter the rift and access the rare."
 L["maelie_wanderer"] = "{npc:179912} will spawn in one of four locations each day. Once you have used {spell:355862} on her 7 different days return to {npc:179930} to earn the mount."
 L["no_stoneborne_note"] = "Talk to {npc:179974} to start the event."
 L["offering_box_note"] = "Requires Small Offering Key which can be found on the top of the west side wall of the near by ruins."
@@ -257,11 +257,10 @@ L["reliwik_note"] = "Click on the uncorrupted razorwing egg to pull him down."
 L["towering_exterminator_note"] = "Spawns from a mawsworn portal event."
 L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 
-L["archivist_key_note"] = "Requires {item:186984} from {npc:178257} to unlock."
-L["gorak_claw_fetish"] = "Gorak Claw Fetish"
-L["guise_changeling"] = "Guise of the Changeling"
-L["ring_of_self_reflection"] = "Ring of Self-Reflection"
-L["the_netherstar"] = "The Netherstar"
+L["archivist_key_note"] = "Purchase {item:186984} from {npc:178257} to unlock."
+L["korthian_shrine_note"] = "Click on the shrine to gain {spell:352367} to see the hidden path to the alter."
+L["options_icons_relic"] = "{achievement:15066}"
+L["options_icons_relic_desc"] = "Display the locations of all 20 relics for the achievement."
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------

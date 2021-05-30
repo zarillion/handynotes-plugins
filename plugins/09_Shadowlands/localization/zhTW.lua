@@ -258,10 +258,9 @@ L["towering_exterminator_note"] = nil
 L["wilderling_note"] = nil
 
 L["archivist_key_note"] = nil
-L["gorak_claw_fetish"] = nil
-L["guise_changeling"] = nil
-L["ring_of_self_reflection"] = nil
-L["the_netherstar"] = nil
+L["korthian_shrine_note"] = nil
+L["options_icons_relic"] = "{achievement:15066}"
+L["options_icons_relic_desc"] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
