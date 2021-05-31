@@ -207,6 +207,11 @@ ns.groups.SLIME_CAT = Group('slime_cat', 3732497, {defaults=ns.GROUP_HIDDEN})
 ns.groups.STYGIAN_CACHES = Group('stygian_caches', 'chest_nv', {defaults=ns.GROUP_HIDDEN})
 ns.groups.VESPERS = Group('vespers', 3536181, {defaults=ns.GROUP_HIDDEN})
 
+function ns.groups.RELIC:IsEnabled()
+    if select(3,GetFactionInfoByID(2472)) < 2 then return false end
+    return Group.IsEnabled(self)
+end
+
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------
 -------------------------------------------------------------------------------

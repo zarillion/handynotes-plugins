@@ -49,6 +49,7 @@ read_globals = {
     'GetContainerNumSlots',
     'GetCurrentRegion',
     'GetCVar',
+    'GetFactionInfoByID',
     'GetItemInfo',
     'GetItemSpecInfo',
     'GetLocale',
