@@ -37,6 +37,12 @@ local VENTHYR = ns.covenants.VEN
 
 local map = Map({ id=1961, settings=true })
 
+function map:IsNodeEnabled(node, coord, minimap)
+    local research = select(3,GetFactionInfoByID(2472))
+    if node.research and research < node.research then return false end
+    return Map.IsNodeEnabled(self, node, coord, minimap)
+end
+
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
@@ -63,8 +69,8 @@ map.nodes[39405240] = Rare({
     note=L["chamber_note"],
     rewards={
         Achievement({id=15107, criteria=52295}),
-        Item({item=187103, quest=63917}), -- Everliving Statuette
-        Achievement({id=15066, criteria=52262}) --Everliving Statuette
+        Achievement({id=15066, criteria=52262}),
+        Item({item=187103, quest=63917}) -- Everliving Statuette
     }
 }) -- Chamber of Knowledge
 
@@ -75,9 +81,9 @@ map.nodes[44983552] = Rare({
     note=L["chamber_note"],
     rewards={
         Achievement({id=15107, criteria=52296}),
+        Achievement({id=15066, criteria=52263}),
         Pet({item=186538, id=3140}), -- Gnashtooth
-        Item({item=187104, quest=63918}), -- Obelisk of Dark Tidings
-        Achievement({id=15066, criteria=52263})
+        Item({item=187104, quest=63918}) -- Obelisk of Dark Tidings
     }
 }) -- Chamber of Wisdom
 
@@ -371,81 +377,34 @@ map.nodes[25725108] = Treasure({
 local Relic = Class('Relic', ns.node.Treasure, {
     group=ns.groups.RELIC,
     icon='chest_nv',
-    scale=1.3
+    scale=1.3,
+    IsCompleted=function(self)
+        if C_QuestLog.IsOnQuest(self.quest[1]) then return true end
+        return Treasure.IsCompleted(self)
+    end
 })
 
 map.nodes[27305670] = Relic({
     quest=63899,
+    research=2,
     rewards={
         Achievement({id=15066, criteria=52131})
     }
 }) -- Book of Binding: The Mad Witch
 
-map.nodes[60803490] = Relic({
-    quest=63919,
-    note=L["korthia_rift_note"],
-    requires=ns.requirement.Item(186731),
-    rewards={
-        Achievement({id=15066, criteria=52264})
-    }
-}) -- Book of Binding: The Tormented Sorcerer
-
-map.nodes[18503800] = Relic({
-    quest=63908,
-    note=L["korthian_shrine_note"],
---    requires=ns.requirement.Quest(64511),
-    rewards={
-        Achievement({id=15066, criteria=52254})
-    }
-}) -- Bulwark of Divine Intent
-
 map.nodes[45105610] = Relic({
     quest=63912,
+    research=2,
     rewards={
         Achievement({id=15066, criteria=52258})
     }
 }) -- Celestial Shadowlands Chart
 
-map.nodes[29005420] = Relic({
-    quest=63914,
-    note=L["korthia_rift_note"],
-    requires=ns.requirement.Item(186731),
-    rewards={
-        Achievement({id=15066, criteria=52260})
-    }
-}) -- Cipher of Understanding
-
--- map.nodes[] = Relic({
---     quest=63892,
---     note=L[""],
---     requires=ns.requirement.Item(),
---     rewards={
---         Achievement({id=15066, criteria=52130})
---     }
--- }) -- Diviner's Rune Chits (Drops from all the single use shared treasures in all of korthia. Do we mark these?)
-
-map.nodes[39405240] = Relic({
-    quest=63915,
-    note=L["chamber_note"],
-    requires=ns.requirement.Item(186718),
-    rewards={
-        Achievement({id=15066, criteria=52269})
-    }
-}) -- Drum of Driving
-
-map.nodes[52005260] = Relic({
-    quest=63920,
-    note=L["korthia_rift_note"],
-    requires=ns.requirement.Item(186731),
-    rewards={
-        Achievement({id=15066, criteria=52270})
-    }
-}) -- Enigmatic Decrypting Device
-
 map.nodes[41146015] = Relic({
     quest=63924,
     note=L["archivist_key_note"],
-   requires=ns.requirement.Item(186984),
+    research=2,
+    requires=ns.requirement.Item(186984),
     rewards={
         Achievement({id=15066, criteria=52268})
     }
@@ -454,6 +413,7 @@ map.nodes[41146015] = Relic({
 map.nodes[41304330] = Relic({
     quest=63909,
     note=L["archivist_key_note"],
+    research=2,
     requires=ns.requirement.Item(186984),
     rewards={
         Achievement({id=15066, criteria=52255}),
@@ -461,18 +421,10 @@ map.nodes[41304330] = Relic({
     }
 }) -- Guise of the Changeling
 
-map.nodes[24365660] = Relic({
-    quest=63923,
-    note=L["korthian_shrine_note"],
---    requires=ns.requirement.Quest(64511),
-    rewards={
-        Achievement({id=15066, criteria=52267})
-    }
-}) -- Lang Family Wood-Carving
-
 map.nodes[33004190] = Relic({
     quest=63910,
     note=L["archivist_key_note"],
+    research=2,
     requires=ns.requirement.Item(186984),
     rewards={
         Achievement({id=15066, criteria=52256}),
@@ -482,6 +434,7 @@ map.nodes[33004190] = Relic({
 map.nodes[43847698] = Relic({
     quest=63921,
     note=L["archivist_key_note"],
+    research=2,
     requires=ns.requirement.Item(186984),
     rewards={
         Achievement({id=15066, criteria=52265}),
@@ -489,48 +442,111 @@ map.nodes[43847698] = Relic({
     }
 }) -- Ring of Self-Reflection
 
+map.nodes[62005680] = Relic({
+    quest=63911,
+    research=2,
+    rewards={
+        Achievement({id=15066, criteria=52257})
+    }
+}) -- Singing Steel Ingot
+-------------------------------------------------------------------------------
+map.nodes[39405241] = Relic({
+    quest=63915,
+    note=L["chamber_note"],
+    research=3,
+    requires=ns.requirement.Item(186718),
+    rewards={
+        Achievement({id=15066, criteria=52269})
+    }
+}) -- Drum of Driving
+
 map.nodes[45003550] = Relic({
     quest=63916,
     note=L["chamber_note"],
+    research=3,
     requires=ns.requirement.Item(186718),
     rewards={
         Achievement({id=15066, criteria=52261})
     }
 }) -- Sack of Strange Soil
 
-map.nodes[39404270] = Relic({
-    quest=63922,
-    note=L["korthian_shrine_note"],
---    requires=ns.requirement.Quest(64511),
-    rewards={
-        Achievement({id=15066, criteria=52266}),
-        Toy({item=187159}) -- Shadow Slicing Shortsword
-    }
-}) -- Shadow Slicing Sword
-
-map.nodes[62005680] = Relic({
-    quest=63911,
-    rewards={
-        Achievement({id=15066, criteria=52257})
-    }
-}) -- Singing Steel Ingot
-
 map.nodes[40504140] = Relic({
     quest=63860,
     note=L["in_cave"],
+    research=3,
     rewards={
         Achievement({id=15066, criteria=52126})
     }
 }) -- Talisman of the Eternal Scholar
+-------------------------------------------------------------------------------
+map.nodes[60803490] = Relic({
+    quest=63919,
+    note=L["korthia_rift_note"],
+    research=4,
+    requires=ns.requirement.Item(186731),
+    rewards={
+        Achievement({id=15066, criteria=52264})
+    }
+}) -- Book of Binding: The Tormented Sorcerer
+
+map.nodes[29005420] = Relic({
+    quest=63914,
+    note=L["korthia_rift_note"],
+    research=4,
+    requires=ns.requirement.Item(186731),
+    rewards={
+        Achievement({id=15066, criteria=52260})
+    }
+}) -- Cipher of Understanding
+
+map.nodes[52005260] = Relic({
+    quest=63920,
+    note=L["korthia_rift_note"],
+    research=4,
+    requires=ns.requirement.Item(186731),
+    rewards={
+        Achievement({id=15066, criteria=52270})
+    }
+}) -- Enigmatic Decrypting Device
 
 map.nodes[51402010] = Relic({
     quest=63913,
     note=L["korthia_rift_note"],
+    research=4,
     requires=ns.requirement.Item(186731),
     rewards={
         Achievement({id=15066, criteria=52259})
     }
 }) -- Unstable Sin'dorei Explosive
+
+-------------------------------------------------------------------------------
+map.nodes[18503800] = Relic({
+    quest=63908,
+    note=L["korthian_shrine_note"],
+    research=5,
+    rewards={
+        Achievement({id=15066, criteria=52254})
+    }
+}) -- Bulwark of Divine Intent
+
+map.nodes[24365660] = Relic({
+    quest=63923,
+    note=L["korthian_shrine_note"],
+    research=5,
+    rewards={
+        Achievement({id=15066, criteria=52267})
+    }
+}) -- Lang Family Wood-Carving
+
+map.nodes[39404270] = Relic({
+    quest=63922,
+    note=L["korthian_shrine_note"],
+    research=5,
+    rewards={
+        Achievement({id=15066, criteria=52266}),
+        Toy({item=187159}) -- Shadow Slicing Shortsword
+    }
+}) -- Shadow Slicing Sword
 
 -------------------------------------------------------------------------------
 ---------------------------------- TRANSPORT ----------------------------------
@@ -572,7 +588,7 @@ local maelie = Class('Maelie', Collectible, {
     pois={POI({
             39703480, 41103980, 49304170, 59801510
         })},
-    rewards={Item({item=186643})}, -- Reins of the Wanderer
+    rewards={Mount({item=186643, id=1511})}, -- Reins of the Wanderer
 --    getters={rlabel=GetMaelieStatus}
 })()
 
