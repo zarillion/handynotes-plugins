@@ -238,12 +238,12 @@ L["zolla_note"] = "Мы очень серьезно относимся к наш
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
-L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
-L["konthrogz_note"] = "Spawns after a certain amount of creatures die."
-L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
+L["corpse_heap_note"] = "Поговорите с {npc:180079}, чтобы начать событие сбора."
+L["hunting_hunter_note"] = "Поговорите с {npc:179729}, чтобы получить {spell:355078}, и следуйте по следам, пока не найдете останки плоти."
+L["konthrogz_note"] = "Появляется после смерти определенного количества существ."
+L["popo_note"] = "Поговорите с {npc:180028}, чтобы вызвать событие сопровождения."
 L["pop_quiz_note"] = "Click on the planted veilstaff and answer the questions from {npc:180162}."
-L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
+L["wilderling_note"] = "Нажмите на {npc:180014}, чтобы начать приручение."
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
