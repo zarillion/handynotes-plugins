@@ -263,6 +263,16 @@ L["korthian_shrine_note"] = nil
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = nil
 
+L["invasive_mawshroom"] = nil
+L["mawsworn_cache"] = nil
+L["options_icons_korthia_dailies_desc"] = nil
+L["options_icons_korthia_dailies"] = nil
+L["pile_of_bones"] = nil
+L["relic_cache"] = nil
+L["shardhide_stash"] = nil
+L["shared_note"] = nil
+L["unusual_nest"] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
