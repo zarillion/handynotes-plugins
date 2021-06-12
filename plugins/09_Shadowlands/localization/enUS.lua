@@ -262,6 +262,16 @@ L["korthian_shrine_note"] = "Click on the shrine to gain {spell:352367} to see t
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Display the locations of all 20 relics for the achievement."
 
+L["invasive_mawshroom"] = "Invasive Mawshroom"
+L["mawsworn_cache"] = "Mawsworn Cache"
+L["options_icons_korthia_dailies_desc"] = "Display the locations of the daily treasures."
+L["options_icons_korthia_dailies"] = "Korthia Daily Treasures"
+L["pile_of_bones"] = "Pile of Bones"
+L["relic_cache"] = "Relic Cache"
+L["shardhide_stash"] = "Shardhide Stash"
+L["shared_note"] = "You can collect 5 of these treasures per day."
+L["unusual_nest"] = "Nest of Unusual Materials"
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
