@@ -317,7 +317,7 @@ map.nodes[50478446] = Treasure({
 
 map.nodes[68902990] = Treasure({
     quest=64234,
-    note=L["forgetten_feather_note"],
+    note=L["forgotten_feather_note"],
     rewards={
         Achievement({id=15099, criteria=52237}),
         Toy({item=187051}) -- Forgotten Feather
@@ -576,14 +576,14 @@ map.nodes[49356386] = NPC({
 
 -- local function GetMaelieStatus ()
 --     local count = select(4, GetQuestObjectiveInfo(nil, 0, false))
---     if count ~= nil then return ns.status.Gray(tostring(count)..'/7') end
+--     if count ~= nil then return ns.status.Gray(tostring(count)..'/6') end
 -- end
 
 
 local maelie = Class('Maelie', Collectible, {
     id=179912,
     icon=3155422,
-    quest=nil,
+    quest=64292,
     note=L["maelie_wanderer"],
     pois={POI({
         41103980, 49304170, 59801510, 43003260, 49304170, 50302290,
@@ -591,7 +591,7 @@ local maelie = Class('Maelie', Collectible, {
         })},
     rewards={Mount({item=186643, id=1511})}, -- Reins of the Wanderer
 --    getters={rlabel=GetMaelieStatus}
-})
+})()
 
 map.nodes[60562103] = maelie
 
@@ -638,34 +638,34 @@ map.nodes[37105370] = Shared({label=L["pile_of_bones"]})           --Pile of Bon
 map.nodes[38205170] = Shared({label=L["pile_of_bones"]})           --Pile of Bones
 map.nodes[39605020] = Shared({label=L["pile_of_bones"]})           --Pile of Bones
 map.nodes[41005050] = Shared({label=L["pile_of_bones"]})           --Pile of Bones
-map.nodes[44407730] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[45608140] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[47207680] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[50606710] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[53907610] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[54207230] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[54905020] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[55306510] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[55803730] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[56306760] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[56803880] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[57303490] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[58803360] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[59803590] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[60303900] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[60803500] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[61003290] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[61403810] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[62403750] = Shared({label=L["relic_cache"]})           --Relic Cache
-map.nodes[45803010] = Shared({label=L["shardhide_stash"]})           --Shardhide Stash
-map.nodes[46703060] = Shared({label=L["shardhide_stash"]})           --Shardhide Stash
-map.nodes[47402620] = Shared({label=L["shardhide_stash"]})           --Shardhide Stash
-map.nodes[48103320] = Shared({label=L["shardhide_stash"]})           --Shardhide Stash
-map.nodes[49103010] = Shared({label=L["shardhide_stash"]})           --Shardhide Stash
-map.nodes[49502670] = Shared({label=L["shardhide_stash"]})           --Shardhide Stash
-map.nodes[49703330] = Shared({label=L["shardhide_stash"]})           --Shardhide Stash
-map.nodes[50423124] = Shared({label=L["shardhide_stash"]})           --Shardhide Stash
-map.nodes[51302970] = Shared({label=L["shardhide_stash"]})           --Shardhide Stash
+map.nodes[44407730] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[45608140] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[47207680] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[50606710] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[53907610] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[54207200] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[54905020] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[55306510] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[55803730] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[56306760] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[56803880] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[57303490] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[58803360] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[59803590] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[60303900] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[60803550] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[61003290] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[61403810] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[62403750] = Shared({label=L["relic_cache"]})             --Relic Cache
+map.nodes[45803010] = Shared({label=L["shardhide_stash"]})         --Shardhide Stash
+map.nodes[46703060] = Shared({label=L["shardhide_stash"]})         --Shardhide Stash
+map.nodes[47402620] = Shared({label=L["shardhide_stash"]})         --Shardhide Stash
+map.nodes[48103320] = Shared({label=L["shardhide_stash"]})         --Shardhide Stash
+map.nodes[49103010] = Shared({label=L["shardhide_stash"]})         --Shardhide Stash
+map.nodes[49502670] = Shared({label=L["shardhide_stash"]})         --Shardhide Stash
+map.nodes[49703330] = Shared({label=L["shardhide_stash"]})         --Shardhide Stash
+map.nodes[50423124] = Shared({label=L["shardhide_stash"]})         --Shardhide Stash
+map.nodes[51302970] = Shared({label=L["shardhide_stash"]})         --Shardhide Stash
 --------------------------------------------------------------------------------------------------------------------
 local Mawshroom = Class('Mawshroom', Treasure, {
     group=ns.groups.KORTHIA_SHARED,
@@ -684,7 +684,7 @@ map.nodes[53703790] = Mawshroom({quest=64354})
 map.nodes[45603430] = Mawshroom({quest=64355})
 map.nodes[39703480] = Mawshroom({quest=64356})
 map.nodes[39603000] = Mawshroom({quest=64357})
---item(186990)Recipe:Blossom Burst, item(186988)Recipe:Glory Burst, item(186989)Recipe:Marrow Burst, item(186986)Recipe:Widow Burst, item(187153)Tasty Mawshroom
+
 
 local UMNest = Class('UMNest', Treasure, {
     group=ns.groups.KORTHIA_SHARED,
