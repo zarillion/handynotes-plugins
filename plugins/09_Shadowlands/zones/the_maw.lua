@@ -850,3 +850,29 @@ map.nodes[29376732] = Treasure({
 -- })
 
 --https://ptr.wowhead.com/item=186713/nilganihmaht-control-ring#comments DEAL WITH THIS ASAP?
+
+
+-------------------------------------------------------------------------------
+---------------------------------- ASSAULT -------------------------------
+-------------------------------------------------------------------------------
+local MawswornC = Class('MawswornC', Treasure, {
+    label=L["mawsworn_cache"],
+    group=ns.groups.STYGIAN_CACHES,
+    rewards={
+        Achievement({id=15039, criteria={id=1, qty=true}}),
+        ns.reward.Currency({id=1767, note='20'})
+    }
+})
+
+function MawswornC:PrerequisiteCompleted()
+    -- Timed events that are not active today return nil here
+    return C_TaskQuest.GetQuestTimeLeftMinutes(63543)
+end
+
+map.nodes[30305590] = MawswornC({quest=63815}) --63815MAW
+map.nodes[27806170] = MawswornC({quest=63815}) --63815MAW
+map.nodes[33607040] = MawswornC({quest=63818}) --63818MAW
+map.nodes[32806500] = MawswornC({quest=63825}) --63825MAW
+map.nodes[27806170] = MawswornC({quest=64209}) --64209MAW
+map.nodes[32055633] = MawswornC({quest=63826}) --64209MAW
+-- map.nodes[32006400] = MawSwornC({quest=6}) --     MAW

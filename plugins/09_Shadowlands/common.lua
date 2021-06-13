@@ -9,11 +9,14 @@ local L = ns.locale
 
 local Map = ns.Map
 
+local Item  = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Reward = ns.reward.Reward
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+
+
 
 -------------------------------------------------------------------------------
 
@@ -245,3 +248,11 @@ function Venari:IsMet()
 end
 
 ns.requirement.Venari = Venari
+
+-------------------------------------------------------------------------------
+--------------------------------- RELIC RESEARCH ITEMS ------------------------
+-------------------------------------------------------------------------------
+
+ns.relics = {
+    relic_fragment = Item({item=186685, note="1 Research"}) -- relic fragment
+}

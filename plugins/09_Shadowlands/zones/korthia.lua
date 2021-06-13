@@ -311,7 +311,7 @@ map.nodes[50478446] = Treasure({
     quest=64252,
     rewards={
         Achievement({id=15099, criteria=52242}),
-        Item({item=187350}) --Displaced Relic
+        Item({item=187350, note="300 Research"}) --Displaced Relic
     }
 }) -- Displaced Relic
 
@@ -613,12 +613,14 @@ map.nodes[42873269] = Collectible({
 
 local Shared = Class('Shared', ns.node.Treasure, {
     group=ns.groups.KORTHIA_SHARED,
+    quest={64316,64317,64318,64309,64307},
+    questCount=true,
     icon='chest_lm',
     scale=0.8,
     note=L['shared_note'],
     fgroup='shared_korthia',
     rewards={
-        item=({item=186685}) --Relic Fragment
+        ns.relics.relic_fragment
     },
 })
 
@@ -674,7 +676,7 @@ local Mawshroom = Class('Mawshroom', Treasure, {
     fgroup='darkmaul_shrooms',
     rewards={
         Item({item=187153, quest=64376}), --Tasty Mawshroom
-        Item({item=186685}), --Relic Fragment
+        ns.relics.relic_fragment,
         Item({item=185963, quest=638892}) --Diviner's Rune Chit
 }
 })
@@ -691,8 +693,8 @@ local UMNest = Class('UMNest', Treasure, {
     label=L["unusual_nest"],
     icon='chest_tl',
     rewards={
-        Item({item=187442}), --Scholar's Ancient Pack
-        Item({item=186685}), --Relic Fragment
+        Item({item=187442, note=L["bag"]}), --Scholar's Ancient Pack
+        ns.relics.relic_fragment,
         Item({item=185963, quest=638892}) --Diviner's Rune Chit
 }
 })
@@ -707,8 +709,8 @@ map.nodes[52407270] = UMNest({quest=64362})
 local MawswornC = Class('MawswornC', Treasure, {
     group=ns.groups.KORTHIA_SHARED,
     label=L["mawsworn_cache"],
-    reward={
-        Item=({item=186685})
+    rewards={
+        ns.relics.relic_fragment
     }
 })
 local MAWC1 = MawswornC({quest=64021, icon='chest_yw'})
@@ -728,13 +730,7 @@ map.nodes[56406950] = MAWC3
 map.nodes[56507470] = MAWC3
 
 
---Only during necrolord assault
--- map.nodes[30305590] = MawSwornC() --63815MAW
--- map.nodes[27806170] = MawSwornC() --63815MAW
--- map.nodes[33607040] = MawSwornC() --63818MAW
--- map.nodes[32806500] = MawSwornC() --63825MAW
--- map.nodes[27806170] = MawSwornC() --64209MAW
--- map.nodes[32006400] = MawSwornC() --     MAW
+
 
 
 
