@@ -87,8 +87,8 @@ map.nodes[19324172] = Rare({
 map.nodes[34564206] = Rare({
     id=179853,
     quest=64276,
-    requires=ns.requirement.Spell(352795),
-    note=L["in_rift_note"],
+    requires=ns.requirement.Item(186731),
+    note=L["korthia_rift_note"],
     rewards={
         Achievement({id=15107, criteria=52297}),
         Item({item=187406, note=L["ring"]}) -- Band of Blinding Shadows
@@ -200,16 +200,20 @@ map.nodes[20586935] = Rare({
 map.nodes[49307274] = Rare({
     id=179851,
     quest=64272,
-    requires=ns.requirement.Spell(352795),
-    note=L["in_rift_note"],
+    requires=ns.requirement.Item(186731),
+    note=L["korthia_rift_note"],
     rewards={
         Achievement({id=15107, criteria=52293})
     },
     pois={
         Path({
-            49307274, 49497182, 49587131, 49667100, 49777062, 49907029, 50206988, 50506945, 50686900, 50856866, 51076832, 51336810, 51536800, 51756789,
-            51986776, 52366778, 52616791, 52936806, 53176811, 53396846, 53626889, 53886923, 54266978, 54297040, 54287097, 54077141, 53757172, 53447210,
-            53277241, 53047280, 52747323, 52477358, 52207388, 51817431, 51527461, 51287494, 51047546, 50777520, 50547510, 50277500, 50027471, 49867442,
+            49307274, 49497182, 49587131, 49667100, 49777062, 49907029,
+            50206988, 50506945, 50686900, 50856866, 51076832, 51336810,
+            51536800, 51756789, 51986776, 52366778, 52616791, 52936806,
+            53176811, 53396846, 53626889, 53886923, 54266978, 54297040,
+            54287097, 54077141, 53757172, 53447210, 53277241, 53047280,
+            52747323, 52477358, 52207388, 51817431, 51527461, 51287494,
+            51047546, 50777520, 50547510, 50277500, 50027471, 49867442,
             49717414, 49497367, 49307274
         })
     }
@@ -313,17 +317,17 @@ map.nodes[27397152] = Rare({
 map.nodes[27672526] = Rare({
     id=179735,
     quest=64232,
-    requires=ns.requirement.Spell(352795),
-    note=L["in_rift_note"],
+    requires=ns.requirement.Item(186731),
+    note=L["korthia_rift_note"],
     rewards={
         Achievement({id=15107, criteria=52284}),
-        Item({item=186605}) --Nilganihmaht's Runed Band
+        Item({item=186605}) -- Nilganihmaht's Runed Band
     }
 }) -- Torglluun
 
 map.nodes[68124758] = Rare({
     id=179805,
-    quest=64258, 64439,
+    quest=64258, -- 64439?
     rewards={
         Achievement({id=15107, criteria=52289})
     }
@@ -353,7 +357,6 @@ map.nodes[66404400] = Rare({
         Item({item=186970, quest=62683}) -- Feeder's Hand and Key
     }
 }) -- Ylva, Mate of Guarm
-
 
 -------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
@@ -801,12 +804,12 @@ map.nodes[66034876] = Treasure({
 }) -- Helsworn Chest
 
 map.nodes[23594190] = Treasure({
-   quest=64000,
-   requires=ns.requirement.Item(186190),
-   label=L["etherwyrm_label"],
-   note=L["etherwyrm_note"],
-   rewards={
-       Pet({item=186191, id=3099}) -- Infused Etherwyrm
+    quest=64000,
+    requires=ns.requirement.Item(186190),
+    label=L["etherwyrm_label"],
+    note=L["etherwyrm_note"],
+    rewards={
+        Pet({item=186191, id=3099}) -- Infused Etherwyrm
     },
     pois={
         POI({19143337}) -- Elusive Keybinder
@@ -822,20 +825,55 @@ map.nodes[66526129] = Treasure({
     }
 }) -- Jeweled Heart
 
-map.nodes[29376732] = Treasure({
-    quest=nil, --just the legs QID=64013 IID=186185
-    label=L["lilabom_label"],
-    note=L["lilabom_note"],
+map.nodes[32215608] = Treasure({
+    quest=64010,
+    label='{item:186183}',
+    note=L['lilabom_note'],
     rewards={
+        Item({item=186183}), -- Lil'Abom Head
         Pet({item=186188, id=3099}) -- Lil'Abom
-     },
-     pois={
-         POI({32215608}), -- Head(186183) 64010
-         POI({38505850}), -- Right Hand(186186) in cave 64008
-         POI({39286648}), -- Spare Arm(186187) 64009
-         POI({39906260}) -- Torso(186184) MISSING?????
-     }
- }) -- Lil'Abom
+    }
+}) -- Lil'Abom Head
+
+map.nodes[39906260] = Treasure({
+    quest=nil, -- 64011 or 64012?
+    label='{item:186184}',
+    note=L['lilabom_note'],
+    rewards={
+        Item({item=186184}), -- Lil'Abom Torso
+        Pet({item=186188, id=3099}) -- Lil'Abom
+    }
+}) -- Lil'Abom Torso
+
+map.nodes[29376732] = Treasure({
+    quest=64013,
+    label='{item:186185}',
+    note=L['lilabom_note'],
+    rewards={
+        Item({item=186185}), -- Lil'Abom Legs
+        Pet({item=186188, id=3099}) -- Lil'Abom
+    }
+}) -- Lil'Abom Legs
+
+map.nodes[38505850] = Treasure({
+    quest=64008,
+    label='{item:186186}',
+    note=L['lilabom_note'],
+    rewards={
+        Item({item=186186}), -- Lil'Abom Right Hand
+        Pet({item=186188, id=3099}) -- Lil'Abom
+    }
+}) -- Lil'Abom Right Hand
+
+map.nodes[39286648] = Treasure({
+    quest=64009,
+    label='{item:186187}',
+    note=L['lilabom_note'],
+    rewards={
+        Item({item=186187}), -- Lil'Abom Spare Arm
+        Pet({item=186188, id=3099}) -- Lil'Abom
+    }
+}) -- Lil'Abom Spare Arm
 
 -------------------------------------------------------------------------------
 ---------------------------------- NILGANIHMAHT -------------------------------
@@ -851,10 +889,10 @@ map.nodes[29376732] = Treasure({
 
 --https://ptr.wowhead.com/item=186713/nilganihmaht-control-ring#comments DEAL WITH THIS ASAP?
 
+-------------------------------------------------------------------------------
+----------------------------------- ASSAULT -----------------------------------
+-------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------
----------------------------------- ASSAULT -------------------------------
--------------------------------------------------------------------------------
 local MawswornC = Class('MawswornC', Treasure, {
     label=L["mawsworn_cache"],
     group=ns.groups.STYGIAN_CACHES,

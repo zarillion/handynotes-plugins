@@ -247,7 +247,6 @@ L["flayedwing_transporter_note"] = nil
 L["forgotten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
-L["korthia_rift_note"] = nil
 L["maelie_wanderer"] = nil
 L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
@@ -260,6 +259,7 @@ L["towering_exterminator_note"] = nil
 L["wilderling_note"] = nil
 
 L["archivist_key_note"] = nil
+L["korthia_rift_note"] = nil
 L["korthian_shrine_note"] = nil
 L["num_research"] = nil
 L["options_icons_relic"] = "{achievement:15066}"
@@ -446,8 +446,6 @@ Complétez la suite de quêtes d'introduction pour débloquer les rares et les �
 Jusqu'à ce que vous rameniez {npc:170651} à Oribos, vous serez séparé de la plupart des autres joueurs.
 ]]
 
-L["in_rift_note"] = nil
-
 L["apholeias_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:331783} pour invoquer le rare."
 L["dekaris_note"] = "Au sommet d'un gros rocher en saillie."
 L["deomen_note"] = nil
@@ -456,7 +454,6 @@ L["ekphoras_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la pla
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
 L["ikras_note"] = "Vole autour du Fort de la Perdition. C'est un bon endroit pour l'attirer."
-L["lilabom_label"] = nil
 L["lilabom_note"] = nil
 L["orophea_note"] = "Ramassez {spell:337143} au sud-est et proposez-le à {npc:172577} pour l'activer."
 L["sanngror_note"] = "S'il n'est pas attaquable, attendez qu'il n'expérimente plus sur des âmes."
