@@ -16,8 +16,6 @@ local Reward = ns.reward.Reward
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
-
-
 -------------------------------------------------------------------------------
 
 ns.expansion = 9
@@ -147,7 +145,6 @@ hooksecurefunc(GameTooltip, 'ClearLines', function(self)
     vignetteHandled = false
 end)
 
-
 -------------------------------------------------------------------------------
 ---------------------------------- COVENANTS ----------------------------------
 -------------------------------------------------------------------------------
@@ -250,9 +247,9 @@ end
 ns.requirement.Venari = Venari
 
 -------------------------------------------------------------------------------
---------------------------------- RELIC RESEARCH ITEMS ------------------------
+----------------------------- RELIC RESEARCH ITEMS ----------------------------
 -------------------------------------------------------------------------------
 
 ns.relics = {
-    relic_fragment = Item({item=186685, note="1 Research"}) -- relic fragment
+    relic_fragment = Item({item=186685, note=L["num_research"]:format(1)}) -- relic fragment
 }

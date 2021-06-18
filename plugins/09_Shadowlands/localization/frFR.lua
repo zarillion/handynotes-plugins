@@ -261,6 +261,7 @@ L["wilderling_note"] = nil
 
 L["archivist_key_note"] = nil
 L["korthian_shrine_note"] = nil
+L["num_research"] = nil
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = nil
 
