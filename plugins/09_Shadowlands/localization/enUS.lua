@@ -259,6 +259,7 @@ L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 
 L["archivist_key_note"] = "Purchase {item:186984} from {npc:178257} to unlock."
 L["korthian_shrine_note"] = "Click on the shrine to gain {spell:352367} to see the hidden path to the alter."
+L["num_research"] = "%d Research"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Display the locations of all 20 relics for the achievement."
 
@@ -271,6 +272,7 @@ L["relic_cache"] = "Relic Cache"
 L["shardhide_stash"] = "Shardhide Stash"
 L["shared_note"] = "You can collect 5 of these treasures per day."
 L["unusual_nest"] = "Nest of Unusual Materials"
+
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
