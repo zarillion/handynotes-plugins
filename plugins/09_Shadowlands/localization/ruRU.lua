@@ -246,7 +246,6 @@ L["flayedwing_transporter_note"] = nil
 L["forgotten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
-L["korthia_rift_note"] = nil
 L["maelie_wanderer"] = nil
 L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
@@ -259,6 +258,7 @@ L["towering_exterminator_note"] = nil
 L["wilderling_note"] = nil
 
 L["archivist_key_note"] = nil
+L["korthia_rift_note"] = nil
 L["korthian_shrine_note"] = nil
 L["num_research"] = nil
 L["options_icons_relic"] = "{achievement:15066}"
@@ -443,8 +443,6 @@ L["options_icons_inquisitors_desc"] = "Показать местоположен
 L["return_to_the_maw"] = "Возвращение в Утробу"
 L["maw_intro_note"] = "Начните вводную цепочку заданий у {npc:162804}, чтобы разблокировать редких монстров и события в Утробе."
 
-L["in_rift_note"] = nil
-
 L["apholeias_note"] = "Вместе с 3 другими игроками встаньте на углы платформы и примените {spell:331783}, чтобы призвать редкого монстра."
 L["dekaris_note"] = "На вершине большой выступающей скалы."
 L["deomen_note"] = nil
@@ -453,7 +451,6 @@ L["ekphoras_note"] = "Вместе с 3 другими игроками вста
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
 L["ikras_note"] = "Летает вокруг Цитадели Вечных Мук. Это хорошее место, чтобы его атаковать."
-L["lilabom_label"] = nil
 L["lilabom_note"] = nil
 L["orophea_note"] = "Поднимите {spell:337143} на юго-востоке и предложите {npc:172577}, чтобы активировать."
 L["sanngror_note"] = "Если его нельзя атаковать, подождите, пока он не перестанет экспериментировать с душами."

@@ -245,7 +245,6 @@ L["flayedwing_transporter_note"] = "Click on {npc:178633} to fly to or from the 
 L["forgotten_feather_note"] = "Floating on a small island accessed by jumping down from Keeper's Respite."
 L["hunting_hunter_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
 L["konthrogz_note"] = "Spawns from a devourer's portal event."
-L["korthia_rift_note"] = "Purchase {item:186731} from {npc:178257} to enter the rift."
 L["maelie_wanderer"] = "{npc:179912} will spawn in a set location for the day. Once you have used {spell:355862} on her 6 different days return to {npc:179930} to earn the mount."
 L["no_stoneborne_note"] = "Talk to {npc:179974} to start the event."
 L["offering_box_note"] = "Requires Small Offering Key which can be found on the top of the west side wall of the near by ruins."
@@ -258,6 +257,7 @@ L["towering_exterminator_note"] = "Spawns from a mawsworn portal event."
 L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 
 L["archivist_key_note"] = "Purchase {item:186984} from {npc:178257} to unlock."
+L["korthia_rift_note"] = "Purchase {item:186731} from {npc:178257} to enter the rift."
 L["korthian_shrine_note"] = "Click on the shrine to gain {spell:352367} to see the hidden path to the alter."
 L["num_research"] = "%d Research"
 L["options_icons_relic"] = "{achievement:15066}"
@@ -272,7 +272,6 @@ L["relic_cache"] = "Relic Cache"
 L["shardhide_stash"] = "Shardhide Stash"
 L["shared_note"] = "You can collect 5 of these treasures per day."
 L["unusual_nest"] = "Nest of Unusual Materials"
-
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -443,17 +442,14 @@ L["options_icons_inquisitors_desc"] = "Display inquisitor locations for the {ach
 L["return_to_the_maw"] = "Return to the Maw"
 L["maw_intro_note"] = "Begin the introductory quest chain from {npc:162804} to unlock rares and events in the maw."
 
-L["in_rift_note"] = "Requires the Night Fae Assault to be active. Use the {item:187012} to gain the {spell:352795} buff to be able to see this rare."
-
 L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
 L["dekaris_note"] = "On top of a large jutting rock."
 L["deomen_note"] = "Enter the chamber to the west of his cell and activate the lock control to access him."
 L["drifting_sorrow_note"] = "Kill {npc:175246s} near the hovering orb to activate the boss."
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
 L["etherwyrm_label"] = "Infused Etherwyrm Cage"
-L["etherwyrm_note"] = "To gain the {item:186190} kill an {npc:179030} while in the rift."
+L["etherwyrm_note"] = "Requires the Night Fae assault to be active. To gain the {item:186190} kill an {npc:179030} while in the rift."
 L["ikras_note"] = "Flies around Perdition Hold. This is a good place to pull him."
-L["lilabom_label"] = "Lil'Abom"
 L["lilabom_note"] = "Collect All 5 parts to complete the pet."
 L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
 L["sanngror_note"] = "If he is not attackable, wait until he is not experimenting on souls."

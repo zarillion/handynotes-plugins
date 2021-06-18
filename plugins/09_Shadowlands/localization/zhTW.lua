@@ -245,7 +245,6 @@ L["flayedwing_transporter_note"] = nil
 L["forgotten_feather_note"] = nil
 L["hunting_hunter_note"] = nil
 L["konthrogz_note"] = nil
-L["korthia_rift_note"] = nil
 L["maelie_wanderer"] = nil
 L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
@@ -258,6 +257,7 @@ L["towering_exterminator_note"] = nil
 L["wilderling_note"] = nil
 
 L["archivist_key_note"] = nil
+L["korthia_rift_note"] = nil
 L["korthian_shrine_note"] = nil
 L["num_research"] = nil
 L["options_icons_relic"] = "{achievement:15066}"
@@ -442,8 +442,6 @@ L["options_icons_inquisitors_desc"] = "顯示 {achievement:14276} 成就中審�
 L["return_to_the_maw"] = "重返淵喉"
 L["maw_intro_note"] = "從 {npc:162804} 開始指引任務線以解鎖淵喉的稀有和事件。"
 
-L["in_rift_note"] = nil
-
 L["apholeias_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:331783} 召喚稀有。"
 L["dekaris_note"] = "在一個大型的突出岩石上。"
 L["deomen_note"] = nil
@@ -452,7 +450,6 @@ L["ekphoras_note"] = "和3名其他玩家，站在平臺的角落並施放 {spel
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
 L["ikras_note"] = "環繞墮滅堡飛行。這是個攻擊他的好位置。"
-L["lilabom_label"] = nil
 L["lilabom_note"] = nil
 L["orophea_note"] = "從東南方的拾取 {spell:337143} 並提供給 {npc:172577} 啟動。"
 L["sanngror_note"] = "如果他是無法攻擊的，等到她停止對靈魂做實驗即可。"
