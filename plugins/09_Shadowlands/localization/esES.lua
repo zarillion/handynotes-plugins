@@ -451,6 +451,7 @@ L["drifting_sorrow_note"] = "Mata {npc:175246} cerca del orbe flotante para acti
 L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:330650} para hacer aparecer a {npc:169827}."
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
+L["fallen_charger_note"] = nil
 L["ikras_note"] = "Vuela alrededor del Bastión de la Perdición. Este es un buen sitio para pullearlo."
 L["lilabom_note"] = nil
 L["orophea_note"] = "Coge el {spell:337143} al sureste y ofréceselo a {npc:172577} para que se active."

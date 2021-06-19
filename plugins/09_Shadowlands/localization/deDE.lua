@@ -450,6 +450,7 @@ L["drifting_sorrow_note"] = "Töte {npc:175246} in der Nähe der schwebenden Kug
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
+L["fallen_charger_note"] = nil
 L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen."
 L["lilabom_note"] = nil
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, um sie zu aktivieren."

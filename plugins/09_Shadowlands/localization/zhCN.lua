@@ -449,6 +449,7 @@ L["drifting_sorrow_note"] = "在悬浮宝珠附近击杀 {npc:175246} 激活首�
 L["ekphoras_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:330650} 召唤稀有。"
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
+L["fallen_charger_note"] = nil
 L["ikras_note"] = "在破灭堡飞来飞去。这里是攻击他的好位置。"
 L["lilabom_note"] = nil
 L["orophea_note"] = "从东南方的拾取 {spell:337143} 并提供给 {npc:172577} 激活。"
