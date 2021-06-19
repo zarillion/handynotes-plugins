@@ -129,15 +129,6 @@ map.nodes[33183938] = Rare({
     }
 }) -- Escaped Wilderling
 
--- map.nodes[] = Rare({
---     id=177903,
---     quest=nil,
---     rewards={
---         Achievement({id=15107, criteria=52292}),
---         Mount({item=186658, id=}) -- Fallen Charger's Reins
---     }
--- }) -- Fallen Charger
-
 map.nodes[60652315] = Rare({
     id=179684,
     quest=64233,
