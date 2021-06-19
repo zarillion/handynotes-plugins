@@ -13,6 +13,7 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Quest = ns.reward.Quest
 local Section = ns.reward.Section
@@ -196,6 +197,29 @@ map.nodes[20586935] = Rare({
         Item({item=183068, quest=63162})  -- Korrath's Grimoire: Gyadrek
     }
 }) -- Exos, Herald of Domination
+
+map.nodes[17714953] = Rare({
+    id=177903,
+    quest=64164,
+    rewards={
+        Achievement({id=15107, criteria=52292}),
+        Mount({item=186658, id=1502}) -- Fallen Charger's Reins
+    },
+    pois={
+        Path({
+            17634964, 21494366, 20953314, 23672798, 25822102,
+            28181466, 33321845, 33972481, 35932921, 37153398,
+            43694131, 41964743, 46265763, 50626283, 59366329,
+            62486937, 60407670
+        }),
+        Path({
+            17634964, 21494366, 25543659, 31283745, 32144455,
+            36304799, 34295466, 36736413, 44056349, 45347403,
+            48928415, 55528687
+        })
+    }
+}) -- Fallen Charger
+
 
 map.nodes[49307274] = Rare({
     id=179851,
@@ -836,7 +860,7 @@ map.nodes[32215608] = Treasure({
 }) -- Lil'Abom Head
 
 map.nodes[39906260] = Treasure({
-    quest=nil, -- 64011 or 64012?
+    quest=64011,
     label='{item:186184}',
     note=L['lilabom_note'],
     rewards={
