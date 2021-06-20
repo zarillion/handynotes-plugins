@@ -496,6 +496,60 @@ L["box_of_torments_note"] = "Öffne die {npc:173837} unter dem Tremaculum."
 L["tormentors_notes_note"] = "Plündere die Leiche von {npc:173811}."
 L["words_of_warden_note"] = "Untersuche die |cffffff00Papierfetzen|r auf einem Stein hinter einigen Töpfen."
 
+-- Locations given relative to a map area name
+L["nexus_area_calcis_branch"] = nil
+L["nexus_area_calcis_crystals"] = nil
+L["nexus_area_cradle_bridge"] = nil
+L["nexus_area_domination_bridge"] = nil
+L["nexus_area_domination_edge"] = nil
+L["nexus_area_domination_room"] = nil
+L["nexus_area_domination_stairs"] = nil
+L["nexus_area_gorgoa_bank"] = nil
+L["nexus_area_gorgoa_middle"] = nil
+L["nexus_area_gorgoa_mouth"] = nil
+L["nexus_area_perdition_wall"] = nil
+L["nexus_area_torment_rock"] = nil
+L["nexus_area_zone_edge"] = nil
+L["nexus_area_zovaal_wall"] = nil
+-- Locations given relative to a named cave/cavern
+L["nexus_cave_anguish_lower"] = nil
+L["nexus_cave_anguish_outside"] = nil
+L["nexus_cave_anguish_upper"] = nil
+L["nexus_cave_desmotaeron"] = nil
+L["nexus_cave_echoing_outside"] = nil
+L["nexus_cave_forlorn"] = nil
+L["nexus_cave_howl_outside"] = nil
+L["nexus_cave_howl"] = nil
+L["nexus_cave_ledge"] = nil
+L["nexus_cave_mothers"] = nil
+L["nexus_cave_prodigum"] = nil
+L["nexus_cave_raveners"] = nil
+L["nexus_cave_soulstained"] = nil
+L["nexus_cave_torturer"] = nil
+-- Locations given relative to a named NPC
+L["nexus_npc_akros"] = nil
+L["nexus_npc_dolos"] = nil
+L["nexus_npc_ekphoras"] = nil
+L["nexus_npc_incinerator"] = nil
+L["nexus_npc_orophea"] = nil
+L["nexus_npc_orrholyn"] = nil
+L["nexus_npc_portal"] = nil
+L["nexus_npc_talaporas"] = nil
+L["nexus_npc_thanassos"] = nil
+-- Locations given relative to the main path/road nearby
+L["nexus_road_below"] = nil
+L["nexus_road_cave"] = nil
+L["nexus_road_mawrats"] = nil
+L["nexus_road_next"] = nil
+L["nexus_room_ramparts"] = nil
+-- Random locations described as best as possible
+L["nexus_misc_crystal_ledge"] = nil
+L["nexus_misc_floating_cage"] = nil
+L["nexus_misc_grapple_ramparts"] = nil
+L["nexus_misc_grapple_rock"] = nil
+L["nexus_misc_ledge_below"] = nil
+L["nexus_misc_three_chains"] = nil
+
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"
 L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."
 L["options_icons_bonus_event"] = "Bonus Events"

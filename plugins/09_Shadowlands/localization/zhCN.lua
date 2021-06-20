@@ -495,6 +495,60 @@ L["box_of_torments_note"] = "在特玛库伦下面打开 {npc:173837}。"
 L["tormentors_notes_note"] = "拾取 {npc:173811} 的尸体。"
 L["words_of_warden_note"] = "检查一些罐子后面岩石上的 {npc:173841}。"
 
+-- Locations given relative to a map area name
+L["nexus_area_calcis_branch"] = nil
+L["nexus_area_calcis_crystals"] = nil
+L["nexus_area_cradle_bridge"] = nil
+L["nexus_area_domination_bridge"] = nil
+L["nexus_area_domination_edge"] = nil
+L["nexus_area_domination_room"] = nil
+L["nexus_area_domination_stairs"] = nil
+L["nexus_area_gorgoa_bank"] = nil
+L["nexus_area_gorgoa_middle"] = nil
+L["nexus_area_gorgoa_mouth"] = nil
+L["nexus_area_perdition_wall"] = nil
+L["nexus_area_torment_rock"] = nil
+L["nexus_area_zone_edge"] = nil
+L["nexus_area_zovaal_wall"] = nil
+-- Locations given relative to a named cave/cavern
+L["nexus_cave_anguish_lower"] = nil
+L["nexus_cave_anguish_outside"] = nil
+L["nexus_cave_anguish_upper"] = nil
+L["nexus_cave_desmotaeron"] = nil
+L["nexus_cave_echoing_outside"] = nil
+L["nexus_cave_forlorn"] = nil
+L["nexus_cave_howl_outside"] = nil
+L["nexus_cave_howl"] = nil
+L["nexus_cave_ledge"] = nil
+L["nexus_cave_mothers"] = nil
+L["nexus_cave_prodigum"] = nil
+L["nexus_cave_raveners"] = nil
+L["nexus_cave_soulstained"] = nil
+L["nexus_cave_torturer"] = nil
+-- Locations given relative to a named NPC
+L["nexus_npc_akros"] = nil
+L["nexus_npc_dolos"] = nil
+L["nexus_npc_ekphoras"] = nil
+L["nexus_npc_incinerator"] = nil
+L["nexus_npc_orophea"] = nil
+L["nexus_npc_orrholyn"] = nil
+L["nexus_npc_portal"] = nil
+L["nexus_npc_talaporas"] = nil
+L["nexus_npc_thanassos"] = nil
+-- Locations given relative to the main path/road nearby
+L["nexus_road_below"] = nil
+L["nexus_road_cave"] = nil
+L["nexus_road_mawrats"] = nil
+L["nexus_road_next"] = nil
+L["nexus_room_ramparts"] = nil
+-- Random locations described as best as possible
+L["nexus_misc_crystal_ledge"] = nil
+L["nexus_misc_floating_cage"] = nil
+L["nexus_misc_grapple_ramparts"] = nil
+L["nexus_misc_grapple_rock"] = nil
+L["nexus_misc_ledge_below"] = nil
+L["nexus_misc_three_chains"] = nil
+
 L["options_icons_bonus_boss"] = "奖励精英"
 L["options_icons_bonus_boss_desc"] = "显示奖励精英位置。"
 L["options_icons_bonus_event"] = "奖励事件"

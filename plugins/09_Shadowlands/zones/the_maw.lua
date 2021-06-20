@@ -36,6 +36,9 @@ function map:Prepare ()
     self.phased = C_QuestLog.IsQuestFlaggedCompleted(62907)
 end
 
+local pitu = Map({id=1820}) -- Pit of Anguish (upper)
+local pitl = Map({id=1821}) -- Pit of Anguish (lower)
+
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
 -------------------------------------------------------------------------------
@@ -632,6 +635,13 @@ map.nodes[34804362] = Riftstone({
 
 -------------------------------------------------------------------------------
 
+map.nodes[19776617] = Riftstone({
+    icon='portal_p',
+    pois={Arrow({19776617, 34794350})}
+})
+
+-------------------------------------------------------------------------------
+
 map.nodes[48284145] = NPC({
     group=ns.groups.RIFTSTONE,
     icon='portal_b',
@@ -652,15 +662,17 @@ map.nodes[48284145] = NPC({
 
 local GRAPPLES = {
     17574994, 20753838, 20764394, 21553194, 22014819, 22174389, 22475485,
-    22534798, 22942220, 22956723, 23034411, 23076836, 23676572, 24542916,
-    24833046, 24866552, 25456554, 25633108, 26116811, 26132722, 26306726,
-    26342905, 26541861, 26952753, 27202506, 27362593, 27896168, 28161347,
-    28634916, 29561776, 29661285, 29863694, 29951784, 30033617, 30132835,
-    30582337, 30591312, 30756551, 30942597, 31221584, 31316530, 31351499,
-    31655664, 32056840, 32194490, 32426772, 32674369, 32904238, 33102066,
-    33286365, 33295928, 33374532, 33584024, 33767056, 34074701, 34237005,
-    34463889, 34624440, 35006680, 36244139, 36264642, 37844512, 40334904,
-    41184945, 41304785, 42264174,
+    22534798, 22942220, 23034411, 24542916, 24833046, 25633108, 26132722,
+    26342905, 26541861, 26952753, 27202506, 27362593, 28161347, 28634916,
+    29561776, 29661285, 29863694, 29951784, 30033617, 30132835, 30582337,
+    30591312, 30942597, 31221584, 31351499, 32194490, 32674369, 32904238,
+    33102066, 33374532, 33584024, 34074701, 34463889, 34624440, 36244139,
+    36264642, 37844512, 40334904, 41184945, 41304785, 42264174,
+    -- Perdition Hold
+    20506783, 22167106, 22237079, 22956723, 23017146, 23076836, 23676572,
+    23717533, 24866552, 25456554, 26116811, 26306726, 27896168, 30756551,
+    31316530, 31655664, 32056840, 32426772, 33286365, 33295928, 33767056,
+    34237005, 35006680,
     -- Beast Warrens
     44996655, 47608194, 48397060, 49377318, 49997460, 50027306, 51427820,
     52177614, 52247887, 52957021, 53157840, 53266871, 53726760, 53917700,
@@ -763,34 +775,105 @@ map.nodes[56196307] = Cache({
     }
 })
 map.nodes[61505080] = Cache()
+pitl.nodes[46896760] = Cache({parent=map.id})
 
 -------------------------------------------------------------------------------
 --------------------------------- STYGIA NEXUS --------------------------------
 -------------------------------------------------------------------------------
 
-local STYGIA_NEXUS = {
-    16005200, 16005500, 17004900, 17005000, 18005300, 18005400, 19003400,
-    19003500, 19003700, 19003800, 19006700, 20003500, 20003800, 21003900,
-    21006500, 21007200, 22006800, 23002200, 23003400, 23005500, 57006000,
-    57007100, 59006100, 23007000, 24004300, 24004700, 24006500, 24006800,
-    25005000, 25006500, 25006800, 26003000, 27002600, 28004500, 28004900,
-    28006000, 29004900, 29006500, 30002800, 33004200, 33006400, 34007000,
-    35006700, 59007800, 61006800, 67005500, 36004200, 37004300, 38001900,
-    40004900, 41004700, 42006900, 43006800, 44005800, 45006600, 45006700,
-    48007000, 48008400, 50007300, 51008300, 51008600, 52006700, 52006800,
-    52007100, 52007600, 52007900, 52008100, 53006600, 53007800, 53008000,
-    54008400
-}
+-- local STYGIA_NEXUS = {
+--     17005000, 19003400, 21003900, 23007000, 24006800, 25006800, 28004500,
+--     29006500, 30002800, 36004200, 38001900, 44005800, 45006600, 45006700,
+--     52006700, 52006800, 53006600, 57006000
+-- }
 
-for _, coord in ipairs(STYGIA_NEXUS) do
-    map.nodes[coord] = NPC({
-        group=ns.groups.STYGIA_NEXUS,
-        icon='peg_gn',
-        id=177632,
-        requires=ns.requirement.Item(184870),
-        scale=1.25,
-    })
-end
+local Nexus = Class('StygiaNexus', NPC, {
+    group=ns.groups.STYGIA_NEXUS,
+    icon='peg_gn',
+    id=177632,
+    requires=ns.requirement.Item(184870),
+    scale=1.25
+})
+
+map.nodes[16015170] = Nexus({note=L["nexus_npc_portal"]})
+map.nodes[16875503] = Nexus({note=L["nexus_area_gorgoa_mouth"]})
+map.nodes[17745311] = Nexus({note=L["nexus_area_gorgoa_mouth"]})
+map.nodes[18285458] = Nexus({note=L["nexus_area_gorgoa_mouth"]})
+map.nodes[19206731] = Nexus({note=L["nexus_area_domination_edge"]})
+map.nodes[19433790] = Nexus({note=L["nexus_area_calcis_crystals"]})
+map.nodes[19643533] = Nexus({note=L["nexus_area_calcis_crystals"]})
+map.nodes[21366560] = Nexus({note=L["nexus_area_domination_room"]})
+map.nodes[21403189] = Nexus({note=L["nexus_area_calcis_branch"]})
+map.nodes[21656684] = Nexus({note=L["nexus_area_domination_edge"]})
+map.nodes[21717193] = Nexus({note=L["nexus_area_domination_stairs"]})
+map.nodes[25252558] = Nexus({note=L["nexus_area_cradle_bridge"]})
+map.nodes[22515477] = Nexus({note=L["nexus_misc_grapple_rock"]})
+map.nodes[22922234] = Nexus({note=L["nexus_misc_grapple_rock"]})
+map.nodes[22926805] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
+map.nodes[23044444] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
+map.nodes[23252132] = Nexus({note=L["nexus_npc_orophea"]})
+map.nodes[23277382] = Nexus({note=L["nexus_area_domination_bridge"]})
+map.nodes[23493460] = Nexus({note=L["nexus_area_calcis_crystals"]})
+map.nodes[23776535] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
+map.nodes[24154277] = Nexus({note=L["nexus_area_gorgoa_bank"]})
+map.nodes[24394690] = Nexus({note=L["nexus_area_gorgoa_bank"]})
+map.nodes[24703005] = Nexus({note=L["nexus_misc_grapple_rock"]})
+map.nodes[25156553] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
+map.nodes[25255011] = Nexus({note=L["nexus_npc_orrholyn"]})
+map.nodes[25623699] = Nexus({note=L["nexus_cave_forlorn"]})
+map.nodes[26004499] = Nexus({note=L["nexus_misc_crystal_ledge"]})
+map.nodes[26336859] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
+map.nodes[26842748] = Nexus({note=L["nexus_misc_grapple_rock"]})
+map.nodes[27427226] = Nexus({note=L["nexus_npc_thanassos"]})
+map.nodes[27541273] = Nexus({note=L["nexus_npc_talaporas"]})
+map.nodes[27906041] = Nexus({note=L["nexus_npc_dolos"]})
+map.nodes[28573090] = Nexus({note=L["nexus_area_torment_rock"]})
+map.nodes[28674931] = Nexus({note=L["nexus_misc_grapple_rock"]})
+map.nodes[33064239] = Nexus({note=L["nexus_area_zovaal_wall"]})
+map.nodes[33156479] = Nexus({note=L["nexus_area_perdition_wall"]})
+map.nodes[33647481] = Nexus({note=L["nexus_npc_akros"]})
+map.nodes[33977033] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
+map.nodes[34076193] = Nexus({note=L["nexus_room_ramparts"]})
+map.nodes[35446747] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
+map.nodes[37504334] = Nexus({note=L["nexus_npc_incinerator"]})
+map.nodes[37544368] = Nexus({note=L["nexus_npc_incinerator"]})
+map.nodes[39462356] = Nexus({note=L["nexus_area_gorgoa_middle"]})
+map.nodes[40444906] = Nexus({note=L["nexus_misc_grapple_rock"]})
+map.nodes[41234967] = Nexus({note=L["nexus_misc_floating_cage"]})
+map.nodes[41314784] = Nexus({note=L["nexus_misc_floating_cage"]})
+map.nodes[42412320] = Nexus({note=L["nexus_npc_ekphoras"]})
+map.nodes[43816887] = Nexus({note=L["nexus_area_zone_edge"]})
+map.nodes[47166238] = Nexus({note=L["nexus_road_below"]})
+map.nodes[48078370] = Nexus({note=L["nexus_cave_howl_outside"]})
+map.nodes[48327061] = Nexus({note=L["nexus_misc_floating_cage"]})
+map.nodes[49917471] = Nexus({note=L["nexus_misc_grapple_rock"]})
+map.nodes[50047306] = Nexus({note=L["nexus_misc_floating_cage"]})
+map.nodes[50958572] = Nexus({note=L["nexus_cave_howl"]})
+map.nodes[51467820] = Nexus({note=L["nexus_misc_floating_cage"]})
+map.nodes[51488386] = Nexus({note=L["nexus_cave_howl"]})
+map.nodes[51627864] = Nexus({note=L["nexus_misc_three_chains"]})
+map.nodes[51907098] = Nexus({note=L["nexus_cave_ledge"]})
+map.nodes[52018189] = Nexus({note=L["nexus_misc_ledge_below"]})
+map.nodes[52167619] = Nexus({note=L["nexus_misc_floating_cage"]})
+map.nodes[53167848] = Nexus({note=L["nexus_misc_floating_cage"]})
+map.nodes[53338024] = Nexus({note=L["nexus_cave_anguish_outside"]})
+map.nodes[53975865] = Nexus({note=L["nexus_road_cave"]})
+map.nodes[54328482] = Nexus({note=L["nexus_road_mawrats"]})
+map.nodes[54556720] = Nexus({note=L["nexus_misc_floating_cage"]})
+map.nodes[54967623] = Nexus({note=L["nexus_misc_grapple_rock"]})
+map.nodes[55026349] = Nexus({note=L["nexus_cave_torturer"]})
+map.nodes[55527722] = Nexus({note=L["nexus_cave_prodigum"]})
+map.nodes[56677080] = Nexus({note=L["nexus_cave_soulstained"]})
+map.nodes[57668561] = Nexus({note=L["nexus_cave_raveners"]})
+map.nodes[58435196] = Nexus({note=L["nexus_cave_echoing_outside"]})
+map.nodes[59007837] = Nexus({note=L["nexus_road_next"]})
+map.nodes[59056108] = Nexus({note=L["nexus_cave_desmotaeron"]})
+map.nodes[60866755] = Nexus({note=L["nexus_road_next"]})
+map.nodes[61567704] = Nexus({note=L["nexus_cave_mothers"]})
+
+pitu.nodes[66355542] = Nexus({note=L["nexus_cave_anguish_upper"], parent=map.id})
+pitl.nodes[45526802] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id})
+pitl.nodes[67185536] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id})
 
 -------------------------------------------------------------------------------
 ----------------------------------- VE'NARI -----------------------------------
