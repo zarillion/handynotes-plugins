@@ -239,40 +239,40 @@ L["zolla_note"] = "Мы очень серьезно относимся к наш
 -------------------------------------------------------------------------------
 
 L["chamber_note"] = nil
-L["corpse_heap_note"] = nil
-L["darkmaul_note"] = nil
+L["corpse_heap_note"] = "Поговорите с {npc:180079}, чтобы начать событие сбора."
+L["darkmaul_note"] = "Соберите {item:187153} из Инвазивных грибов Утробы и скормите их {npc:180063}. Вы должны проделать это 6 раз, чтобы получить средство передвижение."
 L["dislodged_nest_note"] = nil
-L["flayedwing_transporter_note"] = nil
+L["flayedwing_transporter_note"] = "Нажмите на {npc:178633}, чтобы перелететь в Хранилище Тайн или из него."
 L["forgotten_feather_note"] = nil
-L["hunting_hunter_note"] = nil
-L["konthrogz_note"] = nil
-L["maelie_wanderer"] = nil
+L["hunting_hunter_note"] = "Поговорите с {npc:179729}, чтобы получить {spell:355078}, и следуйте по следам, пока не найдете останки плоти."
+L["konthrogz_note"] = "Появляется в событии портала Пожирателя."
+L["maelie_wanderer"] = "{npc:179912} появится в случайном месте в течение дня. После того, как вы использовали {spell:355862} в течении 6 дней, вернитесь к {npc:179930}, чтобы забрать средство передвижения."
 L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
 L["pop_quiz_note"] = nil
-L["popo_note"] = nil
-L["razorwing_nest"] = nil
-L["razorwing_note"] = nil
-L["reliwik_note"] = nil
+L["popo_note"] = "Поговорите с {npc:180028}, чтобы вызвать событие сопровождения."
+L["razorwing_nest"] = "Закатный Матриарх"
+L["razorwing_note"] = "Отнесите {item:187054}, которые можно получить с местных пожирателей."
+L["reliwik_note"] = "Нажмите на нетронутое порчей яйцо бритвокрыла, чтобы призвать монстра."
 L["towering_exterminator_note"] = nil
-L["wilderling_note"] = nil
+L["wilderling_note"] = "Нажмите на {npc:180014}, чтобы начать приручение."
 
 L["archivist_key_note"] = nil
 L["korthia_rift_note"] = nil
 L["korthian_shrine_note"] = nil
-L["num_research"] = nil
+L["num_research"] = "%d Исследование"
 L["options_icons_relic"] = "{achievement:15066}"
-L["options_icons_relic_desc"] = nil
+L["options_icons_relic_desc"] = "Покажите расположение всех 20 реликвий для достижения."
 
-L["invasive_mawshroom"] = nil
-L["mawsworn_cache"] = nil
-L["options_icons_korthia_dailies_desc"] = nil
-L["options_icons_korthia_dailies"] = nil
-L["pile_of_bones"] = nil
-L["relic_cache"] = nil
-L["shardhide_stash"] = nil
-L["shared_note"] = nil
-L["unusual_nest"] = nil
+L["invasive_mawshroom"] = "Инвазивный гриб Утробы"
+L["mawsworn_cache"] = "Тайник Верных Утробе"
+L["options_icons_korthia_dailies_desc"] = "Отображение местоположения ежедневных сокровищ."
+L["options_icons_korthia_dailies"] = "Ежедневные сокровища Кортии"
+L["pile_of_bones"] = "Груда костей"
+L["relic_cache"] = "Тайник с реликвиями"
+L["shardhide_stash"] = "Тайник сланцевика"
+L["shared_note"] = "Вы можете собрать 5 таких сокровищ в день."
+L["unusual_nest"] = "Гнездо с необычными материалами"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
