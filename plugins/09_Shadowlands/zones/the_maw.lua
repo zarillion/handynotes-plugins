@@ -350,7 +350,7 @@ map.nodes[27672526] = Rare({
     note=L["korthia_rift_note"],
     rewards={
         Achievement({id=15107, criteria=52284}),
-        Item({item=186605, note=L["ring"]}) -- Nilganihmaht's Runed Band
+        Item({item=186605}) -- Nilganihmaht's Runed Band
     }
 }) -- Torglluun
 
@@ -826,12 +826,23 @@ map.nodes[46914169] = NPC({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[66034876] = Treasure({
+map.nodes[69214520] = Treasure({
     quest=64256,
     rewards={
         Achievement({id=15099, criteria=52243})
     }
 }) -- Helsworn Chest
+
+local Helgarde = Class('Helgarde', Treasure, {
+    quest=62682,
+    label=L["helgarde_supply"],
+    rewards={
+        Item({item=186727}) --Seal Breaker Key
+    }
+})
+map.node[65706121] = Helgarde
+map.node[67705310] = Helgarde
+map.node[68204810] = Helgarde
 
 map.nodes[23594190] = Treasure({
     quest=64000,

@@ -451,6 +451,7 @@ L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Pla
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
 L["fallen_charger_note"] = nil
+L["helgarde_supply"] = nil
 L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen."
 L["lilabom_note"] = nil
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, um sie zu aktivieren."

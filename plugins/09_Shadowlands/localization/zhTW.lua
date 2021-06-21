@@ -450,6 +450,7 @@ L["ekphoras_note"] = "和3名其他玩家，站在平臺的角落並施放 {spel
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
 L["fallen_charger_note"] = nil
+L["helgarde_supply"] = nil
 L["ikras_note"] = "環繞墮滅堡飛行。這是個攻擊他的好位置。"
 L["lilabom_note"] = nil
 L["orophea_note"] = "從東南方的拾取 {spell:337143} 並提供給 {npc:172577} 啟動。"

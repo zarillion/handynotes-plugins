@@ -454,6 +454,7 @@ L["ekphoras_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la pla
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
 L["fallen_charger_note"] = nil
+L["helgarde_supply"] = nil
 L["ikras_note"] = "Vole autour du Fort de la Perdition. C'est un bon endroit pour l'attirer."
 L["lilabom_note"] = nil
 L["orophea_note"] = "Ramassez {spell:337143} au sud-est et proposez-le à {npc:172577} pour l'activer."

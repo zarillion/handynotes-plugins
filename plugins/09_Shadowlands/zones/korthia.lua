@@ -258,7 +258,7 @@ map.nodes[44604240] = Rare({
 
 map.nodes[57607040] = Rare({
     id=179911,
-    quest=nil,
+    quest=64284,
     requires=ns.requirement.Item(186731),
     note=L["korthia_rift_note"],
     rewards={
@@ -566,13 +566,13 @@ map.nodes[39404270] = Relic({
 ---------------------------------- TRANSPORT ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[47283992] = NPC({
+map.nodes[60832857] = NPC({
     id=178633,
     note=L["flayedwing_transporter_note"],
     icon='flight_point_y',
     scale=1.25,
     fgroup='flayedwing_transporter1',
-   pois={Line({47283992, 49356386})}
+   pois={Line({60832857, 49356386})}
 })
 
 map.nodes[49356386] = NPC({
@@ -613,7 +613,6 @@ map.nodes[42873269] = Collectible({
     quest=64376,
     rewards={Mount({item=186646, id=1507})}, -- Darkmaul
     note=L["darkmaul_note"],
-    fgroup='darkmaul_shrooms'
 })
 
 -------------------------------------------------------------------------------
@@ -622,9 +621,8 @@ map.nodes[42873269] = Collectible({
 
 local Shared = Class('Shared', ns.node.Treasure, {
     group=ns.groups.KORTHIA_SHARED,
-    quest={64316,64317,64318,64309,64307},
+    quest={64316,64317,64318,64564,64565},  --Quest IDs 64307/64309 seem to be changed.
     questCount=true,
-    icon='chest_lm',
     scale=0.8,
     note=L['shared_note'],
     fgroup='shared_korthia',
@@ -633,11 +631,10 @@ local Shared = Class('Shared', ns.node.Treasure, {
     }
 })
 
---Shares quest IDs --64316,64317,64318,64309,64307
-
 map.nodes[27204830] = Shared({label=L["pile_of_bones"]})
 map.nodes[28205070] = Shared({label=L["pile_of_bones"]})
 map.nodes[29304710] = Shared({label=L["pile_of_bones"]})
+map.nodes[29514952] = Shared({label=L["pile_of_bones"]})
 map.nodes[30904570] = Shared({label=L["pile_of_bones"]})
 map.nodes[32704200] = Shared({label=L["pile_of_bones"]})
 map.nodes[32804530] = Shared({label=L["pile_of_bones"]})
@@ -649,8 +646,11 @@ map.nodes[37105370] = Shared({label=L["pile_of_bones"]})
 map.nodes[38205170] = Shared({label=L["pile_of_bones"]})
 map.nodes[39605020] = Shared({label=L["pile_of_bones"]})
 map.nodes[41005050] = Shared({label=L["pile_of_bones"]})
+map.nodes[44015608] = Shared({label=L["relic_cache"]})
 map.nodes[44407730] = Shared({label=L["relic_cache"]})
+map.nodes[45344950] = Shared({label=L["relic_cache"]})
 map.nodes[45608140] = Shared({label=L["relic_cache"]})
+map.nodes[46295672] = Shared({label=L["relic_cache"]})
 map.nodes[47207680] = Shared({label=L["relic_cache"]})
 map.nodes[50606710] = Shared({label=L["relic_cache"]})
 map.nodes[53907610] = Shared({label=L["relic_cache"]})
@@ -661,6 +661,7 @@ map.nodes[55803730] = Shared({label=L["relic_cache"]})
 map.nodes[56306760] = Shared({label=L["relic_cache"]})
 map.nodes[56803880] = Shared({label=L["relic_cache"]})
 map.nodes[57303490] = Shared({label=L["relic_cache"]})
+map.nodes[57344800] = Shared({label=L["relic_cache"]})
 map.nodes[58803360] = Shared({label=L["relic_cache"]})
 map.nodes[59803590] = Shared({label=L["relic_cache"]})
 map.nodes[60303900] = Shared({label=L["relic_cache"]})
@@ -677,14 +678,13 @@ map.nodes[49502670] = Shared({label=L["shardhide_stash"]})
 map.nodes[49703330] = Shared({label=L["shardhide_stash"]})
 map.nodes[50423124] = Shared({label=L["shardhide_stash"]})
 map.nodes[51302970] = Shared({label=L["shardhide_stash"]})
+map.nodes[52322701] = Shared({label=L["shardhide_stash"]})
 
 -------------------------------------------------------------------------------
 
 local Mawshroom = Class('Mawshroom', Treasure, {
     group=ns.groups.KORTHIA_SHARED,
     label=L["invasive_mawshroom"],
-    icon='chest_pk',
-    fgroup='darkmaul_shrooms',
     rewards={
         Item({item=187153, quest=64376}), --Tasty Mawshroom
         ns.relics.relic_fragment,
@@ -692,11 +692,34 @@ local Mawshroom = Class('Mawshroom', Treasure, {
     }
 })
 
-map.nodes[54204120] = Mawshroom({quest=64351})
-map.nodes[53703790] = Mawshroom({quest=64354})
-map.nodes[45603430] = Mawshroom({quest=64355})
-map.nodes[39703480] = Mawshroom({quest=64356})
-map.nodes[39603000] = Mawshroom({quest=64357})
+local MAWSH1 = Mawshroom({quest=64351, icon='chest_lm'})
+local MAWSH2 = Mawshroom({quest=64354, icon='chest_pk'})
+local MAWSH3 = Mawshroom({quest=64355, icon='chest_pp'})
+local MAWSH4 = Mawshroom({quest=64356, icon='chest_gn'})
+local MAWSH5 = Mawshroom({quest=64357, icon='chest_bn'})
+
+map.nodes[54204120] = MAWSH1
+map.nodes[56805150] = MAWSH1
+map.nodes[57303940] = MAWSH1
+map.nodes[58204050] = MAWSH1
+map.nodes[60304160] = MAWSH1
+map.nodes[60703820] = MAWSH1
+map.nodes[53703790] = MAWSH2
+map.nodes[48504120] = MAWSH2
+map.nodes[49404070] = MAWSH2
+map.nodes[49903250] = MAWSH2
+map.nodes[45603430] = MAWSH3
+map.nodes[42303460] = MAWSH3
+map.nodes[43603660] = MAWSH3
+map.nodes[39703480] = MAWSH4
+map.nodes[35703110] = MAWSH4
+map.nodes[39503070] = MAWSH4
+map.nodes[39603000] = MAWSH5
+map.nodes[41204490] = MAWSH5
+map.nodes[45204790] = MAWSH5
+map.nodes[46524851] = MAWSH5
+map.nodes[54805550] = MAWSH5
+
 
 local UMNest = Class('UMNest', Treasure, {
     group=ns.groups.KORTHIA_SHARED,
@@ -710,7 +733,7 @@ local UMNest = Class('UMNest', Treasure, {
 })
 
 map.nodes[41003970] = UMNest({quest=64358})
-map.nodes[42505480] = UMNest({quest=64359})
+map.nodes[42205590] = UMNest({quest=64359})
 map.nodes[52404380] = UMNest({quest=64360})
 map.nodes[63703140] = UMNest({quest=64361})
 map.nodes[52407270] = UMNest({quest=64362})
@@ -719,7 +742,8 @@ local MawswornC = Class('MawswornC', Treasure, {
     group=ns.groups.KORTHIA_SHARED,
     label=L["mawsworn_cache"],
     rewards={
-        ns.relics.relic_fragment
+        ns.relics.relic_fragment,
+        Transmog({item=187026, note=L["cloak"]})
     }
 })
 
@@ -738,3 +762,10 @@ map.nodes[47707430] = MAWC3
 map.nodes[54007280] = MAWC3
 map.nodes[56406950] = MAWC3
 map.nodes[56507470] = MAWC3
+
+
+
+
+
+
+
