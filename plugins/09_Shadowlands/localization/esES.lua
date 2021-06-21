@@ -452,6 +452,7 @@ L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plata
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
 L["fallen_charger_note"] = nil
+L["helgarde_supply"] = nil
 L["ikras_note"] = "Vuela alrededor del Bastión de la Perdición. Este es un buen sitio para pullearlo."
 L["lilabom_note"] = nil
 L["orophea_note"] = "Coge el {spell:337143} al sureste y ofréceselo a {npc:172577} para que se active."

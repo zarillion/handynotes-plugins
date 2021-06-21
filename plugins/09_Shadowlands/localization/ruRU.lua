@@ -451,6 +451,7 @@ L["ekphoras_note"] = "Вместе с 3 другими игроками вста
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
 L["fallen_charger_note"] = nil
+L["helgarde_supply"] = nil
 L["ikras_note"] = "Летает вокруг Цитадели Вечных Мук. Это хорошее место, чтобы его атаковать."
 L["lilabom_note"] = nil
 L["orophea_note"] = "Поднимите {spell:337143} на юго-востоке и предложите {npc:172577}, чтобы активировать."

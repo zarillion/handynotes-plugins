@@ -450,6 +450,7 @@ L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform
 L["etherwyrm_label"] = "Infused Etherwyrm Cage"
 L["etherwyrm_note"] = "Requires the Night Fae assault to be active. To gain the {item:186190} kill an {npc:179030} while in the rift."
 L["fallen_charger_note"] = "After the zone-wide yell it will take either of the two paths until it reaches Korthia where it will despawn."
+L["helgarde_supply"] = "Helgarde Supply Cache"
 L["ikras_note"] = "Flies around Perdition Hold. This is a good place to pull him."
 L["lilabom_note"] = "Collect All 5 parts to complete the pet."
 L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."

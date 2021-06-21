@@ -450,6 +450,7 @@ L["ekphoras_note"] = "和3名其他玩家，站在平台的角落并施放 {spel
 L["etherwyrm_label"] = nil
 L["etherwyrm_note"] = nil
 L["fallen_charger_note"] = nil
+L["helgarde_supply"] = nil
 L["ikras_note"] = "在破灭堡飞来飞去。这里是攻击他的好位置。"
 L["lilabom_note"] = nil
 L["orophea_note"] = "从东南方的拾取 {spell:337143} 并提供给 {npc:172577} 激活。"
