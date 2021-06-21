@@ -840,9 +840,9 @@ local Helgarde = Class('Helgarde', Treasure, {
         Item({item=186727}) --Seal Breaker Key
     }
 })
-map.node[65706121] = Helgarde
-map.node[67705310] = Helgarde
-map.node[68204810] = Helgarde
+map.nodes[65706121] = Helgarde()
+map.nodes[67705310] = Helgarde()
+map.nodes[68204810] = Helgarde()
 
 map.nodes[23594190] = Treasure({
     quest=64000,
