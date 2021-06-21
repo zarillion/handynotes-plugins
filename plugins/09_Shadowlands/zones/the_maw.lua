@@ -350,7 +350,7 @@ map.nodes[27672526] = Rare({
     note=L["korthia_rift_note"],
     rewards={
         Achievement({id=15107, criteria=52284}),
-        Item({item=186605}) -- Nilganihmaht's Runed Band
+        Item({item=186605, note=L["ring"]}) -- Nilganihmaht's Runed Band
     }
 }) -- Torglluun
 
@@ -383,6 +383,7 @@ map.nodes[66404400] = Rare({
     quest=64152,
     rewards={
         Achievement({id=15107, criteria=52287}),
+        Transmog({item=187359, slot=L["shield"]}), -- Ylva's Water Dish
         Item({item=186970, quest=62683}) -- Feeder's Hand and Key
     }
 }) -- Ylva, Mate of Guarm
