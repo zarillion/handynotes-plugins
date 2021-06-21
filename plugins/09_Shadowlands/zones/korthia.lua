@@ -48,7 +48,9 @@ map.nodes[58211773] = Rare({
     id=180246,
     quest=64258, -- 64439?
     rewards={
-        Achievement({id=15107, criteria=52290})
+        Achievement({id=15107, criteria=52290}),
+        Transmog({item=187370, slot=L["cloth"]}), -- Carriage Crusher's Padded Slippers
+        Transmog({item=187391, slot=L["plate"]}) -- Yarxhov's Rib-Cage
     }
 }) -- Assault Supply Carriage
 
@@ -60,7 +62,8 @@ map.nodes[39405240] = Rare({
     rewards={
         Achievement({id=15107, criteria=52295}),
         Achievement({id=15066, criteria=52262}),
-        Item({item=187103, quest=63917}) -- Everliving Statuette
+        Item({item=187103, quest=63917}), -- Everliving Statuette
+        Transmog({item=187366, slot=L["polearm"]}) -- Fallen Vault Guardian's Spire
     }
 }) -- Chamber of Knowledge
 
@@ -73,7 +76,8 @@ map.nodes[44983552] = Rare({
         Achievement({id=15107, criteria=52296}),
         Achievement({id=15066, criteria=52263}),
         Pet({item=186538, id=3140}), -- Gnashtooth
-        Item({item=187104, quest=63918}) -- Obelisk of Dark Tidings
+        Item({item=187104, quest=63918}), -- Obelisk of Dark Tidings
+        Transmog({item=187387, slot=L["mail"]}) -- Pauldrons of the Unknown Beyond
     }
 }) -- Chamber of Wisdom
 
@@ -82,7 +86,9 @@ map.nodes[51164167] = Rare({
     quest=64243,
     rewards={
         Achievement({id=15107, criteria=52285}),
-        Transmog({item=187247, slot=L["Shoulder"]}) -- Death-Enveloped Shoulder Spikes
+        Transmog({item=187245, slot=L["cosmetic"]}), -- Death-Enveloped Spires
+        Transmog({item=187246, slot=L["cosmetic"]}), -- Death-Enveloped Pauldrons
+        Transmog({item=187247, slot=L["cosmetic"]}) -- Death-Enveloped Shoulder Spikes
     }
 }) -- Consumption
 
@@ -93,7 +99,8 @@ map.nodes[59934371] = Rare({
     note=L["corpse_heap_note"],
     rewards={
         Achievement({id=15107, criteria=52299}),
-        Mount({item=186489, id=1449}) -- Lord of the Corpseflies
+        Transmog({item=187372, slot=L["cloth"]}), -- Miasma Filtering Headpiece
+        Mount({item=186489, id=1449, covenant=NECROLORD}) -- Lord of the Corpseflies
     }
 }) -- Corpse Heap
 
@@ -105,7 +112,6 @@ map.nodes[59335221] = Rare({
     rewards={
         Achievement({id=15107, criteria=52275}),
         Toy({item=187174}) -- Shaded Judgement Stone
-
     }
 }) -- Deadsoul Hatcher
 
@@ -114,7 +120,8 @@ map.nodes[51822081] = Rare({
     id=177903,
     quest=63830,
     rewards={
-        Achievement({id=15107, criteria=52277})
+        Achievement({id=15107, criteria=52277}),
+        Transmog({item=187390, slot=L["plate"]}), -- Dominated Protector's Helm
     }
 }) -- Dominated Protector
 
@@ -125,7 +132,7 @@ map.nodes[33183938] = Rare({
     note=L["wilderling_note"],
     rewards={
         Achievement({id=15107, criteria=52298}),
-        Mount({item=186492, id=1487}) -- Summer Wilderling
+        Mount({item=186492, id=1487, covenant=NIGHTFAE}) -- Summer Wilderling
     }
 }) -- Escaped Wilderling
 
@@ -136,6 +143,9 @@ map.nodes[60652315] = Rare({
     rewards={
         Achievement({id=15107, criteria=52283}),
         Mount({item=186645, id=1506}) -- Crimson Shardhide
+    },
+    pois={
+        POI({44222950}) -- fleshy remains
     }
 }) -- Hunting the Hunter
 
@@ -146,7 +156,10 @@ map.nodes[71001212] = Rare({
     rewards={
         Achievement({id=15107, criteria=52303}),
         Mount({item=187183, id=1514}), -- Rampaging Mauler
-        Transmog({item=187378, slot=L["head"]}) --Visage of the Obliterator
+        Transmog({item=187375, slot=L["cloth"]}), -- Bound Worldeater Tendrils
+        Transmog({item=187378, slot=L["leather"]}), -- Visage of the Obliterator
+        Transmog({item=187384, slot=L["mail"]}), -- Konthrogz's Scaled Handguards
+        Transmog({item=187397, slot=L["plate"]}) -- Vambraces of the In-Between
     }
 }) -- Konthrogz the Obliterator
 
@@ -155,7 +168,9 @@ map.nodes[59203580] = Rare({
     quest=64428,
     rewards={
         Achievement({id=15107, criteria=52304}),
-        Transmog({item=187250, slot=L["Shoulder"]}) -- Kroke's Wingspiked Pauldrons
+        Transmog({item=187394, slot=L["plate"]}), -- Tormented Giant's Legplates
+        Transmog({item=187250, slot=L["cosmetic"]}), -- Kroke's Wingspiked Pauldrons
+        Transmog({item=187248, slot=L["cosmetic"]}) -- Kroke's Gleaming Spaulders
     },
     pois={
         Path({
@@ -171,8 +186,9 @@ map.nodes[46507959] = Rare({
     covenant=VENTHYR,
     note=L["no_stoneborne_note"],
     rewards={
-        Achievement({id=15107, criteria=52276})
-        -- Mount({item=, id=})
+        Achievement({id=15107, criteria=52276}),
+        Transmog({item=184790,slot=L["leather"]}) -- Archdruid Van-Yali's Greenthumbs
+        -- Mount({item=186479, id=, covenant=VENTHYR}) -- Mastercraft Gravewing
     }
 }) -- No Stoneborn Left Behind
 
@@ -182,7 +198,8 @@ map.nodes[50307590] = Rare({
     requires=ns.requirement.Item(186731),
     note=L["korthia_rift_note"],
     rewards={
-        Achievement({id=15107, criteria=52294})
+        Achievement({id=15107, criteria=52294}),
+        Toy({item=187420}) -- Maw-Ocular Viewfinder
     }
 }) -- Observer Yorik
 
@@ -192,6 +209,8 @@ map.nodes[71001812] = Rare({
     note=L["pop_quiz_note"],
     rewards={
         Achievement({id=15107, criteria=52319}),
+        Transmog({item=187369,slot=L["cloth"]}), -- Ve'rayn's Formal Robes
+        Item({item=187404, note=L["neck"]}), -- Cartel Ve Amulet
         Item({item=187264, quest=64513}) -- Ve'rayn's Head
     }
 }) -- Pop Quiz
@@ -204,7 +223,7 @@ map.nodes[56873237] = Rare({
     rewards={
         Achievement({id=15107, criteria=52300}),
         Toy({item=187176}), -- Vesper of Harmony
-        Mount({item=186483, id=1493}) -- Foresworn Aquilon
+        Mount({item=186483, id=1493, covenant=KYRIAN}) -- Foresworn Aquilon
     }
 }) -- Popo's Potion Patrol
 
@@ -212,7 +231,8 @@ map.nodes[22604140] = Rare({
     id=179931,
     quest=64291,
     rewards={
-        Achievement({id=15107, criteria=52291})
+        Achievement({id=15107, criteria=52291}),
+        Transmog({item=187403,slot=L["cloak"]}) -- Relic Breaker's Drape
     }
 }) -- Relic Breaker Krelva
 
@@ -251,7 +271,11 @@ map.nodes[71001512] = Rare({
     quest=64245,
     note=L["towering_exterminator_note"],
     rewards={
-        Achievement({id=15107, criteria=52302})
+        Achievement({id=15107, criteria=52302}),
+        Transmog({item=187373, slot=L["cloth"]}), -- Soul-Enveloping Leggings
+        Transmog({item=187376, slot=L["leather"]}), -- Mawsworn Lieutenant's Treads
+        Transmog({item=187241, slot=L["cosmetic"]}), -- Watchful Eye of the Damned
+        Transmog({item=187242, slot=L["cosmetic"]}) -- Exterminator's Crest of the Damned
     }
 }) -- Towering Exterminator
 
