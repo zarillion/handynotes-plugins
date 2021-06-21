@@ -199,12 +199,12 @@ map.nodes[20586935] = Rare({
 }) -- Exos, Herald of Domination
 
 map.nodes[17714953] = Rare({
-    id=177903,
+    id=179460,
     quest=64164,
     note=L["fallen_charger_note"],
     rewards={
         Achievement({id=15107, criteria=52292}),
-        Mount({item=186658, id=1502}) -- Fallen Charger's Reins
+        Mount({item=186659, id=1502}) -- Fallen Charger's Reins
     },
     pois={
         Path({
