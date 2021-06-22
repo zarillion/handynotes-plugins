@@ -382,6 +382,7 @@ map.nodes[37446212] = Rare({
 map.nodes[66404400] = Rare({
     id=177444,
     quest=64152,
+    group=ns.groups.NILGANIHMAHT_MOUNT,
     rewards={
         Achievement({id=15107, criteria=52287}),
         Transmog({item=187359, slot=L["shield"]}), -- Ylva's Water Dish
@@ -834,7 +835,6 @@ map.nodes[69214520] = Treasure({
     }
 }) -- Helsworn Chest
 
-
 map.nodes[23594190] = Treasure({
     quest=64000,
     requires=ns.requirement.Item(186190),
@@ -853,7 +853,7 @@ map.nodes[66526129] = Treasure({
     note=L["in_cave"],
     rewards={
         Achievement({id=15099, criteria=52244}),
-        Item({item=187352}) -- Jeweled Heart of Ezekiel
+        Item({item=187352, note=L["neck"]}) -- Jeweled Heart of Ezekiel
     }
 }) -- Jeweled Heart
 
@@ -918,15 +918,15 @@ local Nilganihmaht = Class('Nilganihmaht', ns.node.Rare, {
     icon=1391724,
     fgroup='nilganimaht_group',
     rewards={
-        Mount({item=186713, id=1503}) --Hand of Nilganihmaht
+        Mount({item=186713, id=1503}) -- Hand of Nilganihmaht
     }
 })
 
 map.nodes[25503680] = Nilganihmaht()
 
 map.nodes[66045739] = Treasure({
-    quest=nil,
-    requires=ns.requirement.Item(186727), --Seal Breaker Key
+    quest=nil, -- 64205 one key used
+    requires=ns.requirement.Item(186727, 4), -- Seal Breaker Key
     group=ns.groups.NILGANIHMAHT_MOUNT,
     label=L["domination_chest"],
     note=L["domination_chest_note"],
@@ -937,13 +937,13 @@ map.nodes[66045739] = Treasure({
 }) -- Domination Chest
 
 map.nodes[65606000] = Treasure({
-    quest=nil,
+    quest=62680,
     group=ns.groups.NILGANIHMAHT_MOUNT,
     label=L["harrower_key_ring"],
     note=L["harrower_key_note"],
     fgroup='nilganimaht_group',
     rewards={
-        Item({item=186727}) --Seal Breaker Key
+        Item({item=186727}) -- Seal Breaker Key
     }
 }) -- The Harrower's Key Ring
 
@@ -955,7 +955,7 @@ local Helgarde = Class('Helgarde', Treasure, {
     icon='chest_pk',
     fgroup='nilganimaht_group',
     rewards={
-        Item({item=186727}) --Seal Breaker Key
+        Item({item=186727}) -- Seal Breaker Key
     }
 })
 map.nodes[65706121] = Helgarde()
