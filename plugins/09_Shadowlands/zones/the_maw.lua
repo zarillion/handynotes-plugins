@@ -348,6 +348,7 @@ map.nodes[27672526] = Rare({
     quest=64232,
     requires=ns.requirement.Item(186731),
     note=L["korthia_rift_note"],
+    fgroup='nilganimaht_group',
     rewards={
         Achievement({id=15107, criteria=52284}),
         Item({item=186605}) -- Nilganihmaht's Runed Band
@@ -833,16 +834,6 @@ map.nodes[69214520] = Treasure({
     }
 }) -- Helsworn Chest
 
-local Helgarde = Class('Helgarde', Treasure, {
-    quest=62682,
-    label=L["helgarde_supply"],
-    rewards={
-        Item({item=186727}) --Seal Breaker Key
-    }
-})
-map.nodes[65706121] = Helgarde()
-map.nodes[67705310] = Helgarde()
-map.nodes[68204810] = Helgarde()
 
 map.nodes[23594190] = Treasure({
     quest=64000,
@@ -920,14 +911,76 @@ map.nodes[39286648] = Treasure({
 ---------------------------------- NILGANIHMAHT -------------------------------
 -------------------------------------------------------------------------------
 
--- local Nilganihmet = Class('Nilganihmet', ns.node.Node, {
---     group=ns.groups.Nilgahmet_Mount,
---     icon=1391724,
---     note=L["Nilganihment_Mount"],
---     requires=ns.requirement.Item(186984),
---     scale=1.25
--- })
+local Nilganihmaht = Class('Nilganihmaht', ns.node.Rare, {
+    id=179572,
+    group=ns.groups.NILGANIHMAHT_MOUNT,
+    note=L["nilganihmaht_note"],
+    icon=1391724,
+    fgroup='nilganimaht_group',
+    rewards={
+        Mount({item=186713, id=1503}) --Hand of Nilganihmaht
+    }
+})
 
+map.nodes[25503680] = Nilganihmaht()
+
+map.nodes[66045739] = Treasure({
+    quest=nil,
+    requires=ns.requirement.Item(186727), --Seal Breaker Key
+    group=ns.groups.NILGANIHMAHT_MOUNT,
+    label=L["domination_chest"],
+    note=L["domination_chest_note"],
+    fgroup='nilganimaht_group',
+    rewards={
+        Item({item=186607}) -- Nilganimahts Silver Ring
+    }
+}) -- Domination Chest
+
+map.nodes[65606000] = Treasure({
+    quest=nil,
+    group=ns.groups.NILGANIHMAHT_MOUNT,
+    label=L["harrower_key_ring"],
+    note=L["harrower_key_note"],
+    fgroup='nilganimaht_group',
+    rewards={
+        Item({item=186727}) --Seal Breaker Key
+    }
+}) -- The Harrower's Key Ring
+
+
+local Helgarde = Class('Helgarde', Treasure, {
+    quest=62682,
+    group=ns.groups.NILGANIHMAHT_MOUNT,
+    label=L["helgarde_supply"],
+    icon='chest_pk',
+    fgroup='nilganimaht_group',
+    rewards={
+        Item({item=186727}) --Seal Breaker Key
+    }
+})
+map.nodes[65706121] = Helgarde()
+map.nodes[67705310] = Helgarde()
+map.nodes[68204810] = Helgarde()
+
+map.nodes[29105850] = Rare({
+    id=179601,
+    quest=nil,
+    group=ns.groups.NILGANIHMAHT_MOUNT,
+    requires=ns.requirement.Item(186600),
+    note=L["maw_mad_note"],
+    fgroup='nilganimaht_group',
+    rewards={
+        Item({item=186602}) -- Quartered Stone Ring
+    }
+}) -- Maw Mad Construct
+
+--Add Locations for Quartered Stone Ring(186604), requires Necro Assault and at least 1 ring
+
+    -- Item(186603), --Stone Ring
+    -- Item(186605), --Runed Band
+    -- Item(186608), --Gold Band Unknown Spawn
+    -- Item(186606), --Signet Ring Unknown spawn
+    -- Item(186607), --Silver Ring
 --https://ptr.wowhead.com/item=186713/nilganihmaht-control-ring#comments DEAL WITH THIS ASAP?
 
 -------------------------------------------------------------------------------
@@ -936,10 +989,13 @@ map.nodes[39286648] = Treasure({
 
 local MawswornC = Class('MawswornC', Treasure, {
     label=L["mawsworn_cache"],
-    group=ns.groups.STYGIAN_CACHES,
+    fgroup='nilganimaht_group',
+    group=ns.groups.NILGANIHMAHT_MOUNT,
     rewards={
         Achievement({id=15039, criteria={id=1, qty=true}}),
-        ns.reward.Currency({id=1767, note='20'})
+        ns.reward.Currency({id=1767, note='20'}),
+        Item({item=186573, quest=63594}), --Defense Plans
+        rewards={Item({item=186600})} --Quartered Stone Ring
     }
 })
 
@@ -950,8 +1006,8 @@ end
 
 map.nodes[30305590] = MawswornC({quest=63815}) --63815MAW
 map.nodes[27806170] = MawswornC({quest=63815}) --63815MAW
-map.nodes[33607040] = MawswornC({quest=63818}) --63818MAW
+map.nodes[33607040] = MawswornC({quest=63818})
 map.nodes[32806500] = MawswornC({quest=63825}) --63825MAW
 map.nodes[27806170] = MawswornC({quest=64209}) --64209MAW
 map.nodes[32055633] = MawswornC({quest=63826}) --64209MAW
--- map.nodes[32006400] = MawSwornC({quest=6}) --     MAW
+
