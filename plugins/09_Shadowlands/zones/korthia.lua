@@ -371,11 +371,22 @@ map.nodes[25725108] = Treasure({
     }
 }) -- Razorwing Nest
 
--- map.nodes[53783793] = Treasure({
---     quest=64247,
---     rewards={
---     }
--- }) -- Spectral Bound Chest
+map.nodes[62065550] = Treasure({
+    quest=64247,
+    note=L["spectral_bound_note"],
+    label=L["spectral_bound_chest"],
+    rewards={
+        ns.relics.relic_fragment,
+        ns.reward.Currency({id=1767, note='40'})
+    },
+    pois={POI({
+        50505370, 52305320, 52604970, 54205060, --quest 64249
+        59205670, 60305650, 61005870, 62105770, --quest 64250
+        57504930, 58224871, 59205670, 62735133, --quest 64248
+        })}
+}) -- Spectral Bound Chest
+
+
 
 -------------------------------------------------------------------------------
 ----------------------------------- RELICS ------------------------------------
@@ -701,19 +712,19 @@ local MAWSH5 = Mawshroom({quest=64357, icon='chest_bn'})
 map.nodes[54204120] = MAWSH1
 map.nodes[56805150] = MAWSH1
 map.nodes[57303940] = MAWSH1
-map.nodes[58204050] = MAWSH1
+map.nodes[58174048] = MAWSH1
 map.nodes[60304160] = MAWSH1
 map.nodes[60703820] = MAWSH1
-map.nodes[53703790] = MAWSH2
-map.nodes[48504120] = MAWSH2
+map.nodes[48524115] = MAWSH2
 map.nodes[49404070] = MAWSH2
 map.nodes[49903250] = MAWSH2
-map.nodes[45603430] = MAWSH3
-map.nodes[42303460] = MAWSH3
+map.nodes[53703790] = MAWSH2
+map.nodes[42343469] = MAWSH3
 map.nodes[43603660] = MAWSH3
-map.nodes[39703480] = MAWSH4
+map.nodes[45603430] = MAWSH3
 map.nodes[35703110] = MAWSH4
 map.nodes[39503070] = MAWSH4
+map.nodes[39763505] = MAWSH4
 map.nodes[39603000] = MAWSH5
 map.nodes[41204490] = MAWSH5
 map.nodes[45204790] = MAWSH5
@@ -734,7 +745,7 @@ local UMNest = Class('UMNest', Treasure, {
 
 map.nodes[41003970] = UMNest({quest=64358})
 map.nodes[42205590] = UMNest({quest=64359})
-map.nodes[52404380] = UMNest({quest=64360})
+map.nodes[51864391] = UMNest({quest=64360})
 map.nodes[63703140] = UMNest({quest=64361})
 map.nodes[52407270] = UMNest({quest=64362})
 
@@ -754,7 +765,7 @@ local MAWC3 = MawswornC({quest=64364, icon='chest_rd'})
 map.nodes[58803360] = MAWC1
 map.nodes[62903490] = MAWC1
 map.nodes[56805610] = MAWC2
-map.nodes[58305280] = MAWC2
+map.nodes[58325283] = MAWC2
 map.nodes[61105160] = MAWC2
 map.nodes[61205790] = MAWC2
 map.nodes[62305860] = MAWC2
