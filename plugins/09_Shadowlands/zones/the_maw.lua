@@ -383,6 +383,7 @@ map.nodes[66404400] = Rare({
     id=177444,
     quest=64152,
     group=ns.groups.NILGANIHMAHT_MOUNT,
+    fgroup='nilganimaht_group',
     rewards={
         Achievement({id=15107, criteria=52287}),
         Transmog({item=187359, slot=L["shield"]}), -- Ylva's Water Dish
