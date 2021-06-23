@@ -255,6 +255,7 @@ L["popo_note"] = nil
 L["razorwing_nest"] = nil
 L["razorwing_note"] = nil
 L["reliwik_note"] = nil
+L["riftbound_cache"] = nil
 L["spectral_bound_chest"] = nil
 L["spectral_bound_note"] = nil
 L["towering_exterminator_note"] = nil
