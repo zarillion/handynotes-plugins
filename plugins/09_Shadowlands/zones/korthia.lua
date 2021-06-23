@@ -194,7 +194,7 @@ map.nodes[46507959] = Rare({
 
 map.nodes[50307590] = Rare({
     id=179914,
-    quest=nil,
+    quest=64369,
     requires=ns.requirement.Item(186731),
     note=L["korthia_rift_note"],
     rewards={
@@ -370,6 +370,15 @@ map.nodes[25725108] = Treasure({
         Mount({item=186651, id=1510}) -- Dusklight Razorwing
     }
 }) -- Razorwing Nest
+
+map.nodes[56351845] = Treasure({
+    quest=64472,
+    requires=ns.requirement.Item(186731),
+    label=L["riftbound_cache"],
+    rewards={
+        ns.relics.relic_fragment
+    }
+}) -- Riftbound Cache
 
 map.nodes[62065550] = Treasure({
     quest=64247,
@@ -727,6 +736,7 @@ map.nodes[39503070] = MAWSH4
 map.nodes[39763505] = MAWSH4
 map.nodes[39603000] = MAWSH5
 map.nodes[41204490] = MAWSH5
+map.nodes[43475637] = MAWSH5
 map.nodes[45204790] = MAWSH5
 map.nodes[46524851] = MAWSH5
 map.nodes[54805550] = MAWSH5

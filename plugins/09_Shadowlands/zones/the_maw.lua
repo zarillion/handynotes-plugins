@@ -355,7 +355,7 @@ map.nodes[27672526] = Rare({
     }
 }) -- Torglluun
 
-map.nodes[68124758] = Rare({
+map.nodes[69044897] = Rare({
     id=179805,
     quest=64258, -- 64439?
     rewards={
@@ -382,7 +382,6 @@ map.nodes[37446212] = Rare({
 map.nodes[66404400] = Rare({
     id=177444,
     quest=64152,
-    group=ns.groups.NILGANIHMAHT_MOUNT,
     fgroup='nilganimaht_group',
     rewards={
         Achievement({id=15107, criteria=52287}),
@@ -836,19 +835,6 @@ map.nodes[69214520] = Treasure({
     }
 }) -- Helsworn Chest
 
-map.nodes[23594190] = Treasure({
-    quest=64000,
-    requires=ns.requirement.Item(186190),
-    label=L["etherwyrm_label"],
-    note=L["etherwyrm_note"],
-    rewards={
-        Pet({item=186191, id=3099}) -- Infused Etherwyrm
-    },
-    pois={
-        POI({19143337}) -- Elusive Keybinder
-    }
-}) -- Infused Etherwyrm
-
 map.nodes[66526129] = Treasure({
     quest=64261,
     note=L["in_cave"],
@@ -926,7 +912,7 @@ local Nilganihmaht = Class('Nilganihmaht', ns.node.Rare, {
 map.nodes[25503680] = Nilganihmaht()
 
 map.nodes[66045739] = Treasure({
-    quest=nil, -- 64205 one key used
+    quest=64207,
     requires=ns.requirement.Item(186727, 4), -- Seal Breaker Key
     group=ns.groups.NILGANIHMAHT_MOUNT,
     label=L["domination_chest"],
@@ -996,7 +982,6 @@ local MawswornC = Class('MawswornC', Treasure, {
         Achievement({id=15039, criteria={id=1, qty=true}}),
         ns.reward.Currency({id=1767, note='20'}),
         Item({item=186573, quest=63594}), --Defense Plans
-        rewards={Item({item=186600})} --Quartered Stone Ring
     }
 })
 
@@ -1005,10 +990,29 @@ function MawswornC:PrerequisiteCompleted()
     return C_TaskQuest.GetQuestTimeLeftMinutes(63543)
 end
 
-map.nodes[30305590] = MawswornC({quest=63815}) --63815MAW
-map.nodes[27806170] = MawswornC({quest=63815}) --63815MAW
-map.nodes[33607040] = MawswornC({quest=63818})
-map.nodes[32806500] = MawswornC({quest=63825}) --63825MAW
-map.nodes[27806170] = MawswornC({quest=64209}) --64209MAW
-map.nodes[32055633] = MawswornC({quest=63826}) --64209MAW
+map.nodes[30295581] = MawswornC({quest=63815})
+map.nodes[27806170] = MawswornC({quest=63815})
+map.nodes[33547047] = MawswornC({quest=63818})
+map.nodes[32756506] = MawswornC({quest=63825})
+map.nodes[32055633] = MawswornC({quest=63826})
+map.nodes[35126980] = MawswornC({quest=64209, rewards={Item({item=186600})}}) --Quartered Stone Ring
 
+
+
+
+local Etherwyrm = Class('Etherwyrm', Treasure, {
+    quest=64000,
+    requires=ns.requirement.Item(186190),
+    label=L["etherwyrm_label"],
+    note=L["etherwyrm_note"],
+    rewards={
+        Pet({item=186191, id=3099}) -- Infused Etherwyrm
+    }
+}) -- Infused Etherwyrm
+
+function Etherwyrm:PrerequisiteCompleted()
+    -- Timed events that are not active today return nil here
+    return C_TaskQuest.GetQuestTimeLeftMinutes(63823)
+end
+
+map.nodes[23594190] = Etherwyrm({pois={POI({19143337})}})
