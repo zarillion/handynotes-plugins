@@ -828,7 +828,7 @@ map.nodes[46914169] = NPC({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[69214520] = Treasure({
+map.nodes[69214521] = Treasure({
     quest=64256,
     rewards={
         Achievement({id=15099, criteria=52243})
@@ -900,6 +900,13 @@ map.nodes[39286648] = Treasure({
 
 local Nilganihmaht = Class('Nilganihmaht', ns.node.Rare, {
     id=179572,
+    requires={
+            ns.requirement.Item(186603), --Stone Ring
+            ns.requirement.Item(186605), --Runed Band
+            ns.requirement.Item(186608), --Gold Band Unknown Spawn
+            ns.requirement.Item(186606), --Signet Ring Unknown spawn
+            ns.requirement.Item(186607) --Silver Ring
+    },
     group=ns.groups.NILGANIHMAHT_MOUNT,
     note=L["nilganihmaht_note"],
     icon=1391724,
@@ -963,11 +970,6 @@ map.nodes[29105850] = Rare({
 
 --Add Locations for Quartered Stone Ring(186604), requires Necro Assault and at least 1 ring
 
-    -- Item(186603), --Stone Ring
-    -- Item(186605), --Runed Band
-    -- Item(186608), --Gold Band Unknown Spawn
-    -- Item(186606), --Signet Ring Unknown spawn
-    -- Item(186607), --Silver Ring
 --https://ptr.wowhead.com/item=186713/nilganihmaht-control-ring#comments DEAL WITH THIS ASAP?
 
 -------------------------------------------------------------------------------
