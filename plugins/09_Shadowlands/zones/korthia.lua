@@ -368,7 +368,7 @@ map.nodes[45336714] = Treasure({
 
 map.nodes[25725108] = Treasure({
     quest=64274,
-    label=L["razorwing_nest"],
+    label="{npc:179871}",
     note=L["razorwing_note"],
     rewards={
         Mount({item=186651, id=1510}) -- Dusklight Razorwing

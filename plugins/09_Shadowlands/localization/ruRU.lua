@@ -251,7 +251,6 @@ L["no_stoneborne_note"] = "Поговорите с {npc:179974}, чтобы на
 L["offering_box_note"] = nil
 L["pop_quiz_note"] = nil
 L["popo_note"] = "Поговорите с {npc:180028}, чтобы вызвать событие сопровождения."
-L["razorwing_nest"] = "Закатный Матриарх"
 L["razorwing_note"] = "Отнесите {item:187054}, которые можно получить с местных пожирателей."
 L["reliwik_note"] = "Нажмите на нетронутое порчей яйцо бритвокрыла, чтобы призвать монстра."
 L["riftbound_cache"] = nil

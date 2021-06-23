@@ -252,7 +252,6 @@ L["no_stoneborne_note"] = nil
 L["offering_box_note"] = nil
 L["pop_quiz_note"] = nil
 L["popo_note"] = nil
-L["razorwing_nest"] = nil
 L["razorwing_note"] = nil
 L["reliwik_note"] = nil
 L["riftbound_cache"] = nil
