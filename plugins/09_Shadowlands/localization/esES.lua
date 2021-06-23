@@ -249,19 +249,17 @@ L["hunting_hunter_note"] = "Habla con el {npc:179729} para conseguir {spell:3550
 L["konthrogz_note"] = "Aparece de un portal del evento de los devoradores."
 L["maelie_wanderer"] = "{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura."
 L["no_stoneborne_note"] = "Habla con {npc:179974} para empezar el evento."
-
----SEGUIR POR AQUI
-L["offering_box_note"] = "Requires Small Offering Key which can be found on the top of the west side wall of the near by ruins."
-L["pop_quiz_note"] = "The Pop Quiz event will spawn randomly on the map. Click on the planted veilstaff and answer the questions from {npc:180162}."
-L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
-L["razorwing_nest"] = "Razorwing Matriarch"
-L["razorwing_note"] = "Hand in {item:187054} dropped by devourers."
-L["reliwik_note"] = "Click on the uncorrupted razorwing egg to pull him down."
-L["riftbound_cache"] = "Riftbound Cache"
-L["spectral_bound_chest"] = "Click on 3 nearby Spectral Keys to unlock the chest. "
-L["spectral_bound_note"] = "Spectral Bound Chest"
-L["towering_exterminator_note"] = "Spawns from a mawsworn portal event."
-L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
+L["offering_box_note"] = "Requiere una {item:187033} que se puede encontrar en la parte superior de la pared del lado oeste de las ruinas cercanas."
+L["pop_quiz_note"] = "El evento del Cuestionario de Pop aparecerá aleatoriamente en el mapa. Haz click en el Bastón del velo abandonado y responde a las preguntas de {npc:180162}."
+L["popo_note"] = "Habla con {npc:180028} para empezar el evento de escolta."
+L["razorwing_nest"] = "{npc:178894}"
+L["razorwing_note"] = "Devuelve el {item:187054} soltado por los devoradores."
+L["reliwik_note"] = "Haz click en el huevo de alafilada prístino para hacerlo bajar."
+L["riftbound_cache"] = "Riftbound Cache"--FALTA
+L["spectral_bound_chest"] = "Haz click en las 3 {item:179369} cercanas para debloquear el cofre."
+L["spectral_bound_note"] = "Spectral Bound Chest"--FALTA
+L["towering_exterminator_note"] = "Aparece del portal del evento jurafauce."
+L["wilderling_note"] = "Haz click en {npc:180014} para empezar el evento de doma."
 
 L["archivist_key_note"] = "Purchase {item:186984} from {npc:178257} to unlock."
 L["korthia_rift_note"] = "Purchase {item:186731} from {npc:178257} to be able to enter the rift."
