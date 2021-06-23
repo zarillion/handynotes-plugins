@@ -955,6 +955,7 @@ local Helgarde = Class('Helgarde', Treasure, {
 map.nodes[65706121] = Helgarde()
 map.nodes[67705310] = Helgarde()
 map.nodes[68204810] = Helgarde()
+map.nodes[62475528] = Helgarde()
 
 map.nodes[29105850] = Rare({
     id=179601,
