@@ -189,8 +189,8 @@ end
 
 ns.groups.ANIMA_SHARD = Group('anima_shard', 'crystal_b', {defaults=ns.GROUP_HIDDEN})
 ns.groups.BLESSINGS = Group('blessings', 1022951, {defaults=ns.GROUP_HIDDEN})
-ns.groups.BONUS_BOSS = Group('bonus_boss', 'peg_rd')
-ns.groups.BONUS_EVENT = Group('bonus_event', 'peg_yw')
+ns.groups.BONUS_BOSS = Group('bonus_boss', 'peg_rd', {defaults=ns.GROUP_HIDDEN})
+ns.groups.BONUS_EVENT = Group('bonus_event', 'peg_yw', {defaults=ns.GROUP_HIDDEN})
 ns.groups.CARRIAGE = Group('carriages', 'horseshoe_g', {defaults=ns.GROUP_HIDDEN})
 ns.groups.DREDBATS = Group('dredbats', 'flight_point_g', {defaults=ns.GROUP_HIDDEN})
 ns.groups.FAERIE_TALES = Group('faerie_tales', 355498, {defaults=ns.GROUP_HIDDEN})
