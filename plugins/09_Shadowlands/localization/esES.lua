@@ -239,44 +239,46 @@ L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o 
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["chamber_note"] = nil
-L["corpse_heap_note"] = nil
-L["darkmaul_note"] = nil
-L["dislodged_nest_note"] = nil
-L["flayedwing_transporter_note"] = nil
-L["forgotten_feather_note"] = nil
-L["hunting_hunter_note"] = nil
-L["konthrogz_note"] = nil
-L["maelie_wanderer"] = nil
-L["no_stoneborne_note"] = nil
-L["offering_box_note"] = nil
-L["pop_quiz_note"] = nil
-L["popo_note"] = nil
-L["razorwing_nest"] = nil
-L["razorwing_note"] = nil
-L["reliwik_note"] = nil
-L["riftbound_cache"] = nil
-L["spectral_bound_chest"] = nil
-L["spectral_bound_note"] = nil
-L["towering_exterminator_note"] = nil
-L["wilderling_note"] = nil
+L["chamber_note"] = "Usa un {item:186718} del {npc:178257} en el Teletransportador Antiguo. Usa el Teletransportador Antiguo reparado para acceder a la cámara."
+L["corpse_heap_note"] = "Habla con {npc:180079} para empezar el evento de recolección."
+L["darkmaul_note"] = "Recoge {item:187153} de los Champifauces Invasivos y alimenta a {npc:180063} con ellos. Se ha de completar el evento 6 veces para conseguir la montura."
+L["dislodged_nest_note"] = "Haz click en una Polilla Nociva cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido."
+L["flayedwing_transporter_note"] = "Haz click en {npc:178633} para volar a o desde la Cámara de los Secretos."
+L["forgotten_feather_note"] = "Flotando en una isla pequeña que se accede saltando hacia abajo desde el Respiro del Guardían."
+L["hunting_hunter_note"] = "Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos."
+L["konthrogz_note"] = "Aparece de un portal del evento de los devoradores."
+L["maelie_wanderer"] = "{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura."
+L["no_stoneborne_note"] = "Habla con {npc:179974} para empezar el evento."
 
-L["archivist_key_note"] = nil
-L["korthia_rift_note"] = nil
-L["korthian_shrine_note"] = nil
-L["num_research"] = nil
+---SEGUIR POR AQUI
+L["offering_box_note"] = "Requires Small Offering Key which can be found on the top of the west side wall of the near by ruins."
+L["pop_quiz_note"] = "The Pop Quiz event will spawn randomly on the map. Click on the planted veilstaff and answer the questions from {npc:180162}."
+L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
+L["razorwing_nest"] = "Razorwing Matriarch"
+L["razorwing_note"] = "Hand in {item:187054} dropped by devourers."
+L["reliwik_note"] = "Click on the uncorrupted razorwing egg to pull him down."
+L["riftbound_cache"] = "Riftbound Cache"
+L["spectral_bound_chest"] = "Click on 3 nearby Spectral Keys to unlock the chest. "
+L["spectral_bound_note"] = "Spectral Bound Chest"
+L["towering_exterminator_note"] = "Spawns from a mawsworn portal event."
+L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
+
+L["archivist_key_note"] = "Purchase {item:186984} from {npc:178257} to unlock."
+L["korthia_rift_note"] = "Purchase {item:186731} from {npc:178257} to be able to enter the rift."
+L["korthian_shrine_note"] = "Click on the shrine to gain {spell:352367} to see the hidden path to the alter."
+L["num_research"] = "%d Research"
 L["options_icons_relic"] = "{achievement:15066}"
-L["options_icons_relic_desc"] = nil
+L["options_icons_relic_desc"] = "Display the locations of all 20 relics for the achievement."
 
-L["invasive_mawshroom"] = nil
-L["mawsworn_cache"] = nil
-L["options_icons_korthia_dailies_desc"] = nil
-L["options_icons_korthia_dailies"] = nil
-L["pile_of_bones"] = nil
-L["relic_cache"] = nil
-L["shardhide_stash"] = nil
-L["shared_note"] = nil
-L["unusual_nest"] = nil
+L["invasive_mawshroom"] = "Invasive Mawshroom"
+L["mawsworn_cache"] = "Mawsworn Cache"
+L["options_icons_korthia_dailies_desc"] = "Display the locations of the daily treasures."
+L["options_icons_korthia_dailies"] = "Korthia Daily Treasures"
+L["pile_of_bones"] = "Pile of Bones"
+L["relic_cache"] = "Relic Cache"
+L["shardhide_stash"] = "Shardhide Stash"
+L["shared_note"] = "You can collect 5 of these treasures per day."
+L["unusual_nest"] = "Nest of Unusual Materials"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
