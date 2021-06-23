@@ -247,7 +247,7 @@ L["forgotten_feather_note"] = nil
 L["hunting_hunter_note"] = "Поговорите с {npc:179729}, чтобы получить {spell:355078}, и следуйте по следам, пока не найдете останки плоти."
 L["konthrogz_note"] = "Появляется в событии портала Пожирателя."
 L["maelie_wanderer"] = "{npc:179912} появится в случайном месте в течение дня. После того, как вы использовали {spell:355862} в течении 6 дней, вернитесь к {npc:179930}, чтобы забрать средство передвижения."
-L["no_stoneborne_note"] = nil
+L["no_stoneborne_note"] = "Поговорите с {npc:179974}, чтобы начать событие."
 L["offering_box_note"] = nil
 L["pop_quiz_note"] = nil
 L["popo_note"] = "Поговорите с {npc:180028}, чтобы вызвать событие сопровождения."
@@ -260,10 +260,10 @@ L["spectral_bound_note"] = nil
 L["towering_exterminator_note"] = nil
 L["wilderling_note"] = "Нажмите на {npc:180014}, чтобы начать приручение."
 
-L["archivist_key_note"] = nil
-L["korthia_rift_note"] = nil
-L["korthian_shrine_note"] = nil
-L["num_research"] = "%d Исследование"
+L["archivist_key_note"] = "Купите {item:186984} у {npc:178257}, чтобы разблокировать."
+L["korthia_rift_note"] = "Купите {item:186731} у {npc:178257}, чтобы войти в разлом."
+L["korthian_shrine_note"] = "Нажмите на святыню, чтобы получить {spell:352367}, чтобы увидеть скрытый путь к алтарю."
+L["num_research"] = "%d Исследования"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Покажите расположение всех 20 реликвий для достижения."
 
