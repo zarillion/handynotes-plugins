@@ -355,10 +355,14 @@ map.nodes[52991477] = Treasure({
 
 map.nodes[45336714] = Treasure({
     quest=64268,
+    requires=ns.requirement.Item(187033),
     note=L["offering_box_note"],
     rewards={
         Achievement({id=15099, criteria=52246}),
         Toy({item=187344}) -- Offering Kit Maker
+    },
+    pois={
+        POI({43556770}) -- Small Offering Key
     }
 }) -- Offering Box
 
