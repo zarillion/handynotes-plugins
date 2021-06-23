@@ -138,7 +138,7 @@ map.nodes[49128175] = Rare({
 map.nodes[66255555] = Rare({
     id=179779,
     quest=62679,
-    Note=L["deomen_note"],
+    note=L["deomen_note"],
     rewards={
         Achievement({id=15107, criteria=52286})
     }
