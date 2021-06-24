@@ -635,9 +635,19 @@ map.nodes[42873269] = Collectible({
     id=180063,
     icon=3931157,
     quest=64376,
-    rewards={Mount({item=186646, id=1507})}, -- Darkmaul
     note=L["darkmaul_note"],
+    rewards={Mount({item=186646, id=1507})} -- Darkmaul
+
 })
+
+map.nodes[25725108] = Collectible({
+    id=179871,
+    icon=3897746,
+    quest=64274,
+    note=L["razorwing_note"],
+    rewards={Mount({item=186651, id=1510})}-- Dusklight Razorwing
+
+}) -- Razorwing Nest
 
 -------------------------------------------------------------------------------
 ------------------------------ SHARED TREASURES -------------------------------
