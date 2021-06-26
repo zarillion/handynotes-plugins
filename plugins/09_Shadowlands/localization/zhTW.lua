@@ -237,43 +237,43 @@ L["zolla_note"] = "我們非常嚴肅看待我們的防禦。無論大小，我�
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["chamber_note"] = nil
-L["corpse_heap_note"] = nil
-L["darkmaul_note"] = nil
-L["dislodged_nest_note"] = nil
-L["flayedwing_transporter_note"] = nil
-L["forgotten_feather_note"] = nil
-L["hunting_hunter_note"] = nil
-L["konthrogz_note"] = nil
-L["maelie_wanderer"] = nil
-L["no_stoneborne_note"] = nil
-L["offering_box_note"] = nil
-L["pop_quiz_note"] = nil
-L["popo_note"] = nil
-L["razorwing_note"] = nil
-L["reliwik_note"] = nil
-L["riftbound_cache"] = nil
-L["spectral_bound_chest"] = nil
-L["spectral_bound_note"] = nil
-L["towering_exterminator_note"] = nil
-L["wilderling_note"] = nil
+L["chamber_note"] = "使用從 {npc:178257} 取得的 {item:186718} 來修理古老傳送器. 使用維修好的古老傳送器來進入房間."
+L["corpse_heap_note"] = "和 {npc:180079} 對話來開始收集事件."
+L["darkmaul_note"] = "從入侵的淵喉菇收集 {item:187153} 並且餵給 {npc:180063}. 你必須要完成此事件6次來取得坐騎."
+L["dislodged_nest_note"] = "點選附近的劇毒飛蛾拿到 {spell:355181}. 對 {npc:178547} 使用額外動作按鈕上的 {spell:355131} 來騎上牠並操縱牠去撞巢穴所在的樹."
+L["flayedwing_transporter_note"] = "點選 {npc:178633} 來進入或離開玄秘寶庫."
+L["forgotten_feather_note"] = "在一個可以從守衛者歇息地跳下去的漂浮小島上."
+L["hunting_hunter_note"] = "和 {npc:179729} 說話來拿到 {spell:355078} 接著跟隨著足跡直到你找到 fleshy remains."
+L["konthrogz_note"] = "從一個吞食者傳送門事件中刷新."
+L["maelie_wanderer"] = "{npc:179912} 會刷新在所標註的位置. 當你點選牠後會對牠使用 {spell:355862} 持續使用六天後，回去找 {npc:179930} 來取得坐騎."
+L["no_stoneborne_note"] = "和 {npc:179974} 交談來開始事件."
+L["offering_box_note"] = "需要一隻在附近廢墟西邊牆頂可以找到的 {item:187033}"
+L["pop_quiz_note"] = "猜謎比賽會隨機刷新在地圖上. 點選被遺棄的帷幕法杖並回答 {npc:180162} 的問題."
+L["popo_note"] = "和 {npc:180028} 交談來觸發護送事件."
+L["razorwing_note"] = "交出吞食者掉落的 {item:187054}."
+L["reliwik_note"] = "點選未腐化的刃翼蛋來拉他下來."
+L["riftbound_cache"] = "隙縛寶箱"
+L["spectral_bound_chest"] = "點選3個附近的 {item:179369} 來解鎖箱子."
+L["spectral_bound_note"] = "靈縛寶箱"
+L["towering_exterminator_note"] = "從淵誓傳送門事件中刷新."
+L["wilderling_note"] = "點選 {npc:180014} 來開始馴服事件."
 
-L["archivist_key_note"] = nil
-L["korthia_rift_note"] = nil
-L["korthian_shrine_note"] = nil
-L["num_research"] = nil
+L["archivist_key_note"] = "從 {npc:178257} 購買 {item:186984} 來解鎖."
+L["korthia_rift_note"] = "從 {npc:178257} 購買 {item:186731} 來進入裂痕."
+L["korthian_shrine_note"] = "點選祭壇以取得 {spell:352367} 來看到通往 alter 的隱藏路徑."
+L["num_research"] = "%d 編目研究"
 L["options_icons_relic"] = "{achievement:15066}"
-L["options_icons_relic_desc"] = nil
+L["options_icons_relic_desc"] = "顯示成就的所有20個遺物位置."
 
-L["invasive_mawshroom"] = nil
-L["mawsworn_cache"] = nil
-L["options_icons_korthia_dailies_desc"] = nil
-L["options_icons_korthia_dailies"] = nil
-L["pile_of_bones"] = nil
-L["relic_cache"] = nil
-L["shardhide_stash"] = nil
-L["shared_note"] = nil
-L["unusual_nest"] = nil
+L["invasive_mawshroom"] = "入侵的淵喉菇"
+L["mawsworn_cache"] = "淵誓儲物箱"
+L["options_icons_korthia_dailies_desc"] = "顯示每日寶藏的位置."
+L["options_icons_korthia_dailies"] = "科西亞每日寶藏"
+L["pile_of_bones"] = "白骨堆"
+L["relic_cache"] = "文物箱"
+L["shardhide_stash"] = "晶皮儲藏物"
+L["shared_note"] = "你一天可以收集5個這些寶藏"
+L["unusual_nest"] = "不尋常材料之巢"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
