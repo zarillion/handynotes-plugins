@@ -366,15 +366,6 @@ map.nodes[45336714] = Treasure({
     }
 }) -- Offering Box
 
-map.nodes[25725108] = Treasure({
-    quest=64274,
-    label="{npc:179871}",
-    note=L["razorwing_note"],
-    rewards={
-        Mount({item=186651, id=1510}) -- Dusklight Razorwing
-    }
-}) -- Razorwing Nest
-
 map.nodes[56351845] = Treasure({
     quest=64472,
     requires=ns.requirement.Item(186731),
