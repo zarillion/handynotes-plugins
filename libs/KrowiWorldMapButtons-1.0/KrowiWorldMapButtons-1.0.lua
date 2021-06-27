@@ -59,21 +59,21 @@ local function HookDefaultButtons()
 end
 
 
-local hookedHandyNotesButtons;
-local function HookHandyNotesButtons()
-    for _, f in next, WorldMapFrame.overlayFrames do
-        if HandyNotes_ShadowlandsWorldMapOptionsButtonMixin and f.OnLoad == HandyNotes_ShadowlandsWorldMapOptionsButtonMixin.OnLoad then
-			f.KrowiWorldMapButtonsIndex = #buttons;
-			tinsert(buttons, f);
-        end
-        if HandyNotes_VisionsOfNZothWorldMapOptionsButtonMixin and f.OnLoad == HandyNotes_VisionsOfNZothWorldMapOptionsButtonMixin.OnLoad then
-			f.KrowiWorldMapButtonsIndex = #buttons;
-			tinsert(buttons, f);
-        end
-    end
+-- local hookedHandyNotesButtons;
+-- local function HookHandyNotesButtons()
+--     for _, f in next, WorldMapFrame.overlayFrames do
+--         if HandyNotes_ShadowlandsWorldMapOptionsButtonMixin and f.OnLoad == HandyNotes_ShadowlandsWorldMapOptionsButtonMixin.OnLoad then
+-- 			f.KrowiWorldMapButtonsIndex = #buttons;
+-- 			tinsert(buttons, f);
+--         end
+--         if HandyNotes_VisionsOfNZothWorldMapOptionsButtonMixin and f.OnLoad == HandyNotes_VisionsOfNZothWorldMapOptionsButtonMixin.OnLoad then
+-- 			f.KrowiWorldMapButtonsIndex = #buttons;
+-- 			tinsert(buttons, f);
+--         end
+--     end
 
-	hookedHandyNotesButtons = true;
-end
+-- 	hookedHandyNotesButtons = true;
+-- end
 
 function lib:Add(templateName, templateType)
 	if buttons == nil then
@@ -84,9 +84,9 @@ function lib:Add(templateName, templateType)
 		HookDefaultButtons();
 	end
 
-	if not hookedHandyNotesButtons then
-		HookHandyNotesButtons();
-	end
+	-- if not hookedHandyNotesButtons then
+	-- 	HookHandyNotesButtons();
+	-- end
 
 	local xOffset = 4 + #buttons * 32;
 	-- print(xOffset);
