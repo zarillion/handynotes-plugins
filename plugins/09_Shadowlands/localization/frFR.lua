@@ -539,6 +539,7 @@ L["nexus_npc_orrholyn"] = "Trouvé sous la plate-forme de {npc:162845}"
 L["nexus_npc_portal"] = "Sur un petit rocher derrière le {npc:167531}"
 L["nexus_npc_talaporas"] = "Près de l'escalier vers la plate-forme de {npc:170302}"
 L["nexus_npc_thanassos"] = "Au fond de la plate-forme de {npc:170731}"
+L["nexus_npc_willbreaker"] = nil
 -- Locations given relative to the main path/road nearby
 L["nexus_road_below"] = "Sur le sol en dessous de la route principale"
 L["nexus_road_cave"] = "Dans une petite grotte en dessous de la route"
@@ -548,6 +549,7 @@ L["nexus_room_ramparts"] = "Dans une petite pièce sous les remparts"
 -- Random locations described as best as possible
 L["nexus_misc_crystal_ledge"] = "Sur une corniche rocheuse près de quelques cristaux bleus"
 L["nexus_misc_floating_cage"] = "Sur une cage flottante (utilisez les prises de grappin)"
+L["nexus_misc_below_ramparts"] = nil
 L["nexus_misc_grapple_ramparts"] = "Au sommet des remparts (utilisez la prise de grappin)"
 L["nexus_misc_grapple_rock"] = "Près d'une prise de grappin sur un rocher"
 L["nexus_misc_ledge_below"] = "Sur le sol, sous une corniche"

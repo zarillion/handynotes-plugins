@@ -535,6 +535,7 @@ L["nexus_npc_orrholyn"] = nil
 L["nexus_npc_portal"] = nil
 L["nexus_npc_talaporas"] = nil
 L["nexus_npc_thanassos"] = nil
+L["nexus_npc_willbreaker"] = nil
 -- Locations given relative to the main path/road nearby
 L["nexus_road_below"] = nil
 L["nexus_road_cave"] = nil
@@ -544,6 +545,7 @@ L["nexus_room_ramparts"] = nil
 -- Random locations described as best as possible
 L["nexus_misc_crystal_ledge"] = nil
 L["nexus_misc_floating_cage"] = nil
+L["nexus_misc_below_ramparts"] = nil
 L["nexus_misc_grapple_ramparts"] = nil
 L["nexus_misc_grapple_rock"] = nil
 L["nexus_misc_ledge_below"] = nil
