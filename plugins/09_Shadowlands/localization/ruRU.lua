@@ -264,7 +264,7 @@ L["korthia_rift_note"] = "Купите {item:186731} у {npc:178257}, чтобы
 L["korthian_shrine_note"] = "Нажмите на святыню, чтобы получить {spell:352367}, чтобы увидеть скрытый путь к алтарю."
 L["num_research"] = "%d Исследования"
 L["options_icons_relic"] = "{achievement:15066}"
-L["options_icons_relic_desc"] = "Покажите расположение всех 20 реликвий для достижения."
+L["options_icons_relic_desc"] = "Покажите расположение всех 20 реликвий для {achievement:15066}."
 
 L["invasive_mawshroom"] = "Инвазивный гриб Утробы"
 L["mawsworn_cache"] = "Тайник Верных Утробе"
