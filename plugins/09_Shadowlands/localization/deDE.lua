@@ -543,7 +543,7 @@ L["nexus_npc_orrholyn"] = "Unterhalb der Plattform von {npc:162845}."
 L["nexus_npc_portal"] = "Auf einem kleinen Felsen hinter {npc:167531}."
 L["nexus_npc_talaporas"] = "An den Treppen zur Plattform von {npc:170302}."
 L["nexus_npc_thanassos"] = "Hinter {npc:170731s} Plattform."
-L["nexus_npc_willbreaker"] = nil
+L["nexus_npc_willbreaker"] = "In der Ecke hinter einem {npc:168233}."
 -- Locations given relative to the main path/road nearby
 L["nexus_road_below"] = "Auf dem Boden unterhalb des Hauptwegs."
 L["nexus_road_cave"] = "In einer kleinen Höhle underhalb des Wegs."
@@ -553,7 +553,7 @@ L["nexus_room_ramparts"] = "In einem kleinen Raum unter den Mauern."
 -- Random locations described as best as possible
 L["nexus_misc_crystal_ledge"] = "An einer Felskante, bei einigen türkisen Kristallen."
 L["nexus_misc_floating_cage"] = "Auf einem schwebendem Käfig (benutze die Greifhakenziele)."
-L["nexus_misc_below_ramparts"] = nil
+L["nexus_misc_below_ramparts"] = "An der Unterseite der Mauer entlang."
 L["nexus_misc_grapple_ramparts"] = "Auf den Mauern (benutze das Greifhakenziel)."
 L["nexus_misc_grapple_rock"] = "Bei einem Greifhakenziel auf dem Felsen."
 L["nexus_misc_ledge_below"] = "Auf dem Boden unter einer Kante."
