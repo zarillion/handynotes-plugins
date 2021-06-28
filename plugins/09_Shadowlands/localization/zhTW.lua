@@ -580,7 +580,6 @@ L["harrower_key_ring"] = nil
 L["harrower_key_note"] = nil
 L["helgarde_supply"] = nil
 L["maw_mad_note"] = nil
-L["nilganihmaht_gold_band"] = nil
 L["nilganihmaht_note"] = nil
 L["options_icons_nilganihmaht"] = nil
 L["options_icons_nilganihmaht_desc"] = nil

@@ -580,7 +580,6 @@ L["harrower_key_ring"] = nil
 L["harrower_key_note"] = "На стене {npc:178311}."
 L["helgarde_supply"] = nil
 L["maw_mad_note"] = "Бегает случайным образом по цитадели вечных мук, всегда появляется здесь."
-L["nilganihmaht_gold_band"] = nil
 L["nilganihmaht_note"] = "Вы должны собрать 5 колец и принести их {npc:179572} в разлом."
 L["options_icons_nilganihmaht"] = "Секреты Нилганихмата"
 L["options_icons_nilganihmaht_desc"] = "Показать расположение частей секретного средства передвижения Нилганихмата."

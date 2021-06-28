@@ -992,7 +992,7 @@ local Nilganihmaht = Class('Nilganihmaht', ns.node.Rare, {
     requires={
             ns.requirement.Item(186603), --Stone Ring
             ns.requirement.Item(186605), --Runed Band
-            ns.requirement.Item(186608), --Gold Band Unknown Spawn
+            ns.requirement.Item(186608), --Gold Band
             ns.requirement.Item(186606), --Signet Ring Unknown spawn
             ns.requirement.Item(186607) --Silver Ring
     },
@@ -1023,12 +1023,12 @@ map.nodes[66045739] = Treasure({
 map.nodes[19213225] = Treasure({
     quest=64199,
     group=ns.groups.NILGANIHMAHT_MOUNT,
-    label=L["nilganihmaht_gold_band"],
+    label="{item:186608}",
     note=L["gold_band_note"],
     icon='chest_bl',
     fgroup='nilganihmaht_group',
     rewards={
-        Item({item=186608}) -- Nilganimahts Gold Band
+        Item({item=186608}) -- Nilganihmaht's Gold Band
     },
     pois={
         POI({18503926}) -- Starting point

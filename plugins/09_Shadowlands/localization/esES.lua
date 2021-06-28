@@ -581,7 +581,6 @@ L["harrower_key_ring"] = "Llave Anillo de Harrower"
 L["harrower_key_note"] = "En la pared junto a {npc:178311}."
 L["helgarde_supply"] = "Alijo de Suministros de Helgarde"
 L["maw_mad_note"] = "Corre aleatoriamente alrededor del Bastión de la Perdición. Siempre aparece aquí."
-L["nilganihmaht_gold_band"] = nil
 L["nilganihmaht_note"] = "Tienes que recoger los 5 anillos y llevarlos a {npc:179572} en la falla."
 L["options_icons_nilganihmaht"] = "Secreto de Nilganihmaht"
 L["options_icons_nilganihmaht_desc"] = "Muestra donde están las partes para la montura secreta de Nilganihmaht."
