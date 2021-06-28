@@ -578,69 +578,6 @@ map.nodes[39404270] = Relic({
 }) -- Shadow Slicing Sword
 
 -------------------------------------------------------------------------------
----------------------------------- TRANSPORT ----------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[60832857] = NPC({
-    id=178633,
-    note=L["flayedwing_transporter_note"],
-    icon='flight_point_y',
-    scale=1.25,
-    fgroup='flayedwing_transporter1',
-   pois={Line({60832857, 49356386})}
-})
-
-map.nodes[49356386] = NPC({
-    id=178637,
-    note=L["flayedwing_transporter_note"],
-    icon='flight_point_y',
-    scale=1.25,
-    fgroup='flayedwing_transporter1'
-})
-
--------------------------------------------------------------------------------
---------------------------------- COLLECTIBLES --------------------------------
--------------------------------------------------------------------------------
-
--- local function GetMaelieStatus ()
---     local count = select(4, GetQuestObjectiveInfo(nil, 0, false))
---     if count ~= nil then return ns.status.Gray(tostring(count)..'/6') end
--- end
-
-local maelie = Class('Maelie', Collectible, {
-    id=179912,
-    icon=3155422,
-    quest=64292,
-    note=L["maelie_wanderer"],
-    pois={POI({
-        41103980, 49304170, 59801510, 43003260, 49304170, 50302290,
-        39703490, 61304040, 30005560, 42806040, 38403140, 41302750
-        })},
-    rewards={Mount({item=186643, id=1511})}, -- Reins of the Wanderer
---    getters={rlabel=GetMaelieStatus}
-})()
-
-map.nodes[60562103] = maelie
-
-map.nodes[42873269] = Collectible({
-    id=180063,
-    icon=3931157,
-    quest=64376,
-    note=L["darkmaul_note"],
-    rewards={Mount({item=186646, id=1507})} -- Darkmaul
-
-})
-
-map.nodes[25725108] = Collectible({
-    id=179871,
-    icon=3897746,
-    quest=64274,
-    note=L["razorwing_note"],
-    rewards={Mount({item=186651, id=1510})}-- Dusklight Razorwing
-
-}) -- Razorwing Nest
-
--------------------------------------------------------------------------------
 ------------------------------ SHARED TREASURES -------------------------------
 -------------------------------------------------------------------------------
 
@@ -713,6 +650,7 @@ local Mawshroom = Class('Mawshroom', Treasure, {
     rewards={
         Item({item=187153, quest=64376}), --Tasty Mawshroom
         Item({item=185963, quest=638892}), --Diviner's Rune Chit
+        Item({item=186017}), -- Korthite Crystal
         ns.relics.relic_fragment
     }
 })
@@ -746,6 +684,7 @@ map.nodes[45204790] = MAWSH5
 map.nodes[46524851] = MAWSH5
 map.nodes[54805550] = MAWSH5
 
+-------------------------------------------------------------------------------
 
 local UMNest = Class('UMNest', Treasure, {
     group=ns.groups.NEST_MATERIALS,
@@ -755,6 +694,7 @@ local UMNest = Class('UMNest', Treasure, {
     rewards={
         Item({item=187442, note=L["bag"]}), --Scholar's Ancient Pack
         Item({item=185963, quest=638892}), --Diviner's Rune Chit
+        Item({item=186017}), -- Korthite Crystal
         ns.relics.relic_fragment
     }
 })
@@ -765,11 +705,14 @@ map.nodes[51864391] = UMNest({quest=64360})
 map.nodes[63703140] = UMNest({quest=64361})
 map.nodes[52407270] = UMNest({quest=64362})
 
+-------------------------------------------------------------------------------
+
 local MawswornC = Class('MawswornC', Treasure, {
     group=ns.groups.MAWSWORN_CACHE,
     label=L["mawsworn_cache"],
     rewards={
         Transmog({item=187026, note=L["cloak"]}),
+        Item({item=186017}), -- Korthite Crystal
         ns.relics.relic_fragment
     }
 })
@@ -790,6 +733,68 @@ map.nodes[54007280] = MAWC3
 map.nodes[56406950] = MAWC3
 map.nodes[56507470] = MAWC3
 
+-------------------------------------------------------------------------------
+---------------------------------- TRANSPORT ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[60832857] = NPC({
+    id=178633,
+    note=L["flayedwing_transporter_note"],
+    icon='flight_point_y',
+    scale=1.25,
+    fgroup='flayedwing_transporter1',
+   pois={Line({60832857, 49356386})}
+})
+
+map.nodes[49356386] = NPC({
+    id=178637,
+    note=L["flayedwing_transporter_note"],
+    icon='flight_point_y',
+    scale=1.25,
+    fgroup='flayedwing_transporter1'
+})
+
+-------------------------------------------------------------------------------
+--------------------------------- COLLECTIBLES --------------------------------
+-------------------------------------------------------------------------------
+
+-- local function GetMaelieStatus ()
+--     local count = select(4, GetQuestObjectiveInfo(nil, 0, false))
+--     if count ~= nil then return ns.status.Gray(tostring(count)..'/6') end
+-- end
+
+local maelie = Class('Maelie', Collectible, {
+    id=179912,
+    icon=3155422,
+    quest=64292,
+    note=L["maelie_wanderer"],
+    pois={POI({
+        41103980, 49304170, 59801510, 43003260, 49304170, 50302290,
+        39703490, 61304040, 30005560, 42806040, 38403140, 41302750
+        })},
+    rewards={Mount({item=186643, id=1511})}, -- Reins of the Wanderer
+--    getters={rlabel=GetMaelieStatus}
+})()
+
+map.nodes[60562103] = maelie
+
+map.nodes[42873269] = Collectible({
+    id=180063,
+    icon=3931157,
+    quest=64376,
+    note=L["darkmaul_note"],
+    rewards={Mount({item=186646, id=1507})} -- Darkmaul
+
+})
+
+map.nodes[25725108] = Collectible({
+    id=179871,
+    icon=3897746,
+    quest=64274,
+    note=L["razorwing_note"],
+    rewards={Mount({item=186651, id=1510})}-- Dusklight Razorwing
+
+}) -- Razorwing Nest
 
 
 
