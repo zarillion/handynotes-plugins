@@ -265,7 +265,7 @@ L["korthia_rift_note"] = "Achetez une {item:186731} à l'{npc:178257} pour pouvo
 L["korthian_shrine_note"] = "Cliquez sur l'autel pour obtenir {spell:352367} et voir le chemin caché vers l'autel."
 L["num_research"] = "%d Recherche"
 L["options_icons_relic"] = "{achievement:15066}"
-L["options_icons_relic_desc"] = "Afficher les emplacements des 20 reliques pour le haut-fait."
+L["options_icons_relic_desc"] = "Afficher les emplacements des 20 reliques pour {achievement:15066}."
 
 L["invasive_mawshroom"] = "Champignantre envahissant"
 L["mawsworn_cache"] = "Cache antrelige"
@@ -274,14 +274,14 @@ L["relic_cache"] = "Cache à relique"
 L["shardhide_stash"] = "Cachette de cuirasaure"
 L["shared_note"] = "Vous pouvez collecter 5 de ces trésors par jour."
 L["unusual_nest"] = "Tas de matériaux inhabituels."
-L["options_icons_invasive_mawshroom_desc"] = nil
-L["options_icons_invasive_mawshroom"] = nil
-L["options_icons_korthia_dailies_desc"] = nil
-L["options_icons_korthia_dailies"] = nil
-L["options_icons_mawsworn_cache_desc"] = nil
-L["options_icons_mawsworn_cache"] = nil
-L["options_icons_nest_materials_desc"] = nil
-L["options_icons_nest_materials"] = nil
+L["options_icons_invasive_mawshroom_desc"] = "Afficher les emplacements des Champignantres envahissants."
+L["options_icons_invasive_mawshroom"] = "Champignantres envahissants (Quotidien)"
+L["options_icons_korthia_dailies_desc"] = "Afficher les emplacements des trésors quotidiens non marqués."
+L["options_icons_korthia_dailies"] = "Trésors cachés (Quotidien)"
+L["options_icons_mawsworn_cache_desc"] = "Afficher les emplacements des Caches antreliges."
+L["options_icons_mawsworn_cache"] = "Caches antreliges (Quotidien)"
+L["options_icons_nest_materials_desc"] = "Afficher les emplacements des Tas de matériaux inhabituels."
+L["options_icons_nest_materials"] = "Tas de matériaux inhabituels (Quotidien)"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -578,12 +578,12 @@ L["options_icons_stygian_caches_desc"] = "Afficher les emplacements des caches c
 
 L["domination_chest"] = "Coffre de la Domination"
 L["domination_chest_note"] = "Il faut 4 {item:186727} pour ouvrir tous les sceaux."
-L["gold_band_note"] = nil
+L["gold_band_note"] = "Au sommet de la montagne, sur une pointe."
 L["harrower_key_ring"] = "Trousseau de clés de la Persécutrice"
 L["harrower_key_note"] = "Sur le mur près de {npc:178311}."
 L["helgarde_supply"] = "Cache de fournitures de Helgarde"
 L["maw_mad_note"] = "Se déplace au hasard au Fort de la Perdition, mais apparaît toujours ici."
-L["nilganihmaht_gold_band"] = nil
+L["nilganihmaht_gold_band"] = "Bague en or de Nilganihmaht"
 L["nilganihmaht_note"] = "Vous devez collecter les 5 anneaux et les apporter à la {npc:179572} dans la faille."
 L["options_icons_nilganihmaht"] = "Secret de Nilganihmaht"
-L["options_icons_nilganihmaht_desc"] = "Affichez les emplacements des parties de la monture secrète de Nilganihmaht."
+L["options_icons_nilganihmaht_desc"] = "Afficher les emplacements des parties de la monture secrète de Nilganihmaht."
