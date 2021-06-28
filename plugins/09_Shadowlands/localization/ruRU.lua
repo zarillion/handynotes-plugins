@@ -268,13 +268,19 @@ L["options_icons_relic_desc"] = "Покажите расположение вс�
 
 L["invasive_mawshroom"] = "Инвазивный гриб Утробы"
 L["mawsworn_cache"] = "Тайник Верных Утробе"
-L["options_icons_korthia_dailies_desc"] = "Отображение местоположения ежедневных сокровищ."
-L["options_icons_korthia_dailies"] = "Ежедневные сокровища Кортии"
 L["pile_of_bones"] = "Груда костей"
 L["relic_cache"] = "Тайник с реликвиями"
 L["shardhide_stash"] = "Тайник сланцевика"
 L["shared_note"] = "Вы можете собрать 5 таких сокровищ в день."
 L["unusual_nest"] = "Гнездо с необычными материалами"
+L["options_icons_invasive_mawshroom_desc"] = nil
+L["options_icons_invasive_mawshroom"] = nil
+L["options_icons_korthia_dailies_desc"] = nil
+L["options_icons_korthia_dailies"] = nil
+L["options_icons_mawsworn_cache_desc"] = nil
+L["options_icons_mawsworn_cache"] = nil
+L["options_icons_nest_materials_desc"] = nil
+L["options_icons_nest_materials"] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -569,10 +575,12 @@ L["options_icons_stygian_caches_desc"] = "Показать места тайни
 
 L["domination_chest"] = nil
 L["domination_chest_note"] = "Требуется 4 {item:186727}, чтобы открыть все печати."
+L["gold_band_note"] = nil
 L["harrower_key_ring"] = nil
 L["harrower_key_note"] = "На стене {npc:178311}."
 L["helgarde_supply"] = nil
 L["maw_mad_note"] = "Бегает случайным образом по цитадели вечных мук, всегда появляется здесь."
+L["nilganihmaht_gold_band"] = nil
 L["nilganihmaht_note"] = "Вы должны собрать 5 колец и принести их {npc:179572} в разлом."
 L["options_icons_nilganihmaht"] = "Секреты Нилганихмата"
 L["options_icons_nilganihmaht_desc"] = "Показать расположение частей секретного средства передвижения Нилганихмата."

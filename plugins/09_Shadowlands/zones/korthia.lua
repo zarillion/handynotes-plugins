@@ -708,20 +708,20 @@ map.nodes[52322701] = Shared({label=L["shardhide_stash"]})
 -------------------------------------------------------------------------------
 
 local Mawshroom = Class('Mawshroom', Treasure, {
-    group=ns.groups.KORTHIA_SHARED,
+    group=ns.groups.INVASIVE_MAWSHROOM,
     label=L["invasive_mawshroom"],
     rewards={
         Item({item=187153, quest=64376}), --Tasty Mawshroom
-        ns.relics.relic_fragment,
-        Item({item=185963, quest=638892}) --Diviner's Rune Chit
+        Item({item=185963, quest=638892}), --Diviner's Rune Chit
+        ns.relics.relic_fragment
     }
 })
 
-local MAWSH1 = Mawshroom({quest=64351, icon='chest_lm'})
-local MAWSH2 = Mawshroom({quest=64354, icon='chest_pk'})
-local MAWSH3 = Mawshroom({quest=64355, icon='chest_pp'})
-local MAWSH4 = Mawshroom({quest=64356, icon='chest_gn'})
-local MAWSH5 = Mawshroom({quest=64357, icon='chest_bn'})
+local MAWSH1 = Mawshroom({quest=64351, icon='chest_pp'})
+local MAWSH2 = Mawshroom({quest=64354, icon='chest_yw'})
+local MAWSH3 = Mawshroom({quest=64355, icon='chest_bl'})
+local MAWSH4 = Mawshroom({quest=64356, icon='chest_rd'})
+local MAWSH5 = Mawshroom({quest=64357, icon='chest_gn'})
 
 map.nodes[54204120] = MAWSH1
 map.nodes[56805150] = MAWSH1
@@ -748,13 +748,14 @@ map.nodes[54805550] = MAWSH5
 
 
 local UMNest = Class('UMNest', Treasure, {
-    group=ns.groups.KORTHIA_SHARED,
+    group=ns.groups.NEST_MATERIALS,
     label=L["unusual_nest"],
-    icon='chest_tl',
+    icon='chest_bn',
+    fgroup='nest_materials',
     rewards={
         Item({item=187442, note=L["bag"]}), --Scholar's Ancient Pack
-        ns.relics.relic_fragment,
-        Item({item=185963, quest=638892}) --Diviner's Rune Chit
+        Item({item=185963, quest=638892}), --Diviner's Rune Chit
+        ns.relics.relic_fragment
     }
 })
 
@@ -765,17 +766,17 @@ map.nodes[63703140] = UMNest({quest=64361})
 map.nodes[52407270] = UMNest({quest=64362})
 
 local MawswornC = Class('MawswornC', Treasure, {
-    group=ns.groups.KORTHIA_SHARED,
+    group=ns.groups.MAWSWORN_CACHE,
     label=L["mawsworn_cache"],
     rewards={
-        ns.relics.relic_fragment,
-        Transmog({item=187026, note=L["cloak"]})
+        Transmog({item=187026, note=L["cloak"]}),
+        ns.relics.relic_fragment
     }
 })
 
-local MAWC1 = MawswornC({quest=64021, icon='chest_yw'})
-local MAWC2 = MawswornC({quest=64363, icon='chest_bl'})
-local MAWC3 = MawswornC({quest=64364, icon='chest_rd'})
+local MAWC1 = MawswornC({quest=64021, icon='chest_tl'})
+local MAWC2 = MawswornC({quest=64363, icon='chest_pk'})
+local MAWC3 = MawswornC({quest=64364, icon='chest_lm'})
 
 map.nodes[58803360] = MAWC1
 map.nodes[62903490] = MAWC1

@@ -267,13 +267,19 @@ L["options_icons_relic_desc"] = "显示成就中全部20个圣物的位置。"
 
 L["invasive_mawshroom"] = "侵入蘑菇"
 L["mawsworn_cache"] = "渊誓宝箱"
-L["options_icons_korthia_dailies_desc"] = "显示日常宝箱的位置。"
-L["options_icons_korthia_dailies"] = "刻希亚日常宝箱"
 L["pile_of_bones"] = "一堆白骨"
 L["relic_cache"] = "圣物宝箱"
 L["shardhide_stash"] = "碎片藏匿处"
 L["shared_note"] = "你可以每天收集5个宝箱。"
 L["unusual_nest"] = "不寻常材料的巢穴"
+L["options_icons_invasive_mawshroom_desc"] = nil
+L["options_icons_invasive_mawshroom"] = nil
+L["options_icons_korthia_dailies_desc"] = nil
+L["options_icons_korthia_dailies"] = nil
+L["options_icons_mawsworn_cache_desc"] = nil
+L["options_icons_mawsworn_cache"] = nil
+L["options_icons_nest_materials_desc"] = nil
+L["options_icons_nest_materials"] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -568,10 +574,12 @@ L["options_icons_stygian_caches_desc"] = "显示获取额外冥殇的宝箱位�
 
 L["domination_chest"] = nil
 L["domination_chest_note"] = nil
+L["gold_band_note"] = nil
 L["harrower_key_ring"] = nil
 L["harrower_key_note"] = nil
 L["helgarde_supply"] = nil
 L["maw_mad_note"] = nil
+L["nilganihmaht_gold_band"] = nil
 L["nilganihmaht_note"] = nil
 L["options_icons_nilganihmaht"] = nil
 L["options_icons_nilganihmaht_desc"] = nil

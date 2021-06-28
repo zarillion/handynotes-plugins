@@ -269,13 +269,19 @@ L["options_icons_relic_desc"] = "Muestra donde están las 20 reliquias del logro
 
 L["invasive_mawshroom"] = "Champifauces Invasivos"
 L["mawsworn_cache"] = "Alijo jurafauces"
-L["options_icons_korthia_dailies_desc"] = "Muestra donde están los tesoros diarios."
-L["options_icons_korthia_dailies"] = "Tesoros Diarios de Korthia"
 L["pile_of_bones"] = "Montón de huesos"
 L["relic_cache"] = "Alijo de reliquias"
 L["shardhide_stash"] = "Alijo de pellejosquirla"
 L["shared_note"] = "Puedes recoger 5 de estos tesoros por día."
 L["unusual_nest"] = "Nido de materiales inusuales"
+L["options_icons_invasive_mawshroom_desc"] = nil
+L["options_icons_invasive_mawshroom"] = nil
+L["options_icons_korthia_dailies_desc"] = nil
+L["options_icons_korthia_dailies"] = nil
+L["options_icons_mawsworn_cache_desc"] = nil
+L["options_icons_mawsworn_cache"] = nil
+L["options_icons_nest_materials_desc"] = nil
+L["options_icons_nest_materials"] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -570,10 +576,12 @@ L["options_icons_stygian_caches_desc"] = "Muestra dónde están los alijos con E
 
 L["domination_chest"] = "Cofre de Dominación"
 L["domination_chest_note"] = "Requiere 4 {item:186727} para abrir todos los sellos."
+L["gold_band_note"] = nil
 L["harrower_key_ring"] = "Llave Anillo de Harrower"
 L["harrower_key_note"] = "En la pared junto a {npc:178311}."
 L["helgarde_supply"] = "Alijo de Suministros de Helgarde"
 L["maw_mad_note"] = "Corre aleatoriamente alrededor del Bastión de la Perdición. Siempre aparece aquí."
+L["nilganihmaht_gold_band"] = nil
 L["nilganihmaht_note"] = "Tienes que recoger los 5 anillos y llevarlos a {npc:179572} en la falla."
 L["options_icons_nilganihmaht"] = "Secreto de Nilganihmaht"
 L["options_icons_nilganihmaht_desc"] = "Muestra donde están las partes para la montura secreta de Nilganihmaht."

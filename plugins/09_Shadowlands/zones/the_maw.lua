@@ -192,9 +192,11 @@ map.nodes[20586935] = Rare({
     quest=62260,
     note=L["exos_note"],
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
+    fgroup='nilganihmaht_group',
     rewards={
         Achievement({id=14744, criteria=49851}),
         Item({item=184108, note=L["neck"]}), -- Vorpal Amulet
+        Item({item=186606}), -- Nilganihmaht's Signet Ring
         Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
         Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
         Item({item=183068, quest=63162})  -- Korrath's Grimoire: Gyadrek
@@ -351,7 +353,7 @@ map.nodes[27672526] = Rare({
     quest=64232,
     requires=ns.requirement.Item(186731),
     note=L["korthia_rift_note"],
-    fgroup='nilganimaht_group',
+    fgroup='nilganihmaht_group',
     rewards={
         Achievement({id=15107, criteria=52284}),
         Item({item=186605}) -- Nilganihmaht's Runed Band
@@ -385,7 +387,7 @@ map.nodes[37446212] = Rare({
 map.nodes[66404400] = Rare({
     id=177444,
     quest=64152,
-    fgroup='nilganimaht_group',
+    fgroup='nilganihmaht_group',
     rewards={
         Achievement({id=15107, criteria=52287}),
         Transmog({item=187359, slot=L["shield"]}), -- Ylva's Water Dish
@@ -985,6 +987,7 @@ map.nodes[39286648] = Treasure({
 -------------------------------------------------------------------------------
 
 local Nilganihmaht = Class('Nilganihmaht', ns.node.Rare, {
+    quest=64202,
     id=179572,
     requires={
             ns.requirement.Item(186603), --Stone Ring
@@ -996,7 +999,7 @@ local Nilganihmaht = Class('Nilganihmaht', ns.node.Rare, {
     group=ns.groups.NILGANIHMAHT_MOUNT,
     note=L["nilganihmaht_note"],
     icon=1391724,
-    fgroup='nilganimaht_group',
+    fgroup='nilganihmaht_group',
     rewards={
         Mount({item=186713, id=1503}) -- Hand of Nilganihmaht
     }
@@ -1010,18 +1013,35 @@ map.nodes[66045739] = Treasure({
     group=ns.groups.NILGANIHMAHT_MOUNT,
     label=L["domination_chest"],
     note=L["domination_chest_note"],
-    fgroup='nilganimaht_group',
+    icon='chest_bl',
+    fgroup='nilganihmaht_group',
     rewards={
         Item({item=186607}) -- Nilganimahts Silver Ring
     }
 }) -- Domination Chest
+
+map.nodes[19213225] = Treasure({
+    quest=64199,
+    group=ns.groups.NILGANIHMAHT_MOUNT,
+    label=L["nilganihmaht_gold_band"],
+    note=L["gold_band_note"],
+    icon='chest_bl',
+    fgroup='nilganihmaht_group',
+    rewards={
+        Item({item=186608}) -- Nilganimahts Gold Band
+    },
+    pois={
+        POI({18503926}) -- Starting point
+    }
+}) -- Nilganihmaht's Gold Band
 
 map.nodes[65606000] = Treasure({
     quest=62680,
     group=ns.groups.NILGANIHMAHT_MOUNT,
     label=L["harrower_key_ring"],
     note=L["harrower_key_note"],
-    fgroup='nilganimaht_group',
+    icon='chest_bl',
+    fgroup='nilganihmaht_group',
     rewards={
         Item({item=186727}) -- Seal Breaker Key
     }
@@ -1032,8 +1052,8 @@ local Helgarde = Class('Helgarde', Treasure, {
     quest=62682,
     group=ns.groups.NILGANIHMAHT_MOUNT,
     label=L["helgarde_supply"],
-    icon='chest_pk',
-    fgroup='nilganimaht_group',
+    icon='chest_bl',
+    fgroup='nilganihmaht_group',
     rewards={
         Item({item=186727}) -- Seal Breaker Key
     }
@@ -1045,11 +1065,11 @@ map.nodes[62475528] = Helgarde()
 
 map.nodes[29105850] = Rare({
     id=179601,
-    quest=nil,
+    quest=64197,
     group=ns.groups.NILGANIHMAHT_MOUNT,
     requires=ns.requirement.Item(186600),
     note=L["maw_mad_note"],
-    fgroup='nilganimaht_group',
+    fgroup='nilganihmaht_group',
     rewards={
         Item({item=186602}) -- Quartered Stone Ring
     }
@@ -1065,7 +1085,7 @@ map.nodes[29105850] = Rare({
 
 local MawswornC = Class('MawswornC', Treasure, {
     label=L["mawsworn_cache"],
-    fgroup='nilganimaht_group',
+    fgroup='nilganihmaht_group',
     group=ns.groups.NILGANIHMAHT_MOUNT,
     rewards={
         Achievement({id=15039, criteria={id=1, qty=true}}),

@@ -268,13 +268,20 @@ L["options_icons_relic_desc"] = nil
 
 L["invasive_mawshroom"] = nil
 L["mawsworn_cache"] = nil
-L["options_icons_korthia_dailies_desc"] = nil
-L["options_icons_korthia_dailies"] = nil
+
 L["pile_of_bones"] = nil
 L["relic_cache"] = nil
 L["shardhide_stash"] = nil
 L["shared_note"] = nil
 L["unusual_nest"] = nil
+L["options_icons_invasive_mawshroom_desc"] = nil
+L["options_icons_invasive_mawshroom"] = nil
+L["options_icons_korthia_dailies_desc"] = nil
+L["options_icons_korthia_dailies"] = nil
+L["options_icons_mawsworn_cache_desc"] = nil
+L["options_icons_mawsworn_cache"] = nil
+L["options_icons_nest_materials_desc"] = nil
+L["options_icons_nest_materials"] = nil
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -569,10 +576,12 @@ L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Styg
 
 L["domination_chest"] = nil
 L["domination_chest_note"] = nil
+L["gold_band_note"] = nil
 L["harrower_key_ring"] = nil
 L["harrower_key_note"] = nil
 L["helgarde_supply"] = nil
 L["maw_mad_note"] = nil
+L["nilganihmaht_gold_band"] = nil
 L["nilganihmaht_note"] = nil
 L["options_icons_nilganihmaht"] = nil
 L["options_icons_nilganihmaht_desc"] = nil
