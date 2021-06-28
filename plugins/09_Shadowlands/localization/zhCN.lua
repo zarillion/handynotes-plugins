@@ -237,43 +237,43 @@ L["zolla_note"] = "我们非常重视自身的防御。无论规模大小，我�
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["chamber_note"] = nil
-L["corpse_heap_note"] = nil
-L["darkmaul_note"] = nil
-L["dislodged_nest_note"] = nil
-L["flayedwing_transporter_note"] = nil
-L["forgotten_feather_note"] = nil
-L["hunting_hunter_note"] = nil
-L["konthrogz_note"] = nil
-L["maelie_wanderer"] = nil
-L["no_stoneborne_note"] = nil
-L["offering_box_note"] = nil
-L["pop_quiz_note"] = nil
-L["popo_note"] = nil
-L["razorwing_note"] = nil
-L["reliwik_note"] = nil
-L["riftbound_cache"] = nil
-L["spectral_bound_chest"] = nil
-L["spectral_bound_note"] = nil
-L["towering_exterminator_note"] = nil
-L["wilderling_note"] = nil
+L["chamber_note"] = "使用从 {npc:178257} 得到的 {item:186718} 在远古传送器。使用已修复的远古传送器到达宝箱。"
+L["corpse_heap_note"] = "和 {npc:180079} 交谈开始收集事件。"
+L["darkmaul_note"] = "从侵入蘑菇收集 {item:187153} 并喂食给 {npc:180063}。你必须完成事件6次获得坐骑。"
+L["dislodged_nest_note"] = "点击附近的剧毒之蛾获得 {spell:355181}。使用 {spell:355131} 额外动作按钮给 {npc:178547} 来获得控制和骑上它进入巢所在的树中。"
+L["flayedwing_transporter_note"] = "点击 {npc:178633} 飞向和飞离绝密宝库。"
+L["forgotten_feather_note"] = "从守护者的休憩跳下来到漂浮的一个小岛上。"
+L["hunting_hunter_note"] = "和 {npc:179729} 交谈获得 {spell:355078} 并跟随脚印直到你找到肉质残留。"
+L["konthrogz_note"] = "在吞噬者的传送门事件中出现。"
+L["maelie_wanderer"] = "{npc:179912} 将在当天固定位置出现。一旦你使用 {spell:355862} 给他不同的6天后回到 {npc:179930} 获得坐骑。"
+L["no_stoneborne_note"] = "和 {npc:179974} 交谈开始事件。"
+L["offering_box_note"] = "需要 {item:187033}，可以在附近废墟的西侧墙顶部找到。"
+L["pop_quiz_note"] = "突击测验事件将在地图上随机出现。点击被遗弃的帷幕法杖并回答 {npc:180162} 的问题。"
+L["popo_note"] = "和 {npc:180028} 交谈触发护送事件。"
+L["razorwing_note"] = "交付从吞噬者掉落的 {item:187054}。"
+L["reliwik_note"] = "点击未腐化的刃翼卵并击杀它。"
+L["riftbound_cache"] = "裂隙宝箱"
+L["spectral_bound_chest"] = "点击附近的3个幽魂钥匙解锁宝箱。"
+L["spectral_bound_note"] = "魂缚宝箱"
+L["towering_exterminator_note"] = "在渊誓传送门事件出现。"
+L["wilderling_note"] = "点击 {npc:180014} 开始驯服事件。"
 
-L["archivist_key_note"] = nil
-L["korthia_rift_note"] = nil
-L["korthian_shrine_note"] = nil
-L["num_research"] = nil
+L["archivist_key_note"] = "从 {npc:178257} 购买 {item:186984} 解锁。"
+L["korthia_rift_note"] = "从 {npc:178257} 购买 {item:186731} 可以进入裂隙。"
+L["korthian_shrine_note"] = "点击神龛获得 {spell:352367} 可以看到隐藏的路径到达alter。"
+L["num_research"] = "%d 研究"
 L["options_icons_relic"] = "{achievement:15066}"
-L["options_icons_relic_desc"] = nil
+L["options_icons_relic_desc"] = "显示成就中全部20个圣物的位置。"
 
-L["invasive_mawshroom"] = nil
-L["mawsworn_cache"] = nil
-L["options_icons_korthia_dailies_desc"] = nil
-L["options_icons_korthia_dailies"] = nil
-L["pile_of_bones"] = nil
-L["relic_cache"] = nil
-L["shardhide_stash"] = nil
-L["shared_note"] = nil
-L["unusual_nest"] = nil
+L["invasive_mawshroom"] = "侵入蘑菇"
+L["mawsworn_cache"] = "渊誓宝箱"
+L["options_icons_korthia_dailies_desc"] = "显示日常宝箱的位置。"
+L["options_icons_korthia_dailies"] = "刻希亚日常宝箱"
+L["pile_of_bones"] = "一堆白骨"
+L["relic_cache"] = "圣物宝箱"
+L["shardhide_stash"] = "碎片藏匿处"
+L["shared_note"] = "你可以每天收集5个宝箱。"
+L["unusual_nest"] = "不寻常材料的巢穴"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
