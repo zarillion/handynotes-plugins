@@ -265,7 +265,7 @@ L["korthia_rift_note"] = "Compra la {item:186731} del {npc:178257} para poder en
 L["korthian_shrine_note"] = "Haz click en la roca con forma de espada para ganar {spell:352367} y poder ver el camino oculto al altar."
 L["num_research"] = "%d Investigación"
 L["options_icons_relic"] = "{achievement:15066}"
-L["options_icons_relic_desc"] = "Muestra donde están las 20 reliquias del logro."
+L["options_icons_relic_desc"] = "Muestra donde están las 20 reliquias para {achievement:15066}."
 
 L["invasive_mawshroom"] = "Champifauces Invasivos"
 L["mawsworn_cache"] = "Alijo jurafauces"
@@ -274,14 +274,14 @@ L["relic_cache"] = "Alijo de reliquias"
 L["shardhide_stash"] = "Alijo de pellejosquirla"
 L["shared_note"] = "Puedes recoger 5 de estos tesoros por día."
 L["unusual_nest"] = "Nido de materiales inusuales"
-L["options_icons_invasive_mawshroom_desc"] = nil
-L["options_icons_invasive_mawshroom"] = nil
-L["options_icons_korthia_dailies_desc"] = nil
-L["options_icons_korthia_dailies"] = nil
-L["options_icons_mawsworn_cache_desc"] = nil
-L["options_icons_mawsworn_cache"] = nil
-L["options_icons_nest_materials_desc"] = nil
-L["options_icons_nest_materials"] = nil
+L["options_icons_invasive_mawshroom_desc"] = "Muestra donde están los Champifauces Invasivos."
+L["options_icons_invasive_mawshroom"] = "Champifauces Invasivos (Diaria)"
+L["options_icons_korthia_dailies_desc"] = "Muestra donde están los tesoros diarios sin marcar."
+L["options_icons_korthia_dailies"] = "Tesoros Ocultos (Diaria)"
+L["options_icons_mawsworn_cache_desc"] = "Muestra donde están los Alijos jurafauces."
+L["options_icons_mawsworn_cache"] = "Alijos jurafauces (Diaria)"
+L["options_icons_nest_materials_desc"] = "Muestra donde están los Nidos de Materiales Inusuales."
+L["options_icons_nest_materials"] = "Nidos de Materiales Inusuales (Diaria)"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -576,7 +576,7 @@ L["options_icons_stygian_caches_desc"] = "Muestra dónde están los alijos con E
 
 L["domination_chest"] = "Cofre de Dominación"
 L["domination_chest_note"] = "Requiere 4 {item:186727} para abrir todos los sellos."
-L["gold_band_note"] = nil
+L["gold_band_note"] = "En la cima del pico de una montaña."
 L["harrower_key_ring"] = "Llave Anillo de Harrower"
 L["harrower_key_note"] = "En la pared junto a {npc:178311}."
 L["helgarde_supply"] = "Alijo de Suministros de Helgarde"
