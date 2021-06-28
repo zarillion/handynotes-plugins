@@ -1063,9 +1063,10 @@ map.nodes[67705310] = Helgarde()
 map.nodes[68204810] = Helgarde()
 map.nodes[62475528] = Helgarde()
 
-map.nodes[29105850] = Rare({
+local MawMadConstruct = Class('MawMadConstruct', NPC, {
     id=179601,
     quest=64197,
+    icon='skull_w',
     group=ns.groups.NILGANIHMAHT_MOUNT,
     requires=ns.requirement.Item(186600),
     note=L["maw_mad_note"],
@@ -1075,9 +1076,16 @@ map.nodes[29105850] = Rare({
     }
 }) -- Maw Mad Construct
 
---Add Locations for Quartered Stone Ring(186604), requires Necro Assault and at least 1 ring
+function MawMadConstruct:PrerequisiteCompleted()
+    -- Timed events that are not active today return nil here
+    return C_TaskQuest.GetQuestTimeLeftMinutes(63543)
+end
 
---https://ptr.wowhead.com/item=186713/nilganihmaht-control-ring#comments DEAL WITH THIS ASAP?
+map.nodes[29105850] = MawMadConstruct()
+
+--Add Locations for Quartered Stone Ring(186604), requires Necro Assault and at least 1 ring and is randomly located on the ground in peridition hold.
+
+
 
 -------------------------------------------------------------------------------
 ----------------------------------- ASSAULT -----------------------------------
