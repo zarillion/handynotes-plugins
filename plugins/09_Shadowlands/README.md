@@ -41,6 +41,7 @@ In addition to the plugin settings menu found under *Interface > Addons > HandyN
 This plugin adds information to the map for the following zones:
 
 * Patch 9.0 - Ardenweald, Bastion, Maldraxxus, Revendreth, The Maw
+* Patch 9.1 - Korthia
 
 In addition to rares, treasures and pet battles, this plugin also adds the following expansion or zone-specific items.
 
@@ -66,9 +67,19 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### The Maw
 
-* Bonus boss and event locations for collecting [Stygia](https://www.wowhead.com/currency=1767/stygia).
+* Bonus boss, bonus event and cache locations for collecting [Stygia](https://www.wowhead.com/currency=1767/stygia).
 * Chaotic Riftstone locations and transport paths.
+* Grapple point locations across the maw.
+* Stygia Nexus locations for collecting [Stygia Dust](https://www.wowhead.com/item=185618/stygia-dust) and [Stygia Sliver](https://www.wowhead.com/item=185617/stygia-sliver) for the [Bound Shadehound](https://www.wowhead.com/item=184168/bound-shadehound) mount.
+* Ring and treasure locations for the [Hand of Nilganihmaht](https://www.wowhead.com/spell=354354/hand-of-nilganihmaht) mount.
 * Maw and Torghast upgrades purchased from [Ve'nari](https://www.wowhead.com/npc=162804/venari).
+
+### Korthia
+
+* Daily treasure locations for collecting research ([The Archivists' Codex](https://www.wowhead.com/faction=2472/the-archivists-codex) reputation).
+* Invasive Mawshroom locations for the [Darkmaul](https://www.wowhead.com/spell=354358/darkmaul) mount.
+* [Maelie the Wanderer](https://www.wowhead.com/npc=179912/maelie-the-wanderer) locations for the [Wandering Arden Doe](https://www.wowhead.com/spell=354362/wandering-arden-doe) mount.
+* [Dusklight Matriarch](https://www.wowhead.com/npc=179871/dusklight-matriarch) nest location for the [Dusklight Razorwing](https://www.wowhead.com/spell=354361/dusklight-razorwing) mount.
 
 ## Localization
 

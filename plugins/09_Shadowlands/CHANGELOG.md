@@ -1,3 +1,14 @@
+# v31
+
+* Added rares, treasures and mount locations for the new Korthia zone!
+* Added a new chaotic rift location atop the Altar of Domination.
+* Added info for collecting the [Hand of Nilganihmaht](https://www.wowhead.com/spell=354354/hand-of-nilganihmaht) mount.
+* Added new rares and treasures associated with covenant maw assaults.
+* Improved Stygia Nexus locations and added notes.
+* Reduced memory usage of map nodes created by the plugin.
+* The Larion Pouncer pet is now marked as Kyrian-only.
+* The world map button now cooperates with other addons via the [Krowi_WorldMapButtons](https://github.com/TheKrowi/Krowi_WorldMapButtons) library.
+
 # v30
 
 * Added Larion Pouncer pet drop from Orstus and Sotiros.

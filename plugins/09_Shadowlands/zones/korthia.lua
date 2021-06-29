@@ -784,7 +784,6 @@ map.nodes[42873269] = Collectible({
     quest=64376,
     note=L["darkmaul_note"],
     rewards={Mount({item=186646, id=1507})} -- Darkmaul
-
 })
 
 map.nodes[25725108] = Collectible({
@@ -793,7 +792,6 @@ map.nodes[25725108] = Collectible({
     quest=64274,
     note=L["razorwing_note"],
     rewards={Mount({item=186651, id=1510})}-- Dusklight Razorwing
-
 }) -- Razorwing Nest
 
 
