@@ -8,6 +8,7 @@
 * Reduced memory usage of map nodes created by the plugin.
 * The Larion Pouncer pet is now marked as Kyrian-only.
 * The world map button now cooperates with other addons via the [Krowi_WorldMapButtons](https://github.com/TheKrowi/Krowi_WorldMapButtons) library.
+* Update TOC for 9.1.0.
 
 # v30
 

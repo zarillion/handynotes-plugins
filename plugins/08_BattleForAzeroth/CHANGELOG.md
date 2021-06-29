@@ -1,3 +1,9 @@
+# v6
+
+* Reduced memory usage of map nodes created by the plugin.
+* The world map button now cooperates with other addons via the [Krowi_WorldMapButtons](https://github.com/TheKrowi/Krowi_WorldMapButtons) library.
+* Update TOC for 9.1.0.
+
 # v5
 
 * Update TOC for 9.0.5.
