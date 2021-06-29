@@ -138,12 +138,15 @@ map.nodes[49128175] = Rare({
     }
 }) -- Darklord Taraxis
 
-map.nodes[66255555] = Rare({
+map.nodes[61334129] = Rare({
     id=179779,
-    quest=62679,
+    quest=64251,
     note=L["deomen_note"],
     rewards={
         Achievement({id=15107, criteria=52286})
+    },
+    pois={
+        POI({63274368}) -- Entrance
     }
 }) -- Deomen the Vortex
 
@@ -364,7 +367,8 @@ map.nodes[69044897] = Rare({
     id=179805,
     quest=64258, -- 64439?
     rewards={
-        Achievement({id=15107, criteria=52289})
+        Achievement({id=15107, criteria=52289}),
+        Transmog({item=187374, slot=L["cloth"]}) -- Balthier's Waistcord
     }
 }) -- Traitor Balthier
 
