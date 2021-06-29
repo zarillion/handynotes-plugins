@@ -399,6 +399,77 @@ map.nodes[66404400] = Rare({
     }
 }) -- Ylva, Mate of Guarm
 
+
+-------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[69214521] = Treasure({
+    quest=64256,
+    rewards={
+        Achievement({id=15099, criteria=52243})
+    }
+}) -- Helsworn Chest
+
+map.nodes[66526129] = Treasure({
+    quest=64261,
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=15099, criteria=52244}),
+        Item({item=187352, note=L["neck"]}) -- Jeweled Heart of Ezekiel
+    }
+}) -- Jeweled Heart
+
+map.nodes[32215608] = Treasure({
+    quest=64010,
+    label='{item:186183}',
+    note=L['lilabom_note'],
+    rewards={
+        Item({item=186183}), -- Lil'Abom Head
+        Pet({item=186188, id=3099}) -- Lil'Abom
+    }
+}) -- Lil'Abom Head
+
+map.nodes[39906260] = Treasure({
+    quest=64011,
+    label='{item:186184}',
+    note=L['lilabom_note'],
+    rewards={
+        Item({item=186184}), -- Lil'Abom Torso
+        Pet({item=186188, id=3099}) -- Lil'Abom
+    }
+}) -- Lil'Abom Torso
+
+map.nodes[29376732] = Treasure({
+    quest=64013,
+    label='{item:186185}',
+    note=L['lilabom_note'],
+    rewards={
+        Item({item=186185}), -- Lil'Abom Legs
+        Pet({item=186188, id=3099}) -- Lil'Abom
+    }
+}) -- Lil'Abom Legs
+
+map.nodes[38505850] = Treasure({
+    quest=64008,
+    label='{item:186186}',
+    note=L['lilabom_note'],
+    rewards={
+        Item({item=186186}), -- Lil'Abom Right Hand
+        Pet({item=186188, id=3099}) -- Lil'Abom
+    }
+}) -- Lil'Abom Right Hand
+
+map.nodes[39286648] = Treasure({
+    quest=64009,
+    label='{item:186187}',
+    note=L['lilabom_note'],
+    rewards={
+        Item({item=186187}), -- Lil'Abom Spare Arm
+        Pet({item=186188, id=3099}) -- Lil'Abom
+    }
+}) -- Lil'Abom Spare Arm
+
 -------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
@@ -885,108 +956,6 @@ pitl.nodes[45526802] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id}
 pitl.nodes[67185536] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id})
 
 -------------------------------------------------------------------------------
------------------------------------ VE'NARI -----------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[46914169] = NPC({
-    id=162804,
-    icon=3527519,
-    note=L["venari_note"],
-    rewards={
-        Achievement({id=14895, oneline=true}), -- 'Ghast Five
-        Section(C_Map.GetMapInfo(1543).name),
-        ns.reward.Spacer(),
-        Item({item=184613, quest=63177, note=L["Apprehensive"]}), -- Encased Riftwalker Essence
-        Item({item=184653, quest=63217, note=L["Tentative"]}), -- Animated Levitating Chain
-        Item({item=180949, quest=61600, note=L["Tentative"]}), -- Animaflow Stabilizer
-        Item({item=184605, quest=63092, note=L["Tentative"]}), -- Sigil of the Unseen
-        Item({item=184588, quest=63091, note=L["Ambivalent"]}), -- Soul-Stabilizing Talisman
-        Item({item=184870, note=L["Appreciative"]}), -- Stygia Dowser
-        ns.reward.Spacer(),
-        Section(L["torghast"]),
-        ns.reward.Spacer(),
-        Item({item=184620, quest=63202, note=L["Apprehensive"]}), -- Vessel of Unforunate Spirits
-        Item({item=184615, quest=63183, note=L["Apprehensive"]}), -- Extradimensional Pockets
-        Item({item=184901, quest=63523, note=L["Apprehensive"]}), -- Broker Traversal Enhancer
-        Item({item=184617, quest=63193, note=L["Tentative"]}), -- Bangle of Seniority
-        Item({item=184621, quest=63204, note=L["Ambivalent"]}), -- Ritual Prism of Fortune
-        Item({item=184618, quest=63200, note=L["Cordial"]}), -- Rank Insignia: Acquisitionist
-        Item({item=184619, quest=63201, note=L["Cordial"]}), -- Loupe of Unusual Charm
-        Item({item=180952, quest=61144, note=L["Appreciative"]}), -- Possibility Matrix
-    }
-})
-
--------------------------------------------------------------------------------
----------------------------------- TREASURES ----------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[69214521] = Treasure({
-    quest=64256,
-    rewards={
-        Achievement({id=15099, criteria=52243})
-    }
-}) -- Helsworn Chest
-
-map.nodes[66526129] = Treasure({
-    quest=64261,
-    note=L["in_cave"],
-    rewards={
-        Achievement({id=15099, criteria=52244}),
-        Item({item=187352, note=L["neck"]}) -- Jeweled Heart of Ezekiel
-    }
-}) -- Jeweled Heart
-
-map.nodes[32215608] = Treasure({
-    quest=64010,
-    label='{item:186183}',
-    note=L['lilabom_note'],
-    rewards={
-        Item({item=186183}), -- Lil'Abom Head
-        Pet({item=186188, id=3099}) -- Lil'Abom
-    }
-}) -- Lil'Abom Head
-
-map.nodes[39906260] = Treasure({
-    quest=64011,
-    label='{item:186184}',
-    note=L['lilabom_note'],
-    rewards={
-        Item({item=186184}), -- Lil'Abom Torso
-        Pet({item=186188, id=3099}) -- Lil'Abom
-    }
-}) -- Lil'Abom Torso
-
-map.nodes[29376732] = Treasure({
-    quest=64013,
-    label='{item:186185}',
-    note=L['lilabom_note'],
-    rewards={
-        Item({item=186185}), -- Lil'Abom Legs
-        Pet({item=186188, id=3099}) -- Lil'Abom
-    }
-}) -- Lil'Abom Legs
-
-map.nodes[38505850] = Treasure({
-    quest=64008,
-    label='{item:186186}',
-    note=L['lilabom_note'],
-    rewards={
-        Item({item=186186}), -- Lil'Abom Right Hand
-        Pet({item=186188, id=3099}) -- Lil'Abom
-    }
-}) -- Lil'Abom Right Hand
-
-map.nodes[39286648] = Treasure({
-    quest=64009,
-    label='{item:186187}',
-    note=L['lilabom_note'],
-    rewards={
-        Item({item=186187}), -- Lil'Abom Spare Arm
-        Pet({item=186188, id=3099}) -- Lil'Abom
-    }
-}) -- Lil'Abom Spare Arm
-
--------------------------------------------------------------------------------
 ---------------------------------- NILGANIHMAHT -------------------------------
 -------------------------------------------------------------------------------
 
@@ -1089,8 +1058,6 @@ map.nodes[29105850] = MawMadConstruct()
 
 --Add Locations for Quartered Stone Ring(186604), requires Necro Assault and at least 1 ring and is randomly located on the ground in peridition hold.
 
-
-
 -------------------------------------------------------------------------------
 ----------------------------------- ASSAULT -----------------------------------
 -------------------------------------------------------------------------------
@@ -1118,9 +1085,6 @@ map.nodes[32756506] = MawswornC({quest=63825})
 map.nodes[32055633] = MawswornC({quest=63826})
 map.nodes[35126980] = MawswornC({quest=64209, rewards={Item({item=186600})}}) --Quartered Stone Ring
 
-
-
-
 local Etherwyrm = Class('Etherwyrm', Treasure, {
     quest=64000,
     requires=ns.requirement.Item(186190),
@@ -1137,3 +1101,35 @@ function Etherwyrm:PrerequisiteCompleted()
 end
 
 map.nodes[23594190] = Etherwyrm({pois={POI({19143337})}})
+
+-------------------------------------------------------------------------------
+----------------------------------- VE'NARI -----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[46914169] = NPC({
+    id=162804,
+    icon=3527519,
+    note=L["venari_note"],
+    rewards={
+        Achievement({id=14895, oneline=true}), -- 'Ghast Five
+        Section(C_Map.GetMapInfo(1543).name),
+        ns.reward.Spacer(),
+        Item({item=184613, quest=63177, note=L["Apprehensive"]}), -- Encased Riftwalker Essence
+        Item({item=184653, quest=63217, note=L["Tentative"]}), -- Animated Levitating Chain
+        Item({item=180949, quest=61600, note=L["Tentative"]}), -- Animaflow Stabilizer
+        Item({item=184605, quest=63092, note=L["Tentative"]}), -- Sigil of the Unseen
+        Item({item=184588, quest=63091, note=L["Ambivalent"]}), -- Soul-Stabilizing Talisman
+        Item({item=184870, note=L["Appreciative"]}), -- Stygia Dowser
+        ns.reward.Spacer(),
+        Section(L["torghast"]),
+        ns.reward.Spacer(),
+        Item({item=184620, quest=63202, note=L["Apprehensive"]}), -- Vessel of Unforunate Spirits
+        Item({item=184615, quest=63183, note=L["Apprehensive"]}), -- Extradimensional Pockets
+        Item({item=184901, quest=63523, note=L["Apprehensive"]}), -- Broker Traversal Enhancer
+        Item({item=184617, quest=63193, note=L["Tentative"]}), -- Bangle of Seniority
+        Item({item=184621, quest=63204, note=L["Ambivalent"]}), -- Ritual Prism of Fortune
+        Item({item=184618, quest=63200, note=L["Cordial"]}), -- Rank Insignia: Acquisitionist
+        Item({item=184619, quest=63201, note=L["Cordial"]}), -- Loupe of Unusual Charm
+        Item({item=180952, quest=61144, note=L["Appreciative"]}), -- Possibility Matrix
+    }
+})
