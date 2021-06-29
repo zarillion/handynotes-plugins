@@ -1,4 +1,4 @@
-<!-- 
+<!--
 	Krowi's World Map Buttons License
 		Copyright ©2020-2021 The contents of this library, excluding third-party resources, are
 		copyrighted to their authors with all rights reserved.
@@ -21,6 +21,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\FrameXML\UI.xsd">
 
-	<Script file="KrowiWorldMapButtons-1.0.lua"/>
-	
+	<Script file="Krowi_WorldMapButtons-1.0.lua"/>
+
 </Ui>
