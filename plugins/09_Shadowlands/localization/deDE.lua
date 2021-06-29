@@ -238,50 +238,51 @@ L["zolla_note"] = "Wir nehmen unsere Verteidigung sehr ernst. Ob groß oder klei
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["chamber_note"] = nil
-L["corpse_heap_note"] = nil
-L["darkmaul_note"] = nil
-L["dislodged_nest_note"] = nil
-L["flayedwing_transporter_note"] = nil
-L["forgotten_feather_note"] = nil
-L["hunting_hunter_note"] = nil
-L["konthrogz_note"] = nil
-L["maelie_wanderer"] = nil
-L["no_stoneborne_note"] = nil
-L["offering_box_note"] = nil
-L["pop_quiz_note"] = nil
-L["popo_note"] = nil
-L["razorwing_note"] = nil
-L["reliwik_note"] = nil
-L["riftbound_cache"] = nil
-L["spectral_bound_chest"] = nil
-L["spectral_bound_note"] = nil
-L["towering_exterminator_note"] = nil
-L["wilderling_note"] = nil
+L["chamber_note"] = "Verwende für den Uralten Teleporter ein {item:186718} von {npc:178257}. Benutze den Reparierten Uralten Teleporter, um die Kammer zu betreten."
+L["corpse_heap_note"] = "Sprich mit {npc:180079}, um das Sammelevent zu starten."
+L["darkmaul_note"] = "Sammel {item:187153} von einem Invasivem Schlundpilz und füttere {npc:180063} damit. Das Event muss 6 mal abgeschlossen werden, um das Reittier zu erhalten."
+L["dislodged_nest_note"] = "Klicke in der Nähe eine Giftige Motte an, um den Stärkungszauber {spell:355181} zu erhalten. Benutze den Extrabutton von {spell:355131} auf einen {npc:178547}, um die Kontrolle über ihn zu erlangen und dann reite mit ihm gegen den Baum, in dem der Schatz liegt."
+L["flayedwing_transporter_note"] = "Klicke den {npc:178633} an, um zum oder vom Archiv der Geheimnisse zu fliegen."
+L["forgotten_feather_note"] = "Schweben auf einer kleinen Insel, die man durch einen Absprung von Zuflucht des Hüters erreicht."
+L["hunting_hunter_note"] = "Sprich mit {npc:179729}, um den Stärkungszauber {spell:355078} zu erhalten und dann folge den Fußspuren, bis du die fleischigen Überreste findest."
+L["konthrogz_note"] = "Erscheint bei einem Verschlinger Event."
+L["maelie_wanderer"] = "Erscheint für den Tag an einem festgeleten Ort. Wenn du an 6 verschiedenen Tagen {spell:355862} verwendet hast, kehre zu {npc:179930} zurück, um das Reittier zu erhalten."
+L["no_stoneborne_note"] = "Sprich mit {npc:179974}, um das Event zu starten."
+L["offering_box_note"] = "Der {item:187033} befindet sich oben auf der westlichen Wand der nahe gelegenen Ruine."
+L["pop_quiz_note"] = "Wird zufällig auf der Map erscheinen. Klicke den zurückgelassenen Schleierstab an und antworte auf die Fragen von {npc:180162}."
+L["popo_note"] = "Sprich mit {npc:180028}, um das Escortevent zu starten."
+L["razorwing_note"] = "Gib 6x {item:187054} ab, dass von den Verschlingern wie {npc:177245} geplündert werden kann."
+L["reliwik_note"] = "Klicke das Unverderbte Klingenschwingenei an."
+L["riftbound_cache"] = "Rissgebundene Truhe"
+L["spectral_bound_chest"] = "Klicke die drei Spektralschlüssel in der Nähe an, um die Truhe freizuschalten. "
+L["spectral_bound_note"] = "Spektralgebundene Truhe"
+L["towering_exterminator_note"] = "Erscheint bei einem Schlundgebundenenportal Event." -- review
+L["wilderling_note"] = "Klicke den {npc:180014} an, um das Zähmungsevent zu starten."
 
-L["archivist_key_note"] = nil
-L["korthia_rift_note"] = nil
-L["korthian_shrine_note"] = nil
-L["num_research"] = nil
+L["archivist_key_note"] = "Kaufe zum öffnen von {npc:178257} einen {item:186984}." -- review
+L["korthia_rift_note"] = "Kaufe einen {item:186731} von {npc:178257}, um den Riss betreten zu können."
+L["korthian_shrine_note"] = "Klicke den Schrein an, um die {spell:352367} zu erhalten, damit du den versteckten Pfad zum Altar sehen kannst."
+L["num_research"] = "%d katalogisierte Forschung"
 L["options_icons_relic"] = "{achievement:15066}"
-L["options_icons_relic_desc"] = nil
+L["options_icons_relic_desc"] = "Zeigt die 20 Relikte für den Erfolg {achievement:15066} an."
 
-L["invasive_mawshroom"] = nil
-L["mawsworn_cache"] = nil
+L["invasive_mawshroom"] = "Invasiver Schlundpilz"
+L["mawsworn_cache"] = "Schlundgebundene Truhe"
+L["pile_of_bones"] = "Knochenhaufen"
+L["relic_cache"] = "Relikttruhe"
+L["shardhide_stash"] = "Splitterfellvorrat"
+L["shared_note"] = "Es können fünf von diesen Schätzen täglich gesammelt werden."
+L["unusual_nest"] = "Nest aus ungewöhnlichen Materialien"
 
-L["pile_of_bones"] = nil
-L["relic_cache"] = nil
-L["shardhide_stash"] = nil
-L["shared_note"] = nil
-L["unusual_nest"] = nil
-L["options_icons_invasive_mawshroom_desc"] = nil
-L["options_icons_invasive_mawshroom"] = nil
-L["options_icons_korthia_dailies_desc"] = nil
-L["options_icons_korthia_dailies"] = nil
-L["options_icons_mawsworn_cache_desc"] = nil
-L["options_icons_mawsworn_cache"] = nil
-L["options_icons_nest_materials_desc"] = nil
-L["options_icons_nest_materials"] = nil
+L["options_icons_invasive_mawshroom_desc"] = "Zeigt die Positionen der Invasiven Schlundpilze an."
+L["options_icons_invasive_mawshroom"] = "Invasiver Schlundpilz (tägliche)"
+L["options_icons_korthia_dailies_desc"] = "Zeigt die Positionen der unmakierten täglichen Schätze an."
+L["options_icons_korthia_dailies"] = "Versteckte Schätze (tägliche)"
+L["options_icons_mawsworn_cache_desc"] = "Zeigt die Positionen der Schlundgebundenen Truhen an."
+L["options_icons_mawsworn_cache"] = "Schlundgebundene Truhe (tägliche)"
+L["options_icons_nest_materials_desc"] = "Zeigt die Positionen der Nester aus ungewöhnlichen Materialien an."
+L["options_icons_nest_materials"] = "Nest aus ungewöhnlichen Materialien (tägliche)"
+
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
 -------------------------------------------------------------------------------
@@ -408,7 +409,7 @@ L["rapier_fearless_note"] = "Klicke das Rapier auf dem Boden an und besiege {npc
 L["remlates_cache_note"] = "Hinter der Außenmauer der Krypta in Dunkelhafen."
 L["smuggled_cache_note"] = ns.color.Red("BEVOR DU DIE TRUHE PLÜNDERST: ").."Geh sicher, dass du die Nebenquest {quest:60480} abgeschlossen hast oder du wirst 40x {currency:1820} von der Schatztruhe und Quest versäumen."
 L["taskmaster_trove_note"] = "Lies die Eintritts- und Austrittsriten und gehe behutsam zur Truhe."
-L["the_count_note"] = "Sammle 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}."
+L["the_count_note"] = "Sammel 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}."
 
 L["forgotten_anglers_rod"] = "Vergessene Angelrute"
 
@@ -454,14 +455,14 @@ L["maw_intro_note"] = "Beginne die Einführungsquestreihe bei {npc:162804}, um i
 
 L["apholeias_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331783}, um {npc:170301} zu beschwören."
 L["dekaris_note"] = "Auf einem großen hervorstehenden Felsen."
-L["deomen_note"] = nil
+L["deomen_note"] = "Betritt die Kammer (bei 63.3 43.7) und aktiviere die beiden Schlosssteuerungen, um ihn zu befreien."
 L["drifting_sorrow_note"] = "Töte {npc:175246} in der Nähe der schwebenden Kugel, um den Boss zu aktivieren."
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
-L["etherwyrm_label"] = nil
-L["etherwyrm_note"] = nil
-L["fallen_charger_note"] = nil
+L["etherwyrm_label"] = "Ätherwyrmkäfig" -- review Infused Etherwyrm Cage
+L["etherwyrm_note"] = "Es muss ein Angriff der Nachfae aktiv sein. \nUm einen {item:186190} zu erhalten, töte einen {npc:179030} im Riss." -- review
+L["fallen_charger_note"] = "Nach einem Zonenweiten Schrei, wird es einen der beiden Pfade entlang reiten, bis es Korthia erreicht und wieder verschwindet."
 L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen."
-L["lilabom_note"] = nil
+L["lilabom_note"] = "Sammel alle 5 Teile, um das Haustier zu vervollständigen."
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, um sie zu aktivieren."
 L["sanngror_note"] = "\nWenn er gerade nicht angreifbar ist, dann warte bis er nicht mehr mit Seelen experimentiert."
 L["talaporas_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331800}, um {npc:170302} zu beschwören."
@@ -574,13 +575,21 @@ L["options_icons_stygia_nexus_desc"] = "Zeigt Stygianexus an, die für das Reitt
 L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
 
-L["domination_chest"] = nil
-L["domination_chest_note"] = nil
-L["gold_band_note"] = nil
-L["harrower_key_ring"] = nil
-L["harrower_key_note"] = nil
-L["helgarde_supply"] = nil
-L["maw_mad_note"] = nil
-L["nilganihmaht_note"] = nil
-L["options_icons_nilganihmaht"] = nil
-L["options_icons_nilganihmaht_desc"] = nil
+L["domination_chest"] = "Herrschaftstruhe"
+L["domination_chest_note"] = [[
+Benötigt 4x {item:186727}, um alle Siegel zu öffnen.
+
+Du bekommst jeweils einen Schlüssel von:
+• dem seltenen Gegner {npc:177444}
+• dem Schlüsselring der Plagerin
+• einer Vorratskiste von Helgarde
+• den Gegnern {npc:177134}
+]]
+L["gold_band_note"] = "Am Gipfel des Berges an einem Stachel. (Starte den Aufstieg zum Gipfel bei 18.5 39.3)"
+L["harrower_key_ring"] = "Schlüsselring der Plagerin"
+L["harrower_key_note"] = "In einer Kammer, an der Wand bei {npc:178311}."
+L["helgarde_supply"] = "Vorratskiste von Helgarde"
+L["maw_mad_note"] = "Läuft zufällig in der Verdammnisfestung umher, erscheint immer hier."
+L["nilganihmaht_note"] = "Es müssen fünf Ringe gesammelt und diese zur {npc:179572} im Riss gebracht werden."
+L["options_icons_nilganihmaht"] = "Nilganihmahts Geheimnis"
+L["options_icons_nilganihmaht_desc"] = "Zeigt die Positionen der Ringe für das geheime Reittier Nilganihmaht an. "
