@@ -426,7 +426,7 @@ map.nodes[32215608] = Treasure({
     note=L['lilabom_note'],
     rewards={
         Item({item=186183}), -- Lil'Abom Head
-        Pet({item=186188, id=3099}) -- Lil'Abom
+        Pet({item=186188, id=3098}) -- Lil'Abom
     }
 }) -- Lil'Abom Head
 
@@ -436,7 +436,7 @@ map.nodes[39906260] = Treasure({
     note=L['lilabom_note'],
     rewards={
         Item({item=186184}), -- Lil'Abom Torso
-        Pet({item=186188, id=3099}) -- Lil'Abom
+        Pet({item=186188, id=3098}) -- Lil'Abom
     }
 }) -- Lil'Abom Torso
 
@@ -446,7 +446,7 @@ map.nodes[29376732] = Treasure({
     note=L['lilabom_note'],
     rewards={
         Item({item=186185}), -- Lil'Abom Legs
-        Pet({item=186188, id=3099}) -- Lil'Abom
+        Pet({item=186188, id=3098}) -- Lil'Abom
     }
 }) -- Lil'Abom Legs
 
@@ -456,7 +456,7 @@ map.nodes[38505850] = Treasure({
     note=L['lilabom_note'],
     rewards={
         Item({item=186186}), -- Lil'Abom Right Hand
-        Pet({item=186188, id=3099}) -- Lil'Abom
+        Pet({item=186188, id=3098}) -- Lil'Abom
     }
 }) -- Lil'Abom Right Hand
 
@@ -466,7 +466,7 @@ map.nodes[39286648] = Treasure({
     note=L['lilabom_note'],
     rewards={
         Item({item=186187}), -- Lil'Abom Spare Arm
-        Pet({item=186188, id=3099}) -- Lil'Abom
+        Pet({item=186188, id=3098}) -- Lil'Abom
     }
 }) -- Lil'Abom Spare Arm
 

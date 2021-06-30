@@ -296,7 +296,7 @@ map.nodes[27755885] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[29485345] = Treasure({
+map.nodes[29635334] = Treasure({
     quest=64244,
     rewards={
         Achievement({id=15099, criteria=52241}),
@@ -366,14 +366,14 @@ map.nodes[45336714] = Treasure({
     }
 }) -- Offering Box
 
-map.nodes[56351845] = Treasure({
-    quest=64472,
-    requires=ns.requirement.Item(186731),
-    label=L["riftbound_cache"],
-    rewards={
-        ns.relics.relic_fragment
-    }
-}) -- Riftbound Cache
+-- map.nodes[56351845] = Treasure({
+--     quest=64472,
+--     requires=ns.requirement.Item(186731),
+--     label=L["riftbound_cache"],
+--     rewards={
+--         ns.relics.relic_fragment
+--     }
+-- }) -- Riftbound Cache
 
 map.nodes[62065550] = Treasure({
     quest=64247,
