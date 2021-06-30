@@ -254,8 +254,8 @@ L["popo_note"] = "Sprich mit {npc:180028}, um das Escortevent zu starten."
 L["razorwing_note"] = "Gib ein {item:187054} an 6 verschiedenen Tagen ab, dass von den Verschlingern wie {npc:177245} geplündert werden kann."
 L["reliwik_note"] = "Klicke das Unverderbte Klingenschwingenei an."
 L["riftbound_cache"] = "Rissgebundene Truhe"
-L["spectral_bound_chest"] = "Klicke die drei Spektralschlüssel in der Nähe an, um die Truhe freizuschalten. "
-L["spectral_bound_note"] = "Spektralgebundene Truhe"
+L["spectral_bound_chest"] = "Spektralgebundene Truhe"
+L["spectral_bound_note"] = "Klicke die drei Spektralschlüssel in der Nähe an, um die Truhe freizuschalten."
 L["towering_exterminator_note"] = "Erscheint bei einem Schlundgebundenenportal Event." -- review
 L["wilderling_note"] = "Klicke den {npc:180014} an, um das Zähmungsevent zu starten."
 
