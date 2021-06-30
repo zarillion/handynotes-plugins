@@ -410,7 +410,7 @@ local Relic = Class('Relic', ns.node.Treasure, {
 
 map.nodes[27305670] = Relic({
     quest=63899,
-    research=2,
+    research=1,
     rewards={
         Achievement({id=15066, criteria=52131})
     }
@@ -418,17 +418,37 @@ map.nodes[27305670] = Relic({
 
 map.nodes[45105610] = Relic({
     quest=63912,
-    research=2,
+    research=1,
     rewards={
         Achievement({id=15066, criteria=52258})
     }
 }) -- Celestial Shadowlands Chart
 
+map.nodes[62005680] = Relic({
+    quest=63911,
+    research=1,
+    rewards={
+        Achievement({id=15066, criteria=52257})
+    }
+}) -- Singing Steel Ingot
+
+map.nodes[40504140] = Relic({
+    quest=63860,
+    note=L["in_cave"],
+    research=1,
+    rewards={
+        Achievement({id=15066, criteria=52126})
+    }
+}) -- Talisman of the Eternal Scholar
+
+
+-------------------------------------------------------------------------------
+
 map.nodes[41146015] = Relic({
     quest=63924,
     note=L["archivist_key_note"],
     research=2,
-    requires=ns.requirement.Item(186984),
+    requires=ns.requirement.Item(187614),
     rewards={
         Achievement({id=15066, criteria=52268})
     }
@@ -449,7 +469,7 @@ map.nodes[33004190] = Relic({
     quest=63910,
     note=L["archivist_key_note"],
     research=2,
-    requires=ns.requirement.Item(186984),
+    requires=ns.requirement.Item(187612),
     rewards={
         Achievement({id=15066, criteria=52256}),
     }
@@ -459,20 +479,12 @@ map.nodes[43847698] = Relic({
     quest=63921,
     note=L["archivist_key_note"],
     research=2,
-    requires=ns.requirement.Item(186984),
+    requires=ns.requirement.Item(187613),
     rewards={
         Achievement({id=15066, criteria=52265}),
         Toy({item=187140}) -- Ring of Duplicity
     }
 }) -- Ring of Self-Reflection
-
-map.nodes[62005680] = Relic({
-    quest=63911,
-    research=2,
-    rewards={
-        Achievement({id=15066, criteria=52257})
-    }
-}) -- Singing Steel Ingot
 
 -------------------------------------------------------------------------------
 
@@ -495,15 +507,6 @@ map.nodes[45003550] = Relic({
         Achievement({id=15066, criteria=52261})
     }
 }) -- Sack of Strange Soil
-
-map.nodes[40504140] = Relic({
-    quest=63860,
-    note=L["in_cave"],
-    research=3,
-    rewards={
-        Achievement({id=15066, criteria=52126})
-    }
-}) -- Talisman of the Eternal Scholar
 
 -------------------------------------------------------------------------------
 
