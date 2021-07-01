@@ -452,7 +452,7 @@ L["maw_intro_note"] = "Begin the introductory quest chain from {npc:162804} to u
 
 L["apholeias_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare."
 L["dekaris_note"] = "On top of a large jutting rock."
-L["deomen_note"] = "Enter the chamber to the west of his cell and activate the lock control to access him."
+L["deomen_note"] = "Enter the chamber to the south of his cell and activate the lock control to access him."
 L["drifting_sorrow_note"] = "Kill {npc:175246s} near the hovering orb to activate the boss."
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
 L["etherwyrm_label"] = "Infused Etherwyrm Cage"

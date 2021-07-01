@@ -513,7 +513,7 @@ map.nodes[45003550] = Relic({
 map.nodes[60803490] = Relic({
     quest=63919,
     note=L["korthia_rift_note"],
-    research=4,
+    research=3,
     requires=ns.requirement.Item(186731),
     rewards={
         Achievement({id=15066, criteria=52264})
@@ -523,7 +523,7 @@ map.nodes[60803490] = Relic({
 map.nodes[29005420] = Relic({
     quest=63914,
     note=L["korthia_rift_note"],
-    research=4,
+    research=3,
     requires=ns.requirement.Item(186731),
     rewards={
         Achievement({id=15066, criteria=52260})
@@ -533,7 +533,7 @@ map.nodes[29005420] = Relic({
 map.nodes[52005260] = Relic({
     quest=63920,
     note=L["korthia_rift_note"],
-    research=4,
+    research=3,
     requires=ns.requirement.Item(186731),
     rewards={
         Achievement({id=15066, criteria=52270})
@@ -543,7 +543,7 @@ map.nodes[52005260] = Relic({
 map.nodes[51402010] = Relic({
     quest=63913,
     note=L["korthia_rift_note"],
-    research=4,
+    research=3,
     requires=ns.requirement.Item(186731),
     rewards={
         Achievement({id=15066, criteria=52259})
@@ -678,7 +678,7 @@ map.nodes[53703790] = MAWSH2
 map.nodes[42343469] = MAWSH3
 map.nodes[43603660] = MAWSH3
 map.nodes[45603430] = MAWSH3
-map.nodes[52502490] = MAWSH3
+map.nodes[52422496] = MAWSH3
 map.nodes[55101641] = MAWSH3
 map.nodes[35703110] = MAWSH4
 map.nodes[37503480] = MAWSH4

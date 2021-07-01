@@ -359,7 +359,8 @@ map.nodes[27672526] = Rare({
     fgroup='nilganihmaht_group',
     rewards={
         Achievement({id=15107, criteria=52284}),
-        Item({item=186605}) -- Nilganihmaht's Runed Band
+        Item({item=186605}), -- Nilganihmaht's Runed Band
+        Toy({item=187139}) -- Bottled Shade Heart
     }
 }) -- Torglluun
 
@@ -407,7 +408,8 @@ map.nodes[66404400] = Rare({
 map.nodes[69214521] = Treasure({
     quest=64256,
     rewards={
-        Achievement({id=15099, criteria=52243})
+        Achievement({id=15099, criteria=52243}),
+        Transmog({item=187018, slot=L["cosmetic"]}) -- Ritualist's Shoulder Scythes
     }
 }) -- Helsworn Chest
 
@@ -1035,7 +1037,7 @@ local Helgarde = Class('Helgarde', Treasure, {
     }
 })
 map.nodes[65706121] = Helgarde()
-map.nodes[67705310] = Helgarde()
+map.nodes[67535568] = Helgarde()
 map.nodes[68204810] = Helgarde()
 map.nodes[62475528] = Helgarde()
 
