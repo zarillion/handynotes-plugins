@@ -259,7 +259,7 @@ L["spectral_bound_note"] = "Klicke die drei Spektralschlüssel in der Nähe an, 
 L["towering_exterminator_note"] = "Erscheint bei dem Event 'Schlundgebundenes Portal', dass an mehreren Positionen in Korthia erscheinen kann."
 L["wilderling_note"] = "Klicke den {npc:180014} an, um das Zähmungsevent zu starten."
 
-L["archivist_key_note"] = "Kaufe zum öffnen von {npc:178257} einen {item:186984}."
+L["archivist_key_note"] = "Kaufe zum öffnen von {npc:178257} einen %s."
 L["korthia_rift_note"] = "Kaufe einen {item:186731} von {npc:178257}, um den Riss betreten zu können."
 L["korthian_shrine_note"] = "Klicke den Schrein an, um die {spell:352367} zu erhalten, damit du den versteckten Pfad zum Altar sehen kannst."
 L["num_research"] = "%d katalogisierte Forschung"

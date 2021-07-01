@@ -260,7 +260,7 @@ L["spectral_bound_note"] = "Cofre reforzado espectral"
 L["towering_exterminator_note"] = "Aparece del portal del evento jurafauce. El evento puede aparecer en varios sitios a lo largo de Korthia."
 L["wilderling_note"] = "Haz click en el {npc:180014} para empezar el evento de doma."
 
-L["archivist_key_note"] = "Compra la {item:186984} del {npc:178257} para desbloquear."
+L["archivist_key_note"] = "Compra la %s del {npc:178257} para desbloquear."
 L["korthia_rift_note"] = "Compra la {item:186731} del {npc:178257} para poder entrar en la falla."
 L["korthian_shrine_note"] = "Haz click en la roca con forma de espada para ganar {spell:352367} y poder ver el camino oculto al altar."
 L["num_research"] = "%d Investigación"

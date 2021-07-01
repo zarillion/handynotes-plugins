@@ -260,7 +260,7 @@ L["spectral_bound_note"] = "Coffre cerclé spectral"
 L["towering_exterminator_note"] = "Apparaît à partir d'un événement de portail antrelige. L'événement peut apparaître dans de nombreux endroits de Korthia."
 L["wilderling_note"] = "Cliquez sur le {npc:180014} pour lancer l'événement de domptage."
 
-L["archivist_key_note"] = "Achetez {item:186984} de {npc:178257} pour le déverrouiller."
+L["archivist_key_note"] = "Achetez %s de {npc:178257} pour le déverrouiller."
 L["korthia_rift_note"] = "Achetez une {item:186731} à l'{npc:178257} pour pouvoir entrer dans la brèche."
 L["korthian_shrine_note"] = "Cliquez sur l'autel pour obtenir {spell:352367} et voir le chemin caché vers l'autel."
 L["num_research"] = "%d Recherche"

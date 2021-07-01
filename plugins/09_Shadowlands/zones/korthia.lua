@@ -453,7 +453,7 @@ map.nodes[40504140] = Relic({
 
 map.nodes[41146015] = Relic({
     quest=63924,
-    note=L["archivist_key_note"],
+    note=L["archivist_key_note"]:format("{item:187614}"),
     research=2,
     requires=ns.requirement.Item(187614),
     rewards={
@@ -463,7 +463,7 @@ map.nodes[41146015] = Relic({
 
 map.nodes[41304330] = Relic({
     quest=63909,
-    note=L["archivist_key_note"],
+    note=L["archivist_key_note"]:format("{item:186984}"),
     research=2,
     requires=ns.requirement.Item(186984),
     rewards={
@@ -474,7 +474,7 @@ map.nodes[41304330] = Relic({
 
 map.nodes[33004190] = Relic({
     quest=63910,
-    note=L["archivist_key_note"],
+    note=L["archivist_key_note"]:format("{item:187612}"),
     research=2,
     requires=ns.requirement.Item(187612),
     rewards={
@@ -484,7 +484,7 @@ map.nodes[33004190] = Relic({
 
 map.nodes[43847698] = Relic({
     quest=63921,
-    note=L["archivist_key_note"],
+    note=L["archivist_key_note"]:format("{item:187613}"),
     research=2,
     requires=ns.requirement.Item(187613),
     rewards={

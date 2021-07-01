@@ -258,7 +258,7 @@ L["spectral_bound_note"] = "Spectral Bound Chest"
 L["towering_exterminator_note"] = "Spawns from a mawsworn portal event. The event can appear in many places throughout Korthia."
 L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 
-L["archivist_key_note"] = "Purchase {item:186984} from {npc:178257} to unlock."
+L["archivist_key_note"] = "Purchase %s from {npc:178257} to unlock."
 L["korthia_rift_note"] = "Purchase {item:186731} from {npc:178257} to be able to enter the rift."
 L["korthian_shrine_note"] = "Click on the shrine to gain {spell:352367} to see the hidden path to the alter."
 L["num_research"] = "%d Research"

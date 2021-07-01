@@ -258,7 +258,7 @@ L["spectral_bound_note"] = "幽魂束缚宝箱"
 L["towering_exterminator_note"] = "在渊誓传送门事件出现。事件可能在刻希亚许多地方出现。"
 L["wilderling_note"] = "点击 {npc:180014} 开始驯服事件。"
 
-L["archivist_key_note"] = "从 {npc:178257} 购买 {item:186984} 解锁。"
+L["archivist_key_note"] = "从 {npc:178257} 购买 %s 解锁。"
 L["korthia_rift_note"] = "从 {npc:178257} 购买 {item:186731} 可以进入裂隙。"
 L["korthian_shrine_note"] = "点击神龛获得 {spell:352367} 可以看到隐藏的路径到达alter。"
 L["num_research"] = "%d 研究"

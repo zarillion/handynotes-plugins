@@ -258,7 +258,7 @@ L["spectral_bound_note"] = "靈縛寶箱"
 L["towering_exterminator_note"] = "從淵誓傳送門事件中刷新."
 L["wilderling_note"] = "點選 {npc:180014} 來開始馴服事件."
 
-L["archivist_key_note"] = "從 {npc:178257} 購買 {item:186984} 來解鎖."
+L["archivist_key_note"] = "從 {npc:178257} 購買 %s 來解鎖."
 L["korthia_rift_note"] = "從 {npc:178257} 購買 {item:186731} 來進入裂痕."
 L["korthian_shrine_note"] = "點選祭壇以取得 {spell:352367} 來看到通往 alter 的隱藏路徑."
 L["num_research"] = "%d 編目研究"
