@@ -773,24 +773,27 @@ map.nodes[49356386] = NPC({
 --------------------------------- COLLECTIBLES --------------------------------
 -------------------------------------------------------------------------------
 
--- local function GetMaelieStatus ()
---     local count = select(4, GetQuestObjectiveInfo(nil, 0, false))
---     if count ~= nil then return ns.status.Gray(tostring(count)..'/6') end
--- end
-
--- Day 1: 64293 64298
+local function GetMaelieStatus ()
+    local count = 0
+    for i, quest in ipairs{64293, 64294, 64295, 64296, 64297, 64299} do
+        if C_QuestLog.IsQuestFlaggedCompleted(quest) then
+            count = count + 1
+        end
+    end
+    return ns.status.Gray(tostring(count)..'/6')
+end
 
 local maelie = Class('Maelie', Collectible, {
     id=179912,
     icon=3155422,
-    quest=64292,
+    quest=64298,
     note=L["maelie_wanderer"],
     pois={POI({
         41103980, 49304170, 59801510, 43003260, 49304170, 50302290,
         39703490, 61304040, 30005560, 42806040, 38403140, 41302750
-        })},
+    })},
     rewards={Mount({item=186643, id=1511})}, -- Reins of the Wanderer
---    getters={rlabel=GetMaelieStatus}
+    getters={rlabel=GetMaelieStatus}
 })()
 
 map.nodes[60562103] = maelie
@@ -810,9 +813,3 @@ map.nodes[25725108] = Collectible({
     note=L["razorwing_note"],
     rewards={Mount({item=186651, id=1510})}-- Dusklight Razorwing
 }) -- Razorwing Nest
-
-
-
-
-
-
