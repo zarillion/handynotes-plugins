@@ -205,7 +205,7 @@ ns.groups.MAWSWORN_CACHE = Group('mawsworn_cache', 3729814, {defaults=ns.GROUP_H
 ns.groups.NEST_MATERIALS = Group('nest_materials', 136064, {defaults=ns.GROUP_HIDDEN75})
 ns.groups.NILGANIHMAHT_MOUNT = Group('nilganihmaht', 1391724, {defaults=ns.GROUP_HIDDEN75})
 ns.groups.STYGIA_NEXUS = Group('stygia_nexus', 'peg_gn', {defaults=ns.GROUP_HIDDEN75})
-ns.groups.RELIC = Group('relic', 'chest_nv', {defaults=ns.GROUP_HIDDEN})
+ns.groups.RELIC = Group('relic', 'chest_nv', {defaults=ns.GROUP_ALPHA75})
 ns.groups.RIFTSTONE = Group('riftstone', 'portal_b')
 ns.groups.SINRUNNER = Group('sinrunners', 'horseshoe_o', {defaults=ns.GROUP_HIDDEN})
 ns.groups.SLIME_CAT = Group('slime_cat', 3732497, {defaults=ns.GROUP_HIDDEN})
