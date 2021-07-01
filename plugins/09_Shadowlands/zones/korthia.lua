@@ -136,7 +136,7 @@ map.nodes[33183938] = Rare({
     }
 }) -- Escaped Wilderling
 
-map.nodes[60652315] = Rare({
+map.nodes[44222950] = Rare({
     id=179684,
     quest=64233,
     note=L["hunting_hunter_note"],
@@ -145,7 +145,7 @@ map.nodes[60652315] = Rare({
         Mount({item=186645, id=1506}) -- Crimson Shardhide
     },
     pois={
-        POI({44222950}) -- fleshy remains
+        POI({60652315}) -- Caretaker Kah-Kay
     }
 }) -- Hunting the Hunter
 
