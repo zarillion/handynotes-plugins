@@ -255,7 +255,7 @@ L["reliwik_note"] = "Click on the uncorrupted razorwing egg to pull him down."
 L["riftbound_cache"] = "Riftbound Cache"
 L["spectral_bound_chest"] = "Click on 3 nearby Spectral Keys to unlock the chest."
 L["spectral_bound_note"] = "Spectral Bound Chest"
-L["towering_exterminator_note"] = "Spawns from a mawsworn portal event.  The event can appear in many places throughout Korthia."
+L["towering_exterminator_note"] = "Spawns from a mawsworn portal event. The event can appear in many places throughout Korthia."
 L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 
 L["archivist_key_note"] = "Purchase {item:186984} from {npc:178257} to unlock."
