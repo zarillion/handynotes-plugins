@@ -518,6 +518,7 @@ L["nexus_area_gorgoa_mouth"] = "An der Mündung des Gorgoa (Fluss der Seelen)."
 L["nexus_area_perdition_wall"] = "Entlang der Außenmauer der Verdammnisfestung."
 L["nexus_area_torment_rock"] = "Auf einem Felsen in den Ebenen der Qual."
 L["nexus_area_zone_edge"] = "Entlang des Zonenrandes."
+L["nexus_area_zovaal_edge"] = nil
 L["nexus_area_zovaal_wall"] = "Entlang der Mauer unter Zovaals Kessel."
 -- Locations given relative to a named cave/cavern
 L["nexus_cave_anguish_lower"] = "In der Grube der Qualen (untere Ebenen)."
@@ -529,13 +530,12 @@ L["nexus_cave_forlorn"] = 'In der "Trostlose Rast" Höhle.'
 L["nexus_cave_howl_outside"] = 'Auf dem Boden, außerhalb der "Todesgeheul" Höhle.'
 L["nexus_cave_howl"] = 'In der "Todesgeheul" Höhle.'
 L["nexus_cave_ledge"] = "In einer kleinen Höhle unter einer Kante."
-L["nexus_cave_mothers"] = 'In der "Mutterunterschlupf" Höhle.'
 L["nexus_cave_prodigum"] = "In einer kleinen Höhle bei Prodigum."
-L["nexus_cave_raveners"] = "In einer kleinen Höhle bei Klage des Tobsüchtigen."
 L["nexus_cave_soulstained"] = "In einer kleinen Höhle, in den Seelenbefleckten Feldern."
 L["nexus_cave_torturer"] = "Innerhalb des Schlupflochs des Folterers."
 -- Locations given relative to a named NPC
 L["nexus_npc_akros"] = "Oberhalb der Treppen, neben {npc:170787}."
+L["nexus_npc_dekaris"] = nil
 L["nexus_npc_dolos"] = "Auf dem Boden hinter {npc:170711}."
 L["nexus_npc_ekphoras"] = "Neben der Plattform von {npc:169827}"
 L["nexus_npc_incinerator"] = "Auf einem kleinen Vorsprung unterhalb von {npc:156203}."

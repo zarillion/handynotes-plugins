@@ -516,6 +516,7 @@ L["nexus_area_gorgoa_mouth"] = nil
 L["nexus_area_perdition_wall"] = nil
 L["nexus_area_torment_rock"] = nil
 L["nexus_area_zone_edge"] = nil
+L["nexus_area_zovaal_edge"] = nil
 L["nexus_area_zovaal_wall"] = nil
 -- Locations given relative to a named cave/cavern
 L["nexus_cave_anguish_lower"] = nil
@@ -527,13 +528,12 @@ L["nexus_cave_forlorn"] = nil
 L["nexus_cave_howl_outside"] = nil
 L["nexus_cave_howl"] = nil
 L["nexus_cave_ledge"] = nil
-L["nexus_cave_mothers"] = nil
 L["nexus_cave_prodigum"] = nil
-L["nexus_cave_raveners"] = nil
 L["nexus_cave_soulstained"] = nil
 L["nexus_cave_torturer"] = nil
 -- Locations given relative to a named NPC
 L["nexus_npc_akros"] = "Наверху лестницы рядом с {npc:170787}"
+L["nexus_npc_dekaris"] = nil
 L["nexus_npc_dolos"] = "На земле позади {npc:170711}"
 L["nexus_npc_ekphoras"] = "Рядом с платформой {npc:169827}"
 L["nexus_npc_incinerator"] = "На небольшом выступе под {npc:156203}"

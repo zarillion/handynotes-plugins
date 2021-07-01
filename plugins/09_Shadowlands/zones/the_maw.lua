@@ -617,16 +617,14 @@ map.nodes[55626318] = BonusBoss({
     }
 }) -- Sanngror the Torturer
 
-map.nodes[61737795] = BonusBoss({
+pitu.nodes[41767921] = BonusBoss({
     id=172524,
     quest=62211,
-    note=L["in_cave"],
+    note=L["nexus_cave_anguish_upper"],
     rewards={
         Achievement({id=14660, criteria=49491})
     },
-    pois={
-        POI({59268001}) -- Cave entrance
-    }
+    parent=map.id
 }) -- Skittering Broodmother
 
 map.nodes[36253744] = BonusBoss({
@@ -901,6 +899,7 @@ map.nodes[25156553] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
 map.nodes[25255011] = Nexus({note=L["nexus_npc_orrholyn"]})
 map.nodes[25623699] = Nexus({note=L["nexus_cave_forlorn"]})
 map.nodes[26004499] = Nexus({note=L["nexus_misc_crystal_ledge"]})
+map.nodes[26153094] = Nexus({note=L["nexus_npc_dekaris"]})
 map.nodes[26336859] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
 map.nodes[26842748] = Nexus({note=L["nexus_misc_grapple_rock"]})
 map.nodes[27392598] = Nexus({note=L["nexus_misc_floating_cage"]})
@@ -909,6 +908,8 @@ map.nodes[27541273] = Nexus({note=L["nexus_npc_talaporas"]})
 map.nodes[27906041] = Nexus({note=L["nexus_npc_dolos"]})
 map.nodes[28573090] = Nexus({note=L["nexus_area_torment_rock"]})
 map.nodes[28674931] = Nexus({note=L["nexus_misc_grapple_rock"]})
+map.nodes[32266739] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
+map.nodes[32506541] = Nexus({note=L["nexus_room_ramparts"]})
 map.nodes[33064239] = Nexus({note=L["nexus_area_zovaal_wall"]})
 map.nodes[33156479] = Nexus({note=L["nexus_area_perdition_wall"]})
 map.nodes[33647481] = Nexus({note=L["nexus_npc_akros"]})
@@ -917,6 +918,7 @@ map.nodes[34076193] = Nexus({note=L["nexus_room_ramparts"]})
 map.nodes[35446747] = Nexus({note=L["nexus_misc_grapple_ramparts"]})
 map.nodes[37504334] = Nexus({note=L["nexus_npc_incinerator"]})
 map.nodes[37544368] = Nexus({note=L["nexus_npc_incinerator"]})
+map.nodes[37814484] = Nexus({note=L["nexus_area_zovaal_edge"]})
 map.nodes[39462356] = Nexus({note=L["nexus_area_gorgoa_middle"]})
 map.nodes[40444906] = Nexus({note=L["nexus_misc_grapple_rock"]})
 map.nodes[41234967] = Nexus({note=L["nexus_misc_floating_cage"]})
@@ -937,6 +939,7 @@ map.nodes[52018189] = Nexus({note=L["nexus_misc_ledge_below"]})
 map.nodes[52167619] = Nexus({note=L["nexus_misc_floating_cage"]})
 map.nodes[53167848] = Nexus({note=L["nexus_misc_floating_cage"]})
 map.nodes[53338024] = Nexus({note=L["nexus_cave_anguish_outside"]})
+map.nodes[53877701] = Nexus({note=L["nexus_misc_floating_cage"]})
 map.nodes[53975865] = Nexus({note=L["nexus_road_cave"]})
 map.nodes[54328482] = Nexus({note=L["nexus_road_mawrats"]})
 map.nodes[54556720] = Nexus({note=L["nexus_misc_floating_cage"]})
@@ -944,13 +947,13 @@ map.nodes[54967623] = Nexus({note=L["nexus_misc_grapple_rock"]})
 map.nodes[55026349] = Nexus({note=L["nexus_cave_torturer"]})
 map.nodes[55527722] = Nexus({note=L["nexus_cave_prodigum"]})
 map.nodes[56677080] = Nexus({note=L["nexus_cave_soulstained"]})
-map.nodes[57668561] = Nexus({note=L["nexus_cave_raveners"]})
 map.nodes[58435196] = Nexus({note=L["nexus_cave_echoing_outside"]})
 map.nodes[59007837] = Nexus({note=L["nexus_road_next"]})
 map.nodes[59056108] = Nexus({note=L["nexus_cave_desmotaeron"]})
 map.nodes[60866755] = Nexus({note=L["nexus_road_next"]})
-map.nodes[61567704] = Nexus({note=L["nexus_cave_mothers"]})
+map.nodes[60927687] = Nexus({note=L["nexus_area_zone_edge"]})
 
+pitu.nodes[53376624] = Nexus({note=L["nexus_cave_anguish_upper"], parent=map.id})
 pitu.nodes[66355542] = Nexus({note=L["nexus_cave_anguish_upper"], parent=map.id})
 pitl.nodes[45526802] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id})
 pitl.nodes[67185536] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id})
@@ -1092,6 +1095,9 @@ local Etherwyrm = Class('Etherwyrm', Treasure, {
     note=L["etherwyrm_note"],
     rewards={
         Pet({item=186191, id=3099}) -- Infused Etherwyrm
+    },
+    pois={
+        POI({19903240}) -- Elusive Keybinder
     }
 }) -- Infused Etherwyrm
 
@@ -1100,7 +1106,10 @@ function Etherwyrm:PrerequisiteCompleted()
     return C_TaskQuest.GetQuestTimeLeftMinutes(63823)
 end
 
-map.nodes[23594190] = Etherwyrm({pois={POI({19143337})}})
+map.nodes[23184238] = Etherwyrm()
+
+-- Rift Hidden Cache 19143337
+-- Rift Hidden Cache 20712981 item=187251 Shaded Skull Shoulderguards cosmetic
 
 -------------------------------------------------------------------------------
 ----------------------------------- VE'NARI -----------------------------------

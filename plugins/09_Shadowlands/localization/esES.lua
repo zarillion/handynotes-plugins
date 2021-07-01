@@ -517,6 +517,7 @@ L["nexus_area_gorgoa_mouth"] = "En la desembocadura de Gorgoa (Río de Almas)"
 L["nexus_area_perdition_wall"] = "A lo largo de la pared exterior del Bastión de la Perdición"
 L["nexus_area_torment_rock"] = "En una roca en los Llanos del Tormento"
 L["nexus_area_zone_edge"] = "A lo largo del borde de la zona"
+L["nexus_area_zovaal_edge"] = nil
 L["nexus_area_zovaal_wall"] = "A lo largo de la pared debajo de la Caldera de Zovaal"
 -- Locations given relative to a named cave/cavern
 L["nexus_cave_anguish_lower"] = "En el Pozo de la Angustia (nivel inferior)"
@@ -528,13 +529,12 @@ L["nexus_cave_forlorn"] = "Dentro de la cueva Descanso Desolado"
 L["nexus_cave_howl_outside"] = "En el suelo fuera de la cueva Aullido de la Muerte"
 L["nexus_cave_howl"] = "Dentro de la cueva Aullido de la Muerte"
 L["nexus_cave_ledge"] = "En una cueva pequeña debajo de un saliente"
-L["nexus_cave_mothers"] = "Dentro de la cueva Guarida de la Madre"
 L["nexus_cave_prodigum"] = "En una cueva pequeña en el Prodigum"
-L["nexus_cave_raveners"] = "En una cueva pequeña en el Lamento del Corvino"
 L["nexus_cave_soulstained"] = "En una cueva pequeña en los Campos Manchados de Almas"
 L["nexus_cave_torturer"] = "Dentro del Cobertizo del Torturador"
 -- Locations given relative to a named NPC
 L["nexus_npc_akros"] = "En lo alto de las escaleras junto a {npc:170787}"
+L["nexus_npc_dekaris"] = nil
 L["nexus_npc_dolos"] = "En el suelo detrás de {npc:170711}"
 L["nexus_npc_ekphoras"] = "Al lado de la plataforma de {npc:169827}"
 L["nexus_npc_incinerator"] = "En una repisa pequeña bajo {npc:156203}"

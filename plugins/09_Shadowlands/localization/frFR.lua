@@ -519,6 +519,7 @@ L["nexus_area_gorgoa_mouth"] = "A l'embouchure de Gorgoa (la rivière des âmes)
 L["nexus_area_perdition_wall"] = "Le long du mur extérieur du Fort de la Perdition"
 L["nexus_area_torment_rock"] = "Sur un rocher dans les Plans de la Tourmente"
 L["nexus_area_zone_edge"] = "Le long du bord de la zone"
+L["nexus_area_zovaal_edge"] = nil
 L["nexus_area_zovaal_wall"] = "Le long du mur en dessous du Chaudron de Zovaal"
 -- Locations given relative to a named cave/cavern
 L["nexus_cave_anguish_lower"] = "Dans la Fosse de l’Angoisse (niveau inférieur)"
@@ -530,13 +531,12 @@ L["nexus_cave_forlorn"] = "A l'intérieur de la grotte de la Halte Mélancolique
 L["nexus_cave_howl_outside"] = "Sur le sol à l'extérieur de la caverne de la Complainte de la mort"
 L["nexus_cave_howl"] = "A l'intérieur de la caverne de la Complainte de la mort"
 L["nexus_cave_ledge"] = "Dans une petite grotte sous une corniche"
-L["nexus_cave_mothers"] = "Dans la caverne de la Tanière de la Mère"
 L["nexus_cave_prodigum"] = "Dans une petite grotte dans le Prodigium"
-L["nexus_cave_raveners"] = "Dans une petite grotte à la Lamentation de l’Affamé"
 L["nexus_cave_soulstained"] = "Dans une petite grotte dans les Champs Maculés d’âmes"
 L["nexus_cave_torturer"] = "Dans le Taudis du Tortionnaire"
 -- Locations given relative to a named NPC
 L["nexus_npc_akros"] = "En haut des escaliers à côté de {npc:170787}"
+L["nexus_npc_dekaris"] = nil
 L["nexus_npc_dolos"] = "Sur le sol derrière {npc:170711}"
 L["nexus_npc_ekphoras"] = "A côté de la plate-forme d'{npc:169827}"
 L["nexus_npc_incinerator"] = "Sur une petite corniche en dessous de l'{npc:156203}"

@@ -515,6 +515,7 @@ L["nexus_area_gorgoa_mouth"] = "戈尔格亚河口（聚魂之河）"
 L["nexus_area_perdition_wall"] = "破灭堡的外墙边"
 L["nexus_area_torment_rock"] = "折磨平原的岩石上"
 L["nexus_area_zone_edge"] = "沿着区域的边缘"
+L["nexus_area_zovaal_edge"] = nil
 L["nexus_area_zovaal_wall"] = "佐瓦尔的坩埚下面墙边"
 -- Locations given relative to a named cave/cavern
 L["nexus_cave_anguish_lower"] = "苦楚之洞内（下层）"
@@ -526,13 +527,12 @@ L["nexus_cave_forlorn"] = "荒弃之息洞穴内"
 L["nexus_cave_howl_outside"] = "死亡之嚎洞穴外的地面上"
 L["nexus_cave_howl"] = "死亡之嚎洞穴内"
 L["nexus_cave_ledge"] = "在壁架下方的一个小洞穴中 "
-L["nexus_cave_mothers"] = "主母之巢洞穴内"
 L["nexus_cave_prodigum"] = "浪骸之所的小洞穴内"
-L["nexus_cave_raveners"] = "蹂躏者的挽歌的小洞穴内"
 L["nexus_cave_soulstained"] = "魂渍原野的小洞穴内"
 L["nexus_cave_torturer"] = "折磨者陋居内"
 -- Locations given relative to a named NPC
 L["nexus_npc_akros"] = "{npc:170787} 旁边的楼梯上"
+L["nexus_npc_dekaris"] = nil
 L["nexus_npc_dolos"] = "{npc:170711} 后面的地面上"
 L["nexus_npc_ekphoras"] = "{npc:169827} 的平台边上"
 L["nexus_npc_incinerator"] = "{npc:156203} 下面的一个小窗台上"
