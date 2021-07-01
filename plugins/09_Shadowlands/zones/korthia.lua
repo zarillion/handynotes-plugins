@@ -788,7 +788,8 @@ end
 local maelie = Class('Maelie', Collectible, {
     id=179912,
     icon=3155422,
-    quest=64298,
+    quest={64292,64298}, -- completed, daily
+    questAny=true,
     note=L["maelie_wanderer"],
     pois={POI({
         41103980, 49304170, 59801510, 43003260, 49304170, 50302290,

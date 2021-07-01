@@ -225,13 +225,8 @@ _G[ADDON_NAME..'ScanQuestObjectives'] = function (start, end_)
     end
 
     for i = start, end_, 1 do
-        local _, _, numObjectives = GetTaskInfo(i)
-        if numObjectives then
-            for j = 0, numObjectives, 1 do
-                attemptObjectiveInfo(i, j)
-            end
-        else
-            attemptObjectiveInfo(i, 0)
+        for j = 0, 10, 1 do
+            attemptObjectiveInfo(i, j)
         end
     end
 end
