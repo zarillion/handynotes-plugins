@@ -149,20 +149,6 @@ map.nodes[60652315] = Rare({
     }
 }) -- Hunting the Hunter
 
-map.nodes[71001212] = Rare({
-    id=179472,
-    quest=64246, -- 64280?
-    note=L["konthrogz_note"],
-    rewards={
-        Achievement({id=15107, criteria=52303}),
-        Mount({item=187183, id=1514}), -- Rampaging Mauler
-        Transmog({item=187375, slot=L["cloth"]}), -- Bound Worldeater Tendrils
-        Transmog({item=187378, slot=L["leather"]}), -- Visage of the Obliterator
-        Transmog({item=187384, slot=L["mail"]}), -- Konthrogz's Scaled Handguards
-        Transmog({item=187397, slot=L["plate"]}) -- Vambraces of the In-Between
-    }
-}) -- Konthrogz the Obliterator
-
 map.nodes[59203580] = Rare({
     id=179108,
     quest=64428,
@@ -202,18 +188,6 @@ map.nodes[50307590] = Rare({
         Toy({item=187420}) -- Maw-Ocular Viewfinder
     }
 }) -- Observer Yorik
-
-map.nodes[71001812] = Rare({
-    id=180162,
-    quest=64457,
-    note=L["pop_quiz_note"],
-    rewards={
-        Achievement({id=15107, criteria=52319}),
-        Transmog({item=187369,slot=L["cloth"]}), -- Ve'rayn's Formal Robes
-        Item({item=187404, note=L["neck"]}), -- Cartel Ve Amulet
-        Item({item=187264, quest=64513}) -- Ve'rayn's Head
-    }
-}) -- Pop Quiz
 
 map.nodes[56873237] = Rare({
     id=180032,
@@ -266,18 +240,6 @@ map.nodes[57607040] = Rare({
     }
 }) -- Silent Soulstalker
 
-map.nodes[71001512] = Rare({
-    id=179760,
-    quest=64245,
-    note=L["towering_exterminator_note"],
-    rewards={
-        Achievement({id=15107, criteria=52302}),
-        Transmog({item=187373, slot=L["cloth"]}), -- Soul-Enveloping Leggings
-        Transmog({item=187376, slot=L["leather"]}), -- Mawsworn Lieutenant's Treads
-        Transmog({item=187241, slot=L["cosmetic"]}), -- Watchful Eye of the Damned
-        Transmog({item=187242, slot=L["cosmetic"]}) -- Exterminator's Crest of the Damned
-    }
-}) -- Towering Exterminator
 
 map.nodes[27755885] = Rare({
     id=177336,
@@ -291,6 +253,50 @@ map.nodes[27755885] = Rare({
         POI({30385480}) -- Entrance
     }
 }) -- Zelnithop
+
+-------------------------------------------------------------------------------
+
+map.nodes[13007500] = Rare({
+    id=179472,
+    quest=64246, -- 64280?
+    scale=1.5,
+    note=L["konthrogz_note"],
+    rewards={
+        Achievement({id=15107, criteria=52303}),
+        Mount({item=187183, id=1514}), -- Rampaging Mauler
+        Transmog({item=187375, slot=L["cloth"]}), -- Bound Worldeater Tendrils
+        Transmog({item=187378, slot=L["leather"]}), -- Visage of the Obliterator
+        Transmog({item=187384, slot=L["mail"]}), -- Konthrogz's Scaled Handguards
+        Transmog({item=187397, slot=L["plate"]}) -- Vambraces of the In-Between
+    }
+}) -- Konthrogz the Obliterator
+
+map.nodes[16007500] = Rare({
+    id=179760,
+    quest=64245,
+    scale=1.5,
+    note=L["towering_exterminator_note"],
+    rewards={
+        Achievement({id=15107, criteria=52302}),
+        Transmog({item=187373, slot=L["cloth"]}), -- Soul-Enveloping Leggings
+        Transmog({item=187376, slot=L["leather"]}), -- Mawsworn Lieutenant's Treads
+        Transmog({item=187241, slot=L["cosmetic"]}), -- Watchful Eye of the Damned
+        Transmog({item=187242, slot=L["cosmetic"]}) -- Exterminator's Crest of the Damned
+    }
+}) -- Towering Exterminator
+
+map.nodes[14507900] = Rare({
+    id=180162,
+    quest=64457,
+    scale=1.5,
+    note=L["pop_quiz_note"],
+    rewards={
+        Achievement({id=15107, criteria=52319}),
+        Transmog({item=187369,slot=L["cloth"]}), -- Ve'rayn's Formal Robes
+        Item({item=187404, note=L["neck"]}), -- Cartel Ve Amulet
+        Item({item=187264, quest=64513}) -- Ve'rayn's Head
+    }
+}) -- Ve'rayn
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
