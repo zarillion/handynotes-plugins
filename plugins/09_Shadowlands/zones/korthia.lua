@@ -387,12 +387,13 @@ map.nodes[62065550] = Treasure({
     label=L["spectral_bound_chest"],
     rewards={
         ns.relics.relic_fragment,
-        ns.reward.Currency({id=1767, note='40'})
+        ns.reward.Currency({id=1767, note='40'}),
+        Transmog({item=187240, slot=L["cosmetic"]}) -- Field Warden's Watchful Eye
     },
     pois={POI({
         50505370, 52305320, 52604970, 54205060, --quest 64249
         59205670, 60305650, 61005870, 62105770, --quest 64250
-        57504930, 58224871, 59205670, 62735133, --quest 64248
+        57504930, 58224871, 59205670, 62735133, 61494733 --quest 64248
         })}
 }) -- Spectral Bound Chest
 
@@ -737,6 +738,7 @@ local MAWC2 = MawswornC({quest=64363, icon='chest_pk'})
 local MAWC3 = MawswornC({quest=64364, icon='chest_lm'})
 
 map.nodes[58803360] = MAWC1
+map.nodes[60103931] = MAWC1
 map.nodes[62903490] = MAWC1
 map.nodes[56805610] = MAWC2
 map.nodes[58325283] = MAWC2
@@ -796,7 +798,7 @@ local maelie = Class('Maelie', Collectible, {
     getters={rlabel=GetMaelieStatus}
 })()
 
-map.nodes[60562103] = maelie
+map.nodes[60682192] = maelie
 
 map.nodes[42873269] = Collectible({
     id=180063,
