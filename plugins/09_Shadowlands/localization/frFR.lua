@@ -456,11 +456,11 @@ Jusqu'à ce que vous rameniez {npc:170651} à Oribos, vous serez séparé de la 
 
 L["apholeias_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:331783} pour invoquer le rare."
 L["dekaris_note"] = "Au sommet d'un gros rocher en saillie."
-L["deomen_note"] = "Entrez dans la chambre à l'ouest de sa cellule et activez le verrou pour y accéder."
+L["deomen_note"] = "Entrez dans la chambre au sud de sa cellule et activez le verrou pour y accéder."
 L["drifting_sorrow_note"] = "Tuez des {npc:175246s} près de l'orbe flottante pour activer le boss."
 L["ekphoras_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:330650} pour invoquer le rare."
 L["etherwyrm_label"] = "Cage à wyrm d'éther imprégné"
-L["etherwyrm_note"] = "Nécessite que l'assaut des Faë nocturnes soit actif. Pour obtenir le {item:186190}, tuez un {npc:179030} dans la faille."
+L["etherwyrm_note"] = "Nécessite que l'assaut des Faë nocturnes soit actif. Tuez un {npc:179030} en étant dans la faille pour obtenir l'objet {item:186190}. Utilisez la clé sur la cage du Wyrm d'éther dans la caverne du Creux Désolé (où se trouve {npc:175821} lorsque l'assaut n'est pas actif)."
 L["fallen_charger_note"] = "Après le cri dans toute la zone, il prendra l'un des deux chemins jusqu'à ce qu'il atteigne Korthia où il disparaîtra."
 L["ikras_note"] = "Vole autour du Fort de la Perdition. C'est un bon endroit pour l'attirer."
 L["lilabom_note"] = "Collecter les 5 parties pour compléter le familier."
@@ -519,7 +519,7 @@ L["nexus_area_gorgoa_mouth"] = "A l'embouchure de Gorgoa (la rivière des âmes)
 L["nexus_area_perdition_wall"] = "Le long du mur extérieur du Fort de la Perdition"
 L["nexus_area_torment_rock"] = "Sur un rocher dans les Plans de la Tourmente"
 L["nexus_area_zone_edge"] = "Le long du bord de la zone"
-L["nexus_area_zovaal_edge"] = nil
+L["nexus_area_zovaal_edge"] = "Le long du bord du Chaudron de Zovaal"
 L["nexus_area_zovaal_wall"] = "Le long du mur en dessous du Chaudron de Zovaal"
 -- Locations given relative to a named cave/cavern
 L["nexus_cave_anguish_lower"] = "Dans la Fosse de l’Angoisse (niveau inférieur)"
@@ -536,7 +536,7 @@ L["nexus_cave_soulstained"] = "Dans une petite grotte dans les Champs Maculés d
 L["nexus_cave_torturer"] = "Dans le Taudis du Tortionnaire"
 -- Locations given relative to a named NPC
 L["nexus_npc_akros"] = "En haut des escaliers à côté de {npc:170787}"
-L["nexus_npc_dekaris"] = nil
+L["nexus_npc_dekaris"] = "Au sommet du pic où se trouve {npc:157964}"
 L["nexus_npc_dolos"] = "Sur le sol derrière {npc:170711}"
 L["nexus_npc_ekphoras"] = "A côté de la plate-forme d'{npc:169827}"
 L["nexus_npc_incinerator"] = "Sur une petite corniche en dessous de l'{npc:156203}"
