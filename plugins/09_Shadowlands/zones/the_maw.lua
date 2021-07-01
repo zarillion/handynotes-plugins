@@ -395,6 +395,7 @@ map.nodes[66404400] = Rare({
     fgroup='nilganihmaht_group',
     rewards={
         Achievement({id=15107, criteria=52287}),
+        Achievement({id=14943, criteria=51681}),
         Transmog({item=187359, slot=L["shield"]}), -- Ylva's Water Dish
         Item({item=186970, quest=62683, note="{item:186727}"}) -- Feeder's Hand and Key / Seal Breaker Key
     }

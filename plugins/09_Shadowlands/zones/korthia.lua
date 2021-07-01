@@ -778,6 +778,8 @@ map.nodes[49356386] = NPC({
 --     if count ~= nil then return ns.status.Gray(tostring(count)..'/6') end
 -- end
 
+-- Day 1: 64293 64298
+
 local maelie = Class('Maelie', Collectible, {
     id=179912,
     icon=3155422,

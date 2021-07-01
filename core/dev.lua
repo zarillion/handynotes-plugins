@@ -216,4 +216,26 @@ end
 
 -------------------------------------------------------------------------------
 
+_G[ADDON_NAME..'ScanQuestObjectives'] = function (start, end_)
+    local function attemptObjectiveInfo (quest, index)
+        local text, objectiveType, finished, fulfilled, required = GetQuestObjectiveInfo(quest, index, true)
+        if text or objectiveType or finished or fulfilled then
+            print(quest, text, objectiveType, finished, fulfilled)
+        end
+    end
+
+    for i = start, end_, 1 do
+        local _, _, numObjectives = GetTaskInfo(i)
+        if numObjectives then
+            for j = 0, numObjectives, 1 do
+                attemptObjectiveInfo(i, j)
+            end
+        else
+            attemptObjectiveInfo(i, 0)
+        end
+    end
+end
+
+-------------------------------------------------------------------------------
+
 ns.BootstrapDevelopmentEnvironment = BootstrapDevelopmentEnvironment
