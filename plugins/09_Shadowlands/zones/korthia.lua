@@ -40,7 +40,8 @@ function map:CanDisplay(node, coord, minimap)
     return Map.CanDisplay(self, node, coord, minimap)
 end
 
-local gho = Map({ id=2007 }) -- Grommit Hollow
+-- https://github.com/Nevcairiel/HereBeDragons/issues/13
+-- local gho = Map({ id=2007 }) -- Grommit Hollow
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -199,7 +200,7 @@ map.nodes[56276617] = Rare({
     }
 }) -- Reliwik the Defiant
 
-gho.nodes[45296726] = Rare({
+map.nodes[27755885] = Rare({
     id=177336,
     quest=64442,
     note=L["in_cave"],
@@ -207,9 +208,9 @@ gho.nodes[45296726] = Rare({
         Achievement({id=15107, criteria=52301}),
         Pet({item=186542, id=3136}) -- Korthian Specimen
     },
-    parent={ id=map.id, pois={
+    pois={
         POI({30385480}) -- Entrance
-    }}
+    }
 }) -- Zelnithop
 
 -------------------------------------------------------------------------------
@@ -404,14 +405,13 @@ local Relic = Class('Relic', ns.node.Treasure, {
 
 -------------------------------------------------------------------------------
 
-gho.nodes[40914788] = Relic({
+map.nodes[27305670] = Relic({
     quest=63899,
     questDeps=64506,
     note=L["in_cave"],
     rewards={
         Achievement({id=15066, criteria=52131})
-    },
-    parent=map.id
+    }
 }) -- Book of Binding: The Mad Witch
 
 map.nodes[45455607] = Relic({
@@ -603,12 +603,12 @@ local RiftCache = Class('RiftCache', Treasure, {
     }
 })
 
-local RIFT_CACHE1 = RiftCache({quest=64470, icon='chest_rd', parent=map.id})
+local RIFT_CACHE1 = RiftCache({quest=64470, icon='chest_rd', note=L["in_cave"]})
 local RIFT_CACHE2 = RiftCache({quest=64471, icon='chest_pp'}) -- (also 64705?)
 local RIFT_CACHE3 = RiftCache({quest=64472, icon='chest_yw'})
 local RIFT_CACHE4 = RiftCache({quest=nil, icon='chest_bl'})
 
-gho.nodes[29433986] = RIFT_CACHE1
+map.nodes[25975582] = RIFT_CACHE1
 map.nodes[54105460] = RIFT_CACHE2
 map.nodes[54904240] = RIFT_CACHE2
 map.nodes[55506510] = RIFT_CACHE2

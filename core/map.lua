@@ -79,11 +79,14 @@ function Map:AddNode(coord, node)
         -- Calculate world coordinates for the node
         local x, y = HandyNotes:getXY(coord)
         local wx, wy = HBD:GetWorldCoordinatesFromZone(x, y, self.id)
+        if not (wx and wy) then
+            error(format('Missing world coords: (%d: %d) => ???', self.id, coord))
+        end
         for i, parent in ipairs(node.parent) do
             -- Calculate parent zone coordinates and add node
             local px, py = HBD:GetZoneCoordinatesFromWorld(wx, wy, parent.id)
             if not (px and py) then
-                error(format('No parent coords for node: %d %s %d', coord, tostring(node), parent.id))
+                error(format('Missing map coords: (%d: %d) => (%d: ???)', self.id, coord, parent.id))
             end
             local map = ns.maps[parent.id] or Map({id=parent.id})
             map.nodes[HandyNotes:getCoord(px, py)] = ns.Clone(node, {pois=(parent.pois or false)})
