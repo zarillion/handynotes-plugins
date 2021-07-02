@@ -161,6 +161,7 @@ map.nodes[28086058] = Rare({
 map.nodes[23765341] = Rare({
     id=170774,
     quest=60915,
+    noassault=63823,
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49848})
@@ -531,6 +532,7 @@ map.nodes[25831479] = BonusBoss({
 map.nodes[19205740] = BonusBoss({
     id=162844,
     quest=61140,
+    noassault=63823,
     rewards={
         Achievement({id=14660, criteria=50410}),
         Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
