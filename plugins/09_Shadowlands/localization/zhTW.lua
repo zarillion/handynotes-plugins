@@ -263,13 +263,19 @@ L["num_research"] = "%d 編目研究"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "顯示成就的所有20個文物位置."
 
-L["rift_portal_note"] = nil
-L["options_icons_rift_portal"] = nil
-L["options_icons_rift_portal_desc"] = nil
+L["rift_portal_note"] = [[
+進入 |cFFFFFF00裂隙|r, 一個科西亞和淵喉存在的備用位面, 有額外的稀有, 文物和寶箱.
+
+需要使用 {item:186731}, 當你 {faction:2472} 達到等級4時可以在 {npc:178257} 處購買. 此鑰匙也有很低的機率從此區域的稀有掉落或是從寶箱開出.
+
+|cFFFF8C00並非所有裂隙傳送門在任何時間都是啟動的.|r
+]]
+L["options_icons_rift_portal"] = "{npc:179595}"
+L["options_icons_rift_portal_desc"] = "顯示用來進入 |cFFFFFF00裂隙|r 的 {npc:179595} 位置"
 
 L["riftbound_cache"] = "隙縛寶箱"
-L["options_icons_riftbound_cache"] = nil
-L["options_icons_riftbound_cache_desc"] = nil
+L["options_icons_riftbound_cache"] = "隙縛寶箱"
+L["options_icons_riftbound_cache_desc"] = "顯示在 |cFFFFFF00裂隙|r 內的寶箱位置."
 
 L["invasive_mawshroom"] = "入侵的淵喉菇"
 L["mawsworn_cache"] = "淵誓儲物箱"
@@ -458,14 +464,14 @@ L["maw_intro_note"] = "從 {npc:162804} 開始指引任務線以解鎖淵喉的�
 
 L["apholeias_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:331783} 召喚稀有。"
 L["dekaris_note"] = "在一個大型的突出岩石上。"
-L["deomen_note"] = nil
+L["deomen_note"] = "進入南邊的地窖，開啟牆壁上兩邊的控制桿來開啟他的籠子."
 L["drifting_sorrow_note"] = "在懸浮寶珠附近殺死 {npc:175246} 來啟動首領。"
 L["ekphoras_note"] = "和3名其他玩家，站在平臺的角落並施放 {spell:330650} 召喚稀有。"
-L["etherwyrm_label"] = nil
-L["etherwyrm_note"] = nil
-L["fallen_charger_note"] = nil
+L["etherwyrm_label"] = "翼靈蛇牢籠"
+L["etherwyrm_note"] = "需要暗夜妖精進攻戰進行中. 在裂隙時擊殺 {npc:179030} 來獲得 {item:186190}. 在荒寂谷地洞穴對翼靈蛇牢籠使用鑰匙 ({npc:175821} 只存在現實位面)."
+L["fallen_charger_note"] = "在全地圖大喊後, 他會沿者兩條路線中的一條移動, 如果沒有被人撞到則在到達科西亞後消失."
 L["ikras_note"] = "環繞墮滅堡飛行。這是個攻擊他的好位置。"
-L["lilabom_note"] = nil
+L["lilabom_note"] = "收集全部5個部份來完成寵物"
 L["orophea_note"] = "從東南方的拾取 {spell:337143} 並提供給 {npc:172577} 啟動。"
 L["sanngror_note"] = "如果他是無法攻擊的，等到她停止對靈魂做實驗即可。"
 L["talaporas_note"] = "和3名其他玩家，站在平台的角落並施放 {spell:331800} 召喚稀有。"
@@ -487,8 +493,7 @@ L["chaotic_riftstone_note"] ="啟動 {spell:344157} 來快速穿越淵喉。"
 L["venari_note"] = [[
 使用 {currency:1767} 購買淵喉和托迦司升級。
 
-|cFFFF8C00在分身上，帳號通用的托迦司升級將顯示未完成|r
-|cFFFF8C00解鎖後，下面的完成狀態將更新！|r
+|cFFFF8C00帳號通用的托迦司升級在分身上會顯示為未完成!|r
 ]]
 L["venari_upgrade"] = "{npc:162804} 升級"
 L["torghast"] = "托迦司"
@@ -561,9 +566,9 @@ L["nexus_misc_grapple_rock"] = nil
 L["nexus_misc_ledge_below"] = nil
 L["nexus_misc_three_chains"] = nil
 
-L["rift_hidden_cache"] = nil
-L["options_icons_rift_hidden_cache"] = nil
-L["options_icons_rift_hidden_cache_desc"] = nil
+L["rift_hidden_cache"] = "裂隙隱藏寶箱"
+L["options_icons_rift_hidden_cache"] = "裂隙隱藏寶箱"
+L["options_icons_rift_hidden_cache_desc"] = "顯示在 |cFFFFFF00裂隙|r 內的寶箱位置"
 
 L["options_icons_bonus_boss"] = "獎勵精英"
 L["options_icons_bonus_boss_desc"] = "顯示獎勵精英位置。"
@@ -578,13 +583,13 @@ L["options_icons_stygia_nexus_desc"] = "顯示 {item:184168} 坐騎所需的冥�
 L["options_icons_stygian_caches"] = "冥魄儲藏箱"
 L["options_icons_stygian_caches_desc"] = "顯示含有額外冥魄寶箱的位置"
 
-L["domination_chest"] = nil
-L["domination_chest_note"] = nil
-L["gold_band_note"] = nil
-L["harrower_key_ring"] = nil
-L["harrower_key_note"] = nil
-L["helgarde_supply"] = nil
-L["maw_mad_note"] = nil
-L["nilganihmaht_note"] = nil
-L["options_icons_nilganihmaht"] = nil
-L["options_icons_nilganihmaht_desc"] = nil
+L["domination_chest"] = "統御寶箱"
+L["domination_chest_note"] = "需要4個 {item:186727} 來打開全部封印"
+L["gold_band_note"] = "在山頂的一個尖端上"
+L["harrower_key_ring"] = "Harrower's Key Ring"
+L["harrower_key_note"] = "在 {npc:178311} 旁邊的牆上."
+L["helgarde_supply"] = "黑爾嘉德補給箱"
+L["maw_mad_note"] = "在墮滅堡附近隨機奔跑, 總是在這裡重生."
+L["nilganihmaht_note"] = "你必須蒐集5個戒指, 並且把它們帶給在裂隙中的 {npc:179572} ."
+L["options_icons_nilganihmaht"] = "{npc:179572}"
+L["options_icons_nilganihmaht_desc"] = "顯示 {spell:354354} 坐騎部件的位置."
