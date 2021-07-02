@@ -265,13 +265,19 @@ L["num_research"] = "%d Recherche"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Afficher les emplacements des 20 reliques pour {achievement:15066}."
 
-L["rift_portal_note"] = nil
-L["options_icons_rift_portal"] = nil
-L["options_icons_rift_portal_desc"] = nil
+L["rift_portal_note"] = [[
+Entrez dans |cFFFFFF00La Faille|r, une phase alternative de Korthia et de l'Antre contenant des monstres rares, reliques et coffres supplémentaires.
 
-L["riftbound_cache"] = "Cache failleliée" -- Confirmer le nom du coffre
-L["options_icons_riftbound_cache"] = nil
-L["options_icons_riftbound_cache_desc"] = nil
+Nécessite une {item:186731}, qui peut être achetée à {npc:178257} une fois que vous avez atteint le rang 4 avec {faction:2472}. Les clés ont également une faible chance d'être laissées par les monstres rares et coffres dans la zone.
+
+|cFFFF8C00Les portails de failles ne sont pas tous actifs à un moment donné.|r
+]]
+L["options_icons_rift_portal"] = "{npc:179595s}"
+L["options_icons_rift_portal_desc"] = "Afficher les emplacements des {npc:179595s} utilisés pour entrer dans |cFFFFFF00La Faille|r."
+
+L["riftbound_cache"] = "Cache liée à la faille"
+L["options_icons_riftbound_cache"] = "Caches liées à la faille"
+L["options_icons_riftbound_cache_desc"] = "Afficher les emplacements des caches à l'intérieur de |cFFFFFF00La Faille|r."
 
 L["invasive_mawshroom"] = "Champignantre envahissant"
 L["mawsworn_cache"] = "Cache antrelige"
@@ -466,7 +472,7 @@ L["deomen_note"] = "Pour ouvrir sa cage, entrez dans la pièce au sud et activez
 L["drifting_sorrow_note"] = "Tuez des {npc:175246s} près de l'orbe flottante pour activer le boss."
 L["ekphoras_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:330650} pour invoquer le rare."
 L["etherwyrm_label"] = "Cage à wyrm d'éther imprégné"
-L["etherwyrm_note"] = "Nécessite que l'assaut des Faë nocturnes soit actif. Tuez un {npc:179030} en étant dans la faille pour obtenir l'objet {item:186190}. Utilisez la clé sur la cage du Wyrm d'éther dans la caverne du Creux Désolé (où se trouve {npc:175821} lorsque l'assaut n'est pas actif)."
+L["etherwyrm_note"] = "Nécessite que l'assaut des Faë nocturnes soit actif. Tuez un {npc:179030} en étant dans la faille pour obtenir l'objet {item:186190}. Utilisez la clé sur la cage du Wyrm d'éther (à l'extérieur de la faille) dans la caverne du Creux Désolé (où se trouve {npc:175821} lorsque l'assaut n'est pas actif)."
 L["fallen_charger_note"] = "Après le cri dans toute la zone, il prendra l'un des deux chemins jusqu'à ce qu'il atteigne Korthia où il disparaîtra."
 L["ikras_note"] = "Vole autour du Fort de la Perdition. C'est un bon endroit pour l'attirer."
 L["lilabom_note"] = "Collecter les 5 parties pour compléter le familier."
@@ -564,9 +570,9 @@ L["nexus_misc_grapple_rock"] = "Près d'une prise de grappin sur un rocher"
 L["nexus_misc_ledge_below"] = "Sur le sol, sous une corniche"
 L["nexus_misc_three_chains"] = "Sur le sol près de trois chaînes"
 
-L["rift_hidden_cache"] = nil
-L["options_icons_rift_hidden_cache"] = nil
-L["options_icons_rift_hidden_cache_desc"] = nil
+L["rift_hidden_cache"] = "Cache secrète de la faille"
+L["options_icons_rift_hidden_cache"] = "Caches secrètes de la faille"
+L["options_icons_rift_hidden_cache_desc"] = "Afficher les emplacements des caches à l'intérieur de |cFFFFFF00La Faille|r."
 
 L["options_icons_bonus_boss"] = "Élites bonus"
 L["options_icons_bonus_boss_desc"] = "Afficher les emplacements des élites bonus."
