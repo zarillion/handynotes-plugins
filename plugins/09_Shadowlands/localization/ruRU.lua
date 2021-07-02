@@ -264,13 +264,17 @@ L["num_research"] = "%d Исследования"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Покажите расположение всех 20 реликвий для {achievement:15066}."
 
-L["rift_portal_note"] = nil
-L["options_icons_rift_portal"] = nil
-L["options_icons_rift_portal_desc"] = nil
+L["rift_portal_note"] = [[
+Войдите |cFFFFFF00в разлом|r, альтернативную фазу Кортии и Утробы с дополнительными редкими монстрами, реликвиями и тайниками.
+Требуется {предмет:186731}, который можно приобрести у {npc:178257}, как только вы достигнете 4 уровня с {фракцией:2472}. Ключи также имеют низкую вероятность выпадения из редких монстров и тайников в зоне.
+|cFFFF8C00Не все порталы разломов активны в любой момент времени.|r
+]]
+L["options_icons_rift_portal"] = "{npc:179595}"
+L["options_icons_rift_portal_desc"] = "Отобразить местоположение {npc:179595}, используемых для входа |cFFFFFF00в разломы|r."
 
 L["riftbound_cache"] = "Тайник Разлома"
-L["options_icons_riftbound_cache"] = nil
-L["options_icons_riftbound_cache_desc"] = nil
+L["options_icons_riftbound_cache"] = "Тайник Разлома"
+L["options_icons_riftbound_cache_desc"] = "Отобразите расположение тайников внутри |cFFFFFF00разломов|r."
 
 L["invasive_mawshroom"] = "Инвазивный гриб Утробы"
 L["mawsworn_cache"] = "Тайник Верных Утробе"
@@ -561,9 +565,9 @@ L["nexus_misc_grapple_rock"] = "За точкой захвата на скале
 L["nexus_misc_ledge_below"] = "На земле под выступом"
 L["nexus_misc_three_chains"] = "На земле за тремя цепями"
 
-L["rift_hidden_cache"] = nil
-L["options_icons_rift_hidden_cache"] = nil
-L["options_icons_rift_hidden_cache_desc"] = nil
+L["rift_hidden_cache"] = "Тайник разлома"
+L["options_icons_rift_hidden_cache"] = "Тайник разлома"
+L["options_icons_rift_hidden_cache_desc"] = "Показать расположение тайников внутри |cFFFFFF00разломов|r."
 
 L["options_icons_bonus_boss"] = "Бонусные элитные монстры"
 L["options_icons_bonus_boss_desc"] = "Отображение местоположения бонусных элитных монстров."
