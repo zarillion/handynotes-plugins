@@ -243,9 +243,9 @@ L["darkmaul_note"] = "从入侵的渊菇收集 {item:187153} 并喂食给 {npc:1
 L["dislodged_nest_note"] = "点击附近的剧毒之蛾获得 {spell:355181}。使用 {spell:355131} 额外动作按钮给 {npc:178547} 来获得控制和骑上它进入巢所在的树中。"
 L["flayedwing_transporter_note"] = "点击 {npc:178633} 飞向和飞离绝密宝库。"
 L["forgotten_feather_note"] = "从守护者的休憩跳下来到漂浮的一个小岛上。"
-L["hunting_hunter_note"] = "和 {npc:179729} 交谈获得 {spell:355078} 并跟随脚印直到你找到肉质残留。"
+L["hunting_hunter_note"] = "和 {npc:179729} 交谈获得 {spell:355078} 并跟随脚印直到你找到血肉遗骸。"
 L["konthrogz_note"] = "在吞噬者的传送门事件中出现。事件可能在刻希亚许多地方出现。"
-L["maelie_wanderer"] = "{npc:179912} 将在当天固定位置出现。一旦你使用 {spell:355862} 给他不同的6天后回到 {npc:179930} 获得坐骑。"
+L["maelie_wanderer"] = "{npc:179912} 将在当天固定位置出现。使用 {spell:355862} 他，需要6天交互，然后回到 {npc:179930} 获得坐骑。"
 L["no_stoneborne_note"] = "和 {npc:179974} 交谈开始事件。"
 L["offering_box_note"] = "需要 {item:187033}，可以在附近废墟的西侧墙顶部找到。"
 L["pop_quiz_note"] = "突击测验事件将在地图上随机出现。点击废弃的帷幕之杖并回答 {npc:180162} 的问题。"
@@ -263,13 +263,19 @@ L["num_research"] = "%d 研究"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "显示成就中全部20个圣物的位置。"
 
-L["rift_portal_note"] = nil
-L["options_icons_rift_portal"] = nil
-L["options_icons_rift_portal_desc"] = nil
+L["rift_portal_note"] = [[
+进入 |cFFFFFF00裂隙|r，一个临时的刻希亚和噬渊位面内有额外的稀有，圣物和宝箱。
 
-L["riftbound_cache"] = "裂隙宝箱"
-L["options_icons_riftbound_cache"] = nil
-L["options_icons_riftbound_cache_desc"] = nil
+需要一个 {item:186731}，当你到达4级 {faction:2472} 可以在 {npc:178257} 处购买。钥匙也会有低概率从区域内稀有和宝箱中掉落。
+
+|cFFFF8C00并非所有裂隙传送门在任何时间都处于激活状态。|r
+]]
+L["options_icons_rift_portal"] = "{npc:179595s}"
+L["options_icons_rift_portal_desc"] = "显示 {npc:179595} 的位置可以进入 |cFFFFFF00裂隙|r。"
+
+L["riftbound_cache"] = "隙缚宝箱"
+L["options_icons_riftbound_cache"] = "隙缚宝箱"
+L["options_icons_riftbound_cache_desc"] = "显示 |cFFFFFF00裂隙|r 内隙缚宝箱的位置。"
 
 L["invasive_mawshroom"] = "入侵的渊菇"
 L["mawsworn_cache"] = "渊誓之箱"
@@ -462,7 +468,7 @@ L["deomen_note"] = "进入密室南边的房间并激活锁控制以接近他。
 L["drifting_sorrow_note"] = "在悬浮宝珠附近击杀 {npc:175246} 激活首领。"
 L["ekphoras_note"] = "和3名其他玩家，站在平台的角落并施放 {spell:330650} 召唤稀有。"
 L["etherwyrm_label"] = "注能的以太浮蛇囚笼"
-L["etherwyrm_note"] = "需要法夜突袭激活。击杀位于裂隙的 {npc:179030} 获得 {item:186190}。在荒芜洞窟洞穴（当突袭未激活在 {npc:175821} 处）的以太浮蛇囚笼使用钥匙。"
+L["etherwyrm_note"] = "需要法夜突袭激活。击杀位于裂隙的 {npc:179030} 获得 {item:186190}。在荒芜洞窟洞穴（裂隙以外）（当突袭未激活时在 {npc:175821} 处）的以太浮蛇囚笼使用钥匙。"
 L["fallen_charger_note"] = "在区域范围内的大喊之后，它会选择两条路径中的任何一条，直到它到达刻希亚并在那里消失。"
 L["ikras_note"] = "在破灭堡飞来飞去。这里是攻击他的好位置。"
 L["lilabom_note"] = "收集全部5个部分完成宠物。"
@@ -560,9 +566,9 @@ L["nexus_misc_grapple_rock"] = "通过锚点到岩石上"
 L["nexus_misc_ledge_below"] = "在窗台下的地面上 "
 L["nexus_misc_three_chains"] = "在地上的三个铁链"
 
-L["rift_hidden_cache"] = nil
-L["options_icons_rift_hidden_cache"] = nil
-L["options_icons_rift_hidden_cache_desc"] = nil
+L["rift_hidden_cache"] = "隙隐宝箱"
+L["options_icons_rift_hidden_cache"] = "隙隐宝箱"
+L["options_icons_rift_hidden_cache_desc"] = "显示 |cFFFFFF00裂隙|r 内隙隐宝箱的位置。"
 
 L["options_icons_bonus_boss"] = "奖励精英"
 L["options_icons_bonus_boss_desc"] = "显示奖励精英位置。"
