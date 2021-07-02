@@ -207,10 +207,9 @@ gho.nodes[45296726] = Rare({
         Achievement({id=15107, criteria=52301}),
         Pet({item=186542, id=3136}) --Korthian Specimen
     },
-    pois={
+    parent={ id=map.id, pois={
         POI({30385480}) -- Entrance
-    },
-    parent=map.id
+    }}
 }) -- Zelnithop
 
 -------------------------------------------------------------------------------
