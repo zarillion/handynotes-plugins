@@ -265,13 +265,17 @@ L["num_research"] = "%d Investigación"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Muestra donde están las 20 reliquias para {achievement:15066}."
 
-L["rift_portal_note"] = nil
-L["options_icons_rift_portal"] = nil
-L["options_icons_rift_portal_desc"] = nil
+L["rift_portal_note"] = [[
+Entra en |cFFFFFF00La Falla|r, una fase alternativa de Korthia y Las Fauces con raros adicionales, reliquias y alijos.
+Requiere una {item:186731}, la cual se le puede comprar al {npc:178257} una vez alcanzado el rango 4 con {faction:2472}. Las llaves también tienen una pequeña probabilidad de caer de los raros y alijos de la zona.
+|cFFFF8C00Los portales de falla no están activos todos al mismo tiempo.|r
+]]
+L["options_icons_rift_portal"] = "{npc:179595}"
+L["options_icons_rift_portal_desc"] = "Muestra donde están los {npc:179595} usados para entrar en |cFFFFFF00La Falla|r."
 
-L["riftbound_cache"] = "Alijo vinculafalla"
-L["options_icons_riftbound_cache"] = nil
-L["options_icons_riftbound_cache_desc"] = nil
+L["riftbound_cache"] = "Alijo Vinculafalla"
+L["options_icons_riftbound_cache"] = "Alijos Vinculafalla"
+L["options_icons_riftbound_cache_desc"] = "Muestra donde están los alijos dentro de |cFFFFFF00La Falla|r."
 
 L["invasive_mawshroom"] = "Champifauces Invasivos"
 L["mawsworn_cache"] = "Alijo jurafauces"
@@ -464,7 +468,7 @@ L["deomen_note"] = "Para abrir esta jaula, entra en la cámara al sur y activa a
 L["drifting_sorrow_note"] = "Mata {npc:175246} cerca del orbe flotante para activar el boss."
 L["ekphoras_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:330650} para hacer aparecer a {npc:169827}."
 L["etherwyrm_label"] = "Jaula de Vermis de Éter Infundida"
-L["etherwyrm_note"] = "Requiere que esté activo el asalto de las Sílfides Nocturnas. Mata al {npc:179030} mientrás estés en la falla para conseguir la {item:186190}. Usa la llave en la Jaula de Vermis de Éter en la cueva Cuenca Desolada (donde está {npc:175821} cuando el asalto está inactivo)."
+L["etherwyrm_note"] = "Requiere que esté activo el asalto de las Sílfides Nocturnas. Mata al {npc:179030} mientrás estés en la falla para conseguir la {item:186190}. Usa la llave en la Jaula de Vermis de Éter (fuera de la falla) en la cueva Cuenca Desolada (donde está {npc:175821} cuando el asalto está inactivo)."
 L["fallen_charger_note"] = "Después del grito a lo largo de la zona cogerá uno de los dos caminos hasta que alcance Korthia donde desaparecerá."
 L["ikras_note"] = "Vuela alrededor del Bastión de la Perdición. Este es un buen sitio para pullearlo."
 L["lilabom_note"] = "Consigue las 5 partes para completar la mascota."
@@ -562,9 +566,9 @@ L["nexus_misc_grapple_rock"] = "Por un punto de agarre en una roca"
 L["nexus_misc_ledge_below"] = "En el suelo bajo una repisa"
 L["nexus_misc_three_chains"] = "En el suelo cerca de tres cadenas"
 
-L["rift_hidden_cache"] = nil
-L["options_icons_rift_hidden_cache"] = nil
-L["options_icons_rift_hidden_cache_desc"] = nil
+L["rift_hidden_cache"] = "Alijo Oculto de Falla"
+L["options_icons_rift_hidden_cache"] = "Alijos Ocultos de Falla"
+L["options_icons_rift_hidden_cache_desc"] = "Muestra donde están los alijos dentro de |cFFFFFF00La Falla|r."
 
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
 L["options_icons_bonus_boss_desc"] = "Muestra dónde están los élites de bonificación."
