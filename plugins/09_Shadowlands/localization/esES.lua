@@ -267,7 +267,9 @@ L["options_icons_relic_desc"] = "Muestra donde están las 20 reliquias para {ach
 
 L["rift_portal_note"] = [[
 Entra en |cFFFFFF00La Falla|r, una fase alternativa de Korthia y Las Fauces con raros adicionales, reliquias y alijos.
+
 Requiere una {item:186731}, la cual se le puede comprar al {npc:178257} una vez alcanzado el rango 4 con {faction:2472}. Las llaves también tienen una pequeña probabilidad de caer de los raros y alijos de la zona.
+
 |cFFFF8C00Los portales de falla no están activos todos al mismo tiempo.|r
 ]]
 L["options_icons_rift_portal"] = "{npc:179595}"
