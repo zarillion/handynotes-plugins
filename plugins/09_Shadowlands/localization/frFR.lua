@@ -254,18 +254,24 @@ L["pop_quiz_note"] = "L'événement Pop Quizz apparaîtra aléatoirement sur la 
 L["popo_note"] = "Parlez à {npc:180028} pour déclencher l'événement d'escorte."
 L["razorwing_note"] = "Apportez 6 {item:187054} obtenus sur les dévoreurs dans la zone."
 L["reliwik_note"] = "Cliquez sur l'oeuf de rasaile non corrompu pour le faire descendre."
-L["riftbound_cache"] = "Cache failleliée" -- Confirmer le nom du coffre
 L["spectral_bound_chest"] = "Cliquez sur 3 clés spectrales proches pour déverrouiller le coffre."
 L["spectral_bound_note"] = "Coffre cerclé spectral"
 L["towering_exterminator_note"] = "Apparaît à partir d'un événement de portail antrelige. L'événement peut apparaître dans de nombreux endroits de Korthia."
 L["wilderling_note"] = "Cliquez sur le {npc:180014} pour lancer l'événement de domptage."
 
 L["archivist_key_note"] = "Achetez %s de {npc:178257} pour le déverrouiller."
-L["korthia_rift_note"] = "Achetez une {item:186731} à l'{npc:178257} pour pouvoir entrer dans la brèche."
 L["korthian_shrine_note"] = "Cliquez sur l'autel pour obtenir {spell:352367} et voir le chemin caché vers l'autel."
 L["num_research"] = "%d Recherche"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Afficher les emplacements des 20 reliques pour {achievement:15066}."
+
+L["rift_portal_note"] = nil
+L["options_icons_rift_portal"] = nil
+L["options_icons_rift_portal_desc"] = nil
+
+L["riftbound_cache"] = "Cache failleliée" -- Confirmer le nom du coffre
+L["options_icons_riftbound_cache"] = nil
+L["options_icons_riftbound_cache_desc"] = nil
 
 L["invasive_mawshroom"] = "Champignantre envahissant"
 L["mawsworn_cache"] = "Cache antrelige"
@@ -480,9 +486,6 @@ Tuez les trois autres Hérauts du Deuil, de la Souffrance et du Chagrin pour rec
 Combinez les trois gravures pour créer {item:182329}, qui peut être utilisé pour invoquer le rare à l'Autel de la Domination. Utilisez le {npc:173892} pour atteindre le niveau supérieur.
 ]]
 
-L["soul_well_note"] = "Attrapez la Stygie qui jaillit du Puit d'âmes."
-L["obliterated_soul_shards_note"] = "Collectez des éclats d'âme oblitérés sur les ponts."
-
 L["animaflow_teleporter_note"] = "Activer pour se rendre directement à d'autres endroits dans l'Antre."
 L["chaotic_riftstone_note"] = "Activer pour {spell:344157} rapidement à travers l'Antre."
 L["venari_note"] = [[
@@ -561,10 +564,12 @@ L["nexus_misc_grapple_rock"] = "Près d'une prise de grappin sur un rocher"
 L["nexus_misc_ledge_below"] = "Sur le sol, sous une corniche"
 L["nexus_misc_three_chains"] = "Sur le sol près de trois chaînes"
 
+L["rift_hidden_cache"] = nil
+L["options_icons_rift_hidden_cache"] = nil
+L["options_icons_rift_hidden_cache_desc"] = nil
+
 L["options_icons_bonus_boss"] = "Élites bonus"
 L["options_icons_bonus_boss_desc"] = "Afficher les emplacements des élites bonus."
-L["options_icons_bonus_event"] = "Événements bonus"
-L["options_icons_bonus_event_desc"] = "Afficher les emplacements des événements bonus."
 L["options_icons_riftstone"] = "{npc:174962s}"
 L["options_icons_riftstone_desc"] = "Affichez les emplacements des téléporteurs de Failles Chaotiques"
 L["options_icons_grapples"] = "{npc:176308s}"

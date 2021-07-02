@@ -254,18 +254,24 @@ L["pop_quiz_note"] = "El evento del Cuestionario aparecerá aleatoriamente en el
 L["popo_note"] = "Habla con {npc:180028} para empezar el evento de escolta."
 L["razorwing_note"] = "Devuelve 6 {item:187054} soltados por los devoradores de la zona."
 L["reliwik_note"] = "Haz click en el huevo de alafilada prístino para hacerlo bajar."
-L["riftbound_cache"] = "Alijo vinculafalla"
 L["spectral_bound_chest"] = "Haz click en las 3 {item:179369} cercanas para debloquear el cofre."
 L["spectral_bound_note"] = "Cofre reforzado espectral"
 L["towering_exterminator_note"] = "Aparece del portal del evento jurafauce. El evento puede aparecer en varios sitios a lo largo de Korthia."
 L["wilderling_note"] = "Haz click en el {npc:180014} para empezar el evento de doma."
 
 L["archivist_key_note"] = "Compra la %s del {npc:178257} para desbloquear."
-L["korthia_rift_note"] = "Compra la {item:186731} del {npc:178257} para poder entrar en la falla."
 L["korthian_shrine_note"] = "Haz click en la roca con forma de espada para ganar {spell:352367} y poder ver el camino oculto al altar."
 L["num_research"] = "%d Investigación"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Muestra donde están las 20 reliquias para {achievement:15066}."
+
+L["rift_portal_note"] = nil
+L["options_icons_rift_portal"] = nil
+L["options_icons_rift_portal_desc"] = nil
+
+L["riftbound_cache"] = "Alijo vinculafalla"
+L["options_icons_riftbound_cache"] = nil
+L["options_icons_riftbound_cache_desc"] = nil
 
 L["invasive_mawshroom"] = "Champifauces Invasivos"
 L["mawsworn_cache"] = "Alijo jurafauces"
@@ -478,9 +484,6 @@ Mata a los tres Heraldos: {npc:169827}, {npc:170302} y {npc:170301}. Recoge de e
 Combina los tres grabados para crear la {item:182329}, la cual puede ser usada para invocar a {npc:170303} en el Altar de Dominación. Usa el {npc:173892} para llegar al nivel superior.
 ]]
 
-L["soul_well_note"] = "Atrapa la Estigia que sale del Pozo de Almas."
-L["obliterated_soul_shards_note"] = "Recoge {item:177834} en los puentes."
-
 L["animaflow_teleporter_note"] = "Actívalo para viajar directamente a otros lugares de Las Fauces."
 L["chaotic_riftstone_note"] = "Activa el {spell:344157} para cruzar rápidamente por Las Fauces."
 L["venari_note"] = [[
@@ -559,10 +562,12 @@ L["nexus_misc_grapple_rock"] = "Por un punto de agarre en una roca"
 L["nexus_misc_ledge_below"] = "En el suelo bajo una repisa"
 L["nexus_misc_three_chains"] = "En el suelo cerca de tres cadenas"
 
+L["rift_hidden_cache"] = nil
+L["options_icons_rift_hidden_cache"] = nil
+L["options_icons_rift_hidden_cache_desc"] = nil
+
 L["options_icons_bonus_boss"] = "Élites de Bonificación"
 L["options_icons_bonus_boss_desc"] = "Muestra dónde están los élites de bonificación."
-L["options_icons_bonus_event"] = "Eventos de Bonificación"
-L["options_icons_bonus_event_desc"] = "Muestra dónde están los eventos de bonificación."
 L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "Muestra dónde están los teletransportadores de piedras de falla caóticas."
 L["options_icons_grapples"] = "{npc:176308}"

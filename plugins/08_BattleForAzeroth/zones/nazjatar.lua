@@ -827,7 +827,7 @@ map.nodes[38004925] = Figurine({quest=56989, note=L["cat_figurine_10"]})
 map.nodes[60683221] = Node({
     quest=55121,
     group=ns.groups.MISC_NAZJ,
-    icon="portal_b",
+    icon="portal_bl",
     scale=1.5,
     label=L["mardivas_lab"],
     rewards={

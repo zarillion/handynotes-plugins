@@ -5,7 +5,7 @@
 local ADDON_NAME, ns = ...
 local Class = ns.Class
 local L = ns.locale
-local Map = ns.Map
+local Map = ns.RiftMap
 
 local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
@@ -34,11 +34,13 @@ local VENTHYR = ns.covenants.VEN
 
 local map = Map({ id=1961, settings=true })
 
-function map:IsNodeEnabled(node, coord, minimap)
+function map:CanDisplay(node, coord, minimap)
     local research = select(3,GetFactionInfoByID(2472))
     if node.research and research < node.research then return false end
-    return Map.IsNodeEnabled(self, node, coord, minimap)
+    return Map.CanDisplay(self, node, coord, minimap)
 end
+
+local gho = Map({ id=2007 }) -- Grommit Hollow
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -104,18 +106,6 @@ map.nodes[59934371] = Rare({
     }
 }) -- Corpse Heap
 
-map.nodes[59335221] = Rare({
-    id=179913,
-    quest=64285,
-    requires=ns.requirement.Item(186731),
-    note=L["korthia_rift_note"],
-    rewards={
-        Achievement({id=15107, criteria=52275}),
-        Toy({item=187174}) -- Shaded Judgement Stone
-    }
-}) -- Deadsoul Hatcher
-
-
 map.nodes[51822081] = Rare({
     id=177903,
     quest=63830,
@@ -178,17 +168,6 @@ map.nodes[46507959] = Rare({
     }
 }) -- No Stoneborn Left Behind
 
-map.nodes[50307590] = Rare({
-    id=179914,
-    quest=64369,
-    requires=ns.requirement.Item(186731),
-    note=L["korthia_rift_note"],
-    rewards={
-        Achievement({id=15107, criteria=52294}),
-        Toy({item=187420}) -- Maw-Ocular Viewfinder
-    }
-}) -- Observer Yorik
-
 map.nodes[56873237] = Rare({
     id=180032,
     quest=64338,
@@ -220,28 +199,7 @@ map.nodes[56276617] = Rare({
     }
 }) -- Reliwik the Defiant
 
-map.nodes[44604240] = Rare({
-    id=179608,
-    quest=64263,
-    requires=ns.requirement.Item(186731),
-    note=L["korthia_rift_note"],
-    rewards={
-        Achievement({id=15107, criteria=52273})
-    }
-}) -- Screaming Shade
-
-map.nodes[57607040] = Rare({
-    id=179911,
-    quest=64284,
-    requires=ns.requirement.Item(186731),
-    note=L["korthia_rift_note"],
-    rewards={
-        Achievement({id=15107, criteria=52274})
-    }
-}) -- Silent Soulstalker
-
-
-map.nodes[27755885] = Rare({
+gho.nodes[45296726] = Rare({
     id=177336,
     quest=64442,
     note=L["in_cave"],
@@ -251,7 +209,8 @@ map.nodes[27755885] = Rare({
     },
     pois={
         POI({30385480}) -- Entrance
-    }
+    },
+    parent=map.id
 }) -- Zelnithop
 
 -------------------------------------------------------------------------------
@@ -299,10 +258,50 @@ map.nodes[14507900] = Rare({
 }) -- Ve'rayn
 
 -------------------------------------------------------------------------------
+
+map.nodes[59335221] = Rare({
+    id=179913,
+    quest=64285,
+    rift=1,
+    rewards={
+        Achievement({id=15107, criteria=52275}),
+        Toy({item=187174}) -- Shaded Judgement Stone
+    }
+}) -- Deadsoul Hatcher
+
+map.nodes[50307590] = Rare({
+    id=179914,
+    quest=64369,
+    rift=1,
+    rewards={
+        Achievement({id=15107, criteria=52294}),
+        Toy({item=187420}) -- Maw-Ocular Viewfinder
+    }
+}) -- Observer Yorik
+
+map.nodes[44604240] = Rare({
+    id=179608,
+    quest=64263,
+    rift=1,
+    rewards={
+        Achievement({id=15107, criteria=52273})
+    }
+}) -- Screaming Shade
+
+map.nodes[57607040] = Rare({
+    id=179911,
+    quest=64284,
+    rift=1,
+    rewards={
+        Achievement({id=15107, criteria=52274})
+    }
+}) -- Silent Soulstalker
+
+-------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[29635334] = Treasure({
+map.nodes[29595342] = Treasure({
     quest=64244,
     rewards={
         Achievement({id=15099, criteria=52241}),
@@ -343,12 +342,15 @@ map.nodes[38344296] = Treasure({
     }
 }) -- Glittering Nest Materials
 
-map.nodes[42515596] = Treasure({
+map.nodes[40145892] = Treasure({
     quest=64264,
     note=L["in_cave"],
     rewards={
         Achievement({id=15099, criteria=52245}),
         Item({item=187354}) -- Abandoned Broker Satchel
+    },
+    pois={
+        POI({42515596}) -- cave entrance
     }
 }) -- Infected Vestige
 
@@ -372,32 +374,20 @@ map.nodes[45336714] = Treasure({
     }
 }) -- Offering Box
 
--- map.nodes[56351845] = Treasure({
---     quest=64472,
---     requires=ns.requirement.Item(186731),
---     label=L["riftbound_cache"],
---     rewards={
---         ns.relics.relic_fragment
---     }
--- }) -- Riftbound Cache
-
 map.nodes[62065550] = Treasure({
     quest=64247,
     note=L["spectral_bound_note"],
     label=L["spectral_bound_chest"],
     rewards={
         ns.relics.relic_fragment,
-        ns.reward.Currency({id=1767, note='40'}),
         Transmog({item=187240, slot=L["cosmetic"]}) -- Field Warden's Watchful Eye
     },
-    pois={POI({
-        50505370, 52305320, 52604970, 54205060, --quest 64249
-        59205670, 60305650, 61005870, 62105770, --quest 64250
-        57504930, 58224871, 59205670, 62735133, 61494733 --quest 64248
-        })}
+    pois={
+        POI({50505370, 52305320, 52604970, 54205060, quest=64249}), -- west
+        POI({59205670, 60305650, 61005870, 62105770, quest=64250}), -- south
+        POI({57504930, 58224871, 59284858, 61494733, 62735133, quest=64248}) -- north
+    }
 }) -- Spectral Bound Chest
-
-
 
 -------------------------------------------------------------------------------
 ----------------------------------- RELICS ------------------------------------
@@ -405,8 +395,8 @@ map.nodes[62065550] = Treasure({
 
 local Relic = Class('Relic', ns.node.Treasure, {
     group=ns.groups.RELIC,
-    icon='chest_nv',
-    scale=1.3,
+    icon='star_chest_b',
+    scale=1.6,
     IsCompleted=function(self)
         if C_QuestLog.IsOnQuest(self.quest[1]) then return true end
         return Treasure.IsCompleted(self)
@@ -415,39 +405,43 @@ local Relic = Class('Relic', ns.node.Treasure, {
 
 -------------------------------------------------------------------------------
 
-map.nodes[27305670] = Relic({
+gho.nodes[40914788] = Relic({
     quest=63899,
-    research=1,
+    questDeps=64506,
+    note=L["in_cave"],
     rewards={
         Achievement({id=15066, criteria=52131})
-    }
+    },
+    parent=map.id
 }) -- Book of Binding: The Mad Witch
 
-map.nodes[45105610] = Relic({
+map.nodes[45455607] = Relic({
     quest=63912,
-    research=1,
+    questDeps=64506,
     rewards={
         Achievement({id=15066, criteria=52258})
     }
 }) -- Celestial Shadowlands Chart
 
-map.nodes[62005680] = Relic({
+map.nodes[62035681] = Relic({
     quest=63911,
-    research=1,
+    questDeps=64506,
     rewards={
         Achievement({id=15066, criteria=52257})
     }
 }) -- Singing Steel Ingot
 
-map.nodes[40504140] = Relic({
+map.nodes[40534135] = Relic({
     quest=63860,
+    questDeps=64506,
     note=L["in_cave"],
-    research=1,
     rewards={
         Achievement({id=15066, criteria=52126})
+    },
+    pois={
+        POI({42314094}) -- cave entrance
     }
 }) -- Talisman of the Eternal Scholar
-
 
 -------------------------------------------------------------------------------
 
@@ -498,7 +492,6 @@ map.nodes[43847698] = Relic({
 map.nodes[39405241] = Relic({
     quest=63915,
     note=L["chamber_note"],
-    research=3,
     requires=ns.requirement.Item(186718),
     rewards={
         Achievement({id=15066, criteria=52269})
@@ -508,7 +501,6 @@ map.nodes[39405241] = Relic({
 map.nodes[45003550] = Relic({
     quest=63916,
     note=L["chamber_note"],
-    research=3,
     requires=ns.requirement.Item(186718),
     rewards={
         Achievement({id=15066, criteria=52261})
@@ -519,9 +511,7 @@ map.nodes[45003550] = Relic({
 
 map.nodes[60803490] = Relic({
     quest=63919,
-    note=L["korthia_rift_note"],
-    research=3,
-    requires=ns.requirement.Item(186731),
+    rift=1,
     rewards={
         Achievement({id=15066, criteria=52264})
     }
@@ -529,9 +519,7 @@ map.nodes[60803490] = Relic({
 
 map.nodes[29005420] = Relic({
     quest=63914,
-    note=L["korthia_rift_note"],
-    research=3,
-    requires=ns.requirement.Item(186731),
+    rift=1,
     rewards={
         Achievement({id=15066, criteria=52260})
     }
@@ -539,9 +527,7 @@ map.nodes[29005420] = Relic({
 
 map.nodes[52005260] = Relic({
     quest=63920,
-    note=L["korthia_rift_note"],
-    research=3,
-    requires=ns.requirement.Item(186731),
+    rift=1,
     rewards={
         Achievement({id=15066, criteria=52270})
     }
@@ -549,9 +535,7 @@ map.nodes[52005260] = Relic({
 
 map.nodes[51402010] = Relic({
     quest=63913,
-    note=L["korthia_rift_note"],
-    research=3,
-    requires=ns.requirement.Item(186731),
+    rift=1,
     rewards={
         Achievement({id=15066, criteria=52259})
     }
@@ -586,6 +570,57 @@ map.nodes[39404270] = Relic({
         Toy({item=187159}) -- Shadow Slicing Shortsword
     }
 }) -- Shadow Slicing Sword
+
+-------------------------------------------------------------------------------
+-------------------------------- RIFT PORTALS ---------------------------------
+-------------------------------------------------------------------------------
+
+local RiftPortal = Class('RiftPortal', NPC, {
+    id=179595,
+    scale=1.4,
+    group=ns.groups.RIFT_PORTAL,
+    icon='portal_gy',
+    note=L["rift_portal_note"],
+    requires=ns.requirement.Item(186731)
+})
+
+map.nodes[41104210] = RiftPortal({pois={POI({42304090})}})
+map.nodes[43484699] = RiftPortal()
+map.nodes[53707200] = RiftPortal()
+map.nodes[56807460] = RiftPortal()
+map.nodes[59405370] = RiftPortal()
+map.nodes[61804460] = RiftPortal()
+
+-------------------------------------------------------------------------------
+------------------------------ RIFTBOUND CACHES -------------------------------
+-------------------------------------------------------------------------------
+
+local RiftCache = Class('RiftCache', Treasure, {
+    label=L["riftbound_cache"],
+    group=ns.groups.RIFTBOUND_CACHE,
+    rift=1,
+    rewards={
+        ns.relics.relic_fragment
+    }
+})
+
+local RIFT_CACHE1 = RiftCache({quest=64470, icon='chest_rd', parent=map.id})
+local RIFT_CACHE2 = RiftCache({quest=64471, icon='chest_pp'}) -- (also 64705?)
+local RIFT_CACHE3 = RiftCache({quest=64472, icon='chest_yw'})
+local RIFT_CACHE4 = RiftCache({quest=nil, icon='chest_bl'})
+
+gho.nodes[29433986] = RIFT_CACHE1
+map.nodes[54105460] = RIFT_CACHE2
+map.nodes[54904240] = RIFT_CACHE2
+map.nodes[55506510] = RIFT_CACHE2
+map.nodes[60903520] = RIFT_CACHE2
+map.nodes[61775872] = RIFT_CACHE2
+map.nodes[46103190] = RIFT_CACHE3
+map.nodes[50703290] = RIFT_CACHE3
+map.nodes[56321850] = RIFT_CACHE3
+map.nodes[64303040] = RIFT_CACHE3
+map.nodes[33503950] = RIFT_CACHE4
+map.nodes[38003550] = RIFT_CACHE4
 
 -------------------------------------------------------------------------------
 ------------------------------ SHARED TREASURES -------------------------------
@@ -737,6 +772,7 @@ local MAWC1 = MawswornC({quest=64021, icon='chest_tl'})
 local MAWC2 = MawswornC({quest=64363, icon='chest_pk'})
 local MAWC3 = MawswornC({quest=64364, icon='chest_lm'})
 
+map.nodes[57563756] = MAWC1
 map.nodes[58803360] = MAWC1
 map.nodes[60103931] = MAWC1
 map.nodes[62903490] = MAWC1
@@ -788,7 +824,7 @@ end
 local maelie = Class('Maelie', Collectible, {
     id=179912,
     icon=3155422,
-    quest={64292,64298}, -- completed, daily
+    quest={64292, 64298}, -- completed, daily
     questAny=true,
     note=L["maelie_wanderer"],
     pois={POI({

@@ -252,18 +252,24 @@ L["pop_quiz_note"] = "突击测验事件将在地图上随机出现。点击废�
 L["popo_note"] = "和 {npc:180028} 交谈触发护送事件。"
 L["razorwing_note"] = "交付从吞噬者掉落的6个 {item:187054}。"
 L["reliwik_note"] = "点击未腐化的刃翼卵并击杀它。"
-L["riftbound_cache"] = "裂隙宝箱"
 L["spectral_bound_chest"] = "点击附近的3个幽魂钥匙解锁宝箱。"
 L["spectral_bound_note"] = "幽魂束缚宝箱"
 L["towering_exterminator_note"] = "在渊誓传送门事件出现。事件可能在刻希亚许多地方出现。"
 L["wilderling_note"] = "点击 {npc:180014} 开始驯服事件。"
 
 L["archivist_key_note"] = "从 {npc:178257} 购买 %s 解锁。"
-L["korthia_rift_note"] = "从 {npc:178257} 购买 {item:186731} 可以进入裂隙。"
 L["korthian_shrine_note"] = "点击神龛获得 {spell:352367} 可以看到隐藏的路径到达alter。"
 L["num_research"] = "%d 研究"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "显示成就中全部20个圣物的位置。"
+
+L["rift_portal_note"] = nil
+L["options_icons_rift_portal"] = nil
+L["options_icons_rift_portal_desc"] = nil
+
+L["riftbound_cache"] = "裂隙宝箱"
+L["options_icons_riftbound_cache"] = nil
+L["options_icons_riftbound_cache_desc"] = nil
 
 L["invasive_mawshroom"] = "入侵的渊菇"
 L["mawsworn_cache"] = "渊誓之箱"
@@ -476,9 +482,6 @@ L["exos_note"] = [[
 组合全部三个铭刻制造 {item:182329}，可以用来在统御祭坛召唤稀有。使用 {npc:173892} 到达上层。
 ]]
 
-L["soul_well_note"] = "接住从灵魂之井喷发而出的冥殇。"
-L["obliterated_soul_shards_note"] = "在桥上收集 {item:177834}。"
-
 L["animaflow_teleporter_note"] = "激活即可直接前往噬渊其他位置。"
 L["chaotic_riftstone_note"] = "激活 {spell:344157} 快速穿过噬渊。"
 L["venari_note"] = [[
@@ -557,10 +560,12 @@ L["nexus_misc_grapple_rock"] = "通过锚点到岩石上"
 L["nexus_misc_ledge_below"] = "在窗台下的地面上 "
 L["nexus_misc_three_chains"] = "在地上的三个铁链"
 
+L["rift_hidden_cache"] = nil
+L["options_icons_rift_hidden_cache"] = nil
+L["options_icons_rift_hidden_cache_desc"] = nil
+
 L["options_icons_bonus_boss"] = "奖励精英"
 L["options_icons_bonus_boss_desc"] = "显示奖励精英位置。"
-L["options_icons_bonus_event"] = "奖励事件"
-L["options_icons_bonus_event_desc"] = "显示奖励事件位置。"
 L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "显示混乱裂隙石传送者位置。"
 L["options_icons_grapples"] = "{npc:176308}"

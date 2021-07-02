@@ -252,18 +252,30 @@ L["pop_quiz_note"] = "The Pop Quiz event will spawn randomly on the map. Click o
 L["popo_note"] = "Talk to {npc:180028} to trigger the escort event."
 L["razorwing_note"] = "Hand in 6x {item:187054} dropped by devourers in the area."
 L["reliwik_note"] = "Click on the uncorrupted razorwing egg to pull him down."
-L["riftbound_cache"] = "Riftbound Cache"
-L["spectral_bound_chest"] = "Click on 3 nearby Spectral Keys to unlock the chest."
-L["spectral_bound_note"] = "Spectral Bound Chest"
+L["spectral_bound_chest"] = "Spectral Bound Chest"
+L["spectral_bound_note"] = "Click on 3 nearby Spectral Keys to unlock the chest."
 L["towering_exterminator_note"] = "Spawns from a mawsworn portal event. The event can appear in many places throughout Korthia."
 L["wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 
 L["archivist_key_note"] = "Purchase %s from {npc:178257} to unlock."
-L["korthia_rift_note"] = "Purchase {item:186731} from {npc:178257} to be able to enter the rift."
 L["korthian_shrine_note"] = "Click on the shrine to gain {spell:352367} to see the hidden path to the alter."
 L["num_research"] = "%d Research"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Display the locations of all 20 relics for {achievement:15066}."
+
+L["rift_portal_note"] = [[
+Enter |cFFFFFF00The Rift|r, an alternate phase of Korthia and the Maw with additional rares, relics and caches.
+
+Requires a {item:186731}, which can be purchased from {npc:178257} once you reach tier 4 with {faction:2472}. The keys also have a low chance to drop from rares and caches in the zone.
+
+|cFFFF8C00Not all rift portals are active at any given time.|r
+]]
+L["options_icons_rift_portal"] = "{npc:179595s}"
+L["options_icons_rift_portal_desc"] = "Display the locations of {npc:179595s} used to enter |cFFFFFF00The Rift|r."
+
+L["riftbound_cache"] = "Riftbound Cache"
+L["options_icons_riftbound_cache"] = "Riftbound Caches"
+L["options_icons_riftbound_cache_desc"] = "Display the locations of caches inside |cFFFFFF00The Rift|r."
 
 L["invasive_mawshroom"] = "Invasive Mawshroom"
 L["mawsworn_cache"] = "Mawsworn Cache"
@@ -456,7 +468,7 @@ L["deomen_note"] = "To open his cage, enter the chamber to the south and activat
 L["drifting_sorrow_note"] = "Kill {npc:175246s} near the hovering orb to activate the boss."
 L["ekphoras_note"] = "With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare."
 L["etherwyrm_label"] = "Infused Etherwyrm Cage"
-L["etherwyrm_note"] = "Requires the Night Fae assault to be active. Kill an {npc:179030} while in the rift to gain the {item:186190}. Use the key on the Etherwyrm Cage in the Desolate Hollow cavern (where {npc:175821} resides when the assault is not active)."
+L["etherwyrm_note"] = "Requires the Night Fae assault to be active. Kill an {npc:179030} while in the rift to gain the {item:186190}. Use the key on the Etherwyrm Cage (outside the rift) in the Desolate Hollow cavern (where {npc:175821} resides when the assault is not active)."
 L["fallen_charger_note"] = "After the zone-wide yell it will take either of the two paths until it reaches Korthia where it will despawn."
 L["ikras_note"] = "Flies around Perdition Hold. This is a good place to pull him."
 L["lilabom_note"] = "Collect All 5 parts to complete the pet."
@@ -475,9 +487,6 @@ Kill the other three Heralds of Grief, Pain and Loss to collect their etchings.
 
 Combine all three etchings to create the {item:182329}, which can be used to summon the rare at the Altar of Domination. Use the {npc:173892} to reach the upper level.
 ]]
-
-L["soul_well_note"] = "Catch the Stygia erupting from the Soul Well."
-L["obliterated_soul_shards_note"] = "Collect {item:177834s} on the bridges."
 
 L["animaflow_teleporter_note"] = "Activate to travel directly to other locations in the Maw."
 L["chaotic_riftstone_note"] = "Activate to {spell:344157} quickly across the Maw."
@@ -557,10 +566,12 @@ L["nexus_misc_grapple_rock"] = "By a grapple point on a rock"
 L["nexus_misc_ledge_below"] = "On the ground under a ledge"
 L["nexus_misc_three_chains"] = "On the ground by three chains"
 
+L["rift_hidden_cache"] = "Rift Hidden Cache"
+L["options_icons_rift_hidden_cache"] = "Rift Hidden Caches"
+L["options_icons_rift_hidden_cache_desc"] = "Display the locations of caches inside |cFFFFFF00The Rift|r."
+
 L["options_icons_bonus_boss"] = "Bonus Elites"
 L["options_icons_bonus_boss_desc"] = "Display locations of bonus elites."
-L["options_icons_bonus_event"] = "Bonus Events"
-L["options_icons_bonus_event_desc"] = "Display locations of bonus events."
 L["options_icons_riftstone"] = "{npc:174962s}"
 L["options_icons_riftstone_desc"] = "Display the locations of chaotic riftstone teleporters."
 L["options_icons_grapples"] = "{npc:176308s}"

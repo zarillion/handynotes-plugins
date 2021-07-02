@@ -253,18 +253,24 @@ L["pop_quiz_note"] = "Wird zufällig auf der Map erscheinen. Klicke den zurückg
 L["popo_note"] = "Sprich mit {npc:180028}, um das Escortevent zu starten."
 L["razorwing_note"] = "Gib ein {item:187054} an 6 verschiedenen Tagen ab, dass von den Verschlingern wie {npc:177245} geplündert werden kann."
 L["reliwik_note"] = "Klicke das Unverderbte Klingenschwingenei an."
-L["riftbound_cache"] = "Rissgebundene Truhe"
 L["spectral_bound_chest"] = "Spektralgebundene Truhe"
 L["spectral_bound_note"] = "Klicke die drei Spektralschlüssel in der Nähe an, um die Truhe freizuschalten."
 L["towering_exterminator_note"] = "Erscheint bei dem Event 'Schlundgebundenes Portal', dass an mehreren Positionen in Korthia erscheinen kann."
 L["wilderling_note"] = "Klicke den {npc:180014} an, um das Zähmungsevent zu starten."
 
 L["archivist_key_note"] = "Kaufe zum öffnen von {npc:178257} einen %s."
-L["korthia_rift_note"] = "Kaufe einen {item:186731} von {npc:178257}, um den Riss betreten zu können."
 L["korthian_shrine_note"] = "Klicke den Schrein an, um die {spell:352367} zu erhalten, damit du den versteckten Pfad zum Altar sehen kannst."
 L["num_research"] = "%d katalogisierte Forschung"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Zeigt die 20 Relikte für den Erfolg {achievement:15066} an."
+
+L["rift_portal_note"] = nil
+L["options_icons_rift_portal"] = nil
+L["options_icons_rift_portal_desc"] = nil
+
+L["riftbound_cache"] = "Rissgebundene Truhe"
+L["options_icons_riftbound_cache"] = nil
+L["options_icons_riftbound_cache_desc"] = nil
 
 L["invasive_mawshroom"] = "Invasiver Schlundpilz"
 L["mawsworn_cache"] = "Schlundgebundene Truhe"
@@ -479,9 +485,6 @@ Töte die anderen drei Herolde der Trauer, der Pein und des Verlusts um ihre dre
 Kombiniere alle drei Gravuren, um den {item:182329} herzustellen, welcher am Altar der Herrschaft verwendet werden kann, um den seltenen Gegner zu beschwören. Verwende das {npc:173892}, um in die obere Etage zu gelangen.
 ]]
 
-L["soul_well_note"] = "Fangt die aus dem Seelenbrunnen ausbrechende Stygia."
-L["obliterated_soul_shards_note"] = "Sammel Ausgelöschte Seelensplitter auf den Brücken."
-
 L["animaflow_teleporter_note"] = "Bei Aktivierung gelangst du direkt an andere Orte im Schlund."
 L["chaotic_riftstone_note"] = "Bei Aktivierung reist du mit einem {spell:344157} schnell durch den Schlund."
 L["venari_note"] = [[
@@ -560,10 +563,12 @@ L["nexus_misc_grapple_rock"] = "Bei einem Greifhakenziel auf dem Felsen."
 L["nexus_misc_ledge_below"] = "Auf dem Boden unter einer Kante."
 L["nexus_misc_three_chains"] = "Auf dem Boden bei drei Ketten."
 
+L["rift_hidden_cache"] = nil
+L["options_icons_rift_hidden_cache"] = nil
+L["options_icons_rift_hidden_cache_desc"] = nil
+
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"
 L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."
-L["options_icons_bonus_event"] = "Bonus Events"
-L["options_icons_bonus_event_desc"] = "Zeigt die Positionen von Bonus Events."
 L["options_icons_riftstone"] = "Chaotische Risssteine"
 L["options_icons_riftstone_desc"] = "Zeigt die Positionen von Chaotischen Risssteinen an."
 L["options_icons_grapples"] = "{npc:176308}"

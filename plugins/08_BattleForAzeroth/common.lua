@@ -154,7 +154,7 @@ function VisionsMap:Prepare()
     self.phased = self.assault ~= nil
 end
 
-function VisionsMap:IsNodeEnabled(node, coord, minimap)
+function VisionsMap:CanDisplay(node, coord, minimap)
     local assault = node.assault
     if assault then
         assault = type(assault) == 'number' and {assault} or assault
@@ -164,7 +164,7 @@ function VisionsMap:IsNodeEnabled(node, coord, minimap)
         end
     end
 
-    return Map.IsNodeEnabled(self, node, coord, minimap)
+    return Map.CanDisplay(self, node, coord, minimap)
 end
 
 ns.VisionsMap = VisionsMap
@@ -175,14 +175,14 @@ ns.VisionsMap = VisionsMap
 
 local WarfrontMap = Class('WarfrontMap', Map)
 
-function WarfrontMap:IsNodeEnabled(node, coord, minimap)
+function WarfrontMap:CanDisplay(node, coord, minimap)
     -- Disable nodes that are not available when the other faction controls
     if node.controllingFaction then
         local state = C_ContributionCollector.GetState(self.collector)
         local faction = (state == 1 or state == 2) and 'Alliance' or 'Horde'
         if faction ~= node.controllingFaction then return false end
     end
-    return Map.IsNodeEnabled(self, node, coord, minimap)
+    return Map.CanDisplay(self, node, coord, minimap)
 end
 
 ns.WarfrontMap = WarfrontMap

@@ -252,18 +252,24 @@ L["pop_quiz_note"] = "猜謎比賽會隨機刷新在地圖上. 點選被遺棄�
 L["popo_note"] = "和 {npc:180028} 交談來觸發護送事件."
 L["razorwing_note"] = "交出吞食者掉落的 {item:187054}, 需6次."
 L["reliwik_note"] = "點選未腐化的刃翼蛋來拉他下來."
-L["riftbound_cache"] = "隙縛寶箱"
 L["spectral_bound_chest"] = "點選3個附近的 {item:179369} 來解鎖箱子."
 L["spectral_bound_note"] = "靈縛寶箱"
 L["towering_exterminator_note"] = "從淵誓傳送門事件中刷新."
 L["wilderling_note"] = "點選 {npc:180014} 來開始馴服事件."
 
 L["archivist_key_note"] = "從 {npc:178257} 購買 %s 來解鎖."
-L["korthia_rift_note"] = "從 {npc:178257} 購買 {item:186731} 來進入裂痕."
 L["korthian_shrine_note"] = "點選祭壇以取得 {spell:352367} 來看到通往 alter 的隱藏路徑."
 L["num_research"] = "%d 編目研究"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "顯示成就的所有20個文物位置."
+
+L["rift_portal_note"] = nil
+L["options_icons_rift_portal"] = nil
+L["options_icons_rift_portal_desc"] = nil
+
+L["riftbound_cache"] = "隙縛寶箱"
+L["options_icons_riftbound_cache"] = nil
+L["options_icons_riftbound_cache_desc"] = nil
 
 L["invasive_mawshroom"] = "入侵的淵喉菇"
 L["mawsworn_cache"] = "淵誓儲物箱"
@@ -476,9 +482,6 @@ L["exos_note"] = [[
 組合全部三個刻印製造 {item:182329}，可以用來在統禦祭壇召喚稀有。使用 {npc:173892} 到達上層。
 ]]
 
-L["soul_well_note"] = "接住從靈魂之井爆發出來的冥魄。"
-L["obliterated_soul_shards_note"] = "在橋上收集 {item:177834}。"
-
 L["animaflow_teleporter_note"] = "啟動即可直接旅行到淵喉的其他位置"
 L["chaotic_riftstone_note"] ="啟動 {spell:344157} 來快速穿越淵喉。"
 L["venari_note"] = [[
@@ -558,10 +561,12 @@ L["nexus_misc_grapple_rock"] = nil
 L["nexus_misc_ledge_below"] = nil
 L["nexus_misc_three_chains"] = nil
 
+L["rift_hidden_cache"] = nil
+L["options_icons_rift_hidden_cache"] = nil
+L["options_icons_rift_hidden_cache_desc"] = nil
+
 L["options_icons_bonus_boss"] = "獎勵精英"
 L["options_icons_bonus_boss_desc"] = "顯示獎勵精英位置。"
-L["options_icons_bonus_event"] = "獎勵事件"
-L["options_icons_bonus_event_desc"] = "顯示獎勵事件位置。"
 L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "顯示混亂裂隙石傳送者位置。"
 L["options_icons_grapples"] = "{npc:176308}"

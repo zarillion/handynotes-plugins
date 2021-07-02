@@ -34,11 +34,11 @@ function map:Prepare ()
     self.future = AuraUtil.FindAuraByName(GetSpellInfo(296644), 'player')
 end
 
-function map:IsNodeEnabled(node, coord, minimap)
+function map:CanDisplay(node, coord, minimap)
     -- check node's future availability (nil=no, 1=yes, 2=both)
     if self.future and not node.future then return false end
     if not self.future and node.future == 1 then return false end
-    return Map.IsNodeEnabled(self, node, coord, minimap)
+    return Map.CanDisplay(self, node, coord, minimap)
 end
 
 -------------------------------------------------------------------------------

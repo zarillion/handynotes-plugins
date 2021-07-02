@@ -220,7 +220,7 @@ _G[ADDON_NAME..'ScanQuestObjectives'] = function (start, end_)
     local function attemptObjectiveInfo (quest, index)
         local text, objectiveType, finished, fulfilled = GetQuestObjectiveInfo(quest, index, true)
         if text or objectiveType or finished or fulfilled then
-            print(quest, text, objectiveType, finished, fulfilled)
+            print(quest, index, text, objectiveType, finished, fulfilled)
         end
     end
 

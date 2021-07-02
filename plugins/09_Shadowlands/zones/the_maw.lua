@@ -5,7 +5,7 @@
 local ADDON_NAME, ns = ...
 local Class = ns.Class
 local L = ns.locale
-local Map = ns.Map
+local Map = ns.RiftMap
 
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
@@ -36,6 +36,16 @@ function map:Prepare ()
     self.phased = C_QuestLog.IsQuestFlaggedCompleted(62907)
 end
 
+function map:CanDisplay(node, coord, minimap)
+    local ass = node.assault or node.noassault
+    if ass then
+        local ass_active = C_TaskQuest.GetQuestTimeLeftMinutes(ass) or C_QuestLog.IsQuestFlaggedCompleted(ass)
+        if node.assault and not ass_active then return false end
+        if node.noassault and ass_active then return false end
+    end
+    return Map.CanDisplay(self, node, coord, minimap)
+end
+
 local pitu = Map({id=1820}) -- Pit of Anguish (upper)
 local pitl = Map({id=1821}) -- Pit of Anguish (lower)
 
@@ -64,11 +74,10 @@ map.nodes[80306280] = map.intro
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- TODO: Add Fallen Adventurer's Cache rewards?
-
 map.nodes[25923116] = Rare({
     id=157964,
     quest=57482,
+    noassault=63823,
     note=L["dekaris_note"],
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
@@ -79,6 +88,7 @@ map.nodes[25923116] = Rare({
 map.nodes[19324172] = Rare({
     id=170301,
     quest=60788,
+    noassault=63823,
     note=L["apholeias_note"],
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
@@ -87,17 +97,6 @@ map.nodes[19324172] = Rare({
         Item({item=182327}) -- Dominion Etching: Loss
     }
 }) -- Apholeias, Herald of Loss
-
-map.nodes[34564206] = Rare({
-    id=179853,
-    quest=64276,
-    requires=ns.requirement.Item(186731),
-    note=L["korthia_rift_note"],
-    rewards={
-        Achievement({id=15107, criteria=52297}),
-        Item({item=187406, note=L["ring"]}) -- Band of Blinding Shadows
-    }
-}) -- Blinding Shadow
 
 map.nodes[39014119] = Rare({
     id=157833,
@@ -183,6 +182,7 @@ map.nodes[42342108] = Rare({
 map.nodes[19194608] = Rare({ -- was 27584966
     id=154330,
     quest=57509,
+    noassault=63823,
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49850}),
@@ -234,28 +234,6 @@ map.nodes[17714953] = Rare({
     }
 }) -- Fallen Charger
 
-map.nodes[49307274] = Rare({
-    id=179851,
-    quest=64272,
-    requires=ns.requirement.Item(186731),
-    note=L["korthia_rift_note"],
-    rewards={
-        Achievement({id=15107, criteria=52293})
-    },
-    pois={
-        Path({
-            49307274, 49497182, 49587131, 49667100, 49777062, 49907029,
-            50206988, 50506945, 50686900, 50856866, 51076832, 51336810,
-            51536800, 51756789, 51986776, 52366778, 52616791, 52936806,
-            53176811, 53396846, 53626889, 53886923, 54266978, 54297040,
-            54287097, 54077141, 53757172, 53447210, 53277241, 53047280,
-            52747323, 52477358, 52207388, 51817431, 51527461, 51287494,
-            51047546, 50777520, 50547510, 50277500, 50027471, 49867442,
-            49717414, 49497367, 49307274
-        })
-    }
-}) -- Guard Orguluus
-
 map.nodes[30775000] = Rare({
     id=175012,
     quest=62788,
@@ -269,6 +247,7 @@ map.nodes[30775000] = Rare({
 map.nodes[16945102] = Rare({
     id=162849,
     quest=60987,
+    noassault=63823,
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49852}),
@@ -351,19 +330,6 @@ map.nodes[27397152] = Rare({
     }
 }) -- Thanassos <Death's Voice>
 
-map.nodes[27672526] = Rare({
-    id=179735,
-    quest=64232,
-    requires=ns.requirement.Item(186731),
-    note=L["korthia_rift_note"],
-    fgroup='nilganihmaht_group',
-    rewards={
-        Achievement({id=15107, criteria=52284}),
-        Item({item=186605}), -- Nilganihmaht's Runed Band
-        Toy({item=187139}) -- Bottled Shade Heart
-    }
-}) -- Torglluun
-
 map.nodes[69044897] = Rare({
     id=179805,
     quest=64258, -- 64439?
@@ -402,6 +368,50 @@ map.nodes[66404400] = Rare({
     }
 }) -- Ylva, Mate of Guarm
 
+-------------------------------------------------------------------------------
+
+map.nodes[34564206] = Rare({
+    id=179853,
+    quest=64276,
+    rift=1,
+    rewards={
+        Achievement({id=15107, criteria=52297}),
+        Item({item=187406, note=L["ring"]}) -- Band of Blinding Shadows
+    }
+}) -- Blinding Shadow
+
+map.nodes[49307274] = Rare({
+    id=179851,
+    quest=64272,
+    rewards={
+        Achievement({id=15107, criteria=52293})
+    },
+    rift=1,
+    pois={
+        Path({
+            49307274, 49497182, 49587131, 49667100, 49777062, 49907029,
+            50206988, 50506945, 50686900, 50856866, 51076832, 51336810,
+            51536800, 51756789, 51986776, 52366778, 52616791, 52936806,
+            53176811, 53396846, 53626889, 53886923, 54266978, 54297040,
+            54287097, 54077141, 53757172, 53447210, 53277241, 53047280,
+            52747323, 52477358, 52207388, 51817431, 51527461, 51287494,
+            51047546, 50777520, 50547510, 50277500, 50027471, 49867442,
+            49717414, 49497367, 49307274
+        })
+    }
+}) -- Guard Orguluus
+
+map.nodes[27672526] = Rare({
+    id=179735,
+    quest=64232,
+    fgroup='nilganihmaht_group',
+    rift=1,
+    rewards={
+        Achievement({id=15107, criteria=52284}),
+        Item({item=186605}), -- Nilganihmaht's Runed Band
+        Toy({item=187139}) -- Bottled Shade Heart
+    }
+}) -- Torglluun
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -549,6 +559,7 @@ map.nodes[60456478] = BonusBoss({
 map.nodes[20782968] = BonusBoss({
     id=162965,
     quest=58918,
+    noassault=63823,
     rewards={
         Achievement({id=14660, criteria=49481})
     }
@@ -591,6 +602,7 @@ map.nodes[25364875] = BonusBoss({
 map.nodes[22674223] = BonusBoss({
     id=175821,
     quest=63044, -- 63388 ??
+    noassault=63823,
     note=L["in_cave"],
     rewards={
         Achievement({id=14660, criteria=51058})
@@ -657,24 +669,6 @@ map.nodes[40705959] = BonusBoss({
 }) -- Valis the Cruel
 
 -------------------------------------------------------------------------------
----------------------------- BONUS OBJECTIVE EVENTS ---------------------------
--------------------------------------------------------------------------------
-
-local BonusEvent = Class('BonusEvent', ns.node.Quest, {
-    icon = 'peg_yw',
-    scale = 1.8,
-    group = ns.groups.BONUS_EVENT,
-    note = ''
-})
-
-local SOUL_WELL = BonusEvent({ quest=59007, note=L["soul_well_note"] })
-
-map.nodes[21573436] = SOUL_WELL
-map.nodes[30394255] = SOUL_WELL
-map.nodes[32401771] = SOUL_WELL
--- map.nodes[27446463] = BonusEvent({ quest=59784, note=L["obliterated_soul_shards_note"] })
-
--------------------------------------------------------------------------------
 ------------------------------ CHAOTIC RIFTSTONES -----------------------------
 -------------------------------------------------------------------------------
 
@@ -689,33 +683,33 @@ local Riftstone = Class('Riftstone', ns.node.NPC, {
 -------------------------------------------------------------------------------
 
 map.nodes[19184778] = Riftstone({
-    icon='portal_r',
+    icon='portal_rd',
     fgroup='riftstone1',
     pois={Line({19184778, 25211784})}
 })
 
 map.nodes[25211784] = Riftstone({
-    icon='portal_r',
+    icon='portal_rd',
     fgroup='riftstone1'
 })
 
 -------------------------------------------------------------------------------
 
 map.nodes[23433121] = Riftstone({
-    icon='portal_b',
+    icon='portal_bl',
     fgroup='riftstone2',
     pois={Line({23433121, 34804362})}
 })
 
 map.nodes[34804362] = Riftstone({
-    icon='portal_b',
+    icon='portal_bl',
     fgroup='riftstone2'
 })
 
 -------------------------------------------------------------------------------
 
 map.nodes[19776617] = Riftstone({
-    icon='portal_p',
+    icon='portal_pp',
     pois={Arrow({19776617, 34794350})}
 })
 
@@ -723,7 +717,7 @@ map.nodes[19776617] = Riftstone({
 
 map.nodes[48284145] = NPC({
     group=ns.groups.RIFTSTONE,
-    icon='portal_b',
+    icon='portal_bl',
     id=172925,
     minimap=false,
     note=L["animaflow_teleporter_note"],
@@ -871,7 +865,8 @@ local Nexus = Class('StygiaNexus', NPC, {
     icon='peg_gn',
     id=177632,
     requires=ns.requirement.Item(184870),
-    scale=1.25
+    scale=1.25,
+    rift=2 -- can see in both phases
 })
 
 map.nodes[16015170] = Nexus({note=L["nexus_npc_portal"]})
@@ -963,7 +958,41 @@ pitl.nodes[45526802] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id}
 pitl.nodes[67185536] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id})
 
 -------------------------------------------------------------------------------
----------------------------------- NILGANIHMAHT -------------------------------
+----------------------------- RIFT HIDDEN CACHES ------------------------------
+-------------------------------------------------------------------------------
+
+local RiftCache = Class('RiftCache', Treasure, {
+    label=L["rift_hidden_cache"],
+    group=ns.groups.RIFT_HIDDEN_CACHE,
+    rift=1,
+    rewards={
+        Transmog({item=187251, slot=L["cosmetic"]}) -- Shaded Skull Shoulderguards
+    }
+})
+
+local RIFT_CACHE1 = RiftCache({quest=63995, icon='chest_rd'})
+local RIFT_CACHE2 = RiftCache({quest=63997, icon='chest_bl'})
+local RIFT_CACHE3 = RiftCache({quest=63998, icon='chest_yw'})
+local RIFT_CACHE4 = RiftCache({quest=63996, icon='chest_pp'})
+local RIFT_CACHE5 = RiftCache({quest=63999, icon='chest_gn'})
+local RIFT_CACHE6 = RiftCache({quest=63993, icon='chest_pk'})
+
+map.nodes[25304918] = RIFT_CACHE1
+map.nodes[24583690] = RIFT_CACHE2
+map.nodes[26403760] = RIFT_CACHE2
+map.nodes[18903970] = RIFT_CACHE3
+map.nodes[19143337] = RIFT_CACHE3
+map.nodes[19044400] = RIFT_CACHE3
+map.nodes[23203580] = RIFT_CACHE3
+map.nodes[20712981] = RIFT_CACHE4
+map.nodes[25092704] = RIFT_CACHE4
+map.nodes[29744282] = RIFT_CACHE5
+map.nodes[19104620] = RIFT_CACHE6
+map.nodes[20604740] = RIFT_CACHE6
+map.nodes[22624623] = RIFT_CACHE6
+
+-------------------------------------------------------------------------------
+-------------------------------- NILGANIHMAHT ---------------------------------
 -------------------------------------------------------------------------------
 
 local Nilganihmaht = Class('Nilganihmaht', ns.node.Rare, {
@@ -1073,17 +1102,13 @@ local MawswornC = Class('MawswornC', Treasure, {
     label=L["mawsworn_cache"],
     fgroup='nilganihmaht_group',
     group=ns.groups.NILGANIHMAHT_MOUNT,
+    assault=63543,
     rewards={
         Achievement({id=15039, criteria={id=1, qty=true}}),
         ns.reward.Currency({id=1767, note='20'}),
         Item({item=186573, quest=63594}), --Defense Plans
     }
 })
-
-function MawswornC:PrerequisiteCompleted()
-    -- Timed events that are not active today return nil here
-    return C_TaskQuest.GetQuestTimeLeftMinutes(63543)
-end
 
 map.nodes[30295581] = MawswornC({quest=63815})
 map.nodes[27806170] = MawswornC({quest=63815})
@@ -1097,23 +1122,17 @@ local Etherwyrm = Class('Etherwyrm', Treasure, {
     requires=ns.requirement.Item(186190),
     label=L["etherwyrm_label"],
     note=L["etherwyrm_note"],
+    assault=63823,
+    rift=2,
     rewards={
         Pet({item=186191, id=3099}) -- Infused Etherwyrm
     },
     pois={
-        POI({19903240}) -- Elusive Keybinder
+        POI({19214376, 19903240, 23604040}) -- Elusive Keybinder
     }
 }) -- Infused Etherwyrm
 
-function Etherwyrm:PrerequisiteCompleted()
-    -- Timed events that are not active today return nil here
-    return C_TaskQuest.GetQuestTimeLeftMinutes(63823)
-end
-
 map.nodes[23184238] = Etherwyrm()
-
--- Rift Hidden Cache 19143337
--- Rift Hidden Cache 20712981 item=187251 Shaded Skull Shoulderguards cosmetic
 
 -------------------------------------------------------------------------------
 ----------------------------------- VE'NARI -----------------------------------
