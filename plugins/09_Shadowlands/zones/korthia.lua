@@ -205,7 +205,7 @@ gho.nodes[45296726] = Rare({
     note=L["in_cave"],
     rewards={
         Achievement({id=15107, criteria=52301}),
-        Pet({item=186542, id=3136}) --Korthian Specimen
+        Pet({item=186542, id=3136}) -- Korthian Specimen
     },
     parent={ id=map.id, pois={
         POI({30385480}) -- Entrance
