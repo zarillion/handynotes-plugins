@@ -270,7 +270,7 @@ L["rift_portal_note"] = [[
 
 |cFFFF8C00并非所有裂隙传送门在任何时间都处于激活状态。|r
 ]]
-L["options_icons_rift_portal"] = "{npc:179595s}"
+L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "显示 {npc:179595} 的位置可以进入 |cFFFFFF00裂隙|r。"
 
 L["riftbound_cache"] = "隙缚宝箱"
