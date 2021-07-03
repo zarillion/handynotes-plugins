@@ -59,34 +59,6 @@ map.nodes[58211773] = Rare({
     }
 }) -- Carriage Crusher
 
-map.nodes[39405240] = Rare({
-    id=179802,
-    quest=64257,
-    requires=ns.requirement.Item(186718),
-    note=L["chamber_note"],
-    rewards={
-        Achievement({id=15107, criteria=52295}),
-        Achievement({id=15066, criteria=52262}),
-        Item({item=187103, quest=63917}), -- Everliving Statuette
-        Transmog({item=187391, slot=L["plate"]}), -- Yarxhov's Rib-Cage
-        Transmog({item=187366, slot=L["polearm"]}) -- Fallen Vault Guardian's Spire
-    }
-}) -- Yarxhov the Pillager (Chamber of Knowledge)
-
-map.nodes[44983552] = Rare({
-    id=179859,
-    quest=64278,
-    requires=ns.requirement.Item(186718),
-    note=L["chamber_note"],
-    rewards={
-        Achievement({id=15107, criteria=52296}),
-        Achievement({id=15066, criteria=52263}),
-        Item({item=187104, quest=63918}), -- Obelisk of Dark Tidings
-        Transmog({item=187387, slot=L["mail"]}), -- Pauldrons of the Unknown Beyond
-        Transmog({item=187368, slot=L["staff"]}) -- Xyraxz's Controlling Rod
-    }
-}) -- Xyraxz the Unknowable (Chamber of Wisdom)
-
 map.nodes[51164167] = Rare({
     id=179768,
     quest=64243,
@@ -99,18 +71,6 @@ map.nodes[51164167] = Rare({
         Transmog({item=187247, slot=L["cosmetic"]}) -- Death-Enveloped Shoulder Spikes
     }
 }) -- Consumption
-
-map.nodes[59934371] = Rare({
-    id=180042,
-    quest=64349,
-    covenant=NECROLORD,
-    note=L["fleshwing_note"],
-    rewards={
-        Achievement({id=15107, criteria=52299}),
-        Transmog({item=187372, slot=L["cloth"]}), -- Miasma Filtering Headpiece
-        Mount({item=186489, id=1449, covenant=NECROLORD}) -- Lord of the Corpseflies
-    }
-}) -- Fleshwing <Lord of the Heap>
 
 map.nodes[51822081] = Rare({
     id=177903,
@@ -132,19 +92,17 @@ map.nodes[33183938] = Rare({
     }
 }) -- Escaped Wilderling
 
-map.nodes[44222950] = Rare({
-    id=179684,
-    quest=64233,
-    note=L["malbog_note"],
+map.nodes[59934371] = Rare({
+    id=180042,
+    quest=64349,
+    covenant=NECROLORD,
+    note=L["fleshwing_note"],
     rewards={
-        Achievement({id=15107, criteria=52283}),
-        Transmog({item=187377, slot=L["leather"]}), -- Malbog's Paws
-        Mount({item=186645, id=1506}) -- Crimson Shardhide
-    },
-    pois={
-        POI({60652315}) -- Caretaker Kah-Kay
+        Achievement({id=15107, criteria=52299}),
+        Transmog({item=187372, slot=L["cloth"]}), -- Miasma Filtering Headpiece
+        Mount({item=186489, id=1449, covenant=NECROLORD}) -- Lord of the Corpseflies
     }
-}) -- Malbog
+}) -- Fleshwing <Lord of the Heap>
 
 map.nodes[59203580] = Rare({
     id=179108,
@@ -164,29 +122,19 @@ map.nodes[59203580] = Rare({
     }
 }) -- Kroke the Tormented
 
-map.nodes[46507959] = Rare({
-    id=179985,
-    quest=64313,
-    covenant=VENTHYR,
-    note=L["stonecrusher_note"],
+map.nodes[44222950] = Rare({
+    id=179684,
+    quest=64233,
+    note=L["malbog_note"],
     rewards={
-        Achievement({id=15107, criteria=52276}),
-        Transmog({item=184790, slot=L["leather"]}) -- Archdruid Van-Yali's Greenthumbs
-        -- Mount({item=186479, id=, covenant=VENTHYR}) -- Mastercraft Gravewing
+        Achievement({id=15107, criteria=52283}),
+        Transmog({item=187377, slot=L["leather"]}), -- Malbog's Paws
+        Mount({item=186645, id=1506}) -- Crimson Shardhide
+    },
+    pois={
+        POI({60652315}) -- Caretaker Kah-Kay
     }
-}) -- Stygian Stonecrusher
-
-map.nodes[56873237] = Rare({
-    id=180032,
-    quest=64338,
-    covenant=KYRIAN,
-    note=L["worldcracker_note"],
-    rewards={
-        Achievement({id=15107, criteria=52300}),
-        Toy({item=187176}), -- Vesper of Harmony
-        Mount({item=186483, id=1493, covenant=KYRIAN}) -- Foresworn Aquilon
-    }
-}) -- Wild Worldcracker
+}) -- Malbog
 
 map.nodes[22604140] = Rare({
     id=179931,
@@ -212,6 +160,58 @@ map.nodes[56276617] = Rare({
         Mount({item=186652, id=1509}) -- Garnet Razorwing
     }
 }) -- Reliwik the Defiant
+
+map.nodes[46507959] = Rare({
+    id=179985,
+    quest=64313,
+    covenant=VENTHYR,
+    note=L["stonecrusher_note"],
+    rewards={
+        Achievement({id=15107, criteria=52276}),
+        Transmog({item=184790, slot=L["leather"]}) -- Archdruid Van-Yali's Greenthumbs
+        -- Mount({item=186479, id=, covenant=VENTHYR}) -- Mastercraft Gravewing
+    }
+}) -- Stygian Stonecrusher
+
+map.nodes[56873237] = Rare({
+    id=180032,
+    quest=64338,
+    covenant=KYRIAN,
+    note=L["worldcracker_note"],
+    rewards={
+        Achievement({id=15107, criteria=52300}),
+        Toy({item=187176}), -- Vesper of Harmony
+        Mount({item=186483, id=1493, covenant=KYRIAN}) -- Foresworn Aquilon
+    }
+}) -- Wild Worldcracker
+
+map.nodes[44983552] = Rare({
+    id=179859,
+    quest=64278,
+    requires=ns.requirement.Item(186718),
+    note=L["chamber_note"],
+    rewards={
+        Achievement({id=15107, criteria=52296}),
+        Achievement({id=15066, criteria=52263}),
+        Item({item=187104, quest=63918}), -- Obelisk of Dark Tidings
+        Transmog({item=187387, slot=L["mail"]}), -- Pauldrons of the Unknown Beyond
+        Transmog({item=187368, slot=L["staff"]}) -- Xyraxz's Controlling Rod
+    }
+}) -- Xyraxz the Unknowable (Chamber of Wisdom)
+
+map.nodes[39405240] = Rare({
+    id=179802,
+    quest=64257,
+    requires=ns.requirement.Item(186718),
+    note=L["chamber_note"],
+    rewards={
+        Achievement({id=15107, criteria=52295}),
+        Achievement({id=15066, criteria=52262}),
+        Item({item=187103, quest=63917}), -- Everliving Statuette
+        Transmog({item=187391, slot=L["plate"]}), -- Yarxhov's Rib-Cage
+        Transmog({item=187366, slot=L["polearm"]}) -- Fallen Vault Guardian's Spire
+    }
+}) -- Yarxhov the Pillager (Chamber of Knowledge)
 
 map.nodes[27755885] = Rare({
     id=177336,

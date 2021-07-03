@@ -248,26 +248,26 @@ Ce monstre rare laissera tomber des objets de recherche supplémentaires après 
 
 |cFFFF0000LE MONSTRE RARE NE FERA PAS APPARAÎTRE DES {npc:179758} POUR LES CONSOMMER SI ENGAGÉ EN COMBAT.|r
 ]]
-L["fleshwing_note"] = "Parlez à {npc:180079} pour commencer l'événement de collecte."
-L["krelva_note"] = nil
-L["kroke_note"] = nil
 L["darkmaul_note"] = "Collectez des {item:187153} sur les champignantre envahissants et nourrissez {npc:180063} avec. Vous devez terminer l'événement 10 fois pour obtenir la monture."
 L["dislodged_nest_note"] = "Cliquez sur un papillon nocif proche pour obtenir {spell:355181}. Utilisez le bouton d'action supplémentaire {spell:355131} sur un {npc:178547} pour en prendre le contrôle et le conduire dans l'arbre où se trouve le nid."
+L["escaped_wilderling_note"] = "Cliquez sur le {npc:180014} pour lancer l'événement de domptage."
 L["flayedwing_transporter_note"] = "Cliquez sur {npc:178633} pour voler vers ou depuis le Caveau des Secrets."
+L["fleshwing_note"] = "Parlez à {npc:180079} pour commencer l'événement de collecte."
 L["forgotten_feather_note"] = "Flottant sur une petite île à laquelle on accède en sautant depuis le Répit du gardien."
-L["malbog_note"] = "Parlez au {npc:179729} pour obtenir {spell:355078} et suivez les traces de pas jusqu'à ce que vous trouviez les restes de chair."
 L["konthrogz_note"] = "Apparaît lors d'un événement lié à un portail de dévoreur. L'événement peut apparaître dans de nombreux endroits de Korthia."
+L["krelva_note"] = nil
+L["kroke_note"] = nil
 L["maelie_wanderer"] = "{npc:179912} apparaîtra à un endroit défini pour la journée. Une fois que vous avez utilisé {spell:355862} sur elle 6 jours différents, revenez voir {npc:179930} pour obtenir la monture."
-L["stonecrusher_note"] = "Parlez à {npc:179974} pour commencer l'événement."
+L["malbog_note"] = "Parlez au {npc:179729} pour obtenir {spell:355078} et suivez les traces de pas jusqu'à ce que vous trouviez les restes de chair."
 L["offering_box_note"] = "Requiert une Petite clé des offrandes qui peut être trouvée sur le haut du mur ouest des ruines voisines."
 L["pop_quiz_note"] = "L'événement Pop Quizz apparaîtra aléatoirement sur la carte. Cliquez sur le Mât voilé abandonné et répondez aux questions de {npc:180162}."
-L["worldcracker_note"] = "Parlez à {npc:180028} pour déclencher l'événement d'escorte."
 L["razorwing_note"] = "Apportez 10 {item:187054} obtenus sur les dévoreurs dans la zone."
 L["reliwik_note"] = "Cliquez sur l'oeuf de rasaile non corrompu pour le faire descendre."
 L["spectral_bound_chest"] = "Cliquez sur 3 clés spectrales proches pour déverrouiller le coffre."
 L["spectral_bound_note"] = "Coffre cerclé spectral"
+L["stonecrusher_note"] = "Parlez à {npc:179974} pour commencer l'événement."
 L["towering_exterminator_note"] = "Apparaît à partir d'un événement de portail antrelige. L'événement peut apparaître dans de nombreux endroits de Korthia."
-L["escaped_wilderling_note"] = "Cliquez sur le {npc:180014} pour lancer l'événement de domptage."
+L["worldcracker_note"] = "Parlez à {npc:180028} pour déclencher l'événement d'escorte."
 
 L["archivist_key_note"] = "Achetez %s de {npc:178257} pour le déverrouiller."
 L["korthian_shrine_note"] = "Cliquez sur l'autel pour obtenir {spell:352367} et voir le chemin caché vers l'autel."

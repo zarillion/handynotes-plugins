@@ -246,26 +246,26 @@ L["consumption_note"] = [[
 
 |cFFFF0000*{npc:179758} 在此稀有战斗中将不会刷新并被吞噬。*|r
 ]]
-L["fleshwing_note"] = "和 {npc:180079} 交谈开始收集事件。"
-L["krelva_note"] = nil
-L["kroke_note"] = nil
 L["darkmaul_note"] = "从入侵的渊菇收集 {item:187153} 并喂食给 {npc:180063}。你必须完成事件10次获得坐骑。"
 L["dislodged_nest_note"] = "点击附近的剧毒之蛾获得 {spell:355181}。使用 {spell:355131} 额外动作按钮给 {npc:178547} 来获得控制和骑上它进入巢所在的树中。"
+L["escaped_wilderling_note"] = "点击 {npc:180014} 开始驯服事件。"
 L["flayedwing_transporter_note"] = "点击 {npc:178633} 飞向和飞离绝密宝库。"
+L["fleshwing_note"] = "和 {npc:180079} 交谈开始收集事件。"
 L["forgotten_feather_note"] = "从守护者的休憩跳下来到漂浮的一个小岛上。"
-L["malbog_note"] = "和 {npc:179729} 交谈获得 {spell:355078} 并跟随脚印直到你找到血肉遗骸。"
 L["konthrogz_note"] = "在吞噬者的传送门事件中出现。事件可能在刻希亚许多地方出现。"
+L["krelva_note"] = nil
+L["kroke_note"] = nil
 L["maelie_wanderer"] = "{npc:179912} 将在当天固定位置出现。使用 {spell:355862} 他，需要6天交互，然后回到 {npc:179930} 获得坐骑。"
-L["stonecrusher_note"] = "和 {npc:179974} 交谈开始事件。"
+L["malbog_note"] = "和 {npc:179729} 交谈获得 {spell:355078} 并跟随脚印直到你找到血肉遗骸。"
 L["offering_box_note"] = "需要 {item:187033}，可以在附近废墟的西侧墙顶部找到。"
 L["pop_quiz_note"] = "突击测验事件将在地图上随机出现。点击废弃的帷幕之杖并回答 {npc:180162} 的问题。"
-L["worldcracker_note"] = "和 {npc:180028} 交谈触发护送事件。"
 L["razorwing_note"] = "交付从吞噬者掉落的10个 {item:187054}。"
 L["reliwik_note"] = "点击纯净的的刀翼兽之卵并击杀它。"
 L["spectral_bound_chest"] = "点击附近的3个幽魂钥匙解锁宝箱。"
 L["spectral_bound_note"] = "幽魂束缚宝箱"
+L["stonecrusher_note"] = "和 {npc:179974} 交谈开始事件。"
 L["towering_exterminator_note"] = "在渊誓传送门事件出现。事件可能在刻希亚许多地方出现。"
-L["escaped_wilderling_note"] = "点击 {npc:180014} 开始驯服事件。"
+L["worldcracker_note"] = "和 {npc:180028} 交谈触发护送事件。"
 
 L["archivist_key_note"] = "从 {npc:178257} 购买 %s 解锁。"
 L["korthian_shrine_note"] = "点击神龛获得 {spell:352367} 可以看到隐藏的路径到达alter。"

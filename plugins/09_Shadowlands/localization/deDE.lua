@@ -247,26 +247,26 @@ Lässt zusätzliche Gegenstände für {currency:1931} fallen, wenn er *erneut* 4
 
 |cFFFF0000LÄSST KEINE {npc:179758} ZUM VERZEHREN ERSCHEINEN, WENN ER IM KAMPF IST.|r
 ]]
-L["fleshwing_note"] = "Sprich mit {npc:180079}, um das Sammelevent zu starten."
-L["krelva_note"] = nil
-L["kroke_note"] = nil
 L["darkmaul_note"] = "Sammel {item:187153} von einem Invasivem Schlundpilz und füttere {npc:180063} damit. Das Event muss 10 mal abgeschlossen werden, um das Reittier zu erhalten."
 L["dislodged_nest_note"] = "Klicke in der Nähe eine Giftige Motte an, um den Stärkungszauber {spell:355181} zu erhalten. Benutze den Extrabutton von {spell:355131} auf einen {npc:178547}, um die Kontrolle über ihn zu erlangen und dann reite mit ihm gegen den Baum, in dem der Schatz liegt."
+L["escaped_wilderling_note"] = "Klicke den {npc:180014} an, um das Zähmungsevent zu starten."
 L["flayedwing_transporter_note"] = "Klicke den {npc:178633} an, um zum oder vom Archiv der Geheimnisse zu fliegen."
+L["fleshwing_note"] = "Sprich mit {npc:180079}, um das Sammelevent zu starten."
 L["forgotten_feather_note"] = "Auf einer kleinen schwebenden Insel, die man durch einen Absprung von der Zuflucht des Hüters aus erreicht."
-L["malbog_note"] = "Sprich mit {npc:179729}, um den Stärkungszauber {spell:355078} zu erhalten und dann folge den Fußspuren, bis du die fleischigen Überreste findest."
 L["konthrogz_note"] = "Erscheint bei dem Event 'Verschlingender Spalt', dass an mehreren Positionen in Korthia erscheinen kann."
+L["krelva_note"] = nil
+L["kroke_note"] = nil
 L["maelie_wanderer"] = "Erscheint für den Tag an einem festgeleten Ort. Wenn du an 6 verschiedenen Tagen {spell:355862} verwendet hast, kehre zu {npc:179930} zurück, um das Reittier zu erhalten."
-L["stonecrusher_note"] = "Sprich mit {npc:179974}, um das Event zu starten."
+L["malbog_note"] = "Sprich mit {npc:179729}, um den Stärkungszauber {spell:355078} zu erhalten und dann folge den Fußspuren, bis du die fleischigen Überreste findest."
 L["offering_box_note"] = "Der {item:187033} befindet sich oben auf der westlichen Wand der nahe gelegenen Ruine."
 L["pop_quiz_note"] = "Wird zufällig auf der Map erscheinen. Klicke den zurückgelassenen Schleierstab an und antworte auf die Fragen von {npc:180162}."
-L["worldcracker_note"] = "Sprich mit {npc:180028}, um das Escortevent zu starten."
 L["razorwing_note"] = "Gib 10x {item:187054} ab, dass von den Verschlingern wie {npc:177245} geplündert werden kann."
 L["reliwik_note"] = "Klicke das Unverderbte Klingenschwingenei an."
 L["spectral_bound_chest"] = "Spektralgebundene Truhe"
 L["spectral_bound_note"] = "Klicke die drei Spektralschlüssel in der Nähe an, um die Truhe freizuschalten."
+L["stonecrusher_note"] = "Sprich mit {npc:179974}, um das Event zu starten."
 L["towering_exterminator_note"] = "Erscheint bei dem Event 'Schlundgebundenes Portal', dass an mehreren Positionen in Korthia erscheinen kann."
-L["escaped_wilderling_note"] = "Klicke den {npc:180014} an, um das Zähmungsevent zu starten."
+L["worldcracker_note"] = "Sprich mit {npc:180028}, um das Escortevent zu starten."
 
 L["archivist_key_note"] = "Kaufe zum öffnen von {npc:178257} einen %s."
 L["korthian_shrine_note"] = "Klicke den Schrein an, um die {spell:352367} zu erhalten, damit du den versteckten Pfad zum Altar sehen kannst."

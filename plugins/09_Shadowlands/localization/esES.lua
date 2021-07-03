@@ -248,26 +248,26 @@ Este raro soltará objetos de investigación extra después de consumir otros 40
 
 |cFFFF0000EL RARO NO HARÁ APARECER {npc:179758} PARA CONSUMIR SI ESTÁ EN COMBATE.|r
 ]]
-L["fleshwing_note"] = "Habla con {npc:180079} para empezar el evento de recolección."
-L["krelva_note"] = nil
-L["kroke_note"] = nil
 L["darkmaul_note"] = "Recoge {item:187153} de los Champifauces Invasivos y alimenta a las {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura."
 L["dislodged_nest_note"] = "Haz click en una Polilla Nociva cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en el {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido."
+L["escaped_wilderling_note"] = "Haz click en el {npc:180014} para empezar el evento de doma."
 L["flayedwing_transporter_note"] = "Haz click en el {npc:178633} para volar a o desde la Cámara de los Secretos."
+L["fleshwing_note"] = "Habla con {npc:180079} para empezar el evento de recolección."
 L["forgotten_feather_note"] = "Flotando en una isla pequeña que se accede saltando hacia abajo desde el Respiro del Guardían."
-L["malbog_note"] = "Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos."
 L["konthrogz_note"] = "Aparece de un portal del evento de los devoradores. El evento puede aparecer en varios sitios a lo largo de Korthia."
+L["krelva_note"] = nil
+L["kroke_note"] = nil
 L["maelie_wanderer"] = "{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura."
-L["stonecrusher_note"] = "Habla con {npc:179974} para empezar el evento."
+L["malbog_note"] = "Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos."
 L["offering_box_note"] = "Requiere una {item:187033} que se puede encontrar en la parte superior de la pared del lado oeste de las ruinas cercanas."
 L["pop_quiz_note"] = "El evento del Cuestionario aparecerá aleatoriamente en el mapa. Haz click en el Bastón del Velo Abandonado y responde a las preguntas de {npc:180162}."
-L["worldcracker_note"] = "Habla con {npc:180028} para empezar el evento de escolta."
 L["razorwing_note"] = "Devuelve 10 {item:187054} soltados por los devoradores de la zona."
 L["reliwik_note"] = "Haz click en el huevo de alafilada prístino para hacerlo bajar."
 L["spectral_bound_chest"] = "Haz click en las 3 {item:179369} cercanas para debloquear el cofre."
 L["spectral_bound_note"] = "Cofre reforzado espectral"
+L["stonecrusher_note"] = "Habla con {npc:179974} para empezar el evento."
 L["towering_exterminator_note"] = "Aparece del portal del evento jurafauce. El evento puede aparecer en varios sitios a lo largo de Korthia."
-L["escaped_wilderling_note"] = "Haz click en el {npc:180014} para empezar el evento de doma."
+L["worldcracker_note"] = "Habla con {npc:180028} para empezar el evento de escolta."
 
 L["archivist_key_note"] = "Compra la %s del {npc:178257} para desbloquear."
 L["korthian_shrine_note"] = "Haz click en la roca con forma de espada para ganar {spell:352367} y poder ver el camino oculto al altar."
