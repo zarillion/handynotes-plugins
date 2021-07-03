@@ -239,7 +239,7 @@ L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o 
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["carriage_crusher_note"] = nil
+L["carriage_crusher_note"] = "Sigue al {npc:180182} en las Fauces y deféndelo hasta que ataque el {npc:180246}."
 L["chamber_note"] = "Usa un {item:186718} del {npc:178257} en el Teletransportador Antiguo. Usa el Teletransportador Antiguo reparado para acceder a la cámara."
 L["consumption_note"] = [[
 Este raro no soltará botín hasta que haya consumido a 40x {npc:179758} para transformarse en su forma azul sombreada (Raro).
@@ -255,8 +255,8 @@ L["flayedwing_transporter_note"] = "Haz click en el {npc:178633} para volar a o 
 L["fleshwing_note"] = "Habla con {npc:180079} para empezar el evento de recolección."
 L["forgotten_feather_note"] = "Flotando en una isla pequeña que se accede saltando hacia abajo desde el Respiro del Guardían."
 L["konthrogz_note"] = "Aparece de un portal del evento de los devoradores. El evento puede aparecer en varios sitios a lo largo de Korthia."
-L["krelva_note"] = nil
-L["kroke_note"] = nil
+L["krelva_note"] = "Se mueve a otra plataforma al 80%, entonces se mueve al suelo al 60%. |cFFFF8C00¡Has de darle al boss después del 60% para que te cuente!|r"
+L["kroke_note"] = "Mata a los {npc:179029} de la zona hasta que aparezca. No puede aparecer los días que no estén los {npc:179029}."
 L["maelie_wanderer"] = "{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura."
 L["malbog_note"] = "Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos."
 L["offering_box_note"] = "Requiere una {item:187033} que se puede encontrar en la parte superior de la pared del lado oeste de las ruinas cercanas."
@@ -288,20 +288,20 @@ L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Muestra donde están los {npc:179595} usados para entrar en |cFFFFFF00La Falla|r."
 
 L["riftbound_cache"] = "Alijo Vinculafalla"
-L["riftbound_cache_note"] = nil
+L["riftbound_cache_note"] = "Sólo pueden aparecer 4 alijos diferentes en un conjunto de sitios dentro de la falla."
 L["options_icons_riftbound_cache"] = "Alijos Vinculafalla"
 L["options_icons_riftbound_cache_desc"] = "Muestra donde están los alijos dentro de |cFFFFFF00La Falla|r."
 
 L["invasive_mawshroom"] = "Champifauces Invasivos"
-L["invasive_mawshroom_note"] = nil
+L["invasive_mawshroom_note"] = "Sólo pueden aparecer 5 champifauces diferentes en un conjunto de sitios."
 L["mawsworn_cache"] = "Alijo jurafauces"
-L["mawsworn_cache_note"] = nil
+L["mawsworn_cache_note"] = "Sólo pueden aparecer 3 alijos diferentes en un conjunto de sitios."
 L["pile_of_bones"] = "Montón de huesos"
 L["relic_cache"] = "Alijo de reliquias"
 L["shardhide_stash"] = "Alijo de pellejosquirla"
-L["korthia_shared_chest_note"] = "Puedes recoger 5 de estos tesoros por día."
+L["korthia_shared_chest_note"] = "Se pueden coger reliquias de estos tesoros 5 veces al día. Después, los alijos sólo tendrán basura."
 L["unusual_nest"] = "Nido de materiales inusuales"
-L["unusual_nest_note"] = nil
+L["unusual_nest_note"] = "Todos los sitios con nidos se pueden despojar sólo 5 veces al día."
 
 L["options_icons_invasive_mawshroom_desc"] = "Muestra donde están los Champifauces Invasivos."
 L["options_icons_invasive_mawshroom"] = "Champifauces Invasivos (Diaria)"
@@ -543,7 +543,7 @@ L["nexus_area_gorgoa_mouth"] = "En la desembocadura de Gorgoa (Río de Almas)"
 L["nexus_area_perdition_wall"] = "A lo largo de la pared exterior del Bastión de la Perdición"
 L["nexus_area_torment_rock"] = "En una roca en los Llanos del Tormento"
 L["nexus_area_zone_edge"] = "A lo largo del borde de la zona"
-L["nexus_area_zovaal_edge"] = nil
+L["nexus_area_zovaal_edge"] = "A lo largo del borde de la Caldera de Zovaal"
 L["nexus_area_zovaal_wall"] = "A lo largo de la pared debajo de la Caldera de Zovaal"
 -- Locations given relative to a named cave/cavern
 L["nexus_cave_anguish_lower"] = "En el Pozo de la Angustia (nivel inferior)"
@@ -560,7 +560,7 @@ L["nexus_cave_soulstained"] = "En una cueva pequeña en los Campos Manchados de 
 L["nexus_cave_torturer"] = "Dentro del Cobertizo del Torturador"
 -- Locations given relative to a named NPC
 L["nexus_npc_akros"] = "En lo alto de las escaleras junto a {npc:170787}"
-L["nexus_npc_dekaris"] = nil
+L["nexus_npc_dekaris"] = "En la cima del pico donde está el {npc:157964}"
 L["nexus_npc_dolos"] = "En el suelo detrás de {npc:170711}"
 L["nexus_npc_ekphoras"] = "Al lado de la plataforma de {npc:169827}"
 L["nexus_npc_incinerator"] = "En una repisa pequeña bajo el {npc:156203}"
