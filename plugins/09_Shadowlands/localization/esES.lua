@@ -288,6 +288,7 @@ L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Muestra donde están los {npc:179595} usados para entrar en |cFFFFFF00La Falla|r."
 
 L["riftbound_cache"] = "Alijo Vinculafalla"
+L["riftbound_cache_note"] = nil
 L["options_icons_riftbound_cache"] = "Alijos Vinculafalla"
 L["options_icons_riftbound_cache_desc"] = "Muestra donde están los alijos dentro de |cFFFFFF00La Falla|r."
 

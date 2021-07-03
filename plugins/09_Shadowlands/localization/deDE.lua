@@ -287,6 +287,7 @@ L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Zeigt die Positionen von {npc:179595en} an, um den |cFFFFFF00Riss|r zu betreten."
 
 L["riftbound_cache"] = "Rissgebundene Truhe"
+L["riftbound_cache_note"] = nil
 L["options_icons_riftbound_cache"] = "Rissgebundene Truhen"
 L["options_icons_riftbound_cache_desc"] = "Zeigt die Positionen von Truhen innerhalb des |cFFFFFF00Riss|r an."
 

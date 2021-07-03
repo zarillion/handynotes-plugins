@@ -213,6 +213,7 @@ map.nodes[39405240] = Rare({
     }
 }) -- Yarxhov the Pillager (Chamber of Knowledge)
 
+-- GHO: 45296726
 map.nodes[27755885] = Rare({
     id=177336,
     quest=64442,
@@ -436,6 +437,7 @@ local Relic = Class('Relic', ns.node.Treasure, {
 
 -------------------------------------------------------------------------------
 
+-- GHO: 40914788
 map.nodes[27305670] = Relic({
     quest=63899,
     questDeps=64506,
@@ -627,20 +629,26 @@ map.nodes[61804460] = RiftPortal()
 
 local RiftCache = Class('RiftCache', Treasure, {
     label=L["riftbound_cache"],
+    note=L["riftbound_cache_note"],
     group=ns.groups.RIFTBOUND_CACHE,
     rift=1,
     rewards={
+        Transmog({item=187251, slot=L["cosmetic"]}), -- Shaded Skull Shoulderguards
+        Transmog({item=187243, slot=L["cosmetic"]}), -- Shadehunter's Crescent
+        Item({item=187276, quest=64522}), -- Stolen Korthian Supplies
         Item({item=185050, quest=63606, covenant=NIGHTFAE}), -- Spider Soul
-        ns.relics.relic_fragment
+        ns.relics.relic_fragment,
+        Item({item=186017}) -- Korthite Crystal
     }
 })
 
 local RIFT_CACHE1 = RiftCache({quest=64470, icon='chest_rd', note=L["in_cave"]})
 local RIFT_CACHE2 = RiftCache({quest=64471, icon='chest_pp'}) -- (also 64705?)
 local RIFT_CACHE3 = RiftCache({quest=64472, icon='chest_yw'})
-local RIFT_CACHE4 = RiftCache({quest=nil, icon='chest_bl'})
+local RIFT_CACHE4 = RiftCache({quest=64456, icon='chest_bl'})
 
-map.nodes[25975582] = RIFT_CACHE1
+map.nodes[25975582] = RIFT_CACHE1 -- GHO: 29433986
+map.nodes[27555933] = RIFT_CACHE1 -- GHO: 43157372
 map.nodes[54105460] = RIFT_CACHE2
 map.nodes[54904240] = RIFT_CACHE2
 map.nodes[55506510] = RIFT_CACHE2
@@ -651,6 +659,7 @@ map.nodes[50703290] = RIFT_CACHE3
 map.nodes[56321850] = RIFT_CACHE3
 map.nodes[64303040] = RIFT_CACHE3
 map.nodes[33503950] = RIFT_CACHE4
+map.nodes[35943243] = RIFT_CACHE4
 map.nodes[38003550] = RIFT_CACHE4
 
 -------------------------------------------------------------------------------

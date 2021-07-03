@@ -286,6 +286,7 @@ L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "顯示用來進入 |cFFFFFF00裂隙|r 的 {npc:179595} 位置"
 
 L["riftbound_cache"] = "隙縛寶箱"
+L["riftbound_cache_note"] = nil
 L["options_icons_riftbound_cache"] = "隙縛寶箱"
 L["options_icons_riftbound_cache_desc"] = "顯示在 |cFFFFFF00裂隙|r 內的寶箱位置."
 

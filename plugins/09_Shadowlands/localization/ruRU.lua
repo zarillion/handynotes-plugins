@@ -287,6 +287,7 @@ L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Отобразить местоположение {npc:179595}, используемых для входа |cFFFFFF00в разломы|r."
 
 L["riftbound_cache"] = "Тайник Разлома"
+L["riftbound_cache_note"] = nil
 L["options_icons_riftbound_cache"] = "Тайник Разлома"
 L["options_icons_riftbound_cache_desc"] = "Отобразите расположение тайников внутри |cFFFFFF00разломов|r."
 

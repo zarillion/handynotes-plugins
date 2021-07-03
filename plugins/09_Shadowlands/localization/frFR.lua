@@ -288,6 +288,7 @@ L["options_icons_rift_portal"] = "{npc:179595s}"
 L["options_icons_rift_portal_desc"] = "Afficher les emplacements des {npc:179595s} utilisés pour entrer dans |cFFFFFF00La Faille|r."
 
 L["riftbound_cache"] = "Cache liée à la faille"
+L["riftbound_cache_note"] = nil
 L["options_icons_riftbound_cache"] = "Caches liées à la faille"
 L["options_icons_riftbound_cache_desc"] = "Afficher les emplacements des caches à l'intérieur de |cFFFFFF00La Faille|r."
 
