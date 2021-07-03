@@ -240,7 +240,13 @@ L["zolla_note"] = "Nous prenons nos défenses très au sérieux. Qu'elles soient
 -------------------------------------------------------------------------------
 
 L["chamber_note"] = "Utilisez une {item:186718} de l'{npc:178257} sur le Téléporteur ancien. Utilise le Téléporteur ancien réparé pour accéder à la chambre."
-L["consumption_note"] = nil
+L["consumption_note"] = [[
+Ce monstre rare ne laissera pas de butin avant d'avoir consommé 40 {npc:179758} pour se transformer en sa forme bleue (Rare).
+
+Ce monstre rare laissera tomber des objets de recherche supplémentaires après avoir consommé *de nouveau* 40 {npc:179758} pour se transformer en sa forme verte (Élite Rare).
+
+|cFFFF0000LE MONSTRE RARE NE FERA PAS APPARAÎTRE DES {npc:179758} POUR LES CONSOMMER SI ENGAGÉ EN COMBAT.|r
+]]
 L["corpse_heap_note"] = "Parlez à {npc:180079} pour commencer l'événement de collecte."
 L["darkmaul_note"] = "Collectez des {item:187153} sur les champignantre envahissants et nourrissez {npc:180063} avec. Vous devez terminer l'événement 10 fois pour obtenir la monture."
 L["dislodged_nest_note"] = "Cliquez sur un papillon nocif proche pour obtenir {spell:355181}. Utilisez le bouton d'action supplémentaire {spell:355131} sur un {npc:178547} pour en prendre le contrôle et le conduire dans l'arbre où se trouve le nid."
@@ -273,8 +279,8 @@ Nécessite une {item:186731}, qui peut être achetée à {npc:178257} une fois q
 
 |cFFFF8C00Les portails de failles ne sont pas tous actifs à un moment donné.|r
 ]]
-L["rift_rare_only_note"] = nil
-L["rift_rare_exit_note"] = nil
+L["rift_rare_only_note"] = "Ce monstre ne peut être vu et tué qu'en étant entré dans |cFFFFFF00La Faille|r."
+L["rift_rare_exit_note"] = "Ce monstre rare sortira de |cFFFFFF00La Faille|r une fois qu'il aura été abordé à l'intérieur de celle-ci."
 L["options_icons_rift_portal"] = "{npc:179595s}"
 L["options_icons_rift_portal_desc"] = "Afficher les emplacements des {npc:179595s} utilisés pour entrer dans |cFFFFFF00La Faille|r."
 
