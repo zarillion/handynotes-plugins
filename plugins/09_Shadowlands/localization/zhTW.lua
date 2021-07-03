@@ -238,7 +238,13 @@ L["zolla_note"] = "我們非常嚴肅看待我們的防禦。無論大小，我�
 -------------------------------------------------------------------------------
 
 L["chamber_note"] = "使用從 {npc:178257} 取得的 {item:186718} 來修理古老傳送器. 使用維修好的古老傳送器來進入房間."
-L["consumption_note"] = nil
+L["consumption_note"] = [[
+這個稀有在他吞噬了40個 {npc:179344} 並轉變成藍色陰影型態 (稀有) 前, 不會掉落拾取.
+
+這個稀有在另外吞噬40個 {npc:179344} 並轉變成綠色陰影型態 (稀有菁英) 後, 會掉落更多的研究物品.
+
+|cFFFF0000當在戰鬥中時, {npc:179344} 不會刷新給此稀有吞噬.|r
+]]
 L["corpse_heap_note"] = "和 {npc:180079} 對話來開始收集事件."
 L["darkmaul_note"] = "從入侵的淵喉菇收集 {item:187153} 並且餵給 {npc:180063}. 你必須要完成此事件6次來取得坐騎."
 L["dislodged_nest_note"] = "點選附近的劇毒飛蛾拿到 {spell:355181}. 對 {npc:178547} 使用額外動作按鈕上的 {spell:355131} 來騎上牠並操縱牠去撞巢穴所在的樹."
@@ -271,8 +277,8 @@ L["rift_portal_note"] = [[
 
 |cFFFF8C00並非所有裂隙傳送門在任何時間都是啟動的.|r
 ]]
-L["rift_rare_only_note"] = nil
-L["rift_rare_exit_note"] = nil
+L["rift_rare_only_note"] = "此稀有僅在 |cFFFFFF00裂隙|r 位面內可以看到並被擊殺"
+L["rift_rare_exit_note"] = "此稀有在裂隙中被互動後會離開 |cFFFFFF00裂隙|r 位面"
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "顯示用來進入 |cFFFFFF00裂隙|r 的 {npc:179595} 位置"
 
@@ -393,7 +399,7 @@ L["amalgamation_of_sin_note"] = "在世界任務 {wq:召喚你的罪孽} 的期�
 L["bog_beast_note"] = "世界任務 {wq:越髒越好} 期間有機率刷新後給 {npc:166206} 使用 {item:177880}。"
 L["endlurker_note"] = "在微光裂隙頂上點選 {npc:165229} 屍體附近的靈魄之樁並使用 {spell:321826}。"
 L["executioner_aatron_note"] = "擊殺三個附近的 {npc:166715} 移除 {spell:324872}。"
-L["executioner_adrastia_note"] = nil
+L["executioner_adrastia_note"] = "釋放附近區域的 {npc:161299} 並且護送他們直到消失. {npc:161310} 最終會刷新來擊碎起義"
 L["famu_note"] = "和 {npc:166483} 交談觸發事件。"
 L["grand_arcanist_dimitri_note"] = "擊殺四個 {npc:167467} 釋放稀有。"
 L["harika_note"] = "在掘息坑西側，拾取 {item:176397}，然後把箭交給 {npc:165327} 後和他交談擊落稀有。"
