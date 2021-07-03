@@ -53,7 +53,7 @@ map.nodes[58211773] = Rare({
     rewards={
         Achievement({id=15107, criteria=52290}),
         Transmog({item=187370, slot=L["cloth"]}), -- Carriage Crusher's Padded Slippers
-        Transmog({item=187391, slot=L["plate"]}) -- Yarxhov's Rib-Cage
+        Transmog({item=187399, slot=L["leather"]}) -- Maw Construct's Shoulderguards
     }
 }) -- Assault Supply Carriage
 
@@ -66,7 +66,8 @@ map.nodes[39405240] = Rare({
         Achievement({id=15107, criteria=52295}),
         Achievement({id=15066, criteria=52262}),
         Item({item=187103, quest=63917}), -- Everliving Statuette
-        Transmog({item=187366, slot=L["polearm"]}) -- Fallen Vault Guardian's Spire
+        Transmog({item=187366, slot=L["polearm"]}), -- Fallen Vault Guardian's Spire
+        Transmog({item=187391, slot=L["plate"]}) -- Yarxhov's Rib-Cage
     }
 }) -- Chamber of Knowledge
 
@@ -80,6 +81,7 @@ map.nodes[44983552] = Rare({
         Achievement({id=15066, criteria=52263}),
         Pet({item=186538, id=3140}), -- Gnashtooth
         Item({item=187104, quest=63918}), -- Obelisk of Dark Tidings
+        Transmog({item=187368, slot=L["staff"]}), -- Xyraxz's Controlling Rod
         Transmog({item=187387, slot=L["mail"]}) -- Pauldrons of the Unknown Beyond
     }
 }) -- Chamber of Wisdom
@@ -90,6 +92,7 @@ map.nodes[51164167] = Rare({
     note=L["consumption_note"],
     rewards={
         Achievement({id=15107, criteria=52285}),
+        Item({item=187402, note=L["ring"]}), -- All-Consuming Loop
         Transmog({item=187245, slot=L["cosmetic"]}), -- Death-Enveloped Spires
         Transmog({item=187246, slot=L["cosmetic"]}), -- Death-Enveloped Pauldrons
         Transmog({item=187247, slot=L["cosmetic"]}) -- Death-Enveloped Shoulder Spikes
@@ -134,7 +137,8 @@ map.nodes[44222950] = Rare({
     note=L["hunting_hunter_note"],
     rewards={
         Achievement({id=15107, criteria=52283}),
-        Mount({item=186645, id=1506}) -- Crimson Shardhide
+        Mount({item=186645, id=1506}), -- Crimson Shardhide
+        Transmog({item=187377, slot=L["leather"]}) -- Malbog's Paws
     },
     pois={
         POI({60652315}) -- Caretaker Kah-Kay
@@ -207,7 +211,8 @@ map.nodes[27755885] = Rare({
     note=L["in_cave"],
     rewards={
         Achievement({id=15107, criteria=52301}),
-        Pet({item=186542, id=3136}) -- Korthian Specimen
+        Pet({item=186542, id=3136}), -- Korthian Specimen
+        Transmog({item=187371, slote=L["cloth"]}) -- Velvet Gromit Handwraps
     },
     pois={
         POI({30385480}) -- Entrance
