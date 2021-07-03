@@ -168,7 +168,7 @@ map.nodes[46507959] = Rare({
         Transmog({item=184790,slot=L["leather"]}) -- Archdruid Van-Yali's Greenthumbs
         -- Mount({item=186479, id=, covenant=VENTHYR}) -- Mastercraft Gravewing
     }
-}) -- No Stoneborn Left Behind
+}) -- Stygian Stonecrusher
 
 map.nodes[56873237] = Rare({
     id=180032,
