@@ -273,6 +273,8 @@ Requiere una {item:186731}, la cual se le puede comprar al {npc:178257} una vez 
 
 |cFFFF8C00Los portales de falla no están activos todos al mismo tiempo.|r
 ]]
+L["rift_rare_only_note"] = nil
+L["rift_rare_exit_note"] = nil
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Muestra donde están los {npc:179595} usados para entrar en |cFFFFFF00La Falla|r."
 

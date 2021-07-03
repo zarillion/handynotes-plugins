@@ -278,6 +278,8 @@ L["rift_portal_note"] = [[
 
 |cFFFF8C00Не все порталы разломов активны в любой момент времени.|r
 ]]
+L["rift_rare_only_note"] = nil
+L["rift_rare_exit_note"] = nil
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Отобразить местоположение {npc:179595}, используемых для входа |cFFFFFF00в разломы|r."
 

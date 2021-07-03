@@ -278,6 +278,8 @@ Benötigt einen {item:186731}, den man bei {npc:178257} kaufen kann, wenn Stufe 
 
 |cFFFF8C00Nicht alle Rissportale sind gleichzeitig aktiv.|r
 ]]
+L["rift_rare_only_note"] = nil
+L["rift_rare_exit_note"] = nil
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Zeigt die Positionen von {npc:179595en} an, um |cFFFFFF00den Riss|r zu betreten."
 

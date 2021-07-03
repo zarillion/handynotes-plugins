@@ -271,6 +271,8 @@ L["rift_portal_note"] = [[
 
 |cFFFF8C00並非所有裂隙傳送門在任何時間都是啟動的.|r
 ]]
+L["rift_rare_only_note"] = nil
+L["rift_rare_exit_note"] = nil
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "顯示用來進入 |cFFFFFF00裂隙|r 的 {npc:179595} 位置"
 

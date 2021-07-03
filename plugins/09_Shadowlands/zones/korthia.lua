@@ -263,7 +263,9 @@ map.nodes[14507900] = Rare({
 map.nodes[59335221] = Rare({
     id=179913,
     quest=64285,
-    rift=1,
+    rlabel=ns.GetIconLink('portal_gy', 20, 4, 1),
+    note=L["rift_rare_exit_note"],
+    rift=2,
     rewards={
         Achievement({id=15107, criteria=52275}),
         Toy({item=187174}) -- Shaded Judgement Stone
@@ -273,7 +275,9 @@ map.nodes[59335221] = Rare({
 map.nodes[50307590] = Rare({
     id=179914,
     quest=64369,
-    rift=1,
+    rlabel=ns.GetIconLink('portal_gy', 20, 4, 1),
+    note=L["rift_rare_only_note"],
+    rift=2,
     rewards={
         Achievement({id=15107, criteria=52294}),
         Toy({item=187420}) -- Maw-Ocular Viewfinder
@@ -283,7 +287,9 @@ map.nodes[50307590] = Rare({
 map.nodes[44604240] = Rare({
     id=179608,
     quest=64263,
-    rift=1,
+    rlabel=ns.GetIconLink('portal_gy', 20, 4, 1),
+    note=L["rift_rare_exit_note"],
+    rift=2,
     rewards={
         Achievement({id=15107, criteria=52273})
     }
@@ -292,7 +298,9 @@ map.nodes[44604240] = Rare({
 map.nodes[57607040] = Rare({
     id=179911,
     quest=64284,
-    rift=1,
+    rlabel=ns.GetIconLink('portal_gy', 20, 4, 1),
+    note=L["rift_rare_exit_note"],
+    rift=2,
     rewards={
         Achievement({id=15107, criteria=52274})
     }

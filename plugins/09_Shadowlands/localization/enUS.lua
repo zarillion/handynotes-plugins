@@ -277,6 +277,8 @@ Requires a {item:186731}, which can be purchased from {npc:178257} once you reac
 
 |cFFFF8C00Not all rift portals are active at any given time.|r
 ]]
+L["rift_rare_only_note"] = "This rare can only be seen and killed inside |cFFFFFF00The Rift|r phase."
+L["rift_rare_exit_note"] = "This rare will exit |cFFFFFF00The Rift|r phase once interacted with inside the rift."
 L["options_icons_rift_portal"] = "{npc:179595s}"
 L["options_icons_rift_portal_desc"] = "Display the locations of {npc:179595s} used to enter |cFFFFFF00The Rift|r."
 

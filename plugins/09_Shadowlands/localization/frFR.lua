@@ -273,6 +273,8 @@ Nécessite une {item:186731}, qui peut être achetée à {npc:178257} une fois q
 
 |cFFFF8C00Les portails de failles ne sont pas tous actifs à un moment donné.|r
 ]]
+L["rift_rare_only_note"] = nil
+L["rift_rare_exit_note"] = nil
 L["options_icons_rift_portal"] = "{npc:179595s}"
 L["options_icons_rift_portal_desc"] = "Afficher les emplacements des {npc:179595s} utilisés pour entrer dans |cFFFFFF00La Faille|r."
 
