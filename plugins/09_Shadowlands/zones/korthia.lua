@@ -706,8 +706,8 @@ local Mawshroom = Class('Mawshroom', Treasure, {
     group=ns.groups.INVASIVE_MAWSHROOM,
     label=L["invasive_mawshroom"],
     rewards={
-        Item({item=187153, quest=64376}), --Tasty Mawshroom
-        Item({item=185963, quest=638892}), --Diviner's Rune Chit
+        Item({item=187153, quest=64376}), -- Tasty Mawshroom
+        Item({item=185963, quest=63892}), -- Diviner's Rune Chit
         Item({item=186017}), -- Korthite Crystal
         ns.relics.relic_fragment
     }
@@ -756,8 +756,8 @@ local UMNest = Class('UMNest', Treasure, {
     icon='chest_bn',
     fgroup='nest_materials',
     rewards={
-        Item({item=187442, note=L["bag"]}), --Scholar's Ancient Pack
-        Item({item=185963, quest=638892}), --Diviner's Rune Chit
+        Item({item=187442, note=L["bag"]}), -- Scholar's Ancient Pack
+        Item({item=185963, quest=63892}), -- Diviner's Rune Chit
         Item({item=186017}), -- Korthite Crystal
         ns.relics.relic_fragment
     }
