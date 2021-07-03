@@ -978,6 +978,7 @@ local RiftCache = Class('RiftCache', Treasure, {
     label=L["rift_hidden_cache"],
     group=ns.groups.RIFT_HIDDEN_CACHE,
     rift=1,
+    assault=63823,
     rewards={
         Transmog({item=187251, slot=L["cosmetic"]}) -- Shaded Skull Shoulderguards
     }
