@@ -87,6 +87,7 @@ map.nodes[44983552] = Rare({
 map.nodes[51164167] = Rare({
     id=179768,
     quest=64243,
+    note=L["consumption_note"],
     rewards={
         Achievement({id=15107, criteria=52285}),
         Transmog({item=187245, slot=L["cosmetic"]}), -- Death-Enveloped Spires

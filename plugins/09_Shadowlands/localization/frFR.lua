@@ -240,6 +240,7 @@ L["zolla_note"] = "Nous prenons nos défenses très au sérieux. Qu'elles soient
 -------------------------------------------------------------------------------
 
 L["chamber_note"] = "Utilisez une {item:186718} de l'{npc:178257} sur le Téléporteur ancien. Utilise le Téléporteur ancien réparé pour accéder à la chambre."
+L["consumption_note"] = nil
 L["corpse_heap_note"] = "Parlez à {npc:180079} pour commencer l'événement de collecte."
 L["darkmaul_note"] = "Collectez des {item:187153} sur les champignantre envahissants et nourrissez {npc:180063} avec. Vous devez terminer l'événement 6 fois pour obtenir la monture."
 L["dislodged_nest_note"] = "Cliquez sur un papillon nocif proche pour obtenir {spell:355181}. Utilisez le bouton d'action supplémentaire {spell:355131} sur un {npc:178547} pour en prendre le contrôle et le conduire dans l'arbre où se trouve le nid."

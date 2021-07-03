@@ -240,6 +240,7 @@ L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o 
 -------------------------------------------------------------------------------
 
 L["chamber_note"] = "Usa un {item:186718} del {npc:178257} en el Teletransportador Antiguo. Usa el Teletransportador Antiguo reparado para acceder a la cámara."
+L["consumption_note"] = nil
 L["corpse_heap_note"] = "Habla con {npc:180079} para empezar el evento de recolección."
 L["darkmaul_note"] = "Recoge {item:187153} de los Champifauces Invasivos y alimenta a las {npc:180063} con ellos. Se ha de completar el evento 6 veces para conseguir la montura."
 L["dislodged_nest_note"] = "Haz click en una Polilla Nociva cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en el {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido."
