@@ -867,10 +867,18 @@ local darkmaul = Class('Darkmaul', Collectible, {
 
 map.nodes[42873269] = darkmaul
 
-map.nodes[25725108] = Collectible({
+local function GetDusklightStatus ()
+    local count = select(4, GetQuestObjectiveInfo(64274, 0, false))
+    if count ~= nil then return ns.status.Gray(tostring(count)..'/10') end
+end
+
+local dusklight = Class('Dusklight', Collectible, {
     id=179871,
     icon=3897746,
     quest=64274,
     note=L["razorwing_note"],
-    rewards={Mount({item=186651, id=1510})}-- Dusklight Razorwing
-}) -- Razorwing Nest
+    rewards={Mount({item=186651, id=1510})}, -- Dusklight Razorwing
+    getters={rlabel=GetDusklightStatus}
+})() -- Razorwing Nest
+
+map.nodes[25725108] = dusklight
