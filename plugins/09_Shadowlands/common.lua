@@ -292,5 +292,5 @@ ns.requirement.Venari = Venari
 -------------------------------------------------------------------------------
 
 ns.relics = {
-    relic_fragment = Item({item=186685, note=L["num_research"]:format(1)}) -- relic fragment
+    relic_fragment = Item({item=186685, status=L["num_research"]:format(1)}) -- relic fragment
 }

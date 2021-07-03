@@ -239,6 +239,7 @@ L["zolla_note"] = "Nos tomamos muy en serio nuestras defensas. Seamos grandes o 
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
+L["carriage_crusher_note"] = nil
 L["chamber_note"] = "Usa un {item:186718} del {npc:178257} en el Teletransportador Antiguo. Usa el Teletransportador Antiguo reparado para acceder a la cámara."
 L["consumption_note"] = [[
 Este raro no soltará botín hasta que haya consumido a 40x {npc:179758} para transformarse en su forma azul sombreada (Raro).
@@ -247,24 +248,26 @@ Este raro soltará objetos de investigación extra después de consumir otros 40
 
 |cFFFF0000EL RARO NO HARÁ APARECER {npc:179758} PARA CONSUMIR SI ESTÁ EN COMBATE.|r
 ]]
-L["corpse_heap_note"] = "Habla con {npc:180079} para empezar el evento de recolección."
+L["fleshwing_note"] = "Habla con {npc:180079} para empezar el evento de recolección."
+L["krelva_note"] = nil
+L["kroke_note"] = nil
 L["darkmaul_note"] = "Recoge {item:187153} de los Champifauces Invasivos y alimenta a las {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura."
 L["dislodged_nest_note"] = "Haz click en una Polilla Nociva cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en el {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido."
 L["flayedwing_transporter_note"] = "Haz click en el {npc:178633} para volar a o desde la Cámara de los Secretos."
 L["forgotten_feather_note"] = "Flotando en una isla pequeña que se accede saltando hacia abajo desde el Respiro del Guardían."
-L["hunting_hunter_note"] = "Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos."
+L["malbog_note"] = "Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos."
 L["konthrogz_note"] = "Aparece de un portal del evento de los devoradores. El evento puede aparecer en varios sitios a lo largo de Korthia."
 L["maelie_wanderer"] = "{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura."
-L["no_stoneborne_note"] = "Habla con {npc:179974} para empezar el evento."
+L["stonecrusher_note"] = "Habla con {npc:179974} para empezar el evento."
 L["offering_box_note"] = "Requiere una {item:187033} que se puede encontrar en la parte superior de la pared del lado oeste de las ruinas cercanas."
 L["pop_quiz_note"] = "El evento del Cuestionario aparecerá aleatoriamente en el mapa. Haz click en el Bastón del Velo Abandonado y responde a las preguntas de {npc:180162}."
-L["popo_note"] = "Habla con {npc:180028} para empezar el evento de escolta."
+L["worldcracker_note"] = "Habla con {npc:180028} para empezar el evento de escolta."
 L["razorwing_note"] = "Devuelve 10 {item:187054} soltados por los devoradores de la zona."
 L["reliwik_note"] = "Haz click en el huevo de alafilada prístino para hacerlo bajar."
 L["spectral_bound_chest"] = "Haz click en las 3 {item:179369} cercanas para debloquear el cofre."
 L["spectral_bound_note"] = "Cofre reforzado espectral"
 L["towering_exterminator_note"] = "Aparece del portal del evento jurafauce. El evento puede aparecer en varios sitios a lo largo de Korthia."
-L["wilderling_note"] = "Haz click en el {npc:180014} para empezar el evento de doma."
+L["escaped_wilderling_note"] = "Haz click en el {npc:180014} para empezar el evento de doma."
 
 L["archivist_key_note"] = "Compra la %s del {npc:178257} para desbloquear."
 L["korthian_shrine_note"] = "Haz click en la roca con forma de espada para ganar {spell:352367} y poder ver el camino oculto al altar."
@@ -289,12 +292,16 @@ L["options_icons_riftbound_cache"] = "Alijos Vinculafalla"
 L["options_icons_riftbound_cache_desc"] = "Muestra donde están los alijos dentro de |cFFFFFF00La Falla|r."
 
 L["invasive_mawshroom"] = "Champifauces Invasivos"
+L["invasive_mawshroom_note"] = nil
 L["mawsworn_cache"] = "Alijo jurafauces"
+L["mawsworn_cache_note"] = nil
 L["pile_of_bones"] = "Montón de huesos"
 L["relic_cache"] = "Alijo de reliquias"
 L["shardhide_stash"] = "Alijo de pellejosquirla"
-L["shared_note"] = "Puedes recoger 5 de estos tesoros por día."
+L["korthia_shared_chest_note"] = "Puedes recoger 5 de estos tesoros por día."
 L["unusual_nest"] = "Nido de materiales inusuales"
+L["unusual_nest_note"] = nil
+
 L["options_icons_invasive_mawshroom_desc"] = "Muestra donde están los Champifauces Invasivos."
 L["options_icons_invasive_mawshroom"] = "Champifauces Invasivos (Diaria)"
 L["options_icons_korthia_dailies_desc"] = "Muestra donde están los tesoros diarios sin marcar."
