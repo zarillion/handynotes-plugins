@@ -248,7 +248,7 @@ Este raro soltará objetos de investigación extra después de consumir otros 40
 |cFFFF0000EL RARO NO HARÁ APARECER {npc:179758} PARA CONSUMIR SI ESTÁ EN COMBATE.|r
 ]]
 L["corpse_heap_note"] = "Habla con {npc:180079} para empezar el evento de recolección."
-L["darkmaul_note"] = "Recoge {item:187153} de los Champifauces Invasivos y alimenta a las {npc:180063} con ellos. Se ha de completar el evento 6 veces para conseguir la montura."
+L["darkmaul_note"] = "Recoge {item:187153} de los Champifauces Invasivos y alimenta a las {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura."
 L["dislodged_nest_note"] = "Haz click en una Polilla Nociva cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en el {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido."
 L["flayedwing_transporter_note"] = "Haz click en el {npc:178633} para volar a o desde la Cámara de los Secretos."
 L["forgotten_feather_note"] = "Flotando en una isla pequeña que se accede saltando hacia abajo desde el Respiro del Guardían."

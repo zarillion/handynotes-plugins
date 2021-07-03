@@ -851,13 +851,21 @@ local maelie = Class('Maelie', Collectible, {
 
 map.nodes[60682192] = maelie
 
-map.nodes[42873269] = Collectible({
+local function GetDarkmaulStatus ()
+    local count = select(4, GetQuestObjectiveInfo(64376, 0, false))
+    if count ~= nil then return ns.status.Gray(tostring(count)..'/10') end
+end
+
+local darkmaul = Class('Darkmaul', Collectible, {
     id=180063,
     icon=3931157,
     quest=64376,
     note=L["darkmaul_note"],
-    rewards={Mount({item=186646, id=1507})} -- Darkmaul
-})
+    rewards={Mount({item=186646, id=1507})}, -- Darkmaul
+    getters={rlabel=GetDarkmaulStatus}
+})()
+
+map.nodes[42873269] = darkmaul
 
 map.nodes[25725108] = Collectible({
     id=179871,
