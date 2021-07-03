@@ -782,6 +782,7 @@ map.nodes[61105160] = MAWC2
 map.nodes[61205790] = MAWC2
 map.nodes[62305860] = MAWC2
 map.nodes[47707430] = MAWC3
+map.nodes[47956674] = MAWC3
 map.nodes[54007280] = MAWC3
 map.nodes[56406950] = MAWC3
 map.nodes[56507470] = MAWC3
