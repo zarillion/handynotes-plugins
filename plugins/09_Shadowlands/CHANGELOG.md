@@ -1,3 +1,9 @@
+# v34
+
+* Added better indicators and notes for rift rares.
+* Added tracking for the Darkmaul and Dusklight Razorwing mounts.
+* Added new transmog drops discovered from wowhead.
+
 # v33
 
 * Fixed missing covenant icons on tooltips (broken in v32).
