@@ -1,3 +1,18 @@
+# v32
+
+* Added locations for Rift Hidden Caches in the Maw (rift phase).
+* Added locations for Rift Portals in Korthia.
+* Added locations for Riftbound Caches in Korthia (rift phase).
+* Added missing locations of Invasive Mawshrooms and Mawsworn Caches.
+* Added progress tracking for Maelie the Wanderer.
+* Numerous updates to notes and translations.
+* Rares displaced by the Night Fae assault are now hidden during the assault.
+* Rares, caches and relics in the Rift phase now only appear while in the rift.
+* Relic locations in Korthia now appear immediately after turning in [What Must Be Found](https://www.wowhead.com/quest=64506/what-must-be-found).
+* The four relics that require keys purchased at tier 2 reputation now display the correct key requirements.
+* Updated Stygia Nexus locations.
+* While in the rift (Korthia & Maw), outside nodes are now removed from the map.
+
 # v31
 
 * Added rares, treasures and mount locations for the new Korthia zone!
