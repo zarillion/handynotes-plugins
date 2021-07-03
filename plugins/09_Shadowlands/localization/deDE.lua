@@ -239,7 +239,13 @@ L["zolla_note"] = "Wir nehmen unsere Verteidigung sehr ernst. Ob groß oder klei
 -------------------------------------------------------------------------------
 
 L["chamber_note"] = "Verwende für den Uralten Teleporter ein {item:186718} von {npc:178257}. Benutze den Reparierten Uralten Teleporter, um die Kammer zu betreten."
-L["consumption_note"] = nil
+L["consumption_note"] = [[
+Wird keine Beute fallen lassen, bis er 40x {npc:179344} verzehrt hat, um sich in seine blauschattierte Form zu verwandeln (Selten).
+
+Lässt zusätzliche Gegenstände für {currency:1931} fallen, wenn er *erneut* 40x {npc:179344} verzehrt hat, um sich in seine grünschattierte Form zu verwandeln (Selten Elite).
+
+|cFFFF0000LÄSST KEINE {npc:179344} ZUM VERZEHREN ERSCHEINEN, WENN ER IM KAMPF IST.|r
+]]
 L["corpse_heap_note"] = "Sprich mit {npc:180079}, um das Sammelevent zu starten."
 L["darkmaul_note"] = "Sammel {item:187153} von einem Invasivem Schlundpilz und füttere {npc:180063} damit. Das Event muss 6 mal abgeschlossen werden, um das Reittier zu erhalten."
 L["dislodged_nest_note"] = "Klicke in der Nähe eine Giftige Motte an, um den Stärkungszauber {spell:355181} zu erhalten. Benutze den Extrabutton von {spell:355131} auf einen {npc:178547}, um die Kontrolle über ihn zu erlangen und dann reite mit ihm gegen den Baum, in dem der Schatz liegt."
