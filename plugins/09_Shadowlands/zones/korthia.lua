@@ -66,8 +66,8 @@ map.nodes[39405240] = Rare({
         Achievement({id=15107, criteria=52295}),
         Achievement({id=15066, criteria=52262}),
         Item({item=187103, quest=63917}), -- Everliving Statuette
-        Transmog({item=187366, slot=L["polearm"]}), -- Fallen Vault Guardian's Spire
-        Transmog({item=187391, slot=L["plate"]}) -- Yarxhov's Rib-Cage
+        Transmog({item=187391, slot=L["plate"]}), -- Yarxhov's Rib-Cage
+        Transmog({item=187366, slot=L["polearm"]}) -- Fallen Vault Guardian's Spire
     }
 }) -- Chamber of Knowledge
 
@@ -116,7 +116,7 @@ map.nodes[51822081] = Rare({
     quest=63830,
     rewards={
         Achievement({id=15107, criteria=52277}),
-        Transmog({item=187390, slot=L["plate"]}), -- Dominated Protector's Helm
+        Transmog({item=187390, slot=L["plate"]}) -- Dominated Protector's Helm
     }
 }) -- Dominated Protector
 
@@ -169,7 +169,7 @@ map.nodes[46507959] = Rare({
     note=L["no_stoneborne_note"],
     rewards={
         Achievement({id=15107, criteria=52276}),
-        Transmog({item=184790,slot=L["leather"]}) -- Archdruid Van-Yali's Greenthumbs
+        Transmog({item=184790, slot=L["leather"]}) -- Archdruid Van-Yali's Greenthumbs
         -- Mount({item=186479, id=, covenant=VENTHYR}) -- Mastercraft Gravewing
     }
 }) -- Stygian Stonecrusher
@@ -191,7 +191,7 @@ map.nodes[22604140] = Rare({
     quest=64291,
     rewards={
         Achievement({id=15107, criteria=52291}),
-        Transmog({item=187403,slot=L["cloak"]}) -- Relic Breaker's Drape
+        Transmog({item=187403, slot=L["cloak"]}) -- Relic Breaker's Drape
     }
 }) -- Relic Breaker Krelva
 
@@ -245,8 +245,11 @@ map.nodes[16007500] = Rare({
         Achievement({id=15107, criteria=52302}),
         Transmog({item=187373, slot=L["cloth"]}), -- Soul-Enveloping Leggings
         Transmog({item=187376, slot=L["leather"]}), -- Mawsworn Lieutenant's Treads
+        Transmog({item=187382, slot=L["mail"]}), -- Mawsworn Exterminator's Hauberk
+        Transmog({item=187392, slot=L["plate"]}), -- Sabatons of the Towering Construct
         Transmog({item=187241, slot=L["cosmetic"]}), -- Watchful Eye of the Damned
-        Transmog({item=187242, slot=L["cosmetic"]}) -- Exterminator's Crest of the Damned
+        Transmog({item=187242, slot=L["cosmetic"]}), -- Exterminator's Crest of the Damned
+        Transmog({item=187035, slot=L["cosmetic"]}) -- Cold Burden of the Damned
     }
 }) -- Towering Exterminator
 
@@ -257,9 +260,9 @@ map.nodes[14507900] = Rare({
     note=L["pop_quiz_note"],
     rewards={
         Achievement({id=15107, criteria=52319}),
-        Transmog({item=187369,slot=L["cloth"]}), -- Ve'rayn's Formal Robes
+        Item({item=187264, quest=64513}), -- Ve'rayn's Head
         Item({item=187404, note=L["neck"]}), -- Cartel Ve Amulet
-        Item({item=187264, quest=64513}) -- Ve'rayn's Head
+        Transmog({item=187369, slot=L["cloth"]}) -- Ve'rayn's Formal Robes
     }
 }) -- Ve'rayn
 
@@ -273,6 +276,8 @@ map.nodes[59335221] = Rare({
     rift=2,
     rewards={
         Achievement({id=15107, criteria=52275}),
+        Item({item=187401, note=L["ring"]}), -- Band of the Shaded Rift
+        Transmog({item=187396, slot=L["plate"]}), -- Girdle of the Deadsoul
         Toy({item=187174}) -- Shaded Judgement Stone
     }
 }) -- Deadsoul Hatcher
@@ -285,6 +290,8 @@ map.nodes[50307590] = Rare({
     rift=2,
     rewards={
         Achievement({id=15107, criteria=52294}),
+        Item({item=187405, note=L["neck"]}), -- Choker of the Hidden Observer
+        Transmog({item=187365, slot=L["1h_axe"]}), -- Rift Splitter
         Toy({item=187420}) -- Maw-Ocular Viewfinder
     }
 }) -- Observer Yorik
@@ -296,7 +303,8 @@ map.nodes[44604240] = Rare({
     note=L["rift_rare_exit_note"],
     rift=2,
     rewards={
-        Achievement({id=15107, criteria=52273})
+        Achievement({id=15107, criteria=52273}),
+        Transmog({item=187400, slot=L["cloth"]}) -- Mantle of Screaming Shadows
     }
 }) -- Screaming Shade
 
