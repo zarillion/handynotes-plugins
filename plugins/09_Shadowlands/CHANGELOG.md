@@ -1,3 +1,7 @@
+# v33
+
+* Fixed missing covenant icons on tooltips (broken in v32).
+
 # v32
 
 * Added locations for Rift Hidden Caches in the Maw (rift phase).
