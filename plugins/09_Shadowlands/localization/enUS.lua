@@ -239,11 +239,11 @@ L["zolla_note"] = "We take our defenses very seriously. Whether small or large, 
 
 L["chamber_note"] = "Use a {item:186718} from {npc:178257} on the Ancient Teleporter. Use the repaired Ancient Teleporter to access the chamber."
 L["consumption_note"] = [[
-This rare will not drop loot until after it consumes 40x {npc:179344} to transform into its blue-shaded form (Rare).
+This rare will not drop loot until after it consumes 40x {npc:179758} to transform into its blue-shaded form (Rare).
 
-This rare will drop extra research items after it consumes *another* 40x {npc:179344} to transform into its green-shaded form (Rare Elite).
+This rare will drop extra research items after it consumes *another* 40x {npc:179758} to transform into its green-shaded form (Rare Elite).
 
-|cFFFF0000THE RARE WILL NOT SPAWN {npc:179344} TO CONSUME WHILE IN COMBAT.|r
+|cFFFF0000THE RARE WILL NOT SPAWN {npc:179758} TO CONSUME WHILE IN COMBAT.|r
 ]]
 L["corpse_heap_note"] = "Talk to {npc:180079} to start the collection event."
 L["darkmaul_note"] = "Collect {item:187153} from Invasive Mawshrooms and feed them to {npc:180063}. You must complete the event 6 times to obtain the mount."
