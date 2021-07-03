@@ -76,7 +76,9 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### Korthia
 
+* Relic locations for the [Reliquary Restoration](https://www.wowhead.com/achievement=15066/reliquary-restoration) achievement and [The Archivists' Codex](https://www.wowhead.com/faction=2472/the-archivists-codex) reputation.
 * Daily treasure locations for collecting research ([The Archivists' Codex](https://www.wowhead.com/faction=2472/the-archivists-codex) reputation).
+* [Rift Portal](https://www.wowhead.com/npc=179595/rift-portal) locations for entering the rift phase of Korthia and the Maw.
 * Invasive Mawshroom locations for the [Darkmaul](https://www.wowhead.com/spell=354358/darkmaul) mount.
 * [Maelie the Wanderer](https://www.wowhead.com/npc=179912/maelie-the-wanderer) locations for the [Wandering Arden Doe](https://www.wowhead.com/spell=354362/wandering-arden-doe) mount.
 * [Dusklight Matriarch](https://www.wowhead.com/npc=179871/dusklight-matriarch) nest location for the [Dusklight Razorwing](https://www.wowhead.com/spell=354361/dusklight-razorwing) mount.
