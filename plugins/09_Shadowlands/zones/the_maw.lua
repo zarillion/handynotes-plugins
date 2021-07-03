@@ -142,7 +142,9 @@ map.nodes[61334129] = Rare({
     quest=64251,
     note=L["deomen_note"],
     rewards={
-        Achievement({id=15107, criteria=52286})
+        Achievement({id=15107, criteria=52286}),
+        Transmog({item=187385, slot=L["mail"]}), -- Vortex Piercing Headgear
+        Transmog({item=187367, slot=L["1h_sword"]}) -- Deomen's Vortex Blade
     },
     pois={
         POI({63274368}) -- Entrance
@@ -336,7 +338,7 @@ map.nodes[69044897] = Rare({
     quest=64258, -- 64439?
     rewards={
         Achievement({id=15107, criteria=52289}),
-        Transmog({item=187374, slot=L["cloth"]}) -- Balthier's Waistcord
+        Transmog({item=187374, slot=L["cloth"]}) -- Balthier's Waistcord (no drop on live)
     }
 }) -- Traitor Balthier
 
@@ -365,6 +367,7 @@ map.nodes[66404400] = Rare({
         Achievement({id=14943, criteria=51681}),
         Transmog({item=187359, slot=L["shield"]}), -- Ylva's Water Dish
         Transmog({item=186217, slot=L["leather"]}), -- Supple Helhound Leather Pants
+        Transmog({item=187393, slot=L["plate"]}), -- Sterling Hound-Handler's Gauntlets
         Item({item=186970, quest=62683, note="{item:186727}"}) -- Feeder's Hand and Key / Seal Breaker Key
     }
 }) -- Ylva, Mate of Guarm
@@ -389,7 +392,8 @@ map.nodes[49307274] = Rare({
     rlabel=ns.GetIconLink('portal_gy', 20, 4, 1),
     note=L["rift_rare_only_note"],
     rewards={
-        Achievement({id=15107, criteria=52293})
+        Achievement({id=15107, criteria=52293}),
+        Transmog({item=187398, slot=L["leather"]}) -- Chestguard of the Shadeguard
     },
     rift=2,
     pois={
@@ -416,6 +420,7 @@ map.nodes[27672526] = Rare({
     rewards={
         Achievement({id=15107, criteria=52284}),
         Item({item=186605}), -- Nilganihmaht's Runed Band
+        Transmog({item=187360, slot=L["offhand"]}), -- Orb of Enveloping Rifts
         Toy({item=187139}) -- Bottled Shade Heart
     }
 }) -- Torglluun
