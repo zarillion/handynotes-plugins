@@ -272,20 +272,20 @@ L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Zeigt die 20 Relikte für den Erfolg {achievement:15066} an."
 
 L["rift_portal_note"] = [[
-Betritt |cFFFFFF00den Riss|r, eine alterative Phase von Korthia und des Schlunds mit zusätzlichen seltenen Gegnern, Relikten und Truhen.
+Betritt den |cFFFFFF00Riss|r, eine alterative Phase von Korthia und des Schlunds mit zusätzlichen seltenen Gegnern, Relikten und Truhen.
 
 Benötigt einen {item:186731}, den man bei {npc:178257} kaufen kann, wenn Stufe 4 bei {faction:2472} erreicht wurde. Die Schlüssel haben auch eine geringe Chance von seltenen Gegnern und Truhen in der Zone geplündert zu werden.
 
 |cFFFF8C00Nicht alle Rissportale sind gleichzeitig aktiv.|r
 ]]
-L["rift_rare_only_note"] = nil
-L["rift_rare_exit_note"] = nil
+L["rift_rare_only_note"] = "Dieser seltene Gegner kann nur gesehen und getötet werden, während man sich im |cFFFFFF00Riss|r befindet."
+L["rift_rare_exit_note"] = "Dieser seltene Gegner wird den |cFFFFFF00Riss|r verlassen, wenn mit ihm im |cFFFFFF00Riss|r interagiert wurde."
 L["options_icons_rift_portal"] = "{npc:179595}"
-L["options_icons_rift_portal_desc"] = "Zeigt die Positionen von {npc:179595en} an, um |cFFFFFF00den Riss|r zu betreten."
+L["options_icons_rift_portal_desc"] = "Zeigt die Positionen von {npc:179595en} an, um den |cFFFFFF00Riss|r zu betreten."
 
 L["riftbound_cache"] = "Rissgebundene Truhe"
 L["options_icons_riftbound_cache"] = "Rissgebundene Truhen"
-L["options_icons_riftbound_cache_desc"] = "Zeigt die Positionen von Truhen innerhalb |cFFFFFF00des Riss|r an."
+L["options_icons_riftbound_cache_desc"] = "Zeigt die Positionen von Truhen innerhalb des |cFFFFFF00Riss|r an."
 
 L["invasive_mawshroom"] = "Invasiver Schlundpilz"
 L["mawsworn_cache"] = "Schlundgebundene Truhe"
@@ -480,7 +480,7 @@ L["deomen_note"] = "Betritt die Kammer (bei 63.3 43.7) und aktiviere die beiden 
 L["drifting_sorrow_note"] = "Töte {npc:175246} in der Nähe der schwebenden Kugel, um den Boss zu aktivieren."
 L["ekphoras_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören."
 L["etherwyrm_label"] = "Ätherwyrmkäfig"
-L["etherwyrm_note"] = "Es muss ein Angriff der Nachfae aktiv sein. Töte einen {npc:179030} während du im Riss bist, um einen {item:186190} zu erhalten. Benutze den Schlüssel für den Ätherwyrmkäfig (außerhalb des Riss) in der Desolate Höhle (wo sich {npc:175821} befindet, wenn der Angriff nicht aktiv ist)."
+L["etherwyrm_note"] = "Es muss ein Angriff der Nachfae aktiv sein. Töte einen {npc:179030} während du im |cFFFFFF00Riss|r bist, um einen {item:186190} zu erhalten. Benutze den Schlüssel für den Ätherwyrmkäfig (außerhalb des |cFFFFFF00Riss|r) in der Desolate Höhle (wo sich {npc:175821} befindet, wenn der Angriff nicht aktiv ist)."
 L["fallen_charger_note"] = "Nach einem Zonenweiten Schrei, wird es einen der beiden Pfade entlang reiten, bis es Korthia erreicht und wieder verschwindet."
 L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen."
 L["lilabom_note"] = "Sammel alle 5 Teile, um das Haustier zu vervollständigen."
@@ -580,7 +580,7 @@ L["nexus_misc_three_chains"] = "Auf dem Boden bei drei Ketten."
 
 L["rift_hidden_cache"] = "Versteckte Risstruhe"
 L["options_icons_rift_hidden_cache"] = "Versteckte Risstruhen"
-L["options_icons_rift_hidden_cache_desc"] = "Zeigt die Positionen von versteckten Risstruhen innerhalb |cFFFFFF00des Riss|r an."
+L["options_icons_rift_hidden_cache_desc"] = "Zeigt die Positionen von versteckten Risstruhen innerhalb des |cFFFFFF00Riss|r an."
 
 L["options_icons_bonus_boss"] = "Bonus Elitegegner"
 L["options_icons_bonus_boss_desc"] = "Zeigt die Positionen von Bonus Elitegegnern."
@@ -610,6 +610,6 @@ L["harrower_key_ring"] = "Schlüsselring der Plagerin"
 L["harrower_key_note"] = "In einer Kammer, an der Wand bei {npc:178311}."
 L["helgarde_supply"] = "Vorratskiste von Helgarde"
 L["maw_mad_note"] = "Läuft zufällig in der Verdammnisfestung umher, erscheint immer hier."
-L["nilganihmaht_note"] = "Es müssen fünf Ringe gesammelt und diese zur {npc:179572} im Riss gebracht werden."
+L["nilganihmaht_note"] = "Es müssen fünf Ringe gesammelt und diese zur {npc:179572} im |cFFFFFF00Riss|r gebracht werden."
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "Zeigt die Positionen der Ringe für das geheime Reittier {spell:354354} an. "
