@@ -246,7 +246,11 @@ L["consumption_note"] = [[
 
 |cFFFF0000*{npc:179758} 在此稀有战斗中将不会刷新并被吞噬。*|r
 ]]
-L["darkmaul_note"] = "从入侵的渊菇收集 {item:187153} 并喂食给 {npc:180063}。你必须完成事件10次获得坐骑。"
+L["darkmaul_note"] = [[
+从入侵的渊菇收集 {item:187153} 并喂食给 {npc:180063}。你必须完成事件10次获得坐骑。
+
+|cFFFF8C00如果你在团队中进程将不会被计数！|r
+]]
 L["dislodged_nest_note"] = "点击附近的剧毒之蛾获得 {spell:355181}。使用 {spell:355131} 额外动作按钮给 {npc:178547} 来获得控制和骑上它进入巢所在的树中。"
 L["escaped_wilderling_note"] = "点击 {npc:180014} 开始驯服事件。"
 L["flayedwing_transporter_note"] = "点击 {npc:178633} 飞向和飞离绝密宝库。"
@@ -259,7 +263,11 @@ L["maelie_wanderer"] = "{npc:179912} 将在当天固定位置出现。使用 {sp
 L["malbog_note"] = "和 {npc:179729} 交谈获得 {spell:355078} 并跟随脚印直到你找到血肉遗骸。"
 L["offering_box_note"] = "需要 {item:187033}，可以在附近废墟的西侧墙顶部找到。"
 L["pop_quiz_note"] = "突击测验事件将在地图上随机出现。点击废弃的帷幕之杖并回答 {npc:180162} 的问题。"
-L["razorwing_note"] = "交付从吞噬者掉落的10个 {item:187054}。"
+L["razorwing_note"] = [[
+交付区域内吞噬者掉落的10个 {item:187054}。
+
+|cFFFF8C00如果你在团队中进程将不会被计数！|r
+]]
 L["reliwik_note"] = "点击纯净的的刀翼兽之卵并击杀它。"
 L["spectral_bound_chest"] = "点击附近的3个幽魂钥匙解锁宝箱。"
 L["spectral_bound_note"] = "幽魂束缚宝箱"
@@ -297,7 +305,7 @@ L["mawsworn_cache_note"] = "这3个独立宝箱每个都可以出现在特定位
 L["pile_of_bones"] = "骨堆"
 L["relic_cache"] = "圣物宝箱"
 L["shardhide_stash"] = "碎皮贮藏"
-L["korthia_shared_chest_note"] = "你可以每天收集5个宝箱收集圣物，在这之后宝箱只包含垃圾。"
+L["korthia_shared_chest_note"] = "你可以每天收集5个宝箱收集圣物，额外的宝箱可能包含传奇水晶和装备绑定装备代币。"
 L["unusual_nest"] = "异常材料之巢"
 L["unusual_nest_note"] = "全部5个巢每天都可以拾取。"
 
@@ -583,10 +591,10 @@ L["nexus_misc_grapple_rock"] = "通过锚点到岩石上"
 L["nexus_misc_ledge_below"] = "在窗台下的地面上 "
 L["nexus_misc_three_chains"] = "在地上的三个铁链"
 
-L["stolen_anima_vessel"] = nil
-L["hidden_anima_cache"] = nil
-L["options_icons_anima_vessel"] = nil
-L["options_icons_anima_vessel_desc"] = nil
+L["stolen_anima_vessel"] = "被窃心能容器"
+L["hidden_anima_cache"] = "隐藏心能宝箱"
+L["options_icons_anima_vessel"] = "被窃心能容器"
+L["options_icons_anima_vessel_desc"] = "显示 |cFFFFFF00The Rift|r 中的心能容器位置。"
 
 L["rift_hidden_cache"] = "隙隐宝箱"
 L["options_icons_rift_hidden_cache"] = "隙隐宝箱"
