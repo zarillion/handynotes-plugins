@@ -239,7 +239,7 @@ L["zolla_note"] = "Nous prenons nos défenses très au sérieux. Qu'elles soient
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["carriage_crusher_note"] = nil
+L["carriage_crusher_note"] = "Suivez la {npc:180182} dans l'Antre et défendez-là jusqu'à ce que l'{npc:180246} attaque."
 L["chamber_note"] = "Utilisez une {item:186718} de l'{npc:178257} sur le Téléporteur ancien. Utilise le Téléporteur ancien réparé pour accéder à la chambre."
 L["consumption_note"] = [[
 Ce monstre rare ne laissera pas de butin avant d'avoir consommé 40 {npc:179758} pour se transformer en sa forme bleue (Rare).
@@ -248,20 +248,28 @@ Ce monstre rare laissera tomber des objets de recherche supplémentaires après 
 
 |cFFFF0000LE MONSTRE RARE NE FERA PAS APPARAÎTRE DES {npc:179758} POUR LES CONSOMMER SI ENGAGÉ EN COMBAT.|r
 ]]
-L["darkmaul_note"] = "Collectez des {item:187153} sur les champignantre envahissants et nourrissez {npc:180063} avec. Vous devez terminer l'événement 10 fois pour obtenir la monture."
+L["darkmaul_note"] = [[
+Collectez des {item:187153} sur les champignantre envahissants et nourrissez {npc:180063} avec. Vous devez terminer l'événement 10 fois pour obtenir la monture.
+
+|cFFFF8C00La progression ne sera pas comptabilisée si vous êtes dans un groupe de raid !|r
+]]
 L["dislodged_nest_note"] = "Cliquez sur un papillon nocif proche pour obtenir {spell:355181}. Utilisez le bouton d'action supplémentaire {spell:355131} sur un {npc:178547} pour en prendre le contrôle et le conduire dans l'arbre où se trouve le nid."
 L["escaped_wilderling_note"] = "Cliquez sur le {npc:180014} pour lancer l'événement de domptage."
 L["flayedwing_transporter_note"] = "Cliquez sur {npc:178633} pour voler vers ou depuis le Caveau des Secrets."
 L["fleshwing_note"] = "Parlez à {npc:180079} pour commencer l'événement de collecte."
 L["forgotten_feather_note"] = "Flottant sur une petite île à laquelle on accède en sautant depuis le Répit du gardien."
 L["konthrogz_note"] = "Apparaît lors d'un événement lié à un portail de dévoreur. L'événement peut apparaître dans de nombreux endroits de Korthia."
-L["krelva_note"] = nil
-L["kroke_note"] = nil
+L["krelva_note"] = "Se déplace vers une autre plateforme à 80%, puis se déplace vers la terre ferme à 60%. |cFFFF8C00Vous devez attaquer le rare après 60% pour être compté dans le combat !|r"
+L["kroke_note"] = "Tuez des {npc:179029s} dans la zone jusqu'à ce qu'il apparaisse. Ne peut pas apparaître les jours où les {npc:179029s} sont absents."
 L["maelie_wanderer"] = "{npc:179912} apparaîtra à un endroit défini pour la journée. Une fois que vous avez utilisé {spell:355862} sur elle 6 jours différents, revenez voir {npc:179930} pour obtenir la monture."
 L["malbog_note"] = "Parlez au {npc:179729} pour obtenir {spell:355078} et suivez les traces de pas jusqu'à ce que vous trouviez les restes de chair."
 L["offering_box_note"] = "Requiert une Petite clé des offrandes qui peut être trouvée sur le haut du mur ouest des ruines voisines."
 L["pop_quiz_note"] = "L'événement Pop Quizz apparaîtra aléatoirement sur la carte. Cliquez sur le Mât voilé abandonné et répondez aux questions de {npc:180162}."
-L["razorwing_note"] = "Apportez 10 {item:187054} obtenus sur les dévoreurs dans la zone."
+L["razorwing_note"] = [[
+Apportez 10 {item:187054} obtenus sur les dévoreurs dans la zone.
+
+|cFFFF8C00La progression ne sera pas comptabilisée si vous êtes dans un groupe de raid !|r
+]]
 L["reliwik_note"] = "Cliquez sur l'oeuf de rasaile non corrompu pour le faire descendre."
 L["spectral_bound_chest"] = "Cliquez sur 3 clés spectrales proches pour déverrouiller le coffre."
 L["spectral_bound_note"] = "Coffre cerclé spectral"
@@ -288,20 +296,20 @@ L["options_icons_rift_portal"] = "{npc:179595s}"
 L["options_icons_rift_portal_desc"] = "Afficher les emplacements des {npc:179595s} utilisés pour entrer dans |cFFFFFF00La Faille|r."
 
 L["riftbound_cache"] = "Cache liée à la faille"
-L["riftbound_cache_note"] = nil
+L["riftbound_cache_note"] = "Il y a 4 caches uniques qui peuvent apparaître à des endroits précis dans la faille."
 L["options_icons_riftbound_cache"] = "Caches liées à la faille"
 L["options_icons_riftbound_cache_desc"] = "Afficher les emplacements des caches à l'intérieur de |cFFFFFF00La Faille|r."
 
 L["invasive_mawshroom"] = "Champignantre envahissant"
-L["invasive_mawshroom_note"] = nil
+L["invasive_mawshroom_note"] = "Il y a 5 champignantres uniques qui peuvent chacun apparaître à des endroits précis."
 L["mawsworn_cache"] = "Cache antrelige"
-L["mawsworn_cache_note"] = nil
+L["mawsworn_cache_note"] = "Il y a 3 caches uniques qui peuvent chacune apparaître à des endroits précis."
 L["pile_of_bones"] = "Pile d'ossements"
 L["relic_cache"] = "Cache à relique"
 L["shardhide_stash"] = "Cachette de cuirasaure"
-L["korthia_shared_chest_note"] = "Vous pouvez collecter 5 de ces trésors par jour."
+L["korthia_shared_chest_note"] = "Vous pouvez récupérer des reliques dans ces trésors 5 fois par jour. Les coffres supplémentaires peuvent contenir des cristaux légendaires et des jetons d'équipement liés au compte."
 L["unusual_nest"] = "Tas de matériaux inhabituels."
-L["unusual_nest_note"] = nil
+L["unusual_nest_note"] = "Les 5 emplacements de nids peuvent être pillés chaque jour."
 
 L["options_icons_invasive_mawshroom_desc"] = "Afficher les emplacements des Champignantres envahissants."
 L["options_icons_invasive_mawshroom"] = "Champignantres envahissants (Quotidien)"
@@ -587,10 +595,10 @@ L["nexus_misc_grapple_rock"] = "Près d'une prise de grappin sur un rocher"
 L["nexus_misc_ledge_below"] = "Sur le sol, sous une corniche"
 L["nexus_misc_three_chains"] = "Sur le sol près de trois chaînes"
 
-L["stolen_anima_vessel"] = nil
-L["hidden_anima_cache"] = nil
-L["options_icons_anima_vessel"] = nil
-L["options_icons_anima_vessel_desc"] = nil
+L["stolen_anima_vessel"] = "Réceptacle d’anima volé"
+L["hidden_anima_cache"] = "Cache d'Anima cachée"
+L["options_icons_anima_vessel"] = "Réceptacles d’anima volés"
+L["options_icons_anima_vessel_desc"] = "Afficher les emplacements des réceptacles d’anima à l'intérieur de |cFFFFFF00La Faille|r."
 
 L["rift_hidden_cache"] = "Cache secrète de la faille"
 L["options_icons_rift_hidden_cache"] = "Caches secrètes de la faille"
