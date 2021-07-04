@@ -246,7 +246,11 @@ This rare will drop extra research items after it consumes *another* 40x {npc:17
 
 |cFFFF0000THE RARE WILL NOT SPAWN {npc:179758} TO CONSUME WHILE IN COMBAT.|r
 ]]
-L["darkmaul_note"] = "Collect {item:187153} from Invasive Mawshrooms and feed them to {npc:180063}. You must complete the event 10 times to obtain the mount."
+L["darkmaul_note"] = [[
+Collect {item:187153} from Invasive Mawshrooms and feed them to {npc:180063}. You must complete the event 10 times to obtain the mount.
+
+|cFFFF8C00Progress will not be counted if you are in a raid group!|r
+]]
 L["dislodged_nest_note"] = "Click on a nearby Noxious Moth to gain {spell:355181}. Use the {spell:355131} extra action button on {npc:178547} to gain control and ride it into the tree the nest is in."
 L["escaped_wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 L["flayedwing_transporter_note"] = "Click on {npc:178633} to fly to or from the Vault of Secrets."
@@ -259,7 +263,11 @@ L["maelie_wanderer"] = "{npc:179912} will spawn in a set location for the day. O
 L["malbog_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
 L["offering_box_note"] = "Requires Small Offering Key which can be found on the top of the west side wall of the near by ruins."
 L["pop_quiz_note"] = "The Pop Quiz event will spawn randomly on the map. Click on the Abandoned Veilstaff and answer the questions from {npc:180162}."
-L["razorwing_note"] = "Hand in 10x {item:187054} dropped by devourers in the area."
+L["razorwing_note"] = [[
+Hand in 10x {item:187054} dropped by devourers in the area.
+
+|cFFFF8C00Progress will not be counted if you are in a raid group!|r
+]]
 L["reliwik_note"] = "Click on the uncorrupted razorwing egg to pull him down."
 L["spectral_bound_chest"] = "Spectral Bound Chest"
 L["spectral_bound_note"] = "Click on 3 nearby Spectral Keys to unlock the chest."

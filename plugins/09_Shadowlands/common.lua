@@ -214,21 +214,33 @@ ns.groups.MAWSWORN_CACHE = Group('mawsworn_cache', 3729814, {defaults=ns.GROUP_H
 ns.groups.NEST_MATERIALS = Group('nest_materials', 136064, {defaults=ns.GROUP_HIDDEN75})
 ns.groups.NILGANIHMAHT_MOUNT = Group('nilganihmaht', 1391724, {defaults=ns.GROUP_HIDDEN75})
 ns.groups.STYGIA_NEXUS = Group('stygia_nexus', 'peg_gn', {defaults=ns.GROUP_HIDDEN75})
-ns.groups.RELIC = Group('relic', 'star_chest_b', {defaults=ns.GROUP_ALPHA75})
 ns.groups.RIFTSTONE = Group('riftstone', 'portal_bl')
-ns.groups.RIFTBOUND_CACHE = Group('riftbound_cache', 'chest_bk', {defaults=ns.GROUP_HIDDEN75})
-ns.groups.RIFT_HIDDEN_CACHE = Group('rift_hidden_cache', 'chest_bk', {defaults=ns.GROUP_HIDDEN75})
+ns.groups.RIFTBOUND_CACHE = Group('riftbound_cache', 'chest_bk', {defaults=ns.GROUP_ALPHA75})
+ns.groups.RIFT_HIDDEN_CACHE = Group('rift_hidden_cache', 'chest_bk', {defaults=ns.GROUP_ALPHA75})
 ns.groups.RIFT_PORTAL = Group('rift_portal', 'portal_gy')
 ns.groups.SINRUNNER = Group('sinrunners', 'horseshoe_o', {defaults=ns.GROUP_HIDDEN})
 ns.groups.SLIME_CAT = Group('slime_cat', 3732497, {defaults=ns.GROUP_HIDDEN})
 ns.groups.STYGIAN_CACHES = Group('stygian_caches', 'chest_nv', {defaults=ns.GROUP_HIDDEN})
 ns.groups.VESPERS = Group('vespers', 3536181, {defaults=ns.GROUP_HIDDEN})
 
-function ns.groups.RELIC:IsEnabled()
-    -- Relics cannot be collected until the quest "What Must Be Found" is completed
-    if not C_QuestLog.IsQuestFlaggedCompleted(64506) then return false end
-    return Group.IsEnabled(self)
-end
+ns.groups.ANIMA_VESSEL = Group('anima_vessel', 'chest_tl', {
+    defaults=ns.GROUP_ALPHA75,
+    IsEnabled=function (self)
+        -- Anima vessels and caches cannot be seen until the "Vault Anima Tracker"
+        -- upgrade is purchased from the Death's Advance quartermaster
+        if not C_QuestLog.IsQuestFlaggedCompleted(64061) then return false end
+        return Group.IsEnabled(self)
+    end
+})
+
+ns.groups.RELIC = Group('relic', 'star_chest_b', {
+    defaults=ns.GROUP_ALPHA75,
+    IsEnabled=function (self)
+        -- Relics cannot be collected until the quest "What Must Be Found" is completed
+        if not C_QuestLog.IsQuestFlaggedCompleted(64506) then return false end
+        return Group.IsEnabled(self)
+    end
+})
 
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------

@@ -46,6 +46,7 @@ function map:CanDisplay(node, coord, minimap)
     return Map.CanDisplay(self, node, coord, minimap)
 end
 
+local ext = Map({id=1822}) -- Extractor's Sanatorium
 local pitu = Map({id=1820}) -- Pit of Anguish (upper)
 local pitl = Map({id=1821}) -- Pit of Anguish (lower)
 
@@ -788,7 +789,7 @@ local Lore = Class('MawLore', Treasure, {
     end
 })
 
-Map({id=1822}).nodes[73121659] = Lore({
+ext.nodes[73121659] = Lore({
     quest=63157,
     note=L["box_of_torments_note"],
     parent={ id=map.id, pois={POI({27702020})} },
@@ -969,6 +970,55 @@ pitu.nodes[53376624] = Nexus({note=L["nexus_cave_anguish_upper"], parent=map.id}
 pitu.nodes[66355542] = Nexus({note=L["nexus_cave_anguish_upper"], parent=map.id})
 pitl.nodes[45526802] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id})
 pitl.nodes[67185536] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id})
+
+-------------------------------------------------------------------------------
+-------------------------------- ANIMA VESSELS --------------------------------
+-------------------------------------------------------------------------------
+
+local AnimaVessel = Class('AnimaVessel', Treasure, {
+    label=L["stolen_anima_vessel"],
+    note=L["stolen_anima_vessel_note"],
+    group=ns.groups.ANIMA_VESSEL,
+    rift=1,
+    rewards={
+        ns.relics.relic_fragment
+    }
+})
+
+local VESSEL1 = AnimaVessel({icon='chest_rd', quest=nil})
+local VESSEL2 = AnimaVessel({icon='chest_bl', quest=nil})
+local VESSEL3 = AnimaVessel({icon='chest_yw', quest=64269}) -- 64534
+local VESSEL4 = AnimaVessel({icon='chest_pp', quest=64265})
+local VESSEL5 = AnimaVessel({icon='chest_gn', quest=64270})
+
+-- object=368953
+map.nodes[17304780] = VESSEL1
+map.nodes[18604260] = VESSEL1
+map.nodes[18905030] = VESSEL1
+map.nodes[22704850] = VESSEL1
+-- object=??????
+-- map.nodes[] = VESSEL2
+-- object=369235
+map.nodes[32404309] = VESSEL3
+map.nodes[35704620] = VESSEL3
+map.nodes[36264215] = VESSEL3
+-- object=??????
+map.nodes[51008544] = VESSEL4
+-- object=368952
+map.nodes[25303330] = VESSEL5
+map.nodes[25303820] = VESSEL5
+map.nodes[27474948] = VESSEL5
+map.nodes[27804180] = VESSEL5
+-- object=369786
+ext.nodes[62263305] = AnimaVessel({
+    icon='chest_pk',
+    label=L["hidden_anima_cache"],
+    quest=64575,
+    rewards={},
+    parent=map.id
+})
+
+-- Zovaal's Vault 47257968
 
 -------------------------------------------------------------------------------
 ----------------------------- RIFT HIDDEN CACHES ------------------------------
