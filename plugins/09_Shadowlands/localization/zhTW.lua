@@ -305,7 +305,7 @@ L["mawsworn_cache_note"] = "總共有3個淵誓儲物箱會出現在對應的幾
 L["pile_of_bones"] = "白骨堆"
 L["relic_cache"] = "文物箱"
 L["shardhide_stash"] = "晶皮儲藏物"
-L["korthia_shared_chest_note"] = "你一天可以收集5個這些寶藏"
+L["korthia_shared_chest_note"] = "你一天可以在這些寶藏收集文物5次. 除此之外的箱子可能會含有科西亞水晶和帳號綁定的裝備兌換物"
 L["unusual_nest"] = "不尋常材料之巢"
 L["unusual_nest_note"] = "5個位置的巢一天都可被拾取一次"
 
@@ -591,10 +591,10 @@ L["nexus_misc_grapple_rock"] = nil
 L["nexus_misc_ledge_below"] = nil
 L["nexus_misc_three_chains"] = nil
 
-L["stolen_anima_vessel"] = nil
-L["hidden_anima_cache"] = nil
-L["options_icons_anima_vessel"] = nil
-L["options_icons_anima_vessel_desc"] = nil
+L["stolen_anima_vessel"] = "遭竊靈魄容器"
+L["hidden_anima_cache"] = "隱藏靈魄寶箱"
+L["options_icons_anima_vessel"] = "遭竊靈魄容器"
+L["options_icons_anima_vessel_desc"] = "顯示 |cFFFFFF00裂隙|r 中靈魄容器的位置"
 
 L["rift_hidden_cache"] = "裂隙隱藏寶箱"
 L["options_icons_rift_hidden_cache"] = "裂隙隱藏寶箱"
