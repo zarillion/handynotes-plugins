@@ -112,6 +112,7 @@ map.nodes[39014119] = Rare({
 map.nodes[27731305] = Rare({
     id=171317,
     quest=61106,
+    noassault=63822,
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49844}),
@@ -317,6 +318,7 @@ map.nodes[28701204] = Rare({
     id=170302,
     quest=60789, -- 62722?
     note=L["talaporas_note"],
+    noassault=63822,
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49858}),
