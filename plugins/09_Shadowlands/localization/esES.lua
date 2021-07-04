@@ -248,7 +248,11 @@ Este raro soltará objetos de investigación extra después de consumir otros 40
 
 |cFFFF0000EL RARO NO HARÁ APARECER {npc:179758} PARA CONSUMIR SI ESTÁ EN COMBATE.|r
 ]]
-L["darkmaul_note"] = "Recoge {item:187153} de los Champifauces Invasivos y alimenta a las {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura."
+L["darkmaul_note"] = [[
+Recoge {item:187153} de los Champifauces Invasivos y alimenta a la {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura."
+
+|cFFFF8C00¡El progreso no contará si estás en una banda!|r
+]]
 L["dislodged_nest_note"] = "Haz click en una Polilla Nociva cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en el {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido."
 L["escaped_wilderling_note"] = "Haz click en el {npc:180014} para empezar el evento de doma."
 L["flayedwing_transporter_note"] = "Haz click en el {npc:178633} para volar a o desde la Cámara de los Secretos."
@@ -261,7 +265,11 @@ L["maelie_wanderer"] = "{npc:179912} aparecerá en varios sitios durante el día
 L["malbog_note"] = "Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos."
 L["offering_box_note"] = "Requiere una {item:187033} que se puede encontrar en la parte superior de la pared del lado oeste de las ruinas cercanas."
 L["pop_quiz_note"] = "El evento del Cuestionario aparecerá aleatoriamente en el mapa. Haz click en el Bastón del Velo Abandonado y responde a las preguntas de {npc:180162}."
-L["razorwing_note"] = "Devuelve 10 {item:187054} soltados por los devoradores de la zona."
+L["razorwing_note"] = [[
+Devuelve 10 {item:187054} soltados por los devoradores de la zona."
+
+|cFFFF8C00¡El progreso no contará si estás en una banda!|r
+]]
 L["reliwik_note"] = "Haz click en el huevo de alafilada prístino para hacerlo bajar."
 L["spectral_bound_chest"] = "Haz click en las 3 {item:179369} cercanas para debloquear el cofre."
 L["spectral_bound_note"] = "Cofre reforzado espectral"
@@ -299,7 +307,7 @@ L["mawsworn_cache_note"] = "Sólo pueden aparecer 3 alijos diferentes en un conj
 L["pile_of_bones"] = "Montón de huesos"
 L["relic_cache"] = "Alijo de reliquias"
 L["shardhide_stash"] = "Alijo de pellejosquirla"
-L["korthia_shared_chest_note"] = "Se pueden coger reliquias de estos tesoros 5 veces al día. Después, los alijos sólo tendrán basura."
+L["korthia_shared_chest_note"] = "Se pueden coger reliquias de estos tesoros 5 veces al día. Después, los alijos pueden tener cristales legendarios o fichas de equipo ligados a cuenta."
 L["unusual_nest"] = "Nido de materiales inusuales"
 L["unusual_nest_note"] = "Todos los sitios con nidos se pueden despojar sólo 5 veces al día."
 
@@ -585,10 +593,10 @@ L["nexus_misc_grapple_rock"] = "Por un punto de agarre en una roca"
 L["nexus_misc_ledge_below"] = "En el suelo bajo una repisa"
 L["nexus_misc_three_chains"] = "En el suelo cerca de tres cadenas"
 
-L["stolen_anima_vessel"] = nil
-L["hidden_anima_cache"] = nil
-L["options_icons_anima_vessel"] = nil
-L["options_icons_anima_vessel_desc"] = nil
+L["stolen_anima_vessel"] = "Receptáculo de Ánima Robado"
+L["hidden_anima_cache"] = "Alijo de Ánima Oculto"
+L["options_icons_anima_vessel"] = "Receptáculos de Ánima Robados"
+L["options_icons_anima_vessel_desc"] = "Muestra donde están los receptáculos de ánima dentro de |cFFFFFF00La Falla|r."
 
 L["rift_hidden_cache"] = "Alijo Oculto de Falla"
 L["options_icons_rift_hidden_cache"] = "Alijos Ocultos de Falla"
