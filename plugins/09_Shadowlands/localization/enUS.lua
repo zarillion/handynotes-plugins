@@ -305,7 +305,7 @@ L["mawsworn_cache_note"] = "There are 3 unique caches that can each appear at se
 L["pile_of_bones"] = "Pile of Bones"
 L["relic_cache"] = "Relic Cache"
 L["shardhide_stash"] = "Shardhide Stash"
-L["korthia_shared_chest_note"] = "You can collect relics from these treasures 5 times a day, after which the chests will contain only junk."
+L["korthia_shared_chest_note"] = "You can collect relics from these treasures 5 times a day. Additional chests may contain legendary crystals and BOA gear tokens."
 L["unusual_nest"] = "Nest of Unusual Materials"
 L["unusual_nest_note"] = "All 5 nest locations can be looted each day."
 
