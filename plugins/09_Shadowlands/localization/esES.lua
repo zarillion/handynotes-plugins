@@ -585,6 +585,11 @@ L["nexus_misc_grapple_rock"] = "Por un punto de agarre en una roca"
 L["nexus_misc_ledge_below"] = "En el suelo bajo una repisa"
 L["nexus_misc_three_chains"] = "En el suelo cerca de tres cadenas"
 
+L["stolen_anima_vessel"] = nil
+L["hidden_anima_cache"] = nil
+L["options_icons_anima_vessel"] = nil
+L["options_icons_anima_vessel_desc"] = nil
+
 L["rift_hidden_cache"] = "Alijo Oculto de Falla"
 L["options_icons_rift_hidden_cache"] = "Alijos Ocultos de Falla"
 L["options_icons_rift_hidden_cache_desc"] = "Muestra donde están los alijos dentro de |cFFFFFF00La Falla|r."

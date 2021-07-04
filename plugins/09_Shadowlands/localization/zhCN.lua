@@ -583,6 +583,11 @@ L["nexus_misc_grapple_rock"] = "通过锚点到岩石上"
 L["nexus_misc_ledge_below"] = "在窗台下的地面上 "
 L["nexus_misc_three_chains"] = "在地上的三个铁链"
 
+L["stolen_anima_vessel"] = nil
+L["hidden_anima_cache"] = nil
+L["options_icons_anima_vessel"] = nil
+L["options_icons_anima_vessel_desc"] = nil
+
 L["rift_hidden_cache"] = "隙隐宝箱"
 L["options_icons_rift_hidden_cache"] = "隙隐宝箱"
 L["options_icons_rift_hidden_cache_desc"] = "显示 |cFFFFFF00裂隙|r 内隙隐宝箱的位置。"

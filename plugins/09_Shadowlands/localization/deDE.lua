@@ -585,6 +585,11 @@ L["nexus_misc_grapple_rock"] = "Bei einem Greifhakenziel auf dem Felsen."
 L["nexus_misc_ledge_below"] = "Auf dem Boden unter einer Kante."
 L["nexus_misc_three_chains"] = "Auf dem Boden bei drei Ketten."
 
+L["stolen_anima_vessel"] = nil
+L["hidden_anima_cache"] = nil
+L["options_icons_anima_vessel"] = nil
+L["options_icons_anima_vessel_desc"] = nil
+
 L["rift_hidden_cache"] = "Versteckte Risstruhe"
 L["options_icons_rift_hidden_cache"] = "Versteckte Risstruhen"
 L["options_icons_rift_hidden_cache_desc"] = "Zeigt die Positionen von versteckten Risstruhen innerhalb des |cFFFFFF00Riss|r an."

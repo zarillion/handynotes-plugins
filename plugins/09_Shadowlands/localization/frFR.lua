@@ -587,6 +587,11 @@ L["nexus_misc_grapple_rock"] = "Près d'une prise de grappin sur un rocher"
 L["nexus_misc_ledge_below"] = "Sur le sol, sous une corniche"
 L["nexus_misc_three_chains"] = "Sur le sol près de trois chaînes"
 
+L["stolen_anima_vessel"] = nil
+L["hidden_anima_cache"] = nil
+L["options_icons_anima_vessel"] = nil
+L["options_icons_anima_vessel_desc"] = nil
+
 L["rift_hidden_cache"] = "Cache secrète de la faille"
 L["options_icons_rift_hidden_cache"] = "Caches secrètes de la faille"
 L["options_icons_rift_hidden_cache_desc"] = "Afficher les emplacements des caches à l'intérieur de |cFFFFFF00La Faille|r."

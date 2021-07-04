@@ -583,6 +583,11 @@ L["nexus_misc_grapple_rock"] = nil
 L["nexus_misc_ledge_below"] = nil
 L["nexus_misc_three_chains"] = nil
 
+L["stolen_anima_vessel"] = nil
+L["hidden_anima_cache"] = nil
+L["options_icons_anima_vessel"] = nil
+L["options_icons_anima_vessel_desc"] = nil
+
 L["rift_hidden_cache"] = "裂隙隱藏寶箱"
 L["options_icons_rift_hidden_cache"] = "裂隙隱藏寶箱"
 L["options_icons_rift_hidden_cache_desc"] = "顯示在 |cFFFFFF00裂隙|r 內的寶箱位置"

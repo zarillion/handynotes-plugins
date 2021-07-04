@@ -584,6 +584,11 @@ L["nexus_misc_grapple_rock"] = "За точкой захвата на скале
 L["nexus_misc_ledge_below"] = "На земле под выступом"
 L["nexus_misc_three_chains"] = "На земле за тремя цепями"
 
+L["stolen_anima_vessel"] = nil
+L["hidden_anima_cache"] = nil
+L["options_icons_anima_vessel"] = nil
+L["options_icons_anima_vessel_desc"] = nil
+
 L["rift_hidden_cache"] = "Тайник разлома"
 L["options_icons_rift_hidden_cache"] = "Тайник разлома"
 L["options_icons_rift_hidden_cache_desc"] = "Показать расположение тайников внутри |cFFFFFF00разломов|r."

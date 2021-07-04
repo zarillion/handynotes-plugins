@@ -977,7 +977,6 @@ pitl.nodes[67185536] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id}
 
 local AnimaVessel = Class('AnimaVessel', Treasure, {
     label=L["stolen_anima_vessel"],
-    note=L["stolen_anima_vessel_note"],
     group=ns.groups.ANIMA_VESSEL,
     rift=1,
     rewards={
@@ -985,40 +984,56 @@ local AnimaVessel = Class('AnimaVessel', Treasure, {
     }
 })
 
-local VESSEL1 = AnimaVessel({icon='chest_rd', quest=nil})
-local VESSEL2 = AnimaVessel({icon='chest_bl', quest=nil})
-local VESSEL3 = AnimaVessel({icon='chest_yw', quest=64269}) -- 64534
-local VESSEL4 = AnimaVessel({icon='chest_pp', quest=64265})
-local VESSEL5 = AnimaVessel({icon='chest_gn', quest=64270})
+-- Confirmed coord:quest
+-- 27464950:64270
+-- 32404309:64269
+-- 36264215:64269
+-- 44554761:64269
+-- 51008544:64265
 
--- object=368953
-map.nodes[17304780] = VESSEL1
-map.nodes[18604260] = VESSEL1
-map.nodes[18905030] = VESSEL1
-map.nodes[22704850] = VESSEL1
--- object=??????
--- map.nodes[] = VESSEL2
--- object=369235
-map.nodes[32404309] = VESSEL3
-map.nodes[35704620] = VESSEL3
-map.nodes[36264215] = VESSEL3
--- object=??????
-map.nodes[51008544] = VESSEL4
--- object=368952
-map.nodes[25303330] = VESSEL5
-map.nodes[25303820] = VESSEL5
-map.nodes[27474948] = VESSEL5
-map.nodes[27804180] = VESSEL5
+-- Unconfirmed wowhead coord:objectid
+-- 17304780:368953
+-- 18604260:368953
+-- 18905030:368953
+-- 22704850:368953
+-- 25303330:368952
+-- 25303820:368952
+-- 27804180:368952
+-- 35704620:369235
+
+local VESSEL1 = AnimaVessel({icon='chest_rd', quest=64265})
+local VESSEL2 = AnimaVessel({icon='chest_bl', quest=64269})
+local VESSEL3 = AnimaVessel({icon='chest_yw', quest=64270})
+
+-- confirmed locations
+map.nodes[51008544] = VESSEL1
+map.nodes[32404309] = VESSEL2
+map.nodes[36264215] = VESSEL2
+map.nodes[44554761] = VESSEL2
+map.nodes[27464950] = VESSEL3
+
+-- unconfirmed locations, cannot yet be paired with ones above
+map.nodes[17304780] = AnimaVessel({icon='chest_gy'})
+map.nodes[18604260] = AnimaVessel({icon='chest_gy'})
+map.nodes[18905030] = AnimaVessel({icon='chest_gy'})
+map.nodes[22704850] = AnimaVessel({icon='chest_gy'})
+map.nodes[25303330] = AnimaVessel({icon='chest_gy'})
+map.nodes[25303820] = AnimaVessel({icon='chest_gy'})
+map.nodes[27804180] = AnimaVessel({icon='chest_gy'})
+map.nodes[35704620] = AnimaVessel({icon='chest_gy'})
+
 -- object=369786
-ext.nodes[62263305] = AnimaVessel({
+ext.nodes[62263305] = Treasure({
     icon='chest_pk',
     label=L["hidden_anima_cache"],
-    quest=64575,
-    rewards={},
+    group=ns.groups.ANIMA_VESSEL,
+    rift=1,
+    quest=64575, -- one time? maybe move to treasures
     parent=map.id
-})
+}) -- Hidden Anima Cache
 
 -- Zovaal's Vault 47257968
+-- Zovaal's Vault 62176427
 
 -------------------------------------------------------------------------------
 ----------------------------- RIFT HIDDEN CACHES ------------------------------

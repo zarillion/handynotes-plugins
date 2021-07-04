@@ -591,6 +591,11 @@ L["nexus_misc_grapple_rock"] = "By a grapple point on a rock"
 L["nexus_misc_ledge_below"] = "On the ground under a ledge"
 L["nexus_misc_three_chains"] = "On the ground by three chains"
 
+L["stolen_anima_vessel"] = "Stolen Anima Vessel"
+L["hidden_anima_cache"] = "Hidden Anima Cache"
+L["options_icons_anima_vessel"] = "Stolen Anima Vessels"
+L["options_icons_anima_vessel_desc"] = "Display the locations of anima vessels inside |cFFFFFF00The Rift|r."
+
 L["rift_hidden_cache"] = "Rift Hidden Cache"
 L["options_icons_rift_hidden_cache"] = "Rift Hidden Caches"
 L["options_icons_rift_hidden_cache_desc"] = "Display the locations of caches inside |cFFFFFF00The Rift|r."
