@@ -247,7 +247,11 @@ Lässt zusätzliche Gegenstände für {currency:1931} fallen, wenn er *erneut* 4
 
 |cFFFF0000LÄSST KEINE {npc:179758} ZUM VERZEHREN ERSCHEINEN, WENN ER IM KAMPF IST.|r
 ]]
-L["darkmaul_note"] = "Sammel {item:187153} von einem Invasivem Schlundpilz und füttere 10x {npc:180063} damit, um das Reittier zu erhalten."
+L["darkmaul_note"] = [[
+Sammel {item:187153} von einem Invasivem Schlundpilz und füttere 10x {npc:180063} damit, um das Reittier zu erhalten.
+
+|cFFFF8C00Der Fortschritt wird nicht gezählt, wenn du dich in einem Schlachtzug befindest!|r
+]]
 L["dislodged_nest_note"] = "Klicke in der Nähe eine Giftige Motte an, um den Stärkungszauber {spell:355181} zu erhalten. Benutze den Extrabutton von {spell:355131} auf einen {npc:178547}, um die Kontrolle über ihn zu erlangen und dann reite mit ihm gegen den Baum, in dem der Schatz liegt."
 L["escaped_wilderling_note"] = "Klicke den {npc:180014} an, um das Zähmungsevent zu starten."
 L["flayedwing_transporter_note"] = "Klicke den {npc:178633} an, um zum oder vom Archiv der Geheimnisse zu fliegen."
@@ -260,7 +264,13 @@ L["maelie_wanderer"] = "Erscheint für den Tag an einem festgeleten Ort. Wenn du
 L["malbog_note"] = "Sprich mit {npc:179729}, um den Stärkungszauber {spell:355078} zu erhalten und dann folge den Fußspuren, bis du die fleischigen Überreste findest."
 L["offering_box_note"] = "Der {item:187033} befindet sich oben auf der westlichen Wand der nahe gelegenen Ruine."
 L["pop_quiz_note"] = "Wird zufällig auf der Map erscheinen. Klicke den zurückgelassenen Schleierstab an und antworte auf die Fragen von {npc:180162}."
-L["razorwing_note"] = "|cFFFF0000Es können täglich 2 Eier erbeutet werden.|r \nGib 10x {item:187054} ab, dass von den Verschlingern wie {npc:177245} geplündert werden kann."
+L["razorwing_note"] = [[
+|cFFFF0000Es können täglich 2 Eier erbeutet werden.|r
+
+Gib 10x {item:187054} ab, dass von den Verschlingern wie {npc:177245} geplündert werden kann.
+
+|cFFFF8C00Der Fortschritt wird nicht gezählt, wenn du dich in einem Schlachtzug befindest!|r
+]]
 L["reliwik_note"] = "Klicke das Unverderbte Klingenschwingenei an."
 L["spectral_bound_chest"] = "Spektralgebundene Truhe"
 L["spectral_bound_note"] = "Klicke die drei Spektralschlüssel in der Nähe an, um die Truhe freizuschalten."
@@ -298,7 +308,7 @@ L["mawsworn_cache_note"] = "Es gibt 3 einzigartige Truhen, die jeweils an festge
 L["pile_of_bones"] = "Knochenhaufen"
 L["relic_cache"] = "Relikttruhe"
 L["shardhide_stash"] = "Splitterfellvorrat"
-L["korthia_shared_chest_note"] = "Es können täglich 5 Relikte von diesen Schätzen gesammelt werden, danach enthalten sie nur noch Schrott."
+L["korthia_shared_chest_note"] = "Es können täglich 5 Relikte von diesen Schätzen gesammelt werden, zusätzliche Schätze können noch {item:186017} und {item:187187} enthalten."
 L["unusual_nest"] = "Nest aus ungewöhnlichen Materialien"
 L["unusual_nest_note"] = "Jedes der 5 Nester kann täglich geplündert werden."
 
@@ -585,10 +595,10 @@ L["nexus_misc_grapple_rock"] = "Bei einem Greifhakenziel auf dem Felsen."
 L["nexus_misc_ledge_below"] = "Auf dem Boden unter einer Kante."
 L["nexus_misc_three_chains"] = "Auf dem Boden bei drei Ketten."
 
-L["stolen_anima_vessel"] = nil
-L["hidden_anima_cache"] = nil
-L["options_icons_anima_vessel"] = nil
-L["options_icons_anima_vessel_desc"] = nil
+L["stolen_anima_vessel"] = "Gestohlenes Animagefäß"
+L["hidden_anima_cache"] = "Versteckter Animabehälter"
+L["options_icons_anima_vessel"] = "Gestohlene Animagefäße"
+L["options_icons_anima_vessel_desc"] = "Zeigt die Positionen von Animagefäßen innerhalb des |cFFFFFF00Riss|r an."
 
 L["rift_hidden_cache"] = "Versteckte Risstruhe"
 L["options_icons_rift_hidden_cache"] = "Versteckte Risstruhen"
@@ -603,7 +613,7 @@ L["options_icons_grapples_desc"] = "Zeigt Greifhakenziele für die {item:184653}
 L["options_icons_maw_lore"] = "Mythen des Schlunds"
 L["options_icons_maw_lore_desc"] = "Zeigt die Mythen für den Erfolg {achievement:14761} an."
 L["options_icons_stygia_nexus"] = "Stygianexus"
-L["options_icons_stygia_nexus_desc"] = "Zeigt Stygianexus an, die für das Reittier {item:184168} benötigt werden."
+L["options_icons_stygia_nexus_desc"] = "Zeigt die für das Reittier {item:184168} benötigten Stygianexus an."
 L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
 
