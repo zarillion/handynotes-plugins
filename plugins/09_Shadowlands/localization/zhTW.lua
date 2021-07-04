@@ -237,7 +237,7 @@ L["zolla_note"] = "我們非常嚴肅看待我們的防禦。無論大小，我�
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L["carriage_crusher_note"] = nil
+L["carriage_crusher_note"] = "跟隨 {npc:180182} 進入淵喉並且防禦他直到 {npc:180246} 來進攻."
 L["chamber_note"] = "使用從 {npc:178257} 取得的 {item:186718} 來修理古老傳送器. 使用維修好的古老傳送器來進入房間."
 L["consumption_note"] = [[
 這個稀有在他吞噬了40個 {npc:179758} 並轉變成藍色陰影型態 (稀有) 前, 不會掉落拾取.
@@ -246,20 +246,28 @@ L["consumption_note"] = [[
 
 |cFFFF0000當在戰鬥中時, {npc:179758} 不會刷新給此稀有吞噬.|r
 ]]
-L["darkmaul_note"] = "從入侵的淵喉菇收集 {item:187153} 並且餵給 {npc:180063}. 你必須要完成此事件10次來取得坐騎."
+L["darkmaul_note"] = [[
+從入侵的淵喉菇收集 {item:187153} 並且餵給 {npc:180063}. 你必須要完成此事件10次來取得坐騎.
+
+|cFFFF8C00當你在團隊時進度不會被計算!|r
+]]
 L["dislodged_nest_note"] = "點選附近的劇毒飛蛾拿到 {spell:355181}. 對 {npc:178547} 使用額外動作按鈕上的 {spell:355131} 來騎上牠並操縱牠去撞巢穴所在的樹."
 L["escaped_wilderling_note"] = "點選 {npc:180014} 來開始馴服事件."
 L["flayedwing_transporter_note"] = "點選 {npc:178633} 來進入或離開玄秘寶庫."
 L["fleshwing_note"] = "和 {npc:180079} 對話來開始收集事件."
 L["forgotten_feather_note"] = "在一個可以從守衛者歇息地跳下去的漂浮小島上."
 L["konthrogz_note"] = "從一個吞食者傳送門事件中刷新."
-L["krelva_note"] = nil
-L["kroke_note"] = nil
+L["krelva_note"] = "當血量到80%時會移動到另外一個平台, 然後當血量剩60%會移動到陸地上. |cFFFF8C00你必須在60%後有打到稀有才有計算擊殺!|r"
+L["kroke_note"] = "擊殺區域內的 {npc:179029} 直到他出現. 當 {npc:179029} 不存在時沒有辦法召喚."
 L["maelie_wanderer"] = "{npc:179912} 會刷新在所標註的位置. 當你點選牠後會對牠使用 {spell:355862} 持續使用六天後，回去找 {npc:179930} 來取得坐騎."
 L["malbog_note"] = "和 {npc:179729} 說話來拿到 {spell:355078} 接著跟隨著足跡直到你找到血肉殘駭."
 L["offering_box_note"] = "需要 {item:187033}, 可以在附近廢墟西邊牆頂找到."
 L["pop_quiz_note"] = "猜謎比賽會隨機刷新在地圖上. 點選被遺棄的帷幕法杖並回答 {npc:180162} 的問題."
-L["razorwing_note"] = "交出吞食者掉落的 {item:187054}, 需10次."
+L["razorwing_note"] = [[
+交出10次吞食者掉落的 {item:187054}.
+
+|cFFFF8C00當你在團隊時進度不會被計算!|r
+]]
 L["reliwik_note"] = "點選未腐化的刃翼蛋來拉他下來."
 L["spectral_bound_chest"] = "點選3個附近的 {item:179369} 來解鎖箱子."
 L["spectral_bound_note"] = "靈縛寶箱"
@@ -286,20 +294,20 @@ L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "顯示用來進入 |cFFFFFF00裂隙|r 的 {npc:179595} 位置"
 
 L["riftbound_cache"] = "隙縛寶箱"
-L["riftbound_cache_note"] = nil
+L["riftbound_cache_note"] = "在裂隙內有4個不同的寶箱會出現在對應的幾組位置之一上"
 L["options_icons_riftbound_cache"] = "隙縛寶箱"
 L["options_icons_riftbound_cache_desc"] = "顯示在 |cFFFFFF00裂隙|r 內的寶箱位置."
 
 L["invasive_mawshroom"] = "入侵的淵喉菇"
-L["invasive_mawshroom_note"] = nil
+L["invasive_mawshroom_note"] = "總共有5個不同的入侵的淵喉菇會出現在對應的幾組位置之一上"
 L["mawsworn_cache"] = "淵誓儲物箱"
-L["mawsworn_cache_note"] = nil
+L["mawsworn_cache_note"] = "總共有3個淵誓儲物箱會出現在對應的幾組位置之一上"
 L["pile_of_bones"] = "白骨堆"
 L["relic_cache"] = "文物箱"
 L["shardhide_stash"] = "晶皮儲藏物"
 L["korthia_shared_chest_note"] = "你一天可以收集5個這些寶藏"
 L["unusual_nest"] = "不尋常材料之巢"
-L["unusual_nest_note"] = nil
+L["unusual_nest_note"] = "5個位置的巢一天都可被拾取一次"
 
 L["options_icons_invasive_mawshroom_desc"] = "顯示入侵的淵喉菇的位置"
 L["options_icons_invasive_mawshroom"] = "入侵的淵喉菇 (每日)"
