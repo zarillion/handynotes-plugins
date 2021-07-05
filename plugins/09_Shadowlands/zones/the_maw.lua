@@ -1087,11 +1087,14 @@ local Nilganihmaht = Class('Nilganihmaht', ns.node.Rare, {
             ns.requirement.Item(186607) --Silver Ring
     },
     group=ns.groups.NILGANIHMAHT_MOUNT,
-    note=L["nilganihmaht_note"],
+    note=L["in_cave"]..' '..L["nilganihmaht_note"],
     icon=1391724,
     fgroup='nilganihmaht_group',
     rewards={
         Mount({item=186713, id=1503}) -- Hand of Nilganihmaht
+    },
+    pois={
+        POI({25603260}) -- Cave entrance
     }
 })
 
