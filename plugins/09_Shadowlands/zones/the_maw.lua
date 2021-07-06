@@ -1019,14 +1019,14 @@ map.nodes[44554761] = VESSEL2
 map.nodes[27464950] = VESSEL3
 
 -- unconfirmed locations, cannot yet be paired with ones above
-map.nodes[17304780] = AnimaVessel({icon='chest_gy'})
-map.nodes[18604260] = AnimaVessel({icon='chest_gy'})
-map.nodes[18905030] = AnimaVessel({icon='chest_gy'})
-map.nodes[22704850] = AnimaVessel({icon='chest_gy'})
-map.nodes[25303330] = AnimaVessel({icon='chest_gy'})
-map.nodes[25303820] = AnimaVessel({icon='chest_gy'})
-map.nodes[27804180] = AnimaVessel({icon='chest_gy'})
-map.nodes[35704620] = AnimaVessel({icon='chest_gy'})
+-- map.nodes[17304780] = AnimaVessel({icon='chest_gy'})
+-- map.nodes[18604260] = AnimaVessel({icon='chest_gy'})
+-- map.nodes[18905030] = AnimaVessel({icon='chest_gy'})
+-- map.nodes[22704850] = AnimaVessel({icon='chest_gy'})
+-- map.nodes[25303330] = AnimaVessel({icon='chest_gy'})
+-- map.nodes[25303820] = AnimaVessel({icon='chest_gy'})
+-- map.nodes[27804180] = AnimaVessel({icon='chest_gy'})
+-- map.nodes[35704620] = AnimaVessel({icon='chest_gy'})
 
 -- object=369786
 ext.nodes[62263305] = Treasure({
