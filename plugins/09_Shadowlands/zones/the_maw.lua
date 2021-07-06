@@ -990,8 +990,10 @@ local AnimaVessel = Class('AnimaVessel', Treasure, {
 -- 27464950:64270
 -- 32404309:64269
 -- 36264215:64269
+-- 38474846:64269 -- small cave
 -- 44554761:64269
--- 51008544:64265
+-- 47437620:64265 -- small cave
+-- 51008544:64265 -- death's howl
 
 -- Unconfirmed wowhead coord:objectid
 -- 17304780:368953
@@ -1008,9 +1010,11 @@ local VESSEL2 = AnimaVessel({icon='chest_bl', quest=64269})
 local VESSEL3 = AnimaVessel({icon='chest_yw', quest=64270})
 
 -- confirmed locations
+map.nodes[47437620] = VESSEL1
 map.nodes[51008544] = VESSEL1
 map.nodes[32404309] = VESSEL2
 map.nodes[36264215] = VESSEL2
+map.nodes[38474846] = VESSEL2
 map.nodes[44554761] = VESSEL2
 map.nodes[27464950] = VESSEL3
 
