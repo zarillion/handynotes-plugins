@@ -275,6 +275,9 @@ map.nodes[14507900] = Rare({
         Item({item=187264, quest=64513}), -- Ve'rayn's Head
         Item({item=187404, note=L["neck"]}), -- Cartel Ve Amulet
         Transmog({item=187369, slot=L["cloth"]}) -- Ve'rayn's Formal Robes
+    },
+    pois={
+        POI({32804320, 42405980, 49002900, 61405780})
     }
 }) -- Ve'rayn
 
