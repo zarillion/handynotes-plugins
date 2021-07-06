@@ -1,3 +1,8 @@
+# v35
+
+* Added new Riftbound Cache locations.
+* Added Stolen Anima Vessel locations in the Maw (rift only). *Not all locations found yet*.
+
 # v34
 
 * Added better indicators and notes for rift rares.

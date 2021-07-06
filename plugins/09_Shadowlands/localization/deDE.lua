@@ -258,6 +258,7 @@ L["flayedwing_transporter_note"] = "Klicke den {npc:178633} an, um zum oder vom 
 L["fleshwing_note"] = "Sprich mit {npc:180079}, um das Sammelevent zu starten."
 L["forgotten_feather_note"] = "Auf einer kleinen schwebenden Insel, die man durch einen Absprung von der Zuflucht des Hüters aus erreicht."
 L["konthrogz_note"] = "Erscheint bei dem Event 'Verschlingender Spalt', dass an mehreren Orten in Korthia erscheinen kann."
+L["korthia_limited_rare"] = nil
 L["krelva_note"] = "Wechselt bei 80% Leben zu einer anderen Plattform und wechselt erneut bei 60% zum Festland. \n|cFFFF8C00Damit die Tötung angerechnet wird, muss nach 60% auch angegriffen worden sein!|r"
 L["kroke_note"] = "Töte {npc:179029} in dem Gebiet, bis er erscheint. Kann nicht an Tagen erscheinen, an denen {npc:179029} nicht aufzufinden sind."
 L["maelie_wanderer"] = "Erscheint für den Tag an einem festgeleten Ort. Wenn du an 6 verschiedenen Tagen {spell:355862} verwendet hast, kehre zu {npc:179930} zurück, um das Reittier zu erhalten."

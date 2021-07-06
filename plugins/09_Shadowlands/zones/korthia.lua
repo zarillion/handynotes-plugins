@@ -62,6 +62,7 @@ map.nodes[58211773] = Rare({
 map.nodes[51164167] = Rare({
     id=179768,
     quest=64243,
+    sublabel=L["korthia_limited_rare"],
     note=L["consumption_note"],
     rewards={
         Achievement({id=15107, criteria=52285}),
@@ -217,6 +218,7 @@ map.nodes[39405240] = Rare({
 map.nodes[27755885] = Rare({
     id=177336,
     quest=64442,
+    sublabel=L["korthia_limited_rare"],
     note=L["in_cave"],
     rewards={
         Achievement({id=15107, criteria=52301}),

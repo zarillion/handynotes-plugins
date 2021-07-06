@@ -257,6 +257,7 @@ L["flayedwing_transporter_note"] = "點選 {npc:178633} 來進入或離開玄秘
 L["fleshwing_note"] = "和 {npc:180079} 對話來開始收集事件."
 L["forgotten_feather_note"] = "在一個可以從守衛者歇息地跳下去的漂浮小島上."
 L["konthrogz_note"] = "從一個吞食者傳送門事件中刷新."
+L["korthia_limited_rare"] = nil
 L["krelva_note"] = "當血量到80%時會移動到另外一個平台, 然後當血量剩60%會移動到陸地上. |cFFFF8C00你必須在60%後有打到稀有才有計算擊殺!|r"
 L["kroke_note"] = "擊殺區域內的 {npc:179029} 直到他出現. 當 {npc:179029} 不存在時沒有辦法召喚."
 L["maelie_wanderer"] = "{npc:179912} 會刷新在所標註的位置. 當你點選牠後會對牠使用 {spell:355862} 持續使用六天後，回去找 {npc:179930} 來取得坐騎."

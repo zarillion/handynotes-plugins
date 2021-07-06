@@ -259,6 +259,7 @@ L["flayedwing_transporter_note"] = "Haz click en el {npc:178633} para volar a o 
 L["fleshwing_note"] = "Habla con {npc:180079} para empezar el evento de recolección."
 L["forgotten_feather_note"] = "Flotando en una isla pequeña que se accede saltando hacia abajo desde el Respiro del Guardían."
 L["konthrogz_note"] = "Aparece de un portal del evento de los devoradores. El evento puede aparecer en varios sitios a lo largo de Korthia."
+L["korthia_limited_rare"] = nil
 L["krelva_note"] = "Se mueve a otra plataforma al 80%, entonces se mueve al suelo al 60%. |cFFFF8C00¡Has de darle al boss después del 60% para que te cuente!|r"
 L["kroke_note"] = "Mata a los {npc:179029} de la zona hasta que aparezca. No puede aparecer los días que no estén los {npc:179029}."
 L["maelie_wanderer"] = "{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura."

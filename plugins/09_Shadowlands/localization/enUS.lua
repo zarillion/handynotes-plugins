@@ -244,7 +244,7 @@ This rare will not drop loot until after it consumes 40x {npc:179758} to transfo
 
 This rare will drop extra research items after it consumes *another* 40x {npc:179758} to transform into its green-shaded form (Rare Elite).
 
-|cFFFF0000THE RARE WILL NOT SPAWN {npc:179758} TO CONSUME WHILE IN COMBAT.|r
+|cFFFF0000The rare will not spawn {npc:179758} to consume while in combat.|r
 ]]
 L["darkmaul_note"] = [[
 Collect {item:187153} from Invasive Mawshrooms and feed them to {npc:180063}. You must complete the event 10 times to obtain the mount.
@@ -257,6 +257,7 @@ L["flayedwing_transporter_note"] = "Click on {npc:178633} to fly to or from the 
 L["fleshwing_note"] = "Talk to {npc:180079} to start the collection event."
 L["forgotten_feather_note"] = "Floating on a small island accessed by jumping down from Keeper's Respite."
 L["konthrogz_note"] = "Spawns from a devourer's portal event. The event can appear in many places throughout Korthia."
+L["korthia_limited_rare"] = "|cFFFF8C00This rare is not available on some days.|r"
 L["krelva_note"] = "Moves to another platform at 80%, then moves to the mainland at 60%. |cFFFF8C00You must tag the rare after 60% to get kill credit!|r"
 L["kroke_note"] = "Slay {npc:179029s} in the area until he appears. Cannot spawn on days when {npc:179029s} are missing."
 L["maelie_wanderer"] = "{npc:179912} will spawn in a set location for the day. Once you have used {spell:355862} on her 6 different days return to {npc:179930} to earn the mount."
