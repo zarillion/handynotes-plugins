@@ -246,7 +246,7 @@ Ce monstre rare ne laissera pas de butin avant d'avoir consommé 40 {npc:179758}
 
 Ce monstre rare laissera tomber des objets de recherche supplémentaires après avoir consommé *de nouveau* 40 {npc:179758} pour se transformer en sa forme verte (Élite Rare).
 
-|cFFFF0000LE MONSTRE RARE NE FERA PAS APPARAÎTRE DES {npc:179758} POUR LES CONSOMMER SI ENGAGÉ EN COMBAT.|r
+|cFFFF0000Le monstre rare ne fera pas apparaître des {npc:179758} pour les consommer si engagé en combat.|r
 ]]
 L["darkmaul_note"] = [[
 Collectez des {item:187153} sur les champignantre envahissants et nourrissez {npc:180063} avec. Vous devez terminer l'événement 10 fois pour obtenir la monture.
@@ -259,7 +259,7 @@ L["flayedwing_transporter_note"] = "Cliquez sur {npc:178633} pour voler vers ou 
 L["fleshwing_note"] = "Parlez à {npc:180079} pour commencer l'événement de collecte."
 L["forgotten_feather_note"] = "Flottant sur une petite île à laquelle on accède en sautant depuis le Répit du gardien."
 L["konthrogz_note"] = "Apparaît lors d'un événement lié à un portail de dévoreur. L'événement peut apparaître dans de nombreux endroits de Korthia."
-L["korthia_limited_rare"] = nil
+L["korthia_limited_rare"] = "|cFFFF8C00Ce monstre rare n'est pas disponible certains jours.|r"
 L["krelva_note"] = "Se déplace vers une autre plateforme à 80%, puis se déplace vers la terre ferme à 60%. |cFFFF8C00Vous devez attaquer le rare après 60% pour être compté dans le combat !|r"
 L["kroke_note"] = "Tuez des {npc:179029s} dans la zone jusqu'à ce qu'il apparaisse. Ne peut pas apparaître les jours où les {npc:179029s} sont absents."
 L["maelie_wanderer"] = "{npc:179912} apparaîtra à un endroit défini pour la journée. Une fois que vous avez utilisé {spell:355862} sur elle 6 jours différents, revenez voir {npc:179930} pour obtenir la monture."
@@ -565,7 +565,7 @@ L["nexus_cave_echoing_outside"] = "En dehors des Cavernes de l’Écho"
 L["nexus_cave_forlorn"] = "A l'intérieur de la grotte de la Halte Mélancolique"
 L["nexus_cave_howl_outside"] = "Sur le sol à l'extérieur de la caverne de la Complainte de la mort"
 L["nexus_cave_howl"] = "A l'intérieur de la caverne de la Complainte de la mort"
-L["nexus_cave_roar"] = nil
+L["nexus_cave_roar"] = "A l'intérieur de la caverne du Rugissement de la mort"
 L["nexus_cave_ledge"] = "Dans une petite grotte sous une corniche"
 L["nexus_cave_prodigum"] = "Dans une petite grotte dans le Prodigium"
 L["nexus_cave_soulstained"] = "Dans une petite grotte dans les Champs Maculés d’âmes"
@@ -600,7 +600,7 @@ L["nexus_misc_three_chains"] = "Sur le sol près de trois chaînes"
 L["stolen_anima_vessel"] = "Réceptacle d’anima volé"
 L["hidden_anima_cache"] = "Cache d'Anima cachée"
 L["options_icons_anima_vessel"] = "Réceptacles d’anima volés"
-L["options_icons_anima_vessel_desc"] = "Afficher les emplacements des réceptacles d’anima à l'intérieur de |cFFFFFF00La Faille|r."
+L["options_icons_anima_vessel_desc"] = "Afficher les emplacements des réceptacles d’anima pendant les assauts et à l'intérieur de |cFFFFFF00La Faille|r."
 
 L["rift_hidden_cache"] = "Cache secrète de la faille"
 L["options_icons_rift_hidden_cache"] = "Caches secrètes de la faille"
@@ -619,7 +619,7 @@ L["options_icons_stygia_nexus_desc"] = "Afficher les emplacements des Nexus de s
 L["options_icons_stygian_caches"] = "Caches stygiennes"
 L["options_icons_stygian_caches_desc"] = "Afficher les emplacements des caches contenant de la Stygie supplémentaire."
 
-L["cov_assault_only"] = nil
+L["cov_assault_only"] = "Disponible uniquement pendant l'assaut des %s."
 L["domination_chest"] = "Coffre de la Domination"
 L["domination_chest_note"] = "Il faut 4 {item:186727} pour ouvrir tous les sceaux."
 L["gold_band_note"] = "Au sommet de la montagne, sur une pointe."
