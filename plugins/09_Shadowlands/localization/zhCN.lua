@@ -593,9 +593,9 @@ L["nexus_misc_grapple_rock"] = "通过锚点到岩石上"
 L["nexus_misc_ledge_below"] = "在窗台下的地面上 "
 L["nexus_misc_three_chains"] = "在地上的三个铁链"
 
-L["stolen_anima_vessel"] = "被窃心能容器"
+L["stolen_anima_vessel"] = "失窃的心能容器"
 L["hidden_anima_cache"] = "隐藏心能宝箱"
-L["options_icons_anima_vessel"] = "被窃心能容器"
+L["options_icons_anima_vessel"] = "失窃的心能容器"
 L["options_icons_anima_vessel_desc"] = "显示突袭期间 |cFFFFFF00裂隙|r 中的心能容器位置。"
 
 L["rift_hidden_cache"] = "隙隐宝箱"
