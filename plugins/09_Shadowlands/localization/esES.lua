@@ -563,6 +563,7 @@ L["nexus_cave_echoing_outside"] = "Fuera de las Cavernas Resonantes"
 L["nexus_cave_forlorn"] = "Dentro de la cueva Descanso Desolado"
 L["nexus_cave_howl_outside"] = "En el suelo fuera de la cueva Aullido de la Muerte"
 L["nexus_cave_howl"] = "Dentro de la cueva Aullido de la Muerte"
+L["nexus_cave_roar"] = nil
 L["nexus_cave_ledge"] = "En una cueva pequeña debajo de un saliente"
 L["nexus_cave_prodigum"] = "En una cueva pequeña en el Prodigum"
 L["nexus_cave_soulstained"] = "En una cueva pequeña en los Campos Manchados de Almas"
@@ -616,6 +617,7 @@ L["options_icons_stygia_nexus_desc"] = "Muestra dónde están los Nexos necesari
 L["options_icons_stygian_caches"] = "Alijos de Estigia"
 L["options_icons_stygian_caches_desc"] = "Muestra dónde están los alijos con Estigia extra."
 
+L["cov_assault_only"] = nil
 L["domination_chest"] = "Cofre de Dominación"
 L["domination_chest_note"] = "Requiere 4 {item:186727} para abrir todos los sellos."
 L["gold_band_note"] = "En la cima del pico de una montaña."

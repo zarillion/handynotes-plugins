@@ -561,6 +561,7 @@ L["nexus_cave_echoing_outside"] = "回音之洞外"
 L["nexus_cave_forlorn"] = "荒弃之息洞穴内"
 L["nexus_cave_howl_outside"] = "死亡之嚎洞穴外的地面上"
 L["nexus_cave_howl"] = "死亡之嚎洞穴内"
+L["nexus_cave_roar"] = nil
 L["nexus_cave_ledge"] = "在壁架下方的一个小洞穴中 "
 L["nexus_cave_prodigum"] = "浪骸之所的小洞穴内"
 L["nexus_cave_soulstained"] = "魂渍原野的小洞穴内"
@@ -614,6 +615,7 @@ L["options_icons_stygia_nexus_desc"] = "显示 {item:184168} 坐骑所需的枢�
 L["options_icons_stygian_caches"] = "冥殇宝箱"
 L["options_icons_stygian_caches_desc"] = "显示获取额外冥殇的宝箱位置。"
 
+L["cov_assault_only"] = nil
 L["domination_chest"] = "统御宝箱"
 L["domination_chest_note"] = "需要4个 {item:186727} 打开全部封印。"
 L["gold_band_note"] = "在山顶上的一个尖上。"

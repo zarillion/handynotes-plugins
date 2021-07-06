@@ -160,24 +160,24 @@ end)
 -------------------------------------------------------------------------------
 
 ns.covenants = {
-    KYR = { id = 1, icon = 'cov_sigil_ky' },
-    VEN = { id = 2, icon = 'cov_sigil_vn' },
-    FAE = { id = 3, icon = 'cov_sigil_nf' },
-    NEC = { id = 4, icon = 'cov_sigil_nl' }
+    KYR = { id = 1, icon = 'cov_sigil_ky', assault=63824 },
+    VEN = { id = 2, icon = 'cov_sigil_vn', assault=63822 },
+    FAE = { id = 3, icon = 'cov_sigil_nf', assault=63823 },
+    NEC = { id = 4, icon = 'cov_sigil_nl', assault=63543 }
 }
 
 local function ProcessCovenant (node)
-    if node.covenant == nil then return end
-    local data = C_Covenants.GetCovenantData(node.covenant.id)
+    local covenant = node.covenant or node.assault
+    if not covenant then return end
+    if node._covenantProcessed then return end
 
-    -- Add covenant sigil to top-right corner of tooltip
-    node.rlabel = ns.GetIconLink(node.covenant.icon, 13)
+    local name = C_Covenants.GetCovenantData(covenant.id).name
+    local str = node.covenant and L["covenant_required"] or L["cov_assault_only"]
+    local subl = ns.color.Orange(string.format(str, name))
 
-    if not node._covenantProcessed then
-        local subl = ns.color.Orange(string.format(L["covenant_required"], data.name))
-        node.sublabel = node.sublabel and subl..'\n'..node.sublabel or subl
-        node._covenantProcessed = true
-    end
+    node.rlabel = ns.GetIconLink(covenant.icon, 13)
+    node.sublabel = node.sublabel and subl..'\n'..node.sublabel or subl
+    node._covenantProcessed = true
 end
 
 function Reward:GetCategoryIcon()

@@ -561,6 +561,7 @@ L["nexus_cave_echoing_outside"] = nil
 L["nexus_cave_forlorn"] = nil
 L["nexus_cave_howl_outside"] = nil
 L["nexus_cave_howl"] = nil
+L["nexus_cave_roar"] = nil
 L["nexus_cave_ledge"] = nil
 L["nexus_cave_prodigum"] = nil
 L["nexus_cave_soulstained"] = nil
@@ -614,6 +615,7 @@ L["options_icons_stygia_nexus_desc"] = "顯示 {item:184168} 坐騎所需的冥�
 L["options_icons_stygian_caches"] = "冥魄儲藏箱"
 L["options_icons_stygian_caches_desc"] = "顯示含有額外冥魄寶箱的位置"
 
+L["cov_assault_only"] = nil
 L["domination_chest"] = "統御寶箱"
 L["domination_chest_note"] = "需要4個 {item:186727} 來打開全部封印"
 L["gold_band_note"] = "在山頂的一個尖端上"

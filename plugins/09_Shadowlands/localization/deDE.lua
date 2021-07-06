@@ -565,6 +565,7 @@ L["nexus_cave_echoing_outside"] = "Außerhalb der Schallenden Höhlen."
 L["nexus_cave_forlorn"] = 'In der "Trostlose Rast" Höhle.'
 L["nexus_cave_howl_outside"] = 'Auf dem Boden, außerhalb der "Todesgeheul" Höhle.'
 L["nexus_cave_howl"] = 'In der "Todesgeheul" Höhle.'
+L["nexus_cave_roar"] = nil
 L["nexus_cave_ledge"] = "In einer kleinen Höhle unter einer Kante."
 L["nexus_cave_prodigum"] = "In einer kleinen Höhle bei Prodigum."
 L["nexus_cave_soulstained"] = "In einer kleinen Höhle, in den Seelenbefleckten Feldern."
@@ -618,6 +619,7 @@ L["options_icons_stygia_nexus_desc"] = "Zeigt die für das Reittier {item:184168
 L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
 
+L["cov_assault_only"] = nil
 L["domination_chest"] = "Herrschaftstruhe"
 L["domination_chest_note"] = [[
 Benötigt 4x {item:186727}, um alle Siegel zu öffnen.

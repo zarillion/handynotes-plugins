@@ -562,6 +562,7 @@ L["nexus_cave_echoing_outside"] = nil
 L["nexus_cave_forlorn"] = nil
 L["nexus_cave_howl_outside"] = nil
 L["nexus_cave_howl"] = nil
+L["nexus_cave_roar"] = nil
 L["nexus_cave_ledge"] = nil
 L["nexus_cave_prodigum"] = nil
 L["nexus_cave_soulstained"] = nil
@@ -615,6 +616,7 @@ L["options_icons_stygia_nexus_desc"] = "Показать местоположе�
 L["options_icons_stygian_caches"] = "Стигийский тайник"
 L["options_icons_stygian_caches_desc"] = "Показать места тайников, содержащих Стигию."
 
+L["cov_assault_only"] = nil
 L["domination_chest"] = "Сундук Господства"
 L["domination_chest_note"] = "Требуется 4 {item:186727}, чтобы открыть все печати."
 L["gold_band_note"] = "На вершине горы на пике."

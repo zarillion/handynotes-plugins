@@ -24,14 +24,14 @@ local Line = ns.poi.Line
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
--------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
--------------------------------------------------------------------------------
-
 local KYRIAN = ns.covenants.KYR
 local NECROLORD = ns.covenants.NEC
 local NIGHTFAE = ns.covenants.FAE
 local VENTHYR = ns.covenants.VEN
+
+-------------------------------------------------------------------------------
+------------------------------------- MAP -------------------------------------
+-------------------------------------------------------------------------------
 
 local map = Map({ id=1961, settings=true })
 
@@ -327,7 +327,9 @@ map.nodes[57607040] = Rare({
     note=L["rift_rare_exit_note"],
     rift=2,
     rewards={
-        Achievement({id=15107, criteria=52274})
+        Achievement({id=15107, criteria=52274}),
+        Transmog({item=187381, slot=L["leather"]}), -- Rift-Touched Bindings
+        Transmog({item=187383, slot=L["mail"]}) -- Silent Soulstalker Sabatons
     }
 }) -- Silent Soulstalker
 
@@ -651,6 +653,7 @@ local RIFT_CACHE3 = RiftCache({quest=64472, icon='chest_yw'})
 local RIFT_CACHE4 = RiftCache({quest=64456, icon='chest_bl'})
 
 map.nodes[25975582] = RIFT_CACHE1 -- GHO: 29433986
+map.nodes[26545638] = RIFT_CACHE1 -- GHO: 34634647
 map.nodes[27555933] = RIFT_CACHE1 -- GHO: 43157372
 map.nodes[54105460] = RIFT_CACHE2
 map.nodes[54904240] = RIFT_CACHE2
@@ -658,7 +661,7 @@ map.nodes[55506510] = RIFT_CACHE2
 map.nodes[60903520] = RIFT_CACHE2
 map.nodes[61775872] = RIFT_CACHE2
 map.nodes[46103190] = RIFT_CACHE3
-map.nodes[50703290] = RIFT_CACHE3
+map.nodes[50763302] = RIFT_CACHE3
 map.nodes[56321850] = RIFT_CACHE3
 map.nodes[64303040] = RIFT_CACHE3
 map.nodes[33443929] = RIFT_CACHE4

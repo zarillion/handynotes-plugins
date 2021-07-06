@@ -565,6 +565,7 @@ L["nexus_cave_echoing_outside"] = "En dehors des Cavernes de l’Écho"
 L["nexus_cave_forlorn"] = "A l'intérieur de la grotte de la Halte Mélancolique"
 L["nexus_cave_howl_outside"] = "Sur le sol à l'extérieur de la caverne de la Complainte de la mort"
 L["nexus_cave_howl"] = "A l'intérieur de la caverne de la Complainte de la mort"
+L["nexus_cave_roar"] = nil
 L["nexus_cave_ledge"] = "Dans une petite grotte sous une corniche"
 L["nexus_cave_prodigum"] = "Dans une petite grotte dans le Prodigium"
 L["nexus_cave_soulstained"] = "Dans une petite grotte dans les Champs Maculés d’âmes"
@@ -618,6 +619,7 @@ L["options_icons_stygia_nexus_desc"] = "Afficher les emplacements des Nexus de s
 L["options_icons_stygian_caches"] = "Caches stygiennes"
 L["options_icons_stygian_caches_desc"] = "Afficher les emplacements des caches contenant de la Stygie supplémentaire."
 
+L["cov_assault_only"] = nil
 L["domination_chest"] = "Coffre de la Domination"
 L["domination_chest_note"] = "Il faut 4 {item:186727} pour ouvrir tous les sceaux."
 L["gold_band_note"] = "Au sommet de la montagne, sur une pointe."
