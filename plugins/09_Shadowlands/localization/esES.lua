@@ -246,7 +246,7 @@ Este raro no soltará botín hasta que haya consumido a 40x {npc:179758} para tr
 
 Este raro soltará objetos de investigación extra después de consumir otros 40x {npc:179758} para transformarse en su forma verde sombreada (Raro Élite).
 
-|cFFFF0000EL RARO NO HARÁ APARECER {npc:179758} PARA CONSUMIR SI ESTÁ EN COMBATE.|r
+|cFFFF0000El raro no hará aparecer {npc:179758} para consumir si está en combate.|r
 ]]
 L["darkmaul_note"] = [[
 Recoge {item:187153} de los Champifauces Invasivos y alimenta a la {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura."
@@ -259,7 +259,7 @@ L["flayedwing_transporter_note"] = "Haz click en el {npc:178633} para volar a o 
 L["fleshwing_note"] = "Habla con {npc:180079} para empezar el evento de recolección."
 L["forgotten_feather_note"] = "Flotando en una isla pequeña que se accede saltando hacia abajo desde el Respiro del Guardían."
 L["konthrogz_note"] = "Aparece de un portal del evento de los devoradores. El evento puede aparecer en varios sitios a lo largo de Korthia."
-L["korthia_limited_rare"] = nil
+L["korthia_limited_rare"] = "|cFFFF8C00Este raro no está disponible algunos días.|r"
 L["krelva_note"] = "Se mueve a otra plataforma al 80%, entonces se mueve al suelo al 60%. |cFFFF8C00¡Has de darle al boss después del 60% para que te cuente!|r"
 L["kroke_note"] = "Mata a los {npc:179029} de la zona hasta que aparezca. No puede aparecer los días que no estén los {npc:179029}."
 L["maelie_wanderer"] = "{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura."
@@ -563,7 +563,7 @@ L["nexus_cave_echoing_outside"] = "Fuera de las Cavernas Resonantes"
 L["nexus_cave_forlorn"] = "Dentro de la cueva Descanso Desolado"
 L["nexus_cave_howl_outside"] = "En el suelo fuera de la cueva Aullido de la Muerte"
 L["nexus_cave_howl"] = "Dentro de la cueva Aullido de la Muerte"
-L["nexus_cave_roar"] = nil
+L["nexus_cave_roar"] = "Dentro de la cueva Rugido de la Muerte"
 L["nexus_cave_ledge"] = "En una cueva pequeña debajo de un saliente"
 L["nexus_cave_prodigum"] = "En una cueva pequeña en el Prodigum"
 L["nexus_cave_soulstained"] = "En una cueva pequeña en los Campos Manchados de Almas"
@@ -598,7 +598,7 @@ L["nexus_misc_three_chains"] = "En el suelo cerca de tres cadenas"
 L["stolen_anima_vessel"] = "Receptáculo de Ánima Robado"
 L["hidden_anima_cache"] = "Alijo de Ánima Oculto"
 L["options_icons_anima_vessel"] = "Receptáculos de Ánima Robados"
-L["options_icons_anima_vessel_desc"] = "Muestra donde están los receptáculos de ánima dentro de |cFFFFFF00La Falla|r."
+L["options_icons_anima_vessel_desc"] = "Muestra donde están los receptáculos de ánima durante los asaltos y dentro de |cFFFFFF00La Falla|r."
 
 L["rift_hidden_cache"] = "Alijo Oculto de Falla"
 L["options_icons_rift_hidden_cache"] = "Alijos Ocultos de Falla"
@@ -617,7 +617,7 @@ L["options_icons_stygia_nexus_desc"] = "Muestra dónde están los Nexos necesari
 L["options_icons_stygian_caches"] = "Alijos de Estigia"
 L["options_icons_stygian_caches_desc"] = "Muestra dónde están los alijos con Estigia extra."
 
-L["cov_assault_only"] = nil
+L["cov_assault_only"] = "Disponible sólo durante el asalto de %s."
 L["domination_chest"] = "Cofre de Dominación"
 L["domination_chest_note"] = "Requiere 4 {item:186727} para abrir todos los sellos."
 L["gold_band_note"] = "En la cima del pico de una montaña."
