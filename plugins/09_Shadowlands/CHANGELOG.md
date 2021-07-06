@@ -1,7 +1,10 @@
 # v35
 
 * Added new Riftbound Cache locations.
-* Added Stolen Anima Vessel locations in the Maw (rift only). *Not all locations found yet*.
+* Added Stolen Anima Vessel locations for the rift, Night Fae and Venthyr assaults.
+* Added/updated notes for multiple rares.
+* Added some missing transmog rewards.
+* Updated Rift Hidden Caches to only display during the Night Fae assault in the rift.
 
 # v34
 
