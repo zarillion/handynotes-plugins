@@ -245,7 +245,7 @@ Wird keine Beute fallen lassen, bis er 40x {npc:179758} verzehrt hat, um sich in
 
 Lässt zusätzliche Gegenstände für {currency:1931} fallen, wenn er *erneut* 40x {npc:179758} verzehrt hat, um sich in seine grünschattierte Form zu verwandeln (Selten Elite).
 
-|cFFFF0000LÄSST KEINE {npc:179758} ZUM VERZEHREN ERSCHEINEN, WENN ER IM KAMPF IST.|r
+|cFFFF0000Lässt keine {npc:179758} zum verzehren erscheinen, wenn er im Kampf ist.|r
 ]]
 L["darkmaul_note"] = [[
 Sammel {item:187153} von einem Invasivem Schlundpilz und füttere 10x {npc:180063} damit, um das Reittier zu erhalten.
@@ -258,7 +258,7 @@ L["flayedwing_transporter_note"] = "Klicke den {npc:178633} an, um zum oder vom 
 L["fleshwing_note"] = "Sprich mit {npc:180079}, um das Sammelevent zu starten."
 L["forgotten_feather_note"] = "Auf einer kleinen schwebenden Insel, die man durch einen Absprung von der Zuflucht des Hüters aus erreicht."
 L["konthrogz_note"] = "Erscheint bei dem Event 'Verschlingender Spalt', dass an mehreren Orten in Korthia erscheinen kann."
-L["korthia_limited_rare"] = nil
+L["korthia_limited_rare"] = "|cFFFF8C00Dieser seltene Gegner ist an manchen Tagen nicht verfügbar.|r"
 L["krelva_note"] = "Wechselt bei 80% Leben zu einer anderen Plattform und wechselt erneut bei 60% zum Festland. \n|cFFFF8C00Damit die Tötung angerechnet wird, muss nach 60% auch angegriffen worden sein!|r"
 L["kroke_note"] = "Töte {npc:179029} in dem Gebiet, bis er erscheint. Kann nicht an Tagen erscheinen, an denen {npc:179029} nicht aufzufinden sind."
 L["maelie_wanderer"] = "Erscheint für den Tag an einem festgeleten Ort. Wenn du an 6 verschiedenen Tagen {spell:355862} verwendet hast, kehre zu {npc:179930} zurück, um das Reittier zu erhalten."
@@ -293,7 +293,7 @@ Benötigt einen {item:186731}, den man bei {npc:178257} kaufen kann, wenn Stufe 
 |cFFFF8C00Nicht alle Rissportale sind gleichzeitig aktiv.|r
 ]]
 L["rift_rare_only_note"] = "Dieser seltene Gegner kann nur gesehen und getötet werden, während man sich im |cFFFFFF00Riss|r befindet."
-L["rift_rare_exit_note"] = "Dieser seltene Gegner wird den |cFFFFFF00Riss|r verlassen, wenn mit ihm im |cFFFFFF00Riss|r interagiert wurde."
+L["rift_rare_exit_note"] = "Damit dieser seltene Gegner im |cFFFFFF00Riss|r vorzufinden ist, muss er den Stärkungszauber {spell:354840} haben. Er wird den |cFFFFFF00Riss|r verlassen, wenn mit ihm im |cFFFFFF00Riss|r interagiert wurde."
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Zeigt die Positionen von {npc:179595en} an, um den |cFFFFFF00Riss|r zu betreten."
 
@@ -565,7 +565,7 @@ L["nexus_cave_echoing_outside"] = "Außerhalb der Schallenden Höhlen."
 L["nexus_cave_forlorn"] = 'In der "Trostlose Rast" Höhle.'
 L["nexus_cave_howl_outside"] = 'Auf dem Boden, außerhalb der "Todesgeheul" Höhle.'
 L["nexus_cave_howl"] = 'In der "Todesgeheul" Höhle.'
-L["nexus_cave_roar"] = nil
+L["nexus_cave_roar"] = 'In der "Todesgebrüll" Höhle'
 L["nexus_cave_ledge"] = "In einer kleinen Höhle unter einer Kante."
 L["nexus_cave_prodigum"] = "In einer kleinen Höhle bei Prodigum."
 L["nexus_cave_soulstained"] = "In einer kleinen Höhle, in den Seelenbefleckten Feldern."
@@ -600,7 +600,7 @@ L["nexus_misc_three_chains"] = "Auf dem Boden bei drei Ketten."
 L["stolen_anima_vessel"] = "Gestohlenes Animagefäß"
 L["hidden_anima_cache"] = "Versteckter Animabehälter"
 L["options_icons_anima_vessel"] = "Gestohlene Animagefäße"
-L["options_icons_anima_vessel_desc"] = "Zeigt die Positionen von Animagefäßen innerhalb des |cFFFFFF00Riss|r an."
+L["options_icons_anima_vessel_desc"] = "Zeigt die Positionen von Animagefäßen während der Paktangriffe und innerhalb des |cFFFFFF00Riss|r an."
 
 L["rift_hidden_cache"] = "Versteckte Risstruhe"
 L["options_icons_rift_hidden_cache"] = "Versteckte Risstruhen"
@@ -619,7 +619,7 @@ L["options_icons_stygia_nexus_desc"] = "Zeigt die für das Reittier {item:184168
 L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
 
-L["cov_assault_only"] = nil
+L["cov_assault_only"] = "Nur während des Paktangriffs der %s verfügbar."
 L["domination_chest"] = "Herrschaftstruhe"
 L["domination_chest_note"] = [[
 Benötigt 4x {item:186727}, um alle Siegel zu öffnen.
