@@ -596,7 +596,7 @@ L["nexus_misc_three_chains"] = "On the ground by three chains"
 L["stolen_anima_vessel"] = "Stolen Anima Vessel"
 L["hidden_anima_cache"] = "Hidden Anima Cache"
 L["options_icons_anima_vessel"] = "Stolen Anima Vessels"
-L["options_icons_anima_vessel_desc"] = "Display the locations of anima vessels inside |cFFFFFF00The Rift|r."
+L["options_icons_anima_vessel_desc"] = "Display the locations of anima vessels during assaults and inside |cFFFFFF00The Rift|r."
 
 L["rift_hidden_cache"] = "Rift Hidden Cache"
 L["options_icons_rift_hidden_cache"] = "Rift Hidden Caches"
