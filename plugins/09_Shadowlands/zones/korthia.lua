@@ -156,6 +156,7 @@ map.nodes[22604140] = Rare({
 map.nodes[56276617] = Rare({
     id=180160,
     quest=64455,
+    sublabel=L["korthia_limited_rare"],
     note=L["reliwik_note"],
     rewards={
         Achievement({id=15107, criteria=52318}),
