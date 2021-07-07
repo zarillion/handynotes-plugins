@@ -160,6 +160,7 @@ map.nodes[56276617] = Rare({
     note=L["reliwik_note"],
     rewards={
         Achievement({id=15107, criteria=52318}),
+        Transmog({item=187388, slot=L["mail"]}), -- Barbed Scale Cinch
         Mount({item=186652, id=1509}) -- Garnet Razorwing
     }
 }) -- Reliwik the Defiant
@@ -171,8 +172,9 @@ map.nodes[46507959] = Rare({
     note=L["stonecrusher_note"],
     rewards={
         Achievement({id=15107, criteria=52276}),
-        Transmog({item=184790, slot=L["leather"]}) -- Archdruid Van-Yali's Greenthumbs
-        -- Mount({item=186479, id=, covenant=VENTHYR}) -- Mastercraft Gravewing
+        -- Item({item=187428, quest=64553}) -- Legend of the Animaswell (weekly quest)
+        Transmog({item=184790, slot=L["leather"]}) -- Archdruid Van-Yali's Greenthumbs (world drop, can be remove)
+        -- Mount({item=186479, id=, covenant=VENTHYR}) -- Mastercraft Gravewing (can learn but not have id and can't show up in book)
     }
 }) -- Stygian Stonecrusher
 
@@ -183,6 +185,7 @@ map.nodes[56873237] = Rare({
     note=L["worldcracker_note"],
     rewards={
         Achievement({id=15107, criteria=52300}),
+        Transmog({item=187380, slot=L["leather"]}), -- Devourer Hide Belt
         Toy({item=187176}), -- Vesper of Harmony
         Mount({item=186483, id=1493, covenant=KYRIAN}) -- Foresworn Aquilon
     }

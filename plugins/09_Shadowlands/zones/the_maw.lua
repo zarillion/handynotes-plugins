@@ -347,6 +347,7 @@ map.nodes[69044897] = Rare({
     quest=64258, -- 64439?
     rewards={
         Achievement({id=15107, criteria=52289}),
+        Transmog({item=187364, slot=L["1h_sword"]}), -- Maldraxxi Traitor's Blade (no drop on live)
         Transmog({item=187374, slot=L["cloth"]}) -- Balthier's Waistcord (no drop on live)
     }
 }) -- Traitor Balthier
@@ -391,7 +392,8 @@ map.nodes[34564206] = Rare({
     rift=2,
     rewards={
         Achievement({id=15107, criteria=52297}),
-        Item({item=187406, note=L["ring"]}) -- Band of Blinding Shadows
+        Item({item=187406, note=L["ring"]}), -- Band of Blinding Shadows
+        Transmog({item=187361, slot=L["bow"]}) -- Rift-Bound Shadow Piercer
     }
 }) -- Blinding Shadow
 
@@ -402,6 +404,7 @@ map.nodes[49307274] = Rare({
     note=L["rift_rare_only_note"],
     rewards={
         Achievement({id=15107, criteria=52293}),
+        Transmog({item=187363, slot=L["polearm"]}), -- Orguluus' Spear
         Transmog({item=187398, slot=L["leather"]}) -- Chestguard of the Shadeguard
     },
     rift=2,
@@ -430,6 +433,7 @@ map.nodes[27672526] = Rare({
         Achievement({id=15107, criteria=52284}),
         Item({item=186605}), -- Nilganihmaht's Runed Band
         Transmog({item=187360, slot=L["offhand"]}), -- Orb of Enveloping Rifts
+        Transmog({item=187389, slot=L["mail"]}), -- Lord of Shade's Binders
         Toy({item=187139}) -- Bottled Shade Heart
     }
 }) -- Torglluun
