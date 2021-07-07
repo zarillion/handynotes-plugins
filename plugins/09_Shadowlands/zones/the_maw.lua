@@ -1049,8 +1049,27 @@ map.nodes[29601160] = VESSEL7
 map.nodes[32701480] = VESSEL7
 ext.nodes[73685062] = ns.Clone(VESSEL7, {parent=map.id})
 
+--[[
+-------------------------------------------------------------------------------
+------------------------------- ZOVAAL'S VAULT --------------------------------
+-------------------------------------------------------------------------------
+
+local ZovaalVault = Class('ZovaalVault', Treasure, {
+    label=L["zovaal_vault"],
+    group=ns.groups.ZOVAAL_VAULT,
+    rift=1,
+    rewards={
+        Transmog({item=187251, slot=L["cosmetic"]}), -- Shaded Skull Shoulderguards
+        Toy({item=187113}), -- Personal Ball and Chain 
+        Toy({item=187416}) -- Jailer's Cage
+    }
+})
+
 -- Zovaal's Vault 47257968
 -- Zovaal's Vault 62176427
+-- Zovaal's Vault 66405820
+-- Zovaal's Vault 33006630
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------- RIFT HIDDEN CACHES ------------------------------
