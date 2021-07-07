@@ -593,7 +593,7 @@ L["nexus_misc_grapple_rock"] = nil
 L["nexus_misc_ledge_below"] = nil
 L["nexus_misc_three_chains"] = nil
 
-L["stolen_anima_vessel"] = "遭竊靈魄容器"
+L["stolen_anima_vessel"] = "遭竊的靈魄容器"
 L["hidden_anima_cache"] = "隱藏靈魄寶箱"
 L["options_icons_anima_vessel"] = "遭竊靈魄容器"
 L["options_icons_anima_vessel_desc"] = "顯示進攻戰時和 |cFFFFFF00裂隙|r 中靈魄容器的位置"
