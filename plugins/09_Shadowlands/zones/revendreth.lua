@@ -1105,3 +1105,22 @@ function Blanchy.getters:note ()
 end
 
 map.nodes[62874341] = Blanchy()
+-------------------------------------------------------------------------------
+------------------------------- VENTHYR MIRRORS -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[29602589] = Treasure({ label="Broken Mirror", icon='portal_p', focusable=true, scale=2.0, note="Group 4 Mirror, Room with Elite Soulbinder" })
+map.nodes[20755426] = Treasure({ label="Broken Mirror", icon='portal_p', focusable=true, scale=2.0, note="Group 4 Mirror, Inside Villa at Entrance" })
+map.nodes[55123567] = Treasure({ label="Broken Mirror", icon='portal_p', focusable=true, scale=2.0, note="Group 4 Mirror, Inside Crypt with Nobles" })
+
+map.nodes[72604365] = Treasure({ label="Broken Mirror", icon='portal_g', focusable=true, scale=2.0, note="Group 3 Mirror, Inside Crypt with Disciples" })
+map.nodes[40307716] = Treasure({ label="Broken Mirror", icon='portal_g', focusable=true, scale=2.0, note="Group 3 Mirror, Inside House with Wildlife" })
+map.nodes[77176543] = Treasure({ label="Broken Mirror", icon='portal_g', focusable=true, scale=2.0, note="Group 3 Mirror, Inside House with several Elite Mobs" })
+
+map.nodes[39095218] = Treasure({ label="Broken Mirror", icon='portal_b', focusable=true, scale=2.0, note="Group 2 Mirror, Room on Ground Floor" })
+map.nodes[58806780] = Treasure({ label="Broken Mirror", icon='portal_b', focusable=true, scale=2.0, note="Group 2 Mirror, Inside House with Stonevigil" })
+map.nodes[70974363] = Treasure({ label="Broken Mirror", icon='portal_b', focusable=true, scale=2.0, note="Group 2 Mirror, Room with Disciples" })
+
+map.nodes[29493726] = Treasure({ label="Broken Mirror", icon='portal_r', focusable=true, scale=2.0, note="Group 1 Mirror, Room with Cooking Pot" })
+map.nodes[27152163] = Treasure({ label="Broken Mirror", icon='portal_r', focusable=true, scale=2.0, note="Group 1 Mirror, Room with Elite Spider" })
+map.nodes[40417334] = Treasure({ label="Broken Mirror", icon='portal_r', focusable=true, scale=2.0, note="Group 1 Mirror, Inside House with Sleeping Wildlife" })
