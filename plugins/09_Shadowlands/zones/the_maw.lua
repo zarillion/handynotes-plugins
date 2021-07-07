@@ -1060,7 +1060,7 @@ local ZovaalVault = Class('ZovaalVault', Treasure, {
     rift=1,
     rewards={
         Transmog({item=187251, slot=L["cosmetic"]}), -- Shaded Skull Shoulderguards
-        Toy({item=187113}), -- Personal Ball and Chain 
+        Toy({item=187113}), -- Personal Ball and Chain
         Toy({item=187416}) -- Jailer's Cage
     }
 })
