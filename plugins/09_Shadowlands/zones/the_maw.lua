@@ -463,7 +463,7 @@ map.nodes[69214521] = Treasure({
     quest=64256,
     rewards={
         Achievement({id=15099, criteria=52243}),
-        Item({item=185902}), -- Iron Maiden's Toolkit
+        Item({item=185902, note=L["trinket"]}), -- Iron Maiden's Toolkit
         Transmog({item=187014, slot=L["cosmetic"]}), -- Shackler's Spiked Shoulders
         Transmog({item=187018, slot=L["cosmetic"]}), -- Ritualist's Shoulder Scythes
         Transmog({item=187019, slot=L["cosmetic"]}), -- Infiltrator's Shoulderguards
