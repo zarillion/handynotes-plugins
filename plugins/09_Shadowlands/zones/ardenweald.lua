@@ -258,7 +258,7 @@ map.nodes[65702430] = Rare({
     note=L["rotbriar_note"],
     rewards={
         Achievement({id=14309, criteria=48789}),
-        Item({item=175729, note=L["trinket"]}) -- Rotbriar Sprout
+        Item({item=175729, slot=L["trinket"]}) -- Rotbriar Sprout
     }
 }) -- Rotbriar Boggart
 
@@ -289,7 +289,7 @@ map.nodes[59304660] = Rare({
     note=L["slumbering_note"],
     rewards={
         Achievement({id=14309, criteria=48792}),
-        Item({item=175711, note=L["ring"]}) -- Slumberwood Band
+        Item({item=175711, slot=L["ring"]}) -- Slumberwood Band
     }
 }) -- The Slumbering Emperor
 

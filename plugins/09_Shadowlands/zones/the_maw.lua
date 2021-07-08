@@ -101,7 +101,7 @@ map.nodes[19324172] = Rare({
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49842}),
-        Item({item=184106, note=L["ring"]}), -- Gimble
+        Item({item=184106, slot=L["ring"]}), -- Gimble
         Item({item=182327}) -- Dominion Etching: Loss
     }
 }) -- Apholeias, Herald of Loss
@@ -192,7 +192,7 @@ map.nodes[42342108] = Rare({
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49849}),
-        Item({item=184105, note=L["ring"]}), -- Gyre
+        Item({item=184105, slot=L["ring"]}), -- Gyre
         Item({item=182328}) -- Dominion Etching: Grief
     }
 }) -- Ekphoras, Herald of Grief
@@ -217,7 +217,7 @@ map.nodes[20586935] = Rare({
     fgroup='nilganihmaht_group',
     rewards={
         Achievement({id=14744, criteria=49851}),
-        Item({item=184108, note=L["neck"]}), -- Vorpal Amulet
+        Item({item=184108, slot=L["neck"]}), -- Vorpal Amulet
         Item({item=186606}), -- Nilganihmaht's Signet Ring
         Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
         Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
@@ -409,7 +409,7 @@ map.nodes[34564206] = Rare({
     rift=2,
     rewards={
         Achievement({id=15107, criteria=52297}),
-        Item({item=187406, note=L["ring"]}), -- Band of Blinding Shadows
+        Item({item=187406, slot=L["ring"]}), -- Band of Blinding Shadows
         Transmog({item=187361, slot=L["bow"]}) -- Rift-Bound Shadow Piercer
     }
 }) -- Blinding Shadow
@@ -463,7 +463,12 @@ map.nodes[69214521] = Treasure({
     quest=64256,
     rewards={
         Achievement({id=15099, criteria=52243}),
-        Transmog({item=187018, slot=L["cosmetic"]}) -- Ritualist's Shoulder Scythes
+        Item({item=185902}), -- Iron Maiden's Toolkit
+        Transmog({item=187014, slot=L["cosmetic"]}), -- Shackler's Spiked Shoulders
+        Transmog({item=187018, slot=L["cosmetic"]}), -- Ritualist's Shoulder Scythes
+        Transmog({item=187019, slot=L["cosmetic"]}), -- Infiltrator's Shoulderguards
+        Transmog({item=187026, slot=L["cosmetic"]}), -- Field Warden's Torture Kit
+        Transmog({item=187240, slot=L["cosmetic"]}) -- Field Warden's Watchful Eye
     }
 }) -- Helsworn Chest
 
@@ -472,7 +477,7 @@ map.nodes[66526129] = Treasure({
     note=L["in_cave"],
     rewards={
         Achievement({id=15099, criteria=52244}),
-        Item({item=187352, note=L["neck"]}) -- Jeweled Heart of Ezekiel
+        Item({item=187352, slot=L["neck"]}) -- Jeweled Heart of Ezekiel
     }
 }) -- Jeweled Heart
 
