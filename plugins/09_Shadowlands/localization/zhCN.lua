@@ -246,11 +246,7 @@ L["consumption_note"] = [[
 
 |cFFFF0000*{npc:179758} 在此稀有战斗中将不会刷新并被吞噬。*|r
 ]]
-L["darkmaul_note"] = [[
-从入侵的渊菇收集 {item:187153} 并喂食给 {npc:180063}。你必须完成事件10次获得坐骑。
-
-|cFFFF8C00如果你在团队中进程将不会被计数！|r
-]]
+L["darkmaul_note"] = "从入侵的渊菇收集 {item:187153} 并喂食给 {npc:180063}。你必须完成事件10次获得坐骑。"
 L["dislodged_nest_note"] = "点击附近的剧毒之蛾获得 {spell:355181}。使用 {spell:355131} 额外动作按钮给 {npc:178547} 来获得控制和骑上它进入巢所在的树中。"
 L["escaped_wilderling_note"] = "点击 {npc:180014} 开始驯服事件。"
 L["flayedwing_transporter_note"] = "点击 {npc:178633} 飞向和飞离绝密宝库。"

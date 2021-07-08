@@ -247,11 +247,7 @@ Lässt zusätzliche Gegenstände für {currency:1931} fallen, wenn er *erneut* 4
 
 |cFFFF0000Lässt keine {npc:179758} zum verzehren erscheinen, wenn er im Kampf ist.|r
 ]]
-L["darkmaul_note"] = [[
-Sammel {item:187153} von einem Invasivem Schlundpilz und füttere 10x {npc:180063} damit, um das Reittier zu erhalten.
-
-|cFFFF8C00Der Fortschritt wird nicht gezählt, wenn du dich in einem Schlachtzug befindest!|r
-]]
+L["darkmaul_note"] = "Sammel {item:187153} von einem Invasivem Schlundpilz und füttere 10x {npc:180063} damit, um das Reittier zu erhalten."
 L["dislodged_nest_note"] = "Klicke in der Nähe eine Giftige Motte an, um den Stärkungszauber {spell:355181} zu erhalten. Benutze den Extrabutton von {spell:355131} auf einen {npc:178547}, um die Kontrolle über ihn zu erlangen und dann reite mit ihm gegen den Baum, in dem der Schatz liegt."
 L["escaped_wilderling_note"] = "Klicke den {npc:180014} an, um das Zähmungsevent zu starten."
 L["flayedwing_transporter_note"] = "Klicke den {npc:178633} an, um zum oder vom Archiv der Geheimnisse zu fliegen."

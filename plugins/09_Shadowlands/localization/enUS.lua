@@ -246,11 +246,7 @@ This rare will drop extra research items after it consumes *another* 40x {npc:17
 
 |cFFFF0000The rare will not spawn {npc:179758} to consume while in combat.|r
 ]]
-L["darkmaul_note"] = [[
-Collect {item:187153} from Invasive Mawshrooms and feed them to {npc:180063}. You must complete the event 10 times to obtain the mount.
-
-|cFFFF8C00Progress will not be counted if you are in a raid group!|r
-]]
+L["darkmaul_note"] = "Collect {item:187153} from Invasive Mawshrooms and feed them to {npc:180063}. You must complete the event 10 times to obtain the mount."
 L["dislodged_nest_note"] = "Click on a nearby Noxious Moth to gain {spell:355181}. Use the {spell:355131} extra action button on {npc:178547} to gain control and ride it into the tree the nest is in."
 L["escaped_wilderling_note"] = "Click on the {npc:180014} to start the taming event."
 L["flayedwing_transporter_note"] = "Click on {npc:178633} to fly to or from the Vault of Secrets."

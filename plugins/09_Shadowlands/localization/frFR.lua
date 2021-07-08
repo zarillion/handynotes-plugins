@@ -248,11 +248,7 @@ Ce monstre rare laissera tomber des objets de recherche supplémentaires après 
 
 |cFFFF0000Le monstre rare ne fera pas apparaître des {npc:179758} pour les consommer si engagé en combat.|r
 ]]
-L["darkmaul_note"] = [[
-Collectez des {item:187153} sur les champignantre envahissants et nourrissez {npc:180063} avec. Vous devez terminer l'événement 10 fois pour obtenir la monture.
-
-|cFFFF8C00La progression ne sera pas comptabilisée si vous êtes dans un groupe de raid !|r
-]]
+L["darkmaul_note"] = "Collectez des {item:187153} sur les champignantre envahissants et nourrissez {npc:180063} avec. Vous devez terminer l'événement 10 fois pour obtenir la monture."
 L["dislodged_nest_note"] = "Cliquez sur un papillon nocif proche pour obtenir {spell:355181}. Utilisez le bouton d'action supplémentaire {spell:355131} sur un {npc:178547} pour en prendre le contrôle et le conduire dans l'arbre où se trouve le nid."
 L["escaped_wilderling_note"] = "Cliquez sur le {npc:180014} pour lancer l'événement de domptage."
 L["flayedwing_transporter_note"] = "Cliquez sur {npc:178633} pour voler vers ou depuis le Caveau des Secrets."

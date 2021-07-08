@@ -248,11 +248,7 @@ Este raro soltará objetos de investigación extra después de consumir otros 40
 
 |cFFFF0000El raro no hará aparecer {npc:179758} para consumir si está en combate.|r
 ]]
-L["darkmaul_note"] = [[
-Recoge {item:187153} de los Champifauces Invasivos y alimenta a la {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura."
-
-|cFFFF8C00¡El progreso no contará si estás en una banda!|r
-]]
+L["darkmaul_note"] = "Recoge {item:187153} de los Champifauces Invasivos y alimenta a la {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura."
 L["dislodged_nest_note"] = "Haz click en una Polilla Nociva cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en el {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido."
 L["escaped_wilderling_note"] = "Haz click en el {npc:180014} para empezar el evento de doma."
 L["flayedwing_transporter_note"] = "Haz click en el {npc:178633} para volar a o desde la Cámara de los Secretos."

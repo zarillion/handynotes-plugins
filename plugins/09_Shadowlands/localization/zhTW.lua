@@ -246,11 +246,7 @@ L["consumption_note"] = [[
 
 |cFFFF0000當在戰鬥中時, {npc:179758} 不會刷新給此稀有吞噬.|r
 ]]
-L["darkmaul_note"] = [[
-從入侵的淵喉菇收集 {item:187153} 並且餵給 {npc:180063}. 你必須要完成此事件10次來取得坐騎.
-
-|cFFFF8C00當你在團隊時進度不會被計算!|r
-]]
+L["darkmaul_note"] = "從入侵的淵喉菇收集 {item:187153} 並且餵給 {npc:180063}. 你必須要完成此事件10次來取得坐騎."
 L["dislodged_nest_note"] = "點選附近的劇毒飛蛾拿到 {spell:355181}. 對 {npc:178547} 使用額外動作按鈕上的 {spell:355131} 來騎上牠並操縱牠去撞巢穴所在的樹."
 L["escaped_wilderling_note"] = "點選 {npc:180014} 來開始馴服事件."
 L["flayedwing_transporter_note"] = "點選 {npc:178633} 來進入或離開玄秘寶庫."
