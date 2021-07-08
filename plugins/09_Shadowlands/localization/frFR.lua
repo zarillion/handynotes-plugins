@@ -262,11 +262,7 @@ L["maelie_wanderer"] = "{npc:179912} apparaîtra à un endroit défini pour la j
 L["malbog_note"] = "Parlez au {npc:179729} pour obtenir {spell:355078} et suivez les traces de pas jusqu'à ce que vous trouviez les restes de chair."
 L["offering_box_note"] = "Requiert une Petite clé des offrandes qui peut être trouvée sur le haut du mur ouest des ruines voisines."
 L["pop_quiz_note"] = "L'événement Pop Quizz apparaîtra aléatoirement sur la carte. Cliquez sur le Mât voilé abandonné et répondez aux questions de {npc:180162}."
-L["razorwing_note"] = [[
-Apportez 10 {item:187054} obtenus sur les dévoreurs dans la zone.
-
-|cFFFF8C00La progression ne sera pas comptabilisée si vous êtes dans un groupe de raid !|r
-]]
+L["razorwing_note"] = "Apportez 10 {item:187054} obtenus sur les dévoreurs dans la zone."
 L["reliwik_note"] = "Cliquez sur l'oeuf de rasaile non corrompu pour le faire descendre."
 L["spectral_bound_chest"] = "Cliquez sur 3 clés spectrales proches pour déverrouiller le coffre."
 L["spectral_bound_note"] = "Coffre cerclé spectral"

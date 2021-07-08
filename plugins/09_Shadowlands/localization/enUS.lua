@@ -260,11 +260,7 @@ L["maelie_wanderer"] = "{npc:179912} will spawn in a set location for the day. O
 L["malbog_note"] = "Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains."
 L["offering_box_note"] = "Requires Small Offering Key which can be found on the top of the west side wall of the near by ruins."
 L["pop_quiz_note"] = "The Pop Quiz event will spawn randomly on the map. Click on the Abandoned Veilstaff and answer the questions from {npc:180162}."
-L["razorwing_note"] = [[
-Hand in 10x {item:187054} dropped by devourers in the area.
-
-|cFFFF8C00Progress will not be counted if you are in a raid group!|r
-]]
+L["razorwing_note"] = "Hand in 10x {item:187054} dropped by devourers in the area."
 L["reliwik_note"] = "Click on the uncorrupted razorwing egg to pull him down."
 L["spectral_bound_chest"] = "Spectral Bound Chest"
 L["spectral_bound_note"] = "Click on 3 nearby Spectral Keys to unlock the chest."

@@ -265,8 +265,6 @@ L["razorwing_note"] = [[
 |cFFFF0000Es können täglich 2 Eier erbeutet werden.|r
 
 Gib 10x {item:187054} ab, dass von den Verschlingern wie {npc:177245} geplündert werden kann.
-
-|cFFFF8C00Der Fortschritt wird nicht gezählt, wenn du dich in einem Schlachtzug befindest!|r
 ]]
 L["reliwik_note"] = "Klicke das Unverderbte Klingenschwingenei an."
 L["spectral_bound_chest"] = "Spektralgebundene Truhe"

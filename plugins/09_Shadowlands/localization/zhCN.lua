@@ -260,11 +260,7 @@ L["maelie_wanderer"] = "{npc:179912} 将在当天固定位置出现。使用 {sp
 L["malbog_note"] = "和 {npc:179729} 交谈获得 {spell:355078} 并跟随脚印直到你找到血肉遗骸。"
 L["offering_box_note"] = "需要 {item:187033}，可以在附近废墟的西侧墙顶部找到。"
 L["pop_quiz_note"] = "突击测验事件将在地图上随机出现。点击废弃的帷幕之杖并回答 {npc:180162} 的问题。"
-L["razorwing_note"] = [[
-交付区域内吞噬者掉落的10个 {item:187054}。
-
-|cFFFF8C00如果你在团队中进程将不会被计数！|r
-]]
+L["razorwing_note"] = "交付区域内吞噬者掉落的10个 {item:187054}。"
 L["reliwik_note"] = "点击纯净的的刀翼兽之卵并击杀它。"
 L["spectral_bound_chest"] = "点击附近的3个幽魂钥匙解锁宝箱。"
 L["spectral_bound_note"] = "幽魂束缚宝箱"

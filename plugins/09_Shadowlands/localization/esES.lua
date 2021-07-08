@@ -262,11 +262,7 @@ L["maelie_wanderer"] = "{npc:179912} aparecerá en varios sitios durante el día
 L["malbog_note"] = "Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos."
 L["offering_box_note"] = "Requiere una {item:187033} que se puede encontrar en la parte superior de la pared del lado oeste de las ruinas cercanas."
 L["pop_quiz_note"] = "El evento del Cuestionario aparecerá aleatoriamente en el mapa. Haz click en el Bastón del Velo Abandonado y responde a las preguntas de {npc:180162}."
-L["razorwing_note"] = [[
-Devuelve 10 {item:187054} soltados por los devoradores de la zona."
-
-|cFFFF8C00¡El progreso no contará si estás en una banda!|r
-]]
+L["razorwing_note"] = "Devuelve 10 {item:187054} soltados por los devoradores de la zona."
 L["reliwik_note"] = "Haz click en el huevo de alafilada prístino para hacerlo bajar."
 L["spectral_bound_chest"] = "Haz click en las 3 {item:179369} cercanas para debloquear el cofre."
 L["spectral_bound_note"] = "Cofre reforzado espectral"

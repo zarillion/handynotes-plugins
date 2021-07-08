@@ -260,11 +260,7 @@ L["maelie_wanderer"] = "{npc:179912} 會刷新在所標註的位置. 當你點�
 L["malbog_note"] = "和 {npc:179729} 說話來拿到 {spell:355078} 接著跟隨著足跡直到你找到血肉殘駭."
 L["offering_box_note"] = "需要 {item:187033}, 可以在附近廢墟西邊牆頂找到."
 L["pop_quiz_note"] = "猜謎比賽會隨機刷新在地圖上. 點選被遺棄的帷幕法杖並回答 {npc:180162} 的問題."
-L["razorwing_note"] = [[
-交出10次吞食者掉落的 {item:187054}.
-
-|cFFFF8C00當你在團隊時進度不會被計算!|r
-]]
+L["razorwing_note"] = "交出10次吞食者掉落的 {item:187054}."
 L["reliwik_note"] = "點選未腐化的刃翼蛋來拉他下來."
 L["spectral_bound_chest"] = "點選3個附近的 {item:179369} 來解鎖箱子."
 L["spectral_bound_note"] = "靈縛寶箱"
