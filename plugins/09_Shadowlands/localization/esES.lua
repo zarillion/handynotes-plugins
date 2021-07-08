@@ -631,4 +631,4 @@ L["options_icons_nilganihmaht_desc"] = "Muestra donde están las partes para la 
 
 L["zovault_note"] = "Trae {npc:179883} a {npc:179904} una vez al día para una piedra de falla garantizada."
 L["options_icons_zovault"] = "{npc:179883}"
-L["options_icons_zovault_desc"] = "Muestra donde están {npc:179883}." 
+L["options_icons_zovault_desc"] = "Muestra donde están {npc:179883}."
