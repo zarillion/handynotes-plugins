@@ -290,7 +290,7 @@ L["rift_portal_note"] = [[
 |cFFFF8C00並非所有裂隙傳送門在任何時間都是啟動的.|r
 ]]
 L["rift_rare_only_note"] = "此稀有僅在 |cFFFFFF00裂隙|r 位面內可以看到並被擊殺"
-L["rift_rare_exit_note"] = "此稀有在裂隙中被互動後會離開 |cFFFFFF00裂隙|r 位面"
+L["rift_rare_exit_note"] = "此稀有必須有 {spell:354840} 增益否則會出錯! 在裂隙中和其互動後會離開 |cFFFFFF00裂隙|r 位面"
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "顯示用來進入 |cFFFFFF00裂隙|r 的 {npc:179595} 位置"
 
@@ -530,11 +530,11 @@ L["Cordial"] = "友善"
 L["Tentative"] = "猶豫"
 
 L["stygian_cache"] = "冥魄儲藏箱"
-L["stygian_cache_note"] = "每次重生只有一個人能夠拾取"
+L["stygian_cache_note"] = "每次重生只有一個人能夠拾取!"
 
-L["box_of_torments_note"] = "在悲慘之牢下方開啟 {npc:173837}"
-L["tormentors_notes_note"] = "拾取 {npc:173811} 的屍體"
-L["words_of_warden_note"] = "在一些罐子後面的石頭上檢查 {npc:173841}"
+L["box_of_torments_note"] = "在悲慘之牢下方開啟 {npc:173837}."
+L["tormentors_notes_note"] = "拾取 {npc:173811} 的屍體."
+L["words_of_warden_note"] = "在一些罐子後面的石頭上檢查 {npc:173841}."
 
 -- Locations given relative to a map area name
 L["nexus_area_calcis_branch"] = nil
@@ -596,24 +596,24 @@ L["nexus_misc_three_chains"] = nil
 L["stolen_anima_vessel"] = "遭竊的靈魄容器"
 L["hidden_anima_cache"] = "隱藏靈魄寶箱"
 L["options_icons_anima_vessel"] = "遭竊靈魄容器"
-L["options_icons_anima_vessel_desc"] = "顯示進攻戰時和 |cFFFFFF00裂隙|r 中靈魄容器的位置"
+L["options_icons_anima_vessel_desc"] = "顯示進攻戰時和 |cFFFFFF00裂隙|r 中靈魄容器的位置."
 
 L["rift_hidden_cache"] = "裂隙隱藏寶箱"
 L["options_icons_rift_hidden_cache"] = "裂隙隱藏寶箱"
-L["options_icons_rift_hidden_cache_desc"] = "顯示在 |cFFFFFF00裂隙|r 內的寶箱位置"
+L["options_icons_rift_hidden_cache_desc"] = "顯示在 |cFFFFFF00裂隙|r 內的寶箱位置."
 
 L["options_icons_bonus_boss"] = "獎勵精英"
-L["options_icons_bonus_boss_desc"] = "顯示獎勵精英位置。"
+L["options_icons_bonus_boss_desc"] = "顯示獎勵精英位置."
 L["options_icons_riftstone"] = "{npc:174962}"
-L["options_icons_riftstone_desc"] = "顯示混亂裂隙石傳送者位置。"
+L["options_icons_riftstone_desc"] = "顯示混亂裂隙石傳送者位置."
 L["options_icons_grapples"] = "{npc:176308}"
-L["options_icons_grapples_desc"] = "顯示使用 {item:184653} 升級後可使用的 {npc:176308} 位置"
+L["options_icons_grapples_desc"] = "顯示使用 {item:184653} 升級後可使用的 {npc:176308} 位置."
 L["options_icons_maw_lore"] = "淵喉知識物品"
-L["options_icons_maw_lore_desc"] = "顯示 {achievement:14761} 成就中淵喉知識物品的位置"
+L["options_icons_maw_lore_desc"] = "顯示 {achievement:14761} 成就中淵喉知識物品的位置."
 L["options_icons_stygia_nexus"] = "冥魄核心"
-L["options_icons_stygia_nexus_desc"] = "顯示 {item:184168} 坐騎所需的冥魄核心位置"
+L["options_icons_stygia_nexus_desc"] = "顯示 {item:184168} 坐騎所需的冥魄核心位置."
 L["options_icons_stygian_caches"] = "冥魄儲藏箱"
-L["options_icons_stygian_caches_desc"] = "顯示含有額外冥魄寶箱的位置"
+L["options_icons_stygian_caches_desc"] = "顯示含有額外冥魄寶箱的位置."
 
 L["cov_assault_only"] = "僅在 %s進攻戰 時刷新"
 L["domination_chest"] = "統御寶箱"
@@ -627,6 +627,6 @@ L["nilganihmaht_note"] = "你必須蒐集5個戒指, 並且把它們帶給在裂
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "顯示 {spell:354354} 坐騎部件的位置."
 
-L["zovault_note"] = nil
+L["zovault_note"] = "每天拖曳 {npc:179883} 到 {npc:179904} 處, 保證給予裂隙傳送門石."
 L["options_icons_zovault"] = "{npc:179883}"
-L["options_icons_zovault_desc"] = nil
+L["options_icons_zovault_desc"] = "顯示 {npc:179883} 有可能的位置."
