@@ -292,7 +292,7 @@ Nécessite une {item:186731}, qui peut être achetée à {npc:178257} une fois q
 |cFFFF8C00Les portails de failles ne sont pas tous actifs à un moment donné.|r
 ]]
 L["rift_rare_only_note"] = "Ce monstre ne peut être vu et tué qu'en étant entré dans |cFFFFFF00La Faille|r."
-L["rift_rare_exit_note"] = "Ce monstre rare doit être {spell:354840} et sortira de |cFFFFFF00La Faille|r une fois qu'il aura été abordé à l'intérieur de celle-ci."
+L["rift_rare_exit_note"] = "Ce monstre rare doit être {spell:354840} ou bien il restera buggé ! Il sortira de |cFFFFFF00La Faille|r une fois qu'il aura été abordé à l'intérieur de celle-ci."
 L["options_icons_rift_portal"] = "{npc:179595s}"
 L["options_icons_rift_portal_desc"] = "Afficher les emplacements des {npc:179595s} utilisés pour entrer dans |cFFFFFF00La Faille|r."
 
@@ -631,6 +631,6 @@ L["nilganihmaht_note"] = "Vous devez collecter les 5 anneaux et les apporter à 
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "Afficher les emplacements des parties de la monture {spell:354354}."
 
-L["zovault_note"] = nil
+L["zovault_note"] = "Traînez le {npc:179883} vers {npc:179904} une fois par jour pour des pierres de faille garanties."
 L["options_icons_zovault"] = "{npc:179883}"
-L["options_icons_zovault_desc"] = nil
+L["options_icons_zovault_desc"] = "Afficher les emplacements possibles pour le {npc:179883}."
