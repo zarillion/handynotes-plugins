@@ -88,7 +88,8 @@ map.nodes[25923116] = Rare({
     note=L["dekaris_note"],
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=49841})
+        Achievement({id=14744, criteria=49841}),
+        Transmog({item=186222, slot=L["mail"]}) -- Grips of the Coldheart Adjutant
     }
 }) -- Adjutant Dekaris
 
@@ -111,6 +112,7 @@ map.nodes[39014119] = Rare({
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49843}),
+        Transmog({item=186223, slot=L["mail"]}), -- Coif of the Molten Horror
         Toy({item=184312}) -- Borr-Geth's Fiery Brimstone
     }
 }) -- Borr-Geth
@@ -132,7 +134,8 @@ map.nodes[60964805] = Rare({
     note=L["in_cave"],
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=49845})
+        Achievement({id=14744, criteria=49845}),
+        Transmog({item=186220, slot=L["mail"]}) -- Stygian Chestcage
     }
 }) -- Darithis the Bleak
 
@@ -141,7 +144,9 @@ map.nodes[49128175] = Rare({
     quest=62282,
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=49846})
+        Achievement({id=14744, criteria=49846}),
+        Transmog({item=186611, slot=L["leather"]}), -- Taraxis Treads
+        Toy({item=183901}) -- Bonestorm Top
     }
 }) -- Darklord Taraxis
 
@@ -164,7 +169,8 @@ map.nodes[28086058] = Rare({
     quest=60909,
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=49847})
+        Achievement({id=14744, criteria=49847}),
+        Transmog({item=186209, slot=L["cloth"]}) -- Blood-Spattered Gloves of Death
     }
 }) -- Dolos <Death's Knife>
 
@@ -174,7 +180,8 @@ map.nodes[23765341] = Rare({
     noassault=NIGHTFAE,
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=49848})
+        Achievement({id=14744, criteria=49848}),
+        Transmog({item=186563, slot=L["polearm"]}) -- Spear of the Impaler
     }
 }) -- Eketra <The Impaler>
 
@@ -197,6 +204,7 @@ map.nodes[19194608] = Rare({ -- was 27584966
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49850}),
+        Transmog({item=186212, slot=L["cloth"]}), -- Eternas' Braided Waistcord
         Pet({item=183407, id=3037}) -- Contained Essence of Dread
     }
 }) -- Eternas the Tormentor
@@ -251,7 +259,8 @@ map.nodes[30775000] = Rare({
     note=L["ikras_note"],
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=50621})
+        Achievement({id=14744, criteria=50621}),
+        Transmog({item=186214, slot=L["leather"]}) -- Maw Snakeskin Boots
     }
 }) -- Ikras the Devourer
 
@@ -262,6 +271,7 @@ map.nodes[16945102] = Rare({
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49852}),
+        Transmog({item=185892, slot=L["2h_sword"]}), -- Stygia-Etched Decapitator
         Toy({item=184292}) -- Ancient Elethium Coin
     }
 }) -- Morguliax <Lord of Decapitation>
@@ -272,7 +282,8 @@ map.nodes[45507376] = Rare({
     note=L["in_small_cave"],
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=49853})
+        Achievement({id=14744, criteria=49853}),
+        Transmog({item=186236, slot=L["leather"]}) -- Devourer's Shadehide Jerkin
     }
 }) -- Nascent Devourer
 
@@ -281,7 +292,8 @@ map.nodes[48801830] = Rare({
     quest=60667,
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=49854})
+        Achievement({id=14744, criteria=49854}),
+        Transmog({item=186238, slot=L["cloth"]}) -- Mantle of the Prime Collector
     }
 }) -- Obolos <Prime Adjutant>
 
@@ -292,6 +304,7 @@ map.nodes[23692139] = Rare({
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49855}),
+        Transmog({item=186211, slot=L["cloth"]}), -- Pantaloons of the Condemned Bard
         Toy({item=181794}) -- Orophea's Lyre
     },
     pois={
@@ -307,7 +320,8 @@ map.nodes[32946646] = Rare({
         Achievement({id=14744, criteria=49856}),
         Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
         Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
-        Item({item=183068, quest=63162})  -- Korrath's Grimoire: Gyadrek
+        Item({item=183068, quest=63162}),  -- Korrath's Grimoire: Gyadrek
+        Transmog({item=185945, slot=L["staff"]}) -- Shadeweaver's Spire
     }
 }) -- Shadeweaver Zeris
 
@@ -316,7 +330,8 @@ map.nodes[35974156] = Rare({
     quest=60834,
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=49857})
+        Achievement({id=14744, criteria=49857}),
+        Transmog({item=186613, slot=L["mail"]}) -- Rhovus' Linked Greaves
     }
 }) -- Soulforger Rhovus
 
@@ -338,7 +353,8 @@ map.nodes[27397152] = Rare({
     quest=60914,
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=49859})
+        Achievement({id=14744, criteria=49859}),
+        Transmog({item=186234, slot=L["plate"]}) -- Girdle of the Death Speaker
     }
 }) -- Thanassos <Death's Voice>
 
@@ -358,7 +374,8 @@ map.nodes[37446212] = Rare({
     note=L["yero_note"],
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
-        Achievement({id=14744, criteria=49860})
+        Achievement({id=14744, criteria=49860}),
+        Transmog({item=186228, slot=L["plate"]}) -- Helm of the Skittish Hero
     },
     pois={
         Path({
@@ -543,7 +560,8 @@ map.nodes[28204450] = BonusBoss({
     id=169102,
     quest=61136, -- 63380
     rewards={
-        Achievement({id=14660, criteria=49485})
+        Achievement({id=14660, criteria=49485}),
+        Transmog({item=186616, slot=L["mail"]}) -- Bindings of Screaming Death
     }
 }) -- Agonix
 
@@ -551,7 +569,8 @@ map.nodes[34087453] = BonusBoss({
     id=170787,
     quest=60920,
     rewards={
-        Achievement({id=14660, criteria=49487})
+        Achievement({id=14660, criteria=49487}),
+        Transmog({item=186617, slot=L["plate"]}) -- Death's Hammer Stompers
     }
 }) -- Akros <Death's Hammer>
 
@@ -560,7 +579,8 @@ map.nodes[28712513] = BonusBoss({
     quest=61346,
     rewards={
         Achievement({id=14660, criteria=49484}),
-        Item({item=183070, quest=63164}) -- Mawsworn Orders
+        Item({item=183070, quest=63164}), -- Mawsworn Orders
+        Transmog({item=186618, slot=L["mail"]}) -- Willbreaker's Chain
     }
 }) -- Cyrixia <The Willbreaker>
 
@@ -568,7 +588,8 @@ map.nodes[25831479] = BonusBoss({
     id=162452,
     quest=59230,
     rewards={
-        Achievement({id=14660, criteria=49476})
+        Achievement({id=14660, criteria=49476}),
+        Transmog({item=186619, slot=L["plate"]}) -- Bloodspattered Shoulders of the Flayer
     }
 }) -- Dartanos <Flayer of Souls>
 
@@ -580,7 +601,8 @@ map.nodes[19205740] = BonusBoss({
         Achievement({id=14660, criteria=50410}),
         Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
         Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
-        Item({item=183068, quest=63162}) -- Korrath's Grimoire: Gyadrek
+        Item({item=183068, quest=63162}), -- Korrath's Grimoire: Gyadrek
+        Transmog({item=186620, slot=L["leather"]}) -- Rezara's Fencing Grips
     }
 }) -- Dath Rezara <Lord of Blades>
 
@@ -589,7 +611,8 @@ map.nodes[31982122] = BonusBoss({
     quest=59183,
     note=L["drifting_sorrow_note"],
     rewards={
-        Achievement({id=14660, criteria=49475})
+        Achievement({id=14660, criteria=49475}),
+        Transmog({item=186622, slot=L["cloth"]}) -- Robe of Drifting Sorrow
     }
 }) -- Drifting Sorrow
 
@@ -597,7 +620,8 @@ map.nodes[60456478] = BonusBoss({
     id=172523,
     quest=62209,
     rewards={
-        Achievement({id=14660, criteria=49490})
+        Achievement({id=14660, criteria=49490}),
+        Transmog({item=186224, slot=L["mail"]}) -- Beastwarren Houndmaster's Treads
     }
 }) -- Houndmaster Vasanok
 
@@ -606,7 +630,8 @@ map.nodes[20782968] = BonusBoss({
     quest=58918,
     noassault=NIGHTFAE,
     rewards={
-        Achievement({id=14660, criteria=49481})
+        Achievement({id=14660, criteria=49481}),
+        Transmog({item=186623, slot=L["cloth"]})  -- Lost Soul's Mantle
     }
 }) -- Huwerath
 
@@ -614,7 +639,8 @@ map.nodes[30846866] = BonusBoss({
     id=170692,
     quest=63381,
     rewards={
-        Achievement({id=14660, criteria=49486})
+        Achievement({id=14660, criteria=49486}),
+        Transmog({item=186624, slot=L["cloak"]}) -- Death Wing Drape
     }
 }) -- Krala <Death's Wings>
 
@@ -622,7 +648,8 @@ map.nodes[27311754] = BonusBoss({
     id=171316,
     quest=61125,
     rewards={
-        Achievement({id=14660, criteria=49488})
+        Achievement({id=14660, criteria=49488}),
+        Transmog({item=186625, slot=L["leather"]}), -- Hood of Malevolence
     }
 }) -- Malevolent Stygia
 
@@ -640,7 +667,8 @@ map.nodes[25364875] = BonusBoss({
     id=162845,
     quest=60991,
     rewards={
-        Achievement({id=14660, criteria=49480})
+        Achievement({id=14660, criteria=49480}),
+        Transmog({item=186626, slot=L["cloth"]}) -- Bloodwicking Bands
     }
 }) -- Orrholyn <Lord of Bloodletting>
 
@@ -650,7 +678,8 @@ map.nodes[22674223] = BonusBoss({
     noassault=NIGHTFAE,
     note=L["in_cave"],
     rewards={
-        Achievement({id=14660, criteria=51058})
+        Achievement({id=14660, criteria=51058}),
+        Transmog({item=186627, slot=L["leather"]}) -- Belt of Ten Thousand Tails
     },
     pois={
         POI({20813927}) -- Cave entrance
@@ -661,7 +690,8 @@ map.nodes[26173744] = BonusBoss({
     id=162829,
     quest=60992,
     rewards={
-        Achievement({id=14660, criteria=49479})
+        Achievement({id=14660, criteria=49479}),
+        Transmog({item=186628, slot=L["plate"]}) -- Razkazzar's Axe Grippers
     }
 }) -- Razkazzar <Lord of Axes>
 
@@ -671,6 +701,7 @@ map.nodes[55626318] = BonusBoss({
     note=L["in_cave"]..' '..L["sanngror_note"],
     rewards={
         Achievement({id=14660, criteria=49489}),
+        Item({item=186629, slot=L["ring"]}), -- Sanngors Spiked Band
         Pet({item=183410, id=3040}) -- Sharpclaw
     },
     pois={
@@ -683,7 +714,8 @@ pitu.nodes[41767921] = BonusBoss({
     quest=62211,
     note=L["nexus_cave_anguish_upper"],
     rewards={
-        Achievement({id=14660, criteria=49491})
+        Achievement({id=14660, criteria=49491}),
+        Transmog({item=186240, slot=L["cloak"]}) -- Broodmotherhide Cloak
     },
     parent=map.id
 }) -- Skittering Broodmother
@@ -692,7 +724,8 @@ map.nodes[36253744] = BonusBoss({
     id=165047,
     quest=59441,
     rewards={
-        Achievement({id=14660, criteria=49482})
+        Achievement({id=14660, criteria=49482}),
+        Transmog({item=186630, slot=L["plate"]}) -- Spark Deflecting Girdle
     }
 }) -- Soulsmith Yol-Mattar
 
@@ -700,7 +733,8 @@ map.nodes[36844480] = BonusBoss({
     id=156203,
     quest=62539,
     rewards={
-        Achievement({id=14660, criteria=50409})
+        Achievement({id=14660, criteria=50409}),
+        Item({item=186631, slot=L["ring"]}) -- Emberfused Band
     }
 }) -- Stygian Incinerator
 
@@ -709,7 +743,8 @@ map.nodes[40705959] = BonusBoss({
     quest=61728,
     note=L["valis_note"],
     rewards={
-        Achievement({id=14660, criteria=49492})
+        Achievement({id=14660, criteria=49492}),
+        Transmog({item=186632, slot=L["leather"]}) -- Rune Covered Bindings
     }
 }) -- Valis the Cruel
 
