@@ -290,7 +290,7 @@ L["rift_portal_note"] = [[
 |cFFFF8C00并非所有裂隙传送门在任何时间都处于激活状态。|r
 ]]
 L["rift_rare_only_note"] = "此稀有只在 |cFFFFFF00裂隙|r 位面内可以见到和击杀。"
-L["rift_rare_exit_note"] = "此稀有必须有 {spell:354840} 时在裂隙位面内和其互动将使其离开 |cFFFFFF00裂隙|r。"
+L["rift_rare_exit_note"] = "此稀有必须有 {spell:354840} 否则会出错！在裂隙位面内和其互动将使其离开 |cFFFFFF00裂隙|r。"
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "显示 {npc:179595} 的位置可以进入 |cFFFFFF00裂隙|r。"
 
@@ -627,6 +627,6 @@ L["nilganihmaht_note"] = "你必须收集5个戒指带给位于裂隙的 {npc:17
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "显示 {spell:354354} 坐骑的部件位置。"
 
-L["zovault_note"] = nil
+L["zovault_note"] = "每天拖拽 {npc:179883} 到 {npc:179904} 必给裂隙石。"
 L["options_icons_zovault"] = "{npc:179883}"
-L["options_icons_zovault_desc"] = nil
+L["options_icons_zovault_desc"] = "显示 {npc:179883} 可能的位置。"
