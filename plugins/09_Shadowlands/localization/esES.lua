@@ -292,7 +292,7 @@ Requiere una {item:186731}, la cual se le puede comprar al {npc:178257} una vez 
 |cFFFF8C00Los portales de falla no están activos todos al mismo tiempo.|r
 ]]
 L["rift_rare_only_note"] = "Este raro sólo se puede ver y ser matado dentro de la fase de |cFFFFFF00La Falla|r."
-L["rift_rare_exit_note"] = "Este raro ha de tener {spell:354840} para salir de la fase de |cFFFFFF00La Falla|r en cuanto se interactúe con él dentro de la falla."
+L["rift_rare_exit_note"] = "¡Este raro ha de tener el buff {spell:354840} o estará bug! Saldrá de la fase de |cFFFFFF00La Falla|r en cuanto se interactúe con él dentro de la falla."
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Muestra donde están los {npc:179595} usados para entrar en |cFFFFFF00La Falla|r."
 
@@ -629,6 +629,6 @@ L["nilganihmaht_note"] = "Tienes que recoger los 5 anillos y llevarlos a {npc:17
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "Muestra donde están las partes para la montura {spell:354354}."
 
-L["zovault_note"] = nil
+L["zovault_note"] = "Trae {npc:179883} a {npc:179904} una vez al día para una piedra de falla garantizada."
 L["options_icons_zovault"] = "{npc:179883}"
-L["options_icons_zovault_desc"] = nil
+L["options_icons_zovault_desc"] = "Muestra donde están {npc:179883}." 
