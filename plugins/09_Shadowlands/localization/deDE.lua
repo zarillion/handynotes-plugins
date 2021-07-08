@@ -639,6 +639,6 @@ L["nilganihmaht_note"] = "Es müssen fünf Ringe gesammelt und diese zur {npc:17
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "Zeigt die Positionen der Ringe für das geheime Reittier {spell:354354} an. "
 
-L["zovault_note"] = nil
+L["zovault_note"] = "Ziehe täglich {npc:179883} zu {npc:179904} für einen garantierten Rissstein."
 L["options_icons_zovault"] = "{npc:179883}"
-L["options_icons_zovault_desc"] = nil
+L["options_icons_zovault_desc"] = "Zeigt mögliche Positionen für {npc:179883} an."
