@@ -626,3 +626,7 @@ L["maw_mad_note"] = "在破灭堡周围随机奔跑，总是在这里刷新。"
 L["nilganihmaht_note"] = "你必须收集5个戒指带给位于裂隙的 {npc:179572}。"
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "显示 {spell:354354} 坐骑的部件位置。"
+
+L["zovault_note"] = nil
+L["options_icons_zovault"] = "{npc:179883}"
+L["options_icons_zovault_desc"] = nil

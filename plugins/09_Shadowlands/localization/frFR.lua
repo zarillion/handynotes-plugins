@@ -630,3 +630,7 @@ L["maw_mad_note"] = "Se déplace au hasard au Fort de la Perdition, mais appara�
 L["nilganihmaht_note"] = "Vous devez collecter les 5 anneaux et les apporter à la {npc:179572} dans la faille."
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "Afficher les emplacements des parties de la monture {spell:354354}."
+
+L["zovault_note"] = nil
+L["options_icons_zovault"] = "{npc:179883}"
+L["options_icons_zovault_desc"] = nil

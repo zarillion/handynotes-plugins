@@ -67,7 +67,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### The Maw
 
-* Bonus boss, bonus event and cache locations for collecting [Stygia](https://www.wowhead.com/currency=1767/stygia).
+* Bonus boss and cache locations for collecting [Stygia](https://www.wowhead.com/currency=1767/stygia).
 * Chaotic Riftstone locations and transport paths.
 * Grapple point locations across the maw.
 * Stygia Nexus locations for collecting [Stygia Dust](https://www.wowhead.com/item=185618/stygia-dust) and [Stygia Sliver](https://www.wowhead.com/item=185617/stygia-sliver) for the [Bound Shadehound](https://www.wowhead.com/item=184168/bound-shadehound) mount.

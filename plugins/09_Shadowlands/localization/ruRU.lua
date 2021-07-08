@@ -627,3 +627,7 @@ L["maw_mad_note"] = "Бегает случайным образом по цит�
 L["nilganihmaht_note"] = "Вы должны собрать 5 колец и принести их {npc:179572} в разлом."
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "Показать расположение частей секретного средства передвижения {spell:354354}."
+
+L["zovault_note"] = nil
+L["options_icons_zovault"] = "{npc:179883}"
+L["options_icons_zovault_desc"] = nil

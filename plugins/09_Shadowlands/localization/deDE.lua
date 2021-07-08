@@ -638,3 +638,7 @@ L["maw_mad_note"] = "Läuft zufällig in der Verdammnisfestung umher, erscheint 
 L["nilganihmaht_note"] = "Es müssen fünf Ringe gesammelt und diese zur {npc:179572} im |cFFFFFF00Riss|r gebracht werden."
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "Zeigt die Positionen der Ringe für das geheime Reittier {spell:354354} an. "
+
+L["zovault_note"] = nil
+L["options_icons_zovault"] = "{npc:179883}"
+L["options_icons_zovault_desc"] = nil

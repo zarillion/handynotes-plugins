@@ -626,3 +626,7 @@ L["maw_mad_note"] = "在墮滅堡附近隨機奔跑, 總是在這裡重生."
 L["nilganihmaht_note"] = "你必須蒐集5個戒指, 並且把它們帶給在裂隙中的 {npc:179572} ."
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "顯示 {spell:354354} 坐騎部件的位置."
+
+L["zovault_note"] = nil
+L["options_icons_zovault"] = "{npc:179883}"
+L["options_icons_zovault_desc"] = nil

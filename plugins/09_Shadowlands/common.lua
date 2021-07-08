@@ -222,6 +222,7 @@ ns.groups.SINRUNNER = Group('sinrunners', 'horseshoe_o', {defaults=ns.GROUP_HIDD
 ns.groups.SLIME_CAT = Group('slime_cat', 3732497, {defaults=ns.GROUP_HIDDEN})
 ns.groups.STYGIAN_CACHES = Group('stygian_caches', 'chest_nv', {defaults=ns.GROUP_HIDDEN})
 ns.groups.VESPERS = Group('vespers', 3536181, {defaults=ns.GROUP_HIDDEN})
+ns.groups.ZOVAAL_VAULT = Group('zovault', 'star_chest_g', {defaults=ns.GROUP_ALPHA75})
 
 ns.groups.ANIMA_VESSEL = Group('anima_vessel', 'chest_tl', {
     defaults=ns.GROUP_ALPHA75,

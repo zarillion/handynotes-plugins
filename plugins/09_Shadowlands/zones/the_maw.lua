@@ -25,7 +25,7 @@ local Line = ns.poi.Line
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
--- local KYRIAN = ns.covenants.KYR
+local KYRIAN = ns.covenants.KYR
 local NECROLORD = ns.covenants.NEC
 local NIGHTFAE = ns.covenants.FAE
 local VENTHYR = ns.covenants.VEN
@@ -1015,52 +1015,65 @@ local Vessel = Class('AnimaVessel', Treasure, {
 })
 
 -- In the rift
-local VESSEL1 = Vessel({icon='chest_rd', fgroup='vessel1', quest=64265, rift=1}) -- object=369227
-local VESSEL2 = Vessel({icon='chest_bl', fgroup='vessel2', quest=64269, rift=1}) -- object=369235
-local VESSEL3 = Vessel({icon='chest_yw', fgroup='vessel3', quest=64270, rift=1}) -- object=369236
--- Night Fae assault
-local VESSEL4 = Vessel({icon='chest_rd', fgroup='vessel4', quest=nil, assault=NIGHTFAE}) -- object=368952
-local VESSEL5 = Vessel({icon='chest_bl', fgroup='vessel5', quest=nil, assault=NIGHTFAE}) -- object=368953
+local RIFT_VESSEL1 = Vessel({icon='chest_rd', fgroup='vessel1', quest=64265, rift=1}) -- object=369227
+local RIFT_VESSEL2 = Vessel({icon='chest_bl', fgroup='vessel2', quest=64269, rift=1}) -- object=369235
+local RIFT_VESSEL3 = Vessel({icon='chest_yw', fgroup='vessel3', quest=64270, rift=1}) -- object=369236
 -- Venthyr assault
-local VESSEL6 = Vessel({icon='chest_rd', fgroup='vessel6', quest=64055, assault=VENTHYR}) -- object=368948
-local VESSEL7 = Vessel({icon='chest_bl', fgroup='vessel7', quest=64056, assault=VENTHYR}) -- object=368949
+local VEN_VESSEL1 = Vessel({icon='chest_rd', fgroup='vessel6', quest=64055, assault=VENTHYR}) -- object=368948
+local VEN_VESSEL2 = Vessel({icon='chest_bl', fgroup='vessel7', quest=64056, assault=VENTHYR}) -- object=368949
+-- Kyrian assault
+local KYR_VESSEL1 = Vessel({icon='chest_rd', fgroup='vessel8', quest=64057, assault=KYRIAN}) -- object=368950
+local KYR_VESSEL2 = Vessel({icon='chest_bl', fgroup='vessel9', quest=64058, assault=KYRIAN}) -- object=368951
+-- Night Fae assault
+local FAE_VESSEL1 = Vessel({icon='chest_rd', fgroup='vessel4', quest=nil, assault=NIGHTFAE}) -- object=368952
+local FAE_VESSEL2 = Vessel({icon='chest_bl', fgroup='vessel5', quest=nil, assault=NIGHTFAE}) -- object=368953
 
 -- In the rift
-map.nodes[47437620] = ns.Clone(VESSEL1, {note=L["in_cave"]})
-map.nodes[47798651] = ns.Clone(VESSEL1, {note=L["nexus_cave_roar"]})
-map.nodes[51008544] = ns.Clone(VESSEL1, {note=L["nexus_cave_howl"]})
-map.nodes[32404309] = VESSEL2
-map.nodes[35704620] = VESSEL2
-map.nodes[36264215] = VESSEL2
-map.nodes[38474846] = ns.Clone(VESSEL2, {note=L["in_cave"]})
-map.nodes[44554761] = VESSEL2
-map.nodes[27464950] = VESSEL3
+map.nodes[47437620] = ns.Clone(RIFT_VESSEL1, {note=L["in_cave"]})
+map.nodes[47798651] = ns.Clone(RIFT_VESSEL1, {note=L["nexus_cave_roar"]})
+map.nodes[51008544] = ns.Clone(RIFT_VESSEL1, {note=L["nexus_cave_howl"]})
+map.nodes[32404309] = RIFT_VESSEL2
+map.nodes[35704620] = RIFT_VESSEL2
+map.nodes[36264215] = RIFT_VESSEL2
+map.nodes[38474846] = ns.Clone(RIFT_VESSEL2, {note=L["in_cave"]})
+map.nodes[44554761] = RIFT_VESSEL2
+map.nodes[27464950] = RIFT_VESSEL3
 -- Night Fae assault
-map.nodes[25303330] = VESSEL4
-map.nodes[25303820] = VESSEL4
-map.nodes[27804180] = VESSEL4
-map.nodes[17304780] = VESSEL5
-map.nodes[18604260] = VESSEL5
-map.nodes[18905030] = VESSEL5
-map.nodes[22704850] = VESSEL5
+map.nodes[25303330] = FAE_VESSEL1
+map.nodes[25303820] = FAE_VESSEL1
+map.nodes[27804180] = FAE_VESSEL1
+map.nodes[17304780] = FAE_VESSEL2
+map.nodes[18604260] = FAE_VESSEL2
+map.nodes[18905030] = FAE_VESSEL2
+map.nodes[22704850] = FAE_VESSEL2
 -- Venthyr Assault
-map.nodes[23431665] = VESSEL6
-map.nodes[25201250] = VESSEL6
-map.nodes[27401650] = VESSEL6
-map.nodes[27801950] = VESSEL6
-map.nodes[26201960] = VESSEL7
-map.nodes[29601160] = VESSEL7
-map.nodes[32701480] = VESSEL7
-ext.nodes[73685062] = ns.Clone(VESSEL7, {parent=map.id})
+map.nodes[23431665] = VEN_VESSEL1
+map.nodes[25201250] = VEN_VESSEL1
+map.nodes[27401650] = VEN_VESSEL1
+map.nodes[27801950] = VEN_VESSEL1
+map.nodes[26201960] = VEN_VESSEL2
+map.nodes[29601160] = VEN_VESSEL2
+map.nodes[32701480] = VEN_VESSEL2
+ext.nodes[73685062] = ns.Clone(VEN_VESSEL2, {parent=map.id})
+-- Kyrian Assault
+map.nodes[32594092] = KYR_VESSEL1
+map.nodes[32604340] = KYR_VESSEL1
+map.nodes[34103580] = KYR_VESSEL2
+map.nodes[36604010] = KYR_VESSEL2
+map.nodes[38364869] = KYR_VESSEL2
+map.nodes[45424774] = KYR_VESSEL2
 
---[[
 -------------------------------------------------------------------------------
 ------------------------------- ZOVAAL'S VAULT --------------------------------
 -------------------------------------------------------------------------------
 
-local ZovaalVault = Class('ZovaalVault', Treasure, {
-    label=L["zovaal_vault"],
+local Vault = Class('ZovaalVault', NPC, {
+    id=179883,
+    quest=64283,
+    icon='star_chest_g',
+    scale=2,
     group=ns.groups.ZOVAAL_VAULT,
+    note=L["zovault_note"],
     rift=1,
     rewards={
         Transmog({item=187251, slot=L["cosmetic"]}), -- Shaded Skull Shoulderguards
@@ -1069,11 +1082,10 @@ local ZovaalVault = Class('ZovaalVault', Treasure, {
     }
 })
 
--- Zovaal's Vault 47257968
--- Zovaal's Vault 62176427
--- Zovaal's Vault 66405820
--- Zovaal's Vault 33006630
-]]
+map.nodes[33006630] = Vault({pois={Arrow({33006630, 44545150})}})
+map.nodes[47257968] = Vault({pois={Arrow({47257968, 44545150})}})
+map.nodes[62176427] = Vault({pois={Arrow({62176427, 44545150})}})
+map.nodes[66405820] = Vault({pois={Arrow({66405820, 44545150})}})
 
 -------------------------------------------------------------------------------
 ----------------------------- RIFT HIDDEN CACHES ------------------------------

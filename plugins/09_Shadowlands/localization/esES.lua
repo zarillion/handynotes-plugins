@@ -628,3 +628,7 @@ L["maw_mad_note"] = "Corre aleatoriamente alrededor del Bastión de la Perdició
 L["nilganihmaht_note"] = "Tienes que recoger los 5 anillos y llevarlos a {npc:179572} en la falla."
 L["options_icons_nilganihmaht"] = "{npc:179572}"
 L["options_icons_nilganihmaht_desc"] = "Muestra donde están las partes para la montura {spell:354354}."
+
+L["zovault_note"] = nil
+L["options_icons_zovault"] = "{npc:179883}"
+L["options_icons_zovault_desc"] = nil
