@@ -706,7 +706,7 @@ map.nodes[55626318] = BonusBoss({
     note=L["in_cave"]..' '..L["sanngror_note"],
     rewards={
         Achievement({id=14660, criteria=49489}),
-        Item({item=186629, slot=L["ring"]}), -- Sanngors Spiked Band
+        Item({item=186629, note=L["ring"]}), -- Sanngors Spiked Band
         Pet({item=183410, id=3040}) -- Sharpclaw
     },
     pois={
@@ -739,7 +739,7 @@ map.nodes[36844480] = BonusBoss({
     quest=62539,
     rewards={
         Achievement({id=14660, criteria=50409}),
-        Item({item=186631, slot=L["ring"]}) -- Emberfused Band
+        Item({item=186631, note=L["ring"]}) -- Emberfused Band
     }
 }) -- Stygian Incinerator
 
