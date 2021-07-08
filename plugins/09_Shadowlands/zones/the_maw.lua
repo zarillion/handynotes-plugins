@@ -463,7 +463,12 @@ map.nodes[69214521] = Treasure({
     quest=64256,
     rewards={
         Achievement({id=15099, criteria=52243}),
-        Transmog({item=187018, slot=L["cosmetic"]}) -- Ritualist's Shoulder Scythes
+        Item({item=185902}), -- Iron Maiden's Toolkit
+        Transmog({item=187014, slot=L["cosmetic"]}), -- Shackler's Spiked Shoulders
+        Transmog({item=187018, slot=L["cosmetic"]}), -- Ritualist's Shoulder Scythes
+        Transmog({item=187019, slot=L["cosmetic"]}), -- Infiltrator's Shoulderguards
+        Transmog({item=187026, slot=L["cosmetic"]}), -- Field Warden's Torture Kit
+        Transmog({item=187240, slot=L["cosmetic"]}) -- Field Warden's Watchful Eye
     }
 }) -- Helsworn Chest
 
