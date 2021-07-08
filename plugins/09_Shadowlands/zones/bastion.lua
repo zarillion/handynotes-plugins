@@ -96,7 +96,7 @@ map.nodes[55826249] = Rare({
     note=L["bookkeeper_mnemis_note"],
     rewards={
         Achievement({id=14307, criteria=50612}),
-        Item({item=182682, slot=L["trinket"]}) -- Book-Borrower Identification
+        Item({item=182682, note=L["trinket"]}) -- Book-Borrower Identification
     }
 }) -- Bookkeeper Mnemis
 

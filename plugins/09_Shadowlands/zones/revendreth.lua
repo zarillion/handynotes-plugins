@@ -97,7 +97,7 @@ map.nodes[66555946] = Rare({
     note=L["endlurker_note"],
     rewards={
         Achievement({id=14310, criteria=48810}),
-        Item({item=179927, slot=L["trinket"]}) -- Glowing Endmire Stinger
+        Item({item=179927, note=L["trinket"]}) -- Glowing Endmire Stinger
     }
 }) -- Endlurker
 

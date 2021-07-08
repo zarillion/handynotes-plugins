@@ -134,7 +134,7 @@ map.nodes[72872891] = Rare({
     quest=62369,
     rewards={
         Achievement({id=14308, criteria=49724}),
-        -- Item({item=184174, slot=L["ring"]}), -- Clasp of Death
+        -- Item({item=184174, note=L["ring"]}), -- Clasp of Death
         Transmog({item=181810, slot=L["cosmetic"], covenant=NECROLORD}) -- Phylactery of the Dead Conniver
     }
 }) -- Necromantic Anomaly
@@ -320,7 +320,7 @@ map.nodes[57007421] = Rare({
         ns.reward.Spacer(),
         ns.reward.Section('{npc:157312}'), -- Oily Invertebrate
         Transmog({item=184300, slot=L["cloak"], indent=true}), -- Fused Spineguard
-        Item({item=184155, slot=L["cosmetic"], quest=62804, indent=true}), -- Recovered Containment Pack
+        Item({item=184155, note=L["cosmetic"], quest=62804, indent=true}), -- Recovered Containment Pack
         Pet({item=181270, id=2960, indent=true}) -- Decaying Oozewalker
     }
 })
@@ -424,7 +424,7 @@ map.nodes[32742127] = Treasure({
     rewards={
         Achievement({id=14312, criteria=50064}),
         Item({item=180085}),
-        Item({item=175708, slot=L["neck"]})
+        Item({item=175708, note=L["neck"]})
     }
 }) -- Kyrian Keepsake
 

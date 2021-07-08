@@ -66,7 +66,7 @@ map.nodes[51164167] = Rare({
     note=L["consumption_note"],
     rewards={
         Achievement({id=15107, criteria=52285}),
-        Item({item=187402, slot=L["ring"]}), -- All-Consuming Loop
+        Item({item=187402, note=L["ring"]}), -- All-Consuming Loop
         Transmog({item=187245, slot=L["cosmetic"]}), -- Death-Enveloped Spires
         Transmog({item=187246, slot=L["cosmetic"]}), -- Death-Enveloped Pauldrons
         Transmog({item=187247, slot=L["cosmetic"]}) -- Death-Enveloped Shoulder Spikes
@@ -277,7 +277,7 @@ map.nodes[14507900] = Rare({
     rewards={
         Achievement({id=15107, criteria=52319}),
         Item({item=187264, quest=64513}), -- Ve'rayn's Head
-        Item({item=187404, slot=L["neck"]}), -- Cartel Ve Amulet
+        Item({item=187404, note=L["neck"]}), -- Cartel Ve Amulet
         Transmog({item=187369, slot=L["cloth"]}) -- Ve'rayn's Formal Robes
     },
     pois={
@@ -295,7 +295,7 @@ map.nodes[59335221] = Rare({
     rift=2,
     rewards={
         Achievement({id=15107, criteria=52275}),
-        Item({item=187401, slot=L["ring"]}), -- Band of the Shaded Rift
+        Item({item=187401, note=L["ring"]}), -- Band of the Shaded Rift
         Transmog({item=187396, slot=L["plate"]}), -- Girdle of the Deadsoul
         Toy({item=187174}) -- Shaded Judgement Stone (XXX: not confirmed on live!)
     }
@@ -309,7 +309,7 @@ map.nodes[50307590] = Rare({
     rift=2,
     rewards={
         Achievement({id=15107, criteria=52294}),
-        Item({item=187405, slot=L["neck"]}), -- Choker of the Hidden Observer
+        Item({item=187405, note=L["neck"]}), -- Choker of the Hidden Observer
         Transmog({item=187365, slot=L["1h_axe"]}), -- Rift Splitter
         Toy({item=187420}) -- Maw-Ocular Viewfinder
     }
@@ -422,8 +422,8 @@ map.nodes[62065550] = Treasure({
     note=L["spectral_bound_note"],
     label=L["spectral_bound_chest"],
     rewards={
-        Transmog({item=187026, slot=L["cosmetic"]}), -- Field Warden's Torture Kit
-        Transmog({item=187240, slot=L["cosmetic"]}), -- Field Warden's Watchful Eye
+        Transmog({item=187026, note=L["cosmetic"]}), -- Field Warden's Torture Kit
+        Transmog({item=187240, note=L["cosmetic"]}), -- Field Warden's Watchful Eye
         ns.relics.relic_fragment
     },
     pois={
@@ -802,7 +802,7 @@ local UMNest = Class('UMNest', Treasure, {
     rewards={
         Item({item=185963, quest=63892}), -- Diviner's Rune Chit
         ns.relics.relic_fragment,
-        Item({item=187442, slot=L["bag"]}), -- Scholar's Ancient Pack
+        Item({item=187442, note=L["bag"]}), -- Scholar's Ancient Pack
         Item({item=186017}) -- Korthite Crystal
     }
 })
@@ -820,8 +820,8 @@ local MawswornC = Class('MawswornC', Treasure, {
     label=L["mawsworn_cache"],
     note=L["mawsworn_cache_note"],
     rewards={
-        Transmog({item=187026, slot=L["cosmetic"]}), -- Field Warden's Torture Kit
-        Transmog({item=187240, slot=L["cosmetic"]}), -- Field Warden's Watchful Eye
+        Transmog({item=187026, note=L["cosmetic"]}), -- Field Warden's Torture Kit
+        Transmog({item=187240, note=L["cosmetic"]}), -- Field Warden's Watchful Eye
         ns.relics.relic_fragment,
         Item({item=186017}) -- Korthite Crystal
     }
