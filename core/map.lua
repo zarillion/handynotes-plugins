@@ -234,9 +234,9 @@ function MinimapDataProvider:RefreshAllData()
             if node.pois and (node._focus or node._hover) then
                 for i, poi in ipairs(node.pois) do
                     if poi.questDeps and C_QuestLog.IsQuestFlaggedCompleted(poi.questDeps) then
-                        poi:Render(self:GetMap(), WorldMapPinTemplate)
+                        poi:Render(self:GetMap(), MinimapPinTemplate)
                     elseif not poi.quest or not C_QuestLog.IsQuestFlaggedCompleted(poi.quest) and not poi.questDeps then
-                        poi:Render(self:GetMap(), WorldMapPinTemplate)
+                        poi:Render(self:GetMap(), MinimapPinTemplate)
                     end
                 end
             end
