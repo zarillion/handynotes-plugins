@@ -498,6 +498,7 @@ L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Plat
 L["lilabom_note"] = "Sammel alle 5 Teile, um das Haustier zu vervollständigen."
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, um sie zu aktivieren."
 L["sanngror_note"] = "\nWenn er gerade nicht angreifbar ist, dann warte bis er nicht mehr mit Seelen experimentiert."
+L["sly_note"] = "Sprich mit {npc:179068}, um den Stärkungszauber {spell:353322} zu erhalten und finde {npc:179096} bei 3 verschiedenen Paktangriffen der Kyrianer."
 L["talaporas_note"] = "Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:331800}, um {npc:170302} zu beschwören."
 L["valis_note"] = "Klicke die drei {npc:174810} in der richtigen Reihenfolge an, um {npc:173086} zu beschwören. Die Reihenfolge ändert sich jedes Mal und wenn die falsche Rune angeklickt wird, erleidest du Schaden und wirst mit dem Schwächungszauber {spell:343636} belegt."
 L["yero_note"] = "Nähere dich {npc:172862} und folge ihm in die Höhle in der Nähe, wo er feindlich wird."

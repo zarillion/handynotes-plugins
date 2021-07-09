@@ -1302,6 +1302,24 @@ local Etherwyrm = Class('Etherwyrm', Treasure, {
 
 map.nodes[23184238] = Etherwyrm()
 
+
+map.nodes[42164448] = NPC({ -- https://www.wowhead.com/achievement=15004/a-sly-fox
+    id=179083,
+    quest=64019,
+    icon=3072461,
+    note=L["sly_note"],
+    assault=KYRIAN,
+    rewards={
+        Achievement({id=15004, oneline=true}),
+        Pet({item=186539, id=3101}) -- Sly
+    },
+    pois={
+        POI({40855166, quest=64024}), -- assault 1
+        POI({38243956, quest=64022, questDeps=64024}), -- assault 2
+        POI({32464324, quest=64023, questDeps=64022}) -- assault 3
+    }
+}) -- A SLY FOX
+
 -------------------------------------------------------------------------------
 ----------------------------------- VE'NARI -----------------------------------
 -------------------------------------------------------------------------------

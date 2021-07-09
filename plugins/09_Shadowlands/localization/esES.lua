@@ -494,6 +494,7 @@ L["ikras_note"] = "Vuela alrededor del Bastión de la Perdición. Este es un bue
 L["lilabom_note"] = "Consigue las 5 partes para completar la mascota."
 L["orophea_note"] = "Coge el {spell:337143} al sureste y ofréceselo a {npc:172577} para que se active."
 L["sanngror_note"] = "Si no se puede atacar a {npc:172521}, espera hasta que no esté experimentando con las almas."
+L["sly_note"] = nil
 L["talaporas_note"] = "Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331800} para hacer aparecer a {npc:170302}."
 L["valis_note"] = "Haz click en las tres {npc:174810} en el orden correcto para invocar a {npc:173086}. El orden cambia cada vez y hacer click en la runa incorrecta produce daño y te pone el debuff {spell:343636}."
 L["yero_note"] = "Acércate a {npc:172862} y síguelo para abajo hasta una cueva cercana donde él se vuelve hostil."

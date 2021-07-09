@@ -496,6 +496,7 @@ L["ikras_note"] = "Vole autour du Fort de la Perdition. C'est un bon endroit pou
 L["lilabom_note"] = "Collecter les 5 parties pour compléter le familier."
 L["orophea_note"] = "Ramassez {spell:337143} au sud-est et proposez-le à {npc:172577} pour l'activer."
 L["sanngror_note"] = "S'il n'est pas attaquable, attendez qu'il n'expérimente plus sur des âmes."
+L["sly_note"] = nil
 L["talaporas_note"] = "Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:331800} pour invoquer le rare."
 L["valis_note"] = "Cliquez sur les trois {npc:174810} dans le bon ordre pour invoquer le rare. L'ordre change à chaque fois et le fait de cliquer sur la mauvaise rune vous inflige des dégâts et vous applique le debuff {spell:343636}."
 L["yero_note"] = "Approchez {npc:172862} puis suivez-le dans une grotte voisine où il devient hostile."
