@@ -89,6 +89,8 @@ map.nodes[33183938] = Rare({
     note=L["escaped_wilderling_note"],
     rewards={
         Achievement({id=15107, criteria=52298}),
+        Item({item=187423, weekly=64549, covenant=NIGHTFAE}), -- Legend of the Animaswell
+        Transmog({item=187395, slot=L["plate"]}), -- Reinforced Stygian Spaulders
         Mount({item=186492, id=1487, covenant=NIGHTFAE}) -- Summer Wilderling
     }
 }) -- Escaped Wilderling
@@ -100,6 +102,7 @@ map.nodes[59934371] = Rare({
     note=L["fleshwing_note"],
     rewards={
         Achievement({id=15107, criteria=52299}),
+        Item({item=187424, weekly=64551, covenant=NECROLORD}), -- Legend of the Animaswell
         Transmog({item=187372, slot=L["cloth"]}), -- Miasma Filtering Headpiece
         Mount({item=186489, id=1449, covenant=NECROLORD}) -- Lord of the Corpseflies
     }
@@ -172,7 +175,7 @@ map.nodes[46507959] = Rare({
     note=L["stonecrusher_note"],
     rewards={
         Achievement({id=15107, criteria=52276}),
-        -- Item({item=187428, quest=64553}) -- Legend of the Animaswell (weekly quest)
+        Item({item=187428, weekly=64553, covenant=VENTHYR}), -- Legend of the Animaswell
         Transmog({item=184790, slot=L["leather"]}) -- Archdruid Van-Yali's Greenthumbs (world drop, can be remove)
         -- Mount({item=186479, id=, covenant=VENTHYR}) -- Mastercraft Gravewing (can learn but not have id and can't show up in book)
     }
@@ -185,6 +188,7 @@ map.nodes[56873237] = Rare({
     note=L["worldcracker_note"],
     rewards={
         Achievement({id=15107, criteria=52300}),
+        Item({item=187423, weekly=64549, covenant=KYRIAN}), -- Legend of the Animaswell
         Transmog({item=187380, slot=L["leather"]}), -- Devourer Hide Belt
         Toy({item=187176}), -- Vesper of Harmony
         Mount({item=186483, id=1493, covenant=KYRIAN}) -- Foresworn Aquilon
