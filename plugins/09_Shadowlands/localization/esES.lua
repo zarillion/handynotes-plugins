@@ -491,7 +491,15 @@ L["etherwyrm_label"] = "Jaula de Vermis de Éter Infundida"
 L["etherwyrm_note"] = "Requiere que esté activo el asalto de las Sílfides Nocturnas. Mata al {npc:179030} mientrás estés en la falla para conseguir la {item:186190}. Usa la llave en la Jaula de Vermis de Éter (fuera de la falla) en la cueva Cuenca Desolada (donde está {npc:175821} cuando el asalto está inactivo)."
 L["fallen_charger_note"] = "Después del grito a lo largo de la zona cogerá uno de los dos caminos hasta que alcance Korthia donde desaparecerá."
 L["ikras_note"] = "Vuela alrededor del Bastión de la Perdición. Este es un buen sitio para pullearlo."
-L["lilabom_note"] = "Consigue las 5 partes para completar la mascota."
+L["lilabom_note"] = [[
+Consigue las 5 partes para completar la mascota. Algunas partes pueden aparecer en varios sitios.
+
+• {item:186183}
+• {item:186184}
+• {item:186185}
+• {item:186186}
+• {item:186187}
+]]
 L["orophea_note"] = "Coge el {spell:337143} al sureste y ofréceselo a {npc:172577} para que se active."
 L["sanngror_note"] = "Si no se puede atacar a {npc:172521}, espera hasta que no esté experimentando con las almas."
 L["sly_note"] = "Habla con la {npc:179068} para conseguir el buff {spell:353322} y poder encontrar a {npc:179096} en 3 asaltos kyrianos diferentes."
