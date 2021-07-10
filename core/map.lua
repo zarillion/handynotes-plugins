@@ -233,10 +233,8 @@ function MinimapDataProvider:RefreshAllData()
             -- Render any POIs this icon has registered
             if node.pois and (node._focus or node._hover) then
                 for i, poi in ipairs(node.pois) do
-                    if poi.questDeps and C_QuestLog.IsQuestFlaggedCompleted(poi.questDeps) then
-                        poi:Render(self:GetMap(), MinimapPinTemplate)
-                    elseif not poi.quest or not C_QuestLog.IsQuestFlaggedCompleted(poi.quest) and not poi.questDeps then
-                        poi:Render(self:GetMap(), MinimapPinTemplate)
+                    if poi:IsEnabled() then
+                        poi:Render(self, MinimapPinTemplate)
                     end
                 end
             end
@@ -337,9 +335,7 @@ function WorldMapDataProvider:RefreshAllData(fromOnShow)
             -- Render any POIs this icon has registered
             if node.pois and (node._focus or node._hover) then
                 for i, poi in ipairs(node.pois) do
-                    if poi.questDeps and C_QuestLog.IsQuestFlaggedCompleted(poi.questDeps) then
-                        poi:Render(self:GetMap(), WorldMapPinTemplate)
-                    elseif not poi.quest or not C_QuestLog.IsQuestFlaggedCompleted(poi.quest) and not poi.questDeps then
+                    if poi:IsEnabled() then
                         poi:Render(self:GetMap(), WorldMapPinTemplate)
                     end
                 end
