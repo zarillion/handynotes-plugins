@@ -489,7 +489,15 @@ L["etherwyrm_label"] = "Infused Etherwyrm Cage"
 L["etherwyrm_note"] = "Requires the Night Fae assault to be active. Kill an {npc:179030} while in the rift to gain the {item:186190}. Use the key on the Etherwyrm Cage (outside the rift) in the Desolate Hollow cavern (where {npc:175821} resides when the assault is not active)."
 L["fallen_charger_note"] = "After the zone-wide yell it will take either of the two paths until it reaches Korthia where it will despawn."
 L["ikras_note"] = "Flies around Perdition Hold. This is a good place to pull him."
-L["lilabom_note"] = "Collect All 5 parts to complete the pet."
+L["lilabom_note"] = [[
+Collect all 5 parts to complete the pet. Some parts may appear in multiple locations.
+
+• {item:186183}
+• {item:186184}
+• {item:186185}
+• {item:186186}
+• {item:186187}
+]]
 L["orophea_note"] = "Pick up {spell:337143} to the southeast and offer it to {npc:172577} to activate."
 L["sanngror_note"] = "If he is not attackable, wait until he is not experimenting on souls."
 L["sly_note"] = "Talk to {npc:179068} to get the buff {spell:353322} and find {npc:179096} on 3 different kyrian assaults."

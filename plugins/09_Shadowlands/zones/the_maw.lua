@@ -167,6 +167,7 @@ map.nodes[61334129] = Rare({
 map.nodes[28086058] = Rare({
     id=170711,
     quest=60909,
+    noassault=NECROLORD,
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49847}),
@@ -351,6 +352,7 @@ map.nodes[28701204] = Rare({
 map.nodes[27397152] = Rare({
     id=170731,
     quest=60914,
+    noassault=NECROLORD,
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49859}),
@@ -371,6 +373,7 @@ map.nodes[69044897] = Rare({
 map.nodes[37446212] = Rare({
     id=172862,
     quest=61568,
+    noassault=NECROLORD,
     note=L["yero_note"],
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
@@ -472,6 +475,13 @@ map.nodes[69214521] = Treasure({
     }
 }) -- Helsworn Chest
 
+ext.nodes[62263305] = Treasure({
+    quest=64575,
+    label=L["hidden_anima_cache"],
+    rift=1,
+    parent=map.id
+}) -- Hidden Anima Cache
+
 map.nodes[66526129] = Treasure({
     quest=64261,
     note=L["in_cave"],
@@ -481,74 +491,23 @@ map.nodes[66526129] = Treasure({
     }
 }) -- Jeweled Heart
 
-map.nodes[32215608] = Treasure({
-    quest=64010,
-    label='{item:186183}',
+map.nodes[36506740] = Treasure({
+    label='{item:186188}',
     note=L['lilabom_note'],
+    quest={64008, 64009, 64010, 64011, 64013},
     rewards={
-        Item({item=186183}), -- Lil'Abom Head
         Pet({item=186188, id=3098}) -- Lil'Abom
     },
     pois={
-        POI({27405660, 30306330})
+        POI({27505670, 30306330, 32215608, quest=64010}), -- Head
+        POI({39906260, quest=64011}), -- Torso
+        POI({29376732, quest=64013}), -- Legs
+        POI({38505850, quest=64008}), -- Right Hand
+        Path({38505850, 37855857, 37465904, 37295959, 37336038, 37456122, quest=64008}), -- Right Hand
+        Arrow({37456122, 37806250, quest=64008}), -- Right Hand
+        POI({33306580, 39286648, quest=64009}) -- Spare Arm
     }
-}) -- Lil'Abom Head
-
-map.nodes[39906260] = Treasure({
-    quest=64011,
-    label='{item:186184}',
-    note=L['lilabom_note'],
-    rewards={
-        Item({item=186184}), -- Lil'Abom Torso
-        Pet({item=186188, id=3098}) -- Lil'Abom
-    },
-    pois={
-        POI({36406440})
-    }
-}) -- Lil'Abom Torso
-
-map.nodes[29376732] = Treasure({
-    quest=64013,
-    label='{item:186185}',
-    note=L['lilabom_note'],
-    rewards={
-        Item({item=186185}), -- Lil'Abom Legs
-        Pet({item=186188, id=3098}) -- Lil'Abom
-    }
-}) -- Lil'Abom Legs
-
-map.nodes[37806250] = Treasure({
-    quest=64008,
-    label='{item:186186}',
-    note=L["in_cave"]..' '..L["lilabom_note"],
-    rewards={
-        Item({item=186186}), -- Lil'Abom Right Hand
-        Pet({item=186188, id=3098}) -- Lil'Abom
-    },
-    pois={
-        POI({38505850}) -- Cave entrance
-    }
-}) -- Lil'Abom Right Hand
-
-map.nodes[39286648] = Treasure({
-    quest=64009,
-    label='{item:186187}',
-    note=L['lilabom_note'],
-    rewards={
-        Item({item=186187}), -- Lil'Abom Spare Arm
-        Pet({item=186188, id=3098}) -- Lil'Abom
-    },
-    pois={
-        POI({33306580})
-    }
-}) -- Lil'Abom Spare Arm
-
-ext.nodes[62263305] = Treasure({
-    quest=64575,
-    label=L["hidden_anima_cache"],
-    rift=1,
-    parent=map.id
-}) -- Hidden Anima Cache
+}) -- Lil'Abom
 
 -------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
@@ -573,6 +532,7 @@ map.nodes[28204450] = BonusBoss({
 map.nodes[34087453] = BonusBoss({
     id=170787,
     quest=60920,
+    noassault=NECROLORD,
     rewards={
         Achievement({id=14660, criteria=49487}),
         Transmog({item=186617, slot=L["plate"]}) -- Death's Hammer Stompers
@@ -643,6 +603,7 @@ map.nodes[20782968] = BonusBoss({
 map.nodes[30846866] = BonusBoss({
     id=170692,
     quest=63381,
+    noassault=NECROLORD,
     rewards={
         Achievement({id=14660, criteria=49486}),
         Transmog({item=186624, slot=L["cloak"]}) -- Death Wing Drape
@@ -746,6 +707,7 @@ map.nodes[36844480] = BonusBoss({
 map.nodes[40705959] = BonusBoss({
     id=173086,
     quest=61728,
+    noassault=NECROLORD,
     note=L["valis_note"],
     rewards={
         Achievement({id=14660, criteria=49492}),
@@ -1055,18 +1017,21 @@ local Vessel = Class('AnimaVessel', Treasure, {
 })
 
 -- In the rift
-local RIFT_VESSEL1 = Vessel({icon='chest_rd', fgroup='vessel1', quest=64265, rift=1}) -- object=369227
-local RIFT_VESSEL2 = Vessel({icon='chest_bl', fgroup='vessel2', quest=64269, rift=1}) -- object=369235
-local RIFT_VESSEL3 = Vessel({icon='chest_yw', fgroup='vessel3', quest=64270, rift=1}) -- object=369236
+local RIFT_VESSEL1 = Vessel({icon='chest_rd', fgroup='rv1', quest=64265, rift=1}) -- object=369227
+local RIFT_VESSEL2 = Vessel({icon='chest_bl', fgroup='rv2', quest=64269, rift=1}) -- object=369235
+local RIFT_VESSEL3 = Vessel({icon='chest_yw', fgroup='rv3', quest=64270, rift=1}) -- object=369236
+-- Necrolord assault
+local NEC_VESSEL1 = Vessel({icon='chest_rd', fgroup='nv1', quest=64044, assault=NECROLORD}) -- object=368946
+local NEC_VESSEL2 = Vessel({icon='chest_bl', fgroup='nv2', quest=64045, assault=NECROLORD}) -- object=368947
 -- Venthyr assault
-local VEN_VESSEL1 = Vessel({icon='chest_rd', fgroup='vessel6', quest=64055, assault=VENTHYR}) -- object=368948
-local VEN_VESSEL2 = Vessel({icon='chest_bl', fgroup='vessel7', quest=64056, assault=VENTHYR}) -- object=368949
+local VEN_VESSEL1 = Vessel({icon='chest_rd', fgroup='vv1', quest=64055, assault=VENTHYR}) -- object=368948
+local VEN_VESSEL2 = Vessel({icon='chest_bl', fgroup='vv2', quest=64056, assault=VENTHYR}) -- object=368949
 -- Kyrian assault
-local KYR_VESSEL1 = Vessel({icon='chest_rd', fgroup='vessel8', quest=64057, assault=KYRIAN}) -- object=368950
-local KYR_VESSEL2 = Vessel({icon='chest_bl', fgroup='vessel9', quest=64058, assault=KYRIAN}) -- object=368951
+local KYR_VESSEL1 = Vessel({icon='chest_rd', fgroup='kv1', quest=64057, assault=KYRIAN}) -- object=368950
+local KYR_VESSEL2 = Vessel({icon='chest_bl', fgroup='kv2', quest=64058, assault=KYRIAN}) -- object=368951
 -- Night Fae assault
-local FAE_VESSEL1 = Vessel({icon='chest_rd', fgroup='vessel4', quest=nil, assault=NIGHTFAE}) -- object=368952
-local FAE_VESSEL2 = Vessel({icon='chest_bl', fgroup='vessel5', quest=nil, assault=NIGHTFAE}) -- object=368953
+local FAE_VESSEL1 = Vessel({icon='chest_rd', fgroup='fv1', quest=nil, assault=NIGHTFAE}) -- object=368952
+local FAE_VESSEL2 = Vessel({icon='chest_bl', fgroup='fv2', quest=nil, assault=NIGHTFAE}) -- object=368953
 
 -- In the rift
 map.nodes[47437620] = ns.Clone(RIFT_VESSEL1, {note=L["in_cave"]})
@@ -1078,14 +1043,10 @@ map.nodes[36264215] = RIFT_VESSEL2
 map.nodes[38474846] = ns.Clone(RIFT_VESSEL2, {note=L["in_cave"]})
 map.nodes[44554761] = RIFT_VESSEL2
 map.nodes[27464950] = RIFT_VESSEL3
--- Night Fae assault
-map.nodes[25303330] = FAE_VESSEL1
-map.nodes[25303820] = FAE_VESSEL1
-map.nodes[27804180] = FAE_VESSEL1
-map.nodes[17304780] = FAE_VESSEL2
-map.nodes[18604260] = FAE_VESSEL2
-map.nodes[18905030] = FAE_VESSEL2
-map.nodes[22704850] = FAE_VESSEL2
+-- Necrolord Assault
+-- map.nodes[36716805] = ???
+map.nodes[32286588] = NEC_VESSEL1
+map.nodes[34205988] = NEC_VESSEL2
 -- Venthyr Assault
 map.nodes[23431665] = VEN_VESSEL1
 map.nodes[25201250] = VEN_VESSEL1
@@ -1102,6 +1063,14 @@ map.nodes[34103580] = KYR_VESSEL2
 map.nodes[36604010] = KYR_VESSEL2
 map.nodes[38364869] = KYR_VESSEL2
 map.nodes[45424774] = KYR_VESSEL2
+-- Night Fae assault
+map.nodes[25303330] = FAE_VESSEL1
+map.nodes[25303820] = FAE_VESSEL1
+map.nodes[27804180] = FAE_VESSEL1
+map.nodes[17304780] = FAE_VESSEL2
+map.nodes[18604260] = FAE_VESSEL2
+map.nodes[18905030] = FAE_VESSEL2
+map.nodes[22704850] = FAE_VESSEL2
 
 -------------------------------------------------------------------------------
 ------------------------------- ZOVAAL'S VAULT --------------------------------
@@ -1283,6 +1252,7 @@ map.nodes[27806170] = MawswornC({quest=63815})
 map.nodes[33547047] = MawswornC({quest=63818})
 map.nodes[32756506] = MawswornC({quest=63825})
 map.nodes[32055633] = MawswornC({quest=63826})
+map.nodes[30126497] = MawswornC({quest=63818}) -- note="Requires {npc:177093}"
 map.nodes[35126980] = MawswornC({quest=64209, rewards={Item({item=186600})}}) --Quartered Stone Ring
 
 local Etherwyrm = Class('Etherwyrm', Treasure, {
