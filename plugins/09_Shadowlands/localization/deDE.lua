@@ -495,7 +495,15 @@ L["etherwyrm_label"] = "Ätherwyrmkäfig"
 L["etherwyrm_note"] = "Es muss ein Angriff der Nachfae aktiv sein. Töte einen {npc:179030} während du im |cFFFFFF00Riss|r bist, um einen {item:186190} zu erhalten. Benutze den Schlüssel für den Ätherwyrmkäfig (außerhalb des |cFFFFFF00Riss|r) in der Desolate Höhle (wo sich {npc:175821} befindet, wenn der Angriff nicht aktiv ist)."
 L["fallen_charger_note"] = "Nach einem Zonenweiten Schrei, wird es einen der beiden Pfade entlang reiten, bis es Korthia erreicht und wieder verschwindet."
 L["ikras_note"] = "Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen."
-L["lilabom_note"] = "Sammel alle 5 Teile, um das Haustier zu vervollständigen."
+L["lilabom_note"] = [[
+Sammel alle 5 Teile, um das Haustier zu vervollständigen. Einige Teile können an verschiedenen Orten erscheinen.
+
+• {item:186183}
+• {item:186184}
+• {item:186185}
+• {item:186186}
+• {item:186187}
+]]
 L["orophea_note"] = "Hebe das {spell:337143} im Südosten auf und biete es {npc:172577} an, um sie zu aktivieren."
 L["sanngror_note"] = "\nWenn er gerade nicht angreifbar ist, dann warte bis er nicht mehr mit Seelen experimentiert."
 L["sly_note"] = "Sprich mit {npc:179068}, um den Stärkungszauber {spell:353322} zu erhalten und finde {npc:179096} bei 3 verschiedenen Paktangriffen der Kyrianer."
