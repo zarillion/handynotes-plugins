@@ -7,6 +7,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.RiftMap
 
+local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -55,6 +56,14 @@ end
 local ext = Map({id=1822}) -- Extractor's Sanatorium
 local pitu = Map({id=1820}) -- Pit of Anguish (upper)
 local pitl = Map({id=1821}) -- Pit of Anguish (lower)
+
+-- Enabler function for rewards tied to the Hand of Nilganihmaht mount
+local NoNilgMount = function (parent)
+    return function (self)
+        if select(11, C_MountJournal.GetMountInfoByID(1503)) then return false end
+        return parent.IsEnabled(self)
+    end
+end
 
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
@@ -219,10 +228,10 @@ map.nodes[20586935] = Rare({
     rewards={
         Achievement({id=14744, criteria=49851}),
         Item({item=184108, note=L["neck"]}), -- Vorpal Amulet
-        Item({item=186606}), -- Nilganihmaht's Signet Ring
         Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
         Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
-        Item({item=183068, quest=63162})  -- Korrath's Grimoire: Gyadrek
+        Item({item=183068, quest=63162}),  -- Korrath's Grimoire: Gyadrek
+        Item({item=186606, bag=true, IsEnabled=NoNilgMount(Item)}) -- Nilganihmaht's Signet Ring
     }
 }) -- Exos, Herald of Domination
 
@@ -391,14 +400,13 @@ map.nodes[37446212] = Rare({
 map.nodes[66404400] = Rare({
     id=177444,
     quest=64152,
-    fgroup='nilganihmaht_group',
     rewards={
         Achievement({id=15107, criteria=52287}),
         Achievement({id=14943, criteria=51681}),
         Transmog({item=187359, slot=L["shield"]}), -- Ylva's Water Dish
         Transmog({item=186217, slot=L["leather"]}), -- Supple Helhound Leather Pants
         Transmog({item=187393, slot=L["plate"]}), -- Sterling Hound-Handler's Gauntlets
-        Item({item=186970, quest=62683, note="{item:186727}"}) -- Feeder's Hand and Key / Seal Breaker Key
+        Item({item=186970, quest=62683, note="{item:186727}", IsEnabled=NoNilgMount(Item)}) -- Feeder's Hand and Key / Seal Breaker Key
     }
 }) -- Ylva, Mate of Guarm
 
@@ -451,10 +459,10 @@ map.nodes[27672526] = Rare({
     rift=2,
     rewards={
         Achievement({id=15107, criteria=52284}),
-        Item({item=186605}), -- Nilganihmaht's Runed Band
         Transmog({item=187360, slot=L["offhand"]}), -- Orb of Enveloping Rifts
         Transmog({item=187389, slot=L["mail"]}), -- Lord of Shade's Binders
-        Toy({item=187139}) -- Bottled Shade Heart
+        Toy({item=187139}), -- Bottled Shade Heart
+        Item({item=186605, bag=true, IsEnabled=NoNilgMount(Item)}) -- Nilganihmaht's Runed Band
     }
 }) -- Torglluun
 
@@ -481,6 +489,21 @@ ext.nodes[62263305] = Treasure({
     rift=1,
     parent=map.id
 }) -- Hidden Anima Cache
+
+map.nodes[23184238] = Treasure({
+    quest=64000,
+    requires=ns.requirement.Item(186190),
+    label=L["etherwyrm_label"],
+    note=L["etherwyrm_note"],
+    assault=NIGHTFAE,
+    rift=2,
+    rewards={
+        Pet({item=186191, id=3099}) -- Infused Etherwyrm
+    },
+    pois={
+        POI({19214376, 19903240, 23604040}) -- Elusive Keybinder
+    }
+}) -- Infused Etherwyrm
 
 map.nodes[66526129] = Treasure({
     quest=64261,
@@ -1005,6 +1028,132 @@ pitl.nodes[45526802] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id}
 pitl.nodes[67185536] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id})
 
 -------------------------------------------------------------------------------
+---------------------------- HELGARDE SUPPLY CACHE ----------------------------
+-------------------------------------------------------------------------------
+
+local HELGARDE = ns.node.Node({
+    label=L["helgarde_supply"],
+    note=L["helgarde_supply_note"],
+    group=ns.groups.HELGARDE_CACHE,
+    icon='chest_gy',
+    scale=0.8,
+    rewards={
+        Item({item=186727, quest=62682}) -- Seal Breaker Key
+    },
+    pois={
+        POI({37196363}) -- Overcharged Centurion
+    }
+})
+
+map.nodes[59305360] = HELGARDE
+map.nodes[60405370] = HELGARDE
+map.nodes[61204650] = HELGARDE
+map.nodes[61406350] = HELGARDE
+map.nodes[61504230] = HELGARDE
+map.nodes[62005600] = HELGARDE
+map.nodes[62305160] = HELGARDE
+map.nodes[62475528] = HELGARDE
+map.nodes[62506180] = HELGARDE
+map.nodes[63505190] = HELGARDE
+map.nodes[63806480] = HELGARDE
+map.nodes[64205670] = HELGARDE
+map.nodes[64405380] = HELGARDE
+map.nodes[64906280] = HELGARDE
+map.nodes[65305780] = HELGARDE
+map.nodes[65603890] = HELGARDE
+map.nodes[65705940] = HELGARDE
+map.nodes[65706121] = HELGARDE
+map.nodes[65904590] = HELGARDE
+map.nodes[66205450] = HELGARDE
+map.nodes[66606210] = HELGARDE
+map.nodes[66706450] = HELGARDE
+map.nodes[67004070] = HELGARDE
+map.nodes[67205170] = HELGARDE
+map.nodes[67305730] = HELGARDE
+map.nodes[67535568] = HELGARDE
+map.nodes[67705310] = HELGARDE
+map.nodes[67906130] = HELGARDE
+map.nodes[68204810] = HELGARDE
+map.nodes[68704260] = HELGARDE
+map.nodes[69204530] = HELGARDE
+map.nodes[71204820] = HELGARDE
+
+-------------------------------------------------------------------------------
+------------------------------- MAWSWORN CACHES -------------------------------
+-------------------------------------------------------------------------------
+
+local ramp_cache = L["mawsworn_cache2_ramparts_note"]..'\n\n'..L["mawsworn_cache2_quest_note"]
+local tower_cache = L["mawsworn_cache2_tower_note"]..'\n\n'..L["mawsworn_cache2_quest_note"]
+
+local MawswornC = Class('MawswornC', Treasure, {
+    label=L["mawsworn_cache"],
+    note=ramp_cache,
+    group=ns.groups.MAWSWORN_CACHE2,
+    assault=NECROLORD,
+    rewards={
+        Achievement({id=15039, criteria={id=1, qty=true}}),
+        Item({item=186573, quest=63594}), -- Defense Plans
+    },
+    pois={
+        POI({37196363}) -- Overcharged Centurion
+    }
+})
+
+local MAW_CACHE1 = MawswornC({quest=64209, icon='chest_yw'}) -- object=369141
+local MAW_CACHE2 = MawswornC({quest=63815, icon='chest_pp'}) -- object=368205
+local MAW_CACHE3 = MawswornC({quest=63816, icon='chest_nv', note=tower_cache}) -- object=368206
+local MAW_CACHE4 = MawswornC({quest=63817, icon='chest_gn', note=tower_cache}) -- object=368207
+local MAW_CACHE5 = MawswornC({quest=63818, icon='chest_pk'}) -- object=368208
+local MAW_CACHE6 = MawswornC({quest=63825, icon='chest_lm'}) -- object=368213
+local MAW_CACHE7 = MawswornC({quest=63826, icon='chest_tl'}) -- object=368214
+
+map.nodes[27806170] = MAW_CACHE1
+map.nodes[35126980] = MAW_CACHE1
+map.nodes[30295581] = MAW_CACHE2
+map.nodes[32166738] = MAW_CACHE2
+map.nodes[30126497] = MAW_CACHE3
+map.nodes[34136157] = MAW_CACHE4
+map.nodes[33547047] = MAW_CACHE5
+map.nodes[32756506] = MAW_CACHE6
+map.nodes[32055633] = MAW_CACHE7
+map.nodes[33795741] = MAW_CACHE7
+
+-------------------------------------------------------------------------------
+----------------------------- RIFT HIDDEN CACHES ------------------------------
+-------------------------------------------------------------------------------
+
+local RiftCache = Class('RiftCache', Treasure, {
+    label=L["rift_hidden_cache"],
+    group=ns.groups.RIFT_HIDDEN_CACHE,
+    rift=1,
+    assault=NIGHTFAE,
+    rewards={
+        Transmog({item=187251, slot=L["cosmetic"]}) -- Shaded Skull Shoulderguards
+    }
+})
+
+local RIFT_CACHE1 = RiftCache({quest=63995, icon='chest_rd'})
+local RIFT_CACHE2 = RiftCache({quest=63997, icon='chest_bl'})
+local RIFT_CACHE3 = RiftCache({quest=63998, icon='chest_yw'})
+local RIFT_CACHE4 = RiftCache({quest=63996, icon='chest_pp'})
+local RIFT_CACHE5 = RiftCache({quest=63999, icon='chest_gn'})
+local RIFT_CACHE6 = RiftCache({quest=63993, icon='chest_pk'})
+
+map.nodes[25304918] = RIFT_CACHE1
+map.nodes[24583690] = RIFT_CACHE2
+map.nodes[26403760] = RIFT_CACHE2
+map.nodes[18903970] = RIFT_CACHE3
+map.nodes[19143337] = RIFT_CACHE3
+map.nodes[19044400] = RIFT_CACHE3
+map.nodes[23203580] = RIFT_CACHE3
+map.nodes[20712981] = RIFT_CACHE4
+map.nodes[25092704] = RIFT_CACHE4
+map.nodes[29744282] = RIFT_CACHE5
+map.nodes[19104620] = RIFT_CACHE6
+map.nodes[20604740] = RIFT_CACHE6
+map.nodes[22624623] = RIFT_CACHE6
+
+-------------------------------------------------------------------------------
 -------------------------------- ANIMA VESSELS --------------------------------
 -------------------------------------------------------------------------------
 
@@ -1044,8 +1193,12 @@ map.nodes[38474846] = ns.Clone(RIFT_VESSEL2, {note=L["in_cave"]})
 map.nodes[44554761] = RIFT_VESSEL2
 map.nodes[27464950] = RIFT_VESSEL3
 -- Necrolord Assault
--- map.nodes[36716805] = ???
+map.nodes[30555837] = NEC_VESSEL1
 map.nodes[32286588] = NEC_VESSEL1
+map.nodes[34106170] = NEC_VESSEL1
+map.nodes[36716805] = NEC_VESSEL1
+map.nodes[25905520] = NEC_VESSEL2
+map.nodes[33707480] = NEC_VESSEL2
 map.nodes[34205988] = NEC_VESSEL2
 -- Venthyr Assault
 map.nodes[23431665] = VEN_VESSEL1
@@ -1097,180 +1250,145 @@ map.nodes[62176427] = Vault({pois={Arrow({62176427, 44545150})}})
 map.nodes[66405820] = Vault({pois={Arrow({66405820, 44545150})}})
 
 -------------------------------------------------------------------------------
------------------------------ RIFT HIDDEN CACHES ------------------------------
--------------------------------------------------------------------------------
-
-local RiftCache = Class('RiftCache', Treasure, {
-    label=L["rift_hidden_cache"],
-    group=ns.groups.RIFT_HIDDEN_CACHE,
-    rift=1,
-    assault=NIGHTFAE,
-    rewards={
-        Transmog({item=187251, slot=L["cosmetic"]}) -- Shaded Skull Shoulderguards
-    }
-})
-
-local RIFT_CACHE1 = RiftCache({quest=63995, icon='chest_rd'})
-local RIFT_CACHE2 = RiftCache({quest=63997, icon='chest_bl'})
-local RIFT_CACHE3 = RiftCache({quest=63998, icon='chest_yw'})
-local RIFT_CACHE4 = RiftCache({quest=63996, icon='chest_pp'})
-local RIFT_CACHE5 = RiftCache({quest=63999, icon='chest_gn'})
-local RIFT_CACHE6 = RiftCache({quest=63993, icon='chest_pk'})
-
-map.nodes[25304918] = RIFT_CACHE1
-map.nodes[24583690] = RIFT_CACHE2
-map.nodes[26403760] = RIFT_CACHE2
-map.nodes[18903970] = RIFT_CACHE3
-map.nodes[19143337] = RIFT_CACHE3
-map.nodes[19044400] = RIFT_CACHE3
-map.nodes[23203580] = RIFT_CACHE3
-map.nodes[20712981] = RIFT_CACHE4
-map.nodes[25092704] = RIFT_CACHE4
-map.nodes[29744282] = RIFT_CACHE5
-map.nodes[19104620] = RIFT_CACHE6
-map.nodes[20604740] = RIFT_CACHE6
-map.nodes[22624623] = RIFT_CACHE6
-
--------------------------------------------------------------------------------
 -------------------------------- NILGANIHMAHT ---------------------------------
 -------------------------------------------------------------------------------
 
-local Nilganihmaht = Class('Nilganihmaht', ns.node.Rare, {
-    quest=64202,
+local Nilganihmaht = Class('Nilganihmaht', Collectible, {
+    -- quest=64202,
     id=179572,
-    requires={
-            ns.requirement.Item(186603), --Stone Ring
-            ns.requirement.Item(186605), --Runed Band
-            ns.requirement.Item(186608), --Gold Band
-            ns.requirement.Item(186606), --Signet Ring Unknown spawn
-            ns.requirement.Item(186607) --Silver Ring
-    },
-    group=ns.groups.NILGANIHMAHT_MOUNT,
-    note=L["in_cave"]..' '..L["nilganihmaht_note"],
+    -- requires={
+    --     ns.requirement.Item(186603), -- Stone Ring
+    --     ns.requirement.Item(186605), -- Runed Band
+    --     ns.requirement.Item(186606), -- Signet Ring Unknown spawn
+    --     ns.requirement.Item(186607) -- Silver Ring
+    --     ns.requirement.Item(186608), -- Gold Band
+    -- },
     icon=1391724,
     fgroup='nilganihmaht_group',
     rewards={
         Mount({item=186713, id=1503}) -- Hand of Nilganihmaht
     },
     pois={
-        POI({25603260}) -- Cave entrance
+        POI({25603260}), -- Cave entrance
+        Arrow({25503680, 30846063}), -- Stone Ring
+        Arrow({25503680, 19213225}), -- Gold Band
+        Arrow({25503680, 27672526}), -- Runed Band
+        Arrow({25503680, 20586935}), -- Signet Ring
+        Arrow({25503680, 66045739})  -- Silver  Ring
     }
 })
+
+function Nilganihmaht.getters:note ()
+    local function status(i, item)
+        if ns.PlayerHasItem(item) then
+            return ns.status.Green(i)
+        else
+            return ns.status.Red(i)
+        end
+    end
+
+    local note = L["nexus_cave_forlorn"]..' '..L["nilganihmaht_note"]
+    note = note..'\n\n'..status(1, 186603)..' {item:186603} (Necrolord assault)'
+    note = note..'\n'..status(2, 186605)..' {item:186605} ({npc:179735})'
+    note = note..'\n'..status(3, 186606)..' {item:186606} ({npc:170303})'
+    note = note..'\n'..status(4, 186607)..' {item:186607} (Desmotaeron)'
+    note = note..'\n'..status(5, 186608)..' {item:186608} (Calcis)'
+    return note
+end
 
 map.nodes[25503680] = Nilganihmaht()
 
-map.nodes[66045739] = Treasure({
-    quest=64207,
-    requires=ns.requirement.Item(186727, 4), -- Seal Breaker Key
-    group=ns.groups.NILGANIHMAHT_MOUNT,
-    label=L["domination_chest"],
-    note=L["domination_chest_note"],
-    icon='chest_bl',
-    fgroup='nilganihmaht_group',
-    rewards={
-        Item({item=186607}) -- Nilganimahts Silver Ring
-    }
-}) -- Domination Chest
+-------------------------------------------------------------------------------
 
-map.nodes[19213225] = Treasure({
-    quest=64199,
-    group=ns.groups.NILGANIHMAHT_MOUNT,
-    label="{item:186608}",
-    note=L["gold_band_note"],
-    icon='chest_bl',
+local StoneRing = Class('StoneRing', Collectible, {
+    item=186603,
+    icon=1716841,
+    assault=NECROLORD,
     fgroup='nilganihmaht_group',
     rewards={
-        Item({item=186608}) -- Nilganihmaht's Gold Band
+        Item({item=186603, bag=true})
+    },
+    IsEnabled=NoNilgMount(Collectible)
+})  -- Nilganihmaht's Stone Ring
+
+function StoneRing.getters:note ()
+    local function status(i, item)
+        if ns.PlayerHasItem(item) then
+            return ns.status.Green(i)
+        else
+            return ns.status.Red(i)
+        end
+    end
+
+    local note = L["nilg_stone_ring_note"]
+    note = note..'\n\n'..status(1, 186600)..' '..L["nilg_stone_ring_note1"]
+    note = note..'\n\n'..status(2, 186601)..' '..L["nilg_stone_ring_note2"]
+    note = note..'\n\n'..status(3, 186602)..' '..L["nilg_stone_ring_note3"]
+    note = note..'\n\n'..status(4, 186604)..' '..L["nilg_stone_ring_note4"]
+    return note
+end
+
+map.nodes[30846063] = StoneRing()
+
+-------------------------------------------------------------------------------
+
+map.nodes[19213225] = Collectible({
+    icon=1027823,
+    item=186608,
+    note=L["nilg_gold_band_note"],
+    fgroup='nilganihmaht_group',
+    rewards={
+        Item({item=186608, bag=true}) -- Nilganihmaht's Gold Band
     },
     pois={
-        POI({18503926}) -- Starting point
-    }
+        POI({18873798}), -- Starting point
+        Path({
+            18873798, 17883838, 16763960, 17273816, 16283815, 15373793,
+            16063678, 16813555, 17643428, 18473317, 19213225
+        })
+    },
+    IsEnabled=NoNilgMount(Collectible)
 }) -- Nilganihmaht's Gold Band
 
-map.nodes[65606000] = Treasure({
-    quest=62680,
-    group=ns.groups.NILGANIHMAHT_MOUNT,
-    label=L["harrower_key_ring"],
-    note=L["harrower_key_note"],
-    icon='chest_bl',
-    fgroup='nilganihmaht_group',
-    rewards={
-        Item({item=186727}) -- Seal Breaker Key
-    }
-}) -- The Harrower's Key Ring
-
-
-local Helgarde = Class('Helgarde', Treasure, {
-    quest=62682,
-    group=ns.groups.NILGANIHMAHT_MOUNT,
-    label=L["helgarde_supply"],
-    icon='chest_bl',
-    fgroup='nilganihmaht_group',
-    rewards={
-        Item({item=186727}) -- Seal Breaker Key
-    }
-})
-map.nodes[65706121] = Helgarde()
-map.nodes[67535568] = Helgarde()
-map.nodes[68204810] = Helgarde()
-map.nodes[62475528] = Helgarde()
-
-map.nodes[29105850] = NPC({
-    id=179601,
-    quest=64197,
-    icon='skull_w',
-    assault=NECROLORD,
-    group=ns.groups.NILGANIHMAHT_MOUNT,
-    requires=ns.requirement.Item(186600),
-    note=L["maw_mad_note"],
-    fgroup='nilganihmaht_group',
-    rewards={
-        Item({item=186602}) -- Quartered Stone Ring
-    }
-})
-
---Add Locations for Quartered Stone Ring(186604), requires Necro Assault and at least 1 ring and is randomly located on the ground in peridition hold.
-
--------------------------------------------------------------------------------
------------------------------------ ASSAULT -----------------------------------
 -------------------------------------------------------------------------------
 
-local MawswornC = Class('MawswornC', Treasure, {
-    label=L["mawsworn_cache"],
+local SilverRing = Class('SilverRing', Collectible, {
+    -- quest=64207,
+    icon=1043909,
+    item=186607,
+    requires=ns.requirement.Item(186727, 4), -- Seal Breaker Key
     fgroup='nilganihmaht_group',
-    group=ns.groups.NILGANIHMAHT_MOUNT,
-    assault=NECROLORD,
     rewards={
-        Achievement({id=15039, criteria={id=1, qty=true}}),
-        ns.reward.Currency({id=1767, note='20'}),
-        Item({item=186573, quest=63594}), --Defense Plans
-    }
-})
-
-map.nodes[30295581] = MawswornC({quest=63815})
-map.nodes[27806170] = MawswornC({quest=63815})
-map.nodes[33547047] = MawswornC({quest=63818})
-map.nodes[32756506] = MawswornC({quest=63825})
-map.nodes[32055633] = MawswornC({quest=63826})
-map.nodes[30126497] = MawswornC({quest=63818}) -- note="Requires {npc:177093}"
-map.nodes[35126980] = MawswornC({quest=64209, rewards={Item({item=186600})}}) --Quartered Stone Ring
-
-local Etherwyrm = Class('Etherwyrm', Treasure, {
-    quest=64000,
-    requires=ns.requirement.Item(186190),
-    label=L["etherwyrm_label"],
-    note=L["etherwyrm_note"],
-    assault=NIGHTFAE,
-    rift=2,
-    rewards={
-        Pet({item=186191, id=3099}) -- Infused Etherwyrm
+        Item({item=186607, bag=true}) -- Nilganimahts Silver Ring
     },
     pois={
-        POI({19214376, 19903240, 23604040}) -- Elusive Keybinder
-    }
-}) -- Infused Etherwyrm
+        POI({65646003, quest=62680}) -- The Harrower's Key Ring
+    },
+    IsEnabled=NoNilgMount(Collectible)
+}) -- Nilganimahts Silver Ring
 
-map.nodes[23184238] = Etherwyrm()
+function SilverRing.getters:note ()
+    local function status(i, quest)
+        if C_QuestLog.IsQuestFlaggedCompleted(quest) then
+            return ns.status.Green(i)
+        else
+            return ns.status.Red(i)
+        end
+    end
+
+    local note = L["nilg_silver_ring_note"]
+    note = note..'\n\n'..status(1, 62683)..' '..L["nilg_silver_ring_note1"]
+    note = note..'\n\n'..status(2, 62680)..' '..L["nilg_silver_ring_note2"]
+    note = note..'\n\n'..status(3, 62682)..' '..L["nilg_silver_ring_note3"]
+    note = note..'\n\n'..status(4, 62679)..' '..L["nilg_silver_ring_note4"]
+    return note
+end
+
+map.nodes[66045739] = SilverRing()
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
 
 map.nodes[42164448] = NPC({ -- https://www.wowhead.com/achievement=15004/a-sly-fox
     id=179083,
@@ -1288,10 +1406,6 @@ map.nodes[42164448] = NPC({ -- https://www.wowhead.com/achievement=15004/a-sly-f
         POI({32464324, quest=64023, questDeps=64022}) -- assault 3
     }
 }) -- Sly
-
--------------------------------------------------------------------------------
------------------------------------ VE'NARI -----------------------------------
--------------------------------------------------------------------------------
 
 map.nodes[46914169] = NPC({
     id=162804,
@@ -1319,4 +1433,4 @@ map.nodes[46914169] = NPC({
         Item({item=184619, quest=63201, note=L["Cordial"]}), -- Loupe of Unusual Charm
         Item({item=180952, quest=61144, note=L["Appreciative"]}), -- Possibility Matrix
     }
-})
+}) -- Ve'nari

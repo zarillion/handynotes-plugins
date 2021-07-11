@@ -623,8 +623,17 @@ L["options_icons_stygian_caches"] = "Stygische Truhen"
 L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Stygia enthalten."
 
 L["cov_assault_only"] = "Nur während des Paktangriffs der %s verfügbar."
-L["domination_chest"] = "Herrschaftstruhe"
-L["domination_chest_note"] = [[
+
+L["helgarde_supply"] = "Vorratskiste von Helgarde"
+L["helgarde_supply_note"] = nil
+L["options_icons_helgarde_cache"] = nil
+L["options_icons_helgarde_cache_desc"] = nil
+
+L["mawsworn_cache2_ramparts_note"] = nil
+L["mawsworn_cache2_tower_note"] = nil
+L["mawsworn_cache2_quest_note"] = nil
+
+L["nilg_silver_ring_note"] = [[
 Benötigt 4x {item:186727}, um alle Siegel zu öffnen.
 
 Du bekommst jeweils einen Schlüssel von:
@@ -633,14 +642,17 @@ Du bekommst jeweils einen Schlüssel von:
 • einer Vorratskiste von Helgarde
 • den Gegnern {npc:177134}
 ]]
-L["gold_band_note"] = "Am Gipfel des Berges an einem Stachel. (Starte den Aufstieg zum Gipfel bei 18.5 39.3)"
-L["harrower_key_ring"] = "Schlüsselring der Plagerin"
-L["harrower_key_note"] = "In einer Kammer, an der Wand bei {npc:178311}."
-L["helgarde_supply"] = "Vorratskiste von Helgarde"
-L["maw_mad_note"] = "Läuft zufällig in der Verdammnisfestung umher, erscheint immer hier."
+L["nilg_silver_ring_note1"] = nil
+L["nilg_silver_ring_note2"] = nil
+L["nilg_silver_ring_note3"] = nil
+L["nilg_silver_ring_note4"] = nil
+L["nilg_stone_ring_note"] = nil
+L["nilg_stone_ring_note1"] = nil
+L["nilg_stone_ring_note2"] = nil
+L["nilg_stone_ring_note3"] = nil
+L["nilg_stone_ring_note4"] = nil
+L["nilg_gold_band_note"] = "Am Gipfel des Berges an einem Stachel. (Starte den Aufstieg zum Gipfel bei 18.5 39.3)"
 L["nilganihmaht_note"] = "Es müssen fünf Ringe gesammelt und diese zur {npc:179572} im |cFFFFFF00Riss|r gebracht werden."
-L["options_icons_nilganihmaht"] = "{npc:179572}"
-L["options_icons_nilganihmaht_desc"] = "Zeigt die Positionen der Ringe für das geheime Reittier {spell:354354} an. "
 
 L["zovault_note"] = "Ziehe täglich {npc:179883} zu {npc:179904} für einen garantierten Rissstein."
 L["options_icons_zovault"] = "{npc:179883}"

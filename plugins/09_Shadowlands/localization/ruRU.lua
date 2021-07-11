@@ -618,16 +618,28 @@ L["options_icons_stygian_caches"] = "Стигийский тайник"
 L["options_icons_stygian_caches_desc"] = "Показать места тайников, содержащих Стигию."
 
 L["cov_assault_only"] = "Доступно только во время атаки ковенантов %s."
-L["domination_chest"] = "Сундук Господства"
-L["domination_chest_note"] = "Требуется 4 {item:186727}, чтобы открыть все печати."
-L["gold_band_note"] = "На вершине горы на пике."
-L["harrower_key_ring"] = "Кольцо с ключами боронителя душ"
-L["harrower_key_note"] = "На стене {npc:178311}."
+
 L["helgarde_supply"] = "Хельгардский тайник с припасами"
-L["maw_mad_note"] = "Бегает случайным образом по цитадели вечных мук, всегда появляется здесь."
+L["helgarde_supply_note"] = nil
+L["options_icons_helgarde_cache"] = nil
+L["options_icons_helgarde_cache_desc"] = nil
+
+L["mawsworn_cache2_ramparts_note"] = nil
+L["mawsworn_cache2_tower_note"] = nil
+L["mawsworn_cache2_quest_note"] = nil
+
+L["nilg_silver_ring_note"] = "Требуется 4 {item:186727}, чтобы открыть все печати."
+L["nilg_silver_ring_note1"] = nil
+L["nilg_silver_ring_note2"] = nil
+L["nilg_silver_ring_note3"] = nil
+L["nilg_silver_ring_note4"] = nil
+L["nilg_stone_ring_note"] = nil
+L["nilg_stone_ring_note1"] = nil
+L["nilg_stone_ring_note2"] = nil
+L["nilg_stone_ring_note3"] = nil
+L["nilg_stone_ring_note4"] = nil
+L["nilg_gold_band_note"] = "На вершине горы на пике."
 L["nilganihmaht_note"] = "Вы должны собрать 5 колец и принести их {npc:179572} в разлом."
-L["options_icons_nilganihmaht"] = "{npc:179572}"
-L["options_icons_nilganihmaht_desc"] = "Показать расположение частей секретного средства передвижения {spell:354354}."
 
 L["zovault_note"] = "Отнесите {npc:179883} к {npc:179904} один раз в день, чтобы получить гарантированный коллапсирующий камень разлома."
 L["options_icons_zovault"] = "{npc:179883}"

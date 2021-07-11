@@ -619,16 +619,28 @@ L["options_icons_stygian_caches"] = "Alijos de Estigia"
 L["options_icons_stygian_caches_desc"] = "Muestra dónde están los alijos con Estigia extra."
 
 L["cov_assault_only"] = "Disponible sólo durante el asalto de %s."
-L["domination_chest"] = "Cofre de Dominación"
-L["domination_chest_note"] = "Requiere 4 {item:186727} para abrir todos los sellos."
-L["gold_band_note"] = "En la cima del pico de una montaña."
-L["harrower_key_ring"] = "Llave Anillo de Harrower"
-L["harrower_key_note"] = "En la pared junto a {npc:178311}."
+
 L["helgarde_supply"] = "Alijo de Suministros de Helgarde"
-L["maw_mad_note"] = "Corre aleatoriamente alrededor del Bastión de la Perdición. Siempre aparece aquí."
+L["helgarde_supply_note"] = nil
+L["options_icons_helgarde_cache"] = nil
+L["options_icons_helgarde_cache_desc"] = nil
+
+L["mawsworn_cache2_ramparts_note"] = nil
+L["mawsworn_cache2_tower_note"] = nil
+L["mawsworn_cache2_quest_note"] = nil
+
+L["nilg_silver_ring_note"] = "Requiere 4 {item:186727} para abrir todos los sellos."
+L["nilg_silver_ring_note1"] = nil
+L["nilg_silver_ring_note2"] = nil
+L["nilg_silver_ring_note3"] = nil
+L["nilg_silver_ring_note4"] = nil
+L["nilg_stone_ring_note"] = nil
+L["nilg_stone_ring_note1"] = nil
+L["nilg_stone_ring_note2"] = nil
+L["nilg_stone_ring_note3"] = nil
+L["nilg_stone_ring_note4"] = nil
+L["nilg_gold_band_note"] = "En la cima del pico de una montaña."
 L["nilganihmaht_note"] = "Tienes que recoger los 5 anillos y llevarlos a {npc:179572} en la falla."
-L["options_icons_nilganihmaht"] = "{npc:179572}"
-L["options_icons_nilganihmaht_desc"] = "Muestra donde están las partes para la montura {spell:354354}."
 
 L["zovault_note"] = "Trae {npc:179883} a {npc:179904} una vez al día para una piedra de falla garantizada."
 L["options_icons_zovault"] = "{npc:179883}"

@@ -617,16 +617,28 @@ L["options_icons_stygian_caches"] = "冥魄儲藏箱"
 L["options_icons_stygian_caches_desc"] = "顯示含有額外冥魄寶箱的位置."
 
 L["cov_assault_only"] = "僅在 %s進攻戰 時刷新"
-L["domination_chest"] = "統御寶箱"
-L["domination_chest_note"] = "需要4個 {item:186727} 來打開全部封印"
-L["gold_band_note"] = "在山頂的一個尖端上"
-L["harrower_key_ring"] = "折磨專家的鑰匙圈"
-L["harrower_key_note"] = "在 {npc:178311} 旁邊的牆上."
+
 L["helgarde_supply"] = "黑爾嘉德補給箱"
-L["maw_mad_note"] = "在墮滅堡附近隨機奔跑, 總是在這裡重生."
+L["helgarde_supply_note"] = nil
+L["options_icons_helgarde_cache"] = nil
+L["options_icons_helgarde_cache_desc"] = nil
+
+L["mawsworn_cache2_ramparts_note"] = nil
+L["mawsworn_cache2_tower_note"] = nil
+L["mawsworn_cache2_quest_note"] = nil
+
+L["nilg_silver_ring_note"] = "需要4個 {item:186727} 來打開全部封印"
+L["nilg_silver_ring_note1"] = nil
+L["nilg_silver_ring_note2"] = nil
+L["nilg_silver_ring_note3"] = nil
+L["nilg_silver_ring_note4"] = nil
+L["nilg_stone_ring_note"] = nil
+L["nilg_stone_ring_note1"] = nil
+L["nilg_stone_ring_note2"] = nil
+L["nilg_stone_ring_note3"] = nil
+L["nilg_stone_ring_note4"] = nil
+L["nilg_gold_band_note"] = "在山頂的一個尖端上"
 L["nilganihmaht_note"] = "你必須蒐集5個戒指, 並且把它們帶給在裂隙中的 {npc:179572} ."
-L["options_icons_nilganihmaht"] = "{npc:179572}"
-L["options_icons_nilganihmaht_desc"] = "顯示 {spell:354354} 坐騎部件的位置."
 
 L["zovault_note"] = "每天拖曳 {npc:179883} 到 {npc:179904} 處, 保證給予裂隙傳送門石."
 L["options_icons_zovault"] = "{npc:179883}"

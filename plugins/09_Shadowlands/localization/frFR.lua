@@ -621,16 +621,28 @@ L["options_icons_stygian_caches"] = "Caches stygiennes"
 L["options_icons_stygian_caches_desc"] = "Afficher les emplacements des caches contenant de la Stygie supplémentaire."
 
 L["cov_assault_only"] = "Disponible uniquement pendant l'assaut des %s."
-L["domination_chest"] = "Coffre de la Domination"
-L["domination_chest_note"] = "Il faut 4 {item:186727} pour ouvrir tous les sceaux."
-L["gold_band_note"] = "Au sommet de la montagne, sur une pointe."
-L["harrower_key_ring"] = "Trousseau de clés de la Persécutrice"
-L["harrower_key_note"] = "Sur le mur près de {npc:178311}."
+
 L["helgarde_supply"] = "Cache de fournitures de Helgarde"
-L["maw_mad_note"] = "Se déplace au hasard au Fort de la Perdition, mais apparaît toujours ici."
+L["helgarde_supply_note"] = nil
+L["options_icons_helgarde_cache"] = nil
+L["options_icons_helgarde_cache_desc"] = nil
+
+L["mawsworn_cache2_ramparts_note"] = nil
+L["mawsworn_cache2_tower_note"] = nil
+L["mawsworn_cache2_quest_note"] = nil
+
+L["nilg_silver_ring_note"] = "Il faut 4 {item:186727} pour ouvrir tous les sceaux."
+L["nilg_silver_ring_note1"] = nil
+L["nilg_silver_ring_note2"] = nil
+L["nilg_silver_ring_note3"] = nil
+L["nilg_silver_ring_note4"] = nil
+L["nilg_stone_ring_note"] = nil
+L["nilg_stone_ring_note1"] = nil
+L["nilg_stone_ring_note2"] = nil
+L["nilg_stone_ring_note3"] = nil
+L["nilg_stone_ring_note4"] = nil
+L["nilg_gold_band_note"] = "Au sommet de la montagne, sur une pointe."
 L["nilganihmaht_note"] = "Vous devez collecter les 5 anneaux et les apporter à la {npc:179572} dans la faille."
-L["options_icons_nilganihmaht"] = "{npc:179572}"
-L["options_icons_nilganihmaht_desc"] = "Afficher les emplacements des parties de la monture {spell:354354}."
 
 L["zovault_note"] = "Traînez le {npc:179883} vers {npc:179904} une fois par jour pour des pierres de faille garanties."
 L["options_icons_zovault"] = "{npc:179883}"
