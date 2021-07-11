@@ -130,7 +130,6 @@ map.nodes[59203580] = Rare({
 map.nodes[44222950] = Rare({
     id=179684,
     quest=64233,
-    sublabel=L["korthia_limited_rare"],
     note=L["malbog_note"],
     rewards={
         Achievement({id=15107, criteria=52283}),
