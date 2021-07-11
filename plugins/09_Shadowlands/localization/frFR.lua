@@ -305,13 +305,13 @@ L["unusual_nest"] = "Tas de matériaux inhabituels."
 L["unusual_nest_note"] = "Les 5 emplacements de nids peuvent être pillés chaque jour."
 
 L["options_icons_invasive_mawshroom_desc"] = "Afficher les emplacements des Champignantres envahissants."
-L["options_icons_invasive_mawshroom"] = "Champignantres envahissants (Quotidien)"
+L["options_icons_invasive_mawshroom"] = "Champignantres envahissants"
 L["options_icons_korthia_dailies_desc"] = "Afficher les emplacements des trésors quotidiens non marqués."
-L["options_icons_korthia_dailies"] = "Trésors cachés (Quotidien)"
+L["options_icons_korthia_dailies"] = "Trésors cachés"
 L["options_icons_mawsworn_cache_desc"] = "Afficher les emplacements des Caches antreliges."
-L["options_icons_mawsworn_cache"] = "Caches antreliges (Quotidien)"
+L["options_icons_mawsworn_cache"] = "Caches antreliges"
 L["options_icons_nest_materials_desc"] = "Afficher les emplacements des Tas de matériaux inhabituels."
-L["options_icons_nest_materials"] = "Tas de matériaux inhabituels (Quotidien)"
+L["options_icons_nest_materials"] = "Tas de matériaux inhabituels"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -563,7 +563,7 @@ L["nexus_cave_anguish_outside"] = "Hors de la Fosse de l’Angoisse"
 L["nexus_cave_anguish_upper"] = "Dans la Fosse de l’Angoisse (niveau supérieur)"
 L["nexus_cave_desmotaeron"] = "Dans une petite grotte à l'extérieur du Desmotæron"
 L["nexus_cave_echoing_outside"] = "En dehors des Cavernes de l’Écho"
-L["nexus_cave_forlorn"] = "A l'intérieur de la grotte de la Halte Mélancolique"
+L["nexus_cave_forlorn"] = "A l'intérieur de la grotte de la Halte Mélancolique."
 L["nexus_cave_howl_outside"] = "Sur le sol à l'extérieur de la caverne de la Complainte de la mort"
 L["nexus_cave_howl"] = "A l'intérieur de la caverne de la Complainte de la mort"
 L["nexus_cave_roar"] = "A l'intérieur de la caverne du Rugissement de la mort"
@@ -623,24 +623,24 @@ L["options_icons_stygian_caches_desc"] = "Afficher les emplacements des caches c
 L["cov_assault_only"] = "Disponible uniquement pendant l'assaut des %s."
 
 L["helgarde_supply"] = "Cache de fournitures de Helgarde"
-L["helgarde_supply_note"] = nil
-L["options_icons_helgarde_cache"] = nil
-L["options_icons_helgarde_cache_desc"] = nil
+L["helgarde_supply_note"] = "Apparaîssent dans toute la zone du Desmotæron. Votre {npc:180598} peut vous aider à les localiser."
+L["options_icons_helgarde_cache"] = "Caches de fournitures de Helgarde"
+L["options_icons_helgarde_cache_desc"] = "Afficher les emplacements possibles des Caches de fournitures de Helgarde dans la zone du Desmotæron."
 
-L["mawsworn_cache2_ramparts_note"] = nil
-L["mawsworn_cache2_tower_note"] = nil
-L["mawsworn_cache2_quest_note"] = nil
+L["mawsworn_cache2_ramparts_note"] = "Cette cache se trouve au sommet des remparts. Utilisez les prises de grappin ou un {npc:177093} pour les atteindre."
+L["mawsworn_cache2_tower_note"] = "Cette cache se trouve au sommet de la tour et nécessite un {npc:177093} pour l'atteindre. Utilisez la capacité {spell:349853} pour y grimper."
+L["mawsworn_cache2_quest_note"] = "La {item:186573} ne sera obtenable qu'après avoir terminé la quête {quest:63545} !"
 
-L["nilg_silver_ring_note"] = "Il faut 4 {item:186727} pour ouvrir tous les sceaux."
-L["nilg_silver_ring_note1"] = nil
-L["nilg_silver_ring_note2"] = nil
-L["nilg_silver_ring_note3"] = nil
-L["nilg_silver_ring_note4"] = nil
-L["nilg_stone_ring_note"] = nil
-L["nilg_stone_ring_note1"] = nil
-L["nilg_stone_ring_note2"] = nil
-L["nilg_stone_ring_note3"] = nil
-L["nilg_stone_ring_note4"] = nil
+L["nilg_silver_ring_note"] = "Récupérez 4 {item:186727} dans le Desmotæron et utilisez-les pour ouvrir le coffre de la domination."
+L["nilg_silver_ring_note1"] = "Tuez {npc:177444} et ouvrez la {item:186970}."
+L["nilg_silver_ring_note2"] = "Récupérez le Trousseau de clés de la Persécutrice, situé sur le mur dans une pièce souterraine à côté de {npc:178311}."
+L["nilg_silver_ring_note3"] = "Ouvrez des Caches de fournitures de Helgarde dans la zone du Desmotæron. Votre {npc:180598} peut vous aider à les localiser."
+L["nilg_silver_ring_note4"] = "Farmez des {npc:177134s} dans la zone du Desmotæron (faible taux d'obtention)."
+L["nilg_stone_ring_note"] = "Collectez quatre {item:186600} pendant l'assaut des Nécro-seigneurs et combinez-les à n'importe quelle {npc:171492} dans le Chaudron de Zovaal."
+L["nilg_stone_ring_note1"] = "Trouvé dans certaines Caches antreliges (icône jaune) au sommet des remparts du Fort de la Perdition."
+L["nilg_stone_ring_note2"] = "Accomplissez la quête {quest:63545}, puis fouillez les Caches antreliges jusqu'à ce que vous trouviez l'objet de quête {item:186573}. Cette quête est partageable !"
+L["nilg_stone_ring_note3"] = "Récupéré sur l'{npc:179601} dans la zone centrale du Fort de la Perdition."
+L["nilg_stone_ring_note4"] = "Trouvé sur le sol au Fort de la Perdition près du {npc:170634}. Votre {npc:180598} peut vous aider à le localiser."
 L["nilg_gold_band_note"] = "Au sommet de la montagne, sur une pointe."
 L["nilganihmaht_note"] = "Vous devez collecter les 5 anneaux et les apporter à la {npc:179572} dans la faille."
 
