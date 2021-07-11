@@ -493,7 +493,15 @@ L["etherwyrm_label"] = "Cage à wyrm d'éther imprégné"
 L["etherwyrm_note"] = "Nécessite que l'assaut des Faë nocturnes soit actif. Tuez un {npc:179030} en étant dans la faille pour obtenir l'objet {item:186190}. Utilisez la clé sur la cage du Wyrm d'éther (à l'extérieur de la faille) dans la caverne du Creux Désolé (où se trouve {npc:175821} lorsque l'assaut n'est pas actif)."
 L["fallen_charger_note"] = "Après le cri dans toute la zone, il prendra l'un des deux chemins jusqu'à ce qu'il atteigne Korthia où il disparaîtra."
 L["ikras_note"] = "Vole autour du Fort de la Perdition. C'est un bon endroit pour l'attirer."
-L["lilabom_note"] = "Collecter les 5 parties pour compléter le familier."
+L["lilabom_note"] = [[
+Collectez les 5 parties pour reconstruire le familier. Certaines parties peuvent apparaître à plusieurs endroits.
+
+• {item:186183}
+• {item:186184}
+• {item:186185}
+• {item:186186}
+• {item:186187}
+]]
 L["orophea_note"] = "Ramassez {spell:337143} au sud-est et proposez-le à {npc:172577} pour l'activer."
 L["sanngror_note"] = "S'il n'est pas attaquable, attendez qu'il n'expérimente plus sur des âmes."
 L["sly_note"] = "Parlez à l'{npc:179068} pour obtenir le buff {spell:353322} et trouvez {npc:179096} lors de 3 assauts kyrians différents."
