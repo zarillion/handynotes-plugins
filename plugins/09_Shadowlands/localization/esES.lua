@@ -305,13 +305,13 @@ L["unusual_nest"] = "Nido de materiales inusuales"
 L["unusual_nest_note"] = "Todos los sitios con nidos se pueden despojar sólo 5 veces al día."
 
 L["options_icons_invasive_mawshroom_desc"] = "Muestra donde están los Champifauces Invasivos."
-L["options_icons_invasive_mawshroom"] = "Champifauces Invasivos (Diaria)"
+L["options_icons_invasive_mawshroom"] = "Champifauces Invasivos"
 L["options_icons_korthia_dailies_desc"] = "Muestra donde están los tesoros diarios sin marcar."
-L["options_icons_korthia_dailies"] = "Tesoros Ocultos (Diaria)"
+L["options_icons_korthia_dailies"] = "Tesoros Ocultos"
 L["options_icons_mawsworn_cache_desc"] = "Muestra donde están los Alijos jurafauces."
-L["options_icons_mawsworn_cache"] = "Alijos jurafauces (Diaria)"
+L["options_icons_mawsworn_cache"] = "Alijos jurafauces"
 L["options_icons_nest_materials_desc"] = "Muestra donde están los Nidos de Materiales Inusuales."
-L["options_icons_nest_materials"] = "Nidos de Materiales Inusuales (Diaria)"
+L["options_icons_nest_materials"] = "Nidos de Materiales Inusuales"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -621,25 +621,25 @@ L["options_icons_stygian_caches_desc"] = "Muestra dónde están los alijos con E
 L["cov_assault_only"] = "Disponible sólo durante el asalto de %s."
 
 L["helgarde_supply"] = "Alijo de Suministros de Helgarde"
-L["helgarde_supply_note"] = nil
-L["options_icons_helgarde_cache"] = nil
-L["options_icons_helgarde_cache_desc"] = nil
+L["helgarde_supply_note"] = "Aparece a lo largo de la zona de Desmotaeron. Tu {npc:180598} puede ayudarte a encontrarlos."
+L["options_icons_helgarde_cache"] = "Alijos de Suministros de Helgarde"
+L["options_icons_helgarde_cache_desc"] = "Muestra donde están los Alijos de Suministros de Helgarde en la zona de Desmotaeron."
 
-L["mawsworn_cache2_ramparts_note"] = nil
-L["mawsworn_cache2_tower_note"] = nil
-L["mawsworn_cache2_quest_note"] = nil
+L["mawsworn_cache2_ramparts_note"] = "Este alijo está sobre las murallas. Usa los puntos de agarre o un {npc:177093} para llegar a ellos."
+L["mawsworn_cache2_tower_note"] = "Este alijo está sobre una torre y requiere un {npc:177093} para llegar. Usa la habilidad {spell:349853} para saltar arriba."
+L["mawsworn_cache2_quest_note"] = "The {item:186573} will only drop after you have completed the {quest:63545} quest!"
 
-L["nilg_silver_ring_note"] = "Requiere 4 {item:186727} para abrir todos los sellos."
-L["nilg_silver_ring_note1"] = nil
-L["nilg_silver_ring_note2"] = nil
-L["nilg_silver_ring_note3"] = nil
-L["nilg_silver_ring_note4"] = nil
-L["nilg_stone_ring_note"] = nil
-L["nilg_stone_ring_note1"] = nil
-L["nilg_stone_ring_note2"] = nil
-L["nilg_stone_ring_note3"] = nil
-L["nilg_stone_ring_note4"] = nil
-L["nilg_gold_band_note"] = "En la cima del pico de una montaña."
+L["nilg_silver_ring_note"] = "Recoge 4 {item:186727} para abrir todos los sellos."
+L["nilg_silver_ring_note1"] = "Mata a {npc:177444} y abre la {item:186970}."
+L["nilg_silver_ring_note2"] = "Despoja el Llavero del Lacerante, que está en una habitación subterránea de la pared al lado de {npc:178311}."
+L["nilg_silver_ring_note3"] = "Abre Alijos de Suministros de Helgarde en la zona de Desmotaeron. Tu {npc:180598} puede ayudarte a encontrarlos."
+L["nilg_silver_ring_note4"] = "Mata {npc:177134} en la zona de Desmotaeron (drop bajo)."
+L["nilg_stone_ring_note"] = "Recoge 4 {item:186600} durante el asalto de los Necroseñores y combínalos en cualquier {npc:171492} en la Caldera de Zovaal."
+L["nilg_stone_ring_note1"] = "Está en algunos Alijos Jurafauces (icono amarillo) sobre las murallas del Bastión de la Perdición."
+L["nilg_stone_ring_note2"] = "Completa la misión {quest:63545}, y entonces despoja los Alijos Jurafauces hasta encontrar el item de misión {item:186573}. ¡Esta misión se puede compartir!"
+L["nilg_stone_ring_note3"] = "Se despoja de un {npc:179601} enmedio de la zona del Bastión de la Perdición."
+L["nilg_stone_ring_note4"] = "Está por el suelo del Bastión de la Perdición cerca del {npc:170634}. Tu {npc:180598} puede ayudarte a encontrarlo."
+L["nilg_gold_band_note"] = "Usa el punto de agarre y sigue el camino a la cima de la montaña."
 L["nilganihmaht_note"] = "Tienes que recoger los 5 anillos y llevarlos a {npc:179572} en la falla."
 
 L["zovault_note"] = "Trae {npc:179883} a {npc:179904} una vez al día para una piedra de falla garantizada."
