@@ -177,7 +177,7 @@ map.nodes[46507959] = Rare({
     rewards={
         Achievement({id=15107, criteria=52276}),
         Item({item=187428, weekly=64553, covenant=VENTHYR}), -- Legend of the Animaswell
-        Transmog({item=184790, slot=L["leather"]}) -- Archdruid Van-Yali's Greenthumbs (world drop, can be remove)
+        Item({item=186479, quest=64530, covenant=VENTHYR})
         -- Mount({item=186479, id=, covenant=VENTHYR}) -- Mastercraft Gravewing (can learn but not have id and can't show up in book)
     }
 }) -- Stygian Stonecrusher
