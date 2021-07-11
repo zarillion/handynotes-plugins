@@ -57,13 +57,10 @@ local ext = Map({id=1822}) -- Extractor's Sanatorium
 local pitu = Map({id=1820}) -- Pit of Anguish (upper)
 local pitl = Map({id=1821}) -- Pit of Anguish (lower)
 
--- Enabler function for rewards tied to the Hand of Nilganihmaht mount
-local NoNilgMount = function (parent)
-    return function (self)
-        if select(11, C_MountJournal.GetMountInfoByID(1503)) then return false end
-        return parent.IsEnabled(self)
-    end
-end
+-- Enabler functions for rewards tied to the Hand of Nilganihmaht mount
+local HasNilg = function () return select(11, C_MountJournal.GetMountInfoByID(1503)) end
+local NilgEnabled = function (self) if HasNilg() then return false end; return Item.IsEnabled(self) end
+local NilgCompleted = function (self) if HasNilg() then return true end; return Collectible.IsCompleted(self) end
 
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
@@ -231,7 +228,7 @@ map.nodes[20586935] = Rare({
         Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
         Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
         Item({item=183068, quest=63162}),  -- Korrath's Grimoire: Gyadrek
-        Item({item=186606, bag=true, IsEnabled=NoNilgMount(Item)}) -- Nilganihmaht's Signet Ring
+        Item({item=186606, bag=true, IsEnabled=NilgEnabled}) -- Nilganihmaht's Signet Ring
     }
 }) -- Exos, Herald of Domination
 
@@ -406,13 +403,13 @@ map.nodes[66404400] = Rare({
         Transmog({item=187359, slot=L["shield"]}), -- Ylva's Water Dish
         Transmog({item=186217, slot=L["leather"]}), -- Supple Helhound Leather Pants
         Transmog({item=187393, slot=L["plate"]}), -- Sterling Hound-Handler's Gauntlets
-        Item({item=186970, quest=62683, note="{item:186727}", IsEnabled=NoNilgMount(Item)}) -- Feeder's Hand and Key / Seal Breaker Key
+        Item({item=186970, quest=62683, note="{item:186727}", IsEnabled=NilgEnabled}) -- Feeder's Hand and Key / Seal Breaker Key
     }
 }) -- Ylva, Mate of Guarm
 
 -------------------------------------------------------------------------------
 
-map.nodes[34564206] = Rare({
+map.nodes[36034433] = Rare({
     id=179853,
     quest=64276,
     rlabel=ns.GetIconLink('portal_gy', 20, 4, 1),
@@ -462,7 +459,7 @@ map.nodes[27672526] = Rare({
         Transmog({item=187360, slot=L["offhand"]}), -- Orb of Enveloping Rifts
         Transmog({item=187389, slot=L["mail"]}), -- Lord of Shade's Binders
         Toy({item=187139}), -- Bottled Shade Heart
-        Item({item=186605, bag=true, IsEnabled=NoNilgMount(Item)}) -- Nilganihmaht's Runed Band
+        Item({item=186605, bag=true, IsEnabled=NilgEnabled}) -- Nilganihmaht's Runed Band
     }
 }) -- Torglluun
 
@@ -1255,25 +1252,19 @@ map.nodes[66405820] = Vault({pois={Arrow({66405820, 44545150})}})
 local Nilganihmaht = Class('Nilganihmaht', Collectible, {
     -- quest=64202,
     id=179572,
-    -- requires={
-    --     ns.requirement.Item(186603), -- Stone Ring
-    --     ns.requirement.Item(186605), -- Runed Band
-    --     ns.requirement.Item(186606), -- Signet Ring Unknown spawn
-    --     ns.requirement.Item(186607) -- Silver Ring
-    --     ns.requirement.Item(186608), -- Gold Band
-    -- },
     icon=1391724,
     fgroup='nilganihmaht_group',
+    rift=2,
     rewards={
         Mount({item=186713, id=1503}) -- Hand of Nilganihmaht
     },
     pois={
         POI({25603260}), -- Cave entrance
-        Arrow({25503680, 30846063}), -- Stone Ring
-        Arrow({25503680, 19213225}), -- Gold Band
-        Arrow({25503680, 27672526}), -- Runed Band
-        Arrow({25503680, 20586935}), -- Signet Ring
-        Arrow({25503680, 66045739})  -- Silver  Ring
+        Arrow({25503680, 30846063}), -- Stone Ring quest=64197
+        Arrow({25503680, 19213225}), -- Gold Band quest=64199
+        Arrow({25503680, 27672526}), -- Runed Band quest=64198
+        Arrow({25503680, 20586935}), -- Signet Ring quest=64201
+        Arrow({25503680, 66045739})  -- Silver Ring quest=64200
     }
 })
 
@@ -1307,7 +1298,7 @@ local StoneRing = Class('StoneRing', Collectible, {
     rewards={
         Item({item=186603, bag=true})
     },
-    IsEnabled=NoNilgMount(Collectible)
+    IsCompleted=NilgCompleted
 })  -- Nilganihmaht's Stone Ring
 
 function StoneRing.getters:note ()
@@ -1346,7 +1337,7 @@ map.nodes[19213225] = Collectible({
             16063678, 16813555, 17643428, 18473317, 19213225
         })
     },
-    IsEnabled=NoNilgMount(Collectible)
+    IsCompleted=NilgCompleted
 }) -- Nilganihmaht's Gold Band
 
 -------------------------------------------------------------------------------
@@ -1363,7 +1354,7 @@ local SilverRing = Class('SilverRing', Collectible, {
     pois={
         POI({65646003, quest=62680}) -- The Harrower's Key Ring
     },
-    IsEnabled=NoNilgMount(Collectible)
+    IsCompleted=NilgCompleted
 }) -- Nilganimahts Silver Ring
 
 function SilverRing.getters:note ()
