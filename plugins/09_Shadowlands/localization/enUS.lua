@@ -271,6 +271,7 @@ L["worldcracker_note"] = "Talk to {npc:180028} to trigger the escort event."
 L["archivist_key_note"] = "Purchase %s from {npc:178257} to unlock."
 L["korthian_shrine_note"] = "Click on the shrine to gain {spell:352367} to see the hidden path to the alter."
 L["num_research"] = "%d Research"
+L["plus_research"] = "+Research"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Display the locations of all 20 relics for {achievement:15066}."
 
@@ -639,6 +640,8 @@ L["nilg_stone_ring_note3"] = "Looted from {npc:179601} in the center area of Per
 L["nilg_stone_ring_note4"] = "Found on the ground in Perdition Hold near {npc:170634}. Your {npc:180598} can help you locate it."
 L["nilg_gold_band_note"] = "Use the grapple point and follow the path up to the top of the mountain."
 L["nilganihmaht_note"] = "You must collect the 5 rings and bring them to {npc:179572} in the rift."
+L["calcis"] = "Calcis"
+L["desmotaeron"] = "Desmotaeron"
 
 L["zovault_note"] = "Drag {npc:179883} to {npc:179904} once a day for guaranteed riftstones."
 L["options_icons_zovault"] = "{npc:179883}"

@@ -425,7 +425,7 @@ map.nodes[36034433] = Rare({
 map.nodes[49307274] = Rare({
     id=179851,
     quest=64272,
-    rlabel=ns.GetIconLink('portal_gy', 20, 4, 1),
+    rlabel=ns.status.LightBlue(L["plus_research"])..ns.GetIconLink('portal_gy', 20, 4, 1),
     note=L["rift_rare_only_note"],
     rewards={
         Achievement({id=15107, criteria=52293}),
@@ -469,6 +469,7 @@ map.nodes[27672526] = Rare({
 
 map.nodes[69214521] = Treasure({
     quest=64256,
+    rlabel=ns.status.LightBlue(L["plus_research"]),
     rewards={
         Achievement({id=15099, criteria=52243}),
         Item({item=185902, note=L["trinket"]}), -- Iron Maiden's Toolkit
@@ -1155,10 +1156,8 @@ map.nodes[22624623] = RIFT_CACHE6
 
 local Vessel = Class('AnimaVessel', Treasure, {
     label=L["stolen_anima_vessel"],
-    group=ns.groups.ANIMA_VESSEL,
-    rewards={
-        ns.relics.relic_fragment
-    }
+    rlabel=ns.status.LightBlue(L["plus_research"]),
+    group=ns.groups.ANIMA_VESSEL
 })
 
 -- In the rift
@@ -1281,8 +1280,8 @@ function Nilganihmaht.getters:note ()
     note = note..'\n\n'..status(1, 186603)..' {item:186603} ({quest:63543})'
     note = note..'\n'..status(2, 186605)..' {item:186605} ({npc:179735})'
     note = note..'\n'..status(3, 186606)..' {item:186606} ({npc:170303})'
-    note = note..'\n'..status(4, 186607)..' {item:186607} (Desmotaeron)'
-    note = note..'\n'..status(5, 186608)..' {item:186608} (Calcis)'
+    note = note..'\n'..status(4, 186607)..' {item:186607} ('..L["desmotaeron"]..')'
+    note = note..'\n'..status(5, 186608)..' {item:186608} ('..L["calcis"]..')'
     return note
 end
 

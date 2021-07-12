@@ -273,6 +273,7 @@ L["worldcracker_note"] = "Habla con {npc:180028} para empezar el evento de escol
 L["archivist_key_note"] = "Compra la %s del {npc:178257} para desbloquear."
 L["korthian_shrine_note"] = "Haz click en la roca con forma de espada para ganar {spell:352367} y poder ver el camino oculto al altar."
 L["num_research"] = "%d Investigación"
+L["plus_research"] = nil
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Muestra donde están las 20 reliquias para {achievement:15066}."
 
@@ -641,6 +642,8 @@ L["nilg_stone_ring_note3"] = "Se despoja de un {npc:179601} enmedio de la zona d
 L["nilg_stone_ring_note4"] = "Está por el suelo del Bastión de la Perdición cerca del {npc:170634}. Tu {npc:180598} puede ayudarte a encontrarlo."
 L["nilg_gold_band_note"] = "Usa el punto de agarre y sigue el camino a la cima de la montaña."
 L["nilganihmaht_note"] = "Tienes que recoger los 5 anillos y llevarlos a {npc:179572} en la falla."
+L["calcis"] = nil
+L["desmotaeron"] = nil
 
 L["zovault_note"] = "Trae {npc:179883} a {npc:179904} una vez al día para una piedra de falla garantizada."
 L["options_icons_zovault"] = "{npc:179883}"

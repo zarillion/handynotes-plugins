@@ -271,6 +271,7 @@ L["worldcracker_note"] = "和 {npc:180028} 交談來觸發護送事件."
 L["archivist_key_note"] = "從 {npc:178257} 購買 %s 來解鎖."
 L["korthian_shrine_note"] = "點選祭壇以取得 {spell:352367} 來看到通往 alter 的隱藏路徑."
 L["num_research"] = "%d 編目研究"
+L["plus_research"] = nil
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "顯示成就的所有20個文物位置."
 
@@ -639,6 +640,8 @@ L["nilg_stone_ring_note3"] = nil
 L["nilg_stone_ring_note4"] = nil
 L["nilg_gold_band_note"] = "在山頂的一個尖端上"
 L["nilganihmaht_note"] = "你必須蒐集5個戒指, 並且把它們帶給在裂隙中的 {npc:179572} ."
+L["calcis"] = nil
+L["desmotaeron"] = nil
 
 L["zovault_note"] = "每天拖曳 {npc:179883} 到 {npc:179904} 處, 保證給予裂隙傳送門石."
 L["options_icons_zovault"] = "{npc:179883}"

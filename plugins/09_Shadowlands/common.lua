@@ -9,7 +9,6 @@ local L = ns.locale
 
 local Map = ns.Map
 
-local Item  = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Reward = ns.reward.Reward
@@ -174,8 +173,12 @@ local function ProcessCovenant (node)
     local name = C_Covenants.GetCovenantData(covenant.id).name
     local str = node.covenant and L["covenant_required"] or L["cov_assault_only"]
     local subl = ns.color.Orange(string.format(str, name))
+    local ricon = ns.GetIconLink(covenant.icon, 13)
 
-    node.rlabel = ns.GetIconLink(covenant.icon, 13)
+    -- not compatible with rlabel getters
+    if not node.getters.rlabel then
+        node.rlabel = node.rlabel and node.rlabel..' '..ricon or ricon
+    end
     node.sublabel = node.sublabel and subl..'\n'..node.sublabel or subl
     node._covenantProcessed = true
 end
@@ -301,11 +304,3 @@ function Venari:IsMet()
 end
 
 ns.requirement.Venari = Venari
-
--------------------------------------------------------------------------------
------------------------------ RELIC RESEARCH ITEMS ----------------------------
--------------------------------------------------------------------------------
-
-ns.relics = {
-    relic_fragment = Item({item=186685, status=L["num_research"]:format(1)}) -- relic fragment
-}
