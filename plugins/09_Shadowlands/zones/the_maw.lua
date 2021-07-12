@@ -932,7 +932,6 @@ local Nexus = Class('StygiaNexus', NPC, {
     group=ns.groups.STYGIA_NEXUS,
     icon='peg_gn',
     id=177632,
-    quest=63684,
     requires=ns.requirement.Item(184870),
     scale=1.25,
     rift=2 -- can see in both phases
