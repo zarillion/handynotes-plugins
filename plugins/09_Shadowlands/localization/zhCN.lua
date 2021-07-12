@@ -271,7 +271,7 @@ L["worldcracker_note"] = "和 {npc:180028} 交谈触发护送事件。"
 L["archivist_key_note"] = "从 {npc:178257} 购买 %s 解锁。"
 L["korthian_shrine_note"] = "点击神龛获得 {spell:352367} 可以看到隐藏的路径到达alter。"
 L["num_research"] = "%d 研究"
-L["plus_research"] = nil
+L["plus_research"] = "+ 研究"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "显示成就中全部20个圣物的位置。"
 
@@ -638,8 +638,8 @@ L["nilg_stone_ring_note3"] = "从破灭堡中央区域的 {npc:179601} 拾取。
 L["nilg_stone_ring_note4"] = "破灭堡 {npc:170634} 旁的地面上找到。你的 {npc:180598} 可以帮助你找到它们。"
 L["nilg_gold_band_note"] = "使用锚点并跟着路径爬到山顶上。"
 L["nilganihmaht_note"] = "你必须收集5个戒指带给位于裂隙的 {npc:179572}。"
-L["calcis"] = nil
-L["desmotaeron"] = nil
+L["calcis"] = "白垩之地"
+L["desmotaeron"] = "渊狱"
 
 L["zovault_note"] = "每天拖拽 {npc:179883} 到 {npc:179904} 必给裂隙石。"
 L["options_icons_zovault"] = "{npc:179883}"
