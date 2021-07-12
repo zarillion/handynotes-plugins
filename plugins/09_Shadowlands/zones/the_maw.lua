@@ -934,6 +934,7 @@ local Nexus = Class('StygiaNexus', NPC, {
     group=ns.groups.STYGIA_NEXUS,
     icon='peg_gn',
     id=177632,
+    quest=63684,
     requires=ns.requirement.Item(184870),
     scale=1.25,
     rift=2 -- can see in both phases
@@ -1032,6 +1033,7 @@ pitl.nodes[67185536] = Nexus({note=L["nexus_cave_anguish_lower"], parent=map.id}
 -------------------------------------------------------------------------------
 
 local HELGARDE = ns.node.Node({
+    quest=62682,
     label=L["helgarde_supply"],
     note=L["helgarde_supply_note"],
     group=ns.groups.HELGARDE_CACHE,
@@ -1039,9 +1041,6 @@ local HELGARDE = ns.node.Node({
     scale=0.8,
     rewards={
         Item({item=186727, quest=62682}) -- Seal Breaker Key
-    },
-    pois={
-        POI({37196363}) -- Overcharged Centurion
     }
 })
 
@@ -1288,7 +1287,7 @@ function Nilganihmaht.getters:note ()
     end
 
     local note = L["nexus_cave_forlorn"]..' '..L["nilganihmaht_note"]
-    note = note..'\n\n'..status(1, 186603)..' {item:186603} (Necrolord assault)'
+    note = note..'\n\n'..status(1, 186603)..' {item:186603} ({quest:63543})'
     note = note..'\n'..status(2, 186605)..' {item:186605} ({npc:179735})'
     note = note..'\n'..status(3, 186606)..' {item:186606} ({npc:170303})'
     note = note..'\n'..status(4, 186607)..' {item:186607} (Desmotaeron)'

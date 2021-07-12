@@ -303,13 +303,13 @@ L["unusual_nest"] = "异常材料之巢"
 L["unusual_nest_note"] = "全部5个巢每天都可以拾取。"
 
 L["options_icons_invasive_mawshroom_desc"] = "显示入侵的渊菇的位置。"
-L["options_icons_invasive_mawshroom"] = "入侵的渊菇（日常）"
+L["options_icons_invasive_mawshroom"] = "入侵的渊菇"
 L["options_icons_korthia_dailies_desc"] = "显示未标记日常宝箱的位置。"
-L["options_icons_korthia_dailies"] = "隐藏宝箱（日常）"
+L["options_icons_korthia_dailies"] = "隐藏宝箱"
 L["options_icons_mawsworn_cache_desc"] = "显示渊誓之箱的位置。"
-L["options_icons_mawsworn_cache"] = "渊誓之箱（日常）"
+L["options_icons_mawsworn_cache"] = "渊誓之箱"
 L["options_icons_nest_materials_desc"] = "显示异常材料之巢的位置。"
-L["options_icons_nest_materials"] = "异常材料之巢（日常）"
+L["options_icons_nest_materials"] = "异常材料之巢"
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -559,7 +559,7 @@ L["nexus_cave_anguish_outside"] = "苦楚之洞外"
 L["nexus_cave_anguish_upper"] = "苦楚之洞内（上层）"
 L["nexus_cave_desmotaeron"] = "渊狱外的小洞穴内"
 L["nexus_cave_echoing_outside"] = "回音之洞外"
-L["nexus_cave_forlorn"] = "荒弃之息洞穴内"
+L["nexus_cave_forlorn"] = "荒弃之息洞穴内。"
 L["nexus_cave_howl_outside"] = "死亡之嚎洞穴外的地面上"
 L["nexus_cave_howl"] = "死亡之嚎洞穴内"
 L["nexus_cave_roar"] = "死亡之哮洞穴内"
@@ -619,25 +619,25 @@ L["options_icons_stygian_caches_desc"] = "显示获取额外冥殇的宝箱位�
 L["cov_assault_only"] = "只在%s突袭期间可用。"
 
 L["helgarde_supply"] = "冥锋补给箱"
-L["helgarde_supply_note"] = nil
-L["options_icons_helgarde_cache"] = nil
-L["options_icons_helgarde_cache_desc"] = nil
+L["helgarde_supply_note"] = "在渊狱区域各处刷新。你的 {npc:180598} 可以帮助你找到它们。"
+L["options_icons_helgarde_cache"] = "冥锋补给箱"
+L["options_icons_helgarde_cache_desc"] = "显示冥锋补给箱在渊狱区域可能出现的位置。"
 
-L["mawsworn_cache2_ramparts_note"] = nil
-L["mawsworn_cache2_tower_note"] = nil
-L["mawsworn_cache2_quest_note"] = nil
+L["mawsworn_cache2_ramparts_note"] = "此宝箱在城墙顶上。使用锚点或 {npc:177093} 到它们那里。"
+L["mawsworn_cache2_tower_note"] = "此宝箱位于塔上并需要 {npc:177093} 到达。使用 {spell:349853} 技能爬上去。"
+L["mawsworn_cache2_quest_note"] = "{item:186573} 将只在你完成 {quest:63545} 任务后掉落！"
 
-L["nilg_silver_ring_note"] = "需要4个 {item:186727} 打开全部封印。"
-L["nilg_silver_ring_note1"] = nil
-L["nilg_silver_ring_note2"] = nil
-L["nilg_silver_ring_note3"] = nil
-L["nilg_silver_ring_note4"] = nil
-L["nilg_stone_ring_note"] = nil
-L["nilg_stone_ring_note1"] = nil
-L["nilg_stone_ring_note2"] = nil
-L["nilg_stone_ring_note3"] = nil
-L["nilg_stone_ring_note4"] = nil
-L["nilg_gold_band_note"] = "在山顶上的一个尖上。"
+L["nilg_silver_ring_note"] = "在渊狱收集4个 {item:186727} 并使用它们打开统御封印之箱。"
+L["nilg_silver_ring_note1"] = "击杀 {npc:177444} 并打开 {item:186970}。"
+L["nilg_silver_ring_note2"] = "拾取掠心者的钥匙链，位于地下室房间 {npc:178311} 旁边的墙上。"
+L["nilg_silver_ring_note3"] = "打渊狱区域内的冥锋补给箱。你的 {npc:180598} 可以帮助你找到它们。"
+L["nilg_silver_ring_note4"] = "反复击杀渊狱区域的 {npc:177134}（低掉率）。"
+L["nilg_stone_ring_note"] = "在通灵领主突袭收集4个 {item:186600} 并在佐瓦尔的坩埚的任意 {npc:171492} 组合它们。"
+L["nilg_stone_ring_note1"] = "在破灭堡城墙顶上的渊誓之箱（黄图标）内找到。"
+L["nilg_stone_ring_note2"] = "完成 {quest:63545} 任务，然后拾取渊誓之箱直到你找到任务物品 {item:186573}。此任务可以共享！"
+L["nilg_stone_ring_note3"] = "从破灭堡中央区域的 {npc:179601} 拾取。"
+L["nilg_stone_ring_note4"] = "破灭堡 {npc:170634} 旁的地面上找到。你的 {npc:180598} 可以帮助你找到它们。"
+L["nilg_gold_band_note"] = "使用锚点并跟着路径爬到山顶上。"
 L["nilganihmaht_note"] = "你必须收集5个戒指带给位于裂隙的 {npc:179572}。"
 
 L["zovault_note"] = "每天拖拽 {npc:179883} 到 {npc:179904} 必给裂隙石。"

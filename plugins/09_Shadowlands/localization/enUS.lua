@@ -627,7 +627,7 @@ L["mawsworn_cache2_ramparts_note"] = "This cache is on top of the ramparts. Use 
 L["mawsworn_cache2_tower_note"] = "This cache is on top of the tower and requires a {npc:177093} to reach. Use the {spell:349853} ability to climb up."
 L["mawsworn_cache2_quest_note"] = "The {item:186573} will only drop after you have completed the {quest:63545} quest!"
 
-L["nilg_silver_ring_note"] = "Collect 4 {item:186727} in the Desmotaeron and use them to open the Domination Chest."
+L["nilg_silver_ring_note"] = "Collect 4 {item:186727} in the Desmotaeron and use them to open the Domination Sealed Chest."
 L["nilg_silver_ring_note1"] = "Kill {npc:177444} and open the {item:186970}."
 L["nilg_silver_ring_note2"] = "Loot the Harrower's Key Ring, located on the wall in an underground room next to {npc:178311}."
 L["nilg_silver_ring_note3"] = "Open Helgarde Supply Caches in the Desmotaeron area. Your {npc:180598} can help you locate them."
