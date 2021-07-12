@@ -625,33 +625,25 @@ L["options_icons_stygian_caches_desc"] = "Zeigt Truhen an, die zusätzliche Styg
 L["cov_assault_only"] = "Nur während des Paktangriffs der %s verfügbar."
 
 L["helgarde_supply"] = "Vorratskiste von Helgarde"
-L["helgarde_supply_note"] = nil
-L["options_icons_helgarde_cache"] = nil
-L["options_icons_helgarde_cache_desc"] = nil
+L["helgarde_supply_note"] = "Erscheint in ganz Desmotaeron. Dein {npc:180598} kann helfen diese zu finden."
+L["options_icons_helgarde_cache"] = "Vorratskisten von Helgarde"
+L["options_icons_helgarde_cache_desc"] = "Zeigt mögliche Positionen der Vorratskisten von Helgarde an."
 
-L["mawsworn_cache2_ramparts_note"] = nil
-L["mawsworn_cache2_tower_note"] = nil
-L["mawsworn_cache2_quest_note"] = nil
+L["mawsworn_cache2_ramparts_note"] = "Diese Truhe ist auf der Mauer. Benutze das Greifhakenziel oder den {npc:177093}, um sie zu erreichen."
+L["mawsworn_cache2_tower_note"] = "Diese Truhe ist auf dem Turm und benötigt den {npc:177093}, um sie zu erreichen. Benutze die Fähigkeit {spell:349853} zum Hochklettern."
+L["mawsworn_cache2_quest_note"] = "Die {item:186573} wird erst dropen, nachdem die Quest {quest:63545} abgeschlossen wurde!"
 
-L["nilg_silver_ring_note"] = [[
-Benötigt 4x {item:186727}, um alle Siegel zu öffnen.
-
-Du bekommst jeweils einen Schlüssel von:
-• dem seltenen Gegner {npc:177444}
-• dem Schlüsselring der Plagerin
-• einer Vorratskiste von Helgarde
-• den Gegnern {npc:177134}
-]]
-L["nilg_silver_ring_note1"] = nil
-L["nilg_silver_ring_note2"] = nil
-L["nilg_silver_ring_note3"] = nil
-L["nilg_silver_ring_note4"] = nil
-L["nilg_stone_ring_note"] = nil
-L["nilg_stone_ring_note1"] = nil
-L["nilg_stone_ring_note2"] = nil
-L["nilg_stone_ring_note3"] = nil
-L["nilg_stone_ring_note4"] = nil
-L["nilg_gold_band_note"] = "Am Gipfel des Berges an einem Stachel. (Starte den Aufstieg zum Gipfel bei 18.5 39.3)"
+L["nilg_silver_ring_note"] = "Sammel 4x {item:186727} in Desmotaeron und benutze diese, um die Herrschaftstruhe zu öffnen."
+L["nilg_silver_ring_note1"] = "Töte {npc:177444} und öffne die {item:186970}."
+L["nilg_silver_ring_note2"] = "Plündere den Schlüsselring der Plagerin, an der Wand, in der Untergrundkammer neben {npc:178311}."
+L["nilg_silver_ring_note3"] = "Öffne Vorratskisten von Helgarde in Desmotaeron. Dein {npc:180598} kann helfen diese zu finden."
+L["nilg_silver_ring_note4"] = "Töte {npc:177134s} in Desmotaeron (geringe droprate)."
+L["nilg_stone_ring_note"] = "Sammel vier {item:186600} während des Nekrolordangriffs und kombiniere diese an einer {npc:171492} in Zovaals Kessel."
+L["nilg_stone_ring_note1"] = "Gefunden in bestimmten Schlundgebundenen Truhen (gelbes Symbol), auf den Mauern der Verdammnisfestung."
+L["nilg_stone_ring_note2"] = "Schließe die Quest {quest:63545} ab, dann plündere Schlundgebundene Truhen bis du den Questgegenstand {item:186573} findest. Diese Quest ist teilbar!"
+L["nilg_stone_ring_note3"] = "Erbeutet vom {npc:179601} im mittleren Bereich der Verdammnisfestung."
+L["nilg_stone_ring_note4"] = "Kann auf dem Boden in der Verdammnisfestung in der Nähe von {npc:170634} gefunden werden. Dein {npc:180598} kann helfen ihn zu finden."
+L["nilg_gold_band_note"] = "Benutze das Greifhakenziel und folge dem Weg nach oben zum Gipfel."
 L["nilganihmaht_note"] = "Es müssen fünf Ringe gesammelt und diese zur {npc:179572} im |cFFFFFF00Riss|r gebracht werden."
 
 L["zovault_note"] = "Ziehe täglich {npc:179883} zu {npc:179904} für einen garantierten Rissstein."
