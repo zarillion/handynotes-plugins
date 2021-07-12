@@ -273,7 +273,7 @@ L["worldcracker_note"] = "Parlez à {npc:180028} pour déclencher l'événement 
 L["archivist_key_note"] = "Achetez %s de {npc:178257} pour le déverrouiller."
 L["korthian_shrine_note"] = "Cliquez sur l'autel pour obtenir {spell:352367} et voir le chemin caché vers l'autel."
 L["num_research"] = "%d Recherche"
-L["plus_research"] = nil
+L["plus_research"] = "+Recherche"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Afficher les emplacements des 20 reliques pour {achievement:15066}."
 
@@ -642,8 +642,8 @@ L["nilg_stone_ring_note3"] = "Récupéré sur l'{npc:179601} dans la zone centra
 L["nilg_stone_ring_note4"] = "Trouvé sur le sol au Fort de la Perdition près du {npc:170634}. Votre {npc:180598} peut vous aider à le localiser."
 L["nilg_gold_band_note"] = "Au sommet de la montagne, sur une pointe."
 L["nilganihmaht_note"] = "Vous devez collecter les 5 anneaux et les apporter à la {npc:179572} dans la faille."
-L["calcis"] = nil
-L["desmotaeron"] = nil
+L["calcis"] = "Calcis"
+L["desmotaeron"] = "Desmotæron"
 
 L["zovault_note"] = "Traînez le {npc:179883} vers {npc:179904} une fois par jour pour des pierres de faille garanties."
 L["options_icons_zovault"] = "{npc:179883}"
