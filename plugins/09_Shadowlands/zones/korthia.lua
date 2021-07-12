@@ -679,11 +679,12 @@ local RiftCache = Class('RiftCache', Treasure, {
     }
 })
 
-local RIFT_CACHE1 = RiftCache({quest=64470, icon='chest_rd', note=L["in_cave"]})
-local RIFT_CACHE2 = RiftCache({quest=64471, icon='chest_pp'}) -- (also 64705?) <did you loot a relic?
+local RIFT_CACHE1 = RiftCache({quest=64470, icon='chest_rd'})
+local RIFT_CACHE2 = RiftCache({quest=64471, icon='chest_pp'})
 local RIFT_CACHE3 = RiftCache({quest=64472, icon='chest_yw'})
 local RIFT_CACHE4 = RiftCache({quest=64456, icon='chest_bl'})
 
+map.nodes[24795625] = RIFT_CACHE1
 map.nodes[25975582] = RIFT_CACHE1 -- GHO: 29433986
 map.nodes[26545638] = RIFT_CACHE1 -- GHO: 34634647
 map.nodes[27555933] = RIFT_CACHE1 -- GHO: 43157372
