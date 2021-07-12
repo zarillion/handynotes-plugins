@@ -620,25 +620,25 @@ L["options_icons_stygian_caches_desc"] = "Показать места тайни
 L["cov_assault_only"] = "Доступно только во время атаки ковенантов %s."
 
 L["helgarde_supply"] = "Хельгардский тайник с припасами"
-L["helgarde_supply_note"] = nil
-L["options_icons_helgarde_cache"] = nil
-L["options_icons_helgarde_cache_desc"] = nil
+L["helgarde_supply_note"] = "Появляется по всей территории Дезмотерон. Ваш {npc:180598} поможет вам их найти."
+L["options_icons_helgarde_cache"] = "Хельгардский тайник с припасами"
+L["options_icons_helgarde_cache_desc"] = "Показать возможные местоположения Хельгардских тайников с припасами в районе Дезмотерона."
 
-L["mawsworn_cache2_ramparts_note"] = nil
-L["mawsworn_cache2_tower_note"] = nil
-L["mawsworn_cache2_quest_note"] = nil
+L["mawsworn_cache2_ramparts_note"] = "Этот тайник находится на вершине крепостных стен. Используйте точки захвата или {npc:177093}, чтобы добраться до них."
+L["mawsworn_cache2_tower_note"] = "Этот тайник находится наверху башни, и для его доступа требуется {npc:177093}. Используйте способность {spell:349853}, чтобы взобраться наверх."
+L["mawsworn_cache2_quest_note"] = "{Item:186573} выпадет только после того, как вы выполните задание {quest:63545}!"
 
-L["nilg_silver_ring_note"] = "Требуется 4 {item:186727}, чтобы открыть все печати."
-L["nilg_silver_ring_note1"] = nil
-L["nilg_silver_ring_note2"] = nil
-L["nilg_silver_ring_note3"] = nil
-L["nilg_silver_ring_note4"] = nil
-L["nilg_stone_ring_note"] = nil
-L["nilg_stone_ring_note1"] = nil
-L["nilg_stone_ring_note2"] = nil
-L["nilg_stone_ring_note3"] = nil
-L["nilg_stone_ring_note4"] = nil
-L["nilg_gold_band_note"] = "На вершине горы на пике."
+L["nilg_silver_ring_note"] = "Соберите 4 {item:186727} в Дезмотероне и используйте их, чтобы открыть Запечатанный Сундук Господства."
+L["nilg_silver_ring_note1"] = "Убейте {npc:177444} и откройте {item:186970}."
+L["nilg_silver_ring_note2"] = "Отыщите кольцо с ключами боронителя душ, которое находится на стене в подземной комнате рядом с {npc:178311}."
+L["nilg_silver_ring_note3"] = "Откройте Хельгардский тайник с припасами в районе Дезмотерона. Ваш {npc:180598} поможет вам их найти."
+L["nilg_silver_ring_note4"] = "Убивайте {npc:177134} в районе Дезмотерона (низкий шанс выпадения)."
+L["nilg_stone_ring_note"] = "Соберите четыре {item:186600} во время нападения Некролордов и объедините их в любом {npc:171492} в Котле Зоваала."
+L["nilg_stone_ring_note1"] = "Можно найти в некоторых тайниках верных Утробе (желтый значок) на вершине крепостных стен в Цитадели Вечных Мук."
+L["nilg_stone_ring_note2"] = "Завершите задание {quest:63545}, затем открывайте тайники верных Утробе, пока не найдете предмет {item:186573}. Этим заданием можно делиться! В сутки можно открыть 6 сундуков."
+L["nilg_stone_ring_note3"] = "Добывается из {npc:179601} в центре Цитадели Вечных Мук."
+L["nilg_stone_ring_note4"] = "Найден на земле в Цитадели Вечных Мук рядом с {npc:170634}. Ваш {npc:180598} может помочь вам найти его."
+L["nilg_gold_band_note"] = "Используйте точку захвата и следуйте по тропинке на вершину горы."
 L["nilganihmaht_note"] = "Вы должны собрать 5 колец и принести их {npc:179572} в разлом."
 
 L["zovault_note"] = "Отнесите {npc:179883} к {npc:179904} один раз в день, чтобы получить гарантированный коллапсирующий камень разлома."
