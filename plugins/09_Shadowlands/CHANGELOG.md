@@ -1,3 +1,20 @@
+# v36
+
+* Added anima vessel locations for the Necrolord and Kyrian assaults.
+* Added Helgarde Supply Cache locations inside the Desmotaeron area.
+* Added Legend of the Animaswell reward to covenant-specific rares in Korthia.
+* Added numerous missing (new) rewards to 9.0 rares in the Maw.
+* Added POIs for all four possible Ve'rayn spawn locations.
+* Added possible spawn locations for Zovaal's Vault in the rift.
+* Added Sly Fox node and instructions for the Kyrian assault.
+* Cleaned up Mawsworn Cache locations for the Necrolord Assault.
+* Cleaned up the [Hand of Nilganihmaht](https://www.wowhead.com/spell=354354/hand-of-nilganihmaht) nodes.
+* Cleaned up the Lil'Abom treasure nodes; now displayed as one node with POIs.
+* Collapsed the "Maw Lore" group into the "Treasures" group in the Maw.
+* Removed Korthite Crystal and Relic Fragment drops from all nodes. The crystals drop from basically all treasures and any node that grants research items now says (+Research) in the top-right corner of the tooltip.
+* Removed note about raid groups for Darkmaul and Razorwing due to Blizzard hotfix.
+* Removed the "Hand of Nilganihmaht" category, these are now displayed in the "Miscellaneous" group like other mounts.
+
 # v35
 
 * Added new Riftbound Cache locations.
