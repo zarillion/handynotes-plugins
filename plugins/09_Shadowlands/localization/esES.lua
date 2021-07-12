@@ -273,7 +273,7 @@ L["worldcracker_note"] = "Habla con {npc:180028} para empezar el evento de escol
 L["archivist_key_note"] = "Compra la %s del {npc:178257} para desbloquear."
 L["korthian_shrine_note"] = "Haz click en la roca con forma de espada para ganar {spell:352367} y poder ver el camino oculto al altar."
 L["num_research"] = "%d Investigación"
-L["plus_research"] = nil
+L["plus_research"] = "+Investigación"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Muestra donde están las 20 reliquias para {achievement:15066}."
 
@@ -628,7 +628,7 @@ L["mawsworn_cache_ramparts_note"] = "Este alijo está sobre las murallas. Usa lo
 L["mawsworn_cache_tower_note"] = "Este alijo está sobre una torre y requiere un {npc:177093} para llegar. Usa la habilidad {spell:349853} para saltar arriba."
 L["mawsworn_cache_quest_note"] = "The {item:186573} will only drop after you have completed the {quest:63545} quest!"
 
-L["nilg_silver_ring_note"] = "Recoge 4 {item:186727} para abrir todos los sellos."
+L["nilg_silver_ring_note"] = "Recoge 4 {item:186727} en Desmotaeron para abrir el Cofre Sellado de Dominación."
 L["nilg_silver_ring_note1"] = "Mata a {npc:177444} y abre la {item:186970}."
 L["nilg_silver_ring_note2"] = "Despoja el Llavero del Lacerante, que está en una habitación subterránea de la pared al lado de {npc:178311}."
 L["nilg_silver_ring_note3"] = "Abre Alijos de Suministros de Helgarde en la zona de Desmotaeron. Tu {npc:180598} puede ayudarte a encontrarlos."
@@ -640,8 +640,8 @@ L["nilg_stone_ring_note3"] = "Se despoja de un {npc:179601} enmedio de la zona d
 L["nilg_stone_ring_note4"] = "Está por el suelo del Bastión de la Perdición cerca del {npc:170634}. Tu {npc:180598} puede ayudarte a encontrarlo."
 L["nilg_gold_band_note"] = "Usa el punto de agarre y sigue el camino a la cima de la montaña."
 L["nilganihmaht_note"] = "Tienes que recoger los 5 anillos y llevarlos a {npc:179572} en la falla."
-L["calcis"] = nil
-L["desmotaeron"] = nil
+L["calcis"] = "Calcis"
+L["desmotaeron"] = "Desmotaeron"
 
 L["zovault_note"] = "Trae {npc:179883} a {npc:179904} una vez al día para una piedra de falla garantizada."
 L["options_icons_zovault"] = "{npc:179883}"
