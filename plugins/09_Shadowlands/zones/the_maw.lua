@@ -531,6 +531,44 @@ map.nodes[36506740] = Treasure({
 }) -- Lil'Abom
 
 -------------------------------------------------------------------------------
+
+local Lore = Class('MawLore', Treasure, {
+    rlabel=ns.status.LightBlue('+150 '..L["rep"]),
+    IsCompleted=function(self)
+        if C_QuestLog.IsOnQuest(self.quest[1]) then return true end
+        return Treasure.IsCompleted(self)
+    end
+})
+
+ext.nodes[73121659] = Lore({
+    quest=63157,
+    note=L["box_of_torments_note"],
+    parent={ id=map.id, pois={POI({27702020})} },
+    rewards={
+        Achievement({id=14761, criteria=49908}),
+        Item({item=183060, quest=63157})
+    }
+}) -- Box of Torments
+
+map.nodes[35764553] = Lore({
+    quest=63163,
+    note=L["tormentors_notes_note"],
+    rewards={
+        Achievement({id=14761, criteria=49914}),
+        Item({item=183069, quest=63163})
+    }
+}) -- Tormentor's Notes
+
+map.nodes[19363340] = Lore({
+    quest=63159,
+    note=L["words_of_warden_note"],
+    rewards={
+        Achievement({id=14761, criteria=49910}),
+        Item({item=183063, quest=63159})
+    }
+}) -- Words of the Warden
+
+-------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
 
@@ -831,49 +869,6 @@ for _, coord in ipairs(GRAPPLES) do
 end
 
 -------------------------------------------------------------------------------
----------------------------------- MAW LORE -----------------------------------
--------------------------------------------------------------------------------
-
-local Lore = Class('MawLore', Treasure, {
-    group=ns.groups.MAW_LORE,
-    rlabel=ns.status.LightBlue('+150 '..L["rep"]),
-    IsCompleted=function(self)
-        if C_QuestLog.IsOnQuest(self.quest[1]) then return true end
-        return Treasure.IsCompleted(self)
-    end
-})
-
-ext.nodes[73121659] = Lore({
-    quest=63157,
-    note=L["box_of_torments_note"],
-    parent={ id=map.id, pois={POI({27702020})} },
-    rewards={
-        Achievement({id=14761, criteria=49908}),
-        Item({item=183060, quest=63157})
-    }
-}) -- Box of Torments
-
--- Shadehound Armor Plating ??
-
-map.nodes[35764553] = Lore({
-    quest=63163,
-    note=L["tormentors_notes_note"],
-    rewards={
-        Achievement({id=14761, criteria=49914}),
-        Item({item=183069, quest=63163})
-    }
-}) -- Tormentor's Notes
-
-map.nodes[19363340] = Lore({
-    quest=63159,
-    note=L["words_of_warden_note"],
-    rewards={
-        Achievement({id=14761, criteria=49910}),
-        Item({item=183063, quest=63159})
-    }
-}) -- Words of the Warden
-
--------------------------------------------------------------------------------
 ------------------------------- STYGIAN CACHES --------------------------------
 -------------------------------------------------------------------------------
 
@@ -1078,13 +1073,13 @@ map.nodes[71204820] = HELGARDE
 ------------------------------- MAWSWORN CACHES -------------------------------
 -------------------------------------------------------------------------------
 
-local ramp_cache = L["mawsworn_cache2_ramparts_note"]..'\n\n'..L["mawsworn_cache2_quest_note"]
-local tower_cache = L["mawsworn_cache2_tower_note"]..'\n\n'..L["mawsworn_cache2_quest_note"]
+local ramp_cache = L["mawsworn_cache_ramparts_note"]..'\n\n'..L["mawsworn_cache_quest_note"]
+local tower_cache = L["mawsworn_cache_tower_note"]..'\n\n'..L["mawsworn_cache_quest_note"]
 
 local MawswornC = Class('MawswornC', Treasure, {
     label=L["mawsworn_cache"],
     note=ramp_cache,
-    group=ns.groups.MAWSWORN_CACHE2,
+    group=ns.groups.MAWSWORN_CACHE,
     assault=NECROLORD,
     rewards={
         Achievement({id=15039, criteria={id=1, qty=true}}),

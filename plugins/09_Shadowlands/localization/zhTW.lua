@@ -610,8 +610,6 @@ L["options_icons_riftstone"] = "{npc:174962}"
 L["options_icons_riftstone_desc"] = "顯示混亂裂隙石傳送者位置."
 L["options_icons_grapples"] = "{npc:176308}"
 L["options_icons_grapples_desc"] = "顯示使用 {item:184653} 升級後可使用的 {npc:176308} 位置."
-L["options_icons_maw_lore"] = "淵喉知識物品"
-L["options_icons_maw_lore_desc"] = "顯示 {achievement:14761} 成就中淵喉知識物品的位置."
 L["options_icons_stygia_nexus"] = "冥魄核心"
 L["options_icons_stygia_nexus_desc"] = "顯示 {item:184168} 坐騎所需的冥魄核心位置."
 L["options_icons_stygian_caches"] = "冥魄儲藏箱"
@@ -624,9 +622,9 @@ L["helgarde_supply_note"] = nil
 L["options_icons_helgarde_cache"] = nil
 L["options_icons_helgarde_cache_desc"] = nil
 
-L["mawsworn_cache2_ramparts_note"] = nil
-L["mawsworn_cache2_tower_note"] = nil
-L["mawsworn_cache2_quest_note"] = nil
+L["mawsworn_cache_ramparts_note"] = nil
+L["mawsworn_cache_tower_note"] = nil
+L["mawsworn_cache_quest_note"] = nil
 
 L["nilg_silver_ring_note"] = "需要4個 {item:186727} 來打開全部封印"
 L["nilg_silver_ring_note1"] = nil
