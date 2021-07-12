@@ -276,7 +276,7 @@ L["worldcracker_note"] = "Sprich mit {npc:180028}, um das Escortevent zu starten
 L["archivist_key_note"] = "Kaufe zum öffnen von {npc:178257} einen %s."
 L["korthian_shrine_note"] = "Klicke den Schrein an, um die {spell:352367} zu erhalten, damit du den versteckten Pfad zum Altar sehen kannst."
 L["num_research"] = "%d katalogisierte Forschung"
-L["plus_research"] = nil
+L["plus_research"] = "+katalogisierte Forschung"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "Zeigt die 20 Relikte für den Erfolg {achievement:15066} an."
 
@@ -644,8 +644,8 @@ L["nilg_stone_ring_note3"] = "Erbeutet vom {npc:179601} im mittleren Bereich der
 L["nilg_stone_ring_note4"] = "Kann auf dem Boden in der Verdammnisfestung in der Nähe von {npc:170634} gefunden werden. Dein {npc:180598} kann helfen ihn zu finden."
 L["nilg_gold_band_note"] = "Benutze das Greifhakenziel und folge dem Weg nach oben zum Gipfel."
 L["nilganihmaht_note"] = "Es müssen fünf Ringe gesammelt und diese zur {npc:179572} im |cFFFFFF00Riss|r gebracht werden."
-L["calcis"] = nil
-L["desmotaeron"] = nil
+L["calcis"] = "Calcis"
+L["desmotaeron"] = "Desmotaeron"
 
 L["zovault_note"] = "Ziehe täglich {npc:179883} zu {npc:179904} für einen garantierten Rissstein."
 L["options_icons_zovault"] = "{npc:179883}"
