@@ -270,8 +270,8 @@ L["worldcracker_note"] = "和 {npc:180028} 交談來觸發護送事件."
 
 L["archivist_key_note"] = "從 {npc:178257} 購買 %s 來解鎖."
 L["korthian_shrine_note"] = "點選祭壇以取得 {spell:352367} 來看到通往 alter 的隱藏路徑."
-L["num_research"] = "%d 編目研究"
-L["plus_research"] = nil
+L["num_research"] = "%d 研究"
+L["plus_research"] = "+研究"
 L["options_icons_relic"] = "{achievement:15066}"
 L["options_icons_relic_desc"] = "顯示成就的所有20個文物位置."
 
