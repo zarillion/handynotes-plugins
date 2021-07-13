@@ -317,8 +317,7 @@ map.nodes[59335221] = Rare({
     rewards={
         Achievement({id=15107, criteria=52275}),
         Item({item=187401, note=L["ring"]}), -- Band of the Shaded Rift
-        Transmog({item=187396, slot=L["plate"]}), -- Girdle of the Deadsoul
-        Toy({item=187174}) -- Shaded Judgement Stone (XXX: not confirmed on live!)
+        Transmog({item=187396, slot=L["plate"]}) -- Girdle of the Deadsoul
     }
 }) -- Deadsoul Hatcher
 
