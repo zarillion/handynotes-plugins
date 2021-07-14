@@ -302,7 +302,7 @@ map.nodes[14507900] = Rare({
         Transmog({item=187369, slot=L["cloth"]}) -- Ve'rayn's Formal Robes
     },
     pois={
-        POI({32804320, 42405980, 49002900, 61405780})
+        POI({32804320, 42405980, 43386754, 49002900, 61405780})
     }
 }) -- Ve'rayn
 
