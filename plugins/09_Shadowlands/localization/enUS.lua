@@ -269,7 +269,7 @@ L["towering_exterminator_note"] = "Spawns from a mawsworn portal event. The even
 L["worldcracker_note"] = "Talk to {npc:180028} to trigger the escort event."
 
 L["archivist_key_note"] = "Purchase %s from {npc:178257} to unlock."
-L["korthian_shrine_note"] = "Click on the shrine to gain {spell:352367} to see the hidden path to the alter."
+L["korthian_shrine_note"] = "Click on the shrine to gain {spell:352367} to see the hidden path to the altar."
 L["num_research"] = "%d Research"
 L["plus_research"] = "+Research"
 L["options_icons_relic"] = "{achievement:15066}"

@@ -269,7 +269,7 @@ L["towering_exterminator_note"] = "在渊誓传送门事件出现。事件可能
 L["worldcracker_note"] = "和 {npc:180028} 交谈触发护送事件。"
 
 L["archivist_key_note"] = "从 {npc:178257} 购买 %s 解锁。"
-L["korthian_shrine_note"] = "点击神龛获得 {spell:352367} 可以看到隐藏的路径到达alter。"
+L["korthian_shrine_note"] = "点击神龛获得 {spell:352367} 可以看到隐藏的路径到达祭坛。"
 L["num_research"] = "%d 研究"
 L["plus_research"] = "+ 研究"
 L["options_icons_relic"] = "{achievement:15066}"
