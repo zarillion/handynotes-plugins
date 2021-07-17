@@ -1168,8 +1168,8 @@ local VEN_VESSEL2 = Vessel({icon='chest_bl', fgroup='vv2', quest=64056, assault=
 local KYR_VESSEL1 = Vessel({icon='chest_rd', fgroup='kv1', quest=64057, assault=KYRIAN}) -- object=368950
 local KYR_VESSEL2 = Vessel({icon='chest_bl', fgroup='kv2', quest=64058, assault=KYRIAN}) -- object=368951
 -- Night Fae assault
-local FAE_VESSEL1 = Vessel({icon='chest_rd', fgroup='fv1', quest=nil, assault=NIGHTFAE}) -- object=368952
-local FAE_VESSEL2 = Vessel({icon='chest_bl', fgroup='fv2', quest=nil, assault=NIGHTFAE}) -- object=368953
+local FAE_VESSEL1 = Vessel({icon='chest_rd', fgroup='fv1', quest=64059, assault=NIGHTFAE}) -- object=368952
+local FAE_VESSEL2 = Vessel({icon='chest_bl', fgroup='fv2', quest=64060, assault=NIGHTFAE}) -- object=368953
 
 -- In the rift
 map.nodes[47437620] = ns.Clone(RIFT_VESSEL1, {note=L["in_cave"]})
