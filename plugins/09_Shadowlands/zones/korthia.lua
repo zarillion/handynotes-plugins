@@ -912,7 +912,7 @@ local maelie = Class('Maelie', Collectible, {
     pois={POI({
         30005560, 35904650, 38403140, 39703490, 41103980, 41302750,
         42806040, 43003260, 43203130, 49304170, 50302290, 59801510,
-        61304040, 62404970, 67502930
+        61304040, 62404970, 67502930, 35806220
     })},
     rewards={Mount({item=186643, id=1511})}, -- Reins of the Wanderer
     getters={rlabel=GetMaelieStatus}
