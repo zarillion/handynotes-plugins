@@ -285,7 +285,15 @@ Nécessite une {item:186731}, qui peut être achetée à {npc:178257} une fois q
 |cFFFF8C00Les portails de failles ne sont pas tous actifs à un moment donné.|r
 ]]
 L["rift_rare_only_note"] = "Ce monstre ne peut être vu et tué qu'en étant entré dans |cFFFFFF00La Faille|r."
-L["rift_rare_exit_note"] = "Ce monstre rare sortira de |cFFFFFF00La Faille|r une fois qu'il aura été abordé à l'intérieur de celle-ci."
+L["rift_rare_exit_note"] = [[
+Ce monstre rare sortira de |cFFFFFF00La Faille|r une fois qu'il aura été abordé à l'intérieur de celle-ci.
+
+Les trois monstres rares de la faille apparaissent généralement dans un ordre déterminé à environ 20 minutes d'intervalle :
+
+  1. {npc:179913}
+  2. {npc:179608}
+  3. {npc:179911}
+]]
 L["options_icons_rift_portal"] = "{npc:179595s}"
 L["options_icons_rift_portal_desc"] = "Afficher les emplacements des {npc:179595s} utilisés pour entrer dans |cFFFFFF00La Faille|r."
 
