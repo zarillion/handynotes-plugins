@@ -323,7 +323,7 @@ map.nodes[59335221] = Rare({
 
 map.nodes[50307590] = Rare({
     id=179914,
-    quest=64369,
+    quest=64440,
     rlabel=ns.status.LightBlue(L["plus_research"])..ns.GetIconLink('portal_gy', 20, 4, 1),
     note=L["rift_rare_only_note"],
     rift=2,
