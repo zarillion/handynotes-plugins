@@ -288,7 +288,7 @@ Benötigt einen {item:186731}, den man bei {npc:178257} kaufen kann, wenn Stufe 
 |cFFFF8C00Nicht alle Rissportale sind gleichzeitig aktiv.|r
 ]]
 L["rift_rare_only_note"] = "Dieser seltene Gegner kann nur gesehen und getötet werden, während man sich im |cFFFFFF00Riss|r befindet."
-L["rift_rare_exit_note"] = "Damit dieser seltene Gegner im |cFFFFFF00Riss|r vorzufinden ist, muss er den Stärkungszauber {spell:354840} haben. Er wird den |cFFFFFF00Riss|r verlassen, wenn mit ihm im |cFFFFFF00Riss|r interagiert wurde."
+L["rift_rare_exit_note"] = "Dieser seltene Gegner wird den |cFFFFFF00Riss|r verlassen, wenn mit ihm im |cFFFFFF00Riss|r interagiert wurde."
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Zeigt die Positionen von {npc:179595en} an, um den |cFFFFFF00Riss|r zu betreten."
 

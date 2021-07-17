@@ -285,7 +285,7 @@ Requiere una {item:186731}, la cual se le puede comprar al {npc:178257} una vez 
 |cFFFF8C00Los portales de falla no están activos todos al mismo tiempo.|r
 ]]
 L["rift_rare_only_note"] = "Este raro sólo se puede ver y ser matado dentro de la fase de |cFFFFFF00La Falla|r."
-L["rift_rare_exit_note"] = "¡Este raro ha de tener el buff {spell:354840} o estará bug! Saldrá de la fase de |cFFFFFF00La Falla|r en cuanto se interactúe con él dentro de la falla."
+L["rift_rare_exit_note"] = "Este raro saldrá de la fase de |cFFFFFF00La Falla|r en cuanto se interactúe con él dentro de la falla."
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "Muestra donde están los {npc:179595} usados para entrar en |cFFFFFF00La Falla|r."
 

@@ -283,7 +283,7 @@ L["rift_portal_note"] = [[
 |cFFFF8C00并非所有裂隙传送门在任何时间都处于激活状态。|r
 ]]
 L["rift_rare_only_note"] = "此稀有只在 |cFFFFFF00裂隙|r 位面内可以见到和击杀。"
-L["rift_rare_exit_note"] = "此稀有必须有 {spell:354840} 否则会出错！在裂隙位面内和其互动将使其离开 |cFFFFFF00裂隙|r。"
+L["rift_rare_exit_note"] = "在裂隙位面内和此稀有互动将使其离开 |cFFFFFF00裂隙|r。"
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "显示 {npc:179595} 的位置可以进入 |cFFFFFF00裂隙|r。"
 
