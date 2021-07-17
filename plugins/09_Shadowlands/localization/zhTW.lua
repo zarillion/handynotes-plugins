@@ -269,7 +269,7 @@ L["towering_exterminator_note"] = "從淵誓傳送門事件中刷新."
 L["worldcracker_note"] = "和 {npc:180028} 交談來觸發護送事件."
 
 L["archivist_key_note"] = "從 {npc:178257} 購買 %s 來解鎖."
-L["korthian_shrine_note"] = "點選祭壇以取得 {spell:352367} 來看到通往 alter 的隱藏路徑."
+L["korthian_shrine_note"] = "點選相移科西亞聖壇獲得 {spell:352367} 增益讓你能看到通往祭壇的隱藏路徑."
 L["num_research"] = "%d 研究"
 L["plus_research"] = "+研究"
 L["options_icons_relic"] = "{achievement:15066}"
