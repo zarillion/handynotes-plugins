@@ -283,7 +283,15 @@ L["rift_portal_note"] = [[
 |cFFFF8C00並非所有裂隙傳送門在任何時間都是啟動的.|r
 ]]
 L["rift_rare_only_note"] = "此稀有僅在 |cFFFFFF00裂隙|r 位面內可以看到並被擊殺"
-L["rift_rare_exit_note"] = "此稀有在裂隙中被互動後會離開 |cFFFFFF00裂隙|r 位面"
+L["rift_rare_exit_note"] = [[
+此稀有在裂隙中被互動後會離開 |cFFFFFF00裂隙|r 位面.
+
+三個裂隙稀有通常會在20分鐘的間隔後以固定的順序刷新:
+
+  1. {npc:179913}
+  2. {npc:179608}
+  3. {npc:179911}
+]]
 L["options_icons_rift_portal"] = "{npc:179595}"
 L["options_icons_rift_portal_desc"] = "顯示用來進入 |cFFFFFF00裂隙|r 的 {npc:179595} 位置"
 
