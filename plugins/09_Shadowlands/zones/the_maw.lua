@@ -1119,6 +1119,7 @@ local RiftCache = Class('RiftCache', Treasure, {
     rift=1,
     assault=NIGHTFAE,
     rewards={
+        Achievement({id=15001, criteria={id=1, qty=true}}),
         Transmog({item=187251, slot=L["cosmetic"]}) -- Shaded Skull Shoulderguards
     }
 })
