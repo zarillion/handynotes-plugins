@@ -71,6 +71,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Chaotic Riftstone locations and transport paths.
 * Grapple point locations across the maw.
 * Stygia Nexus locations for collecting [Stygia Dust](https://www.wowhead.com/item=185618/stygia-dust) and [Stygia Sliver](https://www.wowhead.com/item=185617/stygia-sliver) for the [Bound Shadehound](https://www.wowhead.com/item=184168/bound-shadehound) mount.
+* Stolen Anima Vessel locations in the rift and around the covenant assaults.
 * Ring and treasure locations for the [Hand of Nilganihmaht](https://www.wowhead.com/spell=354354/hand-of-nilganihmaht) mount.
 * Maw and Torghast upgrades purchased from [Ve'nari](https://www.wowhead.com/npc=162804/venari).
 

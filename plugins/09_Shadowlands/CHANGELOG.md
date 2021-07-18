@@ -1,3 +1,13 @@
+# v37
+
+* Added 5th Ve'rayn POI in the southern vault area.
+* Added exact path to run when spawning Malbog.
+* Added new dredbat locations in Revendreth.
+* Added new transmog drop to Dustbrawl.
+* Added quest ids for the Night Fae assault anima vessels.
+* Fixed Yorik quest id, which changed in some recent update.
+* Removed Shaded Judgment Stone drop from Deadsoul Hatcher.
+
 # v36
 
 * Added anima vessel locations for the Necrolord and Kyrian assaults.
