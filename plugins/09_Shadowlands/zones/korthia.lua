@@ -852,6 +852,7 @@ local MawswornC = Class('MawswornC', Treasure, {
     note=L["mawsworn_cache_note"],
     rlabel=ns.status.LightBlue(L["plus_research"]),
     rewards={
+        Transmog({item=187020, note=L["cosmetic"]}), -- Necrobinder's Shoulderpads
         Transmog({item=187026, note=L["cosmetic"]}), -- Field Warden's Torture Kit
         Transmog({item=187240, note=L["cosmetic"]}) -- Field Warden's Watchful Eye
     }
