@@ -274,12 +274,14 @@ map.nodes[30775000] = Rare({
 map.nodes[16945102] = Rare({
     id=162849,
     quest=60987,
-    noassault=NIGHTFAE,
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49852}),
         Transmog({item=185892, slot=L["2h_sword"]}), -- Stygia-Etched Decapitator
         Toy({item=184292}) -- Ancient Elethium Coin
+    },
+    pois={
+        POI({18904410}) -- during nightfae assault, change place to here
     }
 }) -- Morguliax <Lord of Decapitation>
 
