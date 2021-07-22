@@ -638,7 +638,7 @@ L["mawsworn_cache_quest_note"] = "The {item:186573} will only drop after you hav
 
 L["nilg_silver_ring_note"] = "Recoge 4 {item:186727} en Desmotaeron para abrir el Cofre Sellado de Dominación."
 L["nilg_silver_ring_note1"] = "Mata a {npc:177444} y abre la {item:186970}."
-L["nilg_silver_ring_note2"] = "Despoja el Llavero del Lacerante, que está en una habitación subterránea de la pared al lado de {npc:178311}."
+L["nilg_silver_ring_note2"] = "Despoja el Llavero de La Lacerante, que está en una habitación subterránea de la pared al lado de {npc:178311}."
 L["nilg_silver_ring_note3"] = "Abre Alijos de Suministros de Helgarde en la zona de Desmotaeron. Tu {npc:180598} puede ayudarte a encontrarlos."
 L["nilg_silver_ring_note4"] = "Mata {npc:177134} en la zona de Desmotaeron (drop bajo)."
 L["nilg_stone_ring_note"] = "Recoge 4 {item:186600} durante el asalto de los Necroseñores y combínalos en cualquier {npc:171492} en la Caldera de Zovaal."
