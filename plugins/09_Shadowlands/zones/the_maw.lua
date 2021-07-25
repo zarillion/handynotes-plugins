@@ -115,6 +115,7 @@ map.nodes[19324172] = Rare({
 map.nodes[39014119] = Rare({
     id=157833,
     quest=57469,
+    noassault=KYRIAN,
     rlabel=ns.status.LightBlue('+100 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49843}),
@@ -337,6 +338,7 @@ map.nodes[32946646] = Rare({
 map.nodes[35974156] = Rare({
     id=166398,
     quest=60834,
+    noassault=KYRIAN,
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49857}),
@@ -750,6 +752,7 @@ pitu.nodes[41767921] = BonusBoss({
 map.nodes[36253744] = BonusBoss({
     id=165047,
     quest=59441,
+    noassault=KYRIAN,
     rewards={
         Achievement({id=14660, criteria=49482}),
         Transmog({item=186630, slot=L["plate"]}) -- Spark Deflecting Girdle
@@ -759,6 +762,7 @@ map.nodes[36253744] = BonusBoss({
 map.nodes[36844480] = BonusBoss({
     id=156203,
     quest=62539,
+    noassault=KYRIAN,
     rewards={
         Achievement({id=14660, criteria=50409}),
         Item({item=186631, note=L["ring"]}) -- Emberfused Band
