@@ -482,6 +482,17 @@ L["inquisitor_note"] = "Turn in 100 {currency:1816} to {npc:160248} for a chance
 L["options_icons_inquisitors"] = "Inquisitors"
 L["options_icons_inquisitors_desc"] = "Display inquisitor locations for the {achievement:14276} achievement."
 
+L["broken_mirror"] = "Broken Mirror"
+L["broken_mirror_crypt"] = "Inside a crypt."
+L["broken_mirror_elite"] = "In a small room with elite mobs."
+L["broken_mirror_group"] = "Group"
+L["broken_mirror_house"] = "Inside the house."
+L["broken_mirror_61818"] = "In a small room with {npc:173699}."
+L["broken_mirror_61819"] = "In a small room on the ground floor."
+L["broken_mirror_61827"] = "In a small room."
+L["options_icons_broken_mirror"] = "Broken Mirrors"
+L["options_icons_broken_mirror_desc"] = "Display the locations of broken mirrors."
+
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------

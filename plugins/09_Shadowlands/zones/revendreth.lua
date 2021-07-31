@@ -1106,3 +1106,162 @@ function Blanchy.getters:note ()
 end
 
 map.nodes[62874341] = Blanchy()
+
+-------------------------------------------------------------------------------
+-------------------------------- BROKEN MIRRORS -------------------------------
+-------------------------------------------------------------------------------
+
+local BrokenMirror = Class('BrokenMirror', Treasure, {
+    label=L["broken_mirror"],
+    requires=ns.requirement.Item(181363),
+    group=ns.groups.BROKEN_MIRROR,
+    rewards={
+        Transmog({item=183972, slot=L["dagger"]}), -- Forgotten Venthyr Winged Kris
+        Transmog({item=183973, slot=L["dagger"]}), -- Lost Winged Ritual Kris
+        Transmog({item=183976, slot=L["dagger"]}), -- Rogue Researcher's Dagger
+        Transmog({item=183978, slot=L["dagger"]}), -- Silver-Etched Hopebreaker Dirk
+        ns.reward.Spacer(),
+        Transmog({item=181121, slot=L["cloth"]}), -- Soulbreaker's Burnished Vestments
+        Transmog({item=181122, slot=L["cloth"]}), -- Soulbreaker's Burnished Slippers
+        Transmog({item=181123, slot=L["cloth"]}), -- Soulbreaker's Burnished Handwraps
+        Transmog({item=181124, slot=L["cloth"]}), -- Soulbreaker's Burnished Hood
+        Transmog({item=181125, slot=L["cloth"]}), -- Soulbreaker's Burnished Leggings
+        Transmog({item=181126, slot=L["cloth"]}), -- Soulbreaker's Burnished Mantle
+        Transmog({item=181127, slot=L["cloth"]}), -- Soulbreaker's Burnished Sash
+        Transmog({item=181128, slot=L["cloth"]}), -- Soulbreaker's Burnished Wraps
+        Transmog({item=181129, slot=L["cloak"]}), -- Soulbreaker's Burnished Drape
+        ns.reward.Spacer(),
+        Transmog({item=181058, slot=L["leather"]}), -- Burnished Death Shroud Vest
+        Transmog({item=181059, slot=L["leather"]}), -- Burnished Death Shroud Boots
+        Transmog({item=181060, slot=L["leather"]}), -- Burnished Death Shroud Gloves
+        Transmog({item=181061, slot=L["leather"]}), -- Burnished Death Shroud Hood
+        Transmog({item=181062, slot=L["leather"]}), -- Burnished Death Shroud Breeches
+        Transmog({item=181063, slot=L["leather"]}), -- Burnished Death Shroud Spaulders
+        Transmog({item=181064, slot=L["leather"]}), -- Burnished Death Shroud Belt
+        Transmog({item=181065, slot=L["leather"]}), -- Burnished Death Shroud Bindings
+        Transmog({item=181066, slot=L["cloak"]}), -- Burnished Death Shroud Cloak
+        ns.reward.Spacer(),
+        Transmog({item=181085, slot=L["mail"]}), -- Fearstalker's Burnished Hauberk
+        Transmog({item=181086, slot=L["mail"]}), -- Fearstalker's Burnished Sabatons
+        Transmog({item=181087, slot=L["mail"]}), -- Fearstalker's Burnished Gauntlets
+        Transmog({item=181088, slot=L["mail"]}), -- Fearstalker's Burnished Helm
+        Transmog({item=181089, slot=L["mail"]}), -- Fearstalker's Burnished Leggings
+        Transmog({item=181090, slot=L["mail"]}), -- Fearstalker's Burnished Monnion
+        Transmog({item=181091, slot=L["mail"]}), -- Fearstalker's Burnished Belt
+        Transmog({item=181092, slot=L["mail"]}), -- Fearstalker's Burnished Bracers
+        Transmog({item=181093, slot=L["cloak"]}), -- Fearstalker's Burnished Cloak
+        ns.reward.Spacer(),
+        Transmog({item=181022, slot=L["plate"]}), -- Dread Sentinel's Burnished Headgear
+        Transmog({item=181023, slot=L["plate"]}), -- Dread Sentinel's Burnished Chestplate
+        Transmog({item=181024, slot=L["plate"]}), -- Dread Sentinel's Burnished Greatboots
+        Transmog({item=181025, slot=L["plate"]}), -- Dread Sentinel's Burnished Grips
+        Transmog({item=181026, slot=L["plate"]}), -- Dread Sentinel's Burnished Legguards
+        Transmog({item=181027, slot=L["plate"]}), -- Dread Sentinel's Burnished Spaulders
+        Transmog({item=181028, slot=L["plate"]}), -- Dread Sentinel's Burnished Girdle
+        Transmog({item=181029, slot=L["plate"]}), -- Dread Sentinel's Burnished Vambraces
+        Transmog({item=181030, slot=L["cloak"]}), -- Dread Sentinel's Burnished Cloak
+        ns.reward.Spacer(),
+        Transmog({item=183707, slot=L["cosmetic"]}), -- Mantle of Burnished Blades
+        Transmog({item=183710, slot=L["cosmetic"]}), -- Burnished Sinstone Chain
+        Transmog({item=183711, slot=L["cosmetic"]}), -- Burnished Crypt Keeper's Mantle
+        ns.reward.Spacer(),
+        Pet({item=183855, id=3012}), -- Stony's Infused Ruby
+        Mount({item=183798, id=1389}) -- Silessa's Battle Harness
+    }
+})
+
+map.nodes[29433729] = BrokenMirror({
+    icon='portal_rd',
+    quest={61818, 61833},
+    fgroup='broken_mirror_1',
+    rlabel=L["broken_mirror_group"].." 1",
+    note=L["broken_mirror_61818"]
+})
+
+map.nodes[27132161] = BrokenMirror({
+    icon='portal_rd',
+    quest={61826, 61835},
+    fgroup='broken_mirror_1',
+    rlabel=L["broken_mirror_group"].." 1",
+    note=L["broken_mirror_elite"]
+})
+
+map.nodes[40387336] = BrokenMirror({
+    icon='portal_rd',
+    quest={61822, 61834},
+    fgroup='broken_mirror_1',
+    rlabel=L["broken_mirror_group"].." 1",
+    note=L["broken_mirror_house"]
+})
+
+map.nodes[39105221] = BrokenMirror({
+    icon='portal_bl',
+    quest={61819, 61836},
+    fgroup='broken_mirror_2',
+    rlabel=L["broken_mirror_group"].." 2",
+    note=L["broken_mirror_61819"]
+})
+
+map.nodes[58836779] = BrokenMirror({
+    icon='portal_bl',
+    quest={61823, 61837},
+    fgroup='broken_mirror_2',
+    rlabel=L["broken_mirror_group"].." 2",
+    note=L["broken_mirror_house"]
+})
+
+map.nodes[70944361] = BrokenMirror({
+    icon='portal_bl',
+    quest={61827, 61838},
+    fgroup='broken_mirror_2',
+    rlabel=L["broken_mirror_group"].." 2",
+    note=L["broken_mirror_61827"]
+})
+
+map.nodes[72564364] = BrokenMirror({
+    icon='portal_gn',
+    quest={61817, 61830},
+    fgroup='broken_mirror_3',
+    rlabel=L["broken_mirror_group"].." 3",
+    note=L["broken_mirror_crypt"]
+})
+
+map.nodes[40307716] = BrokenMirror({
+    icon='portal_gn',
+    quest={61821, 61831},
+    fgroup='broken_mirror_3',
+    rlabel=L["broken_mirror_group"].." 3",
+    note=L["broken_mirror_house"]
+})
+
+map.nodes[77176543] = BrokenMirror({
+    icon='portal_gn',
+    quest={61825, 61832},
+    fgroup='broken_mirror_3',
+    rlabel=L["broken_mirror_group"].." 3",
+    note=L["broken_mirror_house"]
+})
+
+map.nodes[29572585] = BrokenMirror({
+    icon='portal_pp',
+    quest={61824, 61829},
+    fgroup='broken_mirror_4',
+    rlabel=L["broken_mirror_group"].." 4",
+    note=L["broken_mirror_elite"]
+})
+
+map.nodes[20755422] = BrokenMirror({
+    icon='portal_pp',
+    quest={59236, 60297},
+    fgroup='broken_mirror_4',
+    rlabel=L["broken_mirror_group"].." 4",
+    note=L["broken_mirror_house"]
+})
+
+map.nodes[55083570] = BrokenMirror({
+    icon='portal_pp',
+    quest={61820, 61828},
+    fgroup='broken_mirror_4',
+    rlabel=L["broken_mirror_group"].." 4",
+    note=L["broken_mirror_crypt"]
+})
