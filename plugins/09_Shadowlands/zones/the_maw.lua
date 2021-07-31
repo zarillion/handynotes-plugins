@@ -331,7 +331,8 @@ map.nodes[32946646] = Rare({
         Item({item=183066, quest=63160}), -- Korrath's Grimoire: Aleketh
         Item({item=183067, quest=63161}), -- Korrath's Grimoire: Belidir
         Item({item=183068, quest=63162}),  -- Korrath's Grimoire: Gyadrek
-        Transmog({item=185945, slot=L["staff"]}) -- Shadeweaver's Spire
+        Transmog({item=185945, slot=L["staff"]}), -- Shadeweaver's Spire
+        Toy({item=181794}) -- Orophea's Lyre
     }
 }) -- Shadeweaver Zeris
 
