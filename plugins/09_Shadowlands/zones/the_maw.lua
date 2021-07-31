@@ -1209,11 +1209,13 @@ ext.nodes[73685062] = ns.Clone(VEN_VESSEL2, {parent=map.id})
 -- Kyrian Assault
 map.nodes[32594092] = KYR_VESSEL1
 map.nodes[32604340] = KYR_VESSEL1
+map.nodes[37504500] = KYR_VESSEL1
 map.nodes[34103580] = KYR_VESSEL2
 map.nodes[36604010] = KYR_VESSEL2
 map.nodes[38364869] = KYR_VESSEL2
 map.nodes[45424774] = KYR_VESSEL2
 -- Night Fae assault
+map.nodes[19103320] = FAE_VESSEL1
 map.nodes[25303330] = FAE_VESSEL1
 map.nodes[25303820] = FAE_VESSEL1
 map.nodes[27804180] = FAE_VESSEL1
