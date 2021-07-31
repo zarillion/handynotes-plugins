@@ -482,6 +482,17 @@ L["inquisitor_note"] = "把100个 {currency:1816} 交给 {npc:160248} 有机会�
 L["options_icons_inquisitors"] = "审判官"
 L["options_icons_inquisitors_desc"] = "显示 {achievement:14276} 成就中审判官的位置。"
 
+L["broken_mirror"] = nil
+L["broken_mirror_crypt"] = nil
+L["broken_mirror_elite"] = nil
+L["broken_mirror_group"] = nil
+L["broken_mirror_house"] = nil
+L["broken_mirror_61818"] = nil
+L["broken_mirror_61819"] = nil
+L["broken_mirror_61827"] = nil
+L["options_icons_broken_mirror"] = nil
+L["options_icons_broken_mirror_desc"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------

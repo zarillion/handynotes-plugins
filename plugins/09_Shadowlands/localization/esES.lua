@@ -484,6 +484,17 @@ L["inquisitor_note"] = "Entrega 100 {currency:1816} al {npc:160248} para tener u
 L["options_icons_inquisitors"] = "Inquisidores"
 L["options_icons_inquisitors_desc"] = "Muestra dónde están los inquisidores para el logro {achievement:14276}."
 
+L["broken_mirror"] = nil
+L["broken_mirror_crypt"] = nil
+L["broken_mirror_elite"] = nil
+L["broken_mirror_group"] = nil
+L["broken_mirror_house"] = nil
+L["broken_mirror_61818"] = nil
+L["broken_mirror_61819"] = nil
+L["broken_mirror_61827"] = nil
+L["options_icons_broken_mirror"] = nil
+L["options_icons_broken_mirror_desc"] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------

@@ -240,6 +240,15 @@ ns.groups.ANIMA_VESSEL = Group('anima_vessel', 'chest_tl', {
     end
 })
 
+ns.groups.BROKEN_MIRROR = Group('broken_mirror', 3854020, {
+    defaults=ns.GROUP_ALPHA75,
+    IsEnabled=function (self)
+        -- Broken mirrors cannot be accessed until the quest "Repair and Restore" is completed
+        if not C_QuestLog.IsQuestFlaggedCompleted(59740) then return false end
+        return Group.IsEnabled(self)
+    end
+})
+
 ns.groups.RELIC = Group('relic', 'star_chest_b', {
     defaults=ns.GROUP_ALPHA75,
     IsEnabled=function (self)

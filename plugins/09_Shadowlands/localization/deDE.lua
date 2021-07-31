@@ -488,6 +488,17 @@ L["inquisitor_note"] = "Gib 100 {currency:1816} bei {npc:160248} ab, um eine Cha
 L["options_icons_inquisitors"] = "{achievement:14276}"
 L["options_icons_inquisitors_desc"] = "Zeigt die Inquisitoren für den Erfolg {achievement:14276} an."
 
+L["broken_mirror"] = "Zerbrochener Spiegel"
+L["broken_mirror_crypt"] = "In einer Gruft."
+L["broken_mirror_elite"] = "In einem kleinen Raum mit Elite Gegnern."
+L["broken_mirror_group"] = "Gruppe"
+L["broken_mirror_house"] = "Im Haus."
+L["broken_mirror_61818"] = "In einem kleinen Raum mit {npc:173699}."
+L["broken_mirror_61819"] = "In einem kleinen Raum auf der untersten Ebene."
+L["broken_mirror_61827"] = "In einem kleinen Raum."
+L["options_icons_broken_mirror"] = "Zerbrochene Spiegel"
+L["options_icons_broken_mirror_desc"] = "Zeigt die Position der Zerbrochenen Spiegel an."
+
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
