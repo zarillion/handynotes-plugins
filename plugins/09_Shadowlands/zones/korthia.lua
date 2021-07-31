@@ -624,7 +624,7 @@ map.nodes[51402010] = Relic({
 map.nodes[18503800] = Relic({
     quest=63908,
     note=L["korthian_shrine_note"],
-    research=5,
+    questDeps=64348,
     rewards={
         Achievement({id=15066, criteria=52254})
     }
@@ -633,7 +633,7 @@ map.nodes[18503800] = Relic({
 map.nodes[24365660] = Relic({
     quest=63923,
     note=L["korthian_shrine_note"],
-    research=5,
+    questDeps=64348,
     rewards={
         Achievement({id=15066, criteria=52267})
     }
@@ -642,7 +642,7 @@ map.nodes[24365660] = Relic({
 map.nodes[39404270] = Relic({
     quest=63922,
     note=L["korthian_shrine_note"],
-    research=5,
+    questDeps=64348,
     rewards={
         Achievement({id=15066, criteria=52266}),
         Toy({item=187159}) -- Shadow Slicing Shortsword
