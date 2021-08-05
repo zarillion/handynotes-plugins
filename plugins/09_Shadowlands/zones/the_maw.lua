@@ -1383,7 +1383,7 @@ map.nodes[66045739] = SilverRing()
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[42164448] = NPC({ -- https://www.wowhead.com/achievement=15004/a-sly-fox
+map.nodes[42164448] = NPC({
     id=179083,
     quest=64019,
     icon=3072461,
@@ -1394,9 +1394,9 @@ map.nodes[42164448] = NPC({ -- https://www.wowhead.com/achievement=15004/a-sly-f
         Pet({item=186539, id=3101}) -- Sly
     },
     pois={
-        POI({40855166, quest=64024}), -- assault 1
-        POI({38243956, quest=64022, questDeps=64024}), -- assault 2
-        POI({32464324, quest=64023, questDeps=64022}) -- assault 3
+        POI({40715157, quest=64024}), -- assault 1
+        POI({38023973, quest=64022, questDeps=64024}), -- assault 2
+        POI({32904417, quest=64023, questDeps=64022}) -- assault 3
     }
 }) -- Sly
 
