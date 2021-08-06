@@ -1380,6 +1380,76 @@ end
 map.nodes[66045739] = SilverRing()
 
 -------------------------------------------------------------------------------
+---------------------------------- TORMENTORS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[85375524] = Class('Tormentor', ns.node.Node, {
+    label=L["tormentors"],
+    note=L["tormentors_note"],
+    icon='tormentor',
+    scale=2.5,
+    rewards={
+        Achievement({id=15054, criteria={
+            52104, -- Kazj the Sentinel
+            51644, -- Promathiz
+            52103, -- Sentinel Shakorzeth
+            51661, -- Intercessor Razzra
+            51653, -- Gruukuuek the Elder
+            52102, -- Algel the Haunter
+            51648, -- Malleus Grakizz
+            51654, -- Gralebboih
+            51639, -- The Mass of Souls
+            52105, -- Manifestation of Pain
+            51655, -- Versya the Damned
+            52101, -- Zul'gath the Flayer
+            52106, -- Golmak the Monstrosity
+            51643, -- Sentinel Pyrophus
+            51660, -- Mugrem the Soul Devourer
+        }}),
+        Transmog({item=186003, slot=L["bow"], note='{npc:177981}'}), -- Versya's Stygian Longbow
+        Transmog({item=186009, slot=L["staff"], note='{npc:177980}'}), -- Corrupted Elder Branch
+        Transmog({item=186006, slot=L["2h_axe"], note='{npc:178882}'}), -- Kazj's Stygian Splitter
+        Transmog({item=186010, slot=L["1h_mace"], note='{npc:178002}'}), -- Lost Attendant's Scepter
+        Transmog({item=186007, slot=L["1h_mace"], note='{npc:177330}'}), -- Cudgel of the Tin Sentinel
+        Transmog({item=186004, slot=L["dagger"], note='{npc:178004}'}), -- Kris of Dark Temptation
+        Transmog({item=186005, slot=L["dagger"], note='{npc:178899}'}), -- Stygian Pain Borer
+        Transmog({item=186012, slot=L["shield"], note='{npc:177972}'}), -- Inferno Blast Shield
+        Transmog({item=186239, slot=L["cloak"], note='{npc:178897}'}), -- Drape of the Phantasm
+        Transmog({item=186213, slot=L["cloth"], note='{npc:178899}'}), -- Bindings of Manifest Pain
+        Transmog({item=186210, slot=L["cloth"], note='{npc:177427}'}), -- Diabolic Soul Veil
+        Transmog({item=186241, slot=L["cloth"], note='{npc:177331}'}), -- Insulated Thermal Leggings
+        Transmog({item=186208, slot=L["cloth"], note='{npc:177330}'}), -- Padded Insouls
+        Transmog({item=186218, slot=L["leather"], note='{npc:177972}'}), -- Fire-Tempered Armor Cinch
+        Transmog({item=186237, slot=L["leather"], note='{npc:177979}'}), -- Gormhide Pauldrons
+        Transmog({item=186219, slot=L["leather"], note='{npc:177331}'}), -- Pyrophus' Wrist Ties
+        Transmog({item=186215, slot=L["leather"], note='{npc:177427}'}), -- Soul Stranglers
+        Transmog({item=186225, slot=L["mail"], note='{npc:178883}'}), -- Shoulder Joint Spindles
+        Transmog({item=186226, slot=L["mail"], note='{npc:177980}'}), -- Cinch of Petrified Vines
+        Transmog({item=186227, slot=L["mail"], note='{npc:178897}'}), -- Jangling Chain Manacles
+        Transmog({item=186242, slot=L["mail"], note='{npc:178886}'}), -- Zul'gath's Chain Coif
+        Transmog({item=186221, slot=L["mail"], note='{npc:178898}'}), -- Seared-Link Sabatons
+        Transmog({item=186231, slot=L["plate"], note='{npc:178004}'}), -- Gloves of Fervent Intercession
+        Transmog({item=186229, slot=L["plate"], note='{npc:178898}'}), -- Lavafused Breastplate
+        Transmog({item=186235, slot=L["plate"], note='{npc:178886}'}), -- Shadow-Wreathed Vambraces
+        Transmog({item=186233, slot=L["plate"], note='{npc:177981}'}), -- Spaulders of the Skyborn Damned
+        Pet({item=186449, id=3117, note='{npc:177979}'}), -- Amaranthine Stinger
+        ns.reward.Spacer(),
+        ns.reward.Section('{item:185972}'), -- Tormentor's Cache
+        Transmog({item=186977, slot=L["cosmetic"], indent=true}), -- Beastcaller's Skull Crescent
+        Transmog({item=186978, slot=L["cosmetic"], indent=true}), -- Borrowed Eye Crescent
+        Transmog({item=186562, slot=L["cosmetic"], indent=true}), -- Tormentor's Manacled Backplate
+        Mount({item=185973, id=1475, indent=true}), -- Chain of Bahmethra
+    },
+    getters = {
+        rlabel = function (self)
+            local completed = C_QuestLog.IsQuestFlaggedCompleted(63854)
+            local color = completed and ns.status.Green or ns.status.Gray
+            return color(L['weekly'])
+        end
+    }
+})()
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 

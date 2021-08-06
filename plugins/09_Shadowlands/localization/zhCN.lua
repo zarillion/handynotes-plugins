@@ -652,3 +652,6 @@ L["desmotaeron"] = "渊狱"
 L["zovault_note"] = "每天拖拽 {npc:179883} 到 {npc:179904} 必给裂隙石。"
 L["options_icons_zovault"] = "{npc:179883}"
 L["options_icons_zovault_desc"] = "显示 {npc:179883} 可能的位置。"
+
+L["tormentors"] = nil
+L["tormentors_note"] = nil

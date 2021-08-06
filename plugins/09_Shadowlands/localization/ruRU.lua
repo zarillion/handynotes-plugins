@@ -653,3 +653,6 @@ L["desmotaeron"] = "Дезмотерон"
 L["zovault_note"] = "Отнесите {npc:179883} к {npc:179904} один раз в день, чтобы получить гарантированный коллапсирующий камень разлома."
 L["options_icons_zovault"] = "{npc:179883}"
 L["options_icons_zovault_desc"] = "Показать возможные местоположения для {npc:179883}."
+
+L["tormentors"] = nil
+L["tormentors_note"] = nil

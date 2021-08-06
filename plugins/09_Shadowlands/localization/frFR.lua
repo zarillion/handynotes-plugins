@@ -656,3 +656,6 @@ L["desmotaeron"] = "Desmotæron"
 L["zovault_note"] = "Traînez le {npc:179883} vers {npc:179904} une fois par jour pour des pierres de faille garanties."
 L["options_icons_zovault"] = "{npc:179883}"
 L["options_icons_zovault_desc"] = "Afficher les emplacements possibles pour le {npc:179883}."
+
+L["tormentors"] = nil
+L["tormentors_note"] = nil

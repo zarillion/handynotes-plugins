@@ -24,12 +24,15 @@ ns.expansion = 9
 -------------------------------------------------------------------------------
 
 local ICONS = "Interface\\Addons\\"..ADDON_NAME.."\\artwork\\icons"
+local GLOWS = "Interface\\Addons\\"..ADDON_NAME.."\\artwork\\glows"
 local function Icon(name) return ICONS..'\\'..name..'.blp' end
+local function Glow(name) return GLOWS..'\\'..name..'.blp' end
 
 ns.icons.cov_sigil_ky = {Icon('covenant_kyrian'), nil}
 ns.icons.cov_sigil_nl = {Icon('covenant_necrolord'), nil}
 ns.icons.cov_sigil_nf = {Icon('covenant_nightfae'), nil}
 ns.icons.cov_sigil_vn = {Icon('covenant_venthyr'), nil}
+ns.icons.tormentor = {Icon('tormentor'), Glow('tormentor')}
 
 -------------------------------------------------------------------------------
 ---------------------------------- CALLBACKS ----------------------------------

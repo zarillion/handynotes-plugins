@@ -652,3 +652,10 @@ L["desmotaeron"] = "Desmotaeron"
 L["zovault_note"] = "Drag {npc:179883} to {npc:179904} once a day for guaranteed riftstones."
 L["options_icons_zovault"] = "{npc:179883}"
 L["options_icons_zovault_desc"] = "Display possible locations for {npc:179883}."
+
+L["tormentors"] = "Tormentors of Torghast"
+L["tormentors_note"] = [[
+A tormentor event spawns every 2 hours on the hour. The bosses will always spawn in the order listed below.
+
+The {item:185972} can be looted once a week and contains 50 {currency:1906}.
+]]
