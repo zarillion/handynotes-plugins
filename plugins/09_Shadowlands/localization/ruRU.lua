@@ -548,13 +548,13 @@ L["tormentors_notes_note"] = "Обыщите труп {npc:173811}."
 L["words_of_warden_note"] = "Осмотрите |cffffff00Обрывок бумаги|r на камне за горшками."
 
 -- Locations given relative to a map area name
-L["nexus_area_calcis_branch"] = nil
-L["nexus_area_calcis_crystals"] = nil
-L["nexus_area_cradle_bridge"] = nil
-L["nexus_area_domination_bridge"] = nil
-L["nexus_area_domination_edge"] = nil
-L["nexus_area_domination_room"] = nil
-L["nexus_area_domination_stairs"] = nil
+L["nexus_area_calcis_branch"] = "На кристальной ветке в Кальцисе (используйте точку захвата)"
+L["nexus_area_calcis_crystals"] = "За бирюзовыми кристаллами в Кальцисе"
+L["nexus_area_cradle_bridge"] = "Под мостом в Колыбели Разрушения"
+L["nexus_area_domination_bridge"] = "На мосту к югу от Алтаря Господства"
+L["nexus_area_domination_edge"] = "На краю Алтаря Господства"
+L["nexus_area_domination_room"] = "В маленькой комнате на Алтаре Господства"
+L["nexus_area_domination_stairs"] = "На Алтаре Господства рядом с {npc:173904}"
 L["nexus_area_gorgoa_bank"] = nil
 L["nexus_area_gorgoa_middle"] = nil
 L["nexus_area_gorgoa_mouth"] = nil
