@@ -657,5 +657,9 @@ L["zovault_note"] = "Traînez le {npc:179883} vers {npc:179904} une fois par jou
 L["options_icons_zovault"] = "{npc:179883}"
 L["options_icons_zovault_desc"] = "Afficher les emplacements possibles pour le {npc:179883}."
 
-L["tormentors"] = nil
-L["tormentors_note"] = nil
+L["tormentors"] = "Tourmenteurs de Tourment"
+L["tormentors_note"] = [[
+Un événement de tourmenteur apparaît toutes les 2 heures à heure pile. Les boss apparaîtront toujours dans l'ordre indiqué ci-dessous.
+
+La {item:185972} peut être obtenue une fois par semaine et contient 50 {currency:1906}.
+]]
