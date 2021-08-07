@@ -655,5 +655,9 @@ L["zovault_note"] = "Trae {npc:179883} a {npc:179904} una vez al día para una p
 L["options_icons_zovault"] = "{npc:179883}"
 L["options_icons_zovault_desc"] = "Muestra donde están {npc:179883}."
 
-L["tormentors"] = nil
-L["tormentors_note"] = nil
+L["tormentors"] = "Torturadores de Torghast"
+L["tormentors_note"] = [[
+Los eventos de torturadores aparecen cada 2 horas impares en punto. Aparecerán siempre en el orden listado abajo.
+
+El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1906}.
+]]
