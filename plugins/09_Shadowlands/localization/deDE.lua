@@ -659,5 +659,10 @@ L["zovault_note"] = "Ziehe täglich {npc:179883} zu {npc:179904} für einen gara
 L["options_icons_zovault"] = "{npc:179883}"
 L["options_icons_zovault_desc"] = "Zeigt mögliche Positionen für {npc:179883} an."
 
-L["tormentors"] = nil
-L["tormentors_note"] = nil
+L["tormentors"] = "Peiniger von Torghast"
+L["tormentors_note"] = [[
+Das Event erscheint alle 2 Stunden, zur vollen ungeraden Stunde (z.B. 13:00 Uhr).
+Die Bosse erscheinen in der unten aufgeführten Reihenfolge.
+
+Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency:1906}.
+]]
