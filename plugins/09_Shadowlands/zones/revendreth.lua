@@ -1045,69 +1045,6 @@ map.nodes[64485273] = Inquisitor({
 }) -- Grand Inquisitor Nicu
 
 -------------------------------------------------------------------------------
--------------------------------- LOYAL GORGER ---------------------------------
--------------------------------------------------------------------------------
-
--- Daily completion: 61843
-
-map.nodes[59305700] = Collectible({
-    id=173499,
-    icon=3601543,
-    quest={
-        61839, -- Nipping at the Undergrowth
-        61840, -- Vineroot on the Menu
-        61842, -- Vineroot Will Not Do
-        61844, -- Hungry Hungry Gorger
-        62044, -- Standing Toe to Toe
-        62045, -- Ready for More
-        62046  -- A New Pack
-    },
-    questDeps=61188,
-    questCount=true,
-    note=L["loyal_gorger_note"],
-    rewards={
-        Mount({item=182589, id=1391}) -- Loyal Gorger
-    }
-})
-
--------------------------------------------------------------------------------
------------------------------- SINRUNNER BLANCHY ------------------------------
--------------------------------------------------------------------------------
-
--- daily completed: 62107
-
-local Blanchy = Class('Blanchy', Collectible, {
-    id=173468,
-    icon=2143082,
-    quest={62038, 62042, 62047, 62049, 62048, 62050},
-    questCount=true,
-    rewards={
-        Mount({item=182614, id=1414}) -- Blanchy's Reins
-    }
-})
-
-function Blanchy.getters:note ()
-    local function status(i)
-        if C_QuestLog.IsQuestFlaggedCompleted(self.quest[i]) then
-            return ns.status.Green(i)
-        else
-            return ns.status.Red(i)
-        end
-    end
-
-    local note = L["sinrunner_note"]
-    note = note..'\n\n'..status(1)..' '..L["sinrunner_note_day1"]
-    note = note..'\n\n'..status(2)..' '..L["sinrunner_note_day2"]
-    note = note..'\n\n'..status(3)..' '..L["sinrunner_note_day3"]
-    note = note..'\n\n'..status(4)..' '..L["sinrunner_note_day4"]
-    note = note..'\n\n'..status(5)..' '..L["sinrunner_note_day5"]
-    note = note..'\n\n'..status(6)..' '..L["sinrunner_note_day6"]
-    return note
-end
-
-map.nodes[62874341] = Blanchy()
-
--------------------------------------------------------------------------------
 -------------------------------- BROKEN MIRRORS -------------------------------
 -------------------------------------------------------------------------------
 
@@ -1265,3 +1202,66 @@ map.nodes[55083570] = BrokenMirror({
     rlabel=L["broken_mirror_group"].." 4",
     note=L["broken_mirror_crypt"]
 })
+
+-------------------------------------------------------------------------------
+-------------------------------- LOYAL GORGER ---------------------------------
+-------------------------------------------------------------------------------
+
+-- Daily completion: 61843
+
+map.nodes[59305700] = Collectible({
+    id=173499,
+    icon=3601543,
+    quest={
+        61839, -- Nipping at the Undergrowth
+        61840, -- Vineroot on the Menu
+        61842, -- Vineroot Will Not Do
+        61844, -- Hungry Hungry Gorger
+        62044, -- Standing Toe to Toe
+        62045, -- Ready for More
+        62046  -- A New Pack
+    },
+    questDeps=61188,
+    questCount=true,
+    note=L["loyal_gorger_note"],
+    rewards={
+        Mount({item=182589, id=1391}) -- Loyal Gorger
+    }
+})
+
+-------------------------------------------------------------------------------
+------------------------------ SINRUNNER BLANCHY ------------------------------
+-------------------------------------------------------------------------------
+
+-- daily completed: 62107
+
+local Blanchy = Class('Blanchy', Collectible, {
+    id=173468,
+    icon=2143082,
+    quest={62038, 62042, 62047, 62049, 62048, 62050},
+    questCount=true,
+    rewards={
+        Mount({item=182614, id=1414}) -- Blanchy's Reins
+    }
+})
+
+function Blanchy.getters:note ()
+    local function status(i)
+        if C_QuestLog.IsQuestFlaggedCompleted(self.quest[i]) then
+            return ns.status.Green(i)
+        else
+            return ns.status.Red(i)
+        end
+    end
+
+    local note = L["sinrunner_note"]
+    note = note..'\n\n'..status(1)..' '..L["sinrunner_note_day1"]
+    note = note..'\n\n'..status(2)..' '..L["sinrunner_note_day2"]
+    note = note..'\n\n'..status(3)..' '..L["sinrunner_note_day3"]
+    note = note..'\n\n'..status(4)..' '..L["sinrunner_note_day4"]
+    note = note..'\n\n'..status(5)..' '..L["sinrunner_note_day5"]
+    note = note..'\n\n'..status(6)..' '..L["sinrunner_note_day6"]
+    return note
+end
+
+map.nodes[62874341] = Blanchy()
