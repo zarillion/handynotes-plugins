@@ -485,7 +485,7 @@ L["options_icons_inquisitors"] = "Inquisidores"
 L["options_icons_inquisitors_desc"] = "Muestra dónde están los inquisidores para el logro {achievement:14276}."
 
 L["broken_mirror"] = "Espejo Roto"
-L["broken_mirror_note"] = nil
+L["broken_mirror_note"] = "Cada día estará activo un grupo de tres espejos rotos. Usa un {item:181363} para reparar cada espejo y abrir el |cFFFFFD00Cofre Olvidado|r de dentro."
 L["broken_mirror_crypt"] = "Dentro de una cripta."
 L["broken_mirror_elite"] = "En una habitación pequeña con enemigos élite."
 L["broken_mirror_house"] = "Dentro de la casa."
