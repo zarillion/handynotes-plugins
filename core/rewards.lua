@@ -419,8 +419,18 @@ function Transmog:Prepare()
 end
 
 function Transmog:IsKnown()
-    local sourceID = select(2, CTC.GetItemInfo(self.item))
-    return CTC.PlayerHasTransmogItemModifiedAppearance(sourceID) or CTC.PlayerHasTransmog(self.item)
+    if CTC.PlayerHasTransmog(self.item) then return true end
+    local appearanceID, sourceID = CTC.GetItemInfo(self.item)
+    if sourceID and CTC.PlayerHasTransmogItemModifiedAppearance(sourceID) then return true end
+    if appearanceID then
+        local sources = CTC.GetAppearanceSources(appearanceID)
+        if sources then
+            for i, source in pairs(sources) do
+                if source.isCollected then return true end
+            end
+        end
+    end
+    return false
 end
 
 function Transmog:IsLearnable()
