@@ -60,7 +60,7 @@ L["mount"] = "Monture"
 L["pet"] = "Animal de Compagnie"
 L["spell"] = "Sort"
 L["toy"] = "Jouet"
-L["rep"] = nil
+L["rep"] = "Rep"
 L["completed"] = "Complété"
 L["incomplete"] = "Incomplet"
 L["known"] = "Connu"
@@ -106,8 +106,8 @@ L["options_opacity_desc"] = "0 = transparent, 1 = opaque"
 
 ---------------------------------- VISIBILITY ---------------------------------
 
-L["options_show_worldmap_button"] = nil
-L["options_show_worldmap_button_desc"] = nil
+L["options_show_worldmap_button"] = "Afficher le bouton de la carte du monde"
+L["options_show_worldmap_button_desc"] = "Ajouter un menu déroulant dans le coin supérieur droit de la carte du monde."
 
 L["options_visibility_settings"] = "Visibilité"
 L["options_general_settings"] = "Général"
@@ -121,23 +121,23 @@ L["options_toggle_maximized_enlarged"] = "Augmenter la taille des icones sur la 
 L["options_toggle_maximized_enlarged_desc"] = "Quand la carte du monde est en plein écran, augmente la taille des icones"
 L["options_toggle_use_char_achieves"] = "Utilisez les hauts faits du joueur"
 L["options_toggle_use_char_achieves_desc"] = "Afficher la progression du haut fait de ce joueur plutôt que du compte complet"
-L["options_toggle_per_map_settings"] = nil
-L["options_toggle_per_map_settings_desc"] = nil
+L["options_toggle_per_map_settings"] = "Utiliser des paramètres spécifiques à chaque zone"
+L["options_toggle_per_map_settings_desc"] = "Appliquez les paramètres de permutation, d'échelle et d'opacité à chaque zone individuellement."
 L["options_restore_hidden_nodes"] = "Restaurer les nœuds cachés"
 L["options_restore_hidden_nodes_desc"] = "Restaure tous les nœuds cachés en utilisant le clic droit du menu contextuel" -- Need review
 
-L["options_rewards_settings"] = nil
-L["options_reward_types"] = nil
-L["options_mount_rewards"] = nil
-L["options_mount_rewards_desc"] = nil
-L["options_pet_rewards"] = nil
-L["options_pet_rewards_desc"] = nil
-L["options_toy_rewards"] = nil
-L["options_toy_rewards_desc"] = nil
-L["options_transmog_rewards"] = nil
-L["options_transmog_rewards_desc"] = nil
-L["options_all_transmog_rewards"] = nil
-L["options_all_transmog_rewards_desc"] = nil
+L["options_rewards_settings"] = "Récompenses"
+L["options_reward_types"] = "Afficher les types de récompenses"
+L["options_mount_rewards"] = "Afficher les montures en récompense"
+L["options_mount_rewards_desc"] = "Afficher les montures en récompenses dans les infobulles et suivre leur état de possession."
+L["options_pet_rewards"] = "Afficher les familiers en récompense"
+L["options_pet_rewards_desc"] = "Afficher les familiers en récompenses dans les infobulles et suivre leur état de possession."
+L["options_toy_rewards"] = "Afficher les jouets en récompense"
+L["options_toy_rewards_desc"] = "Afficher les jouets en récompenses dans les infobulles et suivre leur état de possession."
+L["options_transmog_rewards"] = "Afficher les transmos en récompense"
+L["options_transmog_rewards_desc"] = "Afficher les transmos en récompenses dans les infobulles et suivre leur état de possession."
+L["options_all_transmog_rewards"] = "Afficher les transmos plus obtenables en récompense"
+L["options_all_transmog_rewards_desc"] = "Afficher les transmos en récompenses pouvant être obtenus par d'autres classes."
 
 L["options_icons_misc_desc"] = "Afficher les emplacements des nœuds divers"
 L["options_icons_misc"] = "Divers"
