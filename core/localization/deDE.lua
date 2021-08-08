@@ -136,6 +136,8 @@ L["options_toy_rewards"] = "Zeige Spielzeugbelohnungen"
 L["options_toy_rewards_desc"] = "Zeige Spielzeugbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus."
 L["options_transmog_rewards"] = "Zeige Vorlagenbelohnungen"
 L["options_transmog_rewards_desc"] = "Zeige Vorlagenbelohnungen für Waffen und Rüstungen in Tooltips an und verfolge ihren Sammlungsstatus."
+L["options_all_transmog_rewards"] = nil
+L["options_all_transmog_rewards_desc"] = nil
 
 L["options_icons_misc_desc"] = "Zeigt die Positionen von anderen nicht kategorisierten Punkten an."
 L["options_icons_misc"] = "Sonstiges"

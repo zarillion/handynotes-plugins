@@ -1093,7 +1093,6 @@ local BrokenMirror = Class('BrokenMirror', Node, {
         Transmog({item=181127, slot=L["cloth"]}), -- Soulbreaker's Burnished Sash
         Transmog({item=181128, slot=L["cloth"]}), -- Soulbreaker's Burnished Wraps
         Transmog({item=181129, slot=L["cloak"]}), -- Soulbreaker's Burnished Drape
-        ns.reward.Spacer(),
         Transmog({item=181058, slot=L["leather"]}), -- Burnished Death Shroud Vest
         Transmog({item=181059, slot=L["leather"]}), -- Burnished Death Shroud Boots
         Transmog({item=181060, slot=L["leather"]}), -- Burnished Death Shroud Gloves
@@ -1103,7 +1102,6 @@ local BrokenMirror = Class('BrokenMirror', Node, {
         Transmog({item=181064, slot=L["leather"]}), -- Burnished Death Shroud Belt
         Transmog({item=181065, slot=L["leather"]}), -- Burnished Death Shroud Bindings
         Transmog({item=181066, slot=L["cloak"]}), -- Burnished Death Shroud Cloak
-        ns.reward.Spacer(),
         Transmog({item=181085, slot=L["mail"]}), -- Fearstalker's Burnished Hauberk
         Transmog({item=181086, slot=L["mail"]}), -- Fearstalker's Burnished Sabatons
         Transmog({item=181087, slot=L["mail"]}), -- Fearstalker's Burnished Gauntlets
@@ -1113,7 +1111,6 @@ local BrokenMirror = Class('BrokenMirror', Node, {
         Transmog({item=181091, slot=L["mail"]}), -- Fearstalker's Burnished Belt
         Transmog({item=181092, slot=L["mail"]}), -- Fearstalker's Burnished Bracers
         Transmog({item=181093, slot=L["cloak"]}), -- Fearstalker's Burnished Cloak
-        ns.reward.Spacer(),
         Transmog({item=181022, slot=L["plate"]}), -- Dread Sentinel's Burnished Headgear
         Transmog({item=181023, slot=L["plate"]}), -- Dread Sentinel's Burnished Chestplate
         Transmog({item=181024, slot=L["plate"]}), -- Dread Sentinel's Burnished Greatboots

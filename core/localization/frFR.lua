@@ -136,6 +136,8 @@ L["options_toy_rewards"] = nil
 L["options_toy_rewards_desc"] = nil
 L["options_transmog_rewards"] = nil
 L["options_transmog_rewards_desc"] = nil
+L["options_all_transmog_rewards"] = nil
+L["options_all_transmog_rewards_desc"] = nil
 
 L["options_icons_misc_desc"] = "Afficher les emplacements des nœuds divers"
 L["options_icons_misc"] = "Divers"
