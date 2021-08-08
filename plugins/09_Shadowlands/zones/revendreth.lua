@@ -9,6 +9,7 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
+local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -1048,10 +1049,35 @@ map.nodes[64485273] = Inquisitor({
 -------------------------------- BROKEN MIRRORS -------------------------------
 -------------------------------------------------------------------------------
 
-local BrokenMirror = Class('BrokenMirror', Treasure, {
+local MIRROR_ICONS = {'portal_rd', 'portal_bl', 'portal_gn', 'portal_pp'}
+local MIRRORS = {
+    [1] = {
+        [29433729] = {quest={61818, 61833}, note=L["broken_mirror_61818"]},
+        [27132161] = {quest={61826, 61835}, note=L["broken_mirror_elite"]},
+        [40387336] = {quest={61822, 61834}, note=L["broken_mirror_house"]}
+    },
+    [2] = {
+        [39105221] = {quest={61819, 61836}, note=L["broken_mirror_61819"]},
+        [58836779] = {quest={61823, 61837}, note=L["broken_mirror_house"]},
+        [70944361] = {quest={61827, 61838}, note=L["broken_mirror_61827"]}
+    },
+    [3] = {
+        [72564364] = {quest={61817, 61830}, note=L["broken_mirror_crypt"]},
+        [40307716] = {quest={61821, 61831}, note=L["broken_mirror_house"]},
+        [77176543] = {quest={61825, 61832}, note=L["broken_mirror_house"]},
+    },
+    [4] = {
+        [29572585] = {quest={61824, 61829}, note=L["broken_mirror_elite"]},
+        [20755422] = {quest={59236, 60297}, note=L["broken_mirror_house"]},
+        [55083570] = {quest={61820, 61828}, note=L["broken_mirror_crypt"]},
+    }
+}
+
+local BrokenMirror = Class('BrokenMirror', Node, {
     label=L["broken_mirror"],
     requires=ns.requirement.Item(181363),
     group=ns.groups.BROKEN_MIRROR,
+    scale=1.5,
     rewards={
         Transmog({item=183972, slot=L["dagger"]}), -- Forgotten Venthyr Winged Kris
         Transmog({item=183973, slot=L["dagger"]}), -- Lost Winged Ritual Kris
@@ -1107,101 +1133,35 @@ local BrokenMirror = Class('BrokenMirror', Treasure, {
     }
 })
 
-map.nodes[29433729] = BrokenMirror({
-    icon='portal_rd',
-    quest={61818, 61833},
-    fgroup='broken_mirror_1',
-    rlabel=L["broken_mirror_group"].." 1",
-    note=L["broken_mirror_61818"]
-})
+function BrokenMirror:IsCompleted()
+    if Node.IsCompleted(self) then return true end
+    for i=1,4 do
+        -- count as completed if *any* quest for another mirror group is completed
+        if i ~= self.mirror_group then
+            for _, mirror in pairs(MIRRORS[i]) do
+                for i, quest in ipairs(mirror.quest) do
+                    if C_QuestLog.IsQuestFlaggedCompleted(quest) then
+                        return true
+                    end
+                end
+            end
+        end
+    end
+    return false
+end
 
-map.nodes[27132161] = BrokenMirror({
-    icon='portal_rd',
-    quest={61826, 61835},
-    fgroup='broken_mirror_1',
-    rlabel=L["broken_mirror_group"].." 1",
-    note=L["broken_mirror_elite"]
-})
-
-map.nodes[40387336] = BrokenMirror({
-    icon='portal_rd',
-    quest={61822, 61834},
-    fgroup='broken_mirror_1',
-    rlabel=L["broken_mirror_group"].." 1",
-    note=L["broken_mirror_house"]
-})
-
-map.nodes[39105221] = BrokenMirror({
-    icon='portal_bl',
-    quest={61819, 61836},
-    fgroup='broken_mirror_2',
-    rlabel=L["broken_mirror_group"].." 2",
-    note=L["broken_mirror_61819"]
-})
-
-map.nodes[58836779] = BrokenMirror({
-    icon='portal_bl',
-    quest={61823, 61837},
-    fgroup='broken_mirror_2',
-    rlabel=L["broken_mirror_group"].." 2",
-    note=L["broken_mirror_house"]
-})
-
-map.nodes[70944361] = BrokenMirror({
-    icon='portal_bl',
-    quest={61827, 61838},
-    fgroup='broken_mirror_2',
-    rlabel=L["broken_mirror_group"].." 2",
-    note=L["broken_mirror_61827"]
-})
-
-map.nodes[72564364] = BrokenMirror({
-    icon='portal_gn',
-    quest={61817, 61830},
-    fgroup='broken_mirror_3',
-    rlabel=L["broken_mirror_group"].." 3",
-    note=L["broken_mirror_crypt"]
-})
-
-map.nodes[40307716] = BrokenMirror({
-    icon='portal_gn',
-    quest={61821, 61831},
-    fgroup='broken_mirror_3',
-    rlabel=L["broken_mirror_group"].." 3",
-    note=L["broken_mirror_house"]
-})
-
-map.nodes[77176543] = BrokenMirror({
-    icon='portal_gn',
-    quest={61825, 61832},
-    fgroup='broken_mirror_3',
-    rlabel=L["broken_mirror_group"].." 3",
-    note=L["broken_mirror_house"]
-})
-
-map.nodes[29572585] = BrokenMirror({
-    icon='portal_pp',
-    quest={61824, 61829},
-    fgroup='broken_mirror_4',
-    rlabel=L["broken_mirror_group"].." 4",
-    note=L["broken_mirror_elite"]
-})
-
-map.nodes[20755422] = BrokenMirror({
-    icon='portal_pp',
-    quest={59236, 60297},
-    fgroup='broken_mirror_4',
-    rlabel=L["broken_mirror_group"].." 4",
-    note=L["broken_mirror_house"]
-})
-
-map.nodes[55083570] = BrokenMirror({
-    icon='portal_pp',
-    quest={61820, 61828},
-    fgroup='broken_mirror_4',
-    rlabel=L["broken_mirror_group"].." 4",
-    note=L["broken_mirror_crypt"]
-})
+for i=1,4 do
+    for coord, mirror in pairs(MIRRORS[i]) do
+        map.nodes[coord] = BrokenMirror({
+            mirror_group=i,
+            icon=MIRROR_ICONS[i],
+            quest=mirror.quest,
+            fgroup='broken_mirror_'..i,
+            rlabel=ns.GetIconLink(VENTHYR.icon, 13),
+            note=mirror.note..'\n\n'..L["broken_mirror_note"]
+        })
+    end
+end
 
 -------------------------------------------------------------------------------
 -------------------------------- LOYAL GORGER ---------------------------------
