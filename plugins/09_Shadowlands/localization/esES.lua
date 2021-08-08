@@ -485,9 +485,9 @@ L["options_icons_inquisitors"] = "Inquisidores"
 L["options_icons_inquisitors_desc"] = "Muestra dónde están los inquisidores para el logro {achievement:14276}."
 
 L["broken_mirror"] = "Espejo Roto"
+L["broken_mirror_note"] = nil
 L["broken_mirror_crypt"] = "Dentro de una cripta."
 L["broken_mirror_elite"] = "En una habitación pequeña con enemigos élite."
-L["broken_mirror_group"] = "Grupo"
 L["broken_mirror_house"] = "Dentro de la casa."
 L["broken_mirror_61818"] = "En una habitación pequeña con {npc:173699}."
 L["broken_mirror_61819"] = "En una habitación pequeña en el piso inferior."

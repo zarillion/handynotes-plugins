@@ -484,9 +484,9 @@ L["options_icons_inquisitors"] = "Инквизиторы"
 L["options_icons_inquisitors_desc"] = "Показать местоположения инквизиторов для достижения {achievement:14276}."
 
 L["broken_mirror"] = nil
+L["broken_mirror_note"] = nil
 L["broken_mirror_crypt"] = nil
 L["broken_mirror_elite"] = nil
-L["broken_mirror_group"] = nil
 L["broken_mirror_house"] = nil
 L["broken_mirror_61818"] = nil
 L["broken_mirror_61819"] = nil

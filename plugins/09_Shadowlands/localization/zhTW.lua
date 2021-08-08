@@ -483,9 +483,9 @@ L["options_icons_inquisitors"] = "{achievement:14276}"
 L["options_icons_inquisitors_desc"] = "顯示 {achievement:14276} 成就中審判官的位置。"
 
 L["broken_mirror"] = nil
+L["broken_mirror_note"] = nil
 L["broken_mirror_crypt"] = nil
 L["broken_mirror_elite"] = nil
-L["broken_mirror_group"] = nil
 L["broken_mirror_house"] = nil
 L["broken_mirror_61818"] = nil
 L["broken_mirror_61819"] = nil
