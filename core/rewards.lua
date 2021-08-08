@@ -450,6 +450,7 @@ function Transmog:IsLearnable()
 end
 
 function Transmog:IsObtainable()
+    if not Item.IsObtainable(self) then return false end
     -- Cosmetic cloaks do not behave well with the GetItemSpecInfo() function.
     -- They return an empty table even though you can get the item to drop.
     local _, _, _, ilvl, _, _, _, _, equipLoc = GetItemInfo(self.item)
