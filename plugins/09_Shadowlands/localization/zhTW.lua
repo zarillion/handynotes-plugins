@@ -649,9 +649,13 @@ L["nilganihmaht_note"] = "你必須收集到5個戒指, 並且把它們帶給在
 L["calcis"] = "卡西斯"
 L["desmotaeron"] = "德司莫泰隆"
 
-L["zovault_note"] = "每天拖曳 {npc:179883} 到 {npc:179904} 處, 保證給予裂隙傳送門石."
+L["zovault_note"] = "每天拖曳 {npc:179883} 到 {npc:179904} 處, 保證給予崩陷裂隙石."
 L["options_icons_zovault"] = "{npc:179883}"
 L["options_icons_zovault_desc"] = "顯示 {npc:179883} 有可能的位置."
 
-L["tormentors"] = nil
-L["tormentors_note"] = nil
+L["tormentors"] = "托迦司折磨者"
+L["tormentors_note"] = [[
+折磨者事件每兩個小時在整點時刷新. 首領會依照下表所示的順序逐個刷新.
+
+{item:185972} 每個禮拜可以被拾取一次, 內含有50個 {currency:1906}.
+]]
