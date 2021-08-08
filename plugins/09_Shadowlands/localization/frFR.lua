@@ -482,16 +482,16 @@ L["inquisitor_note"] = "Donnez 100 {currency:1816} à l'{npc:160248} our avoir u
 L["options_icons_inquisitors"] = "Inquisiteurs"
 L["options_icons_inquisitors_desc"] = "Afficher les emplacements des inquisiteurs pour le succès {achievement:14276}."
 
-L["broken_mirror"] = nil
-L["broken_mirror_note"] = nil
-L["broken_mirror_crypt"] = nil
-L["broken_mirror_elite"] = nil
-L["broken_mirror_house"] = nil
-L["broken_mirror_61818"] = nil
-L["broken_mirror_61819"] = nil
-L["broken_mirror_61827"] = nil
-L["options_icons_broken_mirror"] = nil
-L["options_icons_broken_mirror_desc"] = nil
+L["broken_mirror"] = "Miroir brisé"
+L["broken_mirror_note"] = "Un groupe de trois miroirs brisés sera actif chaque jour. Utilisez une {item:181363} pour réparer chaque miroir et ouvrir le |cFFFFFD00Coffre oublié|r à l'intérieur."
+L["broken_mirror_crypt"] = "Dans une crypte."
+L["broken_mirror_elite"] = "Dans une petite pièce remplie de monstres élite."
+L["broken_mirror_house"] = "A l'intérieur de la maison."
+L["broken_mirror_61818"] = "Dans une petite pièce avec {npc:173699}."
+L["broken_mirror_61819"] = "Dans une petite pièce au rez-de-chaussée."
+L["broken_mirror_61827"] = "Dans une petite pièce."
+L["options_icons_broken_mirror"] = "Miroirs brisés"
+L["options_icons_broken_mirror_desc"] = "Afficher les emplacements des miroirs brisés."
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
