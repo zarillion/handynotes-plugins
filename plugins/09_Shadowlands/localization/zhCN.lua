@@ -482,16 +482,16 @@ L["inquisitor_note"] = "把100个 {currency:1816} 交给 {npc:160248} 有机会�
 L["options_icons_inquisitors"] = "审判官"
 L["options_icons_inquisitors_desc"] = "显示 {achievement:14276} 成就中审判官的位置。"
 
-L["broken_mirror"] = nil
-L["broken_mirror_note"] = nil
-L["broken_mirror_crypt"] = nil
-L["broken_mirror_elite"] = nil
-L["broken_mirror_house"] = nil
-L["broken_mirror_61818"] = nil
-L["broken_mirror_61819"] = nil
-L["broken_mirror_61827"] = nil
-L["options_icons_broken_mirror"] = nil
-L["options_icons_broken_mirror_desc"] = nil
+L["broken_mirror"] = "残破的镜子"
+L["broken_mirror_note"] = "每天将会激活一组3个残破的镜子。使用一个 {item:181363} 修复每个镜子并打开其中的 |cFFFFFD00被遗忘的宝箱|r。"
+L["broken_mirror_crypt"] = "墓穴内。"
+L["broken_mirror_elite"] = "有精英怪的小房间内。"
+L["broken_mirror_house"] = "房屋内。"
+L["broken_mirror_61818"] = "有 {npc:173699} 的小房间内。"
+L["broken_mirror_61819"] = "小房间内的一层。"
+L["broken_mirror_61827"] = "小房间内。"
+L["options_icons_broken_mirror"] = "残破的镜子"
+L["options_icons_broken_mirror_desc"] = "显示残破的镜子的位置。"
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
