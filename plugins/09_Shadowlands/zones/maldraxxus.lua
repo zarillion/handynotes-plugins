@@ -226,6 +226,7 @@ map.nodes[42465345] = Rare({
 }) -- Smorgas the Feaster
 
 map.nodes[44215132] = Rare({
+    note=L["tahonta_note"],
     id=162586,
     quest=58783,
     rewards={

@@ -334,6 +334,7 @@ L["nirvaska_note"] = "只在世界任務 {wq:死亡宣告} 存在時啟動"
 L["ravenomous_note"] = "踩死此地區中立的 {npc:159901} 直到稀有刷新"
 L["sabriel_note"] = "可以作為苦痛劇場的冠軍之一出現。"
 L["schmitd_note"] = "使用附近的 {spell:313451} 破壞他的護盾。"
+L["tahonta_note"] = nil
 L["taskmaster_xox_note"] = "與 {npc:160204}，{npc:160230} 和 {npc:160226} 共享刷新。"
 L["theater_of_pain_note"] = "你每天第一次殺死首領都會有機會掉落坐騎。"
 L["zargox_the_reborn_note"] = [[

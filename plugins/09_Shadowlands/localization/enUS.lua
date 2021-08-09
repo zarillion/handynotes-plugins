@@ -334,6 +334,7 @@ L["nirvaska_note"] = "Only appears when the {wq:Deadly Reminder} world quest is 
 L["ravenomous_note"] = "Squash {npc:159901s} in the area until the rare spawns."
 L["sabriel_note"] = "Can appear as one of the champions in the Theater of Pain."
 L["schmitd_note"] = "Use nearby {spell:313451} to break his shield."
+L["tahonta_note"] = "The mount only drops if you have {npc:159239} with you!"
 L["taskmaster_xox_note"] = "Shares a spawn with {npc:160204}, {npc:160230} and {npc:160226}."
 L["theater_of_pain_note"] = "Your first boss kill each day has a chance to drop the mount."
 L["zargox_the_reborn_note"] = [[

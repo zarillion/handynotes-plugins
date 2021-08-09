@@ -336,6 +336,7 @@ L["nirvaska_note"] = "N'apparaît que lorsque l'expédition {wq:Rappel Mortel} e
 L["ravenomous_note"] = "Écrasez les {npc:159901s} dans la zone, jusqu'à ce que le rare apparaisse."
 L["sabriel_note"] = "Peut apparaître comme l'un des champions du Théâtre de la souffrance."
 L["schmitd_note"] = "Utilisez la {spell:313451} proche pour briser son bouclier."
+L["tahonta_note"] = nil
 L["taskmaster_xox_note"] = "Partage son apparition avec {npc:160204}, {npc:160230} et {npc:160226}."
 L["theater_of_pain_note"] = "Votre premier boss tué chaque jour a une chance de donner la monture."
 L["zargox_the_reborn_note"] = [[
