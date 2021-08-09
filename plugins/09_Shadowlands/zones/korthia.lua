@@ -456,8 +456,8 @@ map.nodes[62065550] = Treasure({
     label=L["spectral_bound_chest"],
     rlabel=ns.status.LightBlue(L["plus_research"]),
     rewards={
-        Transmog({item=187026, note=L["cosmetic"]}), -- Field Warden's Torture Kit
-        Transmog({item=187240, note=L["cosmetic"]})  -- Field Warden's Watchful Eye
+        Transmog({item=187026, slot=L["cosmetic"]}), -- Field Warden's Torture Kit
+        Transmog({item=187240, slot=L["cosmetic"]})  -- Field Warden's Watchful Eye
     },
     pois={
         POI({50505370, 52305320, 52604970, 54205060, quest=64249}), -- west
@@ -853,9 +853,9 @@ local MawswornC = Class('MawswornC', Treasure, {
     note=L["mawsworn_cache_note"],
     rlabel=ns.status.LightBlue(L["plus_research"]),
     rewards={
-        Transmog({item=187020, note=L["cosmetic"]}), -- Necrobinder's Shoulderpads
-        Transmog({item=187026, note=L["cosmetic"]}), -- Field Warden's Torture Kit
-        Transmog({item=187240, note=L["cosmetic"]}) -- Field Warden's Watchful Eye
+        Transmog({item=187020, slot=L["cosmetic"]}), -- Necrobinder's Shoulderpads
+        Transmog({item=187026, slot=L["cosmetic"]}), -- Field Warden's Torture Kit
+        Transmog({item=187240, slot=L["cosmetic"]}) -- Field Warden's Watchful Eye
     }
 })
 
