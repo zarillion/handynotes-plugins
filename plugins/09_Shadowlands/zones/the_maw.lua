@@ -436,7 +436,7 @@ map.nodes[49307274] = Rare({
     rewards={
         Achievement({id=15107, criteria=52293}),
         Transmog({item=187363, slot=L["polearm"]}), -- Orguluus' Spear
-        Transmog({item=187398, slot=L["leather"]}) -- Chestguard of the Shadeguard
+        Transmog({item=187398, slot=L["leather"]}), -- Chestguard of the Shadeguard
         Toy({item=187174}) -- Shaded Judgment Stone
     },
     rift=2,
