@@ -355,6 +355,7 @@ map.nodes[44604240] = Rare({
     rewards={
         Achievement({id=15107, criteria=52273}),
         Transmog({item=187400, slot=L["cloth"]}), -- Mantle of Screaming Shadows
+        Transmog({item=187362, slot=L["dagger"]}), -- Stinging Shadow Screamer
         Toy({item=187174}) -- Shaded Judgment Stone
     }
 }) -- Screaming Shade
