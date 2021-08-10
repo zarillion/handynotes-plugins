@@ -326,7 +326,8 @@ map.nodes[59335221] = Rare({
     rewards={
         Achievement({id=15107, criteria=52275}),
         Item({item=187401, note=L["ring"]}), -- Band of the Shaded Rift
-        Transmog({item=187396, slot=L["plate"]}) -- Girdle of the Deadsoul
+        Transmog({item=187396, slot=L["plate"]}), -- Girdle of the Deadsoul
+        Toy({item=187174}) -- Shaded Judgment Stone
     }
 }) -- Deadsoul Hatcher
 
@@ -340,7 +341,8 @@ map.nodes[50307590] = Rare({
         Achievement({id=15107, criteria=52294}),
         Item({item=187405, note=L["neck"]}), -- Choker of the Hidden Observer
         Transmog({item=187365, slot=L["1h_axe"]}), -- Rift Splitter
-        Toy({item=187420}) -- Maw-Ocular Viewfinder
+        Toy({item=187420}), -- Maw-Ocular Viewfinder
+        Toy({item=187174}) -- Shaded Judgment Stone
     }
 }) -- Observer Yorik
 
@@ -352,7 +354,8 @@ map.nodes[44604240] = Rare({
     rift=2,
     rewards={
         Achievement({id=15107, criteria=52273}),
-        Transmog({item=187400, slot=L["cloth"]}) -- Mantle of Screaming Shadows
+        Transmog({item=187400, slot=L["cloth"]}), -- Mantle of Screaming Shadows
+        Toy({item=187174}) -- Shaded Judgment Stone
     }
 }) -- Screaming Shade
 
@@ -365,7 +368,8 @@ map.nodes[57607040] = Rare({
     rewards={
         Achievement({id=15107, criteria=52274}),
         Transmog({item=187381, slot=L["leather"]}), -- Rift-Touched Bindings
-        Transmog({item=187383, slot=L["mail"]}) -- Silent Soulstalker Sabatons
+        Transmog({item=187383, slot=L["mail"]}), -- Silent Soulstalker Sabatons
+        Toy({item=187174}) -- Shaded Judgment Stone
     }
 }) -- Silent Soulstalker
 

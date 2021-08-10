@@ -423,7 +423,8 @@ map.nodes[36034433] = Rare({
     rewards={
         Achievement({id=15107, criteria=52297}),
         Item({item=187406, note=L["ring"]}), -- Band of Blinding Shadows
-        Transmog({item=187361, slot=L["bow"]}) -- Rift-Bound Shadow Piercer
+        Transmog({item=187361, slot=L["bow"]}), -- Rift-Bound Shadow Piercer
+        Toy({item=187174}) -- Shaded Judgment Stone
     }
 }) -- Blinding Shadow
 
@@ -464,6 +465,7 @@ map.nodes[27672526] = Rare({
         Transmog({item=187360, slot=L["offhand"]}), -- Orb of Enveloping Rifts
         Transmog({item=187389, slot=L["mail"]}), -- Lord of Shade's Binders
         Toy({item=187139}), -- Bottled Shade Heart
+        Toy({item=187174}), -- Shaded Judgment Stone
         Item({item=186605, bag=true, IsEnabled=NilgEnabled}) -- Nilganihmaht's Runed Band
     }
 }) -- Torglluun
