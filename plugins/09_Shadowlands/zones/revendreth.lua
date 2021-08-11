@@ -1154,7 +1154,7 @@ for i=1,4 do
             icon=MIRROR_ICONS[i],
             quest=mirror.quest,
             fgroup='broken_mirror_'..i,
-            rlabel=ns.GetIconLink(VENTHYR.icon, 13),
+            rlabel='('..L["broken_mirror_group"]..' '..i..') '..ns.GetIconLink(VENTHYR.icon, 13),
             note=mirror.note..'\n\n'..L["broken_mirror_note"]
         })
     end
