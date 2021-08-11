@@ -1,3 +1,14 @@
+# v38
+
+* Added a couple missing Anima Vessel locations.
+* Added a node to track tormentor rewards in the Maw.
+* Added a note for Tahonta (sorry Necrolords who were killing it without Neena out!).
+* Added a number of missing transmog drops in Korthia.
+* Added broken mirror locations for Venthyr players.
+* Korthian shrines now appear on alts that can collect them.
+* Improved the tracking of transmog rewards. Appearances known from other items are now recognized.
+* Transmogs for other classes are now hidden by default. The "Show unobtainable transmog" option has been added to restore the previous functionality.
+
 # v37
 
 * Added 5th Ve'rayn POI in the southern vault area.
