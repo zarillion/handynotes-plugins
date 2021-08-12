@@ -334,7 +334,7 @@ L["nirvaska_note"] = "只在世界任務 {wq:死亡宣告} 存在時啟動"
 L["ravenomous_note"] = "踩死此地區中立的 {npc:159901} 直到稀有刷新"
 L["sabriel_note"] = "可以作為苦痛劇場的冠軍之一出現。"
 L["schmitd_note"] = "使用附近的 {spell:313451} 破壞他的護盾。"
-L["tahonta_note"] = nil
+L["tahonta_note"] = "此坐騎只有當 {npc:159239} 和你在一起時會掉落"
 L["taskmaster_xox_note"] = "與 {npc:160204}，{npc:160230} 和 {npc:160226} 共享刷新。"
 L["theater_of_pain_note"] = "你每天第一次殺死首領都會有機會掉落坐騎。"
 L["zargox_the_reborn_note"] = [[
@@ -483,17 +483,17 @@ L["inquisitor_note"] = "把100個 {currency:1816} 交給 {npc:160248} 有機會�
 L["options_icons_inquisitors"] = "{achievement:14276}"
 L["options_icons_inquisitors_desc"] = "顯示 {achievement:14276} 成就中審判官的位置。"
 
-L["broken_mirror"] = nil
-L["broken_mirror_note"] = nil
-L["broken_mirror_crypt"] = nil
-L["broken_mirror_elite"] = nil
-L["broken_mirror_group"] = nil
-L["broken_mirror_house"] = nil
-L["broken_mirror_61818"] = nil
-L["broken_mirror_61819"] = nil
-L["broken_mirror_61827"] = nil
-L["options_icons_broken_mirror"] = nil
-L["options_icons_broken_mirror_desc"] = nil
+L["broken_mirror"] = "破損的鏡子"
+L["broken_mirror_note"] = "每天會有三個為一組的破損的鏡子被啟動. 使用 {item:181363} 來維修每一個鏡子並且可以打開裡面的 |cFFFFFD00被遺忘的箱子|r"
+L["broken_mirror_crypt"] = "在墓穴內"
+L["broken_mirror_elite"] = "在有菁英怪的小房間內"
+L["broken_mirror_group"] = "組"
+L["broken_mirror_house"] = "在房子內"
+L["broken_mirror_61818"] = "在有{npc:173699}的小房間內"
+L["broken_mirror_61819"] = "在一個小房間內的一樓"
+L["broken_mirror_61827"] = "在一個小房間內"
+L["options_icons_broken_mirror"] = "破損的鏡子"
+L["options_icons_broken_mirror_desc"] = "顯示破損的鏡子的位置"
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
