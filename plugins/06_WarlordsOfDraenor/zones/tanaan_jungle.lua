@@ -14,6 +14,7 @@ local Mount = ns.reward.Mount
 local Toy = ns.reward.Toy
 
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -105,3 +106,39 @@ map.nodes[88005580] = Rare({
         Toy({item=108634}), -- Crashin' Thrashin' Mortar Controller
     }
 }) -- Smashum Grabb
+
+map.nodes[31507350] = Rare({
+    id=90429,
+    rewards={
+        Toy({item=127655}), -- Sassy Imp
+    }
+}) -- Imp-Master Valessa
+
+map.nodes[35607990] = Rare({
+    id=93076,
+    note=L["in_cave"],
+    rewards={
+        Item({item=128257, quest=39365}), -- Equipment Blueprint: Ghostly Spyglass
+        Toy({item=127659}), -- Ghostly Iron Buccaneer's Hat
+    },
+    pois={
+        POI({37507600}) -- Entrance
+    }
+}) -- Captain Ironbeard
+
+map.nodes[40706980] = Rare({
+    id=91093,
+    rewards={
+        Toy({item=127652}), -- Felflame Campfire
+    }
+}) -- Bramblefell
+
+map.nodes[22003780] = Rare({
+    id=90777,
+    rewards={
+        Toy({item=122117}), -- Cursed Feather of Ikzan
+    },
+    pois={
+        Path({22604000, 20804160, 20803760, 22003780, 22604000})
+    }
+}) -- High Priest Ikzan
