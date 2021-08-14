@@ -11,6 +11,7 @@ local Rare = ns.node.Rare
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
+local Toy = ns.reward.Toy
 
 local Path = ns.poi.Path
 
@@ -80,3 +81,27 @@ map.nodes[32607400] = Rare({
         Mount({item=116780, id=643}) -- Warsong Direfang
     }
 }) -- Vengeance
+
+map.nodes[83604360] = Rare({
+    id=98283,
+    note=L["iron_armada_note"],
+    rewards={
+        Toy({item=108631}), -- Crashin' Thrashin' Roller Controller
+    }
+}) -- Drakum
+
+map.nodes[80605640] = Rare({
+    id=98284,
+    note=L["iron_armada_note"],
+    rewards={
+        Toy({item=108633}), -- Crashin' Thrashin' Cannon Controller
+    }
+}) -- Gondar
+
+map.nodes[88005580] = Rare({
+    id=98285,
+    note=L["iron_armada_note"],
+    rewards={
+        Toy({item=108634}), -- Crashin' Thrashin' Mortar Controller
+    }
+}) -- Smashum Grabb
