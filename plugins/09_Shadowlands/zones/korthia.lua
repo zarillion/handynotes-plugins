@@ -980,7 +980,7 @@ for _, coord in ipairs(GRAPPLES) do
         id=178546,
         questDeps==63713,
         scale=1.25,
-	    pois={Line({44005880, 43806290})}	
+        pois={Line({44005880, 43806290})}	
     })
 end
 ]]
