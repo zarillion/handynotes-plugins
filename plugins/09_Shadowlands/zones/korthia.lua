@@ -963,3 +963,24 @@ local dusklight = Class('Dusklight', Collectible, {
 })() -- Razorwing Nest
 
 map.nodes[25725108] = dusklight
+
+--[[
+-------------------------------------------------------------------------------
+---------------------------------- GRAPPLES -----------------------------------
+-------------------------------------------------------------------------------
+
+local GRAPPLES = {
+    34503570, 29803410, 25503730, 28003980, 29804420, 44005880, 43806290
+}
+
+for _, coord in ipairs(GRAPPLES) do
+    map.nodes[coord] = NPC({
+        group=ns.groups.GRAPPLES,
+        icon='peg_bk',
+        id=178546,
+        questDeps==63713,
+        scale=1.25,
+	    pois={Line({44005880, 43806290})}	
+    })
+end
+]]
