@@ -250,7 +250,7 @@ end
 
 function MinimapDataProvider:OnUpdate()
     local facing = GetPlayerFacing()
-    if facing ~= self.facing then
+    if facing and facing ~= self.facing then
         self.facing = facing
         self:RefreshAllRotations()
         self.updateTimer = 0
@@ -280,7 +280,7 @@ end
 function MinimapPinMixin:UpdateRotation()
     -- If the pin has a rotation, its original value will be stored in the
     -- `rotation` attribute. Update to accommodate player facing.
-    if self.rotation == nil then return end
+    if self.rotation == nil or self.provider.facing == nil then return end
     self.texture:SetRotation(self.rotation + math.pi*2 - self.provider.facing)
 end
 
