@@ -1,4 +1,4 @@
--- @todo Treasures, Predator FOS, Pets
+-- @todo Treasures, Pets
 
 -------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
@@ -740,6 +740,22 @@ map.nodes[47005260] = Rare({
         Mount({item=116780, id=643}) -- Warsong Direfang
     }
 }) -- Doomroller
+
+map.nodes[69603820] = Rare({
+    id=96235,
+    requires={
+        ns.requirement.Achievement(10070), -- Jungle Stalker
+        ns.requirement.Reputation(1849, 8) -- Order of the Awakened (Exalted)
+    },
+    note=L["xemirkol_note"],
+    rewards={
+        Achievement({id=10334}),
+    },
+    pois={
+        POI({60404660}), -- Vendor Horde
+        POI({57805940}) -- Vendor Alliance
+    }
+}) -- Xemirkol
 
 map.nodes[83604360] = Rare({
     id=98283,

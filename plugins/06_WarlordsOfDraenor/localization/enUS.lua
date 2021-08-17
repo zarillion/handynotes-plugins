@@ -38,3 +38,10 @@ Collect 10 stacks of {spell:183612} debuff.
 
 You can get debuff by using {npc:92651}  or by finding {npc:92645} (100% chance).
 ]]
+L["xemirkol_note"] = [[
+Buy {item:128502} or {item:128503} from {npc:95424} and use it at spawn point to get teleported to {npc:96235}.
+
+Crystals teleport you to random rare in vicinity, so best chance is to kill {npc:92887} and use {item:128502}.
+
+{npc:96235} has long respawn timer (around a day) and best way to get it is after realm restart or by using server jump.
+]]

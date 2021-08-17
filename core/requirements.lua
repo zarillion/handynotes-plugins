@@ -22,6 +22,23 @@ function Requirement:GetText() return self.text end
 function Requirement:IsMet() return false end
 
 -------------------------------------------------------------------------------
+--------------------------------- ACHIEVEMENT ---------------------------------
+-------------------------------------------------------------------------------
+
+local Achievement = Class('Achievement', Requirement)
+
+function Achievement:Initialize(id)
+    self.id = id
+    self.text = string.format('{achievement:%d}', self.id)
+end
+
+function Achievement:IsMet()
+    local _, _, _, completed = GetAchievementInfo(self.id)
+
+    return completed
+end
+
+-------------------------------------------------------------------------------
 ---------------------------------- CURRENCY -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -55,6 +72,29 @@ end
 function GarrisonTalent:IsMet()
     local info = C_Garrison.GetTalentInfo(self.id)
     return info and info.researched
+end
+
+-------------------------------------------------------------------------------
+--------------------------------- REPUTATION ----------------------------------
+-------------------------------------------------------------------------------
+
+local Reputation = Class('Reputation', Requirement)
+
+-- @todo will cause problems when requiring lower / negative reputations. Maybe add comparison as optional parameter with default value '>='.
+function Reputation:Initialize(id, level)
+    self.id, self.level = id, level
+end
+
+function Reputation:GetText()
+    local name = GetFactionInfoByID(self.id)
+
+    return string.format(name .. ' (' .. GetText('FACTION_STANDING_LABEL' .. self.level) .. ')')
+end
+
+function Reputation:IsMet()
+    local _, _, standingID = GetFactionInfoByID(self.id)
+
+    return standingID >= self.level
 end
 
 -------------------------------------------------------------------------------
@@ -107,10 +147,12 @@ local WarMode = Class('WarMode', Requirement, {
 -------------------------------------------------------------------------------
 
 ns.requirement = {
+    Achievement=Achievement,
     Currency=Currency,
     GarrisonTalent=GarrisonTalent,
     Item=Item,
     Requirement=Requirement,
+    Reputation=Reputation,
     Spell=Spell,
     WarMode=WarMode
 }
