@@ -75,6 +75,43 @@ function GarrisonTalent:IsMet()
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ ITEM -------------------------------------
+-------------------------------------------------------------------------------
+
+local Item = Class('Item', Requirement)
+
+function Item:Initialize(id, count)
+    self.id, self.count = id, count
+    self.text = string.format('{item:%d}', self.id)
+    if self.count and self.count > 1 then
+        self.text = self.text..' x'..self.count
+    end
+end
+
+function Item:IsMet()
+    return ns.PlayerHasItem(self.id, self.count)
+end
+
+-------------------------------------------------------------------------------
+------------------------------------ QUEST ------------------------------------
+-------------------------------------------------------------------------------
+
+local Quest = Class('Quest', Requirement)
+
+function Quest:Initialize(id)
+    self.id = id
+end
+
+function Quest:GetText()
+    local name = C_QuestLog.GetTitleForQuestID(self.id)
+    return self.text:format(name)
+end
+
+function Quest:IsMet()
+    return C_QuestLog.IsQuestFlaggedCompleted(self.id)
+end
+
+-------------------------------------------------------------------------------
 --------------------------------- REPUTATION ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -95,24 +132,6 @@ function Reputation:IsMet()
     local _, _, standingID = GetFactionInfoByID(self.id)
 
     return standingID >= self.level
-end
-
--------------------------------------------------------------------------------
------------------------------------- ITEM -------------------------------------
--------------------------------------------------------------------------------
-
-local Item = Class('Item', Requirement)
-
-function Item:Initialize(id, count)
-    self.id, self.count = id, count
-    self.text = string.format('{item:%d}', self.id)
-    if self.count and self.count > 1 then
-        self.text = self.text..' x'..self.count
-    end
-end
-
-function Item:IsMet()
-    return ns.PlayerHasItem(self.id, self.count)
 end
 
 -------------------------------------------------------------------------------
@@ -151,8 +170,9 @@ ns.requirement = {
     Currency=Currency,
     GarrisonTalent=GarrisonTalent,
     Item=Item,
-    Requirement=Requirement,
+    Quest=Quest,
     Reputation=Reputation,
+    Requirement=Requirement,
     Spell=Spell,
     WarMode=WarMode
 }

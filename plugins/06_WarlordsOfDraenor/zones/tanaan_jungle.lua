@@ -9,10 +9,12 @@ local L = ns.locale
 local Map = ns.Map
 
 local Rare = ns.node.Rare
+local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
+local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -22,6 +24,19 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = Map({ id=534, settings=true })
+
+-- Quest Requirements for Treasures (Tanaan Campaign).
+if UnitFactionGroup('player') == 'Alliance' then
+    local requiredQuests = {
+        ['bleeding hollow'] = 38560, -- Garrison Campaign: The Bane of the Bleeding Hollow
+        ['cipher of damnation'] = 39394 -- The Cipher of Damnation
+    }
+else
+    local requiredQuests = {
+        ['bleeding hollow'] = 38453, -- Garrison Campaign: The Bane of the Bleeding Hollow
+        ['cipher of damnation'] = 38463 -- The Cipher of Damnation
+    }
+end
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -80,9 +95,10 @@ map.nodes[31207220] = Rare({
 map.nodes[30906800] = Rare({
     id=90434,
     quest=38031,
-    note=L["in_cave"],
+    note=L["in_cave"]..' '..L["ceraxas_note"],
     rewards={
         Achievement({id=10070, criteria=28336}),
+        Pet({item=129205, id=1660}) -- Fel Pup
     }
 }) -- Ceraxas
 
@@ -514,6 +530,7 @@ map.nodes[34407260] = Rare({
 map.nodes[53908080] = Rare({
     id=92766,
     quest=39399,
+    requires=ns.requirement.Item(124093),
     note=L["akrrilo_note"],
     rewards={
         Achievement({id=10070, criteria=28373})
@@ -526,6 +543,7 @@ map.nodes[53908080] = Rare({
 map.nodes[54408130] = Rare({
     id=92817,
     quest=39400,
+    requires=ns.requirement.Item(124094),
     note=L["rendarr_note"],
     rewards={
         Achievement({id=10070, criteria=28374})
@@ -538,6 +556,7 @@ map.nodes[54408130] = Rare({
 map.nodes[54408040] = Rare({
     id=92819,
     quest=39379,
+    requires=ns.requirement.Item(124095),
     note=L["eyepiercer_note"],
     rewards={
         Achievement({id=10070, criteria=28375})
@@ -783,3 +802,18 @@ map.nodes[88005580] = Rare({
         Toy({item=108634}), -- Crashin' Thrashin' Mortar Controller
     }
 }) -- Smashum Grabb
+
+-------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[31503110] = Treasure({
+    quest=38732,
+    label=L["jeweled_arakkoa_effigy_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=127413}) -- Jeweled Arakkoa Effigy
+    }
+}) -- Jeweled Arakkoa Effigy
