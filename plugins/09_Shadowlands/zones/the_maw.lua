@@ -497,21 +497,6 @@ ext.nodes[62263305] = Treasure({
     parent=map.id
 }) -- Hidden Anima Cache
 
-map.nodes[23184238] = Treasure({
-    quest=64000,
-    requires=ns.requirement.Item(186190),
-    label=L["etherwyrm_label"],
-    note=L["etherwyrm_note"],
-    assault=NIGHTFAE,
-    rift=2,
-    rewards={
-        Pet({item=186191, id=3099}) -- Infused Etherwyrm
-    },
-    pois={
-        POI({19214376, 19903240, 23604040}) -- Elusive Keybinder
-    }
-}) -- Infused Etherwyrm
-
 map.nodes[66526129] = Treasure({
     quest=64261,
     note=L["in_cave"],
@@ -520,24 +505,6 @@ map.nodes[66526129] = Treasure({
         Item({item=187352, note=L["neck"]}) -- Jeweled Heart of Ezekiel
     }
 }) -- Jeweled Heart
-
-map.nodes[36506740] = Treasure({
-    label='{item:186188}',
-    note=L['lilabom_note'],
-    quest={64008, 64009, 64010, 64011, 64013},
-    rewards={
-        Pet({item=186188, id=3098}) -- Lil'Abom
-    },
-    pois={
-        POI({27505670, 30306330, 32215608, quest=64010}), -- Head
-        POI({39906260, quest=64011}), -- Torso
-        POI({29376732, quest=64013}), -- Legs
-        POI({38505850, quest=64008}), -- Right Hand
-        Path({38505850, 37855857, 37465904, 37295959, 37336038, 37456122, quest=64008}), -- Right Hand
-        Arrow({37456122, 37806250, quest=64008}), -- Right Hand
-        POI({33306580, 39286648, quest=64009}) -- Spare Arm
-    }
-}) -- Lil'Abom
 
 -------------------------------------------------------------------------------
 
@@ -1457,10 +1424,44 @@ map.nodes[85375524] = Class('Tormentor', ns.node.Node, {
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[42164448] = NPC({
+map.nodes[23184238] = Collectible({
+    id=179038,
+    quest=64000,
+    icon=3046536,
+    requires=ns.requirement.Item(186190),
+    note=L["etherwyrm_note"],
+    assault=NIGHTFAE,
+    rift=2,
+    rewards={
+        Pet({item=186191, id=3099}) -- Infused Etherwyrm
+    },
+    pois={
+        POI({19214376, 19903240, 23604040}) -- Elusive Keybinder
+    }
+}) -- Infused Etherwyrm
+
+map.nodes[36506740] = Collectible({
+    id=179008,
+    icon=3622121,
+    quest={64008, 64009, 64010, 64011, 64013},
+    note=L['lilabom_note'],
+    rewards={
+        Pet({item=186188, id=3098}) -- Lil'Abom
+    },
+    pois={
+        POI({27505670, 30306330, 32215608, quest=64010}), -- Head
+        POI({39906260, quest=64011}), -- Torso
+        POI({29376732, quest=64013}), -- Legs
+        POI({38505850, quest=64008}), -- Right Hand
+        Path({38505850, 37855857, 37465904, 37295959, 37336038, 37456122, quest=64008}), -- Right Hand
+        Arrow({37456122, 37806250, quest=64008}), -- Right Hand
+        POI({33306580, 39286648, quest=64009}) -- Spare Arm
+    }
+}) -- Lil'Abom
+
+map.nodes[42164448] = Collectible({
     id=179083,
-    quest={64019, 64023},
-    questAny=true,
+    quest=64019,
     icon=3072461,
     note=L["sly_note"],
     assault=KYRIAN,
