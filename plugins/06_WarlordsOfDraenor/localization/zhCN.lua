@@ -36,6 +36,7 @@ L["akrrilo_note"] = nil
 L["rendarr_note"] = nil
 L["eyepiercer_note"] = nil
 L["the_night_haunter_note"] = nil
+L["xemirkol_note"] = nil
 L["discarded_helm_treasure"] = nil
 L["weathered_axe_treasure"] = nil
 L["axe_of_the_weeping_wolf_treasure"] = nil
