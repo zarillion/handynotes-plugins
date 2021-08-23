@@ -1,4 +1,4 @@
--- @todo Treasures, Pets
+-- @todo Battle Pets
 
 -------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
@@ -26,15 +26,15 @@ local POI = ns.poi.POI
 local map = Map({ id=534, settings=true })
 
 -- Quest Requirements for Treasures (Tanaan Campaign).
+local requiredQuests = {
+    ['bleeding hollow'] = 38453, -- Garrison Campaign: The Bane of the Bleeding Hollow
+    ['cipher of damnation'] = 38463 -- The Cipher of Damnation
+}
+
 if UnitFactionGroup('player') == 'Alliance' then
-    local requiredQuests = {
+     requiredQuests = {
         ['bleeding hollow'] = 38560, -- Garrison Campaign: The Bane of the Bleeding Hollow
         ['cipher of damnation'] = 39394 -- The Cipher of Damnation
-    }
-else
-    local requiredQuests = {
-        ['bleeding hollow'] = 38453, -- Garrison Campaign: The Bane of the Bleeding Hollow
-        ['cipher of damnation'] = 38463 -- The Cipher of Damnation
     }
 end
 
@@ -807,6 +807,300 @@ map.nodes[88005580] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[36304340] = Treasure({
+    quest=37956,
+    label=L["strange_sapphire_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=127397, note=L["trinket"]}) -- Splendid Skettis Sapphire
+    }
+}) -- Strange Sapphire
+
+map.nodes[15904970] = Treasure({
+    quest = 38208,
+    label = L["weathered_axe_treasure"],
+    note = L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127324, slot=L["1h_axe"]}) -- Weathered Memento Axe
+    },
+    pois={
+        POI({17105080}) -- Entrance
+    }
+}) -- Weathered Axe
+
+map.nodes[17005290] = Treasure({
+    quest=38283,
+    label=L["stolen_captains_chest_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Stolen Captain's Chest
+
+map.nodes[19304090] = Treasure({
+    quest=38320,
+    label=L["the_blade_of_kranak_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127338, slot=L["1h_sword"]}) -- Guardian Swiftblade of Kra'nak
+    }
+}) -- The Blade of Kra'nak
+
+map.nodes[28702330] = Treasure({
+    quest=38334,
+    label=L["jewel_of_hellfire_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Toy({item=127668}) -- Jewel of Hellfire
+    }
+}) -- Jewel of Hellfire
+
+map.nodes[32407050] = Treasure({
+    quest=38426,
+    label=L["tome_of_secrets_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Toy({item=127670}) -- Accursed Tome of the Sargerei
+    }
+}) -- Tome of Secrets
+
+map.nodes[56906510] = Treasure({
+    quest=38591,
+    label=L["forgotten_sack_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Forgotten Sack
+
+map.nodes[54806930] = Treasure({
+    quest=38593,
+    label=L["lodged_hunting_spear_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127334, slot=L["polearm"]}) -- Ravager Hunting Spear
+    }
+}) -- Lodged Hunting Spear
+
+map.nodes[61207570] = Treasure({
+    quest=38601,
+    label=L["blackfang_island_cache_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Blackfang Island Cache
+
+map.nodes[62007080] = Treasure({
+    quest=38602,
+    label=L["crystallized_fel_spike_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=128217, note=L["trinket"]}) -- Fel Shard
+    }
+}) -- Crystallized Fel Spike
+
+map.nodes[30507200] = Treasure({
+    quest=38629,
+    label=L["polished_crystal_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=127389}) -- Polished Crystal
+    }
+}) -- Polished Crystal
+
+map.nodes[40607980] = Treasure({
+    quest=38638,
+    label=L["snake_charmers_flute_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127333, slot=L["2h_mace"]}) -- Ogra'mal Snake Charming Flute
+    }
+}) -- Snake Charmer's Flute
+
+map.nodes[40807550] = Treasure({
+    quest=38639,
+    label=L["the_perfect_blossom_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Toy({item=127766}) -- The Perfect Blossom
+    }
+}) -- The Perfect Blossom
+
+map.nodes[37104620] = Treasure({
+    quest=38640,
+    label=L["pale_removal_equipment_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    },
+    pois={
+    POI({38604420}) -- Entrance
+}
+}) -- Pale Removal Equipment
+
+map.nodes[41507340] = Treasure({
+    quest=38657,
+    label=L["forgotten_champions_blade_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127339, slot=L["2h_sword"]}) -- Forgotten Champion's Blade
+    }
+}) -- Forgotten Champion's Blade
+
+map.nodes[20004780] = Treasure({
+    quest=38678,
+    label=L["bleeding_hollow_warchest_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Bleeding Hollow Warchest
+
+map.nodes[58502540] = Treasure({
+    quest=38679,
+    label=L["jewel_of_the_fallen_star_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Jewel of the Fallen Star
+
+map.nodes[62502060] = Treasure({
+    quest=38682,
+    label=L["censer_of_torment_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=127401, note=L["trinket"]}) -- Tormented Skull
+    }
+}) -- Censer of Torment
+
+map.nodes[26804420] = Treasure({
+    quest=38683,
+    label=L["looted_bleeding_hollow_treasure_treasure"],
+    requires=ns.requirement.Quest(requiredQuests['bleeding hollow']),
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Toy({item=127709}) -- Throbbing Blood Orb
+    }
+}) -- Looted Bleeding Hollow Treasure
+
+map.nodes[51802430] = Treasure({
+    quest=38686,
+    label=L["rune_etched_femur_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127341, slot=L["wand"]}) -- Rune-Etched Femur
+    }
+}) -- Rune Etched Femur
+
+map.nodes[64504210] = Treasure({
+    quest=38701,
+    label=L["strange_fruit_treasure"],
+    note=L["strange_fruit_note"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=127396}), -- Strange Fruit
+        Toy({item=127394}) -- Podling Camouflage
+    }
+}) -- Strange Fruit
+
+map.nodes[50008120] = Treasure({
+    quest=38702,
+    label=L["discarded_helm_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127312, slot=L["mail"]}) -- Fallen Adventurer's Helm
+    },
+    pois={
+        POI({51207960}) -- Entrance
+    }
+}) -- Discarded Helm
+
+map.nodes[50007970] = Treasure({
+    quest=38703,
+    label=L["scouts_belongings_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127354, slot=L["cloak"]}) -- Scout's Spy Cloak
+    }
+}) -- Scout's Belongings
+
+map.nodes[69705600] = Treasure({
+    quest=38704,
+    label=L["forgotten_iron_horde_supplies_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Forgotten Iron Horde Supplies
+
+map.nodes[48007040] = Treasure({
+    quest=38705,
+    label=L["crystallized_essence_of_the_elements_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127329, slot=L["fist"]}) -- Element-Infused Knuckles
+    }
+}) -- Crystallized Essence of the Elements
+
+map.nodes[50906490] = Treasure({
+    quest=38731,
+    label=L["overgrown_relic_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=127412, note=L["ring"]}) -- Luminous Relic Ring
+    }
+}) -- Overgrown Relic
+
 map.nodes[31503110] = Treasure({
     quest=38732,
     label=L["jeweled_arakkoa_effigy_treasure"],
@@ -817,3 +1111,319 @@ map.nodes[31503110] = Treasure({
         Item({item=127413}) -- Jeweled Arakkoa Effigy
     }
 }) -- Jeweled Arakkoa Effigy
+
+map.nodes[25305020] = Treasure({
+    quest=38735,
+    label=L["borrowed_enchanted_spyglass_treasure"],
+    note=L["tower_chest_note"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=128222, note=L["trinket"]}) -- Smokeglass Lens Spyglass
+    }
+}) -- "Borrowed" Enchanted Spyglass
+
+map.nodes[46307270] = Treasure({
+    quest=38739,
+    label=L["mysterious_corrupted_obelist_treasure"],
+    note=L["in_cave"],
+    requires=ns.requirement.Quest(requiredQuests['cipher of damnation']),
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=128320}) -- Corrupted Primal Obelisk
+    },
+    pois={
+        POI({47307070}) -- Entrance
+    }
+}) -- Mysterious Corrupted Obelisk
+
+map.nodes[63302810] = Treasure({
+    quest=38740,
+    label=L["forgotten_shard_of_the_cipher_treasure"],
+    requires=ns.requirement.Quest(requiredQuests['cipher of damnation']),
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Pet({item=128309, id=1690}) -- Shard of Cyrukh
+    }
+}) -- Forgotten Shard of the Cipher
+
+map.nodes[26506290] = Treasure({
+    quest=38741,
+    label=L["looted_bleeding_hollow_treasure_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Looted Bleeding Hollow Treasure
+
+map.nodes[34703470] = Treasure({
+    quest=38742,
+    label=L["skull_of_the_mad_chief_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Toy({item=127669}) -- Skull of the Mad Chief
+    },
+    pois={
+        POI({32503730}) -- Entrance
+    }
+}) -- Skull of the Mad Chief
+
+map.nodes[15505440] = Treasure({
+    quest=38754,
+    label=L["axe_of_the_weeping_wolf_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127325, slot=L["2h_axe"]}) -- Axe of the Weeping Wolf
+    }
+}) -- Axe of the Weeping Wolf
+
+map.nodes[17305700] = Treasure({
+    quest=38755,
+    label=L["spoils_of_war_treasure"],
+    note=L["spoils_of_war_note"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Spoils of War
+
+map.nodes[16005940] = Treasure({
+    quest=38757,
+    label=L["the_eye_of_grannok_treasure"],
+    note=L["the_eye_of_grannok_note"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=128220, note=L["trinket"]}) -- Grannok's Lidless Eye
+    },
+    pois={
+        POI({16405860}) -- Entrance
+    }
+}) -- The Eye of Grannok
+
+map.nodes[35907860] = Treasure({
+    quest=38758,
+    label=L["ironbeards_treasure_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    },
+    pois={
+        POI({37607590}) -- Entrance
+    }
+}) -- Ironbeard's Treasure
+
+map.nodes[33907810] = Treasure({
+    quest=38760,
+    label=L["stashed_iron_sea_booty_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    },
+    pois={
+        POI({37607590}) -- Entrance
+    }
+}) -- Stashed Iron Sea Booty
+
+map.nodes[35007720] = Treasure({
+    quest=38761,
+    label=L["stashed_iron_sea_booty_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    },
+    pois={
+        POI({37607590}) -- Entrance
+    }
+}) -- Stashed Iron Sea Booty
+
+map.nodes[34507830] = Treasure({
+    quest=38762,
+    label=L["stashed_iron_sea_booty_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    },
+    pois={
+        POI({37607590}) -- Entrance
+    }
+}) -- Stashed Iron Sea Booty
+
+map.nodes[46903670] = Treasure({
+    quest=38771,
+    label=L["book_of_zyzzix_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127347, slot=L["offhand"]}) -- Resonating Tome of Zyzzix
+    }
+}) -- Book of Zyzzix
+
+map.nodes[46904440] = Treasure({
+    quest=38773,
+    label=L["fel_drenched_satchel_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=128218, slot=L["cosmetic"]}) -- Fel-Proof Goggles
+    }
+}) -- Fel-Drenched Satchel
+
+map.nodes[46804210] = Treasure({
+    quest=38776,
+    label=L["sacrificial_blade_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127328, slot=L["dagger"]}) -- Feltwisted Sacrificial Blade
+    }
+}) -- Sacrificial Blade
+
+map.nodes[73604320] = Treasure({
+    quest=38779,
+    label=L["stashed_bleeding_hollow_loot_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Stashed Bleeding Hollow Loot
+
+map.nodes[37808080] = Treasure({
+    quest=38788,
+    label=L["brazier_of_awakening_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=127770}) -- Brazier of Awakening
+    }
+}) -- Brazier of Awakening
+
+map.nodes[49907680] = Treasure({
+    quest=38809,
+    label=L["bleeding_hollow_mushroom_stash_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Toy({item=128223}) -- Bottomless Stygana Mushroom Brew
+    },
+    pois={
+        POI({44607750}) -- Entrance
+    }
+}) -- Bleeding Hollow Mushroom Stash
+
+map.nodes[48607530] = Treasure({
+    quest=38814,
+    label=L["looted_mystical_staff_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127337, slot=L["staff"]}) -- Emanating Staff of Shadow
+    },
+    pois={
+        POI({44607750}) -- Entrance
+    }
+}) -- Looted Mystical Staff
+
+map.nodes[43203830] = Treasure({
+    quest=38821,
+    label=L["the_commanders_shield_treasure"],
+    note=L["the_commanders_shield_note"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=127348, slot=L["shield"]}) -- Commander's Citadel Shield
+    },
+    pois={
+        POI({42203780}) -- Entrance
+    }
+}) -- The Commander's Shield
+
+map.nodes[42903530] = Treasure({
+    quest=38822,
+    label=L["dazzling_rod_treasure"],
+    note=L["tower_chest_note"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Toy({item=127859}) -- Dazzling Rod
+    },
+    pois={
+        POI({43003580}) -- Entrance
+    }
+}) -- Dazzling Rod
+
+map.nodes[28903460] = Treasure({
+    quest=38863,
+    label=L["partially_mined_apexis_crystal_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    },
+    pois={
+        POI({29203460}) -- Entrance
+    }
+}) -- Partially Mined Apexis Crystal
+
+map.nodes[51603250] = Treasure({
+    quest=39075,
+    label=L["fel_tainted_apexis_formation_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Fel-Tainted Apexis Formation
+
+map.nodes[65908500] = Treasure({
+    quest=39469,
+    label=L["bejeweled_egg_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Bejeweled Egg
+
+map.nodes[55009070] = Treasure({
+    quest=39470,
+    label=L["dead_mans_chest_treasure"],
+    rewards={
+        Achievement({id=10262, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Dead Man's Chest

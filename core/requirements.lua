@@ -103,8 +103,7 @@ function Quest:Initialize(id)
 end
 
 function Quest:GetText()
-    local name = C_QuestLog.GetTitleForQuestID(self.id)
-    return self.text:format(name)
+    return C_QuestLog.GetTitleForQuestID(self.id)
 end
 
 function Quest:IsMet()
