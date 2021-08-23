@@ -56,6 +56,7 @@ read_globals = {
     'GetPlayerFacing',
     'GetQuestObjectiveInfo',
     'GetSpellInfo',
+    'GetText'.
     'GetTime',
     'IsAddOnLoaded',
     'IsLeftAltKeyDown',
