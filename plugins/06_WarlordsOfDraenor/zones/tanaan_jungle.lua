@@ -1,5 +1,3 @@
--- @todo Battle Pets
-
 -------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
@@ -8,6 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -1427,3 +1426,116 @@ map.nodes[55009070] = Treasure({
         }})
     }
 }) -- Dead Man's Chest
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[26103160] = PetBattle({
+    id=94601,
+    rewards={
+        Achievement({id=10052, criteria=28796})
+    }
+}) -- Felsworn Sentry
+
+map.nodes[53106520] = PetBattle({
+    id=94637,
+    rewards={
+        Achievement({id=10052, criteria=28797})
+    }
+}) -- Corrupted Thundertail
+
+map.nodes[25107620] = PetBattle({
+    id=94638,
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=10052, criteria=28798})
+    },
+    pois={
+        POI({29607060}) -- Entrance
+    }
+}) -- Chaos Pup
+
+map.nodes[31403810] = PetBattle({
+    id=94639,
+    rewards={
+        Achievement({id=10052, criteria=28799})
+    }
+}) -- Cursed Spirit
+
+map.nodes[55908080] = PetBattle({
+    id=94640,
+    rewards={
+        Achievement({id=10052, criteria=28800})
+    }
+}) -- Felfly
+
+map.nodes[43208450] = PetBattle({
+    id=94641,
+    rewards={
+        Achievement({id=10052, criteria=28801})
+    }
+}) -- Tainted Maulclaw
+
+map.nodes[57703740] = PetBattle({
+    id=94642,
+    rewards={
+        Achievement({id=10052, criteria=28802})
+    }
+}) -- Direflame
+
+map.nodes[42307180] = PetBattle({
+    id=94643,
+    rewards={
+        Achievement({id=10052, criteria=28803})
+    }
+}) -- Mirecroak
+
+map.nodes[54002990] = PetBattle({
+    id=94644,
+    rewards={
+        Achievement({id=10052, criteria=28804})
+    }
+}) -- Dark Gazer
+
+map.nodes[16004480] = PetBattle({
+    id=94645,
+    rewards={
+        Achievement({id=10052, criteria=28805})
+    }
+}) -- Bleakclaw
+
+map.nodes[44004570] = PetBattle({
+    id=94646,
+    rewards={
+        Achievement({id=10052, criteria=28806})
+    }
+}) -- Vile Blood of Draenor
+
+map.nodes[46405300] = PetBattle({
+    id=94647,
+    rewards={
+        Achievement({id=10052, criteria=28807})
+    }
+}) -- Dreadwalker
+
+map.nodes[48003500] = PetBattle({
+    id=94648,
+    rewards={
+        Achievement({id=10052, criteria=28810})
+    }
+}) -- Netherfist
+
+map.nodes[48503130] = PetBattle({
+    id=94649,
+    rewards={
+        Achievement({id=10052, criteria=28808})
+    }
+}) -- Skrillix
+
+map.nodes[75403740] = PetBattle({
+    id=94650,
+    rewards={
+        Achievement({id=10052, criteria=28809})
+    }
+}) -- Defiled Earth
