@@ -1457,7 +1457,8 @@ map.nodes[85375524] = Class('Tormentor', ns.node.Node, {
 
 map.nodes[42164448] = NPC({
     id=179083,
-    quest=64019,
+    quest={64019, 64023},
+    questAny=true,
     icon=3072461,
     note=L["sly_note"],
     assault=KYRIAN,
