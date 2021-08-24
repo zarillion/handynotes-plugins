@@ -38,7 +38,7 @@ L["eyepiercer_note"] = "Buy {item:124095} from {npc:92805} and use it at Blackfa
 L["the_night_haunter_note"] = [[
 Collect 10 stacks of {spell:183612} debuff.
 
-You can get debuff by using {npc:92651}  or by finding {npc:92645} (100% chance).
+You can get debuff by using {npc:92651} or by finding {npc:92645} (100% chance).
 ]]
 L["xemirkol_note"] = [[
 Buy {item:128502} or {item:128503} from {npc:95424} and use it at spawn point to get teleported to {npc:96235}.
