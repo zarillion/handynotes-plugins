@@ -161,6 +161,7 @@ map.nodes[58006360] = Rare({
 
 map.nodes[49003300] = Rare({
     id=86562,
+    quest=nil,
     rewards={
         Achievement({id=9655, criteria=26542}),
         Item({item=119230, note=L["neck"]}) -- Unpopped Pustule Pendant
@@ -169,6 +170,7 @@ map.nodes[49003300] = Rare({
 
 map.nodes[48202100] = Rare({
     id=86566,
+    quest=nil,
     rewards={
         Achievement({id=9655, criteria=26543}),
         Transmog({item=119224, slot=L["polearm"]}) -- Foereaver Polearm
@@ -177,6 +179,7 @@ map.nodes[48202100] = Rare({
 
 map.nodes[49802380] = Rare({
     id=86571,
+    quest=nil,
     rewards={
         Achievement({id=9655, criteria=26544}),
         Transmog({item=119225, slot=L["leather"]}) -- Studded Gronn-Stitched Girdle
@@ -185,6 +188,7 @@ map.nodes[49802380] = Rare({
 
 map.nodes[47603080] = Rare({
     id=86574,
+    quest=nil,
     rewards={
         Achievement({id=9655, criteria=26545}),
         Transmog({item=119226, slot=L["gun"]}) -- Blammo's Blammer
@@ -193,6 +197,7 @@ map.nodes[47603080] = Rare({
 
 map.nodes[45802660] = Rare({
     id=86577,
+    quest=nil,
     rewards={
         Achievement({id=9655, criteria=26548}),
         Transmog({item=119229, slot=L["mail"]}) -- Horgg's Bandolier
@@ -201,6 +206,7 @@ map.nodes[45802660] = Rare({
 
 map.nodes[45803300] = Rare({
     id=86579,
+    quest=nil,
     rewards={
         Achievement({id=9655, criteria=26550}),
         Transmog({item=119228, slot=L["cloth"]}) -- Ro'gor's Slippers of Silence
@@ -209,8 +215,96 @@ map.nodes[45803300] = Rare({
 
 map.nodes[46602300] = Rare({
     id=86582,
+    quest=nil,
     rewards={
         Achievement({id=9655, criteria=26551}),
         Transmog({item=119227, slot=L["plate"]}) -- Morgo's Unstoppable Ramming Helm
     }
 }) -- Morgo Kain
+
+map.nodes[59603200] = Rare({
+    id=88582,
+    quest=nil,
+    rewards={
+        Achievement({id=9678, criteria=26593}),
+        Transmog({item=119367, slot=L["mail"]}) -- Flayerscale Carapace Stompers
+    }
+}) -- Swift Onyx Flayer
+
+map.nodes[61603920] = Rare({
+    id=88586,
+    quest=nil,
+    rewards={
+        Achievement({id=9678, criteria=26594}),
+        Transmog({item=119391, slot=L["shield"]}) -- Etched Osteoderm Shield
+    }
+}) -- Mogamago
+
+map.nodes[69204460] = Rare({
+    id=86257,
+    quest=37369,
+    rewards={
+        Achievement({id=9678, criteria=26595}),
+        Toy({item=119432}), -- Botani Camouflage
+        Transmog({item=119357, slot=L["cloth"]}) -- Grovetender's Cummerbund
+    }
+}) -- Basten
+
+map.nodes[63403080] = Rare({
+    id=86266,
+    quest=nil,
+    rewards={
+        Achievement({id=9678, criteria=26596}),
+        Transmog({item=119395, slot=L["dagger"]}) -- Hydratooth Dagger
+    }
+}) -- Venolasix
+
+map.nodes[72604060] = Rare({
+    id=82058,
+    quest=nil,
+    rewards={
+        Achievement({id=9678, criteria=26598}),
+        Transmog({item=119406, slot=L["polearm"]}) -- Depthroot's Forearm
+    }
+}) -- Depthroot
+
+map.nodes[57803660] = Rare({
+    id=88580,
+    quest=nil,
+    rewards={
+        Achievement({id=9678, criteria=26599}),
+        Transmog({item=119381, slot=L["plate"]}) -- Grash's Fireproof Handguards
+    }
+}) -- Firestarter Grash
+
+map.nodes[59604300] = Rare({
+    id=88583,
+    quest=nil,
+    rewards={
+        Achievement({id=9678, criteria=26600}),
+        Transmog({item=119414, slot=L["cloak"]}) -- Yal's Leafwrap Cloak
+    }
+}) -- Grove Warden Yal
+
+map.nodes[54804620] = Rare({
+    id=88672,
+    quest=nil,
+    rewards={
+        Achievement({id=9678, criteria=26606}),
+        Transmog({item=119412, slot=L["bow"]}) -- Bal'ra's Compound Bow
+    }
+}) -- Hunter Bal'ra
+
+local Alkali = Rare({
+    id=86268,
+    quest=nil,
+    note=L["alkali_note"],
+    rewards={
+        Achievement({id=9678, criteria=26597}),
+        Transmog({item=119361, slot=L["leather"]}) -- Thorn-Knuckled Gloves
+    }
+}) -- Alkali
+
+nodes[56204080] = Alkali
+nodes[58604120] = Alkali
+nodes[71404040] = Alkali

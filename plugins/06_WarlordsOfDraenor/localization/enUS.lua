@@ -14,6 +14,7 @@ L["treasures_discovered"] = "treasures discovered"
 -------------------------------------------------------------------------------
 L["poundfist_note"] = "Has really long respawn between 50 and 90 hours."
 L["roardan_sky_terror_note"] = "Flies around Tangleheart and Beastwatch and makes 3 stops on the way."
+L["alkali_note"] = "Can spawn in multiple places."
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
