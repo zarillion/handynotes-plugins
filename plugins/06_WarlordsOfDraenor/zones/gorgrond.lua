@@ -158,3 +158,59 @@ map.nodes[58006360] = Rare({
         Item({item=113453, quest=TrophyOfGloryQuests['fungal praetorian']}), -- Precious Mushroom
     }
 }) -- Fungal Praetorian
+
+map.nodes[49003300] = Rare({
+    id=86562,
+    rewards={
+        Achievement({id=9655, criteria=26542}),
+        Item({item=119230, note=L["neck"]}) -- Unpopped Pustule Pendant
+    }
+}) -- Maniacal Madgard
+
+map.nodes[48202100] = Rare({
+    id=86566,
+    rewards={
+        Achievement({id=9655, criteria=26543}),
+        Transmog({item=119224, slot=L["polearm"]}) -- Foereaver Polearm
+    }
+}) -- Defector Dazgo
+
+map.nodes[49802380] = Rare({
+    id=86571,
+    rewards={
+        Achievement({id=9655, criteria=26544}),
+        Transmog({item=119225, slot=L["leather"]}) -- Studded Gronn-Stitched Girdle
+    }
+}) -- Durp the Hated
+
+map.nodes[47603080] = Rare({
+    id=86574,
+    rewards={
+        Achievement({id=9655, criteria=26545}),
+        Transmog({item=119226, slot=L["gun"]}) -- Blammo's Blammer
+    }
+}) -- Inventor Blammo
+
+map.nodes[45802660] = Rare({
+    id=86577,
+    rewards={
+        Achievement({id=9655, criteria=26548}),
+        Transmog({item=119229, slot=L["mail"]}) -- Horgg's Bandolier
+    }
+}) -- Horgg
+
+map.nodes[45803300] = Rare({
+    id=86579,
+    rewards={
+        Achievement({id=9655, criteria=26550}),
+        Transmog({item=119228, slot=L["cloth"]}) -- Ro'gor's Slippers of Silence
+    }
+}) -- Blademaster Ro'gor
+
+map.nodes[46602300] = Rare({
+    id=86582,
+    rewards={
+        Achievement({id=9655, criteria=26551}),
+        Transmog({item=119227, slot=L["plate"]}) -- Morgo's Unstoppable Ramming Helm
+    }
+}) -- Morgo Kain

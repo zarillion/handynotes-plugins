@@ -10,6 +10,7 @@
 * Gorgrond
   * [Poundfist](https://www.wowhead.com/npc=50985/poundfist)
   * Rares for [Gorgrond Monster Hunter](https://www.wowhead.com/achievement=9400/gorgrond-monster-hunter) achievement
+  * Rares for [Fight the Power](https://www.wowhead.com/achievement=9655/fight-the-power) achievement
 
 
 * Tanaan Jungle
