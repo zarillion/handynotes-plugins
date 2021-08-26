@@ -12,6 +12,7 @@
   * Rares for [Gorgrond Monster Hunter](https://www.wowhead.com/achievement=9400/gorgrond-monster-hunter) achievement
   * Rares for [Fight the Power](https://www.wowhead.com/achievement=9655/fight-the-power) achievement
   * Rares for [Ancient No More](https://www.wowhead.com/achievement=9678/ancient-no-more) achievement
+  * Toys / Pets / Transmogs
 
 * Tanaan Jungle
   * Rares for [Jungle Stalker](https://www.wowhead.com/achievement=10070/jungle-stalker) achievement
