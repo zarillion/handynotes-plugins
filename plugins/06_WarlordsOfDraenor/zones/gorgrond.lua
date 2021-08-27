@@ -1,6 +1,6 @@
 -- @todo: Shredder Mania achievement + note, trophy of glory note for quests, iron wings achievement,
 -- @todo: in plain sight achievement, mean and green achievement, burn it to the ground achievement, pillars of draenor achievement
--- @todo: picky palate achievement, taming draenor achievement
+-- @todo: picky palate achievement, garrison npc (sappy, rooter, peckers) (get quest id, same for pepe)
 
 -------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
@@ -11,6 +11,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Node = ns.node.Node
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -692,3 +693,31 @@ map.nodes[44007060] = Treasure({
         }})
     }
 }) -- Pile of Rubble
+
+map.nodes[57106530] = Treasure({
+    quest=37249,
+    label=L["strange_spore_treasure"],
+    rewards={
+        Pet({item=118106, id=1537}) -- Crimson Spore
+    }
+}) -- Strange Spore
+
+map.nodes[47504130] = Treasure({
+    label=L["ninja_pepe_treasure"],
+    note=L["ninja_pepe_note"],
+    rewards={
+        Achievement({id=10053, criteria=28182}),
+        Item({item=127867}) -- A Tiny Ninja Shroud
+    }
+}) -- Ninja Pepe
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[51007060] = PetBattle({
+    id=83837,
+    rewards={
+        Achievement({id=9724, criteria=27011})
+    }
+}) -- Cymre Brightblade
