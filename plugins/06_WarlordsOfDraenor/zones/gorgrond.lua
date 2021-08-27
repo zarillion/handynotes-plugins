@@ -1,3 +1,7 @@
+-- @todo: Shredder Mania achievement + note, trophy of glory note for quests, iron wings achievement,
+-- @todo: in plain sight achievement, mean and green achievement, burn it to the ground achievement, pillars of draenor achievement
+-- @todo: picky palate achievement, taming draenor achievement
+
 -------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
@@ -8,6 +12,7 @@ local Map = ns.Map
 
 local Node = ns.node.Node
 local Rare = ns.node.Rare
+local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -426,3 +431,264 @@ map.nodes[44609220] = Rare({
         Transmog({item=118223, slot=L["fist"]}) -- Sunclaw
     }
 }) -- Sunclaw
+
+-------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[40407660] = Treasure({
+    quest=36621,
+    label=L["explorer_canister_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=118710}) -- Exploratron 2000 Spare Parts
+    }
+}) -- Explorer Canister
+
+map.nodes[42408350] = Treasure({
+    quest=36625,
+    label=L["discarded_pack_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Discarded Pack
+
+map.nodes[43109290] = Treasure({
+    quest=34241,
+    label=L["ockbars_pack_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Ockbar's Pack
+
+map.nodes[48109340] = Treasure({
+    quest=36604,
+    label=L["stashed_emergency_rucksack_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Stashed Emergency Rucksack
+
+map.nodes[53008000] = Treasure({
+    quest=34940,
+    label=L["strange_looking_dagger_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=118718, slot=L["dagger"]}) -- Pale Bloodthief Dagger
+    },
+    pois={
+        POI({51307760}) -- Entrance
+    }
+}) -- Strange Looking Dagger
+
+map.nodes[53107450] = Treasure({
+    quest=36654,
+    label=L["remains_of_balik_orecrusher_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    },
+    pois={
+        POI({51407440}) -- Entrance
+    }
+}) -- Remains of Balik Orecrusher
+
+map.nodes[52506690] = Treasure({
+    quest=36509,
+    label=L["odd_skull_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=118717, slot=L["offhand"]}) -- Beastskull Vessel
+    }
+}) -- Odd Skull
+
+map.nodes[39006810] = Treasure({
+    quest=36631,
+    label=L["sashas_secret_stash_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Sasha's Secret Stash
+
+map.nodes[59506370] = Treasure({
+    quest=36628,
+    label=L["vindicators_hammer_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=118712, slot=L["2h_mace"]}) -- Huurand's Huge Hammer
+    }
+}) -- Vindicator's Hammer
+
+map.nodes[57805600] = Treasure({
+    quest=36605,
+    label=L["remains_if_balldir_deeprock_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Remains of Balldir Deeprock
+
+map.nodes[41705290] = Treasure({
+    quest=36506,
+    label=L["brokors_sack_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=118702, slot=L["staff"]}) -- Brokor's Walking Stick
+    }
+}) -- Brokor's Sack
+
+map.nodes[45704970] = Treasure({
+    quest=36110,
+    label=L["suntouched_spear_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Suntouched Spear
+
+map.nodes[48904730] = Treasure({
+    quest=36203,
+    label=L["warm_goren_egg_treasure"],
+    note=L["warm_goren_egg_note"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=118705}), -- Warm Goren Egg
+        Toy({item=118716}) -- Goren Garb
+    }
+}) -- Warm Goren Egg
+
+map.nodes[49304360] = Treasure({
+    quest=36596,
+    label=L["weapons_cache_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Item({item=107645}) -- Iron Horde Weapon Cache
+    }
+}) -- Weapons Cache
+
+map.nodes[46204290] = Treasure({
+    quest=36521,
+    label=L["petrified_rylak_egg_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Petrified Rylak Egg
+
+map.nodes[45004260] = Treasure({
+    quest=36634,
+    label=L["snipers_crossbow_trerasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }}),
+        Transmog({item=118713, slot=L["crossbow"]}) -- Iron Lookout's Arbalest
+    }
+}) -- Sniper's Crossbow
+
+map.nodes[43704250] = Treasure({
+    quest=36618,
+    label=L["iron_supply_chest_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Iron Supply Chest
+
+map.nodes[46906870] = Treasure({
+    quest=35056,
+    label=L["horned_skull_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    },
+    pois={
+        POI({43504800}) -- Entrance
+    }
+}) -- Horned Skull
+
+map.nodes[41807810] = Treasure({
+    quest=36658,
+    label=L["evermorn_supply_cache_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Evermorn Supply Cache
+
+map.nodes[46105000] = Treasure({
+    quest=36651,
+    label=L["harvestable_precious_crystal_treasure"],
+    note=L["in_cave"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    },
+    pois={
+        POI({44505080}) -- Entrance
+    }
+}) -- Harvestable Precious Crystal
+
+map.nodes[40007230] = Treasure({
+    quest=36170,
+    label=L["femur_of_improbability_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Femur of Improbability
+
+map.nodes[44207420] = Treasure({
+    quest=35709,
+    label=L["laughing_skull_cache_treasure"],
+    note=L["laughing_skull_note"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Laughing Skull Cache
+
+map.nodes[44007060] = Treasure({
+    quest=36118,
+    label=L["pile_of_rubble_treasure"],
+    rewards={
+        Achievement({id=9728, criteria={
+            {id=1, qty=true, suffix=L["treasures_discovered"]}
+        }})
+    }
+}) -- Pile of Rubble
