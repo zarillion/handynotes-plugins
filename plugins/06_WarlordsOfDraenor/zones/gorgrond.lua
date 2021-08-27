@@ -1,12 +1,14 @@
 -- @todo: Shredder Mania achievement + note, trophy of glory note for quests, iron wings achievement,
--- @todo: in plain sight achievement, mean and green achievement, burn it to the ground achievement, pillars of draenor achievement
--- @todo: picky palate achievement, garrison npc (sappy, rooter, peckers) (get quest id, same for pepe)
+-- @todo: mean and green achievement, burn it to the ground achievement, pillars of draenor achievement
+-- @todo: picky palate achievement, garrison npc (sappy, rooter, peckers) (get quest id, same for pepe and plain sight chest)
+-- @todo: groups for achievements
 
 -------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
@@ -710,6 +712,22 @@ map.nodes[47504130] = Treasure({
         Item({item=127867}) -- A Tiny Ninja Shroud
     }
 }) -- Ninja Pepe
+
+-- @todo get id
+local AttackPlans = Treasure({
+    group=ns.groups.ATTACK_PLANS,
+    icon='chest_pp',
+    label=L["attack_plans_treasure"],
+    note=L["attack_plans_note"],
+    rewards={
+        Achievement({id=9656})
+    }
+})
+
+map.nodes[45802720] = AttackPlans
+map.nodes[48202700] = AttackPlans
+map.nodes[45202520] = AttackPlans
+map.nodes[49002400] = AttackPlans
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

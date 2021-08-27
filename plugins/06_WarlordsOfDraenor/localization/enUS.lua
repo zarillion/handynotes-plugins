@@ -41,9 +41,14 @@ L["femur_of_improbability_treasure"] = "Femur of Improbability"
 L["laughing_skull_cache_treasure"] = "Laughing Skull Cache"
 L["pile_of_rubble_treasure"] = "Pile of Rubble"
 L["ninja_pepe_treasure"] = "Ninja Pepe"
+L["attack_plans_treasure"] = "Iron Horde Attack Orders"
 L["laughing_skull_note"] = "Up in the tree."
 L["warm_goren_egg_note"] = "{item:118705} incubates in 7 days into {item:118716}."
 L["ninja_pepe_note"] = "Inside the hut sitting on a chair."
+L["attack_plans_note"] = "Can spawn in multiple locations."
+
+L["options_icons_attack_plans"] = "{achievement:9656}"
+L["options_icons_attack_plans_desc"] = "Display the locations of Iron Horde Attack Orders for {achievement:9656}."
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
