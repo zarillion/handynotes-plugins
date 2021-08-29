@@ -2,10 +2,14 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 
-local _, ns = ...
+local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
+
 local Node = ns.node.Node
+local PetBattle = ns.node.PetBattle
+
+local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
 
 -------------------------------------------------------------------------------
@@ -23,7 +27,18 @@ local Voidtalon = Node({icon=1094600, label=L['edge_of_reality'], rewards={
     Mount({id=682, item=121815}) -- Voidtalon of the Dark Star
 }})
 
-nodes[51101986] = Voidtalon
-nodes[52401818] = Voidtalon
-nodes[53801746] = Voidtalon
-nodes[47702757] = Voidtalon
+nodes[51101990] = Voidtalon
+nodes[52301830] = Voidtalon
+nodes[53001700] = Voidtalon
+nodes[47702750] = Voidtalon
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[68606460] = PetBattle({
+    id=87122,
+    rewards={
+        Achievement({id=9724, criteria=27013})
+    }
+}) -- Gargra

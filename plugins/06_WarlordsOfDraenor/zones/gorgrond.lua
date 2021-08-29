@@ -8,7 +8,6 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
-local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
@@ -67,9 +66,9 @@ local Voidtalon = Node({icon=1094600, label=L['edge_of_reality'], rewards={
     Mount({id=682, item=121815}) -- Voidtalon of the Dark Star
 }})
 
-nodes[51603860] = Voidtalon
-nodes[54004580] = Voidtalon
-nodes[56004070] = Voidtalon
+nodes[51603880] = Voidtalon
+nodes[54004500] = Voidtalon
+nodes[56004000] = Voidtalon
 nodes[43203420] = Voidtalon
 
 -------------------------------------------------------------------------------
