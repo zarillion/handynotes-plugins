@@ -8,6 +8,7 @@ local Map = ns.Map
 
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
+local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -34,6 +35,26 @@ nodes[50407160] = Voidtalon
 nodes[49607160] = Voidtalon
 nodes[50707250] = Voidtalon
 nodes[46607000] = Voidtalon
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+local Pathrunner = Rare({
+    id=50883,
+    quest=nil,
+    note=L["multiple_spawn_note"],
+    rewards={
+        Mount({item=116773, id=636}) -- Swift Breezestrider
+    }
+}) -- Pathrunner
+
+nodes[39603660] = Pathrunner
+nodes[43003220] = Pathrunner
+nodes[44604380] = Pathrunner
+nodes[45806820] = Pathrunner
+nodes[54003040] = Pathrunner
+nodes[56205240] = Pathrunner
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

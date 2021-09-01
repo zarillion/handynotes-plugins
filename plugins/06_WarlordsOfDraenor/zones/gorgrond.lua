@@ -306,7 +306,7 @@ map.nodes[54804620] = Rare({
 local Alkali = Rare({
     id=86268,
     quest=37371,
-    note=L["alkali_note"],
+    note=L["multiple_spawn_note"],
     rewards={
         Achievement({id=9678, criteria=26597}),
         Transmog({item=119361, slot=L["leather"]}) -- Thorn-Knuckled Gloves
@@ -433,6 +433,55 @@ map.nodes[44609220] = Rare({
         Transmog({item=118223, slot=L["fist"]}) -- Sunclaw
     }
 }) -- Sunclaw
+
+map.nodes[39407460] = Rare({
+    id=85907,
+    quest=nil,
+    note=L["in_cave"],
+    rewards={
+        Transmog({item=118232, slot=L["mail"]}) -- Scaled Riverbeast Spaulders
+    },
+    pois={
+        POI({39707630}) -- Entrance
+    }
+}) -- Berthora
+
+-- @todo check loc
+map.nodes[52205580] = Rare({
+    id=78260,
+    quest=nil,
+    note=L["in_cave"],
+    rewards={
+        Transmog({item=119351, slot=L["cloak"]}) -- Slime Coated Kingscloak
+    },
+    pois={
+        POI({54005590}) -- Entrance
+    }
+}) -- King Slime
+
+map.nodes[37608140] = Rare({
+    id=85970,
+    quest=36600,
+    rewards={
+        Transmog({item=118231, slot=L["dagger"]}) -- Riptar's Clever Claw
+    }
+}) -- Riptar
+
+map.nodes[47804160] = Rare({
+    id=85264,
+    quest=36393,
+    rewards={
+        Item({item=118211, note=L["trinket"]}) -- Rolkor's Rage
+    }
+}) -- Rolkor
+
+map.nodes[64006180] = Rare({
+    id=86410,
+    quest=36794,
+    rewards={
+        Transmog({item=118213, slot=L["leather"]}) -- Slimy Sea Serpent Skin Sabatons
+    }
+}) -- Sylldros
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -562,7 +611,7 @@ map.nodes[41705290] = Treasure({
 }) -- Brokor's Sack
 
 map.nodes[45704970] = Treasure({
-    quest=36110,
+    quest=36610,
     label=L["suntouched_spear_treasure"],
     rewards={
         Achievement({id=9728, criteria={
@@ -704,6 +753,7 @@ map.nodes[57106530] = Treasure({
 }) -- Strange Spore
 
 map.nodes[47504130] = Treasure({
+    group=ns.groups.PEPE,
     label=L["ninja_pepe_treasure"],
     note=L["ninja_pepe_note"],
     rewards={
@@ -717,7 +767,7 @@ local AttackPlans = Treasure({
     group=ns.groups.ATTACK_PLANS,
     icon='chest_pp',
     label=L["attack_plans_treasure"],
-    note=L["attack_plans_note"],
+    note=L["multiple_spawn_note"],
     rewards={
         Achievement({id=9656})
     }

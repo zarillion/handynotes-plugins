@@ -9,13 +9,16 @@ if not L then return end
 L["edge_of_reality"] = "Edge of Reality"
 L["treasures_discovered"] = "treasures discovered"
 L["strange_spore_treasure"] = "Strange Spore"
+L["multiple_spawn_note"] = "Can spawn in multiple locations."
+L["options_icons_pepe"] = "{achievement:10053}"
+L["options_icons_pepe_desc"] = "Display the locations of Pepe outfits for {achievement:10053}."
 
 -------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
 -------------------------------------------------------------------------------
+
 L["poundfist_note"] = "Has really long respawn between 50 and 90 hours."
 L["roardan_sky_terror_note"] = "Flies around Tangleheart and Beastwatch and makes 3 stops on the way."
-L["alkali_note"] = "Can spawn in multiple places."
 
 L["explorer_canister_treasure"] = "Explorer Canister"
 L["discarded_pack_treasure"] = "Discarded Pack"
@@ -45,7 +48,6 @@ L["attack_plans_treasure"] = "Iron Horde Attack Orders"
 L["laughing_skull_note"] = "Up in the tree."
 L["warm_goren_egg_note"] = "{item:118705} incubates in 7 days into {item:118716}."
 L["ninja_pepe_note"] = "Inside the hut sitting on a chair."
-L["attack_plans_note"] = "Can spawn in multiple locations."
 
 L["options_icons_attack_plans"] = "{achievement:9656}"
 L["options_icons_attack_plans_desc"] = "Display the locations of Iron Horde Attack Orders for {achievement:9656}."
@@ -67,7 +69,6 @@ L["belgork_thromma_note"] = "This cave has 2 entrances."
 L["driss_vile_note"] = "On top of the tower."
 L["overlord_magruth_note"] = "Kill orcs around camp to spawn it."
 L["mistress_thavra_note"] = "In a cave on upper floor."
-L["bloodhunter_zulk_note"] = "Can spawn in multiplace places."
 L["dorg_the_bloody_note"] = "Kill {npc:89706} and other enemies at spawn location."
 L["grand_warlock_netherkurse_note"] = "Kill enemies around spawn point."
 L["ceraxas_note"] = "Spawns {npc:90426} with quest {quest:38428} for pet after killing it."

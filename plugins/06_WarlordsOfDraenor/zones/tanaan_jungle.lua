@@ -214,7 +214,7 @@ map.nodes[25604620] = Rare({
 map.nodes[24505000] = Rare({
     id=90936,
     quest=38266,
-    note=L["bloodhunter_zulk_note"],
+    note=L["multiple_spawn_note"],
     rewards={
         Achievement({id=10070, criteria=28355}),
         Transmog({item=127303, slot=L["leather"]}) -- Zulk's Sneaky Slippers

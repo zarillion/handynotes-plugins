@@ -8,6 +8,7 @@ local Map = ns.Map
 
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
+local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -31,6 +32,25 @@ nodes[39705540] = Voidtalon
 nodes[46205260] = Voidtalon
 nodes[47004800] = Voidtalon
 nodes[51904120] = Voidtalon
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+local Silthide = Rare({
+    id=51015,
+    quest=nil,
+    note=L["multiple_spawn_note"],
+    rewards={
+        Mount({item=116767, id=630}) -- Sapphire Riverbeast
+    }
+}) -- Silthide
+
+nodes[78905540] = Silthide
+nodes[67406000] = Silthide
+nodes[61803220] = Silthide
+nodes[62004500] = Silthide
+nodes[55608060] = Silthide
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

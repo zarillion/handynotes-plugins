@@ -8,6 +8,7 @@ local Map = ns.Map
 
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
+local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -31,6 +32,33 @@ nodes[51101990] = Voidtalon
 nodes[52301830] = Voidtalon
 nodes[53001700] = Voidtalon
 nodes[47702750] = Voidtalon
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+local Gorok = Rare({
+    id=50992,
+    quest=nil,
+    note=L["multiple_spawn_note"],
+    rewards={
+        Mount({item=116674, id=627}) -- Great Greytusk
+    }
+}) -- Gorok
+
+nodes[63407940] = Gorok
+nodes[22806640] = Gorok
+nodes[64805300] = Gorok
+nodes[51805060] = Gorok
+nodes[58001840] = Gorok
+
+map.nodes[13205060] = Rare({
+    id=81001,
+    quest=nil,
+    rewards={
+        Mount({item=116794, id=657}) -- Garn Nighthowl
+    }
+}) -- Nok-Karosh
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
