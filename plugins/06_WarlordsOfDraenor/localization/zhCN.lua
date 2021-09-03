@@ -8,6 +8,48 @@ if not L then return end
 
 L["edge_of_reality"] = "现世边界"
 L["treasures_discovered"] = "宝藏已发现"
+L["strange_spore_treasure"] = nil
+L["multiple_spawn_note"] = "在多个位置刷新。"
+
+-------------------------------------------------------------------------------
+----------------------------------- GORGROND ----------------------------------
+-------------------------------------------------------------------------------
+
+L["poundfist_note"] = nil
+L["trophy_of_glory_note"] = nil
+L["roardan_sky_terror_note"] = nil
+
+L["explorer_canister_treasure"] = nil
+L["discarded_pack_treasure"] = nil
+L["ockbars_pack_treasure"] = nil
+L["stashed_emergency_rucksack_treasure"] = nil
+L["strange_looking_dagger_treasure"] = nil
+L["remains_of_balik_orecrusher_treasure"] = nil
+L["odd_skull_treasure"] = nil
+L["sashas_secret_stash_treasure"] = nil
+L["vindicators_hammer_treasure"] = nil
+L["remains_if_balldir_deeprock_treasure"] = nil
+L["brokors_sack_treasure"] = nil
+L["suntouched_spear_treasure"] = nil
+L["warm_goren_egg_treasure"] = nil
+L["weapons_cache_treasure"] = nil
+L["petrified_rylak_egg_treasure"] = nil
+L["snipers_crossbow_trerasure"] = nil
+L["iron_supply_chest_treasure"] = nil
+L["horned_skull_treasure"] = nil
+L["evermorn_supply_cache_treasure"] = nil
+L["harvestable_precious_crystal_treasure"] = nil
+L["femur_of_improbability_treasure"] = nil
+L["laughing_skull_cache_treasure"] = nil
+L["pile_of_rubble_treasure"] = nil
+L["ninja_pepe_treasure"] = nil
+L["attack_plans_treasure"] = nil
+L["laughing_skull_note"] = nil
+L["warm_goren_egg_note"] = nil
+L["ninja_pepe_note"] = nil
+
+L["options_icons_attack_plans"] = nil
+L["options_icons_attack_plans_desc"] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
@@ -26,7 +68,6 @@ L["belgork_thromma_note"] = "此洞穴有2个入口。"
 L["driss_vile_note"] = "在塔顶上。"
 L["overlord_magruth_note"] = "击杀营地附近兽人让他刷新。"
 L["mistress_thavra_note"] = "在洞穴上层。"
-L["bloodhunter_zulk_note"] = "在多个位置刷新。"
 L["dorg_the_bloody_note"] = "在刷新点击杀 {npc:89706} 和其他敌人。"
 L["grand_warlock_netherkurse_note"] = "击杀刷新点附近的敌人。"
 L["ceraxas_note"] = "击杀后刷新的 {npc:90426} 有任务 {quest:38428} 获得宠物。"
