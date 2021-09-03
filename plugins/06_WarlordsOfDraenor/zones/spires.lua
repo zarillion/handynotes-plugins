@@ -24,7 +24,7 @@ local nodes = map.nodes
 -------------------------------------------------------------------------------
 
 local Voidtalon = Node({icon=1094600, label=L['edge_of_reality'], rewards={
-    Mount({id=682, item=121815}) -- Voidtalon of the Dark Star
+    Mount({id=682, item=121815}), -- Voidtalon of the Dark Star
 }})
 
 nodes[36501820] = Voidtalon
@@ -39,6 +39,6 @@ nodes[60801120] = Voidtalon
 map.nodes[46404520] = PetBattle({
     id=87123,
     rewards={
-        Achievement({id=9724, criteria=27014})
-    }
+        Achievement({id=9724, criteria=27014}),
+    },
 }) -- Vesharr

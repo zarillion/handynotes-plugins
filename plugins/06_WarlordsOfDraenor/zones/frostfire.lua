@@ -42,8 +42,8 @@ local Gorok = Rare({
     quest=nil,
     note=L["multiple_spawn_note"],
     rewards={
-        Mount({item=116674, id=627}) -- Great Greytusk
-    }
+        Mount({item=116674, id=627}), -- Great Greytusk
+    },
 }) -- Gorok
 
 nodes[63407940] = Gorok
@@ -56,8 +56,8 @@ map.nodes[13205060] = Rare({
     id=81001,
     quest=nil,
     rewards={
-        Mount({item=116794, id=657}) -- Garn Nighthowl
-    }
+        Mount({item=116794, id=657}), -- Garn Nighthowl
+    },
 }) -- Nok-Karosh
 
 -------------------------------------------------------------------------------
@@ -67,6 +67,6 @@ map.nodes[13205060] = Rare({
 map.nodes[68606460] = PetBattle({
     id=87122,
     rewards={
-        Achievement({id=9724, criteria=27013})
-    }
+        Achievement({id=9724, criteria=27013}),
+    },
 }) -- Gargra
