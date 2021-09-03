@@ -1,1 +1,4 @@
 release/
+
+# Ignore IDE.
+.idea
