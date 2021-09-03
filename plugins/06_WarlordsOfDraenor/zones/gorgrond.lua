@@ -3,6 +3,7 @@
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
@@ -27,8 +28,10 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = Map({ id = 543, settings = true })
-local cragplume = Map({ id = 549, settings = true }) -- Minimap
-local nodes = map.nodes
+-- Minimaps in Gorgrond.
+local minimap = {
+  ['cragplume'] = Map({ id = 549, settings = true }),
+}
 
 -- Quests for Trophy of Glory.
 local TrophyOfGloryQuests = {
@@ -69,10 +72,10 @@ local Voidtalon = Node({
   },
 })
 
-nodes[51603880] = Voidtalon
-nodes[54004500] = Voidtalon
-nodes[56004000] = Voidtalon
-nodes[43203420] = Voidtalon
+map.nodes[51603880] = Voidtalon
+map.nodes[54004500] = Voidtalon
+map.nodes[56004000] = Voidtalon
+map.nodes[43203420] = Voidtalon
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -86,11 +89,11 @@ local Poundfist = Rare({
   },
 }) -- Poundfist
 
-nodes[41902500] = Poundfist
-nodes[51604310] = Poundfist
-nodes[45204660] = Poundfist
-nodes[47405530] = Poundfist
-nodes[43005570] = Poundfist
+map.nodes[41902500] = Poundfist
+map.nodes[51604310] = Poundfist
+map.nodes[45204660] = Poundfist
+map.nodes[47405530] = Poundfist
+map.nodes[43005570] = Poundfist
 
 map.nodes[62905520] = Rare({
   id = 75207,
@@ -331,9 +334,9 @@ local Alkali = Rare({
   },
 }) -- Alkali
 
-nodes[56204080] = Alkali
-nodes[58604120] = Alkali
-nodes[71404040] = Alkali
+map.nodes[56204080] = Alkali
+map.nodes[58604120] = Alkali
+map.nodes[71404040] = Alkali
 
 map.nodes[53407820] = Rare({
   id = 76473,
@@ -356,7 +359,7 @@ map.nodes[53005350] = Rare({
   },
 }) -- Gnarljaw
 
-cragplume.nodes[55103550] = Rare({
+minimap['cragplume'].nodes[55103550] = Rare({
   id = 78269,
   quest = 37413,
   rewards = {
@@ -485,7 +488,7 @@ map.nodes[52205580] = Rare({
   },
 }) -- King Slime
 
-cragplume.nodes[41707490] = Rare({
+minimap['cragplume'].nodes[41707490] = Rare({
   id = 78260,
   quest = 37412,
   rewards = {

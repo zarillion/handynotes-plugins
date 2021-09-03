@@ -18,7 +18,6 @@ local Mount = ns.reward.Mount
 -------------------------------------------------------------------------------
 
 local map = Map({ id = 539, settings = true })
-local nodes = map.nodes
 
 -------------------------------------------------------------------------------
 ------------------------------------ NODES ------------------------------------
@@ -32,13 +31,13 @@ local Voidtalon = Node({
   },
 })
 
-nodes[41907570] = Voidtalon
-nodes[43507100] = Voidtalon
-nodes[48706990] = Voidtalon
-nodes[50407160] = Voidtalon
-nodes[49607160] = Voidtalon
-nodes[50707250] = Voidtalon
-nodes[46607000] = Voidtalon
+map.nodes[41907570] = Voidtalon
+map.nodes[43507100] = Voidtalon
+map.nodes[48706990] = Voidtalon
+map.nodes[50407160] = Voidtalon
+map.nodes[49607160] = Voidtalon
+map.nodes[50707250] = Voidtalon
+map.nodes[46607000] = Voidtalon
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -53,12 +52,12 @@ local Pathrunner = Rare({
   },
 }) -- Pathrunner
 
-nodes[39603660] = Pathrunner
-nodes[43003220] = Pathrunner
-nodes[44604380] = Pathrunner
-nodes[45806820] = Pathrunner
-nodes[54003040] = Pathrunner
-nodes[56205240] = Pathrunner
+map.nodes[39603660] = Pathrunner
+map.nodes[43003220] = Pathrunner
+map.nodes[44604380] = Pathrunner
+map.nodes[45806820] = Pathrunner
+map.nodes[54003040] = Pathrunner
+map.nodes[56205240] = Pathrunner
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

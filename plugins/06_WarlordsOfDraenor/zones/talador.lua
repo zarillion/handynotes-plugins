@@ -18,7 +18,6 @@ local Mount = ns.reward.Mount
 -------------------------------------------------------------------------------
 
 local map = Map({ id = 535, settings = true })
-local nodes = map.nodes
 
 -------------------------------------------------------------------------------
 ------------------------------------ NODES ------------------------------------
@@ -32,10 +31,10 @@ local Voidtalon = Node({
   },
 })
 
-nodes[39705540] = Voidtalon
-nodes[46205260] = Voidtalon
-nodes[47004800] = Voidtalon
-nodes[51904120] = Voidtalon
+map.nodes[39705540] = Voidtalon
+map.nodes[46205260] = Voidtalon
+map.nodes[47004800] = Voidtalon
+map.nodes[51904120] = Voidtalon
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -50,11 +49,11 @@ local Silthide = Rare({
   },
 }) -- Silthide
 
-nodes[78905540] = Silthide
-nodes[67406000] = Silthide
-nodes[61803220] = Silthide
-nodes[62004500] = Silthide
-nodes[55608060] = Silthide
+map.nodes[78905540] = Silthide
+map.nodes[67406000] = Silthide
+map.nodes[61803220] = Silthide
+map.nodes[62004500] = Silthide
+map.nodes[55608060] = Silthide
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

@@ -18,7 +18,6 @@ local Mount = ns.reward.Mount
 -------------------------------------------------------------------------------
 
 local map = Map({ id = 525, settings = true })
-local nodes = map.nodes
 
 -------------------------------------------------------------------------------
 ------------------------------------ NODES ------------------------------------
@@ -32,10 +31,10 @@ local Voidtalon = Node({
   },
 })
 
-nodes[51101990] = Voidtalon
-nodes[52301830] = Voidtalon
-nodes[53001700] = Voidtalon
-nodes[47702750] = Voidtalon
+map.nodes[51101990] = Voidtalon
+map.nodes[52301830] = Voidtalon
+map.nodes[53001700] = Voidtalon
+map.nodes[47702750] = Voidtalon
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -50,11 +49,11 @@ local Gorok = Rare({
   },
 }) -- Gorok
 
-nodes[63407940] = Gorok
-nodes[22806640] = Gorok
-nodes[64805300] = Gorok
-nodes[51805060] = Gorok
-nodes[58001840] = Gorok
+map.nodes[63407940] = Gorok
+map.nodes[22806640] = Gorok
+map.nodes[64805300] = Gorok
+map.nodes[51805060] = Gorok
+map.nodes[58001840] = Gorok
 
 map.nodes[13205060] = Rare({
   id = 81001,

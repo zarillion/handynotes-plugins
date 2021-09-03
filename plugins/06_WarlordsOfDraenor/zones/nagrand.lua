@@ -18,7 +18,6 @@ local Mount = ns.reward.Mount
 -------------------------------------------------------------------------------
 
 local map = Map({ id = 550, settings = true })
-local nodes = map.nodes
 
 -------------------------------------------------------------------------------
 ------------------------------------ NODES ------------------------------------
@@ -32,9 +31,9 @@ local Voidtalon = Node({
   },
 })
 
-nodes[40504760] = Voidtalon
-nodes[45903140] = Voidtalon
-nodes[57302670] = Voidtalon
+map.nodes[40504760] = Voidtalon
+map.nodes[45903140] = Voidtalon
+map.nodes[57302670] = Voidtalon
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -49,12 +48,12 @@ local Lukhok = Rare({
   },
 }) -- Luk'hok
 
-nodes[66604400] = Lukhok
-nodes[76203180] = Lukhok
-nodes[72805360] = Lukhok
-nodes[79205600] = Lukhok
-nodes[84606360] = Lukhok
-nodes[86806560] = Lukhok
+map.nodes[66604400] = Lukhok
+map.nodes[76203180] = Lukhok
+map.nodes[72805360] = Lukhok
+map.nodes[79205600] = Lukhok
+map.nodes[84606360] = Lukhok
+map.nodes[86806560] = Lukhok
 
 local Nakk = Rare({
   id = 50990,
@@ -65,11 +64,11 @@ local Nakk = Rare({
   },
 }) -- Nakk the Thunderer
 
-nodes[62801540] = Nakk
-nodes[62401700] = Nakk
-nodes[64601960] = Nakk
-nodes[55003500] = Nakk
-nodes[50003440] = Nakk
+map.nodes[62801540] = Nakk
+map.nodes[62401700] = Nakk
+map.nodes[64601960] = Nakk
+map.nodes[55003500] = Nakk
+map.nodes[50003440] = Nakk
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
