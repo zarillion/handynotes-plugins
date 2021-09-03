@@ -10,14 +10,13 @@ L["edge_of_reality"] = "Edge of Reality"
 L["treasures_discovered"] = "treasures discovered"
 L["strange_spore_treasure"] = "Strange Spore"
 L["multiple_spawn_note"] = "Can spawn in multiple locations."
-L["options_icons_pepe"] = "{achievement:10053}"
-L["options_icons_pepe_desc"] = "Display the locations of Pepe outfits for {achievement:10053}."
 
 -------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
 -------------------------------------------------------------------------------
 
 L["poundfist_note"] = "Has really long respawn between 50 and 90 hours."
+L["trophy_of_glory_note"] = "You must finish building up your Gorgrond Garrison Outpost to get quest items to drop."
 L["roardan_sky_terror_note"] = "Flies around Tangleheart and Beastwatch and makes 3 stops on the way."
 
 L["explorer_canister_treasure"] = "Explorer Canister"

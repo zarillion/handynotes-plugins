@@ -1,8 +1,3 @@
--- @todo: Shredder Mania achievement + note, trophy of glory note for quests, iron wings achievement,
--- @todo: mean and green achievement, burn it to the ground achievement, pillars of draenor achievement
--- @todo: picky palate achievement, garrison npc (sappy, rooter, peckers) (get quest id, same for pepe and plain sight chest)
--- @todo: groups for achievements
-
 -------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
@@ -11,6 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
@@ -31,6 +27,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = Map({ id=543, settings=true })
+local cragplume = Map({ id=549, settings=true }) -- Minimap
 local nodes = map.nodes
 
 -- Quests for Trophy of Glory.
@@ -42,7 +39,8 @@ local TrophyOfGloryQuests = {
     ['roardan sky terror'] = 35818,
     ['dessicus dead pools'] = 35810,
     ['erosian violent'] = 35807,
-    ['fungal praetorian'] = 35814
+    ['fungal praetorian'] = 35814,
+    ['outpost'] = 35151,
 }
 
 if UnitFactionGroup('player') == 'Alliance' then
@@ -54,7 +52,8 @@ if UnitFactionGroup('player') == 'Alliance' then
         ['roardan sky terror'] = 35817,
         ['dessicus dead pools'] = 35809,
         ['erosian violent'] = 35808,
-        ['fungal praetorian'] = 35813
+        ['fungal praetorian'] = 35813,
+        ['outpost'] = 35063,
     }
 end
 
@@ -91,6 +90,8 @@ nodes[43005570] = Poundfist
 
 map.nodes[62905520] = Rare({
     id=75207,
+    note=L["trophy_of_glory_note"],
+    requires=ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards={
         Achievement({id=9400, criteria=25568}),
         Item({item=116160, quest=TrophyOfGloryQuests['biolante']}), -- Writhing Green Tendril
@@ -102,6 +103,8 @@ map.nodes[62905520] = Rare({
 
 map.nodes[43806060] = Rare({
     id=81528,
+    note=L["trophy_of_glory_note"],
+    requires=ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards={
         Achievement({id=9400, criteria=25570}),
         Item({item=113448, quest=TrophyOfGloryQuests['crater lord igneous']}), -- Chunk of Crater Lord
@@ -110,6 +113,8 @@ map.nodes[43806060] = Rare({
 
 map.nodes[45205160] = Rare({
     id=81548,
+    note=L["trophy_of_glory_note"],
+    requires=ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards={
         Achievement({id=9400, criteria=25574}),
         Item({item=113457, quest=TrophyOfGloryQuests['charl doomwing']}), -- Fang of the Doomwing
@@ -121,6 +126,8 @@ map.nodes[45205160] = Rare({
 
 map.nodes[53206880] = Rare({
     id=81537,
+    note=L["trophy_of_glory_note"],
+    requires=ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards={
         Achievement({id=9400, criteria=25572}),
         Item({item=113460, quest=TrophyOfGloryQuests['khargax devourer']}), -- Shimmering Scale
@@ -132,7 +139,8 @@ map.nodes[53206880] = Rare({
 
 map.nodes[50806760] = Rare({
     id=77093,
-    note=L["roardan_sky_terror_note"],
+    requires=ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
+    note=L["roardan_sky_terror_note"] .. "\n\n" .. L["trophy_of_glory_note"],
     rewards={
         Achievement({id=9400, criteria=25569}),
         Item({item=113458, quest=TrophyOfGloryQuests['roardan sky terror']}), -- Ebony Feather
@@ -145,6 +153,8 @@ map.nodes[50806760] = Rare({
 
 map.nodes[38805120] = Rare({
     id=81529,
+    note=L["trophy_of_glory_note"],
+    requires=ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards={
         Achievement({id=9400, criteria=25571}),
         Item({item=113447, quest=TrophyOfGloryQuests['dessicus dead pools']}), -- Globe of Dead Water
@@ -153,6 +163,8 @@ map.nodes[38805120] = Rare({
 
 map.nodes[51804160] = Rare({
     id=81540,
+    note=L["trophy_of_glory_note"],
+    requires=ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards={
         Achievement({id=9400, criteria=25573}),
         Item({item=113444, quest=TrophyOfGloryQuests['erosian violent']}), -- Crystalized Steam
@@ -161,6 +173,8 @@ map.nodes[51804160] = Rare({
 
 map.nodes[58006360] = Rare({
     id=80785,
+    note=L["trophy_of_glory_note"],
+    requires=ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards={
         Achievement({id=9400, criteria=25575}),
         Item({item=113453, quest=TrophyOfGloryQuests['fungal praetorian']}), -- Precious Mushroom
@@ -325,8 +339,8 @@ map.nodes[53407820] = Rare({
     }
 }) -- Mother Araneae
 
--- @todo check location
-map.nodes[53305390] = Rare({
+-- TODO same as King Slime.
+map.nodes[53005350] = Rare({
     id=78269,
     quest=37413,
     note=L["in_cave"],
@@ -335,6 +349,14 @@ map.nodes[53305390] = Rare({
     },
     pois={
         POI({54105580}) -- Entrance
+    }
+}) -- Gnarljaw
+
+cragplume.nodes[55103550] = Rare({
+    id=78269,
+    quest=37413,
+    rewards={
+        Transmog({item=119397, slot=L["fist"]}) -- Gnarled Goren Jaw
     }
 }) -- Gnarljaw
 
@@ -436,7 +458,7 @@ map.nodes[44609220] = Rare({
 
 map.nodes[39407460] = Rare({
     id=85907,
-    quest=nil,
+    quest=36597,
     note=L["in_cave"],
     rewards={
         Transmog({item=118232, slot=L["mail"]}) -- Scaled Riverbeast Spaulders
@@ -446,16 +468,24 @@ map.nodes[39407460] = Rare({
     }
 }) -- Berthora
 
--- @todo check loc
+-- TODO better map handling. Maybe create local and extend in another note (because we don't want poi and note in submap.
 map.nodes[52205580] = Rare({
     id=78260,
-    quest=nil,
+    quest=37412,
     note=L["in_cave"],
     rewards={
         Transmog({item=119351, slot=L["cloak"]}) -- Slime Coated Kingscloak
     },
     pois={
-        POI({54005590}) -- Entrance
+        POI({54105580}) -- Entrance
+    }
+}) -- King Slime
+
+cragplume.nodes[41707490] = Rare({
+    id=78260,
+    quest=37412,
+    rewards={
+        Transmog({item=119351, slot=L["cloak"]}) -- Slime Coated Kingscloak
     }
 }) -- King Slime
 
@@ -753,7 +783,7 @@ map.nodes[57106530] = Treasure({
 }) -- Strange Spore
 
 map.nodes[47504130] = Treasure({
-    group=ns.groups.PEPE,
+    quest=39267,
     label=L["ninja_pepe_treasure"],
     note=L["ninja_pepe_note"],
     rewards={
@@ -762,8 +792,7 @@ map.nodes[47504130] = Treasure({
     }
 }) -- Ninja Pepe
 
--- @todo get id
-local AttackPlans = Treasure({
+local AttackPlans = Collectible({
     group=ns.groups.ATTACK_PLANS,
     icon='chest_pp',
     label=L["attack_plans_treasure"],
