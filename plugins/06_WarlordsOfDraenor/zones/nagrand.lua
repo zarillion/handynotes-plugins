@@ -17,16 +17,20 @@ local Mount = ns.reward.Mount
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=550, settings=true })
+local map = Map({ id = 550, settings = true })
 local nodes = map.nodes
 
 -------------------------------------------------------------------------------
 ------------------------------------ NODES ------------------------------------
 -------------------------------------------------------------------------------
 
-local Voidtalon = Node({icon=1094600, label=L['edge_of_reality'], rewards={
-    Mount({id=682, item=121815}), -- Voidtalon of the Dark Star
-}})
+local Voidtalon = Node({
+    icon = 1094600,
+    label = L['edge_of_reality'],
+    rewards = {
+        Mount({ id = 682, item = 121815 }), -- Voidtalon of the Dark Star
+    },
+})
 
 nodes[40504760] = Voidtalon
 nodes[45903140] = Voidtalon
@@ -37,11 +41,11 @@ nodes[57302670] = Voidtalon
 -------------------------------------------------------------------------------
 
 local Lukhok = Rare({
-    id=50981,
-    quest=nil,
-    note=L["multiple_spawn_note"],
-    rewards={
-        Mount({item=116661, id=614}), -- Mottled Meadowstomper
+    id = 50981,
+    quest = nil,
+    note = L["multiple_spawn_note"],
+    rewards = {
+        Mount({ item = 116661, id = 614 }), -- Mottled Meadowstomper
     },
 }) -- Luk'hok
 
@@ -53,11 +57,11 @@ nodes[84606360] = Lukhok
 nodes[86806560] = Lukhok
 
 local Nakk = Rare({
-    id=50990,
-    quest=nil,
-    note=L["multiple_spawn_note"],
-    rewards={
-        Mount({item=116659, id=612}), -- Bloodhoof Bull
+    id = 50990,
+    quest = nil,
+    note = L["multiple_spawn_note"],
+    rewards = {
+        Mount({ item = 116659, id = 612 }), -- Bloodhoof Bull
     },
 }) -- Nakk the Thunderer
 
@@ -72,8 +76,8 @@ nodes[50003440] = Nakk
 -------------------------------------------------------------------------------
 
 map.nodes[56200980] = PetBattle({
-    id=87110,
-    rewards={
-        Achievement({id=9724, criteria=27015}),
+    id = 87110,
+    rewards = {
+        Achievement({ id = 9724, criteria = 27015 }),
     },
 }) -- Tarr the Terrible

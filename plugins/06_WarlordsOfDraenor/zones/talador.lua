@@ -17,16 +17,20 @@ local Mount = ns.reward.Mount
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id=535, settings=true })
+local map = Map({ id = 535, settings = true })
 local nodes = map.nodes
 
 -------------------------------------------------------------------------------
 ------------------------------------ NODES ------------------------------------
 -------------------------------------------------------------------------------
 
-local Voidtalon = Node({icon=1094600, label=L['edge_of_reality'], rewards={
-    Mount({id=682, item=121815}), -- Voidtalon of the Dark Star
-}})
+local Voidtalon = Node({
+    icon = 1094600,
+    label = L['edge_of_reality'],
+    rewards = {
+        Mount({ id = 682, item = 121815 }), -- Voidtalon of the Dark Star
+    },
+})
 
 nodes[39705540] = Voidtalon
 nodes[46205260] = Voidtalon
@@ -38,11 +42,11 @@ nodes[51904120] = Voidtalon
 -------------------------------------------------------------------------------
 
 local Silthide = Rare({
-    id=51015,
-    quest=nil,
-    note=L["multiple_spawn_note"],
-    rewards={
-        Mount({item=116767, id=630}), -- Sapphire Riverbeast
+    id = 51015,
+    quest = nil,
+    note = L["multiple_spawn_note"],
+    rewards = {
+        Mount({ item = 116767, id = 630 }), -- Sapphire Riverbeast
     },
 }) -- Silthide
 
@@ -57,8 +61,8 @@ nodes[55608060] = Silthide
 -------------------------------------------------------------------------------
 
 map.nodes[49008040] = PetBattle({
-    id=87125,
-    rewards={
-        Achievement({id=9724, criteria=27016}),
+    id = 87125,
+    rewards = {
+        Achievement({ id = 9724, criteria = 27016 }),
     },
 }) -- Taralune

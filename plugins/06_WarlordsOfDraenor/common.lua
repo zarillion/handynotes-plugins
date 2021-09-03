@@ -13,4 +13,4 @@ ns.expansion = 6
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.ATTACK_PLANS = Group('attack_plans', 'chest_pp', {defaults=ns.GROUP_HIDDEN75})
+ns.groups.ATTACK_PLANS = Group('attack_plans', 'chest_pp', { defaults = ns.GROUP_HIDDEN75 })
