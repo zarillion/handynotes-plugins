@@ -41,7 +41,6 @@ map.nodes[57302670] = Voidtalon
 
 local Lukhok = Rare({
   id = 50981,
-  quest = nil,
   note = L["multiple_spawn_note"],
   rewards = {
     Mount({ item = 116661, id = 614 }), -- Mottled Meadowstomper
@@ -57,7 +56,6 @@ map.nodes[86806560] = Lukhok
 
 local Nakk = Rare({
   id = 50990,
-  quest = nil,
   note = L["multiple_spawn_note"],
   rewards = {
     Mount({ item = 116659, id = 612 }), -- Bloodhoof Bull
@@ -65,7 +63,6 @@ local Nakk = Rare({
 }) -- Nakk the Thunderer
 
 map.nodes[62801540] = Nakk
-map.nodes[62401700] = Nakk
 map.nodes[64601960] = Nakk
 map.nodes[55003500] = Nakk
 map.nodes[50003440] = Nakk

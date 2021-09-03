@@ -42,7 +42,6 @@ map.nodes[47702750] = Voidtalon
 
 local Gorok = Rare({
   id = 50992,
-  quest = nil,
   note = L["multiple_spawn_note"],
   rewards = {
     Mount({ item = 116674, id = 627 }), -- Great Greytusk
@@ -57,7 +56,6 @@ map.nodes[58001840] = Gorok
 
 map.nodes[13205060] = Rare({
   id = 81001,
-  quest = nil,
   rewards = {
     Mount({ item = 116794, id = 657 }), -- Garn Nighthowl
   },

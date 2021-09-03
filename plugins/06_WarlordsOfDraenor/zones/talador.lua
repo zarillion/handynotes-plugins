@@ -42,7 +42,6 @@ map.nodes[51904120] = Voidtalon
 
 local Silthide = Rare({
   id = 51015,
-  quest = nil,
   note = L["multiple_spawn_note"],
   rewards = {
     Mount({ item = 116767, id = 630 }), -- Sapphire Riverbeast

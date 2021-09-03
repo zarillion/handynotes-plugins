@@ -45,7 +45,6 @@ map.nodes[46607000] = Voidtalon
 
 local Pathrunner = Rare({
   id = 50883,
-  quest = nil,
   note = L["multiple_spawn_note"],
   rewards = {
     Mount({ item = 116773, id = 636 }), -- Swift Breezestrider
