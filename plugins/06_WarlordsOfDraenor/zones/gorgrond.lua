@@ -81,20 +81,6 @@ map.nodes[43203420] = Voidtalon
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-local Poundfist = Rare({
-  id = 50985,
-  note = L["poundfist_note"],
-  rewards = {
-    Mount({ item = 116792, id = 655 }), -- Sunhide Gronnling
-  },
-}) -- Poundfist
-
-map.nodes[41902500] = Poundfist
-map.nodes[51604310] = Poundfist
-map.nodes[45204660] = Poundfist
-map.nodes[47405530] = Poundfist
-map.nodes[43005570] = Poundfist
-
 map.nodes[62905520] = Rare({
   id = 75207,
   note = L["trophy_of_glory_note"],
@@ -324,20 +310,6 @@ map.nodes[54804620] = Rare({
   },
 }) -- Hunter Bal'ra
 
-local Alkali = Rare({
-  id = 86268,
-  quest = 37371,
-  note = L["multiple_spawn_note"],
-  rewards = {
-    Achievement({ id = 9678, criteria = 26597 }),
-    Transmog({ item = 119361, slot = L["leather"] }), -- Thorn-Knuckled Gloves
-  },
-}) -- Alkali
-
-map.nodes[56204080] = Alkali
-map.nodes[58604120] = Alkali
-map.nodes[71404040] = Alkali
-
 map.nodes[53407820] = Rare({
   id = 76473,
   quest = 34726,
@@ -345,27 +317,6 @@ map.nodes[53407820] = Rare({
     Transmog({ item = 118208, slot = L["dagger"] }), -- Broodmother's Kiss
   },
 }) -- Mother Araneae
-
--- TODO same as King Slime.
-map.nodes[53005350] = Rare({
-  id = 78269,
-  quest = 37413,
-  note = L["in_cave"],
-  rewards = {
-    Transmog({ item = 119397, slot = L["fist"] }), -- Gnarled Goren Jaw
-  },
-  pois = {
-    POI({ 54105580 }), -- Entrance
-  },
-}) -- Gnarljaw
-
-minimap['cragplume'].nodes[55103550] = Rare({
-  id = 78269,
-  quest = 37413,
-  rewards = {
-    Transmog({ item = 119397, slot = L["fist"] }), -- Gnarled Goren Jaw
-  },
-}) -- Gnarljaw
 
 map.nodes[38206620] = Rare({
   id = 79629,
@@ -475,27 +426,6 @@ map.nodes[39407460] = Rare({
   },
 }) -- Berthora
 
--- TODO better map handling. Maybe create local and extend in another note (because we don't want poi and note in submap.
-map.nodes[52205580] = Rare({
-  id = 78260,
-  quest = 37412,
-  note = L["in_cave"],
-  rewards = {
-    Transmog({ item = 119351, slot = L["cloak"] }), -- Slime Coated Kingscloak
-  },
-  pois = {
-    POI({ 54105580 }), -- Entrance
-  },
-}) -- King Slime
-
-minimap['cragplume'].nodes[41707490] = Rare({
-  id = 78260,
-  quest = 37412,
-  rewards = {
-    Transmog({ item = 119351, slot = L["cloak"] }), -- Slime Coated Kingscloak
-  },
-}) -- King Slime
-
 map.nodes[37608140] = Rare({
   id = 85970,
   quest = 36600,
@@ -519,6 +449,68 @@ map.nodes[64006180] = Rare({
     Transmog({ item = 118213, slot = L["leather"] }), -- Slimy Sea Serpent Skin Sabatons
   },
 }) -- Sylldros
+
+local Poundfist = Rare({
+  id = 50985,
+  note = L["poundfist_note"],
+  rewards = {
+    Mount({ item = 116792, id = 655 }), -- Sunhide Gronnling
+  },
+}) -- Poundfist
+
+map.nodes[41902500] = Poundfist
+map.nodes[51604310] = Poundfist
+map.nodes[45204660] = Poundfist
+map.nodes[47405530] = Poundfist
+map.nodes[43005570] = Poundfist
+
+local Alkali = Rare({
+  id = 86268,
+  quest = 37371,
+  note = L["multiple_spawn_note"],
+  rewards = {
+    Achievement({ id = 9678, criteria = 26597 }),
+    Transmog({ item = 119361, slot = L["leather"] }), -- Thorn-Knuckled Gloves
+  },
+}) -- Alkali
+
+map.nodes[56204080] = Alkali
+map.nodes[58604120] = Alkali
+map.nodes[71404040] = Alkali
+
+local Gnarljaw = Class('Gnarljaw', Rare, {
+  id = 78269,
+  quest = 37413,
+  rewards = {
+    Transmog({ item = 119397, slot = L["fist"] }), -- Gnarled Goren Jaw
+  },
+})
+
+minimap['cragplume'].nodes[55103550] = Gnarljaw()
+
+map.nodes[53005350] = Gnarljaw({
+  note = L["in_cave"],
+  pois = {
+    POI({ 54105580 }), -- Entrance
+  },
+})
+
+local KingSlime = Class('KingSlime', Rare, {
+  id = 78260,
+  quest = 37412,
+  rewards = {
+    Transmog({ item = 119351, slot = L["cloak"] }), -- Slime Coated Kingscloak
+  },
+})
+
+minimap['cragplume'].nodes[41707491] = KingSlime()
+
+map.nodes[52205581] = KingSlime({
+  note = L["in_cave"],
+  pois = {
+    POI({ 54105580 }), -- Entrance
+  },
+})
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
