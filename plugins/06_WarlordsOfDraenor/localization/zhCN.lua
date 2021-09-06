@@ -9,6 +9,7 @@ end
 -------------------------------------------------------------------------------
 
 L["edge_of_reality"] = "现世边界"
+L["edge_of_reality_note"] = nil
 L["treasures_discovered"] = "宝藏已发现"
 L["strange_spore_treasure"] = nil
 L["multiple_spawn_note"] = "在多个位置刷新。"

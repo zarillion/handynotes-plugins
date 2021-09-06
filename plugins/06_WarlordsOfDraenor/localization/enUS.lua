@@ -9,6 +9,7 @@ end
 -------------------------------------------------------------------------------
 
 L["edge_of_reality"] = "Edge of Reality"
+L["edge_of_reality_note"] = ns.color.Yellow("Edge of Reality") .. " portal will take you to a scenario, where you can loot {item:121815}."
 L["treasures_discovered"] = "treasures discovered"
 L["strange_spore_treasure"] = "Strange Spore"
 L["multiple_spawn_note"] = "Can spawn in multiple locations."

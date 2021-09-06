@@ -26,15 +26,19 @@ local map = Map({ id = 535, settings = true })
 local Voidtalon = Node({
   icon = 1094600,
   label = L['edge_of_reality'],
+  note = L['edge_of_reality_note'],
   rewards = {
     Mount({ id = 682, item = 121815 }), -- Voidtalon of the Dark Star
   },
 })
 
-map.nodes[39705540] = Voidtalon
-map.nodes[46205260] = Voidtalon
-map.nodes[47004800] = Voidtalon
-map.nodes[51904120] = Voidtalon
+map.nodes[39885561] = Voidtalon
+map.nodes[46265256] = Voidtalon
+map.nodes[47164882] = Voidtalon
+map.nodes[52144113] = Voidtalon
+map.nodes[52252587] = Voidtalon
+map.nodes[52683437] = Voidtalon
+map.nodes[50963241] = Voidtalon
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

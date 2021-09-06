@@ -11,6 +11,7 @@ end
 -------------------------------------------------------------------------------
 
 L["edge_of_reality"] = "Acantilado de la Realidad"
+L["edge_of_reality_note"] = nil
 L["treasures_discovered"] = nil
 L["strange_spore_treasure"] = nil
 L["multiple_spawn_note"] = nil
