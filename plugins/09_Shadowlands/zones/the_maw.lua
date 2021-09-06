@@ -127,11 +127,13 @@ map.nodes[39014119] = Rare({
 map.nodes[27731305] = Rare({
     id=171317,
     quest=61106,
-    noassault=VENTHYR,
     rlabel=ns.status.LightBlue('+80 '..L["rep"]),
     rewards={
         Achievement({id=14744, criteria=49844}),
         Transmog({item=183887, slot=L["1h_sword"]}) -- Suirhtaned, Blade of the Heir
+    },
+    pois={
+        POI({28601930}) -- during venthyr assault, change place to here
     }
 }) -- Conjured Death
 
