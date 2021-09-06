@@ -510,7 +510,7 @@ map.nodes[58233999] = Treasure({
     quest=61049,
     note=L["larion_harness"],
     rewards={
-        Achievement({id=14311, criteria=50051}),
+        Achievement({id=14311, criteria=50051})
         -- Item({item=182652})
     },
     pois={
