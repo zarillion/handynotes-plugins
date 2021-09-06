@@ -28,7 +28,8 @@ local Voidtalon = Node({
   label = L['edge_of_reality'],
   note = L['edge_of_reality_note'],
   rewards = {
-    Mount({ id = 682, item = 121815 }), -- Voidtalon of the Dark Star
+    -- Voidtalon of the Dark Star
+    Mount({ id = 682, item = 121815 }),
   },
 })
 
@@ -46,11 +47,12 @@ map.nodes[50963241] = Voidtalon
 
 local Silthide = Rare({
   id = 51015,
-  note = L["multiple_spawn_note"],
+  note = L['multiple_spawn_note'],
   rewards = {
-    Mount({ item = 116767, id = 630 }), -- Sapphire Riverbeast
+    -- Sapphire Riverbeast
+    Mount({ item = 116767, id = 630 }),
   },
-}) -- Silthide
+})
 
 map.nodes[78905540] = Silthide
 map.nodes[67406000] = Silthide
@@ -62,9 +64,10 @@ map.nodes[55608060] = Silthide
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
+-- Taralune
 map.nodes[49008040] = PetBattle({
   id = 87125,
   rewards = {
     Achievement({ id = 9724, criteria = 27016 }),
   },
-}) -- Taralune
+})

@@ -28,7 +28,8 @@ local Voidtalon = Node({
   label = L['edge_of_reality'],
   note = L['edge_of_reality_note'],
   rewards = {
-    Mount({ id = 682, item = 121815 }), -- Voidtalon of the Dark Star
+    -- Voidtalon of the Dark Star
+    Mount({ id = 682, item = 121815 }),
   },
 })
 
@@ -45,11 +46,12 @@ map.nodes[46647018] = Voidtalon
 
 local Pathrunner = Rare({
   id = 50883,
-  note = L["multiple_spawn_note"],
+  note = L['multiple_spawn_note'],
   rewards = {
-    Mount({ item = 116773, id = 636 }), -- Swift Breezestrider
+    -- Swift Breezestrider
+    Mount({ item = 116773, id = 636 }),
   },
-}) -- Pathrunner
+})
 
 map.nodes[39603660] = Pathrunner
 map.nodes[43003220] = Pathrunner
@@ -62,9 +64,10 @@ map.nodes[56205240] = Pathrunner
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
+-- Ashlei
 map.nodes[50003120] = PetBattle({
   id = 87124,
   rewards = {
     Achievement({ id = 9724, criteria = 27012 }),
   },
-}) -- Ashlei
+})

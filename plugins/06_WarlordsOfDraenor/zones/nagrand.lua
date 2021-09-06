@@ -28,7 +28,8 @@ local Voidtalon = Node({
   label = L['edge_of_reality'],
   note = L['edge_of_reality_note'],
   rewards = {
-    Mount({ id = 682, item = 121815 }), -- Voidtalon of the Dark Star
+    -- Voidtalon of the Dark Star
+    Mount({ id = 682, item = 121815 }),
   },
 })
 
@@ -42,11 +43,12 @@ map.nodes[57262656] = Voidtalon
 
 local Lukhok = Rare({
   id = 50981,
-  note = L["multiple_spawn_note"],
+  note = L['multiple_spawn_note'],
   rewards = {
-    Mount({ item = 116661, id = 614 }), -- Mottled Meadowstomper
+    -- Mottled Meadowstomper
+    Mount({ item = 116661, id = 614 }),
   },
-}) -- Luk'hok
+})
 
 map.nodes[66604400] = Lukhok
 map.nodes[76203180] = Lukhok
@@ -57,9 +59,10 @@ map.nodes[86806560] = Lukhok
 
 local Nakk = Rare({
   id = 50990,
-  note = L["multiple_spawn_note"],
+  note = L['multiple_spawn_note'],
   rewards = {
-    Mount({ item = 116659, id = 612 }), -- Bloodhoof Bull
+    -- Bloodhoof Bull
+    Mount({ item = 116659, id = 612 }),
   },
 }) -- Nakk the Thunderer
 
@@ -72,9 +75,10 @@ map.nodes[50003440] = Nakk
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
+-- Tarr the Terrible
 map.nodes[56200980] = PetBattle({
   id = 87110,
   rewards = {
     Achievement({ id = 9724, criteria = 27015 }),
   },
-}) -- Tarr the Terrible
+})
