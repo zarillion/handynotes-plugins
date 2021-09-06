@@ -28,10 +28,13 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = Map({ id = 543, settings = true })
+
+-- Workaround for Luacheck 331.
+local maps = {}
+local minimap = maps
+
 -- Minimaps in Gorgrond.
-local minimap = {
-  ['cragplume'] = Map({ id = 549, settings = true }),
-}
+minimap['cragplume'] = Map({ id = 549, settings = true })
 
 -- Quests for Trophy of Glory.
 local TrophyOfGloryQuests = {
