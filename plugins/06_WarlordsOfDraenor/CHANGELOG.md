@@ -19,6 +19,13 @@
   * Toys / Pets / Transmogs
 
 
+* Talador
+  * [Silthide](https://www.wowhead.com/npc=51015/silthide)
+  * Rares for [Heralds of the Legion](https://www.wowhead.com/achievement=9638/heralds-of-the-legion) achievement
+  * Rares for [Cut off the Head](https://www.wowhead.com/achievement=9633/cut-off-the-head) achievement
+  * Toys / Pets / Transmogs
+
+
 * Tanaan Jungle
   * Rares for [Jungle Stalker](https://www.wowhead.com/achievement=10070/jungle-stalker) achievement
   * Pet Battles for [Tiny Terrors in Tanaan](https://www.wowhead.com/achievement=10052/tiny-terrors-in-tanaan)

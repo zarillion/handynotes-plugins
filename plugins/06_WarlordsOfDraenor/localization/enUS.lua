@@ -55,6 +55,27 @@ L['options_icons_attack_plans'] = "{achievement:9656}"
 L['options_icons_attack_plans_desc'] = "Display the locations of Iron Horde Attack Orders for {achievement:9656}."
 
 -------------------------------------------------------------------------------
+------------------------------------ TALADOR ----------------------------------
+-------------------------------------------------------------------------------
+
+L['wandering_vindicator_note'] = "After defeating him, you need to loot his sword from the stone."
+L['legion_vanguard_note'] = "{npc:88494} is summoned from portal. Kill {npc:83023} around portal and any other, that comes out to summon him."
+L['taladorantula_note'] = "Squish eggs sacks and kill {npc:75258} around to summon {npc:77634}. Takes around 3 to 5 minutes of squishing."
+L['shirzir_note'] = "In underground tomb."
+L['kharazos_galzomar_sikthiss_note'] = "{npc:78710}, {npc:78713} and {npc:78715} share the same drop, spawn and path."
+L['orumo_the_observer_note'] = [[
+{npc:87668} requires 5 people standing on runes before him to be able to kill him.
+
+Alternatively, Warlocks can use {spell:48020} and Monks {spell:119996} to teleport on runes, which decreases number of required people to 3.
+
+Another option is to use 5 of your own characters, move them one by one to runes and logout them there.
+
+Last option is to use only one character. Go to rune, lit it up, teleport out and repeat for each rune. Best way is to set up {item:6948} somewhere close.
+
+You can combine any of methods above to summon {npc:87668}.
+]]
+
+-------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
 -------------------------------------------------------------------------------
 
