@@ -1,11 +1,13 @@
 -------------------------------------------------------------------------------
 --------------------------------- LOAD MODULE ---------------------------------
 -------------------------------------------------------------------------------
-
 local luaunit = require('luaunit')
 
 local module, err = loadfile('../core/class.lua')
-if err then print(err); os.exit() end
+if err then
+    print(err);
+    os.exit()
+end
 
 module('TEST', _G)
 
@@ -15,7 +17,7 @@ module('TEST', _G)
 
 TestClass = {}
 
-function TestClass:testConstructor ()
+function TestClass:testConstructor()
     local Node = Class('Node')
 
     -- Verify __tostring function works
@@ -30,14 +32,14 @@ function TestClass:testConstructor ()
     luaunit.assertErrorMsgContains(msg, Class, 123)
 end
 
-function TestClass:testDefaultInitMethod ()
+function TestClass:testDefaultInitMethod()
     -- Verify all base classes are given a default noop Initialize() method
     local Node = Class('Node')
     luaunit.assertIsFunction(Node.Initialize)
     luaunit.assertIsNil(Node.Initialize())
 end
 
-function TestClass:testAttributeAssignment ()
+function TestClass:testAttributeAssignment()
     -- Verify class attributes can be set directly
     local Node = Class('Node')
     Node.icon = 'default'
@@ -49,20 +51,16 @@ function TestClass:testAttributeAssignment ()
     luaunit.assertEquals(Node.scale, 2)
 end
 
-function TestClass:testAttributesParameter ()
+function TestClass:testAttributesParameter()
     -- Verify class attributes can be set using the attrs param
-    local Node = Class('Node', nil, {
-        icon = 'default',
-        alpha = 1,
-        scale = 2
-    })
+    local Node = Class('Node', nil, {icon = 'default', alpha = 1, scale = 2})
 
     luaunit.assertEquals(Node.icon, 'default')
     luaunit.assertEquals(Node.alpha, 1)
     luaunit.assertEquals(Node.scale, 2)
 end
 
-function TestClass:testInstantiation ()
+function TestClass:testInstantiation()
     -- Verify instances can be created
     local Node = Class('Node')
     local node = Node()
@@ -72,23 +70,23 @@ function TestClass:testInstantiation ()
     luaunit.assertIs(node.__class, Node)
 end
 
-function TestClass:testInstantiationWithAttributes ()
+function TestClass:testInstantiationWithAttributes()
     -- Verify instances can be created with initial attributes
     local Node = Class('Node')
     function Node:Initialize(attrs)
         for k, v in pairs(attrs or {}) do self[k] = v end
     end
-    local node = Node({ foo='bar' })
+    local node = Node({foo = 'bar'})
 
     luaunit.assertIsNil(Node.foo)
     luaunit.assertEquals(node.foo, 'bar')
 end
 
-function TestClass:testInitMethod ()
+function TestClass:testInitMethod()
     -- Verify class Initialize() method is called upon instantiation
-    local Node = Class('Node', nil, { scale = 1 })
+    local Node = Class('Node', nil, {scale = 1})
 
-    function Node:Initialize ()
+    function Node:Initialize()
         self.icon = 'default'
         self.scale = self.scale + 1
     end
@@ -99,38 +97,36 @@ function TestClass:testInitMethod ()
     luaunit.assertEquals(node.scale, 2)
 end
 
-function TestClass:testClassMethod ()
+function TestClass:testClassMethod()
     -- Class methods should be called with the instance as self
-    local Node = Class('Node', nil, { icon='default' })
+    local Node = Class('Node', nil, {icon = 'default'})
     function Node:Initialize(attrs)
         for k, v in pairs(attrs or {}) do self[k] = v end
     end
     function Node:update() return 123 end
     function Node:getIcon() return self.icon end
-    local node = Node({ icon='treasure' })
+    local node = Node({icon = 'treasure'})
 
     luaunit.assertEquals(node:update(), 123)
     luaunit.assertEquals(node:getIcon(), 'treasure')
 end
 
-function TestClass:testGetter ()
+function TestClass:testGetter()
     -- Getter functions should run on instance attribute access
     -- Getter functions should *not* run on class attribute access
-    local Node = Class('Node', nil, { _icon = 'default' })
-    function Node.getters:icon () return self._icon end
+    local Node = Class('Node', nil, {_icon = 'default'})
+    function Node.getters:icon() return self._icon end
 
     luaunit.assertIsFunction(Node.getters.icon)
     luaunit.assertIsNil(Node.icon)
     luaunit.assertEquals(Node().icon, 'default')
 end
 
-function TestClass:testGetterFromAttrs ()
+function TestClass:testGetterFromAttrs()
     -- Getter functions should be settable from the attrs parameter
     local Node = Class('Node', nil, {
         _icon = 'default',
-        getters = {
-            icon = function (self) return self._icon end
-        }
+        getters = {icon = function(self) return self._icon end}
     })
 
     luaunit.assertIsFunction(Node.getters.icon)
@@ -138,11 +134,11 @@ function TestClass:testGetterFromAttrs ()
     luaunit.assertEquals(Node().icon, 'default')
 end
 
-function TestClass:testSetter ()
+function TestClass:testSetter()
     -- Setter functions should run on instance attribute access
     -- Setter functions should *not* run on class attribute access
     local Node = Class('Node', nil)
-    function Node.setters:icon (value) self._icon = value end
+    function Node.setters:icon(value) self._icon = value end
     local node = Node()
 
     luaunit.assertIsFunction(Node.setters.icon)
@@ -157,12 +153,10 @@ function TestClass:testSetter ()
     luaunit.assertEquals(node._icon, 'default')
 end
 
-function TestClass:testSetterFromAttrs ()
+function TestClass:testSetterFromAttrs()
     -- Setter functions should be settable from the attrs parameter
     local Node = Class('Node', nil, {
-        setters = {
-            icon = function (self, value) self._icon = value end
-        }
+        setters = {icon = function(self, value) self._icon = value end}
     })
     local node = Node()
 
@@ -178,14 +172,14 @@ function TestClass:testSetterFromAttrs ()
     luaunit.assertEquals(node._icon, 'default')
 end
 
-function TestClass:testSetterCalledFromInstanceAttrs ()
+function TestClass:testSetterCalledFromInstanceAttrs()
     -- Setter functions should be called from initial attributes
     local Node = Class('Node', nil)
     function Node:Initialize(attrs)
         for k, v in pairs(attrs or {}) do self[k] = v end
     end
-    function Node.setters:icon (value) self._icon = value end
-    local node = Node({ icon='default' })
+    function Node.setters:icon(value) self._icon = value end
+    local node = Node({icon = 'default'})
 
     luaunit.assertIsNil(Node.icon)
     luaunit.assertIsNil(node.icon)
@@ -199,13 +193,13 @@ end
 
 TestInheritance = {}
 
-function TestInheritance:testInitOverride ()
+function TestInheritance:testInitOverride()
     -- Verify subclasses can override the Initialize() method
     local Node = Class('Node')
     local Rare = Class('Rare', Node)
 
-    function Node:Initialize () self.scale = 1 end
-    function Rare:Initialize () self.icon = 'skull' end
+    function Node:Initialize() self.scale = 1 end
+    function Rare:Initialize() self.icon = 'skull' end
 
     local node = Node()
     local rare = Rare()
@@ -220,13 +214,13 @@ function TestInheritance:testInitOverride ()
     luaunit.assertEquals(rare.icon, 'skull')
 end
 
-function TestInheritance:testAttributeInheritance ()
+function TestInheritance:testAttributeInheritance()
     -- Class attributes should be interited and accessible from instances
-    local Node = Class('Node', nil, { icon='default', scale=1 })
+    local Node = Class('Node', nil, {icon = 'default', scale = 1})
     function Node:Initialize(attrs)
         for k, v in pairs(attrs or {}) do self[k] = v end
     end
-    local Rare = Class('Rare', Node, { alpha=1, scale=2 })
+    local Rare = Class('Rare', Node, {alpha = 1, scale = 2})
 
     luaunit.assertEquals(Rare.icon, 'default')
     luaunit.assertEquals(Rare.alpha, 1)
@@ -236,7 +230,7 @@ function TestInheritance:testAttributeInheritance ()
     luaunit.assertEquals(tostring(Rare), '<class "Rare">')
 
     local node = Node()
-    local rare = Rare({ icon='skull' })
+    local rare = Rare({icon = 'skull'})
 
     luaunit.assertStrMatches(tostring(node), '<Node instance at [0-9a-fx]+>')
     luaunit.assertStrMatches(tostring(rare), '<Rare instance at [0-9a-fx]+>')
@@ -247,7 +241,7 @@ function TestInheritance:testAttributeInheritance ()
     luaunit.assertIsNil(rare.label)
 end
 
-function TestInheritance:testMethodInheritance ()
+function TestInheritance:testMethodInheritance()
     -- Parent class methods should be accessible and overridable
     local Node = Class('Node')
     function Node:Initialize(attrs)
@@ -258,8 +252,8 @@ function TestInheritance:testMethodInheritance ()
     local Rare = Class('Rare', Node)
     function Rare:update() return 456 end
 
-    local node = Node({ icon='treasure' })
-    local rare = Rare({ icon='skull' })
+    local node = Node({icon = 'treasure'})
+    local rare = Rare({icon = 'skull'})
 
     luaunit.assertEquals(node:update(), 123)
     luaunit.assertEquals(node:getIcon(), 'treasure')
@@ -267,20 +261,20 @@ function TestInheritance:testMethodInheritance ()
     luaunit.assertEquals(rare:getIcon(), 'skull')
 end
 
-function TestInheritance:testGetterInheritance ()
+function TestInheritance:testGetterInheritance()
     -- Verify getter is inherited from parent
     local Node = Class('Node')
     function Node:Initialize(attrs)
         for k, v in pairs(attrs or {}) do self[k] = v end
     end
-    function Node.getters:id () return 123 end
+    function Node.getters:id() return 123 end
     local Rare = Class('Rare', Node)
 
     luaunit.assertIsNil(Node.id)
     luaunit.assertIsNil(Rare.id)
     luaunit.assertEquals(Node().id, 123)
     luaunit.assertEquals(Rare().id, 123)
-    luaunit.assertEquals(Rare({ id=789 }).id, 789)
+    luaunit.assertEquals(Rare({id = 789}).id, 789)
 
     -- Verify static value in child overrides getter in parent
     Rare.id = 456
@@ -289,26 +283,26 @@ function TestInheritance:testGetterInheritance ()
     luaunit.assertEquals(Rare.id, 456)
     luaunit.assertEquals(Node().id, 123)
     luaunit.assertEquals(Rare().id, 456)
-    luaunit.assertEquals(Rare({ id=789 }).id, 789)
+    luaunit.assertEquals(Rare({id = 789}).id, 789)
 
     -- Verify getter in child overrides getter in parent
     Rare.id = nil
-    function Rare.getters:id () return 456 end
+    function Rare.getters:id() return 456 end
 
     luaunit.assertIsNil(Node.id)
     luaunit.assertIsNil(Rare.id)
     luaunit.assertEquals(Node().id, 123)
     luaunit.assertEquals(Rare().id, 456)
-    luaunit.assertEquals(Rare({ id=789 }).id, 789)
+    luaunit.assertEquals(Rare({id = 789}).id, 789)
 end
 
-function TestInheritance:testSetterInheritance ()
+function TestInheritance:testSetterInheritance()
     -- Verify setters are inherited from parent
     local Node = Class('Node')
     function Node:Initialize(attrs)
         for k, v in pairs(attrs or {}) do self[k] = v end
     end
-    function Node.setters:id (value) self._id = value end
+    function Node.setters:id(value) self._id = value end
     local Rare = Class('Rare', Node)
 
     Rare.id = 123
@@ -317,13 +311,13 @@ function TestInheritance:testSetterInheritance ()
     luaunit.assertIsNil(Rare._id)
 
     Rare.id = nil
-    local rare = Rare({ id = 456 })
+    local rare = Rare({id = 456})
 
     luaunit.assertIsNil(rare.id)
     luaunit.assertEquals(rare._id, 456)
 
     -- Verify setter in child overrides setter in parent
-    function Rare.setters:id (value) self._id = value + 10 end
+    function Rare.setters:id(value) self._id = value + 10 end
 
     rare.id = 10
 
@@ -344,7 +338,7 @@ end
 
 TestHelpers = {}
 
-function TestHelpers:testIsInstance ()
+function TestHelpers:testIsInstance()
     -- IsInstance() should check the inheritance chain for a matching class
     local Node = Class('Node')
     local Rare = Class('Rare', Node)
@@ -356,14 +350,14 @@ function TestHelpers:testIsInstance ()
     luaunit.assertIsFalse(IsInstance(NPC(), Node))
 end
 
-function TestHelpers:testClone ()
+function TestHelpers:testClone()
     -- Clone() should duplicate a class instance and override attributes
-    local Node = Class('Node', nil, { icon='default' })
+    local Node = Class('Node', nil, {icon = 'default'})
     function Node:Initialize(attrs)
         for k, v in pairs(attrs or {}) do self[k] = v end
     end
-    local node1 = Node({ scale=1 })
-    local node2 = Clone(node1, { scale=2 })
+    local node1 = Node({scale = 1})
+    local node2 = Clone(node1, {scale = 2})
 
     luaunit.assertNotIs(node1, node2)
     luaunit.assertIsTrue(IsInstance(node1, Node))

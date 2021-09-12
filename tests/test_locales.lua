@@ -1,7 +1,6 @@
 -------------------------------------------------------------------------------
 --------------------------------- LOAD MODULE ---------------------------------
 -------------------------------------------------------------------------------
-
 local luaunit = require('luaunit')
 
 -------------------------------------------------------------------------------
@@ -11,19 +10,24 @@ function UnitFactionGroup() return 'Horde' end
 format = string.format -- doesn't support %1$s syntax!
 
 local ColorModule, err = loadfile('../core/colors.lua')
-if err then print(err); os.exit() end
+if err then
+    print(err);
+    os.exit()
+end
 
 -------------------------------------------------------------------------------
 ------------------------------- HELPER FUNCTIONS ------------------------------
 -------------------------------------------------------------------------------
 
 local function Locales()
-    local cmd = 'find ../core/localization ../plugins/*/localization -name "*.lua"'
+    local cmd =
+        'find ../core/localization ../plugins/*/localization -name "*.lua"'
     local iter = io.popen(cmd):lines()
-    return function ()
+    return function()
         local file = iter()
         if not file then return end
-        local plugin = file:find('/core/') and 'Core' or file:sub(file:find('%d%d_%a+')):sub(4)
+        local plugin = file:find('/core/') and 'Core' or
+                           file:sub(file:find('%d%d_%a+')):sub(4)
         return plugin, file:sub(-8, -5), file:sub(0, -10)
     end
 end
@@ -63,7 +67,7 @@ end
 TestLocales = {}
 
 function TestLocales:CreateNamespace(expectedKeys)
-    local ns = { keys = {}, seen = {}, expectedKeys = expectedKeys }
+    local ns = {keys = {}, seen = {}, expectedKeys = expectedKeys}
     ColorModule('TEST', ns)
 
     function ns.NewLocale(locale)
@@ -82,7 +86,8 @@ function TestLocales:CreateNamespace(expectedKeys)
                 ns.seen[key] = true
                 ns.keys[#ns.keys + 1] = key
                 if expectedKeys and key ~= expectedKeys[#ns.keys] then
-                    error(format('expected "%s" instead of "%s"', expectedKeys[#ns.keys], key))
+                    error(format('expected "%s" instead of "%s"',
+                        expectedKeys[#ns.keys], key))
                 end
             end
         })
@@ -96,13 +101,16 @@ function TestLocales:LoadLocale(locale, dir, expectedKeys)
     local file = ('%s/%s.lua'):format(dir, locale)
     local namespace = self:CreateNamespace(expectedKeys)
     local module, err = loadfile(file)
-    if err then print(err); os.exit() end
+    if err then
+        print(err);
+        os.exit()
+    end
     module('TEST', namespace)
     return namespace
 end
 
 function TestLocales:LocalTestFactory(locale, dir)
-    return function ()
+    return function()
         if locale == 'enUS' then
             -- Just attempt to load the file, nothing else to do
             self:LoadLocale(locale, dir)
@@ -112,7 +120,8 @@ function TestLocales:LocalTestFactory(locale, dir)
             local rrCC = self:LoadLocale(locale, dir, enUS.keys)
 
             if #rrCC.keys < #enUS.keys then
-                error(format('missing %d strings at eof', #enUS.keys - #rrCC.keys))
+                error(format('missing %d strings at eof',
+                    #enUS.keys - #rrCC.keys))
             end
         end
     end
