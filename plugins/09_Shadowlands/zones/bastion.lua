@@ -871,6 +871,7 @@ map.nodes[68704340] = HUMILITY
 map.nodes[69304110] = HUMILITY
 
 map.nodes[57927896] = PURITY
+map.nodes[60127258] = PURITY
 map.nodes[61107610] = PURITY
 map.nodes[63607370] = PURITY
 map.nodes[63717413] = PURITY
