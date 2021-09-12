@@ -1,7 +1,6 @@
 -------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
-
 local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
@@ -17,7 +16,7 @@ local Mount = ns.reward.Mount
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({ id = 539, settings = true })
+local map = Map({id = 539, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ NODES ------------------------------------
@@ -29,8 +28,8 @@ local Voidtalon = Node({
     note = L['edge_of_reality_note'],
     rewards = {
         -- Voidtalon of the Dark Star
-        Mount({ id = 682, item = 121815 }),
-    },
+        Mount({id = 682, item = 121815})
+    }
 })
 
 map.nodes[41907567] = Voidtalon
@@ -49,8 +48,8 @@ local Pathrunner = Rare({
     note = L['multiple_spawn_note'],
     rewards = {
         -- Swift Breezestrider
-        Mount({ item = 116773, id = 636 }),
-    },
+        Mount({item = 116773, id = 636})
+    }
 })
 
 map.nodes[39603660] = Pathrunner
@@ -67,7 +66,5 @@ map.nodes[56205240] = Pathrunner
 -- Ashlei
 map.nodes[50003120] = PetBattle({
     id = 87124,
-    rewards = {
-        Achievement({ id = 9724, criteria = 27012 }),
-    },
+    rewards = {Achievement({id = 9724, criteria = 27012})}
 })
