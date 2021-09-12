@@ -54,26 +54,40 @@ function run-formatter() {
 }
 
 function check-formatter() {
+    local files=($(_lua_files))
+    declare -a errors=()
+
+    set +o errexit
     if [[ -n ${VERBOSE:-} ]]; then
-        lua-format $(_lua_files) --verbose --check
+        errors=($(lua-format ${files[@]} --verbose --check))
     else
         # mimic the dotted unit-test output
-        set +o errexit
         declare -i count=0
-        for file in $(_lua_files); do
+        for file in ${files[@]}; do
             lua-format "$file" --check > /dev/null
             lua_format_exit=$?
             if [ $lua_format_exit == 0 ]; then
                 echo -n "."
             else
-                echo -e "\nFormatting required: $file\n"
-                exit $lua_format_exit
+                echo -n "f"
+                errors+=($file)
             fi
             count=$(( count + 1 ))
             if [ $(( count % 100 )) == 0 ]; then echo; fi
         done
-        echo -e "\nChecked $count files, no formatting issues found.\n"
-        set -o errexit
+        echo
+    fi
+    set -o errexit
+
+    if [[ ${#errors[@]} == 0 ]]; then
+        echo -e "\nChecked ${#files[@]} files, no formatting issues found.\n"
+    else
+        echo -e "\nChecked ${#files[@]} files, ${#errors[@]} formatting issues found:"
+        for file in ${errors[@]}; do
+            echo -e "  \033[1;31m$file\033[0m"
+        done
+        echo
+        exit 1
     fi
 }
 
