@@ -7,6 +7,9 @@ set -o pipefail
 
 unset VERBOSE
 
+# Place ~/.luarocks/bin in the $PATH in case the luarocks installation is local
+export PATH="$HOME/.luarocks/bin:$PATH"
+
 function usage() {
     echo "usage: ${0##*/} [-h/--help] [-v/--verbose] [command]"
 }

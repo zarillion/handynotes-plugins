@@ -10,6 +10,8 @@ jobs:
   build:
     name: Lint & Test
     runs-on: ubuntu-latest
+    env:
+      lua-version: 5.3
 
     steps:
       - uses: actions/checkout@v2
@@ -17,20 +19,40 @@ jobs:
       - name: Install lua
         uses: leafo/gh-actions-lua@v8.0.0
         with:
-          luaVersion: 5.3
+          luaVersion: ${{ env.lua-version }}
 
-      - name: Install luarocks
-        uses: leafo/gh-actions-luarocks@v4.0.0
+      - name: Install luarocks v3
+        run: |
+          wget https://luarocks.org/releases/luarocks-3.7.0.tar.gz
+          tar zxpf luarocks-3.7.0.tar.gz
+          cd luarocks-3.7.0
+          ./configure && make && sudo make install
+
+      # The lua-format library takes a while to compile, so we cache it
+      # Update the YYYYMMDD component of the cache key if you want to force an update
+      - name: Cache/restore ~/.luarocks directory
+        uses: actions/cache@v2
+        with:
+            path: ~/.luarocks
+            key: ${{ runner.os }}-cache-lua-rocks-${{ env.lua-version }}-20210912
 
       - name: Install luacheck
-        run: luarocks install luacheck
+        run: |
+          if [[ ! -f ~/.luarocks/bin/luacheck ]]; then
+            luarocks --local install luacheck
+          fi
+
+      - name: Install lua-format
+        run: |
+          if [[ ! -f ~/.luarocks/bin/lua-format ]]; then
+            luarocks --local install --server=https://luarocks.org/dev luaformatter
+          fi
 
       - name: Lint sources
-        run: |
-          luacheck core plugins tests/test_*.lua
+        run: ./build.sh -v run-linter
 
       - name: Run tests
-        run: |
-          lua test_class.lua -v
-          lua test_locales.lua -v
-        working-directory: tests
+        run: ./build.sh -v run-tests
+
+      - name: Run format checks
+        run: ./build.sh -v check-formatter
