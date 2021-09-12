@@ -79,8 +79,7 @@ L['context_menu_add_tomtom'] = '加入到 TomTom'
 L['context_menu_hide_node'] = '隐藏此项'
 L['context_menu_restore_hidden_nodes'] = '恢复所有隐藏项'
 
-L['map_button_text'] =
-    '调整此地图上的图标显示，透明度和缩放。'
+L['map_button_text'] = '调整此地图上的图标显示，透明度和缩放。'
 
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
@@ -89,12 +88,9 @@ L['map_button_text'] =
 L['options_global'] = '全局'
 L['options_zones'] = '区域'
 
-L['options_general_description'] =
-    '控制该项的特性及其奖励的设置。'
-L['options_global_description'] =
-    '控制全部区域中全部的项显示的设置。'
-L['options_zones_description'] =
-    '控制每个单独区域中的项显示的设置。'
+L['options_general_description'] = '控制该项的特性及其奖励的设置。'
+L['options_global_description'] = '控制全部区域中全部的项显示的设置。'
+L['options_zones_description'] = '控制每个单独区域中的项显示的设置。'
 
 L['options_open_settings_panel'] = '打开设置面板…'
 L['options_open_world_map'] = '打开世界地图'
@@ -111,55 +107,41 @@ L['options_opacity_desc'] = '0 = 透明, 1 = 不透明'
 ---------------------------------- VISIBILITY ---------------------------------
 
 L['options_show_worldmap_button'] = '显示世界地图按钮'
-L['options_show_worldmap_button_desc'] =
-    '在世界地图右上角添加一个快速切换下拉菜单。'
+L['options_show_worldmap_button_desc'] = '在世界地图右上角添加一个快速切换下拉菜单。'
 
 L['options_visibility_settings'] = '可见性'
 L['options_general_settings'] = '通用'
 L['options_show_completed_nodes'] = '显示已完成'
-L['options_show_completed_nodes_desc'] =
-    '显示全部项即使它们今天已被拾取或完成。'
+L['options_show_completed_nodes_desc'] = '显示全部项即使它们今天已被拾取或完成。'
 L['options_toggle_hide_done_rare'] = '隐藏所有拾取已解锁的稀有'
-L['options_toggle_hide_done_rare_desc'] =
-    '隐藏所有拾取已解锁的稀有。'
+L['options_toggle_hide_done_rare_desc'] = '隐藏所有拾取已解锁的稀有。'
 L['options_toggle_hide_minimap'] = '隐藏小地图上的所有图标'
-L['options_toggle_hide_minimap_desc'] =
-    '在小地图上隐藏此插件的所有图标，只会在世界地图上显示。'
+L['options_toggle_hide_minimap_desc'] = '在小地图上隐藏此插件的所有图标，只会在世界地图上显示。'
 L['options_toggle_maximized_enlarged'] = '世界地图最大化时图标放大'
-L['options_toggle_maximized_enlarged_desc'] =
-    '当世界地图最大化，放大全部图标。'
+L['options_toggle_maximized_enlarged_desc'] = '当世界地图最大化，放大全部图标。'
 L['options_toggle_use_char_achieves'] = '使用角色成就'
-L['options_toggle_use_char_achieves_desc'] =
-    '显示成就进度为此角色而不是全部账号。'
+L['options_toggle_use_char_achieves_desc'] = '显示成就进度为此角色而不是全部账号。'
 L['options_toggle_per_map_settings'] = '使用区域特定设置'
-L['options_toggle_per_map_settings_desc'] =
-    '应用切换，缩放和透明度设置到每个区域。'
+L['options_toggle_per_map_settings_desc'] = '应用切换，缩放和透明度设置到每个区域。'
 L['options_restore_hidden_nodes'] = '恢复隐藏项'
-L['options_restore_hidden_nodes_desc'] =
-    '使用右击菜单恢复全部隐藏项。'
+L['options_restore_hidden_nodes_desc'] = '使用右击菜单恢复全部隐藏项。'
 
 L['options_rewards_settings'] = '奖励'
 L['options_reward_types'] = '显示奖励类型'
 L['options_mount_rewards'] = '显示坐骑奖励'
-L['options_mount_rewards_desc'] =
-    '在提示和追踪其收集状态显示坐骑奖励。'
+L['options_mount_rewards_desc'] = '在提示和追踪其收集状态显示坐骑奖励。'
 L['options_pet_rewards'] = '显示宠物奖励'
-L['options_pet_rewards_desc'] =
-    '在提示和追踪其收集状态显示宠物奖励。'
+L['options_pet_rewards_desc'] = '在提示和追踪其收集状态显示宠物奖励。'
 L['options_toy_rewards'] = '显示玩具奖励'
-L['options_toy_rewards_desc'] =
-    '在提示和追踪其收集状态显示玩具奖励。'
+L['options_toy_rewards_desc'] = '在提示和追踪其收集状态显示玩具奖励。'
 L['options_transmog_rewards'] = '显示幻化奖励'
-L['options_transmog_rewards_desc'] =
-    '在提示和追踪其收集状态显示幻化奖励。'
+L['options_transmog_rewards_desc'] = '在提示和追踪其收集状态显示幻化奖励。'
 L['options_all_transmog_rewards'] = '显示无法获取的幻化奖励'
-L['options_all_transmog_rewards_desc'] =
-    '显示其它职业可以获取的幻化奖励。'
+L['options_all_transmog_rewards_desc'] = '显示其它职业可以获取的幻化奖励。'
 
 L['options_icons_misc_desc'] = '显示其它未分类项的位置。'
 L['options_icons_misc'] = '杂项'
-L['options_icons_pet_battles_desc'] =
-    '显示宠物训练师和 NPC 的位置。'
+L['options_icons_pet_battles_desc'] = '显示宠物训练师和 NPC 的位置。'
 L['options_icons_pet_battles'] = '战斗宠物'
 L['options_icons_rares_desc'] = '显示稀有 NPC 的位置。'
 L['options_icons_rares'] = '稀有'

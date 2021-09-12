@@ -67,16 +67,11 @@ L['orumo_the_observer_note'] = nil
 --------------------------------- TANAAN JUNGLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['deathtalon_note'] = ns.color.Red(
-    '暗影领主艾斯卡喊道：在彼岸，你能找到的只有死亡！')
-L['doomroller_note'] = ns.color.Red(
-    '攻城大师玛塔克喊道：哈哈！狠狠践踏他们的尸体吧！')
-L['terrorfist_note'] = ns.color.Red(
-    '弗甘喊道：一头巨型小戈隆正冲向游侠避难所！我们需要援助！')
-L['vengeance_note'] = ns.color.Red(
-    '暴君维哈里喊道：爬虫只配被碾死！')
-L['iron_armada_note'] =
-    '此玩具也可在拍卖行购买并需要成就 {achievement:10353}。'
+L['deathtalon_note'] = ns.color.Red('暗影领主艾斯卡喊道：在彼岸，你能找到的只有死亡！')
+L['doomroller_note'] = ns.color.Red('攻城大师玛塔克喊道：哈哈！狠狠践踏他们的尸体吧！')
+L['terrorfist_note'] = ns.color.Red('弗甘喊道：一头巨型小戈隆正冲向游侠避难所！我们需要援助！')
+L['vengeance_note'] = ns.color.Red('暴君维哈里喊道：爬虫只配被碾死！')
+L['iron_armada_note'] = '此玩具也可在拍卖行购买并需要成就 {achievement:10353}。'
 L['commander_kraggoth_note'] = '在东北塔顶上。'
 L['grannok_note'] = '在东南塔顶上。'
 L['szirek_the_twisted_note'] = '占领东侧据点召唤此稀有。'
@@ -87,17 +82,12 @@ L['overlord_magruth_note'] = '击杀营地附近兽人让他刷新。'
 L['mistress_thavra_note'] = '在洞穴上层。'
 L['dorg_the_bloody_note'] = '在刷新点击杀 {npc:89706} 和其他敌人。'
 L['grand_warlock_netherkurse_note'] = '击杀刷新点附近的敌人。'
-L['ceraxas_note'] =
-    '击杀后刷新的 {npc:90426} 有任务 {quest:38428} 获得宠物。'
+L['ceraxas_note'] = '击杀后刷新的 {npc:90426} 有任务 {quest:38428} 获得宠物。'
 L['commander_orgmok_note'] = '骑着 {npc:89676} 巡逻。'
-L['rendrak_note'] =
-    '从沼泽周围的 {npc:89788} 收集10个 {item:124045}。将它们结合起来召唤稀有。 '
-L['akrrilo_note'] =
-    '从 {npc:92805} 购买 {item:124093} 并在黑齿挑战竞技场使用它。'
-L['rendarr_note'] =
-    '从 {npc:92805} 购买 {item:124094} 并在黑齿挑战竞技场使用它。'
-L['eyepiercer_note'] =
-    '从 {npc:92805} 购买 {item:124095} 并在黑齿挑战竞技场使用它。'
+L['rendrak_note'] = '从沼泽周围的 {npc:89788} 收集10个 {item:124045}。将它们结合起来召唤稀有。 '
+L['akrrilo_note'] = '从 {npc:92805} 购买 {item:124093} 并在黑齿挑战竞技场使用它。'
+L['rendarr_note'] = '从 {npc:92805} 购买 {item:124094} 并在黑齿挑战竞技场使用它。'
+L['eyepiercer_note'] = '从 {npc:92805} 购买 {item:124095} 并在黑齿挑战竞技场使用它。'
 L['the_night_haunter_note'] = [[
 收集10层 {spell:183612} 负面效果。
 
@@ -152,14 +142,12 @@ L['stashed_iron_sea_booty_treasure'] = '隐藏的铁海宝藏'
 L['ironbeards_treasure_treasure'] = '铁须的宝藏'
 L['forgotten_sack_treasure'] = '被遗忘的袋子'
 L['blackfang_island_cache_treasure'] = '黑齿岛宝箱'
-L['fel_tainted_apexis_formation_treasure'] =
-    '被邪能污染的埃匹希斯晶体'
+L['fel_tainted_apexis_formation_treasure'] = '被邪能污染的埃匹希斯晶体'
 L['jewel_of_the_fallen_star_treasure'] = '坠星珠宝'
 L['forgotten_shard_of_the_cipher_treasure'] = '被遗忘的秘文碎片'
 L['strange_fruit_treasure'] = '奇怪水果'
 L['stashed_bleeding_hollow_loot_treasure'] = '抢来的血环宝藏'
-L['forgotten_iron_horde_supplies_treasure'] =
-    '被遗忘的钢铁部落补给品'
+L['forgotten_iron_horde_supplies_treasure'] = '被遗忘的钢铁部落补给品'
 L['bejeweled_egg_treasure'] = '珠玉彩蛋'
 L['dead_mans_chest_treasure'] = '亡灵宝藏'
 L['the_commanders_shield_note'] = '建筑物内。'

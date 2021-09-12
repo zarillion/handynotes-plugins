@@ -68,42 +68,27 @@ L['orumo_the_observer_note'] = nil
 --------------------------------- TANAAN JUNGLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['deathtalon_note'] = ns.color.Red(
-    'Seigneur de l’ombre Iskar crie: Au-delà du voile, on ne trouve que la mort !')
-L['doomroller_note'] = ns.color.Red(
-    'Maître de siège Mar’tak crie: Hah-ha ! Piétinez leurs cadavres !')
-L['terrorfist_note'] = ns.color.Red(
-    'Frogan crie: Un énorme gronnlin se dirige vers le Refuge des Rangari ! Nous allons avoir besoin d\'aide !')
-L['vengeance_note'] = ns.color.Red(
-    'Velhari la Despote crie: On écrase bien les insectes !')
-L['iron_armada_note'] =
-    'Ce jouet est aussi achetable à l\'HV et est requis pour {achievement:10353}.'
+L['deathtalon_note'] = ns.color.Red('Seigneur de l’ombre Iskar crie: Au-delà du voile, on ne trouve que la mort !')
+L['doomroller_note'] = ns.color.Red('Maître de siège Mar’tak crie: Hah-ha ! Piétinez leurs cadavres !')
+L['terrorfist_note'] = ns.color.Red('Frogan crie: Un énorme gronnlin se dirige vers le Refuge des Rangari ! Nous allons avoir besoin d\'aide !')
+L['vengeance_note'] = ns.color.Red('Velhari la Despote crie: On écrase bien les insectes !')
+L['iron_armada_note'] = 'Ce jouet est aussi achetable à l\'HV et est requis pour {achievement:10353}.'
 L['commander_kraggoth_note'] = 'Au sommet de la tour nord-est.'
 L['grannok_note'] = 'Au sommet de la tour sud-est.'
-L['szirek_the_twisted_note'] =
-    'Capturez le Point fort à l\'Est pour invoquer ce rare.'
-L['the_iron_houndmaster_note'] =
-    'Capturez le Point fort à l\'Ouest pour invoquer ce rare.'
+L['szirek_the_twisted_note'] = 'Capturez le Point fort à l\'Est pour invoquer ce rare.'
+L['the_iron_houndmaster_note'] = 'Capturez le Point fort à l\'Ouest pour invoquer ce rare.'
 L['belgork_thromma_note'] = 'Cette grotte a deux entrées.'
 L['driss_vile_note'] = 'Au sommet de la tour.'
-L['overlord_magruth_note'] =
-    'Tuez des orcs autour du camp pour le faire apparaître.'
+L['overlord_magruth_note'] = 'Tuez des orcs autour du camp pour le faire apparaître.'
 L['mistress_thavra_note'] = 'Dans une grotte à l\'étage supérieur.'
-L['dorg_the_bloody_note'] =
-    'Tuez des {npc:89706} et d\'autres ennemis au lieu d\'apparition.'
-L['grand_warlock_netherkurse_note'] =
-    'Tuer des ennemis autour du point d\'apparition.'
-L['ceraxas_note'] =
-    'Fait apparaître un {npc:90426} donnant la quête {quest:38428} pour ce familier après l\'avoir tué.'
+L['dorg_the_bloody_note'] = 'Tuez des {npc:89706} et d\'autres ennemis au lieu d\'apparition.'
+L['grand_warlock_netherkurse_note'] = 'Tuer des ennemis autour du point d\'apparition.'
+L['ceraxas_note'] = 'Fait apparaître un {npc:90426} donnant la quête {quest:38428} pour ce familier après l\'avoir tué.'
 L['commander_orgmok_note'] = 'Se déplace sur une {npc:89676}.'
-L['rendrak_note'] =
-    'Collectez 10 {item:124045} sur des {npc:89788} dans la tourbière. Combinez-les pour invoquer le rare.'
-L['akrrilo_note'] =
-    'Achetez un {item:124093} à {npc:92805} et utilisez-le à l\'arène de Croc’rila.'
-L['rendarr_note'] =
-    'Achetez un {item:124094} à {npc:92805} et utilisez-le à l\'arène de Croc’rila.'
-L['eyepiercer_note'] =
-    'Achetez un {item:124095} à {npc:92805} et utilisez-le à l\'arène de Croc’rila.'
+L['rendrak_note'] = 'Collectez 10 {item:124045} sur des {npc:89788} dans la tourbière. Combinez-les pour invoquer le rare.'
+L['akrrilo_note'] = 'Achetez un {item:124093} à {npc:92805} et utilisez-le à l\'arène de Croc’rila.'
+L['rendarr_note'] = 'Achetez un {item:124094} à {npc:92805} et utilisez-le à l\'arène de Croc’rila.'
+L['eyepiercer_note'] = 'Achetez un {item:124095} à {npc:92805} et utilisez-le à l\'arène de Croc’rila.'
 L['the_night_haunter_note'] = [[
 Accumulez 10 charges du debuff {spell:183612}.
 
@@ -121,8 +106,7 @@ L['discarded_helm_treasure'] = 'Heaume abandonné'
 L['weathered_axe_treasure'] = 'Hache abîmée'
 L['axe_of_the_weeping_wolf_treasure'] = 'Hache du loup hurlant'
 L['sacrificial_blade_treasure'] = 'Lame sacrificielle'
-L['crystallized_essence_of_the_elements_treasure'] =
-    'Essence des éléments cristallisée'
+L['crystallized_essence_of_the_elements_treasure'] = 'Essence des éléments cristallisée'
 L['snake_charmers_flute_treasure'] = 'Flûte du charmeur de serpents'
 L['lodged_hunting_spear_treasure'] = 'Lance de chasse plantée'
 L['looted_mystical_staff_treasure'] = 'Bâton mystique pillé'
@@ -144,24 +128,17 @@ L['the_perfect_blossom_treasure'] = 'Bourgeon parfait'
 L['brazier_of_awakening_treasure'] = 'Brasero de l\'Éveil'
 L['dazzling_rod_treasure'] = 'Bâtonnet éblouissant'
 L['crystallized_fel_spike_treasure'] = 'Pointe gangrenée cristallisée'
-L['fel_drenched_satchel_treasure'] =
-    'Sacoche imprégnée d’énergie gangrenée'
+L['fel_drenched_satchel_treasure'] = 'Sacoche imprégnée d’énergie gangrenée'
 L['the_eye_of_grannok_treasure'] = 'Œil de Grannok'
-L['borrowed_enchanted_spyglass_treasure'] =
-    'Longue-vue enchantée « empruntée »'
-L['bleeding_hollow_mushroom_stash_treasure'] =
-    'Planque de champignons de l’Orbite-Sanglante'
+L['borrowed_enchanted_spyglass_treasure'] = 'Longue-vue enchantée « empruntée »'
+L['bleeding_hollow_mushroom_stash_treasure'] = 'Planque de champignons de l’Orbite-Sanglante'
 L['mysterious_corrupted_obelist_treasure'] = 'Mystérieux obélisque corrompu'
 L['spoils_of_war_treasure'] = 'Butin de guerre'
 L['stolen_captains_chest_treasure'] = 'Coffre volé du capitaine'
-L['bleeding_hollow_warchest_treasure'] =
-    'Coffre de guerre de l’Orbite-Sanglante'
-L['looted_bleeding_hollow_treasure_treasure'] =
-    'Trésor de l’Orbite-Sanglante pillé'
-L['partially_mined_apexis_crystal_treasure'] =
-    'Cristal apogide partiellement miné'
-L['pale_removal_equipment_treasure'] =
-    'Équipement d\'extermination des blafards'
+L['bleeding_hollow_warchest_treasure'] = 'Coffre de guerre de l’Orbite-Sanglante'
+L['looted_bleeding_hollow_treasure_treasure'] = 'Trésor de l’Orbite-Sanglante pillé'
+L['partially_mined_apexis_crystal_treasure'] = 'Cristal apogide partiellement miné'
+L['pale_removal_equipment_treasure'] = 'Équipement d\'extermination des blafards'
 L['stashed_iron_sea_booty_treasure'] = 'Butin planqué de la mer de Fer'
 L['ironbeards_treasure_treasure'] = 'Trésor de Barbe-de-Fer'
 L['forgotten_sack_treasure'] = 'Sac oublié'
@@ -170,16 +147,12 @@ L['fel_tainted_apexis_formation_treasure'] = 'Formation apogide gangrenée'
 L['jewel_of_the_fallen_star_treasure'] = 'Joyau de l’étoile tombée'
 L['forgotten_shard_of_the_cipher_treasure'] = 'Fragment de formule oublié'
 L['strange_fruit_treasure'] = 'Fruit étrange'
-L['stashed_bleeding_hollow_loot_treasure'] =
-    'Butin planqué de l’Orbite-Sanglante'
-L['forgotten_iron_horde_supplies_treasure'] =
-    'Fournitures de la Horde de Fer oubliées'
+L['stashed_bleeding_hollow_loot_treasure'] = 'Butin planqué de l’Orbite-Sanglante'
+L['forgotten_iron_horde_supplies_treasure'] = 'Fournitures de la Horde de Fer oubliées'
 L['bejeweled_egg_treasure'] = 'Œuf orné de joyaux'
 L['dead_mans_chest_treasure'] = 'Le coffre du mort'
 L['the_commanders_shield_note'] = 'A l\'intérieur du bâtiment.'
-L['the_eye_of_grannok_note'] =
-    'Au deuxième étage de la tour, près des escaliers.'
+L['the_eye_of_grannok_note'] = 'Au deuxième étage de la tour, près des escaliers.'
 L['tower_chest_note'] = 'Au sommet d\'une tour.'
 L['spoils_of_war_note'] = 'A l\'intérieur de la hutte.'
-L['strange_fruit_note'] =
-    'Le {item:127396} se transforme en 14 jours en {item:127394}.'
+L['strange_fruit_note'] = 'Le {item:127396} se transforme en 14 jours en {item:127394}.'

@@ -7,6 +7,9 @@ set -o pipefail
 
 unset VERBOSE
 
+# Special column limit to use for localization files
+export LOCALE_COLUMN_LIMIT=1000
+
 # Place ~/.luarocks/bin in the $PATH in case the luarocks installation is local
 export PATH="$HOME/.luarocks/bin:$PATH"
 
@@ -36,7 +39,15 @@ EOF
 }
 
 function _lua_files () {
-    find core/ plugins/ tests/test_* -name *.lua
+    local type=${1:-all}
+    local files=($(find core/ plugins/ tests/test_* -name *.lua))
+    if [[ $type == 'locale' ]]; then
+        printf '%s\n' "${files[@]}" | grep localization
+    elif [[ $type == 'code' ]]; then
+        printf '%s\n' "${files[@]}" | grep -v localization
+    else
+        printf '%s\n' "${files[@]}"
+    fi
 }
 
 function run-linter() {
@@ -50,21 +61,26 @@ function run-tests() {
 }
 
 function run-formatter() {
-    lua-format $(_lua_files) ${VERBOSE:-} --in-place
+    lua-format $(_lua_files code) ${VERBOSE:-} --in-place
+    lua-format $(_lua_files locale) ${VERBOSE:-} --in-place --column-limit=${LOCALE_COLUMN_LIMIT}
 }
 
 function check-formatter() {
-    local files=($(_lua_files))
+    declare -a code=($(_lua_files code))
+    declare -a locales=($(_lua_files locale))
+    declare -a files=(${code[@]} ${locales[@]})
     declare -a errors=()
 
     set +o errexit
     if [[ -n ${VERBOSE:-} ]]; then
-        errors=($(lua-format ${files[@]} --verbose --check))
+        errors=($(lua-format ${code[@]} --verbose --check))
+        errors+=($(lua-format ${locales[@]} --verbose --check --column-limit=${LOCALE_COLUMN_LIMIT}))
     else
         # mimic the dotted unit-test output
         declare -i count=0
         for file in ${files[@]}; do
-            lua-format "$file" --check > /dev/null
+            local column_limit=$(if [[ $file =~ .*localization.* ]]; then echo -n "--column-limit=${LOCALE_COLUMN_LIMIT}"; fi)
+            lua-format "$file" --check $column_limit > /dev/null
             lua_format_exit=$?
             if [ $lua_format_exit == 0 ]; then
                 echo -n "."

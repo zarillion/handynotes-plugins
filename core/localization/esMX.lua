@@ -113,13 +113,10 @@ L['options_visibility_settings'] = 'Visibilidad'
 L['options_general_settings'] = 'General'
 L['options_show_completed_nodes'] = nil
 L['options_show_completed_nodes_desc'] = nil
-L['options_toggle_hide_done_rare'] =
-    'Ocultar el raro si todo el botín se conoce'
-L['options_toggle_hide_done_rare_desc'] =
-    'Ocultar todos los raros de botín conocido.'
+L['options_toggle_hide_done_rare'] = 'Ocultar el raro si todo el botín se conoce'
+L['options_toggle_hide_done_rare_desc'] = 'Ocultar todos los raros de botín conocido.'
 L['options_toggle_hide_minimap'] = 'Ocultar todos los íconos sobre el minimapa'
-L['options_toggle_hide_minimap_desc'] =
-    'Oculta todos íconos de este addon sobre el minimapa y los mostra solamente sobre el mapa principal.'
+L['options_toggle_hide_minimap_desc'] = 'Oculta todos íconos de este addon sobre el minimapa y los mostra solamente sobre el mapa principal.'
 L['options_toggle_maximized_enlarged'] = nil
 L['options_toggle_maximized_enlarged_desc'] = nil
 L['options_toggle_use_char_achieves'] = nil
@@ -144,8 +141,7 @@ L['options_all_transmog_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = nil
 L['options_icons_misc'] = 'Miscelánea'
-L['options_icons_pet_battles_desc'] =
-    'Mostrar los lugares de instructores de mascotas y PNJs.'
+L['options_icons_pet_battles_desc'] = 'Mostrar los lugares de instructores de mascotas y PNJs.'
 L['options_icons_pet_battles'] = 'Mascotas de duelo'
 L['options_icons_rares_desc'] = 'Mostrar los lugares de los NPCs raros.'
 L['options_icons_rares'] = 'Raros'
@@ -166,20 +162,16 @@ L['options_reset_poi_colors_desc'] = nil
 
 L['options_tooltip_settings'] = 'Tooltip'
 L['options_toggle_show_loot'] = 'Mostrar el botín'
-L['options_toggle_show_loot_desc'] =
-    'Agregar la información de botín al toolip'
+L['options_toggle_show_loot_desc'] = 'Agregar la información de botín al toolip'
 L['options_toggle_show_notes'] = 'Mostrar las Notas'
-L['options_toggle_show_notes_desc'] =
-    'Agregar las notas útiles al tooltip cuando esté disponible'
+L['options_toggle_show_notes_desc'] = 'Agregar las notas útiles al tooltip cuando esté disponible'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L['options_dev_settings'] = 'Desarrollo'
 L['options_toggle_show_debug_map'] = 'Debug IDs del Mapa'
-L['options_toggle_show_debug_map_desc'] =
-    'Muestra información de debug para los mapas'
+L['options_toggle_show_debug_map_desc'] = 'Muestra información de debug para los mapas'
 L['options_toggle_show_debug_quest'] = 'Debug IDs de las Misiones'
-L['options_toggle_show_debug_quest_desc'] =
-    'Muestra información de debug para los cambios de las misiones'
+L['options_toggle_show_debug_quest_desc'] = 'Muestra información de debug para los cambios de las misiones'
 L['options_toggle_force_nodes'] = 'Forzar Nodos'
 L['options_toggle_force_nodes_desc'] = 'Forzar el mostrar todos los nodos'

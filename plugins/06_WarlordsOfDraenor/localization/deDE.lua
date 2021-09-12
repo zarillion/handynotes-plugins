@@ -68,14 +68,10 @@ L['orumo_the_observer_note'] = nil
 --------------------------------- TANAAN JUNGLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['deathtalon_note'] = ns.color.Red(
-    'Schattenfürst Iskar schreit: Hinter dem Schleier wartet nur der Tod!')
-L['doomroller_note'] = ns.color.Red(
-    'Belagerungsmeisterin Mar\'tak schreit: Hah-ha! Zermalmt ihre Leichen!')
-L['terrorfist_note'] = ns.color.Red(
-    'Frogan schreit: Ein gewaltiger Gronnling ist auf dem Weg zur Zuflucht der Rangari! Wir werden etwas Unterstützung benötigen!')
-L['vengeance_note'] = ns.color.Red(
-    'Tyrannin Velhari schreit: Maden wie Ihr verdienen den Tod!')
+L['deathtalon_note'] = ns.color.Red('Schattenfürst Iskar schreit: Hinter dem Schleier wartet nur der Tod!')
+L['doomroller_note'] = ns.color.Red('Belagerungsmeisterin Mar\'tak schreit: Hah-ha! Zermalmt ihre Leichen!')
+L['terrorfist_note'] = ns.color.Red('Frogan schreit: Ein gewaltiger Gronnling ist auf dem Weg zur Zuflucht der Rangari! Wir werden etwas Unterstützung benötigen!')
+L['vengeance_note'] = ns.color.Red('Tyrannin Velhari schreit: Maden wie Ihr verdienen den Tod!')
 L['iron_armada_note'] = nil
 L['commander_kraggoth_note'] = nil
 L['grannok_note'] = nil

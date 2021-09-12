@@ -79,8 +79,7 @@ L['context_menu_add_tomtom'] = 'Ajouter à TomTom'
 L['context_menu_hide_node'] = 'Cacher ce nœud'
 L['context_menu_restore_hidden_nodes'] = 'Restaurer tous les nœuds cachés'
 
-L['map_button_text'] =
-    'Ajustez l\'affichage des icônes, l\'alpha et la mise à l\'échelle de cette carte.'
+L['map_button_text'] = 'Ajustez l\'affichage des icônes, l\'alpha et la mise à l\'échelle de cette carte.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- OPTIONS -----------------------------------
@@ -89,12 +88,9 @@ L['map_button_text'] =
 L['options_global'] = 'Global' -- Need review
 L['options_zones'] = 'Zones'
 
-L['options_general_description'] =
-    'Pramètres qui contrôlent le comportement des nœuds et leurs récompenses.'
-L['options_global_description'] =
-    'Paramètres qui contrôlent l\'affichage de tous les nœuds dans toutes les zones.'
-L['options_zones_description'] =
-    'Paramètres qui contrôlent l\'affichage des nœuds dans chaque zone individuelle.'
+L['options_general_description'] = 'Pramètres qui contrôlent le comportement des nœuds et leurs récompenses.'
+L['options_global_description'] = 'Paramètres qui contrôlent l\'affichage de tous les nœuds dans toutes les zones.'
+L['options_zones_description'] = 'Paramètres qui contrôlent l\'affichage des nœuds dans chaque zone individuelle.'
 
 L['options_open_settings_panel'] = 'Ouvrir le panneau de configuration'
 L['options_open_world_map'] = 'Ouvrir la carte du monde'
@@ -111,96 +107,71 @@ L['options_opacity_desc'] = '0 = transparent, 1 = opaque'
 ---------------------------------- VISIBILITY ---------------------------------
 
 L['options_show_worldmap_button'] = 'Afficher le bouton de la carte du monde'
-L['options_show_worldmap_button_desc'] =
-    'Ajouter un menu déroulant dans le coin supérieur droit de la carte du monde.'
+L['options_show_worldmap_button_desc'] = 'Ajouter un menu déroulant dans le coin supérieur droit de la carte du monde.'
 
 L['options_visibility_settings'] = 'Visibilité'
 L['options_general_settings'] = 'Général'
 L['options_show_completed_nodes'] = 'Afficher les noeuds complétés'
-L['options_show_completed_nodes_desc'] =
-    'Afficher tous les nœuds même s\'ils ont déjà été looté ou terminés aujourd\'hui.'
+L['options_show_completed_nodes_desc'] = 'Afficher tous les nœuds même s\'ils ont déjà été looté ou terminés aujourd\'hui.'
 L['options_toggle_hide_done_rare'] = 'Cacher rare si tout le butin est connu'
-L['options_toggle_hide_done_rare_desc'] =
-    'Cacher toutes les rares pour qui tout le butin est connu.'
+L['options_toggle_hide_done_rare_desc'] = 'Cacher toutes les rares pour qui tout le butin est connu.'
 L['options_toggle_hide_minimap'] = 'Cacher toutes les icônes sur la minicarte'
-L['options_toggle_hide_minimap_desc'] =
-    'Cache toutes les icônes de cet addon sur la minicarte et les affiche uniquement sur la carte principale.'
-L['options_toggle_maximized_enlarged'] =
-    'Augmenter la taille des icones sur la carte du monde plein écran'
-L['options_toggle_maximized_enlarged_desc'] =
-    'Quand la carte du monde est en plein écran, augmente la taille des icones'
+L['options_toggle_hide_minimap_desc'] = 'Cache toutes les icônes de cet addon sur la minicarte et les affiche uniquement sur la carte principale.'
+L['options_toggle_maximized_enlarged'] = 'Augmenter la taille des icones sur la carte du monde plein écran'
+L['options_toggle_maximized_enlarged_desc'] = 'Quand la carte du monde est en plein écran, augmente la taille des icones'
 L['options_toggle_use_char_achieves'] = 'Utilisez les hauts faits du joueur'
-L['options_toggle_use_char_achieves_desc'] =
-    'Afficher la progression du haut fait de ce joueur plutôt que du compte complet'
-L['options_toggle_per_map_settings'] =
-    'Utiliser des paramètres spécifiques à chaque zone'
-L['options_toggle_per_map_settings_desc'] =
-    'Appliquez les paramètres de permutation, d\'échelle et d\'opacité à chaque zone individuellement.'
+L['options_toggle_use_char_achieves_desc'] = 'Afficher la progression du haut fait de ce joueur plutôt que du compte complet'
+L['options_toggle_per_map_settings'] = 'Utiliser des paramètres spécifiques à chaque zone'
+L['options_toggle_per_map_settings_desc'] = 'Appliquez les paramètres de permutation, d\'échelle et d\'opacité à chaque zone individuellement.'
 L['options_restore_hidden_nodes'] = 'Restaurer les nœuds cachés'
-L['options_restore_hidden_nodes_desc'] =
-    'Restaure tous les nœuds cachés en utilisant le clic droit du menu contextuel' -- Need review
+L['options_restore_hidden_nodes_desc'] = 'Restaure tous les nœuds cachés en utilisant le clic droit du menu contextuel' -- Need review
 
 L['options_rewards_settings'] = 'Récompenses'
 L['options_reward_types'] = 'Afficher les types de récompenses'
 L['options_mount_rewards'] = 'Afficher les montures en récompense'
-L['options_mount_rewards_desc'] =
-    'Afficher les montures en récompenses dans les infobulles et suivre leur état de possession.'
+L['options_mount_rewards_desc'] = 'Afficher les montures en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_pet_rewards'] = 'Afficher les familiers en récompense'
-L['options_pet_rewards_desc'] =
-    'Afficher les familiers en récompenses dans les infobulles et suivre leur état de possession.'
+L['options_pet_rewards_desc'] = 'Afficher les familiers en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_toy_rewards'] = 'Afficher les jouets en récompense'
-L['options_toy_rewards_desc'] =
-    'Afficher les jouets en récompenses dans les infobulles et suivre leur état de possession.'
+L['options_toy_rewards_desc'] = 'Afficher les jouets en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_transmog_rewards'] = 'Afficher les transmos en récompense'
-L['options_transmog_rewards_desc'] =
-    'Afficher les transmos en récompenses dans les infobulles et suivre leur état de possession.'
-L['options_all_transmog_rewards'] =
-    'Afficher les transmos plus obtenables en récompense'
-L['options_all_transmog_rewards_desc'] =
-    'Afficher les transmos en récompenses pouvant être obtenus par d\'autres classes.'
+L['options_transmog_rewards_desc'] = 'Afficher les transmos en récompenses dans les infobulles et suivre leur état de possession.'
+L['options_all_transmog_rewards'] = 'Afficher les transmos plus obtenables en récompense'
+L['options_all_transmog_rewards_desc'] = 'Afficher les transmos en récompenses pouvant être obtenus par d\'autres classes.'
 
 L['options_icons_misc_desc'] = 'Afficher les emplacements des nœuds divers'
 L['options_icons_misc'] = 'Divers'
-L['options_icons_pet_battles_desc'] =
-    'Afficher les emplacements des Dresseurs de Mascottes de Combat et des PNJ.'
+L['options_icons_pet_battles_desc'] = 'Afficher les emplacements des Dresseurs de Mascottes de Combat et des PNJ.'
 L['options_icons_pet_battles'] = 'Mascottes de Combat'
 L['options_icons_rares_desc'] = 'Afficher les emplacements des PNJ rares.'
 L['options_icons_rares'] = 'Rares'
-L['options_icons_treasures_desc'] =
-    'Afficher les emplacements des trésors cachés'
+L['options_icons_treasures_desc'] = 'Afficher les emplacements des trésors cachés'
 L['options_icons_treasures'] = 'Trésors'
 
 ------------------------------------ FOCUS ------------------------------------
 
 L['options_focus_settings'] = 'Point d\'intéret'
 L['options_poi_color'] = 'Couleur POI'
-L['options_poi_color_desc'] =
-    'Définit une couleur pour les points d\'intérêts quand une icône est ciblée'
+L['options_poi_color_desc'] = 'Définit une couleur pour les points d\'intérêts quand une icône est ciblée'
 L['options_path_color'] = 'Couleur du chemin' -- Need review
-L['options_path_color_desc'] =
-    'Définit une couleur pour les chemin quand une icône est ciblée'
+L['options_path_color_desc'] = 'Définit une couleur pour les chemin quand une icône est ciblée'
 L['options_reset_poi_colors'] = 'Réinitialiser les couleurs'
-L['options_reset_poi_colors_desc'] =
-    'Réinitialise les couleurs ci-dessus par celles par défaut'
+L['options_reset_poi_colors_desc'] = 'Réinitialise les couleurs ci-dessus par celles par défaut'
 
 ---------------------------------- TOOLTIP ---------------------------------
 
 L['options_tooltip_settings'] = 'Infobulle'
 L['options_toggle_show_loot'] = 'Montrer le Butin'
-L['options_toggle_show_loot_desc'] =
-    'Ajouter l\'information de butin à l\'infobulle'
+L['options_toggle_show_loot_desc'] = 'Ajouter l\'information de butin à l\'infobulle'
 L['options_toggle_show_notes'] = 'Montrer les Notes'
-L['options_toggle_show_notes_desc'] =
-    'Ajouter les notes utiles à l\'infobulle le cas échéant'
+L['options_toggle_show_notes_desc'] = 'Ajouter les notes utiles à l\'infobulle le cas échéant'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L['options_dev_settings'] = 'Développement'
 L['options_toggle_show_debug_map'] = 'Debug ID Carte' -- Need review
-L['options_toggle_show_debug_map_desc'] =
-    'Afficher les informations de déboguage pour les cartes'
+L['options_toggle_show_debug_map_desc'] = 'Afficher les informations de déboguage pour les cartes'
 L['options_toggle_show_debug_quest'] = 'Debug ID Quête'
-L['options_toggle_show_debug_quest_desc'] =
-    'Afficher les informations de déboguage pour les quêtes'
+L['options_toggle_show_debug_quest_desc'] = 'Afficher les informations de déboguage pour les quêtes'
 L['options_toggle_force_nodes'] = 'Forcer les Nœuds'
 L['options_toggle_force_nodes_desc'] = 'Forcer l\'affichage de tous les nœuds'
