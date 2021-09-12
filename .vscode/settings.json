@@ -1,4 +1,5 @@
 {
+    "editor.formatOnSave": true,
     "files.eol": "\n",
     "files.exclude": {
         "release/": true
@@ -6,6 +7,9 @@
     "files.trimTrailingWhitespace": true,
     "files.watcherExclude": {
         "release/**": true
+    },
+    "[lua]": {
+        "editor.defaultFormatter": "Koihik.vscode-lua-format"
     },
     "[xml]": {
         "editor.tabSize": 2
