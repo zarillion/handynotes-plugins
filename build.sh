@@ -32,6 +32,10 @@ checking is executed on the project.
 EOF
 }
 
+function _lua_files () {
+    find core/ plugins/ tests/test_* -name *.lua
+}
+
 function run-linter() {
     local quiet=$(if [ -z "${VERBOSE:-}" ]; then echo -n "-q"; fi)
     luacheck core plugins tests/test_*.lua ${quiet}
@@ -43,16 +47,10 @@ function run-tests() {
 }
 
 function run-formatter() {
-    for file in `find core/ plugins/ tests/test_* -name *.lua`; do
-        lua-format "$file" ${VERBOSE:-} --in-place
-    done
+    lua-format $(_lua_files) ${VERBOSE:-} --in-place
 }
 
 function check-formatter() {
-    function _lua_files () {
-        find core/ plugins/ tests/test_* -name *.lua
-    }
-
     if [[ -n ${VERBOSE:-} ]]; then
         lua-format $(_lua_files) --verbose --check
     else
