@@ -110,10 +110,8 @@ function Reputation:Initialize(id, level) self.id, self.level = id, level end
 
 function Reputation:GetText()
     local name = GetFactionInfoByID(self.id)
-
-    return string.format(name .. ' (' ..
-                             GetText('FACTION_STANDING_LABEL' .. self.level) ..
-                             ')')
+    local level = GetText('FACTION_STANDING_LABEL' .. self.level)
+    return string.format(name .. ' (' .. level .. ')')
 end
 
 function Reputation:IsMet()

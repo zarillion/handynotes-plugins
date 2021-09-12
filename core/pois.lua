@@ -198,9 +198,9 @@ function Line:Initialize(attrs)
 
     self.path = {}
     for i = 0, self.segments, 1 do
-        self.path[#self.path + 1] = HandyNotes:getCoord(x1 + (x2 - x1) /
-                                                            self.segments * i,
-            y1 + (y2 - y1) / self.segments * i)
+        local segX = x1 + (x2 - x1) / self.segments * i
+        local segY = y1 + (y2 - y1) / self.segments * i
+        self.path[#self.path + 1] = HandyNotes:getCoord(segX, segY)
     end
 end
 
