@@ -74,9 +74,8 @@ map.nodes[46205500] = Rare({
     id = 77614,
     quest = 34145,
     rewards = {
-        -- Shard of Contempt
-        Transmog({item = 113288, slot = L['dagger']}), -- Shard of Scorn
-        Transmog({item = 113287, slot = L['1h_sword']})
+        Transmog({item = 113288, slot = L['dagger']}), -- Shard of Contempt
+        Transmog({item = 113287, slot = L['1h_sword']}) -- Shard of Scorn
 
     }
 })
@@ -204,8 +203,8 @@ map.nodes[37603760] = Rare({
     id = 82988,
     quest = 37348,
     rewards = {
-        Achievement({id = 9638, criteria = 26480}), -- Kurlosh's Kidneyslicer
-        Transmog({item = 119394, slot = L['dagger']})
+        Achievement({id = 9638, criteria = 26480}),
+        Transmog({item = 119394, slot = L['dagger']}) -- Kurlosh's Kidneyslicer
     }
 })
 
@@ -214,8 +213,8 @@ map.nodes[33603780] = Rare({
     id = 82942,
     quest = 37346,
     rewards = {
-        Achievement({id = 9638, criteria = 26478}), -- Demlash's Dashing Robe
-        Transmog({item = 119352, slot = L['cloth']})
+        Achievement({id = 9638, criteria = 26478}),
+        Transmog({item = 119352, slot = L['cloth']}) -- Demlash's Dashing Robe
     }
 })
 
@@ -270,8 +269,8 @@ map.nodes[37601460] = Rare({
     id = 82922,
     quest = 37343,
     rewards = {
-        Achievement({id = 9633, criteria = 26580}), -- Mantle of the Destroyer
-        Transmog({item = 119371, slot = L['mail']})
+        Achievement({id = 9633, criteria = 26580}),
+        Transmog({item = 119371, slot = L['mail']}) -- Mantle of the Destroyer
     }
 })
 
@@ -280,8 +279,8 @@ map.nodes[47603280] = Rare({
     id = 82992,
     quest = 37341,
     rewards = {
-        Achievement({id = 9633, criteria = 26468}), -- Consort's Promise Ring
-        Item({item = 119386, note = L['ring']})
+        Achievement({id = 9633, criteria = 26468}),
+        Item({item = 119386, note = L['ring']}) -- Consort's Promise Ring
     }
 })
 
@@ -290,8 +289,8 @@ map.nodes[38804960] = Rare({
     id = 82998,
     quest = 37349,
     rewards = {
-        Achievement({id = 9638, criteria = 26481}), -- Matron's Supple Gloves
-        Transmog({item = 119353, slot = L['cloth']})
+        Achievement({id = 9638, criteria = 26481}),
+        Transmog({item = 119353, slot = L['cloth']}) -- Matron's Supple Gloves
     }
 })
 
@@ -300,8 +299,8 @@ map.nodes[48002520] = Rare({
     id = 83008,
     quest = 37312,
     rewards = {
-        Achievement({id = 9633, criteria = 26467}), -- Sargerei Soulbiter
-        Transmog({item = 119403, slot = L['1h_sword']})
+        Achievement({id = 9633, criteria = 26467}),
+        Transmog({item = 119403, slot = L['1h_sword']}) -- Sargerei Soulbiter
     }
 })
 
@@ -310,8 +309,8 @@ map.nodes[47603900] = Rare({
     id = 83019,
     quest = 37340,
     rewards = {
-        Achievement({id = 9633, criteria = 26466}), -- Gug'tol's Imp Imperator
-        Transmog({item = 119402, slot = L['1h_sword']})
+        Achievement({id = 9633, criteria = 26466}),
+        Transmog({item = 119402, slot = L['1h_sword']}) -- Gug'tol's Imp Imperator
     }
 })
 
@@ -340,8 +339,8 @@ map.nodes[46203140] = Rare({
     id = 88043,
     quest = 37338,
     rewards = {
-        Achievement({id = 9633, criteria = 26469}), -- Socrethar's Stone
-        Transmog({item = 119378, slot = L['offhand']})
+        Achievement({id = 9633, criteria = 26469}),
+        Transmog({item = 119378, slot = L['offhand']}) -- Socrethar's Stone
     },
     pois = {
         Path({
@@ -369,9 +368,8 @@ map.nodes[31404760] = Rare({
     note = L['orumo_the_observer_note'],
     rewards = {
         Achievement({id = 9638, criteria = 26476}),
-        -- Chained Orb of Omniscience
-        Item({item = 119375, note = L['neck']}), -- Eye of Observation
-        Pet({item = 119170, id = 1576})
+        Item({item = 119375, note = L['neck']}), -- Chained Orb of Omniscience
+        Pet({item = 119170, id = 1576}) -- Eye of Observation
 
     }
 })
@@ -381,8 +379,8 @@ map.nodes[41004200] = Rare({
     id = 82930,
     quest = 37347,
     rewards = {
-        Achievement({id = 9638, criteria = 26479}), -- Searing Shadowflame Axe
-        Transmog({item = 119393, slot = L['1h_axe']})
+        Achievement({id = 9638, criteria = 26479}),
+        Transmog({item = 119393, slot = L['1h_axe']}) -- Searing Shadowflame Axe
     }
 })
 
@@ -413,8 +411,8 @@ map.nodes[43203740] = Rare({
     id = 87597,
     quest = 37339,
     rewards = {
-        Achievement({id = 9633, criteria = 26465}), -- Gu'gok's Rangefinder
-        Transmog({item = 119413, slot = L['crossbow']})
+        Achievement({id = 9633, criteria = 26465}),
+        Transmog({item = 119413, slot = L['crossbow']}) -- Gu'gok's Rangefinder
     },
     pois = {
         Path({

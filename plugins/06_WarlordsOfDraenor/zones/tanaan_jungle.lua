@@ -52,8 +52,8 @@ map.nodes[51004600] = Rare({
     quest = 38749,
     note = L['commander_orgmok_note'],
     rewards = {
-        Achievement({id = 10070, criteria = 28731}), -- Org'mok's Riding Chaps
-        Transmog({item = 127313, slot = L['mail']})
+        Achievement({id = 10070, criteria = 28731}),
+        Transmog({item = 127313, slot = L['mail']}) -- Org'mok's Riding Chaps
     },
     pois = {
         Path({
@@ -68,8 +68,8 @@ map.nodes[43003690] = Rare({
     id = 90024,
     quest = 37953,
     rewards = {
-        Achievement({id = 10070, criteria = 28339}), -- Iron Cleated Warboots
-        Transmog({item = 127318, slot = L['plate']})
+        Achievement({id = 10070, criteria = 28339}),
+        Transmog({item = 127318, slot = L['plate']}) -- Iron Cleated Warboots
     }
 })
 
@@ -90,9 +90,8 @@ map.nodes[37003300] = Rare({
     quest = 39045,
     rewards = {
         Achievement({id = 10070, criteria = 28723}),
-        -- Equipment Blueprint: True Iron Rudder
-        Item({item = 128252, quest = 39360}), -- Zoug's Lifting Belt
-        Transmog({item = 127308, slot = L['leather']})
+        Item({item = 128252, quest = 39360}), -- Equipment Blueprint: True Iron Rudder
+        Transmog({item = 127308, slot = L['leather']}) -- Zoug's Lifting Belt
     }
 })
 
@@ -101,8 +100,7 @@ map.nodes[31207220] = Rare({
     id = 90429,
     quest = 38026,
     rewards = {
-        Achievement({id = 10070, criteria = 28333}), -- Sassy Imp
-        Toy({item = 127655})
+        Achievement({id = 10070, criteria = 28333}), Toy({item = 127655}) -- Sassy Imp
     }
 })
 
@@ -112,8 +110,8 @@ map.nodes[30906800] = Rare({
     quest = 38031,
     note = L['in_cave'] .. ' ' .. L['ceraxas_note'],
     rewards = {
-        Achievement({id = 10070, criteria = 28336}), -- Fel Pup
-        Pet({item = 129205, id = 1660})
+        Achievement({id = 10070, criteria = 28336}),
+        Pet({item = 129205, id = 1660}) -- Fel Pup
     }
 })
 
@@ -123,8 +121,8 @@ map.nodes[26607520] = Rare({
     quest = 38030,
     note = L['in_cave'],
     rewards = {
-        Achievement({id = 10070, criteria = 28335}), -- Fel Burnished Waistguard
-        Transmog({item = 127322, slot = L['plate']})
+        Achievement({id = 10070, criteria = 28335}),
+        Transmog({item = 127322, slot = L['plate']}) -- Fel Burnished Waistguard
     },
     pois = {POI({29607060})}
 })
@@ -135,8 +133,8 @@ map.nodes[25607680] = Rare({
     quest = 38029,
     note = L['in_cave'],
     rewards = {
-        Achievement({id = 10070, criteria = 28334}), -- Oran's Cuffs of Malice
-        Transmog({item = 127316, slot = L['mail']})
+        Achievement({id = 10070, criteria = 28334}),
+        Transmog({item = 127316, slot = L['mail']}) -- Oran's Cuffs of Malice
     },
     pois = {POI({29607060})}
 })
@@ -189,8 +187,8 @@ map.nodes[23605200] = Rare({
     id = 90884,
     quest = 38262,
     rewards = {
-        Achievement({id = 10070, criteria = 28351}), -- Battle-Scuffed Spaulders
-        Transmog({item = 127307, slot = L['leather']})
+        Achievement({id = 10070, criteria = 28351}),
+        Transmog({item = 127307, slot = L['leather']}) -- Battle-Scuffed Spaulders
     }
 })
 
@@ -211,8 +209,8 @@ map.nodes[25204630] = Rare({
     quest = 38265,
     note = L['dorg_the_bloody_note'],
     rewards = {
-        Achievement({id = 10070, criteria = 28353}), -- Bloody Aberration Strap
-        Transmog({item = 127301, slot = L['cloth']})
+        Achievement({id = 10070, criteria = 28353}),
+        Transmog({item = 127301, slot = L['cloth']}) -- Bloody Aberration Strap
     },
     pois = {Path({25204630, 23904730, 23504870, 21504910, 21005110, 21405280})}
 })
@@ -222,8 +220,8 @@ map.nodes[25604620] = Rare({
     id = 90888,
     quest = 38264,
     rewards = {
-        Achievement({id = 10070, criteria = 28354}), -- Blood Infused Leggings
-        Transmog({item = 127298, slot = L['cloth']})
+        Achievement({id = 10070, criteria = 28354}),
+        Transmog({item = 127298, slot = L['cloth']}) -- Blood Infused Leggings
     }
 })
 
@@ -239,8 +237,8 @@ map.nodes[48402860] = Rare({
     id = 91087,
     quest = 38207,
     rewards = {
-        Achievement({id = 10070, criteria = 28331}), -- Felfire Lit Greatsword
-        Transmog({item = 127340, slot = L['2h_sword']})
+        Achievement({id = 10070, criteria = 28331}),
+        Transmog({item = 127340, slot = L['2h_sword']}) -- Felfire Lit Greatsword
     }
 })
 
@@ -249,8 +247,7 @@ map.nodes[40706980] = Rare({
     id = 91093,
     quest = 38209,
     rewards = {
-        Achievement({id = 10070, criteria = 28330}), -- Felflame Campfire
-        Toy({item = 127652})
+        Achievement({id = 10070, criteria = 28330}), Toy({item = 127652}) -- Felflame Campfire
     }
 })
 
@@ -259,8 +256,8 @@ map.nodes[52802560] = Rare({
     id = 91098,
     quest = 38211,
     rewards = {
-        Achievement({id = 10070, criteria = 28332}), -- Fel Singed Wraps
-        Transmog({item = 127656, slot = L['cloth']})
+        Achievement({id = 10070, criteria = 28332}),
+        Transmog({item = 127656, slot = L['cloth']}) -- Fel Singed Wraps
     }
 })
 
@@ -336,8 +333,8 @@ map.nodes[52604020] = Rare({
     id = 91871,
     quest = 38430,
     rewards = {
-        Achievement({id = 10070, criteria = 28722}), -- Fel Destroyer Crossbow
-        Transmog({item = 127326, slot = L['crossbow']})
+        Achievement({id = 10070, criteria = 28722}),
+        Transmog({item = 127326, slot = L['crossbow']}) -- Fel Destroyer Crossbow
     }
 })
 
@@ -346,19 +343,20 @@ map.nodes[26205440] = Rare({
     id = 92197,
     quest = 38496,
     rewards = {
-        Achievement({id = 10070, criteria = 28356}), -- Relgor's Master Glaive
-        Transmog({item = 127335, slot = L['polearm']})
+        Achievement({id = 10070, criteria = 28356}),
+        Transmog({item = 127335, slot = L['polearm']}) -- Relgor's Master Glaive
     }
 })
 
+-- Painmistress Selora
 map.nodes[53602140] = Rare({
     id = 92274,
     quest = 38557,
     rewards = {
-        Achievement({id = 10070, criteria = 28342}), -- Selora's Crown of Thorns
-        Transmog({item = 127297, slot = L['cloth']})
+        Achievement({id = 10070, criteria = 28342}),
+        Transmog({item = 127297, slot = L['cloth']}) -- Selora's Crown of Thorns
     }
-}) -- Painmistress Selora
+})
 
 -- Xanzith the Everlasting
 map.nodes[60002100] = Rare({
@@ -366,9 +364,8 @@ map.nodes[60002100] = Rare({
     quest = 38579,
     rewards = {
         Achievement({id = 10070, criteria = 28728}),
-        -- Equipment Blueprint: High Intensity Fog Lights
-        Item({item = 128232, quest = 39356}), -- Eye of the Beholder
-        Transmog({item = 127658, slot = L['offhand']})
+        Item({item = 128232, quest = 39356}), -- Equipment Blueprint: High Intensity Fog Lights
+        Transmog({item = 127658, slot = L['offhand']}) -- Eye of the Beholder
     }
 })
 
@@ -404,8 +401,8 @@ map.nodes[48807300] = Rare({
     quest = 38597,
     note = L['in_cave'],
     rewards = {
-        Achievement({id = 10070, criteria = 28361}), -- The Black Fang
-        Transmog({item = 127330, slot = L['fist']})
+        Achievement({id = 10070, criteria = 28361}),
+        Transmog({item = 127330, slot = L['fist']}) -- The Black Fang
     },
     pois = {POI({49907440})}
 })
@@ -415,8 +412,8 @@ map.nodes[62607220] = Rare({
     id = 92495,
     quest = 38600,
     rewards = {
-        Achievement({id = 10070, criteria = 28358}), -- Glowing Felskull Belt
-        Transmog({item = 127315, slot = L['mail']})
+        Achievement({id = 10070, criteria = 28358}),
+        Transmog({item = 127315, slot = L['mail']}) -- Glowing Felskull Belt
     }
 })
 
@@ -426,8 +423,8 @@ map.nodes[63208000] = Rare({
     quest = 38604,
     note = L['in_cave'],
     rewards = {
-        Achievement({id = 10070, criteria = 28359}), -- Gloomtalon's Spare Kilt
-        Transmog({item = 127306, slot = L['leather']})
+        Achievement({id = 10070, criteria = 28359}),
+        Transmog({item = 127306, slot = L['leather']}) -- Gloomtalon's Spare Kilt
     },
     pois = {POI({62207910})}
 })
@@ -446,9 +443,8 @@ map.nodes[34904710] = Rare({
     note = L['in_cave'] .. ' ' .. L['belgork_thromma_note'],
     rewards = {
         Achievement({id = 10070, criteria = 28363}),
-        -- Equipment Blueprint: Bilge Pump
-        Item({item = 126950, quest = 38932}), -- Belgork's Bastion
-        Transmog({item = 127650, slot = L['shield']})
+        Item({item = 126950, quest = 38932}), -- Equipment Blueprint: Bilge Pump
+        Transmog({item = 127650, slot = L['shield']}) -- Belgork's Bastion
     },
     pois = {POI({32104900, 38604420})}
 })
@@ -459,8 +455,8 @@ map.nodes[34004440] = Rare({
     quest = 38620,
     note = L['in_cave'] .. ' ' .. L['belgork_thromma_note'],
     rewards = {
-        Achievement({id = 10070, criteria = 28362}), -- Thromma's Gutslicer
-        Transmog({item = 127327, slot = L['dagger']})
+        Achievement({id = 10070, criteria = 28362}),
+        Transmog({item = 127327, slot = L['dagger']}) -- Thromma's Gutslicer
     },
     pois = {POI({32104900, 38604420})}
 })
@@ -470,8 +466,8 @@ map.nodes[41007880] = Rare({
     id = 92606,
     quest = 38628,
     rewards = {
-        Achievement({id = 10070, criteria = 28364}), -- Serpentine Gloves
-        Transmog({item = 127311, slot = L['mail']})
+        Achievement({id = 10070, criteria = 28364}),
+        Transmog({item = 127311, slot = L['mail']}) -- Serpentine Gloves
     }
 })
 
@@ -504,9 +500,8 @@ map.nodes[45804700] = Rare({
     quest = 38634,
     rewards = {
         Achievement({id = 10070, criteria = 28726}),
-        -- Equipment Blueprint: Felsmoke Launchers
-        Item({item = 128258, quest = 39366}), -- Chemical Resistant Apron
-        Transmog({item = 127302, slot = L['leather']})
+        Item({item = 128258, quest = 39366}), -- Equipment Blueprint: Felsmoke Launchers
+        Transmog({item = 127302, slot = L['leather']}) -- Chemical Resistant Apron
     }
 })
 
@@ -525,8 +520,8 @@ map.nodes[34407260] = Rare({
     quest = 38654,
     note = L['in_cave'],
     rewards = {
-        Achievement({id = 10070, criteria = 28367}), -- Frayed Hunting Cowl
-        Transmog({item = 127305, slot = L['leather']})
+        Achievement({id = 10070, criteria = 28367}),
+        Transmog({item = 127305, slot = L['leather']}) -- Frayed Hunting Cowl
     },
     pois = {POI({36307220})}
 })
@@ -582,8 +577,8 @@ map.nodes[33203580] = Rare({
     id = 92941,
     quest = 38709,
     rewards = {
-        Achievement({id = 10070, criteria = 28368}), -- Cave Keeper Wraps
-        Transmog({item = 127304, slot = L['leather']})
+        Achievement({id = 10070, criteria = 28368}),
+        Transmog({item = 127304, slot = L['leather']}) -- Cave Keeper Wraps
     }
 })
 
@@ -605,8 +600,8 @@ map.nodes[15705750] = Rare({
     quest = 38752,
     note = L['szirek_the_twisted_note'],
     rewards = {
-        Achievement({id = 10070, criteria = 28349}), -- Twisted Taboo Handwraps
-        Transmog({item = 127296, slot = L['cloth']})
+        Achievement({id = 10070, criteria = 28349}),
+        Transmog({item = 127296, slot = L['cloth']}) -- Twisted Taboo Handwraps
     }
 })
 
@@ -615,8 +610,8 @@ map.nodes[52206520] = Rare({
     id = 93002,
     quest = 38726,
     rewards = {
-        Achievement({id = 10070, criteria = 28345}), -- Riverbeast Molar Club
-        Transmog({item = 127332, slot = L['1h_mace']})
+        Achievement({id = 10070, criteria = 28345}),
+        Transmog({item = 127332, slot = L['1h_mace']}) -- Riverbeast Molar Club
     }
 })
 
@@ -626,8 +621,8 @@ map.nodes[20005380] = Rare({
     quest = 38736,
     note = L['driss_vile_note'],
     rewards = {
-        Achievement({id = 10070, criteria = 28369}), -- Double-Scoped Long Rifle
-        Transmog({item = 127331, slot = L['gun']})
+        Achievement({id = 10070, criteria = 28369}),
+        Transmog({item = 127331, slot = L['gun']}) -- Double-Scoped Long Rifle
     }
 })
 
@@ -646,9 +641,8 @@ map.nodes[35607990] = Rare({
     note = L['in_cave'],
     rewards = {
         Achievement({id = 10070, criteria = 28370}),
-        -- Equipment Blueprint: Ghostly Spyglass
-        Item({item = 128257, quest = 39365}), -- Ghostly Iron Buccaneer's Hat
-        Toy({item = 127659})
+        Item({item = 128257, quest = 39365}), -- Equipment Blueprint: Ghostly Spyglass
+        Toy({item = 127659}) -- Ghostly Iron Buccaneer's Hat
     },
     pois = {POI({37507600})}
 })
@@ -680,8 +674,8 @@ map.nodes[49606100] = Rare({
     id = 93236,
     quest = 38812,
     rewards = {
-        Achievement({id = 10070, criteria = 28725}), -- Warpscaled Wristwraps
-        Transmog({item = 127665, slot = L['leather']})
+        Achievement({id = 10070, criteria = 28725}),
+        Transmog({item = 127665, slot = L['leather']}) -- Warpscaled Wristwraps
     }
 })
 
@@ -702,8 +696,8 @@ map.nodes[39606820] = Rare({
     quest = 38825,
     note = L['in_cave'],
     rewards = {
-        Achievement({id = 10070, criteria = 28377}), -- Wingblade of Reckoning
-        Transmog({item = 127653, slot = L['1h_sword']})
+        Achievement({id = 10070, criteria = 28377}),
+        Transmog({item = 127653, slot = L['1h_sword']}) -- Wingblade of Reckoning
     },
     pois = {POI({42306880})}
 })
@@ -714,12 +708,11 @@ map.nodes[13405960] = Rare({
     quest = 39288,
     note = L['terrorfist_note'],
     rewards = {
-        Achievement({id = 10061, criteria = 28221}), -- Medallion of the Legion
-        Item({item = 128315}), -- Rattling Iron Cage
-        Item({item = 128025}), -- Tundra Icehoof
-        Mount({item = 116658, id = 611}), -- Armored Razorback
-        Mount({item = 116669, id = 622}), -- Warsong Direfang
-        Mount({item = 116780, id = 643})
+        Achievement({id = 10061, criteria = 28221}), Item({item = 128315}), -- Medallion of the Legion
+        Item({item = 128025}), -- Rattling Iron Cage
+        Mount({item = 116658, id = 611}), -- Tundra Icehoof
+        Mount({item = 116669, id = 622}), -- Armored Razorback
+        Mount({item = 116780, id = 643}) -- Warsong Direfang
     },
     pois = {
         Path({
@@ -734,12 +727,11 @@ map.nodes[23004020] = Rare({
     quest = 39287,
     note = L['deathtalon_note'],
     rewards = {
-        Achievement({id = 10061, criteria = 28220}), -- Medallion of the Legion
-        Item({item = 128315}), -- Rattling Iron Cage
-        Item({item = 128025}), -- Tundra Icehoof
-        Mount({item = 116658, id = 611}), -- Armored Razorback
-        Mount({item = 116669, id = 622}), -- Warsong Direfang
-        Mount({item = 116780, id = 643})
+        Achievement({id = 10061, criteria = 28220}), Item({item = 128315}), -- Medallion of the Legion
+        Item({item = 128025}), -- Rattling Iron Cage
+        Mount({item = 116658, id = 611}), -- Tundra Icehoof
+        Mount({item = 116669, id = 622}), -- Armored Razorback
+        Mount({item = 116780, id = 643}) -- Warsong Direfang
     }
 })
 
@@ -749,12 +741,11 @@ map.nodes[32607400] = Rare({
     quest = 39290,
     note = L['vengeance_note'],
     rewards = {
-        Achievement({id = 10061, criteria = 28219}), -- Medallion of the Legion
-        Item({item = 128315}), -- Rattling Iron Cage
-        Item({item = 128025}), -- Tundra Icehoof
-        Mount({item = 116658, id = 611}), -- Armored Razorback
-        Mount({item = 116669, id = 622}), -- Warsong Direfang
-        Mount({item = 116780, id = 643})
+        Achievement({id = 10061, criteria = 28219}), Item({item = 128315}), -- Medallion of the Legion
+        Item({item = 128025}), -- Rattling Iron Cage
+        Mount({item = 116658, id = 611}), -- Tundra Icehoof
+        Mount({item = 116669, id = 622}), -- Armored Razorback
+        Mount({item = 116780, id = 643}) -- Warsong Direfang
     }
 })
 
@@ -764,12 +755,11 @@ map.nodes[47005260] = Rare({
     quest = 39289,
     note = L['doomroller_note'],
     rewards = {
-        Achievement({id = 10061, criteria = 28218}), -- Medallion of the Legion
-        Item({item = 128315}), -- Rattling Iron Cage
-        Item({item = 128025}), -- Tundra Icehoof
-        Mount({item = 116658, id = 611}), -- Armored Razorback
-        Mount({item = 116669, id = 622}), -- Warsong Direfang
-        Mount({item = 116780, id = 643})
+        Achievement({id = 10061, criteria = 28218}), Item({item = 128315}), -- Medallion of the Legion
+        Item({item = 128025}), -- Rattling Iron Cage
+        Mount({item = 116658, id = 611}), -- Tundra Icehoof
+        Mount({item = 116669, id = 622}), -- Armored Razorback
+        Mount({item = 116780, id = 643}) -- Warsong Direfang
     }
 })
 
@@ -777,16 +767,14 @@ map.nodes[47005260] = Rare({
 map.nodes[69603820] = Rare({
     id = 96235,
     requires = {
-        -- Jungle Stalker
-        ns.requirement.Achievement(10070), -- Order of the Awakened (Exalted)
-        ns.requirement.Reputation(1849, 8)
+        ns.requirement.Achievement(10070), -- Jungle Stalker
+        ns.requirement.Reputation(1849, 8) -- Order of the Awakened (Exalted)
     },
     note = L['xemirkol_note'],
     rewards = {Achievement({id = 10334})},
     pois = {
-        -- Vendor Horde
-        POI({60404660}), -- Vendor Alliance
-        POI({57805940})
+        POI({60404660}), -- Vendor Horde
+        POI({57805940}) -- Vendor Alliance
     }
 })
 
@@ -828,8 +816,8 @@ local BloodhunterZulk = Rare({
     quest = 38266,
     note = L['multiple_spawn_note'],
     rewards = {
-        Achievement({id = 10070, criteria = 28355}), -- Zulk's Sneaky Slippers
-        Transmog({item = 127303, slot = L['leather']})
+        Achievement({id = 10070, criteria = 28355}),
+        Transmog({item = 127303, slot = L['leather']}) -- Zulk's Sneaky Slippers
     }
 })
 
@@ -854,8 +842,7 @@ map.nodes[36304340] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Splendid Skettis Sapphire
-        Item({item = 127397, note = L['trinket']})
+        }), Item({item = 127397, note = L['trinket']}) -- Splendid Skettis Sapphire
     }
 })
 
@@ -870,8 +857,7 @@ map.nodes[15904970] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Weathered Memento Axe
-        Transmog({item = 127324, slot = L['1h_axe']})
+        }), Transmog({item = 127324, slot = L['1h_axe']}) -- Weathered Memento Axe
     },
     pois = {POI({17105080})}
 })
@@ -900,8 +886,7 @@ map.nodes[19304090] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Guardian Swiftblade of Kra'nak
-        Transmog({item = 127338, slot = L['1h_sword']})
+        }), Transmog({item = 127338, slot = L['1h_sword']}) -- Guardian Swiftblade of Kra'nak
     }
 })
 
@@ -915,8 +900,7 @@ map.nodes[28702330] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Jewel of Hellfire
-        Toy({item = 127668})
+        }), Toy({item = 127668}) -- Jewel of Hellfire
     }
 })
 
@@ -930,8 +914,7 @@ map.nodes[32407050] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Accursed Tome of the Sargerei
-        Toy({item = 127670})
+        }), Toy({item = 127670}) -- Accursed Tome of the Sargerei
     }
 })
 
@@ -959,8 +942,7 @@ map.nodes[54806930] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Ravager Hunting Spear
-        Transmog({item = 127334, slot = L['polearm']})
+        }), Transmog({item = 127334, slot = L['polearm']}) -- Ravager Hunting Spear
     }
 })
 
@@ -988,8 +970,7 @@ map.nodes[62007080] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Fel Shard
-        Item({item = 128217, note = L['trinket']})
+        }), Item({item = 128217, note = L['trinket']}) -- Fel Shard
     }
 })
 
@@ -1003,8 +984,7 @@ map.nodes[30507200] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Polished Crystal
-        Item({item = 127389})
+        }), Item({item = 127389}) -- Polished Crystal
     }
 })
 
@@ -1018,8 +998,7 @@ map.nodes[40607980] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Ogra'mal Snake Charming Flute
-        Transmog({item = 127333, slot = L['2h_mace']})
+        }), Transmog({item = 127333, slot = L['2h_mace']}) -- Ogra'mal Snake Charming Flute
     }
 })
 
@@ -1033,8 +1012,7 @@ map.nodes[40807550] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- The Perfect Blossom
-        Toy({item = 127766})
+        }), Toy({item = 127766}) -- The Perfect Blossom
     }
 })
 
@@ -1064,8 +1042,7 @@ map.nodes[41507340] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Forgotten Champion's Blade
-        Transmog({item = 127339, slot = L['2h_sword']})
+        }), Transmog({item = 127339, slot = L['2h_sword']}) -- Forgotten Champion's Blade
     }
 })
 
@@ -1107,8 +1084,7 @@ map.nodes[62502060] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Tormented Skull
-        Item({item = 127401, note = L['trinket']})
+        }), Item({item = 127401, note = L['trinket']}) -- Tormented Skull
     }
 })
 
@@ -1123,8 +1099,7 @@ map.nodes[26804420] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Throbbing Blood Orb
-        Toy({item = 127709})
+        }), Toy({item = 127709}) -- Throbbing Blood Orb
     }
 })
 
@@ -1138,8 +1113,7 @@ map.nodes[51802430] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Rune-Etched Femur
-        Transmog({item = 127341, slot = L['wand']})
+        }), Transmog({item = 127341, slot = L['wand']}) -- Rune-Etched Femur
     }
 })
 
@@ -1154,9 +1128,8 @@ map.nodes[64504210] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Strange Fruit
-        Item({item = 127396}), -- Podling Camouflage
-        Toy({item = 127394})
+        }), Item({item = 127396}), -- Strange Fruit
+        Toy({item = 127394}) -- Podling Camouflage
     }
 })
 
@@ -1171,8 +1144,7 @@ map.nodes[50008120] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Fallen Adventurer's Helm
-        Transmog({item = 127312, slot = L['mail']})
+        }), Transmog({item = 127312, slot = L['mail']}) -- Fallen Adventurer's Helm
     },
     pois = {POI({51207960})}
 })
@@ -1187,8 +1159,7 @@ map.nodes[50007970] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Scout's Spy Cloak
-        Transmog({item = 127354, slot = L['cloak']})
+        }), Transmog({item = 127354, slot = L['cloak']}) -- Scout's Spy Cloak
     }
 })
 
@@ -1216,8 +1187,7 @@ map.nodes[48007040] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Element-Infused Knuckles
-        Transmog({item = 127329, slot = L['fist']})
+        }), Transmog({item = 127329, slot = L['fist']}) -- Element-Infused Knuckles
     }
 })
 
@@ -1231,8 +1201,7 @@ map.nodes[50906490] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Luminous Relic Ring
-        Item({item = 127412, note = L['ring']})
+        }), Item({item = 127412, note = L['ring']}) -- Luminous Relic Ring
     }
 })
 
@@ -1246,8 +1215,7 @@ map.nodes[31503110] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Jeweled Arakkoa Effigy
-        Item({item = 127413})
+        }), Item({item = 127413}) -- Jeweled Arakkoa Effigy
     }
 })
 
@@ -1262,8 +1230,7 @@ map.nodes[25305020] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Smokeglass Lens Spyglass
-        Item({item = 128222, note = L['trinket']})
+        }), Item({item = 128222, note = L['trinket']}) -- Smokeglass Lens Spyglass
     }
 })
 
@@ -1279,8 +1246,7 @@ map.nodes[46307270] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Corrupted Primal Obelisk
-        Item({item = 128320})
+        }), Item({item = 128320}) -- Corrupted Primal Obelisk
     },
     pois = {POI({47307070})}
 })
@@ -1296,8 +1262,7 @@ map.nodes[63302810] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Shard of Cyrukh
-        Pet({item = 128309, id = 1690})
+        }), Pet({item = 128309, id = 1690}) -- Shard of Cyrukh
     }
 })
 
@@ -1326,8 +1291,7 @@ map.nodes[34703470] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Skull of the Mad Chief
-        Toy({item = 127669})
+        }), Toy({item = 127669}) -- Skull of the Mad Chief
     },
     pois = {POI({32503730})}
 })
@@ -1342,8 +1306,7 @@ map.nodes[15505440] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Axe of the Weeping Wolf
-        Transmog({item = 127325, slot = L['2h_axe']})
+        }), Transmog({item = 127325, slot = L['2h_axe']}) -- Axe of the Weeping Wolf
     }
 })
 
@@ -1373,8 +1336,7 @@ map.nodes[16005940] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Grannok's Lidless Eye
-        Item({item = 128220, note = L['trinket']})
+        }), Item({item = 128220, note = L['trinket']}) -- Grannok's Lidless Eye
     },
     pois = {POI({16405860})}
 })
@@ -1453,8 +1415,7 @@ map.nodes[46903670] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Resonating Tome of Zyzzix
-        Transmog({item = 127347, slot = L['offhand']})
+        }), Transmog({item = 127347, slot = L['offhand']}) -- Resonating Tome of Zyzzix
     }
 })
 
@@ -1468,8 +1429,7 @@ map.nodes[46904440] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Fel-Proof Goggles
-        Transmog({item = 128218, slot = L['cosmetic']})
+        }), Transmog({item = 128218, slot = L['cosmetic']}) -- Fel-Proof Goggles
     }
 })
 
@@ -1483,8 +1443,7 @@ map.nodes[46804210] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Feltwisted Sacrificial Blade
-        Transmog({item = 127328, slot = L['dagger']})
+        }), Transmog({item = 127328, slot = L['dagger']}) -- Feltwisted Sacrificial Blade
     }
 })
 
@@ -1512,8 +1471,7 @@ map.nodes[37808080] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Brazier of Awakening
-        Item({item = 127770})
+        }), Item({item = 127770}) -- Brazier of Awakening
     }
 })
 
@@ -1528,8 +1486,7 @@ map.nodes[49907680] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Bottomless Stygana Mushroom Brew
-        Toy({item = 128223})
+        }), Toy({item = 128223}) -- Bottomless Stygana Mushroom Brew
     },
     pois = {POI({44607750})}
 })
@@ -1545,8 +1502,7 @@ map.nodes[48607530] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Emanating Staff of Shadow
-        Transmog({item = 127337, slot = L['staff']})
+        }), Transmog({item = 127337, slot = L['staff']}) -- Emanating Staff of Shadow
     },
     pois = {POI({44607750})}
 })
@@ -1562,8 +1518,7 @@ map.nodes[43203830] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Commander's Citadel Shield
-        Transmog({item = 127348, slot = L['shield']})
+        }), Transmog({item = 127348, slot = L['shield']}) -- Commander's Citadel Shield
     },
     pois = {POI({42203780})}
 })
@@ -1579,8 +1534,7 @@ map.nodes[42903530] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Dazzling Rod
-        Toy({item = 127859})
+        }), Toy({item = 127859}) -- Dazzling Rod
     },
     pois = {POI({43003580})}
 })

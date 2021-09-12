@@ -91,8 +91,8 @@ map.nodes[62905520] = Rare({
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards = {
-        Achievement({id = 9400, criteria = 25568}), -- Writhing Green Tendril
-        Item({item = 116160, quest = TrophyOfGloryQuests['biolante']})
+        Achievement({id = 9400, criteria = 25568}),
+        Item({item = 116160, quest = TrophyOfGloryQuests['biolante']}) -- Writhing Green Tendril
     },
     pois = {
         Path({
@@ -107,8 +107,8 @@ map.nodes[43806060] = Rare({
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards = {
-        Achievement({id = 9400, criteria = 25570}), -- Chunk of Crater Lord
-        Item({item = 113448, quest = TrophyOfGloryQuests['crater lord igneous']})
+        Achievement({id = 9400, criteria = 25570}),
+        Item({item = 113448, quest = TrophyOfGloryQuests['crater lord igneous']}) -- Chunk of Crater Lord
     }
 })
 
@@ -118,8 +118,8 @@ map.nodes[45205160] = Rare({
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards = {
-        Achievement({id = 9400, criteria = 25574}), -- Fang of the Doomwing
-        Item({item = 113457, quest = TrophyOfGloryQuests['charl doomwing']})
+        Achievement({id = 9400, criteria = 25574}),
+        Item({item = 113457, quest = TrophyOfGloryQuests['charl doomwing']}) -- Fang of the Doomwing
     },
     pois = {Path({45404900, 46004680, 47804640})}
 })
@@ -130,8 +130,8 @@ map.nodes[53206880] = Rare({
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards = {
-        Achievement({id = 9400, criteria = 25572}), -- Shimmering Scale
-        Item({item = 113460, quest = TrophyOfGloryQuests['khargax devourer']})
+        Achievement({id = 9400, criteria = 25572}),
+        Item({item = 113460, quest = TrophyOfGloryQuests['khargax devourer']}) -- Shimmering Scale
     },
     pois = {
         Path({
@@ -147,8 +147,8 @@ map.nodes[50806760] = Rare({
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     note = L['roardan_sky_terror_note'] .. '\n\n' .. L['trophy_of_glory_note'],
     rewards = {
-        Achievement({id = 9400, criteria = 25569}), -- Ebony Feather
-        Item({item = 113458, quest = TrophyOfGloryQuests['roardan sky terror']})
+        Achievement({id = 9400, criteria = 25569}),
+        Item({item = 113458, quest = TrophyOfGloryQuests['roardan sky terror']}) -- Ebony Feather
     },
     pois = {POI({61606200}), POI({53106300})}
 })
@@ -159,8 +159,8 @@ map.nodes[38805120] = Rare({
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards = {
-        Achievement({id = 9400, criteria = 25571}), -- Globe of Dead Water
-        Item({item = 113447, quest = TrophyOfGloryQuests['dessicus dead pools']})
+        Achievement({id = 9400, criteria = 25571}),
+        Item({item = 113447, quest = TrophyOfGloryQuests['dessicus dead pools']}) -- Globe of Dead Water
     }
 })
 
@@ -170,8 +170,8 @@ map.nodes[51804160] = Rare({
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards = {
-        Achievement({id = 9400, criteria = 25573}), -- Crystalized Steam
-        Item({item = 113444, quest = TrophyOfGloryQuests['erosian violent']})
+        Achievement({id = 9400, criteria = 25573}),
+        Item({item = 113444, quest = TrophyOfGloryQuests['erosian violent']}) -- Crystalized Steam
     }
 })
 
@@ -181,8 +181,8 @@ map.nodes[58006360] = Rare({
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     rewards = {
-        Achievement({id = 9400, criteria = 25575}), -- Precious Mushroom
-        Item({item = 113453, quest = TrophyOfGloryQuests['fungal praetorian']})
+        Achievement({id = 9400, criteria = 25575}),
+        Item({item = 113453, quest = TrophyOfGloryQuests['fungal praetorian']}) -- Precious Mushroom
     }
 })
 
@@ -191,8 +191,8 @@ map.nodes[49003300] = Rare({
     id = 86562,
     quest = 37363,
     rewards = {
-        Achievement({id = 9655, criteria = 26542}), -- Unpopped Pustule Pendant
-        Item({item = 119230, note = L['neck']})
+        Achievement({id = 9655, criteria = 26542}),
+        Item({item = 119230, note = L['neck']}) -- Unpopped Pustule Pendant
     }
 })
 
@@ -201,8 +201,8 @@ map.nodes[48202100] = Rare({
     id = 86566,
     quest = 37362,
     rewards = {
-        Achievement({id = 9655, criteria = 26543}), -- Foereaver Polearm
-        Transmog({item = 119224, slot = L['polearm']})
+        Achievement({id = 9655, criteria = 26543}),
+        Transmog({item = 119224, slot = L['polearm']}) -- Foereaver Polearm
     }
 })
 
@@ -222,8 +222,8 @@ map.nodes[47603080] = Rare({
     id = 86574,
     quest = 37367,
     rewards = {
-        Achievement({id = 9655, criteria = 26545}), -- Blammo's Blammer
-        Transmog({item = 119226, slot = L['gun']})
+        Achievement({id = 9655, criteria = 26545}),
+        Transmog({item = 119226, slot = L['gun']}) -- Blammo's Blammer
     }
 })
 
@@ -232,8 +232,8 @@ map.nodes[45802660] = Rare({
     id = 86577,
     quest = 37365,
     rewards = {
-        Achievement({id = 9655, criteria = 26548}), -- Horgg's Bandolier
-        Transmog({item = 119229, slot = L['mail']})
+        Achievement({id = 9655, criteria = 26548}),
+        Transmog({item = 119229, slot = L['mail']}) -- Horgg's Bandolier
     }
 })
 
@@ -275,8 +275,8 @@ map.nodes[61603920] = Rare({
     id = 88586,
     quest = 37376,
     rewards = {
-        Achievement({id = 9678, criteria = 26594}), -- Etched Osteoderm Shield
-        Transmog({item = 119391, slot = L['shield']})
+        Achievement({id = 9678, criteria = 26594}),
+        Transmog({item = 119391, slot = L['shield']}) -- Etched Osteoderm Shield
     }
 })
 
@@ -285,9 +285,8 @@ map.nodes[69204460] = Rare({
     id = 86257,
     quest = 37369,
     rewards = {
-        Achievement({id = 9678, criteria = 26595}), -- Botani Camouflage
-        Toy({item = 119432}), -- Grovetender's Cummerbund
-        Transmog({item = 119357, slot = L['cloth']})
+        Achievement({id = 9678, criteria = 26595}), Toy({item = 119432}), -- Botani Camouflage
+        Transmog({item = 119357, slot = L['cloth']}) -- Grovetender's Cummerbund
     }
 })
 
@@ -296,8 +295,8 @@ map.nodes[63403080] = Rare({
     id = 86266,
     quest = 37372,
     rewards = {
-        Achievement({id = 9678, criteria = 26596}), -- Hydratooth Dagger
-        Transmog({item = 119395, slot = L['dagger']})
+        Achievement({id = 9678, criteria = 26596}),
+        Transmog({item = 119395, slot = L['dagger']}) -- Hydratooth Dagger
     }
 })
 
@@ -327,8 +326,8 @@ map.nodes[59604300] = Rare({
     id = 88583,
     quest = 37375,
     rewards = {
-        Achievement({id = 9678, criteria = 26600}), -- Yal's Leafwrap Cloak
-        Transmog({item = 119414, slot = L['cloak']})
+        Achievement({id = 9678, criteria = 26600}),
+        Transmog({item = 119414, slot = L['cloak']}) -- Yal's Leafwrap Cloak
     }
 })
 
@@ -337,8 +336,8 @@ map.nodes[54804620] = Rare({
     id = 88672,
     quest = 37377,
     rewards = {
-        Achievement({id = 9678, criteria = 26606}), -- Bal'ra's Compound Bow
-        Transmog({item = 119412, slot = L['bow']})
+        Achievement({id = 9678, criteria = 26606}),
+        Transmog({item = 119412, slot = L['bow']}) -- Bal'ra's Compound Bow
     }
 })
 
@@ -534,8 +533,8 @@ local Alkali = Rare({
     quest = 37371,
     note = L['multiple_spawn_note'],
     rewards = {
-        Achievement({id = 9678, criteria = 26597}), -- Thorn-Knuckled Gloves
-        Transmog({item = 119361, slot = L['leather']})
+        Achievement({id = 9678, criteria = 26597}),
+        Transmog({item = 119361, slot = L['leather']}) -- Thorn-Knuckled Gloves
     }
 })
 
@@ -583,8 +582,7 @@ map.nodes[40407660] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Exploratron 2000 Spare Parts
-        Item({item = 118710})
+        }), Item({item = 118710}) -- Exploratron 2000 Spare Parts
     }
 })
 
@@ -675,8 +673,7 @@ map.nodes[52506690] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Beastskull Vessel
-        Transmog({item = 118717, slot = L['offhand']})
+        }), Transmog({item = 118717, slot = L['offhand']}) -- Beastskull Vessel
     }
 })
 
@@ -704,8 +701,7 @@ map.nodes[59506370] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Huurand's Huge Hammer
-        Transmog({item = 118712, slot = L['2h_mace']})
+        }), Transmog({item = 118712, slot = L['2h_mace']}) -- Huurand's Huge Hammer
     }
 })
 
@@ -733,8 +729,7 @@ map.nodes[41705290] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Brokor's Walking Stick
-        Transmog({item = 118702, slot = L['staff']})
+        }), Transmog({item = 118702, slot = L['staff']}) -- Brokor's Walking Stick
     }
 })
 
@@ -763,9 +758,8 @@ map.nodes[48904730] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Warm Goren Egg
-        Item({item = 118705}), -- Goren Garb
-        Toy({item = 118716})
+        }), Item({item = 118705}), -- Warm Goren Egg
+        Toy({item = 118716}) -- Goren Garb
     }
 })
 
@@ -779,8 +773,7 @@ map.nodes[49304360] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Iron Horde Weapon Cache
-        Item({item = 107645})
+        }), Item({item = 107645}) -- Iron Horde Weapon Cache
     }
 })
 
@@ -808,8 +801,7 @@ map.nodes[45004260] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), -- Iron Lookout's Arbalest
-        Transmog({item = 118713, slot = L['crossbow']})
+        }), Transmog({item = 118713, slot = L['crossbow']}) -- Iron Lookout's Arbalest
     }
 })
 
@@ -932,8 +924,7 @@ map.nodes[47504130] = Treasure({
     label = L['ninja_pepe_treasure'],
     note = L['ninja_pepe_note'],
     rewards = {
-        Achievement({id = 10053, criteria = 28182}), -- A Tiny Ninja Shroud
-        Item({item = 127867})
+        Achievement({id = 10053, criteria = 28182}), Item({item = 127867}) -- A Tiny Ninja Shroud
     }
 })
 

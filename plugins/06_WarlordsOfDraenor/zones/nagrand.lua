@@ -63,7 +63,7 @@ local Nakk = Rare({
         -- Bloodhoof Bull
         Mount({item = 116659, id = 612})
     }
-}) -- Nakk the Thunderer
+})
 
 map.nodes[62801540] = Nakk
 map.nodes[64601960] = Nakk
