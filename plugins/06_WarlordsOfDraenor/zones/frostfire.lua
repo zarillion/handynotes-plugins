@@ -24,13 +24,13 @@ local map = Map({ id = 525, settings = true })
 -------------------------------------------------------------------------------
 
 local Voidtalon = Node({
-  icon = 1094600,
-  label = L['edge_of_reality'],
-  note = L['edge_of_reality_note'],
-  rewards = {
-    -- Voidtalon of the Dark Star
-    Mount({ id = 682, item = 121815 }),
-  },
+    icon = 1094600,
+    label = L['edge_of_reality'],
+    note = L['edge_of_reality_note'],
+    rewards = {
+        -- Voidtalon of the Dark Star
+        Mount({ id = 682, item = 121815 }),
+    },
 })
 
 map.nodes[51101986] = Voidtalon
@@ -44,12 +44,12 @@ map.nodes[48002740] = Voidtalon
 
 -- Gorok
 local Gorok = Rare({
-  id = 50992,
-  note = L['multiple_spawn_note'],
-  rewards = {
-    -- Great Greytusk
-    Mount({ item = 116674, id = 627 }),
-  },
+    id = 50992,
+    note = L['multiple_spawn_note'],
+    rewards = {
+        -- Great Greytusk
+        Mount({ item = 116674, id = 627 }),
+    },
 })
 
 map.nodes[63407940] = Gorok
@@ -60,11 +60,11 @@ map.nodes[58001840] = Gorok
 
 -- Nok-Karosh
 map.nodes[13205060] = Rare({
-  id = 81001,
-  rewards = {
-    -- Garn Nighthowl
-    Mount({ item = 116794, id = 657 }),
-  },
+    id = 81001,
+    rewards = {
+        -- Garn Nighthowl
+        Mount({ item = 116794, id = 657 }),
+    },
 })
 
 -------------------------------------------------------------------------------
@@ -73,8 +73,8 @@ map.nodes[13205060] = Rare({
 
 -- Gargra
 map.nodes[68606460] = PetBattle({
-  id = 87122,
-  rewards = {
-    Achievement({ id = 9724, criteria = 27013 }),
-  },
+    id = 87122,
+    rewards = {
+        Achievement({ id = 9724, criteria = 27013 }),
+    },
 })

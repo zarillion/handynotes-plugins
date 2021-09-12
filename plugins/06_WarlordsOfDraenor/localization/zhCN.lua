@@ -1,7 +1,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('zhCN')
 if not L then
-  return
+    return
 end
 
 -------------------------------------------------------------------------------
