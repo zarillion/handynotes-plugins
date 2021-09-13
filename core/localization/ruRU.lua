@@ -136,8 +136,8 @@ L['options_toy_rewards'] = 'Показать игрушки'
 L['options_toy_rewards_desc'] = 'Отображать игрушки во всплывающих подсказках и отслеживание их статуса.'
 L['options_transmog_rewards'] = 'Показать трансмогрификацию'
 L['options_transmog_rewards_desc'] = 'Отображать трансмогрификацию во всплывающих подсказках и отслеживать их статус.'
-L['options_all_transmog_rewards'] = nil
-L['options_all_transmog_rewards_desc'] = nil
+L['options_all_transmog_rewards'] = 'Показать недоступные награды за трансмогрификацию'
+L['options_all_transmog_rewards_desc'] = 'Показать награды за трансмогрификацию, доступные другим классам.'
 
 L['options_icons_misc_desc'] = 'Отображение местоположения других разных точек.'
 L['options_icons_misc'] = 'Разное'
