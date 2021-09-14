@@ -8,61 +8,71 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Frontière du réel'
-L['edge_of_reality_note'] = nil
+L['edge_of_reality_note'] = ns.color.Yellow('Frontière du réel') .. ' vous transportera dans un scénario, où vous pourrez récupérer {item:121815}.'
 L['treasures_discovered'] = 'trésors découverts'
-L['strange_spore_treasure'] = nil
+L['strange_spore_treasure'] = 'Spore étrange'
 L['multiple_spawn_note'] = 'Peut apparaître à plusieurs endroits.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
 -------------------------------------------------------------------------------
 
-L['poundfist_note'] = nil
-L['trophy_of_glory_note'] = nil
-L['roardan_sky_terror_note'] = nil
+L['poundfist_note'] = 'Possède un temps de réapparition très long, entre 50 et 90 heures.'
+L['trophy_of_glory_note'] = 'Vous devez terminer la construction de votre avant-poste de fief à Gorgrond pour que les objets de quête soient récupérables.'
+L['roardan_sky_terror_note'] = 'Vole autour de L’Enchevêtrement et du Guet des Bêtes et fait 3 arrêts en chemin.'
 
-L['explorer_canister_treasure'] = nil
-L['discarded_pack_treasure'] = nil
-L['ockbars_pack_treasure'] = nil
-L['stashed_emergency_rucksack_treasure'] = nil
-L['strange_looking_dagger_treasure'] = nil
-L['remains_of_balik_orecrusher_treasure'] = nil
-L['odd_skull_treasure'] = nil
-L['sashas_secret_stash_treasure'] = nil
-L['vindicators_hammer_treasure'] = nil
-L['remains_if_balldir_deeprock_treasure'] = nil
-L['brokors_sack_treasure'] = nil
-L['suntouched_spear_treasure'] = nil
-L['warm_goren_egg_treasure'] = nil
-L['weapons_cache_treasure'] = nil
-L['petrified_rylak_egg_treasure'] = nil
-L['snipers_crossbow_trerasure'] = nil
-L['iron_supply_chest_treasure'] = nil
-L['horned_skull_treasure'] = nil
-L['evermorn_supply_cache_treasure'] = nil
-L['harvestable_precious_crystal_treasure'] = nil
-L['femur_of_improbability_treasure'] = nil
-L['laughing_skull_cache_treasure'] = nil
-L['pile_of_rubble_treasure'] = nil
-L['ninja_pepe_treasure'] = nil
-L['attack_plans_treasure'] = nil
-L['laughing_skull_note'] = nil
-L['warm_goren_egg_note'] = nil
-L['ninja_pepe_note'] = nil
+L['explorer_canister_treasure'] = 'Boîte d’explorateur'
+L['discarded_pack_treasure'] = 'Paquet abandonné'
+L['ockbars_pack_treasure'] = 'Sac d’Ockbar'
+L['stashed_emergency_rucksack_treasure'] = 'Sac à dos d’urgence bien rangé'
+L['strange_looking_dagger_treasure'] = 'Dague suspecte'
+L['remains_of_balik_orecrusher_treasure'] = 'Dépouille de Balik Broie-Minerai'
+L['odd_skull_treasure'] = 'Crâne étrange'
+L['sashas_secret_stash_treasure'] = 'Planque secrète de Sasha'
+L['vindicators_hammer_treasure'] = 'Marteau du redresseur de torts'
+L['remains_if_balldir_deeprock_treasure'] = 'Dépouille de Baldir Fonderoc'
+L['brokors_sack_treasure'] = 'Sac de Brokor'
+L['suntouched_spear_treasure'] = 'Lance de Solegrâce'
+L['warm_goren_egg_treasure'] = 'Œuf de goren chaud'
+L['weapons_cache_treasure'] = 'Cache d’armes'
+L['petrified_rylak_egg_treasure'] = 'Œuf de rylak pétrifié'
+L['snipers_crossbow_trerasure'] = 'Arbalète de tireur d’élite'
+L['iron_supply_chest_treasure'] = 'Coffre de fournitures de l’Alliance'
+L['horned_skull_treasure'] = 'Crâne cornu'
+L['evermorn_supply_cache_treasure'] = 'Planque de fournitures d’Aube-Éternelle'
+L['harvestable_precious_crystal_treasure'] = 'Précieux cristal récoltable'
+L['femur_of_improbability_treasure'] = 'Fémur d’improbabilité'
+L['laughing_skull_cache_treasure'] = 'Cache du Crâne-Ricanant'
+L['pile_of_rubble_treasure'] = 'Pile de débris'
+L['ninja_pepe_treasure'] = 'Pépé ninja'
+L['attack_plans_treasure'] = 'Ordres d’attaque de la Horde de Fer'
+L['laughing_skull_note'] = 'En haut de l’arbre.'
+L['warm_goren_egg_note'] = '{item:118705} est incubé pendant 7 jours pour devenir {item:118716}.'
+L['ninja_pepe_note'] = 'Dans la cabane, assis sur une chaise.'
 
-L['options_icons_attack_plans'] = nil
-L['options_icons_attack_plans_desc'] = nil
+L['options_icons_attack_plans'] = '{achievement:9656}'
+L['options_icons_attack_plans_desc'] = 'Affiche les emplacements des Ordres d’attaque de la Horde de Fer pour {achievement:9656}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['wandering_vindicator_note'] = nil
-L['legion_vanguard_note'] = nil
-L['taladorantula_note'] = nil
-L['shirzir_note'] = nil
-L['kharazos_galzomar_sikthiss_note'] = nil
-L['orumo_the_observer_note'] = nil
+L['wandering_vindicator_note'] = 'Après l’avoir vaincu, vous devez récupérer son épée dans la pierre.'
+L['legion_vanguard_note'] = 'l’{npc:88494} est invoquée depuis le portail. Tuez les {npc:83023} autour du portail et ceux qui en sortent pour l’invoquer.'
+L['taladorantula_note'] = 'Ecrasez les sacs d’œufs et tuez les {npc:75258} autour pour invoquer {npc:77634}. Cela prend environ 3 à 5 minutes d’écrasement d’œufs.'
+L['shirzir_note'] = 'Dans une tombe souterraine.'
+L['kharazos_galzomar_sikthiss_note'] = '{npc:78710}, {npc:78713} et {npc:78715} partagent le même butin, point d’apparition et itinéraire.'
+L['orumo_the_observer_note'] = [[
+{npc:87668} nécessite 5 personnes se tenant sur des runes devant lui pour pouvoir le tuer.
+
+Sinon, les démonistes peuvent utiliser {spell:48020} et les moines {spell:119996} pour se téléporter sur les runes, ce qui réduit le nombre de personnes requises à 3.
+
+Une autre option consiste à utiliser 5 de vos propres personnages, à les déplacer un par un vers les runes et à les déconnecter à cet endroit.
+
+La dernière option est d’utiliser un seul personnage. Allez à une rune, allumez-la, téléportez-vous ailleurs et répétez l’opération pour chaque rune. Le meilleur moyen est de fixer votre {item:6948} quelque part à proximité.
+
+Vous pouvez combiner n’importe laquelle des méthodes ci-dessus pour invoquer {npc:87668}.
+]]
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
