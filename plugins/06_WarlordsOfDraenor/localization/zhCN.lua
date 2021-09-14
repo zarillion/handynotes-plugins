@@ -7,61 +7,71 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = '现世边界'
-L['edge_of_reality_note'] = nil
+L['edge_of_reality_note'] = ns.color.Yellow('现世边界') .. ' 传送门将你带到一个场景，可以拾取 {item:121815}。'
 L['treasures_discovered'] = '宝藏已发现'
-L['strange_spore_treasure'] = nil
+L['strange_spore_treasure'] = '奇异孢子'
 L['multiple_spawn_note'] = '在多个位置刷新。'
 
 -------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
 -------------------------------------------------------------------------------
 
-L['poundfist_note'] = nil
-L['trophy_of_glory_note'] = nil
-L['roardan_sky_terror_note'] = nil
+L['poundfist_note'] = '重生时间非常长，在50到90小时之间。'
+L['trophy_of_glory_note'] = '必须完成建造戈尔隆德要塞哨站让任务物品掉落。'
+L['roardan_sky_terror_note'] = '在丛林之心和蛮兽岗哨范围飞行并在途中3个位置停留。'
 
-L['explorer_canister_treasure'] = nil
-L['discarded_pack_treasure'] = nil
-L['ockbars_pack_treasure'] = nil
-L['stashed_emergency_rucksack_treasure'] = nil
-L['strange_looking_dagger_treasure'] = nil
-L['remains_of_balik_orecrusher_treasure'] = nil
-L['odd_skull_treasure'] = nil
-L['sashas_secret_stash_treasure'] = nil
-L['vindicators_hammer_treasure'] = nil
-L['remains_if_balldir_deeprock_treasure'] = nil
-L['brokors_sack_treasure'] = nil
-L['suntouched_spear_treasure'] = nil
-L['warm_goren_egg_treasure'] = nil
-L['weapons_cache_treasure'] = nil
-L['petrified_rylak_egg_treasure'] = nil
-L['snipers_crossbow_trerasure'] = nil
-L['iron_supply_chest_treasure'] = nil
-L['horned_skull_treasure'] = nil
-L['evermorn_supply_cache_treasure'] = nil
-L['harvestable_precious_crystal_treasure'] = nil
-L['femur_of_improbability_treasure'] = nil
-L['laughing_skull_cache_treasure'] = nil
-L['pile_of_rubble_treasure'] = nil
-L['ninja_pepe_treasure'] = nil
-L['attack_plans_treasure'] = nil
-L['laughing_skull_note'] = nil
-L['warm_goren_egg_note'] = nil
-L['ninja_pepe_note'] = nil
+L['explorer_canister_treasure'] = '探险家罐子'
+L['discarded_pack_treasure'] = '被遗弃的包裹'
+L['ockbars_pack_treasure'] = '奥卡巴的包裹'
+L['stashed_emergency_rucksack_treasure'] = '隐秘的急救背包'
+L['strange_looking_dagger_treasure'] = '样子古怪的匕首'
+L['remains_of_balik_orecrusher_treasure'] = '巴里克·碎矿的遗骸'
+L['odd_skull_treasure'] = '奇怪的颅骨'
+L['sashas_secret_stash_treasure'] = '萨莎的秘密包裹'
+L['vindicators_hammer_treasure'] = '守备官的战锤'
+L['remains_if_balldir_deeprock_treasure'] = '波迪尔·深岩的遗物'
+L['brokors_sack_treasure'] = '波尔卡的袋子'
+L['suntouched_spear_treasure'] = '日灼之矛'
+L['warm_goren_egg_treasure'] = '热乎乎的鬣蜥人蛋'
+L['weapons_cache_treasure'] = '武器架'
+L['petrified_rylak_egg_treasure'] = '石化的双头飞龙蛋'
+L['snipers_crossbow_trerasure'] = '狙击手的强弩'
+L['iron_supply_chest_treasure'] = '钢铁补给箱'
+L['horned_skull_treasure'] = '长角的颅骨'
+L['evermorn_supply_cache_treasure'] = '永晨补给篮'
+L['harvestable_precious_crystal_treasure'] = '可收获的珍贵水晶'
+L['femur_of_improbability_treasure'] = '稀有腿骨'
+L['laughing_skull_cache_treasure'] = '嘲颅包裹'
+L['pile_of_rubble_treasure'] = '一堆碎石'
+L['ninja_pepe_treasure'] = '忍者佩佩'
+L['attack_plans_treasure'] = '钢铁部落攻击指令'
+L['laughing_skull_note'] = '在树上。'
+L['warm_goren_egg_note'] = '{item:118705} 7天后孵化为 {item:118716}。'
+L['ninja_pepe_note'] = '小屋内椅子上。'
 
-L['options_icons_attack_plans'] = nil
-L['options_icons_attack_plans_desc'] = nil
+L['options_icons_attack_plans'] = '{achievement:9656}'
+L['options_icons_attack_plans_desc'] = '显示 {achievement:9656} 成就中钢铁部落攻击指令的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['wandering_vindicator_note'] = nil
-L['legion_vanguard_note'] = nil
-L['taladorantula_note'] = nil
-L['shirzir_note'] = nil
-L['kharazos_galzomar_sikthiss_note'] = nil
-L['orumo_the_observer_note'] = nil
+L['wandering_vindicator_note'] = '击败他后，需要从石头中拾取宝剑。'
+L['legion_vanguard_note'] = '从传送门中召唤 {npc:88494}。击杀传送门周围 {npc:83023} 及其它，会把他召唤出来。'
+L['taladorantula_note'] = '踩踏卵巢并击杀周围的 {npc:75258} 来召唤 {npc:77634}。大约需要3到5分钟的踩踏时间。'
+L['shirzir_note'] = '在地下墓穴。'
+L['kharazos_galzomar_sikthiss_note'] = '{npc:78710}、{npc:78713} 和 {npc:78715} 共享掉落、刷新和路径。'
+L['orumo_the_observer_note'] = [[
+{npc:87668} 需要5人站在符文上直到他可被击杀。
+
+或者，术士的 {spell:48020} 和武僧的 {spell:119996} 可用于传送到符文，这将所需人数减少到3个。
+
+另一种选择是使用您自己的5个角色，将它们一个一个地移动到符文并在那里登出。
+
+最后一个选择是只使用一个角色。站到符文，点亮它，传送出去并为每个符文重复。最好的方法是在附近设置 {item:6948}。
+
+可以结合上述任何一种方法召唤 {npc:87668}。
+]]
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
@@ -84,7 +94,7 @@ L['dorg_the_bloody_note'] = '在刷新点击杀 {npc:89706} 和其他敌人。'
 L['grand_warlock_netherkurse_note'] = '击杀刷新点附近的敌人。'
 L['ceraxas_note'] = '击杀后刷新的 {npc:90426} 有任务 {quest:38428} 获得宠物。'
 L['commander_orgmok_note'] = '骑着 {npc:89676} 巡逻。'
-L['rendrak_note'] = '从沼泽周围的 {npc:89788} 收集10个 {item:124045}。将它们结合起来召唤稀有。 '
+L['rendrak_note'] = '从沼泽周围的 {npc:89788} 收集10个 {item:124045}。将它们结合起来召唤稀有。'
 L['akrrilo_note'] = '从 {npc:92805} 购买 {item:124093} 并在黑齿挑战竞技场使用它。'
 L['rendarr_note'] = '从 {npc:92805} 购买 {item:124094} 并在黑齿挑战竞技场使用它。'
 L['eyepiercer_note'] = '从 {npc:92805} 购买 {item:124095} 并在黑齿挑战竞技场使用它。'
