@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -o errexit
+set -o errtrace
+set -o nounset
+set -o pipefail
+
+content=`cat`
+column_limit=""
+
+# If the line assigning `L` appears, assume this is a locale file
+if [[ "${content}" =~ "local L = ns.NewLocale" ]]; then
+    column_limit="--column-limit=1000"
+fi
+
+echo "${content}" | lua-format "$@" ${column_limit}

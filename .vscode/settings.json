@@ -16,5 +16,6 @@
     },
     "lua.preferLuaCheckErrors": true,
     "lua.targetVersion": "5.3",
-    "python.pythonPath": "/usr/bin/python"
+    "python.pythonPath": "/usr/bin/python",
+    "vscode-lua-format.binaryPath": ".vscode/lua-format-wrapper"
 }
