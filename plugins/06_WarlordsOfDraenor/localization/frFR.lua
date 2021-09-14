@@ -8,7 +8,50 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Frontière du réel'
+L['edge_of_reality_note'] = nil
 L['treasures_discovered'] = 'trésors découverts'
+L['strange_spore_treasure'] = nil
+L['multiple_spawn_note'] = 'Peut apparaître à plusieurs endroits.'
+
+-------------------------------------------------------------------------------
+----------------------------------- GORGROND ----------------------------------
+-------------------------------------------------------------------------------
+
+L['poundfist_note'] = nil
+L['trophy_of_glory_note'] = nil
+L['roardan_sky_terror_note'] = nil
+
+L['explorer_canister_treasure'] = nil
+L['discarded_pack_treasure'] = nil
+L['ockbars_pack_treasure'] = nil
+L['stashed_emergency_rucksack_treasure'] = nil
+L['strange_looking_dagger_treasure'] = nil
+L['remains_of_balik_orecrusher_treasure'] = nil
+L['odd_skull_treasure'] = nil
+L['sashas_secret_stash_treasure'] = nil
+L['vindicators_hammer_treasure'] = nil
+L['remains_if_balldir_deeprock_treasure'] = nil
+L['brokors_sack_treasure'] = nil
+L['suntouched_spear_treasure'] = nil
+L['warm_goren_egg_treasure'] = nil
+L['weapons_cache_treasure'] = nil
+L['petrified_rylak_egg_treasure'] = nil
+L['snipers_crossbow_trerasure'] = nil
+L['iron_supply_chest_treasure'] = nil
+L['horned_skull_treasure'] = nil
+L['evermorn_supply_cache_treasure'] = nil
+L['harvestable_precious_crystal_treasure'] = nil
+L['femur_of_improbability_treasure'] = nil
+L['laughing_skull_cache_treasure'] = nil
+L['pile_of_rubble_treasure'] = nil
+L['ninja_pepe_treasure'] = nil
+L['attack_plans_treasure'] = nil
+L['laughing_skull_note'] = nil
+L['warm_goren_egg_note'] = nil
+L['ninja_pepe_note'] = nil
+
+L['options_icons_attack_plans'] = nil
+L['options_icons_attack_plans_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -38,7 +81,6 @@ L['belgork_thromma_note'] = 'Cette grotte a deux entrées.'
 L['driss_vile_note'] = 'Au sommet de la tour.'
 L['overlord_magruth_note'] = 'Tuez des orcs autour du camp pour le faire apparaître.'
 L['mistress_thavra_note'] = 'Dans une grotte à l\'étage supérieur.'
-L['bloodhunter_zulk_note'] = 'Peut apparaître à plusieurs endroits.'
 L['dorg_the_bloody_note'] = 'Tuez des {npc:89706} et d\'autres ennemis au lieu d\'apparition.'
 L['grand_warlock_netherkurse_note'] = 'Tuer des ennemis autour du point d\'apparition.'
 L['ceraxas_note'] = 'Fait apparaître un {npc:90426} donnant la quête {quest:38428} pour ce familier après l\'avoir tué.'

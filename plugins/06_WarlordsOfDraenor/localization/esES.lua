@@ -7,61 +7,61 @@ if not L then return end
 -------------------------------- ACROSS ZONES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['edge_of_reality'] = "Acantilado de la Realidad"
-L['edge_of_reality_note'] = ns.color.Yellow("Edge of Reality") .. " el portal te llevará a otro sitio, donde podrás despojar la {item:121815}."
-L['treasures_discovered'] = "tesoros descubiertos"
-L['strange_spore_treasure'] = "Espora Extraña"
-L['multiple_spawn_note'] = "Puede aparecer en varios sitios."
+L['edge_of_reality'] = 'Acantilado de la Realidad'
+L['edge_of_reality_note'] = ns.color.Yellow('Edge of Reality') .. ' el portal te llevará a otro sitio, donde podrás despojar la {item:121815}.'
+L['treasures_discovered'] = 'tesoros descubiertos'
+L['strange_spore_treasure'] = 'Espora Extraña'
+L['multiple_spawn_note'] = 'Puede aparecer en varios sitios.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
 -------------------------------------------------------------------------------
 
-L['poundfist_note'] = "Tiene una reaparición larga de entre 50 y 90 horas."
-L['trophy_of_glory_note'] = "Has de acabar de construir tu Edificio de Avanzada de la Ciudadela en Gorgrond para conseguir que caigan los objetos de misión."
-L['roardan_sky_terror_note'] = "Vuela alrededor de Madreselva y de Avanzada de las Bestias haciendo 3 paradas en el camino."
+L['poundfist_note'] = 'Tiene una reaparición larga de entre 50 y 90 horas.'
+L['trophy_of_glory_note'] = 'Has de acabar de construir tu Edificio de Avanzada de la Ciudadela en Gorgrond para conseguir que caigan los objetos de misión.'
+L['roardan_sky_terror_note'] = 'Vuela alrededor de Madreselva y de Avanzada de las Bestias haciendo 3 paradas en el camino.'
 
-L['explorer_canister_treasure'] = "Bote de Explorador"
-L['discarded_pack_treasure'] = "Paquete Desechado"
-L['ockbars_pack_treasure'] = "Bolsa de Ockbar"
-L['stashed_emergency_rucksack_treasure'] = "Mochila de Emergencia Oculta"
-L['strange_looking_dagger_treasure'] = "Daga de Apariencia Rara"
-L['remains_of_balik_orecrusher_treasure'] = "Restos de Balik Machacamenas"
-L['odd_skull_treasure'] = "Calavera Extraña"
-L['sashas_secret_stash_treasure'] = "Alijo Secreto de Sasha"
-L['vindicators_hammer_treasure'] = "Martillo de Vindicador"
-L['remains_if_balldir_deeprock_treasure'] = "Restos de Balldir Rocabismal"
-L['brokors_sack_treasure'] = "Bolsa de Brokor"
-L['suntouched_spear_treasure'] = "Lanza Toquesol"
-L['warm_goren_egg_treasure'] = "Huevo de Goren Caliente"
-L['weapons_cache_treasure'] = "Alijo de Armas"
-L['petrified_rylak_egg_treasure'] = "Huevo de Rylak Petrificado"
-L['snipers_crossbow_trerasure'] = "Ballesta de Francotirador"
-L['iron_supply_chest_treasure'] = "Cofre de Suministros de la Horda de Hierro"
-L['horned_skull_treasure'] = "Cráneo Cornudo"
-L['evermorn_supply_cache_treasure'] = "Alijo de Suministros Sol Eterno"
-L['harvestable_precious_crystal_treasure'] = "Cristal Precioso Recolectable"
-L['femur_of_improbability_treasure'] = "Fémur de Improbabilidad"
-L['laughing_skull_cache_treasure'] = "Alijo Riecráneos"
-L['pile_of_rubble_treasure'] = "Montón de Escombros"
-L['ninja_pepe_treasure'] = "Pepe Ninja"
-L['attack_plans_treasure'] = "Órdenes de Ataque de la Horda de Hierro"
-L['laughing_skull_note'] = "Encima del árbol."
-L['warm_goren_egg_note'] = "El {item:118705} tras incubar 7 días se convierte en {item:118716}."
-L['ninja_pepe_note'] = "Sentado en una silla que hay dentro de la choza."
+L['explorer_canister_treasure'] = 'Bote de Explorador'
+L['discarded_pack_treasure'] = 'Paquete Desechado'
+L['ockbars_pack_treasure'] = 'Bolsa de Ockbar'
+L['stashed_emergency_rucksack_treasure'] = 'Mochila de Emergencia Oculta'
+L['strange_looking_dagger_treasure'] = 'Daga de Apariencia Rara'
+L['remains_of_balik_orecrusher_treasure'] = 'Restos de Balik Machacamenas'
+L['odd_skull_treasure'] = 'Calavera Extraña'
+L['sashas_secret_stash_treasure'] = 'Alijo Secreto de Sasha'
+L['vindicators_hammer_treasure'] = 'Martillo de Vindicador'
+L['remains_if_balldir_deeprock_treasure'] = 'Restos de Balldir Rocabismal'
+L['brokors_sack_treasure'] = 'Bolsa de Brokor'
+L['suntouched_spear_treasure'] = 'Lanza Toquesol'
+L['warm_goren_egg_treasure'] = 'Huevo de Goren Caliente'
+L['weapons_cache_treasure'] = 'Alijo de Armas'
+L['petrified_rylak_egg_treasure'] = 'Huevo de Rylak Petrificado'
+L['snipers_crossbow_trerasure'] = 'Ballesta de Francotirador'
+L['iron_supply_chest_treasure'] = 'Cofre de Suministros de la Horda de Hierro'
+L['horned_skull_treasure'] = 'Cráneo Cornudo'
+L['evermorn_supply_cache_treasure'] = 'Alijo de Suministros Sol Eterno'
+L['harvestable_precious_crystal_treasure'] = 'Cristal Precioso Recolectable'
+L['femur_of_improbability_treasure'] = 'Fémur de Improbabilidad'
+L['laughing_skull_cache_treasure'] = 'Alijo Riecráneos'
+L['pile_of_rubble_treasure'] = 'Montón de Escombros'
+L['ninja_pepe_treasure'] = 'Pepe Ninja'
+L['attack_plans_treasure'] = 'Órdenes de Ataque de la Horda de Hierro'
+L['laughing_skull_note'] = 'Encima del árbol.'
+L['warm_goren_egg_note'] = 'El {item:118705} tras incubar 7 días se convierte en {item:118716}.'
+L['ninja_pepe_note'] = 'Sentado en una silla que hay dentro de la choza.'
 
-L['options_icons_attack_plans'] = "{achievement:9656}"
-L['options_icons_attack_plans_desc'] = "Muestra los sitios dónde están los Planes de Ataque de la Horda de Hierro para {achievement:9656}."
+L['options_icons_attack_plans'] = '{achievement:9656}'
+L['options_icons_attack_plans_desc'] = 'Muestra los sitios dónde están los Planes de Ataque de la Horda de Hierro para {achievement:9656}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['wandering_vindicator_note'] = "Tras derrotarlo, has de recoger la espada que hay junto a una piedra."
-L['legion_vanguard_note'] = "{npc:88494} se invoca desde el portal. Mata {npc:83023} alrededor del portal around portal y a cualquiera, hasta que lo convoquen."
-L['taladorantula_note'] = "Aplasta sacos de huevos y mata {npc:75258} de alrededor hasta que se invoque a {npc:77634}. Tarda unos 3 o 5 minutos aplastando."
-L['shirzir_note'] = "Debajo, en la Tumba de Almas."
-L['kharazos_galzomar_sikthiss_note'] = "{npc:78710}, {npc:78713} y {npc:78715} comparten el mismo botín, lugar de aparición y camino."
+L['wandering_vindicator_note'] = 'Tras derrotarlo, has de recoger la espada que hay junto a una piedra.'
+L['legion_vanguard_note'] = '{npc:88494} se invoca desde el portal. Mata {npc:83023} alrededor del portal around portal y a cualquiera, hasta que lo convoquen.'
+L['taladorantula_note'] = 'Aplasta sacos de huevos y mata {npc:75258} de alrededor hasta que se invoque a {npc:77634}. Tarda unos 3 o 5 minutos aplastando.'
+L['shirzir_note'] = 'Debajo, en la Tumba de Almas.'
+L['kharazos_galzomar_sikthiss_note'] = '{npc:78710}, {npc:78713} y {npc:78715} comparten el mismo botín, lugar de aparición y camino.'
 L['orumo_the_observer_note'] = [[
 {npc:87668} requiere que 5 personas se posicionen en las runas para poder invocarlo y matarlo.
 
