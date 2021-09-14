@@ -20,19 +20,25 @@ local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
+------------------------------------- MAP -------------------------------------
+-------------------------------------------------------------------------------
 
 local map = Map({id = 534, settings = true})
 
 -- Quest Requirements for Treasures (Tanaan Campaign).
 local requiredQuests = {
-    ['bleeding hollow'] = 38453, -- Garrison Campaign: The Bane of the Bleeding Hollow
-    ['cipher of damnation'] = 38463 -- The Cipher of Damnation
+    -- Garrison Campaign: The Bane of the Bleeding Hollow (Horde)
+    ['bleeding hollow'] = 38453,
+    -- The Cipher of Damnation (Horde)
+    ['cipher of damnation'] = 38463
 }
 
 if UnitFactionGroup('player') == 'Alliance' then
     requiredQuests = {
-        ['bleeding hollow'] = 38560, -- Garrison Campaign: The Bane of the Bleeding Hollow
-        ['cipher of damnation'] = 39394 -- The Cipher of Damnation
+        -- Garrison Campaign: The Bane of the Bleeding Hollow (Alliance)
+        ['bleeding hollow'] = 38560,
+        -- The Cipher of Damnation (Alliance)
+        ['cipher of damnation'] = 39394
     }
 end
 
@@ -74,6 +80,7 @@ map.nodes[39603260] = Rare({
     }
 }) -- Harbormaster Korak
 
+-- Zoug the Heavy
 map.nodes[37003300] = Rare({
     id = 90122,
     quest = 39045,
@@ -82,7 +89,7 @@ map.nodes[37003300] = Rare({
         Item({item = 128252, quest = 39360}), -- Equipment Blueprint: True Iron Rudder
         Transmog({item = 127308, slot = L['leather']}) -- Zoug's Lifting Belt
     }
-}) -- Zoug the Heavy
+})
 
 map.nodes[31207220] = Rare({
     id = 90429,
@@ -110,9 +117,7 @@ map.nodes[26607520] = Rare({
         Achievement({id = 10070, criteria = 28335}),
         Transmog({item = 127322, slot = L['plate']}) -- Fel Burnished Waistguard
     },
-    pois = {
-        POI({29607060}) -- Entrance
-    }
+    pois = {POI({29607060})}
 }) -- Jax'zor
 
 map.nodes[25607680] = Rare({
@@ -123,9 +128,7 @@ map.nodes[25607680] = Rare({
         Achievement({id = 10070, criteria = 28334}),
         Transmog({item = 127316, slot = L['mail']}) -- Oran's Cuffs of Malice
     },
-    pois = {
-        POI({29607060}) -- Entrance
-    }
+    pois = {POI({29607060})}
 }) -- Lady Oran
 
 map.nodes[26107910] = Rare({
@@ -136,20 +139,19 @@ map.nodes[26107910] = Rare({
         Achievement({id = 10070, criteria = 28337}),
         Transmog({item = 127300, slot = L['cloth']}) -- Shivan Shoulders of Scorn
     },
-    pois = {
-        POI({29607060}) -- Entrance
-    }
+    pois = {POI({29607060})}
 }) -- Mistress Thavra
 
+-- Cindral the Wildfire
 map.nodes[44603760] = Rare({
     id = 90519,
     quest = 37990,
     note = L['in_cave'],
     rewards = {
-        Item({item = 128255, quest = 39363}), -- Equipment Blueprint: Ice Cutter
-        Achievement({id = 10070, criteria = 28338})
+        Achievement({id = 10070, criteria = 28338}),
+        Item({item = 128255, quest = 39363}) -- Equipment Blueprint: Ice Cutter
     }
-}) -- Cindral the Wildfire
+})
 
 map.nodes[22003780] = Rare({
     id = 90777,
@@ -204,23 +206,6 @@ map.nodes[25604620] = Rare({
     }
 }) -- Drivnul
 
-map.nodes[24505000] = Rare({
-    id = 90936,
-    quest = 38266,
-    note = L['bloodhunter_zulk_note'],
-    rewards = {
-        Achievement({id = 10070, criteria = 28355}),
-        Transmog({item = 127303, slot = L['leather']}) -- Zulk's Sneaky Slippers
-    },
-    pois = {
-        POI({21005240}), -- Spawn
-        POI({22805300}), -- Spawn
-        POI({22005160}), -- Spawn
-        POI({23804980}), -- Spawn
-        POI({23605200}) -- Spawn
-    }
-}) -- Bloodhunter Zulk
-
 map.nodes[57002300] = Rare({
     id = 91009,
     quest = 38457,
@@ -240,7 +225,8 @@ map.nodes[40706980] = Rare({
     id = 91093,
     quest = 38209,
     rewards = {
-        Achievement({id = 10070, criteria = 28330}), Toy({item = 127652}) -- Felflame Campfire
+        Achievement({id = 10070, criteria = 28330}), -- Felflame Campfire
+        Toy({item = 127652})
     }
 }) -- Bramblefell
 
@@ -337,6 +323,7 @@ map.nodes[53602140] = Rare({
     }
 }) -- Painmistress Selora
 
+-- Xanzith the Everlasting
 map.nodes[60002100] = Rare({
     id = 92408,
     quest = 38579,
@@ -345,7 +332,7 @@ map.nodes[60002100] = Rare({
         Item({item = 128232, quest = 39356}), -- Equipment Blueprint: High Intensity Fog Lights
         Transmog({item = 127658, slot = L['offhand']}) -- Eye of the Beholder
     }
-}) -- Xanzith the Everlasting
+})
 
 map.nodes[52401920] = Rare({
     id = 92411,
@@ -377,9 +364,7 @@ map.nodes[48807300] = Rare({
         Achievement({id = 10070, criteria = 28361}),
         Transmog({item = 127330, slot = L['fist']}) -- The Black Fang
     },
-    pois = {
-        POI({49907440}) -- Entrance
-    }
+    pois = {POI({49907440})}
 }) -- The Blackfang
 
 map.nodes[62607220] = Rare({
@@ -399,9 +384,7 @@ map.nodes[63208000] = Rare({
         Achievement({id = 10070, criteria = 28359}),
         Transmog({item = 127306, slot = L['leather']}) -- Gloomtalon's Spare Kilt
     },
-    pois = {
-        POI({62207910}) -- Entrance
-    }
+    pois = {POI({62207910})}
 }) -- Gloomtalon
 
 map.nodes[52008360] = Rare({
@@ -410,6 +393,7 @@ map.nodes[52008360] = Rare({
     rewards = {Achievement({id = 10070, criteria = 28360})}
 }) -- Krell the Serene
 
+-- Belgork
 map.nodes[34904710] = Rare({
     id = 92552,
     quest = 38609,
@@ -419,11 +403,8 @@ map.nodes[34904710] = Rare({
         Item({item = 126950, quest = 38932}), -- Equipment Blueprint: Bilge Pump
         Transmog({item = 127650, slot = L['shield']}) -- Belgork's Bastion
     },
-    pois = {
-        POI({32104900}), -- Entrance
-        POI({38604420}) -- Entrance
-    }
-}) -- Belgork
+    pois = {POI({32104900, 38604420})}
+})
 
 map.nodes[34004440] = Rare({
     id = 92574,
@@ -433,10 +414,7 @@ map.nodes[34004440] = Rare({
         Achievement({id = 10070, criteria = 28362}),
         Transmog({item = 127327, slot = L['dagger']}) -- Thromma's Gutslicer
     },
-    pois = {
-        POI({32104900}), -- Entrance
-        POI({38604420}) -- Entrance
-    }
+    pois = {POI({32104900, 38604420})}
 }) -- Thromma the Gutslicer
 
 map.nodes[41007880] = Rare({
@@ -461,21 +439,14 @@ map.nodes[39407590] = Rare({
     note = L['the_night_haunter_note'],
     rewards = {Achievement({id = 10070, criteria = 28366})},
     pois = {
-        POI({38507890}), -- The Night Haunter
-        POI({38407230}), -- The Night Haunter
-        POI({42407760}), -- The Night Haunter
-        POI({40607290}), -- The Night Haunter
-        POI({41206890}), -- The Night Haunter
-        POI({38807510}), -- The Night Haunter
-        POI({42407740}), -- The Night Haunter
-        POI({40607750}), -- The Night Haunter
-        POI({38007930}), -- The Night Haunter
-        POI({38807520}), -- The Night Haunter
-        POI({44307220}), -- The Night Haunter
-        POI({38307210}) -- The Night Haunter
+        POI({
+            38507890, 38407230, 42407760, 40607290, 41206890, 38807510,
+            42407740, 40607750, 38007930, 38807520, 44307220, 38307210
+        })
     }
 }) -- The Night Haunter
 
+-- Felsmith Damorka
 map.nodes[45804700] = Rare({
     id = 92647,
     quest = 38634,
@@ -484,16 +455,14 @@ map.nodes[45804700] = Rare({
         Item({item = 128258, quest = 39366}), -- Equipment Blueprint: Felsmoke Launchers
         Transmog({item = 127302, slot = L['leather']}) -- Chemical Resistant Apron
     }
-}) -- Felsmith Damorka
+})
 
 map.nodes[50807440] = Rare({
     id = 92657,
     quest = 38696,
     note = L['in_cave'],
     rewards = {Achievement({id = 10070, criteria = 28376})},
-    pois = {
-        POI({44507750}) -- Entrance
-    }
+    pois = {POI({44507750})}
 }) -- Bleeding Hollow Horror
 
 map.nodes[34407260] = Rare({
@@ -504,9 +473,7 @@ map.nodes[34407260] = Rare({
         Achievement({id = 10070, criteria = 28367}),
         Transmog({item = 127305, slot = L['leather']}) -- Frayed Hunting Cowl
     },
-    pois = {
-        POI({36307220}) -- Entrance
-    }
+    pois = {POI({36307220})}
 }) -- The Goreclaw
 
 map.nodes[53908080] = Rare({
@@ -603,6 +570,7 @@ map.nodes[16005920] = Rare({
     rewards = {Achievement({id = 10070, criteria = 28348})}
 }) -- Grannok
 
+-- Captain Ironbeard
 map.nodes[35607990] = Rare({
     id = 93076,
     quest = 38756,
@@ -612,10 +580,8 @@ map.nodes[35607990] = Rare({
         Item({item = 128257, quest = 39365}), -- Equipment Blueprint: Ghostly Spyglass
         Toy({item = 127659}) -- Ghostly Iron Buccaneer's Hat
     },
-    pois = {
-        POI({37507600}) -- Entrance
-    }
-}) -- Captain Ironbeard
+    pois = {POI({37507600})}
+})
 
 map.nodes[34607800] = Rare({
     id = 93125,
@@ -625,9 +591,7 @@ map.nodes[34607800] = Rare({
         Achievement({id = 10070, criteria = 28371}),
         Transmog({item = 127317, slot = L['plate']}) -- Murktide's Coveted Chestplate
     },
-    pois = {
-        POI({37507600}) -- Entrance
-    }
+    pois = {POI({37507600})}
 }) -- Glub'glok
 
 map.nodes[28805100] = Rare({
@@ -635,9 +599,7 @@ map.nodes[28805100] = Rare({
     quest = 38775,
     note = L['in_cave'],
     rewards = {Achievement({id = 10070, criteria = 28372})},
-    pois = {
-        POI({31005330}) -- Entrance
-    }
+    pois = {POI({31005330})}
 }) -- Felbore
 
 map.nodes[49606100] = Rare({
@@ -666,9 +628,7 @@ map.nodes[39606820] = Rare({
         Achievement({id = 10070, criteria = 28377}),
         Transmog({item = 127653, slot = L['1h_sword']}) -- Wingblade of Reckoning
     },
-    pois = {
-        POI({42306880}) -- Entrance
-    }
+    pois = {POI({42306880})}
 }) -- Kris'kar the Unredeemed
 
 map.nodes[13405960] = Rare({
@@ -676,7 +636,8 @@ map.nodes[13405960] = Rare({
     quest = 39288,
     note = L['terrorfist_note'],
     rewards = {
-        Achievement({id = 10061, criteria = 28221}), Item({item = 128315}), -- Medallion of the Legion
+        Achievement({id = 10061, criteria = 28221}), --
+        Item({item = 128315}), -- Medallion of the Legion
         Item({item = 128025}), -- Rattling Iron Cage
         Mount({item = 116658, id = 611}), -- Tundra Icehoof
         Mount({item = 116669, id = 622}), -- Armored Razorback
@@ -694,7 +655,8 @@ map.nodes[23004020] = Rare({
     quest = 39287,
     note = L['deathtalon_note'],
     rewards = {
-        Achievement({id = 10061, criteria = 28220}), Item({item = 128315}), -- Medallion of the Legion
+        Achievement({id = 10061, criteria = 28220}), --
+        Item({item = 128315}), -- Medallion of the Legion
         Item({item = 128025}), -- Rattling Iron Cage
         Mount({item = 116658, id = 611}), -- Tundra Icehoof
         Mount({item = 116669, id = 622}), -- Armored Razorback
@@ -707,7 +669,8 @@ map.nodes[32607400] = Rare({
     quest = 39290,
     note = L['vengeance_note'],
     rewards = {
-        Achievement({id = 10061, criteria = 28219}), Item({item = 128315}), -- Medallion of the Legion
+        Achievement({id = 10061, criteria = 28219}), --
+        Item({item = 128315}), -- Medallion of the Legion
         Item({item = 128025}), -- Rattling Iron Cage
         Mount({item = 116658, id = 611}), -- Tundra Icehoof
         Mount({item = 116669, id = 622}), -- Armored Razorback
@@ -720,7 +683,8 @@ map.nodes[47005260] = Rare({
     quest = 39289,
     note = L['doomroller_note'],
     rewards = {
-        Achievement({id = 10061, criteria = 28218}), Item({item = 128315}), -- Medallion of the Legion
+        Achievement({id = 10061, criteria = 28218}), --
+        Item({item = 128315}), -- Medallion of the Legion
         Item({item = 128025}), -- Rattling Iron Cage
         Mount({item = 116658, id = 611}), -- Tundra Icehoof
         Mount({item = 116669, id = 622}), -- Armored Razorback
@@ -769,6 +733,23 @@ map.nodes[88005580] = Rare({
     }
 }) -- Smashum Grabb
 
+local BloodhunterZulk = Rare({
+    id = 90936,
+    quest = 38266,
+    note = L['multiple_spawn_note'],
+    rewards = {
+        Achievement({id = 10070, criteria = 28355}),
+        Transmog({item = 127303, slot = L['leather']}) -- Zulk's Sneaky Slippers
+    }
+})
+
+map.nodes[24505000] = BloodhunterZulk
+map.nodes[21005240] = BloodhunterZulk
+map.nodes[22805300] = BloodhunterZulk
+map.nodes[22005160] = BloodhunterZulk
+map.nodes[23804980] = BloodhunterZulk
+map.nodes[23605200] = BloodhunterZulk
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
@@ -798,9 +779,7 @@ map.nodes[15904970] = Treasure({
             }
         }), Transmog({item = 127324, slot = L['1h_axe']}) -- Weathered Memento Axe
     },
-    pois = {
-        POI({17105080}) -- Entrance
-    }
+    pois = {POI({17105080})}
 }) -- Weathered Axe
 
 map.nodes[17005290] = Treasure({
@@ -958,9 +937,7 @@ map.nodes[37104620] = Treasure({
             }
         })
     },
-    pois = {
-        POI({38604420}) -- Entrance
-    }
+    pois = {POI({38604420})}
 }) -- Pale Removal Equipment
 
 map.nodes[41507340] = Treasure({
@@ -1069,9 +1046,7 @@ map.nodes[50008120] = Treasure({
             }
         }), Transmog({item = 127312, slot = L['mail']}) -- Fallen Adventurer's Helm
     },
-    pois = {
-        POI({51207960}) -- Entrance
-    }
+    pois = {POI({51207960})}
 }) -- Discarded Helm
 
 map.nodes[50007970] = Treasure({
@@ -1151,7 +1126,7 @@ map.nodes[25305020] = Treasure({
             }
         }), Item({item = 128222, note = L['trinket']}) -- Smokeglass Lens Spyglass
     }
-}) -- "Borrowed" Enchanted Spyglass
+}) -- 'Borrowed' Enchanted Spyglass
 
 map.nodes[46307270] = Treasure({
     quest = 38739,
@@ -1166,9 +1141,7 @@ map.nodes[46307270] = Treasure({
             }
         }), Item({item = 128320}) -- Corrupted Primal Obelisk
     },
-    pois = {
-        POI({47307070}) -- Entrance
-    }
+    pois = {POI({47307070})}
 }) -- Mysterious Corrupted Obelisk
 
 map.nodes[63302810] = Treasure({
@@ -1210,9 +1183,7 @@ map.nodes[34703470] = Treasure({
             }
         }), Toy({item = 127669}) -- Skull of the Mad Chief
     },
-    pois = {
-        POI({32503730}) -- Entrance
-    }
+    pois = {POI({32503730})}
 }) -- Skull of the Mad Chief
 
 map.nodes[15505440] = Treasure({
@@ -1254,9 +1225,7 @@ map.nodes[16005940] = Treasure({
             }
         }), Item({item = 128220, note = L['trinket']}) -- Grannok's Lidless Eye
     },
-    pois = {
-        POI({16405860}) -- Entrance
-    }
+    pois = {POI({16405860})}
 }) -- The Eye of Grannok
 
 map.nodes[35907860] = Treasure({
@@ -1271,9 +1240,7 @@ map.nodes[35907860] = Treasure({
             }
         })
     },
-    pois = {
-        POI({37607590}) -- Entrance
-    }
+    pois = {POI({37607590})}
 }) -- Ironbeard's Treasure
 
 map.nodes[33907810] = Treasure({
@@ -1288,9 +1255,7 @@ map.nodes[33907810] = Treasure({
             }
         })
     },
-    pois = {
-        POI({37607590}) -- Entrance
-    }
+    pois = {POI({37607590})}
 }) -- Stashed Iron Sea Booty
 
 map.nodes[35007720] = Treasure({
@@ -1305,9 +1270,7 @@ map.nodes[35007720] = Treasure({
             }
         })
     },
-    pois = {
-        POI({37607590}) -- Entrance
-    }
+    pois = {POI({37607590})}
 }) -- Stashed Iron Sea Booty
 
 map.nodes[34507830] = Treasure({
@@ -1322,9 +1285,7 @@ map.nodes[34507830] = Treasure({
             }
         })
     },
-    pois = {
-        POI({37607590}) -- Entrance
-    }
+    pois = {POI({37607590})}
 }) -- Stashed Iron Sea Booty
 
 map.nodes[46903670] = Treasure({
@@ -1404,9 +1365,7 @@ map.nodes[49907680] = Treasure({
             }
         }), Toy({item = 128223}) -- Bottomless Stygana Mushroom Brew
     },
-    pois = {
-        POI({44607750}) -- Entrance
-    }
+    pois = {POI({44607750})}
 }) -- Bleeding Hollow Mushroom Stash
 
 map.nodes[48607530] = Treasure({
@@ -1421,9 +1380,7 @@ map.nodes[48607530] = Treasure({
             }
         }), Transmog({item = 127337, slot = L['staff']}) -- Emanating Staff of Shadow
     },
-    pois = {
-        POI({44607750}) -- Entrance
-    }
+    pois = {POI({44607750})}
 }) -- Looted Mystical Staff
 
 map.nodes[43203830] = Treasure({
@@ -1438,9 +1395,7 @@ map.nodes[43203830] = Treasure({
             }
         }), Transmog({item = 127348, slot = L['shield']}) -- Commander's Citadel Shield
     },
-    pois = {
-        POI({42203780}) -- Entrance
-    }
+    pois = {POI({42203780})}
 }) -- The Commander's Shield
 
 map.nodes[42903530] = Treasure({
@@ -1455,9 +1410,7 @@ map.nodes[42903530] = Treasure({
             }
         }), Toy({item = 127859}) -- Dazzling Rod
     },
-    pois = {
-        POI({43003580}) -- Entrance
-    }
+    pois = {POI({43003580})}
 }) -- Dazzling Rod
 
 map.nodes[28903460] = Treasure({
@@ -1472,9 +1425,7 @@ map.nodes[28903460] = Treasure({
             }
         })
     },
-    pois = {
-        POI({29203460}) -- Entrance
-    }
+    pois = {POI({29203460})}
 }) -- Partially Mined Apexis Crystal
 
 map.nodes[51603250] = Treasure({
@@ -1534,9 +1485,7 @@ map.nodes[25107620] = PetBattle({
     id = 94638,
     note = L['in_cave'],
     rewards = {Achievement({id = 10052, criteria = 28798})},
-    pois = {
-        POI({29607060}) -- Entrance
-    }
+    pois = {POI({29607060})}
 }) -- Chaos Pup
 
 map.nodes[31403810] = PetBattle({

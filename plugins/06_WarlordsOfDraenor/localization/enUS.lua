@@ -7,7 +7,71 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Edge of Reality'
+L['edge_of_reality_note'] = ns.color.Yellow('Edge of Reality') .. ' portal will take you to a scenario, where you can loot {item:121815}.'
 L['treasures_discovered'] = 'treasures discovered'
+L['strange_spore_treasure'] = 'Strange Spore'
+L['multiple_spawn_note'] = 'Can spawn in multiple locations.'
+
+-------------------------------------------------------------------------------
+----------------------------------- GORGROND ----------------------------------
+-------------------------------------------------------------------------------
+
+L['poundfist_note'] = 'Has really long respawn between 50 and 90 hours.'
+L['trophy_of_glory_note'] = 'You must finish building up your Gorgrond Garrison Outpost to get quest items to drop.'
+L['roardan_sky_terror_note'] = 'Flies around Tangleheart and Beastwatch and makes 3 stops on the way.'
+
+L['explorer_canister_treasure'] = 'Explorer Canister'
+L['discarded_pack_treasure'] = 'Discarded Pack'
+L['ockbars_pack_treasure'] = 'Ockbar\'s Pack'
+L['stashed_emergency_rucksack_treasure'] = 'Stashed Emergency Rucksack'
+L['strange_looking_dagger_treasure'] = 'Strange Looking Dagger'
+L['remains_of_balik_orecrusher_treasure'] = 'Remains of Balik Orecrusher'
+L['odd_skull_treasure'] = 'Odd Skull'
+L['sashas_secret_stash_treasure'] = 'Sasha\'s Secret Stash'
+L['vindicators_hammer_treasure'] = 'Vindicator\'s Hammer'
+L['remains_if_balldir_deeprock_treasure'] = 'Remains of Balldir Deeprock'
+L['brokors_sack_treasure'] = 'Brokor\'s Sack'
+L['suntouched_spear_treasure'] = 'Suntouched Spear'
+L['warm_goren_egg_treasure'] = 'Warm Goren Egg'
+L['weapons_cache_treasure'] = 'Weapons Cache'
+L['petrified_rylak_egg_treasure'] = 'Petrified Rylak Egg'
+L['snipers_crossbow_trerasure'] = 'Sniper\'s Crossbow'
+L['iron_supply_chest_treasure'] = 'Iron Supply Chest'
+L['horned_skull_treasure'] = 'Horned Skull'
+L['evermorn_supply_cache_treasure'] = 'Evermorn Supply Cache'
+L['harvestable_precious_crystal_treasure'] = 'Harvestable Precious Crystal'
+L['femur_of_improbability_treasure'] = 'Femur of Improbability'
+L['laughing_skull_cache_treasure'] = 'Laughing Skull Cache'
+L['pile_of_rubble_treasure'] = 'Pile of Rubble'
+L['ninja_pepe_treasure'] = 'Ninja Pepe'
+L['attack_plans_treasure'] = 'Iron Horde Attack Orders'
+L['laughing_skull_note'] = 'Up in the tree.'
+L['warm_goren_egg_note'] = '{item:118705} incubates in 7 days into {item:118716}.'
+L['ninja_pepe_note'] = 'Inside the hut sitting on a chair.'
+
+L['options_icons_attack_plans'] = '{achievement:9656}'
+L['options_icons_attack_plans_desc'] = 'Display the locations of Iron Horde Attack Orders for {achievement:9656}.'
+
+-------------------------------------------------------------------------------
+------------------------------------ TALADOR ----------------------------------
+-------------------------------------------------------------------------------
+
+L['wandering_vindicator_note'] = 'After defeating him, you need to loot his sword from the stone.'
+L['legion_vanguard_note'] = '{npc:88494} is summoned from portal. Kill {npc:83023} around portal and any other, that comes out to summon him.'
+L['taladorantula_note'] = 'Squish eggs sacks and kill {npc:75258} around to summon {npc:77634}. Takes around 3 to 5 minutes of squishing.'
+L['shirzir_note'] = 'In underground tomb.'
+L['kharazos_galzomar_sikthiss_note'] = '{npc:78710}, {npc:78713} and {npc:78715} share the same drop, spawn and path.'
+L['orumo_the_observer_note'] = [[
+{npc:87668} requires 5 people standing on runes before him to be able to kill him.
+
+Alternatively, Warlocks can use {spell:48020} and Monks {spell:119996} to teleport on runes, which decreases number of required people to 3.
+
+Another option is to use 5 of your own characters, move them one by one to runes and logout them there.
+
+Last option is to use only one character. Go to rune, lit it up, teleport out and repeat for each rune. Best way is to set up {item:6948} somewhere close.
+
+You can combine any of methods above to summon {npc:87668}.
+]]
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
@@ -26,7 +90,6 @@ L['belgork_thromma_note'] = 'This cave has 2 entrances.'
 L['driss_vile_note'] = 'On top of the tower.'
 L['overlord_magruth_note'] = 'Kill orcs around camp to spawn it.'
 L['mistress_thavra_note'] = 'In a cave on upper floor.'
-L['bloodhunter_zulk_note'] = 'Can spawn in multiplace places.'
 L['dorg_the_bloody_note'] = 'Kill {npc:89706} and other enemies at spawn location.'
 L['grand_warlock_netherkurse_note'] = 'Kill enemies around spawn point.'
 L['ceraxas_note'] = 'Spawns {npc:90426} with quest {quest:38428} for pet after killing it.'

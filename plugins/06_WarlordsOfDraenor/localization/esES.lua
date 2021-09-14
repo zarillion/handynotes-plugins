@@ -7,8 +7,62 @@ if not L then return end
 -------------------------------- ACROSS ZONES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['edge_of_reality'] = 'Acantilado de la Realidad'
-L['treasures_discovered'] = 'tesoros descubiertos'
+L['edge_of_reality'] = "Acantilado de la Realidad"
+L['edge_of_reality_note'] = nil
+L['treasures_discovered'] = "tesoros descubiertos"
+L['strange_spore_treasure'] = nil
+L['multiple_spawn_note'] = nil
+
+-------------------------------------------------------------------------------
+----------------------------------- GORGROND ----------------------------------
+-------------------------------------------------------------------------------
+
+L['poundfist_note'] = nil
+L['trophy_of_glory_note'] = nil
+L['roardan_sky_terror_note'] = nil
+
+L['explorer_canister_treasure'] = nil
+L['discarded_pack_treasure'] = nil
+L['ockbars_pack_treasure'] = nil
+L['stashed_emergency_rucksack_treasure'] = nil
+L['strange_looking_dagger_treasure'] = nil
+L['remains_of_balik_orecrusher_treasure'] = nil
+L['odd_skull_treasure'] = nil
+L['sashas_secret_stash_treasure'] = nil
+L['vindicators_hammer_treasure'] = nil
+L['remains_if_balldir_deeprock_treasure'] = nil
+L['brokors_sack_treasure'] = nil
+L['suntouched_spear_treasure'] = nil
+L['warm_goren_egg_treasure'] = nil
+L['weapons_cache_treasure'] = nil
+L['petrified_rylak_egg_treasure'] = nil
+L['snipers_crossbow_trerasure'] = nil
+L['iron_supply_chest_treasure'] = nil
+L['horned_skull_treasure'] = nil
+L['evermorn_supply_cache_treasure'] = nil
+L['harvestable_precious_crystal_treasure'] = nil
+L['femur_of_improbability_treasure'] = nil
+L['laughing_skull_cache_treasure'] = nil
+L['pile_of_rubble_treasure'] = nil
+L['ninja_pepe_treasure'] = nil
+L['attack_plans_treasure'] = nil
+L['laughing_skull_note'] = nil
+L['warm_goren_egg_note'] = nil
+L['ninja_pepe_note'] = nil
+
+L['options_icons_attack_plans'] = nil
+L['options_icons_attack_plans_desc'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------------ TALADOR ----------------------------------
+-------------------------------------------------------------------------------
+
+L['wandering_vindicator_note'] = nil
+L['legion_vanguard_note'] = nil
+L['taladorantula_note'] = nil
+L['shirzir_note'] = nil
+L['kharazos_galzomar_sikthiss_note'] = nil
+L['orumo_the_observer_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
@@ -27,7 +81,6 @@ L['belgork_thromma_note'] = 'Esta cueva tiene 2 entradas.'
 L['driss_vile_note'] = 'Encima de la torre.'
 L['overlord_magruth_note'] = 'Mata los orcos de alrededor para hacerlo aparecer.'
 L['mistress_thavra_note'] = 'En el piso superior de una cueva.'
-L['bloodhunter_zulk_note'] = 'Puede aparecer en varios sitios.'
 L['dorg_the_bloody_note'] = 'Mata al {npc:89706} y a los otros enemigos en el sitio donde aparece.'
 L['grand_warlock_netherkurse_note'] = 'Mata a enemigos alrededor del lugar de aparición.'
 L['ceraxas_note'] = 'Aparece el {npc:90426} con la misión {quest:38428} para la mascota tras matar al {npc:90434}.'
