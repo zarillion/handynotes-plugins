@@ -124,7 +124,7 @@ L['repair_note'] = 'Con otros dos jugadores, haz click en el Incienso Antiguo pa
 L['sotiros_orstus_note'] = 'Haz click en la Campana Negra para invocar a los raros.'
 L['sundancer_note'] = 'Haz click en la estatua para conseguir el buff {spell:332309}. Usa entonces un {item:180445} para planear hasta {npc:170548} y montarlo.'
 L['swelling_tear_note'] = 'Haz click en la {npc:171012} para invocar a uno de los tres raros. Las Lágrimas pueden aparecer en varios sitios de la zona.'
-L['unstable_memory_note'] = 'Puede aparecer cuando los {npc:171018} estén presentes. Arrastra un {npc:171018} dentro de otros para que reciba 10 acumulaciones de {spell:333558}, lo que hará que se convierta en el {npc:171008}.'
+L['unstable_memory_note'] = 'Puede aparecer cuando los {npc:171018} estén presentes. Golpea a un {npc:171018} y arrástralo a través de otros hasta que reciba 10 acumulaciones de {spell:333558}, lo que hará que se convierta en el {npc:171008}.'
 L['wingflayer_note'] = 'Para invocar a {npc:167078}, haz click en el Cuerno de Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras).'
 
 L['broken_flute'] = 'Mata a las {npc:170009} cercanas hasta que una suelte la {item:180536}. Usa las herramientas para repararla.'
