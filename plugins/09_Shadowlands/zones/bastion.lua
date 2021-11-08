@@ -402,7 +402,8 @@ map.nodes[61061510] = Treasure({
     label = L['cloudwalkers_coffer'],
     note = L['cloudwalkers_coffer_note'],
     rewards = {
-        Item({item = 180783}) -- Design: Crown of the Righteous
+        Item({item = 180783}), -- Design: Crown of the Righteous
+        Achievement({id = 14748, criteria = 49866, covenant = NECROLORD}), Item({item = 183756}) -- Blacksteel Backplate
     },
     pois = {
         POI({59011639}) -- First Flower

@@ -295,7 +295,8 @@ map.nodes[59304660] = Rare({
     note = L['slumbering_note'],
     rewards = {
         Achievement({id = 14309, criteria = 48792}),
-        Item({item = 175711, note = L['ring']}) -- Slumberwood Band
+        Item({item = 175711, note = L['ring']}), -- Slumberwood Band
+        Achievement({id = 14748, criteria = 49923, covenant = NECROLORD}), Item({item = 183828}) -- Friendly Bugs
     }
 }) -- The Slumbering Emperor
 

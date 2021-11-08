@@ -97,7 +97,8 @@ map.nodes[66555946] = Rare({
     note = L['endlurker_note'],
     rewards = {
         Achievement({id = 14310, criteria = 48810}),
-        Item({item = 179927, note = L['trinket']}) -- Glowing Endmire Stinger
+        Item({item = 179927, note = L['trinket']}), -- Glowing Endmire Stinger
+        Achievement({id = 14748, criteria = 49869, covenant = NECROLORD}), Item({item = 183759}) -- Venthyr Spectacles
     }
 }) -- Endlurker
 
@@ -201,7 +202,8 @@ map.nodes[21803590] = Rare({
     note = L['innervus_note'],
     rewards = {
         Achievement({id = 14310, criteria = 48801}),
-        Transmog({item = 183735, slot = L['cloth']}) -- Rogue Sinstealer's Mantle
+        Transmog({item = 183735, slot = L['cloth']}), -- Rogue Sinstealer's Mantle
+        Achievement({id = 14748, criteria = 49868, covenant = NECROLORD}), Item({item = 183760}) -- Venthyr Spectacles
     }
 }) -- Innervus
 

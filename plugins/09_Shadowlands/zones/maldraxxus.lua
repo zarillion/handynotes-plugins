@@ -50,7 +50,8 @@ map.nodes[49012351] = Rare({
         Transmog({item = 184181, slot = L['1h_axe']}), -- Kash's Favored Hook
         Transmog({item = 184189, slot = L['1h_axe']}), -- Stained Fleshgorer
         Transmog({item = 184182, slot = L['1h_axe']}), -- Strengthened Abomination Hook
-        Item({item = 183692, quest = 62408, covenant = NECROLORD}) -- Jagged Bonesaw
+        Item({item = 183692, quest = 62408, covenant = NECROLORD}), -- Jagged Bonesaw
+        Achievement({id = 14748, criteria = 49919, covenant = NECROLORD}), Item({item = 183833}) -- Kash's Bag of Junk
     }
 }) -- Collector Kash
 
@@ -60,7 +61,8 @@ map.nodes[26392633] = Rare({
     rewards = {
         Achievement({id = 14308, criteria = 48872}),
         Transmog({item = 184177, slot = L['1h_axe']}), -- Grotesque Goring Pick
-        Transmog({item = 184176, slot = L['warglaive']}) -- Moroc's Boneslicing Warglaive
+        Transmog({item = 184176, slot = L['warglaive']}), -- Moroc's Boneslicing Warglaive
+        Achievement({id = 14748, criteria = 49919, covenant = NECROLORD}), Item({item = 183833}) -- Kash's Bag of Junk
     }
 }) -- Corpsecutter Moroc
 
@@ -70,7 +72,8 @@ map.nodes[76835707] = Rare({
     rewards = {
         Achievement({id = 14308, criteria = 48851}),
         Transmog({item = 184280, slot = L['cloth']}), -- Dapper Threads
-        Pet({id = 2953, item = 181263}) -- Shy Melvin
+        Pet({id = 2953, item = 181263}), -- Shy Melvin
+        Achievement({id = 14748, criteria = 50558, covenant = NECROLORD}), Item({item = 184224}) -- Dapperling Seeds
     }
 }) -- Deadly Dapperling
 
@@ -102,7 +105,8 @@ map.nodes[31603540] = Rare({
     note = L['gieger_note'],
     rewards = {
         Transmog({item = 184298, slot = L['offhand']}), -- Amalgamated Forsworn's Journal
-        Mount({item = 182080, id = 1411, covenant = NECROLORD}) -- Predatory Plagueroc
+        Mount({item = 182080, id = 1411, covenant = NECROLORD}), -- Predatory Plagueroc
+        Achievement({id = 14748, criteria = 49876, covenant = NECROLORD}), Item({item = 183754}) -- Stitchflesh's Design Notes
     }
 }) -- Gieger
 
@@ -196,7 +200,8 @@ map.nodes[62107580] = Rare({
     rewards = {
         Achievement({id = 14308, criteria = 48857}),
         Transmog({item = 184287, slot = L['mail']}), -- Scum-Caked Epaulettes
-        Pet({item = 181267, id = 2957}) -- Writhing Spine
+        Pet({item = 181267, id = 2957}), -- Writhing Spine
+        Achievement({id = 14748, criteria = 49919, covenant = NECROLORD}), Item({item = 183833}) -- Kash's Bag of Junk
     }
 }) -- Scunner
 
@@ -218,7 +223,8 @@ map.nodes[42465345] = Rare({
         Achievement({id = 14308, criteria = 48869}),
         Transmog({item = 184299, slot = L['leather']}), -- Goresoaked Carapace
         Pet({item = 181266, id = 2956}), -- Bloodlouse Hatchling
-        Pet({item = 181265, id = 2955}) -- Corpselouse Hatchling
+        Pet({item = 181265, id = 2955}), -- Corpselouse Hatchling
+        Achievement({id = 14748, criteria = 50560, covenant = NECROLORD}), Item({item = 184038}) -- Trained Corpselice
     }
 }) -- Smorgas the Feaster
 
@@ -376,7 +382,10 @@ map.nodes[44083989] = Treasure({
     covenant = NECROLORD,
     rewards = {
         Transmog({item = 183619, slot = L['2h_axe']}), -- Everlasting Boneforged Greataxe
-        Toy({item = 184318}) -- Battlecry of Krexus
+        Transmog({item = 181800, slot = L['cosmetic'], covenant = NECROLORD}), -- Standard of the Blackhound Warband
+        Toy({item = 184318}), -- Battlecry of Krexus
+        Achievement({id = 14748, criteria = 49917, covenant = NECROLORD}), Item({item = 183824}), -- Cache of Spare Weapons
+        Achievement({id = 14748, criteria = 49922, covenant = NECROLORD}), Item({item = 183827}) -- Blacksteel Backplate
     }
 }) -- Blackhound Cache
 
