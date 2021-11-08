@@ -98,7 +98,7 @@ map.nodes[66555946] = Rare({
     rewards = {
         Achievement({id = 14310, criteria = 48810}),
         Item({item = 179927, note = L['trinket']}), -- Glowing Endmire Stinger
-        Achievement({id = 14748, criteria = 49869, covenant = NECROLORD}), Item({item = 183759}) -- Venthyr Spectacles
+        Achievement({id = 14748, criteria = 49869, covenant = NECROLORD}), Item({item = 183759}) -- Unusually Large Cranium
     }
 }) -- Endlurker
 
