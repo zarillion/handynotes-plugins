@@ -23,6 +23,7 @@ local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
+local NECROLORD = ns.covenants.NEC
 local NIGHTFAE = ns.covenants.FAE
 local map = Map({id = 1565, settings = true})
 
@@ -295,8 +296,8 @@ map.nodes[59304660] = Rare({
     note = L['slumbering_note'],
     rewards = {
         Achievement({id = 14309, criteria = 48792}),
-        Item({item = 175711, note = L['ring']}), -- Slumberwood Band
-        Achievement({id = 14833, criteria = 49923, covenant = NECROLORD}), Item({item = 183828}) -- Friendly Bugs
+        Achievement({id = 14833, criteria = 49923, covenant = NECROLORD}),
+        Item({item = 175711, note = L['ring']}) -- Slumberwood Band
     }
 }) -- The Slumbering Emperor
 

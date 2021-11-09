@@ -25,6 +25,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local KYRIAN = ns.covenants.KYR
+local NECROLORD = ns.covenants.NEC
 
 local map = Map({id = 1533, settings = true})
 
@@ -402,8 +403,8 @@ map.nodes[61061510] = Treasure({
     label = L['cloudwalkers_coffer'],
     note = L['cloudwalkers_coffer_note'],
     rewards = {
-        Item({item = 180783}), -- Design: Crown of the Righteous
-        Achievement({id = 14833, criteria = 49866, covenant = NECROLORD}), Item({item = 183756}) -- Floating Circlet
+        Achievement({id = 14833, criteria = 49866, covenant = NECROLORD}),
+        Item({item = 180783}) -- Design: Crown of the Righteous
     },
     pois = {
         POI({59011639}) -- First Flower

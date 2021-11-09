@@ -26,6 +26,7 @@ local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
+local NECROLORD = ns.covenants.NEC
 local VENTHYR = ns.covenants.VEN
 local map = Map({id = 1525, settings = true})
 
@@ -97,8 +98,8 @@ map.nodes[66555946] = Rare({
     note = L['endlurker_note'],
     rewards = {
         Achievement({id = 14310, criteria = 48810}),
-        Item({item = 179927, note = L['trinket']}), -- Glowing Endmire Stinger
-        Achievement({id = 14833, criteria = 49869, covenant = NECROLORD}), Item({item = 183759}) -- Unusually Large Cranium
+        Achievement({id = 14833, criteria = 49869, covenant = NECROLORD}),
+        Item({item = 179927, note = L['trinket']}) -- Glowing Endmire Stinger
     }
 }) -- Endlurker
 
@@ -202,8 +203,8 @@ map.nodes[21803590] = Rare({
     note = L['innervus_note'],
     rewards = {
         Achievement({id = 14310, criteria = 48801}),
-        Transmog({item = 183735, slot = L['cloth']}), -- Rogue Sinstealer's Mantle
-        Achievement({id = 14833, criteria = 49868, covenant = NECROLORD}), Item({item = 183760}) -- Venthyr Spectacles
+        Achievement({id = 14833, criteria = 49868, covenant = NECROLORD}),
+        Transmog({item = 183735, slot = L['cloth']}) -- Rogue Sinstealer's Mantle
     }
 }) -- Innervus
 
