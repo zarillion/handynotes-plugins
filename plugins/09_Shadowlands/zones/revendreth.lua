@@ -98,7 +98,7 @@ map.nodes[66555946] = Rare({
     rewards = {
         Achievement({id = 14310, criteria = 48810}),
         Item({item = 179927, note = L['trinket']}), -- Glowing Endmire Stinger
-        Achievement({id = 14748, criteria = 49869, covenant = NECROLORD}), Item({item = 183759}) -- Unusually Large Cranium
+        Achievement({id = 14833, criteria = 49869, covenant = NECROLORD}), Item({item = 183759}) -- Unusually Large Cranium
     }
 }) -- Endlurker
 
@@ -203,7 +203,7 @@ map.nodes[21803590] = Rare({
     rewards = {
         Achievement({id = 14310, criteria = 48801}),
         Transmog({item = 183735, slot = L['cloth']}), -- Rogue Sinstealer's Mantle
-        Achievement({id = 14748, criteria = 49868, covenant = NECROLORD}), Item({item = 183760}) -- Venthyr Spectacles
+        Achievement({id = 14833, criteria = 49868, covenant = NECROLORD}), Item({item = 183760}) -- Venthyr Spectacles
     }
 }) -- Innervus
 
