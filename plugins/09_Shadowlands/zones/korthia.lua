@@ -677,7 +677,7 @@ map.nodes[39784299] = RIFT_CACHE4
 
 local Shared = Class('Shared', ns.node.Treasure, {
     group = ns.groups.KORTHIA_SHARED,
-    quest = {64316, 64317, 64318, 64564, 64565}, -- Quest IDs 64307/64309 seem to be changed.
+    quest = {64787, 64788, 64789, 64790, 64791},
     questCount = true,
     scale = 0.8,
     note = L['korthia_shared_chest_note'],
