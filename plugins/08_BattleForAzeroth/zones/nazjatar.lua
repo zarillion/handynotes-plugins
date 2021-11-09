@@ -699,8 +699,10 @@ map.nodes[28102670] = PetBattle({
 ------------------------------ PRISMATIC CRYSTALS -----------------------------
 -------------------------------------------------------------------------------
 
+local CRYSTAL_QUEST = UnitFactionGroup('player') == 'Horde' and 56560 or 56561
+
 map.nodes[55154877] = Node({
-    quest = 56560,
+    quest = CRYSTAL_QUEST,
     icon = 'crystal_p',
     scale = 2,
     label = L['strange_crystal'],
@@ -708,12 +710,12 @@ map.nodes[55154877] = Node({
     group = ns.groups.PRISMATICS,
     -- Hide node even when "Show completed" is enabled
     IsEnabled = function()
-        return not C_QuestLog.IsQuestFlaggedCompleted(56560)
+        return not C_QuestLog.IsQuestFlaggedCompleted(CRYSTAL_QUEST)
     end
 }) -- A Curious Discovery
 
 local Crystal = Class('Crystal', Node, {
-    questDeps = 56560,
+    questDeps = CRYSTAL_QUEST,
     icon = 'crystal_p',
     scale = 1.5,
     label = '{item:167893}',
