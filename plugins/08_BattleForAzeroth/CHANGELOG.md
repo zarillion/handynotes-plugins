@@ -3,6 +3,7 @@
 * Fixed the prismatic crystal intro quest ID for alliance characters.
 * Improved the tracking of transmog rewards. Appearances known from other items are now recognized.
 * Transmogs for other classes are now hidden by default. The "Show unobtainable transmog" option has been added to restore the previous functionality.
+* Update TOC for 9.1.5.
 
 # v6
 

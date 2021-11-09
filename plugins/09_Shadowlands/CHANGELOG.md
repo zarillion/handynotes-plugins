@@ -1,3 +1,13 @@
+# v39
+
+* Added completion tracking for the Fashion Abomination achievement.
+* Added new riftstone locations in the Maw.
+* Fixed quest IDs and updated the note for Korthia relic caches.
+* Fixed a bug which sometimes caused an error with rotate minimap enabled.
+* Fixed Sly, Infused Netherwyrm and Lil' Abom to no longer appear once collected.
+* Updated the Mastercraft Gravewing to use the proper mount ID.
+* Update TOC for 9.1.5.
+
 # v38
 
 * Added a couple missing Anima Vessel locations.
