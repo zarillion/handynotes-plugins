@@ -27,6 +27,7 @@ Optional parameters:
   -h, --help            Print this help.
 
 Sub-commands:
+  release PLUGIN        Tag HEAD as a new release for the given expansion.
   run-linter            Run the \`luacheck\` program on all sources.
   run-tests             Run all unit tests defined in the tests/ dir.
   run-formatter         Run the \`lua-format\` program on all sources.
@@ -48,6 +49,28 @@ function _lua_files () {
     else
         printf '%s\n' "${files[@]}"
     fi
+}
+
+function release () {
+    if [[ -z ${1:-} ]]; then
+        echo "Plugin directory required (i.e. plugins/09_Shadowlands)"
+        exit 1
+    fi
+
+    local plugin=$(basename ${1:-})
+
+    if [[ ! -d plugins/${plugin} ]]; then
+        echo "Plugin not found: ${plugin}"
+        exit 1
+    fi
+
+    local toc=$(find plugins/${plugin} -name *.toc)
+    local title=$(grep Title ${toc} | cut -d ' ' -f 4-)
+    local version=$(grep Version ${toc} | awk '{ print $3 }')
+    local tag="${plugin}-v${version}"
+
+    git tag -a ${tag} -m "${title} release ${version}"
+    git push origin refs/tags/${tag}
 }
 
 function run-linter() {
