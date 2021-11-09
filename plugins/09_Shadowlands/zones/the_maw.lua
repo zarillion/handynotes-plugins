@@ -784,7 +784,7 @@ map.nodes[19184778] = Riftstone({
     icon = 'portal_rd',
     fgroup = 'riftstone1',
     pois = {Line({19184778, 25211784})}
-})
+}) -- Tremaculum <=> Crucible
 
 map.nodes[25211784] = Riftstone({icon = 'portal_rd', fgroup = 'riftstone1'})
 
@@ -794,16 +794,26 @@ map.nodes[23433121] = Riftstone({
     icon = 'portal_bl',
     fgroup = 'riftstone2',
     pois = {Line({23433121, 34804362})}
-})
+}) -- Calcis <=> Cauldron
 
 map.nodes[34804362] = Riftstone({icon = 'portal_bl', fgroup = 'riftstone2'})
+
+-------------------------------------------------------------------------------
+
+map.nodes[68773673] = Riftstone({
+    icon = 'portal_gn',
+    fgroup = 'riftstone3',
+    pois = {Line({68773673, 33925666})}
+}) -- Desmotaeron <=> Perdition Hold
+
+map.nodes[33925666] = Riftstone({icon = 'portal_gn', fgroup = 'riftstone3'})
 
 -------------------------------------------------------------------------------
 
 map.nodes[19776617] = Riftstone({
     icon = 'portal_pp',
     pois = {Arrow({19776617, 34794350})}
-})
+}) -- Perdition Hold => Cauldron
 
 -------------------------------------------------------------------------------
 
@@ -816,8 +826,10 @@ map.nodes[48284145] = NPC({
     requires = ns.requirement.Venari(61600),
     scale = 1.3,
     pois = {
+        Arrow({48284145, 33935677}), -- Perdition Hold
         Arrow({48284145, 34181473}), -- The Tremaculum
-        Arrow({48284145, 53426364}) -- The Beastwarrens
+        Arrow({48284145, 53426364}), -- The Beastwarrens
+        Arrow({48284145, 68883680}) -- Desmotaeron
     }
 })
 
