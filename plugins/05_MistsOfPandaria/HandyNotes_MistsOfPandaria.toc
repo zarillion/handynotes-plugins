@@ -1,4 +1,4 @@
-## Interface: 90100
+## Interface: 90105
 ## Title: HandyNotes: Mists of Pandaria
 ## Version: 1
 ## Notes: Mists of Pandaria Notes
