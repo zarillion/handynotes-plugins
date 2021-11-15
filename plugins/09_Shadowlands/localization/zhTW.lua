@@ -307,7 +307,7 @@ L['mawsworn_cache_note'] = '總共有3個淵誓儲物箱會出現在對應的幾
 L['pile_of_bones'] = '白骨堆'
 L['relic_cache'] = '文物箱'
 L['shardhide_stash'] = '晶皮儲藏物'
-L['korthia_shared_chest_note'] = '你一天可以在這些寶藏收集文物5次. 除此之外的箱子可能會含有科西亞水晶和帳號綁定的裝備兌換物'
+L['korthia_shared_chest_note'] = '半小時內可以從這些寶箱收集文物5次. 進度每半小時會重置, 使其有效地成為無限的'
 L['unusual_nest'] = '不尋常材料之巢'
 L['unusual_nest_note'] = '5個位置的巢一天都可被拾取一次'
 
