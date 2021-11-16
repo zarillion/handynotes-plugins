@@ -126,6 +126,7 @@ map.nodes[38794333] = Rare({
     note = L['schmitd_note'],
     rewards = {
         Achievement({id = 14308, criteria = 48848}),
+        Achievement({id = 14751, criteria = 51474, covenant = NECROLORD}), -- Indomitable Hide
         Transmog({item = 182192, slot = L['plate']}) -- Knee-Obstructing Legguards
     }
 }) -- Indomitable Schmitd
@@ -145,6 +146,7 @@ map.nodes[66023532] = Rare({
     quest = 58851,
     rewards = {
         Achievement({id = 14308, criteria = 49723}),
+        Achievement({id = 14751, criteria = 51473, covenant = NECROLORD}), -- Necromantic Oil
         Transmog({item = 184179, slot = L['2h_sword']}), -- Lichsworn Commander's Boneblade
         Mount({item = 182084, id = 1373}) -- Gorespine
     }
