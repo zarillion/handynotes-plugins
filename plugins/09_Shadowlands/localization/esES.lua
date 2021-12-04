@@ -672,3 +672,14 @@ Los eventos de torturadores aparecen cada 2 horas impares en punto. Aparecerán 
 
 El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1906}.
 ]]
+
+-------------------------------------------------------------------------------
+-------------------------------- ZERETH MORTIS --------------------------------
+-------------------------------------------------------------------------------
+
+L['corrupted_architect_note'] = nil
+L['sand_matriarch_note'] = nil
+
+L['stolen_relic_note'] = nil
+L['symphonic_vault_note'] = nil
+L['template_archive_note'] = nil

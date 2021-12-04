@@ -678,3 +678,14 @@ Die Bosse erscheinen in der unten aufgeführten Reihenfolge.
 
 Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency:1906}.
 ]]
+
+-------------------------------------------------------------------------------
+-------------------------------- ZERETH MORTIS --------------------------------
+-------------------------------------------------------------------------------
+
+L['corrupted_architect_note'] = nil
+L['sand_matriarch_note'] = nil
+
+L['stolen_relic_note'] = nil
+L['symphonic_vault_note'] = nil
+L['template_archive_note'] = nil

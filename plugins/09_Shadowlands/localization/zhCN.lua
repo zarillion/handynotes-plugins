@@ -671,3 +671,14 @@ L['tormentors_note'] = [[
 
 {item:185972} 每周只可以拾取一次，其中包含50个 {currency:1906}。
 ]]
+
+-------------------------------------------------------------------------------
+-------------------------------- ZERETH MORTIS --------------------------------
+-------------------------------------------------------------------------------
+
+L['corrupted_architect_note'] = nil
+L['sand_matriarch_note'] = nil
+
+L['stolen_relic_note'] = nil
+L['symphonic_vault_note'] = nil
+L['template_archive_note'] = nil

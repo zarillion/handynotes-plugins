@@ -674,3 +674,14 @@ Un événement de tourmenteur apparaît toutes les 2 heures à heure pile. Les b
 
 La {item:185972} peut être obtenue une fois par semaine et contient 50 {currency:1906}.
 ]]
+
+-------------------------------------------------------------------------------
+-------------------------------- ZERETH MORTIS --------------------------------
+-------------------------------------------------------------------------------
+
+L['corrupted_architect_note'] = nil
+L['sand_matriarch_note'] = nil
+
+L['stolen_relic_note'] = nil
+L['symphonic_vault_note'] = nil
+L['template_archive_note'] = nil
