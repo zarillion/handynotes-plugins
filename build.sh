@@ -112,7 +112,7 @@ function check-formatter() {
                 errors+=($file)
             fi
             count=$(( count + 1 ))
-            if [ $(( count % 100 )) == 0 ]; then echo; fi
+            if [ $(( count % 60 )) == 0 ]; then echo; fi
         done
         echo
     fi
