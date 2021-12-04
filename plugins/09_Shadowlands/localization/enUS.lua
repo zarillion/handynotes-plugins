@@ -671,3 +671,14 @@ A tormentor event spawns every 2 hours on the hour. The bosses will always spawn
 
 The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 ]]
+
+-------------------------------------------------------------------------------
+-------------------------------- ZERETH MORTIS --------------------------------
+-------------------------------------------------------------------------------
+
+L['corrupted_architect_note'] = 'Engage {npc:183958} and {npc:183961} to activate the rare.'
+L['sand_matriarch_note'] = 'Kill the {npc:182434s} to activate the rare.'
+
+L['stolen_relic_note'] = 'Carefully jump up the spheres until you reach the top.'
+L['symphonic_vault_note'] = 'Examine the {npc:183998} to hear a sequence of four sounds. Each {npc:183950} in the room plays a single sound. Interact with them in the matching order to unlock the treasure.'
+L['template_archive_note'] = 'Push the {npc:183339} in the room into the {npc:183337} blocking the path to the treasure.'
