@@ -1,3 +1,4 @@
+-- LuaFormatter off
 ignore = {'ADDON_NAME'}
 max_line_length = false
 redefined = false
@@ -10,6 +11,7 @@ read_globals = {
     'floor',
     'format',
     'hooksecurefunc',
+    'max',
     'sqrt',
     'strsub',
     'strsplit',
@@ -134,3 +136,4 @@ files["tests/test_locales.lua"] = {
         'format',
     }
 }
+-- LuaFormatter on
