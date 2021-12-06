@@ -676,9 +676,9 @@ L['tormentors_note'] = [[
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
-L['corrupted_architect_note'] = nil
-L['sand_matriarch_note'] = nil
+L['corrupted_architect_note'] = '攻击 {npc:183958} 和 {npc:183961} 激活稀有。'
+L['sand_matriarch_note'] = '击杀 {npc:182434} 激活稀有。'
 
-L['stolen_relic_note'] = nil
-L['symphonic_vault_note'] = nil
-L['template_archive_note'] = nil
+L['stolen_relic_note'] = '小心跳上球体直到到达顶部。'
+L['symphonic_vault_note'] = '检查 {npc:183998} 听四个声音顺序。房间内每个 {npc:183950} 播放一个声音。按照匹配顺序与他们互动以解锁宝箱。'
+L['template_archive_note'] = '推动房间内 {npc:183339} 到 {npc:183337} 阻挡路径获得宝物。'
