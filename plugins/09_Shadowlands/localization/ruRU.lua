@@ -680,6 +680,6 @@ L['tormentors_note'] = [[
 L['corrupted_architect_note'] = nil
 L['sand_matriarch_note'] = nil
 
-L['stolen_relic_note'] = nil
+L['stolen_relic_note'] = 'Осторожно прыгайте по сферам, пока не доберетесь до вершины.'
 L['symphonic_vault_note'] = nil
 L['template_archive_note'] = nil
