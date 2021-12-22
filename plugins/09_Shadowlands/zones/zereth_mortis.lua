@@ -67,7 +67,7 @@ map.nodes[47474516] = Rare({
 
 map.nodes[61826060] = Rare({
     id = 178229,
-    quest = nil,
+    quest = 65557,
     rewards = {
         Achievement({id = 15391, criteria = 52973}) -- Adventurer of Zereth Mortis
     }
@@ -132,9 +132,9 @@ map.nodes[43308762] = Rare({
     }
 }) -- Otiosen
 
-map.nodes[54154870] = Rare({
+map.nodes[53384707] = Rare({
     id = 183927,
-    note = L['sand_matriarch_note'],
+    -- note = L['sand_matriarch_note'],
     quest = nil,
     rewards = {
         Achievement({id = 15391, criteria = 52975}) -- Adventurer of Zereth Mortis
@@ -209,11 +209,28 @@ map.nodes[43513294] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- 38977321 Gnawed Valise (Gnawed Lockbox on minimap) (quest=65480)
+-- Unknown/Mystery Treasures:
 -- 42025181 Provis Cache (requires Provis Cache Key)
--- 51550989 Fallen Vault (quest=65487)
--- 56746416 Crushed Supply Crate (under rocks, not interactable)
 -- 60011798 Mawsworn Cache (second one? this one requires Dominance Key)
+
+-- Treasures that give 2x cyphers and flip no quest id:
+-- 47394352 Mawsworn Supply Cache
+-- 52045296 Cypher Bound Chest
+-- 59326420 Cypher Bound Chest
+-- 60866960 Cypher Bound Chest
+-- 59905122 Discarded Automa Scrap
+
+-- Pocopoc Puzzle Treasures:
+-- 39184665 Fugueal Cache (quest=65322)
+-- 43624033 Mezzonic Cache (quest=65320)
+-- 54264279 Glissandian Cache (quest=65092)
+
+map.nodes[56746416] = Treasure({
+    quest = nil,
+    rewards = {
+        Achievement({id = 15331, criteria = 53054}) -- Treasures of Zereth Mortis
+    }
+}) -- Crushed Supply Crate
 
 map.nodes[38253724] = Treasure({
     quest = 64667,
@@ -221,6 +238,20 @@ map.nodes[38253724] = Treasure({
         Achievement({id = 15331, criteria = 52965}) -- Treasures of Zereth Mortis
     }
 }) -- Damaged Jiro Stash
+
+map.nodes[51550989] = Treasure({
+    quest = 65487,
+    rewards = {
+        Achievement({id = 15331, criteria = 53016}) -- Treasures of Zereth Mortis
+    }
+}) -- Fallen Vault
+
+map.nodes[38977321] = Treasure({
+    quest = 65480,
+    rewards = {
+        Achievement({id = 15331, criteria = 53017}) -- Treasures of Zereth Mortis
+    }
+}) -- Gnawed Valise
 
 map.nodes[58847706] = Treasure({
     quest = 64667,
@@ -237,6 +268,13 @@ map.nodes[60593053] = Treasure({
     }
 }) -- Mawsworn Cache
 
+map.nodes[35244411] = Treasure({
+    quest = 65536,
+    rewards = {
+        Achievement({id = 15331, criteria = 53056}) -- Treasures of Zereth Mortis
+    }
+}) -- Overgrown Protofruit
+
 map.nodes[37906520] = Treasure({
     quest = 65447,
     note = L['stolen_relic_note'],
@@ -244,6 +282,14 @@ map.nodes[37906520] = Treasure({
         Achievement({id = 15331, criteria = 52970}) -- Treasures of Zereth Mortis
     }
 }) -- Stolen Relic
+
+map.nodes[34046764] = Treasure({
+    quest = 65543,
+    rewards = {
+        Achievement({id = 15331, criteria = 53065}) -- Treasures of Zereth Mortis
+    },
+    pois = {Path({34046764, 33636720, 33566585, 33466475})}
+}) -- Stolen Scroll
 
 -- Not going to give answer in the note for now, instead I explain how to solve it
 -- Solution: 183951 (se) => 183950 (nw) => 183948 (sw) => 183952 (ne)
