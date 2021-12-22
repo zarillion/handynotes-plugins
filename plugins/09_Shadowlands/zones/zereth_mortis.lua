@@ -10,6 +10,7 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local Arrow = ns.poi.Arrow
 local Path = ns.poi.Path
@@ -45,7 +46,7 @@ map.nodes[47486228] = Rare({
     quest = 65273,
     note = L['corrupted_architect_note'],
     rewards = {
-        -- Achievement?
+        Achievement({id = 15391, criteria = 53047}) -- Adventurer of Zereth Mortis
     }
 }) -- Corrupted Architect
 
@@ -73,6 +74,24 @@ map.nodes[61826060] = Rare({
     }
 }) -- Feasting
 
+-- Hungry Nestling (npc=183554)
+-- Esurience (spell=362637)
+-- Regenerative Suspension (spell=362751)
+-- Energizing Leporid (item=188523)
+-- Throw Leporid (spell=362655)
+map.nodes[69073662] = Rare({
+    id = 180924,
+    quest = 64719,
+    note = L['garudeon_note'],
+    rewards = {
+        Achievement({id = 15391, criteria = 53025}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189937, slot = L['cloak']}) -- Garudeon's Blanket of Feathers
+    },
+    pois = {
+        POI({68333834, 68153594, 66343802, 67553892, 67554019}) -- Energizing Leporid (183562)
+    }
+}) -- Garudeon
+
 map.nodes[59862111] = Rare({
     id = 182318,
     quest = nil,
@@ -97,6 +116,14 @@ map.nodes[52612503] = Rare({
     }
 }) -- Hadeon the Stonebreaker
 
+map.nodes[52287541] = Rare({
+    id = 180978,
+    quest = nil,
+    rewards = {
+        Achievement({id = 15391, criteria = 52990}) -- Adventurer of Zereth Mortis
+    }
+}) -- Hirukon
+
 microd.nodes[38100710] = Rare({
     id = 183814,
     parent = map.id,
@@ -108,9 +135,9 @@ microd.nodes[38100710] = Rare({
 
 map.nodes[54083493] = Rare({
     id = 178508,
-    quest = nil,
+    quest = 65547,
     rewards = {
-        -- Achievement?
+        Achievement({id = 15391, criteria = 53020}) -- Adventurer of Zereth Mortis
     },
     pois = {POI({55963261})} -- Cave entrance
 }) -- Mother Phestis
@@ -132,6 +159,16 @@ map.nodes[43308762] = Rare({
     }
 }) -- Otiosen
 
+map.nodes[38872762] = Rare({
+    id = 180746,
+    quest = 64668,
+    note = L['protector_first_ones_note'],
+    rewards = {
+        Achievement({id = 15391, criteria = 52989}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189984, slot = L['cloak']}) -- Drape of Idolized Symmetry
+    }
+}) -- Protector of the First Ones
+
 map.nodes[53384707] = Rare({
     id = 183927,
     -- note = L['sand_matriarch_note'],
@@ -141,11 +178,12 @@ map.nodes[53384707] = Rare({
     }
 }) -- Sand Matriarch Ileus
 
-map.nodes[42342097] = Rare({
+map.nodes[42302099] = Rare({
     id = 184413,
-    quest = nil,
+    quest = 65549,
     rewards = {
-        Achievement({id = 15391, criteria = 52988}) -- Adventurer of Zereth Mortis
+        Achievement({id = 15391, criteria = 52988}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189908, slot = L['cloth']}) -- Gorger's Leggings of Famine
     }
 }) -- Shifting Stargorger
 
@@ -167,9 +205,10 @@ map.nodes[49783914] = Rare({
 
 map.nodes[54507344] = Rare({
     id = 181249,
-    quest = nil,
+    quest = 65550,
     rewards = {
-        Achievement({id = 15391, criteria = 52987}) -- Adventurer of Zereth Mortis
+        Achievement({id = 15391, criteria = 52987}), -- Adventurer of Zereth Mortis
+        Transmog({item = 190055, slot = L['offhand']}) -- Coalescing Energy Implement
     }
 }) -- Tethos
 
@@ -177,7 +216,7 @@ map.nodes[39555737] = Rare({
     id = 181360,
     quest = 65239,
     rewards = {
-        -- Achievement?
+        Achievement({id = 15391, criteria = 53049}) -- Adventurer of Zereth Mortis
     }
 }) -- Vexis
 
@@ -201,7 +240,7 @@ map.nodes[43513294] = Rare({
     id = 183764,
     quest = 65251,
     rewards = {
-        -- Achievement?
+        Achievement({id = 15391, criteria = 53044}) -- Adventurer of Zereth Mortis
     }
 }) -- Zatojin
 
@@ -211,18 +250,32 @@ map.nodes[43513294] = Rare({
 
 -- Unknown/Mystery Treasures:
 -- 42025181 Provis Cache (requires Provis Cache Key)
--- 60011798 Mawsworn Cache (second one? this one requires Dominance Key)
+-- 60011798 Domination Cache (second one? this one requires Dominance Key)
 
 -- Treasures that give 2x cyphers and flip no quest id:
+-- 59106467 Avian Nest
 -- 47394352 Mawsworn Supply Cache
+-- 59841661 Mawsworn Supply Chest
+-- 39835646 Cypher Bound Chest
+-- 42792135 Cypher Bound Chest
 -- 52045296 Cypher Bound Chest
+-- 52075444 Cypher Bound Chest
+-- 54027253 Cypher Bound Chest
+-- 54326958 Cypher Bound Chest
 -- 59326420 Cypher Bound Chest
 -- 60866960 Cypher Bound Chest
--- 59905122 Discarded Automa Scrap
+-- 66843569 Cypher Bound Chest
+-- 58966093 Discarded Automa Scrap
+-- 58966093 Discarded Automa Scrap
+-- 65764042 Discarded Automa Scrap
+-- 54253357 Tarachnid Eggs
+-- 56542540 Forgotten Treasure Vault
+-- 69083683 Forgotten Treasure Vault
 
 -- Pocopoc Puzzle Treasures:
 -- 39184665 Fugueal Cache (quest=65322)
 -- 43624033 Mezzonic Cache (quest=65320)
+-- 55675002 Mezzonic Cache (quest=65091)
 -- 54264279 Glissandian Cache (quest=65092)
 
 map.nodes[56746416] = Treasure({
@@ -268,12 +321,34 @@ map.nodes[60593053] = Treasure({
     }
 }) -- Mawsworn Cache
 
+map.nodes[53557223] = Treasure({
+    quest = 65522,
+    note = L['mistaken_ovoid_note'],
+    rewards = {
+        Achievement({id = 15331, criteria = 53060}) -- Treasures of Zereth Mortis
+    }
+}) -- Mistaken Ovoid
+
 map.nodes[35244411] = Treasure({
     quest = 65536,
     rewards = {
         Achievement({id = 15331, criteria = 53056}) -- Treasures of Zereth Mortis
     }
 }) -- Overgrown Protofruit
+
+map.nodes[52577147] = Treasure({
+    quest = 65546,
+    rewards = {
+        Achievement({id = 15331, criteria = 53067}) -- Treasures of Zereth Mortis
+    }
+}) -- Protoflora Harvester
+
+map.nodes[46643094] = Treasure({
+    quest = 65540,
+    rewards = {
+        Achievement({id = 15331, criteria = 53063}) -- Treasures of Zereth Mortis
+    }
+}) -- Protomineral Extractor
 
 map.nodes[37906520] = Treasure({
     quest = 65447,
