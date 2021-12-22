@@ -677,8 +677,11 @@ The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Engage {npc:183958} and {npc:183961} to activate the rare.'
+L['garudeon_note'] = 'todo'
+L['protector_first_ones_note'] = 'Requires two people. Bring the matching runes to each console (found in the surrounding area) to open the barrier.'
 L['sand_matriarch_note'] = 'Kill the {npc:182434s} to activate the rare.'
 
+L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern, behind the balls.'
 L['stolen_relic_note'] = 'Carefully jump up the spheres until you reach the top.'
 L['symphonic_vault_note'] = 'Examine the {npc:183998} to hear a sequence of four sounds. Each {npc:183950} in the room plays a single sound. Interact with them in the matching order to unlock the treasure.'
 L['template_archive_note'] = 'Push the {npc:183339} in the room into the {npc:183337} blocking the path to the treasure.'

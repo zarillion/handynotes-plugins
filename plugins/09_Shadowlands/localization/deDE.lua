@@ -684,8 +684,11 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = nil
+L['garudeon_note'] = nil
+L['protector_first_ones_note'] = nil
 L['sand_matriarch_note'] = nil
 
+L['mistaken_ovoid_note'] = nil
 L['stolen_relic_note'] = nil
 L['symphonic_vault_note'] = nil
 L['template_archive_note'] = nil
