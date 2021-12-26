@@ -678,20 +678,20 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
-L['garudeon_note'] = nil
-L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están alrededor de la zona) para abrir la barrera.'
+L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
+L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
 
 L['mistaken_ovoid_note'] = 'Dentro de la caverna Cataratas Dimensionales, detrás de las bolas.'
 L['stolen_relic_note'] = 'Salta las esferas con cuidado hasta llegar arriba.'
 L['symphonic_vault_note'] = 'Examina al {npc:183998} para escuchar una secuencia de cuatro sonidos. Cada {npc:183950} de la sala reproduce un sonido. Interactúa con ellas en el orden adecuado para desbloquear el tesoro.'
 L['template_archive_note'] = 'Empuja el {npc:183339} de la sala dentro del {npc:183337} que bloquea el paso al tesoro.'
 
-L['cache_avian_nest'] = nil
-L['cache_cypher_bound'] = nil
-L['cache_discarded_automa'] = nil
-L['cache_forgotten_vault'] = nil
-L['cache_mawsworn_supply'] = nil
-L['cache_tarachnid_eggs'] = nil
+L['cache_avian_nest'] = 'Nido Aviario'
+L['cache_cypher_bound'] = 'Cofre Reforzado con Clave'
+L['cache_discarded_automa'] = 'Chatarra de Automa Desechada'
+L['cache_forgotten_vault'] = 'Cámara del Tesoro Olvidada'
+L['cache_mawsworn_supply'] = 'Cofre de Suministros Jurafauces'
+L['cache_tarachnid_eggs'] = 'Huevos de Tarácnido'
 
-L['options_icons_zereth_caches'] = nil
-L['options_icons_zereth_caches_desc'] = nil
+L['options_icons_zereth_caches'] = 'Cofres con Clave'
+L['options_icons_zereth_caches_desc'] = 'Muestra los sitios posibles para los cofres con clave.'
