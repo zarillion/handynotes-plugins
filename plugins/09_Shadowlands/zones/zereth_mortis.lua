@@ -36,7 +36,7 @@ map.nodes[64743369] = Rare({
 
 map.nodes[49566751] = Rare({
     id = 183596,
-    quest = nil,
+    quest = 65553,
     rewards = {
         Achievement({id = 15391, criteria = 52978}) -- Adventurer of Zereth Mortis
     }
@@ -55,7 +55,8 @@ map.nodes[53634435] = Rare({
     id = 180917,
     quest = 64716,
     rewards = {
-        Achievement({id = 15391, criteria = 52974}) -- Adventurer of Zereth Mortis
+        Achievement({id = 15391, criteria = 52974}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189985, slot = L['cloak']}) -- Curtain of Untold Realms
     }
 }) -- Destabilized Core
 
@@ -112,6 +113,7 @@ map.nodes[52612503] = Rare({
     }
 }) -- Hadeon the Stonebreaker
 
+-- Probably requires activation of Coreless Helicid (181558) 52617494
 map.nodes[52287541] = Rare({
     id = 180978,
     quest = nil,
@@ -149,7 +151,7 @@ map.nodes[57998454] = Rare({
 
 map.nodes[43308762] = Rare({
     id = 183746,
-    quest = nil,
+    quest = 65556,
     rewards = {
         Achievement({id = 15391, criteria = 52972}) -- Adventurer of Zereth Mortis
     }
@@ -235,8 +237,10 @@ map.nodes[64054975] = Rare({
 map.nodes[43513294] = Rare({
     id = 183764,
     quest = 65251,
+    note = L['zatojin_note'],
     rewards = {
-        Achievement({id = 15391, criteria = 53044}) -- Adventurer of Zereth Mortis
+        Achievement({id = 15391, criteria = 53044}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189902, slot = L['cloth']}) -- Hapless Traveler's Treads
     }
 }) -- Zatojin
 
@@ -248,12 +252,6 @@ map.nodes[43513294] = Rare({
 -- 42025181 Provis Cache (requires Provis Cache Key)
 -- 60011798 Domination Cache (second one? this one requires Dominance Key)
 -- 60022583 Sandworn Chest (quest=65611) (requires 5x 190198 => 1x 190197) (dropped 5x 190189)
-
--- Pocopoc Puzzle Treasures:
--- 39184665 Fugueal Cache (quest=65322)
--- 43624033 Mezzonic Cache (quest=65320)
--- 55675002 Mezzonic Cache (quest=65091)
--- 54264279 Glissandian Cache (quest=65092)
 
 map.nodes[56746416] = Treasure({
     quest = nil,
@@ -269,12 +267,28 @@ map.nodes[38253724] = Treasure({
     }
 }) -- Damaged Jiro Stash
 
+-- Probably requires activation of Coreless Aurelid (185282) 34497053
+map.nodes[35167020] = Treasure({
+    quest = nil,
+    rewards = {
+        Achievement({id = 15331, criteria = 53061}) -- Treasures of Zereth Mortis
+    }
+}) -- Drowned Broker Supplies
+
 map.nodes[51550989] = Treasure({
     quest = 65487,
     rewards = {
         Achievement({id = 15331, criteria = 53016}) -- Treasures of Zereth Mortis
     }
 }) -- Fallen Vault
+
+map.nodes[49758723] = Treasure({
+    quest = 65503,
+    note = L['sphere_treasure_note'],
+    rewards = {
+        Achievement({id = 15331, criteria = 53052}) -- Treasures of Zereth Mortis
+    }
+}) -- Filched Artifact
 
 map.nodes[38977321] = Treasure({
     quest = 65480,
@@ -306,6 +320,13 @@ map.nodes[53557223] = Treasure({
     }
 }) -- Mistaken Ovoid
 
+map.nodes[34815604] = Treasure({
+    quest = 65537,
+    rewards = {
+        Achievement({id = 15331, criteria = 53062}) -- Treasures of Zereth Mortis
+    }
+}) -- Offering to the First Ones
+
 map.nodes[35244411] = Treasure({
     quest = 65536,
     rewards = {
@@ -329,7 +350,7 @@ map.nodes[46643094] = Treasure({
 
 map.nodes[37906520] = Treasure({
     quest = 65447,
-    note = L['stolen_relic_note'],
+    note = L['sphere_treasure_note'],
     rewards = {
         Achievement({id = 15331, criteria = 52970}) -- Treasures of Zereth Mortis
     }
@@ -376,37 +397,51 @@ map.nodes[60022583] = Treasure({
 }) -- Sandworn Chest (not localizing until purpose is known)
 
 -------------------------------------------------------------------------------
------------------------------------ CACHES ------------------------------------
+-------------------------------- CYPHER CACHES --------------------------------
 -------------------------------------------------------------------------------
 
 -- Treasures that give 2x cyphers and flip no quest id
-local Cache = Class('Cache', ns.node.Node, {
+local Cache = Class('CypherCache', ns.node.Node, {
     group = ns.groups.ZERETH_CACHE,
     icon = 'chest_gy',
     scale = 0.8,
     fgroup = 'zereth_cache'
 })
 
+map.nodes[42327311] = Cache({label = L['cache_avian_nest']})
+map.nodes[48196646] = Cache({label = L['cache_avian_nest']})
 map.nodes[59106467] = Cache({label = L['cache_avian_nest']})
 
 map.nodes[37853246] = Cache({label = L['cache_cypher_bound']})
 map.nodes[38113112] = Cache({label = L['cache_cypher_bound']})
+map.nodes[39154226] = Cache({label = L['cache_cypher_bound']})
 map.nodes[39835646] = Cache({label = L['cache_cypher_bound']})
 map.nodes[42792135] = Cache({label = L['cache_cypher_bound']})
+map.nodes[44682237] = Cache({label = L['cache_cypher_bound']})
 map.nodes[44815079] = Cache({label = L['cache_cypher_bound']})
+map.nodes[45393141] = Cache({label = L['cache_cypher_bound']})
+map.nodes[47702634] = Cache({label = L['cache_cypher_bound']})
+map.nodes[47766683] = Cache({label = L['cache_cypher_bound']})
+map.nodes[48976532] = Cache({label = L['cache_cypher_bound']})
 map.nodes[52045296] = Cache({label = L['cache_cypher_bound']})
-map.nodes[52075444] = Cache({labeel = L['cache_cypher_bound']})
+map.nodes[52075444] = Cache({label = L['cache_cypher_bound']})
+map.nodes[53066373] = Cache({label = L['cache_cypher_bound']})
 map.nodes[54027253] = Cache({label = L['cache_cypher_bound']})
+map.nodes[54247629] = Cache({label = L['cache_cypher_bound']})
 map.nodes[54326958] = Cache({label = L['cache_cypher_bound']})
 map.nodes[59326420] = Cache({label = L['cache_cypher_bound']})
 map.nodes[60866960] = Cache({label = L['cache_cypher_bound']})
 map.nodes[65553675] = Cache({label = L['cache_cypher_bound']})
 map.nodes[66843569] = Cache({label = L['cache_cypher_bound']})
 
+map.nodes[40657591] = Cache({label = L['cache_discarded_automa']})
+map.nodes[44089028] = Cache({label = L['cache_discarded_automa']})
 map.nodes[48834480] = Cache({label = L['cache_discarded_automa']})
 map.nodes[58966093] = Cache({label = L['cache_discarded_automa']})
 map.nodes[65764042] = Cache({label = L['cache_discarded_automa']})
 
+map.nodes[36707142] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[51177705] = Cache({label = L['cache_forgotten_vault']})
 map.nodes[56542540] = Cache({label = L['cache_forgotten_vault']})
 map.nodes[69083683] = Cache({label = L['cache_forgotten_vault']})
 
@@ -417,7 +452,48 @@ map.nodes[62952498] = Cache({label = L['cache_mawsworn_supply']})
 map.nodes[54253357] = Cache({label = L['cache_tarachnid_eggs']})
 
 -------------------------------------------------------------------------------
+-------------------------------- PUZZLE CACHES --------------------------------
+-------------------------------------------------------------------------------
+
+local Puzzle = Class('PuzzleCache', ns.node.Node, {
+    group = ns.groups.PUZZLE_CACHE,
+    icon = 'star_chest_g',
+    scale = 1.2
+
+})
+
+map.nodes[44767608] = Puzzle({quest = 65323, label = L['cache_cantaric']})
+map.nodes[52984558] = Puzzle({quest = 65416, label = L['cache_cantaric']}) -- 65418
+map.nodes[39184665] = Puzzle({quest = 65322, label = L['cache_fugueal']})
+map.nodes[43624033] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
+map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
+map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
+
+-------------------------------------------------------------------------------
+--------------------------------- ECHOED JIRO ---------------------------------
+-------------------------------------------------------------------------------
+
+-- Creatian (Metrial talent)
+-- Rank 1 = SW
+-- Rank 2 = SE
+-- Rank 3 = ??
+-- Rank 4 = ??
+
+-- 39144256 Echoed Jiro Creatii (184942)
+-- 53634382 Echoed Jiro Creatii (184945)
+-- ???????? Echoed Jiro Genesii (183262) -- Increased Progenium Essentia from gathering and treasures (spell=362022, 15m)
+-- 46656747 Echoed Jiro Genesii (183262) -- Increased Progenium Essentia from gathering and treasures (spell=362022, 15m)
+-- 38313215 Echoed Jiro Genesii (184943)
+-- 42883191 Echoed Jiro Nascii (184944)
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
+
+-- Lore (Concordances) -- quests may flip after you have read enough of them, wasn't initially marking them
+-- 38953127 Excitable Concordance
+-- 35037144 Mercurial Concordance
+-- 38844857 Tranquil Concordance (quest=65212)
+-- 49367149 Tranquil Concordance (quest=65209)
 
 -- 68695320 Interior Locus Arrangement (quest=65330)

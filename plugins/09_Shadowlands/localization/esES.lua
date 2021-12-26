@@ -680,9 +680,10 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
 L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
+L['zatojin_note'] = nil
 
 L['mistaken_ovoid_note'] = 'Dentro de la caverna Cataratas Dimensionales, detrás de las bolas.'
-L['stolen_relic_note'] = 'Salta las esferas con cuidado hasta llegar arriba.'
+L['sphere_treasure_note'] = 'Salta las esferas con cuidado hasta llegar arriba.'
 L['symphonic_vault_note'] = 'Examina al {npc:183998} para escuchar una secuencia de cuatro sonidos. Cada {npc:183950} de la sala reproduce un sonido. Interactúa con ellas en el orden adecuado para desbloquear el tesoro.'
 L['template_archive_note'] = 'Empuja el {npc:183339} de la sala dentro del {npc:183337} que bloquea el paso al tesoro.'
 
@@ -693,5 +694,12 @@ L['cache_forgotten_vault'] = 'Cámara del Tesoro Olvidada'
 L['cache_mawsworn_supply'] = 'Cofre de Suministros Jurafauces'
 L['cache_tarachnid_eggs'] = 'Huevos de Tarácnido'
 
+L['cache_cantaric'] = nil
+L['cache_fugueal'] = nil
+L['cache_mezzonic'] = nil
+L['cache_glissandian'] = nil
+
+L['options_icons_puzzle_caches'] = nil
+L['options_icons_puzzle_caches_desc'] = nil
 L['options_icons_zereth_caches'] = 'Cofres con Clave'
 L['options_icons_zereth_caches_desc'] = 'Muestra los sitios posibles para los cofres con clave.'
