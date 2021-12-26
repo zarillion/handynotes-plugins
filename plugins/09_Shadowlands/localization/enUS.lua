@@ -677,7 +677,7 @@ The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Engage {npc:183958} and {npc:183961} to activate the rare.'
-L['garudeon_note'] = 'todo'
+L['garudeon_note'] = 'Collect {npc:183562s} from the surrounding area and use {spell:362655} to feed the {npc:183554s}. Once all three are fed, {npc:180924} will activate.'
 L['protector_first_ones_note'] = 'Requires two people. Bring the matching runes to each console (found in the surrounding area) to open the barrier.'
 L['sand_matriarch_note'] = 'Kill the {npc:182434s} to activate the rare.'
 

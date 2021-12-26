@@ -74,11 +74,6 @@ map.nodes[61826060] = Rare({
     }
 }) -- Feasting
 
--- Hungry Nestling (npc=183554)
--- Esurience (spell=362637)
--- Regenerative Suspension (spell=362751)
--- Energizing Leporid (item=188523)
--- Throw Leporid (spell=362655)
 map.nodes[69073662] = Rare({
     id = 180924,
     quest = 64719,
@@ -88,7 +83,7 @@ map.nodes[69073662] = Rare({
         Transmog({item = 189937, slot = L['cloak']}) -- Garudeon's Blanket of Feathers
     },
     pois = {
-        POI({68333834, 68153594, 66343802, 67553892, 67554019}) -- Energizing Leporid (183562)
+        POI({68333834, 68153594, 66343802, 67553892, 67554019}) -- Energizing Leporid
     }
 }) -- Garudeon
 
