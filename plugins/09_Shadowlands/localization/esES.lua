@@ -678,11 +678,20 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
-L['garudeon_note'] = 'todo'
+L['garudeon_note'] = nil
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están alrededor de la zona) para abrir la barrera.'
-L['sand_matriarch_note'] = 'Mata {npc:182434} hasta que se active la {npc:183927}.'
 
 L['mistaken_ovoid_note'] = 'Dentro de la caverna Cataratas Dimensionales, detrás de las bolas.'
 L['stolen_relic_note'] = 'Salta las esferas con cuidado hasta llegar arriba.'
 L['symphonic_vault_note'] = 'Examina al {npc:183998} para escuchar una secuencia de cuatro sonidos. Cada {npc:183950} de la sala reproduce un sonido. Interactúa con ellas en el orden adecuado para desbloquear el tesoro.'
 L['template_archive_note'] = 'Empuja el {npc:183339} de la sala dentro del {npc:183337} que bloquea el paso al tesoro.'
+
+L['cache_avian_nest'] = nil
+L['cache_cypher_bound'] = nil
+L['cache_discarded_automa'] = nil
+L['cache_forgotten_vault'] = nil
+L['cache_mawsworn_supply'] = nil
+L['cache_tarachnid_eggs'] = nil
+
+L['options_icons_zereth_caches'] = nil
+L['options_icons_zereth_caches_desc'] = nil

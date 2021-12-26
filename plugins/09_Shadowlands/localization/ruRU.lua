@@ -680,9 +680,18 @@ L['tormentors_note'] = [[
 L['corrupted_architect_note'] = nil
 L['garudeon_note'] = nil
 L['protector_first_ones_note'] = nil
-L['sand_matriarch_note'] = 'Убивайте {npc:182434}, чтобы призвать редкого монстра.'
 
 L['mistaken_ovoid_note'] = nil
 L['stolen_relic_note'] = 'Осторожно прыгайте по сферам, пока не доберетесь до вершины.'
 L['symphonic_vault_note'] = nil
 L['template_archive_note'] = 'Нажмите на {npc:183339} в комнате с {npc:183337}, блокирующую путь к сокровищу.'
+
+L['cache_avian_nest'] = nil
+L['cache_cypher_bound'] = nil
+L['cache_discarded_automa'] = nil
+L['cache_forgotten_vault'] = nil
+L['cache_mawsworn_supply'] = nil
+L['cache_tarachnid_eggs'] = nil
+
+L['options_icons_zereth_caches'] = nil
+L['options_icons_zereth_caches_desc'] = nil

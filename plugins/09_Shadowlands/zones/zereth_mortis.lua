@@ -3,6 +3,7 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
@@ -166,8 +167,7 @@ map.nodes[38872762] = Rare({
 
 map.nodes[53384707] = Rare({
     id = 183927,
-    -- note = L['sand_matriarch_note'],
-    quest = nil,
+    quest = 65574,
     rewards = {
         Achievement({id = 15391, criteria = 52975}) -- Adventurer of Zereth Mortis
     }
@@ -217,9 +217,10 @@ map.nodes[39555737] = Rare({
 
 map.nodes[47044698] = Rare({
     id = 183747,
-    quest = nil,
+    quest = 65584,
     rewards = {
-        Achievement({id = 15391, criteria = 52983}) -- Adventurer of Zereth Mortis
+        Achievement({id = 15391, criteria = 52983}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189901, slot = L['cloth']}) -- Vitiane's Defiled Vestment
     }
 }) -- Vitiane
 
@@ -246,26 +247,7 @@ map.nodes[43513294] = Rare({
 -- Unknown/Mystery Treasures:
 -- 42025181 Provis Cache (requires Provis Cache Key)
 -- 60011798 Domination Cache (second one? this one requires Dominance Key)
-
--- Treasures that give 2x cyphers and flip no quest id:
--- 59106467 Avian Nest
--- 47394352 Mawsworn Supply Cache
--- 59841661 Mawsworn Supply Chest
--- 39835646 Cypher Bound Chest
--- 42792135 Cypher Bound Chest
--- 52045296 Cypher Bound Chest
--- 52075444 Cypher Bound Chest
--- 54027253 Cypher Bound Chest
--- 54326958 Cypher Bound Chest
--- 59326420 Cypher Bound Chest
--- 60866960 Cypher Bound Chest
--- 66843569 Cypher Bound Chest
--- 58966093 Discarded Automa Scrap
--- 58966093 Discarded Automa Scrap
--- 65764042 Discarded Automa Scrap
--- 54253357 Tarachnid Eggs
--- 56542540 Forgotten Treasure Vault
--- 69083683 Forgotten Treasure Vault
+-- 60022583 Sandworn Chest (quest=65611) (requires 5x 190198 => 1x 190197) (dropped 5x 190189)
 
 -- Pocopoc Puzzle Treasures:
 -- 39184665 Fugueal Cache (quest=65322)
@@ -382,9 +364,60 @@ microd.nodes[51618820] = Treasure({
 }) -- Template Archive
 
 -------------------------------------------------------------------------------
+
+map.nodes[60022583] = Treasure({
+    quest = 65611,
+    requires = ns.requirement.Item(190197), -- Sandworn Chest Key
+    label = 'Sandworn Chest',
+    note = 'Loot 5x {item:190198} from mobs in the area to construct the {item:190197}.',
+    rewards = {
+        ns.reward.Item({item = 190189, note = '5x'}) -- Sandworn Relic
+    }
+}) -- Sandworn Chest (not localizing until purpose is known)
+
+-------------------------------------------------------------------------------
+----------------------------------- CACHES ------------------------------------
+-------------------------------------------------------------------------------
+
+-- Treasures that give 2x cyphers and flip no quest id
+local Cache = Class('Cache', ns.node.Node, {
+    group = ns.groups.ZERETH_CACHE,
+    icon = 'chest_gy',
+    scale = 0.8,
+    fgroup = 'zereth_cache'
+})
+
+map.nodes[59106467] = Cache({label = L['cache_avian_nest']})
+
+map.nodes[37853246] = Cache({label = L['cache_cypher_bound']})
+map.nodes[38113112] = Cache({label = L['cache_cypher_bound']})
+map.nodes[39835646] = Cache({label = L['cache_cypher_bound']})
+map.nodes[42792135] = Cache({label = L['cache_cypher_bound']})
+map.nodes[44815079] = Cache({label = L['cache_cypher_bound']})
+map.nodes[52045296] = Cache({label = L['cache_cypher_bound']})
+map.nodes[52075444] = Cache({labeel = L['cache_cypher_bound']})
+map.nodes[54027253] = Cache({label = L['cache_cypher_bound']})
+map.nodes[54326958] = Cache({label = L['cache_cypher_bound']})
+map.nodes[59326420] = Cache({label = L['cache_cypher_bound']})
+map.nodes[60866960] = Cache({label = L['cache_cypher_bound']})
+map.nodes[65553675] = Cache({label = L['cache_cypher_bound']})
+map.nodes[66843569] = Cache({label = L['cache_cypher_bound']})
+
+map.nodes[48834480] = Cache({label = L['cache_discarded_automa']})
+map.nodes[58966093] = Cache({label = L['cache_discarded_automa']})
+map.nodes[65764042] = Cache({label = L['cache_discarded_automa']})
+
+map.nodes[56542540] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[69083683] = Cache({label = L['cache_forgotten_vault']})
+
+map.nodes[47394352] = Cache({label = L['cache_mawsworn_supply']})
+map.nodes[59841661] = Cache({label = L['cache_mawsworn_supply']})
+map.nodes[62952498] = Cache({label = L['cache_mawsworn_supply']})
+
+map.nodes[54253357] = Cache({label = L['cache_tarachnid_eggs']})
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
--- 43042150 Mysterious Cypher (spell=363311, "barrier")
--- 44872237 Mysterious Cypher (spell=363345, "barrier")
 -- 68695320 Interior Locus Arrangement (quest=65330)
