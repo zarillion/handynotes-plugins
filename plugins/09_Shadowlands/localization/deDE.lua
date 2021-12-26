@@ -686,9 +686,10 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 L['corrupted_architect_note'] = nil
 L['garudeon_note'] = nil
 L['protector_first_ones_note'] = nil
+L['zatojin_note'] = nil
 
 L['mistaken_ovoid_note'] = nil
-L['stolen_relic_note'] = nil
+L['sphere_treasure_note'] = nil
 L['symphonic_vault_note'] = nil
 L['template_archive_note'] = nil
 
@@ -699,5 +700,12 @@ L['cache_forgotten_vault'] = nil
 L['cache_mawsworn_supply'] = nil
 L['cache_tarachnid_eggs'] = nil
 
+L['cache_cantaric'] = nil
+L['cache_fugueal'] = nil
+L['cache_mezzonic'] = nil
+L['cache_glissandian'] = nil
+
+L['options_icons_puzzle_caches'] = nil
+L['options_icons_puzzle_caches_desc'] = nil
 L['options_icons_zereth_caches'] = nil
 L['options_icons_zereth_caches_desc'] = nil
