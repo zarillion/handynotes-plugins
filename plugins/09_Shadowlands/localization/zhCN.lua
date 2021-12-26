@@ -679,9 +679,18 @@ L['tormentors_note'] = [[
 L['corrupted_architect_note'] = '攻击 {npc:183958} 和 {npc:183961} 激活稀有。'
 L['garudeon_note'] = nil
 L['protector_first_ones_note'] = nil
-L['sand_matriarch_note'] = '击杀 {npc:182434} 激活稀有。'
 
 L['mistaken_ovoid_note'] = nil
 L['stolen_relic_note'] = '小心跳上球体直到到达顶部。'
 L['symphonic_vault_note'] = '检查 {npc:183998} 听四个声音顺序。房间内每个 {npc:183950} 播放一个声音。按照匹配顺序与他们互动以解锁宝箱。'
 L['template_archive_note'] = '推动房间内 {npc:183339} 到 {npc:183337} 阻挡路径获得宝物。'
+
+L['cache_avian_nest'] = nil
+L['cache_cypher_bound'] = nil
+L['cache_discarded_automa'] = nil
+L['cache_forgotten_vault'] = nil
+L['cache_mawsworn_supply'] = nil
+L['cache_tarachnid_eggs'] = nil
+
+L['options_icons_zereth_caches'] = nil
+L['options_icons_zereth_caches_desc'] = nil

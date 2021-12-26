@@ -679,9 +679,18 @@ The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 L['corrupted_architect_note'] = 'Engage {npc:183958} and {npc:183961} to activate the rare.'
 L['garudeon_note'] = 'Collect {npc:183562s} from the surrounding area and use {spell:362655} to feed the {npc:183554s}. Once all three are fed, {npc:180924} will activate.'
 L['protector_first_ones_note'] = 'Requires two people. Bring the matching runes to each console (found in the surrounding area) to open the barrier.'
-L['sand_matriarch_note'] = 'Kill the {npc:182434s} to activate the rare.'
 
 L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern, behind the balls.'
 L['stolen_relic_note'] = 'Carefully jump up the spheres until you reach the top.'
 L['symphonic_vault_note'] = 'Examine the {npc:183998} to hear a sequence of four sounds. Each {npc:183950} in the room plays a single sound. Interact with them in the matching order to unlock the treasure.'
 L['template_archive_note'] = 'Push the {npc:183339} in the room into the {npc:183337} blocking the path to the treasure.'
+
+L['cache_avian_nest'] = 'Avian Nest'
+L['cache_cypher_bound'] = 'Cypher Bound Chest'
+L['cache_discarded_automa'] = 'Discarded Automa Scrap'
+L['cache_forgotten_vault'] = 'Forgotten Treasure Vault'
+L['cache_mawsworn_supply'] = 'Mawsworn Supply Chest'
+L['cache_tarachnid_eggs'] = 'Tarachnid Eggs'
+
+L['options_icons_zereth_caches'] = 'Cypher Caches'
+L['options_icons_zereth_caches_desc'] = 'Display possible locations for cypher caches.'
