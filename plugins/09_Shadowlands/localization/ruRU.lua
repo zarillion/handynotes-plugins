@@ -691,7 +691,7 @@ L['template_archive_note'] = 'Нажмите на {npc:183339} в комнате
 L['undulating_foliage_note'] = nil
 
 L['cache_avian_nest'] = nil
-L['cache_cypher_bound'] = nil
+L['cache_cypher_bound'] = 'Защищенный шифром сундук'
 L['cache_discarded_automa'] = nil
 L['cache_forgotten_vault'] = nil
 L['cache_mawsworn_supply'] = nil
