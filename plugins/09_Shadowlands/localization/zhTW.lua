@@ -683,6 +683,9 @@ L['protector_first_ones_note'] = nil
 L['the_engulfer_note'] = nil
 L['zatojin_note'] = nil
 
+L['crushed_crate_note'] = nil
+L['forgotten_protovault_note'] = nil
+L['library_vault_note'] = nil
 L['mistaken_ovoid_note'] = nil
 L['sphere_treasure_note'] = nil
 L['symphonic_vault_note'] = nil

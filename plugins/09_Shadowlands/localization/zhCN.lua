@@ -683,6 +683,9 @@ L['protector_first_ones_note'] = nil
 L['the_engulfer_note'] = nil
 L['zatojin_note'] = nil
 
+L['crushed_crate_note'] = nil
+L['forgotten_protovault_note'] = nil
+L['library_vault_note'] = nil
 L['mistaken_ovoid_note'] = nil
 L['sphere_treasure_note'] = '小心跳上球体直到到达顶部。'
 L['symphonic_vault_note'] = '检查 {npc:183998} 听四个声音顺序。房间内每个 {npc:183950} 播放一个声音。按照匹配顺序与他们互动以解锁宝箱。'

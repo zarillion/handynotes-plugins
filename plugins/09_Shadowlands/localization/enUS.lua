@@ -683,6 +683,9 @@ L['protector_first_ones_note'] = 'Requires two people. Bring the matching runes 
 L['the_engulfer_note'] = 'Defend {npc:183505} until {npc:183516} jumps out of the rift.'
 L['zatojin_note'] = 'Pull nearby {npc:183721s} and let them apply 20 stacks of {spell:362976} until you are {spell:362983}. You must be standing over the {npc:183774} corpses when you are paralyzed for {npc:183764} to notice you.'
 
+L['crushed_crate_note'] = 'Loot the {item:189767} from the indent in the large orb to the north. Give it to {npc:185151} in exchange for the {item:189768} which can break the fallen rocks.'
+L['forgotten_protovault_note'] = 'Only available during the {wq:Frog\'it} world quest.'
+L['library_vault_note'] = 'Click tablets in the Lexical Grotto until you find the correct {spell:362062} buff to open the vault.'
 L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern, behind the balls.'
 L['sphere_treasure_note'] = 'Carefully jump up the spheres until you reach the treasure.'
 L['symphonic_vault_note'] = 'Examine the {npc:183998} to hear a sequence of four sounds. Each {npc:183950} in the room plays a single sound. Interact with them in the matching order to unlock the treasure.'
