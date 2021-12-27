@@ -678,14 +678,17 @@ L['tormentors_note'] = [[
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = nil
+L['furidian_note'] = nil
 L['garudeon_note'] = nil
 L['protector_first_ones_note'] = nil
+L['the_engulfer_note'] = nil
 L['zatojin_note'] = nil
 
 L['mistaken_ovoid_note'] = nil
 L['sphere_treasure_note'] = 'Осторожно прыгайте по сферам, пока не доберетесь до вершины.'
 L['symphonic_vault_note'] = nil
 L['template_archive_note'] = 'Нажмите на {npc:183339} в комнате с {npc:183337}, блокирующую путь к сокровищу.'
+L['undulating_foliage_note'] = nil
 
 L['cache_avian_nest'] = nil
 L['cache_cypher_bound'] = nil
@@ -696,8 +699,9 @@ L['cache_tarachnid_eggs'] = nil
 
 L['cache_cantaric'] = nil
 L['cache_fugueal'] = nil
-L['cache_mezzonic'] = nil
 L['cache_glissandian'] = nil
+L['cache_mezzonic'] = nil
+L['cache_toccatian'] = nil
 
 L['options_icons_puzzle_caches'] = nil
 L['options_icons_puzzle_caches_desc'] = nil

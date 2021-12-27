@@ -677,14 +677,24 @@ The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Engage {npc:183958} and {npc:183961} to activate the rare.'
+L['furidian_note'] = 'Interact with the |cFFFFFD00Suspiciously Angry Vault|r.'
 L['garudeon_note'] = 'Collect {npc:183562s} from the surrounding area and use {spell:362655} to feed the {npc:183554s}. Once all three are fed, {npc:180924} will activate.'
 L['protector_first_ones_note'] = 'Requires two people. Bring the matching runes to each console (found in the surrounding area) to open the barrier.'
+L['the_engulfer_note'] = 'Defend {npc:183505} until {npc:183516} jumps out of the rift.'
 L['zatojin_note'] = 'Pull nearby {npc:183721s} and let them apply 20 stacks of {spell:362976} until you are {spell:362983}. You must be standing over the {npc:183774} corpses when you are paralyzed for {npc:183764} to notice you.'
 
 L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern, behind the balls.'
 L['sphere_treasure_note'] = 'Carefully jump up the spheres until you reach the treasure.'
 L['symphonic_vault_note'] = 'Examine the {npc:183998} to hear a sequence of four sounds. Each {npc:183950} in the room plays a single sound. Interact with them in the matching order to unlock the treasure.'
 L['template_archive_note'] = 'Push the {npc:183339} in the room into the {npc:183337} blocking the path to the treasure.'
+L['undulating_foliage_note'] = [[
+Press the four {npc:185390s} to activate the teleporter in the center room of the Catalyst Wards.
+
+• Outside behind the |cFFFFFD00Catalyst Wards Lock|r
+• In the south-west room of the wards
+• In the southern room with {npc:181652}
+• In the south-east room of the wards
+]]
 
 L['cache_avian_nest'] = 'Avian Nest'
 L['cache_cypher_bound'] = 'Cypher Bound Chest'
@@ -695,8 +705,9 @@ L['cache_tarachnid_eggs'] = 'Tarachnid Eggs'
 
 L['cache_cantaric'] = 'Cantaric Cache'
 L['cache_fugueal'] = 'Fugueal Cache'
-L['cache_mezzonic'] = 'Mezzonic Cache'
 L['cache_glissandian'] = 'Glissandian Cache'
+L['cache_mezzonic'] = 'Mezzonic Cache'
+L['cache_toccatian'] = 'Toccatian Cache'
 
 L['options_icons_puzzle_caches'] = 'Puzzle Caches'
 L['options_icons_puzzle_caches_desc'] = 'Display locations of puzzle caches.'
