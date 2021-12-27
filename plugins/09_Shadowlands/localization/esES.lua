@@ -684,6 +684,9 @@ L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas corresp
 L['the_engulfer_note'] = nil
 L['zatojin_note'] = nil
 
+L['crushed_crate_note'] = nil
+L['forgotten_protovault_note'] = nil
+L['library_vault_note'] = nil
 L['mistaken_ovoid_note'] = 'Dentro de la caverna Cataratas Dimensionales, detrás de las bolas.'
 L['sphere_treasure_note'] = 'Salta las esferas con cuidado hasta llegar arriba.'
 L['symphonic_vault_note'] = 'Examina al {npc:183998} para escuchar una secuencia de cuatro sonidos. Cada {npc:183950} de la sala reproduce un sonido. Interactúa con ellas en el orden adecuado para desbloquear el tesoro.'

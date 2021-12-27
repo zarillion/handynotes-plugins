@@ -116,6 +116,16 @@ map.nodes[53089305] = Rare({
     }
 }) -- Gluttonous Overgrowth
 
+map.nodes[80384706] = Rare({
+    id = 178963,
+    quest = 63988,
+    rewards = {
+        Achievement({id = 15391, criteria = 52986}), -- Adventurer of Zereth Mortis
+        Transmog({item = 190001, slot = L['shield']}) -- Gorkek's Glistening Throatguard
+    },
+    pois = {Path({80324594, 80384706, 80844886})}
+}) -- Gorkek
+
 map.nodes[52612503] = Rare({
     id = 178563,
     quest = nil,
@@ -133,14 +143,15 @@ map.nodes[52287541] = Rare({
     }
 }) -- Hirukon
 
-microd.nodes[38100710] = Rare({
+map.nodes[58654039] = Rare({
     id = 183814,
-    parent = map.id,
-    quest = nil,
+    quest = 65257,
+    note = L['in_small_cave'],
     rewards = {
-        -- Achievement?
+        Achievement({id = 15391, criteria = 53046}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189909, slot = L['cloth']}) -- Pantaloons of Cold Recesses
     }
-}) -- Interred Colossus
+}) -- Otaris the Provoked
 
 map.nodes[54083493] = Rare({
     id = 178508,
@@ -153,9 +164,11 @@ map.nodes[54083493] = Rare({
 
 map.nodes[57998454] = Rare({
     id = 179043,
-    quest = nil,
+    quest = 65582,
     rewards = {
-        Achievement({id = 15391, criteria = 52981}) -- Adventurer of Zereth Mortis
+        Achievement({id = 15391, criteria = 52981}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189912, slot = L['cloth']}), -- Orixal's Moist Sash
+        Transmog({item = 189952, slot = L['plate']}) -- Celestial Mollusk's Chestshell
     },
     pois = {Path({57998454, 57968395, 58558374, 58808289})}
 }) -- Orixal
@@ -231,6 +244,15 @@ map.nodes[43947530] = Rare({
     }
 }) -- The Engulfer
 
+map.nodes[58186837] = Rare({
+    id = 183748,
+    quest = 65551,
+    rewards = {
+        Achievement({id = 15391, criteria = 53050}), -- Adventurer of Zereth Mortis
+        Transmog({item = 190056, slot = L['offhand']}) -- Enlightened Explorer's Lantern
+    }
+}) -- The Unbroken
+
 map.nodes[39555737] = Rare({
     id = 181360,
     quest = 65239,
@@ -272,14 +294,28 @@ map.nodes[43513294] = Rare({
 
 -- Unknown/Mystery Treasures:
 -- 42025181 Provis Cache (requires Provis Cache Key)
--- 60011798 Domination Cache (second one? this one requires Dominance Key)
--- 60022583 Sandworn Chest (quest=65611) (requires 5x 190198 => 1x 190197) (dropped 5x 190189)
 
-map.nodes[56746416] = Treasure({
+map.nodes[61163709] = Treasure({
     quest = nil,
     rewards = {
-        Achievement({id = 15331, criteria = 53054}) -- Treasures of Zereth Mortis
+        Achievement({id = 15331, criteria = 53053}) -- Treasures of Zereth Mortis
     }
+}) -- Architect's Reserve
+
+-- map.nodes[] = Treasure({
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 15331, criteria = 53071}) -- Treasures of Zereth Mortis
+--     }
+-- }) -- Bushel of Progenitor Produce
+
+map.nodes[56746416] = Treasure({
+    quest = 65489,
+    note = L['crushed_crate_note'],
+    rewards = {
+        Achievement({id = 15331, criteria = 53054}) -- Treasures of Zereth Mortis
+    },
+    pois = {POI({57656236})} -- Repair Tool
 }) -- Crushed Supply Crate
 
 map.nodes[38253724] = Treasure({
@@ -288,6 +324,14 @@ map.nodes[38253724] = Treasure({
         Achievement({id = 15331, criteria = 52965}) -- Treasures of Zereth Mortis
     }
 }) -- Damaged Jiro Stash
+
+map.nodes[60011798] = Treasure({
+    quest = nil,
+    requires = ns.requirement.Item(189704),
+    rewards = {
+        Achievement({id = 15331, criteria = 53018}) -- Treasures of Zereth Mortis
+    }
+}) -- Domination Cache
 
 -- Probably requires activation of Coreless Aurelid (185282) 34497053
 map.nodes[35167020] = Treasure({
@@ -312,6 +356,21 @@ map.nodes[49758723] = Treasure({
     }
 }) -- Filched Artifact
 
+map.nodes[67016935] = Treasure({
+    quest = nil,
+    note = L['forgotten_protovault_note'],
+    rewards = {
+        Achievement({id = 15331, criteria = 52967}) -- Treasures of Zereth Mortis
+    }
+}) -- Forgotten Proto-Vault
+
+map.nodes[77535820] = Treasure({
+    quest = 65565,
+    rewards = {
+        Achievement({id = 15331, criteria = 53068}) -- Treasures of Zereth Mortis
+    }
+}) -- Fractal Sealed Vault
+
 map.nodes[38977321] = Treasure({
     quest = 65480,
     rewards = {
@@ -319,8 +378,16 @@ map.nodes[38977321] = Treasure({
     }
 }) -- Gnawed Valise
 
+-- map.nodes[] = Treasure({
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 15331, criteria = 53066}) -- Treasures of Zereth Mortis
+--     }
+-- }) -- Grateful Boon
+
 map.nodes[58847706] = Treasure({
-    quest = 64667,
+    quest = 65173,
+    note = L['library_vault_note'],
     rewards = {
         Achievement({id = 15331, criteria = 52887}) -- Treasures of Zereth Mortis
     },
@@ -356,6 +423,13 @@ map.nodes[35244411] = Treasure({
     }
 }) -- Overgrown Protofruit
 
+map.nodes[60874295] = Treasure({
+    quest = 65542,
+    rewards = {
+        Achievement({id = 15331, criteria = 53064}) -- Treasures of Zereth Mortis
+    }
+}) -- Pilfered Curio
+
 map.nodes[52577147] = Treasure({
     quest = 65546,
     rewards = {
@@ -369,6 +443,13 @@ map.nodes[46643094] = Treasure({
         Achievement({id = 15331, criteria = 53063}) -- Treasures of Zereth Mortis
     }
 }) -- Protomineral Extractor
+
+-- map.nodes[] = Treasure({
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 15331, criteria = 53051}) -- Treasures of Zereth Mortis
+--     }
+-- }) -- Pulp-Covered Relic
 
 map.nodes[37906520] = Treasure({
     quest = 65447,
@@ -385,6 +466,13 @@ map.nodes[34046764] = Treasure({
     },
     pois = {Path({34046764, 33636720, 33566585, 33466475})}
 }) -- Stolen Scroll
+
+-- map.nodes[] = Treasure({
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 15331, criteria = 52964}) -- Treasures of Zereth Mortis
+--     }
+-- }) -- Submerged Chest
 
 -- Not going to give answer in the note for now, instead I explain how to solve it
 -- Solution: 183951 (se) => 183950 (nw) => 183948 (sw) => 183952 (ne)
@@ -428,9 +516,16 @@ map.nodes[51687956] = Class('Foliage', Treasure,
     }
 }) -- Undulating Foliage
 
+-- map.nodes[] = Treasure({
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 15331, criteria = 53069}) -- Treasures of Zereth Mortis
+--     }
+-- }) -- Unpollinated Bud
+
 -------------------------------------------------------------------------------
 
-map.nodes[60022583] = Treasure({
+local SANDWORN = Treasure({
     quest = 65611,
     requires = ns.requirement.Item(190197), -- Sandworn Chest Key
     label = 'Sandworn Chest',
@@ -440,9 +535,14 @@ map.nodes[60022583] = Treasure({
     }
 }) -- Sandworn Chest (not localizing until purpose is known)
 
+map.nodes[60022583] = SANDWORN
+map.nodes[60863786] = SANDWORN
+
 -------------------------------------------------------------------------------
 -------------------------------- CYPHER CACHES --------------------------------
 -------------------------------------------------------------------------------
+
+-- quest=65115?
 
 -- Treasures that give 2x cyphers and flip no quest id
 local Cache = Class('CypherCache', ns.node.Node, {
@@ -452,10 +552,17 @@ local Cache = Class('CypherCache', ns.node.Node, {
     fgroup = 'zereth_cache'
 })
 
+map.nodes[40455663] = Cache({label = L['cache_avian_nest']})
 map.nodes[42327311] = Cache({label = L['cache_avian_nest']})
+map.nodes[43274369] = Cache({label = L['cache_avian_nest']})
 map.nodes[48196646] = Cache({label = L['cache_avian_nest']})
+map.nodes[51106454] = Cache({label = L['cache_avian_nest']})
+map.nodes[54298169] = Cache({label = L['cache_avian_nest']})
 map.nodes[55185594] = Cache({label = L['cache_avian_nest']})
+map.nodes[56647484] = Cache({label = L['cache_avian_nest']})
 map.nodes[59106467] = Cache({label = L['cache_avian_nest']})
+map.nodes[76305020] = Cache({label = L['cache_avian_nest']})
+map.nodes[76895037] = Cache({label = L['cache_avian_nest']})
 
 map.nodes[37853246] = Cache({label = L['cache_cypher_bound']})
 map.nodes[38044543] = Cache({label = L['cache_cypher_bound']})
@@ -473,18 +580,32 @@ map.nodes[47044529] = Cache({label = L['cache_cypher_bound']})
 map.nodes[47702634] = Cache({label = L['cache_cypher_bound']})
 map.nodes[47766683] = Cache({label = L['cache_cypher_bound']})
 map.nodes[48976532] = Cache({label = L['cache_cypher_bound']})
+map.nodes[48993205] = Cache({label = L['cache_cypher_bound']})
+map.nodes[49606573] = Cache({label = L['cache_cypher_bound']})
+map.nodes[49970368] = Cache({label = L['cache_cypher_bound']})
+map.nodes[50544680] = Cache({label = L['cache_cypher_bound']})
+map.nodes[51914364] = Cache({label = L['cache_cypher_bound']})
 map.nodes[52045296] = Cache({label = L['cache_cypher_bound']})
 map.nodes[52075444] = Cache({label = L['cache_cypher_bound']})
+map.nodes[52456163] = Cache({label = L['cache_cypher_bound']})
+map.nodes[52707519] = Cache({label = L['cache_cypher_bound']})
 map.nodes[53066373] = Cache({label = L['cache_cypher_bound']})
 map.nodes[53469408] = Cache({label = L['cache_cypher_bound']})
 map.nodes[54027253] = Cache({label = L['cache_cypher_bound']})
 map.nodes[54247629] = Cache({label = L['cache_cypher_bound']})
 map.nodes[54326958] = Cache({label = L['cache_cypher_bound']})
+map.nodes[57198183] = Cache({label = L['cache_cypher_bound']})
+map.nodes[58462026] = Cache({label = L['cache_cypher_bound']})
 map.nodes[59326420] = Cache({label = L['cache_cypher_bound']})
+map.nodes[59777940] = Cache({label = L['cache_cypher_bound']})
 map.nodes[60866960] = Cache({label = L['cache_cypher_bound']})
 map.nodes[61444816] = Cache({label = L['cache_cypher_bound']})
+map.nodes[62931954] = Cache({label = L['cache_cypher_bound']})
 map.nodes[65553675] = Cache({label = L['cache_cypher_bound']})
 map.nodes[66843569] = Cache({label = L['cache_cypher_bound']})
+map.nodes[77574508] = Cache({label = L['cache_cypher_bound']})
+map.nodes[77934573] = Cache({label = L['cache_cypher_bound']})
+
 microd.nodes[62764399] = Cache({
     label = L['cache_cypher_bound'],
     parent = map.id
@@ -494,20 +615,34 @@ map.nodes[40657591] = Cache({label = L['cache_discarded_automa']})
 map.nodes[44089028] = Cache({label = L['cache_discarded_automa']})
 map.nodes[48834480] = Cache({label = L['cache_discarded_automa']})
 map.nodes[58966093] = Cache({label = L['cache_discarded_automa']})
+map.nodes[59625113] = Cache({label = L['cache_discarded_automa']})
 map.nodes[65764042] = Cache({label = L['cache_discarded_automa']})
 
 map.nodes[36707142] = Cache({label = L['cache_forgotten_vault']})
 map.nodes[46459579] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[46854450] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[48891010] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[49567522] = Cache({label = L['cache_forgotten_vault']})
 map.nodes[50559346] = Cache({label = L['cache_forgotten_vault']})
 map.nodes[51177705] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[52002941] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[52315560] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[53875975] = Cache({label = L['cache_forgotten_vault']})
 map.nodes[56542540] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[58585707] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[65236419] = Cache({label = L['cache_forgotten_vault']})
 map.nodes[69083683] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[75766263] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[78215435] = Cache({label = L['cache_forgotten_vault']})
 
+map.nodes[45820524] = Cache({label = L['cache_mawsworn_supply']})
 map.nodes[47394352] = Cache({label = L['cache_mawsworn_supply']})
+map.nodes[58444036] = Cache({label = L['cache_mawsworn_supply']})
 map.nodes[59841661] = Cache({label = L['cache_mawsworn_supply']})
 map.nodes[62952498] = Cache({label = L['cache_mawsworn_supply']})
 
 map.nodes[54253357] = Cache({label = L['cache_tarachnid_eggs']})
+map.nodes[55263288] = Cache({label = L['cache_tarachnid_eggs']})
 
 -------------------------------------------------------------------------------
 -------------------------------- PUZZLE CACHES --------------------------------
@@ -520,12 +655,16 @@ local Puzzle = Class('PuzzleCache', ns.node.Node, {
 
 })
 
+map.nodes[38546364] = Puzzle({quest = 65094, label = L['cache_cantaric']})
 map.nodes[44767608] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[52984558] = Puzzle({quest = 65416, label = L['cache_cantaric']}) -- 65418
 map.nodes[39184665] = Puzzle({quest = 65322, label = L['cache_fugueal']})
+map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
 map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
+map.nodes[39346043] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[43624033] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
 map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
+map.nodes[64695282] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
 map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
 
 -------------------------------------------------------------------------------
@@ -540,10 +679,12 @@ map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
 
 -- 39144256 Echoed Jiro Creatii (184942)
 -- 53634382 Echoed Jiro Creatii (184945)
+-- 52406156 Echoed Jiro Creatii (184939)
 -- ???????? Echoed Jiro Genesii (183262) -- Increased Progenium Essentia from gathering and treasures (spell=362022, 15m)
 -- 46656747 Echoed Jiro Genesii (183262) -- Increased Progenium Essentia from gathering and treasures (spell=362022, 15m)
 -- 38313215 Echoed Jiro Genesii (184943)
 -- 63675613 Echoed Jiro Genesii (184940)
+-- 52482899 Echoed Jiro Genesii (184946)
 -- 42883191 Echoed Jiro Nascii (184944)
 
 -------------------------------------------------------------------------------
@@ -555,8 +696,15 @@ map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
 -- 50405096 Excitable Concordance
 -- 64616035 Excitable Concordance
 -- 35037144 Mercurial Concordance
+-- 51579134 Mercurial Concordance
+-- 64262397 Mercurial Concordance
 -- 38844857 Tranquil Concordance (quest=65212)
 -- 49367149 Tranquil Concordance (quest=65209)
 -- 60204707 Tranquil Concordance (quest=65215)
 
 -- 68695320 Interior Locus Arrangement (quest=65330)
+-- 50852686 Quartus Locus Arrangement (quest=65340)
+-- 48513388 Primus Locus Arrangement (quest=65337)
+-- 48523035 Quintus Locus Arrangement (quest=65341)
+-- 48322984 Tertius Locus Arrangement (quest=65338)
+-- 49903233 Ultimus Locus Arrangement (quest=65342)
