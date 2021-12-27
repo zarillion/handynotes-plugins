@@ -678,20 +678,27 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
-L['furidian_note'] = nil
+L['furidian_note'] = 'Interactúa con  la |cFFFFFD00Cámara Sospechosamente Enfadada|r.'
 L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
-L['the_engulfer_note'] = nil
-L['zatojin_note'] = nil
+L['the_engulfer_note'] = 'Defiende a {npc:183505} hasta que {npc:183516} salte de la grieta.'
+L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar sobre los cuerpos de los {npc:183774} cuando seas paralizado para que {npc:183764} se fije en ti.'
 
-L['crushed_crate_note'] = nil
-L['forgotten_protovault_note'] = nil
-L['library_vault_note'] = nil
+L['crushed_crate_note'] = 'Despoja la {item:189767} de la hendidura sobre el gran orbe al norte. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
+L['forgotten_protovault_note'] = 'Sólo está disponible durante la misión del mundo {wq:A salto de rana}.'
+L['library_vault_note'] = 'Haz click en las tablillas de la Gruta del Léxico hasta que encuentres el orden correcto y ganes el buff {spell:362062} para abrir la cámara.'
 L['mistaken_ovoid_note'] = 'Dentro de la caverna Cataratas Dimensionales, detrás de las bolas.'
 L['sphere_treasure_note'] = 'Salta las esferas con cuidado hasta llegar arriba.'
 L['symphonic_vault_note'] = 'Examina al {npc:183998} para escuchar una secuencia de cuatro sonidos. Cada {npc:183950} de la sala reproduce un sonido. Interactúa con ellas en el orden adecuado para desbloquear el tesoro.'
 L['template_archive_note'] = 'Empuja el {npc:183339} de la sala dentro del {npc:183337} que bloquea el paso al tesoro.'
-L['undulating_foliage_note'] = nil
+L['undulating_foliage_note'] = [[
+Pulsa los cuatro {npc:185390} para activar el teleportador del centro de la sala de los Distritos Catalizadores.
+
+• Fuera y detrás del |cFFFFFD00Bloqueo de los Distritos Catalizadores|r
+• En la habitación suroeste de los distritos
+• En la habitación sur con el {npc:181652}
+• En la habitación sureste de los distritos
+]]
 
 L['cache_avian_nest'] = 'Nido Aviario'
 L['cache_cypher_bound'] = 'Cofre Reforzado con Clave'
@@ -700,13 +707,13 @@ L['cache_forgotten_vault'] = 'Cámara del Tesoro Olvidada'
 L['cache_mawsworn_supply'] = 'Cofre de Suministros Jurafauces'
 L['cache_tarachnid_eggs'] = 'Huevos de Tarácnido'
 
-L['cache_cantaric'] = nil
-L['cache_fugueal'] = nil
-L['cache_glissandian'] = nil
-L['cache_mezzonic'] = nil
-L['cache_toccatian'] = nil
+L['cache_cantaric'] = 'Alijo Cantárico'
+L['cache_fugueal'] = 'Alijo de Fuga'
+L['cache_glissandian'] = 'Alijo Glissadiano'
+L['cache_mezzonic'] = 'Alijo Mezzónico'
+L['cache_toccatian'] = 'Alijo Tocata'
 
-L['options_icons_puzzle_caches'] = nil
-L['options_icons_puzzle_caches_desc'] = nil
+L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
+L['options_icons_puzzle_caches_desc'] = 'Muestra los sitios de los alijos puzzle.'
 L['options_icons_zereth_caches'] = 'Cofres con Clave'
 L['options_icons_zereth_caches_desc'] = 'Muestra los sitios posibles para los cofres con clave.'
