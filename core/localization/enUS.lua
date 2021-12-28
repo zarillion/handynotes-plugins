@@ -44,6 +44,8 @@ L['activation_unknown'] = 'Activation unknown!'
 L['requirement_not_found'] = 'Requirement location unknown!'
 
 L['Requires'] = 'Requires'
+L['ranked_research'] = '%s (Rank %d/%d)'
+
 L['focus'] = 'Focus'
 L['retrieving'] = 'Retrieving item link ...'
 L['in_cave'] = 'In a cave.'

@@ -118,6 +118,7 @@ function Addon:OnLeave(mapID, coord)
     map:SetFocus(node, false, true)
     ns.MinimapDataProvider:RefreshAllData()
     ns.WorldMapDataProvider:RefreshAllData()
+    node:Unrender(GameTooltip)
     GameTooltip:Hide()
 end
 
