@@ -717,8 +717,12 @@ L['concordance_mercurial'] = 'Mercurial Concordance'
 L['concordance_tranquil'] = 'Tranquil Concordance'
 L['concordance_note'] = 'Read each concordance to unlock entries at the |cFFFFFD00Lore Console|r in |cFFFFFD00Exile\'s Hollow|r.'
 
+L['echoed_jiro_note'] = 'Spend {npc:181059} energy to gain temporary buffs. Requires |cFFFFFD00Creatian|r research at the {npc:181397}.'
+
 L['options_icons_concordances'] = 'Lore Concordances'
 L['options_icons_concordances_desc'] = 'Display locations of lore concordance consoles.'
+L['options_icons_echoed_jiros'] = 'Echoed Jiro'
+L['options_icons_echoed_jiros_desc'] = 'Display locations of |cFFFFFD00Echoed Jiro|r offering buffs.'
 L['options_icons_puzzle_caches'] = 'Puzzle Caches'
 L['options_icons_puzzle_caches_desc'] = 'Display locations of puzzle caches.'
 L['options_icons_zereth_caches'] = 'Cypher Caches'

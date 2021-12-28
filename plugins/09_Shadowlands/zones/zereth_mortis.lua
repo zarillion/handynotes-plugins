@@ -571,136 +571,125 @@ map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
 -------------------------------- CYPHER CACHES --------------------------------
 -------------------------------------------------------------------------------
 
+-- Treasures that give 2x cyphers and flip no quest id
 -- quest=65115?
 
--- Treasures that give 2x cyphers and flip no quest id
 local Cache = Class('CypherCache', ns.node.Node, {
     group = ns.groups.ZERETH_CACHE,
     icon = 'chest_gy',
-    scale = 0.8,
-    fgroup = 'zereth_cache'
+    scale = 0.8
 })
 
-map.nodes[40455663] = Cache({label = L['cache_avian_nest']})
-map.nodes[40685050] = Cache({label = L['cache_avian_nest']})
-map.nodes[42327311] = Cache({label = L['cache_avian_nest']})
-map.nodes[43274369] = Cache({label = L['cache_avian_nest']})
-map.nodes[44194279] = Cache({label = L['cache_avian_nest']})
-map.nodes[48196646] = Cache({label = L['cache_avian_nest']})
-map.nodes[51106454] = Cache({label = L['cache_avian_nest']})
-map.nodes[54298169] = Cache({label = L['cache_avian_nest']})
-map.nodes[55185594] = Cache({label = L['cache_avian_nest']})
-map.nodes[56647484] = Cache({label = L['cache_avian_nest']})
-map.nodes[59106467] = Cache({label = L['cache_avian_nest']})
-map.nodes[76305020] = Cache({label = L['cache_avian_nest']})
-map.nodes[76895037] = Cache({label = L['cache_avian_nest']})
+local AVIAN_NEST = Cache({label = L['cache_avian_nest']})
+local CYPHER_BOUND = Cache({label = L['cache_cypher_bound']})
+local DISCARDED_AUTOMA = Cache({label = L['cache_discarded_automa']})
+local FORGOTTEN_VAULT = Cache({label = L['cache_forgotten_vault']})
+local MAWSWORN_SUPPLY = Cache({label = L['cache_mawsworn_supply']})
+local TARACHNID_EGGS = Cache({label = L['cache_tarachnid_eggs']})
 
-map.nodes[36104309] = Cache({label = L['cache_cypher_bound']})
-map.nodes[37853246] = Cache({label = L['cache_cypher_bound']})
-map.nodes[38044543] = Cache({label = L['cache_cypher_bound']})
-map.nodes[38113112] = Cache({label = L['cache_cypher_bound']})
-map.nodes[38464188] = Cache({label = L['cache_cypher_bound']})
-map.nodes[39154226] = Cache({label = L['cache_cypher_bound']})
-map.nodes[39835646] = Cache({label = L['cache_cypher_bound']})
-map.nodes[42627646] = Cache({label = L['cache_cypher_bound']})
-map.nodes[42792135] = Cache({label = L['cache_cypher_bound']})
-map.nodes[43158972] = Cache({label = L['cache_cypher_bound']})
-map.nodes[44682237] = Cache({label = L['cache_cypher_bound']})
-map.nodes[44815079] = Cache({label = L['cache_cypher_bound']})
-map.nodes[45393141] = Cache({label = L['cache_cypher_bound']})
-map.nodes[47044529] = Cache({label = L['cache_cypher_bound']})
-map.nodes[47702634] = Cache({label = L['cache_cypher_bound']})
-map.nodes[47766683] = Cache({label = L['cache_cypher_bound']})
-map.nodes[48976532] = Cache({label = L['cache_cypher_bound']})
-map.nodes[48993205] = Cache({label = L['cache_cypher_bound']})
-map.nodes[49606573] = Cache({label = L['cache_cypher_bound']})
-map.nodes[49970368] = Cache({label = L['cache_cypher_bound']})
-map.nodes[50544680] = Cache({label = L['cache_cypher_bound']})
-map.nodes[51914364] = Cache({label = L['cache_cypher_bound']})
-map.nodes[52045296] = Cache({label = L['cache_cypher_bound']})
-map.nodes[52075444] = Cache({label = L['cache_cypher_bound']})
-map.nodes[52456163] = Cache({label = L['cache_cypher_bound']})
-map.nodes[52707519] = Cache({label = L['cache_cypher_bound']})
-map.nodes[53066373] = Cache({label = L['cache_cypher_bound']})
-map.nodes[53469408] = Cache({label = L['cache_cypher_bound']})
-map.nodes[54027253] = Cache({label = L['cache_cypher_bound']})
-map.nodes[54247629] = Cache({label = L['cache_cypher_bound']})
-map.nodes[54326958] = Cache({label = L['cache_cypher_bound']})
-map.nodes[57198183] = Cache({label = L['cache_cypher_bound']})
-map.nodes[58462026] = Cache({label = L['cache_cypher_bound']})
-map.nodes[59326420] = Cache({label = L['cache_cypher_bound']})
-map.nodes[59603260] = Cache({label = L['cache_cypher_bound']})
-map.nodes[59777940] = Cache({label = L['cache_cypher_bound']})
-map.nodes[60866960] = Cache({label = L['cache_cypher_bound']})
-map.nodes[61444816] = Cache({label = L['cache_cypher_bound']})
-map.nodes[62931954] = Cache({label = L['cache_cypher_bound']})
-map.nodes[65553675] = Cache({label = L['cache_cypher_bound']})
-map.nodes[66843569] = Cache({label = L['cache_cypher_bound']})
-map.nodes[77574508] = Cache({label = L['cache_cypher_bound']})
-map.nodes[77934573] = Cache({label = L['cache_cypher_bound']})
+map.nodes[40455663] = AVIAN_NEST
+map.nodes[40685050] = AVIAN_NEST
+map.nodes[42327311] = AVIAN_NEST
+map.nodes[43274369] = AVIAN_NEST
+map.nodes[44194279] = AVIAN_NEST
+map.nodes[48196646] = AVIAN_NEST
+map.nodes[51106454] = AVIAN_NEST
+map.nodes[54298169] = AVIAN_NEST
+map.nodes[55185594] = AVIAN_NEST
+map.nodes[56647484] = AVIAN_NEST
+map.nodes[59106467] = AVIAN_NEST
+map.nodes[76305020] = AVIAN_NEST
+map.nodes[76895037] = AVIAN_NEST
+
+map.nodes[36104309] = CYPHER_BOUND
+map.nodes[37853246] = CYPHER_BOUND
+map.nodes[38044543] = CYPHER_BOUND
+map.nodes[38113112] = CYPHER_BOUND
+map.nodes[38464188] = CYPHER_BOUND
+map.nodes[39154226] = CYPHER_BOUND
+map.nodes[39835646] = CYPHER_BOUND
+map.nodes[42627646] = CYPHER_BOUND
+map.nodes[42792135] = CYPHER_BOUND
+map.nodes[43158972] = CYPHER_BOUND
+map.nodes[44682237] = CYPHER_BOUND
+map.nodes[44815079] = CYPHER_BOUND
+map.nodes[45393141] = CYPHER_BOUND
+map.nodes[47044529] = CYPHER_BOUND
+map.nodes[47702634] = CYPHER_BOUND
+map.nodes[47766683] = CYPHER_BOUND
+map.nodes[48976532] = CYPHER_BOUND
+map.nodes[48993205] = CYPHER_BOUND
+map.nodes[49606573] = CYPHER_BOUND
+map.nodes[49970368] = CYPHER_BOUND
+map.nodes[50544680] = CYPHER_BOUND
+map.nodes[51914364] = CYPHER_BOUND
+map.nodes[52045296] = CYPHER_BOUND
+map.nodes[52075444] = CYPHER_BOUND
+map.nodes[52456163] = CYPHER_BOUND
+map.nodes[52707519] = CYPHER_BOUND
+map.nodes[53066373] = CYPHER_BOUND
+map.nodes[53469408] = CYPHER_BOUND
+map.nodes[54027253] = CYPHER_BOUND
+map.nodes[54247629] = CYPHER_BOUND
+map.nodes[54326958] = CYPHER_BOUND
+map.nodes[57198183] = CYPHER_BOUND
+map.nodes[58462026] = CYPHER_BOUND
+map.nodes[59326420] = CYPHER_BOUND
+map.nodes[59603260] = CYPHER_BOUND
+map.nodes[59777940] = CYPHER_BOUND
+map.nodes[60866960] = CYPHER_BOUND
+map.nodes[61444816] = CYPHER_BOUND
+map.nodes[62931954] = CYPHER_BOUND
+map.nodes[65553675] = CYPHER_BOUND
+map.nodes[66843569] = CYPHER_BOUND
+map.nodes[77574508] = CYPHER_BOUND
+map.nodes[77934573] = CYPHER_BOUND
+
+map.nodes[40657591] = DISCARDED_AUTOMA
+map.nodes[44089028] = DISCARDED_AUTOMA
+map.nodes[48834480] = DISCARDED_AUTOMA
+map.nodes[52344688] = DISCARDED_AUTOMA
+map.nodes[58966093] = DISCARDED_AUTOMA
+map.nodes[59625113] = DISCARDED_AUTOMA
+map.nodes[65764042] = DISCARDED_AUTOMA
+
+map.nodes[36707142] = FORGOTTEN_VAULT
+map.nodes[40434117] = FORGOTTEN_VAULT
+map.nodes[41196109] = FORGOTTEN_VAULT
+map.nodes[46459579] = FORGOTTEN_VAULT
+map.nodes[46854450] = FORGOTTEN_VAULT
+map.nodes[48891010] = FORGOTTEN_VAULT
+map.nodes[49567522] = FORGOTTEN_VAULT
+map.nodes[50559346] = FORGOTTEN_VAULT
+map.nodes[51177705] = FORGOTTEN_VAULT
+map.nodes[52002941] = FORGOTTEN_VAULT
+map.nodes[52315560] = FORGOTTEN_VAULT
+map.nodes[53875975] = FORGOTTEN_VAULT
+map.nodes[56542540] = FORGOTTEN_VAULT
+map.nodes[58585707] = FORGOTTEN_VAULT
+map.nodes[65236419] = FORGOTTEN_VAULT
+map.nodes[69083683] = FORGOTTEN_VAULT
+map.nodes[75766263] = FORGOTTEN_VAULT
+map.nodes[78215435] = FORGOTTEN_VAULT
+
+map.nodes[45820524] = MAWSWORN_SUPPLY
+map.nodes[47394352] = MAWSWORN_SUPPLY
+map.nodes[58444036] = MAWSWORN_SUPPLY
+map.nodes[59841661] = MAWSWORN_SUPPLY
+map.nodes[62952498] = MAWSWORN_SUPPLY
+
+map.nodes[54253357] = TARACHNID_EGGS
+map.nodes[55263288] = TARACHNID_EGGS
+
+-------------------------------------------------------------------------------
 
 microd.nodes[62764399] = Cache({
     label = L['cache_cypher_bound'],
     parent = map.id
 })
 
-map.nodes[40657591] = Cache({label = L['cache_discarded_automa']})
-map.nodes[44089028] = Cache({label = L['cache_discarded_automa']})
-map.nodes[48834480] = Cache({label = L['cache_discarded_automa']})
-map.nodes[52344688] = Cache({label = L['cache_discarded_automa']})
-map.nodes[58966093] = Cache({label = L['cache_discarded_automa']})
-map.nodes[59625113] = Cache({label = L['cache_discarded_automa']})
-map.nodes[65764042] = Cache({label = L['cache_discarded_automa']})
-
-map.nodes[36707142] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[40434117] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[41196109] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[46459579] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[46854450] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[48891010] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[49567522] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[50559346] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[51177705] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[52002941] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[52315560] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[53875975] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[56542540] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[58585707] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[65236419] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[69083683] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[75766263] = Cache({label = L['cache_forgotten_vault']})
-map.nodes[78215435] = Cache({label = L['cache_forgotten_vault']})
-
-map.nodes[45820524] = Cache({label = L['cache_mawsworn_supply']})
-map.nodes[47394352] = Cache({label = L['cache_mawsworn_supply']})
-map.nodes[58444036] = Cache({label = L['cache_mawsworn_supply']})
-map.nodes[59841661] = Cache({label = L['cache_mawsworn_supply']})
-map.nodes[62952498] = Cache({label = L['cache_mawsworn_supply']})
-
-map.nodes[54253357] = Cache({label = L['cache_tarachnid_eggs']})
-map.nodes[55263288] = Cache({label = L['cache_tarachnid_eggs']})
-
 -------------------------------------------------------------------------------
---------------------------------- ECHOED JIRO ---------------------------------
--------------------------------------------------------------------------------
-
--- Creatian (Metrial talent)
--- Rank 1 = SW
--- Rank 2 = SE
--- Rank 3 = NW
--- Rank 4 = NE
-
--- 39144256 Echoed Jiro Creatii (184942)
--- 53634382 Echoed Jiro Creatii (184945)
--- 52406156 Echoed Jiro Creatii (184939)
--- 46656747 Echoed Jiro Genesii (183262) -- Increased Progenium Essentia from gathering and treasures (spell=362022, 15m)
--- 38313215 Echoed Jiro Genesii (184943)
--- 63675613 Echoed Jiro Genesii (184940)
--- 52482899 Echoed Jiro Genesii (184946)
--- 42883191 Echoed Jiro Nascii (184944)
-
--------------------------------------------------------------------------------
--------------------------------- MISCELLANEOUS --------------------------------
+------------------------------ LORE CONCORDANCES ------------------------------
 -------------------------------------------------------------------------------
 
 -- NOTE: Quests may flip after you have read enough of them and are not necessarily
@@ -725,3 +714,67 @@ map.nodes[32196281] = Lore({label = L['concordance_tranquil']}) -- quest=64940
 map.nodes[38844857] = Lore({label = L['concordance_tranquil']}) -- quest=65212
 map.nodes[49367149] = Lore({label = L['concordance_tranquil']}) -- quest=65209
 map.nodes[60204707] = Lore({label = L['concordance_tranquil']}) -- quest=65215
+
+-------------------------------------------------------------------------------
+--------------------------------- ECHOED JIRO ---------------------------------
+-------------------------------------------------------------------------------
+
+-- Creatian (Metrial talent)
+-- Rank 1 = SW
+-- Rank 2 = SE
+-- Rank 3 = NW
+-- Rank 4 = NE
+
+local Jiro = Class('Jiro', ns.node.NPC, {
+    group = ns.groups.ECHOED_JIROS,
+    scale = 1.5,
+    note = L['echoed_jiro_note']
+})
+
+local Creatii = Class('Creatii', Jiro,
+    {spellID = 361831, icon = 'peg_gn', fgroup = 'creatii'})
+
+local Genesii = Class('Genesii', Jiro,
+    {spellID = 362022, icon = 'peg_bl', fgroup = 'genesii'})
+
+local Nascii_ = Class('Nascii', Jiro,
+    {spellID = 362023, icon = 'peg_rd', fgroup = 'nascii'})
+
+local CREATIAN_SW = ns.requirement.GarrisonTalentRank(1976, 1)
+local CREATIAN_SE = ns.requirement.GarrisonTalentRank(1976, 2)
+local CREATIAN_NW = ns.requirement.GarrisonTalentRank(1976, 3)
+local CREATIAN_NE = ns.requirement.GarrisonTalentRank(1976, 4)
+
+--------------------------------- SOUTH-WEST ----------------------------------
+
+map.nodes[40516076] = Creatii({id = 181571, requires = CREATIAN_SW})
+map.nodes[34635635] = Genesii({id = 183262, requires = CREATIAN_SW})
+map.nodes[46656747] = Genesii({id = 183262, requires = CREATIAN_SW})
+map.nodes[33185415] = Nascii_({id = 183263, requires = CREATIAN_SW})
+map.nodes[43806451] = Nascii_({id = 183263, requires = CREATIAN_SW})
+
+--------------------------------- SOUTH-EAST ----------------------------------
+
+map.nodes[52406156] = Creatii({id = 184939, requires = CREATIAN_SE})
+map.nodes[54485576] = Creatii({id = 184939, requires = CREATIAN_SE})
+map.nodes[49787650] = Genesii({id = 184940, requires = CREATIAN_SE})
+map.nodes[63675613] = Genesii({id = 184940, requires = CREATIAN_SE})
+map.nodes[54158396] = Nascii_({id = 184941, requires = CREATIAN_SE})
+map.nodes[57116139] = Nascii_({id = 184941, requires = CREATIAN_SE})
+
+--------------------------------- NORTH-WEST ----------------------------------
+
+map.nodes[39144256] = Creatii({id = 184942, requires = CREATIAN_NW})
+map.nodes[38313215] = Genesii({id = 184943, requires = CREATIAN_NW})
+map.nodes[45363878] = Genesii({id = 184943, requires = CREATIAN_NW})
+map.nodes[42744478] = Nascii_({id = 184944, requires = CREATIAN_NW})
+map.nodes[42883191] = Nascii_({id = 184944, requires = CREATIAN_NW})
+
+--------------------------------- NORTH-EAST ----------------------------------
+
+map.nodes[53634382] = Creatii({id = 184945, requires = CREATIAN_NE})
+map.nodes[56732609] = Creatii({id = 184945, requires = CREATIAN_NE})
+map.nodes[52482899] = Genesii({id = 184946, requires = CREATIAN_NE})
+map.nodes[63121948] = Genesii({id = 184946, requires = CREATIAN_NE})
+map.nodes[59713736] = Nascii_({id = 184947, requires = CREATIAN_NE})
+map.nodes[69743354] = Nascii_({id = 184947, requires = CREATIAN_NE})
