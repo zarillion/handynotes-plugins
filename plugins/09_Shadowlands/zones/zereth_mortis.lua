@@ -542,6 +542,32 @@ map.nodes[60863786] = SANDWORN
 map.nodes[63182603] = SANDWORN
 
 -------------------------------------------------------------------------------
+-------------------------------- PUZZLE CACHES --------------------------------
+-------------------------------------------------------------------------------
+
+local Puzzle = Class('PuzzleCache', ns.node.Node, {
+    group = ns.groups.PUZZLE_CACHE,
+    icon = 'star_chest_g',
+    scale = 1.2
+})
+
+map.nodes[38546364] = Puzzle({quest = 65094, label = L['cache_cantaric']})
+map.nodes[44767608] = Puzzle({quest = 65323, label = L['cache_cantaric']})
+map.nodes[47504622] = Puzzle({quest = 65323, label = L['cache_cantaric']})
+map.nodes[52984558] = Puzzle({quest = 65416, label = L['cache_cantaric']}) -- 65418
+map.nodes[39184665] = Puzzle({quest = 65322, label = L['cache_fugueal']})
+map.nodes[59712290] = Puzzle({quest = 65317, label = L['cache_fugueal']})
+map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
+map.nodes[51282573] = Puzzle({quest = 65412, label = L['cache_glissandian']}) -- 65418
+map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
+map.nodes[39346043] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
+map.nodes[43624033] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
+map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
+map.nodes[64695282] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
+map.nodes[37014645] = Puzzle({quest = 64972, label = L['cache_toccatian']})
+map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
+
+-------------------------------------------------------------------------------
 -------------------------------- CYPHER CACHES --------------------------------
 -------------------------------------------------------------------------------
 
@@ -653,32 +679,6 @@ map.nodes[62952498] = Cache({label = L['cache_mawsworn_supply']})
 
 map.nodes[54253357] = Cache({label = L['cache_tarachnid_eggs']})
 map.nodes[55263288] = Cache({label = L['cache_tarachnid_eggs']})
-
--------------------------------------------------------------------------------
--------------------------------- PUZZLE CACHES --------------------------------
--------------------------------------------------------------------------------
-
-local Puzzle = Class('PuzzleCache', ns.node.Node, {
-    group = ns.groups.PUZZLE_CACHE,
-    icon = 'star_chest_g',
-    scale = 1.2
-})
-
-map.nodes[38546364] = Puzzle({quest = 65094, label = L['cache_cantaric']})
-map.nodes[44767608] = Puzzle({quest = 65323, label = L['cache_cantaric']})
-map.nodes[47504622] = Puzzle({quest = 65323, label = L['cache_cantaric']})
-map.nodes[52984558] = Puzzle({quest = 65416, label = L['cache_cantaric']}) -- 65418
-map.nodes[39184665] = Puzzle({quest = 65322, label = L['cache_fugueal']})
-map.nodes[59712290] = Puzzle({quest = 65317, label = L['cache_fugueal']})
-map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
-map.nodes[51282573] = Puzzle({quest = 65412, label = L['cache_glissandian']}) -- 65418
-map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
-map.nodes[39346043] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
-map.nodes[43624033] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
-map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
-map.nodes[64695282] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
-map.nodes[37014645] = Puzzle({quest = 64972, label = L['cache_toccatian']})
-map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
 
 -------------------------------------------------------------------------------
 --------------------------------- ECHOED JIRO ---------------------------------
