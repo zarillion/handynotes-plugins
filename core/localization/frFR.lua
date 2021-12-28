@@ -44,6 +44,8 @@ L['activation_unknown'] = 'Activation inconnue'
 L['requirement_not_found'] = 'Emplacement requis inconnu'
 
 L['Requires'] = 'Requiert'
+L['ranked_research'] = nil
+
 L['focus'] = 'Focus'
 L['retrieving'] = 'Récupérer le lien de l\'article...'
 L['in_cave'] = 'Dans une grotte.'

@@ -44,6 +44,8 @@ L['activation_unknown'] = 'Aktivierung unbekannt!'
 L['requirement_not_found'] = 'Voraussetzungsort unbekannt!'
 
 L['Requires'] = 'Benötigt'
+L['ranked_research'] = nil
+
 L['focus'] = 'fokussieren'
 L['retrieving'] = 'Gegenstandslink wird abgerufen ...'
 L['in_cave'] = 'In einer Höhle.'
