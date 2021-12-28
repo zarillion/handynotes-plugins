@@ -560,6 +560,7 @@ map.nodes[59712290] = Puzzle({quest = 65317, label = L['cache_fugueal']})
 map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
 map.nodes[51282573] = Puzzle({quest = 65412, label = L['cache_glissandian']}) -- 65418
 map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
+map.nodes[38377037] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[39346043] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[43624033] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
 map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
@@ -748,6 +749,7 @@ local CREATIAN_NE = ns.requirement.GarrisonTalentRank(1976, 4)
 --------------------------------- SOUTH-WEST ----------------------------------
 
 map.nodes[40516076] = Creatii({id = 181571, requires = CREATIAN_SW})
+map.nodes[43638656] = Creatii({id = 181571, requires = CREATIAN_SW})
 map.nodes[34635635] = Genesii({id = 183262, requires = CREATIAN_SW})
 map.nodes[46656747] = Genesii({id = 183262, requires = CREATIAN_SW})
 map.nodes[33185415] = Nascii_({id = 183263, requires = CREATIAN_SW})
@@ -765,6 +767,7 @@ map.nodes[57116139] = Nascii_({id = 184941, requires = CREATIAN_SE})
 --------------------------------- NORTH-WEST ----------------------------------
 
 map.nodes[39144256] = Creatii({id = 184942, requires = CREATIAN_NW})
+map.nodes[39995148] = Creatii({id = 184942, requires = CREATIAN_NW})
 map.nodes[38313215] = Genesii({id = 184943, requires = CREATIAN_NW})
 map.nodes[45363878] = Genesii({id = 184943, requires = CREATIAN_NW})
 map.nodes[42744478] = Nascii_({id = 184944, requires = CREATIAN_NW})
