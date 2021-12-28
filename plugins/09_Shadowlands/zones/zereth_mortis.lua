@@ -539,6 +539,7 @@ local SANDWORN = Treasure({
 
 map.nodes[60022583] = SANDWORN
 map.nodes[60863786] = SANDWORN
+map.nodes[63182603] = SANDWORN
 
 -------------------------------------------------------------------------------
 -------------------------------- CYPHER CACHES --------------------------------
@@ -555,8 +556,10 @@ local Cache = Class('CypherCache', ns.node.Node, {
 })
 
 map.nodes[40455663] = Cache({label = L['cache_avian_nest']})
+map.nodes[40685050] = Cache({label = L['cache_avian_nest']})
 map.nodes[42327311] = Cache({label = L['cache_avian_nest']})
 map.nodes[43274369] = Cache({label = L['cache_avian_nest']})
+map.nodes[44194279] = Cache({label = L['cache_avian_nest']})
 map.nodes[48196646] = Cache({label = L['cache_avian_nest']})
 map.nodes[51106454] = Cache({label = L['cache_avian_nest']})
 map.nodes[54298169] = Cache({label = L['cache_avian_nest']})
@@ -566,6 +569,7 @@ map.nodes[59106467] = Cache({label = L['cache_avian_nest']})
 map.nodes[76305020] = Cache({label = L['cache_avian_nest']})
 map.nodes[76895037] = Cache({label = L['cache_avian_nest']})
 
+map.nodes[36104309] = Cache({label = L['cache_cypher_bound']})
 map.nodes[37853246] = Cache({label = L['cache_cypher_bound']})
 map.nodes[38044543] = Cache({label = L['cache_cypher_bound']})
 map.nodes[38113112] = Cache({label = L['cache_cypher_bound']})
@@ -599,6 +603,7 @@ map.nodes[54326958] = Cache({label = L['cache_cypher_bound']})
 map.nodes[57198183] = Cache({label = L['cache_cypher_bound']})
 map.nodes[58462026] = Cache({label = L['cache_cypher_bound']})
 map.nodes[59326420] = Cache({label = L['cache_cypher_bound']})
+map.nodes[59603260] = Cache({label = L['cache_cypher_bound']})
 map.nodes[59777940] = Cache({label = L['cache_cypher_bound']})
 map.nodes[60866960] = Cache({label = L['cache_cypher_bound']})
 map.nodes[61444816] = Cache({label = L['cache_cypher_bound']})
@@ -616,11 +621,14 @@ microd.nodes[62764399] = Cache({
 map.nodes[40657591] = Cache({label = L['cache_discarded_automa']})
 map.nodes[44089028] = Cache({label = L['cache_discarded_automa']})
 map.nodes[48834480] = Cache({label = L['cache_discarded_automa']})
+map.nodes[52344688] = Cache({label = L['cache_discarded_automa']})
 map.nodes[58966093] = Cache({label = L['cache_discarded_automa']})
 map.nodes[59625113] = Cache({label = L['cache_discarded_automa']})
 map.nodes[65764042] = Cache({label = L['cache_discarded_automa']})
 
 map.nodes[36707142] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[40434117] = Cache({label = L['cache_forgotten_vault']})
+map.nodes[41196109] = Cache({label = L['cache_forgotten_vault']})
 map.nodes[46459579] = Cache({label = L['cache_forgotten_vault']})
 map.nodes[46854450] = Cache({label = L['cache_forgotten_vault']})
 map.nodes[48891010] = Cache({label = L['cache_forgotten_vault']})
@@ -654,19 +662,22 @@ local Puzzle = Class('PuzzleCache', ns.node.Node, {
     group = ns.groups.PUZZLE_CACHE,
     icon = 'star_chest_g',
     scale = 1.2
-
 })
 
 map.nodes[38546364] = Puzzle({quest = 65094, label = L['cache_cantaric']})
 map.nodes[44767608] = Puzzle({quest = 65323, label = L['cache_cantaric']})
+map.nodes[47504622] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[52984558] = Puzzle({quest = 65416, label = L['cache_cantaric']}) -- 65418
 map.nodes[39184665] = Puzzle({quest = 65322, label = L['cache_fugueal']})
+map.nodes[59712290] = Puzzle({quest = 65317, label = L['cache_fugueal']})
 map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
+map.nodes[51282573] = Puzzle({quest = 65412, label = L['cache_glissandian']}) -- 65418
 map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
 map.nodes[39346043] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[43624033] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
 map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[64695282] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
+map.nodes[37014645] = Puzzle({quest = 64972, label = L['cache_toccatian']})
 map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
 
 -------------------------------------------------------------------------------
@@ -676,13 +687,12 @@ map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
 -- Creatian (Metrial talent)
 -- Rank 1 = SW
 -- Rank 2 = SE
--- Rank 3 = ??
--- Rank 4 = ??
+-- Rank 3 = NW
+-- Rank 4 = NE
 
 -- 39144256 Echoed Jiro Creatii (184942)
 -- 53634382 Echoed Jiro Creatii (184945)
 -- 52406156 Echoed Jiro Creatii (184939)
--- ???????? Echoed Jiro Genesii (183262) -- Increased Progenium Essentia from gathering and treasures (spell=362022, 15m)
 -- 46656747 Echoed Jiro Genesii (183262) -- Increased Progenium Essentia from gathering and treasures (spell=362022, 15m)
 -- 38313215 Echoed Jiro Genesii (184943)
 -- 63675613 Echoed Jiro Genesii (184940)
@@ -693,20 +703,25 @@ map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
--- Lore (Concordances) -- quests may flip after you have read enough of them, wasn't initially marking them
--- 38953127 Excitable Concordance
--- 50405096 Excitable Concordance
--- 64616035 Excitable Concordance
--- 35037144 Mercurial Concordance
--- 51579134 Mercurial Concordance
--- 64262397 Mercurial Concordance
--- 38844857 Tranquil Concordance (quest=65212)
--- 49367149 Tranquil Concordance (quest=65209)
--- 60204707 Tranquil Concordance (quest=65215)
+-- NOTE: Quests may flip after you have read enough of them and are not necessarily
+-- attached to individual objects. I wasn't initially marking them so we'll have to
+-- learn more.
 
--- 68695320 Interior Locus Arrangement (quest=65330)
--- 50852686 Quartus Locus Arrangement (quest=65340)
--- 48513388 Primus Locus Arrangement (quest=65337)
--- 48523035 Quintus Locus Arrangement (quest=65341)
--- 48322984 Tertius Locus Arrangement (quest=65338)
--- 49903233 Ultimus Locus Arrangement (quest=65342)
+local Lore = Class('Concordance', ns.node.Node, {
+    group = ns.groups.CONCORDANCES,
+    icon = 4238797,
+    note = L['concordance_note']
+})
+
+map.nodes[31775466] = Lore({label = L['concordance_excitable']})
+map.nodes[38953127] = Lore({label = L['concordance_excitable']})
+map.nodes[50405096] = Lore({label = L['concordance_excitable']})
+map.nodes[64616035] = Lore({label = L['concordance_excitable']})
+map.nodes[35037144] = Lore({label = L['concordance_mercurial']})
+map.nodes[39702572] = Lore({label = L['concordance_mercurial']})
+map.nodes[51579134] = Lore({label = L['concordance_mercurial']})
+map.nodes[64262397] = Lore({label = L['concordance_mercurial']})
+map.nodes[32196281] = Lore({label = L['concordance_tranquil']}) -- quest=64940
+map.nodes[38844857] = Lore({label = L['concordance_tranquil']}) -- quest=65212
+map.nodes[49367149] = Lore({label = L['concordance_tranquil']}) -- quest=65209
+map.nodes[60204707] = Lore({label = L['concordance_tranquil']}) -- quest=65215
