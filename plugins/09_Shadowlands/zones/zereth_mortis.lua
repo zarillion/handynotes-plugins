@@ -529,6 +529,7 @@ map.nodes[51687956] = Class('Foliage', Treasure,
 
 local SANDWORN = Treasure({
     quest = 65611,
+    icon = 'chest_yw',
     requires = ns.requirement.Item(190197), -- Sandworn Chest Key
     label = 'Sandworn Chest',
     note = 'Loot 5x {item:190198} from mobs in the area to construct the {item:190197}.',
@@ -539,6 +540,7 @@ local SANDWORN = Treasure({
 
 map.nodes[60022583] = SANDWORN
 map.nodes[60863786] = SANDWORN
+map.nodes[61401763] = SANDWORN
 map.nodes[63182603] = SANDWORN
 
 -------------------------------------------------------------------------------
@@ -555,6 +557,7 @@ map.nodes[38546364] = Puzzle({quest = 65094, label = L['cache_cantaric']})
 map.nodes[44767608] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[47504622] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[52984558] = Puzzle({quest = 65416, label = L['cache_cantaric']}) -- 65418
+map.nodes[65674096] = Puzzle({quest = 65406, label = L['cache_cantaric']}) -- 65418
 map.nodes[39184665] = Puzzle({quest = 65322, label = L['cache_fugueal']})
 map.nodes[59712290] = Puzzle({quest = 65317, label = L['cache_fugueal']})
 map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
@@ -588,6 +591,7 @@ local FORGOTTEN_VAULT = Cache({label = L['cache_forgotten_vault']})
 local MAWSWORN_SUPPLY = Cache({label = L['cache_mawsworn_supply']})
 local TARACHNID_EGGS = Cache({label = L['cache_tarachnid_eggs']})
 
+map.nodes[35495205] = AVIAN_NEST
 map.nodes[40455663] = AVIAN_NEST
 map.nodes[40685050] = AVIAN_NEST
 map.nodes[42327311] = AVIAN_NEST
@@ -606,6 +610,7 @@ map.nodes[36104309] = CYPHER_BOUND
 map.nodes[37853246] = CYPHER_BOUND
 map.nodes[38044543] = CYPHER_BOUND
 map.nodes[38113112] = CYPHER_BOUND
+map.nodes[38382956] = CYPHER_BOUND
 map.nodes[38464188] = CYPHER_BOUND
 map.nodes[39154226] = CYPHER_BOUND
 map.nodes[39835646] = CYPHER_BOUND
@@ -635,6 +640,7 @@ map.nodes[54247629] = CYPHER_BOUND
 map.nodes[54326958] = CYPHER_BOUND
 map.nodes[57198183] = CYPHER_BOUND
 map.nodes[58462026] = CYPHER_BOUND
+map.nodes[58885274] = CYPHER_BOUND
 map.nodes[59326420] = CYPHER_BOUND
 map.nodes[59603260] = CYPHER_BOUND
 map.nodes[59777940] = CYPHER_BOUND
@@ -650,6 +656,7 @@ map.nodes[40657591] = DISCARDED_AUTOMA
 map.nodes[44089028] = DISCARDED_AUTOMA
 map.nodes[48834480] = DISCARDED_AUTOMA
 map.nodes[52344688] = DISCARDED_AUTOMA
+map.nodes[53958854] = DISCARDED_AUTOMA
 map.nodes[58966093] = DISCARDED_AUTOMA
 map.nodes[59625113] = DISCARDED_AUTOMA
 map.nodes[65764042] = DISCARDED_AUTOMA
@@ -662,11 +669,13 @@ map.nodes[46854450] = FORGOTTEN_VAULT
 map.nodes[48891010] = FORGOTTEN_VAULT
 map.nodes[49567522] = FORGOTTEN_VAULT
 map.nodes[50559346] = FORGOTTEN_VAULT
+map.nodes[50632668] = FORGOTTEN_VAULT
 map.nodes[51177705] = FORGOTTEN_VAULT
 map.nodes[52002941] = FORGOTTEN_VAULT
 map.nodes[52315560] = FORGOTTEN_VAULT
 map.nodes[53875975] = FORGOTTEN_VAULT
 map.nodes[56542540] = FORGOTTEN_VAULT
+map.nodes[58582110] = FORGOTTEN_VAULT
 map.nodes[58585707] = FORGOTTEN_VAULT
 map.nodes[65236419] = FORGOTTEN_VAULT
 map.nodes[69083683] = FORGOTTEN_VAULT
@@ -675,6 +684,7 @@ map.nodes[78215435] = FORGOTTEN_VAULT
 
 map.nodes[45820524] = MAWSWORN_SUPPLY
 map.nodes[47394352] = MAWSWORN_SUPPLY
+map.nodes[57562297] = MAWSWORN_SUPPLY
 map.nodes[58444036] = MAWSWORN_SUPPLY
 map.nodes[59841661] = MAWSWORN_SUPPLY
 map.nodes[62952498] = MAWSWORN_SUPPLY
