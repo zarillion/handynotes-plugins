@@ -28,7 +28,7 @@ local microd = Map({id = 2030}) -- Nexus of Actualization
 
 map.nodes[64743369] = Rare({
     id = 179006,
-    quest = nil,
+    quest = 65549,
     rewards = {
         Achievement({id = 15391, criteria = 52977}) -- Adventurer of Zereth Mortis
     }
@@ -102,9 +102,10 @@ map.nodes[69073662] = Rare({
 
 map.nodes[59862111] = Rare({
     id = 182318,
-    quest = nil,
+    quest = 65583,
     rewards = {
-        Achievement({id = 15391, criteria = 52985}) -- Adventurer of Zereth Mortis
+        Achievement({id = 15391, criteria = 52985}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189968, slot = L['leather']}) -- Dreadlord General's Tunic
     }
 }) -- General Zarathura
 
@@ -284,7 +285,8 @@ map.nodes[43513294] = Rare({
     note = L['zatojin_note'],
     rewards = {
         Achievement({id = 15391, criteria = 53044}), -- Adventurer of Zereth Mortis
-        Transmog({item = 189902, slot = L['cloth']}) -- Hapless Traveler's Treads
+        Transmog({item = 189902, slot = L['cloth']}), -- Hapless Traveler's Treads
+        Transmog({item = 189924, slot = L['leather']}) -- Buzzing Predator's Legs
     }
 }) -- Zatojin
 
