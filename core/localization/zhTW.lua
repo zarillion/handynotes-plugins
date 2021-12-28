@@ -44,6 +44,8 @@ L['activation_unknown'] = '啟動條件未知'
 L['requirement_not_found'] = '所需位置未知'
 
 L['Requires'] = '需要'
+L['ranked_research'] = nil
+
 L['focus'] = '專注'
 L['retrieving'] = '接收物品連結 ...'
 L['in_cave'] = '在洞穴。'

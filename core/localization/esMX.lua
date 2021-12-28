@@ -44,6 +44,8 @@ L['activation_unknown'] = nil
 L['requirement_not_found'] = nil
 
 L['Requires'] = nil
+L['ranked_research'] = nil
+
 L['focus'] = nil
 L['retrieving'] = 'Recuperando el enlace del elemento ...'
 L['in_cave'] = 'En una cueva.'

@@ -706,6 +706,17 @@ L['cache_glissandian'] = nil
 L['cache_mezzonic'] = nil
 L['cache_toccatian'] = nil
 
+L['concordance_excitable'] = nil
+L['concordance_mercurial'] = nil
+L['concordance_tranquil'] = nil
+L['concordance_note'] = nil
+
+L['echoed_jiro_note'] = nil
+
+L['options_icons_concordances'] = nil
+L['options_icons_concordances_desc'] = nil
+L['options_icons_echoed_jiros'] = nil
+L['options_icons_echoed_jiros_desc'] = nil
 L['options_icons_puzzle_caches'] = nil
 L['options_icons_puzzle_caches_desc'] = nil
 L['options_icons_zereth_caches'] = nil

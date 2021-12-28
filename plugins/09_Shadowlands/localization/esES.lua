@@ -713,6 +713,17 @@ L['cache_glissandian'] = 'Alijo Glissadiano'
 L['cache_mezzonic'] = 'Alijo Mezzónico'
 L['cache_toccatian'] = 'Alijo Tocata'
 
+L['concordance_excitable'] = nil
+L['concordance_mercurial'] = nil
+L['concordance_tranquil'] = nil
+L['concordance_note'] = nil
+
+L['echoed_jiro_note'] = nil
+
+L['options_icons_concordances'] = nil
+L['options_icons_concordances_desc'] = nil
+L['options_icons_echoed_jiros'] = nil
+L['options_icons_echoed_jiros_desc'] = nil
 L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
 L['options_icons_puzzle_caches_desc'] = 'Muestra los sitios de los alijos puzzle.'
 L['options_icons_zereth_caches'] = 'Cofres con Clave'
