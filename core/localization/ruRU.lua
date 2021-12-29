@@ -44,7 +44,7 @@ L['activation_unknown'] = 'Активация неизвестна!'
 L['requirement_not_found'] = 'Местоположение требования неизвестно!'
 
 L['Requires'] = 'Требуется'
-L['ranked_research'] = nil
+L['ranked_research'] = '%s (Ранг %d/%d)'
 
 L['focus'] = 'Фокус'
 L['retrieving'] = 'Получение ссылки на предмет ...'
