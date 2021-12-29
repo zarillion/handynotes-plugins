@@ -713,17 +713,17 @@ L['cache_glissandian'] = 'Alijo Glissadiano'
 L['cache_mezzonic'] = 'Alijo Mezzónico'
 L['cache_toccatian'] = 'Alijo Tocata'
 
-L['concordance_excitable'] = 'Excitable Concordance'--No lo encuentro
-L['concordance_mercurial'] = 'Mercurial Concordance'--No lo encuentro
-L['concordance_tranquil'] = 'Tranquil Concordance'--No lo encuentro
-L['concordance_note'] = 'Lee cada concordance para desbloquear entradas en la |cFFFFFD00Lore Console|r en la |cFFFFFD00Cuenca del Exilio|r.'--Falta concordance y lore console
+L['concordance_excitable'] = 'Excitable Concordance'
+L['concordance_mercurial'] = 'Mercurial Concordance'
+L['concordance_tranquil'] = 'Tranquil Concordance'
+L['concordance_note'] = 'Lee cada concordance para desbloquear entradas en la |cFFFFFD00Lore Console|r en la |cFFFFFD00Cuenca del Exilio|r.'
 
 L['echoed_jiro_note'] = 'Gasta energia de {npc:181059} para ganar bufos temporales. Requiere investigar |cFFFFFD00Creatiano|r en la {npc:181397}.'
 
-L['options_icons_concordances'] = 'Lore Concordances'--No lo encuentro
-L['options_icons_concordances_desc'] = 'Muestra los sitios de las consolas de lore concordance.'--Falta lore concordance
-L['options_icons_echoed_jiros'] = 'Echoed Jiro'--Falta Echoed Jiro
-L['options_icons_echoed_jiros_desc'] = 'Muestra los sitios de los |cFFFFFD00Echoed Jiro|r que dan bufos.'--Falta Echoed Jiro
+L['options_icons_concordances'] = 'Lore Concordances'
+L['options_icons_concordances_desc'] = 'Muestra los sitios de las consolas de lore concordance.'
+L['options_icons_echoed_jiros'] = 'Echoed Jiro'
+L['options_icons_echoed_jiros_desc'] = 'Muestra los sitios de los |cFFFFFD00Echoed Jiro|r que dan bufos.'
 L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
 L['options_icons_puzzle_caches_desc'] = 'Muestra los sitios de los alijos puzzle.'
 L['options_icons_zereth_caches'] = 'Cofres con Clave'
