@@ -116,6 +116,7 @@ map.nodes[66004367] = Rare({
     note = L['collector_astor_note'],
     rewards = {
         Achievement({id = 14307, criteria = 50610}),
+        Transmog({item = 183614, slot = L['1h_mace']}), -- Gavel of Harmonious Wisdom
         Transmog({item = 183608, slot = L['offhand']}) -- Evernote Vesper
     },
     pois = {
@@ -171,6 +172,7 @@ map.nodes[37004180] = Rare({
         Transmog({item = 183613, slot = L['dagger']}), -- Glinting Daybreak Dagger
         Transmog({item = 183611, slot = L['2h_sword']}), -- Humble Ophelia's Greatblade
         Transmog({item = 183609, slot = L['fist']}), -- Re-Powered Golliath Fists
+        Transmog({item = 183614, slot = L['1h_mace']}), -- Gavel of Harmonious Wisdom
         Transmog({item = 183607, slot = L['polearm']}) -- Uncertain Aspirant's Spear
     },
     pois = {
