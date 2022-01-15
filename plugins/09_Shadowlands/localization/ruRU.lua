@@ -684,7 +684,7 @@ L['protector_first_ones_note'] = nil
 L['the_engulfer_note'] = nil
 L['zatojin_note'] = nil
 
-L['crushed_crate_note'] = nil
+L['crushed_crate_note'] = 'Возьмите {item:189767} из углубления на верху скалы. Отдайте его {npc:185151} в обмен на {item:189768}, который может разбивать упавшие камни.'
 L['forgotten_protovault_note'] = nil
 L['library_vault_note'] = nil
 L['mistaken_ovoid_note'] = nil
