@@ -689,7 +689,7 @@ L['forgotten_protovault_note'] = nil
 L['library_vault_note'] = nil
 L['mistaken_ovoid_note'] = nil
 L['sphere_treasure_note'] = 'Осторожно прыгайте по сферам, пока не доберетесь до вершины.'
-L['symphonic_vault_note'] = nil
+L['symphonic_vault_note'] = 'Исследуйте {npc:183998}, чтобы услышать последовательность из четырех звуков. Каждый {npc:183950} в комнате воспроизводит один звук. Взаимодействуйте с ними в соответствующем порядке, чтобы разблокировать сокровище.'
 L['template_archive_note'] = 'Нажмите на {npc:183339} в комнате с {npc:183337}, блокирующую путь к сокровищу.'
 L['undulating_foliage_note'] = nil
 
