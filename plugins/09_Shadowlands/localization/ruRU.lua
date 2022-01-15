@@ -693,7 +693,7 @@ L['symphonic_vault_note'] = nil
 L['template_archive_note'] = 'Нажмите на {npc:183339} в комнате с {npc:183337}, блокирующую путь к сокровищу.'
 L['undulating_foliage_note'] = nil
 
-L['cache_avian_nest'] = nil
+L['cache_avian_nest'] = 'Гнездо авиана'
 L['cache_cypher_bound'] = 'Защищенный шифром сундук'
 L['cache_discarded_automa'] = nil
 L['cache_forgotten_vault'] = nil
