@@ -709,12 +709,12 @@ L['cache_toccatian'] = nil
 L['concordance_excitable'] = 'Волнующий конкорданс'
 L['concordance_mercurial'] = 'Оживленный конкорданс'
 L['concordance_tranquil'] = 'Безмятежный конкорданс'
-L['concordance_note'] = nil
+L['concordance_note'] = 'Прочитайте каждый конкорданс, чтобы разблокировать записи в |cFFFFFD00Своде конкордансов|r в |cFFFFFD00Низине изгнанника|r.'
 
 L['echoed_jiro_note'] = nil
 
-L['options_icons_concordances'] = nil
-L['options_icons_concordances_desc'] = nil
+L['options_icons_concordances'] = 'Свод конкордансов'
+L['options_icons_concordances_desc'] = 'Отображение местоположения консолей свода конкордансов.'
 L['options_icons_echoed_jiros'] = nil
 L['options_icons_echoed_jiros_desc'] = nil
 L['options_icons_puzzle_caches'] = 'Тайники с головоломками'
