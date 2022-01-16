@@ -706,7 +706,7 @@ L['cache_glissandian'] = nil
 L['cache_mezzonic'] = nil
 L['cache_toccatian'] = nil
 
-L['concordance_excitable'] = nil
+L['concordance_excitable'] = 'Волнующий конкорданс'
 L['concordance_mercurial'] = 'Оживленный конкорданс'
 L['concordance_tranquil'] = 'Безмятежный конкорданс'
 L['concordance_note'] = nil
