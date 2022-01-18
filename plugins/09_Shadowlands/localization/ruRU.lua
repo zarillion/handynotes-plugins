@@ -698,7 +698,7 @@ L['cache_cypher_bound'] = 'Защищенный шифром сундук'
 L['cache_discarded_automa'] = 'Выброшенные обломки автома'
 L['cache_forgotten_vault'] = 'Забытый склад сокровищ'
 L['cache_mawsworn_supply'] = 'Сундук с припасами Верных Утробе'
-L['cache_tarachnid_eggs'] = nil
+L['cache_tarachnid_eggs'] = 'Яйцо тарахнидов'
 
 L['cache_cantaric'] = nil
 L['cache_fugueal'] = nil
