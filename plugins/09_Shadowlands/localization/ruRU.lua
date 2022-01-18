@@ -703,7 +703,7 @@ L['cache_tarachnid_eggs'] = nil
 L['cache_cantaric'] = nil
 L['cache_fugueal'] = nil
 L['cache_glissandian'] = nil
-L['cache_mezzonic'] = nil
+L['cache_mezzonic'] = 'Тайник меццо'
 L['cache_toccatian'] = nil
 
 L['concordance_excitable'] = 'Волнующий конкорданс'
