@@ -680,7 +680,7 @@ L['tormentors_note'] = [[
 L['corrupted_architect_note'] = nil
 L['furidian_note'] = nil
 L['garudeon_note'] = nil
-L['protector_first_ones_note'] = nil
+L['protector_first_ones_note'] = 'Требуется два игрока. Принесите соответствующие руны к каждой консоли (руны расположены поблизости), чтобы открыть барьер.'
 L['the_engulfer_note'] = nil
 L['zatojin_note'] = 'Атакуйте {npc:183721} и позвольте им наложить 20 стаков {spell:362976} на вас, пока вы не станете {spell:362983}. Вы должны стоять над трупами {npc:183774}, когда вас парализует, чтобы {npc:183764} заметил вас.'
 
@@ -702,7 +702,7 @@ L['cache_tarachnid_eggs'] = 'Яйцо тарахнидов'
 
 L['cache_cantaric'] = nil
 L['cache_fugueal'] = nil
-L['cache_glissandian'] = nil
+L['cache_glissandian'] = 'Глиссандрийский тайник'
 L['cache_mezzonic'] = 'Тайник меццо'
 L['cache_toccatian'] = nil
 
