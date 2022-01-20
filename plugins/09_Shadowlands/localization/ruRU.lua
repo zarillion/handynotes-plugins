@@ -700,7 +700,7 @@ L['cache_forgotten_vault'] = 'Забытый склад сокровищ'
 L['cache_mawsworn_supply'] = 'Сундук с припасами Верных Утробе'
 L['cache_tarachnid_eggs'] = 'Яйцо тарахнидов'
 
-L['cache_cantaric'] = nil
+L['cache_cantaric'] = 'Тайник кантаты'
 L['cache_fugueal'] = 'Тайник фуги'
 L['cache_glissandian'] = 'Глиссандрийский тайник'
 L['cache_mezzonic'] = 'Тайник меццо'
