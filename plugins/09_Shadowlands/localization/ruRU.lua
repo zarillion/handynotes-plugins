@@ -704,7 +704,7 @@ L['cache_cantaric'] = 'Тайник кантаты'
 L['cache_fugueal'] = 'Тайник фуги'
 L['cache_glissandian'] = 'Глиссандрийский тайник'
 L['cache_mezzonic'] = 'Тайник меццо'
-L['cache_toccatian'] = nil
+L['cache_toccatian'] = 'Тайник токкаты'
 
 L['concordance_excitable'] = 'Волнующий конкорданс'
 L['concordance_mercurial'] = 'Оживленный конкорданс'
