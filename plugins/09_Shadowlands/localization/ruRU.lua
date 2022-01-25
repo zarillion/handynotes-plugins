@@ -711,12 +711,12 @@ L['concordance_mercurial'] = 'Оживленный конкорданс'
 L['concordance_tranquil'] = 'Безмятежный конкорданс'
 L['concordance_note'] = 'Прочитайте каждый конкорданс, чтобы разблокировать записи в |cFFFFFD00Своде конкордансов|r в |cFFFFFD00Низине изгнанника|r.'
 
-L['echoed_jiro_note'] = nil
+L['echoed_jiro_note'] = 'Потратьте энергию у {npc:181059}, чтобы получить временные положительные эффекты. Требуется исследование |cFFFFFD00Созидайский|r у {npc:181397}'
 
 L['options_icons_concordances'] = 'Свод конкордансов'
 L['options_icons_concordances_desc'] = 'Отображение местоположения консолей свода конкордансов.'
-L['options_icons_echoed_jiros'] = nil
-L['options_icons_echoed_jiros_desc'] = nil
+L['options_icons_echoed_jiros'] = 'Вторящий Джиро'
+L['options_icons_echoed_jiros_desc'] = 'Показать места, где |cFFFFFFD00Вторящие Джиро|r предлагают баффы.'
 L['options_icons_puzzle_caches'] = 'Тайники с головоломками'
 L['options_icons_puzzle_caches_desc'] = 'Отображение местоположения тайников головоломок.'
 L['options_icons_zereth_caches'] = 'Защищенные шифром тайники'
