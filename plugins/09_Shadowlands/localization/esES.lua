@@ -713,15 +713,15 @@ L['cache_glissandian'] = 'Alijo Glissadiano'
 L['cache_mezzonic'] = 'Alijo Mezzónico'
 L['cache_toccatian'] = 'Alijo Tocata'
 
-L['concordance_excitable'] = 'Excitable Concordance' -- No lo encuentro
-L['concordance_mercurial'] = 'Mercurial Concordance' -- No lo encuentro
-L['concordance_tranquil'] = 'Tranquil Concordance' -- No lo encuentro
-L['concordance_note'] = 'Lee cada concordance para desbloquear entradas en la |cFFFFFD00Consola de Conocimiento|r en la |cFFFFFD00Cuenca del Exilio|r.' -- Falta concordance
+L['concordance_excitable'] = 'Concordancia Excitable'
+L['concordance_mercurial'] = 'Concordancia Mercúrica'
+L['concordance_tranquil'] = 'Concordancia Tranquila'
+L['concordance_note'] = 'Lee cada concordancia para desbloquear entradas en la |cFFFFFD00Consola de Conocimiento|r en la |cFFFFFD00Cuenca del Exilio|r.'
 
 L['echoed_jiro_note'] = 'Gasta energia de {npc:181059} para ganar bufos temporales. Requiere investigar |cFFFFFD00Creatiano|r en la {npc:181397}.'
 
-L['options_icons_concordances'] = 'Lore Concordances' -- Lore es Conocimiento, falta Concordance
-L['options_icons_concordances_desc'] = 'Muestra los sitios de las consolas de lore concordance.' -- Lore es Conocimiento, falta Concordance
+L['options_icons_concordances'] = 'Concordancias de Conocimiento'
+L['options_icons_concordances_desc'] = 'Muestra los sitios de las consolas de las concordancias de conocimiento.'
 L['options_icons_echoed_jiros'] = 'Jiro en Eco'
 L['options_icons_echoed_jiros_desc'] = 'Muestra los sitios de los |cFFFFFD00Jiro en Eco|r que dan bufos.'
 L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
