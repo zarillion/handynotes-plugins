@@ -18,7 +18,7 @@
 		the copyright holders.
 ]]
 
-local lib = LibStub:NewLibrary('Krowi_WorldMapButtons-1.2', 1);
+local lib = LibStub:NewLibrary('Krowi_WorldMapButtons-1.3', 1);
 
 if not lib then
 	return;
@@ -38,10 +38,6 @@ end
 
 local hookedDefaultButtons;
 local function HookDefaultButtons()
-	hooksecurefunc(WorldMapFrame, "RefreshOverlayFrames", function()
-		SetPoints();
-	end);
-
 	for _, f in next, WorldMapFrame.overlayFrames do
         if WorldMapTrackingOptionsButtonMixin and f.OnLoad == WorldMapTrackingOptionsButtonMixin.OnLoad then
 			f.KrowiWorldMapButtonsIndex = #buttons;
@@ -93,6 +89,7 @@ function lib:Add(templateName, templateType)
 	button.relativeFrame = WorldMapFrame:GetCanvasContainer();
 	hooksecurefunc(WorldMapFrame, "RefreshOverlayFrames", function()
         button:Refresh();
+		SetPoints();
     end);
 
 	tinsert(buttons, button);

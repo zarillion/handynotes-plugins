@@ -152,7 +152,7 @@ function Addon:OnInitialize()
 
     -- Add quick-toggle menu button to top-right corner of world map
     local template = ADDON_NAME .. 'WorldMapOptionsButtonTemplate'
-    ns.world_map_button = LibStub('Krowi_WorldMapButtons-1.2'):Add(template,
+    ns.world_map_button = LibStub('Krowi_WorldMapButtons-1.3'):Add(template,
         'DROPDOWNTOGGLEBUTTON')
 
     -- Query localized expansion title
