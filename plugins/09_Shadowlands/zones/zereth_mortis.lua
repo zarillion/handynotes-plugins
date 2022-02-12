@@ -129,7 +129,7 @@ map.nodes[80384706] = Rare({
 
 map.nodes[52612503] = Rare({
     id = 178563,
-    quest = nil,
+    quest = 65581,
     rewards = {
         Achievement({id = 15391, criteria = 52984}) -- Adventurer of Zereth Mortis
     }
