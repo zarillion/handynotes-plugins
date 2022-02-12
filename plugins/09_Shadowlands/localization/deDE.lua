@@ -691,7 +691,7 @@ L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss 
 L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
 
 L['crushed_crate_note'] = 'Plündere das {item:189767} aus der Kuhle der großen Kugel im Norden. Gib dieses {npc:185151} im Austausch für den{item:189768} der die heruntergefallenen Felsen zerbrechen kann.'
-L['forgotten_protovault_note'] = 'Nur während der {wq:Frog\'it} Weltquest verfügbar.' -- review
+L['forgotten_protovault_note'] = 'Nur während der {wq:Frog\'it} Weltquest verfügbar.'
 L['library_vault_note'] = 'Klicke die Tafeln in der Grotte der Lexik an, bis du den richtigen {spell:362062} Stärkungszauber findest, um damit das Bibliotheksarchiv zu öffnen.'
 L['mistaken_ovoid_note'] = 'In der Höhle der Dimensionenfälle, hinter den Bällen.'
 L['sphere_treasure_note'] = 'Springe vorsichtig die Kugeln hoch, bis du den Schatz erreichst.'
