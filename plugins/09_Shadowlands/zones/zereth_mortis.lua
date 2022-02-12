@@ -549,27 +549,75 @@ map.nodes[63182603] = SANDWORN
 
 local Puzzle = Class('PuzzleCache', ns.node.Node, {
     group = ns.groups.PUZZLE_CACHE,
+    requires = ns.requirement.GarrisonTalentRank(1972, 1),
     icon = 'star_chest_g',
     scale = 1.2
 })
 
+-- Can be removed after we found all quest ids
+function Puzzle:GetGlow(mapID, minimap)
+    local glow = ns.node.Node.GetGlow(self, mapID, minimap)
+    if glow then return glow end
+
+    if _G['HandyNotes_ZarPluginsDevelopment'] and not self.quest then
+        local _, scale, alpha = self:GetDisplayInfo(mapID, minimap)
+        self.glow.alpha = alpha
+        self.glow.scale = scale
+        self.glow.r, self.glow.g, self.glow.b = 1, 0, 0
+        return self.glow
+    end
+end
+
 map.nodes[38546364] = Puzzle({quest = 65094, label = L['cache_cantaric']})
 map.nodes[44767608] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[47504622] = Puzzle({quest = 65323, label = L['cache_cantaric']})
+map.nodes[48628747] = Puzzle({quest = 65318, label = L['cache_cantaric']})
 map.nodes[52984558] = Puzzle({quest = 65416, label = L['cache_cantaric']}) -- 65418
 map.nodes[65674096] = Puzzle({quest = 65406, label = L['cache_cantaric']}) -- 65418
+map.nodes[44229011] = Puzzle({quest = nil, label = L['cache_cantaric']})
+map.nodes[56007960] = Puzzle({quest = nil, label = L['cache_cantaric']})
+map.nodes[55004800] = Puzzle({quest = nil, label = L['cache_cantaric']})
+map.nodes[43662152] = Puzzle({quest = 65094, label = L['cache_cantaric']})
+map.nodes[36475646] = Puzzle({quest = 65322, label = L['cache_fugueal']})
 map.nodes[39184665] = Puzzle({quest = 65322, label = L['cache_fugueal']})
 map.nodes[59712290] = Puzzle({quest = 65317, label = L['cache_fugueal']})
-map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
+map.nodes[63103738] = Puzzle({quest = 65414, label = L['cache_fugueal']}) -- 65093  65418
+map.nodes[44293098] = Puzzle({quest = nil, label = L['cache_fugueal']})
+map.nodes[47603910] = Puzzle({quest = nil, label = L['cache_fugueal']})
+map.nodes[46006460] = Puzzle({quest = nil, label = L['cache_fugueal']})
+map.nodes[47107720] = Puzzle({quest = nil, label = L['cache_fugueal']})
+map.nodes[57486576] = Puzzle({quest = 65093, label = L['cache_fugueal']})
+map.nodes[42196878] = Puzzle({quest = nil, label = L['cache_fugueal']})
 map.nodes[51282573] = Puzzle({quest = 65412, label = L['cache_glissandian']}) -- 65418
 map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
+map.nodes[39937284] = Puzzle({quest = 65321, label = L['cache_glissandian']})
+map.nodes[45109410] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[56008410] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[56636138] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[33805430] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[44605050] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[58893634] = Puzzle({quest = 65092, label = L['cache_glissandian']})
+map.nodes[41803130] = Puzzle({quest = nil, label = L['cache_glissandian']})
 map.nodes[38377037] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[39346043] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[43624033] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
 map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[64695282] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
+map.nodes[35825908] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
+map.nodes[38503552] = Puzzle({quest = nil, label = L['cache_mezzonic']})
+map.nodes[49953057] = Puzzle({quest = nil, label = L['cache_mezzonic']})
+map.nodes[57943172] = Puzzle({quest = nil, label = L['cache_mezzonic']})
+map.nodes[52347202] = Puzzle({quest = nil, label = L['cache_mezzonic']})
 map.nodes[37014645] = Puzzle({quest = 64972, label = L['cache_toccatian']})
 map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
+map.nodes[53208680] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[62807390] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[64306340] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[46806700] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[34606880] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[52435706] = Puzzle({quest = 65314, label = L['cache_toccatian']})
+map.nodes[32005260] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[67812744] = Puzzle({quest = 65319, label = L['cache_toccatian']})
 
 -------------------------------------------------------------------------------
 -------------------------------- CYPHER CACHES --------------------------------
