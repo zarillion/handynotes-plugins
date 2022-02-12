@@ -683,47 +683,54 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
-L['corrupted_architect_note'] = nil
-L['furidian_note'] = nil
-L['garudeon_note'] = nil
-L['protector_first_ones_note'] = nil
-L['the_engulfer_note'] = nil
-L['zatojin_note'] = nil
+L['corrupted_architect_note'] = 'Greife {npc:183958} und {npc:183961} an, um den seltenen Gegner zu aktivieren.'
+L['furidian_note'] = 'Interagiere mit dem |cFFFFFD00Verdächtig wütender Tresor|r.'
+L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwenden {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
+L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden Runen zu jeder Konsole (in der Umgebung zu finden), um die Barriere zu öffnen.'
+L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss springt.'
+L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
 
-L['crushed_crate_note'] = nil
-L['forgotten_protovault_note'] = nil
-L['library_vault_note'] = nil
-L['mistaken_ovoid_note'] = nil
-L['sphere_treasure_note'] = nil
-L['symphonic_vault_note'] = nil
-L['template_archive_note'] = nil
-L['undulating_foliage_note'] = nil
+L['crushed_crate_note'] = 'Plündere das {item:189767} aus der Kuhle der großen Kugel im Norden. Gib dieses {npc:185151} im Austausch für den{item:189768} der die heruntergefallenen Felsen zerbrechen kann.'
+L['forgotten_protovault_note'] = 'Nur während der {wq:Frog\'it} Weltquest verfügbar.' -- review
+L['library_vault_note'] = 'Klicke die Tafeln in der Grotte der Lexik an, bis du den richtigen {spell:362062} Stärkungszauber findest, um damit das Bibliotheksarchiv zu öffnen.'
+L['mistaken_ovoid_note'] = 'In der Höhle der Dimensionenfälle, hinter den Bällen.'
+L['sphere_treasure_note'] = 'Springe vorsichtig die Kugeln hoch, bis du den Schatz erreichst.'
+L['symphonic_vault_note'] = 'Untersuche {npc:183998}, um eine Folge von vier Tönen zu hören. Jede {npc:183950} in dem Raum spielt einen einzigen Ton. Interagiere mit ihnen in der richtigen Reihenfolge, um den Schatz freizuschalten.'
+L['template_archive_note'] = 'Stoße die {npc:183339} im Raum in die {npc:183337}, die den Weg zum Schatz versperrt.'
+L['undulating_foliage_note'] = [[
+Drücke die vier {npc:185390n}, um den Teleporter im mittleren Raum der Katalysatorstationen zu aktivieren.
 
-L['cache_avian_nest'] = nil
-L['cache_cypher_bound'] = nil
-L['cache_discarded_automa'] = nil
-L['cache_forgotten_vault'] = nil
-L['cache_mawsworn_supply'] = nil
-L['cache_tarachnid_eggs'] = nil
+• Draußen hinter dem |cFFFFFD00Schloss der Katalysatorstationen|r
+• Im südwestlichen Raum der Stationen
+• Im südlichen Raum mit {npc:181652}
+• Im südöstlichen Raum der Stationen
+]]
 
-L['cache_cantaric'] = nil
-L['cache_fugueal'] = nil
-L['cache_glissandian'] = nil
-L['cache_mezzonic'] = nil
-L['cache_toccatian'] = nil
+L['cache_avian_nest'] = 'Ornidennest'
+L['cache_cypher_bound'] = 'Chiffrengebundene Truhe'
+L['cache_discarded_automa'] = 'Weggeworfener Automaschrott'
+L['cache_forgotten_vault'] = 'Vergessener Schatztresor'
+L['cache_mawsworn_supply'] = 'Schlundgebundene Vorratstruhe'
+L['cache_tarachnid_eggs'] = 'Tarachnideneier'
 
-L['concordance_excitable'] = nil
-L['concordance_mercurial'] = nil
-L['concordance_tranquil'] = nil
-L['concordance_note'] = nil
+L['cache_cantaric'] = 'Kantarische Truhe'
+L['cache_fugueal'] = 'Fugalische Truhe'
+L['cache_glissandian'] = 'Glissandische Truhe'
+L['cache_mezzonic'] = 'Mezzonische Truhe'
+L['cache_toccatian'] = 'Toccatianische Truhe'
 
-L['echoed_jiro_note'] = nil
+L['concordance_excitable'] = 'Erregbare Konkordanz'
+L['concordance_mercurial'] = 'Wechselhafte Konkordanz'
+L['concordance_tranquil'] = 'Stille Konkordanz'
+L['concordance_note'] = 'Lese jede Konkordanz, um Einträge in der |cFFFFFD00Wissenskonsole|r freizuschalten, die sich in der |cFFFFFD00Höhle des Verbannten|r befindet.'
 
-L['options_icons_concordances'] = nil
-L['options_icons_concordances_desc'] = nil
-L['options_icons_echoed_jiros'] = nil
-L['options_icons_echoed_jiros_desc'] = nil
-L['options_icons_puzzle_caches'] = nil
-L['options_icons_puzzle_caches_desc'] = nil
-L['options_icons_zereth_caches'] = nil
-L['options_icons_zereth_caches_desc'] = nil
+L['echoed_jiro_note'] = 'Gebe {npc:181059}energie aus, um temporäre Verstärkungszauber zu erhalten. Benötigt die |cFFFFFD00Createsisch|r Forschung an der {npc:181397}.'
+
+L['options_icons_concordances'] = 'Wissens Konkordanzen'
+L['options_icons_concordances_desc'] = 'Zeigt die Positionen von Konkordanzen an.'
+L['options_icons_echoed_jiros'] = 'Echo von Jiro'
+L['options_icons_echoed_jiros_desc'] = 'Zeigt die Positionen für die Gaben-Stärkungszauber der |cFFFFFD00Echo von Jiro|r an.'
+L['options_icons_puzzle_caches'] = 'Schätze der Schöpfung'
+L['options_icons_puzzle_caches_desc'] = 'Zeigt die Positionen von Schätzen der Schöpfung an.'
+L['options_icons_zereth_caches'] = 'Chiffren Truhen'
+L['options_icons_zereth_caches_desc'] = 'Zeigt mögliche Positionen für Truhen, die Chiffren der Ersten enthalten.'
