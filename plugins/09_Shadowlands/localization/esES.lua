@@ -678,13 +678,19 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
+L['dune_dominance_note'] = nil
+L['feasting_note'] = nil
 L['furidian_note'] = 'Interactúa con  la |cFFFFFD00Cámara Sospechosamente Enfadada|r.'
 L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
+L['gluttonous_overgrowth_note'] = nil
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
 L['the_engulfer_note'] = 'Defiende a {npc:183505} hasta que {npc:183516} salte de la grieta.'
 L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar sobre los cuerpos de los {npc:183774} cuando seas paralizado para que {npc:183764} se fije en ti.'
 
+L['bushel_of_produce_note'] = nil
 L['crushed_crate_note'] = 'Despoja la {item:189767} de la hendidura sobre el gran orbe al norte. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
+L['domination_cache_note'] = nil
+L['drowned_broker_supplies_note'] = nil
 L['forgotten_protovault_note'] = 'Sólo está disponible durante la misión del mundo {wq:A salto de rana}.'
 L['library_vault_note'] = 'Haz click en las tablillas de la Gruta del Léxico hasta que encuentres el orden correcto y ganes el buff {spell:362062} para abrir la cámara.'
 L['mistaken_ovoid_note'] = 'Dentro de la caverna Cataratas Dimensionales, detrás de las bolas.'
@@ -699,6 +705,11 @@ Pulsa los cuatro {npc:185390} para activar el teleportador del centro de la sala
 • En la habitación sur con el {npc:181652}
 • En la habitación sureste de los distritos
 ]]
+
+L['prying_eye_discovery'] = nil
+L['prying_eye_discovery_note'] = nil
+L['sandworn_chest'] = nil
+L['sandworn_chest_note'] = nil
 
 L['cache_avian_nest'] = 'Nido Aviario'
 L['cache_cypher_bound'] = 'Cofre Reforzado con Clave'
@@ -719,6 +730,15 @@ L['concordance_tranquil'] = 'Concordancia Tranquila'
 L['concordance_note'] = 'Lee cada concordancia para desbloquear entradas en la |cFFFFFD00Consola de Conocimiento|r en la |cFFFFFD00Cuenca del Exilio|r.'
 
 L['echoed_jiro_note'] = 'Gasta energia de {npc:181059} para ganar bufos temporales. Requiere investigar |cFFFFFD00Creatiano|r en la {npc:181397}.'
+
+L['patient_bufonid_note'] = nil
+L['patient_bufonid_note_day1'] = nil
+L['patient_bufonid_note_day2'] = nil
+L['patient_bufonid_note_day3'] = nil
+L['patient_bufonid_note_day4'] = nil
+L['patient_bufonid_note_day5'] = nil
+L['patient_bufonid_note_day6'] = nil
+L['patient_bufonid_note_day7'] = nil
 
 L['options_icons_concordances'] = 'Concordancias de Conocimiento'
 L['options_icons_concordances_desc'] = 'Muestra los sitios de las consolas de las concordancias de conocimiento.'

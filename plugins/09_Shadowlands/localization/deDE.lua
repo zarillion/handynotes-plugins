@@ -684,13 +684,19 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Greife {npc:183958} und {npc:183961} an, um den seltenen Gegner zu aktivieren.'
+L['dune_dominance_note'] = nil
+L['feasting_note'] = nil
 L['furidian_note'] = 'Interagiere mit dem |cFFFFFD00Verdächtig wütender Tresor|r.'
 L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwenden {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
+L['gluttonous_overgrowth_note'] = nil
 L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden Runen zu jeder Konsole (in der Umgebung zu finden), um die Barriere zu öffnen.'
 L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss springt.'
 L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
 
+L['bushel_of_produce_note'] = nil
 L['crushed_crate_note'] = 'Plündere das {item:189767} aus der Kuhle der großen Kugel im Norden. Gib dieses {npc:185151} im Austausch für den{item:189768} der die heruntergefallenen Felsen zerbrechen kann.'
+L['domination_cache_note'] = nil
+L['drowned_broker_supplies_note'] = nil
 L['forgotten_protovault_note'] = 'Nur während der {wq:Frog\'it} Weltquest verfügbar.'
 L['library_vault_note'] = 'Klicke die Tafeln in der Grotte der Lexik an, bis du den richtigen {spell:362062} Stärkungszauber findest, um damit das Bibliotheksarchiv zu öffnen.'
 L['mistaken_ovoid_note'] = 'In der Höhle der Dimensionenfälle, hinter den Bällen.'
@@ -705,6 +711,11 @@ Drücke die vier {npc:185390n}, um den Teleporter im mittleren Raum der Katalysa
 • Im südlichen Raum mit {npc:181652}
 • Im südöstlichen Raum der Stationen
 ]]
+
+L['prying_eye_discovery'] = nil
+L['prying_eye_discovery_note'] = nil
+L['sandworn_chest'] = nil
+L['sandworn_chest_note'] = nil
 
 L['cache_avian_nest'] = 'Ornidennest'
 L['cache_cypher_bound'] = 'Chiffrengebundene Truhe'
@@ -725,6 +736,15 @@ L['concordance_tranquil'] = 'Stille Konkordanz'
 L['concordance_note'] = 'Lese jede Konkordanz, um Einträge in der |cFFFFFD00Wissenskonsole|r freizuschalten, die sich in der |cFFFFFD00Höhle des Verbannten|r befindet.'
 
 L['echoed_jiro_note'] = 'Gebe {npc:181059}energie aus, um temporäre Verstärkungszauber zu erhalten. Benötigt die |cFFFFFD00Createsisch|r Forschung an der {npc:181397}.'
+
+L['patient_bufonid_note'] = nil
+L['patient_bufonid_note_day1'] = nil
+L['patient_bufonid_note_day2'] = nil
+L['patient_bufonid_note_day3'] = nil
+L['patient_bufonid_note_day4'] = nil
+L['patient_bufonid_note_day5'] = nil
+L['patient_bufonid_note_day6'] = nil
+L['patient_bufonid_note_day7'] = nil
 
 L['options_icons_concordances'] = 'Wissens Konkordanzen'
 L['options_icons_concordances_desc'] = 'Zeigt die Positionen von Konkordanzen an.'

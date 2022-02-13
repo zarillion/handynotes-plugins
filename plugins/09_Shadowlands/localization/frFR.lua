@@ -680,13 +680,19 @@ La {item:185972} peut être obtenue une fois par semaine et contient 50 {currenc
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = nil
+L['dune_dominance_note'] = nil
+L['feasting_note'] = nil
 L['furidian_note'] = nil
 L['garudeon_note'] = nil
+L['gluttonous_overgrowth_note'] = nil
 L['protector_first_ones_note'] = nil
 L['the_engulfer_note'] = nil
 L['zatojin_note'] = nil
 
+L['bushel_of_produce_note'] = nil
 L['crushed_crate_note'] = nil
+L['domination_cache_note'] = nil
+L['drowned_broker_supplies_note'] = nil
 L['forgotten_protovault_note'] = nil
 L['library_vault_note'] = nil
 L['mistaken_ovoid_note'] = nil
@@ -694,6 +700,11 @@ L['sphere_treasure_note'] = nil
 L['symphonic_vault_note'] = nil
 L['template_archive_note'] = nil
 L['undulating_foliage_note'] = nil
+
+L['prying_eye_discovery'] = nil
+L['prying_eye_discovery_note'] = nil
+L['sandworn_chest'] = nil
+L['sandworn_chest_note'] = nil
 
 L['cache_avian_nest'] = nil
 L['cache_cypher_bound'] = nil
@@ -714,6 +725,15 @@ L['concordance_tranquil'] = nil
 L['concordance_note'] = nil
 
 L['echoed_jiro_note'] = nil
+
+L['patient_bufonid_note'] = nil
+L['patient_bufonid_note_day1'] = nil
+L['patient_bufonid_note_day2'] = nil
+L['patient_bufonid_note_day3'] = nil
+L['patient_bufonid_note_day4'] = nil
+L['patient_bufonid_note_day5'] = nil
+L['patient_bufonid_note_day6'] = nil
+L['patient_bufonid_note_day7'] = nil
 
 L['options_icons_concordances'] = nil
 L['options_icons_concordances_desc'] = nil

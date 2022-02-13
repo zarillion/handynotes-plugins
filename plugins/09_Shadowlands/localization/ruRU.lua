@@ -678,13 +678,19 @@ L['tormentors_note'] = [[
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Задействуйте {npc:183958} и {npc:183961}, чтобы активировать редкого монстра.'
+L['dune_dominance_note'] = nil
+L['feasting_note'] = nil
 L['furidian_note'] = 'Активируйте |cFFFFFD00Подозрительное рассерженное хранилище|r.'
 L['garudeon_note'] = 'Соберите {npc:183562} в окрестностях и используйте {spell:362655}, чтобы накормить {npc:183554}. Как только все трое будут накормлены, активируется {npc:180924}.'
+L['gluttonous_overgrowth_note'] = nil
 L['protector_first_ones_note'] = 'Требуется два игрока. Принесите соответствующие руны к каждой консоли (руны расположены поблизости), чтобы открыть барьер.'
 L['the_engulfer_note'] = 'Защищайте {npc:183505}, пока {npc:183516} не появится из разлома.'
 L['zatojin_note'] = 'Атакуйте {npc:183721} и позвольте им наложить 20 стаков {spell:362976} на вас, пока вы не станете {spell:362983}. Вы должны стоять над трупами {npc:183774}, когда вас парализует, чтобы {npc:183764} заметил вас.'
 
+L['bushel_of_produce_note'] = nil
 L['crushed_crate_note'] = 'Возьмите {item:189767} из углубления на верху скалы. Отдайте его {npc:185151} в обмен на {item:189768}, который может разбивать упавшие камни.'
+L['domination_cache_note'] = nil
+L['drowned_broker_supplies_note'] = nil
 L['forgotten_protovault_note'] = 'Доступно только во время локального задания {wq:Полный ква-вардак}.'
 L['library_vault_note'] = 'Щелкайте по табличкам в Гроте Слов, пока не найдете нужный бафф {spell:362062}, чтобы открыть хранилище.'
 L['mistaken_ovoid_note'] = 'Внутри пещеры Водопадов Измерений.'
@@ -698,6 +704,11 @@ L['undulating_foliage_note'] = [[
 • В южной комнате с {npc:181652}
 • В юго-восточной комнате двора
 ]]
+
+L['prying_eye_discovery'] = nil
+L['prying_eye_discovery_note'] = nil
+L['sandworn_chest'] = nil
+L['sandworn_chest_note'] = nil
 
 L['cache_avian_nest'] = 'Гнездо авиана'
 L['cache_cypher_bound'] = 'Защищенный шифром сундук'
@@ -718,6 +729,15 @@ L['concordance_tranquil'] = 'Безмятежный конкорданс'
 L['concordance_note'] = 'Прочитайте каждый конкорданс, чтобы разблокировать записи в |cFFFFFD00Своде конкордансов|r в |cFFFFFD00Низине изгнанника|r.'
 
 L['echoed_jiro_note'] = 'Потратьте энергию у {npc:181059}, чтобы получить временные положительные эффекты. Требуется исследование |cFFFFFD00Созидайский|r у {npc:181397}'
+
+L['patient_bufonid_note'] = nil
+L['patient_bufonid_note_day1'] = nil
+L['patient_bufonid_note_day2'] = nil
+L['patient_bufonid_note_day3'] = nil
+L['patient_bufonid_note_day4'] = nil
+L['patient_bufonid_note_day5'] = nil
+L['patient_bufonid_note_day6'] = nil
+L['patient_bufonid_note_day7'] = nil
 
 L['options_icons_concordances'] = 'Свод конкордансов'
 L['options_icons_concordances_desc'] = 'Отображение местоположения консолей свода конкордансов.'

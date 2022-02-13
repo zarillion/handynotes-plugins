@@ -65,7 +65,7 @@ function GarrisonTalent:Initialize(id, text) self.id, self.text = id, text end
 
 function GarrisonTalent:GetText()
     local info = C_Garrison.GetTalentInfo(self.id)
-    return self.text:format(info.name)
+    return self.text == UNKNOWN and info.name or self.text:format(info.name)
 end
 
 function GarrisonTalent:IsMet()
