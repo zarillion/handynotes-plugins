@@ -695,6 +695,7 @@ L['forgotten_protovault_note'] = 'Sólo está disponible durante la misión del 
 L['library_vault_note'] = 'Haz click en las tablillas de la Gruta del Léxico hasta que encuentres el orden correcto y ganes el buff {spell:362062} para abrir la cámara.'
 L['mistaken_ovoid_note'] = 'Dentro de la caverna Cataratas Dimensionales, detrás de las bolas.'
 L['sphere_treasure_note'] = 'Salta las esferas con cuidado hasta llegar al tesoro.'
+L['submerged_chest_note'] = nil
 L['symphonic_vault_note'] = 'Examina al {npc:183998} para escuchar una secuencia de cuatro sonidos. Cada {npc:183950} de la sala reproduce un sonido. Interactúa con ellas en el orden adecuado para desbloquear el tesoro.'
 L['template_archive_note'] = 'Empuja el {npc:183339} de la sala dentro del {npc:183337} que bloquea el paso al tesoro.'
 L['undulating_foliage_note'] = [[

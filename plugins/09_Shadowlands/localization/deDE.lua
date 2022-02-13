@@ -701,6 +701,7 @@ L['forgotten_protovault_note'] = 'Nur während der {wq:Frog\'it} Weltquest verf�
 L['library_vault_note'] = 'Klicke die Tafeln in der Grotte der Lexik an, bis du den richtigen {spell:362062} Stärkungszauber findest, um damit das Bibliotheksarchiv zu öffnen.'
 L['mistaken_ovoid_note'] = 'In der Höhle der Dimensionenfälle, hinter den Bällen.'
 L['sphere_treasure_note'] = 'Springe vorsichtig die Kugeln hoch, bis du den Schatz erreichst.'
+L['submerged_chest_note'] = nil
 L['symphonic_vault_note'] = 'Untersuche {npc:183998}, um eine Folge von vier Tönen zu hören. Jede {npc:183950} in dem Raum spielt einen einzigen Ton. Interagiere mit ihnen in der richtigen Reihenfolge, um den Schatz freizuschalten.'
 L['template_archive_note'] = 'Stoße die {npc:183339} im Raum in die {npc:183337}, die den Weg zum Schatz versperrt.'
 L['undulating_foliage_note'] = [[
