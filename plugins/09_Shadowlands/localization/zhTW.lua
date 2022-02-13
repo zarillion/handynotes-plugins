@@ -694,6 +694,7 @@ L['forgotten_protovault_note'] = '僅在世界任務 {wq:蛙蛙} 期間內可取
 L['library_vault_note'] = '在詞彙石窟點擊石板直到你找到正確的 {spell:362062} 增益來開啟寶庫.'
 L['mistaken_ovoid_note'] = '在次元瀑布洞穴內, 球體的後面.'
 L['sphere_treasure_note'] = '小心的從球體往上跳直到你到達寶藏處.'
+L['submerged_chest_note'] = nil
 L['symphonic_vault_note'] = '檢查 {npc:183998} 後會聽到4種聲音的序列. 房間內每個 {npc:183950} 會撥放一種聲音. 依照對應的順序和它們互動會解鎖寶藏.'
 L['template_archive_note'] = '推動面向擋住路徑的 {npc:183337} 的 {npc:183339} 來取得寶藏.'
 L['undulating_foliage_note'] = [[

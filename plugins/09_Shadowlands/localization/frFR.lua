@@ -697,6 +697,7 @@ L['forgotten_protovault_note'] = nil
 L['library_vault_note'] = nil
 L['mistaken_ovoid_note'] = nil
 L['sphere_treasure_note'] = nil
+L['submerged_chest_note'] = nil
 L['symphonic_vault_note'] = nil
 L['template_archive_note'] = nil
 L['undulating_foliage_note'] = nil

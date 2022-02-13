@@ -694,6 +694,7 @@ L['forgotten_protovault_note'] = 'Only available during the {wq:Frog\'it} world 
 L['library_vault_note'] = 'Click tablets in the Lexical Grotto until you find the correct {spell:362062} buff to open the vault.'
 L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern, behind the balls.'
 L['sphere_treasure_note'] = 'Carefully jump up the spheres until you reach the treasure.'
+L['submerged_chest_note'] = 'Absorb the |cFFFFFD00Dangerous Orb of Power|r to the south, then interact with the |cFFFFFD00Forgotten Pump|r near the treasure.'
 L['symphonic_vault_note'] = 'Examine the {npc:183998} to hear a sequence of four sounds. Each {npc:183950} in the room plays a single sound. Interact with them in the matching order to unlock the treasure.'
 L['template_archive_note'] = 'Push the {npc:183339} in the room into the {npc:183337} blocking the path to the treasure.'
 L['undulating_foliage_note'] = [[
