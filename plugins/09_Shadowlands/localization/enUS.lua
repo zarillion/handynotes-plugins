@@ -677,13 +677,19 @@ The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Engage {npc:183958} and {npc:183961} to activate the rare.'
+L['dune_dominance_note'] = 'All three rare elites for the {achievement:15392} achievement spawn at this location.'
+L['feasting_note'] = 'Will sometimes circle the area before returning to this spot.'
 L['furidian_note'] = 'Interact with the |cFFFFFD00Suspiciously Angry Vault|r.'
 L['garudeon_note'] = 'Collect {npc:183562s} from the surrounding area and use {spell:362655} to feed the {npc:183554s}. Once all three are fed, {npc:180924} will activate.'
+L['gluttonous_overgrowth_note'] = 'Break all nearby {npc:184048s} to activate the rare.'
 L['protector_first_ones_note'] = 'Requires two people. Bring the matching runes to each console (found in the surrounding area) to open the barrier.'
 L['the_engulfer_note'] = 'Defend {npc:183505} until {npc:183516} jumps out of the rift.'
 L['zatojin_note'] = 'Pull nearby {npc:183721s} and let them apply 20 stacks of {spell:362976} until you are {spell:362983}. You must be standing over the {npc:183774} corpses when you are paralyzed for {npc:183764} to notice you.'
 
+L['bushel_of_produce_note'] = 'Kill a {npc:182368} to the north while it is buffed with {spell:360945} to gain the buff yourself. Kill more {npc:182368s} (they do not need the buff) until you are at 5 stacks, then break down the door to the treasure.'
 L['crushed_crate_note'] = 'Loot the {item:189767} from the indent in the large orb to the north. Give it to {npc:185151} in exchange for the {item:189768} which can break the fallen rocks.'
+L['domination_cache_note'] = 'The {item:189704} has a low chance to drop from {npc:181403s} and {npc:182426s} in the area.'
+L['drowned_broker_supplies_note'] = 'Tell {npc:181059} to take control of the nearby {npc:185282}.'
 L['forgotten_protovault_note'] = 'Only available during the {wq:Frog\'it} world quest.'
 L['library_vault_note'] = 'Click tablets in the Lexical Grotto until you find the correct {spell:362062} buff to open the vault.'
 L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern, behind the balls.'
@@ -698,6 +704,11 @@ Press the four {npc:185390s} to activate the teleporter in the center room of th
 • In the southern room with {npc:181652}
 • In the south-east room of the wards
 ]]
+
+L['prying_eye_discovery'] = 'Prying Eye Discovery'
+L['prying_eye_discovery_note'] = 'Can spawn in multiple locations. Easier to reach once flying is unlocked.'
+L['sandworn_chest'] = 'Sandworn Chest'
+L['sandworn_chest_note'] = 'Can spawn in multiple locations. Loot 5x {item:190198} from mobs in the area to construct the {item:190197}.'
 
 L['cache_avian_nest'] = 'Avian Nest'
 L['cache_cypher_bound'] = 'Cypher Bound Chest'
@@ -718,6 +729,15 @@ L['concordance_tranquil'] = 'Tranquil Concordance'
 L['concordance_note'] = 'Read each concordance to unlock entries at the |cFFFFFD00Lore Console|r in |cFFFFFD00Exile\'s Hollow|r.'
 
 L['echoed_jiro_note'] = 'Spend {npc:181059} energy to gain temporary buffs. Requires |cFFFFFD00Creatian|r research at the {npc:181397}.'
+
+L['patient_bufonid_note'] = 'Progress in the Zereth Mortis story until {npc:180950} offers {quest:65727}. Complete the quests each day to lure the {npc:185798} out of the pond.'
+L['patient_bufonid_note_day1'] = 'Collect 15x {item:190852} from Vespoid in the zone.'
+L['patient_bufonid_note_day2'] = 'Purchase 30x {item:172053} from the Auction House.'
+L['patient_bufonid_note_day3'] = 'Purchase 200x {item:173202} from the Auction House.'
+L['patient_bufonid_note_day4'] = 'Purchase 10x {item:173037} from the Auction House.'
+L['patient_bufonid_note_day5'] = 'Collect 5x {item:187704} from mobs in the zone.'
+L['patient_bufonid_note_day6'] = 'Purchase 5x {item:190880} from {npc:185748} near Pilgrim\'s Grace.'
+L['patient_bufonid_note_day7'] = 'Purchase 1x {item:187171} from the {npc:180114} in the Tazavesh dungeon.'
 
 L['options_icons_concordances'] = 'Lore Concordances'
 L['options_icons_concordances_desc'] = 'Display locations of lore concordance consoles.'

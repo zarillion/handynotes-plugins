@@ -677,13 +677,19 @@ L['tormentors_note'] = [[
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = '攻擊 {npc:183958} 和 {npc:183961} 來啟動稀有.'
+L['dune_dominance_note'] = nil
+L['feasting_note'] = nil
 L['furidian_note'] = '和 |cFFFFFD00可疑的憤怒儲藏庫|r 互動.'
 L['garudeon_note'] = '從附近的區域收集 {npc:183562} 並且使用 {spell:362655} 來餵食 {npc:183554}. 當三個都被餵食後, {npc:180924} 會啟動.'
+L['gluttonous_overgrowth_note'] = nil
 L['protector_first_ones_note'] = '需要兩人. 攜帶對應的符文 (可以在附近區域找到) 到各個控制台來開啟屏障.'
 L['the_engulfer_note'] = '保護 {npc:183505} 直到 {npc:183516} 從裂隙中跳出.'
 L['zatojin_note'] = '吸引附近的 {npc:183721} 並且讓他們對你堆疊20層的 {spell:362976} 直到你受到 {spell:362983}. 當你麻痺時你必須站在 {npc:183774} 屍體上, 以便讓 {npc:183764} 注意到你.'
 
+L['bushel_of_produce_note'] = nil
 L['crushed_crate_note'] = '撿起 {item:189767} from the indent in the large orb to the north. 把它交給 {npc:185151} 來交換 {item:189768} 用來打碎墜落的石頭.'
+L['domination_cache_note'] = nil
+L['drowned_broker_supplies_note'] = nil
 L['forgotten_protovault_note'] = '僅在世界任務 {wq:蛙蛙} 期間內可取得.'
 L['library_vault_note'] = '在詞彙石窟點擊石板直到你找到正確的 {spell:362062} 增益來開啟寶庫.'
 L['mistaken_ovoid_note'] = '在次元瀑布洞穴內, 球體的後面.'
@@ -697,7 +703,12 @@ L['undulating_foliage_note'] = [[
   • 在滋長界地西南方的房間
   • 在有 {npc:181652} 的南邊房間
   • 在滋長界地東南方的房間
-  ]]
+]]
+
+L['prying_eye_discovery'] = nil
+L['prying_eye_discovery_note'] = nil
+L['sandworn_chest'] = nil
+L['sandworn_chest_note'] = nil
 
 L['cache_avian_nest'] = '鳥巢'
 L['cache_cypher_bound'] = '暗語束縛箱子'
@@ -718,6 +729,15 @@ L['concordance_tranquil'] = '平靜索引'
 L['concordance_note'] = '閱讀每一個索引來解鎖在 |cFFFFFD00流亡者洞穴|r 內 |cFFFFFD00知識控制台|r 的項目.'
 
 L['echoed_jiro_note'] = '消耗 {npc:181059} 能量來取得暫時的增益. 需要 {npc:181397} 的 |cFFFFFD00克里希安|r 研究.'
+
+L['patient_bufonid_note'] = nil
+L['patient_bufonid_note_day1'] = nil
+L['patient_bufonid_note_day2'] = nil
+L['patient_bufonid_note_day3'] = nil
+L['patient_bufonid_note_day4'] = nil
+L['patient_bufonid_note_day5'] = nil
+L['patient_bufonid_note_day6'] = nil
+L['patient_bufonid_note_day7'] = nil
 
 L['options_icons_concordances'] = '知識索引'
 L['options_icons_concordances_desc'] = '顯示知識索引控制台的位置'
