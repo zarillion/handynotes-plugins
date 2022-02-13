@@ -213,6 +213,8 @@ ns.groups.DREDBATS = Group('dredbats', 'flight_point_g',
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.ECHOED_JIROS = Group('echoed_jiros', 'peg_gn',
     {defaults = ns.GROUP_HIDDEN})
+ns.groups.EXILE_TALES = Group('exile_tales', 4072784,
+    {defaults = ns.GROUP_HIDDEN})
 ns.groups.FAERIE_TALES = Group('faerie_tales', 355498,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.FUGITIVES = Group('fugitives', 236247, {defaults = ns.GROUP_HIDDEN})

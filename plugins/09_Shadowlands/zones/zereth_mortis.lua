@@ -843,3 +843,32 @@ map.nodes[52482899] = Genesii({id = 184946, requires = CREATIAN_NE})
 map.nodes[63121948] = Genesii({id = 184946, requires = CREATIAN_NE})
 map.nodes[59713736] = Nascii_({id = 184947, requires = CREATIAN_NE})
 map.nodes[69743354] = Nascii_({id = 184947, requires = CREATIAN_NE})
+
+-------------------------------------------------------------------------------
+----------------------------- TALES OF THE EXILE ------------------------------
+-------------------------------------------------------------------------------
+
+local Tale = Class('Tale', ns.node.Collectible,
+    {group = ns.groups.EXILE_TALES, icon = 4072784})
+
+map.nodes[35755546] = Tale({
+    rewards = {Achievement({id = 15509, criteria = 53299})} -- Part 1
+})
+map.nodes[41796247] = Tale({
+    rewards = {Achievement({id = 15509, criteria = 53300})} -- Part 2
+})
+map.nodes[37544601] = Tale({
+    rewards = {Achievement({id = 15509, criteria = 53301})} -- Part 3
+})
+map.nodes[49827656] = Tale({
+    rewards = {Achievement({id = 15509, criteria = 53302})} -- Part 4
+})
+map.nodes[39033109] = Tale({
+    rewards = {Achievement({id = 15509, criteria = 53303})} -- Part 5
+})
+map.nodes[67422518] = Tale({
+    rewards = {Achievement({id = 15509, criteria = 53304})} -- Part 6
+})
+map.nodes[64833364] = Tale({
+    rewards = {Achievement({id = 15509, criteria = 53305})} -- Part 7
+})
