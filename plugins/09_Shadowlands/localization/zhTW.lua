@@ -686,11 +686,13 @@ L['protector_first_ones_note'] = '需要兩人. 攜帶對應的符文 (可以在
 L['the_engulfer_note'] = '保護 {npc:183505} 直到 {npc:183516} 從裂隙中跳出.'
 L['zatojin_note'] = '吸引附近的 {npc:183721} 並且讓他們對你堆疊20層的 {spell:362976} 直到你受到 {spell:362983}. 當你麻痺時你必須站在 {npc:183774} 屍體上, 以便讓 {npc:183764} 注意到你.'
 
+L['architects_reserve_note'] = nil
 L['bushel_of_produce_note'] = nil
 L['crushed_crate_note'] = '撿起 {item:189767} from the indent in the large orb to the north. 把它交給 {npc:185151} 來交換 {item:189768} 用來打碎墜落的石頭.'
 L['domination_cache_note'] = nil
 L['drowned_broker_supplies_note'] = nil
 L['forgotten_protovault_note'] = '僅在世界任務 {wq:蛙蛙} 期間內可取得.'
+L['grateful_boon_note'] = nil
 L['library_vault_note'] = '在詞彙石窟點擊石板直到你找到正確的 {spell:362062} 增益來開啟寶庫.'
 L['mistaken_ovoid_note'] = '在次元瀑布洞穴內, 球體的後面.'
 L['sphere_treasure_note'] = '小心的從球體往上跳直到你到達寶藏處.'

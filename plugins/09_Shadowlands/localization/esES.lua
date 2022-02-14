@@ -687,11 +687,13 @@ L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas corresp
 L['the_engulfer_note'] = 'Defiende a {npc:183505} hasta que {npc:183516} salte de la grieta.'
 L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar sobre los cuerpos de los {npc:183774} cuando seas paralizado para que {npc:183764} se fije en ti.'
 
+L['architects_reserve_note'] = nil
 L['bushel_of_produce_note'] = 'Mata al {npc:182368} al norte mientras tenga el buff {spell:360945} para ganártelo tú. Mata más {npc:182368} (no necesitan tener el buff) hasta que tengas 5 acumulaciones. Ya puedes romper la puerta que da al tesoro.'
 L['crushed_crate_note'] = 'Despoja la {item:189767} de la hendidura sobre el gran orbe al norte. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
 L['domination_cache_note'] = 'La {item:189704} tiene pocas probabilidades de caer de los {npc:181403} y de los {npc:182426} de la zona.'
 L['drowned_broker_supplies_note'] = 'Dile a {npc:181059} que coja el control de un {npc:185282} cercano.'
 L['forgotten_protovault_note'] = 'Sólo está disponible durante la misión del mundo {wq:A salto de rana}.'
+L['grateful_boon_note'] = nil
 L['library_vault_note'] = 'Haz click en las tablillas de la Gruta del Léxico hasta que encuentres el orden correcto y ganes el buff {spell:362062} para abrir la cámara.'
 L['mistaken_ovoid_note'] = 'Dentro de la caverna Cataratas Dimensionales, detrás de las bolas.'
 L['sphere_treasure_note'] = 'Salta las esferas con cuidado hasta llegar al tesoro.'

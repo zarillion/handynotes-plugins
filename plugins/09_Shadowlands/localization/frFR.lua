@@ -689,11 +689,13 @@ L['protector_first_ones_note'] = nil
 L['the_engulfer_note'] = nil
 L['zatojin_note'] = nil
 
+L['architects_reserve_note'] = nil
 L['bushel_of_produce_note'] = nil
 L['crushed_crate_note'] = nil
 L['domination_cache_note'] = nil
 L['drowned_broker_supplies_note'] = nil
 L['forgotten_protovault_note'] = nil
+L['grateful_boon_note'] = nil
 L['library_vault_note'] = nil
 L['mistaken_ovoid_note'] = nil
 L['sphere_treasure_note'] = nil

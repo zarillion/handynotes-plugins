@@ -21,6 +21,8 @@ local Arrow = ns.poi.Arrow
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local NIGHTFAE = ns.covenants.FAE
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 1970, settings = true})
@@ -34,7 +36,7 @@ local bfdry = Map({id = 2027}) -- Blooming Foundry
 map.nodes[64743369] = Rare({
     id = 179006,
     quest = 65549,
-    rlabel = ns.status.LightBlue('+30 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52977}), -- Adventurer of Zereth Mortis
         Transmog({item = 189903, slot = L['cloth']}), -- Sand Sifting Sandals
@@ -46,7 +48,8 @@ map.nodes[64743369] = Rare({
 map.nodes[49566751] = Rare({
     id = 183596,
     quest = 65553,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    vignette = 4948,
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52978}), -- Adventurer of Zereth Mortis
         Transmog({item = 189947, slot = L['mail']}), -- Majestic Watcher's Girdle
@@ -58,8 +61,9 @@ map.nodes[49566751] = Rare({
 map.nodes[47486228] = Rare({
     id = 183953,
     quest = 65273,
+    vignette = 4989,
     note = L['corrupted_architect_note'],
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 53047}), -- Adventurer of Zereth Mortis
         Transmog({item = 189907, slot = L['cloth']}), -- Crown of Contorted Thought
@@ -71,7 +75,7 @@ map.nodes[47486228] = Rare({
 map.nodes[53634435] = Rare({
     id = 180917,
     quest = 64716,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52974}), -- Adventurer of Zereth Mortis
         Transmog({item = 189910, slot = L['cloth']}), -- Adornment of Jingling Fractals
@@ -83,8 +87,9 @@ map.nodes[53634435] = Rare({
 
 map.nodes[47474516] = Rare({
     id = 184409,
-    quest = nil,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    quest = 65555,
+    vignette = 4961,
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52982}), -- Adventurer of Zereth Mortis
         Transmog({item = 189949, slot = L['mail']}), -- Shackles of the Bound Guardian
@@ -96,7 +101,7 @@ map.nodes[61826060] = Rare({
     id = 178229,
     quest = 65557,
     note = L['feasting_note'],
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52973}), -- Adventurer of Zereth Mortis
         Transmog({item = 189969, slot = L['mail']}), -- Vespoid's Clanging Legguards
@@ -110,13 +115,20 @@ map.nodes[64585865] = Rare({
     id = 183646,
     quest = 65544,
     note = L['furidian_note'],
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 53031}), -- Adventurer of Zereth Mortis
         Transmog({item = 189920, slot = L['leather']}), -- Viperid Keeper's Gloves
         Transmog({item = 189932, slot = L['mail']}), -- Slick Scale Chitin
         Transmog({item = 189963, slot = L['plate']}), -- Sculpted Ouroboros Clasp
         Transmog({item = 190004, slot = L['dagger']}) -- Furidian's Inscribed Barb
+    },
+    pois = {
+        POI({
+            62595982, -- cube
+            64005729, -- asteriks
+            64456040 -- sphere
+        })
     }
 }) -- Furidian
 
@@ -124,7 +136,7 @@ map.nodes[69073662] = Rare({
     id = 180924,
     quest = 64719,
     note = L['garudeon_note'],
-    rlabel = ns.status.LightBlue('+30 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 53025}), -- Adventurer of Zereth Mortis
         Transmog({item = 189951, slot = L['plate']}), -- Sunbathed Avian Armor
@@ -139,7 +151,8 @@ map.nodes[69073662] = Rare({
 map.nodes[59862111] = Rare({
     id = 182318,
     quest = 65583,
-    rlabel = ns.status.LightBlue('+30 ' .. L['rep']),
+    vignette = 4909,
+    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52985}), -- Adventurer of Zereth Mortis
         Transmog({item = 189968, slot = L['leather']}), -- Dreadlord General's Tunic
@@ -151,7 +164,7 @@ map.nodes[53089305] = Rare({
     id = 178778,
     quest = nil,
     note = L['gluttonous_overgrowth_note'],
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52971}), -- Adventurer of Zereth Mortis
         Transmog({item = 189929, slot = L['leather']}), -- Vinebound Strap
@@ -164,7 +177,7 @@ map.nodes[53089305] = Rare({
 map.nodes[80384706] = Rare({
     id = 178963,
     quest = 63988,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52986}), -- Adventurer of Zereth Mortis
         Transmog({item = 190001, slot = L['shield']}) -- Gorkek's Glistening Throatguard
@@ -175,7 +188,7 @@ map.nodes[80384706] = Rare({
 map.nodes[52612503] = Rare({
     id = 178563,
     quest = 65581,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52984}), -- Adventurer of Zereth Mortis
         Transmog({item = 189919, slot = L['leather']}), -- Skittering Scarabid Treads
@@ -188,7 +201,7 @@ map.nodes[52612503] = Rare({
 map.nodes[58186837] = Rare({
     id = 183748,
     quest = 65551,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 53048}), -- Adventurer of Zereth Mortis
         Transmog({item = 189931, slot = L['leather']}), -- Annelid's Hinge Wrappings
@@ -198,14 +211,17 @@ map.nodes[58186837] = Rare({
     }
 }) -- Helmix
 
+-- Craft/loot Aurelid Lure quest=65039
+-- Extra quest for person with lura when Hirukon dies? quest=65785
 map.nodes[52287541] = Rare({
     id = 180978,
-    quest = nil,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    quest = 65548,
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52990}), -- Adventurer of Zereth Mortis
         Transmog({item = 189905, slot = L['cloth']}), -- Hirukon's Syrupy Squeezers
         Transmog({item = 189946, slot = L['mail']}), -- Jellied Aurelid Mantle
+        Transmog({item = 190005, slot = L['1h_sword']}), -- Hirukon's Radiant Reach
         Mount({id = 1434, item = 187676}) -- Deepstar Aurelid
     }
 }) -- Hirukon
@@ -214,7 +230,7 @@ map.nodes[58654039] = Rare({
     id = 183814,
     quest = 65257,
     note = L['in_small_cave'],
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 53046}), -- Adventurer of Zereth Mortis
         Transmog({item = 189909, slot = L['cloth']}), -- Pantaloons of Cold Recesses
@@ -225,7 +241,7 @@ map.nodes[58654039] = Rare({
 map.nodes[54083493] = Rare({
     id = 178508,
     quest = 65547,
-    rlabel = ns.status.LightBlue('+30 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 53020}), -- Adventurer of Zereth Mortis
         Transmog({item = 189923, slot = L['leather']}), -- Tarachnid's Terrifying Visage
@@ -238,7 +254,7 @@ map.nodes[54083493] = Rare({
 map.nodes[57998454] = Rare({
     id = 179043,
     quest = 65582,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52981}), -- Adventurer of Zereth Mortis
         Transmog({item = 189912, slot = L['cloth']}), -- Orixal's Moist Sash
@@ -251,7 +267,7 @@ map.nodes[57998454] = Rare({
 map.nodes[43308762] = Rare({
     id = 183746,
     quest = 65556,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52972}), -- Adventurer of Zereth Mortis
         Transmog({item = 189914, slot = L['cloth']}), -- Otiosen's Regenerative Wristwraps
@@ -265,7 +281,7 @@ map.nodes[38872762] = Rare({
     id = 180746,
     quest = 64668,
     note = L['protector_first_ones_note'],
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52989}), -- Adventurer of Zereth Mortis
         Transmog({item = 189984, slot = L['cloak']}), -- Drape of Idolized Symmetry
@@ -276,7 +292,7 @@ map.nodes[38872762] = Rare({
 map.nodes[53384707] = Rare({
     id = 183927,
     quest = 65574,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52975}), -- Adventurer of Zereth Mortis
         Transmog({item = 189927, slot = L['leather']}), -- Broker's Gnawed Spaulders
@@ -288,19 +304,20 @@ map.nodes[53384707] = Rare({
 map.nodes[42302099] = Rare({
     id = 184413,
     quest = 65549,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52988}), -- Adventurer of Zereth Mortis
         Transmog({item = 189908, slot = L['cloth']}), -- Gorger's Leggings of Famine
         Transmog({item = 189916, slot = L['leather']}), -- Mutated Devourer's Harness
-        Transmog({item = 189941, slot = L['mail']}) -- Voracious Diadem
+        Transmog({item = 189941, slot = L['mail']}), -- Voracious Diadem
+        Item({item = 189972, quest = 65505, covenant = NIGHTFAE}) -- Scorpid Soul
     }
 }) -- Shifting Stargorger
 
 map.nodes[35877121] = Rare({
     id = 183722,
     quest = 65240,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52980}), -- Adventurer of Zereth Mortis
         Transmog({item = 189911, slot = L['cloth']}), -- Sublime Fur Mantle
@@ -313,7 +330,7 @@ map.nodes[35877121] = Rare({
 map.nodes[49783914] = Rare({
     id = 183925,
     quest = 65272,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52979}), -- Adventurer of Zereth Mortis
         Transmog({item = 189915, slot = L['cloth']}), -- Tahkwitz' Cloth Ribbon
@@ -326,7 +343,8 @@ map.nodes[49783914] = Rare({
 map.nodes[54507344] = Rare({
     id = 181249,
     quest = 65550,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    vignette = 4903,
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52987}), -- Adventurer of Zereth Mortis
         Transmog({item = 189928, slot = L['leather']}), -- Centripetal Waistband
@@ -340,7 +358,7 @@ map.nodes[43947530] = Rare({
     id = 183516,
     quest = 65580,
     note = L['the_engulfer_note'],
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 53050}), -- Adventurer of Zereth Mortis
         Transmog({item = 190006, slot = L['1h_sword']}) -- Anima-Siphoning Sword
@@ -350,7 +368,7 @@ map.nodes[43947530] = Rare({
 map.nodes[39555737] = Rare({
     id = 181360,
     quest = 65239,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 53049}), -- Adventurer of Zereth Mortis
         Transmog({item = 190048, slot = L['fist']}) -- Vexis' Wisest Fang
@@ -360,7 +378,7 @@ map.nodes[39555737] = Rare({
 map.nodes[47044698] = Rare({
     id = 183747,
     quest = 65584,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52983}), -- Adventurer of Zereth Mortis
         Transmog({item = 189901, slot = L['cloth']}), -- Vitiane's Defiled Vestment
@@ -372,7 +390,8 @@ map.nodes[47044698] = Rare({
 map.nodes[64054975] = Rare({
     id = 183737,
     quest = 65241,
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    vignette = 4938,
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52976}), -- Adventurer of Zereth Mortis
         Transmog({item = 190052, slot = L['dagger']}), -- Xy'rath's Letter Opener
@@ -386,7 +405,7 @@ map.nodes[43513294] = Rare({
     id = 183764,
     quest = 65251,
     note = L['zatojin_note'],
-    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 53044}), -- Adventurer of Zereth Mortis
         Transmog({item = 189902, slot = L['cloth']}), -- Hapless Traveler's Treads
@@ -396,6 +415,8 @@ map.nodes[43513294] = Rare({
 }) -- Zatojin
 
 ------------------------------- DUNE DOMINANCE --------------------------------
+
+-- quest 58013 ??
 
 map.nodes[63202603] = Rare({
     id = 182114,
@@ -407,7 +428,7 @@ map.nodes[63202603] = Rare({
         Achievement({
             id = 15392,
             criteria = {
-                {id = 52992, quest = nil}, -- Iska, Outrider of Ruin
+                {id = 52992, quest = 65585}, -- Iska, Outrider of Ruin
                 {id = 52993, quest = nil}, -- High Reaver Damaris
                 {id = 52994, quest = nil} -- Reanimatrox Marzan
             }
@@ -416,8 +437,8 @@ map.nodes[63202603] = Rare({
         Transmog({item = 190126, slot = L['polearm'], note = '{npc:182114}'}), -- Rotculler's Encroaching Shears
         Transmog({item = 190459, slot = L['shield'], note = '{npc:182155}'}), -- Cold Dispiriting Barricade
         Transmog({item = 190460, slot = L['polearm'], note = '{npc:182155}'}), -- High Reaver's Sickle
-        Transmog({item = 190107, slot = L['staff'], note = '{npc:182155}'}), -- Staff of Broken Coils
-        Mount({item = 190765, id = 1584, note = '{npc:182114}'}) -- Iska's Mawrat Leash
+        Transmog({item = 190107, slot = L['staff'], note = '{npc:182114}'}), -- Staff of Broken Coils
+        Mount({item = 190765, id = 1584, note = '{npc:182120}'}) -- Iska's Mawrat Leash (quest=65706)
     }
 })
 
@@ -427,9 +448,12 @@ map.nodes[63202603] = Rare({
 
 -- Unknown/Mystery Treasures:
 -- 42025181 Provis Cache (requires Provis Cache Key)
+-- Pocopoc costume unlock (first appearance learned) (quest=65531)
 
 map.nodes[61163709] = Treasure({
     quest = nil,
+    requires = ns.requirement.GarrisonTalent(1931),
+    note = L['architects_reserve_note'],
     rewards = {
         Achievement({id = 15331, criteria = 53053}), -- Treasures of Zereth Mortis
         Achievement({id = 15508, criteria = 53290}), -- Fashion of the First Ones
@@ -460,7 +484,8 @@ map.nodes[56746416] = Treasure({
 map.nodes[38253724] = Treasure({
     quest = 64667,
     rewards = {
-        Achievement({id = 15331, criteria = 52965}) -- Treasures of Zereth Mortis
+        Achievement({id = 15331, criteria = 52965}), -- Treasures of Zereth Mortis
+        Transmog({item = 190637, slot = L['1h_mace']}) -- Percussive Maintenance Instrument
     }
 }) -- Damaged Jiro Stash
 
@@ -469,7 +494,8 @@ map.nodes[60011798] = Treasure({
     note = L['domination_cache_note'],
     requires = ns.requirement.Item(189704),
     rewards = {
-        Achievement({id = 15331, criteria = 53018}) -- Treasures of Zereth Mortis
+        Achievement({id = 15331, criteria = 53018}), -- Treasures of Zereth Mortis
+        Transmog({item = 190638, slot = L['2h_sword']}) -- Tormented Mawsteel Greatsword
     }
 }) -- Domination Cache
 
@@ -480,7 +506,7 @@ map.nodes[35167020] = Treasure({
     rewards = {
         Achievement({id = 15331, criteria = 53061}), -- Treasures of Zereth Mortis
         Achievement({id = 15508, criteria = 53288}), -- Fashion of the First Ones
-        Item({item = 190059, quest = 65526}) -- Pirate Pocopoc (also quest=65531)
+        Item({item = 190059, quest = 65526}) -- Pirate Pocopoc
     },
     pois = {POI({34497053})} -- Coreless Aurelid
 }) -- Drowned Broker Supplies
@@ -504,7 +530,8 @@ map.nodes[67016935] = Treasure({
     quest = nil,
     note = L['forgotten_protovault_note'],
     rewards = {
-        Achievement({id = 15331, criteria = 52967}) -- Treasures of Zereth Mortis
+        Achievement({id = 15331, criteria = 52967}), -- Treasures of Zereth Mortis
+        Item({item = 189469, quest = nil}) -- Schematic: Prototype Leaper
     }
 }) -- Forgotten Proto-Vault
 
@@ -515,18 +542,21 @@ map.nodes[38977321] = Treasure({
     }
 }) -- Gnawed Valise
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {
---         Achievement({id = 15331, criteria = 53066}) -- Treasures of Zereth Mortis
---     }
--- }) -- Grateful Boon
+map.nodes[37177832] = Treasure({
+    quest = 65545,
+    note = L['grateful_boon_note'],
+    rewards = {
+        Achievement({id = 15331, criteria = 53066}), -- Treasures of Zereth Mortis
+        Item({item = 189478, quest = nil}) -- Schematic: Adorned Vombata
+    }
+}) -- Grateful Boon
 
 map.nodes[58847706] = Treasure({
     quest = 65173,
     note = L['in_cave'] .. ' ' .. L['library_vault_note'],
     rewards = {
-        Achievement({id = 15331, criteria = 52887}) -- Treasures of Zereth Mortis
+        Achievement({id = 15331, criteria = 52887}), -- Treasures of Zereth Mortis
+        Item({item = 189447, quest = nil}) -- Schematic: Viperid Menace
     },
     pois = {POI({59238144})} -- Cave entrance
 }) -- Library Vault (Lost Scroll)
@@ -542,12 +572,14 @@ map.nodes[53557223] = Treasure({
     quest = 65522,
     note = L['mistaken_ovoid_note'],
     rewards = {
-        Achievement({id = 15331, criteria = 53060}) -- Treasures of Zereth Mortis
+        Achievement({id = 15331, criteria = 53060}), -- Treasures of Zereth Mortis
+        Item({item = 189435, quest = nil}) -- Schematic: Multichicken
     }
 }) -- Mistaken Ovoid
 
 map.nodes[34815604] = Treasure({
     quest = 65537,
+    rlabel = ns.status.LightBlue('+75 ' .. L['rep']),
     rewards = {
         Achievement({id = 15331, criteria = 53062}) -- Treasures of Zereth Mortis
     }
@@ -565,21 +597,23 @@ map.nodes[60874295] = Treasure({
     rewards = {
         Achievement({id = 15331, criteria = 53064}), -- Treasures of Zereth Mortis
         Achievement({id = 15508, criteria = 53294}), -- Fashion of the First Ones
-        Item({item = 190098, quest = nil}) -- Pepepec
+        Item({item = 190098, quest = 65538}) -- Pepepec
     }
 }) -- Pilfered Curio
 
 map.nodes[52577147] = Treasure({
     quest = 65546,
     rewards = {
-        Achievement({id = 15331, criteria = 53067}) -- Treasures of Zereth Mortis
+        Achievement({id = 15331, criteria = 53067}), -- Treasures of Zereth Mortis
+        Transmog({item = 190952, slot = L['offhand']}) -- Protoflora Harvester
     }
 }) -- Protoflora Harvester
 
 map.nodes[46643094] = Treasure({
     quest = 65540,
     rewards = {
-        Achievement({id = 15331, criteria = 53063}) -- Treasures of Zereth Mortis
+        Achievement({id = 15331, criteria = 53063}), -- Treasures of Zereth Mortis
+        Transmog({item = 190942, slot = L['1h_axe']}) -- Protomineral Extractor
     }
 }) -- Protomineral Extractor
 
@@ -589,7 +623,8 @@ bfdry.nodes[65645023] = Treasure({
     requires = ns.requirement.GarrisonTalent(1931),
     rewards = {
         Achievement({id = 15331, criteria = 53069}), -- Treasures of Zereth Mortis
-        Achievement({id = 15508, criteria = 53287}) -- Fashion of the First Ones
+        Achievement({id = 15508, criteria = 53287}), -- Fashion of the First Ones
+        Item({item = 190058, quest = nil}) -- Peaceful Pocopoc
     }
 }) -- Ripened Protopear
 
@@ -603,6 +638,7 @@ map.nodes[37906520] = Treasure({
 
 map.nodes[34046764] = Treasure({
     quest = 65543,
+    rlabel = ns.status.LightBlue('+75 ' .. L['rep']),
     rewards = {
         Achievement({id = 15331, criteria = 53065}) -- Treasures of Zereth Mortis
     },
@@ -614,7 +650,8 @@ map.nodes[58727301] = Treasure({
     note = L['submerged_chest_note'],
     rewards = {
         Achievement({id = 15331, criteria = 52964}), -- Treasures of Zereth Mortis
-        Achievement({id = 15508, criteria = 53291}) -- Fashion of the First Ones
+        Achievement({id = 15508, criteria = 53291}), -- Fashion of the First Ones
+        Item({item = 190061, quest = nil}) -- Admiral Pocopoc
     },
     pois = {POI({59427684})} -- Dangerous Orb of Power
 }) -- Submerged Chest
@@ -643,7 +680,8 @@ microd.nodes[51618820] = Treasure({
     note = L['template_archive_note'],
     rewards = {
         Achievement({id = 15331, criteria = 52966}), -- Treasures of Zereth Mortis
-        Achievement({id = 15508, criteria = 53289}) -- Fashion of the First Ones
+        Achievement({id = 15508, criteria = 53289}), -- Fashion of the First Ones
+        Item({item = 190060, quest = 65527}) -- Adventurous Pocopoc
     },
     pois = {POI({72024882}), Arrow({72024882, 63855973})}
 }) -- Template Archive
@@ -678,7 +716,8 @@ map.nodes[48016641] = Treasure({
     label = L['prying_eye_discovery'],
     note = L['prying_eye_discovery_note'],
     rewards = {
-        Achievement({id = 15508, criteria = 53293}) -- Fashion of the First Ones
+        Achievement({id = 15508, criteria = 53293}), -- Fashion of the First Ones
+        Item({item = 190096, quest = 65534}) -- Pocobold
     },
     pois = {POI({35244371, 34334431, 51767789})}
 }) -- Prying Eye Discovery
@@ -692,7 +731,6 @@ map.nodes[60022583] = Treasure({
     label = L['sandworn_chest'],
     note = L['sandworn_chest_note'],
     rewards = {
-        Item({item = 190189, note = '12 - 23'}), -- Sandworn Relic
         Toy({item = 190734}) -- Makaris's Satchel of Mines
     },
     pois = {POI({60863786, 61401763, 63182603, 65972694})}
@@ -929,7 +967,7 @@ local Lore = Class('Concordance', ns.node.Node, {
 })
 
 map.nodes[31775466] = Lore({label = L['concordance_excitable']})
-map.nodes[38953127] = Lore({label = L['concordance_excitable']})
+map.nodes[38953127] = Lore({label = L['concordance_excitable']}) -- quest=65213
 map.nodes[50405096] = Lore({label = L['concordance_excitable']})
 map.nodes[64616035] = Lore({label = L['concordance_excitable']})
 map.nodes[35037144] = Lore({label = L['concordance_mercurial']})
