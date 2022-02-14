@@ -678,24 +678,24 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
-L['dune_dominance_note'] = nil
-L['feasting_note'] = nil
+L['dune_dominance_note'] = 'Los tres élites raros para el logro {achievement:15392} aparecen en el mismo sitio.'
+L['feasting_note'] = 'A veces rodeará la zona antes de volver a este sitio.'
 L['furidian_note'] = 'Interactúa con  la |cFFFFFD00Cámara Sospechosamente Enfadada|r.'
 L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
-L['gluttonous_overgrowth_note'] = nil
+L['gluttonous_overgrowth_note'] = 'Rompe todas las {npc:184048} cercanas para activar al {npc:178778}.'
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
 L['the_engulfer_note'] = 'Defiende a {npc:183505} hasta que {npc:183516} salte de la grieta.'
 L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar sobre los cuerpos de los {npc:183774} cuando seas paralizado para que {npc:183764} se fije en ti.'
 
-L['bushel_of_produce_note'] = nil
+L['bushel_of_produce_note'] = 'Mata al {npc:182368} al norte mientras tenga el buff {spell:360945} para ganártelo tú. Mata más {npc:182368} (no necesitan tener el buff) hasta que tengas 5 acumulaciones. Ya puedes romper la puerta que da al tesoro.'
 L['crushed_crate_note'] = 'Despoja la {item:189767} de la hendidura sobre el gran orbe al norte. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
-L['domination_cache_note'] = nil
-L['drowned_broker_supplies_note'] = nil
+L['domination_cache_note'] = 'La {item:189704} tiene pocas probabilidades de caer de los {npc:181403} y de los {npc:182426} de la zona.'
+L['drowned_broker_supplies_note'] = 'Dile a {npc:181059} que coja el control de un {npc:185282} cercano.'
 L['forgotten_protovault_note'] = 'Sólo está disponible durante la misión del mundo {wq:A salto de rana}.'
 L['library_vault_note'] = 'Haz click en las tablillas de la Gruta del Léxico hasta que encuentres el orden correcto y ganes el buff {spell:362062} para abrir la cámara.'
 L['mistaken_ovoid_note'] = 'Dentro de la caverna Cataratas Dimensionales, detrás de las bolas.'
 L['sphere_treasure_note'] = 'Salta las esferas con cuidado hasta llegar al tesoro.'
-L['submerged_chest_note'] = nil
+L['submerged_chest_note'] = 'Absorbe el |cFFFFFD00Orbe de Poder Peligroso|r al sur. Ahora interactúa con la |cFFFFFD00Bomba Olvidada|r junto al tesoro.'
 L['symphonic_vault_note'] = 'Examina al {npc:183998} para escuchar una secuencia de cuatro sonidos. Cada {npc:183950} de la sala reproduce un sonido. Interactúa con ellas en el orden adecuado para desbloquear el tesoro.'
 L['template_archive_note'] = 'Empuja el {npc:183339} de la sala dentro del {npc:183337} que bloquea el paso al tesoro.'
 L['undulating_foliage_note'] = [[
@@ -707,10 +707,10 @@ Pulsa los cuatro {npc:185390} para activar el teleportador del centro de la sala
 • En la habitación sureste de los distritos
 ]]
 
-L['prying_eye_discovery'] = nil
-L['prying_eye_discovery_note'] = nil
-L['sandworn_chest'] = nil
-L['sandworn_chest_note'] = nil
+L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
+L['prying_eye_discovery_note'] = 'Puede aparecer en varios sitios. Es más fácil de alcanzar cuando el volar esté desbloqueado.'
+L['sandworn_chest'] = 'Cofre Erosionado por la Arena'
+L['sandworn_chest_note'] = 'Puede aparecer en varios sitios. Despoja {item:190198} x5 de los enemigos de la zona para construir la {item:190197}.'
 
 L['cache_avian_nest'] = 'Nido Aviario'
 L['cache_cypher_bound'] = 'Cofre Reforzado con Clave'
@@ -732,14 +732,14 @@ L['concordance_note'] = 'Lee cada concordancia para desbloquear entradas en la |
 
 L['echoed_jiro_note'] = 'Gasta energia de {npc:181059} para ganar bufos temporales. Requiere investigar |cFFFFFD00Creatiano|r en la {npc:181397}.'
 
-L['patient_bufonid_note'] = nil
-L['patient_bufonid_note_day1'] = nil
-L['patient_bufonid_note_day2'] = nil
-L['patient_bufonid_note_day3'] = nil
-L['patient_bufonid_note_day4'] = nil
-L['patient_bufonid_note_day5'] = nil
-L['patient_bufonid_note_day6'] = nil
-L['patient_bufonid_note_day7'] = nil
+L['patient_bufonid_note'] = 'Progresa en la historia de Zereth Mortis hasta que {npc:180950} ofrezca la misión {quest:65727}. Completa las misiones cada día para atraer un {npc:185798} fuera del estanque.'
+L['patient_bufonid_note_day1'] = 'Recoge {item:190852} x15 de los Vespoide de la zona.'
+L['patient_bufonid_note_day2'] = 'Compra {item:172053} x30 de la Casa de Subastas.'
+L['patient_bufonid_note_day3'] = 'Compra {item:173202} x200 de la Casa de Subastas.'
+L['patient_bufonid_note_day4'] = 'Compra {item:173037} x10 de la Casa de Subastas.'
+L['patient_bufonid_note_day5'] = 'Recoge {item:187704} x5 de los enemigos de la zona.'
+L['patient_bufonid_note_day6'] = 'Compra {item:190880} x5 a {npc:185748} cerca de Gracia del Peregrino.'
+L['patient_bufonid_note_day7'] = 'Compra {item:187171} x1 a {npc:180114} en la mazmorra de Tazavesh.'
 
 L['options_icons_concordances'] = 'Concordancias de Conocimiento'
 L['options_icons_concordances_desc'] = 'Muestra los sitios de las consolas de las concordancias de conocimiento.'
