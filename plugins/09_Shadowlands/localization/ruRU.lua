@@ -731,21 +731,21 @@ L['concordance_note'] = 'Прочитайте каждый конкорданс,
 
 L['echoed_jiro_note'] = 'Потратьте энергию у {npc:181059}, чтобы получить временные положительные эффекты. Требуется исследование |cFFFFFD00Созидайский|r у {npc:181397}'
 
-L['patient_bufonid_note'] = nil
-L['patient_bufonid_note_day1'] = nil
-L['patient_bufonid_note_day2'] = nil
-L['patient_bufonid_note_day3'] = nil
-L['patient_bufonid_note_day4'] = nil
-L['patient_bufonid_note_day5'] = nil
-L['patient_bufonid_note_day6'] = nil
-L['patient_bufonid_note_day7'] = nil
+L['patient_bufonid_note'] = 'Продвигайтесь по сюжету Зерет Мортис, пока {npc:180950} не предложит {quest:65727}. Выполняйте задания каждый день, чтобы выманить {npc:185798} из пруда.'
+L['patient_bufonid_note_day1'] = 'Соберите 15x {item:190852} из Веспоидов в локации.'
+L['patient_bufonid_note_day2'] = 'Купите 30x {item:172053} на аукционе.'
+L['patient_bufonid_note_day3'] = 'Купите 200x {item:173202} на аукционе.'
+L['patient_bufonid_note_day4'] = 'Купите 10x {item:173037} на аукционе.'
+L['patient_bufonid_note_day5'] = 'Соберите 5x {item:187704} с монстров в локации.'
+L['patient_bufonid_note_day6'] = 'Купите 5x {item:190880} у {npc:185748} рядом с Приютом Пилигрима.'
+L['patient_bufonid_note_day7'] = 'Купите 1x {item:187171} у {npc:180114} в подземелье Тазавеш.'
 
 L['options_icons_concordances'] = 'Свод конкордансов'
 L['options_icons_concordances_desc'] = 'Отображение местоположения консолей свода конкордансов.'
 L['options_icons_echoed_jiros'] = 'Вторящий Джиро'
 L['options_icons_echoed_jiros_desc'] = 'Показать места, где |cFFFFFFD0Вторящие Джиро|r предлагают баффы.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
-L['options_icons_exile_tales_desc'] = nil
+L['options_icons_exile_tales_desc'] = 'Отображение истории локации для достижения {achievement:15509}.'
 L['options_icons_puzzle_caches'] = 'Тайники с головоломками'
 L['options_icons_puzzle_caches_desc'] = 'Отображение местоположения тайников головоломок.'
 L['options_icons_zereth_caches'] = 'Защищенные шифром тайники'
