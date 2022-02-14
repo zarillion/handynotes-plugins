@@ -706,10 +706,10 @@ L['undulating_foliage_note'] = [[
 • В юго-восточной комнате двора
 ]]
 
-L['prying_eye_discovery'] = nil
-L['prying_eye_discovery_note'] = nil
-L['sandworn_chest'] = nil
-L['sandworn_chest_note'] = nil
+L['prying_eye_discovery'] = 'Находка любопытных'
+L['prying_eye_discovery_note'] = 'Может появляться в нескольких местах. Легче добраться, когда полеты разблокированы.'
+L['sandworn_chest'] = 'Пустынный сундук'
+L['sandworn_chest_note'] = 'Может появляться в нескольких местах. Соберите 5x {item:190198} с монстров в этом районе, чтобы создать {item:190197}.'
 
 L['cache_avian_nest'] = 'Гнездо авиана'
 L['cache_cypher_bound'] = 'Защищенный шифром сундук'
