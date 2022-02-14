@@ -241,9 +241,9 @@ L['zolla_note'] = 'Nos tomamos muy en serio nuestras defensas. Seamos grandes o 
 L['carriage_crusher_note'] = 'Sigue al {npc:180182} en las Fauces y deféndelo hasta que ataque el {npc:180246}.'
 L['chamber_note'] = 'Usa un {item:186718} del {npc:178257} en el Teletransportador Antiguo. Usa el Teletransportador Antiguo reparado para acceder a la cámara.'
 L['consumption_note'] = [[
-Este raro no soltará botín hasta que haya consumido a 40x {npc:179758} para transformarse en su forma azul sombreada (Raro).
+Este raro no soltará botín hasta que haya consumido a {npc:179758} x40 para transformarse en su forma azul sombreada (Raro).
 
-Este raro soltará objetos de investigación extra después de consumir otros 40x {npc:179758} para transformarse en su forma verde sombreada (Raro Élite).
+Este raro soltará objetos de investigación extra después de consumir otros {npc:179758} x40 para transformarse en su forma verde sombreada (Raro Élite).
 
 |cFFFF0000El raro no hará aparecer {npc:179758} para consumir si está en combate.|r
 ]]
