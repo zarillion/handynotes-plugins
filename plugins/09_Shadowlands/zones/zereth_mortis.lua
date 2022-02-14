@@ -674,14 +674,14 @@ map.nodes[51687956] = Class('Foliage', Treasure,
 -------------------------------------------------------------------------------
 
 map.nodes[48016641] = Treasure({
-    quest = nil,
+    quest = 65184,
     label = L['prying_eye_discovery'],
     note = L['prying_eye_discovery_note'],
     rewards = {
         Achievement({id = 15508, criteria = 53293}) -- Fashion of the First Ones
     },
     pois = {POI({35244371, 34334431, 51767789})}
-})
+}) -- Prying Eye Discovery
 
 -------------------------------------------------------------------------------
 
