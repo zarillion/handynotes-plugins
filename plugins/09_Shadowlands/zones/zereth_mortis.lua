@@ -777,27 +777,27 @@ map.nodes[48628747] = Puzzle({quest = 65318, label = L['cache_cantaric']})
 map.nodes[52984558] = Puzzle({quest = 65094, label = L['cache_cantaric']}) -- 65418 65416
 map.nodes[55004800] = Puzzle({quest = nil, label = L['cache_cantaric']})
 map.nodes[56007960] = Puzzle({quest = nil, label = L['cache_cantaric']})
-map.nodes[65674096] = Puzzle({quest = 65406, label = L['cache_cantaric']}) -- 65418
+map.nodes[65674096] = Puzzle({quest = 65094, label = L['cache_cantaric']}) -- 65418 65406
 
 map.nodes[36475646] = Puzzle({quest = 65322, label = L['cache_fugueal']})
 map.nodes[39184665] = Puzzle({quest = 65322, label = L['cache_fugueal']})
 map.nodes[42196878] = Puzzle({quest = nil, label = L['cache_fugueal']})
-map.nodes[44293098] = Puzzle({quest = 65317, label = L['cache_fugueal']})
-map.nodes[46006460] = Puzzle({quest = nil, label = L['cache_fugueal']})
+map.nodes[44303093] = Puzzle({quest = 65317, label = L['cache_fugueal']})
+map.nodes[46036461] = Puzzle({quest = 65093, label = L['cache_fugueal']})
 map.nodes[47117719] = Puzzle({quest = 65093, label = L['cache_fugueal']})
 map.nodes[47603910] = Puzzle({quest = nil, label = L['cache_fugueal']})
 map.nodes[57486576] = Puzzle({quest = 65093, label = L['cache_fugueal']})
 map.nodes[59712290] = Puzzle({quest = 65317, label = L['cache_fugueal']})
 map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
 
-map.nodes[33805430] = Puzzle({quest = 65321, label = L['cache_glissandian']})
+map.nodes[33785427] = Puzzle({quest = 65321, label = L['cache_glissandian']})
 map.nodes[39937284] = Puzzle({quest = 65321, label = L['cache_glissandian']})
-map.nodes[41803130] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[41843130] = Puzzle({quest = 65092, label = L['cache_glissandian']})
 map.nodes[44605050] = Puzzle({quest = nil, label = L['cache_glissandian']})
 map.nodes[45109410] = Puzzle({quest = nil, label = L['cache_glissandian']})
 map.nodes[51282573] = Puzzle({quest = 65412, label = L['cache_glissandian']}) -- 65418
 map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
-map.nodes[56008410] = Puzzle({quest = 65316, label = L['cache_glissandian']})
+map.nodes[56008416] = Puzzle({quest = 65316, label = L['cache_glissandian']})
 map.nodes[56636138] = Puzzle({quest = nil, label = L['cache_glissandian']})
 map.nodes[58893634] = Puzzle({quest = 65092, label = L['cache_glissandian']})
 
@@ -806,18 +806,18 @@ map.nodes[38377037] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[38503552] = Puzzle({quest = nil, label = L['cache_mezzonic']})
 map.nodes[39346043] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[43624033] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
-map.nodes[49953057] = Puzzle({quest = nil, label = L['cache_mezzonic']})
+map.nodes[49953046] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
 map.nodes[52347202] = Puzzle({quest = nil, label = L['cache_mezzonic']})
 map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[57863165] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
 map.nodes[64695282] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
 
-map.nodes[32005260] = Puzzle({quest = 64972, label = L['cache_toccatian']})
+map.nodes[32055258] = Puzzle({quest = 64972, label = L['cache_toccatian']})
 map.nodes[34606880] = Puzzle({quest = nil, label = L['cache_toccatian']})
 map.nodes[37014645] = Puzzle({quest = 64972, label = L['cache_toccatian']})
 map.nodes[46806700] = Puzzle({quest = nil, label = L['cache_toccatian']})
 map.nodes[52435706] = Puzzle({quest = 65314, label = L['cache_toccatian']})
-map.nodes[53208680] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[53258687] = Puzzle({quest = 65314, label = L['cache_toccatian']})
 map.nodes[62807390] = Puzzle({quest = nil, label = L['cache_toccatian']})
 map.nodes[64286332] = Puzzle({quest = 65319, label = L['cache_toccatian']})
 map.nodes[65594762] = Puzzle({quest = 65319, label = L['cache_toccatian']})
@@ -859,9 +859,11 @@ map.nodes[48196646] = AVIAN_NEST
 map.nodes[49556534] = AVIAN_NEST
 map.nodes[51106454] = AVIAN_NEST
 map.nodes[54298169] = AVIAN_NEST
+map.nodes[54825835] = AVIAN_NEST
 map.nodes[55185594] = AVIAN_NEST
 map.nodes[56647484] = AVIAN_NEST
 map.nodes[59106467] = AVIAN_NEST
+map.nodes[62004200] = AVIAN_NEST
 map.nodes[66004281] = AVIAN_NEST
 map.nodes[76305020] = AVIAN_NEST
 map.nodes[76895037] = AVIAN_NEST
@@ -893,6 +895,7 @@ map.nodes[52045296] = CYPHER_BOUND
 map.nodes[52075444] = CYPHER_BOUND
 map.nodes[52456163] = CYPHER_BOUND
 map.nodes[52707519] = CYPHER_BOUND
+map.nodes[52895864] = CYPHER_BOUND
 map.nodes[53066373] = CYPHER_BOUND
 map.nodes[53469408] = CYPHER_BOUND
 map.nodes[54027253] = CYPHER_BOUND
@@ -908,6 +911,7 @@ map.nodes[59777940] = CYPHER_BOUND
 map.nodes[60866960] = CYPHER_BOUND
 map.nodes[61444816] = CYPHER_BOUND
 map.nodes[62931954] = CYPHER_BOUND
+map.nodes[63386843] = CYPHER_BOUND
 map.nodes[65553675] = CYPHER_BOUND
 map.nodes[66843569] = CYPHER_BOUND
 map.nodes[77574508] = CYPHER_BOUND
