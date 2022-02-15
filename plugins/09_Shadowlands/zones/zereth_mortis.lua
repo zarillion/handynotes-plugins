@@ -37,6 +37,7 @@ local cata = Map({id = 2066}) -- Catalyst Wards
 map.nodes[64743369] = Rare({
     id = 179006,
     quest = 65549,
+    vignette = 4747,
     rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52977}), -- Adventurer of Zereth Mortis
@@ -136,6 +137,7 @@ map.nodes[64585865] = Rare({
 map.nodes[69073662] = Rare({
     id = 180924,
     quest = 64719,
+    vignette = 4982,
     note = L['garudeon_note'],
     rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
     rewards = {
@@ -163,7 +165,7 @@ map.nodes[59862111] = Rare({
 
 map.nodes[53089305] = Rare({
     id = 178778,
-    quest = nil,
+    quest = 65579,
     note = L['gluttonous_overgrowth_note'],
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
@@ -178,6 +180,7 @@ map.nodes[53089305] = Rare({
 map.nodes[80384706] = Rare({
     id = 178963,
     quest = 63988,
+    vignette = 4746,
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52986}), -- Adventurer of Zereth Mortis
@@ -217,6 +220,8 @@ map.nodes[58186837] = Rare({
 map.nodes[52287541] = Rare({
     id = 180978,
     quest = 65548,
+    note = L['hirukon_note'],
+    requires = ns.requirement.Item(187923),
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52990}), -- Adventurer of Zereth Mortis
@@ -431,7 +436,7 @@ map.nodes[63202603] = Rare({
             criteria = {
                 {id = 52992, quest = 65585}, -- Iska, Outrider of Ruin
                 {id = 52993, quest = nil}, -- High Reaver Damaris
-                {id = 52994, quest = nil} -- Reanimatrox Marzan
+                {id = 52994, quest = 65587} -- Reanimatrox Marzan
             }
         }), -- Dune Dominance
         Transmog({item = 190104, slot = L['crossbow']}), -- Deadeye's Spirit Piercer
@@ -450,8 +455,8 @@ map.nodes[63202603] = Rare({
 -- Unknown/Mystery Treasures:
 -- 42025181 Provis Cache (requires Provis Cache Key)
 -- Pocopoc costume unlock (first appearance learned) (quest=65531)
--- Glimmer of Serenity (64666343)
--- Schematic: Multichicken (53777246)
+-- Glimmer of Serenity (64666343, 60412528)
+-- Schematic: Multichicken (53777246) (quest=65333)
 
 map.nodes[61163709] = Treasure({
     quest = nil,
@@ -649,12 +654,12 @@ map.nodes[34046764] = Treasure({
 }) -- Stolen Scroll
 
 map.nodes[58727301] = Treasure({
-    quest = nil,
+    quest = 64545,
     note = L['submerged_chest_note'],
     rewards = {
         Achievement({id = 15331, criteria = 52964}), -- Treasures of Zereth Mortis
         Achievement({id = 15508, criteria = 53291}), -- Fashion of the First Ones
-        Item({item = 190061, quest = nil}) -- Admiral Pocopoc
+        Item({item = 190061, quest = 65529}) -- Admiral Pocopoc
     },
     pois = {POI({59427684})} -- Dangerous Orb of Power
 }) -- Submerged Chest
