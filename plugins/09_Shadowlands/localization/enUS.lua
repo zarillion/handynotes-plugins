@@ -733,6 +733,8 @@ L['concordance_note'] = 'Read each concordance to unlock entries at the |cFFFFFD
 
 L['echoed_jiro_note'] = 'Spend {npc:181059} energy to gain temporary buffs. Requires |cFFFFFD00Creatian|r research at the {npc:181397}.'
 
+L['completing_the_code_note'] = 'Progress the storyline with {npc:177958} until he offers the {item:187909}. Use the trap on each creature to earn the achievement.'
+
 L['patient_bufonid_note'] = 'Progress in the Zereth Mortis story until {npc:180950} offers {quest:65727}. Complete the quests each day to lure the {npc:185798} out of the pond.'
 L['patient_bufonid_note_day1'] = 'Collect 15x {item:190852} from Vespoid in the zone.'
 L['patient_bufonid_note_day2'] = 'Purchase 30x {item:172053} from the Auction House.'
@@ -742,6 +744,8 @@ L['patient_bufonid_note_day5'] = 'Collect 5x {item:187704} from mobs in the zone
 L['patient_bufonid_note_day6'] = 'Purchase 5x {item:190880} from {npc:185748} near Pilgrim\'s Grace.'
 L['patient_bufonid_note_day7'] = 'Purchase 1x {item:187171} from the {npc:180114} in the Tazavesh dungeon.'
 
+L['options_icons_code_creature'] = '{achievement:15211}'
+L['options_icons_code_creature_desc'] = 'Display creature locations for the {achievement:15211} achievement.'
 L['options_icons_concordances'] = 'Lore Concordances'
 L['options_icons_concordances_desc'] = 'Display locations of lore concordance consoles.'
 L['options_icons_echoed_jiros'] = 'Echoed Jiro'
