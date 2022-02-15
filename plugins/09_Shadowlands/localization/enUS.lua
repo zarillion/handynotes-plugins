@@ -682,6 +682,21 @@ L['feasting_note'] = 'Will sometimes circle the area before returning to this sp
 L['furidian_note'] = 'Activate three |cFFFFFD00Empowered Keys|r in the area, then unlock the |cFFFFFD00Suspiciously Angry Vault|r.'
 L['garudeon_note'] = 'Collect {npc:183562s} from the surrounding area and use {spell:362655} to feed the {npc:183554s}. Once all three are fed, {npc:180924} will activate.'
 L['gluttonous_overgrowth_note'] = 'Break all nearby {npc:184048s} to activate the rare.'
+L['hirukon_note'] = [[
+To entice {npc:180978} to the surface, an {item:187923} must be created.
+
+1. Fish up some {item:187662} from the nearby waters.
+
+2. Fish up a {item:187915} from the |cFFFFFD00Pungent Blobfish Cluster|r inside Coilfang Reservoir in Zangarmarsh. The pool is to the right when you enter the cavern.
+
+3. Fish up a {item:187922} from the |cFFFFFD00Flipper Fish School|r near the Keyla's Grave flight point in Nazjatar.
+
+4. Loot a (very well hidden) {item:187916} from a balcony on the second level of Nar'shola Terrace in the Shimmering Expanse (34.7, 75.0).
+
+5. Locate {npc:182194} at the pond south of the Seat of the Primus in Maldraxxus. Ask her to craft the finished {item:187923}.
+
+6. Use the {item:187923}, allowing you to see the |cFFFFFD00Aurelid Cluster|r fishing pool near {npc:180978} for 15min. Fish in it to summon {npc:180978} to the surface.
+]] -- Breaking my rule of no coords in the notes for this one
 L['protector_first_ones_note'] = 'Requires two people. Bring the matching runes to each console (found in the surrounding area) to open the barrier.'
 L['the_engulfer_note'] = 'Defend {npc:183505} until {npc:183516} jumps out of the rift.'
 L['zatojin_note'] = 'Pull nearby {npc:183721s} and let them apply 20 stacks of {spell:362976} until you are {spell:362983}. You must be standing over the {npc:183774} corpses when you are paralyzed for {npc:183764} to notice you.'
