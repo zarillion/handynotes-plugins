@@ -686,20 +686,20 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 L['corrupted_architect_note'] = 'Greife {npc:183958} und {npc:183961} an, um den seltenen Gegner zu aktivieren.'
 L['dune_dominance_note'] = 'Alle drei seltenen Elite für den {achievement:15392} Erfolg erscheinen an dieser Position.'
 L['feasting_note'] = 'Umrundet manchmal das Gebiet, bevor er zu dieser Stelle zurückkehrt.'
-L['furidian_note'] = 'Interagiere mit dem |cFFFFFD00Verdächtig wütender Tresor|r.'
+L['furidian_note'] = 'Aktiviere drei |cFFFFFD00Ermächtigter Schlüssel|r in dem Bereich, und entriegel dann den |cFFFFFD00Verdächtig wütender Tresor|r.'
 L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwenden {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
 L['gluttonous_overgrowth_note'] = 'Zerbrich alle in der Nähe befindlichen {npc:184048n}, um den den selten Gegner zu aktivieren.'
 L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden Runen zu jeder Konsole (in der Umgebung zu finden), um die Barriere zu öffnen.'
 L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss springt.'
 L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
 
-L['architects_reserve_note'] = nil
+L['architects_reserve_note'] = 'Nachdem die Forschung freigeschaltet wurde, schließe die {quest:64829} Questreihe von {npc:180630} in der Huld des Pilgers ab. Beende am nächsten Tag die {quest:65426} von {npc:181273}, um Zugang zur Kammer zu erhalten.'
 L['bushel_of_produce_note'] = 'Töte einen {npc:182368} im Norden während er den Stärkungszauber {spell:360945} hat, um diesen selbst zu erhalten. Töte weitere {npc:182368s} (diese brauchen den Stärkungszauber nicht), bis du 5 Stapel hast, dann brich die Tür zum Schatz auf.'
 L['crushed_crate_note'] = 'Plündere das {item:189767} aus der Kuhle der großen Kugel im Norden. Gib dieses {npc:185151} im Austausch für den{item:189768} der die heruntergefallenen Felsen zerbrechen kann.'
 L['domination_cache_note'] = 'Der {item:189704} hat eine geringe Chance von {npc:181403} und {npc:182426} in der Gegend fallen gelassen zu werden.'
 L['drowned_broker_supplies_note'] = 'Sage {npc:181059}, er soll die Kontrolle über einen nahe gelegenen {npc:185282} übernehmen.'
 L['forgotten_protovault_note'] = 'Nur während der {wq:Frog\'it} Weltquest verfügbar.'
-L['grateful_boon_note'] = nil
+L['grateful_boon_note'] = 'Ohne Fliegen schwer zu erreichen; Benutze das {spell:300728} oder ein {spell:111771}, um den Berg zu besteigen. Besänftige alle 12 Kreaturen in dem Gebiet und {npc:185293} lässt den Schatz erscheinen.'
 L['library_vault_note'] = 'Klicke die Tafeln in der Grotte der Lexik an, bis du den richtigen {spell:362062} Stärkungszauber findest, um damit das Bibliotheksarchiv zu öffnen.'
 L['mistaken_ovoid_note'] = 'In der Höhle der Dimensionenfälle, hinter den Bällen.'
 L['sphere_treasure_note'] = 'Springe vorsichtig die Kugeln hoch, bis du den Schatz erreichst.'
@@ -740,11 +740,11 @@ L['concordance_note'] = 'Lese jede Konkordanz, um Einträge in der |cFFFFFD00Wis
 
 L['echoed_jiro_note'] = 'Gebe {npc:181059}energie aus, um temporäre Verstärkungszauber zu erhalten. Benötigt die |cFFFFFD00Createsisch|r Forschung an der {npc:181397}.'
 
-L['bygone_elemental_note'] = nil
-L['gaiagantic_note'] = nil
-L['misaligned_enforcer_note'] = nil
-L['overcharged_vespoid_note'] = nil
-L['runethief_xylora_note'] = nil
+L['bygone_elemental_note'] = 'Ein {npc:181221} kann anstelle eines {npc:179007} in dem Gebiet erscheinen.'
+L['gaiagantic_note'] = 'Erscheint nur, wenn {npc:177958} die tägliche Quest {quest:64785} anbietet.'
+L['misaligned_enforcer_note'] = 'Patrouilliert das Gebiet und verschwindet am Ende seiner Route.'
+L['overcharged_vespoid_note'] = 'Kann als Teil eines Schwarmes in der Gegend erscheinen.'
+L['runethief_xylora_note'] = 'Erscheint getarnt im Gebiet von Huld des Pilgers.'
 
 L['patient_bufonid_note'] = 'Schreite in der Geschichte von Zereth Mortis voran, bis {npc:180950} die Quest {quest:65727} anbietet. Erfülle diese täglich, um {npc:185798} aus dem Teich zu locken.'
 L['patient_bufonid_note_day1'] = 'Sammel 15x {item:190852} von Vespiden aus dieser Zone.'
@@ -756,7 +756,7 @@ L['patient_bufonid_note_day6'] = 'Kaufe 5x {item:190880} von {npc:185748} (58.3 
 L['patient_bufonid_note_day7'] = 'Kaufe 1x {item:187171} von dem {npc:180114} aus dem Tazavesh Dungeon.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
-L['options_icons_code_creature_desc'] = nil
+L['options_icons_code_creature_desc'] = 'Zeigt die Positionen der Kreaturen für den {achievement:15211} Erfolg an.'
 L['options_icons_concordances'] = 'Wissens Konkordanzen'
 L['options_icons_concordances_desc'] = 'Zeigt die Positionen von Konkordanzen an.'
 L['options_icons_echoed_jiros'] = 'Echo von Jiro'
@@ -764,6 +764,6 @@ L['options_icons_echoed_jiros_desc'] = 'Zeigt die Positionen für die Gaben-Stä
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Zeigt die Positionen der Geschichten für den Erfolg {achievement:15509} an.'
 L['options_icons_puzzle_caches'] = 'Schätze der Schöpfung'
-L['options_icons_puzzle_caches_desc'] = 'Zeigt die Positionen von Schätzen der Schöpfung an.'
+L['options_icons_puzzle_caches_desc'] = 'Zeigt die möglichen Positionen von Schätzen der Schöpfung an.'
 L['options_icons_zereth_caches'] = 'Chiffren Truhen'
 L['options_icons_zereth_caches_desc'] = 'Zeigt mögliche Positionen für Truhen, die Chiffren der Ersten enthalten.'
