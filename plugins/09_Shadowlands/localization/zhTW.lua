@@ -733,7 +733,11 @@ L['concordance_note'] = '閱讀每一個索引來解鎖在 |cFFFFFD00流亡者�
 
 L['echoed_jiro_note'] = '消耗 {npc:181059} 能量來取得暫時的增益. 需要 {npc:181397} 的 |cFFFFFD00克里希安|r 研究.'
 
-L['completing_the_code_note'] = nil
+L['bygone_elemental_note'] = nil
+L['gaiagantic_note'] = nil
+L['misaligned_enforcer_note'] = nil
+L['overcharged_vespoid_note'] = nil
+L['runethief_xylora_note'] = nil
 
 L['patient_bufonid_note'] = nil
 L['patient_bufonid_note_day1'] = nil

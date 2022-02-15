@@ -740,7 +740,11 @@ L['concordance_note'] = 'Lese jede Konkordanz, um Einträge in der |cFFFFFD00Wis
 
 L['echoed_jiro_note'] = 'Gebe {npc:181059}energie aus, um temporäre Verstärkungszauber zu erhalten. Benötigt die |cFFFFFD00Createsisch|r Forschung an der {npc:181397}.'
 
-L['completing_the_code_note'] = nil
+L['bygone_elemental_note'] = nil
+L['gaiagantic_note'] = nil
+L['misaligned_enforcer_note'] = nil
+L['overcharged_vespoid_note'] = nil
+L['runethief_xylora_note'] = nil
 
 L['patient_bufonid_note'] = 'Schreite in der Geschichte von Zereth Mortis voran, bis {npc:180950} die Quest {quest:65727} anbietet. Erfülle diese täglich, um {npc:185798} aus dem Teich zu locken.'
 L['patient_bufonid_note_day1'] = 'Sammel 15x {item:190852} von Vespiden aus dieser Zone.'

@@ -729,7 +729,11 @@ L['concordance_note'] = nil
 
 L['echoed_jiro_note'] = nil
 
-L['completing_the_code_note'] = nil
+L['bygone_elemental_note'] = nil
+L['gaiagantic_note'] = nil
+L['misaligned_enforcer_note'] = nil
+L['overcharged_vespoid_note'] = nil
+L['runethief_xylora_note'] = nil
 
 L['patient_bufonid_note'] = nil
 L['patient_bufonid_note_day1'] = nil
