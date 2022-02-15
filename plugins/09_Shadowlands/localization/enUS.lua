@@ -733,7 +733,7 @@ L['concordance_note'] = 'Read each concordance to unlock entries at the |cFFFFFD
 
 L['echoed_jiro_note'] = 'Spend {npc:181059} energy to gain temporary buffs. Requires |cFFFFFD00Creatian|r research at the {npc:181397}.'
 
-L['completing_the_code_note'] = 'Progress the storyline with {npc:177958} until he offers the {item:187909}. Use the trap on each creature to earn the achievement.'
+L['completing_the_code_note'] = 'Progress the storyline with {npc:177958} until he offers the {item:187909}. Use the trap on each creature and examine it to earn the achievement.'
 
 L['patient_bufonid_note'] = 'Progress in the Zereth Mortis story until {npc:180950} offers {quest:65727}. Complete the quests each day to lure the {npc:185798} out of the pond.'
 L['patient_bufonid_note_day1'] = 'Collect 15x {item:190852} from Vespoid in the zone.'
@@ -753,6 +753,6 @@ L['options_icons_echoed_jiros_desc'] = 'Display locations of |cFFFFFD00Echoed Ji
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Display tale locations for the {achievement:15509} achievement.'
 L['options_icons_puzzle_caches'] = 'Puzzle Caches'
-L['options_icons_puzzle_caches_desc'] = 'Display locations of puzzle caches.'
+L['options_icons_puzzle_caches_desc'] = 'Display possible locations of puzzle caches.'
 L['options_icons_zereth_caches'] = 'Cypher Caches'
 L['options_icons_zereth_caches_desc'] = 'Display possible locations for cypher caches.'
