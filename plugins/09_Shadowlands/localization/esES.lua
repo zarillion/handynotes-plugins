@@ -734,6 +734,8 @@ L['concordance_note'] = 'Lee cada concordancia para desbloquear entradas en la |
 
 L['echoed_jiro_note'] = 'Gasta energia de {npc:181059} para ganar bufos temporales. Requiere investigar |cFFFFFD00Creatiano|r en la {npc:181397}.'
 
+L['completing_the_code_note'] = nil
+
 L['patient_bufonid_note'] = 'Progresa en la historia de Zereth Mortis hasta que {npc:180950} ofrezca la misión {quest:65727}. Completa las misiones cada día para atraer un {npc:185798} fuera del estanque.'
 L['patient_bufonid_note_day1'] = 'Recoge {item:190852} x15 de los Vespoide de la zona.'
 L['patient_bufonid_note_day2'] = 'Compra {item:172053} x30 de la Casa de Subastas.'
@@ -743,6 +745,8 @@ L['patient_bufonid_note_day5'] = 'Recoge {item:187704} x5 de los enemigos de la 
 L['patient_bufonid_note_day6'] = 'Compra {item:190880} x5 a {npc:185748} cerca de Gracia del Peregrino.'
 L['patient_bufonid_note_day7'] = 'Compra {item:187171} x1 a {npc:180114} en la mazmorra de Tazavesh.'
 
+L['options_icons_code_creature'] = '{achievement:15211}'
+L['options_icons_code_creature_desc'] = nil
 L['options_icons_concordances'] = 'Concordancias de Conocimiento'
 L['options_icons_concordances_desc'] = 'Muestra los sitios de las consolas de las concordancias de conocimiento.'
 L['options_icons_echoed_jiros'] = 'Jiro en Eco'

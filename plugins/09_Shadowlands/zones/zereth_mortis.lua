@@ -26,8 +26,9 @@ local NIGHTFAE = ns.covenants.FAE
 -------------------------------------------------------------------------------
 
 local map = Map({id = 1970, settings = true})
-local microd = Map({id = 2030}) -- Nexus of Actualization
 local bfdry = Map({id = 2027}) -- Blooming Foundry
+local microd = Map({id = 2030}) -- Nexus of Actualization
+local cata = Map({id = 2066}) -- Catalyst Wards
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -696,16 +697,20 @@ local function GetLockStatus()
     return ns.status.Gray(tostring(count) .. '/4')
 end
 
-map.nodes[51687956] = Class('Foliage', Treasure,
+cata.nodes[49243441] = Class('Foliage', Treasure,
     {getters = {rlabel = GetLockStatus}})({
     quest = 65572,
+    parent = {
+        id = map.id,
+        pois = {POI({50017671, 50988209, 52498344, 53198092})} -- Locks (outside coords)
+    },
     note = L['undulating_foliage_note'],
     rewards = {
         Achievement({id = 15331, criteria = 53070}), -- Treasures of Zereth Mortis
         Toy({item = 190926}) -- Infested Automa Core
     },
     pois = {
-        POI({50017671, 50988209, 52498344, 53198092}) -- Teleporter Locks
+        POI({39526876, 60228721, 69745245}) -- Teleporter Locks (inside)
     }
 }) -- Undulating Foliage
 
@@ -1044,6 +1049,106 @@ map.nodes[52482899] = Genesii({id = 184946, requires = CREATIAN_NE})
 map.nodes[63121948] = Genesii({id = 184946, requires = CREATIAN_NE})
 map.nodes[59713736] = Nascii_({id = 184947, requires = CREATIAN_NE})
 map.nodes[69743354] = Nascii_({id = 184947, requires = CREATIAN_NE})
+
+-------------------------------------------------------------------------------
+----------------------------- COMPLETING THE CODE -----------------------------
+-------------------------------------------------------------------------------
+
+local Code = Class('CodeCreature', Collectible, {
+    icon = 348545,
+    note = L['completing_the_code_note'],
+    group = ns.groups.CODE_CREATURE
+})
+
+map.nodes[41436244] = Code({
+    id = 181352,
+    rewards = {Achievement({id = 15211, criteria = 52577})}
+}) -- Bitterbeak
+
+map.nodes[61247442] = Code({
+    id = 181221,
+    rewards = {Achievement({id = 15211, criteria = 52552})}
+}) -- Bygone Geomental
+
+map.nodes[38855862] = Code({
+    id = 181349,
+    rewards = {Achievement({id = 15211, criteria = 52576})}
+}) -- Cipherclad
+
+map.nodes[50466386] = Code({
+    id = 181290,
+    rewards = {Achievement({id = 15211, criteria = 52569})}
+}) -- Corrupted Runehoarder
+
+map.nodes[48651368] = Code({
+    id = 184819,
+    rewards = {Achievement({id = 15211, criteria = 52568})}
+}) -- Dominated Irregular
+
+map.nodes[63322636] = Code({
+    id = 181208,
+    rewards = {Achievement({id = 15211, criteria = 52567})}
+}) -- Enchained Servitor
+
+map.nodes[60756476] = Code({
+    id = 181223,
+    rewards = {Achievement({id = 15211, criteria = 52553})}
+}) -- Gaiagantic
+
+map.nodes[36143848] = Code({
+    id = 181287,
+    rewards = {Achievement({id = 15211, criteria = 52566})}
+}) -- Gorged Runefeaster
+
+map.nodes[55944657] = Code({
+    id = 181292,
+    rewards = {Achievement({id = 15211, criteria = 52570})}
+}) -- Misaligned Enforcer
+
+map.nodes[53709341] = Code({
+    id = 181219,
+    rewards = {Achievement({id = 15211, criteria = 52554})}
+}) -- Moss-Choked Guardian
+
+map.nodes[62816832] = Code({
+    id = 179007,
+    rewards = {Achievement({id = 15211, criteria = 52565})}
+}) -- Overgrown Geomental
+
+map.nodes[62535507] = Code({
+    id = 181222,
+    rewards = {Achievement({id = 15211, criteria = 52606})}
+}) -- Over-charged Vespoid
+
+map.nodes[39795203] = Code({
+    id = 181344,
+    rewards = {Achievement({id = 15211, criteria = 52575})}
+}) -- Runefur
+
+map.nodes[50276015] = Code({
+    id = 181294,
+    rewards = {Achievement({id = 15211, criteria = 52572})}
+}) -- Runegorged Bufonid
+
+map.nodes[61855178] = Code({
+    id = 181295,
+    rewards = {Achievement({id = 15211, criteria = 52574})}
+}) -- Runethief Xy'lora
+
+map.nodes[53567521] = Code({
+    id = 178835,
+    rewards = {Achievement({id = 15211, criteria = 52573})}
+}) -- Sharpeye Collector
+
+map.nodes[35066376] = Code({
+    id = 181293,
+    rewards = {Achievement({id = 15211, criteria = 52571})}
+}) -- Suspicious Nesmin
+
+map.nodes[45212191] = Code({
+    id = 182798,
+    rewards = {Achievement({id = 15211, criteria = 52686})}
+}) -- Twisted Warpcrafter
 
 -------------------------------------------------------------------------------
 ----------------------------- TALES OF THE EXILE ------------------------------

@@ -733,6 +733,8 @@ L['concordance_note'] = '閱讀每一個索引來解鎖在 |cFFFFFD00流亡者�
 
 L['echoed_jiro_note'] = '消耗 {npc:181059} 能量來取得暫時的增益. 需要 {npc:181397} 的 |cFFFFFD00克里希安|r 研究.'
 
+L['completing_the_code_note'] = nil
+
 L['patient_bufonid_note'] = nil
 L['patient_bufonid_note_day1'] = nil
 L['patient_bufonid_note_day2'] = nil
@@ -742,6 +744,8 @@ L['patient_bufonid_note_day5'] = nil
 L['patient_bufonid_note_day6'] = nil
 L['patient_bufonid_note_day7'] = nil
 
+L['options_icons_code_creature'] = '{achievement:15211}'
+L['options_icons_code_creature_desc'] = nil
 L['options_icons_concordances'] = '知識索引'
 L['options_icons_concordances_desc'] = '顯示知識索引控制台的位置'
 L['options_icons_echoed_jiros'] = '回響的機諾'

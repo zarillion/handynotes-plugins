@@ -729,6 +729,8 @@ L['concordance_note'] = nil
 
 L['echoed_jiro_note'] = nil
 
+L['completing_the_code_note'] = nil
+
 L['patient_bufonid_note'] = nil
 L['patient_bufonid_note_day1'] = nil
 L['patient_bufonid_note_day2'] = nil
@@ -738,6 +740,8 @@ L['patient_bufonid_note_day5'] = nil
 L['patient_bufonid_note_day6'] = nil
 L['patient_bufonid_note_day7'] = nil
 
+L['options_icons_code_creature'] = '{achievement:15211}'
+L['options_icons_code_creature_desc'] = nil
 L['options_icons_concordances'] = nil
 L['options_icons_concordances_desc'] = nil
 L['options_icons_echoed_jiros'] = nil

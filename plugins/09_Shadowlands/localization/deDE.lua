@@ -740,6 +740,8 @@ L['concordance_note'] = 'Lese jede Konkordanz, um Einträge in der |cFFFFFD00Wis
 
 L['echoed_jiro_note'] = 'Gebe {npc:181059}energie aus, um temporäre Verstärkungszauber zu erhalten. Benötigt die |cFFFFFD00Createsisch|r Forschung an der {npc:181397}.'
 
+L['completing_the_code_note'] = nil
+
 L['patient_bufonid_note'] = 'Schreite in der Geschichte von Zereth Mortis voran, bis {npc:180950} die Quest {quest:65727} anbietet. Erfülle diese täglich, um {npc:185798} aus dem Teich zu locken.'
 L['patient_bufonid_note_day1'] = 'Sammel 15x {item:190852} von Vespiden aus dieser Zone.'
 L['patient_bufonid_note_day2'] = 'Kaufe 30x {item:172053} aus dem Auktionshaus.'
@@ -749,6 +751,8 @@ L['patient_bufonid_note_day5'] = 'Sammel 5x {item:187704} von Gegner aus dieser 
 L['patient_bufonid_note_day6'] = 'Kaufe 5x {item:190880} von {npc:185748} (58.3 49.9) in der Nähe von Huld des Pilgers.'
 L['patient_bufonid_note_day7'] = 'Kaufe 1x {item:187171} von dem {npc:180114} aus dem Tazavesh Dungeon.'
 
+L['options_icons_code_creature'] = '{achievement:15211}'
+L['options_icons_code_creature_desc'] = nil
 L['options_icons_concordances'] = 'Wissens Konkordanzen'
 L['options_icons_concordances_desc'] = 'Zeigt die Positionen von Konkordanzen an.'
 L['options_icons_echoed_jiros'] = 'Echo von Jiro'
