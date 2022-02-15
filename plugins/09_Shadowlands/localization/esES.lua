@@ -734,7 +734,11 @@ L['concordance_note'] = 'Lee cada concordancia para desbloquear entradas en la |
 
 L['echoed_jiro_note'] = 'Gasta energia de {npc:181059} para ganar bufos temporales. Requiere investigar |cFFFFFD00Creatiano|r en la {npc:181397}.'
 
-L['completing_the_code_note'] = nil
+L['bygone_elemental_note'] = nil
+L['gaiagantic_note'] = nil
+L['misaligned_enforcer_note'] = nil
+L['overcharged_vespoid_note'] = nil
+L['runethief_xylora_note'] = nil
 
 L['patient_bufonid_note'] = 'Progresa en la historia de Zereth Mortis hasta que {npc:180950} ofrezca la misión {quest:65727}. Completa las misiones cada día para atraer un {npc:185798} fuera del estanque.'
 L['patient_bufonid_note_day1'] = 'Recoge {item:190852} x15 de los Vespoide de la zona.'

@@ -733,7 +733,11 @@ L['concordance_note'] = 'Прочитайте каждый конкорданс,
 
 L['echoed_jiro_note'] = 'Потратьте энергию у {npc:181059}, чтобы получить временные положительные эффекты. Требуется исследование |cFFFFFD00Созидайский|r у {npc:181397}'
 
-L['completing_the_code_note'] = nil
+L['bygone_elemental_note'] = nil
+L['gaiagantic_note'] = nil
+L['misaligned_enforcer_note'] = nil
+L['overcharged_vespoid_note'] = nil
+L['runethief_xylora_note'] = nil
 
 L['patient_bufonid_note'] = 'Продвигайтесь по сюжету Зерет Мортис, пока {npc:180950} не предложит {quest:65727}. Выполняйте задания каждый день, чтобы выманить {npc:185798} из пруда.'
 L['patient_bufonid_note_day1'] = 'Соберите 15x {item:190852} из Веспоидов в локации.'

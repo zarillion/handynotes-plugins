@@ -450,6 +450,8 @@ map.nodes[63202603] = Rare({
 -- Unknown/Mystery Treasures:
 -- 42025181 Provis Cache (requires Provis Cache Key)
 -- Pocopoc costume unlock (first appearance learned) (quest=65531)
+-- Glimmer of Serenity (64666343)
+-- Schematic: Multichicken (53777246)
 
 map.nodes[61163709] = Treasure({
     quest = nil,
@@ -767,54 +769,58 @@ function Puzzle:GetGlow(mapID, minimap)
 end
 
 map.nodes[38546364] = Puzzle({quest = 65094, label = L['cache_cantaric']})
+map.nodes[43662152] = Puzzle({quest = 65094, label = L['cache_cantaric']})
+map.nodes[44229011] = Puzzle({quest = nil, label = L['cache_cantaric']})
 map.nodes[44767608] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[47504622] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[48628747] = Puzzle({quest = 65318, label = L['cache_cantaric']})
 map.nodes[52984558] = Puzzle({quest = 65094, label = L['cache_cantaric']}) -- 65418 65416
-map.nodes[65674096] = Puzzle({quest = 65406, label = L['cache_cantaric']}) -- 65418
-map.nodes[44229011] = Puzzle({quest = nil, label = L['cache_cantaric']})
-map.nodes[56007960] = Puzzle({quest = nil, label = L['cache_cantaric']})
 map.nodes[55004800] = Puzzle({quest = nil, label = L['cache_cantaric']})
-map.nodes[43662152] = Puzzle({quest = 65094, label = L['cache_cantaric']})
+map.nodes[56007960] = Puzzle({quest = nil, label = L['cache_cantaric']})
+map.nodes[65674096] = Puzzle({quest = 65406, label = L['cache_cantaric']}) -- 65418
+
 map.nodes[36475646] = Puzzle({quest = 65322, label = L['cache_fugueal']})
 map.nodes[39184665] = Puzzle({quest = 65322, label = L['cache_fugueal']})
-map.nodes[59712290] = Puzzle({quest = 65317, label = L['cache_fugueal']})
-map.nodes[63103738] = Puzzle({quest = 65414, label = L['cache_fugueal']}) -- 65093  65418
-map.nodes[44293098] = Puzzle({quest = nil, label = L['cache_fugueal']})
-map.nodes[47603910] = Puzzle({quest = nil, label = L['cache_fugueal']})
+map.nodes[42196878] = Puzzle({quest = nil, label = L['cache_fugueal']})
+map.nodes[44293098] = Puzzle({quest = 65317, label = L['cache_fugueal']})
 map.nodes[46006460] = Puzzle({quest = nil, label = L['cache_fugueal']})
 map.nodes[47117719] = Puzzle({quest = 65093, label = L['cache_fugueal']})
+map.nodes[47603910] = Puzzle({quest = nil, label = L['cache_fugueal']})
 map.nodes[57486576] = Puzzle({quest = 65093, label = L['cache_fugueal']})
-map.nodes[42196878] = Puzzle({quest = nil, label = L['cache_fugueal']})
+map.nodes[59712290] = Puzzle({quest = 65317, label = L['cache_fugueal']})
+map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
+
+map.nodes[33805430] = Puzzle({quest = 65321, label = L['cache_glissandian']})
+map.nodes[39937284] = Puzzle({quest = 65321, label = L['cache_glissandian']})
+map.nodes[41803130] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[44605050] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[45109410] = Puzzle({quest = nil, label = L['cache_glissandian']})
 map.nodes[51282573] = Puzzle({quest = 65412, label = L['cache_glissandian']}) -- 65418
 map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
-map.nodes[39937284] = Puzzle({quest = 65321, label = L['cache_glissandian']})
-map.nodes[45109410] = Puzzle({quest = nil, label = L['cache_glissandian']})
-map.nodes[56008410] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[56008410] = Puzzle({quest = 65316, label = L['cache_glissandian']})
 map.nodes[56636138] = Puzzle({quest = nil, label = L['cache_glissandian']})
-map.nodes[33805430] = Puzzle({quest = nil, label = L['cache_glissandian']})
-map.nodes[44605050] = Puzzle({quest = nil, label = L['cache_glissandian']})
 map.nodes[58893634] = Puzzle({quest = 65092, label = L['cache_glissandian']})
-map.nodes[41803130] = Puzzle({quest = nil, label = L['cache_glissandian']})
+
+map.nodes[35825908] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
 map.nodes[38377037] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
+map.nodes[38503552] = Puzzle({quest = nil, label = L['cache_mezzonic']})
 map.nodes[39346043] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[43624033] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
-map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
-map.nodes[64695282] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
-map.nodes[35825908] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
-map.nodes[38503552] = Puzzle({quest = nil, label = L['cache_mezzonic']})
 map.nodes[49953057] = Puzzle({quest = nil, label = L['cache_mezzonic']})
-map.nodes[57863165] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
 map.nodes[52347202] = Puzzle({quest = nil, label = L['cache_mezzonic']})
+map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
+map.nodes[57863165] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
+map.nodes[64695282] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
+
+map.nodes[32005260] = Puzzle({quest = 64972, label = L['cache_toccatian']})
+map.nodes[34606880] = Puzzle({quest = nil, label = L['cache_toccatian']})
 map.nodes[37014645] = Puzzle({quest = 64972, label = L['cache_toccatian']})
-map.nodes[65594762] = Puzzle({quest = 65091, label = L['cache_toccatian']})
+map.nodes[46806700] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[52435706] = Puzzle({quest = 65314, label = L['cache_toccatian']})
 map.nodes[53208680] = Puzzle({quest = nil, label = L['cache_toccatian']})
 map.nodes[62807390] = Puzzle({quest = nil, label = L['cache_toccatian']})
 map.nodes[64286332] = Puzzle({quest = 65319, label = L['cache_toccatian']})
-map.nodes[46806700] = Puzzle({quest = nil, label = L['cache_toccatian']})
-map.nodes[34606880] = Puzzle({quest = nil, label = L['cache_toccatian']})
-map.nodes[52435706] = Puzzle({quest = 65314, label = L['cache_toccatian']})
-map.nodes[32005260] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[65594762] = Puzzle({quest = 65319, label = L['cache_toccatian']})
 map.nodes[67812744] = Puzzle({quest = 65319, label = L['cache_toccatian']})
 
 -------------------------------------------------------------------------------
@@ -973,7 +979,7 @@ local Lore = Class('Concordance', ns.node.Node, {
 
 map.nodes[31775466] = Lore({label = L['concordance_excitable']})
 map.nodes[38953127] = Lore({label = L['concordance_excitable']}) -- quest=65213
-map.nodes[50405096] = Lore({label = L['concordance_excitable']})
+map.nodes[50405096] = Lore({label = L['concordance_excitable']}) -- quest=65216
 map.nodes[64616035] = Lore({label = L['concordance_excitable']})
 map.nodes[35037144] = Lore({label = L['concordance_mercurial']})
 map.nodes[39702572] = Lore({label = L['concordance_mercurial']})
@@ -1054,30 +1060,33 @@ map.nodes[69743354] = Nascii_({id = 184947, requires = CREATIAN_NE})
 ----------------------------- COMPLETING THE CODE -----------------------------
 -------------------------------------------------------------------------------
 
-local Code = Class('CodeCreature', Collectible, {
-    icon = 348545,
-    note = L['completing_the_code_note'],
-    group = ns.groups.CODE_CREATURE
-})
+local Code = Class('CodeCreature', Collectible,
+    {icon = 348545, group = ns.groups.CODE_CREATURE})
 
 map.nodes[41436244] = Code({
     id = 181352,
     rewards = {Achievement({id = 15211, criteria = 52577})}
 }) -- Bitterbeak
 
-map.nodes[61247442] = Code({
-    id = 181221,
-    rewards = {Achievement({id = 15211, criteria = 52552})}
-}) -- Bygone Geomental
-
 map.nodes[38855862] = Code({
     id = 181349,
     rewards = {Achievement({id = 15211, criteria = 52576})}
 }) -- Cipherclad
 
-map.nodes[50466386] = Code({
+map.nodes[48235959] = Code({
     id = 181290,
-    rewards = {Achievement({id = 15211, criteria = 52569})}
+    rewards = {Achievement({id = 15211, criteria = 52569})},
+    pois = {
+        Path({
+            50705800, 51165859, 51305951, 51366073, 50866172, 50406290,
+            50446398, 50496434, 50076425, 49646430, 49426392, 49126279,
+            48816221, 48856169, 48496165, 48246080, 48235959, 47785988,
+            47396044, 47165964, 46645907, 46495877, 46275786, 46645733,
+            47345720, 47595752, 47965704, 48525661, 49185632, 49675570,
+            50305514, 50475423, 51025395, 51305495, 51215621, 51365649,
+            51415684, 50645692, 50705800
+        })
+    }
 }) -- Corrupted Runehoarder
 
 map.nodes[48651368] = Code({
@@ -1092,6 +1101,7 @@ map.nodes[63322636] = Code({
 
 map.nodes[60756476] = Code({
     id = 181223,
+    note = L['gaiagantic_note'],
     rewards = {Achievement({id = 15211, criteria = 52553})}
 }) -- Gaiagantic
 
@@ -1100,24 +1110,51 @@ map.nodes[36143848] = Code({
     rewards = {Achievement({id = 15211, criteria = 52566})}
 }) -- Gorged Runefeaster
 
-map.nodes[55944657] = Code({
+map.nodes[56164806] = Code({
     id = 181292,
-    rewards = {Achievement({id = 15211, criteria = 52570})}
+    note = L['misaligned_enforcer_note'],
+    rewards = {Achievement({id = 15211, criteria = 52570})},
+    pois = {
+        Path({
+            56164806, 55514760, 55014653, 55084540, 55774507, 56244507,
+            56274382, 55754314, 55754174, 55124093, 54364097, 53834108,
+            53174181, 52414243, 51894163, 51514095, 52244053, 52683985,
+            53274025, 53424132, 53194270, 53694330, 54134385, 54464543,
+            55064588, 55494699, 56204691, 56994674, 57814679, 58214630,
+            57964453, 58124430
+        }), POI({58124430})
+    }
 }) -- Misaligned Enforcer
 
-map.nodes[53709341] = Code({
+map.nodes[50669442] = Code({
     id = 181219,
-    rewards = {Achievement({id = 15211, criteria = 52554})}
+    rewards = {Achievement({id = 15211, criteria = 52554})},
+    pois = {POI({43609019, 45889522, 50669442, 52969310, 53709341})}
 }) -- Moss-Choked Guardian
 
 map.nodes[62816832] = Code({
     id = 179007,
-    rewards = {Achievement({id = 15211, criteria = 52565})}
+    note = L['bygone_elemental_note'],
+    rewards = {Achievement({id = 15211, criteria = {52552, 52565}})},
+    pois = {
+        POI({
+            59397203, 60037679, 60587324, 60646548, 61036488, 61186714,
+            61876864, 61996774, 62407295, 62597017, 62646830, 62987355,
+            63177133, 63477140, 63927169
+        })
+    }
 }) -- Overgrown Geomental
 
-map.nodes[62535507] = Code({
+map.nodes[63225801] = Code({
     id = 181222,
-    rewards = {Achievement({id = 15211, criteria = 52606})}
+    note = L['overcharged_vespoid_note'],
+    rewards = {Achievement({id = 15211, criteria = 52606})},
+    pois = {
+        POI({
+            63955769, 62205921, 62416022, 64616041, 64625862, 63225801,
+            64015760, 64405861, 64415980
+        })
+    }
 }) -- Over-charged Vespoid
 
 map.nodes[39795203] = Code({
@@ -1132,7 +1169,9 @@ map.nodes[50276015] = Code({
 
 map.nodes[61855178] = Code({
     id = 181295,
-    rewards = {Achievement({id = 15211, criteria = 52574})}
+    note = L['runethief_xylora_note'],
+    rewards = {Achievement({id = 15211, criteria = 52574})},
+    pois = {POI({60055152, 61805240, 61815261, 61855190, 64014961})}
 }) -- Runethief Xy'lora
 
 map.nodes[53567521] = Code({
