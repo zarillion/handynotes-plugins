@@ -683,7 +683,21 @@ L['feasting_note'] = 'A veces rodeará la zona antes de volver a este sitio.'
 L['furidian_note'] = 'Activa tres |cFFFFFD00Llave Potenciada|r de la zona, y desbloquea la |cFFFFFD00Cámara Sospechosamente Enfadada|r.'
 L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
 L['gluttonous_overgrowth_note'] = 'Rompe todas las {npc:184048} cercanas para activar al {npc:178778}.'
-L['hirukon_note'] = nil
+L['hirukon_note'] = L['hirukon_note'] = [[
+Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
+
+1. Pesca algún {item:187662} de las aguas cercanas.
+
+2. Pesca un {item:187915} del |cFFFFFD00Banco de Pez mancha acre|r dentro la Reserva Colmillo Torcido en Zangarmarsh. El banco está a la derecha cuando entras en la caverna.
+
+3. Pesca un {item:187922} del |cFFFFFD00Banco de Pez aletón|r cerca del punto de vuelo Tumba de Keyla en Nazjatar.
+
+4. Despoja una (está muy escondida) {item:187916} de un balcón en el segundo nivel del Bancal de Nar'shola en la Extensión Bruñida (34.7, 75.0).
+
+5. Localiza a la {npc:182194} en el estanque al sur del Trono del Prelado en Maldraxxus. Dile que te construya el {item:187923} acabado.
+
+6. Usa el {item:187923} que te permitirá ver los |cFFFFFD00Banco de Aurélido|r junto a {npc:180978} durante 15min. Pesca dentro para invocar a {npc:180978} a la superfície.
+]]
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
 L['the_engulfer_note'] = 'Defiende a {npc:183505} hasta que {npc:183516} salte de la grieta.'
 L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar sobre los cuerpos de los {npc:183774} cuando seas paralizado para que {npc:183764} se fije en ti.'
@@ -711,10 +725,10 @@ Pulsa los cuatro {npc:185390} para activar el teleportador del centro de la sala
 ]]
 
 L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
-L['prying_eye_discovery_note'] = 'Puede aparecer en varios sitios. Es más fácil de alcanzar cuando el volar esté desbloqueado.'
-L['pulp_covered_relic'] = nil
+L['prying_eye_discovery_note'] = 'Es más fácil de alcanzar cuando el volar esté desbloqueado.'
+L['pulp_covered_relic'] = 'Reliquia Cubierta de Pulpa'
 L['sandworn_chest'] = 'Cofre Erosionado por la Arena'
-L['sandworn_chest_note'] = 'Puede aparecer en varios sitios. Despoja {item:190198} x5 de los enemigos de la zona para construir la {item:190197}.'
+L['sandworn_chest_note'] = 'Despoja {item:190198} x5 de los enemigos de la zona para construir la {item:190197}.'
 
 L['cache_avian_nest'] = 'Nido Aviario'
 L['cache_cypher_bound'] = 'Cofre Reforzado con Clave'
