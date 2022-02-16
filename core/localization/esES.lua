@@ -43,7 +43,7 @@ L['trinket'] = 'Abalorio'
 
 L['activation_unknown'] = '¡Activación desconocida!'
 L['requirement_not_found'] = '¡Requerimiento de localización desconocido!'
-L['multiple_spawns'] = nil
+L['multiple_spawns'] = 'Puede aparecer en varios sitios.'
 
 L['Requires'] = 'Requiere'
 L['ranked_research'] = '%s (Rango %d/%d)'
