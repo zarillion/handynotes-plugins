@@ -732,6 +732,7 @@ Drücke die vier {npc:185390n}, um den Teleporter im mittleren Raum der Katalysa
 
 L['prying_eye_discovery'] = 'Entdeckung des Spürauges'
 L['prying_eye_discovery_note'] = 'Kann an mehreren Orten erscheinen. Leichter zu erreichen, sobald das Fliegen freigeschaltet ist.'
+L['pulp_covered_relic'] = nil
 L['sandworn_chest'] = 'Sandgeschliffene Truhe'
 L['sandworn_chest_note'] = 'Kann an mehreren Orten erscheinen. Plündere 5x {item:190198} von Gegnern in dem Gebiet, um einen {item:190197} zu bauen.'
 

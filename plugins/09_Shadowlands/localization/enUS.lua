@@ -724,9 +724,10 @@ Press the four {npc:185390s} to activate the teleporter in the center room of th
 ]]
 
 L['prying_eye_discovery'] = 'Prying Eye Discovery'
-L['prying_eye_discovery_note'] = 'Can spawn in multiple locations. Easier to reach once flying is unlocked.'
+L['prying_eye_discovery_note'] = 'Easier to reach once flying is unlocked.'
+L['pulp_covered_relic'] = 'Pulp-Covered Relic'
 L['sandworn_chest'] = 'Sandworn Chest'
-L['sandworn_chest_note'] = 'Can spawn in multiple locations. Loot 5x {item:190198} from mobs in the area to construct the {item:190197}.'
+L['sandworn_chest_note'] = 'Loot 5x {item:190198} from mobs in the area to construct the {item:190197}.'
 
 L['cache_avian_nest'] = 'Avian Nest'
 L['cache_cypher_bound'] = 'Cypher Bound Chest'

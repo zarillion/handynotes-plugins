@@ -42,6 +42,7 @@ L['trinket'] = 'Bijou'
 
 L['activation_unknown'] = 'Activation inconnue'
 L['requirement_not_found'] = 'Emplacement requis inconnu'
+L['multiple_spawns'] = nil
 
 L['Requires'] = 'Requiert'
 L['ranked_research'] = nil

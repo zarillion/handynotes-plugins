@@ -712,6 +712,7 @@ Pulsa los cuatro {npc:185390} para activar el teleportador del centro de la sala
 
 L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
 L['prying_eye_discovery_note'] = 'Puede aparecer en varios sitios. Es más fácil de alcanzar cuando el volar esté desbloqueado.'
+L['pulp_covered_relic'] = nil
 L['sandworn_chest'] = 'Cofre Erosionado por la Arena'
 L['sandworn_chest_note'] = 'Puede aparecer en varios sitios. Despoja {item:190198} x5 de los enemigos de la zona para construir la {item:190197}.'
 

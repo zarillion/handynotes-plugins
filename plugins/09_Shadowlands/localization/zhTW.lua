@@ -711,6 +711,7 @@ L['undulating_foliage_note'] = [[
 
 L['prying_eye_discovery'] = nil
 L['prying_eye_discovery_note'] = nil
+L['pulp_covered_relic'] = nil
 L['sandworn_chest'] = nil
 L['sandworn_chest_note'] = nil
 
