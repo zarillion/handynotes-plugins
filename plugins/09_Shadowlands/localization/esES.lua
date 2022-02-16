@@ -683,6 +683,7 @@ L['feasting_note'] = 'A veces rodeará la zona antes de volver a este sitio.'
 L['furidian_note'] = 'Activa tres |cFFFFFD00Llave Potenciada|r de la zona, y desbloquea la |cFFFFFD00Cámara Sospechosamente Enfadada|r.'
 L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
 L['gluttonous_overgrowth_note'] = 'Rompe todas las {npc:184048} cercanas para activar al {npc:178778}.'
+L['hirukon_note'] = nil
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
 L['the_engulfer_note'] = 'Defiende a {npc:183505} hasta que {npc:183516} salte de la grieta.'
 L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar sobre los cuerpos de los {npc:183774} cuando seas paralizado para que {npc:183764} se fije en ti.'

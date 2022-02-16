@@ -682,6 +682,7 @@ L['feasting_note'] = nil
 L['furidian_note'] = nil
 L['garudeon_note'] = nil
 L['gluttonous_overgrowth_note'] = nil
+L['hirukon_note'] = nil
 L['protector_first_ones_note'] = nil
 L['the_engulfer_note'] = nil
 L['zatojin_note'] = nil

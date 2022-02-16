@@ -682,6 +682,7 @@ L['feasting_note'] = nil
 L['furidian_note'] = '和 |cFFFFFD00可疑的憤怒儲藏庫|r 互動.'
 L['garudeon_note'] = '從附近的區域收集 {npc:183562} 並且使用 {spell:362655} 來餵食 {npc:183554}. 當三個都被餵食後, {npc:180924} 會啟動.'
 L['gluttonous_overgrowth_note'] = nil
+L['hirukon_note'] = nil
 L['protector_first_ones_note'] = '需要兩人. 攜帶對應的符文 (可以在附近區域找到) 到各個控制台來開啟屏障.'
 L['the_engulfer_note'] = '保護 {npc:183505} 直到 {npc:183516} 從裂隙中跳出.'
 L['zatojin_note'] = '吸引附近的 {npc:183721} 並且讓他們對你堆疊20層的 {spell:362976} 直到你受到 {spell:362983}. 當你麻痺時你必須站在 {npc:183774} 屍體上, 以便讓 {npc:183764} 注意到你.'
