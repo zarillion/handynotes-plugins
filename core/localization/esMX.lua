@@ -42,6 +42,7 @@ L['trinket'] = 'Abalorio'
 
 L['activation_unknown'] = nil
 L['requirement_not_found'] = nil
+L['multiple_spawns'] = nil
 
 L['Requires'] = nil
 L['ranked_research'] = nil

@@ -726,7 +726,7 @@ cata.nodes[49243441] = Class('Foliage', Treasure,
 map.nodes[48016641] = Treasure({
     quest = 65184,
     label = L['prying_eye_discovery'],
-    note = L['prying_eye_discovery_note'],
+    note = L['multiple_spawns'] .. ' ' .. L['prying_eye_discovery_note'],
     rewards = {
         Achievement({id = 15508, criteria = 53293}), -- Fashion of the First Ones
         Item({item = 190096, quest = 65534}) -- Pocobold
@@ -734,14 +734,22 @@ map.nodes[48016641] = Treasure({
     pois = {POI({35244371, 34334431, 51767789})}
 }) -- Prying Eye Discovery
 
--------------------------------------------------------------------------------
+map.nodes[53402570] = Treasure({
+    quest = 65501,
+    label = L['pulp_covered_relic'],
+    note = L['multiple_spawns'],
+    rewards = {
+        Item({item = 189474, quest = 65397}) -- Schematic: Buzz
+    },
+    pois = {POI({41903400, 53402570, 64366347})}
+}) -- Pulp-Covered Relic
 
 map.nodes[60022583] = Treasure({
     quest = 65611,
     icon = 'chest_yw',
     requires = ns.requirement.Item(190197), -- Sandworn Chest Key
     label = L['sandworn_chest'],
-    note = L['sandworn_chest_note'],
+    note = L['multiple_spawns'] .. ' ' .. L['sandworn_chest_note'],
     rewards = {
         Toy({item = 190734}) -- Makaris's Satchel of Mines
     },
@@ -781,7 +789,7 @@ map.nodes[47504622] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[48628747] = Puzzle({quest = 65318, label = L['cache_cantaric']})
 map.nodes[52984558] = Puzzle({quest = 65094, label = L['cache_cantaric']}) -- 65418 65416
 map.nodes[55004800] = Puzzle({quest = nil, label = L['cache_cantaric']})
-map.nodes[56007960] = Puzzle({quest = nil, label = L['cache_cantaric']})
+map.nodes[55977960] = Puzzle({quest = 65318, label = L['cache_cantaric']})
 map.nodes[65674096] = Puzzle({quest = 65094, label = L['cache_cantaric']}) -- 65418 65406
 
 map.nodes[36475646] = Puzzle({quest = 65322, label = L['cache_fugueal']})
@@ -820,7 +828,7 @@ map.nodes[64695282] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
 map.nodes[32055258] = Puzzle({quest = 64972, label = L['cache_toccatian']})
 map.nodes[34606880] = Puzzle({quest = nil, label = L['cache_toccatian']})
 map.nodes[37014645] = Puzzle({quest = 64972, label = L['cache_toccatian']})
-map.nodes[46806700] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[46826698] = Puzzle({quest = 64972, label = L['cache_toccatian']})
 map.nodes[52435706] = Puzzle({quest = 65314, label = L['cache_toccatian']})
 map.nodes[53258687] = Puzzle({quest = 65314, label = L['cache_toccatian']})
 map.nodes[62807390] = Puzzle({quest = nil, label = L['cache_toccatian']})
