@@ -530,7 +530,7 @@ map.nodes[49758723] = Treasure({
 }) -- Filched Artifact
 
 map.nodes[67016935] = Treasure({
-    quest = nil,
+    quest = 65178,
     note = L['forgotten_protovault_note'],
     rewards = {
         Achievement({id = 15331, criteria = 52967}), -- Treasures of Zereth Mortis
