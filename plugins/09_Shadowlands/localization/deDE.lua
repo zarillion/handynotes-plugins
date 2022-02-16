@@ -689,6 +689,7 @@ L['feasting_note'] = 'Umrundet manchmal das Gebiet, bevor er zu dieser Stelle zu
 L['furidian_note'] = 'Aktiviere drei |cFFFFFD00Ermächtigter Schlüssel|r in dem Bereich, und entriegel dann den |cFFFFFD00Verdächtig wütender Tresor|r.'
 L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwenden {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
 L['gluttonous_overgrowth_note'] = 'Zerbrich alle in der Nähe befindlichen {npc:184048n}, um den den selten Gegner zu aktivieren.'
+L['hirukon_note'] = nil
 L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden Runen zu jeder Konsole (in der Umgebung zu finden), um die Barriere zu öffnen.'
 L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss springt.'
 L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
