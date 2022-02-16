@@ -680,20 +680,20 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
 L['dune_dominance_note'] = 'Los tres élites raros para el logro {achievement:15392} aparecen en el mismo sitio.'
 L['feasting_note'] = 'A veces rodeará la zona antes de volver a este sitio.'
-L['furidian_note'] = 'Interactúa con  la |cFFFFFD00Cámara Sospechosamente Enfadada|r.'
+L['furidian_note'] = 'Activa tres |cFFFFFD00Llave Potenciada|r de la zona, y desbloquea la |cFFFFFD00Cámara Sospechosamente Enfadada|r.'
 L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
 L['gluttonous_overgrowth_note'] = 'Rompe todas las {npc:184048} cercanas para activar al {npc:178778}.'
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
 L['the_engulfer_note'] = 'Defiende a {npc:183505} hasta que {npc:183516} salte de la grieta.'
 L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar sobre los cuerpos de los {npc:183774} cuando seas paralizado para que {npc:183764} se fije en ti.'
 
-L['architects_reserve_note'] = nil
+L['architects_reserve_note'] = 'Cuando la investigación esté desbloqueada, completa la cadena de misiones {quest:64829} que da {npc:180630} en Gracia del Peregrino. Al día seguiente, completa la cadena de misiones {quest:65426} que da {npc:181273} para conseguir acceder a la cámara.'
 L['bushel_of_produce_note'] = 'Mata al {npc:182368} al norte mientras tenga el buff {spell:360945} para ganártelo tú. Mata más {npc:182368} (no necesitan tener el buff) hasta que tengas 5 acumulaciones. Ya puedes romper la puerta que da al tesoro.'
 L['crushed_crate_note'] = 'Despoja la {item:189767} de la hendidura sobre el gran orbe al norte. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
 L['domination_cache_note'] = 'La {item:189704} tiene pocas probabilidades de caer de los {npc:181403} y de los {npc:182426} de la zona.'
 L['drowned_broker_supplies_note'] = 'Dile a {npc:181059} que coja el control de un {npc:185282} cercano.'
 L['forgotten_protovault_note'] = 'Sólo está disponible durante la misión del mundo {wq:A salto de rana}.'
-L['grateful_boon_note'] = nil
+L['grateful_boon_note'] = 'Es dificul de alcanzar sin volar; usa {spell:300728} o {spell:111771} para subir la montaña. Tranquiliza a las 12 criaturas de la zona y {npc:185293} hará aparecer el tesoro.'
 L['library_vault_note'] = 'Haz click en las tablillas de la Gruta del Léxico hasta que encuentres el orden correcto y ganes el buff {spell:362062} para abrir la cámara.'
 L['mistaken_ovoid_note'] = 'Dentro de la caverna Cataratas Dimensionales, detrás de las bolas.'
 L['sphere_treasure_note'] = 'Salta las esferas con cuidado hasta llegar al tesoro.'
@@ -734,11 +734,11 @@ L['concordance_note'] = 'Lee cada concordancia para desbloquear entradas en la |
 
 L['echoed_jiro_note'] = 'Gasta energia de {npc:181059} para ganar bufos temporales. Requiere investigar |cFFFFFD00Creatiano|r en la {npc:181397}.'
 
-L['bygone_elemental_note'] = nil
-L['gaiagantic_note'] = nil
-L['misaligned_enforcer_note'] = nil
-L['overcharged_vespoid_note'] = nil
-L['runethief_xylora_note'] = nil
+L['bygone_elemental_note'] = 'Un {npc:181221} puede aparecer en lugar de cualquier {npc:179007} de la zona.'
+L['gaiagantic_note'] = 'Sólo aparece cuando {npc:177958} te ofrece la misión diaria {quest:64785}.'
+L['misaligned_enforcer_note'] = 'Patrulla la zona y entonces desaparece cuando acaba su ruta.'
+L['overcharged_vespoid_note'] = 'Puede aparecer como parte de una multitud de la zona.'
+L['runethief_xylora_note'] = 'Aparece en sigilo en la zona de Gracia del Peregrino.'
 
 L['patient_bufonid_note'] = 'Progresa en la historia de Zereth Mortis hasta que {npc:180950} ofrezca la misión {quest:65727}. Completa las misiones cada día para atraer un {npc:185798} fuera del estanque.'
 L['patient_bufonid_note_day1'] = 'Recoge {item:190852} x15 de los Vespoide de la zona.'
@@ -750,7 +750,7 @@ L['patient_bufonid_note_day6'] = 'Compra {item:190880} x5 a {npc:185748} cerca d
 L['patient_bufonid_note_day7'] = 'Compra {item:187171} x1 a {npc:180114} en la mazmorra de Tazavesh.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
-L['options_icons_code_creature_desc'] = nil
+L['options_icons_code_creature_desc'] = 'Muestra los sitios de las criaturas para el logro {achievement:15211}.'
 L['options_icons_concordances'] = 'Concordancias de Conocimiento'
 L['options_icons_concordances_desc'] = 'Muestra los sitios de las consolas de las concordancias de conocimiento.'
 L['options_icons_echoed_jiros'] = 'Jiro en Eco'
