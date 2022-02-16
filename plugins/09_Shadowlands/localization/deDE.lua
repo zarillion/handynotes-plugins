@@ -689,7 +689,21 @@ L['feasting_note'] = 'Umrundet manchmal das Gebiet, bevor er zu dieser Stelle zu
 L['furidian_note'] = 'Aktiviere drei |cFFFFFD00Ermächtigter Schlüssel|r in dem Bereich, und entriegel dann den |cFFFFFD00Verdächtig wütender Tresor|r.'
 L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwenden {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
 L['gluttonous_overgrowth_note'] = 'Zerbrich alle in der Nähe befindlichen {npc:184048n}, um den den selten Gegner zu aktivieren.'
-L['hirukon_note'] = nil
+L['hirukon_note'] = [[
+Um {npc:180978} an die Oberfläche zu locken, muss ein {item:187923} hergestellt werden.
+
+1. Fische einen {item:187662} aus den nahen Gewässern.
+
+2. Fische einen {item:187915} aus dem |cFFFFFD00Stinkender Blobfischschwarm|r im Der Echsenkessel in den Zangarmarschen. Das Becken befindet sich rechts, wenn du die Höhle betrittst.
+
+3. Fische einen {item:187922} von der |cFFFFFD00Flipper Fish School|r in der Nähe des Flugplatzes Kelyas Grab in Nazjatar (72.8 24.3).
+
+4. Plündere ein (sehr gut verstecktes) {item:187916} auf einem Balkon in der zweiten Ebene der Terrasse von Nar'shola in der Schimmernde Weiten in Vashj'ir (34.7, 75.0).
+
+5. Finde {npc:182194} am Teich südlich des Sitzes des Primus in Maldraxxus (57.6 92.0). Bitte Sie, den fertigen {item:187923} herzustellen.
+
+6. Benutze den {item:187923}, der es ermöglicht, den Fischteich |cFFFFFD00Aurelid Cluster|r in der Nähe von {npc:180978} für 15min zu sehen. Fische darin, um {npc:180978} an die Oberfläche zu locken.
+]] -- review later
 L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden Runen zu jeder Konsole (in der Umgebung zu finden), um die Barriere zu öffnen.'
 L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss springt.'
 L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
