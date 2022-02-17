@@ -736,11 +736,11 @@ L['concordance_note'] = 'Прочитайте каждый конкорданс,
 
 L['echoed_jiro_note'] = 'Потратьте энергию у {npc:181059}, чтобы получить временные положительные эффекты. Требуется исследование |cFFFFFD00Созидайский|r у {npc:181397}'
 
-L['bygone_elemental_note'] = nil
-L['gaiagantic_note'] = nil
-L['misaligned_enforcer_note'] = nil
-L['overcharged_vespoid_note'] = nil
-L['runethief_xylora_note'] = nil
+L['bygone_elemental_note'] = '{npc:181221} может появиться вместо любого {npc:179007} в этом районе.'
+L['gaiagantic_note'] = 'Появляется только тогда, когда {npc:177958} предлагает ежедневные задание {quest:64785}.'
+L['misaligned_enforcer_note'] = 'Патрулирует территорию, а затем исчезает в конце своего маршрута.'
+L['overcharged_vespoid_note'] = 'Может появиться как часть любой стаи в этом районе.'
+L['runethief_xylora_note'] = 'Появляется скрытно в районе Приюта Пилигрима.'
 
 L['patient_bufonid_note'] = 'Продвигайтесь по сюжету Зерет Мортис, пока {npc:180950} не предложит {quest:65727}. Выполняйте задания каждый день, чтобы выманить {npc:185798} из пруда.'
 L['patient_bufonid_note_day1'] = 'Соберите 15x {item:190852} из Веспоидов в локации.'
@@ -752,7 +752,7 @@ L['patient_bufonid_note_day6'] = 'Купите 5x {item:190880} у {npc:185748} 
 L['patient_bufonid_note_day7'] = 'Купите 1x {item:187171} у {npc:180114} в подземелье Тазавеш.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
-L['options_icons_code_creature_desc'] = nil
+L['options_icons_code_creature_desc'] = 'Показать местонахождение существ для достижения {achievement:15211}.'
 L['options_icons_concordances'] = 'Свод конкордансов'
 L['options_icons_concordances_desc'] = 'Отображение местоположения консолей свода конкордансов.'
 L['options_icons_echoed_jiros'] = 'Вторящий Джиро'
