@@ -42,7 +42,7 @@ L['trinket'] = 'Schmuck'
 
 L['activation_unknown'] = 'Aktivierung unbekannt!'
 L['requirement_not_found'] = 'Voraussetzungsort unbekannt!'
-L['multiple_spawns'] = nil
+L['multiple_spawns'] = 'Kann an mehreren Orten erscheinen.'
 
 L['Requires'] = 'Benötigt'
 L['ranked_research'] = '%s (Rang %d/%d)'
