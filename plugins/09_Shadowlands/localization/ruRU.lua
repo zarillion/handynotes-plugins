@@ -681,6 +681,7 @@ L['corrupted_architect_note'] = 'Задействуйте {npc:183958} и {npc:1
 L['dune_dominance_note'] = 'Все три редких монстра для достижения {achievement:15392} появляются в этом месте.'
 L['feasting_note'] = 'Иногда будет кружить по области, прежде чем вернуться на место.'
 L['furidian_note'] = 'Активируйте |cFFFFFD00Подозрительное рассерженное хранилище|r.'
+L['furidian_note'] = 'Активировать три |cFFFFFD00усиленных ключа|r в этом районе, затем разблокируйте |cFFFFFD00Подозрительное рассерженное хранилище|r.'
 L['garudeon_note'] = 'Соберите {npc:183562} в окрестностях и используйте {spell:362655}, чтобы накормить {npc:183554}. Как только все трое будут накормлены, активируется {npc:180924}.'
 L['gluttonous_overgrowth_note'] = 'Уничтожьте всех {npc:184048} поблизости, чтобы активировать редкого монстра.'
 L['hirukon_note'] = nil
@@ -710,10 +711,10 @@ L['undulating_foliage_note'] = [[
 ]]
 
 L['prying_eye_discovery'] = 'Находка любопытных'
-L['prying_eye_discovery_note'] = 'Может появляться в нескольких местах. Легче добраться, когда полеты разблокированы.'
+L['prying_eye_discovery_note'] = 'Легче добраться, когда полеты разблокированы.'
 L['pulp_covered_relic'] = nil
 L['sandworn_chest'] = 'Пустынный сундук'
-L['sandworn_chest_note'] = 'Может появляться в нескольких местах. Соберите 5x {item:190198} с монстров в этом районе, чтобы создать {item:190197}.'
+L['sandworn_chest_note'] = 'Соберите 5x {item:190198} с монстров в этом районе, чтобы создать {item:190197}.'
 
 L['cache_avian_nest'] = 'Гнездо авиана'
 L['cache_cypher_bound'] = 'Защищенный шифром сундук'
@@ -759,6 +760,6 @@ L['options_icons_echoed_jiros_desc'] = 'Показать места, где |cFF
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Отображение истории локации для достижения {achievement:15509}.'
 L['options_icons_puzzle_caches'] = 'Тайники с головоломками'
-L['options_icons_puzzle_caches_desc'] = 'Отображение местоположения тайников головоломок.'
+L['options_icons_puzzle_caches_desc'] = 'Показать возможные местоположения тайников с головоломками.'
 L['options_icons_zereth_caches'] = 'Защищенные шифром тайники'
 L['options_icons_zereth_caches_desc'] = 'Отображение возможных местоположений защищенных шифром тайников.'
