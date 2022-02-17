@@ -712,7 +712,7 @@ L['undulating_foliage_note'] = [[
 
 L['prying_eye_discovery'] = 'Находка любопытных'
 L['prying_eye_discovery_note'] = 'Легче добраться, когда полеты разблокированы.'
-L['pulp_covered_relic'] = nil
+L['pulp_covered_relic'] = 'Измазанная реликвия'
 L['sandworn_chest'] = 'Пустынный сундук'
 L['sandworn_chest_note'] = 'Соберите 5x {item:190198} с монстров в этом районе, чтобы создать {item:190197}.'
 
