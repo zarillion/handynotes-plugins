@@ -427,24 +427,24 @@ map.nodes[43513294] = Rare({
 map.nodes[63202603] = Rare({
     id = 182114,
     label = '{achievement:15392}',
-    -- quest = {nil, nil, nil},
-    -- questCount = true,
+    quest = {65585, 65586, 65587},
+    questCount = true,
     note = L['dune_dominance_note'],
     rewards = {
         Achievement({
             id = 15392,
             criteria = {
-                {id = 52992, quest = 65585}, -- Iska, Outrider of Ruin
-                {id = 52993, quest = nil}, -- High Reaver Damaris
+                {id = 52992, quest = 65585}, -- Iska, Outrider of Ruin (mount=65706)
+                {id = 52993, quest = 65586}, -- High Reaver Damaris (mount=65558)
                 {id = 52994, quest = 65587} -- Reanimatrox Marzan
             }
         }), -- Dune Dominance
         Transmog({item = 190104, slot = L['crossbow']}), -- Deadeye's Spirit Piercer
+        Transmog({item = 190107, slot = L['staff']}), -- Staff of Broken Coils
         Transmog({item = 190126, slot = L['polearm'], note = '{npc:182114}'}), -- Rotculler's Encroaching Shears
         Transmog({item = 190459, slot = L['shield'], note = '{npc:182155}'}), -- Cold Dispiriting Barricade
         Transmog({item = 190460, slot = L['polearm'], note = '{npc:182155}'}), -- High Reaver's Sickle
-        Transmog({item = 190107, slot = L['staff'], note = '{npc:182114}'}), -- Staff of Broken Coils
-        Mount({item = 190765, id = 1584, note = '{npc:182120}'}) -- Iska's Mawrat Leash (quest=65706)
+        Mount({item = 190765, id = 1584, note = '{npc:182120}'}) -- Iska's Mawrat Leash
     }
 })
 
@@ -825,7 +825,7 @@ map.nodes[55675002] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[57863165] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
 map.nodes[64695282] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
 
-map.nodes[32055258] = Puzzle({quest = 64972, label = L['cache_toccatian']})
+map.nodes[32055258] = Puzzle({quest = 64972, label = L['cache_toccatian']}) -- 65418 65402
 map.nodes[34606880] = Puzzle({quest = nil, label = L['cache_toccatian']})
 map.nodes[37014645] = Puzzle({quest = 64972, label = L['cache_toccatian']})
 map.nodes[46826698] = Puzzle({quest = 64972, label = L['cache_toccatian']})
@@ -994,7 +994,7 @@ local Lore = Class('Concordance', ns.node.Node, {
     note = L['concordance_note']
 })
 
-map.nodes[31775466] = Lore({label = L['concordance_excitable']})
+map.nodes[31775466] = Lore({label = L['concordance_excitable']}) -- quest=65179
 map.nodes[38953127] = Lore({label = L['concordance_excitable']}) -- quest=65213
 map.nodes[50405096] = Lore({label = L['concordance_excitable']}) -- quest=65216
 map.nodes[64616035] = Lore({label = L['concordance_excitable']})
