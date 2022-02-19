@@ -806,7 +806,7 @@ map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
 map.nodes[33785427] = Puzzle({quest = 65321, label = L['cache_glissandian']})
 map.nodes[39937284] = Puzzle({quest = 65321, label = L['cache_glissandian']})
 map.nodes[41843130] = Puzzle({quest = 65092, label = L['cache_glissandian']})
-map.nodes[44605050] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[44635053] = Puzzle({quest = 65321, label = L['cache_glissandian']})
 map.nodes[45109410] = Puzzle({quest = nil, label = L['cache_glissandian']})
 map.nodes[51282573] = Puzzle({quest = 65412, label = L['cache_glissandian']}) -- 65418
 map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
