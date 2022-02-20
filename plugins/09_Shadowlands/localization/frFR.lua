@@ -699,6 +699,7 @@ L['forgotten_protovault_note'] = nil
 L['grateful_boon_note'] = nil
 L['library_vault_note'] = nil
 L['mistaken_ovoid_note'] = nil
+L['ripened_protopear_note'] = nil
 L['sphere_treasure_note'] = nil
 L['submerged_chest_note'] = nil
 L['symphonic_vault_note'] = nil

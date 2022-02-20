@@ -717,6 +717,7 @@ L['forgotten_protovault_note'] = 'Nur während der {wq:Verfroscht} Weltquest ver
 L['grateful_boon_note'] = 'Ohne Fliegen schwer zu erreichen; Benutze das {spell:300728} oder ein {spell:111771}, um den Berg zu besteigen. Besänftige alle 12 Kreaturen in dem Gebiet und {npc:185293} lässt den Schatz erscheinen.'
 L['library_vault_note'] = 'Klicke die Tafeln in der Grotte der Lexik an, bis du den richtigen {spell:362062} Stärkungszauber findest, um damit das Bibliotheksarchiv zu öffnen.'
 L['mistaken_ovoid_note'] = 'In der Höhle der Dimensionenfälle, hinter den Bällen.'
+L['ripened_protopear_note'] = nil
 L['sphere_treasure_note'] = 'Springe vorsichtig die Kugeln hoch, bis du den Schatz erreichst.'
 L['submerged_chest_note'] = 'Nimm die |cFFFFFD00Gefährliche Kugel der Macht|r im Süden auf und interagiere dann mit der |cFFFFFD00Forgotten Pump|r nahe des Schatzes.'
 L['symphonic_vault_note'] = 'Untersuche {npc:183998}, um eine Folge von vier Tönen zu hören. Jede {npc:183950} in dem Raum spielt einen einzigen Ton. Interagiere mit ihnen in der richtigen Reihenfolge, um den Schatz freizuschalten.'

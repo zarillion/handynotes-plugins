@@ -458,7 +458,7 @@ map.nodes[63202603] = Rare({
 -- Glimmer of Serenity (64666343, 60412528)
 -- Schematic: Multichicken (53777246) (quest=65333)
 
-map.nodes[61163709] = Treasure({
+map.nodes[61153714] = Treasure({
     quest = nil,
     requires = ns.requirement.GarrisonTalent(1931),
     note = L['architects_reserve_note'],
@@ -626,13 +626,20 @@ map.nodes[46643094] = Treasure({
 }) -- Protomineral Extractor
 
 bfdry.nodes[65645023] = Treasure({
-    quest = nil,
+    quest = 65566,
     parent = map.id,
+    note = L['ripened_protopear_note'],
     requires = ns.requirement.GarrisonTalent(1931),
     rewards = {
         Achievement({id = 15331, criteria = 53069}), -- Treasures of Zereth Mortis
         Achievement({id = 15508, criteria = 53287}), -- Fashion of the First Ones
-        Item({item = 190058, quest = nil}) -- Peaceful Pocopoc
+        Item({item = 190058, quest = 65525}) -- Peaceful Pocopoc
+    },
+    pois = {
+        POI({
+            23036658, 30336288, 41593238, 42447504, 45233985, 64725877,
+            67694623, 70086712, 75467431
+        }) -- Pollen Cloud
     }
 }) -- Ripened Protopear
 
