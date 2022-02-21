@@ -77,6 +77,7 @@ read_globals = {
     'CloseDropDownMenus',
     'CreateFrame',
     'CreateFromMixins',
+    'EmbeddedItemTooltip_SetItemByID',
     'EmbeddedItemTooltip_SetSpellWithTextureByID',
     'GameTooltip_AddBlankLineToTooltip',
     'GameTooltip_AddNormalLine',

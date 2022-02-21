@@ -388,6 +388,35 @@ function Intro.getters:label()
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ ITEM -------------------------------------
+-------------------------------------------------------------------------------
+
+local Item = Class('Item', Node, {icon = 454046})
+
+function Item:Initialize(attrs)
+    Node.Initialize(self, attrs)
+    if not self.id then error('id required for Item nodes') end
+
+    local item = _G.Item:CreateFromItemID(self.id)
+    if not item:IsItemEmpty() then
+        item:ContinueOnItemLoad(function() self.icon = item:GetItemIcon() end)
+    end
+end
+
+function Item:IsCompleted()
+    if ns.PlayerHasItem(self.id) then return true end
+    return Node.IsCompleted(self)
+end
+
+function Item:Render(tooltip, focusable)
+    Node.Render(self, tooltip, focusable)
+    GameTooltip_AddBlankLineToTooltip(tooltip)
+    EmbeddedItemTooltip_SetItemByID(tooltip.ItemTooltip, self.id)
+end
+
+function Item.getters:label() return ('{item:%d}'):format(self.id) end
+
+-------------------------------------------------------------------------------
 ------------------------------------- NPC -------------------------------------
 -------------------------------------------------------------------------------
 
@@ -494,6 +523,7 @@ ns.node = {
     Node = Node,
     Collectible = Collectible,
     Intro = Intro,
+    Item = Item,
     NPC = NPC,
     PetBattle = PetBattle,
     Quest = Quest,
