@@ -27,6 +27,8 @@ local NIGHTFAE = ns.covenants.FAE
 
 local map = Map({id = 1970, settings = true})
 local bfdry = Map({id = 2027}) -- Blooming Foundry
+local esper = Map({id = 2028}) -- Locrian Esper
+local gpose = Map({id = 2029}) -- Gravid Repose
 local microd = Map({id = 2030}) -- Nexus of Actualization
 local cata = Map({id = 2066}) -- Catalyst Wards
 
@@ -83,7 +85,7 @@ map.nodes[53634435] = Rare({
         Transmog({item = 189910, slot = L['cloth']}), -- Adornment of Jingling Fractals
         Transmog({item = 189985, slot = L['cloak']}), -- Curtain of Untold Realms
         Transmog({item = 189999, slot = L['1h_mace']}), -- Dark Sky Gavel
-        Item({item = 187837}) -- Schematic: Erratic Genesis Matrix
+        Item({item = 187837}) -- Schematic: Erratic Genesis Matrix (engineering)
     }
 }) -- Destabilized Core
 
@@ -144,7 +146,7 @@ map.nodes[69073662] = Rare({
         Achievement({id = 15391, criteria = 53025}), -- Adventurer of Zereth Mortis
         Transmog({item = 189951, slot = L['plate']}), -- Sunbathed Avian Armor
         Transmog({item = 189937, slot = L['cloak']}), -- Garudeon's Blanket of Feathers
-        Item({item = 187832}) -- Schematic: Pure-Air Sail Extensions
+        Item({item = 187832}) -- Schematic: Pure-Air Sail Extensions (engineering)
     },
     pois = {
         POI({68333834, 68153594, 66343802, 67553892, 67554019}) -- Energizing Leporid
@@ -342,7 +344,7 @@ map.nodes[49783914] = Rare({
         Transmog({item = 189915, slot = L['cloth']}), -- Tahkwitz' Cloth Ribbon
         Transmog({item = 189933, slot = L['mail']}), -- Vigilant Raptora's Crest
         Transmog({item = 189954, slot = L['plate']}), -- Lustrous Sentinel's Sabatons
-        Item({item = 187832}) -- Schematic: Pure-Air Sail Extensions
+        Item({item = 187832}) -- Schematic: Pure-Air Sail Extensions (engineering)
     }
 }) -- Tahkwitz
 
@@ -456,16 +458,15 @@ map.nodes[63202603] = Rare({
 -- 42025181 Provis Cache (requires Provis Cache Key)
 -- Pocopoc costume unlock (first appearance learned) (quest=65531)
 -- Glimmer of Serenity (64666343, 60412528)
--- Schematic: Multichicken (53777246) (quest=65333)
 
 map.nodes[61153714] = Treasure({
-    quest = nil,
+    quest = 65520,
     requires = ns.requirement.GarrisonTalent(1931),
     note = L['architects_reserve_note'],
     rewards = {
         Achievement({id = 15331, criteria = 53053}), -- Treasures of Zereth Mortis
         Achievement({id = 15508, criteria = 53290}), -- Fashion of the First Ones
-        Item({item = 187833, quest = nil}) -- Dapper Pocopoc
+        Item({item = 187833, quest = 65528}) -- Dapper Pocopoc
     }
 }) -- Architect's Reserve
 
@@ -536,10 +537,11 @@ map.nodes[49758723] = Treasure({
 
 map.nodes[67016935] = Treasure({
     quest = 65178,
-    note = L['forgotten_protovault_note'],
+    note = L['forgotten_protovault_note'] .. '\n\n' ..
+        L['schematic_treasure_note'],
     rewards = {
         Achievement({id = 15331, criteria = 52967}), -- Treasures of Zereth Mortis
-        Item({item = 189469, quest = nil}) -- Schematic: Prototype Leaper
+        Item({item = 189469, quest = 65393}) -- Schematic: Prototype Leaper
     }
 }) -- Forgotten Proto-Vault
 
@@ -552,10 +554,10 @@ map.nodes[38977321] = Treasure({
 
 map.nodes[37177832] = Treasure({
     quest = 65545,
-    note = L['grateful_boon_note'],
+    note = L['grateful_boon_note'] .. '\n\n' .. L['schematic_treasure_note'],
     rewards = {
         Achievement({id = 15331, criteria = 53066}), -- Treasures of Zereth Mortis
-        Item({item = 189478, quest = nil}) -- Schematic: Adorned Vombata
+        Item({item = 189478, quest = 65401}) -- Schematic: Adorned Vombata
     }
 }) -- Grateful Boon
 
@@ -564,24 +566,26 @@ map.nodes[58847706] = Treasure({
     note = L['in_cave'] .. ' ' .. L['library_vault_note'],
     rewards = {
         Achievement({id = 15331, criteria = 52887}), -- Treasures of Zereth Mortis
-        Item({item = 189447, quest = nil}) -- Schematic: Viperid Menace
+        Item({item = 189447, quest = 65360}) -- Schematic: Viperid Menace
     },
     pois = {POI({59238144})} -- Cave entrance
 }) -- Library Vault (Lost Scroll)
 
 map.nodes[60593053] = Treasure({
     quest = 65441,
+    note = L['schematic_treasure_note'],
     rewards = {
-        Achievement({id = 15331, criteria = 52969}) -- Treasures of Zereth Mortis
+        Achievement({id = 15331, criteria = 52969}), -- Treasures of Zereth Mortis
+        Item({item = 189456, quest = 65379}) -- Schematic: Sundered Zerethsteed
     }
 }) -- Mawsworn Cache
 
 map.nodes[53557223] = Treasure({
     quest = 65522,
-    note = L['mistaken_ovoid_note'],
+    note = L['mistaken_ovoid_note'] .. '\n\n' .. L['schematic_treasure_note'],
     rewards = {
         Achievement({id = 15331, criteria = 53060}), -- Treasures of Zereth Mortis
-        Item({item = 189435, quest = nil}) -- Schematic: Multichicken
+        Item({item = 189435, quest = 65333}) -- Schematic: Multichicken
     }
 }) -- Mistaken Ovoid
 
@@ -748,7 +752,7 @@ map.nodes[53402570] = Treasure({
     rewards = {
         Item({item = 189474, quest = 65397}) -- Schematic: Buzz
     },
-    pois = {POI({41903400, 53402570, 64366347})}
+    pois = {POI({41903400, 50304120, 52804580, 53402570, 64366347})}
 }) -- Pulp-Covered Relic
 
 map.nodes[60022583] = Treasure({
@@ -795,13 +799,13 @@ map.nodes[44767608] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[47504622] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[48628747] = Puzzle({quest = 65318, label = L['cache_cantaric']})
 map.nodes[52984558] = Puzzle({quest = 65094, label = L['cache_cantaric']}) -- 65418 65416
-map.nodes[55004800] = Puzzle({quest = nil, label = L['cache_cantaric']})
+map.nodes[54964798] = Puzzle({quest = nil, label = L['cache_cantaric']})
 map.nodes[55977960] = Puzzle({quest = 65318, label = L['cache_cantaric']})
 map.nodes[65674096] = Puzzle({quest = 65094, label = L['cache_cantaric']}) -- 65418 65406
 
 map.nodes[36475646] = Puzzle({quest = 65322, label = L['cache_fugueal']})
 map.nodes[39184665] = Puzzle({quest = 65322, label = L['cache_fugueal']})
-map.nodes[42196878] = Puzzle({quest = nil, label = L['cache_fugueal']})
+map.nodes[42236875] = Puzzle({quest = 65322, label = L['cache_fugueal']})
 map.nodes[44303093] = Puzzle({quest = 65317, label = L['cache_fugueal']})
 map.nodes[46036461] = Puzzle({quest = 65093, label = L['cache_fugueal']})
 map.nodes[47117719] = Puzzle({quest = 65093, label = L['cache_fugueal']})
@@ -823,7 +827,7 @@ map.nodes[58893634] = Puzzle({quest = 65092, label = L['cache_glissandian']})
 
 map.nodes[35825908] = Puzzle({quest = 65315, label = L['cache_mezzonic']})
 map.nodes[38377037] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
-map.nodes[38503552] = Puzzle({quest = nil, label = L['cache_mezzonic']})
+map.nodes[38503543] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
 map.nodes[39346043] = Puzzle({quest = 65091, label = L['cache_mezzonic']})
 map.nodes[43624033] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
 map.nodes[49953046] = Puzzle({quest = 65320, label = L['cache_mezzonic']})
@@ -838,7 +842,7 @@ map.nodes[37014645] = Puzzle({quest = 64972, label = L['cache_toccatian']})
 map.nodes[46826698] = Puzzle({quest = 64972, label = L['cache_toccatian']})
 map.nodes[52435706] = Puzzle({quest = 65314, label = L['cache_toccatian']})
 map.nodes[53258687] = Puzzle({quest = 65314, label = L['cache_toccatian']})
-map.nodes[62807390] = Puzzle({quest = nil, label = L['cache_toccatian']})
+map.nodes[62817394] = Puzzle({quest = 65314, label = L['cache_toccatian']})
 map.nodes[64286332] = Puzzle({quest = 65319, label = L['cache_toccatian']})
 map.nodes[65594762] = Puzzle({quest = 65319, label = L['cache_toccatian']})
 map.nodes[67812744] = Puzzle({quest = 65319, label = L['cache_toccatian']})
@@ -986,6 +990,302 @@ microd.nodes[62764399] = Cache({
     label = L['cache_cypher_bound'],
     parent = map.id
 })
+
+-------------------------------------------------------------------------------
+----------------------------- PROTOFORM SCHEMATICS ----------------------------
+-------------------------------------------------------------------------------
+
+local Schematic = Class('Schematic', ns.node.Item, {
+    icon = 4217590,
+    group = ns.groups.PROTOFORM_SCHEMATICS
+})
+
+-------------------------------------------------------------------------------
+
+map.nodes[78175317] = Schematic({
+    sublabel = '{spell:366368}',
+    id = 189418,
+    quest = 65327,
+    note = L['schematic_ambystan_darter_note']
+}) -- Ambystan Darter
+
+map.nodes[61234258] = Schematic({
+    sublabel = '{spell:366368}',
+    id = 189434,
+    quest = 65332,
+    note = L['schematic_fierce_scarabid_note']
+}) -- Fierce Scarabid
+
+map.nodes[58407440] = Schematic({
+    sublabel = '{spell:366368}',
+    id = 189444,
+    quest = 65357,
+    note = L['schematic_leaping_leporid_note']
+}) -- Leaping Leporid
+
+map.nodes[28135001] = Schematic({
+    sublabel = '{spell:366368}',
+    id = 189445,
+    quest = 65358,
+    note = L['schematic_microlicid_note']
+}) -- Microlicid
+
+map.nodes[53777246] = Schematic({
+    sublabel = '{spell:366368}',
+    id = 189435,
+    quest = 65333,
+    note = L['in_cave'] .. '\n\n' .. L['schematic_treasure_pet_note']
+}) -- Multichicken
+
+-- map.nodes[] = Schematic({
+--     sublabel = '{spell:366368}',
+--     id = 189440,
+--     quest = 65348,
+--     note = L['schematic_omnipotential_core_note']
+-- }) -- Omnipotential Core
+
+map.nodes[52237533] = Schematic({
+    sublabel = '{spell:366368}',
+    id = 189442,
+    quest = 65354,
+    note = L['schematic_prototickles_note']
+}) -- Prototickles
+
+map.nodes[77605900] = Schematic({
+    sublabel = '{spell:366368}',
+    id = 189441,
+    quest = 65351,
+    note = L['schematic_resonant_echo_note'],
+    pois = {POI({58608990, 77404530, 77605900, 77606040, 78205440, 78305310})}
+}) -- Resonant Echo
+
+map.nodes[57837783] = Schematic({
+    sublabel = '{spell:366368}',
+    id = 189446,
+    quest = 65359,
+    note = L['schematic_shelly_note'],
+    pois = {POI({59328128})}
+}) -- Shelly
+
+-- map.nodes[] = Schematic({
+--     sublabel = '{spell:366368}',
+--     id = 189437,
+--     quest = 65336,
+--     note = L['schematic_stabilized_geomental_note']
+-- }) -- Stabilized Geomental
+
+map.nodes[67223261] = Schematic({
+    sublabel = '{spell:366368}',
+    id = 189443,
+    quest = 65355,
+    note = L['schematic_terror_jelly_note']
+}) -- Terror Jelly
+
+esper.nodes[74745037] = Schematic({
+    sublabel = '{spell:366368}',
+    id = 189448,
+    quest = 65361,
+    parent = {id = map.id, pois = {POI({55755347})}},
+    note = L['schematic_tunneling_vombata_note']
+}) -- Tunneling Vombata
+
+-- map.nodes[] = Schematic({
+--     sublabel = '{spell:366368}',
+--     id = 189436,
+--     quest = 65334,
+--     note = L['schematic_violent_poultrid_note']
+-- }) -- Violent Poultrid
+
+-- Currently no fallback "Protoform Schematic" object for this one, it will always be
+-- obtained from the Library Vault treasure even if you have not unlocked the pet
+-- synthesizer yet.
+-- map.nodes[] = Schematic({
+--     sublabel = '{spell:366368}',
+--     id = 189447,
+--     quest = 65360,
+--     note = L['schematic_viperid_menace_note']
+-- }) -- Viperid Menace
+
+-------------------------------------------------------------------------------
+
+map.nodes[36947826] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189478,
+    quest = 65401,
+    note = L['schematic_treasure_mount_note']
+}) -- Adorned Vombata
+
+map.nodes[34986475] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189462,
+    quest = 65385,
+    note = L['schematic_bronze_helicid_note']
+}) -- Bronze Helicid
+
+gpose.nodes[48974050] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189473,
+    quest = 65396,
+    parent = {id = map.id, pois = {POI({50543218})}},
+    note = L['schematic_bronzewing_vespoid_note']
+}) -- Bronzewing Vespoid
+
+map.nodes[52804580] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189474,
+    quest = 65397,
+    note = L['schematic_buzz_note'] .. ' ' .. L['multiple_spawns'],
+    pois = {POI({41903400, 50304120, 52804580, 53402570, 64366347})}
+}) -- Buzz
+
+-- map.nodes[] = Schematic({
+--     sublabel = '{spell:366367}',
+--     id = 189476,
+--     quest = 65399,
+--     note = L['schematic_curious_crystalsniffer_note']
+-- }) -- Curious Crystalsniffer
+
+map.nodes[64223562] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189477,
+    quest = 65400,
+    note = L['schematic_darkened_vombata_note']
+}) -- Darkened Vombata
+
+map.nodes[70212856] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189457,
+    quest = 65380,
+    note = L['schematic_deathrunner_note']
+}) -- Deathrunner
+
+map.nodes[62024352] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189458,
+    quest = 65381,
+    note = L['schematic_desertwing_hunter_note']
+}) -- Desertwing Hunter
+
+map.nodes[53302560] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189475,
+    quest = 65398,
+    note = L['schematic_forged_spiteflyer_note']
+}) -- Forged Spiteflyer
+
+map.nodes[31485032] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189465,
+    quest = 65388,
+    note = L['schematic_genesis_crawler_note']
+}) -- Genesis Crawler
+
+map.nodes[76125219] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189468,
+    quest = 65391,
+    note = L['schematic_goldplate_bufonid_note'],
+    pois = {
+        POI({
+            49777243, 49817585, 51087420, 51857585, 74666083, 75234631,
+            76125219, 76704651, 77054511, 77245268, 78734687, 78864567,
+            79355986, 79674548, 79784714, 79845938, 80304549, 80435734,
+            80694698, 80965840
+        }) -- Accelerated Bufonid
+    }
+}) -- Goldplate Bufonid
+
+map.nodes[53166386] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 190585,
+    quest = 65680,
+    note = L['in_cave'] .. ' ' .. L['schematic_heartbond_lupine_note']
+}) -- Heartbond Lupine
+
+-- map.nodes[] = Schematic({
+--     sublabel = '{spell:366367}',
+--     id = 189467,
+--     quest = 65390,
+--     note = L['schematic_ineffable_skitterer_note']
+-- }) -- Ineffable Skitterer
+
+-- map.nodes[] = Schematic({
+--     sublabel = '{spell:366367}',
+--     id = 189459,
+--     quest = 65382,
+--     note = L['schematic_mawdapted_raptora_note']
+-- }) -- Mawdapted Raptora
+
+map.nodes[33754950] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189455,
+    quest = 65375,
+    note = L['schematic_pale_regal_cervid_note']
+}) -- Pale Regal Cervid
+
+map.nodes[66966942] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189469,
+    quest = 65393,
+    note = L['schematic_treasure_mount_note']
+}) -- Prototype Leaper
+
+map.nodes[67394025] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189460,
+    quest = 65383,
+    note = L['schematic_raptora_swooper_note'],
+    pois = {POI({65893620})}
+}) -- Raptora Swooper
+
+map.nodes[34756413] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189471,
+    quest = 65394,
+    note = L['schematic_russet_bufonid_note']
+}) -- Russet Bufonid
+
+map.nodes[47680954] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189464,
+    quest = 65387,
+    note = L['schematic_scarlet_helicid_note']
+}) -- Scarlet Helicid
+
+-- map.nodes[] = Schematic({
+--     sublabel = '{spell:366367}',
+--     id = 189461,
+--     quest = 65384,
+--     note = L['schematic_serenade_note']
+-- }) -- Serenade
+
+map.nodes[60603052] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189456,
+    quest = 65379,
+    note = L['schematic_treasure_mount_note']
+}) -- Sundered Zerethsteed
+
+map.nodes[63032149] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189466,
+    quest = 65389,
+    note = L['schematic_tarachnid_creeper_note']
+}) -- Tarachnid Creeper
+
+-- map.nodes[] = Schematic({
+--     sublabel = '{spell:366367}',
+--     id = 189463,
+--     quest = 65386,
+--     note = L['schematic_prototype_fleetpod_note']
+-- }) -- Unsuccessful Prototype Fleetpod
+
+map.nodes[50312704] = Schematic({
+    sublabel = '{spell:366367}',
+    id = 189472,
+    quest = 65395,
+    note = L['schematic_vespoid_flutterer_note']
+}) -- Vespoid Flutterer
 
 -------------------------------------------------------------------------------
 ------------------------------ LORE CONCORDANCES ------------------------------
