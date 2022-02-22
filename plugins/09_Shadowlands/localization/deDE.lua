@@ -708,7 +708,7 @@ L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden R
 L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss springt.'
 L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
 
-L['architects_reserve_note'] = 'Nachdem die Forschung freigeschaltet wurde, schließe die {quest:64829} Questreihe von {npc:180630} in der Huld des Pilgers ab. Beende am nächsten Tag die {quest:65426} von {npc:181273}, um Zugang zur Kammer zu erhalten.'
+L['architects_reserve_note'] = 'Schließe die {quest:64829} Questreihe von {npc:180630} in der Huld des Pilgers ab. Beende am nächsten Tag die {quest:65426} von {npc:181273}, um den Schatz freizuschalten.'
 L['bushel_of_produce_note'] = 'Töte einen {npc:182368} im Norden während er den Stärkungszauber {spell:360945} hat, um diesen selbst zu erhalten. Töte weitere {npc:182368s} (diese brauchen den Stärkungszauber nicht), bis du 5 Stapel hast, dann brich die Tür zum Schatz auf.'
 L['crushed_crate_note'] = 'Plündere das {item:189767} aus der Kuhle der großen Kugel im Norden. Gib dieses {npc:185151} im Austausch für den{item:189768} der die heruntergefallenen Felsen zerbrechen kann.'
 L['domination_cache_note'] = 'Der {item:189704} hat eine geringe Chance von {npc:181403} und {npc:182426} in der Gegend fallen gelassen zu werden.'
@@ -717,7 +717,7 @@ L['forgotten_protovault_note'] = 'Nur während der {wq:Verfroscht} Weltquest ver
 L['grateful_boon_note'] = 'Ohne Fliegen schwer zu erreichen; Benutze das {spell:300728} oder ein {spell:111771}, um den Berg zu besteigen. Besänftige alle 12 Kreaturen in dem Gebiet und {npc:185293} lässt den Schatz erscheinen.'
 L['library_vault_note'] = 'Klicke die Tafeln in der Grotte der Lexik an, bis du den richtigen {spell:362062} Stärkungszauber findest, um damit das Bibliotheksarchiv zu öffnen.'
 L['mistaken_ovoid_note'] = 'In der Höhle der Dimensionenfälle, hinter den Bällen.'
-L['ripened_protopear_note'] = 'Beginne die {quest:64641} Questreihe, um Zugang zum Blooming Foundry zu erhalten. Sammel 5x {spell:367180} (grüne Wolken) drinnen und bringen sie zum {npc:185416}, um sie zu bestäuben.'
+L['ripened_protopear_note'] = 'Beginne die {quest:64641} Questreihe, um Zugang zur Blühenden Gießerei zu erhalten. Sammel dort drinne 5x {spell:367180} (grüne Wolken) und bestäube damit die {npc:185416}'
 L['sphere_treasure_note'] = 'Springe vorsichtig die Kugeln hoch, bis du den Schatz erreichst.'
 L['submerged_chest_note'] = 'Nimm die |cFFFFFD00Gefährliche Kugel der Macht|r im Süden auf und interagiere dann mit der |cFFFFFD00Forgotten Pump|r nahe des Schatzes.'
 L['symphonic_vault_note'] = 'Untersuche {npc:183998}, um eine Folge von vier Tönen zu hören. Jede {npc:183950} in dem Raum spielt einen einzigen Ton. Interagiere mit ihnen in der richtigen Reihenfolge, um den Schatz freizuschalten.'
