@@ -1,3 +1,11 @@
+# v40
+
+* Added rares, treasures, and other collectibles for the Zereth Mortis zone.
+* Added ability to render full item/spell tooltips within a nodes regular tooltip.
+* Updated [Krowi_WorldMapButtons](https://github.com/TheKrowi/Krowi_WorldMapButtons) to fix a UI taint issue.
+* Removed Korthia portal location that never appeared on live.
+* Update TOC for 9.2.0
+
 # v39
 
 * Added completion tracking for the Fashion Abomination achievement.
