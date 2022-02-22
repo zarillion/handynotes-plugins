@@ -42,14 +42,20 @@ This plugin adds information to the map for the following zones:
 
 * Patch 9.0 - Ardenweald, Bastion, Maldraxxus, Revendreth, The Maw
 * Patch 9.1 - Korthia
+* Patch 9.2 - Zereth Mortis
 
 In addition to rares, treasures and pet battles, this plugin also adds the following expansion or zone-specific items.
+
+### Ardenweald
+
+* Lost book locations for the [Fractured Faerie Tales](https://www.wowhead.com/achievement=14788/fractured-faerie-tales) achievement.
 
 ### Bastion
 
 * Lost Anima Shard locations for the [Shard Labor](https://www.wowhead.com/achievement=14339/shard-labor) achievement and [Silverwind Larion](https://www.wowhead.com/item=180772/silverwind-larion) mount.
 * Tribute locations for the [Count Your Blessings](https://www.wowhead.com/achievement=14767/count-your-blessings) achievement.
 * Vesper locations for the [Rallying Cry of the Ascended](https://www.wowhead.com/achievement=14734/rallying-cry-of-the-ascended) achievement.
+* Hymn locations for the [What is that Melody?](https://www.wowhead.com/achievement=14768/what-is-that-melody) achievement.
 
 ### Maldraxxus
 
@@ -63,6 +69,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Dead Blanchy locations and progress for the [Sinrunner Blanchy](https://www.wowhead.com/item=182614/blanchys-reins) mount.
 * Dredbat Statue locations and paths for the [Bat!](https://www.wowhead.com/achievement=14769/bat) achievement.
 * Impressionable Gorger progress for the [Loyal Gorger](https://www.wowhead.com/item=182589/loyal-gorger) mount.
+* Fugitive Soul locations for the [Absolution for All](https://www.wowhead.com/achievement=14274/absolution-for-all) achievement.
 * Inquisitor locations for the [It's Always Sinny in Revendreth](https://www.wowhead.com/achievement=14276/its-always-sinny-in-revendreth) achievement.
 
 ### The Maw
@@ -83,6 +90,15 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Invasive Mawshroom locations for the [Darkmaul](https://www.wowhead.com/spell=354358/darkmaul) mount.
 * [Maelie the Wanderer](https://www.wowhead.com/npc=179912/maelie-the-wanderer) locations for the [Wandering Arden Doe](https://www.wowhead.com/spell=354362/wandering-arden-doe) mount.
 * [Dusklight Matriarch](https://www.wowhead.com/npc=179871/dusklight-matriarch) nest location for the [Dusklight Razorwing](https://www.wowhead.com/spell=354361/dusklight-razorwing) mount.
+
+### Zereth Mortis
+
+* Cyphers of Creation (puzzle caches) and repeatable cypher cache locations.
+* Protoform Schematic locations for crafting mounts and pets.
+* Lore Concordance and Echoed Jiro locations providing outdoor buffs.
+* Creature locations for the [Completing the Code](https://www.wowhead.com/achievement=15211/completing-the-code) achievement.
+* Scroll locations for the [Tales of the Exile](https://www.wowhead.com/achievement=15509/tales-of-the-exile) achievement.
+* Location and tracking for the [Patient Bufonid](https://www.wowhead.com/item=188808/patient-bufonid) mount quest chain.
 
 ## Localization
 
