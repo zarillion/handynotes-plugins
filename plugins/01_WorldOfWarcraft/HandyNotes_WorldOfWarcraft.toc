@@ -1,4 +1,4 @@
-## Interface: 90105
+## Interface: 90200
 ## Title: HandyNotes: World of Warcraft
 ## Version: 1
 ## Notes: World of Warcraft Original Zone Notes

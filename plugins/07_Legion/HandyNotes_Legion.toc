@@ -1,4 +1,4 @@
-## Interface: 90105
+## Interface: 90200
 ## Title: HandyNotes: Legion
 ## Version: 1
 ## Notes: Legion Notes
