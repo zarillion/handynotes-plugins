@@ -689,7 +689,7 @@ To entice {npc:180978} to the surface, an {item:187923} must be created.
 
 2. Fish up a {item:187915} from the |cFFFFFD00Pungent Blobfish Cluster|r inside Coilfang Reservoir in Zangarmarsh. The pool is to the right when you enter the cavern.
 
-3. Fish up a {item:187922} from the |cFFFFFD00Flipper Fish School|r near the Keyla's Grave flight point in Nazjatar.
+3. Fish up a {item:187922} from the |cFFFFFD00Flipper Fish School|r near the Kelya's Grave flight point in Nazjatar.
 
 4. Loot a (very well hidden) {item:187916} from a balcony on the second level of Nar'shola Terrace in the Shimmering Expanse (34.7, 75.0).
 
