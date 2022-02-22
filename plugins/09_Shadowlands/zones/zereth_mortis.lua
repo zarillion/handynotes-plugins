@@ -799,7 +799,7 @@ map.nodes[44767608] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[47504622] = Puzzle({quest = 65323, label = L['cache_cantaric']})
 map.nodes[48628747] = Puzzle({quest = 65318, label = L['cache_cantaric']})
 map.nodes[52984558] = Puzzle({quest = 65094, label = L['cache_cantaric']}) -- 65418 65416
-map.nodes[54964798] = Puzzle({quest = nil, label = L['cache_cantaric']})
+map.nodes[54964798] = Puzzle({quest = 65318, label = L['cache_cantaric']})
 map.nodes[55977960] = Puzzle({quest = 65318, label = L['cache_cantaric']})
 map.nodes[65674096] = Puzzle({quest = 65094, label = L['cache_cantaric']}) -- 65418 65406
 
