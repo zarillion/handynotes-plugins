@@ -1,3 +1,9 @@
+# v8
+
+* Added ability to render full item/spell tooltips within a nodes regular tooltip.
+* Updated [Krowi_WorldMapButtons](https://github.com/TheKrowi/Krowi_WorldMapButtons) to fix a UI taint issue.
+* Update TOC for 9.2.0
+
 # v7
 
 * Fixed the prismatic crystal intro quest ID for alliance characters.
