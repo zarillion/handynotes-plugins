@@ -701,27 +701,34 @@ L['protector_first_ones_note'] = '需要两名玩家。将匹配的符文带到�
 L['the_engulfer_note'] = '保护 {npc:183505} 直到 {npc:183516} 从裂隙中跳出。'
 L['zatojin_note'] = '吸引附近的 {npc:183721} 并让他们获得20层 {spell:362976} 直到你有 {spell:362983}。当你瘫痪时必须站在 {npc:183774} 尸体上，{npc:183764} 会注意你。'
 
-L['architects_reserve_note'] = nil
-L['bushel_of_produce_note'] = nil
-L['crushed_crate_note'] = nil
-L['domination_cache_note'] = nil
-L['drowned_broker_supplies_note'] = nil
-L['forgotten_protovault_note'] = nil
-L['grateful_boon_note'] = nil
-L['library_vault_note'] = nil
-L['mistaken_ovoid_note'] = nil
-L['ripened_protopear_note'] = nil
-L['sphere_treasure_note'] = '小心跳上球体直到到达顶部。'
-L['submerged_chest_note'] = nil
-L['symphonic_vault_note'] = '检查 {npc:183998} 听四个声音顺序。房间内每个 {npc:183950} 播放一个声音。按照匹配顺序与他们互动以解锁宝箱。'
-L['template_archive_note'] = '推动房间内 {npc:183339} 到 {npc:183337} 阻挡路径获得宝物。'
-L['undulating_foliage_note'] = nil
+L['architects_reserve_note'] = '完成位于朝圣者的恩典 {npc:180630} 的 {quest:64829} 任务线。之后一天，完成 {npc:181273} 的 {quest:65426} 任务线解锁宝藏。'
+L['bushel_of_produce_note'] = '击杀1个 {npc:182368} 到北边它会被 {spell:360945} 获得自身增益。击杀更多 {npc:182368} （无需增益）直到你获得5层，然后击破门获得宝藏。'
+L['crushed_crate_note'] = '从大球体向北的缩进拾取 {item:189767}。把它交给 {npc:185151} 换取 {item:189768} 可以打破坠落的岩石。'
+L['domination_cache_note'] = '区域内的 {npc:181403} 和 {npc:182426} 有低几率掉落 {item:189704}。'
+L['drowned_broker_supplies_note'] = '和 {npc:181059} 交谈控制附近的 {npc:185282}。'
+L['forgotten_protovault_note'] = '只在 {wq:呱了} 世界任务期间可用。'
+L['grateful_boon_note'] = 'Difficult to reach without flying; use {spell:300728} or {spell:111771} to ascend the mountain. Soothe all 12 creatures in the area and {npc:185293} will spawn the treasure.'
+L['library_vault_note'] = 'Click tablets in the Lexical Grotto until you find the correct {spell:362062} buff to open the vault.'
+L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern, behind the balls.'
+L['ripened_protopear_note'] = 'Begin the {quest:64641} quest chain to gain access to the Blooming Foundry. Collect 5 {spell:367180} (green clouds) inside and bring them to the {npc:185416} to pollinate it.'
+L['sphere_treasure_note'] = 'Carefully jump up the spheres until you reach the treasure.'
+L['submerged_chest_note'] = 'Absorb the |cFFFFFD00Dangerous Orb of Power|r to the south, then interact with the |cFFFFFD00Forgotten Pump|r near the treasure.'
+L['symphonic_vault_note'] = 'Examine the {npc:183998} to hear a sequence of four sounds. Each {npc:183950} in the room plays a single sound. Interact with them in the matching order to unlock the treasure.'
+L['template_archive_note'] = 'Push the {npc:183339} in the room into the {npc:183337} blocking the path to the treasure.'
+L['undulating_foliage_note'] = [[
+Press the four {npc:185390s} to activate the teleporter in the center room of the Catalyst Wards.
 
-L['prying_eye_discovery'] = nil
-L['prying_eye_discovery_note'] = nil
-L['pulp_covered_relic'] = nil
-L['sandworn_chest'] = nil
-L['sandworn_chest_note'] = nil
+· Outside behind the |cFFFFFD00Catalyst Wards Lock|r
+· In the south-west room of the wards
+· In the southern room with {npc:181652}
+· In the south-east room of the wards
+]]
+
+L['prying_eye_discovery'] = 'Prying Eye Discovery'
+L['prying_eye_discovery_note'] = 'Easier to reach once flying is unlocked.'
+L['pulp_covered_relic'] = 'Pulp-Covered Relic'
+L['sandworn_chest'] = 'Sandworn Chest'
+L['sandworn_chest_note'] = 'Loot 5x {item:190198} from mobs in the area to construct the {item:190197}.'
 
 L['cache_avian_nest'] = nil
 L['cache_cypher_bound'] = nil
