@@ -677,15 +677,29 @@ L['tormentors_note'] = [[
 -------------------------------------------------------------------------------
 
 L['corrupted_architect_note'] = '攻击 {npc:183958} 和 {npc:183961} 激活稀有。'
-L['dune_dominance_note'] = nil
-L['feasting_note'] = nil
-L['furidian_note'] = nil
-L['garudeon_note'] = nil
-L['gluttonous_overgrowth_note'] = nil
-L['hirukon_note'] = nil
-L['protector_first_ones_note'] = nil
-L['the_engulfer_note'] = nil
-L['zatojin_note'] = nil
+L['dune_dominance_note'] = '{achievement:15392} 成就中全部3个稀有精英在此位置刷新。'
+L['feasting_note'] = '有时会在返回该地点之前巡逻该区域。'
+L['furidian_note'] = '激活区域内三个 |cFFFFFD00Empowered Keys|r，然后解锁 |cFFFFFD00Suspiciously Angry Vault|r。'
+L['garudeon_note'] = '从周围地区收集 {npc:183562} 并使用 {spell:362655} 喂食给 {npc:183554}。三个吃饱后，{npc:180924} 将激活。'
+L['gluttonous_overgrowth_note'] = '摧毁周围全部 {npc:184048} 激活此稀有。'
+L['hirukon_note'] = [[
+引诱 {npc:180978} 到地面，需要制造一个 {item:187923}。
+
+1. 在周围水域钓一些 {item:187662}。
+
+2. 从赞加沼泽的盘牙水库 |cFFFFFD00刺鼻的团豚鱼群|r 内钓一个 {item:187915}。渔点在进入洞穴时的右侧。
+
+3. 纳沙塔尔的凯尔雅之墓飞行点附近的 |cFFFFFD00跳跳鱼群|r {item:187922} 内钓一个。
+
+4. 从烁光海床的纳舒拉平台（34.7, 75.0）二楼的平台拾取一个（非常隐蔽）{item:187916}。
+
+5. Locate {npc:182194} 位于玛卓克萨斯的兵主之座的南边池塘。问她制作完成 {item:187923}。
+
+6. 使用 {item:187923}，可以让你看到 |cFFFFFD00元水母群|r 渔点在 {npc:180978} 附近15分钟。在此钓鱼召唤 {npc:180978} 到平台。
+]] -- Breaking my rule of no coords in the notes for this one
+L['protector_first_ones_note'] = '需要两名玩家。将匹配的符文带到每个控制台（在周围区域找到）来打开屏障。'
+L['the_engulfer_note'] = '保护 {npc:183505} 直到 {npc:183516} 从裂隙中跳出。'
+L['zatojin_note'] = '吸引附近的 {npc:183721} 并让他们获得20层 {spell:362976} 直到你有 {spell:362983}。当你瘫痪时必须站在 {npc:183774} 尸体上，{npc:183764} 会注意你。'
 
 L['architects_reserve_note'] = nil
 L['bushel_of_produce_note'] = nil
