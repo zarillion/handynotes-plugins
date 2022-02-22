@@ -690,7 +690,7 @@ Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
 
 2. Pesca un {item:187915} del |cFFFFFD00Banco de Pez mancha acre|r dentro la Reserva Colmillo Torcido en Zangarmarsh. El banco está a la derecha cuando entras en la caverna.
 
-3. Pesca un {item:187922} del |cFFFFFD00Banco de Pez aletón|r cerca del punto de vuelo Tumba de Keyla en Nazjatar.
+3. Pesca un {item:187922} del |cFFFFFD00Banco de Pez aletón|r cerca del punto de vuelo Tumba de Kelya en Nazjatar.
 
 4. Despoja una (está muy escondida) {item:187916} de un balcón en el segundo nivel del Bancal de Nar'shola en la Extensión Bruñida (34.7, 75.0).
 
