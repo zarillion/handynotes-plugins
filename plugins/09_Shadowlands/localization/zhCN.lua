@@ -727,8 +727,8 @@ L['undulating_foliage_note'] = [[
 L['prying_eye_discovery'] = 'Prying Eye Discovery'
 L['prying_eye_discovery_note'] = '飞行解锁后容易到达。'
 L['pulp_covered_relic'] = 'Pulp-Covered Relic'
-L['sandworn_chest'] = 'Sandworn Chest'
-L['sandworn_chest_note'] = '从区域内怪物拾取5个 {item:190198} 建造 {item:190197}。'
+L['sandworn_chest'] = '沙蚀宝箱'
+L['sandworn_chest_note'] = '从区域内怪物拾取5个 {item:190198} 组合成 {item:190197}。'
 
 L['cache_avian_nest'] = 'Avian Nest'
 L['cache_cypher_bound'] = 'Cypher Bound Chest'
