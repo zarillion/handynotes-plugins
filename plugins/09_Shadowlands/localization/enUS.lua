@@ -703,7 +703,7 @@ L['zatojin_note'] = 'Pull nearby {npc:183721s} and let them apply 20 stacks of {
 
 L['architects_reserve_note'] = 'Complete the {quest:64829} questline from {npc:180630} in Pilgrim\'s Grace. The next day, complete {quest:65426} questline from {npc:181273} to unlock the treasure.'
 L['bushel_of_produce_note'] = 'Kill a {npc:182368} to the north while it is buffed with {spell:360945} to gain the buff yourself. Kill more {npc:182368s} (they do not need the buff) until you are at 5 stacks, then break down the door to the treasure.'
-L['crushed_crate_note'] = 'Loot the {item:189767} from the indent in the large orb to the north. Give it to {npc:185151} in exchange for the {item:189768} which can break the fallen rocks.'
+L['crushed_crate_note'] = 'Loot the {item:189767} sitting on the fallen pillar above the treasure. Give it to {npc:185151} in exchange for the {item:189768} which can break the fallen rocks.'
 L['domination_cache_note'] = 'The {item:189704} has a low chance to drop from {npc:181403s} and {npc:182426s} in the area.'
 L['drowned_broker_supplies_note'] = 'Tell {npc:181059} to take control of the nearby {npc:185282}.'
 L['forgotten_protovault_note'] = 'Only available during the {wq:Frog\'it} world quest.'

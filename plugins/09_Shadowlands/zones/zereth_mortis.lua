@@ -486,8 +486,7 @@ map.nodes[56746416] = Treasure({
     note = L['crushed_crate_note'],
     rewards = {
         Achievement({id = 15331, criteria = 53054}) -- Treasures of Zereth Mortis
-    },
-    pois = {POI({57656236})} -- Repair Tool
+    }
 }) -- Crushed Supply Crate
 
 map.nodes[38253724] = Treasure({
