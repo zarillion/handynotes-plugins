@@ -704,7 +704,7 @@ L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 a
 
 L['architects_reserve_note'] = 'Completa la cadena de misiones {quest:64829} que da {npc:180630} en Gracia del Peregrino. Al día seguiente, completa la cadena de misiones {quest:65426} que da {npc:181273} para desbloquear el tesoro.'
 L['bushel_of_produce_note'] = 'Mata al {npc:182368} al norte mientras tenga el buff {spell:360945} para ganártelo tú. Mata más {npc:182368} (no necesitan tener el buff) hasta que tengas 5 acumulaciones. Ya puedes romper la puerta que da al tesoro.'
-L['crushed_crate_note'] = 'Despoja la {item:189767} de la hendidura sobre el gran orbe al norte. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
+L['crushed_crate_note'] = 'Despoja la {item:189767} que reposa encima del pilar caido por encima del tesoro. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
 L['domination_cache_note'] = 'La {item:189704} tiene pocas probabilidades de caer de los {npc:181403} y de los {npc:182426} de la zona.'
 L['drowned_broker_supplies_note'] = 'Dile a {npc:181059} que coja el control de un {npc:185282} cercano.'
 L['forgotten_protovault_note'] = 'Sólo está disponible durante la misión del mundo {wq:A salto de rana}.'
