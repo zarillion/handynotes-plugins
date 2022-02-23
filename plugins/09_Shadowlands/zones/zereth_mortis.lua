@@ -498,7 +498,7 @@ map.nodes[38253724] = Treasure({
 }) -- Damaged Jiro Stash
 
 map.nodes[60011798] = Treasure({
-    quest = nil,
+    quest = 65468,
     note = L['domination_cache_note'],
     requires = ns.requirement.Item(189704),
     rewards = {
