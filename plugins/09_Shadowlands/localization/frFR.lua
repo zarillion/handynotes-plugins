@@ -706,7 +706,7 @@ L['zatojin_note'] = 'Attirez les {npc:183721} proches et laissez-les appliquer 2
 
 L['architects_reserve_note'] = 'Complétez la suite de quêtes {quest:64829} de l\'{npc:180630} à la Grâce du Pèlerin. Le lendemain, accomplissez la suite de quêtes {quest:65426} de {npc:181273} pour déverrouiller le trésor.'
 L['bushel_of_produce_note'] = 'Tuez un {npc:182368} au nord alors qu\'il est affecté par {spell:360945} pour obtenir le buff vous-même. Tuez d\'autres {npc:182368} (ils n\'ont pas besoin d\'avoir le buff) jusqu\'à ce que vous ayez accumulé 5 charges, puis brisez la porte menant au trésor.'
-L['crushed_crate_note'] = 'Ramassez l\'{item:189767} dans le creux de la grande sphère au nord. Donnez-le à {npc:185151} en échange du {item:189768} qui peut briser les pierres tombées.'
+L['crushed_crate_note'] = 'Ramassez l\'{item:189767} reposant sur le pilier effondré au-dessus du trésor. Donnez-le à {npc:185151} en échange du {item:189768} qui peut briser les pierres tombées.'
 L['domination_cache_note'] = 'La {item:189704} a une faible chance de tomber sur les {npc:181403s} et {npc:182426s} de la zone.'
 L['drowned_broker_supplies_note'] = 'Dites à {npc:181059} de prendre le contrôle de l\'{npc:185282} à proximité.'
 L['forgotten_protovault_note'] = 'Uniquement disponible pendant l\'expédition {wq:Frog\'it}.'
