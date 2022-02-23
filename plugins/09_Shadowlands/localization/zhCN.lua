@@ -679,11 +679,11 @@ L['tormentors_note'] = [[
 L['corrupted_architect_note'] = '攻击 {npc:183958} 和 {npc:183961} 激活稀有。'
 L['dune_dominance_note'] = '{achievement:15392} 成就中全部3个稀有精英在此位置刷新。'
 L['feasting_note'] = '有时会在返回该地点之前巡逻该区域。'
-L['furidian_note'] = '激活区域内三个 |cFFFFFD00Empowered Keys|r，然后解锁 |cFFFFFD00Suspiciously Angry Vault|r。'
+L['furidian_note'] = '激活区域内三个 |cFFFFFD00Empowered Keys|r，然后解锁 |cFFFFFD00Suspiciously Angry Vault|r。' -- Temp
 L['garudeon_note'] = '从周围地区收集 {npc:183562} 并使用 {spell:362655} 喂食给 {npc:183554}。三个吃饱后，{npc:180924} 将激活。'
 L['gluttonous_overgrowth_note'] = '摧毁周围全部 {npc:184048} 激活此稀有。'
 L['hirukon_note'] = [[
-引诱 {npc:180978} 到地面，需要制造一个 {item:187923}。
+引诱 {npc:180978} 到平面，需要制造一个 {item:187923}。
 
 1. 在周围水域钓一些 {item:187662}。
 
@@ -695,8 +695,8 @@ L['hirukon_note'] = [[
 
 5. Locate {npc:182194} 位于玛卓克萨斯的兵主之座的南边池塘。问她制作完成 {item:187923}。
 
-6. 使用 {item:187923}，可以让你看到 |cFFFFFD00元水母群|r 渔点在 {npc:180978} 附近15分钟。在此钓鱼召唤 {npc:180978} 到平台。
-]] -- Breaking my rule of no coords in the notes for this one
+6. 使用 {item:187923}，可以让你看到 |cFFFFFD00元水母群|r 渔点在 {npc:180978} 附近15分钟。在此钓鱼召唤 {npc:180978} 到平面。
+]] -- Breaking my rule of no coords in the notes for this one -- Temp
 L['protector_first_ones_note'] = '需要两名玩家。将匹配的符文带到每个控制台（在周围区域找到）来打开屏障。'
 L['the_engulfer_note'] = '保护 {npc:183505} 直到 {npc:183516} 从裂隙中跳出。'
 L['zatojin_note'] = '吸引附近的 {npc:183721} 并让他们获得20层 {spell:362976} 直到你有 {spell:362983}。当你瘫痪时必须站在 {npc:183774} 尸体上，{npc:183764} 会注意你。'
@@ -707,104 +707,104 @@ L['crushed_crate_note'] = '从大球体向北的缩进拾取 {item:189767}。把
 L['domination_cache_note'] = '区域内的 {npc:181403} 和 {npc:182426} 有低几率掉落 {item:189704}。'
 L['drowned_broker_supplies_note'] = '和 {npc:181059} 交谈控制附近的 {npc:185282}。'
 L['forgotten_protovault_note'] = '只在 {wq:呱了} 世界任务期间可用。'
-L['grateful_boon_note'] = 'Difficult to reach without flying; use {spell:300728} or {spell:111771} to ascend the mountain. Soothe all 12 creatures in the area and {npc:185293} will spawn the treasure.'
-L['library_vault_note'] = 'Click tablets in the Lexical Grotto until you find the correct {spell:362062} buff to open the vault.'
-L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern, behind the balls.'
-L['ripened_protopear_note'] = 'Begin the {quest:64641} quest chain to gain access to the Blooming Foundry. Collect 5 {spell:367180} (green clouds) inside and bring them to the {npc:185416} to pollinate it.'
-L['sphere_treasure_note'] = 'Carefully jump up the spheres until you reach the treasure.'
-L['submerged_chest_note'] = 'Absorb the |cFFFFFD00Dangerous Orb of Power|r to the south, then interact with the |cFFFFFD00Forgotten Pump|r near the treasure.'
-L['symphonic_vault_note'] = 'Examine the {npc:183998} to hear a sequence of four sounds. Each {npc:183950} in the room plays a single sound. Interact with them in the matching order to unlock the treasure.'
-L['template_archive_note'] = 'Push the {npc:183339} in the room into the {npc:183337} blocking the path to the treasure.'
+L['grateful_boon_note'] = '不能飞很难到达；使用 {spell:300728} 或 {spell:111771} 上山。安抚全部12个区域内生物和 {npc:185293} 将出现宝藏。'
+L['library_vault_note'] = '在词汇岩窟点击牌子直到找到正确的 {spell:362062} 增益来打开宝藏。'
+L['mistaken_ovoid_note'] = '维度瀑布洞窟内，球后面。'
+L['ripened_protopear_note'] = '开始 {quest:64641} 任务线获得繁花铸造厂访问权限。收集其中的5个 {spell:367180}（绿色云雾）并把它们给 {npc:185416} 授粉。'
+L['sphere_treasure_note'] = '小心地跳上球体，直到到达宝藏。'
+L['submerged_chest_note'] = '吸收南侧的 |cFFFFFD00Dangerous Orb of Power|r，然后与宝藏附近的 |cFFFFFD00Forgotten Pump|r 互动。' -- Temp
+L['symphonic_vault_note'] = '检查 {npc:183998} 听到四个声音的序列。每个 {npc:183950} 在房间里播放单一的声音。按照匹配顺序与他们互动解锁宝藏。'
+L['template_archive_note'] = '推动房间内 {npc:183339} 到 {npc:183337} 阻挡路径获得宝藏。'
 L['undulating_foliage_note'] = [[
-Press the four {npc:185390s} to activate the teleporter in the center room of the Catalyst Wards.
+按下四个 {npc:185390} 激活化生之庭中央房间的传送器。
 
-· Outside behind the |cFFFFFD00Catalyst Wards Lock|r
-· In the south-west room of the wards
-· In the southern room with {npc:181652}
-· In the south-east room of the wards
-]]
+· |cFFFFFD00化生之庭锁|r 外面的后边
+· 庭院西南侧房间内
+· {npc:181652} 南边的房间内
+· 在庭院的东南房间内
+]] -- Temp
 
 L['prying_eye_discovery'] = 'Prying Eye Discovery'
-L['prying_eye_discovery_note'] = 'Easier to reach once flying is unlocked.'
+L['prying_eye_discovery_note'] = '飞行解锁后容易到达。'
 L['pulp_covered_relic'] = 'Pulp-Covered Relic'
 L['sandworn_chest'] = 'Sandworn Chest'
-L['sandworn_chest_note'] = 'Loot 5x {item:190198} from mobs in the area to construct the {item:190197}.'
+L['sandworn_chest_note'] = '从区域内怪物拾取5个 {item:190198} 建造 {item:190197}。'
 
-L['cache_avian_nest'] = nil
-L['cache_cypher_bound'] = nil
-L['cache_discarded_automa'] = nil
-L['cache_forgotten_vault'] = nil
-L['cache_mawsworn_supply'] = nil
-L['cache_tarachnid_eggs'] = nil
+L['cache_avian_nest'] = 'Avian Nest'
+L['cache_cypher_bound'] = 'Cypher Bound Chest'
+L['cache_discarded_automa'] = 'Discarded Automa Scrap'
+L['cache_forgotten_vault'] = 'Forgotten Treasure Vault'
+L['cache_mawsworn_supply'] = 'Mawsworn Supply Chest'
+L['cache_tarachnid_eggs'] = 'Tarachnid Eggs'
 
-L['cache_cantaric'] = nil
-L['cache_fugueal'] = nil
-L['cache_glissandian'] = nil
-L['cache_mezzonic'] = nil
-L['cache_toccatian'] = nil
+L['cache_cantaric'] = 'Cantaric Cache'
+L['cache_fugueal'] = 'Fugueal Cache'
+L['cache_glissandian'] = 'Glissandian Cache'
+L['cache_mezzonic'] = 'Mezzonic Cache'
+L['cache_toccatian'] = 'Toccatian Cache'
 
-L['schematic_treasure_note'] = nil
-L['schematic_treasure_mount_note'] = nil
-L['schematic_treasure_pet_note'] = nil
-L['schematic_bronze_helicid_note'] = nil
-L['schematic_ambystan_darter_note'] = nil
-L['schematic_bronzewing_vespoid_note'] = nil
-L['schematic_buzz_note'] = nil
-L['schematic_darkened_vombata_note'] = nil
-L['schematic_deathrunner_note'] = nil
-L['schematic_desertwing_hunter_note'] = nil
-L['schematic_fierce_scarabid_note'] = nil
-L['schematic_forged_spiteflyer_note'] = nil
-L['schematic_genesis_crawler_note'] = nil
-L['schematic_goldplate_bufonid_note'] = nil
-L['schematic_heartbond_lupine_note'] = nil
-L['schematic_leaping_leporid_note'] = nil
-L['schematic_microlicid_note'] = nil
-L['schematic_pale_regal_cervid_note'] = nil
-L['schematic_prototickles_note'] = nil
-L['schematic_raptora_swooper_note'] = nil
-L['schematic_resonant_echo_note'] = nil
-L['schematic_russet_bufonid_note'] = nil
-L['schematic_scarlet_helicid_note'] = nil
-L['schematic_shelly_note'] = nil
-L['schematic_tarachnid_creeper_note'] = nil
-L['schematic_terror_jelly_note'] = nil
-L['schematic_tunneling_vombata_note'] = nil
-L['schematic_vespoid_flutterer_note'] = nil
+L['schematic_treasure_note'] = '|cFFFF8C00如果尚未解锁合成，此宝藏将不包含原生体结构图。如果您已经拾取了宝藏，会在附近的地面上找到结构图。|r'
+L['schematic_treasure_mount_note'] = '|cFFFF8C00此结构图在附近的一次性宝藏中找到。如果在解锁坐骑合成之前打开宝藏，结构图会在这里找到。|r'
+L['schematic_treasure_pet_note'] = '|cFFFF8C00此结构图在附近的一次性宝藏中找到。如果在解锁宠物合成之前打开宝藏，结构图会在这里找到。|r'
+L['schematic_bronze_helicid_note'] = '双周任务 {quest:65324} 的 {item:190610} 有机率发现。'
+L['schematic_ambystan_darter_note'] = '隐藏在水下 {npc:185312} 旁边。'
+L['schematic_bronzewing_vespoid_note'] = '孕育栖地内。'
+L['schematic_buzz_note'] = '{npc:185265} 内有机率发现。'
+L['schematic_darkened_vombata_note'] = '浮空笼子内。'
+L['schematic_deathrunner_note'] = '获得作为一部分 {spell:366367} 解锁任务线。'
+L['schematic_desertwing_hunter_note'] = '位于柱顶。 '
+L['schematic_fierce_scarabid_note'] = '藏在  {npc:181870} 站立的平台下面。'
+L['schematic_forged_spiteflyer_note'] = 'Sticking out of a vespoid hive cluster.'
+L['schematic_genesis_crawler_note'] = 'Found on top of the entrance to the Genesis Alcove.'
+L['schematic_goldplate_bufonid_note'] = 'Small chance to drop from {npc:178803s}.'
+L['schematic_heartbond_lupine_note'] = 'Small chance to drop from the {npc:179939}.'
+L['schematic_leaping_leporid_note'] = 'Found on top of a floating tree.'
+L['schematic_microlicid_note'] = 'On the lowest branch of the floating tree, underneath some foliage.'
+L['schematic_pale_regal_cervid_note'] = 'Research all cyphers at the {npc:181397} to earn {achievement:15402}.'
+L['schematic_prototickles_note'] = 'Attached to a floating chain inside the vines above the {npc:180978} rare.'
+L['schematic_raptora_swooper_note'] = 'Found inside the Chamber of Shaping.'
+L['schematic_resonant_echo_note'] = 'Chance to be found inside a |cFFFFFD00Crystallized Echo of the First Song|r.'
+L['schematic_russet_bufonid_note'] = 'Chance to be found in the {item:187780} paragon cache.'
+L['schematic_scarlet_helicid_note'] = 'Found on top of the arch structure.'
+L['schematic_shelly_note'] = 'Located on the back side of a shelf in the Lexical Grotto. Requires a teleport ability to climb the shelf.'
+L['schematic_tarachnid_creeper_note'] = 'Inside a small structure in the Endless Sands.'
+L['schematic_terror_jelly_note'] = 'On top of the square pylon next to the ramp.'
+L['schematic_tunneling_vombata_note'] = 'Next to some rubble in a blocked tunnel inside the Locrian Esper complex.'
+L['schematic_vespoid_flutterer_note'] = 'Sticking out of a pile of sand on the Primus Locus tier of the Resonant Peaks.'
 
-L['concordance_excitable'] = nil
-L['concordance_mercurial'] = nil
-L['concordance_tranquil'] = nil
-L['concordance_note'] = nil
+L['concordance_excitable'] = 'Excitable Concordance'
+L['concordance_mercurial'] = 'Mercurial Concordance'
+L['concordance_tranquil'] = 'Tranquil Concordance'
+L['concordance_note'] = 'Read each concordance to unlock entries at the |cFFFFFD00Lore Console|r in |cFFFFFD00Exile\'s Hollow|r.'
 
-L['echoed_jiro_note'] = nil
+L['echoed_jiro_note'] = 'Spend {npc:181059} energy to gain temporary buffs. Requires |cFFFFFD00Creatian|r research at the {npc:181397}.'
 
-L['bygone_elemental_note'] = nil
-L['gaiagantic_note'] = nil
-L['misaligned_enforcer_note'] = nil
-L['overcharged_vespoid_note'] = nil
-L['runethief_xylora_note'] = nil
+L['bygone_elemental_note'] = 'A {npc:181221} can spawn in place of any {npc:179007} in the area.'
+L['gaiagantic_note'] = 'Only spawns when {npc:177958} offers the {quest:64785} daily quest.'
+L['misaligned_enforcer_note'] = 'Patrols the area and then despawns at the end of his route.'
+L['overcharged_vespoid_note'] = 'Can spawn as part of any swarm pack in the area.'
+L['runethief_xylora_note'] = 'Spawns stealthed in the Pilgrim\'s Grace area.'
 
-L['patient_bufonid_note'] = nil
-L['patient_bufonid_note_day1'] = nil
-L['patient_bufonid_note_day2'] = nil
-L['patient_bufonid_note_day3'] = nil
-L['patient_bufonid_note_day4'] = nil
-L['patient_bufonid_note_day5'] = nil
-L['patient_bufonid_note_day6'] = nil
-L['patient_bufonid_note_day7'] = nil
+L['patient_bufonid_note'] = 'Progress in the Zereth Mortis story until {npc:180950} offers {quest:65727}. Complete the quests each day to lure the {npc:185798} out of the pond.'
+L['patient_bufonid_note_day1'] = 'Collect 15x {item:190852} from Vespoid in the zone.'
+L['patient_bufonid_note_day2'] = 'Purchase 30x {item:172053} from the Auction House.'
+L['patient_bufonid_note_day3'] = 'Purchase 200x {item:173202} from the Auction House.'
+L['patient_bufonid_note_day4'] = 'Purchase 10x {item:173037} from the Auction House.'
+L['patient_bufonid_note_day5'] = 'Collect 5x {item:187704} from mobs in the zone.'
+L['patient_bufonid_note_day6'] = 'Purchase 5x {item:190880} from {npc:185748} near Pilgrim\'s Grace.'
+L['patient_bufonid_note_day7'] = 'Purchase 1x {item:187171} from the {npc:180114} in the Tazavesh dungeon.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
-L['options_icons_code_creature_desc'] = nil
-L['options_icons_concordances'] = nil
-L['options_icons_concordances_desc'] = nil
-L['options_icons_echoed_jiros'] = nil
-L['options_icons_echoed_jiros_desc'] = nil
+L['options_icons_code_creature_desc'] = 'Display creature locations for the {achievement:15211} achievement.'
+L['options_icons_concordances'] = 'Lore Concordances'
+L['options_icons_concordances_desc'] = 'Display locations of lore concordance consoles.'
+L['options_icons_echoed_jiros'] = 'Echoed Jiro'
+L['options_icons_echoed_jiros_desc'] = 'Display locations of |cFFFFFD00Echoed Jiro|r offering buffs.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
-L['options_icons_exile_tales_desc'] = nil
-L['options_icons_protoform_schematics'] = nil
-L['options_icons_protoform_schematics_desc'] = nil
-L['options_icons_puzzle_caches'] = nil
-L['options_icons_puzzle_caches_desc'] = nil
-L['options_icons_zereth_caches'] = nil
-L['options_icons_zereth_caches_desc'] = nil
+L['options_icons_exile_tales_desc'] = 'Display tale locations for the {achievement:15509} achievement.'
+L['options_icons_protoform_schematics'] = 'Protoform Schematics'
+L['options_icons_protoform_schematics_desc'] = 'Display locations of mount and pet schematics.'
+L['options_icons_puzzle_caches'] = 'Puzzle Caches'
+L['options_icons_puzzle_caches_desc'] = 'Display possible locations of puzzle caches.'
+L['options_icons_zereth_caches'] = 'Cypher Caches'
+L['options_icons_zereth_caches_desc'] = 'Display possible locations for cypher caches.'
