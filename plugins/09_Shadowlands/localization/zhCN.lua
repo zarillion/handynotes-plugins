@@ -683,19 +683,19 @@ L['furidian_note'] = '激活区域内三个 |cFFFFFD00强化钥匙|r，然后解
 L['garudeon_note'] = '从周围地区收集 {npc:183562} 并使用 {spell:362655} 喂食给 {npc:183554}。三个吃饱后，{npc:180924} 将激活。'
 L['gluttonous_overgrowth_note'] = '摧毁周围全部 {npc:184048} 激活此稀有。'
 L['hirukon_note'] = [[
-引诱 {npc:180978} 到平面，需要制造一个 {item:187923}。
+引诱 {npc:180978} 到上面，需要制造一个 {item:187923}。
 
-1. 在周围水域钓一些 {item:187662}。
+1. 在周围水域钓一个 {item:187662}。
 
-2. 从赞加沼泽的盘牙水库 |cFFFFFD00刺鼻的团豚鱼群|r 内钓一个 {item:187915}。渔点在进入洞穴时的右侧。
+2. 从赞加沼泽的盘牙水库 |cFFFFFD00刺鼻的团豚群|r 内钓一个 {item:187915}。渔点在进入洞穴时的右侧。
 
-3. 从纳沙塔尔的凯尔雅之墓飞行点附近的 |cFFFFFD00跳跳鱼群|r  内钓一个 {item:187922}。
+3. 从纳沙塔尔的凯尔雅之墓飞行点附近的 |cFFFFFD00跳跳鱼群|r 内钓一个 {item:187922}。
 
 4. 从烁光海床的纳舒拉平台（34.7, 75.0）二楼的平台拾取一个（非常隐蔽）{item:187916}。
 
 5. {npc:182194} 位于玛卓克萨斯的兵主之座的南边池塘。问她制作完成 {item:187923}。
 
-6. 使用 {item:187923}，可以让你看到 |cFFFFFD00元水母群|r 渔点在 {npc:180978} 附近15分钟。在此钓鱼召唤 {npc:180978} 到平面。
+6. 使用 {item:187923}，可以让你看到 |cFFFFFD00元水母群|r 渔点在 {npc:180978} 附近15分钟。在此钓鱼召唤 {npc:180978} 到上面。
 ]] -- Breaking my rule of no coords in the notes for this one
 L['protector_first_ones_note'] = '需要两名玩家。将匹配的符文带到每个控制台（在周围区域找到）来打开屏障。'
 L['the_engulfer_note'] = '保护 {npc:183505} 直到 {npc:183516} 从裂隙中跳出。'
@@ -753,7 +753,7 @@ L['schematic_buzz_note'] = '{npc:185265} 内有几率发现。'
 L['schematic_darkened_vombata_note'] = '浮空笼子内。'
 L['schematic_deathrunner_note'] = '获得作为一部分 {spell:366367} 解锁任务线。'
 L['schematic_desertwing_hunter_note'] = '位于柱顶。 '
-L['schematic_fierce_scarabid_note'] = '藏在  {npc:181870} 站立的平台下面。'
+L['schematic_fierce_scarabid_note'] = '藏在 {npc:181870} 站立的平台下面。'
 L['schematic_forged_spiteflyer_note'] = '元蜂蜂巢群上延伸。 '
 L['schematic_genesis_crawler_note'] = '源生凹室入口顶上发现。'
 L['schematic_goldplate_bufonid_note'] = '{npc:178803} 小几率掉落。'
