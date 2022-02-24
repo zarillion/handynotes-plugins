@@ -696,7 +696,7 @@ L['hirukon_note'] = [[
 5. Locate {npc:182194} 位于玛卓克萨斯的兵主之座的南边池塘。问她制作完成 {item:187923}。
 
 6. 使用 {item:187923}，可以让你看到 |cFFFFFD00元水母群|r 渔点在 {npc:180978} 附近15分钟。在此钓鱼召唤 {npc:180978} 到平面。
-]] -- Breaking my rule of no coords in the notes for this one -- Temp
+]] -- Breaking my rule of no coords in the notes for this one
 L['protector_first_ones_note'] = '需要两名玩家。将匹配的符文带到每个控制台（在周围区域找到）来打开屏障。'
 L['the_engulfer_note'] = '保护 {npc:183505} 直到 {npc:183516} 从裂隙中跳出。'
 L['zatojin_note'] = '吸引附近的 {npc:183721} 并让他们获得20层 {spell:362976} 直到你有 {spell:362983}。当你瘫痪时必须站在 {npc:183774} 尸体上，{npc:183764} 会注意你。'
@@ -722,26 +722,26 @@ L['undulating_foliage_note'] = [[
 · 庭院西南侧房间内
 · {npc:181652} 南边的房间内
 · 在庭院的东南房间内
-]] -- Temp
+]]
 
-L['prying_eye_discovery'] = 'Prying Eye Discovery'
+L['prying_eye_discovery'] = '窥探之眼的发现'
 L['prying_eye_discovery_note'] = '飞行解锁后容易到达。'
 L['pulp_covered_relic'] = '被粘浆覆盖的圣物'
 L['sandworn_chest'] = '沙蚀宝箱'
 L['sandworn_chest_note'] = '从区域内怪物拾取5个 {item:190198} 组合成 {item:190197}。'
 
-L['cache_avian_nest'] = 'Avian Nest'
-L['cache_cypher_bound'] = 'Cypher Bound Chest'
-L['cache_discarded_automa'] = 'Discarded Automa Scrap'
-L['cache_forgotten_vault'] = 'Forgotten Treasure Vault'
-L['cache_mawsworn_supply'] = 'Mawsworn Supply Chest'
-L['cache_tarachnid_eggs'] = 'Tarachnid Eggs'
+L['cache_avian_nest'] = '元鸟之巢'
+L['cache_cypher_bound'] = '密文束缚的宝箱'
+L['cache_discarded_automa'] = '被抛弃的自动体残片'
+L['cache_forgotten_vault'] = '被遗忘的宝库'
+L['cache_mawsworn_supply'] = '渊誓补给宝箱'
+L['cache_tarachnid_eggs'] = '元蛛卵'
 
-L['cache_cantaric'] = 'Cantaric Cache'
-L['cache_fugueal'] = 'Fugueal Cache'
-L['cache_glissandian'] = 'Glissandian Cache'
-L['cache_mezzonic'] = 'Mezzonic Cache'
-L['cache_toccatian'] = 'Toccatian Cache'
+L['cache_cantaric'] = '声乐宝箱'
+L['cache_fugueal'] = '赋格宝箱'
+L['cache_glissandian'] = '滑音宝箱'
+L['cache_mezzonic'] = '中音宝箱'
+L['cache_toccatian'] = '弹奏宝箱'
 
 L['schematic_treasure_note'] = '|cFFFF8C00如果尚未解锁合成，此宝藏将不包含原生体结构图。如果您已经拾取了宝藏，会在附近的地面上找到结构图。|r'
 L['schematic_treasure_mount_note'] = '|cFFFF8C00此结构图在附近的一次性宝藏中找到。如果在解锁坐骑合成之前打开宝藏，结构图会在这里找到。|r'
@@ -772,9 +772,9 @@ L['schematic_terror_jelly_note'] = '位于坡道旁边的方形塔顶上。 '
 L['schematic_tunneling_vombata_note'] = '魂灵音室建筑群内一条堵塞的隧道中的一些瓦砾旁边。'
 L['schematic_vespoid_flutterer_note'] = '共振群山的第一位点层一堆沙子上延伸。'
 
-L['concordance_excitable'] = 'Excitable Concordance'
-L['concordance_mercurial'] = 'Mercurial Concordance'
-L['concordance_tranquil'] = 'Tranquil Concordance'
+L['concordance_excitable'] = '可激发的索引台'
+L['concordance_mercurial'] = '善变索引台'
+L['concordance_tranquil'] = '宁静索引台'
 L['concordance_note'] = '阅读每个索引解锁位于|cFFFFFD00流亡洞穴|r 的 |cFFFFFD00知识控制台|r 条目。'
 
 L['echoed_jiro_note'] = '耗费 {npc:181059} 能量获得临时增益。需要 {npc:181397} 的 |cFFFFFD00创音词|r 研究。'
