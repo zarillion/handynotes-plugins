@@ -703,7 +703,7 @@ L['zatojin_note'] = '吸引附近的 {npc:183721} 并让他们获得20层 {spell
 
 L['architects_reserve_note'] = '完成位于朝圣者的恩典 {npc:180630} 的 {quest:64829} 任务线。之后一天，完成 {npc:181273} 的 {quest:65426} 任务线解锁宝藏。'
 L['bushel_of_produce_note'] = '击杀1个 {npc:182368} 到北边它会被 {spell:360945} 获得自身增益。击杀更多 {npc:182368} （无需增益）直到你获得5层，然后击破门获得宝藏。'
-L['crushed_crate_note'] = '从大球体向北的缩进拾取 {item:189767}。把它交给 {npc:185151} 换取 {item:189768} 可以打破坠落的岩石。'
+L['crushed_crate_note'] = '拾取在宝藏上方倒下的柱子上的 {item:189767}。把它交给 {npc:185151} 换取 {item:189768} 可以打破坠落的岩石。'
 L['domination_cache_note'] = '区域内的 {npc:181403} 和 {npc:182426} 有低几率掉落 {item:189704}。'
 L['drowned_broker_supplies_note'] = '和 {npc:181059} 交谈控制附近的 {npc:185282}。'
 L['forgotten_protovault_note'] = '只在 {wq:呱了} 世界任务期间可用。'
