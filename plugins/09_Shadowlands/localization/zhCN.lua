@@ -708,7 +708,7 @@ L['domination_cache_note'] = '区域内的 {npc:181403} 和 {npc:182426} 有低�
 L['drowned_broker_supplies_note'] = '和 {npc:181059} 交谈控制附近的 {npc:185282}。'
 L['forgotten_protovault_note'] = '只在 {wq:呱了} 世界任务期间可用。'
 L['grateful_boon_note'] = '不能飞很难到达；使用 {spell:300728} 或 {spell:111771} 上山。安抚全部12个区域内生物和 {npc:185293} 将出现宝藏。'
-L['library_vault_note'] = '在词汇岩窟点击牌子直到找到正确的 {spell:362062} 增益来打开宝藏。'
+L['library_vault_note'] = '在词汇岩窟点击石板直到找到正确的 {spell:362062} 增益来打开宝藏。'
 L['mistaken_ovoid_note'] = '维度瀑布洞窟内，球后面。'
 L['ripened_protopear_note'] = '开始 {quest:64641} 任务线获得繁花铸造厂访问权限。收集其中的5个 {spell:367180}（绿色云雾）并把它们给 {npc:185416} 授粉。'
 L['sphere_treasure_note'] = '小心地跳上球体，直到到达宝藏。'
@@ -718,7 +718,7 @@ L['template_archive_note'] = '推动房间内 {npc:183339} 到 {npc:183337} 阻�
 L['undulating_foliage_note'] = [[
 按下四个 {npc:185390} 激活化生之庭中央房间的传送器。
 
-· |cFFFFFD00化生之庭锁|r 外面的后边
+· |cFFFFFD00化生之庭的锁|r 外面的后边
 · 庭院西南侧房间内
 · {npc:181652} 南边的房间内
 · 在庭院的东南房间内
@@ -777,7 +777,7 @@ L['concordance_mercurial'] = 'Mercurial Concordance'
 L['concordance_tranquil'] = 'Tranquil Concordance'
 L['concordance_note'] = '阅读每个索引解锁位于|cFFFFFD00流亡洞穴|r 的 |cFFFFFD00知识控制台|r 条目。'
 
-L['echoed_jiro_note'] = '耗费 {npc:181059} 能量获得临时增益。需要 {npc:181397} 的 |cFFFFFD00创造者|r 研究。'
+L['echoed_jiro_note'] = '耗费 {npc:181059} 能量获得临时增益。需要 {npc:181397} 的 |cFFFFFD00创音词|r 研究。'
 
 L['bygone_elemental_note'] = '{npc:181221} 可以代替区域内的任何 {npc:179007} 位置刷新。'
 L['gaiagantic_note'] = '只在 {npc:177958} 提供 {quest:64785} 日常任务时刷新。'
