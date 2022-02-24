@@ -777,20 +777,6 @@ local Puzzle = Class('PuzzleCache', ns.node.Node, {
     scale = 1.2
 })
 
--- Can be removed after we found all quest ids
-function Puzzle:GetGlow(mapID, minimap)
-    local glow = ns.node.Node.GetGlow(self, mapID, minimap)
-    if glow then return glow end
-
-    if _G['HandyNotes_ZarPluginsDevelopment'] and not self.quest then
-        local _, scale, alpha = self:GetDisplayInfo(mapID, minimap)
-        self.glow.alpha = alpha
-        self.glow.scale = scale
-        self.glow.r, self.glow.g, self.glow.b = 1, 0, 0
-        return self.glow
-    end
-end
-
 map.nodes[38546364] = Puzzle({quest = 65094, label = L['cache_cantaric']})
 map.nodes[43662152] = Puzzle({quest = 65094, label = L['cache_cantaric']})
 map.nodes[44229011] = Puzzle({quest = 65323, label = L['cache_cantaric']})
@@ -817,7 +803,7 @@ map.nodes[33785427] = Puzzle({quest = 65321, label = L['cache_glissandian']})
 map.nodes[39937284] = Puzzle({quest = 65321, label = L['cache_glissandian']})
 map.nodes[41843130] = Puzzle({quest = 65092, label = L['cache_glissandian']})
 map.nodes[44635053] = Puzzle({quest = 65321, label = L['cache_glissandian']})
-map.nodes[45109410] = Puzzle({quest = nil, label = L['cache_glissandian']})
+map.nodes[45069412] = Puzzle({quest = 65316, label = L['cache_glissandian']})
 map.nodes[51282573] = Puzzle({quest = 65412, label = L['cache_glissandian']}) -- 65418
 map.nodes[54264279] = Puzzle({quest = 65092, label = L['cache_glissandian']})
 map.nodes[56008416] = Puzzle({quest = 65316, label = L['cache_glissandian']})
