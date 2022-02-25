@@ -1,3 +1,14 @@
+# v41
+
+* Added a missing quest ID for the Domination Cache treasure.
+* Added a note and POIs for the syntactic vault treasure.
+* Added all missing Cypher of the First Ones (puzzle cache) quest IDs.
+* Added information and positions for the Mistaken Ovoid treasure.
+* Continued translation updates from our tireless translators.
+* Fixed the note for the Crushed Crate treasure to indicate the correct position of the hammer.
+* Moved Orixal to his new location on live and gave him a note.
+* Updated reward drops for all rares in Zereth Mortis.
+
 # v40
 
 * Added rares, treasures, and other collectibles for the Zereth Mortis zone.
