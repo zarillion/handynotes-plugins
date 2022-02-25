@@ -687,7 +687,7 @@ L['helmix_emote'] = '|cFFFF8C00¡El suelo tiembla... algo se mueve bajo el suelo
 L['hirukon_note'] = [[
 Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
 
-1. Pesca algún {item:187662} de las aguas cercanas.
+1. Pesca un {item:187662} de las aguas cercanas.
 
 2. Pesca un {item:187915} del |cFFFFFD00Banco de Pez mancha acre|r dentro la Reserva Colmillo Torcido en Zangarmarsh. El banco está a la derecha cuando entras en la caverna.
 
