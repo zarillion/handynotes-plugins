@@ -692,11 +692,11 @@ L['hirukon_note'] = [[
 
 3. 从纳沙塔尔的凯尔雅之墓飞行点附近的 |cFFFFFD00跳跳鱼群|r 内钓一个 {item:187922}。
 
-4. 从烁光海床的纳舒拉平台（34.7, 75.0）二楼的平台拾取一个（非常隐蔽）{item:187916}。
+4. 从烁光海床的纳舒拉平台（34.7, 75.0）二楼的平台拾取一个 {item:187916}（非常隐蔽）。
 
 5. {npc:182194} 位于玛卓克萨斯的兵主之座的南边池塘。问她制作完成 {item:187923}。
 
-6. 使用 {item:187923}，可以让你看到 |cFFFFFD00元水母群|r 渔点在 {npc:180978} 附近15分钟。在此钓鱼召唤 {npc:180978} 到上面。
+6. 使用 {item:187923}，可以让你在 {npc:180978} 附近看到 |cFFFFFD00元水母群|r 渔点15分钟。在此钓鱼会召唤 {npc:180978} 到上面。
 ]] -- Breaking my rule of no coords in the notes for this one
 L['orixal_note'] = '与在该区域巡逻的 {npc:185487} 共享刷新。'
 L['protector_first_ones_note'] = '需要两名玩家。将匹配的符文带到每个控制台（在周围区域找到）来打开屏障。'
@@ -711,13 +711,13 @@ L['drowned_broker_supplies_note'] = '和 {npc:181059} 交谈控制附近的 {npc
 L['forgotten_protovault_note'] = '只在 {wq:呱了} 世界任务期间可用。'
 L['grateful_boon_note'] = '不能飞很难到达；使用 {spell:300728} 或 {spell:111771} 上山。安抚全部12个区域内生物和 {npc:185293} 将出现宝藏。'
 L['library_vault_note'] = '在词汇岩窟点击石板直到找到正确的 {spell:362062} 增益来打开宝藏。'
-L['mistaken_ovoid_note'] = '维度瀑布洞窟内，需要收集5个 {item:190239}，然后带给 {npc:185280}。它会稍微挪动位置让你拾取宝藏。'
+L['mistaken_ovoid_note'] = '维度瀑布洞窟内，需要收集5个 {item:190239} 然后带给 {npc:185280}。'
 L['ripened_protopear_note'] = '开始 {quest:64641} 任务线获得繁花铸造厂访问权限。收集其中的5个 {spell:367180}（绿色云雾）并把它们给 {npc:185416} 授粉。'
 L['sphere_treasure_note'] = '小心地跳上球体，直到到达宝藏。'
 L['submerged_chest_note'] = '吸收南侧的 |cFFFFFD00危险的能量宝珠|r，然后与宝藏附近的 |cFFFFFD00被遗忘的水泵|r 互动。'
 L['symphonic_vault_note'] = '检查 {npc:183998} 听到四个声音的序列。每个 {npc:183950} 在房间里播放单一的声音。按照匹配顺序与他们互动解锁宝藏。'
 L['syntactic_vault_note'] = '解锁此宝藏，需要与初诞者圣墓区域的 |cFFFFFD00符文音节|r 互动获得6层 {spell:367499}。'
-L['template_archive_note'] = '推动房间内 {npc:183339} 到 {npc:183337} 阻挡路径获得宝藏。'
+L['template_archive_note'] = '推动房间内 {npc:183339} 到 {npc:183337} 打开路径到达宝藏。'
 L['undulating_foliage_note'] = [[
 按下四个 {npc:185390} 激活化生之庭中央房间的传送器。
 
@@ -749,7 +749,7 @@ L['cache_toccatian'] = '弹奏宝箱'
 L['schematic_treasure_note'] = '|cFFFF8C00如果尚未解锁合成，此宝藏将不包含原生体结构图。如果您已经拾取了宝藏，会在附近的地面上找到结构图。|r'
 L['schematic_treasure_mount_note'] = '|cFFFF8C00此结构图在附近的一次性宝藏中找到。如果在解锁坐骑合成之前打开宝藏，结构图会在这里找到。|r'
 L['schematic_treasure_pet_note'] = '|cFFFF8C00此结构图在附近的一次性宝藏中找到。如果在解锁宠物合成之前打开宝藏，结构图会在这里找到。|r'
-L['schematic_bronze_helicid_note'] = '双周任务 {quest:65324} 的 {item:190610} 有几率发现。'
+L['schematic_bronze_helicid_note'] = '一周两次任务 {quest:65324} 的 {item:190610} 内几率发现。'
 L['schematic_ambystan_darter_note'] = '隐藏在水下 {npc:185312} 旁边。'
 L['schematic_bronzewing_vespoid_note'] = '孕育栖地内。'
 L['schematic_buzz_note'] = '{npc:185265} 内有几率发现。'
