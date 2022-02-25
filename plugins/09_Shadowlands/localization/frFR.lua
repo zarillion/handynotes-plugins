@@ -685,7 +685,7 @@ L['feasting_note'] = 'Va parfois faire le tour de la zone avant de revenir à ce
 L['furidian_note'] = 'Activez trois |cFFFFFD00Serrures renforcées|r dans la zone, puis déverrouillez le |cFFFFFD00Coffre étrangement remonté|r.'
 L['garudeon_note'] = 'Ramassez des {npc:183562s} dans les environs et utilisez {spell:362655} pour nourrir les {npc:183554s}. Une fois les trois nourris, {npc:180924} s\'activera.'
 L['gluttonous_overgrowth_note'] = 'Brisez toutes les {npc:184048s} proches pour activer le monstre rare.'
-L['helmix_emote'] = nil
+L['helmix_emote'] = '|cFFFF8C00Le sol vibre... quelque chose se cache sous la surface !|r'
 L['hirukon_note'] = [[
 Pour attirer {npc:180978} à la surface, il est nécessaire de créer un {item:187923}.
 
@@ -701,7 +701,7 @@ Pour attirer {npc:180978} à la surface, il est nécessaire de créer un {item:1
 
 6. Utilisez l'{item:187923}, qui vous permettra de voir le point de pêche d'|cFFFFFD00Amas d'Aurélides|r près de {npc:180978} pendant 15min. Pêchez dedans pour faire remonter {npc:180978} à la surface.
 ]] -- Needs Review on fishing spots names
-L['orixal_note'] = nil
+L['orixal_note'] = 'Partage son apparition avec l\'{npc:185487} patrouillant dans la zone.'
 L['protector_first_ones_note'] = 'Nécessite deux personnes. Apportez les runes correspondantes à chaque console (trouvées dans les environs) pour ouvrir la barrière.'
 L['the_engulfer_note'] = 'Défendez {npc:183505} jusqu\'à ce que {npc:183516} surgisse de la faille.'
 L['zatojin_note'] = 'Attirez les {npc:183721} proches et laissez-les appliquer 20 charges de {spell:362976} jusqu\'à ce que vous soyez {spell:362983}. Vous devez vous tenir au-dessus des cadavres de {npc:183774} lorsque vous êtes paralysé pour que {npc:183764} vous remarque.'
@@ -714,12 +714,12 @@ L['drowned_broker_supplies_note'] = 'Dites à {npc:181059} de prendre le contrô
 L['forgotten_protovault_note'] = 'Uniquement disponible pendant l\'expédition {wq:Frog\'it}.'
 L['grateful_boon_note'] = 'Difficile à atteindre sans voler, utilisez {spell:300728} ou {spell:111771} pour gravir la montagne. Apaisez les 12 créatures de la zone et {npc:185293} fera apparaître le trésor.'
 L['library_vault_note'] = 'Cliquez sur les tablettes dans la Grotte Lexicale jusqu\'à ce que vous trouviez le buff {spell:362062} approprié pour ouvrir le caveau.'
-L['mistaken_ovoid_note'] = 'Dans la Grotte des Chutes dimensionnelles, vous devez collecter 5x {item:190239} et les amener à {npc:185280}. Elle se déplacera un peu pour que vous puissiez récupérer le trésor.'
+L['mistaken_ovoid_note'] = 'Dans la Grotte des Chutes dimensionnelles, vous devez collecter 5x {item:190239} et les amener à {npc:185280}.'
 L['ripened_protopear_note'] = 'Commencez la suite de quêtes {quest:64641} pour accéder à la Fonderie de l’Éclosion. Collectez 5 {spell:367180} (nuages verts) à l\'intérieur et apportez-les à la {npc:185416} pour la polliniser.'
 L['sphere_treasure_note'] = 'Sautez prudemment sur les sphères jusqu\'à ce que vous atteigniez le trésor.'
 L['submerged_chest_note'] = 'Absorbez le |cFFFFFD00Dangereux orbe de puissance|r au sud, puis interagissez avec la |cFFFFFD00Pompe oubliée|r près du trésor.' -- Needs Review
 L['symphonic_vault_note'] = 'Examinez l\'{npc:183998} pour entendre une séquence de quatre sons. Chaque {npc:183950} dans la pièce joue un seul son. Interagissez avec elles dans le bon ordre pour déverrouiller le trésor.'
-L['syntactic_vault_note'] = nil
+L['syntactic_vault_note'] = 'Pour déverrouiller le trésor, vous devez accumuler 6 charges de {spell:367499} en interagissant avec les |cFFFFFD00Syllabes Runiques|r dans la zone du Sépulcre des Fondateurs.'
 L['template_archive_note'] = 'Poussez l\'{npc:183339} dans la salle jusqu\'à l\'{npc:183337} bloquant le chemin vers le trésor.'
 L['undulating_foliage_note'] = [[
 Pressez les quatre {npc:185390s} pour activer le téléporteur dans la salle centrale des Champs Catalyseurs.
