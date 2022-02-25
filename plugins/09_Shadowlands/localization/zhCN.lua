@@ -682,7 +682,7 @@ L['feasting_note'] = '有时会在返回该地点之前巡逻该区域。'
 L['furidian_note'] = '激活区域内三个 |cFFFFFD00强化钥匙|r，然后解锁 |cFFFFFD00可疑之怒宝箱|r。'
 L['garudeon_note'] = '从周围地区收集 {npc:183562} 并使用 {spell:362655} 喂食给 {npc:183554}。三个吃饱后，{npc:180924} 将激活。'
 L['gluttonous_overgrowth_note'] = '摧毁周围全部 {npc:184048} 激活此稀有。'
-L['helmix_emote'] = '|cFFFF8C00地面震动……地下钻出什么东西！|r'
+L['helmix_emote'] = '|cFFFF8C00大地在震颤……有什么东西潜藏在地表之下！|r'
 L['hirukon_note'] = [[
 引诱 {npc:180978} 到上面，需要制造一个 {item:187923}。
 
