@@ -683,6 +683,7 @@ L['feasting_note'] = 'A veces rodeará la zona antes de volver a este sitio.'
 L['furidian_note'] = 'Activa tres |cFFFFFD00Llave Potenciada|r de la zona, y desbloquea la |cFFFFFD00Cámara Sospechosamente Enfadada|r.'
 L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
 L['gluttonous_overgrowth_note'] = 'Rompe todas las {npc:184048} cercanas para activar al {npc:178778}.'
+L['helmix_emote'] = nil
 L['hirukon_note'] = [[
 Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
 
@@ -698,6 +699,7 @@ Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
 
 6. Usa el {item:187923} que te permitirá ver los |cFFFFFD00Banco de Aurélido|r junto a {npc:180978} durante 15min. Pesca dentro para invocar a {npc:180978} a la superfície.
 ]]
+L['orixal_note'] = nil
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
 L['the_engulfer_note'] = 'Defiende a {npc:183505} hasta que {npc:183516} salte de la grieta.'
 L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar sobre los cuerpos de los {npc:183774} cuando seas paralizado para que {npc:183764} se fije en ti.'
@@ -715,6 +717,7 @@ L['ripened_protopear_note'] = 'Inicia la cadena de misiones {quest:64641} para g
 L['sphere_treasure_note'] = 'Salta las esferas con cuidado hasta llegar al tesoro.'
 L['submerged_chest_note'] = 'Absorbe el |cFFFFFD00Orbe de Poder Peligroso|r al sur. Ahora interactúa con la |cFFFFFD00Bomba Olvidada|r junto al tesoro.'
 L['symphonic_vault_note'] = 'Examina al {npc:183998} para escuchar una secuencia de cuatro sonidos. Cada {npc:183950} de la sala reproduce un sonido. Interactúa con ellas en el orden adecuado para desbloquear el tesoro.'
+L['syntactic_vault_note'] = nil
 L['template_archive_note'] = 'Empuja el {npc:183339} de la sala dentro del {npc:183337} que bloquea el paso al tesoro.'
 L['undulating_foliage_note'] = [[
 Pulsa los cuatro {npc:185390} para activar el teleportador del centro de la sala de los Distritos Catalizadores.

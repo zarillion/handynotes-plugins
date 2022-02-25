@@ -682,6 +682,7 @@ L['feasting_note'] = '有時候在回到此點前會在附近繞行'
 L['furidian_note'] = '在此區域啟動三個 |cFFFFFD00強化的鑰匙|r 就會解鎖 |cFFFFFD00可疑的憤怒儲藏庫|r.'
 L['garudeon_note'] = '從附近的區域收集 {npc:183562} 並且使用 {spell:362655} 來餵食 {npc:183554}. 當三個都被餵食後, {npc:180924} 會啟動.'
 L['gluttonous_overgrowth_note'] = '摧毀所有附近的 {npc:184048} 來啟動稀有'
+L['helmix_emote'] = nil
 L['hirukon_note'] = [[
   要引誘 {npc:180978} 到水面, 需要製造ㄩ一個 {item:187923}.
 
@@ -697,6 +698,7 @@ L['hirukon_note'] = [[
 
   6. 使用 {item:187923}, 允許你可以在 {npc:180978} 附近看到 |cFFFFFD00Aurelid Cluster|r 的魚群15分鐘. 在魚群中釣魚來召喚 {npc:180978} 到水面.
   ]]
+L['orixal_note'] = nil
 L['protector_first_ones_note'] = '需要兩人. 攜帶對應的符文 (可以在附近區域找到) 到各個控制台來開啟屏障.'
 L['the_engulfer_note'] = '保護 {npc:183505} 直到 {npc:183516} 從裂隙中跳出.'
 L['zatojin_note'] = '吸引附近的 {npc:183721} 並且讓他們對你堆疊20層的 {spell:362976} 直到你受到 {spell:362983}. 當你麻痺時你必須站在 {npc:183774} 屍體上, 以便讓 {npc:183764} 注意到你.'
@@ -714,6 +716,7 @@ L['ripened_protopear_note'] = '開始 {quest:64641} 任務鏈來獲得進入繁�
 L['sphere_treasure_note'] = '小心的從球體往上跳直到你到達寶藏處.'
 L['submerged_chest_note'] = '吸收南邊的 |cFFFFFD00危險的能量球|r, 然後和寶藏旁邊的 |cFFFFFD00被遺忘的幫浦|r 互動'
 L['symphonic_vault_note'] = '檢查 {npc:183998} 後會聽到4種聲音的序列. 房間內每個 {npc:183950} 會撥放一種聲音. 依照對應的順序和它們互動會解鎖寶藏.'
+L['syntactic_vault_note'] = nil
 L['template_archive_note'] = '推動面向擋住路徑的 {npc:183337} 的 {npc:183339} 來取得寶藏.'
 L['undulating_foliage_note'] = [[
   按下四個 {npc:185390} 來啟動在滋長界地中間房間的傳送器.

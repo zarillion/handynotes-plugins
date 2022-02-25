@@ -682,6 +682,7 @@ L['feasting_note'] = 'Will sometimes circle the area before returning to this sp
 L['furidian_note'] = 'Activate three |cFFFFFD00Empowered Keys|r in the area, then unlock the |cFFFFFD00Suspiciously Angry Vault|r.'
 L['garudeon_note'] = 'Collect {npc:183562s} from the surrounding area and use {spell:362655} to feed the {npc:183554s}. Once all three are fed, {npc:180924} will activate.'
 L['gluttonous_overgrowth_note'] = 'Break all nearby {npc:184048s} to activate the rare.'
+L['helmix_emote'] = '|cFFFF8C00The ground vibrates... something burrows beneath the surface!|r'
 L['hirukon_note'] = [[
 To entice {npc:180978} to the surface, an {item:187923} must be created.
 
@@ -697,6 +698,7 @@ To entice {npc:180978} to the surface, an {item:187923} must be created.
 
 6. Use the {item:187923}, allowing you to see the |cFFFFFD00Aurelid Cluster|r fishing pool near {npc:180978} for 15min. Fish in it to summon {npc:180978} to the surface.
 ]] -- Breaking my rule of no coords in the notes for this one
+L['orixal_note'] = 'Shares a spawn with the {npc:185487} patrolling the area.'
 L['protector_first_ones_note'] = 'Requires two people. Bring the matching runes to each console (found in the surrounding area) to open the barrier.'
 L['the_engulfer_note'] = 'Defend {npc:183505} until {npc:183516} jumps out of the rift.'
 L['zatojin_note'] = 'Pull nearby {npc:183721s} and let them apply 20 stacks of {spell:362976} until you are {spell:362983}. You must be standing over the {npc:183774} corpses when you are paralyzed for {npc:183764} to notice you.'
@@ -709,11 +711,12 @@ L['drowned_broker_supplies_note'] = 'Tell {npc:181059} to take control of the ne
 L['forgotten_protovault_note'] = 'Only available during the {wq:Frog\'it} world quest.'
 L['grateful_boon_note'] = 'Difficult to reach without flying; use {spell:300728} or {spell:111771} to ascend the mountain. Soothe all 12 creatures in the area and {npc:185293} will spawn the treasure.'
 L['library_vault_note'] = 'Click tablets in the Lexical Grotto until you find the correct {spell:362062} buff to open the vault.'
-L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern, You have to collect 5x {item:190239}, and bring then to {npc:185280}. It will move a little in order to let you get the treasure.'
+L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern. You must collect 5x {item:190239} and bring them to the {npc:185280}.'
 L['ripened_protopear_note'] = 'Begin the {quest:64641} quest chain to gain access to the Blooming Foundry. Collect 5 {spell:367180} (green clouds) inside and bring them to the {npc:185416} to pollinate it.'
 L['sphere_treasure_note'] = 'Carefully jump up the spheres until you reach the treasure.'
 L['submerged_chest_note'] = 'Absorb the |cFFFFFD00Dangerous Orb of Power|r to the south, then interact with the |cFFFFFD00Forgotten Pump|r near the treasure.'
 L['symphonic_vault_note'] = 'Examine the {npc:183998} to hear a sequence of four sounds. Each {npc:183950} in the room plays a single sound. Interact with them in the matching order to unlock the treasure.'
+L['syntactic_vault_note'] = 'To unlock the treasure, you must gain 6 stacks of {spell:367499} by interacting with |cFFFFFD00Runic Syllables|r in the Sepulcher of the First Ones area.'
 L['template_archive_note'] = 'Push the {npc:183339} in the room into the {npc:183337} blocking the path to the treasure.'
 L['undulating_foliage_note'] = [[
 Press the four {npc:185390s} to activate the teleporter in the center room of the Catalyst Wards.

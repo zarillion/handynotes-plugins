@@ -689,6 +689,7 @@ L['feasting_note'] = 'Umrundet manchmal das Gebiet, bevor er zu dieser Stelle zu
 L['furidian_note'] = 'Aktiviere drei |cFFFFFD00Ermächtigter Schlüssel|r in dem Bereich, und entriegel dann den |cFFFFFD00Verdächtig wütender Tresor|r.'
 L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwenden {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
 L['gluttonous_overgrowth_note'] = 'Zerbrich alle in der Nähe befindlichen {npc:184048n}, um den den selten Gegner zu aktivieren.'
+L['helmix_emote'] = nil
 L['hirukon_note'] = [[
 Um {npc:180978} an die Oberfläche zu locken, muss ein {item:187923} hergestellt werden.
 
@@ -704,6 +705,7 @@ Um {npc:180978} an die Oberfläche zu locken, muss ein {item:187923} hergestellt
 
 6. Benutze den {item:187923}, der es ermöglicht, den Fischteich |cFFFFFD00Aurelid Cluster|r in der Nähe von {npc:180978} für 15min zu sehen. Fische darin, um {npc:180978} an die Oberfläche zu locken.
 ]] -- review later
+L['orixal_note'] = nil
 L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden Runen zu jeder Konsole (in der Umgebung zu finden), um die Barriere zu öffnen.'
 L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss springt.'
 L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
@@ -721,6 +723,7 @@ L['ripened_protopear_note'] = 'Beginne die {quest:64641} Questreihe, um Zugang z
 L['sphere_treasure_note'] = 'Springe vorsichtig die Kugeln hoch, bis du den Schatz erreichst.'
 L['submerged_chest_note'] = 'Nimm die |cFFFFFD00Gefährliche Kugel der Macht|r im Süden auf und interagiere dann mit der |cFFFFFD00Forgotten Pump|r nahe des Schatzes.'
 L['symphonic_vault_note'] = 'Untersuche {npc:183998}, um eine Folge von vier Tönen zu hören. Jede {npc:183950} in dem Raum spielt einen einzigen Ton. Interagiere mit ihnen in der richtigen Reihenfolge, um den Schatz freizuschalten.'
+L['syntactic_vault_note'] = nil
 L['template_archive_note'] = 'Stoße die {npc:183339} im Raum in die {npc:183337}, die den Weg zum Schatz versperrt.'
 L['undulating_foliage_note'] = [[
 Drücke die vier {npc:185390n}, um den Teleporter im mittleren Raum der Katalysatorstationen zu aktivieren.
