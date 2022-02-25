@@ -682,7 +682,7 @@ L['feasting_note'] = '有时会在返回该地点之前巡逻该区域。'
 L['furidian_note'] = '激活区域内三个 |cFFFFFD00强化钥匙|r，然后解锁 |cFFFFFD00可疑之怒宝箱|r。'
 L['garudeon_note'] = '从周围地区收集 {npc:183562} 并使用 {spell:362655} 喂食给 {npc:183554}。三个吃饱后，{npc:180924} 将激活。'
 L['gluttonous_overgrowth_note'] = '摧毁周围全部 {npc:184048} 激活此稀有。'
-L['helmix_emote'] = nil
+L['helmix_emote'] = '|cFFFF8C00地面震动……地下钻出什么东西！|r'
 L['hirukon_note'] = [[
 引诱 {npc:180978} 到上面，需要制造一个 {item:187923}。
 
@@ -698,10 +698,10 @@ L['hirukon_note'] = [[
 
 6. 使用 {item:187923}，可以让你看到 |cFFFFFD00元水母群|r 渔点在 {npc:180978} 附近15分钟。在此钓鱼召唤 {npc:180978} 到上面。
 ]] -- Breaking my rule of no coords in the notes for this one
-L['orixal_note'] = nil
+L['orixal_note'] = '与在该区域巡逻的 {npc:185487} 共享刷新。'
 L['protector_first_ones_note'] = '需要两名玩家。将匹配的符文带到每个控制台（在周围区域找到）来打开屏障。'
 L['the_engulfer_note'] = '保护 {npc:183505} 直到 {npc:183516} 从裂隙中跳出。'
-L['zatojin_note'] = '吸引附近的 {npc:183721} 并让他们获得20层 {spell:362976} 直到你有 {spell:362983}。当你瘫痪时必须站在 {npc:183774} 尸体上，{npc:183764} 会注意你。'
+L['zatojin_note'] = '吸引附近的 {npc:183721} 并让你获得20层 {spell:362976} 直到你有 {spell:362983}。当你瘫痪时必须站在 {npc:183774} 尸体上，{npc:183764} 会注意你。'
 
 L['architects_reserve_note'] = '完成位于朝圣者的恩典 {npc:180630} 的 {quest:64829} 任务线。之后一天，完成 {npc:181273} 的 {quest:65426} 任务线解锁宝藏。'
 L['bushel_of_produce_note'] = '击杀1个 {npc:182368} 到北边它会被 {spell:360945} 获得自身增益。击杀更多 {npc:182368} （无需增益）直到你获得5层，然后击破门获得宝藏。'
@@ -716,7 +716,7 @@ L['ripened_protopear_note'] = '开始 {quest:64641} 任务线获得繁花铸造�
 L['sphere_treasure_note'] = '小心地跳上球体，直到到达宝藏。'
 L['submerged_chest_note'] = '吸收南侧的 |cFFFFFD00危险的能量宝珠|r，然后与宝藏附近的 |cFFFFFD00被遗忘的水泵|r 互动。'
 L['symphonic_vault_note'] = '检查 {npc:183998} 听到四个声音的序列。每个 {npc:183950} 在房间里播放单一的声音。按照匹配顺序与他们互动解锁宝藏。'
-L['syntactic_vault_note'] = nil
+L['syntactic_vault_note'] = '解锁此宝藏，需要与初诞者圣墓区域的 |cFFFFFD00符文音节|r 互动获得6层 {spell:367499}。'
 L['template_archive_note'] = '推动房间内 {npc:183339} 到 {npc:183337} 阻挡路径获得宝藏。'
 L['undulating_foliage_note'] = [[
 按下四个 {npc:185390} 激活化生之庭中央房间的传送器。

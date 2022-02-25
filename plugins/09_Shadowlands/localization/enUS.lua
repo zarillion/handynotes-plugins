@@ -701,7 +701,7 @@ To entice {npc:180978} to the surface, an {item:187923} must be created.
 L['orixal_note'] = 'Shares a spawn with the {npc:185487} patrolling the area.'
 L['protector_first_ones_note'] = 'Requires two people. Bring the matching runes to each console (found in the surrounding area) to open the barrier.'
 L['the_engulfer_note'] = 'Defend {npc:183505} until {npc:183516} jumps out of the rift.'
-L['zatojin_note'] = 'Pull nearby {npc:183721s} and let them apply 20 stacks of {spell:362976} until you are {spell:362983}. You must be standing over the {npc:183774} corpses when you are paralyzed for {npc:183764} to notice you.'
+L['zatojin_note'] = 'Pull nearby {npc:183721s} and let you apply 20 stacks of {spell:362976} until you are {spell:362983}. You must be standing over the {npc:183774} corpses when you are paralyzed for {npc:183764} to notice you.'
 
 L['architects_reserve_note'] = 'Complete the {quest:64829} questline from {npc:180630} in Pilgrim\'s Grace. The next day, complete {quest:65426} questline from {npc:181273} to unlock the treasure.'
 L['bushel_of_produce_note'] = 'Kill a {npc:182368} to the north while it is buffed with {spell:360945} to gain the buff yourself. Kill more {npc:182368s} (they do not need the buff) until you are at 5 stacks, then break down the door to the treasure.'
