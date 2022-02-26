@@ -802,7 +802,7 @@ L['patient_bufonid_note_day7'] = 'Acheter 1x {item:187171} auprès du {npc:18011
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Afficher les emplacements des créatures pour le haut-fait {achievement:15211}.'
-L['options_icons_concordances'] = 'Harmoniques d\'histoire'
+L['options_icons_concordances'] = 'Histoires Harmoniques'
 L['options_icons_concordances_desc'] = 'Afficher les emplacements des consoles d\'harmoniques d\'histoire.'
 L['options_icons_echoed_jiros'] = 'Jiro sonore'
 L['options_icons_echoed_jiros_desc'] = 'Afficher les emplacements des buffs d\'offrandes des |cFFFFFD00Jiros sonores|r.'
@@ -810,7 +810,7 @@ L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Afficher les emplacements des tomes pour le haut-fait {achievement:15509}.'
 L['options_icons_protoform_schematics'] = 'Schémas de protoforme'
 L['options_icons_protoform_schematics_desc'] = 'Afficher les emplacements des schémas de montures et familiers.'
-L['options_icons_puzzle_caches'] = 'Caches des puzzles'
+L['options_icons_puzzle_caches'] = 'Caches de la création (Puzzle)'
 L['options_icons_puzzle_caches_desc'] = 'Afficher les emplacements possibles des caches de puzzles'
 L['options_icons_zereth_caches'] = 'Caches cryptiques' -- Needs Review
 L['options_icons_zereth_caches_desc'] = 'Afficher les emplacements possibles des Caches cryptiques' -- Needs Review
