@@ -1,3 +1,8 @@
+# v43
+
+* Added a missing reward for Iska, Outrider of Ruin.
+* Improved general performance of node completion/enabled logic.
+
 # v42
 
 * Fixed performance issues while opening/closing the world map and in combat.
