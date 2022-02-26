@@ -68,7 +68,7 @@ local function InitializeDropdownMenu(level, mapID, coord)
             notCheckable = 1,
             func = function(button)
                 Addon.db.char[mapID .. '_coord_' .. coord] = true
-                Addon:Refresh()
+                Addon:RefreshImmediate()
             end
         }, level)
 
@@ -77,7 +77,7 @@ local function InitializeDropdownMenu(level, mapID, coord)
             notCheckable = 1,
             func = function()
                 wipe(Addon.db.char)
-                Addon:Refresh()
+                Addon:RefreshImmediate()
             end
         }, level)
 
@@ -133,7 +133,7 @@ function Addon:OnClick(button, down, mapID, coord)
     elseif button == 'LeftButton' and down then
         if map:CanFocus(node) then
             map:SetFocus(node, not node._focus)
-            Addon:Refresh()
+            Addon:RefreshImmediate()
         end
     end
 end
@@ -229,7 +229,7 @@ end
 
 function Addon:Refresh()
     if self._refreshTimer or InCombatLockdown() then return end
-    self._refreshTimer = C_Timer.NewTimer(2, function()
+    self._refreshTimer = C_Timer.NewTimer(0.1, function()
         self._refreshTimer = nil
         self:RefreshImmediate()
     end)
