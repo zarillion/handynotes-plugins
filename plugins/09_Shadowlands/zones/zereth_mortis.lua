@@ -377,8 +377,8 @@ map.nodes[54507344] = Rare({
         Achievement({id = 15391, criteria = 52987}), -- Adventurer of Zereth Mortis
         Transmog({item = 189928, slot = L['leather']}), -- Centripetal Waistband
         Transmog({item = 189966, slot = L['plate']}), -- Singing Metal Wristbands
-        Transmog({item = 190055, slot = L['offhand']}), -- Coalescing Energy Implement
-        Item({item = 187830}) -- Design: Aealic Harmonizing Stone
+        Transmog({item = 190055, slot = L['offhand']}) -- Coalescing Energy Implement
+        -- Item({item = 187830}) -- Design: Aealic Harmonizing Stone
     }
 }) -- Tethos
 
