@@ -473,6 +473,7 @@ map.nodes[63202603] = Rare({
         Transmog({item = 190107, slot = L['staff']}), -- Staff of Broken Coils
         Transmog({item = 190458, slot = L['shield'], note = ISKA}), -- Atrophy's Ominous Bulwark
         Transmog({item = 190102, slot = L['1h_mace'], note = ISKA}), -- Chains of Infectious Serrations
+        Transmog({item = 190103, slot = L['2h_mace'], note = ISKA}), -- Pillar of Noxious Dissemination
         Transmog({item = 190126, slot = L['polearm'], note = ISKA}), -- Rotculler's Encroaching Shears
         Transmog({item = 190105, slot = L['1h_mace'], note = DAMARIS}), -- Chilling Domination Mace
         Transmog({item = 190459, slot = L['shield'], note = DAMARIS}), -- Cold Dispiriting Barricade
