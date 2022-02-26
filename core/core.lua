@@ -210,9 +210,9 @@ function Addon:RegisterWithHandyNotes()
 
     -- Refresh in any cases where node status may have changed
     self:RegisterBucketEvent({
-        'BAG_UPDATE', 'CRITERIA_EARNED', 'CRITERIA_UPDATE', 'LOOT_CLOSED',
-        'PLAYER_MONEY', 'SHOW_LOOT_TOAST', 'SHOW_LOOT_TOAST_UPGRADE',
-        'QUEST_TURNED_IN', 'ZONE_CHANGED_NEW_AREA'
+        'BAG_UPDATE_DELAYED', 'CRITERIA_EARNED', 'CRITERIA_UPDATE',
+        'LOOT_CLOSED', 'PLAYER_MONEY', 'SHOW_LOOT_TOAST',
+        'SHOW_LOOT_TOAST_UPGRADE', 'QUEST_TURNED_IN', 'ZONE_CHANGED_NEW_AREA'
     }, 2, 'Refresh')
 
     -- Also refresh whenever the size of the world map frame changes
@@ -223,7 +223,7 @@ function Addon:RegisterWithHandyNotes()
 end
 
 function Addon:Refresh()
-    if self._refreshTimer then return end
+    if self._refreshTimer or InCombatLockdown() then return end
     self._refreshTimer = C_Timer.NewTimer(0.1, function()
         self._refreshTimer = nil
         self:SendMessage('HandyNotes_NotifyUpdate', ADDON_NAME)
