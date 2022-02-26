@@ -1,3 +1,8 @@
+# v42
+
+* Fixed performance issues while opening/closing the world map and in combat.
+* Updated the Akkaris quest ID (changed by Blizzard to no longer share a quest ID with Shifting Stargorger).
+
 # v41
 
 * Added a missing quest ID for the Domination Cache treasure.
