@@ -216,18 +216,27 @@ function Addon:RegisterWithHandyNotes()
     }, 2, 'Refresh')
 
     -- Also refresh whenever the size of the world map frame changes
-    hooksecurefunc(WorldMapFrame, 'OnFrameSizeChanged',
-        function() self:Refresh() end)
+    hooksecurefunc(WorldMapFrame, 'OnFrameSizeChanged', function(...)
+        if self.world_map_maximized ~= WorldMapFrame:IsMaximized() then
+            self.world_map_maximized = WorldMapFrame:IsMaximized()
+            self:RefreshImmediate()
+        end
+    end)
+    self.world_map_maximized = WorldMapFrame:IsMaximized()
 
     self:Refresh()
 end
 
 function Addon:Refresh()
     if self._refreshTimer or InCombatLockdown() then return end
-    self._refreshTimer = C_Timer.NewTimer(0.1, function()
+    self._refreshTimer = C_Timer.NewTimer(2, function()
         self._refreshTimer = nil
-        self:SendMessage('HandyNotes_NotifyUpdate', ADDON_NAME)
-        ns.MinimapDataProvider:RefreshAllData()
-        ns.WorldMapDataProvider:RefreshAllData()
+        self:RefreshImmediate()
     end)
+end
+
+function Addon:RefreshImmediate()
+    self:SendMessage('HandyNotes_NotifyUpdate', ADDON_NAME)
+    ns.MinimapDataProvider:RefreshAllData()
+    ns.WorldMapDataProvider:RefreshAllData()
 end
