@@ -41,7 +41,7 @@ local cata = Map({id = 2066}) -- Catalyst Wards
 
 map.nodes[64743369] = Rare({
     id = 179006,
-    quest = 65549,
+    quest = 65552,
     vignette = 4747,
     rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
     rewards = {
