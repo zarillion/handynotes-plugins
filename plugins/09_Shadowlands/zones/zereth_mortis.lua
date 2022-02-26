@@ -514,7 +514,7 @@ map.nodes[47449524] = Treasure({
         Achievement({id = 15331, criteria = 53071}), -- Treasures of Zereth Mortis
         Achievement({id = 15508, criteria = 53286}), -- Fashion of the First Ones
         Toy({item = 190853}), -- Bushel of Mysterious Fruit
-        Item({item = 190059, quest = 65524}) -- Chef Pocopoc
+        Item({item = 189451, quest = 65524}) -- Chef Pocopoc
     }
 }) -- Bushel of Progenitor Produce
 
