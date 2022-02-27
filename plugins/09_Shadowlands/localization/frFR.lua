@@ -734,7 +734,10 @@ Pressez les quatre {npc:185390s} pour activer le téléporteur dans la salle cen
 ]]
 
 L['provis_cache'] = 'Cache verrouillée de Provis'
-L['provis_cache_note'] = nil
+L['provis_cache_note'] = [[
+Accomplissez au moins une fois la quête journalière {quest:64717} de {npc:177958}.
+Utilisez le {item:187516} aux Forges des Progéniteurs (Sphères) dans Zereth Mortis pour obtenir 15x {item:187728} et combinez-les en l'{item:187787} qui peut contenir la clé.
+]]
 L['prying_eye_discovery'] = 'Découverte d\'œil indiscret'
 L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol est déverrouillé.'
 L['pulp_covered_relic'] = 'Relique couverte de pulpe'
