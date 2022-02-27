@@ -731,8 +731,12 @@ L['undulating_foliage_note'] = [[
 · 在庭院的东南房间内
 ]]
 
-L['provis_cache'] = nil
-L['provis_cache_note'] = nil
+L['provis_cache'] = '锁住的供给扇区宝箱'
+L['provis_cache_note'] = [[
+完成 {npc:177958} 的 {quest:64717} 日常任务至少一次。
+
+在扎雷殁提斯各处的元尊锻炉（球体）使用 {item:187516} 获得15个 {item:187728} 并组合为 {item:187787} 其中可能包含钥匙。
+]]
 L['prying_eye_discovery'] = '窥探之眼的发现'
 L['prying_eye_discovery_note'] = '飞行解锁后容易到达。'
 L['pulp_covered_relic'] = '被粘浆覆盖的圣物'
