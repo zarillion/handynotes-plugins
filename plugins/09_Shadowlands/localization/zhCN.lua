@@ -784,7 +784,7 @@ L['echoed_jiro_note'] = '耗费 {npc:181059} 能量获得临时增益。需要 {
 
 L['bygone_elemental_note'] = '{npc:181221} 可以代替区域内的任何 {npc:179007} 位置刷新。'
 L['gaiagantic_note'] = '只在 {npc:177958} 提供 {quest:64785} 日常任务时刷新。'
-L['misaligned_enforcer_note'] = '巡逻该地区，然后在路线尽头消失。'
+L['misaligned_enforcer_note'] = '在此刷新，巡逻该地区，然后在路线尽头消失。'
 L['overcharged_vespoid_note'] = '可以代替区域内任何群体的一部分刷新。'
 L['runethief_xylora_note'] = '朝圣者的恩典区域内潜伏刷新。'
 
