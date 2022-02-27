@@ -710,7 +710,7 @@ Um {npc:180978} an die Oberfläche zu locken, muss ein {item:187923} hergestellt
 6. Benutze den {item:187923}, der es ermöglicht, den Fischteich |cFFFFFD00Aurelid Cluster|r in der Nähe von {npc:180978} für 15min zu sehen. Fische darin, um {npc:180978} an die Oberfläche zu locken.
 ]] -- review later
 L['orixal_note'] = 'Teilt sich einen spawn mit dem {npc:185487}, der das Gebiet patrouilliert.'
-L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden Runen zu jeder Konsole (in der Umgebung zu finden), um die Barriere zu öffnen.'
+L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden Siegel (in der Umgebung zu finden) zu jeder Konsole, um die Barriere zu öffnen.'
 L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss springt.'
 L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
 
@@ -742,7 +742,7 @@ L['provis_cache'] = 'Verschlossene Provistruhe'
 L['provis_cache_note'] = [[
 Schließe min. einmal die tägliche Quest {quest:64717} von {npc:177958} ab.
 
-Verwende die {item:187516} an Progenitorschmieden (Sphären), die überall in Zereth Mortis zu finden sind, um 15x {item:187728} zu erhalten und kombiniere diese zu einer {item:187787}, die den Schlüssel enthalten kann.
+Verwende die {item:187516} an Progenitorschmieden (Sphären), die überall in Zereth Mortis zu finden sind, um 15x {item:187728} zu erhalten und kombiniere diese zu einer {item:187787}, die eine Chance hat den Schlüssel zu enthalten.
 ]]
 L['prying_eye_discovery'] = 'Entdeckung des Spürauges'
 L['prying_eye_discovery_note'] = 'Leichter zu erreichen, sobald das Fliegen freigeschaltet ist.'
@@ -805,15 +805,16 @@ L['misaligned_enforcer_note'] = 'Erscheint hier und patrouilliert dann das Gebie
 L['overcharged_vespoid_note'] = 'Kann als Teil eines Schwarmes in der Gegend erscheinen.'
 L['runethief_xylora_note'] = 'Erscheint getarnt im Gebiet von Huld des Pilgers.'
 
-L['proto_material_zone_chance'] = nil
-L['anima_charged_yolk_note'] = nil
-L['energized_firmament_note'] = nil
-L['honeycombed_lattice_note'] = nil
-L['incorporeal_sand_note'] = nil
-L['pollinated_extraction_note'] = nil
-L['serene_pigment_note'] = nil
-L['volatile_precursor_note'] = nil
-L['wayward_essence_note'] = nil
+local proto_area = 'Kann in Schmieden rund um das Gebiet |cFFFFFD00%s|r gefunden werden.'
+L['proto_material_zone_chance'] = 'Kann in bestimmten Schmieden dieser Zone gefunden werden.'
+L['anima_charged_yolk_note'] = 'Sammel 15x {item:187728} aus einer beliebigen Schmiede und kombinieren diese zu einer {item:187787}, die eine Chance hat, ein {item:187890} zu enthalten.'
+L['energized_firmament_note'] = string.format(proto_area, 'Hallende Gipfel')
+L['honeycombed_lattice_note'] = string.format(proto_area, 'Surrende Anhöhe')
+L['incorporeal_sand_note'] = 'Kann in Schmieden in den Wüstengebieten dieser Zone gefunden werden.'
+L['pollinated_extraction_note'] = string.format(proto_area, 'Ungezähmtes Grün')
+L['serene_pigment_note'] = 'In einer Schmiede über dem Eingang zur |cFFFFFD00Höhle des Verbannten|r. Benötigt möglicherweise mehrere Versuche.'
+L['volatile_precursor_note'] = 'Zu finden in kleineren Schmieden. Benötigt möglicherweise mehrere Versuche.'
+L['wayward_essence_note'] = 'Ohne Fliegen schwer zu erreichen. In einer schwebenden Schmiede hinter der |cFFFFFD00Höhle des Verbannten|r. Stelle dich in die Vertiefung, um die Schmiede anzuzapfen.'
 
 L['patient_bufonid_note'] = 'Schreite in der Geschichte von Zereth Mortis voran, bis {npc:180950} die Quest {quest:65727} anbietet. Erfülle diese täglich, um {npc:185798} aus dem Teich zu locken.'
 L['patient_bufonid_note_day1'] = 'Sammel 15x {item:190852} von Vespiden aus dieser Zone.'
@@ -832,8 +833,8 @@ L['options_icons_echoed_jiros'] = 'Echo von Jiro'
 L['options_icons_echoed_jiros_desc'] = 'Zeigt die Positionen für die Gaben-Stärkungszauber der |cFFFFFD00Echo von Jiro|r an.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Zeigt die Positionen der Geschichten für den Erfolg {achievement:15509} an.'
-L['options_icons_proto_materials'] = nil
-L['options_icons_proto_materials_desc'] = nil
+L['options_icons_proto_materials'] = '{achievement:15229}'
+L['options_icons_proto_materials_desc'] = 'Zeigt die Position der seltenen Protomaterialien für den Erfolg {achievement:15229} an.'
 L['options_icons_protoform_schematics'] = 'Protoform Baupläne'
 L['options_icons_protoform_schematics_desc'] = 'Zeigt die Positionen der Reittier und Haustier Baupläne an.'
 L['options_icons_puzzle_caches'] = 'Schätze der Schöpfung'
