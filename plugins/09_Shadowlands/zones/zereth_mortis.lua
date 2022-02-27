@@ -492,7 +492,6 @@ map.nodes[63202603] = Rare({
 -------------------------------------------------------------------------------
 
 -- Unknown/Mystery Treasures:
--- 42025181 Provis Cache (requires Provis Cache Key)
 -- Pocopoc costume unlock (first appearance learned) (quest=65531)
 -- Glimmer of Serenity (64666343, 60412528)
 
@@ -780,6 +779,13 @@ cata.nodes[49243441] = Class('Foliage', Treasure,
 }) -- Undulating Foliage
 
 -------------------------------------------------------------------------------
+
+map.nodes[42025181] = Treasure({
+    quest = 65183,
+    requires = ns.requirement.Item(188231),
+    label = L['provis_cache'],
+    note = L['provis_cache_note']
+}) -- Provis Cache
 
 map.nodes[48016641] = Treasure({
     quest = 65184,

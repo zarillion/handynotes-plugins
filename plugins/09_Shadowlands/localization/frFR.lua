@@ -733,6 +733,8 @@ Pressez les quatre {npc:185390s} pour activer le téléporteur dans la salle cen
 • Dans la salle sud-est des champs
 ]]
 
+L['provis_cache'] = 'Cache verrouillée de Provis'
+L['provis_cache_note'] = nil
 L['prying_eye_discovery'] = 'Découverte d\'œil indiscret'
 L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol est déverrouillé.'
 L['pulp_covered_relic'] = 'Relique couverte de pulpe'

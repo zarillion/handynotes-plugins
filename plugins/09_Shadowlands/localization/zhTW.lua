@@ -727,6 +727,8 @@ L['undulating_foliage_note'] = [[
   • 在滋長界地東南方的房間
 ]]
 
+L['provis_cache'] = nil
+L['provis_cache_note'] = nil
 L['prying_eye_discovery'] = '發現窺探之眼'
 L['prying_eye_discovery_note'] = '當飛行解鎖時會比較容易到達'
 L['pulp_covered_relic'] = '被泥巴覆蓋的聖物'

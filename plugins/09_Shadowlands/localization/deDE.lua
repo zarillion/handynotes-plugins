@@ -738,6 +738,12 @@ Drücke die vier {npc:185390n}, um den Teleporter im mittleren Raum der Katalysa
 • Im südöstlichen Raum der Stationen
 ]]
 
+L['provis_cache'] = 'Verschlossene Provistruhe'
+L['provis_cache_note'] = [[
+Schließe min. einmal die tägliche Quest {quest:64717} von {npc:177958} ab.
+
+Verwende die {item:187516} an Progenitorschmieden (Sphären), die überall in Zereth Mortis zu finden sind, um 15x {item:187728} zu erhalten und kombiniere diese zu einer {item:187787}, die den Schlüssel enthalten kann.
+]]
 L['prying_eye_discovery'] = 'Entdeckung des Spürauges'
 L['prying_eye_discovery_note'] = 'Leichter zu erreichen, sobald das Fliegen freigeschaltet ist.'
 L['pulp_covered_relic'] = 'Breibedecktes Relikt'

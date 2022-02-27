@@ -731,6 +731,12 @@ Press the four {npc:185390s} to activate the teleporter in the center room of th
 • In the south-east room of the wards
 ]]
 
+L['provis_cache'] = 'Locked Provis Cache'
+L['provis_cache_note'] = [[
+Complete the {quest:64717} daily quest from {npc:177958} at least once.
+
+Use the {item:187516} at Progenitor Forges (Spheres) throughout Zereth Mortis to obtain 15x {item:187728} and combine these into the {item:187787} that can contain the key.
+]]
 L['prying_eye_discovery'] = 'Prying Eye Discovery'
 L['prying_eye_discovery_note'] = 'Easier to reach once flying is unlocked.'
 L['pulp_covered_relic'] = 'Pulp-Covered Relic'

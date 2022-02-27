@@ -728,6 +728,8 @@ Pulsa los cuatro {npc:185390} para activar el teleportador del centro de la sala
 • En la habitación sureste de los distritos
 ]]
 
+L['provis_cache'] = 'Alijo de Provis cerrado'
+L['provis_cache_note'] = nil
 L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
 L['prying_eye_discovery_note'] = 'Es más fácil de alcanzar cuando el volar esté desbloqueado.'
 L['pulp_covered_relic'] = 'Reliquia Cubierta de Pulpa'

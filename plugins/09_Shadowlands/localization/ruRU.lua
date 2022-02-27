@@ -727,6 +727,8 @@ L['undulating_foliage_note'] = [[
 • В юго-восточной комнате двора
 ]]
 
+L['provis_cache'] = 'Запертый тайник провиза'
+L['provis_cache_note'] = nil
 L['prying_eye_discovery'] = 'Находка любопытных'
 L['prying_eye_discovery_note'] = 'Легче добраться, когда полеты разблокированы.'
 L['pulp_covered_relic'] = 'Измазанная реликвия'
