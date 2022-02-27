@@ -314,7 +314,8 @@ map.nodes[38872762] = Rare({
         Transmog({item = 189961, slot = L['plate']}), -- Enduring Protector's Shoulderguards
         Transmog({item = 189984, slot = L['cloak']}), -- Drape of Idolized Symmetry
         Transmog({item = 190002, slot = L['shield']}) -- Bulwark of the Broken
-    }
+    },
+    pois = {POI({40532387, 41352440, 42502685, 43072514})} -- Mysterious Sigil
 }) -- Protector of the First Ones
 
 map.nodes[53384707] = Rare({
