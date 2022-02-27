@@ -794,7 +794,7 @@ L['concordance_note'] = 'Lisez chaque harmonique pour déverrouiller les donnée
 L['echoed_jiro_note'] = 'Dépensez l\'énergie de {npc:181059} pour obtenir des buffs temporaires. Nécessite la recherche |cFFFFFD00Créatien|r à la {npc:181397}.'
 
 L['bygone_elemental_note'] = 'Un {npc:181221} peut apparaître à la place de n\'importe quel {npc:179007} dans la zone.'
-L['dominated_irregular_note'] = nil
+L['dominated_irregular_note'] = 'Un {npc:184819} peut apparaître à la place de n\'importe quel {npc:183184} dans la zone.'
 L['gaiagantic_note'] = 'Apparaît uniquement lorsque {npc:177958} propose la quête journalière {quest:64785}.'
 L['misaligned_enforcer_note'] = 'Apparaît ici. Patrouille la zone et disparaît à la fin de son itinéraire.'
 L['overcharged_vespoid_note'] = 'Peut apparaître dans n\'importe quel essaim de la zone.'
