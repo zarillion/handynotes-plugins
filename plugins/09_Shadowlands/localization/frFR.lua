@@ -685,7 +685,10 @@ L['feasting_note'] = 'Va parfois faire le tour de la zone avant de revenir à ce
 L['furidian_note'] = 'Activez trois |cFFFFFD00Serrures renforcées|r dans la zone, puis déverrouillez le |cFFFFFD00Coffre étrangement remonté|r.'
 L['garudeon_note'] = 'Ramassez des {npc:183562s} dans les environs et utilisez {spell:362655} pour nourrir les {npc:183554s}. Une fois les trois nourris, {npc:180924} s\'activera.'
 L['gluttonous_overgrowth_note'] = 'Brisez toutes les {npc:184048s} proches pour activer le monstre rare.'
-L['helmix_note'] = '|cFFFF8C00Le sol vibre... quelque chose se cache sous la surface !|r'
+L['helmix_note'] = [[
+Tuez des {npc:179005s} dans la zone jusqu'à ce qu'il émette un signal et apparaisse.
+|cFFFF8C00Le sol vibre... quelque chose se cache sous la surface !|r
+]]
 L['hirukon_note'] = [[
 Pour attirer {npc:180978} à la surface, il est nécessaire de créer un {item:187923}.
 
