@@ -1035,102 +1035,90 @@ microd.nodes[62764399] = Cache({
 ----------------------------- PROTOFORM SCHEMATICS ----------------------------
 -------------------------------------------------------------------------------
 
-local Schematic = Class('Schematic', ns.node.Item, {
-    icon = 4217590,
+local PetSchematic = Class('PetSchematic', ns.node.Item, {
+    sublabel = '{spell:366368}',
+    icon = 132599,
     group = ns.groups.PROTOFORM_SCHEMATICS
 })
 
 -------------------------------------------------------------------------------
 
-map.nodes[78175317] = Schematic({
-    sublabel = '{spell:366368}',
+map.nodes[78175317] = PetSchematic({
     id = 189418,
     quest = 65327,
     note = L['schematic_ambystan_darter_note']
 }) -- Ambystan Darter
 
-map.nodes[61234258] = Schematic({
-    sublabel = '{spell:366368}',
+map.nodes[61234258] = PetSchematic({
     id = 189434,
     quest = 65332,
     note = L['schematic_fierce_scarabid_note']
 }) -- Fierce Scarabid
 
-map.nodes[58407440] = Schematic({
-    sublabel = '{spell:366368}',
+map.nodes[58407440] = PetSchematic({
     id = 189444,
     quest = 65357,
     note = L['schematic_leaping_leporid_note']
 }) -- Leaping Leporid
 
-map.nodes[28135001] = Schematic({
-    sublabel = '{spell:366368}',
+map.nodes[28135001] = PetSchematic({
     id = 189445,
     quest = 65358,
     note = L['schematic_microlicid_note']
 }) -- Microlicid
 
-map.nodes[53777246] = Schematic({
-    sublabel = '{spell:366368}',
+map.nodes[53777246] = PetSchematic({
     id = 189435,
     quest = 65333,
     note = L['in_cave'] .. '\n\n' .. L['schematic_treasure_pet_note']
 }) -- Multichicken
 
--- map.nodes[] = Schematic({
---     sublabel = '{spell:366368}',
+-- map.nodes[] = PetSchematic({
 --     id = 189440,
 --     quest = 65348,
 --     note = L['schematic_omnipotential_core_note']
 -- }) -- Omnipotential Core
 
-map.nodes[52237533] = Schematic({
-    sublabel = '{spell:366368}',
+map.nodes[52237533] = PetSchematic({
     id = 189442,
     quest = 65354,
     note = L['schematic_prototickles_note']
 }) -- Prototickles
 
-map.nodes[77605900] = Schematic({
-    sublabel = '{spell:366368}',
+map.nodes[77605900] = PetSchematic({
     id = 189441,
     quest = 65351,
     note = L['schematic_resonant_echo_note'],
     pois = {POI({58608990, 77404530, 77605900, 77606040, 78205440, 78305310})}
 }) -- Resonant Echo
 
-map.nodes[57837783] = Schematic({
-    sublabel = '{spell:366368}',
+map.nodes[57837783] = PetSchematic({
     id = 189446,
     quest = 65359,
     note = L['schematic_shelly_note'],
     pois = {POI({59328128})}
 }) -- Shelly
 
--- map.nodes[] = Schematic({
---     sublabel = '{spell:366368}',
+-- map.nodes[] = PetSchematic({
 --     id = 189437,
 --     quest = 65336,
 --     note = L['schematic_stabilized_geomental_note']
 -- }) -- Stabilized Geomental
 
-map.nodes[67223261] = Schematic({
-    sublabel = '{spell:366368}',
+map.nodes[67223261] = PetSchematic({
     id = 189443,
     quest = 65355,
     note = L['schematic_terror_jelly_note']
 }) -- Terror Jelly
 
-esper.nodes[74745037] = Schematic({
-    sublabel = '{spell:366368}',
+esper.nodes[74745037] = PetSchematic({
     id = 189448,
     quest = 65361,
     parent = {id = map.id, pois = {POI({55755347})}},
     note = L['schematic_tunneling_vombata_note']
 }) -- Tunneling Vombata
 
--- map.nodes[] = Schematic({
---     sublabel = '{spell:366368}',
+-- map.nodes[] = PetSchematic({
 --     id = 189436,
 --     quest = 65334,
 --     note = L['schematic_violent_poultrid_note']
@@ -1139,8 +1127,7 @@ esper.nodes[74745037] = Schematic({
 -- Currently no fallback "Protoform Schematic" object for this one, it will always be
 -- obtained from the Library Vault treasure even if you have not unlocked the pet
 -- synthesizer yet.
--- map.nodes[] = Schematic({
---     sublabel = '{spell:366368}',
+-- map.nodes[] = PetSchematic({
 --     id = 189447,
 --     quest = 65360,
 --     note = L['schematic_viperid_menace_note']
@@ -1148,80 +1135,77 @@ esper.nodes[74745037] = Schematic({
 
 -------------------------------------------------------------------------------
 
-map.nodes[36947826] = Schematic({
+local MountSchematic = Class('MountSchematic', ns.node.Item, {
     sublabel = '{spell:366367}',
+    icon = 136103,
+    group = ns.groups.PROTOFORM_SCHEMATICS
+})
+
+-------------------------------------------------------------------------------
+
+map.nodes[36947826] = MountSchematic({
     id = 189478,
     quest = 65401,
     note = L['schematic_treasure_mount_note']
 }) -- Adorned Vombata
 
-map.nodes[34986475] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[34986475] = MountSchematic({
     id = 189462,
     quest = 65385,
     note = L['schematic_bronze_helicid_note']
 }) -- Bronze Helicid
 
-gpose.nodes[48974050] = Schematic({
-    sublabel = '{spell:366367}',
+gpose.nodes[48974050] = MountSchematic({
     id = 189473,
     quest = 65396,
     parent = {id = map.id, pois = {POI({50543218})}},
     note = L['schematic_bronzewing_vespoid_note']
 }) -- Bronzewing Vespoid
 
-map.nodes[52804580] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[52804580] = MountSchematic({
     id = 189474,
     quest = 65397,
     note = L['schematic_buzz_note'] .. ' ' .. L['multiple_spawns'],
     pois = {POI({41903400, 50304120, 52804580, 53402570, 64366347})}
 }) -- Buzz
 
--- map.nodes[] = Schematic({
---     sublabel = '{spell:366367}',
+-- map.nodes[] = MountSchematic({
 --     id = 189476,
 --     quest = 65399,
 --     note = L['schematic_curious_crystalsniffer_note']
 -- }) -- Curious Crystalsniffer
 
-map.nodes[64223562] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[64223562] = MountSchematic({
     id = 189477,
     quest = 65400,
     note = L['schematic_darkened_vombata_note']
 }) -- Darkened Vombata
 
-map.nodes[70212856] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[70212856] = MountSchematic({
     id = 189457,
     quest = 65380,
     note = L['schematic_deathrunner_note']
 }) -- Deathrunner
 
-map.nodes[62024352] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[62024352] = MountSchematic({
     id = 189458,
     quest = 65381,
     note = L['schematic_desertwing_hunter_note']
 }) -- Desertwing Hunter
 
-map.nodes[53302560] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[53302560] = MountSchematic({
     id = 189475,
     quest = 65398,
     note = L['schematic_forged_spiteflyer_note']
 }) -- Forged Spiteflyer
 
-map.nodes[31485032] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[31485032] = MountSchematic({
     id = 189465,
     quest = 65388,
     note = L['schematic_genesis_crawler_note']
 }) -- Genesis Crawler
 
-map.nodes[76125219] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[76125219] = MountSchematic({
     id = 189468,
     quest = 65391,
     note = L['schematic_goldplate_bufonid_note'],
@@ -1235,93 +1219,80 @@ map.nodes[76125219] = Schematic({
     }
 }) -- Goldplate Bufonid
 
-map.nodes[53166386] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[53166386] = MountSchematic({
     id = 190585,
     quest = 65680,
     note = L['in_cave'] .. ' ' .. L['schematic_heartbond_lupine_note']
 }) -- Heartbond Lupine
 
--- map.nodes[] = Schematic({
---     sublabel = '{spell:366367}',
+-- map.nodes[] = MountSchematic({
 --     id = 189467,
 --     quest = 65390,
 --     note = L['schematic_ineffable_skitterer_note']
 -- }) -- Ineffable Skitterer
 
--- map.nodes[] = Schematic({
---     sublabel = '{spell:366367}',
+-- map.nodes[] = MountSchematic({
 --     id = 189459,
 --     quest = 65382,
 --     note = L['schematic_mawdapted_raptora_note']
 -- }) -- Mawdapted Raptora
 
-map.nodes[33754950] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[33754950] = MountSchematic({
     id = 189455,
     quest = 65375,
     note = L['schematic_pale_regal_cervid_note']
 }) -- Pale Regal Cervid
 
-map.nodes[66966942] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[66966942] = MountSchematic({
     id = 189469,
     quest = 65393,
     note = L['schematic_treasure_mount_note']
 }) -- Prototype Leaper
 
-map.nodes[67394025] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[67394025] = MountSchematic({
     id = 189460,
     quest = 65383,
     note = L['schematic_raptora_swooper_note'],
     pois = {POI({65893620})}
 }) -- Raptora Swooper
 
-map.nodes[34756413] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[34756413] = MountSchematic({
     id = 189471,
     quest = 65394,
     note = L['schematic_russet_bufonid_note']
 }) -- Russet Bufonid
 
-map.nodes[47680954] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[47680954] = MountSchematic({
     id = 189464,
     quest = 65387,
     note = L['schematic_scarlet_helicid_note']
 }) -- Scarlet Helicid
 
--- map.nodes[] = Schematic({
---     sublabel = '{spell:366367}',
+-- map.nodes[] = MountSchematic({
 --     id = 189461,
 --     quest = 65384,
 --     note = L['schematic_serenade_note']
 -- }) -- Serenade
 
-map.nodes[60603052] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[60603052] = MountSchematic({
     id = 189456,
     quest = 65379,
     note = L['schematic_treasure_mount_note']
 }) -- Sundered Zerethsteed
 
-map.nodes[63032149] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[63032149] = MountSchematic({
     id = 189466,
     quest = 65389,
     note = L['schematic_tarachnid_creeper_note']
 }) -- Tarachnid Creeper
 
--- map.nodes[] = Schematic({
---     sublabel = '{spell:366367}',
+-- map.nodes[] = MountSchematic({
 --     id = 189463,
 --     quest = 65386,
 --     note = L['schematic_prototype_fleetpod_note']
 -- }) -- Unsuccessful Prototype Fleetpod
 
-map.nodes[50312704] = Schematic({
-    sublabel = '{spell:366367}',
+map.nodes[50312704] = MountSchematic({
     id = 189472,
     quest = 65395,
     note = L['schematic_vespoid_flutterer_note']
