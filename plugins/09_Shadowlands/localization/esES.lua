@@ -808,7 +808,7 @@ L['incorporeal_sand_note'] = 'Probabilidad de ser encontrado en forjas en las á
 L['pollinated_extraction_note'] = string.format(proto_area, 'Verdor Indómito')
 L['serene_pigment_note'] = 'En una forja sobre la entrada a |cFFFFFD00Cuenca del Exilio|r. Puede necesitar varios intentos.'
 L['volatile_precursor_note'] = 'Está encima de la forja más pequeña. Puede necesitar varios intentos.'
-L['wayward_essence_note'] = 'En una forja flotante detrás de la |cFFFFFD00Cuenca del Exilio|r. Ponte encima de la hendidura para usar {item:187908}.'
+L['wayward_essence_note'] = 'Es difícil de alcanzar sin volar; usa {spell:300728} o {spell:111771}. En una forja flotante detrás de la |cFFFFFD00Cuenca del Exilio|r. Ponte encima de la hendidura para usar {item:187908}.'
 
 L['patient_bufonid_note'] = 'Progresa en la historia de Zereth Mortis hasta que {npc:180950} ofrezca la misión {quest:65727}. Completa las misiones cada día para atraer un {npc:185798} fuera del estanque.'
 L['patient_bufonid_note_day1'] = 'Recoge {item:190852} x15 de los Vespoide de la zona.'
