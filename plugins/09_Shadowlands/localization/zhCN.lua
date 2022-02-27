@@ -793,6 +793,7 @@ L['concordance_note'] = '阅读每个索引解锁位于|cFFFFFD00流亡洞穴|r 
 L['echoed_jiro_note'] = '耗费 {npc:181059} 能量获得临时增益。需要 {npc:181397} 的 |cFFFFFD00创音词|r 研究。'
 
 L['bygone_elemental_note'] = '{npc:181221} 可以代替区域内的任何 {npc:179007} 位置刷新。'
+L['dominated_irregular_note'] = nil
 L['gaiagantic_note'] = '只在 {npc:177958} 提供 {quest:64785} 日常任务时刷新。'
 L['misaligned_enforcer_note'] = '在此刷新，巡逻该地区，然后在路线尽头消失。'
 L['overcharged_vespoid_note'] = '可以代替区域内任何群体的一部分刷新。'

@@ -800,6 +800,7 @@ L['concordance_note'] = 'Lese jede Konkordanz, um Einträge in der |cFFFFFD00Wis
 L['echoed_jiro_note'] = 'Gebe {npc:181059}energie aus, um temporäre Verstärkungszauber zu erhalten. Benötigt die |cFFFFFD00Createsisch|r Forschung an der {npc:181397}.'
 
 L['bygone_elemental_note'] = 'Ein {npc:181221} kann anstelle eines {npc:179007} in dem Gebiet erscheinen.'
+L['dominated_irregular_note'] = nil
 L['gaiagantic_note'] = 'Erscheint nur, wenn {npc:177958} die tägliche Quest {quest:64785} anbietet.'
 L['misaligned_enforcer_note'] = 'Erscheint hier und patrouilliert dann das Gebiet und verschwindet am Ende seiner Route.'
 L['overcharged_vespoid_note'] = 'Kann als Teil eines Schwarmes in der Gegend erscheinen.'

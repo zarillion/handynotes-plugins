@@ -785,6 +785,7 @@ L['concordance_note'] = '閱讀每一個索引來解鎖在 |cFFFFFD00流亡者�
 L['echoed_jiro_note'] = '消耗 {npc:181059} 能量來取得暫時的增益. 需要 {npc:181397} 的 |cFFFFFD00克里希安|r 研究.'
 
 L['bygone_elemental_note'] = '{npc:181221} 會在此區域任何一個 {npc:179007} 的位置重生'
+L['dominated_irregular_note'] = nil
 L['gaiagantic_note'] = '僅在 {npc:177958} 提供 {quest:64785} 每日任務的時候重生'
 L['misaligned_enforcer_note'] = '巡邏此區域並且會在其路徑終點消失'
 L['overcharged_vespoid_note'] = '在此區域作為任一蟲群的一部分重生'
