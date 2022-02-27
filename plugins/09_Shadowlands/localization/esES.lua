@@ -736,7 +736,7 @@ L['provis_cache'] = 'Alijo de Provis cerrado'
 L['provis_cache_note'] = [[
 Completa la misión diaria {quest:64717} que te da {npc:177958} al menos una vez.
 
-Usa el {item:187516} en las Forjas de los Primeros (las esferas) a lo largo de Zereth Mortis para conseguir {item:187728} x15 y combinarlas en el {item:187787} que contiene la llave.
+Usa el {item:187516} en las forjas de la zona para conseguir {item:187728} x15 y combinarlas en el {item:187787}. Este orbe tiene probabilidad de tener la llave.
 ]]
 L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
 L['prying_eye_discovery_note'] = 'Es más fácil de alcanzar cuando el volar esté desbloqueado.'
@@ -799,15 +799,16 @@ L['misaligned_enforcer_note'] = 'Aparece aquí. Patrulla la zona y entonces desa
 L['overcharged_vespoid_note'] = 'Puede aparecer como parte de una multitud de la zona.'
 L['runethief_xylora_note'] = 'Aparece en sigilo en la zona de Gracia del Peregrino.'
 
-L['proto_material_zone_chance'] = nil
-L['anima_charged_yolk_note'] = nil
-L['energized_firmament_note'] = nil
-L['honeycombed_lattice_note'] = nil
-L['incorporeal_sand_note'] = nil
-L['pollinated_extraction_note'] = nil
-L['serene_pigment_note'] = nil
-L['volatile_precursor_note'] = nil
-L['wayward_essence_note'] = nil
+local proto_area = 'Probabilidad de ser encontrado en las forjas alrededor de |cFFFFFD00%s|r.'
+L['proto_material_zone_chance'] = 'Probabilidad de ser encontrado en forjas seleccionadas por toda la zona.'
+L['anima_charged_yolk_note'] = 'Recoge {item:187728} de cualquier forja y combínalas para un {item:187787}, el cual tiene probabilidad de contener {item:187890}.'
+L['energized_firmament_note'] = string.format(proto_area, 'Cúspides Resonantes')
+L['honeycombed_lattice_note'] = string.format(proto_area, 'Precipicio del Zángano')
+L['incorporeal_sand_note'] = 'Probabilidad de ser encontrado en forjas en las áreas de desierto de la zona.'
+L['pollinated_extraction_note'] = string.format(proto_area, 'Verdor Indómito')
+L['serene_pigment_note'] = 'En una forja sobre la entrada a |cFFFFFD00Cuenca del Exilio|r. Puede necesitar varios intentos.'
+L['volatile_precursor_note'] = 'Está encima de la forja más pequeña. Puede necesitar varios intentos.'
+L['wayward_essence_note'] = 'En una forja flotante detrás de la |cFFFFFD00Cuenca del Exilio|r. Ponte encima de la hendidura para usar {item:187908}.'
 
 L['patient_bufonid_note'] = 'Progresa en la historia de Zereth Mortis hasta que {npc:180950} ofrezca la misión {quest:65727}. Completa las misiones cada día para atraer un {npc:185798} fuera del estanque.'
 L['patient_bufonid_note_day1'] = 'Recoge {item:190852} x15 de los Vespoide de la zona.'
@@ -826,8 +827,8 @@ L['options_icons_echoed_jiros'] = 'Jiro en Eco'
 L['options_icons_echoed_jiros_desc'] = 'Muestra dónde están los |cFFFFFD00Jiro en Eco|r que dan bufos.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Muestra dónde están los libros para el logro {achievement:15509}.'
-L['options_icons_proto_materials'] = nil
-L['options_icons_proto_materials_desc'] = nil
+L['options_icons_proto_materials'] = '{achievement:15229}'
+L['options_icons_proto_materials_desc'] = 'Muestra dónde están los materiales de protoforma raros para el logro {achievement:15229}.'
 L['options_icons_protoform_schematics'] = 'Esquemas de Protoforma'
 L['options_icons_protoform_schematics_desc'] = 'Muestra dónde están los esquemas de monturas y mascotas.'
 L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
