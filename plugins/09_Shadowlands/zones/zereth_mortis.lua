@@ -1412,7 +1412,7 @@ map.nodes[38855862] = Code({
     rewards = {Achievement({id = 15211, criteria = 52576})}
 }) -- Cipherclad
 
-map.nodes[48235959] = Code({
+map.nodes[50645692] = Code({
     id = 181290,
     rewards = {Achievement({id = 15211, criteria = 52569})},
     pois = {

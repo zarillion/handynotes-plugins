@@ -692,7 +692,7 @@ To entice {npc:180978} to the surface, an {item:187923} must be created.
 
 1. Fish up a {item:187662} from the nearby waters.
 
-2. Fish up a {item:187915} from the |cFFFFFD00Pungent Blobfish Cluster|r inside Coilfang Reservoir in Zangarmarsh. The pool is to the right when you enter the cavern.
+2. Fish up a {item:187915} from the |cFFFFFD00Pungent Blobfish Cluster|r inside Coilfang Reservoir in Zangarmarsh.
 
 3. Fish up a {item:187922} from the |cFFFFFD00Flipper Fish School|r near the Kelya's Grave flight point in Nazjatar.
 
