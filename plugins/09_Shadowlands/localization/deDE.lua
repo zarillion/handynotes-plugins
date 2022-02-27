@@ -689,7 +689,11 @@ L['feasting_note'] = 'Umrundet manchmal das Gebiet, bevor er zu dieser Stelle zu
 L['furidian_note'] = 'Aktiviere drei |cFFFFFD00Ermächtigter Schlüssel|r in dem Bereich, und entriegel dann den |cFFFFFD00Verdächtig wütender Tresor|r.'
 L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwenden {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
 L['gluttonous_overgrowth_note'] = 'Zerbrich alle in der Nähe befindlichen {npc:184048n}, um den den selten Gegner zu aktivieren.'
-L['helmix_note'] = '|cFFFF8C00Der Boden erzittert... Etwas gräbt sich unter der Oberfläche durch die Erde!|r'
+L['helmix_note'] = [[
+Töte {npc:179005} in dem Gebiet, bis das untere Emote erscheint.
+
+|cFFFF8C00Der Boden erzittert... Etwas gräbt sich unter der Oberfläche durch die Erde!|r
+]]
 L['hirukon_note'] = [[
 Um {npc:180978} an die Oberfläche zu locken, muss ein {item:187923} hergestellt werden.
 
@@ -791,7 +795,7 @@ L['echoed_jiro_note'] = 'Gebe {npc:181059}energie aus, um temporäre Verstärkun
 
 L['bygone_elemental_note'] = 'Ein {npc:181221} kann anstelle eines {npc:179007} in dem Gebiet erscheinen.'
 L['gaiagantic_note'] = 'Erscheint nur, wenn {npc:177958} die tägliche Quest {quest:64785} anbietet.'
-L['misaligned_enforcer_note'] = 'Patrouilliert das Gebiet und verschwindet am Ende seiner Route.'
+L['misaligned_enforcer_note'] = 'Erscheint hier und patrouilliert dann das Gebiet und verschwindet am Ende seiner Route.'
 L['overcharged_vespoid_note'] = 'Kann als Teil eines Schwarmes in der Gegend erscheinen.'
 L['runethief_xylora_note'] = 'Erscheint getarnt im Gebiet von Huld des Pilgers.'
 
