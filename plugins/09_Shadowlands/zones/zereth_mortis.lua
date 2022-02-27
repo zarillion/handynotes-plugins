@@ -1424,8 +1424,11 @@ map.nodes[69743354] = Nascii_({id = 184947, requires = CREATIAN_NE})
 ----------------------------- COMPLETING THE CODE -----------------------------
 -------------------------------------------------------------------------------
 
-local Code = Class('CodeCreature', Collectible,
-    {icon = 348545, group = ns.groups.CODE_CREATURE})
+local Code = Class('CodeCreature', Collectible, {
+    icon = 348545,
+    group = ns.groups.CODE_CREATURE,
+    requires = ns.requirement.Item(187909)
+})
 
 map.nodes[41436244] = Code({
     id = 181352,
@@ -1599,8 +1602,11 @@ map.nodes[64833364] = Tale({
 --------------------------- TRAVERSING THE SPHERES ----------------------------
 -------------------------------------------------------------------------------
 
-local Proto = Class('ProtoMaterial', ns.node.Collectible,
-    {group = ns.groups.PROTO_MATERIALS, icon = 838813})
+local Proto = Class('ProtoMaterial', ns.node.Collectible, {
+    icon = 838813,
+    group = ns.groups.PROTO_MATERIALS,
+    requires = ns.requirement.Item(187908)
+})
 
 map.nodes[36735353] = Proto({
     icon = 134580,
