@@ -808,7 +808,7 @@ L['incorporeal_sand_note'] = 'Peut être trouvé dans les forges des zones dése
 L['pollinated_extraction_note'] = string.format(proto_area, 'Verdure Indomptée')
 L['serene_pigment_note'] = 'Dans une forge au-dessus de l\'entrée du |cFFFFFD00	Creux de l’Exil|r. Peut nécessiter plusieurs essais.'
 L['volatile_precursor_note'] = 'Trouvé dans la petite forge au sommet. Peut nécessiter plusieurs essais.'
-L['wayward_essence_note'] = 'Dans une forge flottante derrière le |cFFFFFD00Creux de l’Exil|r. Placez-vous dans le renfoncement pour siphonner la forge.'
+L['wayward_essence_note'] = 'Difficile à atteindre sans voler; utilisez {spell:300728} ou {spell:111771}. Dans une forge flottante derrière le |cFFFFFD00Creux de l’Exil|r. Placez-vous dans le renfoncement pour siphonner la forge.'
 
 L['patient_bufonid_note'] = 'Progressez dans l\'histoire de Zereth Mortis jusqu\'à ce que {npc:180950} propose {quest:65727}. Complétez les quêtes chaque jour pour attirer le {npc:185798} hors de l\'étang.'
 L['patient_bufonid_note_day1'] = 'Récupérez 15x {item:190852} sur des Vespoïdes dans la zone.'
