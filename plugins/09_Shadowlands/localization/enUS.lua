@@ -784,7 +784,7 @@ L['echoed_jiro_note'] = 'Spend {npc:181059} energy to gain temporary buffs. Requ
 
 L['bygone_elemental_note'] = 'A {npc:181221} can spawn in place of any {npc:179007} in the area.'
 L['gaiagantic_note'] = 'Only spawns when {npc:177958} offers the {quest:64785} daily quest.'
-L['misaligned_enforcer_note'] = 'Patrols the area and then despawns at the end of his route.'
+L['misaligned_enforcer_note'] = 'Spawns here. Patrols the area and then despawns at the end of his route.'
 L['overcharged_vespoid_note'] = 'Can spawn as part of any swarm pack in the area.'
 L['runethief_xylora_note'] = 'Spawns stealthed in the Pilgrim\'s Grace area.'
 
