@@ -785,7 +785,7 @@ L['echoed_jiro_note'] = 'Gasta energia de {npc:181059} para ganar bufos temporal
 
 L['bygone_elemental_note'] = 'Un {npc:181221} puede aparecer en lugar de cualquier {npc:179007} de la zona.'
 L['gaiagantic_note'] = 'Sólo aparece cuando {npc:177958} te ofrece la misión diaria {quest:64785}.'
-L['misaligned_enforcer_note'] = 'Patrulla la zona y entonces desaparece cuando acaba su ruta.'
+L['misaligned_enforcer_note'] = 'Aparece aquí. Patrulla la zona y entonces desaparece cuando acaba su ruta.'
 L['overcharged_vespoid_note'] = 'Puede aparecer como parte de una multitud de la zona.'
 L['runethief_xylora_note'] = 'Aparece en sigilo en la zona de Gracia del Peregrino.'
 
