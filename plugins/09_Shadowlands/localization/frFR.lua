@@ -736,7 +736,7 @@ Pressez les quatre {npc:185390s} pour activer le téléporteur dans la salle cen
 L['provis_cache'] = 'Cache verrouillée de Provis'
 L['provis_cache_note'] = [[
 Accomplissez au moins une fois la quête journalière {quest:64717} de {npc:177958}.
-Utilisez le {item:187516} aux Forges des Progéniteurs (Sphères) dans Zereth Mortis pour obtenir 15x {item:187728} et combinez-les en l'{item:187787} qui peut contenir la clé.
+Utilisez le {item:187516} aux forges de la zone pour récupérer 15 {item:187728} et combinez-les en un {item:187787}. Cet orbe a une chance de contenir la clé.
 ]]
 L['prying_eye_discovery'] = 'Découverte d\'œil indiscret'
 L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol est déverrouillé.'
@@ -799,15 +799,16 @@ L['misaligned_enforcer_note'] = 'Apparaît ici. Patrouille la zone et disparaît
 L['overcharged_vespoid_note'] = 'Peut apparaître dans n\'importe quel essaim de la zone.'
 L['runethief_xylora_note'] = 'Apparaît camouflé à la Grâce du Pèlerin.'
 
-L['proto_material_zone_chance'] = nil
-L['anima_charged_yolk_note'] = nil
-L['energized_firmament_note'] = nil
-L['honeycombed_lattice_note'] = nil
-L['incorporeal_sand_note'] = nil
-L['pollinated_extraction_note'] = nil
-L['serene_pigment_note'] = nil
-L['volatile_precursor_note'] = nil
-L['wayward_essence_note'] = nil
+local proto_area = 'Peut être trouvé dans les forges autour de la zone |cFFFFFD00%s|r.'
+L['proto_material_zone_chance'] = 'Peut être trouvé dans certaines forges de la zone.'
+L['anima_charged_yolk_note'] = 'Récupérez des {item:187728} provenant de n\'importe quelle forge et combinez-les en un {item:187787}, qui a une chance de contenir un {item:187890}.'
+L['energized_firmament_note'] = string.format(proto_area, 'Pics Résonnants')
+L['honeycombed_lattice_note'] = string.format(proto_area, 'Précipice Bourdonnant')
+L['incorporeal_sand_note'] = 'Peut être trouvé dans les forges des zones désertiques de la zone.'
+L['pollinated_extraction_note'] = string.format(proto_area, 'Verdure Indomptée')
+L['serene_pigment_note'] = 'Dans une forge au-dessus de l\'entrée du |cFFFFFD00	Creux de l’Exil|r. Peut nécessiter plusieurs essais.'
+L['volatile_precursor_note'] = 'Trouvé dans la petite forge au sommet. Peut nécessiter plusieurs essais.'
+L['wayward_essence_note'] = 'Dans une forge flottante derrière le |cFFFFFD00Creux de l’Exil|r. Placez-vous dans le renfoncement pour siphonner la forge.'
 
 L['patient_bufonid_note'] = 'Progressez dans l\'histoire de Zereth Mortis jusqu\'à ce que {npc:180950} propose {quest:65727}. Complétez les quêtes chaque jour pour attirer le {npc:185798} hors de l\'étang.'
 L['patient_bufonid_note_day1'] = 'Récupérez 15x {item:190852} sur des Vespoïdes dans la zone.'
@@ -826,8 +827,8 @@ L['options_icons_echoed_jiros'] = 'Jiro sonore'
 L['options_icons_echoed_jiros_desc'] = 'Afficher les emplacements des buffs d\'offrandes des |cFFFFFD00Jiros sonores|r.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Afficher les emplacements des tomes pour le haut-fait {achievement:15509}.'
-L['options_icons_proto_materials'] = nil
-L['options_icons_proto_materials_desc'] = nil
+L['options_icons_proto_materials'] = '{achievement:15229}'
+L['options_icons_proto_materials_desc'] = 'Afficher les emplacements des matériaux de protoforme rares pour le haut-fait {achievement:15229}.'
 L['options_icons_protoform_schematics'] = 'Schémas de protoforme'
 L['options_icons_protoform_schematics_desc'] = 'Afficher les emplacements des schémas de montures et familiers.'
 L['options_icons_puzzle_caches'] = 'Caches de la création (Puzzle)'
