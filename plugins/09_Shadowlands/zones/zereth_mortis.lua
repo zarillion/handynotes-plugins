@@ -218,8 +218,8 @@ map.nodes[52612503] = Rare({
 map.nodes[58186837] = Rare({
     id = 183748,
     quest = 65551,
+    note = L['helmix_note'],
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
-    sublabel = L['helmix_emote'],
     rewards = {
         Achievement({id = 15391, criteria = 53048}), -- Adventurer of Zereth Mortis
         Transmog({item = 189931, slot = L['leather']}), -- Annelid's Hinge Wrappings

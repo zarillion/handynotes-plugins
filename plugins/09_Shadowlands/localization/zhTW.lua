@@ -682,7 +682,7 @@ L['feasting_note'] = '有時候在回到此點前會在附近繞行'
 L['furidian_note'] = '在此區域啟動三個 |cFFFFFD00強化的鑰匙|r 就會解鎖 |cFFFFFD00可疑的憤怒儲藏庫|r.'
 L['garudeon_note'] = '從附近的區域收集 {npc:183562} 並且使用 {spell:362655} 來餵食 {npc:183554}. 當三個都被餵食後, {npc:180924} 會啟動.'
 L['gluttonous_overgrowth_note'] = '摧毀所有附近的 {npc:184048} 來啟動稀有'
-L['helmix_emote'] = nil
+L['helmix_note'] = nil
 L['hirukon_note'] = [[
   要引誘 {npc:180978} 到水面, 需要製造ㄩ一個 {item:187923}.
 

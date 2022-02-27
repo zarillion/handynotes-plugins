@@ -683,7 +683,7 @@ L['feasting_note'] = 'A veces rodeará la zona antes de volver a este sitio.'
 L['furidian_note'] = 'Activa tres |cFFFFFD00Llave Potenciada|r de la zona, y desbloquea la |cFFFFFD00Cámara Sospechosamente Enfadada|r.'
 L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
 L['gluttonous_overgrowth_note'] = 'Rompe todas las {npc:184048} cercanas para activar la {npc:178778}.'
-L['helmix_emote'] = '|cFFFF8C00El suelo vibra... ¡Hay algo bajo la superfície!|r'
+L['helmix_note'] = '|cFFFF8C00El suelo vibra... ¡Hay algo bajo la superfície!|r'
 L['hirukon_note'] = [[
 Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
 

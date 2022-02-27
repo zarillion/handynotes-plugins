@@ -689,7 +689,7 @@ L['feasting_note'] = 'Umrundet manchmal das Gebiet, bevor er zu dieser Stelle zu
 L['furidian_note'] = 'Aktiviere drei |cFFFFFD00Ermächtigter Schlüssel|r in dem Bereich, und entriegel dann den |cFFFFFD00Verdächtig wütender Tresor|r.'
 L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwenden {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
 L['gluttonous_overgrowth_note'] = 'Zerbrich alle in der Nähe befindlichen {npc:184048n}, um den den selten Gegner zu aktivieren.'
-L['helmix_emote'] = '|cFFFF8C00Der Boden erzittert... Etwas gräbt sich unter der Oberfläche durch die Erde!|r'
+L['helmix_note'] = '|cFFFF8C00Der Boden erzittert... Etwas gräbt sich unter der Oberfläche durch die Erde!|r'
 L['hirukon_note'] = [[
 Um {npc:180978} an die Oberfläche zu locken, muss ein {item:187923} hergestellt werden.
 
