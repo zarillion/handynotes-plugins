@@ -683,7 +683,11 @@ L['feasting_note'] = 'A veces rodeará la zona antes de volver a este sitio.'
 L['furidian_note'] = 'Activa tres |cFFFFFD00Llave Potenciada|r de la zona, y desbloquea la |cFFFFFD00Cámara Sospechosamente Enfadada|r.'
 L['garudeon_note'] = 'Recoge varios {npc:183562} de los alrededores y usa {spell:362655} para alimentar a los {npc:183554}. Cuando los tres estén alimentados, se activará {npc:180924}.'
 L['gluttonous_overgrowth_note'] = 'Rompe todas las {npc:184048} cercanas para activar la {npc:178778}.'
-L['helmix_note'] = '|cFFFF8C00El suelo vibra... ¡Hay algo bajo la superfície!|r'
+L['helmix_note'] = [[
+Mata {npc:179005} de la zona hasta que aparezca el siguiente mensaje.
+
+|cFFFF8C00El suelo vibra... ¡Hay algo bajo la superfície!|r
+]]
 L['hirukon_note'] = [[
 Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
 
@@ -729,7 +733,11 @@ Pulsa los cuatro {npc:185390} para activar el teleportador del centro de la sala
 ]]
 
 L['provis_cache'] = 'Alijo de Provis cerrado'
-L['provis_cache_note'] = nil
+L['provis_cache_note'] = [[
+Completa la misión diaria {quest:64717} que te da {npc:177958} al menos una vez.
+
+Usa el {item:187516} en las Forjas de los Primeros (las esferas) a lo largo de Zereth Mortis para conseguir {item:187728} x15 y combinarlas en el {item:187787} que contiene la llave.
+]]
 L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
 L['prying_eye_discovery_note'] = 'Es más fácil de alcanzar cuando el volar esté desbloqueado.'
 L['pulp_covered_relic'] = 'Reliquia Cubierta de Pulpa'
