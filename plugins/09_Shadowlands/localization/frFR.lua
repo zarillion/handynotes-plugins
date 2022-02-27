@@ -799,6 +799,16 @@ L['misaligned_enforcer_note'] = 'Apparaît ici. Patrouille la zone et disparaît
 L['overcharged_vespoid_note'] = 'Peut apparaître dans n\'importe quel essaim de la zone.'
 L['runethief_xylora_note'] = 'Apparaît camouflé à la Grâce du Pèlerin.'
 
+L['proto_material_zone_chance'] = nil
+L['anima_charged_yolk_note'] = nil
+L['energized_firmament_note'] = nil
+L['honeycombed_lattice_note'] = nil
+L['incorporeal_sand_note'] = nil
+L['pollinated_extraction_note'] = nil
+L['serene_pigment_note'] = nil
+L['volatile_precursor_note'] = nil
+L['wayward_essence_note'] = nil
+
 L['patient_bufonid_note'] = 'Progressez dans l\'histoire de Zereth Mortis jusqu\'à ce que {npc:180950} propose {quest:65727}. Complétez les quêtes chaque jour pour attirer le {npc:185798} hors de l\'étang.'
 L['patient_bufonid_note_day1'] = 'Récupérez 15x {item:190852} sur des Vespoïdes dans la zone.'
 L['patient_bufonid_note_day2'] = 'Achetez 30x {item:172053} à l\'Hôtel des Ventes.'
@@ -816,6 +826,8 @@ L['options_icons_echoed_jiros'] = 'Jiro sonore'
 L['options_icons_echoed_jiros_desc'] = 'Afficher les emplacements des buffs d\'offrandes des |cFFFFFD00Jiros sonores|r.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Afficher les emplacements des tomes pour le haut-fait {achievement:15509}.'
+L['options_icons_proto_materials'] = nil
+L['options_icons_proto_materials_desc'] = nil
 L['options_icons_protoform_schematics'] = 'Schémas de protoforme'
 L['options_icons_protoform_schematics_desc'] = 'Afficher les emplacements des schémas de montures et familiers.'
 L['options_icons_puzzle_caches'] = 'Caches de la création (Puzzle)'

@@ -735,7 +735,7 @@ L['provis_cache'] = 'Locked Provis Cache'
 L['provis_cache_note'] = [[
 Complete the {quest:64717} daily quest from {npc:177958} at least once.
 
-Use the {item:187516} at Progenitor Forges (Spheres) throughout Zereth Mortis to obtain 15x {item:187728} and combine these into the {item:187787} that can contain the key.
+Use {item:187516} at forges across the zone to collect 15 {item:187728} and combine them into an {item:187787}. This orb has a chance to contain the key.
 ]]
 L['prying_eye_discovery'] = 'Prying Eye Discovery'
 L['prying_eye_discovery_note'] = 'Easier to reach once flying is unlocked.'
@@ -798,6 +798,17 @@ L['misaligned_enforcer_note'] = 'Spawns here. Patrols the area and then despawns
 L['overcharged_vespoid_note'] = 'Can spawn as part of any swarm pack in the area.'
 L['runethief_xylora_note'] = 'Spawns stealthed in the Pilgrim\'s Grace area.'
 
+local proto_area = 'Chance to be found in forges around the |cFFFFFD00%s|r.'
+L['proto_material_zone_chance'] = 'Chance to be found in select forges across the zone.'
+L['anima_charged_yolk_note'] = 'Collect {item:187728} from any forge and combine them into an {item:187787}, which has a chance to contain an {item:187890}.'
+L['energized_firmament_note'] = string.format(proto_area, 'Resonant Peaks')
+L['honeycombed_lattice_note'] = string.format(proto_area, 'Droning Precipice')
+L['incorporeal_sand_note'] = 'Chance to be found in forges in the desert areas of the zone.'
+L['pollinated_extraction_note'] = string.format(proto_area, 'Untamed Verdure')
+L['serene_pigment_note'] = 'In a forge above the entrance to |cFFFFFD00Exile\'s Hollow|r. May require multiple tries.'
+L['volatile_precursor_note'] = 'Found in the smaller forge on top. May require multiple tries.'
+L['wayward_essence_note'] = 'In a floating forge behind |cFFFFFD00Exile\'s Hollow|r. Stand in the indent to tap the forge.'
+
 L['patient_bufonid_note'] = 'Progress in the Zereth Mortis story until {npc:180950} offers {quest:65727}. Complete the quests each day to lure the {npc:185798} out of the pond.'
 L['patient_bufonid_note_day1'] = 'Collect 15x {item:190852} from Vespoid in the zone.'
 L['patient_bufonid_note_day2'] = 'Purchase 30x {item:172053} from the Auction House.'
@@ -815,6 +826,8 @@ L['options_icons_echoed_jiros'] = 'Echoed Jiro'
 L['options_icons_echoed_jiros_desc'] = 'Display locations of |cFFFFFD00Echoed Jiro|r offering buffs.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Display tale locations for the {achievement:15509} achievement.'
+L['options_icons_proto_materials'] = '{achievement:15229}'
+L['options_icons_proto_materials_desc'] = 'Display rare protoform material locations for the {achievement:15229} achievement.'
 L['options_icons_protoform_schematics'] = 'Protoform Schematics'
 L['options_icons_protoform_schematics_desc'] = 'Display locations of mount and pet schematics.'
 L['options_icons_puzzle_caches'] = 'Puzzle Caches'

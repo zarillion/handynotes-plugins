@@ -790,6 +790,16 @@ L['misaligned_enforcer_note'] = '巡邏此區域並且會在其路徑終點消�
 L['overcharged_vespoid_note'] = '在此區域作為任一蟲群的一部分重生'
 L['runethief_xylora_note'] = '在朝聖者之澤區域潛行的重生'
 
+L['proto_material_zone_chance'] = nil
+L['anima_charged_yolk_note'] = nil
+L['energized_firmament_note'] = nil
+L['honeycombed_lattice_note'] = nil
+L['incorporeal_sand_note'] = nil
+L['pollinated_extraction_note'] = nil
+L['serene_pigment_note'] = nil
+L['volatile_precursor_note'] = nil
+L['wayward_essence_note'] = nil
+
 L['patient_bufonid_note'] = '推進澤瑞斯莫提斯的主線任務直到 {npc:180950} 提供 {quest:65727}. 每天完成任務來將 {npc:185798} 引誘出池塘'
 L['patient_bufonid_note_day1'] = '從此區域的原蜂收集15個 {item:190852}'
 L['patient_bufonid_note_day2'] = '從拍賣場購買30個 {item:172053}'
@@ -807,6 +817,8 @@ L['options_icons_echoed_jiros'] = '回響的機諾'
 L['options_icons_echoed_jiros_desc'] = '顯示提供增益的 |cFFFFFD00回響機諾|r 位置.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = '顯示 {achievement:15509} 成就所需的傳說位置'
+L['options_icons_proto_materials'] = nil
+L['options_icons_proto_materials_desc'] = nil
 L['options_icons_protoform_schematics'] = '結構圖'
 L['options_icons_protoform_schematics_desc'] = '顯示坐騎和小寵物結構圖的位置'
 L['options_icons_puzzle_caches'] = '謎題箱'

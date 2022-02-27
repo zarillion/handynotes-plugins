@@ -790,6 +790,16 @@ L['misaligned_enforcer_note'] = 'Появляется здесь. Патрули
 L['overcharged_vespoid_note'] = 'Может появиться как часть любой стаи в этом районе.'
 L['runethief_xylora_note'] = 'Появляется скрытно в районе Приюта Пилигрима.'
 
+L['proto_material_zone_chance'] = nil
+L['anima_charged_yolk_note'] = nil
+L['energized_firmament_note'] = nil
+L['honeycombed_lattice_note'] = nil
+L['incorporeal_sand_note'] = nil
+L['pollinated_extraction_note'] = nil
+L['serene_pigment_note'] = nil
+L['volatile_precursor_note'] = nil
+L['wayward_essence_note'] = nil
+
 L['patient_bufonid_note'] = 'Продвигайтесь по сюжету Зерет Мортис, пока {npc:180950} не предложит {quest:65727}. Выполняйте задания каждый день, чтобы выманить {npc:185798} из пруда.'
 L['patient_bufonid_note_day1'] = 'Соберите 15x {item:190852} из Веспоидов в локации.'
 L['patient_bufonid_note_day2'] = 'Купите 30x {item:172053} на аукционе.'
@@ -807,6 +817,8 @@ L['options_icons_echoed_jiros'] = 'Вторящий Джиро'
 L['options_icons_echoed_jiros_desc'] = 'Показать места, где |cFFFFFFD0Вторящие Джиро|r предлагают баффы.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Отображение истории локации для достижения {achievement:15509}.'
+L['options_icons_proto_materials'] = nil
+L['options_icons_proto_materials_desc'] = nil
 L['options_icons_protoform_schematics'] = 'Схемы протосинтеза'
 L['options_icons_protoform_schematics_desc'] = 'Отображать расположение схем на маунтов и питомцев.'
 L['options_icons_puzzle_caches'] = 'Тайники с головоломками'

@@ -798,6 +798,16 @@ L['misaligned_enforcer_note'] = '在此刷新，巡逻该地区，然后在路�
 L['overcharged_vespoid_note'] = '可以代替区域内任何群体的一部分刷新。'
 L['runethief_xylora_note'] = '朝圣者的恩典区域内潜伏刷新。'
 
+L['proto_material_zone_chance'] = nil
+L['anima_charged_yolk_note'] = nil
+L['energized_firmament_note'] = nil
+L['honeycombed_lattice_note'] = nil
+L['incorporeal_sand_note'] = nil
+L['pollinated_extraction_note'] = nil
+L['serene_pigment_note'] = nil
+L['volatile_precursor_note'] = nil
+L['wayward_essence_note'] = nil
+
 L['patient_bufonid_note'] = '扎雷殁提斯故事的进展直到 {npc:180950} 提供 {quest:65727}。每天完成任务，将 {npc:185798} 引出池塘。'
 L['patient_bufonid_note_day1'] = '从区域内的元蜂收集15个 {item:190852}。'
 L['patient_bufonid_note_day2'] = '从拍卖行购买30个 {item:172053}。'
@@ -815,6 +825,8 @@ L['options_icons_echoed_jiros'] = '回声机若'
 L['options_icons_echoed_jiros_desc'] = '显示 |cFFFFFD00回声机若|r 提供增益的位置。'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = '显示 {achievement:15509} 成就中传说的位置。'
+L['options_icons_proto_materials'] = nil
+L['options_icons_proto_materials_desc'] = nil
 L['options_icons_protoform_schematics'] = '原生体结构图'
 L['options_icons_protoform_schematics_desc'] = '显示坐骑和宠物结构图的位置。'
 L['options_icons_puzzle_caches'] = '谜题宝箱'

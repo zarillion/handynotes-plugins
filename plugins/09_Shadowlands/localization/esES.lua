@@ -799,6 +799,16 @@ L['misaligned_enforcer_note'] = 'Aparece aquí. Patrulla la zona y entonces desa
 L['overcharged_vespoid_note'] = 'Puede aparecer como parte de una multitud de la zona.'
 L['runethief_xylora_note'] = 'Aparece en sigilo en la zona de Gracia del Peregrino.'
 
+L['proto_material_zone_chance'] = nil
+L['anima_charged_yolk_note'] = nil
+L['energized_firmament_note'] = nil
+L['honeycombed_lattice_note'] = nil
+L['incorporeal_sand_note'] = nil
+L['pollinated_extraction_note'] = nil
+L['serene_pigment_note'] = nil
+L['volatile_precursor_note'] = nil
+L['wayward_essence_note'] = nil
+
 L['patient_bufonid_note'] = 'Progresa en la historia de Zereth Mortis hasta que {npc:180950} ofrezca la misión {quest:65727}. Completa las misiones cada día para atraer un {npc:185798} fuera del estanque.'
 L['patient_bufonid_note_day1'] = 'Recoge {item:190852} x15 de los Vespoide de la zona.'
 L['patient_bufonid_note_day2'] = 'Compra {item:172053} x30 de la Casa de Subastas.'
@@ -816,6 +826,8 @@ L['options_icons_echoed_jiros'] = 'Jiro en Eco'
 L['options_icons_echoed_jiros_desc'] = 'Muestra dónde están los |cFFFFFD00Jiro en Eco|r que dan bufos.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Muestra dónde están los libros para el logro {achievement:15509}.'
+L['options_icons_proto_materials'] = nil
+L['options_icons_proto_materials_desc'] = nil
 L['options_icons_protoform_schematics'] = 'Esquemas de Protoforma'
 L['options_icons_protoform_schematics_desc'] = 'Muestra dónde están los esquemas de monturas y mascotas.'
 L['options_icons_puzzle_caches'] = 'Alijos Puzzles'

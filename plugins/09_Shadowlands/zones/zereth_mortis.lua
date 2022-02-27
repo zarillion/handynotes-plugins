@@ -1585,6 +1585,101 @@ map.nodes[64833364] = Tale({
 })
 
 -------------------------------------------------------------------------------
+--------------------------- TRAVERSING THE SPHERES ----------------------------
+-------------------------------------------------------------------------------
+
+local Proto = Class('ProtoMaterial', ns.node.Collectible,
+    {group = ns.groups.PROTO_MATERIALS, icon = 838813})
+
+map.nodes[36735353] = Proto({
+    icon = 134580,
+    note = L['anima_charged_yolk_note'],
+    rewards = {Achievement({id = 15229, criteria = 52612})}
+}) -- Anima-charged Yolk
+
+map.nodes[50007400] = Proto({
+    icon = 132859,
+    note = L['proto_material_zone_chance'],
+    rewards = {Achievement({id = 15229, criteria = 52614})},
+    pois = {
+        POI({
+            45507301, 46296840, 50007400, 51008500, 50837051, 52005600,
+            53008400, 63003100
+        })
+    }
+}) -- Empyrean Essence
+
+map.nodes[50662947] = Proto({
+    icon = 897131,
+    note = L['energized_firmament_note'],
+    rewards = {Achievement({id = 15229, criteria = 52617})},
+    pois = {
+        POI({
+            48143016, 48842748, 49143379, 49192978, 49982844, 49992843,
+            50452709, 50662947, 50842956, 51102949, 51292772, 51933010,
+            52972907, 53133097
+        })
+    }
+}) -- Energized Firmament
+
+map.nodes[63446035] = Proto({
+    icon = 3066347,
+    note = L['honeycombed_lattice_note'],
+    rewards = {Achievement({id = 15229, criteria = 52611})},
+    pois = {POI({62285726, 62605728, 63446035, 63835714, 64255914, 64256046})}
+}) -- Honeycombed Lattice
+
+map.nodes[57802759] = Proto({
+    icon = 134382,
+    note = L['incorporeal_sand_note'],
+    rewards = {Achievement({id = 15229, criteria = 52615})},
+    pois = {
+        POI({
+            39193824, 41032531, 41934267, 42183341, 42932896, 43062981,
+            43122789, 44813812, 45042846, 45132824, 50314468, 50474694,
+            56833592, 57205120, 57802759, 58132516, 59082436, 59272455,
+            59392534, 60233539, 62913145, 67422871, 69013318
+        })
+    }
+}) -- Incorporeal Sand
+
+map.nodes[59507360] = Proto({
+    icon = 613602,
+    note = L['pollinated_extraction_note'],
+    rewards = {Achievement({id = 15229, criteria = 52610})},
+    pois = {POI({56907630, 58607790, 59507360, 60717617, 61107330, 62826772})}
+}) -- Pollinated Extraction
+
+map.nodes[34324669] = Proto({
+    icon = 463521,
+    note = L['serene_pigment_note'],
+    rewards = {Achievement({id = 15229, criteria = 53058})}
+}) -- Serene Pigment
+
+map.nodes[46306815] = Proto({
+    icon = 2065561,
+    note = L['proto_material_zone_chance'],
+    rewards = {Achievement({id = 15229, criteria = 52613})},
+    pois = {
+        POI({
+            35404428, 37397020, 45098347, 45483140, 46306815, 49037071, 50017243
+        })
+    }
+}) -- Unstable Agitant
+
+map.nodes[48365949] = Proto({
+    icon = 796637,
+    note = L['volatile_precursor_note'],
+    rewards = {Achievement({id = 15229, criteria = 52616})}
+}) -- Volatile Precursor
+
+map.nodes[32814036] = Proto({
+    icon = 132837,
+    note = L['wayward_essence_note'],
+    rewards = {Achievement({id = 15229, criteria = 53057})}
+}) -- Wayward Essence
+
+-------------------------------------------------------------------------------
 ------------------------------- PATIENT BUFONID -------------------------------
 -------------------------------------------------------------------------------
 
