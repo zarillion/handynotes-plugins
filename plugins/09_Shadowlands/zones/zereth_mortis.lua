@@ -462,6 +462,7 @@ map.nodes[63202603] = Rare({
     quest = {65585, 65586, 65587},
     questCount = true,
     note = L['dune_dominance_note'],
+    rlabel = ns.status.LightBlue('+15 ' .. L['rep']),
     rewards = {
         Achievement({
             id = 15392,
@@ -905,10 +906,10 @@ local CYPHER_BOUND = Cache({label = L['cache_cypher_bound']})
 local DISCARDED_AUTOMA = Cache({label = L['cache_discarded_automa']})
 local FORGOTTEN_VAULT = Cache({label = L['cache_forgotten_vault']})
 local MAWSWORN_SUPPLY = Cache({
-    label = L['cache_mawsworn_supply']
-    -- rewards = {
-    --     Mount({item = 190766, id = 1585}) -- Spectral Mawrat's Tail
-    -- } -- In the journal, but don't want to list it until the drop is confirmed
+    label = L['cache_mawsworn_supply'],
+    rewards = {
+        Mount({item = 190766, id = 1585}) -- Spectral Mawrat's Tail
+    }
 })
 local TARACHNID_EGGS = Cache({label = L['cache_tarachnid_eggs']})
 
