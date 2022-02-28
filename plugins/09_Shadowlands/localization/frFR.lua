@@ -694,7 +694,7 @@ Pour attirer {npc:180978} à la surface, il est nécessaire de créer un {item:1
 
 1. Pêchez une {item:187662} dans les eaux voisines.
 
-2. Pêchez un {item:187915} dans l'|cFFFFFD00Amas de Poissons-blobs âcres|r à l'intérieur du Réservoir de Glissecroc au Marécage de Zangar. Le bassin se trouve à droite lorsque vous entrez dans la caverne.
+2. Pêchez un {item:187915} dans l'|cFFFFFD00Amas de Poissons-blobs âcres|r à l'intérieur du Réservoir de Glissecroc au Marécage de Zangar.
 
 3. Pêchez un {item:187922} dans le |cFFFFFD00Banc de Nectalies|r près du point de vol de la Tombe de Kelya à Nazjatar.
 
