@@ -689,7 +689,7 @@ L['hirukon_note'] = [[
 
 1. Выловите {item:187662} в близлежащих водах.
 
-2. Выловите {item:187915} из |cFFFFFD00косяка едких рыб-капель|r в Резервуаре Кривого Клыка в Зангартопи. Косяк находится справа от входа в пещеру.
+2. Выловите {item:187915} из |cFFFFFD00косяка едких рыб-капель|r в Резервуаре Кривого Клыка в Зангартопи.
 
 3. Выловите {item:187922} из |cFFFFFD00стаи плавунцов|r возле точки полета Могила Келии в Назжатаре.
 
@@ -730,7 +730,7 @@ L['undulating_foliage_note'] = [[
 L['provis_cache'] = 'Запертый тайник провиза'
 L['provis_cache_note'] = [[
 Выполните ежедневное задание {quest:64717} у {npc:177958} хотя бы один раз.
-Используйте {item:187516} на Истощенные Кузни (Сферы в земле) по всему Зерет Мортис, чтобы получить 15 {item:187728} и объединить их в {item:187787}, который может содержать ключ.
+Используйте {item:187516} на кузницах во всей локации, чтобы собрать 15 {item:187728} и объединить их в {item:187787}. Эта сфера может содержать ключ.
 ]]
 L['prying_eye_discovery'] = 'Находка любопытных'
 L['prying_eye_discovery_note'] = 'Легче добраться, когда полеты разблокированы.'
@@ -788,21 +788,22 @@ L['concordance_note'] = 'Прочитайте каждый конкорданс,
 L['echoed_jiro_note'] = 'Потратьте энергию у {npc:181059}, чтобы получить временные положительные эффекты. Требуется исследование |cFFFFFD00Созидайский|r у {npc:181397}'
 
 L['bygone_elemental_note'] = '{npc:181221} может появиться вместо любого {npc:179007} в этом районе.'
-L['dominated_irregular_note'] = nil
+L['dominated_irregular_note'] = '{npc:184819} может появиться вместо любого {npc:183184} в этом районе.'
 L['gaiagantic_note'] = 'Появляется только тогда, когда {npc:177958} предлагает ежедневные задание {quest:64785}.'
 L['misaligned_enforcer_note'] = 'Появляется здесь. Патрулирует территорию, а затем исчезает в конце своего маршрута.'
 L['overcharged_vespoid_note'] = 'Может появиться как часть любой стаи в этом районе.'
 L['runethief_xylora_note'] = 'Появляется скрытно в районе Приюта Пилигрима.'
 
-L['proto_material_zone_chance'] = nil
-L['anima_charged_yolk_note'] = nil
+local proto_area = 'Шанс найти в кузницах вокруг |cFFFFFD00%s|r.'
+L['proto_material_zone_chance'] = 'Шанс найти в избранных кузницах по всей локации.'
+L['anima_charged_yolk_note'] = 'Соберите {item:187728} из любой кузницы и объедините их в {item:187787}, который может содержать {item:187890}.'
 L['energized_firmament_note'] = nil
 L['honeycombed_lattice_note'] = nil
-L['incorporeal_sand_note'] = nil
+L['incorporeal_sand_note'] = 'Шанс найти в кузницах в пустынных районах локации.'
 L['pollinated_extraction_note'] = nil
-L['serene_pigment_note'] = nil
-L['volatile_precursor_note'] = nil
-L['wayward_essence_note'] = nil
+L['serene_pigment_note'] = 'В кузнице над входом в |cFFFFFD00Низину Изгнанника|r. Может потребоваться несколько попыток.'
+L['volatile_precursor_note'] = 'Находится в маленькой кузнице наверху. Может потребоваться несколько попыток.'
+L['wayward_essence_note'] = 'В висящей в воздухе кузнице позади |cFFFFFD00Низины Изгнанника|r. Встаньте в углубление, чтобы коснуться кузницы.'
 
 L['patient_bufonid_note'] = 'Продвигайтесь по сюжету Зерет Мортис, пока {npc:180950} не предложит {quest:65727}. Выполняйте задания каждый день, чтобы выманить {npc:185798} из пруда.'
 L['patient_bufonid_note_day1'] = 'Соберите 15x {item:190852} из Веспоидов в локации.'
@@ -821,8 +822,8 @@ L['options_icons_echoed_jiros'] = 'Вторящий Джиро'
 L['options_icons_echoed_jiros_desc'] = 'Показать места, где |cFFFFFFD0Вторящие Джиро|r предлагают баффы.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Отображение истории локации для достижения {achievement:15509}.'
-L['options_icons_proto_materials'] = nil
-L['options_icons_proto_materials_desc'] = nil
+L['options_icons_proto_materials'] = '{achievement:15229}'
+L['options_icons_proto_materials_desc'] = 'Отображение местоположений редких материалов прототипов для достижения {achievement:15229}.'
 L['options_icons_protoform_schematics'] = 'Схемы протосинтеза'
 L['options_icons_protoform_schematics_desc'] = 'Отображать расположение схем на маунтов и питомцев.'
 L['options_icons_puzzle_caches'] = 'Тайники с головоломками'
