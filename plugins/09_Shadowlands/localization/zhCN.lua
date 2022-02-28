@@ -692,7 +692,7 @@ L['hirukon_note'] = [[
 
 1. 在周围水域钓一个 {item:187662}。
 
-2. 从赞加沼泽的盘牙水库 |cFFFFFD00刺鼻的团豚群|r 内钓一个 {item:187915}。渔点在进入洞穴时的右侧。
+2. 从赞加沼泽的盘牙水库 |cFFFFFD00刺鼻的团豚群|r 内钓一个 {item:187915}。
 
 3. 从纳沙塔尔的凯尔雅之墓飞行点附近的 |cFFFFFD00跳跳鱼群|r 内钓一个 {item:187922}。
 
@@ -735,7 +735,7 @@ L['provis_cache'] = '锁住的供给扇区宝箱'
 L['provis_cache_note'] = [[
 完成 {npc:177958} 的 {quest:64717} 日常任务至少一次。
 
-在扎雷殁提斯各处的元尊锻炉（球体）使用 {item:187516} 获得15个 {item:187728} 并组合为 {item:187787} 其中可能包含钥匙。
+在各处的锻炉使用 {item:187516} 收集15个 {item:187728} 并组合为 {item:187787}。宝珠中可能包含钥匙。
 ]]
 L['prying_eye_discovery'] = '窥探之眼的发现'
 L['prying_eye_discovery_note'] = '飞行解锁后容易到达。'
@@ -793,21 +793,22 @@ L['concordance_note'] = '阅读每个索引解锁位于|cFFFFFD00流亡洞穴|r 
 L['echoed_jiro_note'] = '耗费 {npc:181059} 能量获得临时增益。需要 {npc:181397} 的 |cFFFFFD00创音词|r 研究。'
 
 L['bygone_elemental_note'] = '{npc:181221} 可以代替区域内的任何 {npc:179007} 位置刷新。'
-L['dominated_irregular_note'] = nil
+L['dominated_irregular_note'] = '{npc:184819} 可以代替该区域内的任何 {npc:183184} 刷新。'
 L['gaiagantic_note'] = '只在 {npc:177958} 提供 {quest:64785} 日常任务时刷新。'
 L['misaligned_enforcer_note'] = '在此刷新，巡逻该地区，然后在路线尽头消失。'
 L['overcharged_vespoid_note'] = '可以代替区域内任何群体的一部分刷新。'
 L['runethief_xylora_note'] = '朝圣者的恩典区域内潜伏刷新。'
 
-L['proto_material_zone_chance'] = nil
-L['anima_charged_yolk_note'] = nil
-L['energized_firmament_note'] = nil
-L['honeycombed_lattice_note'] = nil
-L['incorporeal_sand_note'] = nil
-L['pollinated_extraction_note'] = nil
-L['serene_pigment_note'] = nil
-L['volatile_precursor_note'] = nil
-L['wayward_essence_note'] = nil
+local proto_area = '有机会在周围的锻炉中找到 |cFFFFFD00%s|r。'
+L['proto_material_zone_chance'] = '有机会在该区域的精选锻炉中找到。'
+L['anima_charged_yolk_note'] = '收集 {item:187728} 从任意锻炉并组合它们为一个 {item:187787}，有机会包含一个 {item:187890}。'
+L['energized_firmament_note'] = string.format(proto_area, '共振群山')
+L['honeycombed_lattice_note'] = string.format(proto_area, '蜂鸣悬崖')
+L['incorporeal_sand_note'] = '有机会在该地区的沙漠区域的锻炉中找到。'
+L['pollinated_extraction_note'] = string.format(proto_area, '不羁芳绿')
+L['serene_pigment_note'] = '在 |cFFFFFD00流亡洞穴|r 入口上方的锻炉中。可能需要多次尝试。'
+L['volatile_precursor_note'] = '在顶部的较小锻炉中找到。可能需要多次尝试。'
+L['wayward_essence_note'] = '|cFFFFFD00流亡洞穴|r 后面浮空锻炉中。需站在锻炉凹处。'
 
 L['patient_bufonid_note'] = '扎雷殁提斯故事的进展直到 {npc:180950} 提供 {quest:65727}。每天完成任务，将 {npc:185798} 引出池塘。'
 L['patient_bufonid_note_day1'] = '从区域内的元蜂收集15个 {item:190852}。'
@@ -826,8 +827,8 @@ L['options_icons_echoed_jiros'] = '回声机若'
 L['options_icons_echoed_jiros_desc'] = '显示 |cFFFFFD00回声机若|r 提供增益的位置。'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = '显示 {achievement:15509} 成就中传说的位置。'
-L['options_icons_proto_materials'] = nil
-L['options_icons_proto_materials_desc'] = nil
+L['options_icons_proto_materials'] = '{achievement:15229}'
+L['options_icons_proto_materials_desc'] = '显示 {achievement:15229} 成就中稀有的原型材料的位置。'
 L['options_icons_protoform_schematics'] = '原生体结构图'
 L['options_icons_protoform_schematics_desc'] = '显示坐骑和宠物结构图的位置。'
 L['options_icons_puzzle_caches'] = '谜题宝箱'
