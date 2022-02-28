@@ -37,7 +37,7 @@ local cata = Map({id = 2066}) -- Catalyst Wards
 -------------------------------------------------------------------------------
 
 -- TODO: Verify - Only one of either Euv'ouk or Vitiane can be up for a given day.
--- TODO: Verify - Xy'rath only available when props are around, maybe tied to "Not Safe For Work" WQ
+-- TODO: Verify - Helmix is spawned by killing the Annelid Mudborers.
 
 map.nodes[64743369] = Rare({
     id = 179006,
