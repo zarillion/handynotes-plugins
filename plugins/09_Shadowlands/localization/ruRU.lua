@@ -794,6 +794,7 @@ L['misaligned_enforcer_note'] = 'Появляется здесь. Патрули
 L['overcharged_vespoid_note'] = 'Может появиться как часть любой стаи в этом районе.'
 L['runethief_xylora_note'] = 'Появляется скрытно в районе Приюта Пилигрима.'
 
+local proto_area = 'Шанс найти в кузницах вокруг |cFFFFFD00%s|r.'
 L['proto_material_zone_chance'] = 'Шанс найти в избранных кузницах по всей локации.'
 L['anima_charged_yolk_note'] = 'Соберите {item:187728} из любой кузницы и объедините их в {item:187787}, который может содержать {item:187890}.'
 L['energized_firmament_note'] = string.format(proto_area, 'Пики Отголосков')
