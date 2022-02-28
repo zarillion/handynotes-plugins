@@ -687,7 +687,7 @@ L['garudeon_note'] = 'Ramassez des {npc:183562s} dans les environs et utilisez {
 L['gluttonous_overgrowth_note'] = 'Brisez toutes les {npc:184048s} proches pour activer le monstre rare.'
 L['helmix_note'] = [[
 Tuez des {npc:179005s} dans la zone jusqu'à ce qu'il émette un signal et apparaisse.
-|cFFFF8C00Le sol vibre... quelque chose se cache sous la surface !|r
+|cFFFF8C00Le sol tremble... Quelque chose se déplace sous la surface !|r
 ]]
 L['hirukon_note'] = [[
 Pour attirer {npc:180978} à la surface, il est nécessaire de créer un {item:187923}.
