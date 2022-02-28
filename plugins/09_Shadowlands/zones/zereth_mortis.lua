@@ -1381,7 +1381,7 @@ map.nodes[39995148] = Creatii({id = 184942, requires = CREATIAN_NW})
 map.nodes[38313215] = Genesii({id = 184943, requires = CREATIAN_NW})
 map.nodes[45363878] = Genesii({id = 184943, requires = CREATIAN_NW})
 map.nodes[42744478] = Nascii_({id = 184944, requires = CREATIAN_NW})
-map.nodes[42883191] = Nascii_({id = 184944, requires = CREATIAN_NW})
+map.nodes[44902980] = Nascii_({id = 184944, requires = CREATIAN_NW})
 
 --------------------------------- NORTH-EAST ----------------------------------
 
