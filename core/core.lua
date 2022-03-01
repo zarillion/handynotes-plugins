@@ -210,9 +210,16 @@ function Addon:RegisterWithHandyNotes()
 
     -- Refresh in any cases where node status may have changed
     self:RegisterBucketEvent({
-        'BAG_UPDATE_DELAYED', 'CRITERIA_EARNED', 'CRITERIA_UPDATE',
-        'LOOT_CLOSED', 'PLAYER_MONEY', 'SHOW_LOOT_TOAST',
-        'SHOW_LOOT_TOAST_UPGRADE', 'QUEST_TURNED_IN', 'ZONE_CHANGED_NEW_AREA'
+        'BAG_UPDATE_DELAYED', -- looted an item
+        'CRITERIA_EARNED', -- new achievement criteria earned
+        'CRITERIA_UPDATE', -- criteria progress
+        'LOOT_CLOSED', -- loot window closed
+        'PLAYER_MONEY', -- player earned gold
+        'PLAYER_REGEN_ENABLED', -- exited combat
+        'QUEST_TURNED_IN', -- complete button pressed or WQ completed
+        'SHOW_LOOT_TOAST_UPGRADE', -- special loot obtained w/ upgrades
+        'SHOW_LOOT_TOAST', -- special loot obtained
+        'ZONE_CHANGED_NEW_AREA' -- player entered new zone
     }, 2, 'Refresh')
 
     -- Also refresh whenever the size of the world map frame changes
