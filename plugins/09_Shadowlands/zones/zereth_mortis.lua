@@ -170,7 +170,9 @@ map.nodes[59862111] = Rare({
     rewards = {
         Achievement({id = 15391, criteria = 52985}), -- Adventurer of Zereth Mortis
         Transmog({item = 189968, slot = L['leather']}), -- Dreadlord General's Tunic
-        Transmog({item = 189948, slot = L['mail']}) -- Strangulating Chainlink Lasso
+        Transmog({item = 189948, slot = L['mail']}), -- Strangulating Chainlink Lasso
+        Transmog({item = 190124, slot = L['dagger']}), -- Interrogator's Vicious Dirk
+        Transmog({item = 190125, slot = L['dagger']}) -- Kris of Intricate Secrets
     }
 }) -- General Zarathura
 
