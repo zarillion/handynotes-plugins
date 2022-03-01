@@ -1140,7 +1140,7 @@ esper.nodes[74745037] = PetSchematic({
 
 local MountSchematic = Class('MountSchematic', ns.node.Item, {
     sublabel = '{spell:366367}',
-    icon = 136103,
+    icon = 134060,
     group = ns.groups.PROTOFORM_SCHEMATICS
 })
 
