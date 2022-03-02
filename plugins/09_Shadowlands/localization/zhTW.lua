@@ -685,7 +685,7 @@ L['gluttonous_overgrowth_note'] = '摧毀所有附近的 {npc:184048} 來啟動�
 L['helmix_note'] = [[
 在此區域殺死 {npc:179005} 直到他做出表情並刷新.
 
-|cFFFF8C00大地在震動... 什麼東西潛藏在地表之下!|r
+|cFFFF8C00地面在震動…有東西在地底下鑽洞！|r
 ]]
 L['hirukon_note'] = [[
 要引誘 {npc:180978} 到水面, 需要製造一個 {item:187923}.
