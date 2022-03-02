@@ -1315,18 +1315,18 @@ local Lore = Class('Concordance', ns.node.Node, {
     note = L['concordance_note']
 })
 
-map.nodes[31775466] = Lore({label = L['concordance_excitable']}) -- quest=65179
-map.nodes[38953127] = Lore({label = L['concordance_excitable']}) -- quest=65213
-map.nodes[50405096] = Lore({label = L['concordance_excitable']}) -- quest=65216
-map.nodes[64616035] = Lore({label = L['concordance_excitable']}) -- quest=65210
-map.nodes[35037144] = Lore({label = L['concordance_mercurial']}) -- quest=65180
-map.nodes[39702572] = Lore({label = L['concordance_mercurial']}) -- quest=65214
-map.nodes[51579134] = Lore({label = L['concordance_mercurial']}) -- quest=65211
-map.nodes[64262397] = Lore({label = L['concordance_mercurial']}) -- quest=65217
-map.nodes[32196281] = Lore({label = L['concordance_tranquil']}) -- quest=64940
-map.nodes[38844857] = Lore({label = L['concordance_tranquil']}) -- quest=65212
-map.nodes[49367149] = Lore({label = L['concordance_tranquil']}) -- quest=65209
-map.nodes[60204707] = Lore({label = L['concordance_tranquil']}) -- quest=65215
+map.nodes[31775466] = Lore({quest = 65179, label = L['concordance_excitable']})
+map.nodes[38953127] = Lore({quest = 65213, label = L['concordance_excitable']})
+map.nodes[50405096] = Lore({quest = 65216, label = L['concordance_excitable']})
+map.nodes[64616035] = Lore({quest = 65210, label = L['concordance_excitable']})
+map.nodes[35037144] = Lore({quest = 65180, label = L['concordance_mercurial']})
+map.nodes[39702572] = Lore({quest = 65214, label = L['concordance_mercurial']})
+map.nodes[51579134] = Lore({quest = 65211, label = L['concordance_mercurial']})
+map.nodes[64262397] = Lore({quest = 65217, label = L['concordance_mercurial']})
+map.nodes[32196281] = Lore({quest = 64940, label = L['concordance_tranquil']})
+map.nodes[38844857] = Lore({quest = 65212, label = L['concordance_tranquil']})
+map.nodes[49367149] = Lore({quest = 65209, label = L['concordance_tranquil']})
+map.nodes[60204707] = Lore({quest = 65215, label = L['concordance_tranquil']})
 
 -------------------------------------------------------------------------------
 --------------------------------- ECHOED JIRO ---------------------------------
