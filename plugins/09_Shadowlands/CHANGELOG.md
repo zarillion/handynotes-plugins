@@ -1,3 +1,17 @@
+# v44
+
+* Added rare proto-material locations for the Traversing the Spheres achievement.
+* Added rep gain information to the Dune Dominance tooltip.
+* Added rune locations for activated the Protector of the First Ones.
+* Added some missing rare rewards.
+* Added spawn locations and note for the Dominated Irregular NPC.
+* Added the full path for the Misaligned Enforcer NPC.
+* Added the Provis Cache as a lootable treasure with instructions.
+* Concordances will now disappear from the map as you unlock their lore entries.
+* Fixed an incorrect reward item for the Bushel of Progenitor Produce treasure.
+* Protoform Schematics for mounts and pets now use different icons.
+* The addon will now refresh immediately after dropping combat.
+
 # v43
 
 * Added a missing reward for Iska, Outrider of Ruin.

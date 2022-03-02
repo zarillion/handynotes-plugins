@@ -97,6 +97,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Protoform Schematic locations for crafting mounts and pets.
 * Lore Concordance and Echoed Jiro locations providing outdoor buffs.
 * Creature locations for the [Completing the Code](https://www.wowhead.com/achievement=15211/completing-the-code) achievement.
+* Proto-Material locations for the [Traversing the Spheres](https://www.wowhead.com/achievement=15229/traversing-the-spheres) achievement.
 * Scroll locations for the [Tales of the Exile](https://www.wowhead.com/achievement=15509/tales-of-the-exile) achievement.
 * Location and tracking for the [Patient Bufonid](https://www.wowhead.com/item=188808/patient-bufonid) mount quest chain.
 
