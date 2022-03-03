@@ -720,7 +720,7 @@ L['ripened_protopear_note'] = '開始 {quest:64641} 任務鏈來獲得進入繁�
 L['sphere_treasure_note'] = '小心的從球體往上跳直到你到達寶藏處.'
 L['submerged_chest_note'] = '吸收南邊的 |cFFFFFD00危險的能量球|r, 然後和寶藏旁邊的 |cFFFFFD00被遺忘的幫浦|r 互動'
 L['symphonic_vault_note'] = '檢查 {npc:183998} 後會聽到4種聲音的序列. 房間內每個 {npc:183950} 會撥放一種聲音. 依照對應的順序和它們互動會解鎖寶藏.'
-L['syntactic_vault_note'] = '要解鎖寶藏, 你必須要在首創者聖塚區域的 |cFFFFFD00Runic Syllables|r 互動取得6層的 {spell:367499}.'
+L['syntactic_vault_note'] = '要解鎖寶藏, 你必須要在首創者聖塚區域的 |cFFFFFD00符文音節|r 互動取得6層的 {spell:367499}.'
 L['template_archive_note'] = '推動面向擋住路徑的 {npc:183337} 的 {npc:183339} 來取得寶藏.'
 L['undulating_foliage_note'] = [[
 按下四個 {npc:185390} 來啟動在滋長界地中間房間的傳送器.
