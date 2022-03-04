@@ -272,7 +272,8 @@ map.nodes[58654039] = Rare({
         Transmog({item = 189909, slot = L['cloth']}), -- Pantaloons of Cold Recesses
         Transmog({item = 189945, slot = L['mail']}), -- Shoulders of the Missing Giant
         Transmog({item = 189957, slot = L['plate']}) -- Colossus' Focusing Headpiece
-    }
+    },
+    pois = {POI({58723789})} -- Cave entrance
 }) -- Otaris the Provoked
 
 map.nodes[54083493] = Rare({
