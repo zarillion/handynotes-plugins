@@ -442,6 +442,7 @@ map.nodes[47044698] = Rare({
     id = 183747,
     quest = 65584,
     vignette = 4967,
+    sublabel = L['sl_limited_rare'],
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52983}), -- Adventurer of Zereth Mortis
