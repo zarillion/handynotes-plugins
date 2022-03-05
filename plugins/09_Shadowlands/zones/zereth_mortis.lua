@@ -178,7 +178,6 @@ map.nodes[59862111] = Rare({
         Achievement({id = 15391, criteria = 52985}), -- Adventurer of Zereth Mortis
         Transmog({item = 189968, slot = L['leather']}), -- Dreadlord General's Tunic
         Transmog({item = 189948, slot = L['mail']}), -- Strangulating Chainlink Lasso
-        Transmog({item = 190124, slot = L['dagger']}), -- Interrogator's Vicious Dirk
         Transmog({item = 190125, slot = L['dagger']}) -- Kris of Intricate Secrets
     }
 }) -- General Zarathura
@@ -506,17 +505,21 @@ map.nodes[63202603] = Rare({
                 {id = 52994, quest = 65587} -- Reanimatrox Marzan
             }
         }), -- Dune Dominance
+        Transmog({item = 190050, slot = L['fist']}), -- Entropic Broker's Ripper
+        Transmog({item = 190104, slot = L['crossbow']}), -- Deadeye's Spirit Piercer
         Transmog({item = 190107, slot = L['staff']}), -- Staff of Broken Coils
-        Transmog({item = 190458, slot = L['shield'], note = ISKA}), -- Atrophy's Ominous Bulwark
+        Transmog({item = 190124, slot = L['dagger']}), -- Interrogator's Vicious Dirk
+        Transmog({item = 190463, slot = L['warglaive']}), -- Dismal Mystic's Glaive
         Transmog({item = 190102, slot = L['1h_mace'], note = ISKA}), -- Chains of Infectious Serrations
         Transmog({item = 190103, slot = L['2h_mace'], note = ISKA}), -- Pillar of Noxious Dissemination
         Transmog({item = 190126, slot = L['polearm'], note = ISKA}), -- Rotculler's Encroaching Shears
+        Transmog({item = 190458, slot = L['shield'], note = ISKA}), -- Atrophy's Ominous Bulwark
         Transmog({item = 190105, slot = L['1h_mace'], note = DAMARIS}), -- Chilling Domination Mace
+        Transmog({item = 190106, slot = L['2h_mace'], note = DAMARIS}), -- Approaching Terror's Torch
         Transmog({item = 190459, slot = L['shield'], note = DAMARIS}), -- Cold Dispiriting Barricade
-        Transmog({item = 190104, slot = L['crossbow'], note = DAMARIS}), -- Deadeye's Spirit Piercer
-        Transmog({item = 190050, slot = L['fist'], note = DAMARIS}), -- Entropic Broker's Ripper
         Transmog({item = 190460, slot = L['polearm'], note = DAMARIS}), -- High Reaver's Sickle
-        Transmog({item = 190463, slot = L['warglaive'], note = MARZAN}), -- Dismal Mystic's Glaive
+        Transmog({item = 190108, slot = L['shield'], note = MARZAN}), -- Aegis of Laughing Souls
+        Transmog({item = 190109, slot = L['1h_mace'], note = MARZAN}), -- Cudgel of Mortality's Chains
         Transmog({item = 190127, slot = L['polearm'], note = MARZAN}), -- Marzan's Dancing Twin-Scythe
         Transmog({item = 190461, slot = L['2h_mace'], note = MARZAN}), -- Reanimator's Beguiling Baton
         Mount({item = 190765, id = 1584, note = '{npc:182120}'}) -- Iska's Mawrat Leash
