@@ -1,3 +1,11 @@
+# v45
+
+* Added a POI indicating the cave entrance for Otaris.
+* Added more missing schematics: Serenade, Stabilized Geomental, Violent Poultrid
+* Added notes for the rares that are not active every day.
+* Improved the consistency of item name lookups in tooltips.
+* Updated weapon drops for the Dune Dominance rare elites.
+
 # v44
 
 * Added rare proto-material locations for the Traversing the Spheres achievement.
