@@ -780,14 +780,14 @@ L['schematic_raptora_swooper_note'] = 'Trouvé à l\'intérieur de la Chambre de
 L['schematic_resonant_echo_note'] = 'Peut être trouvé dans un |cFFFFFD00Écho du premier chant cristallisé|r.'
 L['schematic_russet_bufonid_note'] = 'Peut être trouvé dans la cache de parangon {item:187780}.'
 L['schematic_scarlet_helicid_note'] = 'Trouvé au sommet de la structure de l\'arche.'
-L['schematic_serenade_note'] = nil
+L['schematic_serenade_note'] = 'Situé dans une chaîne sous une plateforme flottante dans la zone |cFFFFFD00Foyer immortel|r du raid.'
 L['schematic_shelly_note'] = 'Situé à l\'arrière d\'une étagère dans la Grotte Lexicale. Nécessite une capacité de téléportation pour escalader l\'étagère.'
-L['schematic_stabilized_geomental_note'] = nil
+L['schematic_stabilized_geomental_note'] = 'A une chance d\'être lâché par {npc:182169} dans le raid |cFFFFFD00Le sépulcre des Fondateurs|r.'
 L['schematic_tarachnid_creeper_note'] = 'A l\'intérieur d\'une petite structure dans les Sables Infinis.'
 L['schematic_terror_jelly_note'] = 'Au sommet du pylône carré à côté de la rampe.'
 L['schematic_tunneling_vombata_note'] = 'A côté de quelques décombres dans un tunnel bloqué à l\'intérieur du complexe Esper locrien.'
 L['schematic_vespoid_flutterer_note'] = 'Dépasse d\'un tas de sable au niveau Locus primus des Pics Résonnants.'
-L['schematic_violent_poultrid_note'] = nil
+L['schematic_violent_poultrid_note'] = 'A une chance d\'être obtenu à partir de la quête journalière {daily:65256}.'
 
 L['concordance_excitable'] = 'Harmonique fébrile'
 L['concordance_mercurial'] = 'Harmonique changeant'
@@ -798,7 +798,7 @@ L['echoed_jiro_note'] = 'Dépensez l\'énergie de {npc:181059} pour obtenir des 
 
 L['bygone_elemental_note'] = 'Un {npc:181221} peut apparaître à la place de n\'importe quel {npc:179007} dans la zone.'
 L['dominated_irregular_note'] = 'Un {npc:184819} peut apparaître à la place de n\'importe quel {npc:183184} dans la zone.'
-L['gaiagantic_note'] = 'Apparaît uniquement lorsque {npc:177958} propose la quête journalière {quest:64785}.'
+L['gaiagantic_note'] = 'Apparaît uniquement lorsque {npc:177958} propose la quête journalière {daily:64785}.'
 L['misaligned_enforcer_note'] = 'Apparaît ici. Patrouille la zone et disparaît à la fin de son itinéraire.'
 L['overcharged_vespoid_note'] = 'Peut apparaître dans n\'importe quel essaim de la zone.'
 L['runethief_xylora_note'] = 'Apparaît camouflé à la Grâce du Pèlerin.'
