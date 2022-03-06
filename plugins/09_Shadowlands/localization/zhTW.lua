@@ -779,14 +779,14 @@ L['schematic_raptora_swooper_note'] = '在轉化廳內找到'
 L['schematic_resonant_echo_note'] = '有機率在 {item:189172} 內找到'
 L['schematic_russet_bufonid_note'] = '有機率在 {item:187780} 巔峰箱內找到'
 L['schematic_scarlet_helicid_note'] = '在拱形建築頂端可以被找到'
-L['schematic_serenade_note'] = nil
+L['schematic_serenade_note'] = '在團本內的 |cFFFFFD00不朽休憩地|r 區域裡, 在一個漂浮平臺下方的鍊子'
 L['schematic_shelly_note'] = '在詞彙石窟裡的書櫃的背面凹洞內. 需要使用傳送技能來到達'
-L['schematic_stabilized_geomental_note'] = nil
+L['schematic_stabilized_geomental_note'] = '有機率從 |cFFFFFD00守護者聖塚|r 團本內的 {npc:182169} 掉落.'
 L['schematic_tarachnid_creeper_note'] = '在無盡沙海內的一個小建築內'
 L['schematic_terror_jelly_note'] = '在坡道旁的方形塔頂端'
 L['schematic_tunneling_vombata_note'] = '在洛克利安魂核內一個被堵塞的隧道裡的瓦礫旁'
 L['schematic_vespoid_flutterer_note'] = '在鳴響山嶽的第一位點的一堆沙中伸出'
-L['schematic_violent_poultrid_note'] = nil
+L['schematic_violent_poultrid_note'] = '有機率從每日任務 {daily:65256} 掉落'
 
 L['concordance_excitable'] = '躁動索引'
 L['concordance_mercurial'] = '易變索引'
