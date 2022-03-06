@@ -780,14 +780,14 @@ L['schematic_raptora_swooper_note'] = 'Dentro de la Cámara de Formación.'
 L['schematic_resonant_echo_note'] = 'Probabilidad de que esté dentro de un |cFFFFFD00Eco Cristalizado de la Primera Canción|r.'
 L['schematic_russet_bufonid_note'] = 'Probabilidad de que esté en el cofre de reputación {item:187780}.'
 L['schematic_scarlet_helicid_note'] = 'Está encima del arco de la estructura.'
-L['schematic_serenade_note'] = nil
+L['schematic_serenade_note'] = 'Está en una cadena debajo de una plataforma flotante en el |cFFFFFD00Hogar Inmortal|r en la zona de la banda.'
 L['schematic_shelly_note'] = 'Situado en la parte trasera de un estante en la Gruta Léxica. Requiere una habilidad de teleportación para saltar al estante.'
-L['schematic_stabilized_geomental_note'] = nil
+L['schematic_stabilized_geomental_note'] = 'Probabilidad de caer de {npc:182169} dentro de la banda |cFFFFFD00Sepulcro de los Primeros|r.'
 L['schematic_tarachnid_creeper_note'] = 'Dentro de una estructura pequeña en las Arenas Infinitas.'
 L['schematic_terror_jelly_note'] = 'Encima del pilón cuadrado junto a la rampa.'
 L['schematic_tunneling_vombata_note'] = 'Junto a unos escombros en un túnel bloqueado dentro del complejo Locris Esper.'
 L['schematic_vespoid_flutterer_note'] = 'Sobresaliendo de un montón de arena encima del nivel Enclave del Prelado de las Cúspides Resonantes.'
-L['schematic_violent_poultrid_note'] = nil
+L['schematic_violent_poultrid_note'] = 'Probabilidad de caer como recompensa al entregar la misión diaria {quest:65256}.'
 
 L['concordance_excitable'] = 'Concordancia Excitable'
 L['concordance_mercurial'] = 'Concordancia Mercúrica'
