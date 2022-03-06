@@ -786,14 +786,14 @@ L['schematic_raptora_swooper_note'] = 'Zu finden in der Kammer der Gestaltung'
 L['schematic_resonant_echo_note'] = 'Hat eine Chance in {item:189172} enthalten zu sein.'
 L['schematic_russet_bufonid_note'] = 'Hat eine Chance in der {item:187780} (Paragontruhe) enthalten zu sein.'
 L['schematic_scarlet_helicid_note'] = 'Zu finden auf der Spitze des Bogens.'
-L['schematic_serenade_note'] = nil
+L['schematic_serenade_note'] = 'An einer Kette unter einer schwebenden Plattform im Gebiet |cFFFFFD00Unvergängliche Rast|r des Schlachtzuges.'
 L['schematic_shelly_note'] = 'Befindet sich auf der Rückseite eines Regals in der Grotte der Lexik. Erfordert eine Teleport Fähigkeit, um das Regal zu erklimmen.'
-L['schematic_stabilized_geomental_note'] = nil
+L['schematic_stabilized_geomental_note'] = 'Hat eine Chance von {npc:182169} im Schlachtzug |cFFFFFD00Mausoleum der Ersten|r fallen gelassen zu werden.'
 L['schematic_tarachnid_creeper_note'] = 'In einem kleinen Gebäude in den Endlosen Sande.'
 L['schematic_terror_jelly_note'] = 'Oben auf dem quadratischen Pylon neben der Rampe.'
 L['schematic_tunneling_vombata_note'] = 'Neben einigen Trümmern in einem versperrten Tunnel im Lokrische Esper Komplex.'
 L['schematic_vespoid_flutterer_note'] = 'Ragt aus einem Sandhaufen auf der Primus-Locus-Ebene der Hallenden Gipfel heraus.' -- review
-L['schematic_violent_poultrid_note'] = nil
+L['schematic_violent_poultrid_note'] = 'Hat eine Chance von der täglichen Quest {daily:65256} zu droppen.'
 
 L['concordance_excitable'] = 'Erregbare Konkordanz'
 L['concordance_mercurial'] = 'Wechselhafte Konkordanz'
