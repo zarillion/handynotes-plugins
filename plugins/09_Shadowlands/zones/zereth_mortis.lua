@@ -32,6 +32,9 @@ local gpose = Map({id = 2029}) -- Gravid Repose
 local microd = Map({id = 2030}) -- Nexus of Actualization
 local cata = Map({id = 2066}) -- Catalyst Wards
 
+-- Sepulcher of the First Ones
+local immo = Map({id = 2047}) -- Immortal Hearth
+
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
@@ -1111,6 +1114,7 @@ map.nodes[53777246] = PetSchematic({
     note = L['in_cave'] .. '\n\n' .. L['schematic_treasure_pet_note']
 }) -- Multichicken
 
+-- Waiting for access to the Rondure Alcove on live, which I could not access on PTR
 -- map.nodes[] = PetSchematic({
 --     id = 189440,
 --     quest = 65348,
@@ -1137,11 +1141,11 @@ map.nodes[57837783] = PetSchematic({
     pois = {POI({59328128})}
 }) -- Shelly
 
--- map.nodes[] = PetSchematic({
---     id = 189437,
---     quest = 65336,
---     note = L['schematic_stabilized_geomental_note']
--- }) -- Stabilized Geomental
+map.nodes[83215337] = PetSchematic({
+    id = 189437,
+    quest = 65336,
+    note = L['schematic_stabilized_geomental_note']
+}) -- Stabilized Geomental
 
 map.nodes[67223261] = PetSchematic({
     id = 189443,
@@ -1156,11 +1160,11 @@ esper.nodes[74745037] = PetSchematic({
     note = L['schematic_tunneling_vombata_note']
 }) -- Tunneling Vombata
 
--- map.nodes[] = PetSchematic({
---     id = 189436,
---     quest = 65334,
---     note = L['schematic_violent_poultrid_note']
--- }) -- Violent Poultrid
+map.nodes[34224865] = PetSchematic({
+    id = 189436,
+    quest = 65334,
+    note = L['schematic_violent_poultrid_note']
+}) -- Violent Poultrid
 
 -- Currently no fallback "Protoform Schematic" object for this one, it will always be
 -- obtained from the Library Vault treasure even if you have not unlocked the pet
@@ -1269,6 +1273,7 @@ map.nodes[53166386] = MountSchematic({
 --     note = L['schematic_ineffable_skitterer_note']
 -- }) -- Ineffable Skitterer
 
+-- Wowhead claims this drops from Dune Dominance, need more confirmation
 -- map.nodes[] = MountSchematic({
 --     id = 189459,
 --     quest = 65382,
@@ -1306,11 +1311,12 @@ map.nodes[47680954] = MountSchematic({
     note = L['schematic_scarlet_helicid_note']
 }) -- Scarlet Helicid
 
--- map.nodes[] = MountSchematic({
---     id = 189461,
---     quest = 65384,
---     note = L['schematic_serenade_note']
--- }) -- Serenade
+immo.nodes[45623070] = MountSchematic({
+    id = 189461,
+    quest = 65384,
+    parent = map.id,
+    note = L['schematic_serenade_note']
+}) -- Serenade
 
 map.nodes[60603052] = MountSchematic({
     id = 189456,
@@ -1324,6 +1330,7 @@ map.nodes[63032149] = MountSchematic({
     note = L['schematic_tarachnid_creeper_note']
 }) -- Tarachnid Creeper
 
+-- Waiting for access to the Camber Alcove room
 -- map.nodes[] = MountSchematic({
 --     id = 189463,
 --     quest = 65386,

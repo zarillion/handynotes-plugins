@@ -780,11 +780,14 @@ L['schematic_raptora_swooper_note'] = 'Trouvé à l\'intérieur de la Chambre de
 L['schematic_resonant_echo_note'] = 'Peut être trouvé dans un |cFFFFFD00Écho du premier chant cristallisé|r.'
 L['schematic_russet_bufonid_note'] = 'Peut être trouvé dans la cache de parangon {item:187780}.'
 L['schematic_scarlet_helicid_note'] = 'Trouvé au sommet de la structure de l\'arche.'
+L['schematic_serenade_note'] = nil
 L['schematic_shelly_note'] = 'Situé à l\'arrière d\'une étagère dans la Grotte Lexicale. Nécessite une capacité de téléportation pour escalader l\'étagère.'
+L['schematic_stabilized_geomental_note'] = nil
 L['schematic_tarachnid_creeper_note'] = 'A l\'intérieur d\'une petite structure dans les Sables Infinis.'
 L['schematic_terror_jelly_note'] = 'Au sommet du pylône carré à côté de la rampe.'
 L['schematic_tunneling_vombata_note'] = 'A côté de quelques décombres dans un tunnel bloqué à l\'intérieur du complexe Esper locrien.'
 L['schematic_vespoid_flutterer_note'] = 'Dépasse d\'un tas de sable au niveau Locus primus des Pics Résonnants.'
+L['schematic_violent_poultrid_note'] = nil
 
 L['concordance_excitable'] = 'Harmonique fébrile'
 L['concordance_mercurial'] = 'Harmonique changeant'
