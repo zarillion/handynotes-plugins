@@ -1,3 +1,10 @@
+# v9
+
+* Fixed performance issues while opening/closing the world map and in combat.
+* Improved general performance of node completion/enabled logic.
+* Improved the consistency of item name lookups in tooltips.
+* The addon will now refresh immediately after dropping combat.
+
 # v8
 
 * Added ability to render full item/spell tooltips within a nodes regular tooltip.
