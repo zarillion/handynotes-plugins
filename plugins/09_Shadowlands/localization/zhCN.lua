@@ -779,14 +779,14 @@ L['schematic_raptora_swooper_note'] = '塑形之厅内发现。'
 L['schematic_resonant_echo_note'] = '|cFFFFFD00原初之歌的晶化回响|r 内几率发现。'
 L['schematic_russet_bufonid_note'] = '{item:187780} 巅峰宝箱内几率发现。'
 L['schematic_scarlet_helicid_note'] = '在拱形建筑物顶上发现。'
-L['schematic_serenade_note'] = nil
+L['schematic_serenade_note'] = '位于团队区域 |cFFFFFD00不朽休憩所|r 一个浮动平台下方的链条上。'
 L['schematic_shelly_note'] = '位于词汇岩窟书架的背面。需要传送技能才能爬上书架。'
-L['schematic_stabilized_geomental_note'] = nil
+L['schematic_stabilized_geomental_note'] = '|cFFFFFD00初诞者圣墓|r 团队内 {npc:182169} 有几率掉落。'
 L['schematic_tarachnid_creeper_note'] = '无尽流沙的小型建筑物内。'
 L['schematic_terror_jelly_note'] = '位于坡道旁边的方形塔顶上。'
 L['schematic_tunneling_vombata_note'] = '魂灵音室建筑群内一条堵塞的隧道中的一些瓦砾旁边。'
 L['schematic_vespoid_flutterer_note'] = '共振群山的第一位点层一堆沙子上延伸。'
-L['schematic_violent_poultrid_note'] = nil
+L['schematic_violent_poultrid_note'] = '{daily:65256} 日常任务有几率掉落。'
 
 L['concordance_excitable'] = '可激发的索引台'
 L['concordance_mercurial'] = '善变索引台'
