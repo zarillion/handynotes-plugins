@@ -786,7 +786,7 @@ L['schematic_stabilized_geomental_note'] = 'Probabilidad de caer de {npc:182169}
 L['schematic_tarachnid_creeper_note'] = 'Dentro de una estructura pequeña en las Arenas Infinitas.'
 L['schematic_terror_jelly_note'] = 'Encima del pilón cuadrado junto a la rampa.'
 L['schematic_tunneling_vombata_note'] = 'Junto a unos escombros en un túnel bloqueado dentro del complejo Locris Esper.'
-L['schematic_vespoid_flutterer_note'] = 'Sobresaliendo de un montón de arena encima del nivel Enclave del Prelado de las Cúspides Resonantes.'
+L['schematic_vespoid_flutterer_note'] = 'Sobresaliendo de un montón de arena encima del nivel Enclave Primus de las Cúspides Resonantes.'
 L['schematic_violent_poultrid_note'] = 'Probabilidad de caer como recompensa al entregar la misión diaria {quest:65256}.'
 
 L['concordance_excitable'] = 'Concordancia Excitable'
