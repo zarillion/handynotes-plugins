@@ -160,7 +160,8 @@ map.nodes[69073662] = Rare({
     rewards = {
         Achievement({id = 15391, criteria = 53025}), -- Adventurer of Zereth Mortis
         Transmog({item = 189951, slot = L['plate']}), -- Sunbathed Avian Armor
-        Transmog({item = 189937, slot = L['cloak']}) -- Garudeon's Blanket of Feathers
+        Transmog({item = 189937, slot = L['cloak']}), -- Garudeon's Blanket of Feathers
+        Transmog({item = 190057, slot = L['warglaive']}) -- Protective Raptora's Wing-Glaive
         -- Item({item = 187832}) -- Schematic: Pure-Air Sail Extensions (engineering)
     },
     pois = {
@@ -209,6 +210,7 @@ map.nodes[80384706] = Rare({
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52986}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189926, slot = L['leather']}), -- Poison-Licked Spaulders
         Transmog({item = 189960, slot = L['plate']}), -- Crouching Legs of the Bufonid
         Transmog({item = 190001, slot = L['shield']}) -- Gorkek's Glistening Throatguard
     },
@@ -287,6 +289,7 @@ map.nodes[54083493] = Rare({
         Achievement({id = 15391, criteria = 53020}), -- Adventurer of Zereth Mortis
         Transmog({item = 189923, slot = L['leather']}), -- Tarachnid's Terrifying Visage
         Transmog({item = 189950, slot = L['mail']}), -- Constrained Prey's Binds
+        Transmog({item = 189769, slot = L['dagger']}), -- Fang of Phestis
         Transmog({item = 190045, slot = L['staff']}) -- Flowing Sandbender's Staff
     },
     pois = {POI({55963261})} -- Cave entrance
@@ -392,7 +395,8 @@ map.nodes[49783914] = Rare({
         Achievement({id = 15391, criteria = 52979}), -- Adventurer of Zereth Mortis
         Transmog({item = 189915, slot = L['cloth']}), -- Tahkwitz' Cloth Ribbon
         Transmog({item = 189933, slot = L['mail']}), -- Vigilant Raptora's Crest
-        Transmog({item = 189954, slot = L['plate']}) -- Lustrous Sentinel's Sabatons
+        Transmog({item = 189954, slot = L['plate']}), -- Lustrous Sentinel's Sabatons
+        Transmog({item = 190003, slot = L['dagger']}) -- Skyward Savior's Talon
         -- Item({item = 187832}) -- Schematic: Pure-Air Sail Extensions (engineering)
     }
 }) -- Tahkwitz
@@ -405,6 +409,7 @@ map.nodes[54507344] = Rare({
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52987}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189967, slot = L['cloth']}), -- Hood of Star Topology
         Transmog({item = 189928, slot = L['leather']}), -- Centripetal Waistband
         Transmog({item = 189966, slot = L['plate']}), -- Singing Metal Wristbands
         Transmog({item = 190055, slot = L['offhand']}) -- Coalescing Energy Implement
@@ -463,6 +468,8 @@ map.nodes[64054975] = Rare({
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52976}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189918, slot = L['leather']}), -- Fleeting Broker's Strides
+        Transmog({item = 189964, slot = L['plate']}), -- Multi-Faceted Belt
         Transmog({item = 190052, slot = L['dagger']}), -- Xy'rath's Letter Opener
         Transmog({item = 190007, slot = L['1h_sword']}), -- Xy'rath's Signature Saber
         Toy({item = 190238}) -- Xy'rath's Booby-Trapped Cache
