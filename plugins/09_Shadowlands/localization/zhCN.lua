@@ -28,7 +28,7 @@ L['macabre_note'] = [[
 ]]
 L['mymaen_note'] = '击杀区域内的腐楠精灵直到他做出表情并出现。'
 L['rainbowhorn_note'] = [[
-找到并点击|cffffff00符文牡鹿的巨角|r来召唤稀有。角可以在炽蓝仙野多个地点刷新。
+找到并点击 |cffffff00符文牡鹿的巨角|r 来召唤稀有。角可以在炽蓝仙野多个地点刷新。
 
 他总是在瓦尔仙林北侧刷新，所以设定 {item:6948} 到这里并留意区域的表情。
 
@@ -791,7 +791,7 @@ L['schematic_violent_poultrid_note'] = '{daily:65256} 日常任务有几率掉�
 L['concordance_excitable'] = '可激发的索引台'
 L['concordance_mercurial'] = '善变索引台'
 L['concordance_tranquil'] = '宁静索引台'
-L['concordance_note'] = '阅读每个索引解锁位于|cFFFFFD00流亡洞穴|r 的 |cFFFFFD00知识控制台|r 条目。'
+L['concordance_note'] = '阅读每个索引解锁位于 |cFFFFFD00流亡洞穴|r 的 |cFFFFFD00知识控制台|r 条目。'
 
 L['echoed_jiro_note'] = '耗费 {npc:181059} 能量获得临时增益。需要 {npc:181397} 的 |cFFFFFD00创音词|r 研究。'
 
