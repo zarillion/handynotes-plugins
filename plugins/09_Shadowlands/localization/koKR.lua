@@ -682,7 +682,7 @@ L['feasting_note'] = 'Will sometimes circle the area before returning to this sp
 L['furidian_note'] = 'Activate three |cFFFFFD00강화된 열쇠|r in the area, then unlock the |cFFFFFD00수상하게 성난 금고|r.'
 L['garudeon_note'] = 'Collect {npc:183562s} from the surrounding area and use {spell:362655} to feed the {npc:183554s}. Once all three are fed, {npc:180924} will activate.'
 L['gluttonous_overgrowth_note'] = 'Break all nearby {npc:184048s} to activate the rare.'
-L['helmix_emote'] = '|cFFFF8C00The ground vibrates... something burrows beneath the surface!|r'
+L['helmix_note'] = '|cFFFF8C00The ground vibrates... something burrows beneath the surface!|r'
 L['hirukon_note'] = [[
 To entice {npc:180978} to the surface, an {item:187923} must be created.
 
