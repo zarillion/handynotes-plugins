@@ -782,6 +782,7 @@ L['schematic_tarachnid_creeper_note'] = '끝없는 모래 지역의 작은 건�
 L['schematic_terror_jelly_note'] = 'On top of the square pylon next to the ramp.'
 L['schematic_tunneling_vombata_note'] = 'Next to some rubble in a blocked tunnel inside the Locrian Esper complex.'
 L['schematic_vespoid_flutterer_note'] = 'Sticking out of a pile of sand on the Primus Locus tier of the Resonant Peaks.'
+L['schematic_violent_poultrid_note'] = 'Chance to drop from the {daily:65256} daily quest.'
 
 L['concordance_excitable'] = '격앙의 색인'
 L['concordance_mercurial'] = '변덕의 색인'
