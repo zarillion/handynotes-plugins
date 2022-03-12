@@ -727,6 +727,12 @@ Press the four {npc:185390s} to activate the teleporter in the center room of th
 • In the south-east room of the wards
 ]]
 
+L['provis_cache'] = 'Locked Provis Cache'
+L['provis_cache_note'] = [[
+Complete the {quest:64717} daily quest from {npc:177958} at least once.
+
+Use {item:187516} at forges across the zone to collect 15 {item:187728} and combine them into an {item:187787}. This orb has a chance to contain the key.
+]]
 L['prying_eye_discovery'] = '감시 기계의 발견물'
 L['prying_eye_discovery_note'] = '비행이 해금된 후에 접근하기 더 쉽습니다.'
 L['pulp_covered_relic'] = '걸쭉한 수액으로 뒤덮인 유물'
