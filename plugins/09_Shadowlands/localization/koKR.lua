@@ -792,10 +792,22 @@ L['concordance_note'] = '색인을 읽으면 |cFFFFFD00추방자의 굴|r 내의
 L['echoed_jiro_note'] = '{npc:181059} 에너지를 소비하여 임시 버프를 얻습니다. {npc:181397}에서 |cFFFFFD00크리에이션|r 연구를 해야합니다.'
 
 L['bygone_elemental_note'] = 'A {npc:181221} can spawn in place of any {npc:179007} in the area.'
+L['dominated_irregular_note'] = 'A {npc:184819} can spawn in place of any {npc:183184} in the area.'
 L['gaiagantic_note'] = 'Only spawns when {npc:177958} offers the {quest:64785} daily quest.'
 L['misaligned_enforcer_note'] = 'Patrols the area and then despawns at the end of his route.'
 L['overcharged_vespoid_note'] = 'Can spawn as part of any swarm pack in the area.'
 L['runethief_xylora_note'] = 'Spawns stealthed in the Pilgrim\'s Grace area.'
+
+local proto_area = 'Chance to be found in forges around the |cFFFFFD00%s|r.'
+L['proto_material_zone_chance'] = 'Chance to be found in select forges across the zone.'
+L['anima_charged_yolk_note'] = 'Collect {item:187728} from any forge and combine them into an {item:187787}, which has a chance to contain an {item:187890}.'
+L['energized_firmament_note'] = string.format(proto_area, 'Resonant Peaks')
+L['honeycombed_lattice_note'] = string.format(proto_area, 'Droning Precipice')
+L['incorporeal_sand_note'] = 'Chance to be found in forges in the desert areas of the zone.'
+L['pollinated_extraction_note'] = string.format(proto_area, 'Untamed Verdure')
+L['serene_pigment_note'] = 'In a forge above the entrance to |cFFFFFD00Exile\'s Hollow|r. May require multiple tries.'
+L['volatile_precursor_note'] = 'Found in the smaller forge on top. May require multiple tries.'
+L['wayward_essence_note'] = 'In a floating forge behind |cFFFFFD00Exile\'s Hollow|r. Stand in the indent to tap the forge.'
 
 L['patient_bufonid_note'] = 'Progress in the 제레스 모르티스 story until {npc:180950} offers {quest:65727}. Complete the quests each day to lure the {npc:185798} out of the pond.'
 L['patient_bufonid_note_day1'] = '지역 내 원시벌에게서 {item:190852} 15개를 모으세요.'
