@@ -777,6 +777,7 @@ L['schematic_russet_bufonid_note'] = 'Chance to be found in the {item:187780} pa
 L['schematic_scarlet_helicid_note'] = 'Found on top of the arch structure.'
 L['schematic_serenade_note'] = 'Located in a chain underneath a floating platform in the |cFFFFFD00Immortal Hearth|r area of the raid.'
 L['schematic_shelly_note'] = 'Located on the back side of a shelf in the Lexical Grotto. Requires a teleport ability to climb the shelf.'
+L['schematic_stabilized_geomental_note'] = 'Chance to be dropped by {npc:182169} inside the |cFFFFFD00Sepulcher of the First Ones|r raid.'
 L['schematic_tarachnid_creeper_note'] = '끝없는 모래 지역의 작은 건물 안에 있습니다.'
 L['schematic_terror_jelly_note'] = 'On top of the square pylon next to the ramp.'
 L['schematic_tunneling_vombata_note'] = 'Next to some rubble in a blocked tunnel inside the Locrian Esper complex.'
