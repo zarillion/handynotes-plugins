@@ -34,6 +34,7 @@ local cata = Map({id = 2066}) -- Catalyst Wards
 
 -- Sepulcher of the First Ones
 local immo = Map({id = 2047}) -- Immortal Hearth
+local ephe = Map({id = 2061}) -- Ephemeral Plains
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -829,6 +830,8 @@ cata.nodes[49243441] = Class('Foliage', Treasure,
 
 -------------------------------------------------------------------------------
 
+-- ephe.nodes[23963780] = Treasure({label = 'High Value Cache'})
+
 map.nodes[42025181] = Treasure({
     quest = 65183,
     requires = ns.requirement.Item(188231),
@@ -1219,11 +1222,14 @@ map.nodes[52804580] = MountSchematic({
     pois = {POI({41903400, 50304120, 52804580, 53402570, 64366347})}
 }) -- Buzz
 
--- map.nodes[] = MountSchematic({
---     id = 189476,
---     quest = 65399,
---     note = L['schematic_curious_crystalsniffer_note']
--- }) -- Curious Crystalsniffer
+local CURIOUS = MountSchematic({
+    id = 189476,
+    quest = 65399,
+    note = L['schematic_curious_crystalsniffer_note']
+}) -- Curious Crystalsniffer
+
+map.nodes[86215337] = CURIOUS
+ephe.nodes[63005200] = CURIOUS
 
 map.nodes[64223562] = MountSchematic({
     id = 189477,
@@ -1275,24 +1281,24 @@ map.nodes[53166386] = MountSchematic({
     note = L['in_cave'] .. ' ' .. L['schematic_heartbond_lupine_note']
 }) -- Heartbond Lupine
 
--- map.nodes[] = MountSchematic({
---     id = 189467,
---     quest = 65390,
---     note = L['schematic_ineffable_skitterer_note']
--- }) -- Ineffable Skitterer
+map.nodes[34974875] = MountSchematic({
+    id = 189467,
+    quest = 65390,
+    note = L['schematic_ineffable_skitterer_note']
+}) -- Ineffable Skitterer
 
 -- Wowhead claims this drops from Dune Dominance, need more confirmation
--- map.nodes[] = MountSchematic({
---     id = 189459,
---     quest = 65382,
---     note = L['schematic_mawdapted_raptora_note']
--- }) -- Mawdapted Raptora
-
-map.nodes[33754950] = MountSchematic({
-    id = 189455,
-    quest = 65375,
-    note = L['schematic_pale_regal_cervid_note']
-}) -- Pale Regal Cervid
+map.nodes[61342626] = MountSchematic({
+    id = 189459,
+    quest = 65382,
+    note = L['schematic_mawdapted_raptora_note'],
+    pois = {
+        POI({64152084}), Path({60812242, 61572342}),
+        Path({61732080, 61461947, 60941839}),
+        Path({64442377, 64882451, 65132565, 65022679, 64812747}),
+        Path({61342626, 61472708, 61902798, 62542853, 63312870, 63852858})
+    }
+}) -- Mawdapted Raptora
 
 map.nodes[66966942] = MountSchematic({
     id = 189469,
