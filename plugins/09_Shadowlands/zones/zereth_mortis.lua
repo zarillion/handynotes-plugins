@@ -905,6 +905,7 @@ map.nodes[63103738] = Puzzle({quest = 65093, label = L['cache_fugueal']})
 map.nodes[33785427] = Puzzle({quest = 65321, label = L['cache_glissandian']})
 map.nodes[39937284] = Puzzle({quest = 65321, label = L['cache_glissandian']})
 map.nodes[41843130] = Puzzle({quest = 65092, label = L['cache_glissandian']})
+map.nodes[44093743] = Puzzle({quest = 65092, label = L['cache_glissandian']})
 map.nodes[44635053] = Puzzle({quest = 65321, label = L['cache_glissandian']})
 map.nodes[45069412] = Puzzle({quest = 65316, label = L['cache_glissandian']})
 map.nodes[51282573] = Puzzle({quest = 65412, label = L['cache_glissandian']}) -- 65418
@@ -1394,13 +1395,13 @@ local Jiro = Class('Jiro', ns.node.NPC, {
 })
 
 local Creatii = Class('Creatii', Jiro,
-    {spellID = 361831, icon = 'peg_gn', fgroup = 'creatii'})
+    {spellID = 361831, icon = 'peg_bl', fgroup = 'creatii'})
 
 local Genesii = Class('Genesii', Jiro,
-    {spellID = 362022, icon = 'peg_bl', fgroup = 'genesii'})
+    {spellID = 362022, icon = 'peg_rd', fgroup = 'genesii'})
 
 local Nascii_ = Class('Nascii', Jiro,
-    {spellID = 362023, icon = 'peg_rd', fgroup = 'nascii'})
+    {spellID = 362023, icon = 'peg_gn', fgroup = 'nascii'})
 
 local CREATIAN_SW = ns.requirement.GarrisonTalentRank(1976, 1)
 local CREATIAN_SE = ns.requirement.GarrisonTalentRank(1976, 2)
