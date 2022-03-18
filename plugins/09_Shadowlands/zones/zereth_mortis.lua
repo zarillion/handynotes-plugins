@@ -867,7 +867,7 @@ gpose.nodes[30776440] = Treasure({
 }) -- Requisites Originator
 
 map.nodes[42934005] = Treasure({
-    quest = 65568,
+    quest = 65567,
     label = L['rondure_cache'],
     note = L['rondure_cache_note'] .. '\n\n' ..
         ns.color.Orange(L['rondure_alcove_note']),
