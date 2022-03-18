@@ -718,3 +718,5 @@ L['options_icons_zereth_caches'] = '암호 상자'
 L['options_icons_zereth_caches_desc'] = '암호 상자의 생성 위치를 표시합니다.'
 L['options_icons_shrouded_cyphers'] = nil
 L['options_icons_shrouded_cyphers_desc'] = nil
+L['options_icons_mawsworn_supply_cache'] = nil
+L['options_icons_mawsworn_supply_cache_desc'] = nil

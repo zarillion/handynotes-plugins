@@ -880,3 +880,5 @@ L['options_icons_zereth_caches'] = 'Cofres con Clave'
 L['options_icons_zereth_caches_desc'] = 'Muestra los sitios posibles para los cofres con clave.'
 L['options_icons_shrouded_cyphers'] = 'Alijo de claves camuflado'
 L['options_icons_shrouded_cyphers_desc'] = 'Muestra los sitios posibles para los alijos de claves camuflado. Has de tener equipado un objeto con {spell:364478}.'
+L['options_icons_mawsworn_supply_cache'] = nil
+L['options_icons_mawsworn_supply_cache_desc'] = nil

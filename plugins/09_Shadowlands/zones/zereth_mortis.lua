@@ -1009,12 +1009,6 @@ local AVIAN_NEST = Cache({label = L['cache_avian_nest']})
 local CYPHER_BOUND = Cache({label = L['cache_cypher_bound']})
 local DISCARDED_AUTOMA = Cache({label = L['cache_discarded_automa']})
 local FORGOTTEN_VAULT = Cache({label = L['cache_forgotten_vault']})
-local MAWSWORN_SUPPLY = Cache({
-    label = L['cache_mawsworn_supply'],
-    rewards = {
-        Mount({item = 190766, id = 1585}) -- Spectral Mawrat's Tail
-    }
-})
 local TARACHNID_EGGS = Cache({label = L['cache_tarachnid_eggs']})
 
 map.nodes[35495205] = AVIAN_NEST
@@ -1118,14 +1112,6 @@ map.nodes[69083683] = FORGOTTEN_VAULT
 map.nodes[75766263] = FORGOTTEN_VAULT
 map.nodes[78215435] = FORGOTTEN_VAULT
 
-map.nodes[45820524] = MAWSWORN_SUPPLY
-map.nodes[47394352] = MAWSWORN_SUPPLY
-map.nodes[57562297] = MAWSWORN_SUPPLY
-map.nodes[58444036] = MAWSWORN_SUPPLY
-map.nodes[59841661] = MAWSWORN_SUPPLY
-map.nodes[60963061] = MAWSWORN_SUPPLY
-map.nodes[62952498] = MAWSWORN_SUPPLY
-
 map.nodes[54253357] = TARACHNID_EGGS
 map.nodes[55263288] = TARACHNID_EGGS
 
@@ -1144,8 +1130,7 @@ microd.nodes[62764399] = Cache({
 
 local Shrouded = Class('ShroudedCypherCache', ns.node.Node, {
     group = ns.groups.SHROUDED_CYPHER,
-    icon = 'chest_gy',
-    scale = 0.8,
+    icon = 'chest_pp',
     label = L['cache_shrouded_cypher'],
     note = L['cache_shrouded_cypher_note'],
     rewards = {
@@ -1178,6 +1163,42 @@ map.nodes[49003050] = Shrouded()
 map.nodes[61201550] = Shrouded()
 map.nodes[62204630] = Shrouded()
 map.nodes[69503450] = Shrouded()
+
+-------------------------------------------------------------------------------
+--------------------------- MAWSWORN SUPPLY CACHES ----------------------------
+-------------------------------------------------------------------------------
+
+local Mawsworn = Class('MawsornCache', ns.node.Node, {
+    label = L['cache_mawsworn_supply'],
+    group = ns.groups.MAWSWORN_SUPPLY_CACHE,
+    icon = 'chest_bk',
+    rewards = {
+        Mount({item = 190766, id = 1585}) -- Spectral Mawrat's Tail
+    }
+})
+
+map.nodes[45504650] = Mawsworn()
+map.nodes[45820524] = Mawsworn()
+map.nodes[46002430] = Mawsworn()
+map.nodes[46702680] = Mawsworn()
+map.nodes[46801240] = Mawsworn()
+map.nodes[47394352] = Mawsworn()
+map.nodes[47800150] = Mawsworn()
+map.nodes[48104820] = Mawsworn()
+map.nodes[48804250] = Mawsworn()
+map.nodes[50104460] = Mawsworn()
+map.nodes[50801000] = Mawsworn()
+map.nodes[50805050] = Mawsworn()
+map.nodes[51700820] = Mawsworn()
+map.nodes[57562297] = Mawsworn()
+map.nodes[58444036] = Mawsworn()
+map.nodes[59503140] = Mawsworn()
+map.nodes[59841661] = Mawsworn()
+map.nodes[60203240] = Mawsworn()
+map.nodes[60963061] = Mawsworn()
+map.nodes[62952498] = Mawsworn()
+map.nodes[63302100] = Mawsworn()
+map.nodes[67602960] = Mawsworn()
 
 -------------------------------------------------------------------------------
 ----------------------------- PROTOFORM SCHEMATICS ----------------------------

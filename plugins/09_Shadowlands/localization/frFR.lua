@@ -894,3 +894,5 @@ L['options_icons_zereth_caches'] = 'Caches cryptiques' -- Needs Review
 L['options_icons_zereth_caches_desc'] = 'Afficher les emplacements possibles des Caches cryptiques' -- Needs Review
 L['options_icons_shrouded_cyphers'] = 'Cache cryptique dissimulée'
 L['options_icons_shrouded_cyphers_desc'] = 'Afficher les emplacements possibles des Caches cryptiques dissimulées. Vous devez équiper un objet possédant {spell:364478}.'
+L['options_icons_mawsworn_supply_cache'] = nil
+L['options_icons_mawsworn_supply_cache_desc'] = nil

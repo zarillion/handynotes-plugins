@@ -862,3 +862,5 @@ L['options_icons_zereth_caches'] = '暗語箱'
 L['options_icons_zereth_caches_desc'] = '顯示暗語箱可能的位置'
 L['options_icons_shrouded_cyphers'] = '隱蔽的暗語寶箱'
 L['options_icons_shrouded_cyphers_desc'] = '顯示隱蔽的暗語寶箱可能的位置. 必須裝備一件 {spell:364478} 裝備'
+L['options_icons_mawsworn_supply_cache'] = nil
+L['options_icons_mawsworn_supply_cache_desc'] = nil
