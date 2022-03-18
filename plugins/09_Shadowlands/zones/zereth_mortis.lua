@@ -1420,12 +1420,14 @@ map.nodes[63032149] = MountSchematic({
     note = L['schematic_tarachnid_creeper_note']
 }) -- Tarachnid Creeper
 
--- Waiting for access to the Camber Alcove room
--- map.nodes[] = MountSchematic({
---     id = 189463,
---     quest = 65386,
---     note = L['schematic_prototype_fleetpod_note']
--- }) -- Unsuccessful Prototype Fleetpod
+gpose.nodes[49707196] = MountSchematic({
+    id = 189463,
+    quest = 65386,
+    parent = map.id,
+    note = L['schematic_prototype_fleetpod_note'] .. '\n\n' ..
+        ns.color.Orange(L['camber_alcove_note']),
+    pois = {POI({47683448})} -- Camber Alcove Arrangement
+}) -- Unsuccessful Prototype Fleetpod
 
 map.nodes[50312704] = MountSchematic({
     id = 189472,

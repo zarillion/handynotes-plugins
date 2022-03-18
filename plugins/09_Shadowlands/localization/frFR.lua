@@ -679,6 +679,7 @@ La {item:185972} peut être obtenue une fois par semaine et contient 50 {currenc
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['camber_alcove_note'] = nil
 L['dormant_alcove_note'] = nil
 L['rondure_alcove_note'] = nil
 
@@ -788,6 +789,7 @@ L['schematic_mawdapted_raptora_note'] = 'Faible chance d\'être trouvé sur les 
 L['schematic_microlicid_note'] = 'Sur la branche la plus basse de l\'arbre flottant, sous le feuillage.'
 L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = 'Attaché à une chaîne flottante à l\'intérieur des vignes au-dessus du monstre rare {npc:180978}.'
+L['schematic_prototype_fleetpod_note'] = nil
 L['schematic_raptora_swooper_note'] = 'Trouvé à l\'intérieur de la Chambre de Façonnage.'
 L['schematic_resonant_echo_note'] = 'Peut être trouvé dans un |cFFFFFD00Écho du premier chant cristallisé|r.'
 L['schematic_russet_bufonid_note'] = 'Peut être trouvé dans la cache de parangon {item:187780}.'

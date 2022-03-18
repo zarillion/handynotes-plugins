@@ -676,8 +676,17 @@ The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['camber_alcove_note'] = [[
+To access the |cFFFFFD00Camber Alcove|r:
+
+1. Complete chapter 6 of the Zereth Mortis campaign.
+2. Find the |cFFFFFD00Camber Alcove Arrangement|r behind the building at the Ultimus Locus.
+3. Use the {npc:184329} inside the Gravid Repose to access the Inner Chamber.
+4. Use a different {npc:184485} to access the Camber Alcove.
+]]
+
 L['dormant_alcove_note'] = [[
-To access the |cFFFFFD00Dormant Alcove|r chamber:
+To access the |cFFFFFD00Dormant Alcove|r:
 
 1. Complete chapter 6 of the Zereth Mortis campaign.
 2. Find the |cFFFFFD00Dormant Alcove Arrangement|r in the |cFFFFFD00Resonant Peaks|r.
@@ -686,10 +695,10 @@ To access the |cFFFFFD00Dormant Alcove|r chamber:
 ]]
 
 L['rondure_alcove_note'] = [[
-To access the |cFFFFFD00Rondure Alcove|r chamber:
+To access the |cFFFFFD00Rondure Alcove|r:
 
 1. Complete chapter 6 of the Zereth Mortis campaign.
-2. Find the |cFFFFFD00Rondure Alcove Arrangement|r in the |cFFFFFD00Resonant Peaks|r (on the Tertius Locus platform).
+2. Find the |cFFFFFD00Rondure Alcove Arrangement|r on the Tertius Locus platform.
 3. Use the {npc:184329} inside the Gravid Repose to access the Inner Chamber.
 4. Use a different {npc:184485} to access the Rondure Alcove.
 ]]
@@ -812,6 +821,7 @@ L['schematic_mawdapted_raptora_note'] = 'Small chance to drop from {npc:181412s}
 L['schematic_microlicid_note'] = 'On the lowest branch of the floating tree, underneath some foliage.'
 L['schematic_omnipotential_core_note'] = 'Found in the |cFFFFFD00Rondure Alcove|r. The schematic is hidden behind the upper lip of the archway on the south-west side of the room.'
 L['schematic_prototickles_note'] = 'Attached to a floating chain inside the vines above the {npc:180978} rare.'
+L['schematic_prototype_fleetpod_note'] = 'Found inside the Camber Alcove. Interact with the {npc:184900} to start a minigame. Guide the snail through 5 rings without touching {npc:185455s} to win the schematic.'
 L['schematic_raptora_swooper_note'] = 'Found inside the Chamber of Shaping.'
 L['schematic_resonant_echo_note'] = 'Chance to be found inside a |cFFFFFD00Crystallized Echo of the First Song|r.'
 L['schematic_russet_bufonid_note'] = 'Chance to be found in the {item:187780} paragon cache.'

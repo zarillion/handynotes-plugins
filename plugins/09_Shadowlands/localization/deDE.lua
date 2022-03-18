@@ -683,6 +683,7 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['camber_alcove_note'] = nil
 L['dormant_alcove_note'] = nil
 L['rondure_alcove_note'] = nil
 
@@ -794,6 +795,7 @@ L['schematic_mawdapted_raptora_note'] = 'Geringe Chance, von {npc:181412} im Geb
 L['schematic_microlicid_note'] = 'Auf dem untersten Ast des schwebendem Baumes, unter dem Blätterwerk.'
 L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = 'An einer schwebenden Kette im Inneren der Ranken über dem seltenen Gegner {npc:180978}.'
+L['schematic_prototype_fleetpod_note'] = nil
 L['schematic_raptora_swooper_note'] = 'Zu finden in der Kammer der Gestaltung'
 L['schematic_resonant_echo_note'] = 'Hat eine Chance in {item:189172} enthalten zu sein.'
 L['schematic_russet_bufonid_note'] = 'Hat eine Chance in der {item:187780} (Paragontruhe) enthalten zu sein.'

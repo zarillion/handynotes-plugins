@@ -677,6 +677,7 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['camber_alcove_note'] = nil
 L['dormant_alcove_note'] = [[
 Para acceder a ella tienes que:
 
@@ -805,6 +806,7 @@ L['schematic_mawdapted_raptora_note'] = 'Pequeña probabilidad de que lo suelte 
 L['schematic_microlicid_note'] = 'En la rama más baja del árbol flotante, debajo de algo de follaje.'
 L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = 'Unido a una cadena flotante dentro de las vides de encima del raro {npc:180978}.'
+L['schematic_prototype_fleetpod_note'] = nil
 L['schematic_raptora_swooper_note'] = 'Dentro de la Cámara de Formación.'
 L['schematic_resonant_echo_note'] = 'Probabilidad de que esté dentro de un |cFFFFFD00Eco Cristalizado de la Primera Canción|r.'
 L['schematic_russet_bufonid_note'] = 'Probabilidad de que esté en el cofre de reputación {item:187780}.'

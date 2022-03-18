@@ -676,6 +676,7 @@ L['tormentors_note'] = [[
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['camber_alcove_note'] = nil
 L['dormant_alcove_note'] = nil
 L['rondure_alcove_note'] = nil
 
@@ -787,6 +788,7 @@ L['schematic_mawdapted_raptora_note'] = '位于 |cFFFFFD00无尽流沙|r 的 {np
 L['schematic_microlicid_note'] = '在浮空树最低的树枝上，在一些树叶下面。'
 L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = '附在 {npc:180978} 稀有上方藤蔓内的浮动链上。'
+L['schematic_prototype_fleetpod_note'] = nil
 L['schematic_raptora_swooper_note'] = '塑形之厅内发现。'
 L['schematic_resonant_echo_note'] = '|cFFFFFD00原初之歌的晶化回响|r 内几率发现。'
 L['schematic_russet_bufonid_note'] = '{item:187780} 巅峰宝箱内几率发现。'

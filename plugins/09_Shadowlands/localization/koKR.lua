@@ -562,6 +562,7 @@ L['tormentors_note'] = nil
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['camber_alcove_note'] = nil
 L['dormant_alcove_note'] = nil
 L['rondure_alcove_note'] = nil
 
@@ -644,6 +645,7 @@ L['schematic_mawdapted_raptora_note'] = nil
 L['schematic_microlicid_note'] = nil
 L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = nil
+L['schematic_prototype_fleetpod_note'] = nil
 L['schematic_raptora_swooper_note'] = nil
 L['schematic_resonant_echo_note'] = nil
 L['schematic_russet_bufonid_note'] = nil

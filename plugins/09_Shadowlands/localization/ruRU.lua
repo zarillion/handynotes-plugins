@@ -677,6 +677,7 @@ L['tormentors_note'] = [[
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['camber_alcove_note'] = nil
 L['dormant_alcove_note'] = nil
 L['rondure_alcove_note'] = nil
 
@@ -786,6 +787,7 @@ L['schematic_mawdapted_raptora_note'] = 'Небольшой шанс получ�
 L['schematic_microlicid_note'] = 'На самой нижней ветке висящего дерева, под листвой.'
 L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = 'Прикреплен к висящей цепи внутри лозы над редким монстром {npc:180978}.'
+L['schematic_prototype_fleetpod_note'] = nil
 L['schematic_raptora_swooper_note'] = 'Находится внутри Залов Ваяния.'
 L['schematic_resonant_echo_note'] = 'Можно получить из сундуков |cFFFFFD00Кристаллизованное эхо первой песни|r.'
 L['schematic_russet_bufonid_note'] = 'Можно получить из {item:187780} - награда идеала.'
