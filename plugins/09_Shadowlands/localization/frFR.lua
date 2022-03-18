@@ -750,6 +750,8 @@ L['cache_discarded_automa'] = 'Débris d\'Automa abandonné'
 L['cache_forgotten_vault'] = 'Salle du trésor oubliée'
 L['cache_mawsworn_supply'] = 'Coffre de fournitures antreliges'
 L['cache_tarachnid_eggs'] = 'Oeufs de Tarachnidé'
+L['cache_shrouded_cypher'] = nil
+L['cache_shrouded_cypher_note'] = nil
 
 L['cache_cantaric'] = 'Cache cantabilienne'
 L['cache_fugueal'] = 'Cache fuguéal'
@@ -841,3 +843,5 @@ L['options_icons_puzzle_caches'] = 'Caches de la création (Puzzle)'
 L['options_icons_puzzle_caches_desc'] = 'Afficher les emplacements possibles des caches de puzzles'
 L['options_icons_zereth_caches'] = 'Caches cryptiques' -- Needs Review
 L['options_icons_zereth_caches_desc'] = 'Afficher les emplacements possibles des Caches cryptiques' -- Needs Review
+L['options_icons_shrouded_cyphers'] = nil
+L['options_icons_shrouded_cyphers_desc'] = nil

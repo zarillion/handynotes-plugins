@@ -749,6 +749,8 @@ L['cache_discarded_automa'] = '被丟棄的自主機碎塊'
 L['cache_forgotten_vault'] = '被遺忘的藏寶庫'
 L['cache_mawsworn_supply'] = '淵誓補給箱'
 L['cache_tarachnid_eggs'] = '原蛛卵'
+L['cache_shrouded_cypher'] = nil
+L['cache_shrouded_cypher_note'] = nil
 
 L['cache_cantaric'] = '肯塔瑞克原鎖'
 L['cache_fugueal'] = '符古爾原鎖'
@@ -840,3 +842,5 @@ L['options_icons_puzzle_caches'] = '謎題箱'
 L['options_icons_puzzle_caches_desc'] = '顯示謎題箱子的位置'
 L['options_icons_zereth_caches'] = '暗語箱'
 L['options_icons_zereth_caches_desc'] = '顯示暗語箱可能的位置'
+L['options_icons_shrouded_cyphers'] = nil
+L['options_icons_shrouded_cyphers_desc'] = nil

@@ -258,6 +258,8 @@ ns.groups.STYGIAN_CACHES = Group('stygian_caches', 'chest_nv',
 ns.groups.VESPERS = Group('vespers', 3536181, {defaults = ns.GROUP_HIDDEN})
 ns.groups.ZERETH_CACHE = Group('zereth_caches', 3950362,
     {defaults = ns.GROUP_HIDDEN75})
+ns.groups.SHROUDED_CYPHER = Group('shrouded_cyphers', 3950362,
+    {defaults = ns.GROUP_HIDDEN75})
 ns.groups.ZOVAAL_VAULT = Group('zovault', 'star_chest_g',
     {defaults = ns.GROUP_ALPHA75})
 

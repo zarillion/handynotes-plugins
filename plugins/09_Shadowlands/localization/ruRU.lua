@@ -748,6 +748,8 @@ L['cache_discarded_automa'] = 'Выброшенные обломки автом�
 L['cache_forgotten_vault'] = 'Забытый склад сокровищ'
 L['cache_mawsworn_supply'] = 'Сундук с припасами Верных Утробе'
 L['cache_tarachnid_eggs'] = 'Яйцо тарахнидов'
+L['cache_shrouded_cypher'] = nil
+L['cache_shrouded_cypher_note'] = nil
 
 L['cache_cantaric'] = 'Тайник кантаты'
 L['cache_fugueal'] = 'Тайник фуги'
@@ -839,3 +841,5 @@ L['options_icons_puzzle_caches'] = 'Тайники с головоломками
 L['options_icons_puzzle_caches_desc'] = 'Показать возможные местоположения тайников с головоломками.'
 L['options_icons_zereth_caches'] = 'Защищенные шифром тайники'
 L['options_icons_zereth_caches_desc'] = 'Отображение возможных местоположений защищенных шифром тайников.'
+L['options_icons_shrouded_cyphers'] = nil
+L['options_icons_shrouded_cyphers_desc'] = nil

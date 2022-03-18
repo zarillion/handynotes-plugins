@@ -750,6 +750,8 @@ L['cache_discarded_automa'] = 'Chatarra de Automa Desechada'
 L['cache_forgotten_vault'] = 'Cámara del Tesoro Olvidada'
 L['cache_mawsworn_supply'] = 'Cofre de Suministros Jurafauces'
 L['cache_tarachnid_eggs'] = 'Huevos de Tarácnido'
+L['cache_shrouded_cypher'] = nil
+L['cache_shrouded_cypher_note'] = nil
 
 L['cache_cantaric'] = 'Alijo Cantárico'
 L['cache_fugueal'] = 'Alijo de Fuga'
@@ -841,3 +843,5 @@ L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
 L['options_icons_puzzle_caches_desc'] = 'Muestra los sitios posibles para los alijos puzzle.'
 L['options_icons_zereth_caches'] = 'Cofres con Clave'
 L['options_icons_zereth_caches_desc'] = 'Muestra los sitios posibles para los cofres con clave.'
+L['options_icons_shrouded_cyphers'] = nil
+L['options_icons_shrouded_cyphers_desc'] = nil

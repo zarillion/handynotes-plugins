@@ -756,6 +756,8 @@ L['cache_discarded_automa'] = 'Weggeworfener Automaschrott'
 L['cache_forgotten_vault'] = 'Vergessener Schatztresor'
 L['cache_mawsworn_supply'] = 'Schlundgebundene Vorratstruhe'
 L['cache_tarachnid_eggs'] = 'Tarachnideneier'
+L['cache_shrouded_cypher'] = nil
+L['cache_shrouded_cypher_note'] = nil
 
 L['cache_cantaric'] = 'Kantarische Truhe'
 L['cache_fugueal'] = 'Fugalische Truhe'
@@ -847,3 +849,5 @@ L['options_icons_puzzle_caches'] = 'Schätze der Schöpfung'
 L['options_icons_puzzle_caches_desc'] = 'Zeigt die möglichen Positionen von Schätzen der Schöpfung an.'
 L['options_icons_zereth_caches'] = 'Chiffren Truhen'
 L['options_icons_zereth_caches_desc'] = 'Zeigt mögliche Positionen für Truhen, die Chiffren der Ersten enthalten.'
+L['options_icons_shrouded_cyphers'] = nil
+L['options_icons_shrouded_cyphers_desc'] = nil
