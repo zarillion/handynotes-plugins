@@ -828,7 +828,7 @@ L['patient_bufonid_note_day6'] = 'Compra {item:190880} x5 a {npc:185748} cerca d
 L['patient_bufonid_note_day7'] = 'Compra {item:187171} x1 a {npc:180114} en la mazmorra de Tazavesh.'
 
 L['lost_comb'] = 'Panal Perdido'
-L['soulshape_penguin_note'] = 'Está encima de la forja flotante. Interactúa con el {npc:185279} para conseguir el objeto.'
+L['soulshape_penguin_note'] = 'Está encima de la forja flotante.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas para el logro {achievement:15211}.'
