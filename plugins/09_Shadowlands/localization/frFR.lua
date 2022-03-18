@@ -757,6 +757,7 @@ L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol e
 L['pulp_covered_relic'] = 'Relique couverte de pulpe'
 L['requisites_originator_note'] = [[
 Une machine qui vous donnera différentes récompenses une fois par jour :
+
 • |cFFFFFD00Accéder aux réserves auriques|r = Matériaux d'Enchantement + or
 • |cFFFFFD00Récupérer le réservoir d’anima portatif|r = Anima
 • |cFFFFFD00Générer une pièce encodée|r = Cryptogrammes
@@ -771,6 +772,7 @@ L['sandworn_chest_note'] = 'Récupérez 5x {item:190198} sur les monstres de la 
 L['sand_piles'] = 'Tas de sable'
 L['sand_piles_note'] = [[
 Tous les tas de sable se trouvent dans la chambre cachée de l'Alcôve Dormante. Chaque tas requiert un {item:189863}, qui peut être trouvé dans d'autres trésors de la zone :
+
 • Cache de domination
 • Caveau déchu
 • Artéfact chipé
@@ -791,9 +793,9 @@ L['cache_tarachnid_eggs'] = 'Oeufs de Tarachnidé'
 L['cache_shrouded_cypher'] = 'Cache cryptique dissimulée'
 L['cache_shrouded_cypher_note'] = [[
 Ces caches ne peuvent être vues que si l'on porte un Équipement Cryptique approprié :
+
 |cFF00FF00Améliore la perception de Pocopoc, ce qui lui permet de détecter des caches supplémentaires.|r
 ]]
-
 
 L['cache_cantaric'] = 'Cache cantabilienne'
 L['cache_fugueal'] = 'Cache fuguéal'
