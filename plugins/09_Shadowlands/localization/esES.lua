@@ -677,7 +677,14 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
-L['dormant_alcove_note'] = nil
+L['dormant_alcove_note'] = [[
+Para acceder a ella tienes que:
+
+1. Completar el capítulo 6 de la campaña de Zereth Mortis.
+2. Encontrar la |cFFFFFD00Alcoba Durmiente|r en las |cFFFFFD00Cumbres Resonantes|r.
+3. Usar el {npc:184329} para acceder al Enclave Interior.
+4. Usar un {npc:184485} diferente para acceder a la Alcoba Durmiente.
+]]
 L['rondure_alcove_note'] = nil
 
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
@@ -750,14 +757,7 @@ L['sandworn_chest'] = 'Cofre Erosionado por la Arena'
 L['sandworn_chest_note'] = 'Despoja {item:190198} x5 de los enemigos de la zona para construir la {item:190197}.'
 L['sand_piles'] = 'Montones de Arena'
 L['sand_piles_note'] = [[
-Todos los montones de arena están en una cámara secreta subterránea. Para acceder a ella tienes que:
-
-1. Completar el capítulo 6 de la campaña de Zereth Mortis.
-2. Encontrar la |cFFFFFD00Alcoba Durmiente|r en las |cFFFFFD00Cumbres Resonantes|r.
-3. Usar el {npc:184329} para acceder al Enclave Interior.
-4. Usar un {npc:184485} diferente para acceder a la Alcoba Durmiente.
-
-Cada montón requiere un {item:189863}, los cuales se pueden encontrar en otros tesoros de la zona:
+Todos los montones de arena están en una cámara secreta subterránea. Cada montón requiere un {item:189863}, los cuales se pueden encontrar en otros tesoros de la zona:
 
 • Alijo de Dominación
 • Caja Fuerte Caída
