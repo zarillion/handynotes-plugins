@@ -300,11 +300,11 @@ L['riftbound_cache_note'] = 'There are 4 unique caches that can each appear at s
 L['options_icons_riftbound_cache'] = 'Riftbound Caches'
 L['options_icons_riftbound_cache_desc'] = 'Display the locations of caches inside |cFFFFFF00The Rift|r.'
 
-L['invasive_mawshroom'] = 'Invasive Mawshroom'
+L['invasive_mawshroom'] = '침습성 나락버섯'
 L['invasive_mawshroom_note'] = 'There are 5 unique mawshrooms that can each appear at set locations.'
-L['mawsworn_cache'] = '나락살이 Cache'
+L['mawsworn_cache'] = '나락살이 보관함'
 L['mawsworn_cache_note'] = 'There are 3 unique caches that can each appear at set locations.'
-L['pile_of_bones'] = 'Pile of Bones'
+L['pile_of_bones'] = '뼈 무더기'
 L['relic_cache'] = 'Relic Cache'
 L['shardhide_stash'] = 'Shardhide Stash'
 L['korthia_shared_chest_note'] = 'Can be looted 5 times for relics. Progress resets every 30 minutes, making them effectively unlimited.'
@@ -676,13 +676,13 @@ The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
-L['corrupted_architect_note'] = '{npc:183958}, {npc:183961}와 교전을 시작하면 활성화됩니다.'
+L['corrupted_architect_note'] = '{npc:183958}, {npc:183961}와 전투를 시작하면 활성화됩니다.'
 L['dune_dominance_note'] = '{achievement:15392} 업적에 필요한 희귀몹 셋 모두 이 위치에 생성됩니다.'
-L['feasting_note'] = 'Will sometimes circle the area before returning to this spot.'
-L['furidian_note'] = 'Activate three |cFFFFFD00강화된 열쇠|r in the area, then unlock the |cFFFFFD00수상하게 성난 금고|r.'
+L['feasting_note'] = '해당 위치로 돌아오기 전에 근처를 배회하고 있을 수 있습니다.'
+L['furidian_note'] = '주변에서 |cFFFFFD00강화된 열쇠|r 세 개를 활성화한 후, |cFFFFFD00수상하게 성난 금고|r를 엽니다.'
 L['garudeon_note'] = 'Collect {npc:183562s} from the surrounding area and use {spell:362655} to feed the {npc:183554s}. Once all three are fed, {npc:180924} will activate.'
-L['gluttonous_overgrowth_note'] = 'Break all nearby {npc:184048s} to activate the rare.'
-L['helmix_note'] = '|cFFFF8C00The ground vibrates... something burrows beneath the surface!|r'
+L['gluttonous_overgrowth_note'] = '근처의 모든 {npc:184048}를 제거하면 나타납니다.'
+L['helmix_note'] = '|cFFFF8C00지면이 진동합니다... 무언가가 지표면 아래에 잠복하고 있습니다!|r'
 L['hirukon_note'] = [[
 To entice {npc:180978} to the surface, an {item:187923} must be created.
 
@@ -698,19 +698,19 @@ To entice {npc:180978} to the surface, an {item:187923} must be created.
 
 6. Use the {item:187923}, allowing you to see the |cFFFFFD00Aurelid Cluster|r fishing pool near {npc:180978} for 15min. Fish in it to summon {npc:180978} to the surface.
 ]] -- Breaking my rule of no coords in the notes for this one
-L['orixal_note'] = 'Shares a spawn with the {npc:185487} patrolling the area.'
+L['orixal_note'] = '{npc:185487}와 생성을 공유합니다. {npc:185487}가 주변에 있으면 처치한 후 다음 생성을 기다리세요.'
 L['protector_first_ones_note'] = 'Requires two people. Bring the matching runes to each console (found in the surrounding area) to open the barrier.'
 L['the_engulfer_note'] = 'Defend {npc:183505} until {npc:183516} jumps out of the rift.'
-L['zatojin_note'] = 'Pull nearby {npc:183721s} and let you apply 20 stacks of {spell:362976} until you are {spell:362983}. You must be standing over the {npc:183774} corpses when you are paralyzed for {npc:183764} to notice you.'
+L['zatojin_note'] = '근처에 있는 {npc:183721}와 전투를 벌여 {spell:362976} 디버프를 20중첩 받으면 {spell:362983} 효과를 얻습니다. {npc:183764}의 주의를 끌려면 마비될 때 {npc:183774} 시체 위에 서있어야 합니다.'
 
-L['architects_reserve_note'] = '순례자의 은총에 있는 {npc:180630}에게서 받는 {quest:64829} 연계 퀘스트를 모두 완료하세요. 다음 날, {npc:181273}에게서 받는 {quest:65426} 연계퀘스트를 모두 완료하면 상자 잠금이 해제됩니다.'
+L['architects_reserve_note'] = '순례자의 은총에 있는 {npc:180630}에게서 받는 {quest:64829} 연계 퀘스트를 모두 완료하면 상자 잠금이 해제됩니다.'
 L['bushel_of_produce_note'] = 'Kill a {npc:182368} to the north while it is buffed with {spell:360945} to gain the buff yourself. Kill more {npc:182368s} (they do not need the buff) until you are at 5 stacks, then break down the door to the treasure.'
 L['crushed_crate_note'] = 'Loot the {item:189767} sitting on the fallen pillar above the treasure. Give it to {npc:185151} in exchange for the {item:189768} which can break the fallen rocks.'
-L['domination_cache_note'] = 'The {item:189704} has a low chance to drop from {npc:181403s} and {npc:182426s} in the area.'
+L['domination_cache_note'] = '{item:189704}는 해당 지역의 {npc:181403}과 {npc:182426}가 낮은 확률로 드랍합니다.'
 L['drowned_broker_supplies_note'] = 'Tell {npc:181059} to take control of the nearby {npc:185282}.'
 L['forgotten_protovault_note'] = 'Only available during the {wq:Frog\'it} world quest.'
 L['grateful_boon_note'] = 'Difficult to reach without flying; use {spell:300728} or {spell:111771} to ascend the mountain. Soothe all 12 creatures in the area and {npc:185293} will spawn the treasure.'
-L['library_vault_note'] = 'Click tablets in the Lexical Grotto until you find the correct {spell:362062} buff to open the vault.'
+L['library_vault_note'] = '어휘의 굴 내의 클릭 가능한 서판을 하나씩 눌러봐서 {spell:362062} 버프를 획득하면 상자를 열 수 있습니다.'
 L['mistaken_ovoid_note'] = 'Inside Dimensional Falls cavern. You must collect 5x {item:190239} and bring them to the {npc:185280}.'
 L['ripened_protopear_note'] = 'Begin the {quest:64641} quest chain to gain access to the Blooming Foundry. Collect 5 {spell:367180} (green clouds) inside and bring them to the {npc:185416} to pollinate it.'
 L['sphere_treasure_note'] = 'Carefully jump up the spheres until you reach the treasure.'
@@ -719,17 +719,17 @@ L['symphonic_vault_note'] = 'Examine the {npc:183998} to hear a sequence of four
 L['syntactic_vault_note'] = 'To unlock the treasure, you must gain 6 stacks of {spell:367499} by interacting with |cFFFFFD00Runic Syllables|r in the Sepulcher of the First Ones area.'
 L['template_archive_note'] = 'Push the {npc:183339} in the room into the {npc:183337} blocking the path to the treasure.'
 L['undulating_foliage_note'] = [[
-Press the four {npc:185390s} to activate the teleporter in the center room of the Catalyst Wards.
+네 개의 {npc:185390}를 활성화 하면 촉매의 성역 가운데 방에 있는 순간이동기가 활성화됩니다.
 
-• Outside behind the |cFFFFFD00Catalyst Wards Lock|r
-• In the south-west room of the wards
-• In the southern room with {npc:181652}
-• In the south-east room of the wards
+• 성역 입구 왼쪽 |cFFFFFD00촉매의 성역 자물쇠|r 뒤
+• 성역의 남서쪽 방 안
+• {npc:181652}가 있는 남쪽방 안
+• 성역의 남동쪽 방 안
 ]]
 
-L['provis_cache'] = 'Locked Provis Cache'
+L['provis_cache'] = '잠긴 공급지 보관함'
 L['provis_cache_note'] = [[
-Complete the {quest:64717} daily quest from {npc:177958} at least once.
+Complete the {quest:64717} 일일 퀘스트 from {npc:177958} at least once.
 
 Use {item:187516} at forges across the zone to collect 15 {item:187728} and combine them into an {item:187787}. This orb has a chance to contain the key.
 ]]
@@ -737,7 +737,7 @@ L['prying_eye_discovery'] = '감시 기계의 발견물'
 L['prying_eye_discovery_note'] = '비행이 해금된 후에 접근하기 더 쉽습니다.'
 L['pulp_covered_relic'] = '걸쭉한 수액으로 뒤덮인 유물'
 L['sandworn_chest'] = '모래에 바랜 상자'
-L['sandworn_chest_note'] = '해당 지역의 몹으로부터 {item:190198} 5개를 획득하여 {item:190197}를 만드세요.'
+L['sandworn_chest_note'] = '해당 지역의 몹으로부터 {item:190198} 5개를 획득하여 {item:190197}를 제작합니다.'
 
 L['cache_avian_nest'] = '새둥지'
 L['cache_cypher_bound'] = '암호 결속상자'
@@ -757,20 +757,20 @@ L['schematic_treasure_mount_note'] = '|cFFFF8C00This schematic is found in a nea
 L['schematic_treasure_pet_note'] = '|cFFFF8C00This schematic is found in a nearby one-time treasure. If the treasure is opened prior to unlocking the pet synthesizer, the schematic can be found here.|r'
 L['schematic_bronze_helicid_note'] = 'Chance to be found in the {item:190610} from the bi-weekly quest {quest:65324}.'
 L['schematic_ambystan_darter_note'] = 'Hidden under the water next to the {npc:185312}.'
-L['schematic_bronzewing_vespoid_note'] = 'Inside the Gravid Repose.'
+L['schematic_bronzewing_vespoid_note'] = '수태의 휴식처 안에 있습니다.'
 L['schematic_buzz_note'] = 'Chance to be found in a {npc:185265}.'
-L['schematic_curious_crystalsniffer_note'] = 'Available for a short time after {npc:184915} is defeated inside the |cFFFFFD00Sepulcher of the First Ones|r raid.'
-L['schematic_darkened_vombata_note'] = 'Inside a floating cage.'
+L['schematic_curious_crystalsniffer_note'] = 'Available for a short time after {npc:184915} is defeated inside the |cFFFFFD00태초의 존재의 매장터|r 공격대 던전.'
+L['schematic_darkened_vombata_note'] = '공중에 떠있는 쇠창살 안에 있습니다.'
 L['schematic_deathrunner_note'] = 'Obtained as part of the {spell:366367} unlock quest chain.'
-L['schematic_desertwing_hunter_note'] = 'Located on top of the pillar.'
-L['schematic_fierce_scarabid_note'] = 'Hidden under the platform the {npc:181870} is standing on.'
-L['schematic_forged_spiteflyer_note'] = 'Sticking out of a vespoid hive cluster.'
-L['schematic_genesis_crawler_note'] = 'Found on top of the entrance to the Genesis Alcove.'
+L['schematic_desertwing_hunter_note'] = '기둥 꼭대기에 있습니다.'
+L['schematic_fierce_scarabid_note'] = '{npc:181870}가 있는 단 아래 숨겨져 있습니다.'
+L['schematic_forged_spiteflyer_note'] = '원시벌 벌집에 삐죽 튀어나와 있습니다.'
+L['schematic_genesis_crawler_note'] = '기원의 벽감 입구 지붕 꼭대기 근처에 있습니다.'
 L['schematic_goldplate_bufonid_note'] = '{npc:178803}로부터 낮은 확률로 획득할 수 있습니다.'
 L['schematic_heartbond_lupine_note'] = '{npc:179939}로부터 낮은 확률로 획득할 수 있습니다.'
-L['schematic_ineffable_skitterer_note'] = 'Kill yourself! No, really ... you can only see the {npc:185092} in |cFFFFFD00Exile\'s Hollow|r when you are a ghost.'
-L['schematic_leaping_leporid_note'] = 'Found on top of a floating tree.'
-L['schematic_mawdapted_raptora_note'] = 'Small chance to drop from {npc:181412s} in the |cFFFFFD00Endless Sands|r.'
+L['schematic_ineffable_skitterer_note'] = 'Kill yourself! No, really ... you can only see the {npc:185092} in |cFFFFFD00추방자의 굴|r when you are a ghost.'
+L['schematic_leaping_leporid_note'] = '공중에 떠있는 나무의 꼭대기에 있습니다.'
+L['schematic_mawdapted_raptora_note'] = '|cFFFFFD00끝없는 모래|r에 있는 {npc:181412}가 낮은 확률로 드랍합니다.'
 L['schematic_microlicid_note'] = 'On the lowest branch of the floating tree, underneath some foliage.'
 L['schematic_prototickles_note'] = 'Attached to a floating chain inside the vines above the {npc:180978} rare.'
 L['schematic_raptora_swooper_note'] = 'Found inside the Chamber of Shaping.'
@@ -778,13 +778,13 @@ L['schematic_resonant_echo_note'] = 'Chance to be found inside a |cFFFFFD00Cryst
 L['schematic_russet_bufonid_note'] = 'Chance to be found in the {item:187780} paragon cache.'
 L['schematic_scarlet_helicid_note'] = 'Found on top of the arch structure.'
 L['schematic_serenade_note'] = 'Located in a chain underneath a floating platform in the |cFFFFFD00Immortal Hearth|r area of the raid.'
-L['schematic_shelly_note'] = 'Located on the back side of a shelf in the Lexical Grotto. Requires a teleport ability to climb the shelf.'
+L['schematic_shelly_note'] = 'Located on the back side of a shelf in the 어휘의 굴. Requires a teleport ability to climb the shelf.'
 L['schematic_stabilized_geomental_note'] = 'Chance to be dropped by {npc:182169} inside the |cFFFFFD00Sepulcher of the First Ones|r raid.'
 L['schematic_tarachnid_creeper_note'] = '끝없는 모래 지역의 작은 건물 안에 있습니다.'
-L['schematic_terror_jelly_note'] = 'On top of the square pylon next to the ramp.'
+L['schematic_terror_jelly_note'] = '경사로 오른쪽의 네모난 탑 위에 있습니다.'
 L['schematic_tunneling_vombata_note'] = 'Next to some rubble in a blocked tunnel inside the Locrian Esper complex.'
-L['schematic_vespoid_flutterer_note'] = 'Sticking out of a pile of sand on the Primus Locus tier of the Resonant Peaks.'
-L['schematic_violent_poultrid_note'] = 'Chance to drop from the {daily:65256} daily quest.'
+L['schematic_vespoid_flutterer_note'] = '공명의 봉우리의 제1의 공간 층에 있는 모래더미에 일부 튀어나와 있습니다.'
+L['schematic_violent_poultrid_note'] = '{daily:65256} 일일 퀘스트 보상에서 일정 확률로 얻을 수 있습니다.'
 
 L['concordance_excitable'] = '격앙의 색인'
 L['concordance_mercurial'] = '변덕의 색인'
@@ -795,7 +795,7 @@ L['echoed_jiro_note'] = '{npc:181059} 에너지를 소비하여 임시 버프를
 
 L['bygone_elemental_note'] = 'A {npc:181221} can spawn in place of any {npc:179007} in the area.'
 L['dominated_irregular_note'] = 'A {npc:184819} can spawn in place of any {npc:183184} in the area.'
-L['gaiagantic_note'] = 'Only spawns when {npc:177958} offers the {quest:64785} daily quest.'
+L['gaiagantic_note'] = 'Only spawns when {npc:177958} offers the {quest:64785} 일일 퀘스트.'
 L['misaligned_enforcer_note'] = 'Patrols the area and then despawns at the end of his route.'
 L['overcharged_vespoid_note'] = 'Can spawn as part of any swarm pack in the area.'
 L['runethief_xylora_note'] = 'Spawns stealthed in the Pilgrim\'s Grace area.'
@@ -803,13 +803,13 @@ L['runethief_xylora_note'] = 'Spawns stealthed in the Pilgrim\'s Grace area.'
 local proto_area = 'Chance to be found in forges around the |cFFFFFD00%s|r.'
 L['proto_material_zone_chance'] = 'Chance to be found in select forges across the zone.'
 L['anima_charged_yolk_note'] = 'Collect {item:187728} from any forge and combine them into an {item:187787}, which has a chance to contain an {item:187890}.'
-L['energized_firmament_note'] = string.format(proto_area, 'Resonant Peaks')
+L['energized_firmament_note'] = string.format(proto_area, '공명의 봉우리')
 L['honeycombed_lattice_note'] = string.format(proto_area, 'Droning Precipice')
 L['incorporeal_sand_note'] = 'Chance to be found in forges in the desert areas of the zone.'
 L['pollinated_extraction_note'] = string.format(proto_area, 'Untamed Verdure')
-L['serene_pigment_note'] = 'In a forge above the entrance to |cFFFFFD00Exile\'s Hollow|r. May require multiple tries.'
+L['serene_pigment_note'] = 'In a forge above the entrance to |cFFFFFD00추방자의 굴|r. May require multiple tries.'
 L['volatile_precursor_note'] = 'Found in the smaller forge on top. May require multiple tries.'
-L['wayward_essence_note'] = 'In a floating forge behind |cFFFFFD00Exile\'s Hollow|r. Stand in the indent to tap the forge.'
+L['wayward_essence_note'] = 'In a floating forge behind |cFFFFFD00추방자의 굴|r. Stand in the indent to tap the forge.'
 
 L['patient_bufonid_note'] = 'Progress in the 제레스 모르티스 story until {npc:180950} offers {quest:65727}. Complete the quests each day to lure the {npc:185798} out of the pond.'
 L['patient_bufonid_note_day1'] = '지역 내 원시벌에게서 {item:190852} 15개를 모으세요.'
@@ -829,7 +829,7 @@ L['options_icons_echoed_jiros_desc'] = '이로운 효과를 주는 |cFFFFFD00지
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = '{achievement:15509} 업적을 위한 추방기의 위치를 표시합니다.'
 L['options_icons_proto_materials'] = '{achievement:15229}'
-L['options_icons_proto_materials_desc'] = 'Display rare protoform material locations for the {achievement:15229}'
+L['options_icons_proto_materials_desc'] = '{achievement:15229}에 필요한 희귀 합성 재료 위치를 표시합니다.'
 L['options_icons_protoform_schematics'] = '원생형태 합성 설계도'
 L['options_icons_protoform_schematics_desc'] = '탈것과 애완동물 설계도의 위치를 표시합니다.'
 L['options_icons_puzzle_caches'] = '퍼즐 상자'
