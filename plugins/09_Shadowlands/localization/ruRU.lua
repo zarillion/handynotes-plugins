@@ -679,7 +679,9 @@ L['tormentors_note'] = [[
 
 L['camber_alcove_note'] = nil
 L['dormant_alcove_note'] = nil
+L['fulgore_alcove_note'] = nil
 L['rondure_alcove_note'] = nil
+L['repertory_alcove_note'] = nil
 
 L['corrupted_architect_note'] = 'Задействуйте {npc:183958} и {npc:183961}, чтобы активировать редкого монстра.'
 L['dune_dominance_note'] = 'Все три редких монстра для достижения {achievement:15392} появляются в этом месте.'
@@ -743,12 +745,15 @@ L['provis_cache_note'] = [[
 L['prying_eye_discovery'] = 'Находка любопытных'
 L['prying_eye_discovery_note'] = 'Легче добраться, когда полеты разблокированы.'
 L['pulp_covered_relic'] = 'Измазанная реликвия'
+L['requisites_originator_note'] = nil
 L['rondure_cache'] = nil
 L['rondure_cache_note'] = nil
 L['sandworn_chest'] = 'Пустынный сундук'
 L['sandworn_chest_note'] = 'Соберите 5x {item:190198} с монстров в этом районе, чтобы создать {item:190197}.'
 L['sand_piles'] = nil
 L['sand_piles_note'] = nil
+L['torn_ethereal_drape'] = nil
+L['torn_ethereal_drape_note'] = nil
 
 L['cache_avian_nest'] = 'Гнездо авиана'
 L['cache_cypher_bound'] = 'Защищенный шифром сундук'

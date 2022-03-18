@@ -676,32 +676,20 @@ The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
-L['camber_alcove_note'] = [[
-To access the |cFFFFFD00Camber Alcove|r:
+local HIDDEN_ALCOVE = [[
+To access the |cFFFFFD00%s Alcove|r:
 
 1. Complete chapter 6 of the Zereth Mortis campaign.
-2. Find the |cFFFFFD00Camber Alcove Arrangement|r behind the building at the Ultimus Locus.
+2. Find the |cFFFFFD00%s Alcove Arrangement|r %s.
 3. Use the {npc:184329} inside the Gravid Repose to access the Inner Chamber.
-4. Use a different {npc:184485} to access the Camber Alcove.
+4. Use a different {npc:184485} to access the %s Alcove.
 ]]
 
-L['dormant_alcove_note'] = [[
-To access the |cFFFFFD00Dormant Alcove|r:
-
-1. Complete chapter 6 of the Zereth Mortis campaign.
-2. Find the |cFFFFFD00Dormant Alcove Arrangement|r in the |cFFFFFD00Resonant Peaks|r.
-3. Use the {npc:184329} inside the Gravid Repose to access the Inner Chamber.
-4. Use a different {npc:184485} to access the Dormant Alcove.
-]]
-
-L['rondure_alcove_note'] = [[
-To access the |cFFFFFD00Rondure Alcove|r:
-
-1. Complete chapter 6 of the Zereth Mortis campaign.
-2. Find the |cFFFFFD00Rondure Alcove Arrangement|r on the Tertius Locus platform.
-3. Use the {npc:184329} inside the Gravid Repose to access the Inner Chamber.
-4. Use a different {npc:184485} to access the Rondure Alcove.
-]]
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Camber', 'Camber', 'behind the building at the Ultimus Locus', 'Camber')
+L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Dormant', 'Dormant', 'in the |cFFFFFD00Resonant Peaks|r', 'Dormant')
+L['fulgore_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Fulgore', 'Fulgore', 'in the |cFFFFFD00Resonant Peaks|r', 'Fulgore')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Rondure', 'Rondure', 'on the Tertius Locus platform', 'Rondure')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Repertory', 'Repertory', 'inside the Terrestial Cache cave', 'Repertory')
 
 L['corrupted_architect_note'] = 'Engage {npc:183958} and {npc:183961} to activate the rare.'
 L['dune_dominance_note'] = 'All three rare elites for the {achievement:15392} achievement spawn at this location.'
@@ -767,6 +755,16 @@ Use {item:187516} at forges across the zone to collect 15 {item:187728} and comb
 L['prying_eye_discovery'] = 'Prying Eye Discovery'
 L['prying_eye_discovery_note'] = 'Easier to reach once flying is unlocked.'
 L['pulp_covered_relic'] = 'Pulp-Covered Relic'
+L['requisites_originator_note'] = [[
+A machine that will give you different rewards once a day:
+
+• |cFFFFFD00Access Auric Reserves|r = Enchanting mats + gold
+• |cFFFFFD00Retrieve Portable Anima Reservoir|r = Anima
+• |cFFFFFD00Generate Encoded Specie|r = Cyphers
+• |cFFFFFD00Restore Genesis Potencies|r = Genesis Motes + {item:189179} (chance)
+• |cFFFFFD00Blend Utility Components|r = Cyphers/Motes/Anima
+• |cFFFFFD00Synthesis Ancillary Combat Implement|r = Cypher Equipment
+]]
 L['rondure_cache'] = 'Rondure Cache'
 L['rondure_cache_note'] = 'An interactable forge at the top of a jumping puzzle inside the Rondure Alcove.'
 L['sandworn_chest'] = 'Sandworn Chest'
@@ -783,6 +781,8 @@ All sand piles are found in the hidden Dormant Alcove chamber. Each pile require
 • Symphonic Vault
 • Undulating Foliage
 ]]
+L['torn_ethereal_drape'] = 'Torn Ethereal Drape'
+L['torn_ethereal_drape_note'] = 'Found inside the |cFFFFFD00Fulgore Alcove|r. Activate the |cFFFFFD00Automa Consoles|r, then ride the {npc:183565s} to reach the ceiling.'
 
 L['cache_avian_nest'] = 'Avian Nest'
 L['cache_cypher_bound'] = 'Cypher Bound Chest'

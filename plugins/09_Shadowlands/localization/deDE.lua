@@ -685,7 +685,9 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 
 L['camber_alcove_note'] = nil
 L['dormant_alcove_note'] = nil
+L['fulgore_alcove_note'] = nil
 L['rondure_alcove_note'] = nil
+L['repertory_alcove_note'] = nil
 
 L['corrupted_architect_note'] = 'Greife {npc:183958} und {npc:183961} an, um den seltenen Gegner zu aktivieren.'
 L['dune_dominance_note'] = 'Alle drei seltenen Elite für den {achievement:15392} Erfolg erscheinen an dieser Position.'
@@ -751,12 +753,15 @@ Verwende die {item:187516} an Progenitorschmieden (Sphären), die überall in Ze
 L['prying_eye_discovery'] = 'Entdeckung des Spürauges'
 L['prying_eye_discovery_note'] = 'Leichter zu erreichen, sobald das Fliegen freigeschaltet ist.'
 L['pulp_covered_relic'] = 'Breibedecktes Relikt'
+L['requisites_originator_note'] = nil
 L['rondure_cache'] = nil
 L['rondure_cache_note'] = nil
 L['sandworn_chest'] = 'Sandgeschliffene Truhe'
 L['sandworn_chest_note'] = 'Plündere 5x {item:190198} von Gegnern in dem Gebiet, um einen {item:190197} zu bauen.'
 L['sand_piles'] = nil
 L['sand_piles_note'] = nil
+L['torn_ethereal_drape'] = nil
+L['torn_ethereal_drape_note'] = nil
 
 L['cache_avian_nest'] = 'Ornidennest'
 L['cache_cypher_bound'] = 'Chiffrengebundene Truhe'

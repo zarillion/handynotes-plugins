@@ -857,6 +857,15 @@ map.nodes[53402570] = Treasure({
     pois = {POI({41903400, 50304120, 52804580, 53402570, 64366347})}
 }) -- Pulp-Covered Relic
 
+gpose.nodes[30776440] = Treasure({
+    quest = 65532,
+    label = '{npc:185261}',
+    parent = map.id,
+    note = L['requisites_originator_note'] .. '\n\n' ..
+        ns.color.Orange(L['repertory_alcove_note']),
+    pois = {POI({49613091})} -- Repertory Alcove Arrangement
+}) -- Requisites Originator
+
 map.nodes[42934005] = Treasure({
     quest = 65568,
     label = L['rondure_cache'],
@@ -904,6 +913,17 @@ map.nodes[44393666] = Treasure({
     },
     pois = {POI({51033248})} -- Dormant Alcove Arrangement
 }) -- Sand Piles
+
+map.nodes[46893964] = Treasure({
+    quest = 65643,
+    label = L['torn_ethereal_drape'],
+    note = L['torn_ethereal_drape_note'] .. '\n\n' ..
+        ns.color.Orange(L['fulgore_alcove_note']),
+    rewards = {
+        Transmog({item = 188054, slot = L['cloak']}) -- Antecedent Drape
+    },
+    pois = {POI({47853037})} -- Fulgore Alcove Arrangement
+}) -- Torn Ethereal Drape
 
 -------------------------------------------------------------------------------
 -------------------------------- PUZZLE CACHES --------------------------------

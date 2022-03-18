@@ -695,6 +695,8 @@ Pour accéder à l'|cFFFFFD00Alcôve Dormante|r :
 4. Utilisez un autre {npc:184485} pour accéder à l'alcôve Dormante.
 ]]
 
+L['fulgore_alcove_note'] = nil
+
 L['rondure_alcove_note'] = [[
 Pour accéder à l'|cFFFFFD00Alcôve Incurvée|r :
 1. Terminez le chapitre 6 de la campagne de Zereth Mortis.
@@ -702,6 +704,8 @@ Pour accéder à l'|cFFFFFD00Alcôve Incurvée|r :
 3. Utilisez le {npc:184329} à l'intérieur du Repos de la fertilité pour accéder à la Chambre Intérieure.
 4. Utilisez un autre {npc:184485} pour accéder à l'alcôve Incurvée.
 ]]
+
+L['repertory_alcove_note'] = nil
 
 L['corrupted_architect_note'] = 'Engagez en combat {npc:183958} et {npc:183961} pour activer le monstre rare.'
 L['dune_dominance_note'] = 'Les trois monstres élites rares pour le haut-fait {achievement:15392} apparaissent à cet endroit.'
@@ -765,6 +769,7 @@ Utilisez le {item:187516} aux forges de la zone pour récupérer 15 {item:187728
 L['prying_eye_discovery'] = 'Découverte d\'œil indiscret'
 L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol est déverrouillé.'
 L['pulp_covered_relic'] = 'Relique couverte de pulpe'
+L['requisites_originator_note'] = nil
 L['rondure_cache'] = 'Cache incurvée'
 L['rondure_cache_note'] = 'Une forge pouvant être cliquée au sommet d\'un parcours de sauts dans l\'Alcôve Incurvée.'
 L['sandworn_chest'] = 'Coffre erodé'
@@ -780,6 +785,8 @@ Tous les tas de sable se trouvent dans la chambre cachée de l'Alcôve Dormante.
 • Caveau symphonique
 • Feuillage ondulant
 ]]
+L['torn_ethereal_drape'] = nil
+L['torn_ethereal_drape_note'] = nil
 
 L['cache_avian_nest'] = 'Nid d\'oiseau'
 L['cache_cypher_bound'] = 'Coffre lié par un cryptogramme'

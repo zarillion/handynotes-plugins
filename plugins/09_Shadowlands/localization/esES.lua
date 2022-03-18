@@ -686,7 +686,9 @@ Para acceder a ella tienes que:
 3. Usar el {npc:184329} para acceder al Enclave Interior.
 4. Usar un {npc:184485} diferente para acceder a la Alcoba Durmiente.
 ]]
+L['fulgore_alcove_note'] = nil
 L['rondure_alcove_note'] = nil
+L['repertory_alcove_note'] = nil
 
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
 L['dune_dominance_note'] = 'Los tres élites raros para el logro {achievement:15392} aparecen en el mismo sitio.'
@@ -752,6 +754,7 @@ Usa el {item:187516} en las forjas de la zona para conseguir {item:187728} x15 y
 L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
 L['prying_eye_discovery_note'] = 'Es más fácil de alcanzar cuando el volar esté desbloqueado.'
 L['pulp_covered_relic'] = 'Reliquia Cubierta de Pulpa'
+L['requisites_originator_note'] = nil
 L['rondure_cache'] = nil
 L['rondure_cache_note'] = nil
 L['sandworn_chest'] = 'Cofre Erosionado por la Arena'
@@ -768,6 +771,8 @@ Todos los montones de arena están en una cámara secreta subterránea. Cada mon
 • Cámara Sinfónica
 • Follaje Ondulante
 ]]
+L['torn_ethereal_drape'] = nil
+L['torn_ethereal_drape_note'] = nil
 
 L['cache_avian_nest'] = 'Nido Aviario'
 L['cache_cypher_bound'] = 'Cofre Reforzado con Clave'

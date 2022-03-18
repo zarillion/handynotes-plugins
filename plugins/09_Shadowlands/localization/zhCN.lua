@@ -678,7 +678,9 @@ L['tormentors_note'] = [[
 
 L['camber_alcove_note'] = nil
 L['dormant_alcove_note'] = nil
+L['fulgore_alcove_note'] = nil
 L['rondure_alcove_note'] = nil
+L['repertory_alcove_note'] = nil
 
 L['corrupted_architect_note'] = '攻击 {npc:183958} 和 {npc:183961} 激活稀有。'
 L['dune_dominance_note'] = '{achievement:15392} 成就中全部3个稀有精英在此位置刷新。'
@@ -744,12 +746,15 @@ L['provis_cache_note'] = [[
 L['prying_eye_discovery'] = '窥探之眼的发现'
 L['prying_eye_discovery_note'] = '飞行解锁后容易到达。'
 L['pulp_covered_relic'] = '被粘浆覆盖的圣物'
+L['requisites_originator_note'] = nil
 L['rondure_cache'] = nil
 L['rondure_cache_note'] = nil
 L['sandworn_chest'] = '沙蚀宝箱'
 L['sandworn_chest_note'] = '从区域内怪物拾取5个 {item:190198} 组合成 {item:190197}。'
 L['sand_piles'] = nil
 L['sand_piles_note'] = nil
+L['torn_ethereal_drape'] = nil
+L['torn_ethereal_drape_note'] = nil
 
 L['cache_avian_nest'] = '元鸟之巢'
 L['cache_cypher_bound'] = '密文束缚的宝箱'
