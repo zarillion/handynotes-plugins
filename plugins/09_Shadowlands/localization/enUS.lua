@@ -791,7 +791,11 @@ L['cache_forgotten_vault'] = 'Forgotten Treasure Vault'
 L['cache_mawsworn_supply'] = 'Mawsworn Supply Chest'
 L['cache_tarachnid_eggs'] = 'Tarachnid Eggs'
 L['cache_shrouded_cypher'] = 'Shrouded Cypher Cache'
-L['cache_shrouded_cypher_note'] = 'Have to equip an {spell:364478} item.'
+L['cache_shrouded_cypher_note'] = [[
+These caches can only be seen while wearing an appropriate Cypher Equipment item:
+
+|cFF00FF00Enhances Pocopoc's perception, allowing it to discover additional hidden caches.|r
+]]
 
 L['cache_cantaric'] = 'Cantaric Cache'
 L['cache_fugueal'] = 'Fugueal Cache'
@@ -888,5 +892,5 @@ L['options_icons_puzzle_caches'] = 'Puzzle Caches'
 L['options_icons_puzzle_caches_desc'] = 'Display possible locations of puzzle caches.'
 L['options_icons_zereth_caches'] = 'Cypher Caches'
 L['options_icons_zereth_caches_desc'] = 'Display possible locations for cypher caches.'
-L['options_icons_shrouded_cyphers'] = 'Shrouded Cypher Cache'
-L['options_icons_shrouded_cyphers_desc'] = 'Display possible locations for shrouded cypher caches. Have to equip an {spell:364478} item.'
+L['options_icons_shrouded_cyphers'] = 'Shrouded Cypher Caches'
+L['options_icons_shrouded_cyphers_desc'] = 'Display possible locations for hidden cypher caches.'

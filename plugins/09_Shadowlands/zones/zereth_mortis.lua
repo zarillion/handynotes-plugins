@@ -1137,46 +1137,47 @@ microd.nodes[62764399] = Cache({
 })
 
 -------------------------------------------------------------------------------
----------------------------- SHROUDED CYPHER CACHE ----------------------------
+--------------------------- SHROUDED CYPHER CACHES ----------------------------
 -------------------------------------------------------------------------------
 
 -- https://www.wowhead.com/search?q=Shrouded+Cypher+Cache
 
-local ShroudedCypher = Class('ShroudedCypherCache', ns.node.Node, {
+local Shrouded = Class('ShroudedCypherCache', ns.node.Node, {
     group = ns.groups.SHROUDED_CYPHER,
     icon = 'chest_gy',
     scale = 0.8,
+    label = L['cache_shrouded_cypher'],
     note = L['cache_shrouded_cypher_note'],
     rewards = {
         Item({item = 189983, quest = 65513, covenant = NIGHTFAE}) -- Gromit Soul
     }
 })
 
-map.nodes[29404950] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[34107050] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[51008300] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[61006950] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[36304810] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[40306270] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[43908420] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[54507780] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[42805280] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[44507150] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[53009230] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[57406500] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[54204980] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[56203400] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[63704120] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[66502520] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[41903410] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[50700460] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[52706080] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[59803350] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[62005730] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[49003050] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[61201550] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[62204630] = ShroudedCypher({label = L['cache_shrouded_cypher']})
-map.nodes[69503450] = ShroudedCypher({label = L['cache_shrouded_cypher']})
+map.nodes[29404950] = Shrouded()
+map.nodes[34107050] = Shrouded()
+map.nodes[51008300] = Shrouded()
+map.nodes[61006950] = Shrouded()
+map.nodes[36304810] = Shrouded()
+map.nodes[40306270] = Shrouded()
+map.nodes[43908420] = Shrouded()
+map.nodes[54507780] = Shrouded()
+map.nodes[42805280] = Shrouded()
+map.nodes[44507150] = Shrouded()
+map.nodes[53009230] = Shrouded()
+map.nodes[57406500] = Shrouded()
+map.nodes[54204980] = Shrouded()
+map.nodes[56203400] = Shrouded()
+map.nodes[63704120] = Shrouded()
+map.nodes[66502520] = Shrouded()
+map.nodes[41903410] = Shrouded()
+map.nodes[50700460] = Shrouded()
+map.nodes[52706080] = Shrouded()
+map.nodes[59803350] = Shrouded()
+map.nodes[62005730] = Shrouded()
+map.nodes[49003050] = Shrouded()
+map.nodes[61201550] = Shrouded()
+map.nodes[62204630] = Shrouded()
+map.nodes[69503450] = Shrouded()
 
 -------------------------------------------------------------------------------
 ----------------------------- PROTOFORM SCHEMATICS ----------------------------
