@@ -679,9 +679,29 @@ La {item:185972} peut être obtenue une fois par semaine et contient 50 {currenc
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
-L['camber_alcove_note'] = nil
-L['dormant_alcove_note'] = nil
-L['rondure_alcove_note'] = nil
+L['camber_alcove_note'] = [[
+Pour accéder à l'|cFFFFFD00Alcôve Concave|r :
+1. Terminez le chapitre 6 de la campagne de Zereth Mortis.
+2. Trouvez l'|cFFFFFD00Agencement de l'alcôve Concave|r derrière le bâtiment du Locus Ultimus.
+3. Utilisez le {npc:184329} à l'intérieur du Repos de la fertilité pour accéder à la Chambre Intérieure.
+4. Utilisez un autre {npc:184485} pour accéder à l'alcôve Concave.
+]]
+
+L['dormant_alcove_note'] = [[
+Pour accéder à l'|cFFFFFD00Alcôve Dormante|r :
+1. Terminez le chapitre 6 de la campagne de Zereth Mortis.
+2. Trouvez l'|cFFFFFD00Agencement de l'alcôve Dormante|r aux |cFFFFFD00Pics Résonnants|r.
+3. Utilisez le {npc:184329} à l'intérieur du Repos de la fertilité pour accéder à la Chambre Intérieure.
+4. Utilisez un autre {npc:184485} pour accéder à l'alcôve Dormante.
+]]
+
+L['rondure_alcove_note'] = [[
+Pour accéder à l'|cFFFFFD00Alcôve Incurvée|r :
+1. Terminez le chapitre 6 de la campagne de Zereth Mortis.
+2. Trouvez l'|cFFFFFD00Agencement de l'alcôve Incurvée|r sur la plateforme du Locus Tertius.
+3. Utilisez le {npc:184329} à l'intérieur du Repos de la fertilité pour accéder à la Chambre Intérieure.
+4. Utilisez un autre {npc:184485} pour accéder à l'alcôve Incurvée.
+]]
 
 L['corrupted_architect_note'] = 'Engagez en combat {npc:183958} et {npc:183961} pour activer le monstre rare.'
 L['dune_dominance_note'] = 'Les trois monstres élites rares pour le haut-fait {achievement:15392} apparaissent à cet endroit.'
@@ -745,12 +765,21 @@ Utilisez le {item:187516} aux forges de la zone pour récupérer 15 {item:187728
 L['prying_eye_discovery'] = 'Découverte d\'œil indiscret'
 L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol est déverrouillé.'
 L['pulp_covered_relic'] = 'Relique couverte de pulpe'
-L['rondure_cache'] = nil
-L['rondure_cache_note'] = nil
+L['rondure_cache'] = 'Cache incurvée'
+L['rondure_cache_note'] = 'Une forge pouvant être cliquée au sommet d\'un parcours de sauts dans l\'Alcôve Incurvée.'
 L['sandworn_chest'] = 'Coffre erodé'
 L['sandworn_chest_note'] = 'Récupérez 5x {item:190198} sur les monstres de la zone pour construire la {item:190197}.'
-L['sand_piles'] = nil
-L['sand_piles_note'] = nil
+L['sand_piles'] = 'Tas de sable'
+L['sand_piles_note'] = [[
+Tous les tas de sable se trouvent dans la chambre cachée de l'Alcôve Dormante. Chaque tas requiert un {item:189863}, qui peut être trouvé dans d'autres trésors de la zone :
+• Cache de domination
+• Caveau déchu
+• Artéfact chipé
+• Parchemin volé
+• Coffre submergé
+• Caveau symphonique
+• Feuillage ondulant
+]]
 
 L['cache_avian_nest'] = 'Nid d\'oiseau'
 L['cache_cypher_bound'] = 'Coffre lié par un cryptogramme'
@@ -787,9 +816,9 @@ L['schematic_ineffable_skitterer_note'] = 'Suicidez-vous ! Non, sérieusement...
 L['schematic_leaping_leporid_note'] = 'Trouvé au sommet d\'un arbre flottant.'
 L['schematic_mawdapted_raptora_note'] = 'Faible chance d\'être trouvé sur les {npc:181412s} dans les |cFFFFFD00Sables Infinis|r.'
 L['schematic_microlicid_note'] = 'Sur la branche la plus basse de l\'arbre flottant, sous le feuillage.'
-L['schematic_omnipotential_core_note'] = nil
+L['schematic_omnipotential_core_note'] = 'Se trouve dans l\'|cFFFFFD00Alcôve Incurvée|r. Le schéma est caché derrière le bord supérieur de la voûte du côté sud-ouest de la pièce.'
 L['schematic_prototickles_note'] = 'Attaché à une chaîne flottante à l\'intérieur des vignes au-dessus du monstre rare {npc:180978}.'
-L['schematic_prototype_fleetpod_note'] = nil
+L['schematic_prototype_fleetpod_note'] = 'Se trouve dans l\'Alcôve Concave. Interagissez avec le {npc:184900} pour déclencher un mini-jeu. Guidez l\'escargot à travers 5 anneaux sans toucher les {npc:185455s} pour obtenir le schéma.'
 L['schematic_raptora_swooper_note'] = 'Trouvé à l\'intérieur de la Chambre de Façonnage.'
 L['schematic_resonant_echo_note'] = 'Peut être trouvé dans un |cFFFFFD00Écho du premier chant cristallisé|r.'
 L['schematic_russet_bufonid_note'] = 'Peut être trouvé dans la cache de parangon {item:187780}.'
@@ -837,8 +866,8 @@ L['patient_bufonid_note_day5'] = 'Récupérez 5x {item:187704} sur des monstres 
 L['patient_bufonid_note_day6'] = 'Achetez 5x {item:190880} à {npc:185748} près de la Grâce du Pèlerin.'
 L['patient_bufonid_note_day7'] = 'Acheter 1x {item:187171} auprès du {npc:180114} dans le donjon Tazavesh.'
 
-L['lost_comb'] = nil
-L['soulshape_penguin_note'] = nil
+L['lost_comb'] = 'Rayon de miel égaré'
+L['soulshape_penguin_note'] = 'Situé au sommet de la forge flottante.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Afficher les emplacements des créatures pour le haut-fait {achievement:15211}.'
