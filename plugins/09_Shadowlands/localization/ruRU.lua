@@ -846,5 +846,3 @@ L['options_icons_zereth_caches'] = 'Защищенные шифром тайни
 L['options_icons_zereth_caches_desc'] = 'Отображение возможных местоположений защищенных шифром тайников.'
 L['options_icons_shrouded_cyphers'] = nil
 L['options_icons_shrouded_cyphers_desc'] = nil
-L['options_icons_soulshapes'] = '{spell:310143}'
-L['options_icons_soulshapes_desc'] = nil

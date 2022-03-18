@@ -827,7 +827,7 @@ L['patient_bufonid_note_day6'] = 'Purchase 5x {item:190880} from {npc:185748} ne
 L['patient_bufonid_note_day7'] = 'Purchase 1x {item:187171} from the {npc:180114} in the Tazavesh dungeon.'
 
 L['lost_comb'] = 'Lost Comb'
-L['soulshape_penguin_note'] = 'Located on top of the floating forge. Interact with {npc:185279} to get item.'
+L['soulshape_penguin_note'] = 'Located on top of the floating forge.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Display creature locations for the {achievement:15211} achievement.'
@@ -847,5 +847,3 @@ L['options_icons_zereth_caches'] = 'Cypher Caches'
 L['options_icons_zereth_caches_desc'] = 'Display possible locations for cypher caches.'
 L['options_icons_shrouded_cyphers'] = 'Shrouded Cypher Cache'
 L['options_icons_shrouded_cyphers_desc'] = 'Display possible locations for shrouded cypher caches. Have to equip an {spell:364478} item.'
-L['options_icons_soulshapes'] = '{spell:310143}'
-L['options_icons_soulshapes_desc'] = 'Display locations for {spell:310143}.'

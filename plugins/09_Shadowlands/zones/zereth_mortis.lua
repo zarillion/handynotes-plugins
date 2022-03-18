@@ -1804,17 +1804,24 @@ end
 map.nodes[34506548] = Bufonid()
 
 -------------------------------------------------------------------------------
----------------------------------- SOULSHAPE ----------------------------------
+--------------------------------- SOULSHAPES ----------------------------------
 -------------------------------------------------------------------------------
 
-local Soulshapes = Class('Soulshapes', Collectible,
-    {group = ns.groups.SOULSHAPES})
+local Soulshape = Class('Soulshape', Collectible, {
+    IsEnabled = function(self)
+        if C_Covenants.GetActiveCovenantID() ~= NIGHTFAE.id then
+            return false
+        end
+        return Collectible.IsEnabled(self)
+    end
+})
 
 -------------------------------------------------------------------------------
 
-map.nodes[38207180] = Soulshapes({
+map.nodes[38207180] = Soulshape({
     id = 185452,
     icon = 136071,
+    covenant = NIGHTFAE,
     note = L['multiple_spawns'],
     rewards = {
         Item({item = 189988, quest = 65516, covenant = NIGHTFAE}) -- Sheep Soul
@@ -1826,18 +1833,20 @@ map.nodes[38207180] = Soulshapes({
     }
 }) -- Sheep Soul
 
-map.nodes[34407140] = Soulshapes({
+map.nodes[34407140] = Soulshape({
     id = 185279,
     icon = 655866,
+    covenant = NIGHTFAE,
     note = L['soulshape_penguin_note'],
     rewards = {
         Item({item = 189989, quest = 65517, covenant = NIGHTFAE}) -- Penguin Soul
     }
 }) -- Penguin Soul
 
-map.nodes[63206050] = Soulshapes({
+map.nodes[63206050] = Soulshape({
     label = L['lost_comb'],
     icon = 2027853,
+    covenant = NIGHTFAE,
     note = L['schematic_desertwing_hunter_note'],
     rewards = {
         Item({item = 189990, quest = 65518, covenant = NIGHTFAE}) -- Bee Soul
