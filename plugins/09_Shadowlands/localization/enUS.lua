@@ -742,6 +742,25 @@ L['prying_eye_discovery_note'] = 'Easier to reach once flying is unlocked.'
 L['pulp_covered_relic'] = 'Pulp-Covered Relic'
 L['sandworn_chest'] = 'Sandworn Chest'
 L['sandworn_chest_note'] = 'Loot 5x {item:190198} from mobs in the area to construct the {item:190197}.'
+L['sand_piles'] = 'Sand Piles'
+L['sand_piles_note'] = [[
+All sand piles are found in a single hidden underground chamber. To access the chamber you must:
+
+1. Complete chapter 6 of the Zereth Mortis campaign.
+2. Find the |cFFFFFD00Dormant Alcove Arrangement|r in the |cFFFFFD00Resonant Peaks|r.
+3. Use the {npc:184329} to access the Inner Chamber.
+4. Use a different {npc:184485} to access the Dormant Alcove.
+
+Each pile requires a {item:189863}, which can be found in other treasures in the zone:
+
+• Domination Cache
+• Fallen Vault
+• Filched Artifact
+• Stolen Scroll
+• Submerged Chest
+• Symphonic Vault
+• Undulating Foliage
+]]
 
 L['cache_avian_nest'] = 'Avian Nest'
 L['cache_cypher_bound'] = 'Cypher Bound Chest'

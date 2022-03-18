@@ -599,6 +599,8 @@ L['prying_eye_discovery_note'] = '비행이 해금된 후에 접근하기 더 �
 L['pulp_covered_relic'] = '걸쭉한 수액으로 뒤덮인 유물'
 L['sandworn_chest'] = '모래에 바랜 상자'
 L['sandworn_chest_note'] = '해당 지역의 몹으로부터 {item:190198} 5개를 획득하여 {item:190197}를 만드세요.'
+L['sand_piles'] = nil
+L['sand_piles_note'] = nil
 
 L['cache_avian_nest'] = '새둥지'
 L['cache_cypher_bound'] = '암호 결속상자'

@@ -742,6 +742,8 @@ L['prying_eye_discovery_note'] = '當飛行解鎖時會比較容易到達'
 L['pulp_covered_relic'] = '被泥巴覆蓋的聖物'
 L['sandworn_chest'] = '砂蝕寶箱'
 L['sandworn_chest_note'] = '從附近的怪物上拾取5個 {item:190198} 來組合成 {item:190197}.'
+L['sand_piles'] = nil
+L['sand_piles_note'] = nil
 
 L['cache_avian_nest'] = '鳥巢'
 L['cache_cypher_bound'] = '暗語束縛箱子'

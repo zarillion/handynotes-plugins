@@ -743,6 +743,8 @@ L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol e
 L['pulp_covered_relic'] = 'Relique couverte de pulpe'
 L['sandworn_chest'] = 'Coffre erodé'
 L['sandworn_chest_note'] = 'Récupérez 5x {item:190198} sur les monstres de la zone pour construire la {item:190197}.'
+L['sand_piles'] = nil
+L['sand_piles_note'] = nil
 
 L['cache_avian_nest'] = 'Nid d\'oiseau'
 L['cache_cypher_bound'] = 'Coffre lié par un cryptogramme'

@@ -741,6 +741,8 @@ L['prying_eye_discovery_note'] = 'Легче добраться, когда по
 L['pulp_covered_relic'] = 'Измазанная реликвия'
 L['sandworn_chest'] = 'Пустынный сундук'
 L['sandworn_chest_note'] = 'Соберите 5x {item:190198} с монстров в этом районе, чтобы создать {item:190197}.'
+L['sand_piles'] = nil
+L['sand_piles_note'] = nil
 
 L['cache_avian_nest'] = 'Гнездо авиана'
 L['cache_cypher_bound'] = 'Защищенный шифром сундук'

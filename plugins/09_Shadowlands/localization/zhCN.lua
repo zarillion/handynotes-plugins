@@ -742,6 +742,8 @@ L['prying_eye_discovery_note'] = '飞行解锁后容易到达。'
 L['pulp_covered_relic'] = '被粘浆覆盖的圣物'
 L['sandworn_chest'] = '沙蚀宝箱'
 L['sandworn_chest_note'] = '从区域内怪物拾取5个 {item:190198} 组合成 {item:190197}。'
+L['sand_piles'] = nil
+L['sand_piles_note'] = nil
 
 L['cache_avian_nest'] = '元鸟之巢'
 L['cache_cypher_bound'] = '密文束缚的宝箱'

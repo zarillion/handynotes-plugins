@@ -872,6 +872,29 @@ map.nodes[60022583] = Treasure({
     pois = {POI({60863786, 61401763, 63182603, 65972694})}
 }) -- Sandworn Chest
 
+map.nodes[44393666] = Treasure({
+    quest = {
+        65494, -- Lumpy Sand Pile
+        65495, -- Glinting Sand Pile
+        65496, -- Shifting Sand Pile
+        65497, -- Humming Sand Pile
+        65498, -- Misshapen Sand Pile
+        65499, -- Sparkling Sand Pile
+        65500 -- Ticking Sand Pile
+    },
+    questCount = true,
+    requires = ns.requirement.Item(189863), -- Spatial Opener
+    label = L['sand_piles'],
+    note = L['sand_piles_note'],
+    rewards = {
+        Achievement({
+            id = 15502,
+            criteria = {53258, 53259, 53260, 53261, 53262, 53263, 53265}
+        }) -- Sand, Sand Everywhere!
+    },
+    pois = {POI({51033248})} -- Dormant Alcove Arrangement
+}) -- Sand Piles
+
 -------------------------------------------------------------------------------
 -------------------------------- PUZZLE CACHES --------------------------------
 -------------------------------------------------------------------------------

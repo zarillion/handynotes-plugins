@@ -749,6 +749,8 @@ L['prying_eye_discovery_note'] = 'Leichter zu erreichen, sobald das Fliegen frei
 L['pulp_covered_relic'] = 'Breibedecktes Relikt'
 L['sandworn_chest'] = 'Sandgeschliffene Truhe'
 L['sandworn_chest_note'] = 'Plündere 5x {item:190198} von Gegnern in dem Gebiet, um einen {item:190197} zu bauen.'
+L['sand_piles'] = nil
+L['sand_piles_note'] = nil
 
 L['cache_avian_nest'] = 'Ornidennest'
 L['cache_cypher_bound'] = 'Chiffrengebundene Truhe'

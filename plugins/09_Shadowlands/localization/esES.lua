@@ -743,6 +743,8 @@ L['prying_eye_discovery_note'] = 'Es más fácil de alcanzar cuando el volar est
 L['pulp_covered_relic'] = 'Reliquia Cubierta de Pulpa'
 L['sandworn_chest'] = 'Cofre Erosionado por la Arena'
 L['sandworn_chest_note'] = 'Despoja {item:190198} x5 de los enemigos de la zona para construir la {item:190197}.'
+L['sand_piles'] = nil
+L['sand_piles_note'] = nil
 
 L['cache_avian_nest'] = 'Nido Aviario'
 L['cache_cypher_bound'] = 'Cofre Reforzado con Clave'
