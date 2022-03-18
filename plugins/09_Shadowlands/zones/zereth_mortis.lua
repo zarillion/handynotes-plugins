@@ -665,7 +665,7 @@ map.nodes[60593053] = Treasure({
     }
 }) -- Mawsworn Cache
 
-map.nodes[53557223] = Treasure({
+map.nodes[53667261] = Treasure({
     quest = 65522,
     note = L['mistaken_ovoid_note'] .. '\n\n' .. L['schematic_treasure_note'],
     rewards = {
