@@ -750,8 +750,8 @@ L['cache_discarded_automa'] = 'Chatarra de Automa Desechada'
 L['cache_forgotten_vault'] = 'Cámara del Tesoro Olvidada'
 L['cache_mawsworn_supply'] = 'Cofre de Suministros Jurafauces'
 L['cache_tarachnid_eggs'] = 'Huevos de Tarácnido'
-L['cache_shrouded_cypher'] = nil
-L['cache_shrouded_cypher_note'] = nil
+L['cache_shrouded_cypher'] = 'Alijo de Claves Camuflado'
+L['cache_shrouded_cypher_note'] = 'Has de tener equipado un objeto con {spell:364478}.'
 
 L['cache_cantaric'] = 'Alijo Cantárico'
 L['cache_fugueal'] = 'Alijo de Fuga'
@@ -827,8 +827,8 @@ L['patient_bufonid_note_day5'] = 'Recoge {item:187704} x5 de los enemigos de la 
 L['patient_bufonid_note_day6'] = 'Compra {item:190880} x5 a {npc:185748} cerca de Gracia del Peregrino.'
 L['patient_bufonid_note_day7'] = 'Compra {item:187171} x1 a {npc:180114} en la mazmorra de Tazavesh.'
 
-L['lost_comb'] = nil
-L['soulshape_penguin_note'] = nil
+L['lost_comb'] = 'Panal Perdido'
+L['soulshape_penguin_note'] = 'Está encima de la forja flotante. Interactúa con el {npc:185279} para conseguir el objeto.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas para el logro {achievement:15211}.'
@@ -846,7 +846,7 @@ L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
 L['options_icons_puzzle_caches_desc'] = 'Muestra los sitios posibles para los alijos puzzle.'
 L['options_icons_zereth_caches'] = 'Cofres con Clave'
 L['options_icons_zereth_caches_desc'] = 'Muestra los sitios posibles para los cofres con clave.'
-L['options_icons_shrouded_cyphers'] = nil
-L['options_icons_shrouded_cyphers_desc'] = nil
+L['options_icons_shrouded_cyphers'] = 'Alijo de claves camuflado'
+L['options_icons_shrouded_cyphers_desc'] = 'Muestra los sitios posibles para los alijos de claves camuflado. Has de tener equipado un objeto con {spell:364478}.'
 L['options_icons_soulshapes'] = '{spell:310143}'
-L['options_icons_soulshapes_desc'] = nil
+L['options_icons_soulshapes_desc'] = 'Muestra los sitios para las {spell:310143}.'
