@@ -833,6 +833,9 @@ L['patient_bufonid_note_day5'] = 'Sammel 5x {item:187704} von Gegner aus dieser 
 L['patient_bufonid_note_day6'] = 'Kaufe 5x {item:190880} von {npc:185748} (58.5 49.8) in der Nähe von Huld des Pilgers.'
 L['patient_bufonid_note_day7'] = 'Kaufe 1x {item:187171} von dem {npc:180114} aus dem Tazavesh Dungeon.'
 
+L['lost_comb'] = nil
+L['soulshape_penguin_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Zeigt die Positionen der Kreaturen für den {achievement:15211} Erfolg an.'
 L['options_icons_concordances'] = 'Wissens Konkordanzen'
@@ -851,3 +854,5 @@ L['options_icons_zereth_caches'] = 'Chiffren Truhen'
 L['options_icons_zereth_caches_desc'] = 'Zeigt mögliche Positionen für Truhen, die Chiffren der Ersten enthalten.'
 L['options_icons_shrouded_cyphers'] = nil
 L['options_icons_shrouded_cyphers_desc'] = nil
+L['options_icons_soulshapes'] = '{spell:310143}'
+L['options_icons_soulshapes_desc'] = nil

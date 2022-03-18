@@ -827,6 +827,9 @@ L['patient_bufonid_note_day5'] = 'Récupérez 5x {item:187704} sur des monstres 
 L['patient_bufonid_note_day6'] = 'Achetez 5x {item:190880} à {npc:185748} près de la Grâce du Pèlerin.'
 L['patient_bufonid_note_day7'] = 'Acheter 1x {item:187171} auprès du {npc:180114} dans le donjon Tazavesh.'
 
+L['lost_comb'] = nil
+L['soulshape_penguin_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Afficher les emplacements des créatures pour le haut-fait {achievement:15211}.'
 L['options_icons_concordances'] = 'Histoires Harmoniques'
@@ -845,3 +848,5 @@ L['options_icons_zereth_caches'] = 'Caches cryptiques' -- Needs Review
 L['options_icons_zereth_caches_desc'] = 'Afficher les emplacements possibles des Caches cryptiques' -- Needs Review
 L['options_icons_shrouded_cyphers'] = 'Cache cryptique dissimulée'
 L['options_icons_shrouded_cyphers_desc'] = 'Afficher les emplacements possibles des Caches cryptiques dissimulées. Vous devez équiper un objet possédant {spell:364478}.'
+L['options_icons_soulshapes'] = '{spell:310143}'
+L['options_icons_soulshapes_desc'] = nil

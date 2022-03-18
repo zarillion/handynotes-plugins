@@ -827,6 +827,9 @@ L['patient_bufonid_note_day5'] = 'Recoge {item:187704} x5 de los enemigos de la 
 L['patient_bufonid_note_day6'] = 'Compra {item:190880} x5 a {npc:185748} cerca de Gracia del Peregrino.'
 L['patient_bufonid_note_day7'] = 'Compra {item:187171} x1 a {npc:180114} en la mazmorra de Tazavesh.'
 
+L['lost_comb'] = nil
+L['soulshape_penguin_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas para el logro {achievement:15211}.'
 L['options_icons_concordances'] = 'Concordancias de Conocimiento'
@@ -845,3 +848,5 @@ L['options_icons_zereth_caches'] = 'Cofres con Clave'
 L['options_icons_zereth_caches_desc'] = 'Muestra los sitios posibles para los cofres con clave.'
 L['options_icons_shrouded_cyphers'] = nil
 L['options_icons_shrouded_cyphers_desc'] = nil
+L['options_icons_soulshapes'] = '{spell:310143}'
+L['options_icons_soulshapes_desc'] = nil

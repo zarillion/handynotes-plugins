@@ -826,6 +826,9 @@ L['patient_bufonid_note_day5'] = '從此區域的怪物收集5個 {item:187704}'
 L['patient_bufonid_note_day6'] = '從朝聖者之澤附近的 {npc:185748} 購買5個 {item:190880}'
 L['patient_bufonid_note_day7'] = '從帷幕市集地城的 {npc:180114} 購買1個 {item:187171}'
 
+L['lost_comb'] = nil
+L['soulshape_penguin_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '顯示 {achievement:15211} 成就的生物位置'
 L['options_icons_concordances'] = '知識索引'

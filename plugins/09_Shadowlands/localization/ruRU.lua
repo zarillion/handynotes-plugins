@@ -825,6 +825,9 @@ L['patient_bufonid_note_day5'] = 'Соберите 5x {item:187704} с монс�
 L['patient_bufonid_note_day6'] = 'Купите 5x {item:190880} у {npc:185748} рядом с Приютом Пилигрима.'
 L['patient_bufonid_note_day7'] = 'Купите 1x {item:187171} у {npc:180114} в подземелье Тазавеш.'
 
+L['lost_comb'] = nil
+L['soulshape_penguin_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Показать местонахождение существ для достижения {achievement:15211}.'
 L['options_icons_concordances'] = 'Свод конкордансов'
@@ -843,3 +846,5 @@ L['options_icons_zereth_caches'] = 'Защищенные шифром тайни
 L['options_icons_zereth_caches_desc'] = 'Отображение возможных местоположений защищенных шифром тайников.'
 L['options_icons_shrouded_cyphers'] = nil
 L['options_icons_shrouded_cyphers_desc'] = nil
+L['options_icons_soulshapes'] = '{spell:310143}'
+L['options_icons_soulshapes_desc'] = nil
