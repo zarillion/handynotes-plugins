@@ -1807,9 +1807,8 @@ map.nodes[34506548] = Bufonid()
 ---------------------------------- SOULSHAPE ----------------------------------
 -------------------------------------------------------------------------------
 
-local Soulshapes = Class('Soulshapes', Collectible, {
-    group = ns.groups.SOULSHAPES
-})
+local Soulshapes = Class('Soulshapes', Collectible,
+    {group = ns.groups.SOULSHAPES})
 
 -------------------------------------------------------------------------------
 
@@ -1820,7 +1819,11 @@ map.nodes[38207180] = Soulshapes({
     rewards = {
         Item({item = 189988, quest = 65516, covenant = NIGHTFAE}) -- Sheep Soul
     },
-    pois = {POI({30606720, 37003420, 37607720, 38408060, 43807980, 49808000, 58407500})}
+    pois = {
+        POI({
+            30606720, 37003420, 37607720, 38408060, 43807980, 49808000, 58407500
+        })
+    }
 }) -- Sheep Soul
 
 map.nodes[34407140] = Soulshapes({
