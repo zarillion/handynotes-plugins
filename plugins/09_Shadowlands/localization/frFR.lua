@@ -679,33 +679,19 @@ La {item:185972} peut être obtenue une fois par semaine et contient 50 {currenc
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
-L['camber_alcove_note'] = [[
-Pour accéder à l'|cFFFFFD00Alcôve Concave|r :
+local HIDDEN_ALCOVE = [[
+Pour accéder à l'|cFFFFFD00Alcôve %s|r :
 1. Terminez le chapitre 6 de la campagne de Zereth Mortis.
-2. Trouvez l'|cFFFFFD00Agencement de l'alcôve Concave|r derrière le bâtiment du Locus Ultimus.
+2. Trouvez l'|cFFFFFD00Agencement de l'alcôve %s|r %s.
 3. Utilisez le {npc:184329} à l'intérieur du Repos de la fertilité pour accéder à la Chambre Intérieure.
-4. Utilisez un autre {npc:184485} pour accéder à l'alcôve Concave.
+4. Utilisez un autre {npc:184485} pour accéder à l'Alcôve %s.
 ]]
 
-L['dormant_alcove_note'] = [[
-Pour accéder à l'|cFFFFFD00Alcôve Dormante|r :
-1. Terminez le chapitre 6 de la campagne de Zereth Mortis.
-2. Trouvez l'|cFFFFFD00Agencement de l'alcôve Dormante|r aux |cFFFFFD00Pics Résonnants|r.
-3. Utilisez le {npc:184329} à l'intérieur du Repos de la fertilité pour accéder à la Chambre Intérieure.
-4. Utilisez un autre {npc:184485} pour accéder à l'alcôve Dormante.
-]]
-
-L['fulgore_alcove_note'] = nil
-
-L['rondure_alcove_note'] = [[
-Pour accéder à l'|cFFFFFD00Alcôve Incurvée|r :
-1. Terminez le chapitre 6 de la campagne de Zereth Mortis.
-2. Trouvez l'|cFFFFFD00Agencement de l'alcôve Incurvée|r sur la plateforme du Locus Tertius.
-3. Utilisez le {npc:184329} à l'intérieur du Repos de la fertilité pour accéder à la Chambre Intérieure.
-4. Utilisez un autre {npc:184485} pour accéder à l'alcôve Incurvée.
-]]
-
-L['repertory_alcove_note'] = nil
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Concave', 'Concave', 'derrière le bâtiment du Locus Ultimus', 'Concave')
+L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Dormante', 'Dormante', 'aux |cFFFFFD00Pics Résonnants|r', 'Dormante')
+L['fulgore_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Aveuglante', 'Aveuglante', 'aux |cFFFFFD00Pics Résonnants|r', 'Aveuglante')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Incurvée', 'Incurvée', 'sur la plateforme du Locus Tertius', 'Incurvée')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'du Répertoire', 'du Répertoire', 'à l\'intérieur de la grotte de la Cache Terrestre', 'du Répertoire')
 
 L['corrupted_architect_note'] = 'Engagez en combat {npc:183958} et {npc:183961} pour activer le monstre rare.'
 L['dune_dominance_note'] = 'Les trois monstres élites rares pour le haut-fait {achievement:15392} apparaissent à cet endroit.'
@@ -769,7 +755,15 @@ Utilisez le {item:187516} aux forges de la zone pour récupérer 15 {item:187728
 L['prying_eye_discovery'] = 'Découverte d\'œil indiscret'
 L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol est déverrouillé.'
 L['pulp_covered_relic'] = 'Relique couverte de pulpe'
-L['requisites_originator_note'] = nil
+L['requisites_originator_note'] = [[
+Une machine qui vous donnera différentes récompenses une fois par jour :
+• |cFFFFFD00Accéder aux réserves auriques|r = Matériaux d'Enchantement + or
+• |cFFFFFD00Récupérer le réservoir d’anima portatif|r = Anima
+• |cFFFFFD00Générer une pièce encodée|r = Cryptogrammes
+• |cFFFFFD00Rétablir les potentialités génésiaques|r = Granules de genèse + {item:189179} (possible)
+• |cFFFFFD00Mélanger les composants utilitaires|r = Cryptogrammes/Granules/Anima
+• |cFFFFFD00Équipement de combat ancillaire de synthèse|r = Équipement Cryptique
+]]
 L['rondure_cache'] = 'Cache incurvée'
 L['rondure_cache_note'] = 'Une forge pouvant être cliquée au sommet d\'un parcours de sauts dans l\'Alcôve Incurvée.'
 L['sandworn_chest'] = 'Coffre erodé'
@@ -785,8 +779,8 @@ Tous les tas de sable se trouvent dans la chambre cachée de l'Alcôve Dormante.
 • Caveau symphonique
 • Feuillage ondulant
 ]]
-L['torn_ethereal_drape'] = nil
-L['torn_ethereal_drape_note'] = nil
+L['torn_ethereal_drape'] = 'Drapé éthérien déchiré'
+L['torn_ethereal_drape_note'] = 'Se trouve à l\'intérieur de l\'|cFFFFFD00Alcôve Aveuglante|r. Activez les |cFFFFFD00Console d’Automa|r, puis montez sur les {npc:183565s} pour atteindre le plafond.'
 
 L['cache_avian_nest'] = 'Nid d\'oiseau'
 L['cache_cypher_bound'] = 'Coffre lié par un cryptogramme'
@@ -795,7 +789,11 @@ L['cache_forgotten_vault'] = 'Salle du trésor oubliée'
 L['cache_mawsworn_supply'] = 'Coffre de fournitures antreliges'
 L['cache_tarachnid_eggs'] = 'Oeufs de Tarachnidé'
 L['cache_shrouded_cypher'] = 'Cache cryptique dissimulée'
-L['cache_shrouded_cypher_note'] = 'Vous devez équiper un objet possédant {spell:364478}.'
+L['cache_shrouded_cypher_note'] = [[
+Ces caches ne peuvent être vues que si l'on porte un Équipement Cryptique approprié :
+|cFF00FF00Améliore la perception de Pocopoc, ce qui lui permet de détecter des caches supplémentaires.|r
+]]
+
 
 L['cache_cantaric'] = 'Cache cantabilienne'
 L['cache_fugueal'] = 'Cache fuguéal'
@@ -892,7 +890,7 @@ L['options_icons_puzzle_caches'] = 'Caches de la création (Puzzle)'
 L['options_icons_puzzle_caches_desc'] = 'Afficher les emplacements possibles des caches de puzzles'
 L['options_icons_zereth_caches'] = 'Caches cryptiques' -- Needs Review
 L['options_icons_zereth_caches_desc'] = 'Afficher les emplacements possibles des Caches cryptiques' -- Needs Review
-L['options_icons_shrouded_cyphers'] = 'Cache cryptique dissimulée'
-L['options_icons_shrouded_cyphers_desc'] = 'Afficher les emplacements possibles des Caches cryptiques dissimulées. Vous devez équiper un objet possédant {spell:364478}.'
-L['options_icons_mawsworn_supply_cache'] = nil
-L['options_icons_mawsworn_supply_cache_desc'] = nil
+L['options_icons_shrouded_cyphers'] = 'Caches cryptiques dissimulées'
+L['options_icons_shrouded_cyphers_desc'] = 'Afficher les emplacements possibles des Caches cryptiques dissimulées.'
+L['options_icons_mawsworn_supply_cache'] = 'Coffres de fournitures antreliges'
+L['options_icons_mawsworn_supply_cache_desc'] = 'Afficher les emplacements possibles des Coffres de fournitures antreliges.'
