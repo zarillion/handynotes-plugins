@@ -847,3 +847,5 @@ L['options_icons_zereth_caches'] = '暗語箱'
 L['options_icons_zereth_caches_desc'] = '顯示暗語箱可能的位置'
 L['options_icons_shrouded_cyphers'] = nil
 L['options_icons_shrouded_cyphers_desc'] = nil
+L['options_icons_soulshapes'] = '{spell:310143}'
+L['options_icons_soulshapes_desc'] = nil
