@@ -1,3 +1,20 @@
+# v46
+
+* Added rewards from hidden chambers unlocked after chapter 6 of the campaign:
+    * Requisites Originator in the Repertory Alcove.
+    * Sand piles for the "Sand, Sand Everywhere!" achievement in the Dormant Alcove.
+    * Schematic: Omnipotential Core and Rondure Cache in the Rondure Alcove.
+    * Schematic: Unsuccessful Prototype Fleetpod in the Camber Alcove.
+    * Torn Ethereal Drape in the Fulgore Alcove.
+* Moved Mawsworn Supply Caches to their own group and added missing spawn locations (good luck on the mount!).
+* Added Shrouded Supply Cache locations.
+* Added Soulshape forms found in Zereth Mortis.
+* New translations and updated drops for existing nodes.
+* Updated the Echoed Jiro node colors to match their buff colors.
+* Added the Curious Crystalsniffer, Ineffable Skitterer and Mawdapted Raptora schematics.
+* Removed the Pale Regal Cervid schematic (not an actual item on live).
+* Added some initial Korean (koKR) translations (thanks soaa!)
+
 # v45
 
 * Added a POI indicating the cave entrance for Otaris.

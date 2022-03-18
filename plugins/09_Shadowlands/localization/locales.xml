@@ -3,8 +3,8 @@
   <Script file="deDE.lua"/>
   <Script file="esES.lua"/>
   <Script file="frFR.lua"/>
+  <Script file="koKR.lua"/>
   <Script file="ruRU.lua"/>
   <Script file="zhCN.lua"/>
   <Script file="zhTW.lua"/>
-  <Script file="koKR.lua"/>
 </Ui>
