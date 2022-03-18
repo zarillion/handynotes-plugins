@@ -1802,3 +1802,41 @@ function Bufonid.getters:note()
 end
 
 map.nodes[34506548] = Bufonid()
+
+-------------------------------------------------------------------------------
+---------------------------------- SOULSHAPE ----------------------------------
+-------------------------------------------------------------------------------
+
+local Soulshapes = Class('Soulshapes', Collectible, {
+    group = ns.groups.SOULSHAPES
+})
+
+-------------------------------------------------------------------------------
+
+map.nodes[38207180] = Soulshapes({
+    id = 185452,
+    icon = 136071,
+    note = L['multiple_spawns'],
+    rewards = {
+        Item({item = 189988, quest = 65516, covenant = NIGHTFAE}) -- Sheep Soul
+    },
+    pois = {POI({30606720, 37003420, 37607720, 38408060, 43807980, 49808000, 58407500})}
+}) -- Sheep Soul
+
+map.nodes[34407140] = Soulshapes({
+    id = 185279,
+    icon = 655866,
+    note = L['soulshape_penguin_note'],
+    rewards = {
+        Item({item = 189989, quest = 65517, covenant = NIGHTFAE}) -- Penguin Soul
+    }
+}) -- Penguin Soul
+
+map.nodes[63206050] = Soulshapes({
+    label = L['lost_comb'],
+    icon = 2027853,
+    note = L['schematic_desertwing_hunter_note'],
+    rewards = {
+        Item({item = 189990, quest = 65518, covenant = NIGHTFAE}) -- Bee Soul
+    }
+}) -- Bee Soul

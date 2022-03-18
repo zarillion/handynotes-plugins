@@ -260,6 +260,8 @@ ns.groups.ZERETH_CACHE = Group('zereth_caches', 3950362,
     {defaults = ns.GROUP_HIDDEN75})
 ns.groups.SHROUDED_CYPHER = Group('shrouded_cyphers', 3950362,
     {defaults = ns.GROUP_HIDDEN75})
+ns.groups.SOULSHAPES = Group('soulshapes', 3586268,
+    {defaults = ns.GROUP_HIDDEN75})
 ns.groups.ZOVAAL_VAULT = Group('zovault', 'star_chest_g',
     {defaults = ns.GROUP_ALPHA75})
 

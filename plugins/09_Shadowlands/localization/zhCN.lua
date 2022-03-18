@@ -826,6 +826,9 @@ L['patient_bufonid_note_day5'] = '从区域内的怪物收集5个 {item:187704}�
 L['patient_bufonid_note_day6'] = '从朝圣者的恩典附近的 {npc:185748} 购买5个 {item:190880}。'
 L['patient_bufonid_note_day7'] = '从塔扎维什地下城的 {npc:180114} 购买1个 {item:187171}。'
 
+L['lost_comb'] = '失落的蜂巢'
+L['soulshape_penguin_note'] = '位于浮空锻炉顶部。与 {npc:185279} 互动获得物品。'
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '显示 {achievement:15211} 成就中生物的位置。'
 L['options_icons_concordances'] = '知识索引'
@@ -844,3 +847,5 @@ L['options_icons_zereth_caches'] = '密文宝箱'
 L['options_icons_zereth_caches_desc'] = '显示密文宝箱可能的位置。'
 L['options_icons_shrouded_cyphers'] = '氤氲密文宝箱'
 L['options_icons_shrouded_cyphers_desc'] = '显示氤氲密文宝箱可能的位置。需要装备 {spell:364478} 物品。'
+L['options_icons_soulshapes'] = '{spell:310143}'
+L['options_icons_soulshapes_desc'] = '显示 {spell:310143} 的位置。'
