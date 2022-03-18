@@ -40,9 +40,6 @@ local ephe = Map({id = 2061}) -- Ephemeral Plains
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- TODO: Verify - Only one of either Euv'ouk or Vitiane can be up for a given day.
--- TODO: Verify - Helmix is spawned by killing the Annelid Mudborers.
-
 map.nodes[64743369] = Rare({
     id = 179006,
     quest = 65552,
@@ -860,6 +857,18 @@ map.nodes[53402570] = Treasure({
     pois = {POI({41903400, 50304120, 52804580, 53402570, 64366347})}
 }) -- Pulp-Covered Relic
 
+map.nodes[42934005] = Treasure({
+    quest = 65568,
+    label = L['rondure_cache'],
+    note = L['rondure_cache_note'] .. '\n\n' ..
+        ns.color.Orange(L['rondure_alcove_note']),
+    rewards = {
+        Achievement({id = 15508, criteria = 53293}), -- Fashion of the First Ones
+        Item({item = 190096, quest = 65534}) -- Pocobold
+    },
+    pois = {POI({50452759})} -- Rondure Alcove Arrangement
+}) -- Rondure Cache
+
 map.nodes[60022583] = Treasure({
     quest = 65611,
     icon = 'chest_yw',
@@ -885,7 +894,8 @@ map.nodes[44393666] = Treasure({
     questCount = true,
     requires = ns.requirement.Item(189863), -- Spatial Opener
     label = L['sand_piles'],
-    note = L['sand_piles_note'],
+    note = L['sand_piles_note'] .. '\n' ..
+        ns.color.Orange(L['dormant_alcove_note']),
     rewards = {
         Achievement({
             id = 15502,
@@ -1190,12 +1200,13 @@ map.nodes[53777246] = PetSchematic({
     note = L['in_cave'] .. '\n\n' .. L['schematic_treasure_pet_note']
 }) -- Multichicken
 
--- Waiting for access to the Rondure Alcove on live, which I could not access on PTR
--- map.nodes[] = PetSchematic({
---     id = 189440,
---     quest = 65348,
---     note = L['schematic_omnipotential_core_note']
--- }) -- Omnipotential Core
+map.nodes[42764060] = PetSchematic({
+    id = 189440,
+    quest = 65348,
+    note = L['schematic_omnipotential_core_note'] .. '\n\n' ..
+        ns.color.Orange(L['rondure_alcove_note']),
+    pois = {POI({50452759})} -- Rondure Alcove Arrangement
+}) -- Omnipotential Core
 
 map.nodes[52237533] = PetSchematic({
     id = 189442,

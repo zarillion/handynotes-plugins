@@ -677,6 +677,9 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['dormant_alcove_note'] = nil
+L['rondure_alcove_note'] = nil
+
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
 L['dune_dominance_note'] = 'Los tres élites raros para el logro {achievement:15392} aparecen en el mismo sitio.'
 L['feasting_note'] = 'A veces rodeará la zona antes de volver a este sitio.'
@@ -741,6 +744,8 @@ Usa el {item:187516} en las forjas de la zona para conseguir {item:187728} x15 y
 L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
 L['prying_eye_discovery_note'] = 'Es más fácil de alcanzar cuando el volar esté desbloqueado.'
 L['pulp_covered_relic'] = 'Reliquia Cubierta de Pulpa'
+L['rondure_cache'] = nil
+L['rondure_cache_note'] = nil
 L['sandworn_chest'] = 'Cofre Erosionado por la Arena'
 L['sandworn_chest_note'] = 'Despoja {item:190198} x5 de los enemigos de la zona para construir la {item:190197}.'
 L['sand_piles'] = 'Montones de Arena'
@@ -798,6 +803,7 @@ L['schematic_ineffable_skitterer_note'] = '¡Mátate! En serio... sólo puedes v
 L['schematic_leaping_leporid_note'] = 'Encima de un árbol flotante.'
 L['schematic_mawdapted_raptora_note'] = 'Pequeña probabilidad de que lo suelte una {npc:181412} en las |cFFFFFD00Arenas Infinitas|r.'
 L['schematic_microlicid_note'] = 'En la rama más baja del árbol flotante, debajo de algo de follaje.'
+L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = 'Unido a una cadena flotante dentro de las vides de encima del raro {npc:180978}.'
 L['schematic_raptora_swooper_note'] = 'Dentro de la Cámara de Formación.'
 L['schematic_resonant_echo_note'] = 'Probabilidad de que esté dentro de un |cFFFFFD00Eco Cristalizado de la Primera Canción|r.'

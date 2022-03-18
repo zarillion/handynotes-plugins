@@ -676,6 +676,24 @@ The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['dormant_alcove_note'] = [[
+To access the |cFFFFFD00Dormant Alcove|r chamber:
+
+1. Complete chapter 6 of the Zereth Mortis campaign.
+2. Find the |cFFFFFD00Dormant Alcove Arrangement|r in the |cFFFFFD00Resonant Peaks|r.
+3. Use the {npc:184329} inside the Gravid Repose to access the Inner Chamber.
+4. Use a different {npc:184485} to access the Dormant Alcove.
+]]
+
+L['rondure_alcove_note'] = [[
+To access the |cFFFFFD00Rondure Alcove|r chamber:
+
+1. Complete chapter 6 of the Zereth Mortis campaign.
+2. Find the |cFFFFFD00Rondure Alcove Arrangement|r in the |cFFFFFD00Resonant Peaks|r (on the Tertius Locus platform).
+3. Use the {npc:184329} inside the Gravid Repose to access the Inner Chamber.
+4. Use a different {npc:184485} to access the Rondure Alcove.
+]]
+
 L['corrupted_architect_note'] = 'Engage {npc:183958} and {npc:183961} to activate the rare.'
 L['dune_dominance_note'] = 'All three rare elites for the {achievement:15392} achievement spawn at this location.'
 L['feasting_note'] = 'Will sometimes circle the area before returning to this spot.'
@@ -740,18 +758,13 @@ Use {item:187516} at forges across the zone to collect 15 {item:187728} and comb
 L['prying_eye_discovery'] = 'Prying Eye Discovery'
 L['prying_eye_discovery_note'] = 'Easier to reach once flying is unlocked.'
 L['pulp_covered_relic'] = 'Pulp-Covered Relic'
+L['rondure_cache'] = 'Rondure Cache'
+L['rondure_cache_note'] = 'An interactable forge at the top of a jumping puzzle inside the Rondure Alcove.'
 L['sandworn_chest'] = 'Sandworn Chest'
 L['sandworn_chest_note'] = 'Loot 5x {item:190198} from mobs in the area to construct the {item:190197}.'
 L['sand_piles'] = 'Sand Piles'
 L['sand_piles_note'] = [[
-All sand piles are found in a single hidden underground chamber. To access the chamber you must:
-
-1. Complete chapter 6 of the Zereth Mortis campaign.
-2. Find the |cFFFFFD00Dormant Alcove Arrangement|r in the |cFFFFFD00Resonant Peaks|r.
-3. Use the {npc:184329} to access the Inner Chamber.
-4. Use a different {npc:184485} to access the Dormant Alcove.
-
-Each pile requires a {item:189863}, which can be found in other treasures in the zone:
+All sand piles are found in the hidden Dormant Alcove chamber. Each pile requires a {item:189863}, which can be found in other treasures in the zone:
 
 • Domination Cache
 • Fallen Vault
@@ -797,6 +810,7 @@ L['schematic_ineffable_skitterer_note'] = 'Kill yourself! No, really ... you can
 L['schematic_leaping_leporid_note'] = 'Found on top of a floating tree.'
 L['schematic_mawdapted_raptora_note'] = 'Small chance to drop from {npc:181412s} in the |cFFFFFD00Endless Sands|r.'
 L['schematic_microlicid_note'] = 'On the lowest branch of the floating tree, underneath some foliage.'
+L['schematic_omnipotential_core_note'] = 'Found in the |cFFFFFD00Rondure Alcove|r. The schematic is hidden behind the upper lip of the archway on the south-west side of the room.'
 L['schematic_prototickles_note'] = 'Attached to a floating chain inside the vines above the {npc:180978} rare.'
 L['schematic_raptora_swooper_note'] = 'Found inside the Chamber of Shaping.'
 L['schematic_resonant_echo_note'] = 'Chance to be found inside a |cFFFFFD00Crystallized Echo of the First Song|r.'

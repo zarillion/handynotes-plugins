@@ -676,6 +676,9 @@ L['tormentors_note'] = [[
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['dormant_alcove_note'] = nil
+L['rondure_alcove_note'] = nil
+
 L['corrupted_architect_note'] = '攻击 {npc:183958} 和 {npc:183961} 激活稀有。'
 L['dune_dominance_note'] = '{achievement:15392} 成就中全部3个稀有精英在此位置刷新。'
 L['feasting_note'] = '有时会在返回该地点之前巡逻该区域。'
@@ -740,6 +743,8 @@ L['provis_cache_note'] = [[
 L['prying_eye_discovery'] = '窥探之眼的发现'
 L['prying_eye_discovery_note'] = '飞行解锁后容易到达。'
 L['pulp_covered_relic'] = '被粘浆覆盖的圣物'
+L['rondure_cache'] = nil
+L['rondure_cache_note'] = nil
 L['sandworn_chest'] = '沙蚀宝箱'
 L['sandworn_chest_note'] = '从区域内怪物拾取5个 {item:190198} 组合成 {item:190197}。'
 L['sand_piles'] = nil
@@ -780,6 +785,7 @@ L['schematic_ineffable_skitterer_note'] = '自杀！不，确实需要灵魂状�
 L['schematic_leaping_leporid_note'] = '在一棵漂浮的树上发现。'
 L['schematic_mawdapted_raptora_note'] = '位于 |cFFFFFD00无尽流沙|r 的 {npc:181412} 小几率掉落。'
 L['schematic_microlicid_note'] = '在浮空树最低的树枝上，在一些树叶下面。'
+L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = '附在 {npc:180978} 稀有上方藤蔓内的浮动链上。'
 L['schematic_raptora_swooper_note'] = '塑形之厅内发现。'
 L['schematic_resonant_echo_note'] = '|cFFFFFD00原初之歌的晶化回响|r 内几率发现。'

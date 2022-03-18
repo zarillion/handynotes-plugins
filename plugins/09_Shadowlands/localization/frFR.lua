@@ -679,6 +679,9 @@ La {item:185972} peut être obtenue une fois par semaine et contient 50 {currenc
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['dormant_alcove_note'] = nil
+L['rondure_alcove_note'] = nil
+
 L['corrupted_architect_note'] = 'Engagez en combat {npc:183958} et {npc:183961} pour activer le monstre rare.'
 L['dune_dominance_note'] = 'Les trois monstres élites rares pour le haut-fait {achievement:15392} apparaissent à cet endroit.'
 L['feasting_note'] = 'Va parfois faire le tour de la zone avant de revenir à cet emplacement.'
@@ -741,6 +744,8 @@ Utilisez le {item:187516} aux forges de la zone pour récupérer 15 {item:187728
 L['prying_eye_discovery'] = 'Découverte d\'œil indiscret'
 L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol est déverrouillé.'
 L['pulp_covered_relic'] = 'Relique couverte de pulpe'
+L['rondure_cache'] = nil
+L['rondure_cache_note'] = nil
 L['sandworn_chest'] = 'Coffre erodé'
 L['sandworn_chest_note'] = 'Récupérez 5x {item:190198} sur les monstres de la zone pour construire la {item:190197}.'
 L['sand_piles'] = nil
@@ -781,6 +786,7 @@ L['schematic_ineffable_skitterer_note'] = 'Suicidez-vous ! Non, sérieusement...
 L['schematic_leaping_leporid_note'] = 'Trouvé au sommet d\'un arbre flottant.'
 L['schematic_mawdapted_raptora_note'] = 'Faible chance d\'être trouvé sur les {npc:181412s} dans les |cFFFFFD00Sables Infinis|r.'
 L['schematic_microlicid_note'] = 'Sur la branche la plus basse de l\'arbre flottant, sous le feuillage.'
+L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = 'Attaché à une chaîne flottante à l\'intérieur des vignes au-dessus du monstre rare {npc:180978}.'
 L['schematic_raptora_swooper_note'] = 'Trouvé à l\'intérieur de la Chambre de Façonnage.'
 L['schematic_resonant_echo_note'] = 'Peut être trouvé dans un |cFFFFFD00Écho du premier chant cristallisé|r.'

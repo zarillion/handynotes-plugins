@@ -683,6 +683,9 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['dormant_alcove_note'] = nil
+L['rondure_alcove_note'] = nil
+
 L['corrupted_architect_note'] = 'Greife {npc:183958} und {npc:183961} an, um den seltenen Gegner zu aktivieren.'
 L['dune_dominance_note'] = 'Alle drei seltenen Elite für den {achievement:15392} Erfolg erscheinen an dieser Position.'
 L['feasting_note'] = 'Umrundet manchmal das Gebiet, bevor er zu dieser Stelle zurückkehrt.'
@@ -747,6 +750,8 @@ Verwende die {item:187516} an Progenitorschmieden (Sphären), die überall in Ze
 L['prying_eye_discovery'] = 'Entdeckung des Spürauges'
 L['prying_eye_discovery_note'] = 'Leichter zu erreichen, sobald das Fliegen freigeschaltet ist.'
 L['pulp_covered_relic'] = 'Breibedecktes Relikt'
+L['rondure_cache'] = nil
+L['rondure_cache_note'] = nil
 L['sandworn_chest'] = 'Sandgeschliffene Truhe'
 L['sandworn_chest_note'] = 'Plündere 5x {item:190198} von Gegnern in dem Gebiet, um einen {item:190197} zu bauen.'
 L['sand_piles'] = nil
@@ -787,6 +792,7 @@ L['schematic_ineffable_skitterer_note'] = 'Bring dich um! Nein, wirklich ... du 
 L['schematic_leaping_leporid_note'] = 'Zu finden auf einem schwebendem Baum.'
 L['schematic_mawdapted_raptora_note'] = 'Geringe Chance, von {npc:181412} im Gebiet |cFFFFFD00Endlose Sande|r fallen gelassen zu werden.'
 L['schematic_microlicid_note'] = 'Auf dem untersten Ast des schwebendem Baumes, unter dem Blätterwerk.'
+L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = 'An einer schwebenden Kette im Inneren der Ranken über dem seltenen Gegner {npc:180978}.'
 L['schematic_raptora_swooper_note'] = 'Zu finden in der Kammer der Gestaltung'
 L['schematic_resonant_echo_note'] = 'Hat eine Chance in {item:189172} enthalten zu sein.'

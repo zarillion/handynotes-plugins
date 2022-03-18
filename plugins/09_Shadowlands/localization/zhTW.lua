@@ -676,6 +676,9 @@ L['tormentors_note'] = [[
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['dormant_alcove_note'] = nil
+L['rondure_alcove_note'] = nil
+
 L['corrupted_architect_note'] = '攻擊 {npc:183958} 和 {npc:183961} 來啟動稀有.'
 L['dune_dominance_note'] = '{achievement:15392} 成就所需的三個稀有菁英都重生在這裡'
 L['feasting_note'] = '有時候在回到此點前會在附近繞行'
@@ -740,6 +743,8 @@ L['provis_cache_note'] = [[
 L['prying_eye_discovery'] = '發現窺探之眼'
 L['prying_eye_discovery_note'] = '當飛行解鎖時會比較容易到達'
 L['pulp_covered_relic'] = '被泥巴覆蓋的聖物'
+L['rondure_cache'] = nil
+L['rondure_cache_note'] = nil
 L['sandworn_chest'] = '砂蝕寶箱'
 L['sandworn_chest_note'] = '從附近的怪物上拾取5個 {item:190198} 來組合成 {item:190197}.'
 L['sand_piles'] = nil
@@ -780,6 +785,7 @@ L['schematic_ineffable_skitterer_note'] = '自殺! 是真的, 你只有在靈魂
 L['schematic_leaping_leporid_note'] = '在一顆漂浮的樹頂端可以找到'
 L['schematic_mawdapted_raptora_note'] = '低機率從 |cFFFFFD00無盡沙海|r 內的 {npc:181412} 掉落'
 L['schematic_microlicid_note'] = '在漂浮樹最低的枝幹上, 被蓋在一些葉子下方'
+L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = '在稀有 {npc:180978} 上方的藤蔓內，和一個漂浮的鍊子相連著'
 L['schematic_raptora_swooper_note'] = '在轉化廳內找到'
 L['schematic_resonant_echo_note'] = '有機率在 {item:189172} 內找到'

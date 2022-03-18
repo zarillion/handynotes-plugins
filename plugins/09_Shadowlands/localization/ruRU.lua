@@ -677,6 +677,9 @@ L['tormentors_note'] = [[
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['dormant_alcove_note'] = nil
+L['rondure_alcove_note'] = nil
+
 L['corrupted_architect_note'] = 'Задействуйте {npc:183958} и {npc:183961}, чтобы активировать редкого монстра.'
 L['dune_dominance_note'] = 'Все три редких монстра для достижения {achievement:15392} появляются в этом месте.'
 L['feasting_note'] = 'Иногда будет кружить по области, прежде чем вернуться на место.'
@@ -739,6 +742,8 @@ L['provis_cache_note'] = [[
 L['prying_eye_discovery'] = 'Находка любопытных'
 L['prying_eye_discovery_note'] = 'Легче добраться, когда полеты разблокированы.'
 L['pulp_covered_relic'] = 'Измазанная реликвия'
+L['rondure_cache'] = nil
+L['rondure_cache_note'] = nil
 L['sandworn_chest'] = 'Пустынный сундук'
 L['sandworn_chest_note'] = 'Соберите 5x {item:190198} с монстров в этом районе, чтобы создать {item:190197}.'
 L['sand_piles'] = nil
@@ -779,6 +784,7 @@ L['schematic_ineffable_skitterer_note'] = 'Умрите! Нет, правда...
 L['schematic_leaping_leporid_note'] = 'Расположен на вершине висящего дерева.'
 L['schematic_mawdapted_raptora_note'] = 'Небольшой шанс получить из {npc:181412} в |cFFFFFD00Бесконечных Песках|r.'
 L['schematic_microlicid_note'] = 'На самой нижней ветке висящего дерева, под листвой.'
+L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = 'Прикреплен к висящей цепи внутри лозы над редким монстром {npc:180978}.'
 L['schematic_raptora_swooper_note'] = 'Находится внутри Залов Ваяния.'
 L['schematic_resonant_echo_note'] = 'Можно получить из сундуков |cFFFFFD00Кристаллизованное эхо первой песни|r.'

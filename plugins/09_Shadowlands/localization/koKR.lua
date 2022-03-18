@@ -562,6 +562,9 @@ L['tormentors_note'] = nil
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['dormant_alcove_note'] = nil
+L['rondure_alcove_note'] = nil
+
 L['corrupted_architect_note'] = '{npc:183958}, {npc:183961}와 교전을 시작하면 활성화됩니다.'
 L['dune_dominance_note'] = '{achievement:15392} 업적에 필요한 희귀몹 셋 모두 이 위치에 생성됩니다.'
 L['feasting_note'] = nil
@@ -597,6 +600,8 @@ L['provis_cache_note'] = nil
 L['prying_eye_discovery'] = '감시 기계의 발견물'
 L['prying_eye_discovery_note'] = '비행이 해금된 후에 접근하기 더 쉽습니다.'
 L['pulp_covered_relic'] = '걸쭉한 수액으로 뒤덮인 유물'
+L['rondure_cache'] = nil
+L['rondure_cache_note'] = nil
 L['sandworn_chest'] = '모래에 바랜 상자'
 L['sandworn_chest_note'] = '해당 지역의 몹으로부터 {item:190198} 5개를 획득하여 {item:190197}를 만드세요.'
 L['sand_piles'] = nil
@@ -637,6 +642,7 @@ L['schematic_ineffable_skitterer_note'] = nil
 L['schematic_leaping_leporid_note'] = nil
 L['schematic_mawdapted_raptora_note'] = nil
 L['schematic_microlicid_note'] = nil
+L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = nil
 L['schematic_raptora_swooper_note'] = nil
 L['schematic_resonant_echo_note'] = nil
