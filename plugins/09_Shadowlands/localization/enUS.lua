@@ -681,7 +681,7 @@ To access the |cFFFFFD00%s Alcove|r:
 
 1. Complete chapter 6 of the Zereth Mortis campaign.
 2. Find the |cFFFFFD00%s Alcove Arrangement|r %s.
-3. In the |cFFFFFD00Resonant Peaks|r, Kill the mobs who have {spell:362651} or stand in white pool to got 60 {npc:183569}. 
+3. In the |cFFFFFD00Resonant Peaks|r, Kill the mobs who have {spell:362651} or stand in white pool to got 60 {npc:183569}.
 4. Use the {npc:184329} inside the Gravid Repose to access the Inner Chamber. (Requires 30 {npc:183569})
 5. Use {npc:184485} to access the %s Alcove. (Requires 30 {npc:183569})
 ]]
