@@ -756,7 +756,7 @@ L['prying_eye_discovery'] = 'Prying Eye Discovery'
 L['prying_eye_discovery_note'] = 'Easier to reach once flying is unlocked.'
 L['pulp_covered_relic'] = 'Pulp-Covered Relic'
 L['requisites_originator_note'] = [[
-A machine that will give you different rewards once a day:
+A machine that will give you different rewards once a week:
 
 • {spell:366667} = Enchanting mats + gold
 • {spell:366668} = Anima
