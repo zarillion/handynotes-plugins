@@ -678,7 +678,6 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 -------------------------------------------------------------------------------
 
 local HIDDEN_ALCOVE = [[
-L['camber_alcove_note'] = [[
 Para acceder a la |cFFFFFD00Alcoba %s|r tienes que:
 
 1. Completar el capítulo 6 de la campaña de Zereth Mortis.
