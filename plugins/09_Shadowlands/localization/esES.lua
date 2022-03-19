@@ -682,15 +682,16 @@ Para acceder a la |cFFFFFD00Alcoba %s|r tienes que:
 
 1. Completar el capítulo 6 de la campaña de Zereth Mortis.
 2. Encontrar la |cFFFFFD00Disposición de la Casa %s|r %s.
-3. Usar el {npc:184329} que hay en el Reposo Grávido para acceder al Enclave Interior.
-4. Usar un {npc:184485} diferente para acceder a la Alcoba %s.
+3. En las |cFFFFFD00Cumbres Resonantes|r, matar enemigos que estén {spell:362651} o quedarse de pie en el círculo blanco hasta llegar a 60 de {npc:183569}. 
+4. Usar el {npc:184329} que hay en el Reposo Grávido para acceder al Enclave Interior. (Requiere 30 de {npc:183569})
+5. Usar un {npc:184485} diferente para acceder a la Alcoba %s. (Requiere 30 de {npc:183569})
 ]]
 
-L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Combada', 'Combada', 'detrás del edificio en el Enclave Ultimus', 'Combada')
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Combada', 'Combada', 'detrás del edificio en el |cFFFFFD00Enclave Ultimus|r', 'Combada')
 L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Durmiente', 'Durmiente', 'en las |cFFFFFD00Cumbres Resonantes|r', 'Durmiente')
 L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Refulgente', 'Refulgente', 'en las |cFFFFFD00Cumbres Resonantes|r', 'Refulgente')
-L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Circular', 'Circular', 'en la plataforma Enclave Tertius', 'Circular')
-L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'de Repertorio', 'de Repertorio', 'dentro de la cueva Escondite Terrestre', 'de Repertorio')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Circular', 'Circular', 'en la plataforma del |cFFFFFD00Enclave Tertius|r', 'Circular')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'de Repertorio', 'de Repertorio', 'dentro de la cueva |cFFFFFD00Escondite Terrestre|r', 'de Repertorio')
 
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
 L['dune_dominance_note'] = 'Los tres élites raros para el logro {achievement:15392} aparecen en el mismo sitio.'
@@ -757,17 +758,17 @@ L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
 L['prying_eye_discovery_note'] = 'Es más fácil de alcanzar cuando el volar esté desbloqueado.'
 L['pulp_covered_relic'] = 'Reliquia Cubierta de Pulpa'
 L['requisites_originator_note'] = [[
-Es una máquina que te dará una recompensa una vez al día:
+Es una máquina que te dará recompensas distintas una vez a la semana:
 
-• |cFFFFFD00Acceder a las Reservas Áuricas|r = Materiales de Encantamiento + oro
-• |cFFFFFD00Recuperar la Reserva de Ánima Portátil|r = Ánima
-• |cFFFFFD00Generar Especie Codificada|r = Claves
-• |cFFFFFD00Restaurar Potencias de Génesis|r = Motas de Génesis + {item:189179} (probabilidad)
-• |cFFFFFD00Mezclar componentes de utilidad|r = Claves/Motas/Ánima
-• |cFFFFFD00Instrumento de Combate Complementario de Síntesis|r = Equipo de Claves
+• {spell:366667} = Materiales de Encantamiento + oro
+• {spell:366668} = Ánima
+• {spell:366669} = Claves
+• {spell:366670} = Motas de Génesis + {item:189179} (probabilidad)
+• {spell:366671} = Claves/Motas/Ánima
+• {spell:366672} = Equipo de Claves
 ]]
 L['rondure_cache'] = 'Alijo Circular'
-L['rondure_cache_note'] = 'Una forja interactuable en la cima del puzzle de saltos que hay dentro de la Alcoba Circular.'
+L['rondure_cache_note'] = 'Una forja interactuable en la cima del puzzle de saltos que hay dentro de la |cFFFFFD00Alcoba Circular|r.'
 L['sandworn_chest'] = 'Cofre Erosionado por la Arena'
 L['sandworn_chest_note'] = 'Despoja {item:190198} x5 de los enemigos de la zona para construir la {item:190197}.'
 L['sand_piles'] = 'Montones de Arena'
@@ -793,7 +794,7 @@ L['cache_mawsworn_supply'] = 'Cofre de Suministros Jurafauces'
 L['cache_tarachnid_eggs'] = 'Huevos de Tarácnido'
 L['cache_shrouded_cypher'] = 'Alijo de Claves Camuflado'
 L['cache_shrouded_cypher_note'] = [[
-Estos alijos sólo se pueden ver llevando el objeto apropiado de Equipo de Claves:
+Estos alijos sólo se pueden ver teniendo el buff {spell:361917} y llevando el objeto apropiado de Equipo de Claves:
 
 |cFF00FF00Mejora la percepción de Pocopoc y le permite descubrir más alijos ocultos.|r
 ]]
@@ -896,4 +897,4 @@ L['options_icons_zereth_caches_desc'] = 'Muestra los sitios posibles para los co
 L['options_icons_shrouded_cyphers'] = 'Alijos de claves camuflado'
 L['options_icons_shrouded_cyphers_desc'] = 'Muestra los sitios posibles para los alijos de claves camuflado.'
 L['options_icons_mawsworn_supply_cache'] = 'Cofres de Suministros Jurafauces'
-L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra los sitios posibles para los cofres Jurafauces.'
+L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra los sitios posibles para los cofres de suministros Jurafauces.'
