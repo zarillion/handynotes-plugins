@@ -677,18 +677,21 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
-L['camber_alcove_note'] = nil
-L['dormant_alcove_note'] = [[
-Para acceder a ella tienes que:
+local HIDDEN_ALCOVE = [[
+L['camber_alcove_note'] = [[
+Para acceder a la |cFFFFFD00Alcoba %s|r tienes que:
 
 1. Completar el capítulo 6 de la campaña de Zereth Mortis.
-2. Encontrar la |cFFFFFD00Alcoba Durmiente|r en las |cFFFFFD00Cumbres Resonantes|r.
-3. Usar el {npc:184329} para acceder al Enclave Interior.
-4. Usar un {npc:184485} diferente para acceder a la Alcoba Durmiente.
+2. Encontrar la |cFFFFFD00Disposición de la Casa %s|r %s.
+3. Usar el {npc:184329} que hay en el Reposo Grávido para acceder al Enclave Interior.
+4. Usar un {npc:184485} diferente para acceder a la Alcoba %s.
 ]]
-L['fulgore_alcove_note'] = nil
-L['rondure_alcove_note'] = nil
-L['repertory_alcove_note'] = nil
+
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Combada', 'Combada', 'detrás del edificio en el Enclave Ultimus', 'Combada')
+L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Durmiente', 'Durmiente', 'en las |cFFFFFD00Cumbres Resonantes|r', 'Durmiente')
+L['fulgore_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Refulgente', 'Refulgente', 'en las |cFFFFFD00Cumbres Resonantes|r', 'Refulgente')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Circular', 'Circular', 'en la plataforma Enclave Tertius', 'Circular')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'de Repertorio', 'de Repertorio', 'dentro de la cueva Escondite Terrestre', 'de Repertorio')
 
 L['corrupted_architect_note'] = 'Ataca a {npc:183958} y a {npc:183961} para activar el raro.'
 L['dune_dominance_note'] = 'Los tres élites raros para el logro {achievement:15392} aparecen en el mismo sitio.'
@@ -754,14 +757,23 @@ Usa el {item:187516} en las forjas de la zona para conseguir {item:187728} x15 y
 L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
 L['prying_eye_discovery_note'] = 'Es más fácil de alcanzar cuando el volar esté desbloqueado.'
 L['pulp_covered_relic'] = 'Reliquia Cubierta de Pulpa'
-L['requisites_originator_note'] = nil
-L['rondure_cache'] = nil
-L['rondure_cache_note'] = nil
+L['requisites_originator_note'] = [[
+Es una máquina que te dará una recompensa una vez al día:
+
+• |cFFFFFD00Acceder a las Reservas Áuricas|r = Materiales de Encantamiento + oro
+• |cFFFFFD00Recuperar la Reserva de Ánima Portátil|r = Ánima
+• |cFFFFFD00Generar Especie Codificada|r = Claves
+• |cFFFFFD00Restaurar Potencias de Génesis|r = Motas de Génesis + {item:189179} (probabilidad)
+• |cFFFFFD00Mezclar componentes de utilidad|r = Claves/Motas/Ánima
+• |cFFFFFD00Instrumento de Combate Complementario de Síntesis|r = Equipo de Claves
+]]
+L['rondure_cache'] = 'Alijo Circular'
+L['rondure_cache_note'] = 'Una forja interactuable en la cima del puzzle de saltos que hay dentro de la Alcoba Circular.'
 L['sandworn_chest'] = 'Cofre Erosionado por la Arena'
 L['sandworn_chest_note'] = 'Despoja {item:190198} x5 de los enemigos de la zona para construir la {item:190197}.'
 L['sand_piles'] = 'Montones de Arena'
 L['sand_piles_note'] = [[
-Todos los montones de arena están en una cámara secreta subterránea. Cada montón requiere un {item:189863}, los cuales se pueden encontrar en otros tesoros de la zona:
+Todos los montones de arena están en la cámara escondida Alcoba Durmiente. Cada montón requiere un {item:189863}, los cuales se pueden encontrar en otros tesoros de la zona:
 
 • Alijo de Dominación
 • Caja Fuerte Caída
@@ -771,8 +783,8 @@ Todos los montones de arena están en una cámara secreta subterránea. Cada mon
 • Cámara Sinfónica
 • Follaje Ondulante
 ]]
-L['torn_ethereal_drape'] = nil
-L['torn_ethereal_drape_note'] = nil
+L['torn_ethereal_drape'] = 'Mantón Etéreo Deshilachado'
+L['torn_ethereal_drape_note'] = 'Está dentro de la |cFFFFFD00Alcoba Refulgente|r. Activa las |cFFFFFD00Consolas de Automa|r y monta en los {npc:183565} para alcanzar el techo.'
 
 L['cache_avian_nest'] = 'Nido Aviario'
 L['cache_cypher_bound'] = 'Cofre Reforzado con Clave'
@@ -781,7 +793,11 @@ L['cache_forgotten_vault'] = 'Cámara del Tesoro Olvidada'
 L['cache_mawsworn_supply'] = 'Cofre de Suministros Jurafauces'
 L['cache_tarachnid_eggs'] = 'Huevos de Tarácnido'
 L['cache_shrouded_cypher'] = 'Alijo de Claves Camuflado'
-L['cache_shrouded_cypher_note'] = 'Has de tener equipado un objeto con {spell:364478}.'
+L['cache_shrouded_cypher_note'] = [[
+Estos alijos sólo se pueden ver llevando el objeto apropiado de Equipo de Claves:
+
+|cFF00FF00Mejora la percepción de Pocopoc y le permite descubrir más alijos ocultos.|r
+]]
 
 L['cache_cantaric'] = 'Alijo Cantárico'
 L['cache_fugueal'] = 'Alijo de Fuga'
@@ -809,9 +825,9 @@ L['schematic_ineffable_skitterer_note'] = '¡Mátate! En serio... sólo puedes v
 L['schematic_leaping_leporid_note'] = 'Encima de un árbol flotante.'
 L['schematic_mawdapted_raptora_note'] = 'Pequeña probabilidad de que lo suelte una {npc:181412} en las |cFFFFFD00Arenas Infinitas|r.'
 L['schematic_microlicid_note'] = 'En la rama más baja del árbol flotante, debajo de algo de follaje.'
-L['schematic_omnipotential_core_note'] = nil
+L['schematic_omnipotential_core_note'] = 'Está en la |cFFFFFD00Alcoba Circular|r. El esquema está escondido detrás del borde superior del arco en el lado sur-oeste de la habitación.'
 L['schematic_prototickles_note'] = 'Unido a una cadena flotante dentro de las vides de encima del raro {npc:180978}.'
-L['schematic_prototype_fleetpod_note'] = nil
+L['schematic_prototype_fleetpod_note'] = 'Está dentro de la Alcoba Combada. Interactúa con el {npc:184900} para comenzar un minijuego. Guía la serpiente a través de 5 anillos sin tocar los {npc:185455} para ganar el esquema.'
 L['schematic_raptora_swooper_note'] = 'Dentro de la Cámara de Formación.'
 L['schematic_resonant_echo_note'] = 'Probabilidad de que esté dentro de un |cFFFFFD00Eco Cristalizado de la Primera Canción|r.'
 L['schematic_russet_bufonid_note'] = 'Probabilidad de que esté en el cofre de reputación {item:187780}.'
@@ -878,7 +894,7 @@ L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
 L['options_icons_puzzle_caches_desc'] = 'Muestra los sitios posibles para los alijos puzzle.'
 L['options_icons_zereth_caches'] = 'Cofres con Clave'
 L['options_icons_zereth_caches_desc'] = 'Muestra los sitios posibles para los cofres con clave.'
-L['options_icons_shrouded_cyphers'] = 'Alijo de claves camuflado'
-L['options_icons_shrouded_cyphers_desc'] = 'Muestra los sitios posibles para los alijos de claves camuflado. Has de tener equipado un objeto con {spell:364478}.'
-L['options_icons_mawsworn_supply_cache'] = nil
-L['options_icons_mawsworn_supply_cache_desc'] = nil
+L['options_icons_shrouded_cyphers'] = 'Alijos de claves camuflado'
+L['options_icons_shrouded_cyphers_desc'] = 'Muestra los sitios posibles para los alijos de claves camuflado.'
+L['options_icons_mawsworn_supply_cache'] = 'Cofres de Suministros Jurafauces'
+L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra los sitios posibles para los cofres Jurafauces.'
