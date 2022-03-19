@@ -682,7 +682,7 @@ Para acceder a la |cFFFFFD00Alcoba %s|r tienes que:
 
 1. Completar el capítulo 6 de la campaña de Zereth Mortis.
 2. Encontrar la |cFFFFFD00Disposición de la Casa %s|r %s.
-3. En las |cFFFFFD00Cumbres Resonantes|r, matar enemigos que estén {spell:362651} o quedarse de pie en el círculo blanco hasta llegar a 60 de {npc:183569}. 
+3. En las |cFFFFFD00Cumbres Resonantes|r, matar enemigos que estén {spell:362651} o quedarse de pie en el círculo blanco hasta llegar a 60 de {npc:183569}.
 4. Usar el {npc:184329} que hay en el Reposo Grávido para acceder al Enclave Interior. (Requiere 30 de {npc:183569})
 5. Usar un {npc:184485} diferente para acceder a la Alcoba %s. (Requiere 30 de {npc:183569})
 ]]
