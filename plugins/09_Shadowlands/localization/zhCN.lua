@@ -681,8 +681,9 @@ local HIDDEN_ALCOVE = [[
 
 1. 完成第6章扎雷殁提斯战役。
 2. 找到 |cFFFFFD00%s凹室指向|r %s。
-3. 使用孕育栖地内的 {npc:184329} 访问内室。
-4. 使用不同的 {npc:184485} 访问%s凹室。
+3. 在 |cFFFFFD00共振群山|r，击杀有 {spell:362651} 的怪物或站在白池中获得60 {npc:183569}。
+4. 使用孕育栖地内的 {npc:184329} 访问内室。（需要30 {npc:183569}）
+5. 使用 {npc:184485} 访问%s凹室。（需要30 {npc:183569}）
 ]]
 
 L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, '拱曲', '拱曲', '在 |cFFFFFD00最终位点|r 建筑物后面', '拱曲')
@@ -782,7 +783,7 @@ L['sand_piles_note'] = [[
 · 波动植物
 ]]
 L['torn_ethereal_drape'] = '破旧的虚渺披风'
-L['torn_ethereal_drape_note'] = '在 |cFFFFFD00灿烂凹室|r 内找到。激活 |cFFFFFD00自动体控制台|r，然后骑上 {npc:183565s} 到达天花板。'
+L['torn_ethereal_drape_note'] = '在 |cFFFFFD00灿烂凹室|r 内找到。激活 |cFFFFFD00自动体控制台|r，然后骑上 {npc:183565} 到达天花板。'
 
 L['cache_avian_nest'] = '元鸟之巢'
 L['cache_cypher_bound'] = '密文束缚的宝箱'
