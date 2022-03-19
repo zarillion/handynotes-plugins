@@ -823,7 +823,7 @@ L['patient_bufonid_note_day6'] = '순례자의 은총 근처에 있는 {npc:1857
 L['patient_bufonid_note_day7'] = '타자베쉬 던전 내의 {npc:180114}으로부터 {item:187171} 1개를 구입하세요.'
 
 L['lost_comb'] = 'Lost Comb'
-L['soulshape_penguin_note'] = 'Located on top of the floating forge. Interact with {npc:185279} to get item.'
+L['soulshape_penguin_note'] = 'Located on top of the floating forge.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '{achievement:15211} 업적을 위한 생명체의 위치를 표시합니다.'
@@ -842,6 +842,4 @@ L['options_icons_puzzle_caches_desc'] = '퍼즐 상자의 생성 위치를 표�
 L['options_icons_zereth_caches'] = '암호 상자'
 L['options_icons_zereth_caches_desc'] = '암호 상자의 생성 위치를 표시합니다.'
 L['options_icons_shrouded_cyphers'] = '가려진 암호 보관함'
-L['options_icons_shrouded_cyphers_desc'] = '가려진 암호 보관함를 발견할 수 있는 위치를 표시합니다. {spell:364478} 능력의 아이템을 착용해야 합니다.'
-L['options_icons_soulshapes'] = '{spell:310143}'
-L['options_icons_soulshapes_desc'] = '{spell:310143} 위치를 표시합니다.'
+L['options_icons_shrouded_cyphers_desc'] = '가려진 암호 보관함의 발견 가능한 위치를 표시합니다. {spell:364478} 능력의 아이템을 착용해야 합니다.'
