@@ -756,7 +756,7 @@ L['prying_eye_discovery'] = '窥探之眼的发现'
 L['prying_eye_discovery_note'] = '飞行解锁后容易到达。'
 L['pulp_covered_relic'] = '被粘浆覆盖的圣物'
 L['requisites_originator_note'] = [[
-一台每天会给你不同奖励的机器：
+一台每周会给你不同奖励的机器：
 
 · {spell:366667} = 附魔材料和金币
 · {spell:366668} = 心能
