@@ -685,11 +685,11 @@ To access the |cFFFFFD00%s Alcove|r:
 4. Use a different {npc:184485} to access the %s Alcove.
 ]]
 
-L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Camber', 'Camber', 'behind the building at the Ultimus Locus', 'Camber')
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Camber', 'Camber', 'behind the building at the |cFFFFFD00Ultimus Locus|r', 'Camber')
 L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Dormant', 'Dormant', 'in the |cFFFFFD00Resonant Peaks|r', 'Dormant')
-L['fulgore_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Fulgore', 'Fulgore', 'in the |cFFFFFD00Resonant Peaks|r', 'Fulgore')
-L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Rondure', 'Rondure', 'on the Tertius Locus platform', 'Rondure')
-L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Repertory', 'Repertory', 'inside the Terrestial Cache cave', 'Repertory')
+L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Fulgor', 'Fulgor', 'in the |cFFFFFD00Resonant Peaks|r', 'Fulgor')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Rondure', 'Rondure', 'on the |cFFFFFD00Tertius Locus|r platform', 'Rondure')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Repertory', 'Repertory', 'inside the |cFFFFFD00Terrestial Cache|r cave', 'Repertory')
 
 L['corrupted_architect_note'] = 'Engage {npc:183958} and {npc:183961} to activate the rare.'
 L['dune_dominance_note'] = 'All three rare elites for the {achievement:15392} achievement spawn at this location.'
@@ -758,15 +758,15 @@ L['pulp_covered_relic'] = 'Pulp-Covered Relic'
 L['requisites_originator_note'] = [[
 A machine that will give you different rewards once a day:
 
-• |cFFFFFD00Access Auric Reserves|r = Enchanting mats + gold
-• |cFFFFFD00Retrieve Portable Anima Reservoir|r = Anima
-• |cFFFFFD00Generate Encoded Specie|r = Cyphers
-• |cFFFFFD00Restore Genesis Potencies|r = Genesis Motes + {item:189179} (chance)
-• |cFFFFFD00Blend Utility Components|r = Cyphers/Motes/Anima
-• |cFFFFFD00Synthesis Ancillary Combat Implement|r = Cypher Equipment
+• {spell:366667} = Enchanting mats + gold
+• {spell:366668} = Anima
+• {spell:366669} = Cyphers
+• {spell:366670} = Genesis Motes + {item:189179} (chance)
+• {spell:366671} = Cyphers/Motes/Anima
+• {spell:366672} = Cypher Equipment
 ]]
 L['rondure_cache'] = 'Rondure Cache'
-L['rondure_cache_note'] = 'An interactable forge at the top of a jumping puzzle inside the Rondure Alcove.'
+L['rondure_cache_note'] = 'An interactable forge at the top of a jumping puzzle inside the |cFFFFFD00Rondure Alcove|r.'
 L['sandworn_chest'] = 'Sandworn Chest'
 L['sandworn_chest_note'] = 'Loot 5x {item:190198} from mobs in the area to construct the {item:190197}.'
 L['sand_piles'] = 'Sand Piles'
@@ -782,7 +782,7 @@ All sand piles are found in the hidden Dormant Alcove chamber. Each pile require
 • Undulating Foliage
 ]]
 L['torn_ethereal_drape'] = 'Torn Ethereal Drape'
-L['torn_ethereal_drape_note'] = 'Found inside the |cFFFFFD00Fulgore Alcove|r. Activate the |cFFFFFD00Automa Consoles|r, then ride the {npc:183565s} to reach the ceiling.'
+L['torn_ethereal_drape_note'] = 'Found inside the |cFFFFFD00Fulgor Alcove|r. Activate the |cFFFFFD00Automa Consoles|r, then ride the {npc:183565s} to reach the ceiling.'
 
 L['cache_avian_nest'] = 'Avian Nest'
 L['cache_cypher_bound'] = 'Cypher Bound Chest'
@@ -825,7 +825,7 @@ L['schematic_mawdapted_raptora_note'] = 'Small chance to drop from {npc:181412s}
 L['schematic_microlicid_note'] = 'On the lowest branch of the floating tree, underneath some foliage.'
 L['schematic_omnipotential_core_note'] = 'Found in the |cFFFFFD00Rondure Alcove|r. The schematic is hidden behind the upper lip of the archway on the south-west side of the room.'
 L['schematic_prototickles_note'] = 'Attached to a floating chain inside the vines above the {npc:180978} rare.'
-L['schematic_prototype_fleetpod_note'] = 'Found inside the Camber Alcove. Interact with the {npc:184900} to start a minigame. Guide the snail through 5 rings without touching {npc:185455s} to win the schematic.'
+L['schematic_prototype_fleetpod_note'] = 'Found inside the |cFFFFFD00Camber Alcove|r. Interact with the {npc:184900} to start a minigame. Guide the snail through 5 rings without touching {npc:185455s} to win the schematic.'
 L['schematic_raptora_swooper_note'] = 'Found inside the Chamber of Shaping.'
 L['schematic_resonant_echo_note'] = 'Chance to be found inside a |cFFFFFD00Crystallized Echo of the First Song|r.'
 L['schematic_russet_bufonid_note'] = 'Chance to be found in the {item:187780} paragon cache.'
@@ -895,4 +895,4 @@ L['options_icons_zereth_caches_desc'] = 'Display possible locations for cypher c
 L['options_icons_shrouded_cyphers'] = 'Shrouded Cypher Caches'
 L['options_icons_shrouded_cyphers_desc'] = 'Display possible locations for hidden cypher caches.'
 L['options_icons_mawsworn_supply_cache'] = 'Mawsworn Supply Caches'
-L['options_icons_mawsworn_supply_cache_desc'] = 'Display possible locations for mawsworn caches.'
+L['options_icons_mawsworn_supply_cache_desc'] = 'Display possible locations for mawsworn supply caches.'

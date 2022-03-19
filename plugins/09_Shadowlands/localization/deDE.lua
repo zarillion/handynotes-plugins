@@ -685,7 +685,7 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 
 L['camber_alcove_note'] = nil
 L['dormant_alcove_note'] = nil
-L['fulgore_alcove_note'] = nil
+L['fulgor_alcove_note'] = nil
 L['rondure_alcove_note'] = nil
 L['repertory_alcove_note'] = nil
 

@@ -5,7 +5,7 @@
     * Sand piles for the "Sand, Sand Everywhere!" achievement in the Dormant Alcove.
     * Schematic: Omnipotential Core and Rondure Cache in the Rondure Alcove.
     * Schematic: Unsuccessful Prototype Fleetpod in the Camber Alcove.
-    * Torn Ethereal Drape in the Fulgore Alcove.
+    * Torn Ethereal Drape in the Fulgor Alcove.
 * Moved Mawsworn Supply Caches to their own group and added missing spawn locations (good luck on the mount!).
 * Added Shrouded Supply Cache locations.
 * Added Soulshape forms found in Zereth Mortis.

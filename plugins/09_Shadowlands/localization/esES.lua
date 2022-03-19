@@ -689,7 +689,7 @@ Para acceder a la |cFFFFFD00Alcoba %s|r tienes que:
 
 L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Combada', 'Combada', 'detrás del edificio en el Enclave Ultimus', 'Combada')
 L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Durmiente', 'Durmiente', 'en las |cFFFFFD00Cumbres Resonantes|r', 'Durmiente')
-L['fulgore_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Refulgente', 'Refulgente', 'en las |cFFFFFD00Cumbres Resonantes|r', 'Refulgente')
+L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Refulgente', 'Refulgente', 'en las |cFFFFFD00Cumbres Resonantes|r', 'Refulgente')
 L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Circular', 'Circular', 'en la plataforma Enclave Tertius', 'Circular')
 L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'de Repertorio', 'de Repertorio', 'dentro de la cueva Escondite Terrestre', 'de Repertorio')
 

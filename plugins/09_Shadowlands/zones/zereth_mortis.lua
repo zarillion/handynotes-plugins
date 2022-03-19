@@ -918,11 +918,11 @@ map.nodes[46893964] = Treasure({
     quest = 65643,
     label = L['torn_ethereal_drape'],
     note = L['torn_ethereal_drape_note'] .. '\n\n' ..
-        ns.color.Orange(L['fulgore_alcove_note']),
+        ns.color.Orange(L['fulgor_alcove_note']),
     rewards = {
         Transmog({item = 188054, slot = L['cloak']}) -- Antecedent Drape
     },
-    pois = {POI({47853037})} -- Fulgore Alcove Arrangement
+    pois = {POI({47853037})} -- Fulgor Alcove Arrangement
 }) -- Torn Ethereal Drape
 
 -------------------------------------------------------------------------------

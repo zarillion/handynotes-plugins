@@ -689,7 +689,7 @@ Pour accéder à l'|cFFFFFD00Alcôve %s|r :
 
 L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Concave', 'Concave', 'derrière le bâtiment du Locus Ultimus', 'Concave')
 L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Dormante', 'Dormante', 'aux |cFFFFFD00Pics Résonnants|r', 'Dormante')
-L['fulgore_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Aveuglante', 'Aveuglante', 'aux |cFFFFFD00Pics Résonnants|r', 'Aveuglante')
+L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Aveuglante', 'Aveuglante', 'aux |cFFFFFD00Pics Résonnants|r', 'Aveuglante')
 L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Incurvée', 'Incurvée', 'sur la plateforme du Locus Tertius', 'Incurvée')
 L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'du Répertoire', 'du Répertoire', 'à l\'intérieur de la grotte de la Cache Terrestre', 'du Répertoire')
 
