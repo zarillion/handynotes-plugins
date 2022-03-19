@@ -782,7 +782,7 @@ L['sand_piles_note'] = [[
 • Колыхающаяся листва
 ]]
 L['torn_ethereal_drape'] = 'Рваная призрачная пелерина'
-L['torn_ethereal_drape_note'] = 'Находиться внутри |cFFFFFD00Постоянного Алькова|r. Активировать |cFFFFFD00Automa Consoles|r, затем верхом на {npc:183565} дотянитесь до потолка.'
+L['torn_ethereal_drape_note'] = 'Сначала берем руну |cFFFFFD00Ослепительный Альков|r. Далее активируем |cFFFFFD00Консоль автомов|r, и верхом на {npc:183565} дотянитесь до сокровища.'
 
 L['cache_avian_nest'] = 'Гнездо авиана'
 L['cache_cypher_bound'] = 'Защищенный шифром сундук'
