@@ -683,15 +683,16 @@ local HIDDEN_ALCOVE = [[
 Pour accéder à l'|cFFFFFD00Alcôve %s|r :
 1. Terminez le chapitre 6 de la campagne de Zereth Mortis.
 2. Trouvez l'|cFFFFFD00Agencement de l'alcôve %s|r %s.
-3. Utilisez le {npc:184329} à l'intérieur du Repos de la fertilité pour accéder à la Chambre Intérieure.
-4. Utilisez un autre {npc:184485} pour accéder à l'Alcôve %s.
+3. Aux |cFFFFFD00Pics Résonnants|r, tuez les monstres affectés par {spell:362651} ou placez-vous dans les zones blanches pour obtenir 60 {npc:183569}.
+4. Utilisez le {npc:184329} à l'intérieur du Repos de la fertilité pour accéder à la Chambre Intérieure. (Nécessite 30 {npc:183569})
+5. Utilisez le {npc:184485} pour accéder à l'Alcôve %s. (Nécessite 30 {npc:183569})
 ]]
 
-L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Concave', 'Concave', 'derrière le bâtiment du Locus Ultimus', 'Concave')
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Concave', 'Concave', 'derrière le bâtiment du |cFFFFFD00Locus Ultimus|r', 'Concave')
 L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Dormante', 'Dormante', 'aux |cFFFFFD00Pics Résonnants|r', 'Dormante')
 L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Aveuglante', 'Aveuglante', 'aux |cFFFFFD00Pics Résonnants|r', 'Aveuglante')
-L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Incurvée', 'Incurvée', 'sur la plateforme du Locus Tertius', 'Incurvée')
-L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'du Répertoire', 'du Répertoire', 'à l\'intérieur de la grotte de la Cache Terrestre', 'du Répertoire')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Incurvée', 'Incurvée', 'sur la plateforme du |cFFFFFD00Locus Tertius|r', 'Incurvée')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'du Répertoire', 'du Répertoire', 'à l\'intérieur de la grotte de la |cFFFFFD00Cache Terrestre|r', 'du Répertoire')
 
 L['corrupted_architect_note'] = 'Engagez en combat {npc:183958} et {npc:183961} pour activer le monstre rare.'
 L['dune_dominance_note'] = 'Les trois monstres élites rares pour le haut-fait {achievement:15392} apparaissent à cet endroit.'
@@ -756,17 +757,17 @@ L['prying_eye_discovery'] = 'Découverte d\'œil indiscret'
 L['prying_eye_discovery_note'] = 'Plus facile à atteindre une fois que le vol est déverrouillé.'
 L['pulp_covered_relic'] = 'Relique couverte de pulpe'
 L['requisites_originator_note'] = [[
-Une machine qui vous donnera différentes récompenses une fois par jour :
+Une machine qui vous donnera différentes récompenses une fois par semaine :
 
-• |cFFFFFD00Accéder aux réserves auriques|r = Matériaux d'Enchantement + or
-• |cFFFFFD00Récupérer le réservoir d’anima portatif|r = Anima
-• |cFFFFFD00Générer une pièce encodée|r = Cryptogrammes
-• |cFFFFFD00Rétablir les potentialités génésiaques|r = Granules de genèse + {item:189179} (possible)
-• |cFFFFFD00Mélanger les composants utilitaires|r = Cryptogrammes/Granules/Anima
-• |cFFFFFD00Équipement de combat ancillaire de synthèse|r = Équipement Cryptique
+• {spell:366667} = Matériaux d'Enchantement + or
+• {spell:366668} = Anima
+• {spell:366669} = Cryptogrammes
+• {spell:366670} = Granules de genèse + {item:189179} (possible)
+• {spell:366671} = Cryptogrammes/Granules/Anima
+• {spell:366672} = Équipement Cryptique
 ]]
 L['rondure_cache'] = 'Cache incurvée'
-L['rondure_cache_note'] = 'Une forge pouvant être cliquée au sommet d\'un parcours de sauts dans l\'Alcôve Incurvée.'
+L['rondure_cache_note'] = 'Une forge pouvant être cliquée au sommet d\'un parcours de sauts dans l\'|cFFFFFD00Alcôve Incurvée|r.'
 L['sandworn_chest'] = 'Coffre erodé'
 L['sandworn_chest_note'] = 'Récupérez 5x {item:190198} sur les monstres de la zone pour construire la {item:190197}.'
 L['sand_piles'] = 'Tas de sable'
@@ -792,7 +793,7 @@ L['cache_mawsworn_supply'] = 'Coffre de fournitures antreliges'
 L['cache_tarachnid_eggs'] = 'Oeufs de Tarachnidé'
 L['cache_shrouded_cypher'] = 'Cache cryptique dissimulée'
 L['cache_shrouded_cypher_note'] = [[
-Ces caches ne peuvent être vues que si l'on porte un Équipement Cryptique approprié :
+Ces caches ne peuvent être vues que si l'on possède le buff {spell:361917} et l'on porte un Équipement Cryptique approprié :
 
 |cFF00FF00Améliore la perception de Pocopoc, ce qui lui permet de détecter des caches supplémentaires.|r
 ]]
@@ -825,7 +826,7 @@ L['schematic_mawdapted_raptora_note'] = 'Faible chance d\'être trouvé sur les 
 L['schematic_microlicid_note'] = 'Sur la branche la plus basse de l\'arbre flottant, sous le feuillage.'
 L['schematic_omnipotential_core_note'] = 'Se trouve dans l\'|cFFFFFD00Alcôve Incurvée|r. Le schéma est caché derrière le bord supérieur de la voûte du côté sud-ouest de la pièce.'
 L['schematic_prototickles_note'] = 'Attaché à une chaîne flottante à l\'intérieur des vignes au-dessus du monstre rare {npc:180978}.'
-L['schematic_prototype_fleetpod_note'] = 'Se trouve dans l\'Alcôve Concave. Interagissez avec le {npc:184900} pour déclencher un mini-jeu. Guidez l\'escargot à travers 5 anneaux sans toucher les {npc:185455s} pour obtenir le schéma.'
+L['schematic_prototype_fleetpod_note'] = 'Se trouve dans l\'|cFFFFFD00Alcôve Concave|r. Interagissez avec le {npc:184900} pour déclencher un mini-jeu. Guidez l\'escargot à travers 5 anneaux sans toucher les {npc:185455s} pour obtenir le schéma.'
 L['schematic_raptora_swooper_note'] = 'Trouvé à l\'intérieur de la Chambre de Façonnage.'
 L['schematic_resonant_echo_note'] = 'Peut être trouvé dans un |cFFFFFD00Écho du premier chant cristallisé|r.'
 L['schematic_russet_bufonid_note'] = 'Peut être trouvé dans la cache de parangon {item:187780}.'
