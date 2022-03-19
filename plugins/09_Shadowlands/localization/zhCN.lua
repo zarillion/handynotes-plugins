@@ -685,11 +685,11 @@ local HIDDEN_ALCOVE = [[
 4. 使用不同的 {npc:184485} 访问%s凹室。
 ]]
 
-L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, '拱曲', '拱曲', '|cFFFFFD00最终位点|r 建筑物后面', '拱曲')
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, '拱曲', '拱曲', '在 |cFFFFFD00最终位点|r 建筑物后面', '拱曲')
 L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, '休眠', '休眠', '位于 |cFFFFFD00共振群山|r', '休眠')
 L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, '灿烂', '灿烂', '位于 |cFFFFFD00共振群山|r', '灿烂')
-L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, '圆弧', '圆弧', '|cFFFFFD00第三位点|r 平台上', '圆弧')
-L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, '储备', '储备', '|cFFFFFD00陆相宝窟|r 洞穴内', '储备')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, '圆弧', '圆弧', '在 |cFFFFFD00第三位点|r 平台上', '圆弧')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, '储备', '储备', '在 |cFFFFFD00陆相宝窟|r 洞穴内', '储备')
 
 L['corrupted_architect_note'] = '攻击 {npc:183958} 和 {npc:183961} 激活稀有。'
 L['dune_dominance_note'] = '{achievement:15392} 成就中全部3个稀有精英在此位置刷新。'
@@ -825,7 +825,7 @@ L['schematic_mawdapted_raptora_note'] = '位于 |cFFFFFD00无尽流沙|r 的 {np
 L['schematic_microlicid_note'] = '在浮空树最低的树枝上，在一些树叶下面。'
 L['schematic_omnipotential_core_note'] = '|cFFFFFD00圆弧凹室|r 内找到。结构图隐藏在房间西南侧拱门的上沿后面。'
 L['schematic_prototickles_note'] = '附在 {npc:180978} 稀有上方藤蔓内的浮动链上。'
-L['schematic_prototype_fleetpod_note'] = '|cFFFFFD00拱曲凹室|r 内找到。和 {npc:184900} 互动开启小游戏。指引蜗牛穿过5个环而不接触 {npc:185455s} 赢得结构图。'
+L['schematic_prototype_fleetpod_note'] = '|cFFFFFD00拱曲凹室|r 内找到。和 {npc:184900} 互动开启小游戏。指引蜗牛穿过5个环而不接触 {npc:185455} 赢得结构图。'
 L['schematic_raptora_swooper_note'] = '塑形之厅内发现。'
 L['schematic_resonant_echo_note'] = '|cFFFFFD00原初之歌的晶化回响|r 内几率发现。'
 L['schematic_russet_bufonid_note'] = '{item:187780} 巅峰宝箱内几率发现。'
