@@ -793,7 +793,7 @@ L['cache_mawsworn_supply'] = '渊誓补给宝箱'
 L['cache_tarachnid_eggs'] = '元蛛卵'
 L['cache_shrouded_cypher'] = '氤氲密文宝箱'
 L['cache_shrouded_cypher_note'] = [[
-这些宝箱只在装备一件适当的密文装备物品时能看到：
+这些宝箱只在有 {spell:361917} 增益和装备一件适当的密文装备物品时能看到：
 
 |cFF00FF00强化波可波克的观察力，使其可以发现额外的隐藏宝箱。|r
 ]]

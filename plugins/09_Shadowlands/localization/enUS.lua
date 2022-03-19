@@ -793,7 +793,7 @@ L['cache_mawsworn_supply'] = 'Mawsworn Supply Chest'
 L['cache_tarachnid_eggs'] = 'Tarachnid Eggs'
 L['cache_shrouded_cypher'] = 'Shrouded Cypher Cache'
 L['cache_shrouded_cypher_note'] = [[
-These caches can only be seen while wearing an appropriate Cypher Equipment item:
+These caches can only be seen while having {spell:361917} buff and wearing an appropriate Cypher Equipment item:
 
 |cFF00FF00Enhances Pocopoc's perception, allowing it to discover additional hidden caches.|r
 ]]
