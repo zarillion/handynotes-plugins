@@ -94,6 +94,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 ### Zereth Mortis
 
 * Cyphers of Creation (puzzle caches) and repeatable cypher cache locations.
+* Mawsworn Supply Cache locations for the [Colossal Wraithbound Mawrat](https://www.wowhead.com/spell=368128/colossal-wraithbound-mawrat) mount.
 * Protoform Schematic locations for crafting mounts and pets.
 * Lore Concordance and Echoed Jiro locations providing outdoor buffs.
 * Creature locations for the [Completing the Code](https://www.wowhead.com/achievement=15211/completing-the-code) achievement.
@@ -108,6 +109,7 @@ This addon has been translated to the following languages:
 * `deDE` - German (thanks Dathwada!)
 * `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
 * `frFR` - French (thanks Lightuky!)
+* `koKR` - Korean (thanks soaa!)
 * `ruRU` - Russian (thanks Hubbotu!)
 * `zhCN` - Chinese (Simplified) (thanks Adavak!)
 * `zhTW` - Chinese (Traditional) (thanks mcc1!)

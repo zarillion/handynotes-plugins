@@ -676,6 +676,12 @@ L['tormentors_note'] = [[
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['camber_alcove_note'] = nil
+L['dormant_alcove_note'] = nil
+L['fulgor_alcove_note'] = nil
+L['rondure_alcove_note'] = nil
+L['repertory_alcove_note'] = nil
+
 L['corrupted_architect_note'] = '攻擊 {npc:183958} 和 {npc:183961} 來啟動稀有.'
 L['dune_dominance_note'] = '{achievement:15392} 成就所需的三個稀有菁英都重生在這裡'
 L['feasting_note'] = '有時候在回到此點前會在附近繞行'
@@ -740,8 +746,15 @@ L['provis_cache_note'] = [[
 L['prying_eye_discovery'] = '發現窺探之眼'
 L['prying_eye_discovery_note'] = '當飛行解鎖時會比較容易到達'
 L['pulp_covered_relic'] = '被泥巴覆蓋的聖物'
+L['requisites_originator_note'] = nil
+L['rondure_cache'] = nil
+L['rondure_cache_note'] = nil
 L['sandworn_chest'] = '砂蝕寶箱'
 L['sandworn_chest_note'] = '從附近的怪物上拾取5個 {item:190198} 來組合成 {item:190197}.'
+L['sand_piles'] = nil
+L['sand_piles_note'] = nil
+L['torn_ethereal_drape'] = nil
+L['torn_ethereal_drape_note'] = nil
 
 L['cache_avian_nest'] = '鳥巢'
 L['cache_cypher_bound'] = '暗語束縛箱子'
@@ -749,6 +762,8 @@ L['cache_discarded_automa'] = '被丟棄的自主機碎塊'
 L['cache_forgotten_vault'] = '被遺忘的藏寶庫'
 L['cache_mawsworn_supply'] = '淵誓補給箱'
 L['cache_tarachnid_eggs'] = '原蛛卵'
+L['cache_shrouded_cypher'] = '隱蔽的暗語寶箱'
+L['cache_shrouded_cypher_note'] = '必須裝備一件 {spell:364478} 裝備，並且需要要求波克波可觀察值得注意的事物'
 
 L['cache_cantaric'] = '肯塔瑞克原鎖'
 L['cache_fugueal'] = '符古爾原鎖'
@@ -763,6 +778,7 @@ L['schematic_bronze_helicid_note'] = '有機率從每周任務 {quest:65324} 的
 L['schematic_ambystan_darter_note'] = '藏在水下 {npc:185312} 附近'
 L['schematic_bronzewing_vespoid_note'] = '在育生棲地內'
 L['schematic_buzz_note'] = '在 {npc:185265} 內有機率找到'
+L['schematic_curious_crystalsniffer_note'] = '在擊敗 |cFFFFFD00首創者聖塚|r 團本內的 {npc:184915} 後的一小段時間內可以取得'
 L['schematic_darkened_vombata_note'] = '在一個漂浮的籠子內'
 L['schematic_deathrunner_note'] = '作為 {spell:366367} 的解鎖任務中一部分的獎勵'
 L['schematic_desertwing_hunter_note'] = '在柱子頂端'
@@ -771,10 +787,13 @@ L['schematic_forged_spiteflyer_note'] = '插在原蜂巢群中'
 L['schematic_genesis_crawler_note'] = '在創始密室入口的頂端找到'
 L['schematic_goldplate_bufonid_note'] = '{npc:178803} 有低機率掉落'
 L['schematic_heartbond_lupine_note'] = '{npc:179939} 有低機率掉落'
+L['schematic_ineffable_skitterer_note'] = '自殺! 是真的, 你只有在靈魂狀態時可以在 |cFFFFFD00流亡者洞穴|r 內找到 {npc:185092}'
 L['schematic_leaping_leporid_note'] = '在一顆漂浮的樹頂端可以找到'
+L['schematic_mawdapted_raptora_note'] = '低機率從 |cFFFFFD00無盡沙海|r 內的 {npc:181412} 掉落'
 L['schematic_microlicid_note'] = '在漂浮樹最低的枝幹上, 被蓋在一些葉子下方'
-L['schematic_pale_regal_cervid_note'] = '在 {npc:181397} 處研究所有的暗語來取得 {achievement:15402}.'
+L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = '在稀有 {npc:180978} 上方的藤蔓內，和一個漂浮的鍊子相連著'
+L['schematic_prototype_fleetpod_note'] = nil
 L['schematic_raptora_swooper_note'] = '在轉化廳內找到'
 L['schematic_resonant_echo_note'] = '有機率在 {item:189172} 內找到'
 L['schematic_russet_bufonid_note'] = '有機率在 {item:187780} 巔峰箱內找到'
@@ -822,6 +841,9 @@ L['patient_bufonid_note_day5'] = '從此區域的怪物收集5個 {item:187704}'
 L['patient_bufonid_note_day6'] = '從朝聖者之澤附近的 {npc:185748} 購買5個 {item:190880}'
 L['patient_bufonid_note_day7'] = '從帷幕市集地城的 {npc:180114} 購買1個 {item:187171}'
 
+L['lost_comb'] = '遺失的蜂巢'
+L['soulshape_penguin_note'] = '在漂浮的熔爐上方, 和 {npc:185279} 互動來取得物品'
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '顯示 {achievement:15211} 成就的生物位置'
 L['options_icons_concordances'] = '知識索引'
@@ -838,3 +860,7 @@ L['options_icons_puzzle_caches'] = '謎題箱'
 L['options_icons_puzzle_caches_desc'] = '顯示謎題箱子的位置'
 L['options_icons_zereth_caches'] = '暗語箱'
 L['options_icons_zereth_caches_desc'] = '顯示暗語箱可能的位置'
+L['options_icons_shrouded_cyphers'] = '隱蔽的暗語寶箱'
+L['options_icons_shrouded_cyphers_desc'] = '顯示隱蔽的暗語寶箱可能的位置. 必須裝備一件 {spell:364478} 裝備'
+L['options_icons_mawsworn_supply_cache'] = nil
+L['options_icons_mawsworn_supply_cache_desc'] = nil

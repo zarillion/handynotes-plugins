@@ -676,6 +676,22 @@ L['tormentors_note'] = [[
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+local HIDDEN_ALCOVE = [[
+访问 |cFFFFFD00%s凹室|r：
+
+1. 完成第6章扎雷殁提斯战役。
+2. 找到 |cFFFFFD00%s凹室指向|r %s。
+3. 在 |cFFFFFD00共振群山|r，击杀有 {spell:362651} 的怪物或站在白池中获得60 {npc:183569}。
+4. 使用孕育栖地内的 {npc:184329} 访问内室。（需要30 {npc:183569}）
+5. 使用 {npc:184485} 访问%s凹室。（需要30 {npc:183569}）
+]]
+
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, '拱曲', '拱曲', '在 |cFFFFFD00最终位点|r 建筑物后面', '拱曲')
+L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, '休眠', '休眠', '位于 |cFFFFFD00共振群山|r', '休眠')
+L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, '灿烂', '灿烂', '位于 |cFFFFFD00共振群山|r', '灿烂')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, '圆弧', '圆弧', '在 |cFFFFFD00第三位点|r 平台上', '圆弧')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, '储备', '储备', '在 |cFFFFFD00陆相宝窟|r 洞穴内', '储备')
+
 L['corrupted_architect_note'] = '攻击 {npc:183958} 和 {npc:183961} 激活稀有。'
 L['dune_dominance_note'] = '{achievement:15392} 成就中全部3个稀有精英在此位置刷新。'
 L['feasting_note'] = '有时会在返回该地点之前巡逻该区域。'
@@ -707,7 +723,7 @@ L['protector_first_ones_note'] = '需要两名玩家。将匹配的符文带到�
 L['the_engulfer_note'] = '保护 {npc:183505} 直到 {npc:183516} 从裂隙中跳出。'
 L['zatojin_note'] = '吸引附近的 {npc:183721} 并让你获得20层 {spell:362976} 直到你有 {spell:362983}。当你瘫痪时必须站在 {npc:183774} 尸体上，{npc:183764} 会注意你。'
 
-L['architects_reserve_note'] = '完成位于朝圣者的恩典 {npc:180630} 的 {quest:64829} 任务线。之后一天，完成 {npc:181273} 的 {quest:65426} 任务线解锁宝藏。'
+L['architects_reserve_note'] = '完成位于朝圣者的恩典 {npc:180630} 的 {quest:64829} 任务线解锁宝藏。'
 L['bushel_of_produce_note'] = '击杀1个 {npc:182368} 到北边它会被 {spell:360945} 获得自身增益。击杀更多 {npc:182368}（无需增益）直到你获得5层，然后击破门获得宝藏。'
 L['crushed_crate_note'] = '拾取在宝藏上方倒下的柱子上的 {item:189767}。把它交给 {npc:185151} 换取 {item:189768} 可以打破坠落的岩石。'
 L['domination_cache_note'] = '区域内的 {npc:181403} 和 {npc:182426} 有低几率掉落 {item:189704}。'
@@ -740,8 +756,34 @@ L['provis_cache_note'] = [[
 L['prying_eye_discovery'] = '窥探之眼的发现'
 L['prying_eye_discovery_note'] = '飞行解锁后容易到达。'
 L['pulp_covered_relic'] = '被粘浆覆盖的圣物'
+L['requisites_originator_note'] = [[
+一台每周会给你不同奖励的机器：
+
+· {spell:366667} = 附魔材料和金币
+· {spell:366668} = 心能
+· {spell:366669} = 密文
+· {spell:366670} = 源生微粒和 {item:189179} （几率）
+· {spell:366671} = 密文/微粒/心能
+· {spell:366672} = 密文装备
+]]
+L['rondure_cache'] = '圆弧宝箱'
+L['rondure_cache_note'] = '位于 |cFFFFFD00圆弧凹室|r 内跳跃迷宫到顶部的可交互锻炉。'
 L['sandworn_chest'] = '沙蚀宝箱'
 L['sandworn_chest_note'] = '从区域内怪物拾取5个 {item:190198} 组合成 {item:190197}。'
+L['sand_piles'] = '沙堆'
+L['sand_piles_note'] = [[
+全部沙堆在隐藏的休眠凹室内找到。每个沙堆需要一个 {item:189863}，可以在该区域的其它宝藏中找到：
+
+· 统御之箱
+· 陨落宝箱
+· 被窃的神器
+· 被盗的卷轴
+· 水下的宝箱
+· 交响宝箱
+· 波动植物
+]]
+L['torn_ethereal_drape'] = '破旧的虚渺披风'
+L['torn_ethereal_drape_note'] = '在 |cFFFFFD00灿烂凹室|r 内找到。激活 |cFFFFFD00自动体控制台|r，然后骑上 {npc:183565} 到达天花板。'
 
 L['cache_avian_nest'] = '元鸟之巢'
 L['cache_cypher_bound'] = '密文束缚的宝箱'
@@ -749,6 +791,12 @@ L['cache_discarded_automa'] = '被抛弃的自动体残片'
 L['cache_forgotten_vault'] = '被遗忘的宝库'
 L['cache_mawsworn_supply'] = '渊誓补给宝箱'
 L['cache_tarachnid_eggs'] = '元蛛卵'
+L['cache_shrouded_cypher'] = '氤氲密文宝箱'
+L['cache_shrouded_cypher_note'] = [[
+这些宝箱只在有 {spell:361917} 增益和装备一件适当的密文装备物品时能看到：
+
+|cFF00FF00强化波可波克的观察力，使其可以发现额外的隐藏宝箱。|r
+]]
 
 L['cache_cantaric'] = '声乐宝箱'
 L['cache_fugueal'] = '赋格宝箱'
@@ -763,6 +811,7 @@ L['schematic_bronze_helicid_note'] = '每周任务 {quest:65324} 的 {item:19061
 L['schematic_ambystan_darter_note'] = '隐藏在 {npc:185312} 旁边的水下。'
 L['schematic_bronzewing_vespoid_note'] = '孕育栖地内。'
 L['schematic_buzz_note'] = '{npc:185265} 内有几率发现。'
+L['schematic_curious_crystalsniffer_note'] = '击败位于 |cFFFFFD00初诞者圣墓|r 团队中的 {npc:184915} 后短时间可用。'
 L['schematic_darkened_vombata_note'] = '浮空笼子内。'
 L['schematic_deathrunner_note'] = '获得作为一部分 {spell:366367} 解锁任务线。'
 L['schematic_desertwing_hunter_note'] = '位于柱顶。'
@@ -771,10 +820,13 @@ L['schematic_forged_spiteflyer_note'] = '元蜂蜂巢群上延伸。'
 L['schematic_genesis_crawler_note'] = '源生凹室入口顶上发现。'
 L['schematic_goldplate_bufonid_note'] = '{npc:178803} 小几率掉落。'
 L['schematic_heartbond_lupine_note'] = '{npc:179939} 小几率掉落。'
+L['schematic_ineffable_skitterer_note'] = '自杀！不，确实需要灵魂状态可以看到位于 |cFFFFFD00流亡洞穴|r 内的 {npc:185092}。'
 L['schematic_leaping_leporid_note'] = '在一棵漂浮的树上发现。'
+L['schematic_mawdapted_raptora_note'] = '位于 |cFFFFFD00无尽流沙|r 的 {npc:181412} 小几率掉落。'
 L['schematic_microlicid_note'] = '在浮空树最低的树枝上，在一些树叶下面。'
-L['schematic_pale_regal_cervid_note'] = '研究 {npc:181397} 的全部密文获得 {achievement:15402}。'
+L['schematic_omnipotential_core_note'] = '|cFFFFFD00圆弧凹室|r 内找到。结构图隐藏在房间西南侧拱门的上沿后面。'
 L['schematic_prototickles_note'] = '附在 {npc:180978} 稀有上方藤蔓内的浮动链上。'
+L['schematic_prototype_fleetpod_note'] = '|cFFFFFD00拱曲凹室|r 内找到。和 {npc:184900} 互动开启小游戏。指引蜗牛穿过5个环而不接触 {npc:185455} 赢得结构图。'
 L['schematic_raptora_swooper_note'] = '塑形之厅内发现。'
 L['schematic_resonant_echo_note'] = '|cFFFFFD00原初之歌的晶化回响|r 内几率发现。'
 L['schematic_russet_bufonid_note'] = '{item:187780} 巅峰宝箱内几率发现。'
@@ -782,7 +834,7 @@ L['schematic_scarlet_helicid_note'] = '在拱形建筑物顶上发现。'
 L['schematic_serenade_note'] = '位于团队区域 |cFFFFFD00不朽休憩所|r 一个浮动平台下方的链条上。'
 L['schematic_shelly_note'] = '位于词汇岩窟书架的背面。需要传送技能才能爬上书架。'
 L['schematic_stabilized_geomental_note'] = '|cFFFFFD00初诞者圣墓|r 团队内 {npc:182169} 有几率掉落。'
-L['schematic_tarachnid_creeper_note'] = '无尽流沙的小型建筑物内。'
+L['schematic_tarachnid_creeper_note'] = '|cFFFFFD00无尽流沙|r的小型建筑物内。需要第5章战役进度清除巨石。'
 L['schematic_terror_jelly_note'] = '位于坡道旁边的方形塔顶上。'
 L['schematic_tunneling_vombata_note'] = '魂灵音室建筑群内一条堵塞的隧道中的一些瓦砾旁边。'
 L['schematic_vespoid_flutterer_note'] = '共振群山的第一位点层一堆沙子上延伸。'
@@ -822,6 +874,9 @@ L['patient_bufonid_note_day5'] = '从区域内的怪物收集5个 {item:187704}�
 L['patient_bufonid_note_day6'] = '从朝圣者的恩典附近的 {npc:185748} 购买5个 {item:190880}。'
 L['patient_bufonid_note_day7'] = '从塔扎维什地下城的 {npc:180114} 购买1个 {item:187171}。'
 
+L['lost_comb'] = '失落的蜂巢'
+L['soulshape_penguin_note'] = '位于浮空锻炉顶部。'
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '显示 {achievement:15211} 成就中生物的位置。'
 L['options_icons_concordances'] = '知识索引'
@@ -838,3 +893,7 @@ L['options_icons_puzzle_caches'] = '谜题宝箱'
 L['options_icons_puzzle_caches_desc'] = '显示谜题宝箱可能的位置。'
 L['options_icons_zereth_caches'] = '密文宝箱'
 L['options_icons_zereth_caches_desc'] = '显示密文宝箱可能的位置。'
+L['options_icons_shrouded_cyphers'] = '氤氲密文宝箱'
+L['options_icons_shrouded_cyphers_desc'] = '显示隐藏的氤氲密文宝箱可能的位置。'
+L['options_icons_mawsworn_supply_cache'] = '渊誓补给宝箱'
+L['options_icons_mawsworn_supply_cache_desc'] = '显示渊誓补给宝箱可能的位置。'

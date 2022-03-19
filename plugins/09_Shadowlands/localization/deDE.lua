@@ -683,6 +683,12 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
+L['camber_alcove_note'] = nil
+L['dormant_alcove_note'] = nil
+L['fulgor_alcove_note'] = nil
+L['rondure_alcove_note'] = nil
+L['repertory_alcove_note'] = nil
+
 L['corrupted_architect_note'] = 'Greife {npc:183958} und {npc:183961} an, um den seltenen Gegner zu aktivieren.'
 L['dune_dominance_note'] = 'Alle drei seltenen Elite für den {achievement:15392} Erfolg erscheinen an dieser Position.'
 L['feasting_note'] = 'Umrundet manchmal das Gebiet, bevor er zu dieser Stelle zurückkehrt.'
@@ -714,7 +720,7 @@ L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden S
 L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss springt.'
 L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
 
-L['architects_reserve_note'] = 'Schließe die {quest:64829} Questreihe von {npc:180630} in der Huld des Pilgers ab. Beende am nächsten Tag die {quest:65426} von {npc:181273}, um den Schatz freizuschalten.'
+L['architects_reserve_note'] = 'Schließe die {quest:64829} Questreihe von {npc:180630} in der Huld des Pilgers ab, um den Schatz freizuschalten.'
 L['bushel_of_produce_note'] = 'Töte einen {npc:182368} im Norden während er den Stärkungszauber {spell:360945} hat, um diesen selbst zu erhalten. Töte weitere {npc:182368s} (diese brauchen den Stärkungszauber nicht), bis du 5 Stapel hast, dann brich die Tür zum Schatz auf.'
 L['crushed_crate_note'] = 'Plündere das {item:189767}, das auf der umgestürzten Säule über dem Schatz liegt. Gib dieses {npc:185151} im Austausch für den {item:189768} der die heruntergefallenen Felsen zerbrechen kann.'
 L['domination_cache_note'] = 'Der {item:189704} hat eine geringe Chance von {npc:181403} und {npc:182426} in der Gegend fallen gelassen zu werden.'
@@ -747,8 +753,15 @@ Verwende die {item:187516} an Progenitorschmieden (Sphären), die überall in Ze
 L['prying_eye_discovery'] = 'Entdeckung des Spürauges'
 L['prying_eye_discovery_note'] = 'Leichter zu erreichen, sobald das Fliegen freigeschaltet ist.'
 L['pulp_covered_relic'] = 'Breibedecktes Relikt'
+L['requisites_originator_note'] = nil
+L['rondure_cache'] = nil
+L['rondure_cache_note'] = nil
 L['sandworn_chest'] = 'Sandgeschliffene Truhe'
 L['sandworn_chest_note'] = 'Plündere 5x {item:190198} von Gegnern in dem Gebiet, um einen {item:190197} zu bauen.'
+L['sand_piles'] = nil
+L['sand_piles_note'] = nil
+L['torn_ethereal_drape'] = nil
+L['torn_ethereal_drape_note'] = nil
 
 L['cache_avian_nest'] = 'Ornidennest'
 L['cache_cypher_bound'] = 'Chiffrengebundene Truhe'
@@ -756,6 +769,8 @@ L['cache_discarded_automa'] = 'Weggeworfener Automaschrott'
 L['cache_forgotten_vault'] = 'Vergessener Schatztresor'
 L['cache_mawsworn_supply'] = 'Schlundgebundene Vorratstruhe'
 L['cache_tarachnid_eggs'] = 'Tarachnideneier'
+L['cache_shrouded_cypher'] = nil
+L['cache_shrouded_cypher_note'] = nil
 
 L['cache_cantaric'] = 'Kantarische Truhe'
 L['cache_fugueal'] = 'Fugalische Truhe'
@@ -770,6 +785,7 @@ L['schematic_bronze_helicid_note'] = 'Hat eine Chance in der {item:190610} von d
 L['schematic_ambystan_darter_note'] = 'Versteckt im Wasser neben dem {npc:185312}.'
 L['schematic_bronzewing_vespoid_note'] = 'Zu finden in der Trächtigen Rast.'
 L['schematic_buzz_note'] = 'Hat eine Chance in einem {npc:185265} enthalten zu sein.'
+L['schematic_curious_crystalsniffer_note'] = 'Für kurze Zeit verfügbar, nachdem {npc:184915} innerhalb des Schlachtzuges |cFFFFFD00Mausoleum der Ersten|r besiegt wurde.'
 L['schematic_darkened_vombata_note'] = 'Befindet sich in einem schwebendem Käfig.'
 L['schematic_deathrunner_note'] = 'Gibt es zur Belohnung als Teil der {spell:366367} Questreihe.'
 L['schematic_desertwing_hunter_note'] = 'Befindet sich oben auf der Säule.'
@@ -778,10 +794,13 @@ L['schematic_forged_spiteflyer_note'] = 'Ragt aus einem Vespiden Bienenstock her
 L['schematic_genesis_crawler_note'] = 'Befindet sich über dem Eingang zur Genesisalkoven.'
 L['schematic_goldplate_bufonid_note'] = 'Geringe Chance von {npc:178803} fallen gelassen zu werden.'
 L['schematic_heartbond_lupine_note'] = 'Geringe Chance von {npc:179939} fallen gelassen zu werden.'
+L['schematic_ineffable_skitterer_note'] = 'Bring dich um! Nein, wirklich ... du kannst den {npc:185092} in der |cFFFFFD00Höhle des Verbannten|r nur sehen, wenn du ein Geist bist.'
 L['schematic_leaping_leporid_note'] = 'Zu finden auf einem schwebendem Baum.'
+L['schematic_mawdapted_raptora_note'] = 'Geringe Chance, von {npc:181412} im Gebiet |cFFFFFD00Endlose Sande|r fallen gelassen zu werden.'
 L['schematic_microlicid_note'] = 'Auf dem untersten Ast des schwebendem Baumes, unter dem Blätterwerk.'
-L['schematic_pale_regal_cervid_note'] = 'Erforsche alle Chiffren an der {npc:181397}, um den Erfolg {achievement:15402} zu erhalten.'
+L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = 'An einer schwebenden Kette im Inneren der Ranken über dem seltenen Gegner {npc:180978}.'
+L['schematic_prototype_fleetpod_note'] = nil
 L['schematic_raptora_swooper_note'] = 'Zu finden in der Kammer der Gestaltung'
 L['schematic_resonant_echo_note'] = 'Hat eine Chance in {item:189172} enthalten zu sein.'
 L['schematic_russet_bufonid_note'] = 'Hat eine Chance in der {item:187780} (Paragontruhe) enthalten zu sein.'
@@ -789,10 +808,10 @@ L['schematic_scarlet_helicid_note'] = 'Zu finden auf der Spitze des Bogens.'
 L['schematic_serenade_note'] = 'An einer Kette unter einer schwebenden Plattform im Gebiet |cFFFFFD00Unvergängliche Rast|r des Schlachtzuges.'
 L['schematic_shelly_note'] = 'Befindet sich auf der Rückseite eines Regals in der Grotte der Lexik. Erfordert eine Teleport Fähigkeit, um das Regal zu erklimmen.'
 L['schematic_stabilized_geomental_note'] = 'Hat eine Chance von {npc:182169} im Schlachtzug |cFFFFFD00Mausoleum der Ersten|r fallen gelassen zu werden.'
-L['schematic_tarachnid_creeper_note'] = 'In einem kleinen Gebäude in den Endlosen Sande.'
+L['schematic_tarachnid_creeper_note'] = 'In einem kleinen Gebäude im Gebiet |cFFFFFD00Endlose Sande|r. Erfordert Kapitel 5 Kampagnenfortschritt, um die Felsbrocken zu beseitigen.'
 L['schematic_terror_jelly_note'] = 'Oben auf dem quadratischen Pylon neben der Rampe.'
 L['schematic_tunneling_vombata_note'] = 'Neben einigen Trümmern in einem versperrten Tunnel im Lokrische Esper Komplex.'
-L['schematic_vespoid_flutterer_note'] = 'Ragt aus einem Sandhaufen auf der Primus-Locus-Ebene der Hallenden Gipfel heraus.' -- review
+L['schematic_vespoid_flutterer_note'] = 'Ragt aus einem Sandhaufen auf der Primus-Locus-Ebene der Hallenden Gipfel heraus.'
 L['schematic_violent_poultrid_note'] = 'Hat eine Chance von der täglichen Quest {daily:65256} zu droppen.'
 
 L['concordance_excitable'] = 'Erregbare Konkordanz'
@@ -829,6 +848,9 @@ L['patient_bufonid_note_day5'] = 'Sammel 5x {item:187704} von Gegner aus dieser 
 L['patient_bufonid_note_day6'] = 'Kaufe 5x {item:190880} von {npc:185748} (58.5 49.8) in der Nähe von Huld des Pilgers.'
 L['patient_bufonid_note_day7'] = 'Kaufe 1x {item:187171} von dem {npc:180114} aus dem Tazavesh Dungeon.'
 
+L['lost_comb'] = nil
+L['soulshape_penguin_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Zeigt die Positionen der Kreaturen für den {achievement:15211} Erfolg an.'
 L['options_icons_concordances'] = 'Wissens Konkordanzen'
@@ -845,3 +867,7 @@ L['options_icons_puzzle_caches'] = 'Schätze der Schöpfung'
 L['options_icons_puzzle_caches_desc'] = 'Zeigt die möglichen Positionen von Schätzen der Schöpfung an.'
 L['options_icons_zereth_caches'] = 'Chiffren Truhen'
 L['options_icons_zereth_caches_desc'] = 'Zeigt mögliche Positionen für Truhen, die Chiffren der Ersten enthalten.'
+L['options_icons_shrouded_cyphers'] = nil
+L['options_icons_shrouded_cyphers_desc'] = nil
+L['options_icons_mawsworn_supply_cache'] = nil
+L['options_icons_mawsworn_supply_cache_desc'] = nil

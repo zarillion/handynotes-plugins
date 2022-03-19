@@ -172,9 +172,9 @@ L['options_toggle_show_notes_desc'] = '가이드가 있으면 툴팁에 표시�
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L['options_dev_settings'] = '개발도구'
-L['options_toggle_show_debug_map'] = 'Debug Map IDs'
-L['options_toggle_show_debug_map_desc'] = 'Show debug information for maps'
-L['options_toggle_show_debug_quest'] = 'Debug Quest IDs'
-L['options_toggle_show_debug_quest_desc'] = 'Show debug info for quest changes'
-L['options_toggle_force_nodes'] = 'Force Nodes'
-L['options_toggle_force_nodes_desc'] = 'force display all nodes'
+L['options_toggle_show_debug_map'] = nil
+L['options_toggle_show_debug_map_desc'] = nil
+L['options_toggle_show_debug_quest'] = nil
+L['options_toggle_show_debug_quest_desc'] = nil
+L['options_toggle_force_nodes'] = nil
+L['options_toggle_force_nodes_desc'] = nil
