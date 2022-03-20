@@ -678,20 +678,20 @@ L['tormentors_note'] = [[
 -------------------------------------------------------------------------------
 
 local HIDDEN_ALCOVE = [[
-Чтобы получить доступ к |cFFFFFD00%s Алькову|r:
+Чтобы получить доступ к |cFFFFFD00%s Альков|r:
 
 1. Завершите шестую главу кампании Зерет Мортис.
-2. Найти |cFFFFFD00%s Alcove Arrangement|r %s.
-3. В |cFFFFFD00Resonant Peaks|r, Убейте монстров, у которых есть {spell:362651} или стойте в белых лужах, чтобы получить 60 {npc:183569}.
-4. Использовать {npc:184329} внутри Gravid Repose, чтобы получить доступ к Внутренним покоям. (Требует 30 {npc:183569})
+2. Найдите |cFFFFFD00%s Альков|r %s.
+3. В |cFFFFFD00Пиках Отголосков|r, Убейте монстров, у которых есть {spell:362651} или стойте в белых лужах, чтобы получить 60 {npc:183569}.
+4. Использовать {npc:184329} внутри Приюта Отягощенных, чтобы получить доступ к Внутреннему локусу. (Требует 30 {npc:183569})
 5. Использовать {npc:184485} чтобы получить доступ к %s Алькову. (Требует 30 {npc:183569})
 ]]
 
 L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Camber', 'Camber', 'behind the building at the |cFFFFFD00Ultimus Locus|r', 'Camber')
-L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Dormant', 'Dormant', 'in the |cFFFFFD00Resonant Peaks|r', 'Dormant')
-L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Fulgor', 'Fulgor', 'in the |cFFFFFD00Resonant Peaks|r', 'Fulgor')
-L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Rondure', 'Rondure', 'on the |cFFFFFD00Tertius Locus|r platform', 'Rondure')
-L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Repertory', 'Repertory', 'inside the |cFFFFFD00Terrestial Cache|r cave', 'Repertory')
+L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Дремлющий', 'Дремлющий', 'в |cFFFFFD00Пиках Отголосков|r', 'Дремлющий')
+L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Ослепительный', 'Ослепительный', 'в |cFFFFFD00Пиках Отголосков|r', 'Ослепительный')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Округлый', 'Округлый', 'на платформе |cFFFFFD00Сдвига Локуса|r', 'Округлый')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Постоянный', 'Постоянный', 'внутри пещеры |cFFFFFD00Хранилище земных пород|r', 'Постоянный')
 
 L['corrupted_architect_note'] = 'Задействуйте {npc:183958} и {npc:183961}, чтобы активировать редкого монстра.'
 L['dune_dominance_note'] = 'Все три редких монстра для достижения {achievement:15392} появляются в этом месте.'
@@ -763,7 +763,7 @@ L['requisites_originator_note'] = [[
 • {spell:366669} = Шифры
 • {spell:366670} = Частица творения + {item:189179} (шанс)
 • {spell:366671} = Шифры/Частицы/Анима
-• {spell:366672} = Экипировка
+• {spell:366672} = Шифровальное снаряжение
 ]]
 L['rondure_cache'] = 'Сундук из округлого алькова'
 L['rondure_cache_note'] = 'Интерактивная кузница в верхней части головоломки с прыжками внутри |cFFFFFD00Округлого Алькова|r.'
@@ -792,7 +792,7 @@ L['cache_mawsworn_supply'] = 'Сундук с припасами Верных У
 L['cache_tarachnid_eggs'] = 'Яйцо тарахнидов'
 L['cache_shrouded_cypher'] = 'Замаскированный тайник шифров'
 L['cache_shrouded_cypher_note'] = [[
-Эти тайники можно увидеть только при ношении соответствующего предмета шифровального снаряжения:
+Эти тайники можно увидеть, только имея бафф {spell:361917} и надев соответствующий предмет Шифровального снаряжения:
 
 |cFF00FF00Улучшает восприятие Покопока, позволяя ему обнаруживать дополнительные скрытые тайники.|r
 ]]
