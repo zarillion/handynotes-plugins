@@ -678,20 +678,20 @@ L['tormentors_note'] = [[
 -------------------------------------------------------------------------------
 
 local HIDDEN_ALCOVE = [[
-Чтобы получить доступ к |cFFFFFD00%s Алькову|r:
+Чтобы получить доступ к |cFFFFFD00%s Альков|r:
 
 1. Завершите шестую главу кампании Зерет Мортис.
-2. Найти |cFFFFFD00%s Alcove Arrangement|r %s.
-3. В |cFFFFFD00Resonant Peaks|r, Убейте монстров, у которых есть {spell:362651} или стойте в белых лужах, чтобы получить 60 {npc:183569}.
-4. Использовать {npc:184329} внутри Gravid Repose, чтобы получить доступ к Внутренним покоям. (Требует 30 {npc:183569})
-5. Использовать {npc:184485} чтобы получить доступ к %s Алькову. (Требует 30 {npc:183569})
+2. Найдите |cFFFFFD00%s конфигурацию Альков|r %s.
+3. В |cFFFFFD00Пиках Отголосков|r, Убейте монстров, у которых есть {spell:362651} или стойте в белых лужах, чтобы получить 60 {npc:183569}.
+4. Использовать {npc:184329} внутри Приюта Отягощенных, чтобы получить доступ к Внутреннему локусу. (Требует 30 {npc:183569})
+5. Использовать {npc:184485} чтобы получить доступ к %s Альков. (Требует 30 {npc:183569})
 ]]
 
-L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Camber', 'Camber', 'behind the building at the |cFFFFFD00Ultimus Locus|r', 'Camber')
-L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Dormant', 'Dormant', 'in the |cFFFFFD00Resonant Peaks|r', 'Dormant')
-L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Fulgor', 'Fulgor', 'in the |cFFFFFD00Resonant Peaks|r', 'Fulgor')
-L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Rondure', 'Rondure', 'on the |cFFFFFD00Tertius Locus|r platform', 'Rondure')
-L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Repertory', 'Repertory', 'inside the |cFFFFFD00Terrestial Cache|r cave', 'Repertory')
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Выпуклый', 'Выпуклый', 'на задней части пирамиды в |cFFFFFD00Финальном Локусе|r', 'Выпуклый')
+L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Дремлющий', 'Дремлющий', 'в |cFFFFFD00Пиках Отголосков|r', 'Дремлющий')
+L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Ослепительный', 'Ослепительный', 'в |cFFFFFD00Пиках Отголосков|r', 'Ослепительный')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Округлый', 'Округлый', 'на платформе |cFFFFFD00Сдвига Локуса|r', 'Округлый')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Постоянный', 'Постоянный', 'внутри пещеры |cFFFFFD00Хранилище земных пород|r', 'Постоянный')
 
 L['corrupted_architect_note'] = 'Задействуйте {npc:183958} и {npc:183961}, чтобы активировать редкого монстра.'
 L['dune_dominance_note'] = 'Все три редких монстра для достижения {achievement:15392} появляются в этом месте.'
@@ -763,7 +763,7 @@ L['requisites_originator_note'] = [[
 • {spell:366669} = Шифры
 • {spell:366670} = Частица творения + {item:189179} (шанс)
 • {spell:366671} = Шифры/Частицы/Анима
-• {spell:366672} = Экипировка
+• {spell:366672} = Шифровальное снаряжение
 ]]
 L['rondure_cache'] = 'Сундук из округлого алькова'
 L['rondure_cache_note'] = 'Интерактивная кузница в верхней части головоломки с прыжками внутри |cFFFFFD00Округлого Алькова|r.'
@@ -792,7 +792,7 @@ L['cache_mawsworn_supply'] = 'Сундук с припасами Верных У
 L['cache_tarachnid_eggs'] = 'Яйцо тарахнидов'
 L['cache_shrouded_cypher'] = 'Замаскированный тайник шифров'
 L['cache_shrouded_cypher_note'] = [[
-Эти тайники можно увидеть только при ношении соответствующего предмета шифровального снаряжения:
+Эти тайники можно увидеть, только имея бафф {spell:361917} и надев соответствующий предмет Шифровального снаряжения:
 
 |cFF00FF00Улучшает восприятие Покопока, позволяя ему обнаруживать дополнительные скрытые тайники.|r
 ]]
@@ -819,11 +819,11 @@ L['schematic_forged_spiteflyer_note'] = 'Торчит из скопления в
 L['schematic_genesis_crawler_note'] = 'Находится над входом в Альков генезиса.'
 L['schematic_goldplate_bufonid_note'] = 'Небольшой шанс получения с {npc:178803}.'
 L['schematic_heartbond_lupine_note'] = 'Небольшой шанс получения из {npc:179939}.'
-L['schematic_ineffable_skitterer_note'] = 'Умрите! Нет, правда... вы можете видеть {npc:185092} только в образе луха в |cFFFFFD00Низине Изгнанника|r.'
+L['schematic_ineffable_skitterer_note'] = 'Умрите! Нет, правда... вы можете видеть {npc:185092} только в образе духа в |cFFFFFD00Низине Изгнанника|r.'
 L['schematic_leaping_leporid_note'] = 'Расположен на вершине висящего дерева.'
 L['schematic_mawdapted_raptora_note'] = 'Небольшой шанс получить из {npc:181412} в |cFFFFFD00Бесконечных Песках|r.'
 L['schematic_microlicid_note'] = 'На самой нижней ветке висящего дерева, под листвой.'
-L['schematic_omnipotential_core_note'] = 'Найдено в |cFFFFFD00Rondure Alcove|r. Схема спрятана за верхним краем арки на юго-западной стороне комнаты.'
+L['schematic_omnipotential_core_note'] = 'Найдено в |cFFFFFD00Округлого Алькова|r. Схема спрятана за верхним краем арки на юго-западной стороне комнаты.'
 L['schematic_prototickles_note'] = 'Прикреплен к висящей цепи внутри лозы над редким монстром {npc:180978}.'
 L['schematic_prototype_fleetpod_note'] = 'Найден внутри |cFFFFFD00Camber Alcove|r. Взаимодействовать с {npc:184900} чтобы начать мини-игру. Проведите улитку через 5 колец, не касаясь {npc:185455} чтобы получить схему.'
 L['schematic_raptora_swooper_note'] = 'Находится внутри Залов Ваяния.'
