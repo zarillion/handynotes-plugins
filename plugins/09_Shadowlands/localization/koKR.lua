@@ -236,11 +236,11 @@ L['riftbound_cache_note'] = nil
 L['options_icons_riftbound_cache'] = nil
 L['options_icons_riftbound_cache_desc'] = nil
 
-L['invasive_mawshroom'] = nil
+L['invasive_mawshroom'] = '침습성 나락버섯'
 L['invasive_mawshroom_note'] = nil
-L['mawsworn_cache'] = '나락살이 Cache'
+L['mawsworn_cache'] = '나락살이 보관함'
 L['mawsworn_cache_note'] = nil
-L['pile_of_bones'] = nil
+L['pile_of_bones'] = '뼈 무더기'
 L['relic_cache'] = nil
 L['shardhide_stash'] = nil
 L['korthia_shared_chest_note'] = nil
@@ -570,25 +570,25 @@ L['repertory_alcove_note'] = nil
 
 L['corrupted_architect_note'] = '{npc:183958}, {npc:183961}와 교전을 시작하면 활성화됩니다.'
 L['dune_dominance_note'] = '{achievement:15392} 업적에 필요한 희귀몹 셋 모두 이 위치에 생성됩니다.'
-L['feasting_note'] = nil
-L['furidian_note'] = nil
+L['feasting_note'] = '해당 위치로 돌아오기 전에 근처를 배회하고 있을 수 있습니다.'
+L['furidian_note'] = '주변에서 |cFFFFFD00강화된 열쇠|r 세 개를 활성화한 후, |cFFFFFD00수상하게 성난 금고|r를 엽니다.'
 L['garudeon_note'] = nil
-L['gluttonous_overgrowth_note'] = nil
-L['helmix_note'] = nil
+L['gluttonous_overgrowth_note'] = '근처의 모든 {npc:184048}를 제거하면 나타납니다.'
+L['helmix_note'] = '|cFFFF8C00지면이 진동합니다... 무언가가 지표면 아래에 잠복하고 있습니다!|r'
 L['hirukon_note'] = nil
-L['orixal_note'] = nil
-L['protector_first_ones_note'] = nil
-L['the_engulfer_note'] = nil
-L['zatojin_note'] = nil
+L['orixal_note'] = '{npc:185487}와 생성을 공유합니다. {npc:185487}가 주변에 있으면 처치한 후 다음 생성을 기다리세요.'
+L['protector_first_ones_note'] = '문을 열려면 두 사람이 필요합니다. 양쪽 장치에 띄워진 것과 동일한 문양의 룬을 근처 지역에서 찾아와 장치 앞에 서면 문이 열립니다'
+L['the_engulfer_note'] = '{npc:183516}가 균열에서 출현할 때까지 {npc:183505}을 보호하세요.'
+L['zatojin_note'] = '근처에 있는 {npc:183721}와 전투를 벌여 {spell:362976} 디버프를 20중첩 받으면 {spell:362983} 효과를 얻습니다. {npc:183764}의 주의를 끌려면 마비될 때 {npc:183774} 시체 위에 서있어야 합니다.'
 
-L['architects_reserve_note'] = '순례자의 은총에 있는 {npc:180630}에게서 받는 {quest:64829} 연계 퀘스트를 모두 완료하세요. 다음 날, {npc:181273}에게서 받는 {quest:65426} 연계퀘스트를 모두 완료하면 상자 잠금이 해제됩니다.'
+L['architects_reserve_note'] = '순례자의 은총에 있는 {npc:180630}에게서 받는 {quest:64829} 연계 퀘스트를 모두 완료하면 상자 잠금이 해제됩니다.'
 L['bushel_of_produce_note'] = nil
 L['crushed_crate_note'] = nil
-L['domination_cache_note'] = nil
+L['domination_cache_note'] = '{item:189704}는 해당 지역의 {npc:181403}과 {npc:182426}가 낮은 확률로 드랍합니다.'
 L['drowned_broker_supplies_note'] = nil
 L['forgotten_protovault_note'] = nil
-L['grateful_boon_note'] = nil
-L['library_vault_note'] = nil
+L['grateful_boon_note'] = '날탈 없이 접근하기 힘듭니다. {spell:300728} 또는 {spell:111771} 기술을 사용하여 산을 오르세요. 근처의 12마리 생물을 모두 진정시기면 {npc:185293}이 보물상자를 줍니다.'
+L['library_vault_note'] = '어휘의 굴 내의 클릭 가능한 서판을 하나씩 눌러봐서 {spell:362062} 버프를 획득하면 상자를 열 수 있습니다.'
 L['mistaken_ovoid_note'] = nil
 L['ripened_protopear_note'] = nil
 L['sphere_treasure_note'] = nil
@@ -596,10 +596,21 @@ L['submerged_chest_note'] = nil
 L['symphonic_vault_note'] = nil
 L['syntactic_vault_note'] = nil
 L['template_archive_note'] = nil
-L['undulating_foliage_note'] = nil
+L['undulating_foliage_note'] = [[
+네 개의 {npc:185390}를 활성화 하면 촉매의 성역 가운데 방에 있는 순간이동기가 활성화됩니다.
 
-L['provis_cache'] = nil
-L['provis_cache_note'] = nil
+• 성역 입구 왼쪽 |cFFFFFD00촉매의 성역 자물쇠|r 뒤
+• 성역의 남서쪽 방 안
+• {npc:181652}가 있는 남쪽방 안
+• 성역의 남동쪽 방 안
+]]
+
+L['provis_cache'] = '잠긴 공급지 보관함'
+L['provis_cache_note'] = [[
+{npc:177958}이 주는 {quest:64717} 일일 퀘스트를 최소 한번은 완료하세요.
+
+지역 전체에 있는 제련소에 {item:187516}를 사용하여 {item:187728} 15개를 모아 {item:187787}를 제작합니다. 이 보주에서 일정 확률로 열쇠를 얻을 수 있습니다.
+]]
 L['prying_eye_discovery'] = '감시 기계의 발견물'
 L['prying_eye_discovery_note'] = '비행이 해금된 후에 접근하기 더 쉽습니다.'
 L['pulp_covered_relic'] = '걸쭉한 수액으로 뒤덮인 유물'
@@ -619,8 +630,8 @@ L['cache_discarded_automa'] = '버려진 자동기계 고철'
 L['cache_forgotten_vault'] = '잊힌 보물 금고'
 L['cache_mawsworn_supply'] = '나락살이 보급품 상자'
 L['cache_tarachnid_eggs'] = '원시거미 알'
-L['cache_shrouded_cypher'] = nil
-L['cache_shrouded_cypher_note'] = nil
+L['cache_shrouded_cypher'] = '가려진 암호 보관함'
+L['cache_shrouded_cypher_note'] = '{spell:364478} 옵션이 있는 장비를 착용해야 합니다.'
 
 L['cache_cantaric'] = '노래의 보관함'
 L['cache_fugueal'] = '푸가 보관함'
@@ -628,25 +639,25 @@ L['cache_glissandian'] = '글리산도 보관함'
 L['cache_mezzonic'] = '메조 보관함'
 L['cache_toccatian'] = '토카타 보관함'
 
-L['schematic_treasure_note'] = nil
-L['schematic_treasure_mount_note'] = nil
-L['schematic_treasure_pet_note'] = nil
-L['schematic_bronze_helicid_note'] = nil
-L['schematic_ambystan_darter_note'] = nil
-L['schematic_bronzewing_vespoid_note'] = nil
-L['schematic_buzz_note'] = nil
+L['schematic_treasure_note'] = '|cFFFF8C00관련 제련소 해금 전에는 상자에서 설계도를 획득할 수 없습니다. 상자 보상 획득 후 제련소를 해금하면 설계도는 보물상자가 있던 위치 근처에서 발견할 수 있습니다.'
+L['schematic_treasure_mount_note'] = '|cFFFF8C00이 설계도는 근처의 일회성 보물상자에서 획득 가능합니다. 단, 탈것 제련소를 해금하기 전에 보물상자에서 보상을 먼저 얻은 경우, 이 위치에서 설계도를 발견할 수 있습니다.|r'
+L['schematic_treasure_pet_note'] = '|cFFFF8C00이 설계도는 근처의 일회성 보물상자에서 획득 가능합니다. 단, 애완동물 제련소를 해금하기 전에 보물상자에서 보상을 먼저 얻은 경우, 이 위치에서 설계도를 발견할 수 있습니다.|r'
+L['schematic_bronze_helicid_note'] = '2주마다 할 수 있는 {quest:65324} 보상으로 받는 {item:190610}에서 일정 확률로 얻을 수 있습니다.'
+L['schematic_ambystan_darter_note'] = '{npc:185312} 옆 물 속에 숨겨져 있습니다.'
+L['schematic_bronzewing_vespoid_note'] = '수태의 휴식처 안에 있습니다.'
+L['schematic_buzz_note'] = '{npc:185265}에서 일정 확률로 획득 가능합니다.'
 L['schematic_curious_crystalsniffer_note'] = nil
-L['schematic_darkened_vombata_note'] = nil
-L['schematic_deathrunner_note'] = nil
-L['schematic_desertwing_hunter_note'] = nil
-L['schematic_fierce_scarabid_note'] = nil
-L['schematic_forged_spiteflyer_note'] = nil
-L['schematic_genesis_crawler_note'] = nil
+L['schematic_darkened_vombata_note'] = '공중에 떠있는 쇠창살 안에 있습니다.'
+L['schematic_deathrunner_note'] = '{spell:366367}을 해금하는 연계퀘스트 과정에서 획득가능합니다.'
+L['schematic_desertwing_hunter_note'] = '기둥 꼭대기에 있습니다.'
+L['schematic_fierce_scarabid_note'] = '{npc:181870}가 있는 단 아래 숨겨져 있습니다.'
+L['schematic_forged_spiteflyer_note'] = '원시벌 벌집에 삐죽 튀어나와 있습니다.'
+L['schematic_genesis_crawler_note'] = '기원의 벽감 입구 지붕 꼭대기 근처에 있습니다.'
 L['schematic_goldplate_bufonid_note'] = '{npc:178803}로부터 낮은 확률로 획득할 수 있습니다.'
 L['schematic_heartbond_lupine_note'] = '{npc:179939}로부터 낮은 확률로 획득할 수 있습니다.'
 L['schematic_ineffable_skitterer_note'] = nil
-L['schematic_leaping_leporid_note'] = nil
-L['schematic_mawdapted_raptora_note'] = nil
+L['schematic_leaping_leporid_note'] = '공중에 떠있는 나무의 꼭대기에 있습니다.'
+L['schematic_mawdapted_raptora_note'] = '|cFFFFFD00끝없는 모래|r에 있는 {npc:181412}가 낮은 확률로 드랍합니다.'
 L['schematic_microlicid_note'] = nil
 L['schematic_omnipotential_core_note'] = nil
 L['schematic_prototickles_note'] = nil
@@ -654,15 +665,15 @@ L['schematic_prototype_fleetpod_note'] = nil
 L['schematic_raptora_swooper_note'] = nil
 L['schematic_resonant_echo_note'] = nil
 L['schematic_russet_bufonid_note'] = nil
-L['schematic_scarlet_helicid_note'] = nil
+L['schematic_scarlet_helicid_note'] = '구조물 꼭대기 근처에 있습니다.'
 L['schematic_serenade_note'] = nil
-L['schematic_shelly_note'] = nil
+L['schematic_shelly_note'] = '어휘의 굴 내의 선반 뒷편 중간에 있습니다. 선반을 오르려면 순간이동 기술이 필요합니다'
 L['schematic_stabilized_geomental_note'] = nil
 L['schematic_tarachnid_creeper_note'] = '끝없는 모래 지역의 작은 건물 안에 있습니다.'
-L['schematic_terror_jelly_note'] = nil
+L['schematic_terror_jelly_note'] = '경사로 오른쪽의 네모난 탑 위에 있습니다.'
 L['schematic_tunneling_vombata_note'] = nil
-L['schematic_vespoid_flutterer_note'] = nil
-L['schematic_violent_poultrid_note'] = nil
+L['schematic_vespoid_flutterer_note'] = '공명의 봉우리의 제1의 공간 층에 있는 모래더미에 일부 튀어나와 있습니다.'
+L['schematic_violent_poultrid_note'] = '{daily:65256} 일일 퀘스트 보상에서 일정 확률로 얻을 수 있습니다.'
 
 L['concordance_excitable'] = '격앙의 색인'
 L['concordance_mercurial'] = '변덕의 색인'
@@ -674,17 +685,18 @@ L['echoed_jiro_note'] = '{npc:181059} 에너지를 소비하여 임시 버프를
 L['bygone_elemental_note'] = nil
 L['dominated_irregular_note'] = nil
 L['gaiagantic_note'] = nil
-L['misaligned_enforcer_note'] = nil
+L['misaligned_enforcer_note'] = '해당 지역 근처를 배회하며, 이동 경로 끝에서 사라집니다.'
 L['overcharged_vespoid_note'] = nil
-L['runethief_xylora_note'] = nil
+L['runethief_xylora_note'] = '순례자의 은총 지역 근방에 은신한 상태로 나타납니다.'
 
+local proto_area = '|cFFFFFD00%s|r 지역의 제련소에서 추출할 수 있습니다.'
 L['proto_material_zone_chance'] = nil
 L['anima_charged_yolk_note'] = nil
-L['energized_firmament_note'] = nil
-L['honeycombed_lattice_note'] = nil
-L['incorporeal_sand_note'] = nil
+L['energized_firmament_note'] = string.format(proto_area, '공명의 봉우리')
+L['honeycombed_lattice_note'] = string.format(proto_area, '벌떼 벼랑')
+L['incorporeal_sand_note'] = '지역 내 사막 구역에 있는 제련소에서 발견될 확률이 있습니다.'
 L['pollinated_extraction_note'] = nil
-L['serene_pigment_note'] = nil
+L['serene_pigment_note'] = '|cFFFFFD00추방자의 굴|r 입구 위에 있는 제련소에서 찾을 수 있습니다. 여러번 시도해야 할 수 있습니다.'
 L['volatile_precursor_note'] = nil
 L['wayward_essence_note'] = nil
 
@@ -697,8 +709,8 @@ L['patient_bufonid_note_day5'] = '지역 내 몹들로부터 {item:187704} 5개�
 L['patient_bufonid_note_day6'] = '순례자의 은총 근처에 있는 {npc:185748}로부터 {item:190880} 5개를 구입하세요.'
 L['patient_bufonid_note_day7'] = '타자베쉬 던전 내의 {npc:180114}으로부터 {item:187171} 1개를 구입하세요.'
 
-L['lost_comb'] = nil
-L['soulshape_penguin_note'] = nil
+L['lost_comb'] = '잃어버린 벌집'
+L['soulshape_penguin_note'] = '공중에 떠있는 제련소 꼭대기에 있습니다.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '{achievement:15211} 업적을 위한 생명체의 위치를 표시합니다.'
@@ -709,14 +721,14 @@ L['options_icons_echoed_jiros_desc'] = '이로운 효과를 주는 |cFFFFFD00지
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = '{achievement:15509} 업적을 위한 추방기의 위치를 표시합니다.'
 L['options_icons_proto_materials'] = '{achievement:15229}'
-L['options_icons_proto_materials_desc'] = nil
+L['options_icons_proto_materials_desc'] = '{achievement:15229}에 필요한 희귀 합성 재료 위치를 표시합니다.'
 L['options_icons_protoform_schematics'] = '원생형태 합성 설계도'
 L['options_icons_protoform_schematics_desc'] = '탈것과 애완동물 설계도의 위치를 표시합니다.'
 L['options_icons_puzzle_caches'] = '퍼즐 상자'
 L['options_icons_puzzle_caches_desc'] = '퍼즐 상자의 생성 위치를 표시합니다.'
 L['options_icons_zereth_caches'] = '암호 상자'
 L['options_icons_zereth_caches_desc'] = '암호 상자의 생성 위치를 표시합니다.'
-L['options_icons_shrouded_cyphers'] = nil
-L['options_icons_shrouded_cyphers_desc'] = nil
-L['options_icons_mawsworn_supply_cache'] = nil
-L['options_icons_mawsworn_supply_cache_desc'] = nil
+L['options_icons_shrouded_cyphers'] = '가려진 암호 보관함'
+L['options_icons_shrouded_cyphers_desc'] = '가려진 암호 보관함의 발견 가능한 위치를 표시합니다. {spell:364478} 능력의 아이템을 착용해야 합니다.'
+L['options_icons_mawsworn_supply_cache'] = '나락살이 보급품 상자'
+L['options_icons_mawsworn_supply_cache_desc'] = '나락살이 보급품 상자의 발견 가능한 위치를 표시합니다'
