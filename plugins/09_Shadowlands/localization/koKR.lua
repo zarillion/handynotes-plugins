@@ -694,9 +694,9 @@ L['proto_material_zone_chance'] = nil
 L['anima_charged_yolk_note'] = nil
 L['energized_firmament_note'] = string.format(proto_area, '공명의 봉우리')
 L['honeycombed_lattice_note'] = string.format(proto_area, '벌떼 벼랑')
-L['incorporeal_sand_note'] = nil
+L['incorporeal_sand_note'] = '지역 내 사막 구역에 있는 제련소에서 발견될 확률이 있습니다.'
 L['pollinated_extraction_note'] = nil
-L['serene_pigment_note'] = '|cFFFFFD00추방자의 굴|r 입구 위에 있는 제련소에서 여러번 시도하다 보면 추출할 수 있습니다.'
+L['serene_pigment_note'] = '|cFFFFFD00추방자의 굴|r 입구 위에 있는 제련소에서 찾을 수 있습니다. 여러번 시도해야 할 수 있습니다.'
 L['volatile_precursor_note'] = nil
 L['wayward_essence_note'] = nil
 
@@ -709,8 +709,8 @@ L['patient_bufonid_note_day5'] = '지역 내 몹들로부터 {item:187704} 5개�
 L['patient_bufonid_note_day6'] = '순례자의 은총 근처에 있는 {npc:185748}로부터 {item:190880} 5개를 구입하세요.'
 L['patient_bufonid_note_day7'] = '타자베쉬 던전 내의 {npc:180114}으로부터 {item:187171} 1개를 구입하세요.'
 
-L['lost_comb'] = nil
-L['soulshape_penguin_note'] = nil
+L['lost_comb'] = '잃어버린 벌집'
+L['soulshape_penguin_note'] = '공중에 떠있는 제련소 꼭대기에 있습니다.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '{achievement:15211} 업적을 위한 생명체의 위치를 표시합니다.'
@@ -730,5 +730,5 @@ L['options_icons_zereth_caches'] = '암호 상자'
 L['options_icons_zereth_caches_desc'] = '암호 상자의 생성 위치를 표시합니다.'
 L['options_icons_shrouded_cyphers'] = '가려진 암호 보관함'
 L['options_icons_shrouded_cyphers_desc'] = '가려진 암호 보관함의 발견 가능한 위치를 표시합니다. {spell:364478} 능력의 아이템을 착용해야 합니다.'
-L['options_icons_mawsworn_supply_cache'] = nil
-L['options_icons_mawsworn_supply_cache_desc'] = nil
+L['options_icons_mawsworn_supply_cache'] = '나락살이 보급품 상자'
+L['options_icons_mawsworn_supply_cache_desc'] = '나락살이 보급품 상자의 발견 가능한 위치를 표시합니다'
