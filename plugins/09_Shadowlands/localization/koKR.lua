@@ -561,18 +561,27 @@ L['tormentors_note'] = nil
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
+local HIDDEN_ALCOVE = [[
+|cFFFFFD00%s 벽감|r에 진입하려면:
 
-L['camber_alcove_note'] = nil
-L['dormant_alcove_note'] = nil
-L['fulgor_alcove_note'] = nil
-L['rondure_alcove_note'] = nil
-L['repertory_alcove_note'] = nil
+1. 제레스 모르티스 대장정 6장까지 완료합니다.
+2. |cFFFFFD00%s 벽감 정렬|r을 %s 찾아 활성화하세요.
+3. |cFFFFFD00공명의 봉우리|r에서, {spell:362651} 버프가 있는 몹을 잡거나 흰색 웅덩이 위에 서서 60 {npc:183569}을 충전합니다.
+4. 수태의 휴식처 내의 {npc:184329}을 사용하여 내부 구역으로 이동합니다. (30 {npc:183569} 필요)
+5. {npc:184485}을 사용하여 %s 벽감으로 이동합니다. (30 {npc:183569} 필요)
+]]
+
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, '솟아난', '솟아난', '|cFFFFFD00궁극의 공간|r 건물 뒤에서', '솟아난')
+L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, '휴면의', '휴면의', '|cFFFFFD00공명의 봉우리|r(51.0 32.5)에서', '휴면의')
+L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, '광휘의', '광휘의', '|cFFFFFD00공명의 봉우리|r(47.8 30.4)에서', '광휘의')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, '구체의', '구체의', '|cFFFFFD00제3의 공간|r(50.5 27.6)에서 ', '구체의')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, '시초의', '시초의', '|cFFFFFD00현세의 저장소|r 동굴 내에서', '시초의')
 
 L['corrupted_architect_note'] = '{npc:183958}, {npc:183961}와 교전을 시작하면 활성화됩니다.'
 L['dune_dominance_note'] = '{achievement:15392} 업적에 필요한 희귀몹 셋 모두 이 위치에 생성됩니다.'
 L['feasting_note'] = '해당 위치로 돌아오기 전에 근처를 배회하고 있을 수 있습니다.'
 L['furidian_note'] = '주변에서 |cFFFFFD00강화된 열쇠|r 세 개를 활성화한 후, |cFFFFFD00수상하게 성난 금고|r를 엽니다.'
-L['garudeon_note'] = nil
+L['garudeon_note'] = '근처에서 {npc:183562} 3마리를 수집하여 {npc:183554}에게 {spell:362655}를 시전하여 먹입니다. 세마리 모두 먹이면 {npc:180924}이 나타납니다.'
 L['gluttonous_overgrowth_note'] = '근처의 모든 {npc:184048}를 제거하면 나타납니다.'
 L['helmix_note'] = '|cFFFF8C00지면이 진동합니다... 무언가가 지표면 아래에 잠복하고 있습니다!|r'
 L['hirukon_note'] = nil
@@ -594,8 +603,8 @@ L['ripened_protopear_note'] = nil
 L['sphere_treasure_note'] = nil
 L['submerged_chest_note'] = nil
 L['symphonic_vault_note'] = nil
-L['syntactic_vault_note'] = nil
-L['template_archive_note'] = nil
+L['syntactic_vault_note'] = '상자를 잠금해제하려면 태초의 존재의 매장터 지역에 있는 6개의 룬 음절과 상호작용하여 {spell:367499} 버프를 6중첩 받아야 합니다.'
+L['template_archive_note'] = '방안의 {npc:183339}와 상호작용하여 보물상자가 있는 방으로 가는 길을 막고 있는 다른 {npc:183337}가 밀어냅니다.'
 L['undulating_foliage_note'] = [[
 네 개의 {npc:185390}를 활성화 하면 촉매의 성역 가운데 방에 있는 순간이동기가 활성화됩니다.
 
@@ -614,15 +623,34 @@ L['provis_cache_note'] = [[
 L['prying_eye_discovery'] = '감시 기계의 발견물'
 L['prying_eye_discovery_note'] = '비행이 해금된 후에 접근하기 더 쉽습니다.'
 L['pulp_covered_relic'] = '걸쭉한 수액으로 뒤덮인 유물'
-L['requisites_originator_note'] = nil
-L['rondure_cache'] = nil
-L['rondure_cache_note'] = nil
+L['requisites_originator_note'] = [[
+장치로부터 매주 한번 보상을 선택할 수 있습니다:
+
+• {spell:366667} = 고동치는 힘의 돌 + 골드
+• {spell:366668} = 령
+• {spell:366669} = 태초의 존재의 암호
+• {spell:366670} = 기원의 티끌 + {item:189179} (확률)
+• {spell:366671} = 암호/티끌/령
+• {spell:366672} = 암호 장비
+]]
+L['rondure_cache'] = '구체의 보관함'
+L['rondure_cache_note'] = '|cFFFFFD00구체의 벽감|r 내의 구체를 점프해서 꼭대기까지 올라가면 상호작용 가능한 제련소가 있습니다.'
 L['sandworn_chest'] = '모래에 바랜 상자'
 L['sandworn_chest_note'] = '해당 지역의 몹으로부터 {item:190198} 5개를 획득하여 {item:190197}를 만드세요.'
-L['sand_piles'] = nil
-L['sand_piles_note'] = nil
-L['torn_ethereal_drape'] = nil
-L['torn_ethereal_drape_note'] = nil
+L['sand_piles'] = '모래 더미'
+L['sand_piles_note'] = [[
+모래 더미는 휴면의 벽감 내에서 찾을 수 있습니다. 모래 더미를 열 때마다 {item:189863}가 필요하며, 제레스 모르티스 내의 다음 보물상자에서 획득 가능합니다:
+
+• 지배의 보관함
+• 몰락한 금고
+• 훔친 유물
+• 도난당한 두루마리
+• 가라앉은 상자
+• 교향곡의 금고
+• 진동하는 식생
+]]
+L['torn_ethereal_drape'] = '찢겨 나간 실체 없는 외투'
+L['torn_ethereal_drape_note'] = '|cFFFFFD00광휘의 벽감|r 내에 있습니다. |cFFFFFD00자동기계 제어장치|r를 활성화한 후, {npc:183565}를 사용하여 천장까지 올라가세요'
 
 L['cache_avian_nest'] = '새둥지'
 L['cache_cypher_bound'] = '암호 결속상자'
@@ -659,9 +687,12 @@ L['schematic_ineffable_skitterer_note'] = nil
 L['schematic_leaping_leporid_note'] = '공중에 떠있는 나무의 꼭대기에 있습니다.'
 L['schematic_mawdapted_raptora_note'] = '|cFFFFFD00끝없는 모래|r에 있는 {npc:181412}가 낮은 확률로 드랍합니다.'
 L['schematic_microlicid_note'] = nil
-L['schematic_omnipotential_core_note'] = nil
+L['schematic_microlicid_note'] = '구석에 있는 공중에 떠있는 나무의 낮은 쪽 가지에 수풀에 가려져 있습니다.'
+L['schematic_omnipotential_core_note'] = '|cFFFFFD00구체의 벽감|r 내에 있습니다. 이 설게도는 방 남서쪽 삼각형 문 꼭대기 뒤에 숨겨져 있습니다'
 L['schematic_prototickles_note'] = nil
+L['schematic_prototickles_note'] = '{npc:180978} 희귀몹 위의 나무덩굴 안 떠있는 사슬에 놓여있습니다'
 L['schematic_prototype_fleetpod_note'] = nil
+L['schematic_prototype_fleetpod_note'] = '|cFFFFFD00솟아난 벽감|r 내에 있습니다. {npc:184900}과 상호작용하여 미니게임을 시작합니다. 달팽이가 {npc:185455}에 닿지 않고 5개의 링을 통과하도록 이끌면 설계도를 얻을 수 있습니다'
 L['schematic_raptora_swooper_note'] = nil
 L['schematic_resonant_echo_note'] = nil
 L['schematic_russet_bufonid_note'] = nil
@@ -686,21 +717,21 @@ L['bygone_elemental_note'] = nil
 L['dominated_irregular_note'] = nil
 L['gaiagantic_note'] = nil
 L['misaligned_enforcer_note'] = '해당 지역 근처를 배회하며, 이동 경로 끝에서 사라집니다.'
-L['overcharged_vespoid_note'] = nil
+L['overcharged_vespoid_note'] = '근처의 벌집에서 랜덤하게 나타납니다.'
 L['runethief_xylora_note'] = '순례자의 은총 지역 근방에 은신한 상태로 나타납니다.'
 
 local proto_area = '|cFFFFFD00%s|r 지역의 제련소에서 추출할 수 있습니다.'
-L['proto_material_zone_chance'] = nil
-L['anima_charged_yolk_note'] = nil
+L['proto_material_zone_chance'] = '해당 지역에 걸쳐 있는 제련소에서 일정 확률로 얻을 수 있습니다'
+L['anima_charged_yolk_note'] = '제련소 활용기를 사용해 {item:187728} 15개를 모아 {item:187787}를 만듭니다. 보주를 열면 일정확률로 {item:187890}을 얻을 수 있습니다.'
 L['energized_firmament_note'] = string.format(proto_area, '공명의 봉우리')
 L['honeycombed_lattice_note'] = string.format(proto_area, '벌떼 벼랑')
-L['incorporeal_sand_note'] = '지역 내 사막 구역에 있는 제련소에서 발견될 확률이 있습니다.'
-L['pollinated_extraction_note'] = nil
+L['incorporeal_sand_note'] = '지역 내 사막 구역에 있는 제련소에서 일정 확률로 추출됩니다.'
+L['pollinated_extraction_note'] = string.format(proto_area, '거친 신록')
 L['serene_pigment_note'] = '|cFFFFFD00추방자의 굴|r 입구 위에 있는 제련소에서 찾을 수 있습니다. 여러번 시도해야 할 수 있습니다.'
-L['volatile_precursor_note'] = nil
-L['wayward_essence_note'] = nil
+L['volatile_precursor_note'] = '꼭대기에 있는 작은 쪽 제련소에서 추출됩니다. 여러번 시도해야 할 수 있습니다.'
+L['wayward_essence_note'] = '|cFFFFFD00추방자의 굴|r 뒷편에 있는 공중에 떠있는 제련소에서 추출가능합니다. 오목한 곳에 서있어야 합니다.'
 
-L['patient_bufonid_note'] = nil
+L['patient_bufonid_note'] = '{npc:180950}가 {quest:65727} 퀘스트를 줄 때까지 스토리를 진행합니다. 하루 한개씩 퀘스트를 완료하고나면 {npc:185798}를 연못에서 낚을 수 있습니다.'
 L['patient_bufonid_note_day1'] = '지역 내 원시벌에게서 {item:190852} 15개를 모으세요.'
 L['patient_bufonid_note_day2'] = '{item:172053} 30개가 필요합니다. 경매장에서 구할 수 있습니다.'
 L['patient_bufonid_note_day3'] = '{item:173202} 200개가 필요합니다. 경매장에서 구할 수 있습니다.'
@@ -722,7 +753,7 @@ L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = '{achievement:15509} 업적을 위한 추방기의 위치를 표시합니다.'
 L['options_icons_proto_materials'] = '{achievement:15229}'
 L['options_icons_proto_materials_desc'] = '{achievement:15229}에 필요한 희귀 합성 재료 위치를 표시합니다.'
-L['options_icons_protoform_schematics'] = '원생형태 합성 설계도'
+L['options_icons_protoform_schematics'] = '원생형태 설계도'
 L['options_icons_protoform_schematics_desc'] = '탈것과 애완동물 설계도의 위치를 표시합니다.'
 L['options_icons_puzzle_caches'] = '퍼즐 상자'
 L['options_icons_puzzle_caches_desc'] = '퍼즐 상자의 생성 위치를 표시합니다.'
