@@ -676,11 +676,21 @@ L['tormentors_note'] = [[
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
-L['camber_alcove_note'] = nil
-L['dormant_alcove_note'] = nil
-L['fulgor_alcove_note'] = nil
-L['rondure_alcove_note'] = nil
-L['repertory_alcove_note'] = nil
+local HIDDEN_ALCOVE = [[
+要到達 |cFFFFFD00%s密室|r:
+
+1. 完成澤瑞斯莫提斯的第6章主線任務.
+2. 找到 |cFFFFFD00%s密室 Arrangement|r %s.
+3. 在 |cFFFFFD00鳴響山嶽|r, 殺掉有 {spell:362651} 的怪物或站在白池中來獲得60點 {npc:183569}.
+4. 使用育生棲地內的 {npc:184329} 來到達內部樞位. (需要30點 {npc:183569})
+5. 使用 {npc:184485} 來到達 %s密室. (需要30點 {npc:183569})
+]]
+
+L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, '弧形', '弧形', '位於 |cFFFFFD00最終樞位|r 的建築物後面', '弧形')
+L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, '沉睡', '沉睡', '位於 |cFFFFFD00鳴響山嶽|r', '沉睡')
+L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, '絢爛', '絢爛', '位於 |cFFFFFD00鳴響山嶽|r', '絢爛')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, '圓弧', '圓弧', '位於 |cFFFFFD00第三樞位|r 平台上', '圓弧')
+L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, '儲備', '儲備', '位於 |cFFFFFD00陸地生物貯藏所|r 山洞內', '儲備')
 
 L['corrupted_architect_note'] = '攻擊 {npc:183958} 和 {npc:183961} 來啟動稀有.'
 L['dune_dominance_note'] = '{achievement:15392} 成就所需的三個稀有菁英都重生在這裡'
@@ -746,15 +756,34 @@ L['provis_cache_note'] = [[
 L['prying_eye_discovery'] = '發現窺探之眼'
 L['prying_eye_discovery_note'] = '當飛行解鎖時會比較容易到達'
 L['pulp_covered_relic'] = '被泥巴覆蓋的聖物'
-L['requisites_originator_note'] = nil
-L['rondure_cache'] = nil
-L['rondure_cache_note'] = nil
+L['requisites_originator_note'] = [[
+一臺每周會給你不同獎勵的機器
+
+• {spell:366667} = 附魔材料
+• {spell:366668} = 靈魄
+• {spell:366669} = 暗語
+• {spell:366670} = 創始微粒 + {item:189179} (機率)
+• {spell:366671} = 暗語/微粒/靈魄
+• {spell:366672} = 暗語裝備
+]]
+L['rondure_cache'] = '朗杜爾貯藏'
+L['rondure_cache_note'] = '在 |cFFFFFD00圓弧密室|r 內的跳躍謎題最上方的可互動融爐'
 L['sandworn_chest'] = '砂蝕寶箱'
 L['sandworn_chest_note'] = '從附近的怪物上拾取5個 {item:190198} 來組合成 {item:190197}.'
-L['sand_piles'] = nil
-L['sand_piles_note'] = nil
-L['torn_ethereal_drape'] = nil
-L['torn_ethereal_drape_note'] = nil
+L['sand_piles'] = '沙堆'
+L['sand_piles_note'] = [[
+所有的沙堆都在隱藏的沉睡密室裡可以被找到. 每個沙堆需要一個 {item:189863}, 可以在此區域的其他寶藏中找到:
+
+• 統御儲物箱
+• 殞落寶庫
+• 失竊的聖物
+• 失竊卷軸
+• 隱沒寶箱
+• 交響樂寶庫
+• 波動之葉
+]]
+L['torn_ethereal_drape'] = '破損的乙太披氅'
+L['torn_ethereal_drape_note'] = '在 |cFFFFFD00絢爛密室|r 內可以找到. 啟動 |cFFFFFD00自主機控制臺|r, 然後騎著 {npc:183565} 來到達天花板.'
 
 L['cache_avian_nest'] = '鳥巢'
 L['cache_cypher_bound'] = '暗語束縛箱子'
@@ -791,9 +820,9 @@ L['schematic_ineffable_skitterer_note'] = '自殺! 是真的, 你只有在靈魂
 L['schematic_leaping_leporid_note'] = '在一顆漂浮的樹頂端可以找到'
 L['schematic_mawdapted_raptora_note'] = '低機率從 |cFFFFFD00無盡沙海|r 內的 {npc:181412} 掉落'
 L['schematic_microlicid_note'] = '在漂浮樹最低的枝幹上, 被蓋在一些葉子下方'
-L['schematic_omnipotential_core_note'] = nil
+L['schematic_omnipotential_core_note'] = '可以在 |cFFFFFD00圓弧密室|r 內找到. 設計圖隱藏在房間西南側的拱門的上沿後方.'
 L['schematic_prototickles_note'] = '在稀有 {npc:180978} 上方的藤蔓內，和一個漂浮的鍊子相連著'
-L['schematic_prototype_fleetpod_note'] = nil
+L['schematic_prototype_fleetpod_note'] = '可以在 |cFFFFFD00拱型密室|r 內找到. 和 {npc:184900} 互動來開始一個小遊戲. 指揮蝸牛穿過5個環並且不碰到 {npc:185455} 來贏得設計圖.'
 L['schematic_raptora_swooper_note'] = '在轉化廳內找到'
 L['schematic_resonant_echo_note'] = '有機率在 {item:189172} 內找到'
 L['schematic_russet_bufonid_note'] = '有機率在 {item:187780} 巔峰箱內找到'
@@ -862,5 +891,5 @@ L['options_icons_zereth_caches'] = '暗語箱'
 L['options_icons_zereth_caches_desc'] = '顯示暗語箱可能的位置'
 L['options_icons_shrouded_cyphers'] = '隱蔽的暗語寶箱'
 L['options_icons_shrouded_cyphers_desc'] = '顯示隱蔽的暗語寶箱可能的位置. 必須裝備一件 {spell:364478} 裝備'
-L['options_icons_mawsworn_supply_cache'] = nil
-L['options_icons_mawsworn_supply_cache_desc'] = nil
+L['options_icons_mawsworn_supply_cache'] = '淵誓補給箱'
+L['options_icons_mawsworn_supply_cache_desc'] = '顯示淵誓補給箱可能的位置'
