@@ -1138,31 +1138,37 @@ local Shrouded = Class('ShroudedCypherCache', ns.node.Node, {
     }
 })
 
-map.nodes[29404950] = Shrouded()
-map.nodes[34107050] = Shrouded()
-map.nodes[51008300] = Shrouded()
-map.nodes[61006950] = Shrouded()
 map.nodes[36304810] = Shrouded()
 map.nodes[40306270] = Shrouded()
 map.nodes[43908420] = Shrouded()
 map.nodes[54507780] = Shrouded()
+-- Cypher Equipment Level 1/6 object=376041
+map.nodes[29404950] = Shrouded()
+map.nodes[34107050] = Shrouded()
+map.nodes[51008300] = Shrouded()
+map.nodes[60906950] = Shrouded()
+-- Cypher Equipment Level 2/6 object=376046
 map.nodes[42805280] = Shrouded()
 map.nodes[44507150] = Shrouded()
 map.nodes[53009230] = Shrouded()
 map.nodes[57406500] = Shrouded()
-map.nodes[54204980] = Shrouded()
-map.nodes[56203400] = Shrouded()
-map.nodes[63704120] = Shrouded()
-map.nodes[66502520] = Shrouded()
+-- Cypher Equipment Level 3/6 object=376047
 map.nodes[41903410] = Shrouded()
 map.nodes[50700460] = Shrouded()
 map.nodes[52706080] = Shrouded()
 map.nodes[59803350] = Shrouded()
-map.nodes[62005730] = Shrouded()
+map.nodes[62005720] = Shrouded()
+-- Cypher Equipment Level 4/6 object=3760418
+map.nodes[54304970] = Shrouded()
+map.nodes[56203410] = Shrouded()
+map.nodes[63704120] = Shrouded()
+map.nodes[66502520] = Shrouded()
+-- Cypher Equipment Level 5/6 object=376049
 map.nodes[49003050] = Shrouded()
-map.nodes[61201550] = Shrouded()
+map.nodes[61201560] = Shrouded()
 map.nodes[62204630] = Shrouded()
 map.nodes[69503450] = Shrouded()
+-- Cypher Equipment Level 6/6 object=376050
 
 -------------------------------------------------------------------------------
 --------------------------- MAWSWORN SUPPLY CACHES ----------------------------
