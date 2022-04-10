@@ -833,7 +833,10 @@ map.nodes[42025181] = Treasure({
     quest = 65183,
     requires = ns.requirement.Item(188231),
     label = L['provis_cache'],
-    note = L['provis_cache_note']
+    note = L['provis_cache_note'],
+    rewards = {
+        Item({item = 189710, quest = 65474}) -- Pocopoc's Ruby and Platinum Body
+    }
 }) -- Provis Cache
 
 map.nodes[48016641] = Treasure({
@@ -842,7 +845,8 @@ map.nodes[48016641] = Treasure({
     note = L['multiple_spawns'] .. ' ' .. L['prying_eye_discovery_note'],
     rewards = {
         Achievement({id = 15508, criteria = 53293}), -- Fashion of the First Ones
-        Item({item = 190096, quest = 65534}) -- Pocobold
+        Item({item = 190096, quest = 65534}), -- Pocobold
+        Item({item = 189711, quest = 65476}) -- Pocopoc's Gold and Ruby Components
     },
     pois = {POI({35244371, 34334431, 51767789})}
 }) -- Prying Eye Discovery
@@ -885,7 +889,9 @@ map.nodes[60022583] = Treasure({
     label = L['sandworn_chest'],
     note = L['multiple_spawns'] .. ' ' .. L['sandworn_chest_note'],
     rewards = {
-        Toy({item = 190734}) -- Makaris's Satchel of Mines
+        Toy({item = 190734}), -- Makaris's Satchel of Mines
+        Item({item = 189713, quest = 65473}), -- Pocopoc's Copper and Cobalt Components
+        Item({item = 189714, quest = 65474}) -- Pocopoc's Platinum and Emerald Components
     },
     pois = {POI({60863786, 61401763, 63182603, 65972694})}
 }) -- Sandworn Chest
@@ -1134,7 +1140,10 @@ local Shrouded = Class('ShroudedCypherCache', ns.node.Node, {
     label = L['cache_shrouded_cypher'],
     note = L['cache_shrouded_cypher_note'],
     rewards = {
-        Item({item = 189983, quest = 65513, covenant = NIGHTFAE}) -- Gromit Soul
+        Item({item = 189983, quest = 65513, covenant = NIGHTFAE}), -- Gromit Soul
+        Item({item = 189707, quest = 65471}), -- Pocopoc's Bronze and Gold Body
+        Item({item = 189708, quest = 65472}), -- Pocopoc's Beryllium and Silver Body
+        Item({item = 189712, quest = 65477}) -- Pocopoc's Silver and Beryllium Components
     }
 })
 
