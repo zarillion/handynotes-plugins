@@ -891,7 +891,7 @@ map.nodes[60022583] = Treasure({
     rewards = {
         Toy({item = 190734}), -- Makaris's Satchel of Mines
         Item({item = 189713, quest = 65473}), -- Pocopoc's Copper and Cobalt Components
-        Item({item = 189714, quest = 65474}) -- Pocopoc's Platinum and Emerald Components
+        Item({item = 189714, quest = 65479}) -- Pocopoc's Platinum and Emerald Components
     },
     pois = {POI({60863786, 61401763, 63182603, 65972694})}
 }) -- Sandworn Chest
