@@ -572,9 +572,9 @@ local HIDDEN_ALCOVE = [[
 ]]
 
 L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, '솟아난', '솟아난', '|cFFFFFD00궁극의 공간|r 건물 뒤에서', '솟아난')
-L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, '휴면의', '휴면의', '|cFFFFFD00공명의 봉우리|r(51.0 32.5)에서', '휴면의')
-L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, '광휘의', '광휘의', '|cFFFFFD00공명의 봉우리|r(47.8 30.4)에서', '광휘의')
-L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, '구체의', '구체의', '|cFFFFFD00제3의 공간|r(50.5 27.6)에서 ', '구체의')
+L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, '휴면의', '휴면의', '|cFFFFFD00공명의 봉우리|r에서', '휴면의')
+L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, '광휘의', '광휘의', '|cFFFFFD00공명의 봉우리|r에서', '광휘의')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, '구체의', '구체의', '|cFFFFFD00제3의 공간|r에서 ', '구체의')
 L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, '시초의', '시초의', '|cFFFFFD00현세의 저장소|r 동굴 내에서', '시초의')
 
 L['corrupted_architect_note'] = '{npc:183958}, {npc:183961}와 교전을 시작하면 활성화됩니다.'
@@ -584,25 +584,39 @@ L['furidian_note'] = '주변에서 |cFFFFFD00강화된 열쇠|r 세 개를 활�
 L['garudeon_note'] = '근처에서 {npc:183562} 3마리를 수집하여 {npc:183554}에게 {spell:362655}를 시전하여 먹입니다. 세마리 모두 먹이면 {npc:180924}이 나타납니다.'
 L['gluttonous_overgrowth_note'] = '근처의 모든 {npc:184048}를 제거하면 나타납니다.'
 L['helmix_note'] = '|cFFFF8C00지면이 진동합니다... 무언가가 지표면 아래에 잠복하고 있습니다!|r'
-L['hirukon_note'] = nil
+L['hirukon_note'] = [[
+{npc:180978}을 물 위로 소환하려면, {item:187923}를 제작해야 합니다.
+
+1. 근처 파동치는 물이 있는 곳에서 {item:187662}를 낚습니다.
+
+2. 장가르습지대의 갈퀴송곳니 저수지 내에 있는 |cFFFFFD00자극적인 방울고기 무리|r에서 {item:187915}를 낚습니다.
+
+3. 나즈자타에 있는 케일라의 무덤 비행경로 근처에 있는 |cFFFFFD00파닥이 고기 떼|r 에서 {item:187922}를 낚습니다.
+
+4.  바쉬르 흐린빛 벌판의 나르숄라 계단지 2층에 있는 외벽 발코니에서 (찾기 정말 힘듬) {item:187916}을 습득합니다. (34.7, 75.0).
+
+5. 말드락서스의 시초자의 권좌 남쪽 연못에 있는 {npc:182194}를 찾아가 {item:187923}를 제작해달라고 요청합니다.
+
+6. {item:187923}을 사용하면, 15분동안 {npc:180978} 근처에서 |cFFFFFD00원시해파리 군집|r을 볼 수 있는 버프를 얻게 됩니다. 거기서 낚시를 하면 {npc:180978}이 수면 위로 올라옵니다.
+]] -- Breaking my rule of no coords in the notes for this one
 L['orixal_note'] = '{npc:185487}와 생성을 공유합니다. {npc:185487}가 주변에 있으면 처치한 후 다음 생성을 기다리세요.'
 L['protector_first_ones_note'] = '문을 열려면 두 사람이 필요합니다. 양쪽 장치에 띄워진 것과 동일한 문양의 룬을 근처 지역에서 찾아와 장치 앞에 서면 문이 열립니다'
 L['the_engulfer_note'] = '{npc:183516}가 균열에서 출현할 때까지 {npc:183505}을 보호하세요.'
 L['zatojin_note'] = '근처에 있는 {npc:183721}와 전투를 벌여 {spell:362976} 디버프를 20중첩 받으면 {spell:362983} 효과를 얻습니다. {npc:183764}의 주의를 끌려면 마비될 때 {npc:183774} 시체 위에 서있어야 합니다.'
 
 L['architects_reserve_note'] = '순례자의 은총에 있는 {npc:180630}에게서 받는 {quest:64829} 연계 퀘스트를 모두 완료하면 상자 잠금이 해제됩니다.'
-L['bushel_of_produce_note'] = nil
-L['crushed_crate_note'] = nil
+L['bushel_of_produce_note'] = '해당 위치 북쪽에서 {spell:360945} 버프가 있는 {npc:182368}을 잡아 해당 버프를 획득합니다. {npc:182368}을 추가로 잡아 5중첩을 쌓으면 보물로 가는 문을 부술 수 있습니다.'
+L['crushed_crate_note'] = '보물 위 넘어진 기둥 위에 놓여있는 {item:189767}를 주워 {npc:185151}에게 줘서 {item:189768}와 교환합니다. 망치로 보물을 가리고 있는 바위를 부술 수 있습니다.'
 L['domination_cache_note'] = '{item:189704}는 해당 지역의 {npc:181403}과 {npc:182426}가 낮은 확률로 드랍합니다.'
-L['drowned_broker_supplies_note'] = nil
-L['forgotten_protovault_note'] = nil
+L['drowned_broker_supplies_note'] = '{npc:181059}에게 근처에 있는 {npc:185282}를 조종하게 합니다.'
+L['forgotten_protovault_note'] = '{wq:개굴개굴} 월드 퀘스트가 활성화되었을 때만 습득 가능합니다.'
 L['grateful_boon_note'] = '날탈 없이 접근하기 힘듭니다. {spell:300728} 또는 {spell:111771} 기술을 사용하여 산을 오르세요. 근처의 12마리 생물을 모두 진정시기면 {npc:185293}이 보물상자를 줍니다.'
 L['library_vault_note'] = '어휘의 굴 내의 클릭 가능한 서판을 하나씩 눌러봐서 {spell:362062} 버프를 획득하면 상자를 열 수 있습니다.'
-L['mistaken_ovoid_note'] = nil
-L['ripened_protopear_note'] = nil
-L['sphere_treasure_note'] = nil
-L['submerged_chest_note'] = nil
-L['symphonic_vault_note'] = nil
+L['mistaken_ovoid_note'] = '차원의 폭포 동굴 내에 있음. {item:190239} 5개를 모아 {npc:185280}에게 가져가면 됩니다.'
+L['ripened_protopear_note'] = '{quest:64641} 연계 퀘스트를 진행하면 생기의 주조소가 개방됩니다. 주조소 내에서 녹색 구름에 들어가 {spell:367180} 버프를 획득한 후 {npc:185416}를 클릭합니다. 이를 5번 반복하면 보상을 얻을 수 있습니다.'
+L['sphere_treasure_note'] = '구체를 이용해 주의해서 점프해서 올라가세요.'
+L['submerged_chest_note'] = '남쪽에 있는 |cFFFFFD00위험한 힘의 보주|r를 흡수하여, 보물 근처에 있는 |cFFFFFD00잊힌 펌프|r와 상호작용합니다.'
+L['symphonic_vault_note'] = '{npc:183998}를 조사하여 재생되는 네 음의 순서를 기억하세요. 방안의 {npc:183950}는 각각 한가지 음을 재생합니다. 순서에 맞게 재생하면 보물의 잠금이 해제됩니다'
 L['syntactic_vault_note'] = '상자를 잠금해제하려면 태초의 존재의 매장터 지역에 있는 6개의 룬 음절과 상호작용하여 {spell:367499} 버프를 6중첩 받아야 합니다.'
 L['template_archive_note'] = '방안의 {npc:183339}와 상호작용하여 보물상자가 있는 방으로 가는 길을 막고 있는 다른 {npc:183337}가 밀어냅니다.'
 L['undulating_foliage_note'] = [[
@@ -674,7 +688,7 @@ L['schematic_bronze_helicid_note'] = '2주마다 할 수 있는 {quest:65324} �
 L['schematic_ambystan_darter_note'] = '{npc:185312} 옆 물 속에 숨겨져 있습니다.'
 L['schematic_bronzewing_vespoid_note'] = '수태의 휴식처 안에 있습니다.'
 L['schematic_buzz_note'] = '{npc:185265}에서 일정 확률로 획득 가능합니다.'
-L['schematic_curious_crystalsniffer_note'] = nil
+L['schematic_curious_crystalsniffer_note'] = '|cFFFFFD00태초의 존재의 매장터|r 공격대 내에서  {npc:184915}를 잡고 나면 짧은 시간동안 습득가능하게 됩니다.'
 L['schematic_darkened_vombata_note'] = '공중에 떠있는 쇠창살 안에 있습니다.'
 L['schematic_deathrunner_note'] = '{spell:366367}을 해금하는 연계퀘스트 과정에서 획득가능합니다.'
 L['schematic_desertwing_hunter_note'] = '기둥 꼭대기에 있습니다.'
@@ -683,23 +697,23 @@ L['schematic_forged_spiteflyer_note'] = '원시벌 벌집에 삐죽 튀어나와
 L['schematic_genesis_crawler_note'] = '기원의 벽감 입구 지붕 꼭대기 근처에 있습니다.'
 L['schematic_goldplate_bufonid_note'] = '{npc:178803}로부터 낮은 확률로 획득할 수 있습니다.'
 L['schematic_heartbond_lupine_note'] = '{npc:179939}로부터 낮은 확률로 획득할 수 있습니다.'
-L['schematic_ineffable_skitterer_note'] = nil
+L['schematic_ineffable_skitterer_note'] = '유령상태로 |cFFFFFD00추방자의 굴|r에 들어가면 {npc:185092}를 만날 수 있습니다.'
 L['schematic_leaping_leporid_note'] = '공중에 떠있는 나무의 꼭대기에 있습니다.'
 L['schematic_mawdapted_raptora_note'] = '|cFFFFFD00끝없는 모래|r에 있는 {npc:181412}가 낮은 확률로 드랍합니다.'
 L['schematic_microlicid_note'] = '구석에 있는 공중에 떠있는 나무의 낮은 쪽 가지에 수풀에 가려져 있습니다.'
 L['schematic_omnipotential_core_note'] = '|cFFFFFD00구체의 벽감|r 내에 있습니다. 이 설게도는 방 남서쪽 삼각형 문 꼭대기 뒤에 숨겨져 있습니다'
 L['schematic_prototickles_note'] = '{npc:180978} 희귀몹 위의 나무덩굴 안 떠있는 사슬에 놓여있습니다'
 L['schematic_prototype_fleetpod_note'] = '|cFFFFFD00솟아난 벽감|r 내에 있습니다. {npc:184900}과 상호작용하여 미니게임을 시작합니다. 달팽이가 {npc:185455}에 닿지 않고 5개의 링을 통과하도록 이끌면 설계도를 얻을 수 있습니다'
-L['schematic_raptora_swooper_note'] = nil
-L['schematic_resonant_echo_note'] = nil
-L['schematic_russet_bufonid_note'] = nil
+L['schematic_raptora_swooper_note'] = '성형의 방 안에 있음'
+L['schematic_resonant_echo_note'] = '|cFFFFFD00결정화된 태초의 노래의 메아리|r에서 일정 확률로 얻을 수 있습니다.'
+L['schematic_russet_bufonid_note'] = '{item:187780} 보관함에서 일정 확률로 얻을 수 있습니다.'
 L['schematic_scarlet_helicid_note'] = '구조물 꼭대기 근처에 있습니다.'
-L['schematic_serenade_note'] = nil
+L['schematic_serenade_note'] = '공격대 던전 내의 |cFFFFFD00불멸의 벽로|r지역의 떠있는 사슬에 있습니다.'
 L['schematic_shelly_note'] = '어휘의 굴 내의 선반 뒷편 중간에 있습니다. 선반을 오르려면 순간이동 기술이 필요합니다'
-L['schematic_stabilized_geomental_note'] = nil
+L['schematic_stabilized_geomental_note'] = '|cFFFFFD00태초의 존재의 매장터|r 공격대 던전에서 {npc:182169}이 일정확류로 드랍합니다.'
 L['schematic_tarachnid_creeper_note'] = '끝없는 모래 지역의 작은 건물 안에 있습니다.'
 L['schematic_terror_jelly_note'] = '경사로 오른쪽의 네모난 탑 위에 있습니다.'
-L['schematic_tunneling_vombata_note'] = nil
+L['schematic_tunneling_vombata_note'] = '로크리아 영혼실 내 막힌 통로의 돌무더기 근처에 있습니다.'
 L['schematic_vespoid_flutterer_note'] = '공명의 봉우리의 제1의 공간 층에 있는 모래더미에 일부 튀어나와 있습니다.'
 L['schematic_violent_poultrid_note'] = '{daily:65256} 일일 퀘스트 보상에서 일정 확률로 얻을 수 있습니다.'
 
@@ -710,9 +724,9 @@ L['concordance_note'] = '색인을 읽으면 |cFFFFFD00추방자의 굴|r 내의
 
 L['echoed_jiro_note'] = '{npc:181059} 에너지를 소비하여 임시 버프를 얻습니다. {npc:181397}에서 |cFFFFFD00크리에이션|r 연구를 해야합니다.'
 
-L['bygone_elemental_note'] = nil
-L['dominated_irregular_note'] = nil
-L['gaiagantic_note'] = nil
+L['bygone_elemental_note'] = '{npc:181221}은 {npc:179007}이 출몰하는 지역에서 랜덤하게 생성됩니다.'
+L['dominated_irregular_note'] = '{npc:184819}은 {npc:183184}이 출몰하는 지역에서 랜덤하게 생성됩니다.'
+L['gaiagantic_note'] = '{npc:177958}이 {daily:64785} 일일퀘스트를 줄 때만 나타납니다.'
 L['misaligned_enforcer_note'] = '해당 지역 근처를 배회하며, 이동 경로 끝에서 사라집니다.'
 L['overcharged_vespoid_note'] = '근처의 벌집에서 랜덤하게 나타납니다.'
 L['runethief_xylora_note'] = '순례자의 은총 지역 근방에 은신한 상태로 나타납니다.'
