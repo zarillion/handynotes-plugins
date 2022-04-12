@@ -572,9 +572,9 @@ local HIDDEN_ALCOVE = [[
 ]]
 
 L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, '솟아난', '솟아난', '|cFFFFFD00궁극의 공간|r 건물 뒤에서', '솟아난')
-L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, '휴면의', '휴면의', '|cFFFFFD00공명의 봉우리|r(51.0 32.5)에서', '휴면의')
-L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, '광휘의', '광휘의', '|cFFFFFD00공명의 봉우리|r(47.8 30.4)에서', '광휘의')
-L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, '구체의', '구체의', '|cFFFFFD00제3의 공간|r(50.5 27.6)에서 ', '구체의')
+L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, '휴면의', '휴면의', '|cFFFFFD00공명의 봉우리|r에서', '휴면의')
+L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, '광휘의', '광휘의', '|cFFFFFD00공명의 봉우리|r에서', '광휘의')
+L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, '구체의', '구체의', '|cFFFFFD00제3의 공간|r에서 ', '구체의')
 L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, '시초의', '시초의', '|cFFFFFD00현세의 저장소|r 동굴 내에서', '시초의')
 
 L['corrupted_architect_note'] = '{npc:183958}, {npc:183961}와 교전을 시작하면 활성화됩니다.'
