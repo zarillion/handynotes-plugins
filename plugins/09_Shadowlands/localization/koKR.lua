@@ -754,6 +754,7 @@ L['patient_bufonid_note_day7'] = '타자베쉬 던전 내의 {npc:180114}으로�
 L['lost_comb'] = '잃어버린 벌집'
 L['soulshape_penguin_note'] = '공중에 떠있는 제련소 꼭대기에 있습니다.'
 
+L['coreless_automa'] = 'Coreless Automa']
 L['coreless_vombata'] = '핵 없는 봄바타'
 L['coreless_helicid'] = '핵 없는 원시달팽이'
 L['coreless_scarabid'] = '핵 없는 원시풍뎅이'
@@ -761,7 +762,6 @@ L['coreless_tarachnid'] = '핵 없는 원시거미'
 L['coreless_geomental'] = '핵이 없는 대지정령'
 L['coreless_automa_note'] = 'Equiping an item with {spell:364480} will grant |cFFFFFD00Pocopoc|r the ability to take over creatures without consuming energy and will make earning this achievement faster.'
 L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start following you before telling Pocopoc to leave to avoid causing a bug that requires you to relog.|r'
-
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '{achievement:15211} 업적을 위한 생명체의 위치를 표시합니다.'
