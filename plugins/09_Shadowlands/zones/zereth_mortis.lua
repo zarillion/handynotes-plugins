@@ -1955,7 +1955,13 @@ map.nodes[63206050] = Soulshape({
 local Automa = Class('CorelessAutoma', ns.node.Node, {
     group = ns.groups.CORELESS_AUTOMA,
     requires = ns.requirement.GarrisonTalent(1932), -- Dealic Understanding
-    scale = 1.5
+    scale = 1.5,
+    rewards = {
+        Achievement({
+            id = 15542,
+            criteria = ({id = 1, qty = true, suffix = L['coreless_automa']})
+        })
+    }
 })
 
 function Automa.getters:note()
