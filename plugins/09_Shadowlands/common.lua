@@ -301,6 +301,17 @@ ns.groups.RELIC = Group('relic', 'star_chest_b', {
     end
 })
 
+ns.groups.CORELESS_AUTOMA = Group('coreless_automa', 4327618, {
+    defaults = ns.GROUP_HIDDEN,
+    IsEnabled = function(self)
+        -- Coreless automa cannot be controlled by Pocopoc until the quest "Core Control" is complete
+        if not C_QuestLog.IsQuestFlaggedCompleted(65700) then
+            return false
+        end
+        return Group.IsEnabled(self)
+    end
+})
+
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------
 -------------------------------------------------------------------------------

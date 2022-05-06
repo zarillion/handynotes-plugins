@@ -877,6 +877,15 @@ L['patient_bufonid_note_day7'] = 'Acheter 1x {item:187171} auprès du {npc:18011
 L['lost_comb'] = 'Rayon de miel égaré'
 L['soulshape_penguin_note'] = 'Situé au sommet de la forge flottante.'
 
+L['coreless_vombata'] = 'Vombata sans noyau'
+L['coreless_helicid'] = 'Hélicidé sans noyau'
+L['coreless_scarabid'] = 'Scarabidé sans noyau'
+L['coreless_tarachnid'] = 'Tarachnidé sans noyau'
+L['coreless_geomental'] = 'Géomentaire sans noyau'
+L['coreless_automa_note'] = 'Equiping an item with {spell:364480} will grant |cFFFFFD00Pocopoc|r the ability to take over creatures without consuming energy and will make earning this achievement faster.'
+L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start following you before telling Pocopoc to leave to avoid causing a bug that requires you to relog.|r'
+
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Afficher les emplacements des créatures pour le haut-fait {achievement:15211}.'
 L['options_icons_concordances'] = 'Histoires Harmoniques'
@@ -897,3 +906,5 @@ L['options_icons_shrouded_cyphers'] = 'Caches cryptiques dissimulées'
 L['options_icons_shrouded_cyphers_desc'] = 'Afficher les emplacements possibles des Caches cryptiques dissimulées.'
 L['options_icons_mawsworn_supply_cache'] = 'Coffres de fournitures antreliges'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Afficher les emplacements possibles des Coffres de fournitures antreliges.'
+L['options_icons_coreless_automa'] = '{achievement:15542}'
+L['options_icons_coreless_automa_desc'] = 'Coreless automa locations for the {achievement:15542} achievement.'

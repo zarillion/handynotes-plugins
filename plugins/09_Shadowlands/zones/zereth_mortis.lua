@@ -1947,3 +1947,72 @@ map.nodes[63206050] = Soulshape({
         Item({item = 189990, quest = 65518, covenant = NIGHTFAE}) -- Bee Soul
     }
 }) -- Bee Soul
+
+-------------------------------------------------------------------------------
+----------------------------- APOCOPOCOLYPSE NOW ------------------------------
+-------------------------------------------------------------------------------
+
+local Automa = Class('CorelessAutoma', ns.node.Node, {
+    group = ns.groups.CORELESS_AUTOMA,
+    requires = ns.requirement.GarrisonTalent(1932), -- Dealic Understanding
+    scale = 1.5
+})
+
+function Automa.getters:note()
+    local note = L['coreless_automa_note']
+    note = note .. '\n\n{item:190980}'
+    note = note .. '\n{item:190986}'
+    note = note .. '\n{item:190992}'
+    note = note .. '\n{item:190998}'
+    note = note .. '\n\n' .. L['coreless_automa_warning']
+    return note
+end
+
+local CORELESS_VOMBATA_A = Automa({id = 181580, icon = 'peg_bl', label = L['coreless_vombata']})
+local CORELESS_VOMBATA_B = Automa({id = 185662, icon = 'peg_bl', label = L['coreless_vombata']})
+local CORELESS_HELICID = Automa({id = 181558, icon = 'peg_bk', label = L['coreless_helicid']})
+local CORELESS_SCARBID = Automa({id = 181385, icon = 'peg_gn', label = L['coreless_scarabid']})
+local CORELESS_TARACHNID = Automa({id = 181556, icon = 'peg_rd', label = L['coreless_tarachnid']})
+local CORELESS_GEOMENTAL = Automa({id = 181586, icon = 'peg_yw', label = L['coreless_geomental']})
+
+map.nodes[33205620] = CORELESS_VOMBATA_A
+map.nodes[37203760] = CORELESS_VOMBATA_A
+map.nodes[37804720] = CORELESS_VOMBATA_A
+map.nodes[38407080] = CORELESS_VOMBATA_A
+map.nodes[45407580] = CORELESS_VOMBATA_A
+map.nodes[46807860] = CORELESS_VOMBATA_A
+map.nodes[56006660] = CORELESS_VOMBATA_B
+
+map.nodes[32605980] = CORELESS_HELICID
+map.nodes[37207080] = CORELESS_HELICID
+map.nodes[37805500] = CORELESS_HELICID
+map.nodes[42408820] = CORELESS_HELICID
+map.nodes[43806120] = CORELESS_HELICID
+map.nodes[44405640] = CORELESS_HELICID
+map.nodes[50006260] = CORELESS_HELICID
+map.nodes[52607500] = CORELESS_HELICID
+map.nodes[59008420] = CORELESS_HELICID
+map.nodes[63207040] = CORELESS_HELICID
+
+map.nodes[42604360] = CORELESS_SCARBID
+map.nodes[40803160] = CORELESS_SCARBID
+map.nodes[44403680] = CORELESS_SCARBID
+map.nodes[47602420] = CORELESS_SCARBID
+map.nodes[51404920] = CORELESS_SCARBID
+map.nodes[62003200] = CORELESS_SCARBID
+map.nodes[67202500] = CORELESS_SCARBID
+
+map.nodes[41602780] = CORELESS_TARACHNID
+map.nodes[44202460] = CORELESS_TARACHNID
+map.nodes[53602700] = CORELESS_TARACHNID
+map.nodes[57002540] = CORELESS_TARACHNID
+map.nodes[59004900] = CORELESS_TARACHNID
+map.nodes[59405480] = CORELESS_TARACHNID
+map.nodes[62806240] = CORELESS_TARACHNID
+map.nodes[64004380] = CORELESS_TARACHNID
+
+map.nodes[47204600] = CORELESS_GEOMENTAL
+map.nodes[50004160] = CORELESS_GEOMENTAL
+map.nodes[53809040] = CORELESS_GEOMENTAL
+map.nodes[55006040] = CORELESS_GEOMENTAL
+map.nodes[66403800] = CORELESS_GEOMENTAL
