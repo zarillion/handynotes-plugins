@@ -193,6 +193,9 @@ L['cat_figurine_09'] = 'En una cueva bajo el agua. La Figurila está en la parte
 L['cat_figurine_10'] = 'En una cueva justo debajo del camino. La Figurilla está entre los tres barriles.'
 L['figurines_found'] = 'Figurilla de Cristal Encontrada'
 
+L['fabious'] = 'Fabius'
+L['fabious_desc'] = 'Hazte una foto "selfie" con {npc:65090} usando ya sea la {item:122637} o el juguete {item:122674}.'
+
 L['mardivas_lab'] = 'Laboratorio de Mardivas'
 L['no_reagent'] = 'Sin ingredientes'
 L['swater'] = 'Agua Inferior'
@@ -222,6 +225,8 @@ L['options_icons_cats_nazj'] = '{achievement:13836}'
 L['options_icons_cats_nazj_desc'] = 'Muestra dónde están las figurillas de gato para el logro {achievement:13836}.'
 L['options_icons_misc_nazj'] = 'Miscelánea'
 L['options_icons_misc_nazj_desc'] = 'Muestra dónde está la cueva de Murloco y el Laboratorio de Mardivas.'
+L['options_icons_fabious'] = '{npc:65090}'
+L['options_icons_fabious_desc'] = 'Muestra dónde está {npc:65090} para su montura {item:169201}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
