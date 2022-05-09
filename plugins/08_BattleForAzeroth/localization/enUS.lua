@@ -192,6 +192,9 @@ L['cat_figurine_09'] = 'In an underwater cave. Figurine is on the rock archway b
 L['cat_figurine_10'] = 'In a cave just below the path. Figurine is between three barrels.'
 L['figurines_found'] = 'Crystalline Figurines Found'
 
+L['fabious'] = 'Fabious'
+L['fabious_desc'] = 'Take a "selfie" picture with {npc:65090} using either the {item:122637} or {item:122674} toy.'
+
 L['mardivas_lab'] = 'Mardivas\'s Laboratory'
 L['no_reagent'] = 'No reagents'
 L['swater'] = 'Small Water'
@@ -221,6 +224,8 @@ L['options_icons_cats_nazj'] = '{achievement:13836}'
 L['options_icons_cats_nazj_desc'] = 'Display locations of the cat figurines for the {achievement:13836} achievement.'
 L['options_icons_misc_nazj'] = 'Miscellaneous'
 L['options_icons_misc_nazj_desc'] = 'Display the location of {npc:152593}\'s cave and Mardivas\'s Laboratory.'
+L['options_icons_fabious'] = '{npc:65090}'
+L['options_icons_fabious_desc'] = 'Display the location of {npc:65090} for {item:169201}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
