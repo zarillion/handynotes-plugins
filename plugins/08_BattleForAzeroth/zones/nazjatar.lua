@@ -831,6 +831,26 @@ map.nodes[61641079] = Figurine({quest = 56991, note = L['cat_figurine_09']})
 map.nodes[38004925] = Figurine({quest = 56989, note = L['cat_figurine_10']})
 
 -------------------------------------------------------------------------------
+-------------------------------- FABIOUS --------------------------------------
+-------------------------------------------------------------------------------
+
+local Fabious = Class('Fabious', NPC, {
+	id = 65090,
+    icon = 2741477,
+    group = ns.groups.FABIOUS,
+    label = L['fabious'],
+    rewards = {
+		Mount({item = 169201, id = 1258})
+    }
+})
+
+map.nodes[48808420] = Fabious({icon = 2741477, note = L['fabious_desc']})
+map.nodes[39005180] = Fabious({icon = 2741477, note = L['fabious_desc']})
+map.nodes[27003140] = Fabious({icon = 2741477, note = L['fabious_desc']})
+map.nodes[39001120] = Fabious({icon = 2741477, note = L['fabious_desc']})
+map.nodes[75805200] = Fabious({icon = 2741477, note = L['fabious_desc']})
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 

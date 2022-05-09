@@ -28,6 +28,7 @@ ns.groups.BRUTOSAURS =
 ns.groups.CARVED_IN_STONE = Group('carved_in_stone', 134424,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.CATS_NAZJ = Group('cats_nazj', 454045)
+ns.groups.FABIOUS = Group('fabious', 2741477)
 ns.groups.COFFERS = Group('coffers', 'star_chest_g')
 ns.groups.DAILY_CHESTS = Group('daily_chests', 'chest_bl',
     {defaults = ns.GROUP_ALPHA75})
