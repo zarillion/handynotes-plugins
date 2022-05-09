@@ -877,7 +877,7 @@ L['patient_bufonid_note_day7'] = '从塔扎维什地下城的 {npc:180114} 购�
 L['lost_comb'] = '失落的蜂巢'
 L['soulshape_penguin_note'] = '位于浮空锻炉顶部。'
 
-L['coreless_automa'] = 'Coreless Automa'
+L['coreless_automa'] = '无核自动体'
 L['coreless_vombata'] = '无核元袋熊'
 L['coreless_helicid'] = '无核元螺'
 L['coreless_scarabid'] = '无核的元甲虫'
