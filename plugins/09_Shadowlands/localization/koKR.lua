@@ -754,7 +754,7 @@ L['patient_bufonid_note_day7'] = '타자베쉬 던전 내의 {npc:180114}으로�
 L['lost_comb'] = '잃어버린 벌집'
 L['soulshape_penguin_note'] = '공중에 떠있는 제련소 꼭대기에 있습니다.'
 
-L['coreless_automa'] = 'Coreless Automa']
+L['coreless_automa'] = 'Coreless Automa'
 L['coreless_vombata'] = '핵 없는 봄바타'
 L['coreless_helicid'] = '핵 없는 원시달팽이'
 L['coreless_scarabid'] = '핵 없는 원시풍뎅이'

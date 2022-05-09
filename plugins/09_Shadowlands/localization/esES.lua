@@ -878,7 +878,7 @@ L['patient_bufonid_note_day7'] = 'Compra {item:187171} x1 a {npc:180114} en la m
 L['lost_comb'] = 'Panal Perdido'
 L['soulshape_penguin_note'] = 'Está encima de la forja flotante.'
 
-L['coreless_automa'] = 'Coreless Automa']
+L['coreless_automa'] = 'Coreless Automa'
 L['coreless_vombata'] = 'Vombata sin núcleo'
 L['coreless_helicid'] = 'Helícido sin núcleo'
 L['coreless_scarabid'] = 'Escarábido sin núcleo'
