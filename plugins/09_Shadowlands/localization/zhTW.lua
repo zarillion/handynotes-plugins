@@ -873,7 +873,7 @@ L['patient_bufonid_note_day7'] = '從帷幕市集地城的 {npc:180114} 購買1�
 L['lost_comb'] = '遺失的蜂巢'
 L['soulshape_penguin_note'] = '在漂浮的熔爐上方, 和 {npc:185279} 互動來取得物品'
 
-L['coreless_automa'] = '吳和自主機'
+L['coreless_automa'] = '無核自主機'
 L['coreless_vombata'] = '無核原基袋熊'
 L['coreless_helicid'] = '無核原蝸'
 L['coreless_scarabid'] = '無核原基甲蟲'
