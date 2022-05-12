@@ -189,6 +189,9 @@ L['cat_figurine_09'] = 'In einer Unterwasserhöhle. Die Figur befindet sich auf 
 L['cat_figurine_10'] = 'In einer Höhle direkt unter dem Weg. Die Figur ist zwischen drei Fässern.'
 L['figurines_found'] = 'Kristallfiguren gefunden'
 
+L['fabious'] = nil
+L['fabious_desc'] = nil
+
 L['mardivas_lab'] = 'Mardivas\' Labor'
 L['no_reagent'] = 'Keine Reagenzien'
 L['swater'] = 'Kleines Wasser'
@@ -218,6 +221,8 @@ L['options_icons_cats_nazj'] = '{achievement:13836}'
 L['options_icons_cats_nazj_desc'] = 'Zeigt die Kristallkatzenstatuetten für den Erfolg {achievement:13836} an.'
 L['options_icons_misc_nazj'] = 'Sonstiges'
 L['options_icons_misc_nazj_desc'] = 'Zeigt die Position von {npc:152593s} Höhle und Mardivas\' Labor an.'
+L['options_icons_fabious'] = '{npc:65090}'
+L['options_icons_fabious_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
