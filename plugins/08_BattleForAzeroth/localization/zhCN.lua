@@ -189,6 +189,9 @@ L['cat_figurine_09'] = '在一个水下洞穴。雕像位于天花板的岩石�
 L['cat_figurine_10'] = '在路径下方的一个洞穴里。雕像在三个桶之间。'
 L['figurines_found'] = '已找到水晶猫咪雕像'
 
+L['fabious'] = nil
+L['fabious_desc'] = nil
+
 L['mardivas_lab'] = '马蒂瓦斯的实验室'
 L['no_reagent'] = '不使用材料'
 L['swater'] = '小水'
@@ -218,6 +221,8 @@ L['options_icons_cats_nazj'] = '{achievement:13836}'
 L['options_icons_cats_nazj_desc'] = '显示 {achievement:13836} 成就水晶猫咪雕像位置。'
 L['options_icons_misc_nazj'] = '杂项'
 L['options_icons_misc_nazj_desc'] = '显示莫洛戈藏身处以及马蒂瓦斯的实验室的位置。'
+L['options_icons_fabious'] = '{npc:65090}'
+L['options_icons_fabious_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
