@@ -375,7 +375,6 @@ L['dunewalker'] = 'Para poder atacarle hay que quitarle el escudo de inmunidad. 
 L['friendly_alpaca'] = 'Alimenta a la alpaca con {item:174858} siete veces para aprenderla como montura. Aparece durante 10 minutos en un sitio, después tiene un largo tiempo de reaparición.'
 L['gaze_of_nzoth'] = 'Comparte lugar de reaparición con {npc:156890}.'
 L['gersahl_note'] = 'Alimenta a una {npc:162765} siete veces para una montura. No requiere Herboristería.'
-L['gersahl'] = 'Arbusto Gershal'
 L['hmiasma'] = 'Atrae {npc:158703} y {npc:160625} al círculo azul donde está {npc:160623} para alimentarle. Cuando haya crecido lo suficiente se activará.'
 L['kanebti'] = 'Recoge {item:168160} haciendo click en {npc:152427}, los cuales comparten lugar de aparición con los {npc:151859} normales. Inserta la Figurilla en el Altar del Escarabajo para invocar a {npc:152431}.'
 L['neferset_rare'] = 'Los seis raros comparten los tres lugares de aparición en Neferset. Tras completar un número de veces el evento del Ritual de Invocación, aparecerán tres raros aleatorios.'

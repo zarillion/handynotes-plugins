@@ -34,7 +34,7 @@ jobs:
         uses: actions/cache@v2
         with:
             path: ~/.luarocks
-            key: ${{ runner.os }}-cache-lua-rocks-${{ env.lua-version }}-20210912
+            key: ${{ runner.os }}-cache-lua-rocks-${{ env.lua-version }}-20220515
 
       - name: Install luacheck
         run: |
@@ -45,7 +45,7 @@ jobs:
       - name: Install lua-format
         run: |
           if [[ ! -f ~/.luarocks/bin/lua-format ]]; then
-            luarocks --local install --server=https://luarocks.org/dev luaformatter
+            luarocks --local install https://raw.githubusercontent.com/Koihik/LuaFormatter/master/luaformatter-scm-1.rockspec
           fi
 
       - name: Lint sources

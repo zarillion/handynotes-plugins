@@ -374,7 +374,6 @@ L['dunewalker'] = 'Click the Essence of the Sun on the platform above to release
 L['friendly_alpaca'] = 'Feed the alpaca {item:174858} seven times to learn it as a mount. Appears for 10 minutes in one location, then a long respawn.'
 L['gaze_of_nzoth'] = 'Shares a spawn with {npc:156890s}.'
 L['gersahl_note'] = 'Feed to the {npc:162765} seven times for a mount. Does not require Herbalism.'
-L['gersahl'] = 'Gersahl Shrub'
 L['hmiasma'] = 'Feed it the surrounding oozes until it activates.'
 L['kanebti'] = 'Collect a {item:168160} from a {npc:152427}, which shares a spawn with regular {npc:151859s}. Insert the figurine into the Scarab Shrine to summon the rare.'
 L['neferset_rare'] = 'These six rares share the same three spawn locations in Neferset. After a number of Summoning Ritual events have been completed, a random set of three will spawn.'

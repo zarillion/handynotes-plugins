@@ -371,7 +371,6 @@ L['dunewalker'] = 'Klicke die Essenz der Sonne auf der Plattform an, um ihn frei
 L['friendly_alpaca'] = 'Füttere das Alpaka siebenmal mit {item:174858}, um es als Reittier zu erhalten. Erscheint 10 Minuten lang an einem Ort, danach ein längere Zeit nicht.'
 L['gaze_of_nzoth'] = 'Teilt sich den spawn mit {npc:156890}.'
 L['gersahl_note'] = 'Füttere siebenmal ein {npc:162765} damit, um es als Reittier zu erhalten. \n|cffff0000Benötigt KEIN Kräuterkunde.|r'
-L['gersahl'] = 'Gersahlstrauch'
 L['hmiasma'] = 'Töte Schleime in der Umgebung bis {npc:160623} aktiv wird.'
 L['kanebti'] = 'Sammle eine {item:168160} von einem Juwelenbesetzter Skarabäus, der sich einen spawn mit normalen Grabskarabäen teilt. Setze die Figur in den Skarabäusschrein ein, um {npc:152431} zu beschwören.'
 L['neferset_rare'] = 'Diese sechs Seltenen Gegner teilen sich die gleichen drei Spawnplätze in Neferset. Nachdem eine Reihe von Beschwörungsritual-Ereignissen abgeschlossen wurden, werden zufällig drei von ihnen erscheinen.'

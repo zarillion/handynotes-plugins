@@ -191,14 +191,14 @@ function Addon:RegisterWithHandyNotes()
             end
             return nil, nil, nil, nil
         end
-        function Addon:GetNodes2(mapID, _minimap)
+        function Addon:GetNodes2(mapID, isMinimap)
             if ns:GetOpt('show_debug_map') then
                 ns.Debug('Loading nodes for map: ' .. mapID .. ' (minimap=' ..
-                             tostring(_minimap) .. ')')
+                             tostring(isMinimap) .. ')')
             end
 
             map = ns.maps[mapID]
-            minimap = _minimap
+            minimap = isMinimap
             force = ns:GetOpt('force_nodes') or ns.dev_force
 
             if map then
