@@ -34,7 +34,7 @@ jobs:
         uses: actions/cache@v2
         with:
             path: ~/.luarocks
-            key: ${{ runner.os }}-cache-lua-rocks-${{ env.lua-version }}-20210912
+            key: ${{ runner.os }}-cache-lua-rocks-${{ env.lua-version }}-20220515
 
       - name: Install luacheck
         run: |
