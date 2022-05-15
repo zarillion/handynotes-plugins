@@ -225,7 +225,7 @@ L['options_icons_cats_nazj_desc'] = 'Display locations of the cat figurines for 
 L['options_icons_misc_nazj'] = 'Miscellaneous'
 L['options_icons_misc_nazj_desc'] = 'Display the location of {npc:152593}\'s cave and Mardivas\'s Laboratory.'
 L['options_icons_fabious'] = '{npc:65090}'
-L['options_icons_fabious_desc'] = 'Display the location of {npc:65090} for {item:169201}'
+L['options_icons_fabious_desc'] = 'Display possible locations of {npc:65090} for the {item:169201} mount.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
