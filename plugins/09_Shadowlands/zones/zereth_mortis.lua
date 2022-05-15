@@ -1589,7 +1589,7 @@ map.nodes[69743354] = Nascii_({id = 184947, requires = CREATIAN_NE})
 ----------------------------- APOCOPOCOLYPSE NOW ------------------------------
 -------------------------------------------------------------------------------
 
-local Automa = Class('CorelessAutoma', ns.node.Node, {
+local Automa = Class('CorelessAutoma', ns.node.NPC, {
     group = ns.groups.CORELESS_AUTOMA,
     requires = ns.requirement.GarrisonTalent(1932), -- Dealic Understanding
     scale = 1.5,
@@ -1611,36 +1611,12 @@ function Automa.getters:note()
     return note
 end
 
-local CORELESS_VOMBATA_A = Automa({
-    id = 181580,
-    icon = 'peg_bl',
-    label = L['coreless_vombata']
-})
-local CORELESS_VOMBATA_B = Automa({
-    id = 185662,
-    icon = 'peg_bl',
-    label = L['coreless_vombata']
-})
-local CORELESS_HELICID = Automa({
-    id = 181558,
-    icon = 'peg_bk',
-    label = L['coreless_helicid']
-})
-local CORELESS_SCARBID = Automa({
-    id = 181385,
-    icon = 'peg_gn',
-    label = L['coreless_scarabid']
-})
-local CORELESS_TARACHNID = Automa({
-    id = 181556,
-    icon = 'peg_rd',
-    label = L['coreless_tarachnid']
-})
-local CORELESS_GEOMENTAL = Automa({
-    id = 181586,
-    icon = 'peg_yw',
-    label = L['coreless_geomental']
-})
+local CORELESS_VOMBATA_A = Automa({id = 181580, icon = 'peg_bl'})
+local CORELESS_VOMBATA_B = Automa({id = 185662, icon = 'peg_bl'})
+local CORELESS_HELICID = Automa({id = 181558, icon = 'peg_bk'})
+local CORELESS_SCARBID = Automa({id = 181385, icon = 'peg_gn'})
+local CORELESS_TARACHNID = Automa({id = 181556, icon = 'peg_rd'})
+local CORELESS_GEOMENTAL = Automa({id = 181586, icon = 'peg_yw'})
 
 map.nodes[33205620] = CORELESS_VOMBATA_A
 map.nodes[37203760] = CORELESS_VOMBATA_A

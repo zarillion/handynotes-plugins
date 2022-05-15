@@ -876,12 +876,6 @@ L['patient_bufonid_note_day7'] = 'Купите 1x {item:187171} у {npc:180114} 
 L['lost_comb'] = 'Потерянные соты'
 L['soulshape_penguin_note'] = 'Расположены на вершине летающей кузницы.'
 
-L['coreless_automa'] = 'Coreless Automa'
-L['coreless_vombata'] = 'Пустая вомбата'
-L['coreless_helicid'] = 'Пустой хелицид'
-L['coreless_scarabid'] = 'Пустой скарабид'
-L['coreless_tarachnid'] = 'Пустой тарахнид'
-L['coreless_geomental'] = 'Пустой геоменталь'
 L['coreless_automa_note'] = 'Equiping an item with {spell:364480} will grant |cFFFFFD00Pocopoc|r the ability to take over creatures without consuming energy and will make earning this achievement faster.'
 L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start following you before telling Pocopoc to leave to avoid causing a bug that requires you to relog.|r'
 
