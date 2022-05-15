@@ -45,7 +45,7 @@ jobs:
       - name: Install lua-format
         run: |
           if [[ ! -f ~/.luarocks/bin/lua-format ]]; then
-            luarocks --local install --server=https://luarocks.org/dev luaformatter
+            luarocks --local install https://raw.githubusercontent.com/Koihik/LuaFormatter/master/luaformatter-scm-1.rockspec
           fi
 
       - name: Lint sources
