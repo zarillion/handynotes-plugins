@@ -878,7 +878,7 @@ L['patient_bufonid_note_day7'] = 'Compra {item:187171} x1 a {npc:180114} en la m
 L['lost_comb'] = 'Panal Perdido'
 L['soulshape_penguin_note'] = 'Está encima de la forja flotante.'
 
-L['coreless_automa'] = nil
+L['coreless_automa'] = 'Automas Salvajes'
 L['coreless_automa_note'] = 'Equipando un objeto con la {spell:364480} otorgará a |cFFFFFD00Pocopoc|r la habilidad de asumir el control de criaturas sin consumir energía y podrás hacer el logro más rápido.'
 L['coreless_automa_warning'] = '|cFFFF8C00Espera a que el automa te siga de verdad antes de decirle a Pocopoc que se vaya para evitar causar un error que requiere que vuelvas a iniciar sesión.|r'
 
