@@ -189,7 +189,7 @@ L['cat_figurine_09'] = 'In einer Unterwasserhöhle. Die Figur befindet sich auf 
 L['cat_figurine_10'] = 'In einer Höhle direkt unter dem Weg. Die Figur ist zwischen drei Fässern.'
 L['figurines_found'] = 'Kristallfiguren gefunden'
 
-L['fabious_desc'] = nil
+L['fabious_desc'] = 'Mach ein "selfie" mit {npc:65090} entweder mit der {item:122637} oder dem {item:122674} Spielzeug. Erscheint zufällig nach längerer Zeit an einem der 5 Orte und bleibt nur kurz.'
 
 L['mardivas_lab'] = 'Mardivas\' Labor'
 L['no_reagent'] = 'Keine Reagenzien'
@@ -221,7 +221,7 @@ L['options_icons_cats_nazj_desc'] = 'Zeigt die Kristallkatzenstatuetten für den
 L['options_icons_misc_nazj'] = 'Sonstiges'
 L['options_icons_misc_nazj_desc'] = 'Zeigt die Position von {npc:152593s} Höhle und Mardivas\' Labor an.'
 L['options_icons_fabious'] = '{npc:65090}'
-L['options_icons_fabious_desc'] = nil
+L['options_icons_fabious_desc'] = 'Zeigt die möglichen Positionen von {npc:65090} für das Reittier {item:169201} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
