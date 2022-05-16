@@ -193,7 +193,7 @@ L['cat_figurine_09'] = 'En una cueva bajo el agua. La Figurila está en la parte
 L['cat_figurine_10'] = 'En una cueva justo debajo del camino. La Figurilla está entre los tres barriles.'
 L['figurines_found'] = 'Figurilla de Cristal Encontrada'
 
-L['fabious_desc'] = 'Hazte una foto "selfie" con {npc:65090} usando ya sea la {item:122637} o el juguete {item:122674}.'
+L['fabious_desc'] = 'Hazte una foto "selfie" con {npc:65090} usando ya sea la {item:122637} o el juguete {item:122674}. Tiene un largo tiempo de reaparición y en ubicaciones aleatorias. Existe por poco tiempo.'
 
 L['mardivas_lab'] = 'Laboratorio de Mardivas'
 L['no_reagent'] = 'Sin ingredientes'
