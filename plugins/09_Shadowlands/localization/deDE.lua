@@ -884,6 +884,7 @@ L['patient_bufonid_note_day7'] = 'Kaufe 1x {item:187171} von dem {npc:180114} au
 L['lost_comb'] = 'Verlorene Wabe'
 L['soulshape_penguin_note'] = 'Befindet sich auf der schwebenden Schmiede.'
 
+L['coreless_automa'] = 'Wildtierautomas'
 L['coreless_automa_note'] = 'Ein Gegenstand mit {spell:364480} auszurüsten verleiht |cFFFFFD00Pocopoc|r die Fähigkeit Kreaturen zu übernehmen ohne Energie zu verbrauchen und ermöglicht es diesen Erfolg schneller zu erhalten.'
 L['coreless_automa_warning'] = '|cFFFF8C00Warte bis der Automat tatsächlich anfängt dir zu folgen, bevor du Pocopoc wegschickst, um einen Fehler zu vermeiden, der dich dazu zwingt, neu einzuloggen.|r'
 
