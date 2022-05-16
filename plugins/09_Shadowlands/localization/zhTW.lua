@@ -873,7 +873,7 @@ L['patient_bufonid_note_day7'] = '從帷幕市集地城的 {npc:180114} 購買1�
 L['lost_comb'] = '遺失的蜂巢'
 L['soulshape_penguin_note'] = '在漂浮的熔爐上方, 和 {npc:185279} 互動來取得物品'
 
-L['coreless_automa'] = nil
+L['coreless_automa'] = "無核自主機"
 L['coreless_automa_note'] = '裝備一個有 {spell:364480} 的裝備會讓 |cFFFFFD00波克波可|r 控制自主機時不用花費能量, 這樣可以讓你更快取得此成就.'
 L['coreless_automa_warning'] = '|cFFFF8C00請等待自主機真的跟隨你了再告訴波克波可離開自主機, 如此可以避免發生需要你重登的錯誤.|r'
 
