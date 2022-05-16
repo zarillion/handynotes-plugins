@@ -192,8 +192,7 @@ L['cat_figurine_09'] = 'In an underwater cave. Figurine is on the rock archway b
 L['cat_figurine_10'] = 'In a cave just below the path. Figurine is between three barrels.'
 L['figurines_found'] = 'Crystalline Figurines Found'
 
-L['fabious'] = 'Fabious'
-L['fabious_desc'] = 'Take a "selfie" picture with {npc:65090} using either the {item:122637} or {item:122674} toy.'
+L['fabious_desc'] = 'Take a "selfie" picture with {npc:65090} using either the {item:122637} or {item:122674} toy. Long time spawn in random locations and exist for a short time.'
 
 L['mardivas_lab'] = 'Mardivas\'s Laboratory'
 L['no_reagent'] = 'No reagents'

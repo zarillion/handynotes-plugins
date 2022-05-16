@@ -838,7 +838,7 @@ local FABIOUS = NPC({
     id = 65090,
     icon = 2741477,
     group = ns.groups.FABIOUS,
-    label = L['fabious'],
+    label = '{item:169201}',
     note = L['fabious_desc'],
     rewards = {Mount({item = 169201, id = 1258})}
 })

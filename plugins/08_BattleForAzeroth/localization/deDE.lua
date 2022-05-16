@@ -189,7 +189,6 @@ L['cat_figurine_09'] = 'In einer Unterwasserhöhle. Die Figur befindet sich auf 
 L['cat_figurine_10'] = 'In einer Höhle direkt unter dem Weg. Die Figur ist zwischen drei Fässern.'
 L['figurines_found'] = 'Kristallfiguren gefunden'
 
-L['fabious'] = nil
 L['fabious_desc'] = nil
 
 L['mardivas_lab'] = 'Mardivas\' Labor'
