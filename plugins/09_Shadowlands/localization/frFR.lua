@@ -675,6 +675,12 @@ Un événement de tourmenteur apparaît toutes les 2 heures à heure pile. Les b
 La {item:185972} peut être obtenue une fois par semaine et contient 50 {currency:1906}.
 ]]
 
+L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for {achievement:14742}'
+
+L['mawsworn_blackguard'] = 'Garde sombre antrelige'
+L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------

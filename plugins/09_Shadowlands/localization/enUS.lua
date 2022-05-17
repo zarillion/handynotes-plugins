@@ -672,6 +672,12 @@ A tormentor event spawns every 2 hours on the hour. The bosses will always spawn
 The {item:185972} can be looted once a week and contains 50 {currency:1906}.
 ]]
 
+L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for {achievement:14742}'
+
+L['mawsworn_blackguard'] = 'Mawsworn Blackguard'
+L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------

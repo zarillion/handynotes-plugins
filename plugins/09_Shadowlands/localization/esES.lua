@@ -673,6 +673,12 @@ Los eventos de torturadores aparecen cada 2 horas impares en punto. Aparecerán 
 El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1906}.
 ]]
 
+L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for {achievement:14742}'
+
+L['mawsworn_blackguard'] = 'Guardanegro jurafauces'
+L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
