@@ -877,7 +877,7 @@ L['patient_bufonid_note_day7'] = '从塔扎维什地下城的 {npc:180114} 购�
 L['lost_comb'] = '失落的蜂巢'
 L['soulshape_penguin_note'] = '位于浮空锻炉顶部。'
 
-L['coreless_automa'] = nil
+L['coreless_automa'] = '无核自动体'
 L['coreless_automa_note'] = '装备一个 {spell:364480} 物品将赋予 |cFFFFFD00波可波克|r 不消耗能量就能控制生物的能力，这将会获得成就更加快速。'
 L['coreless_automa_warning'] = '|cFFFF8C00等待自动机真正开始跟随你然后让波可波克离开，以避免导致需要你重新登录的错误。|r'
 
