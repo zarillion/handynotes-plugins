@@ -558,6 +558,12 @@ L['options_icons_zovault_desc'] = nil
 L['tormentors'] = nil
 L['tormentors_note'] = nil
 
+L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for {achievement:14742}'
+
+L['mawsworn_blackguard'] = '나락살이 검은경비병'
+L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------

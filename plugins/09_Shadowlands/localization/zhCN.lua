@@ -672,6 +672,12 @@ L['tormentors_note'] = [[
 {item:185972} 每周只可以拾取一次，其中包含50个 {currency:1906}。
 ]]
 
+L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for {achievement:14742}'
+
+L['mawsworn_blackguard'] = '渊誓黑衣卫士'
+L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
