@@ -14,6 +14,8 @@ local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
+local Pet = ns.reward.Pet
+local Spell = ns.reward.Spell
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -1938,6 +1940,33 @@ map.nodes[32814036] = Proto({
     note = L['wayward_essence_note'],
     rewards = {Achievement({id = 15229, criteria = 53057})}
 }) -- Wayward Essence
+
+-------------------------------------------------------------------------------
+---------------------------------- OLEA MANU ----------------------------------
+-------------------------------------------------------------------------------
+
+local OleaManu = Class('OleaManu', ns.node.NPC, {
+    id = 183962,
+    icon = 4254892,
+    requires = {
+        ns.requirement.GarrisonTalent(1902),
+        ns.requirement.Quest(65219)
+    },
+    group = ns.groups.OLEA_MANU,
+    note = L['olea_manu'],
+    rewards = {
+        Spell({item = 187804, spell = 359333, note = '25'}), -- Recipe: Empty Kettle of Stone Soup
+        Spell({item = 187824, spell = 360007, note = '25'}), -- Formula: Magically Regulated Automa Core
+        Item({item = 188793, quest = 65282, note = '150'}), -- Improved Cypher Analysis Tool
+        Item({item = 189986, quest = 65514, covenant = NIGHTFAE, note = '500'}), -- Armadillo Soul
+        Item({item = 189980, quest = 65510, covenant = NIGHTFAE, note = '1000'}), -- Brutosaur Soul
+        Toy({item = 190333, note = '100'}), -- Jiro Circle of Song
+        Pet({item = 191039, id = 3247, note = '500'}), -- Pocopoc Traveler
+        Item({item = 187781, note = '700'}) -- Olea Cache
+    }
+}) -- Olea Manu
+
+map.nodes[37164467] = OleaManu()
 
 -------------------------------------------------------------------------------
 ------------------------------- PATIENT BUFONID -------------------------------
