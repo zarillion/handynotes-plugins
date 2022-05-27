@@ -911,5 +911,5 @@ L['options_icons_mawsworn_supply_cache'] = 'Mawsworn Supply Caches'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Display possible locations for mawsworn supply caches.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Coreless automa locations for the {achievement:15542} achievement.'
-L['options_icons_olea_manu'] = '{npc:183962}',
+L['options_icons_olea_manu'] = '{npc:183962}'
 L['options_icons_olea_manu_desc'] = 'Display vendor information for {npc:183962}'
