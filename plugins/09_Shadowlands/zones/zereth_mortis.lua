@@ -15,7 +15,6 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
-local Spell = ns.reward.Spell
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
