@@ -240,8 +240,7 @@ ns.groups.NEST_MATERIALS = Group('nest_materials', 136064,
     {defaults = ns.GROUP_HIDDEN75})
 ns.groups.NILGANIHMAHT_MOUNT = Group('nilganihmaht', 1391724,
     {defaults = ns.GROUP_HIDDEN75})
-ns.groups.OLEA_MANU = Group('olea_manu', 4254892,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.OLEA_MANU = Group('olea_manu', 4254892, {defaults = ns.GROUP_HIDDEN})
 ns.groups.PROTO_MATERIALS = Group('proto_materials', 838813,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.PROTOFORM_SCHEMATICS = Group('protoform_schematics', 4217590,
