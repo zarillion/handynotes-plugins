@@ -894,6 +894,8 @@ L['coreless_automa'] = 'Wildtierautomas'
 L['coreless_automa_note'] = 'Ein Gegenstand mit {spell:364480} auszurüsten verleiht |cFFFFFD00Pocopoc|r die Fähigkeit Kreaturen zu übernehmen ohne Energie zu verbrauchen und ermöglicht es diesen Erfolg schneller zu erhalten.'
 L['coreless_automa_warning'] = '|cFFFF8C00Warte bis der Automat tatsächlich anfängt dir zu folgen, bevor du Pocopoc wegschickst, um einen Fehler zu vermeiden, der dich dazu zwingt, neu einzuloggen.|r'
 
+L['olea_manu'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Zeigt die Positionen der Kreaturen für den {achievement:15211} Erfolg an.'
 L['options_icons_concordances'] = 'Wissens Konkordanzen'
@@ -916,3 +918,5 @@ L['options_icons_mawsworn_supply_cache'] = 'Schlundgebundene Vorratstruhen'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Zeigt die möglichen Positionen für Schlundgebundene Vorratstruhen an.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Zeigt die Positionen der Wildtierautomas (kernlose Automas) für den Erfolg {achievement:15542} an.'
+L['options_icons_olea_manu'] = '{npc:183962}'
+L['options_icons_olea_manu_desc'] = nil
