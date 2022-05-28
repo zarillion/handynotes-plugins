@@ -887,6 +887,8 @@ L['coreless_automa'] = 'Automas sauvages'
 L['coreless_automa_note'] = 'Équiper un objet avec {spell:364480} donnera à |cFFFFFD00Pocopoc|r la capacité de prendre le contrôle de créatures sans consommer d\'énergie et permettra d\'obtenir ce haut-fait plus rapidement.'
 L['coreless_automa_warning'] = '|cFFFF8C00Attendez que l\'automa commence réellement à vous suivre avant de dire à Pocopoc de partir pour éviter de provoquer un bug qui vous obligerait à vous reconnecter.|r'
 
+L['olea_manu'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Afficher les emplacements des créatures pour le haut-fait {achievement:15211}.'
 L['options_icons_concordances'] = 'Histoires Harmoniques'
@@ -909,3 +911,5 @@ L['options_icons_mawsworn_supply_cache'] = 'Coffres de fournitures antreliges'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Afficher les emplacements possibles des Coffres de fournitures antreliges.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Emplacements des Automas sans noyaux pour le haut-fait {achievement:15542}.'
+L['options_icons_olea_manu'] = '{npc:183962}'
+L['options_icons_olea_manu_desc'] = nil

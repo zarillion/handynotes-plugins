@@ -887,6 +887,8 @@ L['coreless_automa'] = '无核自动体'
 L['coreless_automa_note'] = '装备一个 {spell:364480} 物品将赋予 |cFFFFFD00波可波克|r 不消耗能量就能控制生物的能力，这将会获得成就更加快速。'
 L['coreless_automa_warning'] = '|cFFFF8C00等待自动机真正开始跟随你然后让波可波克离开，以避免导致需要你重新登录的错误。|r'
 
+L['olea_manu'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '显示 {achievement:15211} 成就中生物的位置。'
 L['options_icons_concordances'] = '知识索引'
@@ -909,3 +911,5 @@ L['options_icons_mawsworn_supply_cache'] = '渊誓补给宝箱'
 L['options_icons_mawsworn_supply_cache_desc'] = '显示渊誓补给宝箱可能的位置。'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = '显示 {achievement:15542} 成就中无核自动体的位置。'
+L['options_icons_olea_manu'] = '{npc:183962}'
+L['options_icons_olea_manu_desc'] = nil

@@ -883,6 +883,8 @@ L['coreless_automa'] = '無核自主機'
 L['coreless_automa_note'] = '裝備一個有 {spell:364480} 的裝備會讓 |cFFFFFD00波克波可|r 控制自主機時不用花費能量, 這樣可以讓你更快取得此成就.'
 L['coreless_automa_warning'] = '|cFFFF8C00請等待自主機真的跟隨你了再告訴波克波可離開自主機, 如此可以避免發生需要你重登的錯誤.|r'
 
+L['olea_manu'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '顯示 {achievement:15211} 成就的生物位置'
 L['options_icons_concordances'] = '知識索引'
@@ -905,3 +907,5 @@ L['options_icons_mawsworn_supply_cache'] = '淵誓補給箱'
 L['options_icons_mawsworn_supply_cache_desc'] = '顯示淵誓補給箱可能的位置'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = '顯示 {achievement:15542} 成就所需無核自主機的位置.'
+L['options_icons_olea_manu'] = '{npc:183962}'
+L['options_icons_olea_manu_desc'] = nil

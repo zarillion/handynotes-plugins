@@ -764,6 +764,8 @@ L['coreless_automa'] = nil
 L['coreless_automa_note'] = 'Equiping an item with {spell:364480} will grant |cFFFFFD00Pocopoc|r the ability to take over creatures without consuming energy and will make earning this achievement faster.'
 L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start following you before telling Pocopoc to leave to avoid causing a bug that requires you to relog.|r'
 
+L['olea_manu'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '{achievement:15211} 업적을 위한 생명체의 위치를 표시합니다.'
 L['options_icons_concordances'] = '지식 색인'
@@ -786,3 +788,5 @@ L['options_icons_mawsworn_supply_cache'] = '나락살이 보급품 상자'
 L['options_icons_mawsworn_supply_cache_desc'] = '나락살이 보급품 상자의 발견 가능한 위치를 표시합니다'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Coreless automa locations for the {achievement:15542} achievement.'
+L['options_icons_olea_manu'] = '{npc:183962}'
+L['options_icons_olea_manu_desc'] = nil
