@@ -1949,14 +1949,13 @@ local OleaManu = Class('OleaManu', ns.node.NPC, {
     id = 183962,
     icon = 4254892,
     requires = {
-        ns.requirement.GarrisonTalent(1902),
-        ns.requirement.Quest(65219)
+        ns.requirement.GarrisonTalent(1902), ns.requirement.Quest(65219)
     },
     group = ns.groups.OLEA_MANU,
     note = L['olea_manu'],
     rewards = {
-        Spell({item = 187804, spell = 359333, note = '25'}), -- Recipe: Empty Kettle of Stone Soup
-        Spell({item = 187824, spell = 360007, note = '25'}), -- Formula: Magically Regulated Automa Core
+        Item({item = 187804, note = '25'}), -- Recipe: Empty Kettle of Stone Soup
+        Item({item = 187824, note = '25'}), -- Formula: Magically Regulated Automa Core
         Item({item = 188793, quest = 65282, note = '150'}), -- Improved Cypher Analysis Tool
         Item({item = 189986, quest = 65514, covenant = NIGHTFAE, note = '500'}), -- Armadillo Soul
         Item({item = 189980, quest = 65510, covenant = NIGHTFAE, note = '1000'}), -- Brutosaur Soul
