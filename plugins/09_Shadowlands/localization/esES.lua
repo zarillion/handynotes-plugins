@@ -674,10 +674,10 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
-L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for {achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = 'Muestra dónde están los Guardanegro Jurafauces para el logro {achievement:14742}.'
 
-L['mawsworn_blackguard'] = 'Guardanegro jurafauces'
-L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+L['mawsworn_blackguard'] = 'Guardanegro Jurafauces'
+L['mawsworn_blackguard_note'] = 'Forma fácil de seleccionar a un {npc:183173} en sigilo.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
@@ -888,7 +888,7 @@ L['coreless_automa'] = 'Automas Salvajes'
 L['coreless_automa_note'] = 'Equipando un objeto con la {spell:364480} otorgará a |cFFFFFD00Pocopoc|r la habilidad de asumir el control de criaturas sin consumir energía y podrás hacer el logro más rápido.'
 L['coreless_automa_warning'] = '|cFFFF8C00Espera a que el automa te siga de verdad antes de decirle a Pocopoc que se vaya para evitar causar un error que requiere que vuelvas a iniciar sesión.|r'
 
-L['olea_manu'] = nil
+L['olea_manu'] = 'Los precios listados requieren {currency:1979}.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas para el logro {achievement:15211}.'
@@ -913,4 +913,4 @@ L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra los sitios posibles par
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Sitios donde encontrar Automas salvajes que controlar para el logro {achievement:15542}.'
 L['options_icons_olea_manu'] = '{npc:183962}'
-L['options_icons_olea_manu_desc'] = nil
+L['options_icons_olea_manu_desc'] = 'Muestra información del vendedor {npc:183962}.'
