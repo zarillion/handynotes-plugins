@@ -79,6 +79,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Grapple point locations across the maw.
 * Stygia Nexus locations for collecting [Stygia Dust](https://www.wowhead.com/item=185618/stygia-dust) and [Stygia Sliver](https://www.wowhead.com/item=185617/stygia-sliver) for the [Bound Shadehound](https://www.wowhead.com/item=184168/bound-shadehound) mount.
 * Stolen Anima Vessel locations in the rift and around the covenant assaults.
+* Mawsworn Blackguard locations for the [Who Sent You?](https://www.wowhead.com/achievement=14742/who-sent-you) achievement.
 * Ring and treasure locations for the [Hand of Nilganihmaht](https://www.wowhead.com/spell=354354/hand-of-nilganihmaht) mount.
 * Maw and Torghast upgrades purchased from [Ve'nari](https://www.wowhead.com/npc=162804/venari).
 
@@ -95,8 +96,10 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 * Cyphers of Creation (puzzle caches) and repeatable cypher cache locations.
 * Mawsworn Supply Cache locations for the [Colossal Wraithbound Mawrat](https://www.wowhead.com/spell=368128/colossal-wraithbound-mawrat) mount.
+* Shrouded Cypher Cache locations which require Pocopoc's enhanced cypher equipment to see.
 * Protoform Schematic locations for crafting mounts and pets.
 * Lore Concordance and Echoed Jiro locations providing outdoor buffs.
+* Coreless Automa locations for the [Apocopocolypse Now](https://www.wowhead.com/achievement=15542/apocopocolypse-now) achievement.
 * Creature locations for the [Completing the Code](https://www.wowhead.com/achievement=15211/completing-the-code) achievement.
 * Proto-Material locations for the [Traversing the Spheres](https://www.wowhead.com/achievement=15229/traversing-the-spheres) achievement.
 * Scroll locations for the [Tales of the Exile](https://www.wowhead.com/achievement=15509/tales-of-the-exile) achievement.

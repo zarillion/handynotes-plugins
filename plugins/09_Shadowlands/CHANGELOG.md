@@ -1,3 +1,13 @@
+# v47
+
+* Added coreless automa locations for the Apocopocolypse Now! achievment (thanks wyldclaw!)
+* Added Mawsworn Blackguard locations for the Who Sent You? achievement (thanks wyldclaw!)
+* Added multiple Pocopoc component rewards obtained from treasures.
+* Added the Olea Manu vendor NPC in Zereth Mortis (thanks wyldclaw!)
+* Fixed the `C_TransmogCollection.GetAppearanceSources()` error in the new patch.
+* Multiple updates to notes and translations.
+* Updated TOC for 9.2.5
+
 # v46
 
 * Added rewards from hidden chambers unlocked after chapter 6 of the campaign:
