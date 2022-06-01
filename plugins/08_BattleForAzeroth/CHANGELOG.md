@@ -1,3 +1,8 @@
+# v10
+
+* Fixed the `C_TransmogCollection.GetAppearanceSources()` error in the new patch.
+* Updated TOC for 9.2.5
+
 # v9
 
 * Fixed performance issues while opening/closing the world map and in combat.
