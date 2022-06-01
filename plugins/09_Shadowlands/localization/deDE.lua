@@ -680,10 +680,10 @@ Die {item:185972} kann wöchentlich geplündert werden und enthält 50 {currency
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
-L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for {achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = 'Zeigt {npc:183173} Positionen für den Erfolg {achievement:14742} an.'
 
 L['mawsworn_blackguard'] = 'Schlundgebundene Schwarzwache'
-L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+L['mawsworn_blackguard_note'] = 'Visiere eine verstohlene {npc:183173} an:'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
@@ -894,7 +894,7 @@ L['coreless_automa'] = 'Wildtierautomas'
 L['coreless_automa_note'] = 'Ein Gegenstand mit {spell:364480} auszurüsten verleiht |cFFFFFD00Pocopoc|r die Fähigkeit Kreaturen zu übernehmen ohne Energie zu verbrauchen und ermöglicht es diesen Erfolg schneller zu erhalten.'
 L['coreless_automa_warning'] = '|cFFFF8C00Warte bis der Automat tatsächlich anfängt dir zu folgen, bevor du Pocopoc wegschickst, um einen Fehler zu vermeiden, der dich dazu zwingt, neu einzuloggen.|r'
 
-L['olea_manu'] = nil
+L['olea_manu'] = 'Verkauft Sammlerstücke und Rezepte im Tausch gegen {currency:1979}.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Zeigt die Positionen der Kreaturen für den {achievement:15211} Erfolg an.'
