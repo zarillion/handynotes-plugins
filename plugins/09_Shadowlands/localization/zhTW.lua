@@ -673,10 +673,10 @@ L['tormentors_note'] = [[
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
-L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for {achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = '{achievement:14742} 成就所需的 淵誓黑衣衛 位置'
 
-L['mawsworn_blackguard'] = '渊誓黑衣卫士'
-L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+L['mawsworn_blackguard'] = '淵誓黑衣衛'
+L['mawsworn_blackguard_note'] = '簡單的選取一個潛行的 {npc:183173}:'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
@@ -883,7 +883,7 @@ L['coreless_automa'] = '無核自主機'
 L['coreless_automa_note'] = '裝備一個有 {spell:364480} 的裝備會讓 |cFFFFFD00波克波可|r 控制自主機時不用花費能量, 這樣可以讓你更快取得此成就.'
 L['coreless_automa_warning'] = '|cFFFF8C00請等待自主機真的跟隨你了再告訴波克波可離開自主機, 如此可以避免發生需要你重登的錯誤.|r'
 
-L['olea_manu'] = nil
+L['olea_manu'] = '清單中的價格須使用 {currency:1979}'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '顯示 {achievement:15211} 成就的生物位置'
@@ -908,4 +908,4 @@ L['options_icons_mawsworn_supply_cache_desc'] = '顯示淵誓補給箱可能的�
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = '顯示 {achievement:15542} 成就所需無核自主機的位置.'
 L['options_icons_olea_manu'] = '{npc:183962}'
-L['options_icons_olea_manu_desc'] = nil
+L['options_icons_olea_manu_desc'] = '顯示 {npc:183962} 販售的商品資訊'
