@@ -788,5 +788,3 @@ L['options_icons_mawsworn_supply_cache'] = '나락살이 보급품 상자'
 L['options_icons_mawsworn_supply_cache_desc'] = '나락살이 보급품 상자의 발견 가능한 위치를 표시합니다'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Coreless automa locations for the {achievement:15542} achievement.'
-L['options_icons_olea_manu'] = '{npc:183962}'
-L['options_icons_olea_manu_desc'] = nil

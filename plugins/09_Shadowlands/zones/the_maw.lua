@@ -1317,32 +1317,34 @@ function Blackguard.getters:note()
     return note
 end
 
-map.nodes[58605480] = Blackguard()
-map.nodes[56805680] = Blackguard()
-map.nodes[56005800] = Blackguard()
-map.nodes[56606260] = Blackguard()
-map.nodes[58606280] = Blackguard()
-map.nodes[49206160] = Blackguard()
-map.nodes[48606120] = Blackguard()
-map.nodes[44086200] = Blackguard()
-map.nodes[46405900] = Blackguard()
-map.nodes[46205640] = Blackguard()
-map.nodes[40003760] = Blackguard()
-map.nodes[38803540] = Blackguard()
-map.nodes[38002960] = Blackguard()
-map.nodes[26802060] = Blackguard()
-map.nodes[25002140] = Blackguard()
-map.nodes[31402600] = Blackguard()
-map.nodes[31802880] = Blackguard()
-map.nodes[30203220] = Blackguard()
-map.nodes[25202900] = Blackguard()
-map.nodes[22202760] = Blackguard()
-map.nodes[21803020] = Blackguard()
-map.nodes[31803640] = Blackguard()
-map.nodes[31203780] = Blackguard()
-map.nodes[32003900] = Blackguard()
-map.nodes[33203760] = Blackguard()
-map.nodes[29804260] = Blackguard()
+local BLACKGUARD = Blackguard()
+
+map.nodes[21803020] = BLACKGUARD
+map.nodes[22202760] = BLACKGUARD
+map.nodes[25002140] = BLACKGUARD
+map.nodes[25202900] = BLACKGUARD
+map.nodes[26802060] = BLACKGUARD
+map.nodes[29804260] = BLACKGUARD
+map.nodes[30203220] = BLACKGUARD
+map.nodes[31203780] = BLACKGUARD
+map.nodes[31402600] = BLACKGUARD
+map.nodes[31802880] = BLACKGUARD
+map.nodes[31803640] = BLACKGUARD
+map.nodes[32003900] = BLACKGUARD
+map.nodes[33203760] = BLACKGUARD
+map.nodes[38002960] = BLACKGUARD
+map.nodes[38803540] = BLACKGUARD
+map.nodes[40003760] = BLACKGUARD
+map.nodes[44086200] = BLACKGUARD
+map.nodes[46205640] = BLACKGUARD
+map.nodes[46405900] = BLACKGUARD
+map.nodes[48606120] = BLACKGUARD
+map.nodes[49206160] = BLACKGUARD
+map.nodes[56005800] = BLACKGUARD
+map.nodes[56606260] = BLACKGUARD
+map.nodes[56805680] = BLACKGUARD
+map.nodes[58605480] = BLACKGUARD
+map.nodes[58606280] = BLACKGUARD
 
 -------------------------------------------------------------------------------
 ------------------------------- ZOVAAL'S VAULT --------------------------------

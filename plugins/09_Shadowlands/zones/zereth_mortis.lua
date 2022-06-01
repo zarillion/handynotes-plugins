@@ -1944,13 +1944,12 @@ map.nodes[32814036] = Proto({
 ---------------------------------- OLEA MANU ----------------------------------
 -------------------------------------------------------------------------------
 
-local OleaManu = Class('OleaManu', ns.node.NPC, {
+map.nodes[37164467] = ns.node.NPC({
     id = 183962,
     icon = 4254892,
     requires = {
         ns.requirement.GarrisonTalent(1902), ns.requirement.Quest(65219)
     },
-    group = ns.groups.OLEA_MANU,
     note = L['olea_manu'],
     rewards = {
         Item({item = 187804, note = '25'}), -- Recipe: Empty Kettle of Stone Soup
@@ -1963,8 +1962,6 @@ local OleaManu = Class('OleaManu', ns.node.NPC, {
         Item({item = 187781, note = '700'}) -- Olea Cache
     }
 }) -- Olea Manu
-
-map.nodes[37164467] = OleaManu()
 
 -------------------------------------------------------------------------------
 ------------------------------- PATIENT BUFONID -------------------------------

@@ -911,5 +911,3 @@ L['options_icons_mawsworn_supply_cache'] = '渊誓补给宝箱'
 L['options_icons_mawsworn_supply_cache_desc'] = '显示渊誓补给宝箱可能的位置。'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = '显示 {achievement:15542} 成就中无核自动体的位置。'
-L['options_icons_olea_manu'] = '{npc:183962}'
-L['options_icons_olea_manu_desc'] = nil
