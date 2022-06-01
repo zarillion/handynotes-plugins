@@ -888,7 +888,7 @@ L['coreless_automa'] = 'Automas Salvajes'
 L['coreless_automa_note'] = 'Equipando un objeto con la {spell:364480} otorgará a |cFFFFFD00Pocopoc|r la habilidad de asumir el control de criaturas sin consumir energía y podrás hacer el logro más rápido.'
 L['coreless_automa_warning'] = '|cFFFF8C00Espera a que el automa te siga de verdad antes de decirle a Pocopoc que se vaya para evitar causar un error que requiere que vuelvas a iniciar sesión.|r'
 
-L['olea_manu'] = 'Los precios listados requieren {currency:1979}.'
+L['olea_manu'] = 'Vende transfiguraciones y recetas a cambio de {currency:1979}.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas para el logro {achievement:15211}.'
