@@ -676,10 +676,10 @@ La {item:185972} peut être obtenue une fois par semaine et contient 50 {currenc
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
-L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for {achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = 'Emplacements des {npc:183173} pour le haut-fait {achievement:14742}'
 
 L['mawsworn_blackguard'] = 'Garde sombre antrelige'
-L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+L['mawsworn_blackguard_note'] = 'Cibler facilement un {npc:183173} camouflé :'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
@@ -887,7 +887,7 @@ L['coreless_automa'] = 'Automas sauvages'
 L['coreless_automa_note'] = 'Équiper un objet avec {spell:364480} donnera à |cFFFFFD00Pocopoc|r la capacité de prendre le contrôle de créatures sans consommer d\'énergie et permettra d\'obtenir ce haut-fait plus rapidement.'
 L['coreless_automa_warning'] = '|cFFFF8C00Attendez que l\'automa commence réellement à vous suivre avant de dire à Pocopoc de partir pour éviter de provoquer un bug qui vous obligerait à vous reconnecter.|r'
 
-L['olea_manu'] = nil
+L['olea_manu'] = 'Vend des objets et des recettes en échange de {currency:1979}.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Afficher les emplacements des créatures pour le haut-fait {achievement:15211}.'
