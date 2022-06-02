@@ -673,10 +673,10 @@ L['tormentors_note'] = [[
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
-L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for {achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = '显示 for {achievement:14742} 成就中渊誓黑衣卫士的位置。'
 
 L['mawsworn_blackguard'] = '渊誓黑衣卫士'
-L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+L['mawsworn_blackguard_note'] = '很容易切换目标为潜行的 {npc:183173}：'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
@@ -887,7 +887,7 @@ L['coreless_automa'] = '无核自动体'
 L['coreless_automa_note'] = '装备一个 {spell:364480} 物品将赋予 |cFFFFFD00波可波克|r 不消耗能量就能控制生物的能力，这将会获得成就更加快速。'
 L['coreless_automa_warning'] = '|cFFFF8C00等待自动机真正开始跟随你然后让波可波克离开，以避免导致需要你重新登录的错误。|r'
 
-L['olea_manu'] = nil
+L['olea_manu'] = '用 {currency:1979} 换取出售的收藏和食谱。'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '显示 {achievement:15211} 成就中生物的位置。'
