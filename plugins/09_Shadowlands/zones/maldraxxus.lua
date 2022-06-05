@@ -15,8 +15,9 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
-local Transmog = ns.reward.Transmog
+local Spell = ns.reward.Spell
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -692,3 +693,120 @@ Map({id = 1697}).nodes[45203680] = Kitten({
     rewards = {Achievement({id = 14634, criteria = 49425})},
     note = L['hairball']
 }) -- Hairball
+
+-------------------------------------------------------------------------------
+------------------------------- CRYPT COUTURE ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[28805160] = ns.node.NPC({
+    id = 157125,
+    icon = 134846,
+    covenant = NECROLORD,
+    group = ns.groups.CRYPT_COUTURE,
+    rewards = {
+        Spell({item = 183690, spell = 341908}), -- Ashen Ink
+        Achievement({id = 14763, criteria = 49929, covenant = NECROLORD})
+    }
+}) -- Zargox the Reborn
+
+map.nodes[49602360] = ns.node.NPC({
+    id = 159105,
+    icon = 1064192,
+    covenant = NECROLORD,
+    group = ns.groups.CRYPT_COUTURE,
+    rewards = {
+        Spell({item = 183692, spell = 341911}), -- Jagged Bonesaw
+        Achievement({id = 14763, criteria = 49930, covenant = NECROLORD})
+    }
+}) -- Collector Kash
+
+map.nodes[70402780] = ns.node.NPC({
+    id = 174020,
+    icon = 133737,
+    covenant = NECROLORD,
+    note = L['discarded_grimoire_note'],
+    group = ns.groups.CRYPT_COUTURE,
+    rewards = {
+        Spell({item = 183394, spell = 341169}), -- Discarded Grimoire
+        Achievement({id = 14763, criteria = 49931, covenant = NECROLORD})
+    }
+}) -- Captain Prateq
+
+local sorcerersNote = ns.node.Node({
+    label = L['sorcerers_blade_label'],
+    icon = 463557,
+    covenant = NECROLORD,
+    note = L['sorcerers_blade_note'],
+    group = ns.groups.CRYPT_COUTURE,
+    rewards = {
+        Spell({item = 183397, spell = 341420}), -- Sorcerer's Blade
+        Achievement({id = 14763, criteria = 49932, covenant = NECROLORD})
+    }
+}) -- Sorcerer's Note
+
+map.nodes[70962857] = sorcerersNote
+Map({id = 1652}).nodes[55726400] = sorcerersNote -- Vault of Souls
+
+map.nodes[52743615] = ns.node.Node({
+    label = L['mucosal_pigment_label'],
+    icon = 134877,
+    covenant = NECROLORD,
+    note = L['mucosal_pigment_note'],
+    group = ns.groups.CRYPT_COUTURE,
+    rewards = {
+        Spell({item = 183691, spell = 341909}), -- Mucosal Pigment
+        Achievement({id = 14763, criteria = 49933, covenant = NECROLORD})
+    }
+}) -- Mucosal Pigment
+
+map.nodes[71603280] = ns.node.NPC({
+    id = 174120,
+    icon = 1385242,
+    covenant = NECROLORD,
+    note = L['amethystine_dye_note'],
+    group = ns.groups.CRYPT_COUTURE,
+    rewards = {
+        Spell({item = 183401, spell = 341428}), -- Amethystine Dye
+        Achievement({id = 14763, criteria = 49934, covenant = NECROLORD})
+    }
+}) -- Moret the Vogue
+
+map.nodes[67803060] = ns.node.NPC({
+    id = 172813,
+    icon = 3087539,
+    covenant = NECROLORD,
+    note = L['ritualists_mantle_note'],
+    group = ns.groups.CRYPT_COUTURE,
+    rewards = {
+        Spell({item = 183399, spell = 341424}), -- Ritualists Mantle
+        Achievement({id = 14763, criteria = 49935, covenant = NECROLORD})
+    }
+}) -- Ton'hamil
+
+-------------------------------------------------------------------------------
+------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
+-------------------------------------------------------------------------------
+
+map.nodes[49006010] = ns.node.NPC({
+    id = 167353,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50260})}
+}) -- Chittering Claw
+
+map.nodes[48506050] = ns.node.NPC({
+    id = 167354,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50261})}
+}) -- Writhing Rachis
+
+map.nodes[57806650] = ns.node.NPC({
+    id = 174650,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50262})}
+}) -- Bubbling Refuse

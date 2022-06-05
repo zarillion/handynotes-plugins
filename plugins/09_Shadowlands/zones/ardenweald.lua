@@ -704,3 +704,131 @@ map.nodes[24755197] = NAUGHTY
 map.nodes[33605740] = NAUGHTY
 map.nodes[39806560] = NAUGHTY
 map.nodes[51005480] = NAUGHTY
+
+-------------------------------------------------------------------------------
+-------------------------------- WILD HUNTING ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[37695691] = ns.node.NPC({
+    id = 161889,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 1})},
+    pois = {POI({39005420, 37805620})}
+}) -- Nightsong Wader
+
+map.nodes[64532423] = ns.node.NPC({
+    id = 170734,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 2})},
+    pois = {POI({62402560, 58003260, 58403100})}
+}) -- Decayfly
+
+map.nodes[61515031] = ns.node.NPC({
+    id = 163093,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 3})},
+    pois = {POI({61405540, 56205260, 57005440})}
+}) -- Basin Vulpin
+
+map.nodes[60513860] = ns.node.NPC({
+    id = 166073,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 4})},
+    pois = {POI({58604620, 55804540, 56804280})}
+}) -- Greater Ardenmoth
+
+map.nodes[42685872] = ns.node.NPC({
+    id = 161917,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 5})},
+    pois = {POI({39005540, 38205700, 38405340})}
+}) -- Verdant Prowler
+
+map.nodes[47644329] = ns.node.NPC({
+    id = 167503,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 6})},
+    pois = {POI({50004160, 45404860, 45804640})}
+}) -- Veilwing Guardian
+
+map.nodes[58075778] = ns.node.NPC({
+    id = 170856,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 7})},
+    pois = {POI({58005660, 55606520, 56206080})}
+}) -- Highland Runestag
+
+map.nodes[39693429] = ns.node.NPC({
+    id = 169750,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 8})},
+    pois = {POI({39603420, 35203340, 35403520})}
+}) -- Wild Gloomrunner
+
+map.nodes[35463705] = ns.node.NPC({
+    id = 169819,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 9})},
+    pois = {POI({32403020, 32603180, 33203640})}
+}) -- Voracious Lasher
+
+map.nodes[36033849] = ns.node.NPC({
+    id = 169768,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 10})},
+    pois = {POI({36003860, 35803500, 37004000})}
+}) -- Mystic Gulper
+
+map.nodes[66075119] = ns.node.NPC({
+    id = 165912,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 11})},
+    pois = {POI({65205640, 65005280, 65205860})}
+}) -- Roving Gladechewer
+
+map.nodes[65205280] = ns.node.NPC({
+    id = 158946,
+    group = ns.groups.WILD_HUNTING,
+    icon = 1604164,
+    rewards = {Achievement({id = 14779, criteria = 12})},
+    pois = {POI({67403240, 65855157, 65405080})}
+}) -- Wild Gormling
+
+-------------------------------------------------------------------------------
+------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
+-------------------------------------------------------------------------------
+
+map.nodes[51906120] = ns.node.NPC({
+    id = 169979,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50254})}
+}) -- Starmoth
+
+map.nodes[40802810] = ns.node.NPC({
+    id = 166973,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50255})}
+}) -- Timber Kit
+
+map.nodes[35205750] = ns.node.NPC({
+    id = 174837,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50256})}
+}) -- Runewood Hoarder

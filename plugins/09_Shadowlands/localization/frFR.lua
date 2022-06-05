@@ -11,6 +11,14 @@ L['covenant_required'] = 'Nécessite un membre de la congrégation %s.'
 L['anima_channeled'] = 'anima canalisé vers %s.'
 
 -------------------------------------------------------------------------------
+--------------------------------- SHADOWLANDS ---------------------------------
+-------------------------------------------------------------------------------
+
+L['squirrels_note'] = nil
+L['options_icons_squirrels'] = '{achievement:14731}'
+L['options_icons_squirrels_desc'] = nil
+
+-------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -93,6 +101,9 @@ L['glitterdust_note'] = 'Les créatures de Sylvarden peuvent paraître dociles, 
 L['lost_book_note'] = 'Rendez ce livre perdu à {npc:165867} dans le Bosquet du Souvenir.'
 L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = 'Afficher les emplacements des livres perdus pour la réalisation de {achievement:14788}.'
+
+L['options_icons_wild_hunting'] = '{achievement:14779}'
+L['options_icons_wild_hunting_desc'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -406,6 +417,16 @@ L['options_icons_slime_cat_desc'] = 'Afficher les emplacements des chatons pour 
 L['dundley_note'] = 'Je me battrai pour la victoire et gagnerai le respect que je mérite enfin. Le seul inconvénient est que tout ce que je possède est maintenant collant. Tout.'
 L['maximillian_note'] = 'J\'ai attendu des dizaines d\'années pour trouver un adversaire digne de ce nom. Au vainqueur, le butin !'
 L['rotgut_note'] = 'Tord-Tripes. Les restes. Pièces supplémentaires. Battez-vous.'
+
+L['discarded_grimoire_note'] = nil
+L['sorcerers_blade_label'] = nil
+L['sorcerers_blade_note'] = nil
+L['mucosal_pigment_label'] = '{item:183691}'
+L['mucosal_pigment_note'] = nil
+L['amethystine_dye_note'] = nil
+L['ritualists_mantle_note'] = nil
+L['options_icons_crypt_couture'] = '{achievement:14763}'
+L['options_icons_crypt_couture_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------

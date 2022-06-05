@@ -10,6 +10,14 @@ L['covenant_required'] = 'Requires a member of the %s covenant.'
 L['anima_channeled'] = 'anima channeled to %s.'
 
 -------------------------------------------------------------------------------
+--------------------------------- SHADOWLANDS ---------------------------------
+-------------------------------------------------------------------------------
+
+L['squirrels_note'] = 'You must use the emote /love on critters not battle pets'
+L['options_icons_squirrels'] = '{achievement:14731}'
+L['options_icons_squirrels_desc'] = 'Critter locations for {achievement:14731}'
+
+-------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -92,6 +100,9 @@ L['glitterdust_note'] = 'The creatures of Ardenweald may look docile, but they w
 L['lost_book_note'] = 'Return this lost book to {npc:165867} in the Grove of Memory.'
 L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = 'Display lost book locations for the {achievement:14788} achievement.'
+
+L['options_icons_wild_hunting'] = '{achievement:14779}'
+L['options_icons_wild_hunting_desc'] = 'Ardenweald beast locations for {achievement:14779}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -407,6 +418,16 @@ L['options_icons_slime_cat_desc'] = 'Display locations of kittens for the {achie
 L['dundley_note'] = 'I\'ll battle my way to victory and gain the respect I finally deserve. The only downside is everything I own is now sticky. Everything.'
 L['maximillian_note'] = 'I have waited dozens of years for a worthy opponent. To the victor go the spoils!'
 L['rotgut_note'] = 'Rotgut. Leftovers. Extra pieces. You fight.'
+
+L['discarded_grimoire_note'] = 'Complete the quest {quest:62297}'
+L['sorcerers_blade_label'] = 'Sorcerer\'s Note'
+L['sorcerers_blade_note'] = 'Complete the quest {quest:62317}\n\nInside the Vault of Souls. Down the stairs and to the right on the bookcase.'
+L['mucosal_pigment_label'] = '{item:183691}'
+L['mucosal_pigment_note'] = 'Drops from any slime, droplet, ooze, rare, or giant near the House of Plagues'
+L['amethystine_dye_note'] = 'Complete the quest {quest:62320}'
+L['ritualists_mantle_note'] = 'Complete the quest {quest:62308}'
+L['options_icons_crypt_couture'] = '{achievement:14763}'
+L['options_icons_crypt_couture_desc'] = 'Necrotic Acolyte disguise customization locations for {achievement:14763}'
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------

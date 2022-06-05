@@ -10,6 +10,14 @@ L['covenant_required'] = '%s 성약의 단 소속이어야 합니다.'
 L['anima_channeled'] = '%s 지역으로 령을 보내야 합니다.'
 
 -------------------------------------------------------------------------------
+--------------------------------- SHADOWLANDS ---------------------------------
+-------------------------------------------------------------------------------
+
+L['squirrels_note'] = nil
+L['options_icons_squirrels'] = '{achievement:14731}'
+L['options_icons_squirrels_desc'] = nil
+
+-------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -58,6 +66,9 @@ L['glitterdust_note'] = nil
 L['lost_book_note'] = nil
 L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = nil
+
+L['options_icons_wild_hunting'] = '{achievement:14779}'
+L['options_icons_wild_hunting_desc'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -321,6 +332,16 @@ L['options_icons_slime_cat_desc'] = nil
 L['dundley_note'] = nil
 L['maximillian_note'] = nil
 L['rotgut_note'] = nil
+
+L['discarded_grimoire_note'] = nil
+L['sorcerers_blade_label'] = nil
+L['sorcerers_blade_note'] = nil
+L['mucosal_pigment_label'] = '{item:183691}'
+L['mucosal_pigment_note'] = nil
+L['amethystine_dye_note'] = nil
+L['ritualists_mantle_note'] = nil
+L['options_icons_crypt_couture'] = '{achievement:14763}'
+L['options_icons_crypt_couture_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
