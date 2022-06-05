@@ -211,6 +211,8 @@ ns.groups.CODE_CREATURE = Group('code_creature', 348545,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.CONCORDANCES = Group('concordances', 4238797,
     {defaults = ns.GROUP_HIDDEN})
+ns.groups.CRYPT_COUTURE = Group('crypt_couture', 237274,
+    {defaults = ns.GROUP_HIDDEN})
 ns.groups.DREDBATS = Group('dredbats', 'flight_point_g',
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.ECHOED_JIROS = Group('echoed_jiros', 'peg_gn',
@@ -255,6 +257,7 @@ ns.groups.RIFTSTONE = Group('riftstone', 'portal_bl')
 ns.groups.SINRUNNER = Group('sinrunners', 'horseshoe_o',
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.SLIME_CAT = Group('slime_cat', 3732497, {defaults = ns.GROUP_HIDDEN})
+ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
 ns.groups.STYGIA_NEXUS = Group('stygia_nexus', 'peg_gn',
     {defaults = ns.GROUP_HIDDEN75})
 ns.groups.STYGIAN_CACHES = Group('stygian_caches', 'chest_nv',
@@ -264,6 +267,8 @@ ns.groups.ZERETH_CACHE = Group('zereth_caches', 3950362,
     {defaults = ns.GROUP_HIDDEN75})
 ns.groups.SHROUDED_CYPHER = Group('shrouded_cyphers', 'chest_pp',
     {defaults = ns.GROUP_HIDDEN75})
+ns.groups.WILD_HUNTING = Group('wild_hunting', 1604164,
+    {defaults = ns.GROUP_HIDDEN})
 ns.groups.ZOVAAL_VAULT = Group('zovault', 'star_chest_g',
     {defaults = ns.GROUP_ALPHA75})
 

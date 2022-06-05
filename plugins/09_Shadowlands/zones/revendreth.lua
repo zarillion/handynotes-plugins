@@ -1175,3 +1175,31 @@ function Blanchy.getters:note()
 end
 
 map.nodes[62874341] = Blanchy()
+
+-------------------------------------------------------------------------------
+------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
+-------------------------------------------------------------------------------
+
+map.nodes[70907650] = ns.node.NPC({
+    id = 174844,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50264})}
+}) -- Shardling
+
+map.nodes[39004930] = ns.node.NPC({
+    id = 165767,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50265})}
+}) -- Emaciated Bat
+
+map.nodes[56005800] = ns.node.NPC({
+    id = 174646,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50266})}
+}) -- Murky Creeper

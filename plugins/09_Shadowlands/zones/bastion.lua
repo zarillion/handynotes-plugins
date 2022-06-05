@@ -901,3 +901,31 @@ map.nodes[42202370] = WISDOM
 map.nodes[42502560] = WISDOM
 map.nodes[42902730] = WISDOM
 map.nodes[43182813] = WISDOM
+
+-------------------------------------------------------------------------------
+------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
+-------------------------------------------------------------------------------
+
+map.nodes[54901350] = ns.node.NPC({
+    id = 170242,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50248})}
+}) -- Dreadfur Kit
+
+map.nodes[37702750] = ns.node.NPC({
+    id = 170006,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50249})}
+}) -- Darkened Wyrmling
+
+map.nodes[48007780] = ns.node.NPC({
+    id = 168397,
+    icon = 237182,
+    group = ns.groups.SQUIRRELS,
+    note = L['squirrels_note'],
+    rewards = {Achievement({id = 14731, criteria = 50250})}
+}) -- Soulwing Flitter
