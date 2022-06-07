@@ -102,7 +102,7 @@ L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = '顯示 {achievement:14788} 成就中遺失的書的位置'
 
 L['options_icons_wild_hunting'] = '{achievement:14779}'
-L['options_icons_wild_hunting_desc'] = nil
+L['options_icons_wild_hunting_desc'] = '顯示 {achievement:14779} 成就所需的野獸位置'
 
 L['options_icons_wildseed_spirits'] = nil
 L['options_icons_wildseed_spirits_desc'] = nil
@@ -117,10 +117,10 @@ L['dutiful_spirit_label'] = '{item:178881}'
 L['prideful_spirit_label'] = '{item:178882}'
 L['untamed_spirit_label'] = '{item:177698}'
 
-L['0x_wildseed_root_grain'] = '0x {item:176832}'
-L['1x_wildseed_root_grain'] = '1x {item:176832}'
-L['2x_wildseed_root_grain'] = '2x or 3x {item:176832}'
-L['4x_wildseed_root_grain'] = '4x {item:176832}'
+L['0x_wildseed_root_grain'] = '0個 {item:176832}'
+L['1x_wildseed_root_grain'] = '1個 {item:176832}'
+L['2x_wildseed_root_grain'] = '2個或3個 {item:176832}'
+L['4x_wildseed_root_grain'] = '4個 {item:176832}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
