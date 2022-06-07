@@ -14,9 +14,9 @@ L['anima_channeled'] = 'ánima canalizada a %s.'
 --------------------------------- SHADOWLANDS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['squirrels_note'] = nil
+L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean mascotas de combate'
 L['options_icons_squirrels'] = '{achievement:14731}'
-L['options_icons_squirrels_desc'] = nil
+L['options_icons_squirrels_desc'] = 'Sitios donde aparecen las alimañas para el logro {achievement:14731}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -103,15 +103,15 @@ L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = 'Muestra dónde están los libros perdidos para el logro {achievement:14788}.'
 
 L['options_icons_wild_hunting'] = '{achievement:14779}'
-L['options_icons_wild_hunting_desc'] = nil
+L['options_icons_wild_hunting_desc'] = 'Sitios de Ardenweald para las bestias del logro {achievement:14779}.'
 
-L['options_icons_wildseed_spirits'] = nil
-L['options_icons_wildseed_spirits_desc'] = nil
+L['options_icons_wildseed_spirits'] = 'Espíritus de Semillas Silvestres'
+L['options_icons_wildseed_spirits_desc'] = 'Recompensas de los espíritus de semillas silvestres.'
 
-L['divine_martial_spirit'] = nil
-L['divine_dutiful_spirit'] = nil
-L['divine_prideful_spirit'] = nil
-L['divine_untamed_spirit'] = nil
+L['divine_martial_spirit'] = 'Espíritu Marcial Divino'
+L['divine_dutiful_spirit'] = 'Espíritu Obediente Divino'
+L['divine_prideful_spirit'] = 'Espíritu Orgulloso Divino'
+L['divine_untamed_spirit'] = 'Espíritu Indómito Divino'
 
 L['martial_spirit_label'] = '{item:178874}'
 L['dutiful_spirit_label'] = '{item:178881}'
@@ -120,7 +120,7 @@ L['untamed_spirit_label'] = '{item:177698}'
 
 L['0x_wildseed_root_grain'] = '0x {item:176832}'
 L['1x_wildseed_root_grain'] = '1x {item:176832}'
-L['2x_wildseed_root_grain'] = '2x or 3x {item:176832}'
+L['2x_wildseed_root_grain'] = '2x o 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
 -------------------------------------------------------------------------------
@@ -438,15 +438,15 @@ L['dundley_note'] = '¡Lucharé hasta alcanzar la victoria y por fin recibiré e
 L['maximillian_note'] = 'Llevo mucho tiempo esperando a un rival digno. ¡El botín será para el vencedor!'
 L['rotgut_note'] = 'Pudretripa. Sobras. Más partes. Lucha.'
 
-L['discarded_grimoire_note'] = nil
-L['sorcerers_blade_label'] = nil
-L['sorcerers_blade_note'] = nil
+L['discarded_grimoire_note'] = 'Completa la misión {quest:62297}.'
+L['sorcerers_blade_label'] = 'Nota de Hechicero'
+L['sorcerers_blade_note'] = 'Completa la misión {quest:62317}.\n\nDentro de la Cámara de Almas, baja las escaleras y a la derecha de la estantería.'
 L['mucosal_pigment_label'] = '{item:183691}'
-L['mucosal_pigment_note'] = nil
-L['amethystine_dye_note'] = nil
-L['ritualists_mantle_note'] = nil
+L['mucosal_pigment_note'] = 'Cae de cualquier baba, gota, moco, raro, o gigante junto a la Casa de las Plagas.'
+L['amethystine_dye_note'] = 'Completa la misión {quest:62320}.'
+L['ritualists_mantle_note'] = 'Completa la misión {quest:62308}.'
 L['options_icons_crypt_couture'] = '{achievement:14763}'
-L['options_icons_crypt_couture_desc'] = nil
+L['options_icons_crypt_couture_desc'] = 'Sitios donde encontrar las personalizaciones del disfraz de Acólito Necrótico para el logro {achievement:14763}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -718,25 +718,25 @@ L['options_icons_mawsworn_blackguard_desc'] = 'Muestra dónde están los Guardan
 L['mawsworn_blackguard'] = 'Guardanegro Jurafauces'
 L['mawsworn_blackguard_note'] = 'Forma fácil de seleccionar a un {npc:183173} en sigilo.'
 
-L['options_icons_covenant_assaults'] = 'Covenant Assaults'
-L['options_icons_covenant_assaults_desc'] = 'Rewards for covenant assaults'
+L['options_icons_covenant_assaults'] = 'Asaltos de las Curias'
+L['options_icons_covenant_assaults_desc'] = 'Recompensas para los asaltos de las curias.'
 
-L['assault_sublabel_US'] = nil
-L['assault_sublabel_EU'] = nil
+L['assault_sublabel_US'] = 'Los asaltos cambian los Martes a las 8 AM PDT y los Viernes a las 8 PM PDT'
+L['assault_sublabel_EU'] = 'Los asaltos cambian los Miércoles a las 8 AM CET y los Sábados a las 8 PM CET'
 
 L['necrolord_assault'] = '{quest:63543}'
-L['necrolord_assault_note'] = nil
-L['necrolord_assault_quantity_note'] = nil
+L['necrolord_assault_note'] = 'El {item:185992} sólo se puede conseguir una vez por asalto.'
+L['necrolord_assault_quantity_note'] = 'Alijos Jurafauces abiertos.'
 L['venthyr_assault'] = '{quest:63822}'
-L['venthyr_assault_note'] = nil
-L['venthyr_assault_quantity_note'] = nil
+L['venthyr_assault_note'] = 'El {item:185990} sólo se puede conseguir una vez por asalto.'
+L['venthyr_assault_quantity_note'] = 'Objetos usados.'
 L['night_fae_assault'] = '{quest:63823}'
-L['night_fae_assault_note'] = nil
-L['night_fae_assault_quantity_note'] = nil
+L['night_fae_assault_note'] = 'El {item:185991} sólo se puede conseguir una vez por asalto.'
+L['night_fae_assault_quantity_note'] = 'Alijos Ocultos de Falla abiertos.'
 L['kyrian_assault'] = '{quest:63824}'
-L['kyrian_assault_note'] = nil
-L['kyrian_assault_quantity_note1'] = nil
-L['kyrian_assault_quantity_note2'] = nil
+L['kyrian_assault_note'] = 'El {item:185993} sólo se puede conseguir una vez por asalto.'
+L['kyrian_assault_quantity_note1'] = 'Astuto encontrado.'
+L['kyrian_assault_quantity_note2'] = 'Baila cerca de forjas.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
@@ -949,8 +949,8 @@ L['coreless_automa_warning'] = '|cFFFF8C00Espera a que el automa te siga de verd
 
 L['olea_manu'] = 'Vende transfiguraciones y recetas a cambio de {currency:1979}.'
 
-L['venaris_fate_sublabel'] = nil
-L['venaris_fate_note'] = nil
+L['venaris_fate_sublabel'] = 'Está en el |cFFFFFF00Catalizador de Creación|r.'
+L['venaris_fate_note'] = 'Interactúa con el cuerpo de {npc:185083}. Tras 5 días recibirás una carta en el buzón de {npc:185083} junto con el juguete {item:192485}.'
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas para el logro {achievement:15211}.'
