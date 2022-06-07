@@ -1582,6 +1582,271 @@ map.nodes[85375524] = Class('Tormentor', ns.node.Node, {
 })()
 
 -------------------------------------------------------------------------------
+------------------------------ COVENANT ASSAULTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34006300] = Class('Assault', ns.node.Node, {
+    label = L['necrolord_assault'],
+    icon = 3257749,
+    scale = 1.5,
+    group = ns.groups.COVENANT_ASSAULTS,
+    note = L['necrolord_assault_note'],
+    rewards = {
+        Achievement({id = 15000, criteria = 51720}), -- United Front
+        ns.reward.Spacer(), Achievement({
+            id = 15032,
+            criteria = {
+                52000, -- Dead On Their Feet
+                52001, -- Here's an Axe, Get to Work!
+                52002, -- You and What Army
+                52003, -- An Embarrassment of Corpses
+                52004, -- Putting a Plan Together
+                52005, -- Centurions March!
+                52006, -- Pulling His Chain
+                52007, -- Splash Damage
+                52008, -- Get to the Point
+                52009 -- Somebody Feed Kevin
+            }
+        }), -- Breaking Their Hold
+        ns.reward.Spacer(), Achievement({
+            id = 15037,
+            criteria = {
+                52044, -- Cutter Fin
+                52045, -- Kearnen the Blade
+                52046, -- Winslow Swan
+                52047, -- Boil Master Yetch
+                52048 -- Flytrap
+            }
+        }), -- This Army
+        ns.reward.Spacer(), Achievement({
+            id = 15039,
+            criteria = ({
+                id = 1,
+                qty = true,
+                suffix = L['necrolord_assault_quantity_note']
+            })
+        }), -- Up For Grabs
+        Section('{item:185992}'), Mount({item = 186103, id = 1477}), -- Undying Darkhound
+        Pet({item = 186557, id = 3114}) -- Fodder
+    },
+    getters = {
+        sublabel = function(self)
+            local sublabel
+            local region = GetCVar('portal')
+            if region == 'US' then
+                sublabel = L['assault_sublabel_US']
+            elseif region == 'EU' then
+                sublabel = L['assault_sublabel_EU']
+            else
+                sublabel = ''
+            end
+            return sublabel
+        end,
+        rlabel = function(self)
+            local completed = C_QuestLog.IsQuestFlaggedCompleted(63543)
+            local color = completed and ns.status.Green or ns.status.Gray
+            return color(L['weekly'])
+        end
+    }
+})() -- Necrolord Assault
+
+map.nodes[31002000] = Class('Assault', ns.node.Node, {
+    label = L['venthyr_assault'],
+    icon = 3257751,
+    scale = 1.5,
+    group = ns.groups.COVENANT_ASSAULTS,
+    note = L['venthyr_assault_note'],
+    rewards = {
+        Achievement({id = 15000, criteria = 51721}), -- United Front
+        ns.reward.Spacer(), Achievement({
+            id = 15033,
+            criteria = {
+                52017, -- Terrorizing the Tremaculum
+                52018, -- Weapons of the Tremaculum
+                52019, -- That's a Good Trick
+                52020, -- Fangcrack's Fan Club
+                52021, -- A Tea for Every Occasion
+                52022, -- Duelist's Challenge
+                52023, -- If Even One is Worthy
+                52024, -- They Grow Up So Quickly
+                52025, -- The Skyhunt
+                52026 -- Wrath of the Party Hearld
+            }
+        }), -- Taking the Tremaculum
+        ns.reward.Spacer(), Achievement({
+            id = 15042,
+            criteria = {
+                52065, -- Simone
+                52066, -- Laurent
+                52067, -- Archivist Fane
+                52068, -- The Countess
+                52069, -- Kael'thas Sunstrider
+                52070, -- Lost Sybille
+                52071, -- Vulca
+                52072 -- Iven
+            }
+        }), -- Tea for the Troubled
+        ns.reward.Spacer(), Achievement({
+            id = 15043,
+            criteria = ({
+                id = 1,
+                qty = true,
+                suffix = L['venthyr_assault_quantity_note']
+            })
+        }), -- Hoarder of Torghast
+        Section('{item:185990}'), Mount({item = 185996, id = 1378}) -- Harvester's Dreadwing
+    },
+    getters = {
+        sublabel = function(self)
+            local sublabel
+            local region = GetCVar('portal')
+            if region == 'US' then
+                sublabel = L['assault_sublabel_US']
+            elseif region == 'EU' then
+                sublabel = L['assault_sublabel_EU']
+            else
+                sublabel = ''
+            end
+            return sublabel
+        end,
+        rlabel = function(self)
+            local completed = C_QuestLog.IsQuestFlaggedCompleted(63822)
+            local color = completed and ns.status.Green or ns.status.Gray
+            return color(L['weekly'])
+        end
+    }
+})() -- Venthyr Assault
+
+map.nodes[19005300] = Class('Assault', ns.node.Node, {
+    label = L['night_fae_assault'],
+    icon = 3257750,
+    scale = 1.5,
+    group = ns.groups.COVENANT_ASSAULTS,
+    note = L['night_fae_assault_note'],
+    rewards = {
+        Achievement({id = 15000, criteria = 51722}), -- United Front
+        ns.reward.Spacer(), Achievement({
+            id = 15001,
+            criteria = ({
+                id = 1,
+                qty = true,
+                suffix = L['night_fae_assault_quantity_note']
+            })
+        }), -- Jailer's Personal Stash
+        ns.reward.Spacer(), Achievement({
+            id = 15036,
+            criteria = {
+                52031, -- Clean Out the Crucible
+                52032, -- Looming Darkness
+                52033, -- No Soul Left Behind
+                52034, -- Snail Stomping
+                52035, -- Just Don't Ask Me to Spell It
+                52036, -- Double Dromans
+                52037, -- That's Going to Sting
+                52038, -- The Soul Blade
+                52039, -- A Shady Place
+                52040 -- Heavy Handed Tactics
+            }
+        }), -- Rooting Out the Evil
+        ns.reward.Spacer(), Achievement({
+            id = 15044,
+            criteria = {
+                52078, -- Elder Gwenna
+                52079, -- Foreman Thorodir
+                52080, -- Te'zan
+                52081, -- Warden Casad
+                52082, -- Kivarr
+                82083 -- Guardian Kota
+            }
+        }), -- Krrprripripkraak's Heroes
+        Section('{item:185991}'), Mount({item = 186000, id = 1476}), -- Wild Hunt Legsplitter
+        Pet({item = 186547, id = 3116}) -- Invasive Buzzer
+    },
+    getters = {
+        sublabel = function(self)
+            local sublabel
+            local region = GetCVar('portal')
+            if region == 'US' then
+                sublabel = L['assault_sublabel_US']
+            elseif region == 'EU' then
+                sublabel = L['assault_sublabel_EU']
+            else
+                sublabel = ''
+            end
+            return sublabel
+        end,
+        rlabel = function(self)
+            local completed = C_QuestLog.IsQuestFlaggedCompleted(63823)
+            local color = completed and ns.status.Green or ns.status.Gray
+            return color(L['weekly'])
+        end
+    }
+})() -- Night Fae Assault
+
+map.nodes[38004800] = Class('Assault', ns.node.Node, {
+    label = L['kyrian_assault'],
+    icon = 3257748,
+    scale = 1.5,
+    group = ns.groups.COVENANT_ASSAULTS,
+    note = L['kyrian_assault_note'],
+    rewards = {
+        Achievement({id = 15000, criteria = 51723}), -- United Front
+        ns.reward.Spacer(), Achievement({
+            id = 15004,
+            criteria = ({
+                id = 1,
+                qty = true,
+                suffix = L['kyrian_assault_quantity_note1']
+            })
+        }), -- A Sly Fox
+        ns.reward.Spacer(), Achievement({
+            id = 15034,
+            criteria = {
+                52010, -- Mine's Bigger
+                52011, -- Heart and Soul,
+                52012, -- No One Floats Down Here
+                52013, -- Encouraging Words
+                52014, -- Courage of the Soul
+                52015, -- Saved By The Bells
+                52016, -- United In Pride
+                52041, -- The Ember Count
+                52042, -- Kill The Flame
+                52043 -- The Dreadful Blend
+            }
+        }), -- Wings Against the Flames
+        ns.reward.Spacer(), Achievement({
+            id = 15041,
+            criteria = ({
+                id = 1,
+                qty = true,
+                suffix = L['kyrian_assault_quantity_note2']
+            })
+        }), -- The Zovaal Shuffle
+        Section('{item:185993}'), Pet({item = 186546, id = 3103}), -- Copperback Etherwyrm
+        Toy({item = 187185}) -- Vesper of Faith
+    },
+    getters = {
+        sublabel = function(self)
+            local sublabel
+            local region = GetCVar('portal')
+            if region == 'US' then
+                sublabel = L['assault_sublabel_US']
+            elseif region == 'EU' then
+                sublabel = L['assault_sublabel_EU']
+            else
+                sublabel = ''
+            end
+            return sublabel
+        end,
+        rlabel = function(self)
+            local completed = C_QuestLog.IsQuestFlaggedCompleted(63824)
+            local color = completed and ns.status.Green or ns.status.Gray
+            return color(L['weekly'])
+        end
+    }
+})() -- Kryian Assault
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 

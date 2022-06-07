@@ -15,8 +15,9 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
-local Transmog = ns.reward.Transmog
+local Section = ns.reward.Section
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -26,6 +27,7 @@ local POI = ns.poi.POI
 local NECROLORD = ns.covenants.NEC
 local NIGHTFAE = ns.covenants.FAE
 local map = Map({id = 1565, settings = true})
+local tqc = Map({id = 1662, settings = true}) -- The Queen's Conservatory
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -832,3 +834,167 @@ map.nodes[35205750] = ns.node.NPC({
     note = L['squirrels_note'],
     rewards = {Achievement({id = 14731, criteria = 50256})}
 }) -- Runewood Hoarder
+
+-------------------------------------------------------------------------------
+------------------------------- WILDSEED SPIRIT -------------------------------
+-------------------------------------------------------------------------------
+
+tqc.nodes[26504100] = ns.node.Node({
+    label = L['martial_spirit_label'],
+    icon = 3528296,
+    scale = 1.5,
+    group = ns.groups.WILDSEED_SPIRITS,
+    rewards = ({
+        Section(L['0x_wildseed_root_grain']), Item({item = 180974}), -- Novice's Satchel
+        ns.reward.Spacer(), Section(L['1x_wildseed_root_grain']),
+        Transmog({item = 181321, slot = L['wand']}), -- Gem-Crowned Wand
+        Transmog({item = 181327, slot = L['1h_mace']}), -- Spineforged Tenderizer
+        Transmog({item = 181329, slot = L['2h_sword']}), -- Marrowfused Claymore
+        Item({item = 180975}), -- Journeyman's Satchel
+        ns.reward.Spacer(), Section(L['2x_wildseed_root_grain']),
+        Transmog({item = 181323, slot = L['staff']}), -- Blightclutched Greatstaff
+        Transmog({item = 181325, slot = L['dagger']}), -- Marrowfused Dagger
+        Transmog({item = 181326, slot = L['dagger']}), -- Bloodstained Hacksaw
+        Transmog({item = 181328, slot = L['1h_sword']}), -- Marrowfused Sword
+        Transmog({item = 181330, slot = L['warglaive']}), -- Marrowfused Warglaive
+        Transmog({item = 181331, slot = L['shield']}), -- Marrowfused Shield
+        Pet({item = 181264, id = 2954}), -- Plaguelouse Larva
+        Pet({item = 181168, id = 2945}), -- Corpulent Bonetusk
+        Item({item = 180976}), -- Artisan's Satchel
+        ns.reward.Spacer(), Section(L['4x_wildseed_root_grain']),
+        Transmog({item = 181320, slot = L['crossbow']}), -- Bonejowl Ballista
+        Transmog({item = 181322, slot = L['offhand']}), -- Bonebound Tome
+        Transmog({item = 181310, slot = L['cloak']}), -- Spirit Tender's Pack
+        Mount({item = 181300, id = 1408}), -- Gruesome Flayedwing
+        Item({item = 180977}), -- Spirit-Tender's Satchel
+        Achievement({
+            id = 14676,
+            criteria = ({
+                id = 51504,
+                qty = true,
+                suffix = L['divine_martial_spirit']
+            })
+        })
+    })
+}) -- Maldraxxi (Martial Spirit)
+
+tqc.nodes[29504100] = ns.node.Node({
+    label = L['dutiful_spirit_label'],
+    icon = 3528288,
+    scale = 1.5,
+    group = ns.groups.WILDSEED_SPIRITS,
+    rewards = ({
+        Section(L['0x_wildseed_root_grain']), Item({item = 180974}), -- Novice's Satchel
+        ns.reward.Spacer(), Section(L['1x_wildseed_root_grain']),
+        Transmog({item = 181225, slot = L['crossbow']}), -- Crossbow of Contemplative Calm
+        Transmog({item = 181226, slot = L['warglaive']}), -- Bronze Dual-Bladed Glaive
+        Transmog({item = 181232, slot = L['2h_sword']}), -- Cupbearer's Claymore
+        Transmog({item = 181234, slot = L['dagger']}), -- Dutybound Spellblade
+        Item({item = 180975}), -- Journeyman's Satchel
+        ns.reward.Spacer(), Section(L['2x_wildseed_root_grain']),
+        Transmog({item = 181228, slot = L['polearm']}), -- Temple Guard's Partisan
+        Transmog({item = 181229, slot = L['offhand']}), -- Tranquil's Censer
+        Transmog({item = 181230, slot = L['fist']}), -- Pugilist's Chakram
+        Transmog({item = 181233, slot = L['1h_mace']}), -- Bellringer's Hammer
+        Pet({item = 180814, id = 2933}), -- Sable
+        Pet({item = 180815, id = 2931}), -- Brightscale Hatchling
+        Item({item = 180976}), -- Artisan's Satchel
+        ns.reward.Spacer(), Section(L['4x_wildseed_root_grain']),
+        Transmog({item = 181227, slot = L['shield']}), -- Bronze Ceremonial Targe
+        Transmog({item = 181231, slot = L['dagger']}), -- Broadbladed Severer
+        Transmog({item = 181235, slot = L['1h_mace']}), -- Final Arbiter's Gavel
+        Transmog({item = 181310, slot = L['cloak']}), -- Spirit Tender's Pack
+        Mount({item = 181317, id = 1413}), -- Dauntless Duskrunner
+        Item({item = 180977}), -- Spirit-Tender's Satchel
+        Achievement({
+            id = 14676,
+            criteria = ({
+                id = 51505,
+                qty = true,
+                suffix = L['divine_dutiful_spirit']
+            })
+        })
+    })
+}) -- Kyrian (Dutiful Spirit)
+
+tqc.nodes[26504550] = ns.node.Node({
+    label = L['prideful_spirit_label'],
+    icon = 3528312,
+    scale = 1.5,
+    group = ns.groups.WILDSEED_SPIRITS,
+    rewards = ({
+        Section(L['0x_wildseed_root_grain']), Item({item = 180974}), -- Novice's Satchel
+        ns.reward.Spacer(), Section(L['1x_wildseed_root_grain']),
+        Transmog({item = 180955, slot = L['polearm']}), -- Stonewing Halberd
+        Transmog({item = 180956, slot = L['gun']}), -- Axeblade Blunderbuss
+        Transmog({item = 180957, slot = L['warglaive']}), -- Batwing Glaive
+        Transmog({item = 180963, slot = L['offhand']}), -- Crypt Keeper's Vessel
+        Item({item = 180975}), -- Journeyman's Satchel
+        ns.reward.Spacer(), Section(L['2x_wildseed_root_grain']),
+        Transmog({item = 180954, slot = L['staff']}), -- Crypt Watcher's Spire
+        Transmog({item = 180959, slot = L['dagger']}), -- Dredger Anklebiter
+        Transmog({item = 180960, slot = L['2h_mace']}), -- Shiny-Metal Topped Basher
+        Transmog({item = 180964, slot = L['shield']}), -- Ember Court Barrier
+        Pet({item = 180603, id = 2904}), -- Violet Dredwing Pup
+        Pet({item = 181315, id = 2965}), -- Bloodfeaster Spiderling
+        Item({item = 180976}), -- Artisan's Satchel
+        ns.reward.Spacer(), Section(L['4x_wildseed_root_grain']),
+        Transmog({item = 180958, slot = L['1h_sword']}), -- Redelev House Foil
+        Transmog({item = 180961, slot = L['dagger']}), -- Silver-Bladed Ritual Dagger
+        Transmog({item = 180962, slot = L['1h_mace']}), -- Sterling-Silver Cudgel
+        Transmog({item = 181310, slot = L['cloak']}), -- Spirit Tender's Pack
+        Mount({item = 181316, id = 1376}), -- Silvertip Dredwing
+        Item({item = 180977}), -- Spirit-Tender's Satchel
+        Achievement({
+            id = 14676,
+            criteria = ({
+                id = 51506,
+                qty = true,
+                suffix = L['divine_prideful_spirit']
+            })
+        })
+    })
+}) -- Venthyr (Prideful Spirit)
+
+tqc.nodes[29504550] = ns.node.Node({
+    label = L['untamed_spirit_label'],
+    icon = 3528280,
+    scale = 1.5,
+    group = ns.groups.WILDSEED_SPIRITS,
+    rewards = ({
+        Section(L['0x_wildseed_root_grain']), Item({item = 180974}), -- Novice's Satchel
+        ns.reward.Spacer(), Section(L['1x_wildseed_root_grain']),
+        Transmog({item = 179548, slot = L['1h_mace']}), -- Elderwood Gavel
+        Transmog({item = 179563, slot = L['offhand']}), -- Heartwood Stem
+        Item({item = 181313, quest = 62420}), -- Snapper Soul
+        Item({item = 181314, quest = 62421}), -- Gulper Soul
+        Item({item = 180975}), -- Journeyman's Satchel
+        ns.reward.Spacer(), Section(L['2x_wildseed_root_grain']),
+        Transmog({item = 179499, slot = L['dagger']}), -- Nightwillow Barb
+        Transmog({item = 179514, slot = L['1h_sword']}), -- Ripvine Saber
+        Transmog({item = 179538, slot = L['2h_mace']}), -- Grove Warden's Maul
+        Transmog({item = 179585, slot = L['bow']}), -- Nightwillow Shortbow
+        Transmog({item = 179605, slot = L['shield']}), -- Elderwood Barrier
+        Transmog({item = 181306, slot = L['cloak']}), -- Spirit Tender's Bulb
+        Pet({item = 180628, id = 2923}), -- Pearlwing Heron
+        Pet({item = 180639, id = 2912}), -- Dusty Sporeflutterer
+        Mount({item = 180414, id = 1355}), -- Wakener's Runestag
+        Item({item = 180976}), -- Artisan's Satchel
+        ns.reward.Spacer(), Section(L['4x_wildseed_root_grain']),
+        Transmog({item = 179509, slot = L['warglaive']}), -- Grove Warden's Edge
+        Transmog({item = 179516, slot = L['staff']}), -- Songwood Staff
+        Transmog({item = 179533, slot = L['polearm']}), -- Grove Warden's Harvester
+        Mount({item = 180726, id = 1392}), -- Pale Acidmaw
+        Mount({item = 180723, id = 1358}), -- Enchanted Wakener's Runestag
+        Transmog({item = 181310, slot = L['cloak']}), -- Spirit Tender's Pack
+        Item({item = 180977}), -- Spirit-Tender's Satchel
+        Achievement({
+            id = 14676,
+            criteria = ({
+                id = 51507,
+                qty = true,
+                suffix = L['divine_untamed_spirit']
+            })
+        })
+    })
+}) -- Night Fae (Untamed Spirit)
