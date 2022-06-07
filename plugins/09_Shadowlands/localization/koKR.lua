@@ -825,6 +825,9 @@ L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start 
 
 L['olea_manu'] = nil
 
+L['venaris_fate_sublabel'] = nil
+L['venaris_fate_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '{achievement:15211} 업적을 위한 생명체의 위치를 표시합니다.'
 L['options_icons_concordances'] = '지식 색인'

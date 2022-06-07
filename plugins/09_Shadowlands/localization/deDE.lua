@@ -955,6 +955,9 @@ L['coreless_automa_warning'] = '|cFFFF8C00Warte bis der Automat tatsächlich anf
 
 L['olea_manu'] = 'Verkauft Sammlerstücke und Rezepte im Tausch gegen {currency:1979}.'
 
+L['venaris_fate_sublabel'] = nil
+L['venaris_fate_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Zeigt die Positionen der Kreaturen für den {achievement:15211} Erfolg an.'
 L['options_icons_concordances'] = 'Wissens Konkordanzen'
