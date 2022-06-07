@@ -104,6 +104,24 @@ L['options_icons_faerie_tales_desc'] = 'Display lost book locations for the {ach
 L['options_icons_wild_hunting'] = '{achievement:14779}'
 L['options_icons_wild_hunting_desc'] = 'Ardenweald beast locations for {achievement:14779}'
 
+L['options_icons_wildseed_spirits'] = 'Wildseed Spirits'
+L['options_icons_wildseed_spirits_desc'] = 'Rewards from wildseed spirits'
+
+L['divine_martial_spirit'] = 'Divine Martial Spirit'
+L['divine_dutiful_spirit'] = 'Divine Dutiful Spirit'
+L['divine_prideful_spirit'] = 'Divine Prideful Spirit'
+L['divine_untamed_spirit'] = 'Divine Untamed Spirit'
+
+L['martial_spirit_label'] = '{item:178874}'
+L['dutiful_spirit_label'] = '{item:178881}'
+L['prideful_spirit_label'] = '{item:178882}'
+L['untamed_spirit_label'] = '{item:177698}'
+
+L['0x_wildseed_root_grain'] = '0x {item:176832}'
+L['1x_wildseed_root_grain'] = '1x {item:176832}'
+L['2x_wildseed_root_grain'] = '2x or 3x {item:176832}'
+L['4x_wildseed_root_grain'] = '4x {item:176832}'
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -698,6 +716,26 @@ L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for
 
 L['mawsworn_blackguard'] = 'Mawsworn Blackguard'
 L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+
+L['options_icons_covenant_assaults'] = 'Covenant Assaults'
+L['options_icons_covenant_assaults_desc'] = 'Rewards for covenant assaults'
+
+L['assault_sublabel_US'] = 'Assaults change on Tuesday at 8 AM PDT and Friday at 8 PM PDT'
+L['assault_sublabel_EU'] = 'Assaults change on Wednesday at 8 AM CET and Saturday at 8 PM CET'
+
+L['necrolord_assault'] = '{quest:63543}'
+L['necrolord_assault_note'] = 'The {item:185992} can be looted once per assault'
+L['necrolord_assault_quantity_note'] = 'Mawsworn Caches opened'
+L['venthyr_assault'] = '{quest:63822}'
+L['venthyr_assault_note'] = 'The {item:185990} can be looted once per assault'
+L['venthyr_assault_quantity_note'] = 'Items used'
+L['night_fae_assault'] = '{quest:63823}'
+L['night_fae_assault_note'] = 'The {item:185991} can be looted once per assault'
+L['night_fae_assault_quantity_note'] = 'Rift Hidden Cache opened'
+L['kyrian_assault'] = '{quest:63824}'
+L['kyrian_assault_note'] = 'The {item:185993} can be looted once per assault'
+L['kyrian_assault_quantity_note1'] = 'Sly found'
+L['kyrian_assault_quantity_note2'] = 'Dances near forges'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------

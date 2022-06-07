@@ -105,6 +105,24 @@ L['options_icons_faerie_tales_desc'] = 'Показать местонахожд�
 L['options_icons_wild_hunting'] = '{achievement:14779}'
 L['options_icons_wild_hunting_desc'] = nil
 
+L['options_icons_wildseed_spirits'] = nil
+L['options_icons_wildseed_spirits_desc'] = nil
+
+L['divine_martial_spirit'] = nil
+L['divine_dutiful_spirit'] = nil
+L['divine_prideful_spirit'] = nil
+L['divine_untamed_spirit'] = nil
+
+L['martial_spirit_label'] = '{item:178874}'
+L['dutiful_spirit_label'] = '{item:178881}'
+L['prideful_spirit_label'] = '{item:178882}'
+L['untamed_spirit_label'] = '{item:177698}'
+
+L['0x_wildseed_root_grain'] = '0x {item:176832}'
+L['1x_wildseed_root_grain'] = '1x {item:176832}'
+L['2x_wildseed_root_grain'] = '2x or 3x {item:176832}'
+L['4x_wildseed_root_grain'] = '4x {item:176832}'
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -699,6 +717,26 @@ L['options_icons_mawsworn_blackguard_desc'] = 'Mawsworn Blackguard locations for
 
 L['mawsworn_blackguard'] = 'Верный Утробе черный страж'
 L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
+
+L['options_icons_covenant_assaults'] = 'Covenant Assaults'
+L['options_icons_covenant_assaults_desc'] = 'Rewards for covenant assaults'
+
+L['assault_sublabel_US'] = nil
+L['assault_sublabel_EU'] = nil
+
+L['necrolord_assault'] = '{quest:63543}'
+L['necrolord_assault_note'] = nil
+L['necrolord_assault_quantity_note'] = nil
+L['venthyr_assault'] = '{quest:63822}'
+L['venthyr_assault_note'] = nil
+L['venthyr_assault_quantity_note'] = nil
+L['night_fae_assault'] = '{quest:63823}'
+L['night_fae_assault_note'] = nil
+L['night_fae_assault_quantity_note'] = nil
+L['kyrian_assault'] = '{quest:63824}'
+L['kyrian_assault_note'] = nil
+L['kyrian_assault_quantity_note1'] = nil
+L['kyrian_assault_quantity_note2'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
