@@ -948,6 +948,9 @@ L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start 
 
 L['olea_manu'] = 'Sells collectibles and recipes in exchange for {currency:1979}.'
 
+L['venaris_fate_sublabel'] = 'Located in the |cFFFFFF00Creation Catalyst|r'
+L['venaris_fate_note'] = 'Interact with the corpse of {npc:185083}. 5 days later you will receive a letter in the mail from {npc:185083} along with the {item:192485}'
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Display creature locations for the {achievement:15211} achievement.'
 L['options_icons_concordances'] = 'Lore Concordances'

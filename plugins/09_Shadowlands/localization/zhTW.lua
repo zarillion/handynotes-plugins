@@ -944,6 +944,9 @@ L['coreless_automa_warning'] = '|cFFFF8C00請等待自主機真的跟隨你了�
 
 L['olea_manu'] = '清單中的價格須使用 {currency:1979}'
 
+L['venaris_fate_sublabel'] = nil
+L['venaris_fate_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '顯示 {achievement:15211} 成就的生物位置'
 L['options_icons_concordances'] = '知識索引'

@@ -947,6 +947,9 @@ L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start 
 
 L['olea_manu'] = nil
 
+L['venaris_fate_sublabel'] = nil
+L['venaris_fate_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Показать местонахождение существ для достижения {achievement:15211}.'
 L['options_icons_concordances'] = 'Свод конкордансов'

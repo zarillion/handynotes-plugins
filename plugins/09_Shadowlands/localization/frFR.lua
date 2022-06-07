@@ -948,6 +948,9 @@ L['coreless_automa_warning'] = '|cFFFF8C00Attendez que l\'automa commence réell
 
 L['olea_manu'] = 'Vend des objets et des recettes en échange de {currency:1979}.'
 
+L['venaris_fate_sublabel'] = nil
+L['venaris_fate_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Afficher les emplacements des créatures pour le haut-fait {achievement:15211}.'
 L['options_icons_concordances'] = 'Histoires Harmoniques'

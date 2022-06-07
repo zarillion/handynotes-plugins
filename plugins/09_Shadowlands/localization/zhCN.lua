@@ -948,6 +948,9 @@ L['coreless_automa_warning'] = '|cFFFF8C00等待自动机真正开始跟随你�
 
 L['olea_manu'] = '用 {currency:1979} 换取出售的收藏和食谱。'
 
+L['venaris_fate_sublabel'] = nil
+L['venaris_fate_note'] = nil
+
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '显示 {achievement:15211} 成就中生物的位置。'
 L['options_icons_concordances'] = '知识索引'

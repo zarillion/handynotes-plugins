@@ -2046,3 +2046,17 @@ map.nodes[63206050] = Soulshape({
         Item({item = 189990, quest = 65518, covenant = NIGHTFAE}) -- Bee Soul
     }
 }) -- Bee Soul
+
+-------------------------------------------------------------------------------
+------------------------------- VE'NARI'S FATE --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[47438855] = ns.node.Node({
+    label = '{item:192485}',
+    sublabel = L['venaris_fate_sublabel'],
+    id = 185083,
+    quest = 65488,
+    icon = 3954409,
+    note = L['venaris_fate_note'],
+    rewards = {Toy({item = 192485})} -- Stored Wisdom Device
+})
