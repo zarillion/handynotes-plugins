@@ -1756,7 +1756,7 @@ map.nodes[19005300] = Class('Assault', ns.node.Node, {
                 52080, -- Te'zan
                 52081, -- Warden Casad
                 52082, -- Kivarr
-                82083 -- Guardian Kota
+                52083 -- Guardian Kota
             }
         }), -- Krrprripripkraak's Heroes
         Section('{item:185991}'), Mount({item = 186000, id = 1476}), -- Wild Hunt Legsplitter
