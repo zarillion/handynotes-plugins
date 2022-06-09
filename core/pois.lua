@@ -303,4 +303,12 @@ end
 
 -------------------------------------------------------------------------------
 
-ns.poi = {POI = POI, Glow = Glow, Path = Path, Circle = Circle, Square = Square, Line = Line, Arrow = Arrow}
+ns.poi = {
+    POI = POI,
+    Glow = Glow,
+    Path = Path,
+    Circle = Circle,
+    Square = Square,
+    Line = Line,
+    Arrow = Arrow
+}
