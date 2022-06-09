@@ -759,9 +759,7 @@ map.nodes[52743615] = ns.node.Node({
         Spell({item = 183691, spell = 341909}), -- Mucosal Pigment
         Achievement({id = 14763, criteria = 49933, covenant = NECROLORD})
     },
-    pois = {
-        Path({Circle({origin = 52743615, radius = 5})})
-    }
+    pois = {Path({Circle({origin = 52743615, radius = 5})})}
 }) -- Mucosal Pigment
 
 map.nodes[71603280] = ns.node.NPC({
