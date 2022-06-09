@@ -19,6 +19,8 @@ local Spell = ns.reward.Spell
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Circle = ns.poi.Circle
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -756,6 +758,9 @@ map.nodes[52743615] = ns.node.Node({
     rewards = {
         Spell({item = 183691, spell = 341909}), -- Mucosal Pigment
         Achievement({id = 14763, criteria = 49933, covenant = NECROLORD})
+    },
+    pois = {
+        Path({Circle({origin = 52743615, radius = 5})})
     }
 }) -- Mucosal Pigment
 
