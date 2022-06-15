@@ -742,51 +742,51 @@ L['kyrian_assault_quantity_note2'] = 'Baila cerca de forjas.'
 ---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
 -------------------------------------------------------------------------------
 
-L['torghast_the_tower_of_the_damned'] = nil
+L['torghast_the_tower_of_the_damned'] = 'Torghast, la Torre de los Condenados'
 
-L['skoldus_hall'] = nil
-L['fracture_chambers'] = nil
-L['the_soulforges'] = nil
-L['coldheart_interstitia'] = nil
-L['mortregar'] = nil
-L['the_upper_reaches'] = nil
-L['adamant_vaults'] = nil
-L['twisting_corridors'] = nil
-L['the_jailers_gauntlet'] = nil
+L['skoldus_hall'] = 'Sala de Skoldus'
+L['fracture_chambers'] = 'Cámaras de Fracturas'
+L['the_soulforges'] = 'Forjas de Almas'
+L['coldheart_interstitia'] = 'Cruce Corazongélido'
+L['mortregar'] = 'Mort\'regar'
+L['the_upper_reaches'] = 'La Parte Alta'
+L['adamant_vaults'] = 'Cámaras de Adamantita'
+L['twisting_corridors'] = 'Pasillos Sinuosos'
+L['the_jailers_gauntlet'] = 'El Desafío del Carcelero'
 
-L['torghast_reward_sublabel'] = nil
-L['torghast_vendor_note'] = nil
+L['torghast_reward_sublabel'] = '|cFFFF8C00Recompensas compartidas entre muchas alas|r'
+L['torghast_vendor_note'] = 'Los vendedores de las Capas 3 y 5 tienen recompensas por 300 {currency:1728}\nLos vendedores de la Capa 7 tienen recompensas por 1.000 {currency:1728}'
 
-L['torghast_layer1'] = nil
-L['torghast_layer2'] = nil
-L['torghast_layer3'] = nil
-L['torghast_layer4'] = nil
-L['torghast_layer6'] = nil
-L['torghast_layer8'] = nil
+L['torghast_layer1'] = 'Completa la Capa 1'
+L['torghast_layer2'] = 'Completa la Capa 2'
+L['torghast_layer3'] = 'Completa la Capa 3'
+L['torghast_layer4'] = 'Completa la Capa 4'
+L['torghast_layer6'] = 'Completa la Capa 6'
+L['torghast_layer8'] = 'Completa la Capa 8'
 
-L['layer_3_vendor'] = nil
-L['layer_7_vendor'] = nil
-L['random_boss_drop_layer_7'] = nil
-L['random_boss_drop_layer_9'] = nil
-L['random_drop_from_layer_9_up'] = nil
-L['random_drop_from_layer_13_up'] = nil
+L['layer_3_vendor'] = 'Vendedores de las Capas 3 y 5'
+L['layer_7_vendor'] = 'Vendedor de la Capa 7'
+L['random_boss_drop_layer_7'] = 'Botín aleatorio del boss de la Capa 7'
+L['random_boss_drop_layer_9'] = 'Botín aleatorio del boss de la Capa 9+'
+L['random_drop_from_layer_9_up'] = 'Botín aleatorio de las Capas 9+'
+L['random_drop_from_layer_13_up'] = 'Botín aleatorio de las Capas 13+'
 
-L['bloating_fodder_note'] = nil
-L['colassal_soulshredder_mawrat_note'] = nil
-L['phantasma_note'] = nil
-L['tower_ranger_note'] = nil
+L['bloating_fodder_note'] = 'Ráfaga de Forraje Hinchador'
+L['colassal_soulshredder_mawrat_note'] = 'Completa la |cffffff00[{achievement:15322}]|r'
+L['phantasma_note'] = 'Fantasmagoría'
+L['tower_ranger_note'] = 'Completa |cffffff00[{achievement:15324}]|r'
 
-L['the_jailers_gauntlet_note'] = nil
+L['the_jailers_gauntlet_note'] = '|cFFFF8C00Los Bosses matados aquí no cuentan para|r |cffffff00{achievement:14498}|r'
 
-L['available_in_the_jailers_gauntlet'] = nil
-L['available_in_adamant_vaults'] = nil
+L['available_in_the_jailers_gauntlet'] = 'También disponible en |cffffff00El Desafío del Carcelero|r'
+L['available_in_adamant_vaults'] = 'También disponible en las |cffffff00Cámaras de Adamantita|r'
 
-L['the_box_of_many_things'] = nil
-L['the_box_of_many_things_note'] = nil
-L['mordal_eveningstar_note'] = nil
+L['the_box_of_many_things'] = 'La Caja de Muchas Cosas'
+L['the_box_of_many_things_note'] = 'Desbloquea poderes adicionales con {currency:1904}'
+L['mordal_eveningstar_note'] = 'Completa |cffffff00[{achievement:15079}]|r'
 
 L['the_runecarver'] = '{npc:164937}'
-L['runecarver_memories_note'] = nil
+L['runecarver_memories_note'] = 'Recuerdos desbloqueados'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
