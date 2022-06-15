@@ -62,6 +62,7 @@ L['hard'] = '困難'
 L['mount'] = '坐騎'
 L['pet'] = '戰寵'
 L['spell'] = '法術'
+L['title'] = nil
 L['toy'] = '玩具'
 L['rep'] = '聲望'
 L['completed'] = '已完成'

@@ -62,6 +62,7 @@ L['hard'] = 'Schwer'
 L['mount'] = 'Reittier'
 L['pet'] = 'Haustier'
 L['spell'] = 'Fähigkeit'
+L['title'] = nil
 L['toy'] = 'Spielzeug'
 L['rep'] = 'Ruf'
 L['completed'] = 'Abgeschlossen'

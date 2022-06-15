@@ -738,6 +738,56 @@ L['kyrian_assault_quantity_note1'] = 'Sly found'
 L['kyrian_assault_quantity_note2'] = 'Dances near forges'
 
 -------------------------------------------------------------------------------
+---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
+-------------------------------------------------------------------------------
+
+L['torghast_the_tower_of_the_damned'] = 'Torghast, the Tower of the Damned'
+
+L['skoldus_hall'] = 'Skoldus Hall'
+L['fracture_chambers'] = 'Fracture Chambers'
+L['the_soulforges'] = 'Soulforges'
+L['coldheart_interstitia'] = 'Coldheart Interstitia'
+L['mortregar'] = 'Mort\'regar'
+L['the_upper_reaches'] = 'The Upper Reaches'
+L['adamant_vaults'] = 'Adamant Vaults'
+L['twisting_corridors'] = 'Twisting Corridors'
+L['the_jailers_gauntlet'] = 'The Jailer\'s Gauntlet'
+
+L['torghast_reward_sublabel'] = '|cFFFF8C00Rewards shared between most wings|r'
+L['torghast_vendor_note'] = 'Layer 3 and 5 vendors sell rewards for 300 {currency:1728}\nLayer 7 vendors sell rewards for 1,000 {currency:1728}'
+
+L['torghast_layer1'] = 'Complete Layer 1'
+L['torghast_layer2'] = 'Complete Layer 2'
+L['torghast_layer3'] = 'Complete Layer 3'
+L['torghast_layer4'] = 'Complete Layer 4'
+L['torghast_layer6'] = 'Complete Layer 6'
+L['torghast_layer8'] = 'Complete Layer 8'
+
+L['layer_3_vendor'] = 'Layer 3 and 5 vendors'
+L['layer_7_vendor'] = 'Floor 7 vendor'
+L['random_boss_drop_layer_7'] = 'Random boss drop from Layer 7'
+L['random_boss_drop_layer_9'] = 'Random boss drop from Layer 9+'
+L['random_drop_from_layer_9_up'] = 'Random drop from Layer 9+'
+L['random_drop_from_layer_13_up'] = 'Random drop from Layer 13+'
+
+L['bloating_fodder_note'] = 'Bloating Fodder burst'
+L['colassal_soulshredder_mawrat_note'] = 'Complete |cffffff00[{achievement:15322}]|r'
+L['phantasma_note'] = 'Phantasma'
+L['tower_ranger_note'] = 'Complete |cffffff00[{achievement:15324}]|r'
+
+L['the_jailers_gauntlet_note'] = '|cFFFF8C00Bosses killed here do not count towards|r |cffffff00{achievement:14498}|r'
+
+L['available_in_the_jailers_gauntlet'] = 'Also available in |cffffff00The Jailer\'s Gauntlet|r'
+L['available_in_adamant_vaults'] = 'Also available in |cffffff00Adamant Vaults|r'
+
+L['the_box_of_many_things'] = 'The Box of Many Things'
+L['the_box_of_many_things_note'] = 'Unlock additional powers with {currency:1904}'
+L['mordal_eveningstar_note'] = 'Complete |cffffff00[{achievement:15079}]|r'
+
+L['the_runecarver'] = '{npc:164937}'
+L['runecarver_memories_note'] = 'Memories unlocked'
+
+-------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 

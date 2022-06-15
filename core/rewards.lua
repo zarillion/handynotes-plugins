@@ -10,6 +10,8 @@ local Green = ns.status.Green
 local Orange = ns.status.Orange
 local Red = ns.status.Red
 
+local White = ns.color.White
+
 -------------------------------------------------------------------------------
 
 local function Icon(icon) return '|T' .. icon .. ':0:0:1:-1|t ' end
@@ -357,6 +359,38 @@ function Spell:GetStatus()
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ TITLE ------------------------------------
+-------------------------------------------------------------------------------
+
+local Title = Class('Title', Reward, {type = L['title']})
+
+function Title:GetText()
+    local text = self.pattern
+    local title = GetTitleName(self.id):match '^%s*(.-)%s*$' -- trim whitespace
+    text = string.gsub(text, '{title}', title)
+    local player = UnitName('player')
+    text = string.gsub(text, '{player}', player)
+    text = White(text)
+    if self.type then text = text .. ' (' .. self.type .. ')' end
+    if self.note then
+        text = text .. ' (' .. ns.RenderLinks(self.note, true) .. ')'
+    end
+    return text
+end
+
+function Title:IsObtained()
+    local _, _, _, completed, _, _, _, _, _, _, _, _, earnedByMe =
+        GetAchievementInfo(self.criteria)
+    completed = completed and (not ns:GetOpt('use_char_achieves') or earnedByMe)
+    if completed then return true end
+    return false
+end
+
+function Title:GetStatus()
+    return self:IsObtained() and Green(L['known']) or Red(L['missing'])
+end
+
+-------------------------------------------------------------------------------
 ------------------------------------- TOY -------------------------------------
 -------------------------------------------------------------------------------
 
@@ -476,6 +510,7 @@ ns.reward = {
     Pet = Pet,
     Quest = Quest,
     Spell = Spell,
+    Title = Title,
     Toy = Toy,
     Transmog = Transmog
 }
