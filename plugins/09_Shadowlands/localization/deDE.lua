@@ -745,6 +745,56 @@ L['kyrian_assault_quantity_note1'] = nil
 L['kyrian_assault_quantity_note2'] = nil
 
 -------------------------------------------------------------------------------
+---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
+-------------------------------------------------------------------------------
+
+L['torghast_the_tower_of_the_damned'] = nil
+
+L['skoldus_hall'] = nil
+L['fracture_chambers'] = nil
+L['the_soulforges'] = nil
+L['coldheart_interstitia'] = nil
+L['mortregar'] = nil
+L['the_upper_reaches'] = nil
+L['adamant_vaults'] = nil
+L['twisting_corridors'] = nil
+L['the_jailers_gauntlet'] = nil
+
+L['torghast_reward_sublabel'] = nil
+L['torghast_vendor_note'] = nil
+
+L['torghast_layer1'] = nil
+L['torghast_layer2'] = nil
+L['torghast_layer3'] = nil
+L['torghast_layer4'] = nil
+L['torghast_layer6'] = nil
+L['torghast_layer8'] = nil
+
+L['layer_3_vendor'] = nil
+L['layer_7_vendor'] = nil
+L['random_boss_drop_layer_7'] = nil
+L['random_boss_drop_layer_9'] = nil
+L['random_drop_from_layer_9_up'] = nil
+L['random_drop_from_layer_13_up'] = nil
+
+L['bloating_fodder_note'] = nil
+L['colassal_soulshredder_mawrat_note'] = nil
+L['phantasma_note'] = nil
+L['tower_ranger_note'] = nil
+
+L['the_jailers_gauntlet_note'] = nil
+
+L['available_in_the_jailers_gauntlet'] = nil
+L['available_in_adamant_vaults'] = nil
+
+L['the_box_of_many_things'] = nil
+L['the_box_of_many_things_note'] = nil
+L['mordal_eveningstar_note'] = nil
+
+L['the_runecarver'] = '{npc:164937}'
+L['runecarver_memories_note'] = nil
+
+-------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 

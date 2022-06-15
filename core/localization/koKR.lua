@@ -62,6 +62,7 @@ L['hard'] = '어려움'
 L['mount'] = '탈것'
 L['pet'] = '애완동물'
 L['spell'] = '주문'
+L['title'] = nil
 L['toy'] = '장난감'
 L['rep'] = '평판'
 L['completed'] = '완료'
