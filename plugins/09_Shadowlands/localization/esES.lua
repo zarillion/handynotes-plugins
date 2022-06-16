@@ -744,10 +744,10 @@ L['kyrian_assault_quantity_note2'] = 'Baila cerca de forjas.'
 
 L['torghast_the_tower_of_the_damned'] = 'Torghast, la Torre de los Condenados'
 L['torghast_reward_sublabel'] = '|cFFFF8C00Recompensas compartidas entre muchas alas|r'
-L['torghast_boss_note'] = nil
-L['torghast_vendor_note'] = nil
-L['torghast_reward_note'] = nil
-L['colossal_umbrahide_mawrat_note'] = nil
+L['torghast_boss_note'] = 'Soltado por varios bosses a lo largo de |cffffff00Torghast, la Torre de los Condenados|r '
+L['torghast_vendor_note'] = 'Vendido por {npc:152594} y {npc:170257} por 300 {currency:1728} o 1.000 {currency:1728}'
+L['torghast_reward_note'] = 'Ganado a lo largo de |cffffff00Torghast, la Torre de los Condenados|r '
+L['colossal_umbrahide_mawrat_note'] = 'Capa 13+'
 
 L['skoldus_hall'] = 'Sala de Skoldus'
 L['fracture_chambers'] = 'Cámaras de Fracturas'
@@ -768,14 +768,14 @@ L['torghast_layer8'] = 'Completa la Capa 8'
 
 L['phantasma_note'] = 'Fantasmagoría'
 L['bloating_fodder_note'] = 'Ráfaga de Forraje Hinchador'
-L['flawless_master_note'] = 'Completa la |cffffff00[{achievement:15322}]|r'
-L['tower_ranger_note'] = 'Completa |cffffff00[{achievement:15324}]|r'
+L['flawless_master_note'] = 'Completa el logro |cffffff00[{achievement:15322}]|r'
+L['tower_ranger_note'] = 'Completa el logro |cffffff00[{achievement:15324}]|r'
 
-L['the_jailers_gauntlet_note'] = nil
+L['the_jailers_gauntlet_note'] = '|cFFFF8C00Los Bosses no cuentan para el logro|r |cffffff00{achievement:14498}|r'
 
 L['the_box_of_many_things'] = 'La Caja de Muchas Cosas'
 L['the_box_of_many_things_note'] = 'Desbloquea poderes adicionales con {currency:1904}'
-L['many_many_things_section'] = 'Completa |cffffff00[{achievement:15079}]|r'
+L['many_many_things_section'] = 'Completa el logro |cffffff00[{achievement:15079}]|r'
 
 L['the_runecarver'] = '{npc:164937}'
 L['clearing_the_fog_suffix'] = 'Recuerdos desbloqueados'
