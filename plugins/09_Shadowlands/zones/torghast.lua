@@ -28,39 +28,33 @@ local map = Map({id = 1911, settings = true})
 map.nodes[53284528] = ns.node.Node({
     label = L['torghast_the_tower_of_the_damned'],
     sublabel = L['torghast_reward_sublabel'],
+    note = L['torghast_boss_note'],
     icon = 3642306,
     scale = 1.5,
     rewards = {
-        Section(L['random_boss_drop_layer_7']),
-        Transmog({item = 187034, slot = L['cosmetic']}), -- Gilded Agony Cage
-        Transmog({item = 187082, slot = L['cosmetic']}), -- Gilded Skull Crescent
-        Transmog({item = 187083, slot = L['cosmetic']}), -- Gilded Eye Crescent
-        Transmog({item = 187091, slot = L['cosmetic']}), -- Gilded Twin-Scythe Shoulders
-        Transmog({item = 187092, slot = L['cosmetic']}), -- Gilded Shoulder-Shields
-        Transmog({item = 187094, slot = L['cosmetic']}), -- Gilded Spike Fortresses
-        Transmog({item = 187093, slot = L['cosmetic']}), -- Gilded Ornamental Mantle
-        ns.reward.Spacer(), Section(L['random_drop_from_layer_9_up']),
-        Transmog({item = 187039, slot = L['cosmetic']}), -- Malleare's Stygian Pauldrons
-        Transmog({item = 187020, slot = L['cosmetic']}), -- Necrobinder's Shoulderpads
-        Transmog({item = 187042, slot = L['cosmetic']}), -- Occultist's Ornamental Gorget
-        Transmog({item = 187021, slot = L['cosmetic']}), -- Punisher's Spiked Mantle
-        Transmog({item = 187015, slot = L['cosmetic']}), -- Soulfeeder's Shoulderguards
-        Transmog({item = 187032, slot = L['cosmetic']}), -- Spaulders of Prophetic Death
-        Transmog({item = 187043, slot = L['cosmetic']}), -- Spiked Citadel Shoulderguards
-        ns.reward.Spacer(), Section(L['random_boss_drop_layer_9']),
         Transmog({item = 187027, slot = L['cosmetic']}), -- Skoldus' Shoulder Skewers
         Transmog({item = 187030, slot = L['cosmetic']}), -- Deathsworn Shoulderguards
         Transmog({item = 187031, slot = L['cosmetic']}), -- Towering Mantle of the Maw
+        Transmog({item = 187032, slot = L['cosmetic']}), -- Spaulders of Prophetic Death
         Transmog({item = 187038, slot = L['cosmetic']}), -- Shoulders of Vehement Slicing
+        Transmog({item = 187039, slot = L['cosmetic']}), -- Malleare's Stygian Pauldrons
         Transmog({item = 187040, slot = L['cosmetic']}), -- Twin-Scythe Spaulders
         Transmog({item = 187041, slot = L['cosmetic']}), -- Shoulders of Unbreakable Demise
+        Transmog({item = 187042, slot = L['cosmetic']}), -- Occultist's Ornamental Gorget
+        Transmog({item = 187043, slot = L['cosmetic']}), -- Spiked Citadel Shoulderguards
         Transmog({item = 187044, slot = L['cosmetic']}), -- Deathbringer's Epaulettes
         Transmog({item = 187045, slot = L['cosmetic']}), -- Veiled Tormentor's Mantle
         Transmog({item = 187046, slot = L['cosmetic']}), -- Pauldrons of Immaculate Laceration
         Transmog({item = 187096, slot = L['cosmetic']}), -- Adamant Vault Shoulderplates
-        Transmog({item = 188688, slot = L['cosmetic']}), -- Burnished Eye Crescent
+        Transmog({item = 188686, slot = L['cosmetic']}), -- Burnished Soul Restraint
         Transmog({item = 188687, slot = L['cosmetic']}), -- Burnished Skull Crescent
-        Transmog({item = 188686, slot = L['cosmetic']}) -- Burnished Soul Restraint
+        Transmog({item = 188688, slot = L['cosmetic']}), -- Burnished Eye Crescent
+        ns.reward.Spacer(), Toy({item = 187075}), -- Box of Rattling Chains
+        Mount({
+            item = 188700,
+            id = 1565,
+            note = L['colossal_umbrahide_mawrat_note']
+        }) -- Colossal Umbrahide Mawrat
     }
 })
 
@@ -71,7 +65,9 @@ map.nodes[57284528] = ns.node.Node({
     icon = 3642306,
     scale = 1.5,
     rewards = {
-        Section(L['layer_3_vendor']),
+        Transmog({item = 187034, slot = L['cosmetic']}), -- Gilded Agony Cage
+        Transmog({item = 187082, slot = L['cosmetic']}), -- Gilded Skull Crescent
+        Transmog({item = 187083, slot = L['cosmetic']}), -- Gilded Eye Crescent
         Transmog({item = 187085, slot = L['cosmetic']}), -- Sterling Shoulder Skewers
         Transmog({item = 187086, slot = L['cosmetic']}), -- Deathsworn's Sterling Shoulderguards
         Transmog({item = 187087, slot = L['cosmetic']}), -- Sterling Impaler's Mantle
@@ -82,17 +78,14 @@ map.nodes[57284528] = ns.node.Node({
         Transmog({item = 187098, slot = L['cosmetic']}), -- Sterling Twin-Scythe Shoulders
         Transmog({item = 187099, slot = L['cosmetic']}), -- Sterling Fortress Spaulders
         Transmog({item = 187100, slot = L['cosmetic']}), -- Sterling Ornamental Mantle
-        Transmog({item = 187101, slot = L['cosmetic']}), -- Sterling Shoulder-Shields
-        ns.reward.Spacer(), Section(L['layer_7_vendor']),
-        Transmog({item = 187034, slot = L['cosmetic']}), -- Gilded Agony Cage
-        Transmog({item = 187082, slot = L['cosmetic']}), -- Gilded Skull Crescent
-        Transmog({item = 187083, slot = L['cosmetic']}) -- Gilded Eye Crescent
+        Transmog({item = 187101, slot = L['cosmetic']}) -- Sterling Shoulder-Shields
     }
 })
 
 map.nodes[55285000] = ns.node.Node({
     label = L['torghast_the_tower_of_the_damned'],
     sublabel = L['torghast_reward_sublabel'],
+    note = L['torghast_reward_note'],
     icon = 3642306,
     scale = 1.5,
     rewards = {
@@ -137,8 +130,7 @@ map.nodes[55285000] = ns.node.Node({
                 52874 -- Master of Torment
             }
         }), -- Tower Ranger
-        Section(L['colassal_soulshredder_mawrat_note']),
-        Mount({item = 188736, id = 1564}), -- Colassal Soulshredder Mawrat
+        Section(L['flawless_master_note']), Mount({item = 188736, id = 1564}), -- Colassal Soulshredder Mawrat
         ns.reward.Spacer(), Section(L['tower_ranger_note']),
         Title({id = 450, criteria = 15324, pattern = '{player}, {title}'}) -- %s, Tower Ranger
     }
@@ -180,10 +172,7 @@ map.nodes[47731915] = ns.node.Node({
         Pet({item = 183191, id = 3029}), -- Maw Crawler
         Pet({item = 183192, id = 3032}), -- Frenzied Mawrat
         Pet({item = 183193, id = 3030}), -- Ashen Chomper
-        Pet({item = 183194, id = 3033}), -- Maw Stalker
-        Toy({item = 187075}), -- Box of Rattling Chains
-        ns.reward.Spacer(), Section(L['random_drop_from_layer_13_up']),
-        Mount({item = 188700, id = 1565}) -- Colossal Umbrahide Mawrat
+        Pet({item = 183194, id = 3033}) -- Maw Stalker
     }
 }) -- Skoldus Hall
 
@@ -214,10 +203,7 @@ map.nodes[55191700] = ns.node.Node({
                 49989 -- Prisoner's Concord
             }
         }), -- Extremely Ravenous
-        Achievement({id = 15322, criteria = 52848}), -- Flawless Master (Layer 16)
-        Toy({item = 187075}), -- Box of Rattling Chains
-        ns.reward.Spacer(), Section(L['random_drop_from_layer_13_up']),
-        Mount({item = 188700, id = 1565}) -- Colossal Umbrahide Mawrat
+        Achievement({id = 15322, criteria = 52848}) -- Flawless Master (Layer 16)
     }
 }) -- Fracture Chambers
 
@@ -253,12 +239,7 @@ map.nodes[63001915] = ns.node.Node({
         Achievement({id = 15322, criteria = 52845}), -- Flawless Master (Layer 16)
         Pet({item = 183117, id = 3028}), -- Severs
         Pet({item = 183191, id = 3029}), -- Maw Crawler
-        Pet({item = 183192, id = 3032}), -- Frenzied Mawrate
-        Pet({item = 183193, id = 3030}), -- Ashen Chomper
-        Pet({item = 183194, id = 3033}), -- Maw Stalker
-        Toy({item = 187075}), -- Box of Rattling Chains
-        ns.reward.Spacer(), Section(L['random_drop_from_layer_13_up']),
-        Mount({item = 188700, id = 1565}) -- Colossal Umbrahide Mawrat
+        Pet({item = 183194, id = 3033}) -- Maw Stalker
     }
 }) -- The Soulforges
 
@@ -293,10 +274,7 @@ map.nodes[73943537] = ns.node.Node({
         }), -- Extremely Ravenous
         Achievement({id = 15322, criteria = 52846}), -- Flawless Master (Layer 16)
         Pet({item = 183115, id = 3026}), -- Tower Deathroach
-        Pet({item = 183116, id = 3027}), -- Hissing Deathroach
-        Toy({item = 187075}), -- Box of Rattling Chains
-        ns.reward.Spacer(), Section(L['random_drop_from_layer_13_up']),
-        Mount({item = 188700, id = 1565}) -- Colossal Umbrahide Mawrat
+        Pet({item = 183116, id = 3027}) -- Hissing Deathroach
     }
 }) -- Coldheart Interstitia
 
@@ -329,10 +307,7 @@ map.nodes[75474699] = ns.node.Node({
             }
         }), -- Extremely Ravenous
         Achievement({id = 15322, criteria = 52844}), -- Flawless Master (Layer 16)
-        Pet({item = 183195, id = 3034}), -- Torghast Lurker
-        Toy({item = 187075}), -- Box of Rattling Chains
-        ns.reward.Spacer(), Section(L['random_drop_from_layer_13_up']),
-        Mount({item = 188700, id = 1565}) -- Colossal Umbrahide Mawrat
+        Pet({item = 183195, id = 3034}) -- Torghast Lurker
     }
 }) -- Mort'regar
 
@@ -367,11 +342,7 @@ map.nodes[73845861] = ns.node.Node({
         Achievement({id = 15322, criteria = 52843}), -- Flawless Master (Layer 16)
         Pet({item = 183117, id = 3028}), -- Severs
         Pet({item = 183191, id = 3029}), -- Maw Crawler
-        Pet({item = 183194, id = 3033}), -- Maw Stalker
-        Pet({item = 183195, id = 3034}), -- Torghast Lurker
-        Toy({item = 187075}), -- Box of Rattling Chains
-        ns.reward.Spacer(), Section(L['random_drop_from_layer_13_up']),
-        Mount({item = 188700, id = 1565}) -- Colossal Umbrahide Mawrat
+        Pet({item = 183194, id = 3033}) -- Maw Stalker
     }
 }) -- The Upper Reaches
 
@@ -385,17 +356,18 @@ map.nodes[62947482] = ns.node.Node({
     scale = 1.5,
     requires = ns.requirement.GarrisonTalent(1788),
     rewards = {
-        Achievement({id = 15324, criteria = 52871}), -- Adamant Vaults
-        Transmog({item = 187081, slot = L['cloak']}), -- Blackflame Skull Crescent
-        Transmog({item = 187084, slot = L['cloak']}), -- Jailer's Eye Crescent
-        Transmog({item = 187025, slot = L['cloak']}), -- Painbringer's Back-Prison
-        Pet({item = 186549, id = 3130}), -- Gilded Darknight
-        ns.reward.Spacer(), Section(L['random_drop_from_layer_13_up']),
-        Mount({item = 188700, id = 1565}), -- Colossal Umbrahide Mawrat
-        ns.reward.Spacer(), Section(L['available_in_the_jailers_gauntlet']),
-        Item({item = 185049, quest = 63605, covenant = NIGHTFAE}), -- Sauolisk Soul
+        Transmog({item = 187081, slot = L['cosmetic']}), -- Blackflame Skull Crescent
+        Transmog({item = 187093, slot = L['cosmetic']}), -- Gilded Ornamental Mantle
+        Transmog({item = 187092, slot = L['cosmetic']}), -- Gilded Shoulder-Shields
+        Transmog({item = 187094, slot = L['cosmetic']}), -- Gilded Spike Fortresses
+        Transmog({item = 187091, slot = L['cosmetic']}), -- Gilded Twin-Scythe Shoulders
+        Transmog({item = 187084, slot = L['cosmetic']}), -- Jailer's Eye Crescent
+        Transmog({item = 187025, slot = L['cosmetic']}), -- Painbringer's Back-Prison
+        ns.reward.Spacer(), Pet({item = 186549, id = 3130}), -- Gilded Darknight
         Toy({item = 187417}), -- Adamant Vaults Cell
-        Item({item = 187148}) -- Death-Bound Shard
+        Item({item = 187148, quest = 64347}), -- Death-Bound Shard
+        Item({item = 185049, quest = 63605, covenant = NIGHTFAE}), -- Sauolisk Soul
+        Achievement({id = 15324, criteria = 52871}) -- Adamant Vaults
     }
 }) -- Adamant Vaults
 
@@ -409,13 +381,13 @@ map.nodes[55197712] = ns.node.Node({
     scale = 1.5,
     requires = ns.requirement.Quest(62836),
     rewards = {
-        Achievement({id = 15324, criteria = 52872}), -- Twisting Cordidors: Layer 8
         Section(L['torghast_layer2']), Pet({item = 183412, id = 3041}), -- Death Seeker
         ns.reward.Spacer(), Section(L['torghast_layer4']), Toy({item = 184223}), -- Helm of the Dominated
         ns.reward.Spacer(), Section(L['torghast_layer6']),
         Title({id = 438, criteria = 14568, pattern = '{title} {player}'}), -- Spirestalker %s
         ns.reward.Spacer(), Section(L['torghast_layer8']),
-        Mount({item = 184166, id = 1442}) -- Corridor Creeper
+        Mount({item = 184166, id = 1442}), -- Corridor Creeper
+        Achievement({id = 15324, criteria = 52872}) -- Twisting Cordidors: Layer 8
     }
 }) -- Twisting Corridors
 
@@ -429,17 +401,13 @@ map.nodes[47447453] = ns.node.Node({
     icon = 3717264,
     scale = 1.5,
     rewards = {
-        Achievement({id = 15324, criteria = 52873}), -- The Jailer's Gauntlet: Layer 4
         Section(L['torghast_layer1']), Pet({item = 188679, id = 3221}), -- Lightless Tormentor
         ns.reward.Spacer(), Section(L['torghast_layer2']), Toy({item = 188952}), -- Dominated Heathstone
         ns.reward.Spacer(), Section(L['torghast_layer3']),
         Title({id = 449, criteria = 15253, pattern = '{title} {player}'}), -- Gauntlet Runner %s
         ns.reward.Spacer(), Section(L['torghast_layer4']),
         Mount({item = 188696, id = 1566}), -- Colossal Ebonclaw Mawrat
-        ns.reward.Spacer(), Section(L['available_in_adamant_vaults']),
-        Item({item = 185049, quest = 63605, covenant = NIGHTFAE}), -- Sauolisk Soul
-        Toy({item = 187417}), -- Adamant Vaults Cell
-        Item({item = 187148}) -- Death-Bound Shard
+        Achievement({id = 15324, criteria = 52873}) -- The Jailer's Gauntlet: Layer 4
     }
 }) -- The Jailer's Gauntlet
 
@@ -457,7 +425,7 @@ map.nodes[36044728] = ns.node.Node({
         Achievement({id = 15076}), -- The Box of Many Things
         Achievement({id = 15079}), -- Many, Many Things
         Achievement({id = 15080}), -- So Blessed
-        Section(L['mordal_eveningstar_note']), Pet({item = 186551, id = 3132}) -- Mord'al Eveningstar
+        Section(L['many_many_things_section']), Pet({item = 186551, id = 3132}) -- Mord'al Eveningstar
     }
 }) -- The Box of Many Things
 
@@ -477,7 +445,7 @@ map.nodes[15786023] = ns.node.Node({
             criteria = ({
                 id = 49892,
                 qty = true,
-                suffix = L['runecarver_memories_note']
+                suffix = L['clearing_the_fog_suffix']
             }) -- Clearing the Fog
         })
     }
