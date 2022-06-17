@@ -8,6 +8,7 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
+local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -26,6 +27,7 @@ local POI = ns.poi.POI
 
 local KYRIAN = ns.covenants.KYR
 local NECROLORD = ns.covenants.NEC
+local NIGHTFAE = ns.covenants.FAE
 
 local map = Map({id = 1533, settings = true})
 
@@ -906,26 +908,44 @@ map.nodes[43182813] = WISDOM
 ------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
 -------------------------------------------------------------------------------
 
-map.nodes[54901350] = ns.node.NPC({
-    id = 170242,
-    icon = 237182,
+local Squirrel = Class('Squirrel', NPC, {
     group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
+    icon = 237182,
+    note = L['squirrels_note']
+})
+
+map.nodes[54901350] = Squirrel({
+    id = 170242,
     rewards = {Achievement({id = 14731, criteria = 50248})}
 }) -- Dreadfur Kit
 
-map.nodes[37702750] = ns.node.NPC({
+map.nodes[37702750] = Squirrel({
     id = 170006,
-    icon = 237182,
-    group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
     rewards = {Achievement({id = 14731, criteria = 50249})}
 }) -- Darkened Wyrmling
 
-map.nodes[48007780] = ns.node.NPC({
+map.nodes[48007780] = Squirrel({
     id = 168397,
-    icon = 237182,
-    group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
     rewards = {Achievement({id = 14731, criteria = 50250})}
 }) -- Soulwing Flitter
+
+-------------------------------------------------------------------------------
+--------------------------------- SOULSHAPES ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[50004700] = Collectible({
+    id = 181682,
+    icon = 645906,
+    quest = 64959,
+    covenant = NIGHTFAE,
+    note = L['soulshape_otter_soul'],
+    rewards = {
+        Item({item = 187818, quest = 64959, covenant = NIGHTFAE}) -- Otter Soul
+    },
+    IsEnabled = function(self)
+        if C_Covenants.GetActiveCovenantID() ~= NIGHTFAE.id then
+            return false
+        end
+        return Collectible.IsEnabled(self)
+    end
+}) -- Otter Soul

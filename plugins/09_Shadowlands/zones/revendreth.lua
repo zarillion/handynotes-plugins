@@ -2,13 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local L = ns.locale
 local Class = ns.Class
+local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
-local NPC = ns.node.NPC
 local Node = ns.node.Node
+local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -17,8 +17,8 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
-local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local Arrow = ns.poi.Arrow
 local Path = ns.poi.Path
@@ -28,6 +28,8 @@ local POI = ns.poi.POI
 
 local NECROLORD = ns.covenants.NEC
 local VENTHYR = ns.covenants.VEN
+local NIGHTFAE = ns.covenants.FAE
+
 local map = Map({id = 1525, settings = true})
 
 -------------------------------------------------------------------------------
@@ -1180,26 +1182,51 @@ map.nodes[62874341] = Blanchy()
 ------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
 -------------------------------------------------------------------------------
 
-map.nodes[70907650] = ns.node.NPC({
-    id = 174844,
-    icon = 237182,
+local Squirrel = Class('Squirrel', NPC, {
     group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
+    icon = 237182,
+    note = L['squirrels_note']
+})
+
+map.nodes[70907650] = Squirrel({
+    id = 174844,
     rewards = {Achievement({id = 14731, criteria = 50264})}
 }) -- Shardling
 
-map.nodes[39004930] = ns.node.NPC({
+map.nodes[39004930] = Squirrel({
     id = 165767,
-    icon = 237182,
-    group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
     rewards = {Achievement({id = 14731, criteria = 50265})}
 }) -- Emaciated Bat
 
-map.nodes[56005800] = ns.node.NPC({
+map.nodes[56005800] = Squirrel({
     id = 174646,
-    icon = 237182,
-    group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
     rewards = {Achievement({id = 14731, criteria = 50266})}
 }) -- Murky Creeper
+
+-------------------------------------------------------------------------------
+--------------------------------- SOULSHAPES ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[63184276] = Collectible({
+    id = 181660,
+    icon = 2027864,
+    quest = 64941,
+    covenant = NIGHTFAE,
+    note = L['soulshape_chicken_note'],
+    rewards = {
+        Item({item = 187813, quest = 64941, covenant = NIGHTFAE}) -- Chicken Soul
+    },
+    IsEnabled = function(self)
+        if C_Covenants.GetActiveCovenantID() ~= NIGHTFAE.id then
+            return false
+        end
+        return Collectible.IsEnabled(self)
+    end
+}) -- Chicken Soul
+
+map.nodes[63756169] = Node({
+    label = L['spectral_feed_label'],
+    icon = 134058,
+    covenant = NIGHTFAE,
+    note = L['spectral_feed_note']
+}) -- Spectral Feed

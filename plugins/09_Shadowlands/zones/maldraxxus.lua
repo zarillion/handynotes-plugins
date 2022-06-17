@@ -7,6 +7,8 @@ local Class = ns.Class
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local Node = ns.node.Node
+local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -26,8 +28,10 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local NECROLORD = ns.covenants.NEC
+local NIGHTFAE = ns.covenants.FAE
 
 local map = Map({id = 1536, settings = true})
+local vos = Map({id = 1652, settings = true}) -- Vault of Souls
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -700,7 +704,7 @@ Map({id = 1697}).nodes[45203680] = Kitten({
 ------------------------------- CRYPT COUTURE ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[28805160] = ns.node.NPC({
+map.nodes[28805160] = NPC({
     id = 157125,
     icon = 134846,
     covenant = NECROLORD,
@@ -711,7 +715,7 @@ map.nodes[28805160] = ns.node.NPC({
     }
 }) -- Zargox the Reborn
 
-map.nodes[49602360] = ns.node.NPC({
+map.nodes[49602360] = NPC({
     id = 159105,
     icon = 1064192,
     covenant = NECROLORD,
@@ -722,7 +726,7 @@ map.nodes[49602360] = ns.node.NPC({
     }
 }) -- Collector Kash
 
-map.nodes[70402780] = ns.node.NPC({
+map.nodes[70402780] = NPC({
     id = 174020,
     icon = 133737,
     covenant = NECROLORD,
@@ -734,7 +738,7 @@ map.nodes[70402780] = ns.node.NPC({
     }
 }) -- Captain Prateq
 
-local sorcerersNote = ns.node.Node({
+local sorcerersNote = Node({
     label = L['sorcerers_blade_label'],
     icon = 463557,
     covenant = NECROLORD,
@@ -747,9 +751,9 @@ local sorcerersNote = ns.node.Node({
 }) -- Sorcerer's Note
 
 map.nodes[70962857] = sorcerersNote
-Map({id = 1652}).nodes[55726400] = sorcerersNote -- Vault of Souls
+vos.nodes[55726400] = sorcerersNote
 
-map.nodes[52743615] = ns.node.Node({
+map.nodes[52743615] = Node({
     label = L['mucosal_pigment_label'],
     icon = 134877,
     covenant = NECROLORD,
@@ -762,7 +766,7 @@ map.nodes[52743615] = ns.node.Node({
     pois = {Path({Circle({origin = 52743615, radius = 5})})}
 }) -- Mucosal Pigment
 
-map.nodes[71603280] = ns.node.NPC({
+map.nodes[71603280] = NPC({
     id = 174120,
     icon = 1385242,
     covenant = NECROLORD,
@@ -774,7 +778,7 @@ map.nodes[71603280] = ns.node.NPC({
     }
 }) -- Moret the Vogue
 
-map.nodes[67803060] = ns.node.NPC({
+map.nodes[67803060] = NPC({
     id = 172813,
     icon = 3087539,
     covenant = NECROLORD,
@@ -790,26 +794,44 @@ map.nodes[67803060] = ns.node.NPC({
 ------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
 -------------------------------------------------------------------------------
 
-map.nodes[49006010] = ns.node.NPC({
-    id = 167353,
-    icon = 237182,
+local Squirrel = Class('Squirrel', NPC, {
     group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
+    icon = 237182,
+    note = L['squirrels_note']
+})
+
+map.nodes[49006010] = Squirrel({
+    id = 167353,
     rewards = {Achievement({id = 14731, criteria = 50260})}
 }) -- Chittering Claw
 
-map.nodes[48506050] = ns.node.NPC({
+map.nodes[48506050] = Squirrel({
     id = 167354,
-    icon = 237182,
-    group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
     rewards = {Achievement({id = 14731, criteria = 50261})}
 }) -- Writhing Rachis
 
-map.nodes[57806650] = ns.node.NPC({
+map.nodes[57806650] = Squirrel({
     id = 174650,
-    icon = 237182,
-    group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
     rewards = {Achievement({id = 14731, criteria = 50262})}
 }) -- Bubbling Refuse
+
+-------------------------------------------------------------------------------
+--------------------------------- SOULSHAPES ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[45006500] = Collectible({
+    id = 182105,
+    icon = 2399239,
+    quest = 64995,
+    covenant = NIGHTFAE,
+    note = L['soulshape_saurid_note'],
+    rewards = {
+        Item({item = 187878, quest = 64995, covenant = NIGHTFAE}) -- Saurid Soul
+    },
+    IsEnabled = function(self)
+        if C_Covenants.GetActiveCovenantID() ~= NIGHTFAE.id then
+            return false
+        end
+        return Collectible.IsEnabled(self)
+    end
+}) -- Saurid Soul

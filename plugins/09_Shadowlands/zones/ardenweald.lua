@@ -3,10 +3,12 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local Class = ns.Class
-local Map = ns.Map
 local L = ns.locale
+local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local Node = ns.node.Node
+local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -26,8 +28,11 @@ local POI = ns.poi.POI
 
 local NECROLORD = ns.covenants.NEC
 local NIGHTFAE = ns.covenants.FAE
+
 local map = Map({id = 1565, settings = true})
 local tqc = Map({id = 1662, settings = true}) -- The Queen's Conservatory
+local hft = Map({id = 1701, settings = true}) -- Heart of the Forest - The Trunk
+local hfr = Map({id = 1702, settings = true}) -- Heart of the Forest - The Roots
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -711,98 +716,77 @@ map.nodes[51005480] = NAUGHTY
 -------------------------------- WILD HUNTING ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[37695691] = ns.node.NPC({
+local Beast = Class('Beast', NPC,
+    {group = ns.groups.WILD_HUNTING, icon = 1604164})
+
+map.nodes[37695691] = Beast({
     id = 161889,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 1})},
     pois = {POI({39005420, 37805620})}
 }) -- Nightsong Wader
 
-map.nodes[64532423] = ns.node.NPC({
+map.nodes[64532423] = Beast({
     id = 170734,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 2})},
     pois = {POI({62402560, 58003260, 58403100})}
 }) -- Decayfly
 
-map.nodes[61515031] = ns.node.NPC({
+map.nodes[61515031] = Beast({
     id = 163093,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 3})},
     pois = {POI({61405540, 56205260, 57005440})}
 }) -- Basin Vulpin
 
-map.nodes[60513860] = ns.node.NPC({
+map.nodes[60513860] = Beast({
     id = 166073,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 4})},
     pois = {POI({58604620, 55804540, 56804280})}
 }) -- Greater Ardenmoth
 
-map.nodes[42685872] = ns.node.NPC({
+map.nodes[42685872] = Beast({
     id = 161917,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 5})},
     pois = {POI({39005540, 38205700, 38405340})}
 }) -- Verdant Prowler
 
-map.nodes[47644329] = ns.node.NPC({
+map.nodes[47644329] = Beast({
     id = 167503,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 6})},
     pois = {POI({50004160, 45404860, 45804640})}
 }) -- Veilwing Guardian
 
-map.nodes[58075778] = ns.node.NPC({
+map.nodes[58075778] = Beast({
     id = 170856,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 7})},
     pois = {POI({58005660, 55606520, 56206080})}
 }) -- Highland Runestag
 
-map.nodes[39693429] = ns.node.NPC({
+map.nodes[39693429] = Beast({
     id = 169750,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 8})},
     pois = {POI({39603420, 35203340, 35403520})}
 }) -- Wild Gloomrunner
 
-map.nodes[35463705] = ns.node.NPC({
+map.nodes[35463705] = Beast({
     id = 169819,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 9})},
     pois = {POI({32403020, 32603180, 33203640})}
 }) -- Voracious Lasher
 
-map.nodes[36033849] = ns.node.NPC({
+map.nodes[36033849] = Beast({
     id = 169768,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 10})},
     pois = {POI({36003860, 35803500, 37004000})}
 }) -- Mystic Gulper
 
-map.nodes[66075119] = ns.node.NPC({
+map.nodes[66075119] = Beast({
     id = 165912,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 11})},
     pois = {POI({65205640, 65005280, 65205860})}
 }) -- Roving Gladechewer
 
-map.nodes[65205280] = ns.node.NPC({
+map.nodes[65205280] = Beast({
     id = 158946,
-    group = ns.groups.WILD_HUNTING,
-    icon = 1604164,
     rewards = {Achievement({id = 14779, criteria = 12})},
     pois = {POI({67403240, 65855157, 65405080})}
 }) -- Wild Gormling
@@ -811,27 +795,24 @@ map.nodes[65205280] = ns.node.NPC({
 ------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
 -------------------------------------------------------------------------------
 
-map.nodes[51906120] = ns.node.NPC({
-    id = 169979,
-    icon = 237182,
+local Squirrel = Class('Squirrel', NPC, {
     group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
+    icon = 237182,
+    note = L['squirrels_note']
+})
+
+map.nodes[51906120] = Squirrel({
+    id = 169979,
     rewards = {Achievement({id = 14731, criteria = 50254})}
 }) -- Starmoth
 
-map.nodes[40802810] = ns.node.NPC({
+map.nodes[40802810] = Squirrel({
     id = 166973,
-    icon = 237182,
-    group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
     rewards = {Achievement({id = 14731, criteria = 50255})}
 }) -- Timber Kit
 
-map.nodes[35205750] = ns.node.NPC({
+map.nodes[35205750] = Squirrel({
     id = 174837,
-    icon = 237182,
-    group = ns.groups.SQUIRRELS,
-    note = L['squirrels_note'],
     rewards = {Achievement({id = 14731, criteria = 50256})}
 }) -- Runewood Hoarder
 
@@ -839,11 +820,12 @@ map.nodes[35205750] = ns.node.NPC({
 ------------------------------- WILDSEED SPIRIT -------------------------------
 -------------------------------------------------------------------------------
 
-tqc.nodes[26504100] = ns.node.Node({
+local WildseedSpirit = Class('WildseedSpirit', Node,
+    {scale = 1.5, group = ns.groups.WILDSEED_SPIRITS})
+
+tqc.nodes[26504100] = WildseedSpirit({
     label = L['martial_spirit_label'],
     icon = 3528296,
-    scale = 1.5,
-    group = ns.groups.WILDSEED_SPIRITS,
     rewards = ({
         Section(L['0x_wildseed_root_grain']), Item({item = 180974}), -- Novice's Satchel
         ns.reward.Spacer(), Section(L['1x_wildseed_root_grain']),
@@ -878,11 +860,9 @@ tqc.nodes[26504100] = ns.node.Node({
     })
 }) -- Maldraxxi (Martial Spirit)
 
-tqc.nodes[29504100] = ns.node.Node({
+tqc.nodes[29504100] = WildseedSpirit({
     label = L['dutiful_spirit_label'],
     icon = 3528288,
-    scale = 1.5,
-    group = ns.groups.WILDSEED_SPIRITS,
     rewards = ({
         Section(L['0x_wildseed_root_grain']), Item({item = 180974}), -- Novice's Satchel
         ns.reward.Spacer(), Section(L['1x_wildseed_root_grain']),
@@ -917,11 +897,9 @@ tqc.nodes[29504100] = ns.node.Node({
     })
 }) -- Kyrian (Dutiful Spirit)
 
-tqc.nodes[26504550] = ns.node.Node({
+tqc.nodes[26504550] = WildseedSpirit({
     label = L['prideful_spirit_label'],
     icon = 3528312,
-    scale = 1.5,
-    group = ns.groups.WILDSEED_SPIRITS,
     rewards = ({
         Section(L['0x_wildseed_root_grain']), Item({item = 180974}), -- Novice's Satchel
         ns.reward.Spacer(), Section(L['1x_wildseed_root_grain']),
@@ -956,11 +934,9 @@ tqc.nodes[26504550] = ns.node.Node({
     })
 }) -- Venthyr (Prideful Spirit)
 
-tqc.nodes[29504550] = ns.node.Node({
+tqc.nodes[29504550] = WildseedSpirit({
     label = L['untamed_spirit_label'],
     icon = 3528280,
-    scale = 1.5,
-    group = ns.groups.WILDSEED_SPIRITS,
     rewards = ({
         Section(L['0x_wildseed_root_grain']), Item({item = 180974}), -- Novice's Satchel
         ns.reward.Spacer(), Section(L['1x_wildseed_root_grain']),
@@ -998,3 +974,47 @@ tqc.nodes[29504550] = ns.node.Node({
         })
     })
 }) -- Night Fae (Untamed Spirit)
+
+-------------------------------------------------------------------------------
+--------------------------------- SOULSHAPES ----------------------------------
+-------------------------------------------------------------------------------
+
+local CatSoul = Collectible({
+    id = 181694,
+    icon = 656574,
+    quest = 64961,
+    covenant = NIGHTFAE,
+    note = L['soulshape_cat_note'],
+    rewards = {
+        Item({item = 187819, quest = 64961, covenant = NIGHTFAE}) -- Cat Soul
+    },
+    IsEnabled = function(self)
+        if C_Covenants.GetActiveCovenantID() ~= NIGHTFAE.id then
+            return false
+        end
+        return Collectible.IsEnabled(self)
+    end
+}) -- Cat Soul
+
+map.nodes[65083646] = CatSoul
+map.nodes[51836923] = CatSoul
+map.nodes[60005513] = CatSoul
+map.nodes[51213104] = CatSoul
+map.nodes[37593625] = CatSoul
+map.nodes[69852732] = CatSoul
+
+hft.nodes[53474971] = Node({
+    id = 174608,
+    icon = 1339013,
+    quest = 64938,
+    covenant = NIGHTFAE,
+    note = L['soulshape_corgi_note']
+}) -- Corgi Soul
+
+hfr.nodes[58006900] = Node({
+    id = 182093,
+    icon = 656577,
+    quest = 64982,
+    covenant = NIGHTFAE,
+    note = L['soulshape_well_fed_cat_note']
+}) -- Well Fed Cat Soul

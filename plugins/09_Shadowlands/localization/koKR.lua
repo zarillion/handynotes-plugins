@@ -88,6 +88,10 @@ L['1x_wildseed_root_grain'] = '1x {item:176832}'
 L['2x_wildseed_root_grain'] = '2x or 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
+L['soulshape_cat_note'] = nil
+L['soulshape_corgi_note'] = nil
+L['soulshape_well_fed_cat_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -217,6 +221,8 @@ L['options_icons_hymns_desc'] = nil
 L['stratios_note'] = nil
 L['thenia_note'] = nil
 L['zolla_note'] = nil
+
+L['soulshape_otter_soul'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- KORTHIA -----------------------------------
@@ -361,6 +367,8 @@ L['ritualists_mantle_note'] = nil
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = nil
 
+L['soulshape_saurid_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -443,6 +451,10 @@ L['broken_mirror_61819'] = nil
 L['broken_mirror_61827'] = nil
 L['options_icons_broken_mirror'] = nil
 L['options_icons_broken_mirror_desc'] = nil
+
+L['soulshape_chicken_note'] = nil
+L['spectral_feed_label'] = '{item:187811}'
+L['spectral_feed_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
