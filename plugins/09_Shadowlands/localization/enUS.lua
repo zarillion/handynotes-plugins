@@ -122,6 +122,32 @@ L['1x_wildseed_root_grain'] = '1x {item:176832}'
 L['2x_wildseed_root_grain'] = '2x or 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
+L['soulshape_cat_note'] = [[
+Target {npc:181694} and /soothe
+
+Can appear at the center of the top of the 6 Great Trees around |cFFFFFF00Ardenweald|r:
+
+• |cFFFFFF00Dreamsong Fenn|r
+• |cFFFFFF00Glitterfall Basin|r
+• |cFFFFFF00Tirna Vaal|r
+• |cFFFFFF00Hibernal Hollow|r
+• |cFFFFFF00Heartwood Grove|r
+• |cFFFFFF00Claws Edge|r
+]]
+L['soulshape_corgi_note'] = [[
+Target {npc:174608} and /pet
+
+A Corgi option will immediately become available when talking with {npc:181582}
+]]
+L['soulshape_well_fed_cat_note'] = [[
+1. Collect {item:187811} from |cffffff00Darkhaven|r
+2. Target {npc:182093} and /meow
+3. |cFFFF8C00Ma'oh meows at you hungrily.|r
+4. Target {npc:182093} and use {item:187811}
+
+A Cat Soul (Well Fed) option will immediately become available when talking with {npc:181582}
+]]
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -261,6 +287,8 @@ L['options_icons_hymns_desc'] = 'Display hymn locations for the {achievement:147
 L['stratios_note'] = 'Even the smallest battles should be fought with honor and care. Present your team when you are ready.'
 L['thenia_note'] = 'Such magnificent open plains here. A glorious place to battle. Are you prepared?'
 L['zolla_note'] = 'We take our defenses very seriously. Whether small or large, we are fully committed to maintain and train the resources that keep Bastion strong.'
+
+L['soulshape_otter_soul'] = 'Target {npc:181682} and /hug'
 
 -------------------------------------------------------------------------------
 ----------------------------------- KORTHIA -----------------------------------
@@ -447,6 +475,8 @@ L['ritualists_mantle_note'] = 'Complete the quest {quest:62308}'
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = 'Necrotic Acolyte disguise customization locations for {achievement:14763}'
 
+L['soulshape_saurid_note'] = 'In a small cave. Target the {npc:182105} and /bow'
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -533,6 +563,21 @@ L['broken_mirror_61819'] = 'In a small room on the ground floor.'
 L['broken_mirror_61827'] = 'In a small room.'
 L['options_icons_broken_mirror'] = 'Broken Mirrors'
 L['options_icons_broken_mirror_desc'] = 'Display the locations of broken mirrors.'
+
+L['soulshape_chicken_note'] = [[
+1. Collect {item:187811} from |cffffff00Darkhaven|r
+2. Target {npc:181660} and /chicken
+3. |cFFFF8C00Lost Soul clucks at you hungrily.|r
+4. Target {npc:181660} and use {item:187811}
+]]
+L['spectral_feed_label'] = '{item:187811}'
+L['spectral_feed_note'] = [[
+{item:187811} is used to feed {npc:181660} in |cffffff00Revendreth|r for {item:187813}
+
+{item:187811} is used to feed {npc:182093} in |cFFFFFF00Ardenweald|r for |cFF00FF00[Well Fed Cat Soul]|r
+
+|cFFFF8C00{item:187811} has a 10 minute timer and 60 minute respawn|r
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------

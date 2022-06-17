@@ -123,6 +123,10 @@ L['1x_wildseed_root_grain'] = '1x {item:176832}'
 L['2x_wildseed_root_grain'] = '2x or 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
+L['soulshape_cat_note'] = nil
+L['soulshape_corgi_note'] = nil
+L['soulshape_well_fed_cat_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -262,6 +266,8 @@ L['options_icons_hymns_desc'] = 'Afficher les emplacements des hymnes pour la r�
 L['stratios_note'] = 'Même les plus petites batailles doivent être menées avec honneur et prudence. Présentez votre équipe quand vous êtes prêt.'
 L['thenia_note'] = 'Quelles magnifiques plaines dégagées ici. Un endroit glorieux pour se battre. Êtes-vous prêt ?'
 L['zolla_note'] = 'Nous prenons nos défenses très au sérieux. Qu\'elles soient petites ou grandes, nous sommes pleinement engagés à maintenir et à former les ressources qui permettent au Bastion de rester fort.'
+
+L['soulshape_otter_soul'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- KORTHIA -----------------------------------
@@ -446,6 +452,8 @@ L['ritualists_mantle_note'] = nil
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = nil
 
+L['soulshape_saurid_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -532,6 +540,10 @@ L['broken_mirror_61819'] = 'Dans une petite pièce au rez-de-chaussée.'
 L['broken_mirror_61827'] = 'Dans une petite pièce.'
 L['options_icons_broken_mirror'] = 'Miroirs brisés'
 L['options_icons_broken_mirror_desc'] = 'Afficher les emplacements des miroirs brisés.'
+
+L['soulshape_chicken_note'] = nil
+L['spectral_feed_label'] = '{item:187811}'
+L['spectral_feed_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------

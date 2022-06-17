@@ -123,6 +123,10 @@ L['1x_wildseed_root_grain'] = '1x {item:176832}'
 L['2x_wildseed_root_grain'] = '2x o 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
+L['soulshape_cat_note'] = nil
+L['soulshape_corgi_note'] = nil
+L['soulshape_well_fed_cat_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
@@ -262,6 +266,8 @@ L['options_icons_hymns_desc'] = 'Muestra dónde están los himnos para el logro 
 L['stratios_note'] = 'Incluso las pequeñas batallas se deben librar con honor y cuidado. Presenta a tu equipo cuando lo tengas todo listo.'
 L['thenia_note'] = 'Qué llanuras más maravillosas. Un lugar glorioso para combatir. ¿Listo?'
 L['zolla_note'] = 'Nos tomamos muy en serio nuestras defensas. Seamos grandes o pequeños, nuestra máxima es mantener y formar los recursos que fortalecen Bastión.'
+
+L['soulshape_otter_soul'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- KORTHIA -----------------------------------
@@ -448,6 +454,8 @@ L['ritualists_mantle_note'] = 'Completa la misión {quest:62308}.'
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = 'Sitios donde encontrar las personalizaciones del disfraz de Acólito Necrótico para el logro {achievement:14763}.'
 
+L['soulshape_saurid_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
@@ -534,6 +542,10 @@ L['broken_mirror_61819'] = 'En una habitación pequeña en el piso inferior.'
 L['broken_mirror_61827'] = 'En una habitación pequeña.'
 L['options_icons_broken_mirror'] = 'Espejos Rotos'
 L['options_icons_broken_mirror_desc'] = 'Muestra dónde están los espejos rotos.'
+
+L['soulshape_chicken_note'] = nil
+L['spectral_feed_label'] = '{item:187811}'
+L['spectral_feed_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
