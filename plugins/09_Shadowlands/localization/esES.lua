@@ -123,9 +123,31 @@ L['1x_wildseed_root_grain'] = '1x {item:176832}'
 L['2x_wildseed_root_grain'] = '2x o 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
-L['soulshape_cat_note'] = nil
-L['soulshape_corgi_note'] = nil
-L['soulshape_well_fed_cat_note'] = nil
+L['soulshape_cat_note'] = [[
+Selecciona al {npc:181694} y haz /calmar.
+
+Puede aparecer en el centro de las copas de los 6 Grandes Árboles a lo largo de |cFFFFFF00Ardenweald|r:
+
+• |cFFFFFF00Pantano Cantosueño|r
+• |cFFFFFF00Cuenca Brillocascada|r
+• |cFFFFFF00Tirna Vaal|r
+• |cFFFFFF00Cuenca Invernal|r
+• |cFFFFFF00Arboleda del Duramen|r
+• |cFFFFFF00Filo de la Garra|r
+]]
+L['soulshape_corgi_note'] = [[
+Selecciona a {npc:174608} y haz /acariciar.
+
+La opción Corgi estará disponible en cuanto hables con {npc:181582}.
+]]
+L['soulshape_well_fed_cat_note'] = [[
+1. Recoge {item:187811} from |cffffff00Refugioscuro|r.
+2. Selecciona a {npc:182093} y haz /maullar.
+3. |cFFFF8C00Ma'oh te maulla hambriento|r.
+4. Selecciona a {npc:182093} y usa el {item:187811}.
+
+La opción Alma de Gato (Bien Alimentado) estará disponible en cuanto hables con {npc:181582}.
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -267,7 +289,7 @@ L['stratios_note'] = 'Incluso las pequeñas batallas se deben librar con honor y
 L['thenia_note'] = 'Qué llanuras más maravillosas. Un lugar glorioso para combatir. ¿Listo?'
 L['zolla_note'] = 'Nos tomamos muy en serio nuestras defensas. Seamos grandes o pequeños, nuestra máxima es mantener y formar los recursos que fortalecen Bastión.'
 
-L['soulshape_otter_soul'] = nil
+L['soulshape_otter_soul'] = 'Selecciona al {npc:181682} y haz /abrazo.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- KORTHIA -----------------------------------
@@ -454,7 +476,7 @@ L['ritualists_mantle_note'] = 'Completa la misión {quest:62308}.'
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = 'Sitios donde encontrar las personalizaciones del disfraz de Acólito Necrótico para el logro {achievement:14763}.'
 
-L['soulshape_saurid_note'] = nil
+L['soulshape_saurid_note'] = 'En una cueva pequeña. Selecciona el {npc:182105} y haz /reverencia.'
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -543,9 +565,20 @@ L['broken_mirror_61827'] = 'En una habitación pequeña.'
 L['options_icons_broken_mirror'] = 'Espejos Rotos'
 L['options_icons_broken_mirror_desc'] = 'Muestra dónde están los espejos rotos.'
 
-L['soulshape_chicken_note'] = nil
+L['soulshape_chicken_note'] = [[
+1. Recoge {item:187811} de |cffffff00Refugioscuro|r.
+2. Selecciona al {npc:181660} y haz /gallina.
+3. |cFFFF8C00Alma Perdida te cacarea hambrienta|r.
+4. Selecciona al {npc:181660} y usa el {item:187811}.
+]]
 L['spectral_feed_label'] = '{item:187811}'
-L['spectral_feed_note'] = nil
+L['spectral_feed_note'] = [[
+{item:187811} se usa para alimentar el {npc:181660} de |cffffff00Revendreth|r para el {item:187813}.
+
+{item:187811} se usa para alimentar a {npc:182093} en |cFFFFFF00Ardenweald|r para el |cFF00FF00[Alma de Gato Bien Alimentada]|r.
+
+|cFFFF8C00{item:187811} tiene 10 minutos de duración y 60 minutos de reaparición|r.
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
