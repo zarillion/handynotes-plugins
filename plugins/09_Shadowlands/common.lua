@@ -8,6 +8,8 @@ local L = ns.locale
 
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
+
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Reward = ns.reward.Reward
@@ -322,6 +324,34 @@ ns.groups.CORELESS_AUTOMA = Group('coreless_automa', 4327618, {
         return Group.IsEnabled(self)
     end
 })
+
+-------------------------------------------------------------------------------
+--------------------------------- SOULSHAPES ----------------------------------
+-------------------------------------------------------------------------------
+
+local Soulshape = Class('Soulshape', Collectible, {
+    covenant = ns.covenants.FAE,
+    IsEnabled = function(self)
+        if C_Covenants.GetActiveCovenantID() ~= ns.covenants.FAE.id then
+            return false
+        end
+        return Collectible.IsEnabled(self)
+    end
+})
+
+ns.node.Soulshape = Soulshape
+
+-------------------------------------------------------------------------------
+------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
+-------------------------------------------------------------------------------
+
+local Squirrel = Class('Squirrel', Collectible, {
+    group = ns.groups.SQUIRRELS,
+    icon = 237182,
+    note = L['squirrels_note']
+})
+
+ns.node.Squirrel = Squirrel
 
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------

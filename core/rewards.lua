@@ -9,7 +9,6 @@ local L = ns.locale
 local Green = ns.status.Green
 local Orange = ns.status.Orange
 local Red = ns.status.Red
-
 local White = ns.color.White
 
 -------------------------------------------------------------------------------
@@ -366,7 +365,7 @@ local Title = Class('Title', Reward, {type = L['title']})
 
 function Title:GetText()
     local text = self.pattern
-    local title = GetTitleName(self.id):match '^%s*(.-)%s*$' -- trim whitespace
+    local title = strtrim(GetTitleName(self.id))
     text = string.gsub(text, '{title}', title)
     local player = UnitName('player')
     text = string.gsub(text, '{player}', player)
