@@ -470,7 +470,7 @@ L['discarded_grimoire_note'] = 'Completa la misión {quest:62297}.'
 L['sorcerers_blade_label'] = 'Nota de Hechicero'
 L['sorcerers_blade_note'] = 'Completa la misión {quest:62317}.\n\nDentro de la Cámara de Almas, baja las escaleras y a la derecha de la estantería.'
 L['mucosal_pigment_label'] = '{item:183691}'
-L['mucosal_pigment_note'] = 'Cae de cualquier baba, gota, moco, raro, o gigante junto a la Casa de las Plagas.'
+L['mucosal_pigment_note'] = 'Cae de cualquier baba, gota, moco, raro, o gigante junto a la |cFFFFFF00Casa de las Plagas|r o en la zona alrededor de {npc:162727}.'
 L['amethystine_dye_note'] = 'Completa la misión {quest:62320}.'
 L['ritualists_mantle_note'] = 'Completa la misión {quest:62308}.'
 L['options_icons_crypt_couture'] = '{achievement:14763}'
@@ -1037,7 +1037,12 @@ L['coreless_automa_warning'] = '|cFFFF8C00Espera a que el automa te siga de verd
 L['olea_manu'] = 'Vende transfiguraciones y recetas a cambio de {currency:1979}.'
 
 L['venaris_fate_sublabel'] = 'Está en el |cFFFFFF00Catalizador de Creación|r.'
-L['venaris_fate_note'] = nil
+L['venaris_fate_note'] = [[
+1. Habla con la {npc:162804} incorpórea en el |cFFFFFF00Refugio de Ve'nari|r de |cFFFFFF00Las Fauces|r.
+2. Si no es incorpórea, hay que progresar en la historia adicional del parche 9.2.5.
+3. Interactúa con el cuerpo de {npc:162804} en el |cFFFFFF00Catalizador de Creación|r de |cFFFFFF00Zereth Mortis|r.
+4. 5 días después recibirás una carta en el buzón de {npc:162804} junto con el juguete {item:192485}.
+]]
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas para el logro {achievement:15211}.'
