@@ -15,6 +15,7 @@ read_globals = {
     'sqrt',
     'strsub',
     'strsplit',
+    'strtrim',
     'time',
     'wipe',
 
@@ -61,6 +62,7 @@ read_globals = {
     'GetSpellInfo',
     'GetText',
     'GetTime',
+    'GetTitleName',
     'InCombatLockdown',
     'IsAddOnLoaded',
     'IsLeftAltKeyDown',
