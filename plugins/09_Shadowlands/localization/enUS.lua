@@ -469,7 +469,7 @@ L['discarded_grimoire_note'] = 'Complete the quest {quest:62297}'
 L['sorcerers_blade_label'] = 'Sorcerer\'s Note'
 L['sorcerers_blade_note'] = 'Complete the quest {quest:62317}\n\nInside the Vault of Souls. Down the stairs and to the right on the bookcase.'
 L['mucosal_pigment_label'] = '{item:183691}'
-L['mucosal_pigment_note'] = 'Drops from any slime, droplet, ooze, rare, or giant near the House of Plagues'
+L['mucosal_pigment_note'] = 'Drops from any slime, droplet, ooze, rare, or giant near the |cFFFFFF00House of Plagues|r or the area around {npc:162727}'
 L['amethystine_dye_note'] = 'Complete the quest {quest:62320}'
 L['ritualists_mantle_note'] = 'Complete the quest {quest:62308}'
 L['options_icons_crypt_couture'] = '{achievement:14763}'
@@ -1036,7 +1036,12 @@ L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start 
 L['olea_manu'] = 'Sells collectibles and recipes in exchange for {currency:1979}.'
 
 L['venaris_fate_sublabel'] = 'Located in the |cFFFFFF00Creation Catalyst|r'
-L['venaris_fate_note'] = 'Interact with the corpse of {npc:185083}. 5 days later you will receive a letter in the mail from {npc:185083} along with the {item:192485}'
+L['venaris_fate_note'] = [[
+1. Speak with incorporeal {npc:162804} at |cFFFFFF00Ve'nari's Refuge|r in |cFFFFFF00The Maw|r.
+2. If she is not incorporeal, additional 9.2 story progress is required.
+3. Interact with the corpse of {npc:162804} in the |cFFFFFF00Creation Catalyst|r in |cFFFFFF00Zereth Mortis|r.
+4. 5 days later you will receive a letter in the mail from {npc:162804} along with the {item:192485}.
+]]
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Display creature locations for the {achievement:15211} achievement.'

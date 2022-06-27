@@ -1037,7 +1037,7 @@ L['coreless_automa_warning'] = '|cFFFF8C00Espera a que el automa te siga de verd
 L['olea_manu'] = 'Vende transfiguraciones y recetas a cambio de {currency:1979}.'
 
 L['venaris_fate_sublabel'] = 'Está en el |cFFFFFF00Catalizador de Creación|r.'
-L['venaris_fate_note'] = 'Interactúa con el cuerpo de {npc:185083}. Tras 5 días recibirás una carta en el buzón de {npc:185083} junto con el juguete {item:192485}.'
+L['venaris_fate_note'] = nil
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas para el logro {achievement:15211}.'

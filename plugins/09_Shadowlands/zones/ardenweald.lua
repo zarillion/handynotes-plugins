@@ -8,9 +8,10 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
-local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local Soulshape = ns.node.Soulshape
+local Squirrel = ns.node.Squirrel
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -30,9 +31,9 @@ local NECROLORD = ns.covenants.NEC
 local NIGHTFAE = ns.covenants.FAE
 
 local map = Map({id = 1565, settings = true})
-local tqc = Map({id = 1662, settings = true}) -- The Queen's Conservatory
-local hft = Map({id = 1701, settings = true}) -- Heart of the Forest - The Trunk
-local hfr = Map({id = 1702, settings = true}) -- Heart of the Forest - The Roots
+local tqc = Map({id = 1662}) -- The Queen's Conservatory
+local hft = Map({id = 1701}) -- Heart of the Forest - The Trunk
+local hfr = Map({id = 1702}) -- Heart of the Forest - The Roots
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -716,7 +717,7 @@ map.nodes[51005480] = NAUGHTY
 -------------------------------- WILD HUNTING ---------------------------------
 -------------------------------------------------------------------------------
 
-local Beast = Class('Beast', NPC,
+local Beast = Class('Beast', Collectible,
     {group = ns.groups.WILD_HUNTING, icon = 1604164})
 
 map.nodes[37695691] = Beast({
@@ -795,25 +796,41 @@ map.nodes[65205280] = Beast({
 ------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
 -------------------------------------------------------------------------------
 
-local Squirrel = Class('Squirrel', NPC, {
-    group = ns.groups.SQUIRRELS,
-    icon = 237182,
-    note = L['squirrels_note']
-})
-
 map.nodes[51906120] = Squirrel({
     id = 169979,
-    rewards = {Achievement({id = 14731, criteria = 50254})}
+    rewards = {Achievement({id = 14731, criteria = 50254})},
+    pois = {
+        POI({
+            56604600, 57204680, 58404640, 58404660, 58604640, 58604660,
+            59003720, 60203740, 60403840, 60403860, 60404040, 60404060,
+            60603840, 60603960, 60604060, 61004600, 61204180, 61403620,
+            61403680, 61403940, 61404280, 61603620, 61603940, 61603960,
+            61604280, 62204560, 62404480, 62604460, 62804220, 63004360,
+            63004800, 63204660, 63404280, 63404600, 63404860, 63604600,
+            63604780, 63804140, 63804260, 63804700, 64204220, 64204880,
+            64604220, 64604700, 64604940, 64605520, 64804820, 64805140,
+            65004140, 65405300, 65604220, 65605200, 65804820, 66004920,
+            66005000, 66203720, 66204120, 66404020, 66803720, 67003940,
+            67004080, 67203840, 67403980, 67603980, 67803760, 68003720, 69203780
+        })
+    }
 }) -- Starmoth
 
 map.nodes[40802810] = Squirrel({
     id = 166973,
-    rewards = {Achievement({id = 14731, criteria = 50255})}
+    rewards = {Achievement({id = 14731, criteria = 50255})},
+    pois = {POI({40202880, 40602740, 40802760, 42002740})}
 }) -- Timber Kit
 
 map.nodes[35205750] = Squirrel({
     id = 174837,
-    rewards = {Achievement({id = 14731, criteria = 50256})}
+    rewards = {Achievement({id = 14731, criteria = 50256})},
+    pois = {
+        POI({
+            32405300, 33405700, 33605200, 33605320, 34405540, 35205740,
+            35205760, 58404720, 58604720
+        })
+    }
 }) -- Runewood Hoarder
 
 -------------------------------------------------------------------------------
@@ -979,21 +996,13 @@ tqc.nodes[29504550] = WildseedSpirit({
 --------------------------------- SOULSHAPES ----------------------------------
 -------------------------------------------------------------------------------
 
-local CatSoul = Collectible({
+local CatSoul = Soulshape({
     id = 181694,
     icon = 656574,
-    quest = 64961,
-    covenant = NIGHTFAE,
     note = L['soulshape_cat_note'],
     rewards = {
         Item({item = 187819, quest = 64961, covenant = NIGHTFAE}) -- Cat Soul
-    },
-    IsEnabled = function(self)
-        if C_Covenants.GetActiveCovenantID() ~= NIGHTFAE.id then
-            return false
-        end
-        return Collectible.IsEnabled(self)
-    end
+    }
 }) -- Cat Soul
 
 map.nodes[65083646] = CatSoul
@@ -1003,7 +1012,7 @@ map.nodes[51213104] = CatSoul
 map.nodes[37593625] = CatSoul
 map.nodes[69852732] = CatSoul
 
-hft.nodes[53474971] = Node({
+hft.nodes[53474971] = Collectible({
     id = 174608,
     icon = 1339013,
     quest = 64938,
@@ -1011,7 +1020,7 @@ hft.nodes[53474971] = Node({
     note = L['soulshape_corgi_note']
 }) -- Corgi Soul
 
-hfr.nodes[58006900] = Node({
+hfr.nodes[58006900] = Collectible({
     id = 182093,
     icon = 656577,
     quest = 64982,

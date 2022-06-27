@@ -11,6 +11,8 @@ local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local Soulshape = ns.node.Soulshape
+local Squirrel = ns.node.Squirrel
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -1003,6 +1005,45 @@ map.nodes[64485273] = Inquisitor({
 }) -- Grand Inquisitor Nicu
 
 -------------------------------------------------------------------------------
+------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
+-------------------------------------------------------------------------------
+
+map.nodes[70907650] = Squirrel({
+    id = 174844,
+    rewards = {Achievement({id = 14731, criteria = 50264})},
+    pois = {
+        POI({
+            700407640, 700407660, 700807660, 710007640, 720407740, 720607860,
+            720807800
+        })
+    }
+}) -- Shardling
+
+map.nodes[39004930] = Squirrel({
+    id = 165767,
+    rewards = {Achievement({id = 14731, criteria = 50265})},
+    pois = {
+        POI({
+            27204460, 27404240, 28004420, 28404320, 28804500, 29203940,
+            29404440, 30003780, 30203980, 30403880, 31403940, 31404040,
+            31604060, 33404140, 38404920, 38404960, 38804900, 38805140,
+            39204980, 39405220, 39405400, 39605200, 39805360, 39805540,
+            40004960, 40005280, 40005560, 40404900, 40604920, 40605480,
+            58207660, 58607620, 59206820, 59206880, 59207320, 59406960,
+            59407660, 59408000, 59606780, 59806700, 59806940, 59806960,
+            60006620, 60007120, 60007340, 60007660, 60007840, 60207220,
+            60207600, 60207900, 60807720, 61006680, 61006780, 61407620, 61807900
+        })
+    }
+}) -- Emaciated Bat
+
+map.nodes[56005800] = Squirrel({
+    id = 174646,
+    rewards = {Achievement({id = 14731, criteria = 50266})},
+    pois = {POI({56005820, 56205880})}
+}) -- Murky Creeper
+
+-------------------------------------------------------------------------------
 -------------------------------- BROKEN MIRRORS -------------------------------
 -------------------------------------------------------------------------------
 
@@ -1179,49 +1220,16 @@ end
 map.nodes[62874341] = Blanchy()
 
 -------------------------------------------------------------------------------
------------------- TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
--------------------------------------------------------------------------------
-
-local Squirrel = Class('Squirrel', NPC, {
-    group = ns.groups.SQUIRRELS,
-    icon = 237182,
-    note = L['squirrels_note']
-})
-
-map.nodes[70907650] = Squirrel({
-    id = 174844,
-    rewards = {Achievement({id = 14731, criteria = 50264})}
-}) -- Shardling
-
-map.nodes[39004930] = Squirrel({
-    id = 165767,
-    rewards = {Achievement({id = 14731, criteria = 50265})}
-}) -- Emaciated Bat
-
-map.nodes[56005800] = Squirrel({
-    id = 174646,
-    rewards = {Achievement({id = 14731, criteria = 50266})}
-}) -- Murky Creeper
-
--------------------------------------------------------------------------------
 --------------------------------- SOULSHAPES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[63184276] = Collectible({
+map.nodes[63184276] = Soulshape({
     id = 181660,
     icon = 2027864,
-    quest = 64941,
-    covenant = NIGHTFAE,
     note = L['soulshape_chicken_note'],
     rewards = {
         Item({item = 187813, quest = 64941, covenant = NIGHTFAE}) -- Chicken Soul
-    },
-    IsEnabled = function(self)
-        if C_Covenants.GetActiveCovenantID() ~= NIGHTFAE.id then
-            return false
-        end
-        return Collectible.IsEnabled(self)
-    end
+    }
 }) -- Chicken Soul
 
 map.nodes[63756169] = Node({

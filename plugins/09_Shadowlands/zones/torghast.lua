@@ -6,11 +6,14 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Node = ns.node.Node
+
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 local Title = ns.reward.Title
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -25,7 +28,7 @@ local map = Map({id = 1911, settings = true})
 ---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
 -------------------------------------------------------------------------------
 
-map.nodes[53284528] = ns.node.Node({
+map.nodes[53284528] = Node({
     label = L['torghast_the_tower_of_the_damned'],
     sublabel = L['torghast_reward_sublabel'],
     note = L['torghast_boss_note'],
@@ -49,7 +52,7 @@ map.nodes[53284528] = ns.node.Node({
         Transmog({item = 188686, slot = L['cosmetic']}), -- Burnished Soul Restraint
         Transmog({item = 188687, slot = L['cosmetic']}), -- Burnished Skull Crescent
         Transmog({item = 188688, slot = L['cosmetic']}), -- Burnished Eye Crescent
-        ns.reward.Spacer(), Toy({item = 187075}), -- Box of Rattling Chains
+        Spacer(), Toy({item = 187075}), -- Box of Rattling Chains
         Mount({
             item = 188700,
             id = 1565,
@@ -58,7 +61,7 @@ map.nodes[53284528] = ns.node.Node({
     }
 })
 
-map.nodes[57284528] = ns.node.Node({
+map.nodes[57284528] = Node({
     label = L['torghast_the_tower_of_the_damned'],
     sublabel = L['torghast_reward_sublabel'],
     note = L['torghast_vendor_note'],
@@ -82,7 +85,7 @@ map.nodes[57284528] = ns.node.Node({
     }
 })
 
-map.nodes[55285000] = ns.node.Node({
+map.nodes[55285000] = Node({
     label = L['torghast_the_tower_of_the_damned'],
     sublabel = L['torghast_reward_sublabel'],
     note = L['torghast_reward_note'],
@@ -131,7 +134,7 @@ map.nodes[55285000] = ns.node.Node({
             }
         }), -- Tower Ranger
         Section(L['flawless_master_note']), Mount({item = 188736, id = 1564}), -- Colassal Soulshredder Mawrat
-        ns.reward.Spacer(), Section(L['tower_ranger_note']),
+        Spacer(), Section(L['tower_ranger_note']),
         Title({id = 450, criteria = 15324, pattern = '{player}, {title}'}) -- %s, Tower Ranger
     }
 })
@@ -140,7 +143,7 @@ map.nodes[55285000] = ns.node.Node({
 ------------------------------- TORGHAST WINGS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[47731915] = ns.node.Node({
+map.nodes[47731915] = Node({
     label = L['skoldus_hall'],
     sublabel = L['torghast_reward_sublabel'],
     icon = 3555135,
@@ -176,7 +179,7 @@ map.nodes[47731915] = ns.node.Node({
     }
 }) -- Skoldus Hall
 
-map.nodes[55191700] = ns.node.Node({
+map.nodes[55191700] = Node({
     label = L['fracture_chambers'],
     sublabel = L['torghast_reward_sublabel'],
     icon = 3592448,
@@ -207,7 +210,7 @@ map.nodes[55191700] = ns.node.Node({
     }
 }) -- Fracture Chambers
 
-map.nodes[63001915] = ns.node.Node({
+map.nodes[63001915] = Node({
     label = L['the_soulforges'],
     sublabel = L['torghast_reward_sublabel'],
     icon = 467102,
@@ -243,7 +246,7 @@ map.nodes[63001915] = ns.node.Node({
     }
 }) -- The Soulforges
 
-map.nodes[73943537] = ns.node.Node({
+map.nodes[73943537] = Node({
     label = L['coldheart_interstitia'],
     sublabel = L['torghast_reward_sublabel'],
     icon = 3552748,
@@ -278,7 +281,7 @@ map.nodes[73943537] = ns.node.Node({
     }
 }) -- Coldheart Interstitia
 
-map.nodes[75474699] = ns.node.Node({
+map.nodes[75474699] = Node({
     label = L['mortregar'],
     sublabel = L['torghast_reward_sublabel'],
     icon = 3586456,
@@ -311,7 +314,7 @@ map.nodes[75474699] = ns.node.Node({
     }
 }) -- Mort'regar
 
-map.nodes[73845861] = ns.node.Node({
+map.nodes[73845861] = Node({
     label = L['the_upper_reaches'],
     sublabel = L['torghast_reward_sublabel'],
     icon = 522867,
@@ -350,7 +353,7 @@ map.nodes[73845861] = ns.node.Node({
 ------------------------------- ADAMANT VAULTS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[62947482] = ns.node.Node({
+map.nodes[62947482] = Node({
     label = L['adamant_vaults'],
     icon = 3853943,
     scale = 1.5,
@@ -363,7 +366,7 @@ map.nodes[62947482] = ns.node.Node({
         Transmog({item = 187091, slot = L['cosmetic']}), -- Gilded Twin-Scythe Shoulders
         Transmog({item = 187084, slot = L['cosmetic']}), -- Jailer's Eye Crescent
         Transmog({item = 187025, slot = L['cosmetic']}), -- Painbringer's Back-Prison
-        ns.reward.Spacer(), Pet({item = 186549, id = 3130}), -- Gilded Darknight
+        Spacer(), Pet({item = 186549, id = 3130}), -- Gilded Darknight
         Toy({item = 187417}), -- Adamant Vaults Cell
         Item({item = 187148, quest = 64347}), -- Death-Bound Shard
         Item({item = 185049, quest = 63605, covenant = NIGHTFAE}), -- Sauolisk Soul
@@ -375,17 +378,17 @@ map.nodes[62947482] = ns.node.Node({
 ----------------------------- TWISTING CORRIDORS ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[55197712] = ns.node.Node({
+map.nodes[55197712] = Node({
     label = L['twisting_corridors'],
     icon = 3717273,
     scale = 1.5,
     requires = ns.requirement.Quest(62836),
     rewards = {
         Section(L['torghast_layer2']), Pet({item = 183412, id = 3041}), -- Death Seeker
-        ns.reward.Spacer(), Section(L['torghast_layer4']), Toy({item = 184223}), -- Helm of the Dominated
-        ns.reward.Spacer(), Section(L['torghast_layer6']),
+        Spacer(), Section(L['torghast_layer4']), Toy({item = 184223}), -- Helm of the Dominated
+        Spacer(), Section(L['torghast_layer6']),
         Title({id = 438, criteria = 14568, pattern = '{title} {player}'}), -- Spirestalker %s
-        ns.reward.Spacer(), Section(L['torghast_layer8']),
+        Spacer(), Section(L['torghast_layer8']),
         Mount({item = 184166, id = 1442}), -- Corridor Creeper
         Achievement({id = 15324, criteria = 52872}) -- Twisting Cordidors: Layer 8
     }
@@ -395,17 +398,17 @@ map.nodes[55197712] = ns.node.Node({
 ---------------------------- THE JAILER'S GAUNTLET ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[47447453] = ns.node.Node({
+map.nodes[47447453] = Node({
     label = L['the_jailers_gauntlet'],
     note = L['the_jailers_gauntlet_note'],
     icon = 3717264,
     scale = 1.5,
     rewards = {
         Section(L['torghast_layer1']), Pet({item = 188679, id = 3221}), -- Lightless Tormentor
-        ns.reward.Spacer(), Section(L['torghast_layer2']), Toy({item = 188952}), -- Dominated Heathstone
-        ns.reward.Spacer(), Section(L['torghast_layer3']),
+        Spacer(), Section(L['torghast_layer2']), Toy({item = 188952}), -- Dominated Heathstone
+        Spacer(), Section(L['torghast_layer3']),
         Title({id = 449, criteria = 15253, pattern = '{title} {player}'}), -- Gauntlet Runner %s
-        ns.reward.Spacer(), Section(L['torghast_layer4']),
+        Spacer(), Section(L['torghast_layer4']),
         Mount({item = 188696, id = 1566}), -- Colossal Ebonclaw Mawrat
         Achievement({id = 15324, criteria = 52873}) -- The Jailer's Gauntlet: Layer 4
     }
@@ -415,7 +418,7 @@ map.nodes[47447453] = ns.node.Node({
 --------------------------- THE BOX OF MANY THINGS ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[36044728] = ns.node.Node({
+map.nodes[36044728] = Node({
     label = L['the_box_of_many_things'],
     note = L['the_box_of_many_things_note'],
     icon = 4094821,
@@ -433,7 +436,7 @@ map.nodes[36044728] = ns.node.Node({
 ------------------------------- THE RUNECARVER --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[15786023] = ns.node.Node({
+map.nodes[15786023] = Node({
     label = L['the_runecarver'],
     icon = 607854,
     scale = 1.5,
