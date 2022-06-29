@@ -791,6 +791,7 @@ L['torghast_reward_sublabel'] = '|cFFFF8C00Rewards shared between most wings|r'
 L['torghast_boss_note'] = 'Dropped by various bosses throughout |cffffff00Torghast, the Tower of the Damned|r '
 L['torghast_vendor_note'] = 'Sold by vendors {npc:152594} and {npc:170257} for 300 {currency:1728} or 1,000 {currency:1728}'
 L['torghast_reward_note'] = 'Earned throughout |cffffff00Torghast, the Tower of the Damned|r '
+L['torghast_soulshape_note'] = 'Layer 12+'
 L['colossal_umbrahide_mawrat_note'] = 'Layer 13+'
 
 L['skoldus_hall'] = 'Skoldus Hall'

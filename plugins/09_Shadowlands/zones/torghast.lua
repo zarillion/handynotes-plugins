@@ -53,11 +53,14 @@ map.nodes[53284528] = Node({
         Transmog({item = 188687, slot = L['cosmetic']}), -- Burnished Skull Crescent
         Transmog({item = 188688, slot = L['cosmetic']}), -- Burnished Eye Crescent
         Spacer(), Toy({item = 187075}), -- Box of Rattling Chains
-        Mount({
-            item = 188700,
-            id = 1565,
-            note = L['colossal_umbrahide_mawrat_note']
-        }) -- Colossal Umbrahide Mawrat
+        Spacer(), Section(L['torghast_soulshape_note']),
+        Item({item = 189977, quest = 65509, covenant = NIGHTFAE}), -- Bat Soul
+        Item({item = 189971, quest = 65504, covenant = NIGHTFAE}), -- Dragonhawk Soul
+        Item({item = 189975, quest = 65507, covenant = NIGHTFAE}), -- Elekk Soul
+        Item({item = 189987, quest = 65515, covenant = NIGHTFAE}), -- Pig Soul
+        Item({item = 189976, quest = 65508, covenant = NIGHTFAE}), -- Tallstrider Soul
+        Spacer(), Section(L['colossal_umbrahide_mawrat_note']),
+        Mount({item = 188700, id = 1565}) -- Colossal Umbrahide Mawrat
     }
 })
 
