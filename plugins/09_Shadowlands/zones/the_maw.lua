@@ -1492,7 +1492,8 @@ local NIGHT_FAE_ASSAULT_REWARDS = {
         }
     }), -- Krrprripripkraak's Heroes
     Spacer(), Section('{item:185991}'), Mount({item = 186000, id = 1476}), -- Wild Hunt Legsplitter
-    Pet({item = 186547, id = 3116}) -- Invasive Buzzer
+    Pet({item = 186547, id = 3116}), -- Invasive Buzzer
+    Item({item = 185052, quest = 63608, covenant = NIGHTFAE}) -- Hippo Soul
 }
 
 local KYRIAN_ASSAULT_REWARDS = {

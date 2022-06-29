@@ -365,7 +365,8 @@ local Title = Class('Title', Reward, {type = L['title']})
 
 function Title:GetText()
     local text = self.pattern
-    local title = strtrim(GetTitleName(self.id))
+    local titleName, _ = GetTitleName(self.id)
+    local title = strtrim(titleName)
     text = string.gsub(text, '{title}', title)
     local player = UnitName('player')
     text = string.gsub(text, '{player}', player)

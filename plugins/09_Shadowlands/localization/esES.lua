@@ -792,6 +792,7 @@ L['torghast_reward_sublabel'] = '|cFFFF8C00Recompensas compartidas entre muchas 
 L['torghast_boss_note'] = 'Soltado por varios bosses a lo largo de |cffffff00Torghast, la Torre de los Condenados|r '
 L['torghast_vendor_note'] = 'Vendido por {npc:152594} y {npc:170257} por 300 {currency:1728} o 1.000 {currency:1728}'
 L['torghast_reward_note'] = 'Ganado a lo largo de |cffffff00Torghast, la Torre de los Condenados|r '
+L['torghast_soulshape_note'] = 'Capa 12+'
 L['colossal_umbrahide_mawrat_note'] = 'Capa 13+'
 
 L['skoldus_hall'] = 'Sala de Skoldus'

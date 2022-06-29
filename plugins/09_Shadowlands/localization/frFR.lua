@@ -761,6 +761,7 @@ L['torghast_reward_sublabel'] = nil
 L['torghast_boss_note'] = nil
 L['torghast_vendor_note'] = nil
 L['torghast_reward_note'] = nil
+L['torghast_soulshape_note'] = nil
 L['colossal_umbrahide_mawrat_note'] = nil
 
 L['skoldus_hall'] = nil
