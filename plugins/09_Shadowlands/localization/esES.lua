@@ -467,25 +467,25 @@ L['maximillian_note'] = 'Llevo mucho tiempo esperando a un rival digno. ¡El bot
 L['rotgut_note'] = 'Pudretripa. Sobras. Más partes. Lucha.'
 
 L['ashen_ink_label'] = '{item:183690}'
-L['ashen_ink_note'] = nil
+L['ashen_ink_note'] = 'Botín aleatorio de {npc:157125}.'
 
 L['jagged_bonesaw_label'] = '{item:183692}'
-L['jagged_bonesaw_note'] = nil
+L['jagged_bonesaw_note'] = 'Botín aleatorio de {npc:159105}.'
 
 L['discarded_grimoire_label'] = '{item:183394}'
-L['discarded_grimoire_note'] = nil
+L['discarded_grimoire_note'] = 'Completa la misión {quest:62297} que te da {npc:174020}.'
 
 L['sorcerers_blade_label'] = '{item:183397}'
-L['sorcerers_blade_note'] = nil
+L['sorcerers_blade_note'] = 'Completa la misión {quest:62317} que te da la |cFFFFFF00Nota de Hechicero|r dentro de la |cFFFFFF00Cámara de Almas|r. Baja las escaleras y a la derecha de la estantería.'
 
 L['mucosal_pigment_label'] = '{item:183691}'
 L['mucosal_pigment_note'] = 'Cae de cualquier baba, gota, moco, raro, o gigante junto a la |cFFFFFF00Casa de las Plagas|r o en la zona alrededor de {npc:162727}.'
 
 L['amethystine_dye_label'] = '{item:183401}'
-L['amethystine_dye_note'] = nil
+L['amethystine_dye_note'] = 'Completa la misión {quest:62320} que te da {npc:174120}.'
 
 L['ritualists_mantle_label'] = '{item:183399}'
-L['ritualists_mantle_note'] = nil
+L['ritualists_mantle_note'] = 'Completa la misión {quest:62308} que te da {npc:172813}. Requiere 3 personas para invocar a {npc:174127}.'
 
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = 'Sitios donde encontrar las personalizaciones del disfraz de Acólito Necrótico para el logro {achievement:14763}.'
