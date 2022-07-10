@@ -7,8 +7,6 @@ local Class = ns.Class
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
-local Node = ns.node.Node
-local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Soulshape = ns.node.Soulshape
@@ -19,7 +17,6 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
-local Spell = ns.reward.Spell
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
