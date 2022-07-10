@@ -706,97 +706,107 @@ Map({id = 1697}).nodes[45203680] = Kitten({
 ------------------------------- CRYPT COUTURE ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[28805160] = NPC({
-    id = 157125,
+map.nodes[28805160] = Collectible({
+    label = L['ashen_ink_label'],
     icon = 134846,
-    covenant = NECROLORD,
+    quest = 62404,
+    note = L['ashen_ink_note'] .. '\n\n' .. L['zargox_the_reborn_note'],
+    requires = ns.requirement.Item(175841),
     group = ns.groups.CRYPT_COUTURE,
     rewards = {
-        Spell({item = 183690, spell = 341908}), -- Ashen Ink
-        Achievement({id = 14763, criteria = 49929, covenant = NECROLORD})
-    }
-}) -- Zargox the Reborn
+        Item({item = 183690, quest = 62404}), -- Ashen Ink
+        Achievement({id = 14763, criteria = 49929})
+    },
+    pois = {POI({26314280})}
+}) -- Ashen Ink
 
-map.nodes[49602360] = NPC({
-    id = 159105,
+map.nodes[49602360] = Collectible({
+    label = L['jagged_bonesaw_label'],
     icon = 1064192,
-    covenant = NECROLORD,
+    quest = 62408,
+    note = L['jagged_bonesaw_note'],
     group = ns.groups.CRYPT_COUTURE,
     rewards = {
-        Spell({item = 183692, spell = 341911}), -- Jagged Bonesaw
-        Achievement({id = 14763, criteria = 49930, covenant = NECROLORD})
+        Item({item = 183692, quest = 62408}), -- Jagged Bonesaw
+        Achievement({id = 14763, criteria = 49930})
     }
-}) -- Collector Kash
+}) -- Jagged Bonesaw
 
-map.nodes[70402780] = NPC({
-    id = 174020,
+map.nodes[70402780] = Collectible({
+    label = L['discarded_grimoire_label'],
     icon = 133737,
-    covenant = NECROLORD,
+    quest = 62297, -- A Fatal Failure
     note = L['discarded_grimoire_note'],
     group = ns.groups.CRYPT_COUTURE,
     rewards = {
-        Spell({item = 183394, spell = 341169}), -- Discarded Grimoire
-        Achievement({id = 14763, criteria = 49931, covenant = NECROLORD})
+        Item({item = 183394, quest = 62266}), -- Discarded Grimoire
+        Achievement({id = 14763, criteria = 49931})
     }
-}) -- Captain Prateq
+}) -- Discarded Grimoire
 
-local sorcerersNote = Node({
+local sorcerersBlade = Collectible({
     label = L['sorcerers_blade_label'],
     icon = 463557,
-    covenant = NECROLORD,
+    quest = 62306, -- Casting Doubt
     note = L['sorcerers_blade_note'],
     group = ns.groups.CRYPT_COUTURE,
     rewards = {
-        Spell({item = 183397, spell = 341420}), -- Sorcerer's Blade
-        Achievement({id = 14763, criteria = 49932, covenant = NECROLORD})
+        Item({item = 183397, quest = 62306}), -- Sorcerer's Blade
+        Achievement({id = 14763, criteria = 49932})
     }
-}) -- Sorcerer's Note
+}) -- Sorcerer's Blade
 
-map.nodes[70962857] = sorcerersNote
-vos.nodes[55726400] = sorcerersNote
+map.nodes[70962857] = sorcerersBlade
+vos.nodes[46623172] = sorcerersBlade
 
-map.nodes[64007000] = Node({
+map.nodes[64007000] = Collectible({
     label = L['mucosal_pigment_label'],
     icon = 134877,
-    covenant = NECROLORD,
+    quest = 62405,
     note = L['mucosal_pigment_note'],
     group = ns.groups.CRYPT_COUTURE,
     rewards = {
-        Spell({item = 183691, spell = 341909}), -- Mucosal Pigment
-        Achievement({id = 14763, criteria = 49933, covenant = NECROLORD})
+        Item({item = 183691, quest = 62405}), -- Mucosal Pigment
+        Achievement({id = 14763, criteria = 49933})
     },
     pois = {
         Path({
             Circle({origin = 64007000, radius = 5}) -- House of Plagues
         }), Path({
-            Circle({origin = 52743615, radius = 5}) -- Bubbleblood
+            Circle({origin = 52663542, radius = 2}) -- Bubbleblood
         })
     }
 }) -- Mucosal Pigment
 
-map.nodes[71603280] = NPC({
-    id = 174120,
+map.nodes[71603280] = Collectible({
+    label = L['amethystine_dye_label'],
     icon = 1385242,
-    covenant = NECROLORD,
+    quest = 62320, -- Regalia de Rigueur
     note = L['amethystine_dye_note'],
     group = ns.groups.CRYPT_COUTURE,
     rewards = {
-        Spell({item = 183401, spell = 341428}), -- Amethystine Dye
-        Achievement({id = 14763, criteria = 49934, covenant = NECROLORD})
+        Item({item = 183401, quest = 62319}), -- Amethystine Dye
+        Achievement({id = 14763, criteria = 49934})
+    },
+    pois = {
+        POI({
+            70773279, 68993365, 69063276, 64682644, 65222826, 65042801,
+            68032986, 70183124, 71623558
+        })
     }
-}) -- Moret the Vogue
+}) -- Amethystine Dye
 
-map.nodes[67803060] = NPC({
-    id = 172813,
+map.nodes[67803060] = Collectible({
+    label = L['ritualists_mantle_label'],
     icon = 3087539,
-    covenant = NECROLORD,
+    quest = 62308, -- Mantle of Mastery
     note = L['ritualists_mantle_note'],
     group = ns.groups.CRYPT_COUTURE,
     rewards = {
-        Spell({item = 183399, spell = 341424}), -- Ritualists Mantle
-        Achievement({id = 14763, criteria = 49935, covenant = NECROLORD})
+        Item({item = 183399, quest = 62311}), -- Ritualists Mantle
+        Achievement({id = 14763, criteria = 49935})
     }
-}) -- Ton'hamil
+}) -- Ritualists Mantle
 
 -------------------------------------------------------------------------------
 ------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
