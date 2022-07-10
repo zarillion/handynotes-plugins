@@ -484,7 +484,7 @@ L['amethystine_dye_label'] = '{item:183401}'
 L['amethystine_dye_note'] = 'Complete {quest:62320} given by {npc:174120}'
 
 L['ritualists_mantle_label'] = '{item:183399}'
-L['ritualists_mantle_note'] = 'Complete {quest:62308} given by {npc:172813}. Requires 3 people to summon the elder spirit.'
+L['ritualists_mantle_note'] = 'Complete {quest:62308} given by {npc:172813}. Requires 3 people to summon {npc:174127}.'
 
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = 'Necrotic Acolyte disguise customization locations for {achievement:14763}'
