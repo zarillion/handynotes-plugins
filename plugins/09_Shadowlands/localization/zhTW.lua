@@ -443,13 +443,27 @@ L['dundley_note'] = '我會一路過關斬將，直到獲得我應得的尊敬�
 L['maximillian_note'] = '我等了這麼多年，就是想要一個好對手。贏家擁有所有戰利品！'
 L['rotgut_note'] = '腐腸、殘渣。多出來的。你要打。'
 
+L['ashen_ink_label'] = '{item:183690}'
+L['ashen_ink_note'] = nil
+
+L['jagged_bonesaw_label'] = '{item:183692}'
+L['jagged_bonesaw_note'] = nil
+
+L['discarded_grimoire_label'] = '{item:183394}'
 L['discarded_grimoire_note'] = nil
-L['sorcerers_blade_label'] = nil
+
+L['sorcerers_blade_label'] = '{item:183397}'
 L['sorcerers_blade_note'] = nil
+
 L['mucosal_pigment_label'] = '{item:183691}'
 L['mucosal_pigment_note'] = nil
+
+L['amethystine_dye_label'] = '{item:183401}'
 L['amethystine_dye_note'] = nil
+
+L['ritualists_mantle_label'] = '{item:183399}'
 L['ritualists_mantle_note'] = nil
+
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = nil
 

@@ -465,13 +465,27 @@ L['dundley_note'] = 'I\'ll battle my way to victory and gain the respect I final
 L['maximillian_note'] = 'I have waited dozens of years for a worthy opponent. To the victor go the spoils!'
 L['rotgut_note'] = 'Rotgut. Leftovers. Extra pieces. You fight.'
 
-L['discarded_grimoire_note'] = 'Complete the quest {quest:62297}'
-L['sorcerers_blade_label'] = 'Sorcerer\'s Note'
-L['sorcerers_blade_note'] = 'Complete the quest {quest:62317}\n\nInside the Vault of Souls. Down the stairs and to the right on the bookcase.'
+L['ashen_ink_label'] = '{item:183690}'
+L['ashen_ink_note'] = 'Random drop from {npc:157125}'
+
+L['jagged_bonesaw_label'] = '{item:183692}'
+L['jagged_bonesaw_note'] = 'Random drop from {npc:159105}'
+
+L['discarded_grimoire_label'] = '{item:183394}'
+L['discarded_grimoire_note'] = 'Complete {quest:62297} given by {npc:174020}'
+
+L['sorcerers_blade_label'] = '{item:183397}'
+L['sorcerers_blade_note'] = 'Complete {quest:62317} given by |cFFFFFF00Sorcerer\'s Note|r inside the |cFFFFFF00Vault of Souls|r. Down the stairs and to the left on the bookcase.'
+
 L['mucosal_pigment_label'] = '{item:183691}'
 L['mucosal_pigment_note'] = 'Drops from any slime, droplet, ooze, rare, or giant near the |cFFFFFF00House of Plagues|r or the area around {npc:162727}'
-L['amethystine_dye_note'] = 'Complete the quest {quest:62320}'
-L['ritualists_mantle_note'] = 'Complete the quest {quest:62308}'
+
+L['amethystine_dye_label'] = '{item:183401}'
+L['amethystine_dye_note'] = 'Complete {quest:62320} given by {npc:174120}'
+
+L['ritualists_mantle_label'] = '{item:183399}'
+L['ritualists_mantle_note'] = 'Complete {quest:62308} given by {npc:172813}. Requires 3 people to summon the elder spirit.'
+
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = 'Necrotic Acolyte disguise customization locations for {achievement:14763}'
 

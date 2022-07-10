@@ -444,13 +444,27 @@ L['dundley_note'] = 'Я буду сражаться за свой путь к п
 L['maximillian_note'] = 'Я десятки лет ждал достойного соперника. К победителю идут трофеи!'
 L['rotgut_note'] = 'Гнилобрюх. Остатки. Дополнительные части. Ты сражаешься.'
 
+L['ashen_ink_label'] = '{item:183690}'
+L['ashen_ink_note'] = nil
+
+L['jagged_bonesaw_label'] = '{item:183692}'
+L['jagged_bonesaw_note'] = nil
+
+L['discarded_grimoire_label'] = '{item:183394}'
 L['discarded_grimoire_note'] = nil
-L['sorcerers_blade_label'] = nil
+
+L['sorcerers_blade_label'] = '{item:183397}'
 L['sorcerers_blade_note'] = nil
+
 L['mucosal_pigment_label'] = '{item:183691}'
 L['mucosal_pigment_note'] = nil
+
+L['amethystine_dye_label'] = '{item:183401}'
 L['amethystine_dye_note'] = nil
+
+L['ritualists_mantle_label'] = '{item:183399}'
 L['ritualists_mantle_note'] = nil
+
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = nil
 
