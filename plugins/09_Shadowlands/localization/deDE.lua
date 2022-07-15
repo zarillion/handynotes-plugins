@@ -550,6 +550,15 @@ L['inquisitor_note'] = 'Gib 100 {currency:1816} bei {npc:160248} ab, um eine Cha
 L['options_icons_inquisitors'] = '{achievement:14276}'
 L['options_icons_inquisitors_desc'] = 'Zeigt die Inquisitoren für den Erfolg {achievement:14276} an.'
 
+L['bell_of_shame_note'] = nil
+L['atonement_crypt_label'] = nil
+L['atonement_crypt_note'] = nil
+L['atonement_crypts_opened'] = nil
+L['atonement_crypt_key_label'] = '{item:172957}'
+L['atonement_crypt_key_note'] = nil
+L['options_icons_crypt_kicker'] = '{achievement:14273}'
+L['options_icons_crypt_kicker_desc'] = nil
+
 L['broken_mirror'] = 'Zerbrochener Spiegel'
 L['broken_mirror_note'] = 'Täglich wird eine Gruppe von drei zerbrochenen Spiegeln aktiv sein. Benutze ein {item:181363}, um die Spiegel zu reparieren und die |cFFFFFD00Vergessene Truhe|r auf der anderen Seite des Spiegels zu plündern.'
 L['broken_mirror_crypt'] = 'In einer Gruft.'

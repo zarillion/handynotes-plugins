@@ -543,6 +543,15 @@ L['inquisitor_note'] = 'Donnez 100 {currency:1816} à l\'{npc:160248} our avoir 
 L['options_icons_inquisitors'] = 'Inquisiteurs'
 L['options_icons_inquisitors_desc'] = 'Afficher les emplacements des inquisiteurs pour le succès {achievement:14276}.'
 
+L['bell_of_shame_note'] = nil
+L['atonement_crypt_label'] = nil
+L['atonement_crypt_note'] = nil
+L['atonement_crypts_opened'] = nil
+L['atonement_crypt_key_label'] = '{item:172957}'
+L['atonement_crypt_key_note'] = nil
+L['options_icons_crypt_kicker'] = '{achievement:14273}'
+L['options_icons_crypt_kicker_desc'] = nil
+
 L['broken_mirror'] = 'Miroir brisé'
 L['broken_mirror_note'] = 'Un groupe de trois miroirs brisés sera actif chaque jour. Utilisez une {item:181363} pour réparer chaque miroir et ouvrir le |cFFFFFD00Coffre oublié|r à l\'intérieur.'
 L['broken_mirror_crypt'] = 'Dans une crypte.'

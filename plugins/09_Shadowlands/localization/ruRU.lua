@@ -545,6 +545,15 @@ L['inquisitor_note'] = 'Сдайте 100 {currency:1816} у {npc:160248}, что
 L['options_icons_inquisitors'] = 'Инквизиторы'
 L['options_icons_inquisitors_desc'] = 'Показать местоположения инквизиторов для достижения {achievement:14276}.'
 
+L['bell_of_shame_note'] = nil
+L['atonement_crypt_label'] = nil
+L['atonement_crypt_note'] = nil
+L['atonement_crypts_opened'] = nil
+L['atonement_crypt_key_label'] = '{item:172957}'
+L['atonement_crypt_key_note'] = nil
+L['options_icons_crypt_kicker'] = '{achievement:14273}'
+L['options_icons_crypt_kicker_desc'] = nil
+
 L['broken_mirror'] = 'Сломанные зеркала'
 L['broken_mirror_note'] = 'Группа из трех разбитых зеркал будет активна каждый день. Используйте {item:181363}, чтобы починить каждое зеркало и открыть |cFFFFFD00Позабытый сундук|r внутри.'
 L['broken_mirror_crypt'] = 'Внутри склепа.'

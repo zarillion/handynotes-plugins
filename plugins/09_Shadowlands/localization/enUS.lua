@@ -566,6 +566,15 @@ L['inquisitor_note'] = 'Turn in 100 {currency:1816} to {npc:160248} for a chance
 L['options_icons_inquisitors'] = 'Inquisitors'
 L['options_icons_inquisitors_desc'] = 'Display inquisitor locations for the {achievement:14276} achievement.'
 
+L['bell_of_shame_note'] = 'Every 30 minutes a random ghost will spawn next to {npc:176006}.\n\nRepair the {npc:176056} for 30 {currency:1820} and then ring the bell to receive a buff from the active ghost.\n\nOne of the ghosts, {npc:176043}, gives {spell:346708} which provides an increased {item:172957} drop rate within the surrounding |cFFFFFD00Halls of Atonement|r area.'
+L['atonement_crypt_label'] = 'Atonement Crypt'
+L['atonement_crypt_note'] = 'Open an |cFFFFFD00Atonement Crypt|r using an {item:172957}.'
+L['atonement_crypts_opened'] = 'Atonement Crypts opened'
+L['atonement_crypt_key_label'] = '{item:172957}'
+L['atonement_crypt_key_note'] = '{item:172957} can drop from most mobs in the |cFFFFFD00Halls of Atonement|r area.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nThe highest drop rate is from {npc:158892}.'
+L['options_icons_crypt_kicker'] = '{achievement:14273}'
+L['options_icons_crypt_kicker_desc'] = 'Display farming locations for the {achievement:14273} achievement.'
+
 L['broken_mirror'] = 'Broken Mirror'
 L['broken_mirror_note'] = 'A group of three broken mirrors will be active each day. Use a {item:181363} to repair each mirror and open the |cFFFFFD00Forgotten Chest|r inside.'
 L['broken_mirror_crypt'] = 'Inside a crypt.'

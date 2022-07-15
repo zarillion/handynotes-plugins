@@ -454,6 +454,15 @@ L['inquisitor_note'] = nil
 L['options_icons_inquisitors'] = nil
 L['options_icons_inquisitors_desc'] = nil
 
+L['bell_of_shame_note'] = nil
+L['atonement_crypt_label'] = nil
+L['atonement_crypt_note'] = nil
+L['atonement_crypts_opened'] = nil
+L['atonement_crypt_key_label'] = '{item:172957}'
+L['atonement_crypt_key_note'] = nil
+L['options_icons_crypt_kicker'] = '{achievement:14273}'
+L['options_icons_crypt_kicker_desc'] = nil
+
 L['broken_mirror'] = nil
 L['broken_mirror_note'] = nil
 L['broken_mirror_crypt'] = nil
