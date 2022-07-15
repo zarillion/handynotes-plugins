@@ -1005,6 +1005,93 @@ map.nodes[64485273] = Inquisitor({
 }) -- Grand Inquisitor Nicu
 
 -------------------------------------------------------------------------------
+--------------------------------- CRYPT KICKER --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[72384967] = NPC({
+    id = 176056,
+    icon = 133706,
+    group = ns.groups.CRYPT_KICKER,
+    note = L['bell_of_shame_note'],
+    requires = ns.requirement.Quest(57928), -- Atonement Crypt Key
+    rewards = {
+        Achievement({
+            id = 14273,
+            criteria = ({
+                id = 1,
+                qty = true,
+                suffix = L['atonement_crypts_opened']
+            })
+        })
+    }
+}) -- Bell of Shame (Gahiji the Tomb Raider)
+
+local AtonementCrypt = Node({
+    label = L['atonement_crypt_label'],
+    icon = 'peg_gn',
+    scale = 1.2,
+    group = ns.groups.CRYPT_KICKER,
+    note = L['atonement_crypt_note'],
+    requires = ns.requirement.Quest(57928), -- Atonement Crypt Key
+    rewards = {
+        Achievement({
+            id = 14273,
+            criteria = ({
+                id = 1,
+                qty = true,
+                suffix = L['atonement_crypts_opened']
+            })
+        })
+    }
+}) -- Atonement Crypt
+
+map.nodes[68615334] = AtonementCrypt
+map.nodes[68925414] = AtonementCrypt
+map.nodes[68985535] = AtonementCrypt
+map.nodes[69065330] = AtonementCrypt
+map.nodes[69645376] = AtonementCrypt
+map.nodes[69815460] = AtonementCrypt
+map.nodes[69815523] = AtonementCrypt
+map.nodes[70235457] = AtonementCrypt
+map.nodes[70245522] = AtonementCrypt
+map.nodes[70405378] = AtonementCrypt
+map.nodes[70885403] = AtonementCrypt
+map.nodes[70915574] = AtonementCrypt
+map.nodes[70945491] = AtonementCrypt
+
+local AtonementCryptKey = Node({
+    label = L['atonement_crypt_key_label'],
+    icon = 'peg_bl',
+    scale = 1.0,
+    group = ns.groups.CRYPT_KICKER,
+    note = L['atonement_crypt_key_note'],
+    requires = ns.requirement.Quest(57928), -- Atonement Crypt Key
+    rewards = {
+        Achievement({
+            id = 14273,
+            criteria = ({
+                id = 1,
+                qty = true,
+                suffix = L['atonement_crypts_opened']
+            })
+        })
+    }
+}) -- Atonement Crypt Key
+
+map.nodes[67024378] = AtonementCryptKey
+map.nodes[69664544] = AtonementCryptKey
+map.nodes[70875231] = AtonementCryptKey
+map.nodes[71314407] = AtonementCryptKey
+map.nodes[71444970] = AtonementCryptKey
+map.nodes[72544471] = AtonementCryptKey
+map.nodes[72714666] = AtonementCryptKey
+map.nodes[73064493] = AtonementCryptKey
+map.nodes[73344700] = AtonementCryptKey
+map.nodes[73554968] = AtonementCryptKey
+map.nodes[74454970] = AtonementCryptKey
+map.nodes[75104712] = AtonementCryptKey
+
+-------------------------------------------------------------------------------
 ------------------ TO ALL THE SQUIRRELS I'VE LOVED AND LOST -------------------
 -------------------------------------------------------------------------------
 

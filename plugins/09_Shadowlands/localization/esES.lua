@@ -567,6 +567,15 @@ L['inquisitor_note'] = 'Entrega 100 {currency:1816} al {npc:160248} para tener u
 L['options_icons_inquisitors'] = 'Inquisidores'
 L['options_icons_inquisitors_desc'] = 'Muestra dónde están los inquisidores para el logro {achievement:14276}.'
 
+L['bell_of_shame_note'] = nil
+L['atonement_crypt_label'] = nil
+L['atonement_crypt_note'] = nil
+L['atonement_crypts_opened'] = nil
+L['atonement_crypt_key_label'] = '{item:172957}'
+L['atonement_crypt_key_note'] = nil
+L['options_icons_crypt_kicker'] = '{achievement:14273}'
+L['options_icons_crypt_kicker_desc'] = nil
+
 L['broken_mirror'] = 'Espejo Roto'
 L['broken_mirror_note'] = 'Cada día estará activo un grupo de tres espejos rotos. Usa un {item:181363} para reparar cada espejo y abrir el |cFFFFFD00Cofre Olvidado|r de dentro.'
 L['broken_mirror_crypt'] = 'Dentro de una cripta.'

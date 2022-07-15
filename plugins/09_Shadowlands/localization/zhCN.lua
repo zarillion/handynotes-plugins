@@ -544,6 +544,15 @@ L['inquisitor_note'] = '把100个 {currency:1816} 交给 {npc:160248} 有机会�
 L['options_icons_inquisitors'] = '审判官'
 L['options_icons_inquisitors_desc'] = '显示 {achievement:14276} 成就中审判官的位置。'
 
+L['bell_of_shame_note'] = nil
+L['atonement_crypt_label'] = nil
+L['atonement_crypt_note'] = nil
+L['atonement_crypts_opened'] = nil
+L['atonement_crypt_key_label'] = '{item:172957}'
+L['atonement_crypt_key_note'] = nil
+L['options_icons_crypt_kicker'] = '{achievement:14273}'
+L['options_icons_crypt_kicker_desc'] = nil
+
 L['broken_mirror'] = '残破的镜子'
 L['broken_mirror_note'] = '每天将会激活一组3个残破的镜子。使用一个 {item:181363} 修复每个镜子并打开其中的 |cFFFFFD00被遗忘的宝箱|r。'
 L['broken_mirror_crypt'] = '墓穴内。'

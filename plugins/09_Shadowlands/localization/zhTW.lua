@@ -544,6 +544,15 @@ L['inquisitor_note'] = '把100個 {currency:1816} 交給 {npc:160248} 有機會�
 L['options_icons_inquisitors'] = '{achievement:14276}'
 L['options_icons_inquisitors_desc'] = '顯示 {achievement:14276} 成就中審判官的位置。'
 
+L['bell_of_shame_note'] = nil
+L['atonement_crypt_label'] = nil
+L['atonement_crypt_note'] = nil
+L['atonement_crypts_opened'] = nil
+L['atonement_crypt_key_label'] = '{item:172957}'
+L['atonement_crypt_key_note'] = nil
+L['options_icons_crypt_kicker'] = '{achievement:14273}'
+L['options_icons_crypt_kicker_desc'] = nil
+
 L['broken_mirror'] = '破損的鏡子'
 L['broken_mirror_note'] = '每天會有三個為一組的破損的鏡子被啟動. 使用 {item:181363} 來維修每一個鏡子並且可以打開裡面的 |cFFFFFD00被遺忘的箱子|r'
 L['broken_mirror_crypt'] = '在墓穴內'
