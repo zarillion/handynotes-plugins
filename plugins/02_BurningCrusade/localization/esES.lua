@@ -8,4 +8,4 @@ if not L then return end
 
 L['netherwing_egg'] = '{item:32506}'
 L['options_icons_netherwing_eggs'] = '{achievement:898}'
-L['options_icons_netherwing_eggs_desc'] = 'Muestra donde están los Huevo Ala Abisal para el logo {achievement:898}.'
+L['options_icons_netherwing_eggs_desc'] = 'Muestra donde están los Huevo Ala Abisal para el logro {achievement:898}.'
