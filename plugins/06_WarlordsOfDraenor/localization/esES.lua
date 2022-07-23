@@ -14,6 +14,24 @@ L['strange_spore_treasure'] = 'Espora Extraña'
 L['multiple_spawn_note'] = 'Puede aparecer en varios sitios.'
 
 -------------------------------------------------------------------------------
+------------------------------- FROSTFIRE RIDGE -------------------------------
+-------------------------------------------------------------------------------
+
+L['frozen_slave_label'] = '{npc:82680}'
+L['prisoner_cage_label'] = nil
+L['slaves_freed'] = nil
+
+L['delectable_ogre_delicacies_label'] = '{achievement:9534}'
+L['delectable_ogre_delicacies_note'] = nil
+
+L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
+L['options_icons_writing_in_the_snow_desc'] = nil
+L['options_icons_breaker_of_chains'] = '{achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = nil
+L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
+L['options_icons_delectable_ogre_delicacies_desc'] = nil
+
+-------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -50,8 +68,69 @@ L['laughing_skull_note'] = 'Encima del árbol.'
 L['warm_goren_egg_note'] = 'El {item:118705} tras incubar 7 días se convierte en {item:118716}.'
 L['ninja_pepe_note'] = 'Sentado en una silla que hay dentro de la choza.'
 
+L['protectors_of_the_grove_label'] = 'Protectors of the Grove'
+L['protectors_of_the_grove_sublabel'] = nil
+
+L['prove_your_strength_note'] = nil
+L['ancient_branch_label'] = '{item:114030}'
+L['ancient_branch_note'] = nil
+L['basilisk_scale_label'] = '{item:114036}'
+L['basilisk_scale_note'] = nil
+L['botani_bloom_label'] = '{item:114025}'
+L['botani_bloom_note'] = nil
+L['elemental_crystal_label'] = '{item:114038}'
+L['elemental_crystal_note'] = nil
+L['acid_stained_goren_tooth_label'] = '{item:113590}'
+L['acid_stained_goren_tooth_note'] = nil
+L['gronn_eye_label'] = '{item:114023}'
+L['gronn_eye_note'] = nil
+L['gronnling_scale_label'] = '{item:114021}'
+L['gronnling_scale_note'] = nil
+L['worn_ogron_horn_label'] = '{item:114019}'
+L['worn_ogron_horn_note'] = nil
+L['orc_thorn_label'] = '{item:114027}'
+L['orc_thorn_note'] = nil
+L['ravager_claw_label'] = '{item:114032}'
+L['ravager_claw_note'] = nil
+L['wasp_stinger_label'] = '{item:114034}'
+L['wasp_stinger_note'] = nil
+
 L['options_icons_attack_plans'] = '{achievement:9656}'
 L['options_icons_attack_plans_desc'] = 'Muestra los sitios dónde están los Planes de Ataque de la Horda de Hierro para {achievement:9656}.'
+L['options_icons_ancient_no_more'] = '{achievement:9678}'
+L['options_icons_ancient_no_more_desc'] = nil
+L['options_icons_fight_the_power'] = '{achievement:9655}'
+L['options_icons_fight_the_power_desc'] = nil
+L['options_icons_prove_your_strength'] = '{achievement:9402}'
+L['options_icons_prove_your_strength_desc'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------------ NAGRAND ----------------------------------
+-------------------------------------------------------------------------------
+
+L['highmaul_farm_path'] = nil
+
+L['steamwheedle_preservation_society_note'] = nil
+
+L['finding_your_waystones_label'] = '{achievement:9497}'
+L['finding_your_waystones_note'] = nil
+L['ogre_waystones'] = nil
+
+L['signal_horn_note'] = nil
+
+L['garroshs_shackles'] = nil
+L['warsong_relics'] = nil
+L['stolen_draenei_tome'] = nil
+L['dirt_mound'] = nil
+
+L['options_icons_steamwheedle_preservation_society'] = '{achievement:9472}'
+L['options_icons_steamwheedle_preservation_society_desc'] = nil
+L['options_icons_finding_your_waystones'] = '{achievement:9497}'
+L['options_icons_finding_your_waystones_desc'] = nil
+L['options_icons_song_of_silence'] = '{achievement:9541}'
+L['options_icons_song_of_silence_desc'] = nil
+L['options_icons_buried_treasures'] = '{achievement:9548}'
+L['options_icons_buried_treasures_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -73,6 +152,9 @@ La última opción es usar sólo un personaje. Ves a la runa, enciéndela, telep
 
 Se pueden combinar cualquiera de los métodos anteriores para invocar a {npc:87668}.
 ]]
+
+L['options_icons_cut_off_the_head'] = '{achievement:9633}'
+L['options_icons_cut_off_the_head_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------

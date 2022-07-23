@@ -13,6 +13,30 @@ L['strange_spore_treasure'] = 'Strange Spore'
 L['multiple_spawn_note'] = 'Can spawn in multiple locations.'
 
 -------------------------------------------------------------------------------
+------------------------------- FROSTFIRE RIDGE -------------------------------
+-------------------------------------------------------------------------------
+
+L['frozen_slave_label'] = '{npc:82680}'
+L['prisoner_cage_label'] = 'Prisoner Cage'
+L['slaves_freed'] = 'slaves freed'
+
+L['delectable_ogre_delicacies_label'] = '{achievement:9534}'
+L['delectable_ogre_delicacies_note'] = [[
+{npc:82801}, {npc:82822}, and {npc:82823} can spawn in any location
+
+{spell:166684} lasts 5 minutes
+{spell:166686} lasts 2 minutes
+{spell:166687} lasts 2 minutes
+]]
+
+L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
+L['options_icons_writing_in_the_snow_desc'] = 'Display the locations of {npc:82833} for {achievement:9531}'
+L['options_icons_breaker_of_chains'] = '{achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = 'Display the locations of {npc:82680} and |cffffff00Prisoner Cage|r for {achievement:9533}'
+L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
+L['options_icons_delectable_ogre_delicacies_desc'] = 'Display the locations of delicacies for {achievement:9534}'
+
+-------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -49,8 +73,82 @@ L['laughing_skull_note'] = 'Up in the tree.'
 L['warm_goren_egg_note'] = '{item:118705} incubates in 7 days into {item:118716}.'
 L['ninja_pepe_note'] = 'Inside the hut sitting on a chair.'
 
+L['protectors_of_the_grove_label'] = 'Protectors of the Grove'
+L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, and |cffffff00{npc:86257}|r form the |cffffff00Protectors of the Grove|r'
+
+L['prove_your_strength_note'] = 'Requires {spell:164012} garrison ability to be active. To enable |cffffff00 The Sparring Arena|r visit your faction outpost.'
+L['ancient_branch_label'] = '{item:114030}'
+L['ancient_branch_note'] = 'Dropped by {npc:81630} or {npc:81005}'
+L['basilisk_scale_label'] = '{item:114036}'
+L['basilisk_scale_note'] = 'Dropped by {npc:85694}'
+L['botani_bloom_label'] = '{item:114025}'
+L['botani_bloom_note'] = 'Dropped by {npc:80696} or {npc:81575}'
+L['elemental_crystal_label'] = '{item:114038}'
+L['elemental_crystal_note'] = 'Dropped by {npc:83458} or {npc:81685}'
+L['acid_stained_goren_tooth_label'] = '{item:113590}'
+L['acid_stained_goren_tooth_note'] = 'Dropped by {npc:80690}'
+L['gronn_eye_label'] = '{item:114023}'
+L['gronn_eye_note'] = 'Dropped by {npc:80689}'
+L['gronnling_scale_label'] = '{item:114021}'
+L['gronnling_scale_note'] = 'Dropped by {npc:80685}'
+L['worn_ogron_horn_label'] = '{item:114019}'
+L['worn_ogron_horn_note'] = 'Dropped by {npc:81240}'
+L['orc_thorn_label'] = '{item:114027}'
+L['orc_thorn_note'] = 'Dropped by {npc:81617}'
+L['ravager_claw_label'] = '{item:114032}'
+L['ravager_claw_note'] = 'Dropped by {npc:81561} or {npc:85779}'
+L['wasp_stinger_label'] = '{item:114034}'
+L['wasp_stinger_note'] = 'Dropped by {npc:85807} or {npc:85695}'
+
 L['options_icons_attack_plans'] = '{achievement:9656}'
 L['options_icons_attack_plans_desc'] = 'Display the locations of Iron Horde Attack Orders for {achievement:9656}.'
+L['options_icons_ancient_no_more'] = '{achievement:9678}'
+L['options_icons_ancient_no_more_desc'] = 'Display rare locations for {achievement:9678}'
+L['options_icons_fight_the_power'] = '{achievement:9655}'
+L['options_icons_fight_the_power_desc'] = 'Display rare locations for {achievement:9655}'
+L['options_icons_prove_your_strength'] = '{achievement:9402}'
+L['options_icons_prove_your_strength_desc'] = 'Display drop locations for {achievement:9402}'
+
+-------------------------------------------------------------------------------
+------------------------------------ NAGRAND ----------------------------------
+-------------------------------------------------------------------------------
+
+L['highmaul_farm_path'] = [[
+Farming Path
+1. Start at the front gate and go right into |cffffff00The Underbelly|r.
+2. Go left through the gladiator pit area. Be sure to tag the ogre overlooking on the upper left.
+3. Continue up the stairs and past the pond with the {npc:87227}.
+4. Turn left and up into the |cffffff00Path of Victors|r.
+5. Go up to the fork in the path. Be sure to tag the ogre to the right.
+6. Turn left into |cffffff00The Market District|r and clear the entire thing out moving counterclockwise.
+7. Go left into |cffffff00The Imperator's Favor|r, continue following the path and clear it all.
+8. To Left again, down the path, and back into |cffffff00The Path of Victors|r.
+9. Mount up and fly up, over, and into |cffffff00The Colosseum|r. Don't try to use the front door, it's locked.
+
+Fly out to the right and back to the front gate. One single run takes just under 4 minutes and by the time you're back at the front gate everything will have already respawned.
+]]
+
+L['steamwheedle_preservation_society_note'] = 'Farm {item:118099} and {item:118100} from {npc:87223} and {npc:87222} around |cffffff00Highmaul|r. Turn items into {npc:87393} for reputation.'
+
+L['finding_your_waystones_label'] = '{achievement:9497}'
+L['finding_your_waystones_note'] = 'Farm {item:117491} from {npc:87223} and {npc:87222} around |cffffff00Highmaul|r'
+L['ogre_waystones'] = 'ogre waystones looted'
+
+L['signal_horn_note'] = 'Obtain {item:120290} from nearby {npc:86658} then use the {npc:87361} to summon {npc:87239} and {npc:87344}.'
+
+L['garroshs_shackles'] = 'Inside hut'
+L['warsong_relics'] = 'Against a fence outside a hut'
+L['stolen_draenei_tome'] = 'Can spawn in multiple locations on top of towers'
+L['dirt_mound'] = 'Kill {npc:86659} to drop a {npc:87280}. Click the totem to receive {spell:174572}. You can now dig up nearby {npc:87530} to find items.'
+
+L['options_icons_steamwheedle_preservation_society'] = '{achievement:9472}'
+L['options_icons_steamwheedle_preservation_society_desc'] = 'Display farm location for {achievement:9472}'
+L['options_icons_finding_your_waystones'] = '{achievement:9497}'
+L['options_icons_finding_your_waystones_desc'] = 'Display farm location for {achievement:9497}'
+L['options_icons_song_of_silence'] = '{achievement:9541}'
+L['options_icons_song_of_silence_desc'] = 'Display rare locations for {achievement:9541}'
+L['options_icons_buried_treasures'] = '{achievement:9548}'
+L['options_icons_buried_treasures_desc'] = 'Display item locations for {achievement:9548}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -72,6 +170,9 @@ Last option is to use only one character. Go to rune, lit it up, teleport out an
 
 You can combine any of methods above to summon {npc:87668}.
 ]]
+
+L['options_icons_cut_off_the_head'] = '{achievement:9633}'
+L['options_icons_cut_off_the_head_desc'] = 'Display rare locations for {achievement:9633}'
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
