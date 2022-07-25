@@ -18,18 +18,24 @@ L['multiple_spawn_note'] = 'Puede aparecer en varios sitios.'
 -------------------------------------------------------------------------------
 
 L['frozen_slave_label'] = '{npc:82680}'
-L['prisoner_cage_label'] = nil
-L['slaves_freed'] = nil
+L['prisoner_cage_label'] = 'Jaula de Prisionero'
+L['slaves_freed'] = 'esclavos liberados'
 
 L['delectable_ogre_delicacies_label'] = '{achievement:9534}'
-L['delectable_ogre_delicacies_note'] = nil
+L['delectable_ogre_delicacies_note'] = [[
+{npc:82801}, {npc:82822}, y {npc:82823} pueden aparecer en cualquier sitio
+
+{spell:166684} dura 5 minutos
+{spell:166686} dura 2 minutos
+{spell:166687} dura 2 minutos
+]]
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
-L['options_icons_writing_in_the_snow_desc'] = nil
+L['options_icons_writing_in_the_snow_desc'] = 'Muestra dónde están las páginas de diario ajado para el logro {achievement:9531}.'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = nil
+L['options_icons_breaker_of_chains_desc'] = 'Muestra dónde están los esclavos congelados y las |cffffff00Jaula de Prisionero|r para el logro {achievement:9533}.'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
-L['options_icons_delectable_ogre_delicacies_desc'] = nil
+L['options_icons_delectable_ogre_delicacies_desc'] = 'Muestra dónde están las delicias para el logro {achievement:9534}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
@@ -154,7 +160,7 @@ Se pueden combinar cualquiera de los métodos anteriores para invocar a {npc:876
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
-L['options_icons_cut_off_the_head_desc'] = nil
+L['options_icons_cut_off_the_head_desc'] = 'Muestra dónde están los raros para el logro {achievement:9633}'
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
