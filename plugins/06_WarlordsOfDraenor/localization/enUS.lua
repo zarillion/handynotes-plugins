@@ -141,6 +141,23 @@ L['warsong_relics'] = 'Against a fence outside a hut'
 L['stolen_draenei_tome'] = 'Can spawn in multiple locations on top of towers'
 L['dirt_mound'] = 'Kill {npc:86659} to drop a {npc:87280}. Click the totem to receive {spell:174572}. You can now dig up nearby {npc:87530} to find items.'
 
+L['stable_master_note'] = [[
+Talk to {npc:86973} to receive a mount-in-training whistle.
+
+{item:119441}
+{item:119442}
+{item:119443}
+{item:119444}
+{item:119445}
+{item:119446}
+
+Use the whistle to summon your mount-in-training and kill the target.
+
+{achievement:9539} requires {item:118469} from a |cffffff00Level 2 Stables|r.
+
+{achievement:9540} requires {item:118470} from a |cffffff00Level 3 Stables|r.
+]]
+
 L['options_icons_steamwheedle_preservation_society'] = '{achievement:9472}'
 L['options_icons_steamwheedle_preservation_society_desc'] = 'Display farm location for {achievement:9472}'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
@@ -149,6 +166,8 @@ L['options_icons_song_of_silence'] = '{achievement:9541}'
 L['options_icons_song_of_silence_desc'] = 'Display rare locations for {achievement:9541}'
 L['options_icons_buried_treasures'] = '{achievement:9548}'
 L['options_icons_buried_treasures_desc'] = 'Display item locations for {achievement:9548}'
+L['options_icons_the_stable_master'] = '{achievement:9539} and {achievement:9540}'
+L['options_icons_the_stable_master_desc'] = 'Display target locations for {achievement:9539} and {achievement:9540}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------

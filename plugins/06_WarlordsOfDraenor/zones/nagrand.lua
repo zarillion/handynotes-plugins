@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
@@ -203,7 +204,45 @@ map.nodes[46203420] = Collectible({
 })
 
 -------------------------------------------------------------------------------
------------------------------------- NODES ------------------------------------
+-------------------- ADVANCED HUSBANDRY / THE STABLE MASTER -------------------
+-------------------------------------------------------------------------------
+
+local StablesTarget = Class('StablesTarget', Collectible, {
+    icon = 'peg_bl',
+    scale = 1.5,
+    group = ns.groups.THE_STABLE_MASTER,
+    requires = {
+        ns.requirement.Item(118469), -- Black Claw of Sethe
+        ns.requirement.Item(118470) -- Garn-Tooth Necklace
+    },
+    note = L['stable_master_note'],
+    getters = {
+        rewards = function(self)
+            return {
+                Achievement({id = 9539, criteria = self.criteriaID}), -- Advanced Husbandry
+                Achievement({id = 9540, criteria = self.criteriaID}), -- The Stable Master
+                Mount({item = 116668, id = 621}), -- Armored Frostboar
+                Mount({item = 116781, id = 644}), -- Armored Frostwolf
+                Title({id = 277, criteria = 9540, pattern = '{title} {player}'}) -- Stable Master %s
+            }
+        end
+    }
+})
+
+map.nodes[63008000] = StablesTarget({id = 87107, criteriaID = 1}) -- Maimclaw
+
+map.nodes[79007100] = StablesTarget({id = 87095, criteriaID = 2}) -- Gorian Beast-Lasher
+
+map.nodes[43006900] = StablesTarget({id = 87089, criteriaID = 3}) -- Moth of Wrath
+
+map.nodes[90002300] = StablesTarget({id = 87102, criteriaID = 4}) -- Thundercall
+
+map.nodes[53007700] = StablesTarget({id = 87090, criteriaID = 5}) -- Ironbore
+
+map.nodes[69003400] = StablesTarget({id = 87105, criteriaID = 6}) -- Karak
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
 local Voidtalon = Node({
