@@ -114,7 +114,20 @@ L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines
 ------------------------------------ NAGRAND ----------------------------------
 -------------------------------------------------------------------------------
 
-L['highmaul_farm_path'] = nil
+L['highmaul_farm_path'] = [[
+Ruta de Farmeo
+1. Comienza en la puerta principal y gira a la derecha dentro de |cffffff00Los Bajos Fondos|r.
+2. Ves a la izquierda a través del foso de gladiadores de la zona. Asegúrate de elegir como objetivo al ogro que está en la parte superior izquierda.
+3. Continúa subiendo las escaleras y pasa la charca con {npc:87227}.
+4. Gira a la izquierda dentro de la |cffffff00Senda de los Vencedores|r.
+5. Sube a la bifurcación del camino. Asegúrate de elegir como objetivo al ogro de la derecha.
+6. Gira a la izquierda en el |cffffff00Distrito del Mercado|r y mátalo todo moviéndote en sentido contrario a las agujas del reloj.
+7. Ves a la izquierda dentro del |cffffff00Beneplácito del Imperador|r, continúa siguiendo el camino y matándolo todo.
+8. A la izquierda de nuevo, baja el camino, y regresa a la |cffffff00Senda de los Vencedores|r.
+9. Monta y vuela hacia arriba, por encima de |cffffff00El Coliseo|r. No intentes usar la puerta principal, está cerrada.
+
+Vuela fuera hacia la derecha y vuelve a la puerta principal. Una sola pasada lleva unos 4 minutos y cuando has vuelto a la puerta principal todo habrá reaparecido.
+]]
 
 L['steamwheedle_preservation_society_note'] = nil
 
