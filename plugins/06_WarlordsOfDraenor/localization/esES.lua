@@ -79,36 +79,36 @@ L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc
 
 L['prove_your_strength_note'] = 'Requiere que la habilidad {spell:164012} de la ciudadela esté activa. Para activar la |cffffff00Arena de Entrenamiento|r visita tu edificio de avanzada de facción.'
 L['ancient_branch_label'] = '{item:114030}'
-L['ancient_branch_note'] = 'Botín de {npc:81630} y {npc:81005}'
+L['ancient_branch_note'] = 'Botín de {npc:81630} y {npc:81005}.'
 L['basilisk_scale_label'] = '{item:114036}'
-L['basilisk_scale_note'] = 'Botín de {npc:85694}'
+L['basilisk_scale_note'] = 'Botín de {npc:85694}.'
 L['botani_bloom_label'] = '{item:114025}'
-L['botani_bloom_note'] = 'Botín de {npc:80696} y {npc:81575}'
+L['botani_bloom_note'] = 'Botín de {npc:80696} y {npc:81575}.'
 L['elemental_crystal_label'] = '{item:114038}'
-L['elemental_crystal_note'] = 'Botín de {npc:83458} y {npc:81685}'
+L['elemental_crystal_note'] = 'Botín de {npc:83458} y {npc:81685}.'
 L['acid_stained_goren_tooth_label'] = '{item:113590}'
-L['acid_stained_goren_tooth_note'] = 'Botín de {npc:80690}'
+L['acid_stained_goren_tooth_note'] = 'Botín de {npc:80690}.'
 L['gronn_eye_label'] = '{item:114023}'
-L['gronn_eye_note'] = 'Botín de {npc:80689}'
+L['gronn_eye_note'] = 'Botín de {npc:80689}.'
 L['gronnling_scale_label'] = '{item:114021}'
-L['gronnling_scale_note'] = 'Botín de {npc:80685}'
+L['gronnling_scale_note'] = 'Botín de {npc:80685}.'
 L['worn_ogron_horn_label'] = '{item:114019}'
-L['worn_ogron_horn_note'] = 'Botín de {npc:81240}'
+L['worn_ogron_horn_note'] = 'Botín de {npc:81240}.'
 L['orc_thorn_label'] = '{item:114027}'
-L['orc_thorn_note'] = 'Botín de {npc:81617}'
+L['orc_thorn_note'] = 'Botín de {npc:81617}.'
 L['ravager_claw_label'] = '{item:114032}'
-L['ravager_claw_note'] = 'Botín de {npc:81561} y {npc:85779}'
+L['ravager_claw_note'] = 'Botín de {npc:81561} y {npc:85779}.'
 L['wasp_stinger_label'] = '{item:114034}'
-L['wasp_stinger_note'] = 'Botín de {npc:85807} y {npc:85695}'
+L['wasp_stinger_note'] = 'Botín de {npc:85807} y {npc:85695}.'
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
 L['options_icons_attack_plans_desc'] = 'Muestra dónde están las Órdenes de Ataque de la Horda de Hierro para el logro {achievement:9656}.'
 L['options_icons_ancient_no_more'] = '{achievement:9678}'
-L['options_icons_ancient_no_more_desc'] = 'Muestra dónde están los raros para el logro {achievement:9678}'
+L['options_icons_ancient_no_more_desc'] = 'Muestra dónde están los raros para el logro {achievement:9678}.'
 L['options_icons_fight_the_power'] = '{achievement:9655}'
-L['options_icons_fight_the_power_desc'] = 'Muestra dónde están los raros para el logro {achievement:9655}'
+L['options_icons_fight_the_power_desc'] = 'Muestra dónde están los raros para el logro {achievement:9655}.'
 L['options_icons_prove_your_strength'] = '{achievement:9402}'
-L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines para el logro {achievement:9402}'
+L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines para el logro {achievement:9402}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAGRAND ----------------------------------
@@ -164,7 +164,7 @@ Se pueden combinar cualquiera de los métodos anteriores para invocar a {npc:876
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
-L['options_icons_cut_off_the_head_desc'] = 'Muestra dónde están los raros para el logro {achievement:9633}'
+L['options_icons_cut_off_the_head_desc'] = 'Muestra dónde están los raros para el logro {achievement:9633}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
