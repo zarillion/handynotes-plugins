@@ -23,7 +23,7 @@ L['slaves_freed'] = 'esclavos liberados'
 
 L['delectable_ogre_delicacies_label'] = '{achievement:9534}'
 L['delectable_ogre_delicacies_note'] = [[
-{npc:82801}, {npc:82822}, y {npc:82823} pueden aparecer en cualquier sitio
+{npc:82801}, {npc:82822}, y {npc:82823} pueden aparecer en cualquier sitio.
 
 {spell:166684} dura 5 minutos
 {spell:166686} dura 2 minutos
@@ -129,31 +129,46 @@ Ruta de Farmeo
 Vuela fuera hacia la derecha y vuelve a la puerta principal. Una sola pasada lleva unos 4 minutos y cuando has vuelto a la puerta principal todo habrá reaparecido.
 ]]
 
-L['steamwheedle_preservation_society_note'] = nil
+L['steamwheedle_preservation_society_note'] = 'Acumula {item:118099} y {item:118100} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r. Entrega los objetos a {npc:87393} a cambio de reputación.'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
-L['finding_your_waystones_note'] = nil
-L['ogre_waystones'] = nil
+L['finding_your_waystones_note'] = 'Acumula {item:117491} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r'
+L['ogre_waystones'] = 'piedra de puerta ogra despojada'
 
-L['signal_horn_note'] = nil
+L['signal_horn_note'] = 'Consigue los {item:120290} del {npc:86658} cercano y utiliza el {npc:87361} para invocar a {npc:87239} y a {npc:87344}.'
 
-L['garroshs_shackles'] = nil
-L['warsong_relics'] = nil
-L['stolen_draenei_tome'] = nil
-L['dirt_mound'] = nil
+L['garroshs_shackles'] = 'Dentro de la choza.'
+L['warsong_relics'] = 'Contra una valla fuera de una choza.'
+L['stolen_draenei_tome'] = 'Puede aparecer en varios sitios encima de las torres.'
+L['dirt_mound'] = nil -- Waiting answer
 
-L['stable_master_note'] = nil
+L['stable_master_note'] = [[
+Habla con {npc:86973} si eres Alianza o con {npc:86979} si eres Horda para recibir un silbato de montura en prácticas.
+
+{item:119441}
+{item:119442}
+{item:119443}
+{item:119444}
+{item:119445}
+{item:119446}
+
+Usa el silbato para invocar tu montura en prácticas y mata al objetivo.
+
+{achievement:9539} requiere la {item:118469} de |cffffff00Establos Nivel 2|r.
+
+{achievement:9540} requiere el {item:118470} de |cffffff00Establos Nivel 3|r.
+]]
 
 L['options_icons_steamwheedle_preservation_society'] = '{achievement:9472}'
-L['options_icons_steamwheedle_preservation_society_desc'] = nil
+L['options_icons_steamwheedle_preservation_society_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9472}.'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
-L['options_icons_finding_your_waystones_desc'] = nil
+L['options_icons_finding_your_waystones_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9497}.'
 L['options_icons_song_of_silence'] = '{achievement:9541}'
-L['options_icons_song_of_silence_desc'] = nil
+L['options_icons_song_of_silence_desc'] = 'Muestra dónde están los raros para el logro {achievement:9541}.'
 L['options_icons_buried_treasures'] = '{achievement:9548}'
-L['options_icons_buried_treasures_desc'] = nil
-L['options_icons_the_stable_master'] = nil
-L['options_icons_the_stable_master_desc'] = nil
+L['options_icons_buried_treasures_desc'] = 'Muestra dónde están los objetos para el logro {achievement:9548}.'
+L['options_icons_the_stable_master'] = '{achievement:9539} y {achievement:9540}'
+L['options_icons_the_stable_master_desc'] = 'Muestra dónde están los objetivos para los logros {achievement:9539} y {achievement:9540}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
