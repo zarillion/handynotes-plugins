@@ -114,7 +114,7 @@ map.nodes[50304130] = Collectible({
     group = ns.groups.STEAMWHEEDLE,
     rewards = {
         Achievement({id = 9472}), -- Steamwheedle Preservation Society
-        Title({id = 284, criteria = 9472, pattern = '{title} {player}'}) -- "Conservationist" %s
+        Title({id = 284, pattern = '{title} {player}'}) -- "Conservationist" %s
     },
     pois = {Path({50304130, 31823445}), highmaulPath}
 }) -- Sallee Silverclamp
@@ -239,15 +239,40 @@ local StablesTarget = Class('StablesTarget', Collectible, {
         ns.requirement.Item(118469), -- Black Claw of Sethe
         ns.requirement.Item(118470) -- Garn-Tooth Necklace
     },
-    note = L['stable_master_note'],
     getters = {
+        note = function(self)
+            local stableMaster = '{npc:86973}' -- Keegan Firebeard
+            if ns.faction == 'Horde' then
+                stableMaster = '{npc:86979}' -- Tormak the Scarred
+            end
+            return string.gsub(L['stable_master_note'], '{stablemaster}',
+                stableMaster)
+        end,
         rewards = function(self)
             return {
-                Achievement({id = 9539, criteria = self.criteriaID}), -- Advanced Husbandry
-                Achievement({id = 9540, criteria = self.criteriaID}), -- The Stable Master
+                Achievement({
+                    id = 9539,
+                    criteria = self.criteriaID,
+                    faction = 'Alliance'
+                }), -- Advanced Husbandry (Alliance)
+                Achievement({
+                    id = 9705,
+                    criteria = self.criteriaID,
+                    faction = 'Horde'
+                }), -- Advanced Husbandry (Horde)
+                Achievement({
+                    id = 9540,
+                    criteria = self.criteriaID,
+                    faction = 'Alliance'
+                }), -- The Stable Master (Alliance)
+                Achievement({
+                    id = 9706,
+                    criteria = self.criteriaID,
+                    faction = 'Horde'
+                }), -- The Stable Master (Alliance)
                 Mount({item = 116668, id = 621}), -- Armored Frostboar
                 Mount({item = 116781, id = 644}), -- Armored Frostwolf
-                Title({id = 277, criteria = 9540, pattern = '{title} {player}'}) -- Stable Master %s
+                Title({id = 277, pattern = '{title} {player}'}) -- Stable Master %s
             }
         end
     }

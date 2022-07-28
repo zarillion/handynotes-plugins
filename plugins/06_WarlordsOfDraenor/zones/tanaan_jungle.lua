@@ -702,7 +702,7 @@ map.nodes[69603820] = Rare({
     note = L['xemirkol_note'],
     rewards = {
         Achievement({id = 10334}), -- Predator
-        Title({id = 59, criteria = 10334, pattern = '{title} {player}'}) -- Predator
+        Title({id = 59, pattern = '{title} {player}'}) -- Predator
     },
     pois = {
         POI({60404660}), -- Vendor Horde

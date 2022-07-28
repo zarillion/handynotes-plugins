@@ -121,22 +121,7 @@ L['warsong_relics'] = 'Contra una valla fuera de una choza.'
 L['stolen_draenei_tome'] = 'Puede aparecer en varios sitios encima de las torres.'
 L['dirt_mound'] = nil -- Waiting answer
 
-L['stable_master_note'] = [[
-Habla con {npc:86973} si eres Alianza o con {npc:86979} si eres Horda para recibir un silbato de montura en prácticas.
-
-{item:119441}
-{item:119442}
-{item:119443}
-{item:119444}
-{item:119445}
-{item:119446}
-
-Usa el silbato para invocar tu montura en prácticas y mata al objetivo.
-
-{achievement:9539} requiere la {item:118469} de |cffffff00Establos Nivel 2|r.
-
-{achievement:9540} requiere el {item:118470} de |cffffff00Establos Nivel 3|r.
-]]
+L['stable_master_note'] = 'Habla con {stablemaster} para recibir un silbato de montura en prácticas.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUsa el silbato para invocar tu montura en prácticas y mata al objetivo.\n\n{achievement:9539} requiere la {item:118469} de |cffffff00Establos Nivel 2|r.\n\n{achievement:9540} requiere el {item:118470} de |cffffff00Establos Nivel 3|r.'
 
 L['options_icons_steamwheedle'] = '{achievement:9472}'
 L['options_icons_steamwheedle_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9472}.'

@@ -118,24 +118,9 @@ L['signal_horn_note'] = 'Obtain {item:120290} from nearby {npc:86658} then use t
 L['garroshs_shackles'] = 'Inside hut'
 L['warsong_relics'] = 'Against a fence outside a hut'
 L['stolen_draenei_tome'] = 'Can spawn in multiple locations on top of towers'
-L['dirt_mound'] = 'Kill {npc:86659} to drop a {npc:87280}. Click the totem to receive {spell:174572}. You can now dig up nearby {npc:87530} to find items.'
+L['dirt_mound'] = 'Kill {npc:86659} to spawn a {npc:87280} on the floor nearby. Click the totem to receive {spell:174572}. You can now dig up nearby {npc:87530} to find items.'
 
-L['stable_master_note'] = [[
-Talk to {npc:86973} to receive a mount-in-training whistle.
-
-{item:119441}
-{item:119442}
-{item:119443}
-{item:119444}
-{item:119445}
-{item:119446}
-
-Use the whistle to summon your mount-in-training and kill the target.
-
-{achievement:9539} requires {item:118469} from a |cffffff00Level 2 Stables|r.
-
-{achievement:9540} requires {item:118470} from a |cffffff00Level 3 Stables|r.
-]]
+L['stable_master_note'] = 'Talk to {stablemaster} to receive a mount-in-training whistle.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUse the whistle to summon your mount-in-training and kill the target.\n\n{achievement:9539} requires {item:118469} from a |cffffff00Level 2 Stables|r.\n{achievement:9540} requires {item:118470} from a |cffffff00Level 3 Stables|r.'
 
 L['options_icons_steamwheedle'] = '{achievement:9472}'
 L['options_icons_steamwheedle_desc'] = 'Display farm location for {achievement:9472}'

@@ -380,13 +380,7 @@ function Title:GetText()
     return text
 end
 
-function Title:IsObtained()
-    local _, _, _, completed, _, _, _, _, _, _, _, _, earnedByMe =
-        GetAchievementInfo(self.criteria)
-    completed = completed and (not ns:GetOpt('use_char_achieves') or earnedByMe)
-    if completed then return true end
-    return false
-end
+function Title:IsObtained() return IsTitleKnown(self.id) end
 
 function Title:GetStatus()
     return self:IsObtained() and Green(L['known']) or Red(L['missing'])
