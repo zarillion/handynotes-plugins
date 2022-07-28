@@ -108,7 +108,7 @@ Ruta de Farmeo
 Vuela fuera hacia la derecha y vuelve a la puerta principal. Una sola pasada lleva unos 4 minutos y cuando has vuelto a la puerta principal todo habrá reaparecido.
 ]]
 
-L['steamwheedle_preservation_society_note'] = 'Acumula {item:118099} y {item:118100} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r. Entrega los objetos a {npc:87393} a cambio de reputación.'
+L['steamwheedle_note'] = 'Acumula {item:118099} y {item:118100} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r. Entrega los objetos a {npc:87393} a cambio de reputación.'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
 L['finding_your_waystones_note'] = 'Acumula {item:117491} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r'
@@ -138,8 +138,8 @@ Usa el silbato para invocar tu montura en prácticas y mata al objetivo.
 {achievement:9540} requiere el {item:118470} de |cffffff00Establos Nivel 3|r.
 ]]
 
-L['options_icons_steamwheedle_preservation_society'] = '{achievement:9472}'
-L['options_icons_steamwheedle_preservation_society_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9472}.'
+L['options_icons_steamwheedle'] = '{achievement:9472}'
+L['options_icons_steamwheedle_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9472}.'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
 L['options_icons_finding_your_waystones_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9497}.'
 L['options_icons_song_of_silence'] = '{achievement:9541}'

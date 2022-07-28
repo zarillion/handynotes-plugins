@@ -110,9 +110,8 @@ local highmaulPath = Path({
 map.nodes[50304130] = Collectible({
     id = 87393,
     icon = 463874,
-    note = L['steamwheedle_preservation_society_note'] .. '\n\n' ..
-        L['highmaul_farm_path'],
-    group = ns.groups.STEAMWHEEDLE_PRESERVATION_SOCIETY,
+    note = L['steamwheedle_note'] .. '\n\n' .. L['highmaul_farm_path'],
+    group = ns.groups.STEAMWHEEDLE,
     rewards = {
         Achievement({id = 9472}), -- Steamwheedle Preservation Society
         Title({id = 284, criteria = 9472, pattern = '{title} {player}'}) -- "Conservationist" %s

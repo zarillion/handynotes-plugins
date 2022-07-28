@@ -88,7 +88,7 @@ L['options_icons_prove_your_strength_desc'] = nil
 
 L['highmaul_farm_path'] = nil
 
-L['steamwheedle_preservation_society_note'] = nil
+L['steamwheedle_note'] = nil
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
 L['finding_your_waystones_note'] = nil
@@ -103,8 +103,8 @@ L['dirt_mound'] = nil
 
 L['stable_master_note'] = nil
 
-L['options_icons_steamwheedle_preservation_society'] = '{achievement:9472}'
-L['options_icons_steamwheedle_preservation_society_desc'] = nil
+L['options_icons_steamwheedle'] = '{achievement:9472}'
+L['options_icons_steamwheedle_desc'] = nil
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
 L['options_icons_finding_your_waystones_desc'] = nil
 L['options_icons_song_of_silence'] = '{achievement:9541}'

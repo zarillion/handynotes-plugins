@@ -107,7 +107,7 @@ Farming Path
 Fly out to the right and back to the front gate. One single run takes just under 4 minutes and by the time you're back at the front gate everything will have already respawned.
 ]]
 
-L['steamwheedle_preservation_society_note'] = 'Farm {item:118099} and {item:118100} from {npc:87223} and {npc:87222} around |cffffff00Highmaul|r. Turn items into {npc:87393} for reputation.'
+L['steamwheedle_note'] = 'Farm {item:118099} and {item:118100} from {npc:87223} and {npc:87222} around |cffffff00Highmaul|r. Turn items into {npc:87393} for reputation.'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
 L['finding_your_waystones_note'] = 'Farm {item:117491} from {npc:87223} and {npc:87222} around |cffffff00Highmaul|r'
@@ -137,8 +137,8 @@ Use the whistle to summon your mount-in-training and kill the target.
 {achievement:9540} requires {item:118470} from a |cffffff00Level 3 Stables|r.
 ]]
 
-L['options_icons_steamwheedle_preservation_society'] = '{achievement:9472}'
-L['options_icons_steamwheedle_preservation_society_desc'] = 'Display farm location for {achievement:9472}'
+L['options_icons_steamwheedle'] = '{achievement:9472}'
+L['options_icons_steamwheedle_desc'] = 'Display farm location for {achievement:9472}'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
 L['options_icons_finding_your_waystones_desc'] = 'Display farm location for {achievement:9497}'
 L['options_icons_song_of_silence'] = '{achievement:9541}'

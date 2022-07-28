@@ -108,7 +108,7 @@ Farming Path
 Fliege nach rechts zum Eingangstor hinaus. Ein einziger Durchlauf dauert knapp 4 Minuten, und wenn du wieder am Eingangstor ankommst, ist alles wieder da.
 ]]
 
-L['steamwheedle_preservation_society_note'] = 'Sammel {item:118099} und {item:118100} von {npc:87223} und {npc:87222} rund um |cffffff00Hochfels|r. Tausch diese bei {npc:87393} für Ruf ein.'
+L['steamwheedle_note'] = 'Sammel {item:118099} und {item:118100} von {npc:87223} und {npc:87222} rund um |cffffff00Hochfels|r. Tausch diese bei {npc:87393} für Ruf ein.'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
 L['finding_your_waystones_note'] = 'Sammel {item:117491} von {npc:87223} und {npc:87222} rund um |cffffff00Hochfels|r.'
@@ -138,8 +138,8 @@ Benutze die Pfeife, um dein Reittier zu rufen und das Ziel zu töten.
 {achievement:9540} benötigt {item:118470} von |cffffff00Stall, Stufe 3|r.
 ]]
 
-L['options_icons_steamwheedle_preservation_society'] = '{achievement:9472}'
-L['options_icons_steamwheedle_preservation_society_desc'] = 'Display farm location for {achievement:9472}'
+L['options_icons_steamwheedle'] = '{achievement:9472}'
+L['options_icons_steamwheedle_desc'] = 'Zeigt die Position zum Ruf sammeln für den Erfolg {achievement:9472} an.'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
 L['options_icons_finding_your_waystones_desc'] = 'Zeigt Positionen zum Sammeln für den Erfolg {achievement:9497} an.'
 L['options_icons_song_of_silence'] = '{achievement:9541}'
