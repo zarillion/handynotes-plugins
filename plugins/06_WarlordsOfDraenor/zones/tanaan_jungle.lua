@@ -13,6 +13,7 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Title = ns.reward.Title
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -699,7 +700,10 @@ map.nodes[69603820] = Rare({
         ns.requirement.Reputation(1849, 8) -- Order of the Awakened (Exalted)
     },
     note = L['xemirkol_note'],
-    rewards = {Achievement({id = 10334})},
+    rewards = {
+        Achievement({id = 10334}), -- Predator
+        Title({id = 59, criteria = 10334, pattern = '{title} {player}'}) -- Predator
+    },
     pois = {
         POI({60404660}), -- Vendor Horde
         POI({57805940}) -- Vendor Alliance
