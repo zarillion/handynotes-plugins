@@ -68,6 +68,7 @@ read_globals = {
     'IsLeftAltKeyDown',
     'IsLeftControlKeyDown',
     'IsSpellKnown',
+    'IsTitleKnown',
     'PlayerHasToy',
     'PlaySound',
     'Spell',
