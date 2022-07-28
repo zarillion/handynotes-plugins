@@ -861,7 +861,6 @@ map.nodes[61603920] = AncientRare({
 }) -- Mogamago
 
 map.nodes[69404440] = AncientRare({
-    label = L['protectors_of_the_grove_label'],
     sublabel = L['protectors_of_the_grove_sublabel'],
     rewards = {Achievement({id = 9678, criteria = 26595})}
 }) -- Protectors of the Grove
@@ -963,91 +962,100 @@ map.nodes[46206960] = FactionRepresentative({id = 76688, faction = 'Horde'}) -- 
 map.nodes[52805980] = FactionRepresentative({id = 81076, faction = 'Alliance'}) -- Rangari Jonaa
 
 map.nodes[43808100] = Collectible({
-    label = L['ancient_branch_label'],
+    label = '{item:114030}',
     icon = 133749,
-    note = L['ancient_branch_note'] .. '\n\n' .. L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_double'], '{npc:81630}',
+        '{npc:81005}') .. '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 1})}
 }) -- Ancient Branch
 
 map.nodes[51006880] = Collectible({
-    label = L['basilisk_scale_label'],
+    label = '{item:114036}',
     icon = 615303,
-    note = L['basilisk_scale_note'] .. '\n\n' .. L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:85694}') ..
+        '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 2})}
 }) -- Basilisk Scale
 
 map.nodes[43807840] = Collectible({
-    label = L['botani_bloom_label'],
+    label = '{item:114025}',
     icon = 959803,
-    note = L['botani_bloom_note'] .. '\n\n' .. L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_double'], '{npc:80696}',
+        '{npc:81575}') .. '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 3})}
 }) -- Botani Bloom
 
 map.nodes[43206200] = Collectible({
-    label = L['elemental_crystal_label'],
+    label = '{item:114038}',
     icon = 615303,
-    note = L['elemental_crystal_note'] .. '\n\n' ..
-        L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_double'], '{npc:83458}',
+        '{npc:81685}') .. '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 4})}
 }) -- Elemental Crystal
 
 map.nodes[43806480] = Collectible({
-    label = L['acid_stained_goren_tooth_label'],
+    label = '{item:113590}',
     icon = 133725,
-    note = L['acid_stained_goren_tooth_note'] .. '\n\n' ..
-        L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:80690}') ..
+        '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 5})}
 }) -- Acid-Stained Goren Tooth
 
 map.nodes[46604660] = Collectible({
-    label = L['gronn_eye_label'],
+    label = '{item:114023}',
     icon = 237299,
-    note = L['gronn_eye_note'] .. '\n\n' .. L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:80689}') ..
+        '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 6})}
 }) -- Gronn Eye
 
 map.nodes[45806560] = Collectible({
-    label = L['gronnling_scale_label'],
+    label = '{item:114021}',
     icon = 134319,
-    note = L['gronnling_scale_note'] .. '\n\n' .. L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:80685}') ..
+        '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 7})}
 }) -- Gronnling Scale
 
 map.nodes[43004740] = Collectible({
-    label = L['worn_ogron_horn_label'],
+    label = '{item:114019}',
     icon = 133725,
-    note = L['worn_ogron_horn_note'] .. '\n\n' .. L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:81240}') ..
+        '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 8})}
 }) -- Worn Ogron Horn
 
 map.nodes[48207280] = Collectible({
-    label = L['orc_thorn_label'],
+    label = '{item:114027}',
     icon = 136104,
-    note = L['orc_thorn_note'] .. '\n\n' .. L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:81617}') ..
+        '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 9})}
 }) -- Orc Thorn
 
 map.nodes[45608060] = Collectible({
-    label = L['ravager_claw_label'],
+    label = '{item:114032}',
     icon = 615303,
-    note = L['ravager_claw_note'] .. '\n\n' .. L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_double'], '{npc:81561}',
+        '{npc:85779}') .. '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 10})}
 }) -- Ravager Claw
 
 map.nodes[52606760] = Collectible({
-    label = L['wasp_stinger_label'],
+    label = '{item:114034}',
     icon = 615303,
-    note = L['wasp_stinger_note'] .. '\n\n' .. L['prove_your_strength_note'],
+    note = string.format(L['prove_your_strength_drop_double'], '{npc:85807}',
+        '{npc:85695}') .. '\n\n' .. L['prove_your_strength_note'],
     group = ns.groups.PROVE_YOUR_STRENGTH,
     rewards = {Achievement({id = 9402, criteria = 11})}
 }) -- Wasp Stinger

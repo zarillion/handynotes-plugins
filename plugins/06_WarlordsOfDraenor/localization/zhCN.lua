@@ -67,32 +67,11 @@ L['laughing_skull_note'] = '在树上。'
 L['warm_goren_egg_note'] = '{item:118705} 7天后孵化为 {item:118716}。'
 L['ninja_pepe_note'] = '小屋内椅子上。'
 
-L['protectors_of_the_grove_label'] = 'Protectors of the Grove'
 L['protectors_of_the_grove_sublabel'] = nil
 
 L['prove_your_strength_note'] = nil
-L['ancient_branch_label'] = '{item:114030}'
-L['ancient_branch_note'] = nil
-L['basilisk_scale_label'] = '{item:114036}'
-L['basilisk_scale_note'] = nil
-L['botani_bloom_label'] = '{item:114025}'
-L['botani_bloom_note'] = nil
-L['elemental_crystal_label'] = '{item:114038}'
-L['elemental_crystal_note'] = nil
-L['acid_stained_goren_tooth_label'] = '{item:113590}'
-L['acid_stained_goren_tooth_note'] = nil
-L['gronn_eye_label'] = '{item:114023}'
-L['gronn_eye_note'] = nil
-L['gronnling_scale_label'] = '{item:114021}'
-L['gronnling_scale_note'] = nil
-L['worn_ogron_horn_label'] = '{item:114019}'
-L['worn_ogron_horn_note'] = nil
-L['orc_thorn_label'] = '{item:114027}'
-L['orc_thorn_note'] = nil
-L['ravager_claw_label'] = '{item:114032}'
-L['ravager_claw_note'] = nil
-L['wasp_stinger_label'] = '{item:114034}'
-L['wasp_stinger_note'] = nil
+L['prove_your_strength_drop_single'] = nil
+L['prove_your_strength_drop_double'] = nil
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
 L['options_icons_attack_plans_desc'] = '显示 {achievement:9656} 成就中钢铁部落攻击指令的位置。'
