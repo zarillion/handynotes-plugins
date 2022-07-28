@@ -13,6 +13,7 @@ local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
+local Pet = ns.reward.Pet
 local Title = ns.reward.Title
 
 local Path = ns.poi.Path
@@ -27,6 +28,14 @@ local map = Map({id = 550, settings = true})
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
+
+map.nodes[23783861] = Rare({
+    id = 98200,
+    quest = 40074,
+    rewards = {
+        Pet({item = 129218, id = 1765}) -- Glittering Arcane Crystal
+    }
+}) -- Guk
 
 local Lukhok = Rare({
     id = 50981,
@@ -55,6 +64,22 @@ map.nodes[62801540] = Nakk
 map.nodes[64601960] = Nakk
 map.nodes[55003500] = Nakk
 map.nodes[50003440] = Nakk
+
+map.nodes[28162964] = Rare({
+    id = 98199,
+    quest = 40073,
+    rewards = {
+        Pet({item = 129217, id = 1766}) -- Warm Arcane Crystal
+    }
+}) -- Pugg
+
+map.nodes[25973472] = Rare({
+    id = 98198,
+    quest = 40075,
+    rewards = {
+        Pet({item = 129216, id = 1764}) -- Vibrating Arcane Crystal
+    }
+}) -- Rukdug
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
@@ -171,7 +196,8 @@ map.nodes[45503680] = Collectible({
     scale = 1.5,
     group = ns.groups.BURIED_TREASURES,
     note = L['warsong_relics'],
-    rewards = {Achievement({id = 9548, criteria = 26146})}
+    rewards = {Achievement({id = 9548, criteria = 26146})},
+    pois = {POI({43003649, 45503680, 42703840})}
 }) -- Warsong Relics
 
 map.nodes[42303450] = Collectible({
