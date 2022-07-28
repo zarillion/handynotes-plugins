@@ -496,7 +496,7 @@ map.nodes[37601460] = ShattrathCityRare({
 ---------------------------------- VOIDTALON ----------------------------------
 -------------------------------------------------------------------------------
 
-local Voidtalon = Node({
+local Voidtalon = Collectible({
     icon = 1094600,
     label = L['edge_of_reality'],
     note = L['edge_of_reality_note'],
