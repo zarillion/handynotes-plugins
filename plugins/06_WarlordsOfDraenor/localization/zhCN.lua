@@ -115,6 +115,24 @@ L['options_icons_the_stable_master'] = nil
 L['options_icons_the_stable_master_desc'] = nil
 
 -------------------------------------------------------------------------------
+------------------------------ SHADOWMOON VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L['you_have_been_rylakinated_note'] = nil
+
+L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
+L['options_icons_you_have_been_rylakinated_desc'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- SPIRES OF ARAK --------------------------------
+-------------------------------------------------------------------------------
+
+L['forbidden_tome_note'] = nil
+
+L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
+L['options_icons_would_you_like_a_pamplet_desc'] = nil
+
+-------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -137,24 +155,6 @@ L['orumo_the_observer_note'] = [[
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
 L['options_icons_cut_off_the_head_desc'] = nil
-
--------------------------------------------------------------------------------
------------------------------- SHADOWMOON VALLEY ------------------------------
--------------------------------------------------------------------------------
-
-L['you_have_been_rylakinated_note'] = nil
-
-L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
-L['options_icons_you_have_been_rylakinated_desc'] = nil
-
--------------------------------------------------------------------------------
-------------------------------- SPIRES OF ARAK --------------------------------
--------------------------------------------------------------------------------
-
-L['forbidden_tome_note'] = nil
-
-L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
-L['options_icons_would_you_like_a_pamplet_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
