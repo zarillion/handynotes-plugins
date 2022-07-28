@@ -89,7 +89,7 @@ local Slave = Class('Slave', Collectible, {
     rewards = {
         Achievement({
             id = 9533,
-            criteria = ({id = 1, qty = true, suffix = L['slaves_freed']})
+            criteria = ({id = 1, qty = true, suffix = L['slaves_freed']}) -- Breaker of Chains
         })
     }
 })

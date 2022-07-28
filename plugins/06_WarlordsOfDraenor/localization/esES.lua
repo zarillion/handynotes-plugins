@@ -111,6 +111,24 @@ L['options_icons_prove_your_strength'] = '{achievement:9402}'
 L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines para el logro {achievement:9402}.'
 
 -------------------------------------------------------------------------------
+------------------------------ SHADOWMOON VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L['you_have_been_rylakinated_note'] = nil
+
+L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
+L['options_icons_you_have_been_rylakinated_desc'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- SPIRES OF ARAK --------------------------------
+-------------------------------------------------------------------------------
+
+L['forbidden_tome_note'] = nil
+
+L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
+L['options_icons_would_you_like_a_pamplet_desc'] = nil
+
+-------------------------------------------------------------------------------
 ------------------------------------ NAGRAND ----------------------------------
 -------------------------------------------------------------------------------
 

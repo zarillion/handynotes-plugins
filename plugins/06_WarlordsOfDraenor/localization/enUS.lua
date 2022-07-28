@@ -30,9 +30,9 @@ L['delectable_ogre_delicacies_note'] = [[
 ]]
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
-L['options_icons_writing_in_the_snow_desc'] = 'Display the locations of {npc:82833} for {achievement:9531}'
+L['options_icons_writing_in_the_snow_desc'] = 'Display the locations of |cffffff00Tattered Journal Page|r for {achievement:9531}'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Display the locations of {npc:82680} and |cffffff00Prisoner Cage|r for {achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = 'Display the locations of |cffffff00Frozen Slave|r and |cffffff00Prisoner Cage|r for {achievement:9533}'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = 'Display the locations of delicacies for {achievement:9534}'
 
@@ -76,7 +76,7 @@ L['ninja_pepe_note'] = 'Inside the hut sitting on a chair.'
 L['protectors_of_the_grove_label'] = 'Protectors of the Grove'
 L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, and |cffffff00{npc:86257}|r form the |cffffff00Protectors of the Grove|r'
 
-L['prove_your_strength_note'] = 'Requires {spell:164012} garrison ability to be active. To enable |cffffff00 The Sparring Arena|r visit your faction outpost.'
+L['prove_your_strength_note'] = 'Requires {spell:164012} garrison ability to be active. To enable |cffffff00The Sparring Arena|r visit your faction outpost.'
 L['ancient_branch_label'] = '{item:114030}'
 L['ancient_branch_note'] = 'Dropped by {npc:81630} or {npc:81005}'
 L['basilisk_scale_label'] = '{item:114036}'
@@ -168,6 +168,32 @@ L['options_icons_buried_treasures'] = '{achievement:9548}'
 L['options_icons_buried_treasures_desc'] = 'Display item locations for {achievement:9548}'
 L['options_icons_the_stable_master'] = '{achievement:9539} and {achievement:9540}'
 L['options_icons_the_stable_master_desc'] = 'Display target locations for {achievement:9539} and {achievement:9540}'
+
+-------------------------------------------------------------------------------
+------------------------------ SHADOWMOON VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L['you_have_been_rylakinated_note'] = 'Must complete {quest:34355}.\n\nCollect {item:116978} from {npc:78999} nearby to control {npc:86085}.'
+
+L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
+L['options_icons_you_have_been_rylakinated_desc'] = 'Display Rylak locations for {achievement:9481}'
+
+-------------------------------------------------------------------------------
+------------------------------- SPIRES OF ARAK --------------------------------
+-------------------------------------------------------------------------------
+
+L['forbidden_tome_note'] = [[
+Requires {quest:36682} daily quest to be active or use {item:122409}.
+
+Interact with {npc:85992} to randomly receive one of three buffs.
+
+{spell:171783}
+{spell:171787}
+{spell:171768}
+]]
+
+L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
+L['options_icons_would_you_like_a_pamplet_desc'] = 'Display item locations for {achievement:9432}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------

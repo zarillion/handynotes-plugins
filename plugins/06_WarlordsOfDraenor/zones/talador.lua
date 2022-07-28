@@ -35,27 +35,6 @@ local minimap = maps
 minimap['tomb_of_souls'] = Map({id = 537, settings = true})
 
 -------------------------------------------------------------------------------
------------------------------------- NODES ------------------------------------
--------------------------------------------------------------------------------
-
-local Voidtalon = Node({
-    icon = 1094600,
-    label = L['edge_of_reality'],
-    note = L['edge_of_reality_note'],
-    rewards = {
-        Mount({id = 682, item = 121815}) -- Voidtalon of the Dark Star
-    }
-})
-
-map.nodes[39885561] = Voidtalon
-map.nodes[46265256] = Voidtalon
-map.nodes[47164882] = Voidtalon
-map.nodes[52144113] = Voidtalon
-map.nodes[52252587] = Voidtalon
-map.nodes[52683437] = Voidtalon
-map.nodes[50963241] = Voidtalon
-
--------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
@@ -465,69 +444,71 @@ map.nodes[49008040] = PetBattle({
 ------------------------------ CUT OFF THE HEAD -------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[44003800] = Collectible({
-    id = 87597,
+local ShattrathCityRare = Class('ShattrathCityRare', Collectible, {
     icon = 'peg_rd',
     scale = 1.5,
-    group = ns.groups.CUT_OFF_THE_HEAD,
+    group = ns.groups.CUT_OFF_THE_HEAD
+})
+
+map.nodes[44003800] = ShattrathCityRare({
+    id = 87597,
     rewards = {Achievement({id = 9633, criteria = 26465})}
 }) -- Bombardier Gu'gok
 
-map.nodes[47603900] = Collectible({
+map.nodes[47603900] = ShattrathCityRare({
     id = 83019,
-    icon = 'peg_rd',
-    scale = 1.5,
-    group = ns.groups.CUT_OFF_THE_HEAD,
     rewards = {Achievement({id = 9633, criteria = 26466})}
 }) -- Gug'tol
 
-map.nodes[48002540] = Collectible({
+map.nodes[48002540] = ShattrathCityRare({
     id = 83008,
-    icon = 'peg_rd',
-    scale = 1.5,
-    group = ns.groups.CUT_OFF_THE_HEAD,
     rewards = {Achievement({id = 9633, criteria = 26467})}
 }) --  Haakun the All-Consuming
 
-map.nodes[44803720] = Collectible({
+map.nodes[44803720] = ShattrathCityRare({
     id = 82992,
-    icon = 'peg_rd',
-    scale = 1.5,
-    group = ns.groups.CUT_OFF_THE_HEAD,
     rewards = {Achievement({id = 9633, criteria = 26468})}
 }) -- Felfire Consort
 
-map.nodes[46603520] = Collectible({
+map.nodes[46603520] = ShattrathCityRare({
     id = 88043,
-    icon = 'peg_rd',
-    scale = 1.5,
-    group = ns.groups.CUT_OFF_THE_HEAD,
     rewards = {Achievement({id = 9633, criteria = 26469})},
     pois = {POI({45203540})}
 }) -- Avatar of Socrethar
 
-map.nodes[45203100] = Collectible({
+map.nodes[45203100] = ShattrathCityRare({
     id = 88071,
-    icon = 'peg_rd',
-    scale = 1.5,
-    group = ns.groups.CUT_OFF_THE_HEAD,
     rewards = {Achievement({id = 9633, criteria = 26470})},
     pois = {POI({46603100, 47602880, 45802840, 44202920, 43802640})}
 }) -- Sargerei War Council
 
-map.nodes[38002060] = Collectible({
+map.nodes[38002060] = ShattrathCityRare({
     id = 88494,
-    icon = 'peg_rd',
-    scale = 1.5,
-    group = ns.groups.CUT_OFF_THE_HEAD,
     rewards = {Achievement({id = 9633, criteria = 26579})}
 }) -- Legion Vanguard
 
-map.nodes[37601460] = Collectible({
+map.nodes[37601460] = ShattrathCityRare({
     id = 82922,
-    icon = 'peg_rd',
-    scale = 1.5,
-    group = ns.groups.CUT_OFF_THE_HEAD,
-    rewards = {Achievement({id = 9633, criteria = 26580})},
-    pois = {POI({})}
+    rewards = {Achievement({id = 9633, criteria = 26580})}
 }) -- Xothear, the Destroyer
+
+-------------------------------------------------------------------------------
+---------------------------------- VOIDTALON ----------------------------------
+-------------------------------------------------------------------------------
+
+local Voidtalon = Node({
+    icon = 1094600,
+    label = L['edge_of_reality'],
+    note = L['edge_of_reality_note'],
+    rewards = {
+        Mount({id = 682, item = 121815}) -- Voidtalon of the Dark Star
+    }
+})
+
+map.nodes[39885561] = Voidtalon
+map.nodes[46265256] = Voidtalon
+map.nodes[47164882] = Voidtalon
+map.nodes[52144113] = Voidtalon
+map.nodes[52252587] = Voidtalon
+map.nodes[52683437] = Voidtalon
+map.nodes[50963241] = Voidtalon

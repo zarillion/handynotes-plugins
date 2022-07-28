@@ -6,10 +6,10 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
-local Collectible = ns.node.Collectible
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -242,7 +242,7 @@ map.nodes[53007700] = StablesTarget({id = 87090, criteriaID = 5}) -- Ironbore
 map.nodes[69003400] = StablesTarget({id = 87105, criteriaID = 6}) -- Karak
 
 -------------------------------------------------------------------------------
--------------------------------- MISCELLANEOUS --------------------------------
+---------------------------------- VOIDTALON ----------------------------------
 -------------------------------------------------------------------------------
 
 local Voidtalon = Node({
