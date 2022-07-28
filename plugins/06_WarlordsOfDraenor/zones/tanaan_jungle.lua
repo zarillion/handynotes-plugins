@@ -715,7 +715,7 @@ map.nodes[83604360] = Rare({
     quest = 40105,
     note = L['iron_armada_note'],
     rewards = {
-        Achievement({id = 10353, criteria = 28990}),
+        Achievement({id = 10353, criteria = 28990}), -- Iron Armada
         Toy({item = 108631}) -- Crashin' Thrashin' Roller Controller
     }
 }) -- Drakum
@@ -725,7 +725,7 @@ map.nodes[80605640] = Rare({
     quest = 40106,
     note = L['iron_armada_note'],
     rewards = {
-        Achievement({id = 10353, criteria = 28989}),
+        Achievement({id = 10353, criteria = 28989}), -- Iron Armada
         Toy({item = 108633}) -- Crashin' Thrashin' Cannon Controller
     }
 }) -- Gondar
@@ -735,7 +735,7 @@ map.nodes[88005580] = Rare({
     quest = 40104,
     note = L['iron_armada_note'],
     rewards = {
-        Achievement({id = 10353, criteria = 28988}),
+        Achievement({id = 10353, criteria = 28988}), -- Iron Armada
         Toy({item = 108634}) -- Crashin' Thrashin' Mortar Controller
     }
 }) -- Smashum Grabb
