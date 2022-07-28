@@ -31,9 +31,9 @@ L['delectable_ogre_delicacies_note'] = [[
 ]]
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
-L['options_icons_writing_in_the_snow_desc'] = 'Muestra dónde están las páginas de diario ajado para el logro {achievement:9531}.'
+L['options_icons_writing_in_the_snow_desc'] = 'Muestra dónde están las páginas de |cffffff00Diario Ajado|r para el logro {achievement:9531}.'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Muestra dónde están los esclavos congelados y las |cffffff00Jaula de Prisionero|r para el logro {achievement:9533}.'
+L['options_icons_breaker_of_chains_desc'] = 'Muestra dónde están los |cffffff00Esclavo Congelado|r y las |cffffff00Jaula de Prisionero|r para el logro {achievement:9533}.'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = 'Muestra dónde están las delicias para el logro {achievement:9534}.'
 
@@ -111,24 +111,6 @@ L['options_icons_prove_your_strength'] = '{achievement:9402}'
 L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines para el logro {achievement:9402}.'
 
 -------------------------------------------------------------------------------
------------------------------- SHADOWMOON VALLEY ------------------------------
--------------------------------------------------------------------------------
-
-L['you_have_been_rylakinated_note'] = nil
-
-L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
-L['options_icons_you_have_been_rylakinated_desc'] = nil
-
--------------------------------------------------------------------------------
-------------------------------- SPIRES OF ARAK --------------------------------
--------------------------------------------------------------------------------
-
-L['forbidden_tome_note'] = nil
-
-L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
-L['options_icons_would_you_like_a_pamplet_desc'] = nil
-
--------------------------------------------------------------------------------
 ------------------------------------ NAGRAND ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -187,6 +169,32 @@ L['options_icons_buried_treasures'] = '{achievement:9548}'
 L['options_icons_buried_treasures_desc'] = 'Muestra dónde están los objetos para el logro {achievement:9548}.'
 L['options_icons_the_stable_master'] = '{achievement:9539} y {achievement:9540}'
 L['options_icons_the_stable_master_desc'] = 'Muestra dónde están los objetivos para los logros {achievement:9539} y {achievement:9540}.'
+
+-------------------------------------------------------------------------------
+------------------------------ SHADOWMOON VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L['you_have_been_rylakinated_note'] = 'Tienes que completar la misión {quest:34355}.\n\nRecoge una {item:116978} de un {npc:78999} cercano para controlar a un {npc:86085}.'
+
+L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
+L['options_icons_you_have_been_rylakinated_desc'] = 'Muestra dónde están los Rylak para el logro {achievement:9481}'
+
+-------------------------------------------------------------------------------
+------------------------------- SPIRES OF ARAK --------------------------------
+-------------------------------------------------------------------------------
+
+L['forbidden_tome_note'] = [[
+Requiere que la misión diaria {quest:36682} esté activa o usar la {item:122409}.
+
+Interactúa con un {npc:85992} para recibir aleatoriamente uno de estos tres buff.
+
+{spell:171783}
+{spell:171787}
+{spell:171768}
+]]
+
+L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
+L['options_icons_would_you_like_a_pamplet_desc'] = 'Muestra dónde están los escritos para el logro {achievement:9432}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
