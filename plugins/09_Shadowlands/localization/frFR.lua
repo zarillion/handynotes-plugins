@@ -14,9 +14,9 @@ L['anima_channeled'] = 'anima canalisé vers %s.'
 --------------------------------- SHADOWLANDS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['squirrels_note'] = nil
+L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat'
 L['options_icons_squirrels'] = '{achievement:14731}'
-L['options_icons_squirrels_desc'] = nil
+L['options_icons_squirrels_desc'] = 'Emplacements des bestioles pour {achievement:14731}'
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -103,15 +103,15 @@ L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = 'Afficher les emplacements des livres perdus pour la réalisation de {achievement:14788}.'
 
 L['options_icons_wild_hunting'] = '{achievement:14779}'
-L['options_icons_wild_hunting_desc'] = nil
+L['options_icons_wild_hunting_desc'] = 'Emplacements des bêtes de Sylvarden pour {achievement:14779}'
 
-L['options_icons_wildseed_spirits'] = nil
-L['options_icons_wildseed_spirits_desc'] = nil
+L['options_icons_wildseed_spirits'] = 'Esprits de Graines Sauvages'
+L['options_icons_wildseed_spirits_desc'] = 'Récompenses des esprits de graines sauvages'
 
-L['divine_martial_spirit'] = nil
-L['divine_dutiful_spirit'] = nil
-L['divine_prideful_spirit'] = nil
-L['divine_untamed_spirit'] = nil
+L['divine_martial_spirit'] = 'Esprit martial divin'
+L['divine_dutiful_spirit'] = 'Esprit dévoué divin'
+L['divine_prideful_spirit'] = 'Esprit orgueilleux divin'
+L['divine_untamed_spirit'] = 'Esprit indompté divin'
 
 L['martial_spirit_label'] = '{item:178874}'
 L['dutiful_spirit_label'] = '{item:178881}'
@@ -123,9 +123,27 @@ L['1x_wildseed_root_grain'] = '1x {item:176832}'
 L['2x_wildseed_root_grain'] = '2x or 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
-L['soulshape_cat_note'] = nil
-L['soulshape_corgi_note'] = nil
-L['soulshape_well_fed_cat_note'] = nil
+L['soulshape_cat_note'] = [[
+Ciblez {npc:181694} et tapez /apaise
+Peut apparaître au centre du sommet des 6 grands arbres autour de |cFFFFFF00Sylvarden|r :
+• |cFFFFFF00Palun Chanterêve|r
+• |cFFFFFF00Bassin Tombe-Lueur|r
+• |cFFFFFF00Tirna Vaal|r
+• |cFFFFFF00Creux Hibernal|r
+• |cFFFFFF00Bosquet du Xylocarde|r
+• |cFFFFFF00Bord-de-Griffe|r
+]]
+L['soulshape_corgi_note'] = [[
+Ciblez {npc:174608} et tapez /pet
+Une option Corgi sera immédiatement disponible en parlant avec {npc:181582}
+]]
+L['soulshape_well_fed_cat_note'] = [[
+1. Récupérer des {item:187811} à |cffffff00Sombrehavre|r
+2. Ciblez {npc:182093} et tapez /meow
+3. |cFFFF8C00Ma'oh miaule vers vous avec avidité.|r
+4. Ciblez {npc:182093} et utilisez les {item:187811}
+L'option Âme de Chat (Bien Nourri) deviendra immédiatement disponible en parlant avec {npc:181582}
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -267,7 +285,7 @@ L['stratios_note'] = 'Même les plus petites batailles doivent être menées ave
 L['thenia_note'] = 'Quelles magnifiques plaines dégagées ici. Un endroit glorieux pour se battre. Êtes-vous prêt ?'
 L['zolla_note'] = 'Nous prenons nos défenses très au sérieux. Qu\'elles soient petites ou grandes, nous sommes pleinement engagés à maintenir et à former les ressources qui permettent au Bastion de rester fort.'
 
-L['soulshape_otter_soul'] = nil
+L['soulshape_otter_soul'] = 'Ciblez {npc:181682} et tapez /hug'
 
 -------------------------------------------------------------------------------
 ----------------------------------- KORTHIA -----------------------------------
@@ -443,30 +461,30 @@ L['maximillian_note'] = 'J\'ai attendu des dizaines d\'années pour trouver un a
 L['rotgut_note'] = 'Tord-Tripes. Les restes. Pièces supplémentaires. Battez-vous.'
 
 L['ashen_ink_label'] = '{item:183690}'
-L['ashen_ink_note'] = nil
+L['ashen_ink_note'] = 'Drop aléatoire sur {npc:157125}'
 
 L['jagged_bonesaw_label'] = '{item:183692}'
-L['jagged_bonesaw_note'] = nil
+L['jagged_bonesaw_note'] = 'Drop aléatoire sur {npc:159105}'
 
 L['discarded_grimoire_label'] = '{item:183394}'
-L['discarded_grimoire_note'] = nil
+L['discarded_grimoire_note'] = 'Complétez {quest:62297} donnée par {npc:174020}'
 
 L['sorcerers_blade_label'] = '{item:183397}'
-L['sorcerers_blade_note'] = nil
+L['sorcerers_blade_note'] = 'Complétez {quest:62317} donnée par le |cFFFFFF00Message de l’ensorceleur|r à l\'intérieur du |cFFFFFF00Caveau des âmes|r. En bas des escaliers et à gauche sur la bibliothèque.'
 
 L['mucosal_pigment_label'] = '{item:183691}'
-L['mucosal_pigment_note'] = nil
+L['mucosal_pigment_note'] = 'Récupérables sur n\'importe quelle gelée, gouttelette, limon, rare ou géant près de la |cFFFFFF00Maison de la Peste|r ou de la zone près de {npc:162727}'
 
 L['amethystine_dye_label'] = '{item:183401}'
-L['amethystine_dye_note'] = nil
+L['amethystine_dye_note'] = 'Complétez {quest:62320} donnée par {npc:174120}'
 
 L['ritualists_mantle_label'] = '{item:183399}'
-L['ritualists_mantle_note'] = nil
+L['ritualists_mantle_note'] = 'Complétez {quest:62308} donnée par {npc:172813}. Il faut 3 personnes pour invoquer {npc:174127}.'
 
 L['options_icons_crypt_couture'] = '{achievement:14763}'
-L['options_icons_crypt_couture_desc'] = nil
+L['options_icons_crypt_couture_desc'] = 'Emplacements des customisations du déguisement d\'Acolyte nécrotique pour {achievement:14763}'
 
-L['soulshape_saurid_note'] = nil
+L['soulshape_saurid_note'] = 'Dans une petite grotte. Ciblez le {npc:182105} et tapez /bow'
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -543,14 +561,14 @@ L['inquisitor_note'] = 'Donnez 100 {currency:1816} à l\'{npc:160248} our avoir 
 L['options_icons_inquisitors'] = 'Inquisiteurs'
 L['options_icons_inquisitors_desc'] = 'Afficher les emplacements des inquisiteurs pour le succès {achievement:14276}.'
 
-L['bell_of_shame_note'] = nil
-L['atonement_crypt_label'] = nil
-L['atonement_crypt_note'] = nil
-L['atonement_crypts_opened'] = nil
+L['bell_of_shame_note'] = 'Toutes les 30 minutes, un fantôme aléatoire apparaîtra à côté de {npc:176006}.\n\nRéparez la {npc:176056} pour 30 {currency:1820} et faites ensuite sonner la cloche pour recevoir un buff provenant du fantôme actif.\n\nUn des fantômes, {npc:176043}, donne {spell:346708} qui offre un taux de drop accru des {item:172957} dans la zone environnante des |cFFFFFD00Salles de l’Expiation|r.'
+L['atonement_crypt_label'] = 'Crypte de l’Expiation'
+L['atonement_crypt_note'] = 'Ouvrez une |cFFFFFD00Crypte de l’Expiation|r en utilisant une {item:172957}.'
+L['atonement_crypts_opened'] = 'Cryptes de l’Expiation ouvertes'
 L['atonement_crypt_key_label'] = '{item:172957}'
-L['atonement_crypt_key_note'] = nil
+L['atonement_crypt_key_note'] = 'Les {item:172957} peuvent être obtenues sur la plupart des monstres dans la zone des |cFFFFFD00Salles de l\'Expiation|r.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nLe taux de drop le plus élevé est celui des {npc:158892}.'
 L['options_icons_crypt_kicker'] = '{achievement:14273}'
-L['options_icons_crypt_kicker_desc'] = nil
+L['options_icons_crypt_kicker_desc'] = 'Afficher les lieux de farm pour le haut-fait {achievement:14273}.'
 
 L['broken_mirror'] = 'Miroir brisé'
 L['broken_mirror_note'] = 'Un groupe de trois miroirs brisés sera actif chaque jour. Utilisez une {item:181363} pour réparer chaque miroir et ouvrir le |cFFFFFD00Coffre oublié|r à l\'intérieur.'
@@ -564,9 +582,18 @@ L['broken_mirror_61827'] = 'Dans une petite pièce.'
 L['options_icons_broken_mirror'] = 'Miroirs brisés'
 L['options_icons_broken_mirror_desc'] = 'Afficher les emplacements des miroirs brisés.'
 
-L['soulshape_chicken_note'] = nil
+L['soulshape_chicken_note'] = [[
+1. Récupérez des {item:187811} à |cffffff00Sombrehavre|r
+2. Ciblez {npc:181660} et tapez /chicken
+3. |cFFFF8C00L'Ame perdue glousse vers vous avec avidité.|r
+4. Ciblez {npc:181660} et utilisez les {item:187811}
+]]
 L['spectral_feed_label'] = '{item:187811}'
-L['spectral_feed_note'] = nil
+L['spectral_feed_note'] = [[
+{item:187811} sont utilisées pour nourrir {npc:181660} à |cffffff00Revendreth|r pour obtenir {item:187813}
+{item:187811} sont utilisées pour nourrir {npc:182093} à |cFFFFFF00Sylvarden|r pour obtenir |cFF00FF00[Ame de Chat Bien Nourri]|r
+|cFFFF8C00{item:187811} ont un timer de 10 minutes et un respawn de 60 minutes|r
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
@@ -758,65 +785,65 @@ L['mawsworn_blackguard_note'] = 'Cibler facilement un {npc:183173} camouflé :'
 L['options_icons_covenant_assaults'] = 'Covenant Assaults'
 L['options_icons_covenant_assaults_desc'] = 'Rewards for covenant assaults'
 
-L['assault_sublabel_US'] = nil
-L['assault_sublabel_EU'] = nil
+L['assault_sublabel_US'] = 'Les Assauts changent le Mardi à 8 heures PDT et le Vendredi à 20 heures PDT'
+L['assault_sublabel_EU'] = 'Les Assauts changent le Mercredi à 8 heures CET et le Samedi à 20 heures CET'
 
 L['necrolord_assault'] = '{quest:63543}'
-L['necrolord_assault_note'] = nil
-L['necrolord_assault_quantity_note'] = nil
+L['necrolord_assault_note'] = 'Le {item:185992} peut être récupéré une fois par assaut'
+L['necrolord_assault_quantity_note'] = 'Caches antreliges ouvertes'
 L['venthyr_assault'] = '{quest:63822}'
-L['venthyr_assault_note'] = nil
-L['venthyr_assault_quantity_note'] = nil
+L['venthyr_assault_note'] = 'Le {item:185990} peut être récupéré une fois par assaut'
+L['venthyr_assault_quantity_note'] = 'Objets utilisés'
 L['night_fae_assault'] = '{quest:63823}'
-L['night_fae_assault_note'] = nil
-L['night_fae_assault_quantity_note'] = nil
+L['night_fae_assault_note'] = 'Le {item:185991} peut être récupéré une fois par assaut'
+L['night_fae_assault_quantity_note'] = 'Cache secrète de la faille ouverte'
 L['kyrian_assault'] = '{quest:63824}'
-L['kyrian_assault_note'] = nil
-L['kyrian_assault_quantity_note1'] = nil
-L['kyrian_assault_quantity_note2'] = nil
+L['kyrian_assault_note'] = 'Le {item:185993} peut être récupéré une fois par assaut'
+L['kyrian_assault_quantity_note1'] = 'Fino trouvé'
+L['kyrian_assault_quantity_note2'] = 'Danse près des forges'
 
 -------------------------------------------------------------------------------
 ---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
 -------------------------------------------------------------------------------
 
-L['torghast_the_tower_of_the_damned'] = nil
-L['torghast_reward_sublabel'] = nil
-L['torghast_boss_note'] = nil
-L['torghast_vendor_note'] = nil
-L['torghast_reward_note'] = nil
-L['torghast_soulshape_note'] = nil
-L['colossal_umbrahide_mawrat_note'] = nil
+L['torghast_the_tower_of_the_damned'] = 'Tourment, La tour des Damnés'
+L['torghast_reward_sublabel'] = '|cFFFF8C00Récompenses partagées entre la plupart des ailes|r'
+L['torghast_boss_note'] = 'Obtenables sur plusieurs boss dans |cffffff00Tourment, La tour des Damnés|r '
+L['torghast_vendor_note'] = 'Vendu par les marchands {npc:152594} et {npc:170257} pour 300 {currency:1728} ou 1000 {currency:1728}'
+L['torghast_reward_note'] = 'Obtenu dans |cffffff00Tourment, La tour des Damnés|r '
+L['torghast_soulshape_note'] = 'Échelon 12+'
+L['colossal_umbrahide_mawrat_note'] = 'Échelon 13+'
 
-L['skoldus_hall'] = nil
-L['fracture_chambers'] = nil
-L['the_soulforges'] = nil
-L['coldheart_interstitia'] = nil
-L['mortregar'] = nil
-L['the_upper_reaches'] = nil
-L['adamant_vaults'] = nil
-L['twisting_corridors'] = nil
-L['the_jailers_gauntlet'] = nil
+L['skoldus_hall'] = 'Salle de Skoldus'
+L['fracture_chambers'] = 'Chambres aux Fractures'
+L['the_soulforges'] = 'Forges des Âmes'
+L['coldheart_interstitia'] = 'Interstice Cœur-Algide'
+L['mortregar'] = 'Mort\'regar'
+L['the_upper_reaches'] = 'Étages supérieurs'
+L['adamant_vaults'] = 'Les caveaux Impitoyables'
+L['twisting_corridors'] = 'Couloirs Distordus'
+L['the_jailers_gauntlet'] = 'L’épreuve du Geôlier'
 
-L['torghast_layer1'] = nil
-L['torghast_layer2'] = nil
-L['torghast_layer3'] = nil
-L['torghast_layer4'] = nil
-L['torghast_layer6'] = nil
-L['torghast_layer8'] = nil
+L['torghast_layer1'] = 'Terminez L\'Échelon 1'
+L['torghast_layer2'] = 'Terminez L\'Échelon 2'
+L['torghast_layer3'] = 'Terminez L\'Échelon 3'
+L['torghast_layer4'] = 'Terminez L\'Échelon 4'
+L['torghast_layer6'] = 'Terminez L\'Échelon 6'
+L['torghast_layer8'] = 'Terminez L\'Échelon 8'
 
-L['phantasma_note'] = nil
-L['bloating_fodder_note'] = nil
-L['flawless_master_note'] = nil
-L['tower_ranger_note'] = nil
+L['phantasma_note'] = 'Fantasmes'
+L['bloating_fodder_note'] = 'Détonation de Fourrage ballonnant'
+L['flawless_master_note'] = 'Complétez |cffffff00[{achievement:15322}]|r'
+L['tower_ranger_note'] = 'Complétez |cffffff00[{achievement:15324}]|r'
 
-L['the_jailers_gauntlet_note'] = nil
+L['the_jailers_gauntlet_note'] = '|cFFFF8C00Les boss ne comptent pas pour |r |cffffff00{achievement:14498}|r'
 
-L['the_box_of_many_things'] = nil
-L['the_box_of_many_things_note'] = nil
-L['many_many_things_section'] = nil
+L['the_box_of_many_things'] = 'La boîte aux mille tours'
+L['the_box_of_many_things_note'] = 'Débloquez des pouvoirs supplémentaires avec du {currency:1904}'
+L['many_many_things_section'] = 'Complétez |cffffff00[{achievement:15079}]|r'
 
 L['the_runecarver'] = '{npc:164937}'
-L['clearing_the_fog_suffix'] = nil
+L['clearing_the_fog_suffix'] = 'Souvenirs déverrouillés'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
@@ -1026,8 +1053,13 @@ L['coreless_automa_warning'] = '|cFFFF8C00Attendez que l\'automa commence réell
 
 L['olea_manu'] = 'Vend des objets et des recettes en échange de {currency:1979}.'
 
-L['venaris_fate_sublabel'] = nil
-L['venaris_fate_note'] = nil
+L['venaris_fate_sublabel'] = 'Situé dans le |cFFFFFF00Catalyseur de Création|r'
+L['venaris_fate_note'] = [[
+1. Parlez avec la {npc:162804} incorporelle au |cFFFFFF00Refuge de Ve'nari|r dans |cFFFFFF00L'Antre|r.
+2. Si elle n'est pas incorporelle, une avancée supplémentaire de l'histoire du 9.2 est requise.
+3. Interagissez avec le cadavre de {npc:162804} au |cFFFFFF00Catalyseur de Création|r à |cFFFFFF00Zereth Mortis|r.
+4. 5 jours plus tard, vous recevrez par courrier une lettre de {npc:162804} accompagnée de l'{item:192485}.
+]]
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Afficher les emplacements des créatures pour le haut-fait {achievement:15211}.'
