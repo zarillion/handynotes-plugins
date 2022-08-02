@@ -1,5 +1,5 @@
 local ADDON_NAME, ns = ...
-local L = ns.NewLocale('enUS')
+local L = ns.NewLocale('ruRU')
 if not L then return end
 
 -------------------------------------------------------------------------------
@@ -8,4 +8,4 @@ if not L then return end
 
 L['netherwing_egg'] = '{item:32506}'
 L['options_icons_netherwing_eggs'] = '{achievement:898}'
-L['options_icons_netherwing_eggs_desc'] = '{item:32506} locations for {achievement:898}'
+L['options_icons_netherwing_eggs_desc'] = nil
