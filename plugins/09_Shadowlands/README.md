@@ -49,6 +49,8 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 ### Ardenweald
 
 * Lost book locations for the [Fractured Faerie Tales](https://www.wowhead.com/achievement=14788/fractured-faerie-tales) achievement.
+* Wildlife locations for the [Wild Hunting](https://www.wowhead.com/achievement=14779/wild-hunting) achievement.
+* Wildseed spirit rewards found in the Queen's Conservatory.
 
 ### Bastion
 
@@ -61,6 +63,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 * Pool of Mixed Monstrosities summoning combinations and rewards.
 * Slime cat locations for the [Nine Afterlives](https://www.wowhead.com/achievement=14634/nine-afterlives) achievement.
+* Disguise locations for the [Crypt Couture](https://www.wowhead.com/achievement=14763/crypt-couture) achievement.
 
 ### Revendreth
 
@@ -71,6 +74,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Impressionable Gorger progress for the [Loyal Gorger](https://www.wowhead.com/item=182589/loyal-gorger) mount.
 * Fugitive Soul locations for the [Absolution for All](https://www.wowhead.com/achievement=14274/absolution-for-all) achievement.
 * Inquisitor locations for the [It's Always Sinny in Revendreth](https://www.wowhead.com/achievement=14276/its-always-sinny-in-revendreth) achievement.
+* Crypt locations for the [Crypt Kicker](https://www.wowhead.com/achievement=14273/crypt-kicker) achievement.
 
 ### The Maw
 
@@ -82,6 +86,14 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Mawsworn Blackguard locations for the [Who Sent You?](https://www.wowhead.com/achievement=14742/who-sent-you) achievement.
 * Ring and treasure locations for the [Hand of Nilganihmaht](https://www.wowhead.com/spell=354354/hand-of-nilganihmaht) mount.
 * Maw and Torghast upgrades purchased from [Ve'nari](https://www.wowhead.com/npc=162804/venari).
+* Covenant Assault rewards (active assault only or check *Covenant Assaults* to see all four).
+
+### Torghast
+
+* Runecarver memory progress for the [Clearing the Fog](https://www.wowhead.com/achievement=14795/clearing-the-fog) achievement.
+* Box of Many Things achievements and rewards.
+* All cosmetics and soulshapes found in Torghast.
+* Wing-specific rewards such as pets, mounts, titles, cosmetics and achievement criteria.
 
 ### Korthia
 
@@ -121,7 +133,8 @@ If you would like to translate the addon to another language, please open a [tic
 
 ## Credits and Issues
 
-I'd like to thank Ersanth for her early contributions to this addon.
+* I'd like to thank Ersanth for her early contributions to this addon.
+* I'd like to thank Wyldclaw for his numerous contributions in patch 9.2+.
 
 Did I miss something? Let me know in the comments if:
 

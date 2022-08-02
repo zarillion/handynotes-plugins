@@ -1,3 +1,15 @@
+# Unreleased
+
+* Added covenant assault rewards in the Maw.
+* Added critter locations for the To All the Squirrels I've Loved and Lost achievement.
+* Added crypt locations for the Crypt Kicker achievement.
+* Added disguise locations for the Crypt Couture achievement.
+* Added missing soulshapes for patch 9.0 zones.
+* Added the Stored Wisdom Device toy.
+* Added Torghast rewards for all wings.
+* Added wildlife locations for the Wild Hunting achievement.
+* Added wildseed spirit rewards in the Queen's Conservatory.
+
 # v47
 
 * Added coreless automa locations for the Apocopocolypse Now! achievment (thanks wyldclaw!)
