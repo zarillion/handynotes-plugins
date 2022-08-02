@@ -18,18 +18,23 @@ L['multiple_spawn_note'] = 'Peut apparaître à plusieurs endroits.'
 -------------------------------------------------------------------------------
 
 L['frozen_slave_label'] = '{npc:82680}'
-L['prisoner_cage_label'] = nil
-L['slaves_freed'] = nil
+L['prisoner_cage_label'] = 'Cage de prisonnier'
+L['slaves_freed'] = 'esclaves libérés'
 
 L['delectable_ogre_delicacies_label'] = '{achievement:9534}'
-L['delectable_ogre_delicacies_note'] = nil
+L['delectable_ogre_delicacies_note'] = [[
+{npc:82801}, {npc:82822}, et {npc:82823} peuvent apparaître à n'importe quel endroit
+{spell:166684} dure 5 minutes
+{spell:166686} dure 2 minutes
+{spell:166687} dure 2 minutes
+]]
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
-L['options_icons_writing_in_the_snow_desc'] = nil
+L['options_icons_writing_in_the_snow_desc'] = 'Afficher les emplacements de la |cffffff00Page de journal en lambeaux|r pour {achievement:9531}'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = nil
+L['options_icons_breaker_of_chains_desc'] = 'Affichez les emplacements des |cffffff00Esclave gelé|r et |cffffff00Cage de prisonnier|r pour {achievement:9533}'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
-L['options_icons_delectable_ogre_delicacies_desc'] = nil
+L['options_icons_delectable_ogre_delicacies_desc'] = 'Afficher les emplacements des spécialités pour {achievement:9534}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
@@ -68,74 +73,92 @@ L['laughing_skull_note'] = 'En haut de l’arbre.'
 L['warm_goren_egg_note'] = '{item:118705} est incubé pendant 7 jours pour devenir {item:118716}.'
 L['ninja_pepe_note'] = 'Dans la cabane, assis sur une chaise.'
 
-L['protectors_of_the_grove_sublabel'] = nil
+L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, et |cffffff00{npc:86257}|r forment les |cffffff00Protecteurs du Bosquet|r'
 
-L['prove_your_strength_note'] = nil
-L['prove_your_strength_drop_single'] = nil
-L['prove_your_strength_drop_double'] = nil
+L['prove_your_strength_note'] = 'La capacité de fief {spell:164012} doit être active. Pour activer |cffffff00L’arène d’entraînement|r, rendez-vous à l\'avant-poste de votre faction.'
+L['prove_your_strength_drop_single'] = 'Lâché par %s.'
+L['prove_your_strength_drop_double'] = 'Lâché par %s ou %s.'
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
 L['options_icons_attack_plans_desc'] = 'Affiche les emplacements des Ordres d’attaque de la Horde de Fer pour {achievement:9656}.'
 L['options_icons_ancient_no_more'] = '{achievement:9678}'
-L['options_icons_ancient_no_more_desc'] = nil
+L['options_icons_ancient_no_more_desc'] = 'Afficher les emplacements des monstres rares pour {achievement:9678}'
 L['options_icons_fight_the_power'] = '{achievement:9655}'
-L['options_icons_fight_the_power_desc'] = nil
+L['options_icons_fight_the_power_desc'] = 'Afficher les emplacements des monstres rares pour {achievement:9655}'
 L['options_icons_prove_your_strength'] = '{achievement:9402}'
-L['options_icons_prove_your_strength_desc'] = nil
+L['options_icons_prove_your_strength_desc'] = 'Afficher les emplacements de drop pour {achievement:9402}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAGRAND ----------------------------------
 -------------------------------------------------------------------------------
 
-L['highmaul_farm_path'] = nil
+L['highmaul_farm_path'] = [[
+Parcours de farm
+1. Partez de la porte d'entrée et allez à droite dans  |cffffff00Les Entrailles|r.
+2. Allez à gauche en traversant la fosse aux gladiateurs. Assurez-vous de tagger l'ogre surplombant en haut à gauche.
+3. Continuez à monter les escaliers et passez l'étang où se trouve le {npc:87227}.
+4. Tournez à gauche et remontez vers la |cffffff00Voie des Vainqueurs|r.
+5. Allez jusqu'à la jonction du chemin. Assurez-vous de tagger l'ogre à droite.
+6. Tournez à gauche vers |cffffff00Le Marché|r et éliminez tout dans le sens inverse des aiguilles d'une montre.
+7. Allez à gauche vers la |cffffff00Faveur de L'Imperator|r, continuez à suivre le chemin et éliminez tout s'y trouvant.
+8. A gauche encore, descendez le chemin, et revenez à nouveau sur la |cffffff00Voie des Vainqueurs|r.
+9. Invoquez votre monture et volez vers le haut, survolez et entrez dans |cffffff00Le Colisée|r. N'essayez pas d'utiliser la porte d'entrée, elle est verrouillée.
+Volez vers la droite et revenez à la porte principale. Une seule run prend un peu moins de 4 minutes et le temps que vous soyez de retour à la porte d'entrée, tout aura déjà réapparu.
+]]
 
-L['steamwheedle_note'] = nil
+L['steamwheedle_note'] = 'Farmez des {item:118099} et {item:118100} sur les {npc:87223} et {npc:87222} autour de |cffffff00Cognefort|r. Donnez les objets à {npc:87393} pour gagner de la réputation.'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
-L['finding_your_waystones_note'] = nil
-L['ogre_waystones'] = nil
+L['finding_your_waystones_note'] = 'Farmez des {item:117491} sur les {npc:87223} et {npc:87222} autour de |cffffff00Cognefort|r'
+L['ogre_waystones'] = 'pierres d\'accès ogre récupérées'
 
-L['signal_horn_note'] = nil
+L['signal_horn_note'] = 'Obtenez les {item:120290} sur le {npc:86658} proche puis utilisez le {npc:87361} pour invoquer {npc:87239} et {npc:87344}.'
 
-L['garroshs_shackles'] = nil
-L['warsong_relics'] = nil
-L['stolen_draenei_tome'] = nil
-L['dirt_mound'] = nil
+L['garroshs_shackles'] = 'A l\'intérieur de la hutte'
+L['warsong_relics'] = 'Contre une clôture à l\'extérieur d\'une hutte'
+L['stolen_draenei_tome'] = 'Peut apparaître à plusieurs endroits au sommet des tours'
+L['dirt_mound'] = 'Tuez {npc:86659} pour faire apparaître un {npc:87280} sur le sol à proximité. Cliquez sur le totem pour recevoir {spell:174572}. Vous pouvez maintenant creuser dans les {npc:87530} proches pour trouver des objets.'
 
-L['stable_master_note'] = nil
+L['stable_master_note'] = 'Parlez à {stablemaster} pour recevoir un sifflet de dressage.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUtilisez le sifflet pour invoquer votre monture en dressage de monture et tuer la cible.\n\n{achievement:9539} nécessite une {item:118469} d\'une |cffffff00Écuries de niveau 2|r.\n{achievement:9540} nécessite un {item:118470} d\'une |cffffff00Écuries de niveau 3|r.'
 
-L['making_the_cut_note'] = nil
+L['making_the_cut_note'] = 'Tant que {npc:88210} est disponible, tuez 15 {npc:88207} dans les environs de l\'|cffffff00Arène de Sang|r. Une fois que 15 ont été tués {npc:88210} deviendra ciblable.\n\n' .. ns.color.Red('Pas mal pour une bande de minables ! Venez affronter Krud quand vous serez prêt à mourir !')
 
 L['options_icons_steamwheedle'] = '{achievement:9472}'
-L['options_icons_steamwheedle_desc'] = nil
+L['options_icons_steamwheedle_desc'] = 'Afficher l\'emplacement de farm pour {achievement:9472}'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
-L['options_icons_finding_your_waystones_desc'] = nil
+L['options_icons_finding_your_waystones_desc'] = 'Afficher l\'emplacement de farm pour {achievement:9497}'
 L['options_icons_song_of_silence'] = '{achievement:9541}'
-L['options_icons_song_of_silence_desc'] = nil
+L['options_icons_song_of_silence_desc'] = 'Afficher les emplacements des monstres rares pour {achievement:9541}'
 L['options_icons_buried_treasures'] = '{achievement:9548}'
-L['options_icons_buried_treasures_desc'] = nil
-L['options_icons_the_stable_master'] = nil
-L['options_icons_the_stable_master_desc'] = nil
+L['options_icons_buried_treasures_desc'] = 'Afficher les emplacements de l\'objet pour {achievement:9548}'
+L['options_icons_the_stable_master'] = '{achievement:9539} et {achievement:9540}'
+L['options_icons_the_stable_master_desc'] = 'Afficher les emplacements des cibles pour {achievement:9539} et {achievement:9540}'
 L['options_icons_making_the_cut'] = '{achievement:9617}'
-L['options_icons_making_the_cut_desc'] = nil
+L['options_icons_making_the_cut_desc'] = 'Afficher les emplacements des |cffffff00Esclavagiste du Cercle-Sanglant|r pour {achievement:9617}'
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
-L['you_have_been_rylakinated_note'] = nil
+L['you_have_been_rylakinated_note'] = 'Nécessite de terminer {quest:34355}.\n\nRécupérez {item:116978} sur les {npc:78999} à proximité pour contrôler {npc:86085}.'
 
 L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
-L['options_icons_you_have_been_rylakinated_desc'] = nil
+L['options_icons_you_have_been_rylakinated_desc'] = 'Affichez les emplacements des Rylaks pour {achievement:9481}'
 
 -------------------------------------------------------------------------------
 ------------------------------- SPIRES OF ARAK --------------------------------
 -------------------------------------------------------------------------------
 
-L['forbidden_tome_note'] = nil
+L['forbidden_tome_note'] = [[
+Requiert que la quête journalière {quest:36682} soit active ou bien d'utiliser {item:122409}.
+Interagissez avec le {npc:85992} pour recevoir au hasard l'un des trois buffs.
+{spell:171783}
+{spell:171787}
+{spell:171768}
+]]
 
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
-L['options_icons_would_you_like_a_pamplet_desc'] = nil
+L['options_icons_would_you_like_a_pamplet_desc'] = 'Afficher les emplacements des objets pour {achievement:9432}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -159,7 +182,7 @@ Vous pouvez combiner n’importe laquelle des méthodes ci-dessus pour invoquer 
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
-L['options_icons_cut_off_the_head_desc'] = nil
+L['options_icons_cut_off_the_head_desc'] = 'Afficher les emplacements des monstres rares pour {achievement:9633}'
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
