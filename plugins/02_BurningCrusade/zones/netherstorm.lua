@@ -24,7 +24,7 @@ map.nodes[26604200] = Rare({
     id = 18697,
     rewards = {
         Achievement({id = 1312, criteria = 4506}), -- Bloody Rare
-        Transmog({item = 31201, slot = L['back']}) -- Illidari Cloak
+        Transmog({item = 31201, slot = L['cloak']}) -- Illidari Cloak
     },
     pois = {POI({27003720, 58606400, 61006540, 46608320, 46208080})}
 }) -- Chief Engineer Lorthander

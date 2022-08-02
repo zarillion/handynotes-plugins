@@ -52,7 +52,7 @@ map.nodes[10005240] = Rare({
     id = 18680,
     rewards = {
         Achievement({id = 1312, criteria = 4516}), -- Bloody Rare
-        Transmog({item = 31254, slot = L['back']}) -- Striderhide Cloak
+        Transmog({item = 31254, slot = L['cloak']}) -- Striderhide Cloak
     },
     pois = {
         POI({
