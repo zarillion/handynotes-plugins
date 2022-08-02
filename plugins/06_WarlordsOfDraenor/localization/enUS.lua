@@ -122,6 +122,8 @@ L['dirt_mound'] = 'Kill {npc:86659} to spawn a {npc:87280} on the floor nearby. 
 
 L['stable_master_note'] = 'Talk to {stablemaster} to receive a mount-in-training whistle.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUse the whistle to summon your mount-in-training and kill the target.\n\n{achievement:9539} requires {item:118469} from a |cffffff00Level 2 Stables|r.\n{achievement:9540} requires {item:118470} from a |cffffff00Level 3 Stables|r.'
 
+L['making_the_cut_note'] = 'While {npc:88210} is available kill 15 {npc:88207} around |cffffff00The Ring of Blood|r. Once 15 have been killed {npc:88210} will become targetable.\n\n' .. ns.color.Red('Not bad for a bunch of worthless pukes! Come face Krud when you ready to die!')
+
 L['options_icons_steamwheedle'] = '{achievement:9472}'
 L['options_icons_steamwheedle_desc'] = 'Display farm location for {achievement:9472}'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
@@ -132,6 +134,8 @@ L['options_icons_buried_treasures'] = '{achievement:9548}'
 L['options_icons_buried_treasures_desc'] = 'Display item locations for {achievement:9548}'
 L['options_icons_the_stable_master'] = '{achievement:9539} and {achievement:9540}'
 L['options_icons_the_stable_master_desc'] = 'Display target locations for {achievement:9539} and {achievement:9540}'
+L['options_icons_making_the_cut'] = '{achievement:9617}'
+L['options_icons_making_the_cut_desc'] = 'Display |cffffff00Bloodring Slaver|r locations for {achievement:9617}'
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------

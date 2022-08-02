@@ -121,22 +121,9 @@ L['warsong_relics'] = 'An einem Zaun vor einer Hütte.'
 L['stolen_draenei_tome'] = 'Kann an mehreren Positionen auf Türmen erscheinen.'
 L['dirt_mound'] = 'Töte {npc:86659} und klicke das auf dem Boden liegende {npc:87280} an, um dich in einen {spell:174572} zu verwandeln, damit können {npc:87530} in der Nähe ausgraben werden, um die Gegenstände zu finden.'
 
-L['stable_master_note'] = [[
-Sprich mit {npc:86973}, um eine der Ausbildungspfeifen zu erhalten.
+L['stable_master_note'] = 'Sprich mit {stablemaster}, um eine der Ausbildungspfeifen zu erhalten.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nBenutze die Pfeife, um dein Reittier zu rufen und das Ziel zu töten.\n\n{achievement:9539} benötigt {item:118469} von |cffffff00Stall, Stufe 2|r.\n{achievement:9540} benötigt {item:118470} von |cffffff00Stall, Stufe 3|r.'
 
-{item:119441}
-{item:119442}
-{item:119443}
-{item:119444}
-{item:119445}
-{item:119446}
-
-Benutze die Pfeife, um dein Reittier zu rufen und das Ziel zu töten.
-
-{achievement:9539} benötigt {item:118469} von |cffffff00Stall, Stufe 2|r.
-
-{achievement:9540} benötigt {item:118470} von |cffffff00Stall, Stufe 3|r.
-]]
+L['making_the_cut_note'] = nil
 
 L['options_icons_steamwheedle'] = '{achievement:9472}'
 L['options_icons_steamwheedle_desc'] = 'Zeigt die Position zum Ruf sammeln für den Erfolg {achievement:9472} an.'
@@ -148,6 +135,8 @@ L['options_icons_buried_treasures'] = '{achievement:9548}'
 L['options_icons_buried_treasures_desc'] = 'Zeigt die Positionen der Gegenstände für den Erfolg {achievement:9548} an.'
 L['options_icons_the_stable_master'] = '{achievement:9539} und {achievement:9540}'
 L['options_icons_the_stable_master_desc'] = 'Zeigt die Positionen der Ziele für die Erfolge {achievement:9539} und {achievement:9540} an.'
+L['options_icons_making_the_cut'] = '{achievement:9617}'
+L['options_icons_making_the_cut_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------

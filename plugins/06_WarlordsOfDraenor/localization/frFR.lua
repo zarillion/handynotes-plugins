@@ -104,6 +104,8 @@ L['dirt_mound'] = nil
 
 L['stable_master_note'] = nil
 
+L['making_the_cut_note'] = nil
+
 L['options_icons_steamwheedle'] = '{achievement:9472}'
 L['options_icons_steamwheedle_desc'] = nil
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
@@ -114,6 +116,8 @@ L['options_icons_buried_treasures'] = '{achievement:9548}'
 L['options_icons_buried_treasures_desc'] = nil
 L['options_icons_the_stable_master'] = nil
 L['options_icons_the_stable_master_desc'] = nil
+L['options_icons_making_the_cut'] = '{achievement:9617}'
+L['options_icons_making_the_cut_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
