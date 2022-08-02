@@ -7,7 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
-local Node = ns.node.Node
+local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -61,24 +61,6 @@ if UnitFactionGroup('player') == 'Alliance' then
         ['outpost'] = 35063
     }
 end
-
--------------------------------------------------------------------------------
------------------------------------- NODES ------------------------------------
--------------------------------------------------------------------------------
-
-local Voidtalon = Node({
-    icon = 1094600,
-    label = L['edge_of_reality'],
-    note = L['edge_of_reality_note'],
-    rewards = {
-        Mount({id = 682, item = 121815}) -- Voidtalon of the Dark Star
-    }
-})
-
-map.nodes[51583863] = Voidtalon
-map.nodes[54004580] = Voidtalon
-map.nodes[56004065] = Voidtalon
-map.nodes[43213420] = Voidtalon
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -856,3 +838,241 @@ map.nodes[51007060] = PetBattle({
     id = 83837,
     rewards = {Achievement({id = 9724, criteria = 27011})}
 }) -- Cymre Brightblade
+
+-------------------------------------------------------------------------------
+------------------------------- ANCIENT NO MORE -------------------------------
+-------------------------------------------------------------------------------
+
+local AncientRare = Class('AncientRare', Collectible, {
+    scale = 1.5,
+    icon = 'peg_yw',
+    group = ns.groups.ANCIENT_NO_MORE
+})
+
+map.nodes[59603180] = AncientRare({
+    id = 88582,
+    rewards = {Achievement({id = 9678, criteria = 26593})}
+}) -- Swift Onyx Flayer
+
+map.nodes[61603920] = AncientRare({
+    id = 88586,
+    rewards = {Achievement({id = 9678, criteria = 26594})}
+}) -- Mogamago
+
+map.nodes[69404440] = AncientRare({
+    sublabel = L['protectors_of_the_grove_sublabel'],
+    rewards = {Achievement({id = 9678, criteria = 26595})}
+}) -- Protectors of the Grove
+
+map.nodes[63403060] = AncientRare({
+    id = 86266,
+    rewards = {Achievement({id = 9678, criteria = 26596})}
+}) -- Venolasix
+
+map.nodes[56204080] = AncientRare({
+    id = 86268,
+    rewards = {Achievement({id = 9678, criteria = 26597})},
+    pois = {POI({58604140, 71404040})}
+}) -- Alkali
+
+map.nodes[72204080] = AncientRare({
+    id = 82058,
+    rewards = {Achievement({id = 9678, criteria = 26598})}
+}) -- Depthroot
+
+map.nodes[57803660] = AncientRare({
+    id = 88580,
+    rewards = {Achievement({id = 9678, criteria = 26599})},
+    pois = {POI({72803580})}
+}) -- Firestarter Grash
+
+map.nodes[59604300] = AncientRare({
+    id = 88583,
+    rewards = {Achievement({id = 9678, criteria = 26600})}
+}) -- Grove Warden Yal
+
+map.nodes[55004600] = AncientRare({
+    id = 88672,
+    rewards = {Achievement({id = 9678, criteria = 26606})}
+}) -- Hunter Bal'ra
+
+-------------------------------------------------------------------------------
+------------------------------- FIGHT THE POWER -------------------------------
+-------------------------------------------------------------------------------
+
+local PowerRare = Class('PowerRare', Collectible, {
+    scale = 1.5,
+    icon = 'peg_rd',
+    group = ns.groups.FIGHT_THE_POWER
+})
+
+map.nodes[49203300] = PowerRare({
+    id = 86562,
+    rewards = {Achievement({id = 9655, criteria = 26542})}
+}) -- Maniacal Madgard
+
+map.nodes[48202100] = PowerRare({
+    id = 86566,
+    rewards = {Achievement({id = 9655, criteria = 26543})}
+}) -- Defector Dazgo
+
+map.nodes[49802380] = PowerRare({
+    id = 86571,
+    rewards = {Achievement({id = 9655, criteria = 26544})}
+}) -- Durp the Hated
+
+map.nodes[47803080] = PowerRare({
+    id = 86574,
+    rewards = {Achievement({id = 9655, criteria = 26545})}
+}) -- Inventor Blammo
+
+map.nodes[45802680] = PowerRare({
+    id = 86577,
+    rewards = {Achievement({id = 9655, criteria = 26548})},
+    pois = {POI({46002920, 45602540})}
+}) -- Horgg
+
+map.nodes[47003280] = PowerRare({
+    id = 86579,
+    rewards = {Achievement({id = 9655, criteria = 26550})},
+    pois = {POI({45803360, 43603440})}
+}) -- Blademaster Ro'gor
+
+map.nodes[46002340] = PowerRare({
+    id = 86582,
+    rewards = {Achievement({id = 9655, criteria = 26551})}
+}) -- Morgo Kain
+
+-------------------------------------------------------------------------------
+----------------------------- PROVE YOUR STRENGTH -----------------------------
+-------------------------------------------------------------------------------
+
+local FactionRepresentative = Class('FactionRepresentative', NPC, {
+    icon = 874578,
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    note = L['prove_your_strength_note'],
+    rewards = {
+        Achievement({id = 9402, criteria = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}})
+    }
+})
+
+map.nodes[46206960] = FactionRepresentative({id = 76688, faction = 'Horde'}) -- Limbflayer
+
+map.nodes[52805980] = FactionRepresentative({id = 81076, faction = 'Alliance'}) -- Rangari Jonaa
+
+map.nodes[43808100] = Collectible({
+    label = '{item:114030}',
+    icon = 133749,
+    note = string.format(L['prove_your_strength_drop_double'], '{npc:81630}',
+        '{npc:81005}') .. '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 1})}
+}) -- Ancient Branch
+
+map.nodes[51006880] = Collectible({
+    label = '{item:114036}',
+    icon = 615303,
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:85694}') ..
+        '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 2})}
+}) -- Basilisk Scale
+
+map.nodes[43807840] = Collectible({
+    label = '{item:114025}',
+    icon = 959803,
+    note = string.format(L['prove_your_strength_drop_double'], '{npc:80696}',
+        '{npc:81575}') .. '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 3})}
+}) -- Botani Bloom
+
+map.nodes[43206200] = Collectible({
+    label = '{item:114038}',
+    icon = 615303,
+    note = string.format(L['prove_your_strength_drop_double'], '{npc:83458}',
+        '{npc:81685}') .. '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 4})}
+}) -- Elemental Crystal
+
+map.nodes[43806480] = Collectible({
+    label = '{item:113590}',
+    icon = 133725,
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:80690}') ..
+        '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 5})}
+}) -- Acid-Stained Goren Tooth
+
+map.nodes[46604660] = Collectible({
+    label = '{item:114023}',
+    icon = 237299,
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:80689}') ..
+        '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 6})}
+}) -- Gronn Eye
+
+map.nodes[45806560] = Collectible({
+    label = '{item:114021}',
+    icon = 134319,
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:80685}') ..
+        '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 7})}
+}) -- Gronnling Scale
+
+map.nodes[43004740] = Collectible({
+    label = '{item:114019}',
+    icon = 133725,
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:81240}') ..
+        '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 8})}
+}) -- Worn Ogron Horn
+
+map.nodes[48207280] = Collectible({
+    label = '{item:114027}',
+    icon = 136104,
+    note = string.format(L['prove_your_strength_drop_single'], '{npc:81617}') ..
+        '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 9})}
+}) -- Orc Thorn
+
+map.nodes[45608060] = Collectible({
+    label = '{item:114032}',
+    icon = 615303,
+    note = string.format(L['prove_your_strength_drop_double'], '{npc:81561}',
+        '{npc:85779}') .. '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 10})}
+}) -- Ravager Claw
+
+map.nodes[52606760] = Collectible({
+    label = '{item:114034}',
+    icon = 615303,
+    note = string.format(L['prove_your_strength_drop_double'], '{npc:85807}',
+        '{npc:85695}') .. '\n\n' .. L['prove_your_strength_note'],
+    group = ns.groups.PROVE_YOUR_STRENGTH,
+    rewards = {Achievement({id = 9402, criteria = 11})}
+}) -- Wasp Stinger
+
+-------------------------------------------------------------------------------
+---------------------------------- VOIDTALON ----------------------------------
+-------------------------------------------------------------------------------
+
+local Voidtalon = Collectible({
+    icon = 1094600,
+    label = L['edge_of_reality'],
+    note = L['edge_of_reality_note'],
+    rewards = {
+        Mount({id = 682, item = 121815}) -- Voidtalon of the Dark Star
+    }
+})
+
+map.nodes[51583863] = Voidtalon
+map.nodes[54004580] = Voidtalon
+map.nodes[56004065] = Voidtalon
+map.nodes[43213420] = Voidtalon

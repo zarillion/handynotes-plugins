@@ -14,6 +14,30 @@ L['strange_spore_treasure'] = 'Espora Extraña'
 L['multiple_spawn_note'] = 'Puede aparecer en varios sitios.'
 
 -------------------------------------------------------------------------------
+------------------------------- FROSTFIRE RIDGE -------------------------------
+-------------------------------------------------------------------------------
+
+L['frozen_slave_label'] = '{npc:82680}'
+L['prisoner_cage_label'] = 'Jaula de Prisionero'
+L['slaves_freed'] = 'esclavos liberados'
+
+L['delectable_ogre_delicacies_label'] = '{achievement:9534}'
+L['delectable_ogre_delicacies_note'] = [[
+{npc:82801}, {npc:82822}, y {npc:82823} pueden aparecer en cualquier sitio.
+
+{spell:166684} dura 5 minutos
+{spell:166686} dura 2 minutos
+{spell:166687} dura 2 minutos
+]]
+
+L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
+L['options_icons_writing_in_the_snow_desc'] = 'Muestra dónde están las páginas de |cffffff00Diario Ajado|r para el logro {achievement:9531}.'
+L['options_icons_breaker_of_chains'] = '{achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = 'Muestra dónde están los |cffffff00Esclavo Congelado|r y las |cffffff00Jaula de Prisionero|r para el logro {achievement:9533}.'
+L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
+L['options_icons_delectable_ogre_delicacies_desc'] = 'Muestra dónde están las delicias para el logro {achievement:9534}.'
+
+-------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -50,8 +74,95 @@ L['laughing_skull_note'] = 'Encima del árbol.'
 L['warm_goren_egg_note'] = 'El {item:118705} tras incubar 7 días se convierte en {item:118716}.'
 L['ninja_pepe_note'] = 'Sentado en una silla que hay dentro de la choza.'
 
+L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, y |cffffff00{npc:86257}|r forman los |cffffff00Protectores de la Arboleda|r.'
+
+L['prove_your_strength_note'] = 'Requiere que la habilidad {spell:164012} de la ciudadela esté activa. Para activar la |cffffff00Arena de Entrenamiento|r visita tu edificio de avanzada de facción.'
+L['prove_your_strength_drop_single'] = 'Botín de %s.'
+L['prove_your_strength_drop_double'] = 'Botín de %s y %s.'
+
 L['options_icons_attack_plans'] = '{achievement:9656}'
-L['options_icons_attack_plans_desc'] = 'Muestra los sitios dónde están los Planes de Ataque de la Horda de Hierro para {achievement:9656}.'
+L['options_icons_attack_plans_desc'] = 'Muestra dónde están las Órdenes de Ataque de la Horda de Hierro para el logro {achievement:9656}.'
+L['options_icons_ancient_no_more'] = '{achievement:9678}'
+L['options_icons_ancient_no_more_desc'] = 'Muestra dónde están los raros para el logro {achievement:9678}.'
+L['options_icons_fight_the_power'] = '{achievement:9655}'
+L['options_icons_fight_the_power_desc'] = 'Muestra dónde están los raros para el logro {achievement:9655}.'
+L['options_icons_prove_your_strength'] = '{achievement:9402}'
+L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines para el logro {achievement:9402}.'
+
+-------------------------------------------------------------------------------
+------------------------------------ NAGRAND ----------------------------------
+-------------------------------------------------------------------------------
+
+L['highmaul_farm_path'] = [[
+Ruta de Farmeo
+1. Comienza en la puerta principal y gira a la derecha dentro de |cffffff00Los Bajos Fondos|r.
+2. Ves a la izquierda a través del foso de gladiadores de la zona. Asegúrate de elegir como objetivo al ogro que está en la parte superior izquierda.
+3. Continúa subiendo las escaleras y pasa la charca con {npc:87227}.
+4. Gira a la izquierda dentro de la |cffffff00Senda de los Vencedores|r.
+5. Sube a la bifurcación del camino. Asegúrate de elegir como objetivo al ogro de la derecha.
+6. Gira a la izquierda en el |cffffff00Distrito del Mercado|r y mátalo todo moviéndote en sentido contrario a las agujas del reloj.
+7. Ves a la izquierda dentro del |cffffff00Beneplácito del Imperador|r, continúa siguiendo el camino y matándolo todo.
+8. A la izquierda de nuevo, baja el camino, y regresa a la |cffffff00Senda de los Vencedores|r.
+9. Monta y vuela hacia arriba, por encima de |cffffff00El Coliseo|r. No intentes usar la puerta principal, está cerrada.
+
+Vuela fuera hacia la derecha y vuelve a la puerta principal. Una sola pasada lleva unos 4 minutos y cuando has vuelto a la puerta principal todo habrá reaparecido.
+]]
+
+L['steamwheedle_note'] = 'Acumula {item:118099} y {item:118100} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r. Entrega los objetos a {npc:87393} a cambio de reputación.'
+
+L['finding_your_waystones_label'] = '{achievement:9497}'
+L['finding_your_waystones_note'] = 'Acumula {item:117491} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r'
+L['ogre_waystones'] = 'piedra de puerta ogra despojada'
+
+L['signal_horn_note'] = 'Consigue los {item:120290} del {npc:86658} cercano y utiliza el {npc:87361} para invocar a {npc:87239} y a {npc:87344}.'
+
+L['garroshs_shackles'] = 'Dentro de la choza.'
+L['warsong_relics'] = 'Contra una valla fuera de una choza.'
+L['stolen_draenei_tome'] = 'Puede aparecer en varios sitios encima de las torres.'
+L['dirt_mound'] = 'Mata a {npc:86659} para que aparezca cerca, en el suelo, el {npc:87280}. Interactúa con el tótem para recibir el buff {spell:174572}. Ahora puedes excarvar en los {npc:87530} cercanos para encontrar objetos.'
+
+L['stable_master_note'] = 'Habla con {stablemaster} para recibir un silbato de montura en prácticas.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUsa el silbato para invocar tu montura en prácticas y mata al objetivo.\n\n{achievement:9539} requiere la {item:118469} de |cffffff00Establos Nivel 2|r.\n\n{achievement:9540} requiere el {item:118470} de |cffffff00Establos Nivel 3|r.'
+
+L['making_the_cut_note'] = 'Mientras {npc:88210} esté disponible mata a 15 ogros alrededor de |cffffff00El Círculo de Sangre|r. Una vez se hayan matado a los 15 ogros será posible señalar como objetivo a {npc:88210}.'
+
+L['options_icons_steamwheedle'] = '{achievement:9472}'
+L['options_icons_steamwheedle_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9472}.'
+L['options_icons_finding_your_waystones'] = '{achievement:9497}'
+L['options_icons_finding_your_waystones_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9497}.'
+L['options_icons_song_of_silence'] = '{achievement:9541}'
+L['options_icons_song_of_silence_desc'] = 'Muestra dónde están los raros para el logro {achievement:9541}.'
+L['options_icons_buried_treasures'] = '{achievement:9548}'
+L['options_icons_buried_treasures_desc'] = 'Muestra dónde están los objetos para el logro {achievement:9548}.'
+L['options_icons_the_stable_master'] = '{achievement:9539} y {achievement:9540}'
+L['options_icons_the_stable_master_desc'] = 'Muestra dónde están los objetivos para los logros {achievement:9539} y {achievement:9540}.'
+L['options_icons_making_the_cut'] = '{achievement:9617}'
+L['options_icons_making_the_cut_desc'] = 'Muestra dónde están los |cffffff00Bloodring Slaver|r para el logro {achievement:9617}'
+
+-------------------------------------------------------------------------------
+------------------------------ SHADOWMOON VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L['you_have_been_rylakinated_note'] = 'Tienes que completar la misión {quest:34355}.\n\nRecoge una {item:116978} de un {npc:78999} cercano para controlar a un {npc:86085}.'
+
+L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
+L['options_icons_you_have_been_rylakinated_desc'] = 'Muestra dónde están los Rylak para el logro {achievement:9481}'
+
+-------------------------------------------------------------------------------
+------------------------------- SPIRES OF ARAK --------------------------------
+-------------------------------------------------------------------------------
+
+L['forbidden_tome_note'] = [[
+Requiere que la misión diaria {quest:36682} esté activa o usar la {item:122409}.
+
+Interactúa con un {npc:85992} para recibir aleatoriamente uno de estos tres buff.
+
+{spell:171783}
+{spell:171787}
+{spell:171768}
+]]
+
+L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
+L['options_icons_would_you_like_a_pamplet_desc'] = 'Muestra dónde están los escritos para el logro {achievement:9432}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -73,6 +184,9 @@ La última opción es usar sólo un personaje. Ves a la runa, enciéndela, telep
 
 Se pueden combinar cualquiera de los métodos anteriores para invocar a {npc:87668}.
 ]]
+
+L['options_icons_cut_off_the_head'] = '{achievement:9633}'
+L['options_icons_cut_off_the_head_desc'] = 'Muestra dónde están los raros para el logro {achievement:9633}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------

@@ -13,6 +13,7 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Title = ns.reward.Title
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -699,7 +700,10 @@ map.nodes[69603820] = Rare({
         ns.requirement.Reputation(1849, 8) -- Order of the Awakened (Exalted)
     },
     note = L['xemirkol_note'],
-    rewards = {Achievement({id = 10334})},
+    rewards = {
+        Achievement({id = 10334}), -- Predator
+        Title({id = 59, pattern = '{title} {player}'}) -- Predator
+    },
     pois = {
         POI({60404660}), -- Vendor Horde
         POI({57805940}) -- Vendor Alliance
@@ -711,6 +715,7 @@ map.nodes[83604360] = Rare({
     quest = 40105,
     note = L['iron_armada_note'],
     rewards = {
+        Achievement({id = 10353, criteria = 28990}), -- Iron Armada
         Toy({item = 108631}) -- Crashin' Thrashin' Roller Controller
     }
 }) -- Drakum
@@ -720,6 +725,7 @@ map.nodes[80605640] = Rare({
     quest = 40106,
     note = L['iron_armada_note'],
     rewards = {
+        Achievement({id = 10353, criteria = 28989}), -- Iron Armada
         Toy({item = 108633}) -- Crashin' Thrashin' Cannon Controller
     }
 }) -- Gondar
@@ -729,6 +735,7 @@ map.nodes[88005580] = Rare({
     quest = 40104,
     note = L['iron_armada_note'],
     rewards = {
+        Achievement({id = 10353, criteria = 28988}), -- Iron Armada
         Toy({item = 108634}) -- Crashin' Thrashin' Mortar Controller
     }
 }) -- Smashum Grabb

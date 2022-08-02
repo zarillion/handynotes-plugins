@@ -14,6 +14,24 @@ L['strange_spore_treasure'] = 'Spore étrange'
 L['multiple_spawn_note'] = 'Peut apparaître à plusieurs endroits.'
 
 -------------------------------------------------------------------------------
+------------------------------- FROSTFIRE RIDGE -------------------------------
+-------------------------------------------------------------------------------
+
+L['frozen_slave_label'] = '{npc:82680}'
+L['prisoner_cage_label'] = nil
+L['slaves_freed'] = nil
+
+L['delectable_ogre_delicacies_label'] = '{achievement:9534}'
+L['delectable_ogre_delicacies_note'] = nil
+
+L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
+L['options_icons_writing_in_the_snow_desc'] = nil
+L['options_icons_breaker_of_chains'] = '{achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = nil
+L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
+L['options_icons_delectable_ogre_delicacies_desc'] = nil
+
+-------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -50,8 +68,74 @@ L['laughing_skull_note'] = 'En haut de l’arbre.'
 L['warm_goren_egg_note'] = '{item:118705} est incubé pendant 7 jours pour devenir {item:118716}.'
 L['ninja_pepe_note'] = 'Dans la cabane, assis sur une chaise.'
 
+L['protectors_of_the_grove_sublabel'] = nil
+
+L['prove_your_strength_note'] = nil
+L['prove_your_strength_drop_single'] = nil
+L['prove_your_strength_drop_double'] = nil
+
 L['options_icons_attack_plans'] = '{achievement:9656}'
 L['options_icons_attack_plans_desc'] = 'Affiche les emplacements des Ordres d’attaque de la Horde de Fer pour {achievement:9656}.'
+L['options_icons_ancient_no_more'] = '{achievement:9678}'
+L['options_icons_ancient_no_more_desc'] = nil
+L['options_icons_fight_the_power'] = '{achievement:9655}'
+L['options_icons_fight_the_power_desc'] = nil
+L['options_icons_prove_your_strength'] = '{achievement:9402}'
+L['options_icons_prove_your_strength_desc'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------------ NAGRAND ----------------------------------
+-------------------------------------------------------------------------------
+
+L['highmaul_farm_path'] = nil
+
+L['steamwheedle_note'] = nil
+
+L['finding_your_waystones_label'] = '{achievement:9497}'
+L['finding_your_waystones_note'] = nil
+L['ogre_waystones'] = nil
+
+L['signal_horn_note'] = nil
+
+L['garroshs_shackles'] = nil
+L['warsong_relics'] = nil
+L['stolen_draenei_tome'] = nil
+L['dirt_mound'] = nil
+
+L['stable_master_note'] = nil
+
+L['making_the_cut_note'] = nil
+
+L['options_icons_steamwheedle'] = '{achievement:9472}'
+L['options_icons_steamwheedle_desc'] = nil
+L['options_icons_finding_your_waystones'] = '{achievement:9497}'
+L['options_icons_finding_your_waystones_desc'] = nil
+L['options_icons_song_of_silence'] = '{achievement:9541}'
+L['options_icons_song_of_silence_desc'] = nil
+L['options_icons_buried_treasures'] = '{achievement:9548}'
+L['options_icons_buried_treasures_desc'] = nil
+L['options_icons_the_stable_master'] = nil
+L['options_icons_the_stable_master_desc'] = nil
+L['options_icons_making_the_cut'] = '{achievement:9617}'
+L['options_icons_making_the_cut_desc'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------ SHADOWMOON VALLEY ------------------------------
+-------------------------------------------------------------------------------
+
+L['you_have_been_rylakinated_note'] = nil
+
+L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
+L['options_icons_you_have_been_rylakinated_desc'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- SPIRES OF ARAK --------------------------------
+-------------------------------------------------------------------------------
+
+L['forbidden_tome_note'] = nil
+
+L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
+L['options_icons_would_you_like_a_pamplet_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -73,6 +157,9 @@ La dernière option est d’utiliser un seul personnage. Allez à une rune, allu
 
 Vous pouvez combiner n’importe laquelle des méthodes ci-dessus pour invoquer {npc:87668}.
 ]]
+
+L['options_icons_cut_off_the_head'] = '{achievement:9633}'
+L['options_icons_cut_off_the_head_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
