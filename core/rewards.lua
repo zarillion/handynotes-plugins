@@ -30,9 +30,7 @@ function Reward:Initialize(attrs)
 end
 
 function Reward:IsEnabled()
-    if self.class and (string.match(self.class, ns.class) == nil) then
-        return false
-    end
+    if self.class and self.class ~= ns.class then return false end
     if self.faction and self.faction ~= ns.faction then return false end
     if self.display_option and not ns:GetOpt(self.display_option) then
         return false
