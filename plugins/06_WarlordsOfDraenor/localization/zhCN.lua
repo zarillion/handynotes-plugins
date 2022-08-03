@@ -17,18 +17,24 @@ L['multiple_spawn_note'] = '在多个位置刷新。'
 -------------------------------------------------------------------------------
 
 L['frozen_slave_label'] = '{npc:82680}'
-L['prisoner_cage_label'] = nil
-L['slaves_freed'] = nil
+L['prisoner_cage_label'] = '囚笼'
+L['slaves_freed'] = '解救奴隶'
 
 L['delectable_ogre_delicacies_label'] = '{achievement:9534}'
-L['delectable_ogre_delicacies_note'] = nil
+L['delectable_ogre_delicacies_note'] = [[
+{npc:82801}，{npc:82822}，和 {npc:82823} 可能在任意位置刷新
+
+{spell:166684} 持续5分钟
+{spell:166686} 持续2分钟
+{spell:166687} 持续2分钟
+]]
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
-L['options_icons_writing_in_the_snow_desc'] = nil
+L['options_icons_writing_in_the_snow_desc'] = '显示 {achievement:9531} 成就中 |cffffff00散落的日志书页|r 的位置。'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = nil
+L['options_icons_breaker_of_chains_desc'] = '显示 {achievement:9533} 成就中 |cffffff00冰封的奴隶|r 和 |cffffff00囚笼|r 的位置。'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
-L['options_icons_delectable_ogre_delicacies_desc'] = nil
+L['options_icons_delectable_ogre_delicacies_desc'] = '显示 {achievement:9534} 成就中美食的位置。'
 
 -------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
@@ -67,74 +73,95 @@ L['laughing_skull_note'] = '在树上。'
 L['warm_goren_egg_note'] = '{item:118705} 7天后孵化为 {item:118716}。'
 L['ninja_pepe_note'] = '小屋内椅子上。'
 
-L['protectors_of_the_grove_sublabel'] = nil
+L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r，|cffffff00{npc:86258}|r，和 |cffffff00{npc:86257}|r 来自 |cffffff00丛林守护者|r'
 
-L['prove_your_strength_note'] = nil
-L['prove_your_strength_drop_single'] = nil
-L['prove_your_strength_drop_double'] = nil
+L['prove_your_strength_note'] = '需要 {spell:164012} 要塞技能来激活。访问你的阵营哨站启用 |cffffff00格斗竞技场|r。'
+L['prove_your_strength_drop_single'] = '%s 掉落。'
+L['prove_your_strength_drop_double'] = '%s 或 %s 掉落。'
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
 L['options_icons_attack_plans_desc'] = '显示 {achievement:9656} 成就中钢铁部落攻击指令的位置。'
 L['options_icons_ancient_no_more'] = '{achievement:9678}'
-L['options_icons_ancient_no_more_desc'] = nil
+L['options_icons_ancient_no_more_desc'] = '显示 {achievement:9678} 成就中稀有的位置。'
 L['options_icons_fight_the_power'] = '{achievement:9655}'
-L['options_icons_fight_the_power_desc'] = nil
+L['options_icons_fight_the_power_desc'] = '显示 {achievement:9655} 成就中稀有的位置。'
 L['options_icons_prove_your_strength'] = '{achievement:9402}'
-L['options_icons_prove_your_strength_desc'] = nil
+L['options_icons_prove_your_strength_desc'] = '显示 {achievement:9402} 成就中掉落的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAGRAND ----------------------------------
 -------------------------------------------------------------------------------
 
-L['highmaul_farm_path'] = nil
+L['highmaul_farm_path'] = [[
+刷怪路径
+1. 从前门开始，向右进入|cffffff00下水道|r。
+2. 左转穿过角斗场区域。请务必在左上方标记俯瞰的食人魔。
+3. 继续上楼梯，经过 {npc:87227} 的池塘。
+4. 左转并向上进入 |cffffff00凯旋之路|r。
+5. 走到岔路口。请务必将食人魔标记到右侧。
+6. 左转进入|cffffff00市场区|r 并逆时针方向清除所有。
+7. 向左进入|cffffff00元首之赐|r，继续沿着路径清除所有。
+8. 再次向左，沿着小路，回到|cffffff00凯旋之路|r。
+9. 上坐骑飞过去，进入|cffffff00角斗场|r。不要试图使用前门，它是锁着的。
 
-L['steamwheedle_note'] = nil
+向右飞出并返回前门。一波只需不到4分钟，当你回到前门时，一切都已经刷新了。
+]]
+
+L['steamwheedle_note'] = '从 |cffffff00悬槌堡|r 周围的 {npc:87223} 和 {npc:87222} 刷 {item:118099} 和 {item:118100}。交付物品给 {npc:87393} 获得声望。'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
-L['finding_your_waystones_note'] = nil
-L['ogre_waystones'] = nil
+L['finding_your_waystones_note'] = '从 |cffffff00悬槌堡|r 周围的 {npc:87223} 和 {npc:87222} 刷 {item:117491}。'
+L['ogre_waystones'] = '拾取食人魔道标石'
 
-L['signal_horn_note'] = nil
+L['signal_horn_note'] = '从附近的 {npc:86658} 获得 {item:120290} 然后使用 {npc:87361} 来召唤 {npc:87239} 和 {npc:87344}。'
 
-L['garroshs_shackles'] = nil
-L['warsong_relics'] = nil
-L['stolen_draenei_tome'] = nil
-L['dirt_mound'] = nil
+L['garroshs_shackles'] = '小屋内'
+L['warsong_relics'] = '靠在小屋外的栅栏上'
+L['stolen_draenei_tome'] = '可以在塔顶的多个位置刷新'
+L['dirt_mound'] = '在附近击杀 {npc:86659} 来刷新 {npc:87280}。点击图腾获得 {spell:174572}。现在可以挖掘附近的 {npc:87530} 来寻找物品。'
 
-L['stable_master_note'] = nil
+L['stable_master_note'] = '和 {兽栏管理员} 交谈获得一个训练中的坐骑哨。\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\n使用哨子召唤你的坐骑并杀死目标。\n\n{achievement:9539} 需要 {item:118469} 来自 |cffffff002级兽栏|r。\n{achievement:9540} 需要 {item:118470} 来自 |cffffff003级兽栏|r。'
 
-L['making_the_cut_note'] = nil
+L['making_the_cut_note'] = '当 {npc:88210} 可用时，在 |cffffff00鲜血竞技场|r 附近杀死15个 {npc:88207}。一旦15个被杀死 {npc:88210} 将可成为目标。\n\n' .. ns.color.Red('对一群废物来说还算不错！等你们准备好送死，就来面对克鲁德吧！')
 
 L['options_icons_steamwheedle'] = '{achievement:9472}'
-L['options_icons_steamwheedle_desc'] = nil
+L['options_icons_steamwheedle_desc'] = '显示 {achievement:9472} 成就中刷怪的位置。'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
-L['options_icons_finding_your_waystones_desc'] = nil
+L['options_icons_finding_your_waystones_desc'] = '显示 {achievement:9497} 成就中刷怪的位置。'
 L['options_icons_song_of_silence'] = '{achievement:9541}'
-L['options_icons_song_of_silence_desc'] = nil
+L['options_icons_song_of_silence_desc'] = '显示 {achievement:9541} 成就中稀有的位置。'
 L['options_icons_buried_treasures'] = '{achievement:9548}'
-L['options_icons_buried_treasures_desc'] = nil
-L['options_icons_the_stable_master'] = nil
-L['options_icons_the_stable_master_desc'] = nil
+L['options_icons_buried_treasures_desc'] = '显示 {achievement:9548} 成就中物品的位置。'
+L['options_icons_the_stable_master'] = '{achievement:9539} and {achievement:9540}'
+L['options_icons_the_stable_master_desc'] = '显示 {achievement:9539} 和 {achievement:9540} 成就中目标的位置。'
 L['options_icons_making_the_cut'] = '{achievement:9617}'
-L['options_icons_making_the_cut_desc'] = nil
+L['options_icons_making_the_cut_desc'] = '显示 {achievement:9617} 成就中 |cffffff00血环奴贩|r 的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
-L['you_have_been_rylakinated_note'] = nil
+L['you_have_been_rylakinated_note'] = '必须完成 {quest:34355}。\n\n从附近的 {npc:78999} 收集 {item:116978} 并控制 {npc:86085}。'
 
 L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
-L['options_icons_you_have_been_rylakinated_desc'] = nil
+L['options_icons_you_have_been_rylakinated_desc'] = '显示 {achievement:9481} 成就中双头飞龙的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- SPIRES OF ARAK --------------------------------
 -------------------------------------------------------------------------------
 
-L['forbidden_tome_note'] = nil
+L['forbidden_tome_note'] = [[
+需要 {quest:36682} 日常任务才能激活或使用 {item:122409}。
+
+与 {npc:85992} 互动以随机获得三个增益之一。
+
+{spell:171783}
+{spell:171787}
+{spell:171768}
+]]
 
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
-L['options_icons_would_you_like_a_pamplet_desc'] = nil
+L['options_icons_would_you_like_a_pamplet_desc'] = '显示 {achievement:9432} 成就中物品的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -158,7 +185,7 @@ L['orumo_the_observer_note'] = [[
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
-L['options_icons_cut_off_the_head_desc'] = nil
+L['options_icons_cut_off_the_head_desc'] = '显示 {achievement:9633} 成就中稀有的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------

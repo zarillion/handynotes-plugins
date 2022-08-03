@@ -102,7 +102,7 @@ Farming Path
 6. Turn left into |cffffff00The Market District|r and clear the entire thing out moving counterclockwise.
 7. Go left into |cffffff00The Imperator's Favor|r, continue following the path and clear it all.
 8. To Left again, down the path, and back into |cffffff00The Path of Victors|r.
-9. Mount up and fly up, over, and into |cffffff00The Colosseum|r. Don't try to use the front door, it's locked.
+9. Mount up and fly up, over, and into |cffffff00The Coliseum|r. Don't try to use the front door, it's locked.
 
 Fly out to the right and back to the front gate. One single run takes just under 4 minutes and by the time you're back at the front gate everything will have already respawned.
 ]]

@@ -15,7 +15,7 @@ L['anima_channeled'] = '心能连接到%s。'
 
 L['squirrels_note'] = '必须使用表情 /love 给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:14731}'
-L['options_icons_squirrels_desc'] = '{achievement:14731} 成就中小动物的位置。'
+L['options_icons_squirrels_desc'] = '显示 {achievement:14731} 成就中小动物的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -102,7 +102,7 @@ L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = '显示 {achievement:14788} 成就中失落的书籍的位置。'
 
 L['options_icons_wild_hunting'] = '{achievement:14779}'
-L['options_icons_wild_hunting_desc'] = '{achievement:14779} 成就中炽蓝仙野的野兽的位置。'
+L['options_icons_wild_hunting_desc'] = '显示 {achievement:14779} 成就中炽蓝仙野的野兽的位置。'
 
 L['options_icons_wildseed_spirits'] = '灵种精魂'
 L['options_icons_wildseed_spirits_desc'] = '灵种精魂的奖励。'
