@@ -123,7 +123,7 @@ L['dirt_mound'] = 'Töte {npc:86659} und klicke das auf dem Boden liegende {npc:
 
 L['stable_master_note'] = 'Sprich mit {stablemaster}, um eine der Ausbildungspfeifen zu erhalten.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nBenutze die Pfeife, um dein Reittier zu rufen und das Ziel zu töten.\n\n{achievement:9539} benötigt {item:118469} von |cffffff00Stall, Stufe 2|r.\n{achievement:9540} benötigt {item:118470} von |cffffff00Stall, Stufe 3|r.'
 
-L['making_the_cut_note'] = nil
+L['making_the_cut_note'] = 'Wenn {npc:88210} da ist, töte 15 {npc:88207} rund um |cffffff00Der Ring des Blutes|r. Sobald 15 getötet wurden, wird er angreifbar.\n\n' .. ns.color.Red('Not bad for a bunch of worthless pukes! Come face Krud when you ready to die!')
 
 L['options_icons_steamwheedle'] = '{achievement:9472}'
 L['options_icons_steamwheedle_desc'] = 'Zeigt die Position zum Ruf sammeln für den Erfolg {achievement:9472} an.'
@@ -136,7 +136,7 @@ L['options_icons_buried_treasures_desc'] = 'Zeigt die Positionen der Gegenständ
 L['options_icons_the_stable_master'] = '{achievement:9539} und {achievement:9540}'
 L['options_icons_the_stable_master_desc'] = 'Zeigt die Positionen der Ziele für die Erfolge {achievement:9539} und {achievement:9540} an.'
 L['options_icons_making_the_cut'] = '{achievement:9617}'
-L['options_icons_making_the_cut_desc'] = nil
+L['options_icons_making_the_cut_desc'] = 'Zeigt die Position von |cffffff00Blutringsklaventreiber|r für den Erfolg {achievement:9617} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
