@@ -787,6 +787,7 @@ L['options_icons_covenant_assaults_desc'] = 'Rewards for covenant assaults'
 
 L['assault_sublabel_US'] = 'Les Assauts changent le Mardi à 8 heures PDT et le Vendredi à 20 heures PDT'
 L['assault_sublabel_EU'] = 'Les Assauts changent le Mercredi à 8 heures CET et le Samedi à 20 heures CET'
+L['assault_sublabel_CN'] = nil
 
 L['necrolord_assault'] = '{quest:63543}'
 L['necrolord_assault_note'] = 'Le {item:185992} peut être récupéré une fois par assaut'

@@ -764,6 +764,7 @@ L['options_icons_covenant_assaults_desc'] = 'Rewards for covenant assaults'
 
 L['assault_sublabel_US'] = nil
 L['assault_sublabel_EU'] = nil
+L['assault_sublabel_CN'] = nil
 
 L['necrolord_assault'] = '{quest:63543}'
 L['necrolord_assault_note'] = nil

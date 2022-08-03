@@ -132,7 +132,7 @@ Can appear at the center of the top of the 6 Great Trees around |cFFFFFF00Ardenw
 • |cFFFFFF00Tirna Vaal|r
 • |cFFFFFF00Hibernal Hollow|r
 • |cFFFFFF00Heartwood Grove|r
-• |cFFFFFF00Claws Edge|r
+• |cFFFFFF00Claw's Edge|r
 ]]
 L['soulshape_corgi_note'] = [[
 Target {npc:174608} and /pet
@@ -790,6 +790,7 @@ L['options_icons_covenant_assaults_desc'] = 'Rewards for covenant assaults'
 
 L['assault_sublabel_US'] = 'Assaults change on Tuesday at 8 AM PDT and Friday at 8 PM PDT'
 L['assault_sublabel_EU'] = 'Assaults change on Wednesday at 8 AM CET and Saturday at 8 PM CET'
+L['assault_sublabel_CN'] = 'Assaults change on Thursday at 7 AM BJT and Sunday at 7 PM BJT'
 
 L['necrolord_assault'] = '{quest:63543}'
 L['necrolord_assault_note'] = 'The {item:185992} can be looted once per assault'

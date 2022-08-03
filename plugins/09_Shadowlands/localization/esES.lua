@@ -791,6 +791,7 @@ L['options_icons_covenant_assaults_desc'] = 'Recompensas para los asaltos de las
 
 L['assault_sublabel_US'] = 'Los asaltos cambian los Martes a las 8 AM PDT y los Viernes a las 8 PM PDT'
 L['assault_sublabel_EU'] = 'Los asaltos cambian los Miércoles a las 8 AM CET y los Sábados a las 8 PM CET'
+L['assault_sublabel_CN'] = nil
 
 L['necrolord_assault'] = '{quest:63543}'
 L['necrolord_assault_note'] = 'El {item:185992} sólo se puede conseguir una vez por asalto.'
