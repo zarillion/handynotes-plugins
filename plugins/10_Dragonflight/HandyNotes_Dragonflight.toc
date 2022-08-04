@@ -1,0 +1,12 @@
+## Interface: 90205
+## Title: HandyNotes: Dragonflight
+## Version: 1
+## Notes: Dragonflight Notes
+## OptionalDeps: Ace3
+## RequiredDeps: HandyNotes
+## X-Embeds: Ace3
+## SavedVariables: HandyNotes_DragonflightDB
+
+embeds.xml
+core\core.xml
+plugin.xml
