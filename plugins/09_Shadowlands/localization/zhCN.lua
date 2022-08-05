@@ -107,10 +107,10 @@ L['options_icons_wild_hunting_desc'] = '显示 {achievement:14779} 成就中炽�
 L['options_icons_wildseed_spirits'] = '灵种精魂'
 L['options_icons_wildseed_spirits_desc'] = '灵种精魂的奖励。'
 
-L['divine_martial_spirit'] = '{item:178878}'
-L['divine_dutiful_spirit'] = '{item:178879}'
-L['divine_prideful_spirit'] = '{item:178884}'
-L['divine_untamed_spirit'] = '{item:177700}'
+L['divine_martial_spirit'] = '神圣尚武精魂'
+L['divine_dutiful_spirit'] = '神圣尽职精魂'
+L['divine_prideful_spirit'] = '神圣骄傲精魂'
+L['divine_untamed_spirit'] = '神圣狂野精魂'
 
 L['martial_spirit_label'] = '{item:178874}'
 L['dutiful_spirit_label'] = '{item:178881}'
