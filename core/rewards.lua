@@ -207,6 +207,57 @@ function Currency:GetText()
 end
 
 -------------------------------------------------------------------------------
+---------------------------------- FOLLOWER -----------------------------------
+-------------------------------------------------------------------------------
+
+local Follower = Class('Follower', Reward)
+
+function Follower:GetType(category)
+    local types = {
+        [6] = {
+            ['enum'] = Enum.GarrisonFollowerType.FollowerType_6_0,
+            ['locale'] = L['follower_type_follower']
+        },
+        [7] = {
+            ['enum'] = Enum.GarrisonFollowerType.FollowerType_7_0,
+            ['locale'] = L['follower_type_champion']
+        },
+        [8] = {
+            ['enum'] = Enum.GarrisonFollowerType.FollowerType_8_0,
+            ['locale'] = L['follower_type_follower']
+        },
+        [9] = {
+            ['enum'] = Enum.GarrisonFollowerType.FollowerType_9_0,
+            ['locale'] = L['follower_type_companion']
+        }
+    }
+    return types[ns.expansion][category]
+end
+
+function Follower:GetText()
+    local text = C_Garrison.GetFollowerInfo(self.id).name
+    if self.icon then text = Icon(self.icon) .. text end
+    text = text .. ' (' .. self:GetType('locale') .. ')'
+    if self.note then
+        text = text .. ' (' .. ns.RenderLinks(self.note, true) .. ')'
+    end
+    return text
+end
+
+function Follower:IsObtained()
+    local followers = C_Garrison.GetFollowers(self:GetType('enum'))
+    for i = 1, #followers do
+        local followerID = followers[i].followerID
+        if (self.id == followerID) then return false end
+    end
+    return true
+end
+
+function Follower:GetStatus()
+    return self:IsObtained() and Green(L['known']) or Red(L['missing'])
+end
+
+-------------------------------------------------------------------------------
 ------------------------------------ ITEM -------------------------------------
 -------------------------------------------------------------------------------
 
@@ -499,6 +550,7 @@ ns.reward = {
     Spacer = Spacer,
     Achievement = Achievement,
     Currency = Currency,
+    Follower = Follower,
     Item = Item,
     Mount = Mount,
     Pet = Pet,
