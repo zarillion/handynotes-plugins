@@ -74,6 +74,10 @@ L['unlearnable'] = 'Unlearnable'
 L['defeated'] = 'Defeated'
 L['undefeated'] = 'Undefeated'
 
+L['follower_type_follower'] = 'Follower'
+L['follower_type_champion'] = 'Champion'
+L['follower_type_companion'] = 'Companion'
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
