@@ -11,58 +11,58 @@ L['edge_of_reality'] = 'Acantilado de la Realidad'
 L['edge_of_reality_note'] = ns.color.Yellow('Edge of Reality') .. ' el portal te llevará a otro sitio, donde podrás despojar la {item:121815}.'
 L['treasures_discovered'] = 'tesoros descubiertos'
 L['strange_spore_treasure'] = 'Espora Extraña'
-L['burning_blade_cache_treasure'] = nil
+L['burning_blade_cache_treasure'] = 'Alijo del Clan Filo Ardiente'
 L['multiple_spawn_note'] = 'Puede aparecer en varios sitios.'
 
 L['options_icons_pepe'] = '{achievement:10053}'
-L['options_icons_pepe_desc'] = nil
+L['options_icons_pepe_desc'] = 'Muestra dónde están los atuendos para el logro {achievement:10053}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ ASHRAN -----------------------------------
 -------------------------------------------------------------------------------
 
-L['fen_tao_follower_note'] = nil
+L['fen_tao_follower_note'] = 'Habla con él para reclutarlo como seguidor.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['arena_masters_war_horn_treasure'] = nil
-L['burning_pearl_treasure'] = nil
-L['crag_leapers_cache_treasure'] = nil
-L['cragmaul_cache_treasure'] = nil
-L['doorogs_secret_stash_treasure'] = nil
-L['envoys_satchel_treasure'] = nil
-L['forgotten_supplies_treasure'] = nil
-L['frozen_frostwolf_axe_treasure'] = nil
-L['frozen_orc_skeleton_treasure'] = nil
-L['glowing_obsidian_shard_treasure'] = nil
-L['gnawed_bone_treasure'] = nil
-L['goren_leftovers_treasure'] = nil
-L['gorrthoggs_personal_reserve_treasure'] = nil
-L['grimfrost_treasure_treasure'] = nil
-L['iron_horde_munitions_treasure'] = nil
-L['iron_horde_supplies_treasure'] = nil
-L['lady_senas_other_materials_stash_treasure'] = nil
-L['lagoon_pool_treasure'] = nil
-L['lucky_coin_treasure'] = nil
-L['obsidian_petroglyph_treasure'] = nil
-L['ogre_booty_treasure'] = nil
-L['pale_loot_sack_treasure'] = nil
-L['raided_loot_treasure'] = nil
-L['sealed_jug_treasure'] = nil
-L['slaves_stash_treasure'] = nil
-L['snow_covered_strongbox_treasure'] = nil
-L['spectators_chest_treasure'] = nil
-L['supply_dump_treasure'] = nil
-L['survivalists_cache_treasure'] = nil
-L['thunderlord_cache_treasure'] = nil
-L['time_warped_tower_treasure'] = nil
-L['wiggling_egg_treasure'] = nil
-L['young_orc_traveler_note'] = nil
-L['young_orc_traveler_treasure'] = nil
-L['young_orc_woman_note'] = nil
-L['young_orc_woman_treasure'] = nil
+L['arena_masters_war_horn_treasure'] = 'Cuerno de Guerra de Maestro de Arena'
+L['burning_pearl_treasure'] = 'Perla Ardiente'
+L['crag_leapers_cache_treasure'] = 'Alijo de Saltador de Riscos'
+L['cragmaul_cache_treasure'] = 'Alijo de Destruyerriscos'
+L['doorogs_secret_stash_treasure'] = 'Alijo Secreto de Doorog'
+L['envoys_satchel_treasure'] = 'Cartera del Enviado'
+L['forgotten_supplies_treasure'] = 'Suministros Olvidados'
+L['frozen_frostwolf_axe_treasure'] = 'Hacha Lobo Gélido Congelada'
+L['frozen_orc_skeleton_treasure'] = 'Esqueleto de Orco Congelado'
+L['glowing_obsidian_shard_treasure'] = 'Fragmento de Obsidiana Resplandeciente'
+L['gnawed_bone_treasure'] = 'Hueso Mordisqueado'
+L['goren_leftovers_treasure'] = 'Sobras de Goren'
+L['gorrthoggs_personal_reserve_treasure'] = 'Reserva Personal de Gorr\'thog'
+L['grimfrost_treasure_treasure'] = 'Tesoro de Siniescarcha'
+L['iron_horde_munitions_treasure'] = 'Munición de la Horda de Hierro'
+L['iron_horde_supplies_treasure'] = 'Suministros de la Horda de Hierro'
+L['lady_senas_other_materials_stash_treasure'] = 'Alijo de Otros Materiales de Lady Sena'
+L['lagoon_pool_treasure'] = 'Poza de Laguna'
+L['lucky_coin_treasure'] = 'Moneda de la Suerte'
+L['obsidian_petroglyph_treasure'] = 'Petroglifo Obsidiana'
+L['ogre_booty_treasure'] = 'Botín Ogro'
+L['pale_loot_sack_treasure'] = 'Saco de Botín de Pálido'
+L['raided_loot_treasure'] = 'Botín Saqueado'
+L['sealed_jug_treasure'] = 'Jarra Sellada'
+L['slaves_stash_treasure'] = 'Alijo de Esclavo'
+L['snow_covered_strongbox_treasure'] = 'Caja Fuerte Cubierta de Nieve'
+L['spectators_chest_treasure'] = 'Cofre de Espectador'
+L['supply_dump_treasure'] = 'Descarga de Suministros'
+L['survivalists_cache_treasure'] = 'Alijo de Superviviente'
+L['thunderlord_cache_treasure'] = 'Alijo Señor del Trueno'
+L['time_warped_tower_treasure'] = 'Torre Distorsionada en el Tiempo'
+L['wiggling_egg_treasure'] = 'Huevo Inquieto'
+L['young_orc_traveler_note'] = 'Combinar con el {item:107272}.'
+L['young_orc_traveler_treasure'] = 'Orco Joven Viajero'
+L['young_orc_woman_note'] = 'Combinar con la {item:107273}.'
+L['young_orc_woman_treasure'] = 'Joven Orco Hembra'
 
 L['frozen_slave_label'] = '{npc:82680}'
 L['prisoner_cage_label'] = 'Jaula de Prisionero'
@@ -77,8 +77,8 @@ L['delectable_ogre_delicacies_note'] = [[
 {spell:166687} dura 2 minutos
 ]]
 
-L['weaponsmith_na_shra_follower_note'] = nil
-L['dagg_follower_note'] = nil
+L['weaponsmith_na_shra_follower_note'] = 'Completa la misión {quest:33838} para reclutarla como seguidora.'
+L['dagg_follower_note'] = 'Rescata a {npc:79607} de la primera jaula y después rescátalo de nuevo de la segunda jaula. Lo encontrarás fuera de tu Ciudadela para reclutarlo como seguidor.'
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Muestra dónde están las páginas de |cffffff00Diario Ajado|r para el logro {achievement:9531}.'
@@ -95,35 +95,35 @@ L['poundfist_note'] = 'Tiene una reaparición larga de entre 50 y 90 horas.'
 L['trophy_of_glory_note'] = 'Has de acabar de construir tu Edificio de Avanzada de la Ciudadela en Gorgrond para conseguir que caigan los objetos de misión.'
 L['roardan_sky_terror_note'] = 'Vuela alrededor de Madreselva y de Avanzada de las Bestias haciendo 3 paradas en el camino.'
 
-L['attack_plans_treasure'] = 'Angriffsbefehle der Eisernen Horde'
-L['brokors_sack_treasure'] = 'Brokors Beutel'
-L['discarded_pack_treasure'] = 'Liegen gelassenes Bündel'
-L['evermorn_supply_cache_treasure'] = 'Versteckte Immermornvorräte'
-L['explorer_canister_treasure'] = 'Entdeckerkanister'
-L['femur_of_improbability_treasure'] = 'Femur der Unwahrscheinlichkeit'
-L['harvestable_precious_crystal_treasure'] = 'Abbaubarer wertvoller Kristall'
-L['horned_skull_treasure'] = 'Gehörnter Schädel'
-L['iron_supply_chest_treasure'] = 'Vorratstruhe der Eisernen Horde'
-L['laughing_skull_cache_treasure'] = 'Schatz des Lachenden Schädels'
-L['laughing_skull_note'] = 'Oben im Baum.'
-L['ockbars_pack_treasure'] = 'Ockbars Bündel'
-L['odd_skull_treasure'] = 'Seltsamer Schädel'
-L['petrified_rylak_egg_treasure'] = 'Versteinertes Rylakei'
-L['pile_of_rubble_treasure'] = 'Trümmerhaufen'
-L['remains_if_balldir_deeprock_treasure'] = 'Überreste von Balldir Tiefstein'
-L['remains_of_balik_orecrusher_treasure'] = 'Überreste von Balik Erzmalmer'
-L['sashas_secret_stash_treasure'] = 'Sashas Geheimvorrat'
-L['snipers_crossbow_trerasure'] = 'Armbrust des Scharfschützen'
-L['stashed_emergency_rucksack_treasure'] = 'Versteckter Notfallrucksack'
-L['strange_looking_dagger_treasure'] = 'Seltsam aussehender Dolch'
-L['suntouched_spear_treasure'] = 'Sonnenbeschienener Speer'
-L['vindicators_hammer_treasure'] = 'Hammer des Verteidigers'
-L['warm_goren_egg_note'] = '{item:118705} schlüpft innerhalb von 7 Tagen zu {item:118716}.'
-L['warm_goren_egg_treasure'] = 'Warmes Gorenei'
-L['weapons_cache_treasure'] = 'Waffenständer'
+L['attack_plans_treasure'] = 'Órdenes de Ataque de la Horda de Hierro'
+L['brokors_sack_treasure'] = 'Bolsa de Brokor'
+L['discarded_pack_treasure'] = 'Paquete Desechado'
+L['evermorn_supply_cache_treasure'] = 'Alijo de Suministros Sol Eterno'
+L['explorer_canister_treasure'] = 'Bote de Explorador'
+L['femur_of_improbability_treasure'] = 'Fémur de Improbabilidad'
+L['harvestable_precious_crystal_treasure'] = 'Cristal Precioso Recolectable'
+L['horned_skull_treasure'] = 'Cráneo Cornudo'
+L['iron_supply_chest_treasure'] = 'Cofre de Suministros de la Horda de Hierro'
+L['laughing_skull_cache_treasure'] = 'Alijo Riecráneos'
+L['laughing_skull_note'] = 'Encima del árbol.'
+L['ockbars_pack_treasure'] = 'Bolsa de Ockbar'
+L['odd_skull_treasure'] = 'Calavera Extraña'
+L['petrified_rylak_egg_treasure'] = 'Huevo de Rylak Petrificado'
+L['pile_of_rubble_treasure'] = 'Montón de Escombros'
+L['remains_if_balldir_deeprock_treasure'] = 'Restos de Balldir Rocabismal'
+L['remains_of_balik_orecrusher_treasure'] = 'Restos de Balik Machacamenas'
+L['sashas_secret_stash_treasure'] = 'Alijo Secreto de Sasha'
+L['snipers_crossbow_trerasure'] = 'Ballesta de Francotirador'
+L['stashed_emergency_rucksack_treasure'] = 'Mochila de Emergencia Oculta'
+L['strange_looking_dagger_treasure'] = 'Daga de Apariencia Rara'
+L['suntouched_spear_treasure'] = 'Lanza Toquesol'
+L['vindicators_hammer_treasure'] = 'Martillo de Vindicador'
+L['warm_goren_egg_note'] = 'El {item:118705} tras incubar 7 días se convierte en {item:118716}.'
+L['warm_goren_egg_treasure'] = 'Huevo de Goren Caliente'
+L['weapons_cache_treasure'] = 'Alijo de Armas'
 
-L['ninja_pepe_note'] = 'Im Inneren der Hütte auf einem Stuhl.'
-L['ninja_pepe_treasure'] = 'Pepe der Ninja'
+L['ninja_pepe_note'] = 'Sentado en una silla que hay dentro de la choza.'
+L['ninja_pepe_treasure'] = 'Pepe Ninja'
 
 L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, y |cffffff00{npc:86257}|r forman los |cffffff00Protectores de la Arboleda|r.'
 
@@ -131,8 +131,8 @@ L['prove_your_strength_note'] = 'Requiere que la habilidad {spell:164012} de la 
 L['prove_your_strength_drop_single'] = 'Botín de %s.'
 L['prove_your_strength_drop_double'] = 'Botín de %s y %s.'
 
-L['tormmok_follower_note'] = nil
-L['blook_follower_note'] = nil
+L['tormmok_follower_note'] = 'Primero aparece como ' .. ns.color.Red('Hostil') .. '. Ayúdalo a matar oleadas de enemigos hasta vencer a {npc:83871}. Cuando se vuelva ' .. ns.color.Green('Amistoso') .. ' habla con él para reclutarlo como seguidor.'
+L['blook_follower_note'] = 'Habla con él, lucha contra él, véncelo, y habla de nuevo con él para reclutarlo como seguidor.'
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
 L['options_icons_attack_plans_desc'] = 'Muestra dónde están las Órdenes de Ataque de la Horda de Hierro para el logro {achievement:9656}.'
