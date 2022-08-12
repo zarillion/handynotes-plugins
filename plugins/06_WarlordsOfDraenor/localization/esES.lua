@@ -11,11 +11,58 @@ L['edge_of_reality'] = 'Acantilado de la Realidad'
 L['edge_of_reality_note'] = ns.color.Yellow('Edge of Reality') .. ' el portal te llevará a otro sitio, donde podrás despojar la {item:121815}.'
 L['treasures_discovered'] = 'tesoros descubiertos'
 L['strange_spore_treasure'] = 'Espora Extraña'
+L['burning_blade_cache_treasure'] = nil
 L['multiple_spawn_note'] = 'Puede aparecer en varios sitios.'
+
+L['options_icons_pepe'] = '{achievement:10053}'
+L['options_icons_pepe_desc'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------------ ASHRAN -----------------------------------
+-------------------------------------------------------------------------------
+
+L['fen_tao_follower_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
+
+L['arena_masters_war_horn_treasure'] = nil
+L['burning_pearl_treasure'] = nil
+L['crag_leapers_cache_treasure'] = nil
+L['cragmaul_cache_treasure'] = nil
+L['doorogs_secret_stash_treasure'] = nil
+L['envoys_satchel_treasure'] = nil
+L['forgotten_supplies_treasure'] = nil
+L['frozen_frostwolf_axe_treasure'] = nil
+L['frozen_orc_skeleton_treasure'] = nil
+L['glowing_obsidian_shard_treasure'] = nil
+L['gnawed_bone_treasure'] = nil
+L['goren_leftovers_treasure'] = nil
+L['gorrthoggs_personal_reserve_treasure'] = nil
+L['grimfrost_treasure_treasure'] = nil
+L['iron_horde_munitions_treasure'] = nil
+L['iron_horde_supplies_treasure'] = nil
+L['lady_senas_other_materials_stash_treasure'] = nil
+L['lagoon_pool_treasure'] = nil
+L['lucky_coin_treasure'] = nil
+L['obsidian_petroglyph_treasure'] = nil
+L['ogre_booty_treasure'] = nil
+L['pale_loot_sack_treasure'] = nil
+L['raided_loot_treasure'] = nil
+L['sealed_jug_treasure'] = nil
+L['slaves_stash_treasure'] = nil
+L['snow_covered_strongbox_treasure'] = nil
+L['spectators_chest_treasure'] = nil
+L['supply_dump_treasure'] = nil
+L['survivalists_cache_treasure'] = nil
+L['thunderlord_cache_treasure'] = nil
+L['time_warped_tower_treasure'] = nil
+L['wiggling_egg_treasure'] = nil
+L['young_orc_traveler_note'] = nil
+L['young_orc_traveler_treasure'] = nil
+L['young_orc_woman_note'] = nil
+L['young_orc_woman_treasure'] = nil
 
 L['frozen_slave_label'] = '{npc:82680}'
 L['prisoner_cage_label'] = 'Jaula de Prisionero'
@@ -29,6 +76,9 @@ L['delectable_ogre_delicacies_note'] = [[
 {spell:166686} dura 2 minutos
 {spell:166687} dura 2 minutos
 ]]
+
+L['weaponsmith_na_shra_follower_note'] = nil
+L['dagg_follower_note'] = nil
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Muestra dónde están las páginas de |cffffff00Diario Ajado|r para el logro {achievement:9531}.'
@@ -45,40 +95,44 @@ L['poundfist_note'] = 'Tiene una reaparición larga de entre 50 y 90 horas.'
 L['trophy_of_glory_note'] = 'Has de acabar de construir tu Edificio de Avanzada de la Ciudadela en Gorgrond para conseguir que caigan los objetos de misión.'
 L['roardan_sky_terror_note'] = 'Vuela alrededor de Madreselva y de Avanzada de las Bestias haciendo 3 paradas en el camino.'
 
-L['explorer_canister_treasure'] = 'Bote de Explorador'
-L['discarded_pack_treasure'] = 'Paquete Desechado'
-L['ockbars_pack_treasure'] = 'Bolsa de Ockbar'
-L['stashed_emergency_rucksack_treasure'] = 'Mochila de Emergencia Oculta'
-L['strange_looking_dagger_treasure'] = 'Daga de Apariencia Rara'
-L['remains_of_balik_orecrusher_treasure'] = 'Restos de Balik Machacamenas'
-L['odd_skull_treasure'] = 'Calavera Extraña'
-L['sashas_secret_stash_treasure'] = 'Alijo Secreto de Sasha'
-L['vindicators_hammer_treasure'] = 'Martillo de Vindicador'
-L['remains_if_balldir_deeprock_treasure'] = 'Restos de Balldir Rocabismal'
-L['brokors_sack_treasure'] = 'Bolsa de Brokor'
-L['suntouched_spear_treasure'] = 'Lanza Toquesol'
-L['warm_goren_egg_treasure'] = 'Huevo de Goren Caliente'
-L['weapons_cache_treasure'] = 'Alijo de Armas'
-L['petrified_rylak_egg_treasure'] = 'Huevo de Rylak Petrificado'
-L['snipers_crossbow_trerasure'] = 'Ballesta de Francotirador'
-L['iron_supply_chest_treasure'] = 'Cofre de Suministros de la Horda de Hierro'
-L['horned_skull_treasure'] = 'Cráneo Cornudo'
-L['evermorn_supply_cache_treasure'] = 'Alijo de Suministros Sol Eterno'
-L['harvestable_precious_crystal_treasure'] = 'Cristal Precioso Recolectable'
-L['femur_of_improbability_treasure'] = 'Fémur de Improbabilidad'
-L['laughing_skull_cache_treasure'] = 'Alijo Riecráneos'
-L['pile_of_rubble_treasure'] = 'Montón de Escombros'
-L['ninja_pepe_treasure'] = 'Pepe Ninja'
-L['attack_plans_treasure'] = 'Órdenes de Ataque de la Horda de Hierro'
-L['laughing_skull_note'] = 'Encima del árbol.'
-L['warm_goren_egg_note'] = 'El {item:118705} tras incubar 7 días se convierte en {item:118716}.'
-L['ninja_pepe_note'] = 'Sentado en una silla que hay dentro de la choza.'
+L['attack_plans_treasure'] = 'Angriffsbefehle der Eisernen Horde'
+L['brokors_sack_treasure'] = 'Brokors Beutel'
+L['discarded_pack_treasure'] = 'Liegen gelassenes Bündel'
+L['evermorn_supply_cache_treasure'] = 'Versteckte Immermornvorräte'
+L['explorer_canister_treasure'] = 'Entdeckerkanister'
+L['femur_of_improbability_treasure'] = 'Femur der Unwahrscheinlichkeit'
+L['harvestable_precious_crystal_treasure'] = 'Abbaubarer wertvoller Kristall'
+L['horned_skull_treasure'] = 'Gehörnter Schädel'
+L['iron_supply_chest_treasure'] = 'Vorratstruhe der Eisernen Horde'
+L['laughing_skull_cache_treasure'] = 'Schatz des Lachenden Schädels'
+L['laughing_skull_note'] = 'Oben im Baum.'
+L['ockbars_pack_treasure'] = 'Ockbars Bündel'
+L['odd_skull_treasure'] = 'Seltsamer Schädel'
+L['petrified_rylak_egg_treasure'] = 'Versteinertes Rylakei'
+L['pile_of_rubble_treasure'] = 'Trümmerhaufen'
+L['remains_if_balldir_deeprock_treasure'] = 'Überreste von Balldir Tiefstein'
+L['remains_of_balik_orecrusher_treasure'] = 'Überreste von Balik Erzmalmer'
+L['sashas_secret_stash_treasure'] = 'Sashas Geheimvorrat'
+L['snipers_crossbow_trerasure'] = 'Armbrust des Scharfschützen'
+L['stashed_emergency_rucksack_treasure'] = 'Versteckter Notfallrucksack'
+L['strange_looking_dagger_treasure'] = 'Seltsam aussehender Dolch'
+L['suntouched_spear_treasure'] = 'Sonnenbeschienener Speer'
+L['vindicators_hammer_treasure'] = 'Hammer des Verteidigers'
+L['warm_goren_egg_note'] = '{item:118705} schlüpft innerhalb von 7 Tagen zu {item:118716}.'
+L['warm_goren_egg_treasure'] = 'Warmes Gorenei'
+L['weapons_cache_treasure'] = 'Waffenständer'
+
+L['ninja_pepe_note'] = 'Im Inneren der Hütte auf einem Stuhl.'
+L['ninja_pepe_treasure'] = 'Pepe der Ninja'
 
 L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, y |cffffff00{npc:86257}|r forman los |cffffff00Protectores de la Arboleda|r.'
 
 L['prove_your_strength_note'] = 'Requiere que la habilidad {spell:164012} de la ciudadela esté activa. Para activar la |cffffff00Arena de Entrenamiento|r visita tu edificio de avanzada de facción.'
 L['prove_your_strength_drop_single'] = 'Botín de %s.'
 L['prove_your_strength_drop_double'] = 'Botín de %s y %s.'
+
+L['tormmok_follower_note'] = nil
+L['blook_follower_note'] = nil
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
 L['options_icons_attack_plans_desc'] = 'Muestra dónde están las Órdenes de Ataque de la Horda de Hierro para el logro {achievement:9656}.'
@@ -92,6 +146,61 @@ L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines
 -------------------------------------------------------------------------------
 ------------------------------------ NAGRAND ----------------------------------
 -------------------------------------------------------------------------------
+
+L['gazorda_note'] = nil
+L['fangler_note'] = nil
+L['berserk_t_300_series_mark_ii_note'] = nil
+
+L['a_pile_of_dirt_treasure'] = nil
+L['abandoned_cargo_treasure'] = nil
+L['adventurers_mace_treasure'] = nil
+L['adventurers_pack_treasure'] = nil
+L['adventurers_pouch_treasure'] = nil
+L['adventurers_sack_treasure'] = nil
+L['adventurers_staff_treasure'] = nil
+L['appropriated_warsong_supplies_treasure'] = nil
+L['bag_of_herbs_treasure'] = nil
+L['bone_carved_dagger_treasure'] = nil
+L['bounty_of_the_elements_note'] = nil
+L['bounty_of_the_elements_treasure'] = nil
+L['brilliant_dreampetal_treasure'] = nil
+L['elemental_offering_treasure'] = nil
+L['elemental_shackles_treasure'] = nil
+L['fragment_of_oshugun_treasure'] = nil
+L['freshwater_clam_treasure'] = nil
+L['fungus_covered_chest_treasure'] = nil
+L['genedar_debris_treasure'] = nil
+L['goblin_pack_treasure'] = nil
+L['golden_kaliri_egg_treasure'] = nil
+L['goldtoes_plunder_note'] = nil
+L['goldtoes_plunder_treasure'] = nil
+L['grizzlemaws_bonepile_treasure'] = nil
+L['hidden_stash_treasure'] = nil
+L['highmaul_sledge_treasure'] = nil
+L['important_exploration_supplies_treasure'] = nil
+L['lost_pendant_treasure'] = nil
+L['mountain_climbers_pack_treasure'] = nil
+L['ogre_beads_treasure'] = nil
+L['pale_elixir_treasure'] = nil
+L['pokkars_thirteenth_axe_treasure'] = nil
+L['polished_saberon_skull_treasure'] = nil
+L['saberon_stash_treasure'] = nil
+L['smugglers_cache_note'] = nil
+L['smugglers_cache_treasure'] = nil
+L['steamwheedle_supplies_treasure'] = nil
+L['telaar_defender_shield_treasure'] = nil
+L['treasure_of_kullkrosh_treasure'] = nil
+L['void_infused_crystal_treasure'] = nil
+L['warsong_cache_treasure'] = nil
+L['warsong_helm_treasure'] = nil
+L['warsong_lockbox_treasure'] = nil
+L['warsong_spear_treasure'] = nil
+L['warsong_spoils_treasure'] = nil
+L['warsong_supplies_treasure'] = nil
+L['watertight_bag_treasure'] = nil
+
+L['viking_pepe_note'] = nil
+L['viking_pepe_treasure'] = nil
 
 L['highmaul_farm_path'] = [[
 Ruta de Farmeo
@@ -125,6 +234,11 @@ L['stable_master_note'] = 'Habla con {stablemaster} para recibir un silbato de m
 
 L['making_the_cut_note'] = 'Mientras {npc:88210} esté disponible mata a 15 ogros alrededor de |cffffff00El Círculo de Sangre|r. Una vez se hayan matado a los 15 ogros será posible señalar como objetivo a {npc:88210}.'
 
+L['goldmane_follower_note'] = nil
+L['abugar_follower_note'] = nil
+
+L['options_icons_broke_back_precipice'] = '{achievement:9571}'
+L['options_icons_broke_back_precipice_desc'] = nil
 L['options_icons_steamwheedle'] = '{achievement:9472}'
 L['options_icons_steamwheedle_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9472}.'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
@@ -142,7 +256,53 @@ L['options_icons_making_the_cut_desc'] = 'Muestra dónde están los |cffffff00Bl
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
+L['gorum_note'] = nil
+L['nagidna_note'] = nil
+
+L['alchemists_satchel_treasure'] = nil
+L['ancestral_greataxe_treasure'] = nil
+L['armored_elekk_tusk_treasure'] = nil
+L['astrologers_box_treasure'] = nil
+L['beloveds_offering_treasure'] = nil
+L['bubbling_cauldron_treasure'] = nil
+L['cargo_of_the_raven_queen_treasure'] = nil
+L['demonic_cache_treasure'] = nil
+L['dusty_lockbox_treasure'] = nil
+L['false_bottomed_jar_treasure'] = nil
+L['fantastic_fish_treasure'] = nil
+L['giant_moonwillow_cone_treasure'] = nil
+L['glowing_cave_mushroom_treasure'] = nil
+L['grekas_urn_treasure'] = nil
+L['hanging_satchel_treasure'] = nil
+L['iron_horde_cargo_shipment_treasure'] = nil
+L['iron_horde_tribute_treasure'] = nil
+L['kaliri_egg_treasure'] = nil
+L['lunarfall_egg_note'] = nil
+L['lunarfall_egg_treasure'] = nil
+L['mikkals_chest_treasure'] = nil
+L['mushroom_covered_chest_treasure'] = nil
+L['orc_skeleton_treasure'] = nil
+L['peaceful_offering_treasure'] = nil
+L['reusable_mana_potion_treasure'] = nil
+L['ronokks_belongings_treasure'] = nil
+L['rotting_basket_treasure'] = nil
+L['rovos_dagger_treasure'] = nil
+L['scaly_rylak_egg_treasure'] = nil
+L['shadowmoon_exile_treasure_note'] = nil
+L['shadowmoon_exile_treasure_treasure'] = nil
+L['shadowmoon_sacrificial_dagger_treasure'] = nil
+L['shadowmoon_treasure_treasure'] = nil
+L['stolen_treasure_treasure'] = nil
+L['sunken_fishing_boat_treasure'] = nil
+L['swamplighter_hive_treasure'] = nil
+L['uzkos_knickknacks_treasure'] = nil
+L['veemas_herb_bag_treasure'] = nil
+L['vindicators_cache_treasure'] = nil
+L['waterlogged_chest_treasure'] = nil
+
 L['you_have_been_rylakinated_note'] = 'Tienes que completar la misión {quest:34355}.\n\nRecoge una {item:116978} de un {npc:78999} cercano para controlar a un {npc:86085}.'
+
+L['artificer_romuul_follower_note'] = nil
 
 L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
 L['options_icons_you_have_been_rylakinated_desc'] = 'Muestra dónde están los Rylak para el logro {achievement:9481}'
@@ -150,6 +310,54 @@ L['options_icons_you_have_been_rylakinated_desc'] = 'Muestra dónde están los R
 -------------------------------------------------------------------------------
 ------------------------------- SPIRES OF ARAK --------------------------------
 -------------------------------------------------------------------------------
+
+L['abandoned_mining_pick_treasure'] = nil
+L['admiral_taylors_coffer_note'] = nil
+L['admiral_taylors_coffer_treasure'] = nil
+L['assassins_spear_treasure'] = nil
+L['campaign_contributions_treasure'] = nil
+L['coinbenders_payment_treasure'] = nil
+L['egg_of_varasha_treasure'] = nil
+L['egg_of_varsha_note'] = nil
+L['ephials_dark_grimoire_treasure'] = nil
+L['fractured_sunstone_note'] = nil
+L['fractured_sunstone_treasure'] = nil
+L['garrison_supplies_treasure'] = nil
+L['garrison_workmans_hammer_treasure'] = nil
+L['iron_horde_explosives_treasure'] = nil
+L['lost_herb_satchel_treasure'] = nil
+L['lost_ring_treasure'] = nil
+L['mysterious_mushrooms_treasure'] = nil
+L['ogron_plunder_treasure'] = nil
+L['orcish_signaling_horn_treasure'] = nil
+L['outcasts_belongings_treasure'] = nil
+L['outcasts_pouch_treasure'] = nil
+L['rooby_roos_ruby_collar_note'] = nil
+L['rooby_roos_ruby_rollar_treasure'] = nil
+L['rukhmars_image_treasure'] = nil
+L['sailor_zazzuks_180_proof_rum_note'] = nil
+L['sailor_zazzuks_180_proof_rum_treasure'] = nil
+L['sethekk_idol_treasure'] = nil
+L['sethekk_ritual_brew_treasure'] = nil
+L['shattered_hand_cache_treasure'] = nil
+L['shattered_hand_lockbox_treasure'] = nil
+L['shredder_parts_treasure'] = nil
+L['spray_o_matic_5000_xt_treasure'] = nil
+L['sun_touched_cache_treasure'] = nil
+L['toxicfang_venom_treasure'] = nil
+L['waterlogged_satchel_treasure'] = nil
+
+L['elixer_of_shadow_sight_treasure'] = nil
+L['elixir_of_shadow_sight_note'] = nil
+L['gift_of_anzu_treasure'] = nil
+L['offering_to_the_raven_mother_treasure'] = nil
+
+L['misplaced_scroll_treasure'] = nil
+L['relics_of_the_outcasts_treasure'] = nil
+L['smuggled_apexis_artifacts_treasure'] = nil
+
+L['pirate_pepe_note'] = nil
+L['pirate_pepe_treasure'] = nil
 
 L['forbidden_tome_note'] = [[
 Requiere que la misión diaria {quest:36682} esté activa o usar la {item:122409}.
@@ -161,8 +369,12 @@ Interactúa con un {npc:85992} para recibir aleatoriamente uno de estos tres buf
 {spell:171768}
 ]]
 
+L['leorajh_follower_note'] = nil
+
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = 'Muestra dónde están los escritos para el logro {achievement:9432}'
+L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
+L['options_icons_king_of_the_monsters_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -185,8 +397,57 @@ La última opción es usar sólo un personaje. Ves a la runa, enciéndela, telep
 Se pueden combinar cualquiera de los métodos anteriores para invocar a {npc:87668}.
 ]]
 
+L['aarkos_family_treasure_treasure'] = nil
+L['amethyl_crystal_treasure'] = nil
+L['aruuna_mining_cart_treasure'] = nil
+L['barrel_of_fish_treasure'] = nil
+L['bonechewer_remnants_treasure'] = nil
+L['bonechewer_spear_treasure'] = nil
+L['bright_coin_treasure'] = nil
+L['charred_sword_treasure'] = nil
+L['curious_deathweb_egg_treasure'] = nil
+L['deceptias_smoldering_boots_treasure'] = nil
+L['draenei_weapons_treasure'] = nil
+L['farmers_bounty_treasure'] = nil
+L['foremans_lunchbox_treasure'] = nil
+L['iron_box_treasure'] = nil
+L['isaaris_cache_note'] = nil
+L['isarris_cache_treasure'] = nil
+L['jug_of_aged_ironwine_treasure'] = nil
+L['keluus_belongings_treasure'] = nil
+L['ketyas_stash_treasure'] = nil
+L['light_of_the_sea_treasure'] = nil
+L['lightbearer_treasure'] = nil
+L['luminous_shell_treasure'] = nil
+L['noranas_cache_note'] = nil
+L['noranas_cache_treasure'] = nil
+L['pure_crystal_dust_note'] = nil
+L['pure_crystal_dust_treasure'] = nil
+L['relic_of_aruuna_treasure'] = nil
+L['relic_of_telmor_treasure'] = nil
+L['rooks_tacklebox_treasure'] = nil
+L['rusted_lockbox_treasure'] = nil
+L['soulbinders_reliquary_treasure'] = nil
+L['teroclaw_nest_treasure'] = nil
+L['treasure_of_angorosh_treasure'] = nil
+L['webbed_sac_treasure'] = nil
+L['yuuris_gift_treasure'] = nil
+
+L['knight_pepe_treasure'] = nil
+L['knight_pepe_note'] = nil
+
+L['wingmen_note'] = nil
+
+L['aeda_brightdawn_follower_note'] = nil
+L['ahm_follower_note'] = nil
+L['defender_illona_follower_note'] = nil
+L['pleasure_bot_8000_follower_note'] = nil
+L['image_of_archmage_vargoth_follower_note'] = nil
+
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
 L['options_icons_cut_off_the_head_desc'] = 'Muestra dónde están los raros para el logro {achievement:9633}.'
+L['options_icons_wingmen'] = '{achievement:9499}'
+L['options_icons_wingmen_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
@@ -226,57 +487,57 @@ Los cristales te teleportan a un raro aleatorio cercano, así que lo mejor es ma
 {npc:96235} tiene un contador de reapación largo (alrededor de 1 día) y la mejor forma de conseguirlo es tras el reinicio de servidores o saltando de reino.
 ]]
 
-L['discarded_helm_treasure'] = 'Yelmo Desechado'
-L['weathered_axe_treasure'] = 'Hacha Deteriorada'
 L['axe_of_the_weeping_wolf_treasure'] = 'Hacha del Lobo Sollozante'
-L['sacrificial_blade_treasure'] = 'Hoja de Sacrificio'
-L['crystallized_essence_of_the_elements_treasure'] = 'Esencia de los Elementos Cristalizada'
-L['snake_charmers_flute_treasure'] = 'Flauta de Encantador de Serpientes'
-L['lodged_hunting_spear_treasure'] = 'Lanza de Caza Atascada'
-L['looted_mystical_staff_treasure'] = 'Bastón Místico Despojado'
-L['the_blade_of_kranak_treasure'] = 'El Filo de Kra\'nak'
-L['forgotten_champions_blade_treasure'] = 'Filo de Campeón Olvidado'
-L['rune_etched_femur_treasure'] = 'Fémur con Runas Grabadas'
-L['book_of_zyzzix_treasure'] = 'Libro de Zyzzix'
-L['the_commanders_shield_treasure'] = 'Escudo del Comandante'
-L['scouts_belongings_treasure'] = 'Pertenencias de Explorador'
-L['polished_crystal_treasure'] = 'Cristal Pulido'
-L['strange_sapphire_treasure'] = 'Zafiro Extraño'
-L['censer_of_torment_treasure'] = 'Incensario de Tormento'
-L['overgrown_relic_treasure'] = 'Reliquia Desmesurada'
-L['jewel_of_hellfire_treasure'] = 'Joya de Fuego Infernal'
-L['skull_of_the_mad_chief_treasure'] = 'Cráneo del Jefe Loco'
-L['jeweled_arakkoa_effigy_treasure'] = 'Efigie Arakkoa con Joyas'
-L['tome_of_secrets_treasure'] = 'Escrito de Secretos'
-L['the_perfect_blossom_treasure'] = 'La Flor Perfecta'
-L['brazier_of_awakening_treasure'] = 'Blandón de Despertar'
-L['dazzling_rod_treasure'] = 'Vara Deslumbrante'
-L['crystallized_fel_spike_treasure'] = 'Púa Vil Cristalizada'
-L['fel_drenched_satchel_treasure'] = 'Cartera Envilecida'
-L['the_eye_of_grannok_treasure'] = 'El Ojo de Grannok'
-L['borrowed_enchanted_spyglass_treasure'] = 'Catalejo Encantado \'Prestado\''
-L['bleeding_hollow_mushroom_stash_treasure'] = 'Alijo de Champiñones de los Foso Sangrante'
-L['mysterious_corrupted_obelist_treasure'] = 'Obelisco Corrupto Misterioso'
-L['spoils_of_war_treasure'] = 'Botín de Guerra'
-L['stolen_captains_chest_treasure'] = 'Cofre del Capitán Robado'
-L['bleeding_hollow_warchest_treasure'] = 'Cofre de Guerra de los Foso Sangrante'
-L['looted_bleeding_hollow_treasure_treasure'] = 'Tesoro de los Foso Sangrante Despojado'
-L['partially_mined_apexis_crystal_treasure'] = 'Cristal Apexis Parcialmente Extraído'
-L['pale_removal_equipment_treasure'] = 'Equipo de Eliminación de Pálidos'
-L['stashed_iron_sea_booty_treasure'] = 'Botín del Mar de Hierro Oculto'
-L['ironbeards_treasure_treasure'] = 'Tesoro de Barbaférrea'
-L['forgotten_sack_treasure'] = 'Saco Olvidado'
-L['blackfang_island_cache_treasure'] = 'Alijo de la Isla Colmillo Negro'
-L['fel_tainted_apexis_formation_treasure'] = 'Formación Apexis Contaminada de Energía Vil'
-L['jewel_of_the_fallen_star_treasure'] = 'Joya de la Estrella Caída'
-L['forgotten_shard_of_the_cipher_treasure'] = 'Fragmento de la Clave Olvidado'
-L['strange_fruit_treasure'] = 'Fruta Extraña'
-L['stashed_bleeding_hollow_loot_treasure'] = 'Botín de los Foso Sangrante Oculto'
-L['forgotten_iron_horde_supplies_treasure'] = 'Suministros de la Horda de Hierro Olvidados'
 L['bejeweled_egg_treasure'] = 'Huevo con Joyas'
+L['blackfang_island_cache_treasure'] = 'Alijo de la Isla Colmillo Negro'
+L['bleeding_hollow_mushroom_stash_treasure'] = 'Alijo de Champiñones de los Foso Sangrante'
+L['bleeding_hollow_warchest_treasure'] = 'Cofre de Guerra de los Foso Sangrante'
+L['book_of_zyzzix_treasure'] = 'Libro de Zyzzix'
+L['borrowed_enchanted_spyglass_treasure'] = 'Catalejo Encantado \'Prestado\''
+L['brazier_of_awakening_treasure'] = 'Blandón de Despertar'
+L['censer_of_torment_treasure'] = 'Incensario de Tormento'
+L['crystallized_essence_of_the_elements_treasure'] = 'Esencia de los Elementos Cristalizada'
+L['crystallized_fel_spike_treasure'] = 'Púa Vil Cristalizada'
+L['dazzling_rod_treasure'] = 'Vara Deslumbrante'
 L['dead_mans_chest_treasure'] = 'Cofre de un Hombre Muerto'
-L['the_commanders_shield_note'] = 'Dentro del edificio.'
-L['the_eye_of_grannok_note'] = 'En el segundo piso de la torre cerca de las escaleras.'
-L['tower_chest_note'] = 'Encima de una torre.'
+L['discarded_helm_treasure'] = 'Yelmo Desechado'
+L['fel_drenched_satchel_treasure'] = 'Cartera Envilecida'
+L['fel_tainted_apexis_formation_treasure'] = 'Formación Apexis Contaminada de Energía Vil'
+L['forgotten_champions_blade_treasure'] = 'Filo de Campeón Olvidado'
+L['forgotten_iron_horde_supplies_treasure'] = 'Suministros de la Horda de Hierro Olvidados'
+L['forgotten_sack_treasure'] = 'Saco Olvidado'
+L['forgotten_shard_of_the_cipher_treasure'] = 'Fragmento de la Clave Olvidado'
+L['ironbeards_treasure_treasure'] = 'Tesoro de Barbaférrea'
+L['jewel_of_hellfire_treasure'] = 'Joya de Fuego Infernal'
+L['jewel_of_the_fallen_star_treasure'] = 'Joya de la Estrella Caída'
+L['jeweled_arakkoa_effigy_treasure'] = 'Efigie Arakkoa con Joyas'
+L['lodged_hunting_spear_treasure'] = 'Lanza de Caza Atascada'
+L['looted_bleeding_hollow_treasure_treasure'] = 'Tesoro de los Foso Sangrante Despojado'
+L['looted_mystical_staff_treasure'] = 'Bastón Místico Despojado'
+L['mysterious_corrupted_obelist_treasure'] = 'Obelisco Corrupto Misterioso'
+L['overgrown_relic_treasure'] = 'Reliquia Desmesurada'
+L['pale_removal_equipment_treasure'] = 'Equipo de Eliminación de Pálidos'
+L['partially_mined_apexis_crystal_treasure'] = 'Cristal Apexis Parcialmente Extraído'
+L['polished_crystal_treasure'] = 'Cristal Pulido'
+L['rune_etched_femur_treasure'] = 'Fémur con Runas Grabadas'
+L['sacrificial_blade_treasure'] = 'Hoja de Sacrificio'
+L['scouts_belongings_treasure'] = 'Pertenencias de Explorador'
+L['skull_of_the_mad_chief_treasure'] = 'Cráneo del Jefe Loco'
+L['snake_charmers_flute_treasure'] = 'Flauta de Encantador de Serpientes'
 L['spoils_of_war_note'] = 'Dentro de la cabaña.'
+L['spoils_of_war_treasure'] = 'Botín de Guerra'
+L['stashed_bleeding_hollow_loot_treasure'] = 'Botín de los Foso Sangrante Oculto'
+L['stashed_iron_sea_booty_treasure'] = 'Botín del Mar de Hierro Oculto'
+L['stolen_captains_chest_treasure'] = 'Cofre del Capitán Robado'
 L['strange_fruit_note'] = 'La {item:127396} tras incubar 14 days se convierte en {item:127394}.'
+L['strange_fruit_treasure'] = 'Fruta Extraña'
+L['strange_sapphire_treasure'] = 'Zafiro Extraño'
+L['the_blade_of_kranak_treasure'] = 'El Filo de Kra\'nak'
+L['the_commanders_shield_note'] = 'Dentro del edificio.'
+L['the_commanders_shield_treasure'] = 'Escudo del Comandante'
+L['the_eye_of_grannok_note'] = 'En el segundo piso de la torre cerca de las escaleras.'
+L['the_eye_of_grannok_treasure'] = 'El Ojo de Grannok'
+L['the_perfect_blossom_treasure'] = 'La Flor Perfecta'
+L['tome_of_secrets_treasure'] = 'Escrito de Secretos'
+L['tower_chest_note'] = 'Encima de una torre.'
+L['weathered_axe_treasure'] = 'Hacha Deteriorada'
