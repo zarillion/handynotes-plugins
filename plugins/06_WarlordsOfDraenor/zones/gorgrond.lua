@@ -13,9 +13,11 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Follower = ns.reward.Follower
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Quest = ns.reward.Quest
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -808,14 +810,33 @@ map.nodes[57106530] = Treasure({
     }
 }) -- Strange Spore
 
-map.nodes[47504130] = Treasure({
-    quest = 39267,
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[51007060] = PetBattle({
+    id = 83837,
+    rewards = {Achievement({id = 9724, criteria = 27011})}
+}) -- Cymre Brightblade
+
+-------------------------------------------------------------------------------
+-------------------------------- I FOUND PEPE! --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[47504130] = Collectible({
     label = L['ninja_pepe_treasure'],
     note = L['ninja_pepe_note'],
+    icon = 1044996,
+    quest = 39267,
+    group = ns.groups.PEPE,
     rewards = {
-        Achievement({id = 10053, criteria = 28182}), Item({item = 127867}) -- A Tiny Ninja Shroud
+        Achievement({id = 10053, criteria = 28182}), Item({item = 127867})
     }
 }) -- Ninja Pepe
+
+-------------------------------------------------------------------------------
+------------------------------- IN PLAIN SIGHT --------------------------------
+-------------------------------------------------------------------------------
 
 local AttackPlans = Collectible({
     group = ns.groups.ATTACK_PLANS,
@@ -829,15 +850,6 @@ map.nodes[45802720] = AttackPlans
 map.nodes[48202700] = AttackPlans
 map.nodes[45202520] = AttackPlans
 map.nodes[49002400] = AttackPlans
-
--------------------------------------------------------------------------------
---------------------------------- BATTLE PETS ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[51007060] = PetBattle({
-    id = 83837,
-    rewards = {Achievement({id = 9724, criteria = 27011})}
-}) -- Cymre Brightblade
 
 -------------------------------------------------------------------------------
 ------------------------------- ANCIENT NO MORE -------------------------------
@@ -1076,3 +1088,28 @@ map.nodes[51583863] = Voidtalon
 map.nodes[54004580] = Voidtalon
 map.nodes[56004065] = Voidtalon
 map.nodes[43213420] = Voidtalon
+
+-------------------------------------------------------------------------------
+---------------------------------- FOLLOWERS ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[39703990] = Collectible({
+    label = '{quest:34463}', -- Mysterious Ring
+    icon = 135932,
+    note = L['image_of_archmage_vargoth_follower_note'],
+    rewards = {Quest({id = 34463}), Follower({id = 190, icon = 135932})}
+}) -- Image of Archmage Vargoth
+
+map.nodes[44908690] = Collectible({
+    id = 82656,
+    icon = 132355,
+    note = L['tormmok_follower_note'],
+    rewards = {Follower({id = 193, icon = 132355})}
+}) -- Tormmok
+
+map.nodes[42809090] = Collectible({
+    id = 78031,
+    icon = 132347,
+    note = L['blook_follower_note'],
+    rewards = {Follower({id = 189, icon = 132347})}
+}) -- Blook
