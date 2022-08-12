@@ -9,11 +9,15 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Currency = ns.reward.Currency
+local Follower = ns.reward.Follower
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Quest = ns.reward.Quest
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -25,13 +29,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = Map({id = 535, settings = true})
-
--- Workaround for Luacheck 331.
-local maps = {}
-local minimap = maps
-
--- Minimaps in Talador.
-minimap['tomb_of_souls'] = Map({id = 537, settings = true})
+local tombOfSouls = Map({id = 537})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -409,7 +407,7 @@ local Shirzir = Class('Shirzir', Rare, {
     }
 })
 
-minimap['tomb_of_souls'].nodes[67602310] = Shirzir()
+tombOfSouls.nodes[67602310] = Shirzir()
 
 map.nodes[43005400] = Shirzir({
     note = L['shirzir_note'],
@@ -431,6 +429,471 @@ map.nodes[62004500] = Silthide
 map.nodes[55608060] = Silthide
 
 -------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[33307670] = Treasure({
+    label = L['bonechewer_remnants_treasure'],
+    quest = 34259,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Currency({id = 824})
+    }
+}) -- Bonechewer Remnants
+
+map.nodes[35509660] = Treasure({
+    label = L['farmers_bounty_treasure'],
+    quest = 34249,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Currency({id = 824})
+    }
+}) -- Farmer's Bounty
+
+map.nodes[36509610] = Treasure({
+    label = L['aarkos_family_treasure_treasure'],
+    quest = 34182,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 117567})
+    }
+}) -- Aarko's Family Treasure
+
+map.nodes[37607490] = Treasure({
+    label = L['bonechewer_spear_treasure'],
+    quest = 34148,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112371})
+    },
+    pois = {POI({36007500})}
+}) -- Bonechewer Spear
+
+map.nodes[38201250] = Treasure({
+    label = L['light_of_the_sea_treasure'],
+    quest = 34258,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Currency({id = 824})
+    }
+}) -- Light of the Sea
+
+map.nodes[38408450] = Treasure({
+    label = L['treasure_of_angorosh_treasure'],
+    quest = 34257,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 116119})
+    }
+}) -- Treasure of Ango'rosh
+
+map.nodes[39307770] = Treasure({
+    label = L['teroclaw_nest_treasure'],
+    quest = 35162,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112699})
+    }
+}) -- Teroclaw Nest
+
+map.nodes[39505520] = Treasure({
+    label = L['soulbinders_reliquary_treasure'],
+    quest = 34254,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 117570})
+    }
+}) -- Soulbinder's Reliquary
+
+map.nodes[39807670] = Treasure({
+    label = L['teroclaw_nest_treasure'],
+    quest = 35162,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112699})
+    }
+}) -- Teroclaw Nest
+
+map.nodes[40608950] = Treasure({
+    label = L['yuuris_gift_treasure'],
+    quest = 34140,
+    faction = 'Alliance',
+    requires = ns.requirement.Quest(33530), -- Nightmare in the Tomb
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Currency({id = 824})
+    }
+}) -- Yuuri's Gift
+
+map.nodes[47009170] = Treasure({
+    label = L['relic_of_telmor_treasure'],
+    quest = 34256,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 116128})
+    }
+}) -- Relic of Telmor
+
+map.nodes[52502950] = Treasure({
+    label = L['luminous_shell_treasure'],
+    quest = 34235,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 116132})
+    }
+}) -- Luminous Shell
+
+map.nodes[54002760] = Treasure({
+    label = L['ketyas_stash_treasure'],
+    quest = 34290,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Pet({item = 116402, id = 1515})
+    }
+}) -- Ketya's Stash
+
+map.nodes[54105630] = Treasure({
+    label = L['teroclaw_nest_treasure'],
+    quest = 35162,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112699})
+    }
+}) -- Teroclaw Nest
+
+map.nodes[55206680] = Treasure({
+    label = L['draenei_weapons_treasure'],
+    quest = 34253,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 116118}), Currency({id = 824})
+    }
+}) -- Draenei Weapons
+
+map.nodes[57402870] = Treasure({
+    label = L['foremans_lunchbox_treasure'],
+    quest = 34238,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Toy({item = 116120})
+    }
+}) -- Foreman's Lunchbox
+
+map.nodes[58901200] = Treasure({
+    label = L['deceptias_smoldering_boots_treasure'],
+    quest = 33933,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Toy({item = 108743})
+    }
+}) -- Deceptia's Smoldering Boots
+
+map.nodes[62003240] = Treasure({
+    label = L['amethyl_crystal_treasure'],
+    quest = 34236,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 116131}), Currency({id = 824})
+    }
+}) -- Amethyl Crystal
+
+map.nodes[62404800] = Treasure({
+    label = L['barrel_of_fish_treasure'],
+    quest = 34252,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 110506})
+    }
+}) -- Barrel of Fish
+
+map.nodes[64607920] = Treasure({
+    label = L['iron_box_treasure'],
+    quest = 34251,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 117571})
+    }
+}) -- Iron Box
+
+map.nodes[64901330] = Treasure({
+    label = L['rooks_tacklebox_treasure'],
+    quest = 34232,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 116117})
+    }
+}) -- Rook's Tacklebox
+
+map.nodes[65501130] = Treasure({
+    label = L['jug_of_aged_ironwine_treasure'],
+    quest = 34233,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 117568})
+    },
+    pois = {POI({65009000})}
+}) -- Jug of Aged Ironwine
+
+map.nodes[65508860] = Treasure({
+    label = L['webbed_sac_treasure'],
+    quest = 34255,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 116129})
+    }
+}) -- Webbed Sac
+
+map.nodes[65908520] = Treasure({
+    label = L['rusted_lockbox_treasure'],
+    quest = 34276,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        })
+    }
+}) -- Rusted Lockbox
+
+map.nodes[66608690] = Treasure({
+    label = L['curious_deathweb_egg_treasure'],
+    quest = 34239,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Toy({item = 117569})
+    }
+}) -- Curious Deathweb Egg
+
+map.nodes[68785621] = Treasure({
+    label = L['lightbearer_treasure'],
+    quest = 34101,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 109192})
+    }
+}) -- Lightbearer
+
+map.nodes[70100700] = Treasure({
+    label = L['burning_blade_cache_treasure'],
+    quest = 36937,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Currency({id = 823})
+    }
+}) -- Burning Blade Cache
+
+map.nodes[70803200] = Treasure({
+    label = L['teroclaw_nest_treasure'],
+    quest = 35162,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112699})
+    }
+}) -- Teroclaw Nest
+
+map.nodes[70903550] = Treasure({
+    label = L['teroclaw_nest_treasure'],
+    quest = 35162,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112699})
+    }
+}) -- Teroclaw Nest
+
+map.nodes[72403700] = Treasure({
+    label = L['teroclaw_nest_treasure'],
+    quest = 35162,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112699})
+    }
+}) -- Teroclaw Nest
+
+map.nodes[72803560] = Treasure({
+    label = L['teroclaw_nest_treasure'],
+    quest = 35162,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112699})
+    }
+}) -- Teroclaw Nest
+
+map.nodes[73503070] = Treasure({
+    label = L['teroclaw_nest_treasure'],
+    quest = 35162,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112699})
+    }
+}) -- Teroclaw Nest
+
+map.nodes[73505140] = Treasure({
+    label = L['bright_coin_treasure'],
+    quest = 34471,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 116127})
+    }
+}) -- Bright Coin
+
+map.nodes[74303400] = Treasure({
+    label = L['teroclaw_nest_treasure'],
+    quest = 35162,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112699})
+    }
+}) -- Teroclaw Nest
+
+map.nodes[74602930] = Treasure({
+    label = L['teroclaw_nest_treasure'],
+    quest = 35162,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 112699})
+    }
+}) -- Teroclaw Nest
+
+map.nodes[75704140] = Treasure({
+    label = L['keluus_belongings_treasure'],
+    quest = 34261,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        })
+    }
+}) -- Keluu's Belongings
+
+map.nodes[75804480] = Treasure({
+    label = L['relic_of_aruuna_treasure'],
+    quest = 34250,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 116128})
+    }
+}) -- Relic of Aruuna
+
+map.nodes[77005000] = Treasure({
+    label = L['charred_sword_treasure'],
+    quest = 34248,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 116116})
+    }
+}) -- Charred Sword
+
+map.nodes[78201480] = Treasure({
+    label = L['pure_crystal_dust_treasure'],
+    quest = 34263,
+    note = L['pure_crystal_dust_note'],
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 117572})
+    }
+}) -- Pure Crystal Dust
+
+map.nodes[81803500] = Treasure({
+    label = L['aruuna_mining_cart_treasure'],
+    quest = 34260,
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 109118})
+    }
+}) -- Aruuna Mining Cart
+
+map.nodes[57207540] = Treasure({
+    label = L['isarris_cache_treasure'],
+    quest = 34134,
+    faction = 'Alliance',
+    note = L['isaaris_cache_note'],
+    rewards = {Item({item = 117563})}
+}) -- Isarri's Cache
+
+map.nodes[61107170] = Treasure({
+    label = L['noranas_cache_treasure'],
+    quest = 34116,
+    faction = 'Horde',
+    note = L['noranas_cache_note'],
+    rewards = {Item({item = 117563})}
+}) -- Norana's Cache
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -438,6 +901,21 @@ map.nodes[49008040] = PetBattle({
     id = 87125,
     rewards = {Achievement({id = 9724, criteria = 27016})}
 }) -- Taralune
+
+-------------------------------------------------------------------------------
+-------------------------------- I FOUND PEPE! --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[51006330] = Collectible({
+    label = L['knight_pepe_treasure'],
+    note = L['knight_pepe_note'],
+    icon = 1044996,
+    quest = 39266,
+    group = ns.groups.PEPE,
+    rewards = {
+        Achievement({id = 10053, criteria = 28183}), Item({item = 127869})
+    }
+}) -- Knight Pepe
 
 -------------------------------------------------------------------------------
 ------------------------------ CUT OFF THE HEAD -------------------------------
@@ -492,6 +970,38 @@ map.nodes[37601460] = ShattrathCityRare({
 }) -- Xothear, the Destroyer
 
 -------------------------------------------------------------------------------
+----------------------------------- WINGMEN -----------------------------------
+-------------------------------------------------------------------------------
+
+local FelPortal = Collectible({
+    label = L['fel_portal'],
+    icon = 'peg_gn',
+    scale = 1.5,
+    -- requires = ns.requirement.GarrisonTalent(152), -- TODO: This should be Barracks: Level 2 but I can get it to show up correctly
+    group = ns.groups.WINGMEN,
+    note = L['wingmen_note'],
+    rewards = {
+        Achievement({
+            id = 9499,
+            criteria = {
+                25890, -- Leorajh
+                25894, -- Talonpriest Ishaal
+                25895, -- Tormmok
+                25891, -- Aeda Brightdawn
+                25893, -- Defender Illona
+                25889, -- Delvar Ironfist
+                25892 -- Vivianne
+            }
+        }) -- Wingmen
+    },
+    pois = {POI({57256451, 5926446, 56336444, 55436489})}
+}) -- Fel Portal
+
+map.nodes[56256563] = FelPortal
+map.nodes[56746595] = FelPortal
+map.nodes[57566532] = FelPortal
+
+-------------------------------------------------------------------------------
 ---------------------------------- VOIDTALON ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -511,3 +1021,58 @@ map.nodes[52144113] = Voidtalon
 map.nodes[52252587] = Voidtalon
 map.nodes[52683437] = Voidtalon
 map.nodes[50963241] = Voidtalon
+
+-------------------------------------------------------------------------------
+---------------------------------- FOLLOWERS ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[58005300] = Collectible({
+    id = 85768,
+    icon = 288843,
+    note = L['aeda_brightdawn_follower_note'],
+    faction = 'Horde',
+    rewards = {Follower({id = 207, icon = 288843})}
+}) -- Aeda Brightdawn
+
+map.nodes[57405120] = Collectible({
+    id = 85772,
+    icon = 236264,
+    note = L['defender_illona_follower_note'],
+    faction = 'Alliance',
+    rewards = {Follower({id = 207, icon = 236264})}
+}) -- Defender Illona
+
+map.nodes[62755038] = Collectible({
+    id = 81758,
+    icon = 132347,
+    note = L['pleasure_bot_8000_follower_note'],
+    rewards = {Follower({id = 171, icon = 132347})}
+}) -- Pleasure-Bot 8000
+
+map.nodes[56802600] = Collectible({
+    id = 85776,
+    icon = 132355,
+    note = L['ahm_follower_note'],
+    rewards = {Follower({id = 208, icon = 132355})}
+}) -- Ahm
+
+map.nodes[45303700] = Collectible({
+    label = '{quest:34465}', -- Mysterious Hat
+    icon = 135932,
+    note = L['image_of_archmage_vargoth_follower_note'],
+    rewards = {Quest({id = 34465}), Follower({id = 190, icon = 135932})}
+}) -- Image of Archmage Vargoth
+
+map.nodes[85003100] = Collectible({
+    id = 86949,
+    icon = 135932,
+    quest = 34472, -- Temporal Juxtaposition
+    note = L['image_of_archmage_vargoth_follower_note'],
+    requires = {
+        ns.requirement.Quest(34463), -- Mysterious Ring
+        ns.requirement.Quest(34464), -- Mysterious Boots
+        ns.requirement.Quest(34465), -- Mysterious Hat
+        ns.requirement.Quest(34466) -- Mysterious Staff
+    },
+    rewards = {Follower({id = 190, icon = 135932})}
+}) -- Zooti Fizzlefury
