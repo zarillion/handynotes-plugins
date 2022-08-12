@@ -75,6 +75,10 @@ L['unlearnable'] = 'No se puede aprender'
 L['defeated'] = 'Derrotado'
 L['undefeated'] = 'Sin derrotar'
 
+L['follower_type_follower'] = nil
+L['follower_type_champion'] = nil
+L['follower_type_companion'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
