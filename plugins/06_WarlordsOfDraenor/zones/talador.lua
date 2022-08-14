@@ -1028,10 +1028,10 @@ map.nodes[50963241] = Voidtalon
 
 map.nodes[58005300] = Collectible({
     id = 85768,
-    icon = 288843,
+    icon = 136172,
     note = L['aeda_brightdawn_follower_note'],
     faction = 'Horde',
-    rewards = {Follower({id = 207, icon = 288843})}
+    rewards = {Follower({id = 207, icon = 136172})}
 }) -- Aeda Brightdawn
 
 map.nodes[57405120] = Collectible({
