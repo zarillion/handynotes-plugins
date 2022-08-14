@@ -963,9 +963,7 @@ local FactionRepresentative = Class('FactionRepresentative', NPC, {
     icon = 874578,
     group = ns.groups.PROVE_YOUR_STRENGTH,
     note = L['prove_your_strength_note'],
-    rewards = {
-        Achievement({id = 9402, criteria = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}})
-    }
+    rewards = {Achievement({id = 9402})}
 })
 
 map.nodes[46206960] = FactionRepresentative({id = 76688, faction = 'Horde'}) -- Limbflayer
@@ -1107,7 +1105,7 @@ map.nodes[44908690] = Collectible({
     rewards = {Follower({id = 193, icon = 132355})}
 }) -- Tormmok
 
-map.nodes[42809090] = Collectible({
+map.nodes[42559100] = Collectible({
     id = 78031,
     icon = 132347,
     note = L['blook_follower_note'],
