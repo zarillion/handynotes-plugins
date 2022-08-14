@@ -214,7 +214,7 @@ map.nodes[73003180] = Rare({
 map.nodes[29504170] = Treasure({
     label = L['egg_of_varasha_treasure'],
     quest = 35334,
-    note = L['egg_of_varsha_note'],
+    note = L['in_cave'],
     rewards = {
         Achievement({
             id = 9728,
@@ -976,6 +976,6 @@ map.nodes[60901122] = Voidtalon
 map.nodes[55306850] = Collectible({
     id = 87561,
     icon = 136042,
-    note = L['leorajh_follower_note'],
+    note = L['in_cave'] .. ' ' .. L['leorajh_follower_note'],
     rewards = {Follower({id = 219, icon = 136042})}
 }) -- Leorajh

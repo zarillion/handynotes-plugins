@@ -61,7 +61,7 @@ map.nodes[34607700] = Rare({
 map.nodes[42207860] = Rare({
     id = 80122,
     quest = 34725,
-    note = L['gazorda_note'],
+    note = L['in_cave'],
     rewards = {Item({item = 116798}), Currency({id = 824})}
 }) -- Gaz'orda
 
@@ -174,7 +174,7 @@ map.nodes[75606500] = Rare({
 map.nodes[77006400] = Rare({
     id = 82826,
     quest = 35735,
-    note = L['berserk_t_300_series_mark_ii_note'],
+    note = L['in_cave'] .. ' ' .. L['berserk_t_300_series_mark_ii_note'],
     rewards = {Item({item = 116823})}
 }) -- Berserk T-300 Series Mark II
 
@@ -742,7 +742,7 @@ map.nodes[76107000] = Treasure({
 
 map.nodes[77101660] = Treasure({
     labelt = 36174,
-    note = L['bounty_of_the_elements_note'],
+    note = L['in_cave'] .. ' ' .. L['bounty_of_the_elements_note'],
     rewards = {
         Achievement({
             id = 9728,
@@ -908,7 +908,7 @@ map.nodes[88901820] = Treasure({
 map.nodes[89103310] = Treasure({
     label = L['smugglers_cache_treasure'],
     quest = 36857,
-    note = L['smugglers_cache_note'],
+    note = L['in_cave'] .. ' ' .. L['smugglers_cache_note'],
     rewards = {
         Achievement({
             id = 9728,

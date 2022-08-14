@@ -214,7 +214,7 @@ map.nodes[68208480] = Rare({
 map.nodes[29603380] = Rare({
     id = 76380,
     quest = 33664,
-    note = L['gorum_note'],
+    note = L['in_cave'],
     rewards = {Item({item = 113082})},
     pois = {POI({25003300})}
 }) -- Gorum
@@ -222,7 +222,7 @@ map.nodes[29603380] = Rare({
 map.nodes[58408680] = Rare({
     id = 85555,
     quest = 37409,
-    note = L['nagidna_note'],
+    note = L['in_cave'],
     rewards = {Item({item = 119364})},
     pois = {POI({59008900})}
 }) -- Nagidna
