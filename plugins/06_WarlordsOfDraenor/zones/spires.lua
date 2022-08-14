@@ -559,7 +559,7 @@ map.nodes[71604850] = Treasure({
 }) -- Sethekk Ritual Brew
 
 map.nodes[43802470] = Treasure({
-    label = L['elixer_of_shadow_sight_treasure'],
+    label = L['elixir_of_shadow_sight_treasure'],
     note = L['elixir_of_shadow_sight_note'],
     quest = 36397,
     rewards = {
@@ -571,7 +571,7 @@ map.nodes[43802470] = Treasure({
 }) -- Elixer of Shadow Sight
 
 map.nodes[43901500] = Treasure({
-    label = L['elixer_of_shadow_sight_treasure'],
+    label = L['elixir_of_shadow_sight_treasure'],
     note = L['elixir_of_shadow_sight_note'],
     quest = 36395,
     rewards = {
@@ -583,7 +583,7 @@ map.nodes[43901500] = Treasure({
 }) -- Elixer of Shadow Sight
 
 map.nodes[48906250] = Treasure({
-    label = L['elixer_of_shadow_sight_treasure'],
+    label = L['elixir_of_shadow_sight_treasure'],
     note = L['elixir_of_shadow_sight_note'],
     quest = 36399,
     rewards = {
@@ -595,7 +595,7 @@ map.nodes[48906250] = Treasure({
 }) -- Elixer of Shadow Sight
 
 map.nodes[55602200] = Treasure({
-    label = L['elixer_of_shadow_sight_treasure'],
+    label = L['elixir_of_shadow_sight_treasure'],
     note = L['elixir_of_shadow_sight_note'],
     quest = 36400,
     rewards = {
@@ -607,7 +607,7 @@ map.nodes[55602200] = Treasure({
 }) -- Elixer of Shadow Sight
 
 map.nodes[69204330] = Treasure({
-    label = L['elixer_of_shadow_sight_treasure'],
+    label = L['elixir_of_shadow_sight_treasure'],
     note = L['elixir_of_shadow_sight_note'],
     quest = 36398,
     rewards = {
