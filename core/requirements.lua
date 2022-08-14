@@ -114,19 +114,16 @@ function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
 local Profession = Class('Profession', Requirement)
 
 function Profession:Initialize(profession)
-    self.profession = strlower(profession):gsub('^%l', string.upper)
-    self.text = self.profession
+    self.profession = profession
+    self.text = GetProfessionInfo(self.profession)
 end
 
 function Profession:IsMet()
-    local prof1, prof2, archaeology, fishing, cooking, firstAid =
-        GetProfessions()
-    local professions = {prof1, prof2, archaeology, fishing, cooking, firstAid}
+    local prof1, prof2, archaeology, fishing, cooking = GetProfessions()
+    local professions = {prof1, prof2, archaeology, fishing, cooking}
     for i = 1, #professions do
         if professions[i] ~= nil then
-            if self.profession == GetProfessionInfo(professions[i]) then
-                return true
-            end
+            if self.profession == professions[i] then return true end
         end
     end
     return false
