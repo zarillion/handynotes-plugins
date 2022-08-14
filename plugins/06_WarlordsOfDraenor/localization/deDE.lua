@@ -64,7 +64,6 @@ L['young_orc_traveler_treasure'] = nil
 L['young_orc_woman_note'] = nil
 L['young_orc_woman_treasure'] = nil
 
-L['frozen_slave_label'] = '{npc:82680}'
 L['prisoner_cage_label'] = 'Gefangenenkäfig'
 L['slaves_freed'] = 'Sklaven in der Blutschlägerfestung befreit'
 
