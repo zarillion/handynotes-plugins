@@ -372,7 +372,7 @@ map.nodes[31303910] = Treasure({
 }) -- Ronokk's Belongings
 
 map.nodes[33503970] = Treasure({
-    label = L['reusable_mana_potion_treasure'],
+    label = L['carved_drinking_horn_treasure'],
     quest = 33569,
     rewards = {
         Achievement({
@@ -380,7 +380,7 @@ map.nodes[33503970] = Treasure({
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
         }), Item({item = 113545})
     }
-}) -- Reusable mana potion
+}) -- Carved Drinking Horn
 
 map.nodes[34204350] = Treasure({
     label = L['veemas_herb_bag_treasure'],
