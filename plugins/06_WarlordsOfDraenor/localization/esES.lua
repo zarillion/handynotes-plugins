@@ -433,11 +433,11 @@ L['treasure_of_angorosh_treasure'] = nil
 L['webbed_sac_treasure'] = nil
 L['yuuris_gift_treasure'] = nil
 
-L['knight_pepe_treasure'] = nil
-L['knight_pepe_note'] = nil
+L['knight_pepe_treasure'] = 'Pepe Caballero'
+L['knight_pepe_note'] = 'Sentado en un cofre dentro de una tienda.'
 
 L['wingmen_note'] = nil
-L['fel_portal'] = nil
+L['fel_portal'] = 'Portal Vil'
 
 L['aeda_brightdawn_follower_note'] = nil
 L['ahm_follower_note'] = nil
