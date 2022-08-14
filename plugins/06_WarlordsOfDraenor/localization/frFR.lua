@@ -433,6 +433,7 @@ L['knight_pepe_treasure'] = nil
 L['knight_pepe_note'] = nil
 
 L['wingmen_note'] = nil
+L['fel_portal'] = nil
 
 L['aeda_brightdawn_follower_note'] = nil
 L['ahm_follower_note'] = nil
