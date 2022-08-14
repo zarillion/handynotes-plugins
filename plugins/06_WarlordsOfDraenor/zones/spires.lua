@@ -748,7 +748,7 @@ map.nodes[61006380] = Treasure({
 map.nodes[33302730] = Treasure({
     label = L['sun_touched_cache_treasure'],
     quest = 36422,
-    requires = ns.requirement.Profession('Archaeology'),
+    requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
@@ -760,7 +760,7 @@ map.nodes[33302730] = Treasure({
 map.nodes[42701830] = Treasure({
     label = L['misplaced_scrolls_treasure'],
     quest = 36244,
-    requires = ns.requirement.Profession('Archaeology'),
+    requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
@@ -772,7 +772,7 @@ map.nodes[42701830] = Treasure({
 map.nodes[43001640] = Treasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36245,
-    requires = ns.requirement.Profession('Archaeology'),
+    requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
@@ -784,7 +784,7 @@ map.nodes[43001640] = Treasure({
 map.nodes[43202720] = Treasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36355,
-    requires = ns.requirement.Profession('Archaeology'),
+    requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
@@ -796,7 +796,7 @@ map.nodes[43202720] = Treasure({
 map.nodes[46004410] = Treasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36354,
-    requires = ns.requirement.Profession('Archaeology'),
+    requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
@@ -808,7 +808,7 @@ map.nodes[46004410] = Treasure({
 map.nodes[51904890] = Treasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36360,
-    requires = ns.requirement.Profession('Archaeology'),
+    requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
@@ -820,7 +820,7 @@ map.nodes[51904890] = Treasure({
 map.nodes[52404280] = Treasure({
     label = L['misplaced_scroll_treasure'],
     quest = 36416,
-    requires = ns.requirement.Profession('Archaeology'),
+    requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
@@ -832,7 +832,7 @@ map.nodes[52404280] = Treasure({
 map.nodes[56304530] = Treasure({
     label = L['smuggled_apexis_artifacts_treasure'],
     quest = 36433,
-    requires = ns.requirement.Profession('Archaeology'),
+    requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
@@ -844,7 +844,7 @@ map.nodes[56304530] = Treasure({
 map.nodes[60205390] = Treasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36359,
-    requires = ns.requirement.Profession('Archaeology'),
+    requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
@@ -856,7 +856,7 @@ map.nodes[60205390] = Treasure({
 map.nodes[67403980] = Treasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36356,
-    requires = ns.requirement.Profession('Archaeology'),
+    requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
