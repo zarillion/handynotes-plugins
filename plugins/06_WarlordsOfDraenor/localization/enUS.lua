@@ -245,7 +245,7 @@ You can gather the items before going to him.
 ]]
 
 L['options_icons_broke_back_precipice'] = '{achievement:9571}'
-L['options_icons_broke_back_precipice_desc'] = 'Display rare locations for {achievement:9571'
+L['options_icons_broke_back_precipice_desc'] = 'Display rare locations for {achievement:9571}'
 L['options_icons_steamwheedle'] = '{achievement:9472}'
 L['options_icons_steamwheedle_desc'] = 'Display farm location for {achievement:9472}'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
@@ -354,8 +354,8 @@ L['sun_touched_cache_treasure'] = 'Sun-Touched Cache'
 L['toxicfang_venom_treasure'] = 'Toxicfang Venom'
 L['waterlogged_satchel_treasure'] = 'Waterlogged Satchel'
 
-L['elixer_of_shadow_sight_treasure'] = 'Elixer of Shadow Sight'
-L['elixir_of_shadow_sight_note'] = 'Take to a |cffffff00Shrine of Terrok|r. This is repeatable.'
+L['elixir_of_shadow_sight_treasure'] = 'Elixir of Shadow Sight'
+L['elixir_of_shadow_sight_note'] = 'Take to a |cffffff00Shrine to Terokk|r. This is repeatable.'
 L['gift_of_anzu_treasure'] = 'Gift of Anzu'
 L['offering_to_the_raven_mother_treasure'] = 'Offering to the Raven Mother'
 

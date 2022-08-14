@@ -347,7 +347,7 @@ L['sun_touched_cache_treasure'] = nil
 L['toxicfang_venom_treasure'] = nil
 L['waterlogged_satchel_treasure'] = nil
 
-L['elixer_of_shadow_sight_treasure'] = nil
+L['elixir_of_shadow_sight_treasure'] = nil
 L['elixir_of_shadow_sight_note'] = nil
 L['gift_of_anzu_treasure'] = nil
 L['offering_to_the_raven_mother_treasure'] = nil
