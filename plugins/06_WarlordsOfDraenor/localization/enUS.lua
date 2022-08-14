@@ -440,10 +440,11 @@ L['treasure_of_angorosh_treasure'] = 'Treasure of Ango\'rosh'
 L['webbed_sac_treasure'] = 'Webbed Sac'
 L['yuuris_gift_treasure'] = 'Yuuri\'s Gift'
 
-L['knight_pepe_treasure'] = 'Sitting in the tent sitting on a chest'
-L['knight_pepe_note'] = 'Knight Pepe'
+L['knight_pepe_treasure'] = 'Knight Pepe'
+L['knight_pepe_note'] = 'Sitting in the tent sitting on a chest'
 
 L['wingmen_note'] = 'Kill the endless streams of {npc:78433}, {npc:76883}, and {npc:78432} for 10 reputation each.\n\nLarge demons such as {npc:78715} and {npc:78713} do not provide additional reputation.'
+L['fel_portal'] = 'Fel Portal'
 
 L['aeda_brightdawn_follower_note'] = 'Complete {quest:34776} to recruit her as a follower'
 L['ahm_follower_note'] = 'Complete {quest:33973} then meet him at your garrison to recruit him as a follower'
