@@ -64,7 +64,6 @@ L['young_orc_traveler_treasure'] = 'Orco Joven Viajero'
 L['young_orc_woman_note'] = 'Combinar con la {item:107273}.'
 L['young_orc_woman_treasure'] = 'Joven Orco Hembra'
 
-L['frozen_slave_label'] = '{npc:82680}'
 L['prisoner_cage_label'] = 'Jaula de Prisionero'
 L['slaves_freed'] = 'esclavos liberados'
 

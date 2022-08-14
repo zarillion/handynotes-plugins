@@ -917,7 +917,7 @@ local Slave = Class('Slave', Collectible, {
     }
 })
 
-local FrozenSlave = Slave({label = L['frozen_slave_label'], icon = 'peg_bl'})
+local FrozenSlave = Slave({label = '{npc:82680}', icon = 'peg_bl'})
 
 map.nodes[37801840] = FrozenSlave
 map.nodes[37801860] = FrozenSlave
