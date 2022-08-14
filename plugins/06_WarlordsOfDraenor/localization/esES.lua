@@ -147,7 +147,6 @@ L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines
 ------------------------------------ NAGRAND ----------------------------------
 -------------------------------------------------------------------------------
 
-L['gazorda_note'] = nil
 L['fangler_note'] = nil
 L['berserk_t_300_series_mark_ii_note'] = nil
 
@@ -256,9 +255,6 @@ L['options_icons_making_the_cut_desc'] = 'Muestra dónde están los |cffffff00Bl
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
-L['gorum_note'] = nil
-L['nagidna_note'] = nil
-
 L['alchemists_satchel_treasure'] = nil
 L['ancestral_greataxe_treasure'] = nil
 L['armored_elekk_tusk_treasure'] = nil
@@ -318,7 +314,6 @@ L['assassins_spear_treasure'] = nil
 L['campaign_contributions_treasure'] = nil
 L['coinbenders_payment_treasure'] = nil
 L['egg_of_varasha_treasure'] = nil
-L['egg_of_varsha_note'] = nil
 L['ephials_dark_grimoire_treasure'] = nil
 L['fractured_sunstone_note'] = nil
 L['fractured_sunstone_treasure'] = nil

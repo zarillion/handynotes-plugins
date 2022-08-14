@@ -146,9 +146,8 @@ L['options_icons_prove_your_strength_desc'] = 'Display drop locations for {achie
 ------------------------------------ NAGRAND ----------------------------------
 -------------------------------------------------------------------------------
 
-L['gazorda_note'] = 'In a cave'
 L['fangler_note'] = 'Use the fishing rod'
-L['berserk_t_300_series_mark_ii_note'] = 'In a cave. Use the switch'
+L['berserk_t_300_series_mark_ii_note'] = 'Use the switch'
 
 L['a_pile_of_dirt_treasure'] = 'A Pile of Dirt'
 L['abandoned_cargo_treasure'] = 'Abandoned Cargo'
@@ -160,7 +159,7 @@ L['adventurers_staff_treasure'] = 'Adventurer\'s Staff'
 L['appropriated_warsong_supplies_treasure'] = 'Appropriated Warsong Supplies'
 L['bag_of_herbs_treasure'] = 'Bag of Herbs'
 L['bone_carved_dagger_treasure'] = 'Bone-Carved Dagger'
-L['bounty_of_the_elements_note'] = 'In a cave. Use the Elemental Stones for access.'
+L['bounty_of_the_elements_note'] = 'Use the Elemental Stones for access.'
 L['bounty_of_the_elements_treasure'] = 'Bounty of the Elements'
 L['brilliant_dreampetal_treasure'] = 'Brilliant Dreampetal'
 L['elemental_offering_treasure'] = 'Elemental Offering'
@@ -184,7 +183,7 @@ L['pale_elixir_treasure'] = 'Pale Elixir'
 L['pokkars_thirteenth_axe_treasure'] = 'Pokkar\'s Thirteenth Axe'
 L['polished_saberon_skull_treasure'] = 'Polished Saberon Skull'
 L['saberon_stash_treasure'] = 'Saberon Stash'
-L['smugglers_cache_note'] = 'In a cave. Dodge the tripwires'
+L['smugglers_cache_note'] = 'Dodge the tripwires'
 L['smugglers_cache_treasure'] = 'Smuggler\'s Cache'
 L['steamwheedle_supplies_treasure'] = 'Steamwheedle Supplies'
 L['telaar_defender_shield_treasure'] = 'Telaar Defender Shield'
@@ -263,9 +262,6 @@ L['options_icons_making_the_cut_desc'] = 'Display |cffffff00Bloodring Slaver|r l
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
-L['gorum_note'] = 'In a cave'
-L['nagidna_note'] = 'In a cave'
-
 L['alchemists_satchel_treasure'] = 'Alchemist\'s Satchel'
 L['ancestral_greataxe_treasure'] = 'Ancestral Greataxe'
 L['armored_elekk_tusk_treasure'] = 'Armored Elekk Tusk'
@@ -325,7 +321,6 @@ L['assassins_spear_treasure'] = 'Assassin\'s Spear'
 L['campaign_contributions_treasure'] = 'Campaign Contributions'
 L['coinbenders_payment_treasure'] = 'Coinbender\'s Payment'
 L['egg_of_varasha_treasure'] = 'Egg of Varasha'
-L['egg_of_varsha_note'] = 'In a cave'
 L['ephials_dark_grimoire_treasure'] = 'Ephial\'s Dark Grimoire'
 L['fractured_sunstone_note'] = 'Hidden in the water'
 L['fractured_sunstone_treasure'] = 'Fractured Sunstone'
@@ -376,7 +371,7 @@ Interact with {npc:85992} to randomly receive one of three buffs.
 {spell:171768}
 ]]
 
-L['leorajh_follower_note'] = 'In a cave. Talk to him to recruit him as a follower'
+L['leorajh_follower_note'] = 'Talk to him to recruit him as a follower'
 
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = 'Display item locations for {achievement:9432}'
