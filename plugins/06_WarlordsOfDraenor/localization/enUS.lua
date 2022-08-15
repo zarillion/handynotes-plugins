@@ -161,7 +161,7 @@ L['adventurers_staff_treasure'] = 'Adventurer\'s Staff'
 L['appropriated_warsong_supplies_treasure'] = 'Appropriated Warsong Supplies'
 L['bag_of_herbs_treasure'] = 'Bag of Herbs'
 L['bone_carved_dagger_treasure'] = 'Bone-Carved Dagger'
-L['bounty_of_the_elements_note'] = 'Use the Elemental Stones for access.'
+L['bounty_of_the_elements_note'] = 'Use the Elemental Totems for access.'
 L['bounty_of_the_elements_treasure'] = 'Bounty of the Elements'
 L['brilliant_dreampetal_treasure'] = 'Brilliant Dreampetal'
 L['elemental_offering_treasure'] = 'Elemental Offering'
@@ -234,7 +234,7 @@ L['stable_master_note'] = 'Talk to {stablemaster} to receive a mount-in-training
 
 L['making_the_cut_note'] = 'While {npc:88210} is available kill 15 {npc:88207} around |cffffff00The Ring of Blood|r. Once 15 have been killed {npc:88210} will become targetable.\n\n' .. ns.color.Red('Not bad for a bunch of worthless pukes! Come face Krud when you ready to die!')
 
-L['goldmane_follower_note'] = 'Kill {npc:80080} nearby to loot {item:111863} and unlock the cage to recruit him as a follower'
+L['goldmane_follower_note'] = 'Kill {npc:80080} nearby to loot {item:111863} and unlock the cage to recruit {npc:80083} as a follower'
 L['abugar_follower_note'] = [[
 Deliver 3 fishing items found around |cffffff00Nagrand|r and then speak to him to recruit him as a follower.
 
@@ -351,14 +351,22 @@ L['sun_touched_cache_treasure'] = 'Sun-Touched Cache'
 L['toxicfang_venom_treasure'] = 'Toxicfang Venom'
 L['waterlogged_satchel_treasure'] = 'Waterlogged Satchel'
 
-L['elixir_of_shadow_sight_treasure'] = 'Elixir of Shadow Sight'
-L['elixir_of_shadow_sight_note'] = 'Take to a |cffffff00Shrine to Terokk|r. This is repeatable.'
-L['gift_of_anzu_treasure'] = 'Gift of Anzu'
-L['offering_to_the_raven_mother_treasure'] = 'Offering to the Raven Mother'
-
 L['misplaced_scroll_treasure'] = 'Misplaced Scroll'
 L['relics_of_the_outcasts_treasure'] = 'Relics of the Outcasts'
 L['smuggled_apexis_artifacts_treasure'] = 'Smuggled Apexis Artifacts'
+
+L['offering_to_the_raven_mother_treasure'] = 'Offering to the Raven Mother'
+
+L['elixir_of_shadow_sight_treasure'] = 'Elixir of Shadow Sight'
+L['elixir_pre_note'] = 'Take to a |cffffff00Shrine to Terokk|r.'
+L['elixir_01_note'] = 'Next to a small hut in a hanging basket.'
+L['elixir_02_note'] = 'In a basket within the back of a burning hut.'
+L['elixir_03_note'] = 'Within a basket between a tree and a broken wall.'
+L['elixir_04_note'] = 'Inside a Saberon cave.'
+L['elixir_05_note'] = 'Up the mountain, next to the dead body of a {npc:83633}. After you go up the large mountain path, look for another {npc:83633} hanging from chains between two trees. The elixir is behind the hills, next to the tree on the right.'
+L['elixir_06_note'] = 'In the water, at the end of a smaller, broken wall.'
+
+L['gift_of_anzu_treasure'] = 'Gift of Anzu'
 
 L['pirate_pepe_note'] = 'Sitting on a rock at the base on the inside of the rock wall'
 L['pirate_pepe_treasure'] = 'Pirate Pepe'
@@ -375,6 +383,12 @@ Interact with {npc:85992} to randomly receive one of three buffs.
 
 L['leorajh_follower_note'] = 'Talk to him to recruit him as a follower'
 
+L['options_icons_archaeology_treasure'] = 'Archaeology Treasures'
+L['options_icons_archaeology_treasure_desc'] = 'Display locations for archaeology treasures'
+L['options_icons_offering'] = 'Offering to the Raven Mother'
+L['options_icons_offering_desc'] = 'Display item locations of |cffffff00Offering to the Raven Mother|r'
+L['options_icons_shrines_of_terokk'] = 'Shrines of Terokk'
+L['options_icons_shrines_of_terokk_desc'] = 'Display locations for |cffffff00Shrines of Terokk|r'
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = 'Display item locations for {achievement:9432}'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'

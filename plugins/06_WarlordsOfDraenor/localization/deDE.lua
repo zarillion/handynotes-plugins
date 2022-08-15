@@ -352,14 +352,22 @@ L['sun_touched_cache_treasure'] = 'Sonnenberührte Truhe'
 L['toxicfang_venom_treasure'] = 'Giftzahntoxin'
 L['waterlogged_satchel_treasure'] = 'Durchnässter Sack'
 
-L['elixir_of_shadow_sight_treasure'] = 'Elixier der Schattensicht'
-L['elixir_of_shadow_sight_note'] = 'Bringe es zu einem |cffffff00Terokkschrein|r (wiederholbar).'
-L['gift_of_anzu_treasure'] = 'Geschenk Anzus'
-L['offering_to_the_raven_mother_treasure'] = 'Opfergabe an die Rabenmutter'
-
 L['misplaced_scroll_treasure'] = 'Verlegte Schriftrolle'
 L['relics_of_the_outcasts_treasure'] = 'Relikte der Ausgestoßenen'
 L['smuggled_apexis_artifacts_treasure'] = 'Geschmuggelte Apexisartefakte'
+
+L['offering_to_the_raven_mother_treasure'] = 'Opfergabe an die Rabenmutter'
+
+L['elixir_of_shadow_sight_treasure'] = 'Elixier der Schattensicht'
+L['elixir_pre_note'] = 'Bringe es zu einem |cffffff00Terokkschrein|r.'
+L['elixir_01_note'] = nil
+L['elixir_02_note'] = nil
+L['elixir_03_note'] = nil
+L['elixir_04_note'] = nil
+L['elixir_05_note'] = nil
+L['elixir_06_note'] = nil
+
+L['gift_of_anzu_treasure'] = 'Geschenk Anzus'
 
 L['pirate_pepe_note'] = 'Auf einem kleinen Felsen auf der Innenseite der Mauer.'
 L['pirate_pepe_treasure'] = 'Pepe der Pirat'
@@ -376,6 +384,12 @@ Interagiere mit {npc:85992}, um zufällig einen von drei Stärkungszaubern zu er
 
 L['leorajh_follower_note'] = 'Sprich mit ihm, um ihn als Anhänger zu rekrutieren.'
 
+L['options_icons_archaeology_treasure'] = nil
+L['options_icons_archaeology_treasure_desc'] = nil
+L['options_icons_offering'] = nil
+L['options_icons_offering_desc'] = nil
+L['options_icons_shrines_of_terokk'] = nil
+L['options_icons_shrines_of_terokk_desc'] = nil
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = 'Zeigt die Position von Gegenständen für den Erfolg {achievement:9432} an.'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
