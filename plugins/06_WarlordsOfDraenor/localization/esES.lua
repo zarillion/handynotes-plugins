@@ -27,8 +27,8 @@ L['fen_tao_follower_note'] = 'Habla con él para reclutarlo como seguidor.'
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = nil
-L['gibblette_the_cowardly_note'] = nil
+L['borrok_the_devourer_note'] = ns.color.Red('¡No lo mates!') .. '\n\nEn lugar de eso, mata ogros cercanos y alimenta a {npc:72156}. Después de comer 10 ogros toserá un |cffffff00Piedra Devastadora de Devorador\r despojable.'
+L['gibblette_the_cowardly_note'] = 'Interrumpe {spell:175415} o huirá corriendo del combate y desaparecerá.'
 
 L['arena_masters_war_horn_treasure'] = 'Cuerno de Guerra de Maestro de Arena'
 L['burning_pearl_treasure'] = 'Perla Ardiente'
@@ -150,7 +150,7 @@ L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines
 -------------------------------------------------------------------------------
 
 L['fangler_note'] = nil
-L['berserk_t_300_series_mark_ii_note'] = nil
+L['berserk_t_300_series_mark_ii_note'] = 'Usa el interruptor.'
 
 L['a_pile_of_dirt_treasure'] = nil
 L['abandoned_cargo_treasure'] = nil
@@ -162,8 +162,8 @@ L['adventurers_staff_treasure'] = nil
 L['appropriated_warsong_supplies_treasure'] = nil
 L['bag_of_herbs_treasure'] = nil
 L['bone_carved_dagger_treasure'] = nil
-L['bounty_of_the_elements_note'] = nil
-L['bounty_of_the_elements_treasure'] = nil
+L['bounty_of_the_elements_note'] = 'Usa los Tótems Elementales para acceder.'
+L['bounty_of_the_elements_treasure'] = 'Recompensa de los Elementos'
 L['brilliant_dreampetal_treasure'] = nil
 L['elemental_offering_treasure'] = nil
 L['elemental_shackles_treasure'] = nil
@@ -186,8 +186,8 @@ L['pale_elixir_treasure'] = nil
 L['pokkars_thirteenth_axe_treasure'] = nil
 L['polished_saberon_skull_treasure'] = nil
 L['saberon_stash_treasure'] = nil
-L['smugglers_cache_note'] = nil
-L['smugglers_cache_treasure'] = nil
+L['smugglers_cache_note'] = 'Esquiva la trampa de cables.'
+L['smugglers_cache_treasure'] = 'Alijo de Contrabandista'
 L['steamwheedle_supplies_treasure'] = nil
 L['telaar_defender_shield_treasure'] = nil
 L['treasure_of_kullkrosh_treasure'] = nil
@@ -264,7 +264,7 @@ L['astrologers_box_treasure'] = nil
 L['beloveds_offering_treasure'] = nil
 L['bubbling_cauldron_treasure'] = nil
 L['cargo_of_the_raven_queen_treasure'] = nil
-L['carved_drinking_horn_treasure'] = nil
+L['carved_drinking_horn_treasure'] = 'Cuerno de Beber Tallado'
 L['demonic_cache_treasure'] = nil
 L['dusty_lockbox_treasure'] = nil
 L['false_bottomed_jar_treasure'] = nil
@@ -366,12 +366,12 @@ Interactúa con un {npc:85992} para recibir aleatoriamente uno de estos tres buf
 {spell:171768}
 ]]
 
-L['leorajh_follower_note'] = nil
+L['leorajh_follower_note'] = 'Habla con él para reclutarlo como seguidor.'
 
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = 'Muestra dónde están los escritos para el logro {achievement:9432}'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
-L['options_icons_king_of_the_monsters_desc'] = nil
+L['options_icons_king_of_the_monsters_desc'] = 'Muestra dónde están los raros para el logro {achievement:9601}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
