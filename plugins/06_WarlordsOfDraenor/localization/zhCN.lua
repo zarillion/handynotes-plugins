@@ -169,6 +169,7 @@ L['elemental_shackles_treasure'] = nil
 L['fragment_of_oshugun_treasure'] = nil
 L['freshwater_clam_treasure'] = nil
 L['fungus_covered_chest_treasure'] = nil
+L['gamblers_purse_treasure'] = nil
 L['genedar_debris_treasure'] = nil
 L['goblin_pack_treasure'] = nil
 L['golden_kaliri_egg_treasure'] = nil
