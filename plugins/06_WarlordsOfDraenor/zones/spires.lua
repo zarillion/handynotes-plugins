@@ -558,196 +558,13 @@ map.nodes[71604850] = Treasure({
     }
 }) -- Sethekk Ritual Brew
 
-map.nodes[43802470] = Treasure({
-    label = L['elixir_of_shadow_sight_treasure'],
-    note = L['elixir_of_shadow_sight_note'],
-    quest = 36397,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 115463})
-    }
-}) -- Elixer of Shadow Sight
+-------------------------------------------------------------------------------
+---------------------------- ARCHAEOLOGY TREASURE -----------------------------
+-------------------------------------------------------------------------------
 
-map.nodes[43901500] = Treasure({
-    label = L['elixir_of_shadow_sight_treasure'],
-    note = L['elixir_of_shadow_sight_note'],
-    quest = 36395,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 115463})
-    }
-}) -- Elixer of Shadow Sight
-
-map.nodes[48906250] = Treasure({
-    label = L['elixir_of_shadow_sight_treasure'],
-    note = L['elixir_of_shadow_sight_note'],
-    quest = 36399,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 115463})
-    }
-}) -- Elixer of Shadow Sight
-
-map.nodes[55602200] = Treasure({
-    label = L['elixir_of_shadow_sight_treasure'],
-    note = L['elixir_of_shadow_sight_note'],
-    quest = 36400,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 115463})
-    }
-}) -- Elixer of Shadow Sight
-
-map.nodes[69204330] = Treasure({
-    label = L['elixir_of_shadow_sight_treasure'],
-    note = L['elixir_of_shadow_sight_note'],
-    quest = 36398,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 115463})
-    }
-}) -- Elixer of Shadow Sight
-
-map.nodes[42402670] = Treasure({
-    label = L['gift_of_anzu_treasure'],
-    requires = ns.requirement.Item(115463), -- Elixir of Shadow Sight
-    quest = 36388,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118242})
-    }
-}) -- Gift of Anzu
-
-map.nodes[46904050] = Treasure({
-    label = L['gift_of_anzu_treasure'],
-    requires = ns.requirement.Item(115463), -- Elixir of Shadow Sight
-    quest = 36389,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118238})
-    }
-}) -- Gift of Anzu
-
-map.nodes[48604450] = Treasure({
-    label = L['gift_of_anzu_treasure'],
-    requires = ns.requirement.Item(115463), -- Elixir of Shadow Sight
-    quest = 36386,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118237})
-    }
-}) -- Gift of Anzu
-
-map.nodes[52001960] = Treasure({
-    label = L['gift_of_anzu_treasure'],
-    requires = ns.requirement.Item(115463), -- Elixir of Shadow Sight
-    quest = 36392,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118239})
-    }
-}) -- Gift of Anzu
-
-map.nodes[57007900] = Treasure({
-    label = L['gift_of_anzu_treasure'],
-    requires = ns.requirement.Item(115463), -- Elixir of Shadow Sight
-    quest = 36390,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118241})
-    }
-}) -- Gift of Anzu
-
-map.nodes[61105550] = Treasure({
-    label = L['gift_of_anzu_treasure'],
-    requires = ns.requirement.Item(115463), -- Elixir of Shadow Sight
-    quest = 36381,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118240})
-    }
-}) -- Gift of Anzu
-
-map.nodes[48305260] = Treasure({
-    label = L['offering_to_the_raven_mother_treasure'],
-    quest = 36405,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118267})
-    }
-}) -- Offering to the Raven Mother
-
-map.nodes[48905470] = Treasure({
-    label = L['offering_to_the_raven_mother_treasure'],
-    quest = 36406,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118267})
-    }
-}) -- Offering to the Raven Mother
-
-map.nodes[51906460] = Treasure({
-    label = L['offering_to_the_raven_mother_treasure'],
-    quest = 36407,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118267})
-    }
-}) -- Offering to the Raven Mother
-
-map.nodes[53305560] = Treasure({
-    label = L['offering_to_the_raven_mother_treasure'],
-    quest = 36403,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118267})
-    }
-}) -- Offering to the Raven Mother
-
-map.nodes[61006380] = Treasure({
-    label = L['offering_to_the_raven_mother_treasure'],
-    quest = 36410,
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118267})
-    }
-}) -- Offering to the Raven Mother
-
-map.nodes[33302730] = Treasure({
-    label = L['sun_touched_cache_treasure'],
-    quest = 36422,
+local ArchaeologyTreasure = Class('ArchaeologyTreasure', Treasure, {
+    icon = 'chest_bn',
+    group = ns.groups.ARCHAEOLOGY_TREASURE,
     requires = ns.requirement.Profession(11), -- Archaeology
     rewards = {
         Achievement({
@@ -755,115 +572,152 @@ map.nodes[33302730] = Treasure({
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
         }), Currency({id = 829})
     }
+})
+
+map.nodes[33302730] = ArchaeologyTreasure({
+    label = L['sun_touched_cache_treasure'],
+    quest = 36422
 }) -- Sun-Touched Cache
 
-map.nodes[42701830] = Treasure({
+map.nodes[42701830] = ArchaeologyTreasure({
     label = L['misplaced_scrolls_treasure'],
-    quest = 36244,
-    requires = ns.requirement.Profession(11), -- Archaeology
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Currency({id = 829})
-    }
+    quest = 36244
 }) -- Misplaced Scrolls
 
-map.nodes[43001640] = Treasure({
+map.nodes[43001640] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
-    quest = 36245,
-    requires = ns.requirement.Profession(11), -- Archaeology
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Currency({id = 829})
-    }
+    quest = 36245
 }) -- Relics of the Outcasts
 
-map.nodes[43202720] = Treasure({
+map.nodes[43202720] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
-    quest = 36355,
-    requires = ns.requirement.Profession(11), -- Archaeology
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Currency({id = 829})
-    }
+    quest = 36355
 }) -- Relics of the Outcasts
 
-map.nodes[46004410] = Treasure({
+map.nodes[46004410] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
-    quest = 36354,
-    requires = ns.requirement.Profession(11), -- Archaeology
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Currency({id = 829})
-    }
+    quest = 36354
 }) -- Relics of the Outcasts
 
-map.nodes[51904890] = Treasure({
+map.nodes[51904890] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
-    quest = 36360,
-    requires = ns.requirement.Profession(11), -- Archaeology
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Currency({id = 829})
-    }
+    quest = 36360
 }) -- Relics of the Outcasts
 
-map.nodes[52404280] = Treasure({
+map.nodes[52404280] = ArchaeologyTreasure({
     label = L['misplaced_scroll_treasure'],
-    quest = 36416,
-    requires = ns.requirement.Profession(11), -- Archaeology
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Currency({id = 829})
-    }
+    quest = 36416
 }) -- Misplaced Scroll
 
-map.nodes[56304530] = Treasure({
+map.nodes[56304530] = ArchaeologyTreasure({
     label = L['smuggled_apexis_artifacts_treasure'],
-    quest = 36433,
-    requires = ns.requirement.Profession(11), -- Archaeology
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Currency({id = 829})
-    }
+    quest = 36433
 }) -- Smuggled Apexis Artifacts
 
-map.nodes[60205390] = Treasure({
+map.nodes[60205390] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
-    quest = 36359,
-    requires = ns.requirement.Profession(11), -- Archaeology
-    rewards = {
-        Achievement({
-            id = 9728,
-            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Currency({id = 829})
-    }
+    quest = 36359
 }) -- Relics of the Outcasts
 
-map.nodes[67403980] = Treasure({
+map.nodes[67403980] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
-    quest = 36356,
-    requires = ns.requirement.Profession(11), -- Archaeology
+    quest = 36356
+}) -- Relics of the Outcasts
+
+-------------------------------------------------------------------------------
+-------------------- OFFERING TO THE RAVEN MOTHER TREASURE --------------------
+-------------------------------------------------------------------------------
+
+local OfferingToTheRavenMother = Class('OfferingToTheRavenMother', Treasure, {
+    label = L['offering_to_the_raven_mother_treasure'],
+    icon = 'chest_gn',
+    group = ns.groups.OFFERING,
     rewards = {
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Currency({id = 829})
+        }), Item({item = 118267})
     }
-}) -- Relics of the Outcasts
+})
+
+map.nodes[48305260] = OfferingToTheRavenMother({quest = 36405}) -- Offering to the Raven Mother
+map.nodes[48905470] = OfferingToTheRavenMother({quest = 36406}) -- Offering to the Raven Mother
+map.nodes[51906460] = OfferingToTheRavenMother({quest = 36407}) -- Offering to the Raven Mother
+map.nodes[53305560] = OfferingToTheRavenMother({quest = 36403}) -- Offering to the Raven Mother
+map.nodes[61006380] = OfferingToTheRavenMother({quest = 36410}) -- Offering to the Raven Mother
+
+-------------------------------------------------------------------------------
+------------------------- SHRINE OF TEROKK TREASURES --------------------------
+-------------------------------------------------------------------------------
+
+local ElixirOfShadowSight = Class('ElixirOfShadowSight', Treasure, {
+    label = L['elixir_of_shadow_sight_treasure'],
+    icon = 'chest_pk',
+    group = ns.groups.SHRINES_OF_TEROKK,
+    rewards = {Item({item = 115463})}
+})
+
+map.nodes[43901500] = ElixirOfShadowSight({
+    quest = 36395,
+    note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_01_note']
+}) -- Elixir of Shadow Sight
+
+map.nodes[43802470] = ElixirOfShadowSight({
+    quest = 36397,
+    note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_02_note']
+}) -- Elixir of Shadow Sight
+
+map.nodes[69204350] = ElixirOfShadowSight({
+    quest = 36398,
+    note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_03_note']
+}) -- Elixir of Shadow Sight
+
+map.nodes[48906250] = ElixirOfShadowSight({
+    quest = 36399,
+    note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_04_note']
+}) -- Elixir of Shadow Sight
+
+map.nodes[55602210] = ElixirOfShadowSight({
+    quest = 36400,
+    note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_05_note']
+}) -- Elixir of Shadow Sight
+
+map.nodes[53108450] = ElixirOfShadowSight({
+    quest = 36401,
+    note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_06_note']
+}) -- Elixir of Shadow Sight
+
+local GiftOfAnzu = Class('GiftOfAnzu', Treasure, {
+    label = L['gift_of_anzu_treasure'],
+    requires = ns.requirement.Item(115463), -- Elixir of Shadow Sight
+    icon = 'chest_pk',
+    group = ns.groups.SHRINES_OF_TEROKK
+})
+
+map.nodes[42402670] = GiftOfAnzu({
+    quest = 36388,
+    rewards = {Item({item = 118242})}
+}) -- Gift of Anzu
+map.nodes[46904050] = GiftOfAnzu({
+    quest = 36389,
+    rewards = {Item({item = 118238})}
+}) -- Gift of Anzu
+map.nodes[48604450] = GiftOfAnzu({
+    quest = 36386,
+    rewards = {Item({item = 118237})}
+}) -- Gift of Anzu
+map.nodes[52001960] = GiftOfAnzu({
+    quest = 36392,
+    rewards = {Item({item = 118239})}
+}) -- Gift of Anzu
+map.nodes[57007900] = GiftOfAnzu({
+    quest = 36390,
+    rewards = {Item({item = 118241})}
+}) -- Gift of Anzu
+map.nodes[61105550] = GiftOfAnzu({
+    quest = 36381,
+    rewards = {Item({item = 118240})}
+}) -- Gift of Anzu
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

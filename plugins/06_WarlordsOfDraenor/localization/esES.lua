@@ -235,7 +235,7 @@ L['stable_master_note'] = 'Habla con {stablemaster} para recibir un silbato de m
 
 L['making_the_cut_note'] = 'Mientras {npc:88210} esté disponible mata a 15 ogros alrededor de |cffffff00El Círculo de Sangre|r. Una vez se hayan matado a los 15 ogros será posible señalar como objetivo a {npc:88210}.'
 
-L['goldmane_follower_note'] = 'Mata a {npc:80080} que anda cerca y despoja la {item:111863} para abrir la jaula para reclutar al prisionero como seguidor.'
+L['goldmane_follower_note'] = 'Mata a {npc:80080} que anda cerca y despoja la {item:111863} para abrir la jaula para reclutar {npc:80083} como seguidor.'
 L['abugar_follower_note'] = [[
 Llévale 3 objetos de pesca encontrados alrededor de |cffffff00Nagrand|r y entonces habla con él para reclutarlo como seguidor.
 
@@ -352,14 +352,22 @@ L['sun_touched_cache_treasure'] = nil
 L['toxicfang_venom_treasure'] = nil
 L['waterlogged_satchel_treasure'] = nil
 
-L['elixir_of_shadow_sight_treasure'] = 'Elixir de Visión de las Sombras'
-L['elixir_of_shadow_sight_note'] = 'Bébelo cerca de un |cffffff00Santuario de Terokk|r. Es repetible.'
-L['gift_of_anzu_treasure'] = nil
-L['offering_to_the_raven_mother_treasure'] = nil
-
 L['misplaced_scroll_treasure'] = nil
 L['relics_of_the_outcasts_treasure'] = nil
 L['smuggled_apexis_artifacts_treasure'] = nil
+
+L['offering_to_the_raven_mother_treasure'] = nil
+
+L['elixir_of_shadow_sight_treasure'] = 'Elixir de Visión de las Sombras'
+L['elixir_pre_note'] = 'Bébelo cerca de un |cffffff00Santuario de Terokk|r.'
+L['elixir_01_note'] = nil
+L['elixir_02_note'] = nil
+L['elixir_03_note'] = nil
+L['elixir_04_note'] = nil
+L['elixir_05_note'] = nil
+L['elixir_06_note'] = nil
+
+L['gift_of_anzu_treasure'] = nil
 
 L['pirate_pepe_note'] = nil
 L['pirate_pepe_treasure'] = nil
@@ -376,6 +384,12 @@ Interactúa con un {npc:85992} para recibir aleatoriamente uno de estos tres buf
 
 L['leorajh_follower_note'] = 'Habla con él para reclutarlo como seguidor.'
 
+L['options_icons_archaeology_treasure'] = nil
+L['options_icons_archaeology_treasure_desc'] = nil
+L['options_icons_offering'] = nil
+L['options_icons_offering_desc'] = nil
+L['options_icons_shrines_of_terokk'] = nil
+L['options_icons_shrines_of_terokk_desc'] = nil
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = 'Muestra dónde están los escritos para el logro {achievement:9432}'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'

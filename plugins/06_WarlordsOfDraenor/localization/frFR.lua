@@ -342,14 +342,22 @@ L['sun_touched_cache_treasure'] = nil
 L['toxicfang_venom_treasure'] = nil
 L['waterlogged_satchel_treasure'] = nil
 
-L['elixir_of_shadow_sight_treasure'] = nil
-L['elixir_of_shadow_sight_note'] = nil
-L['gift_of_anzu_treasure'] = nil
-L['offering_to_the_raven_mother_treasure'] = nil
-
 L['misplaced_scroll_treasure'] = nil
 L['relics_of_the_outcasts_treasure'] = nil
 L['smuggled_apexis_artifacts_treasure'] = nil
+
+L['offering_to_the_raven_mother_treasure'] = nil
+
+L['elixir_of_shadow_sight_treasure'] = nil
+L['elixir_pre_note'] = nil
+L['elixir_01_note'] = nil
+L['elixir_02_note'] = nil
+L['elixir_03_note'] = nil
+L['elixir_04_note'] = nil
+L['elixir_05_note'] = nil
+L['elixir_06_note'] = nil
+
+L['gift_of_anzu_treasure'] = nil
 
 L['pirate_pepe_note'] = nil
 L['pirate_pepe_treasure'] = nil
@@ -364,6 +372,12 @@ Interagissez avec le {npc:85992} pour recevoir au hasard l'un des trois buffs.
 
 L['leorajh_follower_note'] = nil
 
+L['options_icons_archaeology_treasure'] = nil
+L['options_icons_archaeology_treasure_desc'] = nil
+L['options_icons_offering'] = nil
+L['options_icons_offering_desc'] = nil
+L['options_icons_shrines_of_terokk'] = nil
+L['options_icons_shrines_of_terokk_desc'] = nil
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = 'Afficher les emplacements des objets pour {achievement:9432}'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'

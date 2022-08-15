@@ -14,6 +14,8 @@ ns.expansion = 6
 
 ns.groups.ANCIENT_NO_MORE = Group('ancient_no_more', 874578,
     {defaults = ns.GROUP_HIDDEN})
+ns.groups.ARCHAEOLOGY_TREASURE = Group('archaeology_treasure', 'chest_bn',
+    {defaults = ns.GROUP_HIDDEN})
 ns.groups.ATTACK_PLANS = Group('attack_plans', 'chest_pp',
     {defaults = ns.GROUP_HIDDEN75})
 ns.groups.BREAKER_OF_CHAINS = Group('breaker_of_chains', 1035046,
@@ -34,8 +36,11 @@ ns.groups.KING_OF_THE_MONSTERS = Group('king_of_the_monsters', 236192,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.MAKING_THE_CUT = Group('making_the_cut', 458732,
     {defaults = ns.GROUP_HIDDEN})
+ns.groups.OFFERING = Group('offering', 'chest_gn', {defaults = ns.GROUP_HIDDEN})
 ns.groups.PEPE = Group('pepe', 1044996, {defaults = ns.GROUP_HIDDEN})
 ns.groups.PROVE_YOUR_STRENGTH = Group('prove_your_strength', 975743,
+    {defaults = ns.GROUP_HIDDEN})
+ns.groups.SHRINES_OF_TEROKK = Group('shrines_of_terokk', 'chest_pk',
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.SONG_OF_SILENCE = Group('song_of_silence', 136005,
     {defaults = ns.GROUP_HIDDEN})
