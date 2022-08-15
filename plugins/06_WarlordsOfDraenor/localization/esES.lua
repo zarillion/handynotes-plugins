@@ -149,59 +149,59 @@ L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines
 ------------------------------------ NAGRAND ----------------------------------
 -------------------------------------------------------------------------------
 
-L['fangler_note'] = nil
+L['fangler_note'] = 'Usa la caña de pescar.'
 L['berserk_t_300_series_mark_ii_note'] = 'Usa el interruptor.'
 
-L['a_pile_of_dirt_treasure'] = nil
-L['abandoned_cargo_treasure'] = nil
-L['adventurers_mace_treasure'] = nil
-L['adventurers_pack_treasure'] = nil
-L['adventurers_pouch_treasure'] = nil
-L['adventurers_sack_treasure'] = nil
-L['adventurers_staff_treasure'] = nil
-L['appropriated_warsong_supplies_treasure'] = nil
-L['bag_of_herbs_treasure'] = nil
-L['bone_carved_dagger_treasure'] = nil
+L['a_pile_of_dirt_treasure'] = 'Un Montón de Tierra'
+L['abandoned_cargo_treasure'] = 'Cargamento Abandonado'
+L['adventurers_mace_treasure'] = 'Maza de Aventurero'
+L['adventurers_pack_treasure'] = 'Mochila de Aventurero'
+L['adventurers_pouch_treasure'] = 'Faltriquera de Aventurero'
+L['adventurers_sack_treasure'] = 'Bolsa del Aventurero'
+L['adventurers_staff_treasure'] = 'Bastón del Aventurero'
+L['appropriated_warsong_supplies_treasure'] = 'Suministros Grito de Guerra Adueñados'
+L['bag_of_herbs_treasure'] = 'Bolsa de Hierbas'
+L['bone_carved_dagger_treasure'] = 'Daga de Hueso Tallado'
 L['bounty_of_the_elements_note'] = 'Usa los Tótems Elementales para acceder.'
 L['bounty_of_the_elements_treasure'] = 'Recompensa de los Elementos'
-L['brilliant_dreampetal_treasure'] = nil
-L['elemental_offering_treasure'] = nil
-L['elemental_shackles_treasure'] = nil
-L['fragment_of_oshugun_treasure'] = nil
-L['freshwater_clam_treasure'] = nil
-L['fungus_covered_chest_treasure'] = nil
-L['genedar_debris_treasure'] = nil
-L['goblin_pack_treasure'] = nil
-L['golden_kaliri_egg_treasure'] = nil
-L['goldtoes_plunder_note'] = nil
-L['goldtoes_plunder_treasure'] = nil
-L['grizzlemaws_bonepile_treasure'] = nil
-L['hidden_stash_treasure'] = nil
-L['highmaul_sledge_treasure'] = nil
-L['important_exploration_supplies_treasure'] = nil
-L['lost_pendant_treasure'] = nil
-L['mountain_climbers_pack_treasure'] = nil
-L['ogre_beads_treasure'] = nil
-L['pale_elixir_treasure'] = nil
-L['pokkars_thirteenth_axe_treasure'] = nil
-L['polished_saberon_skull_treasure'] = nil
-L['saberon_stash_treasure'] = nil
+L['brilliant_dreampetal_treasure'] = 'Pétalo de Ensueño Luminoso'
+L['elemental_offering_treasure'] = 'Ofrenda Elemental'
+L['elemental_shackles_treasure'] = 'Grilletes Elementales'
+L['fragment_of_oshugun_treasure'] = 'Fragmento de Oshu\'gun'
+L['freshwater_clam_treasure'] = 'Almeja de Agua Dulce'
+L['fungus_covered_chest_treasure'] = 'Cofre Cubierto de Hongos'
+L['genedar_debris_treasure'] = 'Restos del Xenedar'
+L['goblin_pack_treasure'] = 'Mochila Goblin'
+L['golden_kaliri_egg_treasure'] = 'Huevo de Kaliri Dorado'
+L['goldtoes_plunder_note'] = 'El loro tiene la llave.'
+L['goldtoes_plunder_treasure'] = 'Botín de Dedo Dorado'
+L['grizzlemaws_bonepile_treasure'] = 'Montón de Huesos de Fauceparda'
+L['hidden_stash_treasure'] = 'Alijo Escondido'
+L['highmaul_sledge_treasure'] = 'Almádena de Ogrópolis'
+L['important_exploration_supplies_treasure'] = 'Suministros de Exploración Importantes'
+L['lost_pendant_treasure'] = 'Colgante Perdido'
+L['mountain_climbers_pack_treasure'] = 'Mochila de Montañero'
+L['ogre_beads_treasure'] = 'Abalorios de Ogro'
+L['pale_elixir_treasure'] = 'Elixir Pálido'
+L['pokkars_thirteenth_axe_treasure'] = 'Hacha Número Trece de Pokkar'
+L['polished_saberon_skull_treasure'] = 'Calavera de Sablerón Pulida'
+L['saberon_stash_treasure'] = 'Alijo de Sablerón'
 L['smugglers_cache_note'] = 'Esquiva la trampa de cables.'
 L['smugglers_cache_treasure'] = 'Alijo de Contrabandista'
-L['steamwheedle_supplies_treasure'] = nil
-L['telaar_defender_shield_treasure'] = nil
-L['treasure_of_kullkrosh_treasure'] = nil
-L['void_infused_crystal_treasure'] = nil
-L['warsong_cache_treasure'] = nil
-L['warsong_helm_treasure'] = nil
-L['warsong_lockbox_treasure'] = nil
-L['warsong_spear_treasure'] = nil
-L['warsong_spoils_treasure'] = nil
-L['warsong_supplies_treasure'] = nil
-L['watertight_bag_treasure'] = nil
+L['steamwheedle_supplies_treasure'] = 'Suministros de Bonvapor'
+L['telaar_defender_shield_treasure'] = 'Escudo Defensor de Telaar'
+L['treasure_of_kullkrosh_treasure'] = 'Tesoro de Kull\'krosh'
+L['void_infused_crystal_treasure'] = 'Cristal Infundido por el Vacío'
+L['warsong_cache_treasure'] = 'Alijo Grito de Guerra'
+L['warsong_helm_treasure'] = 'Yelmo Grito de Guerra'
+L['warsong_lockbox_treasure'] = 'Arcón Grito de Guerra'
+L['warsong_spear_treasure'] = 'Lanza Grito de Guerra'
+L['warsong_spoils_treasure'] = 'Botín Grito de Guerra'
+L['warsong_supplies_treasure'] = 'Suministros Grito de Guerra'
+L['watertight_bag_treasure'] = 'Bolsa Hermética'
 
-L['viking_pepe_note'] = nil
-L['viking_pepe_treasure'] = nil
+L['viking_pepe_note'] = 'Sentado en una caja detrás de unos goblins con una Bola de Discoteca.'
+L['viking_pepe_treasure'] = 'Pepe Vikingo'
 
 L['highmaul_farm_path'] = [[
 Ruta de Farmeo
@@ -235,11 +235,19 @@ L['stable_master_note'] = 'Habla con {stablemaster} para recibir un silbato de m
 
 L['making_the_cut_note'] = 'Mientras {npc:88210} esté disponible mata a 15 ogros alrededor de |cffffff00El Círculo de Sangre|r. Una vez se hayan matado a los 15 ogros será posible señalar como objetivo a {npc:88210}.'
 
-L['goldmane_follower_note'] = nil
-L['abugar_follower_note'] = nil
+L['goldmane_follower_note'] = 'Mata a {npc:80080} que anda cerca y despoja la {item:111863} para abrir la jaula para reclutar al prisionero como seguidor.'
+L['abugar_follower_note'] = [[
+Llévale 3 objetos de pesca encontrados alrededor de |cffffff00Nagrand|r y entonces habla con él para reclutarlo como seguidor.
+
+{item:114245}
+{item:114242}
+{item:114243}
+
+Puedes conseguir los objetos antes de ir a por él.
+]]
 
 L['options_icons_broke_back_precipice'] = '{achievement:9571}'
-L['options_icons_broke_back_precipice_desc'] = nil
+L['options_icons_broke_back_precipice_desc'] = 'Muestra dónde están los raros para el logro {achievement:9571}.'
 L['options_icons_steamwheedle'] = '{achievement:9472}'
 L['options_icons_steamwheedle_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9472}.'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
@@ -344,8 +352,8 @@ L['sun_touched_cache_treasure'] = nil
 L['toxicfang_venom_treasure'] = nil
 L['waterlogged_satchel_treasure'] = nil
 
-L['elixir_of_shadow_sight_treasure'] = nil
-L['elixir_of_shadow_sight_note'] = nil
+L['elixir_of_shadow_sight_treasure'] = 'Elixir de Visión de las Sombras'
+L['elixir_of_shadow_sight_note'] = 'Bébelo cerca de un |cffffff00Santuario de Terokk|r. Es repetible.'
 L['gift_of_anzu_treasure'] = nil
 L['offering_to_the_raven_mother_treasure'] = nil
 
