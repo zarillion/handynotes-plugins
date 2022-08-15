@@ -27,6 +27,9 @@ L['fen_tao_follower_note'] = nil
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
+L['borrok_the_devourer_note'] = nil
+L['gibblette_the_cowardly_note'] = nil
+
 L['arena_masters_war_horn_treasure'] = nil
 L['burning_pearl_treasure'] = nil
 L['crag_leapers_cache_treasure'] = nil
