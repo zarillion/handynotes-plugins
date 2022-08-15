@@ -26,6 +26,9 @@ L['fen_tao_follower_note'] = 'Talk to him to recruit him as a follower'
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
+L['borrok_the_devourer_note'] = ns.color.Red('Do not kill!') .. '\n\nInstead, kill nearby ogres and feed them to {npc:72156}. After 10 ogres he will cough up a lootable |cffffff00Devourer\'s Gutstone\r'
+L['gibblette_the_cowardly_note'] = 'Interrupt {spell:175415} or he will run from battle and despawn'
+
 L['arena_masters_war_horn_treasure'] = 'Arena Master\'s War Horn'
 L['burning_pearl_treasure'] = 'Burning Pearl'
 L['crag_leapers_cache_treasure'] = 'Crag-Leaper\'s Cache'
@@ -333,7 +336,7 @@ L['ogron_plunder_treasure'] = 'Ogron Plunder'
 L['orcish_signaling_horn_treasure'] = 'Orcish Signaling Horn'
 L['outcasts_belongings_treasure'] = 'Outcast\'s Belongings'
 L['outcasts_pouch_treasure'] = 'Outcast\'s Pouch'
-L['rooby_roos_ruby_collar_note'] = 'Buy 3 {item:114835} from {npc:82432} in the basement of the |cffffff00Inn|r. Follow and feed {npc:84332} until he leaves a "treasure" on the floor.'
+L['rooby_roos_ruby_collar_note'] = 'Buy 3 {item:114835} from {npc:82432} in the basement of |cffffff00The Briny Barnacle|r. Follow and feed {npc:84332} until he leaves a "treasure" on the floor.'
 L['rooby_roos_ruby_rollar_treasure'] = 'Rooby\'s Roo'
 L['rukhmars_image_treasure'] = 'Rukhmar\'s Image'
 L['sailor_zazzuks_180_proof_rum_note'] = 'In the control room'

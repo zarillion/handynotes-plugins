@@ -27,6 +27,9 @@ L['fen_tao_follower_note'] = 'Habla con él para reclutarlo como seguidor.'
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
+L['borrok_the_devourer_note'] = nil
+L['gibblette_the_cowardly_note'] = nil
+
 L['arena_masters_war_horn_treasure'] = 'Cuerno de Guerra de Maestro de Arena'
 L['burning_pearl_treasure'] = 'Perla Ardiente'
 L['crag_leapers_cache_treasure'] = 'Alijo de Saltador de Riscos'

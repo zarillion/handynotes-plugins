@@ -27,6 +27,9 @@ L['fen_tao_follower_note'] = 'Sprich mit ihm, um ihn als Anhänger zu rekrutiere
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
+L['borrok_the_devourer_note'] = nil
+L['gibblette_the_cowardly_note'] = nil
+
 L['arena_masters_war_horn_treasure'] = 'Kriegshorn des Arenameisters'
 L['burning_pearl_treasure'] = 'Brennende Perle'
 L['crag_leapers_cache_treasure'] = 'Klippenspringertruhe'
