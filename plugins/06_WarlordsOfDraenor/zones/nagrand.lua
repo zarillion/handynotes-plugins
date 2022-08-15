@@ -708,7 +708,7 @@ map.nodes[75306570] = Treasure({
 }) -- Important Exploration Supplies
 
 map.nodes[75404710] = Treasure({
-    label = L['adventurers_mace_treasure'],
+    label = L['gamblers_purse_treasure'],
     quest = 36074,
     rewards = {
         Achievement({
@@ -719,7 +719,7 @@ map.nodes[75404710] = Treasure({
 }) -- Gambler's Purse
 
 map.nodes[75806200] = Treasure({
-    label = L['warsong_spear_treasure'],
+    label = L['adventurers_mace_treasure'],
     quest = 36077,
     rewards = {
         Achievement({
@@ -730,7 +730,7 @@ map.nodes[75806200] = Treasure({
 }) -- Adventurer's Mace
 
 map.nodes[76107000] = Treasure({
-    label = L['bounty_of_the_elements_treasure'],
+    label = L['warsong_spear_treasure'],
     quest = 35682,
     rewards = {
         Achievement({
@@ -741,7 +741,8 @@ map.nodes[76107000] = Treasure({
 }) -- Warsong Spear
 
 map.nodes[77101660] = Treasure({
-    labelt = 36174,
+    label = L['bounty_of_the_elements_treasure'],
+    quest = 36174,
     note = L['in_cave'] .. ' ' .. L['bounty_of_the_elements_note'],
     rewards = {
         Achievement({
