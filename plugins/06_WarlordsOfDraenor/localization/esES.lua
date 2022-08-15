@@ -74,9 +74,9 @@ L['delectable_ogre_delicacies_label'] = '{achievement:9534}'
 L['delectable_ogre_delicacies_note'] = [[
 {npc:82801}, {npc:82822}, y {npc:82823} pueden aparecer en cualquier sitio.
 
-{spell:166684} dura 5 minutos
-{spell:166686} dura 2 minutos
-{spell:166687} dura 2 minutos
+{spell:166684} dura 5 minutos.
+{spell:166686} dura 2 minutos.
+{spell:166687} dura 2 minutos.
 ]]
 
 L['weaponsmith_na_shra_follower_note'] = 'Completa la misión {quest:33838} para reclutarla como seguidora.'
@@ -124,7 +124,7 @@ L['warm_goren_egg_note'] = 'El {item:118705} tras incubar 7 días se convierte e
 L['warm_goren_egg_treasure'] = 'Huevo de Goren Caliente'
 L['weapons_cache_treasure'] = 'Alijo de Armas'
 
-L['ninja_pepe_note'] = 'Sentado en una silla que hay dentro de la choza.'
+L['ninja_pepe_note'] = 'Posado en una silla que hay dentro de la choza.'
 L['ninja_pepe_treasure'] = 'Pepe Ninja'
 
 L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, y |cffffff00{npc:86257}|r forman los |cffffff00Protectores de la Arboleda|r.'
@@ -200,7 +200,7 @@ L['warsong_spoils_treasure'] = 'Botín Grito de Guerra'
 L['warsong_supplies_treasure'] = 'Suministros Grito de Guerra'
 L['watertight_bag_treasure'] = 'Bolsa Hermética'
 
-L['viking_pepe_note'] = 'Sentado en una caja detrás de unos goblins con una Bola de Discoteca.'
+L['viking_pepe_note'] = 'Posado en una caja detrás de unos goblins con una Bola de Discoteca.'
 L['viking_pepe_treasure'] = 'Pepe Vikingo'
 
 L['highmaul_farm_path'] = [[
@@ -221,7 +221,7 @@ Vuela fuera hacia la derecha y vuelve a la puerta principal. Una sola pasada lle
 L['steamwheedle_note'] = 'Acumula {item:118099} y {item:118100} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r. Entrega los objetos a {npc:87393} a cambio de reputación.'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
-L['finding_your_waystones_note'] = 'Acumula {item:117491} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r'
+L['finding_your_waystones_note'] = 'Acumula {item:117491} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r.'
 L['ogre_waystones'] = 'piedra de puerta ogra despojada'
 
 L['signal_horn_note'] = 'Consigue los {item:120290} del {npc:86658} cercano y utiliza el {npc:87361} para invocar a {npc:87239} y a {npc:87344}.'
@@ -235,7 +235,7 @@ L['stable_master_note'] = 'Habla con {stablemaster} para recibir un silbato de m
 
 L['making_the_cut_note'] = 'Mientras {npc:88210} esté disponible mata a 15 ogros alrededor de |cffffff00El Círculo de Sangre|r. Una vez se hayan matado a los 15 ogros será posible señalar como objetivo a {npc:88210}.'
 
-L['goldmane_follower_note'] = 'Mata a {npc:80080} que anda cerca y despoja la {item:111863} para abrir la jaula para reclutar {npc:80083} como seguidor.'
+L['goldmane_follower_note'] = 'Mata a {npc:80080} que anda cerca y despoja la {item:111863} para abrir la jaula con el fin de reclutar a {npc:80083} como seguidor.'
 L['abugar_follower_note'] = [[
 Llévale 3 objetos de pesca encontrados alrededor de |cffffff00Nagrand|r y entonces habla con él para reclutarlo como seguidor.
 
@@ -259,7 +259,7 @@ L['options_icons_buried_treasures_desc'] = 'Muestra dónde están los objetos pa
 L['options_icons_the_stable_master'] = '{achievement:9539} y {achievement:9540}'
 L['options_icons_the_stable_master_desc'] = 'Muestra dónde están los objetivos para los logros {achievement:9539} y {achievement:9540}.'
 L['options_icons_making_the_cut'] = '{achievement:9617}'
-L['options_icons_making_the_cut_desc'] = 'Muestra dónde están los |cffffff00Bloodring Slaver|r para el logro {achievement:9617}'
+L['options_icons_making_the_cut_desc'] = 'Muestra dónde están los |cffffff00Esclavista Anillo Sangriento|r para el logro {achievement:9617}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
@@ -311,7 +311,7 @@ L['you_have_been_rylakinated_note'] = 'Tienes que completar la misión {quest:34
 L['artificer_romuul_follower_note'] = nil
 
 L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
-L['options_icons_you_have_been_rylakinated_desc'] = 'Muestra dónde están los Rylak para el logro {achievement:9481}'
+L['options_icons_you_have_been_rylakinated_desc'] = 'Muestra dónde están los Rylak para el logro {achievement:9481}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- SPIRES OF ARAK --------------------------------
@@ -356,21 +356,21 @@ L['misplaced_scroll_treasure'] = nil
 L['relics_of_the_outcasts_treasure'] = nil
 L['smuggled_apexis_artifacts_treasure'] = nil
 
-L['offering_to_the_raven_mother_treasure'] = nil
+L['offering_to_the_raven_mother_treasure'] = 'Ofrenda para la Madre Cuervo'
 
 L['elixir_of_shadow_sight_treasure'] = 'Elixir de Visión de las Sombras'
 L['elixir_pre_note'] = 'Bébelo cerca de un |cffffff00Santuario de Terokk|r.'
-L['elixir_01_note'] = nil
-L['elixir_02_note'] = nil
-L['elixir_03_note'] = nil
-L['elixir_04_note'] = nil
-L['elixir_05_note'] = nil
-L['elixir_06_note'] = nil
+L['elixir_01_note'] = 'Junto a una choza pequeña en una cesta colgante.'
+L['elixir_02_note'] = 'En una cesta en la parte trasera de una choza en llamas.'
+L['elixir_03_note'] = 'Dentro de una cesta entre un árbol y una pared rota.'
+L['elixir_04_note'] = 'Dentro de una cueva Sableron.'
+L['elixir_05_note'] = 'Subiendo la montaña, junto al cuerpo muerto de un {npc:83633}. Después de subir el largo camino, mira a otro {npc:83633} colgando de cadenas entre dos árboles. El elixir está detrás de las colinas, junto al árbol de la derecha.'
+L['elixir_06_note'] = 'En el agua, al final de una pared más pequeña y rota.'
 
-L['gift_of_anzu_treasure'] = nil
+L['gift_of_anzu_treasure'] = 'Ofrenda de Anzu'
 
-L['pirate_pepe_note'] = nil
-L['pirate_pepe_treasure'] = nil
+L['pirate_pepe_note'] = 'Posado en una roca en la base de una pared de roca.'
+L['pirate_pepe_treasure'] = 'Pepe Pirata'
 
 L['forbidden_tome_note'] = [[
 Requiere que la misión diaria {quest:36682} esté activa o usar la {item:122409}.
@@ -384,16 +384,16 @@ Interactúa con un {npc:85992} para recibir aleatoriamente uno de estos tres buf
 
 L['leorajh_follower_note'] = 'Habla con él para reclutarlo como seguidor.'
 
-L['options_icons_archaeology_treasure'] = nil
-L['options_icons_archaeology_treasure_desc'] = nil
-L['options_icons_offering'] = nil
-L['options_icons_offering_desc'] = nil
-L['options_icons_shrines_of_terokk'] = nil
-L['options_icons_shrines_of_terokk_desc'] = nil
+L['options_icons_archaeology_treasure'] = 'Tesoros de Arqueología'
+L['options_icons_archaeology_treasure_desc'] = 'Muestra dónde están los tesoros de Arqueología.'
+L['options_icons_offering'] = 'Ofrenda para la Madre cuervo'
+L['options_icons_offering_desc'] = 'Muestra dónde están las |cffffff00Ofrenda para la Madre cuervo|r.'
+L['options_icons_shrines_of_terokk'] = 'Santuarios de Terokk'
+L['options_icons_shrines_of_terokk_desc'] = 'Muestra dónde están los |cffffff00Santuarios de Terokk|r.'
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
-L['options_icons_would_you_like_a_pamplet_desc'] = 'Muestra dónde están los escritos para el logro {achievement:9432}'
+L['options_icons_would_you_like_a_pamplet_desc'] = 'Muestra dónde están los escritos para el logro {achievement:9432}.'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
-L['options_icons_king_of_the_monsters_desc'] = 'Muestra dónde están los raros para el logro {achievement:9601}'
+L['options_icons_king_of_the_monsters_desc'] = 'Muestra dónde están los raros para el logro {achievement:9601}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -453,7 +453,7 @@ L['webbed_sac_treasure'] = nil
 L['yuuris_gift_treasure'] = nil
 
 L['knight_pepe_treasure'] = 'Pepe Caballero'
-L['knight_pepe_note'] = 'Sentado en un cofre dentro de una tienda.'
+L['knight_pepe_note'] = 'Posado en un cofre dentro de una tienda.'
 
 L['wingmen_note'] = nil
 L['fel_portal'] = 'Portal Vil'
@@ -467,7 +467,7 @@ L['image_of_archmage_vargoth_follower_note'] = nil
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
 L['options_icons_cut_off_the_head_desc'] = 'Muestra dónde están los raros para el logro {achievement:9633}.'
 L['options_icons_wingmen'] = '{achievement:9499}'
-L['options_icons_wingmen_desc'] = nil
+L['options_icons_wingmen_desc'] = 'Muestra dónde están los sitios para farmear para el logro {achievement:9499}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
