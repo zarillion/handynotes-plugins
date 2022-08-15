@@ -27,8 +27,8 @@ L['fen_tao_follower_note'] = 'Sprich mit ihm, um ihn als Anhänger zu rekrutiere
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = nil
-L['gibblette_the_cowardly_note'] = nil
+L['borrok_the_devourer_note'] = ns.color.Red('Nicht töten!') .. '\n\nTöte stattdessen Oger in der Nähe und verfüttere sie an {npc:72156}. Nach 10 Ogern wird er einen |cffffff00Devourer\'s Gutstone\r ausspucken.'
+L['gibblette_the_cowardly_note'] = 'Unterbreche {spell:175415} oder er wird aus dem Kampf fliehen und verschwinden.'
 
 L['arena_masters_war_horn_treasure'] = 'Kriegshorn des Arenameisters'
 L['burning_pearl_treasure'] = 'Brennende Perle'
@@ -338,7 +338,7 @@ L['ogron_plunder_treasure'] = 'Ogronbeute'
 L['orcish_signaling_horn_treasure'] = 'Orcsignalhorn'
 L['outcasts_belongings_treasure'] = 'Habseligkeiten der Ausgestoßenen'
 L['outcasts_pouch_treasure'] = 'Beutel der Ausgestoßenen'
-L['rooby_roos_ruby_collar_note'] = 'Kaufe 3x {item:114835} von {npc:82432}. Füttere (auch jedes mal wenn er stehen bleibt) und folge {npc:84332}, bis er einen "Schatz" hinterlässt.'
+L['rooby_roos_ruby_collar_note'] = 'Kaufe 3 {item:114835} von {npc:82432} im Keller des Gasthauses "Die Salzige Seepocke". Füttere (auch jedes mal wenn er stehen bleibt) und folge {npc:84332}, bis er einen "Schatz" hinterlässt.'
 L['rooby_roos_ruby_rollar_treasure'] = 'Scubis Du-Du'
 L['rukhmars_image_treasure'] = 'Rukhmars Abbild'
 L['sailor_zazzuks_180_proof_rum_note'] = 'Im Kontrollraum.'
