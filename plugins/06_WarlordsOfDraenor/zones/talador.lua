@@ -993,13 +993,12 @@ local FelPortal = Collectible({
                 25892 -- Vivianne
             }
         }) -- Wingmen
-    },
-    pois = {POI({57256451, 5926446, 56336444, 55436489})}
+    }
 }) -- Fel Portal
 
-map.nodes[56256563] = FelPortal
-map.nodes[56746595] = FelPortal
-map.nodes[57566532] = FelPortal
+map.nodes[57256451] = FelPortal
+map.nodes[56336444] = FelPortal
+map.nodes[55436489] = FelPortal
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDTALON ----------------------------------
