@@ -1061,10 +1061,10 @@ L['coreless_automa_warning'] = '|cFFFF8C00Espera a que el automa te siga de verd
 
 L['olea_manu'] = 'Vende transfiguraciones y recetas a cambio de {currency:1979}.'
 
-L['anima_courier_kyrian'] = nil
-L['anima_courier_necrolord'] = nil
-L['anima_courier_nightfae'] = nil
-L['anima_courier_venthyr'] = nil
+L['anima_courier_kyrian'] = 'Entrega todo el ánima de tus bolsas a {npc:167745} en el |cffffff00Fuerte Elisio|r.'
+L['anima_courier_necrolord'] = 'Entrega todo el ánima de tus bolsas a {npc:161909} en el |cffffff00Trono del Prelado|r.'
+L['anima_courier_nightfae'] = 'Entrega todo el ánima de tus bolsas a {npc:165702} en el |cffffff00Corazón del Bosque|r.'
+L['anima_courier_venthyr'] = 'Entrega todo el ánima de tus bolsas a {npc:172605} en el |cffffff00Salto del Pecado|r.'
 
 L['venaris_fate_sublabel'] = 'Está en el |cFFFFFF00Catalizador de Creación|r.'
 L['venaris_fate_note'] = [[
