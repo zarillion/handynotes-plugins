@@ -1067,6 +1067,11 @@ L['coreless_automa_warning'] = '|cFFFF8C00Warte bis der Automat tatsächlich anf
 
 L['olea_manu'] = 'Verkauft Sammlerstücke und Rezepte im Tausch gegen {currency:1979}.'
 
+L['anima_courier_kyrian'] = nil
+L['anima_courier_necrolord'] = nil
+L['anima_courier_nightfae'] = nil
+L['anima_courier_venthyr'] = nil
+
 L['venaris_fate_sublabel'] = 'Positioniert beim |cFFFFFF00Schöpfungskatalysator|r'
 L['venaris_fate_note'] = [[
 1. Sprich mit {npc:162804s} Echo in |cFFFFFF00Ve'naris Zuflucht|r im |cFFFFFF00Schlund|r.

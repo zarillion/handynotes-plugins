@@ -904,6 +904,11 @@ L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start 
 
 L['olea_manu'] = nil
 
+L['anima_courier_kyrian'] = nil
+L['anima_courier_necrolord'] = nil
+L['anima_courier_nightfae'] = nil
+L['anima_courier_venthyr'] = nil
+
 L['venaris_fate_sublabel'] = nil
 L['venaris_fate_note'] = nil
 

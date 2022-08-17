@@ -1054,6 +1054,11 @@ L['coreless_automa_warning'] = '|cFFFF8C00Attendez que l\'automa commence réell
 
 L['olea_manu'] = 'Vend des objets et des recettes en échange de {currency:1979}.'
 
+L['anima_courier_kyrian'] = nil
+L['anima_courier_necrolord'] = nil
+L['anima_courier_nightfae'] = nil
+L['anima_courier_venthyr'] = nil
+
 L['venaris_fate_sublabel'] = 'Situé dans le |cFFFFFF00Catalyseur de Création|r'
 L['venaris_fate_note'] = [[
 1. Parlez avec la {npc:162804} incorporelle au |cFFFFFF00Refuge de Ve'nari|r dans |cFFFFFF00L'Antre|r.

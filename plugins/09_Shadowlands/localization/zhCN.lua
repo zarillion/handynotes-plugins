@@ -1060,6 +1060,11 @@ L['coreless_automa_warning'] = '|cFFFF8C00等待自动机真正开始跟随你�
 
 L['olea_manu'] = '用 {currency:1979} 换取出售的收藏和食谱。'
 
+L['anima_courier_kyrian'] = nil
+L['anima_courier_necrolord'] = nil
+L['anima_courier_nightfae'] = nil
+L['anima_courier_venthyr'] = nil
+
 L['venaris_fate_sublabel'] = '位于 |cFFFFFF00造物化生台|r'
 L['venaris_fate_note'] = [[
 1. 在 |cFFFFFF00噬渊|r 的 |cFFFFFF00威·娜莉的庇护所|r 的虚体化 {npc:162804} 对话。

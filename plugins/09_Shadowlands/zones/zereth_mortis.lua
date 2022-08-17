@@ -8,6 +8,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Soulshape = ns.node.Soulshape
 local Treasure = ns.node.Treasure
@@ -23,7 +24,10 @@ local Arrow = ns.poi.Arrow
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
-local NIGHTFAE = ns.covenants.FAE
+local KYRIAN = ns.covenants.KYRIAN
+local NECROLORD = ns.covenants.NECROLORD
+local NIGHTFAE = ns.covenants.NIGHTFAE
+local VENTHYR = ns.covenants.VENTHYR
 
 -------------------------------------------------------------------------------
 
@@ -1945,7 +1949,7 @@ map.nodes[32814036] = Proto({
 ---------------------------------- OLEA MANU ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[37164467] = ns.node.NPC({
+map.nodes[37164467] = NPC({
     id = 183962,
     icon = 4254892,
     requires = {
@@ -1963,6 +1967,56 @@ map.nodes[37164467] = ns.node.NPC({
         Item({item = 187781, note = '700'}) -- Olea Cache
     }
 }) -- Olea Manu
+
+-------------------------------------------------------------------------------
+-------------------------------- ANIMA COURIER --------------------------------
+-------------------------------------------------------------------------------
+
+local ANIMA_COURIERS = {
+    [KYRIAN.id] = {
+        id = 184239, -- Hipponius
+        icon = 3528283,
+        covenant = KYRIAN,
+        note = L['anima_courier_kyrian']
+    },
+    [NECROLORD.id] = {
+        id = 184241, -- Brakka Noct
+        icon = 3528291,
+        covenant = NECROLORD,
+        note = L['anima_courier_necrolord']
+    },
+    [NIGHTFAE.id] = {
+        id = 184240, -- Aliotha
+        icon = 3528275,
+        covenant = NIGHTFAE,
+        note = L['anima_courier_nightfae']
+    },
+    [VENTHYR.id] = {
+        id = 184242, -- Edwardi
+        icon = 3528307,
+        covenant = VENTHYR,
+        note = L['anima_courier_venthyr']
+    }
+}
+
+local AnimaCourier = Class('AnimaCourier', NPC, {
+    getters = {
+        id = function(self)
+            return ANIMA_COURIERS[C_Covenants.GetActiveCovenantID()].id
+        end,
+        icon = function(self)
+            return ANIMA_COURIERS[C_Covenants.GetActiveCovenantID()].icon
+        end,
+        covenant = function(self)
+            return ANIMA_COURIERS[C_Covenants.GetActiveCovenantID()].covenant
+        end,
+        note = function(self)
+            return ANIMA_COURIERS[C_Covenants.GetActiveCovenantID()].note
+        end
+    }
+})
+
+map.nodes[34816582] = AnimaCourier()
 
 -------------------------------------------------------------------------------
 ------------------------------- PATIENT BUFONID -------------------------------

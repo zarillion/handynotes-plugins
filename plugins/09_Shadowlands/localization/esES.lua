@@ -1061,6 +1061,11 @@ L['coreless_automa_warning'] = '|cFFFF8C00Espera a que el automa te siga de verd
 
 L['olea_manu'] = 'Vende transfiguraciones y recetas a cambio de {currency:1979}.'
 
+L['anima_courier_kyrian'] = nil
+L['anima_courier_necrolord'] = nil
+L['anima_courier_nightfae'] = nil
+L['anima_courier_venthyr'] = nil
+
 L['venaris_fate_sublabel'] = 'Está en el |cFFFFFF00Catalizador de Creación|r.'
 L['venaris_fate_note'] = [[
 1. Habla con la {npc:162804} incorpórea en el |cFFFFFF00Refugio de Ve'nari|r de |cFFFFFF00Las Fauces|r.

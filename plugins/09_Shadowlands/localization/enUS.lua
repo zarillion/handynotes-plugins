@@ -1060,6 +1060,11 @@ L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start 
 
 L['olea_manu'] = 'Sells collectibles and recipes in exchange for {currency:1979}.'
 
+L['anima_courier_kyrian'] = 'Deliver all anima in your bags back to {npc:167745} in |cffffff00Elysian Hold|r'
+L['anima_courier_necrolord'] = 'Deliver all anima in your bags back to {npc:161909} in the |cffffff00Seat of the Primus|r'
+L['anima_courier_nightfae'] = 'Deliver all anima in your bags back to {npc:165702} in the |cffffff00Heart of the Forest|r'
+L['anima_courier_venthyr'] = 'Deliver all anima in your bags back to {npc:172605} in |cffffff00Sinfall|r'
+
 L['venaris_fate_sublabel'] = 'Located in the |cFFFFFF00Creation Catalyst|r'
 L['venaris_fate_note'] = [[
 1. Speak with incorporeal {npc:162804} at |cFFFFFF00Ve'nari's Refuge|r in |cFFFFFF00The Maw|r.

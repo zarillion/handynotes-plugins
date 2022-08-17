@@ -1023,6 +1023,11 @@ L['coreless_automa_warning'] = '|cFFFF8C00請等待自主機真的跟隨你了�
 
 L['olea_manu'] = '清單中的價格須使用 {currency:1979}'
 
+L['anima_courier_kyrian'] = nil
+L['anima_courier_necrolord'] = nil
+L['anima_courier_nightfae'] = nil
+L['anima_courier_venthyr'] = nil
+
 L['venaris_fate_sublabel'] = nil
 L['venaris_fate_note'] = nil
 
