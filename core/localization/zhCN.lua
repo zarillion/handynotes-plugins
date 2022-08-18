@@ -74,9 +74,9 @@ L['unlearnable'] = '无法解锁'
 L['defeated'] = '已击杀'
 L['undefeated'] = '未击杀'
 
-L['follower_type_follower'] = nil
-L['follower_type_champion'] = nil
-L['follower_type_companion'] = nil
+L['follower_type_follower'] = '追随者'
+L['follower_type_champion'] = '勇士'
+L['follower_type_companion'] = '伙伴'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
