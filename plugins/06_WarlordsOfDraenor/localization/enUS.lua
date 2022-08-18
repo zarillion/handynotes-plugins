@@ -467,10 +467,10 @@ Find 4 mysterious objects around |cffffff00Draenor|r.
 
 {quest:34463} is found in |cffffff00Gorgrond|r
 {quest:34464} is found in |cffffff00Frostfire Ridge|r
-{quest:34465} is found in |cffffff00Taladore|r
+{quest:34465} is found in |cffffff00Talador|r
 {quest:34466} is found in |cffffff00Nagrand|r
 
-Turn each quest into {npc:86949} at |cffffff00Khadgar's Tower|r in |cffffff00Taladore|r who will then have {quest:34472}. Complete the quest and then speak to {npc:77853} to recruit him as a follower.
+Turn each quest into {npc:86949} at |cffffff00Khadgar's Tower|r in |cffffff00Talador|r who will then have {quest:34472}. Complete the quest and then speak to {npc:77853} to recruit him as a follower.
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
