@@ -24,10 +24,10 @@ local Arrow = ns.poi.Arrow
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
-local KYRIAN = ns.covenants.KYRIAN
-local NECROLORD = ns.covenants.NECROLORD
-local NIGHTFAE = ns.covenants.NIGHTFAE
-local VENTHYR = ns.covenants.VENTHYR
+local KYRIAN = ns.covenants.KYR
+local NECROLORD = ns.covenants.NEC
+local NIGHTFAE = ns.covenants.FAE
+local VENTHYR = ns.covenants.VEN
 
 -------------------------------------------------------------------------------
 
