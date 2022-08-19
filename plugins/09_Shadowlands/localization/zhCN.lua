@@ -1060,10 +1060,10 @@ L['coreless_automa_warning'] = '|cFFFF8C00等待自动机真正开始跟随你�
 
 L['olea_manu'] = '用 {currency:1979} 换取出售的收藏和食谱。'
 
-L['anima_courier_kyrian'] = '将包中的所有心能交付给 |cffffff00极乐堡|r 的 {npc:167745}'
-L['anima_courier_necrolord'] = '将包中的所有心能交付给 |cffffff00兵主之座|r 内的 {npc:161909}'
-L['anima_courier_nightfae'] = '将包中的所有心能交付给 |cffffff00森林之心|r 内的 {npc:165702}'
-L['anima_courier_venthyr'] = '将包中的所有心能交付给 |cffffff00堕罪堡|r 的 {npc:172605}'
+L['anima_courier_kyrian'] = '将包中的所有心能交付给 |cffffff00极乐堡|r 的 {npc:167745}。'
+L['anima_courier_necrolord'] = '将包中的所有心能交付给 |cffffff00兵主之座|r 内的 {npc:161909}。'
+L['anima_courier_nightfae'] = '将包中的所有心能交付给 |cffffff00森林之心|r 内的 {npc:165702}。'
+L['anima_courier_venthyr'] = '将包中的所有心能交付给 |cffffff00堕罪堡|r 的 {npc:172605}。'
 
 L['venaris_fate_sublabel'] = '位于 |cFFFFFF00造物化生台|r'
 L['venaris_fate_note'] = [[
