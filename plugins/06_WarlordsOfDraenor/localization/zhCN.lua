@@ -26,7 +26,7 @@ L['fen_tao_follower_note'] = '与他交谈招募为追随者。'
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = ns.color.Red('不要杀死！') .. '\n\n相反，杀死附近的食人魔并将它们喂给 {npc:72156}。在10个食人魔之后他会咳出一个可拾取的 |cffffff00吞噬者的结石r。'
+L['borrok_the_devourer_note'] = ns.color.Red('不要杀死！') .. '\n\n相反，杀死附近的食人魔并将它们喂给 {npc:72156}。在10个食人魔之后他会咳出一个可拾取的 |cffffff00吞噬者的结石|r。'
 L['gibblette_the_cowardly_note'] = '打断 {spell:175415} 否则他会逃离战斗并消失。'
 
 L['arena_masters_war_horn_treasure'] = '竞技场大师的作战号角'
