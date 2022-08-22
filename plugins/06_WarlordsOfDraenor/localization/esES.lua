@@ -417,53 +417,62 @@ La última opción es usar sólo un personaje. Ves a la runa, enciéndela, telep
 Se pueden combinar cualquiera de los métodos anteriores para invocar a {npc:87668}.
 ]]
 
-L['aarkos_family_treasure_treasure'] = nil
-L['amethyl_crystal_treasure'] = nil
-L['aruuna_mining_cart_treasure'] = nil
-L['barrel_of_fish_treasure'] = nil
-L['bonechewer_remnants_treasure'] = nil
-L['bonechewer_spear_treasure'] = nil
-L['bright_coin_treasure'] = nil
-L['charred_sword_treasure'] = nil
-L['curious_deathweb_egg_treasure'] = nil
-L['deceptias_smoldering_boots_treasure'] = nil
-L['draenei_weapons_treasure'] = nil
-L['farmers_bounty_treasure'] = nil
-L['foremans_lunchbox_treasure'] = nil
-L['iron_box_treasure'] = nil
+L['aarkos_family_treasure_treasure'] = 'Tesoro Familiar de Aarko'
+L['amethyl_crystal_treasure'] = 'Cristal Amethyl'
+L['aruuna_mining_cart_treasure'] = 'Vagoneta de Minería de Aruuna'
+L['barrel_of_fish_treasure'] = 'Barrica de Pescado'
+L['bonechewer_remnants_treasure'] = 'Restos de Mascahuesos'
+L['bonechewer_spear_treasure'] = 'Lanza Mascahuesos'
+L['bright_coin_treasure'] = 'Moneda Brillante'
+L['charred_sword_treasure'] = 'Espada Chamuscada'
+L['curious_deathweb_egg_treasure'] = 'Huevo Telamuerte Curioso'
+L['deceptias_smoldering_boots_treasure'] = 'Botas Humeantes de Decepcia'
+L['draenei_weapons_treasure'] = 'Armas Draenei'
+L['farmers_bounty_treasure'] = 'Botín de Granjero'
+L['foremans_lunchbox_treasure'] = 'Fiambrera de Supervisor'
+L['iron_box_treasure'] = 'Caja de hierro'
 L['isaaris_cache_note'] = 'Rescata a 4 draenei atrapados en telas de araña y entonces aparecerá el Alijo de Isaari.'
 L['isarris_cache_treasure'] = 'Alijo de Isaari'
-L['jug_of_aged_ironwine_treasure'] = nil
-L['keluus_belongings_treasure'] = nil
-L['ketyas_stash_treasure'] = nil
-L['light_of_the_sea_treasure'] = nil
-L['lightbearer_treasure'] = nil
-L['luminous_shell_treasure'] = nil
-L['noranas_cache_note'] = nil
-L['noranas_cache_treasure'] = nil
-L['pure_crystal_dust_note'] = nil
-L['pure_crystal_dust_treasure'] = nil
-L['relic_of_aruuna_treasure'] = nil
-L['relic_of_telmor_treasure'] = nil
-L['rooks_tacklebox_treasure'] = nil
-L['rusted_lockbox_treasure'] = nil
-L['soulbinders_reliquary_treasure'] = nil
-L['teroclaw_nest_treasure'] = nil
-L['treasure_of_angorosh_treasure'] = nil
-L['webbed_sac_treasure'] = nil
-L['yuuris_gift_treasure'] = nil
+L['jug_of_aged_ironwine_treasure'] = 'Tinaja de Vino Férreo de Crianza'
+L['keluus_belongings_treasure'] = 'Pertenencias de Keluu'
+L['ketyas_stash_treasure'] = 'Alijo de Ketya'
+L['light_of_the_sea_treasure'] = 'Luz del Mar'
+L['lightbearer_treasure'] = 'Portador de la Luz'
+L['luminous_shell_treasure'] = 'Concha Luminosa'
+L['noranas_cache_note'] = 'Rescata a 4 aventureros atrapados en telas de araña y entonces aparecerá el Alijo de Norana.'
+L['noranas_cache_treasure'] = 'Alijo de Norana'
+L['pure_crystal_dust_note'] = 'Nivel superior de la mina.'
+L['pure_crystal_dust_treasure'] = 'Polvo de Cristal Puro'
+L['relic_of_aruuna_treasure'] = 'Reliquia de Aruuna'
+L['relic_of_telmor_treasure'] = 'Reliquia de Telmor'
+L['rooks_tacklebox_treasure'] = 'Caja de Pesca de Rook'
+L['rusted_lockbox_treasure'] = 'Arcón Oxidado'
+L['soulbinders_reliquary_treasure'] = 'Relicario de Vinculador de Almas'
+L['teroclaw_nest_treasure'] = 'Nido de Garráptero'
+L['treasure_of_angorosh_treasure'] = 'Tesoro de Ango\'rosh'
+L['webbed_sac_treasure'] = 'Saco con Tela de Araña'
+L['yuuris_gift_treasure'] = 'Regalo de Yuuri'
 
 L['knight_pepe_treasure'] = 'Pepe Caballero'
 L['knight_pepe_note'] = 'Posado en un cofre dentro de una tienda.'
 
-L['wingmen_note'] = nil
+L['wingmen_note'] = 'Mata las oleadas interminables de {npc:78433}, {npc:76883}, y {npc:78432} para 10 de reputación cada uno.\n\nLos demonios grandes como {npc:78715} y {npc:78713} no dan reputación adicional.'
 L['fel_portal'] = 'Portal Vil'
 
-L['aeda_brightdawn_follower_note'] = nil
-L['ahm_follower_note'] = nil
-L['defender_illona_follower_note'] = nil
-L['pleasure_bot_8000_follower_note'] = nil
-L['image_of_archmage_vargoth_follower_note'] = nil
+L['aeda_brightdawn_follower_note'] = 'Completa la misión {quest:34776} para poder reclutarla como seguidora.'
+L['ahm_follower_note'] = 'Completa la misión {quest:33973} y te lo encontrarás en tu Ciudadela para poder reclutarlo como seguidor.'
+L['defender_illona_follower_note'] = 'Completa la misión {quest:34777} para poder reclutarla como seguidora.'
+L['pleasure_bot_8000_follower_note'] = 'Completa la misión {quest:34761} para poder reclutarlo como seguidor.'
+L['image_of_archmage_vargoth_follower_note'] = [[
+Encuentra 4 objetos misteriosos por |cffffff00Draenor|r.
+
+{quest:34463} está en |cffffff00Gorgrond|r
+{quest:34464} está en |cffffff00Cresta Fuego Glacial|r
+{quest:34465} está en |cffffff00Talador|r
+{quest:34466} está en |cffffff00Nagrand|r
+
+Devuelve cada misión a {npc:86949} en la |cffffff00Torre de Khadgar|r en |cffffff00Talador|r quien tendrá entonces la misión {quest:34472}. Complétala y habla con {npc:77853} para reclutarlo como seguidor.
+]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
 L['options_icons_cut_off_the_head_desc'] = 'Muestra dónde están los raros para el logro {achievement:9633}.'
