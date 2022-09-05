@@ -4,6 +4,32 @@ local L = ns.NewLocale('esES')
 if not L then return end
 
 -------------------------------------------------------------------------------
+------------------------------- ANTORAN WASTES --------------------------------
+-------------------------------------------------------------------------------
+
+L['commander_texlaz_note'] = nil
+L['doomcaster_suprax_note'] = nil
+L['mother_rosula_note'] = nil
+L['reziera_the_seer_note'] = nil
+L['squadron_commander_vishax_note'] = nil
+L['ven_orn_note'] = nil
+
+L['the_many_faced_devourer_note'] = nil
+L['the_many_faced_devourer_checklist'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------------ ARGUS ------------------------------------
+-------------------------------------------------------------------------------
+
+L['drops_fel_spotted_egg'] = nil
+L['fel_spotted_egg_contains'] = nil
+
+L['goblin_glider_treasure_note'] = nil
+L['lightforged_warframe_treasure_note'] = nil
+L['lights_judgement_treasure_note'] = nil
+L['shroud_of_arcane_echoes_treasures_note'] = nil
+
+-------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
 -------------------------------------------------------------------------------
 
@@ -49,6 +75,13 @@ L['sir_galveston_note'] = '¿Listo Sir Murkeston? ¡A luchar con gallardía!'
 L['amalia_note'] = 'Mucho ladrar y poco morder.'
 L['tiffany_nelson_note'] = '¡Adelante!'
 L['bohdi_sunwayver_note'] = '¡Ha salido el sol! ¡Mascotas fuera!'
+
+-------------------------------------------------------------------------------
+----------------------------------- EREDATH -----------------------------------
+-------------------------------------------------------------------------------
+
+L['kaara_the_pale_note'] = nil
+L['turek_the_lucid_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------

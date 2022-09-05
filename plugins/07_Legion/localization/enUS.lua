@@ -2,6 +2,36 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('enUS')
 if not L then return end
 
+local Gold = ns.color.Gold
+local Orange = ns.color.Orange
+local Red = ns.color.Red
+
+-------------------------------------------------------------------------------
+------------------------------- ANTORAN WASTES --------------------------------
+-------------------------------------------------------------------------------
+
+L['commander_texlaz_note'] = 'Requires {quest:48831} world quest to be active. Take the green portal.'
+L['doomcaster_suprax_note'] = 'Cover all three runes by three players. Do not interrupt his {spell:253563}. Run into this star to refresh your debuff, which kills you, when it expires.'
+L['mother_rosula_note'] = 'Collect 100 {item:152999} from {npc:126073} and combine them to make a {item:153013}. Use the {item:153013} on her fel pool.'
+L['reziera_the_seer_note'] = 'While buffed with {spell:254174} collect 500 {item:153021} to purchase {item:153226} from {npc:128134}. Use the {item:153226} to send you (and your party) to {npc:127706}.'
+L['squadron_commander_vishax_note'] = 'Collect {item:152890} from {npc:127598}.\n\nCollect {item:152941}, {item:152940}, and {item:152891} from {npc:127597} and {npc:127596}.\n\nUse {item:152890} to get {quest:49007}.\n\n' .. Orange('This quest is sharable')
+L['ven_orn_note'] = 'Enter the cave of spiders, take a right, and go down into another small cave. She is in this 2nd chamber at the rear.'
+
+L['the_many_faced_devourer_note'] = 'Collect {item:152786} from {npc:126193} and {npc:126171} in |cFFFFFD00Scavenger\'s Boneyard|r.\n\nCollect {item:152991}, {item:152992}, and {item:152993}.\n\nSummon {npc:127581} at the |cFFFFFD00The Bone Effigy|r.\n\n' .. Orange('If you can\'t see the |cFFFFFD00Bone Effigy|r you may need to relog.')
+L['the_many_faced_devourer_checklist'] = Gold('Item Checklist (in bags or bank):')
+
+-------------------------------------------------------------------------------
+------------------------------------ ARGUS ------------------------------------
+-------------------------------------------------------------------------------
+
+L['drops_fel_spotted_egg'] = 'Drops {item:153190}'
+L['fel_spotted_egg_contains'] = '{item:153190} can contain'
+
+L['goblin_glider_treasure_note'] = 'Use {item:109076} to glide to the treasure.'
+L['lightforged_warframe_treasure_note'] = 'Activate {item:152098} at the |cFFFFFD00Vindicaar Matrix Core|r aboard the |cFFFFFD00Vindicaar|r.\n\nUse {item:152098} and {spell:250434} to melt the rocks and find the treasure.'
+L['lights_judgement_treasure_note'] = 'Activate {item:151830} at the |cFFFFFD00Vindicaar Matrix Core|r aboard the |cFFFFFD00Vindicaar|r.\n\nUse {item:151830} to expload the rocks and find the treasure.'
+L['shroud_of_arcane_echoes_treasures_note'] = 'Activate {item:151912} at the |cFFFFFD00Vindicaar Matrix Core|r aboard the |cFFFFFD00Vindicaar|r.\n\nUse {item:151912} unlock the treasure.\n\n' .. Red('"Will only open to one wielding the power that echoes that of the Augari."')
+
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
 -------------------------------------------------------------------------------
@@ -48,6 +78,13 @@ L['sir_galveston_note'] = 'Are you ready Sir Murkeston? Fight gallantly!'
 L['amalia_note'] = 'You\'re all bark and no bite.'
 L['tiffany_nelson_note'] = 'Bring it on!'
 L['bohdi_sunwayver_note'] = 'Sun\'s out! Pets out!'
+
+-------------------------------------------------------------------------------
+----------------------------------- EREDATH -----------------------------------
+-------------------------------------------------------------------------------
+
+L['kaara_the_pale_note'] = '{npc:126860} no longer drops {item:153190}'
+L['turek_the_lucid_note'] = 'In the |cFFFFFD00Oronaar Collapse|r'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------

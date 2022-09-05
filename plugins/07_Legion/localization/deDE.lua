@@ -2,6 +2,33 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('deDE')
 if not L then return end
 -- German translation by Dathwada EU-Eredar
+
+-------------------------------------------------------------------------------
+------------------------------- ANTORAN WASTES --------------------------------
+-------------------------------------------------------------------------------
+
+L['commander_texlaz_note'] = nil
+L['doomcaster_suprax_note'] = nil
+L['mother_rosula_note'] = nil
+L['reziera_the_seer_note'] = nil
+L['squadron_commander_vishax_note'] = nil
+L['ven_orn_note'] = nil
+
+L['the_many_faced_devourer_note'] = nil
+L['the_many_faced_devourer_checklist'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------------ ARGUS ------------------------------------
+-------------------------------------------------------------------------------
+
+L['drops_fel_spotted_egg'] = nil
+L['fel_spotted_egg_contains'] = nil
+
+L['goblin_glider_treasure_note'] = nil
+L['lightforged_warframe_treasure_note'] = nil
+L['lights_judgement_treasure_note'] = nil
+L['shroud_of_arcane_echoes_treasures_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
 -------------------------------------------------------------------------------
@@ -50,6 +77,13 @@ L['sir_galveston_note'] = 'Seid Ihr bereit, Sir Murkeston? Kämpft wacker!'
 L['amalia_note'] = 'So wie Ihr bellt, beißt Ihr bestimmt nicht.'
 L['tiffany_nelson_note'] = 'Los geht\'s!'
 L['bohdi_sunwayver_note'] = 'Die Sonne kommt raus! Alle Haustiere nach draußen!'
+
+-------------------------------------------------------------------------------
+----------------------------------- EREDATH -----------------------------------
+-------------------------------------------------------------------------------
+
+L['kaara_the_pale_note'] = nil
+L['turek_the_lucid_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
