@@ -5,6 +5,7 @@ if not L then return end
 
 local Gold = ns.color.Gold
 local Orange = ns.color.Orange
+local Red = ns.color.Red
 
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
@@ -29,10 +30,10 @@ L['orix_the_all_seer_note'] = 'Vende coleccionables a cambio de {item:153021}.'
 L['drops_fel_spotted_egg'] = 'Suelta un {item:153190}'
 L['fel_spotted_egg_contains'] = '{item:153190} puede contener'
 
-L['goblin_glider_treasure_note'] = nil
-L['lightforged_warframe_treasure_note'] = nil
-L['lights_judgement_treasure_note'] = nil
-L['shroud_of_arcane_echoes_treasures_note'] = nil
+L['goblin_glider_treasure_note'] = 'Usa un {item:109076} para planear hasta el tesoro.'
+L['lightforged_warframe_treasure_note'] = 'Activa un {item:152098} en el |cFFFFFD00Núcleo de la Matriz del Vindicaar|r a bordo del |cFFFFFD00Vindicaar|r.\n\nUsa el {item:152098} y el {spell:250434} para hacer trizas las rocas y encontrar el tesoro.'
+L['lights_judgement_treasure_note'] = 'Activa la {item:151830} en el |cFFFFFD00Núcleo de la Matriz del Vindicaar|r a bordo del |cFFFFFD00Vindicaar|r.\n\nUsa la {item:151830} para explotar las rocas y encontrar el tesoro.'
+L['shroud_of_arcane_echoes_treasures_note'] = 'Activa el {item:151912} en el |cFFFFFD00Núcleo de la Matriz del Vindicaar|r a bordo del |cFFFFFD00Vindicaar|r.\n\nUsa el {item:151912} para desbloquear el tesoro.\n\n' .. Red('"Sólo se abrirá a uno que ejerza el poder que se hace eco del Augari."')
 
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
@@ -69,10 +70,10 @@ L['nightwatcher_merayl_note'] = '¡Formaciones!'
 -------------------------------- BROKEN SHORE ---------------------------------
 -------------------------------------------------------------------------------
 
-L['bringing_home_the_beacon_note'] = nil
+L['bringing_home_the_beacon_note'] = 'Mientras estés bajo |cFFFFFD00El Sentinax|r, tendrás el buff {spell:240640}.\n\nMata demonios para despojar varias |cFFFFFD00Balizas del Sentinax|r.'
 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
-L['options_icons_bringing_home_the_beacon_desc'] = nil
+L['options_icons_bringing_home_the_beacon_desc'] = 'Muestra dónde aparece el |cFFFFFD00Sentinax|r para el logro {achievement:11802}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
@@ -94,8 +95,8 @@ L['bohdi_sunwayver_note'] = '¡Ha salido el sol! ¡Mascotas fuera!'
 ----------------------------------- EREDATH -----------------------------------
 -------------------------------------------------------------------------------
 
-L['kaara_the_pale_note'] = nil
-L['turek_the_lucid_note'] = nil
+L['kaara_the_pale_note'] = '{npc:126860} ya no suelta el {item:153190}'
+L['turek_the_lucid_note'] = 'En el |cFFFFFD00Derrumbe de Oronaar|r'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
