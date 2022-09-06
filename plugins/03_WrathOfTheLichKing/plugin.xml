@@ -8,4 +8,5 @@
   <Script file="zones\sholazar_basin.lua"/>
   <Script file="zones\storm_peaks.lua"/>
   <Script file="zones\zuldrak.lua"/>
+  <Script file="zones\dalaran.lua"/>
 </Ui>
