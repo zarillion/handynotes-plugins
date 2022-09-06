@@ -6,6 +6,8 @@ local Map = ns.Map
 local L = ns.locale
 
 local Rare = ns.node.Rare
+local Squirrel = ns.node.Squirrel
+local Node = ns.node.Node
 
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
@@ -16,6 +18,17 @@ local Path = ns.poi.Path
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 local map = Map({ id=121, settings=true })
+
+map.nodes[48425635] = Node({
+    id = 30007,
+    label = '{npc:30007}',
+    icon = 132334,
+    quest={12932,12933,12934,12935,12936,12948},
+    questCount = true,
+    rewards = {
+        Achievement({id = 4958, criteria = 2}), -- Name
+    }
+}) -- Name
 
 
 map.nodes[40255237] = Rare({
@@ -65,3 +78,8 @@ map.nodes[72002840] = Rare({
         })
     }
 }) -- Terror Spinner
+
+map.nodes[44976090] = Squirrel({
+    id = 6653,
+    rewards = {Achievement({id = 2557, criteria = 7})}
+}) -- Huge Toad
