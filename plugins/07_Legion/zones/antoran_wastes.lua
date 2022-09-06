@@ -6,10 +6,12 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local Treasure = ns.node.Treasure
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
+local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Section = ns.reward.Section
@@ -67,14 +69,6 @@ map.nodes[58501180] = Rare({
     }
 }) -- Doomcaster Suprax
 
-map.nodes[59564498] = Rare({
-    id = 127706,
-    note = L['reziera_the_seer_note'],
-    rewards = {
-        Achievement({id = 12078, criteria = 37664}), Toy({item = 153293}) -- Sightless Eye
-    }
-}) -- Reziera the Seer
-
 map.nodes[60704800] = Rare({
     id = 126946,
     rewards = {Achievement({id = 12078, criteria = 37608})}
@@ -123,7 +117,7 @@ map.nodes[64102090] = Rare({
     pois = {POI({65602640})}
 }) -- Puscilla
 
-map.nodes[64204800] = Rare({
+map.nodes[64935150] = Rare({
     id = 126208,
     note = L['drops_fel_spotted_egg'],
     rewards = {
@@ -136,7 +130,7 @@ map.nodes[64204800] = Rare({
         Pet({item = 153054, id = 2118}), -- Docile Skyfin
         Pet({item = 153055, id = 2119}) -- Fel-Afflicted Skyfin
     },
-    pois = {POI({64254825})}
+    pois = {POI({64244811})}
 }) -- Varga
 
 map.nodes[65005300] = Rare({
@@ -145,6 +139,15 @@ map.nodes[65005300] = Rare({
     rewards = {Achievement({id = 12078, criteria = 37648})},
     pois = {POI({65005600})}
 }) -- Ven'orn
+
+map.nodes[65008240] = Rare({
+    id = 127706,
+    note = L['reziera_the_seer_note'],
+    rewards = {
+        Achievement({id = 12078, criteria = 37664}), Toy({item = 153293}) -- Sightless Eye
+    },
+    pois = {POI({59494489}), Path({59494489, 65008240})}
+}) -- Reziera the Seer
 
 map.nodes[66701800] = Rare({
     id = 127705,
@@ -168,16 +171,23 @@ map.nodes[76405590] = Rare({
     rewards = {Achievement({id = 12078, criteria = 37609})}
 }) -- All-Seer Xanarian
 
-map.nodes[77607480] = Rare({
+map.nodes[84358112] = Rare({
     id = 127700,
+    requires = ns.requirement.Quest(49007), -- Commander On Deck!
     note = L['squadron_commander_vishax_note'],
-    rewards = {Achievement({id = 12078, criteria = 37662})}
+    rewards = {Achievement({id = 12078, criteria = 37662})},
+    pois = {
+        POI({77577478}), POI({87788010}), Path({77577478, 87788010, 84358112})
+    }
 }) -- Squadron Commander Vishax
 
-map.nodes[80506270] = Rare({
+map.nodes[82676554] = Rare({
     id = 127084,
     note = L['commander_texlaz_note'],
-    rewards = {Achievement({id = 12078, criteria = 37610})}
+    rewards = {Achievement({id = 12078, criteria = 37610})},
+    pois = {
+        POI({80456267}), POI({81147061}), Path({80456267, 81147061, 82676554})
+    }
 }) -- Commander Texlaz
 
 -------------------------------------------------------------------------------
@@ -261,3 +271,19 @@ map.nodes[49005930] = Treasure({
 map.nodes[75705260] = Treasure({
     rewards = {Achievement({id = 12074, criteria = 37699})}
 }) -- Timeworn Fel Chest
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[60154552] = NPC({
+    id = 128134,
+    icon = 1387707,
+    note = L['orix_the_all_seer_note'],
+    rewards = {
+        Item({item = 153226, note = '500'}), -- Observer's Locus Resonator
+        Toy({item = 153204, note = '1000'}), -- All-Seer's Eye
+        Pet({item = 153026, id = 2115, note = '1000'}) -- Cross Gazer
+    },
+    pois = {POI({59494489})}
+}) -- Orix the All-Seer
