@@ -10,8 +10,8 @@ local Red = ns.color.Red
 ------------------------------- ANTORAN WASTES --------------------------------
 -------------------------------------------------------------------------------
 
-L['commander_texlaz_note'] = 'Requires {quest:48831} world quest to be active. Take the green portal.'
-L['doomcaster_suprax_note'] = 'Cover all three runes by three players. Do not interrupt his {spell:253563}. Run into this star to refresh your debuff, which kills you, when it expires.'
+L['commander_texlaz_note'] = 'No longer requires {quest:48831} world quest to be active. Take the green portal.'
+L['doomcaster_suprax_note'] = 'No longer requires three players. Simply step on a rune to summon {npc:127703}.'
 L['mother_rosula_note'] = 'Collect 100 {item:152999} from {npc:126073} and combine them to make a {item:153013}. Use the {item:153013} on her fel pool.'
 L['reziera_the_seer_note'] = 'While buffed with {spell:254174} collect 500 {item:153021} to purchase {item:153226} from {npc:128134}. Use the {item:153226} to send you (and your party) to {npc:127706}.'
 L['squadron_commander_vishax_note'] = 'Collect {item:152890} from {npc:127598}.\n\nCollect {item:152941}, {item:152940}, and {item:152891} from {npc:127597} and {npc:127596}.\n\nUse {item:152890} to get {quest:49007}.\n\n' .. Orange('This quest is sharable')
@@ -19,6 +19,8 @@ L['ven_orn_note'] = 'Enter the cave of spiders, take a right, and go down into a
 
 L['the_many_faced_devourer_note'] = 'Collect {item:152786} from {npc:126193} and {npc:126171} in |cFFFFFD00Scavenger\'s Boneyard|r.\n\nCollect {item:152991}, {item:152992}, and {item:152993}.\n\nSummon {npc:127581} at the |cFFFFFD00The Bone Effigy|r.\n\n' .. Orange('If you can\'t see the |cFFFFFD00Bone Effigy|r you may need to relog.')
 L['the_many_faced_devourer_checklist'] = Gold('Item Checklist (in bags or bank):')
+
+L['orix_the_all_seer_note'] = 'Sells collectibles in exchange for {item:153021}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
@@ -62,6 +64,15 @@ L['treasure_42287'] = 'Under water.'
 L['treasure_42339'] = 'Don\'t wake up the bears.'
 
 L['nightwatcher_merayl_note'] = 'Formations!'
+
+-------------------------------------------------------------------------------
+-------------------------------- BROKEN SHORE ---------------------------------
+-------------------------------------------------------------------------------
+
+L['bringing_home_the_beacon_note'] = 'While under |cFFFFFD00The Sentinax|r, you will be buffed with {spell:240640}.\n\nKill demons to loot various |cFFFFFD00Sentinax Beacons.|r'
+
+L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
+L['options_icons_bringing_home_the_beacon_desc'] = 'Display |cFFFFFD00Sentinax|r locations for {achievement:11802}'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
