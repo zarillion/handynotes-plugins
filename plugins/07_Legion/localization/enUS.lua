@@ -17,7 +17,7 @@ L['reziera_the_seer_note'] = 'While buffed with {spell:254174} collect 500 {item
 L['squadron_commander_vishax_note'] = 'Collect {item:152890} from {npc:127598}.\n\nCollect {item:152941}, {item:152940}, and {item:152891} from {npc:127597} and {npc:127596}.\n\nUse {item:152890} to get {quest:49007}.\n\n' .. Orange('This quest is sharable')
 L['ven_orn_note'] = 'Enter the cave of spiders, take a right, and go down into another small cave. She is in this 2nd chamber at the rear.'
 
-L['the_many_faced_devourer_note'] = 'Collect {item:152786} from {npc:126193} and {npc:126171} in |cFFFFFD00Scavenger\'s Boneyard|r.\n\nCollect {item:152991}, {item:152992}, and {item:152993}.\n\nSummon {npc:127581} at the |cFFFFFD00The Bone Effigy|r.\n\n' .. Orange('If you can\'t see the |cFFFFFD00Bone Effigy|r you may need to relog.')
+L['the_many_faced_devourer_note'] = 'Collect {item:152786} from {npc:126193} and {npc:126171} in |cFFFFFD00Scavenger\'s Boneyard|r.\n\nCollect {item:152991}, {item:152992}, and {item:152993}.\n\nSummon {npc:127581} at the {npc:127442}.\n\n' .. Orange('If you can\'t see the {npc:127442} you may need to relog.')
 L['the_many_faced_devourer_checklist'] = Gold('Item Checklist (in bags or bank):')
 
 L['orix_the_all_seer_note'] = 'Sells collectibles in exchange for {item:153021}.'
@@ -30,9 +30,9 @@ L['drops_fel_spotted_egg'] = 'Drops {item:153190}'
 L['fel_spotted_egg_contains'] = '{item:153190} can contain'
 
 L['goblin_glider_treasure_note'] = 'Use {item:109076} to glide to the treasure.'
-L['lightforged_warframe_treasure_note'] = 'Activate {item:152098} at the |cFFFFFD00Vindicaar Matrix Core|r aboard the |cFFFFFD00Vindicaar|r.\n\nUse {item:152098} and {spell:250434} to melt the rocks and find the treasure.'
-L['lights_judgement_treasure_note'] = 'Activate {item:151830} at the |cFFFFFD00Vindicaar Matrix Core|r aboard the |cFFFFFD00Vindicaar|r.\n\nUse {item:151830} to expload the rocks and find the treasure.'
-L['shroud_of_arcane_echoes_treasures_note'] = 'Activate {item:151912} at the |cFFFFFD00Vindicaar Matrix Core|r aboard the |cFFFFFD00Vindicaar|r.\n\nUse {item:151912} unlock the treasure.\n\n' .. Red('"Will only open to one wielding the power that echoes that of the Augari."')
+L['lightforged_warframe_treasure_note'] = 'Activate {item:152098} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:152098} and {spell:250434} to melt the rocks and find the treasure.'
+L['lights_judgement_treasure_note'] = 'Activate {item:151830} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:151830} to expload the rocks and find the treasure.'
+L['shroud_of_arcane_echoes_treasures_note'] = 'Activate {item:151912} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:151912} unlock the treasure.\n\n' .. Red('"Will only open to one wielding the power that echoes that of the Augari."')
 
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
@@ -69,10 +69,10 @@ L['nightwatcher_merayl_note'] = 'Formations!'
 -------------------------------- BROKEN SHORE ---------------------------------
 -------------------------------------------------------------------------------
 
-L['bringing_home_the_beacon_note'] = 'While under |cFFFFFD00The Sentinax|r, you will be buffed with {spell:240640}.\n\nKill demons to loot various |cFFFFFD00Sentinax Beacons.|r'
+L['bringing_home_the_beacon_note'] = 'While under {npc:127264}, you will be buffed with {spell:240640}.\n\nKill demons to loot various |cFFFFFD00Sentinax Beacons|r.'
 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
-L['options_icons_bringing_home_the_beacon_desc'] = 'Display |cFFFFFD00Sentinax|r locations for {achievement:11802}'
+L['options_icons_bringing_home_the_beacon_desc'] = 'Display {npc:127264} locations for {achievement:11802}'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
