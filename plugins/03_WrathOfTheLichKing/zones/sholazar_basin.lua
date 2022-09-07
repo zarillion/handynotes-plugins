@@ -52,7 +52,7 @@ map.nodes[46805500] = Rare({
 map.nodes[38952976] = Rare({
     id = 32485,
     rewards = {
-        Achievement({id = 2257, criteria = 21}), -- Frostbitten
+        Achievement({id = 2257, criteria = 20}), -- Frostbitten
     },
     pois = {
         Path({38952976, 35483226, 32353982, 27104423, 25744801, 28265363, 28336231, 29607163, 26467897
