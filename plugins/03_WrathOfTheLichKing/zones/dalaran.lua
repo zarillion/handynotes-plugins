@@ -3,7 +3,6 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local Map = ns.Map
-local L = ns.locale
 
 local Collectible = ns.node.Collectible
 
