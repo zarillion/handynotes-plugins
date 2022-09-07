@@ -137,6 +137,7 @@ map.nodes[52906760] = Rare({
 
 map.nodes[53906440] = Rare({
     id = 126866,
+    quest = 48704,
     rewards = {
         Achievement({id = 12078, criteria = 37634}), Toy({item = 153183}) -- Barrier Generator
     }
@@ -144,6 +145,7 @@ map.nodes[53906440] = Rare({
 
 map.nodes[55506010] = Rare({
     id = 126852,
+    quest = 48965,
     rewards = {
         Achievement({id = 12078, criteria = 37639}),
         Mount({item = 152814, id = 970}) -- Maddened Chaosrunner
@@ -152,6 +154,7 @@ map.nodes[55506010] = Rare({
 
 map.nodes[56901460] = Rare({
     id = 126910,
+    quest = 48720,
     rewards = {Achievement({id = 12078, criteria = 37619})}
 }) -- Commander Xethgar
 
@@ -179,14 +182,16 @@ map.nodes[61405040] = Rare({
     }
 }) -- Instructor Tarahna
 
-map.nodes[63902960] = Rare({
+map.nodes[66812841] = Rare({
     id = 126908,
+    quest = 48719,
     rewards = {Achievement({id = 12078, criteria = 37620})},
-    pois = {POI({63942956})}
+    pois = {POI({63912958})}
 }) -- Zul'tan the Numerous
 
 map.nodes[70204600] = Rare({
     id = 126889,
+    quest = 48710,
     rewards = {Achievement({id = 12078, criteria = 37628})}
 }) -- Sorolis the Ill-Fated
 
