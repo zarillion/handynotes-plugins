@@ -30,16 +30,19 @@ local map = Map({id = 885, settings = true})
 
 map.nodes[50905540] = Rare({
     id = 127118,
+    quest = 48820,
     rewards = {Achievement({id = 12078, criteria = 37605})}
 }) -- Worldsplitter Skuul
 
 map.nodes[53002930] = Rare({
     id = 127291,
+    quest = 48822,
     rewards = {Achievement({id = 12078, criteria = 37613})}
 }) -- Watcher Aival
 
 map.nodes[53003600] = Rare({
     id = 126199,
+    quest = 48810,
     rewards = {
         Achievement({id = 12078, criteria = 37649}),
         Mount({item = 152903, id = 981}) -- Biletooth Gnasher
@@ -48,21 +51,25 @@ map.nodes[53003600] = Rare({
 
 map.nodes[55302160] = Rare({
     id = 127300,
+    quest = 48824,
     rewards = {Achievement({id = 12078, criteria = 37614})}
 }) -- Void Warden Valsuran
 
 map.nodes[55804610] = Rare({
     id = 122999,
+    quest = 49241,
     rewards = {Achievement({id = 12078, criteria = 37656})}
 }) -- Gar'zoth
 
 map.nodes[57403350] = Rare({
     id = 122947,
+    quest = 49240,
     rewards = {Achievement({id = 12078, criteria = 37658})}
 }) -- Mistress Il'thendra
 
 map.nodes[58501180] = Rare({
     id = 127703,
+    quest = 48968,
     note = L['doomcaster_suprax_note'],
     rewards = {
         Achievement({id = 12078, criteria = 37663}), Toy({item = 153194}) -- Legion Communication Orb
@@ -71,16 +78,19 @@ map.nodes[58501180] = Rare({
 
 map.nodes[60704800] = Rare({
     id = 126946,
+    quest = 48815,
     rewards = {Achievement({id = 12078, criteria = 37608})}
 }) -- Inquisitor Vethroz
 
 map.nodes[61302130] = Rare({
     id = 127376,
+    quest = 48865,
     rewards = {Achievement({id = 12078, criteria = 37606})}
 }) -- Chief Alchemist Munculus
 
 map.nodes[61306520] = Rare({
     id = 126338,
+    quest = 48814,
     rewards = {
         Achievement({id = 12078, criteria = 37616}), Toy({item = 153126}) -- Micro-Artillery Controller
     }
@@ -88,6 +98,7 @@ map.nodes[61306520] = Rare({
 
 map.nodes[61803690] = Rare({
     id = 122958,
+    quest = 49183,
     rewards = {
         Achievement({id = 12078, criteria = 37657}),
         Mount({item = 152905, id = 979}) -- Crimson Slavermaw
@@ -96,11 +107,13 @@ map.nodes[61803690] = Rare({
 
 map.nodes[62205350] = Rare({
     id = 126254,
+    quest = 48813,
     rewards = {Achievement({id = 12078, criteria = 37612})}
 }) -- Lieutenant Xakaar
 
 map.nodes[63952175] = Rare({
     id = 127288,
+    quest = 48821,
     rewards = {
         Achievement({id = 12078, criteria = 37615}),
         Mount({item = 152790, id = 955}) -- Vile Fiend
@@ -110,6 +123,7 @@ map.nodes[63952175] = Rare({
 
 map.nodes[64102090] = Rare({
     id = 126040,
+    quest = 48809,
     rewards = {
         Achievement({id = 12078, criteria = 37647}),
         Mount({item = 152903, id = 981}) -- Biletooth Gnasher
@@ -119,6 +133,7 @@ map.nodes[64102090] = Rare({
 
 map.nodes[64935150] = Rare({
     id = 126208,
+    quest = 48812,
     note = L['drops_fel_spotted_egg'],
     rewards = {
         Achievement({id = 12078, criteria = 37607}),
@@ -135,6 +150,7 @@ map.nodes[64935150] = Rare({
 
 map.nodes[65005300] = Rare({
     id = 126115,
+    quest = 48811,
     note = L['ven_orn_note'],
     rewards = {Achievement({id = 12078, criteria = 37648})},
     pois = {POI({65005600})}
@@ -142,6 +158,7 @@ map.nodes[65005300] = Rare({
 
 map.nodes[65008240] = Rare({
     id = 127706,
+    quest = 48971,
     note = L['reziera_the_seer_note'],
     rewards = {
         Achievement({id = 12078, criteria = 37664}), Toy({item = 153293}) -- Sightless Eye
@@ -163,16 +180,19 @@ map.nodes[66701800] = Rare({
 
 map.nodes[73607200] = Rare({
     id = 127090,
+    quest = 48817,
     rewards = {Achievement({id = 12078, criteria = 37611})}
 }) -- Admiral Rel'var
 
 map.nodes[76405590] = Rare({
     id = 127096,
+    quest = 48818,
     rewards = {Achievement({id = 12078, criteria = 37609})}
 }) -- All-Seer Xanarian
 
 map.nodes[84358112] = Rare({
     id = 127700,
+    quest = 48967,
     requires = ns.requirement.Quest(49007), -- Commander On Deck!
     note = L['squadron_commander_vishax_note'],
     rewards = {Achievement({id = 12078, criteria = 37662})},
@@ -183,6 +203,7 @@ map.nodes[84358112] = Rare({
 
 map.nodes[82676554] = Rare({
     id = 127084,
+    quest = 48816,
     note = L['commander_texlaz_note'],
     rewards = {Achievement({id = 12078, criteria = 37610})},
     pois = {
@@ -241,34 +262,40 @@ map.nodes[54803910] = TheManyFacedDevourer()
 -------------------------------------------------------------------------------
 
 map.nodes[58906140] = Treasure({
+    quest = 49017,
     requires = ns.requirement.Quest(47994), -- Forming a Bond (Lightforged Warframe)
     note = L['lightforged_warframe_treasure_note'],
     rewards = {Achievement({id = 12074, criteria = 37695})}
 }) -- Forgotten Legion Supplies
 
 map.nodes[52102720] = Treasure({
+    quest = 49019,
     requires = ns.requirement.Quest(47287), -- The Vindicaar Matrix Core (Light's Judgement)
     note = L['lights_judgement_treasure_note'],
     rewards = {Achievement({id = 12074, criteria = 37697})}
 }) -- Fel-Bound Chest
 
 map.nodes[65903980] = Treasure({
+    quest = 49018,
     requires = ns.requirement.Quest(47287), -- The Vindicaar Matrix Core (Light's Judgement)
     note = L['lights_judgement_treasure_note'],
     rewards = {Achievement({id = 12074, criteria = 37696})}
 }) -- Ancient Legion War Cache
 
 map.nodes[57406360] = Treasure({
+    quest = 49159,
     requires = ns.requirement.Quest(48107), -- The Sigil of Awakening (Shroud of Arcane Echoes)
     note = L['shroud_of_arcane_echoes_treasures_note'],
     rewards = {Achievement({id = 12074, criteria = 37960})}
 }) -- Missing Augari Chest
 
 map.nodes[49005930] = Treasure({
+    quest = 49020,
     rewards = {Achievement({id = 12074, criteria = 37698})}
 }) -- Legion Treasure Hoard
 
 map.nodes[75705260] = Treasure({
+    quest = 49021,
     rewards = {Achievement({id = 12074, criteria = 37699})}
 }) -- Timeworn Fel Chest
 
