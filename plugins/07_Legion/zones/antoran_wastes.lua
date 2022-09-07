@@ -7,7 +7,6 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
-local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
