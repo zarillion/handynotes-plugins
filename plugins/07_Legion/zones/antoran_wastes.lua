@@ -6,6 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -303,7 +304,7 @@ map.nodes[75705260] = Treasure({
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[60154552] = NPC({
+map.nodes[60154552] = Collectible({
     id = 128134,
     icon = 1387707,
     note = L['orix_the_all_seer_note'],
