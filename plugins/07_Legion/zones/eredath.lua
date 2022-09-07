@@ -66,8 +66,7 @@ map.nodes[36702390] = Rare({
     id = 126865,
     quest = 48703,
     rewards = {
-        Achievement({id = 12078, criteria = 37635}),
-        Toy({item = 153183}) -- Barrier Generator
+        Achievement({id = 12078, criteria = 37635}), Toy({item = 153183}) -- Barrier Generator
     }
 }) -- Vigilant Thanos
 
@@ -113,8 +112,7 @@ map.nodes[43806040] = Rare({
     id = 126862,
     quest = 48700,
     rewards = {
-        Achievement({id = 12078, criteria = 37637}),
-        Toy({item = 153193}) -- Baarut the Brisk
+        Achievement({id = 12078, criteria = 37637}), Toy({item = 153193}) -- Baarut the Brisk
     }
 }) -- Baruut the Bloodthirsty
 
@@ -134,8 +132,7 @@ map.nodes[48805200] = Rare({
     id = 126913,
     quest = 48935,
     rewards = {
-        Achievement({id = 12078, criteria = 37617}),
-        Item({item = 153203}) -- Ancient Fishing Line
+        Achievement({id = 12078, criteria = 37617}), Item({item = 153203}) -- Ancient Fishing Line
     }
 }) -- Slithon the Last
 
@@ -158,8 +155,7 @@ map.nodes[53906440] = Rare({
     id = 126866,
     quest = 48704,
     rewards = {
-        Achievement({id = 12078, criteria = 37634}),
-        Toy({item = 153183}) -- Barrier Generator
+        Achievement({id = 12078, criteria = 37634}), Toy({item = 153183}) -- Barrier Generator
     }
 }) -- Vigilant Kuro
 
