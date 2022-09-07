@@ -2,33 +2,37 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('zhCN')
 if not L then return end
 
+local Gold = ns.color.Gold
+local Orange = ns.color.Orange
+local Red = ns.color.Red
+
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
 -------------------------------------------------------------------------------
 
-L['commander_texlaz_note'] = nil
-L['doomcaster_suprax_note'] = nil
-L['mother_rosula_note'] = nil
-L['reziera_the_seer_note'] = nil
-L['squadron_commander_vishax_note'] = nil
-L['ven_orn_note'] = nil
+L['commander_texlaz_note'] = '不再需要 {quest:48831} 世界任务来激活。使用绿色传送门。'
+L['doomcaster_suprax_note'] = '不再需要三名玩家。只要站到符文上召唤 {npc:127703}。'
+L['mother_rosula_note'] = '从 {npc:126073} 收集100个 {item:152999} 并组合成为 {item:153013}。在她的邪能池子使用 {item:153013}。'
+L['reziera_the_seer_note'] = '有 {spell:254174} 增益时收集500个 {item:153021} 用来从 {npc:128134} 购买 {item:153226}。使用 {item:153226} 用于传送你（和队伍）到 {npc:127706}。'
+L['squadron_commander_vishax_note'] = '从 {npc:127598} 收集 {item:152890}。\n\n从 {npc:127597} 和 {npc:127596} 收集 {item:152941}，{item:152940} 和 {item:152891}。\n\n使用 {item:152890} 获得 {quest:49007}。\n\n' .. Orange('此任务可共享')
+L['ven_orn_note'] = '进入蜘蛛洞穴，向右并向下到另一个小洞穴。她在后面的第二个房间里。'
 
-L['the_many_faced_devourer_note'] = nil
-L['the_many_faced_devourer_checklist'] = nil
+L['the_many_faced_devourer_note'] = '从位于 |cFFFFFD00食腐者废料场|r 的 {npc:126193} 和 {npc:126171} 收集 {item:152786}。\n\n收集 {item:152991}，{item:152992} 和 {item:152993}。\n\n召唤 {npc:127581} 在 {npc:127442}。\n\n' .. Orange('如不能看到 {npc:127442} 则需要重新登录。')
+L['the_many_faced_devourer_checklist'] = Gold('物品检查表（背包或银行）：')
 
-L['orix_the_all_seer_note'] = nil
+L['orix_the_all_seer_note'] = '出售收藏品换取 {item:153021}。'
 
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
 -------------------------------------------------------------------------------
 
-L['drops_fel_spotted_egg'] = nil
-L['fel_spotted_egg_contains'] = nil
+L['drops_fel_spotted_egg'] = '掉落 {item:153190}'
+L['fel_spotted_egg_contains'] = '{item:153190} 可包含'
 
-L['goblin_glider_treasure_note'] = nil
-L['lightforged_warframe_treasure_note'] = nil
-L['lights_judgement_treasure_note'] = nil
-L['shroud_of_arcane_echoes_treasures_note'] = nil
+L['goblin_glider_treasure_note'] = '使用 {item:109076} 滑翔到宝藏。'
+L['lightforged_warframe_treasure_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:152098}。\n\n使用 {item:152098} 和 {spell:250434} 融化岩石并找到宝藏。'
+L['lights_judgement_treasure_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:151830}。\n\n使用 {item:151830} 炸开岩石并找到宝藏。'
+L['shroud_of_arcane_echoes_treasures_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:151912}。\n\n使用 {item:151912} 解锁宝藏。\n\n' .. Red('"只对拥有与奥古雷相呼应的力量的人开放。"')
 
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
@@ -65,10 +69,10 @@ L['nightwatcher_merayl_note'] = '列队！'
 -------------------------------- BROKEN SHORE ---------------------------------
 -------------------------------------------------------------------------------
 
-L['bringing_home_the_beacon_note'] = nil
+L['bringing_home_the_beacon_note'] = '{npc:127264} 下面，你将有 {spell:240640} 增益。\n\n击杀恶魔拾取各种 |cFFFFFD00森提纳克斯信标|r。'
 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
-L['options_icons_bringing_home_the_beacon_desc'] = nil
+L['options_icons_bringing_home_the_beacon_desc'] = '显示 {achievement:11802} 成就中 {npc:127264} 的位置。'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
@@ -93,8 +97,8 @@ L['bohdi_sunwayver_note'] = '太阳出来啦！宠物们，出击吧！'
 ----------------------------------- EREDATH -----------------------------------
 -------------------------------------------------------------------------------
 
-L['kaara_the_pale_note'] = nil
-L['turek_the_lucid_note'] = nil
+L['kaara_the_pale_note'] = '{npc:126860} 不再掉落 {item:153190}'
+L['turek_the_lucid_note'] = '在 |cFFFFFD00奥罗纳尔陷坑|r 内'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
