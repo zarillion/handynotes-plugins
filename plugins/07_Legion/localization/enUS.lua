@@ -31,7 +31,7 @@ L['fel_spotted_egg_contains'] = '{item:153190} can contain'
 
 L['goblin_glider_treasure_note'] = 'Use {item:109076} to glide to the treasure.'
 L['lightforged_warframe_treasure_note'] = 'Activate {item:152098} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:152098} and {spell:250434} to melt the rocks and find the treasure.'
-L['lights_judgement_treasure_note'] = 'Activate {item:151830} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:151830} to expload the rocks and find the treasure.'
+L['lights_judgement_treasure_note'] = 'Activate {item:151830} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:151830} to explode the rocks and find the treasure.'
 L['shroud_of_arcane_echoes_treasures_note'] = 'Activate {item:151912} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:151912} unlock the treasure.\n\n' .. Red('"Will only open to one wielding the power that echoes that of the Augari."')
 
 -------------------------------------------------------------------------------
