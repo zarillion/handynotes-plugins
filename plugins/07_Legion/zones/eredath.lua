@@ -9,6 +9,7 @@ local Treasure = ns.node.Treasure
 local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Section = ns.reward.Section
@@ -117,7 +118,7 @@ map.nodes[48104060] = Rare({
 map.nodes[48805200] = Rare({
     id = 126913,
     rewards = {
-        Achievement({id = 12078, criteria = 37617}), Toy({item = 153203}) -- Ancient Fishing Line
+        Achievement({id = 12078, criteria = 37617}), Item({item = 153203}) -- Ancient Fishing Line
     }
 }) -- Slithon the Last
 
