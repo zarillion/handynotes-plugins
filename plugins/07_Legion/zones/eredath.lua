@@ -196,8 +196,7 @@ map.nodes[61405040] = Rare({
     id = 126900,
     quest = 48718,
     rewards = {
-        Achievement({id = 12078, criteria = 37621}),
-        Toy({item = 153179}), -- Blue Conservatory Scroll
+        Achievement({id = 12078, criteria = 37621}), Toy({item = 153179}), -- Blue Conservatory Scroll
         Toy({item = 153181}), -- Red Conservatory Scroll
         Toy({item = 153180}) -- Yellow Conservatory Scroll
     }
