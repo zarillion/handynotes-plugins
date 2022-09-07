@@ -53,6 +53,7 @@ map.nodes[53805920] = Rare({
     id = 32400,
     rewards = {
         Achievement({id = 2257, criteria = 10}), -- Frostbitten
+        Transmog({item = 44673, slot = L['cloth']}), -- Mammoth-Riding Boots
     },
     pois = {
         Path({
@@ -67,4 +68,4 @@ map.nodes[53805920] = Rare({
             69575073, 69575342, 68865683, 67965908, 66206147
         })
     }
-}) -- Name
+}) -- Tukemuth
