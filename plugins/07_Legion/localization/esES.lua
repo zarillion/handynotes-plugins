@@ -18,7 +18,7 @@ L['reziera_the_seer_note'] = 'Mientrás tengas el buff del {spell:254174} recoge
 L['squadron_commander_vishax_note'] = 'Recoge un {item:152890} de un {npc:127598}.\n\nRecoge una {item:152941}, un {item:152940}, y una {item:152891} de {npc:127597} y {npc:127596}.\n\nUsa el {item:152890} para obtener la misión {quest:49007}.\n\n' .. Orange('Esta misión se puede compartir.')
 L['ven_orn_note'] = 'Entra en la cueva de arañas, gira a la derecha, y baja dentro de otra cueva pequeña. Ella está en la 2ª cámara en la parte trasera.'
 
-L['the_many_faced_devourer_note'] = 'Recoge un {item:152786} de {npc:126193} y {npc:126171} en el |cFFFFFD00Cementerio del Carroñero|r.\n\nRecoge un {item:152991}, un {item:152992}, y un {item:152993}.\n\nInvoca a {npc:127581} en |cFFFFFD00La Efigie de Hueso|r.\n\n' .. Orange('Si no puedes ver |cFFFFFD00La Efigie de Hueso|r puede que necesites hacer relog.')
+L['the_many_faced_devourer_note'] = 'Recoge un {item:152786} de {npc:126193} y {npc:126171} en el |cFFFFFD00Cementerio del Carroñero|r.\n\nRecoge un {item:152991}, un {item:152992}, y un {item:152993}.\n\nInvoca a {npc:127581} en {npc:127442}.\n\n' .. Orange('Si no puedes ver {npc:127442} puede que necesites hacer relog.')
 L['the_many_faced_devourer_checklist'] = Gold('Lista de chequeo de Objetos (en bolsas o en el banco):')
 
 L['orix_the_all_seer_note'] = 'Vende coleccionables a cambio de {item:153021}.'
@@ -31,9 +31,9 @@ L['drops_fel_spotted_egg'] = 'Suelta un {item:153190}'
 L['fel_spotted_egg_contains'] = '{item:153190} puede contener'
 
 L['goblin_glider_treasure_note'] = 'Usa un {item:109076} para planear hasta el tesoro.'
-L['lightforged_warframe_treasure_note'] = 'Activa un {item:152098} en el |cFFFFFD00Núcleo de la Matriz del Vindicaar|r a bordo del |cFFFFFD00Vindicaar|r.\n\nUsa el {item:152098} y el {spell:250434} para hacer trizas las rocas y encontrar el tesoro.'
-L['lights_judgement_treasure_note'] = 'Activa la {item:151830} en el |cFFFFFD00Núcleo de la Matriz del Vindicaar|r a bordo del |cFFFFFD00Vindicaar|r.\n\nUsa la {item:151830} para explotar las rocas y encontrar el tesoro.'
-L['shroud_of_arcane_echoes_treasures_note'] = 'Activa el {item:151912} en el |cFFFFFD00Núcleo de la Matriz del Vindicaar|r a bordo del |cFFFFFD00Vindicaar|r.\n\nUsa el {item:151912} para desbloquear el tesoro.\n\n' .. Red('"Sólo se abrirá a uno que ejerza el poder que se hace eco del Augari."')
+L['lightforged_warframe_treasure_note'] = 'Activa un {item:152098} en el {npc:121365} a bordo del {npc:126426}.\n\nUsa el {item:152098} y el {spell:250434} para hacer trizas las rocas y encontrar el tesoro.'
+L['lights_judgement_treasure_note'] = 'Activa la {item:151830} en el {npc:121365} a bordo del {npc:126426}.\n\nUsa la {item:151830} para explotar las rocas y encontrar el tesoro.'
+L['shroud_of_arcane_echoes_treasures_note'] = 'Activa el {item:151912} en el {npc:121365} a bordo del {npc:126426}.\n\nUsa el {item:151912} para desbloquear el tesoro.\n\n' .. Red('"Sólo se abrirá a uno que ejerza el poder que se hace eco del Augari."')
 
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
@@ -66,29 +66,29 @@ L['treasure_42339'] = 'No despiertes a los osos.'
 
 L['nightwatcher_merayl_note'] = '¡Formaciones!'
 
-L['book_1'] = nil
-L['book_2'] = nil
-L['book_3'] = nil
-L['book_4'] = nil
-L['book_5'] = nil
-L['book_6'] = nil
-L['book_7'] = nil
+L['book_1'] = 'Libro 1 (Domingo)'
+L['book_2'] = 'Libro 2 (Lunes)'
+L['book_3'] = 'Libro 3 (Martes)'
+L['book_4'] = 'Libro 4 (Miércoles)'
+L['book_5'] = 'Libro 5 (Jueves)'
+L['book_6'] = 'Libro 6 (Viernes)'
+L['book_7'] = 'Libro 7 (Sábado)'
 
-L['higher_dimensional_learning_location'] = nil
-L['higher_dimensional_learning_note'] = nil
-L['higher_dimensional_learning_disclaimer'] = nil
+L['higher_dimensional_learning_location'] = 'Está encima de la torre.'
+L['higher_dimensional_learning_note'] = 'Compra una {item:129276} de {npc:107376} en el |cFFFFFD00Palacio Derrumbado|r. Usa la {item:129276} cada día para teleportarse a una ubicación distinta de un libro.\n\nLibro 1: Domingo\nLibro 2: Lunes\nLibro 3: Martes\nLibro 4: Miércoles\nLibro 5: Jueves\nLibro 6: Viernes\nLibro 7: Sábado'
+L['higher_dimensional_learning_disclaimer'] = 'Teleportarse a la ubicación de un libro no garantiza que el libro aparezca. Quizás tengas que esperar o volver más tarde.'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
-L['options_icons_higher_dimensional_learning_desc'] = nil
+L['options_icons_higher_dimensional_learning_desc'] = 'Muestra dónde están los libros para el logro {achievement:11175}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- BROKEN SHORE ---------------------------------
 -------------------------------------------------------------------------------
 
-L['bringing_home_the_beacon_note'] = 'Mientras estés bajo |cFFFFFD00El Sentinax|r, tendrás el buff {spell:240640}.\n\nMata demonios para despojar varias |cFFFFFD00Balizas del Sentinax|r.'
+L['bringing_home_the_beacon_note'] = 'Mientras estés bajo el {npc:127264}, tendrás el buff {spell:240640}.\n\nMata demonios para despojar varias |cFFFFFD00Balizas del Sentinax|r.'
 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
-L['options_icons_bringing_home_the_beacon_desc'] = 'Muestra dónde aparece el |cFFFFFD00Sentinax|r para el logro {achievement:11802}.'
+L['options_icons_bringing_home_the_beacon_desc'] = 'Muestra dónde aparece el {npc:127264} para el logro {achievement:11802}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
