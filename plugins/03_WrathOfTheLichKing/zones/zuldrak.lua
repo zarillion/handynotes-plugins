@@ -26,9 +26,9 @@ map.nodes[48425635] = Node({
     quest={12932,12933,12934,12935,12936,12948},
     questCount = true,
     rewards = {
-        Achievement({id = 4958, criteria = 2}), -- Name
+        Achievement({id = 4958, criteria = 2}), -- The First Rule of Ring of Blood is You Don't Talk About Ring of Blood
     }
-}) -- Name
+}) -- Amphitheater of Anguish in Zul'Drak
 
 
 map.nodes[40255237] = Rare({
