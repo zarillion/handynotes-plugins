@@ -2,8 +2,11 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
 local Class = ns.Class
+local Group = ns.Group
+
 local Collectible = ns.node.Collectible
 -------------------------------------------------------------------------------
 
@@ -14,5 +17,7 @@ local Squirrel = Class('Squirrel', Collectible, {
     icon = 237182,
     note = L['squirrels_note']
 })
+
+ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
 
 ns.node.Squirrel = Squirrel

@@ -11,7 +11,6 @@ local Squirrel = ns.node.Squirrel
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
-local POI = ns.poi.POI
 local Path = ns.poi.Path
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
