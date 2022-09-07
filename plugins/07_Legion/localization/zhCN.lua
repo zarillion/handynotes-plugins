@@ -65,20 +65,20 @@ L['treasure_42339'] = '别吵醒熊。'
 
 L['nightwatcher_merayl_note'] = '列队！'
 
-L['book_1'] = nil
-L['book_2'] = nil
-L['book_3'] = nil
-L['book_4'] = nil
-L['book_5'] = nil
-L['book_6'] = nil
-L['book_7'] = nil
+L['book_1'] = '第一章（周日）'
+L['book_2'] = '第二章（周一）'
+L['book_3'] = '第三章（周二）'
+L['book_4'] = '第四章（周三）'
+L['book_5'] = '第五章（周四）'
+L['book_6'] = '第六章（周五）'
+L['book_7'] = '第七章（周六）'
 
-L['higher_dimensional_learning_location'] = nil
-L['higher_dimensional_learning_note'] = nil
-L['higher_dimensional_learning_disclaimer'] = nil
+L['higher_dimensional_learning_location'] = '位于塔顶。'
+L['higher_dimensional_learning_note'] = '从 |cFFFFFD00倾颓王宫|r 的 {npc:107376} 购买 {item:129276}。每天使用 {item:129276} 将传送到不同书的位置。\n\n第一章（周日）\n第二章（周一）\n第三章（周二）\n第四章（周三）\n第五章（周四）\n第六章（周五）\n第七章（周六）'
+L['higher_dimensional_learning_disclaimer'] = '传送到书本位置并不能保证这本书会刷新。可能需要等待或稍后再回来查看。'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
-L['options_icons_higher_dimensional_learning_desc'] = nil
+L['options_icons_higher_dimensional_learning_desc'] = '显示 {achievement:11175} 成就中书的位置。'
 
 -------------------------------------------------------------------------------
 -------------------------------- BROKEN SHORE ---------------------------------
