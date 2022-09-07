@@ -2,22 +2,24 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local L = ns.locale
 local Class = ns.Class
+local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
-local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
 
+local Orange = ns.color.Orange
 -------------------------------------------------------------------------------
 
 local map = Map({id = 630, settings = true})
@@ -577,3 +579,85 @@ map.nodes[53141620] = PetBattle({
     note = L['general_pet_tamer_note'],
     rewards = {Achievement({id = 10876, criteria = 31523})}
 }) -- Wounded Azurewing Whelpling
+
+-------------------------------------------------------------------------------
+------------------------- HIGHER DIMENSIONAL LEARNING--------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[46904143] = Collectible({
+    id = 107376,
+    icon = 134915,
+    group = ns.groups.HIGHER_DIMENSIONAL_LEARNING,
+    note = L['higher_dimensional_learning_note'] .. '\n\n' ..
+        Orange(L['higher_dimensional_learning_disclaimer']),
+    rewards = {
+        Achievement({id = 11175}), -- Higher Dimensional Learning
+        Item({item = 140493}) -- Adept's Guide to Dimensional Rifting
+    }
+}) -- Veridis Fallon
+
+local Book = Class('Book', Collectible, {
+    icon = 134915,
+    requires = ns.requirement.Reputation(1900, 7), -- Court of Farondis (Revered)
+    group = ns.groups.HIGHER_DIMENSIONAL_LEARNING,
+    getters = {
+        rewards = function(self)
+            return {
+                Achievement({id = 11175, criteria = self.criteriaID}), -- Higher Dimensional Learning
+                Item({item = 140493}) -- Adept's Guide to Dimensional Rifting
+            }
+        end
+    }
+})
+
+map.nodes[68105110] = Book({
+    sublabel = L['book_1'],
+    note = L['higher_dimensional_learning_note'] .. '\n\n' ..
+        Orange(L['higher_dimensional_learning_disclaimer']),
+    criteriaID = 32196
+}) --  Dimensional Rifting Ch. 1 - Navigating Through Time
+
+map.nodes[55207150] = Book({
+    sublabel = L['book_2'],
+    note = L['higher_dimensional_learning_note'] .. '\n\n' ..
+        Orange(L['higher_dimensional_learning_disclaimer']) .. '\n\n' ..
+        L['higher_dimensional_learning_location'],
+    criteriaID = 32197
+}) -- Dimensional Rifting Ch. 2 - Holy Places to Many
+
+map.nodes[33301110] = Book({
+    sublabel = L['book_3'],
+    note = L['higher_dimensional_learning_note'] .. '\n\n' ..
+        Orange(L['higher_dimensional_learning_disclaimer']),
+    criteriaID = 32198
+}) -- Dimensional Rifting Ch. 3 - Water, Just Water
+
+map.nodes[58301220] = Book({
+    sublabel = L['book_4'],
+    note = L['higher_dimensional_learning_note'] .. '\n\n' ..
+        Orange(L['higher_dimensional_learning_disclaimer']),
+    criteriaID = 32199,
+    pois = {POI({58701420})}
+}) -- Dimensional Rifting Ch. 4 - Risks and Rewards
+
+map.nodes[53102190] = Book({
+    sublabel = L['book_5'],
+    note = L['higher_dimensional_learning_note'] .. '\n\n' ..
+        Orange(L['higher_dimensional_learning_disclaimer']),
+    criteriaID = 32200
+}) -- Dimensional Rifting Ch. 5 - Finding Others Along the Way
+
+map.nodes[61104630] = Book({
+    sublabel = L['book_6'],
+    note = L['higher_dimensional_learning_note'] .. '\n\n' ..
+        Orange(L['higher_dimensional_learning_disclaimer']),
+    criteriaID = 32201
+}) -- Dimensional Rifting Ch. 6 - Pent Up Energy
+
+map.nodes[55604820] = Book({
+    sublabel = L['book_7'],
+    note = L['higher_dimensional_learning_note'] .. '\n\n' ..
+        Orange(L['higher_dimensional_learning_disclaimer']) .. '\n\n' ..
+        L['higher_dimensional_learning_location'],
+    criteriaID = 32202
+}) -- Dimensional Rifting Ch. 7 - Our Legacy
