@@ -65,6 +65,21 @@ L['treasure_42339'] = '别吵醒熊。'
 
 L['nightwatcher_merayl_note'] = '列队！'
 
+L['book_1'] = nil
+L['book_2'] = nil
+L['book_3'] = nil
+L['book_4'] = nil
+L['book_5'] = nil
+L['book_6'] = nil
+L['book_7'] = nil
+
+L['higher_dimensional_learning_location'] = nil
+L['higher_dimensional_learning_note'] = nil
+L['higher_dimensional_learning_disclaimer'] = nil
+
+L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
+L['options_icons_higher_dimensional_learning_desc'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- BROKEN SHORE ---------------------------------
 -------------------------------------------------------------------------------

@@ -14,3 +14,5 @@ ns.expansion = 7
 
 ns.groups.BRINGING_HOME_THE_BEACON = Group('bringing_home_the_beacon', 133267,
     {defaults = ns.GROUP_HIDDEN})
+ns.groups.HIGHER_DIMENSIONAL_LEARNING = Group('higher_dimensional_learning',
+    134915, {defaults = ns.GROUP_HIDDEN})
