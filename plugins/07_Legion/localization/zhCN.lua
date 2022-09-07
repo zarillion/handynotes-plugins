@@ -17,7 +17,7 @@ L['reziera_the_seer_note'] = '有 {spell:254174} 增益时收集500个 {item:153
 L['squadron_commander_vishax_note'] = '从 {npc:127598} 收集 {item:152890}。\n\n从 {npc:127597} 和 {npc:127596} 收集 {item:152941}，{item:152940} 和 {item:152891}。\n\n使用 {item:152890} 获得 {quest:49007}。\n\n' .. Orange('此任务可共享')
 L['ven_orn_note'] = '进入蜘蛛洞穴，向右并向下到另一个小洞穴。她在后面的第二个房间里。'
 
-L['the_many_faced_devourer_note'] = '从位于 |cFFFFFD00食腐者废料场|r 的 {npc:126193} 和 {npc:126171} 收集 {item:152786}。\n\n收集 {item:152991}，{item:152992} 和 {item:152993}。\n\n召唤 {npc:127581} 在 {npc:127442}。\n\n' .. Orange('如不能看到 {npc:127442} 则需要重新登录。')
+L['the_many_faced_devourer_note'] = '从位于 |cFFFFFD00食腐者废料场|r 的 {npc:126193} 和 {npc:126171} 收集 {item:152786}。\n\n收集 {item:152991}，{item:152992} 和 {item:152993}。\n\n在 {npc:127442} 召唤 {npc:127581}。\n\n' .. Orange('如不能看到 {npc:127442} 则需要重新登录。')
 L['the_many_faced_devourer_checklist'] = Gold('物品检查表（背包或银行）：')
 
 L['orix_the_all_seer_note'] = '出售收藏品换取 {item:153021}。'
