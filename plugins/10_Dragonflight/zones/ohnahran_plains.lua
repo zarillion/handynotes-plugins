@@ -4,4 +4,4 @@
 -- local ADDON_NAME, ns = ...
 -- local Map = ns.Map
 -------------------------------------------------------------------------------
--- local map = Map({id = nil, settings = true})
+-- local map = Map({id = 2023, settings = true})
