@@ -88,8 +88,8 @@ read_globals = {
     'GameTooltip_AddNormalLine',
     'GameTooltip_SetTitle',
     'HideUIPanel',
-    'Settings.OpenToCategory',
     'OpenWorldMap',
+    'Settings.OpenToCategory',
     'ToggleDropDownMenu',
     'UIDropDownMenu_AddButton',
     'UIDropDownMenu_AddSeparator',
@@ -99,10 +99,10 @@ read_globals = {
     -- WoW UI Frames & Mixins
     'GameMenuFrame',
     'GameTooltip',
-    'InterfaceOptionsFrame',
     'MapCanvasDataProviderMixin',
     'MapCanvasPinMixin',
     'Minimap',
+    'SettingsPanel',
     'UIParent',
     'WorldMapFrame',
 
