@@ -9,12 +9,11 @@ local Collectible = ns.node.Collectible
 local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
-
-
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
-local map = Map({ id=125, settings=true })
+local map = Map({id = 125, settings = true})
+local sewers = Map({id = 126, settings = true})
 
 map.nodes[56674557] = Collectible({
     id = 192708,
@@ -103,3 +102,16 @@ map.nodes[46784001] = Collectible({
         Toy({item = 43824}) -- The Schools of Arcane Magic - Mastery
     }
 }) -- The Schools of Arcane Magic - Transmutation
+
+sewers.nodes[48504590] = Collectible({
+    id = 32428,
+    icon = 132196,
+    rewards = {Achievement({id = 2556, criteria = 5})}
+}) -- Underbelly Rat
+
+map.nodes[60704817] = Collectible({
+    id = 32428,
+    icon = 132196,
+    note = L['dalaran_sewers'],
+    rewards = {Achievement({id = 2556, criteria = 5})}
+}) -- Underbelly Rat
