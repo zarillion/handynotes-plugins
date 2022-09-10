@@ -19,30 +19,19 @@ local map = Map({ id=120, settings=true })
 
 local tlpd = Rare({
     id = 32491,
+    label = '{npc:32491}, {npc:32630}',
     fgroup='tlpd',
     rewards = {
-        Mount({item=44168,id=265})
+        Mount({item=44168,id=265}),
+        Achievement({id = 2257, criteria = 8120}), -- Frostbitten
+        Transmog({item = 44732, slot = L['leather']}) -- Azure Dragonleather Helm
     }
-}) -- Time-Lost Proto-Drake
+}) -- Time-Lost Proto-Drake, Vyragosa
 
 map.nodes[31457000] = tlpd
 map.nodes[35277688] = tlpd
 map.nodes[51217119] = tlpd
 map.nodes[52303492] = tlpd
-
-local vyra = Rare({
-    id = 32630,
-    fgroup = 'vyra',
-    rewards = {
-        Achievement({id = 2257, criteria = 8120}), -- Frostbitten
-        Transmog({item = 44732, slot = L['leather']}) -- Azure Dragonleather Helm
-    }
-}) -- Vyragosa
-
-map.nodes[32457000] = vyra
-map.nodes[36277688] = vyra
-map.nodes[52217119] = vyra
-map.nodes[53303492] = vyra
 
 map.nodes[41403900] = Rare({
     id = 32500,
