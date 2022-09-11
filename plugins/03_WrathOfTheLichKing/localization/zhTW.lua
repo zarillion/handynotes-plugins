@@ -12,3 +12,4 @@ L['options_icons_squirrels_desc'] = nil
 L['achievement_friend_or_fowl_desc'] = nil
 L['note_devouring_maggot'] = nil
 L['dalaran_sewers'] = nil
+L['in_nexus'] = nil
