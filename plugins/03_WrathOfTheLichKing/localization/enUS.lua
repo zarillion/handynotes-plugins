@@ -2,7 +2,6 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('enUS')
 if not L then return end
 
-
 L['area_spawn'] = 'Spawns in the surrounding area.'
 
 L['squirrels_note'] = 'You must use the emote /love on critters not battle pets'
