@@ -2,7 +2,6 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('zhCN')
 if not L then return end
 
-
 L['area_spawn'] = '在周围地区刷新。'
 
 L['squirrels_note'] = '使用 /love 给非战斗宠物的小动物。'
