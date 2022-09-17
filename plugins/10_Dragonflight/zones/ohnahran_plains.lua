@@ -46,4 +46,4 @@ function Lizi.getters:note()
     return note
 end
 
-map.nodes[nil] = Lizi()
+-- map.nodes[nil] = Lizi()
