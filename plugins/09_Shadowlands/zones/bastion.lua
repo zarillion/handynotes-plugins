@@ -147,7 +147,8 @@ map.nodes[66004367] = Rare({
             65844451, -- Mercia's Legacy: Chapter Seven
             66214333, -- Mercia's Legacy: Chapter Seven
             67394283, -- Mercia's Legacy: Chapter Seven
-            67604342 -- Mercia's Legacy: Chapter Seven
+            67604342, -- Mercia's Legacy: Chapter Seven
+            65304440 -- Mercia's Legacy: Chapter Seven
         })
     }
 }) -- Collector Astorestes
