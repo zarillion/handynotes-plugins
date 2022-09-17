@@ -34,14 +34,16 @@ CURSEFORGE_PROJECTS = {
     'HandyNotes_WarlordsOfDraenor': 413924,
     'HandyNotes_Legion': 413923,
     'HandyNotes_BattleForAzeroth': 413922,
-    'HandyNotes_Shadowlands': 363739
+    'HandyNotes_Shadowlands': 363739,
+    'HandyNotes_Dragonflight': 605372
 }
 
 # curl -H "x-api-token: <token>" https://api.wowinterface.com/addons/list.json
 WOWI_API = 'https://api.wowinterface.com/addons'
 WOWI_PROJECTS = {
     'HandyNotes_BattleForAzeroth': 25829,
-    'HandyNotes_Shadowlands': 25828
+    'HandyNotes_Shadowlands': 25828,
+    'HandyNotes_Dragonflight': 26409
 }
 
 GITHUB_API = 'https://api.github.com/repos/zarillion/handynotes-plugins'
