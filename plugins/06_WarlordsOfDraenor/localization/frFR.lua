@@ -186,7 +186,7 @@ L['pale_elixir_treasure'] = 'Élixir de blafard'
 L['pokkars_thirteenth_axe_treasure'] = 'Treizième hache de Pokhar'
 L['polished_saberon_skull_treasure'] = 'Crâne de sabron poli'
 L['saberon_stash_treasure'] = 'Planque de sabron'
-L['smugglers_cache_note'] = 'Éviter les fils de détente'
+L['smugglers_cache_note'] = 'Évitez les fils à déclenchement'
 L['smugglers_cache_treasure'] = 'Cache de contrebandier'
 L['steamwheedle_supplies_treasure'] = 'Ravitaillement de Gentepression'
 L['telaar_defender_shield_treasure'] = 'Bouclier de défenseur de Telaar'
@@ -303,7 +303,7 @@ L['veemas_herb_bag_treasure'] = 'Sac d’herbes de Veema'
 L['vindicators_cache_treasure'] = 'Cache du redresseur de torts'
 L['waterlogged_chest_treasure'] = 'Coffre détrempé'
 
-L['you_have_been_rylakinated_note'] = 'Nécessite de terminer {quest:34355}.\n\nRécupérez {item:116978} sur les {npc:78999} à proximité pour contrôler {npc:86085}.'
+L['you_have_been_rylakinated_note'] = 'Nécessite de terminer {quest:34355}.\n\nRécupérez une {item:116978} sur les {npc:78999} à proximité pour contrôler {npc:86085}.'
 
 L['artificer_romuul_follower_note'] = 'Terminez l\'événement de défense du cristal pour le recruter comme sujet.'
 
@@ -315,7 +315,7 @@ L['options_icons_you_have_been_rylakinated_desc'] = 'Affichez les emplacements d
 -------------------------------------------------------------------------------
 
 L['abandoned_mining_pick_treasure'] = 'Pioche de mineur abandonnée'
-L['admiral_taylors_coffer_note'] = 'Utilisez le {item:116020} pour déverrouiller le |cffffff00Coffre de l’amiral Taylor|r dans |cffffff00l\'Hôtel de Ville du Fief de l’Amiral Taylor|r'
+L['admiral_taylors_coffer_note'] = 'Utilisez {item:116020} pour déverrouiller le |cffffff00Coffre de l’amiral Taylor|r dans |cffffff00l\'Hôtel de Ville du Fief de l’Amiral Taylor|r'
 L['admiral_taylors_coffer_treasure'] = 'Coffre de l’amiral Taylor'
 L['assassins_spear_treasure'] = 'Lance de l\'assassin'
 L['campaign_contributions_treasure'] = 'Cadeau de campagne électorale'
@@ -464,7 +464,7 @@ Trouvez 4 objets mystérieux en |cffffff00Draenor|r.
 {quest:34464} se trouve à la |cffffff00Crête de Givrefeu|r
 {quest:34465} se trouve en |cffffff00Talador|r
 {quest:34466} se trouve à |cffffff00Nagrand|r
-Remettez chaque quête à {npc:86949} à la |cffffff00Tour de Khadgar|r en |cffffff00Talador|r qui aura alors {quest:34472}. Terminez la quête et parlez ensuite à {npc:77853} pour le recruter comme sujet.
+Terminez chaque quête à {npc:86949} à la |cffffff00Tour de Khadgar|r en |cffffff00Talador|r qui aura alors {quest:34472}. Terminez la quête et parlez ensuite à l'{npc:77853} pour le recruter comme sujet.
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
