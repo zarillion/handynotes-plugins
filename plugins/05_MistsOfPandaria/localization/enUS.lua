@@ -64,3 +64,87 @@ Can be looted multiple times a day.
 The color of the {npc:69842} mount will determine the dropped mount's color.
 ]]
 L['zandalari_warbringer_killed'] = 'Zandalari Warbringer killed.'
+
+L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.'
+L['options_icons_squirrels'] = '{achievement:6350}'
+L['options_icons_squirrels_desc'] = 'Critter locations for {achievement:6350} achievement.'
+
+L['options_icons_lorewalker'] = 'Lorewalker'
+L['options_icons_lorewalker_desc'] = 'Shows the locations for the Lorewalker achievement.'
+
+-------------------------------------------------------------------------------
+--------------------------------- Jade Forest ---------------------------------
+-------------------------------------------------------------------------------
+
+L['ancient_pick'] = '{item:85777} is inside the Greenstone Quarry on the lower level.'
+L['ships_locker'] = 'Ship\'s Locker'
+L['ships_locker_note'] = 'in the sunken ship. Contains about 96 Gold.'
+L['chest_of_supplies'] = 'Chest of Supplies'
+L['chest_of_supplies_note'] = 'Contains about 10 Gold.'
+L['offering_of_rememberance'] = 'Offering of Rememberance'
+L['offering_of_rememberance_note'] = 'Contains about 30 Gold.'
+L['stash_of_gems'] = 'Stash of Gems'
+L['stash_of_gems_note'] = 'Contains about 7 Gold and Gems.'
+
+-------------------------------------------------------------------------------
+-------------------------------- Krasarang Wilds ------------------------------
+-------------------------------------------------------------------------------
+
+L['equipment_locker'] = 'Equipment Locker'
+
+-------------------------------------------------------------------------------
+------------------------------- The Veiled Stair ------------------------------
+-------------------------------------------------------------------------------
+
+L['forgotten_lockbox'] = 'Forgotten Lockbox'
+L['forgotten_lockbox_note'] = 'In the tavern on the second floor.\nContains about 10 Gold.'
+
+-------------------------------------------------------------------------------
+-------------------------- Vale of Eternal Blossoms ---------------------------
+-------------------------------------------------------------------------------
+
+L['guolai_halls'] = 'In the Guo-Lai Halls'
+L['guolai_cache'] = 'Find a {item:87779} and open an Ancient Guo-Lai Cache.'
+
+-------------------------------------------------------------------------------
+------------------------------- Kun Lai Summit --------------------------------
+-------------------------------------------------------------------------------
+
+L['lost_adventurers_belongings'] = 'Lost Adventurer\'s Belongings' -- wowhead.com/object=213774
+L['lost_adventurers_belongings_note'] = 'Contains about 97 Gold.'
+L['momos_treasure_chest'] = 'Mo-Mo\'s Treasure Chest' -- wowhead.com/object=214407
+L['momos_treasure_chest_note'] = 'Contains about 10 Gold.'
+L['hozen_treasure_cache'] = 'Hozen Treasure Cache' -- wowhead.com/object=213769
+L['hozen_treasure_cache_note'] = 'Contains about 99 Gold.'
+L['rikktiks_tick_remover'] = 'Rikktik\'s Tiny Chest' -- wowhead.com/object=213793
+L['stolen_sprite_treasure'] = 'Stolen Sprite Treasure' -- wowhead.com/object=213770
+L['stolen_sprite_treasure_note'] = 'Contains about 104 Gold.'
+L['sturdy_yaungol_spear'] = 'Stash of Yaungol Weapons' -- wowhead.com/object=213842
+L['sprites_cloth_chest'] = 'Sprite\'s Cloth Chest' -- wowhead.com/object=213751
+
+-------------------------------------------------------------------------------
+------------------------------- Townlong Steppes ------------------------------
+-------------------------------------------------------------------------------
+
+L['abandoned_crate_of_goods'] = 'Abandoned Crate of Goods' -- wowhead.com/object=213961
+L['abandoned_crate_of_goods_note'] = 'Contains about 103 Gold.'
+
+-------------------------------------------------------------------------------
+----------------------------- Valley of Four Winds ----------------------------
+-------------------------------------------------------------------------------
+
+L['cache_of_pilfered_goods'] = 'Cache of Pilfered Goods'
+L['virmen_treasure_cache'] = "Virmen Treasure Cache"
+
+-------------------------------------------------------------------------------
+------------------------------- Isle of Thunder -------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_kroshik'] = '{achievement:8108}'
+L['options_icons_kroshik_desc'] = 'Shows the locations for {achievement:8108}.'
+
+L['iot_portal'] = 'Portal'
+L['ritualstone_needed'] = 'You need 3 {item:94221} to summon the rare.'
+L['kroshik_bow'] = '/bow'
+L['kroshik_adult'] = 'Runs around the lake.\n/bow'
+L['kroshik_baby'] = 'Runs around in the area.\n/bow'

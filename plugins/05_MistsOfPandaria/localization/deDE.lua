@@ -61,3 +61,87 @@ L['sunken_treasure_note'] = 'Töte die Elitegegner auf dem gesunkenen Schiff fü
 
 L['zandalari_warbringer_note'] = 'Kann mehrfach am Tag geplündert werden. \nDie Farbe vom Reittier des {npc:69842} bestimmt die Farbe des geplünderten Reittiers.'
 L['zandalari_warbringer_killed'] = 'Kriegshetzer der Zandalari getötet.'
+
+L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE Kampfhaustiere).'
+L['options_icons_squirrels'] = '{achievement:6350}'
+L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:6350} an.'
+
+L['options_icons_lorewalker'] = 'Lehrensucher'
+L['options_icons_lorewalker_desc'] = 'Zeigt die Orte für die Lehrensucher Erfolge.'
+
+-------------------------------------------------------------------------------
+--------------------------------- Jade Forest ---------------------------------
+-------------------------------------------------------------------------------
+
+L['ancient_pick'] = '{item:85777} befindet sich im Grünsteinbruch auf der unteren Ebene.'
+L['ships_locker'] = 'Schiffstruhe'
+L['ships_locker_note'] = 'Im versunkenen Schiff. enthält ca. 96 Gold.'
+L['chest_of_supplies'] = 'Kiste mit Vorräten'
+L['chest_of_supplies_note'] = 'Enthält ca. 10 Gold.'
+L['offering_of_rememberance'] = 'Opfergabe des Erinnerns'
+L['offering_of_rememberance_note'] = 'Enthält ca. 30 Gold.'
+L['stash_of_gems'] = 'Edelsteinkästchen'
+L['stash_of_gems_note'] = 'Enthält ca. 7 Gold und Edelsteine.'
+
+-------------------------------------------------------------------------------
+-------------------------------- Krasarang Wilds ------------------------------
+-------------------------------------------------------------------------------
+
+L['equipment_locker'] = 'Ausrüstungsspind'
+
+-------------------------------------------------------------------------------
+------------------------------- The Veiled Stair ------------------------------
+-------------------------------------------------------------------------------
+
+L['forgotten_lockbox'] = 'Vergessene Schließkassette'
+L['forgotten_lockbox_note'] = 'In der Taverne auf der zweiten Ebene.\nEnthält ca. 10 Gold.'
+
+-------------------------------------------------------------------------------
+-------------------------- Vale of Eternal Blossoms ---------------------------
+-------------------------------------------------------------------------------
+
+L['guolai_halls'] = 'In den Guo-Lai-Hallen'
+L['guolai_cache'] = 'Finde einen {item:87779} und öffne eine uralte Guo-Lai-Truhe.'
+
+-------------------------------------------------------------------------------
+------------------------------- Kun Lai Summit --------------------------------
+-------------------------------------------------------------------------------
+
+L['lost_adventurers_belongings'] = 'Besitztümer des verschollenen Abenteurers'
+L['lost_adventurers_belongings_note'] = 'Enthält ca. 97 Gold.'
+L['momos_treasure_chest'] = 'Mo-Mos Schatztruhe'
+L['momos_treasure_chest_note'] = 'Enthält ca. 10 Gold.'
+L['hozen_treasure_cache'] = 'Schatztruhe der Ho-zen'
+L['hozen_treasure_cache_note'] = 'Enthält ca. 99 Gold.'
+L['rikktiks_tick_remover'] = 'Rikktiks Schatulle'
+L['stolen_sprite_treasure'] = 'Gestohlene Berggeiststatue'
+L['stolen_sprite_treasure_note'] = 'Enthält ca. 104 Gold.'
+L['sturdy_yaungol_spear'] = 'Stapel mit Yaungolwaffen'
+L['sprites_cloth_chest'] = 'Stoffkiste des Berggeists'
+
+-------------------------------------------------------------------------------
+------------------------------- Townlong Steppes ------------------------------
+-------------------------------------------------------------------------------
+
+L['abandoned_crate_of_goods'] = 'Zurückgelassene Warenkiste'
+L['abandoned_crate_of_goods_note'] = 'Enthält ca. 103 Gold.'
+
+-------------------------------------------------------------------------------
+----------------------------- Valley of Four Winds ----------------------------
+-------------------------------------------------------------------------------
+
+L['cache_of_pilfered_goods'] = 'Truhe mit geklauten Waren'
+L['virmen_treasure_cache'] = "Schatztruhe der Shed-Ling"
+
+-------------------------------------------------------------------------------
+------------------------------- Isle of Thunder -------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_kroshik'] = '{achievement:8108}'
+L['options_icons_kroshik_desc'] = 'Zeigt die Orte für den Erfolg {achievement:8108}.'
+
+L['iot_portal'] = 'Portal'
+L['ritualstone_needed'] = 'Du brauchst 3 {item:94221} um den Seltenen Gegner zu beschwören.'
+L['kroshik_bow'] = '/verbeugen'
+L['kroshik_adult'] = 'Läuft um den kleinen See herum.\n/verbeugen'
+L['kroshik_baby'] = 'Läuft in der Gegend herum.\n/verbeugen'
