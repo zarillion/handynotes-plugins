@@ -3,6 +3,10 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('frFR')
 if not L then return end
 
+local Gold = ns.color.Gold
+local Orange = ns.color.Orange
+local Red = ns.color.Red
+
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
 -------------------------------------------------------------------------------
