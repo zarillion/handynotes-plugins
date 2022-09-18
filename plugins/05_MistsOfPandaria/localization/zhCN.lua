@@ -64,3 +64,87 @@ L['zandalari_warbringer_note'] = [[
 {npc:69842} 坐骑的颜色决定了掉落坐骑的颜色。
 ]]
 L['zandalari_warbringer_killed'] = '{npc:69842} 已击杀。'
+
+L['squirrels_note'] = nil
+L['options_icons_squirrels'] = '{achievement:6350}'
+L['options_icons_squirrels_desc'] = nil
+
+L['options_icons_lorewalker'] = nil
+L['options_icons_lorewalker_desc'] = nil
+
+-------------------------------------------------------------------------------
+--------------------------------- Jade Forest ---------------------------------
+-------------------------------------------------------------------------------
+
+L['ancient_pick'] = nil
+L['ships_locker'] = nil
+L['ships_locker_note'] = nil
+L['chest_of_supplies'] = nil
+L['chest_of_supplies_note'] = nil
+L['offering_of_rememberance'] = nil
+L['offering_of_rememberance_note'] = nil
+L['stash_of_gems'] = nil
+L['stash_of_gems_note'] = nil
+
+-------------------------------------------------------------------------------
+-------------------------------- Krasarang Wilds ------------------------------
+-------------------------------------------------------------------------------
+
+L['equipment_locker'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- The Veiled Stair ------------------------------
+-------------------------------------------------------------------------------
+
+L['forgotten_lockbox'] = nil
+L['forgotten_lockbox_note'] = nil
+
+-------------------------------------------------------------------------------
+-------------------------- Vale of Eternal Blossoms ---------------------------
+-------------------------------------------------------------------------------
+
+L['guolai_halls'] = nil
+L['guolai_cache'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- Kun Lai Summit --------------------------------
+-------------------------------------------------------------------------------
+
+L['lost_adventurers_belongings'] = nil -- wowhead.com/object=213774
+L['lost_adventurers_belongings_note'] = nil
+L['momos_treasure_chest'] = nil -- wowhead.com/object=214407
+L['momos_treasure_chest_note'] = nil
+L['hozen_treasure_cache'] = nil -- wowhead.com/object=213769
+L['hozen_treasure_cache_note'] = nil
+L['rikktiks_tick_remover'] = nil -- wowhead.com/object=213793
+L['stolen_sprite_treasure'] = nil -- wowhead.com/object=213770
+L['stolen_sprite_treasure_note'] = nil
+L['sturdy_yaungol_spear'] = nil -- wowhead.com/object=213842
+L['sprites_cloth_chest'] = nil -- wowhead.com/object=213751
+
+-------------------------------------------------------------------------------
+------------------------------- Townlong Steppes ------------------------------
+-------------------------------------------------------------------------------
+
+L['abandoned_crate_of_goods'] = nil -- wowhead.com/object=213961
+L['abandoned_crate_of_goods_note'] = nil
+
+-------------------------------------------------------------------------------
+----------------------------- Valley of Four Winds ----------------------------
+-------------------------------------------------------------------------------
+
+L['cache_of_pilfered_goods'] = nil
+L['virmen_treasure_cache'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- Isle of Thunder -------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_kroshik'] = nil
+L['options_icons_kroshik_desc'] = nil
+
+L['iot_portal'] = nil
+L['ritualstone_needed'] = nil
+L['kroshik_bow'] = nil
+L['kroshik_adult'] = nil
+L['kroshik_baby'] = nil
