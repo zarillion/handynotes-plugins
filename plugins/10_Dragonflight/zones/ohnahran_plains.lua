@@ -7,12 +7,51 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+-- local Rare = ns.node.Rare
+local Treasure = ns.node.Treasure
 
+local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
 
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2023, settings = true})
+
+-------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+-- https://www.wowhead.com/beta/achievement=16299/treasures-of-the-ohnahran-plains#comments
+
+-- map.nodes[] = Treasure({
+--     quest = nil,
+--     rewards = {Achievement({id = 16299, criteria = 54709})}
+-- }) -- Cracked Centaur Horn
+
+-- map.nodes[] = Treasure({
+--     quest = nil,
+--     rewards = {Achievement({id = 16299, criteria = 54700})}
+-- }) -- Emerald Gem Cluster
+
+-- map.nodes[] = Treasure({
+--     quest = nil,
+--     rewards = {Achievement({id = 16299, criteria = 54710})}
+-- }) -- Gold Swog Coin
+
+-- map.nodes[] = Treasure({
+--     quest = nil,
+--     rewards = {Achievement({id = 16299, criteria = 54707})}
+-- }) -- Nokhud Warspear
+
+map.nodes[61014337] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16299, criteria = 54708})}
+}) -- Slightly Chewed Duck Egg
+
+-- map.nodes[] = Treasure({
+--     quest = nil,
+--     rewards = {Achievement({id = 16299, criteria = 54711})}
+-- }) -- Yennu's Boat
 
 -------------------------------------------------------------------------------
 ------------------------- LIZI, THUNDERSPINE TRAMPLER -------------------------
