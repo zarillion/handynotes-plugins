@@ -27,7 +27,7 @@ map.nodes[40454136] = Treasure({
 }) -- Bubble Drifter
 
 map.nodes[69314658] = Treasure({
-    quest = nil,
+    quest = 70346,
     rewards = {Achievement({id = 16297, criteria = 54702})}
 }) -- Dead Man's Chestplate
 
