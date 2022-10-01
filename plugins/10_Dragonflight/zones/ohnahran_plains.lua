@@ -13,6 +13,9 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
+local Pet = ns.reward.Pet
+
+local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 
@@ -44,9 +47,14 @@ local map = Map({id = 2023, settings = true})
 --     rewards = {Achievement({id = 16299, criteria = 54707})}
 -- }) -- Nokhud Warspear
 
-map.nodes[61014337] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 16299, criteria = 54708})}
+map.nodes[70603543] = Treasure({
+    quest = 67950, -- 67718
+    note = L['slightly_chewed_duck_egg_note'],
+    rewards = {
+        Achievement({id = 16299, criteria = 54708}),
+        Pet({item = 199172, id = 3309}) -- Viridescent Duck
+    },
+    pois = {Path({61044337, 61274149, 61524124, 61754141, 61864232})}
 }) -- Slightly Chewed Duck Egg
 
 -- map.nodes[] = Treasure({
