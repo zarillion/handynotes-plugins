@@ -6,9 +6,9 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['dragon_glyph'] = "Drachenglyphe"
-L["options_icons_dragon_glyph"] = "Drachenglyphen"
-L["options_icons_dragon_glyph_desc"] = "Zeigt die Position aller 48 Drachenglyphen an."
+L['dragon_glyph'] = 'Drachenglyphe'
+L['options_icons_dragon_glyph'] = 'Drachenglyphen'
+L['options_icons_dragon_glyph_desc'] = 'Zeigt die Position aller 48 Drachenglyphen an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
