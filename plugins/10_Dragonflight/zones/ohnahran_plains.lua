@@ -8,8 +8,8 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Dragonglyph = ns.node.Dragonglyph
--- local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -21,6 +21,288 @@ local Path = ns.poi.Path
 
 local map = Map({id = 2023, settings = true})
 
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+-- map.nodes[] = Rare({
+--     id = 195186,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Cinta the Forgotten
+-- map.nodes[] = Rare({
+--     id = 189652,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Deadwaker Ghendish
+-- map.nodes[] = Rare({
+--     id = 192020,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Eaglemaster Niraak
+-- map.nodes[] = Rare({
+--     id = 193142,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Enraged Sapphire
+-- map.nodes[] = Rare({
+--     id = 193170,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Fulgurb
+-- map.nodes[] = Rare({
+--     id = 187781,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Hamett
+-- map.nodes[] = Rare({
+--     id = 188095,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Hunter of Deep
+-- map.nodes[] = Rare({
+--     id = 188124,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Irontree
+-- map.nodes[] = Rare({
+--     id = 197009,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Liskheszaera
+-- map.nodes[] = Rare({
+--     id = 195409,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Makhra the Ashtouched
+-- map.nodes[] = Rare({
+--     id = 193212,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Malsegan
+-- map.nodes[] = Rare({
+--     id = 193173,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Mikrin of the Raging Winds
+-- map.nodes[] = Rare({
+--     id = 187219,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Nokhud Warmaster
+-- map.nodes[] = Rare({
+--     id = 196350,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Old Stormhide
+-- map.nodes[] = Rare({
+--     id = 193235,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Oshigol
+-- map.nodes[] = Rare({
+--     id = 191950,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Porta the Overgrown
+-- map.nodes[] = Rare({
+--     id = 192557,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Quackers the Terrible
+-- map.nodes[] = Rare({
+--     id = 196010,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Researcher Sneakwing
+-- map.nodes[] = Rare({
+--     id = 193227,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Ronsak the Decimator
+-- map.nodes[] = Rare({
+--     id = 195223,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Rustlily
+-- map.nodes[] = Rare({
+--     id = 193215,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Scaleseeker Mezeri
+map.nodes[50117517] = Rare({
+    id = 193136,
+    quest = nil,
+    rewards = {Achievement({id = 16677, criteria = 56063})}
+}) -- Scav Notail
+
+-- map.nodes[] = Rare({
+--     id = 193188,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Seeker Teryx
+-- map.nodes[] = Rare({
+--     id = 187559,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Shade of Grief
+-- map.nodes[] = Rare({
+--     id = 193165,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Sparkspitter Vrak
+-- map.nodes[] = Rare({
+--     id = 193123,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Steamgill
+-- map.nodes[] = Rare({
+--     id = 191842,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Sulfurion
+-- map.nodes[] = Rare({
+--     id = 196334,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- The Great Enla
+-- map.nodes[] = Rare({
+--     id = 195204,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- The Jolly Giant
+-- map.nodes[] = Rare({
+--     id = 192453,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Vaniik the Stormtouched
+-- map.nodes[] = Rare({
+--     id = 192364,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Windscale the Stormborn
+-- map.nodes[] = Rare({
+--     id = 192045,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Windseeker Avash
+-- map.nodes[] = Rare({
+--     id = 193140,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Zarizz
+-- map.nodes[] = Rare({
+--     id = 193209,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Zenet Avis
+-- map.nodes[] = Rare({
+--     id = 188451,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16677, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Zerimek
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
