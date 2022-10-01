@@ -7,8 +7,8 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['dragon_glyph'] = nil
-L["options_icons_dragon_glyph"] = nil
-L["options_icons_dragon_glyph_desc"] = nil
+L['options_icons_dragon_glyph'] = nil
+L['options_icons_dragon_glyph_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -17,6 +17,8 @@ L["options_icons_dragon_glyph_desc"] = nil
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
+
+L['slightly_chewed_duck_egg_note'] = nil
 
 L['lizi_note'] = nil
 L['lizi_note_day1'] = nil
