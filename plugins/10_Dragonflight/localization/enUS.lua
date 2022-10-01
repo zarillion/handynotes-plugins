@@ -27,6 +27,8 @@ L["options_icons_dragon_glyph_desc"] = "Display the location of all 48 dragon gl
 -- {item:200598} = Meluun's Green Curry
 -- {npc:190015} = Ohn Meluun
 
+L['slightly_chewed_duck_egg_note'] = 'Find and pet {npc:192997} to get {item:195453} then use it. {item:199171} incubates in 3 days into {item:199172}.'
+
 L['lizi_note'] = 'Complete the Initiate\'s Day Out storyline starting with {quest:65901}. Complete the quests each day to mend Lizi and receive your mount.\n\nIn addition to items required all quests require 150x {currency:2003} for a total of 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Collect 20x {item:192615} from insect mobs in the |cFFFFFD00Dragon Isles|r'
 L['lizi_note_day2'] = 'Collect 10x {item:192658} from plant mobs in the |cFFFFFD00Dragon Isles|r'

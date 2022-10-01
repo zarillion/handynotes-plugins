@@ -18,6 +18,8 @@ L["options_icons_dragon_glyph_desc"] = "Zeigt die Position aller 48 Drachenglyph
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutz diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
+
 L['lizi_note'] = 'Schließe den Initiate\'s Day Out Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Sammel 20x {item:192615} von Insekten-Gegnern auf den |cFFFFFD00Dracheninseln|r'
 L['lizi_note_day2'] = 'Sammel 10x {item:192658} von Pflanzen-Gegnern auf den |cFFFFFD00Dracheninseln|r'
