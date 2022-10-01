@@ -1,9 +1,8 @@
 name: Automated Build
 
 on:
-  push:
-    branches: [master]
   pull_request:
+  push:
     branches: [master]
 
 jobs:
@@ -33,8 +32,8 @@ jobs:
       - name: Cache/restore ~/.luarocks directory
         uses: actions/cache@v2
         with:
-            path: ~/.luarocks
-            key: ${{ runner.os }}-cache-lua-rocks-${{ env.lua-version }}-20220515
+          path: ~/.luarocks
+          key: ${{ runner.os }}-cache-lua-rocks-${{ env.lua-version }}-20220515
 
       - name: Install luacheck
         run: |
