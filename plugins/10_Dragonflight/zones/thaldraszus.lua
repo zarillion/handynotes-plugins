@@ -2,19 +2,244 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+-- local Class = ns.Class
 -- local L = ns.locale
 local Map = ns.Map
 
+-- local Collectible = ns.node.Collectible
 local Dragonglyph = ns.node.Dragonglyph
--- local Rare = ns.node.Rare
 -- local Treasure = ns.node.Treasure
+local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
+-- local Mount = ns.reward.Mount
+-- local Pet = ns.reward.Pet
 
+-- local Path = ns.poi.Path
 -------------------------------------------------------------------------------
-
 local map = Map({id = 2025, settings = true})
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+-- map.nodes[] = Rare({
+--     id = 193664,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Ancient Protector
+-- map.nodes[] = Rare({
+--     id = 193128,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Blightpaw the Depraved
+-- map.nodes[] = Rare({
+--     id = 193220,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Broodweaver Araznae
+-- map.nodes[] = Rare({
+--     id = 193658,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Corrupted Proto-Dragon
+map.nodes[52746732] = Rare({
+    id = 193663,
+    quest = nil,
+    rewards = {Achievement({id = 16679, criteria = 56154})}
+}) -- Craggravated Elemental
 
+-- map.nodes[] = Rare({
+--     id = 193234,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Eldoren the Reborn
+-- map.nodes[] = Rare({
+--     id = 193125,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Goremaul the Gluttonous
+-- map.nodes[] = Rare({
+--     id = 193126,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Innumerable Ruination
+-- map.nodes[] = Rare({
+--     id = 193241,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Lord Epochbrgl
+-- map.nodes[] = Rare({
+--     id = 193246,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Matriarch Remalla
+-- map.nodes[] = Rare({
+--     id = 193688,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Phenran
+-- map.nodes[] = Rare({
+--     id = 193210,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Phleep
+-- map.nodes[] = Rare({
+--     id = 193130,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Pleasant Alpha
+-- map.nodes[] = Rare({
+--     id = 193143,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Razk'vex the Untamed
+-- map.nodes[] = Rare({
+--     id = 193240,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Riverwalker Tamopo
+-- map.nodes[] = Rare({
+--     id = 193666,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Rokmur
+-- map.nodes[] = Rare({
+--     id = 193176,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Sandana the Tempest
+-- map.nodes[] = Rare({
+--     id = 193258,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Tempestrian
+-- map.nodes[] = Rare({
+--     id = 191305,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- The Great Shellkhan
+-- map.nodes[] = Rare({
+--     id = 183984,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- The Weeping Vilomah
+-- map.nodes[] = Rare({
+--     id = 193146,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Treasure-Mad Trambladd
+-- map.nodes[] = Rare({
+--     id = 193161,
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16679, criteria = }),
+--         Transmog({item = , slot = L['']}) -- Name
+--     }
+-- }) -- Woolfang
+-------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+-- map.nodes[] = Treasure({
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16301, criteria = }),
+--         Pet({item = , id = }) --
+--     }
+-- }) -- Acorn Harvester
+-- map.nodes[] = Treasure({
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16301, criteria = }),
+--         Pet({item = , id = }) --
+--     }
+-- }) -- Amber Gem Cluster
+-- map.nodes[] = Treasure({
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16301, criteria = }),
+--         Pet({item = , id = }) --
+--     }
+-- }) -- Cracked Hourglass
+-- map.nodes[] = Treasure({
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16301, criteria = }),
+--         Pet({item = , id = }) --
+--     }
+-- }) -- Elegant Canvas Brush
+-- map.nodes[] = Treasure({
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16301, criteria = }),
+--         Pet({item = , id = }) --
+--     }
+-- }) -- Sandy Wooden Duck
+-- map.nodes[] = Treasure({
+--     quest = ,
+--     rewards = {
+--         Achievement({id = 16301, criteria = }),
+--         Pet({item = , id = }) --
+--     }
+-- }) -- Surveyor's Magnifying Glass
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
