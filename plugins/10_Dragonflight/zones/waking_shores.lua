@@ -65,13 +65,11 @@ local map = Map({id = 2022, settings = true})
 --     }
 -- }) -- Brundin the Dragonbane
 
--- map.nodes[] = Rare({
---     id = 193198,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56050}),
---     }
--- }) -- Captain Lancer
+map.nodes[26847642] = Rare({
+    id = 193198,
+    quest = nil, -- ? 72127
+    rewards = {Achievement({id = 16676, criteria = 56050})}
+}) -- Captain Lancer
 
 map.nodes[26245797] = Rare({
     id = 186783,
