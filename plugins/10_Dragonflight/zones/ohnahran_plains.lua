@@ -29,7 +29,7 @@ local map = Map({id = 2023, settings = true})
 --     id = 195186,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56092}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Cinta the Forgotten
@@ -38,7 +38,7 @@ local map = Map({id = 2023, settings = true})
 --     id = 189652,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56068}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Deadwaker Ghendish
@@ -47,7 +47,7 @@ local map = Map({id = 2023, settings = true})
 --     id = 192020,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56077}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Eaglemaster Niraak
@@ -56,7 +56,7 @@ local map = Map({id = 2023, settings = true})
 --     id = 193142,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56064}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Enraged Sapphire
@@ -65,7 +65,7 @@ local map = Map({id = 2023, settings = true})
 --     id = 193170,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56075}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Fulgurb
@@ -74,7 +74,7 @@ local map = Map({id = 2023, settings = true})
 --     id = 187781,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56082}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Hamett
@@ -83,7 +83,7 @@ local map = Map({id = 2023, settings = true})
 --     id = 188095,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56083}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Hunter of Deep
@@ -92,7 +92,7 @@ local map = Map({id = 2023, settings = true})
 --     id = 188124,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56084}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Irontree
@@ -101,7 +101,7 @@ local map = Map({id = 2023, settings = true})
 --     id = 197009,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56067}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Liskheszaera
@@ -110,7 +110,7 @@ local map = Map({id = 2023, settings = true})
 --     id = 195409,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56094}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Makhra the Ashtouched
@@ -125,7 +125,7 @@ map.nodes[71694585] = Rare({
 --     id = 193173,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56070}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Mikrin of the Raging Winds
@@ -134,7 +134,7 @@ map.nodes[71694585] = Rare({
 --     id = 187219,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56081}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Nokhud Warmaster
@@ -143,7 +143,7 @@ map.nodes[71694585] = Rare({
 --     id = 196350,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56096}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Old Stormhide
@@ -158,7 +158,7 @@ map.nodes[61212950] = Rare({
 --     id = 191950,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56087}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Porta the Overgrown
@@ -167,7 +167,7 @@ map.nodes[61212950] = Rare({
 --     id = 192557,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56091}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Quackers the Terrible
@@ -176,7 +176,7 @@ map.nodes[61212950] = Rare({
 --     id = 196010,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56069}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Researcher Sneakwing
@@ -185,7 +185,7 @@ map.nodes[61212950] = Rare({
 --     id = 193227,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56071}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Ronsak the Decimator
@@ -194,7 +194,7 @@ map.nodes[61212950] = Rare({
 --     id = 195223,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56093}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Rustlily
@@ -203,7 +203,7 @@ map.nodes[61212950] = Rare({
 --     id = 193215,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56079}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Scaleseeker Mezeri
@@ -218,7 +218,7 @@ map.nodes[50117517] = Rare({
 --     id = 193188,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56065}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Seeker Teryx
@@ -227,7 +227,7 @@ map.nodes[50117517] = Rare({
 --     id = 187559,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56080}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Shade of Grief
@@ -236,7 +236,7 @@ map.nodes[50117517] = Rare({
 --     id = 193165,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56062}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Sparkspitter Vrak
@@ -245,7 +245,7 @@ map.nodes[50117517] = Rare({
 --     id = 193123,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56072}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Steamgill
@@ -260,7 +260,7 @@ map.nodes[78298276] = Rare({
 --     id = 196334,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56095}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- The Great Enla
@@ -269,7 +269,7 @@ map.nodes[78298276] = Rare({
 --     id = 195204,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56088}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- The Jolly Giant
@@ -278,7 +278,7 @@ map.nodes[78298276] = Rare({
 --     id = 192453,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56090}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Vaniik the Stormtouched
@@ -287,7 +287,7 @@ map.nodes[78298276] = Rare({
 --     id = 192364,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56089}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Windscale the Stormborn
@@ -296,7 +296,7 @@ map.nodes[78298276] = Rare({
 --     id = 192045,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56076}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Windseeker Avash
@@ -305,7 +305,7 @@ map.nodes[78298276] = Rare({
 --     id = 193140,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56078}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Zarizz
@@ -314,7 +314,7 @@ map.nodes[78298276] = Rare({
 --     id = 193209,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56066}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Zenet Avis
@@ -323,7 +323,7 @@ map.nodes[78298276] = Rare({
 --     id = 188451,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16677, criteria = }),
+--         Achievement({id = 16677, criteria = 56085}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Zerimek

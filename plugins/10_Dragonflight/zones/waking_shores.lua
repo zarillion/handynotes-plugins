@@ -29,7 +29,7 @@ local map = Map({id = 2022, settings = true})
 --     id = 193132,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = 56054 }),
+--         Achievement({id = 16676, criteria = 56045}),
 --     }
 -- }) -- Amethyzar the Glittering
 
@@ -69,7 +69,7 @@ local map = Map({id = 2022, settings = true})
 --     id = 193198,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = 56056}),
+--         Achievement({id = 16676, criteria = 56050}),
 --     }
 -- }) -- Captain Lancer
 
@@ -83,7 +83,7 @@ map.nodes[26245797] = Rare({
 --     id = 190991,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria =56060}),
+--         Achievement({id = 16676, criteria = 56060}),
 --     }
 -- }) -- Char
 
@@ -139,7 +139,7 @@ map.nodes[26245797] = Rare({
 --     id = 193266,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = 56057}),
+--         Achievement({id = 16676, criteria = 56055}),
 --     }
 -- }) -- Lepidoralia the Resplendent
 
