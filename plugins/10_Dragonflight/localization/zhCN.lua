@@ -10,6 +10,10 @@ L['dragon_glyph'] = nil
 L['options_icons_dragon_glyph'] = nil
 L['options_icons_dragon_glyph_desc'] = nil
 
+L['scout_pack'] = nil
+L['options_icons_scout_pack'] = nil
+L['options_icons_scout_pack_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

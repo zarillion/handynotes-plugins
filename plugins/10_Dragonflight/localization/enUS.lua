@@ -10,6 +10,10 @@ L['dragon_glyph'] = 'Dragon Glyph'
 L['options_icons_dragon_glyph'] = 'Dragon Glyphs'
 L['options_icons_dragon_glyph_desc'] = 'Display the location of all 48 dragon glyphs.'
 
+L['scout_pack'] = 'Expedition Scout\'s Pack'
+L['options_icons_scout_pack'] = 'Expedition Scout\'s Packs'
+L['options_icons_scout_pack_desc'] = 'Display the location of Expedition Scout\'s Packs.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
