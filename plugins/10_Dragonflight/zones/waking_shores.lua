@@ -261,7 +261,10 @@ map.nodes[33525576] = Rare({
 
 map.nodes[40454136] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 16297, criteria = 54699})}
+    rewards = {
+        Achievement({id = 16297, criteria = 54699}),
+        Pet({item = 193852, id = 3269}) -- Azure Frillfish
+    }
 }) -- Bubble Drifter
 
 map.nodes[69314658] = Treasure({
@@ -295,7 +298,7 @@ map.nodes[69314658] = Treasure({
 -- }) -- Torn Riding Pack
 
 map.nodes[46713121] = Treasure({
-    quest = nil,
+    quest = 70345,
     rewards = {Achievement({id = 16297, criteria = 54701})}
 }) -- Yennu's Kite
 
