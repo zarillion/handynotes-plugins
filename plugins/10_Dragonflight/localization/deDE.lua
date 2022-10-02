@@ -36,3 +36,6 @@ L['lizi_note_day5'] = 'Kaufe 1x {item:200598} von {npc:190015} in einem Zelt sü
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
+
+L['hidden_hornswog_hoard'] = 'Versteckter Flunkerhort'
+L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item:200066}, kombiniere diese beim "Observant Riddles: A Field Guide" nahe dem Schatz und füttere dann den Frosch damit.'
