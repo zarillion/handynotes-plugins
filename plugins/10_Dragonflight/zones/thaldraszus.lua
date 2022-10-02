@@ -25,32 +25,28 @@ local map = Map({id = 2025, settings = true})
 --     id = 193664,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56158}),
 --     }
 -- }) -- Ancient Protector
 -- map.nodes[] = Rare({
 --     id = 193128,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56136}),
 --     }
 -- }) -- Blightpaw the Depraved
 -- map.nodes[] = Rare({
 --     id = 193220,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56149}),
 --     }
 -- }) -- Broodweaver Araznae
 -- map.nodes[] = Rare({
 --     id = 193658,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56156}),
 --     }
 -- }) -- Corrupted Proto-Dragon
 map.nodes[52746732] = Rare({
@@ -63,136 +59,119 @@ map.nodes[52746732] = Rare({
 --     id = 193234,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56147}),
 --     }
 -- }) -- Eldoren the Reborn
 -- map.nodes[] = Rare({
 --     id = 193125,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56138}),
 --     }
 -- }) -- Goremaul the Gluttonous
 -- map.nodes[] = Rare({
 --     id = 193126,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56135}),
 --     }
 -- }) -- Innumerable Ruination
 -- map.nodes[] = Rare({
 --     id = 193241,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56157}),
 --     }
 -- }) -- Lord Epochbrgl
 -- map.nodes[] = Rare({
 --     id = 193246,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56141}),
 --     }
 -- }) -- Matriarch Remalla
 -- map.nodes[] = Rare({
 --     id = 193688,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56140}),
 --     }
 -- }) -- Phenran
 -- map.nodes[] = Rare({
 --     id = 193210,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56142}),
 --     }
 -- }) -- Phleep
 -- map.nodes[] = Rare({
 --     id = 193130,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56137}),
 --     }
 -- }) -- Pleasant Alpha
 -- map.nodes[] = Rare({
 --     id = 193143,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56133}),
 --     }
 -- }) -- Razk'vex the Untamed
 -- map.nodes[] = Rare({
 --     id = 193240,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56148}),
 --     }
 -- }) -- Riverwalker Tamopo
 -- map.nodes[] = Rare({
 --     id = 193666,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56151}),
 --     }
 -- }) -- Rokmur
 -- map.nodes[] = Rare({
 --     id = 193176,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56150}),
 --     }
 -- }) -- Sandana the Tempest
 -- map.nodes[] = Rare({
 --     id = 193258,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56144}),
 --     }
 -- }) -- Tempestrian
 -- map.nodes[] = Rare({
 --     id = 191305,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56155}),
 --     }
 -- }) -- The Great Shellkhan
 -- map.nodes[] = Rare({
 --     id = 183984,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56153}),
 --     }
 -- }) -- The Weeping Vilomah
 -- map.nodes[] = Rare({
 --     id = 193146,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56146}),
 --     }
 -- }) -- Treasure-Mad Trambladd
 -- map.nodes[] = Rare({
 --     id = 193161,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16679, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16679, criteria = 56152}),
 --     }
 -- }) -- Woolfang
 -------------------------------------------------------------------------------
