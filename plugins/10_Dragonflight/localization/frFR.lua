@@ -18,6 +18,8 @@ L['options_icons_dragon_glyph_desc'] = nil
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['shade_of_grief_note'] = nil
+
 L['slightly_chewed_duck_egg_note'] = nil
 
 L['lizi_note'] = nil

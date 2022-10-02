@@ -74,7 +74,10 @@ map.nodes[13584855] = Rare({
     id = 197557,
     quest = 70893,
     note = L['Bisquis_Note'],
-    rewards = {Achievement({id = 16678, criteria = 55381})}
+    rewards = {
+        Achievement({id = 16678, criteria = 55381}),
+        Achievement({id = 16444, criteria = 1})
+    }
 }) -- Bisquius
 
 -- map.nodes[] = Rare({

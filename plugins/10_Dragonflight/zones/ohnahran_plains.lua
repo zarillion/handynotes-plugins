@@ -223,14 +223,15 @@ map.nodes[50117517] = Rare({
 --     }
 -- }) -- Seeker Teryx
 
--- map.nodes[] = Rare({
---     id = 187559,
---     quest = ,
---     rewards = {
---         Achievement({id = 16677, criteria = 56080}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Shade of Grief
+map.nodes[29964103] = Rare({
+    id = 187559,
+    quest = nil,
+    note = L['shade_of_grief_note'],
+    rewards = {
+        Achievement({id = 16677, criteria = 56080})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Shade of Grief
 
 -- map.nodes[] = Rare({
 --     id = 193165,
