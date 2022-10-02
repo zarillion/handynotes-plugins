@@ -29,7 +29,7 @@ local map = Map({id = 2024, settings = true})
 --     id = 194270,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56099}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Arcane Devourer
@@ -38,7 +38,7 @@ local map = Map({id = 2024, settings = true})
 --     id = 193255,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56123}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Archmage Cleary
@@ -47,7 +47,7 @@ local map = Map({id = 2024, settings = true})
 --     id = 197411,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56130}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Astray Splasher
@@ -56,7 +56,7 @@ local map = Map({id = 2024, settings = true})
 --     id = 194210,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56105}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Azure Pathfinder
@@ -65,7 +65,7 @@ local map = Map({id = 2024, settings = true})
 --     id = 193116,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56106}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Beogoka
@@ -81,7 +81,7 @@ map.nodes[13584855] = Rare({
 --     id = 193178,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56122}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Blightfur
@@ -90,7 +90,7 @@ map.nodes[13584855] = Rare({
 --     id = 197353,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56126}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Blisterhide
@@ -99,7 +99,7 @@ map.nodes[13584855] = Rare({
 --     id = 193259,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56108}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Blue Terror
@@ -108,7 +108,7 @@ map.nodes[13584855] = Rare({
 --     id = 194392,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56103}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Brackle
@@ -117,7 +117,7 @@ map.nodes[13584855] = Rare({
 --     id = 193157,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56098}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Dragonhunter Gorund
@@ -126,7 +126,7 @@ map.nodes[13584855] = Rare({
 --     id = 193691,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56115}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Fisherman Tinnak
@@ -135,7 +135,7 @@ map.nodes[13584855] = Rare({
 --     id = 193698,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56104}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Frigidpelt Den Mother
@@ -144,7 +144,7 @@ map.nodes[13584855] = Rare({
 --     id = 191356,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56101}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Frostpaw
@@ -153,7 +153,7 @@ map.nodes[13584855] = Rare({
 --     id = 197354,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56127}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Gnarls
@@ -162,7 +162,7 @@ map.nodes[13584855] = Rare({
 --     id = 193251,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56111}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Gruffy
@@ -171,7 +171,7 @@ map.nodes[13584855] = Rare({
 --     id = 193269,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56112}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Grumbletrunk
@@ -180,7 +180,7 @@ map.nodes[13584855] = Rare({
 --     id = 197356,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56128}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- High Shaman Rotknuckle
@@ -189,7 +189,7 @@ map.nodes[13584855] = Rare({
 --     id = 190244,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56109}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Mahg the Trampler
@@ -198,7 +198,7 @@ map.nodes[13584855] = Rare({
 --     id = 198004,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56100}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Mange the Outcast
@@ -207,7 +207,7 @@ map.nodes[13584855] = Rare({
 --     id = 193735,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56119}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Moth'go Deeploom
@@ -216,7 +216,7 @@ map.nodes[13584855] = Rare({
 --     id = 193201,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56102}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Mucka the Raker
@@ -225,7 +225,7 @@ map.nodes[13584855] = Rare({
 --     id = 193225,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56107}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Notfar the Unbearable
@@ -234,7 +234,7 @@ map.nodes[13584855] = Rare({
 --     id = 197371,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56129}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Ravenous Tundra Bear
@@ -243,7 +243,7 @@ map.nodes[13584855] = Rare({
 --     id = 193693,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56113}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Rusthide
@@ -252,7 +252,7 @@ map.nodes[13584855] = Rare({
 --     id = 193710,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56118}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Seereel, the Spring
@@ -261,7 +261,7 @@ map.nodes[13584855] = Rare({
 --     id = 193149,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56110}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Skag the Thrower
@@ -270,7 +270,7 @@ map.nodes[13584855] = Rare({
 --     id = 193708,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56117}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Skald the Impaler
@@ -279,7 +279,7 @@ map.nodes[13584855] = Rare({
 --     id = 197344,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56125}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Snarglebone
@@ -288,7 +288,7 @@ map.nodes[13584855] = Rare({
 --     id = 193706,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56116}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Snufflegust
@@ -304,7 +304,7 @@ map.nodes[54993414] = Rare({
 --     id = 193167,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56121}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Swagraal the Swollen
@@ -313,7 +313,7 @@ map.nodes[54993414] = Rare({
 --     id = 193634,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56120}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Swog'ranka
@@ -322,7 +322,7 @@ map.nodes[54993414] = Rare({
 --     id = 193196,
 --     quest = ,
 --     rewards = {
---         Achievement({id =16678, criteria = }),
+--         Achievement({id =16678, criteria = 56114}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Trilvarus Loreweaver
@@ -331,7 +331,7 @@ map.nodes[54993414] = Rare({
 --     id = 193632,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16678, criteria = }),
+--         Achievement({id = 16678, criteria = 56097}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Wilrive
