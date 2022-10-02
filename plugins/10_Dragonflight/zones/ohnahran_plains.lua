@@ -33,6 +33,7 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Cinta the Forgotten
+
 -- map.nodes[] = Rare({
 --     id = 189652,
 --     quest = ,
@@ -41,6 +42,7 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Deadwaker Ghendish
+
 -- map.nodes[] = Rare({
 --     id = 192020,
 --     quest = ,
@@ -49,6 +51,7 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Eaglemaster Niraak
+
 -- map.nodes[] = Rare({
 --     id = 193142,
 --     quest = ,
@@ -57,6 +60,7 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Enraged Sapphire
+
 -- map.nodes[] = Rare({
 --     id = 193170,
 --     quest = ,
@@ -65,6 +69,7 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Fulgurb
+
 -- map.nodes[] = Rare({
 --     id = 187781,
 --     quest = ,
@@ -73,6 +78,7 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Hamett
+
 -- map.nodes[] = Rare({
 --     id = 188095,
 --     quest = ,
@@ -81,6 +87,7 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Hunter of Deep
+
 -- map.nodes[] = Rare({
 --     id = 188124,
 --     quest = ,
@@ -89,6 +96,7 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Irontree
+
 -- map.nodes[] = Rare({
 --     id = 197009,
 --     quest = ,
@@ -97,6 +105,7 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Liskheszaera
+
 -- map.nodes[] = Rare({
 --     id = 195409,
 --     quest = ,
@@ -105,11 +114,13 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Makhra the Ashtouched
+
 map.nodes[71694585] = Rare({
     id = 193212,
     quest = 69871,
     rewards = {Achievement({id = 16677, criteria = 56073})}
 }) -- Malsegan
+
 -- map.nodes[] = Rare({
 --     id = 193173,
 --     quest = ,
@@ -118,6 +129,7 @@ map.nodes[71694585] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Mikrin of the Raging Winds
+
 -- map.nodes[] = Rare({
 --     id = 187219,
 --     quest = ,
@@ -126,6 +138,7 @@ map.nodes[71694585] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Nokhud Warmaster
+
 -- map.nodes[] = Rare({
 --     id = 196350,
 --     quest = ,
@@ -134,11 +147,13 @@ map.nodes[71694585] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Old Stormhide
+
 map.nodes[61212950] = Rare({
     id = 193235,
     quest = 69877,
     rewards = {Achievement({id = 16677, criteria = 56074})}
 }) -- Oshigol
+
 -- map.nodes[] = Rare({
 --     id = 191950,
 --     quest = ,
@@ -147,6 +162,7 @@ map.nodes[61212950] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Porta the Overgrown
+
 -- map.nodes[] = Rare({
 --     id = 192557,
 --     quest = ,
@@ -155,6 +171,7 @@ map.nodes[61212950] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Quackers the Terrible
+
 -- map.nodes[] = Rare({
 --     id = 196010,
 --     quest = ,
@@ -163,6 +180,7 @@ map.nodes[61212950] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Researcher Sneakwing
+
 -- map.nodes[] = Rare({
 --     id = 193227,
 --     quest = ,
@@ -171,6 +189,7 @@ map.nodes[61212950] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Ronsak the Decimator
+
 -- map.nodes[] = Rare({
 --     id = 195223,
 --     quest = ,
@@ -179,6 +198,7 @@ map.nodes[61212950] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Rustlily
+
 -- map.nodes[] = Rare({
 --     id = 193215,
 --     quest = ,
@@ -187,6 +207,7 @@ map.nodes[61212950] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Scaleseeker Mezeri
+
 map.nodes[50117517] = Rare({
     id = 193136,
     quest = nil,
@@ -201,6 +222,7 @@ map.nodes[50117517] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Seeker Teryx
+
 -- map.nodes[] = Rare({
 --     id = 187559,
 --     quest = ,
@@ -209,6 +231,7 @@ map.nodes[50117517] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Shade of Grief
+
 -- map.nodes[] = Rare({
 --     id = 193165,
 --     quest = ,
@@ -217,6 +240,7 @@ map.nodes[50117517] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Sparkspitter Vrak
+
 -- map.nodes[] = Rare({
 --     id = 193123,
 --     quest = ,
@@ -225,11 +249,13 @@ map.nodes[50117517] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Steamgill
+
 map.nodes[78298276] = Rare({
     id = 191842,
     quest = nil,
     rewards = {Achievement({id = 16677, criteria = 56086})}
 }) -- Sulfurion
+
 -- map.nodes[] = Rare({
 --     id = 196334,
 --     quest = ,
@@ -238,6 +264,7 @@ map.nodes[78298276] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- The Great Enla
+
 -- map.nodes[] = Rare({
 --     id = 195204,
 --     quest = ,
@@ -246,6 +273,7 @@ map.nodes[78298276] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- The Jolly Giant
+
 -- map.nodes[] = Rare({
 --     id = 192453,
 --     quest = ,
@@ -254,6 +282,7 @@ map.nodes[78298276] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Vaniik the Stormtouched
+
 -- map.nodes[] = Rare({
 --     id = 192364,
 --     quest = ,
@@ -262,6 +291,7 @@ map.nodes[78298276] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Windscale the Stormborn
+
 -- map.nodes[] = Rare({
 --     id = 192045,
 --     quest = ,
@@ -270,6 +300,7 @@ map.nodes[78298276] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Windseeker Avash
+
 -- map.nodes[] = Rare({
 --     id = 193140,
 --     quest = ,
@@ -278,6 +309,7 @@ map.nodes[78298276] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Zarizz
+
 -- map.nodes[] = Rare({
 --     id = 193209,
 --     quest = ,
@@ -286,6 +318,7 @@ map.nodes[78298276] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Zenet Avis
+
 -- map.nodes[] = Rare({
 --     id = 188451,
 --     quest = ,
@@ -294,6 +327,7 @@ map.nodes[78298276] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Zerimek
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
