@@ -18,11 +18,13 @@ local Achievement = ns.reward.Achievement
 -- local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
+
 local map = Map({id = 2022, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
+
 -- map.nodes[] = Rare({
 --     id = 193132,
 --     quest = ,
@@ -30,6 +32,7 @@ local map = Map({id = 2022, settings = true})
 --         Achievement({id = 16676, criteria = 56054 }),
 --     }
 -- }) -- Amethyzar the Glittering
+
 -- map.nodes[] = Rare({
 --     id = 187945,
 --     quest = ,
@@ -37,6 +40,7 @@ local map = Map({id = 2022, settings = true})
 --         Achievement({id = 16676, criteria = 56035}),
 --     }
 -- }) -- Anhydros the Tidetaker
+
 -- map.nodes[] = Rare({
 --     id = 193135,
 --     quest = ,
@@ -44,6 +48,7 @@ local map = Map({id = 2022, settings = true})
 --         Achievement({id = 16676, criteria = 56041}),
 --     }
 -- }) -- Azra's Prized Peony
+
 -- map.nodes[] = Rare({
 --     id = 190986,
 --     quest = ,
@@ -51,6 +56,7 @@ local map = Map({id = 2022, settings = true})
 --         Achievement({id = 16676, criteria = 56059}),
 --     }
 -- }) -- Battlehorn Pyrhus
+
 -- map.nodes[] = Rare({
 --     id = 192738,
 --     quest = ,
@@ -58,6 +64,7 @@ local map = Map({id = 2022, settings = true})
 --         Achievement({id = 16676, criteria = 56038}),
 --     }
 -- }) -- Brundin the Dragonbane
+
 -- map.nodes[] = Rare({
 --     id = 193198,
 --     quest = ,
@@ -65,6 +72,7 @@ local map = Map({id = 2022, settings = true})
 --         Achievement({id = 16676, criteria = 56056}),
 --     }
 -- }) -- Captain Lancer
+
 map.nodes[26245797] = Rare({
     id = 186783,
     quest = nil,
@@ -78,6 +86,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria =56060}),
 --     }
 -- }) -- Char
+
 -- map.nodes[] = Rare({
 --     id = 190985,
 --     quest = ,
@@ -85,6 +94,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56053}),
 --     }
 -- }) -- Death's Shadow
+
 -- map.nodes[] = Rare({
 --     id = 193217,
 --     quest = ,
@@ -92,6 +102,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56039}),
 --     }
 -- }) -- Drakewing
+
 -- map.nodes[] = Rare({
 --     id = 193134,
 --     quest = ,
@@ -99,6 +110,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56049}),
 --     }
 -- }) -- Enkine the Voracious
+
 -- map.nodes[] = Rare({
 --     id = 193154,
 --     quest = ,
@@ -106,6 +118,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56048}),
 --     }
 -- }) -- Forgotten Gryphon
+
 -- map.nodes[] = Rare({
 --     id = 196056,
 --     quest = ,
@@ -113,6 +126,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56033}),
 --     }
 -- }) -- Gushgut the Beaksinker
+
 -- map.nodes[43007465] = Rare({
 --     id = 193263,
 --     quest = ,
@@ -120,6 +134,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56037}),
 --     }
 -- }) -- Helmet Missingway
+
 -- map.nodes[] = Rare({
 --     id = 193266,
 --     quest = ,
@@ -127,6 +142,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56057}),
 --     }
 -- }) -- Lepidoralia the Resplendent
+
 -- map.nodes[] = Rare({
 --     id = 186827,
 --     quest = ,
@@ -134,6 +150,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56046}),
 --     }
 -- }) -- Magmaton
+
 -- map.nodes[] = Rare({
 --     id = 193152,
 --     quest = ,
@@ -141,6 +158,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56047}),
 --     }
 -- }) -- Massive Magmashell
+
 -- map.nodes[] = Rare({
 --     id = 193256,
 --     quest = ,
@@ -148,6 +166,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56034}),
 --     }
 -- }) -- Nulltheria the Void Gazer
+
 -- map.nodes[] = Rare({
 --     id = 193118,
 --     quest = ,
@@ -155,6 +174,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56043}),
 --     }
 -- }) -- O'nank Shorescour
+
 -- map.nodes[] = Rare({
 --     id = 192362,
 --     quest = ,
@@ -162,6 +182,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56051}),
 --     }
 -- }) -- Possessive Hornswog
+
 -- map.nodes[] = Rare({
 --     id = 193232,
 --     quest = ,
@@ -169,6 +190,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56061}),
 --     }
 -- }) -- Rasnar the War Ender
+
 -- map.nodes[] = Rare({
 --     id = 187598,
 --     quest = ,
@@ -176,6 +198,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56057}),
 --     }
 -- }) -- Rohzor Forgesmash
+
 -- map.nodes[] = Rare({
 --     id = 189822,
 --     quest = ,
@@ -183,6 +206,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56054}),
 --     }
 -- }) -- Shas'ith
+
 -- map.nodes[] = Rare({
 --     id = 193181,
 --     quest = ,
@@ -190,6 +214,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56036}),
 --     }
 -- }) -- Skewersnout
+
 -- map.nodes[] = Rare({
 --     id = 193120,
 --     quest = ,
@@ -197,6 +222,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56044}),
 --     }
 -- }) -- Smogswog the Firebreather
+
 -- map.nodes[] = Rare({
 --     id = 193228,
 --     quest = ,
@@ -204,6 +230,7 @@ map.nodes[26245797] = Rare({
 --         Achievement({id = 16676, criteria = 56042}),
 --     }
 -- }) -- Snappy
+
 -- map.nodes[] = Rare({
 --     id = 193148,
 --     quest = ,
