@@ -13,9 +13,10 @@ local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
 -- local Mount = ns.reward.Mount
--- local Pet = ns.reward.Pet
+local Pet = ns.reward.Pet
 
 -- local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -297,6 +298,18 @@ map.nodes[46713121] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 16297, criteria = 54701})}
 }) -- Yennu's Kite
+
+-------------------------------------------------------------------------------
+
+map.nodes[64926959] = Treasure({
+    quest = 67048,
+    label = L['hidden_hornswog_hoard'],
+    note = L['hidden_hornswog_hoard_note'],
+    rewards = {
+        Pet({item = 199916, id = 3365}) -- Roseate Hopper
+    },
+    pois = {POI({66165529, 39638468, 47728360})}
+}) -- Hidden Hornswog Hoard
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

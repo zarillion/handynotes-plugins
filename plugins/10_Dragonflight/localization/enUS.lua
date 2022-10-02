@@ -44,3 +44,6 @@ L['lizi_note_day5'] = 'Purchase 1x {item:200598} from {npc:190015} in a tent sou
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
+
+L['hidden_hornswog_hoard'] = 'Hidden Hornswog Hoard'
+L['hidden_hornswog_hoard_note'] = 'Collect {item:200064}, {item:200065} and {item:200066}, combine them at the "Observant Riddles: A Field Guide" near the treasure then feed the frog.'
