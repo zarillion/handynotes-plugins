@@ -11,6 +11,7 @@ local Dragonglyph = ns.node.Dragonglyph
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 -- local Treasure = ns.node.Treasure
+local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
 -- local Mount = ns.reward.Mount
@@ -261,3 +262,17 @@ map.nodes[67121181] = Dragonglyph({rewards = {Achievement({id = 16105})}}) -- Dr
 -------------------------------------------------------------------------------
 
 map.nodes[38796831] = Scoutpack()
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[39467359] = PetBattle({
+    id = 197336,
+    rewards = {Achievement({id = 16464, criteria = 55490})}
+}) -- Enyobon
+
+map.nodes[56274924] = PetBattle({
+    id = 197350,
+    rewards = {Achievement({id = 16464, criteria = 55493})}
+}) -- Setimothes
