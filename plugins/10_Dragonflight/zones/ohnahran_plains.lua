@@ -105,14 +105,11 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Makhra the Ashtouched
--- map.nodes[] = Rare({
---     id = 193212,
---     quest = ,
---     rewards = {
---         Achievement({id = 16677, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Malsegan
+map.nodes[71694585] = Rare({
+    id = 193212,
+    quest = 69871,
+    rewards = {Achievement({id = 16677, criteria = 56073})}
+}) -- Malsegan
 -- map.nodes[] = Rare({
 --     id = 193173,
 --     quest = ,
@@ -137,14 +134,11 @@ local map = Map({id = 2023, settings = true})
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Old Stormhide
--- map.nodes[] = Rare({
---     id = 193235,
---     quest = ,
---     rewards = {
---         Achievement({id = 16677, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Oshigol
+map.nodes[61212950] = Rare({
+    id = 193235,
+    quest = 69877,
+    rewards = {Achievement({id = 16677, criteria = 56074})}
+}) -- Oshigol
 -- map.nodes[] = Rare({
 --     id = 191950,
 --     quest = ,
@@ -231,14 +225,11 @@ map.nodes[50117517] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Steamgill
--- map.nodes[] = Rare({
---     id = 191842,
---     quest = ,
---     rewards = {
---         Achievement({id = 16677, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Sulfurion
+map.nodes[78298276] = Rare({
+    id = 191842,
+    quest = nil,
+    rewards = {Achievement({id = 16677, criteria = 56086})}
+}) -- Sulfurion
 -- map.nodes[] = Rare({
 --     id = 196334,
 --     quest = ,

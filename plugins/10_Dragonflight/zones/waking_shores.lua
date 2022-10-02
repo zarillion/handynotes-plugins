@@ -48,24 +48,21 @@ local map = Map({id = 2022, settings = true})
 --     id = 190986,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56059}),
 --     }
 -- }) -- Battlehorn Pyrhus
 -- map.nodes[] = Rare({
 --     id = 192738,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56038}),
 --     }
 -- }) -- Brundin the Dragonbane
 -- map.nodes[] = Rare({
 --     id = 193198,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56056}),
 --     }
 -- }) -- Captain Lancer
 map.nodes[26245797] = Rare({
@@ -78,156 +75,140 @@ map.nodes[26245797] = Rare({
 --     id = 190991,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria =56060}),
 --     }
 -- }) -- Char
 -- map.nodes[] = Rare({
 --     id = 190985,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56053}),
 --     }
 -- }) -- Death's Shadow
 -- map.nodes[] = Rare({
 --     id = 193217,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56039}),
 --     }
 -- }) -- Drakewing
 -- map.nodes[] = Rare({
 --     id = 193134,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56049}),
 --     }
 -- }) -- Enkine the Voracious
 -- map.nodes[] = Rare({
 --     id = 193154,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56048}),
 --     }
 -- }) -- Forgotten Gryphon
 -- map.nodes[] = Rare({
 --     id = 196056,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56033}),
 --     }
 -- }) -- Gushgut the Beaksinker
 -- map.nodes[43007465] = Rare({
 --     id = 193263,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56037}),
 --     }
 -- }) -- Helmet Missingway
 -- map.nodes[] = Rare({
 --     id = 193266,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56057}),
 --     }
 -- }) -- Lepidoralia the Resplendent
 -- map.nodes[] = Rare({
 --     id = 186827,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56046}),
 --     }
 -- }) -- Magmaton
 -- map.nodes[] = Rare({
 --     id = 193152,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56047}),
 --     }
 -- }) -- Massive Magmashell
 -- map.nodes[] = Rare({
 --     id = 193256,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56034}),
 --     }
 -- }) -- Nulltheria the Void Gazer
 -- map.nodes[] = Rare({
 --     id = 193118,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56043}),
 --     }
 -- }) -- O'nank Shorescour
 -- map.nodes[] = Rare({
 --     id = 192362,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
+--         Achievement({id = 16676, criteria = 56051}),
 --     }
 -- }) -- Possessive Hornswog
 -- map.nodes[] = Rare({
 --     id = 193232,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
+--         Achievement({id = 16676, criteria = 56061}),
 --     }
 -- }) -- Rasnar the War Ender
 -- map.nodes[] = Rare({
 --     id = 187598,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
+--         Achievement({id = 16676, criteria = 56057}),
 --     }
 -- }) -- Rohzor Forgesmash
 -- map.nodes[] = Rare({
 --     id = 189822,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
+--         Achievement({id = 16676, criteria = 56054}),
 --     }
 -- }) -- Shas'ith
 -- map.nodes[] = Rare({
 --     id = 193181,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56036}),
 --     }
 -- }) -- Skewersnout
 -- map.nodes[] = Rare({
 --     id = 193120,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56044}),
 --     }
 -- }) -- Smogswog the Firebreather
 -- map.nodes[] = Rare({
 --     id = 193228,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56042}),
 --     }
 -- }) -- Snappy
 -- map.nodes[] = Rare({
 --     id = 193148,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56040}),
 --     }
 -- }) -- Thunderous Matriarch
 
@@ -242,8 +223,7 @@ map.nodes[33525576] = Rare({
 --     id = 186859,
 --     quest = ,
 --     rewards = {
---         Achievement({id = 16676, criteria = }),
---         Transmog({item = , slot = L['']}) -- Name
+--         Achievement({id = 16676, criteria = 56052}),
 --     }
 -- }) -- Worldcarver A'tir
 
