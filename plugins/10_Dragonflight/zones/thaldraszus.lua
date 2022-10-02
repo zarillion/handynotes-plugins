@@ -8,8 +8,9 @@ local Map = ns.Map
 
 -- local Collectible = ns.node.Collectible
 local Dragonglyph = ns.node.Dragonglyph
--- local Treasure = ns.node.Treasure
 local Rare = ns.node.Rare
+local Scoutpack = ns.node.Scoutpack
+-- local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 -- local Mount = ns.reward.Mount
@@ -254,3 +255,9 @@ map.nodes[41285813] = Dragonglyph({
 }) -- Dragon Glyphs: Valdrakken
 map.nodes[72125131] = Dragonglyph({rewards = {Achievement({id = 16106})}}) -- Dragon Glyphs: Vault of the Incarnates
 map.nodes[67121181] = Dragonglyph({rewards = {Achievement({id = 16105})}}) -- Dragon Glyphs: Veiled Ossuary
+
+-------------------------------------------------------------------------------
+-------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[38796831] = Scoutpack()

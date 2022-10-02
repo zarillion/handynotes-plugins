@@ -8,8 +8,9 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Dragonglyph = ns.node.Dragonglyph
-local Treasure = ns.node.Treasure
 local Rare = ns.node.Rare
+-- local Scoutpack = ns.node.Scoutpack
+local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -421,3 +422,9 @@ map.nodes[86513940] = Dragonglyph({rewards = {Achievement({id = 16062})}}) -- Dr
 map.nodes[44616457] = Dragonglyph({rewards = {Achievement({id = 16058})}}) -- Dragon Glyphs: Szar Skeleth
 map.nodes[29447572] = Dragonglyph({rewards = {Achievement({id = 16057})}}) -- Dragon Glyphs: The Eternal Kurgans
 map.nodes[61486436] = Dragonglyph({rewards = {Achievement({id = 16063})}}) -- Dragon Glyphs: Windsong Rise
+
+-------------------------------------------------------------------------------
+-------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
+-------------------------------------------------------------------------------
+
+-- map.nodes[] = Scoutpack()
