@@ -10,7 +10,7 @@ local Map = ns.Map
 local Dragonglyph = ns.node.Dragonglyph
 local Rare = ns.node.Rare
 -- local Scoutpack = ns.node.Scoutpack
--- local Treasure = ns.node.Treasure
+local Treasure = ns.node.Treasure
 local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
@@ -347,35 +347,38 @@ map.nodes[54993414] = Rare({
 
 -- https://www.wowhead.com/beta/achievement=16300/treasures-of-the-azure-span#comments
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16300, criteria = 54804})}
--- }) -- Forgotten Jewel Box
+map.nodes[18001600] = Treasure({ -- required 70534, 70603
+    quest = nil,
+    requires = ns.requirement.Item(199065), -- Sorrowful Letter
+    rewards = {Achievement({id = 16300, criteria = 54804})}
+}) -- Forgotten Jewel Box
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16300, criteria = 54805})}
--- }) -- Gnoll Fiend Flail
+map.nodes[20001600] = Treasure({ -- required 70535, 70604
+    quest = nil,
+    requires = ns.requirement.Item(199066), -- Letter of Caution
+    rewards = {Achievement({id = 16300, criteria = 54805})}
+}) -- Gnoll Fiend Flail
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16300, criteria = 54807})}
--- }) -- Lost Compass
+map.nodes[22001600] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16300, criteria = 54807})}
+}) -- Lost Compass
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16300, criteria = 54809})}
--- }) -- Pepper Hammer
+map.nodes[24001600] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16300, criteria = 54809})}
+}) -- Pepper Hammer
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16300, criteria = 54808})}
--- }) -- Rubber Fish
+map.nodes[26001600] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16300, criteria = 54808})}
+}) -- Rubber Fish
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16300, criteria = 54806})}
--- }) -- Sapphire Gem Cluster
+map.nodes[18001800] = Treasure({ -- required 70536, 70605
+    quest = nil,
+    requires = ns.requirement.Item(199067), -- Precious Plans
+    rewards = {Achievement({id = 16300, criteria = 54806})}
+}) -- Sapphire Gem Cluster
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

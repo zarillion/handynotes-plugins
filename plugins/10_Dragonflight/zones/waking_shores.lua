@@ -261,8 +261,9 @@ map.nodes[33525576] = Rare({
 
 -- https://www.wowhead.com/beta/achievement=16297/treasures-of-the-waking-shores#comments
 
-map.nodes[40454136] = Treasure({
-    quest = nil,
+map.nodes[40454136] = Treasure({ -- required 65537, 70599, 70527
+    quest = 70599,
+    requires = ns.requirement.Item(199061), -- A Guide to Rare Fish
     rewards = {
         Achievement({id = 16297, criteria = 54699}),
         Pet({item = 193852, id = 3269}) -- Azure Frillfish
@@ -274,30 +275,37 @@ map.nodes[69314658] = Treasure({
     rewards = {Achievement({id = 16297, criteria = 54702})}
 }) -- Dead Man's Chestplate
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16297, criteria = 55403})}
--- }) -- Misty Treasure Chest
+map.nodes[20002200] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16297, criteria = 55403})}
+}) -- Misty Treasure Chest
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16297, criteria = 55448})}
--- }) -- Onyx Gem Cluster
+map.nodes[22002200] = Treasure({ -- required 72021, 72020
+    quest = nil,
+    note = L['onyx_gem_cluster_note'],
+    requires = ns.requirement.Item(200738), -- Onyx Gem Cluster Map
+    rewards = {Achievement({id = 16297, criteria = 55448})},
+    pois = {POI({46948289})}
+}) -- Onyx Gem Cluster
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16297, criteria = 54698})}
--- }) -- Replica Dragon Goblet
+map.nodes[48865180] = Treasure({
+    quest = 70600, -- 70409
+    note = L['replica_dragon_goblet_note'],
+    requires = ns.requirement.Item(198854), -- Archeologist Artifact Notes
+    rewards = {Achievement({id = 16297, criteria = 54698})},
+    pois = {POI({75423397})}
+}) -- Replica Dragon Goblet
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16297, criteria = 54713})}
--- }) -- Ruby Gem Cluster
+map.nodes[24002200] = Treasure({ -- required 70528, 70598
+    quest = nil,
+    requires = ns.requirement.Item(199062), -- Ruby Gem Cluster Map
+    rewards = {Achievement({id = 16297, criteria = 54713})}
+}) -- Ruby Gem Cluster
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16297, criteria = 54703})}
--- }) -- Torn Riding Pack
+map.nodes[26002200] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16297, criteria = 54703})}
+}) -- Torn Riding Pack
 
 map.nodes[46713121] = Treasure({
     quest = 70345,
