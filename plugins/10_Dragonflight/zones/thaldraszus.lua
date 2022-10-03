@@ -17,7 +17,7 @@ local Achievement = ns.reward.Achievement
 -- local Mount = ns.reward.Mount
 -- local Pet = ns.reward.Pet
 
--- local Path = ns.poi.Path
+local Path = ns.poi.Path
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2025, settings = true})
@@ -28,7 +28,7 @@ local map = Map({id = 2025, settings = true})
 
 -- map.nodes[] = Rare({
 --     id = 193664,
---     quest = ,
+--     quest = 69963,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56158}),
 --     }
@@ -42,9 +42,9 @@ local map = Map({id = 2025, settings = true})
 --     }
 -- }) -- Blightpaw the Depraved
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- required 67030
 --     id = 193220,
---     quest = ,
+--     quest = 69868,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56149}),
 --     }
@@ -52,7 +52,7 @@ local map = Map({id = 2025, settings = true})
 
 -- map.nodes[] = Rare({
 --     id = 193658,
---     quest = ,
+--     quest = 69962,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56156}),
 --     }
@@ -60,13 +60,13 @@ local map = Map({id = 2025, settings = true})
 
 map.nodes[52746732] = Rare({
     id = 193663,
-    quest = nil,
+    quest = 69964,
     rewards = {Achievement({id = 16679, criteria = 56154})}
 }) -- Craggravated Elemental
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- required 67030
 --     id = 193234,
---     quest = ,
+--     quest = 69875,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56147}),
 --     }
@@ -90,7 +90,7 @@ map.nodes[52746732] = Rare({
 
 -- map.nodes[] = Rare({
 --     id = 193241,
---     quest = ,
+--     quest = 69882,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56157}),
 --     }
@@ -98,23 +98,23 @@ map.nodes[52746732] = Rare({
 
 -- map.nodes[] = Rare({
 --     id = 193246,
---     quest = ,
+--     quest = 69883,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56141}),
 --     }
 -- }) -- Matriarch Remalla
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqired 67030
 --     id = 193688,
---     quest = ,
+--     quest = 69976,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56140}),
 --     }
 -- }) -- Phenran
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqired 67030
 --     id = 193210,
---     quest = ,
+--     quest = 69866,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56142}),
 --     }
@@ -130,47 +130,51 @@ map.nodes[52746732] = Rare({
 
 -- map.nodes[] = Rare({
 --     id = 193143,
---     quest = ,
+--     quest = 69853,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56133}),
 --     }
 -- }) -- Razk'vex the Untamed
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193240,
---     quest = ,
+--     quest = 69880,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56148}),
 --     }
 -- }) -- Riverwalker Tamopo
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193666,
---     quest = ,
+--     quest = 69966,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56151}),
 --     }
 -- }) -- Rokmur
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193176,
---     quest = ,
+--     quest = 69859,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56150}),
 --     }
 -- }) -- Sandana the Tempest
 
--- map.nodes[] = Rare({
---     id = 193258,
---     quest = ,
---     rewards = {
---         Achievement({id = 16679, criteria = 56144}),
---     }
--- }) -- Tempestrian
+map.nodes[47207895] = Rare({ -- review -- reqiured 67030
+    id = 193258,
+    quest = 69886,
+    rewards = {Achievement({id = 16679, criteria = 56144})},
+    pois = {
+        Path({
+            48897782, 48557735, 48407739, 47977782, 47177827, 47307994,
+            47998002, 48277973, 49507949, 49947917
+        })
+    }
+}) -- Tempestrian
 
 -- map.nodes[] = Rare({
 --     id = 191305,
---     quest = ,
+--     quest = 72121,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56155}),
 --     }
@@ -178,15 +182,15 @@ map.nodes[52746732] = Rare({
 
 -- map.nodes[] = Rare({
 --     id = 183984,
---     quest = ,
+--     quest = 65365,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56153}),
 --     }
 -- }) -- The Weeping Vilomah
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193146,
---     quest = ,
+--     quest = 70947,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56146}),
 --     }
@@ -194,7 +198,7 @@ map.nodes[52746732] = Rare({
 
 -- map.nodes[] = Rare({
 --     id = 193161,
---     quest = ,
+--     quest = 69850,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56152}),
 --     }

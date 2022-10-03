@@ -17,7 +17,7 @@ local Achievement = ns.reward.Achievement
 -- local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 
--- local Path = ns.poi.Path
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -28,49 +28,45 @@ local map = Map({id = 2022, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[] = Rare({
---     id = 193132,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56045}),
---     }
--- }) -- Amethyzar the Glittering
+map.nodes[18001600] = Rare({ -- review -- required 67030
+    id = 193132,
+    quest = 69838,
+    rewards = {Achievement({id = 16676, criteria = 56045})}
+}) -- Amethyzar the Glittering
 
--- map.nodes[] = Rare({
---     id = 187945,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56035}),
---     }
--- }) -- Anhydros the Tidetaker
+map.nodes[20001600] = Rare({ -- review
+    id = 187945,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56035})}
+}) -- Anhydros the Tidetaker
 
--- map.nodes[] = Rare({
---     id = 193135,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56041}),
---     }
--- }) -- Azra's Prized Peony
+map.nodes[54517174] = Rare({ -- review -- required 67030
+    id = 193135,
+    quest = 69839,
+    rewards = {Achievement({id = 16676, criteria = 56041})}
+}) -- Azra's Prized Peony
 
--- map.nodes[] = Rare({
---     id = 190986,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56059}),
---     }
--- }) -- Battlehorn Pyrhus
+map.nodes[22001600] = Rare({ -- review
+    id = 190986,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56059})}
+}) -- Battlehorn Pyrhus
 
--- map.nodes[] = Rare({
---     id = 192738,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56038}),
---     }
--- }) -- Brundin the Dragonbane
+map.nodes[46507372] = Rare({ -- review
+    id = 192738,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56038})},
+    pois = {
+        Path({
+            47946932, 47937123, 46887338, 46507372, 45637384, 43397311,
+            42667232, 42037065, 41256910, 40906872, 39516811, 35897202
+        }) -- not the complete path
+    }
+}) -- Brundin the Dragonbane
 
 map.nodes[26847642] = Rare({
     id = 193198,
-    quest = nil, -- ? 72127
+    quest = 72127,
     rewards = {Achievement({id = 16676, criteria = 56050})}
 }) -- Captain Lancer
 
@@ -80,165 +76,125 @@ map.nodes[26245797] = Rare({
     rewards = {Achievement({id = 16676, criteria = 56056})}
 }) -- Cauldronbearer Blakor
 
--- map.nodes[] = Rare({
---     id = 190991,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56060}),
---     }
--- }) -- Char
+map.nodes[26001600] = Rare({ -- review
+    id = 190991,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56060})}
+}) -- Char
 
--- map.nodes[] = Rare({
---     id = 190985,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56053}),
---     }
--- }) -- Death's Shadow
+map.nodes[31785474] = Rare({ -- review -- required 67030
+    id = 190985,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56053})}
+}) -- Death's Shadow
 
--- map.nodes[] = Rare({
---     id = 193217,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56039}),
---     }
--- }) -- Drakewing
+map.nodes[18001800] = Rare({ -- review
+    id = 193217,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56039})}
+}) -- Drakewing
 
--- map.nodes[] = Rare({
---     id = 193134,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56049}),
---     }
--- }) -- Enkine the Voracious
+map.nodes[21626478] = Rare({ -- review
+    id = 193134,
+    quest = 72128,
+    rewards = {Achievement({id = 16676, criteria = 56049})}
+}) -- Enkine the Voracious
 
--- map.nodes[] = Rare({
---     id = 193154,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56048}),
---     }
--- }) -- Forgotten Gryphon
+map.nodes[32967630] = Rare({ -- review
+    id = 193154,
+    quest = 72130,
+    rewards = {Achievement({id = 16676, criteria = 56048})}
+}) -- Forgotten Gryphon
 
--- map.nodes[] = Rare({
---     id = 196056,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56033}),
---     }
--- }) -- Gushgut the Beaksinker
+map.nodes[52345829] = Rare({ -- review
+    id = 196056,
+    quest = 70718,
+    rewards = {Achievement({id = 16676, criteria = 56033})}
+}) -- Gushgut the Beaksinker
 
--- map.nodes[43007465] = Rare({
---     id = 193263,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56037}),
---     }
--- }) -- Helmet Missingway
+map.nodes[43007465] = Rare({ -- review
+    id = 193263,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56037})}
+}) -- Helmet Missingway
 
--- map.nodes[] = Rare({
---     id = 193266,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56055}),
---     }
--- }) -- Lepidoralia the Resplendent
+map.nodes[20001800] = Rare({ -- review
+    id = 193266,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56055})}
+}) -- Lepidoralia the Resplendent
 
--- map.nodes[] = Rare({
---     id = 186827,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56046}),
---     }
--- }) -- Magmaton
+map.nodes[39596353] = Rare({ -- review -- required 67030
+    id = 186827,
+    quest = 70979,
+    rewards = {Achievement({id = 16676, criteria = 56046})}
+}) -- Magmaton
 
--- map.nodes[] = Rare({
---     id = 193152,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56047}),
---     }
--- }) -- Massive Magmashell
+map.nodes[22207649] = Rare({ -- review -- required 67030
+    id = 193152,
+    quest = 69848,
+    rewards = {Achievement({id = 16676, criteria = 56047})}
+}) -- Massive Magmashell
 
--- map.nodes[] = Rare({
---     id = 193256,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56034}),
---     }
--- }) -- Nulltheria the Void Gazer
+map.nodes[22001800] = Rare({ -- review
+    id = 193256,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56034})}
+}) -- Nulltheria the Void Gazer
 
--- map.nodes[] = Rare({
---     id = 193118,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56043}),
---     }
--- }) -- O'nank Shorescour
+map.nodes[81634820] = Rare({ -- review -- required 67030
+    id = 193118,
+    quest = 70983,
+    rewards = {Achievement({id = 16676, criteria = 56043})}
+}) -- O'nank Shorescour
 
--- map.nodes[] = Rare({
---     id = 192362,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56051}),
---     }
--- }) -- Possessive Hornswog
+map.nodes[24001800] = Rare({ -- review
+    id = 192362,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56051})}
+}) -- Possessive Hornswog
 
--- map.nodes[] = Rare({
---     id = 193232,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56061}),
---     }
--- }) -- Rasnar the War Ender
+map.nodes[26001800] = Rare({ -- review
+    id = 193232,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56061})}
+}) -- Rasnar the War Ender
 
--- map.nodes[] = Rare({
---     id = 187598,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56057}),
---     }
--- }) -- Rohzor Forgesmash
+map.nodes[18002000] = Rare({ -- review
+    id = 187598,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56057})}
+}) -- Rohzor Forgesmash
 
--- map.nodes[] = Rare({
---     id = 189822,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56054}),
---     }
--- }) -- Shas'ith
+map.nodes[20002000] = Rare({ -- review -- required 67030
+    id = 189822,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56054})}
+}) -- Shas'ith
 
--- map.nodes[] = Rare({
---     id = 193181,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56036}),
---     }
--- }) -- Skewersnout
+map.nodes[22002000] = Rare({ -- review
+    id = 193181,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56036})}
+}) -- Skewersnout
 
--- map.nodes[] = Rare({
---     id = 193120,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56044}),
---     }
--- }) -- Smogswog the Firebreather
+map.nodes[69486653] = Rare({ -- review -- required 67030
+    id = 193120,
+    quest = 69668,
+    rewards = {Achievement({id = 16676, criteria = 56044})}
+}) -- Smogswog the Firebreather
 
--- map.nodes[] = Rare({
---     id = 193228,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56042}),
---     }
--- }) -- Snappy
+map.nodes[24002000] = Rare({ -- review
+    id = 193228,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 56042})}
+}) -- Snappy
 
--- map.nodes[] = Rare({
---     id = 193148,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56040}),
---     }
--- }) -- Thunderous Matriarch
+map.nodes[26002000] = Rare({ -- review
+    id = 193148,
+    quest = 69841,
+    rewards = {Achievement({id = 16676, criteria = 56040})}
+}) -- Thunderous Matriarch
 
 map.nodes[33525576] = Rare({
     id = 187886,
@@ -247,13 +203,11 @@ map.nodes[33525576] = Rare({
     rewards = {Achievement({id = 16676, criteria = 56058})}
 }) -- Turboris
 
--- map.nodes[] = Rare({
---     id = 186859,
---     quest = ,
---     rewards = {
---         Achievement({id = 16676, criteria = 56052}),
---     }
--- }) -- Worldcarver A'tir
+map.nodes[18002200] = Rare({ -- review
+    id = 186859,
+    quest = 70763,
+    rewards = {Achievement({id = 16676, criteria = 56052})}
+}) -- Worldcarver A'tir
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
