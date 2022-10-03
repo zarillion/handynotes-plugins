@@ -56,16 +56,16 @@ local map = Map({id = 2023, settings = true})
 
 -- map.nodes[] = Rare({
 --     id = 193142,
---     quest = ,
+--     quest = 69840,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56064}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Enraged Sapphire
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193170,
---     quest = ,
+--     quest = 69856,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56075}),
 --         Transmog({item = , slot = L['']}) -- Name
@@ -92,7 +92,7 @@ local map = Map({id = 2023, settings = true})
 
 -- map.nodes[] = Rare({
 --     id = 188124,
---     quest = ,
+--     quest = 66356,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56084}),
 --         Transmog({item = , slot = L['']}) -- Name
@@ -123,9 +123,9 @@ map.nodes[71694585] = Rare({
     rewards = {Achievement({id = 16677, criteria = 56073})}
 }) -- Malsegan
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193173,
---     quest = ,
+--     quest = 69857,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56070}),
 --         Transmog({item = , slot = L['']}) -- Name
@@ -150,7 +150,7 @@ map.nodes[71694585] = Rare({
 --     }
 -- }) -- Old Stormhide
 
-map.nodes[61212950] = Rare({
+map.nodes[61212950] = Rare({ -- reqiured 67030
     id = 193235,
     quest = 69877,
     rewards = {Achievement({id = 16677, criteria = 56074})}
@@ -174,18 +174,18 @@ map.nodes[61212950] = Rare({
 --     }
 -- }) -- Quackers the Terrible
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 196010,
---     quest = ,
+--     quest = 70698,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56069}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Researcher Sneakwing
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193227,
---     quest = ,
+--     quest = 69878,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56071}),
 --         Transmog({item = , slot = L['']}) -- Name
@@ -203,7 +203,7 @@ map.nodes[61212950] = Rare({
 
 -- map.nodes[] = Rare({
 --     id = 193215,
---     quest = ,
+--     quest = 69865,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56079}),
 --         Transmog({item = , slot = L['']}) -- Name
@@ -212,7 +212,7 @@ map.nodes[61212950] = Rare({
 
 map.nodes[50117517] = Rare({
     id = 193136,
-    quest = nil,
+    quest = 69863,
     rewards = {Achievement({id = 16677, criteria = 56063})}
 }) -- Scav Notail
 
@@ -227,7 +227,7 @@ map.nodes[50117517] = Rare({
 
 map.nodes[29964103] = Rare({
     id = 187559,
-    quest = nil,
+    quest = 69854,
     note = L['shade_of_grief_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56080})
@@ -244,9 +244,9 @@ map.nodes[29964103] = Rare({
 --     }
 -- }) -- Sparkspitter Vrak
 
--- map.nodes[] = Rare({
+-- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193123,
---     quest = ,
+--     quest = 69667,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56072}),
 --         Transmog({item = , slot = L['']}) -- Name
