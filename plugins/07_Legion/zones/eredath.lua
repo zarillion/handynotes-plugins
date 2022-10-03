@@ -175,7 +175,7 @@ map.nodes[63806460] = Rare({
 
 map.nodes[55506010] = Rare({
     id = 126852,
-    quest = 48965,
+    quest = 48695,
     rewards = {
         Achievement({id = 12078, criteria = 37639}),
         Mount({item = 152814, id = 970}), -- Maddened Chaosrunner
