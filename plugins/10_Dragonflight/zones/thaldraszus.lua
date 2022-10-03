@@ -10,7 +10,7 @@ local Map = ns.Map
 local Dragonglyph = ns.node.Dragonglyph
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
--- local Treasure = ns.node.Treasure
+local Treasure = ns.node.Treasure
 local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
@@ -206,35 +206,38 @@ map.nodes[52746732] = Rare({
 
 -- https://www.wowhead.com/beta/achievement=16301/treasures-of-thaldraszus#comments
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16301, criteria = 54815})}
--- }) -- Acorn Harvester
+map.nodes[18001600] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16301, criteria = 54815})}
+}) -- Acorn Harvester
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16301, criteria = 54812})}
--- }) -- Amber Gem Cluster
+map.nodes[20001600] = Treasure({ -- required 70407, 70408
+    quest = nil,
+    requires = ns.requirement.Item(198852), -- Bear Termination Orders
+    rewards = {Achievement({id = 16301, criteria = 54812})}
+}) -- Amber Gem Cluster
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16301, criteria = 54810})}
--- }) -- Cracked Hourglass
+map.nodes[22001600] = Treasure({ -- 70537, 70607
+    quest = nil,
+    requires = ns.requirement.Item(199068), -- Time-Lost Memo
+    rewards = {Achievement({id = 16301, criteria = 54810})}
+}) -- Cracked Hourglass
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16301, criteria = 54813})}
--- }) -- Elegant Canvas Brush
+map.nodes[24001600] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16301, criteria = 54813})}
+}) -- Elegant Canvas Brush
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16301, criteria = 54811})}
--- }) -- Sandy Wooden Duck
+map.nodes[26001600] = Treasure({ -- required 70538, 70608
+    quest = nil,
+    requires = ns.requirement.Item(199069), -- Yennu's Map
+    rewards = {Achievement({id = 16301, criteria = 54811})}
+}) -- Sandy Wooden Duck (Sand Pile)
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16301, criteria = 54814})}
--- }) -- Surveyor's Magnifying Glass
+map.nodes[18001800] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16301, criteria = 54814})}
+}) -- Surveyor's Magnifying Glass
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

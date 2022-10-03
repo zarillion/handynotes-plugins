@@ -41,5 +41,8 @@ L['lizi_note_day5'] = nil
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
 
+L['onyx_gem_cluster_note'] = nil
+L['replica_dragon_goblet_note'] = nil
+
 L['hidden_hornswog_hoard'] = '隐藏的龙蛙宝藏'
 L['hidden_hornswog_hoard_note'] = nil
