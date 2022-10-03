@@ -14,6 +14,7 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Section = ns.reward.Section
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -37,7 +38,8 @@ map.nodes[30104020] = Rare({
     quest = 48709,
     rewards = {
         Achievement({id = 12078, criteria = 37629}),
-        Pet({item = 153056, id = 2120}) -- Grasping Manifestation
+        Pet({item = 153056, id = 2120}), -- Grasping Manifestation
+        Item({item = 153034}) -- Technique: Glyph of the Voidling
     }
 }) -- Ataxon
 
@@ -66,7 +68,8 @@ map.nodes[36702390] = Rare({
     id = 126865,
     quest = 48703,
     rewards = {
-        Achievement({id = 12078, criteria = 37635}), Toy({item = 153183}) -- Barrier Generator
+        Achievement({id = 12078, criteria = 37635}), Toy({item = 153183}), -- Barrier Generator
+        Transmog({item = 153322, slot = L['shield']}) -- Eredath Vigilant's Shield
     }
 }) -- Vigilant Thanos
 
@@ -82,7 +85,10 @@ map.nodes[39106660] = Rare({
     id = 126868,
     quest = 48706,
     note = L['turek_the_lucid_note'],
-    rewards = {Achievement({id = 12078, criteria = 37632})},
+    rewards = {
+        Achievement({id = 12078, criteria = 37632}),
+        Transmog({item = 153306, slot = L['1h_axe']}) -- Oronaar Miner's Piercer
+    },
     pois = {POI({39106665})}
 }) -- Turek the Lucid
 
@@ -119,13 +125,19 @@ map.nodes[43806040] = Rare({
 map.nodes[44507170] = Rare({
     id = 122838,
     quest = 48692,
-    rewards = {Achievement({id = 12078, criteria = 37654})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37654}),
+        Transmog({item = 153296, slot = L['1h_sword']}) -- Spectral Consul's Cutter
+    }
 }) -- Shadowcaster Voruun
 
 map.nodes[48104060] = Rare({
     id = 126899,
     quest = 48713,
-    rewards = {Achievement({id = 12078, criteria = 37625})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37625}),
+        Transmog({item = 153302, slot = L['1h_sword']}) -- Honed Jed'hin Scimitar
+    }
 }) -- Jed'hin Champion Vorusk
 
 map.nodes[48805200] = Rare({
@@ -141,9 +153,9 @@ map.nodes[49800930] = Rare({
     quest = 48721,
     rewards = {
         Achievement({id = 12078, criteria = 37618}),
-        Mount({item = 152904, id = 980})
+        Mount({item = 152904, id = 980}) -- Acid Belcher
     }
-}) -- Skreeg the Devourer (Acid Belcher)
+}) -- Skreeg the Devourer
 
 map.nodes[52906760] = Rare({
     id = 126815,
@@ -151,11 +163,12 @@ map.nodes[52906760] = Rare({
     rewards = {Achievement({id = 12078, criteria = 37640})}
 }) -- Soultwisted Monstrosity
 
-map.nodes[53906440] = Rare({
+map.nodes[63806460] = Rare({
     id = 126866,
     quest = 48704,
     rewards = {
-        Achievement({id = 12078, criteria = 37634}), Toy({item = 153183}) -- Barrier Generator
+        Achievement({id = 12078, criteria = 37634}), Toy({item = 153183}), -- Barrier Generator
+        Transmog({item = 153323, slot = L['shield']}) -- Eredath Vigilant's Crest
     }
 }) -- Vigilant Kuro
 
@@ -164,7 +177,8 @@ map.nodes[55506010] = Rare({
     quest = 48965,
     rewards = {
         Achievement({id = 12078, criteria = 37639}),
-        Mount({item = 152814, id = 970}) -- Maddened Chaosrunner
+        Mount({item = 152814, id = 970}), -- Maddened Chaosrunner
+        Transmog({item = 153269, slot = L['1h_axe']}) -- Enclave Aspirant's Waraxe
     }
 }) -- Wrangler Kravos
 
@@ -177,19 +191,28 @@ map.nodes[56901460] = Rare({
 map.nodes[57002780] = Rare({
     id = 125497,
     quest = 48716,
-    rewards = {Achievement({id = 12078, criteria = 37623})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37623}),
+        Transmog({item = 153269, slot = L['1h_axe']}) -- Enclave Aspirant's Axe
+    }
 }) -- Overseer Y'Sorna
 
 map.nodes[58903760] = Rare({
     id = 124440,
     quest = 48714,
-    rewards = {Achievement({id = 12078, criteria = 37624})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37624}),
+        Transmog({item = 153315, slot = L['2h_sword']}) -- Praetor's Ornamental Warblade
+    }
 }) -- Overseer Y'Beda
 
 map.nodes[61002980] = Rare({
     id = 125498,
     quest = 48717,
-    rewards = {Achievement({id = 12078, criteria = 37622})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37622}),
+        Transmog({item = 153257, slot = L['1h_mace']}) -- Isolon Anchorite's Gavel
+    }
 }) -- Overseer Y'Morna
 
 map.nodes[61405040] = Rare({
@@ -198,7 +221,8 @@ map.nodes[61405040] = Rare({
     rewards = {
         Achievement({id = 12078, criteria = 37621}), Toy({item = 153179}), -- Blue Conservatory Scroll
         Toy({item = 153181}), -- Red Conservatory Scroll
-        Toy({item = 153180}) -- Yellow Conservatory Scroll
+        Toy({item = 153180}), -- Yellow Conservatory Scroll
+        Transmog({item = 153309, slot = L['1h_mace']}) -- Unyielding Peacekeeper's Mace
     }
 }) -- Instructor Tarahna
 
@@ -212,7 +236,10 @@ map.nodes[66812841] = Rare({
 map.nodes[70204600] = Rare({
     id = 126889,
     quest = 48710,
-    rewards = {Achievement({id = 12078, criteria = 37628})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37628}),
+        Transmog({item = 153292, slot = L['1h_mace']}) -- Spectral Censorite's Spire
+    }
 }) -- Sorolis the Ill-Fated
 
 -------------------------------------------------------------------------------
@@ -223,7 +250,10 @@ map.nodes[40205140] = Treasure({
     quest = 48747,
     requires = ns.requirement.Quest(47994), -- Forming a Bond (Lightforged Warframe)
     note = L['lightforged_warframe_treasure_note'],
-    rewards = {Achievement({id = 12074, criteria = 37598})}
+    rewards = {
+        Achievement({id = 12074, criteria = 37598}),
+        Transmog({item = 153328, slot = L['dagger']}) -- Mystic Wakener's Shiv
+    }
 }) -- Void-Tinged Chest
 
 map.nodes[43400450] = Treasure({
@@ -237,35 +267,50 @@ map.nodes[50603840] = Treasure({
     quest = 48744,
     requires = ns.requirement.Quest(47287), -- The Vindicaar Matrix Core (Light's Judgement)
     note = L['lights_judgement_treasure_note'],
-    rewards = {Achievement({id = 12074, criteria = 37596})}
+    rewards = {
+        Achievement({id = 12074, criteria = 37596}),
+        Transmog({item = 153325, slot = L['shield']}) -- Eredath Vigilant's Redoubt
+    }
 }) -- Chest of Ill-Gotten Gains
 
 map.nodes[62207120] = Treasure({
     quest = 48745,
     requires = ns.requirement.Quest(47287), -- The Vindicaar Matrix Core (Light's Judgement)
     note = L['lights_judgement_treasure_note'],
-    rewards = {Achievement({id = 12074, criteria = 37597})}
+    rewards = {
+        Achievement({id = 12074, criteria = 37597}),
+        Transmog({item = 153286, slot = L['cloth']}) -- Augari Wakener's Cuffs
+    }
 }) -- Student's Surprising Surplus
 
 map.nodes[40806980] = Treasure({
     quest = 49153,
     requires = ns.requirement.Quest(48107), -- The Sigil of Awakening (Shroud of Arcane Echoes)
     note = L['shroud_of_arcane_echoes_treasures_note'],
-    rewards = {Achievement({id = 12074, criteria = 37957})}
+    rewards = {
+        Achievement({id = 12074, criteria = 37957}),
+        Transmog({item = 153281, slot = L['cloth']}) -- Augari Wakener's Handwraps
+    }
 }) -- Augari Goods
 
 map.nodes[62202240] = Treasure({
     quest = 49151,
     requires = ns.requirement.Quest(48107), -- The Sigil of Awakening (Shroud of Arcane Echoes)
     note = L['shroud_of_arcane_echoes_treasures_note'],
-    rewards = {Achievement({id = 12074, criteria = 37956})}
+    rewards = {
+        Achievement({id = 12074, criteria = 37956}),
+        Transmog({item = 153282, slot = L['cloth']}) -- Augari Wakener's Leggings
+    }
 }) -- Secret Augari Chest
 
 map.nodes[70602730] = Treasure({
     quest = 49129,
     requires = ns.requirement.Quest(48107), -- The Sigil of Awakening (Shroud of Arcane Echoes)
     note = L['shroud_of_arcane_echoes_treasures_note'],
-    rewards = {Achievement({id = 12074, criteria = 37955})}
+    rewards = {
+        Achievement({id = 12074, criteria = 37955}),
+        Transmog({item = 153280, slot = L['cloth']}) -- Augari Wakener's Circlet
+    }
 }) -- Augari-Runed Chest
 
 map.nodes[27304010] = Treasure({
@@ -278,19 +323,28 @@ map.nodes[27304010] = Treasure({
 map.nodes[43395443] = Treasure({
     quest = 48751,
     note = L['goblin_glider_treasure_note'],
-    rewards = {Achievement({id = 12074, criteria = 37602})},
+    rewards = {
+        Achievement({id = 12074, criteria = 37602}),
+        Transmog({item = 153313, slot = L['2h_sword']}) -- Praetor's Ornamental Claymore
+    },
     pois = {POI({45105310}), Path({45105310, 43395443})}
 }) -- Doomseeker's Treasure
 
 map.nodes[70305976] = Treasure({
     quest = 48748,
     note = L['goblin_glider_treasure_note'],
-    rewards = {Achievement({id = 12074, criteria = 37599})},
+    rewards = {
+        Achievement({id = 12074, criteria = 37599}),
+        Transmog({item = 153279, slot = L['cloth']}) -- Augari Wakener's Cord
+    },
     pois = {POI({68075723}), Path({68075723, 70305976})}
 }) -- Augari Secret Stash
 
 map.nodes[57027686] = Treasure({
     quest = 48749,
-    rewards = {Achievement({id = 12074, criteria = 37600})},
+    rewards = {
+        Achievement({id = 12074, criteria = 37600}),
+        Transmog({item = 153267, slot = L['2h_sword']}) -- Enclave Aspirant's Hatchet
+    },
     pois = {POI({57087407}), Path({57087407, 57117525, 57627617, 57027686})}
 }) -- Desperate Eredar's Cache

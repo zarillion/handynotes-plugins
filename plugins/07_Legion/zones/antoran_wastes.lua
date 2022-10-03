@@ -16,6 +16,7 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Section = ns.reward.Section
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -31,7 +32,18 @@ local map = Map({id = 885, settings = true})
 map.nodes[50905540] = Rare({
     id = 127118,
     quest = 48820,
-    rewards = {Achievement({id = 12078, criteria = 37605})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37605}),
+        Transmog({item = 153312, slot = L['2h_sword']}), -- Praetor's Ornamental Greatsword
+        Transmog({item = 152886, slot = L['cloth']}), -- Zealous Felslinger's Visage
+        Transmog({item = 152888, slot = L['cloth']}), -- Zealous Felslinger's Epaulets
+        Transmog({item = 152884, slot = L['cloth']}), -- Zealous Felslinger's Robe
+        Transmog({item = 152881, slot = L['cloth']}), -- Zealous Felslinger's Girdle
+        Transmog({item = 152887, slot = L['cloth']}), -- Zealous Felslinger's Leggings
+        Transmog({item = 152883, slot = L['cloth']}), -- Zealous Felslinger's Boots
+        Transmog({item = 152889, slot = L['cloth']}), -- Zealous Felslinger's Cuffs
+        Transmog({item = 152885, slot = L['cloth']}) -- Zealous Felslinger's Handwraps
+    }
 }) -- Worldsplitter Skuul
 
 map.nodes[53002930] = Rare({
@@ -52,7 +64,18 @@ map.nodes[53003600] = Rare({
 map.nodes[55302160] = Rare({
     id = 127300,
     quest = 48824,
-    rewards = {Achievement({id = 12078, criteria = 37614})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37614}),
+        Transmog({item = 153319, slot = L['2h_mace']}), -- Ardent Vindicator's Greatmace
+        Transmog({item = 152886, slot = L['cloth']}), -- Zealous Felslinger's Visage
+        Transmog({item = 152888, slot = L['cloth']}), -- Zealous Felslinger's Epaulets
+        Transmog({item = 152884, slot = L['cloth']}), -- Zealous Felslinger's Robe
+        Transmog({item = 152881, slot = L['cloth']}), -- Zealous Felslinger's Girdle
+        Transmog({item = 152887, slot = L['cloth']}), -- Zealous Felslinger's Leggings
+        Transmog({item = 152883, slot = L['cloth']}), -- Zealous Felslinger's Boots
+        Transmog({item = 152889, slot = L['cloth']}), -- Zealous Felslinger's Cuffs
+        Transmog({item = 152885, slot = L['cloth']}) -- Zealous Felslinger's Handwraps
+    }
 }) -- Void Warden Valsuran
 
 map.nodes[55804610] = Rare({
@@ -64,7 +87,18 @@ map.nodes[55804610] = Rare({
 map.nodes[57403350] = Rare({
     id = 122947,
     quest = 49240,
-    rewards = {Achievement({id = 12078, criteria = 37658})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37658}),
+        Transmog({item = 153327, slot = L['dagger']}), -- Mystic Wakener's Dagger
+        Transmog({item = 152946, slot = L['plate']}), -- World-Defiler's Casque
+        Transmog({item = 152944, slot = L['plate']}), -- World-Defiler's Shoulderplates
+        Transmog({item = 152949, slot = L['plate']}), -- World-Defiler's Cuirass
+        Transmog({item = 152943, slot = L['plate']}), -- World-Defiler's Girdle
+        Transmog({item = 152945, slot = L['plate']}), -- World-Defiler's Tuille
+        Transmog({item = 152948, slot = L['plate']}), -- World-Defiler's Sabatons
+        Transmog({item = 152942, slot = L['plate']}), -- World-Defiler's Wristguards
+        Transmog({item = 152947, slot = L['plate']}) -- World-Defiler's Gauntlets
+    }
 }) -- Mistress Il'thendra
 
 map.nodes[58501180] = Rare({
@@ -79,7 +113,9 @@ map.nodes[58501180] = Rare({
 map.nodes[60704800] = Rare({
     id = 126946,
     quest = 48815,
-    rewards = {Achievement({id = 12078, criteria = 37608})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37608}), Item({item = 151543}) -- Technique: Glyph of Fel-Touched Shards
+    }
 }) -- Inquisitor Vethroz
 
 map.nodes[61302130] = Rare({
@@ -181,7 +217,18 @@ map.nodes[66701800] = Rare({
 map.nodes[73607200] = Rare({
     id = 127090,
     quest = 48817,
-    rewards = {Achievement({id = 12078, criteria = 37611})}
+    rewards = {
+        Achievement({id = 12078, criteria = 37611}),
+        Transmog({item = 153324, slot = L['shield']}), -- Eredath Vigilant's Bastion
+        Transmog({item = 152886, slot = L['cloth']}), -- Zealous Felslinger's Visage
+        Transmog({item = 152888, slot = L['cloth']}), -- Zealous Felslinger's Epaulets
+        Transmog({item = 152884, slot = L['cloth']}), -- Zealous Felslinger's Robe
+        Transmog({item = 152881, slot = L['cloth']}), -- Zealous Felslinger's Girdle
+        Transmog({item = 152887, slot = L['cloth']}), -- Zealous Felslinger's Leggings
+        Transmog({item = 152883, slot = L['cloth']}), -- Zealous Felslinger's Boots
+        Transmog({item = 152889, slot = L['cloth']}), -- Zealous Felslinger's Cuffs
+        Transmog({item = 152885, slot = L['cloth']}) -- Zealous Felslinger's Handwraps
+    }
 }) -- Admiral Rel'var
 
 map.nodes[76405590] = Rare({
@@ -195,7 +242,9 @@ map.nodes[84358112] = Rare({
     quest = 48967,
     requires = ns.requirement.Quest(49007), -- Commander On Deck!
     note = L['squadron_commander_vishax_note'],
-    rewards = {Achievement({id = 12078, criteria = 37662})},
+    rewards = {
+        Achievement({id = 12078, criteria = 37662}), Toy({item = 153253}) -- S.F.E. Interceptor
+    },
     pois = {
         POI({77577478}), POI({87788010}), Path({77577478, 87788010, 84358112})
     }
@@ -279,19 +328,28 @@ map.nodes[65903980] = Treasure({
     quest = 49018,
     requires = ns.requirement.Quest(47287), -- The Vindicaar Matrix Core (Light's Judgement)
     note = L['lights_judgement_treasure_note'],
-    rewards = {Achievement({id = 12074, criteria = 37696})}
+    rewards = {
+        Achievement({id = 12074, criteria = 37696}),
+        Transmog({item = 153308, slot = L['1h_mace']}) -- Unyielding Peacekeeper's Cudgel
+    }
 }) -- Ancient Legion War Cache
 
 map.nodes[57406360] = Treasure({
     quest = 49159,
     requires = ns.requirement.Quest(48107), -- The Sigil of Awakening (Shroud of Arcane Echoes)
     note = L['shroud_of_arcane_echoes_treasures_note'],
-    rewards = {Achievement({id = 12074, criteria = 37960})}
+    rewards = {
+        Achievement({id = 12074, criteria = 37960}),
+        Transmog({item = 153285, slot = L['cloth']}) -- Augari Wakener's Mantle
+    }
 }) -- Missing Augari Chest
 
 map.nodes[49005930] = Treasure({
     quest = 49020,
-    rewards = {Achievement({id = 12074, criteria = 37698})}
+    rewards = {
+        Achievement({id = 12074, criteria = 37698}),
+        Transmog({item = 153291, slot = L['staff']}) -- Spectral Censorite's Staff
+    }
 }) -- Legion Treasure Hoard
 
 map.nodes[75705260] = Treasure({
