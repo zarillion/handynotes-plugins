@@ -9,7 +9,7 @@ local Map = ns.Map
 -- local Collectible = ns.node.Collectible
 local Dragonglyph = ns.node.Dragonglyph
 local Rare = ns.node.Rare
--- local Scoutpack = ns.node.Scoutpack
+local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
 local PetBattle = ns.node.PetBattle
 
@@ -402,7 +402,7 @@ map.nodes[52954909] = Dragonglyph({rewards = {Achievement({id = 16071})}}) -- Dr
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[] = Scoutpack()
+map.nodes[43005294] = Scoutpack()
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
