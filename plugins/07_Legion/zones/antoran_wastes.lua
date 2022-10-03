@@ -358,6 +358,109 @@ map.nodes[75705260] = Treasure({
 }) -- Timeworn Fel Chest
 
 -------------------------------------------------------------------------------
+------------------------------ DAILY CHESTS -----------------------------------
+-------------------------------------------------------------------------------
+
+local LWSupplies = Class('LWSupplies', Treasure, {
+    group = ns.groups.LEGION_WAR_SUPPLIES,
+    label = L['legion_war_supplies'],
+    note = L['legion_war_supplies_note'],
+    rewards = {
+        Transmog({item = 153339, slot = L['plate']}), -- Triumvirate High Guard's Casque
+        Transmog({item = 153342, slot = L['plate']}), -- Triumvirate High Guard's Pauldrons
+        Transmog({item = 153340, slot = L['plate']}), -- Triumvirate High Guard's Breastplate
+        Transmog({item = 153341, slot = L['plate']}), -- Triumvirate High Guard's Greatbelt
+        Transmog({item = 153338, slot = L['plate']}), -- Triumvirate High Guard's Leggings
+        Transmog({item = 153345, slot = L['plate']}), -- Triumvirate High Guard's Warboots
+        Transmog({item = 153344, slot = L['plate']}), -- Triumvirate High Guard's Bracers
+        Transmog({item = 153343, slot = L['plate']}), -- Triumvirate High Guard's Gauntlets
+        Transmog({item = 152886, slot = L['cloth']}), -- Zealous Felslinger's Visage
+        Transmog({item = 152888, slot = L['cloth']}), -- Zealous Felslinger's Epaulets
+        Transmog({item = 152884, slot = L['cloth']}), -- Zealous Felslinger's Robe
+        Transmog({item = 152881, slot = L['cloth']}), -- Zealous Felslinger's Girdle
+        Transmog({item = 152887, slot = L['cloth']}), -- Zealous Felslinger's Leggings
+        Transmog({item = 152883, slot = L['cloth']}), -- Zealous Felslinger's Boots
+        Transmog({item = 152889, slot = L['cloth']}), -- Zealous Felslinger's Cuffs
+        Transmog({item = 152885, slot = L['cloth']}) -- Zealous Felslinger's Handwraps
+    }
+})
+
+local LWS1 = LWSupplies({quest = 48387, icon = 'chest_pp'})
+local LWS2 = LWSupplies({quest = 48385, icon = 'chest_yw'})
+local LWS3 = LWSupplies({quest = 48390, icon = 'chest_bl'})
+local LWS4 = LWSupplies({quest = 48388, icon = 'chest_rd'})
+local LWS5 = LWSupplies({quest = 48391, icon = 'chest_gn'})
+local LWS6 = LWSupplies({quest = 48382, icon = 'chest_tl'})
+local LWS7 = LWSupplies({quest = 48384, icon = 'chest_pk'})
+local LWS8 = LWSupplies({quest = 48389, icon = 'chest_bn'})
+local LWS9 = LWSupplies({quest = 48383, icon = 'chest_nv'})
+
+map.nodes[65502850] = LWS1
+map.nodes[68903350] = LWS1
+map.nodes[66703630] = LWS1
+map.nodes[63703650] = LWS1
+map.nodes[68004020] = LWS1
+map.nodes[69503950] = LWS1
+map.nodes[72504230] = LWS1
+map.nodes[73504670] = LWS1
+map.nodes[48305440] = LWS2
+map.nodes[50705700] = LWS2
+map.nodes[55504750] = LWS2
+map.nodes[57205120] = LWS2
+map.nodes[56005400] = LWS2
+map.nodes[57805890] = LWS2
+map.nodes[72105680] = LWS3
+map.nodes[78105610] = LWS3
+map.nodes[80506160] = LWS3
+map.nodes[76605820] = LWS3
+map.nodes[76506480] = LWS3
+map.nodes[73406860] = LWS3
+map.nodes[72607270] = LWS3
+map.nodes[77107520] = LWS3
+map.nodes[82506750] = LWS3
+map.nodes[55901400] = LWS4
+map.nodes[59601390] = LWS4
+map.nodes[56001720] = LWS4
+map.nodes[59301770] = LWS4
+map.nodes[55502050] = LWS4
+map.nodes[56002660] = LWS4
+map.nodes[54202790] = LWS4
+map.nodes[51502600] = LWS4
+map.nodes[66604670] = LWS5
+map.nodes[65105070] = LWS5
+map.nodes[68005070] = LWS5
+map.nodes[71105450] = LWS5
+map.nodes[65105510] = LWS5
+map.nodes[63105750] = LWS5
+map.nodes[61305400] = LWS6
+map.nodes[69406350] = LWS6
+map.nodes[71306920] = LWS6
+map.nodes[67606990] = LWS6
+map.nodes[62206950] = LWS6
+map.nodes[57906490] = LWS6
+map.nodes[66601720] = LWS7
+map.nodes[60902900] = LWS7
+map.nodes[59201940] = LWS7
+map.nodes[64002750] = LWS7
+map.nodes[63602110] = LWS7
+map.nodes[61402040] = LWS7
+map.nodes[64305050] = LWS8
+map.nodes[62905000] = LWS8
+map.nodes[64204750] = LWS8
+map.nodes[64204230] = LWS8
+map.nodes[62104580] = LWS8
+map.nodes[60504690] = LWS8
+map.nodes[60604090] = LWS8
+map.nodes[58704330] = LWS8
+map.nodes[52202930] = LWS9
+map.nodes[51803530] = LWS9
+map.nodes[53703570] = LWS9
+map.nodes[55103930] = LWS9
+map.nodes[58204030] = LWS9
+map.nodes[59903580] = LWS9
+map.nodes[58503120] = LWS9
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 

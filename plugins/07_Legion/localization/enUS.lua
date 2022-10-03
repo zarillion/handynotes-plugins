@@ -22,6 +22,12 @@ L['the_many_faced_devourer_checklist'] = Gold('Item Checklist (in bags or bank):
 
 L['orix_the_all_seer_note'] = 'Sells collectibles in exchange for {item:153021}.'
 
+L['legion_war_supplies'] = 'Legion War Supplies'
+L['legion_war_supplies_note'] = 'There are 9 unique legion war supplies that can each appear at set locations.'
+
+L['options_icons_legion_war_supplies'] = 'Legion War Supplies'
+L['options_icons_legion_war_supplies_desc'] = 'Display possible locations for legion war supplies (daily chests).'
+
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
 -------------------------------------------------------------------------------
@@ -112,6 +118,16 @@ L['bohdi_sunwayver_note'] = 'Sun\'s out! Pets out!'
 L['kaara_the_pale_note'] = '{npc:126860} no longer drops {item:153190}'
 L['turek_the_lucid_note'] = 'In the |cFFFFFD00Oronaar Collapse|r'
 
+L['ancient_eredar_cache'] = 'Ancient Eredar Cache'
+L['ancient_eredar_cache_note'] = 'There are 6 unique ancient eredar caches that can each appear at set locations.'
+L['void_seeped_cache'] = 'Void-Seeped Cache'
+L['void_seeped_cache_note'] = 'There are 2 unique void-seeped caches that can each appear at set locations. |c00ff0000These do not contain transmogs.|r'
+
+L['options_icons_ancient_eredar_cache'] = 'Ancient Eredar Cache'
+L['options_icons_ancient_eredar_cache_desc'] = 'Display possible locations for ancient eredar caches (daily chests).'
+L['options_icons_void_seeped_cache'] = 'Void-Seeped Cache'
+L['options_icons_void_seeped_cache_desc'] = 'Display possible locations for void-seeped caches (daily chests).'
+
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
 -------------------------------------------------------------------------------
@@ -119,6 +135,16 @@ L['turek_the_lucid_note'] = 'In the |cFFFFFD00Oronaar Collapse|r'
 L['odrogg_note'] = 'You think you can best my snails?'
 L['grixis_tinypop_note'] = 'This\'ll be easy!'
 L['bredda_tenderhide_note'] = 'Let the bravest prove victorious!'
+
+-------------------------------------------------------------------------------
+-------------------------------- KROKUUN --------------------------------------
+-------------------------------------------------------------------------------
+
+L['eredar_war_supplies'] = 'Eredar War Supplies'
+L['eredar_war_supplies_note'] = 'There are 7 unique eredar war supplies that can each appear at set locations.'
+
+L['options_icons_eredar_war_supplies'] = 'Eredar War Supplies'
+L['options_icons_eredar_war_supplies_desc'] = 'Display possible locations for eredar war supplies (daily chests).'
 
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
