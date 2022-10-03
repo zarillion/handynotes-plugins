@@ -337,40 +337,43 @@ map.nodes[78298276] = Rare({
 
 -- https://www.wowhead.com/beta/achievement=16299/treasures-of-the-ohnahran-plains#comments
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16299, criteria = 54709})}
--- }) -- Cracked Centaur Horn
+map.nodes[18001600] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16299, criteria = 54709})}
+}) -- Cracked Centaur Horn
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16299, criteria = 54700})}
--- }) -- Emerald Gem Cluster
+map.nodes[20001600] = Treasure({ -- required 70392, 70391
+    quest = nil,
+    requires = ns.requirement.Item(198843), -- Emerald Gardens Explorer's Notes
+    rewards = {Achievement({id = 16299, criteria = 54700})}
+}) -- Emerald Gem Cluster
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16299, criteria = 54710})}
--- }) -- Gold Swog Coin
+map.nodes[22001600] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16299, criteria = 54710})}
+}) -- Gold Swog Coin
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16299, criteria = 54707})}
--- }) -- Nokhud Warspear
+map.nodes[24001600] = Treasure({ -- required 67046, 67049
+    quest = nil,
+    requires = ns.requirement.Item(194540), -- Nokhud Armorer's Notes  ? obtained from graath 192334 ?
+    rewards = {Achievement({id = 16299, criteria = 54707})}
+}) -- Nokhud Warspear
 
 map.nodes[70603543] = Treasure({
     quest = 67950, -- 67718
     note = L['slightly_chewed_duck_egg_note'],
+    requires = ns.requirement.Item(195453), -- Ludo's Stash Map
     rewards = {
         Achievement({id = 16299, criteria = 54708}),
         Pet({item = 199172, id = 3309}) -- Viridescent Duck
     },
     pois = {Path({61044337, 61274149, 61524124, 61754141, 61864232})}
-}) -- Slightly Chewed Duck Egg
+}) -- Slightly Chewed Duck Egg (Dirt Mound)
 
--- map.nodes[] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 16299, criteria = 54711})}
--- }) -- Yennu's Boat
+map.nodes[16001600] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 16299, criteria = 54711})}
+}) -- Yennu's Boat
 
 -------------------------------------------------------------------------------
 ------------------------- LIZI, THUNDERSPINE TRAMPLER -------------------------
