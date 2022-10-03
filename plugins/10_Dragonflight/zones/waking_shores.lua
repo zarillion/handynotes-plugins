@@ -300,10 +300,13 @@ map.nodes[74943750] = Dragonglyph({rewards = {Achievement({id = 15986})}}) -- Dr
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[26628764] = Scoutpack()
 map.nodes[43345237] = Scoutpack()
 map.nodes[45663986] = Scoutpack()
 map.nodes[51668253] = Scoutpack()
 map.nodes[52745025] = Scoutpack()
+map.nodes[66505198] = Scoutpack()
+map.nodes[82055012] = Scoutpack()
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
