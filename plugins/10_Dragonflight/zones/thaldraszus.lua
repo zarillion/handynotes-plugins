@@ -210,35 +210,35 @@ map.nodes[47207895] = Rare({ -- review -- reqiured 67030
 
 -- https://www.wowhead.com/beta/achievement=16301/treasures-of-thaldraszus#comments
 
-map.nodes[18001600] = Treasure({
+map.nodes[76001400] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 16301, criteria = 54815})}
 }) -- Acorn Harvester
 
-map.nodes[20001600] = Treasure({ -- required 70407, 70408
+map.nodes[78001400] = Treasure({ -- required 70407, 70408
     quest = nil,
     requires = ns.requirement.Item(198852), -- Bear Termination Orders
     rewards = {Achievement({id = 16301, criteria = 54812})}
 }) -- Amber Gem Cluster
 
-map.nodes[22001600] = Treasure({ -- 70537, 70607
+map.nodes[80001400] = Treasure({ -- 70537, 70607
     quest = nil,
     requires = ns.requirement.Item(199068), -- Time-Lost Memo
     rewards = {Achievement({id = 16301, criteria = 54810})}
 }) -- Cracked Hourglass
 
-map.nodes[24001600] = Treasure({
+map.nodes[82001400] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 16301, criteria = 54813})}
 }) -- Elegant Canvas Brush
 
-map.nodes[26001600] = Treasure({ -- required 70538, 70608
+map.nodes[84001400] = Treasure({ -- required 70538, 70608
     quest = nil,
     requires = ns.requirement.Item(199069), -- Yennu's Map
     rewards = {Achievement({id = 16301, criteria = 54811})}
 }) -- Sandy Wooden Duck (Sand Pile)
 
-map.nodes[18001800] = Treasure({
+map.nodes[86001400] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 16301, criteria = 54814})}
 }) -- Surveyor's Magnifying Glass

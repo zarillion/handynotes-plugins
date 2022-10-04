@@ -355,28 +355,28 @@ map.nodes[45125940] = Treasure({ -- required 70534, 70603
     rewards = {Achievement({id = 16300, criteria = 54804})}
 }) -- Forgotten Jewel Box
 
-map.nodes[20001600] = Treasure({ -- required 70535, 70604
+map.nodes[06007200] = Treasure({ -- required 70535, 70604
     quest = nil,
     requires = ns.requirement.Item(199066), -- Letter of Caution
     rewards = {Achievement({id = 16300, criteria = 54805})}
 }) -- Gnoll Fiend Flail
 
-map.nodes[22001600] = Treasure({
+map.nodes[08007200] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 16300, criteria = 54807})}
 }) -- Lost Compass
 
-map.nodes[24001600] = Treasure({
+map.nodes[10007200] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 16300, criteria = 54809})}
 }) -- Pepper Hammer
 
-map.nodes[26001600] = Treasure({
+map.nodes[12007200] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 16300, criteria = 54808})}
 }) -- Rubber Fish
 
-map.nodes[18001800] = Treasure({ -- required 70536, 70605
+map.nodes[14007200] = Treasure({ -- required 70536, 70605
     quest = nil,
     requires = ns.requirement.Item(199067), -- Precious Plans
     rewards = {Achievement({id = 16300, criteria = 54806})}
