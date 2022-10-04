@@ -12,6 +12,7 @@ local Node = ns.node.Node
 
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
@@ -65,6 +66,10 @@ local Scoutpack = Class('Scoutpack', Node, {
     group = ns.groups.SCOUT_PACK,
     requires = ns.requirement.Quest(70822),
     rewards = {
+        Transmog({item = 201387, slot = L['cosmetic']}), -- Dragon Knight's Halberd
+        Transmog({item = 201390, slot = L['cosmetic']}), -- Dracthyr's Devastating Waraxe
+        Transmog({item = 201392, slot = L['cosmetic']}), -- Dragon Noble's Cutlass
+        Transmog({item = 201395, slot = L['cosmetic']}), -- Dragon Wingcrest Scimitar
         Item({item = 190454}), Item({item = 192055}), Currency({id = 2003})
     }
 })

@@ -425,7 +425,14 @@ map.nodes[73374059] = Disturbeddirt()
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[14943299] = Scoutpack()
+map.nodes[15183187] = Scoutpack()
+map.nodes[33864679] = Scoutpack()
+map.nodes[33864679] = Scoutpack()
 map.nodes[43005294] = Scoutpack()
+map.nodes[66784934] = Scoutpack()
+map.nodes[72154242] = Scoutpack({note = L['in_cave']})
+map.nodes[72604263] = Scoutpack({note = L['in_cave']})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
