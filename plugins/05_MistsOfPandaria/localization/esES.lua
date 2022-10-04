@@ -66,12 +66,12 @@ El color de la montura del {npc:69842} determinará el color de la montura que s
 ]]
 L['zandalari_warbringer_killed'] = 'Ha muerto el {npc:69842}.'
 
-L['squirrels_note'] = nil
+L['squirrels_note'] = 'Debes usar la emoción /amor en las alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:6350}'
-L['options_icons_squirrels_desc'] = nil
+L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:6350}.'
 
-L['options_icons_lorewalker'] = nil
-L['options_icons_lorewalker_desc'] = nil
+L['options_icons_lorewalker'] = {achievement:6541}
+L['options_icons_lorewalker_desc'] = 'Muestra los sitios para el logro {achievement:6541}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- Jade Forest ---------------------------------
