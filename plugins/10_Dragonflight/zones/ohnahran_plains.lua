@@ -445,11 +445,17 @@ map.nodes[66451981] = Disturbeddirt()
 -------------------------------------------------------------------------------
 
 map.nodes[24745680] = Scoutpack()
+map.nodes[25205876] = Scoutpack()
 map.nodes[32043887] = Scoutpack()
 map.nodes[43486213] = Scoutpack()
+map.nodes[44856758] = Scoutpack()
 map.nodes[51647211] = Scoutpack()
-map.nodes[61781881] = Scoutpack()
+map.nodes[66798258] = Scoutpack()
+map.nodes[51797550] = Scoutpack()
+map.nodes[60567702] = Scoutpack()
 map.nodes[61301817] = Scoutpack()
+map.nodes[61781881] = Scoutpack()
+map.nodes[64028081] = Scoutpack()
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
