@@ -348,8 +348,9 @@ map.nodes[70222477] = Rare({ -- review
 
 -- https://www.wowhead.com/beta/achievement=16300/treasures-of-the-azure-span#comments
 
-map.nodes[18001600] = Treasure({ -- required 70534, 70603
-    quest = nil,
+map.nodes[45125940] = Treasure({ -- required 70534, 70603
+    quest = 70603,
+    note = L['forgotten_jewel_box_note'],
     requires = ns.requirement.Item(199065), -- Sorrowful Letter
     rewards = {Achievement({id = 16300, criteria = 54804})}
 }) -- Forgotten Jewel Box
