@@ -54,5 +54,6 @@ L['lizi_note_day5'] = 'Purchase 1x {item:200598} from {npc:190015} in a tent sou
 L['onyx_gem_cluster_note'] = 'Buy {item:200738} from {npc:189065} for 3 {item:192863} and 500 {currency:2003} at Renown 21 with the Dragonscale Expedition and use it.'
 L['replica_dragon_goblet_note'] = 'Buy {item:198854} from {npc:193915} in Wingrest Embassy and use it.'
 
+L['fullsails_supply_chest'] = 'Fullsails Supply Chest'
 L['hidden_hornswog_hoard'] = 'Hidden Hornswog Hoard'
 L['hidden_hornswog_hoard_note'] = 'Collect {item:200064}, {item:200065} and {item:200066}, combine them at the "Observant Riddles: A Field Guide" near the treasure then feed the frog.'
