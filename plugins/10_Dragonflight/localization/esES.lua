@@ -46,5 +46,6 @@ L['lizi_note_day5'] = nil
 L['onyx_gem_cluster_note'] = nil
 L['replica_dragon_goblet_note'] = nil
 
+L['fullsails_supply_chest'] = nil
 L['hidden_hornswog_hoard'] = 'Botín oculto de los cornisapos'
 L['hidden_hornswog_hoard_note'] = nil

@@ -278,6 +278,12 @@ map.nodes[64926959] = Treasure({
     pois = {POI({66165529, 39638468, 47728360})}
 }) -- Hidden Hornswog Hoard
 
+map.nodes[43156737] = Treasure({
+    quest = nil,
+    requires = ns.requirement.Item(191122), -- Fullsails Supply Chest Key
+    label = L['fullsails_supply_chest']
+}) -- Fullsails Supply Chest
+
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
 -------------------------------------------------------------------------------
