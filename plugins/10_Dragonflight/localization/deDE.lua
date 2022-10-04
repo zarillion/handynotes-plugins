@@ -10,6 +10,10 @@ L['dragon_glyph'] = 'Drachenglyphe'
 L['options_icons_dragon_glyph'] = 'Drachenglyphen'
 L['options_icons_dragon_glyph_desc'] = 'Zeigt die Position aller 48 Drachenglyphen an.'
 
+L['disturbed_dirt'] = 'Bewegte Erde'
+L['options_icons_disturbed_dirt'] = 'Bewegte Erde'
+L['options_icons_disturbed_dirt_desc'] = 'Zeigt die Position für Bewegte Erde an.'
+
 L['scout_pack'] = 'Expeditionsspäherpack'
 L['options_icons_scout_pack'] = 'Expeditionsspäherpacks'
 L['options_icons_scout_pack_desc'] = 'Zeigt die Position für Expeditionsspäherpacks an.'
