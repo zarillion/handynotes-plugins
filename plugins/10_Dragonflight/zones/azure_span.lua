@@ -14,10 +14,12 @@ local Treasure = ns.node.Treasure
 local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 -- local Mount = ns.reward.Mount
 -- local Pet = ns.reward.Pet
 
--- local Path = ns.poi.Path
+local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -54,17 +56,23 @@ map.nodes[53083551] = Rare({ -- review
 --     }
 -- }) -- Astray Splasher
 
-map.nodes[57353149] = Rare({ -- review
+map.nodes[55823132] = Rare({
     id = 194210,
     quest = nil,
     rewards = {
         Achievement({id = 16678, criteria = 56105})
         -- Transmog({item = , slot = L['']}) -- Name
+    },
+    pois = {
+        Path({
+            49173845, 49533814, 50533616, 51263539, 51733489, 51983461,
+            52423353, 53223285, 55823132, 56433052, 56963022, 57373056,
+            57943094, 58233093, 59133081, 59423098, 61263135
+        })
     }
-    -- pois = {Path({})}
 }) -- Azure Pathfinder
 
-map.nodes[72752639] = Rare({ -- review
+map.nodes[73032680] = Rare({
     id = 193116,
     quest = nil,
     rewards = {
@@ -101,11 +109,12 @@ map.nodes[13584855] = Rare({
 --     }
 -- }) -- Blisterhide
 
-map.nodes[16732780] = Rare({ -- review
+map.nodes[16622798] = Rare({
     id = 193259,
     quest = nil,
     rewards = {
-        Achievement({id = 16678, criteria = 56108})
+        Achievement({id = 16678, criteria = 56108}),
+        Item({item = 197595, quest = 69799}) -- Windborne Velocidrake: Finned Ears
         -- Transmog({item = , slot = L['']}) -- Name
     }
 }) -- Blue Terror
@@ -324,13 +333,15 @@ map.nodes[54993414] = Rare({
 --     }
 -- }) -- Swog'ranka
 
-map.nodes[70222477] = Rare({ -- review
+map.nodes[70222532] = Rare({
     id = 193196,
-    quest = 69861,
+    quest = nil, -- 69861 ?
+    note = L['trilvarus_loreweaver_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56114})
         -- Transmog({item = , slot = L['']}) -- Name
-    }
+    },
+    pois = {POI({70432369})}
 }) -- Trilvarus Loreweaver
 
 -- map.nodes[] = Rare({

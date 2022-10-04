@@ -18,6 +18,8 @@ L['options_icons_scout_pack_desc'] = 'Display the location of Expedition Scout\'
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['trilvarus_loreweaver_note'] = 'Collect a Singing Fragment to get {spell:382076} and use the Uncharded Focus to spawn the rare.'
+
 L['forgotten_jewel_box_note'] = 'Loot {item:199065} from a Clan Chest in Ridgewater Retreat (49.4 67.3) on the Ohn\'ahran Plains and use it.'
 
 -------------------------------------------------------------------------------
@@ -50,6 +52,9 @@ L['lizi_note_day5'] = 'Purchase 1x {item:200598} from {npc:190015} in a tent sou
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
+
+L['brundin_the_dragonbane_note'] = 'The Qalashi War Party travels on there {npc:192737} to this Tower.'
+L['shasith_note'] = 'inside the Obsidian Throne. \n\nNEEDS MORE INVESTIGATION'
 
 L['onyx_gem_cluster_note'] = 'Buy {item:200738} from {npc:189065} for 3 {item:192863} and 500 {currency:2003} at Renown 21 with the Dragonscale Expedition and use it.'
 L['replica_dragon_goblet_note'] = 'Buy {item:198854} from {npc:193915} in Wingrest Embassy and use it.'
