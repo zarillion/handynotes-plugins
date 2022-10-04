@@ -54,14 +54,15 @@ local map = Map({id = 2023, settings = true})
 --     }
 -- }) -- Eaglemaster Niraak
 
--- map.nodes[] = Rare({
---     id = 193142,
---     quest = 69840,
---     rewards = {
---         Achievement({id = 16677, criteria = 56064}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Enraged Sapphire
+map.nodes[56718128] = Rare({
+    id = 193142,
+    quest = 69840,
+    note = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 16677, criteria = 56064})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Enraged Sapphire
 
 -- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193170,

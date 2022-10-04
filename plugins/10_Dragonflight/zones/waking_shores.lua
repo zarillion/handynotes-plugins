@@ -52,17 +52,20 @@ map.nodes[22001600] = Rare({ -- review
     rewards = {Achievement({id = 16676, criteria = 56059})}
 }) -- Battlehorn Pyrhus
 
-map.nodes[46507372] = Rare({ -- review
+map.nodes[52916529] = Rare({
     id = 192738,
     quest = nil,
+    note = L['brundin_the_dragonbane_note'],
     rewards = {Achievement({id = 16676, criteria = 56038})},
     pois = {
         Path({
-            47946932, 47937123, 46887338, 46507372, 45637384, 43397311,
-            42667232, 42037065, 41256910, 40906872, 39516811, 35897202
-        }) -- not the complete path
+            52916529, 53126596, 52996668, 51666681, 49796541, 48726550,
+            48326651, 47886773, 47946932, 47937123, 46887338, 46507372,
+            45637384, 43397311, 42667232, 42037065, 41256910, 40906872,
+            39516811, 35897202, 33547067, 33146983
+        })
     }
-}) -- Brundin the Dragonbane
+}) -- Brundin the Dragonbane (Qalashi War Party)
 
 map.nodes[26847642] = Rare({
     id = 193198,
@@ -70,10 +73,16 @@ map.nodes[26847642] = Rare({
     rewards = {Achievement({id = 16676, criteria = 56050})}
 }) -- Captain Lancer
 
-map.nodes[26245797] = Rare({
+map.nodes[26285788] = Rare({
     id = 186783,
     quest = nil,
-    rewards = {Achievement({id = 16676, criteria = 56056})}
+    rewards = {Achievement({id = 16676, criteria = 56056})},
+    pois = {
+        Path({
+            26285788, 26545827, 25985955, 26315995, 26585932, 27316007,
+            27396026, 29306229
+        })
+    }
 }) -- Cauldronbearer Blakor
 
 map.nodes[26001600] = Rare({ -- review
@@ -85,7 +94,10 @@ map.nodes[26001600] = Rare({ -- review
 map.nodes[31785474] = Rare({ -- review -- required 67030
     id = 190985,
     quest = nil,
-    rewards = {Achievement({id = 16676, criteria = 56053})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56053}),
+        Achievement({id = 16496, criteria = 55867})
+    }
 }) -- Death's Shadow
 
 map.nodes[18001800] = Rare({ -- review
@@ -100,7 +112,7 @@ map.nodes[21626478] = Rare({ -- review
     rewards = {Achievement({id = 16676, criteria = 56049})}
 }) -- Enkine the Voracious
 
-map.nodes[32967630] = Rare({ -- review
+map.nodes[33127632] = Rare({
     id = 193154,
     quest = 72130,
     rewards = {Achievement({id = 16676, criteria = 56048})}
@@ -160,16 +172,21 @@ map.nodes[26001800] = Rare({ -- review
     rewards = {Achievement({id = 16676, criteria = 56061})}
 }) -- Rasnar the War Ender
 
-map.nodes[18002000] = Rare({ -- review
+map.nodes[25366070] = Rare({
     id = 187598,
     quest = nil,
     rewards = {Achievement({id = 16676, criteria = 56057})}
 }) -- Rohzor Forgesmash
 
-map.nodes[20002000] = Rare({ -- review -- required 67030
+map.nodes[23755734] = Rare({ -- review -- required 67030
     id = 189822,
     quest = nil,
-    rewards = {Achievement({id = 16676, criteria = 56054})}
+    note = L['shasith_note'],
+    rewards = {
+        Achievement({id = 16676, criteria = 56054}),
+        Achievement({id = 16496, criteria = 55869})
+    },
+    pois = {POI({27226096})} -- Entrance
 }) -- Shas'ith
 
 map.nodes[22002000] = Rare({ -- review
