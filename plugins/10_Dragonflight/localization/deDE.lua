@@ -18,6 +18,8 @@ L['options_icons_scout_pack_desc'] = 'Zeigt die Position für Expeditionsspäher
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['trilvarus_loreweaver_note'] = 'Sammel ein Singing Fragment un den Schwächungszauber {spell:382076} zu erhalten und benutze dann den Ungeladenen Focus.'
+
 L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Clan Chest in Gratwasserzuflucht (49.4 67.3) in den Ebenen von Ohn\'ahra und benutze es.' -- review
 
 -------------------------------------------------------------------------------
@@ -42,6 +44,9 @@ L['lizi_note_day5'] = 'Kaufe 1x {item:200598} von {npc:190015} in einem Zelt sü
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
+
+L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem {npc:192737} zu diesem Turm.'
+L['shasith_note'] = 'nil'
 
 L['onyx_gem_cluster_note'] = 'Kaufe {item:200738} von {npc:189065} für 3 {item:192863} und 500 {currency:2003} auf Ruhmstufe 21 bei der Drachenschuppenexpedition und benutze es.'
 L['replica_dragon_goblet_note'] = 'Kaufe {item:198854} von {npc:193915} in Botschaft von Schwingenrast und benutze es.'

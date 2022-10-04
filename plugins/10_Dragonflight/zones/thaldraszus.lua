@@ -58,7 +58,7 @@ local map = Map({id = 2025, settings = true})
 --     }
 -- }) -- Corrupted Proto-Dragon
 
-map.nodes[52746732] = Rare({
+map.nodes[52746732] = Rare({ -- multiple locations ? 45458518
     id = 193663,
     quest = 69964,
     rewards = {Achievement({id = 16679, criteria = 56154})}
@@ -136,13 +136,11 @@ map.nodes[52746732] = Rare({
 --     }
 -- }) -- Razk'vex the Untamed
 
--- map.nodes[] = Rare({ -- reqiured 67030
---     id = 193240,
---     quest = 69880,
---     rewards = {
---         Achievement({id = 16679, criteria = 56148}),
---     }
--- }) -- Riverwalker Tamopo
+map.nodes[40087014] = Rare({ -- reqiured 67030
+    id = 193240,
+    quest = 69880,
+    rewards = {Achievement({id = 16679, criteria = 56148})}
+}) -- Riverwalker Tamopo
 
 -- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193666,
@@ -172,13 +170,11 @@ map.nodes[47207895] = Rare({ -- review -- reqiured 67030
     }
 }) -- Tempestrian
 
--- map.nodes[] = Rare({
---     id = 191305,
---     quest = 72121,
---     rewards = {
---         Achievement({id = 16679, criteria = 56155}),
---     }
--- }) -- The Great Shellkhan
+map.nodes[38466826] = Rare({
+    id = 191305,
+    quest = 72121,
+    rewards = {Achievement({id = 16679, criteria = 56155})}
+}) -- The Great Shellkhan
 
 -- map.nodes[] = Rare({
 --     id = 183984,
