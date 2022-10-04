@@ -10,6 +10,10 @@ L['dragon_glyph'] = nil
 L['options_icons_dragon_glyph'] = nil
 L['options_icons_dragon_glyph_desc'] = nil
 
+L['disturbed_dirt'] = nil
+L['options_icons_disturbed_dirt'] = nil
+L['options_icons_disturbed_dirt_desc'] = nil
+
 L['scout_pack'] = nil
 L['options_icons_scout_pack'] = nil
 L['options_icons_scout_pack_desc'] = nil

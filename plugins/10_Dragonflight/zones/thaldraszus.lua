@@ -7,6 +7,7 @@ local ADDON_NAME, ns = ...
 local Map = ns.Map
 
 -- local Collectible = ns.node.Collectible
+local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
@@ -259,6 +260,14 @@ map.nodes[41285813] = Dragonglyph({
 }) -- Dragon Glyphs: Valdrakken
 map.nodes[72125131] = Dragonglyph({rewards = {Achievement({id = 16106})}}) -- Dragon Glyphs: Vault of the Incarnates
 map.nodes[67121181] = Dragonglyph({rewards = {Achievement({id = 16105})}}) -- Dragon Glyphs: Veiled Ossuary
+
+-------------------------------------------------------------------------------
+------------------------------- DISTURBED DIRT --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[38188192] = Disturbeddirt()
+map.nodes[49894474] = Disturbeddirt()
+map.nodes[55756743] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
