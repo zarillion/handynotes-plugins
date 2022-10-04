@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 -- local Collectible = ns.node.Collectible
+local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
@@ -409,6 +410,16 @@ map.nodes[70584626] = Dragonglyph({rewards = {Achievement({id = 16067})}}) -- Dr
 map.nodes[68646026] = Dragonglyph({rewards = {Achievement({id = 16066})}}) -- Dragon Glyphs: Ruins of Karnthar
 map.nodes[72623978] = Dragonglyph({rewards = {Achievement({id = 16073})}}) -- Dragon Glyphs: Vakthros Range
 map.nodes[52954909] = Dragonglyph({rewards = {Achievement({id = 16071})}}) -- Dragon Glyphs: Zelthrak Outpost
+
+-------------------------------------------------------------------------------
+------------------------------- DISTURBED DIRT --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[33704685] = Disturbeddirt()
+map.nodes[57775352] = Disturbeddirt()
+map.nodes[65516163] = Disturbeddirt()
+map.nodes[70724381] = Disturbeddirt()
+map.nodes[73374059] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------

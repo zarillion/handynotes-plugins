@@ -22,6 +22,8 @@ ns.expansion = 10
 -------------------------------------------------------------------------------
 
 ns.groups.DRAGON_GLYPH = Group('dragon_glyph', 4728198)
+ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570,
+    {defaults = ns.GROUP_HIDDEN})
 ns.groups.SCOUT_PACK =
     Group('scout_pack', 4562583, {defaults = ns.GROUP_HIDDEN})
 
@@ -36,6 +38,22 @@ local Dragonglyph = Class('Dragonglyph', Collectible, {
 })
 
 ns.node.Dragonglyph = Dragonglyph
+
+-------------------------------------------------------------------------------
+------------------------------- DISTURBED DIRT --------------------------------
+-------------------------------------------------------------------------------
+
+local Disturbeddirt = Class('disturbed_dirt', Node, {
+    icon = 1060570,
+    label = L['disturbed_dirt'],
+    group = ns.groups.DISTURBED_DIRT,
+    requires = ns.requirement.Item(191294), -- Small Expedition Shovel
+    rewards = {
+        Item({item = 190454}), Item({item = 192055}), Currency({id = 2003})
+    }
+})
+
+ns.node.Disturbeddirt = Disturbeddirt
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
