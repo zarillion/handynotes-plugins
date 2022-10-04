@@ -50,7 +50,7 @@ map.nodes[38305980] = Rare({
     }
 }) -- Commander Vecaya
 
-map.nodes[40704340] = Rare({
+map.nodes[44000700] = Rare({
     id = 125824,
     quest = 48561,
     rewards = {
