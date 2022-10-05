@@ -2,11 +2,11 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
--- local Class = ns.Class
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
--- local Collectible = ns.node.Collectible
+local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
@@ -330,6 +330,57 @@ map.nodes[54797412] = Flag({quest = 71204})
 map.nodes[56534513] = Flag({quest = 70823})
 map.nodes[73353884] = Flag({quest = 70824})
 -- map.nodes[] = Flag({quest = })
+
+-------------------------------------------------------------------------------
+------------------------------- SYMBOLS OF HOPE -------------------------------
+-------------------------------------------------------------------------------
+
+local Kite = Class('Kite', Collectible, {
+    icon = 133837,
+    label = '{npc:198118}',
+    group = ns.groups.KITE
+})
+
+map.nodes[73193776] = Kite({
+    quest = 72096,
+    rewards = {Achievement({id = 16584, criteria = 55841})}
+})
+map.nodes[73035292] = Kite({
+    quest = 72097,
+    rewards = {Achievement({id = 16584, criteria = 55845})}
+})
+map.nodes[56735799] = Kite({
+    quest = 72098,
+    rewards = {Achievement({id = 16584, criteria = 55843})}
+})
+map.nodes[61698083] = Kite({
+    quest = 72099,
+    rewards = {Achievement({id = 16584, criteria = 55844})}
+})
+map.nodes[43556382] = Kite({
+    quest = 72100,
+    rewards = {Achievement({id = 16584, criteria = 55845})}
+})
+map.nodes[24048994] = Kite({
+    quest = 72101,
+    rewards = {Achievement({id = 16584, criteria = 55846})}
+})
+map.nodes[50275562] = Kite({
+    quest = 72102,
+    rewards = {Achievement({id = 16584, criteria = 55847})}
+})
+map.nodes[48863994] = Kite({
+    quest = 72104,
+    rewards = {Achievement({id = 16584, criteria = 55849})}
+})
+map.nodes[57124639] = Kite({
+    quest = 72103,
+    rewards = {Achievement({id = 16584, criteria = 55848})}
+})
+map.nodes[57011998] = Kite({
+    quest = 72105,
+    rewards = {Achievement({id = 16584, criteria = 55850})}
+})
 
 -------------------------------------------------------------------------------
 ------------------------------- DISTURBED DIRT --------------------------------

@@ -15,6 +15,9 @@ L['flags_placed'] = 'flags placed'
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = 'Display the location of all 20 flags for the achievement {achievement:15890}.'
 
+L['options_icons_kite'] = '{achievement:16584}'
+L['options_icons_kite_desc'] = 'Display the location of {npc:198118s} for the achievement {achievement:16584}.'
+
 L['disturbed_dirt'] = 'Disturbed Dirt'
 L['options_icons_disturbed_dirt'] = 'Disturbed dirt'
 L['options_icons_disturbed_dirt_desc'] = 'Display the location of Disturbed Dirt.'
