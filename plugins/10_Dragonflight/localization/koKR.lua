@@ -15,6 +15,9 @@ L['flags_placed'] = nil
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = nil
 
+L['options_icons_kite'] = '{achievement:16584}'
+L['options_icons_kite_desc'] = nil
+
 L['disturbed_dirt'] = nil
 L['options_icons_disturbed_dirt'] = nil
 L['options_icons_disturbed_dirt_desc'] = nil

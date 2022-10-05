@@ -10,10 +10,13 @@ L['dragon_glyph'] = 'Drachenglyphe'
 L['options_icons_dragon_glyph'] = 'Drachenglyphen'
 L['options_icons_dragon_glyph_desc'] = 'Zeigt die Position aller 48 Drachenglyphen an.'
 
-L['dragonscale_expedition_flag'] = 'Dragonscale Expedition Flagge' -- review
+L['dragonscale_expedition_flag'] = 'Flagge der Drachenschuppenexpedition'
 L['flags_placed'] = 'Flaggen platziert'
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = 'Zeigt die Position aller 20 Flaggen für den Erfolg {achievement:15890} an.'
+
+L['options_icons_kite'] = '{achievement:16584}'
+L['options_icons_kite_desc'] = 'Zeigt die Position der {npc:198118} für den Erfolg {achievement:16584} an.'
 
 L['disturbed_dirt'] = 'Bewegte Erde'
 L['options_icons_disturbed_dirt'] = 'Bewegte Erde'
@@ -29,7 +32,7 @@ L['options_icons_scout_pack_desc'] = 'Zeigt die Position für Expeditionsspäher
 
 L['trilvarus_loreweaver_note'] = 'Sammel ein Singing Fragment un den Schwächungszauber {spell:382076} zu erhalten und benutze dann den Ungeladenen Focus.'
 
-L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Clan Chest in Gratwasserzuflucht (49.4 67.3) in den Ebenen von Ohn\'ahra und benutze es.' -- review
+L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Klankiste in Gratwasserzuflucht (49.4 67.3) in den Ebenen von Ohn\'ahra und benutze es.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
