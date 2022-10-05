@@ -29,6 +29,7 @@ ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570,
 ns.groups.SCOUT_PACK =
     Group('scout_pack', 4562583, {defaults = ns.GROUP_HIDDEN})
 ns.groups.FLAG = Group('flag', 1723999, {defaults = ns.GROUP_HIDDEN})
+ns.groups.KITE = Group('kite', 133837, {defaults = ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
