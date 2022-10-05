@@ -10,6 +10,11 @@ L['dragon_glyph'] = 'Drachenglyphe'
 L['options_icons_dragon_glyph'] = 'Drachenglyphen'
 L['options_icons_dragon_glyph_desc'] = 'Zeigt die Position aller 48 Drachenglyphen an.'
 
+L['dragonscale_expedition_flag'] = 'Dragonscale Expedition Flagge' -- review
+L['flags_placed'] = 'Flaggen platziert'
+L['options_icons_flag'] = '{achievement:15890}'
+L['options_icons_flag_desc'] = 'Zeigt die Position aller 20 Flaggen für den Erfolg {achievement:15890} an.'
+
 L['disturbed_dirt'] = 'Bewegte Erde'
 L['options_icons_disturbed_dirt'] = 'Bewegte Erde'
 L['options_icons_disturbed_dirt_desc'] = 'Zeigt die Position für Bewegte Erde an.'

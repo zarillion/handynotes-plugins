@@ -9,6 +9,7 @@ local Map = ns.Map
 -- local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
+local Flag = ns.node.Flag
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
@@ -410,6 +411,16 @@ map.nodes[70584626] = Dragonglyph({rewards = {Achievement({id = 16067})}}) -- Dr
 map.nodes[68646026] = Dragonglyph({rewards = {Achievement({id = 16066})}}) -- Dragon Glyphs: Ruins of Karnthar
 map.nodes[72623978] = Dragonglyph({rewards = {Achievement({id = 16073})}}) -- Dragon Glyphs: Vakthros Range
 map.nodes[52954909] = Dragonglyph({rewards = {Achievement({id = 16071})}}) -- Dragon Glyphs: Zelthrak Outpost
+
+-------------------------------------------------------------------------------
+------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
+-------------------------------------------------------------------------------
+
+map.nodes[63408535] = Flag({quest = 71215})
+map.nodes[46142498] = Flag({quest = 71218})
+map.nodes[77431837] = Flag({quest = 71217})
+map.nodes[37466620] = Flag({quest = 71216})
+-- map.nodes[] = Flag({quest = })
 
 -------------------------------------------------------------------------------
 ------------------------------- DISTURBED DIRT --------------------------------
