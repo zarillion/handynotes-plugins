@@ -66,13 +66,11 @@ map.nodes[52746732] = Rare({ -- multiple locations ? 45458518
     rewards = {Achievement({id = 16679, criteria = 56154})}
 }) -- Craggravated Elemental
 
--- map.nodes[] = Rare({ -- required 67030
---     id = 193234,
---     quest = 69875,
---     rewards = {
---         Achievement({id = 16679, criteria = 56147}),
---     }
--- }) -- Eldoren the Reborn
+map.nodes[47675115] = Rare({ -- required 67030
+    id = 193234,
+    quest = 69875,
+    rewards = {Achievement({id = 16679, criteria = 56147})}
+}) -- Eldoren the Reborn
 
 -- map.nodes[] = Rare({
 --     id = 193125,

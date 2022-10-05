@@ -30,6 +30,10 @@ L['options_icons_scout_pack_desc'] = nil
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['blisterhide_note'] = nil
+L['gnarls_note'] = nil
+L['high_shaman_rotknuckle_note'] = nil
+L['snarglebone_note'] = nil
 L['trilvarus_loreweaver_note'] = nil
 
 L['forgotten_jewel_box_note'] = nil

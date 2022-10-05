@@ -102,14 +102,16 @@ map.nodes[13584855] = Rare({
 --     }
 -- }) -- Blightfur
 
--- map.nodes[] = Rare({
---     id = 197353,
---     quest = ,
---     rewards = {
---         Achievement({id = 16678, criteria = 56126}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Blisterhide
+map.nodes[14053096] = Rare({
+    id = 197353,
+    quest = nil,
+    fgroup = 'blackhide',
+    note = L['blisterhide_note'],
+    rewards = {
+        Achievement({id = 16678, criteria = 56126})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Blisterhide
 
 map.nodes[16622798] = Rare({
     id = 193259,
@@ -166,14 +168,16 @@ map.nodes[64653019] = Rare({ -- review
 --     }
 -- }) -- Frostpaw
 
--- map.nodes[] = Rare({
---     id = 197354,
---     quest = ,
---     rewards = {
---         Achievement({id = 16678, criteria = 56127}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Gnarls
+map.nodes[14083747] = Rare({
+    id = 197354,
+    quest = nil,
+    fgroup = 'blackhide',
+    note = L['gnarls_note'],
+    rewards = {
+        Achievement({id = 16678, criteria = 56127})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Gnarls
 
 map.nodes[32682911] = Rare({ -- review -- required 67030
     id = 193251,
@@ -193,14 +197,16 @@ map.nodes[32682911] = Rare({ -- review -- required 67030
 --     }
 -- }) -- Grumbletrunk
 
--- map.nodes[] = Rare({
---     id = 197356,
---     quest = ,
---     rewards = {
---         Achievement({id = 16678, criteria = 56128}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- High Shaman Rotknuckle
+map.nodes[16213364] = Rare({
+    id = 197356,
+    quest = nil,
+    fgroup = 'blackhide',
+    note = L['high_shaman_rotknuckle_note'],
+    rewards = {
+        Achievement({id = 16678, criteria = 56128})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- High Shaman Rotknuckle
 
 -- map.nodes[] = Rare({
 --     id = 190244,
@@ -292,14 +298,16 @@ map.nodes[26494939] = Rare({ -- review -- required 67030
 --     }
 -- }) -- Skald the Impaler
 
--- map.nodes[] = Rare({
---     id = 197344,
---     quest = ,
---     rewards = {
---         Achievement({id = 16678, criteria = 56125}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Snarglebone
+map.nodes[10863229] = Rare({
+    id = 197344,
+    quest = nil,
+    fgroup = 'blackhide',
+    note = L['snarglebone_note'],
+    rewards = {
+        Achievement({id = 16678, criteria = 56125})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Snarglebone
 
 -- map.nodes[] = Rare({
 --     id = 193706,
