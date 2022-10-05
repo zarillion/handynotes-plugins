@@ -70,7 +70,10 @@ local Disturbeddirt = Class('disturbed_dirt', Node, {
     icon = 1060570,
     label = L['disturbed_dirt'],
     group = ns.groups.DISTURBED_DIRT,
-    requires = ns.requirement.Item(191294), -- Small Expedition Shovel
+    requires = {
+        ns.requirement.Quest(70813), -- Digging Up Treasure
+        ns.requirement.Item(191294) -- Small Expedition Shovel
+    },
     rewards = {
         Item({item = 190454}), Item({item = 192055}), Currency({id = 2003})
     }
@@ -86,12 +89,13 @@ local Scoutpack = Class('Scoutpack', Node, {
     icon = 4562583,
     label = L['scout_pack'],
     group = ns.groups.SCOUT_PACK,
-    requires = ns.requirement.Quest(70822),
+    requires = ns.requirement.Quest(70822), -- Lost Expedition Scouts
     rewards = {
         Transmog({item = 201387, slot = L['cosmetic']}), -- Dragon Knight's Halberd
         Transmog({item = 201390, slot = L['cosmetic']}), -- Dracthyr's Devastating Waraxe
         Transmog({item = 201392, slot = L['cosmetic']}), -- Dragon Noble's Cutlass
         Transmog({item = 201395, slot = L['cosmetic']}), -- Dragon Wingcrest Scimitar
+        Transmog({item = 201396, slot = L['cosmetic']}), -- Dracthyr Claw Extensions
         Item({item = 190454}), Item({item = 192055}), Currency({id = 2003})
     }
 })
