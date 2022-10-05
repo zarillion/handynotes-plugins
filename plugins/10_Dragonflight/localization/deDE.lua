@@ -30,6 +30,10 @@ L['options_icons_scout_pack_desc'] = 'Zeigt die Position für Expeditionsspäher
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['blisterhide_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197356} und {npc:197354}'
+L['gnarls_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197353} und {npc:197356}'
+L['high_shaman_rotknuckle_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197353} und {npc:197354}'
+L['snarglebone_note'] = 'Erscheint gleichzeitig mit {npc:197353}, {npc:197356} und {npc:197354}'
 L['trilvarus_loreweaver_note'] = 'Sammel ein Singing Fragment un den Schwächungszauber {spell:382076} zu erhalten und benutze dann den Ungeladenen Focus.'
 
 L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Klankiste in Gratwasserzuflucht (49.4 67.3) in den Ebenen von Ohn\'ahra und benutze es.'

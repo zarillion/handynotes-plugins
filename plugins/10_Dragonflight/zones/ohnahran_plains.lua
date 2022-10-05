@@ -47,14 +47,14 @@ local map = Map({id = 2023, settings = true})
 --     }
 -- }) -- Deadwaker Ghendish
 
--- map.nodes[] = Rare({
---     id = 192020,
---     quest = ,
---     rewards = {
---         Achievement({id = 16677, criteria = 56077}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Eaglemaster Niraak
+map.nodes[49866673] = Rare({
+    id = 192020,
+    quest = nil,
+    rewards = {
+        Achievement({id = 16677, criteria = 56077})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Eaglemaster Niraak
 
 map.nodes[56718128] = Rare({
     id = 193142,
@@ -219,14 +219,14 @@ map.nodes[50117517] = Rare({
     rewards = {Achievement({id = 16677, criteria = 56063})}
 }) -- Scav Notail
 
--- map.nodes[] = Rare({
---     id = 193188,
---     quest = ,
---     rewards = {
---         Achievement({id = 16677, criteria = 56065}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Seeker Teryx
+map.nodes[61801283] = Rare({
+    id = 193188,
+    quest = nil,
+    rewards = {
+        Achievement({id = 16677, criteria = 56065})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Seeker Teryx
 
 map.nodes[29964103] = Rare({
     id = 187559,

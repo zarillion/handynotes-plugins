@@ -30,6 +30,10 @@ L['options_icons_scout_pack_desc'] = 'Display the location of Expedition Scout\'
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['blisterhide_note'] = 'Appears simultaneously with {npc:197344}, {npc:197356} and {npc:197354}'
+L['gnarls_note'] = 'Appears simultaneously with {npc:197344}, {npc:197353} and {npc:197356}'
+L['high_shaman_rotknuckle_note'] = 'Appears simultaneously with {npc:197344}, {npc:197353} and {npc:197354}'
+L['snarglebone_note'] = 'Appears simultaneously with {npc:197353}, {npc:197356} and {npc:197354}'
 L['trilvarus_loreweaver_note'] = 'Collect a Singing Fragment to get {spell:382076} and use the Uncharded Focus to spawn the rare.'
 
 L['forgotten_jewel_box_note'] = 'Loot {item:199065} from a Clan Chest in Ridgewater Retreat (49.4 67.3) on the Ohn\'ahran Plains and use it.'
