@@ -450,6 +450,7 @@ map.nodes[43316632] = Disturbeddirt()
 map.nodes[63251396] = Disturbeddirt()
 map.nodes[65868145] = Disturbeddirt()
 map.nodes[66451981] = Disturbeddirt()
+map.nodes[62171310] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
