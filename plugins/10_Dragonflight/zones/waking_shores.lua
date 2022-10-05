@@ -9,6 +9,7 @@ local Map = ns.Map
 -- local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
+local Flag = ns.node.Flag
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
@@ -319,6 +320,16 @@ map.nodes[73212051] = Dragonglyph({rewards = {Achievement({id = 16052})}}) -- Dr
 map.nodes[75265707] = Dragonglyph({rewards = {Achievement({id = 15985})}}) -- Dragon Glyphs: Skytop Observatory
 map.nodes[46395207] = Dragonglyph({rewards = {Achievement({id = 15989})}}) -- Dragon Glyphs: The Overflowing Spring
 map.nodes[74943750] = Dragonglyph({rewards = {Achievement({id = 15986})}}) -- Dragon Glyphs: Wingrest Embassy
+
+-------------------------------------------------------------------------------
+------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
+-------------------------------------------------------------------------------
+
+map.nodes[43976294] = Flag({quest = 70825})
+map.nodes[54797412] = Flag({quest = 71204})
+map.nodes[56534513] = Flag({quest = 70823})
+map.nodes[73353884] = Flag({quest = 70824})
+-- map.nodes[] = Flag({quest = })
 
 -------------------------------------------------------------------------------
 ------------------------------- DISTURBED DIRT --------------------------------

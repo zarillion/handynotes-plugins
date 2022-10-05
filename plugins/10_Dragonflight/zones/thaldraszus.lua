@@ -9,6 +9,7 @@ local Map = ns.Map
 -- local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
+local Flag = ns.node.Flag
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
@@ -260,6 +261,16 @@ map.nodes[41285813] = Dragonglyph({
 }) -- Dragon Glyphs: Valdrakken
 map.nodes[72125131] = Dragonglyph({rewards = {Achievement({id = 16106})}}) -- Dragon Glyphs: Vault of the Incarnates
 map.nodes[67121181] = Dragonglyph({rewards = {Achievement({id = 16105})}}) -- Dragon Glyphs: Veiled Ossuary
+
+-------------------------------------------------------------------------------
+------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
+-------------------------------------------------------------------------------
+
+map.nodes[46107397] = Flag({quest = 70024})
+map.nodes[50168163] = Flag({quest = 70039})
+map.nodes[66195378] = Flag({quest = 71224})
+map.nodes[34048484] = Flag({quest = 71222})
+-- map.nodes[] = Flag({quest = })
 
 -------------------------------------------------------------------------------
 ------------------------------- DISTURBED DIRT --------------------------------
