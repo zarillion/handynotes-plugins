@@ -77,75 +77,75 @@ L['options_icons_lorewalker_desc'] = 'Muestra los sitios para el logro {achievem
 --------------------------------- Jade Forest ---------------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_pick'] = nil
-L['ships_locker'] = nil
-L['ships_locker_note'] = nil
-L['chest_of_supplies'] = nil
-L['chest_of_supplies_note'] = nil
-L['offering_of_rememberance'] = nil
-L['offering_of_rememberance_note'] = nil
-L['stash_of_gems'] = nil
-L['stash_of_gems_note'] = nil
+L['ancient_pick'] = 'El {item:85777} está dentro de la Cantera Verdemar en el nivel inferior.'
+L['ships_locker'] = 'Baúl del Barco'
+L['ships_locker_note'] = 'En el barco hundido. Contiene unos 96 de Oro.'
+L['chest_of_supplies'] = 'Cofre de Suministros'
+L['chest_of_supplies_note'] = 'Contiene unos 10 de Oro.'
+L['offering_of_rememberance'] = 'Ofrenda de Recuerdo'
+L['offering_of_rememberance_note'] = 'Contiene unos 30 de Oro.'
+L['stash_of_gems'] = 'Alijo de Gemas'
+L['stash_of_gems_note'] = 'Contiene unos 7 de Oro y Gemas.'
 
 -------------------------------------------------------------------------------
 -------------------------------- Krasarang Wilds ------------------------------
 -------------------------------------------------------------------------------
 
-L['equipment_locker'] = nil
+L['equipment_locker'] = 'Armario de Equipo'
 
 -------------------------------------------------------------------------------
 ------------------------------- The Veiled Stair ------------------------------
 -------------------------------------------------------------------------------
 
-L['forgotten_lockbox'] = nil
-L['forgotten_lockbox_note'] = nil
+L['forgotten_lockbox'] = 'Arcón Olvidado'
+L['forgotten_lockbox_note'] = 'En el segundo piso de la taverna.\nContiene unos 10 de Oro.'
 
 -------------------------------------------------------------------------------
 -------------------------- Vale of Eternal Blossoms ---------------------------
 -------------------------------------------------------------------------------
 
-L['guolai_halls'] = nil
-L['guolai_cache'] = nil
+L['guolai_halls'] = 'En las Salas de Guo-Lai.'
+L['guolai_cache'] = 'Encuentra una {item:87779} y abre un Alijo de Guo-Lai antiguo.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Kun Lai Summit --------------------------------
 -------------------------------------------------------------------------------
 
-L['lost_adventurers_belongings'] = nil -- wowhead.com/object=213774
-L['lost_adventurers_belongings_note'] = nil
-L['momos_treasure_chest'] = nil -- wowhead.com/object=214407
-L['momos_treasure_chest_note'] = nil
-L['hozen_treasure_cache'] = nil -- wowhead.com/object=213769
-L['hozen_treasure_cache_note'] = nil
-L['rikktiks_tick_remover'] = nil -- wowhead.com/object=213793
-L['stolen_sprite_treasure'] = nil -- wowhead.com/object=213770
-L['stolen_sprite_treasure_note'] = nil
-L['sturdy_yaungol_spear'] = nil -- wowhead.com/object=213842
-L['sprites_cloth_chest'] = nil -- wowhead.com/object=213751
+L['lost_adventurers_belongings'] = 'Pertenencias del Aventurero Perdido'
+L['lost_adventurers_belongings_note'] = 'Contiene unos 97 de Oro.'
+L['momos_treasure_chest'] = 'Cofre del Tesoro de Mo-Mo'
+L['momos_treasure_chest_note'] = 'Contiene unos 10 de Oro.'
+L['hozen_treasure_cache'] = 'Alijo de Tesoro Hozen'
+L['hozen_treasure_cache_note'] = 'Contiene unos 99 de Oro.'
+L['rikktiks_tick_remover'] = 'Cofre Diminuto de Rikktik'
+L['stolen_sprite_treasure'] = 'Tesoro de Duende Robado'
+L['stolen_sprite_treasure_note'] = 'Contiene unos 104 de Oro.'
+L['sturdy_yaungol_spear'] = 'Alijo de Armas Yaungol'
+L['sprites_cloth_chest'] = 'Cofre de Tela de Duende'
 
 -------------------------------------------------------------------------------
 ------------------------------- Townlong Steppes ------------------------------
 -------------------------------------------------------------------------------
 
-L['abandoned_crate_of_goods'] = nil -- wowhead.com/object=213961
-L['abandoned_crate_of_goods_note'] = nil
+L['abandoned_crate_of_goods'] = 'Cajón de Bienes Abandonado'
+L['abandoned_crate_of_goods_note'] = 'Contiene unos 103 de Oro.'
 
 -------------------------------------------------------------------------------
 ----------------------------- Valley of Four Winds ----------------------------
 -------------------------------------------------------------------------------
 
-L['cache_of_pilfered_goods'] = nil
-L['virmen_treasure_cache'] = nil
+L['cache_of_pilfered_goods'] = 'Alijo de Bienes Trincados'
+L['virmen_treasure_cache'] = 'Alijo del Tesoro Mur'
 
 -------------------------------------------------------------------------------
 ------------------------------- Isle of Thunder -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_kroshik'] = '{achievement:8108}'
-L['options_icons_kroshik_desc'] = nil
+L['options_icons_kroshik_desc'] = 'Muestra los sitios para el logro {achievement:8108}.'
 
-L['iot_portal'] = nil
-L['ritualstone_needed'] = nil
-L['kroshik_bow'] = nil
-L['kroshik_adult'] = nil
-L['kroshik_baby'] = nil
+L['iot_portal'] = 'Portal'
+L['ritualstone_needed'] = 'Necesitas 3 {item:94221} para invocar al raro.'
+L['kroshik_bow'] = '/reverenciar'
+L['kroshik_adult'] = 'Corre alrededor del lago.\n/bow'
+L['kroshik_baby'] = 'Corre alrededor de la zona.\n/bow'
