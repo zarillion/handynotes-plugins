@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 -- local Class = ns.Class
--- local L = ns.locale
+local L = ns.locale
 local Map = ns.Map
 
 -- local Collectible = ns.node.Collectible
@@ -234,8 +234,9 @@ map.nodes[84001400] = Treasure({ -- required 70538, 70608
     rewards = {Achievement({id = 16301, criteria = 54811})}
 }) -- Sandy Wooden Duck (Sand Pile)
 
-map.nodes[86001400] = Treasure({
-    quest = nil,
+map.nodes[64851655] = Treasure({
+    quest = 70610,
+    note = L['in_cave'],
     rewards = {Achievement({id = 16301, criteria = 54814})}
 }) -- Surveyor's Magnifying Glass
 
