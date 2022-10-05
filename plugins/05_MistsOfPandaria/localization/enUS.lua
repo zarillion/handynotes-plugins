@@ -134,7 +134,7 @@ L['abandoned_crate_of_goods_note'] = 'Contains about 103 Gold.'
 -------------------------------------------------------------------------------
 
 L['cache_of_pilfered_goods'] = 'Cache of Pilfered Goods'
-L['virmen_treasure_cache'] = "Virmen Treasure Cache"
+L['virmen_treasure_cache'] = 'Virmen Treasure Cache'
 
 -------------------------------------------------------------------------------
 ------------------------------- Isle of Thunder -------------------------------
