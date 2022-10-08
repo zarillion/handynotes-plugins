@@ -69,7 +69,7 @@ L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.
 L['options_icons_squirrels'] = '{achievement:6350}'
 L['options_icons_squirrels_desc'] = 'Critter locations for {achievement:6350} achievement.'
 
-L['options_icons_lorewalker'] = {achievement:6548}
+L['options_icons_lorewalker'] = '{achievement:6548}'
 L['options_icons_lorewalker_desc'] = 'Shows the locations for the {achievement:6548} achievement.'
 
 -------------------------------------------------------------------------------

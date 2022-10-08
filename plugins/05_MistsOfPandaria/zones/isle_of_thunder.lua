@@ -8,7 +8,6 @@ local Class = ns.Class
 
 local Rare = ns.node.Rare
 local Node = ns.node.Node
-local NPC = ns.node.NPC
 local Collectible = ns.node.Collectible
 local Lorewalker = ns.node.Lorewalker
 

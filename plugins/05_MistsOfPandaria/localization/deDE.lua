@@ -66,8 +66,8 @@ L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE 
 L['options_icons_squirrels'] = '{achievement:6350}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:6350} an.'
 
-L['options_icons_lorewalker'] = 'Lehrensucher'
-L['options_icons_lorewalker_desc'] = 'Zeigt die Orte für die Lehrensucher Erfolge.'
+L['options_icons_lorewalker'] = '{achievement:6548}'
+L['options_icons_lorewalker_desc'] = 'Zeigt die Orte für den Erfolg {achievement:6548}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- Jade Forest ---------------------------------
