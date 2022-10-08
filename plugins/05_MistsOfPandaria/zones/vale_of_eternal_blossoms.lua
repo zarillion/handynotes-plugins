@@ -4,7 +4,6 @@
 local ADDON_NAME, ns = ...
 local Map = ns.Map
 local L = ns.locale
-local Class = ns.Class
 
 local Rare = ns.node.Rare
 local Collectible = ns.node.Collectible
@@ -12,7 +11,6 @@ local Lorewalker = ns.node.Lorewalker
 local Squirrel = ns.node.Squirrel
 
 local Achievement = ns.reward.Achievement
-local Mount = ns.reward.Mount
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 

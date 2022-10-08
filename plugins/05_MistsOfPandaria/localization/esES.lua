@@ -70,7 +70,7 @@ L['squirrels_note'] = 'Debes usar la emoción /amor en las alimañas que no sean
 L['options_icons_squirrels'] = '{achievement:6350}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:6350}.'
 
-L['options_icons_lorewalker'] = {achievement:6548}
+L['options_icons_lorewalker'] = '{achievement:6548}'
 L['options_icons_lorewalker_desc'] = 'Muestra los sitios para el logro {achievement:6548}.'
 
 -------------------------------------------------------------------------------
