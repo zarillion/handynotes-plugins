@@ -321,7 +321,7 @@ map.nodes[46308070] = Treasure({
 map.nodes[62402750] = Treasure({
     quest = 31866,
     label = 'Stash of Gems',
-    note = L['stash_of_gems'],
+    note = L['stash_of_gems_note'],
     icon = 'chest_bn'
 }) -- Stash of Gems
 
