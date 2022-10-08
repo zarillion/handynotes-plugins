@@ -20,6 +20,7 @@ local Path = ns.poi.Path
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
+
 local map = Map({id = 379, settings = true})
 
 -------------------------------------------------------------------------------
@@ -199,9 +200,9 @@ local hozen_warrior_spear = Treasure({
     quest = 31413,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Transmog({item = 86394, slot = L['polearm']})
+        Transmog({item = 86394, slot = L['polearm']}) -- Hozen Warrior Spear
     }
-})
+}) -- Hozen Warrior Spear
 map.nodes[52857151] = hozen_warrior_spear
 Map({id = 384, settings = true}).nodes[24166791] = hozen_warrior_spear
 
@@ -211,7 +212,7 @@ map.nodes[35177631] = Treasure({
     quest = 31304,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Item({item = 86125})
+        Item({item = 86125}) -- Kafa Press
     },
     pois = {POI({37367782})}
 }) -- Kafa Press, Frozen Trail Packer
@@ -222,9 +223,11 @@ local sprites_cloth_chest = Treasure({
     quest = 31412,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Transmog({item = 86223}), Transmog({item = 86222}),
-        Transmog({item = 86225}), Transmog({item = 86221}),
-        Transmog({item = 86224})
+        Transmog({item = 86221}), -- Wise Sprite Cloak
+        Transmog({item = 86222}), -- Precise Sprite Cloak
+        Transmog({item = 86223}), -- Agile Sprite Cloak
+        Transmog({item = 86224}), -- Steadfast Sprite Cape
+        Transmog({item = 86225}) -- Strong Sprite Cloak
     }
 }) -- Sprite's Cloth Chest
 map.nodes[73137356] = sprites_cloth_chest
@@ -244,7 +247,7 @@ map.nodes[44695234] = Treasure({
     quest = 31417,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Item({item = 86393})
+        Item({item = 86393}) -- Tablet of Ren Yun
     }
 }) -- Tablet of Ren Yun
 
@@ -258,14 +261,13 @@ map.nodes[47907347] = Treasure({
     pois = {POI({48127304})}
 }) -- Mo-Mo's Treasure Chest
 
-
 map.nodes[64214512] = Treasure({
     label = '{item:86471}',
     note = L['in_cave'],
     quest = 31420,
     rewards = {
         Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
-        Item({item = 86471})
+        Item({item = 86471}) -- Ancient Mogu Tablet
     },
     pois = {POI({63944969, 63234195})}
 }) -- Ancient Mogu Tablet
@@ -296,7 +298,7 @@ map.nodes[52575154] = Treasure({
     quest = 31419,
     rewards = {
         Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
-        Item({item = 86430})
+        Item({item = 86430}) -- Rikktik's Tick Remover
     }
 }) -- Rikktik's Tick Remover
 
@@ -305,7 +307,7 @@ map.nodes[72003390] = Treasure({
     quest = 31416,
     rewards = {
         Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
-        Item({item = 86422})
+        Item({item = 86422}) -- Statue of Xuen
     }
 }) -- Statue of Xuen
 
@@ -326,7 +328,7 @@ map.nodes[59207300] = Treasure({
     quest = 31422,
     rewards = {
         Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
-        Item({item = 86427})
+        Item({item = 86427}) -- Terracotta Head
     },
     pois = {POI({58407350, 59207450, 57007550, 57807630})}
 }) -- Terracotta Head
