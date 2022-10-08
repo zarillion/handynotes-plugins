@@ -20,6 +20,8 @@ local Item = ns.reward.Item
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
+------------------------------------- MAP -------------------------------------
+-------------------------------------------------------------------------------
 
 local map = Map({id = 422, settings = true})
 
@@ -170,7 +172,7 @@ map.nodes[33003014] = Treasure({
     quest = 31431,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Item({item = 86521})
+        Item({item = 86521}) -- Lucid Amulet of the Agile Mind
     }
 }) -- Lucid Amulet of the Agile Mind
 
@@ -179,7 +181,7 @@ map.nodes[28894198] = Treasure({
     quest = 31438,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Transmog({item = 86527, slot = L['1h_sword']})
+        Transmog({item = 86527, slot = L['1h_sword']}) -- Blade of the Poisoned Mind
     }
 }) -- Blade of the Poisoned Mind
 
@@ -189,7 +191,7 @@ map.nodes[26005030] = Treasure({
     note = L['in_water_cave'],
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Item({item = 86525})
+        Item({item = 86525}) -- Bloodsoaked Chitin Fragment
     },
     pois = {POI({25725384})}
 }) -- Bloodsoaked Chitin Fragment
@@ -199,7 +201,7 @@ map.nodes[30209080] = Treasure({
     quest = 31435,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Transmog({item = 86524, slot = L['staff']})
+        Transmog({item = 86524, slot = L['staff']}) -- Dissector's Staff of Mutation
     }
 }) -- Dissector's Staff of Mutation
 
@@ -208,7 +210,7 @@ map.nodes[56707770] = Treasure({
     quest = 31434,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Transmog({item = 86523, slot = L['2h_sword']})
+        Transmog({item = 86523, slot = L['2h_sword']}) -- Swarming Cleaver of Ka'roz
     }
 }) -- Swarming Cleaver of Ka'roz
 
@@ -217,7 +219,7 @@ map.nodes[66306650] = Treasure({
     quest = 31433,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Transmog({item = 86522, slot = L['1h_sword']})
+        Transmog({item = 86522, slot = L['1h_sword']}) -- Blade of the Prime
     }
 }) -- Blade of the Prime
 
@@ -226,7 +228,7 @@ map.nodes[54305650] = Treasure({
     quest = 31437,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Item({item = 86526})
+        Item({item = 86526}) -- Swarmkeeper's Medallion
     }
 }) -- Swarmkeeper's Medallion
 
@@ -236,7 +238,7 @@ map.nodes[42006330] = Treasure({
     note = '{npc:65552}',
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Item({item = 86529})
+        Item({item = 86529}) -- Manipulator's Talisman
     }
 }) -- Manipulator's Talisman
 
@@ -245,7 +247,7 @@ map.nodes[71803610] = Treasure({
     quest = 31429,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Transmog({item = 86519, slot = L['dagger']})
+        Transmog({item = 86519, slot = L['dagger']}) -- Wind-Reaver's Dagger of Quick Strikes
     }
 }) -- Wind-Reaver's Dagger of Quick Strikes
 
@@ -254,7 +256,7 @@ map.nodes[48803000] = Treasure({
     quest = 31430,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Transmog({item = 86520, slot = L['polearm']}), -- Name
+        Transmog({item = 86520, slot = L['polearm']}) -- Malik's Stalwart Spear
     }
 }) -- Malik's Stalwart Spear
 
