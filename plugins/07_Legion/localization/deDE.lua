@@ -19,6 +19,12 @@ L['the_many_faced_devourer_checklist'] = '|cFFFFD700Checkliste (in der Tasche od
 
 L['orix_the_all_seer_note'] = 'Verkauft Sammlerstücke im Tausch gegen {item:153021}.'
 
+L['legion_war_supplies'] = nil
+L['legion_war_supplies_note'] = nil
+
+L['options_icons_legion_war_supplies'] = nil
+L['options_icons_legion_war_supplies_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
 -------------------------------------------------------------------------------
@@ -111,6 +117,16 @@ L['bohdi_sunwayver_note'] = 'Die Sonne kommt raus! Alle Haustiere nach draußen!
 L['kaara_the_pale_note'] = nil
 L['turek_the_lucid_note'] = nil
 
+L['ancient_eredar_cache'] = nil
+L['ancient_eredar_cache_note'] = nil
+L['void_seeped_cache'] = nil
+L['void_seeped_cache_note'] = nil
+
+L['options_icons_ancient_eredar_cache'] = nil
+L['options_icons_ancient_eredar_cache_desc'] = nil
+L['options_icons_void_seeped_cache'] = nil
+L['options_icons_void_seeped_cache_desc'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
 -------------------------------------------------------------------------------
@@ -118,6 +134,16 @@ L['turek_the_lucid_note'] = nil
 L['odrogg_note'] = 'Ihr glaubt, Ihr könnt meinen Schnecken bezwingen?'
 L['grixis_tinypop_note'] = 'Das wird leicht!'
 L['bredda_tenderhide_note'] = 'Mögen die Tapfersten siegreich sein!'
+
+-------------------------------------------------------------------------------
+-------------------------------- KROKUUN --------------------------------------
+-------------------------------------------------------------------------------
+
+L['eredar_war_supplies'] = nil
+L['eredar_war_supplies_note'] = nil
+
+L['options_icons_eredar_war_supplies'] = nil
+L['options_icons_eredar_war_supplies_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
