@@ -365,6 +365,7 @@ local LWSupplies = Class('LWSupplies', Treasure, {
     group = ns.groups.LEGION_WAR_SUPPLIES,
     label = L['legion_war_supplies'],
     note = L['legion_war_supplies_note'],
+    requires = ns.requirement.Quest(47473), -- Sizing Up The Opposition
     rewards = {
         Transmog({item = 153339, slot = L['plate']}), -- Triumvirate High Guard's Casque
         Transmog({item = 153342, slot = L['plate']}), -- Triumvirate High Guard's Pauldrons

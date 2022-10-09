@@ -226,6 +226,7 @@ local EWSupplies = Class('EWSupplies', Treasure, {
     group = ns.groups.EREDAR_WAR_SUPPLIES,
     label = L['eredar_war_supplies'],
     note = L['eredar_war_supplies_note'],
+    requires = ns.requirement.Quest(48199), -- The Burning Heart
     rewards = {
         Transmog({item = 152946, slot = L['plate']}), -- World-Defiler's Casque
         Transmog({item = 152944, slot = L['plate']}), -- World-Defiler's Shoulderplates
