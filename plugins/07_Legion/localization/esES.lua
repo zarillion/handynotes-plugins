@@ -23,11 +23,11 @@ L['the_many_faced_devourer_checklist'] = Gold('Lista de chequeo de Objetos (en b
 
 L['orix_the_all_seer_note'] = 'Vende coleccionables a cambio de {item:153021}.'
 
-L['legion_war_supplies'] = nil
-L['legion_war_supplies_note'] = nil
+L['legion_war_supplies'] = 'Suministros Bélicos de la Legión'
+L['legion_war_supplies_note'] = 'Hay 9 Suministros bélicos de la Legión únicos que pueden aparecer en sitios determinados.'
 
-L['options_icons_legion_war_supplies'] = nil
-L['options_icons_legion_war_supplies_desc'] = nil
+L['options_icons_legion_war_supplies'] = 'Suministros Bélicos de la Legión'
+L['options_icons_legion_war_supplies_desc'] = 'Muestra dónde pueden estar los Suministros bélicos de la Legión (cofres diarios).'
 
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
@@ -119,15 +119,15 @@ L['bohdi_sunwayver_note'] = '¡Ha salido el sol! ¡Mascotas fuera!'
 L['kaara_the_pale_note'] = '{npc:126860} ya no suelta el {item:153190}'
 L['turek_the_lucid_note'] = 'En el |cFFFFFD00Derrumbe de Oronaar|r'
 
-L['ancient_eredar_cache'] = nil
-L['ancient_eredar_cache_note'] = nil
-L['void_seeped_cache'] = nil
-L['void_seeped_cache_note'] = nil
+L['ancient_eredar_cache'] = 'Alijo Eredar Antiguo'
+L['ancient_eredar_cache_note'] = 'Hay 6 Alijo eredar antiguo únicos que pueden aparecer en sitios determinados.'
+L['void_seeped_cache'] = 'Alijo Calado de Vacío'
+L['void_seeped_cache_note'] = 'Hay 2 Alijo calado de Vacío únicos que pueden aparecer en sitios determinados. |c00ff0000Estos no contienen transfiguraciones.|r'
 
-L['options_icons_ancient_eredar_cache'] = nil
-L['options_icons_ancient_eredar_cache_desc'] = nil
-L['options_icons_void_seeped_cache'] = nil
-L['options_icons_void_seeped_cache_desc'] = nil
+L['options_icons_ancient_eredar_cache'] = 'Alijo Eredar Antiguo'
+L['options_icons_ancient_eredar_cache_desc'] = 'Muestra dónde pueden estar los Alijo eredar antiguo (cofres diarios).'
+L['options_icons_void_seeped_cache'] = 'Alijo Calado de Vacío'
+L['options_icons_void_seeped_cache_desc'] = 'Muestra dónde pueden estar los Alijo calado de Vacío (cofres diarios).'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
@@ -141,11 +141,11 @@ L['bredda_tenderhide_note'] = '¡Que los más valientes resulten victoriosos!'
 -------------------------------- KROKUUN --------------------------------------
 -------------------------------------------------------------------------------
 
-L['eredar_war_supplies'] = nil
-L['eredar_war_supplies_note'] = nil
+L['eredar_war_supplies'] = 'Suministros Bélicos Eredar'
+L['eredar_war_supplies_note'] = 'Hay 7 Suministros bélicos eredar únicos que pueden aparecer en sitios determinados.'
 
-L['options_icons_eredar_war_supplies'] = nil
-L['options_icons_eredar_war_supplies_desc'] = nil
+L['options_icons_eredar_war_supplies'] = 'Suministros Bélicos Eredar'
+L['options_icons_eredar_war_supplies_desc'] = 'Muestra dónde pueden estar los Suministros bélicos eredar (cofres diarios).'
 
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
