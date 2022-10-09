@@ -23,6 +23,12 @@ L['the_many_faced_devourer_checklist'] = Gold('Lista de chequeo de Objetos (en b
 
 L['orix_the_all_seer_note'] = 'Vende coleccionables a cambio de {item:153021}.'
 
+L['legion_war_supplies'] = nil
+L['legion_war_supplies_note'] = nil
+
+L['options_icons_legion_war_supplies'] = nil
+L['options_icons_legion_war_supplies_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
 -------------------------------------------------------------------------------
@@ -113,6 +119,16 @@ L['bohdi_sunwayver_note'] = '¡Ha salido el sol! ¡Mascotas fuera!'
 L['kaara_the_pale_note'] = '{npc:126860} ya no suelta el {item:153190}'
 L['turek_the_lucid_note'] = 'En el |cFFFFFD00Derrumbe de Oronaar|r'
 
+L['ancient_eredar_cache'] = nil
+L['ancient_eredar_cache_note'] = nil
+L['void_seeped_cache'] = nil
+L['void_seeped_cache_note'] = nil
+
+L['options_icons_ancient_eredar_cache'] = nil
+L['options_icons_ancient_eredar_cache_desc'] = nil
+L['options_icons_void_seeped_cache'] = nil
+L['options_icons_void_seeped_cache_desc'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
 -------------------------------------------------------------------------------
@@ -120,6 +136,16 @@ L['turek_the_lucid_note'] = 'En el |cFFFFFD00Derrumbe de Oronaar|r'
 L['odrogg_note'] = '¿Crees que puedes superar a mis caracoles?'
 L['grixis_tinypop_note'] = '¡Esto va a ser fácil!'
 L['bredda_tenderhide_note'] = '¡Que los más valientes resulten victoriosos!'
+
+-------------------------------------------------------------------------------
+-------------------------------- KROKUUN --------------------------------------
+-------------------------------------------------------------------------------
+
+L['eredar_war_supplies'] = nil
+L['eredar_war_supplies_note'] = nil
+
+L['options_icons_eredar_war_supplies'] = nil
+L['options_icons_eredar_war_supplies_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
