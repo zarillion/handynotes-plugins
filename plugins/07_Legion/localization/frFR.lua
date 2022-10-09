@@ -23,11 +23,11 @@ L['the_many_faced_devourer_checklist'] = Gold('Check-list des objets (dans les s
 
 L['orix_the_all_seer_note'] = 'Vend des objets de collection en échange d\'{item:153021}.'
 
-L['legion_war_supplies'] = nil
-L['legion_war_supplies_note'] = nil
+L['legion_war_supplies'] = 'Fournitures de guerre de la Légion'
+L['legion_war_supplies_note'] = 'Il existe 9 fournitures de guerre de la légion distinctes qui peuvent chacune apparaître à des endroits précis.'
 
-L['options_icons_legion_war_supplies'] = nil
-L['options_icons_legion_war_supplies_desc'] = nil
+L['options_icons_legion_war_supplies'] = 'Fournitures de guerre de la Légion'
+L['options_icons_legion_war_supplies_desc'] = 'Afficher les emplacements possibles pour les fournitures de guerre de la légion (coffres journaliers).'
 
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
@@ -119,15 +119,15 @@ L['bohdi_sunwayver_note'] = 'Le soleil est de sortie, les familiers aussi !'
 L['kaara_the_pale_note'] = '{npc:126860} ne lâche plus {item:153190}'
 L['turek_the_lucid_note'] = 'Dans l’|cFFFFFD00Effondrement d’Oronaar|r'
 
-L['ancient_eredar_cache'] = nil
-L['ancient_eredar_cache_note'] = nil
-L['void_seeped_cache'] = nil
-L['void_seeped_cache_note'] = nil
+L['ancient_eredar_cache'] = 'Ancienne cache érédar'
+L['ancient_eredar_cache_note'] = 'Il y a 6 anciennes caches érédar distinctes qui peuvent chacune apparaître à des endroits précis.'
+L['void_seeped_cache'] = 'Cache infiltrée par le Vide'
+L['void_seeped_cache_note'] = 'Il y a 2 caches infiltrées par le vide distinctes qui peuvent chacune apparaître à des endroits précis.'
 
-L['options_icons_ancient_eredar_cache'] = nil
-L['options_icons_ancient_eredar_cache_desc'] = nil
-L['options_icons_void_seeped_cache'] = nil
-L['options_icons_void_seeped_cache_desc'] = nil
+L['options_icons_ancient_eredar_cache'] = 'Ancienne cache érédar'
+L['options_icons_ancient_eredar_cache_desc'] = 'Afficher les emplacements possibles pour les anciennes caches érédar (coffres journaliers).'
+L['options_icons_void_seeped_cache'] = 'Cache infiltrée par le Vide'
+L['options_icons_void_seeped_cache_desc'] = 'Afficher les emplacements possibles pour les caches infiltrées par le vide (coffres journaliers).'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
@@ -141,11 +141,11 @@ L['bredda_tenderhide_note'] = 'Que le plus courageux soit victorieux !'
 -------------------------------- KROKUUN --------------------------------------
 -------------------------------------------------------------------------------
 
-L['eredar_war_supplies'] = nil
-L['eredar_war_supplies_note'] = nil
+L['eredar_war_supplies'] = 'Fournitures de guerre érédars'
+L['eredar_war_supplies_note'] = 'Il y a 7 fournitures de guerre érédars distinctes qui peuvent chacune apparaître à des endroits précis.'
 
-L['options_icons_eredar_war_supplies'] = nil
-L['options_icons_eredar_war_supplies_desc'] = nil
+L['options_icons_eredar_war_supplies'] = 'Fournitures de guerre érédars'
+L['options_icons_eredar_war_supplies_desc'] = 'Afficher les emplacements possibles pour les fournitures de guerre érédars (coffres journaliers).'
 
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
