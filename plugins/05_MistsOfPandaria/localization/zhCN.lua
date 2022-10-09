@@ -63,7 +63,7 @@ L['zandalari_warbringer_note'] = [[
 
 {npc:69842} 坐骑的颜色决定了掉落坐骑的颜色。
 ]]
-L['zandalari_warbringer_killed'] = '{npc:69842} 已击杀。'
+L['zandalari_warbringer_killed'] = '赞达拉战争使者已击杀。'
 
 L['squirrels_note'] = '必须使用表情 /love 给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:6350}'
