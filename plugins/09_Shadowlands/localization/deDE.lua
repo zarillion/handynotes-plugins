@@ -797,7 +797,7 @@ L['options_icons_covenant_assaults_desc'] = 'Zeigt die Belohnungen für Paktangr
 
 L['assault_sublabel_US'] = 'Der Angriff ändert sich am Dienstag um 8 Uhrund Freitag um 20 Uhr (PDT).'
 L['assault_sublabel_EU'] = 'Der Angriff ändert sich am Mittwoch um 8 Uhr und Samstag um 20 Uhr (CET).'
-L['assault_sublabel_CN'] = 'Der Angriff ändert sich am Donnerstag um 7 Uhr und Sonntag um 19 Uhr (BJT).'
+L['assault_sublabel_CN'] = 'Der Angriff ändert sich am Donnerstag um 7 Uhr und Sonntag um 19 Uhr (CST).'
 
 L['necrolord_assault'] = '{quest:63543}'
 L['necrolord_assault_note'] = 'Die {item:185992} kann einmal pro Angriff geplündert werden.'

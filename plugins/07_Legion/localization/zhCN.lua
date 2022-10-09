@@ -22,11 +22,11 @@ L['the_many_faced_devourer_checklist'] = Gold('物品检查表（背包或银行
 
 L['orix_the_all_seer_note'] = '出售收藏品换取 {item:153021}。'
 
-L['legion_war_supplies'] = nil
-L['legion_war_supplies_note'] = nil
+L['legion_war_supplies'] = '军团战争物资'
+L['legion_war_supplies_note'] = '有9个独特的军团战争物资可以出现位置组中。'
 
-L['options_icons_legion_war_supplies'] = nil
-L['options_icons_legion_war_supplies_desc'] = nil
+L['options_icons_legion_war_supplies'] = '军团战争物资'
+L['options_icons_legion_war_supplies_desc'] = '显示军团战争物资的可能位置（每日宝箱）。'
 
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
@@ -121,15 +121,15 @@ L['bohdi_sunwayver_note'] = '太阳出来啦！宠物们，出击吧！'
 L['kaara_the_pale_note'] = '{npc:126860} 不再掉落 {item:153190}'
 L['turek_the_lucid_note'] = '在 |cFFFFFD00奥罗纳尔陷坑|r 内'
 
-L['ancient_eredar_cache'] = nil
-L['ancient_eredar_cache_note'] = nil
-L['void_seeped_cache'] = nil
-L['void_seeped_cache_note'] = nil
+L['ancient_eredar_cache'] = '上古艾瑞达宝箱'
+L['ancient_eredar_cache_note'] = '有6个独特的上古艾瑞达宝箱可以出现位置组中。'
+L['void_seeped_cache'] = '浸透虚空的宝箱'
+L['void_seeped_cache_note'] = '有2个独特的浸透虚空的宝箱可以出现位置组中。|c00ff0000这些不包含幻化。|r'
 
-L['options_icons_ancient_eredar_cache'] = nil
-L['options_icons_ancient_eredar_cache_desc'] = nil
-L['options_icons_void_seeped_cache'] = nil
-L['options_icons_void_seeped_cache_desc'] = nil
+L['options_icons_ancient_eredar_cache'] = '上古艾瑞达宝箱'
+L['options_icons_ancient_eredar_cache_desc'] = '显示上古艾瑞达宝箱的可能位置（每日宝箱）。'
+L['options_icons_void_seeped_cache'] = '浸透虚空的宝箱'
+L['options_icons_void_seeped_cache_desc'] = '显示浸透虚空的宝箱的可能位置（每日宝箱）。'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
@@ -143,11 +143,11 @@ L['bredda_tenderhide_note'] = '狭路相逢勇者胜！'
 -------------------------------- KROKUUN --------------------------------------
 -------------------------------------------------------------------------------
 
-L['eredar_war_supplies'] = nil
-L['eredar_war_supplies_note'] = nil
+L['eredar_war_supplies'] = '艾瑞达战争物资'
+L['eredar_war_supplies_note'] = '有7个独特的艾瑞达战争物资可以出现位置组中。'
 
-L['options_icons_eredar_war_supplies'] = nil
-L['options_icons_eredar_war_supplies_desc'] = nil
+L['options_icons_eredar_war_supplies'] = '艾瑞达战争物资'
+L['options_icons_eredar_war_supplies_desc'] = '显示艾瑞达战争物资的可能位置（每日宝箱）。'
 
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------

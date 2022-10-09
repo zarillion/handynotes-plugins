@@ -790,7 +790,7 @@ L['options_icons_covenant_assaults_desc'] = '盟约突袭奖励。'
 
 L['assault_sublabel_US'] = '突袭更换于太平洋夏令时间周二上午8点和周五下午20点'
 L['assault_sublabel_EU'] = '突袭更换于欧洲中部时间周二上午8点和周五下午20点'
-L['assault_sublabel_CN'] = '突袭更换于北京时间周四上午7点和周日下午19点'
+L['assault_sublabel_CN'] = '突袭更换于中国标准时间周四上午7点和周日下午19点'
 
 L['necrolord_assault'] = '{quest:63543}'
 L['necrolord_assault_note'] = '{item:185992} 可在突袭期间拾取。'
