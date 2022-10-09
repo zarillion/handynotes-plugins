@@ -65,86 +65,86 @@ L['zandalari_warbringer_note'] = [[
 ]]
 L['zandalari_warbringer_killed'] = '{npc:69842} 已击杀。'
 
-L['squirrels_note'] = nil
+L['squirrels_note'] = '必须使用表情 /love 给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:6350}'
-L['options_icons_squirrels_desc'] = nil
+L['options_icons_squirrels_desc'] = '显示 {achievement:6350} 成就中小动物的位置。'
 
-L['options_icons_lorewalker'] = nil
-L['options_icons_lorewalker_desc'] = nil
+L['options_icons_lorewalker'] = '{achievement:6548}'
+L['options_icons_lorewalker_desc'] = '显示 {achievement:6548} 成就中的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- Jade Forest ---------------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_pick'] = nil
-L['ships_locker'] = nil
-L['ships_locker_note'] = nil
-L['chest_of_supplies'] = nil
-L['chest_of_supplies_note'] = nil
-L['offering_of_rememberance'] = nil
-L['offering_of_rememberance_note'] = nil
-L['stash_of_gems'] = nil
-L['stash_of_gems_note'] = nil
+L['ancient_pick'] = '{item:85777} 位于绿石采掘场下层。'
+L['ships_locker'] = '船载储物箱'
+L['ships_locker_note'] = '在沉船中。包含约96金币。'
+L['chest_of_supplies'] = '一箱补给'
+L['chest_of_supplies_note'] = '包含约10金币。'
+L['offering_of_rememberance'] = '追忆供品'
+L['offering_of_rememberance_note'] = '包含约30金币。'
+L['stash_of_gems'] = '秘藏的宝石'
+L['stash_of_gems_note'] = '包含约7金币和宝石。'
 
 -------------------------------------------------------------------------------
 -------------------------------- Krasarang Wilds ------------------------------
 -------------------------------------------------------------------------------
 
-L['equipment_locker'] = nil
+L['equipment_locker'] = '装备箱'
 
 -------------------------------------------------------------------------------
 ------------------------------- The Veiled Stair ------------------------------
 -------------------------------------------------------------------------------
 
-L['forgotten_lockbox'] = nil
-L['forgotten_lockbox_note'] = nil
+L['forgotten_lockbox'] = '被遗忘的锁箱'
+L['forgotten_lockbox_note'] = '二楼的酒馆里。\n包含约10金币。'
 
 -------------------------------------------------------------------------------
 -------------------------- Vale of Eternal Blossoms ---------------------------
 -------------------------------------------------------------------------------
 
-L['guolai_halls'] = nil
-L['guolai_cache'] = nil
+L['guolai_halls'] = '郭莱古厅内。'
+L['guolai_cache'] = '找到一个 {item:87779} 并打开远古郭莱储物箱。'
 
 -------------------------------------------------------------------------------
 ------------------------------- Kun Lai Summit --------------------------------
 -------------------------------------------------------------------------------
 
-L['lost_adventurers_belongings'] = nil -- wowhead.com/object=213774
-L['lost_adventurers_belongings_note'] = nil
-L['momos_treasure_chest'] = nil -- wowhead.com/object=214407
-L['momos_treasure_chest_note'] = nil
-L['hozen_treasure_cache'] = nil -- wowhead.com/object=213769
-L['hozen_treasure_cache_note'] = nil
-L['rikktiks_tick_remover'] = nil -- wowhead.com/object=213793
-L['stolen_sprite_treasure'] = nil -- wowhead.com/object=213770
-L['stolen_sprite_treasure_note'] = nil
-L['sturdy_yaungol_spear'] = nil -- wowhead.com/object=213842
-L['sprites_cloth_chest'] = nil -- wowhead.com/object=213751
+L['lost_adventurers_belongings'] = '失踪探险者的随身物品' -- wowhead.com/object=213774
+L['lost_adventurers_belongings_note'] = '包含约97金币。'
+L['momos_treasure_chest'] = '墨墨的宝箱' -- wowhead.com/object=214407
+L['momos_treasure_chest_note'] = '包含约10金币。'
+L['hozen_treasure_cache'] = '猢狲宝箱' -- wowhead.com/object=213769
+L['hozen_treasure_cache_note'] = '包含约99金币。'
+L['rikktiks_tick_remover'] = '里克提克的小箱子' -- wowhead.com/object=213793
+L['stolen_sprite_treasure'] = '失窃的林精宝藏' -- wowhead.com/object=213770
+L['stolen_sprite_treasure_note'] = '包含约104金币。'
+L['sturdy_yaungol_spear'] = '野牛人武器箱' -- wowhead.com/object=213842
+L['sprites_cloth_chest'] = '林精的衣箱' -- wowhead.com/object=213751
 
 -------------------------------------------------------------------------------
 ------------------------------- Townlong Steppes ------------------------------
 -------------------------------------------------------------------------------
 
-L['abandoned_crate_of_goods'] = nil -- wowhead.com/object=213961
-L['abandoned_crate_of_goods_note'] = nil
+L['abandoned_crate_of_goods'] = '一箱被丢弃的货物' -- wowhead.com/object=213961
+L['abandoned_crate_of_goods_note'] = '包含约103金币。'
 
 -------------------------------------------------------------------------------
 ----------------------------- Valley of Four Winds ----------------------------
 -------------------------------------------------------------------------------
 
-L['cache_of_pilfered_goods'] = nil
-L['virmen_treasure_cache'] = nil
+L['cache_of_pilfered_goods'] = '一箱被偷的货物'
+L['virmen_treasure_cache'] = '兔妖宝箱'
 
 -------------------------------------------------------------------------------
 ------------------------------- Isle of Thunder -------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_kroshik'] = nil
-L['options_icons_kroshik_desc'] = nil
+L['options_icons_kroshik'] = '{achievement:8108}'
+L['options_icons_kroshik_desc'] = '显示 {achievement:8108} 成就中的位置。'
 
-L['iot_portal'] = nil
-L['ritualstone_needed'] = nil
-L['kroshik_bow'] = nil
-L['kroshik_adult'] = nil
-L['kroshik_baby'] = nil
+L['iot_portal'] = '传送门'
+L['ritualstone_needed'] = '需要3个 {item:94221} 来召唤稀有。'
+L['kroshik_bow'] = '/bow'
+L['kroshik_adult'] = '绕湖跑。\n/bow'
+L['kroshik_baby'] = '在区域内跑。\n/bow'
