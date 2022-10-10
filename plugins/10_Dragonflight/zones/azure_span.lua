@@ -435,24 +435,34 @@ map.nodes[77431837] = Flag({quest = 71217})
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[13503833] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[19214047] = Disturbeddirt()
+map.nodes[23716772] = Disturbeddirt()
 map.nodes[33704685] = Disturbeddirt()
+map.nodes[34234591] = Disturbeddirt()
 map.nodes[57775352] = Disturbeddirt()
 map.nodes[65516163] = Disturbeddirt()
 map.nodes[70724381] = Disturbeddirt()
 map.nodes[73374059] = Disturbeddirt()
+map.nodes[78753394] = Disturbeddirt()
+map.nodes[78903087] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[14143645] = Scoutpack()
 map.nodes[14943299] = Scoutpack()
 map.nodes[15183187] = Scoutpack()
 map.nodes[33864679] = Scoutpack()
 map.nodes[33864679] = Scoutpack()
+map.nodes[34334607] = Scoutpack()
 map.nodes[43005294] = Scoutpack()
 map.nodes[66784934] = Scoutpack()
 map.nodes[72154242] = Scoutpack({note = L['in_cave']})
 map.nodes[72604263] = Scoutpack({note = L['in_cave']})
+map.nodes[78953094] = Scoutpack()
+map.nodes[79823175] = Scoutpack()
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

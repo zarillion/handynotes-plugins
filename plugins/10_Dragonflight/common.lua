@@ -67,7 +67,7 @@ ns.node.Flag = Flag
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
-local Disturbeddirt = Class('disturbed_dirt', Node, {
+local Disturbeddirt = Class('Disturbed_dirt', Node, {
     icon = 1060570,
     label = L['disturbed_dirt'],
     group = ns.groups.DISTURBED_DIRT,
@@ -76,7 +76,11 @@ local Disturbeddirt = Class('disturbed_dirt', Node, {
         ns.requirement.Item(191294) -- Small Expedition Shovel
     },
     rewards = {
-        Item({item = 190454}), Item({item = 192055}), Currency({id = 2003})
+        Transmog({item = 201386, slot = L['cosmetic']}), -- Drakonid Defender's Pike
+        Item({item = 190453}), -- Spark of Ingenuity
+        Item({item = 190454}), -- Primal Chaos
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Currency({id = 2003}) -- Dragon Isles Supplies
     }
 })
 
@@ -97,7 +101,11 @@ local Scoutpack = Class('Scoutpack', Node, {
         Transmog({item = 201392, slot = L['cosmetic']}), -- Dragon Noble's Cutlass
         Transmog({item = 201395, slot = L['cosmetic']}), -- Dragon Wingcrest Scimitar
         Transmog({item = 201396, slot = L['cosmetic']}), -- Dracthyr Claw Extensions
-        Item({item = 190454}), Item({item = 192055}), Currency({id = 2003})
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Currency({id = 2003}) -- Dragon Isles Supplies
     }
 })
 
