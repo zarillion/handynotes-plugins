@@ -113,9 +113,9 @@ function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
 
 local Profession = Class('Profession', Requirement)
 
-function Profession:Initialize(profession)
+function Profession:Initialize(profession, skillID)
     self.profession = profession
-    self.text = GetProfessionInfo(self.profession)
+    self.text = C_TradeSkillUI.GetTradeSkillDisplayName(skillID)
 end
 
 function Profession:IsMet()

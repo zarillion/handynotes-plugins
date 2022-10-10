@@ -565,7 +565,7 @@ map.nodes[71604850] = Treasure({
 local ArchaeologyTreasure = Class('ArchaeologyTreasure', Treasure, {
     icon = 'chest_bn',
     group = ns.groups.ARCHAEOLOGY_TREASURE,
-    requires = ns.requirement.Profession(11), -- Archaeology
+    requires = ns.requirement.Profession(11, 794), -- Archaeology
     rewards = {
         Achievement({
             id = 9728,
