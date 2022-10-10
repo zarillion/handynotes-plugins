@@ -17,7 +17,7 @@ local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
 -- local Mount = ns.reward.Mount
--- local Pet = ns.reward.Pet
+local Pet = ns.reward.Pet
 
 local Path = ns.poi.Path
 -------------------------------------------------------------------------------
@@ -243,6 +243,19 @@ map.nodes[64851655] = Treasure({
     quest = 70610,
     note = L['in_cave'],
     rewards = {Achievement({id = 16301, criteria = 54814})}
+}) -- Surveyor's Magnifying Glass
+
+-------------------------------------------------------------------------------
+
+map.nodes[52458361] = Treasure({
+    quest = 72355,
+    label = '{npc:198604}',
+    note = L['in_cave'],
+    requires = ns.requirement.Profession(5), -- Mining BUGGY
+    rewards = {
+        Pet({item = 201463, id = 3415}) -- Cubbly
+    }
+
 }) -- Surveyor's Magnifying Glass
 
 -------------------------------------------------------------------------------

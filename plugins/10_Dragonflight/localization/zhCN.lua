@@ -44,6 +44,7 @@ L['forgotten_jewel_box_note'] = nil
 
 L['shade_of_grief_note'] = nil
 
+L['nokhud_warspear_note'] = nil
 L['slightly_chewed_duck_egg_note'] = nil
 
 L['lizi_note'] = nil

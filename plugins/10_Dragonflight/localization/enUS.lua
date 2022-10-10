@@ -52,6 +52,7 @@ L['forgotten_jewel_box_note'] = 'Loot {item:199065} from a Clan Chest in Ridgewa
 -- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = 'Click the {npc:193166} to spawn the rare.'
 
+L['nokhud_warspear_note'] = '{item:194540} can be found in Expedition Scout\'s Packs.'
 L['slightly_chewed_duck_egg_note'] = 'Find and pet {npc:192997} to get {item:195453} then use it. {item:199171} incubates in 3 days into {item:199172}.'
 
 L['lizi_note'] = 'Complete the Initiate\'s Day Out storyline starting with {quest:65901}. Complete the quests each day to mend Lizi and receive your mount.\n\nIn addition to items required all quests require 150x {currency:2003} for a total of 750x {currency:2003}.'
