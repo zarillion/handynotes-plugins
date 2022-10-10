@@ -372,9 +372,10 @@ map.nodes[22001600] = Treasure({
     rewards = {Achievement({id = 16299, criteria = 54710})}
 }) -- Gold Swog Coin
 
-map.nodes[24001600] = Treasure({ -- required 67046, 67049
-    quest = nil,
-    requires = ns.requirement.Item(194540), -- Nokhud Armorer's Notes  ? obtained from graath 192334 ?
+map.nodes[32423817] = Treasure({ -- required 67046, 67049
+    quest = 67049,
+    note = L['nokhud_warspear_note'],
+    requires = ns.requirement.Item(194540), -- Nokhud Armorer's Notes
     rewards = {Achievement({id = 16299, criteria = 54707})}
 }) -- Nokhud Warspear
 
