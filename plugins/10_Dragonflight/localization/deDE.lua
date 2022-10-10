@@ -44,6 +44,7 @@ L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Klankiste in 
 
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
 
+L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks enthalten sein.'
 L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutz diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
 
 L['lizi_note'] = 'Schließe den Initiate\'s Day Out Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.'
