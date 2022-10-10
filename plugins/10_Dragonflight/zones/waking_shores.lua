@@ -350,11 +350,11 @@ map.nodes[74943750] = Dragonglyph({rewards = {Achievement({id = 15986})}}) -- Dr
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
 -------------------------------------------------------------------------------
 
+map.nodes[23835308] = Flag({quest = 70826})
 map.nodes[43976294] = Flag({quest = 70825})
 map.nodes[54797412] = Flag({quest = 71204})
 map.nodes[56534513] = Flag({quest = 70823})
 map.nodes[73353884] = Flag({quest = 70824})
--- map.nodes[] = Flag({quest = })
 
 -------------------------------------------------------------------------------
 ------------------------------- SYMBOLS OF HOPE -------------------------------

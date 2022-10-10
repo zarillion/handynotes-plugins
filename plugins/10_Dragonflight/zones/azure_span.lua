@@ -424,11 +424,12 @@ map.nodes[52954909] = Dragonglyph({rewards = {Achievement({id = 16071})}}) -- Dr
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
 -------------------------------------------------------------------------------
 
-map.nodes[63408535] = Flag({quest = 71215})
-map.nodes[46142498] = Flag({quest = 71218})
-map.nodes[77431837] = Flag({quest = 71217})
+map.nodes[31912703] = Flag({quest = 71215})
 map.nodes[37466620] = Flag({quest = 71216})
--- map.nodes[] = Flag({quest = })
+map.nodes[46142498] = Flag({quest = 71218})
+map.nodes[63084867] = Flag({quest = 71220})
+map.nodes[71986162] = Flag({quest = 71221})
+map.nodes[77431837] = Flag({quest = 71217})
 
 -------------------------------------------------------------------------------
 ------------------------------- DISTURBED DIRT --------------------------------
