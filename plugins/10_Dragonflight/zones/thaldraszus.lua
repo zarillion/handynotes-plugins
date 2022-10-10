@@ -60,11 +60,16 @@ local map = Map({id = 2025, settings = true})
 --     }
 -- }) -- Corrupted Proto-Dragon
 
-map.nodes[52746732] = Rare({ -- multiple locations ? 45458518
+CRAGGRAVATEDELEMENTAL = Rare({
     id = 193663,
     quest = 69964,
+    fgroup = 'craggravated',
+    focusable = true,
     rewards = {Achievement({id = 16679, criteria = 56154})}
 }) -- Craggravated Elemental
+
+map.nodes[45458518] = CRAGGRAVATEDELEMENTAL
+map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 
 map.nodes[47675115] = Rare({ -- required 67030
     id = 193234,

@@ -62,7 +62,7 @@ L['lizi_note_day5'] = nil
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = nil
-L['shasith_note'] = 'nil'
+L['shasith_note'] = nil
 
 L['onyx_gem_cluster_note'] = nil
 L['replica_dragon_goblet_note'] = nil
