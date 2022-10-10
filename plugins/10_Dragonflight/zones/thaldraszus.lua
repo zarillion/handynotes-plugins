@@ -277,15 +277,21 @@ map.nodes[66195378] = Flag({quest = 71224})
 
 map.nodes[38188192] = Disturbeddirt()
 map.nodes[49894474] = Disturbeddirt()
+map.nodes[55588459] = Disturbeddirt()
 map.nodes[55756743] = Disturbeddirt()
+map.nodes[55918384] = Disturbeddirt()
+map.nodes[59532835] = Disturbeddirt()
+map.nodes[62226638] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[37637740] = Scoutpack()
 map.nodes[38796831] = Scoutpack()
 map.nodes[38806831] = Scoutpack()
 map.nodes[50844623] = Scoutpack()
+map.nodes[52758333] = Scoutpack()
 map.nodes[55456797] = Scoutpack()
 map.nodes[55873598] = Scoutpack()
 
