@@ -60,7 +60,7 @@ local map = Map({id = 2025, settings = true})
 --     }
 -- }) -- Corrupted Proto-Dragon
 
-CRAGGRAVATEDELEMENTAL = Rare({
+local CRAGGRAVATEDELEMENTAL = Rare({
     id = 193663,
     quest = 69964,
     fgroup = 'craggravated',
