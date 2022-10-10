@@ -18,6 +18,7 @@ local PetBattle = ns.node.PetBattle
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 
@@ -38,14 +39,29 @@ local map = Map({id = 2023, settings = true})
 --     }
 -- }) -- Cinta the Forgotten
 
--- map.nodes[] = Rare({
---     id = 189652,
---     quest = ,
---     rewards = {
---         Achievement({id = 16677, criteria = 56068}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Deadwaker Ghendish
+map.nodes[30546628] = Rare({
+    id = 189652,
+    quest = nil,
+    rewards = {
+        Achievement({id = 16677, criteria = 56068}),
+        Transmog({item = 189055, slot = L['wand']}) -- Ghendish's Backup Talisman
+    },
+    pois = {
+        Path({
+            31686814, 31426810, 31206769, 30796652, 30546628, 30246637,
+            29586720, 29286786, 29186827
+        })
+    }
+}) -- Deadwaker Ghendish
+
+map.nodes[49866673] = Rare({
+    id = 192020,
+    quest = nil,
+    rewards = {
+        Achievement({id = 16677, criteria = 56077})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Eaglemaster Niraak
 
 map.nodes[49866673] = Rare({
     id = 192020,
@@ -316,23 +332,23 @@ map.nodes[78298276] = Rare({
 --     }
 -- }) -- Zarizz
 
--- map.nodes[] = Rare({
---     id = 193209,
---     quest = ,
---     rewards = {
---         Achievement({id = 16677, criteria = 56066}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Zenet Avis
+map.nodes[31456387] = Rare({
+    id = 193209,
+    quest = nil,
+    rewards = {
+        Achievement({id = 16677, criteria = 56066}),
+        Transmog({item = 200314, slot = L['cloth']}) -- Skyspeaker's Envelope
+    }
+}) -- Zenet Avis
 
--- map.nodes[] = Rare({
---     id = 188451,
---     quest = ,
---     rewards = {
---         Achievement({id = 16677, criteria = 56085}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Zerimek
+map.nodes[72232306] = Rare({
+    id = 188451,
+    quest = nil,
+    rewards = {
+        Achievement({id = 16677, criteria = 56085})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Zerimek
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

@@ -16,6 +16,7 @@ local Treasure = ns.node.Treasure
 -- local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 -- local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 
@@ -165,10 +166,13 @@ map.nodes[22207649] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56047})}
 }) -- Massive Magmashell
 
-map.nodes[22001800] = Rare({ -- review
+map.nodes[56004592] = Rare({
     id = 193256,
     quest = nil,
-    rewards = {Achievement({id = 16676, criteria = 56034})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56034}),
+        Item({item = 200236, note = L['trinket']}) -- Memory of Nulltheria
+    }
 }) -- Nulltheria the Void Gazer
 
 map.nodes[81634820] = Rare({ -- review -- required 67030
