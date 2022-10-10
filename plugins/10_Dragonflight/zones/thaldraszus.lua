@@ -251,7 +251,7 @@ map.nodes[52458361] = Treasure({
     quest = 72355,
     label = '{npc:198604}',
     note = L['in_cave'],
-    requires = ns.requirement.Profession(5), -- Mining BUGGY
+    requires = ns.requirement.Profession(5, 186), -- Mining
     rewards = {
         Pet({item = 201463, id = 3415}) -- Cubbly
     }
