@@ -3,6 +3,15 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local Group = ns.Group
+local L = ns.locale
+
+local Class = ns.Class
+local Reward = ns.reward.Reward
+local Collectible = ns.node.Collectible
+local Achievement = ns.reward.Achievement
+
+local Red = ns.status.Red
+local Green = ns.status.Green
 
 -------------------------------------------------------------------------------
 
@@ -44,3 +53,43 @@ ns.groups.WRITING_IN_THE_SNOW = Group('writing_in_the_snow', 133680,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.YOU_HAVE_BEEN_RYLAKINATED = Group('you_have_been_rylakinated', 894222,
     {defaults = ns.GROUP_HIDDEN})
+
+-------------------------------------------------------------------------------
+------------------------------- FOLLOWER REWARD -------------------------------
+-------------------------------------------------------------------------------
+local Follower = Class('Follower', Reward)
+ns.reward.Follower = Follower
+
+-- local function Icon(icon) return '|T' .. icon .. ':0:0:1:-1|t ' end
+
+function Follower:GetText()
+    local follower = C_Garrison.GetFollowerInfo(self.id)
+
+    return string.format('|T%s:0:0:1:-1|t %s (%s)', follower.portraitIconID,
+        ns.color.White(follower.name), L['follower'])
+end
+
+function Follower:IsObtained()
+    local follower = C_Garrison.GetFollowers(1)
+
+    for k, v in pairs(follower) do
+        if v.garrFollowerID == self.id and v.isCollected then return true end
+    end
+    return false
+end
+
+function Follower:GetStatus()
+    return self:IsObtained() and Green(L['known']) or Red(L['missing'])
+end
+
+-------------------------------------------------------------------------------
+---------------------------- Squirrel Achievement -----------------------------
+-------------------------------------------------------------------------------
+
+local Squirrel = Class('Squirrel', Collectible, {
+    group = ns.groups.SQUIRRELS,
+    icon = 237182,
+    note = L['squirrels_note']
+})
+ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
+ns.node.Squirrel = Squirrel

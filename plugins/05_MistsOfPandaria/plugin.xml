@@ -9,4 +9,5 @@
   <Script file="zones\valley_of_the_four_winds.lua"/>
   <Script file="zones\isle_of_thunder.lua"/>
   <Script file="zones\timeless_isle.lua"/>
+  <Script file="zones\veiled_stair.lua"/>
 </Ui>

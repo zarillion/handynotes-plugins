@@ -216,10 +216,12 @@ map.nodes[57002300] = Rare({
 map.nodes[48402860] = Rare({
     id = 91087,
     quest = 38207,
+    note = L['in_cave'],
     rewards = {
         Achievement({id = 10070, criteria = 28331}),
         Transmog({item = 127340, slot = L['2h_sword']}) -- Felfire Lit Greatsword
-    }
+    },
+    pois = {POI({48173250})}
 }) -- Zeter'el
 
 map.nodes[40706980] = Rare({
@@ -744,6 +746,7 @@ local BloodhunterZulk = Rare({
     id = 90936,
     quest = 38266,
     note = L['multiple_spawn_note'],
+    fgroup = 'BloodhunterZulk',
     rewards = {
         Achievement({id = 10070, criteria = 28355}),
         Transmog({item = 127303, slot = L['leather']}) -- Zulk's Sneaky Slippers
@@ -1554,3 +1557,8 @@ map.nodes[75403740] = PetBattle({
     id = 94650,
     rewards = {Achievement({id = 10052, criteria = 28809})}
 }) -- Defiled Earth
+
+map.nodes[48375052] = ns.node.Squirrel({
+    id = 88998,
+    rewards = {Achievement({id = 14728, criteria = 5})} -- To All the Squirrels Through Time and Space
+}) -- Bloodbeak
