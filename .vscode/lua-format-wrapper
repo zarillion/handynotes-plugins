@@ -11,6 +11,6 @@ column_limit=""
 # If the line assigning `L` appears, assume this is a locale file
 if [[ "${content}" =~ "local L = ns.NewLocale" ]]; then
     column_limit="--column-limit=1000"
-fi
+end
 
 echo "${content}" | lua-format "$@" ${column_limit}

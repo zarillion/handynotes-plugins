@@ -146,13 +146,11 @@ map.nodes[26107910] = Rare({
 map.nodes[44603760] = Rare({
     id = 90519,
     quest = 37990,
-    note = L['in_cave'],
     note = L['in_cave'] .. '\n' .. L['cindral_the_wildfire'] ,
     rewards = {
         Achievement({id = 10070, criteria = 28338}),
         Item({item = 128255, quest = 39363}) -- Equipment Blueprint: Ice Cutter
     }
-})
 }) -- Cindral the Wildfire
 
 map.nodes[22003780] = Rare({
@@ -170,6 +168,7 @@ map.nodes[17404280] = Rare({
     rewards = {Achievement({id = 10070, criteria = 28341})}
 }) -- Rasthe
 
+map.nodes[23835188] = Rare({
     id = 90884,
     quest = 38262,
     rewards = {
