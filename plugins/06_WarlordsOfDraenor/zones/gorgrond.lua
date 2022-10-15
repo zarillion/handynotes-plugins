@@ -327,12 +327,13 @@ map.nodes[46005080] = Rare({
     }
 }) -- Glut
 
-map.nodes[41804560] = Rare({
+map.nodes[41924525] = Rare({ -- Not shown on map
     id = 81038,
     quest = 36391,
     rewards = {
         Item({item = 118230, note = L['trinket']}) -- Smoldering Cerulean Stone
-    }
+    },
+    pois = {POI({43504800})}
 }) -- Gelgor of the Blue Flame
 
 map.nodes[40007900] = Rare({
@@ -722,7 +723,7 @@ map.nodes[43704250] = Treasure({
     }
 }) -- Iron Supply Chest
 
-map.nodes[46906870] = Treasure({
+map.nodes[42654672] = Treasure({
     quest = 35056,
     label = L['horned_skull_treasure'],
     note = L['in_cave'],

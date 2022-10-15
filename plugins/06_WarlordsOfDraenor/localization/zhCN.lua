@@ -443,6 +443,7 @@ L['belgork_thromma_note'] = '此洞穴有2个入口。'
 L['driss_vile_note'] = '在塔顶上。'
 L['overlord_magruth_note'] = '击杀营地附近兽人让他刷新。'
 L['mistress_thavra_note'] = '在洞穴上层。'
+L['cindral_the_wildfire'] = nil
 L['dorg_the_bloody_note'] = '在刷新点击杀 {npc:89706} 和其他敌人。'
 L['grand_warlock_netherkurse_note'] = '击杀刷新点附近的敌人。'
 L['ceraxas_note'] =

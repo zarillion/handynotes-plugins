@@ -143,16 +143,17 @@ map.nodes[26107910] = Rare({
     pois = {POI({29607060})}
 }) -- Mistress Thavra
 
--- Cindral the Wildfire
 map.nodes[44603760] = Rare({
     id = 90519,
     quest = 37990,
     note = L['in_cave'],
+    note = L['in_cave'] .. '\n' .. L['cindral_the_wildfire'] ,
     rewards = {
         Achievement({id = 10070, criteria = 28338}),
         Item({item = 128255, quest = 39363}) -- Equipment Blueprint: Ice Cutter
     }
 })
+}) -- Cindral the Wildfire
 
 map.nodes[22003780] = Rare({
     id = 90777,
@@ -169,7 +170,6 @@ map.nodes[17404280] = Rare({
     rewards = {Achievement({id = 10070, criteria = 28341})}
 }) -- Rasthe
 
-map.nodes[23605200] = Rare({
     id = 90884,
     quest = 38262,
     rewards = {
@@ -221,7 +221,7 @@ map.nodes[48402860] = Rare({
         Achievement({id = 10070, criteria = 28331}),
         Transmog({item = 127340, slot = L['2h_sword']}) -- Felfire Lit Greatsword
     },
-    pois = {POI({48173250})}
+    pois = {POI({48163259})}
 }) -- Zeter'el
 
 map.nodes[40706980] = Rare({
@@ -963,7 +963,7 @@ map.nodes[41507340] = Treasure({
     }
 }) -- Forgotten Champion's Blade
 
-map.nodes[20004780] = Treasure({
+map.nodes[22004778] = Treasure({
     quest = 38678,
     label = L['bleeding_hollow_warchest_treasure'],
     rewards = {
@@ -1196,7 +1196,7 @@ map.nodes[34703470] = Treasure({
     pois = {POI({32503730})}
 }) -- Skull of the Mad Chief
 
-map.nodes[15505440] = Treasure({
+map.nodes[14965441] = Treasure({
     quest = 38754,
     label = L['axe_of_the_weeping_wolf_treasure'],
     rewards = {
@@ -1435,7 +1435,7 @@ map.nodes[28903460] = Treasure({
             }
         })
     },
-    pois = {POI({29203460})}
+    pois = {POI({29233136})}
 }) -- Partially Mined Apexis Crystal
 
 map.nodes[51603250] = Treasure({

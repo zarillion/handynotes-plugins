@@ -464,8 +464,8 @@ L['belgork_thromma_note'] = 'This cave has 2 entrances.'
 L['driss_vile_note'] = 'On top of the tower.'
 L['overlord_magruth_note'] = 'Kill orcs around camp to spawn it.'
 L['mistress_thavra_note'] = 'In a cave on upper floor.'
-L['dorg_the_bloody_note'] =
-    'Kill {npc:89706} and other enemies at spawn location.'
+L['cindral_the_wildfire'] = 'Inside building.\nYou have to kill all {npc:90522} to spawn the rare.'
+L['dorg_the_bloody_note'] = 'Kill {npc:89706} and other enemies at spawn location.'
 L['grand_warlock_netherkurse_note'] = 'Kill enemies around spawn point.'
 L['ceraxas_note'] =
     'Spawns {npc:90426} with quest {quest:38428} for pet after killing it.'

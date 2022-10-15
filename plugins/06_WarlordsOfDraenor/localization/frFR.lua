@@ -447,12 +447,10 @@ L['driss_vile_note'] = 'Au sommet de la tour.'
 L['overlord_magruth_note'] =
     'Tuez des orcs autour du camp pour le faire apparaître.'
 L['mistress_thavra_note'] = 'Dans une grotte à l\'étage supérieur.'
-L['dorg_the_bloody_note'] =
-    'Tuez des {npc:89706} et d\'autres ennemis au lieu d\'apparition.'
-L['grand_warlock_netherkurse_note'] =
-    'Tuer des ennemis autour du point d\'apparition.'
-L['ceraxas_note'] =
-    'Fait apparaître un {npc:90426} donnant la quête {quest:38428} pour ce familier après l\'avoir tué.'
+L['cindral_the_wildfire'] = nil
+L['dorg_the_bloody_note'] = 'Tuez des {npc:89706} et d\'autres ennemis au lieu d\'apparition.'
+L['grand_warlock_netherkurse_note'] = 'Tuer des ennemis autour du point d\'apparition.'
+L['ceraxas_note'] = 'Fait apparaître un {npc:90426} donnant la quête {quest:38428} pour ce familier après l\'avoir tué.'
 L['commander_orgmok_note'] = 'Se déplace sur une {npc:89676}.'
 L['rendrak_note'] =
     'Collectez 10 {item:124045} sur des {npc:89788} dans la tourbière. Combinez-les pour invoquer le rare.'

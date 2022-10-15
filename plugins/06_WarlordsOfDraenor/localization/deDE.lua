@@ -469,7 +469,8 @@ L['overlord_magruth_note'] =
     'Töte Orks in der Nähe des Lagers, um ihn erscheinen zu lassen.'
 L['mistress_thavra_note'] = 'In einer Höhle im oberen Teil.'
 L['dorg_the_bloody_note'] =
-    'Töte {npc:89706} und andere Gegner am Erscheinungsort.'
+L['cindral_the_wildfire'] = 'Im Gebäude.\nDu musst alle {npc:90522} töten um ihn erscheinen zu lassen..'
+L['dorg_the_bloody_note'] = 'Töte {npc:89706} und andere Gegner am Erscheinungsort.'
 L['grand_warlock_netherkurse_note'] = 'Töte Gegner um den Erscheinungsort.'
 L['ceraxas_note'] =
     'Lässt nachdem er getötet wurde {npc:90426} mit der Quest {quest:38428} für ein Haustier erscheinen.'

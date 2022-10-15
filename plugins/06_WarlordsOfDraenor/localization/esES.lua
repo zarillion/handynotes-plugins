@@ -446,12 +446,10 @@ L['driss_vile_note'] = 'Encima de la torre.'
 L['overlord_magruth_note'] =
     'Mata los orcos de alrededor para hacerlo aparecer.'
 L['mistress_thavra_note'] = 'En el piso superior de una cueva.'
-L['dorg_the_bloody_note'] =
-    'Mata al {npc:89706} y a los otros enemigos en el sitio donde aparece.'
-L['grand_warlock_netherkurse_note'] =
-    'Mata a enemigos alrededor del lugar de aparición.'
-L['ceraxas_note'] =
-    'Aparece el {npc:90426} con la misión {quest:38428} para la mascota tras matar al {npc:90434}.'
+L['cindral_the_wildfire'] = nil
+L['dorg_the_bloody_note'] = 'Mata al {npc:89706} y a los otros enemigos en el sitio donde aparece.'
+L['grand_warlock_netherkurse_note'] = 'Mata a enemigos alrededor del lugar de aparición.'
+L['ceraxas_note'] = 'Aparece el {npc:90426} con la misión {quest:38428} para la mascota tras matar al {npc:90434}.'
 L['commander_orgmok_note'] = 'Trota alrededor subido en {npc:89676}.'
 L['rendrak_note'] =
     'Recoge 10 {item:124045} de los {npc:89788} alrededor del pantano. Combínalas para invocar a {npc:92627}.'
