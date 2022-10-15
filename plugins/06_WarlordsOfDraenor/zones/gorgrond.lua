@@ -18,6 +18,7 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Follower = ns.reward.Follower
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -361,9 +362,11 @@ map.nodes[52207020] = Rare({
 map.nodes[50605320] = Rare({
     id = 84406,
     quest = 36178,
+    note = L['in_cave'],
     rewards = {
         Pet({item = 118709, id = 1564}) -- Doom Bloom
-    }
+    },
+    pois = {POI({49435338})}
 }) -- Mandrakor
 
 map.nodes[46804300] = Rare({
@@ -434,6 +437,7 @@ map.nodes[64006180] = Rare({
 
 local Poundfist = Rare({
     id = 50985,
+    fgroup = 'poundfist',
     note = L['poundfist_note'],
     rewards = {
         Mount({item = 116792, id = 655}) -- Sunhide Gronnling
@@ -449,6 +453,7 @@ map.nodes[43005570] = Poundfist
 local Alkali = Rare({
     id = 86268,
     quest = 37371,
+    fgroup = 'alkali',
     note = L['multiple_spawn_note'],
     rewards = {
         Achievement({id = 9678, criteria = 26597}),
@@ -822,6 +827,7 @@ local AttackPlans = Collectible({
     icon = 'chest_pp',
     label = L['attack_plans_treasure'],
     note = L['multiple_spawn_note'],
+    fgroup= 'attackplans',
     rewards = {Achievement({id = 9656})}
 }) -- In Plain Sight Achievement
 
@@ -1076,3 +1082,23 @@ map.nodes[51583863] = Voidtalon
 map.nodes[54004580] = Voidtalon
 map.nodes[56004065] = Voidtalon
 map.nodes[43213420] = Voidtalon
+
+map.nodes[44948687] = Collectible({
+    icon = 1033590,
+    label = '{npc:83820}',
+    rewards = {Follower({id = 193})}
+}) -- Tormmok
+
+map.nodes[41299144] = Collectible({
+    icon = 1033590,
+    label = '{npc:78030}',
+    rewards = {Follower({id = 189})}
+}) -- Blook
+
+map.nodes[39703990] = Collectible({
+    icon = 1033590,
+    label = '{item:110459}',
+    quest = 34463,
+    note = L['follower_image_of_archmage_vargoth'],
+    rewards = {Follower({id = 190})}
+}) -- Image of Archmage Vargoth
