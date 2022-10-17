@@ -7,9 +7,9 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['dragon_glyph'] = nil
-L['options_icons_dragon_glyph'] = nil
-L['options_icons_dragon_glyph_desc'] = nil
+L['dragon_glyph'] = 'Glifos Dracónicos'
+L['options_icons_dragon_glyph'] = 'Glifos Dracónicos'
+L['options_icons_dragon_glyph_desc'] = 'Muestra dónde están los 48 Glifos dracónicos.'
 
 L['dragonscale_expedition_flag'] = nil
 L['flags_placed'] = nil
@@ -46,7 +46,7 @@ L['forgotten_jewel_box_note'] = nil
 L['shade_of_grief_note'] = nil
 
 L['nokhud_warspear_note'] = nil
-L['slightly_chewed_duck_egg_note'] = nil
+L['slightly_chewed_duck_egg_note'] = 'Encuentra y acaricia a {npc:192997} para conseguir el {item:195453} y entonces usarlo. Tras incubar el {item:199171} durante 3 días eclosionará en {item:199172}.'
 
 L['lizi_note'] = 'Completa la cadena de misiones Día de Iniciación comenzando con {quest:65901}. Completa las misiones cada día para curar a Lizi y recibir su montura.\n\nAdemás de los objetos necesarios, todas las misiones requieren 150x {currency:2003} para un total de 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Recoge 20x {item:192615} de los enemigos insecto en las |cFFFFFD00Islas Dragón|r.'
