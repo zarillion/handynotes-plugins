@@ -1,3 +1,4 @@
+-- Spanish Translation by (EU) Krovikan-Minahonda
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
@@ -47,12 +48,12 @@ L['shade_of_grief_note'] = nil
 L['nokhud_warspear_note'] = nil
 L['slightly_chewed_duck_egg_note'] = nil
 
-L['lizi_note'] = nil
-L['lizi_note_day1'] = nil
-L['lizi_note_day2'] = nil
-L['lizi_note_day3'] = nil
-L['lizi_note_day4'] = nil
-L['lizi_note_day5'] = nil
+L['lizi_note'] = 'Completa la cadena de misiones Día de Iniciación comenzando con {quest:65901}. Completa las misiones cada día para curar a Lizi y recibir su montura.\n\nAdemás de los objetos necesarios, todas las misiones requieren 150x {currency:2003} para un total de 750x {currency:2003}.'
+L['lizi_note_day1'] = 'Recoge 20x {item:192615} de los enemigos insecto en las |cFFFFFD00Islas Dragón|r.'
+L['lizi_note_day2'] = 'Recoge 10x {item:192658} de los enemigos planta en las |cFFFFFD00Islas Dragón|r.'
+L['lizi_note_day3'] = 'Recoge 10x {item:194966} pescadas en cualquier masa de agua dulce en las |cFFFFFD00Islas Dragón|r. Se encuentran con más frecuencia en los interiores de las |cFFFFFD00Llanuras de Ohn\'ahran|r.'
+L['lizi_note_day4'] = 'Recoge 20x {item:192636} de los mamuts de las |cFFFFFD00Llanuras de Ohn\'ahran|r.'
+L['lizi_note_day5'] = 'Compra 1x {item:200598} a {npc:190015} en la tienda al sur de los |cFFFFFD00Manantiales Ohn\'iri|r.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
