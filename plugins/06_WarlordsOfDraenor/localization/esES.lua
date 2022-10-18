@@ -46,8 +46,10 @@ L['gorrthoggs_personal_reserve_treasure'] = 'Reserva Personal de Gorr\'thog'
 L['grimfrost_treasure_treasure'] = 'Tesoro de Siniescarcha'
 L['iron_horde_munitions_treasure'] = 'Munición de la Horda de Hierro'
 L['iron_horde_supplies_treasure'] = 'Suministros de la Horda de Hierro'
+L['lady_senas_materials_stash_treasure'] = nil
 L['lady_senas_other_materials_stash_treasure'] = 'Alijo de Otros Materiales de Lady Sena'
 L['lagoon_pool_treasure'] = 'Poza de Laguna'
+L['lagoon_pool_note'] = nil
 L['lucky_coin_treasure'] = 'Moneda de la Suerte'
 L['obsidian_petroglyph_treasure'] = 'Petroglifo Obsidiana'
 L['ogre_booty_treasure'] = 'Botín Ogro'
@@ -61,11 +63,16 @@ L['supply_dump_treasure'] = 'Descarga de Suministros'
 L['survivalists_cache_treasure'] = 'Alijo de Superviviente'
 L['thunderlord_cache_treasure'] = 'Alijo Señor del Trueno'
 L['time_warped_tower_treasure'] = 'Torre Distorsionada en el Tiempo'
+L['time_warped_tower_note'] = nil
 L['wiggling_egg_treasure'] = 'Huevo Inquieto'
 L['young_orc_traveler_note'] = 'Combinar con el {item:107272}.'
 L['young_orc_traveler_treasure'] = 'Orco Joven Viajero'
 L['young_orc_woman_note'] = 'Combinar con la {item:107273}.'
 L['young_orc_woman_treasure'] = 'Joven Orco Hembra'
+L['smoldering_true_iron_deposit_treasure'] = nil
+L['up_some_crates_note'] = nil
+L['wiggling_egg_note'] = nil
+L['cragmaul_cache_note'] = nil
 
 L['prisoner_cage_label'] = 'Jaula de Prisionero'
 L['slaves_freed'] = 'esclavos liberados'
@@ -81,6 +88,8 @@ L['delectable_ogre_delicacies_note'] = [[
 
 L['weaponsmith_na_shra_follower_note'] = 'Completa la misión {quest:33838} para reclutarla como seguidora.'
 L['dagg_follower_note'] = 'Rescata a {npc:79607} de la primera jaula y después rescátalo de nuevo de la segunda jaula. Lo encontrarás fuera de tu Ciudadela para reclutarlo como seguidor.'
+L['shadow_hunter_rala_follower_note'] = nil
+L['gronnstalker_rokash_follower_note'] = nil
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Muestra dónde están las páginas de |cffffff00Diario Ajado|r para el logro {achievement:9531}.'

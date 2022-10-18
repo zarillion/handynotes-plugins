@@ -3,6 +3,10 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local Group = ns.Group
+local L = ns.locale
+local Class = ns.Class
+
+local Collectible = ns.node.Collectible
 
 -------------------------------------------------------------------------------
 
@@ -55,3 +59,17 @@ ns.groups.WRITING_IN_THE_SNOW = Group('writing_in_the_snow', 133680,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.YOU_HAVE_BEEN_RYLAKINATED = Group('you_have_been_rylakinated', 894222,
     {defaults = ns.GROUP_HIDDEN})
+ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
+ns.groups.GARRFOLLOWER = Group('GarrFollower', 1033590, {defaults = ns.GROUP_HIDDEN})
+
+-------------------------------------------------------------------------------
+---------------------------- Squirrel Achievement -----------------------------
+-------------------------------------------------------------------------------
+
+local Squirrel = Class('Squirrel', Collectible, {
+    group = ns.groups.SQUIRRELS,
+    icon = 237182,
+    note = L['squirrels_note']
+})
+
+ns.node.Squirrel = Squirrel

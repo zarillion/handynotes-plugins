@@ -17,6 +17,13 @@ L['multiple_spawn_note'] = 'Kann an mehreren Positionen erscheinen.'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = 'Zeigt die Positionen der Kostüme für den Erfolg {achievement:10053} an.'
 
+L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE Kampfhaustiere).'
+L['options_icons_squirrels'] = '{achievement:14728}'
+L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:14728} an.'
+
+L['options_icons_GarrFollower'] = 'Garnisonsanhänger'
+L['options_icons_GarrFollower_desc'] = 'Zeigt die Positionen von Garnisonsanhängern an.'
+
 -------------------------------------------------------------------------------
 ------------------------------------ ASHRAN -----------------------------------
 -------------------------------------------------------------------------------
@@ -46,8 +53,10 @@ L['gorrthoggs_personal_reserve_treasure'] = 'Gorr\'thoggs persönliche Reserve'
 L['grimfrost_treasure_treasure'] = 'Grimmfrostschatz'
 L['iron_horde_munitions_treasure'] = 'Munition der Eisernen Horde'
 L['iron_horde_supplies_treasure'] = 'Vorräte der Eisernen Horde'
+L['lady_senas_materials_stash_treasure'] = 'Madame Senas Materialvorrat'
 L['lady_senas_other_materials_stash_treasure'] = 'Madame Senas anderer Materialvorrat'
 L['lagoon_pool_treasure'] = 'Lagunenteich'
+L['lagoon_pool_note'] = 'Angle im Lagunenteich.'
 L['lucky_coin_treasure'] = 'Glücksmünze'
 L['obsidian_petroglyph_treasure'] = 'Obsidianpetroglyphe'
 L['ogre_booty_treasure'] = 'Ogerbeute'
@@ -61,11 +70,16 @@ L['supply_dump_treasure'] = 'Versorgungslager'
 L['survivalists_cache_treasure'] = 'Vorratslager eines Überlebenskünstlers'
 L['thunderlord_cache_treasure'] = 'Donnerfürstentruhe'
 L['time_warped_tower_treasure'] = 'Zeitverzerrter Turm'
+L['time_warped_tower_note'] = 'Loote alle Oger im Turm.'
 L['wiggling_egg_treasure'] = 'Wackelndes Ei'
 L['young_orc_traveler_note'] = 'Kombinieren mit {item:107272}.'
 L['young_orc_traveler_treasure'] = 'Junger Orcreisender'
 L['young_orc_woman_note'] = 'Kombinieren mit {item:107273}.'
 L['young_orc_woman_treasure'] = 'Junge Orcfrau'
+L['smoldering_true_iron_deposit_treasure'] = 'Qualmendes Echteisenvorkommen'
+L['up_some_crates_note'] = 'Auf einigen Kisten.'
+L['wiggling_egg_note'] = 'Auf dem Gebäude in einem Nest.'
+L['cragmaul_cache_note'] = 'Unter der Treppe.'
 
 L['prisoner_cage_label'] = 'Gefangenenkäfig'
 L['slaves_freed'] = 'Sklaven in der Blutschlägerfestung befreit'
@@ -81,6 +95,8 @@ L['delectable_ogre_delicacies_note'] = [[
 
 L['weaponsmith_na_shra_follower_note'] = 'Schließe die Quest {quest:33838} ab, um sie als Anhängerin zu rekrutieren.'
 L['dagg_follower_note'] = 'Rette {npc:79607} aus seinem ersten Käfig und rette ihn dann erneut aus seinem zweiten Käfig. Finde ihn außerhalb deiner Garnison, um ihn als Anhänger zu rekrutieren.'
+L['shadow_hunter_rala_follower_note'] = 'Schließe die Quest {quest:34348} ab, um ihn als Anhängerin zu rekrutieren.'
+L['gronnstalker_rokash_follower_note'] = 'Schließe die Quest {quest:32981} ab, um ihn als Anhängerin zu rekrutieren.'
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Zeigt die Positionen für {npc:82833} für den Erfolg {achievement:9531} an.'
