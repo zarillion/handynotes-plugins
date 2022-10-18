@@ -427,6 +427,7 @@ Vous pouvez combiner n’importe laquelle des méthodes ci-dessus pour invoquer 
 ]]
 
 L['aarkos_family_treasure_treasure'] = 'Trésor de la famille d’Aarko'
+L['aarkos_family_treasure_treasure_note'] = nil
 L['amethyl_crystal_treasure'] = 'Cristal améthyle'
 L['aruuna_mining_cart_treasure'] = 'Chariot de mine d’Aruuna'
 L['barrel_of_fish_treasure'] = 'Tonneau de poissons'
@@ -456,11 +457,14 @@ L['relic_of_aruuna_treasure'] = 'Relique d\'Aruuna'
 L['relic_of_telmor_treasure'] = 'Relique de Telmor'
 L['rooks_tacklebox_treasure'] = 'Boîte de pêche de Freux'
 L['rusted_lockbox_treasure'] = 'Coffret rouillé'
+L['rusted_lockbox_treasure_note'] = nil
 L['soulbinders_reliquary_treasure'] = 'Reliquaire de la lieuse d’âme'
 L['teroclaw_nest_treasure'] = 'Nid de terogriffe'
 L['treasure_of_angorosh_treasure'] = 'Trésor d’Ango’rosh'
 L['webbed_sac_treasure'] = 'Sac entoilé'
 L['yuuris_gift_treasure'] = 'Cadeau de Yuuri'
+L['gift_of_the_ancients_treasure'] = nil
+L['gift_of_the_ancients_treasure_note'] = nil
 
 L['knight_pepe_treasure'] = 'Pépé chevalier'
 L['knight_pepe_note'] = 'Assis dans la tente, assis sur un coffre'

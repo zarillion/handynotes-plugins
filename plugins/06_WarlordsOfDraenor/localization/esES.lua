@@ -433,6 +433,7 @@ Se pueden combinar cualquiera de los métodos anteriores para invocar a {npc:876
 ]]
 
 L['aarkos_family_treasure_treasure'] = 'Tesoro Familiar de Aarko'
+L['aarkos_family_treasure_treasure_note'] = nil
 L['amethyl_crystal_treasure'] = 'Cristal Amethyl'
 L['aruuna_mining_cart_treasure'] = 'Vagoneta de Minería de Aruuna'
 L['barrel_of_fish_treasure'] = 'Barrica de Pescado'
@@ -462,11 +463,14 @@ L['relic_of_aruuna_treasure'] = 'Reliquia de Aruuna'
 L['relic_of_telmor_treasure'] = 'Reliquia de Telmor'
 L['rooks_tacklebox_treasure'] = 'Caja de Pesca de Rook'
 L['rusted_lockbox_treasure'] = 'Arcón Oxidado'
+L['rusted_lockbox_treasure_note'] = nil
 L['soulbinders_reliquary_treasure'] = 'Relicario de Vinculador de Almas'
 L['teroclaw_nest_treasure'] = 'Nido de Garráptero'
 L['treasure_of_angorosh_treasure'] = 'Tesoro de Ango\'rosh'
 L['webbed_sac_treasure'] = 'Saco con Tela de Araña'
 L['yuuris_gift_treasure'] = 'Regalo de Yuuri'
+L['gift_of_the_ancients_treasure'] = nil
+L['gift_of_the_ancients_treasure_note'] = nil
 
 L['knight_pepe_treasure'] = 'Pepe Caballero'
 L['knight_pepe_note'] = 'Posado en un cofre dentro de una tienda.'

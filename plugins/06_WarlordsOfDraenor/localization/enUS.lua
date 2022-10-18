@@ -432,6 +432,7 @@ You can combine any of methods above to summon {npc:87668}.
 ]]
 
 L['aarkos_family_treasure_treasure'] = 'Aarko\'s Family Treasure'
+L['aarkos_family_treasure_treasure_note'] = 'Speak to {npc:77664} some enemies will appear. After you killed {npc:77677} the treasure will appear.'
 L['amethyl_crystal_treasure'] = 'Amethyl Crystal'
 L['aruuna_mining_cart_treasure'] = 'Aruuna Mining Cart'
 L['barrel_of_fish_treasure'] = 'Barrel of Fish'
@@ -461,11 +462,14 @@ L['relic_of_aruuna_treasure'] = 'Relic of Aruuna'
 L['relic_of_telmor_treasure'] = 'Relic of Telmor'
 L['rooks_tacklebox_treasure'] = 'Rook\'s Tacklebox'
 L['rusted_lockbox_treasure'] = 'Rusted Lockbox'
+L['rusted_lockbox_treasure_note'] = 'In a cave.\n Way down in the water.'
 L['soulbinders_reliquary_treasure'] = 'Soulbinder\'s Reliquary'
 L['teroclaw_nest_treasure'] = 'Teroclaw Nest'
 L['treasure_of_angorosh_treasure'] = 'Treasure of Ango\'rosh'
 L['webbed_sac_treasure'] = 'Webbed Sac'
 L['yuuris_gift_treasure'] = 'Yuuri\'s Gift'
+L['gift_of_the_ancients_treasure'] = 'Gift of the Ancients'
+L['gift_of_the_ancients_treasure_note'] = 'In a cave.\n\nTurn the statues so that all three are facing the center.'
 
 L['knight_pepe_treasure'] = 'Knight Pepe'
 L['knight_pepe_note'] = 'Sitting in the tent sitting on a chest'

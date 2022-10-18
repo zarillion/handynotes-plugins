@@ -433,6 +433,7 @@ Du kannst jede der oben genannten Methoden kombinieren, um {npc:87668} zu beschw
 ]]
 
 L['aarkos_family_treasure_treasure'] = 'Aarkos Familienschatz'
+L['aarkos_family_treasure_treasure_note'] = 'Sprich mit {npc:77664} und es erscheinen einige Gegner. Nachdem du {npc:77677} getötest hast erscheint der Schatz.'
 L['amethyl_crystal_treasure'] = 'Amethylkristall'
 L['aruuna_mining_cart_treasure'] = 'Minenlore von Aruuna'
 L['barrel_of_fish_treasure'] = 'Fass mit Fischen'
@@ -462,11 +463,14 @@ L['relic_of_aruuna_treasure'] = 'Relikt von Aruuna'
 L['relic_of_telmor_treasure'] = 'Relikt von Telmor'
 L['rooks_tacklebox_treasure'] = 'Rooks Angelzubehör'
 L['rusted_lockbox_treasure'] = 'Rostiger Tresor'
+L['rusted_lockbox_treasure_note'] = 'In einer Höhle.\nTief im wasser.'
 L['soulbinders_reliquary_treasure'] = 'Reliquiar des Seelenbinders'
 L['teroclaw_nest_treasure'] = 'Terokrallennest'
 L['treasure_of_angorosh_treasure'] = 'Schatz der Ango\'rosh'
 L['webbed_sac_treasure'] = 'Eingesponnener Sack'
 L['yuuris_gift_treasure'] = 'Yuuris Geschenk'
+L['gift_of_the_ancients_treasure'] = 'Gabe der Urtume'
+L['gift_of_the_ancients_treasure_note'] = 'In einer Höhle.\n\nDrehe die Statuen, sodass alle drei in die Mitte schauen.'
 
 L['knight_pepe_treasure'] = 'Pepe der Ritter'
 L['knight_pepe_note'] = 'Im Zelt auf einer Truhe.'
@@ -475,9 +479,9 @@ L['wingmen_note'] = 'Töte die endlosen Wellen von {npc:78433}, {npc:76883} und 
 L['fel_portal'] = 'Teufelsportal'
 
 L['aeda_brightdawn_follower_note'] = 'Schließe die Quest {quest:34776} ab, um sie als Anhängerin zu rekrutieren.'
-L['ahm_follower_note'] = 'Schließe die Quest {quest:33973} ab und triff ihn dann in deiner Garnison, um ihn als Anhänger zu rekrutieren.'
+L['ahm_follower_note'] = 'Schließe die Quest {quest:33973} ab und triff ihn dann in deiner Garnison am Friedhof, um ihn als Anhänger zu rekrutieren.'
 L['defender_illona_follower_note'] = 'Schließe die Quest {quest:34777} ab, um sie als Anhängerin zu rekrutieren.'
-L['pleasure_bot_8000_follower_note'] = 'Schließe die Quest {quest:34761} ab, um es als Anhänger zu rekrutieren.'
+L['pleasure_bot_8000_follower_note'] = 'Schließe die Quest {quest:%d} ab, um es ihn Anhänger zu rekrutieren.'
 L['image_of_archmage_vargoth_follower_note'] = [[
 Finde 4 Mysteriöse Objekte in |cffffff00Draenor|r.
 

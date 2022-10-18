@@ -432,6 +432,7 @@ L['orumo_the_observer_note'] = [[
 ]]
 
 L['aarkos_family_treasure_treasure'] = '阿尔克的传家宝'
+L['aarkos_family_treasure_treasure_note'] = nil
 L['amethyl_crystal_treasure'] = '艾米瑟尔水晶'
 L['aruuna_mining_cart_treasure'] = '阿鲁纳矿车'
 L['barrel_of_fish_treasure'] = '一桶鱼'
@@ -461,11 +462,14 @@ L['relic_of_aruuna_treasure'] = '阿鲁纳遗物'
 L['relic_of_telmor_treasure'] = '泰尔莫遗物'
 L['rooks_tacklebox_treasure'] = '鲁克的工具盒'
 L['rusted_lockbox_treasure'] = '生锈宝箱'
+L['rusted_lockbox_treasure_note'] = nil
 L['soulbinders_reliquary_treasure'] = '缚魂者的圣物箱'
 L['teroclaw_nest_treasure'] = '恐爪鸟巢穴'
 L['treasure_of_angorosh_treasure'] = '安葛洛什宝藏'
 L['webbed_sac_treasure'] = '结网的囊袋'
 L['yuuris_gift_treasure'] = '尤里的礼物'
+L['gift_of_the_ancients_treasure'] = nil
+L['gift_of_the_ancients_treasure_note'] = nil
 
 L['knight_pepe_treasure'] = '骑士佩佩'
 L['knight_pepe_note'] = '帐篷里坐在箱子上。'
