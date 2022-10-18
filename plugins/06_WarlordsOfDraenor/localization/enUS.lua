@@ -16,6 +16,13 @@ L['multiple_spawn_note'] = 'Can spawn in multiple locations.'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = 'Display costume locations for {achievement:10053}'
 
+L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.'
+L['options_icons_squirrels'] = '{achievement:14728}'
+L['options_icons_squirrels_desc'] = 'Critter locations for {achievement:14728} achievement.'
+
+L['options_icons_GarrFollower'] = 'Garrison Follower'
+L['options_icons_GarrFollower_desc'] = 'Display the locations of Followers.'
+
 -------------------------------------------------------------------------------
 ------------------------------------ ASHRAN -----------------------------------
 -------------------------------------------------------------------------------
@@ -45,6 +52,7 @@ L['gorrthoggs_personal_reserve_treasure'] = 'Gorr\'thogg\'s Personal Reserve'
 L['grimfrost_treasure_treasure'] = 'Grimfrost Treasure'
 L['iron_horde_munitions_treasure'] = 'Iron Horde Munitions'
 L['iron_horde_supplies_treasure'] = 'Iron Horde Supplies'
+L['lady_senas_materials_stash_treasure'] = 'Lady Sena\'s Materials Stash'
 L['lady_senas_other_materials_stash_treasure'] = 'Lady Sena\'s Other Materials Stash'
 L['lagoon_pool_treasure'] = 'Lagoon Pool'
 L['lucky_coin_treasure'] = 'Lucky Coin'
@@ -60,11 +68,16 @@ L['supply_dump_treasure'] = 'Supply Dump'
 L['survivalists_cache_treasure'] = 'Survivalist\'s Cache'
 L['thunderlord_cache_treasure'] = 'Thunderlord Cache'
 L['time_warped_tower_treasure'] = 'Time-Warped Tower'
+L['time_warped_tower_note'] = 'Loot the Ogers inside the tower.'
 L['wiggling_egg_treasure'] = 'Wiggling Egg'
 L['young_orc_traveler_note'] = 'Combine with {item:107272}'
 L['young_orc_traveler_treasure'] = 'Young Orc Traveler'
 L['young_orc_woman_note'] = 'Combine with {item:107273}'
 L['young_orc_woman_treasure'] = 'Young Orc Woman'
+L['smoldering_true_iron_deposit_treasure'] = 'Smoldering True Iron Deposit'
+L['up_some_crates_note'] = 'Up some crates.'
+L['wiggling_egg_note'] = 'On top of the building in a nest.'
+L['cragmaul_cache_note'] = 'Under the stairs.'
 
 L['prisoner_cage_label'] = 'Prisoner Cage'
 L['slaves_freed'] = 'slaves freed'
@@ -78,8 +91,10 @@ L['delectable_ogre_delicacies_note'] = [[
 {spell:166687} lasts 2 minutes
 ]]
 
-L['weaponsmith_na_shra_follower_note'] = 'Complete {quest:33838} to recruit her as a follower'
-L['dagg_follower_note'] = 'Rescue {npc:79607} from his first cage then rescue him again from his second cage. Find him outside your garrison to recruit him as a follower'
+L['weaponsmith_na_shra_follower_note'] = 'Complete {quest:33838} to recruit her as a follower.'
+L['dagg_follower_note'] = 'Rescue {npc:79607} from his first cage then rescue him again from his second cage. Find him outside your garrison to recruit him as a follower.'
+L['shadow_hunter_rala_follower_note'] = 'Complete {quest:34348} to recruit him as a follower.'
+L['gronnstalker_rokash_follower_note'] = 'Complete {quest:32981} to recruit him as a follower.'
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Display the locations of |cffffff00Tattered Journal Page|r for {achievement:9531}'

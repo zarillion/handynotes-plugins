@@ -46,8 +46,10 @@ L['gorrthoggs_personal_reserve_treasure'] = 'Réserve personnelle de Gorr\'thogg
 L['grimfrost_treasure_treasure'] = 'Trésor de Triste-Givre'
 L['iron_horde_munitions_treasure'] = 'Munitions de la Horde de Fer'
 L['iron_horde_supplies_treasure'] = 'Fournitures de la Horde de Fer'
+L['lady_senas_materials_stash_treasure'] = nil
 L['lady_senas_other_materials_stash_treasure'] = 'Autre planque de matériaux de dame Sena'
 L['lagoon_pool_treasure'] = 'Bassin du lagon'
+L['lagoon_pool_note'] = nil
 L['lucky_coin_treasure'] = 'Pièce porte-bonheur'
 L['obsidian_petroglyph_treasure'] = 'Pétroglyphe sur obsidienne'
 L['ogre_booty_treasure'] = 'Butin ogre'
@@ -61,11 +63,16 @@ L['supply_dump_treasure'] = 'Réserve de fournitures'
 L['survivalists_cache_treasure'] = 'Cache de survivaliste'
 L['thunderlord_cache_treasure'] = 'Cache sire-tonnerre'
 L['time_warped_tower_treasure'] = 'Tour Distordue dans le Temps'
+L['time_warped_tower_note'] = nil
 L['wiggling_egg_treasure'] = 'Œuf de rylak frétillant'
 L['young_orc_traveler_note'] = 'Combinez avec {item:107272}'
 L['young_orc_traveler_treasure'] = 'Jeune voyageur orc'
 L['young_orc_woman_note'] = 'Combinez avec {item:107273}'
 L['young_orc_woman_treasure'] = 'Jeune Orque'
+L['smoldering_true_iron_deposit_treasure'] = nil
+L['up_some_crates_note'] = nil
+L['wiggling_egg_note'] = nil
+L['cragmaul_cache_note'] = nil
 
 L['prisoner_cage_label'] = 'Cage de prisonnier'
 L['slaves_freed'] = 'esclaves libérés'
@@ -80,6 +87,8 @@ L['delectable_ogre_delicacies_note'] = [[
 
 L['weaponsmith_na_shra_follower_note'] = 'Complétez {quest:33838} pour la recruter comme sujet'
 L['dagg_follower_note'] = 'Libérez {npc:79607} de sa première cage puis sauvez-le à nouveau de sa deuxième cage. Trouvez-le à l\'extérieur de votre fief pour le recruter comme sujet'
+L['shadow_hunter_rala_follower_note'] = nil
+L['gronnstalker_rokash_follower_note'] = nil
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Afficher les emplacements de la |cffffff00Page de journal en lambeaux|r pour {achievement:9531}'

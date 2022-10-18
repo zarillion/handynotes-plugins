@@ -45,8 +45,10 @@ L['gorrthoggs_personal_reserve_treasure'] = '戈尔索格的私人金库'
 L['grimfrost_treasure_treasure'] = '肃霜宝箱'
 L['iron_horde_munitions_treasure'] = '钢铁部落军需品'
 L['iron_horde_supplies_treasure'] = '钢铁部落补给品'
+L['lady_senas_materials_stash_treasure'] = nil
 L['lady_senas_other_materials_stash_treasure'] = '塞娜小姐的备用物资'
 L['lagoon_pool_treasure'] = '环礁池塘'
+L['lagoon_pool_note'] = nil
 L['lucky_coin_treasure'] = '幸运硬币'
 L['obsidian_petroglyph_treasure'] = '黑曜石岩画'
 L['ogre_booty_treasure'] = '食人魔战利品'
@@ -60,11 +62,16 @@ L['supply_dump_treasure'] = '遗弃的补给品'
 L['survivalists_cache_treasure'] = '生存专家的宝箱'
 L['thunderlord_cache_treasure'] = '雷神储备点'
 L['time_warped_tower_treasure'] = '时光扭曲之塔'
+L['time_warped_tower_note'] = nil
 L['wiggling_egg_treasure'] = '震动的蛋'
 L['young_orc_traveler_note'] = '结合 {item:107272}'
 L['young_orc_traveler_treasure'] = '年轻的兽人旅行者'
 L['young_orc_woman_note'] = '结合 {item:107273}'
 L['young_orc_woman_treasure'] = '年轻的女兽人'
+L['smoldering_true_iron_deposit_treasure'] = nil
+L['up_some_crates_note'] = nil
+L['wiggling_egg_note'] = nil
+L['cragmaul_cache_note'] = nil
 
 L['prisoner_cage_label'] = '囚笼'
 L['slaves_freed'] = '解救奴隶'
@@ -80,6 +87,8 @@ L['delectable_ogre_delicacies_note'] = [[
 
 L['weaponsmith_na_shra_follower_note'] = '完成 {quest:33838} 后招募她为追随者。'
 L['dagg_follower_note'] = '将 {npc:79607} 从他的第一个笼子中救出，然后再次将他从第二个笼子中救出。在要塞外找到他以招募他为追随者。'
+L['shadow_hunter_rala_follower_note'] = nil
+L['gronnstalker_rokash_follower_note'] = nil
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = '显示 {achievement:9531} 成就中 |cffffff00散落的日志书页|r 的位置。'
