@@ -66,10 +66,8 @@ ns.groups.GARRFOLLOWER = Group('GarrFollower', 1033590, {defaults = ns.GROUP_HID
 ---------------------------- Squirrel Achievement -----------------------------
 -------------------------------------------------------------------------------
 
-local Squirrel = Class('Squirrel', Collectible, {
+ns.node.Squirrel = Class('Squirrel', Collectible, {
     group = ns.groups.SQUIRRELS,
     icon = 237182,
     note = L['squirrels_note']
 })
-
-ns.node.Squirrel = Squirrel
