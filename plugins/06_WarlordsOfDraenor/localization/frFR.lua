@@ -17,6 +17,13 @@ L['multiple_spawn_note'] = 'Peut apparaître à plusieurs endroits.'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = 'Affiche les emplacements des costumes pour {achievement:10053}'
 
+L['squirrels_note'] = nil
+L['options_icons_squirrels'] = '{achievement:14728}'
+L['options_icons_squirrels_desc'] = nil
+
+L['options_icons_GarrFollower'] = nil
+L['options_icons_GarrFollower_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------------ ASHRAN -----------------------------------
 -------------------------------------------------------------------------------
@@ -48,7 +55,7 @@ L['iron_horde_supplies_treasure'] = 'Fournitures de la Horde de Fer'
 L['lady_senas_materials_stash_treasure'] = nil
 L['lady_senas_other_materials_stash_treasure'] = 'Autre planque de matériaux de dame Sena'
 L['lagoon_pool_treasure'] = 'Bassin du lagon'
-L['lagoon_pool_note'] = nil
+L['lagoon_pool_treasure_note'] = nil
 L['lucky_coin_treasure'] = 'Pièce porte-bonheur'
 L['obsidian_petroglyph_treasure'] = 'Pétroglyphe sur obsidienne'
 L['ogre_booty_treasure'] = 'Butin ogre'
