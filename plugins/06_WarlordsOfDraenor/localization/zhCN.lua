@@ -16,6 +16,13 @@ L['multiple_spawn_note'] = '在多个位置刷新。'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = '显示 {achievement:10053} 成就中服装的位置。'
 
+L['squirrels_note'] = nil
+L['options_icons_squirrels'] = '{achievement:14728}'
+L['options_icons_squirrels_desc'] = nil
+
+L['options_icons_GarrFollower'] = nil
+L['options_icons_GarrFollower_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------------ ASHRAN -----------------------------------
 -------------------------------------------------------------------------------
@@ -47,7 +54,7 @@ L['iron_horde_supplies_treasure'] = '钢铁部落补给品'
 L['lady_senas_materials_stash_treasure'] = nil
 L['lady_senas_other_materials_stash_treasure'] = '塞娜小姐的备用物资'
 L['lagoon_pool_treasure'] = '环礁池塘'
-L['lagoon_pool_note'] = nil
+L['lagoon_pool_treasure_note'] = nil
 L['lucky_coin_treasure'] = '幸运硬币'
 L['obsidian_petroglyph_treasure'] = '黑曜石岩画'
 L['ogre_booty_treasure'] = '食人魔战利品'
