@@ -17,6 +17,13 @@ L['multiple_spawn_note'] = 'Puede aparecer en varios sitios.'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = 'Muestra dónde están los atuendos para el logro {achievement:10053}.'
 
+L['squirrels_note'] = nil
+L['options_icons_squirrels'] = '{achievement:14728}'
+L['options_icons_squirrels_desc'] = nil
+
+L['options_icons_GarrFollower'] = nil
+L['options_icons_GarrFollower_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------------ ASHRAN -----------------------------------
 -------------------------------------------------------------------------------
