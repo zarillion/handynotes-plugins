@@ -165,6 +165,9 @@ L['options_icons_prove_your_strength_desc'] = 'Afficher les emplacements de drop
 
 L['fangler_note'] = 'Utilisez la canne à pêche'
 L['berserk_t_300_series_mark_ii_note'] = 'Utilisez l\'interrupteur'
+L['graveltooth_note'] = nil
+L['gorepetal_note'] = nil
+L['sean_whitesea_note'] = nil
 
 L['a_pile_of_dirt_treasure'] = 'Un tas de terre'
 L['abandoned_cargo_treasure'] = 'Chargement abandonné'
@@ -176,7 +179,7 @@ L['adventurers_staff_treasure'] = 'Bâton de l’aventurier'
 L['appropriated_warsong_supplies_treasure'] = 'Fournitures chanteguerres soustraites'
 L['bag_of_herbs_treasure'] = 'Sac d’herbes'
 L['bone_carved_dagger_treasure'] = 'Dague gravée en os'
-L['bounty_of_the_elements_note'] = 'Utilisez les totems élémentaires pour y accéder.'
+L['bounty_of_the_elements_note'] = nil
 L['bounty_of_the_elements_treasure'] = 'Butin des éléments'
 L['brilliant_dreampetal_treasure'] = 'Fronderêve brillant'
 L['elemental_offering_treasure'] = 'Offrande élémentaire'
@@ -214,6 +217,9 @@ L['warsong_spear_treasure'] = 'Lance chanteguerre'
 L['warsong_spoils_treasure'] = 'Butin des Chanteguerres'
 L['warsong_supplies_treasure'] = 'Fournitures Chanteguerre'
 L['watertight_bag_treasure'] = 'Sac étanche'
+L['spirit_coffer_treasure'] = 'Coffre spirituel'
+L['spirits_gift_treasure'] = nil
+L['spirits_gift_treasure_note'] = nil
 
 L['viking_pepe_note'] = 'Assis sur une caisse derrière des gobelins avec une Boule Disco'
 L['viking_pepe_treasure'] = 'Pépé viking'
