@@ -163,8 +163,11 @@ L['options_icons_prove_your_strength_desc'] = 'Display drop locations for {achie
 ------------------------------------ NAGRAND ----------------------------------
 -------------------------------------------------------------------------------
 
-L['fangler_note'] = 'Use the fishing rod'
-L['berserk_t_300_series_mark_ii_note'] = 'Use the switch'
+L['fangler_note'] = 'Use the fishing rod.'
+L['berserk_t_300_series_mark_ii_note'] = 'Use the switch.'
+L['graveltooth_note'] = 'Kill {npc:84255} until {npc:84263} spawns.'
+L['gorepetal_note'] = 'In a cave.\n\nDoes not show up on the minimap. Click on the Pristine Lily to spawn {npc:83509}.'
+L['sean_whitesea_note'] = 'Open the Abandoned Chest so that {npc:83542} appears.'
 
 L['a_pile_of_dirt_treasure'] = 'A Pile of Dirt'
 L['abandoned_cargo_treasure'] = 'Abandoned Cargo'
@@ -176,7 +179,7 @@ L['adventurers_staff_treasure'] = 'Adventurer\'s Staff'
 L['appropriated_warsong_supplies_treasure'] = 'Appropriated Warsong Supplies'
 L['bag_of_herbs_treasure'] = 'Bag of Herbs'
 L['bone_carved_dagger_treasure'] = 'Bone-Carved Dagger'
-L['bounty_of_the_elements_note'] = 'Use the Elemental Totems for access.'
+L['bounty_of_the_elements_note'] = 'Click the Totems in the following order:\n 1. {npc:84307}\n 2. {npc:84343}\n 3. {npc:84345}\n 4. {npc:84347}'
 L['bounty_of_the_elements_treasure'] = 'Bounty of the Elements'
 L['brilliant_dreampetal_treasure'] = 'Brilliant Dreampetal'
 L['elemental_offering_treasure'] = 'Elemental Offering'
@@ -214,6 +217,9 @@ L['warsong_spear_treasure'] = 'Warsong Spear'
 L['warsong_spoils_treasure'] = 'Warsong Spoils'
 L['warsong_supplies_treasure'] = 'Warsong Supplies'
 L['watertight_bag_treasure'] = 'Watertight Bag'
+L['spirit_coffer_treasure'] = 'Spirit Coffer'
+L['spirits_gift_treasure'] = 'Spirit\'s Gift'
+L['spirits_gift_treasure_note'] = 'Light all 6 forgotten braziers to make the treasure appear.'
 
 L['viking_pepe_note'] = 'Sitting on a crate behind some goblins with a Disco Ball'
 L['viking_pepe_treasure'] = 'Viking Pepe'

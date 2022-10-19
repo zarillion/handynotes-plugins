@@ -166,6 +166,9 @@ L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines
 
 L['fangler_note'] = 'Usa la caña de pescar.'
 L['berserk_t_300_series_mark_ii_note'] = 'Usa el interruptor.'
+L['graveltooth_note'] = nil
+L['gorepetal_note'] = nil
+L['sean_whitesea_note'] = nil
 
 L['a_pile_of_dirt_treasure'] = 'Un Montón de Tierra'
 L['abandoned_cargo_treasure'] = 'Cargamento Abandonado'
@@ -177,7 +180,7 @@ L['adventurers_staff_treasure'] = 'Bastón del Aventurero'
 L['appropriated_warsong_supplies_treasure'] = 'Suministros Grito de Guerra Adueñados'
 L['bag_of_herbs_treasure'] = 'Bolsa de Hierbas'
 L['bone_carved_dagger_treasure'] = 'Daga de Hueso Tallado'
-L['bounty_of_the_elements_note'] = 'Usa los Tótems Elementales para acceder.'
+L['bounty_of_the_elements_note'] = nil
 L['bounty_of_the_elements_treasure'] = 'Recompensa de los Elementos'
 L['brilliant_dreampetal_treasure'] = 'Pétalo de Ensueño Luminoso'
 L['elemental_offering_treasure'] = 'Ofrenda Elemental'
@@ -215,6 +218,9 @@ L['warsong_spear_treasure'] = 'Lanza Grito de Guerra'
 L['warsong_spoils_treasure'] = 'Botín Grito de Guerra'
 L['warsong_supplies_treasure'] = 'Suministros Grito de Guerra'
 L['watertight_bag_treasure'] = 'Bolsa Hermética'
+L['spirit_coffer_treasure'] = 'Arca de espíritus'
+L['spirits_gift_treasure'] = nil
+L['spirits_gift_treasure_note'] = nil
 
 L['viking_pepe_note'] = 'Posado en una caja detrás de unos goblins con una Bola de Discoteca.'
 L['viking_pepe_treasure'] = 'Pepe Vikingo'

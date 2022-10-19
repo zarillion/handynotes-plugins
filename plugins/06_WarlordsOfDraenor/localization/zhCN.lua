@@ -165,6 +165,9 @@ L['options_icons_prove_your_strength_desc'] = '显示 {achievement:9402} 成就�
 
 L['fangler_note'] = '使用钓鱼竿。'
 L['berserk_t_300_series_mark_ii_note'] = '使用开关。'
+L['graveltooth_note'] = nil
+L['gorepetal_note'] = nil
+L['sean_whitesea_note'] = nil
 
 L['a_pile_of_dirt_treasure'] = '一堆泥土'
 L['abandoned_cargo_treasure'] = '被遗弃的货箱'
@@ -176,7 +179,7 @@ L['adventurers_staff_treasure'] = '冒险者的法杖'
 L['appropriated_warsong_supplies_treasure'] = '偷来的战歌补给品'
 L['bag_of_herbs_treasure'] = '一袋草药'
 L['bone_carved_dagger_treasure'] = '骨质匕首'
-L['bounty_of_the_elements_note'] = '使用元素图腾获得。'
+L['bounty_of_the_elements_note'] = nil
 L['bounty_of_the_elements_treasure'] = '元素的宝藏'
 L['brilliant_dreampetal_treasure'] = '闪亮的梦境花瓣'
 L['elemental_offering_treasure'] = '元素祭品'
@@ -214,6 +217,9 @@ L['warsong_spear_treasure'] = '战歌长矛'
 L['warsong_spoils_treasure'] = '战歌战利品'
 L['warsong_supplies_treasure'] = '战歌补给品'
 L['watertight_bag_treasure'] = '防水袋'
+L['spirit_coffer_treasure'] = nil
+L['spirits_gift_treasure'] = nil
+L['spirits_gift_treasure_note'] = nil
 
 L['viking_pepe_note'] = '地精和迪斯科球身后的板条箱上。'
 L['viking_pepe_treasure'] = '维京佩佩'
