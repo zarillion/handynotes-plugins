@@ -18,8 +18,10 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
+local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -34,14 +36,8 @@ local map = Map({id = 542, settings = true})
 map.nodes[25202420] = Rare({
     id = 86978,
     quest = 36943,
-    rewards = {Item({item = 118696}), Currency({id = 824})}
+    rewards = {Item({item = 118696, note = L['ring']}), Currency({id = 824})}
 }) -- Gaze
-
-map.nodes[29404140] = Rare({
-    id = 82050,
-    quest = 35334,
-    rewards = {Pet({item = 118207, id = 1541})}
-}) -- Varasha
 
 map.nodes[33005900] = Rare({
     id = 84951,
@@ -49,136 +45,159 @@ map.nodes[33005900] = Rare({
     rewards = {Item({item = 116836})}
 }) -- Gobblefin
 
-map.nodes[33402200] = Rare({
+map.nodes[33552187] = Rare({
     id = 84805,
     quest = 36265,
-    rewards = {Item({item = 116858})}
+    rewards = {
+        Transmog({item = 116858, slot = L['mail']}), Currency({id = 824})
+    }
 }) -- Stonespite
 
-map.nodes[36003900] = Rare({
+map.nodes[37183845] = Rare({
     id = 83746,
     quest = 37464,
-    rewards = {Mount({item = 116771, id = 634})}
+    rewards = {
+        Achievement({id = 9425}), -- So Grossly Incandescent
+        Achievement({id = 9838, criteria = 27650}), -- What A Strange, Interdimensional Trip It's Been
+        Mount({id = 634, item = 116771}), -- Solar Spirehawk
+        Transmog({item = 120113, slot = L['mail']}), -- Talongrip Spurs
+        Transmog({item = 115435, slot = L['mail']}), -- Leggings of Flowing Feathers
+        Transmog({item = 120114, slot = L['plate']}), -- Wing-Forged Greatboots
+        Transmog({item = 115433, slot = L['cloth']}), -- Solarflame Legwraps
+        Transmog({item = 120111, slot = L['cloth']}), -- Featherflame Sandals
+        Transmog({item = 120112, slot = L['leather']}), -- Phoenix-Rider Boots
+        Transmog({item = 115434, slot = L['leather']}), -- Down-Lined Leggings
+        Transmog({item = 115436, slot = L['plate']}) -- Phoenixfire Legplates
+    }
 }) -- Rukhmar
 
-map.nodes[36405240] = Rare({
+map.nodes[36295256] = Rare({
     id = 82247,
     quest = 36129,
-    rewards = {Item({item = 116837})}
+    rewards = {Transmog({item = 116837, slot = L['polearm']})}
 }) -- Nas Dunberlin
 
-map.nodes[38402780] = Rare({
+map.nodes[38322797] = Rare({
     id = 85504,
     quest = 36470,
     rewards = {Pet({item = 118107, id = 1540})}
 }) -- Rotcap
 
-map.nodes[46402860] = Rare({
+map.nodes[46422848] = Rare({
     id = 84807,
     quest = 36267,
-    rewards = {Item({item = 118198})}
+    rewards = {
+        Transmog({item = 118198, slot = L['mail']}), Currency({id = 824})
+    }
 }) -- Durkath Steelmaw
 
-map.nodes[46802300] = Rare({
+map.nodes[46822324] = Rare({
     id = 80614,
     quest = 35599,
-    rewards = {Item({item = 116839})}
+    rewards = {Item({item = 116839}), Currency({id = 824})}
 }) -- Blade-Dancer Aeryx
 
-map.nodes[51800720] = Rare({
+map.nodes[51970728] = Rare({
     id = 83990,
     quest = 37394,
-    rewards = {Item({item = 119407})}
+    rewards = {Transmog({item = 119407, slot = L['polearm']})}
 }) -- Solar Magnifier
 
-map.nodes[52003540] = Rare({
+map.nodes[51963556] = Rare({
     id = 79938,
     quest = 36478,
-    rewards = {Item({item = 118201})}
+    rewards = {Transmog({item = 118201, slot = L['shield']})}
 }) -- Shadowbark
 
-map.nodes[52805480] = Rare({
+map.nodes[52905497] = Rare({
     id = 85520,
     quest = 36472,
-    rewards = {Item({item = 116857})}
+    rewards = {Transmog({item = 116857, slot = L['staff']})}
 }) -- Swarmleaf
 
-map.nodes[53208900] = Rare({
+map.nodes[53798872] = Rare({
     id = 84417,
     quest = 36396,
-    rewards = {Item({item = 118206})}
+    rewards = {Transmog({item = 118206, slot = L['2h_mace']})}
 }) -- Mutafen
 
-map.nodes[54606320] = Rare({
+map.nodes[54636320] = Rare({
     id = 84836,
     quest = 36278,
-    rewards = {Item({item = 116838})}
+    rewards = {Item({item = 116838, note = L['neck']})}
 }) -- Talonbreaker
 
-map.nodes[54803960] = Rare({
+map.nodes[54793699] = Rare({
     id = 84890,
     quest = 36297,
-    rewards = {Item({item = 118200})}
+    rewards = {Transmog({item = 118200, slot = L['offhand']})}
 }) -- Festerbloom
 
-map.nodes[56609460] = Rare({
+map.nodes[56469478] = Rare({
     id = 84955,
     quest = 36306,
-    rewards = {Item({item = 118202})}
+    rewards = {Item({item = 118202, note = L['trinket']})}
 }) -- Jiasska the Sporegorger
 
-map.nodes[57407400] = Rare({
+map.nodes[57277410] = Rare({
     id = 84775,
     quest = 36254,
-    rewards = {Item({item = 116852})}
+    rewards = {Item({item = 116852, note = L['neck']})}
 }) -- Tesska the Broken
 
-map.nodes[58208460] = Rare({
+map.nodes[58318444] = Rare({
     id = 84887,
     quest = 36291,
-    rewards = {Item({item = 116907})}
+    rewards = {Transmog({item = 116907, slot = L['gun']})}
 }) -- Betsi Boombasket
 
-map.nodes[58604520] = Rare({
+map.nodes[59014514] = Rare({
     id = 84912,
     quest = 36298,
-    rewards = {Item({item = 116855})}
+    rewards = {
+        Transmog({item = 116855, slot = L['1h_sword']}), Currency({id = 824})
+    }
 }) -- Sunderthorn
 
-map.nodes[59201500] = Rare({
+map.nodes[59281484] = Rare({
     id = 86724,
     quest = 36887,
-    rewards = {Item({item = 118279})}
+    rewards = {Transmog({item = 118279, slot = L['cloth']})}
 }) -- Hermit Palefur
 
 map.nodes[59403740] = Rare({
     id = 84838,
     quest = 36279,
-    rewards = {Item({item = 118199})}
+    rewards = {Item({item = 118199, note = L['trinket']})}
 }) -- Poisonmaster Bortusk
 
-map.nodes[62603740] = Rare({
+map.nodes[62783737] = Rare({
     id = 84810,
     quest = 36268,
-    rewards = {Item({item = 118735})}
+    rewards = {Transmog({item = 118735, slot = L['cloth']})}
 }) -- Kalos the Bloodbathed
 
-map.nodes[64006480] = Rare({
+map.nodes[65246826] = Rare({
     id = 84856,
     quest = 36283,
-    rewards = {Item({item = 118205})}
+    rewards = {Transmog({item = 118205, slot = L['leather']})},
+    pois = {Path({64086471, 64296551, 64656578, 65206718, 65246826})}
 }) -- Blightglow
 
-map.nodes[66005500] = Rare({
+map.nodes[64975412] = Rare({
     id = 84872,
     quest = 36288,
-    rewards = {Item({item = 118204})}
+    rewards = {
+        Transmog({item = 118204, slot = L['dagger']}), Currency({id = 824})
+    }
 }) -- Oskiira the Vengeful
 
-map.nodes[69004880] = Rare({
+map.nodes[68854890] = Rare({
     id = 84833,
     quest = 36276,
-    rewards = {Item({item = 118203})}
+    rewards = {
+        Transmog({item = 118203, slot = L['leather']}), Currency({id = 824})
+    }
 }) -- Sangrikrass
 
 map.nodes[69005400] = Rare({id = 80372, quest = 37406}) -- Echidna
@@ -186,32 +205,41 @@ map.nodes[69005400] = Rare({id = 80372, quest = 37406}) -- Echidna
 map.nodes[70402380] = Rare({
     id = 85037,
     quest = 37361,
-    rewards = {Item({item = 119354})}
+    rewards = {Transmog({item = 119354, slot = L['cloth']})}
 }) -- Kenos the Unraveler
 
 map.nodes[72001980] = Rare({
     id = 85036,
     quest = 37360,
-    rewards = {Item({item = 119373})}
+    rewards = {Transmog({item = 119373, slot = L['mail']})}
 }) -- Formless Nightmare
 
-map.nodes[72401940] = Rare({
+map.nodes[72631934] = Rare({
     id = 85026,
     quest = 37358,
-    rewards = {Toy({item = 119178})}
+    rewards = {
+        Transmog({item = 119410, slot = L['staff']}), Toy({item = 119178})
+    }
 }) -- Soul-Twister Torek
 
-map.nodes[73003180] = Rare({
+map.nodes[73223069] = Rare({
     id = 85078,
     quest = 37359,
-    rewards = {Item({item = 119392})}
+    rewards = {Transmog({item = 119392, slot = L['1h_axe']})},
+    pois = {
+        Path({
+            72993213, 73133174, 73123099, 73223069, 73373073, 73423117,
+            73473151, 73833211, 74123244, 73973304, 74123244, 74533259,
+            75113262, 74123244, 74493159
+        })
+    }
 }) -- Voidreaver Urnae
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[29504170] = Treasure({
+map.nodes[29444162] = Treasure({
     label = L['egg_of_varasha_treasure'],
     quest = 35334,
     note = L['in_cave'],
@@ -220,10 +248,11 @@ map.nodes[29504170] = Treasure({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
         }), Pet({item = 118207, id = 1541})
-    }
+    },
+    pois = {POI({31194308})}
 }) -- Egg of Varasha
 
-map.nodes[34102750] = Treasure({
+map.nodes[34152752] = Treasure({
     label = L['sun_touched_cache_treasure'],
     quest = 36421,
     rewards = {
@@ -234,29 +263,29 @@ map.nodes[34102750] = Treasure({
     }
 }) -- Sun-Touched Cache
 
-map.nodes[36303940] = Treasure({
+map.nodes[36293934] = Treasure({
     label = L['orcish_signaling_horn_treasure'],
     quest = 36402,
     rewards = {
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 120337})
+        }), Item({item = 120337, note = L['trinket']})
     }
 }) -- Orcish Signaling Horn
 
-map.nodes[36505790] = Treasure({
+map.nodes[36445779] = Treasure({
     label = L['ephials_dark_grimoire_treasure'],
     quest = 36418,
     rewards = {
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 116914})
+        }), Transmog({item = 116914, slot = L['offhand']})
     }
 }) -- Ephial's Dark Grimoire
 
-map.nodes[36801720] = Treasure({
+map.nodes[36821715] = Treasure({
     label = L['outcasts_belongings_treasure'],
     quest = 36243,
     rewards = {
@@ -267,7 +296,7 @@ map.nodes[36801720] = Treasure({
     }
 }) -- Outcast's Belongings
 
-map.nodes[37204740] = Treasure({
+map.nodes[37154750] = Treasure({
     label = L['garrison_supplies_treasure'],
     quest = 36420,
     rewards = {
@@ -278,7 +307,7 @@ map.nodes[37204740] = Treasure({
     }
 }) -- Garrison Supplies
 
-map.nodes[37305070] = Treasure({
+map.nodes[37455083] = Treasure({
     label = L['rooby_roos_ruby_rollar_treasure'],
     quest = 36657,
     note = L['rooby_roos_ruby_collar_note'],
@@ -286,11 +315,11 @@ map.nodes[37305070] = Treasure({
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 116887})
+        }), Item({item = 116887, note = L['neck']})
     }
 }) -- Rooby Roo's Ruby Rollar
 
-map.nodes[37705640] = Treasure({
+map.nodes[37715632] = Treasure({
     label = L['admiral_taylors_coffer_treasure'],
     quest = 36462,
     note = L['admiral_taylors_coffer_note'],
@@ -300,32 +329,32 @@ map.nodes[37705640] = Treasure({
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
         }), Item({item = 116020})
     },
-    pois = {POI({36205440})}
+    pois = {POI({36195446})}
 }) -- Admiral Taylor's Coffer
 
-map.nodes[40605500] = Treasure({
+map.nodes[40605497] = Treasure({
     label = L['abandoned_mining_pick_treasure'],
     quest = 36458,
     rewards = {
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 116913})
+        }), Transmog({item = 116913, slot = L['1h_axe']})
     }
 }) -- Abandoned Mining Pick
 
-map.nodes[41805050] = Treasure({
+map.nodes[41855042] = Treasure({
     label = L['garrison_workmans_hammer_treasure'],
     quest = 36451,
     rewards = {
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 116918})
+        }), Transmog({item = 116918, slot = L['1h_mace']})
     }
 }) -- Garrison Workman's Hammer
 
-map.nodes[42102170] = Treasure({
+map.nodes[42172169] = Treasure({
     label = L['outcasts_belongings_treasure'],
     quest = 36447,
     rewards = {
@@ -336,7 +365,7 @@ map.nodes[42102170] = Treasure({
     }
 }) -- Outcast's Belongings
 
-map.nodes[44401200] = Treasure({
+map.nodes[44331204] = Treasure({
     label = L['rukhmars_image_treasure'],
     quest = 36377,
     rewards = {
@@ -347,7 +376,7 @@ map.nodes[44401200] = Treasure({
     }
 }) -- Rukhmar's Image
 
-map.nodes[46903400] = Treasure({
+map.nodes[46913405] = Treasure({
     label = L['outcasts_pouch_treasure'],
     quest = 36446,
     rewards = {
@@ -358,18 +387,19 @@ map.nodes[46903400] = Treasure({
     }
 }) -- Outcast's Pouch
 
-map.nodes[47803610] = Treasure({
+map.nodes[47773612] = Treasure({
     label = L['lost_ring_treasure'],
+    note = L['in_water'],
     quest = 36411,
     rewards = {
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 116911})
+        }), Item({item = 116911, note = L['ring']})
     }
 }) -- Lost Ring
 
-map.nodes[47903070] = Treasure({
+map.nodes[47933067] = Treasure({
     label = L['shattered_hand_lockbox_treasure'],
     quest = 36361,
     rewards = {
@@ -380,29 +410,29 @@ map.nodes[47903070] = Treasure({
     }
 }) -- Shattered Hand Lockbox
 
-map.nodes[49203730] = Treasure({
+map.nodes[49223720] = Treasure({
     label = L['assassins_spear_treasure'],
     quest = 36445,
     rewards = {
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 116835})
+        }), Transmog({item = 116835, slot = L['polearm']})
     }
 }) -- Assassin's Spear
 
-map.nodes[50402580] = Treasure({
+map.nodes[50332580] = Treasure({
     label = L['iron_horde_explosives_treasure'],
     quest = 36444,
     rewards = {
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Item({item = 118691})
+        }), Item({item = 118691}), Currency({id = 824})
     }
 }) -- Iron Horde Explosives
 
-map.nodes[50502210] = Treasure({
+map.nodes[50502209] = Treasure({
     label = L['fractured_sunstone_treasure'],
     quest = 36246,
     note = L['fractured_sunstone_note'],
@@ -414,7 +444,7 @@ map.nodes[50502210] = Treasure({
     }
 }) -- Fractured Sunstone
 
-map.nodes[50702880] = Treasure({
+map.nodes[50782874] = Treasure({
     label = L['lost_herb_satchel_treasure'],
     quest = 36247,
     rewards = {
@@ -425,7 +455,7 @@ map.nodes[50702880] = Treasure({
     }
 }) -- Lost Herb Satchel
 
-map.nodes[54403240] = Treasure({
+map.nodes[54363255] = Treasure({
     label = L['toxicfang_venom_treasure'],
     quest = 36364,
     rewards = {
@@ -436,9 +466,9 @@ map.nodes[54403240] = Treasure({
     }
 }) -- Toxicfang Venom
 
-map.nodes[55509080] = Treasure({
+map.nodes[55539085] = Treasure({
     label = L['campaign_contributions_treasure'],
-    quest = 36366,
+    quest = 36367,
     rewards = {
         Achievement({
             id = 9728,
@@ -447,7 +477,7 @@ map.nodes[55509080] = Treasure({
     }
 }) -- Campaign Contributions
 
-map.nodes[56202880] = Treasure({
+map.nodes[56242878] = Treasure({
     label = L['shattered_hand_cache_treasure'],
     quest = 36362,
     rewards = {
@@ -458,7 +488,7 @@ map.nodes[56202880] = Treasure({
     }
 }) -- Shattered Hand Cache
 
-map.nodes[58706030] = Treasure({
+map.nodes[58706024] = Treasure({
     label = L['ogron_plunder_treasure'],
     quest = 36340,
     rewards = {
@@ -469,7 +499,7 @@ map.nodes[58706030] = Treasure({
     }
 }) -- Ogron Plunder
 
-map.nodes[59109060] = Treasure({
+map.nodes[59169063] = Treasure({
     label = L['sailor_zazzuks_180_proof_rum_treasure'],
     quest = 36366,
     note = L['sailor_zazzuks_180_proof_rum_note'],
@@ -481,7 +511,7 @@ map.nodes[59109060] = Treasure({
     }
 }) -- Sailor Zazzuk's 180-Proof Rum
 
-map.nodes[59708130] = Treasure({
+map.nodes[59638134] = Treasure({
     label = L['spray_o_matic_5000_xt_treasure'],
     quest = 36365,
     rewards = {
@@ -492,7 +522,7 @@ map.nodes[59708130] = Treasure({
     }
 }) -- Spray-O-Matic 5000 XT
 
-map.nodes[60908460] = Treasure({
+map.nodes[60868460] = Treasure({
     label = L['shredder_parts_treasure'],
     quest = 36456,
     rewards = {
@@ -503,7 +533,7 @@ map.nodes[60908460] = Treasure({
     }
 }) -- Shredder Parts
 
-map.nodes[63606740] = Treasure({
+map.nodes[63576737] = Treasure({
     label = L['mysterious_mushrooms_treasure'],
     quest = 36454,
     rewards = {
@@ -514,7 +544,7 @@ map.nodes[63606740] = Treasure({
     }
 }) -- Mysterious Mushrooms
 
-map.nodes[66505650] = Treasure({
+map.nodes[66475652] = Treasure({
     label = L['waterlogged_satchel_treasure'],
     quest = 36455,
     rewards = {
@@ -525,7 +555,7 @@ map.nodes[66505650] = Treasure({
     }
 }) -- Waterlogged Satchel
 
-map.nodes[68203880] = Treasure({
+map.nodes[68333893] = Treasure({
     label = L['sethekk_idol_treasure'],
     quest = 36375,
     rewards = {
@@ -536,8 +566,9 @@ map.nodes[68203880] = Treasure({
     }
 }) -- Sethekk Idol
 
-map.nodes[68408900] = Treasure({
+map.nodes[68418897] = Treasure({
     label = L['coinbenders_payment_treasure'],
+    note = L['coinbenders_payment_treasure_note'],
     quest = 36453,
     rewards = {
         Achievement({
@@ -547,7 +578,7 @@ map.nodes[68408900] = Treasure({
     }
 }) -- Coinbender's Payment
 
-map.nodes[71604850] = Treasure({
+map.nodes[71634859] = Treasure({
     label = L['sethekk_ritual_brew_treasure'],
     quest = 36450,
     rewards = {
@@ -557,6 +588,29 @@ map.nodes[71604850] = Treasure({
         }), Item({item = 109223})
     }
 }) -- Sethekk Ritual Brew
+
+map.nodes[60878778] = Treasure({
+    quest = 35481,
+    label = L['nizzixs_chest_treasure'],
+    note = L['nizzixs_chest_treasure_note'],
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Currency({id = 824})
+    }
+}) -- Nizzix's Chest
+
+map.nodes[57962229] = Treasure({
+    quest = 36374,
+    label = '{npc:85165}',
+    rewards = {
+        Achievement({
+            id = 9728,
+            criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
+        }), Item({item = 118694})
+    }
+}) -- Statue of Anzu
 
 -------------------------------------------------------------------------------
 ---------------------------- ARCHAEOLOGY TREASURE -----------------------------
@@ -574,37 +628,37 @@ local ArchaeologyTreasure = Class('ArchaeologyTreasure', Treasure, {
     }
 })
 
-map.nodes[33302730] = ArchaeologyTreasure({
+map.nodes[33292727] = ArchaeologyTreasure({
     label = L['sun_touched_cache_treasure'],
     quest = 36422
 }) -- Sun-Touched Cache
 
-map.nodes[42701830] = ArchaeologyTreasure({
+map.nodes[42691832] = ArchaeologyTreasure({
     label = L['misplaced_scrolls_treasure'],
     quest = 36244
 }) -- Misplaced Scrolls
 
-map.nodes[43001640] = ArchaeologyTreasure({
+map.nodes[42961637] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36245
 }) -- Relics of the Outcasts
 
-map.nodes[43202720] = ArchaeologyTreasure({
+map.nodes[43162725] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36355
 }) -- Relics of the Outcasts
 
-map.nodes[46004410] = ArchaeologyTreasure({
+map.nodes[45944417] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36354
 }) -- Relics of the Outcasts
 
-map.nodes[51904890] = ArchaeologyTreasure({
+map.nodes[51894892] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36360
 }) -- Relics of the Outcasts
 
-map.nodes[52404280] = ArchaeologyTreasure({
+map.nodes[52474280] = ArchaeologyTreasure({
     label = L['misplaced_scroll_treasure'],
     quest = 36416
 }) -- Misplaced Scroll
@@ -614,12 +668,12 @@ map.nodes[56304530] = ArchaeologyTreasure({
     quest = 36433
 }) -- Smuggled Apexis Artifacts
 
-map.nodes[60205390] = ArchaeologyTreasure({
+map.nodes[60215391] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36359
 }) -- Relics of the Outcasts
 
-map.nodes[67403980] = ArchaeologyTreasure({
+map.nodes[67383983] = ArchaeologyTreasure({
     label = L['relics_of_the_outcasts_treasure'],
     quest = 36356
 }) -- Relics of the Outcasts
@@ -640,11 +694,11 @@ local OfferingToTheRavenMother = Class('OfferingToTheRavenMother', Treasure, {
     }
 })
 
-map.nodes[48305260] = OfferingToTheRavenMother({quest = 36405}) -- Offering to the Raven Mother
-map.nodes[48905470] = OfferingToTheRavenMother({quest = 36406}) -- Offering to the Raven Mother
-map.nodes[51906460] = OfferingToTheRavenMother({quest = 36407}) -- Offering to the Raven Mother
-map.nodes[53305560] = OfferingToTheRavenMother({quest = 36403}) -- Offering to the Raven Mother
-map.nodes[61006380] = OfferingToTheRavenMother({quest = 36410}) -- Offering to the Raven Mother
+map.nodes[48355261] = OfferingToTheRavenMother({quest = 36405}) -- Offering to the Raven Mother
+map.nodes[48915470] = OfferingToTheRavenMother({quest = 36406}) -- Offering to the Raven Mother
+map.nodes[51886465] = OfferingToTheRavenMother({quest = 36407}) -- Offering to the Raven Mother
+map.nodes[53315552] = OfferingToTheRavenMother({quest = 36403}) -- Offering to the Raven Mother
+map.nodes[60986387] = OfferingToTheRavenMother({quest = 36410}) -- Offering to the Raven Mother
 
 -------------------------------------------------------------------------------
 ------------------------- SHRINE OF TEROKK TREASURES --------------------------
@@ -657,34 +711,36 @@ local ElixirOfShadowSight = Class('ElixirOfShadowSight', Treasure, {
     rewards = {Item({item = 115463})}
 })
 
-map.nodes[43901500] = ElixirOfShadowSight({
+map.nodes[43901501] = ElixirOfShadowSight({
     quest = 36395,
     note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_01_note']
 }) -- Elixir of Shadow Sight
 
-map.nodes[43802470] = ElixirOfShadowSight({
+map.nodes[43822463] = ElixirOfShadowSight({
     quest = 36397,
     note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_02_note']
 }) -- Elixir of Shadow Sight
 
-map.nodes[69204350] = ElixirOfShadowSight({
+map.nodes[69154333] = ElixirOfShadowSight({
     quest = 36398,
     note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_03_note']
 }) -- Elixir of Shadow Sight
 
-map.nodes[48906250] = ElixirOfShadowSight({
+map.nodes[48976256] = ElixirOfShadowSight({
     quest = 36399,
-    note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_04_note']
+    note = L['in_small_cave'] .. '\n\n' .. L['elixir_pre_note'] .. '\n\n' ..
+        L['elixir_04_note']
 }) -- Elixir of Shadow Sight
 
-map.nodes[55602210] = ElixirOfShadowSight({
+map.nodes[55662209] = ElixirOfShadowSight({
     quest = 36400,
     note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_05_note']
 }) -- Elixir of Shadow Sight
 
-map.nodes[53108450] = ElixirOfShadowSight({
+map.nodes[53148451] = ElixirOfShadowSight({
     quest = 36401,
-    note = L['elixir_pre_note'] .. '\n\n' .. L['elixir_06_note']
+    note = L['in_water'] .. '\n\n' .. L['elixir_pre_note'] .. '\n\n' ..
+        L['elixir_06_note']
 }) -- Elixir of Shadow Sight
 
 local GiftOfAnzu = Class('GiftOfAnzu', Treasure, {
@@ -694,29 +750,29 @@ local GiftOfAnzu = Class('GiftOfAnzu', Treasure, {
     group = ns.groups.SHRINES_OF_TEROKK
 })
 
-map.nodes[42402670] = GiftOfAnzu({
+map.nodes[42392667] = GiftOfAnzu({
     quest = 36388,
-    rewards = {Item({item = 118242})}
+    rewards = {Transmog({item = 118242, slot = L['wand']})}
 }) -- Gift of Anzu
-map.nodes[46904050] = GiftOfAnzu({
+map.nodes[46864048] = GiftOfAnzu({
     quest = 36389,
-    rewards = {Item({item = 118238})}
+    rewards = {Transmog({item = 118238, slot = L['polearm']})}
 }) -- Gift of Anzu
-map.nodes[48604450] = GiftOfAnzu({
+map.nodes[48604451] = GiftOfAnzu({
     quest = 36386,
-    rewards = {Item({item = 118237})}
+    rewards = {Transmog({item = 118237, slot = L['crossbow']})}
 }) -- Gift of Anzu
-map.nodes[52001960] = GiftOfAnzu({
+map.nodes[52031965] = GiftOfAnzu({
     quest = 36392,
-    rewards = {Item({item = 118239})}
+    rewards = {Transmog({item = 118239, slot = L['staff']})}
 }) -- Gift of Anzu
-map.nodes[57007900] = GiftOfAnzu({
+map.nodes[57027896] = GiftOfAnzu({
     quest = 36390,
-    rewards = {Item({item = 118241})}
+    rewards = {Transmog({item = 118241, slot = L['1h_sword']})}
 }) -- Gift of Anzu
-map.nodes[61105550] = GiftOfAnzu({
+map.nodes[61105536] = GiftOfAnzu({
     quest = 36381,
-    rewards = {Item({item = 118240})}
+    rewards = {Transmog({item = 118240, slot = L['1h_sword']})}
 }) -- Gift of Anzu
 
 -------------------------------------------------------------------------------
@@ -732,7 +788,7 @@ map.nodes[46404520] = PetBattle({
 -------------------------------- I FOUND PEPE! --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[54108360] = Collectible({
+map.nodes[54128361] = Collectible({
     label = L['pirate_pepe_treasure'],
     note = L['pirate_pepe_note'],
     icon = 1044996,
@@ -827,9 +883,19 @@ map.nodes[60901122] = Voidtalon
 ---------------------------------- FOLLOWERS ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[55306850] = Collectible({
+map.nodes[54206295] = Collectible({
     id = 87561,
     icon = 136042,
     note = L['in_cave'] .. ' ' .. L['leorajh_follower_note'],
-    rewards = {Follower({id = 219, icon = 136042})}
+    rewards = {Follower({id = 219, icon = 136042})},
+    pois = {POI({54966513})}
 }) -- Leorajh
+
+-------------------------------------------------------------------------------
+---------------------------------- SQUIRRELS ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[50502940] = ns.node.Squirrel({
+    id = 83674,
+    rewards = {Achievement({id = 14728, criteria = 14})} -- To All the Squirrels Through Time and Space
+}) -- Mud Jumper
