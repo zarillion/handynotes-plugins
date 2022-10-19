@@ -344,6 +344,7 @@ L['admiral_taylors_coffer_treasure'] = '海军上将泰勒的保险箱'
 L['assassins_spear_treasure'] = '刺客的长矛'
 L['campaign_contributions_treasure'] = '战争捐赠物资'
 L['coinbenders_payment_treasure'] = '折币的报酬'
+L['coinbenders_payment_treasure_note'] = nil
 L['egg_of_varasha_treasure'] = '瓦拉沙的蛋'
 L['ephials_dark_grimoire_treasure'] = '厄菲阿尔的黑暗魔典'
 L['fractured_sunstone_note'] = '隐藏在水下。'
@@ -372,6 +373,8 @@ L['spray_o_matic_5000_xt_treasure'] = '自动喷洒机5000XT型'
 L['sun_touched_cache_treasure'] = '烈日宝箱'
 L['toxicfang_venom_treasure'] = '毒牙毒液'
 L['waterlogged_satchel_treasure'] = '浸水的背包'
+L['nizzixs_chest_treasure'] = nil
+L['nizzixs_chest_treasure_note'] = nil
 
 L['misplaced_scroll_treasure'] = '遗失的卷轴'
 L['relics_of_the_outcasts_treasure'] = '流亡者圣物'

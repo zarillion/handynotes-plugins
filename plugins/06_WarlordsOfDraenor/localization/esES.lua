@@ -345,6 +345,7 @@ L['admiral_taylors_coffer_treasure'] = 'Arca del Almirante Taylor'
 L['assassins_spear_treasure'] = 'Lanza de Asesino'
 L['campaign_contributions_treasure'] = 'Aportaciones de la Campaña'
 L['coinbenders_payment_treasure'] = 'Pago de Doblamonedas'
+L['coinbenders_payment_treasure_note'] = nil
 L['egg_of_varasha_treasure'] = 'Huevo de Varasha'
 L['ephials_dark_grimoire_treasure'] = 'Grimorio Oscuro de Ephial'
 L['fractured_sunstone_note'] = 'Escondida en el agua.'
@@ -373,6 +374,8 @@ L['spray_o_matic_5000_xt_treasure'] = 'Rociador 5000 XT'
 L['sun_touched_cache_treasure'] = 'Alijo Tocado por el Sol'
 L['toxicfang_venom_treasure'] = 'Veneno de Colmillo Tóxico'
 L['waterlogged_satchel_treasure'] = 'Bolsa Encharcada'
+L['nizzixs_chest_treasure'] = nil
+L['nizzixs_chest_treasure_note'] = nil
 
 L['misplaced_scroll_treasure'] = 'Pergamino Extraviado'
 L['relics_of_the_outcasts_treasure'] = 'Reliquias de los Desterrados'
