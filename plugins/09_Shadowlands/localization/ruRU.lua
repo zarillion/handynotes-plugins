@@ -14,9 +14,9 @@ L['anima_channeled'] = 'анима направленая на %s.'
 --------------------------------- SHADOWLANDS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['squirrels_note'] = nil
+L['squirrels_note'] = 'Вы должны использовать эмоцию /любовь на зверьках, а не на боевых питомцах.'
 L['options_icons_squirrels'] = '{achievement:14731}'
-L['options_icons_squirrels_desc'] = nil
+L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:14731}'
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -103,15 +103,15 @@ L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = 'Показать местонахождение потерянных книг для достижения {achievement:14788}.'
 
 L['options_icons_wild_hunting'] = '{achievement:14779}'
-L['options_icons_wild_hunting_desc'] = nil
+L['options_icons_wild_hunting_desc'] = 'Животные в Арденвельде для {achievement:14779}'
 
-L['options_icons_wildseed_spirits'] = nil
-L['options_icons_wildseed_spirits_desc'] = nil
+L['options_icons_wildseed_spirits'] = 'Духи из семян'
+L['options_icons_wildseed_spirits_desc'] = 'Награды от духов из семян'
 
-L['divine_martial_spirit'] = nil
-L['divine_dutiful_spirit'] = nil
-L['divine_prideful_spirit'] = nil
-L['divine_untamed_spirit'] = nil
+L['divine_martial_spirit'] = 'Божественный воинственный дух'
+L['divine_dutiful_spirit'] = 'Божественный дух служения'
+L['divine_prideful_spirit'] = 'Божественный дух гордыни'
+L['divine_untamed_spirit'] = 'Божественный неукрощенный дух'
 
 L['martial_spirit_label'] = '{item:178874}'
 L['dutiful_spirit_label'] = '{item:178881}'
@@ -123,9 +123,27 @@ L['1x_wildseed_root_grain'] = '1x {item:176832}'
 L['2x_wildseed_root_grain'] = '2x or 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
-L['soulshape_cat_note'] = nil
-L['soulshape_corgi_note'] = nil
-L['soulshape_well_fed_cat_note'] = nil
+L['soulshape_cat_note'] = [[
+Возьмите в цель {npc:181694} и используйте эмоцию /утешить
+Может появиться в центре вершины 6 Великих Деревьев вокруг |cFFFFFF00Арденвельда|r:
+• |cFFFFFF00Роща Песни Сна|r
+• |cFFFFFF00Низина Мерцающих Каскадов|r
+• |cFFFFFF00Тирна Ваал|r
+• |cFFFFFF00Спящая лощина|r
+• |cFFFFFF00Сердцевинная роща|r
+• |cFFFFFF00Урочищий Коготь|r
+]]
+L['soulshape_corgi_note'] = [[
+Target {npc:174608} and /pet
+A Corgi option will immediately become available when talking with {npc:181582}
+]]
+L['soulshape_well_fed_cat_note'] = [[
+1. Collect {item:187811} from |cffffff00Darkhaven|r
+2. Target {npc:182093} and /meow
+3. |cFFFF8C00Ma'oh meows at you hungrily.|r
+4. Target {npc:182093} and use {item:187811}
+A Cat Soul (Well Fed) option will immediately become available when talking with {npc:181582}
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
