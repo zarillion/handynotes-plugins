@@ -134,15 +134,15 @@ L['soulshape_cat_note'] = [[
 • |cFFFFFF00Урочищий Коготь|r
 ]]
 L['soulshape_corgi_note'] = [[
-Target {npc:174608} and /pet
-A Corgi option will immediately become available when talking with {npc:181582}
+Возьмите в цель {npc:174608} и используйте эмоцию /погладить
+Затем сразу после разговора с корги идите к {npc:181582}
 ]]
 L['soulshape_well_fed_cat_note'] = [[
-1. Collect {item:187811} from |cffffff00Darkhaven|r
-2. Target {npc:182093} and /meow
-3. |cFFFF8C00Ma'oh meows at you hungrily.|r
-4. Target {npc:182093} and use {item:187811}
-A Cat Soul (Well Fed) option will immediately become available when talking with {npc:181582}
+1. Заберите {item:187811} в |cffffff00Темном Приюте|r
+2. Возьмите в цель {npc:182093} и используйте эмоцию /мау
+3. |cFFFF8C00Ма'о жадно мяукает на тебя.|r
+4. Возьмите в цель {npc:182093} и используйте {item:187811}
+При разговоре с {npc:181582} сразу станет доступна опция Душа кошки (Сытой).
 ]]
 
 -------------------------------------------------------------------------------
