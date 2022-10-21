@@ -1053,55 +1053,55 @@ local SteamwheedleRare = Class('SteamwheedleRare', Rare,
 map.nodes[62601680] = SteamwheedleRare({
     id = 86732,
     quest = 37211,
-    rewards = {Item({item = 118655, quest = 37211})}
+    rewards = {Item({item = 118655})}
 }) -- Bergruu
 
 map.nodes[64203040] = SteamwheedleRare({
     id = 86743,
     quest = 37221,
-    rewards = {Item({item = 118656, quest = 37221})}
+    rewards = {Item({item = 118656})}
 }) -- Dekorhan
 
 map.nodes[60802780] = SteamwheedleRare({
     id = 86750,
     quest = 37225,
-    rewards = {Item({item = 118660, quest = 37225})}
+    rewards = {Item({item = 118660})}
 }) -- Thek'talon
 
 map.nodes[48152204] = SteamwheedleRare({
     id = 86771,
     quest = 37223,
-    rewards = {Item({item = 118658, quest = 37223})}
+    rewards = {Item({item = 118658})}
 }) -- Gagrog the Brutal
 
 map.nodes[41544466] = SteamwheedleRare({
     id = 86835,
     quest = 37226,
-    rewards = {Item({item = 118661, quest = 37226})}
+    rewards = {Item({item = 118661})}
 }) -- Xelganak
 
 map.nodes[51001600] = SteamwheedleRare({
     id = 86774,
     quest = 37210,
-    rewards = {Item({item = 118654, quest = 37210})}
+    rewards = {Item({item = 118654})}
 }) -- Aogexon
 
 map.nodes[60243866] = SteamwheedleRare({
     id = 86729,
     quest = 37222,
-    rewards = {Item({item = 118657, quest = 37222})}
+    rewards = {Item({item = 118657})}
 }) -- Direhoof
 
 map.nodes[34055148] = SteamwheedleRare({
     id = 87666,
     quest = 37224,
-    rewards = {Item({item = 118659, quest = 37224})}
+    rewards = {Item({item = 118659})}
 }) -- Mu'gra
 
 map.nodes[37233899] = SteamwheedleRare({
     id = 88951,
     quest = 37520,
-    rewards = {Item({item = 120172, quest = 37520})}
+    rewards = {Item({item = 120172})}
 }) -- Vileclaw
 
 -------------------------------------------------------------------------------
