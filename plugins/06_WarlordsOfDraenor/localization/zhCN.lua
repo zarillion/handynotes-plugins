@@ -16,12 +16,12 @@ L['multiple_spawn_note'] = '在多个位置刷新。'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = '显示 {achievement:10053} 成就中服装的位置。'
 
-L['squirrels_note'] = nil
+L['squirrels_note'] = '使用 /love 给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:14728}'
-L['options_icons_squirrels_desc'] = nil
+L['options_icons_squirrels_desc'] = '显示 {achievement:14728} 成就中小动物的位置。'
 
-L['options_icons_GarrFollower'] = nil
-L['options_icons_GarrFollower_desc'] = nil
+L['options_icons_GarrFollower'] = '要塞追随者'
+L['options_icons_GarrFollower_desc'] = '显示要塞追随者的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------------ ASHRAN -----------------------------------
@@ -51,10 +51,10 @@ L['gorrthoggs_personal_reserve_treasure'] = '戈尔索格的私人金库'
 L['grimfrost_treasure_treasure'] = '肃霜宝箱'
 L['iron_horde_munitions_treasure'] = '钢铁部落军需品'
 L['iron_horde_supplies_treasure'] = '钢铁部落补给品'
-L['lady_senas_materials_stash_treasure'] = nil
+L['lady_senas_materials_stash_treasure'] = '塞娜小姐的物资'
 L['lady_senas_other_materials_stash_treasure'] = '塞娜小姐的备用物资'
 L['lagoon_pool_treasure'] = '环礁池塘'
-L['lagoon_pool_treasure_note'] = nil
+L['lagoon_pool_treasure_note'] = '在环礁池塘内钓鱼。'
 L['lucky_coin_treasure'] = '幸运硬币'
 L['obsidian_petroglyph_treasure'] = '黑曜石岩画'
 L['ogre_booty_treasure'] = '食人魔战利品'
@@ -68,16 +68,16 @@ L['supply_dump_treasure'] = '遗弃的补给品'
 L['survivalists_cache_treasure'] = '生存专家的宝箱'
 L['thunderlord_cache_treasure'] = '雷神储备点'
 L['time_warped_tower_treasure'] = '时光扭曲之塔'
-L['time_warped_tower_note'] = nil
+L['time_warped_tower_note'] = '拾取塔内的食人魔。'
 L['wiggling_egg_treasure'] = '震动的蛋'
-L['young_orc_traveler_note'] = '结合 {item:107272}'
+L['young_orc_traveler_note'] = '组合 {item:107272}'
 L['young_orc_traveler_treasure'] = '年轻的兽人旅行者'
-L['young_orc_woman_note'] = '结合 {item:107273}'
+L['young_orc_woman_note'] = '组合 {item:107273}'
 L['young_orc_woman_treasure'] = '年轻的女兽人'
-L['smoldering_true_iron_deposit_treasure'] = nil
-L['up_some_crates_note'] = nil
-L['wiggling_egg_note'] = nil
-L['cragmaul_cache_note'] = nil
+L['smoldering_true_iron_deposit_treasure'] = '阴燃的真铁矿脉'
+L['up_some_crates_note'] = '一些板条箱上。'
+L['wiggling_egg_note'] = '在建筑物的顶部巢上。'
+L['cragmaul_cache_note'] = '楼梯下。'
 
 L['prisoner_cage_label'] = '囚笼'
 L['slaves_freed'] = '解救奴隶'
@@ -93,8 +93,8 @@ L['delectable_ogre_delicacies_note'] = [[
 
 L['weaponsmith_na_shra_follower_note'] = '完成 {quest:33838} 后招募她为追随者。'
 L['dagg_follower_note'] = '将 {npc:79607} 从他的第一个笼子中救出，然后再次将他从第二个笼子中救出。在要塞外找到他以招募他为追随者。'
-L['shadow_hunter_rala_follower_note'] = nil
-L['gronnstalker_rokash_follower_note'] = nil
+L['shadow_hunter_rala_follower_note'] = '完成 {quest:34348} 后招募他为追随者。'
+L['gronnstalker_rokash_follower_note'] = '完成 {quest:32981} 后招募他为追随者。'
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = '显示 {achievement:9531} 成就中 |cffffff00散落的日志书页|r 的位置。'
@@ -165,9 +165,9 @@ L['options_icons_prove_your_strength_desc'] = '显示 {achievement:9402} 成就�
 
 L['fangler_note'] = '使用钓鱼竿。'
 L['berserk_t_300_series_mark_ii_note'] = '使用开关。'
-L['graveltooth_note'] = nil
-L['gorepetal_note'] = nil
-L['sean_whitesea_note'] = nil
+L['graveltooth_note'] = '击杀 {npc:84255} 直到 {npc:84263} 刷新。'
+L['gorepetal_note'] = '洞穴内。\n\n不在迷你地图上显示。点击原始百合来刷新 {npc:83509}。'
+L['sean_whitesea_note'] = '打开被遗弃的箱子后 {npc:83542} 出现。'
 
 L['a_pile_of_dirt_treasure'] = '一堆泥土'
 L['abandoned_cargo_treasure'] = '被遗弃的货箱'
@@ -179,7 +179,7 @@ L['adventurers_staff_treasure'] = '冒险者的法杖'
 L['appropriated_warsong_supplies_treasure'] = '偷来的战歌补给品'
 L['bag_of_herbs_treasure'] = '一袋草药'
 L['bone_carved_dagger_treasure'] = '骨质匕首'
-L['bounty_of_the_elements_note'] = nil
+L['bounty_of_the_elements_note'] = '按以下顺序点击图腾：\n 1. {npc:84307}\n 2. {npc:84343}\n 3. {npc:84345}\n 4. {npc:84347}'
 L['bounty_of_the_elements_treasure'] = '元素的宝藏'
 L['brilliant_dreampetal_treasure'] = '闪亮的梦境花瓣'
 L['elemental_offering_treasure'] = '元素祭品'
@@ -217,9 +217,9 @@ L['warsong_spear_treasure'] = '战歌长矛'
 L['warsong_spoils_treasure'] = '战歌战利品'
 L['warsong_supplies_treasure'] = '战歌补给品'
 L['watertight_bag_treasure'] = '防水袋'
-L['spirit_coffer_treasure'] = nil
-L['spirits_gift_treasure'] = nil
-L['spirits_gift_treasure_note'] = nil
+L['spirit_coffer_treasure'] = '幽灵宝箱'
+L['spirits_gift_treasure'] = '幽灵的礼物'
+L['spirits_gift_treasure_note'] = '点燃所有6个被遗忘的火盆后宝藏出现。'
 
 L['viking_pepe_note'] = '地精和迪斯科球身后的板条箱上。'
 L['viking_pepe_treasure'] = '维京佩佩'
@@ -344,7 +344,7 @@ L['admiral_taylors_coffer_treasure'] = '海军上将泰勒的保险箱'
 L['assassins_spear_treasure'] = '刺客的长矛'
 L['campaign_contributions_treasure'] = '战争捐赠物资'
 L['coinbenders_payment_treasure'] = '折币的报酬'
-L['coinbenders_payment_treasure_note'] = nil
+L['coinbenders_payment_treasure_note'] = '在海底。'
 L['egg_of_varasha_treasure'] = '瓦拉沙的蛋'
 L['ephials_dark_grimoire_treasure'] = '厄菲阿尔的黑暗魔典'
 L['fractured_sunstone_note'] = '隐藏在水下。'
@@ -373,8 +373,8 @@ L['spray_o_matic_5000_xt_treasure'] = '自动喷洒机5000XT型'
 L['sun_touched_cache_treasure'] = '烈日宝箱'
 L['toxicfang_venom_treasure'] = '毒牙毒液'
 L['waterlogged_satchel_treasure'] = '浸水的背包'
-L['nizzixs_chest_treasure'] = nil
-L['nizzixs_chest_treasure_note'] = nil
+L['nizzixs_chest_treasure'] = '尼兹克西的宝箱'
+L['nizzixs_chest_treasure_note'] = '单击漂浮在水中附近的逃生舱。'
 
 L['misplaced_scroll_treasure'] = '遗失的卷轴'
 L['relics_of_the_outcasts_treasure'] = '流亡者圣物'
@@ -441,7 +441,7 @@ L['orumo_the_observer_note'] = [[
 ]]
 
 L['aarkos_family_treasure_treasure'] = '阿尔克的传家宝'
-L['aarkos_family_treasure_treasure_note'] = nil
+L['aarkos_family_treasure_treasure_note'] = '和 {npc:77664} 交谈后敌人会出现。击杀 {npc:77677} 之后宝箱会出现。'
 L['amethyl_crystal_treasure'] = '艾米瑟尔水晶'
 L['aruuna_mining_cart_treasure'] = '阿鲁纳矿车'
 L['barrel_of_fish_treasure'] = '一桶鱼'
@@ -471,14 +471,14 @@ L['relic_of_aruuna_treasure'] = '阿鲁纳遗物'
 L['relic_of_telmor_treasure'] = '泰尔莫遗物'
 L['rooks_tacklebox_treasure'] = '鲁克的工具盒'
 L['rusted_lockbox_treasure'] = '生锈宝箱'
-L['rusted_lockbox_treasure_note'] = nil
+L['rusted_lockbox_treasure_note'] = '洞穴内。\n 沉入在水里。'
 L['soulbinders_reliquary_treasure'] = '缚魂者的圣物箱'
 L['teroclaw_nest_treasure'] = '恐爪鸟巢穴'
 L['treasure_of_angorosh_treasure'] = '安葛洛什宝藏'
 L['webbed_sac_treasure'] = '结网的囊袋'
 L['yuuris_gift_treasure'] = '尤里的礼物'
-L['gift_of_the_ancients_treasure'] = nil
-L['gift_of_the_ancients_treasure_note'] = nil
+L['gift_of_the_ancients_treasure'] = '古树的礼物'
+L['gift_of_the_ancients_treasure_note'] = '洞穴内。\n\n转动雕像，使所有三个都背对中心。'
 
 L['knight_pepe_treasure'] = '骑士佩佩'
 L['knight_pepe_note'] = '帐篷里坐在箱子上。'
