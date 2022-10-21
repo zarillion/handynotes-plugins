@@ -1117,7 +1117,7 @@ local BrokeBackPrecipiceRare = Class('BrokeBackPrecipiceRare', Collectible {
 map.nodes[38001960] = BrokeBackPrecipiceRare({
     id = 87846,
     rewards = {
-        Achievement({id = 9571, criteria = nil}),
+        Achievement({id = 9571, criteria = 26320}),
         Item({item = 119389, note = L['ring']})
     }
 }) -- Pit Slayer
@@ -1125,7 +1125,7 @@ map.nodes[38001960] = BrokeBackPrecipiceRare({
 map.nodes[38602240] = BrokeBackPrecipiceRare({
     id = 87788,
     rewards = {
-        Achievement({id = 9571, criteria = nil}),
+        Achievement({id = 9571, criteria = 26318}),
         Transmog({item = 119405, slot = L['2h_mace']})
     }
 }) -- Durg Spinecrusher
@@ -1133,7 +1133,7 @@ map.nodes[38602240] = BrokeBackPrecipiceRare({
 map.nodes[39581321] = BrokeBackPrecipiceRare({
     id = 87837,
     rewards = {
-        Achievement({id = 9571, criteria = nil}),
+        Achievement({id = 9571, criteria = 26319}),
         Transmog({item = 119370, slot = L['mail']})
     }
 }) -- Bonebreaker
