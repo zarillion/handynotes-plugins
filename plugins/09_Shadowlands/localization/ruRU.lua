@@ -1,7 +1,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('ruRU')
 if not L then return end
--- Russian translation by Hubbotu
+-- Russian translation by ZamestoTV
 
 -------------------------------------------------------------------------------
 ---------------------------------- COVENANTS ----------------------------------
@@ -463,30 +463,30 @@ L['maximillian_note'] = 'Я десятки лет ждал достойного 
 L['rotgut_note'] = 'Гнилобрюх. Остатки. Дополнительные части. Ты сражаешься.'
 
 L['ashen_ink_label'] = '{item:183690}'
-L['ashen_ink_note'] = nil
+L['ashen_ink_note'] = 'Случайная добыча из {npc:157125}'
 
 L['jagged_bonesaw_label'] = '{item:183692}'
-L['jagged_bonesaw_note'] = nil
+L['jagged_bonesaw_note'] = 'Случайная добыча из {npc:159105}'
 
 L['discarded_grimoire_label'] = '{item:183394}'
-L['discarded_grimoire_note'] = nil
+L['discarded_grimoire_note'] = 'Выполните {quest:62297} у {npc:174020}'
 
 L['sorcerers_blade_label'] = '{item:183397}'
-L['sorcerers_blade_note'] = nil
+L['sorcerers_blade_note'] = 'Выполните {quest:62317} у |cFFFFFF00Записки чародея|r внутри |cFFFFFF00Хранилище душ|r. Вниз по лестнице и налево на книжном шкафу.'
 
 L['mucosal_pigment_label'] = '{item:183691}'
-L['mucosal_pigment_note'] = nil
+L['mucosal_pigment_note'] = 'Выпадает из любой слизи вокруг |cFFFFFF00Дома чумы|r или в окрестностях {npc:162727}'
 
 L['amethystine_dye_label'] = '{item:183401}'
-L['amethystine_dye_note'] = nil
+L['amethystine_dye_note'] = 'Выполните {quest:62320} у {npc:174120}'
 
 L['ritualists_mantle_label'] = '{item:183399}'
-L['ritualists_mantle_note'] = nil
+L['ritualists_mantle_note'] = 'Выполните {quest:62308} у {npc:172813}. Требуется 3 игрока, чтобы вызвать {npc:174127}.'
 
 L['options_icons_crypt_couture'] = '{achievement:14763}'
-L['options_icons_crypt_couture_desc'] = nil
+L['options_icons_crypt_couture_desc'] = 'Некроаколит маскирует вас в этой местности для {achievement:14763}'
 
-L['soulshape_saurid_note'] = nil
+L['soulshape_saurid_note'] = 'В небольшой пещере. Возьмите в цель {npc:182105} и используйте эмоцию /поклон'
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
