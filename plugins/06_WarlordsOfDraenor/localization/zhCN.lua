@@ -286,7 +286,7 @@ L['options_icons_making_the_cut_desc'] = '显示 {achievement:9617} 成就中 |c
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
-L['voidseer_kalurg_note'] = nil
+L['voidseer_kalurg_note'] = '击杀全部 {npc:78135}。'
 
 L['alchemists_satchel_treasure'] = '炼金师的包裹'
 L['ancestral_greataxe_treasure'] = '先祖巨斧'
@@ -545,7 +545,7 @@ L['xemirkol_note'] = [[
 
 {npc:96235} 有很长的重生计时器（大约一天），最好的方法是在服务器重启后或使用跨服务器。
 ]]
-L['cindral_note'] = nil
+L['cindral_note'] = '建筑物内。\n击杀全部 {npc:90522} 后 {npc:90519} 出现。'
 
 L['axe_of_the_weeping_wolf_treasure'] = '哀狼之斧'
 L['bejeweled_egg_treasure'] = '珠玉彩蛋'
