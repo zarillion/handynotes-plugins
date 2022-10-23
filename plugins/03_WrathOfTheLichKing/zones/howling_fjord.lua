@@ -51,7 +51,7 @@ map.nodes[52506660] = Squirrel({
 
 map.nodes[33787837] = Squirrel({
     id = 1420,
-    label = L['in_cave'],
+    note = L['in_cave'],
     rewards = {Achievement({id = 1206, criteria = 20})},
     pois = {POI({33577564})}
 }) -- Sheep
