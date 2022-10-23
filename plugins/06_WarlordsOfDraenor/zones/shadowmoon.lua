@@ -607,7 +607,16 @@ map.nodes[42096123] = Treasure({
 local peaceful_offering_treasure = Class('peaceful_offering_treasure', Treasure,
     {
         label = L['peaceful_offering_treasure'],
-        rewards = {wod_treasures, Item({item = 107650})}
+        rewards = {
+            Achievement({
+                id = 9728,
+                criteria = {
+                    id = 1,
+                    qty = true,
+                    suffix = L['treasures_discovered']
+                }
+            }), Item({item = 107650})
+        }
     }) -- Peaceful Offering
 map.nodes[44495914] = peaceful_offering_treasure({quest = 33612})
 map.nodes[45216049] = peaceful_offering_treasure({quest = 33610})
