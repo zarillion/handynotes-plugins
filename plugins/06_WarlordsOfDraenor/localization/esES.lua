@@ -287,6 +287,8 @@ L['options_icons_making_the_cut_desc'] = 'Muestra dónde están los |cffffff00Es
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
+L['voidseer_kalurg_note'] = nil
+
 L['alchemists_satchel_treasure'] = 'Bolsa de Alquimista'
 L['ancestral_greataxe_treasure'] = 'Gran Hacha ancestral'
 L['armored_elekk_tusk_treasure'] = 'Colmillo de Elekk Acorazado'
@@ -544,6 +546,7 @@ Los cristales te teleportan a un raro aleatorio cercano, así que lo mejor es ma
 
 {npc:96235} tiene un contador de reapación largo (alrededor de 1 día) y la mejor forma de conseguirlo es tras el reinicio de servidores o saltando de reino.
 ]]
+L['cindral_note'] = nil
 
 L['axe_of_the_weeping_wolf_treasure'] = 'Hacha del Lobo Sollozante'
 L['bejeweled_egg_treasure'] = 'Huevo con Joyas'

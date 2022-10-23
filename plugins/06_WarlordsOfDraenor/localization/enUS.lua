@@ -286,6 +286,8 @@ L['options_icons_making_the_cut_desc'] = 'Display |cffffff00Bloodring Slaver|r l
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
+L['voidseer_kalurg_note'] = 'Kill all {npc:78135}.'
+
 L['alchemists_satchel_treasure'] = 'Alchemist\'s Satchel'
 L['ancestral_greataxe_treasure'] = 'Ancestral Greataxe'
 L['armored_elekk_tusk_treasure'] = 'Armored Elekk Tusk'
@@ -543,6 +545,7 @@ Crystals teleport you to random rare in vicinity, so best chance is to kill {npc
 
 {npc:96235} has long respawn timer (around a day) and best way to get it is after realm restart or by using server jump.
 ]]
+L['cindral_note'] = 'Inside the Building.\nKill all {npc:90522} to make {npc:90519} appear.'
 
 L['axe_of_the_weeping_wolf_treasure'] = 'Axe of the Weeping Wolf'
 L['bejeweled_egg_treasure'] = 'Bejeweled Egg'
