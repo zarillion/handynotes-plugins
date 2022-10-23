@@ -1,7 +1,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('ruRU')
 if not L then return end
--- Russian translation by ZamestoTV
+-- Russian translation by Hubbotu
 
 -------------------------------------------------------------------------------
 ---------------------------------- COVENANTS ----------------------------------
@@ -14,9 +14,9 @@ L['anima_channeled'] = 'анима направленая на %s.'
 --------------------------------- SHADOWLANDS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['squirrels_note'] = 'Вы должны использовать эмоцию /любовь на зверьках, а не на боевых питомцах.'
+L['squirrels_note'] = nil
 L['options_icons_squirrels'] = '{achievement:14731}'
-L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:14731}'
+L['options_icons_squirrels_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -103,15 +103,15 @@ L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = 'Показать местонахождение потерянных книг для достижения {achievement:14788}.'
 
 L['options_icons_wild_hunting'] = '{achievement:14779}'
-L['options_icons_wild_hunting_desc'] = 'Животные в Арденвельде для {achievement:14779}'
+L['options_icons_wild_hunting_desc'] = nil
 
-L['options_icons_wildseed_spirits'] = 'Духи из семян'
-L['options_icons_wildseed_spirits_desc'] = 'Награды от духов из семян'
+L['options_icons_wildseed_spirits'] = nil
+L['options_icons_wildseed_spirits_desc'] = nil
 
-L['divine_martial_spirit'] = 'Божественный воинственный дух'
-L['divine_dutiful_spirit'] = 'Божественный дух служения'
-L['divine_prideful_spirit'] = 'Божественный дух гордыни'
-L['divine_untamed_spirit'] = 'Божественный неукрощенный дух'
+L['divine_martial_spirit'] = nil
+L['divine_dutiful_spirit'] = nil
+L['divine_prideful_spirit'] = nil
+L['divine_untamed_spirit'] = nil
 
 L['martial_spirit_label'] = '{item:178874}'
 L['dutiful_spirit_label'] = '{item:178881}'
@@ -123,27 +123,9 @@ L['1x_wildseed_root_grain'] = '1x {item:176832}'
 L['2x_wildseed_root_grain'] = '2x or 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
-L['soulshape_cat_note'] = [[
-Возьмите в цель {npc:181694} и используйте эмоцию /утешить
-Может появиться в центре вершины 6 Великих Деревьев вокруг |cFFFFFF00Арденвельда|r:
-• |cFFFFFF00Роща Песни Сна|r
-• |cFFFFFF00Низина Мерцающих Каскадов|r
-• |cFFFFFF00Тирна Ваал|r
-• |cFFFFFF00Спящая лощина|r
-• |cFFFFFF00Сердцевинная роща|r
-• |cFFFFFF00Урочищий Коготь|r
-]]
-L['soulshape_corgi_note'] = [[
-Возьмите в цель {npc:174608} и используйте эмоцию /погладить
-Затем сразу после разговора с корги идите к {npc:181582}
-]]
-L['soulshape_well_fed_cat_note'] = [[
-1. Заберите {item:187811} в |cffffff00Темном Приюте|r
-2. Возьмите в цель {npc:182093} и используйте эмоцию /мау
-3. |cFFFF8C00Ма'о жадно мяукает на тебя.|r
-4. Возьмите в цель {npc:182093} и используйте {item:187811}
-При разговоре с {npc:181582} сразу станет доступна опция Душа кошки (Сытой).
-]]
+L['soulshape_cat_note'] = nil
+L['soulshape_corgi_note'] = nil
+L['soulshape_well_fed_cat_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- BASTION -----------------------------------
@@ -285,7 +267,7 @@ L['stratios_note'] = 'Даже самые маленькие битвы нужн
 L['thenia_note'] = 'Вот такие великолепные открытые равнины. Славное место для битв. Вы готовы?'
 L['zolla_note'] = 'Мы очень серьезно относимся к нашей защите. Независимо от того, малые они или большие, мы полностью привержены поддержанию и обучению ресурсов, которые делают Бастион сильным.'
 
-L['soulshape_otter_soul'] = 'Возьмите в цель {npc:181682} и используйте эмоцию /обнять'
+L['soulshape_otter_soul'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- KORTHIA -----------------------------------
@@ -463,30 +445,30 @@ L['maximillian_note'] = 'Я десятки лет ждал достойного 
 L['rotgut_note'] = 'Гнилобрюх. Остатки. Дополнительные части. Ты сражаешься.'
 
 L['ashen_ink_label'] = '{item:183690}'
-L['ashen_ink_note'] = 'Случайная добыча из {npc:157125}'
+L['ashen_ink_note'] = nil
 
 L['jagged_bonesaw_label'] = '{item:183692}'
-L['jagged_bonesaw_note'] = 'Случайная добыча из {npc:159105}'
+L['jagged_bonesaw_note'] = nil
 
 L['discarded_grimoire_label'] = '{item:183394}'
-L['discarded_grimoire_note'] = 'Выполните {quest:62297} у {npc:174020}'
+L['discarded_grimoire_note'] = nil
 
 L['sorcerers_blade_label'] = '{item:183397}'
-L['sorcerers_blade_note'] = 'Выполните {quest:62317} у |cFFFFFF00Записки чародея|r внутри |cFFFFFF00Хранилище душ|r. Вниз по лестнице и налево на книжном шкафу.'
+L['sorcerers_blade_note'] = nil
 
 L['mucosal_pigment_label'] = '{item:183691}'
-L['mucosal_pigment_note'] = 'Выпадает из любой слизи вокруг |cFFFFFF00Дома чумы|r или в окрестностях {npc:162727}'
+L['mucosal_pigment_note'] = nil
 
 L['amethystine_dye_label'] = '{item:183401}'
-L['amethystine_dye_note'] = 'Выполните {quest:62320} у {npc:174120}'
+L['amethystine_dye_note'] = nil
 
 L['ritualists_mantle_label'] = '{item:183399}'
-L['ritualists_mantle_note'] = 'Выполните {quest:62308} у {npc:172813}. Требуется 3 игрока, чтобы вызвать {npc:174127}.'
+L['ritualists_mantle_note'] = nil
 
 L['options_icons_crypt_couture'] = '{achievement:14763}'
-L['options_icons_crypt_couture_desc'] = 'Некроаколит маскирует вас в этой местности для {achievement:14763}'
+L['options_icons_crypt_couture_desc'] = nil
 
-L['soulshape_saurid_note'] = 'В небольшой пещере. Возьмите в цель {npc:182105} и используйте эмоцию /поклон'
+L['soulshape_saurid_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -1038,11 +1020,11 @@ L['patient_bufonid_note_day7'] = 'Купите 1x {item:187171} у {npc:180114} 
 L['lost_comb'] = 'Потерянные соты'
 L['soulshape_penguin_note'] = 'Расположены на вершине летающей кузницы.'
 
-L['coreless_automa'] = 'звери автомы'
-L['coreless_automa_note'] = 'Экипировка с {spell:364480} даст |cFFFFFD00Покопоку|r возможность захватывать существ без расхода энергии и ускорит получение этого достижения.'
-L['coreless_automa_warning'] = '|cFFFF8C00Подождите, пока автомата действительно начнет следовать за вами, прежде чем отозвать Покопока, чтобы избежать ошибки, требующей повторного входа в игру.|r'
+L['coreless_automa'] = nil
+L['coreless_automa_note'] = 'Equiping an item with {spell:364480} will grant |cFFFFFD00Pocopoc|r the ability to take over creatures without consuming energy and will make earning this achievement faster.'
+L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start following you before telling Pocopoc to leave to avoid causing a bug that requires you to relog.|r'
 
-L['olea_manu'] = 'Продает предметы коллекционирования и рецепты в обмен на {currency:1979}.'
+L['olea_manu'] = nil
 
 L['venaris_fate_sublabel'] = nil
 L['venaris_fate_note'] = nil
