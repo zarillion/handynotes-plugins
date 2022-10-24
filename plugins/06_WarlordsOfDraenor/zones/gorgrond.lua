@@ -20,6 +20,7 @@ local Pet = ns.reward.Pet
 local Quest = ns.reward.Quest
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Currency = ns.reward.Currency
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -352,12 +353,13 @@ map.nodes[53604460] = Rare({
     }
 }) -- Char the Burning
 
-map.nodes[52207020] = Rare({
+map.nodes[52417014] = Rare({
     id = 83522,
     quest = 35908,
     rewards = {
         Transmog({item = 118209, slot = L['1h_axe']}) -- Skrikka's Mandible
-    }
+    },
+    Currency({id = 824})
 }) -- Hive Queen Skrikka
 
 map.nodes[50605320] = Rare({
@@ -542,7 +544,7 @@ map.nodes[48109340] = Treasure({
     }
 }) -- Stashed Emergency Rucksack
 
-map.nodes[53008000] = Treasure({
+map.nodes[52977995] = Treasure({
     quest = 34940,
     label = L['strange_looking_dagger_treasure'],
     note = L['in_cave'],
@@ -613,7 +615,7 @@ map.nodes[59506370] = Treasure({
     }
 }) -- Vindicator's Hammer
 
-map.nodes[57805600] = Treasure({
+map.nodes[57845596] = Treasure({
     quest = 36605,
     label = L['remains_if_balldir_deeprock_treasure'],
     rewards = {
@@ -622,7 +624,7 @@ map.nodes[57805600] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        })
+        }), Item({item = 118703})
     }
 }) -- Remains of Balldir Deeprock
 
@@ -1111,3 +1113,17 @@ map.nodes[42559100] = Collectible({
     note = L['blook_follower_note'],
     rewards = {Follower({id = 189, icon = 132347})}
 }) -- Blook
+
+-------------------------------------------------------------------------------
+---------------------------------- SQUIRRELS ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[43675520] = ns.node.Squirrel({
+    id = 88639,
+    rewards = {Achievement({id = 14728, criteria = 11})}
+}) -- Parched Lizard
+
+map.nodes[62815481] = ns.node.Squirrel({
+    id = 88427,
+    rewards = {Achievement({id = 14728, criteria = 10})}
+}) -- Parched Lizard

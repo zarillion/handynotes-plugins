@@ -287,6 +287,8 @@ L['options_icons_making_the_cut_desc'] = 'Zeigt die Position von |cffffff00Blutr
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
+L['voidseer_kalurg_note'] = 'Töte alle {npc:78135}.'
+
 L['alchemists_satchel_treasure'] = 'Alchemistenbeutel'
 L['ancestral_greataxe_treasure'] = 'Großaxt der Ahnen'
 L['armored_elekk_tusk_treasure'] = 'Gepanzerter Elekkstoßzahn'
@@ -544,6 +546,7 @@ Die Kristalle teleportieren dich zu einem zufälligen seltenen Gegner in der Nä
 
 {npc:96235} hat einen langen Respawn (etwa einen Tag) und der beste Weg, ihn zu bekommen, ist nach einem Realm neustart oder durch Serverhopping.
 ]]
+L['cindral_note'] = 'Im Gebäude.\nTöte alle {npc:90522} damit {npc:90519} erscheint.'
 
 L['axe_of_the_weeping_wolf_treasure'] = 'Axt des wimmernden Wolfs'
 L['bejeweled_egg_treasure'] = 'Juwelenbesetztes Ei'

@@ -17,12 +17,12 @@ L['multiple_spawn_note'] = 'Peut apparaître à plusieurs endroits.'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = 'Affiche les emplacements des costumes pour {achievement:10053}'
 
-L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
+L['squirrels_note'] = nil
 L['options_icons_squirrels'] = '{achievement:14728}'
-L['options_icons_squirrels_desc'] = 'Emplacements des bestioles pour le haut-fait {achievement:14728}.'
+L['options_icons_squirrels_desc'] = nil
 
-L['options_icons_GarrFollower'] = 'Sujet de Fief'
-L['options_icons_GarrFollower_desc'] = 'Afficher les emplacements des Sujets.'
+L['options_icons_GarrFollower'] = nil
+L['options_icons_GarrFollower_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------------ ASHRAN -----------------------------------
@@ -52,10 +52,10 @@ L['gorrthoggs_personal_reserve_treasure'] = 'Réserve personnelle de Gorr\'thogg
 L['grimfrost_treasure_treasure'] = 'Trésor de Triste-Givre'
 L['iron_horde_munitions_treasure'] = 'Munitions de la Horde de Fer'
 L['iron_horde_supplies_treasure'] = 'Fournitures de la Horde de Fer'
-L['lady_senas_materials_stash_treasure'] = 'Autre planque de matériaux de dame Sena'
+L['lady_senas_materials_stash_treasure'] = nil
 L['lady_senas_other_materials_stash_treasure'] = 'Autre planque de matériaux de dame Sena'
 L['lagoon_pool_treasure'] = 'Bassin du lagon'
-L['lagoon_pool_treasure_note'] = 'Pêchez dans le Bassin du lagon.'
+L['lagoon_pool_treasure_note'] = nil
 L['lucky_coin_treasure'] = 'Pièce porte-bonheur'
 L['obsidian_petroglyph_treasure'] = 'Pétroglyphe sur obsidienne'
 L['ogre_booty_treasure'] = 'Butin ogre'
@@ -69,16 +69,16 @@ L['supply_dump_treasure'] = 'Réserve de fournitures'
 L['survivalists_cache_treasure'] = 'Cache de survivaliste'
 L['thunderlord_cache_treasure'] = 'Cache sire-tonnerre'
 L['time_warped_tower_treasure'] = 'Tour Distordue dans le Temps'
-L['time_warped_tower_note'] = 'Fouillez les Ogres à l\'intérieur de la tour.'
+L['time_warped_tower_note'] = nil
 L['wiggling_egg_treasure'] = 'Œuf de rylak frétillant'
 L['young_orc_traveler_note'] = 'Combinez avec {item:107272}'
 L['young_orc_traveler_treasure'] = 'Jeune voyageur orc'
 L['young_orc_woman_note'] = 'Combinez avec {item:107273}'
 L['young_orc_woman_treasure'] = 'Jeune Orque'
-L['smoldering_true_iron_deposit_treasure'] = 'Gisement fumant de vérifer'
-L['up_some_crates_note'] = 'En haut de quelques caisses.'
-L['wiggling_egg_note'] = 'Au sommet du bâtiment, dans un nid.'
-L['cragmaul_cache_note'] = 'Sous les escaliers.'
+L['smoldering_true_iron_deposit_treasure'] = nil
+L['up_some_crates_note'] = nil
+L['wiggling_egg_note'] = nil
+L['cragmaul_cache_note'] = nil
 
 L['prisoner_cage_label'] = 'Cage de prisonnier'
 L['slaves_freed'] = 'esclaves libérés'
@@ -93,8 +93,8 @@ L['delectable_ogre_delicacies_note'] = [[
 
 L['weaponsmith_na_shra_follower_note'] = 'Complétez {quest:33838} pour la recruter comme sujet'
 L['dagg_follower_note'] = 'Libérez {npc:79607} de sa première cage puis sauvez-le à nouveau de sa deuxième cage. Trouvez-le à l\'extérieur de votre fief pour le recruter comme sujet'
-L['shadow_hunter_rala_follower_note'] = 'Complétez {quest:34348} pour le recruter comme sujet'
-L['gronnstalker_rokash_follower_note'] = 'Complétez {quest:32981} pour le recruter comme sujet'
+L['shadow_hunter_rala_follower_note'] = nil
+L['gronnstalker_rokash_follower_note'] = nil
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Afficher les emplacements de la |cffffff00Page de journal en lambeaux|r pour {achievement:9531}'
@@ -165,9 +165,9 @@ L['options_icons_prove_your_strength_desc'] = 'Afficher les emplacements de drop
 
 L['fangler_note'] = 'Utilisez la canne à pêche'
 L['berserk_t_300_series_mark_ii_note'] = 'Utilisez l\'interrupteur'
-L['graveltooth_note'] = 'Tuez des {npc:84255} jusqu\'à ce que {npc:84263} apparaisse.'
-L['gorepetal_note'] = 'Dans une grotte.\n\nN\'apparaît pas sur la mini-carte. Cliquez sur le Lys Étoilé pour faire le apparaître {npc:83509}.'
-L['sean_whitesea_note'] = 'Ouvrez le Coffre abandonné afin que {npc:83542} apparaisse.'
+L['graveltooth_note'] = nil
+L['gorepetal_note'] = nil
+L['sean_whitesea_note'] = nil
 
 L['a_pile_of_dirt_treasure'] = 'Un tas de terre'
 L['abandoned_cargo_treasure'] = 'Chargement abandonné'
@@ -179,7 +179,7 @@ L['adventurers_staff_treasure'] = 'Bâton de l’aventurier'
 L['appropriated_warsong_supplies_treasure'] = 'Fournitures chanteguerres soustraites'
 L['bag_of_herbs_treasure'] = 'Sac d’herbes'
 L['bone_carved_dagger_treasure'] = 'Dague gravée en os'
-L['bounty_of_the_elements_note'] = 'Cliquez sur les Totems dans l\'ordre suivant :\n 1. {npc:84307}\n 2. {npc:84343}\n 3. {npc:84345}\n 4. {npc:84347}'
+L['bounty_of_the_elements_note'] = nil
 L['bounty_of_the_elements_treasure'] = 'Butin des éléments'
 L['brilliant_dreampetal_treasure'] = 'Fronderêve brillant'
 L['elemental_offering_treasure'] = 'Offrande élémentaire'
@@ -218,8 +218,8 @@ L['warsong_spoils_treasure'] = 'Butin des Chanteguerres'
 L['warsong_supplies_treasure'] = 'Fournitures Chanteguerre'
 L['watertight_bag_treasure'] = 'Sac étanche'
 L['spirit_coffer_treasure'] = 'Coffre spirituel'
-L['spirits_gift_treasure'] = 'Présent de l’esprit'
-L['spirits_gift_treasure_note'] = 'Allumez les 6 braseros oubliés pour faire apparaître le trésor.'
+L['spirits_gift_treasure'] = nil
+L['spirits_gift_treasure_note'] = nil
 
 L['viking_pepe_note'] = 'Assis sur une caisse derrière des gobelins avec une Boule Disco'
 L['viking_pepe_treasure'] = 'Pépé viking'
@@ -283,6 +283,8 @@ L['options_icons_making_the_cut_desc'] = 'Afficher les emplacements des |cffffff
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
+L['voidseer_kalurg_note'] = nil
+
 L['alchemists_satchel_treasure'] = 'Sacoche de l’alchimiste'
 L['ancestral_greataxe_treasure'] = 'Bardiche ancestrale'
 L['armored_elekk_tusk_treasure'] = 'Défense d\'elekk cuirassé'
@@ -341,7 +343,7 @@ L['admiral_taylors_coffer_treasure'] = 'Coffre de l’amiral Taylor'
 L['assassins_spear_treasure'] = 'Lance de l\'assassin'
 L['campaign_contributions_treasure'] = 'Cadeau de campagne électorale'
 L['coinbenders_payment_treasure'] = 'Gages de Chique-Piécette'
-L['coinbenders_payment_treasure_note'] = 'Au fond de la mer.'
+L['coinbenders_payment_treasure_note'] = nil
 L['egg_of_varasha_treasure'] = 'Œuf de Varasha'
 L['ephials_dark_grimoire_treasure'] = 'Grimoire occulte d’Ephial'
 L['fractured_sunstone_note'] = 'Caché dans l\'eau'
@@ -370,8 +372,8 @@ L['spray_o_matic_5000_xt_treasure'] = 'Auto-vaporisateur 5000 XT'
 L['sun_touched_cache_treasure'] = 'Cache touchée par le soleil'
 L['toxicfang_venom_treasure'] = 'Venin de croc-toxique'
 L['waterlogged_satchel_treasure'] = 'Sacoche détrempée'
-L['nizzixs_chest_treasure'] = 'Coffre de Nizzix'
-L['nizzixs_chest_treasure_note'] = 'Cliquez sur la Capsule de sauvetage flottant à proximité dans l\'eau.'
+L['nizzixs_chest_treasure'] = nil
+L['nizzixs_chest_treasure_note'] = nil
 
 L['misplaced_scroll_treasure'] = 'Parchemin égaré'
 L['relics_of_the_outcasts_treasure'] = 'Reliques des parias'
@@ -436,7 +438,7 @@ Vous pouvez combiner n’importe laquelle des méthodes ci-dessus pour invoquer 
 ]]
 
 L['aarkos_family_treasure_treasure'] = 'Trésor de la famille d’Aarko'
-L['aarkos_family_treasure_treasure_note'] = 'Parlez à {npc:77664}, des ennemis vont apparaître. Après avoir tué {npc:77677}, le trésor apparaîtra.'
+L['aarkos_family_treasure_treasure_note'] = nil
 L['amethyl_crystal_treasure'] = 'Cristal améthyle'
 L['aruuna_mining_cart_treasure'] = 'Chariot de mine d’Aruuna'
 L['barrel_of_fish_treasure'] = 'Tonneau de poissons'
@@ -466,14 +468,14 @@ L['relic_of_aruuna_treasure'] = 'Relique d\'Aruuna'
 L['relic_of_telmor_treasure'] = 'Relique de Telmor'
 L['rooks_tacklebox_treasure'] = 'Boîte de pêche de Freux'
 L['rusted_lockbox_treasure'] = 'Coffret rouillé'
-L['rusted_lockbox_treasure_note'] = 'Dans une grotte.\n Au fond de l\'eau.'
+L['rusted_lockbox_treasure_note'] = nil
 L['soulbinders_reliquary_treasure'] = 'Reliquaire de la lieuse d’âme'
 L['teroclaw_nest_treasure'] = 'Nid de terogriffe'
 L['treasure_of_angorosh_treasure'] = 'Trésor d’Ango’rosh'
 L['webbed_sac_treasure'] = 'Sac entoilé'
 L['yuuris_gift_treasure'] = 'Cadeau de Yuuri'
-L['gift_of_the_ancients_treasure'] = 'Présent des anciens'
-L['gift_of_the_ancients_treasure_note'] = 'Dans une grotte.\n\nTournez les statues de façon à ce que les trois fassent face au centre.'
+L['gift_of_the_ancients_treasure'] = nil
+L['gift_of_the_ancients_treasure_note'] = nil
 
 L['knight_pepe_treasure'] = 'Pépé chevalier'
 L['knight_pepe_note'] = 'Assis dans la tente, assis sur un coffre'
@@ -537,6 +539,7 @@ Les cristaux vous téléportent vers des rares aléatoires à proximité, donc v
 
 {npc:96235} a un long temps de respawn (environ un jour) et la meilleure façon de le trouver est après le redémarrage du royaume ou en utilisant le server hopping.
 ]]
+L['cindral_note'] = nil
 
 L['axe_of_the_weeping_wolf_treasure'] = 'Hache du loup hurlant'
 L['bejeweled_egg_treasure'] = 'Œuf orné de joyaux'

@@ -16,6 +16,7 @@ local Pet = ns.reward.Pet
 local Title = ns.reward.Title
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Currency = ns.reward.Currency
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -143,16 +144,15 @@ map.nodes[26107910] = Rare({
     pois = {POI({29607060})}
 }) -- Mistress Thavra
 
--- Cindral the Wildfire
-map.nodes[44603760] = Rare({
+map.nodes[44703766] = Rare({
     id = 90519,
     quest = 37990,
-    note = L['in_cave'],
+    note = L['cindral_note'],
     rewards = {
         Achievement({id = 10070, criteria = 28338}),
         Item({item = 128255, quest = 39363}) -- Equipment Blueprint: Ice Cutter
     }
-})
+}) -- Cindral the Wildfire
 
 map.nodes[22003780] = Rare({
     id = 90777,
@@ -231,7 +231,7 @@ map.nodes[40706980] = Rare({
     }
 }) -- Bramblefell
 
-map.nodes[52802560] = Rare({
+map.nodes[52592656] = Rare({
     id = 91098,
     quest = 38211,
     rewards = {
@@ -267,9 +267,7 @@ map.nodes[16804940] = Rare({
         Achievement({id = 10070, criteria = 28329}),
         Transmog({item = 127336, slot = L['staff']}) -- Rod of the One True Podlord
     },
-    pois = {
-        POI({17005040}) -- Entrance
-    }
+    pois = {POI({16975028})}
 }) -- Podlord Wakkawam
 
 map.nodes[47504230] = Rare({
@@ -345,13 +343,15 @@ map.nodes[52401920] = Rare({
     }
 }) -- Overlord Ma'gruth
 
-map.nodes[57606720] = Rare({
+map.nodes[57846733] = Rare({
     id = 92429,
     quest = 38589,
-    rewards = {Achievement({id = 10070, criteria = 28357})}
+    rewards = {
+        Achievement({id = 10070, criteria = 28357}), Currency({id = 823})
+    }
 }) -- Broodlord Ixkor
 
-map.nodes[27403260] = Rare({
+map.nodes[27683276] = Rare({
     id = 92451,
     quest = 37937,
     rewards = {Achievement({id = 10070, criteria = 28340})}
@@ -368,12 +368,13 @@ map.nodes[48807300] = Rare({
     pois = {POI({49907440})}
 }) -- The Blackfang
 
-map.nodes[62607220] = Rare({
+map.nodes[62697204] = Rare({
     id = 92495,
     quest = 38600,
     rewards = {
         Achievement({id = 10070, criteria = 28358}),
-        Transmog({item = 127315, slot = L['mail']}) -- Glowing Felskull Belt
+        Transmog({item = 127315, slot = L['mail']}), -- Glowing Felskull Belt
+        Currency({id = 823})
     }
 }) -- Soulslicer
 
@@ -388,14 +389,15 @@ map.nodes[63208000] = Rare({
     pois = {POI({62207910})}
 }) -- Gloomtalon
 
-map.nodes[52008360] = Rare({
+map.nodes[52038394] = Rare({
     id = 92517,
     quest = 38605,
-    rewards = {Achievement({id = 10070, criteria = 28360})}
+    rewards = {
+        Achievement({id = 10070, criteria = 28360}), Currency({id = 823})
+    }
 }) -- Krell the Serene
 
--- Belgork
-map.nodes[34904710] = Rare({
+map.nodes[35594666] = Rare({
     id = 92552,
     quest = 38609,
     note = L['in_cave'] .. ' ' .. L['belgork_thromma_note'],
@@ -405,9 +407,9 @@ map.nodes[34904710] = Rare({
         Transmog({item = 127650, slot = L['shield']}) -- Belgork's Bastion
     },
     pois = {POI({32104900, 38604420})}
-})
+}) -- Belgork
 
-map.nodes[34004440] = Rare({
+map.nodes[33954474] = Rare({
     id = 92574,
     quest = 38620,
     note = L['in_cave'] .. ' ' .. L['belgork_thromma_note'],
@@ -458,7 +460,7 @@ map.nodes[45804700] = Rare({
     }
 })
 
-map.nodes[50807440] = Rare({
+map.nodes[50917423] = Rare({
     id = 92657,
     quest = 38696,
     note = L['in_cave'],
@@ -466,7 +468,7 @@ map.nodes[50807440] = Rare({
     pois = {POI({44507750})}
 }) -- Bleeding Hollow Horror
 
-map.nodes[34407260] = Rare({
+map.nodes[34357246] = Rare({
     id = 92694,
     quest = 38654,
     note = L['in_cave'],
@@ -510,7 +512,7 @@ map.nodes[54408040] = Rare({
     }
 }) -- Eyepiercer
 
-map.nodes[65603680] = Rare({
+map.nodes[65783696] = Rare({
     id = 92887,
     quest = 38700,
     rewards = {Achievement({id = 10070, criteria = 28344})}
@@ -545,16 +547,17 @@ map.nodes[15705750] = Rare({
     }
 }) -- Szirek the Twisted
 
-map.nodes[52206520] = Rare({
+map.nodes[52086514] = Rare({
     id = 93002,
     quest = 38726,
     rewards = {
         Achievement({id = 10070, criteria = 28345}),
-        Transmog({item = 127332, slot = L['1h_mace']}) -- Riverbeast Molar Club
+        Transmog({item = 127332, slot = L['1h_mace']}), -- Riverbeast Molar Club
+        Currency({id = 823})
     }
 }) -- Magwia
 
-map.nodes[20005380] = Rare({
+map.nodes[19895385] = Rare({
     id = 93028,
     quest = 38736,
     note = L['driss_vile_note'],
@@ -564,15 +567,14 @@ map.nodes[20005380] = Rare({
     }
 }) -- Driss Vile
 
-map.nodes[16005920] = Rare({
+map.nodes[16125902] = Rare({
     id = 93057,
     quest = 38750,
     note = L['grannok_note'],
     rewards = {Achievement({id = 10070, criteria = 28348})}
 }) -- Grannok
 
--- Captain Ironbeard
-map.nodes[35607990] = Rare({
+map.nodes[36167912] = Rare({
     id = 93076,
     quest = 38756,
     note = L['in_cave'],
@@ -581,10 +583,15 @@ map.nodes[35607990] = Rare({
         Item({item = 128257, quest = 39365}), -- Equipment Blueprint: Ghostly Spyglass
         Toy({item = 127659}) -- Ghostly Iron Buccaneer's Hat
     },
-    pois = {POI({37507600})}
-})
+    pois = {
+        POI({37507600}), Path({
+            36167912, 35827935, 35667969, 35718040, 36048059, 36388038,
+            36598006, 36657952, 36597908, 36337897, 36167912
+        })
+    }
+}) -- Captain Ironbeard
 
-map.nodes[34607800] = Rare({
+map.nodes[34517794] = Rare({
     id = 93125,
     quest = 38764,
     note = L['in_cave'],
@@ -595,7 +602,7 @@ map.nodes[34607800] = Rare({
     pois = {POI({37507600})}
 }) -- Glub'glok
 
-map.nodes[28805100] = Rare({
+map.nodes[28615077] = Rare({
     id = 93168,
     quest = 38775,
     note = L['in_cave'],
@@ -761,7 +768,7 @@ map.nodes[23605200] = BloodhunterZulk
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[36304340] = Treasure({
+map.nodes[36314348] = Treasure({
     quest = 37956,
     label = L['strange_sapphire_treasure'],
     rewards = {
@@ -774,7 +781,7 @@ map.nodes[36304340] = Treasure({
     }
 }) -- Strange Sapphire
 
-map.nodes[15904970] = Treasure({
+map.nodes[15934977] = Treasure({
     quest = 38208,
     label = L['weathered_axe_treasure'],
     note = L['in_cave'],
@@ -786,7 +793,7 @@ map.nodes[15904970] = Treasure({
             }
         }), Transmog({item = 127324, slot = L['1h_axe']}) -- Weathered Memento Axe
     },
-    pois = {POI({17105080})}
+    pois = {POI({16975028})}
 }) -- Weathered Axe
 
 map.nodes[17005290] = Treasure({
@@ -828,7 +835,7 @@ map.nodes[28702330] = Treasure({
     }
 }) -- Jewel of Hellfire
 
-map.nodes[32407050] = Treasure({
+map.nodes[23437040] = Treasure({
     quest = 38426,
     label = L['tome_of_secrets_treasure'],
     rewards = {
@@ -841,7 +848,7 @@ map.nodes[32407050] = Treasure({
     }
 }) -- Tome of Secrets
 
-map.nodes[56906510] = Treasure({
+map.nodes[56966504] = Treasure({
     quest = 38591,
     label = L['forgotten_sack_treasure'],
     rewards = {
@@ -850,7 +857,7 @@ map.nodes[56906510] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        })
+        }), Item({item = 127408}), Item({item = 110609}), Item({item = 127410})
     }
 }) -- Forgotten Sack
 
@@ -867,7 +874,7 @@ map.nodes[54806930] = Treasure({
     }
 }) -- Lodged Hunting Spear
 
-map.nodes[61207570] = Treasure({
+map.nodes[61217581] = Treasure({
     quest = 38601,
     label = L['blackfang_island_cache_treasure'],
     rewards = {
@@ -876,11 +883,11 @@ map.nodes[61207570] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        })
+        }), Currency({id = 824})
     }
 }) -- Blackfang Island Cache
 
-map.nodes[62007080] = Treasure({
+map.nodes[62127074] = Treasure({
     quest = 38602,
     label = L['crystallized_fel_spike_treasure'],
     rewards = {
@@ -893,7 +900,7 @@ map.nodes[62007080] = Treasure({
     }
 }) -- Crystallized Fel Spike
 
-map.nodes[30507200] = Treasure({
+map.nodes[30397196] = Treasure({
     quest = 38629,
     label = L['polished_crystal_treasure'],
     rewards = {
@@ -919,7 +926,7 @@ map.nodes[40607980] = Treasure({
     }
 }) -- Snake Charmer's Flute
 
-map.nodes[40807550] = Treasure({
+map.nodes[40777556] = Treasure({
     quest = 38639,
     label = L['the_perfect_blossom_treasure'],
     rewards = {
@@ -929,10 +936,11 @@ map.nodes[40807550] = Treasure({
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
         }), Toy({item = 127766}) -- The Perfect Blossom
-    }
+    },
+    pois = {POI({40857579})}
 }) -- The Perfect Blossom
 
-map.nodes[37104620] = Treasure({
+map.nodes[37054627] = Treasure({
     quest = 38640,
     label = L['pale_removal_equipment_treasure'],
     note = L['in_cave'],
@@ -947,7 +955,7 @@ map.nodes[37104620] = Treasure({
     pois = {POI({38604420})}
 }) -- Pale Removal Equipment
 
-map.nodes[41507340] = Treasure({
+map.nodes[41587327] = Treasure({
     quest = 38657,
     label = L['forgotten_champions_blade_treasure'],
     rewards = {
@@ -960,7 +968,7 @@ map.nodes[41507340] = Treasure({
     }
 }) -- Forgotten Champion's Blade
 
-map.nodes[20004780] = Treasure({
+map.nodes[22004776] = Treasure({
     quest = 38678,
     label = L['bleeding_hollow_warchest_treasure'],
     rewards = {
@@ -973,7 +981,7 @@ map.nodes[20004780] = Treasure({
     }
 }) -- Bleeding Hollow Warchest
 
-map.nodes[58502540] = Treasure({
+map.nodes[58542521] = Treasure({
     quest = 38679,
     label = L['jewel_of_the_fallen_star_treasure'],
     rewards = {
@@ -982,11 +990,11 @@ map.nodes[58502540] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        })
+        }), Item({item = 115803})
     }
 }) -- Jewel of the Fallen Star
 
-map.nodes[62502060] = Treasure({
+map.nodes[62602053] = Treasure({
     quest = 38682,
     label = L['censer_of_torment_treasure'],
     rewards = {
@@ -1041,7 +1049,7 @@ map.nodes[64504210] = Treasure({
     }
 }) -- Strange Fruit
 
-map.nodes[50008120] = Treasure({
+map.nodes[49908124] = Treasure({
     quest = 38702,
     label = L['discarded_helm_treasure'],
     note = L['in_cave'],
@@ -1056,7 +1064,7 @@ map.nodes[50008120] = Treasure({
     pois = {POI({51207960})}
 }) -- Discarded Helm
 
-map.nodes[50007970] = Treasure({
+map.nodes[49957963] = Treasure({
     quest = 38703,
     label = L['scouts_belongings_treasure'],
     rewards = {
@@ -1082,7 +1090,7 @@ map.nodes[69705600] = Treasure({
     }
 }) -- Forgotten Iron Horde Supplies
 
-map.nodes[48007040] = Treasure({
+map.nodes[47907041] = Treasure({
     quest = 38705,
     label = L['crystallized_essence_of_the_elements_treasure'],
     rewards = {
@@ -1095,7 +1103,7 @@ map.nodes[48007040] = Treasure({
     }
 }) -- Crystallized Essence of the Elements
 
-map.nodes[50906490] = Treasure({
+map.nodes[50836496] = Treasure({
     quest = 38731,
     label = L['overgrown_relic_treasure'],
     rewards = {
@@ -1108,7 +1116,7 @@ map.nodes[50906490] = Treasure({
     }
 }) -- Overgrown Relic
 
-map.nodes[31503110] = Treasure({
+map.nodes[31413107] = Treasure({
     quest = 38732,
     label = L['jeweled_arakkoa_effigy_treasure'],
     rewards = {
@@ -1178,7 +1186,7 @@ map.nodes[26506290] = Treasure({
     }
 }) -- Looted Bleeding Hollow Treasure
 
-map.nodes[34703470] = Treasure({
+map.nodes[34693464] = Treasure({
     quest = 38742,
     label = L['skull_of_the_mad_chief_treasure'],
     note = L['in_cave'],
@@ -1193,7 +1201,7 @@ map.nodes[34703470] = Treasure({
     pois = {POI({32503730})}
 }) -- Skull of the Mad Chief
 
-map.nodes[15505440] = Treasure({
+map.nodes[14965442] = Treasure({
     quest = 38754,
     label = L['axe_of_the_weeping_wolf_treasure'],
     rewards = {
@@ -1206,7 +1214,7 @@ map.nodes[15505440] = Treasure({
     }
 }) -- Axe of the Weeping Wolf
 
-map.nodes[17305700] = Treasure({
+map.nodes[17365691] = Treasure({
     quest = 38755,
     label = L['spoils_of_war_treasure'],
     note = L['spoils_of_war_note'],
@@ -1247,10 +1255,15 @@ map.nodes[35907860] = Treasure({
             }
         })
     },
-    pois = {POI({37607590})}
+    pois = {
+        POI({37607590}), Path({
+            35087840, 35297859, 35487831, 35707848, 35697877, 35517878,
+            35697888, 35987879, 35907860
+        })
+    }
 }) -- Ironbeard's Treasure
 
-map.nodes[33907810] = Treasure({
+map.nodes[33907814] = Treasure({
     quest = 38760,
     label = L['stashed_iron_sea_booty_treasure'],
     note = L['in_cave'],
@@ -1265,7 +1278,7 @@ map.nodes[33907810] = Treasure({
     pois = {POI({37607590})}
 }) -- Stashed Iron Sea Booty
 
-map.nodes[35007720] = Treasure({
+map.nodes[35037732] = Treasure({
     quest = 38761,
     label = L['stashed_iron_sea_booty_treasure'],
     note = L['in_cave'],
@@ -1280,7 +1293,7 @@ map.nodes[35007720] = Treasure({
     pois = {POI({37607590})}
 }) -- Stashed Iron Sea Booty
 
-map.nodes[34507830] = Treasure({
+map.nodes[34417830] = Treasure({
     quest = 38762,
     label = L['stashed_iron_sea_booty_treasure'],
     note = L['in_cave'],
@@ -1321,7 +1334,7 @@ map.nodes[46904440] = Treasure({
     }
 }) -- Fel-Drenched Satchel
 
-map.nodes[46804210] = Treasure({
+map.nodes[46854216] = Treasure({
     quest = 38776,
     label = L['sacrificial_blade_treasure'],
     rewards = {
@@ -1347,7 +1360,7 @@ map.nodes[73604320] = Treasure({
     }
 }) -- Stashed Bleeding Hollow Loot
 
-map.nodes[37808080] = Treasure({
+map.nodes[37738076] = Treasure({
     quest = 38788,
     label = L['brazier_of_awakening_treasure'],
     rewards = {
@@ -1360,7 +1373,7 @@ map.nodes[37808080] = Treasure({
     }
 }) -- Brazier of Awakening
 
-map.nodes[49907680] = Treasure({
+map.nodes[49967677] = Treasure({
     quest = 38809,
     label = L['bleeding_hollow_mushroom_stash_treasure'],
     note = L['in_cave'],
@@ -1372,10 +1385,10 @@ map.nodes[49907680] = Treasure({
             }
         }), Toy({item = 128223}) -- Bottomless Stygana Mushroom Brew
     },
-    pois = {POI({44607750})}
+    pois = {POI({44607750}), Path({50537843, 50477796, 50087746, 49967677})}
 }) -- Bleeding Hollow Mushroom Stash
 
-map.nodes[48607530] = Treasure({
+map.nodes[48537522] = Treasure({
     quest = 38814,
     label = L['looted_mystical_staff_treasure'],
     note = L['in_cave'],
@@ -1387,7 +1400,12 @@ map.nodes[48607530] = Treasure({
             }
         }), Transmog({item = 127337, slot = L['staff']}) -- Emanating Staff of Shadow
     },
-    pois = {POI({44607750})}
+    pois = {
+        POI({44607750}), Path({
+            51107584, 50697631, 50197572, 50077569, 49607497, 49357500,
+            49007534, 48717544, 48537522
+        })
+    }
 }) -- Looted Mystical Staff
 
 map.nodes[43203830] = Treasure({
@@ -1420,7 +1438,7 @@ map.nodes[42903530] = Treasure({
     pois = {POI({43003580})}
 }) -- Dazzling Rod
 
-map.nodes[28903460] = Treasure({
+map.nodes[28863460] = Treasure({
     quest = 38863,
     label = L['partially_mined_apexis_crystal_treasure'],
     note = L['in_cave'],
@@ -1432,10 +1450,10 @@ map.nodes[28903460] = Treasure({
             }
         })
     },
-    pois = {POI({29203460})}
+    pois = {POI({29223132})}
 }) -- Partially Mined Apexis Crystal
 
-map.nodes[51603250] = Treasure({
+map.nodes[51643264] = Treasure({
     quest = 39075,
     label = L['fel_tainted_apexis_formation_treasure'],
     rewards = {
@@ -1444,7 +1462,7 @@ map.nodes[51603250] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        })
+        }), Currency({id = 823})
     }
 }) -- Fel-Tainted Apexis Formation
 
@@ -1554,3 +1572,12 @@ map.nodes[75403740] = PetBattle({
     id = 94650,
     rewards = {Achievement({id = 10052, criteria = 28809})}
 }) -- Defiled Earth
+
+-------------------------------------------------------------------------------
+---------------------------------- SQUIRRELS ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[48385040] = ns.node.Squirrel({
+    id = 88998,
+    rewards = {Achievement({id = 14728, criteria = 5})}
+}) -- Bloodbeak

@@ -895,7 +895,12 @@ map.nodes[54206295] = Collectible({
 ---------------------------------- SQUIRRELS ----------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[53152983] = ns.node.Squirrel({
+    id = 88462,
+    rewards = {Achievement({id = 14728, criteria = 13})}
+}) -- Thicket Skitterer
+
 map.nodes[50502940] = ns.node.Squirrel({
     id = 83674,
-    rewards = {Achievement({id = 14728, criteria = 14})} -- To All the Squirrels Through Time and Space
+    rewards = {Achievement({id = 14728, criteria = 14})}
 }) -- Mud Jumper
