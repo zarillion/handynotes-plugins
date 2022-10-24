@@ -62,7 +62,7 @@ L['hard'] = 'Сложный'
 L['mount'] = 'Маунт'
 L['pet'] = 'Питомец'
 L['spell'] = 'Заклинание'
-L['title'] = nil
+L['title'] = 'Звание'
 L['toy'] = 'Игрушка'
 L['rep'] = 'Реп.'
 L['completed'] = 'Получено'
@@ -74,9 +74,9 @@ L['unlearnable'] = 'Не поддается изучению'
 L['defeated'] = 'Побежден'
 L['undefeated'] = 'Не Побежден'
 
-L['follower_type_follower'] = nil
-L['follower_type_champion'] = nil
-L['follower_type_companion'] = nil
+L['follower_type_follower'] = 'Последователь'
+L['follower_type_champion'] = 'Чемпион'
+L['follower_type_companion'] = 'Компаньон'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
