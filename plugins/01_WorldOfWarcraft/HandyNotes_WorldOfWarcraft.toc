@@ -1,4 +1,4 @@
-## Interface: 90205
+## Interface: 100000
 ## Title: HandyNotes: World of Warcraft
 ## Version: 1
 ## Notes: World of Warcraft Original Zone Notes
