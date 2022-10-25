@@ -1,4 +1,4 @@
-# Unreleased
+# v48
 
 * Added covenant assault rewards in the Maw.
 * Added critter locations for the To All the Squirrels I've Loved and Lost achievement.
@@ -9,6 +9,8 @@
 * Added Torghast rewards for all wings.
 * Added wildlife locations for the Wild Hunting achievement.
 * Added wildseed spirit rewards in the Queen's Conservatory.
+* Compatibility updates for Dragonflight.
+* Updated TOC for 10.0.0
 
 # v47
 
