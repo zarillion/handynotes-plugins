@@ -1,3 +1,8 @@
+# v11
+
+* Compatibility updates for Dragonflight.
+* Updated TOC for 10.0.0
+
 # v10
 
 * Fixed the `C_TransmogCollection.GetAppearanceSources()` error in the new patch.
