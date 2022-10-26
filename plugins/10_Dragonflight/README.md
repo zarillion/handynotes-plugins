@@ -40,6 +40,8 @@ This plugin adds information to the map for the following zones:
 
 * Patch 10.0 - Azure Span, Ohn'ahran Plains, Thaldraszus, Waking Shores
 
+In addition to rares, treasures and pet battles, this plugin also adds the following expansion or zone-specific items.
+
 ### Dragon Isles
 
 Flags for the [Dragonscale Expedition: The Highest Peaks](https://www.wowhead.com/achievement=15890/dragonscale-expedition-the-highest-peaks) achievement.
