@@ -40,6 +40,27 @@ This plugin adds information to the map for the following zones:
 
 * Patch 10.0 - Azure Span, Ohn'ahran Plains, Thaldraszus, Waking Shores
 
+### Dragon Isles
+
+Flags for the [Dragonscale Expedition: The Highest Peaks](https://www.wowhead.com/achievement=15890/dragonscale-expedition-the-highest-peaks) achievement.
+
+### Waking Shores
+
+Dragon Glyphs for the [Waking Shores Glyph Hunter](https://www.wowhead.com/beta/achievement=16575/waking-shores-glyph-hunter) achievement.
+Kites for the [Symbols of Hope](https://www.wowhead.com/achievement=16584/symbols-of-hope) achievement.
+
+### Ohnahran Plains
+
+Dragon Glyphs for the [Ohn'ahran Plains Glyph Hunter](https://www.wowhead.com/beta/achievement=16576/ohnahran-plains-glyph-hunter) achievement.
+
+### Azure Span
+
+Dragon Glyphs for the [Azure Span Glyph Hunter](https://www.wowhead.com/beta/achievement=16577/azure-span-glyph-hunter) achievement.
+
+### Thaldraszus
+
+Dragon Glyphs for the [Thaldraszus Glyph Hunter](https://www.wowhead.com/beta/achievement=16578/thaldraszus-glyph-hunter) achievement.
+
 ## Localization
 
 This addon has been translated to the following languages:
