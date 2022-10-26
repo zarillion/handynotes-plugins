@@ -28,7 +28,7 @@ In addition to the plugin settings menu found under *Interface > Addons > HandyN
 ### Options
 
 * Change icon sizes and alpha based on type (rares, treasures, battle pets, etc)
-* Customize the size and color and POIs and paths.
+* Customize the size and color of POIs and paths.
 * Enable or disable groups of icons
 * Enlarge icons when the world map is maximized
 * Show only rares that you still need rewards from
