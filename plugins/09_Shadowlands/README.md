@@ -1,6 +1,6 @@
 **A [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for the Shadowlands expansion. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
 
-![](https://www.tmdmguild.com/public/images/addons/banner-shadowlands.png)
+![](https://media.forgecdn.net/attachments/509/190/banner-shadowlands.png)
 
 ## Global Features
 
