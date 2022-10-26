@@ -69,6 +69,7 @@ This addon has been translated to the following languages:
 
 * `deDE` - German (thanks Dathwada!)
 * `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
+* `zhCN` - Chinese (Simplified) (thanks Adavak!)
 
 If you would like to translate the addon to another language, please open a [ticket](https://github.com/zarillion/handynotes-plugins/issues) or submit a [pull request](https://github.com/zarillion/handynotes-plugins/pulls) on GitHub.
 
