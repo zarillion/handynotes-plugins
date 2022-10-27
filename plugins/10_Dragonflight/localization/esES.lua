@@ -43,6 +43,14 @@ L['forgotten_jewel_box_note'] = 'Despoja la {item:199065} de un Cofre del Clan e
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+-- {quest:65901} = Sneaking Out
+-- {currency:2003} = Dragon Isle Supplies
+-- {item:192615} = Flourescent Fluid
+-- {item:192658} = High-Fiber Leaf
+-- {item:194966} = Thousandbite Piranha
+-- {item:192636} = Woolly Mountain Pelt
+-- {item:200598} = Meluun's Green Curry
+-- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 
 L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las Mochilas de explorador de expedición.'
