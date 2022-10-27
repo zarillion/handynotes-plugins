@@ -796,44 +796,44 @@ L['kyrian_assault_quantity_note2'] = nil
 ---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
 -------------------------------------------------------------------------------
 
-L['torghast_the_tower_of_the_damned'] = nil
-L['torghast_reward_sublabel'] = nil
-L['torghast_boss_note'] = nil
-L['torghast_vendor_note'] = nil
-L['torghast_reward_note'] = nil
-L['torghast_soulshape_note'] = nil
-L['colossal_umbrahide_mawrat_note'] = nil
+L['torghast_the_tower_of_the_damned'] = 'Торгаст, Башня Проклятых'
+L['torghast_reward_sublabel'] = '|cFFFF8C00Награды распределяются между большинством крыльев|r'
+L['torghast_boss_note'] = 'Выпадает из разных боссов в |cffffff00Торгаст, Башня Проклятых|r '
+L['torghast_vendor_note'] = 'Продается у торговцев {npc:152594} и {npc:170257} за 300 {currency:1728} или 1,000 {currency:1728}'
+L['torghast_reward_note'] = 'Награды в |cffffff00Торгаст, Башня Проклятых|r '
+L['torghast_soulshape_note'] = 'Этаж 12+'
+L['colossal_umbrahide_mawrat_note'] = 'Этаж 13+'
 
-L['skoldus_hall'] = nil
-L['fracture_chambers'] = nil
-L['the_soulforges'] = nil
-L['coldheart_interstitia'] = nil
-L['mortregar'] = nil
-L['the_upper_reaches'] = nil
-L['adamant_vaults'] = nil
-L['twisting_corridors'] = nil
-L['the_jailers_gauntlet'] = nil
+L['skoldus_hall'] = 'Чертоги Скольда'
+L['fracture_chambers'] = 'Костоломни'
+L['the_soulforges'] = 'Кузни душ'
+L['coldheart_interstitia'] = 'Междумирье Бессердечных'
+L['mortregar'] = 'Морт'регар'
+L['the_upper_reaches'] = 'Верхний ярус'
+L['adamant_vaults'] = 'Адамантовые хранилища'
+L['twisting_corridors'] = 'Извилистые коридоры'
+L['the_jailers_gauntlet'] = 'Испытание Тюремщика'
 
-L['torghast_layer1'] = nil
-L['torghast_layer2'] = nil
-L['torghast_layer3'] = nil
-L['torghast_layer4'] = nil
-L['torghast_layer6'] = nil
-L['torghast_layer8'] = nil
+L['torghast_layer1'] = 'Завершить уровень 1'
+L['torghast_layer2'] = 'Завершить уровень 2'
+L['torghast_layer3'] = 'Завершить уровень 3'
+L['torghast_layer4'] = 'Завершить уровень 4'
+L['torghast_layer6'] = 'Завершить уровень 6'
+L['torghast_layer8'] = 'Завершить уровень 8'
 
-L['phantasma_note'] = nil
-L['bloating_fodder_note'] = nil
-L['flawless_master_note'] = nil
-L['tower_ranger_note'] = nil
+L['phantasma_note'] = 'Фантазма'
+L['bloating_fodder_note'] = 'Взрыв падали'
+L['flawless_master_note'] = 'Завершите |cffffff00[{achievement:15322}]|r'
+L['tower_ranger_note'] = 'Завершите |cffffff00[{achievement:15324}]|r'
 
-L['the_jailers_gauntlet_note'] = nil
+L['the_jailers_gauntlet_note'] = '|cFFFF8C00Боссы не засчитываются|r |cffffff00{achievement:14498}|r'
 
-L['the_box_of_many_things'] = nil
-L['the_box_of_many_things_note'] = nil
-L['many_many_things_section'] = nil
+L['the_box_of_many_things'] = 'Шкатулка многих тайн'
+L['the_box_of_many_things_note'] = 'Разблокируйте дополнительные способности с помощью {currency:1904}'
+L['many_many_things_section'] = 'Завершите |cffffff00[{achievement:15079}]|r'
 
 L['the_runecarver'] = '{npc:164937}'
-L['clearing_the_fog_suffix'] = nil
+L['clearing_the_fog_suffix'] = 'Воспоминания разблокированы'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
