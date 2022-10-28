@@ -1085,4 +1085,4 @@ L['options_icons_shrouded_cyphers_desc'] = 'Показать возможные 
 L['options_icons_mawsworn_supply_cache'] = 'Тайник Верных Утробе'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Показать возможные места для тайников Верных Утробе.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
-L['options_icons_coreless_automa_desc'] = 'Coreless automa locations for the {achievement:15542} achievement.'
+L['options_icons_coreless_automa_desc'] = 'Расположение пустых автоматов для достижения {achievement:15542}.'
