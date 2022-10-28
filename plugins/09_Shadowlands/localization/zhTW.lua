@@ -811,44 +811,44 @@ L['kyrian_assault_quantity_note2'] = '在熔爐附近跳舞'
 ---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
 -------------------------------------------------------------------------------
 
-L['torghast_the_tower_of_the_damned'] = nil
-L['torghast_reward_sublabel'] = nil
-L['torghast_boss_note'] = nil
-L['torghast_vendor_note'] = nil
-L['torghast_reward_note'] = nil
-L['torghast_soulshape_note'] = nil
-L['colossal_umbrahide_mawrat_note'] = nil
+L['torghast_the_tower_of_the_damned'] = '『譴罪之塔』托迦司'
+L['torghast_reward_sublabel'] = '|cFFFF8C00大多數區域共享獎勵|r'
+L['torghast_boss_note'] = '由通過 |cffffff00『譴罪之塔』托迦司|r 後的各個首領掉落'
+L['torghast_vendor_note'] = '由商人 {npc:152594} 和 {npc:170257} 以 300 {currency:1728} 或 1,000 {currency:1728} 販售'
+L['torghast_reward_note'] = '由通過 |cffffff00『譴罪之塔』托迦司|r 全程獲取'
+L['torghast_soulshape_note'] = '12層以上'
+L['colossal_umbrahide_mawrat_note'] = '13層以上'
 
-L['skoldus_hall'] = nil
-L['fracture_chambers'] = nil
-L['the_soulforges'] = nil
-L['coldheart_interstitia'] = nil
-L['mortregar'] = nil
-L['the_upper_reaches'] = nil
-L['adamant_vaults'] = nil
-L['twisting_corridors'] = nil
-L['the_jailers_gauntlet'] = nil
+L['skoldus_hall'] = '斯寇德斯刑牢'
+L['fracture_chambers'] = '碎骨之牢'
+L['the_soulforges'] = '熔魂工坊'
+L['coldheart_interstitia'] = '寒心之間'
+L['mortregar'] = '蒙特雷加'
+L['the_upper_reaches'] = '牢塔上層'
+L['adamant_vaults'] = '不滅寶庫'
+L['twisting_corridors'] = '扭曲迴廊'
+L['the_jailers_gauntlet'] = '閻獄之主的試煉'
 
-L['torghast_layer1'] = nil
-L['torghast_layer2'] = nil
-L['torghast_layer3'] = nil
-L['torghast_layer4'] = nil
-L['torghast_layer6'] = nil
-L['torghast_layer8'] = nil
+L['torghast_layer1'] = '完成第1層'
+L['torghast_layer2'] = '完成第2層'
+L['torghast_layer3'] = '完成第3層'
+L['torghast_layer4'] = '完成第4層'
+L['torghast_layer6'] = '完成第6層'
+L['torghast_layer8'] = '完成第8層'
 
-L['phantasma_note'] = nil
-L['bloating_fodder_note'] = nil
-L['flawless_master_note'] = nil
-L['tower_ranger_note'] = nil
+L['phantasma_note'] = '幻魄'
+L['bloating_fodder_note'] = '腫脹飼料已引爆'
+L['flawless_master_note'] = '完成 |cffffff00[{achievement:15322}]|r'
+L['tower_ranger_note'] = '完成 |cffffff00[{achievement:15324}]|r'
 
-L['the_jailers_gauntlet_note'] = nil
+L['the_jailers_gauntlet_note'] = '|cFFFF8C00首領不計入|r |cffffff00{achievement:14498}|r'
 
-L['the_box_of_many_things'] = nil
-L['the_box_of_many_things_note'] = nil
-L['many_many_things_section'] = nil
+L['the_box_of_many_things'] = '萬應寶盒'
+L['the_box_of_many_things_note'] = '使用 {currency:1904} 解鎖更多的能力'
+L['many_many_things_section'] = '完成 |cffffff00[{achievement:15079}]|r'
 
 L['the_runecarver'] = '{npc:164937}'
-L['clearing_the_fog_suffix'] = nil
+L['clearing_the_fog_suffix'] = '記憶已解鎖'
 
 -------------------------------------------------------------------------------
 -------------------------------- ZERETH MORTIS --------------------------------
@@ -1057,8 +1057,13 @@ L['coreless_automa_warning'] = '|cFFFF8C00請等待自主機真的跟隨你了�
 
 L['olea_manu'] = '清單中的價格須使用 {currency:1979}'
 
-L['venaris_fate_sublabel'] = nil
-L['venaris_fate_note'] = nil
+L['venaris_fate_sublabel'] = '位於 |cFFFFFF00造物育籃控制臺|r'
+L['venaris_fate_note'] = [[
+1. 和 |cFFFFFF00淵喉|r 裡 |cFFFFFF00維娜里避難所|r 內的虛體化 {npc:162804} 對話.
+2. 如果他還沒有虛體化的話, 則需要推進更多的9.2劇情進度.
+3. 和 |cFFFFFF00澤瑞斯莫提斯|r 的 |cFFFFFF00造物育籃控制臺|r 內 {npc:162804} 的屍體互動.
+4. 5天後, 會收到來自 {npc:162804} 的信並附上 {item:192485}.
+]]
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '顯示 {achievement:15211} 成就的生物位置'
