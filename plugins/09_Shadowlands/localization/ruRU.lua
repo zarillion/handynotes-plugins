@@ -563,14 +563,14 @@ L['inquisitor_note'] = 'Сдайте 100 {currency:1816} у {npc:160248}, что
 L['options_icons_inquisitors'] = 'Инквизиторы'
 L['options_icons_inquisitors_desc'] = 'Показать местоположения инквизиторов для достижения {achievement:14276}.'
 
-L['bell_of_shame_note'] = nil
-L['atonement_crypt_label'] = nil
-L['atonement_crypt_note'] = nil
-L['atonement_crypts_opened'] = nil
+L['bell_of_shame_note'] = 'Каждые 30 минут рядом с {npc:176006}.\n\nЧините {npc:176056} за 30 {currency:1820} а затем позвоните в колокол, чтобы получить бафф от активного призрака.\n\nОдин из призраков, {npc:176043}, дает {spell:346708} что обеспечивает повышенный {item:172957} дроп на территории |cFFFFFD00Чертоги Покаяния|r.'
+L['atonement_crypt_label'] = 'Склеп Покаяния'
+L['atonement_crypt_note'] = 'Откройте |cFFFFFD00Склеп Покаяния|r используя {item:172957}.'
+L['atonement_crypts_opened'] = 'Склепы Покаяния открыты'
 L['atonement_crypt_key_label'] = '{item:172957}'
-L['atonement_crypt_key_note'] = nil
+L['atonement_crypt_key_note'] = '{item:172957} может выпасть из большинства монстров на территории |cFFFFFD00Чертогов Покаяния|r.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nСамый высокий процент выпадения из {npc:158892}.'
 L['options_icons_crypt_kicker'] = '{achievement:14273}'
-L['options_icons_crypt_kicker_desc'] = nil
+L['options_icons_crypt_kicker_desc'] = 'Отображает места для достижения {achievement:14273}.'
 
 L['broken_mirror'] = 'Сломанные зеркала'
 L['broken_mirror_note'] = 'Группа из трех разбитых зеркал будет активна каждый день. Используйте {item:181363}, чтобы починить каждое зеркало и открыть |cFFFFFD00Позабытый сундук|r внутри.'
@@ -584,9 +584,20 @@ L['broken_mirror_61827'] = 'В маленькой комнате.'
 L['options_icons_broken_mirror'] = 'Сломанные зеркала'
 L['options_icons_broken_mirror_desc'] = 'Показать расположение сломанных зеркал.'
 
-L['soulshape_chicken_note'] = nil
+L['soulshape_chicken_note'] = [[
+1. Соберите {item:187811} в |cffffff00Темном Приюте|r
+2. Взять в цель {npc:181660} и используйте эмоцию /цып
+3. |cFFFF8C00Потерянная душа жадно кудахчет вам.|r
+4. Взять в цель {npc:181660} и использовать {item:187811}
+]]
 L['spectral_feed_label'] = '{item:187811}'
-L['spectral_feed_note'] = nil
+L['spectral_feed_note'] = [[
+{item:187811} используется для кормления {npc:181660} в |cffffff00Ревендрете|r для {item:187813}
+
+{item:187811} используется для кормления {npc:182093} в |cFFFFFF00Арденвельде|r для |cFF00FF00[Сытой кошачьей души]|r
+
+|cFFFF8C00{item:187811} имеет 10-минутный таймер и 60-минутное возрождение|r
+]]
 
 -------------------------------------------------------------------------------
 ----------------------------------- THE MAW -----------------------------------
