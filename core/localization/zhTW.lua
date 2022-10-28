@@ -62,7 +62,7 @@ L['hard'] = '困難'
 L['mount'] = '坐騎'
 L['pet'] = '戰寵'
 L['spell'] = '法術'
-L['title'] = nil
+L['title'] = '稱號'
 L['toy'] = '玩具'
 L['rep'] = '聲望'
 L['completed'] = '已完成'
@@ -74,9 +74,9 @@ L['unlearnable'] = '無法解鎖'
 L['defeated'] = '已擊敗'
 L['undefeated'] = '未擊敗'
 
-L['follower_type_follower'] = nil
-L['follower_type_champion'] = nil
-L['follower_type_companion'] = nil
+L['follower_type_follower'] = "追隨者"
+L['follower_type_champion'] = "勇士"
+L['follower_type_companion'] = "夥伴"
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
