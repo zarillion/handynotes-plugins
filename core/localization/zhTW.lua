@@ -74,9 +74,9 @@ L['unlearnable'] = '無法解鎖'
 L['defeated'] = '已擊敗'
 L['undefeated'] = '未擊敗'
 
-L['follower_type_follower'] = "追隨者"
-L['follower_type_champion'] = "勇士"
-L['follower_type_companion'] = "夥伴"
+L['follower_type_follower'] = '追隨者'
+L['follower_type_champion'] = '勇士'
+L['follower_type_companion'] = '夥伴'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
