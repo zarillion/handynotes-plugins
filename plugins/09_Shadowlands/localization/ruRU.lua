@@ -785,24 +785,24 @@ L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
 L['options_icons_covenant_assaults'] = 'Covenant Assaults'
 L['options_icons_covenant_assaults_desc'] = 'Rewards for covenant assaults'
 
-L['assault_sublabel_US'] = nil
-L['assault_sublabel_EU'] = nil
-L['assault_sublabel_CN'] = nil
-L['assault_sublabel_AS'] = nil
+L['assault_sublabel_US'] = 'Нападения меняются во вторник в 8:00 AM PDT и в пятницу в 20:00 PM PDT.'
+L['assault_sublabel_EU'] = 'Нападения меняются в среду в 9:00 по Московскому времени и в субботу в 21:00 по Московскому времени.'
+L['assault_sublabel_CN'] = 'Нападения меняются в четверг в 7:00 CST и в воскресенье в 19:00 CST.'
+L['assault_sublabel_AS'] = 'Нападения меняются в четверг в 8:00 AM KST и в воскресенье в 20:00 PM KST.'
 
 L['necrolord_assault'] = '{quest:63543}'
-L['necrolord_assault_note'] = nil
-L['necrolord_assault_quantity_note'] = nil
+L['necrolord_assault_note'] = '{item:185992} можно получить один раз за нападение'
+L['necrolord_assault_quantity_note'] = 'Открыть Тайник Верных Утробе'
 L['venthyr_assault'] = '{quest:63822}'
-L['venthyr_assault_note'] = nil
-L['venthyr_assault_quantity_note'] = nil
+L['venthyr_assault_note'] = '{item:185990} можно получить один раз за нападение'
+L['venthyr_assault_quantity_note'] = 'Используемые предметы'
 L['night_fae_assault'] = '{quest:63823}'
-L['night_fae_assault_note'] = nil
-L['night_fae_assault_quantity_note'] = nil
+L['night_fae_assault_note'] = '{item:185991} можно получить один раз за нападение'
+L['night_fae_assault_quantity_note'] = 'Открыть Тайник разлома'
 L['kyrian_assault'] = '{quest:63824}'
-L['kyrian_assault_note'] = nil
-L['kyrian_assault_quantity_note1'] = nil
-L['kyrian_assault_quantity_note2'] = nil
+L['kyrian_assault_note'] = '{item:185993} можно получить один раз за нападение'
+L['kyrian_assault_quantity_note1'] = 'Патрик найден'
+L['kyrian_assault_quantity_note2'] = 'Танцы возле кузниц'
 
 -------------------------------------------------------------------------------
 ---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
