@@ -103,7 +103,7 @@ map.nodes[16803520] = Rare({
         Transmog({item = 87601, slot = L['plate']}), -- Plough Driving Grips
         Transmog({item = 87603, slot = L['plate']}) -- Thunderfall Gauntlets
     },
-    pois = {15603100, 15403260, 14003820, 16604100, 19003580}
+    pois = {POI({15603100, 15403260, 14003820, 16604100, 19003580})}
 }) -- Bonobos
 
 map.nodes[18607760] = Rare({
