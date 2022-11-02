@@ -21,6 +21,8 @@ local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
+local POI = ns.poi.POI
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2025, settings = true})
@@ -213,9 +215,13 @@ map.nodes[38466826] = Rare({
 
 -- https://www.wowhead.com/beta/achievement=16301/treasures-of-thaldraszus#comments
 
-map.nodes[76001400] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 16301, criteria = 54815})}
+map.nodes[49436289] = Treasure({
+    quest = 70611,
+    note = L['acorn_harvester_note'],
+    rewards = {
+        Achievement({id = 16301, criteria = 54815}),
+        Pet({item = 193066, id = 3275}) -- Chestnut
+    }
 }) -- Acorn Harvester
 
 map.nodes[78001400] = Treasure({ -- required 70407, 70408
@@ -224,21 +230,24 @@ map.nodes[78001400] = Treasure({ -- required 70407, 70408
     rewards = {Achievement({id = 16301, criteria = 54812})}
 }) -- Amber Gem Cluster
 
-map.nodes[80001400] = Treasure({ -- 70537, 70607
-    quest = nil,
+map.nodes[33967695] = Treasure({
+    quest = 70607,
+    note = L['cracked_hourglass_note'],
     requires = ns.requirement.Item(199068), -- Time-Lost Memo
     rewards = {Achievement({id = 16301, criteria = 54810})}
 }) -- Cracked Hourglass
 
-map.nodes[82001400] = Treasure({
-    quest = nil,
+map.nodes[60244164] = Treasure({
+    quest = 70609,
     rewards = {Achievement({id = 16301, criteria = 54813})}
 }) -- Elegant Canvas Brush
 
-map.nodes[84001400] = Treasure({ -- required 70538, 70608
-    quest = nil,
+map.nodes[58168007] = Treasure({ -- required 70538, 70608
+    quest = 70608,
+    note = L['sandy_wooden_duck_note'],
     requires = ns.requirement.Item(199069), -- Yennu's Map
-    rewards = {Achievement({id = 16301, criteria = 54811})}
+    rewards = {Achievement({id = 16301, criteria = 54811})},
+    pois = {POI({54937543})} -- Yennu's Map
 }) -- Sandy Wooden Duck (Sand Pile)
 
 map.nodes[64851655] = Treasure({
@@ -258,7 +267,7 @@ map.nodes[52458361] = Treasure({
         Pet({item = 201463, id = 3415}) -- Cubbly
     }
 
-}) -- Surveyor's Magnifying Glass
+}) -- Strange Bear Cub
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

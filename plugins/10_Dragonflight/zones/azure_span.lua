@@ -376,14 +376,15 @@ map.nodes[45125940] = Treasure({ -- required 70534, 70603
     rewards = {Achievement({id = 16300, criteria = 54804})}
 }) -- Forgotten Jewel Box
 
-map.nodes[06007200] = Treasure({ -- required 70535, 70604
-    quest = nil,
+map.nodes[53934372] = Treasure({ -- required 70535, 70604
+    quest = 70604,
+    note = L['in_small_cave'] .. ' ' .. L['gnoll_fiend_flail_note'],
     requires = ns.requirement.Item(199066), -- Letter of Caution
     rewards = {Achievement({id = 16300, criteria = 54805})}
 }) -- Gnoll Fiend Flail
 
-map.nodes[08007200] = Treasure({
-    quest = nil,
+map.nodes[74895501] = Treasure({
+    quest = 70606,
     rewards = {Achievement({id = 16300, criteria = 54807})}
 }) -- Lost Compass
 
