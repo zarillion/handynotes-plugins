@@ -232,11 +232,12 @@ map.nodes[69486653] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56044})}
 }) -- Smogswog the Firebreather
 
-map.nodes[24002000] = Rare({ -- review
+map.nodes[78514999] = Rare({ -- required 67030
     id = 193228,
-    quest = nil,
-    rewards = {Achievement({id = 16676, criteria = 56042})}
-}) -- Snappy
+    quest = 69874,
+    rewards = {Achievement({id = 16676, criteria = 56042})},
+    pois = {Path({78825133, 78575081, 78475028, 78514999, 78684964, 78674926})}
+}) -- Snappy (Gorjo the Crab Shackler)
 
 map.nodes[26002000] = Rare({ -- review
     id = 193148,
