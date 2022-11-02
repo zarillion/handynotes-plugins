@@ -396,8 +396,7 @@ map.nodes[51985839] = Treasure({
     label = L['yennus_boat'],
     note = L['yennus_boat_note'],
     rewards = {
-        Achievement({id = 16299, criteria = 54711}),
-        Toy({item = 200878}) -- Wheeled Floaty Boaty Controller
+        Achievement({id = 16299, criteria = 54711}), Toy({item = 200878}) -- Wheeled Floaty Boaty Controller
     }
 }) -- Yennu's Boat
 
@@ -412,6 +411,10 @@ local Lizi = Class('Lizi', Collectible, {
     icon = 4008180, -- Inv_thunderlizardprimal_brown
     quest = {71196, 71197, 71198, 71199, 71195}, -- dailys
     questCount = true,
+    requires = {
+        ns.requirement.Quest(66676), -- Sneaking In
+        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
+    },
     rewards = {Mount({item = 192799, id = 1639})} -- Lizi's Reins
 })
 
