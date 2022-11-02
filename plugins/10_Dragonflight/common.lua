@@ -79,6 +79,10 @@ local Disturbeddirt = Class('Disturbed_dirt', Node, {
         Transmog({item = 201386, slot = L['cosmetic']}), -- Drakonid Defender's Pike
         Item({item = 190453}), -- Spark of Ingenuity
         Item({item = 190454}), -- Primal Chaos
+        Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
+        Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
+        Item({item = 199066, quest = 70535}), -- Letter of Caution
+        Item({item = 199068, quest = 70537}), -- Time-Lost Memo
         Item({item = 192055}), -- Dragon Isles Artifact
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
@@ -104,6 +108,9 @@ local Scoutpack = Class('Scoutpack', Node, {
         Item({item = 191784}), -- Dragon Shard of Knowledge
         Item({item = 190454}), -- Primal Chaos
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
+        Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
+        Item({item = 199066, quest = 70535}), -- Letter of Caution
+        Item({item = 199068, quest = 70537}), -- Time-Lost Memo
         Item({item = 192055}), -- Dragon Isles Artifact
         Currency({id = 2003}) -- Dragon Isles Supplies
     }

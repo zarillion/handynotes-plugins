@@ -37,6 +37,7 @@ L['snarglebone_note'] = nil
 L['trilvarus_loreweaver_note'] = nil
 
 L['forgotten_jewel_box_note'] = nil
+L['gnoll_fiend_flail_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -46,6 +47,8 @@ L['shade_of_grief_note'] = nil
 
 L['nokhud_warspear_note'] = nil
 L['slightly_chewed_duck_egg_note'] = nil
+L['yennus_boat'] = nil
+L['yennus_boat_note'] = nil
 
 L['lizi_note'] = nil
 L['lizi_note_day1'] = nil
@@ -58,6 +61,10 @@ L['lizi_note_day5'] = nil
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
+L['acorn_harvester_note'] = nil
+L['cracked_hourglass_note'] = nil
+L['sandy_wooden_duck_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -65,6 +72,7 @@ L['lizi_note_day5'] = nil
 L['brundin_the_dragonbane_note'] = nil
 L['shasith_note'] = nil
 
+L['bubble_drifter_note'] = nil
 L['onyx_gem_cluster_note'] = nil
 L['replica_dragon_goblet_note'] = nil
 

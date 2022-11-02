@@ -267,6 +267,7 @@ map.nodes[18002200] = Rare({ -- review
 map.nodes[40454136] = Treasure({ -- required 65537, 70599, 70527
     quest = 70599,
     requires = ns.requirement.Item(199061), -- A Guide to Rare Fish
+    note = L['bubble_drifter_note'],
     rewards = {
         Achievement({id = 16297, criteria = 54699}),
         Pet({item = 193852, id = 3269}) -- Azure Frillfish
@@ -430,6 +431,7 @@ map.nodes[57858225] = Disturbeddirt()
 map.nodes[58124968] = Disturbeddirt()
 map.nodes[61815501] = Disturbeddirt()
 map.nodes[70746975] = Disturbeddirt()
+map.nodes[71863677] = Disturbeddirt()
 map.nodes[75580798] = Disturbeddirt()
 map.nodes[78502992] = Disturbeddirt()
 

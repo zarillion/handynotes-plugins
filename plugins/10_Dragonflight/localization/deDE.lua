@@ -37,6 +37,7 @@ L['snarglebone_note'] = 'Erscheint gleichzeitig mit {npc:197353}, {npc:197356} u
 L['trilvarus_loreweaver_note'] = 'Sammel ein Singing Fragment un den Schwächungszauber {spell:382076} zu erhalten und benutze dann den Ungeladenen Focus.'
 
 L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Klankiste in Gratwasserzuflucht (49.4 67.3) in den Ebenen von Ohn\'ahra und benutze es.'
+L['gnoll_fiend_flail_note'] = '{item:199066} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -46,6 +47,8 @@ L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner z
 
 L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks enthalten sein.'
 L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutz diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
+L['yennus_boat'] = 'Spielzeugboot der Tuskarr'
+L['yennus_boat_note'] = 'Plündere das Spielzeugboot der Tuskarr, um {item:200876} zu erhalten, das die Quest {quest:72063} startet, die bei {npc:195252} abgegeben werden kann.'
 
 L['lizi_note'] = 'Schließe den Initiate\'s Day Out Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Sammel 20x {item:192615} von Insekten-Gegnern auf den |cFFFFFD00Dracheninseln|r'
@@ -58,6 +61,10 @@ L['lizi_note_day5'] = 'Kaufe 1x {item:200598} von {npc:190015} in einem Zelt sü
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
+L['acorn_harvester_note'] = 'Sammel in der Nähe eine Eichel vom Boden auf, um {spell:388485} zu erhalten und interagiere dann mit {npc:196172}.'
+L['cracked_hourglass_note'] = '{item:199068} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
+L['sandy_wooden_duck_note'] = 'Sammel {item:199069} und benutze diese.'
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -65,6 +72,7 @@ L['lizi_note_day5'] = 'Kaufe 1x {item:200598} von {npc:190015} in einem Zelt sü
 L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem {npc:192737} zu diesem Turm.'
 L['shasith_note'] = nil
 
+L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['onyx_gem_cluster_note'] = 'Kaufe {item:200738} von {npc:189065} für 3 {item:192863} und 500 {currency:2003} auf Ruhmstufe 21 bei der Drachenschuppenexpedition und benutze es.'
 L['replica_dragon_goblet_note'] = 'Kaufe {item:198854} von {npc:193915} in Botschaft von Schwingenrast und benutze es.'
 

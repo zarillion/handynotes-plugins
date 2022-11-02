@@ -18,6 +18,7 @@ local PetBattle = ns.node.PetBattle
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
@@ -390,9 +391,14 @@ map.nodes[70603543] = Treasure({
     pois = {Path({61044337, 61274149, 61524124, 61754141, 61864232})}
 }) -- Slightly Chewed Duck Egg (Dirt Mound)
 
-map.nodes[16001600] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 16299, criteria = 54711})}
+map.nodes[51985839] = Treasure({
+    quest = {70400, 72063}, -- Treasure, Return Yennu's Toy Boat
+    label = L['yennus_boat'],
+    note = L['yennus_boat_note'],
+    rewards = {
+        Achievement({id = 16299, criteria = 54711}),
+        Toy({item = 200878}) -- Wheeled Floaty Boaty Controller
+    }
 }) -- Yennu's Boat
 
 -------------------------------------------------------------------------------
@@ -465,6 +471,7 @@ map.nodes[41103789] = Disturbeddirt()
 map.nodes[42335555] = Disturbeddirt()
 map.nodes[43316632] = Disturbeddirt()
 map.nodes[49716952] = Disturbeddirt()
+map.nodes[55197076] = Disturbeddirt()
 map.nodes[51936274] = Disturbeddirt()
 map.nodes[62171310] = Disturbeddirt()
 map.nodes[63251396] = Disturbeddirt()
