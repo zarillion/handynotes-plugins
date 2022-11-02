@@ -408,11 +408,11 @@ map.nodes[51985839] = Treasure({
 -- https://www.wowhead.com/news/lizi-thunderspine-trampler-nurse-a-thunderspine-to-health-for-a-mount-in-328734
 
 local Lizi = Class('Lizi', Collectible, {
-    id = nil,
+    id = 190014, -- Initiate Radiya
     icon = 4008180, -- Inv_thunderlizardprimal_brown
-    quest = {nil, nil, nil, nil, nil}, -- daily: nil
+    quest = {71196, 71197, 71198, 71199, 71195}, -- dailys
     questCount = true,
-    rewards = {Mount({item = 192799, id = 1639})} -- Thunderspine Behemoth
+    rewards = {Mount({item = 192799, id = 1639})} -- Lizi's Reins
 })
 
 function Lizi.getters:note()
