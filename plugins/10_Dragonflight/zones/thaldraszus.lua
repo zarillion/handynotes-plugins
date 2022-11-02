@@ -18,6 +18,7 @@ local PetBattle = ns.node.PetBattle
 local Achievement = ns.reward.Achievement
 -- local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 -------------------------------------------------------------------------------
@@ -44,13 +45,14 @@ local map = Map({id = 2025, settings = true})
 --     }
 -- }) -- Blightpaw the Depraved
 
--- map.nodes[] = Rare({ -- required 67030
---     id = 193220,
---     quest = 69868,
---     rewards = {
---         Achievement({id = 16679, criteria = 56149}),
---     }
--- }) -- Broodweaver Araznae
+map.nodes[59847057] = Rare({ -- required 67030
+    id = 193220,
+    quest = 69868,
+    rewards = {
+        Achievement({id = 16679, criteria = 56149}),
+        Transmog({item = 200138, slot = L['polearm']}) -- Ancient Dancer's Longspear
+    }
+}) -- Broodweaver Araznae
 
 -- map.nodes[] = Rare({
 --     id = 193658,
