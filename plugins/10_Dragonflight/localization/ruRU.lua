@@ -6,25 +6,25 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['dragon_glyph'] = nil
-L['options_icons_dragon_glyph'] = nil
-L['options_icons_dragon_glyph_desc'] = nil
+L['dragon_glyph'] = 'Драконий символ'
+L['options_icons_dragon_glyph'] = 'Драконий символ'
+L['options_icons_dragon_glyph_desc'] = 'Показать расположение всех 48 драконьих символов.'
 
-L['dragonscale_expedition_flag'] = nil
-L['flags_placed'] = nil
+L['dragonscale_expedition_flag'] = 'Флаг Драконьей экспедиции'
+L['flags_placed'] = 'высокий пик'
 L['options_icons_flag'] = '{achievement:15890}'
-L['options_icons_flag_desc'] = nil
+L['options_icons_flag_desc'] = 'Показать расположение всех 20 флагов для достижения {achievement:15890}.'
 
 L['options_icons_kite'] = '{achievement:16584}'
-L['options_icons_kite_desc'] = nil
+L['options_icons_kite_desc'] = 'Показать местоположение {npc:198118} для достижения {achievement:16584}.'
 
-L['disturbed_dirt'] = nil
-L['options_icons_disturbed_dirt'] = nil
-L['options_icons_disturbed_dirt_desc'] = nil
+L['disturbed_dirt'] = 'Потревоженная почва'
+L['options_icons_disturbed_dirt'] = 'Потревоженная почва'
+L['options_icons_disturbed_dirt_desc'] = 'Показать местоположение потревоженной почвы.'
 
-L['scout_pack'] = nil
-L['options_icons_scout_pack'] = nil
-L['options_icons_scout_pack_desc'] = nil
+L['scout_pack'] = 'Сумка разведчика экспедиции'
+L['options_icons_scout_pack'] = 'Сумка разведчика экспедиции'
+L['options_icons_scout_pack_desc'] = 'Отображение местоположения Сумок разведчиков экспедиции.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
