@@ -1,6 +1,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('ruRU')
 if not L then return end
+-- Russian translation by ZamestoTV
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON ISLES ---------------------------------
