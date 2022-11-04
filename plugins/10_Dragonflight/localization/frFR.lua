@@ -38,7 +38,7 @@ L['snarglebone_note'] = 'Apparaît simultanément avec {npc:197353}, {npc:197356
 L['trilvarus_loreweaver_note'] = 'Récupérez un Fragment chantant pour obtenir {spell:382076} et utilisez le Focalisateur déchargé pour faire apparaître le rare.'
 
 L['forgotten_jewel_box_note'] = 'Récupérez la {item:199065} dans un Coffre clanique au Refuge d\'Ondecrête (49.4 67.3) dans les Plaines d\'Ohn\'ahra et utilisez-la.'
-L['gnoll_fiend_flail_note'] = nil
+L['gnoll_fiend_flail_note'] = '{item:199066} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -46,10 +46,10 @@ L['gnoll_fiend_flail_note'] = nil
 
 L['shade_of_grief_note'] = 'Cliquez sur la {npc:193166} pour faire apparaître le rare.'
 
-L['nokhud_warspear_note'] = '{item:194540} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition.'
+L['nokhud_warspear_note'] = '{item:194540} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['slightly_chewed_duck_egg_note'] = 'Trouvez et caressez {npc:192997} pour obtenir une {item:195453} puis utilisez-la. l\'{item:199171} incube pendant 3 jours pour devenir {item:199172}.'
-L['yennus_boat'] = nil
-L['yennus_boat_note'] = nil
+L['yennus_boat'] = 'Bateau jouet rohart'
+L['yennus_boat_note'] = 'Récupérez le Bateau jouet rohart pour obtenir {item:200876}, ce qui lance la quête {quest:72063} qui peut être rendue à {npc:195252}.'
 
 L['lizi_note'] = 'Terminez la suite de quêtes Une sortie d’initié en commençant par {quest:65901}. Accomplissez les quêtes chaque jour pour soigner Lizi et recevoir votre monture.\n\nEn plus des objets requis, toutes les quêtes demandent 150x {currency:2003} pour un total de 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Collectez 20x {item:192615} sur des monstres insectes dans les |cFFFFFD00Îles aux Dragons|r'
@@ -62,9 +62,9 @@ L['lizi_note_day5'] = 'Achetez 1x {item:200598} à {npc:190015} dans une tente a
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['acorn_harvester_note'] = nil
-L['cracked_hourglass_note'] = nil
-L['sandy_wooden_duck_note'] = nil
+L['acorn_harvester_note'] = 'Ramassez un Gland sur le sol à proximité pour obtenir {spell:388485} et interagissez ensuite avec {npc:196172}.'
+L['cracked_hourglass_note'] = '{item:199068} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
+L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -73,7 +73,7 @@ L['sandy_wooden_duck_note'] = nil
 L['brundin_the_dragonbane_note'] = 'La Troupe Qalashi voyage sur leur {npc:192737} jusqu\'à cette Tour.'
 L['shasith_note'] = 'à l\'intérieur du Trône d\'obsidienne. \n\nNÉCESSITE PLUS DE RECHERCHES'
 
-L['bubble_drifter_note'] = nil
+L['bubble_drifter_note'] = '{item:199061} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['onyx_gem_cluster_note'] = 'Achetez une {item:200738} à {npc:189065} pour 3 {item:192863} et 500 {currency:2003} au Renom 21 avec l\'Expédition du Dracaret et utilisez-la.'
 L['replica_dragon_goblet_note'] = 'Achetez une {item:198854} à {npc:193915} à l\'Ambassade de Trêve-Ailée et utilisez-la.'
 
