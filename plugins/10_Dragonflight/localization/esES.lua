@@ -41,6 +41,17 @@ L['forgotten_jewel_box_note'] = 'Despoja la {item:199065} de un Cofre del Clan e
 L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 
 -------------------------------------------------------------------------------
+------------------------------- FORBIDDEN REACH -------------------------------
+-------------------------------------------------------------------------------
+
+L['bag_of_enchanted_wind'] = nil
+L['bag_of_enchanted_wind_note'] = nil
+L['hessethiash_treasure'] = nil
+L['lost_draconic_hourglass'] = nil
+L['mysterious_wand'] = nil
+L['mysterious_wand_note'] = nil
+
+-------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 

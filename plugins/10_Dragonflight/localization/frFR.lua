@@ -41,6 +41,17 @@ L['forgotten_jewel_box_note'] = 'Récupérez la {item:199065} dans un Coffre cla
 L['gnoll_fiend_flail_note'] = '{item:199066} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 
 -------------------------------------------------------------------------------
+------------------------------- FORBIDDEN REACH -------------------------------
+-------------------------------------------------------------------------------
+
+L['bag_of_enchanted_wind'] = nil
+L['bag_of_enchanted_wind_note'] = nil
+L['hessethiash_treasure'] = nil
+L['lost_draconic_hourglass'] = nil
+L['mysterious_wand'] = nil
+L['mysterious_wand_note'] = nil
+
+-------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
