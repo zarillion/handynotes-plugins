@@ -40,6 +40,17 @@ L['forgotten_jewel_box_note'] = 'Loot {item:199065} from a Clan Chest in Ridgewa
 L['gnoll_fiend_flail_note'] = '{item:199066} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 
 -------------------------------------------------------------------------------
+------------------------------- FORBIDDEN REACH -------------------------------
+-------------------------------------------------------------------------------
+
+L['bag_of_enchanted_wind'] = 'Bag of Enchanted Wind'
+L['bag_of_enchanted_wind_note'] = 'Located up in the tower.'
+L['hessethiash_treasure'] = 'Hessethiash\'s Poorly Hidden Treasure'
+L['lost_draconic_hourglass'] = 'Lost Draconic Hourglass'
+L['mysterious_wand'] = 'Mysterious Wand'
+L['mysterious_wand_note'] = 'Pick up the Crystal Key and place it into the Crystal Focus.'
+
+-------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 

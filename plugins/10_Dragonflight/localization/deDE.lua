@@ -40,6 +40,17 @@ L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Klankiste in 
 L['gnoll_fiend_flail_note'] = '{item:199066} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 
 -------------------------------------------------------------------------------
+------------------------------- FORBIDDEN REACH -------------------------------
+-------------------------------------------------------------------------------
+
+L['bag_of_enchanted_wind'] = 'Tasche mit verzaubertem Wind'
+L['bag_of_enchanted_wind_note'] = 'Befindet sich oben im Turm.'
+L['hessethiash_treasure'] = 'Hessethiashs erbärmlich versteckter Schatz'
+L['lost_draconic_hourglass'] = 'Verlorenes drakonisches Stundenglas'
+L['mysterious_wand'] = 'Geheimnisvoller Zauberstab'
+L['mysterious_wand_note'] = 'Hebe den Krstallschlüssel auf und platziere ihn im Kristallfokus.'
+
+-------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
