@@ -306,8 +306,8 @@ map.nodes[24002200] = Treasure({ -- required 70528, 70598
     rewards = {Achievement({id = 16297, criteria = 54713})}
 }) -- Ruby Gem Cluster
 
-map.nodes[26002200] = Treasure({
-    quest = nil,
+map.nodes[48488518] = Treasure({
+    quest = 70378,
     rewards = {Achievement({id = 16297, criteria = 54703})}
 }) -- Torn Riding Pack
 
