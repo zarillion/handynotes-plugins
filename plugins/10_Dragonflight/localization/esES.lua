@@ -44,12 +44,12 @@ L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las Moch
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
 
-L['bag_of_enchanted_wind'] = nil
-L['bag_of_enchanted_wind_note'] = nil
-L['hessethiash_treasure'] = nil
-L['lost_draconic_hourglass'] = nil
-L['mysterious_wand'] = nil
-L['mysterious_wand_note'] = nil
+L['bag_of_enchanted_wind'] = 'Bolsa de Vientos Encantados'
+L['bag_of_enchanted_wind_note'] = 'Está en lo alto de la torre.'
+L['hessethiash_treasure'] = 'Tesoro Mal Escondido de Hessethiash'
+L['lost_draconic_hourglass'] = 'Reloj de Arena Dracónico Perdido'
+L['mysterious_wand'] = 'Varita Misteriosa'
+L['mysterious_wand_note'] = 'Coge la Llave de Cristal y ponla dentro del Foco de Cristal.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
