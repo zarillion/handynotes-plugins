@@ -38,10 +38,13 @@ map.nodes[63695509] = Rare({ -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56045})}
 }) -- Amethyzar the Glittering
 
-map.nodes[20001600] = Rare({ -- review
+map.nodes[58634021] = Rare({
     id = 187945,
     quest = nil,
-    rewards = {Achievement({id = 16676, criteria = 56035})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56035}),
+        Item({item = 197098, quest = 69299}) -- Highland Drake: Finned Back
+    }
 }) -- Anhydros the Tidetaker
 
 map.nodes[54517174] = Rare({ -- review -- required 67030
@@ -50,7 +53,7 @@ map.nodes[54517174] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56041})}
 }) -- Azra's Prized Peony
 
-map.nodes[22001600] = Rare({ -- review
+map.nodes[28635882] = Rare({ -- review
     id = 190986,
     quest = nil,
     rewards = {Achievement({id = 16676, criteria = 56059})}
@@ -89,7 +92,7 @@ map.nodes[26285788] = Rare({
     }
 }) -- Cauldronbearer Blakor
 
-map.nodes[26001600] = Rare({ -- review
+map.nodes[29485272] = Rare({ -- review
     id = 190991,
     quest = nil,
     rewards = {Achievement({id = 16676, criteria = 56060})}
@@ -181,13 +184,13 @@ map.nodes[81634820] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56043})}
 }) -- O'nank Shorescour
 
-map.nodes[24001800] = Rare({ -- review
+map.nodes[64926956] = Rare({ -- review
     id = 192362,
     quest = nil,
     rewards = {Achievement({id = 16676, criteria = 56051})}
 }) -- Possessive Hornswog
 
-map.nodes[26001800] = Rare({ -- review
+map.nodes[30226045] = Rare({ -- review
     id = 193232,
     quest = nil,
     rewards = {Achievement({id = 16676, criteria = 56061})}
@@ -239,10 +242,13 @@ map.nodes[78514999] = Rare({ -- required 67030
     pois = {Path({78825133, 78575081, 78475028, 78514999, 78684964, 78674926})}
 }) -- Snappy (Gorjo the Crab Shackler)
 
-map.nodes[26002000] = Rare({ -- review
+map.nodes[45453540] = Rare({
     id = 193148,
     quest = 69841,
-    rewards = {Achievement({id = 16676, criteria = 56040})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56040}),
+        Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
+    }
 }) -- Thunderous Matriarch
 
 map.nodes[33525576] = Rare({
