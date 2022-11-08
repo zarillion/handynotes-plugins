@@ -77,6 +77,8 @@ local Disturbeddirt = Class('Disturbed_dirt', Node, {
     },
     rewards = {
         Transmog({item = 201386, slot = L['cosmetic']}), -- Drakonid Defender's Pike
+        Transmog({item = 201388, slot = L['cosmetic']}), -- Dragonspawn Wingtipped Staff
+        Transmog({item = 201390, slot = L['cosmetic']}), -- Devastating Drakonid Waraxe
         Item({item = 190453}), -- Spark of Ingenuity
         Item({item = 190454}), -- Primal Chaos
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
@@ -101,7 +103,8 @@ local Scoutpack = Class('Scoutpack', Node, {
     requires = ns.requirement.Quest(70822), -- Lost Expedition Scouts
     rewards = {
         Transmog({item = 201387, slot = L['cosmetic']}), -- Dragon Knight's Halberd
-        Transmog({item = 201390, slot = L['cosmetic']}), -- Dracthyr's Devastating Waraxe
+        Transmog({item = 201388, slot = L['cosmetic']}), -- Dragonspawn Wingtipped Staff
+        Transmog({item = 201390, slot = L['cosmetic']}), -- Devastating Drakonid Waraxe
         Transmog({item = 201392, slot = L['cosmetic']}), -- Dragon Noble's Cutlass
         Transmog({item = 201395, slot = L['cosmetic']}), -- Dragon Wingcrest Scimitar
         Transmog({item = 201396, slot = L['cosmetic']}), -- Dracthyr Claw Extensions
