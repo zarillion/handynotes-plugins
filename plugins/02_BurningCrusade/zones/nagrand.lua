@@ -23,7 +23,7 @@ local map = Map({id = 107, settings = true})
 map.nodes[35404720] = Rare({
     id = 17144,
     rewards = {
-        Achievement({id = 1312, criteria = 4523}), -- Bloody Rare
+        Achievement({id = 1312, criteria = 4513}), -- Bloody Rare
         Transmog({item = 31192, slot = L['cloth']}), -- Crocolisk Hide Bindings
         Transmog({item = 31191, slot = L['leather']}), -- Crocolisk Hide Bracers
         Transmog({item = 31189, slot = L['mail']}), -- Crocolisk Scale Wristguards
@@ -35,7 +35,7 @@ map.nodes[35404720] = Rare({
 map.nodes[35806560] = Rare({
     id = 18683,
     rewards = {
-        Achievement({id = 1312, criteria = 4511}), -- Bloody Rare
+        Achievement({id = 1312, criteria = 4522}), -- Bloody Rare
         Transmog({item = 31199, slot = L['cloth']}), -- Voidweave Cilice
         Transmog({item = 31198, slot = L['leather']}), -- Voidhide Cord
         Transmog({item = 31197, slot = L['mail']}), -- Voidscale Belt
