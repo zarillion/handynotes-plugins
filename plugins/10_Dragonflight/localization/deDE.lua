@@ -31,6 +31,7 @@ L['options_icons_scout_pack_desc'] = 'Zeigt die Position für Expeditionsspäher
 -------------------------------------------------------------------------------
 
 L['blisterhide_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197356} und {npc:197354}'
+L['fisherman_tinnak_note'] = 'Sammel Broken Fishing Pole, Torn Fishing Net und Old Harpoon, um ihn zu beschwören.' -- review
 L['gnarls_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197353} und {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197353} und {npc:197354}'
 L['snarglebone_note'] = 'Erscheint gleichzeitig mit {npc:197353}, {npc:197356} und {npc:197354}'
