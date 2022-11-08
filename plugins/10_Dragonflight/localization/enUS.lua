@@ -31,6 +31,7 @@ L['options_icons_scout_pack_desc'] = 'Display the location of Expedition Scout\'
 -------------------------------------------------------------------------------
 
 L['blisterhide_note'] = 'Appears simultaneously with {npc:197344}, {npc:197356} and {npc:197354}'
+L['fisherman_tinnak_note'] = 'Collect Broken Fishing Pole, Torn Fishing Net and Old Harpoon to spawn the rare.'
 L['gnarls_note'] = 'Appears simultaneously with {npc:197344}, {npc:197353} and {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Appears simultaneously with {npc:197344}, {npc:197353} and {npc:197354}'
 L['snarglebone_note'] = 'Appears simultaneously with {npc:197353}, {npc:197356} and {npc:197354}'

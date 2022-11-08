@@ -31,6 +31,7 @@ L['options_icons_scout_pack_desc'] = nil
 -------------------------------------------------------------------------------
 
 L['blisterhide_note'] = nil
+L['fisherman_tinnak_note'] = nil
 L['gnarls_note'] = nil
 L['high_shaman_rotknuckle_note'] = nil
 L['snarglebone_note'] = nil

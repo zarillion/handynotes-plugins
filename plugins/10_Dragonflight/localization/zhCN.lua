@@ -31,6 +31,7 @@ L['options_icons_scout_pack_desc'] = '显示探险队斥候包裹的位置。'
 -------------------------------------------------------------------------------
 
 L['blisterhide_note'] = '同 {npc:197344}、{npc:197356}、{npc:197354} 同时出现。'
+L['fisherman_tinnak_note'] = nil
 L['gnarls_note'] = '同 {npc:197344}、{npc:197353}、{npc:197356} 同时出现。'
 L['high_shaman_rotknuckle_note'] = '同 {npc:197344}、{npc:197353}、{npc:197354} 同时出现。'
 L['snarglebone_note'] = '同 {npc:197353}、{npc:197356}、{npc:197354} 同时出现。'

@@ -32,6 +32,7 @@ L['options_icons_scout_pack_desc'] = 'Muestra dónde están las Mochilas de Expl
 -------------------------------------------------------------------------------
 
 L['blisterhide_note'] = 'Aparece simultáneamente con {npc:197344}, {npc:197356} y {npc:197354}.'
+L['fisherman_tinnak_note'] = nil
 L['gnarls_note'] = 'Aparece simultáneamente con {npc:197344}, {npc:197353} y {npc:197356}.'
 L['high_shaman_rotknuckle_note'] = 'Aparece simultáneamente con {npc:197344}, {npc:197353} y {npc:197354}.'
 L['snarglebone_note'] = 'Aparece simultáneamente con {npc:197353}, {npc:197356} y {npc:197354}.'
