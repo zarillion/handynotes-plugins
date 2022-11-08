@@ -31,17 +31,15 @@ local map = Map({id = 2025, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[] = Rare({
---     id = 193664,
---     quest = 69963,
---     rewards = {
---         Achievement({id = 16679, criteria = 56158}),
---     }
--- }) -- Ancient Protector
+map.nodes[59545917] = Rare({ -- review
+    id = 193664,
+    quest = 69963,
+    rewards = {Achievement({id = 16679, criteria = 56158})}
+}) -- Ancient Protector
 
 -- map.nodes[] = Rare({
 --     id = 193128,
---     quest = ,
+--     quest = nil,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56136}),
 --     }
@@ -56,13 +54,16 @@ map.nodes[59847057] = Rare({ -- required 67030
     }
 }) -- Broodweaver Araznae
 
--- map.nodes[] = Rare({
---     id = 193658,
---     quest = 69962,
---     rewards = {
---         Achievement({id = 16679, criteria = 56156}),
---     }
--- }) -- Corrupted Proto-Dragon
+map.nodes[44886910] = Rare({
+    id = 193658,
+    quest = 69962,
+    note = L['in_cave'],
+    rewards = {
+        Achievement({id = 16679, criteria = 56156}),
+        Transmog({item = 199020, slot = L['gun']}) -- Drake Race Starting Rifle of the Fireflash
+    },
+    pois = {POI({44616780})} -- Entrance
+}) -- Corrupted Proto-Dragon
 
 local CRAGGRAVATEDELEMENTAL = Rare({
     id = 193663,
@@ -83,19 +84,17 @@ map.nodes[47675115] = Rare({ -- required 67030
 
 -- map.nodes[] = Rare({
 --     id = 193125,
---     quest = ,
+--     quest = nil,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56138}),
 --     }
 -- }) -- Goremaul the Gluttonous
 
--- map.nodes[] = Rare({
---     id = 193126,
---     quest = ,
---     rewards = {
---         Achievement({id = 16679, criteria = 56135}),
---     }
--- }) -- Innumerable Ruination
+map.nodes[57828380] = Rare({ -- review
+    id = 193126,
+    quest = nil,
+    rewards = {Achievement({id = 16679, criteria = 56135})}
+}) -- Innumerable Ruination
 
 -- map.nodes[] = Rare({
 --     id = 193241,
@@ -121,17 +120,15 @@ map.nodes[47675115] = Rare({ -- required 67030
 --     }
 -- }) -- Phenran
 
--- map.nodes[] = Rare({ -- reqired 67030
---     id = 193210,
---     quest = 69866,
---     rewards = {
---         Achievement({id = 16679, criteria = 56142}),
---     }
--- }) -- Phleep
+map.nodes[57218420] = Rare({ -- reqired 67030 review
+    id = 193210,
+    quest = 69866,
+    rewards = {Achievement({id = 16679, criteria = 56142})}
+}) -- Phleep
 
 -- map.nodes[] = Rare({
 --     id = 193130,
---     quest = ,
+--     quest = nil,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56137}),
 --     }
@@ -151,13 +148,11 @@ map.nodes[40087014] = Rare({ -- reqiured 67030
     rewards = {Achievement({id = 16679, criteria = 56148})}
 }) -- Riverwalker Tamopo
 
--- map.nodes[] = Rare({ -- reqiured 67030
---     id = 193666,
---     quest = 69966,
---     rewards = {
---         Achievement({id = 16679, criteria = 56151}),
---     }
--- }) -- Rokmur
+map.nodes[50005180] = Rare({ -- reqiured 67030 review
+    id = 193666,
+    quest = 69966,
+    rewards = {Achievement({id = 16679, criteria = 56151})}
+}) -- Rokmur
 
 -- map.nodes[] = Rare({ -- reqiured 67030
 --     id = 193176,
@@ -193,13 +188,11 @@ map.nodes[38466826] = Rare({
 --     }
 -- }) -- The Weeping Vilomah
 
--- map.nodes[] = Rare({ -- reqiured 67030
---     id = 193146,
---     quest = 70947,
---     rewards = {
---         Achievement({id = 16679, criteria = 56146}),
---     }
--- }) -- Treasure-Mad Trambladd
+map.nodes[35027001] = Rare({ -- reqiured 67030 review
+    id = 193146,
+    quest = 70947,
+    rewards = {Achievement({id = 16679, criteria = 56146})}
+}) -- Treasure-Mad Trambladd
 
 -- map.nodes[] = Rare({
 --     id = 193161,
