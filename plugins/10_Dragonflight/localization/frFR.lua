@@ -32,7 +32,7 @@ L['options_icons_scout_pack_desc'] = 'Affichez les emplacements des Paquetages d
 -------------------------------------------------------------------------------
 
 L['blisterhide_note'] = 'Apparaît simultanément avec {npc:197344}, {npc:197356} et {npc:197354}'
-L['fisherman_tinnak_note'] = nil
+L['fisherman_tinnak_note'] = 'Récupérez la Canne à pêche cassée, le Filet de pêche déchiré et le Vieux harpon pour faire apparaître le rare.'
 L['gnarls_note'] = 'Apparaît simultanément avec {npc:197344}, {npc:197353} et {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Apparaît simultanément avec {npc:197344}, {npc:197353} et {npc:197354}'
 L['snarglebone_note'] = 'Apparaît simultanément avec {npc:197353}, {npc:197356} et {npc:197354}'
