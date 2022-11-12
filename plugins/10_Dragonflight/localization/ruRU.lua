@@ -40,6 +40,7 @@ L['trilvarus_loreweaver_note'] = nil
 
 L['forgotten_jewel_box_note'] = nil
 L['gnoll_fiend_flail_note'] = nil
+L['pepper_hammer_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -58,6 +59,7 @@ L['mysterious_wand_note'] = nil
 
 L['shade_of_grief_note'] = nil
 
+L['gold_swong_coin_note'] = nil
 L['nokhud_warspear_note'] = nil
 L['slightly_chewed_duck_egg_note'] = nil
 L['yennus_boat'] = nil

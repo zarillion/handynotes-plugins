@@ -16,6 +16,7 @@ local Treasure = ns.node.Treasure
 local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
@@ -354,9 +355,11 @@ map.nodes[72232306] = Rare({
 
 -- https://www.wowhead.com/beta/achievement=16299/treasures-of-the-ohnahran-plains#comments
 
-map.nodes[18001600] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 16299, criteria = 54709})}
+map.nodes[73495613] = Treasure({
+    quest = 70402,
+    rewards = {
+        Achievement({id = 16299, criteria = 54709}), Toy({item = 200869}) -- Ohn Lite Branded Horn
+    }
 }) -- Cracked Centaur Horn
 
 map.nodes[20001600] = Treasure({ -- required 70392, 70391
@@ -365,9 +368,13 @@ map.nodes[20001600] = Treasure({ -- required 70392, 70391
     rewards = {Achievement({id = 16299, criteria = 54700})}
 }) -- Emerald Gem Cluster
 
-map.nodes[22001600] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 16299, criteria = 54710})}
+map.nodes[82327339] = Treasure({
+    quest = 70379,
+    note = L['gold_swong_coin_note'],
+    rewards = {
+        Achievement({id = 16299, criteria = 54710}), Item({item = 199338}) -- Copper Coin of the Isles
+    },
+    pois = {POI({81847223})}
 }) -- Gold Swog Coin
 
 map.nodes[32423817] = Treasure({ -- required 67046, 67049

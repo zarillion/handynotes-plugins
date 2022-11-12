@@ -40,6 +40,7 @@ L['trilvarus_loreweaver_note'] = 'Récupérez un Fragment chantant pour obtenir 
 
 L['forgotten_jewel_box_note'] = 'Récupérez la {item:199065} dans un Coffre clanique au Refuge d\'Ondecrête (49.4 67.3) dans les Plaines d\'Ohn\'ahra et utilisez-la.'
 L['gnoll_fiend_flail_note'] = '{item:199066} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
+L['pepper_hammer_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -58,6 +59,7 @@ L['mysterious_wand_note'] = 'Ramassez la Clé en cristal et placez-la dans le Fo
 
 L['shade_of_grief_note'] = 'Cliquez sur la {npc:193166} pour faire apparaître le rare.'
 
+L['gold_swong_coin_note'] = nil
 L['nokhud_warspear_note'] = '{item:194540} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['slightly_chewed_duck_egg_note'] = 'Trouvez et caressez {npc:192997} pour obtenir une {item:195453} puis utilisez-la. l\'{item:199171} incube pendant 3 jours pour devenir {item:199172}.'
 L['yennus_boat'] = 'Bateau jouet rohart'

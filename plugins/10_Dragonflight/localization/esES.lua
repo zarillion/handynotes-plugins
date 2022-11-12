@@ -40,6 +40,7 @@ L['trilvarus_loreweaver_note'] = 'Recoge Fragmentos Cantarines para conseguir {s
 
 L['forgotten_jewel_box_note'] = 'Despoja la {item:199065} de un Cofre del Clan en Retiro Crestagua (49.4 67.3) en las Llanuras de Ohn\'ahran y úsala.'
 L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
+L['pepper_hammer_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -66,6 +67,7 @@ L['mysterious_wand_note'] = 'Coge la Llave de Cristal y ponla dentro del Foco de
 -- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 
+L['gold_swong_coin_note'] = nil
 L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['slightly_chewed_duck_egg_note'] = 'Encuentra y acaricia a {npc:192997} para conseguir el {item:195453} y entonces usarlo. Tras incubar el {item:199171} durante 3 días eclosionará en {item:199172}.'
 L['yennus_boat'] = 'Barco de Juguete Tuskarr'
