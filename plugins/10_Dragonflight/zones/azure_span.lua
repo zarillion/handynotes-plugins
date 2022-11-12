@@ -18,7 +18,7 @@ local PetBattle = ns.node.PetBattle
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 -- local Mount = ns.reward.Mount
--- local Pet = ns.reward.Pet
+local Pet = ns.reward.Pet
 -- local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
@@ -393,13 +393,17 @@ map.nodes[74895501] = Treasure({
     rewards = {Achievement({id = 16300, criteria = 54807})}
 }) -- Lost Compass
 
-map.nodes[10007200] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 16300, criteria = 54809})}
+map.nodes[26544626] = Treasure({
+    quest = 70441,
+    note = L['pepper_hammer_note'],
+    rewards = {
+        Achievement({id = 16300, criteria = 54809}),
+        Pet({item = 193834, id = 3321}) -- Blackfeather Nester
+    }
 }) -- Pepper Hammer
 
-map.nodes[12007200] = Treasure({
-    quest = nil,
+map.nodes[54612932] = Treasure({
+    quest = 70380,
     rewards = {Achievement({id = 16300, criteria = 54808})}
 }) -- Rubber Fish
 

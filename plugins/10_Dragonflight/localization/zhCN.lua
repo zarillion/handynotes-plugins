@@ -39,6 +39,7 @@ L['trilvarus_loreweaver_note'] = '收集歌声碎片即可获得 {spell:382076} 
 
 L['forgotten_jewel_box_note'] = '从欧恩哈拉平原的峦水居所拾取 {item:199065} 氏族宝箱（49.4 67.3）并使用它。'
 L['gnoll_fiend_flail_note'] = nil
+L['pepper_hammer_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -65,6 +66,7 @@ L['mysterious_wand_note'] = nil
 -- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = '点击 {npc:193166} 刷新稀有。'
 
+L['gold_swong_coin_note'] = nil
 L['nokhud_warspear_note'] = '{item:194540} 可以在探险队斥候包裹找到。'
 L['slightly_chewed_duck_egg_note'] = '找到并拍打 {npc:192997} 获得 {item:195453} 并使用它。{item:199171} 3天后孵化为 {item:199172}。'
 L['yennus_boat'] = nil

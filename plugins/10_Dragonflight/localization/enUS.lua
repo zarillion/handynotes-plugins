@@ -39,6 +39,7 @@ L['trilvarus_loreweaver_note'] = 'Collect a |cFFFFFD00Singing Fragment|r to get 
 
 L['forgotten_jewel_box_note'] = 'Loot {item:199065} from a Clan Chest in Ridgewater Retreat (49.4 67.3) on the Ohn\'ahran Plains and use it.'
 L['gnoll_fiend_flail_note'] = '{item:199066} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
+L['pepper_hammer_note'] = 'Collect |cFFFFFD00Tree Sap|r and then use the |cFFFFFD00Stick|r to lure the {npc:195373}.\n\n|cFFFF0000(BUG: To click on the stick a reload might be necessary)|r'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -65,6 +66,7 @@ L['mysterious_wand_note'] = 'Pick up the |cFFFFFD00Crystal Key|r and place it in
 -- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = 'Click the {npc:193166} to spawn the rare.'
 
+L['gold_swong_coin_note'] = 'Inside the cave with {npc:191608} to his right side.'
 L['nokhud_warspear_note'] = '{item:194540} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['slightly_chewed_duck_egg_note'] = 'Find and pet {npc:192997} to get {item:195453} then use it. {item:199171} incubates in 3 days into {item:199172}.'
 L['yennus_boat'] = 'Tuskarr Toy Boat'

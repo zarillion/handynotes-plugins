@@ -39,6 +39,7 @@ L['trilvarus_loreweaver_note'] = '收集一個歌唱碎片來取得 {spell:38207
 
 L['forgotten_jewel_box_note'] = '從雍亞拉平原的嶺水靜地 (49.4 67.3) 上的 氏族寶箱 拾取{item:199065} 並使用它.'
 L['gnoll_fiend_flail_note'] = '{item:199066} 可以在遠征隊斥侯包和挖過的土中找到.'
+L['pepper_hammer_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -65,6 +66,7 @@ L['mysterious_wand_note'] = nil
 -- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = '點選 {npc:193166} 來召喚稀有.'
 
+L['gold_swong_coin_note'] = nil
 L['nokhud_warspear_note'] = '{item:194540} 可以在遠征隊斥侯包和挖過的土中找到.'
 L['slightly_chewed_duck_egg_note'] = '找到並撫摸 {npc:192997} 來取得 {item:195453} 後再使用它. {item:199171} 將在3天後孵化成 {item:199172}.'
 L['yennus_boat'] = '巨牙海民玩具船'
