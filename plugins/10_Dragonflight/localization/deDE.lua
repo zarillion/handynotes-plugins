@@ -31,11 +31,11 @@ L['options_icons_scout_pack_desc'] = 'Zeigt die Position für Expeditionsspäher
 -------------------------------------------------------------------------------
 
 L['blisterhide_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197356} und {npc:197354}'
-L['fisherman_tinnak_note'] = 'Sammel Broken Fishing Pole, Torn Fishing Net und Old Harpoon, um ihn zu beschwören.' -- review
+L['fisherman_tinnak_note'] = 'Sammel |cFFFFFD00Broken Fishing Pole|r, |cFFFFFD00Torn Fishing Net|r und |cFFFFFD00Old Harpoon|r, um ihn zu beschwören.' -- review
 L['gnarls_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197353} und {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197353} und {npc:197354}'
 L['snarglebone_note'] = 'Erscheint gleichzeitig mit {npc:197353}, {npc:197356} und {npc:197354}'
-L['trilvarus_loreweaver_note'] = 'Sammel ein Singing Fragment un den Schwächungszauber {spell:382076} zu erhalten und benutze dann den Ungeladenen Focus.'
+L['trilvarus_loreweaver_note'] = 'Sammel ein |cFFFFFD00Singing Fragment|r un den Schwächungszauber {spell:382076} zu erhalten und benutze dann den |cFFFFFD00Ungeladenen Focus|r.'
 
 L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Klankiste in Gratwasserzuflucht (49.4 67.3) in den Ebenen von Ohn\'ahra und benutze es.'
 L['gnoll_fiend_flail_note'] = '{item:199066} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
@@ -49,7 +49,7 @@ L['bag_of_enchanted_wind_note'] = 'Befindet sich oben im Turm.'
 L['hessethiash_treasure'] = 'Hessethiashs erbärmlich versteckter Schatz'
 L['lost_draconic_hourglass'] = 'Verlorenes drakonisches Stundenglas'
 L['mysterious_wand'] = 'Geheimnisvoller Zauberstab'
-L['mysterious_wand_note'] = 'Hebe den Krstallschlüssel auf und platziere ihn im Kristallfokus.'
+L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und platziere ihn im |cFFFFFD00Kristallfokus|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -60,9 +60,9 @@ L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner z
 L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks enthalten sein.'
 L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutz diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
 L['yennus_boat'] = 'Spielzeugboot der Tuskarr'
-L['yennus_boat_note'] = 'Plündere das Spielzeugboot der Tuskarr, um {item:200876} zu erhalten, das die Quest {quest:72063} startet, die bei {npc:195252} abgegeben werden kann.'
+L['yennus_boat_note'] = 'Plündere das |cFFFFFD00Spielzeugboot der Tuskarr|r, um {item:200876} zu erhalten, das die Quest {quest:72063} startet, die bei {npc:195252} abgegeben werden kann.'
 
-L['lizi_note'] = 'Schließe den Initiate\'s Day Out Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.'
+L['lizi_note'] = 'Schließe den Initiandenausflug Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Sammel 20x {item:192615} von Insekten-Gegnern auf den |cFFFFFD00Dracheninseln|r'
 L['lizi_note_day2'] = 'Sammel 10x {item:192658} von Pflanzen-Gegnern auf den |cFFFFFD00Dracheninseln|r'
 L['lizi_note_day3'] = 'Sammel 10x {item:194966} gefischt aus allen Gewässern der |cFFFFFD00Dracheninseln|r. Am häufigsten im Binnenland |cFFFFFD00Ebenen von Ohn\'ahra|r zu finden'
@@ -79,7 +79,7 @@ L['ohnahra_note_end'] = 'Sobald alle Materialien vorhanden sind, kehre zu {npc:1
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['acorn_harvester_note'] = 'Sammel in der Nähe eine Eichel vom Boden auf, um {spell:388485} zu erhalten und interagiere dann mit {npc:196172}.'
+L['acorn_harvester_note'] = 'Sammel in der Nähe eine |cFFFFFD00Eichel|r vom Boden auf, um {spell:388485} zu erhalten und interagiere dann mit {npc:196172}.'
 L['cracked_hourglass_note'] = '{item:199068} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['sandy_wooden_duck_note'] = 'Sammel {item:199069} und benutze diese.'
 
@@ -88,12 +88,12 @@ L['sandy_wooden_duck_note'] = 'Sammel {item:199069} und benutze diese.'
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem {npc:192737} zu diesem Turm.'
-L['shasith_note'] = nil
+L['shasith_note'] = 'Innerhalb des |cFFFFFD00Obsidianthron|r. \n\nDu und andere Spieler müssen insgesamt 20x {item:191264} abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der Obsidianzitadelle geplündert werden.'
 
 L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['onyx_gem_cluster_note'] = 'Kaufe {item:200738} von {npc:189065} für 3 {item:192863} und 500 {currency:2003} auf Ruhmstufe 21 bei der Drachenschuppenexpedition und benutze es.'
-L['replica_dragon_goblet_note'] = 'Kaufe {item:198854} von {npc:193915} in Botschaft von Schwingenrast und benutze es.'
+L['replica_dragon_goblet_note'] = 'Kaufe {item:198854} von {npc:193915} in der |cFFFFFD00Botschaft von Schwingenrast|r und benutze es.'
 
 L['fullsails_supply_chest'] = 'Vorratskiste der Vollsegel'
 L['hidden_hornswog_hoard'] = 'Versteckter Flunkerhort'
-L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item:200066}, kombiniere diese beim "Rätsel für Aufmerksame: Ein Naturführer" nahe dem Schatz und füttere dann den Frosch damit.'
+L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item:200066}, kombiniere diese beim |cFFFFFD00"Rätsel für Aufmerksame: Ein Naturführer"|r nahe dem Schatz und füttere dann den Frosch damit.'
