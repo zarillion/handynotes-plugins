@@ -3,6 +3,7 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local Class = ns.Class
+local L = ns.locale
 local Map = ns.Map
 
 local Rare = ns.node.Rare
