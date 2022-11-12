@@ -40,7 +40,6 @@ map.nodes[51601080] = Rare({
         Transmog({item = 150403, slot = L['crossbow']}), -- Polished Ironwood Crossbow
         Transmog({item = 150408, slot = L['staff']}), -- Staff of Rampant Growth
         Transmog({item = 150411, slot = L['cloak']}), -- Green Dragonskin Cloak
-        Transmog({item = 150427, slot = L['1h_mace']}), -- Empyrean Demolisher
         Transmog({item = 150383, slot = L['staff']}) -- Amberseal Keeper
     },
 }) -- Ysondre
