@@ -2,8 +2,9 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
 -------------------------------------------------------------------------------
 
-ns.plugin_name = 'HandyNotes: Anniversary'
-ns.options.name = 'Anniversary'
+ns.plugin_name = 'HandyNotes: ' .. L['anniversary']
+ns.options.name = L['anniversary']
