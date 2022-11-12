@@ -70,6 +70,12 @@ L['lizi_note_day3'] = nil
 L['lizi_note_day4'] = nil
 L['lizi_note_day5'] = nil
 
+L['ohnahra_note_start'] = nil
+L['ohnahra_note_item1'] = nil
+L['ohnahra_note_item2'] = nil
+L['ohnahra_note_item3'] = nil
+L['ohnahra_note_end'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

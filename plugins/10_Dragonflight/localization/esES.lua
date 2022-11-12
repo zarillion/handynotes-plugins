@@ -78,6 +78,12 @@ L['lizi_note_day3'] = 'Recoge 10x {item:194966} pescadas en cualquier masa de ag
 L['lizi_note_day4'] = 'Recoge 20x {item:192636} de los mamuts de las |cFFFFFD00Llanuras de Ohn\'ahran|r.'
 L['lizi_note_day5'] = 'Compra 1x {item:200598} a {npc:190015} en la tienda al sur de los |cFFFFFD00Manantiales Ohn\'iri|r.'
 
+L['ohnahra_note_start'] = nil
+L['ohnahra_note_item1'] = nil
+L['ohnahra_note_item2'] = nil
+L['ohnahra_note_item3'] = nil
+L['ohnahra_note_end'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
