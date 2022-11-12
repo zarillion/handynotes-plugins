@@ -77,6 +77,12 @@ L['lizi_note_day3'] = '從 |cFFFFFD00巨龍群島|r 的任意水域釣到10個 {
 L['lizi_note_day4'] = '從 |cFFFFFD00雍亞拉平原|r 的猛瑪象收集20個 {item:192636}'
 L['lizi_note_day5'] = '從 |cFFFFFD00雍伊爾溫泉|r 南邊帳篷內的 {npc:190015} 購買1個 {item:200598}'
 
+L['ohnahra_note_start'] = nil
+L['ohnahra_note_item1'] = nil
+L['ohnahra_note_item2'] = nil
+L['ohnahra_note_item3'] = nil
+L['ohnahra_note_end'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

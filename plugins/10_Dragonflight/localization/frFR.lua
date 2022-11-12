@@ -70,6 +70,12 @@ L['lizi_note_day3'] = 'Collectez 10x {item:194966} pêchés dans n\'importe quel
 L['lizi_note_day4'] = 'Collectez 20x {item:192636} sur des mammouths dans les |cFFFFFD00Plaines d\'Ohn\'ahra|r'
 L['lizi_note_day5'] = 'Achetez 1x {item:200598} à {npc:190015} dans une tente au sud de |cFFFFFD00Sources des Ohn\'irs|r'
 
+L['ohnahra_note_start'] = nil
+L['ohnahra_note_item1'] = nil
+L['ohnahra_note_item2'] = nil
+L['ohnahra_note_item3'] = nil
+L['ohnahra_note_end'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

@@ -77,6 +77,12 @@ L['lizi_note_day3'] = '从 |cFFFFFD00巨龙群岛s|r 的任意水域钓鱼收集
 L['lizi_note_day4'] = '从 |cFFFFFD00欧恩哈拉平原|r 的猛犸象收集20个 {item:192636}。'
 L['lizi_note_day5'] = '从 |cFFFFFD00欧恩伊尔清泉|r 南边的帐篷的 {npc:190015} 购买1个 {item:200598}。'
 
+L['ohnahra_note_start'] = nil
+L['ohnahra_note_item1'] = nil
+L['ohnahra_note_item2'] = nil
+L['ohnahra_note_item3'] = nil
+L['ohnahra_note_end'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
