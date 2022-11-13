@@ -2,15 +2,9 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local Rare = ns.node.Rare
-
-local Item = ns.reward.Item
-local Section = ns.reward.Section
-local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
@@ -23,7 +17,7 @@ local map = Map({id = 76, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[48768382] = Rare({
+map.nodes[48768382] = ns.node.AnniversaryRare({
     id = 121820,
     quest = 47462,
     rewards = {
@@ -37,5 +31,5 @@ map.nodes[48768382] = Rare({
         Transmog({item = 150428, slot = L['fist']}), -- Eskhandar's Left Claw
         Transmog({item = 150423, slot = L['dagger']}), -- Fang of the Mystics
         Transmog({item = 150421, slot = L['2h_sword']}) -- Typhoon
-    },
+    }
 }) -- Azuregos

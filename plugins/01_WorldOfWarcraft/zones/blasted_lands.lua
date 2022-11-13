@@ -2,15 +2,9 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local Rare = ns.node.Rare
-
-local Item = ns.reward.Item
-local Section = ns.reward.Section
-local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
@@ -23,7 +17,7 @@ local map = Map({id = 17, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[33604960] = Rare({
+map.nodes[33604960] = ns.node.AnniversaryRare({
     id = 121818,
     quest = 47461,
     rewards = {
@@ -35,5 +29,5 @@ map.nodes[33604960] = Rare({
         Transmog({item = 150379, slot = L['mail']}), -- Infernal Headcage
         Transmog({item = 150427, slot = L['1h_mace']}), -- Empyrean Demolisher
         Transmog({item = 150383, slot = L['staff']}) -- Amberseal Keeper
-    },
-}) -- Lord Kazzak 
+    }
+}) -- Lord Kazzak

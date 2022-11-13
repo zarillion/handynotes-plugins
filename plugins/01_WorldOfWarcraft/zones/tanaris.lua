@@ -2,13 +2,9 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local Rare = ns.node.Rare
-
-local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
@@ -24,7 +20,7 @@ local map = Map({id = 71, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[64405070] = Rare({
+map.nodes[64405070] = ns.node.AnniversaryRare({
     id = 167749,
     quest = 60214,
     rewards = {
@@ -43,5 +39,5 @@ map.nodes[64405070] = Rare({
         Transmog({item = 186468, slot = L['dagger']}), -- Talon of the Tempest
         Spacer(), Mount({item = 186469, id = 293}), -- Illidari Doomhawk
         Toy({item = 186501}) -- Doomwalker Trophy Stand
-    },
+    }
 }) -- Doomwalker
