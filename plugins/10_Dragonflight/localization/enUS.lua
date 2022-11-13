@@ -85,6 +85,12 @@ L['ohnahra_note_item2'] = 'Purchase 1x {item:201323} from {npc:196707} for 50x {
 L['ohnahra_note_item3'] = 'Purchase 1x {item:191507} from the Auction House. (Alchemists can purchase {item:191588} from {npc:196707} starting at Renown 22)'
 L['ohnahra_note_end'] = 'Once you have all materials, return to {npc:190022} and accept {quest:72512}. Go to {npc:194796} to turn in the quest and receive your mount.'
 
+L['bakar_note'] = 'Pet the dog!'
+L['bakar_ellam_note'] = 'If enough players pet this dog, she will lead you to her treasure.'
+L['bakar_hugo_note'] = 'Travels with the Aylaag Camp.'
+L['options_icons_bakar'] = '{achievement:16424}'
+L['options_icons_bakar_desc'] = 'Display the location of all dogs (bakar) for the achievement {achievement:16424}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

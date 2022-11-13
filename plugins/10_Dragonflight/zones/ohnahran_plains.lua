@@ -509,6 +509,116 @@ map.nodes[57753080] = Flag({quest = 70827})
 map.nodes[86313928] = Flag({quest = 71208})
 
 -------------------------------------------------------------------------------
+----------------------------- WHO'S A GOOD BAKAR? -----------------------------
+-------------------------------------------------------------------------------
+
+local Bakar = Class('Bakar', Collectible, {
+    icon = 930453,
+    note = L['bakar_note'],
+    group = ns.groups.BAKAR
+})
+
+map.nodes[40925653] = Bakar({
+    rewards = {Achievement({id = 16424, criteria = 55348})}
+}) -- Alli
+
+map.nodes[84242474] = Bakar({
+    requires = ns.requirement.Quest(66006), -- Return to Roscha
+    rewards = {Achievement({id = 16424, criteria = 55316})}
+}) -- Baba
+
+map.nodes[49014111] = Bakar({
+    rewards = {Achievement({id = 16424, criteria = 55329})}
+}) -- Baga
+
+map.nodes[60643982] = Bakar({
+    rewards = {Achievement({id = 16424, criteria = 55326})}
+}) -- Berrel
+
+map.nodes[85142247] = Bakar({
+    requires = ns.requirement.Quest(65954), -- Release the Hounds
+    rewards = {Achievement({id = 16424, criteria = 55317})}
+}) -- Elaichi
+
+map.nodes[76683051] = Bakar({ -- review requirement
+    note = L['bakar_note'] .. '\n\n' .. L['bakar_ellam_note'],
+    rewards = {Achievement({id = 16424, criteria = 55321})}
+}) -- Ellam
+
+map.nodes[84592461] = Bakar({
+    requires = ns.requirement.Quest(65954), -- Release the Hounds
+    rewards = {
+        Achievement({
+            id = 16424,
+            criteria = {
+                {id = 55315}, -- Fogl
+                {id = 55314} -- Zephyr
+            }
+        })
+    }
+})
+
+map.nodes[83882587] = Bakar({
+    rewards = {Achievement({id = 16424, criteria = 55320})}
+}) -- Gentara
+
+map.nodes[70636364] = Bakar({
+    note = L['bakar_note'] .. '\n\n' .. L['bakar_hugo_note'],
+    rewards = {Achievement({id = 16424, criteria = 55327})},
+    pois = {POI({71103149})}
+}) -- Hugo
+
+map.nodes[64024123] = Bakar({
+    rewards = {
+        Achievement({
+            id = 16424,
+            criteria = {
+                {id = 55323}, -- Katei
+                {id = 55322} -- Vinyu
+            }
+        })
+    }
+})
+
+map.nodes[80685891] = Bakar({
+    rewards = {Achievement({id = 16424, criteria = 55331})}
+}) -- Laila
+
+map.nodes[60985226] = Bakar({
+    rewards = {Achievement({id = 16424, criteria = 55328})}
+}) -- Nahma
+
+map.nodes[84182715] = Bakar({
+    requires = ns.requirement.Quest(65954), -- Release the Hounds
+    rewards = {Achievement({id = 16424, criteria = 55319})}
+}) -- Pesca
+
+map.nodes[81115841] = Bakar({
+    rewards = {Achievement({id = 16424, criteria = 55330})}
+}) -- Rotti
+
+map.nodes[71644967] = Bakar({
+    requires = ns.requirement.Quest(67772), -- The Trouble with Taivan
+    rewards = {Achievement({id = 16424, criteria = 55347})},
+    pois = {POI({61164002})} -- questline start
+}) -- Soyoo
+
+map.nodes[61843869] = Bakar({
+    requires = ns.requirement.Quest(69096), -- Taivan's Purpose
+    rewards = {Achievement({id = 16424, criteria = 55325})},
+    pois = {POI({61164002})} -- questline start
+}) -- Taivan
+
+map.nodes[84012295] = Bakar({
+    requires = ns.requirement.Quest(65954), -- Release the Hounds
+    rewards = {Achievement({id = 16424, criteria = 55318})}
+}) -- Tseg
+
+map.nodes[81035952] = Bakar({
+    rewards = {Achievement({id = 16424, criteria = 55324})}
+}) -- Wish
+
+-------------------------------------------------------------------------------
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 

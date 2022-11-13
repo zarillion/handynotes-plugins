@@ -77,6 +77,12 @@ L['ohnahra_note_item2'] = 'Kaufe 1x {item:201323} von {npc:196707} für 50x {cur
 L['ohnahra_note_item3'] = 'Kaufe 1x {item:191507} aus dem Auktionshaus. (Alchemisten können {item:191588} von {npc:196707} ab Ruhmstufe 22 kaufen)'
 L['ohnahra_note_end'] = 'Sobald alle Materialien vorhanden sind, kehre zu {npc:190022} zurück und nimm die Quest {quest:72512} an. Gehe zu {npc:194796}, um die Quest abzugeben und das Reittier zu erhalten.'
 
+L['bakar_note'] = 'Streichel den Hund!'
+L['bakar_ellam_note'] = 'Wenn genügend Spieler diese Hündin streicheln, wird sie euch zu ihrem Schatz führen.'
+L['bakar_hugo_note'] = 'Reist mit dem Lager der Aylaag.'
+L['options_icons_bakar'] = '{achievement:16424}'
+L['options_icons_bakar_desc'] = 'Zeigt die Position aller Hunde für den Erfolg {achievement:16424} an.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
