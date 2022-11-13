@@ -86,11 +86,11 @@ L['ohnahra_note_item2'] = 'Compra 1x {item:201323} de {npc:196707} por 50x {curr
 L['ohnahra_note_item3'] = 'Compra 1x {item:191507} de la Casa de Subastas. (los Alqumistas pueden comprar la {item:191588} a {npc:196707} al llegar a Renombre 22)'
 L['ohnahra_note_end'] = 'Una vez con todos los objetos, vuelve a {npc:190022} y acepta {quest:72512}. Ves a {npc:194796} para entregar la misión y recibir tu montura.'
 
-L['bakar_note'] = nil
-L['bakar_ellam_note'] = nil
-L['bakar_hugo_note'] = nil
+L['bakar_note'] = '¡Acaricia el perro!'
+L['bakar_ellam_note'] = 'Si jugadores suficientes acarician a esta perra, os guiará a su escondite.'
+L['bakar_hugo_note'] = 'Viaja con el Campamento Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
-L['options_icons_bakar_desc'] = nil
+L['options_icons_bakar_desc'] = 'Muestra dónde están todos los perros (bakar) para el logro {achievement:16424}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
