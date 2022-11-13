@@ -85,6 +85,12 @@ L['ohnahra_note_item2'] = nil
 L['ohnahra_note_item3'] = nil
 L['ohnahra_note_end'] = nil
 
+L['bakar_note'] = nil
+L['bakar_ellam_note'] = nil
+L['bakar_hugo_note'] = nil
+L['options_icons_bakar'] = '{achievement:16424}'
+L['options_icons_bakar_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

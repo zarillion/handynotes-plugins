@@ -78,6 +78,12 @@ L['ohnahra_note_item2'] = 'Achetez 1x {item:201323} à l\'{npc:196707} pour 50x 
 L['ohnahra_note_item3'] = 'Achetez 1x {item:191507} à l\'Hôtel des Ventes. (Les alchimistes peuvent acheter la {item:191588} à l\'{npc:196707} à partir du Renom 22)'
 L['ohnahra_note_end'] = 'Une fois que vous avez tous les matériaux, revenez voir {npc:190022} et acceptez {quest:72512}. Allez voir {npc:194796} pour rendre la quête et recevoir votre monture.'
 
+L['bakar_note'] = nil
+L['bakar_ellam_note'] = nil
+L['bakar_hugo_note'] = nil
+L['options_icons_bakar'] = '{achievement:16424}'
+L['options_icons_bakar_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
