@@ -43,6 +43,7 @@ L['trinket'] = 'Bijou'
 L['activation_unknown'] = 'Activation inconnue'
 L['requirement_not_found'] = 'Emplacement requis inconnu'
 L['multiple_spawns'] = 'Peut apparaître à plusieurs endroits.'
+L['shared_drops'] = 'Drop partagé'
 
 L['Requires'] = 'Requiert'
 L['ranked_research'] = '%s (Rang %d/%d)'

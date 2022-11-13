@@ -43,6 +43,7 @@ L['trinket'] = 'Аксессуар'
 L['activation_unknown'] = 'Активация неизвестна!'
 L['requirement_not_found'] = 'Местоположение требования неизвестно!'
 L['multiple_spawns'] = 'Может появляться в нескольких местах.'
+L['shared_drops'] = 'Общий дроп'
 
 L['Requires'] = 'Требуется'
 L['ranked_research'] = '%s (Ранг %d/%d)'

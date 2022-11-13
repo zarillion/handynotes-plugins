@@ -22,9 +22,11 @@ read_globals = {
 
     -- WoW API functions
     'AuraUtil',
+    'C_Calendar',
     'C_ContributionCollector',
     'C_Covenants',
     'C_CurrencyInfo',
+    'C_DateAndTime',
     'C_Garrison',
     'C_Item',
     'C_Map',
