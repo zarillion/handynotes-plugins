@@ -98,8 +98,8 @@ L['sandy_wooden_duck_note'] = 'Recoge el {item:199069} y úsalo.'
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
 
-L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja encima del {npc:192737} a esta Torre.'
-L['shasith_note'] = 'Dentro del |cFFFFFD00Trono Obsidiana|r. \n\nNECESITA MÁS INVESTIGACIÓN.'
+L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja encima del {npc:192737} a esta torre.'
+L['shasith_note'] = 'Dentro del |cFFFFFD00Trono Obsidiana|r. \n\nTú y otros jugadores teneis que devolver un total de 20x {item:191264}. Para fabricar una llave necesitarás combinar 30x {item:191251} y 3x {item:193201}. Puedes conseguir estos objetos de los enemigos de la Ciudadela Obsidiana.'
 
 L['bubble_drifter_note'] = 'La {item:199061} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['onyx_gem_cluster_note'] = 'Compra el {item:200738} a {npc:189065} por 3 {item:192863} y 500 {currency:2003} a Renombre 21 con la Expedición Dragontina y úsalo.'
