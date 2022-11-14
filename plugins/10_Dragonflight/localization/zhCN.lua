@@ -41,6 +41,10 @@ L['forgotten_jewel_box_note'] = '从欧恩哈拉平原的峦水居所拾取 {ite
 L['gnoll_fiend_flail_note'] = nil
 L['pepper_hammer_note'] = nil
 
+L['leyline_note'] = nil
+L['options_icons_layline'] = '{achievement:16638}'
+L['options_icons_layline_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

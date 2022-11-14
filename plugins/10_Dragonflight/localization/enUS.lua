@@ -41,6 +41,10 @@ L['forgotten_jewel_box_note'] = 'Loot {item:199065} from a Clan Chest in Ridgewa
 L['gnoll_fiend_flail_note'] = '{item:199066} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['pepper_hammer_note'] = 'Collect |cFFFFFD00Tree Sap|r and then use the |cFFFFFD00Stick|r to lure the {npc:195373}.\n\n|cFFFF0000(BUG: To click on the stick a reload might be necessary)|r'
 
+L['leyline_note'] = 'Realign the ley line.'
+L['options_icons_layline'] = '{achievement:16638}'
+L['options_icons_layline_desc'] = 'Display the location of all ley line for the achievement {achievement:16638}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

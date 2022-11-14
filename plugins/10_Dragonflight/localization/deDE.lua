@@ -1,7 +1,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('deDE')
 if not L then return end
-
+-- German translation by Dathwada EU-Eredar
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
@@ -40,6 +40,10 @@ L['trilvarus_loreweaver_note'] = 'Sammel ein |cFFFFFD00Singing Fragment|r un den
 L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Klankiste in Gratwasserzuflucht (49.4 67.3) in den Ebenen von Ohn\'ahra und benutze es.'
 L['gnoll_fiend_flail_note'] = '{item:199066} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['pepper_hammer_note'] = 'Sammel |cFFFFFD00Baumharz|r und benutze dann den |cFFFFFD00Stock|r, um {npc:195373} anzulocken.\n\n|cFFFF0000(BUG: Um den Stock anzuklicken könnte ein reload nötig sein)|r'
+
+L['leyline_note'] = 'Richte die Laylinie neu aus.'
+L['options_icons_layline'] = '{achievement:16638}'
+L['options_icons_layline_desc'] = 'Zeigt alle Leylinien für den Erfolg {achievement:16638} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -81,7 +85,7 @@ L['bakar_note'] = 'Streichel den Hund!'
 L['bakar_ellam_note'] = 'Wenn genügend Spieler diese Hündin streicheln, wird sie euch zu ihrem Schatz führen.'
 L['bakar_hugo_note'] = 'Reist mit dem Lager der Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
-L['options_icons_bakar_desc'] = 'Zeigt die Position aller Hunde für den Erfolg {achievement:16424} an.'
+L['options_icons_bakar_desc'] = 'Zeigt die Position aller Bakar (Hunde) für den Erfolg {achievement:16424} an.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
