@@ -54,6 +54,7 @@ Kites for the [Symbols of Hope](https://www.wowhead.com/achievement=16584/symbol
 ### Ohnahran Plains
 
 Dragon Glyphs for the [Ohn'ahran Plains Glyph Hunter](https://www.wowhead.com/beta/achievement=16576/ohnahran-plains-glyph-hunter) achievement.
+Dogs for the [Who's a Good Bakar?](https://www.wowhead.com/achievement=16424/whos-a-good-bakar) achievement.
 
 ### Azure Span
 
