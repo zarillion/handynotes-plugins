@@ -42,9 +42,9 @@ L['forgotten_jewel_box_note'] = 'Récupérez la {item:199065} dans un Coffre cla
 L['gnoll_fiend_flail_note'] = '{item:199066} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['pepper_hammer_note'] = 'Récupérez la |cFFFFFD00Sève|r et utilisez le |cFFFFFD00Bâton|r pour attirer le {npc:195373}.\n\n|cFFFF0000(BUG : Pour cliquer sur le bâton, un rechargement peut être nécessaire)|r'
 
-L['leyline_note'] = nil
+L['leyline_note'] = 'Réalignez la ligne tellurique.'
 L['options_icons_layline'] = '{achievement:16638}'
-L['options_icons_layline_desc'] = nil
+L['options_icons_layline_desc'] = 'Afficher les emplacements de toutes les lignes telluriques pour le haut-fait {achievement:16638}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
