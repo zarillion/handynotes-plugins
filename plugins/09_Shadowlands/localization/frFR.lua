@@ -18,6 +18,8 @@ L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, p
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Emplacements des bestioles pour {achievement:14731}'
 
+L['prepatch_vendor_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------

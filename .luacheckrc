@@ -28,6 +28,7 @@ read_globals = {
     'C_CurrencyInfo',
     'C_DateAndTime',
     'C_Garrison',
+    'C_Heirloom',
     'C_Item',
     'C_Map',
     'C_MapExplorationInfo',
@@ -103,6 +104,7 @@ read_globals = {
     'UIDropDownMenu_SetInitializeFunction',
 
     -- WoW UI Frames & Mixins
+    'AreaPOIPinMixin',
     'GameMenuFrame',
     'GameTooltip',
     'MapCanvasDataProviderMixin',
@@ -110,6 +112,7 @@ read_globals = {
     'Minimap',
     'SettingsPanel',
     'UIParent',
+    'VignettePinMixin',
     'WorldMapFrame',
 
     -- WoW Global variables
@@ -125,6 +128,7 @@ read_globals = {
 
     -- Third-Party libraries/addons
     'HandyNotes',
+    'HandyNotesWorldMapPinMixin',
     'LibStub',
     'TomTom',
 }

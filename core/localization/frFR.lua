@@ -60,6 +60,7 @@ L['daily'] = 'Quotidiennement'
 L['weekly'] = 'Hebdomadaire'
 L['normal'] = 'Normal'
 L['hard'] = 'Difficile'
+L['heirloom'] = nil
 L['mount'] = 'Monture'
 L['pet'] = 'Animal de Compagnie'
 L['spell'] = 'Sort'
