@@ -19,7 +19,8 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 -- local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
--- local Transmog = ns.reward.Transmog
+local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -32,7 +33,7 @@ local map = Map({id = 2024, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[53083551] = Rare({ -- review
+map.nodes[53013563] = Rare({
     id = 194270,
     quest = nil,
     rewards = {
@@ -144,10 +145,11 @@ map.nodes[27804580] = Rare({ -- review
 
 map.nodes[50043631] = Rare({ -- review
     id = 193691,
-    quest = 72254,
+    quest = 72254, -- wrong id?
     note = L['fisherman_tinnak_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56115}),
+        Transmog({item = 199026, slot = L['1h_sword']}), -- Fire-Blessed Blade
         Item({item = 197382, quest = 69583}), -- Renewed Proto-Drake: White Horns
         Item({item = 198070}) -- Tattered Seavine
         -- Transmog({item = , slot = L['']}) -- Name
@@ -155,9 +157,10 @@ map.nodes[50043631] = Rare({ -- review
     pois = {POI({50523672, 49973821, 49223842})}
 }) -- Fisherman Tinnak
 
-map.nodes[64653019] = Rare({ -- review
+map.nodes[64992995] = Rare({
     id = 193698,
     quest = 69985,
+    note = L['in_small_cave'],
     rewards = {
         Achievement({id = 16678, criteria = 56104})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -213,21 +216,22 @@ map.nodes[16213364] = Rare({
     }
 }) -- High Shaman Rotknuckle
 
--- map.nodes[] = Rare({
---     id = 190244,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56109}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Mahg the Trampler
+map.nodes[36243573] = Rare({
+    id = 190244,
+    quest = nil,
+    rewards = {
+        Achievement({id = 16678, criteria = 56109})
+        -- Transmog({item = , slot = L['']}) -- Name
+    },
+    pois = {Path({35873621, 36243573, 36543508, 36863479})}
+}) -- Mahg the Trampler
 
-map.nodes[36953562] = Rare({ -- review
+map.nodes[40514797] = Rare({
     id = 198004,
     quest = nil,
     rewards = {
-        Achievement({id = 16678, criteria = 56100})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16678, criteria = 56100}),
+        Item({item = 197150, quest = 69351}) -- Highland Drake: Spiked Club Tail
     }
 }) -- Mange the Outcast
 
@@ -249,13 +253,15 @@ map.nodes[36953562] = Rare({ -- review
 --     }
 -- }) -- Mucka the Raker
 
-map.nodes[36813580] = Rare({ -- review
+map.nodes[34362779] = Rare({ -- review location in cave map 2132 Kargpaw's Den
     id = 193225,
     quest = nil,
+    note = L['in_cave'],
     rewards = {
-        Achievement({id = 16678, criteria = 56107})
+        Achievement({id = 16678, criteria = 56107}), Toy({item = 200160}) -- Notfar's Favorite Food
         -- Transmog({item = , slot = L['']}) -- Name
-    }
+    },
+    pois = {POI({34023076, 34933000})} -- Entrance
 }) -- Notfar the Unbearable
 
 -- map.nodes[] = Rare({
