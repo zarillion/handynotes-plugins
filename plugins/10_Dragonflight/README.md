@@ -59,6 +59,7 @@ Dogs for the [Who's a Good Bakar?](https://www.wowhead.com/achievement=16424/who
 ### Azure Span
 
 Dragon Glyphs for the [Azure Span Glyph Hunter](https://www.wowhead.com/beta/achievement=16577/azure-span-glyph-hunter) achievement.
+Lay lines for the [Ley Line in the Span](https://www.wowhead.com/achievement=16638/ley-line-in-the-span) achievement.
 
 ### Thaldraszus
 

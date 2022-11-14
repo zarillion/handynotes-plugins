@@ -31,6 +31,7 @@ ns.groups.SCOUT_PACK =
 ns.groups.FLAG = Group('flag', 1723999, {defaults = ns.GROUP_HIDDEN})
 ns.groups.KITE = Group('kite', 133837, {defaults = ns.GROUP_HIDDEN})
 ns.groups.BAKAR = Group('bakar', 930453, {defaults = ns.GROUP_HIDDEN})
+ns.groups.LAYLINE = Group('layline', 1033908, {defaults = ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

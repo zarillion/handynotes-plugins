@@ -2,11 +2,11 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
--- local Class = ns.Class
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
--- local Collectible = ns.node.Collectible
+local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
@@ -456,6 +456,43 @@ map.nodes[70724381] = Disturbeddirt()
 map.nodes[73374059] = Disturbeddirt()
 map.nodes[78753394] = Disturbeddirt()
 map.nodes[78903087] = Disturbeddirt()
+
+-------------------------------------------------------------------------------
+---------------------------- LEY LINE IN THE SPAN -----------------------------
+-------------------------------------------------------------------------------
+
+local LayLine = Class('LayLine', Collectible, {
+    id = 198260,
+    icon = 1033908,
+    note = L['in_small_cave'] .. '\n' .. L['leyline_note'],
+    group = ns.groups.LAYLINE
+})
+
+map.nodes[43476224] = LayLine({
+    quest = 72138,
+    rewards = {Achievement({id = 16638, criteria = 55972})}
+}) -- Azure Archives
+
+map.nodes[26533590] = LayLine({
+    quest = 72139,
+    rewards = {Achievement({id = 16638, criteria = 55973})}
+}) -- Ancient Outlook
+
+map.nodes[65885066] = LayLine({
+    requires = ns.requirement.Profession(5, 186), -- Mining
+    quest = 72136,
+    rewards = {Achievement({id = 16638, criteria = 55974})}
+}) -- Rustpine Den
+
+map.nodes[66395950] = LayLine({
+    quest = 72141,
+    rewards = {Achievement({id = 16638, criteria = 55975})}
+}) -- Ruins of Karnthar
+
+map.nodes[65732814] = LayLine({
+    quest = 72140,
+    rewards = {Achievement({id = 16638, criteria = 55976})}
+}) -- Slyvern Plunge
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
