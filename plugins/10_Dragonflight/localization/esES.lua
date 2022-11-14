@@ -42,9 +42,9 @@ L['forgotten_jewel_box_note'] = 'Despoja la {item:199065} de un Cofre del Clan e
 L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['pepper_hammer_note'] = 'Recoge |cFFFFFD00Savia de Árbol|r y entonces usa el |cFFFFFD00Palo|r para engañar a {npc:195373}.\n\n|cFFFF0000(BUG: Para hacer click en el palo puede ser necesario recargar)|r'
 
-L['leyline_note'] = nil
+L['leyline_note'] = 'Realinea la línea Ley.'
 L['options_icons_layline'] = '{achievement:16638}'
-L['options_icons_layline_desc'] = nil
+L['options_icons_layline_desc'] = 'Muestra dónde están las líneas Ley para el logro {achievement:16638}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
