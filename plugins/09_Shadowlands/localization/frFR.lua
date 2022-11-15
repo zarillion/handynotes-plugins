@@ -18,7 +18,7 @@ L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, p
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Emplacements des bestioles pour {achievement:14731}'
 
-L['prepatch_vendor_note'] = nil
+L['prepatch_vendor_note'] = 'Achetez des récompenses en utilisant la monnaie {item:199211} provenant de l\'événement du pré-patch |cFFFF8C00Tempêtes primordiales|r.'
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
