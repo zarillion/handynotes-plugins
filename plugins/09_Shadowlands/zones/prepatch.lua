@@ -29,7 +29,7 @@ local FIRE = {Achievement({id = 16431, criteria = 55369}), Spacer(), TRINKET}
 local STORM = {Achievement({id = 16431, criteria = 55367}), Spacer(), TRINKET}
 local WATER = {Achievement({id = 16431, criteria = 55370}), Spacer(), TRINKET}
 
-local function RenderAreaPOIRewards(rewards)
+local function RenderEventRewards(rewards)
     GameTooltip:AddLine(' ')
     for i, reward in ipairs(rewards) do
         if reward:IsEnabled() then reward:Render(GameTooltip) end
@@ -37,23 +37,37 @@ local function RenderAreaPOIRewards(rewards)
     GameTooltip:Show()
 end
 
+local function AddRewardsToTooltip(atlasName)
+    if atlasName then
+        if atlasName:match('ElementalStorm%-%a+%-Earth') then
+            RenderEventRewards(EARTH)
+        elseif atlasName:match('ElementalStorm%-%a+%-Fire') then
+            RenderEventRewards(FIRE)
+        elseif atlasName:match('ElementalStorm%-%a+%-Air') then
+            RenderEventRewards(STORM)
+        elseif atlasName:match('ElementalStorm%-%a+%-Water') then
+            RenderEventRewards(WATER)
+        end
+    end
+end
+
+-- Main event is shown with an AreaPOI
 hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
     if self and self.areaPoiID then
         local mapID = self:GetMap().mapID
         local info = C_AreaPoiInfo.GetAreaPOIInfo(mapID, self.areaPoiID)
-        if info.atlasName then
-            if info.atlasName:match('ElementalStorm%-%a+%-Earth') then
-                RenderAreaPOIRewards(EARTH)
-            elseif info.atlasName:match('ElementalStorm%-%a+%-Fire') then
-                RenderAreaPOIRewards(FIRE)
-            elseif info.atlasName:match('ElementalStorm%-%a+%-Storm') then
-                RenderAreaPOIRewards(STORM)
-            elseif info.atlasName:match('ElementalStorm%-%a+%-Water') then
-                RenderAreaPOIRewards(WATER)
-            end
+        if info and info.atlasName then
+            AddRewardsToTooltip(info.atlasName)
         end
     end
 end)
+
+-- Auxilary locations are shown using Vignettes
+-- hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
+--     if self and self.vignetteInfo and self.vignetteInfo.atlasName then
+--         AddRewardsToTooltip(self.vignetteInfo.atlasName)
+--     end
+-- end)
 
 -------------------------------------------------------------------------------
 ----------------------------------- VENDORS -----------------------------------
