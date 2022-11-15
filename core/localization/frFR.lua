@@ -60,7 +60,7 @@ L['daily'] = 'Quotidiennement'
 L['weekly'] = 'Hebdomadaire'
 L['normal'] = 'Normal'
 L['hard'] = 'Difficile'
-L['heirloom'] = nil
+L['heirloom'] = 'Héritage'
 L['mount'] = 'Monture'
 L['pet'] = 'Animal de Compagnie'
 L['spell'] = 'Sort'
@@ -76,9 +76,9 @@ L['unlearnable'] = 'Non Apprenable'
 L['defeated'] = 'Vaincu'
 L['undefeated'] = 'Invaincu'
 
-L['follower_type_follower'] = nil
-L['follower_type_champion'] = nil
-L['follower_type_companion'] = nil
+L['follower_type_follower'] = 'Sujet'
+L['follower_type_champion'] = 'Champion'
+L['follower_type_companion'] = 'Compagnon'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
