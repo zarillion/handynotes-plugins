@@ -44,7 +44,7 @@ local function IsAnniversaryEvent()
             event.title:match('%d%d. Geburtstag von WoW') or -- deDE
             event.title:match('%d%de anniversaire de Wo') or -- frFR
             event.title:match('%d%d-я годовщина Wo') or -- ruRU
-            event.title:match('魔兽世界') and event.title:match('周年') -- zhCN 魔兽世界十八周年
+            event.title:match('魔兽世界.*周年') -- zhCN
             -- additional language help needed!
         ) then return true end
         -- LuaFormatter on
