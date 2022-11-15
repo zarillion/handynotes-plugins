@@ -1,3 +1,9 @@
+# v49
+
+* Added Dragonflight pre-patch reward info.
+* TomTom waypoints created by this plugin will now include the plugin name.
+* Updated TOC for 10.0.2
+
 # v48
 
 * Added covenant assault rewards in the Maw.
