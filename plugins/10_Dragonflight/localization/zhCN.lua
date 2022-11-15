@@ -31,7 +31,7 @@ L['options_icons_scout_pack_desc'] = '显示探险队斥候包裹的位置。'
 -------------------------------------------------------------------------------
 
 L['blisterhide_note'] = '同 {npc:197344}、{npc:197356}、{npc:197354} 同时出现。'
-L['fisherman_tinnak_note'] = '收集 |cFFFFFD00破损的鱼竿|r，|cFFFFFD00撕裂的渔网|r and |cFFFFFD00老鱼叉|r 后稀有出现。'
+L['fisherman_tinnak_note'] = '收集 |cFFFFFD00破损的鱼竿|r，|cFFFFFD00撕裂的渔网|r 和 |cFFFFFD00老鱼叉|r 后稀有出现。'
 L['gnarls_note'] = '同 {npc:197344}、{npc:197353}、{npc:197356} 同时出现。'
 L['high_shaman_rotknuckle_note'] = '同 {npc:197344}、{npc:197353}、{npc:197354} 同时出现。'
 L['snarglebone_note'] = '同 {npc:197353}、{npc:197356}、{npc:197354} 同时出现。'
