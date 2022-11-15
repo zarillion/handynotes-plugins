@@ -43,7 +43,7 @@ L['trinket'] = 'Schmuck'
 L['activation_unknown'] = 'Aktivierung unbekannt!'
 L['requirement_not_found'] = 'Voraussetzungsort unbekannt!'
 L['multiple_spawns'] = 'Kann an mehreren Orten erscheinen.'
-L['shared_drops'] = nil
+L['shared_drops'] = 'Geteilte Beute'
 
 L['Requires'] = 'Benötigt'
 L['ranked_research'] = '%s (Rang %d/%d)'
@@ -60,7 +60,7 @@ L['daily'] = 'Täglich'
 L['weekly'] = 'Wöchentlich'
 L['normal'] = 'Normal'
 L['hard'] = 'Schwer'
-L['heirloom'] = nil
+L['heirloom'] = 'Erbstück'
 L['mount'] = 'Reittier'
 L['pet'] = 'Haustier'
 L['spell'] = 'Fähigkeit'
