@@ -31,30 +31,30 @@ L['options_icons_scout_pack_desc'] = '显示探险队斥候包裹的位置。'
 -------------------------------------------------------------------------------
 
 L['blisterhide_note'] = '同 {npc:197344}、{npc:197356}、{npc:197354} 同时出现。'
-L['fisherman_tinnak_note'] = nil
+L['fisherman_tinnak_note'] = '收集 |cFFFFFD00破损的鱼竿|r，|cFFFFFD00撕裂的渔网|r and |cFFFFFD00老鱼叉|r 后稀有出现。'
 L['gnarls_note'] = '同 {npc:197344}、{npc:197353}、{npc:197356} 同时出现。'
 L['high_shaman_rotknuckle_note'] = '同 {npc:197344}、{npc:197353}、{npc:197354} 同时出现。'
 L['snarglebone_note'] = '同 {npc:197353}、{npc:197356}、{npc:197354} 同时出现。'
-L['trilvarus_loreweaver_note'] = '收集歌声碎片即可获得 {spell:382076} 并使用未知焦点刷新稀有。'
+L['trilvarus_loreweaver_note'] = '收集 |cFFFFFD00歌声碎片|r 即可获得 {spell:382076} 并使用 |cFFFFFD00未知焦点|r 后稀有出现。'
 
 L['forgotten_jewel_box_note'] = '从欧恩哈拉平原的峦水居所拾取 {item:199065} 氏族宝箱（49.4 67.3）并使用它。'
-L['gnoll_fiend_flail_note'] = nil
-L['pepper_hammer_note'] = nil
+L['gnoll_fiend_flail_note'] = '{item:199066} 可以从探险队斥候包裹和翻动过的泥土中找到。'
+L['pepper_hammer_note'] = '收集 |cFFFFFD00树汁|r 后使用 |cFFFFFD00棍子|r 来引诱 {npc:195373}。\n\n|cFFFF0000（臭虫：点击棍子可能需要重新加载）|r'
 
-L['leyline_note'] = nil
+L['leyline_note'] = '重新排列魔网。'
 L['options_icons_layline'] = '{achievement:16638}'
-L['options_icons_layline_desc'] = nil
+L['options_icons_layline_desc'] = '显示 {achievement:16638} 成就中全部重新排列魔网的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
 
-L['bag_of_enchanted_wind'] = nil
-L['bag_of_enchanted_wind_note'] = nil
-L['hessethiash_treasure'] = nil
-L['lost_draconic_hourglass'] = nil
-L['mysterious_wand'] = nil
-L['mysterious_wand_note'] = nil
+L['bag_of_enchanted_wind'] = '魔风之袋'
+L['bag_of_enchanted_wind_note'] = '位于塔顶。'
+L['hessethiash_treasure'] = 'Hessethiash\'s Poorly Hidden Treasure'
+L['lost_draconic_hourglass'] = '失落的巨龙沙漏'
+L['mysterious_wand'] = '神秘魔杖'
+L['mysterious_wand_note'] = '拾取 |cFFFFFD00水晶钥匙|r 并将其放入 |cFFFFFD00聚焦水晶|r。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -70,11 +70,11 @@ L['mysterious_wand_note'] = nil
 -- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = '点击 {npc:193166} 刷新稀有。'
 
-L['gold_swong_coin_note'] = nil
+L['gold_swong_coin_note'] = '在洞穴内，{npc:191608} 在他的右侧。'
 L['nokhud_warspear_note'] = '{item:194540} 可以在探险队斥候包裹找到。'
 L['slightly_chewed_duck_egg_note'] = '找到并拍打 {npc:192997} 获得 {item:195453} 并使用它。{item:199171} 3天后孵化为 {item:199172}。'
-L['yennus_boat'] = nil
-L['yennus_boat_note'] = nil
+L['yennus_boat'] = '海象人玩具船'
+L['yennus_boat_note'] = '拾取 |cFFFFFD00海象人玩具船|r 后获得 {item:200876}，可以在 {npc:195252} 开始上缴的任务 {quest:72063}。'
 
 L['lizi_note'] = '完成从 {quest:65901} 开始的 Initiate\'s Day Out 任务线。每天完成任务以修复莉姬并获得坐骑。\n\n除了需要的物品外，所有任务都需要150个 {currency:2003}，总共需要750个 {currency:2003}。'
 L['lizi_note_day1'] = '从 |cFFFFFD00巨龙群岛s|r 的昆虫怪物收集20个 {item:192615}。'
@@ -83,34 +83,34 @@ L['lizi_note_day3'] = '从 |cFFFFFD00巨龙群岛s|r 的任意水域钓鱼收集
 L['lizi_note_day4'] = '从 |cFFFFFD00欧恩哈拉平原|r 的猛犸象收集20个 {item:192636}。'
 L['lizi_note_day5'] = '从 |cFFFFFD00欧恩伊尔清泉|r 南边的帐篷的 {npc:190015} 购买1个 {item:200598}。'
 
-L['ohnahra_note_start'] = nil
-L['ohnahra_note_item1'] = nil
-L['ohnahra_note_item2'] = nil
-L['ohnahra_note_item3'] = nil
-L['ohnahra_note_end'] = nil
+L['ohnahra_note_start'] = '完成 Initiate\'s Day Out 故事线开始于 {quest:65901} 之后，{npc:190022} 将出现在 |cFFFFFD00欧恩伊尔清泉|r 轻风贤者小屋后面。\n\n收集以下材料：'
+L['ohnahra_note_item1'] = '从 {npc:186151} 收集3个 {item:201929}，|cFFFFFD00诺库德阻击战|r 地下城的最终首领（英雄难度）。不是 100% 掉落。'
+L['ohnahra_note_item2'] = '50个 {currency:2003} 和1个 {item:194562} 从 {npc:196707} 购买1个 {item:201323}。\n{item:194562} 可以从 |cFFFFFD00索德拉苏斯|r 中从迷时怪物身上拾取。'
+L['ohnahra_note_item3'] = '从拍卖行购买1个 {item:191507}。（炼金师可以从 {npc:196707} 购买 {item:191588}，需要声望22）'
+L['ohnahra_note_end'] = '获得所有材料后，返回 {npc:190022} 并接受 {quest:72512}。前往 {npc:194796} 交任务并领取你的坐骑。'
 
-L['bakar_note'] = nil
-L['bakar_ellam_note'] = nil
-L['bakar_hugo_note'] = nil
+L['bakar_note'] = '抚摸狗！'
+L['bakar_ellam_note'] = '如果有足够多的玩家抚摸这只狗，她会带你去寻找她的宝藏。'
+L['bakar_hugo_note'] = '旅行到艾拉格营地。'
 L['options_icons_bakar'] = '{achievement:16424}'
-L['options_icons_bakar_desc'] = nil
+L['options_icons_bakar_desc'] = '显示 {achievement:16424} 成就中全部獒犬的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['acorn_harvester_note'] = nil
-L['cracked_hourglass_note'] = nil
-L['sandy_wooden_duck_note'] = nil
+L['acorn_harvester_note'] = '从附近地面收集1个 |cFFFFFD00橡果|r 获得 {spell:388485} 并与 {npc:196172} 互动。'
+L['cracked_hourglass_note'] = '{item:199068} 可以从探险队斥候包裹和翻动过的泥土中找到。'
+L['sandy_wooden_duck_note'] = '收集 {item:199069} 并使用它。'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = '卡拉希战队从 {npc:192737} 前往这座塔。'
-L['shasith_note'] = '黑曜王座内。\n\n需要更多探索'
+L['shasith_note'] = '|cFFFFFD00黑曜王座|r 内。\n\n和其他玩家必须总共交还20个 {item:191264}。要制作钥匙，需要组合30个 {item:191251} 和3个 {item:193201}，可以从黑曜堡垒怪物获得这些物品。'
 
-L['bubble_drifter_note'] = nil
+L['bubble_drifter_note'] = '{item:199061} 可以从探险队斥候包裹和翻动过的泥土中找到。'
 L['onyx_gem_cluster_note'] = '龙鳞探险队声望到达21级，从 {npc:189065} 购买 {item:200738} 需要3个 {item:192863} 和500 {currency:2003} 并使用它。'
 L['replica_dragon_goblet_note'] = '从翼眠大使馆的 {npc:193915} 购买 {item:198854} 并使用它。'
 
