@@ -24,20 +24,34 @@ local stw = Map({id = 84})
 
 local TRINKET = Heirloom({item = 199686}) -- Unstable Elemental Confluence
 
-local EVENT_REWARDS = {
-    [7371] = {Achievement({id = 16431, criteria = 55368}), Spacer(), TRINKET}, -- Earth (Barrens)
-    [0000] = {Achievement({id = 16431, criteria = 55369}), Spacer(), TRINKET}, -- Fire (Tirisfal)
-    [7379] = {Achievement({id = 16431, criteria = 55367}), Spacer(), TRINKET}, -- Storm (Un'Goro)
-    [7366] = {Achievement({id = 16431, criteria = 55370}), Spacer(), TRINKET} -- Water (Badlands)
-}
+local EARTH = {Achievement({id = 16431, criteria = 55368}), Spacer(), TRINKET}
+local FIRE = {Achievement({id = 16431, criteria = 55369}), Spacer(), TRINKET}
+local STORM = {Achievement({id = 16431, criteria = 55367}), Spacer(), TRINKET}
+local WATER = {Achievement({id = 16431, criteria = 55370}), Spacer(), TRINKET}
+
+local function RenderAreaPOIRewards(rewards)
+    GameTooltip:AddLine(' ')
+    for i, reward in ipairs(rewards) do
+        if reward:IsEnabled() then reward:Render(GameTooltip) end
+    end
+    GameTooltip:Show()
+end
 
 hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID and EVENT_REWARDS[self.areaPoiID] then
-        GameTooltip:AddLine(' ')
-        for i, reward in ipairs(EVENT_REWARDS[self.areaPoiID]) do
-            if reward:IsEnabled() then reward:Render(GameTooltip) end
+    if self and self.areaPoiID then
+        local mapID = self:GetMap().mapID
+        local info = C_AreaPoiInfo.GetAreaPOIInfo(mapID, self.areaPoiID)
+        if info.atlasName then
+            if info.atlasName:match('ElementalStorm%-%a+%-Earth') then
+                RenderAreaPOIRewards(EARTH)
+            elseif info.atlasName:match('ElementalStorm%-%a+%-Fire') then
+                RenderAreaPOIRewards(FIRE)
+            elseif info.atlasName:match('ElementalStorm%-%a+%-Storm') then
+                RenderAreaPOIRewards(STORM)
+            elseif info.atlasName:match('ElementalStorm%-%a+%-Water') then
+                RenderAreaPOIRewards(WATER)
+            end
         end
-        GameTooltip:Show()
     end
 end)
 
