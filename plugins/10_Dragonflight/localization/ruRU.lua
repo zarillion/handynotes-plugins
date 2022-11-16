@@ -52,10 +52,10 @@ L['options_icons_layline_desc'] = nil
 
 L['bag_of_enchanted_wind'] = nil
 L['bag_of_enchanted_wind_note'] = nil
-L['hessethiash_treasure'] = nil
+L['hessethiash_treasure'] = 'Плохо спрятанное сокровище Гессетиаша'
 L['lost_draconic_hourglass'] = nil
-L['mysterious_wand'] = nil
-L['mysterious_wand_note'] = nil
+L['mysterious_wand'] = 'Таинственный жезл'
+L['mysterious_wand_note'] = 'Поднимите |cFFFFFD00Кристальный ключ|r и поместите его в |cFFFFFD00Кристаллическое средоточие|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
