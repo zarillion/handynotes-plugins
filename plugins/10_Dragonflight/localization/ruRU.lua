@@ -53,7 +53,7 @@ L['options_icons_layline_desc'] = nil
 L['bag_of_enchanted_wind'] = 'Мешок зачарованного ветра'
 L['bag_of_enchanted_wind_note'] = 'Расположен в башне.'
 L['hessethiash_treasure'] = 'Плохо спрятанное сокровище Гессетиаша'
-L['lost_draconic_hourglass'] = nil
+L['lost_draconic_hourglass'] = 'Потерянные песочные часы драконов'
 L['mysterious_wand'] = 'Таинственный жезл'
 L['mysterious_wand_note'] = 'Поднимите |cFFFFFD00Кристальный ключ|r и поместите его в |cFFFFFD00Кристаллическое средоточие|r.'
 
