@@ -50,8 +50,8 @@ L['options_icons_layline_desc'] = nil
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
 
-L['bag_of_enchanted_wind'] = nil
-L['bag_of_enchanted_wind_note'] = nil
+L['bag_of_enchanted_wind'] = 'Мешок зачарованного ветра'
+L['bag_of_enchanted_wind_note'] = 'Расположен в башне.'
 L['hessethiash_treasure'] = 'Плохо спрятанное сокровище Гессетиаша'
 L['lost_draconic_hourglass'] = nil
 L['mysterious_wand'] = 'Таинственный жезл'
