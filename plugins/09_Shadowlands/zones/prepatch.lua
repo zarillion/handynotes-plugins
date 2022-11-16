@@ -127,7 +127,7 @@ local VENDOR_ITEMS = {
     Toy({item = 199337}) -- Bag of Furious Winds
 }
 
-stw.nodes[36874340] = NPC({
+stw.nodes[24985307] = NPC({
     id = 195912,
     icon = 237016,
     parent = {13, 37}, -- Elwynn Forest, EK
