@@ -51,7 +51,7 @@ L['options_icons_layline_desc'] = '显示 {achievement:16638} 成就中全部重
 
 L['bag_of_enchanted_wind'] = '魔风之袋'
 L['bag_of_enchanted_wind_note'] = '位于塔顶。'
-L['hessethiash_treasure'] = 'Hessethiash\'s Poorly Hidden Treasure'
+L['hessethiash_treasure'] = '赫瑟赛亚什拙劣地隐藏起来的宝藏'
 L['lost_draconic_hourglass'] = '失落的巨龙沙漏'
 L['mysterious_wand'] = '神秘魔杖'
 L['mysterious_wand_note'] = '拾取 |cFFFFFD00水晶钥匙|r 并将其放入 |cFFFFFD00聚焦水晶|r。'
