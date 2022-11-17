@@ -1,7 +1,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('ruRU')
 if not L then return end
--- Russian translation by ZamestoTV
+-- Russian translation by ZamestoTV, Сстра (Ирина), Артем
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON ISLES ---------------------------------
@@ -31,20 +31,20 @@ L['options_icons_scout_pack_desc'] = 'Отображение местополо�
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['blisterhide_note'] = nil
+L['blisterhide_note'] = 'Появляется одновременно с {npc:197344}, {npc:197356} и {npc:197354}'
 L['fisherman_tinnak_note'] = nil
-L['gnarls_note'] = nil
-L['high_shaman_rotknuckle_note'] = nil
-L['snarglebone_note'] = nil
+L['gnarls_note'] = 'Появляется одновременно с {npc:197344}, {npc:197353} и {npc:197356}'
+L['high_shaman_rotknuckle_note'] = 'Появляется одновременно с {npc:197344}, {npc:197353} и {npc:197354}'
+L['snarglebone_note'] = 'Появляется одновременно с {npc:197353}, {npc:197356} и {npc:197354}'
 L['trilvarus_loreweaver_note'] = nil
 
 L['forgotten_jewel_box_note'] = nil
-L['gnoll_fiend_flail_note'] = nil
+L['gnoll_fiend_flail_note'] = '{item:199066} можно найти в сумках разведчика экспедиции и потревоженной почве.'
 L['pepper_hammer_note'] = nil
 
-L['leyline_note'] = nil
+L['leyline_note'] = 'Силовые линии Простора.'
 L['options_icons_layline'] = '{achievement:16638}'
-L['options_icons_layline_desc'] = nil
+L['options_icons_layline_desc'] = 'Показать расположение всех силовых линий для достижения {achievement:16638}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
