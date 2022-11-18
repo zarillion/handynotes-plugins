@@ -54,7 +54,7 @@ L['bag_of_enchanted_wind'] = 'Bolsa de Vientos Encantados'
 L['bag_of_enchanted_wind_note'] = 'Está en lo alto de la torre.'
 L['hessethiash_treasure'] = 'Tesoro Mal Escondido de Hessethiash'
 L['lost_draconic_hourglass'] = 'Reloj de Arena Dracónico Perdido'
-L['suspicious_bottle_treasure'] = nil
+L['suspicious_bottle_treasure'] = 'Botella Sospechosa'
 L['mysterious_wand'] = 'Varita Misteriosa'
 L['mysterious_wand_note'] = 'Coge la |cFFFFFD00Llave de Cristal|r y ponla dentro del |cFFFFFD00Foco de Cristal|r.'
 
@@ -89,9 +89,9 @@ L['bakar_hugo_note'] = 'Viaja con el Campamento Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Muestra dónde están todos los perros (bakar) para el logro {achievement:16424}.'
 
-L['dreamguard_note'] = nil
+L['dreamguard_note'] = 'Selecciona al Guardasueños y teclea' .. ns.color.Orange('/dormir.')
 L['options_icons_dreamguards'] = '{achievement:16574}'
-L['options_icons_dreamguards_desc'] = nil
+L['options_icons_dreamguards_desc'] = 'Muestra dónde están los Guardasueños para el logro {achievement:16574}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
