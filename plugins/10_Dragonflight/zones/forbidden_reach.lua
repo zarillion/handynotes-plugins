@@ -10,6 +10,7 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local Item = ns.reward.Item
+local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -80,7 +81,7 @@ map.nodes[35576977] = Treasure({
     note = L['in_small_cave'],
     quest = 66876,
     rewards = {
-        Item({item = 195885, note = L['cloak']}) -- Black Dragon's Scale Cloak
+        Transmog({item = 195885, slot = L['cloak']}) -- Black Dragon's Scale Cloak
     }
 }) -- Hessethiash's Poorly Hidden Treasure
 
