@@ -45,7 +45,25 @@ map.nodes[28473653] = Rare({
 
 map.nodes[54964307] = Rare({id = 181427, quest = 64859}) -- Stormspine
 
-map.nodes[56496548] = Rare({id = 191746, quest = 66975}) -- Ketess the Pillager
+map.nodes[56496548] = Rare({
+    id = 191746,
+    quest = 66975,
+    rewards = {
+        Item({item = 194741}) -- Earthbound Tome
+    }
+}) -- Ketess the Pillager
+
+map.nodes[79497439] = Rare({
+    id = 182280,
+    note = L['in_small_cave'],
+    quest = 66973,
+    rewards = {
+        Item({item = 194883}) -- Runic Wing
+    },
+    pois = {
+        POI({77117292}) -- Entrance
+    }
+}) -- Tazenrath
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -88,6 +106,18 @@ map.nodes[30536442] = Treasure({
     label = L['lost_draconic_hourglass'],
     quest = 66974
 }) -- Lost Draconic Hourglass
+
+map.nodes[62204310] = Treasure({
+    label = L['suspicious_bottle_treasure'],
+    note = L['in_small_cave'],
+    quest = 65908,
+    rewards = {
+        Item({item = 195580}) -- Suspicious Bottle
+    },
+    pois = {
+        POI({63474569}) -- Entrance
+    }
+}) -- Suspicious Bottle
 
 creche.nodes[38297451] = Treasure({
     label = L['mysterious_wand'],
