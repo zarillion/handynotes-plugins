@@ -53,6 +53,7 @@ L['bag_of_enchanted_wind'] = 'Tasche mit verzaubertem Wind'
 L['bag_of_enchanted_wind_note'] = 'Befindet sich oben im Turm.'
 L['hessethiash_treasure'] = 'Hessethiashs erbärmlich versteckter Schatz'
 L['lost_draconic_hourglass'] = 'Verlorenes drakonisches Stundenglas'
+L['suspicious_bottle_treasure'] = nil
 L['mysterious_wand'] = 'Geheimnisvoller Zauberstab'
 L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und platziere ihn im |cFFFFFD00Kristallfokus|r.'
 

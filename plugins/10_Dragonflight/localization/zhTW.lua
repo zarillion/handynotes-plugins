@@ -53,6 +53,7 @@ L['bag_of_enchanted_wind'] = nil
 L['bag_of_enchanted_wind_note'] = nil
 L['hessethiash_treasure'] = nil
 L['lost_draconic_hourglass'] = nil
+L['suspicious_bottle_treasure'] = nil
 L['mysterious_wand'] = nil
 L['mysterious_wand_note'] = nil
 
@@ -60,14 +61,6 @@ L['mysterious_wand_note'] = nil
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
--- {quest:65901} = Sneaking Out
--- {currency:2003} = Dragon Isle Supplies
--- {item:192615} = Flourescent Fluid
--- {item:192658} = High-Fiber Leaf
--- {item:194966} = Thousandbite Piranha
--- {item:192636} = Woolly Mountain Pelt
--- {item:200598} = Meluun's Green Curry
--- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = '點選 {npc:193166} 來召喚稀有.'
 
 L['gold_swong_coin_note'] = nil

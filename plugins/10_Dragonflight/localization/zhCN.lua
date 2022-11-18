@@ -53,21 +53,14 @@ L['bag_of_enchanted_wind'] = '魔风之袋'
 L['bag_of_enchanted_wind_note'] = '位于塔顶。'
 L['hessethiash_treasure'] = '赫瑟赛亚什拙劣地隐藏起来的宝藏'
 L['lost_draconic_hourglass'] = '失落的巨龙沙漏'
-L['mysterious_wand'] = '神秘的魔杖'
-L['mysterious_wand_note'] = '拾取 |cFFFFFD00水晶钥匙|r 并将其放入 |cFFFFFD00水晶法器|r。'
+L['suspicious_bottle_treasure'] = nil
+L['mysterious_wand'] = '神秘魔杖'
+L['mysterious_wand_note'] = '拾取 |cFFFFFD00水晶钥匙|r 并将其放入 |cFFFFFD00聚焦水晶|r。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
--- {quest:65901} = Sneaking Out
--- {currency:2003} = Dragon Isle Supplies
--- {item:192615} = Flourescent Fluid
--- {item:192658} = High-Fiber Leaf
--- {item:194966} = Thousandbite Piranha
--- {item:192636} = Woolly Mountain Pelt
--- {item:200598} = Meluun's Green Curry
--- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = '点击 {npc:193166} 刷新稀有。'
 
 L['gold_swong_coin_note'] = '在洞穴内，{npc:191608} 在他的右侧。'

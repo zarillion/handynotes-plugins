@@ -53,6 +53,7 @@ L['bag_of_enchanted_wind'] = 'Bag of Enchanted Wind'
 L['bag_of_enchanted_wind_note'] = 'Located up in the tower.'
 L['hessethiash_treasure'] = 'Hessethiash\'s Poorly Hidden Treasure'
 L['lost_draconic_hourglass'] = 'Lost Draconic Hourglass'
+L['suspicious_bottle_treasure'] = 'Suspicious Bottle'
 L['mysterious_wand'] = 'Mysterious Wand'
 L['mysterious_wand_note'] = 'Pick up the |cFFFFFD00Crystal Key|r and place it into the |cFFFFFD00Crystal Focus|r.'
 
@@ -60,14 +61,6 @@ L['mysterious_wand_note'] = 'Pick up the |cFFFFFD00Crystal Key|r and place it in
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
--- {quest:65901} = Sneaking Out
--- {currency:2003} = Dragon Isle Supplies
--- {item:192615} = Flourescent Fluid
--- {item:192658} = High-Fiber Leaf
--- {item:194966} = Thousandbite Piranha
--- {item:192636} = Woolly Mountain Pelt
--- {item:200598} = Meluun's Green Curry
--- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = 'Click the {npc:193166} to spawn the rare.'
 
 L['gold_swong_coin_note'] = 'Inside the cave with {npc:191608} to his right side.'

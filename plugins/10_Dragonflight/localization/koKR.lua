@@ -53,6 +53,7 @@ L['bag_of_enchanted_wind'] = nil
 L['bag_of_enchanted_wind_note'] = nil
 L['hessethiash_treasure'] = nil
 L['lost_draconic_hourglass'] = nil
+L['suspicious_bottle_treasure'] = nil
 L['mysterious_wand'] = nil
 L['mysterious_wand_note'] = nil
 

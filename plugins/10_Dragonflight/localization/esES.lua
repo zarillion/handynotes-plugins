@@ -54,6 +54,7 @@ L['bag_of_enchanted_wind'] = 'Bolsa de Vientos Encantados'
 L['bag_of_enchanted_wind_note'] = 'Está en lo alto de la torre.'
 L['hessethiash_treasure'] = 'Tesoro Mal Escondido de Hessethiash'
 L['lost_draconic_hourglass'] = 'Reloj de Arena Dracónico Perdido'
+L['suspicious_bottle_treasure'] = nil
 L['mysterious_wand'] = 'Varita Misteriosa'
 L['mysterious_wand_note'] = 'Coge la |cFFFFFD00Llave de Cristal|r y ponla dentro del |cFFFFFD00Foco de Cristal|r.'
 
@@ -61,14 +62,6 @@ L['mysterious_wand_note'] = 'Coge la |cFFFFFD00Llave de Cristal|r y ponla dentro
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
--- {quest:65901} = Sneaking Out
--- {currency:2003} = Dragon Isle Supplies
--- {item:192615} = Flourescent Fluid
--- {item:192658} = High-Fiber Leaf
--- {item:194966} = Thousandbite Piranha
--- {item:192636} = Woolly Mountain Pelt
--- {item:200598} = Meluun's Green Curry
--- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 
 L['gold_swong_coin_note'] = 'Dentro de la cueva con {npc:191608} a su lado derecho.'
