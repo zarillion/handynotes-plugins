@@ -88,6 +88,10 @@ L['bakar_hugo_note'] = 'Reist mit dem Lager der Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Zeigt die Position aller Bakar (Hunde) für den Erfolg {achievement:16424} an.'
 
+L['dreamguard_note'] = nil
+L['options_icons_dreamguards'] = '{achievement:16574}'
+L['options_icons_dreamguards_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

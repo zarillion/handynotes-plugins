@@ -89,6 +89,10 @@ L['bakar_hugo_note'] = 'Voyage avec le campement Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Afficher l\'emplacement de tous les chiens (bakars) pour le haut-fait {achievement:16424}.'
 
+L['dreamguard_note'] = nil
+L['options_icons_dreamguards'] = '{achievement:16574}'
+L['options_icons_dreamguards_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

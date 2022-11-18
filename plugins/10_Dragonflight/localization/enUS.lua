@@ -88,6 +88,10 @@ L['bakar_hugo_note'] = 'Travels with the Aylaag Camp.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Display the location of all dogs (bakar) for the achievement {achievement:16424}.'
 
+L['dreamguard_note'] = 'Target the Dreamguard and ' .. ns.color.Orange('/sleep')
+L['options_icons_dreamguards'] = '{achievement:16574}'
+L['options_icons_dreamguards_desc'] = 'Display Dreamguard locations for {achievement:16574}'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
