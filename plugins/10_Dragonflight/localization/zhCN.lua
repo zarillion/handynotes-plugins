@@ -53,8 +53,8 @@ L['bag_of_enchanted_wind'] = '魔风之袋'
 L['bag_of_enchanted_wind_note'] = '位于塔顶。'
 L['hessethiash_treasure'] = '赫瑟赛亚什拙劣地隐藏起来的宝藏'
 L['lost_draconic_hourglass'] = '失落的巨龙沙漏'
-L['mysterious_wand'] = '神秘魔杖'
-L['mysterious_wand_note'] = '拾取 |cFFFFFD00水晶钥匙|r 并将其放入 |cFFFFFD00聚焦水晶|r。'
+L['mysterious_wand'] = '神秘的魔杖'
+L['mysterious_wand_note'] = '拾取 |cFFFFFD00水晶钥匙|r 并将其放入 |cFFFFFD00水晶法器|r。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
