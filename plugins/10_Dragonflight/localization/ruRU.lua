@@ -36,11 +36,11 @@ L['fisherman_tinnak_note'] = 'Соберите |cFFFFFD00Наконечник г
 L['gnarls_note'] = 'Появляется одновременно с {npc:197344}, {npc:197353} и {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Появляется одновременно с {npc:197344}, {npc:197353} и {npc:197354}'
 L['snarglebone_note'] = 'Появляется одновременно с {npc:197353}, {npc:197356} и {npc:197354}'
-L['trilvarus_loreweaver_note'] = nil
+L['trilvarus_loreweaver_note'] = 'Возьмите |cFFFFFD00Поющий фрагмент|r и получите {spell:382076} затем используйте |cFFFFFD00Неизведанный фокус|r для того, чтобы призвать редкого монстра.'
 
-L['forgotten_jewel_box_note'] = nil
+L['forgotten_jewel_box_note'] = '{item:199065} можно найти в сумках разведчика экспедиции и потревоженной почве.'
 L['gnoll_fiend_flail_note'] = '{item:199066} можно найти в сумках разведчика экспедиции и потревоженной почве.'
-L['pepper_hammer_note'] = nil
+L['pepper_hammer_note'] = 'Возьмите |cFFFFFD00Древесный сок|r и используйте его на |cFFFFFD00палочке|r чтобы приманить {npc:195373}.\n\n|cFFFF0000(БАГ: Чтобы нажать на палку, может потребоваться перезагрузка)|r'
 
 L['leyline_note'] = 'Силовые линии Простора.'
 L['options_icons_layline'] = '{achievement:16638}'
