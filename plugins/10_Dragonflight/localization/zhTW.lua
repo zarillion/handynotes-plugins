@@ -49,12 +49,12 @@ L['options_icons_layline_desc'] = nil
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
 
-L['bag_of_enchanted_wind'] = nil
-L['bag_of_enchanted_wind_note'] = nil
-L['hessethiash_treasure'] = nil
-L['lost_draconic_hourglass'] = nil
-L['mysterious_wand'] = nil
-L['mysterious_wand_note'] = nil
+L['bag_of_enchanted_wind'] = '一袋祕法之風'
+L['bag_of_enchanted_wind_note'] = '位於塔頂內.'
+L['hessethiash_treasure'] = '赫瑟西亞許的不隱密寶箱'
+L['lost_draconic_hourglass'] = '失落的龍沙漏'
+L['mysterious_wand'] = '神秘魔杖'
+L['mysterious_wand_note'] = '撿起 |cFFFFFD00水晶鑰匙|r 並把它放進 |cFFFFFD00水晶法器|r內.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
