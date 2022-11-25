@@ -532,10 +532,36 @@ map.nodes[79823175] = Scoutpack()
 
 map.nodes[40985940] = PetBattle({
     id = 197417,
-    rewards = {Achievement({id = 16464, criteria = 55487})}
+    rewards = {
+        Achievement({id = 16464, criteria = 55487}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 1, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 1, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 1, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 1, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 1, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 1, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 1, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 1, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 1, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 1, oneline = true}) -- Undead
+    }
 }) -- Arcantus
 
 map.nodes[13884986] = PetBattle({
     id = 196069,
-    rewards = {Achievement({id = 16464, criteria = 55489})}
+    rewards = {
+        Achievement({id = 16464, criteria = 55489}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 5, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 5, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 5, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 5, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 5, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 5, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 5, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 5, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 5, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 5, oneline = true}) -- Undead
+    }
 }) -- Patchu

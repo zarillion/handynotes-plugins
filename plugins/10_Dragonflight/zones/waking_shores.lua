@@ -13,7 +13,7 @@ local Flag = ns.node.Flag
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
--- local PetBattle = ns.node.PetBattle
+local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -475,12 +475,38 @@ map.nodes[82055012] = Scoutpack()
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[] = PetBattle({
---     id = 196264,
---     rewards = {Achievement({id = 16464, criteria = 55485})}
--- }) -- Haniko
+map.nodes[39028289] = PetBattle({
+    id = 196264,
+    rewards = {
+        Achievement({id = 16464, criteria = 55485}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 4, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 4, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 4, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 4, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 4, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 4, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 4, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 4, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 4, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 4, oneline = true}) -- Undead
+    }
+}) -- Haniko
 
--- map.nodes[] = PetBattle({
---     id = 189376,
---     rewards = {Achievement({id = 16464, criteria = 55488})}
--- }) -- Swog
+map.nodes[26239233] = PetBattle({
+    id = 189376,
+    rewards = {
+        Achievement({id = 16464, criteria = 55488}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 8, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 8, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 8, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 8, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 8, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 8, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 8, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 8, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 8, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 8, oneline = true}) -- Undead
+    }
+}) -- Swog
