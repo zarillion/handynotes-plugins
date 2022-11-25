@@ -336,7 +336,8 @@ map.nodes[31456387] = Rare({
     quest = nil,
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
-        Transmog({item = 200314, slot = L['cloth']}) -- Skyspeaker's Envelope
+        Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
+        Mount({item = 198825, id = 1672}) -- Zenet Hatchling
     }
 }) -- Zenet Avis
 
@@ -568,7 +569,7 @@ map.nodes[83882587] = Bakar({
     rewards = {Achievement({id = 16424, criteria = 55320})}
 }) -- Gentara
 
-map.nodes[70636364] = Bakar({
+map.nodes[70616361] = Bakar({
     note = L['bakar_note'] .. '\n\n' .. L['bakar_hugo_note'],
     rewards = {Achievement({id = 16424, criteria = 55327})},
     pois = {POI({71103149})}
@@ -609,7 +610,7 @@ map.nodes[71644967] = Bakar({
     pois = {POI({61164002})} -- questline start
 }) -- Soyoo
 
-map.nodes[61843869] = Bakar({
+map.nodes[61833862] = Bakar({
     requires = ns.requirement.Quest(69096), -- Taivan's Purpose
     rewards = {Achievement({id = 16424, criteria = 55325})},
     pois = {POI({61164002})} -- questline start

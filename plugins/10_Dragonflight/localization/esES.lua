@@ -38,7 +38,10 @@ L['fisherman_tinnak_note'] = 'Recoge la |cFFFFFD00Caña de Pescar Rota|r, la |cF
 L['gnarls_note'] = 'Aparece simultáneamente con {npc:197344}, {npc:197353} y {npc:197356}.'
 L['high_shaman_rotknuckle_note'] = 'Aparece simultáneamente con {npc:197344}, {npc:197353} y {npc:197354}.'
 L['snarglebone_note'] = 'Aparece simultáneamente con {npc:197353}, {npc:197356} y {npc:197354}.'
+L['spellwrought_snowman_note'] = nil
 L['trilvarus_loreweaver_note'] = 'Recoge un |cFFFFFD00Fragmento Cantarín|r para conseguir {spell:382076} y usar el |cFFFFFD00Enfoque Descargado|r para hacer aparecer al raro.'
+
+L['breezebiter_note'] = nil
 
 L['forgotten_jewel_box_note'] = 'Despoja la {item:199065} de un Cofre del Clan en Retiro Crestagua (49.4 67.3) en las Llanuras de Ohn\'ahran y úsala.'
 L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
@@ -101,6 +104,9 @@ L['options_icons_bakar_desc'] = 'Muestra dónde están todos los perros (bakar) 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
+
+L['blightpaw_note'] = nil
+L['woofang_note'] = nil
 
 L['acorn_harvester_note'] = 'Recoge una |cFFFFFD00Bellota|r del suelo cercano para conseguir {spell:388485} y entonces interactúa con {npc:196172}.'
 L['cracked_hourglass_note'] = 'La {item:199068} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'

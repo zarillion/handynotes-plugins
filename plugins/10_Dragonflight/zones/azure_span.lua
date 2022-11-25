@@ -17,7 +17,7 @@ local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
--- local Mount = ns.reward.Mount
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -134,12 +134,20 @@ map.nodes[16622798] = Rare({
 --     }
 -- }) -- Brackle
 
-map.nodes[27804580] = Rare({ -- review
+map.nodes[27214490] = Rare({
     id = 193157,
     quest = nil,
     rewards = {
-        Achievement({id = 16678, criteria = 56098})
+        Achievement({id = 16678, criteria = 56098}),
+        Item({item = 197005, quest = 69205}) -- Cliffside Wylderdrake: Horned Nose
         -- Transmog({item = , slot = L['']}) -- Name
+    },
+    pois = {
+        Path({
+            26834541, 26554557, 26314548, 25854568, 25844609, 26214609,
+            26644613, 26834619, 26834640, 27044644, 27144627, 27374654,
+            27604656, 27724633, 27614620, 27654565, 27414532, 27214490, 26834541
+        })
     }
 }) -- Dragonhunter Gorund
 
@@ -196,14 +204,14 @@ map.nodes[32682911] = Rare({ -- review -- required 67030
     }
 }) -- Gruffy
 
--- map.nodes[] = Rare({ -- required 67030
---     id = 193269,
---     quest = 69892,
---     rewards = {
---         Achievement({id = 16678, criteria = 56112}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Grumbletrunk
+map.nodes[19234362] = Rare({ -- required 67030
+    id = 193269,
+    quest = 69892,
+    rewards = {
+        Achievement({id = 16678, criteria = 56112}),
+        Transmog({item = 200206, slot = L['bow']}) -- Behemoth Slayer Greatbow
+    }
+}) -- Grumbletrunk
 
 map.nodes[16213364] = Rare({
     id = 197356,
@@ -244,14 +252,14 @@ map.nodes[40514797] = Rare({
 --     }
 -- }) -- Moth'go Deeploom
 
--- map.nodes[] = Rare({
---     id = 193201,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56102}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Mucka the Raker
+map.nodes[58095471] = Rare({ -- review
+    id = 193201,
+    quest = nil,
+    rewards = {
+        Achievement({id = 16678, criteria = 56102}),
+        Item({item = 200445, note = L['neck']}) -- Lucky Hunting Charm
+    }
+}) -- Mucka the Raker
 
 map.nodes[34362779] = Rare({ -- review location in cave map 2132 Kargpaw's Den
     id = 193225,
@@ -329,13 +337,19 @@ map.nodes[10863229] = Rare({
 --     }
 -- }) -- Snufflegust
 
-map.nodes[54993414] = Rare({
+map.nodes[55033405] = Rare({
     id = 193238,
     quest = nil, -- 69879 ?
     note = L['spellwrought_snowman_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56124}),
         Transmog({item = 200211, slot = L['cloth']}) -- Snowman's Icy Gaze
+    },
+    pois = {
+        POI({
+            53873559, 54003628, 54073717, 53393655, 52923709, 52203733,
+            51673681, 51953564, 54163466, 53483474
+        })
     }
 }) -- Spellwrought Snowman
 
@@ -376,6 +390,24 @@ map.nodes[70222532] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Wilrive
+
+-------------------------------------------------------------------------------
+
+map.nodes[28564743] = Rare({
+    id = 195353,
+    quest = nil,
+    note = L['breezebiter_note'],
+    rewards = {
+        Mount({item = 201440, id = 1553}) -- Liberated Slyvern
+    },
+    pois = {
+        Path({
+            28564743, 28304800, 27944822, 26974854, 26364841, 26074796,
+            25824706, 25764642, 26134540, 26374491, 27124437, 27554428,
+            28164470, 28614643, 28564743
+        })
+    }
+}) -- Breezebiter
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

@@ -37,7 +37,10 @@ L['fisherman_tinnak_note'] = nil
 L['gnarls_note'] = nil
 L['high_shaman_rotknuckle_note'] = nil
 L['snarglebone_note'] = nil
+L['spellwrought_snowman_note'] = nil
 L['trilvarus_loreweaver_note'] = nil
+
+L['breezebiter_note'] = nil
 
 L['forgotten_jewel_box_note'] = nil
 L['gnoll_fiend_flail_note'] = nil
@@ -92,6 +95,9 @@ L['options_icons_bakar_desc'] = nil
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
+
+L['blightpaw_note'] = nil
+L['woofang_note'] = nil
 
 L['acorn_harvester_note'] = nil
 L['cracked_hourglass_note'] = nil
