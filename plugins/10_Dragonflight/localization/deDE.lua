@@ -53,7 +53,7 @@ L['bag_of_enchanted_wind'] = 'Tasche mit verzaubertem Wind'
 L['bag_of_enchanted_wind_note'] = 'Befindet sich oben im Turm.'
 L['hessethiash_treasure'] = 'Hessethiashs erbärmlich versteckter Schatz'
 L['lost_draconic_hourglass'] = 'Verlorenes drakonisches Stundenglas'
-L['suspicious_bottle_treasure'] = nil
+L['suspicious_bottle_treasure'] = 'Verdächtige Flasche'
 L['mysterious_wand'] = 'Geheimnisvoller Zauberstab'
 L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und platziere ihn im |cFFFFFD00Kristallfokus|r.'
 
@@ -88,9 +88,9 @@ L['bakar_hugo_note'] = 'Reist mit dem Lager der Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Zeigt die Position aller Bakar (Hunde) für den Erfolg {achievement:16424} an.'
 
-L['dreamguard_note'] = nil
+L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefehl ' .. ns.color.Orange('/schlafen') .. '.'
 L['options_icons_dreamguards'] = '{achievement:16574}'
-L['options_icons_dreamguards_desc'] = nil
+L['options_icons_dreamguards_desc'] = 'Zeigt die Position der Traumwächterinnen für den Erfolg {achievement:16574} an.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
