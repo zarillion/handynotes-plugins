@@ -290,11 +290,16 @@ map.nodes[20002200] = Treasure({
     rewards = {Achievement({id = 16297, criteria = 55403})}
 }) -- Misty Treasure Chest
 
-map.nodes[22002200] = Treasure({ -- required 72021, 72020
-    quest = nil,
+map.nodes[29454699] = Treasure({
+    quest = 72020,
     note = L['onyx_gem_cluster_note'],
-    requires = ns.requirement.Item(200738), -- Onyx Gem Cluster Map
-    rewards = {Achievement({id = 16297, criteria = 55448})},
+    requires = {
+        ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Item(200738) -- Onyx Gem Cluster Map
+    },
+    rewards = {
+        Achievement({id = 16297, criteria = 55448}), Item({item = 200867}) -- Glimmering Neltharite Cluster
+    },
     pois = {POI({46948289})}
 }) -- Onyx Gem Cluster
 
@@ -306,10 +311,16 @@ map.nodes[48865180] = Treasure({
     pois = {POI({75423397})}
 }) -- Replica Dragon Goblet
 
-map.nodes[24002200] = Treasure({ -- required 70528, 70598
-    quest = nil,
-    requires = ns.requirement.Item(199062), -- Ruby Gem Cluster Map
-    rewards = {Achievement({id = 16297, criteria = 54713})}
+map.nodes[61347079] = Treasure({
+    quest = 70598,
+    note = L['gem_cluster_note'],
+    requires = {
+        ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Item(199062) -- Ruby Gem Cluster Map
+    },
+    rewards = {
+        Achievement({id = 16297, criteria = 54713}), Item({item = 200864}) -- Glimmering Alexstraszite Cluster
+    }
 }) -- Ruby Gem Cluster
 
 map.nodes[48488518] = Treasure({

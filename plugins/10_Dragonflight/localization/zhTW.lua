@@ -6,6 +6,8 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['gem_cluster_note'] = nil
+
 L['dragon_glyph'] = '龍之雕紋'
 L['options_icons_dragon_glyph'] = '龍之雕紋'
 L['options_icons_dragon_glyph_desc'] = '顯示全部48個龍之雕紋的位置'
@@ -111,7 +113,7 @@ L['brundin_the_dragonbane_note'] = '喀拉希戰爭隊伍坐在 {npc:192737} 旅
 L['shasith_note'] = '在黑曜王座內. \n\n需要更多的調查'
 
 L['bubble_drifter_note'] = '{item:199061} 可以在遠征隊斥侯包和挖過的土中找到.'
-L['onyx_gem_cluster_note'] = '當龍鱗遠征隊的名望到達21時, 從 {npc:189065} 用3個 {item:192863} 和 500{currency:2003} 購買 {item:200738} 並使用它.'
+L['onyx_gem_cluster_note'] = '當龍鱗遠征隊的名望到達21時, 從 {npc:189065} 用3個 {item:192863} 和 500{currency:2003} 購買 {item:200738} 並使用它.' -- review
 L['replica_dragon_goblet_note'] = '和翼息大使館裡的 {npc:193915} 購買 {item:198854} 並使用它.'
 
 L['fullsails_supply_chest'] = '滿帆補給箱'

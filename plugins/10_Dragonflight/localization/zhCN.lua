@@ -6,6 +6,8 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['gem_cluster_note'] = nil
+
 L['dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph_desc'] = '显示全部48个巨龙魔符的位置。'
@@ -111,7 +113,7 @@ L['brundin_the_dragonbane_note'] = '卡拉希战队从 {npc:192737} 前往这座
 L['shasith_note'] = '|cFFFFFD00黑曜王座|r 内。\n\n和其他玩家必须总共交还20个 {item:191264}。要制作钥匙，需要组合30个 {item:191251} 和3个 {item:193201}，可以从黑曜堡垒怪物获得这些物品。'
 
 L['bubble_drifter_note'] = '{item:199061} 可以从探险队斥候包裹和翻动过的泥土中找到。'
-L['onyx_gem_cluster_note'] = '龙鳞探险队声望到达21级，从 {npc:189065} 购买 {item:200738} 需要3个 {item:192863} 和500 {currency:2003} 并使用它。'
+L['onyx_gem_cluster_note'] = '龙鳞探险队声望到达21级，从 {npc:189065} 购买 {item:200738} 需要3个 {item:192863} 和500 {currency:2003} 并使用它。' -- review
 L['replica_dragon_goblet_note'] = '从翼眠大使馆的 {npc:193915} 购买 {item:198854} 并使用它。'
 
 L['fullsails_supply_chest'] = '满帆补给箱'

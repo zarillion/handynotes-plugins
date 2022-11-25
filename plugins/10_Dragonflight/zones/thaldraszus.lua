@@ -16,6 +16,7 @@ local Treasure = ns.node.Treasure
 local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 -- local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
@@ -217,10 +218,16 @@ map.nodes[49436289] = Treasure({
     }
 }) -- Acorn Harvester
 
-map.nodes[78001400] = Treasure({ -- required 70407, 70408
-    quest = nil,
-    requires = ns.requirement.Item(198852), -- Bear Termination Orders
-    rewards = {Achievement({id = 16301, criteria = 54812})}
+map.nodes[52607673] = Treasure({
+    quest = 70408,
+    note = L['gem_cluster_note'],
+    requires = {
+        ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Item(198852) -- Bear Termination Orders
+    },
+    rewards = {
+        Achievement({id = 16301, criteria = 54812}), Item({item = 200863}) -- Glimmering Nozdorite Cluster
+    }
 }) -- Amber Gem Cluster
 
 map.nodes[33967695] = Treasure({
@@ -235,7 +242,7 @@ map.nodes[60244164] = Treasure({
     rewards = {Achievement({id = 16301, criteria = 54813})}
 }) -- Elegant Canvas Brush
 
-map.nodes[58168007] = Treasure({ -- required 70538, 70608
+map.nodes[58168007] = Treasure({
     quest = 70608,
     note = L['sandy_wooden_duck_note'],
     requires = ns.requirement.Item(199069), -- Yennu's Map

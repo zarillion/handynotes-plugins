@@ -6,6 +6,8 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['gem_cluster_note'] = nil
+
 L['dragon_glyph'] = nil
 L['options_icons_dragon_glyph'] = nil
 L['options_icons_dragon_glyph_desc'] = nil
