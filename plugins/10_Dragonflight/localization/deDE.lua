@@ -6,7 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['gem_cluster_note'] = 'Der benötigte Gegenstand kann auf Ruhmstufe 21 bei der Drachenschuppenexpedition in Expeditionsspäherpacks und in Bewegte Erde enthalten enthalten sein.'
+L['gem_cluster_note'] = 'Der benötigte Gegenstand kann auf Ruhmstufe 21 bei der Drachenschuppenexpedition in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 
 L['dragon_glyph'] = 'Drachenglyphe'
 L['options_icons_dragon_glyph'] = 'Drachenglyphen'
@@ -68,7 +68,7 @@ L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und plat
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
 
 L['gold_swong_coin_note'] = 'In der Höhle mit {npc:191608} zu seiner rechten Seite.'
-L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten enthalten sein.'
+L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutz diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
 L['yennus_boat'] = 'Spielzeugboot der Tuskarr'
 L['yennus_boat_note'] = 'Plündere das |cFFFFFD00Spielzeugboot der Tuskarr|r, um {item:200876} zu erhalten, das die Quest {quest:72063} startet, die bei {npc:195252} abgegeben werden kann.'
