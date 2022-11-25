@@ -37,7 +37,10 @@ L['fisherman_tinnak_note'] = '收集 破損的釣魚竿, 撕裂的釣魚網 和 
 L['gnarls_note'] = '和 {npc:197344}, {npc:197353}, {npc:197356} 同時出現'
 L['high_shaman_rotknuckle_note'] = '和 {npc:197344}, {npc:197353}, {npc:197354} 同時出現'
 L['snarglebone_note'] = '和 {npc:197353}, {npc:197356}, {npc:197354} 同時出現'
+L['spellwrought_snowman_note'] = nil
 L['trilvarus_loreweaver_note'] = '收集一個歌唱碎片來取得 {spell:382076} 後使用 Uncharded Focus 來召喚稀有.'
+
+L['breezebiter_note'] = nil
 
 L['forgotten_jewel_box_note'] = '從雍亞拉平原的嶺水靜地 (49.4 67.3) 上的 氏族寶箱 拾取{item:199065} 並使用它.'
 L['gnoll_fiend_flail_note'] = '{item:199066} 可以在遠征隊斥侯包和挖過的土中找到.'
@@ -100,6 +103,9 @@ L['options_icons_bakar_desc'] = nil
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
+
+L['blightpaw_note'] = nil
+L['woofang_note'] = nil
 
 L['acorn_harvester_note'] = '在附近的地上收集一個橡實來取得 {spell:388485} 之後再和 {npc:196172} 互動.'
 L['cracked_hourglass_note'] = '{item:199068} 可以在遠征隊斥侯包和挖過的土中找到.'

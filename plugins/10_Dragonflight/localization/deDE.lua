@@ -37,7 +37,10 @@ L['fisherman_tinnak_note'] = 'Sammel |cFFFFFD00Broken Fishing Pole|r, |cFFFFFD00
 L['gnarls_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197353} und {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197353} und {npc:197354}'
 L['snarglebone_note'] = 'Erscheint gleichzeitig mit {npc:197353}, {npc:197356} und {npc:197354}'
+L['spellwrought_snowman_note'] = 'Sammel 10x {npc:193424} und bringe diese zu {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Sammel ein |cFFFFFD00Singing Fragment|r un den Schwächungszauber {spell:382076} zu erhalten und benutze dann den |cFFFFFD00Ungeladenen Focus|r.'
+
+L['breezebiter_note'] = 'Fliegt durch die Luft, um ihn herunterzuziehen, fliege dicht an ihm vorbei.'
 
 L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Klankiste in Gratwasserzuflucht (49.4 67.3) in den Ebenen von Ohn\'ahra und benutze es.'
 L['gnoll_fiend_flail_note'] = '{item:199066} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
@@ -92,6 +95,9 @@ L['options_icons_bakar_desc'] = 'Zeigt die Position aller Bakar (Hunde) für den
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
+
+L['blightpaw_note'] = 'Sprich mit {npc:193222} in der Nähe und stimme zu, ihm zu helfen.'
+L['woofang_note'] = 'Streichel {npc:193156}, um den seltenen Gegner erscheinen zu lassen.'
 
 L['acorn_harvester_note'] = 'Sammel in der Nähe eine |cFFFFFD00Eichel|r vom Boden auf, um {spell:388485} zu erhalten und interagiere dann mit {npc:196172}.'
 L['cracked_hourglass_note'] = '{item:199068} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'

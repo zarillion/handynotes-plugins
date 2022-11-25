@@ -38,7 +38,10 @@ L['fisherman_tinnak_note'] = 'Récupérez la |cFFFFFD00Canne à pêche cassée|r
 L['gnarls_note'] = 'Apparaît simultanément avec {npc:197344}, {npc:197353} et {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Apparaît simultanément avec {npc:197344}, {npc:197353} et {npc:197354}'
 L['snarglebone_note'] = 'Apparaît simultanément avec {npc:197353}, {npc:197356} et {npc:197354}'
+L['spellwrought_snowman_note'] = nil
 L['trilvarus_loreweaver_note'] = 'Récupérez un |cFFFFFD00Fragment chantant|r pour obtenir {spell:382076} et utilisez le |cFFFFFD00Focalisateur déchargé|r pour faire apparaître le rare.'
+
+L['breezebiter_note'] = nil
 
 L['forgotten_jewel_box_note'] = 'Récupérez la {item:199065} dans un Coffre clanique au Refuge d\'Ondecrête (49.4 67.3) dans les Plaines d\'Ohn\'ahra et utilisez-la.'
 L['gnoll_fiend_flail_note'] = '{item:199066} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
@@ -93,6 +96,9 @@ L['options_icons_bakar_desc'] = 'Afficher l\'emplacement de tous les chiens (bak
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
+
+L['blightpaw_note'] = nil
+L['woofang_note'] = nil
 
 L['acorn_harvester_note'] = 'Ramassez un |cFFFFFD00Gland|r sur le sol à proximité pour obtenir {spell:388485} et interagissez ensuite avec {npc:196172}.'
 L['cracked_hourglass_note'] = '{item:199068} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'

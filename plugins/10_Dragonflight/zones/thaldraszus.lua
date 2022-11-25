@@ -32,19 +32,18 @@ local map = Map({id = 2025, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[59545917] = Rare({ -- review
+map.nodes[59075874] = Rare({
     id = 193664,
     quest = 69963,
     rewards = {Achievement({id = 16679, criteria = 56158})}
 }) -- Ancient Protector
 
--- map.nodes[] = Rare({
---     id = 193128,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16679, criteria = 56136}),
---     }
--- }) -- Blightpaw the Depraved
+map.nodes[31097121] = Rare({ -- requirement ?
+    id = 193128,
+    quest = nil,
+    note = L['blightpaw_note'],
+    rewards = {Achievement({id = 16679, criteria = 56136})}
+}) -- Blightpaw the Depraved
 
 map.nodes[59847057] = Rare({ -- required 67030
     id = 193220,
@@ -83,13 +82,14 @@ map.nodes[47675115] = Rare({ -- required 67030
     rewards = {Achievement({id = 16679, criteria = 56147})}
 }) -- Eldoren the Reborn
 
--- map.nodes[] = Rare({
---     id = 193125,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16679, criteria = 56138}),
---     }
--- }) -- Goremaul the Gluttonous
+map.nodes[53374092] = Rare({
+    id = 193125,
+    quest = nil,
+    rewards = {
+        Achievement({id = 16679, criteria = 56138}),
+        Transmog({item = 200436, slot = L['mail']}) -- Gorestained Hauberk
+    }
+}) -- Goremaul the Gluttonous
 
 map.nodes[57828380] = Rare({ -- review
     id = 193126,
@@ -192,16 +192,20 @@ map.nodes[38466826] = Rare({
 map.nodes[35027001] = Rare({ -- reqiured 67030 review
     id = 193146,
     quest = 70947,
-    rewards = {Achievement({id = 16679, criteria = 56146})}
+    note = L['in_small_cave'],
+    rewards = {Achievement({id = 16679, criteria = 56146})},
+    pois = {POI({34896938})} -- Entrance
 }) -- Treasure-Mad Trambladd
 
--- map.nodes[] = Rare({
---     id = 193161,
---     quest = 69850,
---     rewards = {
---         Achievement({id = 16679, criteria = 56152}),
---     }
--- }) -- Woolfang
+map.nodes[47884976] = Rare({
+    id = 193161,
+    quest = 69850,
+    note = L['woofang_note'],
+    rewards = {
+        Achievement({id = 16679, criteria = 56152}),
+        Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
+    }
+}) -- Woolfang
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

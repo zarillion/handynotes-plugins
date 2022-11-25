@@ -37,7 +37,10 @@ L['fisherman_tinnak_note'] = 'Collect |cFFFFFD00Broken Fishing Pole|r, |cFFFFFD0
 L['gnarls_note'] = 'Appears simultaneously with {npc:197344}, {npc:197353} and {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Appears simultaneously with {npc:197344}, {npc:197353} and {npc:197354}'
 L['snarglebone_note'] = 'Appears simultaneously with {npc:197353}, {npc:197356} and {npc:197354}'
+L['spellwrought_snowman_note'] = 'Collect 10x {npc:193424} and bring them to {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Collect a |cFFFFFD00Singing Fragment|r to get {spell:382076} and use the |cFFFFFD00Uncharded Focus|r to spawn the rare.'
+
+L['breezebiter_note'] = 'Flies in the sky to pull him down, fly close to him.'
 
 L['forgotten_jewel_box_note'] = 'Loot {item:199065} from a Clan Chest in Ridgewater Retreat (49.4 67.3) on the Ohn\'ahran Plains and use it.'
 L['gnoll_fiend_flail_note'] = '{item:199066} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
@@ -100,6 +103,9 @@ L['options_icons_bakar_desc'] = 'Display the location of all dogs (bakar) for th
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
+
+L['blightpaw_note'] = 'Talk to {npc:193222} nearby and agree to help him.'
+L['woofang_note'] = 'Pet {npc:193156} to spawn the rare.'
 
 L['acorn_harvester_note'] = 'Collect an |cFFFFFD00Acorn|r from the ground nearby to get {spell:388485} and then interact with {npc:196172}.'
 L['cracked_hourglass_note'] = '{item:199068} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
