@@ -333,7 +333,10 @@ map.nodes[54993414] = Rare({
     id = 193238,
     quest = nil, -- 69879 ?
     note = L['spellwrought_snowman_note'],
-    rewards = {Achievement({id = 16678, criteria = 56124})}
+    rewards = {
+        Achievement({id = 16678, criteria = 56124}),
+        Transmog({item = 200211, slot = L['cloth']}) -- Snowman's Icy Gaze
+    }
 }) -- Spellwrought Snowman
 
 -- map.nodes[] = Rare({
@@ -380,14 +383,14 @@ map.nodes[70222532] = Rare({
 
 -- https://www.wowhead.com/beta/achievement=16300/treasures-of-the-azure-span#comments
 
-map.nodes[45125940] = Treasure({ -- required 70534, 70603
+map.nodes[45125940] = Treasure({
     quest = 70603,
     note = L['forgotten_jewel_box_note'],
     requires = ns.requirement.Item(199065), -- Sorrowful Letter
     rewards = {Achievement({id = 16300, criteria = 54804})}
 }) -- Forgotten Jewel Box
 
-map.nodes[53934372] = Treasure({ -- required 70535, 70604
+map.nodes[53934372] = Treasure({
     quest = 70604,
     note = L['in_small_cave'] .. ' ' .. L['gnoll_fiend_flail_note'],
     requires = ns.requirement.Item(199066), -- Letter of Caution
@@ -413,10 +416,16 @@ map.nodes[54612932] = Treasure({
     rewards = {Achievement({id = 16300, criteria = 54808})}
 }) -- Rubber Fish
 
-map.nodes[14007200] = Treasure({ -- required 70536, 70605
-    quest = nil,
-    requires = ns.requirement.Item(199067), -- Precious Plans
-    rewards = {Achievement({id = 16300, criteria = 54806})}
+map.nodes[48632466] = Treasure({
+    quest = 70605,
+    note = L['gem_cluster_note'],
+    requires = {
+        ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Item(199067) -- Precious Plans
+    },
+    rewards = {
+        Achievement({id = 16300, criteria = 54806}), Item({item = 200866}) -- Glimmering Malygite Cluster
+    }
 }) -- Sapphire Gem Cluster
 
 -------------------------------------------------------------------------------

@@ -362,10 +362,16 @@ map.nodes[73495613] = Treasure({
     }
 }) -- Cracked Centaur Horn
 
-map.nodes[20001600] = Treasure({ -- required 70392, 70391
-    quest = nil,
-    requires = ns.requirement.Item(198843), -- Emerald Gardens Explorer's Notes
-    rewards = {Achievement({id = 16299, criteria = 54700})}
+map.nodes[33205532] = Treasure({
+    quest = 70391,
+    note = L['gem_cluster_note'],
+    requires = {
+        ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Item(198843) -- Emerald Gardens Explorer's Notes
+    },
+    rewards = {
+        Achievement({id = 16299, criteria = 54700}), Item({item = 200865}) -- Glimmering Ysemerald Cluster
+    }
 }) -- Emerald Gem Cluster
 
 map.nodes[82327339] = Treasure({
@@ -377,7 +383,7 @@ map.nodes[82327339] = Treasure({
     pois = {POI({81847223})}
 }) -- Gold Swog Coin
 
-map.nodes[32423817] = Treasure({ -- required 67046, 67049
+map.nodes[32423817] = Treasure({
     quest = 67049,
     note = L['nokhud_warspear_note'],
     requires = ns.requirement.Item(194540), -- Nokhud Armorer's Notes

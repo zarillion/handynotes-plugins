@@ -7,6 +7,8 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['gem_cluster_note'] = nil
+
 L['dragon_glyph'] = 'Dracoglyphe'
 L['options_icons_dragon_glyph'] = 'Dracoglyphes'
 L['options_icons_dragon_glyph_desc'] = 'Afficher les emplacements des 48 dracoglyphes.'
@@ -104,7 +106,7 @@ L['brundin_the_dragonbane_note'] = 'La Troupe Qalashi voyage sur leur {npc:19273
 L['shasith_note'] = 'À l\'intérieur du |cFFFFFD00Trône d\'obsidienne|r. \n\nVous et d\'autres joueurs devez rapporter un total de 20x {item:191264}. Pour fabriquer une clé, vous devez combiner 30x {item:191251} et 3x {item:193201}. Vous pouvez obtenir ces objets sur les monstres de la Citadelle d\'obsidienne.'
 
 L['bubble_drifter_note'] = '{item:199061} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
-L['onyx_gem_cluster_note'] = 'Achetez une {item:200738} à {npc:189065} pour 3 {item:192863} et 500 {currency:2003} au Renom 21 avec l\'Expédition du Dracaret et utilisez-la.'
+L['onyx_gem_cluster_note'] = 'Achetez une {item:200738} à {npc:189065} pour 3 {item:192863} et 500 {currency:2003} au Renom 21 avec l\'Expédition du Dracaret et utilisez-la.' -- review
 L['replica_dragon_goblet_note'] = 'Achetez une {item:198854} à {npc:193915} à l\'|cFFFFFD00Ambassade de Trêve-Ailée|r et utilisez-la.'
 
 L['fullsails_supply_chest'] = 'Clé de coffre de fournitures des Gréements'
