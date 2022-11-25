@@ -54,7 +54,10 @@ local Flag = Class('Flag', Collectible, {
     label = L['dragonscale_expedition_flag'], -- Dragonscale Expedition Flag
     rlabel = ns.status.LightBlue('+300 ' .. select(1, GetFactionInfoByID(2507))), -- Dragonscale Expedition
     group = ns.groups.FLAG,
-    requires = ns.requirement.GarrisonTalent(2164), -- Cartographer Flag
+    requires = {
+        ns.requirement.Reputation(2507, 7, true), -- Dragonscale Expedition
+        ns.requirement.GarrisonTalent(2164) -- Cartographer Flag
+    },
     rewards = {
         Achievement({
             id = 15890,
