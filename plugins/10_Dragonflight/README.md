@@ -44,26 +44,26 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### Dragon Isles
 
-Flags for the [Dragonscale Expedition: The Highest Peaks](https://www.wowhead.com/achievement=15890/dragonscale-expedition-the-highest-peaks) achievement.
+* Flags for the [Dragonscale Expedition: The Highest Peaks](https://www.wowhead.com/achievement=15890/dragonscale-expedition-the-highest-peaks) achievement.
 
 ### Waking Shores
 
-Dragon Glyphs for the [Waking Shores Glyph Hunter](https://www.wowhead.com/beta/achievement=16575/waking-shores-glyph-hunter) achievement.
-Kites for the [Symbols of Hope](https://www.wowhead.com/achievement=16584/symbols-of-hope) achievement.
+* Dragon Glyphs for the [Waking Shores Glyph Hunter](https://www.wowhead.com/beta/achievement=16575/waking-shores-glyph-hunter) achievement.
+* Kites for the [Symbols of Hope](https://www.wowhead.com/achievement=16584/symbols-of-hope) achievement.
 
 ### Ohnahran Plains
 
-Dragon Glyphs for the [Ohn'ahran Plains Glyph Hunter](https://www.wowhead.com/beta/achievement=16576/ohnahran-plains-glyph-hunter) achievement.
-Dogs for the [Who's a Good Bakar?](https://www.wowhead.com/achievement=16424/whos-a-good-bakar) achievement.
+* Dragon Glyphs for the [Ohn'ahran Plains Glyph Hunter](https://www.wowhead.com/beta/achievement=16576/ohnahran-plains-glyph-hunter) achievement.
+* Dogs for the [Who's a Good Bakar?](https://www.wowhead.com/achievement=16424/whos-a-good-bakar) achievement.
 
 ### Azure Span
 
-Dragon Glyphs for the [Azure Span Glyph Hunter](https://www.wowhead.com/beta/achievement=16577/azure-span-glyph-hunter) achievement.
-Lay lines for the [Ley Line in the Span](https://www.wowhead.com/achievement=16638/ley-line-in-the-span) achievement.
+* Dragon Glyphs for the [Azure Span Glyph Hunter](https://www.wowhead.com/beta/achievement=16577/azure-span-glyph-hunter) achievement.
+* Lay lines for the [Ley Line in the Span](https://www.wowhead.com/achievement=16638/ley-line-in-the-span) achievement.
 
 ### Thaldraszus
 
-Dragon Glyphs for the [Thaldraszus Glyph Hunter](https://www.wowhead.com/beta/achievement=16578/thaldraszus-glyph-hunter) achievement.
+* Dragon Glyphs for the [Thaldraszus Glyph Hunter](https://www.wowhead.com/beta/achievement=16578/thaldraszus-glyph-hunter) achievement.
 
 ## Localization
 
