@@ -109,7 +109,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 This addon has been translated to the following languages:
 
-* `deDE` - German (thanks Dathwada!)
+* `deDE` - German (thanks Dathwada EU-Eredar!)
 * `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
 * `ruRU` - Russian (thanks Hubbotu!)
 * `zhCN` - Chinese (Simplified) (thanks Adavak and wyjbuxiu!)
