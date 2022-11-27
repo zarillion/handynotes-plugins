@@ -109,6 +109,7 @@ L['sandy_wooden_duck_note'] = 'Sammel {item:199069} und benutze diese.'
 
 L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem {npc:192737} zu diesem Turm.'
 L['shasith_note'] = 'Innerhalb des |cFFFFFD00Obsidianthron|r. \n\nDu und andere Spieler müssen insgesamt 20x {item:191264} abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der Obsidianzitadelle geplündert werden.'
+L['worldcarver_atir_note'] = 'Sammel 3x {item:191211} von {npc:187366} in der Nähe und platziere diese beim {npc:197395}, um den seltenen Gegner erscheinen zu lassen.'
 
 L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['dead_mans_chestplate_note'] = 'Im Inneren des Turms auf der mittleren Etage.'

@@ -117,6 +117,7 @@ L['sandy_wooden_duck_note'] = '收集 {item:199069} 并使用它。'
 
 L['brundin_the_dragonbane_note'] = '卡拉希战队从 {npc:192737} 前往这座塔。'
 L['shasith_note'] = '|cFFFFFD00黑曜王座|r 内。\n\n和其他玩家必须总共交还20个 {item:191264}。要制作钥匙，需要组合30个 {item:191251} 和3个 {item:193201}，可以从黑曜堡垒怪物获得这些物品。'
+L['worldcarver_atir_note'] = nil
 
 L['bubble_drifter_note'] = '{item:199061} 可以从探险队斥候包裹和翻动过的泥土中找到。'
 L['dead_mans_chestplate_note'] = nil

@@ -109,6 +109,7 @@ L['sandy_wooden_duck_note'] = nil
 
 L['brundin_the_dragonbane_note'] = nil
 L['shasith_note'] = nil
+L['worldcarver_atir_note'] = nil
 
 L['bubble_drifter_note'] = nil
 L['dead_mans_chestplate_note'] = nil
