@@ -90,6 +90,10 @@ local Disturbeddirt = Class('Disturbed_dirt', Node, {
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Item({item = 199068, quest = 70537}), -- Time-Lost Memo
+        Item({item = 199062, quest = 70528}), -- Ruby Gem Cluster Map
+        Item({item = 199067, quest = 70536}), -- Precious Plans
+        Item({item = 198852, quest = 70407}), -- Bear Termination Orders
+        Item({item = 198843, quest = 70392}), -- Emerald Gardens Explorer's Notes
         Item({item = 192055}), -- Dragon Isles Artifact
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
@@ -119,6 +123,10 @@ local Scoutpack = Class('Scoutpack', Node, {
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Item({item = 199068, quest = 70537}), -- Time-Lost Memo
+        Item({item = 199062, quest = 70528}), -- Ruby Gem Cluster Map
+        Item({item = 199067, quest = 70536}), -- Precious Plans
+        Item({item = 198852, quest = 70407}), -- Bear Termination Orders
+        Item({item = 198843, quest = 70392}), -- Emerald Gardens Explorer's Notes
         Item({item = 192055}), -- Dragon Isles Artifact
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
