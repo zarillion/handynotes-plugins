@@ -106,7 +106,7 @@ map.nodes[31785474] = Rare({ -- review -- required 67030
     quest = nil,
     rewards = {
         Achievement({id = 16676, criteria = 56053}),
-        Achievement({id = 16496, criteria = 55867})
+        Achievement({id = 16496, criteria = 55867}) -- Obsidian Champion
     }
 }) -- Death's Shadow
 
@@ -175,6 +175,15 @@ map.nodes[22207649] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56047})}
 }) -- Massive Magmashell
 
+map.nodes[32225193] = Rare({ -- review
+    id = 187306,
+    quest = nil,
+    rewards = {
+        Achievement({id = 16676, criteria = 56988}),
+        Achievement({id = 16496, criteria = 55868}) -- Obsidian Champion
+    }
+}) -- Morchok
+
 map.nodes[56004592] = Rare({
     id = 193256,
     quest = nil,
@@ -215,13 +224,23 @@ map.nodes[25366070] = Rare({
     rewards = {Achievement({id = 16676, criteria = 56057})}
 }) -- Rohzor Forgesmash
 
+map.nodes[46997332] = Rare({
+    id = 193271,
+    quest = 70719,
+    note = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 16676, criteria = 56989}),
+        Item({item = 200689, note = L['ring']}) -- Rimetalon Band
+    }
+}) -- Shadeslash Trakken
+
 map.nodes[23755734] = Rare({ -- review -- required 67030
     id = 189822,
     quest = nil,
     note = L['shasith_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56054}),
-        Achievement({id = 16496, criteria = 55869})
+        Achievement({id = 16496, criteria = 55869}) -- Obsidian Champion
     },
     pois = {POI({27226096})} -- Entrance
 }) -- Shas'ith
@@ -241,6 +260,12 @@ map.nodes[42892832] = Rare({
         })
     }
 }) -- Skewersnout
+
+map.nodes[24001800] = Rare({ -- review
+    id = 193175,
+    quest = nil,
+    rewards = {Achievement({id = 16676, criteria = 57003})}
+}) -- Slurpo, the Incredible Snail
 
 map.nodes[69486653] = Rare({ -- review -- required 67030
     id = 193120,
@@ -294,6 +319,15 @@ map.nodes[54728225] = BonusBoss({
         Toy({item = 200198}) -- Primalist Prison
     }
 }) -- Klozicc the Ascended
+
+map.nodes[81133794] = BonusBoss({
+    id = 184853,
+    quest = 72843,
+    note = L['in_small_cave'],
+    rewards = {
+        Item({item = 200445, note = L['neck']}) -- Lucky Hunting Charm
+    }
+}) -- Primal Scythid Queen
 
 map.nodes[60598285] = BonusBoss({
     id = 193171,
