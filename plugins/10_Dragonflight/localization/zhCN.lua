@@ -117,10 +117,13 @@ L['sandy_wooden_duck_note'] = '收集 {item:199069} 并使用它。'
 
 L['brundin_the_dragonbane_note'] = '卡拉希战队从 {npc:192737} 前往这座塔。'
 L['shasith_note'] = '|cFFFFFD00黑曜王座|r 内。\n\n和其他玩家必须总共交还20个 {item:191264}。要制作钥匙，需要组合30个 {item:191251} 和3个 {item:193201}，可以从黑曜堡垒怪物获得这些物品。'
+L['worldcarver_atir_note'] = nil
 
 L['bubble_drifter_note'] = '{item:199061} 可以从探险队斥候的背包和翻动过的泥土堆中找到。'
+L['dead_mans_chestplate_note'] = nil
+L['golden_dragon_goblet_note'] = nil
+L['misty_treasure_chest_note'] = nil
 L['onyx_gem_cluster_note'] = '龙鳞探险队声望到达21级，从 {npc:189065} 购买 {item:200738} 需要3个 {item:192863} 和500 {currency:2003} 并使用它。'
-L['replica_dragon_goblet_note'] = '从翼眠大使馆的 {npc:193915} 购买 {item:198854} 并使用它。'
 
 L['fullsails_supply_chest'] = '满帆补给箱'
 L['hidden_hornswog_hoard'] = '隐藏的龙蛙存货'
