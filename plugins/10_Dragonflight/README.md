@@ -55,6 +55,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 * Dragon Glyphs for the [Ohn'ahran Plains Glyph Hunter](https://www.wowhead.com/beta/achievement=16576/ohnahran-plains-glyph-hunter) achievement.
 * Dogs for the [Who's a Good Bakar?](https://www.wowhead.com/achievement=16424/whos-a-good-bakar) achievement.
+* Dreamguards for the [Sleeping on the Job](https://www.wowhead.com/achievement=16574/sleeping-on-the-job) achievement.
 
 ### Azure Span
 
