@@ -138,7 +138,10 @@ map.nodes[21626478] = Rare({ -- review
 map.nodes[33127632] = Rare({
     id = 193154,
     quest = 72130,
-    rewards = {Achievement({id = 16676, criteria = 56048})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56048}),
+        Item({item = 200858, note = L['trinket']}) -- Plume of the Forgotten
+    }
 }) -- Forgotten Gryphon
 
 map.nodes[52345829] = Rare({ -- review
@@ -180,10 +183,17 @@ map.nodes[56004592] = Rare({
     }
 }) -- Nulltheria the Void Gazer
 
-map.nodes[81634820] = Rare({ -- review -- required 67030
+map.nodes[81485082] = Rare({ -- required 67030
     id = 193118,
     quest = 70983,
-    rewards = {Achievement({id = 16676, criteria = 56043})}
+    rewards = {Achievement({id = 16676, criteria = 56043})},
+    pois = {
+        Path({
+            79185296, 80015374, 80215387, 80445368, 80445260, 80555229,
+            81385104, 81485082, 81465042, 81314977, 81254941, 81634857,
+            81934819, 82554797, 82644782, 82614742
+        }) -- 80415250
+    }
 }) -- O'nank Shorescour
 
 map.nodes[64926956] = Rare({ -- review
@@ -260,10 +270,14 @@ map.nodes[33525576] = Rare({
     rewards = {Achievement({id = 16676, criteria = 56058})}
 }) -- Turboris
 
-map.nodes[18002200] = Rare({ -- review
+map.nodes[30025534] = Rare({
     id = 186859,
     quest = 70763,
-    rewards = {Achievement({id = 16676, criteria = 56052})}
+    note = L['worldcarver_atir_note'],
+    rewards = {
+        Achievement({id = 16676, criteria = 56052}),
+        Transmog({item = 200213, slot = L['plate']}) -- Lava-Splattered Breastplate
+    }
 }) -- Worldcarver A'tir
 
 -------------------------------------------------------------------------------

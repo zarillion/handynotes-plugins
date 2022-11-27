@@ -117,6 +117,7 @@ L['sandy_wooden_duck_note'] = 'Collect {item:199069} and use it.'
 
 L['brundin_the_dragonbane_note'] = 'The Qalashi War Party travels on there {npc:192737} to this tower.'
 L['shasith_note'] = 'Inside the |cFFFFFD00Obsidian Throne|r. \n\nYou and other Players have to return a total of 20x {item:191264}. To craft a key you need to combine 30x {item:191251} and 3x {item:193201}, you can get these items from Obsidian Citadel Mobs.'
+L['worldcarver_atir_note'] = 'Collect 3x {item:191211} from {npc:187366} nearby and place them at {npc:197395} to spawn the rare.'
 
 L['bubble_drifter_note'] = '{item:199061} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['dead_mans_chestplate_note'] = 'Inside the tower on the middle floor.'

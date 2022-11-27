@@ -117,6 +117,7 @@ L['sandy_wooden_duck_note'] = '收集 {item:199069} 並使用它.'
 
 L['brundin_the_dragonbane_note'] = '喀拉希戰爭隊伍坐在 {npc:192737} 旅行到這座塔.'
 L['shasith_note'] = '在黑曜王座內. \n\n需要更多的調查'
+L['worldcarver_atir_note'] = nil
 
 L['bubble_drifter_note'] = '{item:199061} 可以在遠征隊斥侯包和挖過的土中找到.'
 L['dead_mans_chestplate_note'] = nil

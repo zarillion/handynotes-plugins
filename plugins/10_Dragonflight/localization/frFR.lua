@@ -110,6 +110,7 @@ L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
 
 L['brundin_the_dragonbane_note'] = 'La Troupe Qalashi voyage sur leur {npc:192737} jusqu\'à cette tour.'
 L['shasith_note'] = 'À l\'intérieur du |cFFFFFD00Trône d\'obsidienne|r. \n\nVous et d\'autres joueurs devez rapporter un total de 20x {item:191264}. Pour fabriquer une clé, vous devez combiner 30x {item:191251} et 3x {item:193201}. Vous pouvez obtenir ces objets sur les monstres de la Citadelle d\'obsidienne.'
+L['worldcarver_atir_note'] = nil
 
 L['bubble_drifter_note'] = '{item:199061} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['dead_mans_chestplate_note'] = nil
