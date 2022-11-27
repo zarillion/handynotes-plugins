@@ -61,6 +61,7 @@ L['bag_of_enchanted_wind'] = '一袋祕法之風'
 L['bag_of_enchanted_wind_note'] = '位於塔頂內.'
 L['hessethiash_treasure'] = '赫瑟西亞許的不隱密寶箱'
 L['lost_draconic_hourglass'] = '失落的龍沙漏'
+L['suspicious_bottle_treasure'] = nil
 L['mysterious_wand'] = '神秘魔杖'
 L['mysterious_wand_note'] = '撿起 |cFFFFFD00水晶鑰匙|r 並把它放進 |cFFFFFD00水晶法器|r內.'
 
@@ -68,14 +69,6 @@ L['mysterious_wand_note'] = '撿起 |cFFFFFD00水晶鑰匙|r 並把它放進 |cF
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
--- {quest:65901} = Sneaking Out
--- {currency:2003} = Dragon Isle Supplies
--- {item:192615} = Flourescent Fluid
--- {item:192658} = High-Fiber Leaf
--- {item:194966} = Thousandbite Piranha
--- {item:192636} = Woolly Mountain Pelt
--- {item:200598} = Meluun's Green Curry
--- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = '點選 {npc:193166} 來召喚稀有.'
 
 L['gold_swong_coin_note'] = nil
@@ -102,6 +95,10 @@ L['bakar_ellam_note'] = nil
 L['bakar_hugo_note'] = nil
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = nil
+
+L['dreamguard_note'] = nil
+L['options_icons_dreamguards'] = '{achievement:16574}'
+L['options_icons_dreamguards_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

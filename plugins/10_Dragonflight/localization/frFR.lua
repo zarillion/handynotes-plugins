@@ -62,6 +62,7 @@ L['bag_of_enchanted_wind'] = 'Sac de vents enchantés'
 L['bag_of_enchanted_wind_note'] = 'Situé en haut de la tour.'
 L['hessethiash_treasure'] = 'Coffre au trésor mal caché d\'Hessethiash'
 L['lost_draconic_hourglass'] = 'Sablier draconique perdu'
+L['suspicious_bottle_treasure'] = nil
 L['mysterious_wand'] = 'Baguette mystérieuse'
 L['mysterious_wand_note'] = 'Ramassez la |cFFFFFD00Clé en cristal|r et placez-la dans le |cFFFFFD00Focalisateur en cristal|r.'
 
@@ -95,6 +96,10 @@ L['bakar_ellam_note'] = 'Si suffisamment de joueurs caressent cette chienne, ell
 L['bakar_hugo_note'] = 'Voyage avec le campement Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Afficher l\'emplacement de tous les chiens (bakars) pour le haut-fait {achievement:16424}.'
+
+L['dreamguard_note'] = nil
+L['options_icons_dreamguards'] = '{achievement:16574}'
+L['options_icons_dreamguards_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

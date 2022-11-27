@@ -61,6 +61,7 @@ L['bag_of_enchanted_wind'] = nil
 L['bag_of_enchanted_wind_note'] = nil
 L['hessethiash_treasure'] = nil
 L['lost_draconic_hourglass'] = nil
+L['suspicious_bottle_treasure'] = nil
 L['mysterious_wand'] = nil
 L['mysterious_wand_note'] = nil
 
@@ -94,6 +95,10 @@ L['bakar_ellam_note'] = nil
 L['bakar_hugo_note'] = nil
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = nil
+
+L['dreamguard_note'] = nil
+L['options_icons_dreamguards'] = '{achievement:16574}'
+L['options_icons_dreamguards_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

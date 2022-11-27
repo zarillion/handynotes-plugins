@@ -62,6 +62,7 @@ L['bag_of_enchanted_wind'] = 'Мешок зачарованного ветра'
 L['bag_of_enchanted_wind_note'] = 'Расположен в башне.'
 L['hessethiash_treasure'] = 'Плохо спрятанное сокровище Гессетиаша'
 L['lost_draconic_hourglass'] = 'Потерянные песочные часы драконов'
+L['suspicious_bottle_treasure'] = nil
 L['mysterious_wand'] = 'Таинственный жезл'
 L['mysterious_wand_note'] = 'Поднимите |cFFFFFD00Кристальный ключ|r и поместите его в |cFFFFFD00Кристаллическое средоточие|r.'
 
@@ -95,6 +96,10 @@ L['bakar_ellam_note'] = 'Если достаточное количество и
 L['bakar_hugo_note'] = 'Путешествует с лагерем Айлааг.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Отображение местоположения всех собак (бакар) для достижения {achievement:16424}.'
+
+L['dreamguard_note'] = nil
+L['options_icons_dreamguards'] = '{achievement:16574}'
+L['options_icons_dreamguards_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
