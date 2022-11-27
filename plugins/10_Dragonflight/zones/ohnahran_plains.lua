@@ -123,7 +123,8 @@ map.nodes[87556151] = Rare({
     id = 197009,
     quest = nil,
     rewards = {
-        Achievement({id = 16677, criteria = 56067}), Toy({item = 200249}) -- Mage's Chewed Wand
+        Achievement({id = 16677, criteria = 56067}), --
+        Toy({item = 200249}) -- Mage's Chewed Wand
     }
 }) -- Liskheszaera
 
