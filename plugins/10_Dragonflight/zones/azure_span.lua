@@ -413,25 +413,38 @@ map.nodes[28564743] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- https://www.wowhead.com/beta/achievement=16300/treasures-of-the-azure-span#comments
-
 map.nodes[45125940] = Treasure({
     quest = 70603,
     note = L['forgotten_jewel_box_note'],
-    requires = ns.requirement.Item(199065), -- Sorrowful Letter
-    rewards = {Achievement({id = 16300, criteria = 54804})}
+    requires = {
+        ns.requirement.Quest(72709), -- Funding a Treasure Hunt
+        ns.requirement.Item(199065) -- Sorrowful Letter
+    },
+    rewards = {
+        Achievement({id = 16300, criteria = 54804}), --
+        Toy({item = 201927}) -- Gleaming Arcanocrystal
+    }
 }) -- Forgotten Jewel Box
 
 map.nodes[53934372] = Treasure({
     quest = 70604,
     note = L['in_small_cave'] .. ' ' .. L['gnoll_fiend_flail_note'],
-    requires = ns.requirement.Item(199066), -- Letter of Caution
-    rewards = {Achievement({id = 16300, criteria = 54805})}
+    requires = {
+        ns.requirement.Quest(72709), -- Funding a Treasure Hunt
+        ns.requirement.Item(199066) -- Letter of Caution
+    },
+    rewards = {
+        Achievement({id = 16300, criteria = 54805}),
+        Transmog({item = 202692, slot = L['1h_mace']}) -- Gnoll Fiend Flail
+    }
 }) -- Gnoll Fiend Flail
 
 map.nodes[74895501] = Treasure({
     quest = 70606,
-    rewards = {Achievement({id = 16300, criteria = 54807})}
+    rewards = {
+        Achievement({id = 16300, criteria = 54807}), --
+        Toy({item = 202711}) -- Lost Compass
+    }
 }) -- Lost Compass
 
 map.nodes[26544626] = Treasure({
@@ -445,7 +458,10 @@ map.nodes[26544626] = Treasure({
 
 map.nodes[54612932] = Treasure({
     quest = 70380,
-    rewards = {Achievement({id = 16300, criteria = 54808})}
+    rewards = {
+        Achievement({id = 16300, criteria = 54808}), --
+        Item({item = 202712}) -- Rubber Fish
+    }
 }) -- Rubber Fish
 
 map.nodes[48632466] = Treasure({
@@ -453,10 +469,12 @@ map.nodes[48632466] = Treasure({
     note = L['gem_cluster_note'],
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
         ns.requirement.Item(199067) -- Precious Plans
     },
     rewards = {
-        Achievement({id = 16300, criteria = 54806}), Item({item = 200866}) -- Glimmering Malygite Cluster
+        Achievement({id = 16300, criteria = 54806}), --
+        Item({item = 200866}) -- Glimmering Malygite Cluster
     }
 }) -- Sapphire Gem Cluster
 

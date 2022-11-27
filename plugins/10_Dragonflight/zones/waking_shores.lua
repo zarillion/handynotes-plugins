@@ -19,6 +19,8 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 -- local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -268,11 +270,12 @@ map.nodes[18002200] = Rare({ -- review
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- https://www.wowhead.com/beta/achievement=16297/treasures-of-the-waking-shores#comments
-
 map.nodes[40454136] = Treasure({ -- required 65537, 70599, 70527
     quest = 70599,
-    requires = ns.requirement.Item(199061), -- A Guide to Rare Fish
+    requires = {
+        ns.requirement.Quest(72709), -- Funding a Treasure Hunt
+        ns.requirement.Item(199061) -- A Guide to Rare Fish
+    },
     note = L['bubble_drifter_note'],
     rewards = {
         Achievement({id = 16297, criteria = 54699}),
@@ -282,12 +285,20 @@ map.nodes[40454136] = Treasure({ -- required 65537, 70599, 70527
 
 map.nodes[69314658] = Treasure({
     quest = 70346,
-    rewards = {Achievement({id = 16297, criteria = 54702})}
+    note = L['dead_mans_chestplate_note'],
+    rewards = {
+        Achievement({id = 16297, criteria = 54702}),
+        Transmog({item = 202193, slot = L['cosmetic']}) -- Dead Man's Tunic
+    }
 }) -- Dead Man's Chestplate
 
-map.nodes[20002200] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 16297, criteria = 55403})}
+map.nodes[58525302] = Treasure({
+    quest = 65646,
+    note = L['in_waterfall_cave'] .. ' ' .. L['misty_treasure_chest_note'],
+    rewards = {
+        Achievement({id = 16297, criteria = 55403}),
+        Item({item = 202194, note = L['bag']}) -- Misty Satchel
+    }
 }) -- Misty Treasure Chest
 
 map.nodes[29454699] = Treasure({
@@ -295,31 +306,41 @@ map.nodes[29454699] = Treasure({
     note = L['onyx_gem_cluster_note'],
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
         ns.requirement.Item(200738) -- Onyx Gem Cluster Map
     },
     rewards = {
-        Achievement({id = 16297, criteria = 55448}), Item({item = 200867}) -- Glimmering Neltharite Cluster
+        Achievement({id = 16297, criteria = 55448}), --
+        Item({item = 200867}) -- Glimmering Neltharite Cluster
     },
     pois = {POI({46948289})}
 }) -- Onyx Gem Cluster
 
-map.nodes[48865180] = Treasure({
+map.nodes[65804182] = Treasure({
     quest = 70600, -- 70409
-    note = L['replica_dragon_goblet_note'],
-    requires = ns.requirement.Item(198854), -- Archeologist Artifact Notes
-    rewards = {Achievement({id = 16297, criteria = 54698})},
-    pois = {POI({75423397})}
-}) -- Replica Dragon Goblet
+    note = L['golden_dragon_goblet_note'],
+    requires = {
+        ns.requirement.Quest(72709), -- Funding a Treasure Hunt
+        ns.requirement.Item(198854) -- Archeologist Artifact Notes
+    },
+    rewards = {
+        Achievement({id = 16297, criteria = 54698}), --
+        Toy({item = 202019}) -- Golden Dragon Goblet
+    },
+    pois = {POI({77992943})}
+}) -- Golden Dragon Goblet
 
 map.nodes[61347079] = Treasure({
     quest = 70598,
     note = L['gem_cluster_note'],
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
         ns.requirement.Item(199062) -- Ruby Gem Cluster Map
     },
     rewards = {
-        Achievement({id = 16297, criteria = 54713}), Item({item = 200864}) -- Glimmering Alexstraszite Cluster
+        Achievement({id = 16297, criteria = 54713}), --
+        Item({item = 200864}) -- Glimmering Alexstraszite Cluster
     }
 }) -- Ruby Gem Cluster
 
@@ -330,7 +351,10 @@ map.nodes[48488518] = Treasure({
 
 map.nodes[46713121] = Treasure({
     quest = 70345,
-    rewards = {Achievement({id = 16297, criteria = 54701})}
+    rewards = {
+        Achievement({id = 16297, criteria = 54701}), --
+        Toy({item = 202022}) -- Yennu's Kite
+    }
 }) -- Yennu's Kite
 
 -------------------------------------------------------------------------------

@@ -111,8 +111,10 @@ L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem 
 L['shasith_note'] = 'Innerhalb des |cFFFFFD00Obsidianthron|r. \n\nDu und andere Spieler müssen insgesamt 20x {item:191264} abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der Obsidianzitadelle geplündert werden.'
 
 L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
+L['dead_mans_chestplate_note'] = 'Im Inneren des Turms auf der mittleren Etage.'
+L['golden_dragon_goblet_note'] = 'Plündere {item:202081} von {npc:190056} an der |cFFFFFD00Wilde Küste|r und schließe die kleine Questreihe ab.'
+L['misty_treasure_chest_note'] = 'Stelle dich auf den {npc:185485} der aus dem Wasserfall ragt, um in die Höhle zu gelangen.'
 L['onyx_gem_cluster_note'] = 'Auf Ruhmstufe 21 bei der Drachenschuppenexpedition kannst du die Quest {quest:70833} abschließen und als Belohnung die {item:200738} bekommen (einmal pro Account) oder kaufe die Karte von {npc:189065} für 3 {item:192863} und 500 {currency:2003} und benutze es.'
-L['replica_dragon_goblet_note'] = 'Kaufe {item:198854} von {npc:193915} in der |cFFFFFD00Botschaft von Schwingenrast|r und benutze es.'
 
 L['fullsails_supply_chest'] = 'Vorratskiste der Vollsegel'
 L['hidden_hornswog_hoard'] = 'Versteckter Flunkerhort'

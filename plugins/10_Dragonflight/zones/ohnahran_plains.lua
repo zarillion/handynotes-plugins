@@ -354,12 +354,11 @@ map.nodes[72232306] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- https://www.wowhead.com/beta/achievement=16299/treasures-of-the-ohnahran-plains#comments
-
 map.nodes[73495613] = Treasure({
     quest = 70402,
     rewards = {
-        Achievement({id = 16299, criteria = 54709}), Toy({item = 200869}) -- Ohn Lite Branded Horn
+        Achievement({id = 16299, criteria = 54709}), --
+        Toy({item = 200869}) -- Ohn Lite Branded Horn
     }
 }) -- Cracked Centaur Horn
 
@@ -368,10 +367,12 @@ map.nodes[33205532] = Treasure({
     note = L['gem_cluster_note'],
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
         ns.requirement.Item(198843) -- Emerald Gardens Explorer's Notes
     },
     rewards = {
-        Achievement({id = 16299, criteria = 54700}), Item({item = 200865}) -- Glimmering Ysemerald Cluster
+        Achievement({id = 16299, criteria = 54700}), --
+        Item({item = 200865}) -- Glimmering Ysemerald Cluster
     }
 }) -- Emerald Gem Cluster
 
@@ -379,7 +380,8 @@ map.nodes[82327339] = Treasure({
     quest = 70379,
     note = L['gold_swong_coin_note'],
     rewards = {
-        Achievement({id = 16299, criteria = 54710}), Item({item = 199338}) -- Copper Coin of the Isles
+        Achievement({id = 16299, criteria = 54710}), --
+        Item({item = 199338}) -- Copper Coin of the Isles
     },
     pois = {POI({81847223})}
 }) -- Gold Swog Coin
@@ -387,7 +389,10 @@ map.nodes[82327339] = Treasure({
 map.nodes[32423817] = Treasure({
     quest = 67049,
     note = L['nokhud_warspear_note'],
-    requires = ns.requirement.Item(194540), -- Nokhud Armorer's Notes
+    requires = {
+        ns.requirement.Quest(72709), -- Funding a Treasure Hunt
+        ns.requirement.Item(194540) -- Nokhud Armorer's Notes
+    },
     rewards = {Achievement({id = 16299, criteria = 54707})}
 }) -- Nokhud Warspear
 
@@ -407,7 +412,8 @@ map.nodes[51985839] = Treasure({
     label = L['yennus_boat'],
     note = L['yennus_boat_note'],
     rewards = {
-        Achievement({id = 16299, criteria = 54711}), Toy({item = 200878}) -- Wheeled Floaty Boaty Controller
+        Achievement({id = 16299, criteria = 54711}), --
+        Toy({item = 200878}) -- Wheeled Floaty Boaty Controller
     }
 }) -- Yennu's Boat
 

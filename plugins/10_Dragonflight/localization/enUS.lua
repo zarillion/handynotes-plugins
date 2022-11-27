@@ -119,8 +119,10 @@ L['brundin_the_dragonbane_note'] = 'The Qalashi War Party travels on there {npc:
 L['shasith_note'] = 'Inside the |cFFFFFD00Obsidian Throne|r. \n\nYou and other Players have to return a total of 20x {item:191264}. To craft a key you need to combine 30x {item:191251} and 3x {item:193201}, you can get these items from Obsidian Citadel Mobs.'
 
 L['bubble_drifter_note'] = '{item:199061} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
+L['dead_mans_chestplate_note'] = 'Inside the tower on the middle floor.'
+L['golden_dragon_goblet_note'] = 'Loot {item:202081} from {npc:190056} on the |cFFFFFD00Wild Cosat|r and complete the small quest line.'
+L['misty_treasure_chest_note'] = 'Stand on the {npc:185485} that sticks out of the waterfall to enter the cave.'
 L['onyx_gem_cluster_note'] = 'At Renown 21 with the Dragonscale Expedition you can complete the quest {quest:70833} to get {item:200738} as a reward (one time per account) or buy the map from {npc:189065} for 3 {item:192863} and 500 {currency:2003} and use it.'
-L['replica_dragon_goblet_note'] = 'Buy {item:198854} from {npc:193915} in |cFFFFFD00Wingrest Embassy|r and use it.'
 
 L['fullsails_supply_chest'] = 'Fullsails Supply Chest'
 L['hidden_hornswog_hoard'] = 'Hidden Hornswog Hoard'

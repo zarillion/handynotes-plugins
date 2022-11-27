@@ -120,8 +120,10 @@ L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja enci
 L['shasith_note'] = 'Dentro del |cFFFFFD00Trono Obsidiana|r. \n\nTú y otros jugadores teneis que devolver un total de 20x {item:191264}. Para fabricar una llave necesitarás combinar 30x {item:191251} y 3x {item:193201}. Puedes conseguir estos objetos de los enemigos de la Ciudadela Obsidiana.'
 
 L['bubble_drifter_note'] = 'La {item:199061} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
+L['dead_mans_chestplate_note'] = nil
+L['golden_dragon_goblet_note'] = nil
+L['misty_treasure_chest_note'] = nil
 L['onyx_gem_cluster_note'] = 'A Renombre 21 con la Expedición Dragontina se puede completar la misión {quest:70833} para conseguir el {item:200738} como recompensa (una vez por cuenta) o comprar el mapa a {npc:189065} por 3 {item:192863} y 500 {currency:2003} y usarlo.'
-L['replica_dragon_goblet_note'] = 'Compra las {item:198854} a {npc:193915} en la |cFFFFFD00Embajada Reposo Alado|r y úsalas.'
 
 L['fullsails_supply_chest'] = 'Cofre de Suministros Todavela'
 L['hidden_hornswog_hoard'] = 'Botín Oculto de los Cornisapos'
