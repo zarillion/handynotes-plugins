@@ -141,14 +141,14 @@ map.nodes[71694585] = Rare({
     rewards = {Achievement({id = 16677, criteria = 56073})}
 }) -- Malsegan
 
--- map.nodes[] = Rare({ -- reqiured 67030
---     id = 193173,
---     quest = 69857,
---     rewards = {
---         Achievement({id = 16677, criteria = 56070}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Mikrin of the Raging Winds
+map.nodes[63017996] = Rare({ -- reqiured 67030
+    id = 193173,
+    quest = 69857,
+    rewards = {
+        Achievement({id = 16677, criteria = 56070}),
+        Item({item = 200542, note = L['trinket']}) -- Breezy Companion
+    }
+}) -- Mikrin of the Raging Winds
 
 -- map.nodes[] = Rare({
 --     id = 187219,
@@ -337,6 +337,7 @@ map.nodes[31456387] = Rare({
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
+        Item({item = 197372, quest = 69573}), -- Renewed Proto-Drake: Purple Hair
         Mount({item = 198825, id = 1672}) -- Zenet Hatchling
     }
 }) -- Zenet Avis
