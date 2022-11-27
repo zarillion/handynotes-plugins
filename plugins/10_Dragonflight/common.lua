@@ -14,6 +14,7 @@ local Node = ns.node.Node
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
@@ -39,6 +40,7 @@ ns.groups.LAYLINE = Group('layline', 1033908, {defaults = ns.GROUP_HIDDEN})
 -------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
+
 local BonusBoss = Class('BonusBoss', NPC, {
     icon = 'peg_rd',
     scale = 1.8,
@@ -95,11 +97,11 @@ local Disturbeddirt = Class('Disturbed_dirt', Node, {
         ns.requirement.Item(191294) -- Small Expedition Shovel
     },
     rewards = {
+        Item({item = 190453}), -- Spark of Ingenuity
+        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201386, slot = L['cosmetic']}), -- Drakonid Defender's Pike
         Transmog({item = 201388, slot = L['cosmetic']}), -- Dragonspawn Wingtipped Staff
         Transmog({item = 201390, slot = L['cosmetic']}), -- Devastating Drakonid Waraxe
-        Item({item = 190453}), -- Spark of Ingenuity
-        Item({item = 190454}), -- Primal Chaos
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 199066, quest = 70535}), -- Letter of Caution
@@ -125,14 +127,15 @@ local Scoutpack = Class('Scoutpack', Node, {
     group = ns.groups.SCOUT_PACK,
     requires = ns.requirement.Quest(70822), -- Lost Expedition Scouts
     rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Mount({item = 192764, id = 1617}), -- Verdant Skitterfly
         Transmog({item = 201387, slot = L['cosmetic']}), -- Dragon Knight's Halberd
         Transmog({item = 201388, slot = L['cosmetic']}), -- Dragonspawn Wingtipped Staff
         Transmog({item = 201390, slot = L['cosmetic']}), -- Devastating Drakonid Waraxe
         Transmog({item = 201392, slot = L['cosmetic']}), -- Dragon Noble's Cutlass
         Transmog({item = 201395, slot = L['cosmetic']}), -- Dragon Wingcrest Scimitar
         Transmog({item = 201396, slot = L['cosmetic']}), -- Dracthyr Claw Extensions
-        Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 199066, quest = 70535}), -- Letter of Caution
