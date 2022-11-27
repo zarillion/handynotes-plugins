@@ -211,8 +211,6 @@ map.nodes[47884976] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- https://www.wowhead.com/beta/achievement=16301/treasures-of-thaldraszus#comments
-
 map.nodes[49436289] = Treasure({
     quest = 70611,
     note = L['acorn_harvester_note'],
@@ -227,26 +225,31 @@ map.nodes[52607673] = Treasure({
     note = L['gem_cluster_note'],
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
         ns.requirement.Item(198852) -- Bear Termination Orders
     },
     rewards = {
-        Achievement({id = 16301, criteria = 54812}), Item({item = 200863}) -- Glimmering Nozdorite Cluster
+        Achievement({id = 16301, criteria = 54812}), --
+        Item({item = 200863}) -- Glimmering Nozdorite Cluster
     }
 }) -- Amber Gem Cluster
 
-map.nodes[33967695] = Treasure({
+map.nodes[33967695] = Treasure({ -- add loot
     quest = 70607,
     note = L['cracked_hourglass_note'],
-    requires = ns.requirement.Item(199068), -- Time-Lost Memo
+    requires = {
+        ns.requirement.Quest(72709), -- Funding a Treasure Hunt
+        ns.requirement.Item(199068) -- Time-Lost Memo
+    },
     rewards = {Achievement({id = 16301, criteria = 54810})}
 }) -- Cracked Hourglass
 
-map.nodes[60244164] = Treasure({
+map.nodes[60244164] = Treasure({ -- add loot
     quest = 70609,
     rewards = {Achievement({id = 16301, criteria = 54813})}
 }) -- Elegant Canvas Brush
 
-map.nodes[58168007] = Treasure({
+map.nodes[58168007] = Treasure({ -- add loot
     quest = 70608,
     note = L['sandy_wooden_duck_note'],
     requires = ns.requirement.Item(199069), -- Yennu's Map
@@ -254,7 +257,7 @@ map.nodes[58168007] = Treasure({
     pois = {POI({54937543})} -- Yennu's Map
 }) -- Sandy Wooden Duck (Sand Pile)
 
-map.nodes[64851655] = Treasure({
+map.nodes[64851655] = Treasure({ -- add loot
     quest = 70610,
     note = L['in_cave'],
     rewards = {Achievement({id = 16301, criteria = 54814})}

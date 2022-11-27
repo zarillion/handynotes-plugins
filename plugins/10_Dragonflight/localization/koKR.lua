@@ -111,8 +111,10 @@ L['brundin_the_dragonbane_note'] = nil
 L['shasith_note'] = nil
 
 L['bubble_drifter_note'] = nil
+L['dead_mans_chestplate_note'] = nil
+L['golden_dragon_goblet_note'] = nil
+L['misty_treasure_chest_note'] = nil
 L['onyx_gem_cluster_note'] = nil
-L['replica_dragon_goblet_note'] = nil
 
 L['fullsails_supply_chest'] = nil
 L['hidden_hornswog_hoard'] = '숨겨진 용뿔두꺼비 비축물'
