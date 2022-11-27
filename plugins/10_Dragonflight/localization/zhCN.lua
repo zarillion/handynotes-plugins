@@ -6,6 +6,11 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['gem_cluster_note'] = nil
+
+L['options_icons_bonus_boss'] = '奖励精英'
+L['options_icons_bonus_boss_desc'] = '显示奖励精英位置。'
+
 L['dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph_desc'] = '显示全部48个巨龙魔符的位置。'
@@ -35,7 +40,10 @@ L['fisherman_tinnak_note'] = '收集 |cFFFFFD00破损的鱼竿|r，|cFFFFFD00撕
 L['gnarls_note'] = '同 {npc:197344}、{npc:197353}、{npc:197356} 同时出现。'
 L['high_shaman_rotknuckle_note'] = '同 {npc:197344}、{npc:197353}、{npc:197354} 同时出现。'
 L['snarglebone_note'] = '同 {npc:197353}、{npc:197356}、{npc:197354} 同时出现。'
+L['spellwrought_snowman_note'] = nil
 L['trilvarus_loreweaver_note'] = '收集 |cFFFFFD00歌声碎片|r 即可获得 {spell:382076} 并使用 |cFFFFFD00未知焦点|r 后稀有出现。'
+
+L['breezebiter_note'] = nil
 
 L['forgotten_jewel_box_note'] = '从欧恩哈拉平原的峦水居所拾取 {item:199065} 氏族宝箱（49.4 67.3）并使用它。'
 L['gnoll_fiend_flail_note'] = '{item:199066} 可以从探险队斥候的背包和翻动过的泥土堆中找到。'
@@ -95,6 +103,9 @@ L['options_icons_dreamguards_desc'] = '显示 {achievement:16574} 成就中梦�
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
+
+L['blightpaw_note'] = nil
+L['woofang_note'] = nil
 
 L['acorn_harvester_note'] = '从附近地面收集1个 |cFFFFFD00橡果|r 获得 {spell:388485} 并与 {npc:196172} 互动。'
 L['cracked_hourglass_note'] = '{item:199068} 可以从探险队斥候的背包和翻动过的泥土堆中找到。'

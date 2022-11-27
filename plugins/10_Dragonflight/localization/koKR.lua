@@ -6,6 +6,11 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['gem_cluster_note'] = nil
+
+L['options_icons_bonus_boss'] = nil
+L['options_icons_bonus_boss_desc'] = nil
+
 L['dragon_glyph'] = nil
 L['options_icons_dragon_glyph'] = nil
 L['options_icons_dragon_glyph_desc'] = nil
@@ -35,7 +40,10 @@ L['fisherman_tinnak_note'] = nil
 L['gnarls_note'] = nil
 L['high_shaman_rotknuckle_note'] = nil
 L['snarglebone_note'] = nil
+L['spellwrought_snowman_note'] = nil
 L['trilvarus_loreweaver_note'] = nil
+
+L['breezebiter_note'] = nil
 
 L['forgotten_jewel_box_note'] = nil
 L['gnoll_fiend_flail_note'] = nil
@@ -96,6 +104,9 @@ L['options_icons_dreamguards_desc'] = nil
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
+L['blightpaw_note'] = nil
+L['woofang_note'] = nil
+
 L['acorn_harvester_note'] = nil
 L['cracked_hourglass_note'] = nil
 L['sandy_wooden_duck_note'] = nil
@@ -106,10 +117,13 @@ L['sandy_wooden_duck_note'] = nil
 
 L['brundin_the_dragonbane_note'] = nil
 L['shasith_note'] = nil
+L['worldcarver_atir_note'] = nil
 
 L['bubble_drifter_note'] = nil
+L['dead_mans_chestplate_note'] = nil
+L['golden_dragon_goblet_note'] = nil
+L['misty_treasure_chest_note'] = nil
 L['onyx_gem_cluster_note'] = nil
-L['replica_dragon_goblet_note'] = nil
 
 L['fullsails_supply_chest'] = nil
 L['hidden_hornswog_hoard'] = '숨겨진 용뿔두꺼비 비축물'

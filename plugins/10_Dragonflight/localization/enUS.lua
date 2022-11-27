@@ -6,6 +6,11 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the Dragonscale Expedition in in Expedition Scout\'s Packs and Disturbed Dirts.'
+
+L['options_icons_bonus_boss'] = 'Bonus Elites'
+L['options_icons_bonus_boss_desc'] = 'Display locations of bonus elites.'
+
 L['dragon_glyph'] = 'Dragon Glyph'
 L['options_icons_dragon_glyph'] = 'Dragon Glyphs'
 L['options_icons_dragon_glyph_desc'] = 'Display the location of all 48 dragon glyphs.'
@@ -35,7 +40,10 @@ L['fisherman_tinnak_note'] = 'Collect |cFFFFFD00Broken Fishing Pole|r, |cFFFFFD0
 L['gnarls_note'] = 'Appears simultaneously with {npc:197344}, {npc:197353} and {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Appears simultaneously with {npc:197344}, {npc:197353} and {npc:197354}'
 L['snarglebone_note'] = 'Appears simultaneously with {npc:197353}, {npc:197356} and {npc:197354}'
+L['spellwrought_snowman_note'] = 'Collect 10x {npc:193424} and bring them to {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Collect a |cFFFFFD00Singing Fragment|r to get {spell:382076} and use the |cFFFFFD00Uncharded Focus|r to spawn the rare.'
+
+L['breezebiter_note'] = 'Flies in the sky to pull him down, fly close to him.'
 
 L['forgotten_jewel_box_note'] = 'Loot {item:199065} from a Clan Chest in Ridgewater Retreat (49.4 67.3) on the Ohn\'ahran Plains and use it.'
 L['gnoll_fiend_flail_note'] = '{item:199066} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
@@ -96,6 +104,9 @@ L['options_icons_dreamguards_desc'] = 'Display Dreamguard locations for {achieve
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
+L['blightpaw_note'] = 'Talk to {npc:193222} nearby and agree to help him.'
+L['woofang_note'] = 'Pet {npc:193156} to spawn the rare.'
+
 L['acorn_harvester_note'] = 'Collect an |cFFFFFD00Acorn|r from the ground nearby to get {spell:388485} and then interact with {npc:196172}.'
 L['cracked_hourglass_note'] = '{item:199068} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['sandy_wooden_duck_note'] = 'Collect {item:199069} and use it.'
@@ -106,10 +117,13 @@ L['sandy_wooden_duck_note'] = 'Collect {item:199069} and use it.'
 
 L['brundin_the_dragonbane_note'] = 'The Qalashi War Party travels on there {npc:192737} to this tower.'
 L['shasith_note'] = 'Inside the |cFFFFFD00Obsidian Throne|r. \n\nYou and other Players have to return a total of 20x {item:191264}. To craft a key you need to combine 30x {item:191251} and 3x {item:193201}, you can get these items from Obsidian Citadel Mobs.'
+L['worldcarver_atir_note'] = 'Collect 3x {item:191211} from {npc:187366} nearby and place them at {npc:197395} to spawn the rare.'
 
 L['bubble_drifter_note'] = '{item:199061} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
-L['onyx_gem_cluster_note'] = 'Buy {item:200738} from {npc:189065} for 3 {item:192863} and 500 {currency:2003} at Renown 21 with the Dragonscale Expedition and use it.'
-L['replica_dragon_goblet_note'] = 'Buy {item:198854} from {npc:193915} in |cFFFFFD00Wingrest Embassy|r and use it.'
+L['dead_mans_chestplate_note'] = 'Inside the tower on the middle floor.'
+L['golden_dragon_goblet_note'] = 'Loot {item:202081} from {npc:190056} on the |cFFFFFD00Wild Cosat|r and complete the small quest line.'
+L['misty_treasure_chest_note'] = 'Stand on the {npc:185485} that sticks out of the waterfall to enter the cave.'
+L['onyx_gem_cluster_note'] = 'At Renown 21 with the Dragonscale Expedition you can complete the quest {quest:70833} to get {item:200738} as a reward (one time per account) or buy the map from {npc:189065} for 3 {item:192863} and 500 {currency:2003} and use it.'
 
 L['fullsails_supply_chest'] = 'Fullsails Supply Chest'
 L['hidden_hornswog_hoard'] = 'Hidden Hornswog Hoard'

@@ -8,6 +8,7 @@ Join our Discord server to discuss features and translations: https://discord.gg
 
 * [HandyNotes: Battle for Azeroth](https://www.curseforge.com/wow/addons/handynotes-battle-for-azeroth)
 * [HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands)
+* [HandyNotes: Dragonflight](https://www.curseforge.com/wow/addons/handynotes-dragonflight)
 
 ## Development Setup
 

@@ -6,6 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local BonusBoss = ns.node.BonusBoss
 local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
@@ -122,7 +123,8 @@ map.nodes[87556151] = Rare({
     id = 197009,
     quest = nil,
     rewards = {
-        Achievement({id = 16677, criteria = 56067}), Toy({item = 200249}) -- Mage's Chewed Wand
+        Achievement({id = 16677, criteria = 56067}), --
+        Toy({item = 200249}) -- Mage's Chewed Wand
     }
 }) -- Liskheszaera
 
@@ -141,14 +143,14 @@ map.nodes[71694585] = Rare({
     rewards = {Achievement({id = 16677, criteria = 56073})}
 }) -- Malsegan
 
--- map.nodes[] = Rare({ -- reqiured 67030
---     id = 193173,
---     quest = 69857,
---     rewards = {
---         Achievement({id = 16677, criteria = 56070}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Mikrin of the Raging Winds
+map.nodes[63017996] = Rare({ -- reqiured 67030
+    id = 193173,
+    quest = 69857,
+    rewards = {
+        Achievement({id = 16677, criteria = 56070}),
+        Item({item = 200542, note = L['trinket']}) -- Breezy Companion
+    }
+}) -- Mikrin of the Raging Winds
 
 -- map.nodes[] = Rare({
 --     id = 187219,
@@ -336,7 +338,9 @@ map.nodes[31456387] = Rare({
     quest = nil,
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
-        Transmog({item = 200314, slot = L['cloth']}) -- Skyspeaker's Envelope
+        Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
+        Item({item = 197372, quest = 69573}), -- Renewed Proto-Drake: Purple Hair
+        Mount({item = 198825, id = 1672}) -- Zenet Hatchling
     }
 }) -- Zenet Avis
 
@@ -350,37 +354,86 @@ map.nodes[72232306] = Rare({
 }) -- Zerimek
 
 -------------------------------------------------------------------------------
----------------------------------- TREASURES ----------------------------------
+---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
 
--- https://www.wowhead.com/beta/achievement=16299/treasures-of-the-ohnahran-plains#comments
+map.nodes[59926696] = BonusBoss({
+    id = 193669,
+    quest = 72815,
+    rewards = {
+        Item({item = 200161, note = L['trinket']}) -- Razorwind Talisman
+    }
+}) -- Prozela Galeshot
+
+map.nodes[26366533] = BonusBoss({
+    id = 193153,
+    quest = 72845,
+    note = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
+    }
+}) -- Ripsaw the Stalker
+
+map.nodes[63034854] = BonusBoss({
+    id = 193133,
+    quest = 72849,
+    note = L['in_waterfall_cave'],
+    rewards = {
+        Toy({item = 198409}) -- Personal Shell
+    }
+}) -- Sunscale Behemoth
+
+map.nodes[22956670] = BonusBoss({
+    id = 193163,
+    quest = 72851,
+    rewards = {
+        Transmog({item = 200212, slot = L['mail']}) -- Sand-Encrusted Greaves
+    }
+}) -- Territorial Coastling
+
+-------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
 
 map.nodes[73495613] = Treasure({
     quest = 70402,
     rewards = {
-        Achievement({id = 16299, criteria = 54709}), Toy({item = 200869}) -- Ohn Lite Branded Horn
+        Achievement({id = 16299, criteria = 54709}), --
+        Toy({item = 200869}) -- Ohn Lite Branded Horn
     }
 }) -- Cracked Centaur Horn
 
-map.nodes[20001600] = Treasure({ -- required 70392, 70391
-    quest = nil,
-    requires = ns.requirement.Item(198843), -- Emerald Gardens Explorer's Notes
-    rewards = {Achievement({id = 16299, criteria = 54700})}
+map.nodes[33205532] = Treasure({
+    quest = 70391,
+    note = L['gem_cluster_note'],
+    requires = {
+        ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
+        ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
+        ns.requirement.Item(198843) -- Emerald Gardens Explorer's Notes
+    },
+    rewards = {
+        Achievement({id = 16299, criteria = 54700}), --
+        Item({item = 200865}) -- Glimmering Ysemerald Cluster
+    }
 }) -- Emerald Gem Cluster
 
 map.nodes[82327339] = Treasure({
     quest = 70379,
     note = L['gold_swong_coin_note'],
     rewards = {
-        Achievement({id = 16299, criteria = 54710}), Item({item = 199338}) -- Copper Coin of the Isles
+        Achievement({id = 16299, criteria = 54710}), --
+        Item({item = 199338}) -- Copper Coin of the Isles
     },
     pois = {POI({81847223})}
 }) -- Gold Swog Coin
 
-map.nodes[32423817] = Treasure({ -- required 67046, 67049
+map.nodes[32423817] = Treasure({
     quest = 67049,
     note = L['nokhud_warspear_note'],
-    requires = ns.requirement.Item(194540), -- Nokhud Armorer's Notes
+    requires = {
+        ns.requirement.Quest(72709), -- Funding a Treasure Hunt
+        ns.requirement.Item(194540) -- Nokhud Armorer's Notes
+    },
     rewards = {Achievement({id = 16299, criteria = 54707})}
 }) -- Nokhud Warspear
 
@@ -400,7 +453,8 @@ map.nodes[51985839] = Treasure({
     label = L['yennus_boat'],
     note = L['yennus_boat_note'],
     rewards = {
-        Achievement({id = 16299, criteria = 54711}), Toy({item = 200878}) -- Wheeled Floaty Boaty Controller
+        Achievement({id = 16299, criteria = 54711}), --
+        Toy({item = 200878}) -- Wheeled Floaty Boaty Controller
     }
 }) -- Yennu's Boat
 
@@ -485,7 +539,7 @@ map.nodes[83882587] = Bakar({
     rewards = {Achievement({id = 16424, criteria = 55320})}
 }) -- Gentara
 
-map.nodes[70636364] = Bakar({
+map.nodes[70616361] = Bakar({
     note = L['bakar_note'] .. '\n\n' .. L['bakar_hugo_note'],
     rewards = {Achievement({id = 16424, criteria = 55327})},
     pois = {POI({71103149})}
@@ -526,7 +580,7 @@ map.nodes[71644967] = Bakar({
     pois = {POI({61164002})} -- questline start
 }) -- Soyoo
 
-map.nodes[61843869] = Bakar({
+map.nodes[61833862] = Bakar({
     requires = ns.requirement.Quest(69096), -- Taivan's Purpose
     rewards = {Achievement({id = 16424, criteria = 55325})},
     pois = {POI({61164002})} -- questline start
@@ -575,6 +629,7 @@ map.nodes[61781881] = Scoutpack()
 map.nodes[64028081] = Scoutpack()
 map.nodes[65021064] = Scoutpack()
 map.nodes[66798258] = Scoutpack()
+map.nodes[91393390] = Scoutpack()
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
@@ -582,12 +637,38 @@ map.nodes[66798258] = Scoutpack()
 
 map.nodes[24384234] = PetBattle({
     id = 197447,
-    rewards = {Achievement({id = 16464, criteria = 55486})}
+    rewards = {
+        Achievement({id = 16464, criteria = 55486}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 7, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 7, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 7, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 7, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 7, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 7, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 7, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 7, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 7, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 7, oneline = true}) -- Undead
+    }
 }) -- Stormamu
 
 map.nodes[61964159] = PetBattle({
     id = 197102,
-    rewards = {Achievement({id = 16464, criteria = 55492})}
+    rewards = {
+        Achievement({id = 16464, criteria = 55492}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 2, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 2, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 2, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 2, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 2, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 2, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 2, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 2, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 2, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 2, oneline = true}) -- Undead
+    }
 }) -- Bakhushek
 
 -------------------------------------------------------------------------------

@@ -7,6 +7,11 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['gem_cluster_note'] = 'L\'objet requis peut être trouvé au Renom 21 avec l\'Expédition du Dracaret dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
+
+L['options_icons_bonus_boss'] = 'Élites bonus'
+L['options_icons_bonus_boss_desc'] = 'Afficher les emplacements des élites bonus.'
+
 L['dragon_glyph'] = 'Dracoglyphe'
 L['options_icons_dragon_glyph'] = 'Dracoglyphes'
 L['options_icons_dragon_glyph_desc'] = 'Afficher les emplacements des 48 dracoglyphes.'
@@ -36,7 +41,10 @@ L['fisherman_tinnak_note'] = 'Récupérez la |cFFFFFD00Canne à pêche cassée|r
 L['gnarls_note'] = 'Apparaît simultanément avec {npc:197344}, {npc:197353} et {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Apparaît simultanément avec {npc:197344}, {npc:197353} et {npc:197354}'
 L['snarglebone_note'] = 'Apparaît simultanément avec {npc:197353}, {npc:197356} et {npc:197354}'
+L['spellwrought_snowman_note'] = 'Récupérez 10x {npc:193424} et amenez-les au {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Récupérez un |cFFFFFD00Fragment chantant|r pour obtenir {spell:382076} et utilisez le |cFFFFFD00Focalisateur déchargé|r pour faire apparaître le rare.'
+
+L['breezebiter_note'] = 'Vole dans le ciel, pour le faire descendre, volez près de lui.'
 
 L['forgotten_jewel_box_note'] = 'Récupérez la {item:199065} dans un Coffre clanique au Refuge d\'Ondecrête (49.4 67.3) dans les Plaines d\'Ohn\'ahra et utilisez-la.'
 L['gnoll_fiend_flail_note'] = '{item:199066} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
@@ -97,6 +105,9 @@ L['options_icons_dreamguards_desc'] = nil
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
+L['blightpaw_note'] = 'Parlez à l\'{npc:193222} à proximité et acceptez de l\'aider.'
+L['woofang_note'] = 'Caressez {npc:193156} pour faire apparaître le rare.'
+
 L['acorn_harvester_note'] = 'Ramassez un |cFFFFFD00Gland|r sur le sol à proximité pour obtenir {spell:388485} et interagissez ensuite avec {npc:196172}.'
 L['cracked_hourglass_note'] = '{item:199068} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
@@ -107,10 +118,13 @@ L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
 
 L['brundin_the_dragonbane_note'] = 'La Troupe Qalashi voyage sur leur {npc:192737} jusqu\'à cette tour.'
 L['shasith_note'] = 'À l\'intérieur du |cFFFFFD00Trône d\'obsidienne|r. \n\nVous et d\'autres joueurs devez rapporter un total de 20x {item:191264}. Pour fabriquer une clé, vous devez combiner 30x {item:191251} et 3x {item:193201}. Vous pouvez obtenir ces objets sur les monstres de la Citadelle d\'obsidienne.'
+L['worldcarver_atir_note'] = 'Récupérez 3x {item:191211} sur les {npc:187366} à proximité et placez-les sur les {npc:197395} pour faire apparaître le rare.'
 
 L['bubble_drifter_note'] = '{item:199061} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
-L['onyx_gem_cluster_note'] = 'Achetez une {item:200738} à {npc:189065} pour 3 {item:192863} et 500 {currency:2003} au Renom 21 avec l\'Expédition du Dracaret et utilisez-la.'
-L['replica_dragon_goblet_note'] = 'Achetez une {item:198854} à {npc:193915} à l\'|cFFFFFD00Ambassade de Trêve-Ailée|r et utilisez-la.'
+L['dead_mans_chestplate_note'] = 'A l\'intérieur de la tour, au niveau intermédiaire.'
+L['golden_dragon_goblet_note'] = 'Récupérez un {item:202081} sur les {npc:190056} sur la |cFFFFFD00Côte Sauvage|r et terminez la petite suite de quêtes.'
+L['misty_treasure_chest_note'] = 'Montez sur la {npc:185485} qui dépasse de la cascade pour entrer dans la grotte.'
+L['onyx_gem_cluster_note'] = 'Au Renom 21 avec l\'Expédition du Dracaret, vous pouvez compléter la quête {quest:70833} pour obtenir {item:200738} comme récompense (une fois par compte) ou alors acheter la carte à {npc:189065} pour 3 {item:192863} et 500 {currency:2003} et l\'utiliser.'
 
 L['fullsails_supply_chest'] = 'Clé de coffre de fournitures des Gréements'
 L['hidden_hornswog_hoard'] = 'Horde de bufflaciens cachée'
