@@ -8,6 +8,9 @@ if not L then return end
 
 L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the Dragonscale Expedition in in Expedition Scout\'s Packs and Disturbed Dirts.'
 
+L['options_icons_bonus_boss'] = 'Bonus Elites'
+L['options_icons_bonus_boss_desc'] = 'Display locations of bonus elites.'
+
 L['dragon_glyph'] = 'Dragon Glyph'
 L['options_icons_dragon_glyph'] = 'Dragon Glyphs'
 L['options_icons_dragon_glyph_desc'] = 'Display the location of all 48 dragon glyphs.'

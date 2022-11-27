@@ -6,6 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local BonusBoss = ns.node.BonusBoss
 -- local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
@@ -206,6 +207,18 @@ map.nodes[47884976] = Rare({
         Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
     }
 }) -- Woolfang
+
+-------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[36757287] = BonusBoss({
+    id = 193273,
+    quest = 72842,
+    rewards = {
+        Transmog({item = 200131, slot = L['dagger']}) -- Reclaimed Survivalist's Dagger
+    }
+}) -- Liskron the Dazzling
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

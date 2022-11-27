@@ -6,6 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local BonusBoss = ns.node.BonusBoss
 local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
@@ -350,6 +351,44 @@ map.nodes[72232306] = Rare({
         -- Transmog({item = , slot = L['']}) -- Name
     }
 }) -- Zerimek
+
+-------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[59926696] = BonusBoss({
+    id = 193669,
+    quest = 72815,
+    rewards = {
+        Item({item = 200161, note = L['trinket']}) -- Razorwind Talisman
+    }
+}) -- Prozela Galeshot
+
+map.nodes[26366533] = BonusBoss({
+    id = 193153,
+    quest = 72845,
+    note = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
+    }
+}) -- Ripsaw the Stalker
+
+map.nodes[63034854] = BonusBoss({
+    id = 193133,
+    quest = 72849,
+    note = L['in_waterfall_cave'],
+    rewards = {
+        Toy({item = 198409}) -- Personal Shell
+    }
+}) -- Sunscale Behemoth
+
+map.nodes[22956670] = BonusBoss({
+    id = 193163,
+    quest = 72851,
+    rewards = {
+        Transmog({item = 200212, slot = L['mail']}) -- Sand-Encrusted Greaves
+    }
+}) -- Territorial Coastling
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
