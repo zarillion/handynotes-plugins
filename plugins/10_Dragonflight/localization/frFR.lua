@@ -62,7 +62,7 @@ L['bag_of_enchanted_wind'] = 'Sac de vents enchantés'
 L['bag_of_enchanted_wind_note'] = 'Situé en haut de la tour.'
 L['hessethiash_treasure'] = 'Coffre au trésor mal caché d\'Hessethiash'
 L['lost_draconic_hourglass'] = 'Sablier draconique perdu'
-L['suspicious_bottle_treasure'] = nil
+L['suspicious_bottle_treasure'] = 'Bouteille suspecte'
 L['mysterious_wand'] = 'Baguette mystérieuse'
 L['mysterious_wand_note'] = 'Ramassez la |cFFFFFD00Clé en cristal|r et placez-la dans le |cFFFFFD00Focalisateur en cristal|r.'
 
@@ -97,9 +97,9 @@ L['bakar_hugo_note'] = 'Voyage avec le campement Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Afficher l\'emplacement de tous les chiens (bakars) pour le haut-fait {achievement:16424}.'
 
-L['dreamguard_note'] = nil
+L['dreamguard_note'] = 'Ciblez le Garde-rêve et ' .. ns.color.Orange('/dormir')
 L['options_icons_dreamguards'] = '{achievement:16574}'
-L['options_icons_dreamguards_desc'] = nil
+L['options_icons_dreamguards_desc'] = 'Afficher les emplacements des Gardes-rêves pour {achievement:16574}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
