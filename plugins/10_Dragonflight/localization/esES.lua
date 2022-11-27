@@ -9,6 +9,9 @@ if not L then return end
 
 L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la Expedición Dragontina en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 
+L['options_icons_bonus_boss'] = 'Élites de Bonificación'
+L['options_icons_bonus_boss_desc'] = 'Muestra dónde están los élites de bonificación.'
+
 L['dragon_glyph'] = 'Glifos Dracónicos'
 L['options_icons_dragon_glyph'] = 'Glifos Dracónicos'
 L['options_icons_dragon_glyph_desc'] = 'Muestra dónde están los 48 Glifos Dracónicos.'

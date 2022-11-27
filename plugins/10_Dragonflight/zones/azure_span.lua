@@ -6,6 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local BonusBoss = ns.node.BonusBoss
 local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
@@ -392,8 +393,10 @@ map.nodes[70222532] = Rare({
 -- }) -- Wilrive
 
 -------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
+-------------------------------------------------------------------------------
 
-map.nodes[28564743] = Rare({
+map.nodes[28564743] = BonusBoss({
     id = 195353,
     quest = nil,
     note = L['breezebiter_note'],
@@ -408,6 +411,27 @@ map.nodes[28564743] = Rare({
         })
     }
 }) -- Breezebiter
+
+map.nodes[23503317] = BonusBoss({
+    id = 186962,
+    quest = 72836,
+    rewards = {
+        Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
+        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        Item({item = 197098, quest = 69299}) -- Highland Drake: Finned Back
+    }
+}) -- Cascade
+
+map.nodes[70143327] = BonusBoss({
+    id = 193288,
+    quest = 72848,
+    rewards = {
+        Item({item = 198048}), -- Titan Training Matrix I
+        Item({item = 200868, note = L['trinket']}) -- Intefrated Primal Fire
+    }
+}) -- Summoned Destroyer
+
+-- map.nodes[17254144] = BonusBoss({id = 193223, quest = nil}) -- Vakril
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

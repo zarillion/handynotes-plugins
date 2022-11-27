@@ -6,6 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local BonusBoss = ns.node.BonusBoss
 local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
@@ -279,6 +280,28 @@ map.nodes[30025534] = Rare({
         Transmog({item = 200213, slot = L['plate']}) -- Lava-Splattered Breastplate
     }
 }) -- Worldcarver A'tir
+
+-------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[54728225] = BonusBoss({
+    id = 187209,
+    quest = 72841,
+    rewards = {
+        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
+        Item({item = 196991, quest = 69191}), -- Cliffside Wylderdrake: Black Horns
+        Toy({item = 200198}) -- Primalist Prison
+    }
+}) -- Klozicc the Ascended
+
+map.nodes[60598285] = BonusBoss({
+    id = 193171,
+    quest = 72850,
+    rewards = {
+        Transmog({item = 200208, slot = L['cloth']}) -- Cloud Coalescing Handwraps
+    }
+}) -- Terillod the Devout
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

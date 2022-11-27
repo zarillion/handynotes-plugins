@@ -9,6 +9,9 @@ if not L then return end
 
 L['gem_cluster_note'] = nil
 
+L['options_icons_bonus_boss'] = 'Бонусные элитные монстры'
+L['options_icons_bonus_boss_desc'] = 'Отображение местоположения бонусных элитных монстров.'
+
 L['dragon_glyph'] = 'Драконий символ'
 L['options_icons_dragon_glyph'] = 'Драконий символ'
 L['options_icons_dragon_glyph_desc'] = 'Показать расположение всех 48 драконьих символов.'

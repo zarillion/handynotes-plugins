@@ -9,6 +9,9 @@ if not L then return end
 
 L['gem_cluster_note'] = 'L\'objet requis peut être trouvé au Renom 21 avec l\'Expédition du Dracaret dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 
+L['options_icons_bonus_boss'] = 'Élites bonus'
+L['options_icons_bonus_boss_desc'] = 'Afficher les emplacements des élites bonus.'
+
 L['dragon_glyph'] = 'Dracoglyphe'
 L['options_icons_dragon_glyph'] = 'Dracoglyphes'
 L['options_icons_dragon_glyph_desc'] = 'Afficher les emplacements des 48 dracoglyphes.'

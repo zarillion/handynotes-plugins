@@ -8,6 +8,9 @@ if not L then return end
 
 L['gem_cluster_note'] = nil
 
+L['options_icons_bonus_boss'] = nil
+L['options_icons_bonus_boss_desc'] = nil
+
 L['dragon_glyph'] = nil
 L['options_icons_dragon_glyph'] = nil
 L['options_icons_dragon_glyph_desc'] = nil

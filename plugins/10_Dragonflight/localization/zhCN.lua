@@ -8,6 +8,9 @@ if not L then return end
 
 L['gem_cluster_note'] = nil
 
+L['options_icons_bonus_boss'] = '奖励精英'
+L['options_icons_bonus_boss_desc'] = '显示奖励精英位置。'
+
 L['dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph_desc'] = '显示全部48个巨龙魔符的位置。'
