@@ -60,11 +60,11 @@ L['daily'] = '일간'
 L['weekly'] = '주간'
 L['normal'] = '보통'
 L['hard'] = '어려움'
-L['heirloom'] = nil
+L['heirloom'] = '유산'
 L['mount'] = '탈것'
 L['pet'] = '애완동물'
 L['spell'] = '주문'
-L['title'] = nil
+L['title'] = '칭호'
 L['toy'] = '장난감'
 L['rep'] = '평판'
 L['completed'] = '완료'
@@ -76,9 +76,9 @@ L['unlearnable'] = '습득불가'
 L['defeated'] = '처치함'
 L['undefeated'] = '처치하지 않음'
 
-L['follower_type_follower'] = nil
-L['follower_type_champion'] = nil
-L['follower_type_companion'] = nil
+L['follower_type_follower'] = '추종자'
+L['follower_type_champion'] = '영웅'
+L['follower_type_companion'] = '동료'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

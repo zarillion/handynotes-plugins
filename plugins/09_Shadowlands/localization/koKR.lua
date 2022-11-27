@@ -17,7 +17,7 @@ L['squirrels_note'] = nil
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = nil
 
-L['prepatch_vendor_note'] = nil
+L['prepatch_vendor_note'] = '사전패치 이벤트: |cFFFF8C00Primal Storms|r에서 얻을 수 있는 {item:199211}로 보상을 구입하세요.'
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
@@ -901,14 +901,19 @@ L['patient_bufonid_note_day7'] = '타자베쉬 던전 내의 {npc:180114}으로�
 L['lost_comb'] = '잃어버린 벌집'
 L['soulshape_penguin_note'] = '공중에 떠있는 제련소 꼭대기에 있습니다.'
 
-L['coreless_automa'] = nil
-L['coreless_automa_note'] = 'Equiping an item with {spell:364480} will grant |cFFFFFD00Pocopoc|r the ability to take over creatures without consuming energy and will make earning this achievement faster.'
-L['coreless_automa_warning'] = '|cFFFF8C00Wait for the automa to actually start following you before telling Pocopoc to leave to avoid causing a bug that requires you to relog.|r'
+L['coreless_automa'] = '야생 자동기계'
+L['coreless_automa_note'] = '{spell:364480} 효과가 있는 장비를 착용하면 |cFFFFFD00포코폭|r이 생명체를 조종하는데 마력이 소모되지 않아, 빠르게 업적을 완료할 수 있습니다.'
+L['coreless_automa_warning'] = '|cFFFF8C00포코폭에게 자동기계에서 벗어나도록 말하기 전에 실제로 자동기계가 따라올 때까지 기다리세요. 버그 때문에 다시 시도해야 할 수 있습니다.|r'
 
-L['olea_manu'] = nil
+L['olea_manu'] = '{currency:1979}로 수집품과 도안을 구매할 수 있습니다.'
 
-L['venaris_fate_sublabel'] = nil
-L['venaris_fate_note'] = nil
+L['venaris_fate_sublabel'] = '|cFFFFFF00창조의 촉매 장치|r에 있습니다.'
+L['venaris_fate_note'] = [[
+1. |cFFFFFF00나락|r의 |cFFFFFF00베나리의 은거처|r에 있는 흐릿한 형상의 {npc:162804}에게 말을 걸어 전언을 듣습니다.
+2. 베나리가 흐릿한 형상이 아니면 9.2 대장정을 추가로 진행해야 합니다.
+3. |cFFFFFF00제레스 모르티스|r의 |cFFFFFF00창조의 촉매 장치|r에 있는 {npc:162804}의 시체를 조사합니다.
+4. 5일이 지나면 {npc:162804}로부터 {item:192485}이 동봉된 편지를 받게 됩니다.
+]]
 
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '{achievement:15211} 업적을 위한 생명체의 위치를 표시합니다.'
@@ -931,4 +936,4 @@ L['options_icons_shrouded_cyphers_desc'] = '가려진 암호 보관함의 발견
 L['options_icons_mawsworn_supply_cache'] = '나락살이 보급품 상자'
 L['options_icons_mawsworn_supply_cache_desc'] = '나락살이 보급품 상자의 발견 가능한 위치를 표시합니다'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
-L['options_icons_coreless_automa_desc'] = 'Coreless automa locations for the {achievement:15542} achievement.'
+L['options_icons_coreless_automa_desc'] = '{achievement:15542} 업적을 위한 핵이 없는 자동기계 위치를 표시합니다.'

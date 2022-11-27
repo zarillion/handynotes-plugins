@@ -6,21 +6,21 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['dragon_glyph'] = nil
-L['options_icons_dragon_glyph'] = nil
-L['options_icons_dragon_glyph_desc'] = nil
+L['dragon_glyph'] = '용 문양'
+L['options_icons_dragon_glyph'] = '용 문양'
+L['options_icons_dragon_glyph_desc'] = '48개의 전체 용 문양 위치를 표시합니다.'
 
-L['dragonscale_expedition_flag'] = nil
-L['flags_placed'] = nil
+L['dragonscale_expedition_flag'] = '용비늘 원정대 깃발'
+L['flags_placed'] = '깃발 꽂기 완료'
 L['options_icons_flag'] = '{achievement:15890}'
-L['options_icons_flag_desc'] = nil
+L['options_icons_flag_desc'] = '{achievement:15890} 업적을 위한 전체 20개의 깃발 꽂기 위치를 표시합니다.'
 
 L['options_icons_kite'] = '{achievement:16584}'
-L['options_icons_kite_desc'] = nil
+L['options_icons_kite_desc'] = '{achievement:16584} 업적을 위한 {npc:198118} 위치를 표시합니다.'
 
-L['disturbed_dirt'] = nil
-L['options_icons_disturbed_dirt'] = nil
-L['options_icons_disturbed_dirt_desc'] = nil
+L['disturbed_dirt'] = '흐트러진 흙'
+L['options_icons_disturbed_dirt'] = '흐트러진 흙'
+L['options_icons_disturbed_dirt_desc'] = '흐트러진 흙의 위치를 표시합니다.'
 
 L['scout_pack'] = nil
 L['options_icons_scout_pack'] = nil
@@ -30,11 +30,11 @@ L['options_icons_scout_pack_desc'] = nil
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['blisterhide_note'] = nil
+L['blisterhide_note'] = '{npc:197344}, {npc:197356}, {npc:197354}와 동시에 나타납니다.'
 L['fisherman_tinnak_note'] = nil
-L['gnarls_note'] = nil
-L['high_shaman_rotknuckle_note'] = nil
-L['snarglebone_note'] = nil
+L['gnarls_note'] = '{npc:197344}, {npc:197353}, {npc:197356}와 동시에 나타납니다.'
+L['high_shaman_rotknuckle_note'] = '{npc:197344}, {npc:197353}, {npc:197354}와 동시에 나타납니다.'
+L['snarglebone_note'] = '{npc:197353}, {npc:197356}, {npc:197354}와 동시에 나타납니다.'
 L['trilvarus_loreweaver_note'] = nil
 
 L['forgotten_jewel_box_note'] = nil
