@@ -6,7 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['gem_cluster_note'] = nil
+L['gem_cluster_note'] = '所需物品需要龙鳞探险队声望到达21级可以从探险队斥候的背包和翻动过的泥土堆中找到。'
 
 L['options_icons_bonus_boss'] = '奖励精英'
 L['options_icons_bonus_boss_desc'] = '显示奖励精英位置。'
@@ -40,10 +40,10 @@ L['fisherman_tinnak_note'] = '收集 |cFFFFFD00破损的鱼竿|r，|cFFFFFD00撕
 L['gnarls_note'] = '同 {npc:197344}、{npc:197353}、{npc:197356} 同时出现。'
 L['high_shaman_rotknuckle_note'] = '同 {npc:197344}、{npc:197353}、{npc:197354} 同时出现。'
 L['snarglebone_note'] = '同 {npc:197353}、{npc:197356}、{npc:197354} 同时出现。'
-L['spellwrought_snowman_note'] = nil
+L['spellwrought_snowman_note'] = '收集10个 {npc:193424} 并将它们带到 {npc:193242}。'
 L['trilvarus_loreweaver_note'] = '收集 |cFFFFFD00歌声碎片|r 即可获得 {spell:382076} 并使用 |cFFFFFD00未知焦点|r 后稀有出现。'
 
-L['breezebiter_note'] = nil
+L['breezebiter_note'] = '飞到天上把他拉下来，飞到他身边。'
 
 L['forgotten_jewel_box_note'] = '从欧恩哈拉平原的峦水居所拾取 {item:199065} 氏族宝箱（49.4 67.3）并使用它。'
 L['gnoll_fiend_flail_note'] = '{item:199066} 可以从探险队斥候的背包和翻动过的泥土堆中找到。'
@@ -104,8 +104,8 @@ L['options_icons_dreamguards_desc'] = '显示 {achievement:16574} 成就中梦�
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['blightpaw_note'] = nil
-L['woofang_note'] = nil
+L['blightpaw_note'] = '与附近的 {npc:193222} 交谈并同意帮助他。'
+L['woofang_note'] = '抚摸 {npc:193156} 稀有出现。'
 
 L['acorn_harvester_note'] = '从附近地面收集1个 |cFFFFFD00橡果|r 获得 {spell:388485} 并与 {npc:196172} 互动。'
 L['cracked_hourglass_note'] = '{item:199068} 可以从探险队斥候的背包和翻动过的泥土堆中找到。'
@@ -117,12 +117,12 @@ L['sandy_wooden_duck_note'] = '收集 {item:199069} 并使用它。'
 
 L['brundin_the_dragonbane_note'] = '卡拉希战队从 {npc:192737} 前往这座塔。'
 L['shasith_note'] = '|cFFFFFD00黑曜王座|r 内。\n\n和其他玩家必须总共交还20个 {item:191264}。要制作钥匙，需要组合30个 {item:191251} 和3个 {item:193201}，可以从黑曜堡垒怪物获得这些物品。'
-L['worldcarver_atir_note'] = nil
+L['worldcarver_atir_note'] = '从附近的 {npc:187366} 收集3个 {item:191211} 并将它们放置在 {npc:197395} 后稀有出现。'
 
 L['bubble_drifter_note'] = '{item:199061} 可以从探险队斥候的背包和翻动过的泥土堆中找到。'
-L['dead_mans_chestplate_note'] = nil
-L['golden_dragon_goblet_note'] = nil
-L['misty_treasure_chest_note'] = nil
+L['dead_mans_chestplate_note'] = '塔内中层。'
+L['golden_dragon_goblet_note'] = '在完成 |cFFFFFD00狂野海滩|r 小任务线上从 {npc:190056} 拾取 {item:202081}。'
+L['misty_treasure_chest_note'] = '站在从瀑布延伸出的 {npc:185485} 上进入洞穴。'
 L['onyx_gem_cluster_note'] = '龙鳞探险队声望到达21级，从 {npc:189065} 购买 {item:200738} 需要3个 {item:192863} 和500 {currency:2003} 并使用它。'
 
 L['fullsails_supply_chest'] = '满帆补给箱'

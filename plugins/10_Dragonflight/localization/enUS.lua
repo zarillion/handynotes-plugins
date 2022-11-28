@@ -121,7 +121,7 @@ L['worldcarver_atir_note'] = 'Collect 3x {item:191211} from {npc:187366} nearby 
 
 L['bubble_drifter_note'] = '{item:199061} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['dead_mans_chestplate_note'] = 'Inside the tower on the middle floor.'
-L['golden_dragon_goblet_note'] = 'Loot {item:202081} from {npc:190056} on the |cFFFFFD00Wild Cosat|r and complete the small quest line.'
+L['golden_dragon_goblet_note'] = 'Loot {item:202081} from {npc:190056} on the |cFFFFFD00Wild Coast|r and complete the small quest line.'
 L['misty_treasure_chest_note'] = 'Stand on the {npc:185485} that sticks out of the waterfall to enter the cave.'
 L['onyx_gem_cluster_note'] = 'At Renown 21 with the Dragonscale Expedition you can complete the quest {quest:70833} to get {item:200738} as a reward (one time per account) or buy the map from {npc:189065} for 3 {item:192863} and 500 {currency:2003} and use it.'
 
