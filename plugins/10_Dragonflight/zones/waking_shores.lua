@@ -80,7 +80,13 @@ map.nodes[52916529] = Rare({
 map.nodes[26847642] = Rare({
     id = 193198,
     quest = 72127,
-    rewards = {Achievement({id = 16676, criteria = 56050})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56050}),
+        Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        Transmog({item = 200286, slot = L['polearm']}), -- Dragonbane Lance
+        Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
+        Item({item = 197019, quest = 69219}) -- Cliffside Wylderdrake: Blunt Spiked Tail
+    }
 }) -- Captain Lancer
 
 map.nodes[26285788] = Rare({
@@ -141,7 +147,9 @@ map.nodes[33127632] = Rare({
     quest = 72130,
     rewards = {
         Achievement({id = 16676, criteria = 56048}),
-        Item({item = 200858, note = L['trinket']}) -- Plume of the Forgotten
+        Item({item = 200858, note = L['trinket']}), -- Plume of the Forgotten
+        Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
+        Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
     }
 }) -- Forgotten Gryphon
 
