@@ -310,12 +310,21 @@ map.nodes[30025534] = Rare({
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[64173289] = BonusBoss({
+    id = 191611,
+    quest = 72838, -- 66956
+    rewards = {
+        Transmog({item = 200169, slot = L['mace']}) -- Protector's Molten Cudgel
+    }
+}) -- Dragonhunter Igordan
+
 map.nodes[54728225] = BonusBoss({
     id = 187209,
-    quest = 72841,
+    quest = 72841, -- 66960
     rewards = {
         Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
         Item({item = 196991, quest = 69191}), -- Cliffside Wylderdrake: Black Horns
+        Item({item = 197023, quest = 69223}), -- Cliffside Wylderdrake: Maned Neck
         Toy({item = 200198}) -- Primalist Prison
     }
 }) -- Klozicc the Ascended
@@ -441,7 +450,7 @@ map.nodes[64926959] = Treasure({
 }) -- Hidden Hornswog Hoard
 
 map.nodes[43156737] = Treasure({
-    quest = nil,
+    quest = 65965,
     requires = ns.requirement.Item(191122), -- Fullsails Supply Chest Key
     label = L['fullsails_supply_chest']
 }) -- Fullsails Supply Chest
