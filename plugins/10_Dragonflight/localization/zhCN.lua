@@ -78,9 +78,9 @@ L['yennus_boat'] = '海象人玩具船'
 L['yennus_boat_note'] = '拾取 |cFFFFFD00海象人玩具船|r 后获得 {item:200876}，可以在 {npc:195252} 开始上缴的任务 {quest:72063}。'
 
 L['lizi_note'] = '完成从 {quest:65901} 开始的 Initiate\'s Day Out 任务线。每天完成任务以修复莉姬并获得坐骑。\n\n除了需要的物品外，所有任务都需要150个 {currency:2003}，总共需要750个 {currency:2003}。'
-L['lizi_note_day1'] = '从 |cFFFFFD00巨龙群岛s|r 的昆虫怪物收集20个 {item:192615}。'
-L['lizi_note_day2'] = '从 |cFFFFFD00巨龙群岛s|r 的植物怪物收集10个 {item:192658}。'
-L['lizi_note_day3'] = '从 |cFFFFFD00巨龙群岛s|r 的任意水域钓鱼收集10个 {item:194966}。常见于 |cFFFFFD00欧恩哈拉平原|r 内陆。'
+L['lizi_note_day1'] = '从 |cFFFFFD00巨龙群岛|r 的昆虫怪物收集20个 {item:192615}。'
+L['lizi_note_day2'] = '从 |cFFFFFD00巨龙群岛|r 的植物怪物收集10个 {item:192658}。'
+L['lizi_note_day3'] = '从 |cFFFFFD00巨龙群岛|r 的任意水域钓鱼收集10个 {item:194966}。常见于 |cFFFFFD00欧恩哈拉平原|r 内陆。'
 L['lizi_note_day4'] = '从 |cFFFFFD00欧恩哈拉平原|r 的猛犸象收集20个 {item:192636}。'
 L['lizi_note_day5'] = '从 |cFFFFFD00欧恩伊尔清泉|r 南边的帐篷的 {npc:190015} 购买1个 {item:200598}。'
 
