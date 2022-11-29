@@ -306,6 +306,31 @@ map.nodes[30025534] = Rare({
     }
 }) -- Worldcarver A'tir
 
+map.nodes[81613731] = Rare({ -- review (no quest debug at the time)
+    id = 184853,
+    quest = nil,
+    note = L['in_small_cave'],
+    rewards = {
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        Item({item = 196976, quest = nil}) -- Cliffside Wylderdrake: Head Mane
+    },
+    pois = {
+        POI({81713719}) -- Entrance
+    }
+}) -- Primal Scythid Queen
+
+map.nodes[77302198] = Rare({ -- review (no quest debug at the time)
+    id = 187111,
+    quest = nil,
+    note = L['in_small_cave'],
+    rewards = {
+        Item({item = 197111, quest = nil}) -- Highland Drake: Maned Head
+    },
+    pois = {
+        POI({77902281}) -- Entrance
+    }
+}) -- Ancient Hornswog
+
 -------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
