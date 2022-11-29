@@ -306,20 +306,11 @@ map.nodes[30025534] = Rare({
     }
 }) -- Worldcarver A'tir
 
-map.nodes[81613731] = Rare({ -- review (no quest debug at the time)
-    id = 184853,
-    quest = nil,
-    note = L['in_small_cave'],
-    rewards = {
-        Toy({item = 200249}), -- Mage's Chewed Wand
-        Item({item = 196976, quest = nil}) -- Cliffside Wylderdrake: Head Mane
-    },
-    pois = {
-        POI({81713719}) -- Entrance
-    }
-}) -- Primal Scythid Queen
+-------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
+-------------------------------------------------------------------------------
 
-map.nodes[77302198] = Rare({ -- review (no quest debug at the time)
+map.nodes[77302198] = BonusBoss({ -- review (no quest debug at the time)
     id = 187111,
     quest = nil,
     note = L['in_small_cave'],
@@ -331,10 +322,6 @@ map.nodes[77302198] = Rare({ -- review (no quest debug at the time)
     }
 }) -- Ancient Hornswog
 
--------------------------------------------------------------------------------
----------------------------- BONUS OBJECTIVE BOSSES ---------------------------
--------------------------------------------------------------------------------
-
 map.nodes[54728225] = BonusBoss({
     id = 187209,
     quest = 72841,
@@ -345,12 +332,16 @@ map.nodes[54728225] = BonusBoss({
     }
 }) -- Klozicc the Ascended
 
-map.nodes[81133794] = BonusBoss({
+map.nodes[81613731] = BonusBoss({ -- review (no quest debug at the time)
     id = 184853,
-    quest = 72843,
+    quest = nil,
     note = L['in_small_cave'],
     rewards = {
-        Item({item = 200445, note = L['neck']}) -- Lucky Hunting Charm
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        Item({item = 196976, quest = nil}) -- Cliffside Wylderdrake: Head Mane
+    },
+    pois = {
+        POI({81713719}) -- Entrance
     }
 }) -- Primal Scythid Queen
 
