@@ -315,7 +315,7 @@ map.nodes[77302198] = BonusBoss({ -- review (no quest debug at the time)
     quest = nil,
     note = L['in_small_cave'],
     rewards = {
-        Item({item = 197111, quest = nil}) -- Highland Drake: Maned Head
+        Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
     },
     pois = {
         POI({77902281}) -- Entrance
@@ -332,13 +332,14 @@ map.nodes[54728225] = BonusBoss({
     }
 }) -- Klozicc the Ascended
 
-map.nodes[81613731] = BonusBoss({ -- review (no quest debug at the time)
+map.nodes[81133794] = BonusBoss({
     id = 184853,
-    quest = nil,
+    quest = 72843,
     note = L['in_small_cave'],
     rewards = {
-        Toy({item = 200249}), -- Mage's Chewed Wand
-        Item({item = 196976, quest = nil}) -- Cliffside Wylderdrake: Head Mane
+        Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
+        Item({item = 196976, quest = 69176}), -- Cliffside Wylderdrake: Head Mane
+        Toy({item = 200249}) -- Mage's Chewed Wand
     },
     pois = {
         POI({81713719}) -- Entrance
