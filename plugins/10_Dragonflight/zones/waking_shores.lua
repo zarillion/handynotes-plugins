@@ -490,7 +490,7 @@ map.nodes[73193776] = Kite({
 })
 map.nodes[73035292] = Kite({
     quest = 72097,
-    rewards = {Achievement({id = 16584, criteria = 55845})}
+    rewards = {Achievement({id = 16584, criteria = 55842})}
 })
 map.nodes[56735799] = Kite({
     quest = 72098,
