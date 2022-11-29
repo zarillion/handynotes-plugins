@@ -127,4 +127,4 @@ L['onyx_gem_cluster_note'] = '龙鳞探险队声望到达21级，从 {npc:189065
 
 L['fullsails_supply_chest'] = '满帆补给箱'
 L['hidden_hornswog_hoard'] = '隐藏的龙蛙存货'
-L['hidden_hornswog_hoard_note'] = '收集 {item:200064}、{item:200065}、{item:200066}，在宝藏附近的“细心的谜语：现场指南”将它们组合起来，然后喂青蛙。'
+L['hidden_hornswog_hoard_note'] = '收集 {item:200064}、{item:200065}、{item:200066}，在宝藏附近的“观察谜题：实地指南”将它们组合起来，然后喂青蛙。'
