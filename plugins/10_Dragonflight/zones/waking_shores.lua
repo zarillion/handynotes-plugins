@@ -206,9 +206,9 @@ map.nodes[81485082] = Rare({ -- required 67030
     }
 }) -- O'nank Shorescour
 
-map.nodes[64926956] = Rare({ -- review
+map.nodes[64926956] = Rare({
     id = 192362,
-    quest = nil,
+    quest = 70864,
     rewards = {Achievement({id = 16676, criteria = 56051})}
 }) -- Possessive Hornswog
 
