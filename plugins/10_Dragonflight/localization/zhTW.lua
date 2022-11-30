@@ -6,7 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['gem_cluster_note'] = nil
+L['gem_cluster_note'] = '需要的物品可以在龍鱗遠征隊名望21後, 在遠征隊斥侯包和挖過的土找到'
 
 L['options_icons_bonus_boss'] = '獎勵精英'
 L['options_icons_bonus_boss_desc'] = '顯示獎勵精英位置.'
@@ -61,7 +61,7 @@ L['bag_of_enchanted_wind'] = '一袋祕法之風'
 L['bag_of_enchanted_wind_note'] = '位於塔頂內.'
 L['hessethiash_treasure'] = '赫瑟西亞許的不隱密寶箱'
 L['lost_draconic_hourglass'] = '失落的龍沙漏'
-L['suspicious_bottle_treasure'] = nil
+L['suspicious_bottle_treasure'] = '可疑的瓶子'
 L['mysterious_wand'] = '神秘魔杖'
 L['mysterious_wand_note'] = '撿起 |cFFFFFD00水晶鑰匙|r 並把它放進 |cFFFFFD00水晶法器|r內.'
 
@@ -71,34 +71,34 @@ L['mysterious_wand_note'] = '撿起 |cFFFFFD00水晶鑰匙|r 並把它放進 |cF
 
 L['shade_of_grief_note'] = '點選 {npc:193166} 來召喚稀有.'
 
-L['gold_swong_coin_note'] = nil
+L['gold_swong_coin_note'] = '和 {npc:191608} 一起在山洞內, 且在她的右側'
 L['nokhud_warspear_note'] = '{item:194540} 可以在遠征隊斥侯包和挖過的土中找到.'
 L['slightly_chewed_duck_egg_note'] = '找到並撫摸 {npc:192997} 來取得 {item:195453} 後再使用它. {item:199171} 將在3天後孵化成 {item:199172}.'
 L['yennus_boat'] = '巨牙海民玩具船'
 L['yennus_boat_note'] = '拾取巨牙海民玩具船來取得 {item:200876}, 其可以開始任務 {quest:72063}, 可以向 {npc:195252} 回報.'
 
-L['lizi_note'] = '完成從 {quest:65901} 開始的 Initiate\'s Day Out 故事線. 每天完成任務來修補莉茲並取得你的坐騎.\n\n除了任務需要的物品外, 所有任務都需要150個 {currency:2003}, 總共需要750個 {currency:2003}.'
+L['lizi_note'] = '完成從 {quest:65901} 開始的 學徒的休假日 故事線. 每天完成任務來修補莉茲並取得你的坐騎.\n\n除了任務需要的物品外, 所有任務都需要150個 {currency:2003}, 總共需要750個 {currency:2003}.'
 L['lizi_note_day1'] = '從 |cFFFFFD00巨龍群島|r 的昆蟲怪物收集20個 {item:192615}'
 L['lizi_note_day2'] = '從 |cFFFFFD00巨龍群島|r 的植物怪物收集10個 {item:192658}'
 L['lizi_note_day3'] = '從 |cFFFFFD00巨龍群島|r 的任意水域釣到10個 {item:194966}. 常見於 |cFFFFFD00雍亞拉平原|r 的內陸'
 L['lizi_note_day4'] = '從 |cFFFFFD00雍亞拉平原|r 的猛瑪象收集20個 {item:192636}'
 L['lizi_note_day5'] = '從 |cFFFFFD00雍伊爾溫泉|r 南邊帳篷內的 {npc:190015} 購買1個 {item:200598}'
 
-L['ohnahra_note_start'] = nil
-L['ohnahra_note_item1'] = nil
-L['ohnahra_note_item2'] = nil
-L['ohnahra_note_item3'] = nil
-L['ohnahra_note_end'] = nil
+L['ohnahra_note_start'] = '完成從 {quest:65901} 開始的 學徒的休假日 故事線後 {npc:190022} 會出現在 |cFFFFFD00雍伊爾溫泉|r 的風之賢者的帳篷之下.\n\n收集以下的材料:'
+L['ohnahra_note_item1'] = '從|cFFFFFD00諾庫德進攻據點|r地城 (英雄難度)的最後首領 {npc:186151} 收集3個 {item:201929}, 不是100%掉落.'
+L['ohnahra_note_item2'] = '從 {npc:196707} 使用50個 {currency:2003} 和1個 {item:194562} 來購買1個 {item:201323} .\n{item:194562} 可以從 |cFFFFFD00薩爪祖斯|r 的時軼怪物系列的掉落物拾取.'
+L['ohnahra_note_item3'] = '從拍賣場購買1個 {item:191507}. (煉金師名望22後可以從 {npc:196707} 購買 {item:191588}'
+L['ohnahra_note_end'] = '當你取得所有材料後, 回到 {npc:190022} 並接受任務 {quest:72512}. 到 {npc:194796} 處來回報任務並取得你的坐騎.'
 
-L['bakar_note'] = nil
-L['bakar_ellam_note'] = nil
-L['bakar_hugo_note'] = nil
+L['bakar_note'] = '撫摸那隻狗!'
+L['bakar_ellam_note'] = '如果足夠的人撫摸了這隻狗, 她會帶你去她的寶藏'
+L['bakar_hugo_note'] = '和Aylaag Camp一起旅行'
 L['options_icons_bakar'] = '{achievement:16424}'
-L['options_icons_bakar_desc'] = nil
+L['options_icons_bakar_desc'] = '顯示成就 {achievement:16424} 所需的所有巴卡犬的位置'
 
-L['dreamguard_note'] = nil
+L['dreamguard_note'] = '點選夢境守衛並且使用表情符號 ' .. ns.color.Orange('/sleep')
 L['options_icons_dreamguards'] = '{achievement:16574}'
-L['options_icons_dreamguards_desc'] = nil
+L['options_icons_dreamguards_desc'] = '顯示 {achievement:16574} 成就所需的夢境守衛位置'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -127,4 +127,4 @@ L['onyx_gem_cluster_note'] = '當龍鱗遠征隊的名望到達21時, 從 {npc:1
 
 L['fullsails_supply_chest'] = '滿帆補給箱'
 L['hidden_hornswog_hoard'] = '隱藏的角蛙寶箱'
-L['hidden_hornswog_hoard_note'] = '收集 {item:200064}, {item:200065} 和 {item:200066}, 在寶藏附近的 "觀察謎題: A Field Guide" 組合成 {item:200063} 並且餵給 {npc:192362}.'
+L['hidden_hornswog_hoard_note'] = '收集 {item:200064}, {item:200065} 和 {item:200066}, 在寶藏附近的 "觀察謎題: 田野指南" 組合成 {item:200063} 並且餵給 {npc:192362}.'
