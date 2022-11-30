@@ -90,8 +90,8 @@ L['ohnahra_note_item2'] = '50个 {currency:2003} 和1个 {item:194562} 从 {npc:
 L['ohnahra_note_item3'] = '从拍卖行购买1个 {item:191507}。（炼金师可以从 {npc:196707} 购买 {item:191588}，需要声望22）'
 L['ohnahra_note_end'] = '获得所有材料后，返回 {npc:190022} 并接受 {quest:72512}。前往 {npc:194796} 交任务并领取你的坐骑。'
 
-L['bakar_note'] = '抚摸狗！'
-L['bakar_ellam_note'] = '如果有足够多的玩家抚摸这只狗，她会带你去寻找她的宝藏。'
+L['bakar_note'] = '抚摸獒犬！'
+L['bakar_ellam_note'] = '如果有足够多的玩家抚摸这只獒犬，她会带你去寻找她的宝藏。'
 L['bakar_hugo_note'] = '旅行到艾拉格营地。'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = '显示 {achievement:16424} 成就中全部獒犬的位置。'
