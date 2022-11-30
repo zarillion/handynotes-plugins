@@ -92,7 +92,7 @@ L['ohnahra_note_end'] = '获得所有材料后，返回 {npc:190022} 并接受 {
 
 L['bakar_note'] = '抚摸獒犬！'
 L['bakar_ellam_note'] = '如果有足够多的玩家抚摸这只獒犬，她会带你去寻找她的宝藏。'
-L['bakar_hugo_note'] = '旅行到艾拉格营地。'
+L['bakar_hugo_note'] = '跟随艾拉格营地旅行。'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = '显示 {achievement:16424} 成就中全部獒犬的位置。'
 
