@@ -86,6 +86,7 @@ L['follower_type_companion'] = 'Compagnon'
 
 L['context_menu_set_waypoint'] = 'Définir les points de passage' -- Need review
 L['context_menu_add_tomtom'] = 'Ajouter à TomTom'
+L['context_menu_add_group_tomtom'] = nil
 L['context_menu_hide_node'] = 'Cacher ce nœud'
 L['context_menu_restore_hidden_nodes'] = 'Restaurer tous les nœuds cachés'
 

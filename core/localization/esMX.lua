@@ -86,6 +86,7 @@ L['follower_type_companion'] = nil
 
 L['context_menu_set_waypoint'] = nil
 L['context_menu_add_tomtom'] = 'Agregar a TomTom'
+L['context_menu_add_group_tomtom'] = nil
 L['context_menu_hide_node'] = 'Ocultar este nodo'
 L['context_menu_restore_hidden_nodes'] = 'Restaurar todos los nodos ocultos'
 

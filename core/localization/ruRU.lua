@@ -86,6 +86,7 @@ L['follower_type_companion'] = 'Компаньон'
 
 L['context_menu_set_waypoint'] = 'Установить путевую точку на карте'
 L['context_menu_add_tomtom'] = 'Добавить в TomTom'
+L['context_menu_add_group_tomtom'] = nil
 L['context_menu_hide_node'] = 'Скрыть эту точку'
 L['context_menu_restore_hidden_nodes'] = 'Восстановить все скрытые точки'
 

@@ -52,14 +52,24 @@ local function InitializeDropdownMenu(level, mapID, coord)
                 text = L['context_menu_add_tomtom'],
                 notCheckable = 1,
                 func = function(button)
-                    local x, y = HandyNotes:getXY(coord)
-                    TomTom:AddWaypoint(mapID, x, y, {
-                        title = ns.RenderLinks(node.label, true),
-                        from = ns.plugin_name,
-                        persistent = nil,
-                        minimap = true,
-                        world = true
+                    ns.tomtom.AddSingleWaypoint({
+                        node = node,
+                        mapID = mapID,
+                        coord = coord
                     })
+                    TomTom:SetClosestWaypoint(true)
+                end
+            }, level)
+            UIDropDownMenu_AddButton({
+                text = L['context_menu_add_group_tomtom'],
+                notCheckable = 1,
+                func = function(button)
+                    ns.tomtom.AddGroupWaypoints({
+                        node = node,
+                        mapID = mapID,
+                        coord = coord
+                    })
+                    TomTom:SetClosestWaypoint(true)
                 end
             }, level)
         end

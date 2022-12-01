@@ -86,6 +86,7 @@ L['follower_type_companion'] = nil
 
 L['context_menu_set_waypoint'] = '지도 비행경로 설정'
 L['context_menu_add_tomtom'] = 'TomTom에 추가'
+L['context_menu_add_group_tomtom'] = nil
 L['context_menu_hide_node'] = '이 지점 숨김'
 L['context_menu_restore_hidden_nodes'] = '모든 숨긴 지점 복구'
 
