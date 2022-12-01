@@ -30,6 +30,8 @@ ns.groups.BONUS_BOSS = Group('bonus_boss', 'peg_rd',
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570,
     {defaults = ns.GROUP_HIDDEN})
+ns.groups.DRAGONRACE =
+    Group('dragonrace', 1100022, {defaults = ns.GROUP_HIDDEN})
 ns.groups.DRAGON_GLYPH = Group('dragon_glyph', 4728198)
 ns.groups.DREAMGUARDS = ns.Group('dreamguards', 341763,
     {defaults = ns.GROUP_HIDDEN})
@@ -156,3 +158,31 @@ local Scoutpack = Class('Scoutpack', Node, {
 })
 
 ns.node.Scoutpack = Scoutpack
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+local Dragonrace = Class('DragonRace', Collectible, {
+    icon = 1100022,
+    label = L['dragonrace'],
+    group = ns.groups.DRAGONRACE
+})
+
+-- Time Records are stored in a Hidden Currency (https://www.wowhead.com/currencies/dragon-racing-ui-hidden)
+function Dragonrace.getters:sublabel()
+    local time = C_CurrencyInfo.GetCurrencyInfo(self.race_id).quantity -- race_id is the Currency ID
+    return L['dr_best'] .. format('%d.%03ds', time / 1000, time % 1000)
+end
+
+function Dragonrace.getters:note()
+    local g = ns.color.Gold
+    local s = ns.color.Silver
+    return L['dr_normal'] ..
+               format(g('%ds') .. ' / ' .. s('%ds'), self.gold_time[1],
+            self.silver_time[1]) .. '\n' .. L['dr_advanced'] ..
+               format(g('%ds') .. ' / ' .. s('%ds'), self.gold_time[2],
+            self.silver_time[2])
+end
+
+ns.node.Dragonrace = Dragonrace

@@ -31,6 +31,10 @@ L['scout_pack'] = 'Expeditionsspäherpack'
 L['options_icons_scout_pack'] = 'Expeditionsspäherpacks'
 L['options_icons_scout_pack_desc'] = 'Zeigt die Position für Expeditionsspäherpacks an.'
 
+L['dr_best'] = 'Deine beste Zeit: '
+L['dr_normal'] = 'Normal: '
+L['dr_advanced'] = 'Fortgeschritten: '
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

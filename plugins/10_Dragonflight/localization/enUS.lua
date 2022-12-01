@@ -31,6 +31,10 @@ L['scout_pack'] = 'Expedition Scout\'s Pack'
 L['options_icons_scout_pack'] = 'Expedition Scout\'s Packs'
 L['options_icons_scout_pack_desc'] = 'Display the location of Expedition Scout\'s Packs.'
 
+L['dr_best'] = 'Your best time: '
+L['dr_normal'] = 'Normal: '
+L['dr_advanced'] = 'Advanced: '
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

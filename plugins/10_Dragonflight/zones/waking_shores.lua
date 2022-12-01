@@ -314,6 +314,75 @@ map.nodes[30025534] = Rare({
     }
 }) -- Worldcarver A'tir
 
+map.nodes[81143793] = Rare({
+    id = 184853,
+    quest = 72843,
+    rewards = {
+        Transmog({item = 200195, slot = L['plate']}), Toy({item = 200249}), -- according to https://www.wowhead.com/beta/npc=184853/primal-scythid-queen#comments:id=5479899:reply=1573145
+        Item({item = 196976, quest = 69176}), -- according to https://www.wowhead.com/beta/npc=184853/primal-scythid-queen#comments:id=5479899
+        Item({item = 200563, note = L['trinket']}),
+        Item({item = 200445, note = L['neck']})
+    }
+}) -- Primal Scythid Queen
+
+map.nodes[77272204] = Rare({
+    id = 187111,
+    quest = 72835,
+    rewards = {
+        Transmog({item = 200165, slot = L['shield']}),
+        Transmog({item = 200442, slot = L['leather']}), Toy({item = 200249}),
+        Item({item = 197403, quest = 69604}),
+        Item({item = 196992, quest = 69192})
+    }
+}) -- Ancient Hornswog
+
+map.nodes[64173291] = Rare({
+    id = 191611,
+
+    rewards = {
+        Transmog({item = 200757, slot = L['plate']}),
+        Item({item = 197005, quest = 69205}),
+        Item({item = 197019, quest = 69219})
+    }
+}) -- Dragonhunter Igordan
+
+map.nodes[54532138] = Rare({
+    id = 195915,
+    rewards = {
+        Transmog({item = 200133, slot = L['fist']}),
+        Item({item = 200217, note = L['trinket']}),
+        Item({item = 197135, quest = 69336}), Item({item = 200119})
+    }
+}) -- Firava the Rekindler
+
+map.nodes[60608285] = Rare({
+    id = 193171,
+    quest = {71240, 72850},
+    rewards = {
+        Transmog({item = 200208, slot = L['cloth']}), Toy({item = 200198}),
+        Item({item = 197383, quest = 69584}),
+        Item({item = 197602, quest = 69806}),
+        Item({item = 197606, quest = 69810})
+    }
+}) -- Terillod the Devout
+
+map.nodes[54738220] = Rare({
+    id = 187209,
+    quest = {72841, 66936},
+    rewards = {
+        Transmog({item = 200253, slot = L['dagger']}),
+        Transmog({item = 200254, slot = L['mail']}),
+        Transmog({item = 200244, slot = L['leather']}),
+        Transmog({item = 200439, slot = L['offhand']}),
+        Transmog({item = 200199, slot = L['mail']}),
+        Item({item = 197023, quest = 69223}),
+        Item({item = 196991, quest = 69191}),
+        Item({item = 197624, quest = 69828}),
+        Item({item = 197383, quest = 69584}),
+        Item({item = 197602, quest = 69806})
+    }
+}) -- Klozicc the Ascended
+
 -------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
@@ -650,3 +719,23 @@ map.nodes[26239233] = PetBattle({
         Achievement({id = 16511, criteria = 8, oneline = true}) -- Undead
     }
 }) -- Swog
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[62777400] = ns.node.Dragonrace({
+    label = '{quest:66710}',
+    race_id = 2046,
+    gold_time = {63, 61},
+    silver_time = {66, 64},
+    rewards = {
+        Achievement({id = 15917, criteria = 7}),
+        Achievement({id = 15929, criteria = 7}), ns.reward.Spacer(),
+        Achievement({id = 15916, criteria = 7}),
+        Achievement({id = 15928, criteria = 7}), ns.reward.Spacer(),
+        Achievement({id = 15915, criteria = 7}),
+        Achievement({id = 15927, criteria = 7})
+
+    }
+}) -- Flashfrost Flyover
