@@ -32,9 +32,9 @@ L['scout_pack'] = 'Paquetage d\'éclaireur de l\'expédition'
 L['options_icons_scout_pack'] = 'Paquetages d\'éclaireurs de l\'expédition'
 L['options_icons_scout_pack_desc'] = 'Affichez les emplacements des Paquetages d\'éclaireurs de l\'expédition.'
 
-L['dr_best'] = nil
-L['dr_normal'] = nil
-L['dr_advanced'] = nil
+L['dr_best'] = 'Votre meilleur temps : '
+L['dr_normal'] = 'Normal : '
+L['dr_advanced'] = 'Avancé : '
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
