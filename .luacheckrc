@@ -31,6 +31,7 @@ read_globals = {
     'C_Garrison',
     'C_Heirloom',
     'C_Item',
+    'C_MajorFactions',
     'C_Map',
     'C_MapExplorationInfo',
     'C_Minimap',

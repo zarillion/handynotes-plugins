@@ -1,3 +1,7 @@
+# v50
+
+* Fix tooltip rendering for Storm pre-patch events.
+
 # v49
 
 * Added Dragonflight pre-patch reward info.

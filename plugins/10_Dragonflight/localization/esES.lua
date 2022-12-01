@@ -7,6 +7,11 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la Expedición Dragontina en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
+
+L['options_icons_bonus_boss'] = 'Élites de Bonificación'
+L['options_icons_bonus_boss_desc'] = 'Muestra dónde están los élites de bonificación.'
+
 L['dragon_glyph'] = 'Glifos Dracónicos'
 L['options_icons_dragon_glyph'] = 'Glifos Dracónicos'
 L['options_icons_dragon_glyph_desc'] = 'Muestra dónde están los 48 Glifos Dracónicos.'
@@ -36,7 +41,10 @@ L['fisherman_tinnak_note'] = 'Recoge la |cFFFFFD00Caña de Pescar Rota|r, la |cF
 L['gnarls_note'] = 'Aparece simultáneamente con {npc:197344}, {npc:197353} y {npc:197356}.'
 L['high_shaman_rotknuckle_note'] = 'Aparece simultáneamente con {npc:197344}, {npc:197353} y {npc:197354}.'
 L['snarglebone_note'] = 'Aparece simultáneamente con {npc:197353}, {npc:197356} y {npc:197354}.'
+L['spellwrought_snowman_note'] = 'Consigue 10x {npc:193424} y llévaselas a {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Recoge un |cFFFFFD00Fragmento Cantarín|r para conseguir {spell:382076} y usar el |cFFFFFD00Enfoque Descargado|r para hacer aparecer al raro.'
+
+L['breezebiter_note'] = 'Vuela por el cielo. Para atraerlo, vuela cerca suyo.'
 
 L['forgotten_jewel_box_note'] = 'Despoja la {item:199065} de un Cofre del Clan en Retiro Crestagua (49.4 67.3) en las Llanuras de Ohn\'ahran y úsala.'
 L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
@@ -54,6 +62,7 @@ L['bag_of_enchanted_wind'] = 'Bolsa de Vientos Encantados'
 L['bag_of_enchanted_wind_note'] = 'Está en lo alto de la torre.'
 L['hessethiash_treasure'] = 'Tesoro Mal Escondido de Hessethiash'
 L['lost_draconic_hourglass'] = 'Reloj de Arena Dracónico Perdido'
+L['suspicious_bottle_treasure'] = 'Botella Sospechosa'
 L['mysterious_wand'] = 'Varita Misteriosa'
 L['mysterious_wand_note'] = 'Coge la |cFFFFFD00Llave de Cristal|r y ponla dentro del |cFFFFFD00Foco de Cristal|r.'
 
@@ -61,14 +70,6 @@ L['mysterious_wand_note'] = 'Coge la |cFFFFFD00Llave de Cristal|r y ponla dentro
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
--- {quest:65901} = Sneaking Out
--- {currency:2003} = Dragon Isle Supplies
--- {item:192615} = Flourescent Fluid
--- {item:192658} = High-Fiber Leaf
--- {item:194966} = Thousandbite Piranha
--- {item:192636} = Woolly Mountain Pelt
--- {item:200598} = Meluun's Green Curry
--- {npc:190015} = Ohn Meluun
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 
 L['gold_swong_coin_note'] = 'Dentro de la cueva con {npc:191608} a su lado derecho.'
@@ -96,9 +97,16 @@ L['bakar_hugo_note'] = 'Viaja con el Campamento Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Muestra dónde están todos los perros (bakar) para el logro {achievement:16424}.'
 
+L['dreamguard_note'] = 'Selecciona al Guardasueños y teclea' .. ns.color.Orange('/dormir.')
+L['options_icons_dreamguards'] = '{achievement:16574}'
+L['options_icons_dreamguards_desc'] = 'Muestra dónde están los Guardasueños para el logro {achievement:16574}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
+
+L['blightpaw_note'] = 'Habla con el {npc:193222} y acepta ayudarle.'
+L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
 
 L['acorn_harvester_note'] = 'Recoge una |cFFFFFD00Bellota|r del suelo cercano para conseguir {spell:388485} y entonces interactúa con {npc:196172}.'
 L['cracked_hourglass_note'] = 'La {item:199068} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
@@ -110,10 +118,13 @@ L['sandy_wooden_duck_note'] = 'Recoge el {item:199069} y úsalo.'
 
 L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja encima del {npc:192737} a esta torre.'
 L['shasith_note'] = 'Dentro del |cFFFFFD00Trono Obsidiana|r. \n\nTú y otros jugadores teneis que devolver un total de 20x {item:191264}. Para fabricar una llave necesitarás combinar 30x {item:191251} y 3x {item:193201}. Puedes conseguir estos objetos de los enemigos de la Ciudadela Obsidiana.'
+L['worldcarver_atir_note'] = 'Recoge 3x {item:191211} del {npc:187366} cercano y ponlos en los {npc:197395} para hacer aparecer al raro.'
 
 L['bubble_drifter_note'] = 'La {item:199061} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
-L['onyx_gem_cluster_note'] = 'Compra el {item:200738} a {npc:189065} por 3 {item:192863} y 500 {currency:2003} a Renombre 21 con la Expedición Dragontina y úsalo.'
-L['replica_dragon_goblet_note'] = 'Compra las {item:198854} a {npc:193915} en la |cFFFFFD00Embajada Reposo Alado|r y úsalas.'
+L['dead_mans_chestplate_note'] = 'Dentro de la torre. En el piso central.'
+L['golden_dragon_goblet_note'] = 'Despoja la {item:202081} del {npc:190056} en la |cFFFFFD00Costa Indómita|r y completa la pequeña cadena de misiones.'
+L['misty_treasure_chest_note'] = 'Ponte en {npc:185485} que sobresale de la cascada para entrar en la cueva.'
+L['onyx_gem_cluster_note'] = 'A Renombre 21 con la Expedición Dragontina se puede completar la misión {quest:70833} para conseguir el {item:200738} como recompensa (una vez por cuenta) o comprar el mapa a {npc:189065} por 3 {item:192863} y 500 {currency:2003} y usarlo.'
 
 L['fullsails_supply_chest'] = 'Cofre de Suministros Todavela'
 L['hidden_hornswog_hoard'] = 'Botín Oculto de los Cornisapos'

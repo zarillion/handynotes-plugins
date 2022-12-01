@@ -137,7 +137,8 @@ local Quest = Class('Quest', Requirement)
 
 function Quest:Initialize(id) self.id = id end
 
-function Quest:GetText() return C_QuestLog.GetTitleForQuestID(self.id) end
+function Quest:GetText() return
+    C_QuestLog.GetTitleForQuestID(self.id) or UNKNOWN end
 
 function Quest:IsMet() return C_QuestLog.IsQuestFlaggedCompleted(self.id) end
 
@@ -161,8 +162,9 @@ function Reputation:GetText()
 end
 
 function Reputation:IsMet()
-    local _, _, standingID = GetFactionInfoByID(self.id)
-
+    local standingID = self.isRenown and
+                           C_MajorFactions.GetCurrentRenownLevel(self.id) or
+                           select(3, GetFactionInfoByID(self.id))
     return standingID >= self.level
 end
 

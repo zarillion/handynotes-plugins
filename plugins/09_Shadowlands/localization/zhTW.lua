@@ -17,7 +17,7 @@ L['squirrels_note'] = '你必須對小動物而不是戰寵使用表情 /love'
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = '顯示 {achievement:14731} 成就中小動物的位置'
 
-L['prepatch_vendor_note'] = nil
+L['prepatch_vendor_note'] = '使用來自 |cFFFF8C00洪荒元素|r 前夕事件取得的代幣 {item:199211} 來購買獎勵.'
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------

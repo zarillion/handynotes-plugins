@@ -1,3 +1,17 @@
+# v5
+
+* Added more missing rares, treasures and bonus bosses.
+* Added required quest for obtaining Dragonriding glyphs.
+* Fixed a lua error caused by invalid quest IDs.
+* Fixed an incorrect achievement criteria for a Symbols of Hope kite.
+
+# v4
+
+* Fixed a bug preventing the settings from opening with a maximized world map.
+* Added all pet battle achievements.
+* Added many more missing rares and treasures.
+* Added bonus boss encounters.
+
 # v3
 
 * Added additional rares and treasures to existing zones.

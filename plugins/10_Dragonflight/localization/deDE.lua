@@ -6,6 +6,11 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['gem_cluster_note'] = 'Der benötigte Gegenstand kann auf Ruhmstufe 21 bei der Drachenschuppenexpedition in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
+
+L['options_icons_bonus_boss'] = 'Bonus Elitegegner'
+L['options_icons_bonus_boss_desc'] = 'Zeigt die Positionen von Bonus Elitegegnern.'
+
 L['dragon_glyph'] = 'Drachenglyphe'
 L['options_icons_dragon_glyph'] = 'Drachenglyphen'
 L['options_icons_dragon_glyph_desc'] = 'Zeigt die Position aller 48 Drachenglyphen an.'
@@ -39,7 +44,10 @@ L['fisherman_tinnak_note'] = 'Sammel |cFFFFFD00Broken Fishing Pole|r, |cFFFFFD00
 L['gnarls_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197353} und {npc:197356}'
 L['high_shaman_rotknuckle_note'] = 'Erscheint gleichzeitig mit {npc:197344}, {npc:197353} und {npc:197354}'
 L['snarglebone_note'] = 'Erscheint gleichzeitig mit {npc:197353}, {npc:197356} und {npc:197354}'
+L['spellwrought_snowman_note'] = 'Sammel 10x {npc:193424} und bringe diese zu {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Sammel ein |cFFFFFD00Singing Fragment|r un den Schwächungszauber {spell:382076} zu erhalten und benutze dann den |cFFFFFD00Ungeladenen Focus|r.'
+
+L['breezebiter_note'] = 'Fliegt durch die Luft, um ihn herunterzuziehen, fliege dicht an ihm vorbei.'
 
 L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Klankiste in Gratwasserzuflucht (49.4 67.3) in den Ebenen von Ohn\'ahra und benutze es.'
 L['gnoll_fiend_flail_note'] = '{item:199066} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
@@ -57,6 +65,7 @@ L['bag_of_enchanted_wind'] = 'Tasche mit verzaubertem Wind'
 L['bag_of_enchanted_wind_note'] = 'Befindet sich oben im Turm.'
 L['hessethiash_treasure'] = 'Hessethiashs erbärmlich versteckter Schatz'
 L['lost_draconic_hourglass'] = 'Verlorenes drakonisches Stundenglas'
+L['suspicious_bottle_treasure'] = 'Verdächtige Flasche'
 L['mysterious_wand'] = 'Geheimnisvoller Zauberstab'
 L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und platziere ihn im |cFFFFFD00Kristallfokus|r.'
 
@@ -67,7 +76,7 @@ L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und plat
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
 
 L['gold_swong_coin_note'] = 'In der Höhle mit {npc:191608} zu seiner rechten Seite.'
-L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks enthalten sein.'
+L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutz diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
 L['yennus_boat'] = 'Spielzeugboot der Tuskarr'
 L['yennus_boat_note'] = 'Plündere das |cFFFFFD00Spielzeugboot der Tuskarr|r, um {item:200876} zu erhalten, das die Quest {quest:72063} startet, die bei {npc:195252} abgegeben werden kann.'
@@ -91,9 +100,16 @@ L['bakar_hugo_note'] = 'Reist mit dem Lager der Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Zeigt die Position aller Bakar (Hunde) für den Erfolg {achievement:16424} an.'
 
+L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefehl ' .. ns.color.Orange('/schlafen') .. '.'
+L['options_icons_dreamguards'] = '{achievement:16574}'
+L['options_icons_dreamguards_desc'] = 'Zeigt die Position der Traumwächterinnen für den Erfolg {achievement:16574} an.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
+
+L['blightpaw_note'] = 'Sprich mit {npc:193222} in der Nähe und stimme zu, ihm zu helfen.'
+L['woofang_note'] = 'Streichel {npc:193156}, um den seltenen Gegner erscheinen zu lassen.'
 
 L['acorn_harvester_note'] = 'Sammel in der Nähe eine |cFFFFFD00Eichel|r vom Boden auf, um {spell:388485} zu erhalten und interagiere dann mit {npc:196172}.'
 L['cracked_hourglass_note'] = '{item:199068} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
@@ -105,10 +121,13 @@ L['sandy_wooden_duck_note'] = 'Sammel {item:199069} und benutze diese.'
 
 L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem {npc:192737} zu diesem Turm.'
 L['shasith_note'] = 'Innerhalb des |cFFFFFD00Obsidianthron|r. \n\nDu und andere Spieler müssen insgesamt 20x {item:191264} abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der Obsidianzitadelle geplündert werden.'
+L['worldcarver_atir_note'] = 'Sammel 3x {item:191211} von {npc:187366} in der Nähe und platziere diese beim {npc:197395}, um den seltenen Gegner erscheinen zu lassen.'
 
 L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
-L['onyx_gem_cluster_note'] = 'Kaufe {item:200738} von {npc:189065} für 3 {item:192863} und 500 {currency:2003} auf Ruhmstufe 21 bei der Drachenschuppenexpedition und benutze es.'
-L['replica_dragon_goblet_note'] = 'Kaufe {item:198854} von {npc:193915} in der |cFFFFFD00Botschaft von Schwingenrast|r und benutze es.'
+L['dead_mans_chestplate_note'] = 'Im Inneren des Turms auf der mittleren Etage.'
+L['golden_dragon_goblet_note'] = 'Plündere {item:202081} von {npc:190056} an der |cFFFFFD00Wilde Küste|r und schließe die kleine Questreihe ab.'
+L['misty_treasure_chest_note'] = 'Stelle dich auf den {npc:185485} der aus dem Wasserfall ragt, um in die Höhle zu gelangen.'
+L['onyx_gem_cluster_note'] = 'Auf Ruhmstufe 21 bei der Drachenschuppenexpedition kannst du die Quest {quest:70833} abschließen und als Belohnung die {item:200738} bekommen (einmal pro Account) oder kaufe die Karte von {npc:189065} für 3 {item:192863} und 500 {currency:2003} und benutze es.'
 
 L['fullsails_supply_chest'] = 'Vorratskiste der Vollsegel'
 L['hidden_hornswog_hoard'] = 'Versteckter Flunkerhort'

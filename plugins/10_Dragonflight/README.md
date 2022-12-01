@@ -44,34 +44,38 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### Dragon Isles
 
-Flags for the [Dragonscale Expedition: The Highest Peaks](https://www.wowhead.com/achievement=15890/dragonscale-expedition-the-highest-peaks) achievement.
+* Flags for the [Dragonscale Expedition: The Highest Peaks](https://www.wowhead.com/achievement=15890/dragonscale-expedition-the-highest-peaks) achievement.
 
 ### Waking Shores
 
-Dragon Glyphs for the [Waking Shores Glyph Hunter](https://www.wowhead.com/beta/achievement=16575/waking-shores-glyph-hunter) achievement.
-Kites for the [Symbols of Hope](https://www.wowhead.com/achievement=16584/symbols-of-hope) achievement.
+* Dragon Glyphs for the [Waking Shores Glyph Hunter](https://www.wowhead.com/beta/achievement=16575/waking-shores-glyph-hunter) achievement.
+* Kites for the [Symbols of Hope](https://www.wowhead.com/achievement=16584/symbols-of-hope) achievement.
 
 ### Ohnahran Plains
 
-Dragon Glyphs for the [Ohn'ahran Plains Glyph Hunter](https://www.wowhead.com/beta/achievement=16576/ohnahran-plains-glyph-hunter) achievement.
-Dogs for the [Who's a Good Bakar?](https://www.wowhead.com/achievement=16424/whos-a-good-bakar) achievement.
+* Dragon Glyphs for the [Ohn'ahran Plains Glyph Hunter](https://www.wowhead.com/beta/achievement=16576/ohnahran-plains-glyph-hunter) achievement.
+* Dogs for the [Who's a Good Bakar?](https://www.wowhead.com/achievement=16424/whos-a-good-bakar) achievement.
+* Dreamguards for the [Sleeping on the Job](https://www.wowhead.com/achievement=16574/sleeping-on-the-job) achievement.
 
 ### Azure Span
 
-Dragon Glyphs for the [Azure Span Glyph Hunter](https://www.wowhead.com/beta/achievement=16577/azure-span-glyph-hunter) achievement.
-Lay lines for the [Ley Line in the Span](https://www.wowhead.com/achievement=16638/ley-line-in-the-span) achievement.
+* Dragon Glyphs for the [Azure Span Glyph Hunter](https://www.wowhead.com/beta/achievement=16577/azure-span-glyph-hunter) achievement.
+* Lay lines for the [Ley Line in the Span](https://www.wowhead.com/achievement=16638/ley-line-in-the-span) achievement.
 
 ### Thaldraszus
 
-Dragon Glyphs for the [Thaldraszus Glyph Hunter](https://www.wowhead.com/beta/achievement=16578/thaldraszus-glyph-hunter) achievement.
+* Dragon Glyphs for the [Thaldraszus Glyph Hunter](https://www.wowhead.com/beta/achievement=16578/thaldraszus-glyph-hunter) achievement.
 
 ## Localization
 
 This addon has been translated to the following languages:
 
-* `deDE` - German (thanks Dathwada!)
+* `deDE` - German (thanks Dathwada EU-Eredar!)
 * `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
+* `frFR` - French (thanks Lightuky EU-Khaz Modan!)
+* `ruRU` - Russian (thanks ZamestoTV, Сстра (Ирина), Артем!)
 * `zhCN` - Chinese (Simplified) (thanks Adavak!)
+* `zhTW` - Chinese (Traditional) (thanks mcc1!)
 
 If you would like to translate the addon to another language, please open a [ticket](https://github.com/zarillion/handynotes-plugins/issues) or submit a [pull request](https://github.com/zarillion/handynotes-plugins/pulls) on GitHub.
 
