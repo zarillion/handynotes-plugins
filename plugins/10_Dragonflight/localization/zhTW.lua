@@ -32,8 +32,9 @@ L['options_icons_scout_pack'] = '遠征隊斥侯包'
 L['options_icons_scout_pack_desc'] = '顯示遠征隊斥侯包的位置'
 
 L['dr_best'] = nil
-L['dr_normal'] = nil
-L['dr_advanced'] = nil
+L['dr_note'] = nil
+L['options_icons_dragonrace'] = nil
+L['options_icons_dragonrace_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------

@@ -33,8 +33,9 @@ L['options_icons_scout_pack'] = 'Сумка разведчика экспеди�
 L['options_icons_scout_pack_desc'] = 'Отображение местоположения Сумок разведчиков экспедиции.'
 
 L['dr_best'] = nil
-L['dr_normal'] = nil
-L['dr_advanced'] = nil
+L['dr_note'] = nil
+L['options_icons_dragonrace'] = nil
+L['options_icons_dragonrace_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------

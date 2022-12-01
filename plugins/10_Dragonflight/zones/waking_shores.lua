@@ -709,15 +709,14 @@ map.nodes[26239233] = PetBattle({
 map.nodes[62777400] = ns.node.Dragonrace({
     label = '{quest:66710}',
     race_id = 2046,
-    gold_time = {63, 61},
-    silver_time = {66, 64},
+    ntimes = {0, 66, 63},
+    atimes = {0, 64, 61},
     rewards = {
-        Achievement({id = 15917, criteria = 7}),
-        Achievement({id = 15929, criteria = 7}), ns.reward.Spacer(),
-        Achievement({id = 15916, criteria = 7}),
-        Achievement({id = 15928, criteria = 7}), ns.reward.Spacer(),
-        Achievement({id = 15915, criteria = 7}),
-        Achievement({id = 15927, criteria = 7})
-
+        Achievement({id = 15915, criteria = 7, oneline = true}), -- normal bronze
+        Achievement({id = 15916, criteria = 7, oneline = true}), -- normal silver
+        Achievement({id = 15917, criteria = 7, oneline = true}), -- normal gold
+        Achievement({id = 15927, criteria = 7, oneline = true}), -- advanced bronze
+        Achievement({id = 15928, criteria = 7, oneline = true}), -- advanced silver
+        Achievement({id = 15929, criteria = 7, oneline = true}) -- advanced gold
     }
 }) -- Flashfrost Flyover
