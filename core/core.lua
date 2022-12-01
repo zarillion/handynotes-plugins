@@ -52,24 +52,16 @@ local function InitializeDropdownMenu(level, mapID, coord)
                 text = L['context_menu_add_tomtom'],
                 notCheckable = 1,
                 func = function(button)
-                    ns.tomtom.AddSingleWaypoint({
-                        node = node,
-                        mapID = mapID,
-                        coord = coord
-                    })
-                    TomTom:SetClosestWaypoint(true)
+                    ns.tomtom.AddSingleWaypoint(node, mapID, coord)
+                    TomTom:SetClosestWaypoint(false)
                 end
             }, level)
             UIDropDownMenu_AddButton({
                 text = L['context_menu_add_group_tomtom'],
                 notCheckable = 1,
                 func = function(button)
-                    ns.tomtom.AddGroupWaypoints({
-                        node = node,
-                        mapID = mapID,
-                        coord = coord
-                    })
-                    TomTom:SetClosestWaypoint(true)
+                    ns.tomtom.AddGroupWaypoints(node, mapID, coord)
+                    TomTom:SetClosestWaypoint(false)
                 end
             }, level)
         end
