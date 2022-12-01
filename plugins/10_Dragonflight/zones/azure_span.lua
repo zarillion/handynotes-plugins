@@ -537,7 +537,7 @@ map.nodes[31912703] = Flag({quest = 71215})
 map.nodes[37466620] = Flag({quest = 71216})
 map.nodes[46142498] = Flag({quest = 71218})
 map.nodes[63084867] = Flag({quest = 71220})
-map.nodes[71986162] = Flag({quest = 71221})
+map.nodes[74844324] = Flag({quest = 71221})
 map.nodes[77431837] = Flag({quest = 71217})
 
 -------------------------------------------------------------------------------
