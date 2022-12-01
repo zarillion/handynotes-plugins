@@ -79,10 +79,10 @@ map.nodes[55823132] = Rare({
 
 map.nodes[73032680] = Rare({
     id = 193116,
-    quest = nil,
+    quest = 73868,
     rewards = {
-        Achievement({id = 16678, criteria = 56106})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16678, criteria = 56106}),
+        Transmog({item = 200254, slot = L['mail']}) -- Totemic Cinch
     }
 }) -- Beogoka
 
@@ -340,7 +340,7 @@ map.nodes[10863229] = Rare({
 
 map.nodes[55033405] = Rare({
     id = 193238,
-    quest = nil, -- 69879 ?
+    quest = 74082, -- 69879 ?
     note = L['spellwrought_snowman_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56124}),
@@ -374,7 +374,7 @@ map.nodes[55033405] = Rare({
 
 map.nodes[70222532] = Rare({
     id = 193196,
-    quest = nil, -- 69861 ?
+    quest = 69861, -- 74087 ?
     note = L['trilvarus_loreweaver_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56114})

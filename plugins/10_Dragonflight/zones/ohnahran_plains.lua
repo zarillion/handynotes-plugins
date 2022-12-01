@@ -268,8 +268,8 @@ map.nodes[53627281] = Rare({ -- reqiured 67030 review
     id = 193123,
     quest = 69667,
     rewards = {
-        Achievement({id = 16677, criteria = 56072})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16677, criteria = 56072}),
+        Transmog({item = 200216, slot = L['cloth']}) -- Water Heating Cord
     }
 }) -- Steamgill
 
@@ -370,6 +370,7 @@ map.nodes[26366533] = BonusBoss({
     quest = 72845,
     note = L['in_small_cave'],
     rewards = {
+        Transmog({item = 200137, slot = L['dagger']}), -- Chitin Dreadbringer
         Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
     }
 }) -- Ripsaw the Stalker
@@ -385,7 +386,7 @@ map.nodes[44894924] = BonusBoss({
 
 map.nodes[63034854] = BonusBoss({
     id = 193133,
-    quest = 72849,
+    quest = 72849, -- 69837
     note = L['in_waterfall_cave'],
     rewards = {
         Toy({item = 198409}) -- Personal Shell
@@ -394,9 +395,10 @@ map.nodes[63034854] = BonusBoss({
 
 map.nodes[22956670] = BonusBoss({
     id = 193163,
-    quest = 72851,
+    quest = 72851, -- 66378
     rewards = {
-        Transmog({item = 200212, slot = L['mail']}) -- Sand-Encrusted Greaves
+        Transmog({item = 200212, slot = L['mail']}), -- Sand-Encrusted Greaves
+        Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
     }
 }) -- Territorial Coastling
 
@@ -407,7 +409,7 @@ map.nodes[26073412] = BonusBoss({
     rewards = {
         Transmog({item = 198429, slot = L['staff']}) -- Typhoon Bringer
     },
-    pois = {POI({})}
+    pois = {POI({23573442})}
 }) -- Ty'foon the Ascended
 
 -------------------------------------------------------------------------------
@@ -749,7 +751,7 @@ map.nodes[33555322] = Dreamguard({
 ------------------------- LIZI, THUNDERSPINE TRAMPLER -------------------------
 -------------------------------------------------------------------------------
 
--- https://www.wowhead.com/news/lizi-thunderspine-trampler-nurse-a-thunderspine-to-health-for-a-mount-in-328734
+-- Daily completion: 71203
 
 local Lizi = Class('Lizi', Collectible, {
     id = 190014, -- Initiate Radiya

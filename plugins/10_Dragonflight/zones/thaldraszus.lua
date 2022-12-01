@@ -224,7 +224,8 @@ map.nodes[36757287] = BonusBoss({
     id = 193273,
     quest = 72842,
     rewards = {
-        Transmog({item = 200131, slot = L['dagger']}) -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
     }
 }) -- Liskron the Dazzling
 

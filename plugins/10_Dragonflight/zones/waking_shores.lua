@@ -322,7 +322,7 @@ map.nodes[64173289] = BonusBoss({
     id = 191611,
     quest = 72838, -- 66956
     rewards = {
-        Transmog({item = 200169, slot = L['mace']}) -- Protector's Molten Cudgel
+        Transmog({item = 200169, slot = L['1h_mace']}) -- Protector's Molten Cudgel
     }
 }) -- Dragonhunter Igordan
 
@@ -339,10 +339,11 @@ map.nodes[54728225] = BonusBoss({
 
 map.nodes[81133794] = BonusBoss({
     id = 184853,
-    quest = 72843,
+    quest = 72843, -- 66074
     note = L['in_small_cave'],
     rewards = {
-        Item({item = 200445, note = L['neck']}) -- Lucky Hunting Charm
+        Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
+        Transmog({item = 200195, slot = L['plate']}) -- Thunderscale Legguards
     }
 }) -- Primal Scythid Queen
 
