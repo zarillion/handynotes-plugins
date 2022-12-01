@@ -268,8 +268,8 @@ map.nodes[53627281] = Rare({ -- reqiured 67030 review
     id = 193123,
     quest = 69667,
     rewards = {
-        Achievement({id = 16677, criteria = 56072})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16677, criteria = 56072}),
+        Transmog({item = 200216, slot = L['cloth']}) -- Water Heating Cord
     }
 }) -- Steamgill
 
@@ -370,13 +370,23 @@ map.nodes[26366533] = BonusBoss({
     quest = 72845,
     note = L['in_small_cave'],
     rewards = {
+        Transmog({item = 200137, slot = L['dagger']}), -- Chitin Dreadbringer
         Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
     }
 }) -- Ripsaw the Stalker
 
+map.nodes[44894924] = BonusBoss({
+    id = 192949,
+    quest = 72847, -- 70783
+    note = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 200186, slot = L['mail']}) -- Amberquill Shroud
+    }
+}) -- Skaara
+
 map.nodes[63034854] = BonusBoss({
     id = 193133,
-    quest = 72849,
+    quest = 72849, -- 69837
     note = L['in_waterfall_cave'],
     rewards = {
         Toy({item = 198409}) -- Personal Shell
@@ -385,11 +395,22 @@ map.nodes[63034854] = BonusBoss({
 
 map.nodes[22956670] = BonusBoss({
     id = 193163,
-    quest = 72851,
+    quest = 72851, -- 66378
     rewards = {
-        Transmog({item = 200212, slot = L['mail']}) -- Sand-Encrusted Greaves
+        Transmog({item = 200212, slot = L['mail']}), -- Sand-Encrusted Greaves
+        Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
     }
 }) -- Territorial Coastling
+
+map.nodes[26073412] = BonusBoss({
+    id = 191354,
+    quest = 72852, -- 66970
+    note = L['in_cave'],
+    rewards = {
+        Transmog({item = 198429, slot = L['staff']}) -- Typhoon Bringer
+    },
+    pois = {POI({23573442})}
+}) -- Ty'foon the Ascended
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -542,7 +563,7 @@ map.nodes[83882587] = Bakar({
 map.nodes[70616361] = Bakar({
     note = L['bakar_note'] .. '\n\n' .. L['bakar_hugo_note'],
     rewards = {Achievement({id = 16424, criteria = 55327})},
-    pois = {POI({71103149})}
+    pois = {POI({71103149, 55635248})}
 }) -- Hugo
 
 map.nodes[64024123] = Bakar({
@@ -730,7 +751,7 @@ map.nodes[33555322] = Dreamguard({
 ------------------------- LIZI, THUNDERSPINE TRAMPLER -------------------------
 -------------------------------------------------------------------------------
 
--- https://www.wowhead.com/news/lizi-thunderspine-trampler-nurse-a-thunderspine-to-health-for-a-mount-in-328734
+-- Daily completion: 71203
 
 local Lizi = Class('Lizi', Collectible, {
     id = 190014, -- Initiate Radiya

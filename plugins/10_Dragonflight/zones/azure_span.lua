@@ -79,10 +79,10 @@ map.nodes[55823132] = Rare({
 
 map.nodes[73032680] = Rare({
     id = 193116,
-    quest = nil,
+    quest = 73868,
     rewards = {
-        Achievement({id = 16678, criteria = 56106})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16678, criteria = 56106}),
+        Transmog({item = 200254, slot = L['mail']}) -- Totemic Cinch
     }
 }) -- Beogoka
 
@@ -340,7 +340,7 @@ map.nodes[10863229] = Rare({
 
 map.nodes[55033405] = Rare({
     id = 193238,
-    quest = nil, -- 69879 ?
+    quest = 74082, -- 69879 ?
     note = L['spellwrought_snowman_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56124}),
@@ -374,7 +374,7 @@ map.nodes[55033405] = Rare({
 
 map.nodes[70222532] = Rare({
     id = 193196,
-    quest = nil, -- 69861 ?
+    quest = 69861, -- 74087 ?
     note = L['trilvarus_loreweaver_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56114})
@@ -421,6 +421,16 @@ map.nodes[23503317] = BonusBoss({
         Item({item = 197098, quest = 69299}) -- Highland Drake: Finned Back
     }
 }) -- Cascade
+
+map.nodes[38155901] = BonusBoss({
+    id = 193214,
+    quest = 72840, -- 69864
+    note = L['in_cave'],
+    rewards = {
+        Item({item = 200210, note = L['neck']}) -- Amnesia
+    },
+    pois = {POI({38625988})}
+}) -- Forgotten Creation
 
 map.nodes[70143327] = BonusBoss({
     id = 193288,
@@ -527,7 +537,7 @@ map.nodes[31912703] = Flag({quest = 71215})
 map.nodes[37466620] = Flag({quest = 71216})
 map.nodes[46142498] = Flag({quest = 71218})
 map.nodes[63084867] = Flag({quest = 71220})
-map.nodes[71986162] = Flag({quest = 71221})
+map.nodes[74844324] = Flag({quest = 71221})
 map.nodes[77431837] = Flag({quest = 71217})
 
 -------------------------------------------------------------------------------
@@ -554,6 +564,7 @@ local LayLine = Class('LayLine', Collectible, {
     id = 198260,
     icon = 1033908,
     note = L['in_small_cave'] .. '\n' .. L['leyline_note'],
+    rlabel = ns.status.LightBlue('+20 ' .. select(1, GetFactionInfoByID(2510))), -- Valdrakken Accord
     group = ns.groups.LAYLINE
 })
 

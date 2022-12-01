@@ -58,7 +58,8 @@ ns.node.BonusBoss = BonusBoss
 local Dragonglyph = Class('Dragonglyph', Collectible, {
     icon = 4728198,
     label = L['dragon_glyph'],
-    group = ns.groups.DRAGON_GLYPH
+    group = ns.groups.DRAGON_GLYPH,
+    requires = ns.requirement.Quest(68795) -- Dragonriding
 })
 
 ns.node.Dragonglyph = Dragonglyph
@@ -70,10 +71,10 @@ ns.node.Dragonglyph = Dragonglyph
 local Flag = Class('Flag', Collectible, {
     icon = 1723999,
     label = L['dragonscale_expedition_flag'], -- Dragonscale Expedition Flag
-    rlabel = ns.status.LightBlue('+300 ' .. select(1, GetFactionInfoByID(2507))), -- Dragonscale Expedition
+    rlabel = ns.status.LightBlue('+250 ' .. select(1, GetFactionInfoByID(2507))), -- Dragonscale Expedition
     group = ns.groups.FLAG,
     requires = {
-        ns.requirement.Reputation(2507, 7, true), -- Dragonscale Expedition
+        ns.requirement.Reputation(2507, 6, true), -- Dragonscale Expedition
         ns.requirement.GarrisonTalent(2164) -- Cartographer Flag
     },
     rewards = {
@@ -81,7 +82,10 @@ local Flag = Class('Flag', Collectible, {
             id = 15890,
             criteria = {id = 1, qty = true, suffix = L['flags_placed']}
         })
-    }
+    },
+    IsCompleted = function(self)
+        return C_QuestLog.IsQuestFlaggedCompleted(self.quest[1])
+    end
 })
 
 ns.node.Flag = Flag

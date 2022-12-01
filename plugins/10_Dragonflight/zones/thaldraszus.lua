@@ -212,11 +212,20 @@ map.nodes[47884976] = Rare({
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[55647727] = BonusBoss({
+    id = 193229,
+    quest = 72814, -- 69873
+    rewards = {
+        Item({item = 200880, note = L['trinket']}) -- Wind-Sealed Mana Capsule
+    }
+}) -- Henlare
+
 map.nodes[36757287] = BonusBoss({
     id = 193273,
     quest = 72842,
     rewards = {
-        Transmog({item = 200131, slot = L['dagger']}) -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
     }
 }) -- Liskron the Dazzling
 
@@ -318,7 +327,7 @@ map.nodes[34048484] = Flag({quest = 71222})
 map.nodes[46107397] = Flag({quest = 70024})
 map.nodes[50168163] = Flag({quest = 70039})
 map.nodes[65727498] = Flag({quest = 71223})
-map.nodes[66195378] = Flag({quest = 71224})
+map.nodes[64635672] = Flag({quest = 71224})
 
 -------------------------------------------------------------------------------
 ------------------------------- DISTURBED DIRT --------------------------------
