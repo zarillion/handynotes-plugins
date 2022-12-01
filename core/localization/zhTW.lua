@@ -86,6 +86,7 @@ L['follower_type_companion'] = '夥伴'
 
 L['context_menu_set_waypoint'] = '設定地圖路徑點'
 L['context_menu_add_tomtom'] = '加入到TomTom'
+L['context_menu_add_group_tomtom'] = nil
 L['context_menu_hide_node'] = '隱藏此節點'
 L['context_menu_restore_hidden_nodes'] = '恢復所有隱藏節點'
 
