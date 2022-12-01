@@ -47,7 +47,7 @@ L['breezebiter_note'] = '飞到天上把他拉下来，飞到他身边。'
 
 L['forgotten_jewel_box_note'] = '从欧恩哈拉平原的峦水居所拾取 {item:199065} 氏族宝箱（49.4 67.3）并使用它。'
 L['gnoll_fiend_flail_note'] = '{item:199066} 可以从探险队斥候的背包和翻动过的泥土堆中找到。'
-L['pepper_hammer_note'] = '收集 |cFFFFFD00树汁|r 后使用 |cFFFFFD00棍子|r 来引诱 {npc:195373}。\n\n|cFFFF0000（臭虫：点击棍子可能需要重新加载）|r'
+L['pepper_hammer_note'] = '收集 |cFFFFFD00树液|r 后使用 |cFFFFFD00棍子|r 来引诱 {npc:195373}。\n\n|cFFFF0000（臭虫：点击棍子可能需要重新加载）|r'
 
 L['leyline_note'] = '重新排列魔网。'
 L['options_icons_layline'] = '{achievement:16638}'
