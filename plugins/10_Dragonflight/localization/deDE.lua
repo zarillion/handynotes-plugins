@@ -32,8 +32,9 @@ L['options_icons_scout_pack'] = 'Expeditionsspäherpacks'
 L['options_icons_scout_pack_desc'] = 'Zeigt die Position für Expeditionsspäherpacks an.'
 
 L['dr_best'] = 'Deine beste Zeit: '
-L['dr_normal'] = 'Normal: '
-L['dr_advanced'] = 'Fortgeschritten: '
+L['dr_note'] = 'Normal: %s / %s / %s\nFortgeschritten: %s / %s / %s'
+L['options_icons_dragonrace'] = 'Drachenrennen'
+L['options_icons_dragonrace_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
