@@ -7,12 +7,10 @@ local _, ns = ...
 ----------------------------------- TOM TOM -----------------------------------
 -------------------------------------------------------------------------------
 
-ns.tomtom = {}
-
-function ns.tomtom:AddSingleWaypoint(attrs)
-    local x, y = HandyNotes:getXY(self.coord)
-    TomTom:AddWaypoint(self.mapID, x, y, {
-        title = ns.RenderLinks(self.node.label, true),
+local function AddSingleWaypoint(oldNode, mapID, oldCoord)
+    local x, y = HandyNotes:getXY(oldCoord)
+    TomTom:AddWaypoint(mapID, x, y, {
+        title = ns.RenderLinks(oldNode.label, true),
         from = ns.plugin_name,
         persistent = nil,
         minimap = true,
@@ -20,15 +18,16 @@ function ns.tomtom:AddSingleWaypoint(attrs)
     })
 end
 
-function ns.tomtom:AddGroupWaypoints(attrs)
-    local map = ns.maps[self.mapID]
-    for coord, node in pairs(map.nodes) do
-        if node.group == self.node.group then
-            ns.tomtom.AddSingleWaypoint({
-                node = node,
-                mapID = self.mapID,
-                coord = coord
-            })
+local function AddGroupWaypoints(oldNode, mapID, oldCoord)
+    local map = ns.maps[mapID]
+    for newCoord, newNode in pairs(map.nodes) do
+        if oldNode.group == newNode.group then
+            AddSingleWaypoint(newNode, mapID, newCoord)
         end
     end
 end
+
+ns.tomtom = {
+    AddSingleWaypoint = AddSingleWaypoint,
+    AddGroupWaypoints = AddGroupWaypoints
+}
