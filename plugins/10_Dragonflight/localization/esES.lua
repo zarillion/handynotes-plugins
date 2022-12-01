@@ -33,8 +33,9 @@ L['options_icons_scout_pack'] = 'Mochilas de explorador de expedición'
 L['options_icons_scout_pack_desc'] = 'Muestra dónde están las Mochilas de Explorador de Expedición.'
 
 L['dr_best'] = 'Tu mejor tiempo: '
-L['dr_normal'] = 'Normal: '
-L['dr_advanced'] = 'Avanzado: '
+L['dr_note'] = 'Normal: %s / %s / %s\nAvanzado: %s / %s / %s'
+L['options_icons_dragonrace'] = nil
+L['options_icons_dragonrace_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------

@@ -163,11 +163,8 @@ ns.node.Scoutpack = Scoutpack
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-local Dragonrace = Class('DragonRace', Collectible, {
-    icon = 1100022,
-    label = L['dragonrace'],
-    group = ns.groups.DRAGONRACE
-})
+local Dragonrace = Class('DragonRace', Collectible,
+    {icon = 1100022, group = ns.groups.DRAGONRACE})
 
 -- Time Records are stored in a Hidden Currency (https://www.wowhead.com/currencies/dragon-racing-ui-hidden)
 function Dragonrace.getters:sublabel()
@@ -176,13 +173,12 @@ function Dragonrace.getters:sublabel()
 end
 
 function Dragonrace.getters:note()
-    local g = ns.color.Gold
+    local b = ns.color.Bronze
     local s = ns.color.Silver
-    return L['dr_normal'] ..
-               format(g('%ds') .. ' / ' .. s('%ds'), self.gold_time[1],
-            self.silver_time[1]) .. '\n' .. L['dr_advanced'] ..
-               format(g('%ds') .. ' / ' .. s('%ds'), self.gold_time[2],
-            self.silver_time[2])
+    local g = ns.color.Gold
+    return format(L['dr_note'], b(self.ntimes[1]), s(self.ntimes[2]),
+        g(self.ntimes[3]), b(self.atimes[1]), s(self.atimes[2]),
+        g(self.atimes[3]))
 end
 
 ns.node.Dragonrace = Dragonrace
