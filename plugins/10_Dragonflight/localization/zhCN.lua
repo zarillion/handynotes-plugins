@@ -31,9 +31,9 @@ L['scout_pack'] = '探险队斥候的背包'
 L['options_icons_scout_pack'] = '探险队斥候的背包'
 L['options_icons_scout_pack_desc'] = '显示探险队斥候的背包的位置。'
 
-L['dr_best'] = nil
-L['dr_normal'] = nil
-L['dr_advanced'] = nil
+L['dr_best'] = '最快时间：'
+L['dr_normal'] = '普通：'
+L['dr_advanced'] = '进阶：'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
