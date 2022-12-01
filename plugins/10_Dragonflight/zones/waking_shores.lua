@@ -318,6 +318,18 @@ map.nodes[30025534] = Rare({
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[77302198] = BonusBoss({ -- review (no quest debug at the time)
+    id = 187111,
+    quest = nil,
+    note = L['in_small_cave'],
+    rewards = {
+        Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
+    },
+    pois = {
+        POI({77902281}) -- Entrance
+    }
+}) -- Ancient Hornswog
+
 map.nodes[64173289] = BonusBoss({
     id = 191611,
     quest = 72838, -- 66956
@@ -343,7 +355,12 @@ map.nodes[81133794] = BonusBoss({
     note = L['in_small_cave'],
     rewards = {
         Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
-        Transmog({item = 200195, slot = L['plate']}) -- Thunderscale Legguards
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Item({item = 196976, quest = 69176}), -- Cliffside Wylderdrake: Head Mane
+        Toy({item = 200249}) -- Mage's Chewed Wand
+    },
+    pois = {
+        POI({81713719}) -- Entrance
     }
 }) -- Primal Scythid Queen
 
