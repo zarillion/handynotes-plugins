@@ -34,8 +34,8 @@ L['options_icons_scout_pack_desc'] = 'Muestra dónde están las Mochilas de Expl
 
 L['dr_best'] = 'Tu mejor tiempo: '
 L['dr_note'] = 'Normal: %s / %s / %s\nAvanzado: %s / %s / %s'
-L['options_icons_dragonrace'] = nil
-L['options_icons_dragonrace_desc'] = nil
+L['options_icons_dragonrace'] = 'Carrera de Dragones'
+L['options_icons_dragonrace_desc'] = 'Muestra dónde están las Carreras de Dragones.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
