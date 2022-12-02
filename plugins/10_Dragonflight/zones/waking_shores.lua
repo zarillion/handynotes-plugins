@@ -217,7 +217,7 @@ map.nodes[81485082] = Rare({ -- required 67030
 map.nodes[64926956] = Rare({
     id = 192362,
     quest = 70864,
-    rewards = {Achievement({id = 16676, criteria = 56051})}
+    rewards = {Achievement({id = 16676, criteria = 57852})}
 }) -- Possessive Hornswog
 
 map.nodes[30226045] = Rare({ -- review
@@ -313,75 +313,6 @@ map.nodes[30025534] = Rare({
         Transmog({item = 200213, slot = L['plate']}) -- Lava-Splattered Breastplate
     }
 }) -- Worldcarver A'tir
-
-map.nodes[81143793] = Rare({
-    id = 184853,
-    quest = 72843,
-    rewards = {
-        Transmog({item = 200195, slot = L['plate']}), Toy({item = 200249}), -- according to https://www.wowhead.com/beta/npc=184853/primal-scythid-queen#comments:id=5479899:reply=1573145
-        Item({item = 196976, quest = 69176}), -- according to https://www.wowhead.com/beta/npc=184853/primal-scythid-queen#comments:id=5479899
-        Item({item = 200563, note = L['trinket']}),
-        Item({item = 200445, note = L['neck']})
-    }
-}) -- Primal Scythid Queen
-
-map.nodes[77272204] = Rare({
-    id = 187111,
-    quest = 72835,
-    rewards = {
-        Transmog({item = 200165, slot = L['shield']}),
-        Transmog({item = 200442, slot = L['leather']}), Toy({item = 200249}),
-        Item({item = 197403, quest = 69604}),
-        Item({item = 196992, quest = 69192})
-    }
-}) -- Ancient Hornswog
-
-map.nodes[64173291] = Rare({
-    id = 191611,
-
-    rewards = {
-        Transmog({item = 200757, slot = L['plate']}),
-        Item({item = 197005, quest = 69205}),
-        Item({item = 197019, quest = 69219})
-    }
-}) -- Dragonhunter Igordan
-
-map.nodes[54532138] = Rare({
-    id = 195915,
-    rewards = {
-        Transmog({item = 200133, slot = L['fist']}),
-        Item({item = 200217, note = L['trinket']}),
-        Item({item = 197135, quest = 69336}), Item({item = 200119})
-    }
-}) -- Firava the Rekindler
-
-map.nodes[60608285] = Rare({
-    id = 193171,
-    quest = {71240, 72850},
-    rewards = {
-        Transmog({item = 200208, slot = L['cloth']}), Toy({item = 200198}),
-        Item({item = 197383, quest = 69584}),
-        Item({item = 197602, quest = 69806}),
-        Item({item = 197606, quest = 69810})
-    }
-}) -- Terillod the Devout
-
-map.nodes[54738220] = Rare({
-    id = 187209,
-    quest = {72841, 66936},
-    rewards = {
-        Transmog({item = 200253, slot = L['dagger']}),
-        Transmog({item = 200254, slot = L['mail']}),
-        Transmog({item = 200244, slot = L['leather']}),
-        Transmog({item = 200439, slot = L['offhand']}),
-        Transmog({item = 200199, slot = L['mail']}),
-        Item({item = 197023, quest = 69223}),
-        Item({item = 196991, quest = 69191}),
-        Item({item = 197624, quest = 69828}),
-        Item({item = 197383, quest = 69584}),
-        Item({item = 197602, quest = 69806})
-    }
-}) -- Klozicc the Ascended
 
 -------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
@@ -724,11 +655,101 @@ map.nodes[26239233] = PetBattle({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[63317090] = ns.node.Dragonrace({
+    label = '{quest:66679}',
+    race_id = {2042,2044},
+    ntimes = {66, 64},
+    atimes = {63, 61},
+    rewards = {
+        Achievement({id = 15915, criteria = 1, oneline = true}), -- normal bronze
+        Achievement({id = 15916, criteria = 1, oneline = true}), -- normal silver
+        Achievement({id = 15917, criteria = 1, oneline = true}), -- normal gold
+        Achievement({id = 15927, criteria = 1, oneline = true}), -- advanced bronze
+        Achievement({id = 15928, criteria = 1, oneline = true}), -- advanced silver
+        Achievement({id = 15929, criteria = 1, oneline = true}) -- advanced gold
+    }
+}) -- Ruby Lifeshrine Loop
+
+map.nodes[47018558] = ns.node.Dragonrace({
+    label = '{quest:66721}',
+    race_id = {2048,2049},
+    ntimes = {45, 43},
+    atimes = {42, 40},
+    rewards = {
+        Achievement({id = 15915, criteria = 2, oneline = true}), -- normal bronze
+        Achievement({id = 15916, criteria = 2, oneline = true}), -- normal silver
+        Achievement({id = 15917, criteria = 2, oneline = true}), -- normal gold
+        Achievement({id = 15927, criteria = 2, oneline = true}), -- advanced bronze
+        Achievement({id = 15928, criteria = 2, oneline = true}), -- advanced silver
+        Achievement({id = 15929, criteria = 2, oneline = true}) -- advanced gold
+    }
+}) -- Wild Preserve Slalom
+
+map.nodes[41986729] = ns.node.Dragonrace({
+    label = '{quest:66727}',
+    race_id = {2052,2053},
+    ntimes = {53, 47},
+    atimes = {50, 44},
+    rewards = {
+        Achievement({id = 15915, criteria = 3, oneline = true}), -- normal bronze
+        Achievement({id = 15916, criteria = 3, oneline = true}), -- normal silver
+        Achievement({id = 15917, criteria = 3, oneline = true}), -- normal gold
+        Achievement({id = 15927, criteria = 3, oneline = true}), -- advanced bronze
+        Achievement({id = 15928, criteria = 3, oneline = true}), -- advanced silver
+        Achievement({id = 15929, criteria = 3, oneline = true}) -- advanced gold
+    }
+}) -- Emberflow Flight
+
+map.nodes[23268430] = ns.node.Dragonrace({
+    label = '{quest:66732}',
+    race_id = {2054,2055},
+    ntimes = {56, 48},
+    atimes = {53, 45},
+    rewards = {
+        Achievement({id = 15915, criteria = 4, oneline = true}), -- normal bronze
+        Achievement({id = 15916, criteria = 4, oneline = true}), -- normal silver
+        Achievement({id = 15917, criteria = 4, oneline = true}), -- normal gold
+        Achievement({id = 15927, criteria = 4, oneline = true}), -- advanced bronze
+        Achievement({id = 15928, criteria = 4, oneline = true}), -- advanced silver
+        Achievement({id = 15929, criteria = 4, oneline = true}) -- advanced gold
+    }
+}) -- Apex Canopy River Run
+
+map.nodes[55464113] = ns.node.Dragonrace({
+    label = '{quest:66777}',
+    race_id = {2056,2057},
+    ntimes = {48, 43},
+    atimes = {45, 40},
+    rewards = {
+        Achievement({id = 15915, criteria = 5, oneline = true}), -- normal bronze
+        Achievement({id = 15916, criteria = 5, oneline = true}), -- normal silver
+        Achievement({id = 15917, criteria = 5, oneline = true}), -- normal gold
+        Achievement({id = 15927, criteria = 5, oneline = true}), -- advanced bronze
+        Achievement({id = 15928, criteria = 5, oneline = true}), -- advanced silver
+        Achievement({id = 15929, criteria = 5, oneline = true}) -- advanced gold
+    }
+}) -- Uktulut Coaster
+
+map.nodes[73203393] = ns.node.Dragonrace({
+    label = '{quest:66786}',
+    race_id = {2058,2059},
+    ntimes = {56, 53},
+    atimes = {56, 53},
+    rewards = {
+        Achievement({id = 15915, criteria = 6, oneline = true}), -- normal bronze
+        Achievement({id = 15916, criteria = 6, oneline = true}), -- normal silver
+        Achievement({id = 15917, criteria = 6, oneline = true}), -- normal gold
+        Achievement({id = 15927, criteria = 6, oneline = true}), -- advanced bronze
+        Achievement({id = 15928, criteria = 6, oneline = true}), -- advanced silver
+        Achievement({id = 15929, criteria = 6, oneline = true}) -- advanced gold
+    }
+}) -- Wingrest Roundabout
+
 map.nodes[62777400] = ns.node.Dragonrace({
     label = '{quest:66710}',
-    race_id = 2046,
-    ntimes = {0, 66, 63},
-    atimes = {0, 64, 61},
+    race_id = {2046,2047},
+    ntimes = {66, 63},
+    atimes = {64, 61},
     rewards = {
         Achievement({id = 15915, criteria = 7, oneline = true}), -- normal bronze
         Achievement({id = 15916, criteria = 7, oneline = true}), -- normal silver
@@ -738,3 +759,18 @@ map.nodes[62777400] = ns.node.Dragonrace({
         Achievement({id = 15929, criteria = 7, oneline = true}) -- advanced gold
     }
 }) -- Flashfrost Flyover
+
+map.nodes[42599445] = ns.node.Dragonrace({
+    label = '{quest:66725}',
+    race_id = {2050,2051},
+    ntimes = {43, 41},
+    atimes = {40, 38},
+    rewards = {
+        Achievement({id = 15915, criteria = 8, oneline = true}), -- normal bronze
+        Achievement({id = 15916, criteria = 8, oneline = true}), -- normal silver
+        Achievement({id = 15917, criteria = 8, oneline = true}), -- normal gold
+        Achievement({id = 15927, criteria = 8, oneline = true}), -- advanced bronze
+        Achievement({id = 15928, criteria = 8, oneline = true}), -- advanced silver
+        Achievement({id = 15929, criteria = 8, oneline = true}) -- advanced gold
+    }
+}) -- Wild Preserve Circuit
