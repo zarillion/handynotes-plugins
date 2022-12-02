@@ -35,7 +35,7 @@ L['dr_best'] = 'Deine beste Zeit:\n - Normal: %.3fs\n - Fortgeschritten: %.3fs'
 L['dr_best_dash'] = 'Deine beste Zeit:\n - %.3fs'
 L['dr_note'] = 'Vorgabezeit:\n - Normal: %ss / %ss\n - Fortgeschritten: %ss / %ss'
 L['dr_note_dash'] = 'Vorgabezeit:\n - %ss / %ss'
-L['dr_bronze'] = '\n\nBeende das Rennen um '.. ns.color.Bronze('Bronze')..' zu erhalten.'
+L['dr_bronze'] = '\n\nBeende das Rennen um ' .. ns.color.Bronze('Bronze') .. ' zu erhalten.'
 L['options_icons_dragonrace'] = 'Drachenrennen'
 L['options_icons_dragonrace_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
 
