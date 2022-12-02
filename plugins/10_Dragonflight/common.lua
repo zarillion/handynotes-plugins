@@ -168,33 +168,38 @@ local Dragonrace = Class('DragonRace', Collectible,
 
 -- Time Records are stored in a Hidden Currency (https://www.wowhead.com/currencies/dragon-racing-ui-hidden)
 function Dragonrace.getters:sublabel()
-    local ntime = C_CurrencyInfo.GetCurrencyInfo(self.normal[1]).quantity
-    if self.advanced then
-        local atime = C_CurrencyInfo.GetCurrencyInfo(self.advanced[1]).quantity
-        return L['dr_best']:format(ntime / 1000, atime / 1000)
+    if self.normal then
+        local ntime = C_CurrencyInfo.GetCurrencyInfo(self.normal[1]).quantity
+        if self.advanced then
+            local atime = C_CurrencyInfo.GetCurrencyInfo(self.advanced[1])
+                              .quantity
+            return L['dr_best']:format(ntime / 1000, atime / 1000)
+        end
+        return L['dr_best_dash']:format(ntime / 1000)
     end
-    return L['dr_best_dash']:format(ntime / 1000)
 end
 
 function Dragonrace.getters:note()
-    local silver = ns.color.Silver
-    local gold = ns.color.Gold
+    if self.normal then
+        local silver = ns.color.Silver
+        local gold = ns.color.Gold
 
-    -- LuaFormatter off
-    if self.advanced then
-        return L['dr_note']:format(
+        -- LuaFormatter off
+        if self.advanced then
+            return L['dr_note']:format(
+                silver(self.normal[2]),
+                gold(self.normal[3]),
+                silver(self.advanced[2]),
+                gold(self.advanced[3])
+            ) .. L['dr_bronze']
+        end
+
+        return L['dr_note_dash']:format(
             silver(self.normal[2]),
-            gold(self.normal[3]),
-            silver(self.advanced[2]),
-            gold(self.advanced[3])
+            gold(self.normal[3])
         ) .. L['dr_bronze']
+        -- LuaFormatter on
     end
-
-    return L['dr_note_dash']:format(
-        silver(self.normal[2]),
-        gold(self.normal[3])
-    ) .. L['dr_bronze']
-    -- LuaFormatter on
 end
 
 ns.node.Dragonrace = Dragonrace

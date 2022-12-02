@@ -180,6 +180,8 @@ L['options_toggle_show_notes_desc'] = '在可用的工具提示中加入有用�
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L['options_dev_settings'] = '開發'
+L['options_toggle_show_debug_currency'] = nil
+L['options_toggle_show_debug_currency_desc'] = nil
 L['options_toggle_show_debug_map'] = '偵錯地圖ID'
 L['options_toggle_show_debug_map_desc'] = '顯示地圖的偵錯資訊'
 L['options_toggle_show_debug_quest'] = '偵錯任務ID'

@@ -180,6 +180,8 @@ L['options_toggle_show_notes_desc'] = 'Ajouter les notes utiles à l\'infobulle 
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L['options_dev_settings'] = 'Développement'
+L['options_toggle_show_debug_currency'] = nil
+L['options_toggle_show_debug_currency_desc'] = nil
 L['options_toggle_show_debug_map'] = 'Debug ID Carte' -- Need review
 L['options_toggle_show_debug_map_desc'] = 'Afficher les informations de déboguage pour les cartes'
 L['options_toggle_show_debug_quest'] = 'Debug ID Quête'

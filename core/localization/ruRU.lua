@@ -180,6 +180,8 @@ L['options_toggle_show_notes_desc'] = 'Добавьте полезные зам�
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L['options_dev_settings'] = 'Разработка'
+L['options_toggle_show_debug_currency'] = nil
+L['options_toggle_show_debug_currency_desc'] = nil
 L['options_toggle_show_debug_map'] = 'Отладка идентификаторов карты'
 L['options_toggle_show_debug_map_desc'] = 'Показать отладочную информацию для карт'
 L['options_toggle_show_debug_quest'] = 'Отлаживать'

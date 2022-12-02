@@ -57,13 +57,13 @@ local function BootstrapDevelopmentEnvironment()
         desc = L['options_toggle_force_nodes_desc'],
         order = 103
     }
-    -- ns.options.args.GeneralTab.args.show_debug_currency = {
-    --     type = 'toggle',
-    --     arg = 'show_debug_currency',
-    --     name = L['options_toggle_show_debug_currency'],
-    --     desc = L['options_toggle_show_debug_currency_desc'],
-    --     order = 104
-    -- }
+    ns.options.args.GeneralTab.args.show_debug_currency = {
+        type = 'toggle',
+        arg = 'show_debug_currency',
+        name = L['options_toggle_show_debug_currency'],
+        desc = L['options_toggle_show_debug_currency_desc'],
+        order = 104
+    }
 
     -- Print debug messages for each quest ID that is flipped
     local QTFrame = CreateFrame('Frame', ADDON_NAME .. 'QT')
@@ -138,13 +138,13 @@ local function BootstrapDevelopmentEnvironment()
                             end
                         end
                     end
-                    if #c_changed <= 10 then
-                        for i, args in ipairs(c_changed) do
-                            table.insert(c_history, 1, args)
-                            print('Currency', args[2], 'changed:', args[3],
-                                '=>', args[4])
-                        end
+
+                    for i, args in ipairs(c_changed) do
+                        table.insert(c_history, 1, args)
+                        print('Currency', args[2], 'changed:', args[3], '=>',
+                            args[4])
                     end
+
                     if #c_history > 100 then
                         for i = #c_history, 101, -1 do
                             c_history[i] = nil
