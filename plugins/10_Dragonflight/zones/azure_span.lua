@@ -612,6 +612,23 @@ map.nodes[78953094] = Scoutpack()
 map.nodes[79823175] = Scoutpack()
 
 -------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[48473578] = ns.node.Dragonrace({
+    label = '{quest:67565}',
+    normal = {2018, 79, 76},
+    rewards = {
+        Achievement({id = 15921, criteria = 5, oneline = false}), -- normal bronze
+        Achievement({id = 15922, criteria = 5, oneline = false}), -- normal silver
+        Achievement({id = 15923, criteria = 5, oneline = false}), -- normal gold
+        Achievement({id = 15933, criteria = 5, oneline = false}), -- advanced bronze
+        Achievement({id = 15934, criteria = 5, oneline = false}), -- advanced silver
+        Achievement({id = 15935, criteria = 5, oneline = false}) -- advanced gold
+    }
+}) -- Frostland Flyover
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
