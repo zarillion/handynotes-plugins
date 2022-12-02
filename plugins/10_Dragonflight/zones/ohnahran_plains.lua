@@ -478,6 +478,46 @@ map.nodes[51985839] = Treasure({
 }) -- Yennu's Boat
 
 -------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[24384234] = PetBattle({
+    id = 197447,
+    rewards = {
+        Achievement({id = 16464, criteria = 55486}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 7, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 7, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 7, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 7, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 7, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 7, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 7, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 7, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 7, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 7, oneline = true}) -- Undead
+    }
+}) -- Stormamu
+
+map.nodes[61964159] = PetBattle({
+    id = 197102,
+    rewards = {
+        Achievement({id = 16464, criteria = 55492}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 2, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 2, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 2, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 2, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 2, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 2, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 2, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 2, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 2, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 2, oneline = true}) -- Undead
+    }
+}) -- Bakhushek
+
+-------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
 -------------------------------------------------------------------------------
 
@@ -649,46 +689,8 @@ map.nodes[64028081] = Scoutpack()
 map.nodes[65021064] = Scoutpack()
 map.nodes[66798258] = Scoutpack()
 map.nodes[91393390] = Scoutpack()
-
--------------------------------------------------------------------------------
---------------------------------- BATTLE PETS ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[24384234] = PetBattle({
-    id = 197447,
-    rewards = {
-        Achievement({id = 16464, criteria = 55486}), -- Battle on the Dragon Isles
-        ns.reward.Spacer(),
-        Achievement({id = 16501, criteria = 7, oneline = true}), -- Aquatic
-        Achievement({id = 16503, criteria = 7, oneline = true}), -- Beast
-        Achievement({id = 16504, criteria = 7, oneline = true}), -- Critter
-        Achievement({id = 16505, criteria = 7, oneline = true}), -- Dragon
-        Achievement({id = 16506, criteria = 7, oneline = true}), -- Elemental
-        Achievement({id = 16507, criteria = 7, oneline = true}), -- Flying
-        Achievement({id = 16508, criteria = 7, oneline = true}), -- Humanoid
-        Achievement({id = 16509, criteria = 7, oneline = true}), -- Magic
-        Achievement({id = 16510, criteria = 7, oneline = true}), -- Mechanical
-        Achievement({id = 16511, criteria = 7, oneline = true}) -- Undead
-    }
-}) -- Stormamu
-
-map.nodes[61964159] = PetBattle({
-    id = 197102,
-    rewards = {
-        Achievement({id = 16464, criteria = 55492}), -- Battle on the Dragon Isles
-        ns.reward.Spacer(),
-        Achievement({id = 16501, criteria = 2, oneline = true}), -- Aquatic
-        Achievement({id = 16503, criteria = 2, oneline = true}), -- Beast
-        Achievement({id = 16504, criteria = 2, oneline = true}), -- Critter
-        Achievement({id = 16505, criteria = 2, oneline = true}), -- Dragon
-        Achievement({id = 16506, criteria = 2, oneline = true}), -- Elemental
-        Achievement({id = 16507, criteria = 2, oneline = true}), -- Flying
-        Achievement({id = 16508, criteria = 2, oneline = true}), -- Humanoid
-        Achievement({id = 16509, criteria = 2, oneline = true}), -- Magic
-        Achievement({id = 16510, criteria = 2, oneline = true}), -- Mechanical
-        Achievement({id = 16511, criteria = 2, oneline = true}) -- Undead
-    }
-}) -- Bakhushek
+map.nodes[43335647] = Scoutpack()
+map.nodes[23944019] = Scoutpack()
 
 -------------------------------------------------------------------------------
 ----------------------------- SLEEPING ON THE JOB -----------------------------
@@ -744,83 +746,6 @@ map.nodes[33555322] = Dreamguard({
         Achievement({id = 16574, criteria = 55776}) -- Sleeping on the Job
     }
 }) -- Dreamguard Felyasra
-
--------------------------------------------------------------------------------
-------------------------- LIZI, THUNDERSPINE TRAMPLER -------------------------
--------------------------------------------------------------------------------
-
--- https://www.wowhead.com/news/lizi-thunderspine-trampler-nurse-a-thunderspine-to-health-for-a-mount-in-328734
-
-local Lizi = Class('Lizi', Collectible, {
-    id = 190014, -- Initiate Radiya
-    icon = 4008180, -- Inv_thunderlizardprimal_brown
-    quest = {71196, 71197, 71198, 71199, 71195}, -- dailys
-    questCount = true,
-    requires = {
-        ns.requirement.Quest(66676), -- Sneaking In
-        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
-    },
-    rewards = {Mount({item = 192799, id = 1639})} -- Lizi's Reins
-})
-
-function Lizi.getters:note()
-    local function status(i)
-        if C_QuestLog.IsQuestFlaggedCompleted(self.quest[i]) then
-            return ns.status.Green(i)
-        else
-            return ns.status.Red(i)
-        end
-    end
-
-    local note = L['lizi_note']
-    note = note .. '\n\n' .. status(1) .. ' ' .. L['lizi_note_day1'] -- Fluorescent Fluid
-    note = note .. '\n\n' .. status(2) .. ' ' .. L['lizi_note_day2'] -- High-Fiber Leaf
-    note = note .. '\n\n' .. status(3) .. ' ' .. L['lizi_note_day3'] -- Thousandbine Piranha
-    note = note .. '\n\n' .. status(4) .. ' ' .. L['lizi_note_day4'] -- Woolly Mountain Pelt
-    note = note .. '\n\n' .. status(5) .. ' ' .. L['lizi_note_day5'] -- Meluun's Green Curry
-    return note
-end
-
-map.nodes[56207710] = Lizi()
-
--------------------------------------------------------------------------------
----------------------- OHN'AHRA, DIVINE KISS OF OHN'AHRA ----------------------
--------------------------------------------------------------------------------
-
--- https://www.wowhead.com/news/divine-kiss-of-ohnahra-ohuna-transformation-mount-in-dragonflight-329817
-
-local Ohnahra = Class('Ohnahra', Collectible, {
-    id = 194796, -- Ohn'ahra
-    icon = 4094306, -- Inv_eagle2windmount_white
-    requires = {
-        ns.requirement.Quest(66676), -- Sneaking In
-        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
-    },
-    rewards = {
-        Mount({item = 198821, id = 1545}) -- Divine Kiss of Ohn'ahra
-    },
-    pois = {
-        POI({56257595, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng
-    }
-}) -- Ohn'ahra
-
-function Ohnahra.getters:note()
-    local function status(id, count)
-        if ns.PlayerHasItem(id, count) then
-            return ns.status.Green(count .. 'x')
-        else
-            return ns.status.Red(count .. 'x')
-        end
-    end
-
-    local note = L['ohnahra_note_start']
-    note = note .. '\n\n' .. status(201929, 3) .. ' ' .. L['ohnahra_note_item1'] -- Stolen Breath of Ohn'ahra
-    note = note .. '\n\n' .. status(201323, 1) .. ' ' .. L['ohnahra_note_item2'] -- Essence of Awakening
-    note = note .. '\n\n' .. status(191507, 1) .. ' ' .. L['ohnahra_note_item3'] -- Exultant Incense
-    return note .. '\n\n' .. L['ohnahra_note_end']
-end
-
-map.nodes[57473193] = Ohnahra()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -922,3 +847,80 @@ map.nodes[43746678] = ns.node.Dragonrace({
         Achievement({id = 15932, criteria = 5, oneline = true}) -- advanced gold
     }
 }) -- River Rapids Route
+
+-------------------------------------------------------------------------------
+------------------------- LIZI, THUNDERSPINE TRAMPLER -------------------------
+-------------------------------------------------------------------------------
+
+-- https://www.wowhead.com/news/lizi-thunderspine-trampler-nurse-a-thunderspine-to-health-for-a-mount-in-328734
+
+local Lizi = Class('Lizi', Collectible, {
+    id = 190014, -- Initiate Radiya
+    icon = 4008180, -- Inv_thunderlizardprimal_brown
+    quest = {71196, 71197, 71198, 71199, 71195}, -- dailys
+    questCount = true,
+    requires = {
+        ns.requirement.Quest(66676), -- Sneaking In
+        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
+    },
+    rewards = {Mount({item = 192799, id = 1639})} -- Lizi's Reins
+})
+
+function Lizi.getters:note()
+    local function status(i)
+        if C_QuestLog.IsQuestFlaggedCompleted(self.quest[i]) then
+            return ns.status.Green(i)
+        else
+            return ns.status.Red(i)
+        end
+    end
+
+    local note = L['lizi_note']
+    note = note .. '\n\n' .. status(1) .. ' ' .. L['lizi_note_day1'] -- Fluorescent Fluid
+    note = note .. '\n\n' .. status(2) .. ' ' .. L['lizi_note_day2'] -- High-Fiber Leaf
+    note = note .. '\n\n' .. status(3) .. ' ' .. L['lizi_note_day3'] -- Thousandbine Piranha
+    note = note .. '\n\n' .. status(4) .. ' ' .. L['lizi_note_day4'] -- Woolly Mountain Pelt
+    note = note .. '\n\n' .. status(5) .. ' ' .. L['lizi_note_day5'] -- Meluun's Green Curry
+    return note
+end
+
+map.nodes[56207710] = Lizi()
+
+-------------------------------------------------------------------------------
+---------------------- OHN'AHRA, DIVINE KISS OF OHN'AHRA ----------------------
+-------------------------------------------------------------------------------
+
+-- https://www.wowhead.com/news/divine-kiss-of-ohnahra-ohuna-transformation-mount-in-dragonflight-329817
+
+local Ohnahra = Class('Ohnahra', Collectible, {
+    id = 194796, -- Ohn'ahra
+    icon = 4094306, -- Inv_eagle2windmount_white
+    requires = {
+        ns.requirement.Quest(66676), -- Sneaking In
+        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
+    },
+    rewards = {
+        Mount({item = 198821, id = 1545}) -- Divine Kiss of Ohn'ahra
+    },
+    pois = {
+        POI({56257595, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng
+    }
+}) -- Ohn'ahra
+
+function Ohnahra.getters:note()
+    local function status(id, count)
+        if ns.PlayerHasItem(id, count) then
+            return ns.status.Green(count .. 'x')
+        else
+            return ns.status.Red(count .. 'x')
+        end
+    end
+
+    local note = L['ohnahra_note_start']
+    note = note .. '\n\n' .. status(201929, 3) .. ' ' .. L['ohnahra_note_item1'] -- Stolen Breath of Ohn'ahra
+    note = note .. '\n\n' .. status(201323, 1) .. ' ' .. L['ohnahra_note_item2'] -- Essence of Awakening
+    note = note .. '\n\n' .. status(191507, 1) .. ' ' .. L['ohnahra_note_item3'] -- Exultant Incense
+    return note .. '\n\n' .. L['ohnahra_note_end']
+end
+
+map.nodes[57473193] = Ohnahra()

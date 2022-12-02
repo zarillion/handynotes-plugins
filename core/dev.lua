@@ -57,13 +57,13 @@ local function BootstrapDevelopmentEnvironment()
         desc = L['options_toggle_force_nodes_desc'],
         order = 103
     }
-    ns.options.args.GeneralTab.args.show_debug_currency = {
-        type = 'toggle',
-        arg = 'show_debug_currency',
-        name = L['options_toggle_show_debug_currency'],
-        desc = L['options_toggle_show_debug_currency_desc'],
-        order = 103
-    }
+    -- ns.options.args.GeneralTab.args.show_debug_currency = {
+    --     type = 'toggle',
+    --     arg = 'show_debug_currency',
+    --     name = L['options_toggle_show_debug_currency'],
+    --     desc = L['options_toggle_show_debug_currency_desc'],
+    --     order = 104
+    -- }
 
     -- Print debug messages for each quest ID that is flipped
     local QTFrame = CreateFrame('Frame', ADDON_NAME .. 'QT')
@@ -129,8 +129,7 @@ local function BootstrapDevelopmentEnvironment()
                     for id = 2002, 2200 do
                         local c = C_CurrencyInfo.GetCurrencyInfo(id) or false
                         if c then
-                            local s = C_CurrencyInfo.GetCurrencyInfo(id)
-                                          .quantity
+                            local s = c.quantity
                             if s ~= currency[id] then
                                 c_changed[#c_changed + 1] = {
                                     time(), id, currency[id], s
@@ -243,7 +242,7 @@ _G[ADDON_NAME .. 'CurrencyHistory'] = function(count)
     for i = 1, (count or 10) do
         if i > #c_history then break end
         local time, id, old, new, _
-        if c_history[i][1] == 'Quest' then
+        if c_history[i][1] == 'Currency' then
             _, id, _, old, _, new = unpack(c_history[i])
             time = 'MISSING'
         else

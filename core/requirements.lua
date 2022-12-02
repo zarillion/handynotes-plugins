@@ -19,8 +19,12 @@ Base class for all node requirements.
 --]]
 
 local Requirement = Class('Requirement', nil, {text = UNKNOWN})
-function Requirement:GetText() return self.text end
-function Requirement:IsMet() return false end
+function Requirement:GetText()
+    return self.text
+end
+function Requirement:IsMet()
+    return false
+end
 
 -------------------------------------------------------------------------------
 --------------------------------- ACHIEVEMENT ---------------------------------
@@ -61,7 +65,9 @@ end
 
 local GarrisonTalent = Class('GarrisonTalent', Requirement)
 
-function GarrisonTalent:Initialize(id, text) self.id, self.text = id, text end
+function GarrisonTalent:Initialize(id, text)
+    self.id, self.text = id, text
+end
 
 function GarrisonTalent:GetText()
     local info = C_Garrison.GetTalentInfo(self.id)
@@ -79,7 +85,9 @@ end
 
 local GarrisonTalentRank = Class('GarrisonTalentRank', Requirement)
 
-function GarrisonTalentRank:Initialize(id, rank) self.id, self.rank = id, rank end
+function GarrisonTalentRank:Initialize(id, rank)
+    self.id, self.rank = id, rank
+end
 
 function GarrisonTalentRank:GetText()
     local info = C_Garrison.GetTalentInfo(self.id)
@@ -105,7 +113,9 @@ function Item:Initialize(id, count)
     end
 end
 
-function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
+function Item:IsMet()
+    return ns.PlayerHasItem(self.id, self.count)
+end
 
 -------------------------------------------------------------------------------
 --------------------------------- PROFESSION ----------------------------------
@@ -113,21 +123,16 @@ function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
 
 local Profession = Class('Profession', Requirement)
 
-function Profession:Initialize(profession, skillID)
+function Profession:Initialize(profession)
     self.profession = profession
-    self.text = C_TradeSkillUI.GetTradeSkillDisplayName(skillID)
+    self.skillID = C_TradeSkillUI.GetProfessionSkillLineID(self.profession)
+    self.text = C_TradeSkillUI.GetTradeSkillDisplayName(self.skillID)
 end
 
 function Profession:IsMet()
-    local prof1, prof2, archaeology, fishing, cooking = GetProfessions()
-    local professions = {prof1, prof2, archaeology, fishing, cooking}
-    for i = 1, #professions do
-        if professions[i] ~= nil then
-            if self.profession == professions[i] then return true end
-        end
-    end
-    return false
+    return C_TradeSkillUI.GetProfessionInfoBySkillLineID(C_TradeSkillUI.GetProfessionSkillLineID(6)).maxSkillLevel > 0
 end
+
 
 -------------------------------------------------------------------------------
 ------------------------------------ QUEST ------------------------------------
@@ -135,12 +140,17 @@ end
 
 local Quest = Class('Quest', Requirement)
 
-function Quest:Initialize(id) self.id = id end
+function Quest:Initialize(id)
+    self.id = id
+end
 
-function Quest:GetText() return
-    C_QuestLog.GetTitleForQuestID(self.id) or UNKNOWN end
+function Quest:GetText()
+    return C_QuestLog.GetTitleForQuestID(self.id) or UNKNOWN
+end
 
-function Quest:IsMet() return C_QuestLog.IsQuestFlaggedCompleted(self.id) end
+function Quest:IsMet()
+    return C_QuestLog.IsQuestFlaggedCompleted(self.id)
+end
 
 -------------------------------------------------------------------------------
 --------------------------------- REPUTATION ----------------------------------
@@ -155,16 +165,13 @@ end
 
 function Reputation:GetText()
     local name = GetFactionInfoByID(self.id)
-    local level = self.isRenown and self.level or
-                      GetText('FACTION_STANDING_LABEL' .. self.level)
+    local level = self.isRenown and self.level or GetText('FACTION_STANDING_LABEL' .. self.level)
 
     return string.format(name .. ' (' .. level .. ')')
 end
 
 function Reputation:IsMet()
-    local standingID = self.isRenown and
-                           C_MajorFactions.GetCurrentRenownLevel(self.id) or
-                           select(3, GetFactionInfoByID(self.id))
+    local standingID = self.isRenown and C_MajorFactions.GetCurrentRenownLevel(self.id) or select(3, GetFactionInfoByID(self.id))
     return standingID >= self.level
 end
 
@@ -183,7 +190,9 @@ function Spell:IsMet()
     for i = 1, 255 do
         local buff = select(10, UnitAura('player', i, 'HELPFUL'))
         local debuff = select(10, UnitAura('player', i, 'HARMFUL'))
-        if buff == self.id or debuff == self.id then return true end
+        if buff == self.id or debuff == self.id then
+            return true
+        end
     end
     return false
 end
@@ -193,24 +202,11 @@ end
 -------------------------------------------------------------------------------
 
 local WarMode = Class('WarMode', Requirement, {
-    text = PVP_LABEL_WAR_MODE,
-    IsMet = function()
+    text = PVP_LABEL_WAR_MODE, IsMet = function()
         return C_PvP.IsWarModeActive() or C_PvP.IsWarModeDesired()
     end
 })()
 
 -------------------------------------------------------------------------------
 
-ns.requirement = {
-    Achievement = Achievement,
-    Currency = Currency,
-    GarrisonTalent = GarrisonTalent,
-    GarrisonTalentRank = GarrisonTalentRank,
-    Item = Item,
-    Profession = Profession,
-    Quest = Quest,
-    Reputation = Reputation,
-    Requirement = Requirement,
-    Spell = Spell,
-    WarMode = WarMode
-}
+ns.requirement = {Achievement = Achievement, Currency = Currency, GarrisonTalent = GarrisonTalent, GarrisonTalentRank = GarrisonTalentRank, Item = Item, Profession = Profession, Quest = Quest, Reputation = Reputation, Requirement = Requirement, Spell = Spell, WarMode = WarMode}
