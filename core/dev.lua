@@ -120,18 +120,20 @@ local function BootstrapDevelopmentEnvironment()
             -- Give some time for currency info to load in before we start
             for id = 1, 2200 do
                 local c = C_CurrencyInfo.GetCurrencyInfo(id) or false
-                if c then
-                    currency[id] = c.quantity
-                end
+                if c then currency[id] = c.quantity end
             end
             CurrencyFrame:SetScript('OnUpdate', function()
-                if GetTime() - lastCheck > 5 and ns:GetOpt('show_debug_currency') then
+                if GetTime() - lastCheck > 5 and
+                    ns:GetOpt('show_debug_currency') then
                     for id = 2002, 2200 do
                         local c = C_CurrencyInfo.GetCurrencyInfo(id) or false
                         if c then
-                            local s = C_CurrencyInfo.GetCurrencyInfo(id).quantity
+                            local s = C_CurrencyInfo.GetCurrencyInfo(id)
+                                          .quantity
                             if s ~= currency[id] then
-                                c_changed[#c_changed + 1] = {time(), id, currency[id], s}
+                                c_changed[#c_changed + 1] = {
+                                    time(), id, currency[id], s
+                                }
                                 currency[id] = s
                             end
                         end
@@ -139,8 +141,8 @@ local function BootstrapDevelopmentEnvironment()
                     if #c_changed <= 10 then
                         for i, args in ipairs(c_changed) do
                             table.insert(c_history, 1, args)
-                            print('Currency', args[2], 'changed:', args[3], '=>',
-                                args[4])
+                            print('Currency', args[2], 'changed:', args[3],
+                                '=>', args[4])
                         end
                     end
                     if #c_history > 100 then
