@@ -74,6 +74,7 @@ local function BootstrapDevelopmentEnvironment()
     local max_quest_id = 100000
 
     local CurrencyFrame = CreateFrame('Frame', ADDON_NAME .. 'C')
+    local c_lastCheck = GetTime()
     local c_history = ns.GetDatabaseTable('currency_id_history')
     local currency = {}
     local c_changed = {}
@@ -123,7 +124,7 @@ local function BootstrapDevelopmentEnvironment()
                 if c then currency[id] = c.quantity end
             end
             CurrencyFrame:SetScript('OnUpdate', function()
-                if GetTime() - lastCheck > 5 and
+                if GetTime() - c_lastCheck > 5 and
                     ns:GetOpt('show_debug_currency') then
                     for id = 2002, 2200 do
                         local c = C_CurrencyInfo.GetCurrencyInfo(id) or false
@@ -150,7 +151,7 @@ local function BootstrapDevelopmentEnvironment()
                             c_history[i] = nil
                         end
                     end
-                    lastCheck = GetTime()
+                    c_lastCheck = GetTime()
                     wipe(c_changed)
                 end
             end)
