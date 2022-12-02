@@ -31,8 +31,9 @@ L['scout_pack'] = 'Expeditionsspäherpack'
 L['options_icons_scout_pack'] = 'Expeditionsspäherpacks'
 L['options_icons_scout_pack_desc'] = 'Zeigt die Position für Expeditionsspäherpacks an.'
 
-L['dr_best'] = 'Deine beste Zeit: '
-L['dr_note'] = 'Normal: %s / %s / %s\nFortgeschritten: %s / %s / %s'
+L['dr_best'] = 'Deine beste Zeit:\n - Normal: %.3fs\n - Fortgeschritten: %.3fs'
+L['dr_note'] = 'Vorgabezeit:\n - Normal: %ss / %ss\n - Fortgeschritten: %ss / %ss'
+L['dr_bronze'] = '\n\nBeende das Rennen um '.. ns.color.Bronze('Bronze')..' zu erhalten.'
 L['options_icons_dragonrace'] = 'Drachenrennen'
 L['options_icons_dragonrace_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
 

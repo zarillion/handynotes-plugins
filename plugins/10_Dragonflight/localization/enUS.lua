@@ -31,8 +31,9 @@ L['scout_pack'] = 'Expedition Scout\'s Pack'
 L['options_icons_scout_pack'] = 'Expedition Scout\'s Packs'
 L['options_icons_scout_pack_desc'] = 'Display the location of Expedition Scout\'s Packs.'
 
-L['dr_best'] = 'Your best time: '
-L['dr_note'] = 'Normal: %s / %s / %s\nAdvanced: %s / %s / %s'
+L['dr_best'] = 'Your best time:\n - Normal: %.3fs\n - Advanced: %.3fs'
+L['dr_note'] = 'Target time:\n - Normal: %ss / %ss\n - Advanced: %ss / %ss'
+L['dr_bronze'] = '\n\nFinish the race to get bronze.'
 L['options_icons_dragonrace'] = 'Dragonrace'
 L['options_icons_dragonrace_desc'] = 'Display the location of dragonraces.'
 
