@@ -579,7 +579,7 @@ map.nodes[26533590] = LayLine({
 }) -- Ancient Outlook
 
 map.nodes[65885066] = LayLine({
-    requires = ns.requirement.Profession(5, 186), -- Mining
+    requires = ns.requirement.Profession(186), -- Mining
     quest = 72136,
     rewards = {Achievement({id = 16638, criteria = 55974})}
 }) -- Rustpine Den
