@@ -180,6 +180,8 @@ L['options_toggle_show_notes_desc'] = '가이드가 있으면 툴팁에 표시�
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L['options_dev_settings'] = '개발도구'
+L['options_toggle_show_debug_currency'] = nil
+L['options_toggle_show_debug_currency_desc'] = nil
 L['options_toggle_show_debug_map'] = nil
 L['options_toggle_show_debug_map_desc'] = nil
 L['options_toggle_show_debug_quest'] = nil

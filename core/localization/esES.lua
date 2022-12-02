@@ -181,6 +181,8 @@ L['options_toggle_show_notes_desc'] = 'Agrega las notas útiles al tooltip cuand
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L['options_dev_settings'] = 'Desarrollo'
+L['options_toggle_show_debug_currency'] = nil
+L['options_toggle_show_debug_currency_desc'] = nil
 L['options_toggle_show_debug_map'] = 'Depurar IDs del Mapa'
 L['options_toggle_show_debug_map_desc'] = 'Muestra información de depuración para los mapas'
 L['options_toggle_show_debug_quest'] = 'Depurar IDs de las Misiones'

@@ -180,6 +180,8 @@ L['options_toggle_show_notes_desc'] = 'Zeigt hilfreiche Notizen an sofern diese 
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L['options_dev_settings'] = 'Entwicklung'
+L['options_toggle_show_debug_currency'] = nil
+L['options_toggle_show_debug_currency_desc'] = nil
 L['options_toggle_show_debug_map'] = 'Debug Karten IDs'
 L['options_toggle_show_debug_map_desc'] = 'Zeigt debug informationen für Karten'
 L['options_toggle_show_debug_quest'] = 'Debug Quest IDs'

@@ -615,18 +615,83 @@ map.nodes[79823175] = Scoutpack()
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[47914077] = ns.node.Dragonrace({
+    label = '{quest:66946}',
+    normal = {2074, 66, 63},
+    rewards = {
+        Achievement({id = 15921, criteria = 1, oneline = true}), -- normal bronze
+        Achievement({id = 15922, criteria = 1, oneline = true}), -- normal silver
+        Achievement({id = 15923, criteria = 1, oneline = true}), -- normal gold
+        Achievement({id = 15933, criteria = 1, oneline = true}), -- advanced bronze
+        Achievement({id = 15934, criteria = 1, oneline = true}), -- advanced silver
+        Achievement({id = 15935, criteria = 1, oneline = true}) -- advanced gold
+    }
+}) -- Azure Span Sprint
+
+map.nodes[20952262] = ns.node.Dragonrace({
+    label = '{quest:67002}',
+    normal = {2076, 61, 58},
+    rewards = {
+        Achievement({id = 15921, criteria = 2, oneline = true}), -- normal bronze
+        Achievement({id = 15922, criteria = 2, oneline = true}), -- normal silver
+        Achievement({id = 15923, criteria = 2, oneline = true}), -- normal gold
+        Achievement({id = 15933, criteria = 2, oneline = true}), -- advanced bronze
+        Achievement({id = 15934, criteria = 2, oneline = true}), -- advanced silver
+        Achievement({id = 15935, criteria = 2, oneline = true}) -- advanced gold
+    }
+}) -- Azure Span Slalom
+
+map.nodes[71292466] = ns.node.Dragonrace({
+    label = '{quest:67031}',
+    normal = {2078, 61, 58},
+    rewards = {
+        Achievement({id = 15921, criteria = 3, oneline = true}), -- normal bronze
+        Achievement({id = 15922, criteria = 3, oneline = true}), -- normal silver
+        Achievement({id = 15923, criteria = 3, oneline = true}), -- normal gold
+        Achievement({id = 15933, criteria = 3, oneline = true}), -- advanced bronze
+        Achievement({id = 15934, criteria = 3, oneline = true}), -- advanced silver
+        Achievement({id = 15935, criteria = 3, oneline = true}) -- advanced gold
+    }
+}) -- Vakthros Ascent
+
+map.nodes[16574937] = ns.node.Dragonrace({
+    label = '{quest:67296}',
+    normal = {2083, 78, 75},
+    rewards = {
+        Achievement({id = 15921, criteria = 4, oneline = true}), -- normal bronze
+        Achievement({id = 15922, criteria = 4, oneline = true}), -- normal silver
+        Achievement({id = 15923, criteria = 4, oneline = true}), -- normal gold
+        Achievement({id = 15933, criteria = 4, oneline = true}), -- advanced bronze
+        Achievement({id = 15934, criteria = 4, oneline = true}), -- advanced silver
+        Achievement({id = 15935, criteria = 4, oneline = true}) -- advanced gold
+    }
+}) -- Iskaara Tour
+
 map.nodes[48473578] = ns.node.Dragonrace({
     label = '{quest:67565}',
     normal = {2018, 79, 76},
     rewards = {
-        Achievement({id = 15921, criteria = 5, oneline = false}), -- normal bronze
-        Achievement({id = 15922, criteria = 5, oneline = false}), -- normal silver
-        Achievement({id = 15923, criteria = 5, oneline = false}), -- normal gold
-        Achievement({id = 15933, criteria = 5, oneline = false}), -- advanced bronze
-        Achievement({id = 15934, criteria = 5, oneline = false}), -- advanced silver
-        Achievement({id = 15935, criteria = 5, oneline = false}) -- advanced gold
+        Achievement({id = 15921, criteria = 5, oneline = true}), -- normal bronze
+        Achievement({id = 15922, criteria = 5, oneline = true}), -- normal silver
+        Achievement({id = 15923, criteria = 5, oneline = true}), -- normal gold
+        Achievement({id = 15933, criteria = 5, oneline = true}), -- advanced bronze
+        Achievement({id = 15934, criteria = 5, oneline = true}), -- advanced silver
+        Achievement({id = 15935, criteria = 5, oneline = true}) -- advanced gold
     }
 }) -- Frostland Flyover
+
+map.nodes[42265676] = ns.node.Dragonrace({
+    label = '{quest:67741}',
+    normal = {2089, 94, 91},
+    rewards = {
+        Achievement({id = 15921, criteria = 6, oneline = true}), -- normal bronze
+        Achievement({id = 15922, criteria = 6, oneline = true}), -- normal silver
+        Achievement({id = 15923, criteria = 6, oneline = true}), -- normal gold
+        Achievement({id = 15933, criteria = 6, oneline = true}), -- advanced bronze
+        Achievement({id = 15934, criteria = 6, oneline = true}), -- advanced silver
+        Achievement({id = 15935, criteria = 6, oneline = true}) -- advanced gold
+    }
+}) -- Archive Ambit
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
