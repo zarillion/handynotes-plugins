@@ -657,7 +657,7 @@ map.nodes[26239233] = PetBattle({
 
 map.nodes[63317090] = ns.node.Dragonrace({
     label = '{quest:66679}',
-    race_id = {2042,2044},
+    race_id = {2042, 2044},
     ntimes = {66, 64},
     atimes = {63, 61},
     rewards = {
@@ -672,7 +672,7 @@ map.nodes[63317090] = ns.node.Dragonrace({
 
 map.nodes[47018558] = ns.node.Dragonrace({
     label = '{quest:66721}',
-    race_id = {2048,2049},
+    race_id = {2048, 2049},
     ntimes = {45, 43},
     atimes = {42, 40},
     rewards = {
@@ -687,7 +687,7 @@ map.nodes[47018558] = ns.node.Dragonrace({
 
 map.nodes[41986729] = ns.node.Dragonrace({
     label = '{quest:66727}',
-    race_id = {2052,2053},
+    race_id = {2052, 2053},
     ntimes = {53, 47},
     atimes = {50, 44},
     rewards = {
@@ -702,7 +702,7 @@ map.nodes[41986729] = ns.node.Dragonrace({
 
 map.nodes[23268430] = ns.node.Dragonrace({
     label = '{quest:66732}',
-    race_id = {2054,2055},
+    race_id = {2054, 2055},
     ntimes = {56, 48},
     atimes = {53, 45},
     rewards = {
@@ -717,7 +717,7 @@ map.nodes[23268430] = ns.node.Dragonrace({
 
 map.nodes[55464113] = ns.node.Dragonrace({
     label = '{quest:66777}',
-    race_id = {2056,2057},
+    race_id = {2056, 2057},
     ntimes = {48, 43},
     atimes = {45, 40},
     rewards = {
@@ -732,7 +732,7 @@ map.nodes[55464113] = ns.node.Dragonrace({
 
 map.nodes[73203393] = ns.node.Dragonrace({
     label = '{quest:66786}',
-    race_id = {2058,2059},
+    race_id = {2058, 2059},
     ntimes = {56, 53},
     atimes = {56, 53},
     rewards = {
@@ -747,7 +747,7 @@ map.nodes[73203393] = ns.node.Dragonrace({
 
 map.nodes[62777400] = ns.node.Dragonrace({
     label = '{quest:66710}',
-    race_id = {2046,2047},
+    race_id = {2046, 2047},
     ntimes = {66, 63},
     atimes = {64, 61},
     rewards = {
@@ -762,7 +762,7 @@ map.nodes[62777400] = ns.node.Dragonrace({
 
 map.nodes[42599445] = ns.node.Dragonrace({
     label = '{quest:66725}',
-    race_id = {2050,2051},
+    race_id = {2050, 2051},
     ntimes = {43, 41},
     atimes = {40, 38},
     rewards = {

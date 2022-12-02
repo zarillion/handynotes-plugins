@@ -183,7 +183,8 @@ function Dragonrace.getters:note()
         return format(L['dr_note'], s(self.ntimes[1]), g(self.ntimes[2]),
             s(self.atimes[1]), g(self.atimes[2])) .. L['dr_bronze']
     end
-    return format(L['dr_note_dash'], s(self.ntimes[1]), g(self.ntimes[2])) .. L['dr_bronze']
+    return format(L['dr_note_dash'], s(self.ntimes[1]), g(self.ntimes[2])) ..
+               L['dr_bronze']
 end
 
 ns.node.Dragonrace = Dragonrace
