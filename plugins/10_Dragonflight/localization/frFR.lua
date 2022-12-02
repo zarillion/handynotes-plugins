@@ -33,7 +33,9 @@ L['options_icons_scout_pack'] = 'Paquetages d\'éclaireurs de l\'expédition'
 L['options_icons_scout_pack_desc'] = 'Affichez les emplacements des Paquetages d\'éclaireurs de l\'expédition.'
 
 L['dr_best'] = nil
+L['dr_best_dash'] = nil
 L['dr_note'] = nil
+L['dr_note_dash'] = nil
 L['dr_bronze'] = nil
 L['options_icons_dragonrace'] = nil
 L['options_icons_dragonrace_desc'] = nil
