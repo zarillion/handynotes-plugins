@@ -43,15 +43,15 @@ L['snarglebone_note'] = '和 {npc:197353}, {npc:197356}, {npc:197354} 同時出�
 L['spellwrought_snowman_note'] = '收集 10個 {npc:193424} 並且帶他們到 {npc:193242}.'
 L['trilvarus_loreweaver_note'] = '收集一個歌唱碎片來取得 {spell:382076} 後使用 Uncharded Focus 來召喚稀有.'
 
-L['breezebiter_note'] = nil
+L['breezebiter_note'] = '飛上天空來把他拉下來, 飛靠近他一點'
 
 L['forgotten_jewel_box_note'] = '從雍亞拉平原的嶺水靜地 (49.4 67.3) 上的 氏族寶箱 拾取{item:199065} 並使用它.'
 L['gnoll_fiend_flail_note'] = '{item:199066} 可以在遠征隊斥侯包和挖過的土中找到.'
-L['pepper_hammer_note'] = nil
+L['pepper_hammer_note'] = '收集 |cFFFFFD00樹液|r 然後點選 |cFFFFFD00棍子|r 來引誘 {npc:195373}.\n\n|cFFFF0000(BUG: 要點選棍子可能需要你重載UI)|r'
 
-L['leyline_note'] = nil
+L['leyline_note'] = '重新校正地脈'
 L['options_icons_layline'] = '{achievement:16638}'
-L['options_icons_layline_desc'] = nil
+L['options_icons_layline_desc'] = '顯示成就 {achievement:16638} 中所有地脈的位置'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
