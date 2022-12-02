@@ -657,9 +657,8 @@ map.nodes[26239233] = PetBattle({
 
 map.nodes[63317090] = ns.node.Dragonrace({
     label = '{quest:66679}',
-    race_id = {2042, 2044},
-    ntimes = {66, 64},
-    atimes = {63, 61},
+    normal = {2042, 66, 64},
+    advanced = {2044, 63, 61},
     rewards = {
         Achievement({id = 15915, criteria = 1, oneline = true}), -- normal bronze
         Achievement({id = 15916, criteria = 1, oneline = true}), -- normal silver
@@ -672,9 +671,8 @@ map.nodes[63317090] = ns.node.Dragonrace({
 
 map.nodes[47018558] = ns.node.Dragonrace({
     label = '{quest:66721}',
-    race_id = {2048, 2049},
-    ntimes = {45, 43},
-    atimes = {42, 40},
+    normal = {2048, 45, 43},
+    advanced = {2049, 42, 40},
     rewards = {
         Achievement({id = 15915, criteria = 2, oneline = true}), -- normal bronze
         Achievement({id = 15916, criteria = 2, oneline = true}), -- normal silver
@@ -687,9 +685,8 @@ map.nodes[47018558] = ns.node.Dragonrace({
 
 map.nodes[41986729] = ns.node.Dragonrace({
     label = '{quest:66727}',
-    race_id = {2052, 2053},
-    ntimes = {53, 47},
-    atimes = {50, 44},
+    normal = {2052, 53, 47},
+    advanced = {2053, 50, 44},
     rewards = {
         Achievement({id = 15915, criteria = 3, oneline = true}), -- normal bronze
         Achievement({id = 15916, criteria = 3, oneline = true}), -- normal silver
@@ -702,9 +699,8 @@ map.nodes[41986729] = ns.node.Dragonrace({
 
 map.nodes[23268430] = ns.node.Dragonrace({
     label = '{quest:66732}',
-    race_id = {2054, 2055},
-    ntimes = {56, 48},
-    atimes = {53, 45},
+    normal = {2054, 56, 48},
+    advanced = {2055, 53, 45},
     rewards = {
         Achievement({id = 15915, criteria = 4, oneline = true}), -- normal bronze
         Achievement({id = 15916, criteria = 4, oneline = true}), -- normal silver
@@ -717,9 +713,8 @@ map.nodes[23268430] = ns.node.Dragonrace({
 
 map.nodes[55464113] = ns.node.Dragonrace({
     label = '{quest:66777}',
-    race_id = {2056, 2057},
-    ntimes = {48, 43},
-    atimes = {45, 40},
+    normal = {2056, 48, 43},
+    advanced = {2057, 45, 40},
     rewards = {
         Achievement({id = 15915, criteria = 5, oneline = true}), -- normal bronze
         Achievement({id = 15916, criteria = 5, oneline = true}), -- normal silver
@@ -732,9 +727,8 @@ map.nodes[55464113] = ns.node.Dragonrace({
 
 map.nodes[73203393] = ns.node.Dragonrace({
     label = '{quest:66786}',
-    race_id = {2058, 2059},
-    ntimes = {56, 53},
-    atimes = {56, 53},
+    normal = {2058, 56, 53},
+    advanced = {2059, 56, 53},
     rewards = {
         Achievement({id = 15915, criteria = 6, oneline = true}), -- normal bronze
         Achievement({id = 15916, criteria = 6, oneline = true}), -- normal silver
@@ -747,9 +741,8 @@ map.nodes[73203393] = ns.node.Dragonrace({
 
 map.nodes[62777400] = ns.node.Dragonrace({
     label = '{quest:66710}',
-    race_id = {2046, 2047},
-    ntimes = {66, 63},
-    atimes = {64, 61},
+    normal = {2046, 66, 63},
+    advanced = {2047, 64, 61},
     rewards = {
         Achievement({id = 15915, criteria = 7, oneline = true}), -- normal bronze
         Achievement({id = 15916, criteria = 7, oneline = true}), -- normal silver
@@ -762,9 +755,8 @@ map.nodes[62777400] = ns.node.Dragonrace({
 
 map.nodes[42599445] = ns.node.Dragonrace({
     label = '{quest:66725}',
-    race_id = {2050, 2051},
-    ntimes = {43, 41},
-    atimes = {40, 38},
+    normal = {2050, 43, 41},
+    advanced = {2051, 40, 38},
     rewards = {
         Achievement({id = 15915, criteria = 8, oneline = true}), -- normal bronze
         Achievement({id = 15916, criteria = 8, oneline = true}), -- normal silver
