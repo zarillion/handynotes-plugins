@@ -32,7 +32,9 @@ L['options_icons_scout_pack'] = '探险队斥候的背包'
 L['options_icons_scout_pack_desc'] = '显示探险队斥候的背包的位置。'
 
 L['dr_best'] = nil
+L['dr_best_dash'] = nil
 L['dr_note'] = nil
+L['dr_note_dash'] = nil
 L['dr_bronze'] = nil
 L['options_icons_dragonrace'] = nil
 L['options_icons_dragonrace_desc'] = nil

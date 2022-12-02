@@ -165,19 +165,22 @@ local Dragonrace = Class('DragonRace', Collectible,
 
 -- Time Records are stored in a Hidden Currency (https://www.wowhead.com/currencies/dragon-racing-ui-hidden)
 function Dragonrace.getters:sublabel()
-    local ntime = C_CurrencyInfo.GetCurrencyInfo(self.race_id[1]).quantity/1000
-    local atime = C_CurrencyInfo.GetCurrencyInfo(self.race_id[2]).quantity/1000
-
-    return format(L['dr_best'], ntime, atime)
+    local ntime = C_CurrencyInfo.GetCurrencyInfo(self.race_id[1]).quantity /
+                      1000
+    local atime = C_CurrencyInfo.GetCurrencyInfo(self.race_id[2]).quantity /
+                      1000
+    if self.atimes then return format(L['dr_best'], ntime, atime) end
+    return format(L['dr_best_dash'], ntime)
 end
 
 function Dragonrace.getters:note()
-    local b = ns.color.Bronze
     local s = ns.color.Silver
     local g = ns.color.Gold
-    return format(L['dr_note'], s(self.ntimes[1]),
-        g(self.ntimes[2]), s(self.atimes[1]),
-        g(self.atimes[2])) .. L['dr_bronze']
+    if self.atimes then
+        return format(L['dr_note'], s(self.ntimes[1]), g(self.ntimes[2]),
+            s(self.atimes[1]), g(self.atimes[2])) .. L['dr_bronze']
+    end
+    return format(L['dr_note_dash'], s(self.ntimes[1]), g(self.ntimes[2])) .. L['dr_bronze']
 end
 
 ns.node.Dragonrace = Dragonrace

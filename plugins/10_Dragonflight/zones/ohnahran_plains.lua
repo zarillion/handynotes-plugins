@@ -890,14 +890,10 @@ map.nodes[59933555] = ns.node.Dragonrace({
     label = '{quest:66921} 5',
     race_id = {2069,2060},
     ntimes = {28, 25},
-    atimes = {0, 0},
     rewards = {
         Achievement({id = 15918, criteria = 5, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 5, oneline = true}), -- normal silver
         Achievement({id = 15920, criteria = 5, oneline = true}), -- normal gold
-        -- Achievement({id = 15930, criteria = 5, oneline = true}), -- advanced bronze
-        -- Achievement({id = 15931, criteria = 5, oneline = true}), -- advanced silver
-        -- Achievement({id = 15932, criteria = 5, oneline = true}) -- advanced gold
     }
 }) -- Maruukai Dash
 
@@ -905,7 +901,6 @@ map.nodes[47487064] = ns.node.Dragonrace({
     label = '{quest:66933} 6',
     race_id = {2070,2070},
     ntimes = {29, 26},
-    atimes = {0, 0},
     rewards = {
         Achievement({id = 15918, criteria = 6, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 6, oneline = true}), -- normal silver
