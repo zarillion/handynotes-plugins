@@ -12,6 +12,9 @@ L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'
 L['options_icons_bonus_boss_desc'] = 'Muestra dónde están los élites de bonificación.'
 
+L['options_icons_profession_treasures'] = nil
+L['options_icons_profession_treasures_desc'] = nil
+
 L['dragon_glyph'] = 'Glifos Dracónicos'
 L['options_icons_dragon_glyph'] = 'Glifos Dracónicos'
 L['options_icons_dragon_glyph_desc'] = 'Muestra dónde están los 48 Glifos Dracónicos.'
@@ -137,3 +140,12 @@ L['onyx_gem_cluster_note'] = 'A Renombre 21 con la Expedición Dragontina se pue
 L['fullsails_supply_chest'] = 'Cofre de Suministros Todavela'
 L['hidden_hornswog_hoard'] = 'Botín Oculto de los Cornisapos'
 L['hidden_hornswog_hoard_note'] = 'Recoge {item:200064}, {item:200065} y {item:200066}, combínalos en |cFFFFFD00"Acertijo de observador: Una Guía de Campo"|r cerca del tesoro y entonces alimenta a la rana.'
+
+L['pt_alch_insulated_mug'] = nil
+L['pt_alch_insulated_mug_note'] = nil
+L['pt_alch_frostforged_potion'] = nil
+L['pt_alch_frostforged_potion_note'] = nil
+L['pt_smith_glimmer_of_wisdom'] = nil
+L['pt_smith_glimmer_of_wisdom_note'] = nil
+L['pt_ench_flashfrozen_scroll'] = nil
+L['pt_ench_flashfrozen_scroll_note'] = nil

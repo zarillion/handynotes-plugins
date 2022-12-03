@@ -12,6 +12,9 @@ L['gem_cluster_note'] = 'Эти предметы станут доступны �
 L['options_icons_bonus_boss'] = 'Бонусные элитные монстры'
 L['options_icons_bonus_boss_desc'] = 'Отображение местоположения бонусных элитных монстров.'
 
+L['options_icons_profession_treasures'] = nil
+L['options_icons_profession_treasures_desc'] = nil
+
 L['dragon_glyph'] = 'Драконий символ'
 L['options_icons_dragon_glyph'] = 'Драконий символ'
 L['options_icons_dragon_glyph_desc'] = 'Показать расположение всех 48 драконьих символов.'
@@ -137,3 +140,12 @@ L['onyx_gem_cluster_note'] = 'На 21-м уровне известности у 
 L['fullsails_supply_chest'] = 'Сундук с припасами Коры'
 L['hidden_hornswog_hoard'] = 'Скрытый заложник рогоплава'
 L['hidden_hornswog_hoard_note'] = 'Соберите {item:200064}, {item:200065} и {item:200066}, объедините их рядом с |cFFFFFD00"Загадки для внимательных: практический справочник"|r и киньте полученный предмет в лягушку.'
+
+L['pt_alch_insulated_mug'] = nil
+L['pt_alch_insulated_mug_note'] = nil
+L['pt_alch_frostforged_potion'] = nil
+L['pt_alch_frostforged_potion_note'] = nil
+L['pt_smith_glimmer_of_wisdom'] = nil
+L['pt_smith_glimmer_of_wisdom_note'] = nil
+L['pt_ench_flashfrozen_scroll'] = nil
+L['pt_ench_flashfrozen_scroll_note'] = nil

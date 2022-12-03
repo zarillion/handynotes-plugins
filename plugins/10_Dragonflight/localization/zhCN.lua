@@ -11,6 +11,9 @@ L['gem_cluster_note'] = '所需物品需要龙鳞探险队声望到达21级可�
 L['options_icons_bonus_boss'] = '奖励精英'
 L['options_icons_bonus_boss_desc'] = '显示奖励精英位置。'
 
+L['options_icons_profession_treasures'] = nil
+L['options_icons_profession_treasures_desc'] = nil
+
 L['dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph_desc'] = '显示全部48个巨龙魔符的位置。'
@@ -136,3 +139,12 @@ L['onyx_gem_cluster_note'] = '龙鳞探险队声望到达21级，从 {npc:189065
 L['fullsails_supply_chest'] = '满帆补给箱'
 L['hidden_hornswog_hoard'] = '隐藏的龙蛙存货'
 L['hidden_hornswog_hoard_note'] = '收集 {item:200064}、{item:200065}、{item:200066}，在宝藏附近的“观察谜题：实地指南”将它们组合起来，然后喂青蛙。'
+
+L['pt_alch_insulated_mug'] = nil
+L['pt_alch_insulated_mug_note'] = nil
+L['pt_alch_frostforged_potion'] = nil
+L['pt_alch_frostforged_potion_note'] = nil
+L['pt_smith_glimmer_of_wisdom'] = nil
+L['pt_smith_glimmer_of_wisdom_note'] = nil
+L['pt_ench_flashfrozen_scroll'] = nil
+L['pt_ench_flashfrozen_scroll_note'] = nil

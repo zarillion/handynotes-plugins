@@ -113,16 +113,12 @@ function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
 
 local Profession = Class('Profession', Requirement)
 
-function Profession:Initialize(profession)
-    self.profession = profession
-    self.skillID = C_TradeSkillUI.GetProfessionSkillLineID(self.profession)
-    self.text = C_TradeSkillUI.GetTradeSkillDisplayName(self.skillID)
+function Profession:Initialize(skillID)
+    self.profession = skillID
+    self.text = C_TradeSkillUI.GetTradeSkillDisplayName(skillID)
 end
 
-function Profession:IsMet()
-    return C_TradeSkillUI.GetProfessionInfoBySkillLineID(
-               C_TradeSkillUI.GetProfessionSkillLineID(6)).maxSkillLevel > 0
-end
+function Profession:IsMet() return ns.PlayerHasProfession(self.profession) end
 
 -------------------------------------------------------------------------------
 ------------------------------------ QUEST ------------------------------------

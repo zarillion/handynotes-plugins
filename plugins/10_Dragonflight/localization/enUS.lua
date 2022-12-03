@@ -11,6 +11,9 @@ L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the Dr
 L['options_icons_bonus_boss'] = 'Bonus Elites'
 L['options_icons_bonus_boss_desc'] = 'Display locations of bonus elites.'
 
+L['options_icons_profession_treasures'] = 'Profession Treasures'
+L['options_icons_profession_treasures_desc'] = 'Display locations of treasures which grant profession knowledge.'
+
 L['dragon_glyph'] = 'Dragon Glyph'
 L['options_icons_dragon_glyph'] = 'Dragon Glyphs'
 L['options_icons_dragon_glyph_desc'] = 'Display the location of all 48 dragon glyphs.'
@@ -136,3 +139,12 @@ L['onyx_gem_cluster_note'] = 'At Renown 21 with the Dragonscale Expedition you c
 L['fullsails_supply_chest'] = 'Fullsails Supply Chest'
 L['hidden_hornswog_hoard'] = 'Hidden Hornswog Hoard'
 L['hidden_hornswog_hoard_note'] = 'Collect {item:200064}, {item:200065} and {item:200066}, combine them at the |cFFFFFD00"Observant Riddles: A Field Guide"|r near the treasure then feed the frog.'
+
+L['pt_alch_insulated_mug'] = 'Well Insulated Mug'
+L['pt_alch_insulated_mug_note'] = 'In Dragonbane Keep between a number of elite mobs.'
+L['pt_alch_frostforged_potion'] = 'Frostforged Potion'
+L['pt_alch_frostforged_potion_note'] = 'In the middle of the icy crater.'
+L['pt_smith_glimmer_of_wisdom'] = 'Glimmer of Blacksmithing Wisdom'
+L['pt_smith_glimmer_of_wisdom_note'] = 'Craft a {item:189541} near the |cFFFFFD00Dim Forge|r and the item in the |cFFFFFD00Slack Tub|r will become lootable.'
+L['pt_ench_flashfrozen_scroll'] = 'Flashfrozen Scroll'
+L['pt_ench_flashfrozen_scroll_note'] = 'Inside the Flashfrozen Enclave cave system.'

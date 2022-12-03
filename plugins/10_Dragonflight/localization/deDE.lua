@@ -11,6 +11,9 @@ L['gem_cluster_note'] = 'Der benötigte Gegenstand kann auf Ruhmstufe 21 bei der
 L['options_icons_bonus_boss'] = 'Bonus Elitegegner'
 L['options_icons_bonus_boss_desc'] = 'Zeigt die Positionen von Bonus Elitegegnern.'
 
+L['options_icons_profession_treasures'] = nil
+L['options_icons_profession_treasures_desc'] = nil
+
 L['dragon_glyph'] = 'Drachenglyphe'
 L['options_icons_dragon_glyph'] = 'Drachenglyphen'
 L['options_icons_dragon_glyph_desc'] = 'Zeigt die Position aller 48 Drachenglyphen an.'
@@ -136,3 +139,12 @@ L['onyx_gem_cluster_note'] = 'Auf Ruhmstufe 21 bei der Drachenschuppenexpedition
 L['fullsails_supply_chest'] = 'Vorratskiste der Vollsegel'
 L['hidden_hornswog_hoard'] = 'Versteckter Flunkerhort'
 L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item:200066}, kombiniere diese beim |cFFFFFD00"Rätsel für Aufmerksame: Ein Naturführer"|r nahe dem Schatz und füttere dann den Frosch damit.'
+
+L['pt_alch_insulated_mug'] = nil
+L['pt_alch_insulated_mug_note'] = nil
+L['pt_alch_frostforged_potion'] = nil
+L['pt_alch_frostforged_potion_note'] = nil
+L['pt_smith_glimmer_of_wisdom'] = nil
+L['pt_smith_glimmer_of_wisdom_note'] = nil
+L['pt_ench_flashfrozen_scroll'] = nil
+L['pt_ench_flashfrozen_scroll_note'] = nil

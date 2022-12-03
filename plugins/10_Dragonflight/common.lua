@@ -38,6 +38,8 @@ ns.groups.DREAMGUARDS = ns.Group('dreamguards', 341763,
 ns.groups.FLAG = Group('flag', 1723999, {defaults = ns.GROUP_HIDDEN})
 ns.groups.KITE = Group('kite', 133837, {defaults = ns.GROUP_HIDDEN})
 ns.groups.LAYLINE = Group('layline', 1033908, {defaults = ns.GROUP_HIDDEN})
+ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676,
+    {defaults = ns.GROUP_HIDDEN})
 ns.groups.SCOUT_PACK =
     Group('scout_pack', 4562583, {defaults = ns.GROUP_HIDDEN})
 
@@ -52,6 +54,63 @@ local BonusBoss = Class('BonusBoss', NPC, {
 })
 
 ns.node.BonusBoss = BonusBoss
+
+-------------------------------------------------------------------------------
+----------------------------- PROFESSION TREASURES ----------------------------
+-------------------------------------------------------------------------------
+
+local ProfessionTreasure = Class('ProfessionTreasure', ns.node.Item, {
+    scale = 0.9,
+    group = ns.groups.PROFESSION_TREASURES
+})
+
+function ProfessionTreasure:IsEnabled()
+    if not ns.PlayerHasProfession(self.skillID) then return false end
+    return ns.node.Item.IsEnabled(self)
+end
+
+ns.node.ProfessionTreasures = {
+    Alchemy = Class('AlchemyTreasure', ProfessionTreasure, {
+        icon = 4620669,
+        skillID = 171,
+        requires = ns.requirement.Profession(171)
+    }),
+    Blacksmithing = Class('BlacksmithingTreasure', ProfessionTreasure, {
+        icon = 4620670,
+        skillID = 164,
+        requires = ns.requirement.Profession(164)
+    }),
+    Enchanting = Class('EnchantingTreasure', ProfessionTreasure, {
+        icon = 4620672,
+        skillID = 333,
+        requires = ns.requirement.Profession(333)
+    }),
+    Engineering = Class('EngineeringTreasure', ProfessionTreasure, {
+        icon = 4620673,
+        skillID = 202,
+        requires = ns.requirement.Profession(202)
+    }),
+    Inscription = Class('InscriptionTreasure', ProfessionTreasure, {
+        icon = 4620676,
+        skillID = 773,
+        requires = ns.requirement.Profession(773)
+    }),
+    Jewelcrafting = Class('JewelcraftingTreasure', ProfessionTreasure, {
+        icon = 4620677,
+        skillID = 755,
+        requires = ns.requirement.Profession(755)
+    }),
+    Leatherworking = Class('LeatherworkingTreasure', ProfessionTreasure, {
+        icon = 4620678,
+        skillID = 165,
+        requires = ns.requirement.Profession(165)
+    }),
+    Tailoring = Class('TailoringTreasure', ProfessionTreasure, {
+        icon = 4620681,
+        skillID = 197,
+        requires = ns.requirement.Profession(197)
+    })
+}
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

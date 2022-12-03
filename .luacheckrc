@@ -67,6 +67,7 @@ read_globals = {
     'GetLocale',
     'GetPlayerFacing',
     'GetProfessions',
+    'GetProfessionInfo',
     'GetQuestObjectiveInfo',
     'GetSpellInfo',
     'GetText',

@@ -12,6 +12,9 @@ L['gem_cluster_note'] = 'L\'objet requis peut être trouvé au Renom 21 avec l\'
 L['options_icons_bonus_boss'] = 'Élites bonus'
 L['options_icons_bonus_boss_desc'] = 'Afficher les emplacements des élites bonus.'
 
+L['options_icons_profession_treasures'] = nil
+L['options_icons_profession_treasures_desc'] = nil
+
 L['dragon_glyph'] = 'Dracoglyphe'
 L['options_icons_dragon_glyph'] = 'Dracoglyphes'
 L['options_icons_dragon_glyph_desc'] = 'Afficher les emplacements des 48 dracoglyphes.'
@@ -137,3 +140,12 @@ L['onyx_gem_cluster_note'] = 'Au Renom 21 avec l\'Expédition du Dracaret, vous 
 L['fullsails_supply_chest'] = 'Clé de coffre de fournitures des Gréements'
 L['hidden_hornswog_hoard'] = 'Horde de bufflaciens cachée'
 L['hidden_hornswog_hoard_note'] = 'Collectez {item:200064}, {item:200065} et {item:200066}, combinez-les à |cFFFFFD00"l\'Énigmes sagaces : un guide de poche"|r près du trésor puis nourrissez la grenouille.'
+
+L['pt_alch_insulated_mug'] = nil
+L['pt_alch_insulated_mug_note'] = nil
+L['pt_alch_frostforged_potion'] = nil
+L['pt_alch_frostforged_potion_note'] = nil
+L['pt_smith_glimmer_of_wisdom'] = nil
+L['pt_smith_glimmer_of_wisdom_note'] = nil
+L['pt_ench_flashfrozen_scroll'] = nil
+L['pt_ench_flashfrozen_scroll_note'] = nil
