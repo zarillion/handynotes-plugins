@@ -588,7 +588,7 @@ map.nodes[55008100] = PT.Alchemy({
 
 map.nodes[56004490] = PT.Engineering({
     id = 201014,
-    quest = nil,
+    quest = 70270,
     note = L['pt_engi_boomthyr_rocket_note'],
     pois = {POI({55904529, 58134453, 57994435, 57834457})}
 }) -- Boomthyr Rocket
@@ -637,7 +637,7 @@ map.nodes[68002680] = PT.Enchanting({
 
 map.nodes[74703790] = PT.Tailoring({
     id = 198699,
-    quest = nil,
+    quest = 70302,
     note = L['pt_tailor_mysterious_banner_note']
 }) -- Mysterious Banner
 

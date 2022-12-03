@@ -532,7 +532,7 @@ map.nodes[25203540] = PT.Jewelcrafting({
 
 map.nodes[35344012] = PT.Tailoring({
     id = 198692,
-    quest = nil,
+    quest = 70295,
     note = L['pt_tailor_noteworthy_scrap_of_carpet_note']
 }) -- Noteworthy Scrap of Carpet
 
@@ -556,7 +556,7 @@ map.nodes[61801300] = PT.Jewelcrafting({
 
 map.nodes[66105290] = PT.Tailoring({
     id = 201020,
-    quest = nil,
+    quest = 70303,
     note = L['pt_tailor_silky_surprise_note']
 }) -- Silky Surprise
 

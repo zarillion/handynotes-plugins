@@ -565,7 +565,7 @@ map.nodes[12504940] = PT.Leatherworking({
 
 map.nodes[16203880] = PT.Tailoring({
     id = 198680,
-    quest = nil,
+    quest = 70284,
     note = L['pt_tailor_decaying_brackenhide_blanket_note']
 }) -- Decaying Brackenhide Blanket
 
