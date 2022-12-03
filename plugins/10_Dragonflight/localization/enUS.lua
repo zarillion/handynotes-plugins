@@ -63,7 +63,7 @@ L['pt_ench_enriched_earthen_shard_note'] = 'On a pile of rocks.'
 L['pt_ench_faintly_enchanted_remains_note'] = 'Click the |cFFFFFD00Mana-Starved Crystal Cluster|r to spawn and kill a mob. Then loot the crystal that spawns.'
 L['pt_ench_forgotten_arcane_tome_note'] = 'Lying on the floor to the right of the entrance to a tomb.'
 L['pt_jewel_crystalline_overgrowth_note'] = 'Next to a small pond.'
-L['pt_jewel_harmonic_crystal_harmonizer_note'] = 'Click the chest to receive a buff then click the 3 crystals'
+L['pt_jewel_harmonic_crystal_harmonizer_note'] = 'Click the chest to receive a buff then click the 3 crystals.'
 L['pt_leath_decay_infused_tanning_oil_note'] = 'In the barrel.'
 L['pt_leath_treated_hides_note'] = 'At |cFFFFFD00Snowhide Camp|r.'
 L['pt_leath_well_danced_drum_note'] = 'In an underground building with {npc:186446} and {npc:186448}. Fix the drum next to {npc:194862}. Once he dances on it you can loot the item.'
@@ -133,7 +133,7 @@ L['options_icons_bakar_desc'] = 'Display the location of all dogs (bakar) for th
 
 L['ancestor_note'] = 'Get the {spell:369277} buff (1 hour) in a tent at the |cFFFFFD00Timberstep Outpost|r from |cFFFFFD00Essence of Awakening|r to see the ancestor and offer him the required item.'
 L['options_icons_ancestor'] = '{achievement:16423}'
-L['options_icons_ancestor_desc'] = 'Display the location of ancestors for {achievement:16574}.'
+L['options_icons_ancestor_desc'] = 'Display the location of ancestors for {achievement:16423}.'
 
 L['dreamguard_note'] = 'Target the Dreamguard and ' .. ns.color.Orange('/sleep')
 L['options_icons_dreamguard'] = '{achievement:16574}'
@@ -158,9 +158,9 @@ L['pt_jewel_painters_pretty_jewel_note'] = 'Inside a lantern.'
 L['pt_leath_decayed_scales_note'] = 'Inside a basket.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = 'Speak to {npc:194856} and offer to help set back her |cFFFFFD00Darkmoon Deck|r scattered at her feet. Click the cards in the correct order (Ace through 8) thens speak to her afterward to get the deck.'
 L['pt_script_forgetful_apprentices_tome_note'] = 'On a table near a big telescope.'
-L['pt_script_how_to_train_your_whelpling_note'] = 'Little brown book lying in the sandbox'
+L['pt_script_how_to_train_your_whelpling_note'] = 'Little brown book lying in the sandbox.'
 L['pt_smith_draconic_flux_note'] = 'Inside a building.'
-L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the Ancient Dragonweave Loom to complete a minigame where you connect the spools of thread to the center gem'
+L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the |cFFFFFD00Ancient Dragonweave Loom|r to complete a minigame where you connect the spools of thread to the center gem.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Small banner inside a pile of sand.'
 
 -------------------------------------------------------------------------------
@@ -189,7 +189,7 @@ L['pt_ench_lava_infused_seed_note'] = 'In a flower in |cFFFFFD00Scalecracker Kee
 L['pt_engi_boomthyr_rocket_note'] = 'Collect the items listed in the |cFFFFFD00Boomthyr Rocket Notes|r:\n\n{item:198815}\n{item:198817}\n{item:198816}\n{item:198814}\n\nOnce gathered, bring them back to the rocket to receive the treasure.'
 L['pt_engi_intact_coil_capacitor_note'] = 'Interact with the three |cFFFFFD00Exposed Wire|r to fix and loot the |cFFFFFD00Overcharged Tesla Coil|r.'
 L['pt_jewel_closely_guarded_shiny_note'] = 'Blue gem underneath a tree next to a nest.'
-L['pt_jewel_igneous_gem_note'] = 'Quickly click the 3 crystals on small islands inside the magma'
+L['pt_jewel_igneous_gem_note'] = 'Quickly click the 3 crystals on small islands inside the magma.'
 L['pt_leath_poachers_pack_note'] = 'Next to a dead Vulpera beside the riverbed.'
 L['pt_leath_spare_djaradin_tools_note'] = 'Next to dead red dragon.'
 L['pt_script_pulsing_earth_rune_note'] = 'Behind a table inside the crumbled building.'
