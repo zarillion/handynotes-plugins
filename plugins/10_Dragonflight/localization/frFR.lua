@@ -206,9 +206,9 @@ L['pt_smith_qalashi_weapon_diagram_note'] = 'Au sommet d\'une enclume.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'Un morceau de tissu accroché à un arbre juste à l\'extérieur de la grotte où le boss final apparaît.' .. ns.color.Orange('Nécessite de la précision avec le Vol à dos de Dragon ou bien un portail de démoniste.')
 L['pt_tailor_mysterious_banner_note'] = 'Flottant sur le toit des bâtiments.'
 
-L['quack_week_1'] = nil
-L['quack_week_2'] = nil
-L['quack_week_3'] = nil
-L['quack_week_4'] = nil
-L['quack_week_5'] = nil
-L['lets_get_quacking'] = nil
+L['quack_week_1'] = 'Semaine 1'
+L['quack_week_2'] = 'Semaine 2'
+L['quack_week_3'] = 'Semaine 3'
+L['quack_week_4'] = 'Semaine 4'
+L['quack_week_5'] = 'Semaine 5'
+L['lets_get_quacking'] = 'Vous ne pouvez sauver qu\'un seul {npc:187863} par semaine.'
