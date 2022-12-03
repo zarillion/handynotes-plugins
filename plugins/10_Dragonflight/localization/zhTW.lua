@@ -87,7 +87,7 @@ L['yennus_boat_note'] = '拾取巨牙海民玩具船來取得 {item:200876}, 其
 
 L['lizi_note'] = '完成從 {quest:65901} 開始的 學徒的休假日 故事線. 每天完成任務來修補莉茲並取得你的坐騎.\n\n除了任務需要的物品外, 所有任務都需要150個 {currency:2003}, 總共需要750個 {currency:2003}.'
 L['lizi_note_day1'] = '從 |cFFFFFD00巨龍群島|r 的昆蟲怪物收集20個 {item:192615}'
-L['lizi_note_day2'] = '從 |cFFFFFD00巨龍群島|r 的植物怪物收集10個 {item:192658}'
+L['lizi_note_day2'] = '從 |cFFFFFD00巨龍群島|r 的植物怪物收集20個 {item:192658}'
 L['lizi_note_day3'] = '從 |cFFFFFD00巨龍群島|r 的任意水域釣到10個 {item:194966}. 常見於 |cFFFFFD00雍亞拉平原|r 的內陸'
 L['lizi_note_day4'] = '從 |cFFFFFD00雍亞拉平原|r 的猛瑪象收集20個 {item:192636}'
 L['lizi_note_day5'] = '從 |cFFFFFD00雍伊爾溫泉|r 南邊帳篷內的 {npc:190015} 購買1個 {item:200598}'

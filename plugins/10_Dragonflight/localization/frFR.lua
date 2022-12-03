@@ -88,7 +88,7 @@ L['yennus_boat_note'] = 'Récupérez le |cFFFFFD00Bateau jouet rohart|r pour obt
 
 L['lizi_note'] = 'Terminez la suite de quêtes Une sortie d’initié en commençant par {quest:65901}. Accomplissez les quêtes chaque jour pour soigner Lizi et recevoir votre monture.\n\nEn plus des objets requis, toutes les quêtes demandent 150x {currency:2003} pour un total de 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Collectez 20x {item:192615} sur des monstres insectes dans les |cFFFFFD00Îles aux Dragons|r'
-L['lizi_note_day2'] = 'Collectez 10x {item:192658} sur des monstres végétaux dans les |cFFFFFD00Îles aux Dragons|r'
+L['lizi_note_day2'] = 'Collectez 20x {item:192658} sur des monstres végétaux dans les |cFFFFFD00Îles aux Dragons|r'
 L['lizi_note_day3'] = 'Collectez 10x {item:194966} pêchés dans n\'importe quelles eaux des |cFFFFFD00Îles aux Dragons|r. Ils sont trouvés le plus souvent à l\'intérieur des terres des |cFFFFFD00Plaines d\'Ohn\'ahra|r'
 L['lizi_note_day4'] = 'Collectez 20x {item:192636} sur des mammouths dans les |cFFFFFD00Plaines d\'Ohn\'ahra|r'
 L['lizi_note_day5'] = 'Achetez 1x {item:200598} à {npc:190015} dans une tente au sud de |cFFFFFD00Sources des Ohn\'irs|r'

@@ -87,13 +87,13 @@ L['yennus_boat_note'] = 'Loot the |cFFFFFD00Tuskarr Toy Boat|r to get {item:2008
 
 L['lizi_note'] = 'Complete the Initiate\'s Day Out storyline starting with {quest:65901}. Complete the quests each day to mend Lizi and receive your mount.\n\nIn addition to items required all quests require 150x {currency:2003} for a total of 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Collect 20x {item:192615} from insect mobs in the |cFFFFFD00Dragon Isles|r'
-L['lizi_note_day2'] = 'Collect 10x {item:192658} from plant mobs in the |cFFFFFD00Dragon Isles|r'
+L['lizi_note_day2'] = 'Collect 20x {item:192658} from plant mobs in the |cFFFFFD00Dragon Isles|r'
 L['lizi_note_day3'] = 'Collect 10x {item:194966} fished from any waters in the |cFFFFFD00Dragon Isles|r. Most commonly found in inland |cFFFFFD00Ohn\'ahran Plains|r'
 L['lizi_note_day4'] = 'Collect 20x {item:192636} from mammoths in |cFFFFFD00Ohn\'ahran Plains|r'
 L['lizi_note_day5'] = 'Purchase 1x {item:200598} from {npc:190015} in a tent south of |cFFFFFD00Ohn\'iri Springs|r'
 
 L['ohnahra_note_start'] = 'Complete the Initiate\'s Day Out storyline starting with {quest:65901} then {npc:190022} will appear in |cFFFFFD00Ohn\'iri Springs|r behind a Windsage hut.\n\nGather the following materials:'
-L['ohnahra_note_item1'] = 'Collect 3x {item:201929} from {npc:186151}, the final boss of the |cFFFFFD00Nokhud Offensive|r dungeon (Heroic difficulty). Not a 100% drop.'
+L['ohnahra_note_item1'] = 'Collect 3x {item:201929} from {npc:186151}, the final boss of the |cFFFFFD00Nokhud Offensive|r dungeon. Not a 100% drop.'
 L['ohnahra_note_item2'] = 'Purchase 1x {item:201323} from {npc:196707} for 50x {currency:2003} and 1x {item:194562}.\n{item:194562} can be looted from Time-Lost mobs in |cFFFFFD00Thaldrazsus|r.'
 L['ohnahra_note_item3'] = 'Purchase 1x {item:191507} from the Auction House. (Alchemists can purchase {item:191588} from {npc:196707} starting at Renown 22)'
 L['ohnahra_note_end'] = 'Once you have all materials, return to {npc:190022} and accept {quest:72512}. Go to {npc:194796} to turn in the quest and receive your mount.'
