@@ -134,6 +134,10 @@ L['bakar_hugo_note'] = '跟随艾拉格营地旅行。'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = '显示 {achievement:16424} 成就中全部獒犬的位置。'
 
+L['ancestor_note'] = nil
+L['options_icons_ancestor'] = '{achievement:16423}'
+L['options_icons_ancestor_desc'] = nil
+
 L['dreamguard_note'] = '目标为梦境防御者并 ' .. ns.color.Orange('/睡觉、/sleep')
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境防御者的位置。'

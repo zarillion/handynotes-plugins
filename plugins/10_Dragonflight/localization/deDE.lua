@@ -134,6 +134,10 @@ L['bakar_hugo_note'] = 'Reist mit dem Lager der Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Zeigt die Position aller Bakar (Hunde) für den Erfolg {achievement:16424} an.'
 
+L['ancestor_note'] = 'Hol dir in einem Zelt am |cFFFFFD00Baumschrittaußenposten|r von der |cFFFFFD00Essenz des Erwachens|r den Stärkungszauber {spell:369277} (1 Stunde), um den Vorfahren zu sehen und biete ihm den benötigten Gegenstand an.'
+L['options_icons_ancestor'] = '{achievement:16423}'
+L['options_icons_ancestor_desc'] = 'Zeigt die Position der Vorfahren für den Erfolg {achievement:16574} an.'
+
 L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefehl ' .. ns.color.Orange('/schlafen') .. '.'
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinnen für den Erfolg {achievement:16574} an.'

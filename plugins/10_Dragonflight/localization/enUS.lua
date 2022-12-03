@@ -134,6 +134,10 @@ L['bakar_hugo_note'] = 'Travels with the Aylaag Camp.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Display the location of all dogs (bakar) for the achievement {achievement:16424}.'
 
+L['ancestor_note'] = 'Get the {spell:369277} buff (1 hour) in a tent at the |cFFFFFD00Timberstep Outpost|r from |cFFFFFD00Essence of Awakening|r to see the ancestor and offer him the required item.'
+L['options_icons_ancestor'] = '{achievement:16423}'
+L['options_icons_ancestor_desc'] = 'Display the location of ancestors for {achievement:16574}.'
+
 L['dreamguard_note'] = 'Target the Dreamguard and ' .. ns.color.Orange('/sleep')
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {achievement:16574}.'

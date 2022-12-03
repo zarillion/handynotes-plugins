@@ -25,6 +25,7 @@ ns.expansion = 10
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
+ns.groups.ANCESTOR = Group('ancestor', 135946, {defaults = ns.GROUP_HIDDEN})
 ns.groups.BAKAR = Group('bakar', 930453, {defaults = ns.GROUP_HIDDEN})
 ns.groups.BONUS_BOSS = Group('bonus_boss', 'peg_rd',
     {defaults = ns.GROUP_HIDDEN})

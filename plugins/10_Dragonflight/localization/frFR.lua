@@ -135,6 +135,10 @@ L['bakar_hugo_note'] = 'Voyage avec le campement Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Afficher l\'emplacement de tous les chiens (bakars) pour le haut-fait {achievement:16424}.'
 
+L['ancestor_note'] = nil
+L['options_icons_ancestor'] = '{achievement:16423}'
+L['options_icons_ancestor_desc'] = nil
+
 L['dreamguard_note'] = 'Ciblez le Garde-rêve et ' .. ns.color.Orange('/dormir')
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêves pour {achievement:16574}'

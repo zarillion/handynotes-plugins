@@ -135,6 +135,10 @@ L['bakar_hugo_note'] = 'Путешествует с лагерем Айлааг.
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Отображение местоположения всех собак (бакар) для достижения {achievement:16424}.'
 
+L['ancestor_note'] = nil
+L['options_icons_ancestor'] = '{achievement:16423}'
+L['options_icons_ancestor_desc'] = nil
+
 L['dreamguard_note'] = 'Возьмите в цель Изумрудного Стражника и  ' .. ns.color.Orange('/спать')
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Отображать места Изумрудных Стражников для {achievement:16574}'

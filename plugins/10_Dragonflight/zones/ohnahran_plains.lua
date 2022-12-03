@@ -761,6 +761,107 @@ map.nodes[43335647] = Scoutpack()
 map.nodes[23944019] = Scoutpack()
 
 -------------------------------------------------------------------------------
+----------------------------- HONOR OUR ANCESTORS -----------------------------
+-------------------------------------------------------------------------------
+
+local Ancestor = Class('Ancestor', Collectible, {
+    icon = 135946,
+    note = L['ancestor_note'],
+    group = ns.groups.ANCESTOR,
+    pois = {POI({85702073})} -- Essence of Awakening
+})
+
+map.nodes[75934205] = Ancestor({
+    id = 197051,
+    requires = ns.requirement.Item(194690), -- Horn o' Mead
+    rewards = {Achievement({id = 16423, criteria = 55304})}
+}) -- Horn of Drusahl
+
+map.nodes[60323806] = Ancestor({
+    id = 197048,
+    requires = ns.requirement.Item(197776), -- Thrice-Spiced Mammoth Kabob
+    rewards = {Achievement({id = 16423, criteria = 55302})}
+}) -- Maruukai
+
+map.nodes[54377841] = Ancestor({
+    id = 197056,
+    requires = ns.requirement.Item(202071), -- Elemental Mote
+    rewards = {Achievement({id = 16423, criteria = 55309})}
+}) -- Ohn'iri Springs
+
+map.nodes[85174935] = Ancestor({
+    id = 197053,
+    requires = ns.requirement.Item(193470), -- Feral Hide Drums
+    rewards = {Achievement({id = 16423, criteria = 55306})},
+    pois = {
+        POI({85702073}), -- Essence of Awakening
+        Path({84504840, 84874867, 85174935, 85905011})
+    }
+}) -- Shikaar Highlands
+
+map.nodes[63275731] = Ancestor({
+    id = 197055,
+    requires = ns.requirement.Item(197788, 2), --  Braised Bruffalon Brisket
+    rewards = {Achievement({id = 16423, criteria = 55308})}
+}) -- Sylvan Glade
+
+map.nodes[41655690] = Ancestor({
+    id = 197057,
+    requires = ns.requirement.Item(190501), -- Primal Molten Greatbelt
+    rewards = {Achievement({id = 16423, criteria = 55310})}
+}) -- Teerakai
+
+map.nodes[74057046] = Ancestor({
+    id = 197054,
+    requires = ns.requirement.Item(190327), -- Awakened Air
+    rewards = {Achievement({id = 16423, criteria = 55307})},
+    pois = {
+        POI({85702073}), -- Essence of Awakening
+        Path({
+            74427207, 74267178, 74307116, 74697041, 74747013, 74686969,
+            74386964, 74266983, 74247031, 74057046, 73787063, 73667084,
+            73617122, 73927161, 74147214, 74427207
+        })
+    }
+}) -- The Carving Winds
+
+map.nodes[32356934] = Ancestor({
+    id = 197058,
+    requires = ns.requirement.Item(191470, 5), -- Writhebark
+    rewards = {Achievement({id = 16423, criteria = 55311})},
+    pois = {
+        POI({85702073}), -- Essence of Awakening
+        Path({32967236, 32977116, 32606972, 32356934, 31476857, 31126843})
+    }
+}) -- The Eternal Kurgans
+
+map.nodes[84692429] = Ancestor({
+    id = 197050,
+    requires = ns.requirement.Item(200018), -- Enchant Boots - Plainsrunner's Breeze
+    rewards = {Achievement({id = 16423, criteria = 55303})},
+    pois = {
+        POI({85702073}), -- Essence of Awakening
+        Path({
+            84692279, 84662303, 84932349, 84902372, 84692429, 84812453,
+            84952466, 85192541, 85182565, 84892587, 84572629, 84172642, 84022698
+        })
+    }
+}) -- Timberstep Outpost
+
+map.nodes[73305513] = Ancestor({
+    id = 197052,
+    requires = ns.requirement.Item(202070), -- Exceptional Pelt
+    rewards = {Achievement({id = 16423, criteria = 55305})},
+    pois = {
+        POI({85702073}), -- Essence of Awakening
+        Path({
+            72675702, 72725683, 72575648, 72375653, 72225633, 72285582,
+            72495567, 72775575, 73175517, 73305513, 73875547, 74325605
+        })
+    }
+}) -- Toghusuq Village
+
+-------------------------------------------------------------------------------
 ----------------------------- SLEEPING ON THE JOB -----------------------------
 -------------------------------------------------------------------------------
 
