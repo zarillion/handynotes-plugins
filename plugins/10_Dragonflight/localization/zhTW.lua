@@ -11,8 +11,8 @@ L['gem_cluster_note'] = '需要的物品可以在龍鱗遠征隊名望21後, 在
 L['options_icons_bonus_boss'] = '獎勵精英'
 L['options_icons_bonus_boss_desc'] = '顯示獎勵精英位置.'
 
-L['options_icons_profession_treasures'] = nil
-L['options_icons_profession_treasures_desc'] = nil
+L['options_icons_profession_treasures'] = '專業技能寶藏'
+L['options_icons_profession_treasures_desc'] = '顯示會給予專業技能知識的寶藏位置'
 
 L['dragon_glyph'] = '龍之雕紋'
 L['options_icons_dragon_glyph'] = '龍之雕紋'
@@ -34,13 +34,13 @@ L['scout_pack'] = '遠征隊斥侯包'
 L['options_icons_scout_pack'] = '遠征隊斥侯包'
 L['options_icons_scout_pack_desc'] = '顯示遠征隊斥侯包的位置'
 
-L['dr_best'] = nil
-L['dr_best_dash'] = nil
-L['dr_note'] = nil
-L['dr_note_dash'] = nil
-L['dr_bronze'] = nil
-L['options_icons_dragonrace'] = nil
-L['options_icons_dragonrace_desc'] = nil
+L['dr_best'] = '你的最快時間:\n - 普通: %.3fs\n - 進階: %.3fs'
+L['dr_best_dash'] = '你的最佳時間:\n - %.3fs'
+L['dr_note'] = '目標時間:\n - 普通: %ss / %ss\n - 進階: %ss / %ss'
+L['dr_note_dash'] = '目標時間:\n - %ss / %ss'
+L['dr_bronze'] = '\n\n完成賽事來取得 ' .. ns.color.Bronze('銅牌') .. '.'
+L['options_icons_dragonrace'] = '飛龍競速'
+L['options_icons_dragonrace_desc'] = '顯示飛龍競速的位置.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -60,21 +60,21 @@ L['forgotten_jewel_box_note'] = '從雍亞拉平原的嶺水靜地 (49.4 67.3) �
 L['gnoll_fiend_flail_note'] = '{item:199066} 可以在遠征隊斥侯包和挖過的土中找到.'
 L['pepper_hammer_note'] = '收集 |cFFFFFD00樹液|r 然後點選 |cFFFFFD00棍子|r 來引誘 {npc:195373}.\n\n|cFFFF0000(BUG: 要點選棍子可能需要你重載UI)|r'
 
-L['pt_alch_experimental_decay_sample_note'] = nil
-L['pt_alch_firewater_powder_sample_note'] = nil
-L['pt_ench_enriched_earthen_shard_note'] = nil
-L['pt_ench_faintly_enchanted_remains_note'] = nil
-L['pt_ench_forgotten_arcane_tome_note'] = nil
-L['pt_jewel_crystalline_overgrowth_note'] = nil
+L['pt_alch_experimental_decay_sample_note'] = '在一個綠色的大釜內'
+L['pt_alch_firewater_powder_sample_note'] = '在木頭房子外面的花瓶附近'
+L['pt_ench_enriched_earthen_shard_note'] = '在一堆石頭上'
+L['pt_ench_faintly_enchanted_remains_note'] = '點選 |cFFFFFD00Mana-Starved Crystal Cluster|r 來召喚並殺掉怪物. 然後拾取出現的水晶'
+L['pt_ench_forgotten_arcane_tome_note'] = '在墓地入口右邊的地上'
+L['pt_jewel_crystalline_overgrowth_note'] = '在小池塘邊'
 L['pt_jewel_harmonic_crystal_harmonizer_note'] = nil
-L['pt_leath_decay_infused_tanning_oil_note'] = nil
-L['pt_leath_treated_hides_note'] = nil
-L['pt_leath_well_danced_drum_note'] = nil
-L['pt_script_dusty_darkmoon_card_note'] = nil
-L['pt_script_frosted_parchment_note'] = nil
-L['pt_smith_spelltouched_tongs_note'] = nil
-L['pt_tailor_decaying_brackenhide_blanket_note'] = nil
-L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = nil
+L['pt_leath_decay_infused_tanning_oil_note'] = '在桶子裡'
+L['pt_leath_treated_hides_note'] = '在 |cFFFFFD00雪革營地|r'
+L['pt_leath_well_danced_drum_note'] = '和 {npc:186446} 跟 {npc:186448} 在一個地下建築物內. 修好 {npc:194862} 附近的鼓. 當他開始在上面跳舞時你就可以拾取物品.'
+L['pt_script_dusty_darkmoon_card_note'] = '在一個上層建築物內'
+L['pt_script_frosted_parchment_note'] = '在 {npc:190776} 後面'
+L['pt_smith_spelltouched_tongs_note'] = '在一個被堵住的小山洞裡'
+L['pt_tailor_decaying_brackenhide_blanket_note'] = '掛在一個臨時帳篷內的樹上'
+L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = '沿者階梯的左方'
 
 L['leyline_note'] = '重新校正地脈'
 L['options_icons_layline'] = '{achievement:16638}'
