@@ -8,7 +8,6 @@ local Class = ns.Class
 local Group = ns.Group
 
 local Collectible = ns.node.Collectible
-local NPC = ns.node.NPC
 local Node = ns.node.Node
 
 local Achievement = ns.reward.Achievement
@@ -27,8 +26,6 @@ ns.expansion = 10
 
 ns.groups.ANCESTOR = Group('ancestor', 135946, {defaults = ns.GROUP_HIDDEN})
 ns.groups.BAKAR = Group('bakar', 930453, {defaults = ns.GROUP_HIDDEN})
-ns.groups.BONUS_BOSS = Group('bonus_boss', 'peg_rd',
-    {defaults = ns.GROUP_HIDDEN})
 ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.DRAGONRACE =
@@ -42,18 +39,6 @@ ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.SCOUT_PACK =
     Group('scout_pack', 4562583, {defaults = ns.GROUP_HIDDEN})
-
--------------------------------------------------------------------------------
----------------------------- BONUS OBJECTIVE BOSSES ---------------------------
--------------------------------------------------------------------------------
-
-local BonusBoss = Class('BonusBoss', NPC, {
-    icon = 'peg_rd',
-    scale = 1.8,
-    group = ns.groups.BONUS_BOSS
-})
-
-ns.node.BonusBoss = BonusBoss
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------

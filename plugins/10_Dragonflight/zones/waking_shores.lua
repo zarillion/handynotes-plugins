@@ -6,7 +6,6 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local BonusBoss = ns.node.BonusBoss
 local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
@@ -19,7 +18,6 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
--- local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -290,7 +288,7 @@ map.nodes[42892832] = Rare({
     }
 }) -- Skewersnout
 
-map.nodes[24001800] = Rare({ -- review
+map.nodes[24001800] = Rare({
     id = 193175,
     quest = nil,
     rewards = {Achievement({id = 16676, criteria = 57003})}
@@ -338,6 +336,64 @@ map.nodes[30025534] = Rare({
         Transmog({item = 200563, slot = L['trinket']}) -- Primal Ritual Shell
     }
 }) -- Worldcarver A'tir
+
+-------------------------------------------------------------------------------
+
+-- These rares/elites are not part of the adventurer achievement for the zone
+
+map.nodes[77302198] = Rare({ -- review (no quest debug at the time)
+    id = 187111,
+    quest = nil, -- 69931?
+    note = L['in_small_cave'],
+    rewards = {
+        Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
+    },
+    pois = {
+        POI({77902281}) -- Entrance
+    }
+}) -- Ancient Hornswog
+
+map.nodes[64173289] = Rare({
+    id = 191611,
+    quest = 72838, -- 66956
+    rewards = {
+        Transmog({item = 200169, slot = L['1h_mace']}) -- Protector's Molten Cudgel
+    }
+}) -- Dragonhunter Igordan
+
+map.nodes[54728225] = Rare({
+    id = 187209,
+    quest = 72841, -- 66960
+    rewards = {
+        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
+        Item({item = 196991, quest = 69191}), -- Cliffside Wylderdrake: Black Horns
+        Item({item = 197023, quest = 69223}), -- Cliffside Wylderdrake: Maned Neck
+        Toy({item = 200198}) -- Primalist Prison
+    }
+}) -- Klozicc the Ascended
+
+map.nodes[81133794] = Rare({
+    id = 184853,
+    quest = 72843, -- 66074
+    note = L['in_small_cave'],
+    rewards = {
+        Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Item({item = 196976, quest = 69176}), -- Cliffside Wylderdrake: Head Mane
+        Toy({item = 200249}) -- Mage's Chewed Wand
+    },
+    pois = {
+        POI({81713719}) -- Entrance
+    }
+}) -- Primal Scythid Queen
+
+map.nodes[60598285] = Rare({
+    id = 193171,
+    quest = 72850,
+    rewards = {
+        Transmog({item = 200208, slot = L['cloth']}) -- Cloud Coalescing Handwraps
+    }
+}) -- Terillod the Devout
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -487,64 +543,6 @@ map.nodes[26239233] = PetBattle({
         Achievement({id = 16511, criteria = 8, oneline = true}) -- Undead
     }
 }) -- Swog
-
--------------------------------------------------------------------------------
----------------------------- BONUS OBJECTIVE BOSSES ---------------------------
--------------------------------------------------------------------------------
-
-map.nodes[77302198] = BonusBoss({ -- review (no quest debug at the time)
-    id = 187111,
-    quest = nil, -- 69931?
-    note = L['in_small_cave'],
-    rewards = {
-        Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
-    },
-    pois = {
-        POI({77902281}) -- Entrance
-    }
-}) -- Ancient Hornswog
-
-map.nodes[64173289] = BonusBoss({
-    id = 191611,
-    quest = 72838, -- 66956
-    rewards = {
-        Transmog({item = 200169, slot = L['1h_mace']}) -- Protector's Molten Cudgel
-    }
-}) -- Dragonhunter Igordan
-
-map.nodes[54728225] = BonusBoss({
-    id = 187209,
-    quest = 72841, -- 66960
-    rewards = {
-        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
-        Item({item = 196991, quest = 69191}), -- Cliffside Wylderdrake: Black Horns
-        Item({item = 197023, quest = 69223}), -- Cliffside Wylderdrake: Maned Neck
-        Toy({item = 200198}) -- Primalist Prison
-    }
-}) -- Klozicc the Ascended
-
-map.nodes[81133794] = BonusBoss({
-    id = 184853,
-    quest = 72843, -- 66074
-    note = L['in_small_cave'],
-    rewards = {
-        Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
-        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
-        Item({item = 196976, quest = 69176}), -- Cliffside Wylderdrake: Head Mane
-        Toy({item = 200249}) -- Mage's Chewed Wand
-    },
-    pois = {
-        POI({81713719}) -- Entrance
-    }
-}) -- Primal Scythid Queen
-
-map.nodes[60598285] = BonusBoss({
-    id = 193171,
-    quest = 72850,
-    rewards = {
-        Transmog({item = 200208, slot = L['cloth']}) -- Cloud Coalescing Handwraps
-    }
-}) -- Terillod the Devout
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------

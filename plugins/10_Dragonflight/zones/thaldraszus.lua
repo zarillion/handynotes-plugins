@@ -2,12 +2,9 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
--- local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local BonusBoss = ns.node.BonusBoss
--- local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
@@ -19,7 +16,6 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
--- local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 
@@ -211,6 +207,27 @@ map.nodes[47884976] = Rare({
 }) -- Woolfang
 
 -------------------------------------------------------------------------------
+
+-- These rares/elites are not part of the adventurer achievement for the zone
+
+map.nodes[55647727] = Rare({
+    id = 193229,
+    quest = 72814, -- 69873
+    rewards = {
+        Item({item = 200880, note = L['trinket']}) -- Wind-Sealed Mana Capsule
+    }
+}) -- Henlare
+
+map.nodes[36757287] = Rare({
+    id = 193273,
+    quest = 72842,
+    rewards = {
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
+    }
+}) -- Liskron the Dazzling
+
+-------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -317,27 +334,6 @@ map.nodes[56274924] = PetBattle({
         Achievement({id = 16511, criteria = 6, oneline = true}) -- Undead
     }
 }) -- Setimothes
-
--------------------------------------------------------------------------------
----------------------------- BONUS OBJECTIVE BOSSES ---------------------------
--------------------------------------------------------------------------------
-
-map.nodes[55647727] = BonusBoss({
-    id = 193229,
-    quest = 72814, -- 69873
-    rewards = {
-        Item({item = 200880, note = L['trinket']}) -- Wind-Sealed Mana Capsule
-    }
-}) -- Henlare
-
-map.nodes[36757287] = BonusBoss({
-    id = 193273,
-    quest = 72842,
-    rewards = {
-        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
-        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
-    }
-}) -- Liskron the Dazzling
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
