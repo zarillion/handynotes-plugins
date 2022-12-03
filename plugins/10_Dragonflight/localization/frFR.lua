@@ -47,11 +47,8 @@ L['options_icons_dragonrace_desc'] = 'Afficher les emplacements des Courses du V
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['blisterhide_note'] = 'Apparaît simultanément avec {npc:197344}, {npc:197356} et {npc:197354}'
+L['brackenhide_note'] = nil
 L['fisherman_tinnak_note'] = 'Récupérez la |cFFFFFD00Canne à pêche cassée|r, le |cFFFFFD00Filet de pêche déchiré|r et le |cFFFFFD00Vieux harpon|r pour faire apparaître le rare.'
-L['gnarls_note'] = 'Apparaît simultanément avec {npc:197344}, {npc:197353} et {npc:197356}'
-L['high_shaman_rotknuckle_note'] = 'Apparaît simultanément avec {npc:197344}, {npc:197353} et {npc:197354}'
-L['snarglebone_note'] = 'Apparaît simultanément avec {npc:197353}, {npc:197356} et {npc:197354}'
 L['spellwrought_snowman_note'] = 'Récupérez 10x {npc:193424} et amenez-les au {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Récupérez un |cFFFFFD00Fragment chantant|r pour obtenir {spell:382076} et utilisez le |cFFFFFD00Focalisateur déchargé|r pour faire apparaître le rare.'
 

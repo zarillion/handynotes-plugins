@@ -108,12 +108,12 @@ map.nodes[13584855] = Rare({
 
 map.nodes[14053096] = Rare({
     id = 197353,
-    quest = nil,
-    fgroup = 'blackhide',
-    note = L['blisterhide_note'],
+    quest = 73985,
+    fgroup = 'brackenhide',
+    note = L['brackenhide_note'],
     rewards = {
-        Achievement({id = 16678, criteria = 56126})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16678, criteria = 56126}),
+        Transmog({item = 200442, slot = L['leather']}) -- Basilisk Hide Jerkin
     }
 }) -- Blisterhide
 
@@ -138,11 +138,11 @@ map.nodes[16622798] = Rare({
 
 map.nodes[27214490] = Rare({
     id = 193157,
-    quest = nil,
+    quest = 73873,
     rewards = {
         Achievement({id = 16678, criteria = 56098}),
-        Item({item = 197005, quest = 69205}) -- Cliffside Wylderdrake: Horned Nose
-        -- Transmog({item = , slot = L['']}) -- Name
+        Item({item = 197005, quest = 69205}), -- Cliffside Wylderdrake: Horned Nose
+        Transmog({item = 200302, slot = L['1h_sword']}) -- Magmaforged Scimitar
     },
     pois = {
         Path({
@@ -155,14 +155,15 @@ map.nodes[27214490] = Rare({
 
 map.nodes[50043631] = Rare({ -- review
     id = 193691,
-    quest = 72254, -- wrong id?
+    quest = 72254, -- wrong id? 72730, 74064?
     note = L['fisherman_tinnak_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56115}),
         Transmog({item = 199026, slot = L['1h_sword']}), -- Fire-Blessed Blade
+        Transmog({item = 200310, slot = L['back']}), -- Stole of the Iron Phantom
         Item({item = 197382, quest = 69583}), -- Renewed Proto-Drake: White Horns
+        Item({item = 196985, quest = 69185}), -- Cliffside Wylderdrake: Horned Jaw
         Item({item = 198070}) -- Tattered Seavine
-        -- Transmog({item = , slot = L['']}) -- Name
     },
     pois = {POI({50523672, 49973821, 49223842})}
 }) -- Fisherman Tinnak
@@ -189,8 +190,8 @@ map.nodes[64992995] = Rare({
 map.nodes[14083747] = Rare({
     id = 197354,
     quest = nil,
-    fgroup = 'blackhide',
-    note = L['gnarls_note'],
+    fgroup = 'brackenhide',
+    note = L['brackenhide_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56127})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -218,8 +219,8 @@ map.nodes[19234362] = Rare({ -- required 67030
 map.nodes[16213364] = Rare({
     id = 197356,
     quest = nil,
-    fgroup = 'blackhide',
-    note = L['high_shaman_rotknuckle_note'],
+    fgroup = 'brackenhide',
+    note = L['brackenhide_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56128})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -321,9 +322,9 @@ map.nodes[26494939] = Rare({ -- review -- required 67030
 
 map.nodes[10863229] = Rare({
     id = 197344,
-    quest = nil,
-    fgroup = 'blackhide',
-    note = L['snarglebone_note'],
+    quest = 74032,
+    fgroup = 'brackenhide',
+    note = L['brackenhide_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56125})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -384,14 +385,14 @@ map.nodes[70222532] = Rare({
     pois = {POI({70432369})}
 }) -- Trilvarus Loreweaver
 
--- map.nodes[] = Rare({
---     id = 193632,
---     quest = 69948,
---     rewards = {
---         Achievement({id = 16678, criteria = 56097}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Wilrive
+map.nodes[59405520] = Rare({
+    id = 193632,
+    quest = 73900,
+    rewards = {
+        Achievement({id = 16678, criteria = 56097}),
+        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
+    }
+}) -- Wilrive
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -551,7 +552,14 @@ map.nodes[70143327] = BonusBoss({
     }
 }) -- Summoned Destroyer
 
--- map.nodes[17254144] = BonusBoss({id = 193223, quest = nil}) -- Vakril
+map.nodes[17254144] = BonusBoss({
+    id = 193223,
+    quest = 72853, -- 69872
+    rewards = {
+        Item({item = 201728}), -- Vakril's Strongbox
+        Item({item = 197001, quest = 69201}) -- Cliffside Wylderdrake: Finned Cheek
+    }
+}) -- Vakril
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------

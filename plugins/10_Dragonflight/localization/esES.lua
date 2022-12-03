@@ -47,11 +47,8 @@ L['options_icons_dragonrace_desc'] = 'Muestra dónde están las Carreras de Drag
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['blisterhide_note'] = 'Aparece simultáneamente con {npc:197344}, {npc:197356} y {npc:197354}.'
+L['brackenhide_note'] = nil
 L['fisherman_tinnak_note'] = 'Recoge la |cFFFFFD00Caña de Pescar Rota|r, la |cFFFFFD00Red de Pescar Rota|r y el |cFFFFFD00Arpón Viejo|r para hacer aparecer al raro.'
-L['gnarls_note'] = 'Aparece simultáneamente con {npc:197344}, {npc:197353} y {npc:197356}.'
-L['high_shaman_rotknuckle_note'] = 'Aparece simultáneamente con {npc:197344}, {npc:197353} y {npc:197354}.'
-L['snarglebone_note'] = 'Aparece simultáneamente con {npc:197353}, {npc:197356} y {npc:197354}.'
 L['spellwrought_snowman_note'] = 'Consigue 10x {npc:193424} y llévaselas a {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Recoge un |cFFFFFD00Fragmento Cantarín|r para conseguir {spell:382076} y usar el |cFFFFFD00Enfoque Descargado|r para hacer aparecer al raro.'
 

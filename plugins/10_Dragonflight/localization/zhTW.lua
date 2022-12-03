@@ -46,11 +46,8 @@ L['options_icons_dragonrace_desc'] = '顯示飛龍競速的位置.'
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['blisterhide_note'] = '和 {npc:197344}, {npc:197356}, {npc:197354} 同時出現'
+L['brackenhide_note'] = nil
 L['fisherman_tinnak_note'] = '收集 破損的釣魚竿, 撕裂的釣魚網 和 老舊的魚叉 來召喚稀有.'
-L['gnarls_note'] = '和 {npc:197344}, {npc:197353}, {npc:197356} 同時出現'
-L['high_shaman_rotknuckle_note'] = '和 {npc:197344}, {npc:197353}, {npc:197354} 同時出現'
-L['snarglebone_note'] = '和 {npc:197353}, {npc:197356}, {npc:197354} 同時出現'
 L['spellwrought_snowman_note'] = '收集 10個 {npc:193424} 並且帶他們到 {npc:193242}.'
 L['trilvarus_loreweaver_note'] = '收集一個歌唱碎片來取得 {spell:382076} 後使用 Uncharded Focus 來召喚稀有.'
 

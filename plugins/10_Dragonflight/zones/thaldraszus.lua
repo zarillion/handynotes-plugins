@@ -205,6 +205,7 @@ map.nodes[47884976] = Rare({
     note = L['woofang_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56152}),
+        Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
         Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
     }
 }) -- Woolfang
@@ -275,7 +276,6 @@ map.nodes[52458361] = Treasure({
     rewards = {
         Pet({item = 201463, id = 3415}) -- Cubbly
     }
-
 }) -- Strange Bear Cub
 
 -------------------------------------------------------------------------------

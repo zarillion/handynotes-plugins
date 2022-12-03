@@ -65,9 +65,12 @@ map.nodes[28635882] = Rare({ -- review
 
 map.nodes[52916529] = Rare({
     id = 192738,
-    quest = nil,
+    quest = 73890,
     note = L['brundin_the_dragonbane_note'],
-    rewards = {Achievement({id = 16676, criteria = 56038})},
+    rewards = {
+        Achievement({id = 16676, criteria = 56038}),
+        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
+    },
     pois = {
         Path({
             52916529, 53126596, 52996668, 51666681, 49796541, 48726550,
