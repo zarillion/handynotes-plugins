@@ -113,12 +113,18 @@ function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
 
 local Profession = Class('Profession', Requirement)
 
-function Profession:Initialize(skillID)
-    self.profession = skillID
+-- categoryID is ignored for now. Data for a profession category (expansion)
+-- cannot be queried until the player opens their profession window.
+function Profession:Initialize(skillID, categoryID, level)
+    self.skillID = skillID
+    self.categoryID = categoryID
+    self.level = level
     self.text = C_TradeSkillUI.GetTradeSkillDisplayName(skillID)
+
+    if level then self.text = self.text .. ' (' .. level .. ')' end
 end
 
-function Profession:IsMet() return ns.PlayerHasProfession(self.profession) end
+function Profession:IsMet() return ns.PlayerHasProfession(self.skillID) end
 
 -------------------------------------------------------------------------------
 ------------------------------------ QUEST ------------------------------------
