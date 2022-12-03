@@ -1,3 +1,8 @@
+# v8
+
+* Added note of level 25 requirement for profession treasures.
+* Added ancestor locations for the Honor Our Ancestors achievement.
+
 # v7
 
 * Added profession treasure locations for knowledge points.
