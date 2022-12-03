@@ -715,7 +715,7 @@ map.nodes[26533590] = LayLine({
 }) -- Ancient Outlook
 
 map.nodes[65885066] = LayLine({
-    requires = ns.requirement.Profession(6), -- Mining
+    requires = ns.requirement.Profession(186), -- Mining
     quest = 72136,
     rewards = {Achievement({id = 16638, criteria = 55974})}
 }) -- Rustpine Den
@@ -809,7 +809,7 @@ map.nodes[16574937] = ns.node.Dragonrace({
 
 map.nodes[48473578] = ns.node.Dragonrace({
     label = '{quest:67565}',
-    normal = {2018, 79, 76},
+    normal = {2085, 79, 76},
     advanced = {2086, 77, 72},
     rewards = {
         Achievement({id = 15921, criteria = 5, oneline = true}), -- normal bronze
