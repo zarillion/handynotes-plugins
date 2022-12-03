@@ -113,8 +113,6 @@ function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
 
 local Profession = Class('Profession', Requirement)
 
--- categoryID is ignored for now. Data for a profession category (expansion)
--- cannot be queried until the player opens their profession window.
 function Profession:Initialize(skillID, variantID, level)
     self.skillID = skillID
     self.variantID = variantID
