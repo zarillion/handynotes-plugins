@@ -618,6 +618,7 @@ map.nodes[79823175] = Scoutpack()
 map.nodes[47914077] = ns.node.Dragonrace({
     label = '{quest:66946}',
     normal = {2074, 66, 63},
+    advanced = {2075, 63, 58},
     rewards = {
         Achievement({id = 15921, criteria = 1, oneline = true}), -- normal bronze
         Achievement({id = 15922, criteria = 1, oneline = true}), -- normal silver
@@ -631,6 +632,7 @@ map.nodes[47914077] = ns.node.Dragonrace({
 map.nodes[20952262] = ns.node.Dragonrace({
     label = '{quest:67002}',
     normal = {2076, 61, 58},
+    advanced = {2077, 61, 56},
     rewards = {
         Achievement({id = 15921, criteria = 2, oneline = true}), -- normal bronze
         Achievement({id = 15922, criteria = 2, oneline = true}), -- normal silver
@@ -644,6 +646,7 @@ map.nodes[20952262] = ns.node.Dragonrace({
 map.nodes[71292466] = ns.node.Dragonrace({
     label = '{quest:67031}',
     normal = {2078, 61, 58},
+    advanced = {2079, 61, 56},
     rewards = {
         Achievement({id = 15921, criteria = 3, oneline = true}), -- normal bronze
         Achievement({id = 15922, criteria = 3, oneline = true}), -- normal silver
@@ -657,6 +660,7 @@ map.nodes[71292466] = ns.node.Dragonrace({
 map.nodes[16574937] = ns.node.Dragonrace({
     label = '{quest:67296}',
     normal = {2083, 78, 75},
+    advanced = {2084, 75, 70},
     rewards = {
         Achievement({id = 15921, criteria = 4, oneline = true}), -- normal bronze
         Achievement({id = 15922, criteria = 4, oneline = true}), -- normal silver
@@ -670,6 +674,7 @@ map.nodes[16574937] = ns.node.Dragonrace({
 map.nodes[48473578] = ns.node.Dragonrace({
     label = '{quest:67565}',
     normal = {2018, 79, 76},
+    advanced = {2086, 77, 72},
     rewards = {
         Achievement({id = 15921, criteria = 5, oneline = true}), -- normal bronze
         Achievement({id = 15922, criteria = 5, oneline = true}), -- normal silver
@@ -683,6 +688,7 @@ map.nodes[48473578] = ns.node.Dragonrace({
 map.nodes[42265676] = ns.node.Dragonrace({
     label = '{quest:67741}',
     normal = {2089, 94, 91},
+    advanced = {2090, 86, 81},
     rewards = {
         Achievement({id = 15921, criteria = 6, oneline = true}), -- normal bronze
         Achievement({id = 15922, criteria = 6, oneline = true}), -- normal silver
