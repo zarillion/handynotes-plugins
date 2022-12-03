@@ -110,7 +110,7 @@ map.nodes[14053096] = Rare({
     id = 197353,
     quest = 73985,
     fgroup = 'brackenhide',
-    note = L['brackenhide_note'],
+    note = L['brackenhide_rare_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56126}),
         Transmog({item = 200442, slot = L['leather']}) -- Basilisk Hide Jerkin
@@ -191,7 +191,7 @@ map.nodes[14083747] = Rare({
     id = 197354,
     quest = nil,
     fgroup = 'brackenhide',
-    note = L['brackenhide_note'],
+    note = L['brackenhide_rare_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56127})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -220,7 +220,7 @@ map.nodes[16213364] = Rare({
     id = 197356,
     quest = nil,
     fgroup = 'brackenhide',
-    note = L['brackenhide_note'],
+    note = L['brackenhide_rare_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56128})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -324,7 +324,7 @@ map.nodes[10863229] = Rare({
     id = 197344,
     quest = 74032,
     fgroup = 'brackenhide',
-    note = L['brackenhide_note'],
+    note = L['brackenhide_rare_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56125})
         -- Transmog({item = , slot = L['']}) -- Name

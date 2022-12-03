@@ -46,7 +46,7 @@ L['options_icons_dragonrace_desc'] = '顯示飛龍競速的位置.'
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['brackenhide_note'] = nil
+L['brackenhide_rare_note'] = nil
 L['fisherman_tinnak_note'] = '收集 破損的釣魚竿, 撕裂的釣魚網 和 老舊的魚叉 來召喚稀有.'
 L['spellwrought_snowman_note'] = '收集 10個 {npc:193424} 並且帶他們到 {npc:193242}.'
 L['trilvarus_loreweaver_note'] = '收集一個歌唱碎片來取得 {spell:382076} 後使用 Uncharded Focus 來召喚稀有.'
@@ -171,7 +171,8 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = nil
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = '喀拉希戰爭隊伍坐在他們的 {npc:192737} 旅行到這座塔.'
-L['shasith_note'] = '在黑曜王座內. \n\n你和其他玩家必須要繳交總共20個 {item:191264}. 要鑄造鑰匙你需要結合30個 {item:191251} 和3個 {item:193201}, 你可以在黑曜王座的怪物身上取得這些物品'
+L['obsidian_citadel_rare_note'] = '你和其他玩家必須要繳交總共%d個 {item:191264} %s. 要鑄造鑰匙你需要結合30個 {item:191251} 和3個 {item:193201}, 你可以在黑曜王座的怪物身上取得這些物品' -- pls review
+L['shasith_note'] = '在黑曜王座內. '
 L['worldcarver_atir_note'] = '從附近的 {npc:187366} 收集3個 {item:191211}, 並且將他們放置在 {npc:197395} 來召喚稀有'
 
 L['bubble_drifter_note'] = '{item:199061} 可以在遠征隊斥侯包和挖過的土中找到.'

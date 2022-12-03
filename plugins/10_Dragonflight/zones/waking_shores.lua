@@ -59,7 +59,7 @@ map.nodes[54517174] = Rare({ -- review -- required 67030
 
 map.nodes[28635882] = Rare({ -- review
     id = 190986,
-    quest = nil,
+    quest = 74040,
     rewards = {Achievement({id = 16676, criteria = 56059})}
 }) -- Battlehorn Pyrhus
 
@@ -83,7 +83,7 @@ map.nodes[52916529] = Rare({
 
 map.nodes[26847642] = Rare({
     id = 193198,
-    quest = 72127,
+    quest = 72127, -- 73075
     rewards = {
         Achievement({id = 16676, criteria = 56050}),
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
@@ -95,8 +95,11 @@ map.nodes[26847642] = Rare({
 
 map.nodes[26285788] = Rare({
     id = 186783,
-    quest = nil,
-    rewards = {Achievement({id = 16676, criteria = 56056})},
+    quest = 74042,
+    rewards = {
+        Achievement({id = 16676, criteria = 56056}),
+        Transmog({item = 200757, slot = L['plate']})
+    },
     pois = {
         Path({
             26285788, 26545827, 25985955, 26315995, 26585932, 27316007,
@@ -113,11 +116,13 @@ map.nodes[29485272] = Rare({ -- review
 
 map.nodes[31785474] = Rare({ -- review -- required 67030
     id = 190985,
-    quest = nil,
+    quest = 73074,
+    note = format(L['obsidian_citadel_rare_note'], 20, '{npc:187447}'),
     rewards = {
         Achievement({id = 16676, criteria = 56053}),
         Achievement({id = 16496, criteria = 55867}) -- Obsidian Champion
-    }
+    },
+    pois = {POI({27735660})} -- Sabellian
 }) -- Death's Shadow
 
 map.nodes[60204535] = Rare({
@@ -148,7 +153,7 @@ map.nodes[21626478] = Rare({ -- review
 
 map.nodes[33127632] = Rare({
     id = 193154,
-    quest = 72130,
+    quest = 72130, -- 73073
     rewards = {
         Achievement({id = 16676, criteria = 56048}),
         Item({item = 200858, note = L['trinket']}), -- Plume of the Forgotten
@@ -190,10 +195,12 @@ map.nodes[22207649] = Rare({ -- review -- required 67030
 map.nodes[32225193] = Rare({ -- review
     id = 187306,
     quest = nil,
+    note = format(L['obsidian_citadel_rare_note'], 10, '{npc:187275}'),
     rewards = {
         Achievement({id = 16676, criteria = 56988}),
         Achievement({id = 16496, criteria = 55868}) -- Obsidian Champion
-    }
+    },
+    pois = {POI({32245246})} -- Igys the Believer
 }) -- Morchok
 
 map.nodes[56004592] = Rare({
@@ -226,13 +233,16 @@ map.nodes[64926956] = Rare({
 
 map.nodes[30226045] = Rare({ -- review
     id = 193232,
-    quest = nil,
-    rewards = {Achievement({id = 16676, criteria = 56061})}
+    quest = 74051,
+    rewards = {
+        Achievement({id = 16676, criteria = 56061}),
+        Item({item = 197005, quest = 69205}) -- Cliffside Wylderdrake: Horned Nose
+    }
 }) -- Rasnar the War Ender
 
 map.nodes[25366070] = Rare({
     id = 187598,
-    quest = nil,
+    quest = 74052,
     rewards = {Achievement({id = 16676, criteria = 56057})}
 }) -- Rohzor Forgesmash
 
@@ -248,13 +258,20 @@ map.nodes[46997332] = Rare({
 
 map.nodes[23755734] = Rare({ -- review -- required 67030
     id = 189822,
-    quest = nil,
-    note = L['shasith_note'],
+    quest = 74077,
+    note = L['shasith_note'] .. ' ' ..
+        format(L['obsidian_citadel_rare_note'], 20, '{npc:187284}'),
     rewards = {
         Achievement({id = 16676, criteria = 56054}),
-        Achievement({id = 16496, criteria = 55869}) -- Obsidian Champion
+        Achievement({id = 16496, criteria = 55869}), -- Obsidian Champion
+        Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
     },
-    pois = {POI({27226096})} -- Entrance
+    pois = {
+        POI({
+            27226096, -- Entrance
+            26836257 -- Furorion
+        })
+    }
 }) -- Shas'ith
 
 map.nodes[42892832] = Rare({
@@ -303,18 +320,22 @@ map.nodes[45453540] = Rare({
 
 map.nodes[33525576] = Rare({
     id = 187886,
-    quest = nil,
+    quest = 74054,
     note = L['in_small_cave'],
-    rewards = {Achievement({id = 16676, criteria = 56058})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56058}),
+        Transmog({item = 200563, slot = L['trinket']}) -- Primal Ritual Shell
+    }
 }) -- Turboris
 
 map.nodes[30025534] = Rare({
     id = 186859,
-    quest = 70763,
+    quest = 70763, -- 74090
     note = L['worldcarver_atir_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56052}),
-        Transmog({item = 200213, slot = L['plate']}) -- Lava-Splattered Breastplate
+        Transmog({item = 200213, slot = L['plate']}), -- Lava-Splattered Breastplate
+        Transmog({item = 200563, slot = L['trinket']}) -- Primal Ritual Shell
     }
 }) -- Worldcarver A'tir
 
@@ -473,7 +494,7 @@ map.nodes[26239233] = PetBattle({
 
 map.nodes[77302198] = BonusBoss({ -- review (no quest debug at the time)
     id = 187111,
-    quest = nil,
+    quest = nil, -- 69931?
     note = L['in_small_cave'],
     rewards = {
         Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
