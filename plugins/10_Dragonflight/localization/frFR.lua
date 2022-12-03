@@ -137,7 +137,7 @@ L['options_icons_bakar_desc'] = 'Afficher l\'emplacement de tous les chiens (bak
 
 L['ancestor_note'] = 'Obtenez le buff {spell:369277} (1 heure) dans une tente à l\'|cFFFFFD00Avant-poste de Pas-de-bois|r grâce à une |cFFFFFD00Essence de l’éveil|r pour voir l\'ancêtre et lui offrir l\'objet requis.'
 L['options_icons_ancestor'] = '{achievement:16423}'
-L['options_icons_ancestor_desc'] = 'Afficher les emplacements des ancêtres pour {achievement:16574}.'
+L['options_icons_ancestor_desc'] = 'Afficher les emplacements des ancêtres pour {achievement:16423}.'
 
 L['dreamguard_note'] = 'Ciblez le Garde-rêve et ' .. ns.color.Orange('/dormir')
 L['options_icons_dreamguard'] = '{achievement:16574}'
@@ -164,7 +164,7 @@ L['pt_script_counterfeit_darkmoon_deck_note'] = 'Parlez à {npc:194856} et propo
 L['pt_script_forgetful_apprentices_tome_note'] = 'Sur une table près d\'un grand télescope.'
 L['pt_script_how_to_train_your_whelpling_note'] = 'Un petit livre marron posé dans le bac à sable.'
 L['pt_smith_draconic_flux_note'] = 'A l\'intérieur d\'un bâtiment.'
-L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Cliquez sur le Rouet tisse-dragon ancien pour effectuer un mini-jeu où vous devez relier les bobines de fil à la gemme centrale.'
+L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Cliquez sur le |cFFFFFD00Rouet tisse-dragon ancien|r pour effectuer un mini-jeu où vous devez relier les bobines de fil à la gemme centrale.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Une petite bannière dans un tas de sable.'
 
 -------------------------------------------------------------------------------
