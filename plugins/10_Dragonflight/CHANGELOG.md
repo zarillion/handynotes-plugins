@@ -1,6 +1,9 @@
 # v6
 
+* Added a new "Add group to TomTom" menu option.
 * Added dragon riding race locations (with normal and advanced timer tracking).
+* Added missing flags for The Highest Peaks.
+* More rare and treasure updates.
 
 # v5
 
