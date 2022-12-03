@@ -209,27 +209,6 @@ map.nodes[47884976] = Rare({
 }) -- Woolfang
 
 -------------------------------------------------------------------------------
----------------------------- BONUS OBJECTIVE BOSSES ---------------------------
--------------------------------------------------------------------------------
-
-map.nodes[55647727] = BonusBoss({
-    id = 193229,
-    quest = 72814, -- 69873
-    rewards = {
-        Item({item = 200880, note = L['trinket']}) -- Wind-Sealed Mana Capsule
-    }
-}) -- Henlare
-
-map.nodes[36757287] = BonusBoss({
-    id = 193273,
-    quest = 72842,
-    rewards = {
-        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
-        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
-    }
-}) -- Liskron the Dazzling
-
--------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -297,6 +276,67 @@ map.nodes[52458361] = Treasure({
     }
 
 }) -- Strange Bear Cub
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[39467359] = PetBattle({
+    id = 197336,
+    rewards = {
+        Achievement({id = 16464, criteria = 55490}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 3, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 3, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 3, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 3, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 3, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 3, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 3, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 3, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 3, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 3, oneline = true}) -- Undead
+    }
+}) -- Enyobon
+
+map.nodes[56274924] = PetBattle({
+    id = 197350,
+    rewards = {
+        Achievement({id = 16464, criteria = 55493}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 6, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 6, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 6, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 6, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 6, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 6, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 6, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 6, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 6, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 6, oneline = true}) -- Undead
+    }
+}) -- Setimothes
+
+-------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[55647727] = BonusBoss({
+    id = 193229,
+    quest = 72814, -- 69873
+    rewards = {
+        Item({item = 200880, note = L['trinket']}) -- Wind-Sealed Mana Capsule
+    }
+}) -- Henlare
+
+map.nodes[36757287] = BonusBoss({
+    id = 193273,
+    quest = 72842,
+    rewards = {
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
+    }
+}) -- Liskron the Dazzling
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
@@ -441,43 +481,3 @@ map.nodes[58043367] = ns.node.Dragonrace({
         Achievement({id = 15938, criteria = 6, oneline = true}) -- advanced gold
     }
 }) -- Caverns Criss-Cross
-
--------------------------------------------------------------------------------
---------------------------------- BATTLE PETS ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[39467359] = PetBattle({
-    id = 197336,
-    rewards = {
-        Achievement({id = 16464, criteria = 55490}), -- Battle on the Dragon Isles
-        ns.reward.Spacer(),
-        Achievement({id = 16501, criteria = 3, oneline = true}), -- Aquatic
-        Achievement({id = 16503, criteria = 3, oneline = true}), -- Beast
-        Achievement({id = 16504, criteria = 3, oneline = true}), -- Critter
-        Achievement({id = 16505, criteria = 3, oneline = true}), -- Dragon
-        Achievement({id = 16506, criteria = 3, oneline = true}), -- Elemental
-        Achievement({id = 16507, criteria = 3, oneline = true}), -- Flying
-        Achievement({id = 16508, criteria = 3, oneline = true}), -- Humanoid
-        Achievement({id = 16509, criteria = 3, oneline = true}), -- Magic
-        Achievement({id = 16510, criteria = 3, oneline = true}), -- Mechanical
-        Achievement({id = 16511, criteria = 3, oneline = true}) -- Undead
-    }
-}) -- Enyobon
-
-map.nodes[56274924] = PetBattle({
-    id = 197350,
-    rewards = {
-        Achievement({id = 16464, criteria = 55493}), -- Battle on the Dragon Isles
-        ns.reward.Spacer(),
-        Achievement({id = 16501, criteria = 6, oneline = true}), -- Aquatic
-        Achievement({id = 16503, criteria = 6, oneline = true}), -- Beast
-        Achievement({id = 16504, criteria = 6, oneline = true}), -- Critter
-        Achievement({id = 16505, criteria = 6, oneline = true}), -- Dragon
-        Achievement({id = 16506, criteria = 6, oneline = true}), -- Elemental
-        Achievement({id = 16507, criteria = 6, oneline = true}), -- Flying
-        Achievement({id = 16508, criteria = 6, oneline = true}), -- Humanoid
-        Achievement({id = 16509, criteria = 6, oneline = true}), -- Magic
-        Achievement({id = 16510, criteria = 6, oneline = true}), -- Mechanical
-        Achievement({id = 16511, criteria = 6, oneline = true}) -- Undead
-    }
-}) -- Setimothes

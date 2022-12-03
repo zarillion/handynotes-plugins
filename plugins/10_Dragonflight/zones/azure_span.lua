@@ -393,57 +393,6 @@ map.nodes[70222532] = Rare({
 -- }) -- Wilrive
 
 -------------------------------------------------------------------------------
----------------------------- BONUS OBJECTIVE BOSSES ---------------------------
--------------------------------------------------------------------------------
-
-map.nodes[28564743] = BonusBoss({
-    id = 195353,
-    quest = nil,
-    note = L['breezebiter_note'],
-    rewards = {
-        Mount({item = 201440, id = 1553}) -- Liberated Slyvern
-    },
-    pois = {
-        Path({
-            28564743, 28304800, 27944822, 26974854, 26364841, 26074796,
-            25824706, 25764642, 26134540, 26374491, 27124437, 27554428,
-            28164470, 28614643, 28564743
-        })
-    }
-}) -- Breezebiter
-
-map.nodes[23503317] = BonusBoss({
-    id = 186962,
-    quest = 72836,
-    rewards = {
-        Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
-        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
-        Item({item = 197098, quest = 69299}) -- Highland Drake: Finned Back
-    }
-}) -- Cascade
-
-map.nodes[38155901] = BonusBoss({
-    id = 193214,
-    quest = 72840, -- 69864
-    note = L['in_cave'],
-    rewards = {
-        Item({item = 200210, note = L['neck']}) -- Amnesia
-    },
-    pois = {POI({38625988})}
-}) -- Forgotten Creation
-
-map.nodes[70143327] = BonusBoss({
-    id = 193288,
-    quest = 72848,
-    rewards = {
-        Item({item = 198048}), -- Titan Training Matrix I
-        Item({item = 200868, note = L['trinket']}) -- Intefrated Primal Fire
-    }
-}) -- Summoned Destroyer
-
--- map.nodes[17254144] = BonusBoss({id = 193223, quest = nil}) -- Vakril
-
--------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -511,6 +460,97 @@ map.nodes[48632466] = Treasure({
         Item({item = 200866}) -- Glimmering Malygite Cluster
     }
 }) -- Sapphire Gem Cluster
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[40985940] = PetBattle({
+    id = 197417,
+    rewards = {
+        Achievement({id = 16464, criteria = 55487}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 1, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 1, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 1, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 1, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 1, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 1, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 1, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 1, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 1, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 1, oneline = true}) -- Undead
+    }
+}) -- Arcantus
+
+map.nodes[13884986] = PetBattle({
+    id = 196069,
+    rewards = {
+        Achievement({id = 16464, criteria = 55489}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 5, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 5, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 5, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 5, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 5, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 5, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 5, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 5, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 5, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 5, oneline = true}) -- Undead
+    }
+}) -- Patchu
+
+-------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[28564743] = BonusBoss({
+    id = 195353,
+    quest = nil,
+    note = L['breezebiter_note'],
+    rewards = {
+        Mount({item = 201440, id = 1553}) -- Liberated Slyvern
+    },
+    pois = {
+        Path({
+            28564743, 28304800, 27944822, 26974854, 26364841, 26074796,
+            25824706, 25764642, 26134540, 26374491, 27124437, 27554428,
+            28164470, 28614643, 28564743
+        })
+    }
+}) -- Breezebiter
+
+map.nodes[23503317] = BonusBoss({
+    id = 186962,
+    quest = 72836,
+    rewards = {
+        Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
+        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        Item({item = 197098, quest = 69299}) -- Highland Drake: Finned Back
+    }
+}) -- Cascade
+
+map.nodes[38155901] = BonusBoss({
+    id = 193214,
+    quest = 72840, -- 69864
+    note = L['in_cave'],
+    rewards = {
+        Item({item = 200210, note = L['neck']}) -- Amnesia
+    },
+    pois = {POI({38625988})}
+}) -- Forgotten Creation
+
+map.nodes[70143327] = BonusBoss({
+    id = 193288,
+    quest = 72848,
+    rewards = {
+        Item({item = 198048}), -- Titan Training Matrix I
+        Item({item = 200868, note = L['trinket']}) -- Intefrated Primal Fire
+    }
+}) -- Summoned Destroyer
+
+-- map.nodes[17254144] = BonusBoss({id = 193223, quest = nil}) -- Vakril
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
@@ -698,43 +738,3 @@ map.nodes[42265676] = ns.node.Dragonrace({
         Achievement({id = 15935, criteria = 6, oneline = true}) -- advanced gold
     }
 }) -- Archive Ambit
-
--------------------------------------------------------------------------------
---------------------------------- BATTLE PETS ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[40985940] = PetBattle({
-    id = 197417,
-    rewards = {
-        Achievement({id = 16464, criteria = 55487}), -- Battle on the Dragon Isles
-        ns.reward.Spacer(),
-        Achievement({id = 16501, criteria = 1, oneline = true}), -- Aquatic
-        Achievement({id = 16503, criteria = 1, oneline = true}), -- Beast
-        Achievement({id = 16504, criteria = 1, oneline = true}), -- Critter
-        Achievement({id = 16505, criteria = 1, oneline = true}), -- Dragon
-        Achievement({id = 16506, criteria = 1, oneline = true}), -- Elemental
-        Achievement({id = 16507, criteria = 1, oneline = true}), -- Flying
-        Achievement({id = 16508, criteria = 1, oneline = true}), -- Humanoid
-        Achievement({id = 16509, criteria = 1, oneline = true}), -- Magic
-        Achievement({id = 16510, criteria = 1, oneline = true}), -- Mechanical
-        Achievement({id = 16511, criteria = 1, oneline = true}) -- Undead
-    }
-}) -- Arcantus
-
-map.nodes[13884986] = PetBattle({
-    id = 196069,
-    rewards = {
-        Achievement({id = 16464, criteria = 55489}), -- Battle on the Dragon Isles
-        ns.reward.Spacer(),
-        Achievement({id = 16501, criteria = 5, oneline = true}), -- Aquatic
-        Achievement({id = 16503, criteria = 5, oneline = true}), -- Beast
-        Achievement({id = 16504, criteria = 5, oneline = true}), -- Critter
-        Achievement({id = 16505, criteria = 5, oneline = true}), -- Dragon
-        Achievement({id = 16506, criteria = 5, oneline = true}), -- Elemental
-        Achievement({id = 16507, criteria = 5, oneline = true}), -- Flying
-        Achievement({id = 16508, criteria = 5, oneline = true}), -- Humanoid
-        Achievement({id = 16509, criteria = 5, oneline = true}), -- Magic
-        Achievement({id = 16510, criteria = 5, oneline = true}), -- Mechanical
-        Achievement({id = 16511, criteria = 5, oneline = true}) -- Undead
-    }
-}) -- Patchu

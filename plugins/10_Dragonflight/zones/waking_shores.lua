@@ -315,64 +315,6 @@ map.nodes[30025534] = Rare({
 }) -- Worldcarver A'tir
 
 -------------------------------------------------------------------------------
----------------------------- BONUS OBJECTIVE BOSSES ---------------------------
--------------------------------------------------------------------------------
-
-map.nodes[77302198] = BonusBoss({ -- review (no quest debug at the time)
-    id = 187111,
-    quest = nil,
-    note = L['in_small_cave'],
-    rewards = {
-        Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
-    },
-    pois = {
-        POI({77902281}) -- Entrance
-    }
-}) -- Ancient Hornswog
-
-map.nodes[64173289] = BonusBoss({
-    id = 191611,
-    quest = 72838, -- 66956
-    rewards = {
-        Transmog({item = 200169, slot = L['1h_mace']}) -- Protector's Molten Cudgel
-    }
-}) -- Dragonhunter Igordan
-
-map.nodes[54728225] = BonusBoss({
-    id = 187209,
-    quest = 72841, -- 66960
-    rewards = {
-        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
-        Item({item = 196991, quest = 69191}), -- Cliffside Wylderdrake: Black Horns
-        Item({item = 197023, quest = 69223}), -- Cliffside Wylderdrake: Maned Neck
-        Toy({item = 200198}) -- Primalist Prison
-    }
-}) -- Klozicc the Ascended
-
-map.nodes[81133794] = BonusBoss({
-    id = 184853,
-    quest = 72843, -- 66074
-    note = L['in_small_cave'],
-    rewards = {
-        Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
-        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
-        Item({item = 196976, quest = 69176}), -- Cliffside Wylderdrake: Head Mane
-        Toy({item = 200249}) -- Mage's Chewed Wand
-    },
-    pois = {
-        POI({81713719}) -- Entrance
-    }
-}) -- Primal Scythid Queen
-
-map.nodes[60598285] = BonusBoss({
-    id = 193171,
-    quest = 72850,
-    rewards = {
-        Transmog({item = 200208, slot = L['cloth']}) -- Cloud Coalescing Handwraps
-    }
-}) -- Terillod the Devout
-
--------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -480,6 +422,104 @@ map.nodes[43156737] = Treasure({
     requires = ns.requirement.Item(191122), -- Fullsails Supply Chest Key
     label = L['fullsails_supply_chest']
 }) -- Fullsails Supply Chest
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[39028289] = PetBattle({
+    id = 196264,
+    rewards = {
+        Achievement({id = 16464, criteria = 55485}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 4, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 4, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 4, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 4, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 4, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 4, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 4, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 4, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 4, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 4, oneline = true}) -- Undead
+    }
+}) -- Haniko
+
+map.nodes[26239233] = PetBattle({
+    id = 189376,
+    rewards = {
+        Achievement({id = 16464, criteria = 55488}), -- Battle on the Dragon Isles
+        ns.reward.Spacer(),
+        Achievement({id = 16501, criteria = 8, oneline = true}), -- Aquatic
+        Achievement({id = 16503, criteria = 8, oneline = true}), -- Beast
+        Achievement({id = 16504, criteria = 8, oneline = true}), -- Critter
+        Achievement({id = 16505, criteria = 8, oneline = true}), -- Dragon
+        Achievement({id = 16506, criteria = 8, oneline = true}), -- Elemental
+        Achievement({id = 16507, criteria = 8, oneline = true}), -- Flying
+        Achievement({id = 16508, criteria = 8, oneline = true}), -- Humanoid
+        Achievement({id = 16509, criteria = 8, oneline = true}), -- Magic
+        Achievement({id = 16510, criteria = 8, oneline = true}), -- Mechanical
+        Achievement({id = 16511, criteria = 8, oneline = true}) -- Undead
+    }
+}) -- Swog
+
+-------------------------------------------------------------------------------
+---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[77302198] = BonusBoss({ -- review (no quest debug at the time)
+    id = 187111,
+    quest = nil,
+    note = L['in_small_cave'],
+    rewards = {
+        Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
+    },
+    pois = {
+        POI({77902281}) -- Entrance
+    }
+}) -- Ancient Hornswog
+
+map.nodes[64173289] = BonusBoss({
+    id = 191611,
+    quest = 72838, -- 66956
+    rewards = {
+        Transmog({item = 200169, slot = L['1h_mace']}) -- Protector's Molten Cudgel
+    }
+}) -- Dragonhunter Igordan
+
+map.nodes[54728225] = BonusBoss({
+    id = 187209,
+    quest = 72841, -- 66960
+    rewards = {
+        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
+        Item({item = 196991, quest = 69191}), -- Cliffside Wylderdrake: Black Horns
+        Item({item = 197023, quest = 69223}), -- Cliffside Wylderdrake: Maned Neck
+        Toy({item = 200198}) -- Primalist Prison
+    }
+}) -- Klozicc the Ascended
+
+map.nodes[81133794] = BonusBoss({
+    id = 184853,
+    quest = 72843, -- 66074
+    note = L['in_small_cave'],
+    rewards = {
+        Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Item({item = 196976, quest = 69176}), -- Cliffside Wylderdrake: Head Mane
+        Toy({item = 200249}) -- Mage's Chewed Wand
+    },
+    pois = {
+        POI({81713719}) -- Entrance
+    }
+}) -- Primal Scythid Queen
+
+map.nodes[60598285] = BonusBoss({
+    id = 193171,
+    quest = 72850,
+    rewards = {
+        Transmog({item = 200208, slot = L['cloth']}) -- Cloud Coalescing Handwraps
+    }
+}) -- Terillod the Devout
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
@@ -610,46 +650,6 @@ map.nodes[61886605] = Scoutpack()
 map.nodes[66505198] = Scoutpack()
 map.nodes[68225004] = Scoutpack()
 map.nodes[82055012] = Scoutpack()
-
--------------------------------------------------------------------------------
---------------------------------- BATTLE PETS ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[39028289] = PetBattle({
-    id = 196264,
-    rewards = {
-        Achievement({id = 16464, criteria = 55485}), -- Battle on the Dragon Isles
-        ns.reward.Spacer(),
-        Achievement({id = 16501, criteria = 4, oneline = true}), -- Aquatic
-        Achievement({id = 16503, criteria = 4, oneline = true}), -- Beast
-        Achievement({id = 16504, criteria = 4, oneline = true}), -- Critter
-        Achievement({id = 16505, criteria = 4, oneline = true}), -- Dragon
-        Achievement({id = 16506, criteria = 4, oneline = true}), -- Elemental
-        Achievement({id = 16507, criteria = 4, oneline = true}), -- Flying
-        Achievement({id = 16508, criteria = 4, oneline = true}), -- Humanoid
-        Achievement({id = 16509, criteria = 4, oneline = true}), -- Magic
-        Achievement({id = 16510, criteria = 4, oneline = true}), -- Mechanical
-        Achievement({id = 16511, criteria = 4, oneline = true}) -- Undead
-    }
-}) -- Haniko
-
-map.nodes[26239233] = PetBattle({
-    id = 189376,
-    rewards = {
-        Achievement({id = 16464, criteria = 55488}), -- Battle on the Dragon Isles
-        ns.reward.Spacer(),
-        Achievement({id = 16501, criteria = 8, oneline = true}), -- Aquatic
-        Achievement({id = 16503, criteria = 8, oneline = true}), -- Beast
-        Achievement({id = 16504, criteria = 8, oneline = true}), -- Critter
-        Achievement({id = 16505, criteria = 8, oneline = true}), -- Dragon
-        Achievement({id = 16506, criteria = 8, oneline = true}), -- Elemental
-        Achievement({id = 16507, criteria = 8, oneline = true}), -- Flying
-        Achievement({id = 16508, criteria = 8, oneline = true}), -- Humanoid
-        Achievement({id = 16509, criteria = 8, oneline = true}), -- Magic
-        Achievement({id = 16510, criteria = 8, oneline = true}), -- Mechanical
-        Achievement({id = 16511, criteria = 8, oneline = true}) -- Undead
-    }
-}) -- Swog
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
