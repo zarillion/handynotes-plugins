@@ -1,3 +1,7 @@
+# v7
+
+* Added profession treasure locations for knowledge points.
+
 # v6
 
 * Added a new "Add group to TomTom" menu option.
