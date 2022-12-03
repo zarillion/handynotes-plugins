@@ -11,8 +11,8 @@ L['gem_cluster_note'] = '所需物品需要龙鳞探险队声望到达21级可�
 L['options_icons_bonus_boss'] = '奖励精英'
 L['options_icons_bonus_boss_desc'] = '显示奖励精英位置。'
 
-L['options_icons_profession_treasures'] = nil
-L['options_icons_profession_treasures_desc'] = nil
+L['options_icons_profession_treasures'] = '专业宝藏'
+L['options_icons_profession_treasures_desc'] = '显示给予专业知识的宝藏位置。'
 
 L['dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph'] = '巨龙魔符'
@@ -140,7 +140,7 @@ L['fullsails_supply_chest'] = '满帆补给箱'
 L['hidden_hornswog_hoard'] = '隐藏的龙蛙存货'
 L['hidden_hornswog_hoard_note'] = '收集 {item:200064}、{item:200065}、{item:200066}，在宝藏附近的“观察谜题：实地指南”将它们组合起来，然后喂青蛙。'
 
-L['pt_alch_insulated_mug_note'] = nil
-L['pt_alch_frostforged_potion_note'] = nil
-L['pt_smith_glimmer_of_wisdom_note'] = nil
-L['pt_ench_flashfrozen_scroll_note'] = nil
+L['pt_alch_insulated_mug_note'] = '在灭龙要塞一些精英怪物之间。'
+L['pt_alch_frostforged_potion_note'] = '在冰坑中间。'
+L['pt_smith_glimmer_of_wisdom_note'] = '在 |cFFFFFD00暗淡的熔炉|r 附近制造一个 {item:189541} 后物品将变为可以在 |cFFFFFD00煤渣盆|r 拾取。'
+L['pt_ench_flashfrozen_scroll_note'] = '速冻领地洞穴系统内部。'
