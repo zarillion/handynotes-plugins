@@ -810,7 +810,7 @@ map.nodes[25715508] = ns.node.Dragonrace({
 }) -- Emerald Garden Ascent
 
 map.nodes[59933555] = ns.node.Dragonrace({
-    label = '{quest:66921} 5',
+    label = '{quest:66921}',
     normal = {2069, 28, 25},
     rewards = {
         Achievement({id = 15918, criteria = 5, oneline = true}), -- normal bronze
@@ -820,7 +820,7 @@ map.nodes[59933555] = ns.node.Dragonrace({
 }) -- Maruukai Dash
 
 map.nodes[47487064] = ns.node.Dragonrace({
-    label = '{quest:66933} 6',
+    label = '{quest:66933}',
     normal = {2070, 29, 26},
     rewards = {
         Achievement({id = 15918, criteria = 6, oneline = true}), -- normal bronze

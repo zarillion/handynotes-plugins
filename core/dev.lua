@@ -119,14 +119,14 @@ local function BootstrapDevelopmentEnvironment()
     if ns:GetOpt('show_debug_currency') then
         C_Timer.After(2, function()
             -- Give some time for currency info to load in before we start
-            for id = 1, 2200 do
+            for id = 1, 2400 do
                 local c = C_CurrencyInfo.GetCurrencyInfo(id) or false
                 if c then currency[id] = c.quantity end
             end
             CurrencyFrame:SetScript('OnUpdate', function()
                 if GetTime() - c_lastCheck > 5 and
                     ns:GetOpt('show_debug_currency') then
-                    for id = 2002, 2200 do
+                    for id = 2002, 2400 do
                         local c = C_CurrencyInfo.GetCurrencyInfo(id) or false
                         if c then
                             local s = c.quantity
