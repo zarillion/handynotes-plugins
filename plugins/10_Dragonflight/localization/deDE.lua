@@ -63,7 +63,7 @@ L['pt_ench_enriched_earthen_shard_note'] = 'Auf einem Steinhaufen.'
 L['pt_ench_faintly_enchanted_remains_note'] = 'Klicke die |cFFFFFD00Manaentzogene Kristallformation|r an, um einen Gegner erscheinen zu lassen und besiege diesen. Dann plündere den Kristall, der erscheint.'
 L['pt_ench_forgotten_arcane_tome_note'] = 'Liegt auf dem Boden, rechts neben dem Eingang des Gebäudes.'
 L['pt_jewel_crystalline_overgrowth_note'] = 'Neben einem kleinen Teich.'
-L['pt_jewel_harmonic_crystal_harmonizer_note'] = nil -- Minigame
+L['pt_jewel_harmonic_crystal_harmonizer_note'] = 'Klicke auf die Kiste, um einen Stärkungszauber zu erhalten und dann auf die 3 Kristalle.'
 L['pt_leath_decay_infused_tanning_oil_note'] = 'In einem Fass.'
 L['pt_leath_treated_hides_note'] = 'Beim |cFFFFFD00Schneebalglager|r.'
 L['pt_leath_well_danced_drum_note'] = 'In einem unterirdischen Gebäude mit {npc:186446} und {npc:186448}. Repariere die Trommel neben der {npc:194862}. Sobald er darauf tanzt, kannst du den Gegenstand plündern.'
@@ -136,7 +136,7 @@ L['options_icons_bakar_desc'] = 'Zeigt die Position aller Bakar (Hunde) für den
 
 L['ancestor_note'] = 'Hol dir in einem Zelt am |cFFFFFD00Baumschrittaußenposten|r von der |cFFFFFD00Essenz des Erwachens|r den Stärkungszauber {spell:369277} (1 Stunde), um den Vorfahren zu sehen und biete ihm den benötigten Gegenstand an.'
 L['options_icons_ancestor'] = '{achievement:16423}'
-L['options_icons_ancestor_desc'] = 'Zeigt die Position der Vorfahren für den Erfolg {achievement:16574} an.'
+L['options_icons_ancestor_desc'] = 'Zeigt die Positionen der Vorfahren für den Erfolg {achievement:16423} an.'
 
 L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefehl ' .. ns.color.Orange('/schlafen') .. '.'
 L['options_icons_dreamguard'] = '{achievement:16574}'
@@ -161,9 +161,9 @@ L['pt_jewel_painters_pretty_jewel_note'] = 'In einer Laterne.'
 L['pt_leath_decayed_scales_note'] = 'In einem Korb.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = 'Sprich mit {npc:194856} und biete an, ihr zu helfen, das zu ihren Füßen verstreute |cFFFFFD00Dunkelmondkartenset|r wieder herzurichten. Klicke die Karten in der richtigen Reihenfolge an (Ass bis 8) und sprich dann mit ihr, um das Deck zu erhalten.'
 L['pt_script_forgetful_apprentices_tome_note'] = 'Auf einem Tisch neben einem großen Teleskop.'
-L['pt_script_how_to_train_your_whelpling_note'] = nil
+L['pt_script_how_to_train_your_whelpling_note'] = 'Das kleine braune Buch liegt im Sandkasten.'
 L['pt_smith_draconic_flux_note'] = 'In einem Gebäude.'
-L['pt_tailor_ancient_dragonweave_bolt_note'] = nil -- Minigame
+L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the Ancient Dragonweave Loom to complete a minigame where you connect the spools of thread to the center gem.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Kleines Banner in einem Sandhaufen.'
 
 -------------------------------------------------------------------------------
@@ -192,7 +192,7 @@ L['pt_ench_lava_infused_seed_note'] = 'In einer Blume in der |cFFFFFD00Schuppenk
 L['pt_engi_boomthyr_rocket_note'] = 'Sammel die in den |cFFFFFD00Notizen zur Bummthyrrakete|r aufgelisteten Gegenstände:\n\n{item:198815}\n{item:198817}\n{item:198816}\n{item:198814}\n\nWenn du diese gesammelt hast, bring diese zur Rakete zurück, um den Schatz zu erhalten.'
 L['pt_engi_intact_coil_capacitor_note'] = 'Interaktion mit den drei |cFFFFFD00Exposed Wire|r, um die |cFFFFFD00Überladene Teslaspule|r zu reparieren und zu plündern.' -- review
 L['pt_jewel_closely_guarded_shiny_note'] = 'Blauer Edelstein unter einem Baum neben einem Nest.'
-L['pt_jewel_igneous_gem_note'] = nil -- Minigame
+L['pt_jewel_igneous_gem_note'] = 'Klicke schnell auf die drei Kristalle auf kleinen Inseln im Magma.'
 L['pt_leath_poachers_pack_note'] = 'Neben einem toten Vulpera am Flussbett.'
 L['pt_leath_spare_djaradin_tools_note'] = 'Neben einem toten roten Drachen.'
 L['pt_script_pulsing_earth_rune_note'] = 'Hinter einem Tisch im Inneren des verfallenen Gebäudes.' -- review
