@@ -61,6 +61,22 @@ L['forgotten_jewel_box_note'] = 'Despoja la {item:199065} de un Cofre del Clan e
 L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['pepper_hammer_note'] = 'Recoge |cFFFFFD00Savia de Árbol|r y entonces usa el |cFFFFFD00Palo|r para engañar a {npc:195373}.\n\n|cFFFF0000(BUG: Para hacer click en el palo puede ser necesario recargar)|r'
 
+L['pt_alch_experimental_decay_sample_note'] = nil
+L['pt_alch_firewater_powder_sample_note'] = nil
+L['pt_ench_enriched_earthen_shard_note'] = nil
+L['pt_ench_faintly_enchanted_remains_note'] = nil
+L['pt_ench_forgotten_arcane_tome_note'] = nil
+L['pt_jewel_crystalline_overgrowth_note'] = nil
+L['pt_jewel_harmonic_crystal_harmonizer_note'] = nil
+L['pt_leath_decay_infused_tanning_oil_note'] = nil
+L['pt_leath_treated_hides_note'] = nil
+L['pt_leath_well_danced_drum_note'] = nil
+L['pt_script_dusty_darkmoon_card_note'] = nil
+L['pt_script_frosted_parchment_note'] = nil
+L['pt_smith_spelltouched_tongs_note'] = nil
+L['pt_tailor_decaying_brackenhide_blanket_note'] = nil
+L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = nil
+
 L['leyline_note'] = 'Realinea la línea Ley.'
 L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = 'Muestra dónde están las líneas Ley para el logro {achievement:16638}.'
@@ -88,6 +104,17 @@ L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las Mochil
 L['slightly_chewed_duck_egg_note'] = 'Encuentra y acaricia a {npc:192997} para conseguir el {item:195453} y entonces usarlo. Tras incubar el {item:199171} durante 3 días eclosionará en {item:199172}.'
 L['yennus_boat'] = 'Barco de Juguete Tuskarr'
 L['yennus_boat_note'] = 'Despoja el |cFFFFFD00Barco de Juguete Tuskarr|r para conseguir el {item:200876}, el cual comienza la misión {quest:72063} para devolvérselo a {npc:195252}.'
+
+L['pt_alch_canteen_of_suspicious_water_note'] = nil
+L['pt_ench_stormbound_horn_note'] = nil
+L['pt_jewel_fragmented_key_note'] = nil
+L['pt_jewel_lofty_malygite_note'] = nil
+L['pt_leath_wind_blessed_hide_note'] = nil
+L['pt_script_sign_language_reference_sheet_note'] = nil
+L['pt_smith_ancient_spear_shards_note'] = nil
+L['pt_smith_falconer_gauntlet_drawings_note'] = nil
+L['pt_tailor_noteworthy_scrap_of_carpet_note'] = nil
+L['pt_tailor_silky_surprise_note'] = nil
 
 L['lizi_note'] = 'Completa la cadena de misiones Día de Iniciación comenzando con {quest:65901}. Completa las misiones cada día para curar a Lizi y recibir su montura.\n\nAdemás de los objetos necesarios, todas las misiones requieren 150x {currency:2003} para un total de 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Recoge 20x {item:192615} de los enemigos insecto en las |cFFFFFD00Islas Dragón|r.'
@@ -123,6 +150,19 @@ L['acorn_harvester_note'] = 'Recoge una |cFFFFFD00Bellota|r del suelo cercano pa
 L['cracked_hourglass_note'] = 'La {item:199068} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['sandy_wooden_duck_note'] = 'Recoge el {item:199069} y úsalo.'
 
+L['pt_alch_contraband_concoction_note'] = nil
+L['pt_alch_furry_gloop_note'] = nil
+L['pt_ench_fractured_titanic_sphere_note'] = nil
+L['pt_jewel_alexstraszite_cluster_note'] = nil
+L['pt_jewel_painters_pretty_jewel_note'] = nil
+L['pt_leath_decayed_scales_note'] = nil
+L['pt_script_counterfeit_darkmoon_deck_note'] = nil
+L['pt_script_forgetful_apprentices_tome_note'] = nil
+L['pt_script_how_to_train_your_whelpling_note'] = nil
+L['pt_smith_draconic_flux_note'] = nil
+L['pt_tailor_ancient_dragonweave_bolt_note'] = nil
+L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -141,7 +181,22 @@ L['fullsails_supply_chest'] = 'Cofre de Suministros Todavela'
 L['hidden_hornswog_hoard'] = 'Botín Oculto de los Cornisapos'
 L['hidden_hornswog_hoard_note'] = 'Recoge {item:200064}, {item:200065} y {item:200066}, combínalos en |cFFFFFD00"Acertijo de observador: Una Guía de Campo"|r cerca del tesoro y entonces alimenta a la rana.'
 
-L['pt_alch_insulated_mug_note'] = nil
 L['pt_alch_frostforged_potion_note'] = nil
-L['pt_smith_glimmer_of_wisdom_note'] = nil
+L['pt_alch_well_insulated_mug_note'] = nil
+L['pt_ench_enchanted_debris_note'] = nil
 L['pt_ench_flashfrozen_scroll_note'] = nil
+L['pt_ench_lava_infused_seed_note'] = nil
+L['pt_engi_boomthyr_rocket_note'] = nil
+L['pt_engi_intact_coil_capacitor_note'] = nil
+L['pt_jewel_closely_guarded_shiny_note'] = nil
+L['pt_jewel_igneous_gem_note'] = nil
+L['pt_leath_poachers_pack_note'] = nil
+L['pt_leath_spare_djaradin_tools_note'] = nil
+L['pt_script_pulsing_earth_rune_note'] = nil
+L['pt_smith_ancient_monument_note'] = nil
+L['pt_smith_curious_ingots_note'] = nil
+L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = nil
+L['pt_smith_molten_ingot_note'] = nil
+L['pt_smith_qalashi_weapon_diagram_note'] = nil
+L['pt_tailor_itinerant_singed_fabric_note'] = nil
+L['pt_tailor_mysterious_banner_note'] = nil

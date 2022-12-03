@@ -11,10 +11,11 @@ local BonusBoss = ns.node.BonusBoss
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
+local PetBattle = ns.node.PetBattle
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
-local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -337,6 +338,83 @@ map.nodes[36757287] = BonusBoss({
         Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
     }
 }) -- Liskron the Dazzling
+
+-------------------------------------------------------------------------------
+----------------------------- PROFESSION TREASURES ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[52208050] = PT.Blacksmithing({
+    id = 201006,
+    quest = nil,
+    note = L['pt_smith_draconic_flux_note']
+}) -- Draconic Flux
+
+map.nodes[55203050] = PT.Alchemy({
+    id = 201003,
+    quest = nil,
+    note = L['pt_alch_furry_gloop_note']
+}) -- Furry Gloop
+
+map.nodes[56104090] = PT.Inscription({
+    id = 201015,
+    quest = nil,
+    note = L['pt_script_counterfeit_darkmoon_deck_note']
+}) -- Counterfeit Darkmoon Deck
+
+map.nodes[56304120] = PT.Inscription({
+    id = 198659,
+    quest = nil,
+    note = L['pt_script_forgetful_apprentices_tome_note']
+}) -- Forgetful Apprentice's Tome
+
+map.nodes[56803050] = PT.Leatherworking({
+    id = 198690,
+    quest = nil,
+    note = L['pt_leath_decayed_scales_note']
+}) -- Decayed Scales
+
+map.nodes[56914372] = PT.Jewelcrafting({
+    id = 198656,
+    quest = 70261,
+    note = L['pt_jewel_painters_pretty_jewel_note']
+}) -- Painter's Pretty Jewel
+
+map.nodes[58604580] = PT.Tailoring({
+    id = 201019,
+    quest = nil,
+    note = L['pt_tailor_ancient_dragonweave_bolt_note']
+}) -- Ancient Dragonweave Bolt
+
+map.nodes[59503840] = PT.Alchemy({
+    id = 198697,
+    quest = nil,
+    note = L['pt_alch_contraband_concoction_note']
+}) -- Contraband Concoction
+
+map.nodes[59806520] = PT.Jewelcrafting({
+    id = 198682,
+    quest = 70285,
+    note = L['pt_jewel_alexstraszite_cluster_note']
+}) -- Alexstraszite Cluster
+
+map.nodes[59907040] = PT.Enchanting({
+    id = 198800,
+    quest = 70342,
+    note = L['pt_ench_fractured_titanic_sphere_note']
+}) -- Fractured Titanic Sphere
+
+map.nodes[60407970] = PT.Tailoring({
+    id = 198684,
+    quest = nil,
+    note = L['pt_tailor_miniature_bronze_dragonflight_banner_note']
+}) -- Miniature Bronze Dragonflight Banner
+
+local valdrakken = Map({id = 2112, settings = false})
+valdrakken.nodes[13206368] = PT.Inscription({
+    id = 198669,
+    quest = nil,
+    note = L['pt_script_how_to_train_your_whelpling_note']
+}) -- How to Train Your Whelpling
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

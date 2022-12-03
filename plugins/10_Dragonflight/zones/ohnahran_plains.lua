@@ -11,10 +11,11 @@ local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
+local PetBattle = ns.node.PetBattle
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
-local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -518,6 +519,71 @@ map.nodes[26073412] = BonusBoss({
     },
     pois = {POI({23573442})}
 }) -- Ty'foon the Ascended
+
+-------------------------------------------------------------------------------
+----------------------------- PROFESSION TREASURES ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[25203540] = PT.Jewelcrafting({
+    id = 198670,
+    quest = 70282,
+    note = L['pt_jewel_lofty_malygite_note']
+}) -- Lofty Malygite
+
+map.nodes[35344012] = PT.Tailoring({
+    id = 198692,
+    quest = nil,
+    note = L['pt_tailor_noteworthy_scrap_of_carpet_note']
+}) -- Noteworthy Scrap of Carpet
+
+map.nodes[50906650] = PT.Blacksmithing({
+    id = 201009,
+    quest = nil,
+    note = L['pt_smith_falconer_gauntlet_drawings_note']
+}) -- Falconer Gauntlet Drawings
+
+map.nodes[61406760] = PT.Enchanting({
+    id = 198689,
+    quest = 70291,
+    note = L['pt_ench_stormbound_horn_note']
+}) -- Stormbound Horn
+
+map.nodes[61801300] = PT.Jewelcrafting({
+    id = 198660,
+    quest = 70263,
+    note = L['pt_jewel_fragmented_key_note']
+}) -- Fragmented Key
+
+map.nodes[66105290] = PT.Tailoring({
+    id = 201020,
+    quest = nil,
+    note = L['pt_tailor_silky_surprise_note']
+}) -- Silky Surprise
+
+map.nodes[79208380] = PT.Alchemy({
+    id = 198710,
+    quest = nil,
+    note = L['pt_alch_canteen_of_suspicious_water_note']
+}) -- Canteen Of Suspicious Water
+
+map.nodes[81103790] = PT.Blacksmithing({
+    id = 201004,
+    quest = nil,
+    note = L['pt_smith_ancient_spear_shards_note'],
+    pois = {POI({79403650})}
+}) -- Ancient Spear Shards
+
+map.nodes[85702520] = PT.Inscription({
+    id = 198703,
+    quest = nil,
+    note = L['pt_script_sign_language_reference_sheet_note']
+}) -- Sign Language Reference Sheet
+
+map.nodes[86405370] = PT.Leatherworking({
+    id = 198696,
+    quest = nil,
+    note = L['pt_leath_wind_blessed_hide_note']
+}) -- Wind-Blessed Hide
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
