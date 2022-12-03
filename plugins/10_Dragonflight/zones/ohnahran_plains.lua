@@ -756,7 +756,7 @@ map.nodes[33555322] = Dreamguard({
 map.nodes[63743051] = ns.node.Dragonrace({
     label = '{quest:66835}',
     normal = {2060, 52, 44},
-    advanced = {2061, 49, 41},
+    advanced = {2061, 46, 41},
     rewards = {
         Achievement({id = 15918, criteria = 1, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 1, oneline = true}), -- normal silver
@@ -770,7 +770,7 @@ map.nodes[63743051] = ns.node.Dragonrace({
 map.nodes[86263583] = ns.node.Dragonrace({
     label = '{quest:66877}',
     normal = {2062, 51, 44},
-    advanced = {2063, 48, 41},
+    advanced = {2063, 46, 41},
     rewards = {
         Achievement({id = 15918, criteria = 2, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 2, oneline = true}), -- normal silver
@@ -784,7 +784,7 @@ map.nodes[86263583] = ns.node.Dragonrace({
 map.nodes[80887221] = ns.node.Dragonrace({
     label = '{quest:66880}',
     normal = {2064, 52, 50},
-    advanced = {2065, 49, 47},
+    advanced = {2065, 52, 47},
     rewards = {
         Achievement({id = 15918, criteria = 3, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 3, oneline = true}), -- normal silver
@@ -798,7 +798,7 @@ map.nodes[80887221] = ns.node.Dragonrace({
 map.nodes[25715508] = ns.node.Dragonrace({
     label = '{quest:66885}',
     normal = {2066, 66, 59},
-    advanced = {2067, 53, 56},
+    advanced = {2067, 60, 55},
     rewards = {
         Achievement({id = 15918, criteria = 4, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 4, oneline = true}), -- normal silver
