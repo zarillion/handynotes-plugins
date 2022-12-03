@@ -115,11 +115,11 @@ local Profession = Class('Profession', Requirement)
 
 -- categoryID is ignored for now. Data for a profession category (expansion)
 -- cannot be queried until the player opens their profession window.
-function Profession:Initialize(skillID, categoryID, level)
+function Profession:Initialize(skillID, variantID, level)
     self.skillID = skillID
-    self.categoryID = categoryID
+    self.variantID = variantID
     self.level = level
-    self.text = C_TradeSkillUI.GetTradeSkillDisplayName(skillID)
+    self.text = C_TradeSkillUI.GetTradeSkillDisplayName(variantID or skillID)
 
     if level then self.text = self.text .. ' (' .. level .. ')' end
 end

@@ -73,42 +73,42 @@ ns.node.ProfessionTreasures = {
     Alchemy = Class('AlchemyTreasure', ProfessionTreasure, {
         icon = 4620669,
         skillID = 171,
-        requires = ns.requirement.Profession(171, 1582, 25)
+        requires = ns.requirement.Profession(171, 2823, 25)
     }),
     Blacksmithing = Class('BlacksmithingTreasure', ProfessionTreasure, {
         icon = 4620670,
         skillID = 164,
-        requires = ns.requirement.Profession(164, 1566, 25)
+        requires = ns.requirement.Profession(164, 2822, 25)
     }),
     Enchanting = Class('EnchantingTreasure', ProfessionTreasure, {
         icon = 4620672,
         skillID = 333,
-        requires = ns.requirement.Profession(333, 1588, 25)
+        requires = ns.requirement.Profession(333, 2825, 25)
     }),
     Engineering = Class('EngineeringTreasure', ProfessionTreasure, {
         icon = 4620673,
         skillID = 202,
-        requires = ns.requirement.Profession(202, 1595, 25)
+        requires = ns.requirement.Profession(202, 2827, 25)
     }),
     Inscription = Class('InscriptionTreasure', ProfessionTreasure, {
         icon = 4620676,
         skillID = 773,
-        requires = ns.requirement.Profession(773, 1592, 25)
+        requires = ns.requirement.Profession(773, 2828, 25)
     }),
     Jewelcrafting = Class('JewelcraftingTreasure', ProfessionTreasure, {
         icon = 4620677,
         skillID = 755,
-        requires = ns.requirement.Profession(755, 1593, 25)
+        requires = ns.requirement.Profession(755, 2829, 25)
     }),
     Leatherworking = Class('LeatherworkingTreasure', ProfessionTreasure, {
         icon = 4620678,
         skillID = 165,
-        requires = ns.requirement.Profession(165, 1587, 25)
+        requires = ns.requirement.Profession(165, 2830, 25)
     }),
     Tailoring = Class('TailoringTreasure', ProfessionTreasure, {
         icon = 4620681,
         skillID = 197,
-        requires = ns.requirement.Profession(197, 1591, 25)
+        requires = ns.requirement.Profession(197, 2831, 25)
     })
 }
 
