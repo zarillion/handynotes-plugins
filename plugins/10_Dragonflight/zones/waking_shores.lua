@@ -529,28 +529,24 @@ map.nodes[60598285] = BonusBoss({
 map.nodes[25107330] = PT.Alchemy({
     id = 198685,
     quest = nil,
-    label = L['pt_alch_insulated_mug'],
     note = L['pt_alch_insulated_mug_note']
 }) -- Well Insulated Mug
 
 map.nodes[55008100] = PT.Alchemy({
     id = 198663,
     quest = nil,
-    label = L['pt_alch_frostforged_potion'],
     note = L['pt_alch_frostforged_potion_note']
 }) -- Frostforged Potion
 
 map.nodes[56401950] = PT.Blacksmithing({
     id = 198791,
     quest = nil,
-    label = L['pt_smith_glimmer_of_wisdom'],
     note = L['pt_smith_glimmer_of_wisdom_note']
 }) -- Glimmer of Blacksmithing Wisdom
 
 map.nodes[57508360] = PT.Enchanting({
     id = 198798,
     quest = nil,
-    label = L['pt_ench_flashfrozen_scroll'],
     note = L['pt_ench_flashfrozen_scroll_note']
 }) -- Flashfrozen Scroll
 

@@ -140,11 +140,7 @@ L['fullsails_supply_chest'] = '滿帆補給箱'
 L['hidden_hornswog_hoard'] = '隱藏的角蛙寶箱'
 L['hidden_hornswog_hoard_note'] = '收集 {item:200064}, {item:200065} 和 {item:200066}, 在寶藏附近的 "觀察謎題: 田野指南" 組合成 {item:200063} 並且餵給 {npc:192362}.'
 
-L['pt_alch_insulated_mug'] = nil
 L['pt_alch_insulated_mug_note'] = nil
-L['pt_alch_frostforged_potion'] = nil
 L['pt_alch_frostforged_potion_note'] = nil
-L['pt_smith_glimmer_of_wisdom'] = nil
 L['pt_smith_glimmer_of_wisdom_note'] = nil
-L['pt_ench_flashfrozen_scroll'] = nil
 L['pt_ench_flashfrozen_scroll_note'] = nil

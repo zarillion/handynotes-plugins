@@ -141,11 +141,7 @@ L['fullsails_supply_chest'] = 'Сундук с припасами Коры'
 L['hidden_hornswog_hoard'] = 'Скрытый заложник рогоплава'
 L['hidden_hornswog_hoard_note'] = 'Соберите {item:200064}, {item:200065} и {item:200066}, объедините их рядом с |cFFFFFD00"Загадки для внимательных: практический справочник"|r и киньте полученный предмет в лягушку.'
 
-L['pt_alch_insulated_mug'] = nil
 L['pt_alch_insulated_mug_note'] = nil
-L['pt_alch_frostforged_potion'] = nil
 L['pt_alch_frostforged_potion_note'] = nil
-L['pt_smith_glimmer_of_wisdom'] = nil
 L['pt_smith_glimmer_of_wisdom_note'] = nil
-L['pt_ench_flashfrozen_scroll'] = nil
 L['pt_ench_flashfrozen_scroll_note'] = nil

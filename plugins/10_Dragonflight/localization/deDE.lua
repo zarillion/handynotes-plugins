@@ -140,11 +140,7 @@ L['fullsails_supply_chest'] = 'Vorratskiste der Vollsegel'
 L['hidden_hornswog_hoard'] = 'Versteckter Flunkerhort'
 L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item:200066}, kombiniere diese beim |cFFFFFD00"Rätsel für Aufmerksame: Ein Naturführer"|r nahe dem Schatz und füttere dann den Frosch damit.'
 
-L['pt_alch_insulated_mug'] = nil
 L['pt_alch_insulated_mug_note'] = nil
-L['pt_alch_frostforged_potion'] = nil
 L['pt_alch_frostforged_potion_note'] = nil
-L['pt_smith_glimmer_of_wisdom'] = nil
 L['pt_smith_glimmer_of_wisdom_note'] = nil
-L['pt_ench_flashfrozen_scroll'] = nil
 L['pt_ench_flashfrozen_scroll_note'] = nil
