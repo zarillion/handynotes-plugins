@@ -581,7 +581,7 @@ map.nodes[16703880] = PT.Leatherworking({
     note = L['pt_leath_decay_infused_tanning_oil_note']
 }) -- Decay-Infused Tanning Oil
 
-map.nodes[21004500] = PT.Enchanting({
+map.nodes[21564555] = PT.Enchanting({
     id = 198694,
     quest = 70298,
     note = L['pt_ench_enriched_earthen_shard_note']
