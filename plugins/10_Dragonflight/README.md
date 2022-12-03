@@ -45,6 +45,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 ### Dragon Isles
 
 * Flags for the [Dragonscale Expedition: The Highest Peaks](https://www.wowhead.com/achievement=15890/dragonscale-expedition-the-highest-peaks) achievement.
+* Race locations for the [Dragon Racing Completionist](https://www.wowhead.com/achievement=15939/dragon-racing-completionist) family of achievements.
 
 ### Waking Shores
 

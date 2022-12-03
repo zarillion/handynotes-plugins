@@ -1,3 +1,7 @@
+# v6
+
+* Added dragon riding race locations (with normal and advanced timer tracking).
+
 # v5
 
 * Added more missing rares, treasures and bonus bosses.
