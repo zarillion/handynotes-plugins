@@ -31,13 +31,13 @@ L['scout_pack'] = '探险队斥候的背包'
 L['options_icons_scout_pack'] = '探险队斥候的背包'
 L['options_icons_scout_pack_desc'] = '显示探险队斥候的背包的位置。'
 
-L['dr_best'] = nil
-L['dr_best_dash'] = nil
-L['dr_note'] = nil
-L['dr_note_dash'] = nil
-L['dr_bronze'] = nil
-L['options_icons_dragonrace'] = nil
-L['options_icons_dragonrace_desc'] = nil
+L['dr_best'] = '最快时间：\n - 普通：%.3f秒\n - 进阶：%.3f秒'
+L['dr_best_dash'] = '最快时间：\n - %.3f秒'
+L['dr_note'] = '目标时间：\n - 普通：%s秒 / %s秒\n - 进阶：%s秒 / %s秒'
+L['dr_note_dash'] = '目标时间：\n - %s秒 / %s秒'
+L['dr_bronze'] = '\n\n完成竞速获得 ' .. ns.color.Bronze('青铜') .. '.'
+L['options_icons_dragonrace'] = '驭龙竞速'
+L['options_icons_dragonrace_desc'] = '显示驭龙竞速的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------

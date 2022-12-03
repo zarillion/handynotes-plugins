@@ -180,8 +180,8 @@ L['options_toggle_show_notes_desc'] = '在提示中添加注释'
 --------------------------------- DEVELOPMENT ---------------------------------
 
 L['options_dev_settings'] = '开发'
-L['options_toggle_show_debug_currency'] = nil
-L['options_toggle_show_debug_currency_desc'] = nil
+L['options_toggle_show_debug_currency'] = '除错货币 ID'
+L['options_toggle_show_debug_currency_desc'] = '显示货币除错更改信息（需要重载）'
 L['options_toggle_show_debug_map'] = '除错地图 ID'
 L['options_toggle_show_debug_map_desc'] = '显示地图除错信息'
 L['options_toggle_show_debug_quest'] = '除错任务 ID'

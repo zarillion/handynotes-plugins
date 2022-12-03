@@ -36,8 +36,8 @@ L['dr_best_dash'] = 'Your best time:\n - %.3fs'
 L['dr_note'] = 'Target time:\n - Normal: %ss / %ss\n - Advanced: %ss / %ss'
 L['dr_note_dash'] = 'Target time:\n - %ss / %ss'
 L['dr_bronze'] = '\n\nFinish the race to get ' .. ns.color.Bronze('Bronze') .. '.'
-L['options_icons_dragonrace'] = 'Dragonraces'
-L['options_icons_dragonrace_desc'] = 'Display the location of dragonraces.'
+L['options_icons_dragonrace'] = 'Dragonriding Race'
+L['options_icons_dragonrace_desc'] = 'Display the location of Dragonriding Race.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
