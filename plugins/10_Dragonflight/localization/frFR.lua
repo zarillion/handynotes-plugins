@@ -78,6 +78,9 @@ L['leyline_note'] = 'Réalignez la ligne tellurique.'
 L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = 'Afficher les emplacements de toutes les lignes telluriques pour le haut-fait {achievement:16638}.'
 
+L['seeing_blue_note'] = 'Voler du sommet des archives d’Azur jusqu’à l’assemblée de Cobalt sans atterrir.'
+L['snowman_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
