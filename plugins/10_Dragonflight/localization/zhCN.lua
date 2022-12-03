@@ -204,3 +204,10 @@ L['pt_smith_molten_ingot_note'] = '将3个锭踢入熔岩以出现怪物。打�
 L['pt_smith_qalashi_weapon_diagram_note'] = '在铁砧之上。'
 L['pt_tailor_itinerant_singed_fabric_note'] = '一块布料挂在树上，就在最终首领出现的洞穴外。' .. ns.color.Orange('需要精准驭龙或术士传送门。')
 L['pt_tailor_mysterious_banner_note'] = '在建筑物的顶部飘扬。'
+
+L['quack_week_1'] = nil
+L['quack_week_2'] = nil
+L['quack_week_3'] = nil
+L['quack_week_4'] = nil
+L['quack_week_5'] = nil
+L['lets_get_quacking'] = nil

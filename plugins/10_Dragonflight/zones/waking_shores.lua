@@ -908,3 +908,40 @@ map.nodes[42599445] = ns.node.Dragonrace({
         Achievement({id = 15929, criteria = 8, oneline = true}) -- advanced gold
     }
 }) -- Wild Preserve Circuit
+
+-------------------------------------------------------------------------------
+------------------------------ LET'S GET QUACKING -----------------------------
+-------------------------------------------------------------------------------
+
+local Quack = Class('Quack', Collectible, {
+    label = '{npc:196744}',
+    note = L['lets_get_quacking'],
+    icon = 4048818,
+    rewards = {Achievement({id = 16409, criteria = {id = 1, qty = true}})}
+})
+
+map.nodes[80114287] = Quack({quest = 66196, rlabel = L['quack_week_1']}) -- A Quack For Help (Week 1)
+
+map.nodes[80083989] = Quack({
+    quest = 70877,
+    rlabel = L['quack_week_2'],
+    requires = {ns.requirement.Quest(66196)}
+}) -- A Quack in Time (Week 2)
+
+map.nodes[81594546] = Quack({
+    quest = 70917,
+    rlabel = L['quack_week_3'],
+    requires = {ns.requirement.Quest(70877)}
+}) -- A Shoulder to Quack On (Week 3)
+
+map.nodes[79274279] = Quack({
+    quest = 70918,
+    rlabel = L['quack_week_4'],
+    requires = {ns.requirement.Quest(70917)}
+}) -- Quack for Your Life (Week 4)
+
+map.nodes[82884258] = Quack({
+    quest = 70919,
+    rlabel = L['quack_week_5'],
+    requires = {ns.requirement.Quest(70918)}
+}) -- Quacking Out for a Hero (Week 5)

@@ -204,3 +204,10 @@ L['pt_smith_molten_ingot_note'] = 'Kick 3 ingots into the lava to spawn a mob. L
 L['pt_smith_qalashi_weapon_diagram_note'] = 'On top of an anvil.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'A piece of fabric hanging on a trees just outside the cave where the end boss spawns. ' .. ns.color.Orange('Requires precision Dragonriding or a warlock portal.')
 L['pt_tailor_mysterious_banner_note'] = 'Fluttering on top of the buildings.'
+
+L['quack_week_1'] = 'Week 1'
+L['quack_week_2'] = 'Week 2'
+L['quack_week_3'] = 'Week 3'
+L['quack_week_4'] = 'Week 4'
+L['quack_week_5'] = 'Week 5'
+L['lets_get_quacking'] = 'You can only rescue a single duckling per week.'

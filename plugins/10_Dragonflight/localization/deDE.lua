@@ -204,3 +204,10 @@ L['pt_smith_molten_ingot_note'] = 'Wirf 3 Barren in die Lava, um einen Gegner er
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Auf einem Amboss.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'Ein Stück Stoff, das an einem Baum vor der Höhle hängt, in der der |cFFFFFD00Belagerung der Drachenfluchfestung|r Endboss erscheinen wird. ' .. ns.color.Orange('Erfordert präzises Drachenreiten oder ein Hexenmeisterportal.')
 L['pt_tailor_mysterious_banner_note'] = 'Flattert auf dem Dach des Gebäudes.'
+
+L['quack_week_1'] = 'Woche 1'
+L['quack_week_2'] = 'Woche 2'
+L['quack_week_3'] = 'Woche 3'
+L['quack_week_4'] = 'Woche 4'
+L['quack_week_5'] = 'Woche 5'
+L['lets_get_quacking'] = 'Du kannst jede Woche nur ein Entchen retten.'

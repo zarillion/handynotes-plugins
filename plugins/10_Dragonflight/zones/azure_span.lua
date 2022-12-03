@@ -636,11 +636,14 @@ map.nodes[46202390] = PT.Inscription({
     note = L['pt_script_dusty_darkmoon_card_note']
 }) -- Dusty Darkmoon Card
 
-map.nodes[53106530] = PT.Blacksmithing({
+map.nodes[53146614] = PT.Blacksmithing({
     id = 201011,
     quest = nil,
     note = L['pt_smith_spelltouched_tongs_note'],
-    requires = ns.requirement.Profession(186)
+    requires = {
+        ns.requirement.Profession(186), ns.requirement.Profession(164, 2822, 25)
+    },
+    pois = {POI({53106530})}
 }) -- Spelltouched Tongs
 
 map.nodes[57504130] = PT.Leatherworking({

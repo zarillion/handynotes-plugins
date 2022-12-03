@@ -205,3 +205,10 @@ L['pt_smith_molten_ingot_note'] = nil
 L['pt_smith_qalashi_weapon_diagram_note'] = nil
 L['pt_tailor_itinerant_singed_fabric_note'] = nil
 L['pt_tailor_mysterious_banner_note'] = nil
+
+L['quack_week_1'] = nil
+L['quack_week_2'] = nil
+L['quack_week_3'] = nil
+L['quack_week_4'] = nil
+L['quack_week_5'] = nil
+L['lets_get_quacking'] = nil

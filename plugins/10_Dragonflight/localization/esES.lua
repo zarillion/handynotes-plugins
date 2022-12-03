@@ -205,3 +205,10 @@ L['pt_smith_molten_ingot_note'] = 'Patea 3 lingotes dentro de la lava para hacer
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Encima de un yunque.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'Un trozo de tela colgando de unos árboles justo fuera de la cueva donde aparece el boss final. ' .. ns.color.Orange('Requiere precisión montando dragones o un portal de brujo')
 L['pt_tailor_mysterious_banner_note'] = 'Revoloteando por encima de los edificios.'
+
+L['quack_week_1'] = nil
+L['quack_week_2'] = nil
+L['quack_week_3'] = nil
+L['quack_week_4'] = nil
+L['quack_week_5'] = nil
+L['lets_get_quacking'] = nil
