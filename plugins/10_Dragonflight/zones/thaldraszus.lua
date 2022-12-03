@@ -355,6 +355,88 @@ map.nodes[55873598] = Scoutpack()
 map.nodes[59198794] = Scoutpack()
 
 -------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[57767501] = ns.node.Dragonrace({
+    label = '{quest:67095}',
+    normal = {2080, 52, 49},
+    rewards = {
+        Achievement({id = 15924, criteria = 1, oneline = true}), -- normal bronze
+        Achievement({id = 15925, criteria = 1, oneline = true}), -- normal silver
+        Achievement({id = 15926, criteria = 1, oneline = true}), -- normal gold
+        Achievement({id = 15936, criteria = 1, oneline = true}), -- advanced bronze
+        Achievement({id = 15937, criteria = 1, oneline = true}), -- advanced silver
+        Achievement({id = 15938, criteria = 1, oneline = true}) -- advanced gold
+    }
+}) -- Flowing Forest Flight
+
+map.nodes[57256690] = ns.node.Dragonrace({
+    label = '{quest:69957}',
+    normal = {2092, 84, 81},
+    rewards = {
+        Achievement({id = 15924, criteria = 2, oneline = true}), -- normal bronze
+        Achievement({id = 15925, criteria = 2, oneline = true}), -- normal silver
+        Achievement({id = 15926, criteria = 2, oneline = true}), -- normal gold
+        Achievement({id = 15936, criteria = 2, oneline = true}), -- advanced bronze
+        Achievement({id = 15937, criteria = 2, oneline = true}), -- advanced silver
+        Achievement({id = 15938, criteria = 2, oneline = true}) -- advanced gold
+    }
+}) -- Tyrhold Trial
+
+map.nodes[37654894] = ns.node.Dragonrace({
+    label = '{quest:70051}',
+    normal = {2096, 72, 69},
+    rewards = {
+        Achievement({id = 15924, criteria = 3, oneline = true}), -- normal bronze
+        Achievement({id = 15925, criteria = 3, oneline = true}), -- normal silver
+        Achievement({id = 15926, criteria = 3, oneline = true}), -- normal gold
+        Achievement({id = 15936, criteria = 3, oneline = true}), -- advanced bronze
+        Achievement({id = 15937, criteria = 3, oneline = true}), -- advanced silver
+        Achievement({id = 15938, criteria = 3, oneline = true}) -- advanced gold
+    }
+}) -- Cliffside Circuit
+
+map.nodes[60264179] = ns.node.Dragonrace({
+    label = '{quest:70059}',
+    normal = {2098, 57, 54},
+    rewards = {
+        Achievement({id = 15924, criteria = 4, oneline = true}), -- normal bronze
+        Achievement({id = 15925, criteria = 4, oneline = true}), -- normal silver
+        Achievement({id = 15926, criteria = 4, oneline = true}), -- normal gold
+        Achievement({id = 15936, criteria = 4, oneline = true}), -- advanced bronze
+        Achievement({id = 15937, criteria = 4, oneline = true}), -- advanced silver
+        Achievement({id = 15938, criteria = 4, oneline = true}) -- advanced gold
+    }
+}) -- Academy Ascent
+
+map.nodes[39487621] = ns.node.Dragonrace({
+    label = '{quest:70157}',
+    normal = {2101, 64, 61},
+    rewards = {
+        Achievement({id = 15924, criteria = 5, oneline = true}), -- normal bronze
+        Achievement({id = 15925, criteria = 5, oneline = true}), -- normal silver
+        Achievement({id = 15926, criteria = 5, oneline = true}), -- normal gold
+        Achievement({id = 15936, criteria = 5, oneline = true}), -- advanced bronze
+        Achievement({id = 15937, criteria = 5, oneline = true}), -- advanced silver
+        Achievement({id = 15938, criteria = 5, oneline = true}) -- advanced gold
+    }
+}) -- Garden Gallivant
+
+map.nodes[58043367] = ns.node.Dragonrace({
+    label = '{quest:70161}',
+    normal = {2103, 53, 50},
+    rewards = {
+        Achievement({id = 15924, criteria = 6, oneline = true}), -- normal bronze
+        Achievement({id = 15925, criteria = 6, oneline = true}), -- normal silver
+        Achievement({id = 15926, criteria = 6, oneline = true}), -- normal gold
+        Achievement({id = 15936, criteria = 6, oneline = true}), -- advanced bronze
+        Achievement({id = 15937, criteria = 6, oneline = true}), -- advanced silver
+        Achievement({id = 15938, criteria = 6, oneline = true}) -- advanced gold
+    }
+}) -- Caverns Criss-Cross
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
