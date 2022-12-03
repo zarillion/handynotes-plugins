@@ -47,7 +47,7 @@ L['options_icons_dragonrace_desc'] = 'Muestra dónde están las Carreras de Drag
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['brackenhide_note'] = nil
+L['brackenhide_note'] = 'Cuando aparezca este raro se anunciará por el chat si estás en la zona de la |cFFFFFD00Hondonada Frondacuero|r.'
 L['fisherman_tinnak_note'] = 'Recoge la |cFFFFFD00Caña de Pescar Rota|r, la |cFFFFFD00Red de Pescar Rota|r y el |cFFFFFD00Arpón Viejo|r para hacer aparecer al raro.'
 L['spellwrought_snowman_note'] = 'Consigue 10x {npc:193424} y llévaselas a {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Recoge un |cFFFFFD00Fragmento Cantarín|r para conseguir {spell:382076} y usar el |cFFFFFD00Enfoque Descargado|r para hacer aparecer al raro.'
@@ -64,7 +64,7 @@ L['pt_ench_enriched_earthen_shard_note'] = 'Encima de una pila de rocas.'
 L['pt_ench_faintly_enchanted_remains_note'] = 'Haz click en la |cFFFFFD00Recogida de Cristal del Sediento de Maná|r para hacer aparecer y matar a un enemigo. Después ya puedes despojar el cristal que aparece.'
 L['pt_ench_forgotten_arcane_tome_note'] = 'Reposa en el suelo a la derecha de la entrada a una tumba.'
 L['pt_jewel_crystalline_overgrowth_note'] = 'Junto a un charco pequeño.'
-L['pt_jewel_harmonic_crystal_harmonizer_note'] = nil -- Minigame
+L['pt_jewel_harmonic_crystal_harmonizer_note'] = 'Haz click en el cofre para recibir un buff. Ahora haz click en los 3 cristales.'
 L['pt_leath_decay_infused_tanning_oil_note'] = 'En el barril.'
 L['pt_leath_treated_hides_note'] = 'En el |cFFFFFD00Campamento Nievepiel|r.'
 L['pt_leath_well_danced_drum_note'] = 'En un edificio subterráneo con al {npc:186446} y la {npc:186448}. Arregla el tambor que hay junto a {npc:194862}. Una vez baile en él podrás despojar el objeto.'
@@ -102,16 +102,16 @@ L['slightly_chewed_duck_egg_note'] = 'Encuentra y acaricia a {npc:192997} para c
 L['yennus_boat'] = 'Barco de Juguete Tuskarr'
 L['yennus_boat_note'] = 'Despoja el |cFFFFFD00Barco de Juguete Tuskarr|r para conseguir el {item:200876}, el cual comienza la misión {quest:72063} para devolvérselo a {npc:195252}.'
 
-L['pt_alch_canteen_of_suspicious_water_note'] = 'Dentro de las profundidades de una cueva cerca de un |cFFFFFD00Explorador de Expedición|r muerto.'
+L['pt_alch_canteen_of_suspicious_water_note'] = 'Dentro de las profundidades de una cueva cerca de un {npc:194887} muerto.'
 L['pt_ench_stormbound_horn_note'] = 'En el |cFFFFFD00Alto Son del Viento|r.'
 L['pt_jewel_fragmented_key_note'] = 'Bajo las raíces del árbol en un edificio derrumbado.'
 L['pt_jewel_lofty_malygite_note'] = 'Flotando en el aire en una cueva.'
 L['pt_leath_wind_blessed_hide_note'] = 'Dentro del campamento de centauros de las |cFFFFFD00Tierras Altas de Shikaar|r.'
-L['pt_script_sign_language_reference_sheet_note'] = 'Golpea en la entrada de la tienda.'
+L['pt_script_sign_language_reference_sheet_note'] = 'Colgando en la entrada de la tienda.'
 L['pt_smith_ancient_spear_shards_note'] = 'Dentro una cueva al oeste de |cFFFFFD00Trecho de Rusza\'thar|r'
 L['pt_smith_falconer_gauntlet_drawings_note'] = 'En una isla en el mar, dentro de una choza.'
-L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Reposa en una choza pequeña.' .. ns.color.Orange('3 élites en la choza')
-L['pt_tailor_silky_surprise_note'] = 'Busca un botín en la |cFFFFFD00Fronda de Hierba Gatera|r.'
+L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Reposa en una choza pequeña. ' .. ns.color.Orange('3 élites en la choza')
+L['pt_tailor_silky_surprise_note'] = 'Busca y despoja la |cFFFFFD00Fronda de Hierba Gatera|r.'
 
 L['lizi_note'] = 'Completa la cadena de misiones Día de Iniciación comenzando con {quest:65901}. Completa las misiones cada día para curar a Lizi y recibir su montura.\n\nAdemás de los objetos necesarios, todas las misiones requieren 150x {currency:2003} para un total de 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Recoge 20x {item:192615} de los enemigos insecto en las |cFFFFFD00Islas Dragón|r.'
@@ -132,9 +132,9 @@ L['bakar_hugo_note'] = 'Viaja con el Campamento Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Muestra dónde están todos los perros (bakar) para el logro {achievement:16424}.'
 
-L['ancestor_note'] = nil
+L['ancestor_note'] = 'Consigue el bufo {spell:369277} (dura 1 hora) en una tienda en la |cFFFFFD00Avanzada Pasoleño|r para ver al ancestro y ofrecerle el item requerido.'
 L['options_icons_ancestor'] = '{achievement:16423}'
-L['options_icons_ancestor_desc'] = nil
+L['options_icons_ancestor_desc'] = 'Muestra dónde están todos los ancestros para el logro {achievement:16423}.'
 
 L['dreamguard_note'] = 'Selecciona al Guardasueños y teclea' .. ns.color.Orange('/dormir.')
 L['options_icons_dreamguard'] = '{achievement:16574}'
@@ -159,10 +159,10 @@ L['pt_jewel_painters_pretty_jewel_note'] = 'Dentro de una lámpara.'
 L['pt_leath_decayed_scales_note'] = 'Dentro de una cesta.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = 'Habla con {npc:194856} y ofrécete a ayudarla a recoger su |cFFFFFD00Colección de la Luna Negra|r esparcida a sus pies. Haz click en las cartas en el orden correcto (del As al 8). Después habla con ella de nuevo para conseguir la colección.'
 L['pt_script_forgetful_apprentices_tome_note'] = 'Encima de la mesa cercana a un gran telescopio.'
-L['pt_script_how_to_train_your_whelpling_note'] = nil
+L['pt_script_how_to_train_your_whelpling_note'] = 'Pequeño libro marrón tirado en la caja de arena.'
 L['pt_smith_draconic_flux_note'] = 'Dentro de un edificio.'
-L['pt_tailor_ancient_dragonweave_bolt_note'] = nil -- Minigame
-L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pqueña dentro de una pila de arena.'
+L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Haz click en el |cFFFFFD00Telar de Tejido de Dragón Ancestral|r para completar un minijuego donde has de conectar los carretes de hilo a la gema central.'
+L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pequeña dentro de una pila de arena.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -190,7 +190,7 @@ L['pt_ench_lava_infused_seed_note'] = 'En una flor en el |cFFFFFD00Castillo Quie
 L['pt_engi_boomthyr_rocket_note'] = 'Recoge los objetos listados en las |cFFFFFD00Notas sobre Cohetes Bumthyr|r:\n\n{item:198815}\n{item:198817}\n{item:198816}\n{item:198814}\n\nUna vez con todos, devuélvelos al cohete para recibir el tesoro.'
 L['pt_engi_intact_coil_capacitor_note'] = 'Interactúa con los tres |cFFFFFD00Cable Expuesto|r para arreglar y despojar la |cFFFFFD00Bobina Tesla Sobrecargada|r.'
 L['pt_jewel_closely_guarded_shiny_note'] = 'Gema azul debajo de un árbol que hay junto a un nido.'
-L['pt_jewel_igneous_gem_note'] = nil -- Minigame
+L['pt_jewel_igneous_gem_note'] = 'Haz click rápidamente en los 3 cristales de las islas pequeñas dentro del magma.'
 L['pt_leath_poachers_pack_note'] = 'Junto a un Vulpera muerto junto al cauce del río.'
 L['pt_leath_spare_djaradin_tools_note'] = 'Junto a un dragón rojo muerto.'
 L['pt_script_pulsing_earth_rune_note'] = 'Detrás de una mesa que hay dentro del edificio derrumbado.'
@@ -199,5 +199,5 @@ L['pt_smith_curious_ingots_note'] = 'Pequeño lingote en el suelo en el |cFFFFFD
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = 'Fabrica una {item:189541} cerca de la |cFFFFFD00Forja a Medio Apagar|r. El objeto en la |cFFFFFD00Tina Floja|r se convertirá en despojable.'
 L['pt_smith_molten_ingot_note'] = 'Patea 3 lingotes dentro de la lava para hacer aparecer a un enemigo. Despoja el cofre una vez lo hayas derrotado.'
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Encima de un yunque.'
-L['pt_tailor_itinerant_singed_fabric_note'] = 'Un trozo de tela colgando de unos árboles justo fuera de la cueva donde aparece el boss final.' .. ns.color.Orange('Requiere precisión montando dragones o un portal de brujo')
+L['pt_tailor_itinerant_singed_fabric_note'] = 'Un trozo de tela colgando de unos árboles justo fuera de la cueva donde aparece el boss final. ' .. ns.color.Orange('Requiere precisión montando dragones o un portal de brujo')
 L['pt_tailor_mysterious_banner_note'] = 'Revoloteando por encima de los edificios.'
