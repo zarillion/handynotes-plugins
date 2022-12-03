@@ -160,8 +160,7 @@ L['pt_script_counterfeit_darkmoon_deck_note'] = 'Speak to {npc:194856} and offer
 L['pt_script_forgetful_apprentices_tome_note'] = 'On a table near a big telescope.'
 L['pt_script_how_to_train_your_whelpling_note'] = 'Little brown book lying in the sandbox'
 L['pt_smith_draconic_flux_note'] = 'Inside a building.'
-L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the Ancient Dragonweave Loom to complete a minigame where you connect the spools of thread to the center gem
-'
+L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the Ancient Dragonweave Loom to complete a minigame where you connect the spools of thread to the center gem'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Small banner inside a pile of sand.'
 
 -------------------------------------------------------------------------------
