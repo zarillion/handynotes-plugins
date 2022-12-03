@@ -570,7 +570,7 @@ map.nodes[39008600] = PT.Leatherworking({
 
 map.nodes[49097754] = PT.Engineering({
     id = 198789,
-    quest = nil,
+    quest = 70275,
     note = L['pt_engi_intact_coil_capacitor_note']
 }) -- Intact Coil Capacitor
 
