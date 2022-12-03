@@ -198,5 +198,5 @@ L['pt_smith_curious_ingots_note'] = '|cFFFFFD00碎鳞要塞|r 地面上的锭。
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = '在 |cFFFFFD00暗淡的熔炉|r 附近制造一个 {item:189541} 后物品将变为可以在 |cFFFFFD00煤渣盆|r 拾取。'
 L['pt_smith_molten_ingot_note'] = '将3个锭踢入熔岩以出现怪物。打败怪物后拾取箱子。'
 L['pt_smith_qalashi_weapon_diagram_note'] = '在铁砧之上。'
-L['pt_tailor_itinerant_singed_fabric_note'] = '一块布料挂在树上，就在最终首领出现的洞穴外' .. ns.color.Orange('需要精准驭龙或术士传送门。')
+L['pt_tailor_itinerant_singed_fabric_note'] = '一块布料挂在树上，就在最终首领出现的洞穴外。' .. ns.color.Orange('需要精准驭龙或术士传送门。')
 L['pt_tailor_mysterious_banner_note'] = '在建筑物的顶部飘扬。'
