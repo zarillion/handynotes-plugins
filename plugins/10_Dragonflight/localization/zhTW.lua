@@ -135,8 +135,8 @@ L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = '顯示成就 {achievement:16424} 所需的所有巴卡犬的位置'
 
 L['dreamguard_note'] = '點選夢境守衛並且使用表情符號 ' .. ns.color.Orange('/sleep')
-L['options_icons_dreamguards'] = '{achievement:16574}'
-L['options_icons_dreamguards_desc'] = '顯示 {achievement:16574} 成就所需的夢境守衛位置'
+L['options_icons_dreamguard'] = '{achievement:16574}'
+L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的夢境守衛位置'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

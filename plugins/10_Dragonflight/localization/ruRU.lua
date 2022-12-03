@@ -136,8 +136,8 @@ L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Отображение местоположения всех собак (бакар) для достижения {achievement:16424}.'
 
 L['dreamguard_note'] = 'Возьмите в цель Изумрудного Стражника и  ' .. ns.color.Orange('/спать')
-L['options_icons_dreamguards'] = '{achievement:16574}'
-L['options_icons_dreamguards_desc'] = 'Отображать места Изумрудных Стражников для {achievement:16574}'
+L['options_icons_dreamguard'] = '{achievement:16574}'
+L['options_icons_dreamguard_desc'] = 'Отображать места Изумрудных Стражников для {achievement:16574}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

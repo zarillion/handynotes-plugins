@@ -135,8 +135,8 @@ L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = 'Zeigt die Position aller Bakar (Hunde) für den Erfolg {achievement:16424} an.'
 
 L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefehl ' .. ns.color.Orange('/schlafen') .. '.'
-L['options_icons_dreamguards'] = '{achievement:16574}'
-L['options_icons_dreamguards_desc'] = 'Zeigt die Positionen der Traumwächterinnen für den Erfolg {achievement:16574} an.'
+L['options_icons_dreamguard'] = '{achievement:16574}'
+L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinnen für den Erfolg {achievement:16574} an.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

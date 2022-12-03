@@ -135,8 +135,8 @@ L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = '显示 {achievement:16424} 成就中全部獒犬的位置。'
 
 L['dreamguard_note'] = '目标为梦境防御者并 ' .. ns.color.Orange('/睡觉、/sleep')
-L['options_icons_dreamguards'] = '{achievement:16574}'
-L['options_icons_dreamguards_desc'] = '显示 {achievement:16574} 成就中梦境防御者的位置。'
+L['options_icons_dreamguard'] = '{achievement:16574}'
+L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境防御者的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

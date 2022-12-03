@@ -33,8 +33,7 @@ ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570,
 ns.groups.DRAGONRACE =
     Group('dragonrace', 1100022, {defaults = ns.GROUP_HIDDEN})
 ns.groups.DRAGON_GLYPH = Group('dragon_glyph', 4728198)
-ns.groups.DREAMGUARDS = ns.Group('dreamguards', 341763,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.DREAMGUARD = Group('dreamguard', 341763, {defaults = ns.GROUP_HIDDEN})
 ns.groups.FLAG = Group('flag', 1723999, {defaults = ns.GROUP_HIDDEN})
 ns.groups.KITE = Group('kite', 133837, {defaults = ns.GROUP_HIDDEN})
 ns.groups.LAYLINE = Group('layline', 1033908, {defaults = ns.GROUP_HIDDEN})

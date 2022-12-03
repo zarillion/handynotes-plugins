@@ -767,14 +767,12 @@ map.nodes[23944019] = Scoutpack()
 local Dreamguard = Class('Dreamguard', Collectible, {
     icon = 341763,
     note = L['dreamguard_note'],
-    group = ns.groups.DREAMGUARDS
+    group = ns.groups.DREAMGUARD
 })
 
 map.nodes[29796222] = Dreamguard({
     id = 198068,
-    rewards = {
-        Achievement({id = 16574, criteria = 55777}) -- Sleeping on the Job
-    },
+    rewards = {Achievement({id = 16574, criteria = 55777})},
     pois = {
         POI({29696022}) -- Entrance
     }
@@ -782,37 +780,27 @@ map.nodes[29796222] = Dreamguard({
 
 map.nodes[25256527] = Dreamguard({
     id = 198069,
-    rewards = {
-        Achievement({id = 16574, criteria = 55778}) -- Sleeping on the Job
-    }
+    rewards = {Achievement({id = 16574, criteria = 55778})}
 }) -- Dreamguard Sayliasra
 
 map.nodes[19128296] = Dreamguard({
     id = 198073,
-    rewards = {
-        Achievement({id = 16574, criteria = 55780}) -- Sleeping on the Job
-    }
+    rewards = {Achievement({id = 16574, criteria = 55780})}
 }) -- Dreamguard Lucidra
 
 map.nodes[18125388] = Dreamguard({
     id = 198074,
-    rewards = {
-        Achievement({id = 16574, criteria = 55779}) -- Sleeping on the Job
-    }
+    rewards = {Achievement({id = 16574, criteria = 55779})}
 }) -- Dreamguard Aiyelasra
 
 map.nodes[29434138] = Dreamguard({
     id = 198075,
-    rewards = {
-        Achievement({id = 16574, criteria = 55781}) -- Sleeping on the Job
-    }
+    rewards = {Achievement({id = 16574, criteria = 55781})}
 }) -- Dreamguard Taelyasra
 
 map.nodes[33555322] = Dreamguard({
     id = 198064,
-    rewards = {
-        Achievement({id = 16574, criteria = 55776}) -- Sleeping on the Job
-    }
+    rewards = {Achievement({id = 16574, criteria = 55776})}
 }) -- Dreamguard Felyasra
 
 -------------------------------------------------------------------------------
