@@ -381,7 +381,7 @@ map.nodes[56914372] = PT.Jewelcrafting({
 
 map.nodes[58604580] = PT.Tailoring({
     id = 201019,
-    quest = 30372,
+    quest = 70372,
     note = L['pt_tailor_ancient_dragonweave_bolt_note']
 }) -- Ancient Dragonweave Bolt
 
