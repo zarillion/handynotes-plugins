@@ -61,6 +61,22 @@ L['forgotten_jewel_box_note'] = 'Récupérez la {item:199065} dans un Coffre cla
 L['gnoll_fiend_flail_note'] = '{item:199066} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['pepper_hammer_note'] = 'Récupérez la |cFFFFFD00Sève|r et utilisez le |cFFFFFD00Bâton|r pour attirer le {npc:195373}.\n\n|cFFFF0000(BUG : Pour cliquer sur le bâton, un rechargement peut être nécessaire)|r'
 
+L['pt_alch_experimental_decay_sample_note'] = nil
+L['pt_alch_firewater_powder_sample_note'] = nil
+L['pt_ench_enriched_earthen_shard_note'] = nil
+L['pt_ench_faintly_enchanted_remains_note'] = nil
+L['pt_ench_forgotten_arcane_tome_note'] = nil
+L['pt_jewel_crystalline_overgrowth_note'] = nil
+L['pt_jewel_harmonic_crystal_harmonizer_note'] = nil
+L['pt_leath_decay_infused_tanning_oil_note'] = nil
+L['pt_leath_treated_hides_note'] = nil
+L['pt_leath_well_danced_drum_note'] = nil
+L['pt_script_dusty_darkmoon_card_note'] = nil
+L['pt_script_frosted_parchment_note'] = nil
+L['pt_smith_spelltouched_tongs_note'] = nil
+L['pt_tailor_decaying_brackenhide_blanket_note'] = nil
+L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = nil
+
 L['leyline_note'] = 'Réalignez la ligne tellurique.'
 L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = 'Afficher les emplacements de toutes les lignes telluriques pour le haut-fait {achievement:16638}.'
@@ -88,6 +104,17 @@ L['nokhud_warspear_note'] = '{item:194540} peut être trouvé dans les Paquetage
 L['slightly_chewed_duck_egg_note'] = 'Trouvez et caressez {npc:192997} pour obtenir une {item:195453} puis utilisez-la. l\'{item:199171} incube pendant 3 jours pour devenir {item:199172}.'
 L['yennus_boat'] = 'Bateau jouet rohart'
 L['yennus_boat_note'] = 'Récupérez le |cFFFFFD00Bateau jouet rohart|r pour obtenir {item:200876}, ce qui lance la quête {quest:72063} qui peut être rendue à {npc:195252}.'
+
+L['pt_alch_canteen_of_suspicious_water_note'] = nil
+L['pt_ench_stormbound_horn_note'] = nil
+L['pt_jewel_fragmented_key_note'] = nil
+L['pt_jewel_lofty_malygite_note'] = nil
+L['pt_leath_wind_blessed_hide_note'] = nil
+L['pt_script_sign_language_reference_sheet_note'] = nil
+L['pt_smith_ancient_spear_shards_note'] = nil
+L['pt_smith_falconer_gauntlet_drawings_note'] = nil
+L['pt_tailor_noteworthy_scrap_of_carpet_note'] = nil
+L['pt_tailor_silky_surprise_note'] = nil
 
 L['lizi_note'] = 'Terminez la suite de quêtes Une sortie d’initié en commençant par {quest:65901}. Accomplissez les quêtes chaque jour pour soigner Lizi et recevoir votre monture.\n\nEn plus des objets requis, toutes les quêtes demandent 150x {currency:2003} pour un total de 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Collectez 20x {item:192615} sur des monstres insectes dans les |cFFFFFD00Îles aux Dragons|r'
@@ -123,6 +150,19 @@ L['acorn_harvester_note'] = 'Ramassez un |cFFFFFD00Gland|r sur le sol à proximi
 L['cracked_hourglass_note'] = '{item:199068} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
 
+L['pt_alch_contraband_concoction_note'] = nil
+L['pt_alch_furry_gloop_note'] = nil
+L['pt_ench_fractured_titanic_sphere_note'] = nil
+L['pt_jewel_alexstraszite_cluster_note'] = nil
+L['pt_jewel_painters_pretty_jewel_note'] = nil
+L['pt_leath_decayed_scales_note'] = nil
+L['pt_script_counterfeit_darkmoon_deck_note'] = nil
+L['pt_script_forgetful_apprentices_tome_note'] = nil
+L['pt_script_how_to_train_your_whelpling_note'] = nil
+L['pt_smith_draconic_flux_note'] = nil
+L['pt_tailor_ancient_dragonweave_bolt_note'] = nil
+L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -141,7 +181,22 @@ L['fullsails_supply_chest'] = 'Clé de coffre de fournitures des Gréements'
 L['hidden_hornswog_hoard'] = 'Horde de bufflaciens cachée'
 L['hidden_hornswog_hoard_note'] = 'Collectez {item:200064}, {item:200065} et {item:200066}, combinez-les à |cFFFFFD00"l\'Énigmes sagaces : un guide de poche"|r près du trésor puis nourrissez la grenouille.'
 
-L['pt_alch_insulated_mug_note'] = nil
 L['pt_alch_frostforged_potion_note'] = nil
-L['pt_smith_glimmer_of_wisdom_note'] = nil
+L['pt_alch_well_insulated_mug_note'] = nil
+L['pt_ench_enchanted_debris_note'] = nil
 L['pt_ench_flashfrozen_scroll_note'] = nil
+L['pt_ench_lava_infused_seed_note'] = nil
+L['pt_engi_boomthyr_rocket_note'] = nil
+L['pt_engi_intact_coil_capacitor_note'] = nil
+L['pt_jewel_closely_guarded_shiny_note'] = nil
+L['pt_jewel_igneous_gem_note'] = nil
+L['pt_leath_poachers_pack_note'] = nil
+L['pt_leath_spare_djaradin_tools_note'] = nil
+L['pt_script_pulsing_earth_rune_note'] = nil
+L['pt_smith_ancient_monument_note'] = nil
+L['pt_smith_curious_ingots_note'] = nil
+L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = nil
+L['pt_smith_molten_ingot_note'] = nil
+L['pt_smith_qalashi_weapon_diagram_note'] = nil
+L['pt_tailor_itinerant_singed_fabric_note'] = nil
+L['pt_tailor_mysterious_banner_note'] = nil

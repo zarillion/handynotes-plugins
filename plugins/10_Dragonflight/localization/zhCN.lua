@@ -60,6 +60,22 @@ L['forgotten_jewel_box_note'] = '从欧恩哈拉平原的峦水居所拾取 {ite
 L['gnoll_fiend_flail_note'] = '{item:199066} 可以从探险队斥候的背包和翻动过的泥土中找到。'
 L['pepper_hammer_note'] = '收集 |cFFFFFD00树液|r 后使用 |cFFFFFD00棍子|r 来引诱 {npc:195373}。\n\n|cFFFF0000（臭虫：点击棍子可能需要重新加载）|r'
 
+L['pt_alch_experimental_decay_sample_note'] = nil
+L['pt_alch_firewater_powder_sample_note'] = nil
+L['pt_ench_enriched_earthen_shard_note'] = nil
+L['pt_ench_faintly_enchanted_remains_note'] = nil
+L['pt_ench_forgotten_arcane_tome_note'] = nil
+L['pt_jewel_crystalline_overgrowth_note'] = nil
+L['pt_jewel_harmonic_crystal_harmonizer_note'] = nil
+L['pt_leath_decay_infused_tanning_oil_note'] = nil
+L['pt_leath_treated_hides_note'] = nil
+L['pt_leath_well_danced_drum_note'] = nil
+L['pt_script_dusty_darkmoon_card_note'] = nil
+L['pt_script_frosted_parchment_note'] = nil
+L['pt_smith_spelltouched_tongs_note'] = nil
+L['pt_tailor_decaying_brackenhide_blanket_note'] = nil
+L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = nil
+
 L['leyline_note'] = '重新排列魔网。'
 L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = '显示 {achievement:16638} 成就中全部重新排列魔网的位置。'
@@ -87,6 +103,17 @@ L['nokhud_warspear_note'] = '{item:194540} 可以在探险队斥候的背包找�
 L['slightly_chewed_duck_egg_note'] = '找到并拍打 {npc:192997} 获得 {item:195453} 并使用它。{item:199171} 3天后孵化为 {item:199172}。'
 L['yennus_boat'] = '海象人玩具船'
 L['yennus_boat_note'] = '拾取 |cFFFFFD00海象人玩具船|r 后获得 {item:200876}，可以在 {npc:195252} 开始上缴的任务 {quest:72063}。'
+
+L['pt_alch_canteen_of_suspicious_water_note'] = nil
+L['pt_ench_stormbound_horn_note'] = nil
+L['pt_jewel_fragmented_key_note'] = nil
+L['pt_jewel_lofty_malygite_note'] = nil
+L['pt_leath_wind_blessed_hide_note'] = nil
+L['pt_script_sign_language_reference_sheet_note'] = nil
+L['pt_smith_ancient_spear_shards_note'] = nil
+L['pt_smith_falconer_gauntlet_drawings_note'] = nil
+L['pt_tailor_noteworthy_scrap_of_carpet_note'] = nil
+L['pt_tailor_silky_surprise_note'] = nil
 
 L['lizi_note'] = '完成从 {quest:65901} 开始的新兵一日游任务线。每天完成任务以治愈莉姬并获得坐骑。\n\n除了需要的物品外，所有任务都需要150个 {currency:2003}，总共需要750个 {currency:2003}。'
 L['lizi_note_day1'] = '从 |cFFFFFD00巨龙群岛|r 的昆虫怪物收集20个 {item:192615}。'
@@ -122,6 +149,19 @@ L['acorn_harvester_note'] = '从附近地面收集1个 |cFFFFFD00橡果|r 获得
 L['cracked_hourglass_note'] = '{item:199068} 可以从探险队斥候的背包和翻动过的泥土中找到。'
 L['sandy_wooden_duck_note'] = '收集 {item:199069} 并使用它。'
 
+L['pt_alch_contraband_concoction_note'] = nil
+L['pt_alch_furry_gloop_note'] = nil
+L['pt_ench_fractured_titanic_sphere_note'] = nil
+L['pt_jewel_alexstraszite_cluster_note'] = nil
+L['pt_jewel_painters_pretty_jewel_note'] = nil
+L['pt_leath_decayed_scales_note'] = nil
+L['pt_script_counterfeit_darkmoon_deck_note'] = nil
+L['pt_script_forgetful_apprentices_tome_note'] = nil
+L['pt_script_how_to_train_your_whelpling_note'] = nil
+L['pt_smith_draconic_flux_note'] = nil
+L['pt_tailor_ancient_dragonweave_bolt_note'] = nil
+L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -140,7 +180,22 @@ L['fullsails_supply_chest'] = '满帆补给箱'
 L['hidden_hornswog_hoard'] = '隐藏的龙蛙存货'
 L['hidden_hornswog_hoard_note'] = '收集 {item:200064}、{item:200065}、{item:200066}，在宝藏附近的“观察谜题：实地指南”将它们组合起来，然后喂青蛙。'
 
-L['pt_alch_insulated_mug_note'] = '在灭龙要塞一些精英怪物之间。'
-L['pt_alch_frostforged_potion_note'] = '在冰坑中间。'
-L['pt_smith_glimmer_of_wisdom_note'] = '在 |cFFFFFD00暗淡的熔炉|r 附近制造一个 {item:189541} 后物品将变为可以在 |cFFFFFD00煤渣盆|r 拾取。'
-L['pt_ench_flashfrozen_scroll_note'] = '速冻领地洞穴系统内部。'
+L['pt_alch_frostforged_potion_note'] = nil
+L['pt_alch_well_insulated_mug_note'] = nil
+L['pt_ench_enchanted_debris_note'] = nil
+L['pt_ench_flashfrozen_scroll_note'] = nil
+L['pt_ench_lava_infused_seed_note'] = nil
+L['pt_engi_boomthyr_rocket_note'] = nil
+L['pt_engi_intact_coil_capacitor_note'] = nil
+L['pt_jewel_closely_guarded_shiny_note'] = nil
+L['pt_jewel_igneous_gem_note'] = nil
+L['pt_leath_poachers_pack_note'] = nil
+L['pt_leath_spare_djaradin_tools_note'] = nil
+L['pt_script_pulsing_earth_rune_note'] = nil
+L['pt_smith_ancient_monument_note'] = nil
+L['pt_smith_curious_ingots_note'] = nil
+L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = nil
+L['pt_smith_molten_ingot_note'] = nil
+L['pt_smith_qalashi_weapon_diagram_note'] = nil
+L['pt_tailor_itinerant_singed_fabric_note'] = nil
+L['pt_tailor_mysterious_banner_note'] = nil

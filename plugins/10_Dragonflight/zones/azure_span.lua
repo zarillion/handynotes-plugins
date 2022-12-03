@@ -11,10 +11,11 @@ local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
+local PetBattle = ns.node.PetBattle
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
-local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -551,6 +552,101 @@ map.nodes[70143327] = BonusBoss({
 }) -- Summoned Destroyer
 
 -- map.nodes[17254144] = BonusBoss({id = 193223, quest = nil}) -- Vakril
+
+-------------------------------------------------------------------------------
+----------------------------- PROFESSION TREASURES ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[12504940] = PT.Leatherworking({
+    id = 201018,
+    quest = nil,
+    note = L['pt_leath_well_danced_drum_note']
+}) -- Well-Danced Drum
+
+map.nodes[16203880] = PT.Tailoring({
+    id = 198680,
+    quest = nil,
+    note = L['pt_tailor_decaying_brackenhide_blanket_note']
+}) -- Decaying Brackenhide Blanket
+
+map.nodes[16403850] = PT.Alchemy({
+    id = 198599,
+    quest = nil,
+    note = L['pt_alch_experimental_decay_sample_note']
+}) -- Experimental Decay Sample
+
+map.nodes[16703880] = PT.Leatherworking({
+    id = 198658,
+    quest = nil,
+    note = L['pt_leath_decay_infused_tanning_oil_note']
+}) -- Decay-Infused Tanning Oil
+
+map.nodes[21004500] = PT.Enchanting({
+    id = 198694,
+    quest = 70298,
+    note = L['pt_ench_enriched_earthen_shard_note']
+}) -- Enriched Earthen Shard
+
+map.nodes[38505920] = PT.Enchanting({
+    id = 198799,
+    quest = nil,
+    note = L['pt_ench_forgotten_arcane_tome_note']
+}) -- Forgotten Arcane Tome
+
+map.nodes[40705450] = PT.Tailoring({
+    id = 198662,
+    quest = nil,
+    note = L['pt_tailor_intriguing_bolt_of_blue_cloth_note']
+}) -- Intriguing Bolt of Blue Cloth
+
+map.nodes[43703090] = PT.Inscription({
+    id = 198686,
+    quest = nil,
+    note = L['pt_script_frosted_parchment_note']
+}) -- Frosted Parchment
+
+map.nodes[44606120] = PT.Jewelcrafting({
+    id = 201016,
+    quest = 70271,
+    note = L['pt_jewel_harmonic_crystal_harmonizer_note']
+}) -- Harmonic Crystal Harmonizer
+
+map.nodes[45006130] = PT.Jewelcrafting({
+    id = 198664,
+    quest = 70277,
+    note = L['pt_jewel_crystalline_overgrowth_note']
+}) -- Crystalline Overgrowth
+
+map.nodes[45106120] = PT.Enchanting({
+    id = 201013,
+    quest = 70290,
+    note = L['pt_ench_faintly_enchanted_remains_note']
+}) -- Faintly Enchanted Remains
+
+map.nodes[46202390] = PT.Inscription({
+    id = 198693,
+    quest = nil,
+    note = L['pt_script_dusty_darkmoon_card_note']
+}) -- Dusty Darkmoon Card
+
+map.nodes[53106530] = PT.Blacksmithing({
+    id = 201011,
+    quest = nil,
+    note = L['pt_smith_spelltouched_tongs_note'],
+    requires = ns.requirement.Profession(186)
+}) -- Spelltouched Tongs
+
+map.nodes[57504130] = PT.Leatherworking({
+    id = 198683,
+    quest = nil,
+    note = L['pt_leath_treated_hides_note']
+}) -- Treated Hides
+
+map.nodes[67001320] = PT.Alchemy({
+    id = 198712,
+    quest = nil,
+    note = L['pt_alch_firewater_powder_sample_note']
+}) -- Firewater Powder Sample
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

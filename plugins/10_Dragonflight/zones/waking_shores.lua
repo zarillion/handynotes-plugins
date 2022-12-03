@@ -11,11 +11,11 @@ local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
+local PetBattle = ns.node.PetBattle
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
-local PetBattle = ns.node.PetBattle
-local PT = ns.node.ProfessionTreasures
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -526,11 +526,59 @@ map.nodes[60598285] = BonusBoss({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[22008700] = PT.Blacksmithing({
+    id = 201007,
+    quest = nil,
+    note = L['pt_smith_ancient_monument_note']
+}) -- Ancient Monument
+
+map.nodes[24906970] = PT.Tailoring({
+    id = 198702,
+    quest = nil,
+    note = L['pt_tailor_itinerant_singed_fabric_note']
+}) -- Itinerant Singed Fabric
+
 map.nodes[25107330] = PT.Alchemy({
     id = 198685,
     quest = nil,
-    note = L['pt_alch_insulated_mug_note']
-}) -- Well Insulated Mug
+    note = L['pt_alch_well_insulated_mug_note']
+}) -- Well-Insulated Mug
+
+map.nodes[33906370] = PT.Jewelcrafting({
+    id = 201017,
+    quest = 70273,
+    note = L['pt_jewel_igneous_gem_note']
+}) -- Igneous Gem
+
+map.nodes[34506710] = PT.Blacksmithing({
+    id = 201010,
+    quest = nil,
+    note = L['pt_smith_qalashi_weapon_diagram_note']
+}) -- Qalashi Weapon Diagram
+
+map.nodes[35506430] = PT.Blacksmithing({
+    id = 201008,
+    quest = nil,
+    note = L['pt_smith_molten_ingot_note']
+}) -- Molten Ingot
+
+map.nodes[39008600] = PT.Leatherworking({
+    id = 198711,
+    quest = nil,
+    note = L['pt_leath_poachers_pack_note']
+}) -- Poacher's Pack
+
+map.nodes[49097754] = PT.Engineering({
+    id = 198789,
+    quest = nil,
+    note = L['pt_engi_intact_coil_capacitor_note']
+}) -- Intact Coil Capacitor
+
+map.nodes[50404510] = PT.Jewelcrafting({
+    id = 198687,
+    quest = 70292,
+    note = L['pt_jewel_closely_guarded_shiny_note']
+}) -- Closely Guarded Shiny
 
 map.nodes[55008100] = PT.Alchemy({
     id = 198663,
@@ -538,17 +586,60 @@ map.nodes[55008100] = PT.Alchemy({
     note = L['pt_alch_frostforged_potion_note']
 }) -- Frostforged Potion
 
+map.nodes[56004490] = PT.Engineering({
+    id = 201014,
+    quest = nil,
+    note = L['pt_engi_boomthyr_rocket_note'],
+    pois = {POI({55904529, 58134453, 57994435, 57834457})}
+}) -- Boomthyr Rocket
+
 map.nodes[56401950] = PT.Blacksmithing({
     id = 198791,
     quest = nil,
-    note = L['pt_smith_glimmer_of_wisdom_note']
+    note = L['pt_smith_glimmer_of_blacksmithing_wisdom_note']
 }) -- Glimmer of Blacksmithing Wisdom
+
+map.nodes[57505850] = PT.Enchanting({
+    id = 201012,
+    quest = 70272,
+    note = L['pt_ench_enchanted_debris_note']
+}) -- Enchanted Debris
 
 map.nodes[57508360] = PT.Enchanting({
     id = 198798,
-    quest = nil,
+    quest = 70320,
     note = L['pt_ench_flashfrozen_scroll_note']
 }) -- Flashfrozen Scroll
+
+map.nodes[64302540] = PT.Leatherworking({
+    id = 198667,
+    quest = nil,
+    note = L['pt_leath_spare_djaradin_tools_note']
+}) -- Spare Djaradin Tools
+
+map.nodes[65502570] = PT.Blacksmithing({
+    id = 201005,
+    quest = nil,
+    note = L['pt_smith_curious_ingots_note']
+}) -- Curious Ingots
+
+map.nodes[67875796] = PT.Inscription({
+    id = 198704,
+    quest = nil,
+    note = L['pt_script_pulsing_earth_rune_note']
+}) -- Pulsing Earth Rune
+
+map.nodes[68002680] = PT.Enchanting({
+    id = 198675,
+    quest = 70283,
+    note = L['pt_ench_lava_infused_seed_note']
+}) -- Lava-Infused Seed
+
+map.nodes[74703790] = PT.Tailoring({
+    id = 198699,
+    quest = nil,
+    note = L['pt_tailor_mysterious_banner_note']
+}) -- Mysterious Banner
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
