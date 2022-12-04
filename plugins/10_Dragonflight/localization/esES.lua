@@ -236,6 +236,6 @@ L['quack_week_4'] = 'Semana 4'
 L['quack_week_5'] = 'Semana 5'
 L['lets_get_quacking'] = 'Sólo puedes rescatar un {npc:187863} a la semana.'
 
-L['complaint_to_scalepiercer_note'] = nil
-L['grand_flames_journal_note'] = nil
-L['wyrmeaters_recipe_note'] = nil
+L['complaint_to_scalepiercer_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r que hay dentro de la choza (en el lado izquierdo de la parte de atrás).'
+L['grand_flames_journal_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r de fuera detrás de la choza.'
+L['wyrmeaters_recipe_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r que hay dentro de la choza (en el lado izquierdo).'
