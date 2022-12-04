@@ -83,9 +83,11 @@ L['seeing_blue_note'] = 'Volez du sommet des archives d’Azur jusqu’à l’as
 L['snowman_note'] = 'Il y a trois {npc:197599s} dans la zone (elles ont pu être déplacées par d\'autres joueurs), faites-les rouler vers les deux enfants {npc:197838} et {npc:197839}.\nVous obtenez le haut-fait lorsque les boules de neige ont la bonne taille.'
 L['temperamental_skyclaw_note'] = [[
 Rassemblez (ou achetez à l'hôtel des ventes) :
+
 20x {item:201420}
 20x {item:201421}
 20x {item:201422}
+
 Renseignez-vous sur la rusarde sellée et remettez à {npc:190892} les "plats" recueillis.
 ]]
 
@@ -129,7 +131,7 @@ L['lizi_note_day1'] = 'Collectez 20x {item:192615} sur des monstres insectes dan
 L['lizi_note_day2'] = 'Collectez 20x {item:192658} sur des monstres végétaux dans les |cFFFFFD00Îles aux Dragons|r.'
 L['lizi_note_day3'] = 'Collectez 10x {item:194966} pêchés dans n\'importe quelles eaux des |cFFFFFD00Îles aux Dragons|r. Ils sont trouvés le plus souvent à l\'intérieur des terres des |cFFFFFD00Plaines d\'Ohn\'ahra|r.'
 L['lizi_note_day4'] = 'Collectez 20x {item:192636} sur des mammouths dans les |cFFFFFD00Plaines d\'Ohn\'ahra|r'
-L['lizi_note_day5'] = 'Acceptez {quest:71195} de l\'{npc:190014} et obtenez 1x {item:200598} de la part de {npc:190015} dans une tente au sud des |cFFFFFD00Sources des Ohn\'irs|r'
+L['lizi_note_day5'] = 'Acceptez {quest:71195} de l\'{npc:190014} et obtenez 1x {item:200598} de la part de {npc:190015} dans une tente au sud des |cFFFFFD00Sources des Ohn\'irs|r.'
 
 L['ohnahra_note_start'] = 'Terminez la suite de quêtes Une sortie d’initié commençant par {quest:65901} puis {npc:190022} apparaîtra aux |cFFFFFD00Sources des Ohn\'irs|r derrière une hutte de Sage-du-vent.\n\nRassemblez les matériaux suivants :'
 L['ohnahra_note_item1'] = 'Récupérez 3x {item:201929} sur {npc:186151}, le boss final du donjon |cFFFFFD00L\'offensive nokhud|r. Ce n\'est pas un drop garanti à 100%.'
