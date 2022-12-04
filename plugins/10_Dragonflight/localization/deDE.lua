@@ -56,7 +56,7 @@ L['breezebiter_note'] = 'Fliegt durch die Luft, um ihn herunterzuziehen, fliege 
 L['forgotten_jewel_box_note'] = 'Plündere {item:199065} aus einer Klankiste in Gratwasserzuflucht (49.4 67.3) in den Ebenen von Ohn\'ahra und benutze es.'
 L['gnoll_fiend_flail_note'] = '{item:199066} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['pepper_hammer_note'] = 'Sammel |cFFFFFD00Baumharz|r und benutze dann den |cFFFFFD00Stock|r, um {npc:195373} anzulocken.\n\n|cFFFF0000(BUG: Um den Stock anzuklicken könnte ein reload nötig sein)|r'
-L['snow_covered_scroll'] = nil
+L['snow_covered_scroll'] = 'Schneebedeckte Schriftrolle'
 
 L['pt_alch_experimental_decay_sample_note'] = 'In einem großen grünen Kessel.'
 L['pt_alch_firewater_powder_sample_note'] = 'Außerhalb des Holzhauses neben der Vase.'
@@ -79,7 +79,7 @@ L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = 'Zeigt die Positionen aller Leylinien für den Erfolg {achievement:16638} an.'
 
 L['seeing_blue_note'] = 'Fliegt ohne Zwischenlandung von der Spitze der Azurarchive zum Kobaltkonvent.'
-L['snowman_note'] = 'Es liegen 3 Schneebälle in der nähe (möglicherweise wurden sie von anderen Spielern weggerollt), rolle sie zu den Kindern {npc:197838} und {npc:197839}.\nDu erhälst den erfolg sobald die Schneebälle die richtigen gößen erreicht haben.'
+L['snowman_note'] = 'Es liegen 3 Schneebälle in der Nähe (möglicherweise wurden sie von anderen Spielern weggerollt), rolle sie zu den Kindern {npc:197838} und {npc:197839}.\nDu erhältst den Erfolg sobald die Schneebälle die richtigen Größen erreicht haben.'
 L['temperamental_skyclaw_note'] = [[
 Sammel (oder kaufe im Auktionshaus):
 
@@ -163,7 +163,8 @@ L['acorn_harvester_note'] = 'Sammel in der Nähe eine |cFFFFFD00Eichel|r vom Bod
 L['cracked_hourglass_note'] = '{item:199068} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['sandy_wooden_duck_note'] = 'Sammel {item:199069} und benutze diese.'
 
-L['tasty_hatchling_treat_note'] = nil
+L['tasty_hatchling_treat_note'] = 'In einem Fass hinter dem Bücherregal.'
+
 L['pt_alch_contraband_concoction_note'] = 'In Büschen versteckt. ' .. ns.color.Orange('Schwer zu sehen.')
 L['pt_alch_furry_gloop_note'] = 'Wirf ein {npc:194855} in der Nähe in jeden Kessel und töte dann den Gegner, der erscheint.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Südlich von |cFFFFFD00Tyrhold|r.'
@@ -182,21 +183,21 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Kleines Banner in ei
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem {npc:192737} zu diesem Turm.'
-L['lepidoralia_note'] = nil
+L['lepidoralia_note'] = 'Hilf {npc:193342} in der |cFFFFFD00Flatterkaverne|r Höhle dabei {npc:193274} zu fangen, bis der seltene Gegner erscheint.'
 L['obsidian_citadel_rare_note'] = 'Du und andere Spieler müssen insgesamt %dx {item:191264} bei %s abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der |cFFFFFD00Obsidianzitadelle|r geplündert werden.'
-L['shadeslash_note'] = nil
+L['shadeslash_note'] = 'Klicke auf den |cFFFFFD00Gestohlener Fokus|r, um den seltenen Gegner erscheinen zu lassen.'
 L['shasith_note'] = 'Innerhalb des |cFFFFFD00Obsidianthron|r.'
-L['slurpo_snail_note'] = nil
+L['slurpo_snail_note'] = 'Plündere in einer Höhle im |cFFFFFD00Azurblauen Gebirge|r (11.0, 41.4) aus einem |cFFFFFD00Salzkristall|r ein {item:201033} und benutze ihn in dieser Höhle, um den seltenen Gegner erscheinen zu lassen.'
 L['worldcarver_atir_note'] = 'Sammel 3x {item:191211} von {npc:187366} in der Nähe und platziere diese beim {npc:197395}, um den seltenen Gegner erscheinen zu lassen.'
 
 L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['dead_mans_chestplate_note'] = 'Im Inneren des Turms auf der mittleren Etage.'
-L['fullsails_supply_chest_note'] = nil
+L['fullsails_supply_chest_note'] = 'Der Schlüssel kann südlich der |cFFFFFD00Botschaft von Schwingenrast|r von {npc:187971} und {npc:187320} fallen gelassen werden.'
 L['golden_dragon_goblet_note'] = 'Plündere {item:202081} von {npc:190056} an der |cFFFFFD00Wilde Küste|r und schließe die kleine Questreihe ab.'
 L['misty_treasure_chest_note'] = 'Stelle dich auf den {npc:185485} der aus dem Wasserfall ragt, um in die Höhle zu gelangen.'
 L['onyx_gem_cluster_note'] = 'Auf Ruhmstufe 21 bei der Drachenschuppenexpedition kannst du die Quest {quest:70833} abschließen und als Belohnung die {item:200738} bekommen (einmal pro Account) oder kaufe die Karte von {npc:189065} für 3 {item:192863} und 500 {currency:2003} und benutze es.'
-L['torn_riding_pack_note'] = nil
-L['yennus_kite_note'] = nil
+L['torn_riding_pack_note'] = 'Liegt am oberen Ende des Wasserfalls.'
+L['yennus_kite_note'] = 'Steckt an einem Ast in der Baumkrone fest.'
 
 L['fullsails_supply_chest'] = 'Vorratskiste der Vollsegel'
 L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item:200066}, kombiniere diese beim |cFFFFFD00"Rätsel für Aufmerksame: Ein Naturführer"|r nahe dem Schatz und füttere dann den Frosch damit.'
