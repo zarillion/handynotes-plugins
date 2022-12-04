@@ -46,9 +46,9 @@ L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Display the location of critters for {achievement:16729}.'
 
-L['hnj_western_azure_span_hunt'] = 'On top of the dead tree'
+L['hnj_western_azure_span_hunt'] = 'On top of the dead tree.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
-L['options_icons_hemet_nesingwary_jr_desc'] = '{npc:194590} locations for {achievement:16542}'
+L['options_icons_hemet_nesingwary_jr_desc'] = 'Display the location of {npc:194590} for the achievement {achievement:16542}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
