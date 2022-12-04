@@ -42,6 +42,7 @@ L['dr_bronze'] = '\n\n完成賽事來取得 ' .. ns.color.Bronze('銅牌') .. '.
 L['options_icons_dragonrace'] = '飛龍競速'
 L['options_icons_dragonrace_desc'] = '顯示飛龍競速的位置.'
 
+L['hnj_sublabel'] =  nil
 L['hnj_western_azure_span_hunt'] = nil
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = nil

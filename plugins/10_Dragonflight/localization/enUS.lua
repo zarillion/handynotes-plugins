@@ -42,6 +42,7 @@ L['dr_bronze'] = '\n\nFinish the race to get ' .. ns.color.Bronze('Bronze') .. '
 L['options_icons_dragonrace'] = 'Dragonriding Race'
 L['options_icons_dragonrace_desc'] = 'Display the location of Dragonriding Race.'
 
+L['hnj_sublabel'] = 'Requires local Shikaar Grand Hunt'
 L['hnj_western_azure_span_hunt'] = 'On top of the dead tree.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Display the locations of {npc:194590} for the achievement {achievement:16542}.'

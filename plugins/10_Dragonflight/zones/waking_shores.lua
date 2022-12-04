@@ -953,6 +953,7 @@ map.nodes[82884258] = Quack({
 local HemetNesingwaryJr = Class('HemetNesingwaryJr', Collectible, {
     id = 194590,
     icon = 236444,
+    sublabel = L['hnj_sublabel'],
     group = ns.groups.HEMET_NESINGWARY_JR
 }) -- Hemet Nesingwary Jr.
 
