@@ -1014,11 +1014,13 @@ local Lizi = Class('Lizi', Collectible, {
         ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
     },
     rewards = {Mount({item = 192799, id = 1639})}, -- Lizi's Reins
-    pois = {POI({
-        57087764, -- day 3
-        56727631, -- day 4
-        57667231 -- day 5
-    })}
+    pois = {
+        POI({
+            57087764, -- day 3
+            56727631, -- day 4
+            57667231 -- day 5
+        })
+    }
 })
 
 function Lizi.getters:note()
