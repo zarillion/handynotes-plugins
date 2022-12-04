@@ -154,6 +154,8 @@ L['acorn_harvester_note'] = '从附近地面收集1个 |cFFFFFD00橡果|r 获得
 L['cracked_hourglass_note'] = '{item:199068} 可以从探险队斥候的背包和翻动过的泥土中找到。'
 L['sandy_wooden_duck_note'] = '收集 {item:199069} 并使用它。'
 
+L['tasty_hatchling_treat_note'] = nil
+
 L['pt_alch_contraband_concoction_note'] = '隐藏在灌木丛中。' .. ns.color.Orange('很难发现。')
 L['pt_alch_furry_gloop_note'] = '将附近的 {npc:194855} 放入每个大锅中，然后杀死出现的怪物。'
 L['pt_ench_fractured_titanic_sphere_note'] = '|cFFFFFD00提尔要塞|r 南侧。'

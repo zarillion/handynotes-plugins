@@ -154,6 +154,8 @@ L['acorn_harvester_note'] = '在附近的地上收集一個橡實來取得 {spel
 L['cracked_hourglass_note'] = '{item:199068} 可以在遠征隊斥侯包和挖過的土中找到.'
 L['sandy_wooden_duck_note'] = '收集 {item:199069} 並使用它.'
 
+L['tasty_hatchling_treat_note'] = nil
+
 L['pt_alch_contraband_concoction_note'] = nil
 L['pt_alch_furry_gloop_note'] = nil
 L['pt_ench_fractured_titanic_sphere_note'] = nil

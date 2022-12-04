@@ -155,6 +155,8 @@ L['acorn_harvester_note'] = 'Подберите |cFFFFFD00желудь|r с зе
 L['cracked_hourglass_note'] = '{item:199068} можно найти в сумках разведчика экспедиции и потревоженной почве.'
 L['sandy_wooden_duck_note'] = 'Возьмите {item:199069} и используйте ее.'
 
+L['tasty_hatchling_treat_note'] = nil
+
 L['pt_alch_contraband_concoction_note'] = nil
 L['pt_alch_furry_gloop_note'] = nil
 L['pt_ench_fractured_titanic_sphere_note'] = nil

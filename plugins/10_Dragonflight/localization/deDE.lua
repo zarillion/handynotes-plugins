@@ -154,6 +154,7 @@ L['acorn_harvester_note'] = 'Sammel in der Nähe eine |cFFFFFD00Eichel|r vom Bod
 L['cracked_hourglass_note'] = '{item:199068} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['sandy_wooden_duck_note'] = 'Sammel {item:199069} und benutze diese.'
 
+L['tasty_hatchling_treat_note'] = nil
 L['pt_alch_contraband_concoction_note'] = 'In Büschen versteckt. ' .. ns.color.Orange('Schwer zu sehen.')
 L['pt_alch_furry_gloop_note'] = 'Wirf ein {npc:194855} in der Nähe in jeden Kessel und töte dann den Gegner, der erscheint.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Südlich von |cFFFFFD00Tyrhold|r.'

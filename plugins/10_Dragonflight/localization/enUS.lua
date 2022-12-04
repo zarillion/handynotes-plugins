@@ -154,6 +154,8 @@ L['acorn_harvester_note'] = 'Collect an |cFFFFFD00Acorn|r from the ground nearby
 L['cracked_hourglass_note'] = '{item:199068} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['sandy_wooden_duck_note'] = 'Collect {item:199069} and use it.'
 
+L['tasty_hatchling_treat_note'] = 'In a barrel behind the bookshelf.'
+
 L['pt_alch_contraband_concoction_note'] = 'Hidden in bushes. ' .. ns.color.Orange('Difficult to see.')
 L['pt_alch_furry_gloop_note'] = 'Drop a nearby {npc:194855} into each cauldron then kill the monster that spawns.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'South of |cFFFFFD00Tyrhold|r.'

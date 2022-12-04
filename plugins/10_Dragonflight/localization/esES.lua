@@ -155,6 +155,8 @@ L['acorn_harvester_note'] = 'Recoge una |cFFFFFD00Bellota|r del suelo cercano pa
 L['cracked_hourglass_note'] = 'La {item:199068} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['sandy_wooden_duck_note'] = 'Recoge el {item:199069} y úsalo.'
 
+L['tasty_hatchling_treat_note'] = nil
+
 L['pt_alch_contraband_concoction_note'] = 'Escondido en los arbustos. ' .. ns.color.Orange('Difícil de ver')
 L['pt_alch_furry_gloop_note'] = 'Deja a un {npc:194855} cercano dentro de cada caldera y mata al monstruo que aparecerá.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Al Sur de |cFFFFFD00Tyrhold|r.'

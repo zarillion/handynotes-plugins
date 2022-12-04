@@ -155,6 +155,8 @@ L['acorn_harvester_note'] = 'Ramassez un |cFFFFFD00Gland|r sur le sol à proximi
 L['cracked_hourglass_note'] = '{item:199068} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
 
+L['tasty_hatchling_treat_note'] = nil
+
 L['pt_alch_contraband_concoction_note'] = 'Caché dans les buissons. ' .. ns.color.Orange('Difficile à voir.')
 L['pt_alch_furry_gloop_note'] = 'Jetez un {npc:194855} proche dans chaque chaudron puis tuez le monstre qui apparaît.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Au sud du |cFFFFFD00Bastion de Tyr|r.'
