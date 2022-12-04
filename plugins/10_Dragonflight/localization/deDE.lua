@@ -229,6 +229,6 @@ L['quack_week_4'] = 'Woche 4'
 L['quack_week_5'] = 'Woche 5'
 L['lets_get_quacking'] = 'Du kannst jede Woche nur ein {npc:187863} retten.'
 
-L['complaint_to_scalepiercer_note'] = 'Klicke die |cFFFFFD00Steintafel|r im Inneren der Hütte an. (Auf der linken Seite hinten.)'
+L['complaint_to_scalepiercer_note'] = 'Klicke die |cFFFFFD00Steintafel|r im Inneren der Hütte an (auf der linken Seite hinten).'
 L['grand_flames_journal_note'] = 'Klicke die |cFFFFFD00Steintafel|r draußen hinter der Hütte an.'
-L['wyrmeaters_recipe_note'] = 'Klicke die |cFFFFFD00Steintafel|r im Inneren der Hütte an. (Auf der linken Seite.)'
+L['wyrmeaters_recipe_note'] = 'Klicke die |cFFFFFD00Steintafel|r im Inneren der Hütte an (auf der linken Seite).'
