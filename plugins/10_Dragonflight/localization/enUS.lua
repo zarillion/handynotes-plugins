@@ -184,7 +184,7 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Small banner inside 
 
 L['brundin_the_dragonbane_note'] = 'The Qalashi War Party travels on there {npc:192737} to this tower.'
 L['lepidoralia_note'] = 'Located in the |cFFFFFD00Fluttering Cavern|r. Help {npc:193342} catch {npc:193274s} until the rare spawns.'
-L['obsidian_citadel_rare_note'] = 'You and other Players have to return a total of %dx {item:191264} to %s. To craft a key you need to combine 30x {item:191251} and 3x {item:193201}, you can get these items from Obsidian Citadel Mobs.'
+L['obsidian_citadel_rare_note'] = 'You and other Players have to return a total of %dx {item:191264} to %s. To craft a key you need to combine 30x {item:191251} and 3x {item:193201}, you can get these items from |cFFFFFD00Obsidian Citadel|r mobs.'
 L['shadeslash_note'] = 'Click the |cFFFFFD00Pilfered Focus|r to summon the rare.'
 L['shasith_note'] = 'Inside the |cFFFFFD00Obsidian Throne|r.'
 L['slurpo_snail_note'] = 'Loot a {item:201033} from a cave in |cFFFFFD00The Azure Span|r (11, 41) and use it in this cave to summon him.'
@@ -201,7 +201,7 @@ L['yennus_kite_note'] = 'Stuck in a branch at the top of the tree.'
 
 L['fullsails_supply_chest'] = 'Fullsails Supply Chest'
 L['hidden_hornswog_hoard_note'] = [[
-Collect three different items and combine them at the |cFFFFFD00"Observant Riddles: A Field Guide"|r near the hornswog to get {item:200063} and feed it. He will then move out of the way so you can loot his treasure.
+Collect three different items and combine them at the |cFFFFFD00"Observant Riddles: A Field Guide"|r near the {npc:182559} to get {item:200063} and feed it. He will then move out of the way so you can loot his treasure.
 
 {item:200064}
 {item:200065}
