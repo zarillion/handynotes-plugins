@@ -559,9 +559,9 @@ map.nodes[66105290] = PT.Tailoring({
     note = L['pt_tailor_silky_surprise_note']
 }) -- Silky Surprise
 
-map.nodes[79208380] = PT.Alchemy({
+map.nodes[79238374] = PT.Alchemy({
     id = 198710,
-    quest = nil,
+    quest = 70305,
     note = L['pt_alch_canteen_of_suspicious_water_note']
 }) -- Canteen Of Suspicious Water
 

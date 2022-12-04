@@ -358,7 +358,7 @@ map.nodes[52208050] = PT.Blacksmithing({
 
 map.nodes[55203050] = PT.Alchemy({
     id = 201003,
-    quest = nil,
+    quest = 70278,
     note = L['pt_alch_furry_gloop_note']
 }) -- Furry Gloop
 
@@ -394,7 +394,7 @@ map.nodes[58604580] = PT.Tailoring({
 
 map.nodes[59503840] = PT.Alchemy({
     id = 198697,
-    quest = nil,
+    quest = 70301,
     note = L['pt_alch_contraband_concoction_note']
 }) -- Contraband Concoction
 
@@ -404,7 +404,7 @@ map.nodes[59806520] = PT.Jewelcrafting({
     note = L['pt_jewel_alexstraszite_cluster_note']
 }) -- Alexstraszite Cluster
 
-map.nodes[59907040] = PT.Enchanting({
+map.nodes[59897033] = PT.Enchanting({
     id = 198800,
     quest = 70342,
     note = L['pt_ench_fractured_titanic_sphere_note']

@@ -592,9 +592,9 @@ map.nodes[24906970] = PT.Tailoring({
     note = L['pt_tailor_itinerant_singed_fabric_note']
 }) -- Itinerant Singed Fabric
 
-map.nodes[25107330] = PT.Alchemy({
+map.nodes[25107411] = PT.Alchemy({
     id = 198685,
-    quest = nil,
+    quest = 70289,
     note = L['pt_alch_well_insulated_mug_note']
 }) -- Well-Insulated Mug
 
@@ -636,7 +636,7 @@ map.nodes[50404510] = PT.Jewelcrafting({
 
 map.nodes[55008100] = PT.Alchemy({
     id = 198663,
-    quest = nil,
+    quest = 70274,
     note = L['pt_alch_frostforged_potion_note']
 }) -- Frostforged Potion
 

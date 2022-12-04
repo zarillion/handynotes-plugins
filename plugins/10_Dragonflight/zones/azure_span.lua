@@ -600,9 +600,9 @@ map.nodes[16203880] = PT.Tailoring({
     note = L['pt_tailor_decaying_brackenhide_blanket_note']
 }) -- Decaying Brackenhide Blanket
 
-map.nodes[16403850] = PT.Alchemy({
+map.nodes[16303849] = PT.Alchemy({
     id = 198599,
-    quest = nil,
+    quest = 70208,
     note = L['pt_alch_experimental_decay_sample_note']
 }) -- Experimental Decay Sample
 
@@ -676,9 +676,9 @@ map.nodes[57504130] = PT.Leatherworking({
     note = L['pt_leath_treated_hides_note']
 }) -- Treated Hides
 
-map.nodes[67001320] = PT.Alchemy({
+map.nodes[67061316] = PT.Alchemy({
     id = 198712,
-    quest = nil,
+    quest = 70309,
     note = L['pt_alch_firewater_powder_sample_note']
 }) -- Firewater Powder Sample
 
