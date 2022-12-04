@@ -172,24 +172,30 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Une petite bannière
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'La Troupe Qalashi voyage sur leur {npc:192737} jusqu\'à cette tour.'
-L['lepidoralia_note'] = nil
+L['lepidoralia_note'] = 'Situé dans la Caverne Bruissante. Aidez le {npc:193342} à attraper des {npc:193274s} jusqu\'à ce que le rare apparaisse.'
 L['obsidian_citadel_rare_note'] = 'Vous et d\'autres joueurs devez rapporter un total de %dx {item:191264} %s. Pour fabriquer une clé, vous devez combiner 30x {item:191251} et 3x {item:193201}. Vous pouvez obtenir ces objets sur les monstres de la Citadelle d\'obsidienne.' -- pls review
-L['shadeslash_note'] = nil
+L['shadeslash_note'] = 'Cliquez sur le |cFFFFFD00Focalisateur volé|r pour invoquer le rare.'
 L['shasith_note'] = 'À l\'intérieur du |cFFFFFD00Trône d\'obsidienne|r.'
-L['slurpo_snail_note'] = nil
+L['slurpo_snail_note'] = 'Récupérez un {item:201033} dans une grotte de La Travée d\'Azur (11, 41) et utilisez-le dans cette grotte pour l\'invoquer.'
 L['worldcarver_atir_note'] = 'Récupérez 3x {item:191211} sur les {npc:187366} à proximité et placez-les sur les {npc:197395} pour faire apparaître le rare.'
 
 L['bubble_drifter_note'] = '{item:199061} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['dead_mans_chestplate_note'] = 'A l\'intérieur de la tour, au niveau intermédiaire.'
-L['fullsails_supply_chest_note'] = nil
+L['fullsails_supply_chest_note'] = 'La clé est récupérable sur les {npc:187971s} et {npc:187320s} au sud de l\'Ambassade de Trêve-Ailée.'
 L['golden_dragon_goblet_note'] = 'Récupérez un {item:202081} sur les {npc:190056} sur la |cFFFFFD00Côte Sauvage|r et terminez la petite suite de quêtes.'
 L['misty_treasure_chest_note'] = 'Montez sur la {npc:185485} qui dépasse de la cascade pour entrer dans la grotte.'
 L['onyx_gem_cluster_note'] = 'Au Renom 21 avec l\'Expédition du Dracaret, vous pouvez compléter la quête {quest:70833} pour obtenir {item:200738} comme récompense (une fois par compte) ou alors acheter la carte à {npc:189065} pour 3 {item:192863} et 500 {currency:2003} et l\'utiliser.'
-L['torn_riding_pack_note'] = nil
-L['yennus_kite_note'] = nil
+L['torn_riding_pack_note'] = 'Situé au sommet de la cascade.'
+L['yennus_kite_note'] = 'Coincé dans une branche au sommet de l\'arbre.'
 
 L['fullsails_supply_chest'] = 'Clé de coffre de fournitures des Gréements'
-L['hidden_hornswog_hoard_note'] = 'Collectez {item:200064}, {item:200065} et {item:200066}, combinez-les à |cFFFFFD00"l\'Énigmes sagaces : un guide de poche"|r près du trésor puis nourrissez la grenouille.'
+L['hidden_hornswog_hoard_note'] = [[
+Récupérez trois items différents et combinez-les à |cFFFFFD00"l\'Énigmes sagaces : un guide de poche"|r près de la grenouille. Elle s'écartera alors du chemin pour que vous puissiez récupérer son trésor.
+
+{item:200064}
+{item:200065}
+{item:200066}
+]]
 
 L['pt_alch_frostforged_potion_note'] = 'Au milieu du cratère gelé.'
 L['pt_alch_well_insulated_mug_note'] = 'Dans le |cFFFFFD00Donjon du Fléau-des-Dragons|r entre un groupe de monstres élites.'
