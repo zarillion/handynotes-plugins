@@ -126,11 +126,11 @@ L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Sitting in a small hut. ' .. n
 L['pt_tailor_silky_surprise_note'] = 'Find and loot a |cFFFFFD00Catnip Frond|r.'
 
 L['lizi_note'] = 'Complete the Initiate\'s Day Out storyline starting with {quest:65901}. Complete the quests each day to mend Lizi and receive your mount.\n\nIn addition to items required all quests require 150x {currency:2003} for a total of 750x {currency:2003}.'
-L['lizi_note_day1'] = 'Collect 20x {item:192615} from insect mobs in the |cFFFFFD00Dragon Isles|r'
-L['lizi_note_day2'] = 'Collect 20x {item:192658} from plant mobs in the |cFFFFFD00Dragon Isles|r'
-L['lizi_note_day3'] = 'Collect 10x {item:194966} fished from any waters in the |cFFFFFD00Dragon Isles|r. Most commonly found in inland |cFFFFFD00Ohn\'ahran Plains|r'
-L['lizi_note_day4'] = 'Collect 20x {item:192636} from mammoths in |cFFFFFD00Ohn\'ahran Plains|r'
-L['lizi_note_day5'] = 'Purchase 1x {item:200598} from {npc:190015} in a tent south of |cFFFFFD00Ohn\'iri Springs|r'
+L['lizi_note_day1'] = 'Collect 20x {item:192615} from insect mobs in the |cFFFFFD00Dragon Isles|r.'
+L['lizi_note_day2'] = 'Collect 20x {item:192658} from plant mobs in the |cFFFFFD00Dragon Isles|r.'
+L['lizi_note_day3'] = 'Collect 10x {item:194966} fished from any waters in the |cFFFFFD00Dragon Isles|r. Most commonly found in inland |cFFFFFD00Ohn\'ahran Plains|r.'
+L['lizi_note_day4'] = 'Collect 20x {item:192636} from mammoths in |cFFFFFD00Ohn\'ahran Plains|r.'
+L['lizi_note_day5'] = 'Accept {quest:71195} from {npc:190014} and get 1x {item:200598} from {npc:190015} in a tent south of |cFFFFFD00Ohn\'iri Springs|r.'
 
 L['ohnahra_note_start'] = 'Complete the Initiate\'s Day Out storyline starting with {quest:65901} then {npc:190022} will appear in |cFFFFFD00Ohn\'iri Springs|r behind a Windsage hut.\n\nGather the following materials:'
 L['ohnahra_note_item1'] = 'Collect 3x {item:201929} from {npc:186151}, the final boss of the |cFFFFFD00Nokhud Offensive|r dungeon. Not a 100% drop.'

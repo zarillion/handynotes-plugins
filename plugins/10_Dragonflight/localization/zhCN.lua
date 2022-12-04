@@ -122,7 +122,7 @@ L['lizi_note_day1'] = '从 |cFFFFFD00巨龙群岛|r 的昆虫怪物收集20个 {
 L['lizi_note_day2'] = '从 |cFFFFFD00巨龙群岛|r 的植物怪物收集20个 {item:192658}。'
 L['lizi_note_day3'] = '从 |cFFFFFD00巨龙群岛|r 的任意水域钓鱼收集10个 {item:194966}。常见于 |cFFFFFD00欧恩哈拉平原|r 内陆。'
 L['lizi_note_day4'] = '从 |cFFFFFD00欧恩哈拉平原|r 的猛犸象收集20个 {item:192636}。'
-L['lizi_note_day5'] = '从 |cFFFFFD00欧恩伊尔清泉|r 南边的帐篷的 {npc:190015} 购买1个 {item:200598}。'
+L['lizi_note_day5'] = nil -- pls review '从 |cFFFFFD00欧恩伊尔清泉|r 南边的帐篷的 {npc:190015} 购买1个 {item:200598}。'
 
 L['ohnahra_note_start'] = '完成开始于 {quest:65901} 的新兵一日游故事线之后，{npc:190022} 将出现在 |cFFFFFD00欧恩伊尔清泉|r 轻风贤者小屋后面。\n\n收集以下材料：'
 L['ohnahra_note_item1'] = '从|cFFFFFD00诺库德阻击战|r 地下城的最终首领 {npc:186151} 收集3个 {item:201929}，不是 100% 掉落。'

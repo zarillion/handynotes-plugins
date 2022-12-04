@@ -123,7 +123,7 @@ L['lizi_note_day1'] = 'Collectez 20x {item:192615} sur des monstres insectes dan
 L['lizi_note_day2'] = 'Collectez 20x {item:192658} sur des monstres végétaux dans les |cFFFFFD00Îles aux Dragons|r'
 L['lizi_note_day3'] = 'Collectez 10x {item:194966} pêchés dans n\'importe quelles eaux des |cFFFFFD00Îles aux Dragons|r. Ils sont trouvés le plus souvent à l\'intérieur des terres des |cFFFFFD00Plaines d\'Ohn\'ahra|r'
 L['lizi_note_day4'] = 'Collectez 20x {item:192636} sur des mammouths dans les |cFFFFFD00Plaines d\'Ohn\'ahra|r'
-L['lizi_note_day5'] = 'Achetez 1x {item:200598} à {npc:190015} dans une tente au sud de |cFFFFFD00Sources des Ohn\'irs|r'
+L['lizi_note_day5'] = nil -- pls review 'Achetez 1x {item:200598} à {npc:190015} dans une tente au sud de |cFFFFFD00Sources des Ohn\'irs|r'
 
 L['ohnahra_note_start'] = 'Terminez la suite de quêtes Une sortie d’initié commençant par {quest:65901} puis {npc:190022} apparaîtra aux |cFFFFFD00Sources des Ohn\'irs|r derrière une hutte de Sage-du-vent.\n\nRassemblez les matériaux suivants :'
 L['ohnahra_note_item1'] = 'Récupérez 3x {item:201929} sur {npc:186151}, le boss final du donjon |cFFFFFD00L\'offensive nokhud|r. Ce n\'est pas un drop garanti à 100%.'
