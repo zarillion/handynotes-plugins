@@ -57,7 +57,7 @@ L['breezebiter_note'] = 'Vuela por el cielo. Para atraerlo, vuela cerca suyo.'
 L['forgotten_jewel_box_note'] = 'Despoja la {item:199065} de un Cofre del Clan en Retiro Crestagua (49.4 67.3) en las Llanuras de Ohn\'ahran y úsala.'
 L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['pepper_hammer_note'] = 'Recoge |cFFFFFD00Savia de Árbol|r y entonces usa el |cFFFFFD00Palo|r para engañar a {npc:195373}.\n\n|cFFFF0000(BUG: Para hacer click en el palo puede ser necesario recargar)|r.'
-L['snow_covered_scroll'] = nil
+L['snow_covered_scroll'] = 'Pergamino Cubierto de Nieve'
 
 L['pt_alch_experimental_decay_sample_note'] = 'Dentro de un gran caldero verde.'
 L['pt_alch_firewater_powder_sample_note'] = 'Fuera de la casa de troncos, junto a un jarrón.'
@@ -156,7 +156,7 @@ L['acorn_harvester_note'] = 'Recoge una |cFFFFFD00Bellota|r del suelo cercano pa
 L['cracked_hourglass_note'] = 'La {item:199068} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['sandy_wooden_duck_note'] = 'Recoge el {item:199069} y úsalo.'
 
-L['tasty_hatchling_treat_note'] = nil
+L['tasty_hatchling_treat_note'] = 'En un barril detrás de la librería.'
 
 L['pt_alch_contraband_concoction_note'] = 'Escondido en los arbustos. ' .. ns.color.Orange('Difícil de ver')
 L['pt_alch_furry_gloop_note'] = 'Deja a un {npc:194855} cercano dentro de cada caldera y mata al monstruo que aparecerá.'
@@ -176,24 +176,30 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pequeña den
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja encima del {npc:192737} a esta torre.'
-L['lepidoralia_note'] = nil
+L['lepidoralia_note'] = 'Está en la |cFFFFFD00Caverna del Aleteo|r. Ayuda al {npc:193342} a coger {npc:193274} hasta que aparezca el raro.'
 L['obsidian_citadel_rare_note'] = nil -- pls review 'Tú y otros jugadores teneis que devolver un total de %dx {item:191264} %s. Para fabricar una llave necesitarás combinar 30x {item:191251} y 3x {item:193201}. Puedes conseguir estos objetos de los enemigos de la Ciudadela Obsidiana.'
-L['shadeslash_note'] = nil
+L['shadeslash_note'] = 'Haz click en el |cFFFFFD00Foco Birlado|r para hacer aparecer al raro.'
 L['shasith_note'] = 'Dentro del |cFFFFFD00Trono Obsidiana|r.'
-L['slurpo_snail_note'] = nil
+L['slurpo_snail_note'] = 'Despoja un {item:201033} de una cueva en |cFFFFFD00Las Tierras Azures|r (11, 41) y úsalo en esta cueva para invocar al raro.'
 L['worldcarver_atir_note'] = 'Recoge 3x {item:191211} del {npc:187366} cercano y ponlos en los {npc:197395} para hacer aparecer al raro.'
 
 L['bubble_drifter_note'] = 'La {item:199061} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['dead_mans_chestplate_note'] = 'Dentro de la torre. En el piso central.'
-L['fullsails_supply_chest_note'] = nil
+L['fullsails_supply_chest_note'] = 'La llave la sueltan los {npc:187971} y los {npc:187320} al sur de la |cFFFFFD00Embajada Reposo Alado|r.'
 L['golden_dragon_goblet_note'] = 'Despoja la {item:202081} del {npc:190056} en la |cFFFFFD00Costa Indómita|r y completa la pequeña cadena de misiones.'
 L['misty_treasure_chest_note'] = 'Ponte en {npc:185485} que sobresale de la cascada para entrar en la cueva.'
 L['onyx_gem_cluster_note'] = 'A Renombre 21 con la Expedición Dragontina se puede completar la misión {quest:70833} para conseguir el {item:200738} como recompensa (una vez por cuenta) o comprar el mapa a {npc:189065} por 3 {item:192863} y 500 {currency:2003} y usarlo.'
-L['torn_riding_pack_note'] = nil
-L['yennus_kite_note'] = nil
+L['torn_riding_pack_note'] = 'Está encima de la cascada.'
+L['yennus_kite_note'] = 'Bloqueada en una rama en lo alto del árbol.'
 
 L['fullsails_supply_chest'] = 'Cofre de Suministros Todavela'
-L['hidden_hornswog_hoard_note'] = 'Recoge {item:200064}, {item:200065} y {item:200066}, combínalos en |cFFFFFD00"Acertijo de observador: Una Guía de Campo"|r cerca del tesoro y entonces alimenta a la rana.'
+L['hidden_hornswog_hoard_note'] = [[
+Recoge tres objetos distintos y combínalos para crear el |cFFFFFD00"Acertijo de observador: Una Guía de Campo"|r junto al {npc:182559} para conseguir el {item:200063} y alimentarlo. Se moverá fuera del camino y podrás despojar su tesoro.
+
+{item:200064}
+{item:200065}
+{item:200066}
+]]
 
 L['pt_alch_frostforged_potion_note'] = 'En el centro del cráter helado.'
 L['pt_alch_well_insulated_mug_note'] = 'En la |cFFFFFD00Fortaleza de Ruinadragón|r entre varios enemigos élite.'
