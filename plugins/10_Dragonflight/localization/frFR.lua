@@ -43,9 +43,9 @@ L['dr_bronze'] = '\n\nTerminez la course pour obtenir ' .. ns.color.Bronze('Bron
 L['options_icons_dragonrace'] = 'Courses du Vol à dos de dragon'
 L['options_icons_dragonrace_desc'] = 'Afficher les emplacements des Courses du Vol à dos de dragon.'
 
-L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat'
+L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:16729}'
-L['options_icons_squirrels_desc'] = 'Emplacements des bestioles pour {achievement:16729}'
+L['options_icons_squirrels_desc'] = 'Emplacements des bestioles pour {achievement:16729}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -164,7 +164,7 @@ L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêve
 L['blightpaw_note'] = 'Parlez à l\'{npc:193222} à proximité et acceptez de l\'aider.'
 L['woofang_note'] = 'Caressez {npc:193156} pour faire apparaître le rare.'
 
-L['acorn_harvester_note'] = 'Ramassez un |cFFFFFD00Gland|r sur le sol à proximité pour obtenir {spell:388485} et interagissez ensuite avec {npc:196172}.\n\n|cFFFF0000(BUG : Pour cliquer sur le {npc:196172}, un rechargement peut être nécessaire)|r'
+L['acorn_harvester_note'] = 'Ramassez un |cFFFFFD00Gland|r sur le sol à proximité pour obtenir {spell:388485} et interagissez ensuite avec {npc:196172}.\n\n|cFFFF0000(BUG : Pour cliquer sur le {npc:196172}, un rechargement peut être nécessaire)|r.'
 L['cracked_hourglass_note'] = '{item:199068} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
 
