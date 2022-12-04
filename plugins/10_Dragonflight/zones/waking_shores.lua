@@ -1033,3 +1033,24 @@ map.nodes[24056927] = Collectible({
     rewards = {Achievement({id = 16412, criteria = 55265})}
 }) -- The Grand Flame's Journal
 
+-------------------------------------------------------------------------------
+--------------------------- THE DISGRUNTLED HUNTER ----------------------------
+-------------------------------------------------------------------------------
+
+local HemetNesingwaryJr = Class('HemetNesingwaryJr', Collectible, {
+    id = 194590,
+    icon = 236444,
+    group = ns.groups.HEMET_NESINGWARY_JR
+}) -- Hemet Nesingwary Jr.
+
+map.nodes[42008064] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55697})}
+}) -- Northern Waking Shores Hunt
+
+map.nodes[70746646] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55696})}
+}) -- Eastern Waking Shores Hunt
+
+map.nodes[24538913] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55695})}
+}) -- Southern Waking SHores Hunt

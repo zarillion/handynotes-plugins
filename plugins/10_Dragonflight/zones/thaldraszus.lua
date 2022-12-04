@@ -2,9 +2,11 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
@@ -595,3 +597,20 @@ map.nodes[51307286] = ns.node.Squirrel({
     id = 185148,
     rewards = {Achievement({id = 16729, criteria = 12})}
 }) -- Rocdrop Scarab
+
+-------------------------------------------------------------------------------
+--------------------------- THE DISGRUNTLED HUNTER ----------------------------
+-------------------------------------------------------------------------------
+
+local HemetNesingwaryJr = Class('HemetNesingwaryJr', Collectible, {
+    id = 194590,
+    icon = 236444,
+    group = ns.groups.HEMET_NESINGWARY_JR
+}) -- Hemet Nesingwary Jr.
+
+map.nodes[34676541] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55701})}
+}) -- Southern Thaldraszus Hunt
+map.nodes[50674562] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55702})}
+}) -- Northern Thaldraszus Hunt

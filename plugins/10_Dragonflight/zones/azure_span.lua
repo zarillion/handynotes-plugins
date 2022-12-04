@@ -871,22 +871,6 @@ map.nodes[42265676] = ns.node.Dragonrace({
     }
 }) -- Archive Ambit
 
-map.nodes[40116156] = Collectible({
-    label = '{achievement:16581}',
-    note = L['seeing_blue_note'],
-    icon = 2103880,
-    rewards = {Achievement({id = 16581})},
-    pois = {ns.poi.Arrow({40116156, 46112646}), POI({46112646})}
-}) -- Seeing Blue
-
-map.nodes[50935561] = Collectible({
-    label = '{achievement:16474}',
-    note = L['snowman_note'],
-    icon = 655957,
-    rewards = {Achievement({id = 16474})},
-    pois = {POI({50955481, 50985611})}
-}) -- Do You Wanna Build a Snowman?
-
 -------------------------------------------------------------------------------
 --------------------- TO ALL THE SQUIRRELS HIDDEN TIL NOW ---------------------
 -------------------------------------------------------------------------------
@@ -905,6 +889,49 @@ map.nodes[29244368] = ns.node.Squirrel({
     id = 197718,
     rewards = {Achievement({id = 16729, criteria = 9})}
 }) -- Crimson Knocker
+
+-------------------------------------------------------------------------------
+--------------------------- THE DISGRUNTLED HUNTER ----------------------------
+-------------------------------------------------------------------------------
+
+local HemetNesingwaryJr = Class('HemetNesingwaryJr', Collectible, {
+    id = 194590,
+    icon = 236444,
+    group = ns.groups.HEMET_NESINGWARY_JR
+}) -- Hemet Nesingwary Jr.
+
+map.nodes[36533481] = HemetNesingwaryJr({
+    note = L['hnj_western_azure_span_hunt'],
+    rewards = {Achievement({id = 16542, criteria = 55698})}
+}) -- Western Azure Span Hunt
+
+map.nodes[68112353] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55699})}
+}) -- Eastern Azure Span Hunt
+
+map.nodes[69204987] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55700})}
+}) -- Southern Azure Span Hunt
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[40116156] = Collectible({
+    label = '{achievement:16581}',
+    note = L['seeing_blue_note'],
+    icon = 2103880,
+    rewards = {Achievement({id = 16581})},
+    pois = {ns.poi.Arrow({40116156, 46112646}), POI({46112646})}
+}) -- Seeing Blue
+
+map.nodes[50935561] = Collectible({
+    label = '{achievement:16474}',
+    note = L['snowman_note'],
+    icon = 655957,
+    rewards = {Achievement({id = 16474})},
+    pois = {POI({50955481, 50985611})}
+}) -- Do You Wanna Build a Snowman?
 
 -------------------------------------------------------------------------------
 ---------------------------- TEMPERAMENTAL SKYCLAW ----------------------------

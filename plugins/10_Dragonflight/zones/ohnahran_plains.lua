@@ -1017,6 +1017,28 @@ map.nodes[50195179] = ns.node.Squirrel({
 }) -- Thunderspine Calf
 
 -------------------------------------------------------------------------------
+--------------------------- THE DISGRUNTLED HUNTER ----------------------------
+-------------------------------------------------------------------------------
+
+local HemetNesingwaryJr = Class('HemetNesingwaryJr', Collectible, {
+    id = 194590,
+    icon = 236444,
+    group = ns.groups.HEMET_NESINGWARY_JR
+}) -- Hemet Nesingwary Jr.
+
+map.nodes[82461392] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55692})}
+}) -- Northern Ohn'ahran Plains Hunt
+
+map.nodes[62005400] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55693})}
+}) -- Western Ohna'ahran Plains Hunt
+
+map.nodes[82874782] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55694})}
+}) -- Eastern Ohna'ahran Plains Hunt
+
+-------------------------------------------------------------------------------
 ------------------------- LIZI, THUNDERSPINE TRAMPLER -------------------------
 -------------------------------------------------------------------------------
 
