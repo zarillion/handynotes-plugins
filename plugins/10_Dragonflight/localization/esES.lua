@@ -43,6 +43,10 @@ L['dr_bronze'] = '\n\nAcaba la carrera para conseguir el ' .. ns.color.Bronze('B
 L['options_icons_dragonrace'] = 'Carreras de Dragones'
 L['options_icons_dragonrace_desc'] = 'Muestra dónde están las Carreras de Dragones.'
 
+L['hnj_western_azure_span_hunt'] = nil
+L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
+L['options_icons_hemet_nesingwary_jr_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

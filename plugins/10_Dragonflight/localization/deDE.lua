@@ -42,6 +42,10 @@ L['dr_bronze'] = '\n\nBeende das Rennen um ' .. ns.color.Bronze('Bronze') .. ' z
 L['options_icons_dragonrace'] = 'Drachenrennen'
 L['options_icons_dragonrace_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
 
+L['hnj_western_azure_span_hunt'] = nil
+L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
+L['options_icons_hemet_nesingwary_jr_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

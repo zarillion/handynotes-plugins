@@ -845,6 +845,33 @@ map.nodes[42265676] = ns.node.Dragonrace({
     }
 }) -- Archive Ambit
 
+-------------------------------------------------------------------------------
+--------------------------- THE DISGRUNTLED HUNTER ----------------------------
+-------------------------------------------------------------------------------
+
+local HemetNesingwaryJr = Class('HemetNesingwaryJr', Collectible, {
+    id = 194590,
+    icon = 236444,
+    group = ns.groups.HEMET_NESINGWARY_JR
+}) -- Hemet Nesingwary Jr.
+
+map.nodes[36533481] = HemetNesingwaryJr({
+    note = L['hnj_western_azure_span_hunt'],
+    rewards = {Achievement({id = 16542, criteria = 55698})}
+}) -- Western Azure Span Hunt
+
+map.nodes[68112353] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55699})}
+}) -- Eastern Azure Span Hunt
+
+map.nodes[69204987] = HemetNesingwaryJr({
+    rewards = {Achievement({id = 16542, criteria = 55700})}
+}) -- Southern Azure Span Hunt
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
 map.nodes[40116156] = Collectible({
     label = '{achievement:16581}',
     note = L['seeing_blue_note'],
