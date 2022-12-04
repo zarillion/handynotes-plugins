@@ -188,7 +188,6 @@ L['torn_riding_pack_note'] = 'Located at the top of the waterfall.'
 L['yennus_kite_note'] = 'Stuck in a branch at the top of the tree.'
 
 L['fullsails_supply_chest'] = 'Fullsails Supply Chest'
-L['hidden_hornswog_hoard'] = 'Hidden Hornswog Hoard'
 L['hidden_hornswog_hoard_note'] = [[
 Collect three different items and combine them at the |cFFFFFD00"Observant Riddles: A Field Guide"|r near the frog. He will then move out of the way so you can loot his treasure.
 

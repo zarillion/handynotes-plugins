@@ -182,7 +182,6 @@ L['misty_treasure_chest_note'] = '站在突出瀑布的 {npc:185485} 來進入�
 L['onyx_gem_cluster_note'] = '當龍鱗遠征隊的名望到達21時, 你可以完成任務 {quest:70833} 來取得報酬 {item:200738} (每個帳號一次) 或是從 {npc:189065} 處用3個 {item:192863} 和 500{currency:2003} 購買地圖來使用它.' -- review
 
 L['fullsails_supply_chest'] = '滿帆補給箱'
-L['hidden_hornswog_hoard'] = '隱藏的角蛙寶箱'
 L['hidden_hornswog_hoard_note'] = '收集 {item:200064}, {item:200065} 和 {item:200066}, 在寶藏附近的 "觀察謎題: 田野指南" 組合成 {item:200063} 並且餵給 {npc:192362}.'
 
 L['pt_alch_frostforged_potion_note'] = nil

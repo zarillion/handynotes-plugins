@@ -182,7 +182,6 @@ L['misty_treasure_chest_note'] = 'Stelle dich auf den {npc:185485} der aus dem W
 L['onyx_gem_cluster_note'] = 'Auf Ruhmstufe 21 bei der Drachenschuppenexpedition kannst du die Quest {quest:70833} abschließen und als Belohnung die {item:200738} bekommen (einmal pro Account) oder kaufe die Karte von {npc:189065} für 3 {item:192863} und 500 {currency:2003} und benutze es.'
 
 L['fullsails_supply_chest'] = 'Vorratskiste der Vollsegel'
-L['hidden_hornswog_hoard'] = 'Versteckter Flunkerhort'
 L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item:200066}, kombiniere diese beim |cFFFFFD00"Rätsel für Aufmerksame: Ein Naturführer"|r nahe dem Schatz und füttere dann den Frosch damit.'
 
 L['pt_alch_frostforged_potion_note'] = 'In der Mitte des Eiskraters.'

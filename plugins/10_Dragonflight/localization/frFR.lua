@@ -183,7 +183,6 @@ L['misty_treasure_chest_note'] = 'Montez sur la {npc:185485} qui dépasse de la 
 L['onyx_gem_cluster_note'] = 'Au Renom 21 avec l\'Expédition du Dracaret, vous pouvez compléter la quête {quest:70833} pour obtenir {item:200738} comme récompense (une fois par compte) ou alors acheter la carte à {npc:189065} pour 3 {item:192863} et 500 {currency:2003} et l\'utiliser.'
 
 L['fullsails_supply_chest'] = 'Clé de coffre de fournitures des Gréements'
-L['hidden_hornswog_hoard'] = 'Horde de bufflaciens cachée'
 L['hidden_hornswog_hoard_note'] = 'Collectez {item:200064}, {item:200065} et {item:200066}, combinez-les à |cFFFFFD00"l\'Énigmes sagaces : un guide de poche"|r près du trésor puis nourrissez la grenouille.'
 
 L['pt_alch_frostforged_potion_note'] = 'Au milieu du cratère gelé.'

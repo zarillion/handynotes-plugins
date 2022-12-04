@@ -183,7 +183,6 @@ L['misty_treasure_chest_note'] = 'Ponte en {npc:185485} que sobresale de la casc
 L['onyx_gem_cluster_note'] = 'A Renombre 21 con la Expedición Dragontina se puede completar la misión {quest:70833} para conseguir el {item:200738} como recompensa (una vez por cuenta) o comprar el mapa a {npc:189065} por 3 {item:192863} y 500 {currency:2003} y usarlo.'
 
 L['fullsails_supply_chest'] = 'Cofre de Suministros Todavela'
-L['hidden_hornswog_hoard'] = 'Botín Oculto de los Cornisapos'
 L['hidden_hornswog_hoard_note'] = 'Recoge {item:200064}, {item:200065} y {item:200066}, combínalos en |cFFFFFD00"Acertijo de observador: Una Guía de Campo"|r cerca del tesoro y entonces alimenta a la rana.'
 
 L['pt_alch_frostforged_potion_note'] = 'En el centro del cráter helado.'
