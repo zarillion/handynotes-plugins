@@ -6,7 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the Dragonscale Expedition in in Expedition Scout\'s Packs and Disturbed Dirts.'
+L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the Dragonscale Expedition in Expedition Scout\'s Packs and Disturbed Dirts.'
 
 L['options_icons_bonus_boss'] = 'Bonus Elites'
 L['options_icons_bonus_boss_desc'] = 'Display locations of bonus elites.'
@@ -171,19 +171,31 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Small banner inside 
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'The Qalashi War Party travels on there {npc:192737} to this tower.'
+L['lepidoralia_note'] = 'Located in the Fluttering Cavern. Help {npc:193342} catch {npc:193274s} until the rare spawns.'
 L['obsidian_citadel_rare_note'] = 'You and other Players have to return a total of %dx {item:191264} to %s. To craft a key you need to combine 30x {item:191251} and 3x {item:193201}, you can get these items from Obsidian Citadel Mobs.'
+L['shadeslash_note'] = 'Click the |cFFFFFD00Pilfered Focus|r to summon the rare.'
 L['shasith_note'] = 'Inside the |cFFFFFD00Obsidian Throne|r.'
+L['slurpo_snail_note'] = 'Loot a {item:201033} from a cave in the Azure Span (11, 41) and use it in this cave to summon him.'
 L['worldcarver_atir_note'] = 'Collect 3x {item:191211} from {npc:187366} nearby and place them at {npc:197395} to spawn the rare.'
 
 L['bubble_drifter_note'] = '{item:199061} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['dead_mans_chestplate_note'] = 'Inside the tower on the middle floor.'
+L['fullsails_supply_chest_note'] = 'The key drops from {npc:187971s} and {npc:187320s} south of Wingrest Embassy.'
 L['golden_dragon_goblet_note'] = 'Loot {item:202081} from {npc:190056} on the |cFFFFFD00Wild Coast|r and complete the small quest line.'
 L['misty_treasure_chest_note'] = 'Stand on the {npc:185485} that sticks out of the waterfall to enter the cave.'
 L['onyx_gem_cluster_note'] = 'At Renown 21 with the Dragonscale Expedition you can complete the quest {quest:70833} to get {item:200738} as a reward (one time per account) or buy the map from {npc:189065} for 3 {item:192863} and 500 {currency:2003} and use it.'
+L['torn_riding_pack_note'] = 'Located at the top of the waterfall.'
+L['yennus_kite_note'] = 'Stuck in a branch at the top of the tree.'
 
 L['fullsails_supply_chest'] = 'Fullsails Supply Chest'
 L['hidden_hornswog_hoard'] = 'Hidden Hornswog Hoard'
-L['hidden_hornswog_hoard_note'] = 'Collect {item:200064}, {item:200065} and {item:200066}, combine them at the |cFFFFFD00"Observant Riddles: A Field Guide"|r near the treasure then feed the frog.'
+L['hidden_hornswog_hoard_note'] = [[
+Collect three different items and combine them at the |cFFFFFD00"Observant Riddles: A Field Guide"|r near the frog. He will then move out of the way so you can loot his treasure.
+
+{item:200064}
+{item:200065}
+{item:200066}
+]]
 
 L['pt_alch_frostforged_potion_note'] = 'In the middle of the icy crater.'
 L['pt_alch_well_insulated_mug_note'] = 'In |cFFFFFD00Dragonbane Keep|r between a number of elite mobs.'

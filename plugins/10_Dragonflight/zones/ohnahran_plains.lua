@@ -346,11 +346,8 @@ map.nodes[31456387] = Rare({
 
 map.nodes[72232306] = Rare({
     id = 188451,
-    quest = nil,
-    rewards = {
-        Achievement({id = 16677, criteria = 56085})
-        -- Transmog({item = , slot = L['']}) -- Name
-    }
+    quest = 73980,
+    rewards = {Achievement({id = 16677, criteria = 56085})}
 }) -- Zerimek
 
 -------------------------------------------------------------------------------
