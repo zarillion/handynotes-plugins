@@ -2,6 +2,7 @@
 --------------------------------- LOAD MODULE ---------------------------------
 -------------------------------------------------------------------------------
 local luaunit = require('luaunit')
+local utils = require('utils')
 
 -------------------------------------------------------------------------------
 
@@ -11,30 +12,8 @@ format = string.format -- doesn't support %1$s syntax!
 
 local ColorModule, err = loadfile('../core/colors.lua')
 if err then
-    print(err);
+    print(err)
     os.exit()
-end
-
--------------------------------------------------------------------------------
-------------------------------- HELPER FUNCTIONS ------------------------------
--------------------------------------------------------------------------------
-
-local function Locales()
-    local cmd =
-        'find ../core/localization ../plugins/*/localization -name "*.lua"'
-    local iter = io.popen(cmd):lines()
-    return function()
-        local file = iter()
-        if not file then return end
-        local plugin = file:find('/core/') and 'Core' or
-                           file:sub(file:find('%d%d_%a+')):sub(4)
-        return plugin, file:sub(-8, -5), file:sub(0, -10)
-    end
-end
-
-local function Code()
-    local cmd = 'find ../core ../plugins -name "*.lua" | grep -v localization'
-    return io.popen(cmd):lines()
 end
 
 -------------------------------------------------------------------------------
@@ -49,7 +28,7 @@ local USED_STRINGS = {
     daily = true -- remove me once used
 }
 
-for file in Code() do
+for file in utils.Code() do
     local code = io.open(file):read('*a')
     for key in string.gmatch(code, 'L%[["\']([%w_]+)["\']%]') do
         USED_STRINGS[key] = true
@@ -102,7 +81,7 @@ function TestLocales:LoadLocale(locale, dir, expectedKeys)
     local namespace = self:CreateNamespace(expectedKeys)
     local module, err = loadfile(file)
     if err then
-        print(err);
+        print(err)
         os.exit()
     end
     module('TEST', namespace)
@@ -127,7 +106,7 @@ function TestLocales:LocalTestFactory(locale, dir)
     end
 end
 
-for plugin, locale, dir in Locales() do
+for plugin, locale, dir in utils.Locales() do
     local testName = ('testLocale-%s-%s'):format(plugin, locale)
     TestLocales[testName] = TestLocales:LocalTestFactory(locale, dir)
 end
