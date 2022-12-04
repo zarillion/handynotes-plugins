@@ -186,7 +186,7 @@ L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem 
 L['lepidoralia_note'] = 'Hilf {npc:193342} in der |cFFFFFD00Flatterkaverne|r Höhle dabei {npc:193274} zu fangen, bis der seltene Gegner erscheint.'
 L['obsidian_citadel_rare_note'] = 'Du und andere Spieler müssen insgesamt %dx {item:191264} bei %s abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der |cFFFFFD00Obsidianzitadelle|r geplündert werden.'
 L['shadeslash_note'] = 'Klicke auf den |cFFFFFD00Gestohlener Fokus|r, um den seltenen Gegner erscheinen zu lassen.'
-L['shasith_note'] = 'Innerhalb des |cFFFFFD00Obsidianthron|r.'
+L['obsidian_throne_rare_note'] = 'Innerhalb des |cFFFFFD00Obsidianthron|r.'
 L['slurpo_snail_note'] = 'Plündere in einer Höhle im |cFFFFFD00Azurblauen Gebirge|r (11.0, 41.4) aus einem |cFFFFFD00Salzkristall|r ein {item:201033} und benutze ihn in dieser Höhle, um den seltenen Gegner erscheinen zu lassen.'
 L['worldcarver_atir_note'] = 'Sammel 3x {item:191211} von {npc:187366} in der Nähe und platziere diese beim {npc:197395}, um den seltenen Gegner erscheinen zu lassen.'
 

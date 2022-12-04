@@ -178,7 +178,7 @@ L['brundin_the_dragonbane_note'] = '喀拉希戰爭隊伍坐在他們的 {npc:19
 L['lepidoralia_note'] = nil
 L['obsidian_citadel_rare_note'] = nil -- pls review '你和其他玩家必須要繳交總共%d個 {item:191264} %s. 要鑄造鑰匙你需要結合30個 {item:191251} 和3個 {item:193201}, 你可以在黑曜王座的怪物身上取得這些物品'
 L['shadeslash_note'] = nil
-L['shasith_note'] = '在黑曜王座內. '
+L['obsidian_throne_rare_note'] = '在黑曜王座內. '
 L['slurpo_snail_note'] = nil
 L['worldcarver_atir_note'] = '從附近的 {npc:187366} 收集3個 {item:191211}, 並且將他們放置在 {npc:197395} 來召喚稀有'
 

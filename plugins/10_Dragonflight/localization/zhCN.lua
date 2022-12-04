@@ -186,7 +186,7 @@ L['brundin_the_dragonbane_note'] = '卡拉希战队从 {npc:192737} 前往这座
 L['lepidoralia_note'] = '位于 |cFFFFFD00翩翼洞窟|r。帮助 {npc:193342} 抓住 {npc:193274} 直到稀有出现。'
 L['obsidian_citadel_rare_note'] = '和其他玩家必须总共上缴%d个 {item:191264} %s。要制作钥匙，需要组合30个 {item:191251} 和3个 {item:193201}，可以从 |cFFFFFD00黑曜堡垒|r 怪物获得这些物品。'
 L['shadeslash_note'] = '点击 |cFFFFFD00失窃的法器|r 召唤稀有。'
-L['shasith_note'] = '|cFFFFFD00黑曜王座|r 内。'
+L['obsidian_throne_rare_note'] = '|cFFFFFD00黑曜王座|r 内。'
 L['slurpo_snail_note'] = '从 |cFFFFFD00碧蓝林海|r (11, 41) 的一个洞穴中拾取1个 {item:201033} 并在这个洞穴中使用来召唤他。'
 L['worldcarver_atir_note'] = '从附近的 {npc:187366} 收集3个 {item:191211} 并将它们放置在 {npc:197395} 后稀有出现。'
 

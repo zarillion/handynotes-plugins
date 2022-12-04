@@ -36,7 +36,7 @@ local map = Map({id = 2024, settings = true})
 
 map.nodes[53013563] = Rare({
     id = 194270,
-    quest = nil,
+    quest = 73866,
     rewards = {
         Achievement({id = 16678, criteria = 56099})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -458,10 +458,11 @@ map.nodes[36723247] = Rare({
     id = 192749,
     quest = 72846, -- 67173
     rewards = {
-        Transmog({item = 200283, slot = L['leather']}),
-        Transmog({item = 200266, slot = L['crossbow']}),
-        Item({item = 197150, quest = 69351}),
-        Item({item = 196982, quest = 69182}), Item({item = 198048})
+        Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
+        Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
+        Item({item = 197150, quest = 69351}), -- Highland Drake: Spiked Club Tail
+        Item({item = 196982, quest = 69182}), -- Cliffside Wylderdrake: Ears
+        Item({item = 198048}) -- Titan Training Matrix I
     }
 }) -- Sharpfang
 

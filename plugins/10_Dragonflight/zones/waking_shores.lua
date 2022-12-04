@@ -130,7 +130,7 @@ map.nodes[31785474] = Rare({ -- review -- required 67030
 
 map.nodes[60204535] = Rare({
     id = 193217,
-    quest = nil,
+    quest = 73874,
     rewards = {
         Achievement({id = 16676, criteria = 56039}),
         Transmog({item = 200219, slot = L['cloak']}) -- Dangerous Drapery
@@ -207,13 +207,14 @@ map.nodes[22207649] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56047})}
 }) -- Massive Magmashell
 
-map.nodes[32225193] = Rare({
+map.nodes[32805248] = Rare({
     id = 187306,
     quest = 74067,
     note = format(L['obsidian_citadel_rare_note'], 10, '{npc:187275}'),
     rewards = {
         Achievement({id = 16676, criteria = 56988}),
-        Achievement({id = 16496, criteria = 55868}) -- Obsidian Champion
+        Achievement({id = 16496, criteria = 55868}), -- Obsidian Champion
+        Item({item = 200207, note = L['neck']}) -- Petrified Fungal Spores
     },
     pois = {POI({32245246})} -- Igys the Believer
 }) -- Morchok
@@ -262,13 +263,14 @@ map.nodes[64676939] = Rare({
 map.nodes[30226045] = Rare({ -- review
     id = 193232,
     quest = 74051,
+    note = L['obsidian_throne_rare_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56061}),
         Item({item = 197005, quest = 69205}) -- Cliffside Wylderdrake: Horned Nose
     }
 }) -- Rasnar the War Ender
 
-map.nodes[25366070] = Rare({
+map.nodes[30736110] = Rare({
     id = 187598,
     quest = 74052,
     rewards = {Achievement({id = 16676, criteria = 56057})}
@@ -287,7 +289,7 @@ map.nodes[46997332] = Rare({
 map.nodes[23755734] = Rare({ -- review -- required 67030
     id = 189822,
     quest = 74077,
-    note = L['shasith_note'] .. ' ' ..
+    note = L['obsidian_throne_rare_note'] .. ' ' ..
         format(L['obsidian_citadel_rare_note'], 20, '{npc:187284}'),
     rewards = {
         Achievement({id = 16676, criteria = 56054}),
@@ -323,11 +325,15 @@ map.nodes[42892832] = Rare({
     }
 }) -- Skewersnout
 
-map.nodes[36009000] = Rare({
+map.nodes[34578950] = Rare({
     id = 193175,
-    quest = nil,
+    quest = 72126, -- 74079
     note = L['slurpo_snail_note'],
-    rewards = {Achievement({id = 16676, criteria = 57003})}
+    rewards = {
+        Achievement({id = 16676, criteria = 57003}),
+        Transmog({item = 200189, slot = L['plate']}) -- Hydroforged Shell Helm
+    },
+    pois = {POI({36028984})} -- Entrance
 }) -- Slurpo, the Incredible Snail
 
 map.nodes[69486653] = Rare({ -- review -- required 67030
@@ -361,7 +367,9 @@ map.nodes[33525576] = Rare({
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 16676, criteria = 56058}),
-        Item({item = 200563, note = L['trinket']}) -- Primal Ritual Shell
+        Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
+        Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
+        Item({item = 197624, quest = 69828}) -- Windborne Velocidrake: Club Tail
     }
 }) -- Turboris
 

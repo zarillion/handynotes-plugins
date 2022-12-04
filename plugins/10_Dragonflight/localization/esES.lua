@@ -187,7 +187,7 @@ L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja enci
 L['lepidoralia_note'] = 'Está en la |cFFFFFD00Caverna del Aleteo|r. Ayuda al {npc:193342} a coger {npc:193274} hasta que aparezca el raro.'
 L['obsidian_citadel_rare_note'] = 'Tú y otros jugadores teneis que devolver un total de %dx {item:191264} a %s. Para fabricar una llave necesitarás combinar 30x {item:191251} y 3x {item:193201}. Puedes conseguir estos objetos de los enemigos de la |cFFFFFD00Ciudadela Obsidiana|r.'
 L['shadeslash_note'] = 'Haz click en el |cFFFFFD00Foco Birlado|r para hacer aparecer al raro.'
-L['shasith_note'] = 'Dentro del |cFFFFFD00Trono Obsidiana|r.'
+L['obsidian_throne_rare_note'] = 'Dentro del |cFFFFFD00Trono Obsidiana|r.'
 L['slurpo_snail_note'] = 'Despoja un {item:201033} de una cueva en |cFFFFFD00Las Tierras Azures|r (11, 41) y úsalo en esta cueva para invocar al raro.'
 L['worldcarver_atir_note'] = 'Recoge 3x {item:191211} del {npc:187366} cercano y ponlos en los {npc:197395} para hacer aparecer al raro.'
 
