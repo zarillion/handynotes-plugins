@@ -183,7 +183,6 @@ L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the Ancient Dragonweave
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Kleines Banner in einem Sandhaufen.'
 L['pt_mining_bridgette_holdug'] = 'Auf einem grasbewachsenen Felspfeiler.'
 
-
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

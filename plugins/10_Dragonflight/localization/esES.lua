@@ -182,7 +182,7 @@ L['pt_script_how_to_train_your_whelpling_note'] = 'Pequeño libro marrón tirado
 L['pt_smith_draconic_flux_note'] = 'Dentro de un edificio.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Haz click en el |cFFFFFD00Telar de Tejido de Dragón Ancestral|r para completar un minijuego donde has de conectar los carretes de hilo a la gema central.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pequeña dentro de una pila de arena.'
-L['pt_mining_bridgette_holdug'] = 'Auf einem grasbewachsenen Felspfeiler.'
+L['pt_mining_bridgette_holdug'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
