@@ -57,7 +57,7 @@ L['breezebiter_note'] = 'Vole dans le ciel, pour le faire descendre, volez près
 L['forgotten_jewel_box_note'] = 'Récupérez la {item:199065} dans un Coffre clanique au Refuge d\'Ondecrête (49.4 67.3) dans les Plaines d\'Ohn\'ahra et utilisez-la.'
 L['gnoll_fiend_flail_note'] = '{item:199066} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['pepper_hammer_note'] = 'Récupérez la |cFFFFFD00Sève|r et utilisez le |cFFFFFD00Bâton|r pour attirer le {npc:195373}.\n\n|cFFFF0000(BUG : Pour cliquer sur le bâton, un rechargement peut être nécessaire)|r'
-L['snow_covered_scroll'] = nil
+L['snow_covered_scroll'] = 'Parchemin couvert de neige'
 
 L['pt_alch_experimental_decay_sample_note'] = 'A l\'intérieur d\'un grand chaudron vert.'
 L['pt_alch_firewater_powder_sample_note'] = 'À l\'extérieur d\'une maison en rondins, près d\'un vase.'
@@ -155,7 +155,7 @@ L['acorn_harvester_note'] = 'Ramassez un |cFFFFFD00Gland|r sur le sol à proximi
 L['cracked_hourglass_note'] = '{item:199068} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
 
-L['tasty_hatchling_treat_note'] = nil
+L['tasty_hatchling_treat_note'] = 'Dans un tonneau derrière l\'étagère.'
 
 L['pt_alch_contraband_concoction_note'] = 'Caché dans les buissons. ' .. ns.color.Orange('Difficile à voir.')
 L['pt_alch_furry_gloop_note'] = 'Jetez un {npc:194855} proche dans chaque chaudron puis tuez le monstre qui apparaît.'
