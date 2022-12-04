@@ -53,10 +53,10 @@ L['trilvarus_loreweaver_note'] = '收集 |cFFFFFD00歌声碎片|r 即可获得 {
 
 L['breezebiter_note'] = '飞到天上把他拉下来，飞到他身边。'
 
-L['forgotten_jewel_box_note'] = '从欧恩哈拉平原的峦水居所拾取 {item:199065} 氏族宝箱（49.4 67.3）并使用它。'
+L['forgotten_jewel_box_note'] = '从 |cFFFFFD00欧恩哈拉平原|r 的 |cFFFFFD00峦水居所|r 拾取 {item:199065} 氏族宝箱（49.4 67.3）并使用它。'
 L['gnoll_fiend_flail_note'] = '{item:199066} 可以从探险队斥候的背包和翻动过的泥土中找到。'
 L['pepper_hammer_note'] = '收集 |cFFFFFD00树液|r 后使用 |cFFFFFD00棍子|r 来引诱 {npc:195373}。\n\n|cFFFF0000（臭虫：点击棍子可能需要重新加载）|r'
-L['snow_covered_scroll'] = nil
+L['snow_covered_scroll'] = '积雪覆盖的卷轴'
 
 L['pt_alch_experimental_decay_sample_note'] = '在一个绿色大锅里面。'
 L['pt_alch_firewater_powder_sample_note'] = '在木屋外面花瓶旁边。'
@@ -80,7 +80,15 @@ L['options_icons_layline_desc'] = '显示 {achievement:16638} 成就中全部重
 
 L['seeing_blue_note'] = '从碧蓝档案馆的顶端飞到钴蓝集所，当中不落地。'
 L['snowman_note'] = '该区域有三个 {npc:197599}（可能已被其他玩家移动），将它们滚给两个孩子 {npc:197838} 和 {npc:197839}。\n当雪球有合适的尺寸时获得成就。'
-L['temperamental_skyclaw_note'] = nil
+L['temperamental_skyclaw_note'] = [[
+收集（或在拍卖行购买）：
+
+20个 {item:201420}
+20个 {item:201421}
+20个 {item:201422}
+
+询问带鞍的狐龙并展示 {npc:190892} 收集的“菜肴”。
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -122,7 +130,7 @@ L['lizi_note_day1'] = '从 |cFFFFFD00巨龙群岛|r 的昆虫怪物收集20个 {
 L['lizi_note_day2'] = '从 |cFFFFFD00巨龙群岛|r 的植物怪物收集20个 {item:192658}。'
 L['lizi_note_day3'] = '从 |cFFFFFD00巨龙群岛|r 的任意水域钓鱼收集10个 {item:194966}。常见于 |cFFFFFD00欧恩哈拉平原|r 内陆。'
 L['lizi_note_day4'] = '从 |cFFFFFD00欧恩哈拉平原|r 的猛犸象收集20个 {item:192636}。'
-L['lizi_note_day5'] = nil -- pls review '从 |cFFFFFD00欧恩伊尔清泉|r 南边的帐篷的 {npc:190015} 购买1个 {item:200598}。'
+L['lizi_note_day5'] = '从 {npc:190014} 接 {quest:71195} 并在 |cFFFFFD00欧恩伊尔清泉|r 南部的帐篷中从 {npc:190015} 获得1个 {item:200598}。'
 
 L['ohnahra_note_start'] = '完成开始于 {quest:65901} 的新兵一日游故事线之后，{npc:190022} 将出现在 |cFFFFFD00欧恩伊尔清泉|r 轻风贤者小屋后面。\n\n收集以下材料：'
 L['ohnahra_note_item1'] = '从|cFFFFFD00诺库德阻击战|r 地下城的最终首领 {npc:186151} 收集3个 {item:201929}，不是 100% 掉落。'
@@ -155,7 +163,7 @@ L['acorn_harvester_note'] = '从附近地面收集1个 |cFFFFFD00橡果|r 获得
 L['cracked_hourglass_note'] = '{item:199068} 可以从探险队斥候的背包和翻动过的泥土中找到。'
 L['sandy_wooden_duck_note'] = '收集 {item:199069} 并使用它。'
 
-L['tasty_hatchling_treat_note'] = nil
+L['tasty_hatchling_treat_note'] = '在书架后面的一个桶里。'
 
 L['pt_alch_contraband_concoction_note'] = '隐藏在灌木丛中。' .. ns.color.Orange('很难发现。')
 L['pt_alch_furry_gloop_note'] = '将附近的 {npc:194855} 放入每个大锅中，然后杀死出现的怪物。'
@@ -193,7 +201,7 @@ L['yennus_kite_note'] = '卡在树顶的树枝上。'
 
 L['fullsails_supply_chest'] = '满帆补给箱'
 L['hidden_hornswog_hoard_note'] = [[
-收集3种不同的物品并在龙蛙附近的 |cFFFFFD00“观察谜题：实地指南”|r 处组合它们以获得 {item:200063} 然后喂它。然后它会离开就可以拾取它的宝藏。
+收集3种不同的物品并在 {npc:182559} 附近的 |cFFFFFD00“观察谜题：实地指南”|r 处组合它们以获得 {item:200063} 然后喂它。然后它会离开就可以拾取它的宝藏。
 
 {item:200064}
 {item:200065}
