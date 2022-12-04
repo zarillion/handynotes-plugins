@@ -171,15 +171,21 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = '一堆沙子里的�
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = '卡拉希战队从 {npc:192737} 前往这座塔。'
+L['lepidoralia_note'] = nil
 L['obsidian_citadel_rare_note'] = '和其他玩家必须总共上缴%d个 {item:191264} %s。要制作钥匙，需要组合30个 {item:191251} 和3个 {item:193201}，可以从黑曜堡垒怪物获得这些物品。'
+L['shadeslash_note'] = nil
 L['shasith_note'] = '|cFFFFFD00黑曜王座|r 内。'
+L['slurpo_snail_note'] = nil
 L['worldcarver_atir_note'] = '从附近的 {npc:187366} 收集3个 {item:191211} 并将它们放置在 {npc:197395} 后稀有出现。'
 
 L['bubble_drifter_note'] = '{item:199061} 可以从探险队斥候的背包和翻动过的泥土中找到。'
 L['dead_mans_chestplate_note'] = '塔内中层。'
+L['fullsails_supply_chest_note'] = nil
 L['golden_dragon_goblet_note'] = '在完成 |cFFFFFD00狂野海滩|r 小任务线上从 {npc:190056} 拾取 {item:202081}。'
 L['misty_treasure_chest_note'] = '站在从瀑布延伸出的 {npc:185485} 上进入洞穴。'
 L['onyx_gem_cluster_note'] = '龙鳞探险队声望到达21级，从 {npc:189065} 购买 {item:200738} 需要3个 {item:192863} 和500 {currency:2003} 并使用它。'
+L['torn_riding_pack_note'] = nil
+L['yennus_kite_note'] = nil
 
 L['fullsails_supply_chest'] = '满帆补给箱'
 L['hidden_hornswog_hoard_note'] = '收集 {item:200064}、{item:200065}、{item:200066}，在宝藏附近的“观察谜题：实地指南”将它们组合起来，然后喂青蛙。'

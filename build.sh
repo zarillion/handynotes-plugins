@@ -32,6 +32,7 @@ Sub-commands:
   run-tests             Run all unit tests defined in the tests/ dir.
   run-formatter         Run the \`lua-format\` program on all sources.
   check-formatter       Run \`lua-format --check\` on all sources.
+  fixup                 Run the fixup_locales.lua script.
 
 If no sub-command is given, a full suite of linting, tests and format
 checking is executed on the project.
@@ -128,6 +129,10 @@ function check-formatter() {
         echo
         exit 1
     fi
+}
+
+function fixup() {
+    (cd tests && lua fixup_locales.lua $@)
 }
 
 function main() {

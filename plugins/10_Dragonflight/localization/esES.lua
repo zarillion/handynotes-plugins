@@ -172,15 +172,21 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pequeña den
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja encima del {npc:192737} a esta torre.'
+L['lepidoralia_note'] = nil
 L['obsidian_citadel_rare_note'] = 'Tú y otros jugadores teneis que devolver un total de %dx {item:191264} %s. Para fabricar una llave necesitarás combinar 30x {item:191251} y 3x {item:193201}. Puedes conseguir estos objetos de los enemigos de la Ciudadela Obsidiana.' -- pls review
+L['shadeslash_note'] = nil
 L['shasith_note'] = 'Dentro del |cFFFFFD00Trono Obsidiana|r.'
+L['slurpo_snail_note'] = nil
 L['worldcarver_atir_note'] = 'Recoge 3x {item:191211} del {npc:187366} cercano y ponlos en los {npc:197395} para hacer aparecer al raro.'
 
 L['bubble_drifter_note'] = 'La {item:199061} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['dead_mans_chestplate_note'] = 'Dentro de la torre. En el piso central.'
+L['fullsails_supply_chest_note'] = nil
 L['golden_dragon_goblet_note'] = 'Despoja la {item:202081} del {npc:190056} en la |cFFFFFD00Costa Indómita|r y completa la pequeña cadena de misiones.'
 L['misty_treasure_chest_note'] = 'Ponte en {npc:185485} que sobresale de la cascada para entrar en la cueva.'
 L['onyx_gem_cluster_note'] = 'A Renombre 21 con la Expedición Dragontina se puede completar la misión {quest:70833} para conseguir el {item:200738} como recompensa (una vez por cuenta) o comprar el mapa a {npc:189065} por 3 {item:192863} y 500 {currency:2003} y usarlo.'
+L['torn_riding_pack_note'] = nil
+L['yennus_kite_note'] = nil
 
 L['fullsails_supply_chest'] = 'Cofre de Suministros Todavela'
 L['hidden_hornswog_hoard_note'] = 'Recoge {item:200064}, {item:200065} y {item:200066}, combínalos en |cFFFFFD00"Acertijo de observador: Una Guía de Campo"|r cerca del tesoro y entonces alimenta a la rana.'

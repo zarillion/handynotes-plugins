@@ -171,15 +171,21 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Kleines Banner in ei
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem {npc:192737} zu diesem Turm.'
+L['lepidoralia_note'] = nil
 L['obsidian_citadel_rare_note'] = 'Du und andere Spieler müssen insgesamt %dx {item:191264} bei %s abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der |cFFFFFD00Obsidianzitadelle|r geplündert werden.'
+L['shadeslash_note'] = nil
 L['shasith_note'] = 'Innerhalb des |cFFFFFD00Obsidianthron|r.'
+L['slurpo_snail_note'] = nil
 L['worldcarver_atir_note'] = 'Sammel 3x {item:191211} von {npc:187366} in der Nähe und platziere diese beim {npc:197395}, um den seltenen Gegner erscheinen zu lassen.'
 
 L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['dead_mans_chestplate_note'] = 'Im Inneren des Turms auf der mittleren Etage.'
+L['fullsails_supply_chest_note'] = nil
 L['golden_dragon_goblet_note'] = 'Plündere {item:202081} von {npc:190056} an der |cFFFFFD00Wilde Küste|r und schließe die kleine Questreihe ab.'
 L['misty_treasure_chest_note'] = 'Stelle dich auf den {npc:185485} der aus dem Wasserfall ragt, um in die Höhle zu gelangen.'
 L['onyx_gem_cluster_note'] = 'Auf Ruhmstufe 21 bei der Drachenschuppenexpedition kannst du die Quest {quest:70833} abschließen und als Belohnung die {item:200738} bekommen (einmal pro Account) oder kaufe die Karte von {npc:189065} für 3 {item:192863} und 500 {currency:2003} und benutze es.'
+L['torn_riding_pack_note'] = nil
+L['yennus_kite_note'] = nil
 
 L['fullsails_supply_chest'] = 'Vorratskiste der Vollsegel'
 L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item:200066}, kombiniere diese beim |cFFFFFD00"Rätsel für Aufmerksame: Ein Naturführer"|r nahe dem Schatz und füttere dann den Frosch damit.'
