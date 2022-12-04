@@ -1,3 +1,12 @@
+# v9
+
+* Added duckling locations for the Lets Get Quacking achievement.
+* Added the Do You Wanna Build a Snowman achievement in Azure Span.
+* Added the Seeing Blue achievement in Azure Span.
+* Added the Tasty Hatchling's Treat and Snow in a Cone cooking recipes.
+* Collapsed Bonus Elites into the Rares category (not very many of them).
+* More rare updates, including Lepodiralia and Slurpo.
+
 # v8
 
 * Added note of level 25 requirement for profession treasures.
