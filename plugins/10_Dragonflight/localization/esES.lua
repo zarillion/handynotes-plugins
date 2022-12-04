@@ -43,9 +43,9 @@ L['dr_bronze'] = '\n\nAcaba la carrera para conseguir el ' .. ns.color.Bronze('B
 L['options_icons_dragonrace'] = 'Carreras de Dragones'
 L['options_icons_dragonrace_desc'] = 'Muestra dónde están las Carreras de Dragones.'
 
-L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean mascotas de combate'
+L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:16729}'
-L['options_icons_squirrels_desc'] = 'Sitios donde aparecen las alimañas para el logro {achievement:16729}.'
+L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:16729}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -164,7 +164,7 @@ L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños pa
 L['blightpaw_note'] = 'Habla con el {npc:193222} y acepta ayudarle.'
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
 
-L['acorn_harvester_note'] = 'Recoge una |cFFFFFD00Bellota|r del suelo cercano para conseguir {spell:388485} y entonces interactúa con {npc:196172}.'
+L['acorn_harvester_note'] = 'Recoge una |cFFFFFD00Bellota|r del suelo cercano para conseguir {spell:388485} y entonces interactúa con {npc:196172}.\n\n|cFFFF0000(BUG: Para poder hacer click en el {npc:196172} puede ser necesario un reload)|r.'
 L['cracked_hourglass_note'] = 'La {item:199068} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['sandy_wooden_duck_note'] = 'Recoge el {item:199069} y úsalo.'
 
