@@ -235,3 +235,7 @@ L['quack_week_3'] = 'Semana 3'
 L['quack_week_4'] = 'Semana 4'
 L['quack_week_5'] = 'Semana 5'
 L['lets_get_quacking'] = 'Sólo puedes rescatar un {npc:187863} a la semana.'
+
+L['complaint_to_scalepiercer_note'] = nil
+L['grand_flames_journal_note'] = nil
+L['wyrmeaters_recipe_note'] = nil

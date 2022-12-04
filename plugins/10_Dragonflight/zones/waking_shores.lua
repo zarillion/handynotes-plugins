@@ -985,3 +985,25 @@ map.nodes[82884258] = Quack({
     rlabel = L['quack_week_5'],
     requires = {ns.requirement.Quest(70918)}
 }) -- Quacking Out for a Hero (Week 5)
+
+-------------------------------------------------------------------------------
+------------------ SIEGE ON DRAGONBANE KEEP: CHISELED RECORD ------------------
+-------------------------------------------------------------------------------
+
+map.nodes[27836835] = Collectible({
+    note = L['complaint_to_scalepiercer_note'],
+    icon = 134455,
+    rewards = {Achievement({id = 16412, criteria = 55264})}
+}) -- Complaint to Scalepiercer
+
+map.nodes[28827244] = Collectible({
+    note = L['wyrmeaters_recipe_note'],
+    icon = 134455,
+    rewards = {Achievement({id = 16412, criteria = 55266})}
+}) -- Wyrmeater's Recipe
+
+map.nodes[24056927] = Collectible({
+    note = L['grand_flames_journal_note'],
+    icon = 134455,
+    rewards = {Achievement({id = 16412, criteria = 55265})}
+}) -- The Grand Flame's Journal

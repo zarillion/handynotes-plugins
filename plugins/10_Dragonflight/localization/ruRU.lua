@@ -221,3 +221,7 @@ L['quack_week_3'] = nil
 L['quack_week_4'] = nil
 L['quack_week_5'] = nil
 L['lets_get_quacking'] = nil
+
+L['complaint_to_scalepiercer_note'] = nil
+L['grand_flames_journal_note'] = nil
+L['wyrmeaters_recipe_note'] = nil

@@ -53,6 +53,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Dragon Glyphs for the [Waking Shores Glyph Hunter](https://www.wowhead.com/beta/achievement=16575/waking-shores-glyph-hunter) achievement.
 * Ducklings for the [Let's Get Quacking](https://www.wowhead.com/achievement=16409/lets-get-quacking) achievement.
 * Kites for the [Symbols of Hope](https://www.wowhead.com/achievement=16584/symbols-of-hope) achievement.
+* Stone Tablets for the [Siege on Dragonbane Keep: Chiseled Record](https://www.wowhead.com/achievement=16412/siege-on-dragonbane-keep-chiseled-record) achievement.
 
 ### Ohnahran Plains
 

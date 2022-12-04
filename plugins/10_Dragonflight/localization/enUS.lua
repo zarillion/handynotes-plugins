@@ -234,3 +234,7 @@ L['quack_week_3'] = 'Week 3'
 L['quack_week_4'] = 'Week 4'
 L['quack_week_5'] = 'Week 5'
 L['lets_get_quacking'] = 'You can only rescue a single {npc:187863} per week.'
+
+L['complaint_to_scalepiercer_note'] = 'Click on the |cFFFFFD00Stone Tablet|r inside the hut. (On the left side at the back.)'
+L['grand_flames_journal_note'] = 'Click on the |cFFFFFD00Stone Tablet|r outside behind the hut.'
+L['wyrmeaters_recipe_note'] = 'Click on the |cFFFFFD00Stone Tablet|r inside the hut. (On the left side.)'

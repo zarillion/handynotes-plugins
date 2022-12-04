@@ -234,3 +234,7 @@ L['quack_week_3'] = '第3周'
 L['quack_week_4'] = '第4周'
 L['quack_week_5'] = '第5周'
 L['lets_get_quacking'] = '每周只能解救一名 {npc:187863}。'
+
+L['complaint_to_scalepiercer_note'] = nil
+L['grand_flames_journal_note'] = nil
+L['wyrmeaters_recipe_note'] = nil
