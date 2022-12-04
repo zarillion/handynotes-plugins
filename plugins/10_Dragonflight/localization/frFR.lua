@@ -236,6 +236,6 @@ L['quack_week_4'] = 'Semaine 4'
 L['quack_week_5'] = 'Semaine 5'
 L['lets_get_quacking'] = 'Vous ne pouvez sauver qu\'un seul {npc:187863} par semaine.'
 
-L['complaint_to_scalepiercer_note'] = nil
-L['grand_flames_journal_note'] = nil
-L['wyrmeaters_recipe_note'] = nil
+L['complaint_to_scalepiercer_note'] = 'Cliquez sur la |cFFFFFD00Tablette en pierre|r à l\'intérieur de la hutte (sur le côté gauche au fond).'
+L['grand_flames_journal_note'] = 'Cliquez sur la |cFFFFFD00Tablette en pierre|r à l\'extérieur, derrière la hutte.'
+L['wyrmeaters_recipe_note'] = 'Cliquez sur la |cFFFFFD00Tablette en pierre|r à l\'intérieur de la hutte (sur le côté gauche).'
