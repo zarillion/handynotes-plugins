@@ -998,6 +998,25 @@ map.nodes[43746678] = ns.node.Dragonrace({
 }) -- River Rapids Route
 
 -------------------------------------------------------------------------------
+--------------------- TO ALL THE SQUIRRELS HIDDEN TIL NOW ---------------------
+-------------------------------------------------------------------------------
+
+map.nodes[23486179] = ns.node.Squirrel({
+    id = 186306,
+    rewards = {Achievement({id = 16729, criteria = 4})}
+}) -- Frilled Hatchling
+
+map.nodes[51075165] = ns.node.Squirrel({
+    id = 192948,
+    rewards = {Achievement({id = 16729, criteria = 5})}
+}) -- Thicket Glider
+
+map.nodes[50195179] = ns.node.Squirrel({
+    id = 192942,
+    rewards = {Achievement({id = 16729, criteria = 6})}
+}) -- Thunderspine Calf
+
+-------------------------------------------------------------------------------
 ------------------------- LIZI, THUNDERSPINE TRAMPLER -------------------------
 -------------------------------------------------------------------------------
 

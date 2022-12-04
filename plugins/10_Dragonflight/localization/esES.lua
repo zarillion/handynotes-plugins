@@ -43,6 +43,10 @@ L['dr_bronze'] = '\n\nAcaba la carrera para conseguir el ' .. ns.color.Bronze('B
 L['options_icons_dragonrace'] = 'Carreras de Dragones'
 L['options_icons_dragonrace_desc'] = 'Muestra dónde están las Carreras de Dragones.'
 
+L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean mascotas de combate'
+L['options_icons_squirrels'] = '{achievement:16729}'
+L['options_icons_squirrels_desc'] = 'Sitios donde aparecen las alimañas para el logro {achievement:16729}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

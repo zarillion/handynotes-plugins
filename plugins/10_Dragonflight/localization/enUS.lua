@@ -42,6 +42,10 @@ L['dr_bronze'] = '\n\nFinish the race to get ' .. ns.color.Bronze('Bronze') .. '
 L['options_icons_dragonrace'] = 'Dragonriding Race'
 L['options_icons_dragonrace_desc'] = 'Display the location of Dragonriding Race.'
 
+L['squirrels_note'] = 'You must use the emote /love on critters not battle pets'
+L['options_icons_squirrels'] = '{achievement:16729}'
+L['options_icons_squirrels_desc'] = 'Critter locations for {achievement:16729}'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

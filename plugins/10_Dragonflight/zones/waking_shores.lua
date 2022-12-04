@@ -950,6 +950,25 @@ map.nodes[42599445] = ns.node.Dragonrace({
 }) -- Wild Preserve Circuit
 
 -------------------------------------------------------------------------------
+--------------------- TO ALL THE SQUIRRELS HIDDEN TIL NOW ---------------------
+-------------------------------------------------------------------------------
+
+map.nodes[76554827] = ns.node.Squirrel({
+    id = 189737,
+    rewards = {Achievement({id = 16729, criteria = 1})}
+}) -- Kelp Nibbler
+
+map.nodes[65142863] = ns.node.Squirrel({
+    id = 192135,
+    rewards = {Achievement({id = 16729, criteria = 2})}
+}) -- Phoenix Hatchling
+
+map.nodes[58387252] = ns.node.Squirrel({
+    id = 193756,
+    rewards = {Achievement({id = 16729, criteria = 3})}
+}) -- Docile Kit
+
+-------------------------------------------------------------------------------
 ------------------------------ LET'S GET QUACKING -----------------------------
 -------------------------------------------------------------------------------
 
@@ -1007,3 +1026,4 @@ map.nodes[24056927] = Collectible({
     icon = 134455,
     rewards = {Achievement({id = 16412, criteria = 55265})}
 }) -- The Grand Flame's Journal
+

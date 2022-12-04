@@ -43,6 +43,10 @@ L['dr_bronze'] = '\n\nTerminez la course pour obtenir ' .. ns.color.Bronze('Bron
 L['options_icons_dragonrace'] = 'Courses du Vol à dos de dragon'
 L['options_icons_dragonrace_desc'] = 'Afficher les emplacements des Courses du Vol à dos de dragon.'
 
+L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat'
+L['options_icons_squirrels'] = '{achievement:16729}'
+L['options_icons_squirrels_desc'] = 'Emplacements des bestioles pour {achievement:16729}'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

@@ -566,3 +566,22 @@ map.nodes[58043367] = ns.node.Dragonrace({
         Achievement({id = 15938, criteria = 6, oneline = true}) -- advanced gold
     }
 }) -- Caverns Criss-Cross
+
+-------------------------------------------------------------------------------
+--------------------- TO ALL THE SQUIRRELS HIDDEN TIL NOW ---------------------
+-------------------------------------------------------------------------------
+
+map.nodes[55636757] = ns.node.Squirrel({
+    id = 195869,
+    rewards = {Achievement({id = 16729, criteria = 10})}
+}) -- Diminuitive Boghopper
+
+map.nodes[51695797] = ns.node.Squirrel({
+    id = 196652,
+    rewards = {Achievement({id = 16729, criteria = 11})}
+}) -- Reservoir Filly
+
+map.nodes[51307286] = ns.node.Squirrel({
+    id = 185148,
+    rewards = {Achievement({id = 16729, criteria = 12})}
+}) -- Rocdrop Scarab

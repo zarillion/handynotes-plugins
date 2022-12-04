@@ -781,6 +781,7 @@ map.nodes[72154242] = Scoutpack({note = L['in_cave']})
 map.nodes[72604263] = Scoutpack({note = L['in_cave']})
 map.nodes[78953094] = Scoutpack()
 map.nodes[79823175] = Scoutpack()
+map.nodes[58145373] = Scoutpack()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -885,6 +886,25 @@ map.nodes[50935561] = Collectible({
     rewards = {Achievement({id = 16474})},
     pois = {POI({50955481, 50985611})}
 }) -- Do You Wanna Build a Snowman?
+
+-------------------------------------------------------------------------------
+--------------------- TO ALL THE SQUIRRELS HIDDEN TIL NOW ---------------------
+-------------------------------------------------------------------------------
+
+map.nodes[58695326] = ns.node.Squirrel({
+    id = 193594,
+    rewards = {Achievement({id = 16729, criteria = 7})}
+}) -- Timbertooth Kit
+
+map.nodes[49975755] = ns.node.Squirrel({
+    id = 186481,
+    rewards = {Achievement({id = 16729, criteria = 8})}
+}) -- Frosty Spiderling
+
+map.nodes[29244368] = ns.node.Squirrel({
+    id = 197718,
+    rewards = {Achievement({id = 16729, criteria = 9})}
+}) -- Crimson Knocker
 
 -------------------------------------------------------------------------------
 ---------------------------- TEMPERAMENTAL SKYCLAW ----------------------------
