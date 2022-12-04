@@ -423,6 +423,12 @@ val.nodes[13206368] = PT.Inscription({
     note = L['pt_script_how_to_train_your_whelpling_note']
 }) -- How to Train Your Whelpling
 
+-- map.nodes[61437687] = PT.Mining({
+--     id = 194843,
+--     quest = 70258,
+--     note = L['pt_mining_bridgette_holdug']
+-- }) -- Bridgette Holdug
+
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
 -------------------------------------------------------------------------------

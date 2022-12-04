@@ -182,6 +182,7 @@ L['pt_script_how_to_train_your_whelpling_note'] = 'Un petit livre marron posé d
 L['pt_smith_draconic_flux_note'] = 'A l\'intérieur d\'un bâtiment.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Cliquez sur le |cFFFFFD00Rouet tisse-dragon ancien|r pour effectuer un mini-jeu où vous devez relier les bobines de fil à la gemme centrale.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Une petite bannière dans un tas de sable.'
+L['pt_mining_bridgette_holdug'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -232,6 +233,7 @@ L['pt_smith_molten_ingot_note'] = 'Envoyez 3 lingots dans la lave pour faire app
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Au sommet d\'une enclume.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'Un morceau de tissu accroché à un arbre juste à l\'extérieur de la grotte où le boss final apparaît.' .. ns.color.Orange('Nécessite de la précision avec le Vol à dos de Dragon ou bien un portail de démoniste.')
 L['pt_tailor_mysterious_banner_note'] = 'Flottant sur le toit des bâtiments.'
+L['pt_smith_grekka_anvilsmash'] = nil
 
 L['quack_week_1'] = 'Semaine 1'
 L['quack_week_2'] = 'Semaine 2'

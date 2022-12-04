@@ -703,6 +703,12 @@ map.nodes[74703790] = PT.Tailoring({
     note = L['pt_tailor_mysterious_banner_note']
 }) -- Mysterious Banner
 
+-- map.nodes[43276663] = PT.Mining({
+--     id = 194836,
+--     quest = nil,
+--     note = L['pt_smith_grekka_anvilsmash']
+-- }) -- Grekka Anvilsmash -- currently bugged
+
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
 -------------------------------------------------------------------------------

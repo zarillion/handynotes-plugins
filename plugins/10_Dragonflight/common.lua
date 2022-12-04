@@ -211,7 +211,6 @@ ns.node.Scoutpack = Scoutpack
 local Dragonrace = Class('DragonRace', Collectible,
     {icon = 1100022, group = ns.groups.DRAGONRACE})
 
--- Time Records are stored in a Hidden Currency (https://www.wowhead.com/currencies/dragon-racing-ui-hidden)
 function Dragonrace.getters:sublabel()
     if self.normal then
         local ntime = C_CurrencyInfo.GetCurrencyInfo(self.normal[1]).quantity

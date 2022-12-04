@@ -181,6 +181,7 @@ L['pt_script_how_to_train_your_whelpling_note'] = '躺在沙盒里的棕色小�
 L['pt_smith_draconic_flux_note'] = '建筑物内。'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '点击 |cFFFFFD00上古龙纹织布机|r 以完成一个小游戏，将线轴连接到中心宝石。'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = '一堆沙子里的小旗帜。'
+L['pt_mining_bridgette_holdug'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -231,6 +232,7 @@ L['pt_smith_molten_ingot_note'] = '将3个锭踢入熔岩以出现怪物。打�
 L['pt_smith_qalashi_weapon_diagram_note'] = '在铁砧之上。'
 L['pt_tailor_itinerant_singed_fabric_note'] = '一块布料挂在树上，就在最终首领出现的洞穴外。' .. ns.color.Orange('需要精准驭龙或术士传送门。')
 L['pt_tailor_mysterious_banner_note'] = '在建筑物的顶部飘扬。'
+L['pt_smith_grekka_anvilsmash'] = nil
 
 L['quack_week_1'] = '第1周'
 L['quack_week_2'] = '第2周'

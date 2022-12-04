@@ -182,6 +182,7 @@ L['pt_script_how_to_train_your_whelpling_note'] = 'Pequeño libro marrón tirado
 L['pt_smith_draconic_flux_note'] = 'Dentro de un edificio.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Haz click en el |cFFFFFD00Telar de Tejido de Dragón Ancestral|r para completar un minijuego donde has de conectar los carretes de hilo a la gema central.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pequeña dentro de una pila de arena.'
+L['pt_mining_bridgette_holdug'] = 'Auf einem grasbewachsenen Felspfeiler.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -232,6 +233,7 @@ L['pt_smith_molten_ingot_note'] = 'Patea 3 lingotes dentro de la lava para hacer
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Encima de un yunque.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'Un trozo de tela colgando de unos árboles justo fuera de la cueva donde aparece el boss final. ' .. ns.color.Orange('Requiere precisión montando dragones o un portal de brujo')
 L['pt_tailor_mysterious_banner_note'] = 'Revoloteando por encima de los edificios.'
+L['pt_smith_grekka_anvilsmash'] = nil
 
 L['quack_week_1'] = 'Semana 1'
 L['quack_week_2'] = 'Semana 2'
