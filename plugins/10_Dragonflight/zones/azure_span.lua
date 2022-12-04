@@ -872,3 +872,17 @@ map.nodes[50935561] = Collectible({
     rewards = {Achievement({id = 16474})},
     pois = {POI({50955481, 50985611})}
 }) -- Do You Wanna Build a Snowman?
+
+-------------------------------------------------------------------------------
+---------------------------- TEMPERAMENTAL SKYCLAW ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[19042397] = Collectible({
+    label = '{npc:190892}',
+    note = L['temperamental_skyclaw_note'],
+    icon = 4218760,
+    rewards = {
+        Mount({item = 201454, id = 1674}) -- Temperamental Skyclaw
+    },
+    pois = {POI({58234353, 23074372, 32004400})}
+})

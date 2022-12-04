@@ -80,6 +80,15 @@ L['options_icons_layline_desc'] = 'Zeigt die Positionen aller Leylinien für den
 
 L['seeing_blue_note'] = 'Fliegt ohne Zwischenlandung von der Spitze der Azurarchive zum Kobaltkonvent.'
 L['snowman_note'] = 'Es liegen 3 Schneebälle in der nähe (möglicherweise wurden sie von anderen Spielern weggerollt), rolle sie zu den Kindern {npc:197838} und {npc:197839}.\nDu erhälst den erfolg sobald die Schneebälle die richtigen gößen erreicht haben.'
+L['temperamental_skyclaw_note'] = [[
+Sammel (oder kaufe im Auktionshaus):
+
+20x {item:201420}
+20x {item:201421}
+20x {item:201422}
+
+Fragt nach der gesattelten Slyvern und präsentiert {npc:190892} die gesammelten "Gerichte".
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------

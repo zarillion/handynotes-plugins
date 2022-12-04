@@ -80,6 +80,15 @@ L['options_icons_layline_desc'] = 'Display the location of all ley line for the 
 
 L['seeing_blue_note'] = 'Fly from the top of the Azure Archives to the Cobalt Assembly without landing.'
 L['snowman_note'] = 'There are three {npc:197599s} laying in the area (might have been moved by other players), roll them to the two kids {npc:197838} and {npc:197839}.\nYou get the Achievement when the snowballs have the right sizes.'
+L['temperamental_skyclaw_note'] = [[
+Collect (or buy in the auction house):
+
+20x {item:201420}
+20x {item:201421}
+20x {item:201422}
+
+Ask about the saddled slyvern and present {npc:190892} the collected "dishes".
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------

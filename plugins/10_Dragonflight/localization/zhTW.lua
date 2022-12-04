@@ -80,6 +80,7 @@ L['options_icons_layline_desc'] = '顯示成就 {achievement:16638} 中所有地
 
 L['seeing_blue_note'] = nil
 L['snowman_note'] = nil
+L['temperamental_skyclaw_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
