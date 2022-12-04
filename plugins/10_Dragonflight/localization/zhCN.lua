@@ -235,6 +235,6 @@ L['quack_week_4'] = '第4周'
 L['quack_week_5'] = '第5周'
 L['lets_get_quacking'] = '每周只能解救一名 {npc:187863}。'
 
-L['complaint_to_scalepiercer_note'] = nil
-L['grand_flames_journal_note'] = nil
-L['wyrmeaters_recipe_note'] = nil
+L['complaint_to_scalepiercer_note'] = '点击小屋内的|cFFFFFD00石板|r（在后面的左侧）。'
+L['grand_flames_journal_note'] = '点击小屋后面的 |cFFFFFD00石板|r。'
+L['wyrmeaters_recipe_note'] = '点击小屋内的 |cFFFFFD00石板|r（在左侧）。'
