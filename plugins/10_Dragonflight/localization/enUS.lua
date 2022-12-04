@@ -42,9 +42,9 @@ L['dr_bronze'] = '\n\nFinish the race to get ' .. ns.color.Bronze('Bronze') .. '
 L['options_icons_dragonrace'] = 'Dragonriding Race'
 L['options_icons_dragonrace_desc'] = 'Display the location of Dragonriding Race.'
 
-L['squirrels_note'] = 'You must use the emote /love on critters not battle pets'
+L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.'
 L['options_icons_squirrels'] = '{achievement:16729}'
-L['options_icons_squirrels_desc'] = 'Critter locations for {achievement:16729}'
+L['options_icons_squirrels_desc'] = 'Display the location of critters for {achievement:16729}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -163,7 +163,7 @@ L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {
 L['blightpaw_note'] = 'Talk to {npc:193222} nearby and agree to help him.'
 L['woofang_note'] = 'Pet {npc:193156} to spawn the rare.'
 
-L['acorn_harvester_note'] = 'Collect an |cFFFFFD00Acorn|r from the ground nearby to get {spell:388485} and then interact with {npc:196172}.\n\n|cFFFF0000(BUG: To click on {npc:196172} a reload might be necessary)|r'
+L['acorn_harvester_note'] = 'Collect an |cFFFFFD00Acorn|r from the ground nearby to get {spell:388485} and then interact with {npc:196172}.\n\n|cFFFF0000(BUG: To click on {npc:196172} a reload might be necessary)|r.'
 L['cracked_hourglass_note'] = '{item:199068} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['sandy_wooden_duck_note'] = 'Collect {item:199069} and use it.'
 
