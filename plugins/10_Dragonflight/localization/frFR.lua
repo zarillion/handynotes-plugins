@@ -181,7 +181,7 @@ L['worldcarver_atir_note'] = 'Récupérez 3x {item:191211} sur les {npc:187366} 
 
 L['bubble_drifter_note'] = '{item:199061} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['dead_mans_chestplate_note'] = 'A l\'intérieur de la tour, au niveau intermédiaire.'
-L['fullsails_supply_chest_note'] = 'La clé est récupérable sur les {npc:187971s} et {npc:187320s} au sud de |cFFFFFD0l\'Ambassade de Trêve-Ailée|r.'
+L['fullsails_supply_chest_note'] = 'La clé est récupérable sur les {npc:187971s} et {npc:187320s} au sud de l\'|cFFFFFD00Ambassade de Trêve-Ailée|r.'
 L['golden_dragon_goblet_note'] = 'Récupérez un {item:202081} sur les {npc:190056} sur la |cFFFFFD00Côte Sauvage|r et terminez la petite suite de quêtes.'
 L['misty_treasure_chest_note'] = 'Montez sur la {npc:185485} qui dépasse de la cascade pour entrer dans la grotte.'
 L['onyx_gem_cluster_note'] = 'Au Renom 21 avec l\'Expédition du Dracaret, vous pouvez compléter la quête {quest:70833} pour obtenir {item:200738} comme récompense (une fois par compte) ou alors acheter la carte à {npc:189065} pour 3 {item:192863} et 500 {currency:2003} et l\'utiliser.'
