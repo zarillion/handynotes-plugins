@@ -106,9 +106,9 @@ map.nodes[26285788] = Rare({
     }
 }) -- Cauldronbearer Blakor
 
-map.nodes[29485272] = Rare({ -- review
+map.nodes[29485272] = Rare({
     id = 190991,
-    quest = nil,
+    quest = 74043,
     rewards = {Achievement({id = 16676, criteria = 56060})}
 }) -- Char
 
@@ -190,9 +190,9 @@ map.nodes[22207649] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56047})}
 }) -- Massive Magmashell
 
-map.nodes[32225193] = Rare({ -- review
+map.nodes[32225193] = Rare({
     id = 187306,
-    quest = nil,
+    quest = 74067,
     note = format(L['obsidian_citadel_rare_note'], 10, '{npc:187275}'),
     rewards = {
         Achievement({id = 16676, criteria = 56988}),
@@ -322,7 +322,7 @@ map.nodes[33525576] = Rare({
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 16676, criteria = 56058}),
-        Transmog({item = 200563, slot = L['trinket']}) -- Primal Ritual Shell
+        Item({item = 200563, slot = L['trinket']}) -- Primal Ritual Shell
     }
 }) -- Turboris
 
@@ -333,7 +333,7 @@ map.nodes[30025534] = Rare({
     rewards = {
         Achievement({id = 16676, criteria = 56052}),
         Transmog({item = 200213, slot = L['plate']}), -- Lava-Splattered Breastplate
-        Transmog({item = 200563, slot = L['trinket']}) -- Primal Ritual Shell
+        Item({item = 200563, slot = L['trinket']}) -- Primal Ritual Shell
     }
 }) -- Worldcarver A'tir
 
