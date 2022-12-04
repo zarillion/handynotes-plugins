@@ -83,7 +83,7 @@ map.nodes[47675115] = Rare({ -- required 67030
 
 map.nodes[53374092] = Rare({
     id = 193125,
-    quest = nil,
+    quest = 73878,
     rewards = {
         Achievement({id = 16679, criteria = 56138}),
         Transmog({item = 200436, slot = L['mail']}) -- Gorestained Hauberk
