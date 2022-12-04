@@ -163,7 +163,7 @@ L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {
 L['blightpaw_note'] = 'Talk to {npc:193222} nearby and agree to help him.'
 L['woofang_note'] = 'Pet {npc:193156} to spawn the rare.'
 
-L['acorn_harvester_note'] = 'Collect an |cFFFFFD00Acorn|r from the ground nearby to get {spell:388485} and then interact with {npc:196172}.'
+L['acorn_harvester_note'] = 'Collect an |cFFFFFD00Acorn|r from the ground nearby to get {spell:388485} and then interact with {npc:196172}.\n\n|cFFFF0000(BUG: To click on {npc:196172} a reload might be necessary)|r'
 L['cracked_hourglass_note'] = '{item:199068} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['sandy_wooden_duck_note'] = 'Collect {item:199069} and use it.'
 
