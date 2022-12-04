@@ -177,7 +177,7 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = nil
 
 L['brundin_the_dragonbane_note'] = 'Боевой отряд куалаши отправляется на {npc:192737} к этой башне.'
 L['lepidoralia_note'] = nil
-L['obsidian_citadel_rare_note'] = 'Вы и другие игроки должны вернуть в общей сложности %dx {item:191264} %s. Для крафта ключа нужно скомбинировать 30x {item:191251} и 3x {item:193201}, вы можете получить эти предметы у монстров вокруг Обсидиановой цитадели.' -- pls review
+L['obsidian_citadel_rare_note'] = nil -- pls review 'Вы и другие игроки должны вернуть в общей сложности %dx {item:191264} %s. Для крафта ключа нужно скомбинировать 30x {item:191251} и 3x {item:193201}, вы можете получить эти предметы у монстров вокруг Обсидиановой цитадели.'
 L['shadeslash_note'] = nil
 L['shasith_note'] = 'Внутри |cFFFFFD00Обсидиановой цитадели|r.'
 L['slurpo_snail_note'] = nil

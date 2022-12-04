@@ -177,7 +177,7 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pequeña den
 
 L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja encima del {npc:192737} a esta torre.'
 L['lepidoralia_note'] = nil
-L['obsidian_citadel_rare_note'] = 'Tú y otros jugadores teneis que devolver un total de %dx {item:191264} %s. Para fabricar una llave necesitarás combinar 30x {item:191251} y 3x {item:193201}. Puedes conseguir estos objetos de los enemigos de la Ciudadela Obsidiana.' -- pls review
+L['obsidian_citadel_rare_note'] = nil -- pls review 'Tú y otros jugadores teneis que devolver un total de %dx {item:191264} %s. Para fabricar una llave necesitarás combinar 30x {item:191251} y 3x {item:193201}. Puedes conseguir estos objetos de los enemigos de la Ciudadela Obsidiana.'
 L['shadeslash_note'] = nil
 L['shasith_note'] = 'Dentro del |cFFFFFD00Trono Obsidiana|r.'
 L['slurpo_snail_note'] = nil

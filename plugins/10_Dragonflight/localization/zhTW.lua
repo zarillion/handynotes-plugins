@@ -176,7 +176,7 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = nil
 
 L['brundin_the_dragonbane_note'] = '喀拉希戰爭隊伍坐在他們的 {npc:192737} 旅行到這座塔.'
 L['lepidoralia_note'] = nil
-L['obsidian_citadel_rare_note'] = '你和其他玩家必須要繳交總共%d個 {item:191264} %s. 要鑄造鑰匙你需要結合30個 {item:191251} 和3個 {item:193201}, 你可以在黑曜王座的怪物身上取得這些物品' -- pls review
+L['obsidian_citadel_rare_note'] = nil -- pls review '你和其他玩家必須要繳交總共%d個 {item:191264} %s. 要鑄造鑰匙你需要結合30個 {item:191251} 和3個 {item:193201}, 你可以在黑曜王座的怪物身上取得這些物品'
 L['shadeslash_note'] = nil
 L['shasith_note'] = '在黑曜王座內. '
 L['slurpo_snail_note'] = nil
@@ -187,7 +187,7 @@ L['dead_mans_chestplate_note'] = '在塔中間的樓層'
 L['fullsails_supply_chest_note'] = nil
 L['golden_dragon_goblet_note'] = '在|cFFFFFD00荒野海岸|r從 {npc:190056} 拾取 {item:202081}並完成小任務線'
 L['misty_treasure_chest_note'] = '站在突出瀑布的 {npc:185485} 來進入洞窟'
-L['onyx_gem_cluster_note'] = '當龍鱗遠征隊的名望到達21時, 你可以完成任務 {quest:70833} 來取得報酬 {item:200738} (每個帳號一次) 或是從 {npc:189065} 處用3個 {item:192863} 和 500{currency:2003} 購買地圖來使用它.' -- review
+L['onyx_gem_cluster_note'] = nil -- pls review '當龍鱗遠征隊的名望到達21時, 你可以完成任務 {quest:70833} 來取得報酬 {item:200738} (每個帳號一次) 或是從 {npc:189065} 處用3個 {item:192863} 和 500{currency:2003} 購買地圖來使用它.'
 L['torn_riding_pack_note'] = nil
 L['yennus_kite_note'] = nil
 

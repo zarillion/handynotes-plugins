@@ -177,7 +177,7 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Une petite bannière
 
 L['brundin_the_dragonbane_note'] = 'La Troupe Qalashi voyage sur leur {npc:192737} jusqu\'à cette tour.'
 L['lepidoralia_note'] = 'Situé dans la |cFFFFFD00Caverne Bruissante|r. Aidez le {npc:193342} à attraper des {npc:193274s} jusqu\'à ce que le rare apparaisse.'
-L['obsidian_citadel_rare_note'] = 'Vous et d\'autres joueurs devez rapporter un total de %dx {item:191264} %s. Pour fabriquer une clé, vous devez combiner 30x {item:191251} et 3x {item:193201}. Vous pouvez obtenir ces objets sur les monstres de la Citadelle d\'obsidienne.' -- pls review
+L['obsidian_citadel_rare_note'] = nil -- pls review 'Vous et d\'autres joueurs devez rapporter un total de %dx {item:191264} %s. Pour fabriquer une clé, vous devez combiner 30x {item:191251} et 3x {item:193201}. Vous pouvez obtenir ces objets sur les monstres de la Citadelle d\'obsidienne.'
 L['shadeslash_note'] = 'Cliquez sur le |cFFFFFD00Focalisateur volé|r pour invoquer le rare.'
 L['shasith_note'] = 'À l\'intérieur du |cFFFFFD00Trône d\'obsidienne|r.'
 L['slurpo_snail_note'] = 'Récupérez un {item:201033} dans une grotte de |cFFFFFD00La Travée d\'Azur|r (11, 41) et utilisez-le dans cette grotte pour l\'invoquer.'

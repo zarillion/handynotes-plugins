@@ -185,11 +185,14 @@ map.nodes[43007465] = Rare({ -- review
     rewards = {Achievement({id = 16676, criteria = 56037})}
 }) -- Helmet Missingway
 
-map.nodes[34618275] = Rare({ -- review
+map.nodes[34618275] = Rare({
     id = 193266,
     quest = 74065,
     note = L['lepidoralia_note'],
-    rewards = {Achievement({id = 16676, criteria = 56055})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56055}),
+        Transmog({item = 200232, slot = L['warglaive']}) -- Raptor Talonglaive
+    }
 }) -- Lepidoralia the Resplendent
 
 map.nodes[39596353] = Rare({ -- review -- required 67030
@@ -222,9 +225,9 @@ map.nodes[56004592] = Rare({
         Achievement({id = 16676, criteria = 56034}),
         Item({item = 200236, note = L['trinket']}), -- Memory of Nulltheria
         Transmog({item = 200310, note = L['cloak']}), -- Stole of the Iron Phantom
-        Item({item = 197403, quest = nil}), -- Renewed Proto-Drake: Club Tail
+        Item({item = 197403, quest = 69604}), -- Renewed Proto-Drake: Club Tail
         Item({item = 197382, quest = 69583}), -- Renewed Proto-Drake: White Horns
-        Item({item = 196992, quest = nil}), -- Cliffside Wylderdrake: Heavy Horns
+        Item({item = 196992, quest = 69192}), -- Cliffside Wylderdrake: Heavy Horns
         Item({item = 196985, quest = 69185}) -- Cliffside Wylderdrake: Horned Jaw
     }
 }) -- Nulltheria the Void Gazer
@@ -234,7 +237,7 @@ map.nodes[81485082] = Rare({ -- required 67030
     quest = 70983,
     rewards = {
         Achievement({id = 16676, criteria = 56043}),
-        Item({item = 197022, quest = nil}) -- Cliffside Wylderdrake: Finned Neck
+        Item({item = 197022, quest = 69222}) -- Cliffside Wylderdrake: Finned Neck
     },
     pois = {
         Path({
@@ -294,7 +297,7 @@ map.nodes[23755734] = Rare({ -- review -- required 67030
     pois = {
         POI({
             27226096, -- Entrance
-            26836257 -- Furorion
+            26836257 -- Wrathion
         })
     }
 }) -- Shas'ith
@@ -305,8 +308,8 @@ map.nodes[42892832] = Rare({
     rewards = {
         Achievement({id = 16676, criteria = 56036}),
         Transmog({item = 200132, slot = L['dagger']}), -- Skewer's Snout
-        Item({item = 197022, quest = nil}), -- Cliffside Wylderdrake: Finned Neck
-        Item({item = 197589, quest = nil}) -- Windborne Velocidrake: Large Head Fin
+        Item({item = 197022, quest = 69222}), -- Cliffside Wylderdrake: Finned Neck
+        Item({item = 197589, quest = 69793}) -- Windborne Velocidrake: Large Head Fin
     },
     pois = {
         Path({

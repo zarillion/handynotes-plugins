@@ -345,6 +345,7 @@ map.nodes[55033405] = Rare({
     note = L['spellwrought_snowman_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56124}),
+        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
         Transmog({item = 200211, slot = L['cloth']}) -- Snowman's Icy Gaze
     },
     pois = {

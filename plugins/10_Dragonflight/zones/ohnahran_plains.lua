@@ -335,11 +335,14 @@ map.nodes[58596822] = Rare({ -- review
 
 map.nodes[31456387] = Rare({
     id = 193209,
-    quest = nil,
+    quest = 73901,
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
+        Transmog({item = 200306, slot = L['back']}), -- Tempest Shawl
         Item({item = 197372, quest = 69573}), -- Renewed Proto-Drake: Purple Hair
+        Item({item = 197606, quest = 69810}), -- Windborne Velocidrake: Swept Horns
         Mount({item = 198825, id = 1672}) -- Zenet Hatchling
     }
 }) -- Zenet Avis
