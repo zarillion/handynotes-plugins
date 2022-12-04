@@ -322,7 +322,7 @@ map.nodes[33525576] = Rare({
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 16676, criteria = 56058}),
-        Item({item = 200563, slot = L['trinket']}) -- Primal Ritual Shell
+        Item({item = 200563, note = L['trinket']}) -- Primal Ritual Shell
     }
 }) -- Turboris
 
@@ -333,7 +333,7 @@ map.nodes[30025534] = Rare({
     rewards = {
         Achievement({id = 16676, criteria = 56052}),
         Transmog({item = 200213, slot = L['plate']}), -- Lava-Splattered Breastplate
-        Item({item = 200563, slot = L['trinket']}) -- Primal Ritual Shell
+        Item({item = 200563, note = L['trinket']}) -- Primal Ritual Shell
     }
 }) -- Worldcarver A'tir
 
