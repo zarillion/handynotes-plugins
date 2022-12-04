@@ -201,7 +201,7 @@ L['yennus_kite_note'] = 'Stuck in a branch at the top of the tree.'
 
 L['fullsails_supply_chest'] = 'Fullsails Supply Chest'
 L['hidden_hornswog_hoard_note'] = [[
-Collect three different items and combine them at the |cFFFFFD00"Observant Riddles: A Field Guide"|r near the {npc:182559} to get {item:200063} and feed it. He will then move out of the way so you can loot his treasure.
+Collect three different items and combine them at the |cFFFFFD00"Observant Riddles: A Field Guide"|r near the {npc:192362} to get {item:200063} and feed it. He will then move out of the way so you can loot his treasure.
 
 {item:200064}
 {item:200065}

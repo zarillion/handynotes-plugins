@@ -184,7 +184,7 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = '一堆沙子里的�
 
 L['brundin_the_dragonbane_note'] = '卡拉希战队从 {npc:192737} 前往这座塔。'
 L['lepidoralia_note'] = '位于 |cFFFFFD00翩翼洞窟|r。帮助 {npc:193342} 抓住 {npc:193274} 直到稀有出现。'
-L['obsidian_citadel_rare_note'] = '和其他玩家必须总共上缴%d个 {item:191264} %s。要制作钥匙，需要组合30个 {item:191251} 和3个 {item:193201}，可以从黑曜堡垒怪物获得这些物品。'
+L['obsidian_citadel_rare_note'] = '和其他玩家必须总共上缴%d个 {item:191264} %s。要制作钥匙，需要组合30个 {item:191251} 和3个 {item:193201}，可以从 |cFFFFFD00黑曜堡垒|r 怪物获得这些物品。'
 L['shadeslash_note'] = '点击 |cFFFFFD00失窃的法器|r 召唤稀有。'
 L['shasith_note'] = '|cFFFFFD00黑曜王座|r 内。'
 L['slurpo_snail_note'] = '从 |cFFFFFD00碧蓝林海|r (11, 41) 的一个洞穴中拾取1个 {item:201033} 并在这个洞穴中使用来召唤他。'
@@ -201,7 +201,7 @@ L['yennus_kite_note'] = '卡在树顶的树枝上。'
 
 L['fullsails_supply_chest'] = '满帆补给箱'
 L['hidden_hornswog_hoard_note'] = [[
-收集3种不同的物品并在 {npc:182559} 附近的 |cFFFFFD00“观察谜题：实地指南”|r 处组合它们以获得 {item:200063} 然后喂它。然后它会离开就可以拾取它的宝藏。
+收集3种不同的物品并在 {npc:192362} 附近的 |cFFFFFD00“观察谜题：实地指南”|r 处组合它们以获得 {item:200063} 然后喂它。然后它会离开就可以拾取它的宝藏。
 
 {item:200064}
 {item:200065}
