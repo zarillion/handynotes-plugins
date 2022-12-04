@@ -47,6 +47,7 @@ L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, p
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour {achievement:16729}.'
 
+L['hnj_sublabel'] = nil
 L['hnj_western_azure_span_hunt'] = nil
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = nil

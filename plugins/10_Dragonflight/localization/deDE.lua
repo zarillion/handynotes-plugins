@@ -46,6 +46,7 @@ L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE 
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:16729} an.'
 
+L['hnj_sublabel'] = nil
 L['hnj_western_azure_span_hunt'] = nil
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = nil

@@ -47,6 +47,7 @@ L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean ma
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:16729}.'
 
+L['hnj_sublabel'] = nil
 L['hnj_western_azure_span_hunt'] = 'Encima del árbol muerto.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Muestra dónde está {npc:194590} para el logro {achievement:16542}.'
