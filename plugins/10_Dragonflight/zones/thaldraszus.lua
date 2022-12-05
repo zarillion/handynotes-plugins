@@ -640,3 +640,67 @@ map.nodes[34676541] = HemetNesingwaryJr({
 map.nodes[50674562] = HemetNesingwaryJr({
     rewards = {Achievement({id = 16542, criteria = 55702})}
 }) -- Northern Thaldraszus Hunt
+
+-------------------------------------------------------------------------------
+-------------------------- ONE OF EVERYTHING, PLEASE --------------------------
+-------------------------------------------------------------------------------
+
+val.nodes[60921096] = Collectible({
+    label = '{item:200904}',
+    icon = 237358,
+    note = L['picante_pomfruit_cake_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55733})}
+}) -- Picante Pompfruit Cake
+
+val.nodes[29046503] = Collectible({
+    label = '{item:201045}',
+    icon = 133994,
+    note = L['icecrown_bleu_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55931})}
+}) -- Icecrown Bleu
+
+map.nodes[50054267] = Collectible({
+    label = '{item:201046}',
+    icon = 132802,
+    note = L['dreamwarding_dripbrew_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55933})}
+}) -- Dreamwarding Dripbrew
+
+local ArcanostabilizedProvisions = Collectible({
+    label = '{item:201047}',
+    icon = 134043,
+    note = L['arcanostabilized_provisions_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55934})}
+}) -- Arcanostabilized Provisions
+
+local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
+tpf.nodes[61555322] = ArcanostabilizedProvisions
+map.nodes[59828223] = ArcanostabilizedProvisions
+
+map.nodes[38944629] = Collectible({
+    label = '{item:200871}',
+    icon = 4639581,
+    note = L['steamed_scarab_steak_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55936})}
+}) -- Steamed Scarab Steak
+
+map.nodes[58138299] = Collectible({
+    label = '{item:201089}',
+    icon = 644375,
+    L['craft_creche_crowler_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55940})}
+}) -- Craft Creche Crowler
+
+map.nodes[52416987] = Collectible({
+    label = '{item:201090}',
+    icon = 134022,
+    note = L['bivigosas_blood_sausages_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55941})}
+}) -- Bivigosa's Blood Sausages

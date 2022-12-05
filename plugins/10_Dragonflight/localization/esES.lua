@@ -212,6 +212,16 @@ L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Haz click en el |cFFFFFD00Telar 
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pequeña dentro de una pila de arena.'
 L['pt_mining_bridgette_holdug'] = 'Encima de un pilar de roca cubierto de hierba.'
 
+L['picante_pomfruit_cake_note'] = nil
+L['icecrown_bleu_note'] = nil
+L['dreamwarding_dripbrew_note'] = nil
+L['arcanostabilized_provisions_note'] = nil
+L['steamed_scarab_steak_note'] = nil
+L['craft_creche_crowler_note'] = nil
+L['bivigosas_blood_sausages_note'] = nil
+L['options_icons_specialties'] = nil
+L['options_icons_specialties_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

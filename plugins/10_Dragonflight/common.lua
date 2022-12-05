@@ -45,6 +45,8 @@ ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.SCOUT_PACK =
     Group('scout_pack', 4562583, {defaults = ns.GROUP_HIDDEN})
+ns.groups.SPECIALTIES = Group('specialties', 651585,
+    {defaults = ns.GROUP_HIDDEN})
 ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
 ns.groups.PRETTY_NEAT_SELFIE = Group('pretty_neat_selfie', 133707,
     {defaults = ns.GROUP_HIDDEN})
