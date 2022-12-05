@@ -163,7 +163,7 @@ L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境
 L['blightpaw_note'] = '与附近的 {npc:193222} 交谈并同意帮助他。'
 L['woofang_note'] = '抚摸 {npc:193156} 稀有出现。'
 
-L['acorn_harvester_note'] = '从附近地面收集1个 |cFFFFFD00橡果|r 获得 {spell:388485} 并与 {npc:196172} 互动。'
+L['acorn_harvester_note'] = '从附近地面收集1个 |cFFFFFD00橡果|r 获得 {spell:388485} 并与 {npc:196172} 互动。\n\n|cFFFF0000（错误：点击 {npc:196172} 可能需要重新加载）|r。'
 L['cracked_hourglass_note'] = '{item:199068} 可以从探险队斥候的背包和翻动过的泥土中找到。'
 L['sandy_wooden_duck_note'] = '收集 {item:199069} 并使用它。'
 
@@ -181,7 +181,7 @@ L['pt_script_how_to_train_your_whelpling_note'] = '躺在沙盒里的棕色小�
 L['pt_smith_draconic_flux_note'] = '建筑物内。'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '点击 |cFFFFFD00上古龙纹织布机|r 以完成一个小游戏，将线轴连接到中心宝石。'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = '一堆沙子里的小旗帜。'
-L['pt_mining_bridgette_holdug'] = nil
+L['pt_mining_bridgette_holdug'] = '在长满草的石柱上。'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -232,7 +232,7 @@ L['pt_smith_molten_ingot_note'] = '将3个锭踢入熔岩以出现怪物。打�
 L['pt_smith_qalashi_weapon_diagram_note'] = '在铁砧之上。'
 L['pt_tailor_itinerant_singed_fabric_note'] = '一块布料挂在树上，就在最终首领出现的洞穴外。' .. ns.color.Orange('需要精准驭龙或术士传送门。')
 L['pt_tailor_mysterious_banner_note'] = '在建筑物的顶部飘扬。'
-L['pt_smith_grekka_anvilsmash'] = nil
+L['pt_smith_grekka_anvilsmash'] = '在废墟塔旁的草丛中。\n\n|cFFFF0000（目前有问题。）|r'
 
 L['quack_week_1'] = '第1周'
 L['quack_week_2'] = '第2周'
