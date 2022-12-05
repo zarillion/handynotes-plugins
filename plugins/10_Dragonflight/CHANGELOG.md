@@ -1,3 +1,10 @@
+# v10
+
+* Added Hemet Nesingwary Jr. locations for the Disgruntled Hunter achievement.
+* Added stone tablet locations for Siege on Dragonbane Keep: Chiseled Record achievement.
+* Added the Sharpfang rare.
+* Added the Temperamental Skyclaw mount.
+
 # v9
 
 * Added duckling locations for the Lets Get Quacking achievement.

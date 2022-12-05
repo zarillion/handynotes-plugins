@@ -46,6 +46,8 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 * Flags for the [Dragonscale Expedition: The Highest Peaks](https://www.wowhead.com/achievement=15890/dragonscale-expedition-the-highest-peaks) achievement.
 * Race locations for the [Dragon Racing Completionist](https://www.wowhead.com/achievement=15939/dragon-racing-completionist) family of achievements.
+* Critter locations for the [To All the Squirrels Hidden Til Now](https://www.wowhead.com/achievement=16729/to-all-the-squirrels-hidden-til-now) achievement.
+* Hemet Nesingwary Jr. locations for the [The Disgruntled Hunter](https://www.wowhead.com/achievement=16542/the-disgruntled-hunter) achievement.
 * Profession-specific treasure locations which grant knowledge for your crafting specializations.
 
 ### Waking Shores
