@@ -212,14 +212,14 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Small banner inside 
 L['pt_mining_bridgette_holdug'] = 'On top of a grassy rock pillar.'
 
 L['picante_pomfruit_cake_note'] = '{item:200904} is not available every days so check back at |cFF00CCFFThe Ruby Enclave|r daily. While you are there, be sure to sample the 3 available dishes to complete {achievement:16556} as well.'
-L['icecrown_bleu_note'] = 'Purchase from {npc:196729} ' .. ns.color.NPC('<Cheesemonger>') .. ' in |cFF00CCFFThe Artisan\'s Market|r'
-L['dreamwarding_dripbrew_note'] = 'Purchase from {npc:197872} ' .. ns.color.NPC('<Caffeinomancer>') .. ' at |cFFFFFD00The Late Night Lab|r'
-L['arcanostabilized_provisions_note'] = 'Purchase from {npc:198831} ' .. ns.color.NPC('<Head Chef>') .. ' at the |cFF00CCFFTemporal Conflux|r in the |cFF00CCFFPrimalist Future|r'
-L['steamed_scarab_steak_note'] = 'Purchase from {npc:197586} ' .. ns.color.NPC('<Spa Bartender>') .. ' at |cFFFFFD00Serene Dreams Spa|r'
-L['craft_creche_crowler_note'] = 'Purchase from {npc:187444} ' .. ns.color.NPC('<Traveling Dragonbrew Vendor>') .. ' at the |cFFFFFD00Temporal Conflux|r'
-L['bivigosas_blood_sausages_note'] = 'Purchase from {npc:188895} ' .. ns.color.NPC('<Food & Drink>') .. ' at |cFFFFFD00Gelikyr Post|r'
+L['icecrown_bleu_note'] = 'Purchase from {npc:196729} ' .. ns.color.NPC('<Cheesemonger>') .. ' in |cFF00CCFFThe Artisan\'s Market|r.'
+L['dreamwarding_dripbrew_note'] = 'Purchase from {npc:197872} ' .. ns.color.NPC('<Caffeinomancer>') .. ' at |cFFFFFD00The Late Night Lab|r.'
+L['arcanostabilized_provisions_note'] = 'Purchase from {npc:198831} ' .. ns.color.NPC('<Head Chef>') .. ' at the |cFF00CCFFTemporal Conflux|r in the |cFF00CCFFPrimalist Future|r.'
+L['steamed_scarab_steak_note'] = 'Purchase from {npc:197586} ' .. ns.color.NPC('<Spa Bartender>') .. ' at |cFFFFFD00Serene Dreams Spa|r.'
+L['craft_creche_crowler_note'] = 'Purchase from {npc:187444} ' .. ns.color.NPC('<Traveling Dragonbrew Vendor>') .. ' at the |cFFFFFD00Temporal Conflux|r.'
+L['bivigosas_blood_sausages_note'] = 'Purchase from {npc:188895} ' .. ns.color.NPC('<Food & Drink>') .. ' at |cFFFFFD00Gelikyr Post|r.'
 L['options_icons_specialties'] = '{achievement:16621}'
-L['options_icons_specialties_desc'] = 'Display food and drink locations for {achievement:16621}'
+L['options_icons_specialties_desc'] = 'Display food and drink locations for {achievement:16621} achievement.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
