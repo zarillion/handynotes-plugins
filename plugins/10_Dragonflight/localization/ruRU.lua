@@ -66,11 +66,11 @@ L['breezebiter_note'] = 'Летает на небе, чтобы приземли
 L['forgotten_jewel_box_note'] = '{item:199065} можно найти в сумках разведчика экспедиции и потревоженной почве.'
 L['gnoll_fiend_flail_note'] = '{item:199066} можно найти в сумках разведчика экспедиции и потревоженной почве.'
 L['pepper_hammer_note'] = 'Возьмите |cFFFFFD00Древесный сок|r и используйте его на |cFFFFFD00палочке|r чтобы приманить {npc:195373}.\n\n|cFFFF0000(БАГ: Чтобы нажать на палку, может потребоваться перезагрузка)|r'
-L['snow_covered_scroll'] = nil
+L['snow_covered_scroll'] = 'Занесенный снегом свиток'
 
-L['pt_alch_experimental_decay_sample_note'] = nil
-L['pt_alch_firewater_powder_sample_note'] = nil
-L['pt_ench_enriched_earthen_shard_note'] = nil
+L['pt_alch_experimental_decay_sample_note'] = 'Внутри большого зеленого котла.'
+L['pt_alch_firewater_powder_sample_note'] = 'Снаружи бревенчатый дом рядом с вазой.'
+L['pt_ench_enriched_earthen_shard_note'] = 'На куче камней.'
 L['pt_ench_faintly_enchanted_remains_note'] = nil
 L['pt_ench_forgotten_arcane_tome_note'] = nil
 L['pt_jewel_crystalline_overgrowth_note'] = nil
