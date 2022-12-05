@@ -250,3 +250,8 @@ L['lets_get_quacking'] = 'Sólo puedes rescatar un {npc:187863} a la semana.'
 L['complaint_to_scalepiercer_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r que hay dentro de la choza (en el lado izquierdo de la parte de atrás).'
 L['grand_flames_journal_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r de fuera detrás de la choza.'
 L['wyrmeaters_recipe_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r que hay dentro de la choza (en el lado izquierdo).'
+
+L['options_icons_ducklings'] = nil
+L['options_icons_ducklings_desc'] = nil
+L['options_icons_chiseled_record'] = nil
+L['options_icons_chiseled_record_desc'] = nil

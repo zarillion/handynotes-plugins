@@ -982,6 +982,7 @@ local Quack = Class('Quack', Collectible, {
     label = '{npc:196744}',
     note = L['lets_get_quacking'],
     icon = 4048818,
+    group = ns.groups.DUCKLINGS,
     rewards = {Achievement({id = 16409, criteria = {id = 1, qty = true}})}
 })
 
@@ -1018,18 +1019,21 @@ map.nodes[82884258] = Quack({
 map.nodes[27836835] = Collectible({
     note = L['complaint_to_scalepiercer_note'],
     icon = 134455,
+    group = ns.groups.CHISELED_RECORD,
     rewards = {Achievement({id = 16412, criteria = 55264})}
 }) -- Complaint to Scalepiercer
 
 map.nodes[28827244] = Collectible({
     note = L['wyrmeaters_recipe_note'],
     icon = 134455,
+    group = ns.groups.CHISELED_RECORD,
     rewards = {Achievement({id = 16412, criteria = 55266})}
 }) -- Wyrmeater's Recipe
 
 map.nodes[24056927] = Collectible({
     note = L['grand_flames_journal_note'],
     icon = 134455,
+    group = ns.groups.CHISELED_RECORD,
     rewards = {Achievement({id = 16412, criteria = 55265})}
 }) -- The Grand Flame's Journal
 

@@ -249,3 +249,8 @@ L['lets_get_quacking'] = '每周只能解救一名 {npc:187863}。'
 L['complaint_to_scalepiercer_note'] = '点击小屋内的|cFFFFFD00石板|r（在后面的左侧）。'
 L['grand_flames_journal_note'] = '点击小屋后面的 |cFFFFFD00石板|r。'
 L['wyrmeaters_recipe_note'] = '点击小屋内的 |cFFFFFD00石板|r（在左侧）。'
+
+L['options_icons_ducklings'] = nil
+L['options_icons_ducklings_desc'] = nil
+L['options_icons_chiseled_record'] = nil
+L['options_icons_chiseled_record_desc'] = nil

@@ -243,3 +243,8 @@ L['lets_get_quacking'] = 'Du kannst jede Woche nur ein {npc:187863} retten.'
 L['complaint_to_scalepiercer_note'] = 'Klicke die |cFFFFFD00Steintafel|r im Inneren der Hütte an (auf der linken Seite hinten).'
 L['grand_flames_journal_note'] = 'Klicke die |cFFFFFD00Steintafel|r draußen hinter der Hütte an.'
 L['wyrmeaters_recipe_note'] = 'Klicke die |cFFFFFD00Steintafel|r im Inneren der Hütte an (auf der linken Seite).'
+
+L['options_icons_ducklings'] = nil
+L['options_icons_ducklings_desc'] = nil
+L['options_icons_chiseled_record'] = nil
+L['options_icons_chiseled_record_desc'] = nil

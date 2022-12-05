@@ -249,3 +249,8 @@ L['lets_get_quacking'] = 'You can only rescue a single {npc:187863} per week.'
 L['complaint_to_scalepiercer_note'] = 'Click on the |cFFFFFD00Stone Tablet|r inside the hut (on the left side at the back).'
 L['grand_flames_journal_note'] = 'Click on the |cFFFFFD00Stone Tablet|r outside behind the hut.'
 L['wyrmeaters_recipe_note'] = 'Click on the |cFFFFFD00Stone Tablet|r inside the hut (on the left side).'
+
+L['options_icons_ducklings'] = '{achievement:16409}'
+L['options_icons_ducklings_desc'] = 'Display duckling locations for the {achievement:16409} achievement.'
+L['options_icons_chiseled_record'] = '{achievement:16412}'
+L['options_icons_chiseled_record_desc'] = 'Display tablet locations for the {achievement:16412} achievement.'

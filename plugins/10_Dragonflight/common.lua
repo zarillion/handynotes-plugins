@@ -26,12 +26,15 @@ ns.expansion = 10
 
 ns.groups.ANCESTOR = Group('ancestor', 135946, {defaults = ns.GROUP_HIDDEN})
 ns.groups.BAKAR = Group('bakar', 930453, {defaults = ns.GROUP_HIDDEN})
+ns.groups.CHISELED_RECORD = Group('chiseled_record', 134455,
+    {defaults = ns.GROUP_HIDDEN})
 ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.DRAGONRACE =
     Group('dragonrace', 1100022, {defaults = ns.GROUP_HIDDEN})
 ns.groups.DRAGON_GLYPH = Group('dragon_glyph', 4728198)
 ns.groups.DREAMGUARD = Group('dreamguard', 341763, {defaults = ns.GROUP_HIDDEN})
+ns.groups.DUCKLINGS = Group('ducklings', 4048818, {defaults = ns.GROUP_HIDDEN})
 ns.groups.FLAG = Group('flag', 1723999, {defaults = ns.GROUP_HIDDEN})
 ns.groups.HEMET_NESINGWARY_JR = Group('hemet_nesingwary_jr', 236444,
     {defaults = ns.GROUP_HIDDEN})

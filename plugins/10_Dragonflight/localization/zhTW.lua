@@ -235,3 +235,8 @@ L['lets_get_quacking'] = nil
 L['complaint_to_scalepiercer_note'] = nil
 L['grand_flames_journal_note'] = nil
 L['wyrmeaters_recipe_note'] = nil
+
+L['options_icons_ducklings'] = nil
+L['options_icons_ducklings_desc'] = nil
+L['options_icons_chiseled_record'] = nil
+L['options_icons_chiseled_record_desc'] = nil

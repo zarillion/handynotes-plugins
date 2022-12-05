@@ -250,3 +250,8 @@ L['lets_get_quacking'] = 'Vous ne pouvez sauver qu\'un seul {npc:187863} par sem
 L['complaint_to_scalepiercer_note'] = 'Cliquez sur la |cFFFFFD00Tablette en pierre|r à l\'intérieur de la hutte (sur le côté gauche au fond).'
 L['grand_flames_journal_note'] = 'Cliquez sur la |cFFFFFD00Tablette en pierre|r à l\'extérieur, derrière la hutte.'
 L['wyrmeaters_recipe_note'] = 'Cliquez sur la |cFFFFFD00Tablette en pierre|r à l\'intérieur de la hutte (sur le côté gauche).'
+
+L['options_icons_ducklings'] = nil
+L['options_icons_ducklings_desc'] = nil
+L['options_icons_chiseled_record'] = nil
+L['options_icons_chiseled_record_desc'] = nil
