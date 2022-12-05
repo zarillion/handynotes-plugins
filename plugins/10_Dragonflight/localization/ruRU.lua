@@ -203,7 +203,13 @@ L['torn_riding_pack_note'] = nil
 L['yennus_kite_note'] = nil
 
 L['fullsails_supply_chest'] = 'Сундук с припасами Коры'
-L['hidden_hornswog_hoard_note'] = 'Соберите {item:200064}, {item:200065} и {item:200066}, объедините их рядом с |cFFFFFD00"Загадки для внимательных: практический справочник"|r и киньте полученный предмет в лягушку.'
+L['hidden_hornswog_hoard_note'] = [[
+Соберите три разных предмета и объедините их у |cFFFFFD00"Загадки для внимательных: практический справочник"|r рядом с {npc:192362}, чтобы получить {item:200063} и накормить его. Затем он уйдет с дороги, чтобы вы могли забрать его сокровище.
+
+{item:200064}
+{item:200065}
+{item:200066}
+]]
 
 L['pt_alch_frostforged_potion_note'] = nil
 L['pt_alch_well_insulated_mug_note'] = nil
