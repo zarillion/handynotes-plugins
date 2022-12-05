@@ -188,7 +188,7 @@ map.nodes[64992995] = Rare({
 
 map.nodes[14083747] = Rare({
     id = 197354,
-    quest = nil,
+    quest = 73996,
     fgroup = 'brackenhide',
     note = L['brackenhide_rare_note'],
     rewards = {
@@ -217,7 +217,7 @@ map.nodes[19234362] = Rare({ -- required 67030
 
 map.nodes[16213364] = Rare({
     id = 197356,
-    quest = nil,
+    quest = 74004,
     fgroup = 'brackenhide',
     note = L['brackenhide_rare_note'],
     rewards = {
@@ -238,7 +238,7 @@ map.nodes[36243573] = Rare({
 
 map.nodes[40514797] = Rare({
     id = 198004,
-    quest = nil,
+    quest = 73884,
     rewards = {
         Achievement({id = 16678, criteria = 56100}),
         Item({item = 197150, quest = 69351}) -- Highland Drake: Spiked Club Tail

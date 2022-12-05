@@ -34,14 +34,11 @@ local map = Map({id = 2023, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[] = Rare({
---     id = 195186,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56092}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Cinta the Forgotten
+map.nodes[31607660] = Rare({
+    id = 195186,
+    quest = nil,
+    rewards = {Achievement({id = 16677, criteria = 56092})}
+}) -- Cinta the Forgotten
 
 map.nodes[30546628] = Rare({
     id = 189652,
@@ -104,14 +101,12 @@ map.nodes[85221544] = Rare({ -- review
     }
 }) -- Hamett
 
--- map.nodes[] = Rare({
---     id = 188095,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56083}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Hunter of Deep
+map.nodes[80544222] = Rare({
+    id = 188095,
+    quest = nil,
+    note = L['hunter_of_the_deep_note'],
+    rewards = {Achievement({id = 16677, criteria = 56083})}
+}) -- Hunter of the Deep
 
 map.nodes[80413867] = Rare({ -- review
     id = 188124,
@@ -152,14 +147,11 @@ map.nodes[63017996] = Rare({ -- reqiured 67030
     }
 }) -- Mikrin of the Raging Winds
 
--- map.nodes[] = Rare({
---     id = 187219,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56081}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Nokhud Warmaster
+map.nodes[58604940] = Rare({
+    id = 187219,
+    quest = nil,
+    rewards = {Achievement({id = 16677, criteria = 56081})}
+}) -- Nokhud Warmaster
 
 -- map.nodes[] = Rare({
 --     id = 196350,
@@ -194,23 +186,17 @@ map.nodes[61212950] = Rare({ -- reqiured 67030
 --     }
 -- }) -- Quackers the Terrible
 
--- map.nodes[] = Rare({ -- reqiured 67030
---     id = 196010,
---     quest = 70698,
---     rewards = {
---         Achievement({id = 16677, criteria = 56069}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Researcher Sneakwing
+map.nodes[37005380] = Rare({ -- reqiured 67030
+    id = 196010,
+    quest = nil, -- 70698
+    rewards = {Achievement({id = 16677, criteria = 56069})}
+}) -- Researcher Sneakwing
 
--- map.nodes[] = Rare({ -- reqiured 67030
---     id = 193227,
---     quest = 69878,
---     rewards = {
---         Achievement({id = 16677, criteria = 56071}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Ronsak the Decimator
+map.nodes[43405560] = Rare({ -- reqiured 67030
+    id = 193227,
+    quest = nil, -- 69878
+    rewards = {Achievement({id = 16677, criteria = 56071})}
+}) -- Ronsak the Decimator
 
 map.nodes[42804428] = Rare({ -- review
     id = 195223,
@@ -221,14 +207,12 @@ map.nodes[42804428] = Rare({ -- review
     }
 }) -- Rustlily
 
--- map.nodes[] = Rare({
---     id = 193215,
---     quest = 69865,
---     rewards = {
---         Achievement({id = 16677, criteria = 56079}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Scaleseeker Mezeri
+map.nodes[16605120] = Rare({
+    id = 193215,
+    quest = nil, -- 69865
+    note = L['scaleseeker_mezeri_note'],
+    rewards = {Achievement({id = 16677, criteria = 56079})}
+}) -- Scaleseeker Mezeri
 
 map.nodes[50117517] = Rare({
     id = 193136,
@@ -238,10 +222,10 @@ map.nodes[50117517] = Rare({
 
 map.nodes[61801283] = Rare({
     id = 193188,
-    quest = nil,
+    quest = 73894,
     rewards = {
-        Achievement({id = 16677, criteria = 56065})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16677, criteria = 56065}),
+        Transmog({item = 200875, slot = L['plate']}) -- Seeker's Bands
     }
 }) -- Seeker Teryx
 
@@ -255,14 +239,14 @@ map.nodes[29964103] = Rare({
     }
 }) -- Shade of Grief
 
--- map.nodes[] = Rare({
---     id = 193165,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56062}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Sparkspitter Vrak
+map.nodes[21603960] = Rare({
+    id = 193165,
+    quest = 73896,
+    rewards = {
+        Achievement({id = 16677, criteria = 56062}),
+        Transmog({item = 200234, slot = L['shield']}) -- Vrak's Embossed Aegis
+    }
+}) -- Sparkspitter Vrak
 
 map.nodes[53627281] = Rare({ -- reqiured 67030 review
     id = 193123,
@@ -288,27 +272,22 @@ map.nodes[78298276] = Rare({
 --     }
 -- }) -- The Great Enla
 
--- map.nodes[] = Rare({
---     id = 195204,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56088}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- The Jolly Giant
+map.nodes[27605560] = Rare({
+    id = 195204,
+    quest = nil,
+    rewards = {Achievement({id = 16677, criteria = 56088})}
+}) -- The Jolly Giant
 
--- map.nodes[] = Rare({
---     id = 192453,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56090}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Vaniik the Stormtouched
+map.nodes[83786215] = Rare({
+    id = 192453,
+    quest = nil,
+    rewards = {Achievement({id = 16677, criteria = 56090})}
+}) -- Vaniik the Stormtouched
 
 map.nodes[84214784] = Rare({
     id = 192364,
-    quest = nil,
+    quest = 73979,
+    note = L['windscale_the_stormborn_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56089})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -324,14 +303,12 @@ map.nodes[58596822] = Rare({ -- review
     }
 }) -- Windseeker Avash
 
--- map.nodes[] = Rare({
---     id = 193140,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56078}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Zarizz
+map.nodes[30206260] = Rare({
+    id = 193140,
+    quest = 72364, -- 74091
+    note = L['zarizz_note'],
+    rewards = {Achievement({id = 16677, criteria = 56078})}
+}) -- Zarizz
 
 map.nodes[31456387] = Rare({
     id = 193209,

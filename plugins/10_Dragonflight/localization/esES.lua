@@ -116,7 +116,11 @@ L['mysterious_wand_note'] = 'Coge la |cFFFFFD00Llave de Cristal|r y ponla dentro
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['hunter_of_the_deep_note'] = nil
+L['scaleseeker_mezeri_note'] = nil
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
+L['windscale_the_stormborn_note'] = nil
+L['zarizz_note'] = nil
 
 L['gold_swong_coin_note'] = 'Dentro de la cueva con {npc:191608} a su lado derecho.'
 L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
@@ -167,6 +171,7 @@ L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños pa
 -------------------------------------------------------------------------------
 
 L['blightpaw_note'] = 'Habla con el {npc:193222} y acepta ayudarle.'
+L['weeping_vilomah_note'] = nil
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
 
 L['acorn_harvester_note'] = 'Recoge una |cFFFFFD00Bellota|r del suelo cercano para conseguir {spell:388485} y entonces interactúa con {npc:196172}.\n\n|cFFFF0000(BUG: Para poder hacer click en el {npc:196172} puede ser necesario un reload)|r.'

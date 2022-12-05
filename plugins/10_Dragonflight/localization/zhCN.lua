@@ -115,7 +115,11 @@ L['mysterious_wand_note'] = '拾取 |cFFFFFD00水晶钥匙|r 并将其放入 |cF
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['hunter_of_the_deep_note'] = nil
+L['scaleseeker_mezeri_note'] = nil
 L['shade_of_grief_note'] = '点击 {npc:193166} 刷新稀有。'
+L['windscale_the_stormborn_note'] = nil
+L['zarizz_note'] = nil
 
 L['gold_swong_coin_note'] = '在洞穴内，{npc:191608} 在他的右侧。'
 L['nokhud_warspear_note'] = '{item:194540} 可以在探险队斥候的背包找到。'
@@ -166,6 +170,7 @@ L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境
 -------------------------------------------------------------------------------
 
 L['blightpaw_note'] = '与附近的 {npc:193222} 交谈并同意帮助他。'
+L['weeping_vilomah_note'] = nil
 L['woofang_note'] = '抚摸 {npc:193156} 稀有出现。'
 
 L['acorn_harvester_note'] = '从附近地面收集1个 |cFFFFFD00橡果|r 获得 {spell:388485} 并与 {npc:196172} 互动。\n\n|cFFFF0000（错误：点击 {npc:196172} 可能需要重新加载）|r。'

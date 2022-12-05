@@ -186,13 +186,16 @@ map.nodes[38466826] = Rare({
     rewards = {Achievement({id = 16679, criteria = 56155})}
 }) -- The Great Shellkhan
 
--- map.nodes[] = Rare({
---     id = 183984,
---     quest = 65365,
---     rewards = {
---         Achievement({id = 16679, criteria = 56153}),
---     }
--- }) -- The Weeping Vilomah
+map.nodes[46267317] = Rare({
+    id = 183984,
+    quest = 74086,
+    note = L['in_cave'] .. ' ' .. L['weeping_vilomah_note'],
+    rewards = {
+        Achievement({id = 16679, criteria = 56153}),
+        Transmog({item = 200214, slot = L['mail']}) -- Grasp of the Weeping Widow
+    },
+    pois = {POI({47547180})} -- Cave entrance
+}) -- The Weeping Vilomah
 
 map.nodes[35027001] = Rare({ -- reqiured 67030 review
     id = 193146,

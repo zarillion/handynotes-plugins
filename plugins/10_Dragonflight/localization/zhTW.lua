@@ -107,7 +107,11 @@ L['mysterious_wand_note'] = '撿起 |cFFFFFD00水晶鑰匙|r 並把它放進 |cF
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['hunter_of_the_deep_note'] = nil
+L['scaleseeker_mezeri_note'] = nil
 L['shade_of_grief_note'] = '點選 {npc:193166} 來召喚稀有.'
+L['windscale_the_stormborn_note'] = nil
+L['zarizz_note'] = nil
 
 L['gold_swong_coin_note'] = '和 {npc:191608} 一起在山洞內, 且在她的右側'
 L['nokhud_warspear_note'] = '{item:194540} 可以在遠征隊斥侯包和挖過的土中找到.'
@@ -158,6 +162,7 @@ L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的
 -------------------------------------------------------------------------------
 
 L['blightpaw_note'] = '和附近的 {npc:193222} 交談並同意幫助他.'
+L['weeping_vilomah_note'] = nil
 L['woofang_note'] = '撫摸 {npc:193156} 來召喚稀有.'
 
 L['acorn_harvester_note'] = '在附近的地上收集一個橡實來取得 {spell:388485} 之後再和 {npc:196172} 互動.'

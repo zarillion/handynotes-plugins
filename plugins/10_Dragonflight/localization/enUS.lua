@@ -88,7 +88,7 @@ L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = 'Display the location of all ley line for the achievement {achievement:16638}.'
 
 L['seeing_blue_note'] = 'Fly from the top of the Azure Archives to the Cobalt Assembly without landing.'
-L['snowman_note'] = 'There are three {npc:197599s} laying in the area (might have been moved by other players), roll them to the two kids {npc:197838} and {npc:197839}.\nYou get the Achievement when the snowballs have the right sizes.'
+L['snowman_note'] = 'There are three {npc:197599s} laying in the area (might have been moved by other players), roll them to the two kids {npc:197838} and {npc:197839}.\nYou get the achievement when the snowballs have the right sizes.'
 L['temperamental_skyclaw_note'] = [[
 Collect (or buy in the auction house):
 
@@ -115,7 +115,11 @@ L['mysterious_wand_note'] = 'Pick up the |cFFFFFD00Crystal Key|r and place it in
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['hunter_of_the_deep_note'] = 'Click on the weapon rack and shoot fish until the rare spawns.'
+L['scaleseeker_mezeri_note'] = 'Offer {npc:193224} a {item:194681} and she will reveal the rare.'
 L['shade_of_grief_note'] = 'Click the {npc:193166} to spawn the rare.'
+L['windscale_the_stormborn_note'] = 'Kill the {npc:192367s} channeling into the {npc:192357}.'
+L['zarizz_note'] = 'Click and ' .. ns.color.Orange('/hiss') .. ' at the four {npc:193169s} to summon the rare.'
 
 L['gold_swong_coin_note'] = 'Inside the cave with {npc:191608} to his right side.'
 L['nokhud_warspear_note'] = '{item:194540} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
@@ -166,6 +170,7 @@ L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {
 -------------------------------------------------------------------------------
 
 L['blightpaw_note'] = 'Talk to {npc:193222} nearby and agree to help him.'
+L['weeping_vilomah_note'] = 'Talk to {npc:193206} to summon the rare.'
 L['woofang_note'] = 'Pet {npc:193156} to spawn the rare.'
 
 L['acorn_harvester_note'] = 'Collect an |cFFFFFD00Acorn|r from the ground nearby to get {spell:388485} and then interact with {npc:196172}.\n\n|cFFFF0000(BUG: To click on {npc:196172} a reload might be necessary)|r.'
