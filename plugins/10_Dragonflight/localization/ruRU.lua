@@ -116,10 +116,10 @@ L['mysterious_wand_note'] = 'Поднимите |cFFFFFD00Кристальный
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
-L['hunter_of_the_deep_note'] = nil
-L['scaleseeker_mezeri_note'] = nil
+L['hunter_of_the_deep_note'] = 'Нажмите на стойку с оружием и стреляйте в рыбу, пока не появится редкий монстр.'
+L['scaleseeker_mezeri_note'] = 'Предложите {npc:193224} {item:194681}, и она призовет редкого монстра.'
 L['shade_of_grief_note'] = 'Нажмите на {npc:193166}, чтобы вызвать редкого монстра.'
-L['windscale_the_stormborn_note'] = nil
+L['windscale_the_stormborn_note'] = 'Убейте {npc:192367}, которые находятся возле {npc:192357}.'
 L['zarizz_note'] = nil
 
 L['gold_swong_coin_note'] = 'Внутри пещеры с {npc:191608} справа от него.'
@@ -130,8 +130,8 @@ L['yennus_boat_note'] = 'Возьмите |cFFFFFD00игрушечную лод�
 
 L['pt_alch_canteen_of_suspicious_water_note'] = nil
 L['pt_ench_stormbound_horn_note'] = nil
-L['pt_jewel_fragmented_key_note'] = nil
-L['pt_jewel_lofty_malygite_note'] = nil
+L['pt_jewel_fragmented_key_note'] = 'Под корнями дерева в разрушенном здании.'
+L['pt_jewel_lofty_malygite_note'] = 'Парит в воздухе в пещере.'
 L['pt_leath_wind_blessed_hide_note'] = nil
 L['pt_script_sign_language_reference_sheet_note'] = nil
 L['pt_smith_ancient_spear_shards_note'] = nil
@@ -245,18 +245,18 @@ L['pt_tailor_itinerant_singed_fabric_note'] = nil
 L['pt_tailor_mysterious_banner_note'] = nil
 L['pt_smith_grekka_anvilsmash'] = nil
 
-L['quack_week_1'] = nil
-L['quack_week_2'] = nil
-L['quack_week_3'] = nil
-L['quack_week_4'] = nil
-L['quack_week_5'] = nil
-L['lets_get_quacking'] = nil
+L['quack_week_1'] = 'Неделя 1'
+L['quack_week_2'] = 'Неделя 2'
+L['quack_week_3'] = 'Неделя 3'
+L['quack_week_4'] = 'Неделя 4'
+L['quack_week_5'] = 'Неделя 5'
+L['lets_get_quacking'] = 'Вы можете спасти только одного {npc:187863} в неделю.'
 
 L['complaint_to_scalepiercer_note'] = nil
 L['grand_flames_journal_note'] = nil
 L['wyrmeaters_recipe_note'] = nil
 
-L['options_icons_ducklings'] = nil
-L['options_icons_ducklings_desc'] = nil
-L['options_icons_chiseled_record'] = nil
-L['options_icons_chiseled_record_desc'] = nil
+L['options_icons_ducklings'] = '{achievement:16409}'
+L['options_icons_ducklings_desc'] = 'Показать местонахождение утят для достижения {achievement:16409}.'
+L['options_icons_chiseled_record'] = '{achievement:16412}'
+L['options_icons_chiseled_record_desc'] = 'Показать расположение планшетов для достижения {achievement:16412}.'
