@@ -212,15 +212,15 @@ L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Haz click en el |cFFFFFD00Telar 
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pequeña dentro de una pila de arena.'
 L['pt_mining_bridgette_holdug'] = 'Encima de un pilar de roca cubierto de hierba.'
 
-L['picante_pomfruit_cake_note'] = nil
-L['icecrown_bleu_note'] = nil
-L['dreamwarding_dripbrew_note'] = nil
-L['arcanostabilized_provisions_note'] = nil
-L['steamed_scarab_steak_note'] = nil
-L['craft_creche_crowler_note'] = nil
-L['bivigosas_blood_sausages_note'] = nil
-L['options_icons_specialties'] = nil
-L['options_icons_specialties_desc'] = nil
+L['picante_pomfruit_cake_note'] = '{item:200904} no está disponible todos los días. Tendrás que comprobarlo cada día en el |cFF00CCFFEnclave Rubí|r. Mientras estás allí, asegúrate de probar los 3 platos disponibles para completar también el logro {achievement:16556}.'
+L['icecrown_bleu_note'] = 'Cómpraselo a {npc:196729} ' .. ns.color.NPC('<Vendedor de quesos>') .. ' en el |cFF00CCFFMercado de los Artesanos|r.'
+L['dreamwarding_dripbrew_note'] = 'Cómpraselo a {npc:197872} ' .. ns.color.NPC('<Cafeinamante>') .. ' en el |cFFFFFD00Laboratorio Nocturno|r.'
+L['arcanostabilized_provisions_note'] = 'Cómpraselo a {npc:198831} ' .. ns.color.NPC('<Chef jefa>') .. ' en la |cFF00CCFFConfluencia Temporal|r en |cFF00CCFFEl Futuro Primalista|r.'
+L['steamed_scarab_steak_note'] = 'Cómpraselo a {npc:197586} ' .. ns.color.NPC('<Camarera de la sauna>') .. ' en la |cFFFFFD00Sauna de Sueños Serenos|r.'
+L['craft_creche_crowler_note'] = 'Cómpraselo a {npc:187444} ' .. ns.color.NPC('<Vendedora ambulante de bebidas dracónicas>') .. ' en el |cFFFFFD00Temporal Conflux|r.'
+L['bivigosas_blood_sausages_note'] = 'Cómpraselo a {npc:188895} ' .. ns.color.NPC('<Alimentos y bebidas>') .. ' en el |cFFFFFD00Puesto Gelikyr|r.'
+L['options_icons_specialties'] = '{achievement:16621}'
+L['options_icons_specialties_desc'] = 'Muestra dónde están las comidas y bebidas para el logro {achievement:16621}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
