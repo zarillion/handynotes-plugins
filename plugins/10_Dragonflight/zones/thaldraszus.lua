@@ -27,7 +27,8 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2025, settings = true})
-local val = Map({id = 2112, settings = false})
+local val = Map({id = 2112, settings = false}) -- Valdrakken
+local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
 
 -------------------------------------------------------------------------------
 
@@ -615,6 +616,7 @@ local HemetNesingwaryJr = Class('HemetNesingwaryJr', Collectible, {
 map.nodes[34676541] = HemetNesingwaryJr({
     rewards = {Achievement({id = 16542, criteria = 55701})}
 }) -- Southern Thaldraszus Hunt
+
 map.nodes[50674562] = HemetNesingwaryJr({
     rewards = {Achievement({id = 16542, criteria = 55702})}
 }) -- Northern Thaldraszus Hunt
@@ -628,6 +630,7 @@ val.nodes[60921096] = Collectible({
     icon = 237358,
     note = L['picante_pomfruit_cake_note'],
     group = ns.groups.SPECIALTIES,
+    parent = map.id,
     rewards = {Achievement({id = 16621, criteria = 55733})}
 }) -- Picante Pompfruit Cake
 
@@ -636,6 +639,7 @@ val.nodes[29046503] = Collectible({
     icon = 133994,
     note = L['icecrown_bleu_note'],
     group = ns.groups.SPECIALTIES,
+    parent = map.id,
     rewards = {Achievement({id = 16621, criteria = 55931})}
 }) -- Icecrown Bleu
 
@@ -647,17 +651,14 @@ map.nodes[50054267] = Collectible({
     rewards = {Achievement({id = 16621, criteria = 55933})}
 }) -- Dreamwarding Dripbrew
 
-local ArcanostabilizedProvisions = Collectible({
+tpf.nodes[61555322] = Collectible({
     label = '{item:201047}',
     icon = 134043,
     note = L['arcanostabilized_provisions_note'],
     group = ns.groups.SPECIALTIES,
+    parent = map.id,
     rewards = {Achievement({id = 16621, criteria = 55934})}
 }) -- Arcanostabilized Provisions
-
-local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
-tpf.nodes[61555322] = ArcanostabilizedProvisions
-map.nodes[59828223] = ArcanostabilizedProvisions
 
 map.nodes[38944629] = Collectible({
     label = '{item:200871}',
