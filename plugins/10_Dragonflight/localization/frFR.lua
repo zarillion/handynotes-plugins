@@ -63,8 +63,8 @@ L['trilvarus_loreweaver_note'] = 'Récupérez un |cFFFFFD00Fragment chantant|r p
 
 L['breezebiter_note'] = 'Vole dans le ciel, pour le faire descendre, volez près de lui.'
 
-L['forgotten_jewel_box_note'] = 'Récupérez la {item:199065} dans un Coffre clanique au |cFFFFFD00Refuge d\'Ondecrête|r (49.4 67.3) dans les |cFFFFFD00Plaines d\'Ohn\'ahra|r et utilisez-la.'
-L['gnoll_fiend_flail_note'] = '{item:199066} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
+L['forgotten_jewel_box_note'] = 'La {item:199065} peut être trouvée dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
+L['gnoll_fiend_flail_note'] = 'La {item:199066} peut être trouvée dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 L['pepper_hammer_note'] = 'Récupérez la |cFFFFFD00Sève|r et utilisez le |cFFFFFD00Bâton|r pour attirer le {npc:195373}.\n\n|cFFFF0000(BUG : Pour cliquer sur le bâton, un rechargement peut être nécessaire)|r'
 L['snow_covered_scroll'] = 'Parchemin couvert de neige'
 
