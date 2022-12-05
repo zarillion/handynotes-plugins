@@ -12,8 +12,8 @@ L['gem_cluster_note'] = 'Эти предметы станут доступны �
 L['options_icons_bonus_boss'] = 'Бонусные элитные монстры'
 L['options_icons_bonus_boss_desc'] = 'Отображение местоположения бонусных элитных монстров.'
 
-L['options_icons_profession_treasures'] = nil
-L['options_icons_profession_treasures_desc'] = nil
+L['options_icons_profession_treasures'] = 'Сокровища Профессии'
+L['options_icons_profession_treasures_desc'] = 'Отображение местонахождения сокровищ, дающих знания для профессий.'
 
 L['dragon_glyph'] = 'Драконий символ'
 L['options_icons_dragon_glyph'] = 'Драконий символ'
@@ -35,22 +35,22 @@ L['scout_pack'] = 'Сумка разведчика экспедиции'
 L['options_icons_scout_pack'] = 'Сумка разведчика экспедиции'
 L['options_icons_scout_pack_desc'] = 'Отображение местоположения Сумок разведчиков экспедиции.'
 
-L['dr_best'] = nil
-L['dr_best_dash'] = nil
-L['dr_note'] = nil
-L['dr_note_dash'] = nil
-L['dr_bronze'] = nil
-L['options_icons_dragonrace'] = nil
-L['options_icons_dragonrace_desc'] = nil
+L['dr_best'] = 'Ваше лучшее время:\n - Обычный: %.3fs\n - Сложный: %.3fs'
+L['dr_best_dash'] = 'Ваше лучшее время:\n - %.3fs'
+L['dr_note'] = 'Отведенное время:\n - Обычный: %ss / %ss\n - Сложный: %ss / %ss'
+L['dr_note_dash'] = 'Отведенное время:\n - %ss / %ss'
+L['dr_bronze'] = '\n\nЗавершите гонку, чтобы получить ' .. ns.color.Bronze('Бронзу') .. '.'
+L['options_icons_dragonrace'] = 'Гонка на драконах'
+L['options_icons_dragonrace_desc'] = 'Отображение местоположения гонок на драконах.'
 
 L['squirrels_note'] = 'Вы должны использовать эмоцию /любовь на зверьках, а не на боевых питомцах.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:16729}'
 
-L['hnj_sublabel'] = nil
-L['hnj_western_azure_span_hunt'] = nil
+L['hnj_sublabel'] = 'Требуется местная Шикаарская Великая Охота'
+L['hnj_western_azure_span_hunt'] = 'На вершине мертвого дерева.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
-L['options_icons_hemet_nesingwary_jr_desc'] = nil
+L['options_icons_hemet_nesingwary_jr_desc'] = 'Показать местоположение {npc:194590} для достижения {achievement:16542}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
