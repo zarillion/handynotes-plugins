@@ -59,10 +59,10 @@ L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE 
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:16729} an.'
 
-L['hnj_sublabel'] = nil
-L['hnj_western_azure_span_hunt'] = nil
+L['hnj_sublabel'] = 'Benötigt einen Großen Jagdtrupp der Shikaarzen in der Nähe'
+L['hnj_western_azure_span_hunt'] = 'Auf dem toten Baum.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
-L['options_icons_hemet_nesingwary_jr_desc'] = nil
+L['options_icons_hemet_nesingwary_jr_desc'] = 'Zeigt die Positionen von {npc:194590} für den Erfolg {achievement:16542} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -128,11 +128,11 @@ L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und plat
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
-L['hunter_of_the_deep_note'] = nil
-L['scaleseeker_mezeri_note'] = nil
+L['hunter_of_the_deep_note'] = 'Klicke auf den Waffenständer und schieße auf die Fische, bis der seltene Gegner erscheint.'
+L['scaleseeker_mezeri_note'] = 'Biete {npc:193224} ein {item:194681} an, damit sie den seltenen Gegner enthüllt.'
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
-L['windscale_the_stormborn_note'] = nil
-L['zarizz_note'] = nil
+L['windscale_the_stormborn_note'] = 'Töte die {npc:192367}, die auf das {npc:192357} kanalisieren.'
+L['zarizz_note'] = 'Klicke und fauche ' .. ns.color.Orange('(/fauchen)') .. ' die vier {npc:193169n} an, um den seltenen Gegner erscheinen zu lassen.'
 
 L['gold_swong_coin_note'] = 'In der Höhle mit {npc:191608} zu seiner rechten Seite.'
 L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
@@ -183,7 +183,7 @@ L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinne
 -------------------------------------------------------------------------------
 
 L['blightpaw_note'] = 'Sprich mit {npc:193222} in der Nähe und stimme zu, ihm zu helfen.'
-L['weeping_vilomah_note'] = nil
+L['weeping_vilomah_note'] = 'Sprich mit {npc:193206}, um den seltenen Gegner erscheinen zu lassen.'
 L['woofang_note'] = 'Streichel {npc:193156}, um den seltenen Gegner erscheinen zu lassen.'
 
 L['acorn_harvester_note'] = 'Sammel in der Nähe eine |cFFFFFD00Eichel|r vom Boden auf, um {spell:388485} zu erhalten und interagiere dann mit {npc:196172}.\n\n|cFFFF0000(BUG: Um den {npc196172} anzuklicken könnte ein reload nötig sein)|r.'
@@ -262,7 +262,7 @@ L['complaint_to_scalepiercer_note'] = 'Klicke die |cFFFFFD00Steintafel|r im Inne
 L['grand_flames_journal_note'] = 'Klicke die |cFFFFFD00Steintafel|r draußen hinter der Hütte an.'
 L['wyrmeaters_recipe_note'] = 'Klicke die |cFFFFFD00Steintafel|r im Inneren der Hütte an (auf der linken Seite).'
 
-L['options_icons_ducklings'] = nil
-L['options_icons_ducklings_desc'] = nil
-L['options_icons_chiseled_record'] = nil
-L['options_icons_chiseled_record_desc'] = nil
+L['options_icons_ducklings'] = '{achievement:16409}'
+L['options_icons_ducklings_desc'] = 'Zeigt die Positionen der Entchen für den Erfolg {achievement:16409} an.'
+L['options_icons_chiseled_record'] = '{achievement:16412}'
+L['options_icons_chiseled_record_desc'] = 'Zeigt die Positionen der Steintafeln für den Erfolg {achievement:16412} an.'
