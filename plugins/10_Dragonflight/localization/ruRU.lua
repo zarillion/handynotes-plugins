@@ -171,7 +171,7 @@ L['options_icons_dreamguard_desc'] = 'Отображать места Изумр
 -------------------------------------------------------------------------------
 
 L['blightpaw_note'] = 'Поговорите с {npc:193222} поблизости и согласитесь помочь ему.'
-L['weeping_vilomah_note'] = nil
+L['weeping_vilomah_note'] = 'Поговорите с {npc:193206}, чтобы призвать редкого монстра.'
 L['woofang_note'] = 'Погладьте {npc:193156}, чтобы призвать редкого монстра.'
 
 L['acorn_harvester_note'] = 'Подберите |cFFFFFD00желудь|r с земли поблизости, чтобы получить {spell:388485}, а затем взаимодействуйте с {npc:196172}.\n\n|cFFFF0000(БАГ: чтобы нажать на {npc:196172}, может потребоваться перезагрузка.)|r.'
@@ -184,15 +184,15 @@ L['pt_alch_contraband_concoction_note'] = nil
 L['pt_alch_furry_gloop_note'] = nil
 L['pt_ench_fractured_titanic_sphere_note'] = nil
 L['pt_jewel_alexstraszite_cluster_note'] = nil
-L['pt_jewel_painters_pretty_jewel_note'] = nil
-L['pt_leath_decayed_scales_note'] = nil
+L['pt_jewel_painters_pretty_jewel_note'] = 'Внутри фонаря.'
+L['pt_leath_decayed_scales_note'] = 'Внутри корзины.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = nil
 L['pt_script_forgetful_apprentices_tome_note'] = nil
 L['pt_script_how_to_train_your_whelpling_note'] = nil
-L['pt_smith_draconic_flux_note'] = nil
+L['pt_smith_draconic_flux_note'] = 'Внутри здания.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = nil
-L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = nil
-L['pt_mining_bridgette_holdug'] = nil
+L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Маленький баннер внутри кучи песка.'
+L['pt_mining_bridgette_holdug'] = 'На вершине травянистого каменного столба.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
