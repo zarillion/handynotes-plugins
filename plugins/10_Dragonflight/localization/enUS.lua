@@ -116,7 +116,7 @@ L['mysterious_wand_note'] = 'Pick up the |cFFFFFD00Crystal Key|r and place it in
 -------------------------------------------------------------------------------
 
 L['hunter_of_the_deep_note'] = 'Click on the weapon rack and shoot fish until the rare spawns.'
-L['scaleseeker_mezeri_note'] = 'Offer {npc:193224} a {item:194681} and she will reveal the rare.'
+L['scaleseeker_mezeri_note'] = 'Offer {item:194681} to {npc:193224} and she will reveal the rare.'
 L['shade_of_grief_note'] = 'Click the {npc:193166} to spawn the rare.'
 L['windscale_the_stormborn_note'] = 'Kill the {npc:192367s} channeling into the {npc:192357}.'
 L['zarizz_note'] = 'Click and ' .. ns.color.Orange('/hiss') .. ' at the four {npc:193169s} to summon the rare.'
