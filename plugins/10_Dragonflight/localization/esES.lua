@@ -24,7 +24,7 @@ L['flags_placed'] = 'banderas puestas'
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = 'Muestra dónde están las 20 banderas para el logro {achievement:15890}.'
 
-L['broken_banding_note'] = 'En el tobillo del pie derecho de la estatua.'
+L['broken_banding_note'] = 'En el tobillo del pie derecho de la estatua del dragón.'
 L['chunk_of_sculpture_note'] = 'En el suelo, desde la estatua del dragón a la izquierda.'
 L['dislodged_dragoneye_note'] = 'En una roca debajo del pecho de la estatua del dragón.'
 L['finely_carved_wing_note'] = 'Debajo de la rodilla derecha de la estatua del dragón.'
