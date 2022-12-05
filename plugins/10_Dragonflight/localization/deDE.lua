@@ -64,7 +64,7 @@ L['hnj_western_azure_span_hunt'] = 'Auf dem toten Baum.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Zeigt die Positionen von {npc:194590} für den Erfolg {achievement:16542} an.'
 
-L['pretty_neat_selfie_note'] = ' Mache mit der S.E.L.F.I.E.-Kamera ein Foto.'
+L['pretty_neat_selfie_note'] = 'Mache mit der S.E.L.F.I.E.-Kamera ein Foto.'
 L['bugged_selfie'] = '|cFFFF0000(BUG: Es wird kein oder der falsche NPC erkannt.)|r'
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
 L['options_icons_pretty_neat_selfie_desc'] = 'Zeigt die Positionen der NPCs für den Erfolg {achievement:16446} an.'
