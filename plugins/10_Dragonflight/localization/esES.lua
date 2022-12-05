@@ -249,7 +249,7 @@ L['pt_jewel_igneous_gem_note'] = 'Haz click rápidamente en los 3 cristales de l
 L['pt_leath_poachers_pack_note'] = 'Junto a un Vulpera muerto junto al cauce del río.'
 L['pt_leath_spare_djaradin_tools_note'] = 'Junto a un dragón rojo muerto.'
 L['pt_script_pulsing_earth_rune_note'] = 'Detrás de una mesa que hay dentro del edificio derrumbado.'
-L['pt_smith_ancient_monument_note'] = 'Derrota a los 4 {npc:188648} rodeando una espada en un pedestal.'
+L['pt_smith_ancient_monument_note'] = 'Derrota a los 4 {npc:188648} rodeando una espada en un pedestal.\n\n|cFFFF0000(BUG: Actualmente, tras hacer click en la espada no tendrás el objeto en el inventario. En lugar de eso, se te enviará al buzón de correo tras algo de tiempo.)|r'
 L['pt_smith_curious_ingots_note'] = 'Pequeño lingote en el suelo en el |cFFFFFD00Castillo Quiebrascama|r.'
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = 'Fabrica una {item:189541} cerca de la |cFFFFFD00Forja a Medio Apagar|r. El objeto en la |cFFFFFD00Tina Floja|r se convertirá en despojable.'
 L['pt_smith_molten_ingot_note'] = 'Patea 3 lingotes dentro de la lava para hacer aparecer a un enemigo. Despoja el cofre una vez lo hayas derrotado.'
@@ -274,4 +274,4 @@ L['options_icons_ducklings_desc'] = 'Muestra dónde están los patitos para el l
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = 'Muestra dónde están las tablillas para el logro {achievement:16412}.'
 
-L['grand_theft_mammoth_note'] = nil
+L['grand_theft_mammoth_note'] = 'Monta el {npc:194625} hacia el {npc:198163}.\n\n|cFFFF0000(BUG: Si no puedes interactuar con el {npc:194625} haz /reload.)|r'
