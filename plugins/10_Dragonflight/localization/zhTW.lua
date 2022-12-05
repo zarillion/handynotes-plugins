@@ -23,6 +23,19 @@ L['flags_placed'] = '旗幟已插上'
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = '顯示 {achievement:15890} 成就中全部20個旗幟的位置.'
 
+L['broken_banding_note'] = nil
+L['chunk_of_sculpture_note'] = nil
+L['dislodged_dragoneye_note'] = nil
+L['finely_carved_wing_note'] = nil
+L['fragment_requirement_note'] = nil
+L['golden_claw_note'] = nil
+L['precious_stone_fragment_note'] = nil
+L['stone_dragontooth_note'] = nil
+L['tail_fragment_note'] = nil
+L['wrapped_gold_band_note'] = nil
+L['options_icons_fragment'] = '{achievement:16323}'
+L['options_icons_fragment_desc'] = nil
+
 L['options_icons_kite'] = '{achievement:16584}'
 L['options_icons_kite_desc'] = '顯示成就 {achievement:16584} 所需的 {npc:198118} 位置.'
 

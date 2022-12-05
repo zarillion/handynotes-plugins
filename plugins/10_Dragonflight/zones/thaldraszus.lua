@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
+local Fragment = ns.node.Fragment
 local PetBattle = ns.node.PetBattle
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
@@ -468,6 +469,26 @@ map.nodes[46107397] = Flag({quest = 70024})
 map.nodes[50168163] = Flag({quest = 70039})
 map.nodes[65727498] = Flag({quest = 71223})
 map.nodes[64635672] = Flag({quest = 71224})
+
+-------------------------------------------------------------------------------
+---------------------------- FRAGMENTS OF HISTORY -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[38904500] = Fragment({
+    sublabel = L['golden_claw_note'],
+    rewards = {
+        Achievement({id = 16323, criteria = 55031}),
+        Item({item = 198540, quest = 70204})
+    }
+}) -- Golden Claw
+
+map.nodes[57126460] = Fragment({
+    sublabel = L['precious_stone_fragment_note'],
+    rewards = {
+        Achievement({id = 16323, criteria = 55032}),
+        Item({item = 199893, quest = 70805})
+    }
+}) -- Precious Stone Fragment
 
 -------------------------------------------------------------------------------
 ------------------------------- DISTURBED DIRT --------------------------------

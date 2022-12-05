@@ -23,6 +23,19 @@ L['flags_placed'] = 'Flaggen platziert'
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = 'Zeigt die Positionen aller 20 Flaggen für den Erfolg {achievement:15890} an.'
 
+L['broken_banding_note'] = 'Am Knöchel des rechten Fußes der Statue.'
+L['chunk_of_sculpture_note'] = 'Auf dem Boden, von der Drachenstatue aus auf der linken Seite.'
+L['dislodged_dragoneye_note'] = 'Auf einem Felsen unter der Brust der Drachenstatue.'
+L['finely_carved_wing_note'] = 'Unter dem rechten Knie der Drachenstatue.'
+L['fragment_requirement_note'] = ns.color.Red('Bevor du die losen Teile einsammeln kannst, musst du {npc:193915} in der |cFFFFFD00Botschaft von Schwingenrast|r bei der Drachenstatue fragen, was sie hier macht.')
+L['golden_claw_note'] = 'An der hinteren linken Klaue der Drachenstatue.'
+L['precious_stone_fragment_note'] = 'Unter dem rechten Fuß der Statue.'
+L['stone_dragontooth_note'] = 'Auf dem Boden neben dem Sockel der Drachenstatue.'
+L['tail_fragment_note'] = 'Am Schwanz der Drachenstatue.'
+L['wrapped_gold_band_note'] = 'Unter der hinteren rechten Klaue der Drachenstatue.'
+L['options_icons_fragment'] = '{achievement:16323}'
+L['options_icons_fragment_desc'] = 'Zeigt die Positionen der losen Teile für den Erfolg {achievement:16323} an.'
+
 L['options_icons_kite'] = '{achievement:16584}'
 L['options_icons_kite_desc'] = 'Zeigt die Positionen der {npc:198118} für den Erfolg {achievement:16584} an.'
 

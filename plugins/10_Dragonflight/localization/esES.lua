@@ -24,6 +24,19 @@ L['flags_placed'] = 'banderas puestas'
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = 'Muestra dónde están las 20 banderas para el logro {achievement:15890}.'
 
+L['broken_banding_note'] = nil
+L['chunk_of_sculpture_note'] = nil
+L['dislodged_dragoneye_note'] = nil
+L['finely_carved_wing_note'] = nil
+L['fragment_requirement_note'] = nil
+L['golden_claw_note'] = nil
+L['precious_stone_fragment_note'] = nil
+L['stone_dragontooth_note'] = nil
+L['tail_fragment_note'] = nil
+L['wrapped_gold_band_note'] = nil
+L['options_icons_fragment'] = '{achievement:16323}'
+L['options_icons_fragment_desc'] = nil
+
 L['options_icons_kite'] = '{achievement:16584}'
 L['options_icons_kite_desc'] = 'Muestra dónde están las {npc:198118} para el logro {achievement:16584}.'
 

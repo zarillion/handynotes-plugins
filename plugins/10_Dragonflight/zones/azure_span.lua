@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
+local Fragment = ns.node.Fragment
 local PetBattle = ns.node.PetBattle
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
@@ -710,6 +711,42 @@ map.nodes[46142498] = Flag({quest = 71218})
 map.nodes[63084867] = Flag({quest = 71220})
 map.nodes[74844324] = Flag({quest = 71221})
 map.nodes[77431837] = Flag({quest = 71217})
+
+-------------------------------------------------------------------------------
+---------------------------- FRAGMENTS OF HISTORY -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[66066012] = Fragment({
+    sublabel = L['chunk_of_sculpture_note'],
+    rewards = {
+        Achievement({id = 16323, criteria = 55028}),
+        Item({item = 199895, quest = 70806})
+    }
+}) -- Chunk of Sculpture
+
+map.nodes[47833893] = Fragment({
+    sublabel = L['in_water'],
+    rewards = {
+        Achievement({id = 16323, criteria = 55029}),
+        Item({item = 199843, quest = 70791})
+    }
+}) -- Coldwashed Dragonclaw
+
+map.nodes[69174757] = Fragment({
+    sublabel = L['stone_dragontooth_note'],
+    rewards = {
+        Achievement({id = 16323, criteria = 55033}),
+        Item({item = 199842, quest = 70790})
+    }
+}) -- Stone Dragontooth
+
+map.nodes[47342459] = Fragment({
+    sublabel = L['wrapped_gold_band_note'],
+    rewards = {
+        Achievement({id = 16323, criteria = 55034}),
+        Item({item = 199840, quest = 70788})
+    }
+}) -- Wrapped Gold Band
 
 -------------------------------------------------------------------------------
 ------------------------------- DISTURBED DIRT --------------------------------

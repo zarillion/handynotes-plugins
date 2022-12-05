@@ -36,6 +36,7 @@ ns.groups.DRAGON_GLYPH = Group('dragon_glyph', 4728198)
 ns.groups.DREAMGUARD = Group('dreamguard', 341763, {defaults = ns.GROUP_HIDDEN})
 ns.groups.DUCKLINGS = Group('ducklings', 4048818, {defaults = ns.GROUP_HIDDEN})
 ns.groups.FLAG = Group('flag', 1723999, {defaults = ns.GROUP_HIDDEN})
+ns.groups.FRAGMENT = Group('fragment', 134908, {defaults = ns.GROUP_HIDDEN})
 ns.groups.HEMET_NESINGWARY_JR = Group('hemet_nesingwary_jr', 236444,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.KITE = Group('kite', 133837, {defaults = ns.GROUP_HIDDEN})
@@ -141,6 +142,27 @@ local Flag = Class('Flag', Collectible, {
 })
 
 ns.node.Flag = Flag
+
+-------------------------------------------------------------------------------
+---------------------------- FRAGMENTS OF HISTORY -----------------------------
+-------------------------------------------------------------------------------
+
+local Fragment = Class('Fragment', Collectible, {
+    icon = 134908,
+    group = ns.groups.FRAGMENT,
+    IsCollected = function(self)
+        if ns.PlayerHasItem(self.rewards[2].item) then return true end
+        return Collectible.IsCollected(self)
+    end
+})
+
+function Fragment.getters:note()
+    -- Ask Emilia Bellocq first
+    return not C_QuestLog.IsQuestFlaggedCompleted(70231) and
+               L['fragment_requirement_note']
+end
+
+ns.node.Fragment = Fragment
 
 -------------------------------------------------------------------------------
 ------------------------------- DISTURBED DIRT --------------------------------

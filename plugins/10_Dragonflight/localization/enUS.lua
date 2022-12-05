@@ -23,6 +23,19 @@ L['flags_placed'] = 'flags placed'
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = 'Display the location of all 20 flags for the achievement {achievement:15890}.'
 
+L['broken_banding_note'] = 'On the statue\'s right foot\'s ankle.'
+L['chunk_of_sculpture_note'] = 'On the ground, from the dragon statue on the left.'
+L['dislodged_dragoneye_note'] = 'On a rock under the dragon statue\'s chest.'
+L['finely_carved_wing_note'] = 'Under the dragon statue\'s right knee.'
+L['fragment_requirement_note'] = ns.color.Red('Before you can collect loose pieces, you need to ask {npc:193915} in |cFFFFFD00Wingrest Embassy|r at the dragon statue what she is doing here.')
+L['golden_claw_note'] = 'At the dragon statue\'s rear left claw.'
+L['precious_stone_fragment_note'] = 'Under the statue\'s right foot.'
+L['stone_dragontooth_note'] = 'On the ground next to the pedestal of the dragon statue.'
+L['tail_fragment_note'] = 'On the tail of the dragon statue.'
+L['wrapped_gold_band_note'] = 'Under the dragon statue\'s rear right claw.'
+L['options_icons_fragment'] = '{achievement:16323}'
+L['options_icons_fragment_desc'] = 'Display the location of loose pieces for the achievement {achievement:16323}.'
+
 L['options_icons_kite'] = '{achievement:16584}'
 L['options_icons_kite_desc'] = 'Display the location of {npc:198118s} for the achievement {achievement:16584}.'
 

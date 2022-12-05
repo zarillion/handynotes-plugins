@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
+local Fragment = ns.node.Fragment
 local PetBattle = ns.node.PetBattle
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
@@ -736,6 +737,42 @@ map.nodes[43976294] = Flag({quest = 70825})
 map.nodes[54797412] = Flag({quest = 71204})
 map.nodes[56024541] = Flag({quest = 70823})
 map.nodes[73353884] = Flag({quest = 70824})
+
+-------------------------------------------------------------------------------
+---------------------------- FRAGMENTS OF HISTORY -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[81143040] = Fragment({
+    sublabel = L['broken_banding_note'],
+    rewards = {
+        Achievement({id = 16323, criteria = 55027}),
+        Item({item = 198475, quest = 70175})
+    }
+}) -- Broken Banding
+
+map.nodes[60575787] = Fragment({
+    sublabel = L['dislodged_dragoneye_note'],
+    rewards = {
+        Achievement({id = 16323, criteria = 55025}),
+        Item({item = 198626, quest = 70236})
+    }
+}) -- Dislodged Dragoneye
+
+map.nodes[47238848] = Fragment({
+    sublabel = L['finely_carved_wing_note'],
+    rewards = {
+        Achievement({id = 16323, criteria = 55030}),
+        Item({item = 199841, quest = 70789})
+    }
+}) -- Finely Carved Wing
+
+map.nodes[58246841] = Fragment({
+    sublabel = L['tail_fragment_note'],
+    rewards = {
+        Achievement({id = 16323, criteria = 55026}),
+        Item({item = 198543, quest = 70207})
+    }
+}) -- Tail Fragment
 
 -------------------------------------------------------------------------------
 ------------------------------- SYMBOLS OF HOPE -------------------------------
