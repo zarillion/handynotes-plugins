@@ -242,7 +242,7 @@ L['pt_jewel_igneous_gem_note'] = 'Klicke schnell auf die drei Kristalle auf klei
 L['pt_leath_poachers_pack_note'] = 'Neben einem toten Vulpera am Flussbett.'
 L['pt_leath_spare_djaradin_tools_note'] = 'Neben einem toten roten Drachen.'
 L['pt_script_pulsing_earth_rune_note'] = 'Hinter einem Tisch im Inneren des verfallenen Gebäudes.' -- review
-L['pt_smith_ancient_monument_note'] = 'Besiege die 4 {npc:188648} um ein Schwert auf einem Sockel herum.' -- review
+L['pt_smith_ancient_monument_note'] = 'Besiege die 4 {npc:188648} um ein Schwert auf einem Sockel herum.\n\n|cFFFF0000(BUG: Du bekommst das Item zurzeit nicht wenn du auf das Schwert klickst, es wird dir aber nach einiger Zeit per Post zugeschickt.)|r' -- review
 L['pt_smith_curious_ingots_note'] = 'Kleiner Barren auf dem Boden in der |cFFFFFD00Schuppenknackerfeste|r.'
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = 'Stelle eine {item:189541} in der Nähe der |cFFFFFD00Dunkle Schmiede|r her, damit du den Gegenstand im |cFFFFFD00Härtebecken|r plündern kannst.' -- review
 L['pt_smith_molten_ingot_note'] = 'Wirf 3 Barren in die Lava, um einen Gegner erscheinen zu lassen. Plündere die Truhe, nachdem der Gegner besiegt ist.'
@@ -266,3 +266,5 @@ L['options_icons_ducklings'] = '{achievement:16409}'
 L['options_icons_ducklings_desc'] = 'Zeigt die Positionen der Entchen für den Erfolg {achievement:16409} an.'
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = 'Zeigt die Positionen der Steintafeln für den Erfolg {achievement:16412} an.'
+
+L['grand_theft_mammoth_note'] = 'Reite das {npc:194625} zu {npc:198163}.\n\n|cFFFF0000(BUG: Wenn du mit dem {npc:194625} nicht interagieren kannst nutze /reload.)|r'

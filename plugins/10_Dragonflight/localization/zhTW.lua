@@ -258,3 +258,5 @@ L['options_icons_ducklings'] = nil
 L['options_icons_ducklings_desc'] = nil
 L['options_icons_chiseled_record'] = nil
 L['options_icons_chiseled_record_desc'] = nil
+
+L['grand_theft_mammoth_note'] = nil

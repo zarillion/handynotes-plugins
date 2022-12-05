@@ -273,3 +273,5 @@ L['options_icons_ducklings'] = '{achievement:16409}'
 L['options_icons_ducklings_desc'] = 'Показать местонахождение утят для достижения {achievement:16409}.'
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = 'Показать расположение планшетов для достижения {achievement:16412}.'
+
+L['grand_theft_mammoth_note'] = nil

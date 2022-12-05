@@ -589,9 +589,9 @@ map.nodes[26239233] = PetBattle({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[22008700] = PT.Blacksmithing({
+map.nodes[22258763] = PT.Blacksmithing({
     id = 201007,
-    quest = nil,
+    quest = 70246,
     note = L['pt_smith_ancient_monument_note']
 }) -- Ancient Monument
 
@@ -615,13 +615,13 @@ map.nodes[33906370] = PT.Jewelcrafting({
 
 map.nodes[34506710] = PT.Blacksmithing({
     id = 201010,
-    quest = nil,
+    quest = 70310,
     note = L['pt_smith_qalashi_weapon_diagram_note']
 }) -- Qalashi Weapon Diagram
 
 map.nodes[35506430] = PT.Blacksmithing({
     id = 201008,
-    quest = nil,
+    quest = 70296,
     note = L['pt_smith_molten_ingot_note']
 }) -- Molten Ingot
 
@@ -658,7 +658,7 @@ map.nodes[56004490] = PT.Engineering({
 
 map.nodes[56401950] = PT.Blacksmithing({
     id = 198791,
-    quest = nil,
+    quest = 70230,
     note = L['pt_smith_glimmer_of_blacksmithing_wisdom_note']
 }) -- Glimmer of Blacksmithing Wisdom
 
@@ -682,7 +682,7 @@ map.nodes[64302540] = PT.Leatherworking({
 
 map.nodes[65502570] = PT.Blacksmithing({
     id = 201005,
-    quest = nil,
+    quest = nil, -- bugged
     note = L['pt_smith_curious_ingots_note']
 }) -- Curious Ingots
 
@@ -1096,3 +1096,62 @@ map.nodes[70746646] = HemetNesingwaryJr({
 map.nodes[24538913] = HemetNesingwaryJr({
     rewards = {Achievement({id = 16542, criteria = 55695})}
 }) -- Southern Waking SHores Hunt
+
+-------------------------------------------------------------------------------
+----------------------------- GRAND THEFT MAMMOTH -----------------------------
+-------------------------------------------------------------------------------
+
+local GrandTheftMammoth = Class('GrandTheftMammoth', Collectible, {
+    id = 198155,
+    icon = 4034836,
+    note = L['grand_theft_mammoth_note'],
+    group = ns.groups.GRAND_THEFT_MAMMOTH
+}) --
+
+map.nodes[37114454] = GrandTheftMammoth({
+    rewards = {Achievement({id = 16493, criteria = 1})},
+    pois = {
+        Path({
+            37114454, 37304428, 37724379, 38324387, 38634443, 38724542,
+            38604659, 38314739, 37984807, 38304899, 38715033, 38725121,
+            39195245, 39695409, 39645503
+        }), POI({39645503})
+    }
+}) -- Smoldering Perch Mammoth
+
+map.nodes[33427207] = GrandTheftMammoth({
+    rewards = {Achievement({id = 16493, criteria = 2})},
+    pois = {
+        Path({
+            33427207, 32927243, 32237211, 31907141, 31576948, 31306784,
+            31326686, 31666629, 32166524, 32066331, 32416226, 34666166,
+            36216104, 37975894, 38795789, 39625640, 39805555, 39645503
+        }), POI({39645503})
+    }
+}) -- Burning Ascent Mammoth
+
+map.nodes[66342446] = GrandTheftMammoth({
+    rewards = {Achievement({id = 16493, criteria = 3})},
+    pois = {
+        Path({
+            66342446, 65652515, 65842653, 65292807, 65312966, 64683174,
+            64413342, 62793431, 61293562, 60223642, 59163719, 57923722,
+            56553689, 55273794, 53693837, 52363881, 51753947, 50803987,
+            49783913, 48793830, 47933921, 47784202, 47414443, 46364585,
+            46194805, 45314963, 44225076, 43305288, 43015435, 42435565,
+            40995587, 39925518, 39645503
+        }), POI({39645503})
+    }
+}) -- Scalecracker Keep Mammoth
+
+map.nodes[23677143] = GrandTheftMammoth({
+    rewards = {Achievement({id = 16493, criteria = 4})},
+    pois = {
+        Path({
+            23677143, 24037183, 24417134, 24897059, 26077058, 27077077,
+            27897123, 29037110, 29997004, 30246902, 30706754, 31666629,
+            32166524, 32066331, 32416226, 34666166, 36216104, 37975894,
+            38795789, 39625640, 39805555, 39645503
+        }), POI({39645503})
+    }
+}) -- Dragonbane Keep Mammoth

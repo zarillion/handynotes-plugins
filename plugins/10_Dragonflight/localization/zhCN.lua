@@ -272,3 +272,5 @@ L['options_icons_ducklings'] = '{achievement:16409}'
 L['options_icons_ducklings_desc'] = '显示 {achievement:16409} 成就中鸭子的位置。'
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = '显示 {achievement:16412} 成就中石板的位置。'
+
+L['grand_theft_mammoth_note'] = nil
