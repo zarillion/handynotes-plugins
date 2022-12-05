@@ -63,7 +63,7 @@ L['trilvarus_loreweaver_note'] = 'Recoge un |cFFFFFD00Fragmento Cantarín|r para
 
 L['breezebiter_note'] = 'Vuela por el cielo. Para atraerlo, vuela cerca suyo.'
 
-L['forgotten_jewel_box_note'] = 'Despoja la {item:199065} de un Cofre del Clan en |cFFFFFD00Retiro Crestagua|r (49.4 67.3) en las |cFFFFFD00Llanuras de Ohn\'ahran|r y úsala.'
+L['forgotten_jewel_box_note'] = 'La {item:199065} se puede encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 L['pepper_hammer_note'] = 'Recoge |cFFFFFD00Savia de Árbol|r y entonces usa el |cFFFFFD00Palo|r para engañar a {npc:195373}.\n\n|cFFFF0000(BUG: Para hacer click en el palo puede ser necesario recargar)|r.'
 L['snow_covered_scroll'] = 'Pergamino Cubierto de Nieve'
