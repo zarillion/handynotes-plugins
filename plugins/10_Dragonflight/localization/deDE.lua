@@ -64,6 +64,11 @@ L['hnj_western_azure_span_hunt'] = 'Auf dem toten Baum.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Zeigt die Positionen von {npc:194590} für den Erfolg {achievement:16542} an.'
 
+L['pretty_neat_selfie_note'] = ' Mache mit der S.E.L.F.I.E.-Kamera ein Foto.'
+L['bugged_selfie'] = '|cFFFF0000(BUG: Es wird kein oder der falsche NPC erkannt.)|r'
+L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
+L['options_icons_pretty_neat_selfie_desc'] = 'Zeigt die Positionen der NPCs für den Erfolg {achievement:16446} an.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -268,3 +273,5 @@ L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = 'Zeigt die Positionen der Steintafeln für den Erfolg {achievement:16412} an.'
 
 L['grand_theft_mammoth_note'] = 'Reite das {npc:194625} zu {npc:198163}.\n\n|cFFFF0000(BUG: Wenn du mit dem {npc:194625} nicht interagieren kannst nutze /reload.)|r'
+L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
+L['options_icons_grand_theft_mammoth_desc'] = 'Zeigt die Positionen der {npc:194625} für den Erfolg {achievement:16493} an.'

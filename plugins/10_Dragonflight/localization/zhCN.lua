@@ -64,6 +64,11 @@ L['hnj_western_azure_span_hunt'] = '死树顶上。'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = '显示 {achievement:16542} 成就中 {npc:194590} 的位置。'
 
+L['pretty_neat_selfie_note'] = nil
+L['bugged_selfie'] = nil
+L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
+L['options_icons_pretty_neat_selfie_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -274,3 +279,5 @@ L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = '显示 {achievement:16412} 成就中石板的位置。'
 
 L['grand_theft_mammoth_note'] = nil
+L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
+L['options_icons_grand_theft_mammoth_desc'] = nil

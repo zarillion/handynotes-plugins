@@ -1100,3 +1100,31 @@ function Ohnahra.getters:note()
 end
 
 map.nodes[57473193] = Ohnahra()
+
+-------------------------------------------------------------------------------
+----------------------------- THAT'S PRETTY NEAT! -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[58323192] = ns.node.Selfie({
+    id = 193356,
+    note = L['bugged_selfie'],
+    rewards = {Achievement({id = 16446, criteria = 2})}
+}) -- Avis Gryphonheart
+
+map.nodes[58363173] = ns.node.Selfie({
+    id = 193354,
+    note = L['bugged_selfie'],
+    rewards = {Achievement({id = 16446, criteria = 10})}
+}) -- Halia Cloudfeather
+
+map.nodes[57493192] = ns.node.Selfie({
+    id = 193357,
+    note = L['bugged_selfie'],
+    rewards = {Achievement({id = 16446, criteria = 15})}
+}) -- Ohn'ara
+
+map.nodes[58003184] = ns.node.Selfie({
+    id = 193357,
+    note = L['bugged_selfie'],
+    rewards = {Achievement({id = 16446, criteria = 16})}
+}) -- Palla of the Wing

@@ -134,6 +134,7 @@ map.nodes[60204535] = Rare({
     quest = 73874,
     rewards = {
         Achievement({id = 16676, criteria = 56039}),
+        Achievement({id = 16446, criteria = 5}),
         Transmog({item = 200219, slot = L['cloak']}) -- Dangerous Drapery
     },
     pois = {
@@ -1106,7 +1107,7 @@ local GrandTheftMammoth = Class('GrandTheftMammoth', Collectible, {
     icon = 4034836,
     note = L['grand_theft_mammoth_note'],
     group = ns.groups.GRAND_THEFT_MAMMOTH
-}) --
+}) -- Grand Theft Mammoth
 
 map.nodes[37114454] = GrandTheftMammoth({
     rewards = {Achievement({id = 16493, criteria = 1})},
@@ -1155,3 +1156,12 @@ map.nodes[23677143] = GrandTheftMammoth({
         }), POI({39645503})
     }
 }) -- Dragonbane Keep Mammoth
+
+-------------------------------------------------------------------------------
+----------------------------- THAT'S PRETTY NEAT! -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[42276935] = ns.node.Selfie({
+    id = 192186,
+    rewards = {Achievement({id = 16446, criteria = 19})}
+})

@@ -46,6 +46,10 @@ ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676,
 ns.groups.SCOUT_PACK =
     Group('scout_pack', 4562583, {defaults = ns.GROUP_HIDDEN})
 ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
+ns.groups.PRETTY_NEAT_SELFIE = Group('pretty_neat_selfie', 133707,
+    {defaults = ns.GROUP_HIDDEN})
+ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836,
+    {defaults = ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
@@ -286,3 +290,15 @@ local Squirrel = Class('Squirrel', Collectible, {
 })
 
 ns.node.Squirrel = Squirrel
+
+-------------------------------------------------------------------------------
+----------------------------- THAT'S PRETTY NEAT! -----------------------------
+-------------------------------------------------------------------------------
+
+local Selfie = Class('Selfie', Collectible, {
+    icon = 133707,
+    sublabel = L['pretty_neat_selfie_note'],
+    group = ns.groups.PRETTY_NEAT_SELFIE
+}) -- That's Pretty Neat!
+
+ns.node.Selfie = Selfie
