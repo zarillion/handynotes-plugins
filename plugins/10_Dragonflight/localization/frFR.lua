@@ -47,10 +47,10 @@ L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, p
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour {achievement:16729}.'
 
-L['hnj_sublabel'] = nil
-L['hnj_western_azure_span_hunt'] = nil
+L['hnj_sublabel'] = 'Nécessite une Grande chasse Shikaar à proximité'
+L['hnj_western_azure_span_hunt'] = 'Au sommet de l\'arbre mort.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
-L['options_icons_hemet_nesingwary_jr_desc'] = nil
+L['options_icons_hemet_nesingwary_jr_desc'] = 'Afficher les emplacements d\'{npc:194590} pour le haut-fait {achievement:16542}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -251,7 +251,7 @@ L['complaint_to_scalepiercer_note'] = 'Cliquez sur la |cFFFFFD00Tablette en pier
 L['grand_flames_journal_note'] = 'Cliquez sur la |cFFFFFD00Tablette en pierre|r à l\'extérieur, derrière la hutte.'
 L['wyrmeaters_recipe_note'] = 'Cliquez sur la |cFFFFFD00Tablette en pierre|r à l\'intérieur de la hutte (sur le côté gauche).'
 
-L['options_icons_ducklings'] = nil
-L['options_icons_ducklings_desc'] = nil
-L['options_icons_chiseled_record'] = nil
-L['options_icons_chiseled_record_desc'] = nil
+L['options_icons_ducklings'] = '{achievement:16409}'
+L['options_icons_ducklings_desc'] = 'Afficher les emplacements des canetons pour le haut-fait {achievement:16409}.'
+L['options_icons_chiseled_record'] = '{achievement:16412}'
+L['options_icons_chiseled_record_desc'] = 'Afficher les emplacements des tablettes pour le haut-fait {achievement:16412}.'
