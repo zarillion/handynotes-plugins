@@ -220,7 +220,7 @@ L['steamed_scarab_steak_note'] = 'Achetez auprès de {npc:197586} ' .. ns.color.
 L['craft_creche_crowler_note'] = 'Achetez auprès de {npc:187444} ' .. ns.color.NPC('<Vendeur de breuvages draconiques itinérant>') .. ' à la |cFF00CCFFConfluence Temporelle|r.'
 L['bivigosas_blood_sausages_note'] = 'Achetez auprès de l\'{npc:188895} ' .. ns.color.NPC('<Nourriture et boissons>') .. ' au |cFFFFFD00Poste Gelikyr|r.'
 L['options_icons_specialties'] = '{achievement:16621}'
-L['options_icons_specialties_desc'] = 'Afficher les emplacements des aliments et boissons pour {achievement:16621}.'
+L['options_icons_specialties_desc'] = 'Afficher les emplacements des aliments et boissons pour le haut-fait {achievement:16621}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
