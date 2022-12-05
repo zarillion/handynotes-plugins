@@ -116,11 +116,11 @@ L['mysterious_wand_note'] = 'Ramassez la |cFFFFFD00Clé en cristal|r et placez-l
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
-L['hunter_of_the_deep_note'] = nil
-L['scaleseeker_mezeri_note'] = nil
+L['hunter_of_the_deep_note'] = 'Cliquez sur le râtelier d\'armes et tirez sur les poissons jusqu\'à ce que le rare apparaisse.'
+L['scaleseeker_mezeri_note'] = 'Offrez à {npc:193224} un {item:194681} et elle révélera le rare.'
 L['shade_of_grief_note'] = 'Cliquez sur la {npc:193166} pour faire apparaître le rare.'
-L['windscale_the_stormborn_note'] = nil
-L['zarizz_note'] = nil
+L['windscale_the_stormborn_note'] = 'Tuez les {npc:192367s} canalisant dans l\'{npc:192357}.'
+L['zarizz_note'] = 'Cliquez et ' .. ns.color.Orange('/siffler') .. ' les quatre {npc:193169s} pour invoquer le rare.'
 
 L['gold_swong_coin_note'] = 'Dans la grotte avec {npc:191608} à sa droite.'
 L['nokhud_warspear_note'] = '{item:194540} peut être trouvé dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
@@ -171,7 +171,7 @@ L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêve
 -------------------------------------------------------------------------------
 
 L['blightpaw_note'] = 'Parlez à l\'{npc:193222} à proximité et acceptez de l\'aider.'
-L['weeping_vilomah_note'] = nil
+L['weeping_vilomah_note'] = 'Parlez à {npc:193206} pour invoquer le rare.'
 L['woofang_note'] = 'Caressez {npc:193156} pour faire apparaître le rare.'
 
 L['acorn_harvester_note'] = 'Ramassez un |cFFFFFD00Gland|r sur le sol à proximité pour obtenir {spell:388485} et interagissez ensuite avec {npc:196172}.\n\n|cFFFF0000(BUG : Pour cliquer sur le {npc:196172}, un rechargement peut être nécessaire)|r.'
