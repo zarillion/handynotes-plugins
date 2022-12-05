@@ -160,7 +160,7 @@ map.nodes[50043631] = Rare({ -- review
     rewards = {
         Achievement({id = 16678, criteria = 56115}),
         Transmog({item = 199026, slot = L['1h_sword']}), -- Fire-Blessed Blade
-        Transmog({item = 200310, slot = L['back']}), -- Stole of the Iron Phantom
+        Transmog({item = 200310, slot = L['cloak']}), -- Stole of the Iron Phantom
         Item({item = 197382, quest = 69583}), -- Renewed Proto-Drake: White Horns
         Item({item = 196985, quest = 69185}), -- Cliffside Wylderdrake: Horned Jaw
         Item({item = 198070}) -- Tattered Seavine
