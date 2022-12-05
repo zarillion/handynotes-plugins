@@ -47,7 +47,7 @@ L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean ma
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:16729}.'
 
-L['hnj_sublabel'] = nil
+L['hnj_sublabel'] = 'Requiere Gran Cacería Shikaar local'
 L['hnj_western_azure_span_hunt'] = 'Encima del árbol muerto.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Muestra dónde está {npc:194590} para el logro {achievement:16542}.'
@@ -256,7 +256,7 @@ L['complaint_to_scalepiercer_note'] = 'Haz click en la |cFFFFFD00Tablilla de Pie
 L['grand_flames_journal_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r de fuera detrás de la choza.'
 L['wyrmeaters_recipe_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r que hay dentro de la choza (en el lado izquierdo).'
 
-L['options_icons_ducklings'] = nil
-L['options_icons_ducklings_desc'] = nil
-L['options_icons_chiseled_record'] = nil
-L['options_icons_chiseled_record_desc'] = nil
+L['options_icons_ducklings'] = '{achievement:16409}'
+L['options_icons_ducklings_desc'] = 'Muestra dónde están los patitos para el logro {achievement:16409}.'
+L['options_icons_chiseled_record'] = '{achievement:16412}'
+L['options_icons_chiseled_record_desc'] = 'Muestra dónde están las tablillas para el logro {achievement:16412}.'
