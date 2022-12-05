@@ -62,7 +62,7 @@ L['trilvarus_loreweaver_note'] = 'Collect a |cFFFFFD00Singing Fragment|r to get 
 
 L['breezebiter_note'] = 'Flies in the sky to pull him down, fly close to him.'
 
-L['forgotten_jewel_box_note'] = 'Loot {item:199065} from a Clan Chest in |cFFFFFD00Ridgewater Retreat|r (49.4 67.3) on the |cFFFFFD00Ohn\'ahran Plains|r and use it.'
+L['forgotten_jewel_box_note'] = '{item:199065} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['gnoll_fiend_flail_note'] = '{item:199066} can be found in Expedition Scout\'s Packs and Disturbed Dirts.'
 L['pepper_hammer_note'] = 'Collect |cFFFFFD00Tree Sap|r and then use the |cFFFFFD00Stick|r to lure the {npc:195373}.\n\n|cFFFF0000(BUG: To click on the stick a reload might be necessary)|r'
 L['snow_covered_scroll'] = 'Snow Covered Scroll'
