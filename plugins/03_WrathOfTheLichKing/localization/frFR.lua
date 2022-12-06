@@ -7,7 +7,7 @@ L['area_spawn'] = 'Apparaît dans les environs.'
 
 L['squirrels_note'] = 'Vous devez utiliser l\'émote /love sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:2557}'
-L['options_icons_squirrels_desc'] = 'Emplacements des bestioles pour le haut-fait {achievement:2557}.'
+L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:2557}.'
 
 L['achievement_friend_or_fowl_desc'] = 'Tuez 15 dindes en 3 minutes.'
 L['note_devouring_maggot'] = 'Au fond des |cFFFFFD00Catacombes d\'Utgarde|r.'

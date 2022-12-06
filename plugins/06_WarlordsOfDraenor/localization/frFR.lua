@@ -19,7 +19,7 @@ L['options_icons_pepe_desc'] = 'Affiche les emplacements des costumes pour {achi
 
 L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:14728}'
-L['options_icons_squirrels_desc'] = 'Emplacements des bestioles pour le haut-fait {achievement:14728}.'
+L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:14728}.'
 
 L['options_icons_GarrFollower'] = 'Sujet de Fief'
 L['options_icons_GarrFollower_desc'] = 'Afficher les emplacements des Sujets.'

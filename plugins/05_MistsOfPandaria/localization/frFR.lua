@@ -68,10 +68,10 @@ L['zandalari_warbringer_killed'] = 'Porteguerre zandalari tué.'
 
 L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:6350}'
-L['options_icons_squirrels_desc'] = 'Emplacements des bestioles pour le haut-fait {achievement:6350}.'
+L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:6350}.'
 
 L['options_icons_lorewalker'] = '{achievement:6548}'
-L['options_icons_lorewalker_desc'] = 'Affiche les emplacements pour le haut-fait {achievement:6548}.'
+L['options_icons_lorewalker_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:6548}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- Jade Forest ---------------------------------
@@ -142,7 +142,7 @@ L['virmen_treasure_cache'] = 'Cache au trésor virmène'
 -------------------------------------------------------------------------------
 
 L['options_icons_kroshik'] = '{achievement:8108}'
-L['options_icons_kroshik_desc'] = 'Affiche les emplacements pour {achievement:8108}.'
+L['options_icons_kroshik_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:8108}.'
 
 L['iot_portal'] = 'Portail'
 L['ritualstone_needed'] = 'Il vous faut 3 {item:94221} pour invoquer le rare.'

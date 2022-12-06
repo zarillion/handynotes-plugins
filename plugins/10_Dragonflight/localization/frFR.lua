@@ -58,7 +58,7 @@ L['options_icons_dragonrace_desc'] = 'Afficher les emplacements des Courses du V
 
 L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:16729}'
-L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour {achievement:16729}.'
+L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:16729}.'
 
 L['hnj_sublabel'] = 'Nécessite une Grande chasse Shikaar à proximité'
 L['hnj_western_azure_span_hunt'] = 'Au sommet de l\'arbre mort.'
