@@ -1,3 +1,12 @@
+# v11
+
+* Added bird locations for the That's Pretty Neat! achievement.
+* Added mammoth locations and routes for the Grand Theft Mammoth achievement.
+* Added many missing rares to the Ohn'ahran Plains.
+* Added statuary locations for the Fragments of History achievement.
+* Fixed achievement criteria IDs for the Obsidian Champion achievement.
+* Updated Obsidian Citadel rare locations.
+
 # v10
 
 * Added Hemet Nesingwary Jr. locations for the Disgruntled Hunter achievement.
