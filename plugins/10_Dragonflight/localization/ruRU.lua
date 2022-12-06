@@ -24,16 +24,16 @@ L['flags_placed'] = 'высокий пик'
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = 'Показать расположение всех 20 флагов для достижения {achievement:15890}.'
 
-L['broken_banding_note'] = nil
-L['chunk_of_sculpture_note'] = nil
-L['dislodged_dragoneye_note'] = nil
-L['finely_carved_wing_note'] = nil
+L['broken_banding_note'] = 'На лодыжке правой ноги статуи.'
+L['chunk_of_sculpture_note'] = 'На земле, от статуи дракона слева.'
+L['dislodged_dragoneye_note'] = 'На скале под грудью статуи дракона.'
+L['finely_carved_wing_note'] = 'Под правым коленом статуи дракона.'
 L['fragment_requirement_note'] = nil
-L['golden_claw_note'] = nil
-L['precious_stone_fragment_note'] = nil
+L['golden_claw_note'] = 'У задней левой лапы статуи дракона.'
+L['precious_stone_fragment_note'] = 'Под правой ногой статуи.'
 L['stone_dragontooth_note'] = 'На земле рядом с пьедесталом статуи дракона.'
 L['tail_fragment_note'] = 'На хвосте статуи дракона.'
-L['wrapped_gold_band_note'] = nil
+L['wrapped_gold_band_note'] = 'Под задним правым когтем статуи дракона.'
 L['options_icons_fragment'] = '{achievement:16323}'
 L['options_icons_fragment_desc'] = 'Отображение местоположения фрагментов статуи для достижения {achievement:16323}.'
 
