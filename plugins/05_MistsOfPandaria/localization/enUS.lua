@@ -67,10 +67,10 @@ L['zandalari_warbringer_killed'] = 'Zandalari Warbringer killed.'
 
 L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.'
 L['options_icons_squirrels'] = '{achievement:6350}'
-L['options_icons_squirrels_desc'] = 'Critter locations for {achievement:6350} achievement.'
+L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achievement:6350} achievement.'
 
 L['options_icons_lorewalker'] = '{achievement:6548}'
-L['options_icons_lorewalker_desc'] = 'Shows the locations for the {achievement:6548} achievement.'
+L['options_icons_lorewalker_desc'] = 'Display the locations for {achievement:6548} achievement.'
 
 -------------------------------------------------------------------------------
 --------------------------------- Jade Forest ---------------------------------
@@ -141,7 +141,7 @@ L['virmen_treasure_cache'] = 'Virmen Treasure Cache'
 -------------------------------------------------------------------------------
 
 L['options_icons_kroshik'] = '{achievement:8108}'
-L['options_icons_kroshik_desc'] = 'Shows the locations for {achievement:8108}.'
+L['options_icons_kroshik_desc'] = 'Display the locations for {achievement:8108} achievement.'
 
 L['iot_portal'] = 'Portal'
 L['ritualstone_needed'] = 'You need 3 {item:94221} to summon the rare.'

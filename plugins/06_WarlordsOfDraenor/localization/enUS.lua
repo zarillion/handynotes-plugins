@@ -18,7 +18,7 @@ L['options_icons_pepe_desc'] = 'Display costume locations for {achievement:10053
 
 L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.'
 L['options_icons_squirrels'] = '{achievement:14728}'
-L['options_icons_squirrels_desc'] = 'Critter locations for {achievement:14728} achievement.'
+L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achievement:14728} achievement.'
 
 L['options_icons_GarrFollower'] = 'Garrison Follower'
 L['options_icons_GarrFollower_desc'] = 'Display the locations of Followers.'

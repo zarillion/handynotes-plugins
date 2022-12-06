@@ -57,7 +57,7 @@ L['options_icons_dragonrace_desc'] = 'Display the location of Dragonriding Race.
 
 L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.'
 L['options_icons_squirrels'] = '{achievement:16729}'
-L['options_icons_squirrels_desc'] = 'Display the location of critters for {achievement:16729}.'
+L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achievement:16729} achievement.'
 
 L['hnj_sublabel'] = 'Requires local Shikaar Grand Hunt'
 L['hnj_western_azure_span_hunt'] = 'On top of the dead tree.'

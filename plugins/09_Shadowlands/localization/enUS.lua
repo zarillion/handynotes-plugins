@@ -13,9 +13,9 @@ L['anima_channeled'] = 'anima channeled to %s.'
 --------------------------------- SHADOWLANDS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['squirrels_note'] = 'You must use the emote /love on critters not battle pets'
+L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.'
 L['options_icons_squirrels'] = '{achievement:14731}'
-L['options_icons_squirrels_desc'] = 'Critter locations for {achievement:14731}'
+L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achievement:14731} achievement.'
 
 L['prepatch_vendor_note'] = 'Purchase rewards using the {item:199211} currency from the |cFFFF8C00Primal Storms|r pre-patch event.'
 

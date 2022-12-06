@@ -13,7 +13,7 @@ L['anima_channeled'] = '心能连接到%s。'
 --------------------------------- SHADOWLANDS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['squirrels_note'] = '必须使用表情 /love 给非战斗宠物的小动物。'
+L['squirrels_note'] = '必须使用表情 /爱（/love）给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = '显示 {achievement:14731} 成就中小动物的位置。'
 

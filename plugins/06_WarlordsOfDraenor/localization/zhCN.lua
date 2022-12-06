@@ -16,7 +16,7 @@ L['multiple_spawn_note'] = '在多个位置刷新。'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = '显示 {achievement:10053} 成就中服装的位置。'
 
-L['squirrels_note'] = '使用 /love 给非战斗宠物的小动物。'
+L['squirrels_note'] = '必须使用表情 /爱（/love）给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:14728}'
 L['options_icons_squirrels_desc'] = '显示 {achievement:14728} 成就中小动物的位置。'
 

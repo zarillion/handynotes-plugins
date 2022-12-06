@@ -55,7 +55,7 @@ L['dr_bronze'] = '\n\n完成竞速获得 ' .. ns.color.Bronze('青铜') .. '。'
 L['options_icons_dragonrace'] = '驭龙竞速'
 L['options_icons_dragonrace_desc'] = '显示驭龙竞速的位置。'
 
-L['squirrels_note'] = '必须使用表情 /love 给非战斗宠物的小动物。'
+L['squirrels_note'] = '必须使用表情 /爱（/love）给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = '显示 {achievement:16729} 成就中小动物的位置。'
 

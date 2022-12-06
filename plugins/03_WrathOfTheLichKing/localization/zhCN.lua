@@ -4,7 +4,7 @@ if not L then return end
 
 L['area_spawn'] = '在周围地区刷新。'
 
-L['squirrels_note'] = '使用 /love 给非战斗宠物的小动物。'
+L['squirrels_note'] = '必须使用表情 /爱（/love）给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:2557}'
 L['options_icons_squirrels_desc'] = '显示 {achievement:2557} 成就中小动物的位置。'
 
