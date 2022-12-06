@@ -8,6 +8,7 @@ local Class = ns.Class
 local Group = ns.Group
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local Node = ns.node.Node
 local Quest = ns.node.Quest
 local Achievement = ns.reward.Achievement
