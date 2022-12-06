@@ -199,14 +199,14 @@ L['sandy_wooden_duck_note'] = 'Возьмите {item:199069} и использ�
 L['tasty_hatchling_treat_note'] = 'В бочке за книжной полкой.'
 
 L['pt_alch_contraband_concoction_note'] = nil
-L['pt_alch_furry_gloop_note'] = nil
+L['pt_alch_furry_gloop_note'] = 'Бросьте ближайшего {npc:194855} в каждый котел, затем убейте появившегося монстра.'
 L['pt_ench_fractured_titanic_sphere_note'] = nil
 L['pt_jewel_alexstraszite_cluster_note'] = nil
 L['pt_jewel_painters_pretty_jewel_note'] = 'Внутри фонаря.'
 L['pt_leath_decayed_scales_note'] = 'Внутри корзины.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = nil
-L['pt_script_forgetful_apprentices_tome_note'] = nil
-L['pt_script_how_to_train_your_whelpling_note'] = nil
+L['pt_script_forgetful_apprentices_tome_note'] = 'На столе возле большого телескопа.'
+L['pt_script_how_to_train_your_whelpling_note'] = 'Маленькая коричневая книга лежит в песочнице.'
 L['pt_smith_draconic_flux_note'] = 'Внутри здания.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = nil
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Маленький баннер внутри кучи песка.'
