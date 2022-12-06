@@ -953,6 +953,22 @@ map.nodes[69204987] = HemetNesingwaryJr({
 }) -- Southern Azure Span Hunt
 
 -------------------------------------------------------------------------------
+----------------------------- THAT'S PRETTY NEAT! -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[36673652] = ns.node.Selfie({
+    id = 190218,
+    note = L['bugged_selfie'],
+    rewards = {Achievement({id = 16446, criteria = 11})}
+}) -- Horned Filcher
+
+map.nodes[38193815] = ns.node.Selfie({
+    id = 190218,
+    note = L['bugged_selfie'],
+    rewards = {Achievement({id = 16446, criteria = 17})}
+}) -- Pine Flicker
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
@@ -986,18 +1002,4 @@ map.nodes[19042397] = Collectible({
     pois = {POI({58234353, 23074372, 32004400})}
 })
 
--------------------------------------------------------------------------------
------------------------------ THAT'S PRETTY NEAT! -----------------------------
--------------------------------------------------------------------------------
-
-map.nodes[36673652] = ns.node.Selfie({
-    id = 190218,
-    note = L['bugged_selfie'],
-    rewards = {Achievement({id = 16446, criteria = 11})}
-}) -- Horned Filcher
-
-map.nodes[38193815] = ns.node.Selfie({
-    id = 190218,
-    note = L['bugged_selfie'],
-    rewards = {Achievement({id = 16446, criteria = 17})}
-}) -- Pine Flicker
+-- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
