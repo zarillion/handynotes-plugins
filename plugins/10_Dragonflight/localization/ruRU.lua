@@ -31,11 +31,11 @@ L['finely_carved_wing_note'] = nil
 L['fragment_requirement_note'] = nil
 L['golden_claw_note'] = nil
 L['precious_stone_fragment_note'] = nil
-L['stone_dragontooth_note'] = nil
-L['tail_fragment_note'] = nil
+L['stone_dragontooth_note'] = 'На земле рядом с пьедесталом статуи дракона.'
+L['tail_fragment_note'] = 'На хвосте статуи дракона.'
 L['wrapped_gold_band_note'] = nil
 L['options_icons_fragment'] = '{achievement:16323}'
-L['options_icons_fragment_desc'] = nil
+L['options_icons_fragment_desc'] = 'Отображение местоположения фрагментов статуи для достижения {achievement:16323}.'
 
 L['options_icons_kite'] = '{achievement:16584}'
 L['options_icons_kite_desc'] = 'Показать местоположение {npc:198118} для достижения {achievement:16584}.'
@@ -65,10 +65,10 @@ L['hnj_western_azure_span_hunt'] = 'На вершине мертвого дер�
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Показать местоположение {npc:194590} для достижения {achievement:16542}.'
 
-L['pretty_neat_selfie_note'] = nil
-L['bugged_selfie'] = nil
+L['pretty_neat_selfie_note'] = 'Сделайте снимок с помощью СЕЛФИ камеры.'
+L['bugged_selfie'] = '|cFFFF0000(БАГ: будет обнаружен неправильный НПС или вообще не будет обнаружен.)|r'
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
-L['options_icons_pretty_neat_selfie_desc'] = nil
+L['options_icons_pretty_neat_selfie_desc'] = 'Отображение местоположения НПС для достижения {achievement:16446}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -138,7 +138,7 @@ L['hunter_of_the_deep_note'] = 'Нажмите на стойку с оружие
 L['scaleseeker_mezeri_note'] = 'Предложите {item:194681} {npc:193224}, и она расскажет о редком монстре.'
 L['shade_of_grief_note'] = 'Нажмите на {npc:193166}, чтобы вызвать редкого монстра.'
 L['windscale_the_stormborn_note'] = 'Убейте {npc:192367}, которые находятся возле {npc:192357}.'
-L['zarizz_note'] = nil
+L['zarizz_note'] = 'Выберите в цели и используйте эмоцию ' .. ns.color.Orange('/шипение') .. ' на четырех {npc:193169}, чтобы призвать редкого монстра.'
 
 L['gold_swong_coin_note'] = 'Внутри пещеры с {npc:191608} справа от него.'
 L['nokhud_warspear_note'] = '{item:194540} можно найти в сумках разведчика экспедиции и потревоженной почве.'
@@ -279,6 +279,6 @@ L['options_icons_ducklings_desc'] = 'Показать местонахожден
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = 'Показать расположение планшетов для достижения {achievement:16412}.'
 
-L['grand_theft_mammoth_note'] = nil
+L['grand_theft_mammoth_note'] = 'Прокатитесь на {npc:194625} до {npc:198163}.\n\n|cFFFF0000(БАГ: если вы не можете взаимодействовать с {npc:194625}, используйте /reload.)|r'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
-L['options_icons_grand_theft_mammoth_desc'] = nil
+L['options_icons_grand_theft_mammoth_desc'] = 'Показать местоположение {npc:194625} для достижения {achievement:16493}.'
