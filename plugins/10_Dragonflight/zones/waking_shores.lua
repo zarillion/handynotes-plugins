@@ -94,24 +94,25 @@ map.nodes[26847642] = Rare({
     }
 }) -- Captain Lancer
 
-map.nodes[26285788] = Rare({
+map.nodes[30575625] = Rare({
     id = 186783,
     quest = 74042,
     rewards = {
         Achievement({id = 16676, criteria = 56056}),
         Transmog({item = 200757, slot = L['plate']})
-    },
-    pois = {
-        Path({
-            26285788, 26545827, 25985955, 26315995, 26585932, 27316007,
-            27396026, 29306229
-        })
     }
+    -- pois = {
+    --     Path({
+    --         26285788, 26545827, 25985955, 26315995, 26585932, 27316007,
+    --         27396026, 29306229
+    --     })
+    -- }
 }) -- Cauldronbearer Blakor
 
-map.nodes[29485272] = Rare({
+map.nodes[29935074] = Rare({
     id = 190991,
     quest = 74043,
+    note = L['in_cave'],
     rewards = {
         Achievement({id = 16676, criteria = 56060}),
         Item({item = 196991, quest = 69191}) -- Cliffside Wylderdrake: Black Horns
@@ -263,7 +264,7 @@ map.nodes[64676939] = Rare({
     pois = {POI({66165529, 39638468, 47728360})}
 }) -- Possessive Hornswog
 
-map.nodes[30226045] = Rare({ -- review
+map.nodes[24005896] = Rare({
     id = 193232,
     quest = 74051,
     note = L['obsidian_throne_rare_note'],
