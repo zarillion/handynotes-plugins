@@ -65,10 +65,10 @@ L['hnj_western_azure_span_hunt'] = 'Au sommet de l\'arbre mort.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Afficher les emplacements d\'{npc:194590} pour le haut-fait {achievement:16542}.'
 
-L['pretty_neat_selfie_note'] = nil
-L['bugged_selfie'] = nil
+L['pretty_neat_selfie_note'] = 'Prenez une photo avec l\'appareil P.R.O.F.I.L.'
+L['bugged_selfie'] = '|cFFFF0000(BUG : Le mauvais PNJ ou aucun PNJ ne sera détecté.)|r'
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
-L['options_icons_pretty_neat_selfie_desc'] = nil
+L['options_icons_pretty_neat_selfie_desc'] = 'Affichez les emplacements des PNJ pour le haut-fait {achievement:16446}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -254,7 +254,7 @@ L['pt_jewel_igneous_gem_note'] = 'Cliquez rapidement sur les 3 cristaux sur les 
 L['pt_leath_poachers_pack_note'] = 'À côté d\'un Vulpérin mort, près du lit de la rivière.'
 L['pt_leath_spare_djaradin_tools_note'] = 'A côté du dragon rouge mort.'
 L['pt_script_pulsing_earth_rune_note'] = 'Derrière une table à l\'intérieur du bâtiment en ruine.'
-L['pt_smith_ancient_monument_note'] = 'Battez les 4 {npc:188648} entourant une épée sur un piédestal.'
+L['pt_smith_ancient_monument_note'] = 'Battez les 4 {npc:188648} entourant une épée sur un piédestal.\n\n|cFFFF0000(BUG : Actuellement, vous ne pouvez pas obtenir l\'objet après avoir cliqué sur l\'épée, mais il sera envoyé dans votre boîte aux lettres après un certain temps.)|r'
 L['pt_smith_curious_ingots_note'] = 'Un petit lingot sur le sol dans le |cFFFFFD00Donjon Craquécaille|r.'
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = 'Fabriquez un {item:189541} près de la |cFFFFFD00Forge terne|r et l\'item dans le |cFFFFFD00Bac à eau|r deviendra récupérable.'
 L['pt_smith_molten_ingot_note'] = 'Envoyez 3 lingots dans la lave pour faire apparaître un monstre. Récupérez le coffre après que le monstre soit vaincu.'
@@ -279,6 +279,6 @@ L['options_icons_ducklings_desc'] = 'Afficher les emplacements des canetons pour
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = 'Afficher les emplacements des tablettes pour le haut-fait {achievement:16412}.'
 
-L['grand_theft_mammoth_note'] = nil
+L['grand_theft_mammoth_note'] = 'Chevauchez le {npc:194625} jusqu\'au {npc:198163}.\n\n|cFFFF0000(BUG : Si vous ne pouvez pas interagir avec le {npc:194625}, essayez un /reload.)|r'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
-L['options_icons_grand_theft_mammoth_desc'] = nil
+L['options_icons_grand_theft_mammoth_desc'] = 'Afficher les emplacements des {npc:194625s} pour le haut-fait {achievement:16493}.'
