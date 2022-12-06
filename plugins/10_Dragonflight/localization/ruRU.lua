@@ -218,7 +218,7 @@ L['pt_mining_bridgette_holdug'] = 'На вершине травянистого 
 
 L['brundin_the_dragonbane_note'] = 'Боевой отряд куалаши отправляется на {npc:192737} к этой башне.'
 L['lepidoralia_note'] = nil
-L['obsidian_citadel_rare_note'] = nil -- pls review 'Вы и другие игроки должны вернуть в общей сложности %dx {item:191264} %s. Для крафта ключа нужно скомбинировать 30x {item:191251} и 3x {item:193201}, вы можете получить эти предметы у монстров вокруг Обсидиановой цитадели.'
+L['obsidian_citadel_rare_note'] = 'Вы и другие игроки должны вернуть в общей сложности %dx {item:191264} к %s. Чтобы создать ключ, вам нужно объединить 30x {item:191251} и 3x {item:193201}, вы можете получить эти предметы из монстров в |cFFFFFD00Обсидиановой Цитадели|r.'
 L['shadeslash_note'] = nil
 L['obsidian_throne_rare_note'] = 'Внутри |cFFFFFD00Обсидиановой цитадели|r.'
 L['slurpo_snail_note'] = nil
@@ -230,8 +230,8 @@ L['fullsails_supply_chest_note'] = nil
 L['golden_dragon_goblet_note'] = 'Добудьте {item:202081} у {npc:190056} на |cFFFFFD00Диких берегах|r и завершите небольшую линейку заданий.'
 L['misty_treasure_chest_note'] = 'Встаньте на {npc:185485}, которая торчит из водопада, чтобы войти в пещеру.'
 L['onyx_gem_cluster_note'] = 'На 21-м уровне известности у Драконьей Экспедиции вы можете выполнить задание {quest:70833}, чтобы получить {item:200738} в качестве награды (один раз на аккаунт), или купить карту у {npc:189065} за 3 {item:192863} и 500 {currency:2003} и используйте ее.'
-L['torn_riding_pack_note'] = nil
-L['yennus_kite_note'] = nil
+L['torn_riding_pack_note'] = 'Расположен на вершине водопада.'
+L['yennus_kite_note'] = 'Застрял в ветке на вершине дерева.'
 
 L['fullsails_supply_chest'] = 'Сундук с припасами Коры'
 L['hidden_hornswog_hoard_note'] = [[
@@ -242,9 +242,9 @@ L['hidden_hornswog_hoard_note'] = [[
 {item:200066}
 ]]
 
-L['pt_alch_frostforged_potion_note'] = nil
+L['pt_alch_frostforged_potion_note'] = 'Посреди ледяного кратера.'
 L['pt_alch_well_insulated_mug_note'] = nil
-L['pt_ench_enchanted_debris_note'] = nil
+L['pt_ench_enchanted_debris_note'] = 'Активируйте и следуйте за {npc:194872}, чтобы собрать обломки в конце.'
 L['pt_ench_flashfrozen_scroll_note'] = nil
 L['pt_ench_lava_infused_seed_note'] = nil
 L['pt_engi_boomthyr_rocket_note'] = nil
@@ -253,11 +253,11 @@ L['pt_jewel_closely_guarded_shiny_note'] = 'Синий драгоценный к
 L['pt_jewel_igneous_gem_note'] = 'Быстро нажмите на 3 кристалла на маленьких островах внутри магмы.'
 L['pt_leath_poachers_pack_note'] = 'Рядом с мертвой вульперой у русла реки.'
 L['pt_leath_spare_djaradin_tools_note'] = 'Рядом с мертвым красным драконом.'
-L['pt_script_pulsing_earth_rune_note'] = nil
+L['pt_script_pulsing_earth_rune_note'] = 'За столом внутри разрушенного здания.'
 L['pt_smith_ancient_monument_note'] = nil
 L['pt_smith_curious_ingots_note'] = nil
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = nil
-L['pt_smith_molten_ingot_note'] = nil
+L['pt_smith_molten_ingot_note'] = 'Пните 3 слитка в лаву, чтобы вызвать монстра. Откройте сундук после победы над ним.'
 L['pt_smith_qalashi_weapon_diagram_note'] = 'На вершине наковальни.'
 L['pt_tailor_itinerant_singed_fabric_note'] = nil
 L['pt_tailor_mysterious_banner_note'] = 'Висит над зданиями.'
