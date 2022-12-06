@@ -71,7 +71,7 @@ L['options_icons_squirrels'] = '{achievement:6350}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:6350}.'
 
 L['options_icons_lorewalker'] = '{achievement:6548}'
-L['options_icons_lorewalker_desc'] = 'Muestra los sitios para el logro {achievement:6548}.'
+L['options_icons_lorewalker_desc'] = 'Muestra dónde están los sitios para el logro {achievement:6548}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- Jade Forest ---------------------------------
@@ -142,7 +142,7 @@ L['virmen_treasure_cache'] = 'Alijo del Tesoro Mur'
 -------------------------------------------------------------------------------
 
 L['options_icons_kroshik'] = '{achievement:8108}'
-L['options_icons_kroshik_desc'] = 'Muestra los sitios para el logro {achievement:8108}.'
+L['options_icons_kroshik_desc'] = 'Muestra dónde están los sitios para el logro {achievement:8108}.'
 
 L['iot_portal'] = 'Portal'
 L['ritualstone_needed'] = 'Necesitas 3 {item:94221} para invocar al raro.'
