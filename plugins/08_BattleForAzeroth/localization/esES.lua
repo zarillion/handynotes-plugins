@@ -731,3 +731,7 @@ L['secret_supply_chest'] = 'Cofres de Suministros Secreto'
 L['secret_supply_chest_note'] = 'Cuando está activo un asalto de facción, puede aparecer un ' .. ns.color.Yellow('Cofre de Suministros Secreto') .. ' en uno de estos sitios por poco tiempo.'
 L['options_icons_secret_supplies'] = 'Cofre de Suministros Secreto'
 L['options_icons_secret_supplies_desc'] = 'Muestra dónde están los ' .. ns.color.Yellow('Cofres de Suministros Secreto') .. ' para el logro {achievement:13317}.'
+
+L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean mascotas de combate.'
+L['options_icons_squirrels'] = '{achievement:14730}'
+L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:14730}.'

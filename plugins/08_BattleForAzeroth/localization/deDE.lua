@@ -727,3 +727,7 @@ L['secret_supply_chest'] = 'Geheime Vorratstruhe'
 L['secret_supply_chest_note'] = 'Wenn ein Übergriff aktiv ist, kann eine ' .. ns.color.Yellow('geheime Vorratstruhe') .. ' für eine kurze Zeit an einer dieser Positionen erscheinen.'
 L['options_icons_secret_supplies'] = 'Geheime Vorratstruhen'
 L['options_icons_secret_supplies_desc'] = 'Zeigt die ' .. ns.color.Yellow('geheimen Vorratstruhen') .. ' für den Erfolg {achievement:13317} an.'
+
+L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE Kampfhaustiere).'
+L['options_icons_squirrels'] = '{achievement:14730}'
+L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:14730} an.'
