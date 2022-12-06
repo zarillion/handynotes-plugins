@@ -55,6 +55,33 @@ ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836,
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
+-- LuaFormatter off
+local PROFESSIONS = {
+    -- name, icon, skillID, variantID
+    {'Alchemy', 4620669, 171, 2823},
+    {'Blacksmithing', 4620670, 164, 2822},
+    {'Enchanting', 4620672, 333, 2825},
+    {'Engineering', 4620673, 202, 2827},
+    {'Herbalism', 4620675, 182, 2832},
+    {'Inscription', 4620676, 773, 2828},
+    {'Jewelcrafting', 4620677, 755, 2829},
+    {'Leatherworking', 4620678, 165, 2830},
+    {'Mining', 4620679, 186, 2833},
+    {'Skinning', 4620680, 393, 2834},
+    {'Tailoring', 4620681, 197, 2831}
+}
+-- LuaFormatter on
+
+local ProfessionMaster = Class('ProfessionMaster', ns.node.NPC, {
+    scale = 0.9,
+    group = ns.groups.PROFESSION_TREASURES
+})
+
+function ProfessionMaster:IsEnabled()
+    if not ns.PlayerHasProfession(self.skillID) then return false end
+    return ns.node.NPC.IsEnabled(self)
+end
+
 local ProfessionTreasure = Class('ProfessionTreasure', ns.node.Item, {
     scale = 0.9,
     group = ns.groups.PROFESSION_TREASURES
@@ -65,48 +92,27 @@ function ProfessionTreasure:IsEnabled()
     return ns.node.Item.IsEnabled(self)
 end
 
-ns.node.ProfessionTreasures = {
-    Alchemy = Class('AlchemyTreasure', ProfessionTreasure, {
-        icon = 4620669,
-        skillID = 171,
-        requires = ns.requirement.Profession(171, 2823, 25)
-    }),
-    Blacksmithing = Class('BlacksmithingTreasure', ProfessionTreasure, {
-        icon = 4620670,
-        skillID = 164,
-        requires = ns.requirement.Profession(164, 2822, 25)
-    }),
-    Enchanting = Class('EnchantingTreasure', ProfessionTreasure, {
-        icon = 4620672,
-        skillID = 333,
-        requires = ns.requirement.Profession(333, 2825, 25)
-    }),
-    Engineering = Class('EngineeringTreasure', ProfessionTreasure, {
-        icon = 4620673,
-        skillID = 202,
-        requires = ns.requirement.Profession(202, 2827, 25)
-    }),
-    Inscription = Class('InscriptionTreasure', ProfessionTreasure, {
-        icon = 4620676,
-        skillID = 773,
-        requires = ns.requirement.Profession(773, 2828, 25)
-    }),
-    Jewelcrafting = Class('JewelcraftingTreasure', ProfessionTreasure, {
-        icon = 4620677,
-        skillID = 755,
-        requires = ns.requirement.Profession(755, 2829, 25)
-    }),
-    Leatherworking = Class('LeatherworkingTreasure', ProfessionTreasure, {
-        icon = 4620678,
-        skillID = 165,
-        requires = ns.requirement.Profession(165, 2830, 25)
-    }),
-    Tailoring = Class('TailoringTreasure', ProfessionTreasure, {
-        icon = 4620681,
-        skillID = 197,
-        requires = ns.requirement.Profession(197, 2831, 25)
+ns.node.ProfessionMasters = {}
+ns.node.ProfessionTreasures = {}
+
+local PM = ns.node.ProfessionMasters
+local PT = ns.node.ProfessionTreasures
+
+for i, ids in ipairs(PROFESSIONS) do
+    local name, icon, skillID, variantID = unpack(ids)
+
+    PM[name] = Class(name .. 'Master', ProfessionMaster, {
+        icon = icon,
+        skillID = skillID,
+        requires = ns.requirement.Profession(skillID, variantID, 25)
     })
-}
+
+    PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
+        icon = icon,
+        skillID = skillID,
+        requires = ns.requirement.Profession(skillID, variantID, 25)
+    })
+end
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

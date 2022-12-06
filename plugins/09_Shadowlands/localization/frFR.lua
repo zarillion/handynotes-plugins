@@ -1037,7 +1037,7 @@ L['energized_firmament_note'] = string.format(proto_area, 'Pics Résonnants')
 L['honeycombed_lattice_note'] = string.format(proto_area, 'Précipice Bourdonnant')
 L['incorporeal_sand_note'] = 'Peut être trouvé dans les forges des zones désertiques de la zone.'
 L['pollinated_extraction_note'] = string.format(proto_area, 'Verdure Indomptée')
-L['serene_pigment_note'] = 'Dans une forge au-dessus de l\'entrée du |cFFFFFD00	Creux de l’Exil|r. Peut nécessiter plusieurs essais.'
+L['serene_pigment_note'] = 'Dans une forge au-dessus de l\'entrée du |cFFFFFD00Creux de l’Exil|r. Peut nécessiter plusieurs essais.'
 L['volatile_precursor_note'] = 'Trouvé dans la petite forge au sommet. Peut nécessiter plusieurs essais.'
 L['wayward_essence_note'] = 'Difficile à atteindre sans voler; utilisez {spell:300728} ou {spell:111771}. Dans une forge flottante derrière le |cFFFFFD00Creux de l’Exil|r. Placez-vous dans le renfoncement pour siphonner la forge.'
 

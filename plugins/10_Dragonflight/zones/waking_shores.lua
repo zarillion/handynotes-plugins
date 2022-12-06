@@ -12,6 +12,7 @@ local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local PetBattle = ns.node.PetBattle
+local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
@@ -707,11 +708,11 @@ map.nodes[74703790] = PT.Tailoring({
     note = L['pt_tailor_mysterious_banner_note']
 }) -- Mysterious Banner
 
--- map.nodes[43276663] = PT.Mining({
---     id = 194836,
---     quest = nil,
---     note = L['pt_smith_grekka_anvilsmash']
--- }) -- Grekka Anvilsmash -- currently bugged
+map.nodes[43276663] = PM.Blacksmithing({
+    id = 194836,
+    quest = nil,
+    note = L['pt_smith_grekka_anvilsmash']
+}) -- Grekka Anvilsmash -- currently bugged
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

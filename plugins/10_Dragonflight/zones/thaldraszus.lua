@@ -12,6 +12,7 @@ local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local PetBattle = ns.node.PetBattle
+local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
@@ -433,11 +434,11 @@ val.nodes[13206368] = PT.Inscription({
     note = L['pt_script_how_to_train_your_whelpling_note']
 }) -- How to Train Your Whelpling
 
--- map.nodes[61437687] = PT.Mining({
---     id = 194843,
---     quest = 70258,
---     note = L['pt_mining_bridgette_holdug']
--- }) -- Bridgette Holdug
+map.nodes[61437687] = PM.Mining({
+    id = 194843,
+    quest = 70258,
+    note = L['pt_mining_bridgette_holdug']
+}) -- Bridgette Holdug
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
