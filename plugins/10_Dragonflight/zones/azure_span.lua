@@ -122,6 +122,7 @@ map.nodes[16622798] = Rare({
     quest = nil,
     rewards = {
         Achievement({id = 16678, criteria = 56108}),
+        Achievement({id = 16446, criteria = 3}),
         Item({item = 197595, quest = 69799}) -- Windborne Velocidrake: Finned Ears
         -- Transmog({item = , slot = L['']}) -- Name
     }
@@ -984,3 +985,19 @@ map.nodes[19042397] = Collectible({
     },
     pois = {POI({58234353, 23074372, 32004400})}
 })
+
+-------------------------------------------------------------------------------
+----------------------------- THAT'S PRETTY NEAT! -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[36673652] = ns.node.Selfie({
+    id = 190218,
+    note = L['bugged_selfie'],
+    rewards = {Achievement({id = 16446, criteria = 11})}
+}) -- Horned Filcher
+
+map.nodes[38193815] = ns.node.Selfie({
+    id = 190218,
+    note = L['bugged_selfie'],
+    rewards = {Achievement({id = 16446, criteria = 17})}
+}) -- Pine Flicker

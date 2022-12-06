@@ -182,6 +182,7 @@ map.nodes[61212950] = Rare({ -- reqiured 67030
 --     quest = nil,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56091}),
+--         Achievement({id = 16446, criteria = 18}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Quackers the Terrible
@@ -315,6 +316,7 @@ map.nodes[31456387] = Rare({
     quest = 73901,
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
+        Achievement({id = 16446, criteria = 20}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
@@ -1111,11 +1113,22 @@ map.nodes[58323192] = ns.node.Selfie({
     rewards = {Achievement({id = 16446, criteria = 2})}
 }) -- Avis Gryphonheart
 
+map.nodes[59575538] = ns.node.Selfie({
+    id = 187496,
+    rewards = {Achievement({id = 16446, criteria = 9})}
+}) -- Glade Ohuna
+
 map.nodes[58363173] = ns.node.Selfie({
     id = 193354,
     note = L['bugged_selfie'],
     rewards = {Achievement({id = 16446, criteria = 10})}
 }) -- Halia Cloudfeather
+
+map.nodes[58003184] = ns.node.Selfie({
+    id = 195895,
+    note = L['bugged_selfie'],
+    rewards = {Achievement({id = 16446, criteria = 14})}
+}) -- Nergazurai
 
 map.nodes[57493192] = ns.node.Selfie({
     id = 193357,

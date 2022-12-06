@@ -164,6 +164,7 @@ map.nodes[33127632] = Rare({
     quest = 72130, -- 73073
     rewards = {
         Achievement({id = 16676, criteria = 56048}),
+        Achievement({id = 16446, criteria = 8}),
         Item({item = 200858, note = L['trinket']}), -- Plume of the Forgotten
         Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
         Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
@@ -1164,4 +1165,4 @@ map.nodes[23677143] = GrandTheftMammoth({
 map.nodes[42276935] = ns.node.Selfie({
     id = 192186,
     rewards = {Achievement({id = 16446, criteria = 19})}
-})
+}) -- Territorial Axebeak
