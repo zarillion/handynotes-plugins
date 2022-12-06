@@ -695,7 +695,7 @@ L['jani_note'] = 'Haz click en el Montón de Basura Misteriosa para que aparezca
 L['rezan_note'] = ns.color.Red('Dentro de la mazmorra Atal\'Dazar.')
 L['bow_to_your_masters_note'] = 'Reverencia a los loa de Zandalar (' .. ns.color.Orange('/reverenciar') .. ').'
 L['options_icons_bow_to_your_masters'] = '{achievement:13020}'
-L['options_icons_bow_to_your_masters_desc'] = 'Muestra los sitios para el logro {achievement:13020}.'
+L['options_icons_bow_to_your_masters_desc'] = 'Muestra dónde están los sitios para el logro {achievement:13020}.'
 
 L['alisha_note'] = 'Este vendedor requiere progresar en las misiones de Drustvar.'
 L['elijah_note'] = 'Este vendedor requiere progresar en las misiones de Drustvar. Él comienza a vender salchichas tras hacer la misión {quest:47945}.'
@@ -724,7 +724,7 @@ L['options_icons_daily_chests'] = 'Cofres'
 L['supply_chest'] = 'Cofre de Suministros de Guerra'
 L['supply_chest_note'] = 'Una {npc:135181} o un {npc:138694} volarán por lo alto cada 45 minutos y soltarán un {npc:135238} en uno de estos tres sitios.'
 L['supply_single_drop'] = ns.color.Orange('Esta ruta de vuelo siempre suelta el cofre de suministros en este lugar.')
-L['options_icons_supplies_desc'] = 'Muestra los sitios posibles para los {npc:135238}.'
+L['options_icons_supplies_desc'] = 'Muestra dlos sitios posibles para los {npc:135238}.'
 L['options_icons_supplies'] = '{npc:135238}'
 
 L['secret_supply_chest'] = 'Cofres de Suministros Secreto'
