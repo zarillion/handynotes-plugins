@@ -23,18 +23,18 @@ L['flags_placed'] = '已插旗帜'
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = '显示 {achievement:15890} 成就中全部20个旗帜的位置。'
 
-L['broken_banding_note'] = nil
-L['chunk_of_sculpture_note'] = nil
-L['dislodged_dragoneye_note'] = nil
-L['finely_carved_wing_note'] = nil
-L['fragment_requirement_note'] = nil
-L['golden_claw_note'] = nil
-L['precious_stone_fragment_note'] = nil
-L['stone_dragontooth_note'] = nil
-L['tail_fragment_note'] = nil
-L['wrapped_gold_band_note'] = nil
+L['broken_banding_note'] = '在雕像的右脚脚踝上。'
+L['chunk_of_sculpture_note'] = '从左边的巨龙雕像地面上。'
+L['dislodged_dragoneye_note'] = '在巨龙雕像胸口下的一块岩石上。'
+L['finely_carved_wing_note'] = '巨龙雕像右膝下。'
+L['fragment_requirement_note'] = ns.color.Red('在你收集散落碎片之前，你需要在 |cFFFFFD00翼眠大使馆|r 的巨龙雕像询问 {npc:193915} 她在这里做什么。')
+L['golden_claw_note'] = '巨龙雕像后方的左爪处。'
+L['precious_stone_fragment_note'] = '在雕像的右脚下。'
+L['stone_dragontooth_note'] = '巨龙雕像基座旁边的地面上。'
+L['tail_fragment_note'] = '巨龙雕像的尾巴上。'
+L['wrapped_gold_band_note'] = '巨龙雕像右后爪下。'
 L['options_icons_fragment'] = '{achievement:16323}'
-L['options_icons_fragment_desc'] = nil
+L['options_icons_fragment_desc'] = '显示 {achievement:16323} 成就中散落碎片的位置。'
 
 L['options_icons_kite'] = '{achievement:16584}'
 L['options_icons_kite_desc'] = '显示 {achievement:16584} 成就中 {npc:198118} 的位置。'
@@ -64,10 +64,10 @@ L['hnj_western_azure_span_hunt'] = '死树顶上。'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = '显示 {achievement:16542} 成就中 {npc:194590} 的位置。'
 
-L['pretty_neat_selfie_note'] = nil
-L['bugged_selfie'] = nil
+L['pretty_neat_selfie_note'] = '用自拍神器照相。'
+L['bugged_selfie'] = '|cFFFF0000（错误：将检测到错误的 NPC 或根本检测不到。）|r'
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
-L['options_icons_pretty_neat_selfie_desc'] = nil
+L['options_icons_pretty_neat_selfie_desc'] = '显示 {achievement:16446} 成就中 NPC 的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -80,7 +80,7 @@ L['trilvarus_loreweaver_note'] = '收集 |cFFFFFD00歌声碎片|r 即可获得 {
 
 L['breezebiter_note'] = '飞到天上把他拉下来，飞到他身边。'
 
-L['forgotten_jewel_box_note'] = '从 |cFFFFFD00欧恩哈拉平原|r 的 |cFFFFFD00峦水居所|r 拾取 {item:199065} 氏族宝箱（49.4 67.3）并使用它。'
+L['forgotten_jewel_box_note'] = '{item:199065} 可以从探险队斥候的背包和翻动过的泥土中找到。'
 L['gnoll_fiend_flail_note'] = '{item:199066} 可以从探险队斥候的背包和翻动过的泥土中找到。'
 L['pepper_hammer_note'] = '收集 |cFFFFFD00树液|r 后使用 |cFFFFFD00棍子|r 来引诱 {npc:195373}。\n\n|cFFFF0000（臭虫：点击棍子可能需要重新加载）|r'
 L['snow_covered_scroll'] = '积雪覆盖的卷轴'
@@ -140,7 +140,7 @@ L['windscale_the_stormborn_note'] = '杀死通向 {npc:192357} 的 {npc:192367}�
 L['zarizz_note'] = '点击并 ' .. ns.color.Orange('/鄙视、/hiss') .. ' 在四个 {npc:193169} 处召唤稀有。'
 
 L['gold_swong_coin_note'] = '在洞穴内，{npc:191608} 在他的右侧。'
-L['nokhud_warspear_note'] = '{item:194540} 可以在探险队斥候的背包找到。'
+L['nokhud_warspear_note'] = '{item:194540} 可以从探险队斥候的背包找到。'
 L['slightly_chewed_duck_egg_note'] = '找到并拍打 {npc:192997} 获得 {item:195453} 并使用它。{item:199171} 3天后孵化为 {item:199172}。'
 L['yennus_boat'] = '海象人玩具船'
 L['yennus_boat_note'] = '拾取 |cFFFFFD00海象人玩具船|r 后获得 {item:200876}，可以在 {npc:195252} 开始上缴的任务 {quest:72063}。'
@@ -253,7 +253,7 @@ L['pt_jewel_igneous_gem_note'] = '快速点击岩浆内小岛上的3个水晶。
 L['pt_leath_poachers_pack_note'] = '在河床旁死去的狐人旁边。'
 L['pt_leath_spare_djaradin_tools_note'] = '在死去的红龙旁边。'
 L['pt_script_pulsing_earth_rune_note'] = '在倒塌的建筑物内的一张桌子后面。'
-L['pt_smith_ancient_monument_note'] = '在基座上击败4个围着一把剑的 {npc:188648}。'
+L['pt_smith_ancient_monument_note'] = '在基座上击败4个围着一把剑的 {npc:188648}。\n\n|cFFFF0000（错误：目前点击剑后不会获得物品，而是会在一段时间后发送到你的邮箱。）|r'
 L['pt_smith_curious_ingots_note'] = '|cFFFFFD00碎鳞要塞|r 地面上的锭。'
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = '在 |cFFFFFD00暗淡的熔炉|r 附近制造一个 {item:189541} 后物品将变为可以在 |cFFFFFD00煤渣盆|r 拾取。'
 L['pt_smith_molten_ingot_note'] = '将3个锭踢入熔岩以出现怪物。打败怪物后拾取箱子。'
@@ -278,6 +278,6 @@ L['options_icons_ducklings_desc'] = '显示 {achievement:16409} 成就中鸭子�
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = '显示 {achievement:16412} 成就中石板的位置。'
 
-L['grand_theft_mammoth_note'] = nil
+L['grand_theft_mammoth_note'] = '骑乘 {npc:194625} 到 {npc:198163}。\n\n|cFFFF0000（错误：如果你不能与 {npc:194625} 互动，请使用 /reload。）|r'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
-L['options_icons_grand_theft_mammoth_desc'] = nil
+L['options_icons_grand_theft_mammoth_desc'] = '显示 {achievement:16493} 成就中 {npc:194625} 的位置。'
