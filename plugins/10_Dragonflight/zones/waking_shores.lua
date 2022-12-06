@@ -124,7 +124,7 @@ map.nodes[31785474] = Rare({ -- review -- required 67030
     note = format(L['obsidian_citadel_rare_note'], 20, '{npc:187447}'),
     rewards = {
         Achievement({id = 16676, criteria = 56053}),
-        Achievement({id = 16496, criteria = 55867}) -- Obsidian Champion
+        Achievement({id = 16496, criteria = 56053}) -- Obsidian Champion
     },
     pois = {POI({27735660})} -- Sabellian
 }) -- Death's Shadow
@@ -216,7 +216,7 @@ map.nodes[32805248] = Rare({
     note = format(L['obsidian_citadel_rare_note'], 10, '{npc:187275}'),
     rewards = {
         Achievement({id = 16676, criteria = 56988}),
-        Achievement({id = 16496, criteria = 55868}), -- Obsidian Champion
+        Achievement({id = 16496, criteria = 56988}), -- Obsidian Champion
         Item({item = 200207, note = L['neck']}) -- Petrified Fungal Spores
     },
     pois = {POI({32245246})} -- Igys the Believer
@@ -296,7 +296,7 @@ map.nodes[23755734] = Rare({ -- review -- required 67030
         format(L['obsidian_citadel_rare_note'], 20, '{npc:187284}'),
     rewards = {
         Achievement({id = 16676, criteria = 56054}),
-        Achievement({id = 16496, criteria = 55869}), -- Obsidian Champion
+        Achievement({id = 16496, criteria = 56054}), -- Obsidian Champion
         Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
     },
     pois = {
