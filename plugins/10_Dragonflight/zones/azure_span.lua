@@ -90,7 +90,7 @@ map.nodes[73032680] = Rare({
 map.nodes[13584855] = Rare({
     id = 197557,
     quest = 70893,
-    note = L['Bisquis_Note'],
+    -- note = L['Bisquis_Note'],
     rewards = {
         Achievement({id = 16678, criteria = 55381}),
         Achievement({id = 16444, criteria = 1})
@@ -593,7 +593,7 @@ map.nodes[13884986] = PetBattle({
 
 map.nodes[12504940] = PT.Leatherworking({
     id = 201018,
-    quest = nil,
+    quest = 70269,
     note = L['pt_leath_well_danced_drum_note']
 }) -- Well-Danced Drum
 
