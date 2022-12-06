@@ -74,7 +74,7 @@ L['options_icons_pretty_neat_selfie_desc'] = 'Отображение место�
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['brackenhide_rare_note'] = nil
+L['brackenhide_rare_note'] = 'О появлении этого редкого монстра будет объявлено в чате, если вы находитесь на территории |cFFFFFD00Лощины Бурошкуров|r.'
 L['fisherman_tinnak_note'] = 'Соберите |cFFFFFD00Наконечник гарпуна|r, |cFFFFFD00Деревянный шест|r и |cFFFFFD00Потрепанный побег водоросли|r для призыва редкого монстра.'
 L['spellwrought_snowman_note'] = 'Соберите 10x {npc:193424} и принесите их {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Возьмите |cFFFFFD00Напевающий фрагмент|r и получите {spell:382076} затем используйте |cFFFFFD00Незаряженное сосредоточение|r для того, чтобы призвать редкого монстра.'
@@ -178,7 +178,7 @@ L['options_icons_bakar_desc'] = 'Отображение местоположен
 
 L['ancestor_note'] = nil
 L['options_icons_ancestor'] = '{achievement:16423}'
-L['options_icons_ancestor_desc'] = nil
+L['options_icons_ancestor_desc'] = 'Показать местонахождение предков для {achievement:16423}.'
 
 L['dreamguard_note'] = 'Возьмите в цель Изумрудного Стражника и  ' .. ns.color.Orange('/спать')
 L['options_icons_dreamguard'] = '{achievement:16574}'
@@ -196,7 +196,7 @@ L['acorn_harvester_note'] = 'Подберите |cFFFFFD00желудь|r с зе
 L['cracked_hourglass_note'] = '{item:199068} можно найти в сумках разведчика экспедиции и потревоженной почве.'
 L['sandy_wooden_duck_note'] = 'Возьмите {item:199069} и используйте ее.'
 
-L['tasty_hatchling_treat_note'] = nil
+L['tasty_hatchling_treat_note'] = 'В бочке за книжной полкой.'
 
 L['pt_alch_contraband_concoction_note'] = nil
 L['pt_alch_furry_gloop_note'] = nil
@@ -249,18 +249,18 @@ L['pt_ench_flashfrozen_scroll_note'] = nil
 L['pt_ench_lava_infused_seed_note'] = nil
 L['pt_engi_boomthyr_rocket_note'] = nil
 L['pt_engi_intact_coil_capacitor_note'] = nil
-L['pt_jewel_closely_guarded_shiny_note'] = nil
-L['pt_jewel_igneous_gem_note'] = nil
-L['pt_leath_poachers_pack_note'] = nil
-L['pt_leath_spare_djaradin_tools_note'] = nil
+L['pt_jewel_closely_guarded_shiny_note'] = 'Синий драгоценный камень под деревом рядом с гнездом.'
+L['pt_jewel_igneous_gem_note'] = 'Быстро нажмите на 3 кристалла на маленьких островах внутри магмы.'
+L['pt_leath_poachers_pack_note'] = 'Рядом с мертвой вульперой у русла реки.'
+L['pt_leath_spare_djaradin_tools_note'] = 'Рядом с мертвым красным драконом.'
 L['pt_script_pulsing_earth_rune_note'] = nil
 L['pt_smith_ancient_monument_note'] = nil
 L['pt_smith_curious_ingots_note'] = nil
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = nil
 L['pt_smith_molten_ingot_note'] = nil
-L['pt_smith_qalashi_weapon_diagram_note'] = nil
+L['pt_smith_qalashi_weapon_diagram_note'] = 'На вершине наковальни.'
 L['pt_tailor_itinerant_singed_fabric_note'] = nil
-L['pt_tailor_mysterious_banner_note'] = nil
+L['pt_tailor_mysterious_banner_note'] = 'Висит над зданиями.'
 L['pt_smith_grekka_anvilsmash'] = nil
 
 L['quack_week_1'] = 'Неделя 1'
