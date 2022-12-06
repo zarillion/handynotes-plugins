@@ -27,6 +27,8 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local DC = ns.DRAGON_CUSTOMIZATIONS
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2024, settings = true})
@@ -162,7 +164,7 @@ map.nodes[50043631] = Rare({ -- review
         Achievement({id = 16678, criteria = 56115}),
         Transmog({item = 199026, slot = L['1h_sword']}), -- Fire-Blessed Blade
         Transmog({item = 200310, slot = L['cloak']}), -- Stole of the Iron Phantom
-        Item({item = 197382, quest = 69583}), -- Renewed Proto-Drake: White Horns
+        DC.RenewedProtoDrake.WhiteHorns, --
         Item({item = 196985, quest = 69185}), -- Cliffside Wylderdrake: Horned Jaw
         Item({item = 198070}) -- Tattered Seavine
     },

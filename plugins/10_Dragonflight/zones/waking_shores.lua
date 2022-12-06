@@ -27,6 +27,8 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local DC = ns.DRAGON_CUSTOMIZATIONS
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2022, settings = true})
@@ -231,8 +233,8 @@ map.nodes[56004592] = Rare({
         Achievement({id = 16676, criteria = 56034}),
         Item({item = 200236, note = L['trinket']}), -- Memory of Nulltheria
         Transmog({item = 200310, note = L['cloak']}), -- Stole of the Iron Phantom
-        Item({item = 197403, quest = 69604}), -- Renewed Proto-Drake: Club Tail
-        Item({item = 197382, quest = 69583}), -- Renewed Proto-Drake: White Horns
+        DC.RenewedProtoDrake.ClubTail, --
+        DC.RenewedProtoDrake.WhiteHorns, --
         Item({item = 196992, quest = 69192}), -- Cliffside Wylderdrake: Heavy Horns
         Item({item = 196985, quest = 69185}) -- Cliffside Wylderdrake: Horned Jaw
     }
@@ -412,6 +414,15 @@ map.nodes[64173289] = Rare({
         Transmog({item = 200169, slot = L['1h_mace']}) -- Protector's Molten Cudgel
     }
 }) -- Dragonhunter Igordan
+
+map.nodes[54582137] = Rare({
+    id = 195915,
+    quest = nil,
+    rewards = {
+        DC.RenewedProtoDrake.ImpalerHorns, --
+        Item({item = 197135, quest = nil}) -- Highland Drake: Toothy Mouth
+    }
+}) -- Firava the Rekindler
 
 map.nodes[54728225] = Rare({
     id = 187209,

@@ -26,6 +26,8 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local DC = ns.DRAGON_CUSTOMIZATIONS
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2023, settings = true})
@@ -320,7 +322,7 @@ map.nodes[31456387] = Rare({
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
-        Item({item = 197372, quest = 69573}), -- Renewed Proto-Drake: Purple Hair
+        DC.RenewedProtoDrake.PurpleHair, --
         Item({item = 197606, quest = 69810}), -- Windborne Velocidrake: Swept Horns
         Mount({item = 198825, id = 1672}) -- Zenet Hatchling
     }
