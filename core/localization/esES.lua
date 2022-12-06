@@ -186,6 +186,6 @@ L['options_toggle_show_debug_currency_desc'] = 'Muestra información de depuraci
 L['options_toggle_show_debug_map'] = 'Depurar las ID del Mapa'
 L['options_toggle_show_debug_map_desc'] = 'Muestra información de depuración para los mapas'
 L['options_toggle_show_debug_quest'] = 'Depurar IDs de las Misiones'
-L['options_toggle_show_debug_quest_desc'] = 'Muestra información de depuraci para los cambios de las misiones'
+L['options_toggle_show_debug_quest_desc'] = 'Muestra información de depuración para los cambios de las misiones'
 L['options_toggle_force_nodes'] = 'Forzar Nodos'
 L['options_toggle_force_nodes_desc'] = 'Fuerza el mostrar todos los nodos'
