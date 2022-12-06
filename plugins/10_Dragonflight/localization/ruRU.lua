@@ -146,14 +146,14 @@ L['slightly_chewed_duck_egg_note'] = 'Найдите и погладьте {npc:
 L['yennus_boat'] = 'Игрушечная лодка клыкарров'
 L['yennus_boat_note'] = 'Возьмите |cFFFFFD00игрушечную лодку клыкарров|r, чтобы получить {item:200876}, который запускает задание {quest:72063}, которое можно сдать у {npc:195252}.'
 
-L['pt_alch_canteen_of_suspicious_water_note'] = nil
+L['pt_alch_canteen_of_suspicious_water_note'] = 'Глубоко внутри пещеры рядом с мертвым {npc:194887}.'
 L['pt_ench_stormbound_horn_note'] = nil
 L['pt_jewel_fragmented_key_note'] = 'Под корнями дерева в разрушенном здании.'
 L['pt_jewel_lofty_malygite_note'] = 'Парит в воздухе в пещере.'
 L['pt_leath_wind_blessed_hide_note'] = nil
-L['pt_script_sign_language_reference_sheet_note'] = nil
+L['pt_script_sign_language_reference_sheet_note'] = 'Висит у входа в палатку.'
 L['pt_smith_ancient_spear_shards_note'] = nil
-L['pt_smith_falconer_gauntlet_drawings_note'] = nil
+L['pt_smith_falconer_gauntlet_drawings_note'] = 'Остров в море, внутри хижины.'
 L['pt_tailor_noteworthy_scrap_of_carpet_note'] = nil
 L['pt_tailor_silky_surprise_note'] = nil
 
