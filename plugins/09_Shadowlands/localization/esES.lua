@@ -16,7 +16,7 @@ L['anima_channeled'] = 'ánima canalizada a %s.'
 
 L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean mascotas de combate'
 L['options_icons_squirrels'] = '{achievement:14731}'
-L['options_icons_squirrels_desc'] = 'Sitios donde aparecen las alimañas para el logro {achievement:14731}.'
+L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:14731}.'
 
 L['prepatch_vendor_note'] = 'Los objetos que se compran usando la moneda {item:199211} del evento pre-parche |cFFFF8C00Tormentas Primigenias|r.'
 
@@ -105,10 +105,10 @@ L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = 'Muestra dónde están los libros perdidos para el logro {achievement:14788}.'
 
 L['options_icons_wild_hunting'] = '{achievement:14779}'
-L['options_icons_wild_hunting_desc'] = 'Sitios de Ardenweald para las bestias del logro {achievement:14779}.'
+L['options_icons_wild_hunting_desc'] = 'Muestra dónde están las bestias de Ardenweald para el logro {achievement:14779}.'
 
 L['options_icons_wildseed_spirits'] = 'Espíritus de Semillas Silvestres'
-L['options_icons_wildseed_spirits_desc'] = 'Recompensas de los espíritus de semillas silvestres.'
+L['options_icons_wildseed_spirits_desc'] = 'Muestra dónde están las recompensas de los espíritus de semillas silvestres.'
 
 L['divine_martial_spirit'] = 'Espíritu Marcial Divino'
 L['divine_dutiful_spirit'] = 'Espíritu Obediente Divino'
@@ -490,7 +490,7 @@ L['ritualists_mantle_label'] = '{item:183399}'
 L['ritualists_mantle_note'] = 'Completa la misión {quest:62308} que te da {npc:172813}. Requiere 3 personas para invocar a {npc:174127}.'
 
 L['options_icons_crypt_couture'] = '{achievement:14763}'
-L['options_icons_crypt_couture_desc'] = 'Sitios donde encontrar las personalizaciones del disfraz de Acólito Necrótico para el logro {achievement:14763}.'
+L['options_icons_crypt_couture_desc'] = 'Muestra dónde están las personalizaciones del disfraz de Acólito Necrótico para el logro {achievement:14763}.'
 
 L['soulshape_saurid_note'] = 'En una cueva pequeña. Selecciona el {npc:182105} y haz /reverencia.'
 
@@ -549,9 +549,9 @@ L['sinrunner_note_day6'] = 'Alimenta a Blanchy con 3 {item:179271}, vendidas por
 L['options_icons_carriages'] = 'Carruajes'
 L['options_icons_carriages_desc'] = 'Muestra dónde están los caminos y los posibles carruajes que se pueden llevar.'
 L['options_icons_dredbats'] = '{npc:161015}'
-L['options_icons_dredbats_desc'] = 'Muestra dónde están y las rutas de las {npc:161015}.'
+L['options_icons_dredbats_desc'] = 'Muestra dónde están las {npc:161015} y sus rutas.'
 L['options_icons_sinrunners'] = '{npc:174032}'
-L['options_icons_sinrunners_desc'] = 'Muestra dónde están y las rutas de los {npc:174032}.'
+L['options_icons_sinrunners_desc'] = 'Muestra dónde están los {npc:174032} y sus rutas.'
 
 L['addius_note'] = 'No debería perder el tiempo con criaturas de mente débil, pero, si insistes, te haré sufrir de verdad.'
 L['eyegor_note'] = '¡Jojobado listo para el combate!'
@@ -791,7 +791,7 @@ L['mawsworn_blackguard'] = 'Guardanegro Jurafauces'
 L['mawsworn_blackguard_note'] = 'Forma fácil de seleccionar a un {npc:183173} en sigilo.'
 
 L['options_icons_covenant_assaults'] = 'Asaltos de las Curias'
-L['options_icons_covenant_assaults_desc'] = 'Recompensas para los asaltos de las curias.'
+L['options_icons_covenant_assaults_desc'] = 'Muestra dónde están las recompensas para los asaltos de las curias.'
 
 L['assault_sublabel_US'] = 'Los asaltos cambian los Martes a las 8 AM PDT y los Viernes a las 8 PM PDT'
 L['assault_sublabel_EU'] = 'Los asaltos cambian los Miércoles a las 8 AM CET y los Sábados a las 8 PM CET'
@@ -1087,12 +1087,12 @@ L['options_icons_proto_materials_desc'] = 'Muestra dónde están los materiales 
 L['options_icons_protoform_schematics'] = 'Esquemas de Protoforma'
 L['options_icons_protoform_schematics_desc'] = 'Muestra dónde están los esquemas de monturas y mascotas.'
 L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
-L['options_icons_puzzle_caches_desc'] = 'Muestra los sitios posibles para los alijos puzzle.'
+L['options_icons_puzzle_caches_desc'] = 'Muestra dónde están los sitios posibles para los alijos puzzle.'
 L['options_icons_zereth_caches'] = 'Cofres con Clave'
-L['options_icons_zereth_caches_desc'] = 'Muestra los sitios posibles para los cofres con clave.'
+L['options_icons_zereth_caches_desc'] = 'Muestra dónde están los sitios posibles para los cofres con clave.'
 L['options_icons_shrouded_cyphers'] = 'Alijos de claves camuflado'
-L['options_icons_shrouded_cyphers_desc'] = 'Muestra los sitios posibles para los alijos de claves camuflado.'
+L['options_icons_shrouded_cyphers_desc'] = 'Muestra dónde están los sitios posibles para los alijos de claves camuflado.'
 L['options_icons_mawsworn_supply_cache'] = 'Cofres de Suministros Jurafauces'
-L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra los sitios posibles para los cofres de suministros Jurafauces.'
+L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra dónde están los sitios posibles para los cofres de suministros Jurafauces.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
-L['options_icons_coreless_automa_desc'] = 'Sitios donde encontrar Automas salvajes que controlar para el logro {achievement:15542}.'
+L['options_icons_coreless_automa_desc'] = 'Muestra dónde están los Automas salvajes que controlar para el logro {achievement:15542}.'
