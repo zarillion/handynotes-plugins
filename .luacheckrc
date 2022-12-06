@@ -101,10 +101,6 @@ read_globals = {
     'OpenWorldMap',
     'Settings.OpenToCategory',
     'ToggleDropDownMenu',
-    'UIDropDownMenu_AddButton',
-    'UIDropDownMenu_AddSeparator',
-    'UIDropDownMenu_SetDisplayMode',
-    'UIDropDownMenu_SetInitializeFunction',
 
     -- WoW UI Frames & Mixins
     'AreaPOIPinMixin',
@@ -125,7 +121,6 @@ read_globals = {
     'ITEM_QUALITY_COLORS',
     'PVP_LABEL_WAR_MODE',
     'SOUNDKIT',
-    'UIDROPDOWNMENU_MENU_VALUE',
     'UNKNOWN',
     'WORLD_MAP_FILTER_TITLE',
 
@@ -134,6 +129,7 @@ read_globals = {
     'HandyNotesWorldMapPinMixin',
     'LibStub',
     'TomTom',
+    'L_UIDROPDOWNMENU_MENU_VALUE'
 }
 
 globals = {

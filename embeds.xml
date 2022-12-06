@@ -9,4 +9,5 @@
   <Include file="libs\AceEvent-3.0\AceEvent-3.0.xml"/>
   <Include file="libs\AceTimer-3.0\AceTimer-3.0.xml"/>
   <Include file="libs\Krowi_WorldMapButtons-1.4\Krowi_WorldMapButtons-1.4.xml"/>
+  <Include file="libs\LibUIDropDownMenu\LibUIDropDownMenu.xml"/>
 </Ui>
