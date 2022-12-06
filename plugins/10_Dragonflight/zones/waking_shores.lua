@@ -600,7 +600,7 @@ map.nodes[22258763] = PT.Blacksmithing({
 
 map.nodes[24906970] = PT.Tailoring({
     id = 198702,
-    quest = nil,
+    quest = 70304,
     note = L['pt_tailor_itinerant_singed_fabric_note']
 }) -- Itinerant Singed Fabric
 
@@ -691,7 +691,7 @@ map.nodes[65502570] = PT.Blacksmithing({
 
 map.nodes[67875796] = PT.Inscription({
     id = 198704,
-    quest = nil,
+    quest = 70306,
     note = L['pt_script_pulsing_earth_rune_note']
 }) -- Pulsing Earth Rune
 

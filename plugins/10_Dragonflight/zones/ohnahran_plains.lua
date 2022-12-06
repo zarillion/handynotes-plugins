@@ -553,7 +553,7 @@ map.nodes[81103790] = PT.Blacksmithing({
 
 map.nodes[85702520] = PT.Inscription({
     id = 198703,
-    quest = nil,
+    quest = 70307,
     note = L['pt_script_sign_language_reference_sheet_note']
 }) -- Sign Language Reference Sheet
 

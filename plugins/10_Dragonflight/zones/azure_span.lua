@@ -623,19 +623,19 @@ map.nodes[21564555] = PT.Enchanting({
 
 map.nodes[38505920] = PT.Enchanting({
     id = 198799,
-    quest = nil,
+    quest = 70336,
     note = L['pt_ench_forgotten_arcane_tome_note']
 }) -- Forgotten Arcane Tome
 
 map.nodes[40705450] = PT.Tailoring({
     id = 198662,
-    quest = nil,
+    quest = 70267,
     note = L['pt_tailor_intriguing_bolt_of_blue_cloth_note']
 }) -- Intriguing Bolt of Blue Cloth
 
 map.nodes[43703090] = PT.Inscription({
     id = 198686,
-    quest = nil,
+    quest = 70293,
     note = L['pt_script_frosted_parchment_note']
 }) -- Frosted Parchment
 
@@ -659,7 +659,7 @@ map.nodes[45106120] = PT.Enchanting({
 
 map.nodes[46202390] = PT.Inscription({
     id = 198693,
-    quest = nil,
+    quest = 70297,
     note = L['pt_script_dusty_darkmoon_card_note']
 }) -- Dusty Darkmoon Card
 

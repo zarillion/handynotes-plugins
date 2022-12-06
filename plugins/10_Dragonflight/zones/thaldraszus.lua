@@ -374,13 +374,13 @@ map.nodes[55203050] = PT.Alchemy({
 
 map.nodes[56104090] = PT.Inscription({
     id = 201015,
-    quest = nil,
+    quest = 70287,
     note = L['pt_script_counterfeit_darkmoon_deck_note']
 }) -- Counterfeit Darkmoon Deck
 
 map.nodes[56304120] = PT.Inscription({
     id = 198659,
-    quest = nil,
+    quest = 70264,
     note = L['pt_script_forgetful_apprentices_tome_note']
 }) -- Forgetful Apprentice's Tome
 
@@ -422,7 +422,7 @@ map.nodes[59897033] = PT.Enchanting({
 
 map.nodes[60407970] = PT.Tailoring({
     id = 198684,
-    quest = nil,
+    quest = 70288,
     note = L['pt_tailor_miniature_bronze_dragonflight_banner_note']
 }) -- Miniature Bronze Dragonflight Banner
 
