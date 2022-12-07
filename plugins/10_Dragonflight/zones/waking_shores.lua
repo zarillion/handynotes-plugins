@@ -480,6 +480,9 @@ map.nodes[69314658] = Treasure({
     note = L['dead_mans_chestplate_note'],
     rewards = {
         Achievement({id = 16297, criteria = 54702}),
+        Transmog({item = 202190, slot = L['cosmetic']}), -- Dead Man's Chains
+        Transmog({item = 202191, slot = L['cosmetic']}), -- Dead Man's Breastplate
+        Transmog({item = 202192, slot = L['cosmetic']}), -- Dead Man's Leathers
         Transmog({item = 202193, slot = L['cosmetic']}) -- Dead Man's Tunic
     }
 }) -- Dead Man's Chestplate
