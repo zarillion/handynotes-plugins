@@ -1,3 +1,8 @@
+# v12
+
+* Added LibUIDropDownMenu to try and combat UI taint reports.
+* Added food and drink locations for the One of Everything, Please achievement.
+
 # v11
 
 * Added bird locations for the That's Pretty Neat! achievement.

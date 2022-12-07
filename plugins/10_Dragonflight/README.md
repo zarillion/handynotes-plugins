@@ -77,6 +77,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 ### Thaldraszus
 
 * Dragon Glyphs for the [Thaldraszus Glyph Hunter](https://www.wowhead.com/beta/achievement=16578/thaldraszus-glyph-hunter) achievement.
+* Food and drinks for the [One of Everything, Please](https://www.wowhead.com/achievement=16621/one-of-everything-please) achievement.
 
 ## Localization
 
