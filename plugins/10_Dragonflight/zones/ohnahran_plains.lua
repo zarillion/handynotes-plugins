@@ -289,12 +289,13 @@ map.nodes[84214784] = Rare({
     }
 }) -- Windscale the Stormborn
 
-map.nodes[58596822] = Rare({ -- review
+map.nodes[58596822] = Rare({
     id = 192045,
-    quest = nil,
+    quest = 74088,
     rewards = {
-        Achievement({id = 16677, criteria = 56076})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16677, criteria = 56076}),
+        Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
+        Transmog({item = 200441, slot = L['leather']}) -- Jhakan's Horned Cowl
     }
 }) -- Windseeker Avash
 
