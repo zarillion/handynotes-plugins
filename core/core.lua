@@ -21,7 +21,7 @@ _G[ADDON_NAME] = Addon
 ----------------------------------- HELPERS -----------------------------------
 -------------------------------------------------------------------------------
 
-local DropdownMenu = CreateFrame('Frame', ADDON_NAME .. 'DropdownMenu')
+local DropdownMenu = LibDD:Create_UIDropDownMenu(ADDON_NAME .. 'DropdownMenu')
 DropdownMenu.displayMode = 'MENU'
 local function InitializeDropdownMenu(level, mapID, coord)
     if not level then return end
@@ -94,7 +94,7 @@ local function InitializeDropdownMenu(level, mapID, coord)
         LibDD:UIDropDownMenu_AddButton({
             text = CLOSE,
             notCheckable = 1,
-            func = function() CloseDropDownMenus() end
+            func = function() LibDD:CloseDropDownMenus() end
         }, level)
     end
 end
@@ -144,7 +144,7 @@ function Addon:OnClick(button, down, mapID, coord)
         DropdownMenu.initialize = function(_, level)
             InitializeDropdownMenu(level, mapID, coord)
         end
-        ToggleDropDownMenu(1, nil, DropdownMenu, self, 0, 0)
+        LibDD:ToggleDropDownMenu(1, nil, DropdownMenu, self, 0, 0)
     elseif button == 'LeftButton' and down then
         if map:CanFocus(node) then
             map:SetFocus(node, coord, not map:IsFocused(coord))

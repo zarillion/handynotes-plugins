@@ -100,7 +100,6 @@ read_globals = {
     'HideUIPanel',
     'OpenWorldMap',
     'Settings.OpenToCategory',
-    'ToggleDropDownMenu',
 
     -- WoW UI Frames & Mixins
     'AreaPOIPinMixin',
