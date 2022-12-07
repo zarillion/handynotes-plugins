@@ -19,6 +19,7 @@ local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
@@ -435,11 +436,28 @@ val.nodes[13206368] = PT.Inscription({
     note = L['pt_script_how_to_train_your_whelpling_note']
 }) -- How to Train Your Whelpling
 
+-------------------------------------------------------------------------------
+
 map.nodes[61437687] = PM.Mining({
     id = 194843,
     quest = 70258,
-    note = L['pt_mining_bridgette_holdug']
+    note = L['pm_mining_bridgette_holdug'],
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2035, note = '10'}) -- Dragon Isles Mining Knowledge
+    }
 }) -- Bridgette Holdug
+
+val.nodes[27894576] = PM.Tailoring({
+    id = 194845,
+    quest = nil,
+    note = L['pm_tailor_elysa_raywinder'],
+    parent = map.id,
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2026, note = '5'}) -- Dragon Isles Tailoring Knowledge
+    }
+}) -- Elysa Raywinder
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

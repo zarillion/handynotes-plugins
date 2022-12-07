@@ -86,6 +86,9 @@ L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las Moch
 L['pepper_hammer_note'] = 'Recoge |cFFFFFD00Savia de Árbol|r y entonces usa el |cFFFFFD00Palo|r para engañar a {npc:195373}.\n\n|cFFFF0000(BUG: Para hacer click en el palo puede ser necesario recargar)|r.'
 L['snow_covered_scroll'] = 'Pergamino Cubierto de Nieve'
 
+L['pm_engi_frizz_buzzcrank'] = nil
+L['pm_jewel_pluutar'] = nil
+L['pm_script_lydiara_whisperfeather'] = nil
 L['pt_alch_experimental_decay_sample_note'] = 'Dentro de un gran caldero verde.'
 L['pt_alch_firewater_powder_sample_note'] = 'Fuera de la casa de troncos, junto a un jarrón.'
 L['pt_ench_enriched_earthen_shard_note'] = 'Encima de una pila de rocas.'
@@ -146,6 +149,9 @@ L['slightly_chewed_duck_egg_note'] = 'Encuentra y acaricia a {npc:192997} para c
 L['yennus_boat'] = 'Barco de Juguete Tuskarr'
 L['yennus_boat_note'] = 'Despoja el |cFFFFFD00Barco de Juguete Tuskarr|r para conseguir el {item:200876}, el cual comienza la misión {quest:72063} para devolvérselo a {npc:195252}.'
 
+L['pm_ench_shalasar_glimmerdusk'] = nil
+L['pm_herb_hua_greenpaw'] = nil
+L['pm_leath_erden'] = nil
 L['pt_alch_canteen_of_suspicious_water_note'] = 'Dentro de las profundidades de una cueva cerca de un {npc:194887} muerto.'
 L['pt_ench_stormbound_horn_note'] = 'En el |cFFFFFD00Alto Son del Viento|r.'
 L['pt_jewel_fragmented_key_note'] = 'Bajo las raíces del árbol en un edificio derrumbado.'
@@ -198,6 +204,8 @@ L['sandy_wooden_duck_note'] = 'Recoge el {item:199069} y úsalo.'
 
 L['tasty_hatchling_treat_note'] = 'En un barril detrás de la librería.'
 
+L['pm_mining_bridgette_holdug'] = 'Encima de un pilar de roca cubierto de hierba.'
+L['pm_tailor_elysa_raywinder'] = nil
 L['pt_alch_contraband_concoction_note'] = 'Escondido en los arbustos. ' .. ns.color.Orange('Difícil de ver')
 L['pt_alch_furry_gloop_note'] = 'Deja a un {npc:194855} cercano dentro de cada caldera y mata al monstruo que aparecerá.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Al Sur de |cFFFFFD00Tyrhold|r.'
@@ -210,7 +218,6 @@ L['pt_script_how_to_train_your_whelpling_note'] = 'Pequeño libro marrón tirado
 L['pt_smith_draconic_flux_note'] = 'Dentro de un edificio.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Haz click en el |cFFFFFD00Telar de Tejido de Dragón Ancestral|r para completar un minijuego donde has de conectar los carretes de hilo a la gema central.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pequeña dentro de una pila de arena.'
-L['pt_mining_bridgette_holdug'] = 'Encima de un pilar de roca cubierto de hierba.'
 
 L['picante_pomfruit_cake_note'] = '{item:200904} no está disponible todos los días. Tendrás que comprobarlo cada día en el |cFF00CCFFEnclave Rubí|r. Mientras estás allí, asegúrate de probar los 3 platos disponibles para completar también el logro {achievement:16556}.'
 L['icecrown_bleu_note'] = 'Cómpraselo a {npc:196729} ' .. ns.color.NPC('<Vendedor de quesos>') .. ' en el |cFF00CCFFMercado de los Artesanos|r.'
@@ -252,6 +259,9 @@ Recoge tres objetos distintos y combínalos para crear el |cFFFFFD00"Acertijo de
 {item:200066}
 ]]
 
+L['pm_alch_grigori_vialtry'] = nil
+L['pm_skin_zenzi'] = nil
+L['pm_smith_grekka_anvilsmash'] = 'Reposa en la hierba al lado de la torre en ruinas.\n\n|cFFFF0000(Actualmente bugeado.)|r'
 L['pt_alch_frostforged_potion_note'] = 'En el centro del cráter helado.'
 L['pt_alch_well_insulated_mug_note'] = 'En la |cFFFFFD00Fortaleza de Ruinadragón|r entre varios enemigos élite.'
 L['pt_ench_enchanted_debris_note'] = 'Usa y sigue a la {npc:194872} para despojar los escombros al final.'
@@ -271,7 +281,6 @@ L['pt_smith_molten_ingot_note'] = 'Patea 3 lingotes dentro de la lava para hacer
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Encima de un yunque.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'Un trozo de tela colgando de unos árboles justo fuera de la cueva donde aparece el boss final. ' .. ns.color.Orange('Requiere precisión montando dragones o un portal de brujo')
 L['pt_tailor_mysterious_banner_note'] = 'Revoloteando por encima de los edificios.'
-L['pt_smith_grekka_anvilsmash'] = 'Reposa en la hierba al lado de la torre en ruinas.\n\n|cFFFF0000(Actualmente bugeado.)|r'
 
 L['quack_week_1'] = 'Semana 1'
 L['quack_week_2'] = 'Semana 2'

@@ -85,6 +85,9 @@ L['gnoll_fiend_flail_note'] = '{item:199066} kann in Expeditionsspäherpacks und
 L['pepper_hammer_note'] = 'Sammel |cFFFFFD00Baumharz|r und benutze dann den |cFFFFFD00Stock|r, um {npc:195373} anzulocken.\n\n|cFFFF0000(BUG: Um den Stock anzuklicken könnte ein reload nötig sein)|r'
 L['snow_covered_scroll'] = 'Schneebedeckte Schriftrolle'
 
+L['pm_engi_frizz_buzzcrank'] = 'Steht neben einem Schrein.'
+L['pm_jewel_pluutar'] = 'Im Inneren des Gebäudes.'
+L['pm_script_lydiara_whisperfeather'] = 'Sitzt auf einer Bank.'
 L['pt_alch_experimental_decay_sample_note'] = 'In einem großen grünen Kessel.'
 L['pt_alch_firewater_powder_sample_note'] = 'Außerhalb des Holzhauses neben der Vase.'
 L['pt_ench_enriched_earthen_shard_note'] = 'Auf einem Steinhaufen.'
@@ -145,6 +148,9 @@ L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {
 L['yennus_boat'] = 'Spielzeugboot der Tuskarr'
 L['yennus_boat_note'] = 'Plündere das |cFFFFFD00Spielzeugboot der Tuskarr|r, um {item:200876} zu erhalten, das die Quest {quest:72063} startet, die bei {npc:195252} abgegeben werden kann.'
 
+L['pm_ench_shalasar_glimmerdusk'] = 'Im zweiten Stock der Turmruine.'
+L['pm_herb_hua_greenpaw'] = 'Kniet neben einem Baum.'
+L['pm_leath_erden'] = 'Steht neben einem toten {npc:193092} am Fluss.'
 L['pt_alch_canteen_of_suspicious_water_note'] = 'Tief in der Höhle neben einem toten {npc:194887}.'
 L['pt_ench_stormbound_horn_note'] = 'Bei der |cFFFFFD00Windspielanhöhe|r.'
 L['pt_jewel_fragmented_key_note'] = 'Unter den Baumwurzeln in einem verfallenen Gebäude.' -- review
@@ -197,6 +203,8 @@ L['sandy_wooden_duck_note'] = 'Sammel {item:199069} und benutze diese.'
 
 L['tasty_hatchling_treat_note'] = 'In einem Fass hinter dem Bücherregal.'
 
+L['pm_mining_bridgette_holdug'] = 'Auf einem grasbewachsenen Felspfeiler.'
+L['pm_tailor_elysa_raywinder'] = 'Auf einem Vorsprung auf halber Höhe des Turms.'
 L['pt_alch_contraband_concoction_note'] = 'In Büschen versteckt. ' .. ns.color.Orange('Schwer zu sehen.')
 L['pt_alch_furry_gloop_note'] = 'Wirf ein {npc:194855} in der Nähe in jeden Kessel und töte dann den Gegner, der erscheint.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Südlich von |cFFFFFD00Tyrhold|r.'
@@ -209,7 +217,6 @@ L['pt_script_how_to_train_your_whelpling_note'] = 'Das kleine braune Buch liegt 
 L['pt_smith_draconic_flux_note'] = 'In einem Gebäude.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the Ancient Dragonweave Loom to complete a minigame where you connect the spools of thread to the center gem.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Kleines Banner in einem Sandhaufen.'
-L['pt_mining_bridgette_holdug'] = 'Auf einem grasbewachsenen Felspfeiler.'
 
 L['picante_pomfruit_cake_note'] = nil
 L['icecrown_bleu_note'] = nil
@@ -245,6 +252,9 @@ L['yennus_kite_note'] = 'Steckt an einem Ast in der Baumkrone fest.'
 L['fullsails_supply_chest'] = 'Vorratskiste der Vollsegel'
 L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item:200066}, kombiniere diese beim |cFFFFFD00"Rätsel für Aufmerksame: Ein Naturführer"|r nahe dem Schatz und füttere dann den Frosch damit.'
 
+L['pm_alch_grigori_vialtry'] = 'Auf einem Felsvorsprung mit Blick auf den |cFFFFFD00Blitzfrostangriff|r.'
+L['pm_skin_zenzi'] = 'Sitzt direkt am Flussufer.'
+L['pm_smith_grekka_anvilsmash'] = 'Sitzt im Gras neben der Turmruine.\n\n|cFFFF0000(Zurzeit verbuggt.)|r'
 L['pt_alch_frostforged_potion_note'] = 'In der Mitte des Eiskraters.'
 L['pt_alch_well_insulated_mug_note'] = 'In der |cFFFFFD00Drachenfluchfestung|r zwischen einigen Elitegegnern.'
 L['pt_ench_enchanted_debris_note'] = 'Benutze und folge dem {npc:194872}, um die Trümmer am Ende zu plündern.'
@@ -264,7 +274,6 @@ L['pt_smith_molten_ingot_note'] = 'Wirf 3 Barren in die Lava, um einen Gegner er
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Auf einem Amboss.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'Ein Stück Stoff, das an einem Baum vor der Höhle hängt, in der der |cFFFFFD00Belagerung der Drachenfluchfestung|r Endboss erscheinen wird. ' .. ns.color.Orange('Erfordert präzises Drachenreiten oder ein Hexenmeisterportal.')
 L['pt_tailor_mysterious_banner_note'] = 'Flattert auf dem Dach des Gebäudes.'
-L['pt_smith_grekka_anvilsmash'] = 'Sitzt im Gras neben der Turmruine.\n\n|cFFFF0000(Zurzeit verbuggt.)|r'
 
 L['quack_week_1'] = 'Woche 1'
 L['quack_week_2'] = 'Woche 2'

@@ -86,6 +86,9 @@ L['gnoll_fiend_flail_note'] = 'La {item:199066} peut être trouvée dans les Paq
 L['pepper_hammer_note'] = 'Récupérez la |cFFFFFD00Sève|r et utilisez le |cFFFFFD00Bâton|r pour attirer le {npc:195373}.\n\n|cFFFF0000(BUG : Pour cliquer sur le bâton, un rechargement peut être nécessaire)|r'
 L['snow_covered_scroll'] = 'Parchemin couvert de neige'
 
+L['pm_engi_frizz_buzzcrank'] = nil
+L['pm_jewel_pluutar'] = nil
+L['pm_script_lydiara_whisperfeather'] = nil
 L['pt_alch_experimental_decay_sample_note'] = 'A l\'intérieur d\'un grand chaudron vert.'
 L['pt_alch_firewater_powder_sample_note'] = 'À l\'extérieur d\'une maison en rondins, près d\'un vase.'
 L['pt_ench_enriched_earthen_shard_note'] = 'Sur un tas de pierres.'
@@ -146,6 +149,9 @@ L['slightly_chewed_duck_egg_note'] = 'Trouvez et caressez {npc:192997} pour obte
 L['yennus_boat'] = 'Bateau jouet rohart'
 L['yennus_boat_note'] = 'Récupérez le |cFFFFFD00Bateau jouet rohart|r pour obtenir {item:200876}, ce qui lance la quête {quest:72063} qui peut être rendue à {npc:195252}.'
 
+L['pm_ench_shalasar_glimmerdusk'] = nil
+L['pm_herb_hua_greenpaw'] = nil
+L['pm_leath_erden'] = nil
 L['pt_alch_canteen_of_suspicious_water_note'] = 'Au fond d\'une grotte, près d\'un {npc:194887} mort.'
 L['pt_ench_stormbound_horn_note'] = 'A la |cFFFFFD00Cime Chant-du-Vent|r.'
 L['pt_jewel_fragmented_key_note'] = 'Sous les racines d\'un arbre dans un bâtiment en ruine.'
@@ -198,6 +204,8 @@ L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
 
 L['tasty_hatchling_treat_note'] = 'Dans un tonneau derrière l\'étagère.'
 
+L['pm_mining_bridgette_holdug'] = 'Au sommet d\'un pilier de roche couvert d\'herbe.'
+L['pm_tailor_elysa_raywinder'] = nil
 L['pt_alch_contraband_concoction_note'] = 'Caché dans les buissons. ' .. ns.color.Orange('Difficile à voir.')
 L['pt_alch_furry_gloop_note'] = 'Jetez un {npc:194855} proche dans chaque chaudron puis tuez le monstre qui apparaît.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Au sud du |cFFFFFD00Bastion de Tyr|r.'
@@ -210,7 +218,6 @@ L['pt_script_how_to_train_your_whelpling_note'] = 'Un petit livre marron posé d
 L['pt_smith_draconic_flux_note'] = 'A l\'intérieur d\'un bâtiment.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Cliquez sur le |cFFFFFD00Rouet tisse-dragon ancien|r pour effectuer un mini-jeu où vous devez relier les bobines de fil à la gemme centrale.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Une petite bannière dans un tas de sable.'
-L['pt_mining_bridgette_holdug'] = 'Au sommet d\'un pilier de roche couvert d\'herbe.'
 
 L['picante_pomfruit_cake_note'] = '{item:200904} n\'est pas disponible tous les jours, alors revenez quotidiennement à l\'|cFF00CCFFEnclave de Rubis|r. Pendant que vous y êtes, n\'oubliez pas de goûter les 3 plats disponibles pour obtenir {achievement:16556}.'
 L['icecrown_bleu_note'] = 'Achetez auprès de {npc:196729} ' .. ns.color.NPC('<Fromager>') .. ' au |cFF00CCFFMarché d’artisanat|r.'
@@ -252,6 +259,9 @@ Récupérez trois items différents et combinez-les à |cFFFFFD00"l\'Énigmes sa
 {item:200066}
 ]]
 
+L['pm_alch_grigori_vialtry'] = nil
+L['pm_skin_zenzi'] = nil
+L['pm_smith_grekka_anvilsmash'] = 'Elle est assise dans l\'herbe à côté de la tour en ruines.\n\n|cFFFF0000(Actuellement buggé.)|r'
 L['pt_alch_frostforged_potion_note'] = 'Au milieu du cratère gelé.'
 L['pt_alch_well_insulated_mug_note'] = 'Dans le |cFFFFFD00Donjon du Fléau-des-Dragons|r entre un groupe de monstres élites.'
 L['pt_ench_enchanted_debris_note'] = 'Utilisez et suivez le {npc:194872} pour récupérer les débris à la fin.'
@@ -271,7 +281,6 @@ L['pt_smith_molten_ingot_note'] = 'Envoyez 3 lingots dans la lave pour faire app
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Au sommet d\'une enclume.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'Un morceau de tissu accroché à un arbre juste à l\'extérieur de la grotte où le boss final apparaît.' .. ns.color.Orange('Nécessite de la précision avec le Vol à dos de Dragon ou bien un portail de démoniste.')
 L['pt_tailor_mysterious_banner_note'] = 'Flottant sur le toit des bâtiments.'
-L['pt_smith_grekka_anvilsmash'] = 'Elle est assise dans l\'herbe à côté de la tour en ruines.\n\n|cFFFF0000(Actuellement buggé.)|r'
 
 L['quack_week_1'] = 'Semaine 1'
 L['quack_week_2'] = 'Semaine 2'

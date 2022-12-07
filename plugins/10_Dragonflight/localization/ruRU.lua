@@ -86,6 +86,9 @@ L['gnoll_fiend_flail_note'] = '{item:199066} можно найти в сумка
 L['pepper_hammer_note'] = 'Возьмите |cFFFFFD00Древесный сок|r и используйте его на |cFFFFFD00палочке|r чтобы приманить {npc:195373}.\n\n|cFFFF0000(БАГ: Чтобы нажать на палку, может потребоваться перезагрузка)|r'
 L['snow_covered_scroll'] = 'Занесенный снегом свиток'
 
+L['pm_engi_frizz_buzzcrank'] = nil
+L['pm_jewel_pluutar'] = nil
+L['pm_script_lydiara_whisperfeather'] = nil
 L['pt_alch_experimental_decay_sample_note'] = 'Внутри большого зеленого котла.'
 L['pt_alch_firewater_powder_sample_note'] = 'Снаружи бревенчатый дом рядом с вазой.'
 L['pt_ench_enriched_earthen_shard_note'] = 'На куче камней.'
@@ -146,6 +149,9 @@ L['slightly_chewed_duck_egg_note'] = 'Найдите и погладьте {npc:
 L['yennus_boat'] = 'Игрушечная лодка клыкарров'
 L['yennus_boat_note'] = 'Возьмите |cFFFFFD00игрушечную лодку клыкарров|r, чтобы получить {item:200876}, который запускает задание {quest:72063}, которое можно сдать у {npc:195252}.'
 
+L['pm_ench_shalasar_glimmerdusk'] = nil
+L['pm_herb_hua_greenpaw'] = nil
+L['pm_leath_erden'] = nil
 L['pt_alch_canteen_of_suspicious_water_note'] = 'Глубоко внутри пещеры рядом с мертвым {npc:194887}.'
 L['pt_ench_stormbound_horn_note'] = nil
 L['pt_jewel_fragmented_key_note'] = 'Под корнями дерева в разрушенном здании.'
@@ -198,6 +204,8 @@ L['sandy_wooden_duck_note'] = 'Возьмите {item:199069} и использ�
 
 L['tasty_hatchling_treat_note'] = 'В бочке за книжной полкой.'
 
+L['pm_mining_bridgette_holdug'] = 'На вершине травянистого каменного столба.'
+L['pm_tailor_elysa_raywinder'] = nil
 L['pt_alch_contraband_concoction_note'] = nil
 L['pt_alch_furry_gloop_note'] = 'Бросьте ближайшего {npc:194855} в каждый котел, затем убейте появившегося монстра.'
 L['pt_ench_fractured_titanic_sphere_note'] = nil
@@ -210,7 +218,6 @@ L['pt_script_how_to_train_your_whelpling_note'] = 'Маленькая корич
 L['pt_smith_draconic_flux_note'] = 'Внутри здания.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = nil
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Маленький баннер внутри кучи песка.'
-L['pt_mining_bridgette_holdug'] = 'На вершине травянистого каменного столба.'
 
 L['picante_pomfruit_cake_note'] = nil
 L['icecrown_bleu_note'] = nil
@@ -252,6 +259,9 @@ L['hidden_hornswog_hoard_note'] = [[
 {item:200066}
 ]]
 
+L['pm_alch_grigori_vialtry'] = nil
+L['pm_skin_zenzi'] = nil
+L['pm_smith_grekka_anvilsmash'] = nil
 L['pt_alch_frostforged_potion_note'] = 'Посреди ледяного кратера.'
 L['pt_alch_well_insulated_mug_note'] = nil
 L['pt_ench_enchanted_debris_note'] = 'Активируйте и следуйте за {npc:194872}, чтобы собрать обломки в конце.'
@@ -271,7 +281,6 @@ L['pt_smith_molten_ingot_note'] = 'Пните 3 слитка в лаву, что
 L['pt_smith_qalashi_weapon_diagram_note'] = 'На вершине наковальни.'
 L['pt_tailor_itinerant_singed_fabric_note'] = nil
 L['pt_tailor_mysterious_banner_note'] = 'Висит над зданиями.'
-L['pt_smith_grekka_anvilsmash'] = nil
 
 L['quack_week_1'] = 'Неделя 1'
 L['quack_week_2'] = 'Неделя 2'

@@ -85,6 +85,9 @@ L['gnoll_fiend_flail_note'] = '{item:199066} can be found in Expedition Scout\'s
 L['pepper_hammer_note'] = 'Collect |cFFFFFD00Tree Sap|r and then use the |cFFFFFD00Stick|r to lure the {npc:195373}.\n\n|cFFFF0000(BUG: To click on the stick a reload might be necessary)|r'
 L['snow_covered_scroll'] = 'Snow Covered Scroll'
 
+L['pm_engi_frizz_buzzcrank'] = 'Stands next to a shrine.'
+L['pm_jewel_pluutar'] = 'Inside the building.'
+L['pm_script_lydiara_whisperfeather'] = 'Sits on a bench.'
 L['pt_alch_experimental_decay_sample_note'] = 'Inside a large green cauldron.'
 L['pt_alch_firewater_powder_sample_note'] = 'Outside log house next to vase.'
 L['pt_ench_enriched_earthen_shard_note'] = 'On a pile of rocks.'
@@ -145,6 +148,9 @@ L['slightly_chewed_duck_egg_note'] = 'Find and pet {npc:192997} to get {item:195
 L['yennus_boat'] = 'Tuskarr Toy Boat'
 L['yennus_boat_note'] = 'Loot the |cFFFFFD00Tuskarr Toy Boat|r to get {item:200876}, which starts the quest {quest:72063} that can be turned in at {npc:195252}.'
 
+L['pm_ench_shalasar_glimmerdusk'] = 'On the second floor of the broken tower.'
+L['pm_herb_hua_greenpaw'] = 'Kneels next to a tree.'
+L['pm_leath_erden'] = 'Standing next to a dead {npc:193092} by the river.'
 L['pt_alch_canteen_of_suspicious_water_note'] = 'Deep inside cave near a dead {npc:194887}.'
 L['pt_ench_stormbound_horn_note'] = 'In |cFFFFFD00Windsong Rise|r.'
 L['pt_jewel_fragmented_key_note'] = 'Under the tree roots in a crumbled building.'
@@ -197,6 +203,8 @@ L['sandy_wooden_duck_note'] = 'Collect {item:199069} and use it.'
 
 L['tasty_hatchling_treat_note'] = 'In a barrel behind the bookshelf.'
 
+L['pm_mining_bridgette_holdug'] = 'On top of a grassy rock pillar.'
+L['pm_tailor_elysa_raywinder'] = 'On a ledge halfway up the tower.'
 L['pt_alch_contraband_concoction_note'] = 'Hidden in bushes. ' .. ns.color.Orange('Difficult to see.')
 L['pt_alch_furry_gloop_note'] = 'Drop a nearby {npc:194855} into each cauldron then kill the monster that spawns.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'South of |cFFFFFD00Tyrhold|r.'
@@ -209,7 +217,6 @@ L['pt_script_how_to_train_your_whelpling_note'] = 'Little brown book lying in th
 L['pt_smith_draconic_flux_note'] = 'Inside a building.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the |cFFFFFD00Ancient Dragonweave Loom|r to complete a minigame where you connect the spools of thread to the center gem.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Small banner inside a pile of sand.'
-L['pt_mining_bridgette_holdug'] = 'On top of a grassy rock pillar.'
 
 L['picante_pomfruit_cake_note'] = '{item:200904} is not available every days so check back at |cFF00CCFFThe Ruby Enclave|r daily. While you are there, be sure to sample the 3 available dishes to complete {achievement:16556} as well.'
 L['icecrown_bleu_note'] = 'Purchase from {npc:196729} ' .. ns.color.NPC('<Cheesemonger>') .. ' in |cFF00CCFFThe Artisan\'s Market|r.'
@@ -251,6 +258,9 @@ Collect three different items and combine them at the |cFFFFFD00"Observant Riddl
 {item:200066}
 ]]
 
+L['pm_alch_grigori_vialtry'] = 'On a ledge overlooking |cFFFFFD00Flashfrost Assault|r.'
+L['pm_skin_zenzi'] = 'Sits next to the river.'
+L['pm_smith_grekka_anvilsmash'] = 'Sits in the grass next to the ruined tower.\n\n|cFFFF0000(Currently bugged.)|r'
 L['pt_alch_frostforged_potion_note'] = 'In the middle of the icy crater.'
 L['pt_alch_well_insulated_mug_note'] = 'In |cFFFFFD00Dragonbane Keep|r between a number of elite mobs.'
 L['pt_ench_enchanted_debris_note'] = 'Use and follow the {npc:194872} to loot the debris at the end.'
@@ -270,7 +280,6 @@ L['pt_smith_molten_ingot_note'] = 'Kick 3 ingots into the lava to spawn a mob. L
 L['pt_smith_qalashi_weapon_diagram_note'] = 'On top of an anvil.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'A piece of fabric hanging on a trees just outside the cave where the end boss spawns. ' .. ns.color.Orange('Requires precision Dragonriding or a warlock portal.')
 L['pt_tailor_mysterious_banner_note'] = 'Fluttering on top of the buildings.'
-L['pt_smith_grekka_anvilsmash'] = 'Sits in the grass next to the ruined tower.\n\n|cFFFF0000(Currently bugged.)|r'
 
 L['quack_week_1'] = 'Week 1'
 L['quack_week_2'] = 'Week 2'

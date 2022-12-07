@@ -85,6 +85,9 @@ L['gnoll_fiend_flail_note'] = '{item:199066} 可以从探险队斥候的背包�
 L['pepper_hammer_note'] = '收集 |cFFFFFD00树液|r 后使用 |cFFFFFD00棍子|r 来引诱 {npc:195373}。\n\n|cFFFF0000（臭虫：点击棍子可能需要重新加载）|r'
 L['snow_covered_scroll'] = '积雪覆盖的卷轴'
 
+L['pm_engi_frizz_buzzcrank'] = nil
+L['pm_jewel_pluutar'] = nil
+L['pm_script_lydiara_whisperfeather'] = nil
 L['pt_alch_experimental_decay_sample_note'] = '在一个绿色大锅里面。'
 L['pt_alch_firewater_powder_sample_note'] = '在木屋外面花瓶旁边。'
 L['pt_ench_enriched_earthen_shard_note'] = '在一堆石头上。'
@@ -145,6 +148,9 @@ L['slightly_chewed_duck_egg_note'] = '找到并拍打 {npc:192997} 获得 {item:
 L['yennus_boat'] = '海象人玩具船'
 L['yennus_boat_note'] = '拾取 |cFFFFFD00海象人玩具船|r 后获得 {item:200876}，可以在 {npc:195252} 开始上缴的任务 {quest:72063}。'
 
+L['pm_ench_shalasar_glimmerdusk'] = nil
+L['pm_herb_hua_greenpaw'] = nil
+L['pm_leath_erden'] = nil
 L['pt_alch_canteen_of_suspicious_water_note'] = '洞穴深处一个死掉的 |cFFFFFD00探险队斥候|r 旁边。'
 L['pt_ench_stormbound_horn_note'] = '在 |cFFFFFD00风歌高地|r。'
 L['pt_jewel_fragmented_key_note'] = '在倒塌建筑的树根下。'
@@ -197,6 +203,8 @@ L['sandy_wooden_duck_note'] = '收集 {item:199069} 并使用它。'
 
 L['tasty_hatchling_treat_note'] = '在书架后面的一个桶里。'
 
+L['pm_mining_bridgette_holdug'] = '在长满草的石柱上。'
+L['pm_tailor_elysa_raywinder'] = nil
 L['pt_alch_contraband_concoction_note'] = '隐藏在灌木丛中。' .. ns.color.Orange('很难发现。')
 L['pt_alch_furry_gloop_note'] = '将附近的 {npc:194855} 放入每个大锅中，然后杀死出现的怪物。'
 L['pt_ench_fractured_titanic_sphere_note'] = '|cFFFFFD00提尔要塞|r 南侧。'
@@ -209,7 +217,6 @@ L['pt_script_how_to_train_your_whelpling_note'] = '躺在沙盒里的棕色小�
 L['pt_smith_draconic_flux_note'] = '建筑物内。'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '点击 |cFFFFFD00上古龙纹织布机|r 以完成一个小游戏，将线轴连接到中心宝石。'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = '一堆沙子里的小旗帜。'
-L['pt_mining_bridgette_holdug'] = '在长满草的石柱上。'
 
 L['picante_pomfruit_cake_note'] = '{item:200904} 并非每天都可用，因此请每天查看 |cFF00CCFF红玉飞地|r。当在那里时，一定要品尝3种可用的菜肴来完成 {achievement:16556}。'
 L['icecrown_bleu_note'] = '从 |cFF00CCFF匠人集市|r 的 {npc:196729} ' .. ns.color.NPC('<Cheesemonger>') .. ' 购买。'
@@ -251,6 +258,9 @@ L['hidden_hornswog_hoard_note'] = [[
 {item:200066}
 ]]
 
+L['pm_alch_grigori_vialtry'] = nil
+L['pm_skin_zenzi'] = nil
+L['pm_smith_grekka_anvilsmash'] = '在废墟塔旁的草丛中。\n\n|cFFFF0000（目前有问题。）|r'
 L['pt_alch_frostforged_potion_note'] = '在冰坑中间。'
 L['pt_alch_well_insulated_mug_note'] = '在 |cFFFFFD00灭龙要塞|r 一些精英怪物之间。'
 L['pt_ench_enchanted_debris_note'] = '使用并跟随 {npc:194872} 在最后拾取残骸。'
@@ -270,7 +280,6 @@ L['pt_smith_molten_ingot_note'] = '将3个锭踢入熔岩以出现怪物。打�
 L['pt_smith_qalashi_weapon_diagram_note'] = '在铁砧之上。'
 L['pt_tailor_itinerant_singed_fabric_note'] = '一块布料挂在树上，就在最终首领出现的洞穴外。' .. ns.color.Orange('需要精准驭龙或术士传送门。')
 L['pt_tailor_mysterious_banner_note'] = '在建筑物的顶部飘扬。'
-L['pt_smith_grekka_anvilsmash'] = '在废墟塔旁的草丛中。\n\n|cFFFF0000（目前有问题。）|r'
 
 L['quack_week_1'] = '第1周'
 L['quack_week_2'] = '第2周'

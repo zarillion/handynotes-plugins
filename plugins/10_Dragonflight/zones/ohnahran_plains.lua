@@ -11,12 +11,14 @@ local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
 local PetBattle = ns.node.PetBattle
+local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
@@ -557,6 +559,38 @@ map.nodes[86405370] = PT.Leatherworking({
     quest = nil,
     note = L['pt_leath_wind_blessed_hide_note']
 }) -- Wind-Blessed Hide
+
+-------------------------------------------------------------------------------
+
+map.nodes[82455067] = PM.Leatherworking({
+    id = 194842,
+    quest = nil,
+    note = L['pm_leath_erden'],
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2025, note = '5'}) -- Dragon Isles Leatherworking Knowledge
+    }
+}) -- Erden
+
+map.nodes[58375000] = PM.Herbalism({
+    id = 194839,
+    quest = nil,
+    note = L['pm_herb_hua_greenpaw'],
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2034, note = '10'}) -- Dragon Isles Herbalism Knowledge
+    }
+}) -- Hua Greenpaw
+
+map.nodes[62441868] = PM.Enchanting({
+    id = 194837,
+    quest = 70251,
+    note = L['pm_ench_shalasar_glimmerdusk'],
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2030, note = '5'}) -- Dragon Isles Enchanting Knowledge
+    }
+}) -- Shalasar Glimmerdusk
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

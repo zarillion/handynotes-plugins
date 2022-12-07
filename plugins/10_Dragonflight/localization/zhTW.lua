@@ -85,6 +85,9 @@ L['gnoll_fiend_flail_note'] = '{item:199066} 可以在遠征隊斥侯包和挖�
 L['pepper_hammer_note'] = '收集 |cFFFFFD00樹液|r 然後點選 |cFFFFFD00棍子|r 來引誘 {npc:195373}.\n\n|cFFFF0000(BUG: 要點選棍子可能需要你重載UI)|r'
 L['snow_covered_scroll'] = '覆滿雪的卷軸'
 
+L['pm_engi_frizz_buzzcrank'] = nil
+L['pm_jewel_pluutar'] = nil
+L['pm_script_lydiara_whisperfeather'] = nil
 L['pt_alch_experimental_decay_sample_note'] = '在一個綠色的大鍋內'
 L['pt_alch_firewater_powder_sample_note'] = '在木頭房子外面的花瓶附近'
 L['pt_ench_enriched_earthen_shard_note'] = '在一堆石頭上'
@@ -145,6 +148,9 @@ L['slightly_chewed_duck_egg_note'] = '找到並撫摸 {npc:192997} 來取得 {it
 L['yennus_boat'] = '巨牙海民玩具船'
 L['yennus_boat_note'] = '拾取巨牙海民玩具船來取得 {item:200876}, 其可以開始任務 {quest:72063}, 可以向 {npc:195252} 回報.'
 
+L['pm_ench_shalasar_glimmerdusk'] = nil
+L['pm_herb_hua_greenpaw'] = nil
+L['pm_leath_erden'] = nil
 L['pt_alch_canteen_of_suspicious_water_note'] = '在洞穴深處, 靠近一個死掉的 {npc:194887}.'
 L['pt_ench_stormbound_horn_note'] = '在 |cFFFFFD00風頌高地|r.'
 L['pt_jewel_fragmented_key_note'] = '在一個崩塌建築裡的樹根下.'
@@ -197,6 +203,8 @@ L['sandy_wooden_duck_note'] = '收集 {item:199069} 並使用它.'
 
 L['tasty_hatchling_treat_note'] = '在書架後的一個桶子內'
 
+L['pm_tailor_elysa_raywinder'] = nil
+L['pm_mining_bridgette_holdug'] = '在一個長草的石柱頂端'
 L['pt_alch_contraband_concoction_note'] = '藏在樹叢內' .. ns.color.Orange('很難看到.')
 L['pt_alch_furry_gloop_note'] = '丟一個附近的 {npc:194855} 到每個大鍋然後殺掉刷新出來的怪物'
 L['pt_ench_fractured_titanic_sphere_note'] = '|cFFFFFD00提爾堡|r 南邊.'
@@ -209,7 +217,6 @@ L['pt_script_how_to_train_your_whelpling_note'] = '躺在沙盒內的一本小�
 L['pt_smith_draconic_flux_note'] = '在一棟建築內'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '點選 |cFFFFFD00古老的龍紡織布機|r 來完成一個小遊戲把線捲連到中間的寶石.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = '在一堆沙中的小旗幟'
-L['pt_mining_bridgette_holdug'] = '在一個長草的石柱頂端'
 
 L['picante_pomfruit_cake_note'] = '{item:200904} 不是每天都有, 請每天回來 |cFF00CCFF晶紅盛宴|r 檢查. 當你在這的時候, 記得試吃3種有的食物來同時完成 {achievement:16556}.'
 L['icecrown_bleu_note'] = '從在 |cFF00CCFF工匠市場t|r 的 {npc:196729} ' .. ns.color.NPC('<乳酪商>') .. ' 處購買.'
@@ -251,6 +258,9 @@ L['hidden_hornswog_hoard_note'] = [[
 {item:200066}
 ]]
 
+L['pm_alch_grigori_vialtry'] = nil
+L['pm_skin_zenzi'] = nil
+L['pm_smith_grekka_anvilsmash'] = nil
 L['pt_alch_frostforged_potion_note'] = nil
 L['pt_alch_well_insulated_mug_note'] = nil
 L['pt_ench_enchanted_debris_note'] = nil
@@ -270,7 +280,6 @@ L['pt_smith_molten_ingot_note'] = nil
 L['pt_smith_qalashi_weapon_diagram_note'] = nil
 L['pt_tailor_itinerant_singed_fabric_note'] = nil
 L['pt_tailor_mysterious_banner_note'] = nil
-L['pt_smith_grekka_anvilsmash'] = nil
 
 L['quack_week_1'] = nil
 L['quack_week_2'] = nil

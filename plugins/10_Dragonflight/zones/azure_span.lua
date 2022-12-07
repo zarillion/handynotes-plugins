@@ -12,12 +12,14 @@ local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local PetBattle = ns.node.PetBattle
+local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
@@ -686,6 +688,38 @@ map.nodes[67061316] = PT.Alchemy({
     quest = 70309,
     note = L['pt_alch_firewater_powder_sample_note']
 }) -- Firewater Powder Sample
+
+-------------------------------------------------------------------------------vvv
+
+map.nodes[17762167] = PM.Engineering({
+    id = 194838,
+    quest = nil,
+    note = L['pm_engi_frizz_buzzcrank'],
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2027, note = '5'}) -- Dragon Isles Engineering Knowledge
+    }
+}) -- Frizz Buzzcrank
+
+map.nodes[40146434] = PM.Inscription({
+    id = 194840,
+    quest = nil,
+    note = L['pm_script_lydiara_whisperfeather'],
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2028, note = '5'}) -- Dragon Isles Inscription Knowledge
+    }
+}) -- Lydiara Whisperfeather
+
+map.nodes[46244076] = PM.Jewelcrafting({
+    id = 194841,
+    quest = nil,
+    note = L['pm_jewel_pluutar'],
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2029, note = '5'}) -- Dragon Isles Jewelcrafting Knowledge
+    }
+}) -- Pluutar
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

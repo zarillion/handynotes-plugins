@@ -19,6 +19,7 @@ local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
@@ -722,11 +723,37 @@ map.nodes[74703790] = PT.Tailoring({
     note = L['pt_tailor_mysterious_banner_note']
 }) -- Mysterious Banner
 
+-------------------------------------------------------------------------------
+
 map.nodes[43276663] = PM.Blacksmithing({
     id = 194836,
     quest = nil,
-    note = L['pt_smith_grekka_anvilsmash']
+    note = L['pm_smith_grekka_anvilsmash'],
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2023, note = '5'}) -- Dragon Isles Blacksmithing Knowledge
+    }
 }) -- Grekka Anvilsmash -- currently bugged
+
+map.nodes[60827590] = PM.Alchemy({
+    id = 194829,
+    quest = 70247,
+    note = L['pm_alch_grigori_vialtry'],
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2024, note = '5'}) -- Dragon Isles Alchemy Knowledge
+    }
+}) -- Grigori Vialtry
+
+map.nodes[73286972] = PM.Skinning({
+    id = 194844,
+    quest = nil,
+    note = L['pm_skin_zenzi'],
+    rewards = {
+        Item({item = 190456, note = '25'}), -- Artisan's Mettle
+        Currency({id = 2033, note = '10'}) -- Dragon Isles Skinning Knowledge
+    }
+}) -- Zenzi
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
