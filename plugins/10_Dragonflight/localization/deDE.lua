@@ -218,15 +218,15 @@ L['pt_smith_draconic_flux_note'] = 'In einem Gebäude.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the Ancient Dragonweave Loom to complete a minigame where you connect the spools of thread to the center gem.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Kleines Banner in einem Sandhaufen.'
 
-L['picante_pomfruit_cake_note'] = nil
-L['icecrown_bleu_note'] = nil
-L['dreamwarding_dripbrew_note'] = nil
-L['arcanostabilized_provisions_note'] = nil
-L['steamed_scarab_steak_note'] = nil
-L['craft_creche_crowler_note'] = nil
-L['bivigosas_blood_sausages_note'] = nil
-L['options_icons_specialties'] = nil
-L['options_icons_specialties_desc'] = nil
+L['picante_pomfruit_cake_note'] = 'Der {item:200904} steht auf dem Tisch, ist jedoch nicht immer verfügbar.' -- While you are there, be sure to sample the 3 available dishes to complete {achievement:16556} as well.
+L['icecrown_bleu_note'] = 'Kann von {npc:196729} bei |cFF00CCFFDer Handwerkermarkt|r gekauft werden.'
+L['dreamwarding_dripbrew_note'] = 'Kann von {npc:197872} bei |cFFFFFD00Das Nachtlabor|r gekauft werden.'
+L['arcanostabilized_provisions_note'] = 'Kann von {npc:198831} beim |cFF00CCFFTemporaler Konflux|r in |cFF00CCFFDie Zukunft der Primalisten|r gekauft werden (nutze das |cFF00CCFFPortal zur Zukunft der Primalisten|r).'
+L['steamed_scarab_steak_note'] = 'Kann von {npc:197586} beim |cFFFFFD00Bad der Ruhigen Träume|r gekauft werden.'
+L['craft_creche_crowler_note'] = 'Kann von {npc:187444} gekauft werden, der sich täglich an einem der folgenden Orte aufhält: |cFFFFFD00Temporaler Konflux|r, |cFFFFFD00Rubinlebensschrein|r, |cFFFFFD00Gasthaus zur Grünen Schuppe|r oder dem |cFFFFFD00Lager im Nirgendwo|r.'
+L['bivigosas_blood_sausages_note'] = 'Kann von {npc:188895} beim |cFFFFFD00Posten der Gelikyr|r gekauft werden.'
+L['options_icons_specialties'] = '{achievement:16621}'
+L['options_icons_specialties_desc'] = 'Zeigt die Positionen für die Spezialitäten an Speis und Trank für den Erfolg {achievement:16621} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
