@@ -144,7 +144,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         Armor = Item({item = 197357, quest = nil}),
         BeakedSnout = Item({item = 197401, quest = nil}),
         BlackAndRedArmor = Item({item = 197348, quest = nil}),
-        BlackScales = Item({item = 197392, quest = nil}),
+        BlackScales = Item({item = 197392, quest = 69593}),
         BlueHair = Item({item = 197368, quest = nil}),
         BlueScales = Item({item = 197390, quest = nil}),
         BovineHorns = Item({item = 197377, quest = nil}),
@@ -161,7 +161,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         FinnedJaw = Item({item = 197388, quest = nil}),
         FinnedTail = Item({item = 197404, quest = nil}),
         FinnedThroat = Item({item = 197408, quest = nil}),
-        GoldAndBlackArmor = Item({item = 197346, quest = nil}),
+        GoldAndBlackArmor = Item({item = 197346, quest = 69547}),
         GoldAndRedArmor = Item({item = 197351, quest = nil}),
         GoldAndWhiteArmor = Item({item = 197349, quest = nil}),
         GradientHorns = Item({item = 197381, quest = nil}),
@@ -207,7 +207,15 @@ ns.DRAGON_CUSTOMIZATIONS = {
     }
 }
 
+-- Cliffside Wylderdrake: Black Scales 69213
+-- Cliffside Wylderdrake: Gold and Black Armor 69164
+-- Cliffside Wylderdrake: Spear Tail 69220
+
+-- Highland Drake: Black Scales 69343
+-- Highland Drake: Gold and Black Armor 69290
 -- Highland Drake: Tan Horns 69322
+
+-- Windborn Velocidrake: Black Scales 69815
 -- Windborn Velocidrake: Gray Hair 69802
 
 -------------------------------------------------------------------------------
