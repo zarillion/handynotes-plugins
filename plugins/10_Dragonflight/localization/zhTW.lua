@@ -23,18 +23,18 @@ L['flags_placed'] = '旗幟已插上'
 L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = '顯示 {achievement:15890} 成就中全部20個旗幟的位置.'
 
-L['broken_banding_note'] = nil
-L['chunk_of_sculpture_note'] = nil
-L['dislodged_dragoneye_note'] = nil
-L['finely_carved_wing_note'] = nil
-L['fragment_requirement_note'] = nil
-L['golden_claw_note'] = nil
-L['precious_stone_fragment_note'] = nil
-L['stone_dragontooth_note'] = nil
-L['tail_fragment_note'] = nil
-L['wrapped_gold_band_note'] = nil
+L['broken_banding_note'] = '在雕像的右腳踝上'
+L['chunk_of_sculpture_note'] = '在地上, 在龍雕像的左邊'
+L['dislodged_dragoneye_note'] = '在龍雕像胸部底下的石頭上'
+L['finely_carved_wing_note'] = '在龍雕像右膝底下'
+L['fragment_requirement_note'] = ns.color.Red('在你能夠收集碎塊前, 你需要詢問在 |cFFFFFD00翼息大使館|r 龍之雕像的 {npc:193915} 他在這裡幹嘛.')
+L['golden_claw_note'] = '在龍雕像的左後爪'
+L['precious_stone_fragment_note'] = '在雕像的右腳下'
+L['stone_dragontooth_note'] = '在龍雕像台座旁的地上'
+L['tail_fragment_note'] = '在龍雕像尾巴上'
+L['wrapped_gold_band_note'] = '在龍雕像的右後爪下'
 L['options_icons_fragment'] = '{achievement:16323}'
-L['options_icons_fragment_desc'] = nil
+L['options_icons_fragment_desc'] = '顯示成就 {achievement:16323} 所需的碎塊位置'
 
 L['options_icons_kite'] = '{achievement:16584}'
 L['options_icons_kite_desc'] = '顯示成就 {achievement:16584} 所需的 {npc:198118} 位置.'
@@ -57,26 +57,26 @@ L['options_icons_dragonrace_desc'] = '顯示飛龍競速的位置.'
 
 L['squirrels_note'] = '你必須對小動物而不是戰寵使用表情 /love'
 L['options_icons_squirrels'] = '{achievement:16729}'
-L['options_icons_squirrels_desc'] = '顯示 {achievement:16729} 成就中小動物的位置'
+L['options_icons_squirrels_desc'] = '顯示 {achievement:16729} 成就中小動物的位置.'
 
 L['hnj_sublabel'] = '需要當地的席卡氏族大狩獵'
 L['hnj_western_azure_span_hunt'] = '在死掉樹的頂端'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
-L['options_icons_hemet_nesingwary_jr_desc'] = '顯示成就 {achievement:16542} 所需的 {npc:194590} 位置'
+L['options_icons_hemet_nesingwary_jr_desc'] = '顯示成就 {achievement:16542} 所需的 {npc:194590} 位置.'
 
-L['pretty_neat_selfie_note'] = nil
-L['bugged_selfie'] = nil
+L['pretty_neat_selfie_note'] = '使用 S.E.L.F.I.E. 照相機拍一張照'
+L['bugged_selfie'] = '|cFFFF0000(BUG: 有可能會是錯誤或是沒有NPC被偵測到.)|r'
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
-L['options_icons_pretty_neat_selfie_desc'] = nil
+L['options_icons_pretty_neat_selfie_desc'] = '顯示成就 {achievement:16446} 所需的 NPC 位置'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
 L['brackenhide_rare_note'] = '如果你在 |cFFFFFD00蕨皮谷|r 區域的話, 稀有重生時會在對話欄公告'
-L['fisherman_tinnak_note'] = '收集 破損的釣魚竿, 撕裂的釣魚網 和 老舊的魚叉 來召喚稀有.'
+L['fisherman_tinnak_note'] = '收集|cFFFFFD00破損的釣魚竿|r, |cFFFFFD00破損的捕漁網|r 和 |cFFFFFD00舊魚叉|r來召喚稀有.'
 L['spellwrought_snowman_note'] = '收集 10個 {npc:193424} 並且帶他們到 {npc:193242}.'
-L['trilvarus_loreweaver_note'] = '收集一個歌唱碎片以取得 {spell:382076} 接著使用 Uncharded Focus 來召喚稀有.'
+L['trilvarus_loreweaver_note'] = '收集一個|cFFFFFD00歌唱碎片|r以取得 {spell:382076} 接著使用 Uncharded Focus 來召喚稀有.'
 
 L['breezebiter_note'] = '飛上天空來把他拉下來, 飛靠近他一點'
 
@@ -175,9 +175,9 @@ L['bakar_hugo_note'] = '和艾拉格營地一起旅行'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = '顯示成就 {achievement:16424} 所需的所有巴卡犬的位置'
 
-L['ancestor_note'] = nil
+L['ancestor_note'] = '在 |cFFFFFD00木階哨站|r 的帳篷從 |cFFFFFD00甦醒精華|r 取得 {spell:369277} 增益(1小時)來看到先祖並且提供他們需要的物品'
 L['options_icons_ancestor'] = '{achievement:16423}'
-L['options_icons_ancestor_desc'] = nil
+L['options_icons_ancestor_desc'] = '顯示成就 {achievement:16423} 中先祖的位置.'
 
 L['dreamguard_note'] = '點選夢境守衛並且使用表情符號 ' .. ns.color.Orange('/sleep')
 L['options_icons_dreamguard'] = '{achievement:16574}'
