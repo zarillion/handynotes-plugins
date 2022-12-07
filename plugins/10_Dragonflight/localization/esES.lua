@@ -73,6 +73,9 @@ L['options_icons_pretty_neat_desc'] = 'Muestra dónde están los NPC para el log
 L['large_lunker_sighting'] = 'Avistamiento de Morrocotudo Grande'
 L['large_lunker_sighting_note'] = 'Usa 5x {item:194701} para invocar tanto a un {npc:192919} como a un raro.'
 
+L['options_icons_legendary_album'] = '{achievement:16570}'
+L['options_icons_legendary_album_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

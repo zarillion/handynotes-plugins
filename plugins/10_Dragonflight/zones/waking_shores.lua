@@ -1349,3 +1349,17 @@ map.nodes[57856680] = Collectible({
             })
     }
 }) -- Veritistrasz
+
+-------------------------------------------------------------------------------
+------------------------------ A LEGENDARY ALBUM ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[64415914] = ns.node.LegendaryCharacter({
+    id = 82746,
+    rewards = {Achievement({id = 16570, criteria = 55758})}
+}) -- Abu'Gar
+
+map.nodes[49896849] = ns.node.LegendaryCharacter({
+    id = 56133,
+    rewards = {Achievement({id = 16570, criteria = 55759})}
+}) -- Chen Stormstout

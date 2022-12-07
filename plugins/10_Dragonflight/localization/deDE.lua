@@ -72,6 +72,9 @@ L['options_icons_pretty_neat_desc'] = 'Zeigt die Positionen der NPCs für den Er
 L['large_lunker_sighting'] = 'Sichtung eines großen Oschis'
 L['large_lunker_sighting_note'] = 'Benutze 5x {item:194701}, um entweder {npc:192919} oder einen seltenen Gegner zu beschwören.'
 
+L['options_icons_legendary_album'] = '{achievement:16570}'
+L['options_icons_legendary_album_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

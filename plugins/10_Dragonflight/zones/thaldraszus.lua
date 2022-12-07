@@ -744,3 +744,17 @@ map.nodes[54285271] = ns.node.PrettyNeat({
 }) -- Iridescent Peafowl
 
 val.nodes[56674327] = NewPerspective(10)
+
+-------------------------------------------------------------------------------
+------------------------------ A LEGENDARY ALBUM ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[51134219] = ns.node.LegendaryCharacter({
+    id = 187284,
+    rewards = {Achievement({id = 16570, criteria = 55775})}
+}) -- Wrathion
+
+map.nodes[38386903] = ns.node.LegendaryCharacter({
+    id = 195633,
+    rewards = {Achievement({id = 16570, criteria = 55773})}
+}) -- Time-Warped Mysterious Fisher
