@@ -203,8 +203,8 @@ L['sandy_wooden_duck_note'] = '收集 {item:199069} 並使用它.'
 
 L['tasty_hatchling_treat_note'] = '在書架後的一個桶子內'
 
-L['pm_tailor_elysa_raywinder'] = nil
 L['pm_mining_bridgette_holdug'] = '在一個長草的石柱頂端'
+L['pm_tailor_elysa_raywinder'] = nil
 L['pt_alch_contraband_concoction_note'] = '藏在樹叢內' .. ns.color.Orange('很難看到.')
 L['pt_alch_furry_gloop_note'] = '丟一個附近的 {npc:194855} 到每個大鍋然後殺掉刷新出來的怪物'
 L['pt_ench_fractured_titanic_sphere_note'] = '|cFFFFFD00提爾堡|r 南邊.'
