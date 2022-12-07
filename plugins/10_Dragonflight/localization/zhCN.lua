@@ -24,7 +24,7 @@ L['options_icons_flag'] = '{achievement:15890}'
 L['options_icons_flag_desc'] = '显示 {achievement:15890} 成就中全部20个旗帜的位置。'
 
 L['broken_banding_note'] = '在雕像的右脚脚踝上。'
-L['chunk_of_sculpture_note'] = '从左边的巨龙雕像地面上。'
+L['chunk_of_sculpture_note'] = '巨龙雕像左侧地面上。'
 L['dislodged_dragoneye_note'] = '在巨龙雕像胸口下的一块岩石上。'
 L['finely_carved_wing_note'] = '巨龙雕像右膝下。'
 L['fragment_requirement_note'] = ns.color.Red('在你收集散落碎片之前，你需要在 |cFFFFFD00翼眠大使馆|r 的巨龙雕像询问 {npc:193915} 她在这里做什么。')
