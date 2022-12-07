@@ -103,7 +103,8 @@ map.nodes[30575625] = Rare({
     quest = 74042,
     rewards = {
         Achievement({id = 16676, criteria = 56056}),
-        Transmog({item = 200757, slot = L['plate']})
+        Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        Item({item = 197019, quest = 69219}) -- Cliffside Wylderdrake: Blunt Spiked Tail
     }
     -- pois = {
     --     Path({
@@ -275,7 +276,8 @@ map.nodes[24005896] = Rare({
     rewards = {
         Achievement({id = 16676, criteria = 56061}),
         Item({item = 197005, quest = 69205}) -- Cliffside Wylderdrake: Horned Nose
-    }
+    },
+    pois = {POI({27226096})} -- Entrance
 }) -- Rasnar the War Ender
 
 map.nodes[30736110] = Rare({
@@ -294,7 +296,7 @@ map.nodes[46997332] = Rare({
     }
 }) -- Shadeslash Trakken
 
-map.nodes[23755734] = Rare({ -- review -- required 67030
+map.nodes[23755724] = Rare({ -- required 67030
     id = 189822,
     quest = 74077,
     note = L['obsidian_throne_rare_note'] .. ' ' ..
@@ -383,7 +385,7 @@ map.nodes[33525576] = Rare({
 
 map.nodes[30025534] = Rare({
     id = 186859,
-    quest = 70763, -- 74090
+    quest = 74090,
     note = L['worldcarver_atir_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56052}),
@@ -1060,6 +1062,8 @@ map.nodes[58387252] = ns.node.Squirrel({
 ------------------------------ LET'S GET QUACKING -----------------------------
 -------------------------------------------------------------------------------
 
+-- weekly completion: 70872
+
 local Quack = Class('Quack', Collectible, {
     label = '{npc:196744}',
     note = L['lets_get_quacking'],
@@ -1140,7 +1144,7 @@ map.nodes[70746646] = HemetNesingwaryJr({
 
 map.nodes[24538913] = HemetNesingwaryJr({
     rewards = {Achievement({id = 16542, criteria = 55695})}
-}) -- Southern Waking SHores Hunt
+}) -- Southern Waking Shores Hunt
 
 -------------------------------------------------------------------------------
 ----------------------------- GRAND THEFT MAMMOTH -----------------------------

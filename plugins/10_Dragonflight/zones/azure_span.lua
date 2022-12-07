@@ -117,6 +117,7 @@ map.nodes[14053096] = Rare({
     note = L['brackenhide_rare_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56126}),
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200442, slot = L['leather']}) -- Basilisk Hide Jerkin
     }
 }) -- Blisterhide
@@ -175,7 +176,7 @@ map.nodes[50043631] = Rare({ -- review
 
 map.nodes[64992995] = Rare({
     id = 193698,
-    quest = 69985,
+    quest = 73876, -- 69985?
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 16678, criteria = 56104})
@@ -247,6 +248,7 @@ map.nodes[40514797] = Rare({
     quest = 73884,
     rewards = {
         Achievement({id = 16678, criteria = 56100}),
+        Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Item({item = 197150, quest = 69351}) -- Highland Drake: Spiked Club Tail
     }
 }) -- Mange the Outcast
@@ -262,9 +264,10 @@ map.nodes[40514797] = Rare({
 
 map.nodes[58095471] = Rare({ -- review
     id = 193201,
-    quest = nil,
+    quest = 73885, -- 73886 both?
     rewards = {
         Achievement({id = 16678, criteria = 56102}),
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Item({item = 200445, note = L['neck']}) -- Lucky Hunting Charm
     }
 }) -- Mucka the Raker
@@ -396,7 +399,8 @@ map.nodes[59405520] = Rare({
     quest = 73900,
     rewards = {
         Achievement({id = 16678, criteria = 56097}),
-        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Item({item = 200859, note = L['trinket']}) -- Seasoned Hunter's Trophy
     }
 }) -- Wilrive
 
