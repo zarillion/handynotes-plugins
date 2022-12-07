@@ -140,7 +140,7 @@ L['hunter_of_the_deep_note'] = '點選武器架然後射魚直到稀有刷新'
 L['scaleseeker_mezeri_note'] = '把{item:194681} 提供給 {npc:193224}後, 他會接露稀有.'
 L['shade_of_grief_note'] = '點選 {npc:193166} 來召喚稀有.'
 L['windscale_the_stormborn_note'] = '殺死對 {npc:192357} 引導法術的 {npc:192367}.'
-L['zarizz_note'] = '點選並對著 {npc:193169} 使用' .. ns.color.Orange('/hiss') .. '來召喚稀有.'
+L['zarizz_note'] = '點選並對著4個 {npc:193169} 使用' .. ns.color.Orange('/hiss') .. '來召喚稀有.'
 
 L['gold_swong_coin_note'] = '和 {npc:191608} 一起在山洞內, 且在她的右側.'
 L['nokhud_warspear_note'] = '{item:194540} 可以在遠征隊斥侯包和挖過的土中找到.'
