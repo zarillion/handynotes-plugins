@@ -64,7 +64,7 @@ L['hnj_western_azure_span_hunt'] = '在死掉樹的頂端'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = '顯示成就 {achievement:16542} 所需的 {npc:194590} 位置.'
 
-L['pretty_neat_selfie_note'] = '使用{item:122674}拍一張照'
+L['pretty_neat_selfie_note'] = '使用任何自拍相機拍一張照'
 L['bugged_selfie'] = '|cFFFF0000(BUG: 有可能會是錯誤或是沒有NPC被偵測到.)|r'
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
 L['options_icons_pretty_neat_selfie_desc'] = '顯示成就 {achievement:16446} 所需的 NPC 位置'
@@ -75,7 +75,7 @@ L['options_icons_pretty_neat_selfie_desc'] = '顯示成就 {achievement:16446} �
 
 L['brackenhide_rare_note'] = '如果你在 |cFFFFFD00蕨皮谷|r 區域的話, 稀有重生時會在對話欄公告'
 L['fisherman_tinnak_note'] = '收集|cFFFFFD00破損的釣魚竿|r, |cFFFFFD00破損的捕漁網|r 和 |cFFFFFD00舊魚叉|r來召喚稀有.'
-L['spellwrought_snowman_note'] = '收集 10個 {npc:193424} 並且帶他們到 {npc:193242}.'
+L['spellwrought_snowman_note'] = '收集 10個 {npc:193424} 並且把他們帶到 {npc:193242}.'
 L['trilvarus_loreweaver_note'] = '收集一個|cFFFFFD00歌唱碎片|r以取得 {spell:382076} 接著使用 Uncharded Focus 來召喚稀有.'
 
 L['breezebiter_note'] = '飛上天空來把他拉下來, 飛靠近他一點'
@@ -85,9 +85,9 @@ L['gnoll_fiend_flail_note'] = '{item:199066} 可以在遠征隊斥侯包和挖�
 L['pepper_hammer_note'] = '收集 |cFFFFFD00樹液|r 然後點選 |cFFFFFD00棍子|r 來引誘 {npc:195373}.\n\n|cFFFF0000(BUG: 要點選棍子可能需要你重載UI)|r'
 L['snow_covered_scroll'] = '覆滿雪的卷軸'
 
-L['pm_engi_frizz_buzzcrank'] = nil
-L['pm_jewel_pluutar'] = nil
-L['pm_script_lydiara_whisperfeather'] = nil
+L['pm_engi_frizz_buzzcrank'] = '站在祭壇邊'
+L['pm_jewel_pluutar'] = '在建築內'
+L['pm_script_lydiara_whisperfeather'] = '坐在長椅上.'
 L['pt_alch_experimental_decay_sample_note'] = '在一個綠色的大鍋內'
 L['pt_alch_firewater_powder_sample_note'] = '在木頭房子外面的花瓶附近'
 L['pt_ench_enriched_earthen_shard_note'] = '在一堆石頭上'
@@ -148,9 +148,9 @@ L['slightly_chewed_duck_egg_note'] = '找到並撫摸 {npc:192997} 來取得 {it
 L['yennus_boat'] = '巨牙海民玩具船'
 L['yennus_boat_note'] = '拾取巨牙海民玩具船來取得 {item:200876}, 其可以開始任務 {quest:72063}, 可以向 {npc:195252} 回報.'
 
-L['pm_ench_shalasar_glimmerdusk'] = nil
-L['pm_herb_hua_greenpaw'] = nil
-L['pm_leath_erden'] = nil
+L['pm_ench_shalasar_glimmerdusk'] = '在壞掉的塔2樓'
+L['pm_herb_hua_greenpaw'] = '在一棵樹邊跪著'
+L['pm_leath_erden'] = '在河邊一個死掉的 {npc:193092} 旁邊站著'
 L['pt_alch_canteen_of_suspicious_water_note'] = '在洞穴深處, 靠近一個死掉的 {npc:194887}.'
 L['pt_ench_stormbound_horn_note'] = '在 |cFFFFFD00風頌高地|r.'
 L['pt_jewel_fragmented_key_note'] = '在一個崩塌建築裡的樹根下.'
@@ -204,7 +204,7 @@ L['sandy_wooden_duck_note'] = '收集 {item:199069} 並使用它.'
 L['tasty_hatchling_treat_note'] = '在書架後的一個桶子內'
 
 L['pm_mining_bridgette_holdug'] = '在一個長草的石柱頂端'
-L['pm_tailor_elysa_raywinder'] = nil
+L['pm_tailor_elysa_raywinder'] = '在塔中間的平台上'
 L['pt_alch_contraband_concoction_note'] = '藏在樹叢內' .. ns.color.Orange('很難看到.')
 L['pt_alch_furry_gloop_note'] = '丟一個附近的 {npc:194855} 到每個大鍋然後殺掉刷新出來的怪物'
 L['pt_ench_fractured_titanic_sphere_note'] = '|cFFFFFD00提爾堡|r 南邊.'
@@ -219,7 +219,7 @@ L['pt_tailor_ancient_dragonweave_bolt_note'] = '點選 |cFFFFFD00古老的龍紡
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = '在一堆沙中的小旗幟'
 
 L['picante_pomfruit_cake_note'] = '{item:200904} 不是每天都有, 請每天回來 |cFF00CCFF晶紅盛宴|r 檢查. 當你在這的時候, 記得試吃3種有的食物來同時完成 {achievement:16556}.'
-L['icecrown_bleu_note'] = '從在 |cFF00CCFF工匠市場t|r 的 {npc:196729} ' .. ns.color.NPC('<乳酪商>') .. ' 處購買.'
+L['icecrown_bleu_note'] = '從在 |cFF00CCFF工匠市場|r 的 {npc:196729} ' .. ns.color.NPC('<乳酪商>') .. ' 處購買.'
 L['dreamwarding_dripbrew_note'] = '從在 |cFFFFFD00深夜實驗室|r 的 {npc:197872} ' .. ns.color.NPC('<咖啡法師>') .. ' 處購買.'
 L['arcanostabilized_provisions_note'] = '從在 |cFF00CCFF時光合流|r 內的 |cFF00CCFF洪荒使者未來|r 的 {npc:198831} ' .. ns.color.NPC('<大廚>') .. ' 處購買.'
 L['steamed_scarab_steak_note'] = '從在 |cFFFFFD00安詳夢境水療中心|r 的 {npc:197586} ' .. ns.color.NPC('<水療中心酒保>') .. ' 處購買.'
@@ -258,45 +258,45 @@ L['hidden_hornswog_hoard_note'] = [[
 {item:200066}
 ]]
 
-L['pm_alch_grigori_vialtry'] = nil
-L['pm_skin_zenzi'] = nil
-L['pm_smith_grekka_anvilsmash'] = nil
-L['pt_alch_frostforged_potion_note'] = nil
-L['pt_alch_well_insulated_mug_note'] = nil
-L['pt_ench_enchanted_debris_note'] = nil
-L['pt_ench_flashfrozen_scroll_note'] = nil
-L['pt_ench_lava_infused_seed_note'] = nil
-L['pt_engi_boomthyr_rocket_note'] = nil
-L['pt_engi_intact_coil_capacitor_note'] = nil
-L['pt_jewel_closely_guarded_shiny_note'] = nil
-L['pt_jewel_igneous_gem_note'] = nil
-L['pt_leath_poachers_pack_note'] = nil
-L['pt_leath_spare_djaradin_tools_note'] = nil
-L['pt_script_pulsing_earth_rune_note'] = nil
-L['pt_smith_ancient_monument_note'] = nil
-L['pt_smith_curious_ingots_note'] = nil
-L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = nil
-L['pt_smith_molten_ingot_note'] = nil
-L['pt_smith_qalashi_weapon_diagram_note'] = nil
-L['pt_tailor_itinerant_singed_fabric_note'] = nil
-L['pt_tailor_mysterious_banner_note'] = nil
+L['pm_alch_grigori_vialtry'] = '在一個平台上俯瞰 |cFFFFFD00閃霜進攻地|r.'
+L['pm_skin_zenzi'] = '在河邊坐著'
+L['pm_smith_grekka_anvilsmash'] = '在塔的廢墟旁邊的草地上.\n\n|cFFFF0000(目前有問題.)|r'
+L['pt_alch_frostforged_potion_note'] = '在冰坑中間'
+L['pt_alch_well_insulated_mug_note'] = '在 |cFFFFFD00龍禍要塞|r 內許多菁英怪之間'
+L['pt_ench_enchanted_debris_note'] = '使用並跟著 {npc:194872} 到最後來拾取碎片'
+L['pt_ench_flashfrozen_scroll_note'] = '在 |cFFFFFD00閃霜營地|r 的洞穴系統內'
+L['pt_ench_lava_infused_seed_note'] = '在 |cFFFFFD00碎鱗者要塞|r 的一朵花內'
+L['pt_engi_boomthyr_rocket_note'] = '收集列在 |cFFFFFD00轟希爾火箭筆記|r 內的物品:\n\n{item:198815}\n{item:198817}\n{item:198816}\n{item:198814}\n\n當你收集完後, 帶著它們回來到火箭以取得寶藏.'
+L['pt_engi_intact_coil_capacitor_note'] = '和三個 |cFFFFFD00裸露電線|r 互動來修好並拾取 |cFFFFFD00超載的特斯拉線圈|r.'
+L['pt_jewel_closely_guarded_shiny_note'] = '樹下巢邊的藍色寶石'
+L['pt_jewel_igneous_gem_note'] = '快速點選在岩漿內的小島上的三個水晶'
+L['pt_leath_poachers_pack_note'] = '在河床旁一個死掉的狐狸人旁邊'
+L['pt_leath_spare_djaradin_tools_note'] = '在死掉的紅龍旁邊'
+L['pt_script_pulsing_earth_rune_note'] = '在倒塌建築內的桌子後方'
+L['pt_smith_ancient_monument_note'] = '擊敗在臺座上環繞著劍的4個 {npc:188648}.\n\n|cFFFF0000(BUG: 目前在點選劍後你不會取得物品, 取而代之的是它在過段時間後會寄到你的信箱.)|r'
+L['pt_smith_curious_ingots_note'] = '在 |cFFFFFD00碎鱗者要塞|r 內地上的小金屬錠'
+L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = '在 |cFFFFFD00黯淡的熔爐|r 旁製造1個 {item:189541}, 然後在 |cFFFFFD00淬火盆|r 裡的物品會變成可拾取的'
+L['pt_smith_molten_ingot_note'] = '踢3個金屬錠到熔岩中來召喚怪物. 在擊敗怪物後拾取箱子.'
+L['pt_smith_qalashi_weapon_diagram_note'] = '在一個鐵砧上方'
+L['pt_tailor_itinerant_singed_fabric_note'] = '在最後首領刷新的山洞外面樹上掛著的一片織物.'.. ns.color.Orange('需要精準的御龍術或是術士傳送門.')
+L['pt_tailor_mysterious_banner_note'] = '在建築物的頂端飄著'
 
-L['quack_week_1'] = nil
-L['quack_week_2'] = nil
-L['quack_week_3'] = nil
-L['quack_week_4'] = nil
-L['quack_week_5'] = nil
-L['lets_get_quacking'] = nil
+L['quack_week_1'] = '第1個星期'
+L['quack_week_2'] = '第2個星期'
+L['quack_week_3'] = '第3個星期'
+L['quack_week_4'] = '第4個星期'
+L['quack_week_5'] = '第5個星期'
+L['lets_get_quacking'] = '你每個禮拜只能拯救一個 {npc:187863}'
 
-L['complaint_to_scalepiercer_note'] = nil
-L['grand_flames_journal_note'] = nil
-L['wyrmeaters_recipe_note'] = nil
+L['complaint_to_scalepiercer_note'] = '點選小屋內的 |cFFFFFD00石板|r (在左側後方).'
+L['grand_flames_journal_note'] = '點選小屋外面後方的 |cFFFFFD00石板|r.'
+L['wyrmeaters_recipe_note'] = '點選小屋內的 |cFFFFFD00石板|r (在左側)'
 
-L['options_icons_ducklings'] = nil
-L['options_icons_ducklings_desc'] = nil
-L['options_icons_chiseled_record'] = nil
-L['options_icons_chiseled_record_desc'] = nil
+L['options_icons_ducklings'] = '{achievement:16409}'
+L['options_icons_ducklings_desc'] = '顯示成就 {achievement:16409} 所需的小鴨子位置.'
+L['options_icons_chiseled_record'] = '{achievement:16412}'
+L['options_icons_chiseled_record_desc'] = '顯示成就 {achievement:16412} 所需的石板位置.'
 
-L['grand_theft_mammoth_note'] = nil
+L['grand_theft_mammoth_note'] = '騎 {npc:194625} 到 {npc:198163}.\n\n|cFFFF0000(BUG: 如果你不能和 {npc:194625} 互動請使用 /reload.)|r'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
-L['options_icons_grand_theft_mammoth_desc'] = nil
+L['options_icons_grand_theft_mammoth_desc'] = '顯示成就 {achievement:16493} 所需 {npc:194625} 的位置.'
