@@ -32,7 +32,7 @@ L['golden_claw_note'] = 'At the dragon statue\'s rear left claw.'
 L['precious_stone_fragment_note'] = 'Under the statue\'s right foot.'
 L['stone_dragontooth_note'] = 'On the ground next to the pedestal of the dragon statue.'
 L['tail_fragment_note'] = 'On the tail of the dragon statue.'
-L['wrapped_gold_band_note'] = 'Under the dragon statue\'s rear right claw.'
+L['wrapped_gold_band_note'] = 'Under the dragon statue\'s rear left claw.'
 L['options_icons_fragment'] = '{achievement:16323}'
 L['options_icons_fragment_desc'] = 'Display the location of loose pieces for the achievement {achievement:16323}.'
 
