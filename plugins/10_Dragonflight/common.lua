@@ -155,7 +155,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         CurledHorns = Item({item = 197375, quest = nil}),
         CurvedHorns = Item({item = 197380, quest = nil}),
         CurvedSpikedBrow = Item({item = 197358, quest = nil}),
-        DualHornedCrest = Item({item = 197366, quest = nil}),
+        DualHornedCrest = Item({item = 197366, quest = 69567}),
         Ears = Item({item = 197376, quest = nil}),
         FinnedCrest = Item({item = 197365, quest = nil}),
         FinnedJaw = Item({item = 197388, quest = nil}),
@@ -172,7 +172,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         HairyBrow = Item({item = 197359, quest = nil}),
         HarrierPattern = Item({item = 197395, quest = nil}),
         HeavyHorns = Item({item = 197383, quest = nil}),
-        HeavyScales = Item({item = 197397, quest = nil}),
+        HeavyScales = Item({item = 197397, quest = 69598}),
         Helm = Item({item = 197373, quest = nil}),
         HornedBack = Item({item = 197354, quest = nil}),
         HornedJaw = Item({item = 197385, quest = nil}),
@@ -206,6 +206,9 @@ ns.DRAGON_CUSTOMIZATIONS = {
         WhiteScales = Item({item = 197393, quest = nil})
     }
 }
+
+-- Highland Drake: Tan Horns 69322
+-- Windborn Velocidrake: Gray Hair 69802
 
 -------------------------------------------------------------------------------
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
