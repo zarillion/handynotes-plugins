@@ -1,3 +1,7 @@
+# v13
+
+* Fix right-click context menu on map icons.
+
 # v12
 
 * Added LibUIDropDownMenu to try and combat UI taint reports.
