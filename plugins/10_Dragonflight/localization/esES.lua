@@ -33,7 +33,7 @@ L['golden_claw_note'] = 'En la garra trasera izquierda de la estatua del dragón
 L['precious_stone_fragment_note'] = 'Debajo del pie derecho de la estatua del dragón.'
 L['stone_dragontooth_note'] = 'En el suelo junto al pedestal de la estatua del dragón.'
 L['tail_fragment_note'] = 'En la cola de la estatua del dragón.'
-L['wrapped_gold_band_note'] = 'Debajo de la garra trasera derecha de la estatua del dragón.'
+L['wrapped_gold_band_note'] = 'Debajo de la garra trasera izquierda de la estatua del dragón.'
 L['options_icons_fragment'] = '{achievement:16323}'
 L['options_icons_fragment_desc'] = 'Muestra dónde están las piezas sueltas para el logro {achievement:16323}.'
 
