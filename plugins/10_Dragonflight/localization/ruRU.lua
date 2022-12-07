@@ -73,6 +73,9 @@ L['options_icons_pretty_neat_desc'] = 'Отображение местополо
 L['large_lunker_sighting'] = nil
 L['large_lunker_sighting_note'] = nil
 
+L['options_icons_legendary_album'] = '{achievement:16570}'
+L['options_icons_legendary_album_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

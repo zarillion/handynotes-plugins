@@ -72,6 +72,9 @@ L['options_icons_pretty_neat_desc'] = 'Display the location of NPCs for the achi
 L['large_lunker_sighting'] = 'Large Lunker Sighting'
 L['large_lunker_sighting_note'] = 'Use 5x {item:194701} to summon either a {npc:192919} or a rare.'
 
+L['options_icons_legendary_album'] = '{achievement:16570}'
+L['options_icons_legendary_album_desc'] = 'Display legendary character locations for {achievement:16570}'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

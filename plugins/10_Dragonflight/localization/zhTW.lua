@@ -72,6 +72,9 @@ L['options_icons_pretty_neat_desc'] = '顯示成就 {achievement:16446} 所需�
 L['large_lunker_sighting'] = '大傢伙目擊點'
 L['large_lunker_sighting_note'] = '使用5個 {item:194701} 來召喚 {npc:192919} 或是稀有'
 
+L['options_icons_legendary_album'] = '{achievement:16570}'
+L['options_icons_legendary_album_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

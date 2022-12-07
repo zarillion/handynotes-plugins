@@ -73,6 +73,9 @@ L['options_icons_pretty_neat_desc'] = 'Affichez les emplacements des PNJ pour le
 L['large_lunker_sighting'] = 'Coin de pêche rohart à gros malabar'
 L['large_lunker_sighting_note'] = 'Utilisez 5x {item:194701} pour invoquer soit un {npc:192919} soit un rare.'
 
+L['options_icons_legendary_album'] = '{achievement:16570}'
+L['options_icons_legendary_album_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
