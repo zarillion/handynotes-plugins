@@ -59,19 +59,11 @@ map.nodes[30546628] = Rare({
 
 map.nodes[49866673] = Rare({
     id = 192020,
-    quest = nil,
+    quest = 69568,
     rewards = {
-        Achievement({id = 16677, criteria = 56077})
-        -- Transmog({item = , slot = L['']}) -- Name
-    }
-}) -- Eaglemaster Niraak
-
-map.nodes[49866673] = Rare({
-    id = 192020,
-    quest = nil,
-    rewards = {
-        Achievement({id = 16677, criteria = 56077})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16677, criteria = 56077}),
+        Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
+        Transmog({item = 200441, slot = L['leather']}) -- Jhakan's Horned Cowl
     }
 }) -- Eaglemaster Niraak
 
