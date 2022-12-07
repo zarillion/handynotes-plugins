@@ -178,7 +178,7 @@ map.nodes[61212950] = Rare({ -- reqiured 67030
 --     quest = nil,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56091}),
---         Achievement({id = 16446, criteria = 18}),
+--         Achievement({id = 16446, criteria = 18, note = L['pretty_neat_selfie_note']}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Quackers the Terrible
@@ -313,7 +313,7 @@ map.nodes[31456387] = Rare({
     quest = 73901,
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
-        Achievement({id = 16446, criteria = 20}),
+        Achievement({id = 16446, criteria = 20, note = L['pretty_neat_selfie_note']}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
@@ -1056,6 +1056,11 @@ map.nodes[58323192] = ns.node.Selfie({
     note = L['bugged_selfie'],
     rewards = {Achievement({id = 16446, criteria = 2})}
 }) -- Avis Gryphonheart
+
+map.nodes[74724069] = ns.node.Selfie({
+    id = 190960,
+    rewards = {Achievement({id = 16446, criteria = 7})}
+}) -- Feasting Buzzard
 
 map.nodes[59575538] = ns.node.Selfie({
     id = 187496,

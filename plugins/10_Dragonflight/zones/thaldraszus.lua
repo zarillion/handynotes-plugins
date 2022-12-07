@@ -88,7 +88,9 @@ map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 map.nodes[47675115] = Rare({ -- required 67030
     id = 193234,
     quest = 69875,
-    rewards = {Achievement({id = 16679, criteria = 56147})}
+    rewards = {
+        Achievement({id = 16446, criteria = 6, note = L['pretty_neat_selfie_note']}),
+        Achievement({id = 16679, criteria = 56147})}
 }) -- Eldoren the Reborn
 
 map.nodes[53374092] = Rare({
@@ -236,6 +238,7 @@ map.nodes[36757287] = Rare({
     id = 193273,
     quest = 72842,
     rewards = {
+        Achievement({id = 16446, criteria = 13, note = L['pretty_neat_selfie_note']}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
     }
@@ -723,3 +726,17 @@ map.nodes[52416987] = Collectible({
     group = ns.groups.SPECIALTIES,
     rewards = {Achievement({id = 16621, criteria = 55941})}
 }) -- Bivigosa's Blood Sausages
+
+-------------------------------------------------------------------------------
+----------------------------- THAT'S PRETTY NEAT! -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[43567208] = ns.node.Selfie({
+    id = 187280,
+    rewards = {Achievement({id = 16446, criteria = 4})}
+}) -- Iridescent Peafowl
+
+map.nodes[54285271] = ns.node.Selfie({
+    id = 192383,
+    rewards = {Achievement({id = 16446, criteria = 12})}
+}) -- Iridescent Peafowl
