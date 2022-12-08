@@ -70,8 +70,8 @@ L['pretty_neat_selfie_note_blazewing'] = 'Kann während der Begegnung mit {npc:1
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
 L['options_icons_pretty_neat_selfie_desc'] = 'Zeigt die Positionen der NPCs für den Erfolg {achievement:16446} an.'
 
-L['large_lunker_sighting'] = nil
-L['large_lunker_sighting_note'] = nil
+L['large_lunker_sighting'] = 'Sichtung eines großen Oschis'
+L['large_lunker_sighting_note'] = 'Benutze 5x {item:194701}, um entweder {npc:192919} oder einen seltenen Gegner zu beschwören.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -242,7 +242,7 @@ L['lepidoralia_note'] = 'Hilf {npc:193342} in der |cFFFFFD00Flatterkaverne|r Hö
 L['obsidian_citadel_rare_note'] = 'Du und andere Spieler müssen insgesamt %dx {item:191264} bei %s abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der |cFFFFFD00Obsidianzitadelle|r geplündert werden.'
 L['shadeslash_note'] = 'Klicke auf den |cFFFFFD00Gestohlener Fokus|r, um den seltenen Gegner erscheinen zu lassen.'
 L['obsidian_throne_rare_note'] = 'Innerhalb des |cFFFFFD00Obsidianthron|r.'
-L['skald_impaler_note'] = nil
+L['skald_impaler_note'] = 'Benutze 5x {item:194701}, um den seltenen Gegner zu beschwören.'
 L['slurpo_snail_note'] = 'Plündere in einer Höhle im |cFFFFFD00Azurblauen Gebirge|r (11.0, 41.4) aus einem |cFFFFFD00Salzkristall|r ein {item:201033} und benutze ihn in dieser Höhle, um den seltenen Gegner erscheinen zu lassen.'
 L['worldcarver_atir_note'] = 'Sammel 3x {item:191211} von {npc:187366} in der Nähe und platziere diese beim {npc:197395}, um den seltenen Gegner erscheinen zu lassen.'
 
