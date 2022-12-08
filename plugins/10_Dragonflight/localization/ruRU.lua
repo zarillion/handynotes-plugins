@@ -66,6 +66,7 @@ L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Показать местоположение {npc:194590} для достижения {achievement:16542}.'
 
 L['pretty_neat_selfie_note'] = 'Сделайте снимок с помощью СЕЛФИ камеры.'
+L['pretty_neat_selfie_note_blazewing'] = nil
 -- L['bugged_selfie'] = '|cFFFF0000(БАГ: будет обнаружен неправильный НПС или вообще не будет обнаружен.)|r'
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
 L['options_icons_pretty_neat_selfie_desc'] = 'Отображение местоположения НПС для достижения {achievement:16446}.'

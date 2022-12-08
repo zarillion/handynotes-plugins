@@ -33,6 +33,7 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2022, settings = true})
+local neltharus = Map({id = 2080, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -1252,6 +1253,17 @@ map.nodes[42276935] = ns.node.Selfie({
     id = 192186,
     rewards = {Achievement({id = 16446, criteria = 19})}
 }) -- Territorial Axebeak
+
+map.nodes[25675706] = ns.node.Selfie({
+    id = 193291,
+    note = L['pretty_neat_selfie_note_blazewing'],
+    rewards = {Achievement({id = 16446, criteria = 1})}
+}) -- Apex Blazewing
+
+neltharus.nodes[52408260] = ns.node.Selfie({
+    id = 193291,
+    rewards = {Achievement({id = 16446, criteria = 1})}
+}) -- Apex Blazewing
 
 -------------------------------------------------------------------------------
 -------------------------- ONE OF EVERYTHING, PLEASE --------------------------
