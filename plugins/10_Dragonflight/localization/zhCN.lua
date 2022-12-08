@@ -223,12 +223,12 @@ L['pt_tailor_ancient_dragonweave_bolt_note'] = '点击 |cFFFFFD00上古龙纹织
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = '一堆沙子里的小旗帜。'
 
 L['picante_pomfruit_cake_note'] = '{item:200904} 并非每天都可用，因此请每天查看 |cFF00CCFF红玉飞地|r。当在那里时，一定要品尝3种可用的菜肴来完成 {achievement:16556}。'
-L['icecrown_bleu_note'] = '从 |cFF00CCFF匠人集市|r 的 {npc:196729} ' .. ns.color.NPC('<Cheesemonger>') .. ' 购买。'
-L['dreamwarding_dripbrew_note'] = '从 |cFFFFFD00熬夜实验室|r 的 {npc:197872} ' .. ns.color.NPC('<Caffeinomancer>') .. ' 购买。'
+L['icecrown_bleu_note'] = '从 |cFF00CCFF匠人集市|r 的 {npc:196729} ' .. ns.color.NPC('<奶酪商贩>') .. ' 购买。'
+L['dreamwarding_dripbrew_note'] = '从 |cFFFFFD00熬夜实验室|r 的 {npc:197872} ' .. ns.color.NPC('<咖啡因操控师>') .. ' 购买。'
 L['arcanostabilized_provisions_note'] = '从 |cFF00CCFF拜荒者的未来|r 内的 |cFF00CCFF时光流汇|r 的 {npc:198831} ' .. ns.color.NPC('<厨师长>') .. ' 购买。'
-L['steamed_scarab_steak_note'] = '从 |cFFFFFD00宁梦温泉|r 的 {npc:197586} ' .. ns.color.NPC('<Spa Bartender>') .. ' 购买。'
+L['steamed_scarab_steak_note'] = '从 |cFFFFFD00宁梦温泉|r 的 {npc:197586} ' .. ns.color.NPC('<温泉调酒师>') .. ' 购买。'
 L['craft_creche_crowler_note'] = '从每日随机地图位置的 {npc:187444} ' .. ns.color.NPC('<旅行的巨龙陈酿商人>') .. ' 位于：|cFFFFFD00红玉新生圣地|r、|cFFFFFD00绿鳞旅店|r、|cFFFFFD00僻壤营地|r、|cFFFFFD00时光流汇|r 购买。'
-L['bivigosas_blood_sausages_note'] = '从 |cFFFFFD00格利基尔岗哨|r 的 {npc:188895} ' .. ns.color.NPC('<Food & Drink>') .. ' 购买。'
+L['bivigosas_blood_sausages_note'] = '从 |cFFFFFD00格利基尔岗哨|r 的 {npc:188895} ' .. ns.color.NPC('<食物和饮料>') .. ' 购买。'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = '显示 {achievement:16621} 成就中食物和饮料的位置。'
 
