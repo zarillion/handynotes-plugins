@@ -77,7 +77,7 @@ L['large_lunker_sighting_note'] = 'Benutze 5x {item:194701}, um entweder {npc:19
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['brackenhide_rare_note'] = 'Das erscheinen dieses seltenen Gegners wird im Chat angekündigt, wenn du dich im Gebiet |cFFFFFD00Brackenfellhöhle|r aufhältst.'
+L['brackenhide_rare_note'] = 'Dieser seltene Gegner erscheint nach einer festen Rotation von {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} im Abstand von 10 Minuten.'
 L['fisherman_tinnak_note'] = 'Sammel |cFFFFFD00Zerbrochene Angelrute|r, |cFFFFFD00Zerrissenes Fischernetz|r und |cFFFFFD00Alte Harpune|r, um ihn zu beschwören.'
 L['spellwrought_snowman_note'] = 'Sammel 10x {npc:193424} und bringe diese zu {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Sammel ein |cFFFFFD00Singendes Bruchstück|r, um den Schwächungszauber {spell:382076} zu erhalten und benutze dann |cFFFFFD00Ungeladener Fokus|r.'
