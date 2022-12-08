@@ -162,7 +162,7 @@ map.nodes[60204535] = Rare({
 
 map.nodes[21626478] = Rare({ -- review
     id = 193134,
-    quest = 72128,
+    quest = nil, -- 72128 wrong?
     rewards = {Achievement({id = 16676, criteria = 56049})}
 }) -- Enkine the Voracious
 
@@ -469,6 +469,13 @@ map.nodes[54728225] = Rare({
         Toy({item = 200198}) -- Primalist Prison
     }
 }) -- Klozicc the Ascended
+
+map.nodes[24135392] = Rare({
+    id = 189289,
+    quest = nil,
+    note = L['obsidian_throne_rare_note'],
+    pois = {POI({27226096})} -- Entrance
+}) -- Penumbrus
 
 map.nodes[81133794] = Rare({
     id = 184853,
