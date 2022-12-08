@@ -460,7 +460,7 @@ map.nodes[61437687] = PM.Mining({
 
 val.nodes[27894576] = PM.Tailoring({
     id = 194845,
-    quest = nil,
+    quest = 70260,
     note = L['pm_tailor_elysa_raywinder'],
     parent = map.id,
     rewards = {
