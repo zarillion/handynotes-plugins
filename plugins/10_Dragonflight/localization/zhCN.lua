@@ -28,7 +28,7 @@ L['chunk_of_sculpture_note'] = '巨龙雕像左侧地面上。'
 L['dislodged_dragoneye_note'] = '在巨龙雕像胸口下的一块岩石上。'
 L['finely_carved_wing_note'] = '巨龙雕像右膝下。'
 L['fragment_requirement_note'] = ns.color.Red('在你收集散落碎片之前，你需要在 |cFFFFFD00翼眠大使馆|r 的巨龙雕像询问 {npc:193915} 她在这里做什么。')
-L['golden_claw_note'] = '巨龙雕像后方的左爪处。'
+L['golden_claw_note'] = '在巨龙雕像右后爪上。'
 L['precious_stone_fragment_note'] = '在雕像的右脚下。'
 L['stone_dragontooth_note'] = '巨龙雕像基座旁边的地面上。'
 L['tail_fragment_note'] = '巨龙雕像的尾巴上。'
@@ -85,9 +85,9 @@ L['gnoll_fiend_flail_note'] = '{item:199066} 可以从探险队斥候的背包�
 L['pepper_hammer_note'] = '收集 |cFFFFFD00树液|r 后使用 |cFFFFFD00棍子|r 来引诱 {npc:195373}。\n\n|cFFFF0000（臭虫：点击棍子可能需要重新加载）|r'
 L['snow_covered_scroll'] = '积雪覆盖的卷轴'
 
-L['pm_engi_frizz_buzzcrank'] = nil
-L['pm_jewel_pluutar'] = nil
-L['pm_script_lydiara_whisperfeather'] = nil
+L['pm_engi_frizz_buzzcrank'] = '站在神龛旁边。'
+L['pm_jewel_pluutar'] = '建筑物内。'
+L['pm_script_lydiara_whisperfeather'] = '坐在长凳上。'
 L['pt_alch_experimental_decay_sample_note'] = '在一个绿色大锅里面。'
 L['pt_alch_firewater_powder_sample_note'] = '在木屋外面花瓶旁边。'
 L['pt_ench_enriched_earthen_shard_note'] = '在一堆石头上。'
@@ -148,9 +148,9 @@ L['slightly_chewed_duck_egg_note'] = '找到并拍打 {npc:192997} 获得 {item:
 L['yennus_boat'] = '海象人玩具船'
 L['yennus_boat_note'] = '拾取 |cFFFFFD00海象人玩具船|r 后获得 {item:200876}，可以在 {npc:195252} 开始上缴的任务 {quest:72063}。'
 
-L['pm_ench_shalasar_glimmerdusk'] = nil
-L['pm_herb_hua_greenpaw'] = nil
-L['pm_leath_erden'] = nil
+L['pm_ench_shalasar_glimmerdusk'] = '破塔二楼。'
+L['pm_herb_hua_greenpaw'] = '跪在树旁。'
+L['pm_leath_erden'] = '站在河边死去的 {npc:193092} 旁边。'
 L['pt_alch_canteen_of_suspicious_water_note'] = '洞穴深处一个死掉的 |cFFFFFD00探险队斥候|r 旁边。'
 L['pt_ench_stormbound_horn_note'] = '在 |cFFFFFD00风歌高地|r。'
 L['pt_jewel_fragmented_key_note'] = '在倒塌建筑的树根下。'
@@ -204,7 +204,7 @@ L['sandy_wooden_duck_note'] = '收集 {item:199069} 并使用它。'
 L['tasty_hatchling_treat_note'] = '在书架后面的一个桶里。'
 
 L['pm_mining_bridgette_holdug'] = '在长满草的石柱上。'
-L['pm_tailor_elysa_raywinder'] = nil
+L['pm_tailor_elysa_raywinder'] = '在塔的中间的一个壁架上。'
 L['pt_alch_contraband_concoction_note'] = '隐藏在灌木丛中。' .. ns.color.Orange('很难发现。')
 L['pt_alch_furry_gloop_note'] = '将附近的 {npc:194855} 放入每个大锅中，然后杀死出现的怪物。'
 L['pt_ench_fractured_titanic_sphere_note'] = '|cFFFFFD00提尔要塞|r 南侧。'
@@ -258,8 +258,8 @@ L['hidden_hornswog_hoard_note'] = [[
 {item:200066}
 ]]
 
-L['pm_alch_grigori_vialtry'] = nil
-L['pm_skin_zenzi'] = nil
+L['pm_alch_grigori_vialtry'] = '在俯瞰 |cFFFFFD00闪霜战地|r 的平台上。'
+L['pm_skin_zenzi'] = '站在河边。'
 L['pm_smith_grekka_anvilsmash'] = '在废墟塔旁的草丛中。\n\n|cFFFF0000（目前有问题。）|r'
 L['pt_alch_frostforged_potion_note'] = '在冰坑中间。'
 L['pt_alch_well_insulated_mug_note'] = '在 |cFFFFFD00灭龙要塞|r 一些精英怪物之间。'
