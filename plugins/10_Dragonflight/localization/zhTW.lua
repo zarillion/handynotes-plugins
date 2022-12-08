@@ -69,6 +69,9 @@ L['bugged_selfie'] = '|cFFFF0000(BUG: 有可能會是錯誤或是沒有NPC被偵
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
 L['options_icons_pretty_neat_selfie_desc'] = '顯示成就 {achievement:16446} 所需的 NPC 位置'
 
+L['large_lunker_sighting'] = nil
+L['large_lunker_sighting_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

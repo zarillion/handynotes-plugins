@@ -253,15 +253,6 @@ map.nodes[40514797] = Rare({
     }
 }) -- Mange the Outcast
 
--- map.nodes[] = Rare({
---     id = 193735,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56119}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Moth'go Deeploom
-
 map.nodes[58095471] = Rare({ -- review
     id = 193201,
     quest = 73885, -- 73886 both?
@@ -300,15 +291,6 @@ map.nodes[34362779] = Rare({ -- review location in cave map 2132 Kargpaw's Den
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Rusthide
-
--- map.nodes[] = Rare({
---     id = 193710,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56118}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Seereel, the Spring
 
 map.nodes[26494939] = Rare({ -- review -- required 67030
     id = 193149,
@@ -373,15 +355,6 @@ map.nodes[55033405] = Rare({
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Swagraal the Swollen
-
--- map.nodes[] = Rare({
---     id = 193634,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56120}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Swog'ranka
 
 map.nodes[70222532] = Rare({
     id = 193196,

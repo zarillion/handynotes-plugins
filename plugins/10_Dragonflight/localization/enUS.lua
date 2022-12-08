@@ -69,6 +69,9 @@ L['bugged_selfie'] = '|cFFFF0000(BUG: The wrong NPC or none at all will be detec
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
 L['options_icons_pretty_neat_selfie_desc'] = 'Display the location of NPCs for the achievement {achievement:16446}.'
 
+L['large_lunker_sighting'] = 'Large Lunker Sighting'
+L['large_lunker_sighting_note'] = 'Use 5x {item:194701} to summon either a {npc:192919} or a rare.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

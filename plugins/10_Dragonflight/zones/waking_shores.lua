@@ -396,6 +396,29 @@ map.nodes[30025534] = Rare({
 
 -------------------------------------------------------------------------------
 
+-- Fishing rares that are part of the Azure Span adventurer achievement
+
+map.nodes[65617410] = Rare({
+    id = 193735,
+    label = L['large_lunker_sighting'],
+    note = L['large_lunker_sighting_note'],
+    quest = {74068},
+    questCount = true,
+    rewards = {
+        Achievement({
+            id = 16678,
+            criteria = {
+                {id = 56119, quest = 74068}, -- Moth'go Deeploom
+                {id = 56118, quest = nil}, -- Seereel, the Spring
+                {id = 56120, quest = 74084} -- Swog'ranka
+            }
+        }), --
+        Item({item = 197589, quest = 69793, note = '{npc:193634}'}) -- Windborn Velocidrake: Large Head Fin
+    }
+}) -- Lunker Rares
+
+-------------------------------------------------------------------------------
+
 -- These rares/elites are not part of the adventurer achievement for the zone
 
 map.nodes[77302198] = Rare({

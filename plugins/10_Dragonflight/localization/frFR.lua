@@ -70,6 +70,9 @@ L['bugged_selfie'] = '|cFFFF0000(BUG : Le mauvais PNJ ou aucun PNJ ne sera déte
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
 L['options_icons_pretty_neat_selfie_desc'] = 'Affichez les emplacements des PNJ pour le haut-fait {achievement:16446}.'
 
+L['large_lunker_sighting'] = nil
+L['large_lunker_sighting_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
