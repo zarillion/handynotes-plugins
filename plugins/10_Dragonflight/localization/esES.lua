@@ -78,7 +78,7 @@ L['large_lunker_sighting_note'] = 'Usa 5x {item:194701} para invocar tanto a un 
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['brackenhide_rare_note'] = 'Cuando aparezca este raro se anunciará por el chat si estás en la zona de la |cFFFFFD00Hondonada Frondacuero|r.'
+L['brackenhide_rare_note'] = 'Estos raros aparecen en un rotación fija en el siguiente orden: {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} con una diferencia de 10 minutos.'
 L['fisherman_tinnak_note'] = 'Recoge la |cFFFFFD00Caña de Pescar Rota|r, la |cFFFFFD00Red de Pescar Rota|r y el |cFFFFFD00Arpón Viejo|r para hacer aparecer al raro.'
 L['spellwrought_snowman_note'] = 'Consigue 10x {npc:193424} y llévaselas a {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Recoge un |cFFFFFD00Fragmento Cantarín|r para conseguir {spell:382076} y usar el |cFFFFFD00Enfoque Descargado|r para hacer aparecer al raro.'
