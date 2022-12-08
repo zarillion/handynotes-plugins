@@ -77,7 +77,7 @@ L['large_lunker_sighting_note'] = 'Use 5x {item:194701} to summon either a {npc:
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['brackenhide_rare_note'] = 'The spawn of this rare will be announced in the chat if you are in the |cFFFFFD00Brackenhide Hollow|r area.'
+L['brackenhide_rare_note'] = 'These rares spawn in a set rotation of {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} on a 10 minute timer.'
 L['fisherman_tinnak_note'] = 'Collect |cFFFFFD00Broken Fishing Pole|r, |cFFFFFD00Torn Fishing Net|r and |cFFFFFD00Old Harpoon|r to spawn the rare.'
 L['spellwrought_snowman_note'] = 'Collect 10x {npc:193424} and bring them to {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Collect a |cFFFFFD00Singing Fragment|r to get {spell:382076} and use the |cFFFFFD00Uncharded Focus|r to spawn the rare.'
