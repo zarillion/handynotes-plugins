@@ -86,9 +86,9 @@ L['gnoll_fiend_flail_note'] = 'La {item:199066} peut être trouvée dans les Paq
 L['pepper_hammer_note'] = 'Récupérez la |cFFFFFD00Sève|r et utilisez le |cFFFFFD00Bâton|r pour attirer le {npc:195373}.\n\n|cFFFF0000(BUG : Pour cliquer sur le bâton, un rechargement peut être nécessaire)|r'
 L['snow_covered_scroll'] = 'Parchemin couvert de neige'
 
-L['pm_engi_frizz_buzzcrank'] = nil
-L['pm_jewel_pluutar'] = nil
-L['pm_script_lydiara_whisperfeather'] = nil
+L['pm_engi_frizz_buzzcrank'] = 'Il se tient à côté d\'un sanctuaire.'
+L['pm_jewel_pluutar'] = 'A l\'intérieur du bâtiment.'
+L['pm_script_lydiara_whisperfeather'] = 'Assise sur un banc.'
 L['pt_alch_experimental_decay_sample_note'] = 'A l\'intérieur d\'un grand chaudron vert.'
 L['pt_alch_firewater_powder_sample_note'] = 'À l\'extérieur d\'une maison en rondins, près d\'un vase.'
 L['pt_ench_enriched_earthen_shard_note'] = 'Sur un tas de pierres.'
@@ -149,9 +149,9 @@ L['slightly_chewed_duck_egg_note'] = 'Trouvez et caressez {npc:192997} pour obte
 L['yennus_boat'] = 'Bateau jouet rohart'
 L['yennus_boat_note'] = 'Récupérez le |cFFFFFD00Bateau jouet rohart|r pour obtenir {item:200876}, ce qui lance la quête {quest:72063} qui peut être rendue à {npc:195252}.'
 
-L['pm_ench_shalasar_glimmerdusk'] = nil
-L['pm_herb_hua_greenpaw'] = nil
-L['pm_leath_erden'] = nil
+L['pm_ench_shalasar_glimmerdusk'] = 'Au deuxième étage de la tour brisée.'
+L['pm_herb_hua_greenpaw'] = 'Agenouillée près d\'un arbre.'
+L['pm_leath_erden'] = 'Debout à côté d\'un {npc:193092} mort, près de la rivière.'
 L['pt_alch_canteen_of_suspicious_water_note'] = 'Au fond d\'une grotte, près d\'un {npc:194887} mort.'
 L['pt_ench_stormbound_horn_note'] = 'A la |cFFFFFD00Cime Chant-du-Vent|r.'
 L['pt_jewel_fragmented_key_note'] = 'Sous les racines d\'un arbre dans un bâtiment en ruine.'
@@ -205,7 +205,7 @@ L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
 L['tasty_hatchling_treat_note'] = 'Dans un tonneau derrière l\'étagère.'
 
 L['pm_mining_bridgette_holdug'] = 'Au sommet d\'un pilier de roche couvert d\'herbe.'
-L['pm_tailor_elysa_raywinder'] = nil
+L['pm_tailor_elysa_raywinder'] = 'Sur une corniche à mi-hauteur de la tour.'
 L['pt_alch_contraband_concoction_note'] = 'Caché dans les buissons. ' .. ns.color.Orange('Difficile à voir.')
 L['pt_alch_furry_gloop_note'] = 'Jetez un {npc:194855} proche dans chaque chaudron puis tuez le monstre qui apparaît.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Au sud du |cFFFFFD00Bastion de Tyr|r.'
@@ -259,8 +259,8 @@ Récupérez trois items différents et combinez-les à |cFFFFFD00"l\'Énigmes sa
 {item:200066}
 ]]
 
-L['pm_alch_grigori_vialtry'] = nil
-L['pm_skin_zenzi'] = nil
+L['pm_alch_grigori_vialtry'] = 'Sur une corniche surplombant l\'|cFFFFFD00Assaut de Givréclair|r.'
+L['pm_skin_zenzi'] = 'Assise à côté de la rivière.'
 L['pm_smith_grekka_anvilsmash'] = 'Elle est assise dans l\'herbe à côté de la tour en ruines.\n\n|cFFFF0000(Actuellement buggé.)|r'
 L['pt_alch_frostforged_potion_note'] = 'Au milieu du cratère gelé.'
 L['pt_alch_well_insulated_mug_note'] = 'Dans le |cFFFFFD00Donjon du Fléau-des-Dragons|r entre un groupe de monstres élites.'
