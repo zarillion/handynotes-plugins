@@ -66,7 +66,7 @@ L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Muestra dónde está {npc:194590} para el logro {achievement:16542}.'
 
 L['pretty_neat_selfie_note'] = 'Haz una foto con la cámara S.E.L.F.I.E..'
-L['pretty_neat_selfie_note_blazewing'] = nil
+L['pretty_neat_selfie_note_blazewing'] = 'Se puede encontrar durante el combate contra la {npc:189901} en la mazmorra ' .. ns.color.Yellow('Neltharus') .. '.'
 -- L['bugged_selfie'] = '|cFFFF0000(BUG: Será detectado el NPC equivocado o ninguno.)|r'
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
 L['options_icons_pretty_neat_selfie_desc'] = 'Muestra dónde están los NPC para el logro {achievement:16446}.'
