@@ -69,8 +69,8 @@ L['bugged_selfie'] = '|cFFFF0000（错误：将检测到错误的 NPC 或根本�
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
 L['options_icons_pretty_neat_selfie_desc'] = '显示 {achievement:16446} 成就中 NPC 的位置。'
 
-L['large_lunker_sighting'] = nil
-L['large_lunker_sighting_note'] = nil
+L['large_lunker_sighting'] = '大家伙目击点'
+L['large_lunker_sighting_note'] = '使用5个 {item:194701} 召唤 {npc:192919} 或稀有。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
