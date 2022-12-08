@@ -1,3 +1,11 @@
+# v14
+
+* Added lunker rares summoned with Ominous Conches.
+* Added more locations for That's Pretty Neat.
+* Added Penumbrus rare inside the Obsidian Throne.
+* Added remaining Dead Man's chest transmogs.
+* Added remaining profession master locations.
+
 # v13
 
 * Fix right-click context menu on map icons.
