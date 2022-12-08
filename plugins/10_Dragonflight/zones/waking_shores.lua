@@ -163,8 +163,17 @@ map.nodes[60204535] = Rare({
 
 map.nodes[21626478] = Rare({ -- review
     id = 193134,
-    quest = nil, -- 72128 wrong?
-    rewards = {Achievement({id = 16676, criteria = 56049})}
+    quest = 73072, -- 72128 wrong?
+    note = L['enkine_note'],
+    requires = ns.requirement.Item(201092), -- Lava Spices
+    rewards = {
+        Achievement({id = 16676, criteria = 56049}),
+        Transmog({item = 200167, slot = L['1h_axe']}), -- Regurgitated Stone Handaxe
+        Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
+        Item({item = 200163, note = L['ring']}), -- Ring of Embers
+        Item({item = 200217, note = L['trinket']}), -- Blazing Essence
+        DC.RenewedProtoDrake.ImpalerHorns
+    }
 }) -- Enkine the Voracious
 
 map.nodes[33127632] = Rare({
