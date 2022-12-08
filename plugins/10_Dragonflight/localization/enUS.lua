@@ -265,7 +265,7 @@ Collect three different items and combine them at the |cFFFFFD00"Observant Riddl
 
 L['pm_alch_grigori_vialtry'] = 'On a ledge overlooking |cFFFFFD00Flashfrost Assault|r.'
 L['pm_skin_zenzi'] = 'Sits next to the river.'
-L['pm_smith_grekka_anvilsmash'] = 'Sits in the grass next to the ruined tower.\n\n|cFFFF0000(Currently bugged.)|r'
+L['pm_smith_grekka_anvilsmash'] = 'Sits in the grass next to the ruined tower.'
 L['pt_alch_frostforged_potion_note'] = 'In the middle of the icy crater.'
 L['pt_alch_well_insulated_mug_note'] = 'In |cFFFFFD00Dragonbane Keep|r between a number of elite mobs.'
 L['pt_ench_enchanted_debris_note'] = 'Use and follow the {npc:194872} to loot the debris at the end.'

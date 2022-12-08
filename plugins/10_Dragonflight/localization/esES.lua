@@ -266,7 +266,7 @@ Recoge tres objetos distintos y combínalos para crear el |cFFFFFD00"Acertijo de
 
 L['pm_alch_grigori_vialtry'] = 'En una repisa con vistas al |cFFFFFD00Asalto Raudoescarcha|r.'
 L['pm_skin_zenzi'] = 'Sentada junto al ro.'
-L['pm_smith_grekka_anvilsmash'] = 'Reposa en la hierba al lado de la torre en ruinas.\n\n|cFFFF0000(Actualmente bugeado.)|r'
+L['pm_smith_grekka_anvilsmash'] = 'Reposa en la hierba al lado de la torre en ruinas.'
 L['pt_alch_frostforged_potion_note'] = 'En el centro del cráter helado.'
 L['pt_alch_well_insulated_mug_note'] = 'En la |cFFFFFD00Fortaleza de Ruinadragón|r entre varios enemigos élite.'
 L['pt_ench_enchanted_debris_note'] = 'Usa y sigue a la {npc:194872} para despojar los escombros al final.'

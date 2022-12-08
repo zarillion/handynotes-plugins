@@ -769,7 +769,7 @@ map.nodes[74703790] = PT.Tailoring({
 
 map.nodes[43276663] = PM.Blacksmithing({
     id = 194836,
-    quest = nil,
+    quest = 70250,
     note = L['pm_smith_grekka_anvilsmash'],
     rewards = {
         Item({item = 190456, note = '25'}), -- Artisan's Mettle

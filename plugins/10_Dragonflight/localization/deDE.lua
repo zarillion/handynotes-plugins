@@ -259,7 +259,7 @@ L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item
 
 L['pm_alch_grigori_vialtry'] = 'Auf einem Felsvorsprung mit Blick auf den |cFFFFFD00Blitzfrostangriff|r.'
 L['pm_skin_zenzi'] = 'Sitzt direkt am Flussufer.'
-L['pm_smith_grekka_anvilsmash'] = 'Sitzt im Gras neben der Turmruine.\n\n|cFFFF0000(Zurzeit verbuggt.)|r'
+L['pm_smith_grekka_anvilsmash'] = 'Sitzt im Gras neben der Turmruine.'
 L['pt_alch_frostforged_potion_note'] = 'In der Mitte des Eiskraters.'
 L['pt_alch_well_insulated_mug_note'] = 'In der |cFFFFFD00Drachenfluchfestung|r zwischen einigen Elitegegnern.'
 L['pt_ench_enchanted_debris_note'] = 'Benutze und folge dem {npc:194872}, um die Trümmer am Ende zu plündern.'

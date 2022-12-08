@@ -266,7 +266,7 @@ Récupérez trois items différents et combinez-les à |cFFFFFD00"l\'Énigmes sa
 
 L['pm_alch_grigori_vialtry'] = 'Sur une corniche surplombant l\'|cFFFFFD00Assaut de Givréclair|r.'
 L['pm_skin_zenzi'] = 'Assise à côté de la rivière.'
-L['pm_smith_grekka_anvilsmash'] = 'Elle est assise dans l\'herbe à côté de la tour en ruines.\n\n|cFFFF0000(Actuellement buggé.)|r'
+L['pm_smith_grekka_anvilsmash'] = 'Elle est assise dans l\'herbe à côté de la tour en ruines.'
 L['pt_alch_frostforged_potion_note'] = 'Au milieu du cratère gelé.'
 L['pt_alch_well_insulated_mug_note'] = 'Dans le |cFFFFFD00Donjon du Fléau-des-Dragons|r entre un groupe de monstres élites.'
 L['pt_ench_enchanted_debris_note'] = 'Utilisez et suivez le {npc:194872} pour récupérer les débris à la fin.'

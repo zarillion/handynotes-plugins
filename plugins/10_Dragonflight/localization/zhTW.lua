@@ -265,7 +265,7 @@ L['hidden_hornswog_hoard_note'] = [[
 
 L['pm_alch_grigori_vialtry'] = '在一個平台上俯瞰 |cFFFFFD00閃霜進攻地|r.'
 L['pm_skin_zenzi'] = '在河邊坐著'
-L['pm_smith_grekka_anvilsmash'] = '在塔的廢墟旁邊的草地上.\n\n|cFFFF0000(目前有問題.)|r'
+L['pm_smith_grekka_anvilsmash'] = '在塔的廢墟旁邊的草地上.'
 L['pt_alch_frostforged_potion_note'] = '在冰坑中間'
 L['pt_alch_well_insulated_mug_note'] = '在 |cFFFFFD00龍禍要塞|r 內許多菁英怪之間'
 L['pt_ench_enchanted_debris_note'] = '使用並跟著 {npc:194872} 到最後來拾取碎片'
