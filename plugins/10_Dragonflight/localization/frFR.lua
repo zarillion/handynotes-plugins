@@ -78,7 +78,7 @@ L['large_lunker_sighting_note'] = 'Utilisez 5x {item:194701} pour invoquer soit 
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['brackenhide_rare_note'] = 'L\'apparition de ce rare sera annoncée dans le chat si vous vous trouvez dans la zone du |cFFFFFD00Creux des Fougerobes|r.'
+L['brackenhide_rare_note'] = 'Ces rares apparaissent selon une rotation fixe comme suit : {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} avec un intervalle de 10 minutes entre chacun.'
 L['fisherman_tinnak_note'] = 'Récupérez la |cFFFFFD00Canne à pêche cassée|r, le |cFFFFFD00Filet de pêche déchiré|r et le |cFFFFFD00Vieux harpon|r pour faire apparaître le rare.'
 L['spellwrought_snowman_note'] = 'Récupérez 10x {npc:193424} et amenez-les au {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Récupérez un |cFFFFFD00Fragment chantant|r pour obtenir {spell:382076} et utilisez le |cFFFFFD00Focalisateur déchargé|r pour faire apparaître le rare.'
