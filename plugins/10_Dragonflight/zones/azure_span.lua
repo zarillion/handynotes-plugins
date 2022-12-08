@@ -127,7 +127,8 @@ map.nodes[16622798] = Rare({
     quest = nil,
     rewards = {
         Achievement({id = 16678, criteria = 56108}),
-        Achievement({id = 16446, criteria = 3, note = L['pretty_neat_selfie_note']}),
+        Achievement(
+            {id = 16446, criteria = 3, note = L['pretty_neat_selfie_note']}),
         Item({item = 197595, quest = 69799}) -- Windborne Velocidrake: Finned Ears
         -- Transmog({item = , slot = L['']}) -- Name
     }
@@ -300,15 +301,6 @@ map.nodes[26494939] = Rare({ -- review -- required 67030
         -- Transmog({item = , slot = L['']}) -- Name
     }
 }) -- Skag the Thrower
-
--- map.nodes[] = Rare({
---     id = 193708,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56117}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Skald the Impaler
 
 map.nodes[10863229] = Rare({
     id = 197344,

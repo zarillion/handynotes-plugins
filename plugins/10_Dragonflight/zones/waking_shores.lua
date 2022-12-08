@@ -140,7 +140,8 @@ map.nodes[60204535] = Rare({
     quest = 73874,
     rewards = {
         Achievement({id = 16676, criteria = 56039}),
-        Achievement({id = 16446, criteria = 5, note = L['pretty_neat_selfie_note']}),
+        Achievement(
+            {id = 16446, criteria = 5, note = L['pretty_neat_selfie_note']}),
         Transmog({item = 200219, slot = L['cloak']}) -- Dangerous Drapery
     },
     pois = {
@@ -170,7 +171,8 @@ map.nodes[33127632] = Rare({
     quest = 72130, -- 73073
     rewards = {
         Achievement({id = 16676, criteria = 56048}),
-        Achievement({id = 16446, criteria = 8, note = L['pretty_neat_selfie_note']}),
+        Achievement(
+            {id = 16446, criteria = 8, note = L['pretty_neat_selfie_note']}),
         Item({item = 200858, note = L['trinket']}), -- Plume of the Forgotten
         Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
         Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
@@ -398,18 +400,25 @@ map.nodes[30025534] = Rare({
 
 -- Fishing rares that are part of the Azure Span adventurer achievement
 
+map.nodes[33886446] = Rare({
+    id = 193708,
+    note = L['skald_impaler_note'],
+    quest = 74078,
+    rewards = {Achievement({id = 16678, criteria = 56117})}
+}) -- Skald the Impaler
+
 map.nodes[65617410] = Rare({
     id = 193735,
     label = L['large_lunker_sighting'],
     note = L['large_lunker_sighting_note'],
-    quest = {74068},
+    quest = {74068, 74074, 74084},
     questCount = true,
     rewards = {
         Achievement({
             id = 16678,
             criteria = {
                 {id = 56119, quest = 74068}, -- Moth'go Deeploom
-                {id = 56118, quest = nil}, -- Seereel, the Spring
+                {id = 56118, quest = 74074}, -- Seereel, the Spring
                 {id = 56120, quest = 74084} -- Swog'ranka
             }
         }), --

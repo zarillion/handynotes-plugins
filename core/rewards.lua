@@ -148,7 +148,7 @@ function Achievement:GetText()
     local _, name, _, _, _, _, _, _, _, icon = GetAchievementInfo(self.id)
     local text = Icon(icon) .. ACHIEVEMENT_COLOR_CODE .. '[' .. name .. ']|r'
     if self.note then
-        text = text .. ns.color.White('\n('..self.note..')')
+        text = text .. ns.color.White('\n(' .. self.note .. ')')
     end
     return text
 end

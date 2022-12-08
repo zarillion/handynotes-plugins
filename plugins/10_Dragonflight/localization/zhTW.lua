@@ -240,6 +240,7 @@ L['lepidoralia_note'] = '在 |cFFFFFD00振翅洞穴|r. 幫助 {npc:193342} 抓�
 L['obsidian_citadel_rare_note'] = '你或其他玩家必須要繳交總共 %d個 {item:191264} 給 %s. 要鑄造鑰匙你需要結合30個 {item:191251} 和3個 {item:193201}, 你可以在|cFFFFFD00黑曜王座|r的怪物身上取得這些物品'
 L['shadeslash_note'] = '點選 |cFFFFFD00Pilfered Focus|r 來召喚稀有'
 L['obsidian_throne_rare_note'] = '在|cFFFFFD00黑曜王座|r內. '
+L['skald_impaler_note'] = nil
 L['slurpo_snail_note'] = '在|cFFFFFD00蒼藍高原|r (11, 41) 的山洞拾取一個 item:201033}並在此山洞使用來召喚他'
 L['worldcarver_atir_note'] = '從附近的 {npc:187366} 收集3個 {item:191211}, 並且將他們放置在 {npc:197395} 來召喚稀有'
 
@@ -281,7 +282,7 @@ L['pt_smith_curious_ingots_note'] = '在 |cFFFFFD00碎鱗者要塞|r 內地上�
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = '在 |cFFFFFD00黯淡的熔爐|r 旁製造1個 {item:189541}, 然後在 |cFFFFFD00淬火盆|r 裡的物品會變成可拾取的'
 L['pt_smith_molten_ingot_note'] = '踢3個金屬錠到熔岩中來召喚怪物. 在擊敗怪物後拾取箱子.'
 L['pt_smith_qalashi_weapon_diagram_note'] = '在一個鐵砧上方'
-L['pt_tailor_itinerant_singed_fabric_note'] = '在最後首領刷新的山洞外面樹上掛著的一片織物.'.. ns.color.Orange('需要精準的御龍術或是術士傳送門.')
+L['pt_tailor_itinerant_singed_fabric_note'] = '在最後首領刷新的山洞外面樹上掛著的一片織物.' .. ns.color.Orange('需要精準的御龍術或是術士傳送門.')
 L['pt_tailor_mysterious_banner_note'] = '在建築物的頂端飄著'
 
 L['quack_week_1'] = '第1個星期'

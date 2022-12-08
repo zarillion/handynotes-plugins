@@ -241,6 +241,7 @@ L['lepidoralia_note'] = nil
 L['obsidian_citadel_rare_note'] = 'Вы и другие игроки должны вернуть в общей сложности %dx {item:191264} к %s. Чтобы создать ключ, вам нужно объединить 30x {item:191251} и 3x {item:193201}, вы можете получить эти предметы из монстров в |cFFFFFD00Обсидиановой Цитадели|r.'
 L['shadeslash_note'] = nil
 L['obsidian_throne_rare_note'] = 'Внутри |cFFFFFD00Обсидиановой цитадели|r.'
+L['skald_impaler_note'] = nil
 L['slurpo_snail_note'] = nil
 L['worldcarver_atir_note'] = 'Соберите 3x {item:191211} у {npc:187366} поблизости и поместите их в {npc:197395}, чтобы призвать редкого монстра.'
 
