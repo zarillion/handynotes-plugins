@@ -73,7 +73,7 @@ L['large_lunker_sighting'] = '大家伙目击点'
 L['large_lunker_sighting_note'] = '使用5个 {item:194701} 召唤 {npc:192919} 或稀有。'
 
 L['options_icons_legendary_album'] = '{achievement:16570}'
-L['options_icons_legendary_album_desc'] = nil
+L['options_icons_legendary_album_desc'] = '显示 {achievement:16570} 成就中传奇角色的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
