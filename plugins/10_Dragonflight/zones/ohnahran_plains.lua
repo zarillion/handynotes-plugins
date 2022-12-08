@@ -33,6 +33,7 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2023, settings = true})
+local neltharus = Map({id = 2080, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -1052,9 +1053,19 @@ map.nodes[82874782] = HemetNesingwaryJr({
 ----------------------------- THAT'S PRETTY NEAT! -----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[58323192] = ns.node.Selfie({
+map.nodes[25675706] = ns.node.Selfie({
+    id = 193291,
+    note = L['pretty_neat_selfie_note_blazewing'],
+    rewards = {Achievement({id = 16446, criteria = 1})}
+}) -- Apex Blazewing
+
+neltharus.nodes[52408260] = ns.node.Selfie({
+    id = 193291,
+    rewards = {Achievement({id = 16446, criteria = 1})}
+}) -- Apex Blazewing
+
+map.nodes[58602066] = ns.node.Selfie({
     id = 193356,
-    note = L['bugged_selfie'],
     rewards = {Achievement({id = 16446, criteria = 2})}
 }) -- Avis Gryphonheart
 
@@ -1068,27 +1079,19 @@ map.nodes[59575538] = ns.node.Selfie({
     rewards = {Achievement({id = 16446, criteria = 9})}
 }) -- Glade Ohuna
 
-map.nodes[58363173] = ns.node.Selfie({
+map.nodes[58632082] = ns.node.Selfie({
     id = 193354,
-    note = L['bugged_selfie'],
     rewards = {Achievement({id = 16446, criteria = 10})}
 }) -- Halia Cloudfeather
 
-map.nodes[58003184] = ns.node.Selfie({
+map.nodes[60407140] = ns.node.Selfie({
     id = 195895,
-    note = L['bugged_selfie'],
-    rewards = {Achievement({id = 16446, criteria = 14})}
+    rewards = {Achievement({id = 16446, criteria = 14})},
+    pois = {Path({60607560,59407520,58407480,57807360,58607120,60407140,61807040,63006980,65206900,65206640,65606220,65806080,67605840,67805620,67805400,68605160})}
 }) -- Nergazurai
 
-map.nodes[57493192] = ns.node.Selfie({
+map.nodes[58672073] = ns.node.Selfie({
     id = 193357,
-    note = L['bugged_selfie'],
-    rewards = {Achievement({id = 16446, criteria = 15})}
-}) -- Ohn'ara
-
-map.nodes[58003184] = ns.node.Selfie({
-    id = 193357,
-    note = L['bugged_selfie'],
     rewards = {Achievement({id = 16446, criteria = 16})}
 }) -- Palla of the Wing
 
@@ -1164,7 +1167,8 @@ local Ohnahra = Class('Ohnahra', Collectible, {
         ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
     },
     rewards = {
-        Mount({item = 198821, id = 1545}) -- Divine Kiss of Ohn'ahra
+        Mount({item = 198821, id = 1545}), -- Divine Kiss of Ohn'ahra
+        Achievement({id = 16446, criteria = 15, note = L['pretty_neat_selfie_note']})
     },
     pois = {
         POI({56257595, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng

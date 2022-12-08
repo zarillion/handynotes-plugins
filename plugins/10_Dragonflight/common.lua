@@ -388,25 +388,3 @@ local Selfie = Class('Selfie', Collectible, {
 }) -- That's Pretty Neat!
 
 ns.node.Selfie = Selfie
-
--- TODO / Checklist
--- Apex Blazewing           Inside Neltharus
--- Blue Terror              Added to Rare - Unknown
--- Drakewing                Added to Rare - Unknown
--- Feasting Buzzard         Added - Working
--- Glade Ohuna              Added - Working
--- Horned Filcher           Added - Bugged
--- Liskron the Dazzling     Added to Rare - Unknown
--- Ohn'ahra                 Added as Separate Node - Unknown (probably bugged?)
--- Pine Flicker             Added - Bugged
--- Territorial Axebeak      Added - Working
--- Avis Gryphonheart        Added - Bugged
--- Chef Fry-Aerie           Added - Working
--- Eldoren the Reborn       Added to Rare - Unknown
--- Forgotten Gryphon        Added to Rare - Unknown
--- Halia Cloudfeather       Added - Bugged (counted as Drakewing)
--- Iridescent Peafowl       Added - Working
--- Nergazurai               Added to Rare - Unknown
--- Palla of the Wing        Added - Bugged (counted as Ohn'ahra)
--- Quackers the Terrible    Unknown Location
--- Zenet Avis               Added to Rare - Unknown
