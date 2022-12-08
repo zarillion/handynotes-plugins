@@ -118,7 +118,10 @@ map.nodes[14053096] = Rare({
     rewards = {
         Achievement({id = 16678, criteria = 56126}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
-        Transmog({item = 200442, slot = L['leather']}) -- Basilisk Hide Jerkin
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Item({item = 200859, note = L['trinket']}), -- Seasoned Hunter's Trophy
+        Item({item = 200563, note = L['trinket']}) -- Primal Ritual Shell
     }
 }) -- Blisterhide
 
@@ -200,8 +203,11 @@ map.nodes[14083747] = Rare({
     fgroup = 'brackenhide',
     note = L['brackenhide_rare_note'],
     rewards = {
-        Achievement({id = 16678, criteria = 56127})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16678, criteria = 56127}),
+        Transmog({item = 200259, slot = L['shild']}), -- Forest Dweller's Shield
+        Transmog({item = 200267, slot = L['plate']}), -- Reinforced Garden Tenders
+        Item({item = 197121, quest = 69322}), -- Highland Drake: Tan Horns
+        DC.RenewedProtoDrake.SnubSnout
     }
 }) -- Gnarls
 
@@ -308,8 +314,11 @@ map.nodes[10863229] = Rare({
     fgroup = 'brackenhide',
     note = L['brackenhide_rare_note'],
     rewards = {
-        Achievement({id = 16678, criteria = 56125})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16678, criteria = 56125}),
+        Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
+        Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
+        Item({item = 197150, quest = 69351}), -- Highland Drake: Spiked Club Tail
+        Item({item = 19982, quest = 69182}) -- Cliffside Wylderdrake: Ears
     }
 }) -- Snarglebone
 

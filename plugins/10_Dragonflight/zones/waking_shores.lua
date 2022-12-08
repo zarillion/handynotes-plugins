@@ -66,7 +66,10 @@ map.nodes[54517174] = Rare({ -- review -- required 67030
 map.nodes[28635882] = Rare({ -- review
     id = 190986,
     quest = 74040,
-    rewards = {Achievement({id = 16676, criteria = 56059})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56059}),
+        Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
+    }
 }) -- Battlehorn Pyrhus
 
 map.nodes[52916529] = Rare({

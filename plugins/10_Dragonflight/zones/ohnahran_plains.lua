@@ -297,7 +297,8 @@ map.nodes[58596822] = Rare({
     rewards = {
         Achievement({id = 16677, criteria = 56076}),
         Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
-        Transmog({item = 200441, slot = L['leather']}) -- Jhakan's Horned Cowl
+        Transmog({item = 200441, slot = L['leather']}), -- Jhakan's Horned Cowl
+        Item({item = 200141, note = L['ring']}) -- Wind Generating Band
     }
 }) -- Windseeker Avash
 
