@@ -233,8 +233,8 @@ L['arcanostabilized_provisions_note'] = nil
 L['steamed_scarab_steak_note'] = nil
 L['craft_creche_crowler_note'] = nil
 L['bivigosas_blood_sausages_note'] = nil
-L['options_icons_specialties'] = nil
-L['options_icons_specialties_desc'] = nil
+L['options_icons_specialties'] = '{achievement:16621}'
+L['options_icons_specialties_desc'] = 'Показать места еды и напитков для достижения {achievement:16621}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -311,9 +311,9 @@ L['grand_theft_mammoth_note'] = 'Прокатитесь на {npc:194625} до {
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Показать местоположение {npc:194625} для достижения {achievement:16493}.'
 
-L['options_icons_stories'] = nil
-L['options_icons_stories_desc'] = nil
-L['all_sides_of_the_story_garrick_and_shuja_note'] = nil
-L['all_sides_of_the_story_duroz_and_kolgar_note'] = nil
-L['all_sides_of_the_story_tarjin_note'] = nil
+L['options_icons_stories'] = '{achievement:16406}'
+L['options_icons_stories_desc'] = 'Места заданий для достижения {achievement:16406}.'
+L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Начните цепочку заданий и выслушайте историю {npc:184449} и {npc:184451}.'
+L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'В маленькой комнате под платформой.\n\nНачните цепочку заданий и выслушайте историю {npc:194800} и {npc:194801}. Другие задания будут разблокированы в течение следующих двух недель.'
+L['all_sides_of_the_story_tarjin_note'] = 'Начните цепочку заданий с {quest:70779}.\n{npc:196214} будет рассказывать вам новую историю каждую неделю.'
 L['all_sides_of_the_story_veritistrasz_note'] = nil
