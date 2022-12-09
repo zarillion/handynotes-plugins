@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**ADDON VERSION**: &lt;place version of the addon you have installed here&gt;
+**ADDON VERSION**: <place version of the addon you have installed here>
 
 **Describe the bug**
 A clear and concise description of what the bug is and how to reproduce it.
