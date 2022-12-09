@@ -738,7 +738,7 @@ map.nodes[52416987] = Collectible({
 map.nodes[43567208] = ns.node.PrettyNeat({
     id = 187280,
     rewards = {Achievement({id = 16446, criteria = 4})}
-}) -- Iridescent Peafowl
+}) -- Chef Fry-Aerie
 
 map.nodes[54285271] = ns.node.PrettyNeat({
     id = 192383,
@@ -763,4 +763,14 @@ map.nodes[38386903] = ns.node.LegendaryCharacter({
 -------------------------- FRAMING A NEW PERSPECTIVE --------------------------
 -------------------------------------------------------------------------------
 
+val.nodes[56094447] = NewPerspective({criteria = 55994, parent = map.id}) -- The Seat of the Aspects
+map.nodes[38967040] = NewPerspective({criteria = 55995}) -- The Cascades
+map.nodes[55737324] = NewPerspective({criteria = 55996}) -- Passage of Time -- On the Stone Arch
+map.nodes[68275833] = NewPerspective({criteria = 55997, parent = map.id}) -- Vault of the Incarnates
+map.nodes[57175871] = NewPerspective({criteria = 55998}) -- Tyrhold
+map.nodes[50284031] = NewPerspective({criteria = 55999}) -- Algeth'era Court
+map.nodes[63431347] = NewPerspective({criteria = 56000}) -- Veiled Ossuary
+map.nodes[39434692] = NewPerspective({criteria = 56001}) -- Serene Dreams Spa
+map.nodes[48286682] = NewPerspective({criteria = 56002}) -- Shadow Ledge -- Edge of the Waterfall
 val.nodes[56674327] = NewPerspective({criteria = 56003, parent = map.id}) -- Valdrakken's Portal Room
+map.nodes[46955951] = NewPerspective({criteria = 56004}) -- Tyrhold Reservoir

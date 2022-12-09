@@ -238,6 +238,7 @@ L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = '顯示成就 {achievement:16621} 所需的食物和飲料位置.'
 L['options_icons_new_perspective'] = nil
 L['options_icons_new_perspective_desc'] = nil
+L['new_perspective_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

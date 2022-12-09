@@ -236,8 +236,9 @@ L['craft_creche_crowler_note'] = 'Kann von {npc:187444} gekauft werden, der sich
 L['bivigosas_blood_sausages_note'] = 'Kann von {npc:188895} beim |cFFFFFD00Posten der Gelikyr|r gekauft werden.'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Zeigt die Positionen für die Spezialitäten an Speis und Trank für den Erfolg {achievement:16621} an.'
-L['options_icons_new_perspective'] = nil
-L['options_icons_new_perspective_desc'] = nil
+L['options_icons_new_perspective'] = '{achievement:16634}'
+L['options_icons_new_perspective_desc'] = 'Zeigt die Aussichtspunkte für den Erfolg {achievement:16634}.'
+L['new_perspective_note'] = 'Mache am Aussichtspunkt ein Foto mit der S.E.L.F.I.E.-Kamera. Der Ort wird durch einen violetten Lichtkreis gekennzeichnet sobald du im Kameramodus bist.\n\nFalls dir der Aussichtspunkt nicht angerechnet wird ändere die Perspektive.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
