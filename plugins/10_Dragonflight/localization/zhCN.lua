@@ -77,7 +77,7 @@ L['large_lunker_sighting_note'] = '使用5个 {item:194701} 召唤 {npc:192919} 
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['brackenhide_rare_note'] = '如果位于 |cFFFFFD00蕨皮山谷|r 区域，将在聊天中通报此稀有出现。'
+L['brackenhide_rare_note'] = '这些稀有以10分钟计时按固定轮次 {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 出现。'
 L['fisherman_tinnak_note'] = '收集 |cFFFFFD00破损的鱼竿|r，|cFFFFFD00撕裂的渔网|r 和 |cFFFFFD00老鱼叉|r 后稀有出现。'
 L['spellwrought_snowman_note'] = '收集10个 {npc:193424} 并将它们带到 {npc:193242}。'
 L['trilvarus_loreweaver_note'] = '收集 |cFFFFFD00歌声碎片|r 即可获得 {spell:382076} 并使用 |cFFFFFD00未知焦点|r 后稀有出现。'
@@ -237,7 +237,7 @@ L['options_icons_specialties_desc'] = '显示 {achievement:16621} 成就中食�
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = '卡拉希战队从 {npc:192737} 前往这座塔。'
-L['enkine_note'] = nil
+L['enkine_note'] = '沿着熔岩河击杀 {npc:193137}、{npc:193138} 或 {npc:193139} 以获得 {item:201092}，使用它并在熔岩中的 {npc:191866} 附近钓鱼。'
 L['lepidoralia_note'] = '位于 |cFFFFFD00翩翼洞窟|r。帮助 {npc:193342} 抓住 {npc:193274} 直到稀有出现。'
 L['obsidian_citadel_rare_note'] = '和其他玩家必须总共上缴%d个 {item:191264} %s。要制作钥匙，需要组合30个 {item:191251} 和3个 {item:193201}，可以从 |cFFFFFD00黑曜堡垒|r 怪物获得这些物品。'
 L['shadeslash_note'] = '点击 |cFFFFFD00失窃的法器|r 召唤稀有。'
@@ -307,7 +307,7 @@ L['grand_theft_mammoth_note'] = '骑乘 {npc:194625} 到 {npc:198163}。\n\n|cFF
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = '显示 {achievement:16493} 成就中 {npc:194625} 的位置。'
 
-L['all_sides_of_the_story_garrick_and_shuja_note'] = nil
-L['all_sides_of_the_story_duroz_and_kolgar_note'] = nil
-L['all_sides_of_the_story_tarjin_note'] = nil
-L['all_sides_of_the_story_veritistrasz_note'] = nil
+L['all_sides_of_the_story_garrick_and_shuja_note'] = '开启任务线，聆听 {npc:184449} 和 {npc:184451} 的故事。'
+L['all_sides_of_the_story_duroz_and_kolgar_note'] = '在平台下方的一个小房间里。\n\n启动任务线并聆听 {npc:194800} 和 {npc:194801} 的故事。更多任务将在接下来的两周内解锁。'
+L['all_sides_of_the_story_tarjin_note'] = '从 {quest:70779} 开始任务线。\n{npc:196214} 每周都会告诉你另一个故事。'
+L['all_sides_of_the_story_veritistrasz_note'] = '开始任务 {quest:70132} 以了解 {npc:194076} 的所有故事。\n之后将解锁 {quest:70134}，然后解锁 {quest:70268}。\n\n对于最后一个任务，需要 {item :198661} 在' .. ns.color.Yellow('灭龙要塞') .. '中找到。'
