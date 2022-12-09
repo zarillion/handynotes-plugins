@@ -131,7 +131,7 @@ map.nodes[16622798] = Rare({
     rewards = {
         Achievement({id = 16678, criteria = 56108}),
         Achievement({id = 16446, criteria = 3, note = L['pretty_neat_note']}),
-        Item({item = 197595, quest = 69799}) -- Windborne Velocidrake: Finned Ears
+        DC.WindborneVelocidrake.FinnedEars
         -- Transmog({item = , slot = L['']}) -- Name
     }
 }) -- Blue Terror
@@ -150,8 +150,8 @@ map.nodes[27214490] = Rare({
     quest = 73873,
     rewards = {
         Achievement({id = 16678, criteria = 56098}),
-        Item({item = 197005, quest = 69205}), -- Cliffside Wylderdrake: Horned Nose
-        Transmog({item = 200302, slot = L['1h_sword']}) -- Magmaforged Scimitar
+        Transmog({item = 200302, slot = L['1h_sword']}), -- Magmaforged Scimitar
+        DC.CliffsideWylderdrake.HornedNose
     },
     pois = {
         Path({
@@ -171,7 +171,7 @@ map.nodes[50043631] = Rare({ -- review
         Transmog({item = 199026, slot = L['1h_sword']}), -- Fire-Blessed Blade
         Transmog({item = 200310, slot = L['cloak']}), -- Stole of the Iron Phantom
         DC.RenewedProtoDrake.WhiteHorns, --
-        Item({item = 196985, quest = 69185}), -- Cliffside Wylderdrake: Horned Jaw
+        DC.CliffsideWylderdrake.HornedJaw, --
         Item({item = 198070}) -- Tattered Seavine
     },
     pois = {POI({50523672, 49973821, 49223842})}
@@ -205,8 +205,8 @@ map.nodes[14083747] = Rare({
         Achievement({id = 16678, criteria = 56127}),
         Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
         Transmog({item = 200267, slot = L['plate']}), -- Reinforced Garden Tenders
-        Item({item = 197121, quest = 69322}), -- Highland Drake: Tan Horns
-        DC.RenewedProtoDrake.SnubSnout
+        DC.RenewedProtoDrake.SnubSnout, --
+        DC.HighlandDrake.TanHorns
     }
 }) -- Gnarls
 
@@ -255,7 +255,7 @@ map.nodes[40514797] = Rare({
     rewards = {
         Achievement({id = 16678, criteria = 56100}),
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
-        Item({item = 197150, quest = 69351}) -- Highland Drake: Spiked Club Tail
+        DC.HighlandDrake.SpikedClubTail
     }
 }) -- Mange the Outcast
 
@@ -316,8 +316,8 @@ map.nodes[10863229] = Rare({
         Achievement({id = 16678, criteria = 56125}),
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
-        Item({item = 197150, quest = 69351}), -- Highland Drake: Spiked Club Tail
-        Item({item = 196982, quest = 69182}) -- Cliffside Wylderdrake: Ears
+        DC.HighlandDrake.SpikedClubTail, --
+        DC.CliffsideWylderdrake.Ears
     }
 }) -- Snarglebone
 
@@ -404,8 +404,8 @@ map.nodes[23503317] = Rare({
         Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
-        Item({item = 197098, quest = 69299}), -- Highland Drake: Finned Back
-        Item({item = 197001, quest = 69201}) -- Cliffside Wylderdrake: Finned Cheek
+        DC.HighlandDrake.FinnedBack, --
+        DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Cascade
 
@@ -433,7 +433,7 @@ map.nodes[17254144] = Rare({
     quest = 72853, -- 69872
     rewards = {
         Item({item = 201728}), -- Vakril's Strongbox
-        Item({item = 197001, quest = 69201}) -- Cliffside Wylderdrake: Finned Cheek
+        DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Vakril
 
@@ -443,8 +443,8 @@ map.nodes[36723247] = Rare({
     rewards = {
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
-        Item({item = 197150, quest = 69351}), -- Highland Drake: Spiked Club Tail
-        Item({item = 196982, quest = 69182}), -- Cliffside Wylderdrake: Ears
+        DC.HighlandDrake.SpikedClubTail, --
+        DC.CliffsideWylderdrake.Ears, --
         Item({item = 198048}) -- Titan Training Matrix I
     }
 }) -- Sharpfang

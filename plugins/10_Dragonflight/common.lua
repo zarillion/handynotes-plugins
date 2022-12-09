@@ -209,6 +209,31 @@ ns.DRAGON_CUSTOMIZATIONS = {
         ThinSpinedJaw = Item({item = 197387, quest = 69588}),
         WhiteHorns = Item({item = 197382, quest = 69583}),
         WhiteScales = Item({item = 197393, quest = 69594})
+    },
+    WindborneVelocidrake = {
+        ClubTail = Item({item = 197624, quest = 69828}),
+        FinnedEars = Item({item = 197595, quest = 69799}),
+        LargeHeadFin = Item({item = 197589, quest = 69793}),
+        SweptHorns = Item({item = 197606, quest = 69810})
+    },
+    HighlandDrake = {
+        FinnedBack = Item({item = 197098, quest = 69299}),
+        ManedHead = Item({item = 197111, quest = 69312}),
+        SpikedClubTail = Item({item = 197150, quest = 69351}),
+        TanHorns = Item({item = 197121, quest = 69322}),
+        ToothyMouth = Item({item = 197135, quest = 69336})
+    },
+    CliffsideWylderdrake = {
+        BlackHorns = Item({item = 196991, quest = 69191}),
+        BluntSpikedTail = Item({item = 197019, quest = 69219}),
+        Ears = Item({item = 196982, quest = 69182}),
+        FinnedCheek = Item({item = 197001, quest = 69201}),
+        FinnedNeck = Item({item = 197022, quest = 69222}),
+        HeadMane = Item({item = 196976, quest = 69176}),
+        HeavyHorns = Item({item = 196992, quest = 69192}),
+        HornedJaw = Item({item = 196985, quest = 69185}),
+        HornedNose = Item({item = 197005, quest = 69205}),
+        ManedNeck = Item({item = 197023, quest = 69223})
     }
 }
 

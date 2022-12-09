@@ -315,12 +315,12 @@ map.nodes[31456387] = Rare({
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
         Achievement({id = 16446, criteria = 20, note = L['pretty_neat_note']}),
+        Mount({item = 198825, id = 1672}), -- Zenet Hatchling
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
         DC.RenewedProtoDrake.PurpleHair, --
-        Item({item = 197606, quest = 69810}), -- Windborne Velocidrake: Swept Horns
-        Mount({item = 198825, id = 1672}) -- Zenet Hatchling
+        DC.WindborneVelocidrake.SweptHorns
     }
 }) -- Zenet Avis
 
@@ -375,7 +375,7 @@ map.nodes[22956670] = Rare({
     quest = 72851, -- 66378
     rewards = {
         Transmog({item = 200212, slot = L['mail']}), -- Sand-Encrusted Greaves
-        Item({item = 197111, quest = 69312}) -- Highland Drake: Maned Head
+        DC.HighlandDrake.ManedHead
     }
 }) -- Territorial Coastling
 
