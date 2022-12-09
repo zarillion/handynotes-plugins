@@ -214,7 +214,8 @@ ns.DRAGON_CUSTOMIZATIONS = {
         ClubTail = Item({item = 197624, quest = 69828}),
         FinnedEars = Item({item = 197595, quest = 69799}),
         LargeHeadFin = Item({item = 197589, quest = 69793}),
-        SweptHorns = Item({item = 197606, quest = 69810})
+        SweptHorns = Item({item = 197606, quest = 69810}),
+        ClusterHorns = Item({item = 197602, quest = 69806})
     },
     HighlandDrake = {
         FinnedBack = Item({item = 197098, quest = 69299}),

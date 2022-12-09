@@ -28,6 +28,8 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local DC = ns.DRAGON_CUSTOMIZATIONS
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2025, settings = true})
@@ -247,6 +249,17 @@ map.nodes[36757287] = Rare({
         Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
     }
 }) -- Liskron the Dazzling
+
+map.nodes[36798556] = Rare({
+    id = 193668,
+    quest = 72813,
+    rewards = {
+        Transmog({item = 200182, slot = L['cloak']}), -- Riveted Drape
+        DC.WindborneVelocidrake.ClusterHorns, DC.RenewedProtoDrake.ImpalerHorns,
+        DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.HeavyHorns,
+        Item({item = 198048}) -- Titan Training Matrix I
+    }
+}) -- Lookout Mordren
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
