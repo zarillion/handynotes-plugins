@@ -90,11 +90,8 @@ map.nodes[47675115] = Rare({ -- required 67030
     id = 193234,
     quest = 69875,
     rewards = {
-        Achievement({
-            id = 16446,
-            criteria = 6,
-            note = L['pretty_neat_note']
-        }), Achievement({id = 16679, criteria = 56147})
+        Achievement({id = 16446, criteria = 6, note = L['pretty_neat_note']}),
+        Achievement({id = 16679, criteria = 56147})
     }
 }) -- Eldoren the Reborn
 
@@ -243,11 +240,8 @@ map.nodes[36757287] = Rare({
     id = 193273,
     quest = 72842,
     rewards = {
-        Achievement({
-            id = 16446,
-            criteria = 13,
-            note = L['pretty_neat_note']
-        }), Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Achievement({id = 16446, criteria = 13, note = L['pretty_neat_note']}),
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
     }
 }) -- Liskron the Dazzling

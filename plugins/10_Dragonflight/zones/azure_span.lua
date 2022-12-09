@@ -130,8 +130,7 @@ map.nodes[16622798] = Rare({
     quest = nil,
     rewards = {
         Achievement({id = 16678, criteria = 56108}),
-        Achievement(
-            {id = 16446, criteria = 3, note = L['pretty_neat_note']}),
+        Achievement({id = 16446, criteria = 3, note = L['pretty_neat_note']}),
         Item({item = 197595, quest = 69799}) -- Windborne Velocidrake: Finned Ears
         -- Transmog({item = , slot = L['']}) -- Name
     }

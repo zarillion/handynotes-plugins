@@ -144,8 +144,7 @@ map.nodes[60204535] = Rare({
     quest = 73874,
     rewards = {
         Achievement({id = 16676, criteria = 56039}),
-        Achievement(
-            {id = 16446, criteria = 5, note = L['pretty_neat_note']}),
+        Achievement({id = 16446, criteria = 5, note = L['pretty_neat_note']}),
         Transmog({item = 200219, slot = L['cloak']}) -- Dangerous Drapery
     },
     pois = {
@@ -184,8 +183,7 @@ map.nodes[33127632] = Rare({
     quest = 72130, -- 73073
     rewards = {
         Achievement({id = 16676, criteria = 56048}),
-        Achievement(
-            {id = 16446, criteria = 8, note = L['pretty_neat_note']}),
+        Achievement({id = 16446, criteria = 8, note = L['pretty_neat_note']}),
         Item({item = 200858, note = L['trinket']}), -- Plume of the Forgotten
         Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
         Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards

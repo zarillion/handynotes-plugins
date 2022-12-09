@@ -314,8 +314,7 @@ map.nodes[31456387] = Rare({
     quest = 73901,
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
-        Achievement(
-            {id = 16446, criteria = 20, note = L['pretty_neat_note']}),
+        Achievement({id = 16446, criteria = 20, note = L['pretty_neat_note']}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
@@ -1163,11 +1162,7 @@ local Ohnahra = Class('Ohnahra', Collectible, {
     },
     rewards = {
         Mount({item = 198821, id = 1545}), -- Divine Kiss of Ohn'ahra
-        Achievement({
-            id = 16446,
-            criteria = 15,
-            note = L['pretty_neat_note']
-        })
+        Achievement({id = 16446, criteria = 15, note = L['pretty_neat_note']})
     },
     pois = {
         POI({56257595, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng
