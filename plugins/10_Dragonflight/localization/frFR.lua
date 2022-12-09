@@ -196,7 +196,7 @@ L['dreamguard_note'] = 'Ciblez le Garde-rêve et ' .. ns.color.Orange('/dormir')
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêves pour {achievement:16574}'
 
-L['tome_of_polymoph_duck'] = nil
+L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre |cFFFFFD00La tempête de mana pour les novices|r pour terminer la quête.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -239,7 +239,7 @@ L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Afficher les emplacements des aliments et boissons pour le haut-fait {achievement:16621}.'
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Afficher les emplacements des panoramas pour le haut-fait {achievement:16634}.'
-L['new_perspective_note'] = nil
+L['new_perspective_note'] = 'Prenez une photo du panorama avec l\'Appareil P.R.O.F.I.L. L\'emplacement sera marqué par un cercle lumineux violet dès que vous aurez activé le mode appareil photo.\n\nSi vous n\'obtenez pas de crédit pour ce haut-fait, modifiez la perspective.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -323,5 +323,15 @@ L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'Dans une petite pièce sous
 L['all_sides_of_the_story_tarjin_note'] = 'Commencez la suite de quêtes avec {quest:70779}.\n{npc:196214} vous racontera une autre histoire chaque semaine.'
 L['all_sides_of_the_story_veritistrasz_note'] = 'Commencez la quête {quest:70132} pour écouter toutes les histoires de {npc:194076}.\nEnsuite, vous débloquerez {quest:70134} puis {quest:70268}.\n\nPour la dernière quête, vous aurez besoin du {item:198661} qui se trouve à l\'intérieur du ' .. ns.color.Yellow('Donjon du Fléau-des-Dragons') .. '.'
 
-L['slumbering_worldsnail_note1'] = nil
-L['slumbering_worldsnail_note2'] = nil
+L['slumbering_worldsnail_note1'] = [[
+1. Récupérez 3x {item:193201} et 30x {item:191251} sur les monstres se trouvant dans la |cFFFFFD00Citadelle d'Obsidienne|r pour créer une {item:191264}.
+
+2. Échangez la {item:191264} contre un {item:199215} à {npc:187275}.
+
+3. Il y a 30% de chances que le coffre contienne un {item:199215}.
+
+4. Utiliser l'abonnement vous donnera le débuff {spell:386848} qui vous permettra de farmer des {item:202173} dans la |cFFFFFD00Citadelle d'Obsidienne|r.
+
+5. Rassemblez 1000x {item:202173} pour acheter la {item:192786}.]]
+
+L['slumbering_worldsnail_note2'] = ns.color.Orange('Note : Si vous mourrez, vous perdrez votre debuff d\'abonnement. Vous pouvez soit acheter un nouvel abonnement auprès de {npc:187275} pour 30x {item:202173}, soit apporter d\'autres clés pour avoir une chance d\'obtenir un nouvel abonnement dans le coffre.')
