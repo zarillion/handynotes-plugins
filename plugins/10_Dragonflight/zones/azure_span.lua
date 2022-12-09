@@ -317,7 +317,7 @@ map.nodes[10863229] = Rare({
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Item({item = 197150, quest = 69351}), -- Highland Drake: Spiked Club Tail
-        Item({item = 19982, quest = 69182}) -- Cliffside Wylderdrake: Ears
+        Item({item = 196982, quest = 69182}) -- Cliffside Wylderdrake: Ears
     }
 }) -- Snarglebone
 
