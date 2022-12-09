@@ -236,7 +236,7 @@ L['bivigosas_blood_sausages_note'] = 'Cómpraselo a {npc:188895} ' .. ns.color.N
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Muestra dónde están las comidas y bebidas para el logro {achievement:16621}.'
 L['options_icons_new_perspective'] = '{achievement:16634}'
-L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes para el logro {achievement:16634} achievement.'
+L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes para el logro {achievement:16634}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
