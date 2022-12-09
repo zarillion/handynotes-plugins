@@ -135,7 +135,8 @@ map.nodes[31785474] = Rare({ -- review -- required 67030
     note = format(L['obsidian_citadel_rare_note'], 20, '{npc:187447}'),
     rewards = {
         Achievement({id = 16676, criteria = 56053}),
-        Achievement({id = 16496, criteria = 56053}) -- Obsidian Champion
+        Achievement({id = 16496, criteria = 56053}), -- Obsidian Champion
+        Item({item = 200159, note = L['ring']}) -- Blaze Ring
     },
     pois = {POI({27735660})} -- Sabellian
 }) -- Death's Shadow
@@ -289,6 +290,9 @@ map.nodes[24005896] = Rare({
     note = L['obsidian_throne_rare_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56061}),
+        Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
+        Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        DC.CliffsideWylderdrake.BluntSpikedTail, --
         DC.CliffsideWylderdrake.HornedNose
     },
     pois = {POI({27226096})} -- Entrance
@@ -392,6 +396,7 @@ map.nodes[33525576] = Rare({
     rewards = {
         Achievement({id = 16676, criteria = 56058}),
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
+        Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
         Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
         DC.WindborneVelocidrake.ClubTail
     }
@@ -493,6 +498,7 @@ map.nodes[81133794] = Rare({
     note = L['in_small_cave'],
     rewards = {
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
         Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.CliffsideWylderdrake.HeadMane --

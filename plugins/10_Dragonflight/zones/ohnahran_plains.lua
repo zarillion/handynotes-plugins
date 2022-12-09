@@ -46,10 +46,11 @@ map.nodes[31607660] = Rare({
 
 map.nodes[30546628] = Rare({
     id = 189652,
-    quest = nil,
+    quest = 73872,
     rewards = {
         Achievement({id = 16677, criteria = 56068}),
-        Transmog({item = 189055, slot = L['wand']}) -- Ghendish's Backup Talisman
+        Transmog({item = 189055, slot = L['wand']}), -- Ghendish's Backup Talisman
+        DC.RenewedProtoDrake.GrayHair
     },
     pois = {
         Path({
@@ -112,10 +113,11 @@ map.nodes[80413867] = Rare({ -- review
 
 map.nodes[87556151] = Rare({
     id = 197009,
-    quest = nil,
+    quest = 73882,
     rewards = {
         Achievement({id = 16677, criteria = 56067}), --
-        Toy({item = 200249}) -- Mage's Chewed Wand
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        DC.RenewedProtoDrake.SharkSnout
     }
 }) -- Liskheszaera
 
