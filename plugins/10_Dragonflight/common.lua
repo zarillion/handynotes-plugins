@@ -399,16 +399,11 @@ ns.node.PrettyNeat = PrettyNeat
 local NewPerspective = Class('NewPerspective', Collectible, {
     icon = 1109100,
     -- sublabel = L['new_perspective_note'],
-    group = ns.groups.NEW_PERSPECTIVE,
-    rewards = function(self)
-        return Achievement({id = 16634, criteria = self.criteria})
-    end
+    group = ns.groups.NEW_PERSPECTIVE
 }) -- That's Pretty Neat!
 
-function NewPerspective:Initialize(criteria) self.criteria = criteria end
-
-function NewPerspective.getters:label()
-    return select(1, GetAchievementCriteriaInfo(16634, self.criteria), nil)
+function NewPerspective.getters:rewards()
+    return {Achievement({id = 16634, criteria = self.criteria})}
 end
 
 ns.node.NewPerspective = NewPerspective
