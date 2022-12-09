@@ -1,3 +1,8 @@
+# v15
+
+* Added quest locations for All Sides of the Story.
+* More rare updates.
+
 # v14
 
 * Added lunker rares summoned with Ominous Conches.
