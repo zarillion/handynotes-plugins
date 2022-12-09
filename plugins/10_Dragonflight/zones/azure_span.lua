@@ -203,7 +203,7 @@ map.nodes[14083747] = Rare({
     note = L['brackenhide_rare_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56127}),
-        Transmog({item = 200259, slot = L['shild']}), -- Forest Dweller's Shield
+        Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
         Transmog({item = 200267, slot = L['plate']}), -- Reinforced Garden Tenders
         Item({item = 197121, quest = 69322}), -- Highland Drake: Tan Horns
         DC.RenewedProtoDrake.SnubSnout
