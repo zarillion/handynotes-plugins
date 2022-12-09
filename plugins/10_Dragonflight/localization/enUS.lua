@@ -322,7 +322,7 @@ L['all_sides_of_the_story_tarjin_note'] = 'Start the Questline with {quest:70779
 L['all_sides_of_the_story_veritistrasz_note'] = 'Start the quest {quest:70132} to all the stories of {npc:194076}.\nAfter that you will unlock {quest:70134} followed by {quest:70268}.\n\nFor the last quest you will need {item:198661} which is found inside ' .. ns.color.Yellow('Dragonbane Keep') .. '.'
 
 L['slumbering_worldsnail_note1'] = [[
-1. Collect 3x {item:193201} and 30x {item:191251} from mobs around |cFFFFFD00Obsidian Citadel|r to form a {item:191264}.
+1. Loot 3x {item:193201} and 30x {item:191251} from mobs around |cFFFFFD00Obsidian Citadel|r to form a {item:191264}.
 
 2. Exchange the {item:191264} for a {item:199215} from {npc:187275}.
 
