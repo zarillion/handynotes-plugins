@@ -131,7 +131,7 @@ map.nodes[16622798] = Rare({
     rewards = {
         Achievement({id = 16678, criteria = 56108}),
         Achievement(
-            {id = 16446, criteria = 3, note = L['pretty_neat_selfie_note']}),
+            {id = 16446, criteria = 3, note = L['pretty_neat_note']}),
         Item({item = 197595, quest = 69799}) -- Windborne Velocidrake: Finned Ears
         -- Transmog({item = , slot = L['']}) -- Name
     }
@@ -970,12 +970,12 @@ map.nodes[69204987] = HemetNesingwaryJr({
 ----------------------------- THAT'S PRETTY NEAT! -----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[36673652] = ns.node.Selfie({
+map.nodes[36673652] = ns.node.PrettyNeat({
     id = 190218,
     rewards = {Achievement({id = 16446, criteria = 11})}
 }) -- Horned Filcher
 
-map.nodes[38193815] = ns.node.Selfie({
+map.nodes[38193815] = ns.node.PrettyNeat({
     id = 190221,
     rewards = {Achievement({id = 16446, criteria = 17})}
 }) -- Pine Flicker

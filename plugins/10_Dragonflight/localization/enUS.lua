@@ -64,11 +64,10 @@ L['hnj_western_azure_span_hunt'] = 'On top of the dead tree.'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Display the locations of {npc:194590} for the achievement {achievement:16542}.'
 
-L['pretty_neat_selfie_note'] = 'Take a picture with the S.E.L.F.I.E. camera.'
-L['pretty_neat_selfie_note_blazewing'] = 'Can be found during the {npc:189901} boss encounter in the ' .. ns.color.Yellow('Neltharus') .. ' dungeon.'
--- L['bugged_selfie'] = '|cFFFF0000(BUG: The wrong NPC or none at all will be detected.)|r' -- all of the non-rares are fixed. i assume all rares are fixed too. leaving the line here just in case
-L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
-L['options_icons_pretty_neat_selfie_desc'] = 'Display the location of NPCs for the achievement {achievement:16446}.'
+L['pretty_neat_note'] = 'Take a picture with the S.E.L.F.I.E. camera.'
+L['pretty_neat_note_blazewing'] = 'Can be found during the {npc:189901} boss encounter in the ' .. ns.color.Yellow('Neltharus') .. ' dungeon.'
+L['options_icons_pretty_neat'] = '{achievement:16446}'
+L['options_icons_pretty_neat_desc'] = 'Display the location of NPCs for the achievement {achievement:16446}.'
 
 L['large_lunker_sighting'] = 'Large Lunker Sighting'
 L['large_lunker_sighting_note'] = 'Use 5x {item:194701} to summon either a {npc:192919} or a rare.'

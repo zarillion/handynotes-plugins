@@ -48,7 +48,7 @@ ns.groups.SCOUT_PACK =
 ns.groups.SPECIALTIES = Group('specialties', 651585,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
-ns.groups.PRETTY_NEAT_SELFIE = Group('pretty_neat_selfie', 133707,
+ns.groups.PRETTY_NEAT = Group('pretty_neat', 133707,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836,
     {defaults = ns.GROUP_HIDDEN})
@@ -381,10 +381,31 @@ ns.node.Squirrel = Squirrel
 ----------------------------- THAT'S PRETTY NEAT! -----------------------------
 -------------------------------------------------------------------------------
 
-local Selfie = Class('Selfie', Collectible, {
+local PrettyNeat = Class('PrettyNeat', Collectible, {
     icon = 133707,
-    sublabel = L['pretty_neat_selfie_note'],
-    group = ns.groups.PRETTY_NEAT_SELFIE
+    sublabel = L['pretty_neat_note'],
+    group = ns.groups.PRETTY_NEAT
 }) -- That's Pretty Neat!
 
-ns.node.Selfie = Selfie
+ns.node.PrettyNeat = PrettyNeat
+
+-------------------------------------------------------------------------------
+-------------------------- FRAMING A NEW PERSPECTIVE! -------------------------
+-------------------------------------------------------------------------------
+
+local NewPerspective = Class('NewPerspective', Collectible, {
+    icon = 1109100,
+    sublabel = L['new_perspective_note'],
+    group = ns.groups.NEW_PERSPECTIVE,
+    rewards = function(self)
+        return Achievement({id = 16634, criteria = self.criteria})
+    end
+}) -- That's Pretty Neat!
+
+function NewPerspective:Initialize(criteria) self.criteria = criteria end
+
+function NewPerspective.getters:label()
+    return select(1, GetAchievementCriteriaInfo(16634, self.criteria), nil)
+end
+
+ns.node.NewPerspective = NewPerspective

@@ -178,7 +178,7 @@ map.nodes[61212950] = Rare({ -- reqiured 67030
 --     quest = nil,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56091}),
---         Achievement({id = 16446, criteria = 18, note = L['pretty_neat_selfie_note']}),
+--         Achievement({id = 16446, criteria = 18, note = L['pretty_neat_note']}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Quackers the Terrible
@@ -315,7 +315,7 @@ map.nodes[31456387] = Rare({
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
         Achievement(
-            {id = 16446, criteria = 20, note = L['pretty_neat_selfie_note']}),
+            {id = 16446, criteria = 20, note = L['pretty_neat_note']}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
@@ -1053,27 +1053,27 @@ map.nodes[82874782] = HemetNesingwaryJr({
 ----------------------------- THAT'S PRETTY NEAT! -----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[58602066] = ns.node.Selfie({
+map.nodes[58602066] = ns.node.PrettyNeat({
     id = 193356,
     rewards = {Achievement({id = 16446, criteria = 2})}
 }) -- Avis Gryphonheart
 
-map.nodes[74724069] = ns.node.Selfie({
+map.nodes[74724069] = ns.node.PrettyNeat({
     id = 190960,
     rewards = {Achievement({id = 16446, criteria = 7})}
 }) -- Feasting Buzzard
 
-map.nodes[59575538] = ns.node.Selfie({
+map.nodes[59575538] = ns.node.PrettyNeat({
     id = 187496,
     rewards = {Achievement({id = 16446, criteria = 9})}
 }) -- Glade Ohuna
 
-map.nodes[58632082] = ns.node.Selfie({
+map.nodes[58632082] = ns.node.PrettyNeat({
     id = 193354,
     rewards = {Achievement({id = 16446, criteria = 10})}
 }) -- Halia Cloudfeather
 
-map.nodes[60407140] = ns.node.Selfie({
+map.nodes[60407140] = ns.node.PrettyNeat({
     id = 195895,
     rewards = {Achievement({id = 16446, criteria = 14})},
     pois = {
@@ -1085,7 +1085,7 @@ map.nodes[60407140] = ns.node.Selfie({
     }
 }) -- Nergazurai
 
-map.nodes[58672073] = ns.node.Selfie({
+map.nodes[58672073] = ns.node.PrettyNeat({
     id = 193357,
     rewards = {Achievement({id = 16446, criteria = 16})}
 }) -- Palla of the Wing
@@ -1166,7 +1166,7 @@ local Ohnahra = Class('Ohnahra', Collectible, {
         Achievement({
             id = 16446,
             criteria = 15,
-            note = L['pretty_neat_selfie_note']
+            note = L['pretty_neat_note']
         })
     },
     pois = {
