@@ -199,7 +199,7 @@ L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_protector_note'] = nil
+L['ancient_protector_note'] = '击杀附近的 {npc:193244} 以获得 {item:197708}。将5个 {item:197708} 组合成一个 {item:197733} 并用它来激活附近的泰坦反应堆。'
 L['blightpaw_note'] = '与附近的 {npc:193222} 交谈并同意帮助他。'
 L['weeping_vilomah_note'] = '和 {npc:193206} 对话召唤稀有。'
 L['woofang_note'] = '抚摸 {npc:193156} 稀有出现。'
