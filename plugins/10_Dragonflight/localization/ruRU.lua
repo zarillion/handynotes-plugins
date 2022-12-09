@@ -310,6 +310,8 @@ L['grand_theft_mammoth_note'] = 'Прокатитесь на {npc:194625} до {
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Показать местоположение {npc:194625} для достижения {achievement:16493}.'
 
+L['options_icons_stories'] = nil
+L['options_icons_stories_desc'] = nil
 L['all_sides_of_the_story_garrick_and_shuja_note'] = nil
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = nil
 L['all_sides_of_the_story_tarjin_note'] = nil

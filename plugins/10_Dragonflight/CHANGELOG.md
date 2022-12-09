@@ -1,7 +1,8 @@
 # v15
 
 * Added quest locations for All Sides of the Story.
-* More rare updates.
+* Added legendary character locations for A Legendary Album.
+* Many more rare updates.
 
 # v14
 

@@ -50,6 +50,7 @@ ns.groups.SCOUT_PACK =
 ns.groups.SPECIALTIES = Group('specialties', 651585,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
+ns.groups.STORIES = Group('stories', 4549126, {defaults = ns.GROUP_HIDDEN})
 ns.groups.PRETTY_NEAT = Group('pretty_neat', 133707,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836,

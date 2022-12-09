@@ -1293,6 +1293,7 @@ map.nodes[58406760] = Collectible({
 
 map.nodes[76363308] = Collectible({
     label = '{npc:184452}',
+    group = ns.groups.STORIES,
     icon = 4549126,
     quest = {67053, 70135}, -- needs to be checked
     questCount = true,
@@ -1303,6 +1304,7 @@ map.nodes[76363308] = Collectible({
 
 map.nodes[76733455] = Collectible({
     label = '{npc:184449}',
+    group = ns.groups.STORIES,
     icon = 4549126,
     quest = {66110, 66111}, -- needs to be checked
     questCount = true,
@@ -1313,6 +1315,7 @@ map.nodes[76733455] = Collectible({
 
 map.nodes[58676778] = Collectible({
     label = '{npc:194801}',
+    group = ns.groups.STORIES,
     icon = 4549126,
     quest = {70239, 70240, 70241, 70242, 70708},
     questCount = true,
@@ -1323,6 +1326,7 @@ map.nodes[58676778] = Collectible({
 
 map.nodes[16176261] = Collectible({
     label = '{npc:196214}',
+    group = ns.groups.STORIES,
     icon = 4549126,
     -- quest = {70779,70767,70768}, -- TODO
     -- questCount = true,
@@ -1332,6 +1336,7 @@ map.nodes[16176261] = Collectible({
 
 map.nodes[57856680] = Collectible({
     label = '{npc:194076}',
+    group = ns.groups.STORIES,
     icon = 4549126,
     quest = {
         70132, 70206, 70543, 70544, 70217, 70546, 70547, 70219, 70548, 70223,

@@ -1105,6 +1105,18 @@ map.nodes[51985701] = ns.node.LegendaryCharacter({
 }) -- Nat Pagle
 
 -------------------------------------------------------------------------------
+-------------------------- ONE OF EVERYTHING, PLEASE --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[28006060] = Collectible({
+    label = '{item:201089}',
+    icon = 644375,
+    note = L['craft_creche_crowler_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55940})}
+}) -- Craft Creche Crowler
+
+-------------------------------------------------------------------------------
 ------------------------- LIZI, THUNDERSPINE TRAMPLER -------------------------
 -------------------------------------------------------------------------------
 
@@ -1149,18 +1161,6 @@ function Lizi.getters:note()
 end
 
 map.nodes[56207710] = Lizi() -- day 1 and 2
-
--------------------------------------------------------------------------------
--------------------------- ONE OF EVERYTHING, PLEASE --------------------------
--------------------------------------------------------------------------------
-
-map.nodes[28006060] = Collectible({
-    label = '{item:201089}',
-    icon = 644375,
-    note = L['craft_creche_crowler_note'],
-    group = ns.groups.SPECIALTIES,
-    rewards = {Achievement({id = 16621, criteria = 55940})}
-}) -- Craft Creche Crowler
 
 -------------------------------------------------------------------------------
 ---------------------- OHN'AHRA, DIVINE KISS OF OHN'AHRA ----------------------

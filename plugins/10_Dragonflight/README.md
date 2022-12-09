@@ -50,6 +50,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Critter locations for the [To All the Squirrels Hidden Til Now](https://www.wowhead.com/achievement=16729/to-all-the-squirrels-hidden-til-now) achievement.
 * Hemet Nesingwary Jr. locations for the [The Disgruntled Hunter](https://www.wowhead.com/achievement=16542/the-disgruntled-hunter) achievement.
 * Bird locations for the [That's Pretty Neat!](https://www.wowhead.com/achievement=16446/thats-pretty-neat) achievement.
+* Legendary character locations for the [A Legendary Album](https://www.wowhead.com/achievement=16570/a-legendary-album) achievement.
 * Profession-specific treasure locations which grant knowledge for your crafting specializations.
 
 ### Waking Shores
@@ -59,6 +60,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Kites for the [Symbols of Hope](https://www.wowhead.com/achievement=16584/symbols-of-hope) achievement.
 * Stone Tablets for the [Siege on Dragonbane Keep: Chiseled Record](https://www.wowhead.com/achievement=16412/siege-on-dragonbane-keep-chiseled-record) achievement.
 * Mammoths for the [Grand Theft Mammoth](https://www.wowhead.com/achievement=16493/grand-theft-mammoth) achievement.
+* Story locations for the [All Sides of the Story](https://www.wowhead.com/achievement=16406/all-sides-of-the-story) achievement.
 
 ### Ohnahran Plains
 
