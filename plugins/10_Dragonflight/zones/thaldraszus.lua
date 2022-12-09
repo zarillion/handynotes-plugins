@@ -774,3 +774,25 @@ map.nodes[39434692] = NewPerspective({criteria = 56001}) -- Serene Dreams Spa
 map.nodes[48286682] = NewPerspective({criteria = 56002}) -- Shadow Ledge -- Edge of the Waterfall
 val.nodes[56674327] = NewPerspective({criteria = 56003, parent = map.id}) -- Valdrakken's Portal Room
 map.nodes[46955951] = NewPerspective({criteria = 56004}) -- Tyrhold Reservoir
+
+-------------------------------------------------------------------------------
+----------------------- GREAT GOURMAND OF THE RUBY FEAST ----------------------
+-------------------------------------------------------------------------------
+
+val.nodes[61261096] = Collectible({
+    icon = 629060,
+    parent = map.id,
+    label = '{achievement:16556}',
+    note = L['ruby_feast_gourmand'],
+    rewards = {
+        Achievement({
+            id = 16556,
+            criteria = {
+                55714, 55715, 55716, 55717, 55718, 55719, 55720, 55721, 55722,
+                55723, 55724, 55725, 55726, 55728, 55729, 55730, 55731, 55732,
+                55733, 55734
+            }
+        })
+
+    }
+})

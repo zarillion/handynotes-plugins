@@ -239,6 +239,7 @@ L['options_icons_specialties_desc'] = 'Display food and drink locations for {ach
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Vista locations for the {achievement:16634} achievement.'
 L['new_perspective_note'] = 'Take a picture with the S.E.L.F.I.E. camera at the vista. The location will be marked by a purple light circle as soon as you in camera mode.\n\nIf you dont get credit towards the achievement, change your perspective.'
+L['ruby_feast_gourmand'] = 'Every day, a random guest chef serves up different dishes and drinks.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

@@ -240,6 +240,7 @@ L['options_icons_specialties_desc'] = 'Muestra dónde están las comidas y bebid
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes para el logro {achievement:16634}.'
 L['new_perspective_note'] = 'Haz una foto con la cámara S.E.L.F.I.E. al paisaje. La localización se marcará con un círculo violeta claro tan pronto como estés en el modo de cámara.\n\nSi no se te marca en el logro, cambia tu perspectiva.'
+L['ruby_feast_gourmand'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

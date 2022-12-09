@@ -239,6 +239,7 @@ L['options_icons_specialties_desc'] = 'Zeigt die Positionen für die Spezialitä
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Zeigt die Aussichtspunkte für den Erfolg {achievement:16634}.'
 L['new_perspective_note'] = 'Mache am Aussichtspunkt ein Foto mit der S.E.L.F.I.E.-Kamera. Der Ort wird durch einen violetten Lichtkreis gekennzeichnet sobald du im Kameramodus bist.\n\nFalls dir der Aussichtspunkt nicht angerechnet wird ändere die Perspektive.'
+L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschiedene Gerichte und Getränke auf.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

@@ -240,6 +240,7 @@ L['options_icons_specialties_desc'] = 'Показать места еды и н�
 L['options_icons_new_perspective'] = nil
 L['options_icons_new_perspective_desc'] = nil
 L['new_perspective_note'] = nil
+L['ruby_feast_gourmand'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

@@ -239,6 +239,7 @@ L['options_icons_specialties_desc'] = '顯示成就 {achievement:16621} 所需�
 L['options_icons_new_perspective'] = nil
 L['options_icons_new_perspective_desc'] = nil
 L['new_perspective_note'] = nil
+L['ruby_feast_gourmand'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
