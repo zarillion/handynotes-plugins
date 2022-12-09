@@ -235,8 +235,8 @@ L['craft_creche_crowler_note'] = 'Cómpraselo a {npc:187444} ' .. ns.color.NPC('
 L['bivigosas_blood_sausages_note'] = 'Cómpraselo a {npc:188895} ' .. ns.color.NPC('<Alimentos y bebidas>') .. ' en el |cFFFFFD00Puesto Gelikyr|r.'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Muestra dónde están las comidas y bebidas para el logro {achievement:16621}.'
-L['options_icons_new_perspective'] = nil
-L['options_icons_new_perspective_desc'] = nil
+L['options_icons_new_perspective'] = '{achievement:16634}'
+L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes para el logro {achievement:16634} achievement.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
