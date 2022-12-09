@@ -670,7 +670,7 @@ map.nodes[67061316] = PT.Alchemy({
 
 map.nodes[17762167] = PM.Engineering({
     id = 194838,
-    quest = nil,
+    quest = 70252,
     note = L['pm_engi_frizz_buzzcrank'],
     rewards = {
         Item({item = 190456, note = '25'}), -- Artisan's Mettle
