@@ -395,7 +395,7 @@ ns.node.PrettyNeat = PrettyNeat
 
 local NewPerspective = Class('NewPerspective', Collectible, {
     icon = 1109100,
-    sublabel = L['new_perspective_note'],
+    -- sublabel = L['new_perspective_note'],
     group = ns.groups.NEW_PERSPECTIVE,
     rewards = function(self)
         return Achievement({id = 16634, criteria = self.criteria})
