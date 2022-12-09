@@ -114,6 +114,7 @@ L['leyline_note'] = '重新排列魔网。'
 L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = '显示 {achievement:16638} 成就中全部重新排列魔网的位置。'
 
+L['river_rapids_wrangler_note'] = nil
 L['seeing_blue_note'] = '从碧蓝档案馆的顶端飞到钴蓝集所，当中不落地。'
 L['snowman_note'] = '该区域有三个 {npc:197599}（可能已被其他玩家移动），将它们滚给两个孩子 {npc:197838} 和 {npc:197839}。\n当雪球有合适的尺寸时获得成就。'
 L['temperamental_skyclaw_note'] = [[

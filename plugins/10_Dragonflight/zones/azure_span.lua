@@ -1020,6 +1020,14 @@ map.nodes[50935561] = Collectible({
     pois = {POI({50955481, 50985611})}
 }) -- Do You Wanna Build a Snowman?
 
+map.nodes[45025405] = Collectible({
+    label = '{achievement:15889}',
+    note = L['river_rapids_wrangler_note'],
+    icon = 134325,
+    requires = ns.requirement.Quest(66155), -- Ruriq's River Rapids Ride
+    rewards = {Achievement({id = 15889})}
+}) -- River Rapids Wrangler
+
 -------------------------------------------------------------------------------
 ---------------------------- TEMPERAMENTAL SKYCLAW ----------------------------
 -------------------------------------------------------------------------------

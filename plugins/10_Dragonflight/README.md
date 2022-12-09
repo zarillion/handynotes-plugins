@@ -74,6 +74,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Dragon Glyphs for the [Azure Span Glyph Hunter](https://www.wowhead.com/beta/achievement=16577/azure-span-glyph-hunter) achievement.
 * Flight path for the [Seeing Blue](https://www.wowhead.com/achievement=16581/seeing-blue) achievement.
 * Lay lines for the [Ley Line in the Span](https://www.wowhead.com/achievement=16638/ley-line-in-the-span) achievement.
+* Location for the [River Rapids Wrangler](https://www.wowhead.com/achievement=15889/river-rapids-wrangler) achievement.
 * Snowballs for the [Do You Wanna Build a Snowman?](https://www.wowhead.com/achievement=16474/do-you-wanna-build-a-snowman) achievement.
 
 ### Thaldraszus

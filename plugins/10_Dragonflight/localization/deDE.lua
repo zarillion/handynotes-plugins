@@ -114,6 +114,7 @@ L['leyline_note'] = 'Richte die Laylinie neu aus.'
 L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = 'Zeigt die Positionen aller Leylinien für den Erfolg {achievement:16638} an.'
 
+L['river_rapids_wrangler_note'] = 'Sprich mit {npc:186157} und wähle "Ich würde gerne nochmal den Stromschnellenritt machen" aus. Du hast 60 Sekunden, um 40x Stacks von {spell:373490} zu sammeln.'
 L['seeing_blue_note'] = 'Fliegt ohne Zwischenlandung von der Spitze der Azurarchive zum Kobaltkonvent.'
 L['snowman_note'] = 'Es liegen 3 Schneebälle in der Nähe (möglicherweise wurden sie von anderen Spielern weggerollt), rolle sie zu den Kindern {npc:197838} und {npc:197839}.\nDu erhältst den Erfolg sobald die Schneebälle die richtigen Größen erreicht haben.'
 L['temperamental_skyclaw_note'] = [[

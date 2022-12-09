@@ -114,6 +114,7 @@ L['leyline_note'] = 'Realign the ley line.'
 L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = 'Display the location of all ley line for the achievement {achievement:16638}.'
 
+L['river_rapids_wrangler_note'] = 'Talk to {npc:186157} and select "I\'d like to take your River Rapids Ride again". You have 60 seconds to collect get 40x stacks of {spell:373490}.'
 L['seeing_blue_note'] = 'Fly from the top of the Azure Archives to the Cobalt Assembly without landing.'
 L['snowman_note'] = 'There are three {npc:197599s} laying in the area (might have been moved by other players), roll them to the two kids {npc:197838} and {npc:197839}.\nYou get the achievement when the snowballs have the right sizes.'
 L['temperamental_skyclaw_note'] = [[
