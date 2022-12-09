@@ -766,7 +766,7 @@ map.nodes[38386903] = ns.node.LegendaryCharacter({
 val.nodes[56094447] = NewPerspective({criteria = 55994, parent = map.id}) -- The Seat of the Aspects
 map.nodes[38967040] = NewPerspective({criteria = 55995}) -- The Cascades
 map.nodes[55737324] = NewPerspective({criteria = 55996}) -- Passage of Time -- On the Stone Arch
-map.nodes[68275833] = NewPerspective({criteria = 55997, parent = map.id}) -- Vault of the Incarnates
+map.nodes[68275833] = NewPerspective({criteria = 55997}) -- Vault of the Incarnates
 map.nodes[57175871] = NewPerspective({criteria = 55998}) -- Tyrhold
 map.nodes[50284031] = NewPerspective({criteria = 55999}) -- Algeth'era Court
 map.nodes[63431347] = NewPerspective({criteria = 56000}) -- Veiled Ossuary
