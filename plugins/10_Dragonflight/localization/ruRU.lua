@@ -66,15 +66,15 @@ L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Показать местоположение {npc:194590} для достижения {achievement:16542}.'
 
 L['pretty_neat_note'] = 'Сделайте снимок с помощью СЕЛФИ камеры.'
-L['pretty_neat_note_blazewing'] = nil
+L['pretty_neat_note_blazewing'] = 'Можно найти во время сражения с боссом {npc:189901} в ' .. ns.color.Yellow('Нелтарий') .. ' подземелье.'
 L['options_icons_pretty_neat'] = '{achievement:16446}'
 L['options_icons_pretty_neat_desc'] = 'Отображение местоположения НПС для достижения {achievement:16446}.'
 
-L['large_lunker_sighting'] = nil
-L['large_lunker_sighting_note'] = nil
+L['large_lunker_sighting'] = 'Поиск рыб-гигантов'
+L['large_lunker_sighting_note'] = 'Используйте 5x {item:194701}, чтобы призвать либо {npc:192919}, либо редкого монстра.'
 
 L['options_icons_legendary_album'] = '{achievement:16570}'
-L['options_icons_legendary_album_desc'] = nil
+L['options_icons_legendary_album_desc'] = 'Отображение мест с легендарными личностями для {achievement:16570}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -82,7 +82,7 @@ L['options_icons_legendary_album_desc'] = nil
 
 L['brackenhide_rare_note'] = 'Эти редкие монстры появляются в установленной ротации {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} с интервалом в 10 минут.'
 L['fisherman_tinnak_note'] = 'Соберите |cFFFFFD00Сломанную удочку|r, |cFFFFFD00Рванную рыболовную сеть|r и |cFFFFFD00Старый гарпун|r для призыва редкого монстра.'
-L['spellwrought_snowman_note'] = 'Соберите 10x {npc:193424} и принесите их {npc:193242}.'
+L['spellwrought_snowman_note'] = 'Соберите 10x {npc:193424} и принесите их к {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Возьмите |cFFFFFD00Напевающий фрагмент|r и получите {spell:382076} затем используйте |cFFFFFD00Незаряженное сосредоточение|r для того, чтобы призвать редкого монстра.'
 
 L['breezebiter_note'] = 'Летает на небе, чтобы приземлить его просто летайте возле него.'
