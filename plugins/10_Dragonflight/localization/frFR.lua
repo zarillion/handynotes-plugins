@@ -307,3 +307,8 @@ L['options_icons_chiseled_record_desc'] = 'Afficher les emplacements des tablett
 L['grand_theft_mammoth_note'] = 'Chevauchez le {npc:194625} jusqu\'au {npc:198163}.\n\n|cFFFF0000(BUG : Si vous ne pouvez pas interagir avec le {npc:194625}, essayez un /reload.)|r'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Afficher les emplacements des {npc:194625s} pour le haut-fait {achievement:16493}.'
+
+L['all_sides_of_the_story_garrick_and_shuja_note'] = nil
+L['all_sides_of_the_story_duroz_and_kolgar_note'] = nil
+L['all_sides_of_the_story_tarjin_note'] = nil
+L['all_sides_of_the_story_veritistrasz_note'] = nil

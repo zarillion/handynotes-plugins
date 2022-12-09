@@ -306,3 +306,8 @@ L['options_icons_chiseled_record_desc'] = '顯示成就 {achievement:16412} 所�
 L['grand_theft_mammoth_note'] = '騎 {npc:194625} 到 {npc:198163}.\n\n|cFFFF0000(BUG: 如果你不能和 {npc:194625} 互動請使用 /reload.)|r'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = '顯示成就 {achievement:16493} 所需 {npc:194625} 的位置.'
+
+L['all_sides_of_the_story_garrick_and_shuja_note'] = nil
+L['all_sides_of_the_story_duroz_and_kolgar_note'] = nil
+L['all_sides_of_the_story_tarjin_note'] = nil
+L['all_sides_of_the_story_veritistrasz_note'] = nil

@@ -300,3 +300,8 @@ L['options_icons_chiseled_record_desc'] = 'Zeigt die Positionen der Steintafeln 
 L['grand_theft_mammoth_note'] = 'Reite das {npc:194625} zu {npc:198163}.\n\n|cFFFF0000(BUG: Wenn du mit dem {npc:194625} nicht interagieren kannst nutze /reload.)|r'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Zeigt die Positionen der {npc:194625} für den Erfolg {achievement:16493} an.'
+
+L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Beginne die Questreihe und höre dir die Geschichte von {npc:184449} und {npc:184451} an.'
+L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'In einem kleinen Raum unter der Platform.\n\nStarte die Questreihe und höre die Geschichte von {npc:194800} und {npc:194801}. Weitere Quests werden in den folgenden 2 Wochen verfügbar sein.'
+L['all_sides_of_the_story_tarjin_note'] = 'Beginne die Questreihe mit {quest:70779}.\n{npc:196214}erzählt jede Woche eine weitere Geschichte.'
+L['all_sides_of_the_story_veritistrasz_note'] = 'Beginne die Quest {quest:70132} und höre dir alle Geschichten von {npc:194076} an.\nDanach schaltest du die Quest {quest:70134} und die Folgequest {quest:70268} frei.\n\nFür die letze Quest benötigst du das {item:198661} welches in der ' .. ns.color.Yellow('Drachenfluchfestung') .. ' zu finden ist.'

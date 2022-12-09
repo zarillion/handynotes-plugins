@@ -306,3 +306,8 @@ L['options_icons_chiseled_record_desc'] = 'Display tablet locations for the {ach
 L['grand_theft_mammoth_note'] = 'Ride the {npc:194625} to {npc:198163}.\n\n|cFFFF0000(BUG: If you cant interact with {npc:194625} use /reload.)|r'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Display the location of {npc:194625s} for the achievement {achievement:16493}.'
+
+L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Start the Questline and listen to the story of {npc:184449} and {npc:184451}.'
+L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'In a small room underneath the Platform.\n\nStart the Questline and listen to the story of {npc:194800} and {npc:194801}. More quests will be unlocked in the next two weeks.'
+L['all_sides_of_the_story_tarjin_note'] = 'Start the Questline with {quest:70779}.\n{npc:196214} will tell you another story every week.'
+L['all_sides_of_the_story_veritistrasz_note'] = 'Start the quest {quest:70132} to all the stories of {npc:194076}.\nAfter that you will unlock {quest:70134} followed by {quest:70268}.\n\nFor the last qust you will need {item:198661} which is found inside ' .. ns.color.Yellow('Dragonbane Keep') .. '.'

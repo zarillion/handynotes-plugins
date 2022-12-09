@@ -1288,3 +1288,66 @@ map.nodes[58406760] = Collectible({
     group = ns.groups.SPECIALTIES,
     rewards = {Achievement({id = 16621, criteria = 55940})}
 }) -- Craft Creche Crowler
+
+-------------------------------------------------------------------------------
+---------------------------- ALL SIDES OF THE STORY ---------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[76363308] = Collectible({
+    label = '{npc:184452}',
+    icon = 4549126,
+    quest = {67053, 70135}, -- needs to be checked
+    questCount = true,
+    faction = 'Alliance',
+    note = L['all_sides_of_the_story_garrick_and_shuja_note'],
+    rewards = {Achievement({id = 16406, criteria = 1})},
+}) -- Captain Garrick & Shuja Grimaxe - Alliance
+
+map.nodes[76733455] = Collectible({
+    label = '{npc:184449}',
+    icon = 4549126,
+    quest = {66110, 66111}, -- needs to be checked
+    questCount = true,
+    faction = 'Horde',
+    note = L['all_sides_of_the_story_garrick_and_shuja_note'],
+    rewards = {Achievement({id = 16406, criteria = 1})},
+}) -- Captain Garrick & Shuja Grimaxe - Horde
+
+map.nodes[58676778] = Collectible({
+    label = '{npc:194801}',
+    icon = 4549126,
+    quest = {70239, 70240, 70241, 70242, 70708},
+    questCount = true,
+    note = L['all_sides_of_the_story_duroz_and_kolgar_note'],
+    rewards = {Achievement({id = 16406, criteria = 2})},
+    pois = {POI({57676697})}
+}) -- Duroz & Kolgar
+
+map.nodes[16176261] = Collectible({
+    label = '{npc:196214}',
+    icon = 4549126,
+    -- quest = {70779,70767,70768}, -- TODO
+    -- questCount = true,
+    note = L['all_sides_of_the_story_tarjin_note'],
+    rewards = {Achievement({id = 16406, criteria = 3})}
+}) -- Tarjin the Blind
+
+map.nodes[57856680] = Collectible({
+    label = '{npc:194076}',
+    icon = 4549126,
+    quest = {
+        70132, 70206, 70543, 70544, 70217, 70546, 70547, 70219, 70548, 70223,
+        70134, 70262, 70268
+    },
+    questCount = true,
+    note = L['all_sides_of_the_story_veritistrasz_note'],
+    rewards = {Achievement({id = 16406, criteria = 4})},
+    pois = {
+        POI({27176089, 23236049}),
+        Path(
+            {
+                23236049, 23516024, 23615935, 24725857, 25175881, 26055968,
+                27176089
+            })
+    }
+}) -- Veritistrasz

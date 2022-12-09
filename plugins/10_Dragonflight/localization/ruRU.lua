@@ -307,3 +307,8 @@ L['options_icons_chiseled_record_desc'] = 'Показать расположен
 L['grand_theft_mammoth_note'] = 'Прокатитесь на {npc:194625} до {npc:198163}.\n\n|cFFFF0000(БАГ: если вы не можете взаимодействовать с {npc:194625}, используйте /reload.)|r'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Показать местоположение {npc:194625} для достижения {achievement:16493}.'
+
+L['all_sides_of_the_story_garrick_and_shuja_note'] = nil
+L['all_sides_of_the_story_duroz_and_kolgar_note'] = nil
+L['all_sides_of_the_story_tarjin_note'] = nil
+L['all_sides_of_the_story_veritistrasz_note'] = nil
