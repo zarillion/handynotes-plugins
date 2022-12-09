@@ -327,7 +327,7 @@ L['all_sides_of_the_story_veritistrasz_note'] = 'Commencez la quête {quest:7013
 L['slumbering_worldsnail_note1'] = [[
 1. Récupérez 3x {item:193201} et 30x {item:191251} sur les monstres se trouvant dans la |cFFFFFD00Citadelle d'Obsidienne|r pour créer une {item:191264}.
 
-2. Échangez la {item:191264} contre un {item:199215} à {npc:187275}.
+2. Échangez la {item:191264} contre une {item:200069} à {npc:187275}.
 
 3. Il y a 30% de chances que le coffre contienne un {item:199215}.
 
