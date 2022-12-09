@@ -1,3 +1,7 @@
+# v16
+
+* Fix lua error in Valdrakken.
+
 # v15
 
 * Added quest locations for All Sides of the Story.
