@@ -785,7 +785,7 @@ map.nodes[43276663] = PM.Blacksmithing({
         Item({item = 190456, note = '25'}), -- Artisan's Mettle
         Currency({id = 2023, note = '5'}) -- Dragon Isles Blacksmithing Knowledge
     }
-}) -- Grekka Anvilsmash -- currently bugged
+}) -- Grekka Anvilsmash
 
 map.nodes[60827590] = PM.Alchemy({
     id = 194829,
