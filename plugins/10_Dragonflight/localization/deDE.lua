@@ -73,7 +73,7 @@ L['large_lunker_sighting'] = 'Sichtung eines großen Oschis'
 L['large_lunker_sighting_note'] = 'Benutze 5x {item:194701}, um entweder {npc:192919} oder einen seltenen Gegner zu beschwören.'
 
 L['options_icons_legendary_album'] = '{achievement:16570}'
-L['options_icons_legendary_album_desc'] = nil
+L['options_icons_legendary_album_desc'] = 'Zeigt die Positionen der legendären Charaktere für den Erfolg {achievement:16570} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -196,13 +196,13 @@ L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefeh
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinnen für den Erfolg {achievement:16574} an.'
 
-L['tome_of_polymoph_duck'] = nil
+L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem |cFFFFFD00Manastürmen für Anfänger|r Buch, um die Quest abzuschließen.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_protector_note'] = nil
+L['ancient_protector_note'] = 'Töte {npc:193244} in der Nähe, um 5x {item:197708} zu erhalten und kombiniere diese, um einen {item:197733} herzustellen und verwende diesen, um Titanischer Reaktor in der Nähe zu aktivieren.'
 L['blightpaw_note'] = 'Sprich mit {npc:193222} in der Nähe und stimme zu, ihm zu helfen.'
 L['weeping_vilomah_note'] = 'Sprich mit {npc:193206}, um den seltenen Gegner erscheinen zu lassen.'
 L['woofang_note'] = 'Streichel {npc:193156}, um den seltenen Gegner erscheinen zu lassen.'
@@ -238,7 +238,7 @@ L['bivigosas_blood_sausages_note'] = 'Kann von {npc:188895} beim |cFFFFFD00Poste
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Zeigt die Positionen für die Spezialitäten an Speis und Trank für den Erfolg {achievement:16621} an.'
 L['options_icons_new_perspective'] = '{achievement:16634}'
-L['options_icons_new_perspective_desc'] = 'Zeigt die Aussichtspunkte für den Erfolg {achievement:16634}.'
+L['options_icons_new_perspective_desc'] = 'Zeigt die Positionen der Aussichten für den Erfolg {achievement:16634} an.'
 L['new_perspective_note'] = 'Mache am Aussichtspunkt ein Foto mit der S.E.L.F.I.E.-Kamera. Der Ort wird durch einen violetten Lichtkreis gekennzeichnet sobald du im Kameramodus bist.\n\nFalls dir der Aussichtspunkt nicht angerechnet wird ändere die Perspektive.'
 L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschiedene Gerichte und Getränke auf.'
 
@@ -311,12 +311,21 @@ L['grand_theft_mammoth_note'] = 'Reite das {npc:194625} zu {npc:198163}.\n\n|cFF
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Zeigt die Positionen der {npc:194625} für den Erfolg {achievement:16493} an.'
 
-L['options_icons_stories'] = nil
-L['options_icons_stories_desc'] = nil
+L['options_icons_stories'] = '{achievement:16406}'
+L['options_icons_stories_desc'] = 'Zeigt die Positionen der Quests für den Erfolg {achievement:16406} an.'
 L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Beginne die Questreihe und höre dir die Geschichte von {npc:184449} und {npc:184451} an.'
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'In einem kleinen Raum unter der Platform.\n\nStarte die Questreihe und höre die Geschichte von {npc:194800} und {npc:194801}. Weitere Quests werden in den folgenden 2 Wochen verfügbar sein.'
 L['all_sides_of_the_story_tarjin_note'] = 'Beginne die Questreihe mit {quest:70779}.\n{npc:196214}erzählt jede Woche eine weitere Geschichte.'
 L['all_sides_of_the_story_veritistrasz_note'] = 'Beginne die Quest {quest:70132} und höre dir alle Geschichten von {npc:194076} an.\nDanach schaltest du die Quest {quest:70134} und die Folgequest {quest:70268} frei.\n\nFür die letze Quest benötigst du das {item:198661} welches in der ' .. ns.color.Yellow('Drachenfluchfestung') .. ' zu finden ist.'
 
-L['slumbering_worldsnail_note1'] = nil
-L['slumbering_worldsnail_note2'] = nil
+L['slumbering_worldsnail_note1'] = [[
+1. Sammel 30x {item:191251} und 3x {item:193201} von Gegnern bei der |cFFFFFD00Obsidianzitadelle|r, um einen {item:191264} herzustellen.
+
+2. Tausche den {item:191264} bei {npc:187275} gegen eine {item:200069} ein. Es besteht eine rund 30%ige Chance, dass in der Truhe eine {item:199215} enthalten ist.
+
+3. Benutze die Mitgliedschaft und sammel 1000x {item:202173} von Gegnern bei der |cFFFFFD00Obsidianzitadelle|r, während der Schwächungszauber {spell:386848} aktiv ist.
+
+4. Kaufe mit den gesammelten {item:202173} das Reittier.
+]]
+
+L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, verlierst du den Schwächungszauber {spell:386848}. Kaufe entweder für 30x {item:202173} eine neue Mitgliedschaft bei {npc:187275} oder gib weitere Schlüssel ab, um aus der Truhe eine neue Mitgliedschaft zu erhalten.')
