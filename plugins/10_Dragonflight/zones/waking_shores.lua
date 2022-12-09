@@ -1300,7 +1300,7 @@ map.nodes[76363308] = Collectible({
     questCount = true,
     faction = 'Alliance',
     note = L['all_sides_of_the_story_garrick_and_shuja_note'],
-    rewards = {Achievement({id = 16406, criteria = 1})},
+    rewards = {Achievement({id = 16406, criteria = 1})}
 }) -- Captain Garrick & Shuja Grimaxe - Alliance
 
 map.nodes[76733455] = Collectible({
@@ -1310,7 +1310,7 @@ map.nodes[76733455] = Collectible({
     questCount = true,
     faction = 'Horde',
     note = L['all_sides_of_the_story_garrick_and_shuja_note'],
-    rewards = {Achievement({id = 16406, criteria = 1})},
+    rewards = {Achievement({id = 16406, criteria = 1})}
 }) -- Captain Garrick & Shuja Grimaxe - Horde
 
 map.nodes[58676778] = Collectible({
