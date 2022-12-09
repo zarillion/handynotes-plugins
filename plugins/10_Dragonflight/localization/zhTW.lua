@@ -32,7 +32,7 @@ L['golden_claw_note'] = '在龍雕像的右後爪'
 L['precious_stone_fragment_note'] = '在雕像的右腳下'
 L['stone_dragontooth_note'] = '在龍雕像台座旁的地上'
 L['tail_fragment_note'] = '在龍雕像尾巴上'
-L['wrapped_gold_band_note'] = '在龍雕像的右後爪下'
+L['wrapped_gold_band_note'] = '在龍雕像的左後爪下'
 L['options_icons_fragment'] = '{achievement:16323}'
 L['options_icons_fragment_desc'] = '顯示成就 {achievement:16323} 所需的碎塊位置'
 
@@ -65,13 +65,13 @@ L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = '顯示成就 {achievement:16542} 所需的 {npc:194590} 位置.'
 
 L['pretty_neat_selfie_note'] = '使用任何自拍相機拍一張照'
-L['pretty_neat_selfie_note_blazewing'] = nil
+L['pretty_neat_selfie_note_blazewing'] = '可以在地城 ' .. ns.color.Yellow('奈薩魯斯堡') .. ' 中和首領 {npc:189901} 的戰鬥中發現.'
 -- L['bugged_selfie'] = '|cFFFF0000(BUG: 有可能會是錯誤或是沒有NPC被偵測到.)|r'
 L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
 L['options_icons_pretty_neat_selfie_desc'] = '顯示成就 {achievement:16446} 所需的 NPC 位置'
 
-L['large_lunker_sighting'] = nil
-L['large_lunker_sighting_note'] = nil
+L['large_lunker_sighting'] = '大傢伙目擊點'
+L['large_lunker_sighting_note'] = '使用5個 {item:194701} 來召喚 {npc:192919} 或是稀有'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -237,12 +237,12 @@ L['options_icons_specialties_desc'] = '顯示成就 {achievement:16621} 所需�
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = '喀拉希戰爭隊伍坐在他們的 {npc:192737} 往這座塔旅行.'
-L['enkine_note'] = nil
+L['enkine_note'] = '殺掉沿著熔岩河的 {npc:193137}, {npc:193138} 或 {npc:193139} 取得 {item:201092}, 使用它並在 {npc:191866} 的附近熔岩中釣魚'
 L['lepidoralia_note'] = '在 |cFFFFFD00振翅洞穴|r. 幫助 {npc:193342} 抓住 {npc:193274} 直到稀有刷新'
 L['obsidian_citadel_rare_note'] = '你或其他玩家必須要繳交總共 %d個 {item:191264} 給 %s. 要鑄造鑰匙你需要結合30個 {item:191251} 和3個 {item:193201}, 你可以在|cFFFFFD00黑曜王座|r的怪物身上取得這些物品'
 L['shadeslash_note'] = '點選 |cFFFFFD00Pilfered Focus|r 來召喚稀有'
 L['obsidian_throne_rare_note'] = '在|cFFFFFD00黑曜王座|r內. '
-L['skald_impaler_note'] = nil
+L['skald_impaler_note'] = '使用5個 {item:194701} 來召喚稀有'
 L['slurpo_snail_note'] = '在|cFFFFFD00蒼藍高原|r (11, 41) 的山洞拾取一個 item:201033}並在此山洞使用來召喚他'
 L['worldcarver_atir_note'] = '從附近的 {npc:187366} 收集3個 {item:191211}, 並且將他們放置在 {npc:197395} 來召喚稀有'
 
