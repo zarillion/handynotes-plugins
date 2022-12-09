@@ -326,7 +326,7 @@ L['all_sides_of_the_story_veritistrasz_note'] = 'Start the quest {quest:70132} t
 L['slumbering_worldsnail_note1'] = [[
 1. Loot 3x {item:193201} and 30x {item:191251} from mobs around |cFFFFFD00Obsidian Citadel|r to form a {item:191264}.
 
-2. Exchange the {item:191264} for a {item:199215} from {npc:187275}.
+2. Exchange the {item:191264} for a {item:200069} from {npc:187275}.
 
 3. There is a 30% chance the chest will contain a {item:199215}.
 
