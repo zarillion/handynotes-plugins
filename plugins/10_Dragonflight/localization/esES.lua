@@ -200,7 +200,7 @@ L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños pa
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_protector_note'] = nil
+L['ancient_protector_note'] = 'Mata a una {npc:193244} cercana para conseguir un {item:197708}. Combina 5 {item:197708} para crear un {item:197733}. Úsalo para activar los Reactores de los Titanes cercanos.'
 L['blightpaw_note'] = 'Habla con el {npc:193222} y acepta ayudarle.'
 L['weeping_vilomah_note'] = 'Habla con {npc:193206} para invocar al raro.'
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
@@ -311,8 +311,8 @@ L['grand_theft_mammoth_note'] = 'Monta el {npc:194625} hacia el {npc:198163}.\n\
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Muestra dónde están los {npc:194625} para el logro {achievement:16493}.'
 
-L['options_icons_stories'] = nil
-L['options_icons_stories_desc'] = nil
+L['options_icons_stories'] = '{achievement:16406}'
+L['options_icons_stories_desc'] = 'Muestra dónde están las misiones para el logro {achievement:16406}.'
 L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Comienza la cadena de misiones y escucha la historia de la {npc:184449} y de {npc:184451}.'
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'En una habitación pequeña debajo de la plataforma.\n\nComienza la cadena de misiones y escucha la historia de {npc:194800} y de {npc:194801}. En las siguientes dos semanas se desbloquearán más misiones.'
 L['all_sides_of_the_story_tarjin_note'] = 'Comienza la cadena de misiones con {quest:70779}.\n{npc:196214} te contará otra historia cada semana.'
