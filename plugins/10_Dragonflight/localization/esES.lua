@@ -240,7 +240,7 @@ L['options_icons_specialties_desc'] = 'Muestra dónde están las comidas y bebid
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes para el logro {achievement:16634}.'
 L['new_perspective_note'] = 'Haz una foto con la cámara S.E.L.F.I.E. al paisaje. La localización se marcará con un círculo violeta claro tan pronto como estés en el modo de cámara.\n\nSi no se te marca en el logro, cambia tu perspectiva.'
-L['ruby_feast_gourmand'] = nil
+L['ruby_feast_gourmand'] = 'Cada día, un invitado chef al azar sirve distintos platos y bebidas.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -324,5 +324,15 @@ L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'En una habitación pequeña
 L['all_sides_of_the_story_tarjin_note'] = 'Comienza la cadena de misiones con {quest:70779}.\n{npc:196214} te contará otra historia cada semana.'
 L['all_sides_of_the_story_veritistrasz_note'] = 'Comienza la misión {quest:70132} para escuchar las historias de {npc:194076}.\nDespués, desbloquearás la misión {quest:70134} seguida de {quest:70268}.\n\nPara la última misión necesitarás {item:198661} que podrás encontrar dentro de la ' .. ns.color.Yellow('Fortaleza de Ruinadragón') .. '.'
 
-L['slumbering_worldsnail_note1'] = nil
-L['slumbering_worldsnail_note2'] = nil
+L['slumbering_worldsnail_note1'] = [[
+1. Despoja 3x {item:193201} y 30x {item:191251} de los enemigos de alrededor de la |cFFFFFD00Ciudadela Obsidiana|r para formar una {item:191264}.
+
+2. Intercambia la {item:191264} por un {item:200069} a {npc:187275}.
+
+3. Hay un 30% de posibilidades de que el alijo contenga un {item:199215}.
+
+4. Usar el título de miembro te otorgará el debuff {spell:386848} que te permitirá farmear {item:202173} alrededor de la |cFFFFFD00Ciudadela Obsidiana|r.
+
+5. Recoge 1000x {item:202173} para comprar el {item:192786}.]]
+
+L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: Si mueres perderás el debuff de membresía. Compre un nuevo título de miembro a {npc:187275} por 30x {item:202173} o dale más llaves para la oportunidad de sacar un título de miembro del alijo.')
