@@ -592,7 +592,7 @@ map.nodes[16303849] = PT.Alchemy({
 
 map.nodes[16703880] = PT.Leatherworking({
     id = 198658,
-    quest = nil,
+    quest = 70266,
     note = L['pt_leath_decay_infused_tanning_oil_note']
 }) -- Decay-Infused Tanning Oil
 

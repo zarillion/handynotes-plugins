@@ -163,9 +163,9 @@ map.nodes[60204535] = Rare({
     }
 }) -- Drakewing
 
-map.nodes[21626478] = Rare({ -- review
+map.nodes[21626478] = Rare({
     id = 193134,
-    quest = 73072, -- 72128 wrong?
+    quest = 73072,
     note = L['enkine_note'],
     requires = ns.requirement.Item(201092), -- Lava Spices
     rewards = {
@@ -243,7 +243,7 @@ map.nodes[32805248] = Rare({
 
 map.nodes[56004592] = Rare({
     id = 193256,
-    quest = nil,
+    quest = 73888,
     rewards = {
         Achievement({id = 16676, criteria = 56034}),
         Item({item = 200236, note = L['trinket']}), -- Memory of Nulltheria
@@ -463,10 +463,10 @@ map.nodes[64173289] = Rare({
 
 map.nodes[54582137] = Rare({
     id = 195915,
-    quest = nil,
+    quest = 70648,
     rewards = {
         DC.RenewedProtoDrake.ImpalerHorns, --
-        Item({item = 197135, quest = nil}) -- Highland Drake: Toothy Mouth
+        Item({item = 197135, quest = 69336}) -- Highland Drake: Toothy Mouth
     }
 }) -- Firava the Rekindler
 
@@ -483,7 +483,7 @@ map.nodes[54728225] = Rare({
 
 map.nodes[24135392] = Rare({
     id = 189289,
-    quest = nil,
+    quest = 74019,
     note = L['obsidian_throne_rare_note'],
     pois = {POI({27226096})} -- Entrance
 }) -- Penumbrus
