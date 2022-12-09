@@ -200,6 +200,7 @@ L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños pa
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
+L['ancient_protector_note'] = nil
 L['blightpaw_note'] = 'Habla con el {npc:193222} y acepta ayudarle.'
 L['weeping_vilomah_note'] = 'Habla con {npc:193206} para invocar al raro.'
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'

@@ -199,6 +199,7 @@ L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
+L['ancient_protector_note'] = nil
 L['blightpaw_note'] = '与附近的 {npc:193222} 交谈并同意帮助他。'
 L['weeping_vilomah_note'] = '和 {npc:193206} 对话召唤稀有。'
 L['woofang_note'] = '抚摸 {npc:193156} 稀有出现。'

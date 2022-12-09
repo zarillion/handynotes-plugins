@@ -45,7 +45,9 @@ local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
 map.nodes[59075874] = Rare({
     id = 193664,
     quest = 69963,
-    rewards = {Achievement({id = 16679, criteria = 56158})}
+    note = L['ancient_protector_note'],
+    rewards = {Achievement({id = 16679, criteria = 56158})},
+    pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
 }) -- Ancient Protector
 
 map.nodes[31097121] = Rare({ -- requirement ?

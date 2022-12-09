@@ -575,7 +575,7 @@ map.nodes[82455067] = PM.Leatherworking({
 
 map.nodes[58375000] = PM.Herbalism({
     id = 194839,
-    quest = nil,
+    quest = 70253,
     note = L['pm_herb_hua_greenpaw'],
     rewards = {
         Item({item = 190456, note = '25'}), -- Artisan's Mettle

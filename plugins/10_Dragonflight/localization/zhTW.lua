@@ -199,6 +199,7 @@ L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
+L['ancient_protector_note'] = nil
 L['blightpaw_note'] = '和附近的 {npc:193222} 交談並同意幫助他.'
 L['weeping_vilomah_note'] = '和 {npc:193206} 對話來召喚稀有'
 L['woofang_note'] = '撫摸 {npc:193156} 來召喚稀有.'

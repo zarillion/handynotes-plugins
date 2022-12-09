@@ -199,6 +199,7 @@ L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinne
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
+L['ancient_protector_note'] = nil
 L['blightpaw_note'] = 'Sprich mit {npc:193222} in der Nähe und stimme zu, ihm zu helfen.'
 L['weeping_vilomah_note'] = 'Sprich mit {npc:193206}, um den seltenen Gegner erscheinen zu lassen.'
 L['woofang_note'] = 'Streichel {npc:193156}, um den seltenen Gegner erscheinen zu lassen.'
