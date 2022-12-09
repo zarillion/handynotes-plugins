@@ -989,6 +989,18 @@ map.nodes[44206095] = ns.node.LegendaryCharacter({
 }) -- Chief Telemancer Oculeth
 
 -------------------------------------------------------------------------------
+-------------------------- ONE OF EVERYTHING, PLEASE --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[63005780] = Collectible({
+    label = '{item:201089}',
+    icon = 644375,
+    note = L['craft_creche_crowler_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55940})}
+}) -- Craft Creche Crowler
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
@@ -1007,18 +1019,6 @@ map.nodes[50935561] = Collectible({
     rewards = {Achievement({id = 16474})},
     pois = {POI({50955481, 50985611})}
 }) -- Do You Wanna Build a Snowman?
-
--------------------------------------------------------------------------------
--------------------------- ONE OF EVERYTHING, PLEASE --------------------------
--------------------------------------------------------------------------------
-
-map.nodes[63005780] = Collectible({
-    label = '{item:201089}',
-    icon = 644375,
-    note = L['craft_creche_crowler_note'],
-    group = ns.groups.SPECIALTIES,
-    rewards = {Achievement({id = 16621, criteria = 55940})}
-}) -- Craft Creche Crowler
 
 -------------------------------------------------------------------------------
 ---------------------------- TEMPERAMENTAL SKYCLAW ----------------------------
