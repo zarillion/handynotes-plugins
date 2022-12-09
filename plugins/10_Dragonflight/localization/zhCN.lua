@@ -234,6 +234,8 @@ L['craft_creche_crowler_note'] = '从每日随机地图位置的 {npc:187444} ' 
 L['bivigosas_blood_sausages_note'] = '从 |cFFFFFD00格利基尔岗哨|r 的 {npc:188895} ' .. ns.color.NPC('<食物和饮料>') .. ' 购买。'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = '显示 {achievement:16621} 成就中食物和饮料的位置。'
+L['options_icons_new_perspective'] = nil
+L['options_icons_new_perspective_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

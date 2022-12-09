@@ -234,6 +234,8 @@ L['craft_creche_crowler_note'] = 'Kann von {npc:187444} gekauft werden, der sich
 L['bivigosas_blood_sausages_note'] = 'Kann von {npc:188895} beim |cFFFFFD00Posten der Gelikyr|r gekauft werden.'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Zeigt die Positionen für die Spezialitäten an Speis und Trank für den Erfolg {achievement:16621} an.'
+L['options_icons_new_perspective'] = nil
+L['options_icons_new_perspective_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

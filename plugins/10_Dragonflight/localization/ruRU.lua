@@ -235,6 +235,8 @@ L['craft_creche_crowler_note'] = nil
 L['bivigosas_blood_sausages_note'] = nil
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Показать места еды и напитков для достижения {achievement:16621}.'
+L['options_icons_new_perspective'] = nil
+L['options_icons_new_perspective_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

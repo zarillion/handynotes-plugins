@@ -43,6 +43,8 @@ ns.groups.KITE = Group('kite', 133837, {defaults = ns.GROUP_HIDDEN})
 ns.groups.LAYLINE = Group('layline', 1033908, {defaults = ns.GROUP_HIDDEN})
 ns.groups.LEGENDARY_ALBUM = Group('legendary_album', 1109168,
     {defaults = ns.GROUP_HIDDEN})
+ns.groups.NEW_PERSPECTIVE = Group('new_perspective', 1109100,
+    {defaults = ns.GROUP_HIDDEN})
 ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.SCOUT_PACK =
