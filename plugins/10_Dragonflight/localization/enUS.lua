@@ -195,6 +195,8 @@ L['dreamguard_note'] = 'Target the Dreamguard and ' .. ns.color.Orange('/sleep')
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {achievement:16574}.'
 
+L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact with the |cFFFFFD00Manastorming For Beginners|r book to complete the quest.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -318,3 +320,16 @@ L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Start the Questline and li
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'In a small room underneath the Platform.\n\nStart the Questline and listen to the story of {npc:194800} and {npc:194801}. More quests will be unlocked in the next two weeks.'
 L['all_sides_of_the_story_tarjin_note'] = 'Start the Questline with {quest:70779}.\n{npc:196214} will tell you another story every week.'
 L['all_sides_of_the_story_veritistrasz_note'] = 'Start the quest {quest:70132} to all the stories of {npc:194076}.\nAfter that you will unlock {quest:70134} followed by {quest:70268}.\n\nFor the last quest you will need {item:198661} which is found inside ' .. ns.color.Yellow('Dragonbane Keep') .. '.'
+
+L['slumbering_worldsnail_note1'] = [[
+1. Collect 3x {item:193201} and 30x {item:191251} from mobs around |cFFFFFD00Obsidian Citadel|r to form a {item:191264}.
+
+2. Exchange the {item:191264} for a {item:199215} from {npc:187275}.
+
+3. There is a 30% chance the chest will contain a {item:199215}.
+
+4. Using the membership will give you the {spell:386848} debuff which allows you to farm {item:202173} around the |cFFFFFD00Obsidian Citadel|r.
+
+5. Collect 1000x {item:202173} to purchase {item:192786}.]]
+
+L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: If you die you will lose your membership debuff. Either purchase a new membership from {npc:187275} for 30x {item:202173} or turn in more keys for a chance at a new membership from the chest.')

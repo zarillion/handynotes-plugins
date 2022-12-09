@@ -196,6 +196,8 @@ L['dreamguard_note'] = 'Selecciona al Guardasueños y teclea' .. ns.color.Orange
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños para el logro {achievement:16574}.'
 
+L['tome_of_polymoph_duck'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -319,3 +321,6 @@ L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Comienza la cadena de misi
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'En una habitación pequeña debajo de la plataforma.\n\nComienza la cadena de misiones y escucha la historia de {npc:194800} y de {npc:194801}. En las siguientes dos semanas se desbloquearán más misiones.'
 L['all_sides_of_the_story_tarjin_note'] = 'Comienza la cadena de misiones con {quest:70779}.\n{npc:196214} te contará otra historia cada semana.'
 L['all_sides_of_the_story_veritistrasz_note'] = 'Comienza la misión {quest:70132} para escuchar las historias de {npc:194076}.\nDespués, desbloquearás la misión {quest:70134} seguida de {quest:70268}.\n\nPara la última misión necesitarás {item:198661} que podrás encontrar dentro de la ' .. ns.color.Yellow('Fortaleza de Ruinadragón') .. '.'
+
+L['slumbering_worldsnail_note1'] = nil
+L['slumbering_worldsnail_note2'] = nil

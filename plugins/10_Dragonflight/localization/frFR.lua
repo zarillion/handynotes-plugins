@@ -196,6 +196,8 @@ L['dreamguard_note'] = 'Ciblez le Garde-rêve et ' .. ns.color.Orange('/dormir')
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêves pour {achievement:16574}'
 
+L['tome_of_polymoph_duck'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -319,3 +321,6 @@ L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Commencez la suite de quê
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'Dans une petite pièce sous la plate-forme.\n\nCommencez la suite de quêtes et écoutez l\'histoire de {npc:194800} et {npc:194801}. D\'autres quêtes seront débloquées dans les deux semaines suivantes.'
 L['all_sides_of_the_story_tarjin_note'] = 'Commencez la suite de quêtes avec {quest:70779}.\n{npc:196214} vous racontera une autre histoire chaque semaine.'
 L['all_sides_of_the_story_veritistrasz_note'] = 'Commencez la quête {quest:70132} pour écouter toutes les histoires de {npc:194076}.\nEnsuite, vous débloquerez {quest:70134} puis {quest:70268}.\n\nPour la dernière quête, vous aurez besoin du {item:198661} qui se trouve à l\'intérieur du ' .. ns.color.Yellow('Donjon du Fléau-des-Dragons') .. '.'
+
+L['slumbering_worldsnail_note1'] = nil
+L['slumbering_worldsnail_note2'] = nil

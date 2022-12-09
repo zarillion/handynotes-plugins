@@ -21,6 +21,7 @@ local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -1368,3 +1369,25 @@ map.nodes[49896849] = ns.node.LegendaryCharacter({
     id = 56133,
     rewards = {Achievement({id = 16570, criteria = 55759})}
 }) -- Chen Stormstout
+
+-------------------------------------------------------------------------------
+------------------------------ SCRAPPY WORLDSNAIL ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34734672] = Collectible({
+    id = 193310,
+    icon = 3996706,
+    note = L['slumbering_worldsnail_note1'] .. '\n\n' ..
+        L['slumbering_worldsnail_note2'],
+    requires = {
+        ns.requirement.Quest(65691), -- The Shadow of His Wings
+        ns.requirement.Spell(386848) -- Worldbreaker Membership
+    },
+    rewards = {
+        Mount({item = 192786, id = 1629}) -- Scrappy Worldsnail
+    },
+    pois = {
+        POI({32205240}), -- Igys the Believer
+        POI({35824797}) -- Cave Entrance
+    }
+}) -- Scrappy Worldsnail

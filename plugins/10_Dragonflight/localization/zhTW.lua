@@ -195,6 +195,8 @@ L['dreamguard_note'] = '點選夢境守衛並且使用表情符號 ' .. ns.color
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的夢境守衛位置'
 
+L['tome_of_polymoph_duck'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -318,3 +320,6 @@ L['all_sides_of_the_story_garrick_and_shuja_note'] = nil
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = nil
 L['all_sides_of_the_story_tarjin_note'] = nil
 L['all_sides_of_the_story_veritistrasz_note'] = nil
+
+L['slumbering_worldsnail_note1'] = nil
+L['slumbering_worldsnail_note2'] = nil

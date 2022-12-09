@@ -195,6 +195,8 @@ L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefeh
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinnen für den Erfolg {achievement:16574} an.'
 
+L['tome_of_polymoph_duck'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -312,3 +314,6 @@ L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Beginne die Questreihe und
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'In einem kleinen Raum unter der Platform.\n\nStarte die Questreihe und höre die Geschichte von {npc:194800} und {npc:194801}. Weitere Quests werden in den folgenden 2 Wochen verfügbar sein.'
 L['all_sides_of_the_story_tarjin_note'] = 'Beginne die Questreihe mit {quest:70779}.\n{npc:196214}erzählt jede Woche eine weitere Geschichte.'
 L['all_sides_of_the_story_veritistrasz_note'] = 'Beginne die Quest {quest:70132} und höre dir alle Geschichten von {npc:194076} an.\nDanach schaltest du die Quest {quest:70134} und die Folgequest {quest:70268} frei.\n\nFür die letze Quest benötigst du das {item:198661} welches in der ' .. ns.color.Yellow('Drachenfluchfestung') .. ' zu finden ist.'
+
+L['slumbering_worldsnail_note1'] = nil
+L['slumbering_worldsnail_note2'] = nil
