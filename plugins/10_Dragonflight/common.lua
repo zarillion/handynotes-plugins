@@ -65,8 +65,9 @@ ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836,
 
 local SuperRare = Class('SuperRare', NPC, {scale = 1.8, group = ns.groups.RARE})
 
-function SuperRare.getters:icon() return
-    self:IsCollected() and 'star_skull_w' or 'star_skull_b' end
+function SuperRare.getters:icon()
+    return self:IsCollected() and 'star_skull_w' or 'star_skull_b'
+end
 
 function SuperRare:IsEnabled()
     if ns:GetOpt('hide_done_rares') and self:IsCollected() then return false end
