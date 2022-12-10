@@ -16,6 +16,7 @@ local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
+local SuperRare = ns.node.SuperRare
 local Treasure = ns.node.Treasure
 local NewPerspective = ns.node.NewPerspective
 
@@ -44,7 +45,7 @@ local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[59075874] = Rare({
+map.nodes[59075874] = SuperRare({
     id = 193664,
     quest = 74055,
     note = L['ancient_protector_note'],

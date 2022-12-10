@@ -9,6 +9,7 @@ local Group = ns.Group
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
+local NPC = ns.node.NPC
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -57,6 +58,22 @@ ns.groups.PRETTY_NEAT = Group('pretty_neat', 133707,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836,
     {defaults = ns.GROUP_HIDDEN})
+
+-------------------------------------------------------------------------------
+--------------------------------- SUPER RARES ---------------------------------
+-------------------------------------------------------------------------------
+
+local SuperRare = Class('SuperRare', NPC, {scale = 1.8, group = ns.groups.RARE})
+
+function SuperRare.getters:icon() return
+    self:IsCollected() and 'star_skull_w' or 'star_skull_b' end
+
+function SuperRare:IsEnabled()
+    if ns:GetOpt('hide_done_rares') and self:IsCollected() then return false end
+    return NPC.IsEnabled(self)
+end
+
+ns.node.SuperRare = SuperRare
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
