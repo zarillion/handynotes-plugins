@@ -335,4 +335,4 @@ L['slumbering_worldsnail_note1'] = [[
 
 5. Collect 1000x {item:202173} to purchase {item:192786}.]]
 
-L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: If you die you will lose your membership debuff. Either purchase a new membership from {npc:187275} for 30x {item:202173} or turn in more keys for a chance at a new membership from the chest.')
+L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: If you die you will lose your membership debuff. Either purchase a new membership from {npc:193310} for 20x {item:202173} befor you die or you need to turn in more keys for a chance at a new membership from the chest.')

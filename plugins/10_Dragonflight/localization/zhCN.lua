@@ -335,4 +335,4 @@ L['slumbering_worldsnail_note1'] = [[
 
 5. 收集1000个 {item:202173} 以购买 {item:192786}。]]
 
-L['slumbering_worldsnail_note2'] = ns.color.Orange('注意：如果你死了，将失去你的会员负面效果。要么以30个 {item:202173} 的价格从 {npc:187275} 购买新会员资格，要么交出更多钥匙，就有机会从宝箱中获得新会员资格。')
+L['slumbering_worldsnail_note2'] = ns.color.Orange('注意：如果你死了，将失去你的会员负面效果。要么以20个 {item:202173} 的价格从 {npc:193310} 购买新会员资格，要么交出更多钥匙，就有机会从宝箱中获得新会员资格。')

@@ -336,4 +336,4 @@ L['slumbering_worldsnail_note1'] = [[
 
 5. Recoge 1000x {item:202173} para comprar el {item:192786}.]]
 
-L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: Si mueres perderás el debuff de membresía. Compre un nuevo título de miembro a {npc:187275} por 30x {item:202173} o dale más llaves para la oportunidad de sacar un título de miembro del alijo.')
+L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: Si mueres perderás el debuff de membresía. Compre un nuevo título de miembro a {npc:193310} por 20x {item:202173} o dale más llaves para la oportunidad de sacar un título de miembro del alijo.')

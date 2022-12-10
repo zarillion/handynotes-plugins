@@ -328,4 +328,4 @@ L['slumbering_worldsnail_note1'] = [[
 4. Kaufe mit den gesammelten {item:202173} das Reittier.
 ]]
 
-L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, verlierst du den Schwächungszauber {spell:386848}. Kaufe entweder für 30x {item:202173} eine neue Mitgliedschaft bei {npc:187275} oder gib weitere Schlüssel ab, um aus der Truhe eine neue Mitgliedschaft zu erhalten.')
+L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, verlierst du den Schwächungszauber {spell:386848}. Kaufe entweder für 20x {item:202173} eine neue Mitgliedschaft bei {npc:193310} bevor du stirbst oder du musst weitere Schlüssel abgeben, um eine neue Mitgliedschaft aus der Truhe zu erhalten.')
