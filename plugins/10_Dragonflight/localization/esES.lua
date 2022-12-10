@@ -145,7 +145,7 @@ L['mysterious_wand_note'] = 'Coge la |cFFFFFD00Llave de Cristal|r y ponla dentro
 -------------------------------------------------------------------------------
 
 L['hunter_of_the_deep_note'] = 'Haz click en el armero y dispara a los peces hasta que aparezca el raro and shoot fish until the rare spawns.'
-L['scaleseeker_mezeri_note'] = 'Ofrece {item:194681} a {npc:193224} y te revelará al raro.'
+L['scaleseeker_mezeri_note'] = 'Ofrece {item:194681} a {npc:193224} y síguela hasta que te enseñe al raro.'
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 L['windscale_the_stormborn_note'] = 'Mata a los {npc:192367} que están canalizando en los {npc:192357}.'
 L['zarizz_note'] = 'Haz click y ' .. ns.color.Orange('haz /hiss') .. ' a las cuatro {npc:193169} para invocar al raro.'
