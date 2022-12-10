@@ -1,6 +1,6 @@
 ## Interface: 100002
 ## Title: HandyNotes: Dragonflight
-## Version: 16
+## Version: 17
 ## Notes: Dragonflight Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes

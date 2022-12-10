@@ -1,3 +1,11 @@
+# v17
+
+* Added location and tracking for Great Gourmand of The Ruby Feast.
+* Added location for the River Rapids Wrangler achievement.
+* Added nodes for the Scrappy Worldsnail mount and Tome of Polymorph: Duck.
+* Added vista locations for the Framing a New Perspective achievement.
+* Many more rare updates.
+
 # v16
 
 * Fix lua error in Valdrakken.
