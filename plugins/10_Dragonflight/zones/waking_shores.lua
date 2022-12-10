@@ -16,6 +16,7 @@ local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
+local SuperRare = ns.node.SuperRare
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -64,7 +65,7 @@ map.nodes[54517174] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56041})}
 }) -- Azra's Prized Peony
 
-map.nodes[28635882] = Rare({ -- review
+map.nodes[28635882] = SuperRare({
     id = 190986,
     quest = 74040,
     rewards = {
@@ -91,7 +92,7 @@ map.nodes[52916529] = Rare({
     }
 }) -- Brundin the Dragonbane (Qalashi War Party)
 
-map.nodes[26847642] = Rare({
+map.nodes[26847642] = SuperRare({
     id = 193198,
     quest = 72127, -- 73075
     rewards = {
@@ -103,7 +104,7 @@ map.nodes[26847642] = Rare({
     }
 }) -- Captain Lancer
 
-map.nodes[30575625] = Rare({
+map.nodes[30575625] = SuperRare({
     id = 186783,
     quest = 74042,
     rewards = {
@@ -119,7 +120,7 @@ map.nodes[30575625] = Rare({
     -- }
 }) -- Cauldronbearer Blakor
 
-map.nodes[29935074] = Rare({
+map.nodes[29935074] = SuperRare({
     id = 190991,
     quest = 74043,
     note = L['in_cave'],
@@ -170,7 +171,7 @@ map.nodes[60204535] = Rare({
     }
 }) -- Drakewing
 
-map.nodes[21626478] = Rare({
+map.nodes[21626478] = SuperRare({
     id = 193134,
     quest = 73072,
     note = L['enkine_note'],
@@ -303,7 +304,7 @@ map.nodes[24005896] = Rare({
     pois = {POI({27226096})} -- Entrance
 }) -- Rasnar the War Ender
 
-map.nodes[30736110] = Rare({
+map.nodes[30736110] = SuperRare({
     id = 187598,
     quest = 74052,
     rewards = {
@@ -400,7 +401,7 @@ map.nodes[45453540] = Rare({
     }
 }) -- Thunderous Matriarch
 
-map.nodes[33525576] = Rare({
+map.nodes[33525576] = SuperRare({
     id = 187886,
     quest = 74054,
     note = L['in_small_cave'],
