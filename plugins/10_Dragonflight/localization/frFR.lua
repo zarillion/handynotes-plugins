@@ -336,4 +336,4 @@ L['slumbering_worldsnail_note1'] = [[
 
 5. Rassemblez 1000x {item:202173} pour acheter la {item:192786}.]]
 
-L['slumbering_worldsnail_note2'] = ns.color.Orange('Note : Si vous mourrez, vous perdrez votre debuff d\'abonnement. Vous pouvez soit acheter un nouvel abonnement auprès de {npc:193310} pour 20x {item:202173}, soit apporter d\'autres clés pour avoir une chance d\'obtenir un nouvel abonnement dans le coffre.')
+L['slumbering_worldsnail_note2'] = ns.color.Orange('Note : Si vous mourrez, vous perdrez votre debuff d\'abonnement. Vous pouvez acheter un nouvel abonnement auprès de {npc:193310} pour 20x {item:202173} avant de mourir ou bien vous devrez apporter d\'autres clés pour avoir une chance d\'obtenir un nouvel abonnement dans le coffre.')
