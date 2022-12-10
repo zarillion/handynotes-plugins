@@ -322,7 +322,7 @@ L['options_icons_stories_desc'] = '显示 {achievement:16406} 成就中任务的
 L['all_sides_of_the_story_garrick_and_shuja_note'] = '开启任务线，聆听 {npc:184449} 和 {npc:184451} 的故事。'
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = '在平台下方的一个小房间里。\n\n启动任务线并聆听 {npc:194800} 和 {npc:194801} 的故事。更多任务将在接下来的两周内解锁。'
 L['all_sides_of_the_story_tarjin_note'] = '从 {quest:70779} 开始任务线。\n{npc:196214} 每周都会告诉你另一个故事。'
-L['all_sides_of_the_story_veritistrasz_note'] = '开始任务 {quest:70132} 以了解 {npc:194076} 的所有故事。\n之后将解锁 {quest:70134}，然后解锁 {quest:70268}。\n\n对于最后一个任务，需要 {item :198661} 在' .. ns.color.Yellow('灭龙要塞') .. '中找到。'
+L['all_sides_of_the_story_veritistrasz_note'] = '开始任务 {quest:70132} 以了解 {npc:194076} 的所有故事。\n之后将解锁 {quest:70134}，然后解锁 {quest:70268}。\n\n对于最后一个任务，需要 {item:198661} 在' .. ns.color.Yellow('灭龙要塞') .. '中找到。'
 
 L['slumbering_worldsnail_note1'] = [[
 1. 从 |cFFFFFD00黑曜堡垒|r 周围的怪物中拾取3个 {item:193201} 和30个 {item:191251} 以组合成 {item:191264}。
