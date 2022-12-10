@@ -144,7 +144,7 @@ L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und plat
 -------------------------------------------------------------------------------
 
 L['hunter_of_the_deep_note'] = 'Klicke auf den Waffenständer und schieße auf die Fische, bis der seltene Gegner erscheint.'
-L['scaleseeker_mezeri_note'] = 'Biete {npc:193224} ein {item:194681} an, damit sie den seltenen Gegner enthüllt.'
+L['scaleseeker_mezeri_note'] = 'Sprich mit {npc:193224} und biete ihr ein {item:194681} an und folge ihr, bis sie den seltenen Gegner enthüllt.'
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
 L['windscale_the_stormborn_note'] = 'Töte die {npc:192367}, die auf das {npc:192357} kanalisieren.'
 L['zarizz_note'] = 'Klicke und fauche ' .. ns.color.Orange('(/fauchen)') .. ' die vier {npc:193169n} an, um den seltenen Gegner erscheinen zu lassen.'

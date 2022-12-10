@@ -125,6 +125,11 @@ map.nodes[29935074] = Rare({
     note = L['in_cave'],
     rewards = {
         Achievement({id = 16676, criteria = 56060}), --
+        Transmog({item = 200439, slot = L['offhand']}), -- Earthpact Scepter
+        Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
+        Transmog({item = 200294, slot = L['mail']}), -- Primal Chain Hauberk
+        DC.WindborneVelocidrake.ClubTail, --
+        DC.WindborneVelocidrake.ClusterHorns, --
         DC.CliffsideWylderdrake.BlackHorns
     }
 }) -- Char
@@ -301,7 +306,12 @@ map.nodes[24005896] = Rare({
 map.nodes[30736110] = Rare({
     id = 187598,
     quest = 74052,
-    rewards = {Achievement({id = 16676, criteria = 56057})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56057}),
+        Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
+        Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
+    }
 }) -- Rohzor Forgesmash
 
 map.nodes[46997332] = Rare({
@@ -322,7 +332,8 @@ map.nodes[23755724] = Rare({ -- required 67030
     rewards = {
         Achievement({id = 16676, criteria = 56054}),
         Achievement({id = 16496, criteria = 56054}), -- Obsidian Champion
-        Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200442, slot = L['leather']}) -- Basilisk Hide Jerkin
     },
     pois = {
         POI({
@@ -439,7 +450,9 @@ map.nodes[65617410] = Rare({
                 {id = 56120, quest = 74084} -- Swog'ranka
             }
         }), --
-        Item({item = 197589, quest = 69793, note = '{npc:193634}'}) -- Windborn Velocidrake: Large Head Fin
+        Item({item = 197589, quest = 69793, note = '{npc:193634}'}), -- Windborn Velocidrake: Large Head Fin
+        Item({item = 200086}) -- Khaz'gorite-infused Resin
+
     }
 }) -- Lunker Rares
 
@@ -931,6 +944,9 @@ map.nodes[57011998] = Kite({
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[35508037] = Disturbeddirt()
+map.nodes[38338524] = Disturbeddirt()
+map.nodes[38888424] = Disturbeddirt({note = L['in_small_cave']})
 map.nodes[40674138] = Disturbeddirt()
 map.nodes[44743555] = Disturbeddirt()
 map.nodes[45468064] = Disturbeddirt()

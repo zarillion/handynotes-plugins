@@ -119,7 +119,9 @@ map.nodes[14053096] = Rare({
         Achievement({id = 16678, criteria = 56126}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Item({item = 200859, note = L['trinket']}), -- Seasoned Hunter's Trophy
         Item({item = 200563, note = L['trinket']}) -- Primal Ritual Shell
     }
@@ -234,8 +236,12 @@ map.nodes[16213364] = Rare({
     fgroup = 'brackenhide',
     note = L['brackenhide_rare_note'],
     rewards = {
-        Achievement({id = 16678, criteria = 56128})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16678, criteria = 56128}),
+        Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
+        Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
+        Toy({item = 200178}), -- Infected Ichor
+        DC.CliffsideWylderdrake.Ears, --
+        DC.CliffsideWylderdrake.DualHornedChin
     }
 }) -- High Shaman Rotknuckle
 

@@ -227,7 +227,9 @@ ns.DRAGON_CUSTOMIZATIONS = {
     CliffsideWylderdrake = {
         BlackHorns = Item({item = 196991, quest = 69191}),
         BluntSpikedTail = Item({item = 197019, quest = 69219}),
+        BranchedHorns = Item({item = 196996, quest = 69196}),
         Ears = Item({item = 196982, quest = 69182}),
+        DualHornedChin = Item({item = 196973, quest = 69173}),
         FinnedCheek = Item({item = 197001, quest = 69201}),
         FinnedNeck = Item({item = 197022, quest = 69222}),
         HeadMane = Item({item = 196976, quest = 69176}),

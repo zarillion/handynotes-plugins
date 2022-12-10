@@ -48,7 +48,13 @@ map.nodes[59075874] = Rare({
     id = 193664,
     quest = 74055,
     note = L['ancient_protector_note'],
-    rewards = {Achievement({id = 16679, criteria = 56158})},
+    rewards = {
+        Achievement({id = 16679, criteria = 56158}),
+        Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
+        Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
+        Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
+        Transmog({item = 200758, slot = L['plate']}) -- Breastplate of Storied Antiquity
+    },
     pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
 }) -- Ancient Protector
 

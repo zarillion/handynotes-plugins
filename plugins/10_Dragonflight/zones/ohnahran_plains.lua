@@ -116,6 +116,7 @@ map.nodes[87556151] = Rare({
     quest = 73882,
     rewards = {
         Achievement({id = 16677, criteria = 56067}), --
+        Item({item = 200859, note = L['trinket']}), -- Seasoned Hunter's Trophy
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.RenewedProtoDrake.SharkSnout
     }
@@ -206,11 +207,12 @@ map.nodes[42804428] = Rare({ -- review
     }
 }) -- Rustlily
 
-map.nodes[16605120] = Rare({
+map.nodes[20444344] = Rare({
     id = 193215,
-    quest = nil, -- 69865
+    quest = 74073,
     note = L['scaleseeker_mezeri_note'],
-    rewards = {Achievement({id = 16677, criteria = 56079})}
+    rewards = {Achievement({id = 16677, criteria = 56079})},
+    pois = {POI({16605120})} -- Dawnbell
 }) -- Scaleseeker Mezeri
 
 map.nodes[50117517] = Rare({
@@ -230,11 +232,12 @@ map.nodes[61801283] = Rare({
 
 map.nodes[29964103] = Rare({
     id = 187559,
-    quest = 69854,
+    quest = 74075,
     note = L['shade_of_grief_note'],
     rewards = {
-        Achievement({id = 16677, criteria = 56080})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16677, criteria = 56080}),
+        Item({item = 200158, note = L['ring']}), -- Eerie Spectral Ring
+        DC.CliffsideWylderdrake.BranchedHorns
     }
 }) -- Shade of Grief
 
@@ -273,7 +276,7 @@ map.nodes[78298276] = Rare({
 
 map.nodes[27605560] = Rare({
     id = 195204,
-    quest = nil,
+    quest = 73976,
     rewards = {Achievement({id = 16677, criteria = 56088})}
 }) -- The Jolly Giant
 
@@ -747,6 +750,9 @@ map.nodes[62171310] = Disturbeddirt()
 map.nodes[63251396] = Disturbeddirt()
 map.nodes[65868145] = Disturbeddirt()
 map.nodes[66451981] = Disturbeddirt()
+map.nodes[75003584] = Disturbeddirt()
+map.nodes[85833271] = Disturbeddirt()
+map.nodes[86683243] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
