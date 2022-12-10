@@ -114,7 +114,7 @@ L['leyline_note'] = '重新排列魔网。'
 L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = '显示 {achievement:16638} 成就中全部重新排列魔网的位置。'
 
-L['river_rapids_wrangler_note'] = nil
+L['river_rapids_wrangler_note'] = '与 {npc:186157} 交谈并选择“想再次乘坐你的急流之旅”。有60秒的时间收集40层 {spell:373490}。'
 L['seeing_blue_note'] = '从碧蓝档案馆的顶端飞到钴蓝集所，当中不落地。'
 L['snowman_note'] = '该区域有三个 {npc:197599}（可能已被其他玩家移动），将它们滚给两个孩子 {npc:197838} 和 {npc:197839}。\n当雪球有合适的尺寸时获得成就。'
 L['temperamental_skyclaw_note'] = [[
@@ -196,7 +196,7 @@ L['dreamguard_note'] = '目标为梦境防御者并 ' .. ns.color.Orange('/睡�
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境防御者的位置。'
 
-L['tome_of_polymoph_duck'] = nil
+L['tome_of_polymoph_duck'] = '使用 {spell:1953} 进入洞穴并与 |cFFFFFD00法力风暴初学指南|r 书互动以完成任务。'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -237,10 +237,10 @@ L['craft_creche_crowler_note'] = '从每日随机地图位置的 {npc:187444} ' 
 L['bivigosas_blood_sausages_note'] = '从 |cFFFFFD00格利基尔岗哨|r 的 {npc:188895} ' .. ns.color.NPC('<食物和饮料>') .. ' 购买。'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = '显示 {achievement:16621} 成就中食物和饮料的位置。'
-L['options_icons_new_perspective'] = nil
-L['options_icons_new_perspective_desc'] = nil
-L['new_perspective_note'] = nil
-L['ruby_feast_gourmand'] = nil
+L['options_icons_new_perspective'] = '{achievement:16634}'
+L['options_icons_new_perspective_desc'] = '显示 {achievement:16634} 成就中景点的位置。'
+L['new_perspective_note'] = '用自拍神器与景点合影。一旦进入相机模式，该位置就会用紫色光圈标记。\n\n如果没有获得成就，请改变视角。'
+L['ruby_feast_gourmand'] = '每天，一位随机的客座厨师都会提供不同的食品和饮料。'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -317,12 +317,22 @@ L['grand_theft_mammoth_note'] = '骑乘 {npc:194625} 到 {npc:198163}。\n\n|cFF
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = '显示 {achievement:16493} 成就中 {npc:194625} 的位置。'
 
-L['options_icons_stories'] = nil
-L['options_icons_stories_desc'] = nil
+L['options_icons_stories'] = '{achievement:16406}'
+L['options_icons_stories_desc'] = '显示 {achievement:16406} 成就中任务的位置。'
 L['all_sides_of_the_story_garrick_and_shuja_note'] = '开启任务线，聆听 {npc:184449} 和 {npc:184451} 的故事。'
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = '在平台下方的一个小房间里。\n\n启动任务线并聆听 {npc:194800} 和 {npc:194801} 的故事。更多任务将在接下来的两周内解锁。'
 L['all_sides_of_the_story_tarjin_note'] = '从 {quest:70779} 开始任务线。\n{npc:196214} 每周都会告诉你另一个故事。'
 L['all_sides_of_the_story_veritistrasz_note'] = '开始任务 {quest:70132} 以了解 {npc:194076} 的所有故事。\n之后将解锁 {quest:70134}，然后解锁 {quest:70268}。\n\n对于最后一个任务，需要 {item :198661} 在' .. ns.color.Yellow('灭龙要塞') .. '中找到。'
 
-L['slumbering_worldsnail_note1'] = nil
-L['slumbering_worldsnail_note2'] = nil
+L['slumbering_worldsnail_note1'] = [[
+1. 从 |cFFFFFD00黑曜堡垒|r 周围的怪物中拾取3个 {item:193201} 和30个 {item:191251} 以组合成 {item:191264}。
+
+2. 从 {npc:187275} 那用 {item:191264} 换成 {item:200069}。
+
+3. 箱子有30%的几率会包含 {item:199215}。
+
+4. 使用会员资格会给你 {spell:386848} 负面效果，可以在 |cFFFFFD00黑曜堡垒|r 周围刷 {item:202173}。
+
+5. 收集1000个 {item:202173} 以购买 {item:192786}。]]
+
+L['slumbering_worldsnail_note2'] = ns.color.Orange('注意：如果你死了，将失去你的会员负面效果。要么以30个 {item:202173} 的价格从 {npc:187275} 购买新会员资格，要么交出更多钥匙，就有机会从宝箱中获得新会员资格。')
