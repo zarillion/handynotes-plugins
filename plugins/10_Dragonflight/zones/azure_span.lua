@@ -169,6 +169,9 @@ map.nodes[50043631] = Rare({ -- review
     id = 193691,
     quest = 72254, -- wrong id? 72730, 74064?
     note = L['fisherman_tinnak_note'],
+    requires = {
+        ns.requirement.Reputation(2511, 7, true), -- Iskaara Tuskarr
+    },
     rewards = {
         Achievement({id = 16678, criteria = 56115}),
         Transmog({item = 199026, slot = L['1h_sword']}), -- Fire-Blessed Blade
