@@ -119,7 +119,6 @@ L['river_rapids_wrangler_note'] = 'Sprich mit {npc:186157} und wähle "Ich würd
 L['seeing_blue_note'] = 'Fliegt ohne Zwischenlandung von der Spitze der Azurarchive zum Kobaltkonvent.'
 L['snowman_note'] = 'Es liegen 3 Schneebälle in der Nähe (möglicherweise wurden sie von anderen Spielern weggerollt), rolle sie zu den Kindern {npc:197838} und {npc:197839}.\nDu erhältst den Erfolg sobald die Schneebälle die richtigen Größen erreicht haben.'
 
-
 L['snowclaw_cub_note_start'] = 'Du musst die {quest:67094} Questreihe von {npc:192522} in |cFFFFFD00Valdrakken|r abschließen um den |cFFFFFD00Ehrendryade|r Titel u erhalten.\n\nSammle die folgenden Items:'
 L['snowclaw_cub_note_item1'] = 'Plündere 3x {item:197744} von verschiedenen {npc:182559n} in der |cFFFFFD00Küste des Erwachens|r.'
 L['snowclaw_cub_note_item2'] = 'Kaufe 1x {item:198356} von {npc:193310} in der |cFFFFFD00Küste des Erwachens|r.'
