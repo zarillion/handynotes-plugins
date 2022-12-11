@@ -811,7 +811,7 @@ map.nodes[46955951] = NewPerspective({criteria = 56004}) -- Tyrhold Reservoir
 
 map.nodes[62401520] = ns.node.Safari({
     id = 197629,
-    rewards = {Achievement({id = 16519, criteria = 55644})},
+    rewards = {Achievement({id = 16519, criteria = 55644}), Pet({id = 3403})},
     pois = {
         POI({
             32206920, 33406700, 34207160, 34806400, 35007320, 35407080,
@@ -823,15 +823,15 @@ map.nodes[62401520] = ns.node.Safari({
     }
 }) -- Blue Dasher
 
-map.nodes[50606420] = ns.node.Safari({
+map.nodes[60403800] = ns.node.Safari({
     id = 192268,
-    rewards = {Achievement({id = 16519, criteria = 55656})},
-    pois = {POI({50006400, 50606420, 50606460, 50606560})}
+    rewards = {Achievement({id = 16519, criteria = 55656}), Pet({id = 3358})},
+    pois = {POI({60403800, 60603800})}
 }) -- Crimsonspine
 
 map.nodes[50204780] = ns.node.Safari({
     id = 189153,
-    rewards = {Achievement({id = 16519, criteria = 55646})},
+    rewards = {Achievement({id = 16519, criteria = 55646}), Pet({id = 3313})},
     pois = {
         POI({
             48005020, 49205220, 49205280, 49404780, 49805020, 50204780,
@@ -842,7 +842,7 @@ map.nodes[50204780] = ns.node.Safari({
 
 map.nodes[47606160] = ns.node.Safari({
     id = 194720,
-    rewards = {Achievement({id = 16519, criteria = 55647})},
+    rewards = {Achievement({id = 16519, criteria = 55647}), Pet({id = 3351})},
     pois = {
         POI({
             38208140, 47406200, 47606160, 48005600, 48005680, 48805560, 48806220
@@ -852,7 +852,7 @@ map.nodes[47606160] = ns.node.Safari({
 
 map.nodes[52404860] = ns.node.Safari({
     id = 189121,
-    rewards = {Achievement({id = 16519, criteria = 55648})},
+    rewards = {Achievement({id = 16519, criteria = 55648}), Pet({id = 3295})},
     pois = {
         POI({
             46406380, 46606420, 47006300, 47606180, 48205740, 48205760,
@@ -865,12 +865,12 @@ map.nodes[52404860] = ns.node.Safari({
 
 map.nodes[39804580] = ns.node.Safari({
     id = 193000,
-    rewards = {Achievement({id = 16519, criteria = 55650})}
+    rewards = {Achievement({id = 16519, criteria = 55650}), Pet({id = 3366})}
 }) -- Kindlet
 
 map.nodes[50205900] = ns.node.Safari({
     id = 189122,
-    rewards = {Achievement({id = 16519, criteria = 55652})},
+    rewards = {Achievement({id = 16519, criteria = 55652}), Pet({id = 3296})},
     pois = {
         POI({
             38404840, 38804540, 38804940, 39204580, 39204820, 40204480,
@@ -883,7 +883,7 @@ map.nodes[50205900] = ns.node.Safari({
 
 map.nodes[43208360] = ns.node.Safari({
     id = 197637,
-    rewards = {Achievement({id = 16519, criteria = 55653})},
+    rewards = {Achievement({id = 16519, criteria = 55653}), Pet({id = 3404})},
     pois = {
         POI({
             34206840, 35806640, 36607180, 37406740, 37606740, 37606760,
@@ -895,7 +895,7 @@ map.nodes[43208360] = ns.node.Safari({
 
 map.nodes[44006480] = ns.node.Safari({
     id = 191323,
-    rewards = {Achievement({id = 16519, criteria = 55666})},
+    rewards = {Achievement({id = 16519, criteria = 55666}), Pet({id = 3336})},
     pois = {
         POI({
             32807300, 38007860, 41008140, 41406780, 42206560, 42806720,

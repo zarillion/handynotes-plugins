@@ -1016,7 +1016,7 @@ map.nodes[63005780] = Collectible({
 
 map.nodes[15202400] = ns.node.Safari({
     id = 192265,
-    rewards = {Achievement({id = 16519, criteria = 55642})},
+    rewards = {Achievement({id = 16519, criteria = 55642}), Pet({id = 3357})},
     pois = {
         POI({
             14802620, 15004520, 15202400, 17202500, 17604440, 17802900,
@@ -1041,13 +1041,13 @@ map.nodes[15202400] = ns.node.Safari({
 
 map.nodes[22008000] = ns.node.Safari({
     id = 192268,
-    rewards = {Achievement({id = 16519, criteria = 55656})},
+    rewards = {Achievement({id = 16519, criteria = 55656}), Pet({id = 3358})},
     pois = {POI({50006400, 50606420, 50606460, 50606560})}
 }) -- Crimsonspine
 
 map.nodes[37203300] = ns.node.Safari({
     id = 194720,
-    rewards = {Achievement({id = 16519, criteria = 55647})},
+    rewards = {Achievement({id = 16519, criteria = 55647}), Pet({id = 3351})},
     pois = {
         POI({
             27403120, 29203240, 30804700, 31404460, 32203540, 34403720,
@@ -1059,7 +1059,7 @@ map.nodes[37203300] = ns.node.Safari({
 
 map.nodes[23603720] = ns.node.Safari({
     id = 189122,
-    rewards = {Achievement({id = 16519, criteria = 55652})},
+    rewards = {Achievement({id = 16519, criteria = 55652}), Pet({id = 3296})},
     pois = {
         POI({
             11004180, 11004440, 11004460, 11404320, 11804640, 23404040,
@@ -1070,7 +1070,7 @@ map.nodes[23603720] = ns.node.Safari({
 
 map.nodes[12004740] = ns.node.Safari({
     id = 189103,
-    rewards = {Achievement({id = 16519, criteria = 55657})},
+    rewards = {Achievement({id = 16519, criteria = 55657}), Pet({id = 3281})},
     pois = {
         POI({
             12004740, 13604800, 14004980, 15405040, 15604880, 23807140,
@@ -1082,7 +1082,7 @@ map.nodes[12004740] = ns.node.Safari({
 
 map.nodes[48606480] = ns.node.Safari({
     id = 189107,
-    rewards = {Achievement({id = 16519, criteria = 55659})},
+    rewards = {Achievement({id = 16519, criteria = 55659}), Pet({id = 3283})},
     pois = {
         POI({
             47203940, 47203960, 48606480, 49006200, 55202120, 59404480,
@@ -1095,7 +1095,7 @@ map.nodes[48606480] = ns.node.Safari({
 
 map.nodes[40803180] = ns.node.Safari({
     id = 189104,
-    rewards = {Achievement({id = 16519, criteria = 55661})},
+    rewards = {Achievement({id = 16519, criteria = 55661}), Pet({id = 3282})},
     pois = {
         POI({
             10404120, 11604040, 11804140, 13804360, 17003000, 18002220,
@@ -1111,7 +1111,7 @@ map.nodes[40803180] = ns.node.Safari({
 
 map.nodes[59405740] = ns.node.Safari({
     id = 189658,
-    rewards = {Achievement({id = 16519, criteria = 55661})},
+    rewards = {Achievement({id = 16519, criteria = 55661}), Pet({id = 3328})},
     pois = {
         POI({
             11603480, 12803820, 15003440, 15003540, 15003560, 19604720,
@@ -1123,7 +1123,7 @@ map.nodes[59405740] = ns.node.Safari({
 
 map.nodes[68402720] = ns.node.Safari({
     id = 189110,
-    rewards = {Achievement({id = 16519, criteria = 55664})},
+    rewards = {Achievement({id = 16519, criteria = 55664}), Pet({id = 3288})},
     pois = {
         POI({
             22404580, 23804620, 26403940, 64405620, 65205480, 68402720,
@@ -1134,7 +1134,7 @@ map.nodes[68402720] = ns.node.Safari({
 
 map.nodes[34204160] = ns.node.Safari({
     id = 191323,
-    rewards = {Achievement({id = 16519, criteria = 55666})},
+    rewards = {Achievement({id = 16519, criteria = 55666}), Pet({id = 3336})},
     pois = {
         POI({
             16602560, 16602800, 18802760, 20603220, 21003420, 22803020,
