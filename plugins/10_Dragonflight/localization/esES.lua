@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = nil
+L['elite_loot_385'] = ns.color.Orange('¡Este raro puede soltar botín de hasta nivel 385!')
 L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la Expedición Dragontina en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'
@@ -213,7 +213,7 @@ L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interac
 
 L['ancient_protector_note'] = 'Mata a una {npc:193244} cercana para conseguir un {item:197708}. Combina 5 {item:197708} para crear un {item:197733}. Úsalo para activar los Reactores de los Titanes cercanos.'
 L['blightpaw_note'] = 'Habla con el {npc:193222} y acepta ayudarle.'
-L['corrupted_proto_dragon_note'] = nil
+L['corrupted_proto_dragon_note'] = 'Inspecciona el |cFFFFFD00Huevo de Dragón Corrupto|r para hacer aparecer al raro.'
 L['weeping_vilomah_note'] = 'Habla con {npc:193206} para invocar al raro.'
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
 
