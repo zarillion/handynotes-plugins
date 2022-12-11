@@ -58,6 +58,7 @@ ns.groups.PRETTY_NEAT = Group('pretty_neat', 133707,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836,
     {defaults = ns.GROUP_HIDDEN})
+ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
 --------------------------------- SUPER RARES ---------------------------------
@@ -466,3 +467,12 @@ local LegendaryCharacter = Class('LegendaryCharacter', Collectible, {
 }) -- A Legendary Album
 
 ns.node.LegendaryCharacter = LegendaryCharacter
+
+-------------------------------------------------------------------------------
+----------------------------- DRAGON ISLES SAFARI -----------------------------
+-------------------------------------------------------------------------------
+
+local Safari = Class('Safari', Collectible,
+    {icon = 'paw_g', group = ns.groups.SAFARI}) -- Dragon Isles Safari
+
+ns.node.Safari = Safari

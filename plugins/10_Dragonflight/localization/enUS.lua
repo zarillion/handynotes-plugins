@@ -343,3 +343,7 @@ L['slumbering_worldsnail_note1'] = [[
 5. Collect 1000x {item:202173} to purchase {item:192786}.]]
 
 L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: If you die you will lose your membership debuff. Either purchase a new membership from {npc:193310} for 20x {item:202173} before you die or you need to turn in more keys for a chance at a new membership from the chest.')
+
+L['options_icons_safari'] = '{achievement:16519}'
+L['options_icons_safari_desc'] = 'Display the location of battle pets for {achievement:16519}.'
+L['shyfly_note'] = 'You have to be on the quest {quest:70853} to see the {npc:189102}.'
