@@ -345,5 +345,5 @@ L['slumbering_worldsnail_note1'] = [[
 L['slumbering_worldsnail_note2'] = ns.color.Orange('注意：如果你死了，将失去你的会员负面效果。要么在你死之前以20个 {item:202173} 的价格从 {npc:193310} 购买新会员资格，要么交出更多钥匙，就有机会从宝箱中获得新会员资格。')
 
 L['options_icons_safari'] = '{achievement:16519}'
-L['options_icons_safari_desc'] = nil
-L['shyfly_note'] = nil
+L['options_icons_safari_desc'] = '显示 {achievement:16519} 成就中战斗宠物的位置。'
+L['shyfly_note'] = '必须在任务 {quest:70853} 中才能看到 {npc:189102}。'
