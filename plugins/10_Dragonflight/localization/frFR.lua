@@ -118,6 +118,12 @@ L['options_icons_layline_desc'] = 'Afficher les emplacements de toutes les ligne
 L['river_rapids_wrangler_note'] = 'Parlez à {npc:186157} et sélectionnez "J\'aimerais refaire une descente des rapides". Vous avez 60 secondes pour récupérer 40x charges de {spell:373490}.'
 L['seeing_blue_note'] = 'Volez du sommet des archives d’Azur jusqu’à l’assemblée de Cobalt sans atterrir.'
 L['snowman_note'] = 'Il y a trois {npc:197599s} dans la zone (elles ont pu être déplacées par d\'autres joueurs), faites-les rouler vers les deux enfants {npc:197838} et {npc:197839}.\nVous obtenez le haut-fait lorsque les boules de neige ont la bonne taille.'
+
+L['snowclaw_cub_note_start'] = nil
+L['snowclaw_cub_note_item1'] = nil
+L['snowclaw_cub_note_item2'] = nil
+L['snowclaw_cub_note_end'] = nil
+
 L['temperamental_skyclaw_note'] = [[
 Rassemblez (ou achetez à l'hôtel des ventes) :
 

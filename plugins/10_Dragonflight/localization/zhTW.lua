@@ -117,6 +117,12 @@ L['options_icons_layline_desc'] = '顯示成就 {achievement:16638} 中所有地
 L['river_rapids_wrangler_note'] = nil
 L['seeing_blue_note'] = '不著陸地從蒼藍文庫上空飛行前往鈷藍集會.'
 L['snowman_note'] = '這裡有3個 {npc:197599} 躺在這個區域 (可能被其他玩家移動位置), 滾動他們到兩個小孩 {npc:197838} 和 {npc:197839}.\n當雪球有正確大小時你會獲得成就.'
+
+L['snowclaw_cub_note_start'] = nil
+L['snowclaw_cub_note_item1'] = nil
+L['snowclaw_cub_note_item2'] = nil
+L['snowclaw_cub_note_end'] = nil
+
 L['temperamental_skyclaw_note'] = [[
 收集 (或從拍賣場購買):
 

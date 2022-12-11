@@ -170,7 +170,7 @@ map.nodes[50043631] = Rare({ -- review
     quest = 72254, -- wrong id? 72730, 74064?
     note = L['fisherman_tinnak_note'],
     requires = {
-        ns.requirement.Reputation(2511, 7, true), -- Iskaara Tuskarr
+        ns.requirement.Reputation(2511, 7, true) -- Iskaara Tuskarr
     },
     rewards = {
         Achievement({id = 16678, criteria = 56115}),
@@ -1037,6 +1037,34 @@ map.nodes[45025405] = Collectible({
     requires = ns.requirement.Quest(66155), -- Ruriq's River Rapids Ride
     rewards = {Achievement({id = 15889})}
 }) -- River Rapids Wrangler
+
+local SnowclawCub = Class('SnowclawCub', Collectible, {
+    id = 196768,
+    icon = 4532351,
+    requires = ns.requirement.Quest(67606), -- A Dryadic Remedy
+    rewards = {
+        Pet({item = 201838, id = 3359}) -- Snowclaw Cub
+    }
+}) -- Snowclaw Cub
+
+function SnowclawCub.getters:note()
+    local function status(id, count)
+        if ns.PlayerHasItem(id, count) then
+            return ns.status.Green(count .. 'x')
+        else
+            return ns.status.Red(count .. 'x')
+        end
+    end
+
+    local note = L['snowclaw_cub_note_start']
+    note = note .. '\n\n' .. status(197744, 3) .. ' ' ..
+               L['snowclaw_cub_note_item1'] -- Hornswog Hunk
+    note = note .. '\n\n' .. status(198356, 1) .. ' ' ..
+               L['snowclaw_cub_note_item2'] -- Honey Snack
+    return note .. '\n\n' .. L['snowclaw_cub_note_end']
+end
+
+map.nodes[67431840] = SnowclawCub()
 
 -------------------------------------------------------------------------------
 ---------------------------- TEMPERAMENTAL SKYCLAW ----------------------------
