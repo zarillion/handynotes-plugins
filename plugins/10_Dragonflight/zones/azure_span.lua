@@ -1046,10 +1046,10 @@ map.nodes[15202400] = ns.node.Safari({
     }
 }) -- Azure Crystalspine
 
-map.nodes[22008000] = ns.node.Safari({
+map.nodes[60403800] = ns.node.Safari({
     id = 192268,
     rewards = {Achievement({id = 16519, criteria = 55656}), Pet({id = 3358})},
-    pois = {POI({50006400, 50606420, 50606460, 50606560})}
+    pois = {POI({60403800, 60603800})}
 }) -- Crimsonspine
 
 map.nodes[37203300] = ns.node.Safari({
