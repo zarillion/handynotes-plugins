@@ -118,10 +118,10 @@ L['river_rapids_wrangler_note'] = '与 {npc:186157} 交谈并选择“想再次�
 L['seeing_blue_note'] = '从碧蓝档案馆的顶端飞到钴蓝集所，当中不落地。'
 L['snowman_note'] = '该区域有三个 {npc:197599}（可能已被其他玩家移动），将它们滚给两个孩子 {npc:197838} 和 {npc:197839}。\n当雪球有合适的尺寸时获得成就。'
 
-L['snowclaw_cub_note_start'] = nil
-L['snowclaw_cub_note_item1'] = nil
-L['snowclaw_cub_note_item2'] = nil
-L['snowclaw_cub_note_end'] = nil
+L['snowclaw_cub_note_start'] = '必须在 |cFFFFFD00瓦德拉肯|r 中完成 {npc:192522} 提供的 {quest:67094} 任务线才能获得 |cFFFFFD00荣誉树妖|r 头衔。\n\n收集以下物品：'
+L['snowclaw_cub_note_item1'] = '从 |cFFFFFD00觉醒海岸|r 周围的各种 {npc:182559} 收集3个 {item:197744}。'
+L['snowclaw_cub_note_item2'] = '从 |cFFFFFD00觉醒海岸|r 的 {npc:193310} 购买1个 {item:198356}。'
+L['snowclaw_cub_note_end'] = ns.color.Orange('所有物品都可以从拍卖行购买。如果获得从 {npc:193310} 购买物品所需的 {item:199215} 有难度，这将特别有用。') .. '\n\n带好头衔后，将所有4件物品提供给 {npc:196768} 以获得的宠物。'
 
 L['temperamental_skyclaw_note'] = [[
 收集（或在拍卖行购买）：
