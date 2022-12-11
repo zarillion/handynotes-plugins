@@ -75,7 +75,7 @@ L['unobtainable'] = 'Introuvable'
 L['unlearnable'] = 'Non Apprenable'
 L['defeated'] = 'Vaincu'
 L['undefeated'] = 'Invaincu'
-L['elite'] = nil
+L['elite'] = 'Élite'
 
 L['follower_type_follower'] = 'Sujet'
 L['follower_type_champion'] = 'Champion'
