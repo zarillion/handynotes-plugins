@@ -216,7 +216,7 @@ map.nodes[14083747] = RareElite({
     }
 }) -- Gnarls
 
-map.nodes[32682911] = Rare({ -- review -- required 67030
+map.nodes[32682911] = RareElite({ -- review -- required 67030
     id = 193251,
     quest = 69885,
     rewards = {
