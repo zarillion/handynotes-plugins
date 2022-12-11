@@ -1396,28 +1396,6 @@ map.nodes[49896849] = ns.node.LegendaryCharacter({
 }) -- Chen Stormstout
 
 -------------------------------------------------------------------------------
------------------------------- SCRAPPY WORLDSNAIL ------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[34734672] = Collectible({
-    id = 193310,
-    icon = 3996706,
-    note = L['slumbering_worldsnail_note1'] .. '\n\n' ..
-        L['slumbering_worldsnail_note2'],
-    requires = {
-        ns.requirement.Quest(65691), -- The Shadow of His Wings
-        ns.requirement.Spell(386848) -- Worldbreaker Membership
-    },
-    rewards = {
-        Mount({item = 192786, id = 1629}) -- Scrappy Worldsnail
-    },
-    pois = {
-        POI({32205240}), -- Igys the Believer
-        POI({35824797}) -- Cave Entrance
-    }
-}) -- Scrappy Worldsnail
-
--------------------------------------------------------------------------------
 ----------------------------- DRAGON ISLES SAFARI -----------------------------
 -------------------------------------------------------------------------------
 
@@ -1608,3 +1586,50 @@ map.nodes[79804940] = ns.node.Safari({
         })
     }
 }) -- Wild Duckling
+
+-------------------------------------------------------------------------------
+------------------------------ SCRAPPY WORLDSNAIL ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34734672] = Collectible({
+    id = 193310,
+    icon = 3996706,
+    note = L['slumbering_worldsnail_note1'] .. '\n\n' ..
+        L['slumbering_worldsnail_note2'],
+    requires = {
+        ns.requirement.Quest(65691), -- The Shadow of His Wings
+        ns.requirement.Spell(386848) -- Worldbreaker Membership
+    },
+    rewards = {
+        Mount({item = 192786, id = 1629}) -- Scrappy Worldsnail
+    },
+    pois = {
+        POI({32205240}), -- Igys the Believer
+        POI({35824797}) -- Cave Entrance
+    }
+}) -- Scrappy Worldsnail
+
+-------------------------------------------------------------------------------
+---------------------------------- MAGMASHELL ---------------------------------
+-------------------------------------------------------------------------------
+
+-- Possibly needed?
+-- Item: 201883 (Empty Magma Shell)
+
+-- Location of the snail NPC
+-- Location: Scalecracker Peak
+
+-- Possibly related or used?
+-- NPC: 186735 (Inferna the Bound)
+-- Toy: 200116 (Everlasting Horn of Lavaswimming)
+-- Location: Dragonbane Siege
+
+-- map.nodes[71102510] = Collectible({
+--     label = '{item:192777}',
+--     icon = 3996704,
+--     notes = L['magmashell_note'],
+--     requires = ns.requirement.Item(201883), -- Empty Magma Shell
+--     rewards = {
+--         Mount({item = 192777, id = 1469}) -- Magmashell
+--     }
+-- }) -- Magmashell
