@@ -212,6 +212,7 @@ L['tome_of_polymoph_duck'] = nil
 
 L['ancient_protector_note'] = nil
 L['blightpaw_note'] = 'Поговорите с {npc:193222} поблизости и согласитесь помочь ему.'
+L['corrupted_proto_dragon_note'] = nil
 L['weeping_vilomah_note'] = 'Поговорите с {npc:193206}, чтобы призвать редкого монстра.'
 L['woofang_note'] = 'Погладьте {npc:193156}, чтобы призвать редкого монстра.'
 

@@ -230,12 +230,15 @@ ns.DRAGON_CUSTOMIZATIONS = {
         FinnedEars = Item({item = 197595, quest = 69799}),
         LargeHeadFin = Item({item = 197589, quest = 69793}),
         SweptHorns = Item({item = 197606, quest = 69810}),
+        SpikedBack = Item({item = 197586, quest = 69790}),
         ClusterHorns = Item({item = 197602, quest = 69806})
     },
     HighlandDrake = {
+        CrestedBrow = Item({item = 197100, quest = 69301}),
         FinnedBack = Item({item = 197098, quest = 69299}),
         ManedHead = Item({item = 197111, quest = 69312}),
         SpikedClubTail = Item({item = 197150, quest = 69351}),
+        StripedPattern = Item({item = 197138, quest = 69339}),
         TanHorns = Item({item = 197121, quest = 69322}),
         ToothyMouth = Item({item = 197135, quest = 69336})
     },

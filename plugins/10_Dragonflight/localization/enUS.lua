@@ -211,6 +211,7 @@ L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact wi
 
 L['ancient_protector_note'] = 'Kill nearby {npc:193244} to get {item:197708}. Combine 5 {item:197708} to create a {item:197733} and use it to activate nearby Titanic Reactors.'
 L['blightpaw_note'] = 'Talk to {npc:193222} nearby and agree to help him.'
+L['corrupted_proto_dragon_note'] = 'Inspect the |cFFFFFD00Corrupted Dragon Egg|r to spawn the rare.'
 L['weeping_vilomah_note'] = 'Talk to {npc:193206} to summon the rare.'
 L['woofang_note'] = 'Pet {npc:193156} to spawn the rare.'
 

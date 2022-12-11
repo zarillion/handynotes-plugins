@@ -53,7 +53,10 @@ map.nodes[59075874] = SuperRare({
         Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
         Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
         Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
-        Transmog({item = 200758, slot = L['plate']}) -- Breastplate of Storied Antiquity
+        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
+        DC.WindborneVelocidrake.SpikedBack, --
+        DC.HighlandDrake.StripedPattern, --
+        DC.HighlandDrake.CrestedBrow
     },
     pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
 }) -- Ancient Protector
@@ -76,11 +79,12 @@ map.nodes[59847057] = Rare({ -- required 67030
 
 map.nodes[44886910] = Rare({
     id = 193658,
-    quest = 69962,
-    note = L['in_cave'],
+    quest = 74060,
+    note = L['in_cave'] .. ' ' .. L['corrupted_proto_dragon_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56156}),
-        Transmog({item = 199020, slot = L['gun']}) -- Drake Race Starting Rifle of the Fireflash
+        -- Transmog({item = 199020, slot = L['gun']}), -- Drake Race Starting Rifle of the Fireflash
+        Transmog({item = 200166, slot = L['offhand']}) -- Drake Race Starting Rifle of the Fireflash
     },
     pois = {POI({44616780})} -- Entrance
 }) -- Corrupted Proto-Dragon
@@ -225,12 +229,13 @@ map.nodes[35027001] = Rare({ -- reqiured 67030 review
 
 map.nodes[47884976] = Rare({
     id = 193161,
-    quest = 69850,
+    quest = 74089,
     note = L['woofang_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56152}),
-        Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
-        Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Item({item = 200445, note = L['neck']}) -- Lucky Hunting Charm
     }
 }) -- Woolfang
 
@@ -541,7 +546,9 @@ map.nodes[57126460] = Fragment({
 -------------------------------------------------------------------------------
 
 map.nodes[38188192] = Disturbeddirt()
+map.nodes[49514830] = Disturbeddirt()
 map.nodes[49894474] = Disturbeddirt()
+map.nodes[54273978] = Disturbeddirt()
 map.nodes[55588459] = Disturbeddirt()
 map.nodes[55756743] = Disturbeddirt()
 map.nodes[55918384] = Disturbeddirt()
@@ -555,6 +562,7 @@ map.nodes[62226638] = Disturbeddirt()
 map.nodes[37637740] = Scoutpack()
 map.nodes[38796831] = Scoutpack()
 map.nodes[38806831] = Scoutpack()
+map.nodes[41234798] = Scoutpack()
 map.nodes[50844623] = Scoutpack()
 map.nodes[52758333] = Scoutpack()
 map.nodes[55456797] = Scoutpack()

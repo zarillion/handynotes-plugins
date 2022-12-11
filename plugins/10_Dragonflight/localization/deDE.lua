@@ -211,6 +211,7 @@ L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen
 
 L['ancient_protector_note'] = 'Töte {npc:193244} in der Nähe, um 5x {item:197708} zu erhalten und kombiniere diese, um einen {item:197733} herzustellen und verwende diesen, um Titanischer Reaktor in der Nähe zu aktivieren.'
 L['blightpaw_note'] = 'Sprich mit {npc:193222} in der Nähe und stimme zu, ihm zu helfen.'
+L['corrupted_proto_dragon_note'] = 'Untersuche das |cFFFFFD00Verderbte Drachenei|r, um den seltenen Gegner erscheinen zu lassen.'
 L['weeping_vilomah_note'] = 'Sprich mit {npc:193206}, um den seltenen Gegner erscheinen zu lassen.'
 L['woofang_note'] = 'Streichel {npc:193156}, um den seltenen Gegner erscheinen zu lassen.'
 

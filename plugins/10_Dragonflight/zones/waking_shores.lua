@@ -70,7 +70,12 @@ map.nodes[28635882] = SuperRare({
     quest = 74040,
     rewards = {
         Achievement({id = 16676, criteria = 56059}),
-        Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
+        Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        DC.HighlandDrake.ToothyMouth
     }
 }) -- Battlehorn Pyrhus
 
@@ -94,7 +99,7 @@ map.nodes[52916529] = Rare({
 
 map.nodes[26847642] = SuperRare({
     id = 193198,
-    quest = 72127, -- 73075
+    quest = 73075,
     note = L['captain_lancer_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56050}),
@@ -110,6 +115,7 @@ map.nodes[30575625] = SuperRare({
     quest = 74042,
     rewards = {
         Achievement({id = 16676, criteria = 56056}),
+        Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
         DC.CliffsideWylderdrake.BluntSpikedTail
     }
@@ -189,13 +195,16 @@ map.nodes[21626478] = SuperRare({
 
 map.nodes[33127632] = Rare({
     id = 193154,
-    quest = 72130, -- 73073
+    quest = 73073,
     rewards = {
         Achievement({id = 16676, criteria = 56048}),
         Achievement({id = 16446, criteria = 8, note = L['pretty_neat_note']}),
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Item({item = 200858, note = L['trinket']}), -- Plume of the Forgotten
         Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
-        Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
+        Item({item = 200158, note = L['ring']}) -- Eerie Spectral Ring
     }
 }) -- Forgotten Gryphon
 
@@ -334,6 +343,7 @@ map.nodes[23755724] = Rare({ -- required 67030
     rewards = {
         Achievement({id = 16676, criteria = 56054}),
         Achievement({id = 16496, criteria = 56054}), -- Obsidian Champion
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200442, slot = L['leather']}) -- Basilisk Hide Jerkin
     },
@@ -408,10 +418,12 @@ map.nodes[33525576] = SuperRare({
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 16676, criteria = 56058}),
+        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
         Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
-        DC.WindborneVelocidrake.ClubTail
+        DC.WindborneVelocidrake.ClubTail, --
+        DC.CliffsideWylderdrake.BlackHorns
     }
 }) -- Turboris
 
@@ -975,6 +987,8 @@ map.nodes[78502992] = Disturbeddirt()
 -------------------------------------------------------------------------------
 
 map.nodes[26628764] = Scoutpack()
+map.nodes[29715467] = Scoutpack()
+map.nodes[32465665] = Scoutpack()
 map.nodes[37859241] = Scoutpack()
 map.nodes[38139017] = Scoutpack()
 map.nodes[41256689] = Scoutpack()
@@ -982,15 +996,19 @@ map.nodes[43345237] = Scoutpack()
 map.nodes[43506130] = Scoutpack({note = L['in_small_cave']})
 map.nodes[44495926] = Scoutpack()
 map.nodes[45663986] = Scoutpack()
+map.nodes[45985884] = Scoutpack()
 map.nodes[46244006] = Scoutpack()
 map.nodes[47164139] = Scoutpack()
+map.nodes[47355739] = Scoutpack()
 map.nodes[47383898] = Scoutpack()
 map.nodes[48134457] = Scoutpack()
 map.nodes[51668253] = Scoutpack()
 map.nodes[51824744] = Scoutpack()
 map.nodes[52745025] = Scoutpack()
+map.nodes[55774334] = Scoutpack()
 map.nodes[55887676] = Scoutpack()
 map.nodes[56857953] = Scoutpack()
+map.nodes[57404560] = Scoutpack()
 map.nodes[58395561] = Scoutpack()
 map.nodes[59145368] = Scoutpack()
 map.nodes[61886605] = Scoutpack()
