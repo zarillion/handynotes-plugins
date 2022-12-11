@@ -320,3 +320,7 @@ L['all_sides_of_the_story_veritistrasz_note'] = nil
 L['slumbering_worldsnail_note1'] = nil
 
 L['slumbering_worldsnail_note2'] = nil
+
+L['options_icons_safari'] = nil
+L['options_icons_safari_desc'] = nil
+L['shyfly_note'] = nil
