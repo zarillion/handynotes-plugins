@@ -144,7 +144,7 @@ L['mysterious_wand_note'] = '拾取 |cFFFFFD00水晶钥匙|r 并将其放入 |cF
 -------------------------------------------------------------------------------
 
 L['hunter_of_the_deep_note'] = '单击武器架并射击鱼直到稀有出现。'
-L['scaleseeker_mezeri_note'] = '向 {npc:193224} 提供一个 {item:194681}，她会揭示稀有。'
+L['scaleseeker_mezeri_note'] = '向 {npc:193224} 提供一个 {item:194681}，并跟着她，直到她揭示稀有。'
 L['shade_of_grief_note'] = '点击 {npc:193166} 刷新稀有。'
 L['windscale_the_stormborn_note'] = '杀死通向 {npc:192357} 的 {npc:192367}。'
 L['zarizz_note'] = '点击并 ' .. ns.color.Orange('/鄙视、/hiss') .. ' 在四个 {npc:193169} 处召唤稀有。'
@@ -335,4 +335,4 @@ L['slumbering_worldsnail_note1'] = [[
 
 5. 收集1000个 {item:202173} 以购买 {item:192786}。]]
 
-L['slumbering_worldsnail_note2'] = ns.color.Orange('注意：如果你死了，将失去你的会员负面效果。要么以20个 {item:202173} 的价格从 {npc:193310} 购买新会员资格，要么交出更多钥匙，就有机会从宝箱中获得新会员资格。')
+L['slumbering_worldsnail_note2'] = ns.color.Orange('注意：如果你死了，将失去你的会员负面效果。要么在你死之前以20个 {item:202173} 的价格从 {npc:193310} 购买新会员资格，要么交出更多钥匙，就有机会从宝箱中获得新会员资格。')
