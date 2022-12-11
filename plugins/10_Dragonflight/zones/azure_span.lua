@@ -16,7 +16,7 @@ local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
-local SuperRare = ns.node.SuperRare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -111,7 +111,7 @@ map.nodes[13584855] = Rare({
 --     }
 -- }) -- Blightfur
 
-map.nodes[14053096] = SuperRare({
+map.nodes[14053096] = RareElite({
     id = 197353,
     quest = 73985,
     fgroup = 'brackenhide',
@@ -202,7 +202,7 @@ map.nodes[64992995] = Rare({
 --     }
 -- }) -- Frostpaw
 
-map.nodes[14083747] = SuperRare({
+map.nodes[14083747] = RareElite({
     id = 197354,
     quest = 73996,
     fgroup = 'brackenhide',
@@ -234,7 +234,7 @@ map.nodes[19234362] = Rare({ -- required 67030
     }
 }) -- Grumbletrunk
 
-map.nodes[16213364] = SuperRare({
+map.nodes[16213364] = RareElite({
     id = 197356,
     quest = 74004,
     fgroup = 'brackenhide',
@@ -317,7 +317,7 @@ map.nodes[26494939] = Rare({ -- review -- required 67030
     }
 }) -- Skag the Thrower
 
-map.nodes[10863229] = SuperRare({
+map.nodes[10863229] = RareElite({
     id = 197344,
     quest = 74032,
     fgroup = 'brackenhide',
@@ -340,7 +340,7 @@ map.nodes[10863229] = SuperRare({
 --     }
 -- }) -- Snufflegust
 
-map.nodes[55033405] = Rare({
+map.nodes[55033405] = RareElite({
     id = 193238,
     quest = 74082, -- 69879 ?
     note = L['spellwrought_snowman_note'],

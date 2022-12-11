@@ -61,17 +61,15 @@ ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836,
 ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
---------------------------------- SUPER RARES ---------------------------------
+--------------------------------- ELITE RARES ---------------------------------
 -------------------------------------------------------------------------------
 
-local SuperRare =
-    Class('SuperRare', Rare, {scale = 1.8, group = ns.groups.RARE})
+local RareElite = Class('RareElite', Rare, {
+    rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
+    sublabel = L['elite_loot_385']
+})
 
-function SuperRare.getters:icon()
-    return self:IsCollected() and 'star_skull_w' or 'star_skull_b'
-end
-
-ns.node.SuperRare = SuperRare
+ns.node.RareElite = RareElite
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------

@@ -16,7 +16,7 @@ local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
-local SuperRare = ns.node.SuperRare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -65,7 +65,7 @@ map.nodes[54517174] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56041})}
 }) -- Azra's Prized Peony
 
-map.nodes[28635882] = SuperRare({
+map.nodes[28635882] = RareElite({
     id = 190986,
     quest = 74040,
     rewards = {
@@ -97,7 +97,7 @@ map.nodes[52916529] = Rare({
     }
 }) -- Brundin the Dragonbane (Qalashi War Party)
 
-map.nodes[26847642] = SuperRare({
+map.nodes[26847642] = RareElite({
     id = 193198,
     quest = 73075,
     note = L['captain_lancer_note'],
@@ -110,7 +110,7 @@ map.nodes[26847642] = SuperRare({
     }
 }) -- Captain Lancer
 
-map.nodes[30575625] = SuperRare({
+map.nodes[30575625] = RareElite({
     id = 186783,
     quest = 74042,
     rewards = {
@@ -127,7 +127,7 @@ map.nodes[30575625] = SuperRare({
     -- }
 }) -- Cauldronbearer Blakor
 
-map.nodes[29935074] = SuperRare({
+map.nodes[29935074] = RareElite({
     id = 190991,
     quest = 74043,
     note = L['in_cave'],
@@ -142,7 +142,7 @@ map.nodes[29935074] = SuperRare({
     }
 }) -- Char
 
-map.nodes[31785474] = Rare({ -- review -- required 67030
+map.nodes[31785474] = RareElite({ -- review -- required 67030
     id = 190985,
     quest = 73074,
     note = format(L['obsidian_citadel_rare_note'], 20, '{npc:187447}'),
@@ -178,7 +178,7 @@ map.nodes[60204535] = Rare({
     }
 }) -- Drakewing
 
-map.nodes[21626478] = SuperRare({
+map.nodes[21626478] = RareElite({
     id = 193134,
     quest = 73072,
     note = L['enkine_note'],
@@ -193,7 +193,7 @@ map.nodes[21626478] = SuperRare({
     }
 }) -- Enkine the Voracious
 
-map.nodes[33127632] = Rare({
+map.nodes[33127632] = RareElite({
     id = 193154,
     quest = 73073,
     rewards = {
@@ -247,7 +247,7 @@ map.nodes[22207649] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56047})}
 }) -- Massive Magmashell
 
-map.nodes[32805248] = Rare({
+map.nodes[32805248] = RareElite({
     id = 187306,
     quest = 74067,
     note = format(L['obsidian_citadel_rare_note'], 10, '{npc:187275}'),
@@ -300,7 +300,7 @@ map.nodes[64676939] = Rare({
     pois = {POI({66165529, 39638468, 47728360})}
 }) -- Possessive Hornswog
 
-map.nodes[24005896] = Rare({
+map.nodes[24005896] = RareElite({
     id = 193232,
     quest = 74051,
     note = L['obsidian_throne_rare_note'],
@@ -314,7 +314,7 @@ map.nodes[24005896] = Rare({
     pois = {POI({27226096})} -- Entrance
 }) -- Rasnar the War Ender
 
-map.nodes[30736110] = SuperRare({
+map.nodes[30736110] = RareElite({
     id = 187598,
     quest = 74052,
     rewards = {
@@ -335,7 +335,7 @@ map.nodes[46997332] = Rare({
     }
 }) -- Shadeslash Trakken
 
-map.nodes[23755724] = Rare({ -- required 67030
+map.nodes[23755724] = RareElite({ -- required 67030
     id = 189822,
     quest = 74077,
     note = L['obsidian_throne_rare_note'] .. ' ' ..
@@ -412,7 +412,7 @@ map.nodes[45453540] = Rare({
     }
 }) -- Thunderous Matriarch
 
-map.nodes[33525576] = SuperRare({
+map.nodes[33525576] = RareElite({
     id = 187886,
     quest = 74054,
     note = L['in_small_cave'],
@@ -427,7 +427,7 @@ map.nodes[33525576] = SuperRare({
     }
 }) -- Turboris
 
-map.nodes[30025534] = Rare({
+map.nodes[30025534] = RareElite({
     id = 186859,
     quest = 74090,
     note = L['worldcarver_atir_note'],
