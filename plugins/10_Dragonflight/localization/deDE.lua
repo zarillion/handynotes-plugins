@@ -6,7 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = nil
+L['elite_loot_385'] = ns.color.Orange('Dieser seltene Gegner kann Beute bis zu Gegenstandsstufe 385 fallen lassen!')
 L['gem_cluster_note'] = 'Der benötigte Gegenstand kann auf Ruhmstufe 21 bei der Drachenschuppenexpedition in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 
 L['options_icons_bonus_boss'] = 'Bonus Elitegegner'
