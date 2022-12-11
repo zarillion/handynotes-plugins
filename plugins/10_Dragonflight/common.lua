@@ -438,22 +438,6 @@ local PrettyNeat = Class('PrettyNeat', Collectible, {
 ns.node.PrettyNeat = PrettyNeat
 
 -------------------------------------------------------------------------------
--------------------------- FRAMING A NEW PERSPECTIVE --------------------------
--------------------------------------------------------------------------------
-
-local NewPerspective = Class('NewPerspective', Collectible, {
-    icon = 1109100,
-    note = L['new_perspective_note'],
-    group = ns.groups.NEW_PERSPECTIVE
-}) -- Framing a New Perspective
-
-function NewPerspective.getters:rewards()
-    return {Achievement({id = 16634, criteria = self.criteria})}
-end
-
-ns.node.NewPerspective = NewPerspective
-
--------------------------------------------------------------------------------
 ------------------------------ A LEGENDARY ALBUM ------------------------------
 -------------------------------------------------------------------------------
 

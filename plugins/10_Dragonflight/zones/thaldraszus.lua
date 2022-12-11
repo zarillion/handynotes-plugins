@@ -18,7 +18,6 @@ local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local SuperRare = ns.node.SuperRare
 local Treasure = ns.node.Treasure
-local NewPerspective = ns.node.NewPerspective
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -783,6 +782,16 @@ map.nodes[38386903] = ns.node.LegendaryCharacter({
 -------------------------------------------------------------------------------
 -------------------------- FRAMING A NEW PERSPECTIVE --------------------------
 -------------------------------------------------------------------------------
+
+local NewPerspective = Class('NewPerspective', Collectible, {
+    icon = 1109100,
+    note = L['new_perspective_note'],
+    group = ns.groups.NEW_PERSPECTIVE
+}) -- Framing a New Perspective
+
+function NewPerspective.getters:rewards()
+    return {Achievement({id = 16634, criteria = self.criteria})}
+end
 
 val.nodes[56094447] = NewPerspective({criteria = 55994, parent = map.id}) -- The Seat of the Aspects
 map.nodes[38967040] = NewPerspective({criteria = 55995}) -- The Cascades
