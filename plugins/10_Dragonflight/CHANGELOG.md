@@ -1,3 +1,8 @@
+# v18
+
+* Use a different icon for "super rares".
+* Added more rare rewards.
+
 # v17
 
 * Added location and tracking for Great Gourmand of The Ruby Feast.
