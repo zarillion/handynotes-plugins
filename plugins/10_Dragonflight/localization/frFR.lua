@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = nil
+L['elite_loot_385'] = ns.color.Orange('Ce rare peut donner des objets allant jusqu\'à l\'ilv 385 !')
 L['gem_cluster_note'] = 'L\'objet requis peut être trouvé au Renom 21 avec l\'Expédition du Dracaret dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 
 L['options_icons_bonus_boss'] = 'Élites bonus'
@@ -213,7 +213,7 @@ L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte e
 
 L['ancient_protector_note'] = 'Tuez des {npc:193244} proches pour obtenir {item:197708}. Combinez 5 {item:197708} pour créer un {item:197733} et utilisez-le pour activer les Réacteurs titanesques à proximité.'
 L['blightpaw_note'] = 'Parlez à l\'{npc:193222} à proximité et acceptez de l\'aider.'
-L['corrupted_proto_dragon_note'] = nil
+L['corrupted_proto_dragon_note'] = 'Examinez l\'|cFFFFFD00Oeuf de dragon corrompu|r pour faire apparaître le rare.'
 L['weeping_vilomah_note'] = 'Parlez à {npc:193206} pour invoquer le rare.'
 L['woofang_note'] = 'Caressez {npc:193156} pour faire apparaître le rare.'
 
