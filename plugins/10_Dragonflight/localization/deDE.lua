@@ -342,4 +342,4 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, ve
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:16519} an.'
-L['shyfly_note'] = 'Du must dich auf der Quest {quest:70853} befinden um {npc:189102} zu sehen.'
+L['shyfly_note'] = 'Du musst dich auf der Quest {quest:70853} befinden um {npc:189102} zu sehen.'
