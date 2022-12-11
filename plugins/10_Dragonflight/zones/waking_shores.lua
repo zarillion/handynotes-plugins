@@ -95,6 +95,7 @@ map.nodes[52916529] = Rare({
 map.nodes[26847642] = SuperRare({
     id = 193198,
     quest = 72127, -- 73075
+    note = L['captain_lancer_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56050}),
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm

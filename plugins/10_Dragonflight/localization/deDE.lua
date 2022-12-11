@@ -247,6 +247,7 @@ L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschieden
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem {npc:192737} zu diesem Turm.'
+L['captain_lancer_note'] = nil
 L['enkine_note'] = 'Töte {npc:193137}, {npc:193138} oder auch {npc:193139} entlang des Lavaflusses, um die {item:201092} zu erhalten, benutze es und fische in der Nähe von {npc:191866} in der Lava, um den seltenen Gegner erscheinen zu lassen.'
 L['lepidoralia_note'] = 'Hilf {npc:193342} in der |cFFFFFD00Flatterkaverne|r Höhle dabei {npc:193274} zu fangen, bis der seltene Gegner erscheint.'
 L['obsidian_citadel_rare_note'] = 'Du und andere Spieler müssen insgesamt %dx {item:191264} bei %s abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der |cFFFFFD00Obsidianzitadelle|r geplündert werden.'
