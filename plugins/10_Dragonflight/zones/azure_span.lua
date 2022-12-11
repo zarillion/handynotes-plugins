@@ -787,6 +787,7 @@ map.nodes[70724381] = Disturbeddirt()
 map.nodes[73374059] = Disturbeddirt()
 map.nodes[78753394] = Disturbeddirt()
 map.nodes[78903087] = Disturbeddirt()
+map.nodes[66733144] = Disturbeddirt({note = L['in_cave']})
 
 -------------------------------------------------------------------------------
 ---------------------------- LEY LINE IN THE SPAN -----------------------------
@@ -843,6 +844,9 @@ map.nodes[72604263] = Scoutpack({note = L['in_cave']})
 map.nodes[78953094] = Scoutpack()
 map.nodes[79823175] = Scoutpack()
 map.nodes[58145373] = Scoutpack()
+map.nodes[66783133] = Scoutpack({note = L['in_cave']})
+map.nodes[66733050] = Scoutpack({note = L['in_cave']})
+map.nodes[65702841] = Scoutpack({note = L['in_small_cave']})
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------

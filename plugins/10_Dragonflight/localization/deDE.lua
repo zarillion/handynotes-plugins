@@ -123,7 +123,7 @@ L['snowman_note'] = 'Es liegen 3 Schneebälle in der Nähe (möglicherweise wurd
 L['snowclaw_cub_note_start'] = 'Du musst die {quest:67094} Questreihe von {npc:192522} in |cFFFFFD00Valdrakken|r abschließen um den |cFFFFFD00Ehrendryade|r Titel u erhalten.\n\nSammle die folgenden Items:'
 L['snowclaw_cub_note_item1'] = 'Plündere 3x {item:197744} von verschiedenen {npc:182559n} in der |cFFFFFD00Küste des Erwachens|r.'
 L['snowclaw_cub_note_item2'] = 'Kaufe 1x {item:198356} von {npc:193310} in der |cFFFFFD00Küste des Erwachens|r.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('Alle Items könne im Auktionshaus gekauft werden. Das ist besonders hilfreich wenn du nicht so leicht zugang zu {item:199215} hast, welches erforderlich ist um Items von {npc:193310} zu kaufen.') .. '\n\nNachdem du den Titel angenommen hast gib alle 4 items {npc:196768} um das Haustier zu erhalten.' .. ns.color.Red('\n\nBUG: Der Titel kann verschwinden, Korrektur ausstehend.')
+L['snowclaw_cub_note_end'] = ns.color.Orange('Alle Items können im Auktionshaus gekauft werden. Das ist besonders hilfreich wenn du nicht so leicht zugang zu {item:199215} hast, welches erforderlich ist um Items von {npc:193310} zu kaufen.') .. '\n\nNachdem du den Titel angenommen hast gib alle 4 items {npc:196768} um das Haustier zu erhalten.' .. ns.color.Red('\n\nBUG: Der Titel kann verschwinden, Korrektur ausstehend.')
 
 L['temperamental_skyclaw_note'] = [[
 Sammel (oder kaufe im Auktionshaus):
