@@ -62,6 +62,7 @@ L['options_icons_squirrels_desc'] = 'Места появления зверьк�
 
 L['hnj_sublabel'] = 'Требуется местная Шикаарская Великая Охота'
 L['hnj_western_azure_span_hunt'] = 'На вершине мертвого дерева.'
+L['hnj_northern_thaldraszus_hunt'] = nil
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Показать местоположение {npc:194590} для достижения {achievement:16542}.'
 

@@ -685,6 +685,7 @@ map.nodes[34676541] = HemetNesingwaryJr({
 }) -- Southern Thaldraszus Hunt
 
 map.nodes[50674562] = HemetNesingwaryJr({
+    note = L['hnj_northern_thaldraszus_hunt'],
     rewards = {Achievement({id = 16542, criteria = 55702})}
 }) -- Northern Thaldraszus Hunt
 

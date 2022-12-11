@@ -61,6 +61,7 @@ L['options_icons_squirrels_desc'] = '显示 {achievement:16729} 成就中小动�
 
 L['hnj_sublabel'] = '需要本地席卡尔洪荒狩猎'
 L['hnj_western_azure_span_hunt'] = '死树顶上。'
+L['hnj_northern_thaldraszus_hunt'] = ns.color.Orange('注意: 当狩猎事件开始时需要快速过去，去晚了他会被野怪击杀。')
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = '显示 {achievement:16542} 成就中 {npc:194590} 的位置。'
 
