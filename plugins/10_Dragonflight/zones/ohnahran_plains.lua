@@ -1130,92 +1130,6 @@ map.nodes[28006060] = Collectible({
 }) -- Craft Creche Crowler
 
 -------------------------------------------------------------------------------
-------------------------- LIZI, THUNDERSPINE TRAMPLER -------------------------
--------------------------------------------------------------------------------
-
--- https://www.wowhead.com/news/lizi-thunderspine-trampler-nurse-a-thunderspine-to-health-for-a-mount-in-328734
--- Daily completion: 71203
-
-local Lizi = Class('Lizi', Collectible, {
-    id = 190014, -- Initiate Radiya
-    icon = 4008180, -- Inv_thunderlizardprimal_brown
-    quest = {71196, 71197, 71198, 71199, 71195}, -- dailys
-    questCount = true,
-    requires = {
-        ns.requirement.Quest(66676), -- Sneaking In
-        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
-    },
-    rewards = {Mount({item = 192799, id = 1639})}, -- Lizi's Reins
-    pois = {
-        POI({
-            57087764, -- day 3
-            56727631, -- day 4
-            57667231 -- day 5
-        })
-    }
-})
-
-function Lizi.getters:note()
-    local function status(i)
-        if C_QuestLog.IsQuestFlaggedCompleted(self.quest[i]) then
-            return ns.status.Green(i)
-        else
-            return ns.status.Red(i)
-        end
-    end
-
-    local note = L['lizi_note']
-    note = note .. '\n\n' .. status(1) .. ' ' .. L['lizi_note_day1'] -- Fluorescent Fluid
-    note = note .. '\n\n' .. status(2) .. ' ' .. L['lizi_note_day2'] -- High-Fiber Leaf
-    note = note .. '\n\n' .. status(3) .. ' ' .. L['lizi_note_day3'] -- Thousandbine Piranha
-    note = note .. '\n\n' .. status(4) .. ' ' .. L['lizi_note_day4'] -- Woolly Mountain Pelt
-    note = note .. '\n\n' .. status(5) .. ' ' .. L['lizi_note_day5'] -- Meluun's Green Curry
-    return note
-end
-
-map.nodes[56207710] = Lizi() -- day 1 and 2
-
--------------------------------------------------------------------------------
----------------------- OHN'AHRA, DIVINE KISS OF OHN'AHRA ----------------------
--------------------------------------------------------------------------------
-
--- https://www.wowhead.com/news/divine-kiss-of-ohnahra-ohuna-transformation-mount-in-dragonflight-329817
-
-local Ohnahra = Class('Ohnahra', Collectible, {
-    id = 194796, -- Ohn'ahra
-    icon = 4094306, -- Inv_eagle2windmount_white
-    requires = {
-        ns.requirement.Quest(66676), -- Sneaking In
-        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
-    },
-    rewards = {
-        Mount({item = 198821, id = 1545}), -- Divine Kiss of Ohn'ahra
-        Achievement({id = 16446, criteria = 15, note = L['pretty_neat_note']})
-    },
-    pois = {
-        POI({56257595, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng
-    }
-}) -- Ohn'ahra
-
-function Ohnahra.getters:note()
-    local function status(id, count)
-        if ns.PlayerHasItem(id, count) then
-            return ns.status.Green(count .. 'x')
-        else
-            return ns.status.Red(count .. 'x')
-        end
-    end
-
-    local note = L['ohnahra_note_start']
-    note = note .. '\n\n' .. status(201929, 3) .. ' ' .. L['ohnahra_note_item1'] -- Stolen Breath of Ohn'ahra
-    note = note .. '\n\n' .. status(201323, 1) .. ' ' .. L['ohnahra_note_item2'] -- Essence of Awakening
-    note = note .. '\n\n' .. status(191507, 1) .. ' ' .. L['ohnahra_note_item3'] -- Exultant Incense
-    return note .. '\n\n' .. L['ohnahra_note_end']
-end
-
-map.nodes[57473193] = Ohnahra()
-
--------------------------------------------------------------------------------
 ----------------------------- DRAGON ISLES SAFARI -----------------------------
 -------------------------------------------------------------------------------
 
@@ -1368,6 +1282,88 @@ map.nodes[64003480] = ns.node.Safari({
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+-- https://www.wowhead.com/news/lizi-thunderspine-trampler-nurse-a-thunderspine-to-health-for-a-mount-in-328734
+-- Daily completion: 71203
+
+local Lizi = Class('Lizi', Collectible, {
+    id = 190014, -- Initiate Radiya
+    icon = 4008180, -- Inv_thunderlizardprimal_brown
+    quest = {71196, 71197, 71198, 71199, 71195}, -- dailys
+    questCount = true,
+    requires = {
+        ns.requirement.Quest(66676), -- Sneaking In
+        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
+    },
+    rewards = {Mount({item = 192799, id = 1639})}, -- Lizi's Reins
+    pois = {
+        POI({
+            57087764, -- day 3
+            56727631, -- day 4
+            57667231 -- day 5
+        })
+    }
+})
+
+function Lizi.getters:note()
+    local function status(i)
+        if C_QuestLog.IsQuestFlaggedCompleted(self.quest[i]) then
+            return ns.status.Green(i)
+        else
+            return ns.status.Red(i)
+        end
+    end
+
+    local note = L['lizi_note']
+    note = note .. '\n\n' .. status(1) .. ' ' .. L['lizi_note_day1'] -- Fluorescent Fluid
+    note = note .. '\n\n' .. status(2) .. ' ' .. L['lizi_note_day2'] -- High-Fiber Leaf
+    note = note .. '\n\n' .. status(3) .. ' ' .. L['lizi_note_day3'] -- Thousandbine Piranha
+    note = note .. '\n\n' .. status(4) .. ' ' .. L['lizi_note_day4'] -- Woolly Mountain Pelt
+    note = note .. '\n\n' .. status(5) .. ' ' .. L['lizi_note_day5'] -- Meluun's Green Curry
+    return note
+end
+
+map.nodes[56207710] = Lizi() -- day 1 and 2
+
+-------------------------------------------------------------------------------
+
+-- https://www.wowhead.com/news/divine-kiss-of-ohnahra-ohuna-transformation-mount-in-dragonflight-329817
+
+local Ohnahra = Class('Ohnahra', Collectible, {
+    id = 194796, -- Ohn'ahra
+    icon = 4094306, -- Inv_eagle2windmount_white
+    requires = {
+        ns.requirement.Quest(66676), -- Sneaking In
+        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
+    },
+    rewards = {
+        Mount({item = 198821, id = 1545}), -- Divine Kiss of Ohn'ahra
+        Achievement({id = 16446, criteria = 15, note = L['pretty_neat_note']})
+    },
+    pois = {
+        POI({56257595, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng
+    }
+}) -- Ohn'ahra
+
+function Ohnahra.getters:note()
+    local function status(id, count)
+        if ns.PlayerHasItem(id, count) then
+            return ns.status.Green(count .. 'x')
+        else
+            return ns.status.Red(count .. 'x')
+        end
+    end
+
+    local note = L['ohnahra_note_start']
+    note = note .. '\n\n' .. status(201929, 3) .. ' ' .. L['ohnahra_note_item1'] -- Stolen Breath of Ohn'ahra
+    note = note .. '\n\n' .. status(201323, 1) .. ' ' .. L['ohnahra_note_item2'] -- Essence of Awakening
+    note = note .. '\n\n' .. status(191507, 1) .. ' ' .. L['ohnahra_note_item3'] -- Exultant Incense
+    return note .. '\n\n' .. L['ohnahra_note_end']
+end
+
+map.nodes[57473193] = Ohnahra()
+
 -------------------------------------------------------------------------------
 
 map.nodes[66333211] = Collectible({
