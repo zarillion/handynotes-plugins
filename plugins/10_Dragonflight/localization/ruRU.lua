@@ -29,7 +29,7 @@ L['broken_banding_note'] = 'На лодыжке правой ноги стату
 L['chunk_of_sculpture_note'] = 'На земле, от статуи дракона слева.'
 L['dislodged_dragoneye_note'] = 'На скале под грудью статуи дракона.'
 L['finely_carved_wing_note'] = 'Под правым коленом статуи дракона.'
-L['fragment_requirement_note'] = nil
+L['fragment_requirement_note'] = ns.color.Red('Прежде чем вы сможете собирать разбросанные предметы, вам нужно спросить {npc:193915} в |cFFFFFD00посольстве Крылатого Приюта|r что она здесь делает, ее можно найти у статуи дракона.')
 L['golden_claw_note'] = 'У задней правой лапы статуи дракона.'
 L['precious_stone_fragment_note'] = 'Под правой ногой статуи.'
 L['stone_dragontooth_note'] = 'На земле рядом с пьедесталом статуи дракона.'
@@ -94,9 +94,9 @@ L['gnoll_fiend_flail_note'] = '{item:199066} можно найти в сумка
 L['pepper_hammer_note'] = 'Возьмите |cFFFFFD00Древесный сок|r и используйте его на |cFFFFFD00палочке|r чтобы приманить {npc:195373}.\n\n|cFFFF0000(БАГ: Чтобы нажать на палку, может потребоваться перезагрузка)|r'
 L['snow_covered_scroll'] = 'Занесенный снегом свиток'
 
-L['pm_engi_frizz_buzzcrank'] = nil
-L['pm_jewel_pluutar'] = nil
-L['pm_script_lydiara_whisperfeather'] = nil
+L['pm_engi_frizz_buzzcrank'] = 'Стоит рядом со святыней.'
+L['pm_jewel_pluutar'] = 'Внутри здания.'
+L['pm_script_lydiara_whisperfeather'] = 'Сидит на скамейке.'
 L['pt_alch_experimental_decay_sample_note'] = 'Внутри большого зеленого котла.'
 L['pt_alch_firewater_powder_sample_note'] = 'Снаружи бревенчатый дом рядом с вазой.'
 L['pt_ench_enriched_earthen_shard_note'] = 'На куче камней.'
@@ -164,19 +164,19 @@ L['slightly_chewed_duck_egg_note'] = 'Найдите и погладьте {npc:
 L['yennus_boat'] = 'Игрушечная лодка клыкарров'
 L['yennus_boat_note'] = 'Возьмите |cFFFFFD00игрушечную лодку клыкарров|r, чтобы получить {item:200876}, который запускает задание {quest:72063}, которое можно сдать у {npc:195252}.'
 
-L['pm_ench_shalasar_glimmerdusk'] = nil
+L['pm_ench_shalasar_glimmerdusk'] = 'На втором этаже разрушенной башни.'
 L['pm_herb_hua_greenpaw'] = nil
-L['pm_leath_erden'] = nil
+L['pm_leath_erden'] = 'Стоит рядом с мертвым {npc:193092} у реки.'
 L['pt_alch_canteen_of_suspicious_water_note'] = 'Глубоко внутри пещеры рядом с мертвым {npc:194887}.'
-L['pt_ench_stormbound_horn_note'] = nil
+L['pt_ench_stormbound_horn_note'] = 'В |cFFFFFD00Подъеме Песни Ветра|r.'
 L['pt_jewel_fragmented_key_note'] = 'Под корнями дерева в разрушенном здании.'
 L['pt_jewel_lofty_malygite_note'] = 'Парит в воздухе в пещере.'
 L['pt_leath_wind_blessed_hide_note'] = nil
 L['pt_script_sign_language_reference_sheet_note'] = 'Висит у входа в палатку.'
-L['pt_smith_ancient_spear_shards_note'] = nil
+L['pt_smith_ancient_spear_shards_note'] = 'Внутри пещеры к западу от |cFFFFFD00рубежа Русза\'тар|r.'
 L['pt_smith_falconer_gauntlet_drawings_note'] = 'Остров в море, внутри хижины.'
-L['pt_tailor_noteworthy_scrap_of_carpet_note'] = nil
-L['pt_tailor_silky_surprise_note'] = nil
+L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'В маленькой хижине. ' .. ns.color.Orange('В хижине 3 элитных противника.')
+L['pt_tailor_silky_surprise_note'] = 'Найти и открыть |cFFFFFD00Заколдованная вайя|r.'
 
 L['lizi_note'] = 'Завершите сюжетную линию Похождения посвященного, начав с {quest:65901}. Выполняйте ежедневные задания, чтобы вылечить Яшу и получить средство передвижения.\n\nВ дополнение к предметам, требуемым для всех заданий, требуется 150x {currency:2003} за задание, в общей сложности 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Соберите 20x {item:192615} с монстров насекомых на |cFFFFFD00Драконьих Островах|r.'
@@ -207,7 +207,7 @@ L['options_icons_dreamguard_desc'] = 'Отображать места Изумр
 
 L['khadin_note'] = 'Обмен {item:191784} на знания по профессии.'
 L['the_great_swog_note'] = 'Обменять {item:199338}, {item:199339} и {item:199340} на {item:202102}.'
-L['tome_of_polymoph_duck'] = nil
+L['tome_of_polymoph_duck'] = 'Используйте {spell:1953}, чтобы войти в пещеру и взаимодействовать с |cFFFFFD00Манаштормы для новичков|r для взятия и завершения задания.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
