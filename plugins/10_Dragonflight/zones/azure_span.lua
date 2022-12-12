@@ -251,10 +251,11 @@ map.nodes[16213364] = RareElite({
 
 map.nodes[36243573] = Rare({
     id = 190244,
-    quest = nil,
+    quest = 73883,
     rewards = {
-        Achievement({id = 16678, criteria = 56109})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16678, criteria = 56109}), --
+        DC.HighlandDrake.ClubTail, --
+        DC.WindborneVelocidrake.GrayHorns
     },
     pois = {Path({35873621, 36243573, 36543508, 36863479})}
 }) -- Mahg the Trampler
