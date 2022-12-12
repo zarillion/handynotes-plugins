@@ -205,8 +205,8 @@ L['dreamguard_note'] = 'Selecciona al Guardasueños y teclea' .. ns.color.Orange
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños para el logro {achievement:16574}.'
 
-L['khadin_note'] = nil
-L['the_great_swog_note'] = nil
+L['khadin_note'] = 'Intercambia una {item:191784} por conocimiento de la profesión.'
+L['the_great_swog_note'] = 'Intercambia {item:199338}, {item:199339} y {item:199340} por un {item:202102}.'
 L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro |cFFFFFD00Tormentas de Maná para Principiantes|r para completar la misión.'
 
 -------------------------------------------------------------------------------
