@@ -16,9 +16,8 @@ local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
-local SuperRare = ns.node.SuperRare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
-local NewPerspective = ns.node.NewPerspective
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -45,7 +44,7 @@ local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[59075874] = SuperRare({
+map.nodes[59075874] = RareElite({
     id = 193664,
     quest = 74055,
     note = L['ancient_protector_note'],
@@ -54,7 +53,10 @@ map.nodes[59075874] = SuperRare({
         Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
         Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
         Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
-        Transmog({item = 200758, slot = L['plate']}) -- Breastplate of Storied Antiquity
+        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
+        DC.WindborneVelocidrake.SpikedBack, --
+        DC.HighlandDrake.StripedPattern, --
+        DC.HighlandDrake.CrestedBrow
     },
     pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
 }) -- Ancient Protector
@@ -77,11 +79,12 @@ map.nodes[59847057] = Rare({ -- required 67030
 
 map.nodes[44886910] = Rare({
     id = 193658,
-    quest = 69962,
-    note = L['in_cave'],
+    quest = 74060,
+    note = L['in_cave'] .. ' ' .. L['corrupted_proto_dragon_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56156}),
-        Transmog({item = 199020, slot = L['gun']}) -- Drake Race Starting Rifle of the Fireflash
+        -- Transmog({item = 199020, slot = L['gun']}), -- Drake Race Starting Rifle of the Fireflash
+        Transmog({item = 200166, slot = L['offhand']}) -- Drake Race Starting Rifle of the Fireflash
     },
     pois = {POI({44616780})} -- Entrance
 }) -- Corrupted Proto-Dragon
@@ -226,12 +229,13 @@ map.nodes[35027001] = Rare({ -- reqiured 67030 review
 
 map.nodes[47884976] = Rare({
     id = 193161,
-    quest = 69850,
+    quest = 74089,
     note = L['woofang_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56152}),
-        Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
-        Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Item({item = 200445, note = L['neck']}) -- Lucky Hunting Charm
     }
 }) -- Woolfang
 
@@ -542,7 +546,9 @@ map.nodes[57126460] = Fragment({
 -------------------------------------------------------------------------------
 
 map.nodes[38188192] = Disturbeddirt()
+map.nodes[49514830] = Disturbeddirt()
 map.nodes[49894474] = Disturbeddirt()
+map.nodes[54273978] = Disturbeddirt()
 map.nodes[55588459] = Disturbeddirt()
 map.nodes[55756743] = Disturbeddirt()
 map.nodes[55918384] = Disturbeddirt()
@@ -556,6 +562,7 @@ map.nodes[62226638] = Disturbeddirt()
 map.nodes[37637740] = Scoutpack()
 map.nodes[38796831] = Scoutpack()
 map.nodes[38806831] = Scoutpack()
+map.nodes[41234798] = Scoutpack()
 map.nodes[50844623] = Scoutpack()
 map.nodes[52758333] = Scoutpack()
 map.nodes[55456797] = Scoutpack()
@@ -685,6 +692,7 @@ map.nodes[34676541] = HemetNesingwaryJr({
 }) -- Southern Thaldraszus Hunt
 
 map.nodes[50674562] = HemetNesingwaryJr({
+    note = L['hnj_northern_thaldraszus_hunt'],
     rewards = {Achievement({id = 16542, criteria = 55702})}
 }) -- Northern Thaldraszus Hunt
 
@@ -783,6 +791,16 @@ map.nodes[38386903] = ns.node.LegendaryCharacter({
 -------------------------- FRAMING A NEW PERSPECTIVE --------------------------
 -------------------------------------------------------------------------------
 
+local NewPerspective = Class('NewPerspective', Collectible, {
+    icon = 1109100,
+    note = L['new_perspective_note'],
+    group = ns.groups.NEW_PERSPECTIVE
+}) -- Framing a New Perspective
+
+function NewPerspective.getters:rewards()
+    return {Achievement({id = 16634, criteria = self.criteria})}
+end
+
 val.nodes[56094447] = NewPerspective({criteria = 55994, parent = map.id}) -- The Seat of the Aspects
 map.nodes[38967040] = NewPerspective({criteria = 55995}) -- The Cascades
 map.nodes[55737324] = NewPerspective({criteria = 55996}) -- Passage of Time -- On the Stone Arch
@@ -801,7 +819,7 @@ map.nodes[46955951] = NewPerspective({criteria = 56004}) -- Tyrhold Reservoir
 
 map.nodes[62401520] = ns.node.Safari({
     id = 197629,
-    rewards = {Achievement({id = 16519, criteria = 55644})},
+    rewards = {Achievement({id = 16519, criteria = 55644}), Pet({id = 3403})},
     pois = {
         POI({
             32206920, 33406700, 34207160, 34806400, 35007320, 35407080,
@@ -813,15 +831,15 @@ map.nodes[62401520] = ns.node.Safari({
     }
 }) -- Blue Dasher
 
-map.nodes[50606420] = ns.node.Safari({
+map.nodes[60403800] = ns.node.Safari({
     id = 192268,
-    rewards = {Achievement({id = 16519, criteria = 55656})},
-    pois = {POI({50006400, 50606420, 50606460, 50606560})}
+    rewards = {Achievement({id = 16519, criteria = 55656}), Pet({id = 3358})},
+    pois = {POI({60403800, 60603800})}
 }) -- Crimsonspine
 
 map.nodes[50204780] = ns.node.Safari({
     id = 189153,
-    rewards = {Achievement({id = 16519, criteria = 55646})},
+    rewards = {Achievement({id = 16519, criteria = 55646}), Pet({id = 3313})},
     pois = {
         POI({
             48005020, 49205220, 49205280, 49404780, 49805020, 50204780,
@@ -832,7 +850,7 @@ map.nodes[50204780] = ns.node.Safari({
 
 map.nodes[47606160] = ns.node.Safari({
     id = 194720,
-    rewards = {Achievement({id = 16519, criteria = 55647})},
+    rewards = {Achievement({id = 16519, criteria = 55647}), Pet({id = 3351})},
     pois = {
         POI({
             38208140, 47406200, 47606160, 48005600, 48005680, 48805560, 48806220
@@ -842,7 +860,7 @@ map.nodes[47606160] = ns.node.Safari({
 
 map.nodes[52404860] = ns.node.Safari({
     id = 189121,
-    rewards = {Achievement({id = 16519, criteria = 55648})},
+    rewards = {Achievement({id = 16519, criteria = 55648}), Pet({id = 3295})},
     pois = {
         POI({
             46406380, 46606420, 47006300, 47606180, 48205740, 48205760,
@@ -855,12 +873,12 @@ map.nodes[52404860] = ns.node.Safari({
 
 map.nodes[39804580] = ns.node.Safari({
     id = 193000,
-    rewards = {Achievement({id = 16519, criteria = 55650})}
+    rewards = {Achievement({id = 16519, criteria = 55650}), Pet({id = 3366})}
 }) -- Kindlet
 
 map.nodes[50205900] = ns.node.Safari({
     id = 189122,
-    rewards = {Achievement({id = 16519, criteria = 55652})},
+    rewards = {Achievement({id = 16519, criteria = 55652}), Pet({id = 3296})},
     pois = {
         POI({
             38404840, 38804540, 38804940, 39204580, 39204820, 40204480,
@@ -873,7 +891,7 @@ map.nodes[50205900] = ns.node.Safari({
 
 map.nodes[43208360] = ns.node.Safari({
     id = 197637,
-    rewards = {Achievement({id = 16519, criteria = 55653})},
+    rewards = {Achievement({id = 16519, criteria = 55653}), Pet({id = 3404})},
     pois = {
         POI({
             34206840, 35806640, 36607180, 37406740, 37606740, 37606760,
@@ -885,7 +903,7 @@ map.nodes[43208360] = ns.node.Safari({
 
 map.nodes[44006480] = ns.node.Safari({
     id = 191323,
-    rewards = {Achievement({id = 16519, criteria = 55666})},
+    rewards = {Achievement({id = 16519, criteria = 55666}), Pet({id = 3336})},
     pois = {
         POI({
             32807300, 38007860, 41008140, 41406780, 42206560, 42806720,

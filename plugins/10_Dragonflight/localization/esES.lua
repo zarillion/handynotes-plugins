@@ -7,6 +7,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['elite_loot_385'] = ns.color.Orange('¡Este raro puede soltar botín de hasta nivel 385!')
 L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la Expedición Dragontina en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'
@@ -62,6 +63,7 @@ L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el
 
 L['hnj_sublabel'] = 'Requiere Gran Cacería Shikaar local'
 L['hnj_western_azure_span_hunt'] = 'Encima del árbol muerto.'
+L['hnj_northern_thaldraszus_hunt'] = ns.color.Orange('Nota: Cuando comience el evento de cacería, tendrás que unirte rápidamente. Si llegas tarde, los monstruos salvajes lo habrán matado.')
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Muestra dónde está {npc:194590} para el logro {achievement:16542}.'
 
@@ -211,6 +213,7 @@ L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interac
 
 L['ancient_protector_note'] = 'Mata a una {npc:193244} cercana para conseguir un {item:197708}. Combina 5 {item:197708} para crear un {item:197733}. Úsalo para activar los Reactores de los Titanes cercanos.'
 L['blightpaw_note'] = 'Habla con el {npc:193222} y acepta ayudarle.'
+L['corrupted_proto_dragon_note'] = 'Inspecciona el |cFFFFFD00Huevo de Dragón Corrupto|r para hacer aparecer al raro.'
 L['weeping_vilomah_note'] = 'Habla con {npc:193206} para invocar al raro.'
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
 

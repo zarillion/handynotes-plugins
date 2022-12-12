@@ -6,6 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['elite_loot_385'] = ns.color.Orange('This rare can drop up to ilvl 385 loot!')
 L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the Dragonscale Expedition in Expedition Scout\'s Packs and Disturbed Dirts.'
 
 L['options_icons_bonus_boss'] = 'Bonus Elites'
@@ -61,6 +62,7 @@ L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achi
 
 L['hnj_sublabel'] = 'Requires local Shikaar Grand Hunt'
 L['hnj_western_azure_span_hunt'] = 'On top of the dead tree.'
+L['hnj_northern_thaldraszus_hunt'] = ns.color.Orange('Note: When the hunting event starts, you need to go to him quickly. If you go late, he will be killed by wild mobs.')
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Display the locations of {npc:194590} for the achievement {achievement:16542}.'
 
@@ -210,6 +212,7 @@ L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact wi
 
 L['ancient_protector_note'] = 'Kill nearby {npc:193244} to get {item:197708}. Combine 5 {item:197708} to create a {item:197733} and use it to activate nearby Titanic Reactors.'
 L['blightpaw_note'] = 'Talk to {npc:193222} nearby and agree to help him.'
+L['corrupted_proto_dragon_note'] = 'Inspect the |cFFFFFD00Corrupted Dragon Egg|r to spawn the rare.'
 L['weeping_vilomah_note'] = 'Talk to {npc:193206} to summon the rare.'
 L['woofang_note'] = 'Pet {npc:193156} to spawn the rare.'
 

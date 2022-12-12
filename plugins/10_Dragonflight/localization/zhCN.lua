@@ -6,6 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['elite_loot_385'] = ns.color.Orange('此稀有可以掉落最高385物品等级战利品！')
 L['gem_cluster_note'] = '所需物品需要龙鳞探险队声望到达21级可以从探险队斥候的背包和翻动过的泥土中找到。'
 
 L['options_icons_bonus_boss'] = '奖励精英'
@@ -61,6 +62,7 @@ L['options_icons_squirrels_desc'] = '显示 {achievement:16729} 成就中小动�
 
 L['hnj_sublabel'] = '需要本地席卡尔洪荒狩猎'
 L['hnj_western_azure_span_hunt'] = '死树顶上。'
+L['hnj_northern_thaldraszus_hunt'] = ns.color.Orange('注意: 当狩猎事件开始时需要快速过去，去晚了他会被野怪击杀。')
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = '显示 {achievement:16542} 成就中 {npc:194590} 的位置。'
 
@@ -210,6 +212,7 @@ L['tome_of_polymoph_duck'] = '使用 {spell:1953} 进入洞穴并与 |cFFFFFD00�
 
 L['ancient_protector_note'] = '击杀附近的 {npc:193244} 以获得 {item:197708}。将5个 {item:197708} 组合成一个 {item:197733} 并用它来激活附近的泰坦反应堆。'
 L['blightpaw_note'] = '与附近的 {npc:193222} 交谈并同意帮助他。'
+L['corrupted_proto_dragon_note'] = nil
 L['weeping_vilomah_note'] = '和 {npc:193206} 对话召唤稀有。'
 L['woofang_note'] = '抚摸 {npc:193156} 稀有出现。'
 
@@ -345,5 +348,5 @@ L['slumbering_worldsnail_note1'] = [[
 L['slumbering_worldsnail_note2'] = ns.color.Orange('注意：如果你死了，将失去你的会员负面效果。要么在你死之前以20个 {item:202173} 的价格从 {npc:193310} 购买新会员资格，要么交出更多钥匙，就有机会从宝箱中获得新会员资格。')
 
 L['options_icons_safari'] = '{achievement:16519}'
-L['options_icons_safari_desc'] = nil
-L['shyfly_note'] = nil
+L['options_icons_safari_desc'] = '显示 {achievement:16519} 成就中战斗宠物的位置。'
+L['shyfly_note'] = '必须在任务 {quest:70853} 中才能看到 {npc:189102}。'

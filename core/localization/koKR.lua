@@ -75,6 +75,7 @@ L['unobtainable'] = '획득불가'
 L['unlearnable'] = '습득불가'
 L['defeated'] = '처치함'
 L['undefeated'] = '처치하지 않음'
+L['elite'] = nil
 
 L['follower_type_follower'] = '추종자'
 L['follower_type_champion'] = '영웅'

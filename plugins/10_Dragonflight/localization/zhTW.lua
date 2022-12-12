@@ -6,6 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['elite_loot_385'] = nil
 L['gem_cluster_note'] = '需要的物品可以在龍鱗遠征隊名望21後, 在遠征隊斥侯包和挖過的土找到'
 
 L['options_icons_bonus_boss'] = '獎勵精英'
@@ -61,6 +62,7 @@ L['options_icons_squirrels_desc'] = '顯示 {achievement:16729} 成就中小動�
 
 L['hnj_sublabel'] = '需要當地的席卡氏族大狩獵'
 L['hnj_western_azure_span_hunt'] = '在死掉樹的頂端'
+L['hnj_northern_thaldraszus_hunt'] = nil
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = '顯示成就 {achievement:16542} 所需的 {npc:194590} 位置.'
 
@@ -210,6 +212,7 @@ L['tome_of_polymoph_duck'] = nil
 
 L['ancient_protector_note'] = nil
 L['blightpaw_note'] = '和附近的 {npc:193222} 交談並同意幫助他.'
+L['corrupted_proto_dragon_note'] = nil
 L['weeping_vilomah_note'] = '和 {npc:193206} 對話來召喚稀有'
 L['woofang_note'] = '撫摸 {npc:193156} 來召喚稀有.'
 

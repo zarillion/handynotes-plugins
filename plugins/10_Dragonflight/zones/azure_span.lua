@@ -16,7 +16,7 @@ local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
-local SuperRare = ns.node.SuperRare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -111,7 +111,7 @@ map.nodes[13584855] = Rare({
 --     }
 -- }) -- Blightfur
 
-map.nodes[14053096] = SuperRare({
+map.nodes[14053096] = RareElite({
     id = 197353,
     quest = 73985,
     fgroup = 'brackenhide',
@@ -202,7 +202,7 @@ map.nodes[64992995] = Rare({
 --     }
 -- }) -- Frostpaw
 
-map.nodes[14083747] = SuperRare({
+map.nodes[14083747] = RareElite({
     id = 197354,
     quest = 73996,
     fgroup = 'brackenhide',
@@ -216,7 +216,7 @@ map.nodes[14083747] = SuperRare({
     }
 }) -- Gnarls
 
-map.nodes[32682911] = Rare({ -- review -- required 67030
+map.nodes[32682911] = RareElite({ -- review -- required 67030
     id = 193251,
     quest = 69885,
     rewards = {
@@ -234,7 +234,7 @@ map.nodes[19234362] = Rare({ -- required 67030
     }
 }) -- Grumbletrunk
 
-map.nodes[16213364] = SuperRare({
+map.nodes[16213364] = RareElite({
     id = 197356,
     quest = 74004,
     fgroup = 'brackenhide',
@@ -317,7 +317,7 @@ map.nodes[26494939] = Rare({ -- review -- required 67030
     }
 }) -- Skag the Thrower
 
-map.nodes[10863229] = SuperRare({
+map.nodes[10863229] = RareElite({
     id = 197344,
     quest = 74032,
     fgroup = 'brackenhide',
@@ -340,7 +340,7 @@ map.nodes[10863229] = SuperRare({
 --     }
 -- }) -- Snufflegust
 
-map.nodes[55033405] = Rare({
+map.nodes[55033405] = RareElite({
     id = 193238,
     quest = 74082, -- 69879 ?
     note = L['spellwrought_snowman_note'],
@@ -782,11 +782,14 @@ map.nodes[23716772] = Disturbeddirt()
 map.nodes[33704685] = Disturbeddirt()
 map.nodes[34234591] = Disturbeddirt()
 map.nodes[57775352] = Disturbeddirt()
+map.nodes[65193151] = Disturbeddirt()
 map.nodes[65516163] = Disturbeddirt()
+map.nodes[68291742] = Disturbeddirt()
 map.nodes[70724381] = Disturbeddirt()
 map.nodes[73374059] = Disturbeddirt()
 map.nodes[78753394] = Disturbeddirt()
 map.nodes[78903087] = Disturbeddirt()
+map.nodes[66733144] = Disturbeddirt({note = L['in_cave']})
 
 -------------------------------------------------------------------------------
 ---------------------------- LEY LINE IN THE SPAN -----------------------------
@@ -837,12 +840,16 @@ map.nodes[33864679] = Scoutpack()
 map.nodes[33864679] = Scoutpack()
 map.nodes[34334607] = Scoutpack()
 map.nodes[43005294] = Scoutpack()
+map.nodes[58115454] = Scoutpack()
 map.nodes[66784934] = Scoutpack()
 map.nodes[72154242] = Scoutpack({note = L['in_cave']})
 map.nodes[72604263] = Scoutpack({note = L['in_cave']})
 map.nodes[78953094] = Scoutpack()
 map.nodes[79823175] = Scoutpack()
 map.nodes[58145373] = Scoutpack()
+map.nodes[66783133] = Scoutpack({note = L['in_cave']})
+map.nodes[66733050] = Scoutpack({note = L['in_cave']})
+map.nodes[65702841] = Scoutpack({note = L['in_small_cave']})
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -1016,7 +1023,7 @@ map.nodes[63005780] = Collectible({
 
 map.nodes[15202400] = ns.node.Safari({
     id = 192265,
-    rewards = {Achievement({id = 16519, criteria = 55642})},
+    rewards = {Achievement({id = 16519, criteria = 55642}), Pet({id = 3357})},
     pois = {
         POI({
             14802620, 15004520, 15202400, 17202500, 17604440, 17802900,
@@ -1039,15 +1046,15 @@ map.nodes[15202400] = ns.node.Safari({
     }
 }) -- Azure Crystalspine
 
-map.nodes[22008000] = ns.node.Safari({
+map.nodes[60403800] = ns.node.Safari({
     id = 192268,
-    rewards = {Achievement({id = 16519, criteria = 55656})},
-    pois = {POI({50006400, 50606420, 50606460, 50606560})}
+    rewards = {Achievement({id = 16519, criteria = 55656}), Pet({id = 3358})},
+    pois = {POI({60403800, 60603800})}
 }) -- Crimsonspine
 
 map.nodes[37203300] = ns.node.Safari({
     id = 194720,
-    rewards = {Achievement({id = 16519, criteria = 55647})},
+    rewards = {Achievement({id = 16519, criteria = 55647}), Pet({id = 3351})},
     pois = {
         POI({
             27403120, 29203240, 30804700, 31404460, 32203540, 34403720,
@@ -1059,7 +1066,7 @@ map.nodes[37203300] = ns.node.Safari({
 
 map.nodes[23603720] = ns.node.Safari({
     id = 189122,
-    rewards = {Achievement({id = 16519, criteria = 55652})},
+    rewards = {Achievement({id = 16519, criteria = 55652}), Pet({id = 3296})},
     pois = {
         POI({
             11004180, 11004440, 11004460, 11404320, 11804640, 23404040,
@@ -1070,7 +1077,7 @@ map.nodes[23603720] = ns.node.Safari({
 
 map.nodes[12004740] = ns.node.Safari({
     id = 189103,
-    rewards = {Achievement({id = 16519, criteria = 55657})},
+    rewards = {Achievement({id = 16519, criteria = 55657}), Pet({id = 3281})},
     pois = {
         POI({
             12004740, 13604800, 14004980, 15405040, 15604880, 23807140,
@@ -1082,7 +1089,7 @@ map.nodes[12004740] = ns.node.Safari({
 
 map.nodes[48606480] = ns.node.Safari({
     id = 189107,
-    rewards = {Achievement({id = 16519, criteria = 55659})},
+    rewards = {Achievement({id = 16519, criteria = 55659}), Pet({id = 3283})},
     pois = {
         POI({
             47203940, 47203960, 48606480, 49006200, 55202120, 59404480,
@@ -1095,7 +1102,7 @@ map.nodes[48606480] = ns.node.Safari({
 
 map.nodes[40803180] = ns.node.Safari({
     id = 189104,
-    rewards = {Achievement({id = 16519, criteria = 55661})},
+    rewards = {Achievement({id = 16519, criteria = 55661}), Pet({id = 3282})},
     pois = {
         POI({
             10404120, 11604040, 11804140, 13804360, 17003000, 18002220,
@@ -1111,7 +1118,7 @@ map.nodes[40803180] = ns.node.Safari({
 
 map.nodes[59405740] = ns.node.Safari({
     id = 189658,
-    rewards = {Achievement({id = 16519, criteria = 55661})},
+    rewards = {Achievement({id = 16519, criteria = 55661}), Pet({id = 3328})},
     pois = {
         POI({
             11603480, 12803820, 15003440, 15003540, 15003560, 19604720,
@@ -1123,7 +1130,7 @@ map.nodes[59405740] = ns.node.Safari({
 
 map.nodes[68402720] = ns.node.Safari({
     id = 189110,
-    rewards = {Achievement({id = 16519, criteria = 55664})},
+    rewards = {Achievement({id = 16519, criteria = 55664}), Pet({id = 3288})},
     pois = {
         POI({
             22404580, 23804620, 26403940, 64405620, 65205480, 68402720,
@@ -1134,7 +1141,7 @@ map.nodes[68402720] = ns.node.Safari({
 
 map.nodes[34204160] = ns.node.Safari({
     id = 191323,
-    rewards = {Achievement({id = 16519, criteria = 55666})},
+    rewards = {Achievement({id = 16519, criteria = 55666}), Pet({id = 3336})},
     pois = {
         POI({
             16602560, 16602800, 18802760, 20603220, 21003420, 22803020,

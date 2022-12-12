@@ -61,17 +61,15 @@ ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836,
 ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
---------------------------------- SUPER RARES ---------------------------------
+--------------------------------- ELITE RARES ---------------------------------
 -------------------------------------------------------------------------------
 
-local SuperRare =
-    Class('SuperRare', Rare, {scale = 1.8, group = ns.groups.RARE})
+local RareElite = Class('RareElite', Rare, {
+    rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
+    sublabel = L['elite_loot_385']
+})
 
-function SuperRare.getters:icon()
-    return self:IsCollected() and 'star_skull_w' or 'star_skull_b'
-end
-
-ns.node.SuperRare = SuperRare
+ns.node.RareElite = RareElite
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
@@ -230,12 +228,15 @@ ns.DRAGON_CUSTOMIZATIONS = {
         FinnedEars = Item({item = 197595, quest = 69799}),
         LargeHeadFin = Item({item = 197589, quest = 69793}),
         SweptHorns = Item({item = 197606, quest = 69810}),
+        SpikedBack = Item({item = 197586, quest = 69790}),
         ClusterHorns = Item({item = 197602, quest = 69806})
     },
     HighlandDrake = {
+        CrestedBrow = Item({item = 197100, quest = 69301}),
         FinnedBack = Item({item = 197098, quest = 69299}),
         ManedHead = Item({item = 197111, quest = 69312}),
         SpikedClubTail = Item({item = 197150, quest = 69351}),
+        StripedPattern = Item({item = 197138, quest = 69339}),
         TanHorns = Item({item = 197121, quest = 69322}),
         ToothyMouth = Item({item = 197135, quest = 69336})
     },
@@ -436,22 +437,6 @@ local PrettyNeat = Class('PrettyNeat', Collectible, {
 }) -- That's Pretty Neat!
 
 ns.node.PrettyNeat = PrettyNeat
-
--------------------------------------------------------------------------------
--------------------------- FRAMING A NEW PERSPECTIVE --------------------------
--------------------------------------------------------------------------------
-
-local NewPerspective = Class('NewPerspective', Collectible, {
-    icon = 1109100,
-    note = L['new_perspective_note'],
-    group = ns.groups.NEW_PERSPECTIVE
-}) -- Framing a New Perspective
-
-function NewPerspective.getters:rewards()
-    return {Achievement({id = 16634, criteria = self.criteria})}
-end
-
-ns.node.NewPerspective = NewPerspective
 
 -------------------------------------------------------------------------------
 ------------------------------ A LEGENDARY ALBUM ------------------------------
