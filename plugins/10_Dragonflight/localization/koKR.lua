@@ -196,6 +196,8 @@ L['dreamguard_note'] = nil
 L['options_icons_dreamguard'] = nil
 L['options_icons_dreamguard_desc'] = nil
 
+L['khadin_note'] = nil
+L['the_great_swog_note'] = nil
 L['tome_of_polymoph_duck'] = nil
 
 -------------------------------------------------------------------------------
