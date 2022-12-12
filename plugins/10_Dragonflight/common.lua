@@ -233,7 +233,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         ClusterHorns = Item({item = 197602, quest = 69806})
     },
     HighlandDrake = {
-        ClubTail = Item({item = 197149, quest = nil}),
+        ClubTail = Item({item = 197149, quest = 69350}),
         CrestedBrow = Item({item = 197100, quest = 69301}),
         FinnedBack = Item({item = 197098, quest = 69299}),
         ManedHead = Item({item = 197111, quest = 69312}),
