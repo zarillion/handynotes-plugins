@@ -204,6 +204,8 @@ L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefeh
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinnen für den Erfolg {achievement:16574} an.'
 
+L['khadin_note'] = nil
+L['the_great_swog_note'] = nil
 L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem |cFFFFFD00Manastürmen für Anfänger|r Buch, um die Quest abzuschließen.'
 
 -------------------------------------------------------------------------------

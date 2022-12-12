@@ -204,6 +204,8 @@ L['dreamguard_note'] = 'Target the Dreamguard and ' .. ns.color.Orange('/sleep')
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {achievement:16574}.'
 
+L['khadin_note'] = 'Exchange {item:191784} for profession knowledge.'
+L['the_great_swog_note'] = 'Exchange {item:199338}, {item:199339} and {item:199340} for {item:202102}.'
 L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact with the |cFFFFFD00Manastorming For Beginners|r book to complete the quest.'
 
 -------------------------------------------------------------------------------

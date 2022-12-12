@@ -205,6 +205,8 @@ L['dreamguard_note'] = 'Возьмите в цель Изумрудного Ст
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Отображать места Изумрудных Стражников для {achievement:16574}'
 
+L['khadin_note'] = nil
+L['the_great_swog_note'] = nil
 L['tome_of_polymoph_duck'] = nil
 
 -------------------------------------------------------------------------------

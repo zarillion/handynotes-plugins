@@ -204,6 +204,8 @@ L['dreamguard_note'] = '目标为梦境防御者并 ' .. ns.color.Orange('/睡�
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境防御者的位置。'
 
+L['khadin_note'] = nil
+L['the_great_swog_note'] = nil
 L['tome_of_polymoph_duck'] = '使用 {spell:1953} 进入洞穴并与 |cFFFFFD00法力风暴初学指南|r 书互动以完成任务。'
 
 -------------------------------------------------------------------------------
