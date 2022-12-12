@@ -84,7 +84,7 @@ L['options_icons_legendary_album_desc'] = '显示 {achievement:16570} 成就中�
 L['brackenhide_rare_note'] = '这些稀有以10分钟计时按固定轮次 {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 出现。'
 L['fisherman_tinnak_note'] = '收集 |cFFFFFD00破损的鱼竿|r，|cFFFFFD00扯烂的渔网|r 和 |cFFFFFD00旧鱼叉|r 后稀有出现。'
 L['spellwrought_snowman_note'] = '收集10个 {npc:193424} 并将它们带到 {npc:193242}。'
-L['trilvarus_loreweaver_note'] = '收集 |cFFFFFD00歌声碎片|r 即可获得 {spell:382076} 并使用 |cFFFFFD00未知焦点|r 后稀有出现。'
+L['trilvarus_loreweaver_note'] = '收集 |cFFFFFD00吟歌碎片|r 即可获得 {spell:382076} 并使用 |cFFFFFD00未充能的法器|r 后稀有出现。'
 
 L['breezebiter_note'] = '飞到天上把他拉下来，飞到他身边。'
 
@@ -204,8 +204,8 @@ L['dreamguard_note'] = '目标为梦境防御者并 ' .. ns.color.Orange('/睡�
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境防御者的位置。'
 
-L['khadin_note'] = nil
-L['the_great_swog_note'] = nil
+L['khadin_note'] = '将 {item:191784} 换成专业知识。'
+L['the_great_swog_note'] = '将 {item:199338}、{item:199339} 和 {item:199340} 换成 {item:202102}。'
 L['tome_of_polymoph_duck'] = '使用 {spell:1953} 进入洞穴并与 |cFFFFFD00法力风暴初学指南|r 书互动以完成任务。'
 
 -------------------------------------------------------------------------------

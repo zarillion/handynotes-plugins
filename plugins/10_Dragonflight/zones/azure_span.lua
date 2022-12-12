@@ -368,7 +368,7 @@ map.nodes[55033405] = RareElite({
 
 map.nodes[70222532] = Rare({
     id = 193196,
-    quest = 69861, -- 74087 ?
+    quest = 74087,
     note = L['trilvarus_loreweaver_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56114})
