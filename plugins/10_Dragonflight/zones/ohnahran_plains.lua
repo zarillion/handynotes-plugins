@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Flag = ns.node.Flag
+local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
@@ -1376,3 +1377,15 @@ map.nodes[66333211] = Collectible({
     },
     pois = {POI({66453173})}
 }) -- Tome of Polymorph: Duck
+
+map.nodes[82207320] = NPC({
+    id = 191608,
+    icon = 4638725,
+    note = L['the_great_swog_note']
+}) -- The Great Swog
+
+map.nodes[51803300] = NPC({ --
+    id = 193110,
+    icon = 4643982,
+    note = L['khadin_note']
+}) -- Khadin

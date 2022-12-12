@@ -204,6 +204,8 @@ L['dreamguard_note'] = '點選夢境守衛並且使用表情符號 ' .. ns.color
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的夢境守衛位置'
 
+L['khadin_note'] = nil
+L['the_great_swog_note'] = nil
 L['tome_of_polymoph_duck'] = nil
 
 -------------------------------------------------------------------------------
