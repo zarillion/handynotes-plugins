@@ -6,6 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['elite_loot_385'] = nil
 L['gem_cluster_note'] = '필요한 아이템은 용비늘 원전대 영예 21이 되면 원정대 정찰병의 짐과 흐트러진 흙에서 얻을 수 있습니다.'
 
 L['options_icons_bonus_boss'] = nil
@@ -61,6 +62,7 @@ L['options_icons_squirrels_desc'] = '{achievement:16729} 업적을 위한 동물
 
 L['hnj_sublabel'] = '해당 지역에서 시카르 사냥의 제전 진행 필요'
 L['hnj_western_azure_span_hunt'] = '죽은 나무 꼭대기에 있음'
+L['hnj_northern_thaldraszus_hunt'] = nil
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = '{achievement:16542} 업적을 위한 {npc:194590}의 위치를 표시합니다.'
 
@@ -202,6 +204,7 @@ L['tome_of_polymoph_duck'] = nil
 
 L['ancient_protector_note'] = nil
 L['blightpaw_note'] = nil
+L['corrupted_proto_dragon_note'] = nil
 L['weeping_vilomah_note'] = nil
 L['woofang_note'] = nil
 
