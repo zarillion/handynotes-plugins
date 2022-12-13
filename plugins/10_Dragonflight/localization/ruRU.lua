@@ -216,7 +216,7 @@ L['the_great_swog_note'] = 'Обменять {item:199338}, {item:199339} и {it
 
 L['ancient_protector_note'] = nil
 L['blightpaw_note'] = 'Поговорите с {npc:193222} поблизости и согласитесь помочь ему.'
-L['corrupted_proto_dragon_note'] = nil
+L['corrupted_proto_dragon_note'] = 'Осмотрите |cFFFFFD00Оскверненное яйцо дракона|r, чтобы вызвать редкого монстра.'
 L['weeping_vilomah_note'] = 'Поговорите с {npc:193206}, чтобы призвать редкого монстра.'
 L['woofang_note'] = 'Погладьте {npc:193156}, чтобы призвать редкого монстра.'
 
