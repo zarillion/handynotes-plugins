@@ -130,7 +130,7 @@ map.nodes[14053096] = RareElite({
 
 map.nodes[16622798] = Rare({
     id = 193259,
-    quest = nil,
+    quest = 73870,
     rewards = {
         Achievement({id = 16678, criteria = 56108}),
         Achievement({id = 16446, criteria = 3, note = L['pretty_neat_note']}),
@@ -280,9 +280,9 @@ map.nodes[58095471] = Rare({ -- review
     }
 }) -- Mucka the Raker
 
-map.nodes[34362779] = Rare({ -- review location in cave map 2132 Kargpaw's Den
+map.nodes[20584943] = Rare({ -- review location in cave map 2132 Kargpaw's Den
     id = 193225,
-    quest = nil,
+    quest = 73887,
     note = L['in_cave'],
     rewards = {
         Achievement({id = 16678, criteria = 56107}), Toy({item = 200160}) -- Notfar's Favorite Food
