@@ -1,3 +1,8 @@
+# v20
+
+* Move polymorph duck to correct zone.
+* Update rare rewards and tracking ids.
+
 # v19
 
 * Added NPC locations for Khadin and The Great Swog.
