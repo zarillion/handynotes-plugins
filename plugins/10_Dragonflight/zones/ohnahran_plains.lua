@@ -336,6 +336,13 @@ map.nodes[72232306] = Rare({
     rewards = {Achievement({id = 16677, criteria = 56085})}
 }) -- Zerimek
 
+map.nodes[90434005] = Rare({
+    id = 193128,
+    quest = 74096,
+    note = L['blightpaw_note'],
+    rewards = {Achievement({id = 16679, criteria = 56136})}
+}) -- Blightpaw the Depraved
+
 -------------------------------------------------------------------------------
 
 -- These rares/elites are not part of the adventurer achievement for the zone
