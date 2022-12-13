@@ -101,15 +101,17 @@ map.nodes[85221544] = Rare({ -- review
 
 map.nodes[80544222] = Rare({
     id = 188095,
-    quest = nil,
+    quest = 73966,
     note = L['hunter_of_the_deep_note'],
     rewards = {Achievement({id = 16677, criteria = 56083})}
 }) -- Hunter of the Deep
 
-map.nodes[80413867] = Rare({ -- review
+map.nodes[80513869] = Rare({
     id = 188124,
-    quest = 66356,
-    rewards = {Achievement({id = 16677, criteria = 56084})}
+    quest = 73967,
+    note = L['in_cave'],
+    rewards = {Achievement({id = 16677, criteria = 56084})},
+    pois = {POI({79143656})} -- Entrance
 }) -- Irontree
 
 map.nodes[87556151] = Rare({
@@ -761,6 +763,7 @@ map.nodes[63251396] = Disturbeddirt()
 map.nodes[65868145] = Disturbeddirt()
 map.nodes[66451981] = Disturbeddirt()
 map.nodes[75003584] = Disturbeddirt()
+map.nodes[78534035] = Disturbeddirt()
 map.nodes[78782268] = Disturbeddirt()
 map.nodes[78943707] = Disturbeddirt()
 map.nodes[79013697] = Disturbeddirt()

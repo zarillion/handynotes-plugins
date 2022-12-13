@@ -280,12 +280,13 @@ map.nodes[58095471] = Rare({ -- review
     }
 }) -- Mucka the Raker
 
-map.nodes[20584943] = Rare({ -- review location in cave map 2132 Kargpaw's Den
+map.nodes[20584943] = Rare({
     id = 193225,
     quest = 73887,
-    note = L['in_cave'],
+    note = L['in_small_cave'],
     rewards = {
-        Achievement({id = 16678, criteria = 56107}), Toy({item = 200160}) -- Notfar's Favorite Food
+        Achievement({id = 16678, criteria = 56107}), --
+        Toy({item = 200160}) -- Notfar's Favorite Food
         -- Transmog({item = , slot = L['']}) -- Name
     },
     pois = {POI({34023076, 34933000})} -- Entrance

@@ -133,9 +133,12 @@ map.nodes[29935074] = RareElite({
     note = L['in_cave'],
     rewards = {
         Achievement({id = 16676, criteria = 56060}), --
+        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
         Transmog({item = 200439, slot = L['offhand']}), -- Earthpact Scepter
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 200294, slot = L['mail']}), -- Primal Chain Hauberk
+        Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
+        DC.RenewedProtoDrake.HeavyHorns, --
         DC.WindborneVelocidrake.ClubTail, --
         DC.WindborneVelocidrake.ClusterHorns, --
         DC.CliffsideWylderdrake.BlackHorns
@@ -149,7 +152,8 @@ map.nodes[31785474] = RareElite({ -- review -- required 67030
     rewards = {
         Achievement({id = 16676, criteria = 56053}),
         Achievement({id = 16496, criteria = 56053}), -- Obsidian Champion
-        Item({item = 200159, note = L['ring']}) -- Blaze Ring
+        Item({item = 200159, note = L['ring']}), -- Blaze Ring
+        Item({item = 200445, note = L['neck']}) -- Lucky Hunting Charm
     },
     pois = {POI({27735660})} -- Sabellian
 }) -- Death's Shadow
@@ -201,10 +205,12 @@ map.nodes[33127632] = RareElite({
         Achievement({id = 16446, criteria = 8, note = L['pretty_neat_note']}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200256, slot = L['offhand']}), -- Darkmaul Soul Horn
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Item({item = 200858, note = L['trinket']}), -- Plume of the Forgotten
         Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
-        Item({item = 200158, note = L['ring']}) -- Eerie Spectral Ring
+        Item({item = 200158, note = L['ring']}), -- Eerie Spectral Ring
+        DC.CliffsideWylderdrake.HornedJaw
     }
 }) -- Forgotten Gryphon
 
@@ -254,6 +260,7 @@ map.nodes[32805248] = RareElite({
     rewards = {
         Achievement({id = 16676, criteria = 56988}),
         Achievement({id = 16496, criteria = 56988}), -- Obsidian Champion
+        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
         Item({item = 200207, note = L['neck']}) -- Petrified Fungal Spores
     },
     pois = {POI({32245246})} -- Igys the Believer
@@ -343,6 +350,7 @@ map.nodes[23755724] = RareElite({ -- required 67030
     rewards = {
         Achievement({id = 16676, criteria = 56054}),
         Achievement({id = 16496, criteria = 56054}), -- Obsidian Champion
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200442, slot = L['leather']}) -- Basilisk Hide Jerkin
@@ -433,6 +441,7 @@ map.nodes[30025534] = RareElite({
     note = L['worldcarver_atir_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56052}),
+        Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 200213, slot = L['plate']}), -- Lava-Splattered Breastplate
         Item({item = 200563, note = L['trinket']}) -- Primal Ritual Shell
     }
