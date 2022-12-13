@@ -61,7 +61,7 @@ map.nodes[59075874] = RareElite({
     pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
 }) -- Ancient Protector
 
-map.nodes[90434005] = Rare({
+map.nodes[31097121] = Rare({
     id = 193128,
     quest = 74096,
     note = L['blightpaw_note'],
