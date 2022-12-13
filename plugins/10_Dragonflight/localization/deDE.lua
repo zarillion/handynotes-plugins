@@ -125,6 +125,8 @@ L['snowclaw_cub_note_item1'] = 'Sammel 3x {item:197744} von verschiedene {npc:18
 L['snowclaw_cub_note_item2'] = 'Kaufe 1x {item:198356} von {npc:193310} in |cFFFFFD00Die Küste des Ewachens|r.'
 L['snowclaw_cub_note_end'] = ns.color.Orange('Alle Gegenstände können im Auktionshaus ersteigert werden. Das ist besonders hilfreich, da du bei {npc:193310} den {item:198356} nur mit einer {item:199215} kaufen kannst.') .. '\n\nSobald du den Titel angelegt hast, biete {npc:196768} die Gegenstände an, um dein Haustier zu erhalten.' .. ns.color.Red('\n\nBUG: Der Titel könnte verschwinden.')
 
+L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem |cFFFFFD00Manastürmen für Anfänger|r Buch, um die Quest abzuschließen.'
+
 L['temperamental_skyclaw_note'] = [[
 Sammel (oder kaufe im Auktionshaus):
 
@@ -206,7 +208,6 @@ L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinne
 
 L['khadin_note'] = 'Tausche {item:191784} gegen Berufswissen ein.'
 L['the_great_swog_note'] = 'Tausche {item:199338}, {item:199339} oder {item:199340} gegen die jeweiligen Flunkschatzbeutel ein.'
-L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem |cFFFFFD00Manastürmen für Anfänger|r Buch, um die Quest abzuschließen.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

@@ -125,6 +125,8 @@ L['snowclaw_cub_note_item1'] = '从 |cFFFFFD00觉醒海岸|r 周围的各种 {np
 L['snowclaw_cub_note_item2'] = '从 |cFFFFFD00觉醒海岸|r 的 {npc:193310} 购买1个 {item:198356}。'
 L['snowclaw_cub_note_end'] = ns.color.Orange('所有物品都可以从拍卖行购买。如果获得从 {npc:193310} 购买物品所需的 {item:199215} 有难度，这将特别有用。') .. '\n\n带好头衔后，将所有4件物品提供给 {npc:196768} 以获得的宠物。' .. ns.color.Red('\n\n错误：头衔可能会消失，等待修复。')
 
+L['tome_of_polymoph_duck'] = '使用 {spell:1953} 进入洞穴并与 |cFFFFFD00法力风暴初学指南|r 书互动以完成任务。'
+
 L['temperamental_skyclaw_note'] = [[
 收集（或在拍卖行购买）：
 
@@ -206,7 +208,6 @@ L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境
 
 L['khadin_note'] = '将 {item:191784} 换成专业知识。'
 L['the_great_swog_note'] = '将 {item:199338}、{item:199339} 和 {item:199340} 换成 {item:202102}。'
-L['tome_of_polymoph_duck'] = '使用 {spell:1953} 进入洞穴并与 |cFFFFFD00法力风暴初学指南|r 书互动以完成任务。'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

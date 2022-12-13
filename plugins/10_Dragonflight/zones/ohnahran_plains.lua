@@ -1367,17 +1367,6 @@ map.nodes[57473193] = Ohnahra()
 
 -------------------------------------------------------------------------------
 
-map.nodes[66333211] = Collectible({
-    label = '{item:200205}',
-    icon = 133739,
-    note = L['tome_of_polymoph_duck'],
-    class = 'MAGE',
-    rewards = {
-        Item({item = 200205}) -- Tome of Polymoph: Duck
-    },
-    pois = {POI({66453173})}
-}) -- Tome of Polymorph: Duck
-
 map.nodes[82207320] = NPC({
     id = 191608,
     icon = 4638725,

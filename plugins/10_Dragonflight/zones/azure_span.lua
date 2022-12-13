@@ -1208,6 +1208,17 @@ end
 
 map.nodes[67431840] = SnowclawCub()
 
+map.nodes[66333211] = Collectible({
+    label = '{item:200205}',
+    icon = 133739,
+    note = L['tome_of_polymoph_duck'],
+    class = 'MAGE',
+    rewards = {
+        Item({item = 200205}) -- Tome of Polymoph: Duck
+    },
+    pois = {POI({66453173})}
+}) -- Tome of Polymorph: Duck
+
 -------------------------------------------------------------------------------
 ---------------------------- TEMPERAMENTAL SKYCLAW ----------------------------
 -------------------------------------------------------------------------------

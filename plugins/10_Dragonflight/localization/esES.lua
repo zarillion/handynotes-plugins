@@ -126,6 +126,8 @@ L['snowclaw_cub_note_item1'] = 'Despoja 3x {item:197744} de varios {npc:182559} 
 L['snowclaw_cub_note_item2'] = 'Compra 1x {item:198356} del {npc:193310} en las |cFFFFFD00Orillas del Despertar|r.'
 L['snowclaw_cub_note_end'] = ns.color.Orange('Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}.') .. '\n\nUna vez tengas equipado el título ofrece los 4 objetos al {npc:196768} para recibir su mascota.' .. ns.color.Red('\n\nBUG: El título puede desaparecer. Pendiente de un fix.')
 
+L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro |cFFFFFD00Tormentas de Maná para Principiantes|r para completar la misión.'
+
 L['temperamental_skyclaw_note'] = [[
 Recoge (o compra en la casa de subastas):
 
@@ -207,7 +209,6 @@ L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños pa
 
 L['khadin_note'] = 'Intercambia una {item:191784} por conocimiento de la profesión.'
 L['the_great_swog_note'] = 'Intercambia {item:199338}, {item:199339} y {item:199340} por un {item:202102}.'
-L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro |cFFFFFD00Tormentas de Maná para Principiantes|r para completar la misión.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

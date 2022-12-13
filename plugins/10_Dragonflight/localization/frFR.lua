@@ -126,6 +126,8 @@ L['snowclaw_cub_note_item1'] = 'Récupérez 3x {item:197744} sur divers {npc:182
 L['snowclaw_cub_note_item2'] = 'Achetez 1x {item:198356} à la {npc:193310} aux |cFFFFFD00Rivages de l’Éveil|r.'
 L['snowclaw_cub_note_end'] = ns.color.Orange('Tous les objets peuvent être achetés à l\'hôtel des ventes. Ceci est particulièrement utile si vous n\'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.') .. '\n\nUne fois le titre équipé, offrez les 4 objets à l\'{npc:196768} pour recevoir votre mascotte.'
 
+L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre |cFFFFFD00La tempête de mana pour les novices|r pour terminer la quête.'
+
 L['temperamental_skyclaw_note'] = [[
 Rassemblez (ou achetez à l'hôtel des ventes) :
 
@@ -207,7 +209,6 @@ L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêve
 
 L['khadin_note'] = 'Échangez les {item:191784} contre de la connaissance de métiers.'
 L['the_great_swog_note'] = 'Échangez des {item:199338}, {item:199339} et {item:199340} contre des {item:202102}.'
-L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre |cFFFFFD00La tempête de mana pour les novices|r pour terminer la quête.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

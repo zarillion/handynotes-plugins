@@ -125,6 +125,8 @@ L['snowclaw_cub_note_item1'] = nil
 L['snowclaw_cub_note_item2'] = nil
 L['snowclaw_cub_note_end'] = nil
 
+L['tome_of_polymoph_duck'] = nil
+
 L['temperamental_skyclaw_note'] = [[
 收集 (或從拍賣場購買):
 
@@ -206,7 +208,6 @@ L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的
 
 L['khadin_note'] = nil
 L['the_great_swog_note'] = nil
-L['tome_of_polymoph_duck'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
