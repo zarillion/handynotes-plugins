@@ -1,3 +1,8 @@
+# v21
+
+* Added Blightpaw the Depraved rare.
+* Update rare rewards and tracking ids.
+
 # v20
 
 * Move polymorph duck to correct zone.
