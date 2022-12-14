@@ -1123,7 +1123,7 @@ map.nodes[72938447] = ns.node.LegendaryCharacter({
     rewards = {Achievement({id = 16570, criteria = 55772})}
 }) -- Elder Clearwater
 
-map.nodes[51985701] = ns.node.LegendaryCharacter({
+map.nodes[48124748] = ns.node.LegendaryCharacter({
     id = 63721,
     rewards = {Achievement({id = 16570, criteria = 55774})}
 }) -- Nat Pagle
