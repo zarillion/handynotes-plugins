@@ -1117,7 +1117,7 @@ map.nodes[58672073] = ns.node.PrettyNeat({
 ------------------------------ A LEGENDARY ALBUM ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[72938447] = ns.node.LegendaryCharacter({
+map.nodes[73358131] = ns.node.LegendaryCharacter({
     id = 38294,
     icon = 1109168,
     rewards = {Achievement({id = 16570, criteria = 55772})}
