@@ -350,7 +350,7 @@ L['slumbering_worldsnail_note1'] = [[
 
 L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: If you die you will lose your membership debuff. Either purchase a new membership from {npc:193310} for 20x {item:202173} before you die or you need to turn in more keys for a chance at a new membership from the chest.')
 
-L['magmashell_note'] = 'Collect {item:201883} from {npc:193138} around |cffffff00Obsidian Citadel|r and bring it to the {npc:199010}.\n\n' .. ns.color.Orange('There is a 20 second spell channel while in the lava to obtain the mount so bringing a healer or something like {item:200116} is recommended.')
+L['magmashell_note'] = 'Loot {item:201883} from {npc:193138} around |cffffff00Obsidian Citadel|r and bring it to the {npc:199010}.\n\n' .. ns.color.Orange('There is a 20 second spell channel while in the lava to obtain the mount so bringing a healer or something like {item:200116} is recommended.')
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Display the location of battle pets for {achievement:16519}.'
