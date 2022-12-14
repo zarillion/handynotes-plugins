@@ -312,7 +312,7 @@ map.nodes[58596822] = Rare({
 
 map.nodes[30206260] = Rare({
     id = 193140,
-    quest = 72364, -- 74091
+    quest = 74091,
     note = L['zarizz_note'],
     rewards = {Achievement({id = 16677, criteria = 56078})}
 }) -- Zarizz
