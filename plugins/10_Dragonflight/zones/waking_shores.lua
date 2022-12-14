@@ -1640,17 +1640,15 @@ map.nodes[34734672] = Collectible({
 ---------------------------------- MAGMASHELL ---------------------------------
 -------------------------------------------------------------------------------
 
--- L['magmashell_note'] = 'Collect {item:201883} from {npc:193138} around |cffffff00Obsiddian Citadel|r and bring it to the {npc:199010}.\n\n' .. ns.color.Orange('There is a 20 second spell channel while in the lava to obtain the mount so bringing a healer or something like {item:200116} is recommended.')
-
--- map.nodes[71102510] = Collectible({
---     id = 199010,
---     icon = 3996704,
---     note = L['magmashell_note'],
---     requires = ns.requirement.Item(201883), -- Empty Magma Shell
---     rewards = {
---         Mount({item = 192777, id = 1469}) -- Magmashell
---     },
---     pois = {
---         POI({21806680, 22406860, 22606880}) -- Lavaslurper locations
---     }
--- }) -- Magmashell
+map.nodes[71102510] = Collectible({
+    id = 199010,
+    icon = 3996704,
+    note = L['magmashell_note'],
+    requires = ns.requirement.Item(201883), -- Empty Magma Shell
+    rewards = {
+        Mount({item = 192777, id = 1469}) -- Magmashell
+    },
+    pois = {
+        POI({21806680, 22406860, 22606880}) -- Lavaslurper locations
+    }
+}) -- Magmashell

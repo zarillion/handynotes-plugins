@@ -341,6 +341,8 @@ L['all_sides_of_the_story_veritistrasz_note'] = nil
 L['slumbering_worldsnail_note1'] = nil
 L['slumbering_worldsnail_note2'] = nil
 
+L['magmashell_note'] = nil
+
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Отображение местоположения боевых питомцев для {achievement:16519}.'
 L['shyfly_note'] = 'Вы должны выполнить задание {quest:70853}, чтобы увидеть {npc:189102}.'

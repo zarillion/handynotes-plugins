@@ -340,6 +340,8 @@ L['all_sides_of_the_story_veritistrasz_note'] = nil
 L['slumbering_worldsnail_note1'] = nil
 L['slumbering_worldsnail_note2'] = ns.color.Orange('注意: 如果你死了你會失去你的會員減益. 要嘛是你在死前和 {npc:193310} 使用20個{item:202173}購買新的會員證或是你需要繳交更多的鑰匙來有機率從箱子裡取得新的會員證')
 
+L['magmashell_note'] = nil
+
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = '顯示成就 {achievement:16519} 所需的戰寵位置'
 L['shyfly_note'] = '你必須要正在做 {quest:70853} 任務才能看到 {npc:189102}.'
