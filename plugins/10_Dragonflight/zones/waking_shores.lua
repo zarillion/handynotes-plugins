@@ -988,6 +988,10 @@ map.nodes[58124968] = Disturbeddirt()
 map.nodes[61815501] = Disturbeddirt()
 map.nodes[70746975] = Disturbeddirt()
 map.nodes[71863677] = Disturbeddirt()
+map.nodes[72715976] = Disturbeddirt({
+    note = L['in_small_cave'],
+    requires = ns.requirement.Profession(186)
+})
 map.nodes[75580798] = Disturbeddirt()
 map.nodes[78502992] = Disturbeddirt()
 
@@ -1023,6 +1027,11 @@ map.nodes[59145368] = Scoutpack()
 map.nodes[61886605] = Scoutpack()
 map.nodes[66505198] = Scoutpack()
 map.nodes[68225004] = Scoutpack()
+map.nodes[72155969] = Scoutpack({
+    note = L['in_small_cave'],
+    requires = ns.requirement.Profession(186)
+})
+map.nodes[72595687] = Scoutpack()
 map.nodes[80903776] = Scoutpack({note = L['in_small_cave']})
 map.nodes[82055012] = Scoutpack()
 
