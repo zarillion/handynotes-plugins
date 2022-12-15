@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = ns.color.Orange('Ce rare peut donner des objets allant jusqu\'à l\'ilv 385 !')
+L['elite_loot_385'] = ns.color.Orange('Ce rare peut laisser tomber du butin ayant un ilvl plus élevé que la normale !')
 L['gem_cluster_note'] = 'L\'objet requis peut être trouvé au Renom 21 avec l\'Expédition du Dracaret dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 
 L['options_icons_bonus_boss'] = 'Élites bonus'
