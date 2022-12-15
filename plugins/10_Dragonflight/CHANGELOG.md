@@ -1,3 +1,9 @@
+# v22
+
+* Changed ilvl 385 notes to just say "higher".
+* Added a node for the new Magmashell mount.
+* Added some initial koKR translations for Dragonflight (thanks soaa!)
+
 # v21
 
 * Added Blightpaw the Depraved rare.
