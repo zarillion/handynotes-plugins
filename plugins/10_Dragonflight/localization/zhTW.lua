@@ -6,7 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = ns.color.Orange('這個稀有有機會掉落最高到裝等385的拾取!')
+L['elite_loot_385'] = ns.color.Orange('這個稀有有機會掉落高裝等的拾取!')
 L['gem_cluster_note'] = '需要的物品可以在龍鱗遠征隊名望21後, 在遠征隊斥侯包和挖過的土找到'
 
 L['options_icons_bonus_boss'] = '獎勵精英'
@@ -349,7 +349,7 @@ L['slumbering_worldsnail_note1'] = [[
     5. 蒐集1000個 {item:202173} 來購買 {item:192786}.]]
 L['slumbering_worldsnail_note2'] = ns.color.Orange('注意: 如果你死了你會失去你的會員減益. 要嘛是你在死前和 {npc:193310} 使用20個{item:202173}購買新的會員證或是你需要繳交更多的鑰匙來有機率從箱子裡取得新的會員證')
 
-L['magmashell_note'] = nil
+L['magmashell_note'] = '從 |cFFFFFD00黑曜龍堡|r 附近的 {npc:193138} 身上拾取 {item:201883} 並帶給 {npc:199010}.\n\n' .. ns.color.Orange('要取得坐騎需要在熔岩上引導1個20秒的法術, 推薦找個治療者或是帶著 {item:200116}.')
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = '顯示成就 {achievement:16519} 所需的戰寵位置'
