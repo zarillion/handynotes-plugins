@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = ns.color.Orange('Ce rare peut donner des objets allant jusqu\'à l\'ilv 385 !')
+L['elite_loot_385'] = ns.color.Orange('Ce rare peut laisser tomber du butin ayant un ilvl plus élevé que la normale !')
 L['gem_cluster_note'] = 'L\'objet requis peut être trouvé au Renom 21 avec l\'Expédition du Dracaret dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 
 L['options_icons_bonus_boss'] = 'Élites bonus'
@@ -124,7 +124,9 @@ L['snowman_note'] = 'Il y a trois {npc:197599s} dans la zone (elles ont pu être
 L['snowclaw_cub_note_start'] = 'Vous devez terminer la suite de quêtes {quest:67094} donnée par {npc:192522} à |cFFFFFD00Valdrakken|r pour obtenir le titre de |cFFFFFD00Dryade honoraire|r.\n\nRassemblez les objets suivants :'
 L['snowclaw_cub_note_item1'] = 'Récupérez 3x {item:197744} sur divers {npc:182559} aux |cFFFFFD00Rivages de l’Éveil|r.'
 L['snowclaw_cub_note_item2'] = 'Achetez 1x {item:198356} à la {npc:193310} aux |cFFFFFD00Rivages de l’Éveil|r.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('Tous les objets peuvent être achetés à l\'hôtel des ventes. Ceci est particulièrement utile si vous n\'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.') .. '\n\nUne fois le titre équipé, offrez les 4 objets à l\'{npc:196768} pour recevoir votre mascotte.'
+L['snowclaw_cub_note_end'] = ns.color.Orange('Tous les objets peuvent être achetés à l\'hôtel des ventes. Ceci est particulièrement utile si vous n\'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.') .. '\n\nUne fois le titre |cFFFFFD00Dryade honoraire|r équipé, offrez les 4 objets à l\'{npc:196768} pour recevoir votre mascotte.'
+
+L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre |cFFFFFD00La tempête de mana pour les novices|r pour terminer la quête.'
 
 L['temperamental_skyclaw_note'] = [[
 Rassemblez (ou achetez à l'hôtel des ventes) :
@@ -205,9 +207,8 @@ L['dreamguard_note'] = 'Ciblez le Garde-rêve et ' .. ns.color.Orange('/dormir')
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêves pour {achievement:16574}'
 
-L['khadin_note'] = nil
-L['the_great_swog_note'] = nil
-L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre |cFFFFFD00La tempête de mana pour les novices|r pour terminer la quête.'
+L['khadin_note'] = 'Échangez les {item:191784} contre de la connaissance de métiers.'
+L['the_great_swog_note'] = 'Échangez des {item:199338}, {item:199339} et {item:199340} contre des {item:202102}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -349,6 +350,8 @@ L['slumbering_worldsnail_note1'] = [[
 5. Rassemblez 1000x {item:202173} pour acheter la {item:192786}.]]
 
 L['slumbering_worldsnail_note2'] = ns.color.Orange('Note : Si vous mourrez, vous perdrez votre debuff d\'abonnement. Vous pouvez acheter un nouvel abonnement auprès de {npc:193310} pour 20x {item:202173} avant de mourir ou bien vous devrez apporter d\'autres clés pour avoir une chance d\'obtenir un nouvel abonnement dans le coffre.')
+
+L['magmashell_note'] = 'Récupérez une {item:201883} sur les {npc:193138} dans la |cFFFFFD00Citadelle d\'Obsidienne|r et apportez-la à l\'{npc:199010}.\n\n' .. ns.color.Orange('Il y aura un sort canalisé pendant 20 secondes une fois dans la lave pour obtenir la monture, il est donc recommandé de faire appel à un soigneur ou quelque chose comme la {item:200116}.')
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:16519}.'

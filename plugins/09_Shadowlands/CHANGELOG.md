@@ -1,3 +1,10 @@
+# v51
+
+* Added a new "Add group to TomTom" menu option.
+* Added LibUIDropDownMenu to try and combat UI taint reports.
+* Fixed a bug preventing the settings from opening with a maximized world map.
+* Removed Dragonflight pre-patch rewards.
+
 # v50
 
 * Fix tooltip rendering for Storm pre-patch events.

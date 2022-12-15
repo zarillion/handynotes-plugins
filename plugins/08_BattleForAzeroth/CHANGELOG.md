@@ -1,3 +1,9 @@
+# v12
+
+* Added a new "Add group to TomTom" menu option.
+* Added LibUIDropDownMenu to try and combat UI taint reports.
+* Fixed a bug preventing the settings from opening with a maximized world map.
+
 # v11
 
 * Compatibility updates for Dragonflight.

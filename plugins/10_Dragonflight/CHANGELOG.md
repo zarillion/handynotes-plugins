@@ -1,3 +1,20 @@
+# v21
+
+* Added Blightpaw the Depraved rare.
+* Update rare rewards and tracking ids.
+
+# v20
+
+* Move polymorph duck to correct zone.
+* Update rare rewards and tracking ids.
+
+# v19
+
+* Added NPC locations for Khadin and The Great Swog.
+* Added pet locations for Dragon Isles Safari.
+* Changed "super rares" to use a special label instead of an icon.
+* Update to rare rewards and nodes.
+
 # v18
 
 * Use a different icon for "super rares".

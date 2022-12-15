@@ -125,6 +125,8 @@ L['snowclaw_cub_note_item1'] = nil
 L['snowclaw_cub_note_item2'] = nil
 L['snowclaw_cub_note_end'] = nil
 
+L['tome_of_polymoph_duck'] = nil
+
 L['temperamental_skyclaw_note'] = nil
 
 -------------------------------------------------------------------------------
@@ -198,7 +200,6 @@ L['options_icons_dreamguard_desc'] = nil
 
 L['khadin_note'] = nil
 L['the_great_swog_note'] = nil
-L['tome_of_polymoph_duck'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -325,6 +326,8 @@ L['all_sides_of_the_story_veritistrasz_note'] = nil
 L['slumbering_worldsnail_note1'] = nil
 
 L['slumbering_worldsnail_note2'] = nil
+
+L['magmashell_note'] = nil
 
 L['options_icons_safari'] = nil
 L['options_icons_safari_desc'] = nil

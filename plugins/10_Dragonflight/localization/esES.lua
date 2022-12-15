@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = ns.color.Orange('¡Este raro puede soltar botín de hasta nivel 385!')
+L['elite_loot_385'] = ns.color.Orange('¡Este raro puede soltar botín de un nivel superior!')
 L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la Expedición Dragontina en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'
@@ -121,10 +121,12 @@ L['river_rapids_wrangler_note'] = 'Habla con {npc:186157} y selecciona "Me gusta
 L['seeing_blue_note'] = 'Vuela desde lo alto del Archivo Azur a la Galería Cobalto sin aterrizar.'
 L['snowman_note'] = 'Hay tres {npc:197599} reposando en la zona (podrían haber sido movidas por otros jugadores). Hazlas rodar a los dos críos, {npc:197838} y {npc:197839}.\nConseguirás el logro cuando las bolas de nieve tengan los tamaños correctos.'
 
-L['snowclaw_cub_note_start'] = 'Tienes que completar la cadena de misiones {quest:67094} que ofrece {npc:192522} en |cFFFFFD00Valdrakken|r para coseguir el título |cFFFFFD00Dríade Honoraria|r.\n\nReune los siguientes objetos:'
+L['snowclaw_cub_note_start'] = 'Tienes que completar la cadena de misiones {quest:67094} que ofrece {npc:192522} en |cFFFFFD00Valdrakken|r para conseguir el título |cFFFFFD00Dríade Honoraria|r.\n\nReune los siguientes objetos:'
 L['snowclaw_cub_note_item1'] = 'Despoja 3x {item:197744} de varios {npc:182559} alrededor de las |cFFFFFD00Orillas del Despertar|r.'
 L['snowclaw_cub_note_item2'] = 'Compra 1x {item:198356} del {npc:193310} en las |cFFFFFD00Orillas del Despertar|r.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}.') .. '\n\nUna vez tengas equipado el título ofrece los 4 objetos al {npc:196768} para recibir su mascota.' .. ns.color.Red('\n\nBUG: El título puede desaparecer. Pendiente de un fix.')
+L['snowclaw_cub_note_end'] = ns.color.Orange('Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}.') .. '\n\nUna vez tengas equipado el título |cFFFFFD00Dríade Honoraria|r ofrece los 4 objetos al {npc:196768} para recibir su mascota.' .. ns.color.Red('\n\nBUG: El título puede desaparecer. Pendiente de un fix.')
+
+L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro |cFFFFFD00Tormentas de Maná para Principiantes|r para completar la misión.'
 
 L['temperamental_skyclaw_note'] = [[
 Recoge (o compra en la casa de subastas):
@@ -205,9 +207,8 @@ L['dreamguard_note'] = 'Selecciona al Guardasueños y teclea' .. ns.color.Orange
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños para el logro {achievement:16574}.'
 
-L['khadin_note'] = nil
-L['the_great_swog_note'] = nil
-L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro |cFFFFFD00Tormentas de Maná para Principiantes|r para completar la misión.'
+L['khadin_note'] = 'Intercambia una {item:191784} por conocimiento de la profesión.'
+L['the_great_swog_note'] = 'Intercambia {item:199338}, {item:199339} y {item:199340} por un {item:202102}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -349,6 +350,8 @@ L['slumbering_worldsnail_note1'] = [[
 5. Recoge 1000x {item:202173} para comprar el {item:192786}.]]
 
 L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: Si mueres perderás el debuff de membresía. Compre un nuevo título de miembro a {npc:193310} por 20x {item:202173} antes de morir o necesitarás entregar más llaves para la oportunidad de sacar un título de miembro del alijo.')
+
+L['magmashell_note'] = 'Despoja {item:201883} de los {npc:193138} alrededor de la |cffffff00Ciudadela Obsidiana|r y llévaselo al {npc:199010}.\n\n' .. ns.color.Orange('Haciendo click en el caracol se canalizará un hechizo durante 20 segundos después de lo cuales conseguirás la montura. Muy recomendable traer a un amigo sanador o usar el juguete {item:200116}.')
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:16519}.'

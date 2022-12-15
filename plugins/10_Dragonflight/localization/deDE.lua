@@ -125,6 +125,8 @@ L['snowclaw_cub_note_item1'] = 'Sammel 3x {item:197744} von verschiedene {npc:18
 L['snowclaw_cub_note_item2'] = 'Kaufe 1x {item:198356} von {npc:193310} in |cFFFFFD00Die Küste des Ewachens|r.'
 L['snowclaw_cub_note_end'] = ns.color.Orange('Alle Gegenstände können im Auktionshaus ersteigert werden. Das ist besonders hilfreich, da du bei {npc:193310} den {item:198356} nur mit einer {item:199215} kaufen kannst.') .. '\n\nSobald du den Titel angelegt hast, biete {npc:196768} die Gegenstände an, um dein Haustier zu erhalten.' .. ns.color.Red('\n\nBUG: Der Titel könnte verschwinden.')
 
+L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem |cFFFFFD00Manastürmen für Anfänger|r Buch, um die Quest abzuschließen.'
+
 L['temperamental_skyclaw_note'] = [[
 Sammel (oder kaufe im Auktionshaus):
 
@@ -151,11 +153,11 @@ L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und plat
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
-L['hunter_of_the_deep_note'] = 'Klicke auf den Waffenständer und schieße auf die Fische, bis der seltene Gegner erscheint.'
+L['hunter_of_the_deep_note'] = 'Hole dir am |cFFFFFD00Speergestell|r einen Speer und wirf die Fische ab, bis der seltene Gegner erscheint.'
 L['scaleseeker_mezeri_note'] = 'Sprich mit {npc:193224} und biete ihr ein {item:194681} an und folge ihr, bis sie den seltenen Gegner enthüllt.'
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
 L['windscale_the_stormborn_note'] = 'Töte die {npc:192367}, die auf das {npc:192357} kanalisieren.'
-L['zarizz_note'] = 'Klicke und fauche ' .. ns.color.Orange('(/fauchen)') .. ' die vier {npc:193169n} an, um den seltenen Gegner erscheinen zu lassen.'
+L['zarizz_note'] = 'Visiere und fauche ' .. ns.color.Orange('(/fauchen)') .. ' die vier {npc:193169n} an, um den seltenen Gegner erscheinen zu lassen.'
 
 L['gold_swong_coin_note'] = 'In der Höhle mit {npc:191608} zu seiner rechten Seite.'
 L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
@@ -204,9 +206,8 @@ L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefeh
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinnen für den Erfolg {achievement:16574} an.'
 
-L['khadin_note'] = nil
-L['the_great_swog_note'] = nil
-L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem |cFFFFFD00Manastürmen für Anfänger|r Buch, um die Quest abzuschließen.'
+L['khadin_note'] = 'Tausche {item:191784} gegen Berufswissen ein.'
+L['the_great_swog_note'] = 'Tausche {item:199338}, {item:199339} oder {item:199340} gegen die jeweiligen Flunkschatzbeutel ein.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -326,8 +327,8 @@ L['options_icons_grand_theft_mammoth_desc'] = 'Zeigt die Positionen der {npc:194
 L['options_icons_stories'] = '{achievement:16406}'
 L['options_icons_stories_desc'] = 'Zeigt die Positionen der Quests für den Erfolg {achievement:16406} an.'
 L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Beginne die Questreihe und höre dir die Geschichte von {npc:184449} und {npc:184451} an.'
-L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'In einem kleinen Raum unter der Platform.\n\nStarte die Questreihe und höre die Geschichte von {npc:194800} und {npc:194801}. Weitere Quests werden in den folgenden 2 Wochen verfügbar sein.'
-L['all_sides_of_the_story_tarjin_note'] = 'Beginne die Questreihe mit {quest:70779}.\n{npc:196214}erzählt jede Woche eine weitere Geschichte.'
+L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'In einem kleinen Raum unter der Platform.\n\nStarte die Questreihe und höre dir die Geschichte von {npc:194800} und {npc:194801} an. Weitere Quests werden in den folgenden 2 Wochen verfügbar sein.'
+L['all_sides_of_the_story_tarjin_note'] = 'Beginne die Questreihe mit {quest:70779}.\n{npc:196214} erzählt jede Woche eine weitere Geschichte.'
 L['all_sides_of_the_story_veritistrasz_note'] = 'Beginne die Quest {quest:70132} und höre dir alle Geschichten von {npc:194076} an.\nDanach schaltest du die Quest {quest:70134} und die Folgequest {quest:70268} frei.\n\nFür die letze Quest benötigst du das {item:198661} welches in der ' .. ns.color.Yellow('Drachenfluchfestung') .. ' zu finden ist.'
 
 L['slumbering_worldsnail_note1'] = [[
@@ -342,6 +343,8 @@ L['slumbering_worldsnail_note1'] = [[
 
 L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, verlierst du den Schwächungszauber {spell:386848}. Kaufe entweder für 20x {item:202173} eine neue Mitgliedschaft bei {npc:193310} bevor du stirbst oder du musst weitere Schlüssel abgeben, um eine neue Mitgliedschaft aus der Truhe zu erhalten.')
 
+L['magmashell_note'] = 'Erbeute von {npc:193138n} einen {item:201883} in der Nähe der |cFFFFFD00Obsidianzitadelle|r und bringe es zu {npc:199010}.\n\n' .. ns.color.Orange('Es wird 20 Sekunden {spell:395626} kanalisiert, während du in der Lava bist, um das Reittier zu erhalten. Es ist empfehlenswert einen Heiler mitzubringen oder etwas wie das Spielzeug {item:200116}.')
+
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:16519} an.'
-L['shyfly_note'] = 'Du musst dich auf der Quest {quest:70853} befinden um {npc:189102} zu sehen.'
+L['shyfly_note'] = 'Du musst dich auf der Quest {quest:70853} befinden, um {npc:189102} zu sehen.'

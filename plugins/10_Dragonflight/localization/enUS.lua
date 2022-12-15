@@ -6,7 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = ns.color.Orange('This rare can drop up to ilvl 385 loot!')
+L['elite_loot_385'] = ns.color.Orange('This rare can drop higher ilvl loot!')
 L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the Dragonscale Expedition in Expedition Scout\'s Packs and Disturbed Dirts.'
 
 L['options_icons_bonus_boss'] = 'Bonus Elites'
@@ -123,7 +123,9 @@ L['snowman_note'] = 'There are three {npc:197599s} laying in the area (might hav
 L['snowclaw_cub_note_start'] = 'You must complete the {quest:67094} quest chain offered by {npc:192522} in |cFFFFFD00Valdrakken|r to obtain the |cFFFFFD00Honorary Dryad|r title.\n\nGather the following items:'
 L['snowclaw_cub_note_item1'] = 'Loot 3x {item:197744} from various {npc:182559s} around |cFFFFFD00The Waking Shores|r.'
 L['snowclaw_cub_note_item2'] = 'Purchase 1x {item:198356} from {npc:193310} in |cFFFFFD00The Waking Shores|r.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('All items can be purchased from the auction house. This is especially helpful if you do not easily have access to a {item:199215} which is required to purchase items from {npc:193310}.') .. '\n\nOnce you have the title equiped offer all 4 items to {npc:196768} to receive your pet.' .. ns.color.Red('\n\nBUG: Title may disappear pending fix.')
+L['snowclaw_cub_note_end'] = ns.color.Orange('All items can be purchased from the auction house. This is especially helpful if you do not easily have access to a {item:199215} which is required to purchase items from {npc:193310}.') .. '\n\nOnce you have the |cFFFFFD00Honorary Dryad|r title equipped offer all 4 items to {npc:196768} to receive your pet.' .. ns.color.Red('\n\nBUG: Title may disappear pending fix.')
+
+L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact with the |cFFFFFD00Manastorming For Beginners|r book to complete the quest.'
 
 L['temperamental_skyclaw_note'] = [[
 Collect (or buy in the auction house):
@@ -206,7 +208,6 @@ L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {
 
 L['khadin_note'] = 'Exchange {item:191784} for profession knowledge.'
 L['the_great_swog_note'] = 'Exchange {item:199338}, {item:199339} and {item:199340} for {item:202102}.'
-L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact with the |cFFFFFD00Manastorming For Beginners|r book to complete the quest.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -348,6 +349,8 @@ L['slumbering_worldsnail_note1'] = [[
 5. Collect 1000x {item:202173} to purchase {item:192786}.]]
 
 L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: If you die you will lose your membership debuff. Either purchase a new membership from {npc:193310} for 20x {item:202173} before you die or you need to turn in more keys for a chance at a new membership from the chest.')
+
+L['magmashell_note'] = 'Loot {item:201883} from {npc:193138} around |cffffff00Obsidian Citadel|r and bring it to the {npc:199010}.\n\n' .. ns.color.Orange('There is a 20 second spell channel while in the lava to obtain the mount so bringing a healer or something like {item:200116} is recommended.')
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Display the location of battle pets for {achievement:16519}.'

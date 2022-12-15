@@ -18,8 +18,6 @@ L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean ma
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:14731}.'
 
-L['prepatch_vendor_note'] = 'Los objetos que se compran usando la moneda {item:199211} del evento pre-parche |cFFFF8C00Tormentas Primigenias|r.'
-
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
