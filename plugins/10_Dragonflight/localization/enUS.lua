@@ -123,7 +123,7 @@ L['snowman_note'] = 'There are three {npc:197599s} laying in the area (might hav
 L['snowclaw_cub_note_start'] = 'You must complete the {quest:67094} quest chain offered by {npc:192522} in |cFFFFFD00Valdrakken|r to obtain the |cFFFFFD00Honorary Dryad|r title.\n\nGather the following items:'
 L['snowclaw_cub_note_item1'] = 'Loot 3x {item:197744} from various {npc:182559s} around |cFFFFFD00The Waking Shores|r.'
 L['snowclaw_cub_note_item2'] = 'Purchase 1x {item:198356} from {npc:193310} in |cFFFFFD00The Waking Shores|r.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('All items can be purchased from the auction house. This is especially helpful if you do not easily have access to a {item:199215} which is required to purchase items from {npc:193310}.') .. '\n\nOnce you have the |cFFFFFD00Honorary Dryad|r title equiped offer all 4 items to {npc:196768} to receive your pet.' .. ns.color.Red('\n\nBUG: Title may disappear pending fix.')
+L['snowclaw_cub_note_end'] = ns.color.Orange('All items can be purchased from the auction house. This is especially helpful if you do not easily have access to a {item:199215} which is required to purchase items from {npc:193310}.') .. '\n\nOnce you have the |cFFFFFD00Honorary Dryad|r title equipped offer all 4 items to {npc:196768} to receive your pet.' .. ns.color.Red('\n\nBUG: Title may disappear pending fix.')
 
 L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact with the |cFFFFFD00Manastorming For Beginners|r book to complete the quest.'
 
