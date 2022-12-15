@@ -350,7 +350,7 @@ L['slumbering_worldsnail_note1'] = [[
 
 L['slumbering_worldsnail_note2'] = ns.color.Orange('注意：如果你死了，将失去你的会员负面效果。要么在你死之前以20个 {item:202173} 的价格从 {npc:193310} 购买新会员资格，要么交出更多钥匙，就有机会从宝箱中获得新会员资格。')
 
-L['magmashell_note'] = '从 |cffffff00黑曜堡垒|r 周围的 {npc:193138} 拾取 {item:201883} 并将其带给 {npc:199010}。\n\n' .. ns.color.Orange('在熔岩中有一个20秒的法术通道来获得坐骑，因此建议带上治疗或类似 {item:200116} 的物品。')
+L['magmashell_note'] = '从 |cffffff00黑曜堡垒|r 周围的 {npc:193138} 拾取 {item:201883} 并将其带给 {npc:199010}。\n\n' .. ns.color.Orange('在熔岩中用一个20秒的引导法术来获得坐骑，因此建议带上治疗或类似 {item:200116} 的物品。')
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = '显示 {achievement:16519} 成就中战斗宠物的位置。'
