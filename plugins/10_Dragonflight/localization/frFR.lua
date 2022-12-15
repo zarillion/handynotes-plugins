@@ -124,7 +124,7 @@ L['snowman_note'] = 'Il y a trois {npc:197599s} dans la zone (elles ont pu être
 L['snowclaw_cub_note_start'] = 'Vous devez terminer la suite de quêtes {quest:67094} donnée par {npc:192522} à |cFFFFFD00Valdrakken|r pour obtenir le titre de |cFFFFFD00Dryade honoraire|r.\n\nRassemblez les objets suivants :'
 L['snowclaw_cub_note_item1'] = 'Récupérez 3x {item:197744} sur divers {npc:182559} aux |cFFFFFD00Rivages de l’Éveil|r.'
 L['snowclaw_cub_note_item2'] = 'Achetez 1x {item:198356} à la {npc:193310} aux |cFFFFFD00Rivages de l’Éveil|r.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('Tous les objets peuvent être achetés à l\'hôtel des ventes. Ceci est particulièrement utile si vous n\'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.') .. '\n\nUne fois le titre équipé, offrez les 4 objets à l\'{npc:196768} pour recevoir votre mascotte.'
+L['snowclaw_cub_note_end'] = ns.color.Orange('Tous les objets peuvent être achetés à l\'hôtel des ventes. Ceci est particulièrement utile si vous n\'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.') .. '\n\nUne fois le titre |cFFFFFD00Dryade honoraire|r équipé, offrez les 4 objets à l\'{npc:196768} pour recevoir votre mascotte.'
 
 L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre |cFFFFFD00La tempête de mana pour les novices|r pour terminer la quête.'
 
