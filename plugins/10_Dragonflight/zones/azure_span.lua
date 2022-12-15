@@ -1002,7 +1002,7 @@ map.nodes[38193815] = ns.node.PrettyNeat({
 ------------------------------ A LEGENDARY ALBUM ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[44206095] = ns.node.LegendaryCharacter({
+map.nodes[44506011] = ns.node.LegendaryCharacter({
     id = 131443,
     rewards = {Achievement({id = 16570, criteria = 55771})}
 }) -- Chief Telemancer Oculeth
