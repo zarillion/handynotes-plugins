@@ -113,8 +113,8 @@ L['pt_tailor_decaying_brackenhide_blanket_note'] = 'Hängt in einem provisorisch
 L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = 'Folge den Treppen nach links.'
 
 L['leyline_note'] = 'Richte die Laylinie neu aus.'
-L['options_icons_layline'] = '{achievement:16638}'
-L['options_icons_layline_desc'] = 'Zeigt die Positionen aller Leylinien für den Erfolg {achievement:16638} an.'
+L['options_icons_leyline'] = '{achievement:16638}'
+L['options_icons_leyline_desc'] = 'Zeigt die Positionen aller Leylinien für den Erfolg {achievement:16638} an.'
 
 L['river_rapids_wrangler_note'] = 'Sprich mit {npc:186157} und wähle "Ich würde gerne nochmal den Stromschnellenritt machen" aus. Du hast 60 Sekunden, um 40x Stacks von {spell:373490} zu sammeln.'
 L['seeing_blue_note'] = 'Fliegt ohne Zwischenlandung von der Spitze der Azurarchive zum Kobaltkonvent.'
@@ -136,6 +136,8 @@ Sammel (oder kaufe im Auktionshaus):
 
 Fragt nach der gesattelten Slyvern und präsentiert {npc:190892} die gesammelten "Gerichte".
 ]]
+
+L['elder_poa_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -208,6 +210,7 @@ L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinne
 
 L['khadin_note'] = 'Tausche {item:191784} gegen Berufswissen ein.'
 L['the_great_swog_note'] = 'Tausche {item:199338}, {item:199339} oder {item:199340} gegen die jeweiligen Flunkschatzbeutel ein.'
+L['hunt_instructor_basku_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -249,10 +252,14 @@ L['craft_creche_crowler_note'] = 'Kann von {npc:187444} gekauft werden, der sich
 L['bivigosas_blood_sausages_note'] = 'Kann von {npc:188895} beim |cFFFFFD00Posten der Gelikyr|r gekauft werden.'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Zeigt die Positionen für die Spezialitäten an Speis und Trank für den Erfolg {achievement:16621} an.'
+
+L['new_perspective_note'] = 'Mache am Aussichtspunkt ein Foto mit der S.E.L.F.I.E.-Kamera. Der Ort wird durch einen violetten Lichtkreis gekennzeichnet sobald du im Kameramodus bist.\n\nFalls dir der Aussichtspunkt nicht angerechnet wird ändere die Perspektive.'
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Zeigt die Positionen der Aussichten für den Erfolg {achievement:16634} an.'
-L['new_perspective_note'] = 'Mache am Aussichtspunkt ein Foto mit der S.E.L.F.I.E.-Kamera. Der Ort wird durch einen violetten Lichtkreis gekennzeichnet sobald du im Kameramodus bist.\n\nFalls dir der Aussichtspunkt nicht angerechnet wird ändere die Perspektive.'
+
 L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschiedene Gerichte und Getränke auf.'
+
+L['sorotis_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -348,3 +355,5 @@ L['magmashell_note'] = 'Erbeute von {npc:193138n} einen {item:201883} in der Nä
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:16519} an.'
 L['shyfly_note'] = 'Du musst dich auf der Quest {quest:70853} befinden, um {npc:189102} zu sehen.'
+
+L['cataloger_jakes_note'] = nil

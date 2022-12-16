@@ -113,8 +113,8 @@ L['pt_tailor_decaying_brackenhide_blanket_note'] = '挂在临时帐篷内的树�
 L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = '沿着左边的楼梯。'
 
 L['leyline_note'] = '重新排列魔网。'
-L['options_icons_layline'] = '{achievement:16638}'
-L['options_icons_layline_desc'] = '显示 {achievement:16638} 成就中全部重新排列魔网的位置。'
+L['options_icons_leyline'] = '{achievement:16638}'
+L['options_icons_leyline_desc'] = '显示 {achievement:16638} 成就中全部重新排列魔网的位置。'
 
 L['river_rapids_wrangler_note'] = '与 {npc:186157} 交谈并选择“我想再坐一次激流勇进。”。有60秒的时间收集40层 {spell:373490}。'
 L['seeing_blue_note'] = '从碧蓝档案馆的顶端飞到钴蓝集所，当中不落地。'
@@ -136,6 +136,8 @@ L['temperamental_skyclaw_note'] = [[
 
 询问带鞍的狐龙并展示 {npc:190892} 收集的“菜肴”。
 ]]
+
+L['elder_poa_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -208,6 +210,7 @@ L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境
 
 L['khadin_note'] = '将 {item:191784} 换成专业知识。'
 L['the_great_swog_note'] = '将 {item:199338}、{item:199339} 和 {item:199340} 换成 {item:202102}。'
+L['hunt_instructor_basku_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -249,10 +252,14 @@ L['craft_creche_crowler_note'] = '从每日随机地图位置的 {npc:187444} ' 
 L['bivigosas_blood_sausages_note'] = '从 |cFFFFFD00格利基尔岗哨|r 的 {npc:188895} ' .. ns.color.NPC('<食物和饮料>') .. ' 购买。'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = '显示 {achievement:16621} 成就中食物和饮料的位置。'
+
+L['new_perspective_note'] = '用自拍神器与景点合影。一旦进入相机模式，该位置就会用紫色光圈标记。\n\n如果没有获得成就，请改变视角。'
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = '显示 {achievement:16634} 成就中景点的位置。'
-L['new_perspective_note'] = '用自拍神器与景点合影。一旦进入相机模式，该位置就会用紫色光圈标记。\n\n如果没有获得成就，请改变视角。'
+
 L['ruby_feast_gourmand'] = '每天，一位随机的客座厨师都会提供不同的食品和饮料。'
+
+L['sorotis_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -355,3 +362,5 @@ L['magmashell_note'] = '从 |cffffff00黑曜堡垒|r 周围的 {npc:193138} 拾�
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = '显示 {achievement:16519} 成就中战斗宠物的位置。'
 L['shyfly_note'] = '必须在任务 {quest:70853} 中才能看到 {npc:189102}。'
+
+L['cataloger_jakes_note'] = nil

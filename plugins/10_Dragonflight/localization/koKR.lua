@@ -113,8 +113,8 @@ L['pt_tailor_decaying_brackenhide_blanket_note'] = nil
 L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = nil
 
 L['leyline_note'] = nil
-L['options_icons_layline'] = nil
-L['options_icons_layline_desc'] = nil
+L['options_icons_leyline'] = nil
+L['options_icons_leyline_desc'] = nil
 
 L['river_rapids_wrangler_note'] = nil
 L['seeing_blue_note'] = nil
@@ -128,6 +128,8 @@ L['snowclaw_cub_note_end'] = nil
 L['tome_of_polymoph_duck'] = nil
 
 L['temperamental_skyclaw_note'] = nil
+
+L['elder_poa_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -200,6 +202,7 @@ L['options_icons_dreamguard_desc'] = nil
 
 L['khadin_note'] = nil
 L['the_great_swog_note'] = nil
+L['hunt_instructor_basku_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -241,10 +244,14 @@ L['craft_creche_crowler_note'] = nil
 L['bivigosas_blood_sausages_note'] = nil
 L['options_icons_specialties'] = nil
 L['options_icons_specialties_desc'] = nil
+
+L['new_perspective_note'] = nil
 L['options_icons_new_perspective'] = nil
 L['options_icons_new_perspective_desc'] = nil
-L['new_perspective_note'] = nil
+
 L['ruby_feast_gourmand'] = nil
+
+L['sorotis_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -332,3 +339,5 @@ L['magmashell_note'] = nil
 L['options_icons_safari'] = nil
 L['options_icons_safari_desc'] = nil
 L['shyfly_note'] = nil
+
+L['cataloger_jakes_note'] = nil

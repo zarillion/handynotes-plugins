@@ -113,8 +113,8 @@ L['pt_tailor_decaying_brackenhide_blanket_note'] = 'Hanging on a tree within a m
 L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = 'Follow the stairs to the left.'
 
 L['leyline_note'] = 'Realign the ley line.'
-L['options_icons_layline'] = '{achievement:16638}'
-L['options_icons_layline_desc'] = 'Display the location of all ley line for the achievement {achievement:16638}.'
+L['options_icons_leyline'] = '{achievement:16638}'
+L['options_icons_leyline_desc'] = 'Display the location of all ley line for the achievement {achievement:16638}.'
 
 L['river_rapids_wrangler_note'] = 'Talk to {npc:186157} and select "I\'d like to take your River Rapids Ride again". You have 60 seconds to collect get 40x stacks of {spell:373490}.'
 L['seeing_blue_note'] = 'Fly from the top of the Azure Archives to the Cobalt Assembly without landing.'
@@ -136,6 +136,8 @@ Collect (or buy in the auction house):
 
 Ask about the saddled slyvern and present {npc:190892} the collected "dishes".
 ]]
+
+L['elder_poa_note'] = 'Turn in {item:200071} for |cFFFFFD00Iskaara Tuskarr|r reputation'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -208,6 +210,7 @@ L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {
 
 L['khadin_note'] = 'Exchange {item:191784} for profession knowledge.'
 L['the_great_swog_note'] = 'Exchange {item:199338}, {item:199339} and {item:199340} for {item:202102}.'
+L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for |cFFFFFD00Maruuk Centaur|r reputation'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -249,10 +252,14 @@ L['craft_creche_crowler_note'] = 'Purchase from {npc:187444} ' .. ns.color.NPC('
 L['bivigosas_blood_sausages_note'] = 'Purchase from {npc:188895} ' .. ns.color.NPC('<Food & Drink>') .. ' at |cFFFFFD00Gelikyr Post|r.'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Display food and drink locations for {achievement:16621} achievement.'
+
+L['new_perspective_note'] = 'Take a picture with the S.E.L.F.I.E. camera at the vista. The location will be marked by a purple light circle as soon as you in camera mode.\n\nIf you dont get credit towards the achievement, change your perspective.'
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Vista locations for the {achievement:16634} achievement.'
-L['new_perspective_note'] = 'Take a picture with the S.E.L.F.I.E. camera at the vista. The location will be marked by a purple light circle as soon as you in camera mode.\n\nIf you dont get credit towards the achievement, change your perspective.'
+
 L['ruby_feast_gourmand'] = 'Every day, a random guest chef serves up different dishes and drinks.'
+
+L['sorotis_note'] = 'Exchange {item:199906} for |cFFFFFD00Valdrakken Accord|r reputation'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -355,3 +362,5 @@ L['magmashell_note'] = 'Loot {item:201883} from {npc:193138} around |cffffff00Ob
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Display the location of battle pets for {achievement:16519}.'
 L['shyfly_note'] = 'You have to be on the quest {quest:70853} to see the {npc:189102}.'
+
+L['cataloger_jakes_note'] = 'Exchange {item:192055} for |cFFFFFD00Dragonscale Expedition|r reputation'

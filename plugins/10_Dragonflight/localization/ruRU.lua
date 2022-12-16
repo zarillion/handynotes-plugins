@@ -114,8 +114,8 @@ L['pt_tailor_decaying_brackenhide_blanket_note'] = 'Висит на дереве
 L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = 'Идите по лестнице налево.'
 
 L['leyline_note'] = 'Силовые линии Простора.'
-L['options_icons_layline'] = '{achievement:16638}'
-L['options_icons_layline_desc'] = 'Показать расположение всех силовых линий для достижения {achievement:16638}.'
+L['options_icons_leyline'] = '{achievement:16638}'
+L['options_icons_leyline_desc'] = 'Показать расположение всех силовых линий для достижения {achievement:16638}.'
 
 L['river_rapids_wrangler_note'] = nil
 L['seeing_blue_note'] = 'Пролетите с вершины Лазурных архивов до Кобальтовой ассамблеи за один полет.'
@@ -137,6 +137,8 @@ L['temperamental_skyclaw_note'] = [[
 
 Спросите о оседланной лисе-виверне и покажите {npc:190892} собранные "блюда".
 ]]
+
+L['elder_poa_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -209,6 +211,7 @@ L['options_icons_dreamguard_desc'] = 'Отображать места Изумр
 
 L['khadin_note'] = 'Обмен {item:191784} на знания по профессии.'
 L['the_great_swog_note'] = 'Обменять {item:199338}, {item:199339} и {item:199340} на {item:202102}.'
+L['hunt_instructor_basku_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -250,10 +253,14 @@ L['craft_creche_crowler_note'] = nil
 L['bivigosas_blood_sausages_note'] = nil
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Показать места еды и напитков для достижения {achievement:16621}.'
+
+L['new_perspective_note'] = 'Сделайте снимок с помощью СЕЛФИ камеры, живописных мест. Место будет отмечено фиолетовым кружком света, как только вы перейдете в режим камеры.\n\nЕсли вы не получаете зачет в достижение, измените свою точку обзора.'
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Живописные места для достижения {achievement:16634}.'
-L['new_perspective_note'] = 'Сделайте снимок с помощью СЕЛФИ камеры, живописных мест. Место будет отмечено фиолетовым кружком света, как только вы перейдете в режим камеры.\n\nЕсли вы не получаете зачет в достижение, измените свою точку обзора.'
+
 L['ruby_feast_gourmand'] = 'Каждый день случайно приглашенный шеф-повар подает разные блюда и напитки.'
+
+L['sorotis_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -346,3 +353,5 @@ L['magmashell_note'] = nil
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Отображение местоположения боевых питомцев для {achievement:16519}.'
 L['shyfly_note'] = 'Вы должны выполнить задание {quest:70853}, чтобы увидеть {npc:189102}.'
+
+L['cataloger_jakes_note'] = nil
