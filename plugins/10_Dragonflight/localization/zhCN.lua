@@ -123,7 +123,7 @@ L['snowman_note'] = '该区域有三个 {npc:197599}（可能已被其他玩家�
 L['snowclaw_cub_note_start'] = '必须在 |cFFFFFD00瓦德拉肯|r 中完成 {npc:192522} 提供的 {quest:67094} 任务线才能获得 |cFFFFFD00荣誉树妖|r 头衔。\n\n收集以下物品：'
 L['snowclaw_cub_note_item1'] = '从 |cFFFFFD00觉醒海岸|r 周围的各种 {npc:182559} 拾取3个 {item:197744}。'
 L['snowclaw_cub_note_item2'] = '从 |cFFFFFD00觉醒海岸|r 的 {npc:193310} 购买1个 {item:198356}。'
-L['snowclaw_cub_note_end'] = ns.color.Orange('所有物品都可以从拍卖行购买。如果获得从 {npc:193310} 购买物品所需的 {item:199215} 有难度，这将特别有用。') .. '\n\n带好头衔后，将所有4件物品提供给 {npc:196768} 以获得的宠物。' .. ns.color.Red('\n\n错误：头衔可能会消失，等待修复。')
+L['snowclaw_cub_note_end'] = ns.color.Orange('所有物品都可以从拍卖行购买。如果获得从 {npc:193310} 购买物品所需的 {item:199215} 有难度，这将特别有用。') .. '\n\n带好 |cFFFFFD00荣誉树妖|r 头衔后，将所有4件物品提供给 {npc:196768} 以获得的宠物。' .. ns.color.Red('\n\n错误：头衔可能会消失，等待修复。')
 
 L['tome_of_polymoph_duck'] = '使用 {spell:1953} 进入洞穴并与 |cFFFFFD00法力风暴初学指南|r 书互动以完成任务。'
 
