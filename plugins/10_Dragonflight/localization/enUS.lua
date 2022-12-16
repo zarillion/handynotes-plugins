@@ -137,7 +137,7 @@ Collect (or buy in the auction house):
 Ask about the saddled slyvern and present {npc:190892} the collected "dishes".
 ]]
 
-L['elder_poa_note'] = 'Turn in {item:200071} for |cFFFFFD00Iskaara Tuskarr|r reputation'
+L['elder_poa_note'] = 'Turn in {item:200071} for |cFFFFFD00Iskaara Tuskarr|r reputation.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -210,7 +210,7 @@ L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {
 
 L['khadin_note'] = 'Exchange {item:191784} for profession knowledge.'
 L['the_great_swog_note'] = 'Exchange {item:199338}, {item:199339} and {item:199340} for {item:202102}.'
-L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for |cFFFFFD00Maruuk Centaur|r reputation'
+L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for |cFFFFFD00Maruuk Centaur|r reputation.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -259,7 +259,7 @@ L['options_icons_new_perspective_desc'] = 'Vista locations for the {achievement:
 
 L['ruby_feast_gourmand'] = 'Every day, a random guest chef serves up different dishes and drinks.'
 
-L['sorotis_note'] = 'Exchange {item:199906} for |cFFFFFD00Valdrakken Accord|r reputation'
+L['sorotis_note'] = 'Exchange {item:199906} for |cFFFFFD00Valdrakken Accord|r reputation.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -363,4 +363,4 @@ L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Display the location of battle pets for {achievement:16519}.'
 L['shyfly_note'] = 'You have to be on the quest {quest:70853} to see the {npc:189102}.'
 
-L['cataloger_jakes_note'] = 'Exchange {item:192055} for |cFFFFFD00Dragonscale Expedition|r reputation'
+L['cataloger_jakes_note'] = 'Exchange {item:192055} for |cFFFFFD00Dragonscale Expedition|r reputation.'
