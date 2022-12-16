@@ -138,7 +138,7 @@ Rassemblez (ou achetez à l'hôtel des ventes) :
 Renseignez-vous sur la rusarde sellée et remettez à {npc:190892} les "plats" recueillis.
 ]]
 
-L['elder_poa_note'] = nil
+L['elder_poa_note'] = 'Donnez vos {item:200071} pour obtenir de la réputation avec les |cFFFFFD00Roharts iskaariens|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -211,7 +211,7 @@ L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêve
 
 L['khadin_note'] = 'Échangez les {item:191784} contre de la connaissance de métiers.'
 L['the_great_swog_note'] = 'Échangez des {item:199338}, {item:199339} et {item:199340} contre des {item:202102}.'
-L['hunt_instructor_basku_note'] = nil
+L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de la réputation avec les |cFFFFFD00Centaures maruuks|r.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -260,7 +260,7 @@ L['options_icons_new_perspective_desc'] = 'Afficher les emplacements des panoram
 
 L['ruby_feast_gourmand'] = 'Chaque jour, un chef invité au hasard sert des plats et des boissons variés.'
 
-L['sorotis_note'] = nil
+L['sorotis_note'] = 'Échangez vos {item:199906} pour obtenir de la réputation avec le |cFFFFFD00Concordat de Valdrakken|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -364,4 +364,4 @@ L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:16519}.'
 L['shyfly_note'] = 'Vous devez avoir la quête {quest:70853} pour voir les {npc:189102}.'
 
-L['cataloger_jakes_note'] = nil
+L['cataloger_jakes_note'] = 'Échangez vos {item:192055} pour obtenir de la réputation avec l\'|cFFFFFD00Expédition du Dracaret|r.'
