@@ -1,3 +1,8 @@
+# v23
+
+* Added reputation turn-in NPC locations.
+* Other misc node updates.
+
 # v22
 
 * Changed ilvl 385 notes to just say "higher".
