@@ -138,7 +138,7 @@ Recoge (o compra en la casa de subastas):
 Pregunta sobre el Astudraco Ensillado y ofrece a {npc:190892} los "platos" recogidos.
 ]]
 
-L['elder_poa_note'] = nil
+L['elder_poa_note'] = 'Entrega {item:200071} para conseguir reputación con |cFFFFFD00Colmillarr de Iskaara|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -211,7 +211,7 @@ L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños pa
 
 L['khadin_note'] = 'Intercambia una {item:191784} por conocimiento de la profesión.'
 L['the_great_swog_note'] = 'Intercambia {item:199338}, {item:199339} y {item:199340} por un {item:202102}.'
-L['hunt_instructor_basku_note'] = nil
+L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputación con |cFFFFFD00Centauros Maruuk|r.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -260,7 +260,7 @@ L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes pa
 
 L['ruby_feast_gourmand'] = 'Cada día, un invitado chef al azar sirve distintos platos y bebidas.'
 
-L['sorotis_note'] = nil
+L['sorotis_note'] = 'Entrega {item:199906} para conseguir reputación con |cFFFFFD00Acuerdo de Valdrakken|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -364,4 +364,4 @@ L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:16519}.'
 L['shyfly_note'] = 'Has de estar en la misión {quest:70853} para poder ver las {npc:189102}.'
 
-L['cataloger_jakes_note'] = nil
+L['cataloger_jakes_note'] = 'Entrega {item:192055} para conseguir reputación con |cFFFFFD00Expedición Dragontina|r.'
