@@ -1673,7 +1673,7 @@ map.nodes[71102510] = Collectible({
 
 map.nodes[47128259] = NPC({
     id = 189226,
-    icon = 192055,
+    icon = 454065,
     note = L['cataloger_jakes_note']
 }) -- Cataloger Jakes (Dragonscale Expedition Reputation)
 
