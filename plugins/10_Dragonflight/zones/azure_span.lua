@@ -227,7 +227,7 @@ map.nodes[32682911] = RareElite({ -- review -- required 67030
 
 map.nodes[19234362] = Rare({ -- required 67030
     id = 193269,
-    quest = 69892,
+    quest = 74002,
     rewards = {
         Achievement({id = 16678, criteria = 56112}),
         Transmog({item = 200206, slot = L['bow']}) -- Behemoth Slayer Greatbow
