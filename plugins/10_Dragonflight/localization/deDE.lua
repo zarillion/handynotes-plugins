@@ -137,7 +137,7 @@ Sammel (oder kaufe im Auktionshaus):
 Fragt nach der gesattelten Slyvern und präsentiert {npc:190892} die gesammelten "Gerichte".
 ]]
 
-L['elder_poa_note'] = nil
+L['elder_poa_note'] = 'Tausche {item:200071} gegen Ruf bei den |cFFFFFD00Tuskarr von Iskaara|r ein.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -210,7 +210,7 @@ L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinne
 
 L['khadin_note'] = 'Tausche {item:191784} gegen Berufswissen ein.'
 L['the_great_swog_note'] = 'Tausche {item:199338}, {item:199339} oder {item:199340} gegen die jeweiligen Flunkschatzbeutel ein.'
-L['hunt_instructor_basku_note'] = nil
+L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den |cFFFFFD00Zentauren der Maruuk|r ein.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -259,7 +259,7 @@ L['options_icons_new_perspective_desc'] = 'Zeigt die Positionen der Aussichten f
 
 L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschiedene Gerichte und Getränke auf.'
 
-L['sorotis_note'] = nil
+L['sorotis_note'] = 'Tausche {item:199906} gegen Ruf beim |cFFFFFD00Valdrakkenabkommen|r ein.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -356,4 +356,4 @@ L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:16519} an.'
 L['shyfly_note'] = 'Du musst dich auf der Quest {quest:70853} befinden, um {npc:189102} zu sehen.'
 
-L['cataloger_jakes_note'] = nil
+L['cataloger_jakes_note'] = 'Tausche {item:192055} gegen Ruf bei der |cFFFFFD00Drachenschuppenexpedition|r ein.'
