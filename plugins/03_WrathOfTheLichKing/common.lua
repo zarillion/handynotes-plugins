@@ -13,11 +13,19 @@ local Collectible = ns.node.Collectible
 
 ns.expansion = 3
 
+-------------------------------------------------------------------------------
+----------------------------------- GROUPS ------------------------------------
+-------------------------------------------------------------------------------
+
+ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
+
+-------------------------------------------------------------------------------
+------------------- TO ALL THE SQUIRRELS WHO SHARED MY LIFE -------------------
+-------------------------------------------------------------------------------
+
 local Squirrel = Class('Squirrel', Collectible, {
     group = ns.groups.SQUIRRELS,
     icon = 237182,
     note = L['squirrels_note']
 })
 ns.node.Squirrel = Squirrel
-
-ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
