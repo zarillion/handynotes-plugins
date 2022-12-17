@@ -14,32 +14,10 @@ local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
+
 -------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
--------------------------------------------------------------------------------
+
 local map = Map({id = 114, settings = true})
-
-map.nodes[82503360] = Squirrel({
-    id = 29328,
-    rewards = {Achievement({id = 2557, criteria = 1})}
-}) -- Arctic Hare
-
-map.nodes[62856853] = Squirrel({
-    id = 28440,
-    rewards = {Achievement({id = 2557, criteria = 12})}
-}) -- Tundra Penguin
-
-map.nodes[51507342] = Squirrel({
-    id = 31685,
-    rewards = {Achievement({id = 2557, criteria = 2})}
-}) -- Borean Marmot
-
-map.nodes[27502600] = Collectible({
-    id = 32261,
-    icon = 132196,
-    note = L['in_nexus'],
-    rewards = {Achievement({id = 2556, criteria = 11})}
-}) -- Crystal Spider
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -75,3 +53,33 @@ map.nodes[88603980] = Rare({
     },
     pois = {POI({84604680, 80604620, 81603200, 85803460, 91603260})}
 }) -- Icehorn
+
+-------------------------------------------------------------------------------
+------------------- TO ALL THE SQUIRRELS WHO SHARED MY LIFE -------------------
+-------------------------------------------------------------------------------
+
+map.nodes[82503360] = Squirrel({
+    id = 29328,
+    rewards = {Achievement({id = 2557, criteria = 1})}
+}) -- Arctic Hare
+
+map.nodes[62856853] = Squirrel({
+    id = 28440,
+    rewards = {Achievement({id = 2557, criteria = 12})}
+}) -- Tundra Penguin
+
+map.nodes[51507342] = Squirrel({
+    id = 31685,
+    rewards = {Achievement({id = 2557, criteria = 2})}
+}) -- Borean Marmot
+
+-------------------------------------------------------------------------------
+-------------------------------- PEST CONTROL ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[27502600] = Collectible({
+    id = 32261,
+    icon = 132196,
+    note = L['in_nexus'],
+    rewards = {Achievement({id = 2556, criteria = 11})}
+}) -- Crystal Spider
