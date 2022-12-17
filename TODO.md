@@ -12,9 +12,6 @@
 # Shadowlands
 
 * Add Beast Warrens mount to Hunt vignette.
-* [Crypt Couture](https://www.wowhead.com/achievement=14763/crypt-couture) (Necrolord only?)
-* [To All the Squirrels I've Loved and Lost](https://www.wowhead.com/achievement=14731/to-all-the-squirrels-ive-loved-and-lost)
-* [Wild Hunting](https://www.wowhead.com/achievement=14779)
 
 # Legion
 
