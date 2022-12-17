@@ -15,84 +15,8 @@ local Transmog = ns.reward.Transmog
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
--------------------------------------------------------------------------------
 
 local map = Map({id = 117, settings = true})
-
--------------------------------------------------------------------------------
--------------------------- To All The Squirrels ... ---------------------------
--------------------------------------------------------------------------------
-
-map.nodes[21095563] = Squirrel({
-    id = 28407,
-    rewards = {Achievement({id = 2557, criteria = 3})}
-}) -- Fjord Penguin
-
-map.nodes[36287932] = Squirrel({
-    id = 26503,
-    rewards = {Achievement({id = 2557, criteria = 10})}
-}) -- Scalawag Frog
-
-map.nodes[69266450] = Squirrel({
-    id = 24746,
-    rewards = {Achievement({id = 2557, criteria = 4})}
-}) -- Fjord Turkey
-
-map.nodes[68006350] = Squirrel({
-    id = 17467,
-    rewards = {Achievement({id = 1206, criteria = 16})}
-}) -- Skunk
-
-map.nodes[52506660] = Squirrel({
-    id = 1420,
-    rewards = {Achievement({id = 1206, criteria = 20})}
-}) -- Toad
-
-map.nodes[33787837] = Squirrel({
-    id = 1420,
-    note = L['in_cave'],
-    rewards = {Achievement({id = 1206, criteria = 20})},
-    pois = {POI({33577564})}
-}) -- Sheep
-
--------------------------------- Pest Control ---------------------------------
-
-map.nodes[69266550] = Collectible({
-    id = 24174,
-    icon = 132196,
-    rewards = {Achievement({id = 2556, criteria = 15})}
-}) -- Fjord Turkey
-
-map.nodes[57205650] = Collectible({
-    id = 24270,
-    icon = 132196,
-    note = L['note_devouring_maggot'],
-    rewards = {Achievement({id = 2556, criteria = 6})},
-    pois = {POI({56624889})}
-}) -- Devouring Maggot
-
-map.nodes[50265509] = Collectible({
-    id = 16030,
-    icon = 132196,
-    label = '{npc:2914}, {npc:16030}',
-    rewards = {Achievement({id = 2556, criteria = {10, 13}})}
-}) -- Snake, Maggot
-
-map.nodes[59207730] = Collectible({
-    id = 4075,
-    icon = 132196,
-    rewards = {Achievement({id = 2556, criteria = 18})}
-}) -- Rat
-
-------------------------------- Friend Or Fowl --------------------------------
-
-map.nodes[69266550] = Collectible({
-    id = 24746,
-    icon = 133971,
-    note = L['achievement_friend_or_fowl_desc'],
-    rewards = {Achievement({id = 1254})}
-}) -- Fjord Turkey
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -131,3 +55,81 @@ map.nodes[31205680] = Rare({
     },
     pois = {POI({26006400, 30807120, 32207540, 33208020})}
 }) -- King Ping
+
+-------------------------------------------------------------------------------
+------------------- TO ALL THE SQUIRRELS WHO SHARED MY LIFE -------------------
+-------------------------------------------------------------------------------
+
+map.nodes[21095563] = Squirrel({
+    id = 28407,
+    rewards = {Achievement({id = 2557, criteria = 3})}
+}) -- Fjord Penguin
+
+map.nodes[36287932] = Squirrel({
+    id = 26503,
+    rewards = {Achievement({id = 2557, criteria = 10})}
+}) -- Scalawag Frog
+
+map.nodes[69266450] = Squirrel({
+    id = 24746,
+    rewards = {Achievement({id = 2557, criteria = 4})}
+}) -- Fjord Turkey
+
+map.nodes[68006350] = Squirrel({
+    id = 17467,
+    rewards = {Achievement({id = 1206, criteria = 16})}
+}) -- Skunk
+
+map.nodes[52506660] = Squirrel({
+    id = 1420,
+    rewards = {Achievement({id = 1206, criteria = 20})}
+}) -- Toad
+
+map.nodes[33787837] = Squirrel({
+    id = 1420,
+    note = L['in_cave'],
+    rewards = {Achievement({id = 1206, criteria = 20})},
+    pois = {POI({33577564})}
+}) -- Sheep
+
+-------------------------------------------------------------------------------
+-------------------------------- PEST CONTROL ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[69266550] = Collectible({
+    id = 24174,
+    icon = 132196,
+    rewards = {Achievement({id = 2556, criteria = 15})}
+}) -- Fjord Turkey
+
+map.nodes[57205650] = Collectible({
+    id = 24270,
+    icon = 132196,
+    note = L['note_devouring_maggot'],
+    rewards = {Achievement({id = 2556, criteria = 6})},
+    pois = {POI({56624889})}
+}) -- Devouring Maggot
+
+map.nodes[50265509] = Collectible({
+    id = 16030,
+    icon = 132196,
+    label = '{npc:2914}, {npc:16030}',
+    rewards = {Achievement({id = 2556, criteria = {10, 13}})}
+}) -- Snake, Maggot
+
+map.nodes[59207730] = Collectible({
+    id = 4075,
+    icon = 132196,
+    rewards = {Achievement({id = 2556, criteria = 18})}
+}) -- Rat
+
+-------------------------------------------------------------------------------
+------------------------------- FRIEND OR FOWL? -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[69266550] = Collectible({
+    id = 24746,
+    icon = 133971,
+    note = L['achievement_friend_or_fowl_desc'],
+    rewards = {Achievement({id = 1254})}
+}) -- Fjord Turkey
