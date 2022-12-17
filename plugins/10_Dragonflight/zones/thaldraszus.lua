@@ -790,7 +790,7 @@ map.nodes[51134219] = LegendaryCharacter({
     rewards = {Achievement({id = 16570, criteria = 55775})}
 }) -- Wrathion
 
-map.nodes[38386903] = LegendaryCharacter({
+map.nodes[36036939] = LegendaryCharacter({
     id = 195633,
     rewards = {Achievement({id = 16570, criteria = 55773})}
 }) -- Time-Warped Mysterious Fisher
