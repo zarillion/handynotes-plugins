@@ -92,7 +92,8 @@ map.nodes[52916529] = Rare({
     note = L['brundin_the_dragonbane_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56038}),
-        Transmog({item = 200133, slot = L['fist']}) -- Volcanic Chakram
+        Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
+        DC.RenewedProtoDrake.ImpalerHorns
     },
     pois = {
         Path({
@@ -254,10 +255,14 @@ map.nodes[39596353] = Rare({ -- review -- required 67030
     rewards = {Achievement({id = 16676, criteria = 56046})}
 }) -- Magmaton
 
-map.nodes[22207649] = Rare({ -- review -- required 67030
+map.nodes[22207649] = RareElite({ -- required 67030
     id = 193152,
-    quest = 69848,
-    rewards = {Achievement({id = 16676, criteria = 56047})}
+    quest = 74012,
+    rewards = {
+        Achievement({id = 16676, criteria = 56047}),
+        Transmog({id = 200192, slot = L['1h_mace']}), -- Handheld Geyser
+        Item({item = 200563, note = L['trinket']}) -- Primal Ritual Shell
+    }
 }) -- Massive Magmashell
 
 map.nodes[32805248] = RareElite({

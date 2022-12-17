@@ -181,14 +181,14 @@ L['pt_smith_falconer_gauntlet_drawings_note'] = 'Auf einer Insel im Meer, in ein
 L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Liegt in einer kleinen Hütte.' .. ns.color.Orange('3 Elitegegner in der Höhle.')
 L['pt_tailor_silky_surprise_note'] = 'Finde und plündere das |cFFFFFD00Katzenminzenwedel|r.'
 
-L['lizi_note'] = 'Schließe den Initiandenausflug Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.'
+L['lizi_note'] = 'Schließe den |cFFFFFD00Initiandenausflug|r Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Sammel 20x {item:192615} von Insekten-Gegnern auf den |cFFFFFD00Dracheninseln|r.'
 L['lizi_note_day2'] = 'Sammel 20x {item:192658} von Pflanzen-Gegnern auf den |cFFFFFD00Dracheninseln|r.'
 L['lizi_note_day3'] = 'Sammel 10x {item:194966} gefischt aus allen Gewässern der |cFFFFFD00Dracheninseln|r. Am häufigsten im Binnenland |cFFFFFD00Ebenen von Ohn\'ahra|r zu finden.'
 L['lizi_note_day4'] = 'Sammel 20x {item:192636} von Mammuts in den |cFFFFFD00Ebenen von Ohn\'ahra|r.'
 L['lizi_note_day5'] = 'Nimm die Quest {quest:71195} von {npc:190014} an und hole 1x {item:200598} von {npc:190015} in einem Zelt südlich der |cFFFFFD00Quellen von Ohn\'iri|r.'
 
-L['ohnahra_note_start'] = 'Schließe den Initiandenausflug Geschichtsstrang, gestartet mit der Quest {quest:65901} ab, dann wird {npc:190022} bei den |cFFFFFD00Quellen von Ohn\'iri|r hinter einer Hütte erscheinen.\n\nSammel die folgenden Materialien:'
+L['ohnahra_note_start'] = 'Schließe den |cFFFFFD00Initiandenausflug|r Geschichtsstrang, gestartet mit der Quest {quest:65901} ab, dann wird {npc:190022} bei den |cFFFFFD00Quellen von Ohn\'iri|r hinter einer Hütte erscheinen.\n\nSammel die folgenden Materialien:'
 L['ohnahra_note_item1'] = 'Sammel 3x {item:201929} von {npc:186151}, dem Endboss im Dungeon |cFFFFFD00Der Angriff der Nokhud|r (Heroischer Schwierigkeitsgrad). Kein 100% Drop.'
 L['ohnahra_note_item2'] = 'Kaufe 1x {item:201323} von {npc:196707} für 50x {currency:2003} und 1x {item:194562}.\n{item:194562} kann von Zeitverlorenen Gegnern in |cFFFFFD00Thaldrazsus|r geplündert werden.'
 L['ohnahra_note_item3'] = 'Kaufe 1x {item:191507} aus dem Auktionshaus. (Alchemisten können {item:191588} von {npc:196707} ab Ruhmstufe 22 kaufen)'
