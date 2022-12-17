@@ -214,7 +214,7 @@ map.nodes[38466826] = Rare({
     id = 191305,
     quest = 74085,
     rewards = {
-        Achievement({id = 16679, criteria = 56155}),
+        Achievement({id = 16679, criteria = 56155}), --
         Toy({item = 200999}) -- The Super Shellkhan Gang
     }
 }) -- The Great Shellkhan
