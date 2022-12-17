@@ -138,7 +138,7 @@ Rassemblez (ou achetez à l'hôtel des ventes) :
 Renseignez-vous sur la rusarde sellée et remettez à {npc:190892} les "plats" recueillis.
 ]]
 
-L['elder_poa_note'] = 'Donnez vos {item:200071} pour obtenir de la réputation avec les |cFFFFFD00Roharts iskaariens|r.'
+L['elder_poa_note'] = 'Échangez vos {item:200071} pour obtenir de la réputation avec les |cFFFFFD00Roharts iskaariens|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
