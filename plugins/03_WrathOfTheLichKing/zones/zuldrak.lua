@@ -17,21 +17,12 @@ local POI = ns.poi.POI
 local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
--------------------------------------------------------------------------------
 
 local map = Map({id = 121, settings = true})
 
-map.nodes[48425635] = Node({
-    id = 30007,
-    label = '{achievement:4958}',
-    icon = 132334,
-    quest = {12932, 12933, 12934, 12935, 12936, 12948},
-    questCount = true,
-    rewards = {
-        Achievement({id = 4958, criteria = 2}) -- The First Rule of Ring of Blood is You Don't Talk About Ring of Blood
-    }
-}) -- Amphitheater of Anguish in Zul'Drak
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
 
 map.nodes[40255237] = Rare({
     id = 32447,
@@ -75,6 +66,10 @@ map.nodes[72002840] = Rare({
     }
 }) -- Terror Spinner
 
+-------------------------------------------------------------------------------
+------------------- TO ALL THE SQUIRRELS WHO SHARED MY LIFE -------------------
+-------------------------------------------------------------------------------
+
 map.nodes[44976090] = Squirrel({
     id = 6653,
     rewards = {Achievement({id = 2557, criteria = 7})}
@@ -85,3 +80,18 @@ map.nodes[44606780] = Collectible({
     icon = 132196,
     rewards = {Achievement({id = 2556, criteria = 8})}
 }) -- Zul'Drak Rat
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[48425635] = Node({
+    id = 30007,
+    label = '{achievement:4958}',
+    icon = 132334,
+    quest = {12932, 12933, 12934, 12935, 12936, 12948},
+    questCount = true,
+    rewards = {
+        Achievement({id = 4958, criteria = 2}) -- The First Rule of Ring of Blood is You Don't Talk About Ring of Blood
+    }
+}) -- Amphitheater of Anguish in Zul'Drak
