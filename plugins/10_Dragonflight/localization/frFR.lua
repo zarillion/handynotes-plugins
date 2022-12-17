@@ -182,14 +182,14 @@ L['pt_smith_falconer_gauntlet_drawings_note'] = 'Sur une île en mer, à l\'int�
 L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Posé dans une petite hutte.' .. ns.color.Orange('3 élites dans la hutte.')
 L['pt_tailor_silky_surprise_note'] = 'Trouvez et ramassez une |cFFFFFD00Feuille d’herbe à chat|r.'
 
-L['lizi_note'] = 'Terminez la suite de quêtes Une sortie d’initié en commençant par {quest:65901}. Accomplissez les quêtes chaque jour pour soigner Lizi et recevoir votre monture.\n\nEn plus des objets requis, toutes les quêtes demandent 150x {currency:2003} pour un total de 750x {currency:2003}.'
+L['lizi_note'] = 'Terminez la suite de quêtes |cFFFFFD00Une sortie d’initié|r en commençant par {quest:65901}. Accomplissez les quêtes chaque jour pour soigner Lizi et recevoir votre monture.\n\nEn plus des objets requis, toutes les quêtes demandent 150x {currency:2003} pour un total de 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Collectez 20x {item:192615} sur des monstres insectes dans les |cFFFFFD00Îles aux Dragons|r.'
 L['lizi_note_day2'] = 'Collectez 20x {item:192658} sur des monstres végétaux dans les |cFFFFFD00Îles aux Dragons|r.'
 L['lizi_note_day3'] = 'Collectez 10x {item:194966} pêchés dans n\'importe quelles eaux des |cFFFFFD00Îles aux Dragons|r. Ils sont trouvés le plus souvent à l\'intérieur des terres des |cFFFFFD00Plaines d\'Ohn\'ahra|r.'
 L['lizi_note_day4'] = 'Collectez 20x {item:192636} sur des mammouths dans les |cFFFFFD00Plaines d\'Ohn\'ahra|r'
 L['lizi_note_day5'] = 'Acceptez {quest:71195} de l\'{npc:190014} et obtenez 1x {item:200598} de la part de {npc:190015} dans une tente au sud des |cFFFFFD00Sources des Ohn\'irs|r.'
 
-L['ohnahra_note_start'] = 'Terminez la suite de quêtes Une sortie d’initié commençant par {quest:65901} puis {npc:190022} apparaîtra aux |cFFFFFD00Sources des Ohn\'irs|r derrière une hutte de Sage-du-vent.\n\nRassemblez les matériaux suivants :'
+L['ohnahra_note_start'] = 'Terminez la suite de quêtes |cFFFFFD00Une sortie d’initié|r commençant par {quest:65901} puis {npc:190022} apparaîtra aux |cFFFFFD00Sources des Ohn\'irs|r derrière une hutte de Sage-du-vent.\n\nRassemblez les matériaux suivants :'
 L['ohnahra_note_item1'] = 'Récupérez 3x {item:201929} sur {npc:186151}, le boss final du donjon |cFFFFFD00L\'offensive nokhud|r. Ce n\'est pas un drop garanti à 100%.'
 L['ohnahra_note_item2'] = 'Achetez 1x {item:201323} à l\'{npc:196707} pour 50x {currency:2003} et 1x {item:194562}.\nLe {item:194562} peut être récupéré sur des monstres perdus dans le temps à |cFFFFFD00Thaldraszus|r.'
 L['ohnahra_note_item3'] = 'Achetez 1x {item:191507} à l\'Hôtel des Ventes. (Les alchimistes peuvent acheter la {item:191588} à l\'{npc:196707} à partir du Renom 22)'
