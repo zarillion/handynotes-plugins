@@ -1438,7 +1438,7 @@ map.nodes[64415914] = LegendaryCharacter({
     rewards = {Achievement({id = 16570, criteria = 55758})}
 }) -- Abu'Gar
 
-map.nodes[49896849] = LegendaryCharacter({
+map.nodes[53866146] = LegendaryCharacter({
     id = 56133,
     rewards = {Achievement({id = 16570, criteria = 55759})}
 }) -- Chen Stormstout
