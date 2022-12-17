@@ -30,6 +30,7 @@ local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
+local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
@@ -211,8 +212,11 @@ map.nodes[47207895] = Rare({ -- review -- reqiured 67030
 
 map.nodes[38466826] = Rare({
     id = 191305,
-    quest = 72121,
-    rewards = {Achievement({id = 16679, criteria = 56155})}
+    quest = 74085,
+    rewards = {
+        Achievement({id = 16679, criteria = 56155}),
+        Toy({item = 200999}) -- The Super Shellkhan Gang
+    }
 }) -- The Great Shellkhan
 
 map.nodes[46267317] = Rare({
