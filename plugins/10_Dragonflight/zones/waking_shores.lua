@@ -294,9 +294,9 @@ map.nodes[56004592] = Rare({
 
 map.nodes[81485082] = Rare({ -- required 67030
     id = 193118,
-    quest = 70983,
+    quest = 74017,
     rewards = {
-        Achievement({id = 16676, criteria = 56043}), --
+        Achievement({id = 16676, criteria = 56043}),
         DC.CliffsideWylderdrake.FinnedNeck
     },
     pois = {
