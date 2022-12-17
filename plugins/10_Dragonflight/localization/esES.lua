@@ -182,14 +182,14 @@ L['pt_smith_falconer_gauntlet_drawings_note'] = 'En una isla en el mar, dentro d
 L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Reposa en una choza pequeña. ' .. ns.color.Orange('3 élites en la choza')
 L['pt_tailor_silky_surprise_note'] = 'Busca y despoja la |cFFFFFD00Fronda de Hierba Gatera|r.'
 
-L['lizi_note'] = 'Completa la cadena de misiones Día de Iniciación comenzando con {quest:65901}. Completa las misiones cada día para curar a Lizi y recibir su montura.\n\nAdemás de los objetos necesarios, todas las misiones requieren 150x {currency:2003} para un total de 750x {currency:2003}.'
+L['lizi_note'] = 'Completa la cadena de misiones |cFFFFFD00El día libre de la iniciada|r comenzando con {quest:65901}. Completa las misiones cada día para curar a Lizi y recibir su montura.\n\nAdemás de los objetos necesarios, todas las misiones requieren 150x {currency:2003} para un total de 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Recoge 20x {item:192615} de los enemigos insecto en las |cFFFFFD00Islas Dragón|r.'
 L['lizi_note_day2'] = 'Recoge 20x {item:192658} de los enemigos planta en las |cFFFFFD00Islas Dragón|r.'
 L['lizi_note_day3'] = 'Recoge 10x {item:194966} pescadas en cualquier masa de agua dulce en las |cFFFFFD00Islas Dragón|r. Se encuentran con más frecuencia en los interiores de las |cFFFFFD00Llanuras de Ohn\'ahran|r.'
 L['lizi_note_day4'] = 'Recoge 20x {item:192636} de los mamuts de las |cFFFFFD00Llanuras de Ohn\'ahran|r.'
 L['lizi_note_day5'] = 'Acepta la misión {quest:71195} de {npc:190014} y consigue 1x {item:200598} de {npc:190015} en la tienda al sur de los |cFFFFFD00Manantiales Ohn\'iri|r.'
 
-L['ohnahra_note_start'] = 'Completa la cadena de misiones Día de Iniciación comenzando con {quest:65901} y entonces aparecerá {npc:190022} en los |cFFFFFD00Manantiales Ohn\'iri|r detrás de la choza del sabio del viento.\n\nReúne los siguientes objetos:'
+L['ohnahra_note_start'] = 'Completa la cadena de misiones |cFFFFFD00El día libre de la iniciada|r comenzando con {quest:65901} y entonces aparecerá {npc:190022} en los |cFFFFFD00Manantiales Ohn\'iri|r detrás de la choza del sabio del viento.\n\nReúne los siguientes objetos:'
 L['ohnahra_note_item1'] = 'Recoge 3x {item:201929} de los {npc:186151}, el boss final de la mazmorra |cFFFFFD00Ofensiva Nokhud|r (dificultad Heroica). No tiene un 100% de caer.'
 L['ohnahra_note_item2'] = 'Compra 1x {item:201323} de {npc:196707} por 50x {currency:2003} y 1x {item:194562}.\n{item:194562} puede ser despojado de los enemigos Perdidos en el Tiempo en |cFFFFFD00Thaldrazsus|r.'
 L['ohnahra_note_item3'] = 'Compra 1x {item:191507} de la Casa de Subastas. (los Alqumistas pueden comprar la {item:191588} a {npc:196707} al llegar a Renombre 22).'
