@@ -317,26 +317,38 @@ map.nodes[33967695] = Treasure({ -- add loot
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
         ns.requirement.Item(199068) -- Time-Lost Memo
     },
-    rewards = {Achievement({id = 16301, criteria = 54810})}
+    rewards = {
+        Achievement({id = 16301, criteria = 54810}), --
+        Item({item = 169951, note = '3x'}) -- Broken Hourglass
+    }
 }) -- Cracked Hourglass
 
 map.nodes[60244164] = Treasure({ -- add loot
     quest = 70609,
-    rewards = {Achievement({id = 16301, criteria = 54813})}
+    rewards = {
+        Achievement({id = 16301, criteria = 54813}), --
+        Item({item = 203206}) -- Elegant Canvas Brush
+    }
 }) -- Elegant Canvas Brush
 
 map.nodes[58168007] = Treasure({ -- add loot
     quest = 70608,
     note = L['sandy_wooden_duck_note'],
     requires = ns.requirement.Item(199069), -- Yennu's Map
-    rewards = {Achievement({id = 16301, criteria = 54811})},
+    rewards = {
+        Achievement({id = 16301, criteria = 54811}),
+        Item({item = 200827, note = '5x'}) -- Weathered Sculpture
+    },
     pois = {POI({54937543})} -- Yennu's Map
 }) -- Sandy Wooden Duck (Sand Pile)
 
 map.nodes[64851655] = Treasure({ -- add loot
     quest = 70610,
     note = L['in_cave'],
-    rewards = {Achievement({id = 16301, criteria = 54814})}
+    rewards = {
+        Achievement({id = 16301, criteria = 54814}), --
+        Item({item = 193036}) -- Left-Handed Magnifying Glass
+    }
 }) -- Surveyor's Magnifying Glass
 
 -------------------------------------------------------------------------------
