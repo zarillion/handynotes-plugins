@@ -13,20 +13,10 @@ local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
+
 -------------------------------------------------------------------------------
-------------------------------------- MAP -------------------------------------
--------------------------------------------------------------------------------
+
 local map = Map({id = 116, settings = true})
-
-map.nodes[32205480] = Squirrel({
-    id = 31889,
-    rewards = {Achievement({id = 2557, criteria = 6})}
-}) -- Grizzly Squirrel
-
-map.nodes[57553532] = Squirrel({
-    id = 31890,
-    rewards = {Achievement({id = 2557, criteria = 9})}
-}) -- Mountain Skunk
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -79,3 +69,17 @@ map.nodes[65003000] = Rare({
             })
     }
 }) -- Syreian the Bonecarver
+
+-------------------------------------------------------------------------------
+------------------- TO ALL THE SQUIRRELS WHO SHARED MY LIFE -------------------
+-------------------------------------------------------------------------------
+
+map.nodes[32205480] = Squirrel({
+    id = 31889,
+    rewards = {Achievement({id = 2557, criteria = 6})}
+}) -- Grizzly Squirrel
+
+map.nodes[57553532] = Squirrel({
+    id = 31890,
+    rewards = {Achievement({id = 2557, criteria = 9})}
+}) -- Mountain Skunk
