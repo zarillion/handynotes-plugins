@@ -260,7 +260,7 @@ map.nodes[22207649] = RareElite({ -- required 67030
     quest = 74012,
     rewards = {
         Achievement({id = 16676, criteria = 56047}),
-        Transmog({id = 200192, slot = L['1h_mace']}), -- Handheld Geyser
+        Transmog({item = 200192, slot = L['1h_mace']}), -- Handheld Geyser
         Item({item = 200563, note = L['trinket']}) -- Primal Ritual Shell
     }
 }) -- Massive Magmashell
