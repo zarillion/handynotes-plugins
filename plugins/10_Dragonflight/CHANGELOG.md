@@ -1,3 +1,7 @@
+# v24
+
+* Updated rewards, position and data for multiple nodes.
+
 # v23
 
 * Added reputation turn-in NPC locations.
