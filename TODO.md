@@ -3,15 +3,8 @@
 * Add mouse-over labels and context menu waypoints for POI dots
 * Add custom icon support for POIs (caves, etc)
 * Sub-tooltips on hover to inspect items, spells and rewards
-* Add checkmark to completed nodes
 * Add list of map items to quest log panel (new tab?)
-* Fix transmog collected state on initial load.
 * Investigate auto NPC coloring for tooltips (red, green, yellow).
-* Fix POI arrow to shorten line slightly.
-
-# Shadowlands
-
-* Add Beast Warrens mount to Hunt vignette.
 
 ## Legion
 
