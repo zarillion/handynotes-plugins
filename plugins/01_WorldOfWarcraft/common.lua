@@ -95,7 +95,7 @@ ns.node.Safari = { -- Maybe add this to core later?
     Adder = Class('Adder', Safari, {
         id = 61325,
         rewards = {
-            Achievement({id = 6585, criteria = 21509, oneline = true}),
+            Achievement({id = 6585, criteria = 21509}),
             Achievement({id = 6586, criteria = 21509}),
             Achievement({id = 6587, criteria = 21509}), Pet({id = 635})
         }
@@ -119,9 +119,21 @@ ns.node.Safari = { -- Maybe add this to core later?
         id = 62364,
         rewards = {Achievement({id = 6585, criteria = 21729}), Pet({id = 632})}
     }),
-    -- AshSpiderling
-    -- AshViper
-    -- BabyApe
+    AshSpiderling = Class('AshSpiderling', Safari, {
+        id = 61420,
+        rewards = {Achievement({id = 6585, criteria = 21665}), Pet({id = 427})}
+    }),
+    AshViper = Class('AshViper', Safari, {
+        id = 61385,
+        rewards = {
+            Achievement({id = 6586, criteria = 21624}),
+            Achievement({id = 6587, criteria = 21624}), Pet({id = 425})
+        }
+    }),
+    BabyApe = Class('BabyApe', Safari, {
+        id = 61324,
+        rewards = {Achievement({id = 6586, criteria = 21668}), Pet({id = 411})}
+    }),
     Bat = Class('Bat', Safari, {
         id = 61829,
         rewards = {
@@ -134,7 +146,7 @@ ns.node.Safari = { -- Maybe add this to core later?
         rewards = {Achievement({id = 6585, criteria = 21615}), Pet({id = 406})}
     }),
     -- Biletoad = Class('Biletoad', Safari, {
-    --     id = 62815,
+    --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = 21736}),Achievement({id = 6588, criteria = 21736}), Pet({id = 649})}
     -- }), -- Only in Sholazar Basin, Northrend
     BlackLamb = Class('BlackLamb', Safari, {
@@ -154,7 +166,7 @@ ns.node.Safari = { -- Maybe add this to core later?
         rewards = {Achievement({id = 6586, criteria = 21674}), Pet({id = 449})}
     }),
     -- CarrionRat = Class('CarrionRat', Safari, {
-    --     id = 62885,
+    --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = 21730}), Pet({id = 540})}
     -- }), -- Only in Mount Hyjal, Cataclysm
     Cat = Class('Cat', Safari, {
@@ -183,43 +195,79 @@ ns.node.Safari = { -- Maybe add this to core later?
             Achievement({id = 6586, criteria = 21625}),
             Achievement({id = 6588, criteria = 21625}), Pet({id = 393})
         }
+    }),
+    CoralSnake = Class('CoralSnake', Safari, {
+        id = 62190,
+        rewards = {Achievement({id = 6585, criteria = 21743}), Pet({id = 488})}
+    }),
+    CreepyCrawly = Class('CreepyCrawly', Safari, {
+        id = 62116,
+        rewards = {Achievement({id = 6585, criteria = 21698}), Pet({id = 468})}
+    }),
+    CrestedOwl = Class('CrestedOwl', Safari, {
+        id = 62242,
+        rewards = {Achievement({id = 6585, criteria = 22540}), Pet({id = 507})}
+    }),
+    CrimsonMoth = Class('CrimsonMoth', Safari, {
+        id = 61314,
+        rewards = {Achievement({id = 6586, criteria = 21654}), Pet({id = 421})}
+    }),
+    CrystalSpider = Class('CrystalSpider', Safari, {
+        id = 62435,
+        rewards = {Achievement({id = 6585, criteria = 21512}), Pet({id = 634})}
     })
-    -- CoralSnake
-    -- CreepyCrawly = Class('CreepyCrawly', Safari, {
+    -- DarkshoreCub = Class('DarkshoreCub', Safari, {
     --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
     -- }),
-    -- CrestedOwl
-    -- CrimsonMoth
-    -- CrystalSpider = Class('CrystalSpider', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- DarkshoreCub
     -- DeathsHeadCockroach = Class('DeathsHeadCockroach', Safari, {
     --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
     -- }),
-    -- DesertSpider
+    -- DesertSpider = Class('DesertSpider', Safari, {
+    --     id = nil,
+    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
+    -- }),
     -- DiemetradonHatchling = Class('DiemetradonHatchling', Safari, {
     --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
     -- }),
-    -- DungBeetle
-    -- DuskSpiderling
+    -- DungBeetle = Class('DungBeetle', Safari, {
+    --     id = nil,
+    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
+    -- }),
+    -- DuskSpiderling = Class('DuskSpiderling', Safari, {
+    --     id = nil,
+    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
+    -- }),
     -- ElfinRabbit = Class('ElfinRabbit', Safari, {
     --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
     -- }),
-    -- EmeraldBoa
-    -- Fawn
-    -- FesteringMaggot
+    -- EmeraldBoa = Class('ElfinRabbit', Safari, {
+    --     id = nil,
+    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
+    -- }),
+    -- Fawn = Class('Fawn', Safari, {
+    --     id = nil,
+    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
+    -- }),
+    -- FesteringMaggot = Class('FesteringMaggot', Safari, {
+    --     id = nil,
+    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
+    -- }),
     -- FireBeetle = Class('FireBeetle', Safari, {
     --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
     -- }),
-    -- FireProofRoach
-    -- FledglingBuzzard
+    -- FireProofRoach = Class('FireProofRoach', Safari, {
+    --     id = nil,
+    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
+    -- }),
+    -- FledglingBuzzard = Class('FledglingBuzzard', Safari, {
+    --     id = nil,
+    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
+    -- }),
     -- ForestMoth = Class('ForestMoth', Safari, {
     --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}

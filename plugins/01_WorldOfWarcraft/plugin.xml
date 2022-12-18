@@ -9,13 +9,16 @@
   <Script file="zones\eastern_kingdoms\duskwood.lua"/>
   <Script file="zones\eastern_kingdoms\eastern_plaguelands.lua"/>
   <Script file="zones\eastern_kingdoms\elwynn_forest.lua"/>
-  <Script file="zones\eastern_kingdoms\eversong_woods.lua"/>  <!-- Parent of silvermoon_city-->
+  <Script file="zones\eastern_kingdoms\eversong_woods.lua"/> <!-- Parent of silvermoon_city -->
   <Script file="zones\eastern_kingdoms\northern_stranglethorn.lua"/>
   <Script file="zones\eastern_kingdoms\silvermoon_city.lua"/>
   <Script file="zones\eastern_kingdoms\silverpine_forest.lua"/>
   <Script file="zones\eastern_kingdoms\the_hinterlands.lua"/>
   <Script file="zones\eastern_kingdoms\tirisfal_glades.lua"/>
   <Script file="zones\eastern_kingdoms\western_plaguelands.lua"/>
+  <Script file="zones\eastern_kingdoms\wetlands.lua"/>
+  <Script file="zones\eastern_kingdoms\searing_gorge.lua"/>
+  <Script file="zones\eastern_kingdoms\teldrassil.lua"/>
 
   <Script file="zones\kalimdor\ashenvale.lua"/>
   <Script file="zones\kalimdor\azshara.lua"/>
