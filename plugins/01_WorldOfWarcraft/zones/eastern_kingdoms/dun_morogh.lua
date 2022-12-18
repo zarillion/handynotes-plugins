@@ -42,6 +42,7 @@ map.nodes[55404560] = Safari.AlpineHare({
 }) -- Alpine Hare
 
 new_tinkertown.nodes[46404640] = Safari.AlpineHare({
+    parent = map.id,
     pois = {
         POI({
             31404600, 31804600, 36007240, 37808160, 38607380, 39206920,
@@ -54,6 +55,7 @@ new_tinkertown.nodes[46404640] = Safari.AlpineHare({
 }) -- Alpine Hare
 
 coldridge_valley.nodes[56204860] = Safari.AlpineHare({
+    parent = map.id,
     pois = {
         POI({
             30403460, 41206840, 56204860, 60205380, 62005420, 67405380,

@@ -50,3 +50,7 @@ map.nodes[35406860] = Safari.BlackLamb({
 map.nodes[44205240] = Safari.Cat({
     pois = {POI({43405280, 44005260, 44205240, 44405380, 44605340, 44605360})}
 }) -- Cat
+
+map.nodes[77806620] = Safari.Chicken({
+    pois = {POI({77406520, 77606540, 77806620, 77806660, 79006760, 79206740})}
+}) -- Chicken

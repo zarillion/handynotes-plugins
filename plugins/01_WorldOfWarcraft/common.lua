@@ -99,11 +99,11 @@ ns.node.Safari = { -- Maybe add this to core later?
             Achievement({id = 6586, criteria = 21509}),
             Achievement({id = 6587, criteria = 21509}), Pet({id = 635})
         }
-    }),
+    }), -- Also in Drustvar, BfA; Hellfire Peninsula, Nagrand, BC; Spires of Arak, Legion;
     AlpineChipmunk = Class('AlpineChipmunk', Safari, {
         id = 62189,
         rewards = {Achievement({id = 6585, criteria = 21728}), Pet({id = 487})}
-    }),
+    }), -- Also in Mount Hyjal, Cataclysm; Highmountain, Legion; Drustvar, BfA;
     AlpineHare = Class('AlpineHare', Safari, {
         id = 61690,
         rewards = {
@@ -114,22 +114,22 @@ ns.node.Safari = { -- Maybe add this to core later?
     AmethystShaleHatchling = Class('AmethystShaleHatchling', Safari, {
         id = 62182,
         rewards = {Achievement({id = 6585, criteria = 21711}), Pet({id = 838})}
-    }),
+    }), -- Also in Deepholm, Cataclysm
     AshLizard = Class('AshLizard', Safari, {
         id = 62364,
         rewards = {Achievement({id = 6585, criteria = 21729}), Pet({id = 632})}
-    }),
+    }), -- Also in Mount Hyjal, Cataclysm
     AshSpiderling = Class('AshSpiderling', Safari, {
         id = 61420,
         rewards = {Achievement({id = 6585, criteria = 21665}), Pet({id = 427})}
-    }),
+    }), -- Also in Talador, Draenor
     AshViper = Class('AshViper', Safari, {
         id = 61385,
         rewards = {
             Achievement({id = 6586, criteria = 21624}),
             Achievement({id = 6587, criteria = 21624}), Pet({id = 425})
         }
-    }),
+    }), -- Also in Suramar, Legion; Shadowmoon Valley, BC
     BabyApe = Class('BabyApe', Safari, {
         id = 61324,
         rewards = {Achievement({id = 6586, criteria = 21668}), Pet({id = 411})}
@@ -148,7 +148,7 @@ ns.node.Safari = { -- Maybe add this to core later?
     -- Biletoad = Class('Biletoad', Safari, {
     --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = 21736}),Achievement({id = 6588, criteria = 21736}), Pet({id = 649})}
-    -- }), -- Only in Sholazar Basin, Northrend
+    -- }), -- Only in Sholazar Basin, WoTLK
     BlackLamb = Class('BlackLamb', Safari, {
         id = 60649,
         rewards = {Achievement({id = 6586, criteria = 22886}), Pet({id = 374})}
@@ -156,7 +156,7 @@ ns.node.Safari = { -- Maybe add this to core later?
     BlackRat = Class('BlackRat', Safari, {
         id = 61257,
         rewards = {Achievement({id = 6585, criteria = 21511}), Pet({id = 398})}
-    }),
+    }), -- Also in Drustvar, BfA
     BlightedSquirrel = Class('BlightedSquirrel', Safari, {
         id = 61890,
         rewards = {Achievement({id = 6586, criteria = 21667}), Pet({id = 455})}
@@ -164,7 +164,7 @@ ns.node.Safari = { -- Maybe add this to core later?
     BrownMarmot = Class('BrownMarmot', Safari, {
         id = 61752,
         rewards = {Achievement({id = 6586, criteria = 21674}), Pet({id = 449})}
-    }),
+    }), -- Also in Gorgrond, Draenor
     -- CarrionRat = Class('CarrionRat', Safari, {
     --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = 21730}), Pet({id = 540})}
@@ -183,7 +183,7 @@ ns.node.Safari = { -- Maybe add this to core later?
             Achievement({id = 6586, criteria = 21629}),
             Achievement({id = 6588, criteria = 21629}), Pet({id = 646})
         }
-    }),
+    }), -- Also in Howling Fjord, WoTLK
     CheetahCub = Class('CheetahCub', Safari, {
         id = 62129,
         rewards = {Achievement({id = 6585, criteria = 21629}), Pet({id = 646})}
@@ -195,7 +195,7 @@ ns.node.Safari = { -- Maybe add this to core later?
             Achievement({id = 6586, criteria = 21625}),
             Achievement({id = 6588, criteria = 21625}), Pet({id = 393})
         }
-    }),
+    }), -- Also in Icecrown, WoTLK; Twilight Highlands, Cataclysm; Val'sharah, Legion; Gorgrond, Draenor
     CoralSnake = Class('CoralSnake', Safari, {
         id = 62190,
         rewards = {Achievement({id = 6585, criteria = 21743}), Pet({id = 488})}
@@ -215,36 +215,36 @@ ns.node.Safari = { -- Maybe add this to core later?
     CrystalSpider = Class('CrystalSpider', Safari, {
         id = 62435,
         rewards = {Achievement({id = 6585, criteria = 21512}), Pet({id = 634})}
-    })
-    -- DarkshoreCub = Class('DarkshoreCub', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
+    }),
+    DarkshoreCub = Class('DarkshoreCub', Safari, {
+        id = 62250,
+        rewards = {Achievement({id = 6585, criteria = 21697}), Pet({id = 508})}
+    }),
     -- DeathsHeadCockroach = Class('DeathsHeadCockroach', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- DesertSpider = Class('DesertSpider', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- DiemetradonHatchling = Class('DiemetradonHatchling', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- DungBeetle = Class('DungBeetle', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- DuskSpiderling = Class('DuskSpiderling', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
+    --     id = 62887,
+    --     rewards = {Achievement({id = 6585, criteria = 21731}), Pet({id = 755})}
+    -- }), -- Only in Mount Hyjal, Cataclysm
+    DesertSpider = Class('DesertSpider', Safari, {
+        id = 62186,
+        rewards = {Achievement({id = 6585, criteria = 21712}), Pet({id = 484})}
+    }), -- Also in Uldum, Cataclysm
+    DiemetradonHatchling = Class('DiemetradonHatchling', Safari, {
+        id = 62375,
+        rewards = {Achievement({id = 6585, criteria = 21750}), Pet({id = 504})}
+    }),
+    DungBeetle = Class('DungBeetle', Safari, {
+        id = 62115,
+        rewards = {Achievement({id = 6585, criteria = 21719}), Pet({id = 467})}
+    }), -- Also in Uldum, Cataclysm
+    DuskSpiderling = Class('DuskSpiderling', Safari, {
+        id = 61253,
+        rewards = {Achievement({id = 6585, criteria = 21655}), Pet({id = 396})}
+    })
     -- ElfinRabbit = Class('ElfinRabbit', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
+    --     id = 62178,
+    --     rewards = {Achievement({id = 6585, criteria = 21713}), Pet({id = 479})}
     -- }),
-    -- EmeraldBoa = Class('ElfinRabbit', Safari, {
+    -- EmeraldBoa = Class('EmeraldBoa', Safari, {
     --     id = nil,
     --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
     -- }),
