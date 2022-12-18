@@ -56,6 +56,9 @@
 * [Broken Isles Safari](https://www.wowhead.com/achievement=11233/broken-isles-safari)
 * [Broken Shore Rares](https://www.wowhead.com/quest=46250/take-out-the-head)
 * [Long-Forgotten Hippogryph](https://www.wowhead.com/item=138258/reins-of-the-long-forgotten-hippogryph)
+* [Anomalous Animals of Argus](https://www.wowhead.com/achievement=12088/anomalous-animals-of-argus)
+* [Commander of Argus](https://www.wowhead.com/achievement=12078/commander-of-argus)
+* [Shoot First, Loot Later](https://www.wowhead.com/achievement=12074/shoot-first-loot-later)
 
 # Battle for Azeroth
 
@@ -70,9 +73,3 @@
 # Dragonflight
 
 * [Dragon Isles Safari](https://www.wowhead.com/achievement=16519/dragon-isles-safari)
-
-## Argus
-
-* [Anomalous Animals of Argus](https://www.wowhead.com/achievement=12088/anomalous-animals-of-argus)
-* [Commander of Argus](https://www.wowhead.com/achievement=12078/commander-of-argus)
-* [Shoot First, Loot Later](https://www.wowhead.com/achievement=12074/shoot-first-loot-later)
