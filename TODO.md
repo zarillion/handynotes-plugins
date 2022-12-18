@@ -13,8 +13,6 @@
 
 * Add Beast Warrens mount to Hunt vignette.
 
-# Legion
-
 ## Broken Isles
 
 * [Adventurer of Azsuna](https://www.wowhead.com/achievement=11261/adventurer-of-azsuna)
@@ -31,9 +29,47 @@
 
 ### Optional
 
+# Classic
+
+* [Eastern Kingdoms Safari](https://www.wowhead.com/achievement=6586/eastern-kingdoms-safari)
+* [Kalimdor Safari](https://www.wowhead.com/achievement=6585/kalimdor-safari)
+
+# Burning Crusade
+
+* [Outland Safari](https://www.wowhead.com/achievement=6587/outland-safari)
+
+# Wrath of the Lich King
+
+* [Northrend Safari](https://www.wowhead.com/achievement=6588/northrend-safari)
+
+# Mists of Pandaria
+
+* [Pandaria Safari](https://www.wowhead.com/achievement=6589/pandaria-safari)
+* [World Safari](https://www.wowhead.com/achievement=6590/world-safari)
+
+# Warlords of Draenor
+
+* [Draenor Safari](https://www.wowhead.com/achievement=9685/draenor-safari)
+
+# Legion
+
+* [Broken Isles Safari](https://www.wowhead.com/achievement=11233/broken-isles-safari)
 * [Broken Shore Rares](https://www.wowhead.com/quest=46250/take-out-the-head)
-* [Higher Dimensional Learning](https://www.wowhead.com/achievement=11175/higher-dimensional-learning)
 * [Long-Forgotten Hippogryph](https://www.wowhead.com/item=138258/reins-of-the-long-forgotten-hippogryph)
+
+# Battle for Azeroth
+
+* [Battle Safari](https://www.wowhead.com/achievement=12930/battle-safari)
+* [Mecha-Safari](https://www.wowhead.com/achievement=13693/mecha-safari)
+* [Nazjatari Safari](https://www.wowhead.com/achievement=13694/nazjatari-safari)
+
+# Shadowlands
+
+* [Shadowlands Safari](https://www.wowhead.com/achievement=14867/shadowlands-safari)
+
+# Dragonflight
+
+* [Dragon Isles Safari](https://www.wowhead.com/achievement=16519/dragon-isles-safari)
 
 ## Argus
 
