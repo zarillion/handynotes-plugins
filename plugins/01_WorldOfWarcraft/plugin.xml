@@ -1,11 +1,32 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
   <Script file="common.lua"/>
-  <Script file="zones\ashenvale.lua"/>
-  <Script file="zones\azshara.lua"/>
-  <Script file="zones\blasted_lands.lua"/>
-  <Script file="zones\caverns_of_time.lua"/>
-  <Script file="zones\duskwood.lua"/>
-  <Script file="zones\the_hinterlands.lua"/>
-  <Script file="zones\feralas.lua"/>
-  <Script file="zones\tanaris.lua"/>
+
+  <Script file="zones\eastern_kingdoms\arathi_highlands.lua"/>
+  <Script file="zones\eastern_kingdoms\blasted_lands.lua"/>
+  <Script file="zones\eastern_kingdoms\burning_steppes.lua"/>
+  <Script file="zones\eastern_kingdoms\cape_of_stranglethorn.lua"/>
+  <Script file="zones\eastern_kingdoms\dun_morogh.lua"/>
+  <Script file="zones\eastern_kingdoms\duskwood.lua"/>
+  <Script file="zones\eastern_kingdoms\eastern_plaguelands.lua"/>
+  <Script file="zones\eastern_kingdoms\elwynn_forest.lua"/>
+  <Script file="zones\eastern_kingdoms\eversong_woods.lua"/>  <!-- Parent of silvermoon_city-->
+  <Script file="zones\eastern_kingdoms\northern_stranglethorn.lua"/>
+  <Script file="zones\eastern_kingdoms\silvermoon_city.lua"/>
+  <Script file="zones\eastern_kingdoms\silverpine_forest.lua"/>
+  <Script file="zones\eastern_kingdoms\the_hinterlands.lua"/>
+  <Script file="zones\eastern_kingdoms\tirisfal_glades.lua"/>
+  <Script file="zones\eastern_kingdoms\western_plaguelands.lua"/>
+
+  <Script file="zones\kalimdor\ashenvale.lua"/>
+  <Script file="zones\kalimdor\azshara.lua"/>
+  <Script file="zones\kalimdor\caverns_of_time.lua"/>
+  <Script file="zones\kalimdor\desolace.lua"/>
+  <Script file="zones\kalimdor\durotar.lua"/>
+  <Script file="zones\kalimdor\feralas.lua"/>
+  <Script file="zones\kalimdor\northern_barrens.lua"/>
+  <Script file="zones\kalimdor\southern_barrens.lua"/>
+  <Script file="zones\kalimdor\stonetalon_mountains.lua"/>
+  <Script file="zones\kalimdor\tanaris.lua"/>
+  <Script file="zones\kalimdor\ungoro_crater.lua"/>
+  <Script file="zones\kalimdor\winterspring.lua"/>
 </Ui>
