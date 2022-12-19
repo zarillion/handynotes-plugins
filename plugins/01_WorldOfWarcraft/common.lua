@@ -238,253 +238,571 @@ ns.node.Safari = { -- Maybe add this to core later?
     }), -- Also in Uldum, Cataclysm
     DuskSpiderling = Class('DuskSpiderling', Safari, {
         id = 61253,
-        rewards = {Achievement({id = 6585, criteria = 21655}), Pet({id = 396})}
-    })
-    -- ElfinRabbit = Class('ElfinRabbit', Safari, {
-    --     id = 62178,
-    --     rewards = {Achievement({id = 6585, criteria = 21713}), Pet({id = 479})}
-    -- }),
-    -- EmeraldBoa = Class('EmeraldBoa', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- Fawn = Class('Fawn', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- FesteringMaggot = Class('FesteringMaggot', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- FireBeetle = Class('FireBeetle', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- FireProofRoach = Class('FireProofRoach', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- FledglingBuzzard = Class('FledglingBuzzard', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- ForestMoth = Class('ForestMoth', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- ForestSpiderling
-    -- Frog
-    -- GazelleFawn = Class('GazelleFawn', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- GiraffeCalf
-    -- GoldBeetle = Class('GoldBeetle', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- Grasslands Cottontail
-    -- GreyMoth
-    -- Grizzly Squirrel
-    -- Hare = Class('Hare', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- HighlandsMouse
-    -- HighlandsSkunk
-    -- HighlandsTurkey
-    -- HornedLizard
-    -- HornyToad = Class('HornyToad', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- HugeToad
-    -- InfectedFawn
-    -- InfectedSquirrel = Class('InfectedSquirrel', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- InfestedBearCub
-    -- IrradiatedRoach
-    -- JadeOozeling
-    -- KingSnake
-    -- Larva
-    -- LavaBeetle
-    -- LavaCrab
-    -- LeopardScorpid
-    -- LittleBlackRam
-    -- LizardHatchling
-    -- Locust = Class('Locust', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- LongTailedMole
-    -- LostOfLordaeron
-    -- MacFrog = Class('MacFrog', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- Maggot
-    -- Minfernal = Class('Minfernal', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- Moccasin
-    -- MoltenHatchling
-    -- MountainCottontail
-    -- MountainSkunk = Class('MountainSkunk', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- Mouse
-    -- NetherFaerieDragon = Class('NetherFaerieDragon', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- NordrassilWisp
-    -- OasisMoth = Class('OasisMoth', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- Parrot
-    -- Polly
-    -- PrairieDog = Class('PrairieDog', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- QirajiGuardling
-    -- Rabbit = Class('Rabbit', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- RabidNutVarmint5000
-    -- Rat = Class('Rat', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- RatSnake
-    -- Rattlesnake
-    -- RavagerHatchling = Class('RavagerHatchling', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- RedTailedChipmunk
-    -- RedridgeRat
-    -- RestlessShadeling
-    -- Roach = Class('Roach', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- RoboChick
-    -- RockViper = Class('RockViper', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- RubySapling
-    -- RustySnail
-    -- SandKitten = Class('SandKitten', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- ScarabHatchling
-    -- Scorpid = Class('Scorpid', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- Scorpling
-    -- SeaGull
-    -- ShimmershellSnail = Class('ShimmershellSnail', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- ShoreCrab
-    -- Sidewinder = Class('Sidewinder', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- SilithidHatchling
-    -- SilkyMoth = Class('SilkyMoth', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- Skunk
-    -- SmallFrog = Class('SmallFrog', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- Snake
-    -- SnowCub
-    -- SnowshoeHare
-    -- SnowyOwl = Class('SnowyOwl', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- SpawnOfOnyxia
-    -- Spider = Class('Spider', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- SpinyLizard = Class('SpinyLizard', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- SpiritCrab
-    -- SpottedBellFrog
-    -- Squirrel = Class('Squirrel', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- Stinkbug
-    -- StoneArmadillo = Class('StoneArmadillo', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- StormwindRat
-    -- StrandCrab
-    -- StripeTailedScorpid = Class('StripeTailedScorpid', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- SwampMoth
-    -- TaintedCockroach
-    -- TaintedMoth = Class('TaintedMoth', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- TaintedRat
-    -- TinyBogBeast
-    -- TinyHarvester
-    -- TinyTwister
-    -- Toad = Class('Toad', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- TolvirScarab
-    -- TopazShaleHatchling = Class('TopazShaleHatchling', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- TreePython
-    -- TurquoiseTurtle = Class('TurquoiseTurtle', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-
-    -- TwilightBeetle
-    -- TwilightFiendling
-    -- TwilightIguana = Class('TwilightIguana', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- TwilightSpider
-    -- UndercityRat
-    -- VenomspitterHatchling = Class('VenomspitterHatchling', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = nil}), Pet({id = nil})}
-    -- }),
-    -- WaterSnake
-    -- WharfRat
-    -- WidowSpiderling
-    -- WildhammerGryphonHatchling
-    -- YellowBelliedMarmot
+        rewards = {Achievement({id = 6586, criteria = 21630}), Pet({id = 396})}
+    }), -- Also in Azsuna, Val'sharah, Legion
+    ElfinRabbit = Class('ElfinRabbit', Safari, {
+        id = 62178,
+        rewards = {Achievement({id = 6585, criteria = 21713}), Pet({id = 479})}
+    }), -- Also in Mount Hyjal, Cataclysm; Val'sharah, The Dreamgrove, Legion
+    EmeraldBoa = Class('EmeraldBoa', Safari, {
+        id = 62127,
+        rewards = {Achievement({id = 6585, criteria = 21738}), Pet({id = 631})}
+    }), -- Also in Uldum, Cataclysm
+    Fawn = Class('Fawn', Safari, {
+        id = 61165,
+        rewards = {Achievement({id = 6586, criteria = 21639}), Pet({id = 447})}
+    }),
+    FesteringMaggot = Class('FesteringMaggot', Safari, {
+        id = 61830,
+        rewards = {Achievement({id = 6586, criteria = 21636}), Pet({id = 457})}
+    }),
+    FireBeetle = Class('FireBeetle', Safari, {
+        id = 61328,
+        rewards = {
+            Achievement({id = 6585, criteria = 21621}),
+            Achievement({id = 6586, criteria = 21621}), Pet({id = 415})
+        }
+    }), -- Also in Mount Hyjal, Cataclysm
+    FireProofRoach = Class('FireProofRoach', Safari, {
+        id = 62886,
+        rewards = {Achievement({id = 6585, criteria = 21732}), Pet({id = 541})}
+    }), -- Only in Mount Hyjal, Cataclysm
+    FledglingBuzzard = Class('FledglingBuzzard', Safari, {
+        id = 61171,
+        rewards = {Achievement({id = 6586, criteria = 21662}), Pet({id = 395})}
+    }),
+    ForestMoth = Class('ForestMoth', Safari, {
+        id = 62177,
+        rewards = {Achievement({id = 6585, criteria = 21702}), Pet({id = 478})}
+    }), -- Also in Tiragarde Sound, BfA; Azsuna, Legion
+    ForestSpiderling = Class('ForestSpiderling', Safari, {
+        id = 61320,
+        rewards = {Achievement({id = 6586, criteria = 21655}), Pet({id = 407})}
+    }), -- TODO
+    Frog = Class('Frog', Safari, {
+        id = 62312,
+        rewards = {Achievement({id = 6585, criteria = 21691}), Pet({id = 495})}
+    }), -- TODO
+    GazelleFawn = Class('GazelleFawn', Safari, {
+        id = 62176,
+        rewards = {Achievement({id = 6585, criteria = 21735}), Pet({id = 477})}
+    }), -- TODO
+    GiraffeCalf = Class('GiraffeCalf', Safari, {
+        id = 62130,
+        rewards = {Achievement({id = 6585, criteria = 21742}), Pet({id = 475})}
+    }), -- TODO
+    GoldBeetle = Class('GoldBeetle', Safari, {
+        id = 61438,
+        rewards = {
+            Achievement({id = 6585, criteria = 21616}),
+            Achievement({id = 6586, criteria = 21616}), Pet({id = 430})
+        }
+    }), -- TODO
+    GrasslandsCottontail = Class('GrasslandsCottontail', Safari, {
+        id = 61704,
+        rewards = {Achievement({id = 6586, criteria = 21611}), Pet({id = 443})}
+    }), -- TODO
+    GreyMoth = Class('GreyMoth', Safari, {
+        id = 62050,
+        rewards = {Achievement({id = 6585, criteria = 21708}), Pet({id = 464})}
+    }), -- TODO
+    GrizzlySquirrel = Class('GrizzlySquirrel', Safari, {
+        id = 62818,
+        rewards = {Achievement({id = 6586, criteria = 21679}), Pet({id = 647})}
+    }), -- TODO
+    Hare = Class('Hare', Safari, {
+        id = 61751,
+        rewards = {
+            Achievement({id = 6585, criteria = 21612}),
+            Achievement({id = 6586, criteria = 21612}), Pet({id = 448})
+        }
+    }), -- TODO
+    HighlandsMouse = Class('HighlandsMouse', Safari, {
+        id = 62905,
+        rewards = {Achievement({id = 6586, criteria = 21680}), Pet({id = 550})}
+    }), -- TODO
+    HighlandsSkunk = Class('HighlandsSkunk', Safari, {
+        id = 62907,
+        rewards = {Achievement({id = 6586, criteria = 21681}), Pet({id = 823})}
+    }), -- TODO
+    HighlandsTurkey = Class('HighlandsTurkey', Safari, {
+        id = 62906,
+        rewards = {Achievement({id = 6586, criteria = 21682}), Pet({id = 645})}
+    }), -- TODO
+    HornedLizard = Class('HornedLizard', Safari, {
+        id = 62894,
+        rewards = {Achievement({id = 6585, criteria = 21701}), Pet({id = 851})}
+    }), -- TODO
+    HornyToad = Class('HornyToad', Safari, {
+        id = 62185,
+        rewards = {Achievement({id = 6585, criteria = 21715}), Pet({id = 483})}
+    }), -- TODO
+    HugeToad = Class('HugeToad', Safari, {
+        id = 61368,
+        rewards = {Achievement({id = 6586, criteria = 21649}), Pet({id = 648})}
+    }), -- TODO
+    InfectedFawn = Class('HugeToad', Safari, {
+        id = 61827,
+        rewards = {
+            Achievement({id = 6585, criteria = 21637}),
+            Achievement({id = 6586, criteria = 21637}), Pet({id = 628})
+        }
+    }), -- TODO
+    InfectedSquirrel = Class('InfectedSquirrel', Safari, {
+        id = 61828,
+        rewards = {
+            Achievement({id = 6585, criteria = 21638}),
+            Achievement({id = 6586, criteria = 21638}), Pet({id = 627})
+        }
+    }), -- TODO
+    InfestedBearCub = Class('InfestedBearCub', Safari, {
+        id = 61758,
+        rewards = {Achievement({id = 6586, criteria = 21650}), Pet({id = 453})}
+    }), -- TODO
+    IrradiatedRoach = Class('IrradiatedRoach', Safari, {
+        id = 61691,
+        rewards = {Achievement({id = 6586, criteria = 21507}), Pet({id = 442})}
+    }), -- TODO
+    JadeOozeling = Class('JadeOozeling', Safari, {
+        id = 61718,
+        rewards = {Achievement({id = 6586, criteria = 21675}), Pet({id = 446})}
+    }), -- TODO
+    KingSnake = Class('KingSnake', Safari, {
+        id = 61443,
+        rewards = {Achievement({id = 6586, criteria = 21618}), Pet({id = 438})}
+    }), -- TODO
+    Larva = Class('Larva', Safari, {
+        id = 62022,
+        rewards = {Achievement({id = 6586, criteria = 21647}), Pet({id = 461})}
+    }), -- TODO
+    LavaBeetle = Class('LavaBeetle', Safari, {
+        id = 61386,
+        rewards = {Achievement({id = 6586, criteria = 21626}), Pet({id = 429})}
+    }), -- TODO
+    LavaCrab = Class('LavaCrab', Safari, {
+        id = 61383,
+        rewards = {Achievement({id = 6586, criteria = 21627}), Pet({id = 423})}
+    }), -- TODO
+    LeopardScorpid = Class('LeopardScorpid', Safari, {
+        id = 62896,
+        rewards = {Achievement({id = 6585, criteria = 21751}), Pet({id = 545})}
+    }), -- TODO
+    LittleBlackRam = Class('LittleBlackRam', Safari, {
+        id = 61459,
+        rewards = {Achievement({id = 6586, criteria = 21653}), Pet({id = 437})}
+    }), -- TODO
+    LizardHatchling = Class('LizardHatchling', Safari, {
+        id = 61321,
+        rewards = {Achievement({id = 6586, criteria = 21656}), Pet({id = 408})}
+    }), -- TODO
+    Locust = Class('Locust', Safari, {
+        id = 62893,
+        rewards = {Achievement({id = 6585, criteria = 21752}), Pet({id = 543})}
+    }), -- TODO
+    LongTailedMole = Class('LongTailedMole', Safari, {
+        id = 61317,
+        rewards = {
+            Achievement({id = 6585, criteria = 21513}),
+            Achievement({id = 6586, criteria = 21513}), Pet({id = 404})
+        }
+    }), -- TODO
+    LostOfLordaeron = Class('LostOfLordaeron', Safari, {
+        id = 61905,
+        rewards = {Achievement({id = 6586, criteria = 21676}), Pet({id = 458})}
+    }), -- TODO
+    MacFrog = Class('MacFrog', Safari, {
+        id = 62892,
+        rewards = {Achievement({id = 6585, criteria = 21753}), Pet({id = 542})}
+    }), -- TODO
+    Maggot = Class('Maggot', Safari, {
+        id = 61753,
+        rewards = {
+            Achievement({id = 6585, criteria = 21514}),
+            Achievement({id = 6586, criteria = 21514}), Pet({id = 450})
+        }
+    }), -- TODO
+    Minfernal = Class('Minfernal', Safari, {
+        id = 62317,
+        rewards = {Achievement({id = 6585, criteria = 21722}), Pet({id = 500})}
+    }), -- TODO
+    Moccasin = Class('Moccasin', Safari, {
+        id = 61372,
+        rewards = {Achievement({id = 6586, criteria = 21671}), Pet({id = 422})}
+    }), -- TODO
+    MoltenHatchling = Class('Moccasin', Safari, {
+        id = 61425,
+        rewards = {Achievement({id = 6586, criteria = 21666}), Pet({id = 428})}
+    }), -- TODO
+    MountainCottontail = Class('Moccasin', Safari, {
+        id = 61167,
+        rewards = {
+            Achievement({id = 6585, criteria = 21663}),
+            Achievement({id = 6586, criteria = 21663}), Pet({id = 391})
+        }
+    }), -- TODO
+    MountainSkunk = Class('MountainSkunk', Safari, {
+        id = 61677,
+        rewards = {
+            Achievement({id = 6585, criteria = 21688}),
+            Achievement({id = 6586, criteria = 21688}), Pet({id = 633})
+        }
+    }), -- TODO
+    Mouse = Class('Mouse', Safari, {
+        id = 61143,
+        rewards = {
+            Achievement({id = 6585, criteria = 21631}),
+            Achievement({id = 6586, criteria = 21631}), Pet({id = 385})
+        }
+    }), -- TODO
+    NetherFaerieDragon = Class('NetherFaerieDragon', Safari, {
+        id = 62395,
+        rewards = {Achievement({id = 6585, criteria = 21726}), Pet({id = 557})}
+    }), -- TODO
+    NordrassilWisp = Class('NordrassilWisp', Safari, {
+        id = 62888,
+        rewards = {Achievement({id = 6585, criteria = 21734}), Pet({id = 547})}
+    }), -- TODO
+    OasisMoth = Class('OasisMoth', Safari, {
+        id = 62895,
+        rewards = {Achievement({id = 6585, criteria = 21754}), Pet({id = 544})}
+    }), -- TODO
+    Parrot = Class('Parrot', Safari, {
+        id = 61313,
+        rewards = {
+            Achievement({id = 6585, criteria = 21657}),
+            Achievement({id = 6586, criteria = 21657}), Pet({id = 403})
+        }
+    }), -- TODO
+    Polly = Class('Polly', Safari, {
+        id = 61322,
+        rewards = {Achievement({id = 6586, criteria = 21658}), Pet({id = 409})}
+    }), -- TODO
+    PrairieDog = Class('PrairieDog', Safari, {
+        id = 61141,
+        rewards = {
+            Achievement({id = 6585, criteria = 21613}),
+            Achievement({id = 6586, criteria = 21613}), Pet({id = 386})
+        }
+    }), -- TODO
+    QirajiGuardling = Class('QirajiGuardling', Safari, {
+        id = 62526,
+        rewards = {Achievement({id = 6585, criteria = 21739}), Pet({id = 513})}
+    }), -- TODO
+    Rabbit = Class('Rabbit', Safari, {
+        id = 61080,
+        rewards = {
+            Achievement({id = 6585, criteria = 21508}),
+            Achievement({id = 6586, criteria = 21508}), Pet({id = 378})
+        }
+    }), -- TODO
+    RabidNutVarmint5000 = Class('RabidNutVarmint5000', Safari, {
+        id = 62120,
+        rewards = {Achievement({id = 6585, criteria = 21704}), Pet({id = 472})}
+    }), -- TODO
+    Rat = Class('Rat', Safari, {
+        id = 61366,
+        rewards = {
+            Achievement({id = 6585, criteria = 21516}),
+            Achievement({id = 6586, criteria = 21516}), Pet({id = 417})
+        }
+    }), -- TODO
+    RatSnake = Class('RatSnake', Safari, {
+        id = 61258,
+        rewards = {Achievement({id = 6586, criteria = 21632}), Pet({id = 399})}
+    }), -- TODO
+    Rattlesnake = Class('Rattlesnake', Safari, {
+        id = 61439,
+        rewards = {
+            Achievement({id = 6585, criteria = 21617}),
+            Achievement({id = 6586, criteria = 21617}), Pet({id = 431})
+        }
+    }), -- TODO
+    RavagerHatchling = Class('RavagerHatchling', Safari, {
+        id = 62051,
+        rewards = {Achievement({id = 6585, criteria = 21709}), Pet({id = 465})}
+    }), -- TODO
+    RedTailedChipmunk = Class('RedTailedChipmunk', Safari, {
+        id = 61757,
+        rewards = {
+            Achievement({id = 6585, criteria = 21651}),
+            Achievement({id = 6586, criteria = 21651}), Pet({id = 452})
+        }
+    }), -- TODO
+    RedridgeRat = Class('RedridgeRat', Safari, {
+        id = 61168,
+        rewards = {Achievement({id = 6586, criteria = 21664}), Pet({id = 392})}
+    }), -- TODO
+    RestlessShadeling = Class('RestlessShadeling', Safari, {
+        id = 61375,
+        rewards = {Achievement({id = 6586, criteria = 21628}), Pet({id = 439})}
+    }), -- TODO
+    Roach = Class('Roach', Safari, {
+        id = 61169,
+        rewards = {
+            Achievement({id = 6585, criteria = 21517}),
+            Achievement({id = 6586, criteria = 21517}), Pet({id = 424})
+        }
+    }), -- TODO
+    RoboChick = Class('RoboChick', Safari, {
+        id = 62119,
+        rewards = {Achievement({id = 6585, criteria = 21705}), Pet({id = 471})}
+    }), -- TODO
+    RockViper = Class('RockViper', Safari, {
+        id = 62184,
+        rewards = {Achievement({id = 6585, criteria = 21699}), Pet({id = 482})}
+    }), -- TODO
+    RubySapling = Class('RubySapling', Safari, {
+        id = 62020,
+        rewards = {Achievement({id = 6586, criteria = 21644}), Pet({id = 460})}
+    }), -- TODO
+    RustySnail = Class('RustySnail', Safari, {
+        id = 62313,
+        rewards = {Achievement({id = 6585, criteria = 21703}), Pet({id = 496})}
+    }), -- TODO
+    SandKitten = Class('SandKitten', Safari, {
+        id = 62257,
+        rewards = {Achievement({id = 6585, criteria = 21746}), Pet({id = 491})}
+    }), -- TODO
+    ScarabHatchling = Class('ScarabHatchling', Safari, {
+        id = 62524,
+        rewards = {Achievement({id = 6585, criteria = 21740}), Pet({id = 512})}
+    }), -- TODO
+    Scorpid = Class('Scorpid', Safari, {
+        id = 61326,
+        rewards = {
+            Achievement({id = 6585, criteria = 21622}),
+            Achievement({id = 6586, criteria = 21622}), Pet({id = 414})
+        }
+    }), -- TODO
+    Scorpling = Class('Scorpling', Safari, {
+        id = 61329,
+        rewards = {Achievement({id = 6586, criteria = 21623}), Pet({id = 416})}
+    }), -- TODO
+    SeaGull = Class('SeaGull', Safari, {
+        id = 62953,
+        rewards = {
+            Achievement({id = 6585, criteria = 21640}),
+            Achievement({id = 6586, criteria = 21640}), Pet({id = 560})
+        }
+    }), -- TODO
+    ShimmershellSnail = Class('ShimmershellSnail', Safari, {
+        id = 62246,
+        rewards = {Achievement({id = 6585, criteria = 21710}), Pet({id = 493})}
+    }), -- TODO
+    ShoreCrab = Class('ShoreCrab', Safari, {
+        id = 61158,
+        rewards = {Achievement({id = 6585, criteria = 21706}), Pet({id = 388})}
+    }), -- TODO
+    Sidewinder = Class('Sidewinder', Safari, {
+        id = 62523,
+        rewards = {Achievement({id = 6585, criteria = 21741}), Pet({id = 511})}
+    }), -- TODO
+    SilithidHatchling = Class('SilithidHatchling', Safari, {
+        id = 62258,
+        rewards = {Achievement({id = 6585, criteria = 21747}), Pet({id = 494})}
+    }), -- TODO
+    SilkyMoth = Class('SilkyMoth', Safari, {
+        id = 62373,
+        rewards = {Achievement({id = 6585, criteria = 21727}), Pet({id = 503})}
+    }), -- TODO
+    Skunk = Class('Skunk', Safari, {
+        id = 61255,
+        rewards = {
+            Achievement({id = 6585, criteria = 21633}),
+            Achievement({id = 6586, criteria = 21633}), Pet({id = 397})
+        }
+    }), -- TODO
+    SmallFrog = Class('SmallFrog', Safari, {
+        id = 61071,
+        rewards = {
+            Achievement({id = 6585, criteria = 21518}),
+            Achievement({id = 6586, criteria = 21518}), Pet({id = 419})
+        }
+    }), -- TODO
+    Snake = Class('Snake', Safari, {
+        id = 61142,
+        rewards = {
+            Achievement({id = 6585, criteria = 21519}),
+            Achievement({id = 6586, criteria = 21519}), Pet({id = 387})
+        }
+    }), -- TODO
+    SnowCub = Class('SnowCub', Safari, {
+        id = 61689,
+        rewards = {Achievement({id = 6586, criteria = 21520}), Pet({id = 440})}
+    }), -- TODO
+    SnowshoeHare = Class('SnowshoeHare', Safari, {
+        id = 61755,
+        rewards = {Achievement({id = 6586, criteria = 21652}), Pet({id = 640})}
+    }), -- TODO
+    SnowyOwl = Class('SnowyOwl', Safari, {
+        id = 7554,
+        rewards = {Achievement({id = 6585, criteria = 21757}), Pet({id = 69})}
+    }), -- TODO
+    SpawnOfOnyxia = Class('SpawnOfOnyxia', Safari, {
+        id = 62201,
+        rewards = {Achievement({id = 6585, criteria = 21721}), Pet({id = 489})}
+    }), -- TODO
+    Spider = Class('Spider', Safari, {
+        id = 61327,
+        rewards = {
+            Achievement({id = 6585, criteria = 21521}),
+            Achievement({id = 6586, criteria = 21521}), Pet({id = 412})
+        }
+    }), -- TODO
+    SpikyLizard = Class('SpikyLizard', Safari, {
+        id = 61441,
+        rewards = {
+            Achievement({id = 6585, criteria = 21619}),
+            Achievement({id = 6586, criteria = 21619}), Pet({id = 433})
+        }
+    }), -- TODO
+    SpinyLizard = Class('SpinyLizard', Safari, {
+        id = 62114,
+        rewards = {Achievement({id = 6585, criteria = 21720}), Pet({id = 466})}
+    }), -- TODO
+    SpiritCrab = Class('SpiritCrab', Safari, {
+        id = 62034,
+        rewards = {Achievement({id = 6586, criteria = 21648}), Pet({id = 463})}
+    }), -- TODO
+    SpottedBellFrog = Class('SpottedBellFrog', Safari, {
+        id = 62370,
+        rewards = {Achievement({id = 6585, criteria = 21756}), Pet({id = 502})}
+    }), -- TODO
+    Squirrel = Class('Squirrel', Safari, {
+        id = 61081,
+        rewards = {
+            Achievement({id = 6585, criteria = 21522}),
+            Achievement({id = 6586, criteria = 21522}), Pet({id = 379})
+        }
+    }), -- TODO
+    Stinkbug = Class('Stinkbug', Safari, {
+        id = 62256,
+        rewards = {Achievement({id = 6585, criteria = 21748}), Pet({id = 492})}
+    }), -- TODO
+    StoneArmadillo = Class('StoneArmadillo', Safari, {
+        id = 62187,
+        rewards = {Achievement({id = 6585, criteria = 21717}), Pet({id = 485})}
+    }), -- TODO
+    StormwindRat = Class('StormwindRat', Safari, {
+        id = 62954,
+        rewards = {Achievement({id = 6586, criteria = 21641}), Pet({id = 675})}
+    }), -- TODO
+    StrandCrab = Class('StrandCrab', Safari, {
+        id = 61312,
+        rewards = {
+            Achievement({id = 6585, criteria = 21659}),
+            Achievement({id = 6586, criteria = 21659}), Pet({id = 401})
+        }
+    }), -- TODO
+    StripeTailedScorpid = Class('StripeTailedScorpid', Safari, {
+        id = 61440,
+        rewards = {
+            Achievement({id = 6585, criteria = 21620}),
+            Achievement({id = 6586, criteria = 21620}), Pet({id = 432})
+        }
+    }), -- TODO
+    SwampMoth = Class('SwampMoth', Safari, {
+        id = 61370,
+        rewards = {Achievement({id = 6586, criteria = 21672}), Pet({id = 402})}
+    }), -- TODO
+    TaintedCockroach = Class('TaintedCockroach', Safari, {
+        id = 62314,
+        rewards = {Achievement({id = 6585, criteria = 21723}), Pet({id = 497})}
+    }), -- TODO
+    TaintedMoth = Class('TaintedMoth', Safari, {
+        id = 62315,
+        rewards = {Achievement({id = 6585, criteria = 21724}), Pet({id = 498})}
+    }), -- TODO
+    TaintedRat = Class('TaintedRat', Safari, {
+        id = 62316,
+        rewards = {Achievement({id = 6585, criteria = 21725}), Pet({id = 499})}
+    }), -- TODO
+    TinyBogBeast = Class('TinyBogBeast', Safari, {
+        id = 61686,
+        rewards = {Achievement({id = 6586, criteria = 21689}), Pet({id = 509})}
+    }), -- TODO
+    TinyHarvester = Class('TinyHarvester', Safari, {
+        id = 61160,
+        rewards = {Achievement({id = 6586, criteria = 21687}), Pet({id = 389})}
+    }), -- TODO
+    TinyTwister = Class('TinyTwister', Safari, {
+        id = 61703,
+        rewards = {Achievement({id = 6586, criteria = 21614}), Pet({id = 445})}
+    }), -- TODO
+    Toad = Class('Toad', Safari, {
+        id = 61369,
+        rewards = {
+            Achievement({id = 6585, criteria = 21646}),
+            Achievement({id = 6586, criteria = 21646}), Pet({id = 420})
+        }
+    }), -- TODO
+    TolvirScarab = Class('TolvirScarab', Safari, {
+        id = 62899,
+        rewards = {Achievement({id = 6585, criteria = 21755}), Pet({id = 546})}
+    }), -- TODO
+    TopazShaleHatchling = Class('TopazShaleHatchling', Safari, {
+        id = 62181,
+        rewards = {Achievement({id = 6585, criteria = 21718}), Pet({id = 480})}
+    }), -- TODO
+    TreePython = Class('TreePython', Safari, {
+        id = 61318,
+        rewards = {
+            Achievement({id = 6585, criteria = 21660}),
+            Achievement({id = 6586, criteria = 21660}), Pet({id = 405})
+        }
+    }), -- TODO
+    TurquoiseTurtle = Class('TurquoiseTurtle', Safari, {
+        id = 62121,
+        rewards = {Achievement({id = 6585, criteria = 21707}), Pet({id = 473})}
+    }), -- TODO
+    TwilightBeetle = Class('TwilightBeetle', Safari, {
+        id = 62118,
+        rewards = {Achievement({id = 6585, criteria = 21700}), Pet({id = 469})}
+    }), -- TODO
+    TwilightFiendling = Class('TwilightFiendling', Safari, {
+        id = 62914,
+        rewards = {Achievement({id = 6586, criteria = 21683}), Pet({id = 552})}
+    }), -- TODO
+    TwilightIguana = Class('TwilightIguana', Safari, {
+        id = 62255,
+        rewards = {Achievement({id = 6585, criteria = 21749}), Pet({id = 505})}
+    }), -- TODO
+    TwilightSpider = Class('TwilightSpider', Safari, {
+        id = 62117,
+        rewards = {
+            Achievement({id = 6585, criteria = 21684}),
+            Achievement({id = 6586, criteria = 21684}), Pet({id = 470})
+        }
+    }), -- TODO
+    UndercityRat = Class('UndercityRat', Safari, {
+        id = 61889,
+        rewards = {Achievement({id = 6586, criteria = 21677}), Pet({id = 454})}
+    }), -- TODO
+    VenomspitterHatchling = Class('VenomspitterHatchling', Safari, {
+        id = 62191,
+        rewards = {Achievement({id = 6585, criteria = 21684}), Pet({id = 506})}
+    }), -- TODO
+    WaterSnake = Class('WaterSnake', Safari, {
+        id = 61367,
+        rewards = {
+            Achievement({id = 6585, criteria = 21661}),
+            Achievement({id = 6586, criteria = 21661}), Pet({id = 418})
+        }
+    }), -- TODO
+    WharfRat = Class('WharfRat', Safari, {
+        id = 61323,
+        rewards = {Achievement({id = 6586, criteria = 21670}), Pet({id = 410})}
+    }), -- TODO
+    WidowSpiderling = Class('WidowSpiderling', Safari, {
+        id = 61259,
+        rewards = {Achievement({id = 6586, criteria = 21634}), Pet({id = 400})}
+    }), -- TODO
+    WildhammerGryphonHatchling = Class('WildhammerGryphonHatchling', Safari, {
+        id = 62900,
+        rewards = {Achievement({id = 6586, criteria = 21685}), Pet({id = 548})}
+    }), -- TODO
+    YellowBelliedMarmot = Class('YellowBelliedMarmot', Safari, {
+        id = 62904,
+        rewards = {Achievement({id = 6586, criteria = 21686}), Pet({id = 549})}
+    }) -- TODO
 }

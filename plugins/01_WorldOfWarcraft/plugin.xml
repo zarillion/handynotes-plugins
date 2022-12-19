@@ -9,13 +9,13 @@
   <Script file="zones\eastern_kingdoms\dun_morogh.lua"/>
   <Script file="zones\eastern_kingdoms\duskwood.lua"/>
   <Script file="zones\eastern_kingdoms\eastern_plaguelands.lua"/>
-  <Script file="zones\eastern_kingdoms\elwynn_forest.lua"/>
+  <Script file="zones\eastern_kingdoms\elwynn_forest_stormwind.lua"/>
   <Script file="zones\eastern_kingdoms\eversong_woods_silvermoon.lua"/>
   <Script file="zones\eastern_kingdoms\northern_stranglethorn.lua"/>
   <Script file="zones\eastern_kingdoms\redridge_mountains.lua"/>
   <Script file="zones\eastern_kingdoms\searing_gorge.lua"/>
   <Script file="zones\eastern_kingdoms\silverpine_forest.lua"/>
-  <Script file="zones\eastern_kingdoms\teldrassil.lua"/>
+  <Script file="zones\eastern_kingdoms\teldrassil_darnassus.lua"/>
   <Script file="zones\eastern_kingdoms\the_hinterlands.lua"/>
   <Script file="zones\eastern_kingdoms\tirisfal_glades.lua"/>
   <Script file="zones\eastern_kingdoms\western_plaguelands.lua"/>

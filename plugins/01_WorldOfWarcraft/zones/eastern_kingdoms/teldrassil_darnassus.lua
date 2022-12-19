@@ -13,6 +13,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = Map({id = 57, settings = true})
+local darnassus = Map({id = 89, settings = true})
 local shadowglen = Map({id = 460, settings = true})
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -40,3 +41,36 @@ shadowglen.nodes[37807420] = Safari.CrestedOwl({
     parent = map.id,
     pois = {POI({37807420, 46004380})}
 }) -- Crested Owl
+
+darnassus.nodes[41208160] = Safari.ElfinRabbit({
+    parent = map.id,
+    pois = {
+        POI({
+            32007080, 32604160, 41208160, 42204740, 45008080, 45203540,
+            49207420, 55206640, 67205160, 68004740
+        })
+    }
+}) -- Elfin Rabbit
+
+map.nodes[49404740] = Safari.ElfinRabbit({
+    pois = {
+        POI({
+            40203060, 40603340, 43006160, 43403820, 49404740, 50205040,
+            55205600, 55409080, 60406080
+        })
+    }
+}) -- Elfin Rabbit
+
+darnassus.nodes[61205100] = Safari.ForestMoth({
+    parent = map.id,
+    pois = {
+        POI({
+            42404740, 45205000, 46403660, 46603680, 48405640, 53605440,
+            61205100, 62204580, 67405400, 67804760, 73205040
+        })
+    }
+}) -- Forest Moth
+
+map.nodes[61205100] = Safari.ForestMoth({
+    pois = {POI({40603020, 56005400, 62005020})}
+}) -- Forest Moth
