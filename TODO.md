@@ -73,5 +73,3 @@
 * [Shadowlands Safari](https://www.wowhead.com/achievement=14867/shadowlands-safari)
 
 # Dragonflight
-
-* [Dragon Isles Safari](https://www.wowhead.com/achievement=16519/dragon-isles-safari)
