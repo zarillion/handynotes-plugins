@@ -133,7 +133,7 @@ map.nodes[87556151] = Rare({
 
 map.nodes[32823817] = Rare({ -- review
     id = 195409,
-    quest = nil,
+    quest = 73968,
     rewards = {
         Achievement({id = 16677, criteria = 56094})
         -- Transmog({item = , slot = L['']}) -- Name
