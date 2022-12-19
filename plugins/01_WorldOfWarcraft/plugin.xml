@@ -2,10 +2,10 @@
   <Script file="common.lua"/>
 
   <Script file="zones\eastern_kingdoms\arathi_highlands.lua"/>
+  <Script file="zones\eastern_kingdoms\badlands.lua"/>
   <Script file="zones\eastern_kingdoms\blasted_lands.lua"/>
   <Script file="zones\eastern_kingdoms\burning_steppes.lua"/>
   <Script file="zones\eastern_kingdoms\cape_of_stranglethorn.lua"/>
-  <Script file="zones\eastern_kingdoms\darkshore.lua"/>
   <Script file="zones\eastern_kingdoms\dun_morogh.lua"/>
   <Script file="zones\eastern_kingdoms\duskwood.lua"/>
   <Script file="zones\eastern_kingdoms\eastern_plaguelands.lua"/>
@@ -21,19 +21,19 @@
   <Script file="zones\eastern_kingdoms\western_plaguelands.lua"/>
   <Script file="zones\eastern_kingdoms\westfall.lua"/>
   <Script file="zones\eastern_kingdoms\wetlands.lua"/>
-  <Script file="zones\eastern_kingdoms\badlands.lua"/>
 
   <Script file="zones\kalimdor\ashenvale.lua"/>
   <Script file="zones\kalimdor\azshara.lua"/>
   <Script file="zones\kalimdor\caverns_of_time.lua"/>
+  <Script file="zones\kalimdor\darkshore.lua"/>
   <Script file="zones\kalimdor\desolace.lua"/>
   <Script file="zones\kalimdor\durotar_orgrimmar.lua"/>
   <Script file="zones\kalimdor\feralas.lua"/>
   <Script file="zones\kalimdor\northern_barrens.lua"/>
+  <Script file="zones\kalimdor\silithus.lua"/>
   <Script file="zones\kalimdor\southern_barrens.lua"/>
   <Script file="zones\kalimdor\stonetalon_mountains.lua"/>
   <Script file="zones\kalimdor\tanaris.lua"/>
   <Script file="zones\kalimdor\ungoro_crater.lua"/>
   <Script file="zones\kalimdor\winterspring.lua"/>
-  <Script file="zones\kalimdor\silithus.lua"/>
 </Ui>
