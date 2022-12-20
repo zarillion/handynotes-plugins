@@ -359,6 +359,14 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('注意：如果你死了，�
 
 L['magmashell_note'] = '从 |cffffff00黑曜堡垒|r 周围的 {npc:193138} 拾取 {item:201883} 并将其带给 {npc:199010}。\n\n' .. ns.color.Orange('在熔岩中用一个20秒的引导法术来获得坐骑，因此建议带上治疗或类似 {item:200116} 的物品。')
 
+L['otto_note_start1'] = nil
+L['otto_note_start2'] = nil
+L['otto_note_start3'] = nil
+L['otto_note_item1'] = nil
+L['otto_note_item2'] = nil
+L['otto_note_item3'] = nil
+L['otto_note_end'] = nil
+
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = '显示 {achievement:16519} 成就中战斗宠物的位置。'
 L['shyfly_note'] = '必须在任务 {quest:70853} 中才能看到 {npc:189102}。'

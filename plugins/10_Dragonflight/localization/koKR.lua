@@ -336,6 +336,14 @@ L['slumbering_worldsnail_note2'] = nil
 
 L['magmashell_note'] = nil
 
+L['otto_note_start1'] = nil
+L['otto_note_start2'] = nil
+L['otto_note_start3'] = nil
+L['otto_note_item1'] = nil
+L['otto_note_item2'] = nil
+L['otto_note_item3'] = nil
+L['otto_note_end'] = nil
+
 L['options_icons_safari'] = nil
 L['options_icons_safari_desc'] = nil
 L['shyfly_note'] = nil

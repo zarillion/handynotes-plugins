@@ -352,6 +352,14 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, ve
 
 L['magmashell_note'] = 'Erbeute von {npc:193138n} einen {item:201883} in der Nähe der |cFFFFFD00Obsidianzitadelle|r und bringe es zu {npc:199010}.\n\n' .. ns.color.Orange('Es wird 20 Sekunden {spell:395626} kanalisiert, während du in der Lava bist, um das Reittier zu erhalten. Es ist empfehlenswert einen Heiler mitzubringen oder etwas wie das Spielzeug {item:200116}.')
 
+L['otto_note_start1'] = nil
+L['otto_note_start2'] = nil
+L['otto_note_start3'] = nil
+L['otto_note_item1'] = nil
+L['otto_note_item2'] = nil
+L['otto_note_item3'] = nil
+L['otto_note_end'] = nil
+
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:16519} an.'
 L['shyfly_note'] = 'Du musst dich auf der Quest {quest:70853} befinden, um {npc:189102} zu sehen.'

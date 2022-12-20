@@ -1674,6 +1674,38 @@ map.nodes[71102510] = Collectible({
     }
 }) -- Magmashell
 
+--------------------------------- MOUNT: OTTO ---------------------------------
+
+local Otto = Class('Otto', Collectible, {
+    id = 199563,
+    icon = 4093847,
+    requires = {
+        ns.requirement.Toy(202042) -- Aquatic Shades
+    },
+    rewards = {
+        Mount({item = 198870, id = 1656}) -- Otto
+    }
+}) -- Otto
+
+function Otto.getters:note()
+    local function status(id, count)
+        if ns.PlayerHasItem(id, count) then
+            return ns.status.Green(count .. 'x')
+        else
+            return ns.status.Red(count .. 'x')
+        end
+    end
+    local note = L['otto_note_start1']
+    note = note .. '\n\n' .. L['otto_note_start2']
+    note = note .. '\n\n' .. L['otto_note_start3']
+    note = note .. '\n\n' .. status(202072, 100) .. ' ' .. L['otto_note_item1'] -- Frigid Floe Fish
+    note = note .. '\n\n' .. status(202073, 25) .. ' ' .. L['otto_note_item2'] -- Calamitous Carp
+    note = note .. '\n\n' .. status(202074, 1) .. ' ' .. L['otto_note_item3'] -- Kingfin, the Wise Whiskerfish
+    return note .. '\n\n' .. L['otto_note_end']
+end
+
+map.nodes[19603650] = Otto()
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[47128259] = NPC({

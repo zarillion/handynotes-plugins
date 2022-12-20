@@ -360,6 +360,14 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('Note : Si vous mourrez, vous
 
 L['magmashell_note'] = 'Récupérez une {item:201883} sur les {npc:193138} dans la |cFFFFFD00Citadelle d\'Obsidienne|r et apportez-la à l\'{npc:199010}.\n\n' .. ns.color.Orange('Il y aura un sort canalisé pendant 20 secondes une fois dans la lave pour obtenir la monture, il est donc recommandé de faire appel à un soigneur ou quelque chose comme la {item:200116}.')
 
+L['otto_note_start1'] = nil
+L['otto_note_start2'] = nil
+L['otto_note_start3'] = nil
+L['otto_note_item1'] = nil
+L['otto_note_item2'] = nil
+L['otto_note_item3'] = nil
+L['otto_note_end'] = nil
+
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:16519}.'
 L['shyfly_note'] = 'Vous devez avoir la quête {quest:70853} pour voir les {npc:189102}.'

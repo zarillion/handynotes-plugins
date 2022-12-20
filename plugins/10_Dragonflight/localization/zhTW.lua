@@ -358,6 +358,14 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('注意: 如果你死了你�
 
 L['magmashell_note'] = '從 |cFFFFFD00黑曜龍堡|r 附近的 {npc:193138} 身上拾取 {item:201883} 並帶給 {npc:199010}.\n\n' .. ns.color.Orange('要取得坐騎需要在熔岩上引導1個20秒的法術, 推薦找個治療者或是帶著 {item:200116}.')
 
+L['otto_note_start1'] = nil
+L['otto_note_start2'] = nil
+L['otto_note_start3'] = nil
+L['otto_note_item1'] = nil
+L['otto_note_item2'] = nil
+L['otto_note_item3'] = nil
+L['otto_note_end'] = nil
+
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = '顯示成就 {achievement:16519} 所需的戰寵位置'
 L['shyfly_note'] = '你必須要正在做 {quest:70853} 任務才能看到 {npc:189102}.'

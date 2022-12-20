@@ -360,6 +360,14 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('Примечание: есл
 
 L['magmashell_note'] = 'Добудьте {item:201883} с {npc:193138} вокруг |cffffff00Обсидиановой цитадели|r и отнесите к {npc:199010}.\n\n' .. ns.color.Orange('Вам нужно будет продержаться в лаве 20 секунд, чтобы получить средство передвижение. Поэтому рекомендуем взять с собой целителя или игрушку {item:200116}.')
 
+L['otto_note_start1'] = nil
+L['otto_note_start2'] = nil
+L['otto_note_start3'] = nil
+L['otto_note_item1'] = nil
+L['otto_note_item2'] = nil
+L['otto_note_item3'] = nil
+L['otto_note_end'] = nil
+
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Отображение местоположения боевых питомцев для {achievement:16519}.'
 L['shyfly_note'] = 'Вы должны выполнить задание {quest:70853}, чтобы увидеть {npc:189102}.'

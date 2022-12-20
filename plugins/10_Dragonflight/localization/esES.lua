@@ -360,6 +360,14 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: Si mueres perderás el
 
 L['magmashell_note'] = 'Despoja {item:201883} de los {npc:193138} alrededor de la |cffffff00Ciudadela Obsidiana|r y llévaselo al {npc:199010}.\n\n' .. ns.color.Orange('Haciendo click en el caracol se canalizará un hechizo durante 20 segundos después de lo cuales conseguirás la montura. Muy recomendable traer a un amigo sanador o usar el juguete {item:200116}.')
 
+L['otto_note_start1'] = nil
+L['otto_note_start2'] = nil
+L['otto_note_start3'] = nil
+L['otto_note_item1'] = nil
+L['otto_note_item2'] = nil
+L['otto_note_item3'] = nil
+L['otto_note_end'] = nil
+
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:16519}.'
 L['shyfly_note'] = 'Has de estar en la misión {quest:70853} para poder ver las {npc:189102}.'
