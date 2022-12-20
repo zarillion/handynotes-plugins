@@ -185,8 +185,8 @@ L['pt_tailor_silky_surprise_note'] = 'Busca y despoja la |cFFFFFD00Fronda de Hie
 L['lizi_note'] = 'Completa la cadena de misiones |cFFFFFD00El día libre de la iniciada|r comenzando con {quest:65901}. Completa las misiones cada día para curar a Lizi y recibir su montura.\n\nAdemás de los objetos necesarios, todas las misiones requieren 150x {currency:2003} para un total de 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Recoge 20x {item:192615} de los enemigos insecto en las |cFFFFFD00Islas Dragón|r.'
 L['lizi_note_day2'] = 'Recoge 20x {item:192658} de los enemigos planta en las |cFFFFFD00Islas Dragón|r.'
-L['lizi_note_day3'] = 'Recoge 10x {item:194966} pescadas en cualquier masa de agua dulce en las |cFFFFFD00Islas Dragón|r. Se encuentran con más frecuencia en los interiores de las |cFFFFFD00Llanuras de Ohn\'ahran|r.'
-L['lizi_note_day4'] = 'Recoge 20x {item:192636} de los mamuts de las |cFFFFFD00Llanuras de Ohn\'ahran|r.'
+L['lizi_note_day3'] = 'Recoge 10x {item:194966} pescadas en cualquier masa de agua dulce en las |cFFFFFD00Islas Dragón|r. Se encuentran con más frecuencia en los interiores de las |cFFFFFD00Llanuras de Ohn\'ahra|r.'
+L['lizi_note_day4'] = 'Recoge 20x {item:192636} de los mamuts de las |cFFFFFD00Llanuras de Ohn\'ahra|r.'
 L['lizi_note_day5'] = 'Acepta la misión {quest:71195} de {npc:190014} y consigue 1x {item:200598} de {npc:190015} en la tienda al sur de los |cFFFFFD00Manantiales Ohn\'iri|r.'
 
 L['ohnahra_note_start'] = 'Completa la cadena de misiones |cFFFFFD00El día libre de la iniciada|r comenzando con {quest:65901} y entonces aparecerá {npc:190022} en los |cFFFFFD00Manantiales Ohn\'iri|r detrás de la choza del sabio del viento.\n\nReúne los siguientes objetos:'
@@ -360,13 +360,13 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: Si mueres perderás el
 
 L['magmashell_note'] = 'Despoja {item:201883} de los {npc:193138} alrededor de la |cffffff00Ciudadela Obsidiana|r y llévaselo al {npc:199010}.\n\n' .. ns.color.Orange('Haciendo click en el caracol se canalizará un hechizo durante 20 segundos después de lo cuales conseguirás la montura. Muy recomendable traer a un amigo sanador o usar el juguete {item:200116}.')
 
-L['otto_note_start1'] = nil
-L['otto_note_start2'] = nil
-L['otto_note_start3'] = nil
-L['otto_note_item1'] = nil
-L['otto_note_item2'] = nil
-L['otto_note_item3'] = nil
-L['otto_note_end'] = nil
+L['otto_note_start1'] = 'Consigue unas {item:202042}. Las gafas tienen un 100% de probabilidades de salir del {item:202102} que puede ser comprado a {npc:191608} en las |cFFFFFD00Llanuras de Ohn\'ahra|r.\n\nEl saco se puede comprar con 1x {item:199340} la cual puede ser comprada con 5x {item:199339} que éstas se pueden comprar por 75x {item:199338}. A su vez, estas últimas se pueden pescar alrededor de las |cFFFFFD00Islas Dragón|r o derrotando a enemigos |cFFFFFD00<Morrocotudo>|r en los nodos de pesca.'
+L['otto_note_start2'] = ns.color.Orange('Derrotar enemigos |cFFFFFD00<Morrocotudo>|r requiere Renombre 7 con |cFFFFFD00Colmillarr de Iskaara|r y acceso al {item:194510}.')
+L['otto_note_start3'] = 'Una vez con las {item:202042} ves al bar subacuático |cFFFFFD00El Baño de Burbujas|r en la |cFFFFFD00Gruta Siseante|r y quédate de pie en la plataforma de baile que hay al lado de la barra hasta conseguir el debuff {spell:396539}. Cuando el debuff se acabe te desmayarás y despertarás junto a un barril. Interactúa con él para despojar el {item:202061}. Ahora necesitas llenar el barril con peces para alimentar a {npc:199563}.'
+L['otto_note_item1'] = 'Recoge 100x {item:202072}, un pez con probabilidad alta de ser pescado en las aguas abiertas de |cFFFFFD00Iskaara|r en las |cFFFFFD00Tierras Azures|r. Usar el barril con los peces te dará un Barril de Pescado Medio Lleno.'
+L['otto_note_item2'] = 'Recoge 25x {item:202073}, un pez con probabilidad rara de ser pescado en la lava alrededor de la |cFFFFFD00Ciudadela Obsidiana|r en las |cFFFFFD00Orillas del Despertar|r. Usar el barril con los peces te dará un Barril de Pescado Rebosante.'
+L['otto_note_item3'] = 'Recoge 1x {item:202074}, un pez con probabilidad rara de ser pescado en las aguas cerca de |cFFFFFD00Academia Alge\'thar|r en |cFFFFFD00Thaldraszus|r. Usar el barril con los peces te dará un Barril de Pescado Desbordado.'
+L['otto_note_end'] = 'Vuelve a la |cFFFFFD00Gruta Siseante|r en las |cFFFFFD00Orillas del Despertar|r y deja el barril donde lo encontrastes para invocar a {npc:199563} y ¡recibir tu montura!'
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:16519}.'
