@@ -12,3 +12,13 @@ L['achievement_friend_or_fowl_desc'] = '在3分钟内击杀15只火鸡。'
 L['note_devouring_maggot'] = '|cFFFFFD00乌特加德墓穴|r 下面深处。'
 L['dalaran_sewers'] = '|cFFFFFD00达拉然下水道|r 内。'
 L['in_nexus'] = '|cFFFFFD00魔枢|r 的 |cFFFFFD00停滞大厅|r 内。'
+
+L['higher_learning_1'] = nil
+L['higher_learning_2'] = nil
+L['higher_learning_3'] = nil
+L['higher_learning_4'] = nil
+L['higher_learning_5'] = nil
+L['higher_learning_6'] = nil
+L['higher_learning_7'] = nil
+L['higher_learning_8'] = nil
+L['higher_learning_vargoth'] = nil

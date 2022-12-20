@@ -78,28 +78,22 @@ end
 
 function POI:Draw(pin, xy)
     local t = ResetPin(pin)
+
     local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
     size = size * ns:GetOpt('poi_scale') * (self.size or 1)
 
-    t:SetVertexColor(unpack({ns:GetColorOpt('poi_color')}))
-    if self.color then t:SetVertexColor(ns.HEXtoRGBA(self.color)) end
-    if self.icon then t:SetVertexColor(1, 1, 1) end
+    local color = {ns:GetColorOpt('poi_color')}
+    if self.icon then
+        color = {1, 1, 1}
+    elseif self.color then
+        color = {ns.HEXtoRGBA(self.color)}
+    end
+
     t:SetTexture(self.icon and ns.GetIconPath(self.icon) or CIRCLE)
-
+    t:SetVertexColor(unpack(color))
     pin:SetSize(size, size)
-    return HandyNotes:getXY(xy)
 
-    -- map.nodes[10001000] = ns.node.Node({
-    --     label = 'Example Node',
-    --     icon = 'peg_bk',
-    --     note = '{dot:FF0000} Red\n{dot:Green} Green\n{dot:Blue} Blue',
-    --     pois = {
-    --         POI({color = 'FF0000', 10001200}),
-    --         POI({size = 0.75, color = 'Green', 10001400, 12001400}),
-    --         POI({size = 0.5, color = 'Blue', 10001600, 12001600, 14001600}),
-    --         POI({icon = 1044996, 10001800})
-    --     }
-    -- })
+    return HandyNotes:getXY(xy)
 end
 
 -------------------------------------------------------------------------------
