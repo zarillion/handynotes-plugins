@@ -190,7 +190,7 @@ map.nodes[61212950] = Rare({ -- reqiured 67030
 --     quest = nil,
 --     rewards = {
 --         Achievement({id = 16677, criteria = 56091}),
---         Achievement({id = 16446, criteria = 18, note = L['pretty_neat_note']}),
+--         Achievement({id = 16446, criteria = 55396, note = L['pretty_neat_note']}),
 --         Transmog({item = , slot = L['']}) -- Name
 --     }
 -- }) -- Quackers the Terrible
@@ -328,7 +328,7 @@ map.nodes[31456387] = Rare({
     quest = 73901,
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
-        Achievement({id = 16446, criteria = 20, note = L['pretty_neat_note']}),
+        Achievement({id = 16446, criteria = 55395, note = L['pretty_neat_note']}),
         Mount({item = 198825, id = 1672}), -- Zenet Hatchling
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
@@ -1084,27 +1084,27 @@ map.nodes[82874782] = HemetNesingwaryJr({
 
 map.nodes[58602066] = PrettyNeat({
     id = 193356,
-    rewards = {Achievement({id = 16446, criteria = 2})}
+    rewards = {Achievement({id = 16446, criteria = 55384})}
 }) -- Avis Gryphonheart
 
 map.nodes[74724069] = PrettyNeat({
     id = 190960,
-    rewards = {Achievement({id = 16446, criteria = 7})}
+    rewards = {Achievement({id = 16446, criteria = 55401})}
 }) -- Feasting Buzzard
 
 map.nodes[59575538] = PrettyNeat({
     id = 187496,
-    rewards = {Achievement({id = 16446, criteria = 9})}
+    rewards = {Achievement({id = 16446, criteria = 55402})}
 }) -- Glade Ohuna
 
 map.nodes[58632082] = PrettyNeat({
     id = 193354,
-    rewards = {Achievement({id = 16446, criteria = 10})}
+    rewards = {Achievement({id = 16446, criteria = 55383})}
 }) -- Halia Cloudfeather
 
 map.nodes[60407140] = PrettyNeat({
     id = 195895,
-    rewards = {Achievement({id = 16446, criteria = 14})},
+    rewards = {Achievement({id = 16446, criteria = 55400})},
     pois = {
         Path({
             60607560, 59407520, 58407480, 57807360, 58607120, 60407140,
@@ -1116,7 +1116,7 @@ map.nodes[60407140] = PrettyNeat({
 
 map.nodes[58672073] = PrettyNeat({
     id = 193357,
-    rewards = {Achievement({id = 16446, criteria = 16})}
+    rewards = {Achievement({id = 16446, criteria = 55385})}
 }) -- Palla of the Wing
 
 -------------------------------------------------------------------------------
@@ -1349,7 +1349,7 @@ local Ohnahra = Class('Ohnahra', Collectible, {
     },
     rewards = {
         Mount({item = 198821, id = 1545}), -- Divine Kiss of Ohn'ahra
-        Achievement({id = 16446, criteria = 15, note = L['pretty_neat_note']})
+        Achievement({id = 16446, criteria = 55386, note = L['pretty_neat_note']})
     },
     pois = {
         POI({56257595, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng

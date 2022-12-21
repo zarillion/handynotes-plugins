@@ -140,7 +140,7 @@ map.nodes[16622798] = Rare({
     quest = 73870,
     rewards = {
         Achievement({id = 16678, criteria = 56108}),
-        Achievement({id = 16446, criteria = 3, note = L['pretty_neat_note']}),
+        Achievement({id = 16446, criteria = 55397, note = L['pretty_neat_note']}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         DC.WindborneVelocidrake.FinnedEars
     }
@@ -997,12 +997,12 @@ map.nodes[69204987] = HemetNesingwaryJr({
 
 map.nodes[36673652] = PrettyNeat({
     id = 190218,
-    rewards = {Achievement({id = 16446, criteria = 11})}
+    rewards = {Achievement({id = 16446, criteria = 55393})}
 }) -- Horned Filcher
 
 map.nodes[38193815] = PrettyNeat({
     id = 190221,
-    rewards = {Achievement({id = 16446, criteria = 17})}
+    rewards = {Achievement({id = 16446, criteria = 55390})}
 }) -- Pine Flicker
 
 -------------------------------------------------------------------------------

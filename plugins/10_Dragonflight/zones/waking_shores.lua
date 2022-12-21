@@ -171,7 +171,7 @@ map.nodes[60204535] = Rare({
     quest = 73874,
     rewards = {
         Achievement({id = 16676, criteria = 56039}),
-        Achievement({id = 16446, criteria = 5, note = L['pretty_neat_note']}),
+        Achievement({id = 16446, criteria = 55387, note = L['pretty_neat_note']}),
         Transmog({item = 200219, slot = L['cloak']}) -- Dangerous Drapery
     },
     pois = {
@@ -210,7 +210,7 @@ map.nodes[33127632] = RareElite({
     quest = 73073,
     rewards = {
         Achievement({id = 16676, criteria = 56048}),
-        Achievement({id = 16446, criteria = 8, note = L['pretty_neat_note']}),
+        Achievement({id = 16446, criteria = 55394, note = L['pretty_neat_note']}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200256, slot = L['offhand']}), -- Darkmaul Soul Horn
@@ -1335,18 +1335,18 @@ map.nodes[23677143] = GrandTheftMammoth({
 
 map.nodes[42276935] = PrettyNeat({
     id = 192186,
-    rewards = {Achievement({id = 16446, criteria = 19})}
+    rewards = {Achievement({id = 16446, criteria = 55391})}
 }) -- Territorial Axebeak
 
 map.nodes[25675706] = PrettyNeat({
     id = 193291,
     note = L['pretty_neat_note_blazewing'],
-    rewards = {Achievement({id = 16446, criteria = 1})}
+    rewards = {Achievement({id = 16446, criteria = 55392})}
 }) -- Apex Blazewing
 
 nel.nodes[52408260] = PrettyNeat({
     id = 193291,
-    rewards = {Achievement({id = 16446, criteria = 1})}
+    rewards = {Achievement({id = 16446, criteria = 55392})}
 }) -- Apex Blazewing
 
 -------------------------------------------------------------------------------
