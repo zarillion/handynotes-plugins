@@ -49,9 +49,9 @@ L['scout_pack'] = 'Mochilas de Explorador de Expedición'
 L['options_icons_scout_pack'] = 'Mochilas de explorador de expedición'
 L['options_icons_scout_pack_desc'] = 'Muestra dónde están las Mochilas de Explorador de Expedición.'
 
-L['magicbound_chest'] = nil
-L['options_icons_magicbound_chest'] = nil
-L['options_icons_magicbound_chest_desc'] = nil
+L['magicbound_chest'] = 'Cofre reforzado con magia'
+L['options_icons_magicbound_chest'] = 'Cofre reforzado con magia'
+L['options_icons_magicbound_chest_desc'] = 'Muestra dónde están los Cofres reforzado con magia.'
 
 L['dr_best'] = 'Tu mejor tiempo:\n - Normal: %.3fs\n - Avanzado: %.3fs'
 L['dr_best_dash'] = 'Tu mejor tiempo:\n - %.3fs'
