@@ -325,9 +325,9 @@ L['quack_week_4'] = 'Неделя 4'
 L['quack_week_5'] = 'Неделя 5'
 L['lets_get_quacking'] = 'Вы можете спасти только одного {npc:187863} в неделю.'
 
-L['complaint_to_scalepiercer_note'] = nil
-L['grand_flames_journal_note'] = nil
-L['wyrmeaters_recipe_note'] = nil
+L['complaint_to_scalepiercer_note'] = 'Нажать на |cFFFFFD00Каменную табличку|r внутри хижины (с левой стороны сзади).'
+L['grand_flames_journal_note'] = 'Нажать на |cFFFFFD00Каменную табличку|r снаружи за хижиной.'
+L['wyrmeaters_recipe_note'] = 'Нажать на |cFFFFFD00Каменную табличку|r внутри хижины (с левой стороны).'
 
 L['options_icons_ducklings'] = '{achievement:16409}'
 L['options_icons_ducklings_desc'] = 'Показать местонахождение утят для достижения {achievement:16409}.'
