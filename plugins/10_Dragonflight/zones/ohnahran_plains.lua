@@ -261,7 +261,7 @@ map.nodes[21603960] = Rare({
 
 map.nodes[53627281] = Rare({ -- reqiured 67030 review
     id = 193123,
-    quest = 69667,
+    quest = 74034,
     rewards = {
         Achievement({id = 16677, criteria = 56072}),
         Transmog({item = 200216, slot = L['cloth']}) -- Water Heating Cord
