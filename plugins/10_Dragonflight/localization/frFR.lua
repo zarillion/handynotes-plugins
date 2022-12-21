@@ -360,13 +360,13 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('Note : Si vous mourrez, vous
 
 L['magmashell_note'] = 'Récupérez une {item:201883} sur les {npc:193138} dans la |cFFFFFD00Citadelle d\'Obsidienne|r et apportez-la à l\'{npc:199010}.\n\n' .. ns.color.Orange('Il y aura un sort canalisé pendant 20 secondes une fois dans la lave pour obtenir la monture, il est donc recommandé de faire appel à un soigneur ou quelque chose comme la {item:200116}.')
 
-L['otto_note_start1'] = nil
-L['otto_note_start2'] = nil
-L['otto_note_start3'] = nil
-L['otto_note_item1'] = nil
-L['otto_note_item2'] = nil
-L['otto_note_item3'] = nil
-L['otto_note_end'] = nil
+L['otto_note_start1'] = 'Récupérez une paire de {item:202042}. Les lunettes sont obtenables à 100% dans le {item:202102} acheté auprès du {npc:191608} dans les |cFFFFFD00Plaines d’Ohn’ahra|r.\n\nLe sac peut être acheté contre 1x {item:199340} qui peut être achetée contre 5x {item:199339} qui peuvent être achetées contre 75x {item:199338} qui peuvent être pêchées aux |cFFFFFD00îles aux Dragons|r ou en battant des monstres |cFFFFFD00<Malabar>|r aux coins de pêche.'
+L['otto_note_start2'] = ns.color.Orange('Battre des monstres |cFFFFFD00<Malabar>|r nécessitera un Renom 7 avec les |cFFFFFD00Roharts iskaariens|r et l\'accès au {item:194510}.')
+L['otto_note_start3'] = 'Une fois que vous avez une paire de {item:202042}, allez au bar |cFFFFFD00Bain à bulles|r dans la |cFFFFFD00Grotte Sifflante|r, trouvez un tapis de danse, et montez dessus pour obtenir l\'effet {spell:396539}. Une fois l\'effet expiré, vous vous évanouirez et vous vous réveillerez à côté d\'un tonneau. Interagissez avec lui pour récupérer le {item:202061}. Vous devez maintenant remplir le baril de poissons pour nourrir {npc:199563}.'
+L['otto_note_item1'] = 'Récupérez 100x {item:202072}, un poisson à fort taux de drop qui peut être pêché dans les eaux profondes d\'|cFFFFFD00Iskaara|r à |cFFFFFD00La Travée d’Azur|r. Utiliser le tonneau avec les poissons vous donnera un {item:202066}.'
+L['otto_note_item2'] = 'Récupérez 25x {item:202073}, un poisson rare qui peut être pêché dans la lave aux alentours de la |cFFFFFD00Citadelle d\'Obsidienne|r aux |cFFFFFD00Rivages de l’Éveil|r. En utilisant le tonneau avec les poissons, vous obtiendrez un {item:202068}.'
+L['otto_note_item3'] = 'Récupérez 1x {item:202074}, un poisson rare qui peut être pêché dans les eaux proches de l\'|cFFFFFD00Académie d\'Algheth\'ar|r à |cFFFFFD00Thaldraszus|r. En utilisant le tonneau avec le poisson, vous obtiendrez un Tonneau de Pêche Débordant.'
+L['otto_note_end'] = 'Retournez à la |cFFFFFD00Grotte Sifflante|r aux |cFFFFFD00Rivages de l’Éveil|r et laissez le tonneau où vous l\'avez trouvé pour invoquer {npc:199563} et recevoir votre monture !'
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:16519}.'
