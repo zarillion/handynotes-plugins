@@ -251,7 +251,7 @@ map.nodes[34618275] = Rare({
 
 map.nodes[39596353] = Rare({ -- review -- required 67030
     id = 186827,
-    quest = 70979,
+    quest = 74010,
     rewards = {Achievement({id = 16676, criteria = 56046})}
 }) -- Magmaton
 
