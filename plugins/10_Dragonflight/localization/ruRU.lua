@@ -121,9 +121,9 @@ L['river_rapids_wrangler_note'] = nil
 L['seeing_blue_note'] = 'Пролетите с вершины Лазурных архивов до Кобальтовой ассамблеи за один полет.'
 L['snowman_note'] = 'В этом районе лежит три {npc:197599} (могли быть перемещены другими игроками), бросьте их двум детям {npc:197838} и {npc:197839}.\nВы получите достижение, когда снежки будут подходящего размера.'
 
-L['snowclaw_cub_note_start'] = nil
-L['snowclaw_cub_note_item1'] = nil
-L['snowclaw_cub_note_item2'] = nil
+L['snowclaw_cub_note_start'] = 'Вы должны выполнить цепочку заданий {quest:67094}, предложенную {npc:192522} в |cFFFFFD00Вальдраккене|r чтобы получить звание |cFFFFFD00почетная дриада|r.\n\nСоберите следующие предметы:'
+L['snowclaw_cub_note_item1'] = 'Добудьте 3x {item:197744} у различных {npc:182559} на |cFFFFFD00Берегах Пробуждения|r.'
+L['snowclaw_cub_note_item2'] = 'Купите 1x {item:198356} у {npc:193310} на |cFFFFFD00Берегах Пробуждения|r.'
 L['snowclaw_cub_note_end'] = nil
 
 L['tome_of_polymoph_duck'] = 'Используйте {spell:1953}, чтобы войти в пещеру и взаимодействовать с |cFFFFFD00Манаштормы для новичков|r для взятия и завершения задания.'
