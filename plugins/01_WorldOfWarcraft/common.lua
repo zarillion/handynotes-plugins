@@ -173,7 +173,8 @@ ns.node.Safari = { -- Maybe add this to core later?
         id = 62019,
         rewards = {
             Achievement({id = 6586, criteria = 21610}),
-            Achievement({id = 6587, criteria = 21610}), Pet({id = 459})
+            Achievement({id = 6587, criteria = 21610}),
+            Achievement({id = 8397, criteria = 23580}), Pet({id = 459})
         }
     }),
     Chicken = Class('Chicken', Safari, {
@@ -186,7 +187,10 @@ ns.node.Safari = { -- Maybe add this to core later?
     }), -- Also in Howling Fjord, WoTLK
     CheetahCub = Class('CheetahCub', Safari, {
         id = 62129,
-        rewards = {Achievement({id = 6585, criteria = 21629}), Pet({id = 646})}
+        rewards = {
+            Achievement({id = 6585, criteria = 21629}),
+            Achievement({id = 8397, criteria = 23581}), Pet({id = 646})
+        }
     }),
     Cockroach = Class('Cockroach', Safari, {
         id = 61384,
@@ -278,26 +282,26 @@ ns.node.Safari = { -- Maybe add this to core later?
     ForestSpiderling = Class('ForestSpiderling', Safari, {
         id = 61320,
         rewards = {Achievement({id = 6586, criteria = 21655}), Pet({id = 407})}
-    }), -- TODO
+    }), -- Also in Shadowmoon Valley, Draenor; Drustvar, BfA; Highmountain, Legion
     Frog = Class('Frog', Safari, {
         id = 62312,
         rewards = {Achievement({id = 6585, criteria = 21691}), Pet({id = 495})}
-    }), -- TODO
+    }),
     GazelleFawn = Class('GazelleFawn', Safari, {
         id = 62176,
         rewards = {Achievement({id = 6585, criteria = 21735}), Pet({id = 477})}
-    }), -- TODO
+    }),
     GiraffeCalf = Class('GiraffeCalf', Safari, {
         id = 62130,
         rewards = {Achievement({id = 6585, criteria = 21742}), Pet({id = 475})}
-    }), -- TODO
+    }),
     GoldBeetle = Class('GoldBeetle', Safari, {
         id = 61438,
         rewards = {
             Achievement({id = 6585, criteria = 21616}),
             Achievement({id = 6586, criteria = 21616}), Pet({id = 430})
         }
-    }), -- TODO
+    }), -- Also in Gorgrond, Draenor
     GrasslandsCottontail = Class('GrasslandsCottontail', Safari, {
         id = 61704,
         rewards = {Achievement({id = 6586, criteria = 21611}), Pet({id = 443})}
@@ -561,7 +565,10 @@ ns.node.Safari = { -- Maybe add this to core later?
     }), -- TODO
     SandKitten = Class('SandKitten', Safari, {
         id = 62257,
-        rewards = {Achievement({id = 6585, criteria = 21746}), Pet({id = 491})}
+        rewards = {
+            Achievement({id = 6585, criteria = 21746}),
+            Achievement({id = 8397, criteria = 23589}), Pet({id = 491})
+        }
     }), -- TODO
     ScarabHatchling = Class('ScarabHatchling', Safari, {
         id = 62524,
@@ -628,7 +635,10 @@ ns.node.Safari = { -- Maybe add this to core later?
     }), -- TODO
     SnowCub = Class('SnowCub', Safari, {
         id = 61689,
-        rewards = {Achievement({id = 6586, criteria = 21520}), Pet({id = 440})}
+        rewards = {
+            Achievement({id = 6586, criteria = 21520}),
+            Achievement({id = 8397, criteria = 23593}), Pet({id = 440})
+        }
     }), -- TODO
     SnowshoeHare = Class('SnowshoeHare', Safari, {
         id = 61755,
