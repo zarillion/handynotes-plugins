@@ -17,6 +17,7 @@ local Dragonrace = ns.node.Dragonrace
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local LegendaryCharacter = ns.node.LegendaryCharacter
+local MagicBoundChest = ns.node.MagicBoundChest
 local PetBattle = ns.node.PetBattle
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
@@ -150,7 +151,8 @@ map.nodes[29935074] = RareElite({
         DC.WindborneVelocidrake.ClubTail, --
         DC.WindborneVelocidrake.ClusterHorns, --
         DC.CliffsideWylderdrake.BlackHorns
-    }
+    },
+    pois = {POI({29335248, 30535144})}
 }) -- Char
 
 map.nodes[31785474] = RareElite({ -- review -- required 67030
@@ -1032,6 +1034,7 @@ map.nodes[51824744] = Scoutpack()
 map.nodes[52745025] = Scoutpack()
 map.nodes[55774334] = Scoutpack()
 map.nodes[55887676] = Scoutpack()
+map.nodes[56182932] = Scoutpack()
 map.nodes[56857953] = Scoutpack()
 map.nodes[57404560] = Scoutpack()
 map.nodes[58395561] = Scoutpack()
@@ -1046,6 +1049,39 @@ map.nodes[72155969] = Scoutpack({
 map.nodes[72595687] = Scoutpack()
 map.nodes[80903776] = Scoutpack({note = L['in_small_cave']})
 map.nodes[82055012] = Scoutpack()
+
+-------------------------------------------------------------------------------
+------------------------------ Magic-Bound Chest ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[22607480] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[23809090] = MagicBoundChest({
+    requires = {
+        ns.requirement.Reputation(2507, 16, true),
+        ns.requirement.Profession(186)
+    },
+    note = L['in_small_cave']
+})
+map.nodes[30504730] = MagicBoundChest({
+    note = L['in_cave'],
+    pois = {POI({29335248, 30535144})}
+})
+map.nodes[36208570] = MagicBoundChest({
+    note = L['in_small_cave'],
+    pois = {POI({36728736})}
+})
+map.nodes[43706150] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[51701860] = MagicBoundChest()
+map.nodes[55404500] = MagicBoundChest()
+map.nodes[62907990] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[64304290] = MagicBoundChest({
+    note = L['in_cave'],
+    pois = {POI({63824085})}
+})
+map.nodes[72206040] = MagicBoundChest({
+    note = L['in_small_cave'],
+    pois = {POI({71725871})}
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------

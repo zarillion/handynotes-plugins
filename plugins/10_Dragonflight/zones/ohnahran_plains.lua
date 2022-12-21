@@ -17,6 +17,7 @@ local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local Flag = ns.node.Flag
 local LegendaryCharacter = ns.node.LegendaryCharacter
+local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
@@ -565,7 +566,7 @@ map.nodes[79238374] = PT.Alchemy({
 
 map.nodes[81103790] = PT.Blacksmithing({
     id = 201004,
-    quest = nil,
+    quest = 70313,
     note = L['pt_smith_ancient_spear_shards_note'],
     pois = {POI({79403650})}
 }) -- Ancient Spear Shards
@@ -755,6 +756,7 @@ map.nodes[81035952] = Bakar({
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[29777363] = Disturbeddirt()
 map.nodes[36553269] = Disturbeddirt()
 map.nodes[38825564] = Disturbeddirt()
 map.nodes[41103789] = Disturbeddirt()
@@ -762,8 +764,12 @@ map.nodes[42335555] = Disturbeddirt()
 map.nodes[42934942] = Disturbeddirt()
 map.nodes[43316632] = Disturbeddirt()
 map.nodes[49716952] = Disturbeddirt()
+map.nodes[50152501] = Disturbeddirt()
+map.nodes[51445485] = Disturbeddirt()
 map.nodes[51936274] = Disturbeddirt()
+map.nodes[54115705] = Disturbeddirt()
 map.nodes[55197076] = Disturbeddirt()
+map.nodes[55944340] = Disturbeddirt()
 map.nodes[62171310] = Disturbeddirt()
 map.nodes[63251396] = Disturbeddirt()
 map.nodes[65868145] = Disturbeddirt()
@@ -771,8 +777,13 @@ map.nodes[66451981] = Disturbeddirt()
 map.nodes[75003584] = Disturbeddirt()
 map.nodes[78534035] = Disturbeddirt()
 map.nodes[78782268] = Disturbeddirt()
-map.nodes[78943707] = Disturbeddirt()
-map.nodes[79013697] = Disturbeddirt()
+map.nodes[78943707] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[80133864] = Disturbeddirt({
+    note = L['in_cave'],
+    pois = {POI({79403650})}
+}) -- Bugged under a rock
+map.nodes[81403827] = Disturbeddirt()
+map.nodes[82593486] = Disturbeddirt()
 map.nodes[85833271] = Disturbeddirt()
 map.nodes[86683243] = Disturbeddirt()
 
@@ -781,9 +792,12 @@ map.nodes[86683243] = Disturbeddirt()
 -------------------------------------------------------------------------------
 
 map.nodes[21875784] = Scoutpack()
+map.nodes[23944019] = Scoutpack()
 map.nodes[24745680] = Scoutpack()
 map.nodes[25205876] = Scoutpack()
 map.nodes[32043887] = Scoutpack()
+map.nodes[35925854] = Scoutpack()
+map.nodes[43335647] = Scoutpack()
 map.nodes[43486213] = Scoutpack()
 map.nodes[44856758] = Scoutpack()
 map.nodes[51647211] = Scoutpack()
@@ -795,8 +809,33 @@ map.nodes[64028081] = Scoutpack()
 map.nodes[65021064] = Scoutpack()
 map.nodes[66798258] = Scoutpack()
 map.nodes[91393390] = Scoutpack()
-map.nodes[43335647] = Scoutpack()
-map.nodes[23944019] = Scoutpack()
+
+-------------------------------------------------------------------------------
+------------------------------ Magic-Bound Chest ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[31407150] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[38905590] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[39306790] = MagicBoundChest()
+map.nodes[53805720] = MagicBoundChest({
+    note = L['in_small_cave'],
+    pois = {POI({53315684})}
+})
+map.nodes[55003120] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[55405030] = MagicBoundChest({
+    note = L['in_cave'],
+    pois = {POI({57575115})}
+})
+map.nodes[61008020] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[80908080] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[82603290] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[85106640] = MagicBoundChest({
+    requires = {
+        ns.requirement.Reputation(2507, 16, true),
+        ns.requirement.Profession(186)
+    },
+    note = L['in_small_cave']
+})
 
 -------------------------------------------------------------------------------
 ----------------------------- HONOR OUR ANCESTORS -----------------------------

@@ -18,6 +18,7 @@ local Dragonrace = ns.node.Dragonrace
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local LegendaryCharacter = ns.node.LegendaryCharacter
+local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
@@ -568,15 +569,24 @@ map.nodes[57126460] = Fragment({
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[35406995] = Disturbeddirt({
+    note = L['in_small_cave'],
+    pois = {POI({34926940})}
+})
 map.nodes[38188192] = Disturbeddirt()
 map.nodes[49514830] = Disturbeddirt()
 map.nodes[49894474] = Disturbeddirt()
+map.nodes[53398748] = Disturbeddirt()
+map.nodes[53997921] = Disturbeddirt()
 map.nodes[54273978] = Disturbeddirt()
+map.nodes[54433376] = Disturbeddirt()
 map.nodes[55588459] = Disturbeddirt()
 map.nodes[55756743] = Disturbeddirt()
 map.nodes[55918384] = Disturbeddirt()
+map.nodes[56957403] = Disturbeddirt()
 map.nodes[59532835] = Disturbeddirt()
 map.nodes[62226638] = Disturbeddirt()
+map.nodes[62296972] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
@@ -590,8 +600,55 @@ map.nodes[50844623] = Scoutpack()
 map.nodes[52758333] = Scoutpack()
 map.nodes[55456797] = Scoutpack()
 map.nodes[55873598] = Scoutpack()
+map.nodes[55875138] = Scoutpack()
 map.nodes[58046702] = Scoutpack()
 map.nodes[59198794] = Scoutpack()
+map.nodes[59496912] = Scoutpack()
+
+-------------------------------------------------------------------------------
+------------------------------ Magic-Bound Chest ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[35107050] = MagicBoundChest({
+    note = L['in_small_cave'],
+    pois = {POI({34926940})}
+})
+map.nodes[42606660] = MagicBoundChest({
+    requires = {
+        ns.requirement.Reputation(2507, 16, true),
+        ns.requirement.Profession(186)
+    },
+    note = L['in_small_cave']
+})
+map.nodes[42907900] = MagicBoundChest({
+    note = L['in_cave'],
+    pois = {POI({40957754})}
+})
+map.nodes[50205200] = MagicBoundChest({
+    requires = {
+        ns.requirement.Reputation(2507, 16, true),
+        ns.requirement.Profession(186)
+    },
+    note = L['in_small_cave']
+})
+map.nodes[53005690] = MagicBoundChest()
+map.nodes[54108390] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[54803270] = MagicBoundChest({
+    requires = {
+        ns.requirement.Reputation(2507, 16, true),
+        ns.requirement.Profession(186)
+    },
+    note = L['in_small_cave']
+})
+map.nodes[58606750] = MagicBoundChest({
+    note = L['in_cave'],
+    pois = {POI({56916717})}
+})
+map.nodes[61305400] = MagicBoundChest({
+    note = L['in_cave'],
+    pois = {POI({59755371})}
+})
+map.nodes[62207180] = MagicBoundChest()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
