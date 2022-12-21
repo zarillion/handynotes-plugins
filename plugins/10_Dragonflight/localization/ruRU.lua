@@ -295,14 +295,14 @@ L['hidden_hornswog_hoard_note'] = [[
 {item:200066}
 ]]
 
-L['pm_alch_grigori_vialtry'] = nil
-L['pm_skin_zenzi'] = nil
-L['pm_smith_grekka_anvilsmash'] = nil
+L['pm_alch_grigori_vialtry'] = 'На выступе с видом на |cFFFFFD00Осаду Морозной Вспышки|r.'
+L['pm_skin_zenzi'] = 'Сидит рядом с рекой.'
+L['pm_smith_grekka_anvilsmash'] = 'Сидит в траве рядом с разрушенной башней.'
 L['pt_alch_frostforged_potion_note'] = 'Посреди ледяного кратера.'
-L['pt_alch_well_insulated_mug_note'] = nil
+L['pt_alch_well_insulated_mug_note'] = 'В |cFFFFFD00Драконьей Погибели|r между несколькими элитными монстрами.'
 L['pt_ench_enchanted_debris_note'] = 'Активируйте и следуйте за {npc:194872}, чтобы собрать обломки в конце.'
 L['pt_ench_flashfrozen_scroll_note'] = 'Внутри |cFFFFFD00Анклава Морозной Вспышки|r.'
-L['pt_ench_lava_infused_seed_note'] = nil
+L['pt_ench_lava_infused_seed_note'] = 'В цветке в |cFFFFFD00Крепости Расколотой Чешуи|r.'
 L['pt_engi_boomthyr_rocket_note'] = nil
 L['pt_engi_intact_coil_capacitor_note'] = nil
 L['pt_jewel_closely_guarded_shiny_note'] = 'Синий драгоценный камень под деревом рядом с гнездом.'
