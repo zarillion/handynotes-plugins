@@ -49,6 +49,10 @@ L['scout_pack'] = 'Mochilas de Explorador de Expedición'
 L['options_icons_scout_pack'] = 'Mochilas de explorador de expedición'
 L['options_icons_scout_pack_desc'] = 'Muestra dónde están las Mochilas de Explorador de Expedición.'
 
+L['magicbound_chest'] = nil
+L['options_icons_magicbound_chest'] = nil
+L['options_icons_magicbound_chest_desc'] = nil
+
 L['dr_best'] = 'Tu mejor tiempo:\n - Normal: %.3fs\n - Avanzado: %.3fs'
 L['dr_best_dash'] = 'Tu mejor tiempo:\n - %.3fs'
 L['dr_note'] = 'Objetivo de tiempo:\n - Normal: %ss / %ss\n - Avanzado: %ss / %ss'

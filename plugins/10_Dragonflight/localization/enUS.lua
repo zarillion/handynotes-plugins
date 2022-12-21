@@ -48,6 +48,10 @@ L['scout_pack'] = 'Expedition Scout\'s Pack'
 L['options_icons_scout_pack'] = 'Expedition Scout\'s Packs'
 L['options_icons_scout_pack_desc'] = 'Display the location of Expedition Scout\'s Packs.'
 
+L['magicbound_chest'] = 'Magic-Bound Chest'
+L['options_icons_magicbound_chest'] = 'Magic-Bound Chest'
+L['options_icons_magicbound_chest_desc'] = 'Display the location of Magic-Bound Chests.'
+
 L['dr_best'] = 'Your best time:\n - Normal: %.3fs\n - Advanced: %.3fs'
 L['dr_best_dash'] = 'Your best time:\n - %.3fs'
 L['dr_note'] = 'Target time:\n - Normal: %ss / %ss\n - Advanced: %ss / %ss'

@@ -48,6 +48,10 @@ L['scout_pack'] = '遠征隊斥侯包'
 L['options_icons_scout_pack'] = '遠征隊斥侯包'
 L['options_icons_scout_pack_desc'] = '顯示遠征隊斥侯包的位置'
 
+L['magicbound_chest'] = nil
+L['options_icons_magicbound_chest'] = nil
+L['options_icons_magicbound_chest_desc'] = nil
+
 L['dr_best'] = '你的最快時間:\n - 普通: %.3fs\n - 進階: %.3fs'
 L['dr_best_dash'] = '你的最佳時間:\n - %.3fs'
 L['dr_note'] = '目標時間:\n - 普通: %ss / %ss\n - 進階: %ss / %ss'

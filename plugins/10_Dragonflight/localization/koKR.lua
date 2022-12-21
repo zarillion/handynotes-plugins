@@ -48,6 +48,10 @@ L['scout_pack'] = '원정대 정찰병의 짐'
 L['options_icons_scout_pack'] = '원정대 정찰병의 짐'
 L['options_icons_scout_pack_desc'] = '원정대 정찰병의 짐 위치를 표시합니다.'
 
+L['magicbound_chest'] = nil
+L['options_icons_magicbound_chest'] = nil
+L['options_icons_magicbound_chest_desc'] = nil
+
 L['dr_best'] = '개인 최고 기록:\n - 일반: %.3f초\n - 고급: %.3f초'
 L['dr_best_dash'] = '개인 최고 기록:\n - %.3f초'
 L['dr_note'] = '목표 시간:\n - 일반: %s초 / %s초\n - 고급: %s초 / %s초'

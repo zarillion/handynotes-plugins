@@ -49,6 +49,10 @@ L['scout_pack'] = 'Сумка разведчика экспедиции'
 L['options_icons_scout_pack'] = 'Сумка разведчика экспедиции'
 L['options_icons_scout_pack_desc'] = 'Отображение местоположения Сумок разведчиков экспедиции.'
 
+L['magicbound_chest'] = nil
+L['options_icons_magicbound_chest'] = nil
+L['options_icons_magicbound_chest_desc'] = nil
+
 L['dr_best'] = 'Ваше лучшее время:\n - Обычный: %.3fс\n - Сложный: %.3fс'
 L['dr_best_dash'] = 'Ваше лучшее время:\n - %.3fс'
 L['dr_note'] = 'Отведенное время:\n - Обычный: %sс / %sс\n - Сложный: %sс / %sс'

@@ -48,6 +48,10 @@ L['scout_pack'] = 'Expeditionsspäherpack'
 L['options_icons_scout_pack'] = 'Expeditionsspäherpacks'
 L['options_icons_scout_pack_desc'] = 'Zeigt die Positionen für Expeditionsspäherpacks an.'
 
+L['magicbound_chest'] = 'Magiegebundene Truhe'
+L['options_icons_magicbound_chest'] = 'Magiegebundene Truhe'
+L['options_icons_magicbound_chest_desc'] = 'Zeigt die Positionen der Magiegebundenen Truhe.'
+
 L['dr_best'] = 'Deine beste Zeit:\n - Normal: %.3fs\n - Fortgeschritten: %.3fs'
 L['dr_best_dash'] = 'Deine beste Zeit:\n - %.3fs'
 L['dr_note'] = 'Vorgabezeit:\n - Normal: %ss / %ss\n - Fortgeschritten: %ss / %ss'

@@ -49,6 +49,10 @@ L['scout_pack'] = 'Paquetage d\'éclaireur de l\'expédition'
 L['options_icons_scout_pack'] = 'Paquetages d\'éclaireurs de l\'expédition'
 L['options_icons_scout_pack_desc'] = 'Affichez les emplacements des Paquetages d\'éclaireurs de l\'expédition.'
 
+L['magicbound_chest'] = nil
+L['options_icons_magicbound_chest'] = nil
+L['options_icons_magicbound_chest_desc'] = nil
+
 L['dr_best'] = 'Votre meilleur temps :\n - Normal : %.3fs\n - Avancé : %.3fs'
 L['dr_best_dash'] = 'Votre meilleur temps :\n - %.3fs'
 L['dr_note'] = 'Temps imparti :\n - Normal : %ss / %ss\n - Avancé : %ss / %ss'
