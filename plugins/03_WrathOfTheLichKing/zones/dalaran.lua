@@ -31,42 +31,42 @@ local HigherLearning = Class('HigherLearning', Collectible,
 
 map.nodes[56674557] = HigherLearning({
     note = L['higher_learning_1'],
-    rewards = HigherLearning_Rewards(1)
+    rewards = HigherLearning_Rewards(7236)
 }) -- The Schools of Arcane Magic - Introduction
 
 map.nodes[52305479] = HigherLearning({
     note = L['higher_learning_2'],
-    rewards = HigherLearning_Rewards(2)
+    rewards = HigherLearning_Rewards(7237)
 }) -- The Schools of Arcane Magic - Abjuration
 
 map.nodes[30774601] = HigherLearning({
     note = L['higher_learning_3'],
-    rewards = HigherLearning_Rewards(3)
+    rewards = HigherLearning_Rewards(7238)
 }) -- The Schools of Arcane Magic - Conjuration
 
 map.nodes[26485222] = HigherLearning({
     note = L['higher_learning_4'],
-    rewards = HigherLearning_Rewards(4)
+    rewards = HigherLearning_Rewards(7239)
 }) -- The Schools of Arcane Magic - Divination
 
 map.nodes[43544669] = HigherLearning({
     note = L['higher_learning_5'],
-    rewards = HigherLearning_Rewards(5)
+    rewards = HigherLearning_Rewards(7240)
 }) -- The Schools of Arcane Magic - Enchantment
 
 map.nodes[64415237] = HigherLearning({
     note = L['higher_learning_6'],
-    rewards = HigherLearning_Rewards(6)
+    rewards = HigherLearning_Rewards(7241)
 }) -- The Schools of Arcane Magic - Illusion
 
 map.nodes[46773914] = HigherLearning({
     note = L['higher_learning_7'],
-    rewards = HigherLearning_Rewards(7)
+    rewards = HigherLearning_Rewards(7242)
 }) -- The Schools of Arcane Magic - Necromancy
 
 map.nodes[46784001] = HigherLearning({
     note = L['higher_learning_8'],
-    rewards = HigherLearning_Rewards(8)
+    rewards = HigherLearning_Rewards(7243)
 }) -- The Schools of Arcane Magic - Transmutation
 
 map.nodes[22405470] = HigherLearning({
