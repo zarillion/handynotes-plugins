@@ -576,7 +576,7 @@ map.nodes[40454136] = Treasure({ -- required 65537, 70599, 70527
     quest = 70599,
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Quest(70527,'{item:199061}') -- A Guide to Rare Fish
+        ns.requirement. Quest(70527, '{item:199061}') -- A Guide to Rare Fish
     },
     note = L['bubble_drifter_note'],
     rewards = {
