@@ -368,7 +368,7 @@ L['otto_note_start2'] = ns.color.Orange('击败 |cFFFFFD00<大家伙>|r 怪物�
 L['otto_note_start3'] = '一旦你有了一对 {item:202042}，就可以前往位于 |cFFFFFD00嘶鸣海湾|r 的 |cFFFFFD00泡泡浴|r 深水酒吧找到一个跳舞垫，然后站在上面获得负面效果 {spell:396539}。一旦负面效果结束，你就会昏倒并在桶旁醒来。与它互动以拾取 {item:202061}。现在需要在桶里装满鱼来喂给 {npc:199563}。'
 L['otto_note_item1'] = '收集100个 {item:202072}，一种高掉率鱼类，可以在 |cFFFFFD00碧蓝林海|r 的 |cFFFFFD00伊斯卡拉|r 的开阔水域钓到。将桶与鱼一起使用可获得 {item:202066}。'
 L['otto_note_item2'] = '收集25个 {item:202073}，一种低掉率鱼类，可以在 |cFFFFFD00觉醒海岸|r 的 |cFFFFFD00黑曜堡垒|r 周围的熔岩中钓到。将桶与鱼一起使用可获得 {item:202068}。'
-L['otto_note_item3'] = '收集1个 {item:202074}，一种稀有掉率鱼类，可以在 |cFFFFFD00索德拉苏斯|r 的 |cFFFFFD00艾杰斯亚学院|r 的水域中钓到。将桶与鱼一起使可获得 {item:202069}。'
+L['otto_note_item3'] = '收集1个 {item:202074}，一种稀有掉率鱼类，可以在 |cFFFFFD00索德拉苏斯|r 的 |cFFFFFD00艾杰斯亚学院|r 的水域中钓到。将桶与鱼一起使用可获得 {item:202069}。'
 L['otto_note_end'] = '返回 |cFFFFFD00觉醒海岸|r 的 |cFFFFFD00嘶鸣海湾|r，将桶放在找到它的地方以召唤 {npc:199563} 并领取坐骑！'
 
 L['options_icons_safari'] = '{achievement:16519}'
