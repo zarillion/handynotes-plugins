@@ -1431,7 +1431,7 @@ map.nodes[58676778] = Collectible({
     questCount = true,
     note = L['all_sides_of_the_story_duroz_and_kolgar_note'],
     rewards = {Achievement({id = 16406, criteria = 2})},
-    pois = {POI({57676697})}
+    pois = {POI({57676697, 56826448})}
 }) -- Duroz & Kolgar
 
 map.nodes[16176261] = Collectible({
