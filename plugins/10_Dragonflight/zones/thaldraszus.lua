@@ -586,11 +586,13 @@ map.nodes[56957403] = Disturbeddirt()
 map.nodes[59532835] = Disturbeddirt()
 map.nodes[62226638] = Disturbeddirt()
 map.nodes[62296972] = Disturbeddirt()
+map.nodes[37667615] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[35517551] = Scoutpack()
 map.nodes[37637740] = Scoutpack()
 map.nodes[38796831] = Scoutpack()
 map.nodes[38806831] = Scoutpack()

@@ -369,7 +369,7 @@ L['otto_note_start3'] = 'Once you have a pair of {item:202042} head over to |cFF
 L['otto_note_item1'] = 'Collect 100x {item:202072}, a high drop fish that can be fished in the open waters of |cFFFFFD00Iskaara|r in |cFFFFFD00Azure Span|r. Using the barrel with the fish gives you a {item:202066}.'
 L['otto_note_item2'] = 'Collect 25x {item:202073}, a rare drop fish that can be fished in the lava around the |cFFFFFD00Obsidian Citadel|r in |cFFFFFD00The Waking Shores|r. Using the barrel with the fish gives you a {item:202068}.'
 L['otto_note_item3'] = 'Collect 1x {item:202074}, a rare drop fish that can be fished in the waters by |cFFFFFD00Algeth\'ar Academy|r in |cFFFFFD00Thaldraszus|r. Using the barrel with the fish gives you an {item:202069}.'
-L['otto_note_end'] = 'Return to the |cFFFFFD00Hissing Grotto|r in |cFFFFFD00The Waking Shores|r and leave the barrel where you found it to summon {npc:199563} and receive you mount!'
+L['otto_note_end'] = 'Return to the |cFFFFFD00Hissing Grotto|r in |cFFFFFD00The Waking Shores|r and leave the barrel where you found it to summon {npc:199563} and receive your mount!'
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Display the location of battle pets for {achievement:16519}.'
