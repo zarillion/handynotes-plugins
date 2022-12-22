@@ -530,12 +530,12 @@ L['dorg_the_bloody_note'] = 'Töte {npc:89706} und andere Gegner am Erscheinungs
 L['grand_warlock_netherkurse_note'] = 'Töte Gegner um den Erscheinungsort.'
 L['ceraxas_note'] = 'Lässt nachdem er getötet wurde {npc:90426} mit der Quest {quest:38428} für ein Haustier erscheinen.'
 L['commander_orgmok_note'] = 'Reitet herum auf {npc:89676}.'
-L['rendrak_note'] = 'Sammel 10 {item:124045} von {npc:89788} um das Moor herum. Kombiniere diese, um den seltenen Gegner zu beschwören.'
+L['rendrak_note'] = 'Sammle 10x {item:124045} von {npc:89788} um das Moor herum. Kombiniere diese, um den seltenen Gegner zu beschwören.'
 L['akrrilo_note'] = 'Kaufe {item:124093} von {npc:92805} und benutze sie in der Blackfang Challenge Arena.'
 L['rendarr_note'] = 'Kaufe {item:124094} von {npc:92805} und benutze sie in der Blackfang Challenge Arena.'
 L['eyepiercer_note'] = 'Kaufe {item:124095} von {npc:92805} und benutze sie in der Blackfang Challenge Arena.'
 L['the_night_haunter_note'] = [[
-Sammel 10 Stapel von dem Schwächungszauber {spell:183612}.
+Sammle 10 Stapel von dem Schwächungszauber {spell:183612}.
 
 Benutze {npc:92651} oder finde {npc:92645}, um einen Schwächungszauber zu erhalten (100% chance).
 ]]
