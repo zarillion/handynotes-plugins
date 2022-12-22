@@ -626,7 +626,7 @@ map.nodes[65804182] = Treasure({
     note = L['golden_dragon_goblet_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Quest(70409, '{item:198854}'), -- Archeologist Artifact Notes
+        ns.requirement.Quest(70409, '{item:198854}') -- Archeologist Artifact Notes
     },
     rewards = {
         Achievement({id = 16297, criteria = 54698}), --
