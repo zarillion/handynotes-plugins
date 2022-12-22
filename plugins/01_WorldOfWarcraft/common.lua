@@ -305,68 +305,68 @@ ns.node.Safari = { -- Maybe add this to core later?
     GrasslandsCottontail = Class('GrasslandsCottontail', Safari, {
         id = 61704,
         rewards = {Achievement({id = 6586, criteria = 21611}), Pet({id = 443})}
-    }), -- TODO
+    }),
     GreyMoth = Class('GreyMoth', Safari, {
         id = 62050,
         rewards = {Achievement({id = 6585, criteria = 21708}), Pet({id = 464})}
-    }), -- TODO
+    }), -- Also in Azsuna, Legion
     GrizzlySquirrel = Class('GrizzlySquirrel', Safari, {
         id = 62818,
         rewards = {Achievement({id = 6586, criteria = 21679}), Pet({id = 647})}
-    }), -- TODO
+    }), -- Only in Azsuna, Stormheim, Legion; Grizzly Hills, Northrend; Twilight Highlands, Cataclysm
     Hare = Class('Hare', Safari, {
         id = 61751,
         rewards = {
             Achievement({id = 6585, criteria = 21612}),
             Achievement({id = 6586, criteria = 21612}), Pet({id = 448})
         }
-    }), -- TODO
+    }),
     HighlandsMouse = Class('HighlandsMouse', Safari, {
         id = 62905,
         rewards = {Achievement({id = 6586, criteria = 21680}), Pet({id = 550})}
-    }), -- TODO
+    }), -- Only in Twilight Highlands, Cataclysm; Stormheim, Legion
     HighlandsSkunk = Class('HighlandsSkunk', Safari, {
         id = 62907,
         rewards = {Achievement({id = 6586, criteria = 21681}), Pet({id = 823})}
-    }), -- TODO
+    }), -- Only in Twilight Highlands, Cataclysm
     HighlandsTurkey = Class('HighlandsTurkey', Safari, {
         id = 62906,
         rewards = {Achievement({id = 6586, criteria = 21682}), Pet({id = 645})}
-    }), -- TODO
+    }), -- Only in Twilight Highlands, Cataclysm; Stormheim, Legion
     HornedLizard = Class('HornedLizard', Safari, {
         id = 62894,
         rewards = {Achievement({id = 6585, criteria = 21701}), Pet({id = 851})}
-    }), -- TODO
+    }), -- Only in Uldum, Cataclysm
     HornyToad = Class('HornyToad', Safari, {
         id = 62185,
         rewards = {Achievement({id = 6585, criteria = 21715}), Pet({id = 483})}
-    }), -- TODO
+    }), -- Also in Tanaan Jungle, Draenor
     HugeToad = Class('HugeToad', Safari, {
         id = 61368,
         rewards = {Achievement({id = 6586, criteria = 21649}), Pet({id = 648})}
-    }), -- TODO
-    InfectedFawn = Class('HugeToad', Safari, {
+    }), --  Also in Zul'Drak, Northrend; Twilight Highlands, Cataclysm
+    InfectedFawn = Class('InfectedFawn', Safari, {
         id = 61827,
         rewards = {
             Achievement({id = 6585, criteria = 21637}),
             Achievement({id = 6586, criteria = 21637}), Pet({id = 628})
         }
-    }), -- TODO
+    }),
     InfectedSquirrel = Class('InfectedSquirrel', Safari, {
         id = 61828,
         rewards = {
             Achievement({id = 6585, criteria = 21638}),
             Achievement({id = 6586, criteria = 21638}), Pet({id = 627})
         }
-    }), -- TODO
+    }),
     InfestedBearCub = Class('InfestedBearCub', Safari, {
         id = 61758,
         rewards = {Achievement({id = 6586, criteria = 21650}), Pet({id = 453})}
-    }), -- TODO
+    }),
     IrradiatedRoach = Class('IrradiatedRoach', Safari, {
         id = 61691,
         rewards = {Achievement({id = 6586, criteria = 21507}), Pet({id = 442})}
-    }), -- TODO
+    }),
     JadeOozeling = Class('JadeOozeling', Safari, {
         id = 61718,
         rewards = {Achievement({id = 6586, criteria = 21675}), Pet({id = 446})}

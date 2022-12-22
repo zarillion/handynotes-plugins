@@ -60,3 +60,11 @@ map.nodes[52004480] = Safari.BlightedSquirrel({
         })
     }
 }) -- Blighted Squirrel
+
+map.nodes[55406880] = Safari.InfectedFawn({
+    pois = {POI({51207620, 55406880, 60600780, 62807440})}
+}) -- Infected Fawn
+
+map.nodes[49001760] = Safari.InfectedSquirrel({
+    pois = {POI({47201980, 49001760, 50001900})}
+}) -- Infected Squirrel

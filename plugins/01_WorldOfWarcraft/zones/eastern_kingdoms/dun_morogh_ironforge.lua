@@ -12,8 +12,9 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 27, settings = true})
+local ironforge = ns.Map({id = 87, settings = true})
 local new_tinkertown = ns.Map({id = 30, settings = true})
-local coldridge_valley = ns.Map({id = 427, settings = true}) -- needs to be checked
+local coldridge_valley = ns.Map({id = 427, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -63,3 +64,12 @@ coldridge_valley.nodes[56204860] = Safari.AlpineHare({
         })
     }
 }) -- Alpine Hare
+
+map.nodes[27203600] = Safari.IrradiatedRoach({
+    pois = {
+        POI({
+            25403660, 25603640, 25803180, 27203600, 27803420, 28003740,
+            28003760, 28803760
+        })
+    }
+}) -- Irradiated Roach
