@@ -292,7 +292,7 @@ map.nodes[49436289] = Treasure({
     quest = 70611,
     note = L['acorn_harvester_note'],
     rewards = {
-        Achievement({id = 16301, criteria = 54815}),
+        Achievement({id = 16301, criteria = 54815}), -- Treasures of Thaldraszus
         Pet({item = 193066, id = 3275}) -- Chestnut
     }
 }) -- Acorn Harvester
@@ -306,12 +306,12 @@ map.nodes[52607673] = Treasure({
         ns.requirement.Quest(70407, '{item:198852}') -- Bear Termination Orders
     },
     rewards = {
-        Achievement({id = 16301, criteria = 54812}), --
+        Achievement({id = 16301, criteria = 54812}), -- Treasures of Thaldraszus
         Item({item = 200863}) -- Glimmering Nozdorite Cluster
     }
 }) -- Amber Gem Cluster
 
-map.nodes[33967695] = Treasure({ -- add loot
+map.nodes[33967695] = Treasure({
     quest = 70607,
     note = L['cracked_hourglass_note'],
     requires = {
@@ -319,36 +319,35 @@ map.nodes[33967695] = Treasure({ -- add loot
         ns.requirement.Quest(70537, '{item:199068}') -- Time-Lost Memo
     },
     rewards = {
-        Achievement({id = 16301, criteria = 54810}), --
+        Achievement({id = 16301, criteria = 54810}), -- Treasures of Thaldraszus
         Item({item = 169951, note = '3x'}) -- Broken Hourglass
     }
 }) -- Cracked Hourglass
 
-map.nodes[60244164] = Treasure({ -- add loot
+map.nodes[60244164] = Treasure({
     quest = 70609,
     rewards = {
-        Achievement({id = 16301, criteria = 54813}), --
+        Achievement({id = 16301, criteria = 54813}), -- Treasures of Thaldraszus
         Item({item = 203206}) -- Elegant Canvas Brush
     }
 }) -- Elegant Canvas Brush
 
-map.nodes[58168007] = Treasure({ -- add loot
+map.nodes[58168007] = Treasure({
     quest = 70608,
     note = L['sandy_wooden_duck_note'],
-    requires = ns.requirement.Item(199069), -- Yennu's Map
+    requires = ns.requirement.Quest(70538, '{item:199069}'), -- Yennu's Map
     rewards = {
-        Achievement({id = 16301, criteria = 54811}),
+        Achievement({id = 16301, criteria = 54811}), -- Treasures of Thaldraszus
         Item({item = 200827, note = '5x'}) -- Weathered Sculpture
     },
     pois = {POI({54937543})} -- Yennu's Map
 }) -- Sandy Wooden Duck (Sand Pile)
 
-map.nodes[64851655] = Treasure({ -- add loot
+map.nodes[64851655] = Treasure({
     quest = 70610,
     note = L['in_cave'],
     rewards = {
-        Achievement({id = 16301, criteria = 54814}), --
-        Item({item = 193036}) -- Left-Handed Magnifying Glass
+        Achievement({id = 16301, criteria = 54814}), Item({item = 193036}) -- Left-Handed Magnifying Glass
     }
 }) -- Surveyor's Magnifying Glass
 
