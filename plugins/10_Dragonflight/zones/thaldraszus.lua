@@ -303,7 +303,7 @@ map.nodes[52607673] = Treasure({
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
         ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
-        ns.requirement.Item(198852) -- Bear Termination Orders
+        ns.requirement.Quest(70407, '{item:198852}') -- Bear Termination Orders
     },
     rewards = {
         Achievement({id = 16301, criteria = 54812}), --
@@ -316,7 +316,7 @@ map.nodes[33967695] = Treasure({ -- add loot
     note = L['cracked_hourglass_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Item(199068) -- Time-Lost Memo
+        ns.requirement.Quest(70537, '{item:199068}') -- Time-Lost Memo
     },
     rewards = {
         Achievement({id = 16301, criteria = 54810}), --

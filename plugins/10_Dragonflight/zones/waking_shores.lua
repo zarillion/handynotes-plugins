@@ -576,7 +576,7 @@ map.nodes[40454136] = Treasure({ -- required 65537, 70599, 70527
     quest = 70599,
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Item(199061) -- A Guide to Rare Fish
+        ns.requirement.Quest(70527,'{item:199061}') -- A Guide to Rare Fish
     },
     note = L['bubble_drifter_note'],
     rewards = {
@@ -612,7 +612,7 @@ map.nodes[29454699] = Treasure({
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
         ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
-        ns.requirement.Item(200738) -- Onyx Gem Cluster Map
+        ns.requirement.Quest(72021, '{item:200738}') -- Onyx Gem Cluster Map
     },
     rewards = {
         Achievement({id = 16297, criteria = 55448}), --
@@ -626,7 +626,7 @@ map.nodes[65804182] = Treasure({
     note = L['golden_dragon_goblet_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Item(198854) -- Archeologist Artifact Notes
+        ns.requirement.Quest(70409, '{item:198854}'), -- Archeologist Artifact Notes
     },
     rewards = {
         Achievement({id = 16297, criteria = 54698}), --
@@ -641,7 +641,7 @@ map.nodes[61347079] = Treasure({
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
         ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
-        ns.requirement.Item(199062) -- Ruby Gem Cluster Map
+        ns.requirement.Quest(70528, '{item:199062}') -- Ruby Gem Cluster Map
     },
     rewards = {
         Achievement({id = 16297, criteria = 54713}), --

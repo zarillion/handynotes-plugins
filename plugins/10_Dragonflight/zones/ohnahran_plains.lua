@@ -429,7 +429,7 @@ map.nodes[33205532] = Treasure({
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
         ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
-        ns.requirement.Item(198843) -- Emerald Gardens Explorer's Notes
+        ns.requirement.Quest(70392, '{item:198843}') -- Emerald Gardens Explorer's Notes
     },
     rewards = {
         Achievement({id = 16299, criteria = 54700}), --
@@ -452,7 +452,7 @@ map.nodes[32423817] = Treasure({
     note = L['nokhud_warspear_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Item(194540) -- Nokhud Armorer's Notes
+        ns.requirement.Quest(67046, '{item:194540}') -- Nokhud Armorer's Notes
     },
     rewards = {Achievement({id = 16299, criteria = 54707})}
 }) -- Nokhud Warspear
