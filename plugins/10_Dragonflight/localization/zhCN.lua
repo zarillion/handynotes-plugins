@@ -48,9 +48,9 @@ L['scout_pack'] = '探险队斥候的背包'
 L['options_icons_scout_pack'] = '探险队斥候的背包'
 L['options_icons_scout_pack_desc'] = '显示探险队斥候的背包的位置。'
 
-L['magicbound_chest'] = nil
-L['options_icons_magicbound_chest'] = nil
-L['options_icons_magicbound_chest_desc'] = nil
+L['magicbound_chest'] = '魔缚宝箱'
+L['options_icons_magicbound_chest'] = '魔缚宝箱'
+L['options_icons_magicbound_chest_desc'] = '显示魔缚宝箱的位置。'
 
 L['dr_best'] = '最快时间：\n - 普通：%.3f秒\n - 进阶：%.3f秒'
 L['dr_best_dash'] = '最快时间：\n - %.3f秒'
