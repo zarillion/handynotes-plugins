@@ -3,7 +3,7 @@
 * Added a node for the Otto mount.
 * Added and fixed some rare tracking ids.
 * Added magic-bount chest locations.
-* Updated requirements on treasures to me more accurate.
+* Updated requirements on treasures to be more accurate.
 
 # v24
 
