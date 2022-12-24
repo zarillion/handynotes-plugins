@@ -757,6 +757,9 @@ map.nodes[81035952] = Bakar({
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[22753027] = Disturbeddirt()
+map.nodes[25976132] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[29777163] = Disturbeddirt()
 map.nodes[29777363] = Disturbeddirt()
 map.nodes[36553269] = Disturbeddirt()
 map.nodes[38825564] = Disturbeddirt()
@@ -775,6 +778,8 @@ map.nodes[62171310] = Disturbeddirt()
 map.nodes[63251396] = Disturbeddirt()
 map.nodes[65868145] = Disturbeddirt()
 map.nodes[66451981] = Disturbeddirt()
+map.nodes[69087885] = Disturbeddirt()
+map.nodes[71706413] = Disturbeddirt()
 map.nodes[75003584] = Disturbeddirt()
 map.nodes[78534035] = Disturbeddirt()
 map.nodes[78782268] = Disturbeddirt()
@@ -787,6 +792,7 @@ map.nodes[81403827] = Disturbeddirt()
 map.nodes[82593486] = Disturbeddirt()
 map.nodes[85833271] = Disturbeddirt()
 map.nodes[86683243] = Disturbeddirt()
+map.nodes[86725931] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
@@ -798,24 +804,33 @@ map.nodes[24745680] = Scoutpack()
 map.nodes[25205876] = Scoutpack()
 map.nodes[32043887] = Scoutpack()
 map.nodes[35925854] = Scoutpack()
+map.nodes[42883769] = Scoutpack()
 map.nodes[43335647] = Scoutpack()
 map.nodes[43486213] = Scoutpack()
 map.nodes[44856758] = Scoutpack()
+map.nodes[50382904] = Scoutpack()
 map.nodes[51647211] = Scoutpack()
 map.nodes[51797550] = Scoutpack()
+map.nodes[52403042] = Scoutpack()
+map.nodes[56942485] = Scoutpack()
 map.nodes[60567702] = Scoutpack()
 map.nodes[61301817] = Scoutpack()
 map.nodes[61781881] = Scoutpack()
+map.nodes[63423235] = Scoutpack()
 map.nodes[64028081] = Scoutpack()
 map.nodes[65021064] = Scoutpack()
 map.nodes[66798258] = Scoutpack()
+map.nodes[73618656] = Scoutpack()
+map.nodes[78736935] = Scoutpack()
+map.nodes[84685647] = Scoutpack()
+map.nodes[86084606] = Scoutpack()
 map.nodes[91393390] = Scoutpack()
 
 -------------------------------------------------------------------------------
 ------------------------------ Magic-Bound Chest ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[31407150] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[31457162] = MagicBoundChest({note = L['in_small_cave']})
 map.nodes[38905590] = MagicBoundChest({note = L['in_small_cave']})
 map.nodes[39306790] = MagicBoundChest()
 map.nodes[53805720] = MagicBoundChest({

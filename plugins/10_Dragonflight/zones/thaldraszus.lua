@@ -131,7 +131,7 @@ map.nodes[57828380] = Rare({ -- review
     id = 193126,
     quest = nil,
     rewards = {
-        Achievement({id = 16679, criteria = 56135}),
+        Achievement({id = 16679, criteria = 56135}), --
         Toy({item = 200148}) -- A Collection Of Me
     }
 }) -- Innumerable Ruination
@@ -139,8 +139,9 @@ map.nodes[57828380] = Rare({ -- review
 map.nodes[62208160] = Rare({
     id = 193241,
     quest = 74066,
+    note = L['lord_epochbrgl_note'],
     rewards = {
-        Achievement({id = 16679, criteria = 56157}),
+        Achievement({id = 16679, criteria = 56157}), --
         Toy({item = 200148}) -- A Collection Of Me
     },
     pois = {POI({61708120})} -- Entrance
@@ -164,7 +165,7 @@ map.nodes[57218420] = Rare({ -- reqired 67030 review
     id = 193210,
     quest = 69866,
     rewards = {
-        Achievement({id = 16679, criteria = 56142}),
+        Achievement({id = 16679, criteria = 56142}), --
         Toy({item = 200148}) -- A Collection Of Me
     }
 }) -- Phleep
@@ -202,7 +203,7 @@ map.nodes[37607780] = Rare({ -- reqiured 67030
     quest = 69859,
     note = L['in_cave'],
     rewards = {
-        Achievement({id = 16679, criteria = 56150}),
+        Achievement({id = 16679, criteria = 56150}), --
         Toy({item = 200148}) -- A Collection Of Me
     },
     pois = {POI({38507640})} -- Cave entrance
@@ -242,9 +243,12 @@ map.nodes[46267317] = Rare({
 
 map.nodes[35027001] = Rare({ -- reqiured 67030 review
     id = 193146,
-    quest = 70947,
+    quest = 74036,
     note = L['in_small_cave'],
-    rewards = {Achievement({id = 16679, criteria = 56146})},
+    rewards = {
+        Achievement({id = 16679, criteria = 56146}),
+        Transmog({item = 200291, slot = L['leather']}) -- Waterlogged Racing Grips
+    },
     pois = {POI({34896938})} -- Entrance
 }) -- Treasure-Mad Trambladd
 
@@ -577,9 +581,13 @@ map.nodes[57126460] = Fragment({
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[34006488] = Disturbeddirt()
+map.nodes[34646179] = Disturbeddirt()
 map.nodes[35406995] = Disturbeddirt()
 map.nodes[37667615] = Disturbeddirt()
 map.nodes[38188192] = Disturbeddirt()
+map.nodes[39058408] = Disturbeddirt()
+map.nodes[39768205] = Disturbeddirt()
 map.nodes[46767747] = Disturbeddirt()
 map.nodes[49514830] = Disturbeddirt()
 map.nodes[49894474] = Disturbeddirt()

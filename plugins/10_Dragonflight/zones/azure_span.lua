@@ -113,7 +113,7 @@ map.nodes[13584855] = Rare({
 map.nodes[13432270] = Rare({
     id = 193178,
     quest = 74058,
-    note = L['blightfur_note'],
+    note = L['in_small_cave'] .. ' ' .. L['blightfur_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56122}),
         DC.RenewedProtoDrake.FinnedTail
@@ -494,7 +494,7 @@ map.nodes[53934372] = Treasure({
     note = L['in_small_cave'] .. ' ' .. L['gnoll_fiend_flail_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Quest(72709, '{item:199066}') -- Letter of Caution
+        ns.requirement.Quest(70535, '{item:199066}') -- Letter of Caution
     },
     rewards = {
         Achievement({id = 16300, criteria = 54805}),
@@ -829,9 +829,12 @@ map.nodes[65732814] = LeyLine({
 
 map.nodes[13503833] = Disturbeddirt({note = L['in_small_cave']})
 map.nodes[19214047] = Disturbeddirt()
+map.nodes[19225097] = Disturbeddirt()
 map.nodes[23716772] = Disturbeddirt()
+map.nodes[29872621] = Disturbeddirt()
 map.nodes[33704685] = Disturbeddirt()
 map.nodes[34234591] = Disturbeddirt()
+map.nodes[50284428] = Disturbeddirt()
 map.nodes[57775352] = Disturbeddirt()
 map.nodes[65193151] = Disturbeddirt()
 map.nodes[65516163] = Disturbeddirt()

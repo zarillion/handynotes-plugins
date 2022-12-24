@@ -228,6 +228,7 @@ L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de l
 L['ancient_protector_note'] = 'Tuez des {npc:193244} proches pour obtenir {item:197708}. Combinez 5 {item:197708} pour créer un {item:197733} et utilisez-le pour activer les Réacteurs titanesques à proximité.'
 L['blightpaw_note'] = 'Parlez à l\'{npc:193222} à proximité et acceptez de l\'aider.'
 L['corrupted_proto_dragon_note'] = 'Examinez l\'|cFFFFFD00Oeuf de dragon corrompu|r pour faire apparaître le rare.'
+L['lord_epochbrgl_note'] = nil
 L['weeping_vilomah_note'] = 'Parlez à {npc:193206} pour invoquer le rare.'
 L['woofang_note'] = 'Caressez {npc:193156} pour faire apparaître le rare.'
 

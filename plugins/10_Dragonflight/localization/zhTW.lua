@@ -227,6 +227,7 @@ L['hunt_instructor_basku_note'] = '用 {item:200093} 交換 |cFFFFFD00莫魯克�
 L['ancient_protector_note'] = '殺調附近的 {npc:193244} 來取得 {item:197708}. 組合5個 {item:197708} 來產生 {item:197733}. 並且使用它來啟動附近的泰坦反應爐'
 L['blightpaw_note'] = '和附近的 {npc:193222} 交談並同意幫助他.'
 L['corrupted_proto_dragon_note'] = '和 |cFFFFFD00腐化的龍蛋|r 互動來召喚稀有'
+L['lord_epochbrgl_note'] = nil
 L['weeping_vilomah_note'] = '和 {npc:193206} 對話來召喚稀有'
 L['woofang_note'] = '撫摸 {npc:193156} 來召喚稀有.'
 

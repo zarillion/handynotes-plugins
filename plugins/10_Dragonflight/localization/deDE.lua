@@ -42,15 +42,15 @@ L['options_icons_kite_desc'] = 'Zeigt die Positionen der {npc:198118} für den E
 
 L['disturbed_dirt'] = 'Bewegte Erde'
 L['options_icons_disturbed_dirt'] = 'Bewegte Erde'
-L['options_icons_disturbed_dirt_desc'] = 'Zeigt die Positionen für Bewegte Erde an.'
+L['options_icons_disturbed_dirt_desc'] = 'Zeigt die möglichen Positionen für Bewegte Erde an.'
 
 L['scout_pack'] = 'Expeditionsspäherpack'
 L['options_icons_scout_pack'] = 'Expeditionsspäherpacks'
-L['options_icons_scout_pack_desc'] = 'Zeigt die Positionen für Expeditionsspäherpacks an.'
+L['options_icons_scout_pack_desc'] = 'Zeigt die möglichen Positionen für Expeditionsspäherpacks an.'
 
 L['magicbound_chest'] = 'Magiegebundene Truhe'
-L['options_icons_magicbound_chest'] = 'Magiegebundene Truhe'
-L['options_icons_magicbound_chest_desc'] = 'Zeigt die Positionen der Magiegebundenen Truhe.'
+L['options_icons_magicbound_chest'] = 'Magiegebundene Truhen'
+L['options_icons_magicbound_chest_desc'] = 'Zeigt die möglichen Positionen der Magiegebundenen Truhen an.'
 
 L['dr_best'] = 'Deine beste Zeit:\n - Normal: %.3fs\n - Fortgeschritten: %.3fs'
 L['dr_best_dash'] = 'Deine beste Zeit:\n - %.3fs'
@@ -85,11 +85,11 @@ L['options_icons_legendary_album_desc'] = 'Zeigt die Positionen der legendären 
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['blightfur_note'] = nil
+L['blightfur_note'] = 'Sprich mit {npc:193633}, um den seltenen Gegner erscheinen zu lassen.'
 L['brackenhide_rare_note'] = 'Dieser seltene Gegner erscheint nach einer festen Rotation von {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} im Abstand von 10 Minuten.'
 L['fisherman_tinnak_note'] = 'Sammel |cFFFFFD00Zerbrochene Angelrute|r, |cFFFFFD00Zerrissenes Fischernetz|r und |cFFFFFD00Alte Harpune|r, um ihn zu beschwören.'
-L['frostpaw_note'] = nil
-L['sharpfang_note'] = nil
+L['frostpaw_note'] = 'Hebe den |cFFFFFD00Holzhammer|r in der Nähe auf und schlage die drei |cFFFFFD00Hau den Gnoll|r innerhalb von 20 Sekunden auf dem |cFFFFFD00Baumstumpf|r damit, um den seltenen Gegner erscheinen zu lassen.'
+L['sharpfang_note'] = 'Hilf {npc:192747} dabei, drei {npc:192748s} zu besiegen, um den seltenen Gegner erscheinen zu lassen.'
 L['spellwrought_snowman_note'] = 'Sammle 10x {npc:193424} und bringe diese zu {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Sammel ein |cFFFFFD00Singendes Bruchstück|r, um den Schwächungszauber {spell:382076} zu erhalten und benutze dann |cFFFFFD00Ungeladener Fokus|r.'
 
@@ -128,8 +128,8 @@ L['seeing_blue_note'] = 'Fliegt ohne Zwischenlandung von der Spitze der Azurarch
 L['snowman_note'] = 'Es liegen 3 Schneebälle in der Nähe (möglicherweise wurden sie von anderen Spielern weggerollt), rolle sie zu den Kindern {npc:197838} und {npc:197839}.\nDu erhältst den Erfolg sobald die Schneebälle die richtigen Größen erreicht haben.'
 
 L['snowclaw_cub_note_start'] = 'Du musst zunächst die Questreihe {quest:67094} von {npc:192522} in |cFFFFFD00Valdrakken|r abschließen, um den Titel |cFFFFFD00Ehrendryade|r zu erhalten.\n\nBesorge die folgenden Gegenstände:'
-L['snowclaw_cub_note_item1'] = 'Sammle 3x {item:197744} von verschiedene {npc:182559n} in |cFFFFFD00Die Küste des Ewachens|r.'
-L['snowclaw_cub_note_item2'] = 'Kaufe 1x {item:198356} von {npc:193310} in |cFFFFFD00Die Küste des Ewachens|r.'
+L['snowclaw_cub_note_item1'] = 'Sammle 3x {item:197744} von verschiedene {npc:182559n} in |cFFFFFD00Die Küste des Erwachens|r.'
+L['snowclaw_cub_note_item2'] = 'Kaufe 1x {item:198356} von {npc:193310} in |cFFFFFD00Die Küste des Erwachens|r.'
 L['snowclaw_cub_note_end'] = ns.color.Orange('Alle Gegenstände können im Auktionshaus ersteigert werden. Das ist besonders hilfreich, da du bei {npc:193310} den {item:198356} nur mit einer {item:199215} kaufen kannst.') .. '\n\nSobald du den Titel |cFFFFFD00Ehrendryade|r angelegt hast, biete {npc:196768} die Gegenstände an, um dein Haustier zu erhalten.' .. ns.color.Red('\n\nBUG: Der Titel könnte verschwinden.')
 
 L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem |cFFFFFD00Manastürmen für Anfänger|r Buch, um die Quest abzuschließen.'
@@ -156,13 +156,13 @@ L['hessethiash_treasure'] = 'Hessethiashs erbärmlich versteckter Schatz'
 L['lost_draconic_hourglass'] = 'Verlorenes drakonisches Stundenglas'
 L['suspicious_bottle_treasure'] = 'Verdächtige Flasche'
 L['mysterious_wand'] = 'Geheimnisvoller Zauberstab'
-L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und platziere ihn im |cFFFFFD00Kristallfokus|r.'
+L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Kristallschlüssel|r auf und platziere ihn im |cFFFFFD00Kristallfokus|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
-L['eaglemaster_niraak_note'] = nil
+L['eaglemaster_niraak_note'] = 'Töte {npc:186295} und {npc:186299} in der Nähe, um den seltenen Gegner erscheinen zu lassen.'
 L['hunter_of_the_deep_note'] = 'Hole dir am |cFFFFFD00Speergestell|r einen Speer und wirf die Fische ab, bis der seltene Gegner erscheint.'
 L['scaleseeker_mezeri_note'] = 'Sprich mit {npc:193224} und biete ihr ein {item:194681} an und folge ihr, bis sie den seltenen Gegner enthüllt.'
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
@@ -171,7 +171,7 @@ L['zarizz_note'] = 'Visiere und fauche ' .. ns.color.Orange('(/fauchen)') .. ' d
 
 L['gold_swong_coin_note'] = 'In der Höhle mit {npc:191608} zu seiner rechten Seite.'
 L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
-L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutz diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
+L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutze diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
 L['yennus_boat'] = 'Spielzeugboot der Tuskarr'
 L['yennus_boat_note'] = 'Plündere das |cFFFFFD00Spielzeugboot der Tuskarr|r, um {item:200876} zu erhalten, das die Quest {quest:72063} startet, die bei {npc:195252} abgegeben werden kann.'
 
@@ -227,6 +227,7 @@ L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den |cFFF
 L['ancient_protector_note'] = 'Töte {npc:193244} in der Nähe, um 5x {item:197708} zu erhalten und kombiniere diese, um einen {item:197733} herzustellen und verwende diesen, um Titanischer Reaktor in der Nähe zu aktivieren.'
 L['blightpaw_note'] = 'Sprich mit {npc:193222} in der Nähe und stimme zu, ihm zu helfen.'
 L['corrupted_proto_dragon_note'] = 'Untersuche das |cFFFFFD00Verderbte Drachenei|r, um den seltenen Gegner erscheinen zu lassen.'
+L['lord_epochbrgl_note'] = 'Klicke den {npc:193257} an, um den seltenen Gegner erscheinen zu lassen.'
 L['weeping_vilomah_note'] = 'Sprich mit {npc:193206}, um den seltenen Gegner erscheinen zu lassen.'
 L['woofang_note'] = 'Streichel {npc:193156}, um den seltenen Gegner erscheinen zu lassen.'
 
@@ -360,13 +361,13 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, ve
 
 L['magmashell_note'] = 'Erbeute von {npc:193138n} einen {item:201883} in der Nähe der |cFFFFFD00Obsidianzitadelle|r und bringe es zu {npc:199010}.\n\n' .. ns.color.Orange('Es wird 20 Sekunden {spell:395626} kanalisiert, während du in der Lava bist, um das Reittier zu erhalten. Es ist empfehlenswert einen Heiler mitzubringen oder etwas wie das Spielzeug {item:200116}.')
 
-L['otto_note_start1'] = 'Besorge dir die {item:202042}. Diese Brille ist ein 100%iger Drop aus {item:202102} den man bei {npc:191608} in den |cFFFFFD00Ebenen von Ohn\'ahra|r kaufen kann.\n\nDer Schatzbeutel kann mit 1x {item:199340} gekauft werden, die mit 5x {item:199339} gekauft werden kann, die mit 75x {item:199338} gekauft werden kann. Diese bekommst du durch Angeln auf den |cFFFFFD00Dracheninseln|r oder durch besiegen von |cFFFFFD00<Oschi>|r\'s aus Angellöchern.'
-L['otto_note_start2'] = ns.color.Orange('Um |cFFFFFD00<Oschi>|r\'s besiegen zu können benötigst du Ruhmstufe 7 bei den |cFFFFFD00Tuskarr von Iskaara|r und zugriff zu {item:194510}')
-L['otto_note_start3'] = 'Sobald du die {item:202042} hast gehe in |cFFFFFD00die Blubberbad|r Bar in der |cFFFFFD00Zischenden Grotte|r. Dort gibt es eine Tanzmatte, stell dich drauf und du erhältst den Debuff{spell:396539}. Sobald der Debuff abläuft wirst du Ohnmächtig und wachst danach neben einem Fass auf. Klicke auf das Fass und du erhältst {item:202061}. Du musst das Fass auffüllen um {npc:199563} zu füttern.'
-L['otto_note_item1'] = 'Sammle 100x {item:202072}, ein Fisch mit hoher Dropchance der überall in den gewässern von |cFFFFFD00Iskaara|r im |cFFFFFD00Azurblauen Gebirge|r geangelt werden kann. Wenn du den Fisch mit dem Fass benutzt erhältst du ein {item:202066}.'
-L['otto_note_item2'] = 'Sammle 25x {item:202073}, ein seltener Fisch der in der Lava bei der |cFFFFFD00Obsidianzitadelle|r in |cFFFFFD00der Küste des Erwachens|r geangelt werden kann. Wenn du den Fisch mit dem Fass benutzt erhältst du ein {item:202068}.'
-L['otto_note_item3'] = 'Sammel 1x {item:202074}, ein seltener Fisch der in den gewässern bei der |cFFFFFD00Akademie von Algeth\'ar|r geangelt werden kann. Wenn du den Fisch mit dem Fass benutzt erhältst du ein {item:202069}.'
-L['otto_note_end'] = 'Kehre zurück zur |cFFFFFD00Zischenden Grotte|r in |cFFFFFD00der Küste des Erwachens|r und stelle dass Fass zurück wo du es gefunden hast um {npc:199563} zu rufen und dein Reittier zu erhalten!'
+L['otto_note_start1'] = 'Sammle 75x {item:199338}, diese können von |cFFFFFD00<Oschi>|r\'s bei |cFFFFFD00Sichtung eines großen Oschis|r erbeutet oder beim Angeln auf den |cFFFFFD00Dracheninseln|r gefischt werden.\n\nTausche die Kupfermünzen bei {npc:191608} in den |cFFFFFD00Ebenen von Ohn\'ahra|r gegen 5x {item:199339} und diese wiederum gegen 1x {item:199340} ein und kaufe dir damit {item:202102} in dem zu 100% das Spielzeug {item:202042} enthalten ist.'
+L['otto_note_start2'] = ns.color.Orange('Um |cFFFFFD00<Oschi>|r\'s besiegen zu können, benötigst du Ruhmstufe 7 bei den |cFFFFFD00Tuskarr von Iskaara|r und eine {item:194510}.')
+L['otto_note_start3'] = 'Verwende das Spielzeug {item:202042} und stelle dich bei |cFFFFFD00Das Blubberbad|r in der |cFFFFFD00Zischenden Grotte|r auf die Tanzmatte, um den Schwächungszauber {spell:396539} zu erhalten. Sobald dieser abläuft wirst du Ohnmächtig und wachst neben einem Fass auf. Klicke auf das Fass und du erhältst ein {item:202061}. Du musst das Fass auffüllen, um {npc:199563} zu füttern.'
+L['otto_note_item1'] = 'Angle 100x {item:202072}, ein Fisch der überall in den Gewässern von |cFFFFFD00Iskaara|r im |cFFFFFD00Azurblauen Gebirge|r geangelt werden kann. Wenn du die Schollen mit dem Fass benutzt, erhältst du ein {item:202066}.'
+L['otto_note_item2'] = 'Angle 25x {item:202073}, ein seltener Fisch der in der Lava bei der |cFFFFFD00Obsidianzitadelle|r in |cFFFFFD00Die Küste des Erwachens|r geangelt werden kann. Wenn du die Karpfen mit dem Fass benutzt, erhältst du ein {item:202068}.'
+L['otto_note_item3'] = 'Angle 1x {item:202074}, ein seltener Fisch der in den Gewässern bei der |cFFFFFD00Akademie von Algeth\'ar|r geangelt werden kann. Wenn du die Königsfinne mit dem Fass benutzt, erhältst du ein {item:202069}.'
+L['otto_note_end'] = 'Stelle das Fass wieder hier auf, wo du es gefunden hast, um {npc:199563} zu rufen und dein Reittier zu erhalten!'
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:16519} an.'
