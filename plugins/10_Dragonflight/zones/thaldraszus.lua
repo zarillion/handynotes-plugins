@@ -136,7 +136,8 @@ map.nodes[57828380] = Rare({ -- review
 map.nodes[62208160] = Rare({
     id = 193241,
     quest = 74066,
-    rewards = {Achievement({id = 16679, criteria = 56157})}
+    rewards = {Achievement({id = 16679, criteria = 56157})},
+    pois = {POI({61708120})} -- Entrance
 }) -- Lord Epochbrgl
 
 map.nodes[52895903] = Rare({
