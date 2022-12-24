@@ -86,11 +86,11 @@ L['options_icons_legendary_album_desc'] = 'Afficher les emplacements des personn
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['blightfur_note'] = nil
+L['blightfur_note'] = 'Parlez à {npc:193633} pour invoquer le rare.'
 L['brackenhide_rare_note'] = 'Ces rares apparaissent selon une rotation fixe comme suit : {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} avec un intervalle de 10 minutes entre chacun.'
 L['fisherman_tinnak_note'] = 'Récupérez la |cFFFFFD00Canne à pêche cassée|r, le |cFFFFFD00Filet de pêche déchiré|r et le |cFFFFFD00Vieux harpon|r pour faire apparaître le rare.'
-L['frostpaw_note'] = nil
-L['sharpfang_note'] = nil
+L['frostpaw_note'] = 'Après avoir pris le |cFFFFFD00Marteau en bois|r, vous avez 20 secondes pour frapper le |cFFFFFD00Jeu du Gnoll|r sur la |cFFFFFD00Souche d\'arbre|r, et faire apparaître le rare.'
+L['sharpfang_note'] = 'Aidez {npc:192747} à vaincre les {npc:192748s} pour faire apparaître le rare.'
 L['spellwrought_snowman_note'] = 'Récupérez 10x {npc:193424} et amenez-les au {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Récupérez un |cFFFFFD00Fragment chantant|r pour obtenir {spell:382076} et utilisez le |cFFFFFD00Focalisateur déchargé|r pour faire apparaître le rare.'
 
