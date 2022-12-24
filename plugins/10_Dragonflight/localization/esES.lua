@@ -86,11 +86,11 @@ L['options_icons_legendary_album_desc'] = 'Muestra dónde están los personajes 
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['blightfur_note'] = nil
+L['blightfur_note'] = 'Habla con {npc:193633} para hacer aparecer al raro.'
 L['brackenhide_rare_note'] = 'Estos raros aparecen en un rotación fija en el siguiente orden: {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} con una diferencia de 10 minutos.'
 L['fisherman_tinnak_note'] = 'Recoge la |cFFFFFD00Caña de Pescar Rota|r, la |cFFFFFD00Red de Pescar Rota|r y el |cFFFFFD00Arpón Viejo|r para hacer aparecer al raro.'
-L['frostpaw_note'] = nil
-L['sharpfang_note'] = nil
+L['frostpaw_note'] = 'Después de coger el |cFFFFFD00Martillo de Madera|r, tienes 20 segundos para golpear el |cFFFFFD00Machacagnolls|r en el |cFFFFFD00Tocón|r, y hacer aparecer al raro.'
+L['sharpfang_note'] = 'Ayuda a {npc:192747} a derrotar a los {npc:192748} para hacer aparecer al raro.'
 L['spellwrought_snowman_note'] = 'Consigue 10x {npc:193424} y llévaselas a {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Recoge un |cFFFFFD00Fragmento Cantarín|r para conseguir {spell:382076} y usar el |cFFFFFD00Enfoque Descargado|r para hacer aparecer al raro.'
 
