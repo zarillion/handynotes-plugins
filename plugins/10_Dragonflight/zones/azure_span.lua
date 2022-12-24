@@ -203,7 +203,7 @@ map.nodes[64992995] = Rare({
 
 map.nodes[58264391] = Rare({
      id = 191356,
-     quest = 67148,
+     quest = 73877,
      note = L['frostpaw_note'],
      rewards = {
          Achievement({id = 16678, criteria = 56101}),
