@@ -136,17 +136,13 @@ map.nodes[57828380] = Rare({ -- review
 map.nodes[62208160] = Rare({
     id = 193241,
     quest = 74066,
-    rewards = {
-        Achievement({id = 16679, criteria = 56157})
-    }
+    rewards = {Achievement({id = 16679, criteria = 56157})}
 }) -- Lord Epochbrgl
 
 map.nodes[52895903] = Rare({
     id = 193246,
     quest = 74013,
-    rewards = {
-        Achievement({id = 16679, criteria = 56141})
-    }
+    rewards = {Achievement({id = 16679, criteria = 56141})}
 }) -- Matriarch Remalla
 
 -- map.nodes[] = Rare({ -- reqired 67030
@@ -195,9 +191,7 @@ map.nodes[37607780] = Rare({ -- reqiured 67030
     id = 193176,
     quest = 69859,
     note = L['in_cave'],
-    rewards = {
-        Achievement({id = 16679, criteria = 56150})
-    },
+    rewards = {Achievement({id = 16679, criteria = 56150})},
     pois = {POI({38507640})} -- Cave entrance
 }) -- Sandana the Tempest
 
