@@ -85,6 +85,7 @@ L['options_icons_legendary_album_desc'] = 'Display legendary character locations
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['blightfur_note'] = 'Talk to {npc:193633} to summon the rare.'
 L['brackenhide_rare_note'] = 'These rares spawn in a set rotation of {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} on a 10 minute timer.'
 L['fisherman_tinnak_note'] = 'Collect |cFFFFFD00Broken Fishing Pole|r, |cFFFFFD00Torn Fishing Net|r and |cFFFFFD00Old Harpoon|r to spawn the rare.'
 L['frostpaw_note'] = 'After taking the |cFFFFFD00Wooden Hammer|r, you have 20 seconds to hit the |cFFFFFD00Whack a Gnoll|r on the |cFFFFFD00Tree Stump|r, and spawn the rare.'

@@ -110,14 +110,16 @@ map.nodes[13584855] = Rare({
     }
 }) -- Bisquius
 
--- map.nodes[] = Rare({
---     id = 193178,
---     quest = 69858,
---     rewards = {
---         Achievement({id = 16678, criteria = 56122}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Blightfur
+map.nodes[13432270] = Rare({
+     id = 193178,
+     quest = 74058,
+     note = L['blightfur_note'],
+     rewards = {
+         Achievement({id = 16678, criteria = 56122}),
+         DC.RenewedProtoDrake.FinnedTail
+         -- Transmog({item = , slot = L['']}) -- Name
+     }
+}) -- Blightfur
 
 map.nodes[14053096] = RareElite({
     id = 197353,

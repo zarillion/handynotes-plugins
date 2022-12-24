@@ -85,6 +85,7 @@ L['options_icons_legendary_album_desc'] = '{achievement:16570} 업적을 위한 
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['blightfur_note'] = nil
 L['brackenhide_rare_note'] = '{npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 순서로 10분 단위로 젠됩니다.'
 L['fisherman_tinnak_note'] = 'Collect |cFFFFFD00망가진 낚싯대|r, |cFFFFFD00찢어진 낚시 그물|r, |cFFFFFD00오래된 작살|r을 모두 수집하면 생성됩니다.'
 L['frostpaw_note'] = nil
