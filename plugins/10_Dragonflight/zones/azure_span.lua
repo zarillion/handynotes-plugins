@@ -304,14 +304,21 @@ map.nodes[20584943] = Rare({
     pois = {POI({34023076, 34933000})} -- Entrance
 }) -- Notfar the Unbearable
 
--- map.nodes[] = Rare({
---     id = 197371,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56129}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Ravenous Tundra Bear
+map.nodes[58813260] = Rare({
+    id = 197371,
+    quest = {73891, 74080},
+    label = L['large_lunker_sighting'],
+    note = L['large_lunker_sighting_note'],
+    rewards = {
+        Achievement({
+            id = 16678,
+            criteria = {
+                {id = 56129, quest = 73891}, -- Ravenous Tundra Bear
+                {id = 56116, quest = 74080} -- Snufflegust
+            }
+        })
+    }
+}) -- Lunker Rares
 
 -- map.nodes[] = Rare({
 --     id = 193693,
@@ -344,15 +351,6 @@ map.nodes[10863229] = RareElite({
         DC.CliffsideWylderdrake.Ears
     }
 }) -- Snarglebone
-
--- map.nodes[] = Rare({
---     id = 193706,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56116}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Snufflegust
 
 map.nodes[55033405] = RareElite({
     id = 193238,
