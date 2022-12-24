@@ -87,6 +87,7 @@ L['options_icons_legendary_album_desc'] = '显示 {achievement:16570} 成就中�
 
 L['brackenhide_rare_note'] = '这些稀有以10分钟计时按固定轮次 {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 出现。'
 L['fisherman_tinnak_note'] = '收集 |cFFFFFD00破损的鱼竿|r，|cFFFFFD00扯烂的渔网|r 和 |cFFFFFD00旧鱼叉|r 后稀有出现。'
+L['frostpaw_note'] = '拿上 |cFFFFFD00木槌|r 后有20秒的时间去打 |cFFFFFD00树桩|r上的 |cFFFFFD00打豺狼人|r，之后稀有出现。'
 L['sharpfang_note'] = '帮助 {npc:192747} 击败 {npc:192748} 后稀有出现。'
 L['spellwrought_snowman_note'] = '收集10个 {npc:193424} 并将它们带到 {npc:193242}。'
 L['trilvarus_loreweaver_note'] = '收集 |cFFFFFD00吟歌碎片|r 即可获得 {spell:382076} 并使用 |cFFFFFD00未充能的法器|r 后稀有出现。'

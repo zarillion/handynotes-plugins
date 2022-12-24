@@ -201,14 +201,16 @@ map.nodes[64992995] = Rare({
     }
 }) -- Frigidpelt Den Mother
 
--- map.nodes[] = Rare({
---     id = 191356,
---     quest = 67148,
---     rewards = {
---         Achievement({id = 16678, criteria = 56101}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Frostpaw
+map.nodes[58264391] = Rare({
+     id = 191356,
+     quest = 67148,
+     note = L['frostpaw_note'],
+     rewards = {
+         Achievement({id = 16678, criteria = 56101}),
+         -- Transmog({item = , slot = L['']}) -- Name
+     },
+     pois = {POI({58664339})}
+}) -- Frostpaw
 
 map.nodes[14083747] = RareElite({
     id = 197354,
