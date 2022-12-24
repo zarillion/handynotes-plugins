@@ -206,7 +206,7 @@ map.nodes[58264391] = Rare({
      quest = 73877,
      note = L['frostpaw_note'],
      rewards = {
-         Achievement({id = 16678, criteria = 56101}),
+         Achievement({id = 16678, criteria = 56101})
          -- Transmog({item = , slot = L['']}) -- Name
      },
      pois = {POI({58664339})}
