@@ -100,7 +100,7 @@ map.nodes[44886910] = Rare({
 
 local CRAGGRAVATEDELEMENTAL = Rare({
     id = 193663,
-    quest = 69964,
+    quest = 74061,
     fgroup = 'craggravated',
     focusable = true,
     rewards = {Achievement({id = 16679, criteria = 56154})}
