@@ -111,14 +111,14 @@ map.nodes[13584855] = Rare({
 }) -- Bisquius
 
 map.nodes[13432270] = Rare({
-     id = 193178,
-     quest = 74058,
-     note = L['blightfur_note'],
-     rewards = {
-         Achievement({id = 16678, criteria = 56122}),
-         DC.RenewedProtoDrake.FinnedTail
-         -- Transmog({item = , slot = L['']}) -- Name
-     }
+    id = 193178,
+    quest = 74058,
+    note = L['blightfur_note'],
+    rewards = {
+        Achievement({id = 16678, criteria = 56122}),
+        DC.RenewedProtoDrake.FinnedTail
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
 }) -- Blightfur
 
 map.nodes[14053096] = RareElite({
@@ -204,14 +204,14 @@ map.nodes[64992995] = Rare({
 }) -- Frigidpelt Den Mother
 
 map.nodes[58264391] = Rare({
-     id = 191356,
-     quest = 73877,
-     note = L['frostpaw_note'],
-     rewards = {
-         Achievement({id = 16678, criteria = 56101})
-         -- Transmog({item = , slot = L['']}) -- Name
-     },
-     pois = {POI({58664339})}
+    id = 191356,
+    quest = 73877,
+    note = L['frostpaw_note'],
+    rewards = {
+        Achievement({id = 16678, criteria = 56101})
+        -- Transmog({item = , slot = L['']}) -- Name
+    },
+    pois = {POI({58664339})}
 }) -- Frostpaw
 
 map.nodes[14083747] = RareElite({
