@@ -133,21 +133,21 @@ map.nodes[57828380] = Rare({ -- review
     rewards = {Achievement({id = 16679, criteria = 56135})}
 }) -- Innumerable Ruination
 
--- map.nodes[] = Rare({
---     id = 193241,
---     quest = 69882,
---     rewards = {
---         Achievement({id = 16679, criteria = 56157}),
---     }
--- }) -- Lord Epochbrgl
+map.nodes[62208160] = Rare({
+    id = 193241,
+    quest = 74066,
+    rewards = {
+        Achievement({id = 16679, criteria = 56157}),
+    }
+}) -- Lord Epochbrgl
 
--- map.nodes[] = Rare({
---     id = 193246,
---     quest = 69883,
---     rewards = {
---         Achievement({id = 16679, criteria = 56141}),
---     }
--- }) -- Matriarch Remalla
+map.nodes[52895903] = Rare({
+    id = 193246,
+    quest = 74013,
+    rewards = {
+        Achievement({id = 16679, criteria = 56141}),
+    }
+}) -- Matriarch Remalla
 
 -- map.nodes[] = Rare({ -- reqired 67030
 --     id = 193688,
