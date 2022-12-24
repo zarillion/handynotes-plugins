@@ -1416,7 +1416,7 @@ map.nodes[57473193] = Ohnahra()
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
-map.nodes[82207320] = NPC({
+map.nodes[82327320] = NPC({
     id = 191608,
     icon = 4638725,
     note = L['the_great_swog_note']

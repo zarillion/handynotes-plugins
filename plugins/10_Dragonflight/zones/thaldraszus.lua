@@ -1015,9 +1015,19 @@ val.nodes[61261096] = Collectible({
                 55733, 55734
             }
         })
-
     }
 }) -- Great Gourmand of the Ruby Feast
+
+val.nodes[43757494] = Collectible({
+    icon = 4048815,
+    parent = map.id,
+    id = 187783,
+    requires = {
+        ns.requirement.Item(197792, 3), ns.requirement.Item(197788, 1),
+        ns.requirement.Item(197789, 1)
+    },
+    rewards = {Pet({item = 193571, id = 3303})}
+}) -- Mallard Ducklin
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
