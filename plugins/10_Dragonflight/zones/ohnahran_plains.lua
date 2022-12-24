@@ -70,7 +70,8 @@ map.nodes[30546628] = Rare({
 
 map.nodes[49866673] = Rare({
     id = 192020,
-    quest = 69568,
+    quest = 74063,
+    note = L['eaglemaster_niraak_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56077}),
         Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
@@ -80,7 +81,7 @@ map.nodes[49866673] = Rare({
 
 map.nodes[56718128] = Rare({
     id = 193142,
-    quest = 69840,
+    quest = 73875,
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 16677, criteria = 56064})
@@ -227,7 +228,7 @@ map.nodes[20444344] = Rare({
 
 map.nodes[50117517] = Rare({
     id = 193136,
-    quest = 69863,
+    quest = 73893,
     rewards = {Achievement({id = 16677, criteria = 56063})}
 }) -- Scav Notail
 

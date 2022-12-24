@@ -568,11 +568,10 @@ map.nodes[57126460] = Fragment({
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[35406995] = Disturbeddirt({
-    note = L['in_small_cave'],
-    pois = {POI({34926940})}
-})
+map.nodes[35406995] = Disturbeddirt()
+map.nodes[37667615] = Disturbeddirt()
 map.nodes[38188192] = Disturbeddirt()
+map.nodes[46767747] = Disturbeddirt()
 map.nodes[49514830] = Disturbeddirt()
 map.nodes[49894474] = Disturbeddirt()
 map.nodes[53398748] = Disturbeddirt()
@@ -586,7 +585,6 @@ map.nodes[56957403] = Disturbeddirt()
 map.nodes[59532835] = Disturbeddirt()
 map.nodes[62226638] = Disturbeddirt()
 map.nodes[62296972] = Disturbeddirt()
-map.nodes[37667615] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------

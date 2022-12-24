@@ -85,8 +85,11 @@ L['options_icons_legendary_album_desc'] = 'Display legendary character locations
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['blightfur_note'] = 'Talk to {npc:193633} to summon the rare.'
 L['brackenhide_rare_note'] = 'These rares spawn in a set rotation of {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} on a 10 minute timer.'
 L['fisherman_tinnak_note'] = 'Collect |cFFFFFD00Broken Fishing Pole|r, |cFFFFFD00Torn Fishing Net|r and |cFFFFFD00Old Harpoon|r to spawn the rare.'
+L['frostpaw_note'] = 'After taking the |cFFFFFD00Wooden Hammer|r, you have 20 seconds to hit the |cFFFFFD00Whack a Gnoll|r on the |cFFFFFD00Tree Stump|r, and spawn the rare.'
+L['sharpfang_note'] = 'Help {npc:192747} defeat {npc:192748s} to spawn the rare.'
 L['spellwrought_snowman_note'] = 'Collect 10x {npc:193424} and bring them to {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Collect a |cFFFFFD00Singing Fragment|r to get {spell:382076} and use the |cFFFFFD00Uncharded Focus|r to spawn the rare.'
 
@@ -159,6 +162,7 @@ L['mysterious_wand_note'] = 'Pick up the |cFFFFFD00Crystal Key|r and place it in
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['eaglemaster_niraak_note'] = 'Kill nearby {npc:186295s} and {npc:186299s} to spawn the rare.'
 L['hunter_of_the_deep_note'] = 'Click on the weapon rack and shoot fish until the rare spawns.'
 L['scaleseeker_mezeri_note'] = 'Offer {item:194681} to {npc:193224} and follow her until she reveals the rare.'
 L['shade_of_grief_note'] = 'Click the {npc:193166} to spawn the rare.'

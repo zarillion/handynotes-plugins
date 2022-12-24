@@ -85,8 +85,11 @@ L['options_icons_legendary_album_desc'] = 'Zeigt die Positionen der legendären 
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['blightfur_note'] = nil
 L['brackenhide_rare_note'] = 'Dieser seltene Gegner erscheint nach einer festen Rotation von {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} im Abstand von 10 Minuten.'
 L['fisherman_tinnak_note'] = 'Sammel |cFFFFFD00Zerbrochene Angelrute|r, |cFFFFFD00Zerrissenes Fischernetz|r und |cFFFFFD00Alte Harpune|r, um ihn zu beschwören.'
+L['frostpaw_note'] = nil
+L['sharpfang_note'] = nil
 L['spellwrought_snowman_note'] = 'Sammle 10x {npc:193424} und bringe diese zu {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Sammel ein |cFFFFFD00Singendes Bruchstück|r, um den Schwächungszauber {spell:382076} zu erhalten und benutze dann |cFFFFFD00Ungeladener Fokus|r.'
 
@@ -159,6 +162,7 @@ L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und plat
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['eaglemaster_niraak_note'] = nil
 L['hunter_of_the_deep_note'] = 'Hole dir am |cFFFFFD00Speergestell|r einen Speer und wirf die Fische ab, bis der seltene Gegner erscheint.'
 L['scaleseeker_mezeri_note'] = 'Sprich mit {npc:193224} und biete ihr ein {item:194681} an und folge ihr, bis sie den seltenen Gegner enthüllt.'
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
@@ -356,7 +360,7 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, ve
 
 L['magmashell_note'] = 'Erbeute von {npc:193138n} einen {item:201883} in der Nähe der |cFFFFFD00Obsidianzitadelle|r und bringe es zu {npc:199010}.\n\n' .. ns.color.Orange('Es wird 20 Sekunden {spell:395626} kanalisiert, während du in der Lava bist, um das Reittier zu erhalten. Es ist empfehlenswert einen Heiler mitzubringen oder etwas wie das Spielzeug {item:200116}.')
 
-L['otto_note_start1'] = 'Besorge dir die {item:202042}. Diese Brille ist ein 100%iger Drop aus {item:202102} den man bei {npc:191608} in den |cFFFFFD00Ebenen von Ohn\'ahra|r kaufen kann.\n\nDer Schatzbeutel kann mit 1x {item:199340} gekauft werden, der mit 5x {item:199339} gekauft werden kann, der mit 75x {item:199338} gekauft werden kann. Diese bekommst du durch Angeln auf den |cFFFFFD00Dracheninseln|r oder durch besiegen von |cFFFFFD00<Oschi>|r\'s aus Angellöchern.'
+L['otto_note_start1'] = 'Besorge dir die {item:202042}. Diese Brille ist ein 100%iger Drop aus {item:202102} den man bei {npc:191608} in den |cFFFFFD00Ebenen von Ohn\'ahra|r kaufen kann.\n\nDer Schatzbeutel kann mit 1x {item:199340} gekauft werden, die mit 5x {item:199339} gekauft werden kann, die mit 75x {item:199338} gekauft werden kann. Diese bekommst du durch Angeln auf den |cFFFFFD00Dracheninseln|r oder durch besiegen von |cFFFFFD00<Oschi>|r\'s aus Angellöchern.'
 L['otto_note_start2'] = ns.color.Orange('Um |cFFFFFD00<Oschi>|r\'s besiegen zu können benötigst du Ruhmstufe 7 bei den |cFFFFFD00Tuskarr von Iskaara|r und zugriff zu {item:194510}')
 L['otto_note_start3'] = 'Sobald du die {item:202042} hast gehe in |cFFFFFD00die Blubberbad|r Bar in der |cFFFFFD00Zischenden Grotte|r. Dort gibt es eine Tanzmatte, stell dich drauf und du erhältst den Debuff{spell:396539}. Sobald der Debuff abläuft wirst du Ohnmächtig und wachst danach neben einem Fass auf. Klicke auf das Fass und du erhältst {item:202061}. Du musst das Fass auffüllen um {npc:199563} zu füttern.'
 L['otto_note_item1'] = 'Sammle 100x {item:202072}, ein Fisch mit hoher Dropchance der überall in den gewässern von |cFFFFFD00Iskaara|r im |cFFFFFD00Azurblauen Gebirge|r geangelt werden kann. Wenn du den Fisch mit dem Fass benutzt erhältst du ein {item:202066}.'
