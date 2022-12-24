@@ -227,7 +227,7 @@ L['hunt_instructor_basku_note'] = '用 {item:200093} 换取 |cFFFFFD00马鲁克�
 L['ancient_protector_note'] = '击杀附近的 {npc:193244} 以获得 {item:197708}。将5个 {item:197708} 组合成一个 {item:197733} 并用它来激活附近的泰坦反应堆。'
 L['blightpaw_note'] = '与附近的 {npc:193222} 交谈并同意帮助他。'
 L['corrupted_proto_dragon_note'] = '调查 |cFFFFFD00腐化的龙蛋|r 后稀有出现。'
-L['lord_epochbrgl_note'] = nil
+L['lord_epochbrgl_note'] = '点击 {npc:193257} 后稀有出现。'
 L['weeping_vilomah_note'] = '和 {npc:193206} 对话召唤稀有。'
 L['woofang_note'] = '抚摸 {npc:193156} 稀有出现。'
 
