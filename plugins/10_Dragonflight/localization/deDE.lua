@@ -162,6 +162,7 @@ L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Krstallschlüssel|r auf und plat
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['eaglemaster_niraak_note'] = nil
 L['hunter_of_the_deep_note'] = 'Hole dir am |cFFFFFD00Speergestell|r einen Speer und wirf die Fische ab, bis der seltene Gegner erscheint.'
 L['scaleseeker_mezeri_note'] = 'Sprich mit {npc:193224} und biete ihr ein {item:194681} an und folge ihr, bis sie den seltenen Gegner enthüllt.'
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
