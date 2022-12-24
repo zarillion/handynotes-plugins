@@ -154,6 +154,7 @@ L['mysterious_wand_note'] = nil
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['eaglemaster_niraak_note'] = nil
 L['hunter_of_the_deep_note'] = nil
 L['scaleseeker_mezeri_note'] = nil
 L['shade_of_grief_note'] = nil

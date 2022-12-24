@@ -162,6 +162,7 @@ L['mysterious_wand_note'] = '拾取 |cFFFFFD00水晶钥匙|r 并将其放入 |cF
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
+L['eaglemaster_niraak_note'] = '击杀附近的 {npc:186295} 和 {npc:186299} 直到稀有出现。'
 L['hunter_of_the_deep_note'] = '单击武器架并射击鱼直到稀有出现。'
 L['scaleseeker_mezeri_note'] = '向 {npc:193224} 提供一个 {item:194681}，并跟着她，直到她揭示稀有。'
 L['shade_of_grief_note'] = '点击 {npc:193166} 稀有出现。'
