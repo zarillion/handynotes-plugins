@@ -80,7 +80,7 @@ map.nodes[49866673] = Rare({
 
 map.nodes[56718128] = Rare({
     id = 193142,
-    quest = 69840,
+    quest = 73875,
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 16677, criteria = 56064})
@@ -227,7 +227,7 @@ map.nodes[20444344] = Rare({
 
 map.nodes[50117517] = Rare({
     id = 193136,
-    quest = 69863,
+    quest = 73893,
     rewards = {Achievement({id = 16677, criteria = 56063})}
 }) -- Scav Notail
 
