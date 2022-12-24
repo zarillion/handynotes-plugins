@@ -111,7 +111,7 @@ map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 
 map.nodes[47675115] = Rare({ -- required 67030
     id = 193234,
-    quest = 69875,
+    quest = 73990,
     rewards = {
         Achievement({id = 16446, criteria = 55398, note = L['pretty_neat_note']}),
         Achievement({id = 16679, criteria = 56147})
