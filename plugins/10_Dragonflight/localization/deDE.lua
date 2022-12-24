@@ -85,6 +85,7 @@ L['options_icons_legendary_album_desc'] = 'Zeigt die Positionen der legendären 
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['blightfur_note'] = nil
 L['brackenhide_rare_note'] = 'Dieser seltene Gegner erscheint nach einer festen Rotation von {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} im Abstand von 10 Minuten.'
 L['fisherman_tinnak_note'] = 'Sammel |cFFFFFD00Zerbrochene Angelrute|r, |cFFFFFD00Zerrissenes Fischernetz|r und |cFFFFFD00Alte Harpune|r, um ihn zu beschwören.'
 L['frostpaw_note'] = nil
