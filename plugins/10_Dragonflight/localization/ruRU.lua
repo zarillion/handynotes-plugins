@@ -88,6 +88,7 @@ L['options_icons_legendary_album_desc'] = 'Отображение мест с л
 
 L['brackenhide_rare_note'] = 'Эти редкие монстры появляются в установленной ротации {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} с интервалом в 10 минут.'
 L['fisherman_tinnak_note'] = 'Соберите |cFFFFFD00Сломанную удочку|r, |cFFFFFD00Рванную рыболовную сеть|r и |cFFFFFD00Старый гарпун|r для призыва редкого монстра.'
+L['sharpfang_note'] = nil
 L['spellwrought_snowman_note'] = 'Соберите 10x {npc:193424} и принесите их к {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Возьмите |cFFFFFD00Напевающий фрагмент|r и получите {spell:382076} затем используйте |cFFFFFD00Незаряженное сосредоточение|r для того, чтобы призвать редкого монстра.'
 

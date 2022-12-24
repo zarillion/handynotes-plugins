@@ -460,6 +460,7 @@ map.nodes[17254144] = Rare({
 map.nodes[36723247] = Rare({
     id = 192749,
     quest = 72846, -- 67173
+    note = L['sharpfang_note'],
     rewards = {
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
