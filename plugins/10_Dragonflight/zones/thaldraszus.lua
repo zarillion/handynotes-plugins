@@ -874,9 +874,12 @@ map.nodes[54285271] = PrettyNeat({
 ------------------------------ A LEGENDARY ALBUM ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[51134219] = LegendaryCharacter({
+map.nodes[52934483] = LegendaryCharacter({
     id = 187284,
-    rewards = {Achievement({id = 16570, criteria = 55775})}
+    rewards = {Achievement({id = 16570, criteria = 55775})},
+    pois = {
+        Path({52934483, 52634333, 52244259, 51764224, 51164188}) -- Flight Path
+    }
 }) -- Wrathion
 
 map.nodes[36036939] = LegendaryCharacter({
