@@ -130,13 +130,19 @@ map.nodes[53374092] = Rare({
 map.nodes[57828380] = Rare({ -- review
     id = 193126,
     quest = nil,
-    rewards = {Achievement({id = 16679, criteria = 56135})}
+    rewards = {
+        Achievement({id = 16679, criteria = 56135}),
+        Toy({item = 200148}) -- A Collection Of Me
+    }
 }) -- Innumerable Ruination
 
 map.nodes[62208160] = Rare({
     id = 193241,
     quest = 74066,
-    rewards = {Achievement({id = 16679, criteria = 56157})},
+    rewards = {
+        Achievement({id = 16679, criteria = 56157}),
+        Toy({item = 200148}) -- A Collection Of Me
+    },
     pois = {POI({61708120})} -- Entrance
 }) -- Lord Epochbrgl
 
@@ -157,7 +163,10 @@ map.nodes[52895903] = Rare({
 map.nodes[57218420] = Rare({ -- reqired 67030 review
     id = 193210,
     quest = 69866,
-    rewards = {Achievement({id = 16679, criteria = 56142})}
+    rewards = {
+        Achievement({id = 16679, criteria = 56142}),
+        Toy({item = 200148}) -- A Collection Of Me
+    }
 }) -- Phleep
 
 -- map.nodes[] = Rare({
@@ -192,7 +201,10 @@ map.nodes[37607780] = Rare({ -- reqiured 67030
     id = 193176,
     quest = 69859,
     note = L['in_cave'],
-    rewards = {Achievement({id = 16679, criteria = 56150})},
+    rewards = {
+        Achievement({id = 16679, criteria = 56150}),
+        Toy({item = 200148}) -- A Collection Of Me
+    },
     pois = {POI({38507640})} -- Cave entrance
 }) -- Sandana the Tempest
 
