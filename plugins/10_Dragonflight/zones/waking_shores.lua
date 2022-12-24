@@ -400,7 +400,7 @@ map.nodes[42892832] = Rare({
 
 map.nodes[34578950] = Rare({
     id = 193175,
-    quest = 72126, -- 74079
+    quest = 74079,
     note = L['slurpo_snail_note'],
     rewards = {
         Achievement({id = 16676, criteria = 57003}),
