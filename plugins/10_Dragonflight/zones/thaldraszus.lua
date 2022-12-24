@@ -191,13 +191,14 @@ map.nodes[50005180] = Rare({ -- reqiured 67030 review
     rewards = {Achievement({id = 16679, criteria = 56151})}
 }) -- Rokmur
 
--- map.nodes[] = Rare({ -- reqiured 67030
---     id = 193176,
---     quest = 69859,
---     rewards = {
---         Achievement({id = 16679, criteria = 56150}),
---     }
--- }) -- Sandana the Tempest
+map.nodes[37607780] = Rare({ -- reqiured 67030
+    id = 193176,
+    quest = 69859,
+    note = L['in_cave'],
+    rewards = {
+        Achievement({id = 16679, criteria = 56150}),
+    }
+}) -- Sandana the Tempest
 
 map.nodes[47207895] = Rare({ -- review -- reqiured 67030
     id = 193258,
