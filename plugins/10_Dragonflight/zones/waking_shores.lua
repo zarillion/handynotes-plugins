@@ -348,7 +348,7 @@ map.nodes[30736110] = RareElite({
 
 map.nodes[46997332] = Rare({
     id = 193271,
-    quest = 70719,
+    quest = 74076,
     note = L['in_small_cave'] .. ' ' .. L['shadeslash_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56989}),
