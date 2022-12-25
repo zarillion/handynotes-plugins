@@ -427,7 +427,7 @@ map.nodes[78514999] = Rare({ -- required 67030
 
 map.nodes[45453540] = Rare({
     id = 193148,
-    quest = 69841,
+    quest = 73899,
     rewards = {
         Achievement({id = 16676, criteria = 56040}), --
         DC.HighlandDrake.ManedHead
