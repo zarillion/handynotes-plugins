@@ -129,7 +129,7 @@ map.nodes[53374092] = Rare({
 
 map.nodes[57828380] = Rare({ -- review
     id = 193126,
-    quest = nil,
+    quest = 73881,
     rewards = {
         Achievement({id = 16679, criteria = 56135}), --
         Toy({item = 200148}) -- A Collection Of Me
