@@ -166,7 +166,7 @@ L['eaglemaster_niraak_note'] = '击杀附近的 {npc:186295} 和 {npc:186299} �
 L['hunter_of_the_deep_note'] = '单击武器架并射击鱼直到稀有出现。'
 L['scaleseeker_mezeri_note'] = '向 {npc:193224} 提供一个 {item:194681}，并跟着她，直到她揭示稀有。'
 L['shade_of_grief_note'] = '点击 {npc:193166} 稀有出现。'
-L['windscale_the_stormborn_note'] = '杀死通向 {npc:192357} 的 {npc:192367}。'
+L['windscale_the_stormborn_note'] = '击杀引导 {npc:192357} 的 {npc:192367}。'
 L['zarizz_note'] = '点击并 ' .. ns.color.Orange('/鄙视、/hiss') .. ' 在四个 {npc:193169} 处召唤稀有。'
 
 L['gold_swong_coin_note'] = '在洞穴内，{npc:191608} 在他的右侧。'
