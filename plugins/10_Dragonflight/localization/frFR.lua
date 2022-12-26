@@ -224,8 +224,8 @@ L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de l
 L['elder_yusa_note'] = 'Ciblez l\'{npc:192818} et utilisez l\'emote ' .. ns.color.Orange('/faim') .. ' pour obtenir la recette de cuisine.'
 L['initiate_kittileg_note'] = 'Complétez {quest:66226} pour obtenir le jouet !'
 
-L['quackers_duck_trap_kit'] = nil
-L['quackers_spawn'] = nil
+L['quackers_duck_trap_kit'] = 'Pour invoquer {npc:192557}, vous avez d\'abord besoin du {item:194740} que vous pouvez trouver dans un camp voisin.\n\nPour en faire un {item:194712}, vous avez besoin des matériaux suivants :'
+L['quackers_spawn'] = 'Ensuite, vous devez attraper un canard avec le {item:194712}, vous en trouverez près du nid. Maintenant vous pouvez utiliser le {item:194739} au {npc:192581} pour invoquer {npc:192557}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
