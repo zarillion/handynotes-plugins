@@ -940,7 +940,7 @@ map.nodes[74057046] = Ancestor({
 
 map.nodes[32356934] = Ancestor({
     id = 197058,
-    requires = ns.requirement.Item(191470, 5), -- Writhebark
+    requires = ns.requirement.Item(191470, 5, 2), -- Writhebark (Tier 2)
     rewards = {Achievement({id = 16423, criteria = 55311})},
     pois = {
         POI({85702073}), -- Essence of Awakening
@@ -950,7 +950,7 @@ map.nodes[32356934] = Ancestor({
 
 map.nodes[84692429] = Ancestor({
     id = 197050,
-    requires = ns.requirement.Item(200018), -- Enchant Boots - Plainsrunner's Breeze
+    requires = ns.requirement.Item(199934, 1, 1), -- Enchant Boots - Plainsrunner's Breeze (Tier 1)
     rewards = {Achievement({id = 16423, criteria = 55303})},
     pois = {
         POI({85702073}), -- Essence of Awakening
