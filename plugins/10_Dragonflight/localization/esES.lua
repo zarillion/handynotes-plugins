@@ -165,7 +165,7 @@ L['mysterious_wand_note'] = 'Coge la |cFFFFFD00Llave de Cristal|r y ponla dentro
 
 L['eaglemaster_niraak_note'] = 'Mata a los {npc:186295} cercanos y a los {npc:186299} para hacer aparecer al raro.'
 L['hunter_of_the_deep_note'] = 'Haz click en el armero y dispara a los peces hasta que aparezca el raro and shoot fish until the rare spawns.'
-L['porta_the_overgrown_note'] = nil
+L['porta_the_overgrown_note'] = 'Puedes encontrar el {item:194426} al oeste del |cFFFFFD00Espejo del Cielo|r, bajo el agua. Esparce 5x {item:194426} en el {npc:191953} para hacer aparecer al raro.'
 L['scaleseeker_mezeri_note'] = 'Ofrece {item:194681} a {npc:193224} y síguela hasta que te enseñe al raro.'
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 L['windscale_the_stormborn_note'] = 'Mata a los {npc:192367} que están canalizando en los {npc:192357}.'
@@ -224,8 +224,8 @@ L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputaci
 L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y haz ' .. ns.color.Orange('/hambre') .. ' para conseguir la receta de cocina.'
 L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir el juguete!'
 
-L['quackers_duck_trap_kit'] = nil
-L['quackers_spawn'] = nil
+L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en un campamento cercano.\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
+L['quackers_spawn'] = 'Ahora necesitas pillar un pato con la {item:194712}, encontrarás algunos cerca del nido. Ahora puedes usar el {item:194739} en el {npc:192581} para invocar a {npc:192557}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
