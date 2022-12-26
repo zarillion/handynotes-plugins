@@ -226,7 +226,7 @@ map.nodes[33127632] = RareElite({
 
 map.nodes[52345829] = Rare({ -- review
     id = 196056,
-    quest = 70718,
+    quest = 73879,
     rewards = {
         Achievement({id = 16676, criteria = 56033}),
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
