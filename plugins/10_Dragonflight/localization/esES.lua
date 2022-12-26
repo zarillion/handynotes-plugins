@@ -220,8 +220,8 @@ L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños pa
 L['khadin_note'] = 'Intercambia una {item:191784} por conocimiento de la profesión.'
 L['the_great_swog_note'] = 'Intercambia {item:199338}, {item:199339} y {item:199340} por un {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputación con |cFFFFFD00Centauros Maruuk|r.'
-L['elder_yusa_note'] = nil
-L['initiate_kittileg_note'] = nil
+L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y haz ' .. ns.color.Orange('/hambre') .. ' para conseguir la receta de cocina.'
+L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir el juguete!'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -272,7 +272,7 @@ L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes pa
 L['ruby_feast_gourmand'] = 'Cada día, un invitado chef al azar sirve distintos platos y bebidas.'
 
 L['sorotis_note'] = 'Entrega {item:199906} para conseguir reputación con |cFFFFFD00Acuerdo de Valdrakken|r.'
-L['lillian_brightmoon_note'] = nil
+L['lillian_brightmoon_note'] = 'Entrega {item:201412} para conseguir reputación con |cFFFFFD00Expedición Dragontina|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
