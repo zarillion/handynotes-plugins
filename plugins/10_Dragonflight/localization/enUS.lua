@@ -219,6 +219,8 @@ L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {
 L['khadin_note'] = 'Exchange {item:191784} for profession knowledge.'
 L['the_great_swog_note'] = 'Exchange {item:199338}, {item:199339} and {item:199340} for {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for |cFFFFFD00Maruuk Centaur|r reputation.'
+L['elder_yusa_note'] = 'Target {npc:192818} and ' .. ns.color.Orange('/hungry') .. ' to receive the cooking recipe.'
+L['initiate_kittileg_note'] = 'Complete {quest:66226} to recieve the toy!'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

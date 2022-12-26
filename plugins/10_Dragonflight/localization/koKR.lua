@@ -219,6 +219,8 @@ L['options_icons_dreamguard_desc'] = nil
 L['khadin_note'] = nil
 L['the_great_swog_note'] = nil
 L['hunt_instructor_basku_note'] = '{item:200093}을 반납하여 |cFFFFFD00마루크 켄타우로스|r 평판을 획득합니다.'
+L['elder_yusa_note'] = nil
+L['initiate_kittileg_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

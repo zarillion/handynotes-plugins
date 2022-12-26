@@ -219,6 +219,8 @@ L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinne
 L['khadin_note'] = 'Tausche {item:191784} gegen Berufswissen ein.'
 L['the_great_swog_note'] = 'Tausche {item:199338}, {item:199339} oder {item:199340} gegen die jeweiligen Flunkschatzbeutel ein.'
 L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den |cFFFFFD00Zentauren der Maruuk|r ein.'
+L['elder_yusa_note'] = nil
+L['initiate_kittileg_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

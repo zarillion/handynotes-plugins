@@ -1446,4 +1446,25 @@ map.nodes[64014104] = NPC({
     note = L['hunt_instructor_basku_note']
 }) -- Hunt Instructor Basku (Maruuk Centuar Reputation)
 
+map.nodes[41606220] = Collectible({
+    id = 192818,
+    icon = 4659336,
+    note = L['elder_yusa_note'],
+    rewards = {
+        Item({item = 197793}) -- Yusa's Hearty Stew
+    }
+}) -- Elder Yusa
+
+map.nodes[47037119] = Collectible({
+    id = 187796,
+    icon = 133796,
+    note = L['initiate_kittileg_note'],
+    rewards = {
+        Toy({item = 198039}) -- Rock of Appreciation
+    },
+    pois = {
+        POI({47037037}) -- Entrance
+    }
+}) -- Initiate Kittileg
+
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

@@ -220,6 +220,8 @@ L['options_icons_dreamguard_desc'] = 'Отображать места Изумр
 L['khadin_note'] = 'Обмен {item:191784} на знания по профессии.'
 L['the_great_swog_note'] = 'Обменять {item:199338}, {item:199339} и {item:199340} на {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Обменяйте {item:200093} на репутацию с |cFFFFFD00Кентаврами Маруук|r.'
+L['elder_yusa_note'] = nil
+L['initiate_kittileg_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

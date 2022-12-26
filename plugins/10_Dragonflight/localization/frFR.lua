@@ -220,6 +220,8 @@ L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêve
 L['khadin_note'] = 'Échangez les {item:191784} contre de la connaissance de métiers.'
 L['the_great_swog_note'] = 'Échangez des {item:199338}, {item:199339} et {item:199340} contre des {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de la réputation avec les |cFFFFFD00Centaures maruuks|r.'
+L['elder_yusa_note'] = nil
+L['initiate_kittileg_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

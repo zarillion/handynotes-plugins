@@ -219,6 +219,8 @@ L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的
 L['khadin_note'] = '使用 {item:191784} 交換專業知識'
 L['the_great_swog_note'] = '使用 {item:199338}, {item:199339} 和 {item:199340} 來交換 {item:202102}.'
 L['hunt_instructor_basku_note'] = '用 {item:200093} 交換 |cFFFFFD00莫魯克半人馬|r 聲望'
+L['elder_yusa_note'] = nil
+L['initiate_kittileg_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

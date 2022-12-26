@@ -219,6 +219,8 @@ L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境
 L['khadin_note'] = '将 {item:191784} 换成专业知识。'
 L['the_great_swog_note'] = '将 {item:199338}、{item:199339} 和 {item:199340} 换成 {item:202102}。'
 L['hunt_instructor_basku_note'] = '用 {item:200093} 换取 |cFFFFFD00马鲁克半人马|r 声望。'
+L['elder_yusa_note'] = nil
+L['initiate_kittileg_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
