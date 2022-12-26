@@ -220,8 +220,8 @@ L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêve
 L['khadin_note'] = 'Échangez les {item:191784} contre de la connaissance de métiers.'
 L['the_great_swog_note'] = 'Échangez des {item:199338}, {item:199339} et {item:199340} contre des {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de la réputation avec les |cFFFFFD00Centaures maruuks|r.'
-L['elder_yusa_note'] = nil
-L['initiate_kittileg_note'] = nil
+L['elder_yusa_note'] = 'Ciblez l\'{npc:192818} et utilisez l\'emote ' .. ns.color.Orange('/faim') .. ' pour obtenir la recette de cuisine.'
+L['initiate_kittileg_note'] = 'Complétez {quest:66226} pour obtenir le jouet !'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -272,7 +272,7 @@ L['options_icons_new_perspective_desc'] = 'Afficher les emplacements des panoram
 L['ruby_feast_gourmand'] = 'Chaque jour, un chef invité au hasard sert des plats et des boissons variés.'
 
 L['sorotis_note'] = 'Échangez vos {item:199906} pour obtenir de la réputation avec le |cFFFFFD00Concordat de Valdrakken|r.'
-L['lillian_brightmoon_note'] = nil
+L['lillian_brightmoon_note'] = 'Echangez vos {item:201412} pour obtenir de la réputation avec l\'|cFFFFFD00Expédition du Dracaret|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
