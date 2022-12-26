@@ -196,7 +196,7 @@ L['lizi_note_day3'] = 'Collect 10x {item:194966} fished from any waters in the |
 L['lizi_note_day4'] = 'Collect 20x {item:192636} from mammoths in |cFFFFFD00Ohn\'ahran Plains|r.'
 L['lizi_note_day5'] = 'Accept {quest:71195} from {npc:190014} and get 1x {item:200598} from {npc:190015} in a tent south of |cFFFFFD00Ohn\'iri Springs|r.'
 
-L['ohnahra_note_start'] = 'Complete the daily questline {quest:71196} for {item:192799} in |cFFFFFD00Ohn\'iri Springs|r. Accept the quest {quest:72512} from {npc:190022} behind a Windsage hut in |cFFFFFD00Ohn\'iri Springs|r \n\nGather the following materials:'
+L['ohnahra_note_start'] = 'Complete the daily questline {quest:71196} for {item:192799} in |cFFFFFD00Ohn\'iri Springs|r. Accept the quest {quest:72512} from {npc:190022} behind a Windsage hut in |cFFFFFD00Ohn\'iri Springs|r.\n\nGather the following materials:'
 L['ohnahra_note_item1'] = 'Collect 3x {item:201929} from {npc:186151}, the final boss of the |cFFFFFD00Nokhud Offensive|r dungeon. Not a 100% drop.'
 L['ohnahra_note_item2'] = 'Purchase 1x {item:201323} from {npc:196707} for 50x {currency:2003} and 1x {item:194562}.\n{item:194562} can be looted from Time-Lost mobs in |cFFFFFD00Thaldrazsus|r.'
 L['ohnahra_note_item3'] = 'Purchase 1x {item:191507} from the Auction House. (Alchemists can purchase {item:191588} from {npc:196707} starting at Renown 22)'
