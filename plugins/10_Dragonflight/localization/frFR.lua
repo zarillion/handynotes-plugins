@@ -197,11 +197,11 @@ L['lizi_note_day3'] = 'Collectez 10x {item:194966} pêchés dans n\'importe quel
 L['lizi_note_day4'] = 'Collectez 20x {item:192636} sur des mammouths dans les |cFFFFFD00Plaines d\'Ohn\'ahra|r'
 L['lizi_note_day5'] = 'Acceptez {quest:71195} de l\'{npc:190014} et obtenez 1x {item:200598} de la part de {npc:190015} dans une tente au sud des |cFFFFFD00Sources des Ohn\'irs|r.'
 
-L['ohnahra_note_start'] = nil -- review 'Terminez la suite de quêtes |cFFFFFD00Une sortie d’initié|r commençant par {quest:65901} puis {npc:190022} apparaîtra aux |cFFFFFD00Sources des Ohn\'irs|r derrière une hutte de Sage-du-vent.\n\nRassemblez les matériaux suivants :'
+L['ohnahra_note_start'] = 'Complétez la suite de quêtes journalière {quest:71196} pour les {item:192799} aux |cFFFFFD00Sources des Ohn\'irs|r. Acceptez la quête {quest:72512} de {npc:190022} derrière une hutte de sage-du-vent aux |cFFFFFD00Sources des Ohn\'irs|r.\n\nRassemblez les matériaux suivants :'
 L['ohnahra_note_item1'] = 'Récupérez 3x {item:201929} sur {npc:186151}, le boss final du donjon |cFFFFFD00L\'offensive nokhud|r. Ce n\'est pas un drop garanti à 100%.'
 L['ohnahra_note_item2'] = 'Achetez 1x {item:201323} à l\'{npc:196707} pour 50x {currency:2003} et 1x {item:194562}.\nLe {item:194562} peut être récupéré sur des monstres perdus dans le temps à |cFFFFFD00Thaldraszus|r.'
 L['ohnahra_note_item3'] = 'Achetez 1x {item:191507} à l\'Hôtel des Ventes. (Les alchimistes peuvent acheter la {item:191588} à l\'{npc:196707} à partir du Renom 22)'
-L['ohnahra_note_end'] = nil -- review 'Une fois que vous avez tous les matériaux, revenez voir {npc:190022} et acceptez {quest:72512}. Allez voir {npc:194796} pour rendre la quête et recevoir votre monture.'
+L['ohnahra_note_end'] = 'Une fois que vous avez tous les matériaux, rendez la quête à {npc:194796} et recevez votre monture.'
 
 L['bakar_note'] = 'Caressez le chien !'
 L['bakar_ellam_note'] = 'Si suffisamment de joueurs caressent cette chienne, elle vous mènera à son trésor.'
