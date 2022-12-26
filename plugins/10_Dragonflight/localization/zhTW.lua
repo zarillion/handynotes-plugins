@@ -164,6 +164,7 @@ L['mysterious_wand_note'] = '撿起 |cFFFFFD00水晶鑰匙|r 並把它放進 |cF
 
 L['eaglemaster_niraak_note'] = nil
 L['hunter_of_the_deep_note'] = '點選武器架然後射魚直到稀有刷新'
+L['porta_the_overgrown_note'] = nil
 L['scaleseeker_mezeri_note'] = '把{item:194681} 提供給 {npc:193224}後, 他會接露稀有.'
 L['shade_of_grief_note'] = '點選 {npc:193166} 來召喚稀有.'
 L['windscale_the_stormborn_note'] = '殺死對 {npc:192357} 引導法術的 {npc:192367}.'

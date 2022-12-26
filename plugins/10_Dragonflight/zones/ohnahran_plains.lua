@@ -178,14 +178,15 @@ map.nodes[61212950] = Rare({ -- reqiured 67030
     rewards = {Achievement({id = 16677, criteria = 56074})}
 }) -- Oshigol
 
--- map.nodes[] = Rare({
---     id = 191950,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56087}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Porta the Overgrown
+map.nodes[59686802] = Rare({
+    id = 191950,
+    quest = 73971,
+    note = L['in_small_cave'] .. ' ' .. L['porta_the_overgrown_note'],
+    rewards = {
+        Achievement({id = 16677, criteria = 56087})
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Porta the Overgrown
 
 -- map.nodes[] = Rare({
 --     id = 192557,

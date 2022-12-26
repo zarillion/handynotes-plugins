@@ -165,6 +165,7 @@ L['mysterious_wand_note'] = 'Поднимите |cFFFFFD00Кристальный
 
 L['eaglemaster_niraak_note'] = nil
 L['hunter_of_the_deep_note'] = 'Нажмите на стойку с оружием и стреляйте в рыбу, пока не появится редкий монстр.'
+L['porta_the_overgrown_note'] = nil
 L['scaleseeker_mezeri_note'] = 'Предложите {item:194681} {npc:193224} и следуйте за ней, пока она не покажет редкого монстра.'
 L['shade_of_grief_note'] = 'Нажмите на {npc:193166}, чтобы вызвать редкого монстра.'
 L['windscale_the_stormborn_note'] = 'Убейте {npc:192367}, которые находятся возле {npc:192357}.'
