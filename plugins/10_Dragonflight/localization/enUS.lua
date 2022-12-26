@@ -164,7 +164,7 @@ L['mysterious_wand_note'] = 'Pick up the |cFFFFFD00Crystal Key|r and place it in
 
 L['eaglemaster_niraak_note'] = 'Kill nearby {npc:186295s} and {npc:186299s} to spawn the rare.'
 L['hunter_of_the_deep_note'] = 'Click on the weapon rack and shoot fish until the rare spawns.'
-L['porta_the_overgrown_note'] = 'Can be found {item:194426} at west |cFFFFFD00Mirror of the Sky|r under water, spread the soil 5x at {npc:191953} to spawn the rare.'
+L['porta_the_overgrown_note'] = 'Can be found {item:194426} at west |cFFFFFD00Mirror of the Sky|r, under water. Spread 5x {item:194426} at {npc:191953} to spawn the rare.'
 L['scaleseeker_mezeri_note'] = 'Offer {item:194681} to {npc:193224} and follow her until she reveals the rare.'
 L['shade_of_grief_note'] = 'Click the {npc:193166} to spawn the rare.'
 L['windscale_the_stormborn_note'] = 'Kill the {npc:192367s} channeling into the {npc:192357}.'
