@@ -165,7 +165,7 @@ L['mysterious_wand_note'] = 'Ramassez la |cFFFFFD00Clé en cristal|r et placez-l
 
 L['eaglemaster_niraak_note'] = 'Tuez les {npc:186295s} et {npc:186299s} proches pour faire apparaître le rare.'
 L['hunter_of_the_deep_note'] = 'Cliquez sur le râtelier d\'armes et tirez sur les poissons jusqu\'à ce que le rare apparaisse.'
-L['porta_the_overgrown_note'] = nil
+L['porta_the_overgrown_note'] = 'Vous pouvez trouver des {item:194426} au fond du lac à |cFFFFFD00Miroir céleste|r sur le côté ouest, répandez la terre 5x sur les {npc:191953} pour faire apparaître le rare.'
 L['scaleseeker_mezeri_note'] = 'Offrez un {item:194681} à {npc:193224} et suivez-la jusqu\'à ce qu\'elle révèle le rare.'
 L['shade_of_grief_note'] = 'Cliquez sur la {npc:193166} pour faire apparaître le rare.'
 L['windscale_the_stormborn_note'] = 'Tuez les {npc:192367s} canalisant dans l\'{npc:192357}.'
