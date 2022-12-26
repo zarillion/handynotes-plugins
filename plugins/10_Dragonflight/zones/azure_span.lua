@@ -669,7 +669,7 @@ map.nodes[46202390] = PT.Inscription({
 
 map.nodes[53146614] = PT.Blacksmithing({
     id = 201011,
-    quest = nil,
+    quest = 70314,
     note = L['pt_smith_spelltouched_tongs_note'],
     requires = {
         ns.requirement.Profession(186), ns.requirement.Profession(164, 2822, 25)

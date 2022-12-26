@@ -136,7 +136,7 @@ map.nodes[57828380] = Rare({ -- review
     }
 }) -- Innumerable Ruination
 
-map.nodes[62208160] = Rare({
+map.nodes[62298177] = Rare({
     id = 193241,
     quest = 74066,
     note = L['lord_epochbrgl_note'],

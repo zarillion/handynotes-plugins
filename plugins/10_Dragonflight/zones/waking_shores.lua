@@ -810,7 +810,7 @@ map.nodes[64302540] = PT.Leatherworking({
 
 map.nodes[65502570] = PT.Blacksmithing({
     id = 201005,
-    quest = nil, -- bugged
+    quest = 70312,
     note = L['pt_smith_curious_ingots_note']
 }) -- Curious Ingots
 
