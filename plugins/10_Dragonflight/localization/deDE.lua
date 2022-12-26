@@ -271,6 +271,7 @@ L['options_icons_new_perspective_desc'] = 'Zeigt die Positionen der Aussichten f
 L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschiedene Gerichte und Getränke auf.'
 
 L['sorotis_note'] = 'Tausche {item:199906} gegen Ruf beim |cFFFFFD00Valdrakkenabkommen|r ein.'
+L['lillian_brightmoon_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

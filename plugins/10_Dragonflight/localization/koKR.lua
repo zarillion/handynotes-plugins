@@ -271,6 +271,7 @@ L['options_icons_new_perspective_desc'] = '{achievement:16634} 업적을 위한 
 L['ruby_feast_gourmand'] = '매일 무작위로 선정된 요리사가 서로 다른 음식과 음료를 제공합니다.'
 
 L['sorotis_note'] = '{item:199906}을 반납하여 |cFFFFFD00발드라켄 협의회|r 평판을 획득합니다.'
+L['lillian_brightmoon_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

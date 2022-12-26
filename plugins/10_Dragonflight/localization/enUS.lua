@@ -271,6 +271,7 @@ L['options_icons_new_perspective_desc'] = 'Vista locations for the {achievement:
 L['ruby_feast_gourmand'] = 'Every day, a random guest chef serves up different dishes and drinks.'
 
 L['sorotis_note'] = 'Exchange {item:199906} for |cFFFFFD00Valdrakken Accord|r reputation.'
+L['lillian_brightmoon_note'] = 'Exchange {item:201412} for |cFFFFFD00Dragonscale Expedition|r reputation.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

@@ -272,6 +272,7 @@ L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes pa
 L['ruby_feast_gourmand'] = 'Cada día, un invitado chef al azar sirve distintos platos y bebidas.'
 
 L['sorotis_note'] = 'Entrega {item:199906} para conseguir reputación con |cFFFFFD00Acuerdo de Valdrakken|r.'
+L['lillian_brightmoon_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

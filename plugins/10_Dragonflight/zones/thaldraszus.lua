@@ -1058,4 +1058,11 @@ val.nodes[25994004] = NPC({
     parent = map.id
 }) -- Sorotis (Valdrakken Accord Reputation)
 
+val.nodes[35182459] = NPC({
+    id = 197095,
+    icon = 4638531,
+    note = L['lillian_brightmoon_note'],
+    parent = map.id
+}) -- Lillian Brightmoon (Dragonscale Expedition Reputation)
+
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

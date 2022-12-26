@@ -272,6 +272,7 @@ L['options_icons_new_perspective_desc'] = 'Afficher les emplacements des panoram
 L['ruby_feast_gourmand'] = 'Chaque jour, un chef invité au hasard sert des plats et des boissons variés.'
 
 L['sorotis_note'] = 'Échangez vos {item:199906} pour obtenir de la réputation avec le |cFFFFFD00Concordat de Valdrakken|r.'
+L['lillian_brightmoon_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
