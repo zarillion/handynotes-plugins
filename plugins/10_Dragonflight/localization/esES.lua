@@ -224,6 +224,9 @@ L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputaci
 L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y haz ' .. ns.color.Orange('/hambre') .. ' para conseguir la receta de cocina.'
 L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir el juguete!'
 
+L['quackers_duck_trap_kit'] = nil
+L['quackers_spawn'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

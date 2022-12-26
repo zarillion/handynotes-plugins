@@ -223,6 +223,9 @@ L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den |cFFF
 L['elder_yusa_note'] = 'Visiere {npc:192818} an und benutze den Chatbefehl ' .. ns.color.Orange('/hunger') .. ', um das Rezept zu erhalten.'
 L['initiate_kittileg_note'] = 'Schließe die Quest {quest:66226} ab, um das Spielzeug zu erhalten!'
 
+L['quackers_duck_trap_kit'] = 'Um {npc:192557} zu rufen benötigst du zuerst das {item:194740} welches du in einem Lager in nähe findest.\n\nUm daraus eine {item:194712} zu machen benötigst du folgende Materialien:'
+L['quackers_spawn'] = 'Als nächstes musst du eine Ente mit der {item:194712} fangen, du findest einige in der nähe des Nestes. Die {item:194739} kannst du dann bei {npc:192581} benutzen um {npc:192557} zu rufen.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

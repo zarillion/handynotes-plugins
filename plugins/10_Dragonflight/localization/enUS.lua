@@ -223,6 +223,9 @@ L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for |cFFFFFD00Maruuk C
 L['elder_yusa_note'] = 'Target {npc:192818} and ' .. ns.color.Orange('/hungry') .. ' to obtain the cooking recipe.'
 L['initiate_kittileg_note'] = 'Complete {quest:66226} to obtain the toy!'
 
+L['quackers_duck_trap_kit'] = 'To summon {npc:192557} you first need the {item:194740} which you can find in a nearby camp.\n\nTo make it a {item:194712} you need the following materials:'
+L['quackers_spawn'] = 'Next you need to catch a duck with the {item:194712}, you will find some near the nest. Now you can use {item:194739} at the {npc:192581} to summon {npc:192557}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

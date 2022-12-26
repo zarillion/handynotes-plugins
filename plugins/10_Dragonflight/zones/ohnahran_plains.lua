@@ -188,15 +188,32 @@ map.nodes[59686802] = Rare({
     }
 }) -- Porta the Overgrown
 
--- map.nodes[] = Rare({
---     id = 192557,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56091}),
---         Achievement({id = 16446, criteria = 55396, note = L['pretty_neat_note']}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Quackers the Terrible
+local Quackers = Class('Quackers', Rare, {
+    id = 192557,
+    quest = 73972,
+    rewards = {
+        Achievement({id = 16677, criteria = 56091}),
+        Achievement({id = 16446, criteria = 55396, note = L['pretty_neat_note']})
+    },
+    pois = {POI({70406355})} -- item=194740/duck-trap-kit
+})
+
+function Quackers.getters:note()
+    local function status(id, count)
+        if ns.PlayerHasItem(id, count) then
+            return ns.status.Green(count .. 'x')
+        else
+            return ns.status.Red(count .. 'x')
+        end
+    end
+    local note = L['quackers_duck_trap_kit']
+    note = note .. '\n' .. status(189541, 1) .. ' {item:189541}' -- Primal Molten Alloy
+    note = note .. '\n' .. status(193208, 3) .. ' {item:193208}' -- Resilient Leather
+    note = note .. '\n' .. status(192095, 4) .. ' {item:192095}\n\n' -- Spool of Wilderthread
+    return note .. L['quackers_spawn']
+end
+
+map.nodes[68207920] = Quackers() -- Quackers the Terrible
 
 map.nodes[37005380] = Rare({ -- reqiured 67030
     id = 196010,
@@ -785,6 +802,7 @@ map.nodes[75003584] = Disturbeddirt()
 map.nodes[78534035] = Disturbeddirt()
 map.nodes[78782268] = Disturbeddirt()
 map.nodes[78943707] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[79697606] = Disturbeddirt()
 map.nodes[80133864] = Disturbeddirt({
     note = L['in_cave'],
     pois = {POI({79403650})}
@@ -794,6 +812,7 @@ map.nodes[82593486] = Disturbeddirt()
 map.nodes[85833271] = Disturbeddirt()
 map.nodes[86683243] = Disturbeddirt()
 map.nodes[86725931] = Disturbeddirt()
+map.nodes[78217937] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
