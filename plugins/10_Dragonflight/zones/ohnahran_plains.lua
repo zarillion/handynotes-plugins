@@ -1399,15 +1399,15 @@ local Ohnahra = Class('Ohnahra', Collectible, {
     id = 194796,
     icon = 4094306,
     requires = {
-        ns.requirement.Quest(66676), -- Sneaking In
-        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
+        ns.requirement.Quest(71209), -- Beast of the Plains
+        ns.requirement.Reputation(2503, 25, true) -- Maruuk Centaur
     },
     rewards = {
         Mount({item = 198821, id = 1545}), -- Divine Kiss of Ohn'ahra
         Achievement({id = 16446, criteria = 55386, note = L['pretty_neat_note']})
     },
     pois = {
-        POI({56257595, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng
+        POI({56207710, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng
     }
 }) -- Ohn'ahra
 

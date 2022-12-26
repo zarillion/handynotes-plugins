@@ -197,11 +197,11 @@ L['lizi_note_day3'] = 'Recoge 10x {item:194966} pescadas en cualquier masa de ag
 L['lizi_note_day4'] = 'Recoge 20x {item:192636} de los mamuts de las |cFFFFFD00Llanuras de Ohn\'ahra|r.'
 L['lizi_note_day5'] = 'Acepta la misión {quest:71195} de {npc:190014} y consigue 1x {item:200598} de {npc:190015} en la tienda al sur de los |cFFFFFD00Manantiales Ohn\'iri|r.'
 
-L['ohnahra_note_start'] = 'Completa la cadena de misiones |cFFFFFD00El día libre de la iniciada|r comenzando con {quest:65901} y entonces aparecerá {npc:190022} en los |cFFFFFD00Manantiales Ohn\'iri|r detrás de la choza del sabio del viento.\n\nReúne los siguientes objetos:'
+L['ohnahra_note_start'] = nil -- review 'Completa la cadena de misiones |cFFFFFD00El día libre de la iniciada|r comenzando con {quest:65901} y entonces aparecerá {npc:190022} en los |cFFFFFD00Manantiales Ohn\'iri|r detrás de la choza del sabio del viento.\n\nReúne los siguientes objetos:'
 L['ohnahra_note_item1'] = 'Recoge 3x {item:201929} de los {npc:186151}, el boss final de la mazmorra |cFFFFFD00Ofensiva Nokhud|r (dificultad Heroica). No tiene un 100% de caer.'
 L['ohnahra_note_item2'] = 'Compra 1x {item:201323} de {npc:196707} por 50x {currency:2003} y 1x {item:194562}.\n{item:194562} puede ser despojado de los enemigos Perdidos en el Tiempo en |cFFFFFD00Thaldrazsus|r.'
 L['ohnahra_note_item3'] = 'Compra 1x {item:191507} de la Casa de Subastas. (los Alqumistas pueden comprar la {item:191588} a {npc:196707} al llegar a Renombre 22).'
-L['ohnahra_note_end'] = 'Una vez con todos los objetos, vuelve a {npc:190022} y acepta {quest:72512}. Ves a {npc:194796} para entregar la misión y recibir tu montura.'
+L['ohnahra_note_end'] = nil -- review 'Una vez con todos los objetos, vuelve a {npc:190022} y acepta {quest:72512}. Ves a {npc:194796} para entregar la misión y recibir tu montura.'
 
 L['bakar_note'] = '¡Acaricia el perro!'
 L['bakar_ellam_note'] = 'Si jugadores suficientes acarician a esta perra, os guiará a su escondite.'

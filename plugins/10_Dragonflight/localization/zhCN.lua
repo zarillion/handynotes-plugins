@@ -196,11 +196,11 @@ L['lizi_note_day3'] = '从 |cFFFFFD00巨龙群岛|r 的任意水域钓鱼收集1
 L['lizi_note_day4'] = '从 |cFFFFFD00欧恩哈拉平原|r 的猛犸象收集20个 {item:192636}。'
 L['lizi_note_day5'] = '从 {npc:190014} 接 {quest:71195} 并在 |cFFFFFD00欧恩伊尔清泉|r 南部的帐篷中从 {npc:190015} 获得1个 {item:200598}。'
 
-L['ohnahra_note_start'] = '完成开始于 {quest:65901} 的新兵一日游故事线之后，{npc:190022} 将出现在 |cFFFFFD00欧恩伊尔清泉|r 轻风贤者小屋后面。\n\n收集以下材料：'
+L['ohnahra_note_start'] = nil -- review '完成开始于 {quest:65901} 的新兵一日游故事线之后，{npc:190022} 将出现在 |cFFFFFD00欧恩伊尔清泉|r 轻风贤者小屋后面。\n\n收集以下材料：'
 L['ohnahra_note_item1'] = '从|cFFFFFD00诺库德阻击战|r 地下城的最终首领 {npc:186151} 收集3个 {item:201929}，不是 100% 掉落。'
 L['ohnahra_note_item2'] = '50个 {currency:2003} 和1个 {item:194562} 从 {npc:196707} 购买1个 {item:201323}。\n{item:194562} 可以从 |cFFFFFD00索德拉苏斯|r 中从迷时怪物身上拾取。'
 L['ohnahra_note_item3'] = '从拍卖行购买1个 {item:191507}。（炼金师可以从 {npc:196707} 购买 {item:191588}，需要声望22）'
-L['ohnahra_note_end'] = '获得所有材料后，返回 {npc:190022} 并接受 {quest:72512}。前往 {npc:194796} 交任务并领取你的坐骑。'
+L['ohnahra_note_end'] = nil -- review '获得所有材料后，返回 {npc:190022} 并接受 {quest:72512}。前往 {npc:194796} 交任务并领取你的坐骑。'
 
 L['bakar_note'] = '抚摸獒犬！'
 L['bakar_ellam_note'] = '如果有足够多的玩家抚摸这只獒犬，她会带你去寻找她的宝藏。'

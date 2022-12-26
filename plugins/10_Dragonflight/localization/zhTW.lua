@@ -196,11 +196,11 @@ L['lizi_note_day3'] = '從 |cFFFFFD00巨龍群島|r 的任意水域釣到10個 {
 L['lizi_note_day4'] = '從 |cFFFFFD00雍亞拉平原|r 的猛瑪象收集20個 {item:192636}.'
 L['lizi_note_day5'] = '從 {npc:190014} 接受任務 {quest:71195}, 並且從 |cFFFFFD00雍伊爾溫泉|r 南邊帳篷內的 {npc:190015} 取得1個 {item:200598}.'
 
-L['ohnahra_note_start'] = '完成從 {quest:65901} 開始的 學徒的休假日 故事線後 {npc:190022} 會出現在 |cFFFFFD00雍伊爾溫泉|r 的風之賢者的帳篷之下.\n\n收集以下的材料:'
+L['ohnahra_note_start'] = nil -- review '完成從 {quest:65901} 開始的 學徒的休假日 故事線後 {npc:190022} 會出現在 |cFFFFFD00雍伊爾溫泉|r 的風之賢者的帳篷之下.\n\n收集以下的材料:'
 L['ohnahra_note_item1'] = '從|cFFFFFD00諾庫德進攻據點|r地城 (英雄難度)的最後首領 {npc:186151} 收集3個 {item:201929}, 不是100%掉落.'
 L['ohnahra_note_item2'] = '從 {npc:196707} 使用50個 {currency:2003} 和1個 {item:194562} 來購買1個 {item:201323} .\n{item:194562} 可以從 |cFFFFFD00薩爪祖斯|r 的時佚系列怪物的掉落物取得.'
 L['ohnahra_note_item3'] = '從拍賣場購買1個 {item:191507}. (煉金師名望22後可以從 {npc:196707} 購買 {item:191588}'
-L['ohnahra_note_end'] = '當你取得所有材料後, 回到 {npc:190022} 並接受任務 {quest:72512}. 到 {npc:194796} 處來回報任務並取得你的坐騎.'
+L['ohnahra_note_end'] = nil -- review '當你取得所有材料後, 回到 {npc:190022} 並接受任務 {quest:72512}. 到 {npc:194796} 處來回報任務並取得你的坐騎.'
 
 L['bakar_note'] = '撫摸那隻狗!'
 L['bakar_ellam_note'] = '如果足夠的人撫摸了這隻狗, 她會帶你去她的寶藏.'
