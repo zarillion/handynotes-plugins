@@ -219,8 +219,8 @@ L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinne
 L['khadin_note'] = 'Tausche {item:191784} gegen Berufswissen ein.'
 L['the_great_swog_note'] = 'Tausche {item:199338}, {item:199339} oder {item:199340} gegen die jeweiligen Flunkschatzbeutel ein.'
 L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den |cFFFFFD00Zentauren der Maruuk|r ein.'
-L['elder_yusa_note'] = nil
-L['initiate_kittileg_note'] = nil
+L['elder_yusa_note'] = 'Visiere {npc:192818} an und benutze den Chatbefehl ' .. ns.color.Orange('/hunger') .. ', um das Rezept zu erhalten.'
+L['initiate_kittileg_note'] = 'Schließe die Quest {quest:66226} ab, um das Spielzeug zu erhalten!'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -271,7 +271,7 @@ L['options_icons_new_perspective_desc'] = 'Zeigt die Positionen der Aussichten f
 L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschiedene Gerichte und Getränke auf.'
 
 L['sorotis_note'] = 'Tausche {item:199906} gegen Ruf beim |cFFFFFD00Valdrakkenabkommen|r ein.'
-L['lillian_brightmoon_note'] = nil
+L['lillian_brightmoon_note'] = 'Tausche {item:201412} gegen Ruf bei der |cFFFFFD00Drachenschuppenexpedition|r ein.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
