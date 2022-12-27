@@ -382,7 +382,7 @@ L['otto_note_start3'] = nil
 L['otto_note_item1'] = nil
 L['otto_note_item2'] = nil
 L['otto_note_item3'] = nil
-L['otto_note_end'] = nil
+L['otto_note_end'] = 'Вернуться в |cFFFFFD00Шипящий грот|r на |cFFFFFD00Берегах Пробуждения|r и оставьте бочку там, где вы ее нашли, чтобы призвать {npc:199563} и получить свое средство передвижения!'
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Отображение местоположения боевых питомцев для {achievement:16519}.'
