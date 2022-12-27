@@ -1,3 +1,10 @@
+# v26
+
+* Added lunker rares in the Azure Span.
+* Added multiple missing rares.
+* Added the Mallard Duckling pet.
+* Updated notes and information for existing rares.
+
 # v25
 
 * Added a node for the Otto mount.
