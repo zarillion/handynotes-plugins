@@ -221,7 +221,7 @@ L['options_icons_dreamguard_desc'] = 'Отображать места Изумр
 L['khadin_note'] = 'Обмен {item:191784} на знания по профессии.'
 L['the_great_swog_note'] = 'Обменять {item:199338}, {item:199339} и {item:199340} на {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Обменяйте {item:200093} на репутацию с |cFFFFFD00Кентаврами Маруук|r.'
-L['elder_yusa_note'] = nil
+L['elder_yusa_note'] = 'Возьмите в цель {npc:192818} и ' .. ns.color.Orange('/голод') .. ' чтобы получить рецепт приготовления.'
 L['initiate_kittileg_note'] = 'Выполните {quest:66226}, чтобы получить игрушку!'
 
 L['quackers_duck_trap_kit'] = 'Чтобы вызвать {npc:192557}, вам сначала понадобится {item:194740}, который вы можете найти в ближайшем лагере.\n\nЧтобы сделать {item:194712}, вам понадобятся следующие материалы:'
