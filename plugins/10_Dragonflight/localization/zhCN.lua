@@ -81,6 +81,11 @@ L['large_lunker_sighting_note'] = '使用5个 {item:194701} 召唤 {npc:192919} 
 L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = '显示 {achievement:16570} 成就中传奇角色的位置。'
 
+L['signal_transmitter_label'] = nil
+L['signal_transmitter_note'] = nil
+L['options_icons_signal_transmitter'] = nil
+L['options_icons_signal_transmitter_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

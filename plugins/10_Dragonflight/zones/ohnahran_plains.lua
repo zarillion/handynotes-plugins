@@ -23,6 +23,7 @@ local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
+local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 
 local Achievement = ns.reward.Achievement
@@ -666,6 +667,14 @@ map.nodes[28317764] = Flag({quest = 71200})
 map.nodes[30393646] = Flag({quest = 71207})
 map.nodes[57753080] = Flag({quest = 70827})
 map.nodes[86313928] = Flag({quest = 71208})
+
+-------------------------------------------------------------------------------
+------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[67688495] = SignalTransmitter({quest = 70578}) -- Mirror of the Sky
+map.nodes[28023567] = SignalTransmitter({quest = 70576}) -- Nokhudon Hold
+map.nodes[56872889] = SignalTransmitter({quest = 70577}) -- Maarukai
 
 -------------------------------------------------------------------------------
 ----------------------------- WHO'S A GOOD BAKAR? -----------------------------

@@ -82,6 +82,11 @@ L['large_lunker_sighting_note'] = 'Utilisez 5x {item:194701} pour invoquer soit 
 L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = 'Afficher les emplacements des personnalités légendaires pour le haut-fait {achievement:16570}.'
 
+L['signal_transmitter_label'] = nil
+L['signal_transmitter_note'] = nil
+L['options_icons_signal_transmitter'] = nil
+L['options_icons_signal_transmitter_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

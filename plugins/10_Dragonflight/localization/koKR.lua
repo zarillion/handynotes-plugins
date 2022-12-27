@@ -81,6 +81,11 @@ L['large_lunker_sighting_note'] = '{item:194701} 5개를 던져 {npc:192919} 또
 L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = '{achievement:16570} 업적을 위한 전설적인 캐릭터의 위치를 표시합니다.'
 
+L['signal_transmitter_label'] = nil
+L['signal_transmitter_note'] = nil
+L['options_icons_signal_transmitter'] = nil
+L['options_icons_signal_transmitter_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

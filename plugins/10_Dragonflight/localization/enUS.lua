@@ -81,6 +81,11 @@ L['large_lunker_sighting_note'] = 'Use 5x {item:194701} to summon either a {npc:
 L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = 'Display legendary character locations for {achievement:16570}.'
 
+L['signal_transmitter_label'] = 'Wyrmhole Generator Signal Transmitter'
+L['signal_transmitter_note'] = ns.color.Orange('Requires 10 points in Mechanical Mind\nRequires 30 points in Novelties') .. '\n\nInteract with the |cFFFFFD00Deactivated Signal Transmitter|r to allow for teleportation to this location.'
+L['options_icons_signal_transmitter'] = 'Wyrmhole Generator Signal Transmitters'
+L['options_icons_signal_transmitter_desc'] = 'Display the locations of |cFFFFFD00Deactivated Signal Transmitters|r for the |cFFFFFD00Wyrmhole Generator|r'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

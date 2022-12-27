@@ -81,6 +81,11 @@ L['large_lunker_sighting_note'] = 'Benutze 5x {item:194701}, um entweder {npc:19
 L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = 'Zeigt die Positionen der legendären Charaktere für den Erfolg {achievement:16570} an.'
 
+L['signal_transmitter_label'] = nil
+L['signal_transmitter_note'] = nil
+L['options_icons_signal_transmitter'] = nil
+L['options_icons_signal_transmitter_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

@@ -25,6 +25,7 @@ local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
+local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 
 local Achievement = ns.reward.Achievement
@@ -556,6 +557,14 @@ map.nodes[46107397] = Flag({quest = 70024})
 map.nodes[50168163] = Flag({quest = 70039})
 map.nodes[65727498] = Flag({quest = 71223})
 map.nodes[64635672] = Flag({quest = 71224})
+
+-------------------------------------------------------------------------------
+------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[70304430] = SignalTransmitter({quest = 70584}) -- Vault of the Incarnates
+map.nodes[63677710] = SignalTransmitter({quest = 70585}) -- Temporal Conflux
+map.nodes[50745566] = SignalTransmitter({quest = 70583}) -- Tyrhold Reservoir
 
 -------------------------------------------------------------------------------
 ---------------------------- FRAGMENTS OF HISTORY -----------------------------
