@@ -110,7 +110,7 @@ local function RenderLinks(str, nameOnly)
             return ns.color.NPC(name) -- TODO: colorize based on standing?
         elseif type == 'item' then
             local name, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
-            local s = string.match(link, "%[(.-)%]")
+            local s = string.match(link, "(%[.-%])")
             if link and icon then
                 if nameOnly then return (s or name) .. (suffix or '') end
                 return '|T' .. icon .. ':0:0:1:-1|t ' .. s

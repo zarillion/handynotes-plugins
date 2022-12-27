@@ -571,6 +571,9 @@ local Recipe = Class('Recipe', Reward, {
 function Recipe:IsObtained() return IsSpellKnown(self.id) end
 
 function Recipe:IsEnabled()
+    if self.display_option and not ns:GetOpt(self.display_option) then
+        return false
+    end
     if self.profession and ns.PlayerHasProfession(self.profession) then
         return true
     end
@@ -591,7 +594,9 @@ function Recipe:GetText()
 
     local name, _, icon = GetSpellInfo(self.id)
 
-    return ns.color.White(Icon(self.icon or icon) .. (prefix[self.profession] or '') .. name) .. ' (' .. self.type .. ')'
+    return ns.color.White(Icon(self.icon or icon) ..
+                              (prefix[self.profession] or '') .. name) .. ' (' ..
+               self.type .. ')'
 end
 
 function Recipe:GetStatus()
