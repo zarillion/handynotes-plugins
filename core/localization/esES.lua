@@ -41,15 +41,15 @@ L['trinket'] = 'Abalorio'
 -------------------------------- RECIPE PREFIX --------------------------------
 -------------------------------------------------------------------------------
 
-L['recipe_prefix_alchemy'] = nil
-L['recipe_prefix_blacksmithing'] = nil
-L['recipe_prefix_enchanting'] = nil
-L['recipe_prefix_engineering'] = nil
-L['recipe_prefix_inscription'] = nil
-L['recipe_prefix_jewelcrafting'] = nil
-L['recipe_prefix_leatherworking'] = nil
-L['recipe_prefix_tailoring'] = nil
-L['recipe_prefix_cooking'] = nil
+L['recipe_prefix_alchemy'] = 'Receta: '
+L['recipe_prefix_blacksmithing'] = 'Diseño: '
+L['recipe_prefix_enchanting'] = 'Fórmula: '
+L['recipe_prefix_engineering'] = 'Esquema: '
+L['recipe_prefix_inscription'] = 'Técnica: '
+L['recipe_prefix_jewelcrafting'] = 'Boceto: '
+L['recipe_prefix_leatherworking'] = 'Patrón: '
+L['recipe_prefix_tailoring'] = 'Patrón: '
+L['recipe_prefix_cooking'] = 'Receta: '
 
 -------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
