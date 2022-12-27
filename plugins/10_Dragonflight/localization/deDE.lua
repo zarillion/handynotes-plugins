@@ -164,7 +164,7 @@ L['mysterious_wand_note'] = 'Hebe den |cFFFFFD00Kristallschlüssel|r auf und pla
 
 L['eaglemaster_niraak_note'] = 'Töte {npc:186295} und {npc:186299} in der Nähe, um den seltenen Gegner erscheinen zu lassen.'
 L['hunter_of_the_deep_note'] = 'Hole dir am |cFFFFFD00Speergestell|r einen Speer und wirf die Fische ab, bis der seltene Gegner erscheint.'
-L['porta_the_overgrown_note'] = nil
+L['porta_the_overgrown_note'] = 'Verteile 5x {item:194426} auf dem Boden um {npc:191953} herum, um den seltenen Gegner erscheinen zu lassen.\nDie Erde kann in |cFFFFFD00Haufen angereicherter Erde|r im See in der Nähe bei |cFFFFFD00Spiegel des Himmels|r gefunden werden.'
 L['scaleseeker_mezeri_note'] = 'Sprich mit {npc:193224} und biete ihr ein {item:194681} an und folge ihr, bis sie den seltenen Gegner enthüllt.'
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
 L['windscale_the_stormborn_note'] = 'Töte die {npc:192367}, die auf das {npc:192357} kanalisieren.'
@@ -223,8 +223,8 @@ L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den |cFFF
 L['elder_yusa_note'] = 'Visiere {npc:192818} an und benutze den Chatbefehl ' .. ns.color.Orange('/hunger') .. ', um das Rezept zu erhalten.'
 L['initiate_kittileg_note'] = 'Schließe die Quest {quest:66226} ab, um das Spielzeug zu erhalten!'
 
-L['quackers_duck_trap_kit'] = 'Um {npc:192557} zu rufen benötigst du zuerst das {item:194740} welches du in einem Lager in nähe findest.\n\nUm daraus eine {item:194712} zu machen benötigst du folgende Materialien:'
-L['quackers_spawn'] = 'Als nächstes musst du eine Ente mit der {item:194712} fangen, du findest einige in der nähe des Nestes. Die {item:194739} kannst du dann bei {npc:192581} benutzen um {npc:192557} zu rufen.'
+L['quackers_duck_trap_kit'] = 'Um {npc:192557} zu rufen, benötigst du zuerst das {item:194740}, welches du in einem Lager in der Nähe findest.\n\nUm daraus eine {item:194712} zu bauen, benötigst du folgende Materialien:'
+L['quackers_spawn'] = 'Als nächstes musst du eine Ente mit der {item:194712} fangen, du findest einige in der Nähe des Nestes. Die {item:194739} kannst du dann bei {npc:192581} benutzen, um {npc:192557} zu rufen.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

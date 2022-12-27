@@ -581,9 +581,13 @@ map.nodes[57126460] = Fragment({
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[32447309] = Disturbeddirt()
 map.nodes[34006488] = Disturbeddirt()
+map.nodes[34546598] = Disturbeddirt()
 map.nodes[34646179] = Disturbeddirt()
 map.nodes[35406995] = Disturbeddirt()
+map.nodes[35586764] = Disturbeddirt()
+map.nodes[37426853] = Disturbeddirt()
 map.nodes[37667615] = Disturbeddirt()
 map.nodes[38188192] = Disturbeddirt()
 map.nodes[39058408] = Disturbeddirt()

@@ -185,6 +185,12 @@ map.nodes[59686802] = Rare({
     rewards = {
         Achievement({id = 16677, criteria = 56087})
         -- Transmog({item = , slot = L['']}) -- Name
+    },
+    pois = {
+        POI({
+            59696879, -- Entrance
+            50507017, 52137051, 54177150, 52746993 -- Enriched Soil Pile
+        })
     }
 }) -- Porta the Overgrown
 
@@ -781,16 +787,21 @@ map.nodes[29777163] = Disturbeddirt()
 map.nodes[29777363] = Disturbeddirt()
 map.nodes[36553269] = Disturbeddirt()
 map.nodes[38825564] = Disturbeddirt()
+map.nodes[88364505] = Disturbeddirt()
 map.nodes[41103789] = Disturbeddirt()
 map.nodes[42335555] = Disturbeddirt()
 map.nodes[42934942] = Disturbeddirt()
+map.nodes[62787415] = Disturbeddirt()
 map.nodes[43316632] = Disturbeddirt()
+map.nodes[46345356] = Disturbeddirt()
+map.nodes[48867036] = Disturbeddirt()
 map.nodes[49716952] = Disturbeddirt()
 map.nodes[50152501] = Disturbeddirt()
 map.nodes[51445485] = Disturbeddirt()
 map.nodes[51936274] = Disturbeddirt()
 map.nodes[54115705] = Disturbeddirt()
 map.nodes[55197076] = Disturbeddirt()
+map.nodes[87444467] = Disturbeddirt()
 map.nodes[55944340] = Disturbeddirt()
 map.nodes[62171310] = Disturbeddirt()
 map.nodes[63251396] = Disturbeddirt()
@@ -809,6 +820,9 @@ map.nodes[80133864] = Disturbeddirt({
 }) -- Bugged under a rock
 map.nodes[81403827] = Disturbeddirt()
 map.nodes[82593486] = Disturbeddirt()
+map.nodes[83243606] = Disturbeddirt()
+map.nodes[82543651] = Disturbeddirt()
+map.nodes[83731265] = Disturbeddirt()
 map.nodes[85833271] = Disturbeddirt()
 map.nodes[86683243] = Disturbeddirt()
 map.nodes[86725931] = Disturbeddirt()
@@ -829,6 +843,7 @@ map.nodes[43335647] = Scoutpack()
 map.nodes[43486213] = Scoutpack()
 map.nodes[44856758] = Scoutpack()
 map.nodes[50382904] = Scoutpack()
+map.nodes[50856597] = Scoutpack()
 map.nodes[51647211] = Scoutpack()
 map.nodes[51797550] = Scoutpack()
 map.nodes[52403042] = Scoutpack()
