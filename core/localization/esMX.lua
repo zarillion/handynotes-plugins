@@ -37,6 +37,20 @@ L['cloak'] = 'Capa'
 L['trinket'] = 'Abalorio'
 
 -------------------------------------------------------------------------------
+-------------------------------- RECIPE PREFIX --------------------------------
+-------------------------------------------------------------------------------
+
+L['recipe_prefix_alchemy'] = nil
+L['recipe_prefix_blacksmithing'] = nil
+L['recipe_prefix_enchanting'] = nil
+L['recipe_prefix_engineering'] = nil
+L['recipe_prefix_inscription'] = nil
+L['recipe_prefix_jewelcrafting'] = nil
+L['recipe_prefix_leatherworking'] = nil
+L['recipe_prefix_tailoring'] = nil
+L['recipe_prefix_cooking'] = nil
+
+-------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -67,6 +81,7 @@ L['spell'] = nil
 L['title'] = nil
 L['toy'] = 'Juguete'
 L['rep'] = nil
+L['recipe'] = nil
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
 L['known'] = 'Conocido'
@@ -148,6 +163,8 @@ L['options_toy_rewards'] = nil
 L['options_toy_rewards_desc'] = nil
 L['options_transmog_rewards'] = nil
 L['options_transmog_rewards_desc'] = nil
+L['options_recipe_rewards'] = nil
+L['options_recipe_rewards_desc'] = nil
 L['options_all_transmog_rewards'] = nil
 L['options_all_transmog_rewards_desc'] = nil
 

@@ -560,19 +560,59 @@ function Transmog:GetStatus()
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ RECIPE -----------------------------------
+-------------------------------------------------------------------------------
+
+local Recipe = Class('Recipe', Reward, {
+    display_option = 'show_recipe_rewards',
+    type = L['recipe']
+})
+
+function Recipe:IsObtained() return IsSpellKnown(self.id) end
+
+function Recipe:IsEnabled()
+    if self.profession and ns.PlayerHasProfession(self.profession) then
+        return true
+    end
+    return false
+end
+
+function Recipe:GetText()
+    local prefix = {}
+    prefix[171] = L['recipe_prefix_alchemy']
+    prefix[164] = L['recipe_prefix_blacksmithing']
+    prefix[333] = L['recipe_prefix_enchanting']
+    prefix[202] = L['recipe_prefix_engineering']
+    prefix[773] = L['recipe_prefix_inscription']
+    prefix[755] = L['recipe_prefix_jewelcrafting']
+    prefix[165] = L['recipe_prefix_leatherworking']
+    prefix[197] = L['recipe_prefix_tailoring']
+    prefix[185] = L['recipe_prefix_cooking']
+
+    local name, _, icon = GetSpellInfo(self.id)
+
+    return ns.color.White(Icon(self.icon or icon) .. (prefix[self.profession] or '') .. name) .. ' (' .. self.type .. ')'
+end
+
+function Recipe:GetStatus()
+    return IsSpellKnown(self.id) and Green(L['known']) or Red(L['missing'])
+end
+
+-------------------------------------------------------------------------------
 
 ns.reward = {
-    Reward = Reward,
-    Section = Section,
-    Spacer = Spacer,
     Achievement = Achievement,
     Currency = Currency,
     Follower = Follower,
-    Item = Item,
     Heirloom = Heirloom,
+    Item = Item,
     Mount = Mount,
     Pet = Pet,
     Quest = Quest,
+    Recipe = Recipe,
+    Reward = Reward,
+    Section = Section,
+    Spacer = Spacer,
     Spell = Spell,
     Title = Title,
     Toy = Toy,

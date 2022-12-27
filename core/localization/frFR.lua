@@ -37,6 +37,20 @@ L['cloak'] = 'Cape'
 L['trinket'] = 'Bijou'
 
 -------------------------------------------------------------------------------
+-------------------------------- RECIPE PREFIX --------------------------------
+-------------------------------------------------------------------------------
+
+L['recipe_prefix_alchemy'] = nil
+L['recipe_prefix_blacksmithing'] = nil
+L['recipe_prefix_enchanting'] = nil
+L['recipe_prefix_engineering'] = nil
+L['recipe_prefix_inscription'] = nil
+L['recipe_prefix_jewelcrafting'] = nil
+L['recipe_prefix_leatherworking'] = nil
+L['recipe_prefix_tailoring'] = nil
+L['recipe_prefix_cooking'] = nil
+
+-------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -67,6 +81,7 @@ L['spell'] = 'Sort'
 L['title'] = 'Titre'
 L['toy'] = 'Jouet'
 L['rep'] = 'Rep'
+L['recipe'] = nil
 L['completed'] = 'Complété'
 L['incomplete'] = 'Incomplet'
 L['known'] = 'Connu'
@@ -148,6 +163,8 @@ L['options_toy_rewards'] = 'Afficher les jouets en récompense'
 L['options_toy_rewards_desc'] = 'Afficher les jouets en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_transmog_rewards'] = 'Afficher les transmos en récompense'
 L['options_transmog_rewards_desc'] = 'Afficher les transmos en récompenses dans les infobulles et suivre leur état de possession.'
+L['options_recipe_rewards'] = nil
+L['options_recipe_rewards_desc'] = nil
 L['options_all_transmog_rewards'] = 'Afficher les transmos plus obtenables en récompense'
 L['options_all_transmog_rewards_desc'] = 'Afficher les transmos en récompenses pouvant être obtenus par d\'autres classes.'
 

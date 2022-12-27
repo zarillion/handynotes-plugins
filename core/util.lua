@@ -110,9 +110,10 @@ local function RenderLinks(str, nameOnly)
             return ns.color.NPC(name) -- TODO: colorize based on standing?
         elseif type == 'item' then
             local name, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
+            local s = string.match(link, "%[(.-)%]")
             if link and icon then
-                if nameOnly then return name .. (suffix or '') end
-                return '|T' .. icon .. ':0:0:1:-1|t ' .. link
+                if nameOnly then return (s or name) .. (suffix or '') end
+                return '|T' .. icon .. ':0:0:1:-1|t ' .. s
             end
         elseif type == 'daily' or type == 'quest' then
             local name = C_QuestLog.GetTitleForQuestID(id)

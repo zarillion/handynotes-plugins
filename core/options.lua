@@ -29,6 +29,7 @@ ns.optionDefaults = {
         show_pet_rewards = true,
         show_toy_rewards = true,
         show_transmog_rewards = true,
+        show_recipe_rewards = true,
         show_all_transmog_rewards = false,
 
         -- development
@@ -162,12 +163,20 @@ ns.options = {
                     order = 11,
                     width = 'full'
                 },
+                show_recipe_rewards = {
+                    type = 'toggle',
+                    arg = 'show_recipe_rewards',
+                    name = L['options_recipe_rewards'],
+                    desc = L['options_recipe_rewards_desc'],
+                    order = 12,
+                    width = 'full'
+                },
                 show_all_transmog_rewards = {
                     type = 'toggle',
                     arg = 'show_all_transmog_rewards',
                     name = L['options_all_transmog_rewards'],
                     desc = L['options_all_transmog_rewards_desc'],
-                    order = 12,
+                    order = 13,
                     width = 'full'
                 },
                 VisibilityHeader = {

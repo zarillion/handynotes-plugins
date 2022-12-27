@@ -1486,7 +1486,7 @@ map.nodes[41606220] = Collectible({
     icon = 4659336,
     note = L['elder_yusa_note'],
     rewards = {
-        Item({item = 197793}) -- Yusa's Hearty Stew
+        ns.reward.Recipe({id = 381413, profession = 185}) -- Yusa's Hearty Stew
     }
 }) -- Elder Yusa
 

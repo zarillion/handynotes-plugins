@@ -37,6 +37,20 @@ L['cloak'] = '披风'
 L['trinket'] = '饰品'
 
 -------------------------------------------------------------------------------
+-------------------------------- RECIPE PREFIX --------------------------------
+-------------------------------------------------------------------------------
+
+L['recipe_prefix_alchemy'] = nil
+L['recipe_prefix_blacksmithing'] = nil
+L['recipe_prefix_enchanting'] = nil
+L['recipe_prefix_engineering'] = nil
+L['recipe_prefix_inscription'] = nil
+L['recipe_prefix_jewelcrafting'] = nil
+L['recipe_prefix_leatherworking'] = nil
+L['recipe_prefix_tailoring'] = nil
+L['recipe_prefix_cooking'] = nil
+
+-------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -67,6 +81,7 @@ L['spell'] = '法术'
 L['title'] = '头衔'
 L['toy'] = '玩具'
 L['rep'] = '声望'
+L['recipe'] = nil
 L['completed'] = '已完成'
 L['incomplete'] = '未完成'
 L['known'] = '已获得'
@@ -148,6 +163,8 @@ L['options_toy_rewards'] = '显示玩具奖励'
 L['options_toy_rewards_desc'] = '在提示和追踪其收集状态显示玩具奖励。'
 L['options_transmog_rewards'] = '显示幻化奖励'
 L['options_transmog_rewards_desc'] = '在提示和追踪其收集状态显示幻化奖励。'
+L['options_recipe_rewards'] = nil
+L['options_recipe_rewards_desc'] = nil
 L['options_all_transmog_rewards'] = '显示无法获取的幻化奖励'
 L['options_all_transmog_rewards_desc'] = '显示其它职业可以获取的幻化奖励。'
 
