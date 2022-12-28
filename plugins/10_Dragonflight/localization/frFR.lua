@@ -85,7 +85,7 @@ L['options_icons_legendary_album_desc'] = 'Afficher les emplacements des personn
 L['signal_transmitter_label'] = 'Transmetteur de signaux du Générateur de trou de wyrm'
 L['signal_transmitter_note'] = ns.color.Orange('Requiert 10 points dans Esprit mécanique\nRequiert 30 points dans Nouveautés') .. '\n\nInteragissez avec le |cFFFFFD00Transmetteur de signaux désactivé|r pour permettre la téléportation à cet endroit.'
 L['options_icons_signal_transmitter'] = 'Transmetteurs de signaux du Générateur de trou de wyrm'
-L['options_icons_signal_transmitter_desc'] = 'Afficher les emplacements des |cFFFFFD00Transmetteurs de signaux désactivés|r pour le |cFFFFFD00Générateur de trou de wyrm|r'
+L['options_icons_signal_transmitter_desc'] = 'Afficher les emplacements des |cFFFFFD00Transmetteurs de signaux désactivés|r pour le |cFFFFFD00Générateur de trou de wyrm|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
