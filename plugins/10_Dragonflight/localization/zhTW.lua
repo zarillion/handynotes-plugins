@@ -60,7 +60,7 @@ L['dr_bronze'] = '\n\n完成賽事來取得 ' .. ns.color.Bronze('銅牌') .. '.
 L['options_icons_dragonrace'] = '飛龍競速'
 L['options_icons_dragonrace_desc'] = '顯示飛龍競速的位置.'
 
-L['squirrels_note'] = '你必須對小動物而不是戰寵使用表情 /love'
+L['squirrels_note'] = '你必須對小動物而不是戰寵使用表情 {emote:/love}'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = '顯示 {achievement:16729} 成就中小動物的位置.'
 
@@ -173,7 +173,7 @@ L['porta_the_overgrown_note'] = '{item:194426} 可以在西邊的湖 |cFFFFFD00�
 L['scaleseeker_mezeri_note'] = '把 {item:194681} 交給 {npc:193224}後, 他會揭露稀有.'
 L['shade_of_grief_note'] = '點選 {npc:193166} 來召喚稀有.'
 L['windscale_the_stormborn_note'] = '殺死對 {npc:192357} 引導法術的 {npc:192367}.'
-L['zarizz_note'] = '點選並對著4個 {npc:193169} 使用' .. ns.color.Orange('/hiss') .. '來召喚稀有.'
+L['zarizz_note'] = '點選並對著4個 {npc:193169} 使用 {emote:/hiss} 來召喚稀有.'
 
 L['gold_swong_coin_note'] = '和 {npc:191608} 一起在山洞內, 且在她的右側.'
 L['nokhud_warspear_note'] = '{item:194540} 可以在遠征隊斥侯包和挖過的土中找到.'
@@ -218,14 +218,14 @@ L['ancestor_note'] = '在 |cFFFFFD00木階哨站|r 的帳篷從 |cFFFFFD00甦醒
 L['options_icons_ancestor'] = '{achievement:16423}'
 L['options_icons_ancestor_desc'] = '顯示成就 {achievement:16423} 中先祖的位置.'
 
-L['dreamguard_note'] = '點選夢境守衛並且使用表情符號 ' .. ns.color.Orange('/sleep')
+L['dreamguard_note'] = '點選夢境守衛並且使用表情符號 {emote:/sleep}'
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的夢境守衛位置.'
 
 L['khadin_note'] = '使用 {item:191784} 交換專業知識'
 L['the_great_swog_note'] = '使用 {item:199338}, {item:199339} 和 {item:199340} 來交換 {item:202102}.'
 L['hunt_instructor_basku_note'] = '用 {item:200093} 交換 |cFFFFFD00莫魯克半人馬|r 聲望'
-L['elder_yusa_note'] = '選取 {npc:192818} 並使用 ' .. ns.color.Orange('/hungry') .. ' 來取得烹飪食譜'
+L['elder_yusa_note'] = '選取 {npc:192818} 並使用 {emote:/hungry} 來取得烹飪食譜'
 L['initiate_kittileg_note'] = '完成 {quest:66226} 來取得玩具!'
 
 L['quackers_duck_trap_kit'] = '要召喚 {npc:192557}. 首先你需要可以在附近營地找到的 {item:194740}.\n\n 要製造成 {item:194712} 你需要如下的材料:'
