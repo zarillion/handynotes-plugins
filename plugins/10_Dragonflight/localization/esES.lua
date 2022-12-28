@@ -103,7 +103,7 @@ L['breezebiter_note'] = 'Vuela por el cielo. Para atraerlo, vuela cerca suyo.'
 
 L['forgotten_jewel_box_note'] = 'La {item:199065} se puede encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
 L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
-L['pepper_hammer_note'] = 'Recoge {object:Savia de Árbol} y entonces usa el {object:Palo} para engañar a {npc:195373}.\n\n{bug:(BUG: Para hacer click en el palo puede ser necesario recargar)}'
+L['pepper_hammer_note'] = 'Recoge {object:Savia de Árbol} y entonces usa el {object:Palo} para engañar a {npc:195373}.\n\n|cFFFF0000(BUG: Para hacer click en el palo puede ser necesario recargar)|r'
 L['snow_covered_scroll'] = 'Pergamino Cubierto de Nieve'
 
 L['pm_engi_frizz_buzzcrank'] = 'Se encuentra junto a un santuario.'
@@ -136,7 +136,7 @@ L['snowman_note'] = 'Hay tres {npc:197599} reposando en la zona (podrían haber 
 L['snowclaw_cub_note_start'] = 'Tienes que completar la cadena de misiones {quest:67094} que ofrece {npc:192522} en {location:Valdrakken} para conseguir el título {title:Dríade Honoraria}.\n\nReune los siguientes objetos:'
 L['snowclaw_cub_note_item1'] = 'Despoja 3x {item:197744} de varios {npc:182559} alrededor de las {location:Orillas del Despertar}.'
 L['snowclaw_cub_note_item2'] = 'Compra 1x {item:198356} del {npc:193310} en las {location:Orillas del Despertar}.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}') .. '\n\nUna vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objetos al {npc:196768} para recibir su mascota.\n\n{bug:(BUG: El título puede desaparecer y está pendiente de un fix)}'
+L['snowclaw_cub_note_end'] = ns.color.Orange('Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}') .. '\n\nUna vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objetos al {npc:196768} para recibir su mascota.' .. ns.color.Red('\n\nBUG: El título puede desaparecer y está pendiente de un fix)')
 
 L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro {object:Tormentas de Maná para Principiantes} para completar la misión.'
 
@@ -243,7 +243,7 @@ L['lord_epochbrgl_note'] = 'Haz click en la {npc:193257} para hacer aparecer al 
 L['weeping_vilomah_note'] = 'Habla con {npc:193206} para invocar al raro.'
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
 
-L['acorn_harvester_note'] = 'Recoge una {object:Bellota} del suelo cercano para conseguir {spell:388485} y entonces interactúa con {npc:196172}.\n\n{bug:(BUG: Para poder hacer click en el {npc:196172} puede ser necesario un reload)}'
+L['acorn_harvester_note'] = 'Recoge una {object:Bellota} del suelo cercano para conseguir {spell:388485} y entonces interactúa con {npc:196172}.\n\n|cFFFF0000(BUG: Para poder hacer click en el {npc:196172} puede ser necesario un reload)|r)
 L['cracked_hourglass_note'] = 'La {item:199068} se puede encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
 L['sandy_wooden_duck_note'] = 'Recoge el {item:199069} y úsalo.'
 
@@ -331,7 +331,7 @@ L['pt_jewel_igneous_gem_note'] = 'Haz click rápidamente en los 3 cristales de l
 L['pt_leath_poachers_pack_note'] = 'Junto a un Vulpera muerto junto al cauce del río.'
 L['pt_leath_spare_djaradin_tools_note'] = 'Junto a un dragón rojo muerto.'
 L['pt_script_pulsing_earth_rune_note'] = 'Detrás de una mesa que hay dentro del edificio derrumbado.'
-L['pt_smith_ancient_monument_note'] = 'Derrota a los 4 {npc:188648} rodeando una espada en un pedestal.\n\n{bug:BUG: Actualmente, tras hacer click en la espada no tendrás el objeto en el inventario. En lugar de eso, se te enviará al buzón de correo tras algo de tiempo.)}'
+L['pt_smith_ancient_monument_note'] = 'Derrota a los 4 {npc:188648} rodeando una espada en un pedestal.\n\n|cFFFF0000(BUG: Actualmente, tras hacer click en la espada no tendrás el objeto en el inventario. En lugar de eso, se te enviará al buzón de correo tras algo de tiempo.)|r'
 L['pt_smith_curious_ingots_note'] = 'Pequeño lingote en el suelo en el {location:Castillo Quiebrascama}.'
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = 'Fabrica una {item:189541} cerca de la {object:Forja a Medio Apagar}. El objeto en la {object:Tina Floja} se convertirá en despojable.'
 L['pt_smith_molten_ingot_note'] = 'Patea 3 lingotes dentro de la lava para hacer aparecer a un enemigo. Despoja el cofre una vez lo hayas derrotado.'
