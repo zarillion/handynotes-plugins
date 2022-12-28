@@ -137,11 +137,9 @@ local function RenderLinks(str, nameOnly)
     links, _ = links:gsub('{(%l+):([^}]+)}', function(type, text)
         if type == 'bug' then return ns.color.Red(text) end
         if type == 'emote' then return ns.color.Orange(text) end
-        if type == 'faction' then return ns.color.Yellow(text) end
         if type == 'location' then return ns.color.Yellow(text) end
         if type == 'note' then return ns.color.Orange(text) end
         if type == 'object' then return ns.color.Yellow(text) end
-        if type == 'sanctuary' then return ns.color.Heirloom(text) end
         if type == 'title' then return ns.color.Yellow(text) end
         return type .. '+' .. text
     end)
