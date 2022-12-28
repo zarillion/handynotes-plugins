@@ -28,7 +28,7 @@ L['broken_banding_note'] = 'Am Knöchel des rechten Fußes der Statue.'
 L['chunk_of_sculpture_note'] = 'Auf dem Boden, von der Drachenstatue aus auf der linken Seite.'
 L['dislodged_dragoneye_note'] = 'Auf einem Felsen unter der Brust der Drachenstatue.'
 L['finely_carved_wing_note'] = 'Unter dem rechten Knie der Drachenstatue.'
-L['fragment_requirement_note'] = '{note:Bevor du die losen Teile einsammeln kannst, musst du {npc:193915} in der {location:Botschaft von Schwingenrast} bei der Drachenstatue fragen, was sie hier macht.}' -- nested
+L['fragment_requirement_note'] = ns.color.Orange('Bevor du die losen Teile einsammeln kannst, musst du {npc:193915} in der {location:Botschaft von Schwingenrast} bei der Drachenstatue fragen, was sie hier macht.}')
 L['golden_claw_note'] = 'An der hinteren rechten Klaue der Drachenstatue.'
 L['precious_stone_fragment_note'] = 'Unter dem rechten Fuß der Statue.'
 L['stone_dragontooth_note'] = 'Auf dem Boden neben dem Sockel der Drachenstatue.'
@@ -60,7 +60,7 @@ L['dr_bronze'] = '\n\nBeende das Rennen um ' .. ns.color.Bronze('Bronze') .. ' z
 L['options_icons_dragonrace'] = 'Drachenrennen'
 L['options_icons_dragonrace_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
 
-L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE Kampfhaustiere).'
+L['squirrels_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden (KEINE Kampfhaustiere).'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:16729} an.'
 
@@ -116,7 +116,7 @@ L['pt_ench_forgotten_arcane_tome_note'] = 'Liegt auf dem Boden, rechts neben dem
 L['pt_jewel_crystalline_overgrowth_note'] = 'Neben einem kleinen Teich.'
 L['pt_jewel_harmonic_crystal_harmonizer_note'] = 'Klicke auf die Kiste, um einen Stärkungszauber zu erhalten und dann auf die 3 Kristalle.'
 L['pt_leath_decay_infused_tanning_oil_note'] = 'In einem Fass.'
-L['pt_leath_treated_hides_note'] = 'Beim {object:Schneebalglager}.'
+L['pt_leath_treated_hides_note'] = 'Beim {location:Schneebalglager}.'
 L['pt_leath_well_danced_drum_note'] = 'In einem unterirdischen Gebäude mit {npc:186446} und {npc:186448}. Repariere die Trommel neben der {npc:194862}. Sobald er darauf tanzt, kannst du den Gegenstand plündern.'
 L['pt_script_dusty_darkmoon_card_note'] = 'Im Inneren eines Gebäudes in einem oberen Stockwerk.'
 L['pt_script_frosted_parchment_note'] = 'Hinter einem {npc:190776}.'
@@ -135,9 +135,9 @@ L['snowman_note'] = 'Es liegen 3 Schneebälle in der Nähe (möglicherweise wurd
 L['snowclaw_cub_note_start'] = 'Du musst zunächst die Questreihe {quest:67094} von {npc:192522} in {location:Valdrakken} abschließen, um den Titel {title:Ehrendryade} zu erhalten.\n\nBesorge die folgenden Gegenstände:'
 L['snowclaw_cub_note_item1'] = 'Sammle 3x {item:197744} von verschiedene {npc:182559n} in {location:Die Küste des Erwachens}.'
 L['snowclaw_cub_note_item2'] = 'Kaufe 1x {item:198356} von {npc:193310} in {location:Die Küste des Erwachens}.'
-L['snowclaw_cub_note_end'] = '{note:Alle Gegenstände können im Auktionshaus ersteigert werden. Das ist besonders hilfreich, da du bei {npc:193310} den {item:198356} nur mit einer {item:199215} kaufen kannst.}\n\nSobald du den Titel {title:Ehrendryade} angelegt hast, biete {npc:196768} die Gegenstände an, um dein Haustier zu erhalten.\n\n{bug:BUG: Der Titel könnte verschwinden.}'
+L['snowclaw_cub_note_end'] = ns.color.Orange('Alle Gegenstände können im Auktionshaus ersteigert werden. Das ist besonders hilfreich, da du bei {npc:193310} den {item:198356} nur mit einer {item:199215} kaufen kannst.') .. '\n\nSobald du den Titel {title:Ehrendryade} angelegt hast, biete {npc:196768} die Gegenstände an, um dein Haustier zu erhalten.\n\n{bug:BUG: Der Titel könnte verschwinden.}'
 
-L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem {Manastürmen für Anfänger} Buch, um die Quest abzuschließen.'
+L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem {object:Manastürmen für Anfänger} Buch, um die Quest abzuschließen.'
 
 L['temperamental_skyclaw_note'] = [[
 Sammle (oder kaufe im Auktionshaus):
@@ -168,12 +168,12 @@ L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platzi
 -------------------------------------------------------------------------------
 
 L['eaglemaster_niraak_note'] = 'Töte {npc:186295} und {npc:186299} in der Nähe, um den seltenen Gegner erscheinen zu lassen.'
-L['hunter_of_the_deep_note'] = 'Hole dir am {objcet:Speergestell} einen Speer und wirf die Fische ab, bis der seltene Gegner erscheint.'
-L['porta_the_overgrown_note'] = 'Verteile 5x {item:194426} auf dem Boden um {npc:191953} herum, um den seltenen Gegner erscheinen zu lassen.\nDie Erde kann in {object:Haufen angereicherter Erde} im See in der Nähe bei |cFFFFFD00Spiegel des Himmels|r gefunden werden.' -- review, object or location?
+L['hunter_of_the_deep_note'] = 'Hole dir am {object:Speergestell} einen Speer und wirf die Fische ab, bis der seltene Gegner erscheint.'
+L['porta_the_overgrown_note'] = 'Verteile 5x {item:194426} auf dem Boden um {npc:191953} herum, um den seltenen Gegner erscheinen zu lassen.\nDie Erde kann in {object:Haufen angereicherter Erde} im See in der Nähe bei {location:Spiegel des Himmels} gefunden werden.'
 L['scaleseeker_mezeri_note'] = 'Sprich mit {npc:193224} und biete ihr ein {item:194681} an und folge ihr, bis sie den seltenen Gegner enthüllt.'
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
 L['windscale_the_stormborn_note'] = 'Töte die {npc:192367}, die auf das {npc:192357} kanalisieren.'
-L['zarizz_note'] = 'Visiere und fauche ({emote:/fauchen}) die vier {npc:193169n} an, um den seltenen Gegner erscheinen zu lassen.'
+L['zarizz_note'] = 'Visiere und fauche {emote:(/fauchen)} die vier {npc:193169n} an, um den seltenen Gegner erscheinen zu lassen.'
 
 L['gold_swong_coin_note'] = 'In der Höhle mit {npc:191608} zu seiner rechten Seite.'
 L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
@@ -218,7 +218,7 @@ L['ancestor_note'] = 'Hol dir in einem Zelt am {location:Baumschrittaußenposten
 L['options_icons_ancestor'] = '{achievement:16423}'
 L['options_icons_ancestor_desc'] = 'Zeigt die Positionen der Vorfahren für den Erfolg {achievement:16423} an.'
 
-L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefehl {emote:\'/schlafen\'}.'
+L['dreamguard_note'] = 'Visiere die Traumwächterin an und benutze den Chatbefehl {emote:/schlafen}.'
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinnen für den Erfolg {achievement:16574} an.'
 
@@ -266,7 +266,7 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Kleines Banner in ei
 L['picante_pomfruit_cake_note'] = 'Der {item:200904} steht auf dem Tisch, ist jedoch nicht immer verfügbar. Wenn du schon einmal da bist, probierte doch auch gleich drei Gerichte für den Erfolg {achievement:16556}.'
 L['icecrown_bleu_note'] = 'Kann von {npc:196729} bei {location:Der Handwerkermarkt} gekauft werden.'
 L['dreamwarding_dripbrew_note'] = 'Kann von {npc:197872} bei {location:Das Nachtlabor} gekauft werden.'
-L['arcanostabilized_provisions_note'] = 'Kann von {npc:198831} beim |cFF00CCFFTemporaler Konflux|r in |cFF00CCFFDie Zukunft der Primalisten|r gekauft werden (nutze das |cFF00CCFFPortal zur Zukunft der Primalisten|r).' -- why is it 00CCFF?
+L['arcanostabilized_provisions_note'] = 'Kann von {npc:198831} beim {location:Temporaler Konflux} in {location:Die Zukunft der Primalisten} gekauft werden (nutze das {object:Portal zur Zukunft der Primalisten}).'
 L['steamed_scarab_steak_note'] = 'Kann von {npc:197586} beim {location:Bad der Ruhigen Träume} gekauft werden.'
 L['craft_creche_crowler_note'] = 'Kann von {npc:187444} gekauft werden, der sich täglich an einem der folgenden Orte aufhält: {location:Temporaler Konflux}, {location:Rubinlebensschrein}, {location:Gasthaus zur Grünen Schuppe} oder dem {location:Lager im Nirgendwo}.'
 L['bivigosas_blood_sausages_note'] = 'Kann von {npc:188895} beim {location:Posten der Gelikyr} gekauft werden.'
@@ -279,8 +279,8 @@ L['options_icons_new_perspective_desc'] = 'Zeigt die Positionen der Aussichten f
 
 L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschiedene Gerichte und Getränke auf.'
 
-L['sorotis_note'] = 'Tausche {item:199906} gegen Ruf beim {fation:Valdrakkenabkommen} ein.'
-L['lillian_brightmoon_note'] = 'Tausche {item:201412} gegen Ruf bei der {fation:Drachenschuppenexpedition} ein.'
+L['sorotis_note'] = 'Tausche {item:199906} gegen Ruf beim {faction:Valdrakkenabkommen} ein.'
+L['lillian_brightmoon_note'] = 'Tausche {item:201412} gegen Ruf bei der {faction:Drachenschuppenexpedition} ein.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -329,7 +329,7 @@ L['pt_smith_curious_ingots_note'] = 'Kleiner Barren auf dem Boden in der {locati
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = 'Stelle eine {item:189541} in der Nähe der {object:Dunkle Schmiede} her, damit du den Gegenstand im {object:Härtebecken} plündern kannst.' -- review
 L['pt_smith_molten_ingot_note'] = 'Wirf 3 Barren in die Lava, um einen Gegner erscheinen zu lassen. Plündere die Truhe, nachdem der Gegner besiegt ist.'
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Auf einem Amboss.'
-L['pt_tailor_itinerant_singed_fabric_note'] = 'Ein Stück Stoff, das an einem Baum vor der Höhle hängt, in der der {location:Belagerung der Drachenfluchfestung} Endboss erscheinen wird. {note:Erfordert präzises Drachenreiten oder ein Hexenmeisterportal.}' -- review, location?
+L['pt_tailor_itinerant_singed_fabric_note'] = 'Ein Stück Stoff, das an einem Baum vor der Höhle hängt, in der der |cFFFFFD00Belagerung der Drachenfluchfestung|r Endboss erscheinen wird. {note:Erfordert präzises Drachenreiten oder ein Hexenmeisterportal.}'
 L['pt_tailor_mysterious_banner_note'] = 'Flattert auf dem Dach des Gebäudes.'
 
 L['quack_week_1'] = 'Woche 1'
@@ -369,12 +369,12 @@ L['slumbering_worldsnail_note1'] = [[
 4. Kaufe mit den gesammelten {item:202173} das Reittier.
 ]]
 
-L['slumbering_worldsnail_note2'] = '{note:ACHTUNG: Wenn du stirbst, verlierst du den Schwächungszauber {spell:386848}. Kaufe entweder für 20x {item:202173} eine neue Mitgliedschaft bei {npc:193310} bevor du stirbst oder du musst weitere Schlüssel abgeben, um eine neue Mitgliedschaft aus der Truhe zu erhalten.}'
+L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, verlierst du den Schwächungszauber {spell:386848}. Kaufe entweder für 20x {item:202173} eine neue Mitgliedschaft bei {npc:193310} bevor du stirbst oder du musst weitere Schlüssel abgeben, um eine neue Mitgliedschaft aus der Truhe zu erhalten.}')
 
-L['magmashell_note'] = 'Erbeute von {npc:193138n} einen {item:201883} in der Nähe der {location:Obsidianzitadelle} und bringe es zu {npc:199010}.\n\n{note:Es wird 20 Sekunden {spell:395626} kanalisiert, während du in der Lava bist, um das Reittier zu erhalten. Es ist empfehlenswert einen Heiler mitzubringen oder etwas wie das Spielzeug {item:200116}.}'
+L['magmashell_note'] = 'Erbeute von {npc:193138n} einen {item:201883} in der Nähe der {location:Obsidianzitadelle} und bringe es zu {npc:199010}.\n\n' .. ns.color.Orange('Es wird 20 Sekunden {spell:395626} kanalisiert, während du in der Lava bist, um das Reittier zu erhalten. Es ist empfehlenswert einen Heiler mitzubringen oder etwas wie das Spielzeug {item:200116}.')
 
-L['otto_note_start1'] = 'Sammle 75x {item:199338}, diese können von {location:<Oschi>}\'s bei {location:Sichtung eines großen Oschis} erbeutet oder beim Angeln auf den {location:Dracheninseln} gefischt werden.\n\nTausche die Kupfermünzen bei {npc:191608} in den {location:Ebenen von Ohn\'ahra} gegen 5x {item:199339} und diese wiederum gegen 1x {item:199340} ein und kaufe dir damit {item:202102} in dem zu 100% das Spielzeug {item:202042} enthalten ist.' -- review , maybe add npc color tag?
-L['otto_note_start2'] = '{note:Um {location:<Oschi>}\'s besiegen zu können, benötigst du Ruhmstufe 7 bei den {faction:Tuskarr von Iskaara} und eine {item:194510}.}' -- nested colors
+L['otto_note_start1'] = 'Sammle 75x {item:199338}, diese können von {title:<Oschi>}\'s bei {object:Sichtung eines großen Oschis} erbeutet oder beim Angeln auf den {location:Dracheninseln} gefischt werden.\n\nTausche die Kupfermünzen bei {npc:191608} in den {location:Ebenen von Ohn\'ahra} gegen 5x {item:199339} und diese wiederum gegen 1x {item:199340} ein und kaufe dir damit {item:202102} in dem zu 100% das Spielzeug {item:202042} enthalten ist.'
+L['otto_note_start2'] = ns.color.Orange('Um {title:<Oschi>}\'s besiegen zu können, benötigst du Ruhmstufe 7 bei den {faction:Tuskarr von Iskaara} und eine {item:194510}.}')
 L['otto_note_start3'] = 'Verwende das Spielzeug {item:202042} und stelle dich bei {location:Das Blubberbad} in der {location:Zischenden Grotte} auf die Tanzmatte, um den Schwächungszauber {spell:396539} zu erhalten. Sobald dieser abläuft wirst du Ohnmächtig und wachst neben einem Fass auf. Klicke auf das Fass und du erhältst ein {item:202061}. Du musst das Fass auffüllen, um {npc:199563} zu füttern.'
 L['otto_note_item1'] = 'Angle 100x {item:202072}, ein Fisch der überall in den Gewässern von {location:Iskaara} im {location:Azurblauen Gebirge} geangelt werden kann. Wenn du die Schollen mit dem Fass benutzt, erhältst du ein {item:202066}.'
 L['otto_note_item2'] = 'Angle 25x {item:202073}, ein seltener Fisch der in der Lava bei der {location:Obsidianzitadelle} in {location:Die Küste des Erwachens} geangelt werden kann. Wenn du die Karpfen mit dem Fass benutzt, erhältst du ein {item:202068}.'
