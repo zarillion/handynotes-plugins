@@ -102,7 +102,7 @@ L['breezebiter_note'] = 'Flies in the sky to pull him down, fly close to him.'
 
 L['forgotten_jewel_box_note'] = '{item:199065} can be found in {object:Expedition Scout\'s Packs} and {object:Disturbed Dirts}.'
 L['gnoll_fiend_flail_note'] = '{item:199066} can be found in {object:Expedition Scout\'s Packs} and {object:Disturbed Dirts}.'
-L['pepper_hammer_note'] = 'Collect {object:Tree Sap} and then use the {object:Stick} to lure the {npc:195373}.\n\n{bug:(BUG: To click on the stick a reload might be necessary)}'
+L['pepper_hammer_note'] = 'Collect {object:Tree Sap} and then use the {object:Stick} to lure the {npc:195373}.\n\n|cFFFF0000(BUG: To click on the stick a reload might be necessary)|r'
 L['snow_covered_scroll'] = 'Snow Covered Scroll'
 
 L['pm_engi_frizz_buzzcrank'] = 'Stands next to a shrine.'
@@ -135,7 +135,7 @@ L['snowman_note'] = 'There are three {npc:197599s} laying in the area (might hav
 L['snowclaw_cub_note_start'] = 'You must complete the {quest:67094} quest chain offered by {npc:192522} in {location:Valdrakken} to obtain the {title:Honorary Dryad} title.\n\nGather the following items:'
 L['snowclaw_cub_note_item1'] = 'Loot 3x {item:197744} from various {npc:182559s} around {location:The Waking Shores}.'
 L['snowclaw_cub_note_item2'] = 'Purchase 1x {item:198356} from {npc:193310} in {location:The Waking Shores}.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('All items can be purchased from the auction house. This is especially helpful if you do not easily have access to a {item:199215} which is required to purchase items from {npc:193310}.') .. '\n\nOnce you have the {title:Honorary Dryad} title equipped offer all 4 items to {npc:196768} to receive your pet.\n\n{bug:(BUG: Title may disappear pending fix)}'
+L['snowclaw_cub_note_end'] = ns.color.Orange('All items can be purchased from the auction house. This is especially helpful if you do not easily have access to a {item:199215} which is required to purchase items from {npc:193310}.') .. '\n\nOnce you have the {title:Honorary Dryad} title equipped offer all 4 items to {npc:196768} to receive your pet.' .. ns.color.Red('\n\nBUG: Title may disappear pending fix')
 
 L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact with the {object:Manastorming For Beginners} book to complete the quest.'
 
@@ -242,7 +242,7 @@ L['lord_epochbrgl_note'] = 'Click {npc:193257} to spawn the rare.'
 L['weeping_vilomah_note'] = 'Talk to {npc:193206} to summon the rare.'
 L['woofang_note'] = 'Pet {npc:193156} to spawn the rare.'
 
-L['acorn_harvester_note'] = 'Collect an {object:Acorn} from the ground nearby to get {spell:388485} and then interact with {npc:196172}.\n\n{bug:(BUG: To click on {npc:196172} a reload might be necessary)}.'
+L['acorn_harvester_note'] = 'Collect an {object:Acorn} from the ground nearby to get {spell:388485} and then interact with {npc:196172}.\n\n|cFFFF0000(BUG: To click on {npc:196172} a reload might be necessary)|r'
 L['cracked_hourglass_note'] = '{item:199068} can be found in {object:Expedition Scout\'s Packs} and {object:Disturbed Dirts}.'
 L['sandy_wooden_duck_note'] = 'Collect {item:199069} and use it.'
 
@@ -330,7 +330,7 @@ L['pt_jewel_igneous_gem_note'] = 'Quickly click the 3 crystals on small islands 
 L['pt_leath_poachers_pack_note'] = 'Next to a dead Vulpera beside the riverbed.'
 L['pt_leath_spare_djaradin_tools_note'] = 'Next to dead red dragon.'
 L['pt_script_pulsing_earth_rune_note'] = 'Behind a table inside the crumbled building.'
-L['pt_smith_ancient_monument_note'] = 'Defeat the 4 {npc:188648} surrounding a sword on a pedestal.\n\n{bug:(BUG: Currently you dont get the item after clicking the sword, instead it will be sent to your mailbox after some time.)}'
+L['pt_smith_ancient_monument_note'] = 'Defeat the 4 {npc:188648} surrounding a sword on a pedestal.\n\n|cFFFF0000(BUG: Currently you dont get the item after clicking the sword, instead it will be sent to your mailbox after some time.)|r'
 L['pt_smith_curious_ingots_note'] = 'Small ingot on the ground in {location:Scalecracker Keep}.'
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = 'Craft a {item:189541} near the {object:Dim Forge} and the item in the {object:Slack Tub} will become lootable.'
 L['pt_smith_molten_ingot_note'] = 'Kick 3 ingots into the lava to spawn a mob. Loot the chest after the mob is defeated.'
