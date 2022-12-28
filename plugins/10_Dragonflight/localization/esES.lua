@@ -8,7 +8,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['elite_loot_385'] = '{note:¡Este raro puede soltar botín de un nivel superior!}'
-L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la {faction:Expedición Dragontina} en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
+L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la {faction:2507} en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'
 L['options_icons_bonus_boss_desc'] = 'Muestra dónde están los élites de bonificación.'
@@ -382,7 +382,7 @@ L['slumbering_worldsnail_note2'] = '{note: Si mueres perderás el debuff de memb
 L['magmashell_note'] = 'Despoja {item:201883} de los {npc:193138} alrededor de la {location:Ciudadela Obsidiana} y llévaselo al {npc:199010}.\n\n{note:Haciendo click en el caracol se canalizará un hechizo durante 20 segundos después de lo cuales conseguirás la montura. Muy recomendable traer a un amigo sanador o usar el juguete {item:200116}.}'
 
 L['otto_note_start1'] = 'Consigue unas {item:202042}. Las gafas tienen un 100% de probabilidades de salir del {item:202102} que puede ser comprado a {npc:191608} en las {location:Llanuras de Ohn\'ahra}.\n\nEl saco se puede comprar con 1x {item:199340} la cual puede ser comprada con 5x {item:199339} que éstas se pueden comprar por 75x {item:199338}. A su vez, estas últimas se pueden pescar alrededor de las {location:Islas Dragón} o derrotando a enemigos {title:<Morrocotudo>} en los nodos de pesca.'
-L['otto_note_start2'] = '{note:Derrotar enemigos {title:<Morrocotudo>} requiere Renombre 7 con {faction:Colmillarr de Iskaara} y acceso al {item:194510}.}'
+L['otto_note_start2'] = ns.color.Orange('Derrotar enemigos {title:<Morrocotudo>} requiere Renombre 7 con {faction:2511} y acceso al {item:194510}.')
 L['otto_note_start3'] = 'Una vez con las {item:202042} ves al bar subacuático {location:El Baño de Burbujas} en la {location:Gruta Siseante} y quédate de pie en la plataforma de baile que hay al lado de la barra hasta conseguir el debuff {spell:396539}. Cuando el debuff se acabe te desmayarás y despertarás junto a un barril. Interactúa con él para despojar el {item:202061}. Ahora necesitas llenar el barril con peces para alimentar a {npc:199563}.'
 L['otto_note_item1'] = 'Recoge 100x {item:202072}, un pez con probabilidad alta de ser pescado en las aguas abiertas de {location:Iskaara} en las {location:Tierras Azures}. Usar el barril con los peces te dará un {item:202066}.'
 L['otto_note_item2'] = 'Recoge 25x {item:202073}, un pez con probabilidad rara de ser pescado en la lava alrededor de la {location:Ciudadela Obsidiana} en las {location:Orillas del Despertar}. Usar el barril con los peces te dará un {item:202068}.'
@@ -393,4 +393,4 @@ L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:16519}.'
 L['shyfly_note'] = 'Has de estar en la misión {quest:70853} para poder ver las {npc:189102}.'
 
-L['cataloger_jakes_note'] = 'Entrega {item:192055} para conseguir reputación con {faction:Expedición Dragontina}.'
+L['cataloger_jakes_note'] = 'Entrega {item:192055} para conseguir reputación con {faction:2507}.'
