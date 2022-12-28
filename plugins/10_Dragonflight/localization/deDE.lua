@@ -242,7 +242,7 @@ L['lord_epochbrgl_note'] = 'Klicke den {npc:193257} an, um den seltenen Gegner e
 L['weeping_vilomah_note'] = 'Sprich mit {npc:193206}, um den seltenen Gegner erscheinen zu lassen.'
 L['woofang_note'] = 'Streichel {npc:193156}, um den seltenen Gegner erscheinen zu lassen.'
 
-L['acorn_harvester_note'] = 'Sammel in der Nähe eine {object:Eichel} vom Boden auf, um {spell:388485} zu erhalten und interagiere dann mit {npc:196172}.\n\n{bug:(BUG: Um den {npc196172} anzuklicken könnte ein reload nötig sein).}'
+L['acorn_harvester_note'] = 'Sammel in der Nähe eine {object:Eichel} vom Boden auf, um {spell:388485} zu erhalten und interagiere dann mit {npc:196172}.\n\n' .. ns.color.Red('BUG: Um den {npc196172} anzuklicken könnte ein reload nötig sein).')
 L['cracked_hourglass_note'] = '{item:199068} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['sandy_wooden_duck_note'] = 'Sammel {item:199069} und benutze diese.'
 
@@ -348,7 +348,7 @@ L['options_icons_ducklings_desc'] = 'Zeigt die Positionen der Entchen für den E
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = 'Zeigt die Positionen der Steintafeln für den Erfolg {achievement:16412} an.'
 
-L['grand_theft_mammoth_note'] = 'Reite das {npc:194625} zu {npc:198163}.\n\n{bug:(BUG: Wenn du mit dem {npc:194625} nicht interagieren kannst nutze /reload.)}'
+L['grand_theft_mammoth_note'] = 'Reite das {npc:194625} zu {npc:198163}.\n\n' .. ns.color.Red('(BUG: Wenn du mit dem {npc:194625} nicht interagieren kannst nutze /reload.)')
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Zeigt die Positionen der {npc:194625} für den Erfolg {achievement:16493} an.'
 
