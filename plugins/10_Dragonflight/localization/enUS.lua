@@ -149,7 +149,7 @@ Collect (or buy in the auction house):
 Ask about the saddled slyvern and present {npc:190892} the collected "dishes".
 ]]
 
-L['elder_poa_note'] = 'Exchange {item:200071} for {faction:Iskaara Tuskarr} reputation.'
+L['elder_poa_note'] = 'Exchange {item:200071} for {faction:2511} reputation.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -224,7 +224,7 @@ L['options_icons_dreamguard_desc'] = 'Display  the location of Dreamguards for {
 
 L['khadin_note'] = 'Exchange {item:191784} for profession knowledge.'
 L['the_great_swog_note'] = 'Exchange {item:199338}, {item:199339} and {item:199340} for {item:202102}.'
-L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for {faction:Maruuk Centaur} reputation.'
+L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for {faction:2503} reputation.'
 L['elder_yusa_note'] = 'Target {npc:192818} and {emote:/hungry} to obtain the cooking recipe.'
 L['initiate_kittileg_note'] = 'Complete {quest:66226} to obtain the toy!'
 
@@ -279,8 +279,8 @@ L['options_icons_new_perspective_desc'] = 'Vista locations for the {achievement:
 
 L['ruby_feast_gourmand'] = 'Every day, a random guest chef serves up different dishes and drinks.'
 
-L['sorotis_note'] = 'Exchange {item:199906} for {faction:Valdrakken Accord} reputation.'
-L['lillian_brightmoon_note'] = 'Exchange {item:201412} for {faction:Dragonscale Expedition} reputation.'
+L['sorotis_note'] = 'Exchange {item:199906} for {faction:2510} reputation.'
+L['lillian_brightmoon_note'] = 'Exchange {item:201412} for {faction:2507} reputation.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -302,7 +302,7 @@ L['dead_mans_chestplate_note'] = 'Inside the tower on the middle floor.'
 L['fullsails_supply_chest_note'] = 'The key drops from {npc:187971s} and {npc:187320s} south of {location:Wingrest Embassy}.'
 L['golden_dragon_goblet_note'] = 'Loot {item:202081} from {npc:190056} on the {location:Wild Coast} and complete the small quest line.'
 L['misty_treasure_chest_note'] = 'Stand on the {npc:185485} that sticks out of the waterfall to enter the cave.'
-L['onyx_gem_cluster_note'] = 'At Renown 21 with the {faction:Dragonscale Expedition} you can complete the quest {quest:70833} to get {item:200738} as a reward (one time per account) or buy the map from {npc:189065} for 3 {item:192863} and 500 {currency:2003} and use it.'
+L['onyx_gem_cluster_note'] = 'At Renown 21 with the {faction:2507} you can complete the quest {quest:70833} to get {item:200738} as a reward (one time per account) or buy the map from {npc:189065} for 3 {item:192863} and 500 {currency:2003} and use it.'
 L['torn_riding_pack_note'] = 'Located at the top of the waterfall.'
 L['yennus_kite_note'] = 'Stuck in a branch at the top of the tree.'
 
