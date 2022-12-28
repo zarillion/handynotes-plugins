@@ -8,7 +8,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['elite_loot_385'] = '{note:Ce rare peut laisser tomber du butin ayant un ilvl plus élevé que la normale !}'
-L['gem_cluster_note'] = 'L\'objet requis peut être trouvé au Renom 21 avec l\'{faction:Expédition du Dracaret} dans les {object:Paquetages d\'éclaireurs de l\'expédition} et les {object:Terres retournées}.'
+L['gem_cluster_note'] = 'L\'objet requis peut être trouvé au Renom 21 avec l\'{faction:2507} dans les {object:Paquetages d\'éclaireurs de l\'expédition} et les {object:Terres retournées}.'
 
 L['options_icons_bonus_boss'] = 'Élites bonus'
 L['options_icons_bonus_boss_desc'] = 'Afficher les emplacements des élites bonus.'
@@ -382,7 +382,7 @@ L['slumbering_worldsnail_note2'] = '{note:Si vous mourrez, vous perdrez votre de
 L['magmashell_note'] = 'Récupérez une {item:201883} sur les {npc:193138} dans la {location:Citadelle d\'Obsidienne} et apportez-la à l\'{npc:199010}.\n\n{note:Il y aura un sort canalisé pendant 20 secondes une fois dans la lave pour obtenir la monture, il est donc recommandé de faire appel à un soigneur ou quelque chose comme la {item:200116}.}'
 
 L['otto_note_start1'] = 'Récupérez une paire de {item:202042}. Les lunettes sont obtenables à 100% dans le {item:202102} acheté auprès du {npc:191608} dans les {location:Plaines d’Ohn’ahra}.\n\nLe sac peut être acheté contre 1x {item:199340} qui peut être achetée contre 5x {item:199339} qui peuvent être achetées contre 75x {item:199338} qui peuvent être pêchées aux {location:îles aux Dragons} ou en battant des monstres {title:<Malabar>} aux coins de pêche.'
-L['otto_note_start2'] = ns.color.Orange('Battre des monstres {title:<Malabar>} nécessitera un Renom 7 avec les {faction:Roharts iskaariens} et l\'accès au {item:194510}.}')
+L['otto_note_start2'] = ns.color.Orange('Battre des monstres {title:<Malabar>} nécessitera un Renom 7 avec les {faction:2511} et l\'accès au {item:194510}.')
 L['otto_note_start3'] = 'Une fois que vous avez une paire de {item:202042}, allez au bar {location:Bain à bulles} dans la {location:Grotte Sifflante}, trouvez un tapis de danse, et montez dessus pour obtenir l\'effet {spell:396539}. Une fois l\'effet expiré, vous vous évanouirez et vous vous réveillerez à côté d\'un tonneau. Interagissez avec lui pour récupérer le {item:202061}. Vous devez maintenant remplir le baril de poissons pour nourrir {npc:199563}.'
 L['otto_note_item1'] = 'Récupérez 100x {item:202072}, un poisson à fort taux de drop qui peut être pêché dans les eaux profondes d\'{location:Iskaara} à {location:La Travée d’Azur}. Utiliser le tonneau avec les poissons vous donnera un {item:202066}.'
 L['otto_note_item2'] = 'Récupérez 25x {item:202073}, un poisson rare qui peut être pêché dans la lave aux alentours de la {location:Citadelle d\'Obsidienne} aux {location:Rivages de l’Éveil}. En utilisant le tonneau avec les poissons, vous obtiendrez un {item:202068}.'
@@ -393,4 +393,4 @@ L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:16519}.'
 L['shyfly_note'] = 'Vous devez avoir la quête {quest:70853} pour voir les {npc:189102}.'
 
-L['cataloger_jakes_note'] = 'Échangez vos {item:192055} pour obtenir de la réputation avec l\'{faction:Expédition du Dracaret}.'
+L['cataloger_jakes_note'] = 'Échangez vos {item:192055} pour obtenir de la réputation avec l\'{faction:2507}.'
