@@ -243,7 +243,7 @@ L['lord_epochbrgl_note'] = 'Haz click en la {npc:193257} para hacer aparecer al 
 L['weeping_vilomah_note'] = 'Habla con {npc:193206} para invocar al raro.'
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
 
-L['acorn_harvester_note'] = 'Recoge una {object:Bellota} del suelo cercano para conseguir {spell:388485} y entonces interactúa con {npc:196172}.\n\n|cFFFF0000(BUG: Para poder hacer click en el {npc:196172} puede ser necesario un reload)|r)
+L['acorn_harvester_note'] = 'Recoge una {object:Bellota} del suelo cercano para conseguir {spell:388485} y entonces interactúa con {npc:196172}.\n\n|cFFFF0000(BUG: Para poder hacer click en el {npc:196172} puede ser necesario un reload)|r'
 L['cracked_hourglass_note'] = 'La {item:199068} se puede encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
 L['sandy_wooden_duck_note'] = 'Recoge el {item:199069} y úsalo.'
 
