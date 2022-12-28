@@ -61,7 +61,7 @@ L['dr_bronze'] = '\n\nAcaba la carrera para conseguir el ' .. ns.color.Bronze('B
 L['options_icons_dragonrace'] = 'Carreras de Dragones'
 L['options_icons_dragonrace_desc'] = 'Muestra dónde están las Carreras de Dragones.'
 
-L['squirrels_note'] = 'Has de usar la emoción {emote:/amor} en alimañas que no sean mascotas de combate.'
+L['squirrels_note'] = 'Has de teclear {emote:/amor} mientras seleccionas alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:16729}.'
 
@@ -174,7 +174,7 @@ L['porta_the_overgrown_note'] = 'Puedes encontrar el {item:194426} en el fondo d
 L['scaleseeker_mezeri_note'] = 'Ofrece {item:194681} a {npc:193224} y síguela hasta que te enseñe al raro.'
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 L['windscale_the_stormborn_note'] = 'Mata a los {npc:192367} que están canalizando en los {npc:192357}.'
-L['zarizz_note'] = 'Haz click y haz {emote:/hiss} a las cuatro {npc:193169} para invocar al raro.'
+L['zarizz_note'] = 'Selecciona a las {npc:193169} y teclea {emote:/hiss} en ellas para invocar al raro.'
 
 L['gold_swong_coin_note'] = 'Dentro de la cueva con {npc:191608} a su lado derecho.'
 L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
