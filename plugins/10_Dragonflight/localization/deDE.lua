@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['elite_loot_385'] = '{note:Dieser seltene Gegner kann Beute mit höherer Gegenstandsstufe fallen lassen!}'
-L['gem_cluster_note'] = 'Der benötigte Gegenstand kann auf Ruhmstufe 21 bei der Drachenschuppenexpedition in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
+L['gem_cluster_note'] = 'Der benötigte Gegenstand kann auf Ruhmstufe 21 bei der |cFFFFFF00Drachenschuppenexpedition|r in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 
 L['options_icons_bonus_boss'] = 'Bonus Elitegegner'
 L['options_icons_bonus_boss_desc'] = 'Zeigt die Positionen von Bonus Elitegegnern.'
@@ -149,7 +149,7 @@ Sammle (oder kaufe im Auktionshaus):
 Fragt nach der gesattelten Slyvern und präsentiert {npc:190892} die gesammelten "Gerichte".
 ]]
 
-L['elder_poa_note'] = 'Tausche {item:200071} gegen Ruf bei den {faction:Tuskarr von Iskaara} ein.'
+L['elder_poa_note'] = 'Tausche {item:200071} gegen Ruf bei den {faction:2511} ein.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -195,7 +195,7 @@ L['pt_smith_falconer_gauntlet_drawings_note'] = 'Auf einer Insel im Meer, in ein
 L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Liegt in einer kleinen Hütte. {note:3 Elitegegner in der Höhle.}'
 L['pt_tailor_silky_surprise_note'] = 'Finde und plündere das {object:Katzenminzenwedel}.'
 
-L['lizi_note'] = 'Schließe den {object:Initiandenausflug} Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.' -- review , maybe change ob ject to a new quest color tag?
+L['lizi_note'] = 'Schließe den |cFFFFFF00Initiandenausflug|r Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Sammle 20x {item:192615} von Insekten-Gegnern auf den {location:Dracheninseln}.'
 L['lizi_note_day2'] = 'Sammle 20x {item:192658} von Pflanzen-Gegnern auf den {location:Dracheninseln}.'
 L['lizi_note_day3'] = 'Sammle 10x {item:194966} gefischt aus allen Gewässern der {location:Dracheninseln}. Am häufigsten im Binnenland {location:Ebenen von Ohn\'ahra} zu finden.'
@@ -224,7 +224,7 @@ L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinne
 
 L['khadin_note'] = 'Tausche {item:191784} gegen Berufswissen ein.'
 L['the_great_swog_note'] = 'Tausche {item:199338}, {item:199339} oder {item:199340} gegen die jeweiligen Flunkschatzbeutel ein.'
-L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den {faction:Zentauren der Maruuk} ein.'
+L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den {faction:2503} ein.'
 L['elder_yusa_note'] = 'Visiere {npc:192818} an und benutze den Chatbefehl {emote:/hunger}, um das Rezept zu erhalten.'
 L['initiate_kittileg_note'] = 'Schließe die Quest {quest:66226} ab, um das Spielzeug zu erhalten!'
 
@@ -279,8 +279,8 @@ L['options_icons_new_perspective_desc'] = 'Zeigt die Positionen der Aussichten f
 
 L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschiedene Gerichte und Getränke auf.'
 
-L['sorotis_note'] = 'Tausche {item:199906} gegen Ruf beim {faction:Valdrakkenabkommen} ein.'
-L['lillian_brightmoon_note'] = 'Tausche {item:201412} gegen Ruf bei der {faction:Drachenschuppenexpedition} ein.'
+L['sorotis_note'] = 'Tausche {item:199906} gegen Ruf beim {faction:2510} ein.'
+L['lillian_brightmoon_note'] = 'Tausche {item:201412} gegen Ruf bei der |cFFFFFF00Drachenschuppenexpedition|r ein.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -302,7 +302,7 @@ L['dead_mans_chestplate_note'] = 'Im Inneren des Turms auf der mittleren Etage.'
 L['fullsails_supply_chest_note'] = 'Der Schlüssel kann südlich der {location:Botschaft von Schwingenrast} von {npc:187971} und {npc:187320} fallen gelassen werden.'
 L['golden_dragon_goblet_note'] = 'Plündere {item:202081} von {npc:190056} an der {location:Wilde Küste} und schließe die kleine Questreihe ab.'
 L['misty_treasure_chest_note'] = 'Stelle dich auf den {npc:185485} der aus dem Wasserfall ragt, um in die Höhle zu gelangen.'
-L['onyx_gem_cluster_note'] = 'Auf Ruhmstufe 21 bei der Drachenschuppenexpedition kannst du die Quest {quest:70833} abschließen und als Belohnung die {item:200738} bekommen (einmal pro Account) oder kaufe die Karte von {npc:189065} für 3 {item:192863} und 500 {currency:2003} und benutze es.'
+L['onyx_gem_cluster_note'] = 'Auf Ruhmstufe 21 bei der |cFFFFFF00Drachenschuppenexpedition|r kannst du die Quest {quest:70833} abschließen und als Belohnung die {item:200738} bekommen (einmal pro Account) oder kaufe die Karte von {npc:189065} für 3 {item:192863} und 500 {currency:2003} und benutze es.'
 L['torn_riding_pack_note'] = 'Liegt am oberen Ende des Wasserfalls.'
 L['yennus_kite_note'] = 'Steckt an einem Ast in der Baumkrone fest.'
 
@@ -374,7 +374,7 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, ve
 L['magmashell_note'] = 'Erbeute von {npc:193138n} einen {item:201883} in der Nähe der {location:Obsidianzitadelle} und bringe es zu {npc:199010}.\n\n' .. ns.color.Orange('Es wird 20 Sekunden {spell:395626} kanalisiert, während du in der Lava bist, um das Reittier zu erhalten. Es ist empfehlenswert einen Heiler mitzubringen oder etwas wie das Spielzeug {item:200116}.')
 
 L['otto_note_start1'] = 'Sammle 75x {item:199338}, diese können von {title:<Oschi>}\'s bei {object:Sichtung eines großen Oschis} erbeutet oder beim Angeln auf den {location:Dracheninseln} gefischt werden.\n\nTausche die Kupfermünzen bei {npc:191608} in den {location:Ebenen von Ohn\'ahra} gegen 5x {item:199339} und diese wiederum gegen 1x {item:199340} ein und kaufe dir damit {item:202102} in dem zu 100% das Spielzeug {item:202042} enthalten ist.'
-L['otto_note_start2'] = ns.color.Orange('Um {title:<Oschi>}\'s besiegen zu können, benötigst du Ruhmstufe 7 bei den {faction:Tuskarr von Iskaara} und eine {item:194510}.}')
+L['otto_note_start2'] = ns.color.Orange('Um {title:<Oschi>}\'s besiegen zu können, benötigst du Ruhmstufe 7 bei den {faction:2511} und eine {item:194510}.}')
 L['otto_note_start3'] = 'Verwende das Spielzeug {item:202042} und stelle dich bei {location:Das Blubberbad} in der {location:Zischenden Grotte} auf die Tanzmatte, um den Schwächungszauber {spell:396539} zu erhalten. Sobald dieser abläuft wirst du Ohnmächtig und wachst neben einem Fass auf. Klicke auf das Fass und du erhältst ein {item:202061}. Du musst das Fass auffüllen, um {npc:199563} zu füttern.'
 L['otto_note_item1'] = 'Angle 100x {item:202072}, ein Fisch der überall in den Gewässern von {location:Iskaara} im {location:Azurblauen Gebirge} geangelt werden kann. Wenn du die Schollen mit dem Fass benutzt, erhältst du ein {item:202066}.'
 L['otto_note_item2'] = 'Angle 25x {item:202073}, ein seltener Fisch der in der Lava bei der {location:Obsidianzitadelle} in {location:Die Küste des Erwachens} geangelt werden kann. Wenn du die Karpfen mit dem Fass benutzt, erhältst du ein {item:202068}.'
@@ -385,4 +385,4 @@ L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:16519} an.'
 L['shyfly_note'] = 'Du musst dich auf der Quest {quest:70853} befinden, um {npc:189102} zu sehen.'
 
-L['cataloger_jakes_note'] = 'Tausche {item:192055} gegen Ruf bei der {faction:Drachenschuppenexpedition} ein.'
+L['cataloger_jakes_note'] = 'Tausche {item:192055} gegen Ruf bei der |cFFFFFF00Drachenschuppenexpedition|r ein.'
