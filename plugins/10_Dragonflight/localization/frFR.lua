@@ -133,7 +133,7 @@ L['river_rapids_wrangler_note'] = 'Parlez à {npc:186157} et sélectionnez "J\'a
 L['seeing_blue_note'] = 'Volez du sommet des {location:Archives d’Azur} jusqu’à l’{location:Assemblée de Cobalt} sans atterrir.'
 L['snowman_note'] = 'Il y a trois {npc:197599s} dans la zone (elles ont pu être déplacées par d\'autres joueurs), faites-les rouler vers les deux enfants {npc:197838} et {npc:197839}.\nVous obtenez le haut-fait lorsque les boules de neige ont la bonne taille.'
 
-L['snowclaw_cub_note_start'] = 'Vous devez terminer la suite de quêtes {quest:67094} donnée par {npc:192522} à {sanctuary:Valdrakken} pour obtenir le titre de {title:Dryade honoraire}.\n\nRassemblez les objets suivants :'
+L['snowclaw_cub_note_start'] = 'Vous devez terminer la suite de quêtes {quest:67094} donnée par {npc:192522} à {location:Valdrakken} pour obtenir le titre de {title:Dryade honoraire}.\n\nRassemblez les objets suivants :'
 L['snowclaw_cub_note_item1'] = 'Récupérez 3x {item:197744} sur divers {npc:182559} aux {location:Rivages de l’Éveil}.'
 L['snowclaw_cub_note_item2'] = 'Achetez 1x {item:198356} à la {npc:193310} aux {location:Rivages de l’Éveil}.'
 L['snowclaw_cub_note_end'] = '{note:Tous les objets peuvent être achetés à l\'hôtel des ventes. Ceci est particulièrement utile si vous n\'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.}\n\nUne fois le titre {title:Dryade honoraire} équipé, offrez les 4 objets à l\'{npc:196768} pour recevoir votre mascotte.\n\n{bug:(BUG : Le titre est susceptible de disparaître, en attente d\'un correctif)}'
@@ -150,7 +150,7 @@ Rassemblez (ou achetez à l'hôtel des ventes) :
 Renseignez-vous sur la rusarde sellée et remettez à {npc:190892} les "plats" recueillis.
 ]]
 
-L['elder_poa_note'] = 'Échangez vos {item:200071} pour obtenir de la réputation avec les {faction:Roharts iskaariens}.'
+L['elder_poa_note'] = 'Échangez vos {item:200071} pour obtenir de la réputation avec les {faction:2511}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -225,7 +225,7 @@ L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêve
 
 L['khadin_note'] = 'Échangez les {item:191784} contre de la connaissance de métiers.'
 L['the_great_swog_note'] = 'Échangez des {item:199338}, {item:199339} et {item:199340} contre des {item:202102}.'
-L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de la réputation avec les {faction:Centaures maruuks}.'
+L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de la réputation avec les {faction:2503}.'
 L['elder_yusa_note'] = 'Ciblez l\'{npc:192818} et utilisez l\'emote {emote:/faim} pour obtenir la recette de cuisine.'
 L['initiate_kittileg_note'] = 'Complétez {quest:66226} pour obtenir le jouet !'
 
@@ -264,10 +264,10 @@ L['pt_smith_draconic_flux_note'] = 'A l\'intérieur d\'un bâtiment.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Cliquez sur le {object:Rouet tisse-dragon ancien} pour effectuer un mini-jeu où vous devez relier les bobines de fil à la gemme centrale.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Une petite bannière dans un tas de sable.'
 
-L['picante_pomfruit_cake_note'] = '{item:200904} n\'est pas disponible tous les jours, alors revenez quotidiennement à l\'{sanctuary:Enclave de Rubis}. Pendant que vous y êtes, n\'oubliez pas de goûter les 3 plats disponibles pour obtenir {achievement:16556}.'
-L['icecrown_bleu_note'] = 'Achetez auprès de {npc:196729} {title:<Fromager>} au {sanctuary:Marché d’artisanat}.'
+L['picante_pomfruit_cake_note'] = '{item:200904} n\'est pas disponible tous les jours, alors revenez quotidiennement à l\'{location:Enclave de Rubis}. Pendant que vous y êtes, n\'oubliez pas de goûter les 3 plats disponibles pour obtenir {achievement:16556}.'
+L['icecrown_bleu_note'] = 'Achetez auprès de {npc:196729} {title:<Fromager>} au {location:Marché d’artisanat}.'
 L['dreamwarding_dripbrew_note'] = 'Achetez auprès de {npc:197872} {title:<Caféinomancien>} au {location:Laboratoire de nuit}.'
-L['arcanostabilized_provisions_note'] = 'Achetez auprès de {npc:198831} {title:<Cuisinière en chef>} à la {sanctuary:Confluence Temporelle} dans {sanctuary:L’avenir des Primalistes}.'
+L['arcanostabilized_provisions_note'] = 'Achetez auprès de {npc:198831} {title:<Cuisinière en chef>} à la {location:Confluence Temporelle} dans {location:L’avenir des Primalistes}.'
 L['steamed_scarab_steak_note'] = 'Achetez auprès de {npc:197586} {title:<Tavernière du spa>} au {location:Spa « Rêves sereins »}.'
 L['craft_creche_crowler_note'] = 'Achetez auprès de {npc:187444} {title:<Vendeur de breuvages draconiques itinérant>} étant situé dans ces zones aléatoires chaque jour : {location:Sanctuaire de l’Essence rubis}, {location:Auberge Vertécaille}, {location:Camp Nulle-Part}, {sanctuary:Confluence Temporelle}.'
 L['bivigosas_blood_sausages_note'] = 'Achetez auprès de l\'{npc:188895} {title:<Nourriture et boissons>} au {location:Poste Gelikyr}.'
@@ -280,8 +280,8 @@ L['options_icons_new_perspective_desc'] = 'Afficher les emplacements des panoram
 
 L['ruby_feast_gourmand'] = 'Chaque jour, un chef invité au hasard sert des plats et des boissons variés.'
 
-L['sorotis_note'] = 'Échangez vos {item:199906} pour obtenir de la réputation avec le {faction:Concordat de Valdrakken}.'
-L['lillian_brightmoon_note'] = 'Echangez vos {item:201412} pour obtenir de la réputation avec l\'{faction:Expédition du Dracaret}.'
+L['sorotis_note'] = 'Échangez vos {item:199906} pour obtenir de la réputation avec le {faction:2510}.'
+L['lillian_brightmoon_note'] = 'Echangez vos {item:201412} pour obtenir de la réputation avec l\'{faction:2507}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -303,7 +303,7 @@ L['dead_mans_chestplate_note'] = 'A l\'intérieur de la tour, au niveau intermé
 L['fullsails_supply_chest_note'] = 'La clé est récupérable sur les {npc:187971s} et {npc:187320s} au sud de l\'{location:Ambassade de Trêve-Ailée}.'
 L['golden_dragon_goblet_note'] = 'Récupérez un {item:202081} sur les {npc:190056} sur la {location:Côte Sauvage} et terminez la petite suite de quêtes.'
 L['misty_treasure_chest_note'] = 'Montez sur la {npc:185485} qui dépasse de la cascade pour entrer dans la grotte.'
-L['onyx_gem_cluster_note'] = 'Au Renom 21 avec l\'{faction:Expédition du Dracaret}, vous pouvez compléter la quête {quest:70833} pour obtenir {item:200738} comme récompense (une fois par compte) ou alors acheter la carte à {npc:189065} pour 3 {item:192863} et 500 {currency:2003} et l\'utiliser.'
+L['onyx_gem_cluster_note'] = 'Au Renom 21 avec l\'{faction:2507}, vous pouvez compléter la quête {quest:70833} pour obtenir {item:200738} comme récompense (une fois par compte) ou alors acheter la carte à {npc:189065} pour 3 {item:192863} et 500 {currency:2003} et l\'utiliser.'
 L['torn_riding_pack_note'] = 'Situé au sommet de la cascade.'
 L['yennus_kite_note'] = 'Coincé dans une branche au sommet de l\'arbre.'
 
