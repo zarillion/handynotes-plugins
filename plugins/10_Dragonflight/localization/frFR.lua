@@ -83,7 +83,7 @@ L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = 'Afficher les emplacements des personnalités légendaires pour le haut-fait {achievement:16570}.'
 
 L['signal_transmitter_label'] = 'Transmetteur de signaux du Générateur de trou de wyrm'
-L['signal_transmitter_note'] = '{note:Requiert 10 points dans Esprit mécanique\nRequiert 30 points dans Nouveautés}\n\nInteragissez avec le {object:Transmetteur de signaux désactivé} pour permettre la téléportation à cet endroit.'
+L['signal_transmitter_note'] = ns.color.Orange('Requiert 10 points dans Esprit mécanique\nRequiert 30 points dans Nouveautés') .. '\n\nInteragissez avec le {object:Transmetteur de signaux désactivé} pour permettre la téléportation à cet endroit.'
 L['options_icons_signal_transmitter'] = 'Transmetteurs de signaux du Générateur de trou de wyrm'
 L['options_icons_signal_transmitter_desc'] = 'Afficher les emplacements des {object:Transmetteurs de signaux désactivés} pour le {item:198156}.'
 
@@ -136,7 +136,7 @@ L['snowman_note'] = 'Il y a trois {npc:197599s} dans la zone (elles ont pu être
 L['snowclaw_cub_note_start'] = 'Vous devez terminer la suite de quêtes {quest:67094} donnée par {npc:192522} à {location:Valdrakken} pour obtenir le titre de {title:Dryade honoraire}.\n\nRassemblez les objets suivants :'
 L['snowclaw_cub_note_item1'] = 'Récupérez 3x {item:197744} sur divers {npc:182559} aux {location:Rivages de l’Éveil}.'
 L['snowclaw_cub_note_item2'] = 'Achetez 1x {item:198356} à la {npc:193310} aux {location:Rivages de l’Éveil}.'
-L['snowclaw_cub_note_end'] = '{note:Tous les objets peuvent être achetés à l\'hôtel des ventes. Ceci est particulièrement utile si vous n\'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.}\n\nUne fois le titre {title:Dryade honoraire} équipé, offrez les 4 objets à l\'{npc:196768} pour recevoir votre mascotte.\n\n{bug:(BUG : Le titre est susceptible de disparaître, en attente d\'un correctif)}'
+L['snowclaw_cub_note_end'] = ns.color.Orange('Tous les objets peuvent être achetés à l\'hôtel des ventes. Ceci est particulièrement utile si vous n\'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.') .. '\n\nUne fois le titre {title:Dryade honoraire} équipé, offrez les 4 objets à l\'{npc:196768} pour recevoir votre mascotte.\n\n{bug:(BUG : Le titre est susceptible de disparaître, en attente d\'un correctif)}'
 
 L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre {object:La tempête de mana pour les novices} pour terminer la quête.'
 
@@ -377,9 +377,9 @@ L['slumbering_worldsnail_note1'] = [[
 
 5. Rassemblez 1000x {item:202173} pour acheter la {item:192786}.]]
 
-L['slumbering_worldsnail_note2'] = '{note:Si vous mourrez, vous perdrez votre debuff d\'abonnement. Vous pouvez acheter un nouvel abonnement auprès de {npc:193310} pour 20x {item:202173} avant de mourir ou bien vous devrez apporter d\'autres clés pour avoir une chance d\'obtenir un nouvel abonnement dans le coffre.}'
+L['slumbering_worldsnail_note2'] = ns.color.Orange('Si vous mourrez, vous perdrez votre debuff d\'abonnement. Vous pouvez acheter un nouvel abonnement auprès de {npc:193310} pour 20x {item:202173} avant de mourir ou bien vous devrez apporter d\'autres clés pour avoir une chance d\'obtenir un nouvel abonnement dans le coffre.')
 
-L['magmashell_note'] = 'Récupérez une {item:201883} sur les {npc:193138} dans la {location:Citadelle d\'Obsidienne} et apportez-la à l\'{npc:199010}.\n\n{note:Il y aura un sort canalisé pendant 20 secondes une fois dans la lave pour obtenir la monture, il est donc recommandé de faire appel à un soigneur ou quelque chose comme la {item:200116}.}'
+L['magmashell_note'] = 'Récupérez une {item:201883} sur les {npc:193138} dans la {location:Citadelle d\'Obsidienne} et apportez-la à l\'{npc:199010}.\n\n' .. ns.color.Orange('Il y aura un sort canalisé pendant 20 secondes une fois dans la lave pour obtenir la monture, il est donc recommandé de faire appel à un soigneur ou quelque chose comme la {item:200116}.')
 
 L['otto_note_start1'] = 'Récupérez une paire de {item:202042}. Les lunettes sont obtenables à 100% dans le {item:202102} acheté auprès du {npc:191608} dans les {location:Plaines d’Ohn’ahra}.\n\nLe sac peut être acheté contre 1x {item:199340} qui peut être achetée contre 5x {item:199339} qui peuvent être achetées contre 75x {item:199338} qui peuvent être pêchées aux {location:îles aux Dragons} ou en battant des monstres {title:<Malabar>} aux coins de pêche.'
 L['otto_note_start2'] = ns.color.Orange('Battre des monstres {title:<Malabar>} nécessitera un Renom 7 avec les {faction:2511} et l\'accès au {item:194510}.')
