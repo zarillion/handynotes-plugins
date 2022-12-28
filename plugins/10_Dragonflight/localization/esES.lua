@@ -346,16 +346,16 @@ L['quack_week_4'] = 'Semana 4'
 L['quack_week_5'] = 'Semana 5'
 L['lets_get_quacking'] = 'Sólo puedes rescatar un {npc:187863} a la semana.'
 
-L['complaint_to_scalepiercer_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r que hay dentro de la choza (en el lado izquierdo de la parte de atrás).'
-L['grand_flames_journal_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r de fuera detrás de la choza.'
-L['wyrmeaters_recipe_note'] = 'Haz click en la |cFFFFFD00Tablilla de Piedra|r que hay dentro de la choza (en el lado izquierdo).'
+L['complaint_to_scalepiercer_note'] = 'Haz click en la {object:Tablilla de Piedra} que hay dentro de la choza (en el lado izquierdo de la parte de atrás).'
+L['grand_flames_journal_note'] = 'Haz click en la {object:Tablilla de Piedra} de fuera detrás de la choza.'
+L['wyrmeaters_recipe_note'] = 'Haz click en la {object:Tablilla de Piedra} que hay dentro de la choza (en el lado izquierdo).'
 
 L['options_icons_ducklings'] = '{achievement:16409}'
 L['options_icons_ducklings_desc'] = 'Muestra dónde están los patitos para el logro {achievement:16409}.'
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = 'Muestra dónde están las tablillas para el logro {achievement:16412}.'
 
-L['grand_theft_mammoth_note'] = 'Monta el {npc:194625} hacia el {npc:198163}.\n\n|cFFFF0000(BUG: Si no puedes interactuar con el {npc:194625} haz /reload.)|r'
+L['grand_theft_mammoth_note'] = 'Monta el {npc:194625} hacia el {npc:198163}.\n\n{bug:(BUG: Si no puedes interactuar con el {npc:194625} haz /reload.)}'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Muestra dónde están los {npc:194625} para el logro {achievement:16493}.'
 
@@ -364,33 +364,33 @@ L['options_icons_stories_desc'] = 'Muestra dónde están las misiones para el lo
 L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Comienza la cadena de misiones y escucha la historia de la {npc:184449} y de {npc:184451}.'
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'En una habitación pequeña debajo de la plataforma.\n\nComienza la cadena de misiones y escucha la historia de {npc:194800} y de {npc:194801}. En las siguientes dos semanas se desbloquearán más misiones.'
 L['all_sides_of_the_story_tarjin_note'] = 'Comienza la cadena de misiones con {quest:70779}.\n{npc:196214} te contará otra historia cada semana.'
-L['all_sides_of_the_story_veritistrasz_note'] = 'Comienza la misión {quest:70132} para escuchar las historias de {npc:194076}.\nDespués, desbloquearás la misión {quest:70134} seguida de {quest:70268}.\n\nPara la última misión necesitarás {item:198661} que podrás encontrar dentro de la ' .. ns.color.Yellow('Fortaleza de Ruinadragón') .. '.'
+L['all_sides_of_the_story_veritistrasz_note'] = 'Comienza la misión {quest:70132} para escuchar las historias de {npc:194076}.\nDespués, desbloquearás la misión {quest:70134} seguida de {quest:70268}.\n\nPara la última misión necesitarás el {item:198661} que podrás encontrar dentro de la {location:Fortaleza de Ruinadragón}.'
 
 L['slumbering_worldsnail_note1'] = [[
-1. Despoja 3x {item:193201} y 30x {item:191251} de los enemigos de alrededor de la |cFFFFFD00Ciudadela Obsidiana|r para formar una {item:191264}.
+1. Despoja 3x {item:193201} y 30x {item:191251} de los enemigos de alrededor de la {location:Ciudadela Obsidiana} para formar una {item:191264}.
 
 2. Intercambia la {item:191264} por un {item:200069} a {npc:187275}.
 
 3. Hay un 30% de posibilidades de que el alijo contenga un {item:199215}.
 
-4. Usar el título de miembro te otorgará el debuff {spell:386848} que te permitirá farmear {item:202173} alrededor de la |cFFFFFD00Ciudadela Obsidiana|r.
+4. Usar el título de miembro te otorgará el debuff {spell:386848} que te permitirá farmear {item:202173} alrededor de la {location:Ciudadela Obsidiana}.
 
 5. Recoge 1000x {item:202173} para comprar el {item:192786}.]]
 
-L['slumbering_worldsnail_note2'] = ns.color.Orange('Note: Si mueres perderás el debuff de membresía. Compre un nuevo título de miembro a {npc:193310} por 20x {item:202173} antes de morir o necesitarás entregar más llaves para la oportunidad de sacar un título de miembro del alijo.')
+L['slumbering_worldsnail_note2'] = '{note: Si mueres perderás el debuff de membresía. Compre un nuevo título de miembro a {npc:193310} por 20x {item:202173} antes de morir o necesitarás entregar más llaves para la oportunidad de sacar un título de miembro del alijo.}'
 
-L['magmashell_note'] = 'Despoja {item:201883} de los {npc:193138} alrededor de la |cffffff00Ciudadela Obsidiana|r y llévaselo al {npc:199010}.\n\n' .. ns.color.Orange('Haciendo click en el caracol se canalizará un hechizo durante 20 segundos después de lo cuales conseguirás la montura. Muy recomendable traer a un amigo sanador o usar el juguete {item:200116}.')
+L['magmashell_note'] = 'Despoja {item:201883} de los {npc:193138} alrededor de la {location:Ciudadela Obsidiana} y llévaselo al {npc:199010}.\n\n{note:Haciendo click en el caracol se canalizará un hechizo durante 20 segundos después de lo cuales conseguirás la montura. Muy recomendable traer a un amigo sanador o usar el juguete {item:200116}.}'
 
-L['otto_note_start1'] = 'Consigue unas {item:202042}. Las gafas tienen un 100% de probabilidades de salir del {item:202102} que puede ser comprado a {npc:191608} en las |cFFFFFD00Llanuras de Ohn\'ahra|r.\n\nEl saco se puede comprar con 1x {item:199340} la cual puede ser comprada con 5x {item:199339} que éstas se pueden comprar por 75x {item:199338}. A su vez, estas últimas se pueden pescar alrededor de las |cFFFFFD00Islas Dragón|r o derrotando a enemigos |cFFFFFD00<Morrocotudo>|r en los nodos de pesca.'
-L['otto_note_start2'] = ns.color.Orange('Derrotar enemigos |cFFFFFD00<Morrocotudo>|r requiere Renombre 7 con |cFFFFFD00Colmillarr de Iskaara|r y acceso al {item:194510}.')
-L['otto_note_start3'] = 'Una vez con las {item:202042} ves al bar subacuático |cFFFFFD00El Baño de Burbujas|r en la |cFFFFFD00Gruta Siseante|r y quédate de pie en la plataforma de baile que hay al lado de la barra hasta conseguir el debuff {spell:396539}. Cuando el debuff se acabe te desmayarás y despertarás junto a un barril. Interactúa con él para despojar el {item:202061}. Ahora necesitas llenar el barril con peces para alimentar a {npc:199563}.'
-L['otto_note_item1'] = 'Recoge 100x {item:202072}, un pez con probabilidad alta de ser pescado en las aguas abiertas de |cFFFFFD00Iskaara|r en las |cFFFFFD00Tierras Azures|r. Usar el barril con los peces te dará un {item:202066}.'
-L['otto_note_item2'] = 'Recoge 25x {item:202073}, un pez con probabilidad rara de ser pescado en la lava alrededor de la |cFFFFFD00Ciudadela Obsidiana|r en las |cFFFFFD00Orillas del Despertar|r. Usar el barril con los peces te dará un {item:202068}.'
-L['otto_note_item3'] = 'Recoge 1x {item:202074}, un pez con probabilidad rara de ser pescado en las aguas cerca de |cFFFFFD00Academia Algeth\'ar|r en |cFFFFFD00Thaldraszus|r. Usar el barril con los peces te dará un {item:202069}.'
-L['otto_note_end'] = 'Vuelve a la |cFFFFFD00Gruta Siseante|r en las |cFFFFFD00Orillas del Despertar|r y deja el barril donde lo encontrastes para invocar a {npc:199563} y ¡recibir tu montura!'
+L['otto_note_start1'] = 'Consigue unas {item:202042}. Las gafas tienen un 100% de probabilidades de salir del {item:202102} que puede ser comprado a {npc:191608} en las {location:Llanuras de Ohn\'ahra}.\n\nEl saco se puede comprar con 1x {item:199340} la cual puede ser comprada con 5x {item:199339} que éstas se pueden comprar por 75x {item:199338}. A su vez, estas últimas se pueden pescar alrededor de las {location:Islas Dragón} o derrotando a enemigos {title:<Morrocotudo>} en los nodos de pesca.'
+L['otto_note_start2'] = '{note:Derrotar enemigos {title:<Morrocotudo>} requiere Renombre 7 con {faction:Colmillarr de Iskaara} y acceso al {item:194510}.}'
+L['otto_note_start3'] = 'Una vez con las {item:202042} ves al bar subacuático {location:El Baño de Burbujas} en la {location:Gruta Siseante} y quédate de pie en la plataforma de baile que hay al lado de la barra hasta conseguir el debuff {spell:396539}. Cuando el debuff se acabe te desmayarás y despertarás junto a un barril. Interactúa con él para despojar el {item:202061}. Ahora necesitas llenar el barril con peces para alimentar a {npc:199563}.'
+L['otto_note_item1'] = 'Recoge 100x {item:202072}, un pez con probabilidad alta de ser pescado en las aguas abiertas de {location:Iskaara} en las {location:Tierras Azures}. Usar el barril con los peces te dará un {item:202066}.'
+L['otto_note_item2'] = 'Recoge 25x {item:202073}, un pez con probabilidad rara de ser pescado en la lava alrededor de la {location:Ciudadela Obsidiana} en las {location:Orillas del Despertar}. Usar el barril con los peces te dará un {item:202068}.'
+L['otto_note_item3'] = 'Recoge 1x {item:202074}, un pez con probabilidad rara de ser pescado en las aguas cerca de la {location:Academia Algeth\'ar} en {location:Thaldraszus}. Usar el barril con los peces te dará un {item:202069}.'
+L['otto_note_end'] = 'Vuelve a la {location:Gruta Siseante} en las {location:Orillas del Despertar} y deja el barril donde lo encontrastes para invocar a {npc:199563} y ¡recibir tu montura!'
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:16519}.'
 L['shyfly_note'] = 'Has de estar en la misión {quest:70853} para poder ver las {npc:189102}.'
 
-L['cataloger_jakes_note'] = 'Entrega {item:192055} para conseguir reputación con |cFFFFFD00Expedición Dragontina|r.'
+L['cataloger_jakes_note'] = 'Entrega {item:192055} para conseguir reputación con {faction:Expedición Dragontina}.'
