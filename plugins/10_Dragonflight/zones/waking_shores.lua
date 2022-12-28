@@ -609,7 +609,7 @@ map.nodes[58525302] = Treasure({
 
 map.nodes[29454699] = Treasure({
     quest = 72020,
-    note = L['onyx_gem_cluster_note'],
+    note = L['in_cave'] .. '' .. L['onyx_gem_cluster_note'],
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
         ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
@@ -619,7 +619,7 @@ map.nodes[29454699] = Treasure({
         Achievement({id = 16297, criteria = 55448}), --
         Item({item = 200867}) -- Glimmering Neltharite Cluster
     },
-    pois = {POI({46948289})}
+    pois = {POI({46948289, 29335248, 30535144})}
 }) -- Onyx Gem Cluster
 
 map.nodes[65804182] = Treasure({

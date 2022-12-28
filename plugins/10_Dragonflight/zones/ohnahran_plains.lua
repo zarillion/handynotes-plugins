@@ -47,9 +47,9 @@ local map = Map({id = 2023, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[31607660] = Rare({
+map.nodes[31567644] = Rare({
     id = 195186,
-    quest = nil,
+    quest = 73950,
     rewards = {Achievement({id = 16677, criteria = 56092})}
 }) -- Cinta the Forgotten
 
@@ -796,6 +796,7 @@ map.nodes[29777163] = Disturbeddirt()
 map.nodes[29777363] = Disturbeddirt()
 map.nodes[36553269] = Disturbeddirt()
 map.nodes[38825564] = Disturbeddirt()
+map.nodes[39565456] = Disturbeddirt()
 map.nodes[88364505] = Disturbeddirt()
 map.nodes[41103789] = Disturbeddirt()
 map.nodes[42335555] = Disturbeddirt()
@@ -819,6 +820,7 @@ map.nodes[66451981] = Disturbeddirt()
 map.nodes[69087885] = Disturbeddirt()
 map.nodes[71706413] = Disturbeddirt()
 map.nodes[75003584] = Disturbeddirt()
+map.nodes[76485475] = Disturbeddirt()
 map.nodes[78534035] = Disturbeddirt()
 map.nodes[78782268] = Disturbeddirt()
 map.nodes[78943707] = Disturbeddirt({note = L['in_small_cave']})
