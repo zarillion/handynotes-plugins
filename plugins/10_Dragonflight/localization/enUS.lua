@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['elite_loot_385'] = '{note:This rare can drop higher ilvl loot!}'
-L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the {faction:Dragonscale Expedition} in {object:Expedition Scout\'s Pack} and {object:Disturbed Dirt}.'
+L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the {faction:2507} in {object:Expedition Scout\'s Pack} and {object:Disturbed Dirt}.'
 
 L['options_icons_bonus_boss'] = 'Bonus Elites'
 L['options_icons_bonus_boss_desc'] = 'Display locations of bonus elites.'
@@ -381,7 +381,7 @@ L['slumbering_worldsnail_note2'] = '{note:If you die you will lose your membersh
 L['magmashell_note'] = 'Loot {item:201883} from {npc:193138} around {location:Obsidian Citadel} and bring it to the {npc:199010}.\n\n{note:There is a 20 second spell channel while in the lava to obtain the mount so bringing a healer or something like {item:200116} is recommended}.'
 
 L['otto_note_start1'] = 'Collect a pair of {item:202042}. The glasses are a 100% drop from the {item:202102} which is purchased from {npc:191608} in the {location:Ohn\'ahran Plains}.\n\nThe bag can be purchased with 1x {item:199340} which can be purchased with 5x {item:199339} which can be purchased with 75x {item:199338} which can be fished up around {location:The Dragon Isles} or by defeating {title:<Lunker>} mobs in fishing holes.'
-L['otto_note_start2'] = '{note:Defeating {title:<Lunker>} mobs will require Renown 7 with the {faction:Iskaara Tuskarr} and access to the {item:194510}.'
+L['otto_note_start2'] = ns.color.Orange('Defeating {title:<Lunker>} mobs will require Renown 7 with the {faction:2511} and access to the {item:194510}.')
 L['otto_note_start3'] = 'Once you have a pair of {item:202042} head over to {location:The Bubble Bath} dive bar in the {location:Hissing Grotto} find a dancing mat, and stand on it to get the debuff {spell:396539}. Once the debuff expires you will pass out and wake up next to a barrel. Interact with it to loot the {item:202061}. You now need to fill the barrel with fish to feed to {npc:199563}.'
 L['otto_note_item1'] = 'Collect 100x {item:202072}, a high drop fish that can be fished in the open waters of {location:Iskaara} in {location:Azure Span}. Using the barrel with the fish gives you a {item:202066}.'
 L['otto_note_item2'] = 'Collect 25x {item:202073}, a rare drop fish that can be fished in the lava around the {location:Obsidian Citadel} in {location:The Waking Shores}. Using the barrel with the fish gives you a {item:202068}.'
@@ -392,4 +392,4 @@ L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Display the location of battle pets for {achievement:16519}.'
 L['shyfly_note'] = 'You have to be on the quest {quest:70853} to see the {npc:189102}.'
 
-L['cataloger_jakes_note'] = 'Exchange {item:192055} for {faction:Dragonscale Expedition} reputation.'
+L['cataloger_jakes_note'] = 'Exchange {item:192055} for {faction:2507} reputation.'
