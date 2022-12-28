@@ -195,7 +195,7 @@ L['pt_smith_falconer_gauntlet_drawings_note'] = 'Auf einer Insel im Meer, in ein
 L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Liegt in einer kleinen Hütte. {note:3 Elitegegner in der Höhle.}'
 L['pt_tailor_silky_surprise_note'] = 'Finde und plündere das {object:Katzenminzenwedel}.'
 
-L['lizi_note'] = 'Schließe den {object:Initiandenausflug} Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.' --review , maybe change ob ject to a new quest color tag?
+L['lizi_note'] = 'Schließe den {object:Initiandenausflug} Geschichtsstrang, gestartet mit der Quest {quest:65901} ab. Schließe täglich die Quests ab, um Lizi zu heilen und dein Reittier zu erhalten.\n\nZusätzlich zu den benötigten Gegenständen erfordern alle Quests 150x {currency:2003} für insgesamt 750x {currency:2003}.' -- review , maybe change ob ject to a new quest color tag?
 L['lizi_note_day1'] = 'Sammle 20x {item:192615} von Insekten-Gegnern auf den {location:Dracheninseln}.'
 L['lizi_note_day2'] = 'Sammle 20x {item:192658} von Pflanzen-Gegnern auf den {location:Dracheninseln}.'
 L['lizi_note_day3'] = 'Sammle 10x {item:194966} gefischt aus allen Gewässern der {location:Dracheninseln}. Am häufigsten im Binnenland {location:Ebenen von Ohn\'ahra} zu finden.'
