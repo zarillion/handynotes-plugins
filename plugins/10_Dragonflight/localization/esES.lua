@@ -150,7 +150,7 @@ Recoge (o compra en la casa de subastas):
 Pregunta sobre el Astudraco Ensillado y ofrece a {npc:190892} los "platos" recogidos.
 ]]
 
-L['elder_poa_note'] = 'Entrega {item:200071} para conseguir reputación con {faction:Colmillarr de Iskaara}.'
+L['elder_poa_note'] = 'Entrega {item:200071} para conseguir reputación con {faction:2511}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -225,7 +225,7 @@ L['options_icons_dreamguard_desc'] = 'Muestra dónde están los Guardasueños pa
 
 L['khadin_note'] = 'Intercambia una {item:191784} por conocimiento de la profesión.'
 L['the_great_swog_note'] = 'Intercambia {item:199338}, {item:199339} y {item:199340} por un {item:202102}.'
-L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputación con {faction:Centauros Maruuk}.'
+L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputación con {faction:2503}.'
 L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y teclea {emote:/hambre} para conseguir la receta de cocina.'
 L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir el juguete.'
 
@@ -280,8 +280,8 @@ L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes pa
 
 L['ruby_feast_gourmand'] = 'Cada día, un invitado chef al azar sirve distintos platos y bebidas.'
 
-L['sorotis_note'] = 'Entrega {item:199906} para conseguir reputación con {faction:Acuerdo de Valdrakken}.'
-L['lillian_brightmoon_note'] = 'Entrega {item:201412} para conseguir reputación con {faction:Expedición Dragontina}.'
+L['sorotis_note'] = 'Entrega {item:199906} para conseguir reputación con {faction:2510}.'
+L['lillian_brightmoon_note'] = 'Entrega {item:201412} para conseguir reputación con {faction:2507}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -303,7 +303,7 @@ L['dead_mans_chestplate_note'] = 'Dentro de la torre. En el piso central.'
 L['fullsails_supply_chest_note'] = 'La llave la sueltan los {npc:187971} y los {npc:187320} al sur de la {location:Embajada Reposo Alado}.'
 L['golden_dragon_goblet_note'] = 'Despoja la {item:202081} del {npc:190056} en la {location:Costa Indómita} y completa la pequeña cadena de misiones.'
 L['misty_treasure_chest_note'] = 'Ponte en {npc:185485} que sobresale de la cascada para entrar en la cueva.'
-L['onyx_gem_cluster_note'] = 'A Renombre 21 con {faction:Expedición Dragontina} se puede completar la misión {quest:70833} para conseguir el {item:200738} como recompensa (una vez por cuenta) o comprar el mapa a {npc:189065} por 3 {item:192863} y 500 {currency:2003} y usarlo.'
+L['onyx_gem_cluster_note'] = 'A Renombre 21 con {faction:2507} se puede completar la misión {quest:70833} para conseguir el {item:200738} como recompensa (una vez por cuenta) o comprar el mapa a {npc:189065} por 3 {item:192863} y 500 {currency:2003} y usarlo.'
 L['torn_riding_pack_note'] = 'Está encima de la cascada.'
 L['yennus_kite_note'] = 'Bloqueada en una rama en lo alto del árbol.'
 
