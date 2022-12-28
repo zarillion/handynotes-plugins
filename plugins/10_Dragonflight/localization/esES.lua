@@ -136,7 +136,7 @@ L['snowman_note'] = 'Hay tres {npc:197599} reposando en la zona (podrían haber 
 L['snowclaw_cub_note_start'] = 'Tienes que completar la cadena de misiones {quest:67094} que ofrece {npc:192522} en {location:Valdrakken} para conseguir el título {title:Dríade Honoraria}.\n\nReune los siguientes objetos:'
 L['snowclaw_cub_note_item1'] = 'Despoja 3x {item:197744} de varios {npc:182559} alrededor de las {location:Orillas del Despertar}.'
 L['snowclaw_cub_note_item2'] = 'Compra 1x {item:198356} del {npc:193310} en las {location:Orillas del Despertar}.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}') .. '\n\nUna vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objetos al {npc:196768} para recibir su mascota.' .. ns.color.Red('\n\nBUG: El título puede desaparecer y está pendiente de un fix)')
+L['snowclaw_cub_note_end'] = ns.color.Orange('Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}') .. '\n\nUna vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objetos al {npc:196768} para recibir su mascota.' .. ns.color.Red('\n\nBUG: El título puede desaparecer y está pendiente de un fix')
 
 L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro {object:Tormentas de Maná para Principiantes} para completar la misión.'
 
