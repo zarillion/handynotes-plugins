@@ -82,10 +82,10 @@ L['large_lunker_sighting_note'] = 'Usa 5x {item:194701} para invocar tanto a un 
 L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = 'Muestra dónde están los personajes legendarios para el logro {achievement:16570}.'
 
-L['signal_transmitter_label'] = nil
-L['signal_transmitter_note'] = nil
-L['options_icons_signal_transmitter'] = nil
-L['options_icons_signal_transmitter_desc'] = nil
+L['signal_transmitter_label'] = 'Transmisor de Generador de Agujeros de Vermis'
+L['signal_transmitter_note'] = ns.color.Orange('Requiere 10 puntos en Mente Mecánica\nRequiere 30 puntos en Novedades') .. '\n\nInteractúa con el |cFFFFFD00Transmisor Desactivado|r para permitir la teleportación a ese lugar.'
+L['options_icons_signal_transmitter'] = 'Transmisores de Generadores de Agujeros de Vermis'
+L['options_icons_signal_transmitter_desc'] = 'Muestra dónde están los |cFFFFFD00Transmisores Desactivados|r para los |cFFFFFD00Generadores de Agujeros de Vermis|r.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
