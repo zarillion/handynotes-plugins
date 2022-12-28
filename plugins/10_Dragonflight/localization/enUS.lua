@@ -84,7 +84,7 @@ L['options_icons_legendary_album_desc'] = 'Display legendary character locations
 L['signal_transmitter_label'] = 'Wyrmhole Generator Signal Transmitter'
 L['signal_transmitter_note'] = '{note:Requires 10 points in Mechanical Mind\nRequires 30 points in Novelties}\n\nInteract with the {object:Deactivated Signal Transmitter} to allow for teleportation to this location.'
 L['options_icons_signal_transmitter'] = 'Wyrmhole Generator Signal Transmitters'
-L['options_icons_signal_transmitter_desc'] = 'Display the locations of {object:Deactivated Signal Transmitters} for the {object:Wyrmhole Generator}.'
+L['options_icons_signal_transmitter_desc'] = 'Display the locations of {object:Deactivated Signal Transmitters} for the {item:198156}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -173,7 +173,7 @@ L['porta_the_overgrown_note'] = 'Can be found {item:194426} at the bottom of the
 L['scaleseeker_mezeri_note'] = 'Offer {item:194681} to {npc:193224} and follow her until she reveals the rare.'
 L['shade_of_grief_note'] = 'Click the {npc:193166} to spawn the rare.'
 L['windscale_the_stormborn_note'] = 'Kill the {npc:192367s} channeling into the {npc:192357}.'
-L['zarizz_note'] = 'Click and {emote:/hiss at the four {npc:193169s} to summon the rare.'
+L['zarizz_note'] = 'Click and {emote:/hiss} at the four {npc:193169s} to summon the rare.'
 
 L['gold_swong_coin_note'] = 'Inside the cave with {npc:191608} to his right side.'
 L['nokhud_warspear_note'] = '{item:194540} can be found in {object:Expedition Scout\'s Packs} and {object:Disturbed Dirts}.'
@@ -263,7 +263,7 @@ L['pt_smith_draconic_flux_note'] = 'Inside a building.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the {object:Ancient Dragonweave Loom} to complete a minigame where you connect the spools of thread to the center gem.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Small banner inside a pile of sand.'
 
-L['picante_pomfruit_cake_note'] = '{item:200904} is not available every days so check back at {santuary:The Ruby Enclave} daily. While you are there, be sure to sample the 3 available dishes to complete {achievement:16556} as well.'
+L['picante_pomfruit_cake_note'] = '{item:200904} is not available every days so check back at {sanctuary:The Ruby Enclave} daily. While you are there, be sure to sample the 3 available dishes to complete {achievement:16556} as well.'
 L['icecrown_bleu_note'] = 'Purchase from {npc:196729} {title:<Cheesemonger>} in {sanctuary:The Artisan\'s Market}.'
 L['dreamwarding_dripbrew_note'] = 'Purchase from {npc:197872} {title:<Caffeinomancer>} at {location:The Late Night Lab}.'
 L['arcanostabilized_provisions_note'] = 'Purchase from {npc:198831} {title:<Head Chef>} at the {sanctuary:Temporal Conflux} in the {sanctuary:Primalist Future}.'
