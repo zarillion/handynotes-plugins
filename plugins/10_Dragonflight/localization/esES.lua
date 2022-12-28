@@ -7,8 +7,8 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = ns.color.Orange('¡Este raro puede soltar botín de un nivel superior!')
-L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la Expedición Dragontina en las Mochilas de Explorador de Expedición y en las Tierras Perturbadas.'
+L['elite_loot_385'] = '{note:¡Este raro puede soltar botín de un nivel superior!}'
+L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la {faction:Expedición Dragontina} en {object:Mochila de Explorador de Expedición} y en {object:Tierra Revuelta}.'
 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'
 L['options_icons_bonus_boss_desc'] = 'Muestra dónde están los élites de bonificación.'
