@@ -43,15 +43,15 @@ L['options_icons_kite_desc'] = 'Показать местоположение {n
 
 L['disturbed_dirt'] = 'Потревоженная почва'
 L['options_icons_disturbed_dirt'] = 'Потревоженная почва'
-L['options_icons_disturbed_dirt_desc'] = 'Показать местоположение потревоженной почвы.'
+L['options_icons_disturbed_dirt_desc'] = 'Показать местоположение {object:потревоженной почвы}.'
 
 L['scout_pack'] = 'Сумка разведчика экспедиции'
 L['options_icons_scout_pack'] = 'Сумка разведчика экспедиции'
-L['options_icons_scout_pack_desc'] = 'Отображение местоположения Сумок разведчиков экспедиции.'
+L['options_icons_scout_pack_desc'] = 'Отображение местоположения {object:Сумок разведчиков экспедиции}.'
 
 L['magicbound_chest'] = 'Сундук с магическим замком'
 L['options_icons_magicbound_chest'] = 'Сундук с магическим замком'
-L['options_icons_magicbound_chest_desc'] = 'Отображение местоположения Сундуков с магическим замком.'
+L['options_icons_magicbound_chest_desc'] = 'Отображение местоположения {object:Сундуков с магическим замком}.'
 
 L['dr_best'] = 'Ваше лучшее время:\n - Обычный: %.3fс\n - Сложный: %.3fс'
 L['dr_best_dash'] = 'Ваше лучшее время:\n - %.3fс'
@@ -61,18 +61,18 @@ L['dr_bronze'] = '\n\nЗавершите гонку, чтобы получить
 L['options_icons_dragonrace'] = 'Гонка на драконах'
 L['options_icons_dragonrace_desc'] = 'Отображение местоположения гонок на драконах.'
 
-L['squirrels_note'] = 'Вы должны использовать эмоцию /любовь на зверьках, а не на боевых питомцах.'
+L['squirrels_note'] = 'Вы должны использовать эмоцию {emote:/любовь} на зверьках, а не на боевых питомцах.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:16729}'
 
 L['hnj_sublabel'] = 'Требуется местная Шикаарская Великая Охота'
 L['hnj_western_azure_span_hunt'] = 'На вершине мертвого дерева.'
-L['hnj_northern_thaldraszus_hunt'] = ns.color.Orange('Примечание: когда начнется событие охоты, вам нужно быстро подойти к нему. Если вы опоздаете, его убьют монстры.')
+L['hnj_northern_thaldraszus_hunt'] = '{note:Примечание: когда начнется событие охоты, вам нужно быстро подойти к нему. Если вы опоздаете, его убьют монстры.}'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Показать местоположение {npc:194590} для достижения {achievement:16542}.'
 
 L['pretty_neat_note'] = 'Сделайте снимок с помощью СЕЛФИ камеры.'
-L['pretty_neat_note_blazewing'] = 'Можно найти во время сражения с боссом {npc:189901} в ' .. ns.color.Yellow('Нелтарий') .. ' подземелье.'
+L['pretty_neat_note_blazewing'] = 'Можно найти во время сражения с боссом {npc:189901} в подземелье {location:Нелтарий}.'
 L['options_icons_pretty_neat'] = '{achievement:16446}'
 L['options_icons_pretty_neat_desc'] = 'Отображение местоположения НПС для достижения {achievement:16446}.'
 
@@ -93,7 +93,7 @@ L['options_icons_signal_transmitter_desc'] = nil
 
 L['blightfur_note'] = 'Поговорите с {npc:193633}, чтобы призвать редкого монстра.'
 L['brackenhide_rare_note'] = 'Эти редкие монстры появляются в установленной ротации {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} с интервалом в 10 минут.'
-L['fisherman_tinnak_note'] = 'Соберите |cFFFFFD00Сломанную удочку|r, |cFFFFFD00Рванную рыболовную сеть|r и |cFFFFFD00Старый гарпун|r для призыва редкого монстра.'
+L['fisherman_tinnak_note'] = 'Соберите {object:Сломанную удочку}, {object:Рванную рыболовную сеть} и {object:Старый гарпун} для призыва редкого монстра.'
 L['frostpaw_note'] = 'После того как вы взяли |cFFFFFD00Деревянный молот|r, у вас есть 20 секунд, чтобы поразить |cFFFFFD00Гноллобой|r на |cFFFFFD00пне|r, и это призовет редкого монстра.'
 L['sharpfang_note'] = 'Помогите {npc:192747} победить {npc:192748}, чтобы появился редкий монстр.'
 L['spellwrought_snowman_note'] = 'Соберите 10x {npc:193424} и принесите их к {npc:193242}.'
