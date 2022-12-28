@@ -319,7 +319,7 @@ L['malbog_note'] = 'Habla con el {npc:179729} para conseguir {spell:355078} y se
 L['offering_box_note'] = 'Requiere una {item:187033} que se puede encontrar en la parte superior de la pared del lado oeste de las ruinas cercanas.'
 L['pop_quiz_note'] = 'El evento del Cuestionario aparecerá aleatoriamente en el mapa. Haz click en el Bastón del Velo Abandonado y responde a las preguntas de {npc:180162}.'
 L['razorwing_note'] = 'Devuelve 10 {item:187054} soltados por los devoradores de la zona.'
-L['reliwik_note'] = 'Haz click en el huevo de alafilada prístino para hacerlo bajar.'
+L['reliwik_note'] = 'Haz click en el Huevo de Alafilada Prístino para hacerlo bajar.'
 L['spectral_bound_chest'] = 'Haz click en las 3 {item:179369} cercanas para debloquear el cofre.'
 L['spectral_bound_note'] = 'Cofre reforzado espectral'
 L['stonecrusher_note'] = 'Habla con {npc:179974} para empezar el evento.'
@@ -674,9 +674,9 @@ L['nexus_area_domination_bridge'] = 'En un puente al sur del Altar de la Dominac
 L['nexus_area_domination_edge'] = 'En el borde de la cima del Altar de la Dominación'
 L['nexus_area_domination_room'] = 'En una habitación pequeña en lo alto del Altar de la Dominación'
 L['nexus_area_domination_stairs'] = 'En lo alto del Altar de la Dominación junto al {npc:173904}'
-L['nexus_area_gorgoa_bank'] = 'En la orilla de Gorgoa (Río de Almas)'
+L['nexus_area_gorgoa_bank'] = 'En la orilla de Gorgoa, Río de Almas'
 L['nexus_area_gorgoa_middle'] = 'Justo en medio del río, ¡que sí!'
-L['nexus_area_gorgoa_mouth'] = 'En la desembocadura de Gorgoa (Río de Almas)'
+L['nexus_area_gorgoa_mouth'] = 'En la desembocadura de Gorgoa, Río de Almas'
 L['nexus_area_perdition_wall'] = 'A lo largo de la pared exterior del Bastión de la Perdición'
 L['nexus_area_torment_rock'] = 'En una roca en los Llanos del Tormento'
 L['nexus_area_zone_edge'] = 'A lo largo del borde de la zona'
@@ -783,7 +783,7 @@ El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
-L['options_icons_mawsworn_blackguard_desc'] = 'Muestra dónde están los Guardanegro Jurafauces para el logro {achievement:14742}.'
+L['options_icons_mawsworn_blackguard_desc'] = 'Muestra dónde están los {npc:183173} para el logro {achievement:14742}.'
 
 L['mawsworn_blackguard'] = 'Guardanegro Jurafauces'
 L['mawsworn_blackguard_note'] = 'Forma fácil de seleccionar a un {npc:183173} en sigilo.'
@@ -807,8 +807,8 @@ L['night_fae_assault_note'] = 'El {item:185991} sólo se puede conseguir una vez
 L['night_fae_assault_quantity_note'] = 'Alijos Ocultos de Falla abiertos.'
 L['kyrian_assault'] = '{quest:63824}'
 L['kyrian_assault_note'] = 'El {item:185993} sólo se puede conseguir una vez por asalto.'
-L['kyrian_assault_quantity_note1'] = 'Astuto encontrado.'
-L['kyrian_assault_quantity_note2'] = 'Baila cerca de forjas.'
+L['kyrian_assault_quantity_note1'] = '{npc:179096} encontrado.'
+L['kyrian_assault_quantity_note2'] = 'Teclea /dance cerca de las forjas.'
 
 -------------------------------------------------------------------------------
 ---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
