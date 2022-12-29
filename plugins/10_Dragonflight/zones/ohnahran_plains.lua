@@ -222,15 +222,15 @@ end
 
 map.nodes[68207920] = Quackers() -- Quackers the Terrible
 
-map.nodes[37005380] = Rare({ -- reqiured 67030
+map.nodes[37005380] = Rare({ -- Spawn on the hour
     id = 196010,
-    quest = nil, -- 70698
+    quest = 74023,
     rewards = {Achievement({id = 16677, criteria = 56069})}
 }) -- Researcher Sneakwing
 
-map.nodes[43405560] = Rare({ -- reqiured 67030
+map.nodes[43405560] = Rare({ -- Spawn on the hour
     id = 193227,
-    quest = nil, -- 69878
+    quest = 74026,
     rewards = {Achievement({id = 16677, criteria = 56071})}
 }) -- Ronsak the Decimator
 
