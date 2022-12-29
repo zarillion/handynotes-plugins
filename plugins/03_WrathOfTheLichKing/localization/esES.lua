@@ -5,7 +5,7 @@ if not L then return end
 
 L['area_spawn'] = 'Aparece en los alrededores.'
 
-L['squirrels_note'] = 'Tienes que usar la emoción /amar en las alimañas que no sean mascotas de combate.'
+L['squirrels_note'] = 'Tienes que seleccionar una alimaña que no sea mascota de combate y teclear la emoción {emote:/amar}.'
 L['options_icons_squirrels'] = '{achievement:2557}'
 L['options_icons_squirrels_desc'] = 'Muesta dónde están las alimañas para el logro {achievement:2557}.'
 
