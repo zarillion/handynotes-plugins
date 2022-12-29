@@ -148,8 +148,9 @@ local function RenderLinks(str, nameOnly)
             end
             if type == 'dot' then
                 local r, g, b = ns.HEXtoRGBA(text)
-                return '|T' .. ns.icons.peg_bl[2] .. ':0::::16:16::16::16:' .. r *
-                           255 .. ':' .. g * 255 .. ':' .. b * 255 .. '|t'
+                return
+                    '|T' .. ns.icons.peg_bl[2] .. ':0::::16:16::16::16:' .. r *
+                        255 .. ':' .. g * 255 .. ':' .. b * 255 .. '|t'
             end
             return type .. '+' .. text
         end)
