@@ -975,7 +975,7 @@ L['cache_shrouded_cypher'] = '氤氲密文宝箱'
 L['cache_shrouded_cypher_note'] = [[
 这些宝箱只在有 {spell:361917} 增益和装备一件适当的密文装备物品时能看到：
 
-|cFF00FF00强化波可波克的观察力，使其可以发现额外的隐藏宝箱。|r
+|cFF00FF00强化 {npc:181059} 的观察力，使其可以发现额外的隐藏宝箱。|r
 ]]
 
 L['cache_cantaric'] = '声乐宝箱'
@@ -1012,7 +1012,7 @@ L['schematic_resonant_echo_note'] = '{object:原初之歌的晶化回响} 内几
 L['schematic_russet_bufonid_note'] = '{item:187780} 巅峰宝箱内几率发现。'
 L['schematic_scarlet_helicid_note'] = '在拱形建筑物顶上发现。'
 L['schematic_serenade_note'] = '位于团队区域 {location:不朽休憩所} 一个浮动平台下方的链条上。'
-L['schematic_shelly_note'] = '位于词汇岩窟书架的背面。需要传送技能才能爬上书架。'
+L['schematic_shelly_note'] = '位于 {location:词汇岩窟} 书架的背面。需要传送技能才能爬上书架。'
 L['schematic_stabilized_geomental_note'] = '{location:初诞者圣墓} 团队内 {npc:182169} 有几率掉落。'
 L['schematic_tarachnid_creeper_note'] = '{location:无尽流沙} 的小型建筑物内。需要第5章战役进度清除巨石。'
 L['schematic_terror_jelly_note'] = '位于坡道旁边的方形塔顶上。'
@@ -1058,8 +1058,8 @@ L['lost_comb'] = '失落的蜂巢'
 L['soulshape_penguin_note'] = '位于浮空锻炉顶部。'
 
 L['coreless_automa'] = '无核自动体'
-L['coreless_automa_note'] = '装备一个 {spell:364480} 物品将赋予 {object:波可波克} 不消耗能量就能控制生物的能力，这将会获得成就更加快速。'
-L['coreless_automa_warning'] = '|cFFFF8C00等待自动机真正开始跟随你然后让波可波克离开，以避免导致需要你重新登录的错误。|r'
+L['coreless_automa_note'] = '装备一个 {spell:364480} 物品将赋予 {npc:181059} 不消耗能量就能控制生物的能力，这将会获得成就更加快速。'
+L['coreless_automa_warning'] = '|cFFFF8C00等待自动机真正开始跟随你然后让 {npc:181059} 离开，以避免导致需要你重新登录的错误。|r'
 
 L['olea_manu'] = '用 {currency:1979} 换取出售的收藏和食谱。'
 
@@ -1074,7 +1074,7 @@ L['venaris_fate_note'] = [[
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = '显示 {achievement:15211} 成就中生物的位置。'
 L['options_icons_concordances'] = '知识索引'
-L['options_icons_concordances_desc'] = '显示知识索引控制台的位置。'
+L['options_icons_concordances_desc'] = '显示 {object:知识索引控制台} 的位置。'
 L['options_icons_echoed_jiros'] = '回声机若'
 L['options_icons_echoed_jiros_desc'] = '显示 {object:回声机若} 提供增益的位置。'
 L['options_icons_exile_tales'] = '{achievement:15509}'

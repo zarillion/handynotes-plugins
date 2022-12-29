@@ -17,7 +17,7 @@ L['reziera_the_seer_note'] = '有 {spell:254174} 增益时收集500个 {item:153
 L['squadron_commander_vishax_note'] = '从 {npc:127598} 收集 {item:152890}。\n\n从 {npc:127597} 和 {npc:127596} 收集 {item:152941}，{item:152940} 和 {item:152891}。\n\n使用 {item:152890} 获得 {quest:49007}。\n\n' .. Orange('此任务可共享')
 L['ven_orn_note'] = '进入蜘蛛洞穴，向右并向下到另一个小洞穴。她在后面的第二个房间里。'
 
-L['the_many_faced_devourer_note'] = '从位于 |cFFFFFD00食腐者废料场|r 的 {npc:126193} 和 {npc:126171} 收集 {item:152786}。\n\n收集 {item:152991}，{item:152992} 和 {item:152993}。\n\n在 {npc:127442} 召唤 {npc:127581}。\n\n' .. Orange('如不能看到 {npc:127442} 则需要重新登录。')
+L['the_many_faced_devourer_note'] = '从位于 {location:食腐者废料场} 的 {npc:126193} 和 {npc:126171} 收集 {item:152786}。\n\n收集 {item:152991}，{item:152992} 和 {item:152993}。\n\n在 {npc:127442} 召唤 {npc:127581}。\n\n' .. Orange('如不能看到 {npc:127442} 则需要重新登录。')
 L['the_many_faced_devourer_checklist'] = Gold('物品检查表（背包或银行）：')
 
 L['orix_the_all_seer_note'] = '出售收藏品换取 {item:153021}。'
@@ -48,22 +48,22 @@ L['arcavellus_note'] = '击杀 {npc:90242} 和 {npc:90243} 直到稀有出现。
 L['beacher_note'] = '当世界任务 {wq:海拉加尔登陆战：灰色浅滩} 激活时不出现。'
 L['brogozog_note'] = '和 {npc:91097} 交谈。'
 L['chief_bitterbrine_note'] = '位于船下层甲板。'
-L['devious_sunrunner_note'] = '使用小洞穴内的魔网传送门。别忘了拾取宝箱。'
+L['devious_sunrunner_note'] = '使用小洞穴内的 {object:魔网传送门}。别忘了拾取宝箱。'
 L['doomlord_kazrok_note'] = '和 {npc:91580} 交谈。'
 L['felwing_note'] = '和 {npc:105913} 交谈并击杀 {npc:105919} 直到稀有出现。'
-L['golza_note'] = '吹响海妖号角并击杀 {npc:90774} 和 {npc:90778} 直到稀有出现。'
-L['infernal_lord_note'] = '点击地狱火宝箱并击杀 {npc:90797} 直到稀有出现。'
-L['inquisitor_tivos_note'] = '使用军团传送门。他在下层。'
+L['golza_note'] = '吹响 {object:海妖号角} 并击杀 {npc:90774} 和 {npc:90778} 直到稀有出现。'
+L['infernal_lord_note'] = '点击 {object:地狱火宝箱} 并击杀 {npc:90797} 直到稀有出现。'
+L['inquisitor_tivos_note'] = '使用{object:军团传送门}。他在下层。'
 L['shaliman_note'] = '在池塘边。'
 
 L['disputed_treasure'] = '有争议的宝藏'
-L['in_academy'] = '纳萨拉斯学院内。'
-L['in_oceanus_cove'] = '欧逊努斯海窟内。'
+L['in_academy'] = '{location:纳萨拉斯学院} 内。'
+L['in_oceanus_cove'] = '{location:欧逊努斯海窟} 内。'
 L['seemingly_unguarded_treasure'] = '看似无人看守的宝藏'
 L['seemingly_unguarded_treasure_note'] = '尝试拾取宝藏并击杀随后出现的数波 {npc:94167}。'
 L['treasure_37958'] = '位于建筑物下层。'
-L['treasure_37980'] = '使用断桥上的魔网传送门。'
-L['treasure_40711'] = '使用塔内的魔网传送门。'
+L['treasure_37980'] = '使用断桥上的 {object:魔网传送门}。'
+L['treasure_40711'] = '使用塔内的 {object:魔网传送门}。'
 L['treasure_42282'] = '在阳台的角落。'
 L['treasure_42283'] = '位于第二层。'
 L['treasure_42287'] = '水下。'
@@ -80,7 +80,7 @@ L['book_6'] = '第六章（周五）'
 L['book_7'] = '第七章（周六）'
 
 L['higher_dimensional_learning_location'] = '位于塔顶。'
-L['higher_dimensional_learning_note'] = '从 |cFFFFFD00倾颓王宫|r 的 {npc:107376} 购买 {item:129276}。每天使用 {item:129276} 将传送到不同书的位置。\n\n第一章（周日）\n第二章（周一）\n第三章（周二）\n第四章（周三）\n第五章（周四）\n第六章（周五）\n第七章（周六）'
+L['higher_dimensional_learning_note'] = '从 {location:倾颓王宫} 的 {npc:107376} 购买 {item:129276}。每天使用 {item:129276} 将传送到不同书的位置。\n\n第一章（周日）\n第二章（周一）\n第三章（周二）\n第四章（周三）\n第五章（周四）\n第六章（周五）\n第七章（周六）'
 L['higher_dimensional_learning_disclaimer'] = '传送到书本位置并不能保证这本书会刷新。可能需要等待或稍后再回来查看。'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
@@ -119,7 +119,7 @@ L['bohdi_sunwayver_note'] = '太阳出来啦！宠物们，出击吧！'
 -------------------------------------------------------------------------------
 
 L['kaara_the_pale_note'] = '{npc:126860} 不再掉落 {item:153190}'
-L['turek_the_lucid_note'] = '在 |cFFFFFD00奥罗纳尔陷坑|r 内'
+L['turek_the_lucid_note'] = '在 {location:奥罗纳尔陷坑} 内'
 
 L['ancient_eredar_cache'] = '上古艾瑞达宝箱'
 L['ancient_eredar_cache_note'] = '有6个独特的上古艾瑞达宝箱可以出现位置组中。'
@@ -173,13 +173,13 @@ L['elandris_note'] = '当军团入侵世界任务 {wq:恐惧之谷} 激活时不
 L['gathenak_note'] = '和 {npc:112472} 交谈。'
 L['gorebeak_note'] = '和 {npc:92111} 交谈。'
 L['jinikki_note'] = '和 {npc:93677} 交谈并击杀 {npc:93684} 直到稀有出现。'
-L['kiranys_note'] = '点击魔力震荡陷阱。'
+L['kiranys_note'] = '点击 {object:魔力震荡陷阱}。'
 L['mad_henryk_note'] = '靠近 {npc:109602}。'
 L['skulvrax_note'] = '复苏 {npc:92334} 并跟随她。'
 L['theryssia_note'] = '阅读墓碑上 {npc:94194} 的姓名板。'
 L['unguarded_thistleleaf_treasure'] = '无人看守的蓟叶宝藏'
 
-L['in_darkpens'] = '黑暗围栏内。'
+L['in_darkpens'] = '{location:黑暗围栏} 内。'
 L['treasure_38366'] = '树根下。'
 L['treasure_38386'] = '二层阳台上。'
 L['treasure_38387'] = '旅店下面小洞穴内。入口位于建筑物后面。'
