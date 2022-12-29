@@ -8,7 +8,7 @@ if not L then return end
 
 L['ancient_sarco_note'] = '打开 {object:古代石棺} 来召唤数波 {npc:128181}。'
 L['beshol_note'] = '打开 {object:显然很安全的宝箱} 来召唤稀有。'
-L['cottontail_matron_note'] = '研究 {objcet:骇人的仪式颅骨} 来召唤稀有。'
+L['cottontail_matron_note'] = '研究 {object:骇人的仪式颅骨} 来召唤稀有。'
 L['gluttonous_yeti_note'] = '此 {npc:127979} 注定…'
 L['idej_note'] = '昏迷他施放的 {spell:274005} 否则他会杀了 {npc:139380}！'
 L['seething_cache_note'] = '打开 {object:沸燃之箱} 来召唤数波 {npc:129031}。'
