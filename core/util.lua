@@ -134,28 +134,32 @@ local function RenderLinks(str, nameOnly)
         return type .. '+' .. id
     end)
     -- render commonly colored text
-    links, _ = links:gsub('{(%l+):([^}]+)}', function(type, text)
-        if type == 'bug' then return ns.color.Red(text) end
-        if type == 'emote' then return ns.color.Orange(text) end
-        if type == 'location' then return ns.color.Yellow(text) end
-        if type == 'note' then return ns.color.Orange(text) end
-        if type == 'object' then return ns.color.Yellow(text) end
-        if type == 'title' then return ns.color.Yellow(text) end
-        return type .. '+' .. text
-    end)
-    -- render non-numeric ids
-    links, _ = links:gsub('{(%l+):([^}]+)}', function(type, id)
-        if type == 'wq' then
-            local icon = ns.GetIconLink('world_quest', 16, 0, -1)
-            return icon .. ns.color.Yellow('[' .. id .. ']')
+    local function renderNonNumeric(str)
+        local result = str:gsub('{(%l+):([^}]+)}', function(type, text)
+            if type == 'bug' then return ns.color.Red(text) end
+            if type == 'emote' then return ns.color.Orange(text) end
+            if type == 'location' then return ns.color.Yellow(text) end
+            if type == 'note' then return ns.color.Orange(text) end
+            if type == 'object' then return ns.color.Yellow(text) end
+            if type == 'title' then return ns.color.Yellow(text) end
+            if type == 'wq' then
+                local icon = ns.GetIconLink('world_quest', 16, 0, -1)
+                return icon .. ns.color.Yellow('[' .. text .. ']')
+            end
+            if type == 'dot' then
+                local r, g, b = ns.HEXtoRGBA(text)
+                return '|T' .. ns.icons.peg_bl[2] .. ':0::::16:16::16::16:' .. r *
+                           255 .. ':' .. g * 255 .. ':' .. b * 255 .. '|t'
+            end
+            return type .. '+' .. text
+        end)
+        if result == str then
+            return result
+        else
+            return renderNonNumeric(result)
         end
-        if type == 'dot' then
-            local r, g, b = ns.HEXtoRGBA(id)
-            return '|T' .. ns.icons.peg_bl[2] .. ':0::::16:16::16::16:' .. r *
-                       255 .. ':' .. g * 255 .. ':' .. b * 255 .. '|t'
-        end
-        return type .. '+' .. id
-    end)
+    end
+    links = renderNonNumeric(links)
     return links
 end
 
