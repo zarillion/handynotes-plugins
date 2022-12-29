@@ -496,53 +496,53 @@ L['soulshape_saurid_note'] = 'En una cueva pequeña. Selecciona el {npc:182105} 
 --------------------------------- REVENDRETH ----------------------------------
 -------------------------------------------------------------------------------
 
-L['amalgamation_of_filth_note'] = 'Cuando esté disponible la misión del mundo {wq:Trabajo sucio: equipo de demolición} haz click en una Caja de Basura y usa {spell:324115} en el agua.'
+L['amalgamation_of_filth_note'] = 'Cuando esté disponible la misión del mundo {wq:Trabajo sucio: equipo de demolición} haz click en una {object:Caja de Basura} y usa {spell:324115} en el agua.'
 L['amalgamation_of_light_note'] = 'Mueve las tres trampas de espejos para liberar a la {npc:164388}.'
-L['amalgamation_of_sin_note'] = 'Durante la misión del mundo {wq:Invocar tus pecados} coge el Catalizador de Poder para tener la probabilidad de conseguir la {item:180376}. Usa el objeto para invocar a la {npc:170434}.'
+L['amalgamation_of_sin_note'] = 'Durante la misión del mundo {wq:Invocar tus pecados} coge el {object:Catalizador de Poder} para tener la probabilidad de conseguir la {item:180376}. Usa el objeto para invocar a la {npc:170434}.'
 L['bog_beast_note'] = 'Tiene probabilidad de aparecer durante la misión de mundo {wq:Mugre a mansalva} después de usar la {item:177880} en el {npc:166206}.'
-L['endlurker_note'] = 'Haz click en el Poste de Ánima cerca del cuerpo del {npc:165229} y usa el {spell:321826} en la parte superior de la Falla Fulgurante.'
+L['endlurker_note'] = 'Haz click en el {object:Poste de Ánima} cerca del cuerpo del {npc:165229} y usa el {spell:321826} en la parte superior de la {location:Falla Fulgurante}.'
 L['executioner_aatron_note'] = 'Mata a los tres {npc:166715} cercanos para eliminar la {spell:324872} del {npc:166710}.'
 L['executioner_adrastia_note'] = 'Libera a los {npc:161299} en el área de alrededor y escóltalos hasta que desaparezcan. La {npc:161310} aparecerá eventualmente para aplastar la insurreción.'
 L['famu_note'] = 'Habla con la {npc:166483} para comenzar el evento tras el cual aparecerá {npc:166521}.'
 L['grand_arcanist_dimitri_note'] = 'Mata a los cuatro {npc:167467} para liberar al {npc:167464}.'
-L['harika_note'] = 'En Cuenca Aterradora al oeste, despoja el {item:176397}, entregáselo a {npc:165327} y dile que derribe a {npc:165290}.'
+L['harika_note'] = 'En la {location:Cuenca Aterradora} al oeste, despoja el {item:176397}, entregáselo a {npc:165327} y dile que derribe a {npc:165290}.'
 L['innervus_note'] = 'Mata a los {npc:160375} cercanos para conseguir la {item:177223} y desbloquear la cripta donde está {npc:160640}.'
 L['leeched_soul_note'] = 'Dentro de una cripta cercana. Pasa cerca del {npc:165151} para comenzar el evento tras el cual aparecerá el {npc:165152}.'
 L['lord_mortegore_note'] = 'Mata a los enemigos de alrededor para conseguir el {item:174378} y usarlo para potenciar a un {npc:161870}. Una vez hayan sido potenciados los cuatro sigilos aparecerá {npc:161891}.'
-L['madalav_note'] = 'Haz click en el Martillo de Madalav en el yunque cercano para invocar al {npc:159496}.'
+L['madalav_note'] = 'Haz click en el {object:Martillo de Madalav} en el yunque cercano para invocar al {npc:159496}.'
 L['manifestation_of_wrath_note'] = 'Tiene probabilidad de aparecer cuando es recuperada una {npc:169916} durante la misión del mundo {wq:Almas enjambradoras}.'
-L['scrivener_lenua_note'] = 'Devuelve los {npc:160753} a la Biblioteca Prohibida.'
-L['sinstone_hoarder_note'] = 'Intenta despojar el {npc:162503} y el {npc:162481} se revelará él solo.'
-L['sire_ladinas_note'] = 'Coge un Remanente de la Luz cercano y usa {spell:313065} en los {npc:157733} hasta que aparezca {npc:160857}.'
+L['scrivener_lenua_note'] = 'Devuelve los {npc:160753} a la {location:Biblioteca Prohibida}.'
+L['sinstone_hoarder_note'] = 'Intenta despojar el {npc:162503} y el {npc:162481}, se revelará él solo.'
+L['sire_ladinas_note'] = 'Coge un {object:Remanente de la Luz} cercano y usa {spell:313065} en los {npc:157733} hasta que aparezca {npc:160857}.'
 L['soulstalker_doina_note'] = 'Sigue a la {npc:160392} cuando se escape escaleras abajo y dentro del espejo esquivando trampas.'
 L['tomb_burster_note'] = 'Puede aparecer si {npc:155777} queda atrapado en una telaraña. Mata los {npc:155769} cercanos y a las oleadas de {npc:155795} que comenzarán a salir hasta que aparezca la {npc:155779}.'
 L['worldedge_gorger_note'] = [[
-Consigue una {item:173939} de los Saqueadores del Mundo, Engullidores y Ácaros en el Bosque de la Desgracia y en el Cenagal del Fin. Úsala para encender los Blandones del Fin del Mundo e invocar al {npc:160821}.
+Consigue una {item:173939} de los Saqueadores del Mundo, Engullidores y Ácaros en el {location:Bosque de la Desgracia} y en el {location:Cenagal del Fin}. Úsala para encender los {object:Blandones del Fin del Mundo} e invocar al {npc:160821}.
 
 Tiene probabilidades de soltar un {item:180583}, el cual empieza una cadena de misiones de 7 días para conseguir la montura {spell:333027}.
 ]]
 
 L['dredglaive_note'] = 'Debajo del puente en el cuerpo de un {npc:173671}.'
-L['forbidden_chamber_note'] = 'Despoja un Bote de Ánima Agotado enfrente de la puerta cerrada y aprende {spell:340701}. Úsalo para drenar a cinco {npc:173838} en las cercanías. Después usa {spell:340866} enfrente del {npc:173786}.'
+L['forbidden_chamber_note'] = 'Despoja un {object:Bote de Ánima Agotado} enfrente de la puerta cerrada y aprende {spell:340701}. Úsalo para drenar a cinco {npc:173838} en las cercanías. Después usa {spell:340866} enfrente del {npc:173786}.'
 L['gilded_plum_chest_note'] = 'Mata al {npc:166680} que deambula por el camino arriba y abajo.'
-L['lost_quill_note'] = 'Despoja la {item:182475} de la botella que hay sobre la mesa en la Biblioteca Prohibida y dásela a la {npc:173449} encima del arco de fuera.'
+L['lost_quill_note'] = 'Despoja la {item:182475} de la botella que hay sobre la mesa en la {location:Biblioteca Prohibida} y dásela a la {npc:173449} encima del arco de fuera.'
 L['rapier_fearless_note'] = 'Haz click en el estoque del suelo, y entonces derrota a {npc:173603}.'
-L['remlates_cache_note'] = 'En la pared exterior de Refugioscuro detrás de la cripta.'
+L['remlates_cache_note'] = 'En la pared exterior de {location:Refugioscuro} detrás de la cripta.'
 L['smuggled_cache_note'] = ns.color.Red('ANTES DE QUE DESPOJES: ') .. 'Asegúrate de haber completado {quest:60480} o te perderás 40 {currency:1820} del tesoro y de la misión juntos.'
-L['taskmaster_trove_note'] = 'Lee Ritos de Acceso y Salida. Después sigue el camino al cofre con cuidado.'
-L['the_count_note'] = 'Farmea 99 {currency:1820} en el Cenagal del Fin y llévaselos a {npc:173488}.'
+L['taskmaster_trove_note'] = 'Lee {object:Ritos de Acceso y Salida}. Después sigue el camino al cofre con cuidado.'
+L['the_count_note'] = 'Farmea 99 {currency:1820} en el {location:Cenagal del Fin} y llévaselos a {npc:173488}.'
 
 L['forgotten_anglers_rod'] = 'Caña de Pescador Olvidada'
 
-L['loyal_gorger_note'] = 'Visita el Cenagal del Fin y completa una misión diaria ofrecida por el {npc:173498} 7 veces para conseguirlo como montura.'
+L['loyal_gorger_note'] = 'Visita el {location:Cenagal del Fin} y completa una misión diaria ofrecida por el {npc:173498} 7 veces para conseguirlo como montura.'
 
 L['sinrunner_note'] = 'Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer.'
-L['sinrunner_note_day1'] = 'Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de Páramos de Poniente.'
-L['sinrunner_note_day2'] = 'Consigue un {item:182585} de {npc:173570} en Refugioscuro y úsalo para limpiar a Blanchy.'
-L['sinrunner_note_day3'] = 'Equipa a Blanchy con 4 {item:182595} que se pueden encontrar por los caminos que rodean Refugioscuro.'
-L['sinrunner_note_day4'] = 'Coge el {item:182620} cerca de {npc:173570} y llénalo con agua en Bastión o Ardenweald. Llévale a Blanchy el {item:182599}.'
-L['sinrunner_note_day5'] = 'Equipa a Blanchy con una {item:182597}, vendida por {npc:171808} cerca del Mercado Nocturno a cambio de varias carnes.'
-L['sinrunner_note_day6'] = 'Alimenta a Blanchy con 3 {item:179271}, vendidas por {npc:167815} que está en Agujero en la Pared.'
+L['sinrunner_note_day1'] = 'Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de {location:Páramos de Poniente}.'
+L['sinrunner_note_day2'] = 'Consigue un {item:182585} de {npc:173570} en {location:Refugioscuro} y úsalo para limpiar a Blanchy.'
+L['sinrunner_note_day3'] = 'Equipa a Blanchy con 4 {item:182595} que se pueden encontrar por los caminos que rodean {location:Refugioscuro}.'
+L['sinrunner_note_day4'] = 'Coge el {item:182620} cerca de {npc:173570} y llénalo con agua en {location:Bastión} o {location:Ardenweald}. Llévale a Blanchy el {item:182599}.'
+L['sinrunner_note_day5'] = 'Equipa a Blanchy con una {item:182597}, vendida por {npc:171808} cerca del {location:Mercado Nocturno} a cambio de varias carnes.'
+L['sinrunner_note_day6'] = 'Alimenta a Blanchy con 3 {item:179271}, vendidas por {npc:167815} que está en {location:Agujero en la Pared}.'
 
 L['options_icons_carriages'] = 'Carruajes'
 L['options_icons_carriages_desc'] = 'Muestra dónde están los caminos y los posibles carruajes que se pueden llevar.'
@@ -567,17 +567,17 @@ L['inquisitor_note'] = 'Entrega 100 {currency:1816} al {npc:160248} para tener u
 L['options_icons_inquisitors'] = 'Inquisidores'
 L['options_icons_inquisitors_desc'] = 'Muestra dónde están los inquisidores para el logro {achievement:14276}.'
 
-L['bell_of_shame_note'] = 'Cada 30 minutos aparecerá un fantasma aleatorio junto a la {npc:176006}.\n\nRepara la {npc:176056} por 30 {currency:1820} y entonces toca la campana para recibir un buff del fantasma activo.\n\nUno de los fantasmas, {npc:176043}, te da {spell:346708} que incrementa las probabilidades de encontrar {item:172957} en los alrededores de |cFFFFFD00Salas de la Expiación|r.'
+L['bell_of_shame_note'] = 'Cada 30 minutos aparecerá un fantasma aleatorio junto a la {npc:176006}.\n\nRepara la {npc:176056} por 30 {currency:1820} y entonces toca la campana para recibir un buff del fantasma activo.\n\nUno de los fantasmas, {npc:176043}, te da {spell:346708} que incrementa las probabilidades de encontrar {item:172957} en los alrededores de las {location:Salas de la Expiación}.'
 L['atonement_crypt_label'] = 'Cripta de Expiación'
-L['atonement_crypt_note'] = 'Abre una |cFFFFFD00Cripta de Expiación|r usando una {item:172957}.'
+L['atonement_crypt_note'] = 'Abre una {location:Cripta de Expiación} usando una {item:172957}.'
 L['atonement_crypts_opened'] = 'Criptas de Expiación abiertas'
 L['atonement_crypt_key_label'] = '{item:172957}'
-L['atonement_crypt_key_note'] = '{item:172957} puede caer como botín de los enemigos en el área de las |cFFFFFD00Criptas de Expiación|r area.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nLas mayores probabilidades las tiene {npc:158892}.'
+L['atonement_crypt_key_note'] = '{item:172957} puede caer como botín de los enemigos en el área de las {location:Criptas de Expiación} area.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nLas mayores probabilidades las tiene {npc:158892}.'
 L['options_icons_crypt_kicker'] = '{achievement:14273}'
 L['options_icons_crypt_kicker_desc'] = 'Muestra dónde están las Criptas de Expiación para el logro {achievement:14273}.'
 
 L['broken_mirror'] = 'Espejo Roto'
-L['broken_mirror_note'] = 'Cada día estará activo un grupo de tres espejos rotos. Usa un {item:181363} para reparar cada espejo y abrir el |cFFFFFD00Cofre Olvidado|r de dentro.'
+L['broken_mirror_note'] = 'Cada día estará activo un grupo de tres espejos rotos. Usa un {item:181363} para reparar cada espejo y abrir el {object:Cofre Olvidado} de dentro.'
 L['broken_mirror_crypt'] = 'Dentro de una cripta.'
 L['broken_mirror_elite'] = 'En una habitación pequeña con enemigos élite.'
 L['broken_mirror_group'] = 'Grupo'
@@ -589,18 +589,18 @@ L['options_icons_broken_mirror'] = 'Espejos Rotos'
 L['options_icons_broken_mirror_desc'] = 'Muestra dónde están los espejos rotos.'
 
 L['soulshape_chicken_note'] = [[
-1. Recoge {item:187811} de |cffffff00Refugioscuro|r.
-2. Selecciona al {npc:181660} y haz /gallina.
+1. Recoge {item:187811} de {location:Refugioscuro}.
+2. Selecciona al {npc:181660} y teclea {emote:/gallina}.
 3. |cFFFF8C00Alma Perdida te cacarea hambrienta|r.
 4. Selecciona al {npc:181660} y usa el {item:187811}.
 ]]
 L['spectral_feed_label'] = '{item:187811}'
 L['spectral_feed_note'] = [[
-{item:187811} se usa para alimentar el {npc:181660} de |cffffff00Revendreth|r para el {item:187813}.
+{item:187811} se usa para alimentar el {npc:181660} de {location:Revendreth} para el {item:187813}.
 
-{item:187811} se usa para alimentar a {npc:182093} en |cFFFFFF00Ardenweald|r para el |cFF00FF00[Alma de Gato Bien Alimentada]|r.
+{item:187811} se usa para alimentar a {npc:182093} en {location:Ardenweald} para el {object:Alma de Gato Bien Alimentada}.
 
-|cFFFF8C00{item:187811} tiene 10 minutos de duración y 60 minutos de reaparición|r.
+{note:{item:187811} tiene 10 minutos de duración y 60 minutos de reaparición}.
 ]]
 
 -------------------------------------------------------------------------------
