@@ -196,7 +196,7 @@ L['pt_smith_falconer_gauntlet_drawings_note'] = 'En una isla en el mar, dentro d
 L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Reposa en una choza pequeña. {note:3 élites en la choza}'
 L['pt_tailor_silky_surprise_note'] = 'Busca y despoja la {object:Fronda de Hierba Gatera}.'
 
-L['lizi_note'] = 'Completa la cadena de misiones El Día Libre de la Iniciada comenzando con {quest:65901}. Completa las misiones cada día para curar a Lizi y conseguir su montura.\n\nAdemás de los objetos necesarios, todas las misiones requieren 150x {currency:2003} para un total de 750x {currency:2003}.'
+L['lizi_note'] = 'Completa la cadena de misiones |cFFFFFD00El Día Libre de la Iniciada|r comenzando con {quest:65901}. Completa las misiones cada día para curar a Lizi y conseguir su montura.\n\nAdemás de los objetos necesarios, todas las misiones requieren 150x {currency:2003} para un total de 750x {currency:2003}.'
 L['lizi_note_day1'] = 'Recoge 20x {item:192615} de los enemigos insecto en las {location:Islas Dragón}.'
 L['lizi_note_day2'] = 'Recoge 20x {item:192658} de los enemigos planta en las {location:Islas Dragón}.'
 L['lizi_note_day3'] = 'Recoge 10x {item:194966} pescadas en cualquier masa de agua dulce en las {location:Islas Dragón}. Se encuentran con más frecuencia en los interiores de las {location:Llanuras de Ohn\'ahra}.'
