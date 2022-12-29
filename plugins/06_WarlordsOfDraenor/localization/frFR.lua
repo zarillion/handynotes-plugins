@@ -34,7 +34,7 @@ L['fen_tao_follower_note'] = 'Parlez-lui pour le recruter en tant que sujet'
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = ns.color.Red('Ne tuez pas !') .. '\n\nA la place, tuez les ogres proches et donnez-les à manger à {npc:72156}. Après 10 ogres, il crachera une {object:Pierrentraille du Dévoreur} récupérable.'
+L['borrok_the_devourer_note'] = '{note:Ne tuez pas !}\n\nA la place, tuez les ogres proches et donnez-les à manger à {npc:72156}. Après 10 ogres, il crachera une {object:Pierrentraille du Dévoreur} récupérable.'
 L['gibblette_the_cowardly_note'] = 'Interrompez {spell:175415} ou il fuira la bataille et disparaîtra'
 
 L['arena_masters_war_horn_treasure'] = 'Cor de guerre du maître de l\'arène'
@@ -506,10 +506,10 @@ L['options_icons_wingmen_desc'] = 'Afficher les emplacements des farming pour le
 --------------------------------- TANAAN JUNGLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['deathtalon_note'] = ns.color.Red('Seigneur de l’ombre Iskar crie: Au-delà du voile, on ne trouve que la mort !')
-L['doomroller_note'] = ns.color.Red('Maître de siège Mar’tak crie: Hah-ha ! Piétinez leurs cadavres !')
-L['terrorfist_note'] = ns.color.Red('Frogan crie: Un énorme gronnlin se dirige vers le Refuge des Rangari ! Nous allons avoir besoin d\'aide !')
-L['vengeance_note'] = ns.color.Red('Velhari la Despote crie: On écrase bien les insectes !')
+L['deathtalon_note'] = '{yell:Seigneur de l’ombre Iskar crie: Au-delà du voile, on ne trouve que la mort !}'
+L['doomroller_note'] = '{yell:Maître de siège Mar’tak crie: Hah-ha ! Piétinez leurs cadavres !}'
+L['terrorfist_note'] = '{yell:Frogan crie: Un énorme gronnlin se dirige vers le Refuge des Rangari ! Nous allons avoir besoin d\'aide !}'
+L['vengeance_note'] = '{yell:Velhari la Despote crie: On écrase bien les insectes !}'
 L['iron_armada_note'] = 'Ce jouet est aussi achetable à l\'HV et est requis pour {achievement:10353}.'
 L['commander_kraggoth_note'] = 'Au sommet de la tour nord-est.'
 L['grannok_note'] = 'Au sommet de la tour sud-est.'

@@ -33,7 +33,7 @@ L['fen_tao_follower_note'] = '与他交谈招募为追随者。'
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = ns.color.Red('不要杀死！') .. '\n\n相反，杀死附近的食人魔并将它们喂给 {npc:72156}。在10个食人魔之后他会咳出一个可拾取的 {object:吞噬者的结石}。'
+L['borrok_the_devourer_note'] = '{note:不要杀死！}\n\n相反，杀死附近的食人魔并将它们喂给 {npc:72156}。在10个食人魔之后他会咳出一个可拾取的 {object:吞噬者的结石}。'
 L['gibblette_the_cowardly_note'] = '打断 {spell:175415} 否则他会逃离战斗并消失。'
 
 L['arena_masters_war_horn_treasure'] = '竞技场大师的作战号角'
@@ -512,10 +512,10 @@ L['options_icons_wingmen_desc'] = '显示 {achievement:9499} 成就中刷怪的�
 --------------------------------- TANAAN JUNGLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['deathtalon_note'] = ns.color.Red('暗影领主艾斯卡喊道：在彼岸，你能找到的只有死亡！')
-L['doomroller_note'] = ns.color.Red('攻城大师玛塔克喊道：哈哈！狠狠践踏他们的尸体吧！')
-L['terrorfist_note'] = ns.color.Red('弗甘喊道：一头巨型小戈隆正冲向游侠避难所！我们需要援助！')
-L['vengeance_note'] = ns.color.Red('暴君维哈里喊道：爬虫只配被碾死！')
+L['deathtalon_note'] = '{yell:暗影领主艾斯卡喊道：在彼岸，你能找到的只有死亡！}'
+L['doomroller_note'] = '{yell:攻城大师玛塔克喊道：哈哈！狠狠践踏他们的尸体吧！}'
+L['terrorfist_note'] = '{yell:弗甘喊道：一头巨型小戈隆正冲向游侠避难所！我们需要援助！}'
+L['vengeance_note'] = '{yell:暴君维哈里喊道：爬虫只配被碾死！}'
 L['iron_armada_note'] = '此玩具也可在拍卖行购买并需要成就 {achievement:10353}。'
 L['commander_kraggoth_note'] = '在东北塔顶上。'
 L['grannok_note'] = '在东南塔顶上。'

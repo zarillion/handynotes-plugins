@@ -297,7 +297,7 @@ L['lets_bee_friends_step_3'] = 'Bringe den Gegenstand {item:163699} zu {npc:1431
 L['lets_bee_friends_step_4'] = 'Bringe {item:163702} zu {npc:133907} bei der Metbrauerei Mildenhall.'
 L['lets_bee_friends_step_5'] = 'Schließe die Quest {quest:53347} für {npc:133907} ab.'
 
-local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in der Reißzahnfeste'
+local luncheon = (ns.faction == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in der Reißzahnfeste'
 L['these_hills_sing_note'] = 'Öffne {item:160485} hier. Diese kann bei ' .. luncheon .. ' gekauft werden oder aus dem Schatz "Zurückgelassene Vesperdose" in Brennadam geplündert werden.'
 
 L['ancient_tidesage_scroll'] = 'Uralte Schriftrolle der Gezeitenweisen'
@@ -658,7 +658,7 @@ L['options_icons_brutosaurs'] = '{achievement:13029}'
 L['options_icons_brutosaurs_desc'] = 'Zeigt die Brutosaurier für den Erfolg {achievement:13029} an.'
 
 local hekd_note = '\n\nUm Zugang zu {npc:126334} zu erhalten, müssen zuerst die zwei Quests %s abgeschlossen werden.'
-if UnitFactionGroup('player') == 'Horde' then
+if ns.faction == 'Horde' then
     hekd_note = hekd_note:format('{quest:47441} von {npc:127665} in Dazar\'alor und {quest:47442} von {npc:126334}')
 else
     hekd_note = hekd_note:format('{quest:51142} von {npc:136562} in Voldun und {quest:51145} von {npc:136559}')
@@ -701,7 +701,7 @@ L['options_icons_sausage_sampler'] = '{achievement:13087}'
 L['options_icons_sausage_sampler_desc'] = 'Zeigt die Händler für den Erfolg {achievement:13087} an.'
 
 -- For Horde, include a note about drinks that must be purchased on the AH
-local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Die folgenden Getränke sind für Horde nicht verfügbar und müssen im Auktionshaus gekauft werden:
+local horde_sheets = (ns.faction == 'Horde') and [[ Die folgenden Getränke sind für Horde nicht verfügbar und müssen im Auktionshaus gekauft werden:
 
 • {item:163639}
 • {item:163638}

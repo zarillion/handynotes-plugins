@@ -10,7 +10,7 @@ if not L then return end
 L['cavern_of_lost_spirits'] = 'In der Höhle der Verlorenen Geister.'
 L['looted_twice'] = 'Du hast diesen seltenen Gegner auf diesem Charakter noch nie getötet. Er kann heute zweimal geplündert werden.'
 L['neverending_spritewood'] = 'Ewiges Geistergehölz'
-L['neverending_spritewood_note'] = 'Nach dem Zerstören des Ewigen Geistergehölzes, töte soviele |CFFFFFF00Wütende Geister|r wie du kannst, während du den Schwächungszauber {spell:144052} hast!' -- {npc:71824}
+L['neverending_spritewood_note'] = 'Nach dem Zerstören des Ewigen Geistergehölzes, töte soviele {npc:Wütende Geister} wie du kannst, während du den Schwächungszauber {spell:144052} hast!' -- {npc:71824}
 L['zarhym_note'] = 'Einmal am Tag kann mit {npc:71876} gesprochen werden, um die {spell:144145} zu betreten und zu versuchen seinen Körper zurückzuholen.'
 
 L['archiereus_note'] = 'Kauf eine {item:103684} von {npc:73306}, um den seltenen Gegner zu beschwören.'
@@ -48,7 +48,7 @@ L['sturdy_chest_note'] = 'Greife einen {npc:73531} an, um hierher getragen zu we
 L['gleaming_treasure_satchel_note'] = 'Lauf auf den Seilen des Schiffs und spring dann auf den Mast, an dem der Schatzbeutel hängt.'
 L['gleaming_treasure_chest_note'] = 'Springe auf den Säulen zum Schatz.'
 L['mist_covered_treasure_chest_note'] = [[
-|cFFFF0000Zuvor müssen die Funkelnde Schatztruhe und die Verschnürte Schatztruhe geplündert worden sein.|r
+{note:Zuvor müssen die Funkelnde Schatztruhe und die Verschnürte Schatztruhe geplündert worden sein.}
 
 Klicke die Glitzernde Kranichstatue an, um zur Truhe zu fliegen.
 ]]
