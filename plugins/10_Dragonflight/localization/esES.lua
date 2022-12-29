@@ -29,7 +29,7 @@ L['broken_banding_note'] = 'En el tobillo del pie derecho de la estatua del drag
 L['chunk_of_sculpture_note'] = 'En el suelo, desde la estatua del dragón a la izquierda.'
 L['dislodged_dragoneye_note'] = 'En una roca debajo del pecho de la estatua del dragón.'
 L['finely_carved_wing_note'] = 'Debajo de la rodilla derecha de la estatua del dragón.'
-L['fragment_requirement_note'] = ns.color.Red('Antes de poder recoger piezas sueltas, necesitas hablar con {npc:193915} en la {location:Embajada Reposo Alado} en la estatua del dragón. Pregúntale qué está haciendo aquí.')
+L['fragment_requirement_note'] = '{note:Antes de poder recoger piezas sueltas, necesitas hablar con {npc:193915} en la {location:Embajada Reposo Alado} en la estatua del dragón. Pregúntale qué está haciendo aquí.}'
 L['golden_claw_note'] = 'En la garra trasera derecha de la estatua del dragón.'
 L['precious_stone_fragment_note'] = 'Debajo del pie derecho de la estatua del dragón.'
 L['stone_dragontooth_note'] = 'En el suelo junto al pedestal de la estatua del dragón.'
@@ -83,7 +83,7 @@ L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = 'Muestra dónde están los personajes legendarios para el logro {achievement:16570}.'
 
 L['signal_transmitter_label'] = 'Transmisor de Generador de Agujeros de Vermis'
-L['signal_transmitter_note'] = ns.color.Orange('Requiere 10 puntos en Mente Mecánica\nRequiere 30 puntos en Novedades') .. '\n\nInteractúa con el {object:Transmisor Desactivado} para permitir la teleportación a ese lugar.'
+L['signal_transmitter_note'] = '{note:Requiere 10 puntos en Mente Mecánica\nRequiere 30 puntos en Novedades}\n\nInteractúa con el {object:Transmisor Desactivado} para permitir la teleportación a ese lugar.'
 L['options_icons_signal_transmitter'] = 'Transmisores de Generadores de Agujeros de Vermis'
 L['options_icons_signal_transmitter_desc'] = 'Muestra dónde están los {object:Transmisores Desactivados} para los {item:198156}.'
 
@@ -136,7 +136,7 @@ L['snowman_note'] = 'Hay tres {npc:197599} reposando en la zona (podrían haber 
 L['snowclaw_cub_note_start'] = 'Tienes que completar la cadena de misiones {quest:67094} que ofrece {npc:192522} en {location:Valdrakken} para conseguir el título {title:Dríade Honoraria}.\n\nReune los siguientes objetos:'
 L['snowclaw_cub_note_item1'] = 'Despoja 3x {item:197744} de varios {npc:182559} alrededor de las {location:Orillas del Despertar}.'
 L['snowclaw_cub_note_item2'] = 'Compra 1x {item:198356} del {npc:193310} en las {location:Orillas del Despertar}.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}') .. '\n\nUna vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objetos al {npc:196768} para recibir su mascota.\n\n{bug:(BUG: El título puede desaparecer y está pendiente de un fix.)}'
+L['snowclaw_cub_note_end'] = '{note:Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}.}\n\nUna vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objetos al {npc:196768} para recibir su mascota.\n\n{bug:(BUG: El título puede desaparecer y está pendiente de un fix.)}'
 
 L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro {object:Tormentas de Maná para Principiantes} para completar la misión.'
 
@@ -377,12 +377,12 @@ L['slumbering_worldsnail_note1'] = [[
 
 5. Recoge 1000x {item:202173} para comprar el {item:192786}.]]
 
-L['slumbering_worldsnail_note2'] = ns.color.Orange('Si mueres perderás el debuff de membresía. Compre un nuevo título de miembro a {npc:193310} por 20x {item:202173} antes de morir o necesitarás entregar más llaves para la oportunidad de sacar un título de miembro del alijo.')
+L['slumbering_worldsnail_note2'] = '{note:Si mueres perderás el debuff de membresía. Compre un nuevo título de miembro a {npc:193310} por 20x {item:202173} antes de morir o necesitarás entregar más llaves para la oportunidad de sacar un título de miembro del alijo.}'
 
-L['magmashell_note'] = 'Despoja {item:201883} de los {npc:193138} alrededor de la {location:Ciudadela Obsidiana} y llévaselo al {npc:199010}.\n\n' .. ns.color.Orange('Haciendo click en el caracol se canalizará un hechizo durante 20 segundos después de lo cuales conseguirás la montura. Muy recomendable traer a un amigo sanador o usar el juguete {item:200116}.')
+L['magmashell_note'] = 'Despoja {item:201883} de los {npc:193138} alrededor de la {location:Ciudadela Obsidiana} y llévaselo al {npc:199010}.\n\n{note:Haciendo click en el caracol se canalizará un hechizo durante 20 segundos después de lo cuales conseguirás la montura. Muy recomendable traer a un amigo sanador o usar el juguete {item:200116}.}'
 
 L['otto_note_start1'] = 'Consigue unas {item:202042}. Las gafas tienen un 100% de probabilidades de salir del {item:202102} que puede ser comprado a {npc:191608} en las {location:Llanuras de Ohn\'ahra}.\n\nEl saco se puede comprar con 1x {item:199340} la cual puede ser comprada con 5x {item:199339} que éstas se pueden comprar por 75x {item:199338}. A su vez, estas últimas se pueden pescar alrededor de las {location:Islas Dragón} o derrotando a enemigos {title:<Morrocotudo>} en los nodos de pesca.'
-L['otto_note_start2'] = ns.color.Orange('Derrotar enemigos {title:<Morrocotudo>} requiere Renombre 7 con {faction:2511} y acceso al {item:194510}.')
+L['otto_note_start2'] = '{note:Derrotar enemigos {title:<Morrocotudo>} requiere Renombre 7 con {faction:2511} y acceso al {item:194510}.}'
 L['otto_note_start3'] = 'Una vez con las {item:202042} ves al bar subacuático {location:El Baño de Burbujas} en la {location:Gruta Siseante} y quédate de pie en la plataforma de baile que hay al lado de la barra hasta conseguir el debuff {spell:396539}. Cuando el debuff se acabe te desmayarás y despertarás junto a un barril. Interactúa con él para despojar el {item:202061}. Ahora necesitas llenar el barril con peces para alimentar a {npc:199563}.'
 L['otto_note_item1'] = 'Recoge 100x {item:202072}, un pez con probabilidad alta de ser pescado en las aguas abiertas de {location:Iskaara} en las {location:Tierras Azures}. Usar el barril con los peces te dará un {item:202066}.'
 L['otto_note_item2'] = 'Recoge 25x {item:202073}, un pez con probabilidad rara de ser pescado en la lava alrededor de la {location:Ciudadela Obsidiana} en las {location:Orillas del Despertar}. Usar el barril con los peces te dará un {item:202068}.'
