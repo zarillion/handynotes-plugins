@@ -154,62 +154,62 @@ La opción Alma de Gato (Bien Alimentado) estará disponible en cuanto hables co
 -------------------------------------------------------------------------------
 
 L['aegeon_note'] = 'Mata enemigos alrededor de la zona hasta que aparezca el {npc:171009}.'
-L['ascended_council_note'] = 'Con otros cuatro jugadores, hay que hacer click en los cinco templos de campanas de vísperas al mismo tiempo para invocar a {npc:170899} en el Crisol del Aspirante.'
+L['ascended_council_note'] = 'Con otros cuatro jugadores, hay que hacer click en los cinco templos de campanas de vísperas al mismo tiempo para invocar a {npc:170899} en el {location:Crisol del Aspirante}.'
 L['aspirant_eolis_note'] = 'Despoja un {item:180613} en las cercanías y leelo con el {npc:171211} como objetivo para activarlo.'
-L['baedos_note'] = 'Lleva Barriles de Fruta Puriana Fermentada del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}.'
+L['baedos_note'] = 'Lleva {object:Barriles de Fruta Puriana Fermentada} del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}.'
 L['basilofos_note'] = 'Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}.'
 L['beasts_of_bastion'] = 'Bestias de Bastión'
 L['beasts_of_bastion_note'] = 'Habla con la {npc:161441} para invocar una de las cuatro bestias.'
 L['bookkeeper_mnemis_note'] = 'Tiene la posibilidad de aparecer en lugar de las {npc:166867} del sitio.'
 L['cloudfeather_patriarch_note'] = 'Mata {npc:158110} en el aŕea hasta que el {npc:170932} te ataque.'
-L['collector_astor_note'] = 'Lee los seis capítulos de El Legado de Mercia dispersos por la habitación y habla con el {npc:157979} para recibir {spell:333779}. Con ello podrás encontrar {item:180569} alrededor del área. Al devolvérselo, aparecerá el {npc:171014}.'
-L['corrupted_clawguard_note'] = 'Despoja un {item:180651} en la habitación o en Avanzada Forjafuego subiendo la colina y úsalo para reparar el {npc:171300}.'
+L['collector_astor_note'] = 'Lee los seis capítulos de {object:El Legado de Mercia} dispersos por la habitación y habla con el {npc:157979} para recibir {spell:333779}. Con ello podrás encontrar {item:180569} alrededor del área. Al devolvérselo, aparecerá el {npc:171014}.'
+L['corrupted_clawguard_note'] = 'Despoja un {item:180651} en la habitación o en {location:Avanzada Forjafuego} subiendo la colina y úsalo para reparar el {npc:171300}.'
 L['dark_watcher_note'] = 'Sólo puede verse estando muerto. Habla con la {npc:170623} y te lanzará {spell:332830} antes de que seas atacado.'
 L['demi_hoarder_note'] = 'Comienza con 99 acumulaciones de {spell:333874}, reduciendo el daño recibido. Las acumulaciones bajan lentamente con el daño. {npc:171011} seguirá una ruta. Desaparecerá si alcanza el final.'
 L['dionae_note'] = 'Cuando {npc:163460} se hace immune, haz click en las cuatro {npc:163747} para romperle el escudo.'
 L['herculon_note'] = [[
 Recoge {item:172451} y úsalas para darle a {npc:158659} acumulaciones de {spell:343531}. A las 10 acumulaciones, se activará.
 
-Las motas se pueden recoger de los Botes de Ánima Agotados cercanos que hay en la habitación o justo fuera.
+Las motas se pueden recoger de los {object:Botes de Ánima Agotados} cercanos que hay en la habitación o justo fuera.
 
 |cFFFF8C00No puede ser derrotado durante la misión del mundo {wq:Asalto al Vestíbulo}.|r
 ]]
-L['reekmonger_note'] = 'Mata enemigos en el Templo del Coraje hasta until que hable {npc:171327} y aterrice.'
-L['repair_note'] = 'Con otros dos jugadores, haz click en el Incienso Antiguo para invocar a {npc:160895}.'
-L['sotiros_orstus_note'] = 'Haz click en la Campana Negra para invocar a los raros.'
+L['reekmonger_note'] = 'Mata enemigos en el {location:Templo del Coraje} hasta que hable {npc:171327} y aterrice.'
+L['repair_note'] = 'Con otros dos jugadores, haz click en el {object:Incienso Antiguo} para invocar a {npc:160895}.'
+L['sotiros_orstus_note'] = 'Haz click en la {object:Campana Negra} para invocar a los raros.'
 L['sundancer_note'] = 'Haz click en la estatua para conseguir el buff {spell:332309}. Usa entonces un {item:180445} para planear hasta {npc:170548} y montarlo.'
 L['swelling_tear_note'] = 'Haz click en la {npc:171012} para invocar a uno de los tres raros. Las Lágrimas pueden aparecer en varios sitios de la zona.'
 L['unstable_memory_note'] = 'Puede aparecer cuando los {npc:171018} estén presentes. Golpea a un {npc:171018} y arrástralo a través de otros hasta que reciba 10 acumulaciones de {spell:333558}, lo que hará que se convierta en el {npc:171008}.'
-L['wingflayer_note'] = 'Para invocar a {npc:167078}, haz click en el Cuerno de Coraje de la mesa cercana que hay al sureste (subiendo unas escaleras).'
+L['wingflayer_note'] = 'Para invocar a {npc:167078}, haz click en el {object:Cuerno de Coraje} de la mesa cercana que hay al sureste (subiendo unas escaleras).'
 
 L['broken_flute'] = 'Mata a las {npc:170009} cercanas hasta que una suelte la {item:180536}. Usa las herramientas para repararla.'
 L['cloudwalkers_coffer'] = 'Arca de Caminanubes'
 L['cloudwalkers_coffer_note'] = 'Usa las grandes flores lilas para saltar a la plataforma.'
 L['experimental_construct_part'] = 'Despoja un {item:180534} cercano y úsalo para reparar la Pieza de Ensamblaje Experimental. El ánima tiene varios sitios de aparición.'
-L['larion_harness'] = 'Está dentro de la Sala de las Bestias.'
-L['memorial_offering'] = 'Encuentra a {npc:171526} en uno de estos lugares de Bastión y cómprale una botella de {item:180788}. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}.'
+L['larion_harness'] = 'Está dentro de la {location:Sala de las Bestias}.'
+L['memorial_offering'] = 'Encuentra a {npc:171526} en uno de estos lugares de {location:Bastión} y cómprale una botella de {item:180788}. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}.'
 L['scroll_of_aeons'] = 'Coge de un cuenco 2 {item:173973} en el centro del área y colócalas en los cuencos de tributo cercanos para revelar el tesoro {item:173984}.'
 L['vesper_of_silver_wind'] = 'Campana de Vísperas del Viento de Plata'
-L['vesper_of_silver_wind_note'] = 'Completa el logro {achievement:14339} y habla con el {npc:171732} cerca de la entrada a las Agujas de Ascensión para forjar la {item:180858}.'
+L['vesper_of_silver_wind_note'] = 'Completa el logro {achievement:14339} y habla con el {npc:171732} cerca de la entrada a las {location:Agujas de Ascensión} para forjar la {item:180858}.'
 
 L['gift_of_agthia'] = 'Haz click en la antorcha encendida cerca del puente roto al noroeste y lleva la {spell:333320} de antorcha a antorcha hasta llegar al cofre. Al encender la última antorcha conseguirás la {spell:333063}.'
 L['gift_of_chyrus'] = 'Arrodíllate frente al cofre para conseguir la {spell:333045}.'
 L['gift_of_devos'] = [[
-Al suroeste del cofre hay una antorcha donde puedes coger la {spell:333912}. Montar, entrar en combate o recibir daño hará que sueltes la llama. Debes volver de regreso al cofre y poner la llama en el Blandón de Devoción para conseguir la {spell:333070}.
+Al suroeste del cofre hay una antorcha donde puedes coger la {spell:333912}. Montar, entrar en combate o recibir daño hará que sueltes la llama. Debes volver de regreso al cofre y poner la llama en el {object:Blandón de Devoción} para conseguir la {spell:333070}.
 
 Antes de coger la llama, limpia de enemigos el camino al cofre. Mientras corras con la llama, haz click en alguna {npc:156571} a lo largo del camino para conseguir {spell:335012} el cual incrementa la velocidad de movimiento.
 ]]
 L['gift_of_thenios'] = [[
-Detrás del cofre hay una plataforma de vuelo llamada "Camino de la Sabiduría". Esto lleva a una secuencia de plataformas con diferentes inciensos con los que puedes comulgar:
+Detrás del cofre hay una plataforma de vuelo llamada {object:Camino de la Sabiduría}. Esto lleva a una secuencia de plataformas con diferentes inciensos con los que puedes comulgar:
 
-• Incienso del Conocimiento
-• Incienso de la Paciencia
-• Incienso de la Perspicacia
-• Incienso del Juicio
+• {object:Incienso del Conocimiento}
+• {object:Incienso de la Paciencia}
+• {object:Incienso de la Perspicacia}
+• {object:Incienso del Juicio}
 
-Comulga con ellos en el orden Paciencia => Conocimiento => Perspicacia. En la plataforma del Juicio aparecerá un orbe llamado "Camino del Juicio".
+Comulga con ellos en el orden Paciencia => Conocimiento => Perspicacia. En la plataforma del Juicio aparecerá un orbe llamado {object:Camino del Juicio}.
 
-El orbe te llevará al verdadero Incienso del Juicio. Comulga con él y aparecerá la última plataforma de vuelo que te dará la {spell:333068} al abrir el cofre.
+El orbe te llevará al verdadero {object:Incienso del Juicio}. Comulga con él y aparecerá la última plataforma de vuelo que te dará la {spell:333068} al abrir el cofre.
 ]]
 L['gift_of_vesiphone'] = 'Toca una de las campanas para hacer que aparezca una {npc:170849} y mátala para recibir el debuff {spell:333239}. El agua que cae frente al cofre limpiará el debuff y te dará la {spell:332785}.'
 
@@ -222,7 +222,7 @@ L['vesper_of_humility'] = 'Campana de Vísperas de la Humildad'
 L['vesper_of_loyalty'] = 'Campana de Vísperas de la Lealtad'
 L['vesper_of_purity'] = 'Campana de Vísperas de la Pureza'
 L['vesper_of_wisdom'] = 'Campana de Vísperas de la Sabiduría'
-L['vespers_ascended_note'] = 'Haz click en la campana de vísperas al mismo tiempo que en las otras cuatro campanas de vísperas para invocar a {npc:170899} en el Crisol del Aspirante.'
+L['vespers_ascended_note'] = 'Haz click en la campana de vísperas al mismo tiempo que en las otras cuatro campanas de vísperas para invocar a {npc:170899} en el {location:Crisol del Aspirante}.'
 L['options_icons_vespers'] = '{achievement:14734}'
 L['options_icons_vespers_desc'] = 'Muestra dónde están las campanas de vísperas para el logro {achievement:14734}.'
 
@@ -233,17 +233,17 @@ L['anima_shard_61236'] = 'Sobre un arco enmedio de la estructura principal.'
 L['anima_shard_61237'] = 'En una repisa sobre el agua, a mitad de la cascada.'
 L['anima_shard_61238'] = 'En el agua debajo de un puente pequeño.'
 L['anima_shard_61239'] = 'Sobre una fina columna de piedra.'
-L['anima_shard_61241'] = 'Encima de la entrada a la Cámara del Primer Reflejo.'
+L['anima_shard_61241'] = 'Encima de la entrada a la {location:Cámara del Primer Reflejo}.'
 L['anima_shard_61244'] = 'En una roca bajo el saliente del precipicio.'
 L['anima_shard_61245'] = 'En la parte superior de una cascada pequeña.'
 L['anima_shard_61247'] = 'Sobre una fuente pequeña de agua en la pared.'
-L['anima_shard_61249'] = 'Oculta detrás de una columna de piedra en el nivel superior de la Cumbre de la Pureza.'
+L['anima_shard_61249'] = 'Oculta detrás de una columna de piedra en el nivel superior de la {location:Cumbre de la Pureza}.'
 L['anima_shard_61250'] = 'Debajo de una plataforma de escaleras.'
 L['anima_shard_61251'] = 'Debajo del incensiario.'
 L['anima_shard_61253'] = 'Encima de un arco de piedra caido.'
 L['anima_shard_61254'] = 'Encima de una estructura de madera pequeña.'
 L['anima_shard_61257'] = 'En un saliente pequeño justo debajo de {npc:162523}.'
-L['anima_shard_61258'] = 'En un saliente bajo la parte inferior del Reposo del Héroe.'
+L['anima_shard_61258'] = 'En un saliente bajo la parte inferior del {location:Reposo del Héroe}.'
 L['anima_shard_61260'] = 'Justo debajo de la plataforma.'
 L['anima_shard_61261'] = 'En un saliente sobre la cueva de {npc:163460}.'
 L['anima_shard_61263'] = 'Sobre un pilar de piedra.'
@@ -252,14 +252,14 @@ L['anima_shard_61270'] = 'En la base de un árbol.'
 L['anima_shard_61271'] = 'En una estantería en el piso superior.'
 L['anima_shard_61273'] = 'En una repisa que sobresale justo debajo del precipicio.'
 L['anima_shard_61274'] = 'Oculta debajo de una de las plataformas.'
-L['anima_shard_61275'] = 'En la Sala de las Bestias oculta detrás de unos barriles.'
+L['anima_shard_61275'] = 'En la {location:Sala de las Bestias} oculta detrás de unos barriles.'
 L['anima_shard_61277'] = 'Sobre una fina columna de piedra.'
 L['anima_shard_61278'] = 'Debajo del puente y sobre una roca.'
 L['anima_shard_61279'] = 'Sobre una fina columna de piedra.'
 L['anima_shard_61280'] = 'En la esquina de la mesa.'
-L['anima_shard_61281'] = 'En un saliente sobre el tesoro de las Ofrendas Conmemorativas.'
+L['anima_shard_61281'] = 'En un saliente sobre el tesoro de las {object:Ofrendas Conmemorativas}.'
 L['anima_shard_61282'] = 'En un Saliente bajo la cima del precipio.'
-L['anima_shard_61283'] = 'En una cueva debajo de la Capilla de Miri, detrás de unos barriles.'
+L['anima_shard_61283'] = 'En una cueva debajo de la {location:Capilla de Miri}, detrás de unos barriles.'
 L['anima_shard_61284'] = 'En una repisa debajo de un saliente rocoso, camino al sur.'
 L['anima_shard_61285'] = 'Al final de un pequeño saliente de roca.'
 L['anima_shard_61286'] = 'En una repisa sobre el camino.'
@@ -277,7 +277,7 @@ L['anima_shard_61297'] = 'Detrás de un pilar de piedra.\n\n' .. ns.color.Red('D
 L['anima_shard_61298'] = 'Detrás de un sillón.'
 L['anima_shard_61299'] = 'Oculta detrás de una gran antorcha junto al ángel.'
 L['anima_shard_61300'] = 'En una repisa sobre la fuente central justo detrás de los ángeles.'
-L['anima_shard_spires'] = 'Tres fragmentos están dentro de la mazmorra Agujas de Ascensión.'
+L['anima_shard_spires'] = 'Tres fragmentos están dentro de la mazmorra {location:Agujas de Ascensión}.'
 L['options_icons_anima_shard'] = '{achievement:14339}'
 L['options_icons_anima_shard_desc'] = 'Muestra dónde están los 50 fragmentos de cristal de ánima perdidos para el logro {achievement:14339}.'
 
@@ -289,7 +289,7 @@ L['stratios_note'] = 'Incluso las pequeñas batallas se deben librar con honor y
 L['thenia_note'] = 'Qué llanuras más maravillosas. Un lugar glorioso para combatir. ¿Listo?'
 L['zolla_note'] = 'Nos tomamos muy en serio nuestras defensas. Seamos grandes o pequeños, nuestra máxima es mantener y formar los recursos que fortalecen Bastión.'
 
-L['soulshape_otter_soul'] = 'Selecciona al {npc:181682} y haz /abrazo.'
+L['soulshape_otter_soul'] = 'Selecciona al {npc:181682} y teclea {emote:/abrazo}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- KORTHIA -----------------------------------
