@@ -300,7 +300,7 @@ L['lets_bee_friends_step_3'] = 'Bring {item:163699} to {npc:143128} in Boralus.'
 L['lets_bee_friends_step_4'] = 'Bring {item:163702} to {npc:133907} at Mildenhall Meadery.'
 L['lets_bee_friends_step_5'] = 'Complete {quest:53347} for {npc:133907}.'
 
-local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in Warfang Hold'
+local luncheon = (ns.faction == 'Alliance') and '{npc:138221} in Brennadam' or '{npc:138096} in Warfang Hold'
 L['these_hills_sing_note'] = 'Open {item:160485} here. Buy one from ' .. luncheon .. ' or loot one from the "Discarded Lunchbox" treasure in Brennadam.'
 
 L['ancient_tidesage_scroll'] = 'Ancient Tidesage Scroll'
@@ -661,7 +661,7 @@ L['options_icons_brutosaurs'] = '{achievement:13029}'
 L['options_icons_brutosaurs_desc'] = 'Display brutosaur locations for the {achievement:13029} achievement.'
 
 local hekd_note = '\n\nTo gain access to {npc:126334}, you need to complete %s.'
-if UnitFactionGroup('player') == 'Horde' then
+if ns.faction == 'Horde' then
     hekd_note = hekd_note:format('{quest:47441} from {npc:127665} in Dazar\'alor followed by {quest:47442} from {npc:126334}')
 else
     hekd_note = hekd_note:format('{quest:51142} from {npc:136562} in Voldun followed by {quest:51145} from {npc:136559}')
@@ -704,7 +704,7 @@ L['options_icons_sausage_sampler'] = '{achievement:13087}'
 L['options_icons_sausage_sampler_desc'] = 'Display vendor locations for the {achievement:13087} achievement.'
 
 -- For Horde, include a note about drinks that must be purchased on the AH
-local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ The following drinks are unavailable to Horde and must be purchased on the auction house:
+local horde_sheets = (ns.faction == 'Horde') and [[ The following drinks are unavailable to Horde and must be purchased on the auction house:
 
 • {item:163639}
 • {item:163638}

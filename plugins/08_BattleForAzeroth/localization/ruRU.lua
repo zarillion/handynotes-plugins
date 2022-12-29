@@ -661,7 +661,7 @@ L['options_icons_brutosaurs'] = '{achievement:13029}'
 L['options_icons_brutosaurs_desc'] = 'Отображение местоположения брутозавров для достижения {achievement:13029}.'
 
 local hekd_note = '\n\nЧтобы получить доступ к {npc:126334}, вам необходимо выполнить %s.'
-if UnitFactionGroup('player') == 'Horde' then
+if ns.faction == 'Horde' then
     hekd_note = hekd_note:format('{quest:47441} от {npc:127665} в Дазар\'алоре, за которым следует {quest:47442} от {npc:126334}')
 else
     hekd_note = hekd_note:format('{quest:51142} от {npc:136562} в Вол\'дуне, за которым следует {quest:51145} от {npc:136559}')
@@ -704,7 +704,7 @@ L['options_icons_sausage_sampler'] = '{achievement:13087}'
 L['options_icons_sausage_sampler_desc'] = 'Отображение местоположения продавцов для достижения {achievement:13087}.'
 
 -- For Horde, include a note about drinks that must be purchased on the AH
-local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Следующие напитки недоступны для Орды и должны быть куплены на аукционе:
+local horde_sheets = (ns.faction == 'Horde') and [[ Следующие напитки недоступны для Орды и должны быть куплены на аукционе:
 
 • {item:163639}
 • {item:163638}
