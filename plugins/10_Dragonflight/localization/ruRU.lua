@@ -82,10 +82,10 @@ L['large_lunker_sighting_note'] = 'Используйте 5x {item:194701}, чт
 L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = 'Отображение мест с легендарными личностями для {achievement:16570}.'
 
-L['signal_transmitter_label'] = nil
-L['signal_transmitter_note'] = nil
-L['options_icons_signal_transmitter'] = nil
-L['options_icons_signal_transmitter_desc'] = nil
+L['signal_transmitter_label'] = 'Драконий генератор червоточин'
+L['signal_transmitter_note'] = '{note:Требуется 10 очков в Мастере гаджетов\nТребуется 30 очков в Сувенирах.}\n\nВзаимодействовать с {object:Отключенным передатчиком} чтобы разрешить телепортацию в это место.'
+L['options_icons_signal_transmitter'] = 'Драконий генератор червоточин'
+L['options_icons_signal_transmitter_desc'] = 'Отображение местоположения {object:Отключенных передатчиков} для {item:198156}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
