@@ -484,7 +484,7 @@ L['ritualists_mantle_note'] = 'Complétez {quest:62308} donnée par {npc:172813}
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = 'Afficher les emplacements des customisations du déguisement d\'Acolyte nécrotique pour le haut-fait {achievement:14763}.'
 
-L['soulshape_saurid_note'] = 'Dans une petite grotte. Ciblez le {npc:182105} et tapez /bow'
+L['soulshape_saurid_note'] = 'Dans une petite grotte. Ciblez le {npc:182105} et tapez {emote:/bow}'
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
