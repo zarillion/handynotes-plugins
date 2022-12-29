@@ -208,7 +208,7 @@ map.nodes[21626478] = RareElite({
     }
 }) -- Enkine the Voracious
 
-map.nodes[33127632] = RareElite({ -- Spawn on the hour. daylight not spawn (after 6:00 pm will be)
+map.nodes[33127632] = RareElite({ -- Spawn on the hour. Daylight not spawn, after 6:00 pm will be
     id = 193154,
     quest = 73073,
     rewards = {
