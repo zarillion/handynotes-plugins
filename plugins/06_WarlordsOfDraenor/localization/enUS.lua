@@ -141,7 +141,7 @@ L['weapons_cache_treasure'] = 'Weapons Cache'
 L['ninja_pepe_note'] = 'Inside the hut sitting on a chair.'
 L['ninja_pepe_treasure'] = 'Ninja Pepe'
 
-L['protectors_of_the_grove_sublabel'] = '{npc:86259}}, {npc:86258}}, and {npc:86257}} form the {object:Protectors of the Grove}'
+L['protectors_of_the_grove_sublabel'] = '{npc:86259}, {npc:86258}, and {npc:86257} form the {object:Protectors of the Grove}.'
 
 L['prove_your_strength_note'] = 'Requires {spell:164012} garrison ability to be active. To enable {location:The Sparring Arena} visit your faction outpost.'
 L['prove_your_strength_drop_single'] = 'Dropped by %s.'

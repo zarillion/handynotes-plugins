@@ -34,7 +34,7 @@ L['fen_tao_follower_note'] = 'Sprich mit ihm, um ihn als Anhänger zu rekrutiere
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = '{note:Nicht töten!}\n\nTöte stattdessen Oger in der Nähe und verfüttere sie an {npc:72156}. Nach 10 Ogern wird er einen {Devourer\'s Gutstone} ausspucken.'
+L['borrok_the_devourer_note'] = '{note:Nicht töten!}\n\nTöte stattdessen Oger in der Nähe und verfüttere sie an {npc:72156}. Nach 10 Ogern wird er einen {object:Devourer\'s Gutstone} ausspucken.'
 L['gibblette_the_cowardly_note'] = 'Unterbreche {spell:175415} oder er wird aus dem Kampf fliehen und verschwinden.'
 
 L['arena_masters_war_horn_treasure'] = 'Kriegshorn des Arenameisters'
