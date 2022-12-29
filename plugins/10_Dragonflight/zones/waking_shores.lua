@@ -412,7 +412,7 @@ map.nodes[34578950] = Rare({
 
 map.nodes[69486653] = Rare({ -- review -- required 67030
     id = 193120,
-    quest = 69668,
+    quest = 74031,
     rewards = {
         Achievement({id = 16676, criteria = 56044}),
         Transmog({item = 200209, slot = L['mail']}) -- Firebreather's Cowl
