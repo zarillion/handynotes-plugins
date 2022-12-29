@@ -295,8 +295,8 @@ L['soulshape_otter_soul'] = 'Selecciona al {npc:181682} y teclea {emote:/abrazo}
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L['carriage_crusher_note'] = 'Sigue al {npc:180182} en las Fauces y deféndelo hasta que ataque el {npc:180246}.'
-L['chamber_note'] = 'Usa un {item:186718} del {npc:178257} en el Teletransportador Antiguo. Usa el Teletransportador Antiguo reparado para acceder a la cámara.'
+L['carriage_crusher_note'] = 'Sigue al {npc:180182} en su trayecto a {location:Las Fauces} y deféndelo hasta que ataque el {npc:180246}.'
+L['chamber_note'] = 'Usa un {item:186718} del {npc:178257} en el {object:Teletransportador Antiguo}. Usa el {object:Teletransportador Antiguo Reparado} para acceder a la cámara.'
 L['consumption_note'] = [[
 Este raro no soltará botín hasta que haya consumido a {npc:179758} x40 para transformarse en su forma azul sombreada (Raro).
 
@@ -304,26 +304,26 @@ Este raro soltará objetos de investigación extra después de consumir otros {n
 
 |cFFFF0000El raro no hará aparecer {npc:179758} para consumir si está en combate.|r
 ]]
-L['darkmaul_note'] = 'Recoge {item:187153} de los Champifauces Invasivos y alimenta a la {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura.'
-L['dislodged_nest_note'] = 'Haz click en una Polilla Nociva cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en el {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido.'
+L['darkmaul_note'] = 'Recoge {item:187153} de los {object:Champifauces Invasivos} y alimenta a la {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura.'
+L['dislodged_nest_note'] = 'Haz click en una {object:Polilla Nociva} cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en el {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido.'
 L['escaped_wilderling_note'] = 'Haz click en el {npc:180014} para empezar el evento de doma.'
-L['flayedwing_transporter_note'] = 'Haz click en el {npc:178633} para volar a o desde la Cámara de los Secretos.'
+L['flayedwing_transporter_note'] = 'Haz click en el {npc:178633} para volar a/o desde la {location:Cámara de los Secretos}.'
 L['fleshwing_note'] = 'Habla con {npc:180079} para empezar el evento de recolección.'
-L['forgotten_feather_note'] = 'Flotando en una isla pequeña que se accede saltando hacia abajo desde el Respiro del Guardían.'
-L['konthrogz_note'] = 'Aparece de un portal del evento de los devoradores. El evento puede aparecer en varios sitios a lo largo de Korthia.'
+L['forgotten_feather_note'] = 'Flotando en una isla pequeña que se accede saltando hacia abajo desde el {location:Respiro del Guardían}.'
+L['konthrogz_note'] = 'Aparece de un portal del evento de los devoradores. El evento puede aparecer en varios sitios a lo largo de {location:Korthia}.'
 L['sl_limited_rare'] = '|cFFFF8C00Este raro no está disponible algunos días.|r'
-L['krelva_note'] = 'Se mueve a otra plataforma al 80%, entonces se mueve al suelo al 60%. |cFFFF8C00¡Has de darle al boss después del 60% para que te cuente!|r'
+L['krelva_note'] = 'Se mueve a otra plataforma al 80%, entonces se mueve al suelo al 60%. {note:¡Has de darle al boss después del 60% para que te cuente!}'
 L['kroke_note'] = 'Mata a los {npc:179029} de la zona hasta que aparezca. No puede aparecer los días que no estén los {npc:179029}.'
 L['maelie_wanderer'] = '{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura.'
 L['malbog_note'] = 'Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos.'
 L['offering_box_note'] = 'Requiere una {item:187033} que se puede encontrar en la parte superior de la pared del lado oeste de las ruinas cercanas.'
-L['pop_quiz_note'] = 'El evento del Cuestionario aparecerá aleatoriamente en el mapa. Haz click en el Bastón del Velo Abandonado y responde a las preguntas de {npc:180162}.'
+L['pop_quiz_note'] = 'El evento del Cuestionario aparecerá aleatoriamente en el mapa. Haz click en el {object:Bastón del Velo Abandonado} y responde a las preguntas de {npc:180162}.'
 L['razorwing_note'] = 'Devuelve 10 {item:187054} soltados por los devoradores de la zona.'
-L['reliwik_note'] = 'Haz click en el Huevo de Alafilada Prístino para hacerlo bajar.'
+L['reliwik_note'] = 'Haz click en el {object:Huevo de Alafilada Prístino} para hacerlo bajar.'
 L['spectral_bound_chest'] = 'Haz click en las 3 {item:179369} cercanas para debloquear el cofre.'
-L['spectral_bound_note'] = 'Cofre reforzado espectral'
+L['spectral_bound_note'] = '{object:Cofre reforzado espectral}'
 L['stonecrusher_note'] = 'Habla con {npc:179974} para empezar el evento.'
-L['towering_exterminator_note'] = 'Aparece del portal del evento jurafauce. El evento puede aparecer en varios sitios a lo largo de Korthia.'
+L['towering_exterminator_note'] = 'Aparece del portal del evento jurafauce. El evento puede aparecer en varios sitios a lo largo de {location:Korthia}.'
 L['worldcracker_note'] = 'Habla con {npc:180028} para empezar el evento de escolta.'
 
 L['archivist_key_note'] = 'Compra la %s del {npc:178257} para desbloquear.'
@@ -334,29 +334,29 @@ L['options_icons_relic'] = '{achievement:15066}'
 L['options_icons_relic_desc'] = 'Muestra dónde están las 20 reliquias para {achievement:15066}.'
 
 L['rift_portal_note'] = [[
-Entra en |cFFFFFF00La Falla|r, una fase alternativa de Korthia y Las Fauces con raros adicionales, reliquias y alijos.
+Entra en {location:La Falla}, una fase alternativa de {location:Korthia} y {location:Las Fauces} con raros adicionales, reliquias y alijos.
 
 Requiere una {item:186731}, la cual se le puede comprar al {npc:178257} una vez alcanzado el rango 4 con {faction:2472}. Las llaves también tienen una pequeña probabilidad de caer de los raros y alijos de la zona.
 
-|cFFFF8C00Los portales de falla no están activos todos al mismo tiempo.|r
+{note:Los portales de falla no están activos todos al mismo tiempo.}
 ]]
-L['rift_rare_only_note'] = 'Este raro sólo se puede ver y ser matado dentro de la fase de |cFFFFFF00La Falla|r.'
+L['rift_rare_only_note'] = 'Este raro sólo se puede ver y ser matado dentro de la fase de {location:La Falla}.'
 L['rift_rare_exit_note'] = [[
-Este raro saldrá de la fase de |cFFFFFF00La Falla|r en cuanto se interactúe con él dentro de la falla.
+Este raro saldrá de la fase de {location:La Falla} en cuanto se interactúe con él dentro de {location:La Falla}.
 
-Estos tres raros de falla suelen aparecer en  orden con 20 minutos de intérvalo:
+Estos tres raros de {location:La Falla} suelen aparecer en  orden con 20 minutos de intérvalo:
 
   1. {npc:179913}
   2. {npc:179608}
   3. {npc:179911}
 ]]
 L['options_icons_rift_portal'] = '{npc:179595}'
-L['options_icons_rift_portal_desc'] = 'Muestra dónde están los {npc:179595} usados para entrar en |cFFFFFF00La Falla|r.'
+L['options_icons_rift_portal_desc'] = 'Muestra dónde están los {npc:179595} usados para entrar en La Falla.'
 
 L['riftbound_cache'] = 'Alijo Vinculafalla'
-L['riftbound_cache_note'] = 'Sólo pueden aparecer 4 alijos diferentes en un conjunto de sitios dentro de la falla.'
+L['riftbound_cache_note'] = 'Sólo pueden aparecer 4 alijos diferentes en un conjunto de sitios dentro de {location:La Falla.}'
 L['options_icons_riftbound_cache'] = 'Alijos Vinculafalla'
-L['options_icons_riftbound_cache_desc'] = 'Muestra dónde están los alijos dentro de |cFFFFFF00La Falla|r.'
+L['options_icons_riftbound_cache_desc'] = 'Muestra dónde están los alijos dentro de La Falla.'
 
 L['invasive_mawshroom'] = 'Champifauces Invasivos'
 L['invasive_mawshroom_note'] = 'Sólo pueden aparecer 5 champifauces diferentes en un conjunto de sitios.'
@@ -383,14 +383,14 @@ L['options_icons_nest_materials'] = 'Nidos de Materiales Inusuales'
 -------------------------------------------------------------------------------
 
 L['chelicerae_note'] = 'Destruye las {npc:159885} para activar a la {npc:159886}.'
-L['deepscar_note'] = 'Puede aparecer en varias entradas al Teatro del Dolor.'
-L['forgotten_mementos'] = 'Tira de la Cadena del Rastrillo en la cámara al oeste del tesoro para abrir la puerta.'
+L['deepscar_note'] = 'Puede aparecer en varias entradas al {location:Teatro del Dolor}.'
+L['forgotten_mementos'] = 'Tira de la {object:Cadena del Rastrillo} en la cámara al oeste del tesoro para abrir la puerta.'
 L['gieger_note'] = 'Tira del {npc:162815} para activar a {npc:162741}.'
 L['gristlebeak_note'] = 'Rompe los {npc:162761} cercanos para provocar a {npc:162588}.'
 L['leeda_note'] = 'Mata a las dos {npc:162220} hasta que aparezca la {npc:162180}.'
 L['nirvaska_note'] = 'Sólo aparece cuando la misión del mundo {wq:Recordatorio Letal} está activa.'
 L['ravenomous_note'] = 'Aplasta las {npc:159901} neutrales de la zona hasta que aparezca {npc:159753}.'
-L['sabriel_note'] = 'Puede aparecer como uno de los campeones del Teatro del Dolor.'
+L['sabriel_note'] = 'Puede aparecer como uno de los campeones del {location:Teatro del Dolor}.'
 L['schmitd_note'] = 'Usa un {spell:313451} cercano para romper su escudo.'
 L['tahonta_note'] = '¡La montura sólo cae si llevas a {npc:159239} contigo!'
 L['taskmaster_xox_note'] = 'Comparte el lugar de aparición con {npc:160204}, {npc:160230} y {npc:160226}.'
@@ -413,10 +413,10 @@ Mata a todos los raros una vez para ganar el juguete {item:183903}.
 ]]
 
 L['blackhound_cache'] = 'Alijo Sabueso Negro'
-L['blackhound_cache_note'] = 'Invoca a {npc:157843} en la Fábrica de Abominaciones. Después escóltalo a la Avanzada Sabueso Negro.'
+L['blackhound_cache_note'] = 'Invoca a {npc:157843} en la {location:Fábrica de Abominaciones}. Después escóltalo a la {location:Avanzada Sabueso Negro}.'
 L['bladesworn_supply_cache'] = 'Alijo de Suministros Juraespadas'
 L['cache_of_eyes'] = 'Alijo de Ojos'
-L['cache_of_eyes_note'] = 'Aparece en varios sitios dentro del Bastión Invidente.'
+L['cache_of_eyes_note'] = 'Aparece en varios sitios dentro del {location:Bastión Invidente}.'
 
 L['glutharns_note'] = 'En una cuevas detrás de una cascada de babas. Mata a {npc:172485} y a dos {npc:172479} para desbloquear el cofre.'
 L['kyrian_keepsake_note'] = 'Inspecciona el {npc:169664} para despojar el tesoro.'
@@ -427,7 +427,7 @@ Quédate de pie en la baba verde (¡requiere sanación!) para conseguir 10 acumu
 
 Una vez transformado, visita la cueva que hay debajo de la plataforma de {npc:158406} (la entrada está en el lado este) y haz click en el tubo para llegar al cofre.
 ]]
-L['ritualists_cache_note'] = 'Recoge las {item:181558} del suelo y úsalas para completar el Libro de Rituales de Vinculación.'
+L['ritualists_cache_note'] = 'Recoge las {item:181558} del suelo y úsalas para completar el {object:Libro de Rituales de Vinculación}.'
 L['runespeakers_trove_note'] = 'Busca al {npc:170563} al este y mátalo para conseguir la {item:181777}.'
 L['stolen_jar_note'] = 'Aparece en varias cuevas distintas.'
 L['strange_growth_note'] = 'Estira del {npc:165037} para revelar el tesoro.'
@@ -441,13 +441,13 @@ L['spinebug_note'] = [[
 ]]
 
 L['oonar_sorrowbane_note'] = [[
-En el Teatro del Dolor, podrás encontrar a {item:180273} clavada en el suelo y el {item:181164} cogiéndola. Para liberarla:
+En el {location:Teatro del Dolor}, podrás encontrar a {item:180273} clavada en el suelo y el {item:181164} cogiéndola. Para liberarla:
 
-• Compra 1 {item:182163} de {npc:171808} en Revendreth.
-• Compra 1 {item:180771} de {npc:166640} en Maldraxxus.
-• Compra 1 {item:181163} de {npc:169964} en Maldraxxus.
+• Compra 1 {item:182163} de {npc:171808} en {location:Revendreth}.
+• Compra 1 {item:180771} de {npc:166640} en {location:Maldraxxus}.
+• Compra 1 {item:181163} de {npc:169964} en {location:Maldraxxus}.
 • Consigue 2 acumulaciones de {spell:306272} de la misión del mundo {wq:Un par de baches en el camino} al oeste.
-• Come 4 {spell:327367} en la Descomposición de Glutharn.
+• Come 4 {spell:327367} en la {location:Descomposición de Glutharn}.
 • Usa rápidamente la {item:181163}, bebe ambas pociones y tira del brazo y la espada.
 
 Para tirar sólo del brazo, sólo hacen falta las {spell:327367}.
@@ -476,10 +476,10 @@ L['discarded_grimoire_label'] = '{item:183394}'
 L['discarded_grimoire_note'] = 'Completa la misión {quest:62297} que te da {npc:174020}.'
 
 L['sorcerers_blade_label'] = '{item:183397}'
-L['sorcerers_blade_note'] = 'Completa la misión {quest:62317} que te da la |cFFFFFF00Nota de Hechicero|r dentro de la |cFFFFFF00Cámara de Almas|r. Baja las escaleras y a la derecha de la estantería.'
+L['sorcerers_blade_note'] = 'Completa la misión {quest:62317} que te da la {object:Nota de Hechicero} dentro de la {location:Cámara de Almas}. Baja las escaleras y a la derecha de la estantería.'
 
 L['mucosal_pigment_label'] = '{item:183691}'
-L['mucosal_pigment_note'] = 'Cae de cualquier baba, gota, moco, raro, o gigante junto a la |cFFFFFF00Casa de las Plagas|r o en la zona alrededor de {npc:162727}.'
+L['mucosal_pigment_note'] = 'Cae de cualquier baba, gota, moco, raro, o gigante junto a la {location:Casa de las Plagas} o en la zona alrededor de {npc:162727}.'
 
 L['amethystine_dye_label'] = '{item:183401}'
 L['amethystine_dye_note'] = 'Completa la misión {quest:62320} que te da {npc:174120}.'
@@ -490,7 +490,7 @@ L['ritualists_mantle_note'] = 'Completa la misión {quest:62308} que te da {npc:
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = 'Muestra dónde están las personalizaciones del disfraz de Acólito Necrótico para el logro {achievement:14763}.'
 
-L['soulshape_saurid_note'] = 'En una cueva pequeña. Selecciona el {npc:182105} y haz /reverencia.'
+L['soulshape_saurid_note'] = 'En una cueva pequeña. Selecciona el {npc:182105} y teclea {emote:/reverencia}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
