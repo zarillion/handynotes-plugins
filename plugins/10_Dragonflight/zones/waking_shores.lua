@@ -50,10 +50,10 @@ local nel = Map({id = 2080, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[63695509] = Rare({ -- Spawn on the hour
+map.nodes[63695509] = Rare({
     id = 193132,
     quest = 73981,
-    note = L['in_cave'],
+    note = L['in_cave'] .. '\n\n' .. L['spawns_hourly'],
     rewards = {Achievement({id = 16676, criteria = 56045})}
 }) -- Amethyzar the Glittering
 
@@ -208,9 +208,10 @@ map.nodes[21626478] = RareElite({
     }
 }) -- Enkine the Voracious
 
-map.nodes[33127632] = RareElite({ -- Spawn on the hour. Daylight not spawn, after 6:00 pm will be
+map.nodes[33127632] = RareElite({
     id = 193154,
     quest = 73073,
+    note = L['spawns_hourly'] .. '\n\n' .. L['spawns_at_night'],
     rewards = {
         Achievement({id = 16676, criteria = 56048}),
         Achievement({id = 16446, criteria = 55394, note = L['pretty_neat_note']}),
@@ -410,18 +411,20 @@ map.nodes[34578950] = Rare({
     pois = {POI({36028984})} -- Entrance
 }) -- Slurpo, the Incredible Snail
 
-map.nodes[69486653] = Rare({ -- Spawn on the hour
+map.nodes[69486653] = Rare({
     id = 193120,
     quest = 74031,
+    note = L['spawns_hourly'],
     rewards = {
         Achievement({id = 16676, criteria = 56044}),
         Transmog({item = 200209, slot = L['mail']}) -- Firebreather's Cowl
     }
 }) -- Smogswog the Firebreather
 
-map.nodes[78514999] = Rare({ -- Spawn on the hour
+map.nodes[78514999] = Rare({
     id = 193228,
     quest = 73997,
+    note = L['spawns_hourly'],
     rewards = {Achievement({id = 16676, criteria = 56042})},
     pois = {Path({78825133, 78575081, 78475028, 78514999, 78684964, 78674926})}
 }) -- Snappy (Gorjo the Crab Shackler)

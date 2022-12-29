@@ -86,6 +86,9 @@ L['signal_transmitter_note'] = nil
 L['options_icons_signal_transmitter'] = nil
 L['options_icons_signal_transmitter_desc'] = nil
 
+L['spawns_hourly'] = nil
+L['spawns_at_night'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
