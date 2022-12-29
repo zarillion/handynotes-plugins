@@ -14,7 +14,7 @@ L['anima_channeled'] = 'ánima canalizada a %s.'
 --------------------------------- SHADOWLANDS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean mascotas de combate'
+L['squirrels_note'] = 'Has de teclear {emote:/amor} seleccionando alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:14731}.'
 
@@ -25,11 +25,11 @@ L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el
 L['deifir_note'] = 'Monta en {npc:164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente.'
 L['faeflayer_note'] = 'En una cueva pequeña oculta tras una cascada.'
 L['gormbore_note'] = 'Mata a los {npc:165420} sobre el suelo tembloroso para hacer aparecer {npc:163370}.'
-L['gormtamer_tizo_note'] = 'Mata Spriggans Conobarba en la Espesura Velo de Niebla hasta que aparezca {npc:164110} el cual tendrás que matar.'
-L['humongozz_note'] = 'Planta un {item:175247} en la Marga Húmeda para hacer aparecer un {npc:164122}. El champiñón cae de muchos enemigos de la zona.'
-L['lehgo_note'] = 'Destruye los Huevos de Gorm Temblorosos y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas).'
+L['gormtamer_tizo_note'] = 'Mata Spriggans Conobarba en la {location:Espesura Velo de Niebla} hasta que aparezca {npc:164110} el cual tendrás que matar.'
+L['humongozz_note'] = 'Planta un {item:175247} en la {object:Marga Húmeda} para hacer aparecer un {npc:164122}. El champiñón cae de muchos enemigos de la zona.'
+L['lehgo_note'] = 'Destruye los {object:Huevos de Gorm Temblorosos} y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas).'
 L['macabre_note'] = [[
-Aparece en varios sitios. Para invocar a {npc:164093}, espera en el Anillo de Champiñón Misterioso con otros 2 jugadores y bailad juntos.
+Aparece en varios sitios. Para invocar a {npc:164093}, espera en el {object:Anillo de Champiñón Misterioso} con otros 2 jugadores y bailad juntos.
 
 • El Jugador 1 baila con el Jugador 2
 • El Jugador 2 baila con el Jugador 3
@@ -37,9 +37,9 @@ Aparece en varios sitios. Para invocar a {npc:164093}, espera en el Anillo de Ch
 ]]
 L['mymaen_note'] = 'Mata duendes Pudrezarza en el área hasta que aparezca {npc:165053}.'
 L['rainbowhorn_note'] = [[
-Encuentra y haz click en el |cffffff00Gran Cuerno del Venado Rúnico|r para invocar al {npc:164547}. El cuerno puede aparecer en varios sitios a lo largo de Ardenweald.
+Encuentra y haz click en el {object:Gran Cuerno del Venado Rúnico} para invocar al {npc:164547}. El cuerno puede aparecer en varios sitios a lo largo de {location:Ardenweald}.
 
-Siempre aparecerá al norte de Tirna Vaal, así que pon tu {item:6948} allí y estate atento al texto de emoción para toda la zona.
+Siempre aparecerá al norte de {location:Tirna Vaal}, así que pon tu {item:6948} allí y estate atento al texto de emoción para toda la zona.
 
 |cffff4800¡|r|cffff9100P|r|cffffda00r|r|cffdaff00u|r|cff91ff00e|r|cff48ff00b|r|cff00ff00a|r |cff00ff91e|r|cff00ffdal|r |cff0091ffA|r|cff0048ffr|r|cff0000ffc|r|cff4800ffo|r |cffda00ffI|r|cffff00dar|r|cffff0091i|r|cffff0048s|r|cffff0000!|r
 ]]
@@ -51,11 +51,11 @@ L['valfir_note'] = 'Haz click en la Semilla de Ánima Brillante a mitad de camin
 L['wrigglemortis_note'] = 'Tira del {npc:164179} para sacarlo de la tierra y hacer aparecer al {npc:164147}.'
 
 L['night_mare_note'] = [[
-Viaja a Tirna Scithe y sigue el camino por la raíz, en el acantilado noroeste, hasta llegar a una vagoneta rota. Allí podrás despojar una {item:181243} en el suelo.
+Viaja a {location:Tirna Scithe} y sigue el camino por la raíz, en el acantilado noroeste, hasta llegar a una vagoneta rota. Allí podrás despojar una {item:181243} en el suelo.
 
-Lleva ese objeto a la {npc:165704} a la Cuenca Brillocascada. Te dará una {item:181242} a cambio de 10 {item:173204}. |cFFFF8C00Si ella no está aquí, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormitos|r y |cFFFFFD00Spriggans marrulleros|r.|r
+Lleva ese objeto a la {npc:165704} a la {location:Cuenca Brillocascada}. Te dará una {item:181242} a cambio de 10 {item:173204}. {note:Si ella no está aquí, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormitos|r y |cFFFFFD00Spriggans marrulleros|r.}
 
-Después, habla con {npc:160262} en el Corazón del Bosque para cambiarle la {item:181242} por un {item:178675}. Habla con los guardias para hacerla salir si no perteneces a las Sílfides Nocturnas. Usa el {item:178675} para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
+Después, habla con {npc:160262} en el {location:Corazón del Bosque} para cambiarle la {item:181242} por un {item:178675}. Habla con los guardias para hacerla salir si no perteneces a las Sílfides Nocturnas. Usa el {item:178675} para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
 ]]
 
 L['star_lake'] = 'Anfiteatro del Lago Estrellado'
@@ -65,40 +65,40 @@ Habla con {npc:171743}, el Director de Escena, para iniciar uno de los combates 
 Participa en los siete combates distintos para desbloquear la {item:180748} del {npc:163714}.
 ]]
 
-L['cache_of_the_moon'] = 'Recoge las cinco herramientas perdidas de {npc:171360} en el Jardín de la Noche y combínalas para crear las {item:180753}. Dáselas y ella te lanzará {spell:334353}, permitiéndote ver el cofre.'
+L['cache_of_the_moon'] = 'Recoge las cinco herramientas perdidas de {npc:171360} en el {location:Jardín de la Noche} y combínalas para crear las {item:180753}. Dáselas y ella te lanzará {spell:334353}, permitiéndote ver el cofre.'
 L['cache_of_the_night'] = 'Recoge una {item:180656}, un {item:180654} y {item:180655} por toda la zona y combínalo todo para crear un {item:180652}.'
-L['darkreach_supplies'] = 'Salta en un {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro Alijo de la Noche.'
-L['desiccated_moth'] = 'Salta sobre un {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el Quemador de Incienso para conseguir el tesoro.'
+L['darkreach_supplies'] = 'Salta en un {npc:169995} y planea hacia el suroeste en la aguja hueca directamente encima del tesoro {object:Alijo de la Noche}.'
+L['desiccated_moth'] = 'Salta sobre un {npc:169997} al noroeste del árbol para flotar encima de una rama. Quema las {item:180784} en el {object:Quemador de Incienso} para conseguir el tesoro.'
 L['dreamsong_heart'] = 'Usa un {npc:169997} debajo del árbol para ser lanzado dentro.'
-L['elusive_faerie_cache'] = 'Coge el {spell:333923} en la esquina noreste de la Arboleda del Manto Nocturno y úsalo para despojar el cofre.'
+L['elusive_faerie_cache'] = 'Coge el {spell:333923} en la esquina noreste de la {location:Arboleda del Manto Nocturno} y úsalo para despojar el cofre.'
 L['enchanted_dreamcatcher'] = 'Colgando de la parte superior de las raíces. La forma más facil de saltar arriba es en el lado oeste.'
 L['faerie_trove'] = 'Está debajo de la plataforma.'
 L['harmonic_chest'] = 'Requiere dos personas. Uno toca el arpa y el otro toca el tambor para desbloquear el cofre.'
 L['hearty_dragon_plume'] = 'Haz click en la {spell:333554} en la cima de las cascadas cercanas y úsala para flotar abajo hasta la rama.'
-L['old_ardeite_note'] = 'Mata al {npc:160747} y al {npc:160748} en Ramacentella hacia el sureste para conseguir el {item:174042}. Usa este objeto para volar cerca del {npc:164391} y targetearlo.'
+L['old_ardeite_note'] = 'Mata al {npc:160747} y al {npc:160748} en {location:Ramacentella} hacia el sureste para conseguir el {item:174042}. Usa este objeto para volar cerca del {npc:164391} y targetearlo.'
 L['swollen_anima_seed'] = 'Una gran semilla que reposa dentro del tronco de un árbol.'
 
 L['playful_vulpin_note'] = [[
-Encuentra y usa la emoción correcta en el {npc:171206} cinco veces para conseguir la mascota.
+Encuentra y teclea la emoción correcta seleccionando a {npc:171206} cinco veces para conseguir la mascota.
 
-• comienza a escarbar con curiosidad = |cFFFF8C00/curiosidad|r
-• corretea alrededor incapaz de quedarse quieto = |cFFFF8C00/sentarse|r
-• canta solo = |cFFFF8C00/cantar|r
-• baila con alegría = |cFFFF8C00/bailar|r
-• está sentado con aire triste y solitario = |cFFFF8C00/acariciar|r
+• comienza a escarbar con curiosidad = {emote:/curiosidad}
+• corretea alrededor incapaz de quedarse quieto = {emote:/sentarse}
+• canta solo = {emote:/cantar}
+• baila con alegría = {emote:/bailar}
+• está sentado con aire triste y solitario = {emote:/acariciar}
 ]]
 
 L['tame_gladerunner'] = 'Asaltaclaros domesticado'
 L['tame_gladerunner_note'] = [[
-Lee la "Historia del enredo" y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
+Lee la {object:Historia del enredo} y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
 
-Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo el "Historia del enredo" antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
+Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo la {object:Historia del enredo} antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
 ]]
 
 L['faryl_note'] = 'Deja que la defensa de Ardenweald la dirijan las criaturas de los cielos.'
 L['glitterdust_note'] = 'Puede que las criaturas de Ardenweald parezcan dóciles, pero defenderán su territorio con una fuerza y coraje dignas de los campeones más poderosos que hayas visto. ¿Crees que puedes plantarles cara?'
 
-L['lost_book_note'] = 'Devuelve este libro perdido al {npc:165867} en la Arboleda de la Memoria.'
+L['lost_book_note'] = 'Devuelve este libro perdido al {npc:165867} en la {location:Arboleda de la Memoria}.'
 L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = 'Muestra dónde están los libros perdidos para el logro {achievement:14788}.'
 
@@ -124,25 +124,25 @@ L['2x_wildseed_root_grain'] = '2x o 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
 L['soulshape_cat_note'] = [[
-Selecciona al {npc:181694} y haz /calmar.
+Selecciona al {npc:181694} y teclea {emote:/calmar}.
 
-Puede aparecer en el centro de las copas de los 6 Grandes Árboles a lo largo de |cFFFFFF00Ardenweald|r:
+Puede aparecer en el centro de las copas de los 6 árboles grandes a lo largo de {location:Ardenweald}:
 
-• |cFFFFFF00Pantano Cantosueño|r
-• |cFFFFFF00Cuenca Brillocascada|r
-• |cFFFFFF00Tirna Vaal|r
-• |cFFFFFF00Cuenca Invernal|r
-• |cFFFFFF00Arboleda del Duramen|r
-• |cFFFFFF00Filo de la Garra|r
+• {location:Pantano Cantosueño}
+• {location:Cuenca Brillocascada}
+• {location:Tirna Vaal}
+• {location:Cuenca Invernal}
+• {location:Arboleda del Duramen}
+• {location:Filo de la Garra}
 ]]
 L['soulshape_corgi_note'] = [[
-Selecciona a {npc:174608} y haz /acariciar.
+Selecciona a {npc:174608} y teclea {emote:/acariciar}.
 
 La opción Corgi estará disponible en cuanto hables con {npc:181582}.
 ]]
 L['soulshape_well_fed_cat_note'] = [[
-1. Recoge {item:187811} from |cffffff00Refugioscuro|r.
-2. Selecciona a {npc:182093} y haz /maullar.
+1. Recoge {item:187811} en {location:Refugioscuro}.
+2. Selecciona a {npc:182093} y teclea {emote:/maullar}.
 3. |cFFFF8C00Ma'oh te maulla hambriento|r.
 4. Selecciona a {npc:182093} y usa el {item:187811}.
 
