@@ -14,10 +14,10 @@ L['commander_texlaz_note'] = 'Ya no requiere que la misión del mundo {quest:488
 L['doomcaster_suprax_note'] = 'Ya no hace falta cubrir las tres runas con tres jugadores. Sólo hace falta pisar una runa para invocar a {npc:127703}.'
 L['mother_rosula_note'] = 'Recoge 100 {item:152999} de los {npc:126073} y combínalas para crear un {item:153013}. Usa el {item:153013} en su piscina vil.'
 L['reziera_the_seer_note'] = 'Mientrás tengas el buff del {spell:254174} recoge 500 {item:153021} para comprar un {item:153226} a {npc:128134}. Usa el {item:153226} para enviarte (y a tu grupo) a {npc:127706}.'
-L['squadron_commander_vishax_note'] = 'Recoge un {item:152890} de un {npc:127598}.\n\nRecoge una {item:152941}, un {item:152940}, y una {item:152891} de {npc:127597} y {npc:127596}.\n\nUsa el {item:152890} para obtener la misión {quest:49007}.\n\n{Esta misión se puede compartir.}'
+L['squadron_commander_vishax_note'] = 'Recoge un {item:152890} de un {npc:127598}.\n\nRecoge una {item:152941}, un {item:152940}, y una {item:152891} de {npc:127597} y {npc:127596}.\n\nUsa el {item:152890} para obtener la misión {quest:49007}.\n\n{note:Esta misión se puede compartir.}'
 L['ven_orn_note'] = 'Entra en la cueva de arañas, gira a la derecha, y baja dentro de otra cueva pequeña. Ella está en la 2ª cámara en la parte trasera.'
 
-L['the_many_faced_devourer_note'] = 'Recoge un {item:152786} de {npc:126193} y {npc:126171} en el |cFFFFFD00Cementerio del Carroñero|r.\n\nRecoge un {item:152991}, un {item:152992}, y un {item:152993}.\n\nInvoca a {npc:127581} en {npc:127442}.\n\n{Si no puedes ver {npc:127442} puede que necesites hacer relog.}'
+L['the_many_faced_devourer_note'] = 'Recoge un {item:152786} de {npc:126193} y {npc:126171} en el |cFFFFFD00Cementerio del Carroñero|r.\n\nRecoge un {item:152991}, un {item:152992}, y un {item:152993}.\n\nInvoca a {npc:127581} en {npc:127442}.\n\n{note:Si no puedes ver {npc:127442} puede que necesites hacer relog.}'
 L['the_many_faced_devourer_checklist'] = Gold('Lista de chequeo de Objetos (en bolsas o en el banco):')
 
 L['orix_the_all_seer_note'] = 'Vende coleccionables a cambio de {item:153021}.'

@@ -141,7 +141,7 @@ L['weapons_cache_treasure'] = '武器架'
 L['ninja_pepe_note'] = '小屋内椅子上。'
 L['ninja_pepe_treasure'] = '忍者佩佩'
 
-L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r，|cffffff00{npc:86258}|r，和 |cffffff00{npc:86257}|r 来自 |cffffff00丛林守护者|r'
+L['protectors_of_the_grove_sublabel'] = '{npc:86259}，{npc:86258}，和 {npc:86257} 来自 |cffffff00丛林守护者|r'
 
 L['prove_your_strength_note'] = '需要 {spell:164012} 要塞技能来激活。访问你的阵营哨站启用 {location:格斗竞技场}。'
 L['prove_your_strength_drop_single'] = '%s 掉落。'
