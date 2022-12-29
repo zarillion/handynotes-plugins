@@ -8,7 +8,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Frontière du réel'
-L['edge_of_reality_note'] = ns.color.Yellow('Frontière du réel') .. ' vous transportera dans un scénario, où vous pourrez récupérer {item:121815}.'
+L['edge_of_reality_note'] = '{location:Frontière du réel} vous transportera dans un scénario, où vous pourrez récupérer {item:121815}.'
 L['treasures_discovered'] = 'trésors découverts'
 L['strange_spore_treasure'] = 'Spore étrange'
 L['burning_blade_cache_treasure'] = 'Cache de la Lame-Ardente'
@@ -17,7 +17,7 @@ L['multiple_spawn_note'] = 'Peut apparaître à plusieurs endroits.'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = 'Affiche les emplacements des costumes pour {achievement:10053}'
 
-L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
+L['squirrels_note'] = 'Vous devez utiliser l\'émote {emote:/amour} sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:14728}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:14728}.'
 
@@ -34,7 +34,7 @@ L['fen_tao_follower_note'] = 'Parlez-lui pour le recruter en tant que sujet'
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = ns.color.Red('Ne tuez pas !') .. '\n\nA la place, tuez les ogres proches et donnez-les à manger à {npc:72156}. Après 10 ogres, il crachera une |cffffff00Pierrentraille du Dévoreur\r récupérable'
+L['borrok_the_devourer_note'] = ns.color.Red('Ne tuez pas !') .. '\n\nA la place, tuez les ogres proches et donnez-les à manger à {npc:72156}. Après 10 ogres, il crachera une {object:Pierrentraille du Dévoreur} récupérable.'
 L['gibblette_the_cowardly_note'] = 'Interrompez {spell:175415} ou il fuira la bataille et disparaîtra'
 
 L['arena_masters_war_horn_treasure'] = 'Cor de guerre du maître de l\'arène'
@@ -97,9 +97,9 @@ L['shadow_hunter_rala_follower_note'] = 'Complétez {quest:34348} pour le recrut
 L['gronnstalker_rokash_follower_note'] = 'Complétez {quest:32981} pour le recruter comme sujet'
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
-L['options_icons_writing_in_the_snow_desc'] = 'Afficher les emplacements de la |cffffff00Page de journal en lambeaux|r pour {achievement:9531}'
+L['options_icons_writing_in_the_snow_desc'] = 'Afficher les emplacements de la {object:Page de journal en lambeaux} pour {achievement:9531}'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Affichez les emplacements des |cffffff00Esclave gelé|r et |cffffff00Cage de prisonnier|r pour {achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = 'Affichez les emplacements des {object:Esclave gelé} et {object:Cage de prisonnier} pour {achievement:9533}'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = 'Afficher les emplacements des spécialités pour {achievement:9534}'
 
@@ -108,8 +108,8 @@ L['options_icons_delectable_ogre_delicacies_desc'] = 'Afficher les emplacements 
 -------------------------------------------------------------------------------
 
 L['poundfist_note'] = 'Possède un temps de réapparition très long, entre 50 et 90 heures.'
-L['trophy_of_glory_note'] = 'Vous devez terminer la construction de votre avant-poste de fief à Gorgrond pour que les objets de quête soient récupérables.'
-L['roardan_sky_terror_note'] = 'Vole autour de L’Enchevêtrement et du Guet des Bêtes et fait 3 arrêts en chemin.'
+L['trophy_of_glory_note'] = 'Vous devez terminer la construction de votre {location:Avant-poste de Fief} à {location:Gorgrond} pour que les objets de quête soient récupérables.'
+L['roardan_sky_terror_note'] = 'Vole autour de {location:L’Enchevêtrement} et du {location:Guet des Bêtes} et fait 3 arrêts en chemin.'
 
 L['attack_plans_treasure'] = 'Ordres d’attaque de la Horde de Fer'
 L['brokors_sack_treasure'] = 'Sac de Brokor'
@@ -143,7 +143,7 @@ L['ninja_pepe_treasure'] = 'Pépé ninja'
 
 L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, et |cffffff00{npc:86257}|r forment les |cffffff00Protecteurs du Bosquet|r'
 
-L['prove_your_strength_note'] = 'La capacité de fief {spell:164012} doit être active. Pour activer |cffffff00L’arène d’entraînement|r, rendez-vous à l\'avant-poste de votre faction.'
+L['prove_your_strength_note'] = 'La capacité de fief {spell:164012} doit être active. Pour activer {location:L’arène d’entraînement}, rendez-vous à l\'avant-poste de votre faction.'
 L['prove_your_strength_drop_single'] = 'Lâché par %s.'
 L['prove_your_strength_drop_double'] = 'Lâché par %s ou %s.'
 
@@ -151,13 +151,13 @@ L['tormmok_follower_note'] = 'Apparaît d\'abord comme ' .. ns.color.Red('Hostil
 L['blook_follower_note'] = 'Parlez-lui, combattez-le, battez-le, puis parlez-lui à nouveau pour le recruter comme sujet'
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
-L['options_icons_attack_plans_desc'] = 'Affiche les emplacements des Ordres d’attaque de la Horde de Fer pour {achievement:9656}.'
+L['options_icons_attack_plans_desc'] = 'Afficher les emplacements des {object:Ordres d’attaque de la Horde de Fer} pour le haut-fait {achievement:9656}.'
 L['options_icons_ancient_no_more'] = '{achievement:9678}'
-L['options_icons_ancient_no_more_desc'] = 'Afficher les emplacements des monstres rares pour {achievement:9678}'
+L['options_icons_ancient_no_more_desc'] = 'Afficher les emplacements des monstres rares pour le haut-fait {achievement:9678}'
 L['options_icons_fight_the_power'] = '{achievement:9655}'
-L['options_icons_fight_the_power_desc'] = 'Afficher les emplacements des monstres rares pour {achievement:9655}'
+L['options_icons_fight_the_power_desc'] = 'Afficher les emplacements des monstres rares pour le haut-fait {achievement:9655}'
 L['options_icons_prove_your_strength'] = '{achievement:9402}'
-L['options_icons_prove_your_strength_desc'] = 'Afficher les emplacements de drop pour {achievement:9402}'
+L['options_icons_prove_your_strength_desc'] = 'Afficher les emplacements de drop pour le haut-fait {achievement:9402}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAGRAND ----------------------------------
@@ -166,8 +166,8 @@ L['options_icons_prove_your_strength_desc'] = 'Afficher les emplacements de drop
 L['fangler_note'] = 'Utilisez la canne à pêche'
 L['berserk_t_300_series_mark_ii_note'] = 'Utilisez l\'interrupteur'
 L['graveltooth_note'] = 'Tuez des {npc:84255} jusqu\'à ce que {npc:84263} apparaisse.'
-L['gorepetal_note'] = 'Dans une grotte.\n\nN\'apparaît pas sur la mini-carte. Cliquez sur le Lys Étoilé pour faire le apparaître {npc:83509}.'
-L['sean_whitesea_note'] = 'Ouvrez le Coffre abandonné afin que {npc:83542} apparaisse.'
+L['gorepetal_note'] = 'Dans une grotte.\n\nN\'apparaît pas sur la mini-carte. Cliquez sur le {object:Lys Étoilé} pour faire le apparaître {npc:83509}.'
+L['sean_whitesea_note'] = 'Ouvrez le {object:Coffre abandonné} afin que {npc:83542} apparaisse.'
 
 L['a_pile_of_dirt_treasure'] = 'Un tas de terre'
 L['abandoned_cargo_treasure'] = 'Chargement abandonné'
@@ -226,22 +226,22 @@ L['viking_pepe_treasure'] = 'Pépé viking'
 
 L['highmaul_farm_path'] = [[
 Parcours de farm
-1. Partez de la porte d'entrée et allez à droite dans  |cffffff00Les Entrailles|r.
+1. Partez de la porte d'entrée et allez à droite dans  {location:Les Entrailles}.
 2. Allez à gauche en traversant la fosse aux gladiateurs. Assurez-vous de tagger l'ogre surplombant en haut à gauche.
 3. Continuez à monter les escaliers et passez l'étang où se trouve le {npc:87227}.
-4. Tournez à gauche et remontez vers la |cffffff00Voie des Vainqueurs|r.
+4. Tournez à gauche et remontez vers la {location:Voie des Vainqueurs}.
 5. Allez jusqu'à la jonction du chemin. Assurez-vous de tagger l'ogre à droite.
-6. Tournez à gauche vers |cffffff00Le Marché|r et éliminez tout dans le sens inverse des aiguilles d'une montre.
-7. Allez à gauche vers la |cffffff00Faveur de L'Imperator|r, continuez à suivre le chemin et éliminez tout s'y trouvant.
-8. A gauche encore, descendez le chemin, et revenez à nouveau sur la |cffffff00Voie des Vainqueurs|r.
-9. Invoquez votre monture et volez vers le haut, survolez et entrez dans |cffffff00Le Colisée|r. N'essayez pas d'utiliser la porte d'entrée, elle est verrouillée.
+6. Tournez à gauche vers {location:Le Marché} et éliminez tout dans le sens inverse des aiguilles d'une montre.
+7. Allez à gauche vers la {location:Faveur de L'Imperator}, continuez à suivre le chemin et éliminez tout s'y trouvant.
+8. A gauche encore, descendez le chemin, et revenez à nouveau sur la {location:Voie des Vainqueurs}.
+9. Invoquez votre monture et volez vers le haut, survolez et entrez dans {location:Le Colisée}. N'essayez pas d'utiliser la porte d'entrée, elle est verrouillée.
 Volez vers la droite et revenez à la porte principale. Une seule run prend un peu moins de 4 minutes et le temps que vous soyez de retour à la porte d'entrée, tout aura déjà réapparu.
 ]]
 
-L['steamwheedle_note'] = 'Farmez des {item:118099} et {item:118100} sur les {npc:87223} et {npc:87222} autour de |cffffff00Cognefort|r. Donnez les objets à {npc:87393} pour gagner de la réputation.'
+L['steamwheedle_note'] = 'Farmez des {item:118099} et {item:118100} sur les {npc:87223} et {npc:87222} autour de {location:Cognefort}. Donnez les objets à {npc:87393} pour gagner de la réputation.'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
-L['finding_your_waystones_note'] = 'Farmez des {item:117491} sur les {npc:87223} et {npc:87222} autour de |cffffff00Cognefort|r'
+L['finding_your_waystones_note'] = 'Farmez des {item:117491} sur les {npc:87223} et {npc:87222} autour de {location:Cognefort}'
 L['ogre_waystones'] = 'pierres d\'accès ogre récupérées'
 
 L['signal_horn_note'] = 'Obtenez les {item:120290} sur le {npc:86658} proche puis utilisez le {npc:87361} pour invoquer {npc:87239} et {npc:87344}.'
@@ -253,11 +253,11 @@ L['dirt_mound'] = 'Tuez {npc:86659} pour faire apparaître un {npc:87280} sur le
 
 L['stable_master_note'] = 'Parlez à {stablemaster} pour recevoir un sifflet de dressage.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUtilisez le sifflet pour invoquer votre monture en dressage de monture et tuer la cible.\n\n{achievement:9539} nécessite une {item:118469} d\'une |cffffff00Écuries de niveau 2|r.\n{achievement:9540} nécessite un {item:118470} d\'une |cffffff00Écuries de niveau 3|r.'
 
-L['making_the_cut_note'] = 'Tant que {npc:88210} est disponible, tuez 15 {npc:88207} dans les environs de l\'|cffffff00Arène de Sang|r. Une fois que 15 ont été tués {npc:88210} deviendra ciblable.\n\n' .. ns.color.Red('Pas mal pour une bande de minables ! Venez affronter Krud quand vous serez prêt à mourir !')
+L['making_the_cut_note'] = 'Tant que {npc:88210} est disponible, tuez 15 {npc:88207} dans les environs de l\'{location:Arène de Sang}. Une fois que 15 ont été tués {npc:88210} deviendra ciblable.\n\n' .. ns.color.Red('Pas mal pour une bande de minables ! Venez affronter Krud quand vous serez prêt à mourir !')
 
 L['goldmane_follower_note'] = 'Tuez {npc:80080} à proximité pour récupérer {item:111863} et déverrouiller la cage pour recruter {npc:80083} comme sujet'
 L['abugar_follower_note'] = [[
-Livrez 3 objets de pêche trouvés autour de |cffffff00Nagrand|r et parlez-lui ensuite pour le recruter comme sujet.
+Livrez 3 objets de pêche trouvés autour de {location:Nagrand} et parlez-lui ensuite pour le recruter comme sujet.
 {item:114245}
 {item:114242}
 {item:114243}
@@ -265,19 +265,19 @@ Vous pouvez rassembler les objets avant d'aller le voir.
 ]]
 
 L['options_icons_broke_back_precipice'] = '{achievement:9571}'
-L['options_icons_broke_back_precipice_desc'] = 'Afficher les emplacements des rares pour {achievement:9571}'
+L['options_icons_broke_back_precipice_desc'] = 'Afficher les emplacements des rares pour le haut-fait {achievement:9571}'
 L['options_icons_steamwheedle'] = '{achievement:9472}'
-L['options_icons_steamwheedle_desc'] = 'Afficher l\'emplacement de farm pour {achievement:9472}'
+L['options_icons_steamwheedle_desc'] = 'Afficher l\'emplacement de farm pour le haut-fait {achievement:9472}'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
-L['options_icons_finding_your_waystones_desc'] = 'Afficher l\'emplacement de farm pour {achievement:9497}'
+L['options_icons_finding_your_waystones_desc'] = 'Afficher l\'emplacement de farm pour le haut-fait {achievement:9497}'
 L['options_icons_song_of_silence'] = '{achievement:9541}'
-L['options_icons_song_of_silence_desc'] = 'Afficher les emplacements des monstres rares pour {achievement:9541}'
+L['options_icons_song_of_silence_desc'] = 'Afficher les emplacements des monstres rares pour le haut-fait {achievement:9541}'
 L['options_icons_buried_treasures'] = '{achievement:9548}'
-L['options_icons_buried_treasures_desc'] = 'Afficher les emplacements de l\'objet pour {achievement:9548}'
+L['options_icons_buried_treasures_desc'] = 'Afficher les emplacements de l\'objet pour le haut-fait {achievement:9548}'
 L['options_icons_the_stable_master'] = '{achievement:9539} et {achievement:9540}'
-L['options_icons_the_stable_master_desc'] = 'Afficher les emplacements des cibles pour {achievement:9539} et {achievement:9540}'
+L['options_icons_the_stable_master_desc'] = 'Afficher les emplacements des cibles pour les hauts-faits {achievement:9539} et {achievement:9540}'
 L['options_icons_making_the_cut'] = '{achievement:9617}'
-L['options_icons_making_the_cut_desc'] = 'Afficher les emplacements des |cffffff00Esclavagiste du Cercle-Sanglant|r pour {achievement:9617}'
+L['options_icons_making_the_cut_desc'] = 'Afficher les emplacements des {npc:88207} pour le haut-fait {achievement:9617}'
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
@@ -314,7 +314,7 @@ L['ronokks_belongings_treasure'] = 'Affaires de Ronokk'
 L['rotting_basket_treasure'] = 'Panier en décomposition'
 L['rovos_dagger_treasure'] = 'Dague de Rovo'
 L['scaly_rylak_egg_treasure'] = 'Œuf de rylak écailleux'
-L['shadowmoon_exile_treasure_note'] = 'Dans une grotte sous la |cffffff00Cime de l’Exilé|r'
+L['shadowmoon_exile_treasure_note'] = 'Dans une grotte sous la {location:Cime de l’Exilé}'
 L['shadowmoon_exile_treasure_treasure'] = 'Trésor d’exilé d’Ombrelune'
 L['shadowmoon_sacrificial_dagger_treasure'] = 'Dague sacrificielle d\'Ombrelune'
 L['shadowmoon_treasure_treasure'] = 'Trésor d’Ombrelune'
@@ -331,14 +331,14 @@ L['you_have_been_rylakinated_note'] = 'Nécessite de terminer {quest:34355}.\n\n
 L['artificer_romuul_follower_note'] = 'Terminez l\'événement de défense du cristal pour le recruter comme sujet.'
 
 L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
-L['options_icons_you_have_been_rylakinated_desc'] = 'Affichez les emplacements des Rylaks pour {achievement:9481}'
+L['options_icons_you_have_been_rylakinated_desc'] = 'Afficher les emplacements des Rylaks pour le haut-fait {achievement:9481}'
 
 -------------------------------------------------------------------------------
 ------------------------------- SPIRES OF ARAK --------------------------------
 -------------------------------------------------------------------------------
 
 L['abandoned_mining_pick_treasure'] = 'Pioche de mineur abandonnée'
-L['admiral_taylors_coffer_note'] = 'Utilisez {item:116020} pour déverrouiller le |cffffff00Coffre de l’amiral Taylor|r dans |cffffff00l\'Hôtel de Ville du Fief de l’Amiral Taylor|r'
+L['admiral_taylors_coffer_note'] = 'Utilisez {item:116020} pour déverrouiller le {object:Coffre de l’amiral Taylor} dans {location:l\'Hôtel de Ville du Fief de l’Amiral Taylor}'
 L['admiral_taylors_coffer_treasure'] = 'Coffre de l’amiral Taylor'
 L['assassins_spear_treasure'] = 'Lance de l\'assassin'
 L['campaign_contributions_treasure'] = 'Cadeau de campagne électorale'
@@ -358,7 +358,7 @@ L['ogron_plunder_treasure'] = 'Butin ogron'
 L['orcish_signaling_horn_treasure'] = 'Cor d’alarme orc'
 L['outcasts_belongings_treasure'] = 'Effets personnels de paria'
 L['outcasts_pouch_treasure'] = 'Bourse de paria'
-L['rooby_roos_ruby_collar_note'] = 'Achetez 3 {item:114835} à {npc:82432} dans le sous-sol du |cffffff00Bigorneau saumâtre|r. Suivez et nourrissez {npc:84332} jusqu\'à ce qu\'il laisse un "trésor" au sol.'
+L['rooby_roos_ruby_collar_note'] = 'Achetez 3 {item:114835} à {npc:82432} dans le sous-sol du {location:Bigorneau saumâtre}. Suivez et nourrissez {npc:84332} jusqu\'à ce qu\'il laisse un "trésor" au sol.'
 L['rooby_roos_ruby_rollar_treasure'] = 'Roubie Rou'
 L['rukhmars_image_treasure'] = 'Image de Rukhmar'
 L['sailor_zazzuks_180_proof_rum_note'] = 'Dans la salle de contrôle'
@@ -373,7 +373,7 @@ L['sun_touched_cache_treasure'] = 'Cache touchée par le soleil'
 L['toxicfang_venom_treasure'] = 'Venin de croc-toxique'
 L['waterlogged_satchel_treasure'] = 'Sacoche détrempée'
 L['nizzixs_chest_treasure'] = 'Coffre de Nizzix'
-L['nizzixs_chest_treasure_note'] = 'Cliquez sur la Capsule de sauvetage flottant à proximité dans l\'eau.'
+L['nizzixs_chest_treasure_note'] = 'Cliquez sur la {object:Capsule de sauvetage} flottant à proximité dans l\'eau.'
 
 L['misplaced_scroll_treasure'] = 'Parchemin égaré'
 L['relics_of_the_outcasts_treasure'] = 'Reliques des parias'
@@ -382,7 +382,7 @@ L['smuggled_apexis_artifacts_treasure'] = 'Artéfacts apogides de contrebande'
 L['offering_to_the_raven_mother_treasure'] = 'Offrande à la Mère corbeau'
 
 L['elixir_of_shadow_sight_treasure'] = 'Élixir de vue de l\'Ombre'
-L['elixir_pre_note'] = 'Apportez-le à un |cffffff00Sanctuaire de Terokk|r.'
+L['elixir_pre_note'] = 'Apportez-le à un {location:Sanctuaire de Terokk}.'
 L['elixir_01_note'] = 'A côté d\'une petite cabane, dans un panier suspendu.'
 L['elixir_02_note'] = 'Dans un panier à l\'arrière d\'une hutte en feu.'
 L['elixir_03_note'] = 'Dans un panier entre un arbre et un mur cassé.'
@@ -408,13 +408,13 @@ L['leorajh_follower_note'] = 'Parlez avec lui pour le recruter en tant que sujet
 L['options_icons_archaeology_treasure'] = 'Trésors Archéologiques'
 L['options_icons_archaeology_treasure_desc'] = 'Afficher les emplacements pour les trésors archéologiques'
 L['options_icons_offering'] = 'Offrande à la Mère corbeau'
-L['options_icons_offering_desc'] = 'Afficher les emplacements des objets d\'|cffffff00Offrande à la Mère corbeau|r'
+L['options_icons_offering_desc'] = 'Afficher les emplacements des objets d\'{object:Offrande à la Mère corbeau}'
 L['options_icons_shrines_of_terokk'] = 'Sanctuaires de Terokk'
-L['options_icons_shrines_of_terokk_desc'] = 'Afficher les emplacements des |cffffff00Sanctuaires de Terokk|r'
+L['options_icons_shrines_of_terokk_desc'] = 'Afficher les emplacements des {location:Sanctuaires de Terokk}'
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
-L['options_icons_would_you_like_a_pamplet_desc'] = 'Afficher les emplacements des objets pour {achievement:9432}'
+L['options_icons_would_you_like_a_pamplet_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:9432}'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
-L['options_icons_king_of_the_monsters_desc'] = 'Afficher les emplacements des rares pour {achievement:9601}'
+L['options_icons_king_of_the_monsters_desc'] = 'Afficher les emplacements des rares pour le haut-fait {achievement:9601}'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -452,7 +452,7 @@ L['draenei_weapons_treasure'] = 'Armes draeneï'
 L['farmers_bounty_treasure'] = 'Butin du fermier'
 L['foremans_lunchbox_treasure'] = 'Boîte à repas du contremaître'
 L['iron_box_treasure'] = 'Boîte en fer'
-L['isaaris_cache_note'] = 'Sauvez 4 draeneï piégés dans des toiles d\'araignée, la Cache d\'Isaari apparaîtra ici.'
+L['isaaris_cache_note'] = 'Sauvez 4 draeneï piégés dans des toiles d\'araignée, la {object:Cache d\'Isaari} apparaîtra ici.'
 L['isarris_cache_treasure'] = 'Cache d\'Isaari'
 L['jug_of_aged_ironwine_treasure'] = 'Cruche de vin de Fer vieilli'
 L['keluus_belongings_treasure'] = 'Affaires de Keluu'
@@ -460,7 +460,7 @@ L['ketyas_stash_treasure'] = 'Planque de Ketya'
 L['light_of_the_sea_treasure'] = 'Lumière de la Mer'
 L['lightbearer_treasure'] = 'Porte-Lumière'
 L['luminous_shell_treasure'] = 'Coquille lumineuse'
-L['noranas_cache_note'] = 'Sauvez 4 aventuriers piégés dans des toiles d\'araignée, la Cache de Norana apparaîtra ici.'
+L['noranas_cache_note'] = 'Sauvez 4 aventuriers piégés dans des toiles d\'araignée, la {object:Cache de Norana} apparaîtra ici.'
 L['noranas_cache_treasure'] = 'Cache de Norana'
 L['pure_crystal_dust_note'] = 'Niveau supérieur de la mine'
 L['pure_crystal_dust_treasure'] = 'Poussière de cristal pure'
@@ -488,19 +488,19 @@ L['ahm_follower_note'] = 'Terminez {quest:33973} puis rencontrez-le à votre fie
 L['defender_illona_follower_note'] = 'Complétez {quest:34777} pour la recruter comme sujet'
 L['pleasure_bot_8000_follower_note'] = 'Complétez {quest:34761} pour le recruter comme sujet'
 L['image_of_archmage_vargoth_follower_note'] = [[
-Trouvez 4 objets mystérieux en |cffffff00Draenor|r.
+Trouvez 4 objets mystérieux en {location:Draenor}.
 
-{quest:34463} se trouve en |cffffff00Gorgrond|r
-{quest:34464} se trouve à la |cffffff00Crête de Givrefeu|r
-{quest:34465} se trouve en |cffffff00Talador|r
-{quest:34466} se trouve à |cffffff00Nagrand|r
-Terminez chaque quête à {npc:86949} à la |cffffff00Tour de Khadgar|r en |cffffff00Talador|r qui aura alors {quest:34472}. Terminez la quête et parlez ensuite à l'{npc:77853} pour le recruter comme sujet.
+{quest:34463} se trouve en {location:Gorgrond}
+{quest:34464} se trouve à la {location:Crête de Givrefeu}
+{quest:34465} se trouve en {location:Talador}
+{quest:34466} se trouve à {location:Nagrand}
+Terminez chaque quête à {npc:86949} à la {location:Tour de Khadgar} en {location:Talador} qui aura alors {quest:34472}. Terminez la quête et parlez ensuite à l'{npc:77853} pour le recruter comme sujet.
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
-L['options_icons_cut_off_the_head_desc'] = 'Afficher les emplacements des monstres rares pour {achievement:9633}'
+L['options_icons_cut_off_the_head_desc'] = 'Afficher les emplacements des monstres rares pour le haut-fait {achievement:9633}'
 L['options_icons_wingmen'] = '{achievement:9499}'
-L['options_icons_wingmen_desc'] = 'Afficher les emplacements des farming pour {achievement:9499}'
+L['options_icons_wingmen_desc'] = 'Afficher les emplacements des farming pour le haut-fait {achievement:9499}'
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
@@ -524,9 +524,9 @@ L['grand_warlock_netherkurse_note'] = 'Tuer des ennemis autour du point d\'appar
 L['ceraxas_note'] = 'Fait apparaître un {npc:90426} donnant la quête {quest:38428} pour ce familier après l\'avoir tué.'
 L['commander_orgmok_note'] = 'Se déplace sur une {npc:89676}.'
 L['rendrak_note'] = 'Collectez 10 {item:124045} sur des {npc:89788} dans la tourbière. Combinez-les pour invoquer le rare.'
-L['akrrilo_note'] = 'Achetez un {item:124093} à {npc:92805} et utilisez-le à l\'arène de Croc’rila.'
-L['rendarr_note'] = 'Achetez un {item:124094} à {npc:92805} et utilisez-le à l\'arène de Croc’rila.'
-L['eyepiercer_note'] = 'Achetez un {item:124095} à {npc:92805} et utilisez-le à l\'arène de Croc’rila.'
+L['akrrilo_note'] = 'Achetez un {item:124093} à {npc:92805} et utilisez-le à l\'{location:Arène de Croc’rila}.'
+L['rendarr_note'] = 'Achetez un {item:124094} à {npc:92805} et utilisez-le à l\'{location:Arène de Croc’rila}.'
+L['eyepiercer_note'] = 'Achetez un {item:124095} à {npc:92805} et utilisez-le à l\'{location:Aène de Croc’rila}.'
 L['the_night_haunter_note'] = [[
 Accumulez 10 charges du debuff {spell:183612}.
 
