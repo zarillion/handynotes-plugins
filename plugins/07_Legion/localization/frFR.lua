@@ -15,10 +15,10 @@ L['commander_texlaz_note'] = 'Ne nécessite plus que l\'expédition {quest:48831
 L['doomcaster_suprax_note'] = 'Ne nécessite plus trois joueurs. Marchez simplement sur une rune pour invoquer {npc:127703}.'
 L['mother_rosula_note'] = 'Collectez 100 {item:152999} sur les {npc:126073} et combinez-les pour obtenir un {item:153013}. Utilisez l\'objet {item:153013} sur sa mare gangrenée'
 L['reziera_the_seer_note'] = 'Pendant que vous êtes buffé par {spell:254174}, collectez 500 {item:153021} pour acheter {item:153226} à {npc:128134}. Utilisez le {item:153226} pour être envoyé, vous (et votre groupe) vers {npc:127706}.'
-L['squadron_commander_vishax_note'] = 'Récupérez {item:152890} sur {npc:127598}.\n\nRécupérez {item:152941}, {item:152940}, et {item:152891} sur {npc:127597} et {npc:127596}.\n\nUtilisez {item:152890} pour obtenir {quest:49007}.\n\n' .. Orange('Cette quête peut être partagée')
+L['squadron_commander_vishax_note'] = 'Récupérez {item:152890} sur {npc:127598}.\n\nRécupérez {item:152941}, {item:152940}, et {item:152891} sur {npc:127597} et {npc:127596}.\n\nUtilisez {item:152890} pour obtenir {quest:49007}.\n\n{note:Cette quête peut être partagée}'
 L['ven_orn_note'] = 'Entrez dans la grotte aux araignées, prenez à droite, et descendez dans une autre petite grotte. Elle est dans cette 2ème chambre au fond.'
 
-L['the_many_faced_devourer_note'] = 'Récupérez {item:152786} sur les {npc:126193} et {npc:126171} dans le {location:Cimetière des Charognards}.\n\nCollectez {item:152991}, {item:152992}, et {item:152993}.\n\nInvoquez {npc:127581} à l\'{npc:127442}.\n\n' .. Orange('Si vous ne voyez pas l\'{npc:127442}, vous devrez peut-être vous reconnecter.')
+L['the_many_faced_devourer_note'] = 'Récupérez {item:152786} sur les {npc:126193} et {npc:126171} dans le {location:Cimetière des Charognards}.\n\nCollectez {item:152991}, {item:152992}, et {item:152993}.\n\nInvoquez {npc:127581} à l\'{npc:127442}.\n\n{note:Si vous ne voyez pas l\'{npc:127442}, vous devrez peut-être vous reconnecter.}'
 L['the_many_faced_devourer_checklist'] = Gold('Check-list des objets (dans les sacs ou la banque) :')
 
 L['orix_the_all_seer_note'] = 'Vend des objets de collection en échange d\'{item:153021}.'
@@ -39,7 +39,7 @@ L['fel_spotted_egg_contains'] = '{item:153190} peut contenir'
 L['goblin_glider_treasure_note'] = 'Utilisez {item:109076} pour planer jusqu\'au trésor.'
 L['lightforged_warframe_treasure_note'] = 'Activez l\'{item:152098} au {npc:121365} à bord du {npc:126426}.\n\nUtilisez l\'{item:152098} et {spell:250434} pour faire fondre les pierres et trouver le trésor.'
 L['lights_judgement_treasure_note'] = 'Activez {item:151830} au {npc:121365} à bord du {npc:126426}.\n\nUtilisez {item:151830} pour faire exploser les rochers et trouver le trésor.'
-L['shroud_of_arcane_echoes_treasures_note'] = 'Activez {item:151912} au {npc:121365} à bord du {npc:126426}.\n\nUtiliser {item:151912} déverrouille le trésor.\n\n' .. Red('"Ne s\'ouvrira qu\'à celui maniant le pouvoir faisant echo à celui des Augari."')
+L['shroud_of_arcane_echoes_treasures_note'] = 'Activez {item:151912} au {npc:121365} à bord du {npc:126426}.\n\nUtiliser {item:151912} déverrouille le trésor.\n\n{note:"Ne s\'ouvrira qu\'à celui maniant le pouvoir faisant echo à celui des Augari."}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
