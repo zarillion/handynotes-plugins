@@ -141,7 +141,7 @@ L['weapons_cache_treasure'] = 'Cache d’armes'
 L['ninja_pepe_note'] = 'Dans la cabane, assis sur une chaise.'
 L['ninja_pepe_treasure'] = 'Pépé ninja'
 
-L['protectors_of_the_grove_sublabel'] = '{npc:86259}}, {npc:86258}}, et {npc:86257}} forment les {object:Protecteurs du Bosquet}'
+L['protectors_of_the_grove_sublabel'] = '{npc:86259}, {npc:86258}, et {npc:86257} forment les {object:Protecteurs du Bosquet}'
 
 L['prove_your_strength_note'] = 'La capacité de fief {spell:164012} doit être active. Pour activer {location:L’arène d’entraînement}, rendez-vous à l\'avant-poste de votre faction.'
 L['prove_your_strength_drop_single'] = 'Lâché par %s.'
