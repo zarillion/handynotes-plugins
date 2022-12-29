@@ -50,9 +50,9 @@ local nel = Map({id = 2080, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[63695509] = Rare({ -- required 67030
+map.nodes[63695509] = Rare({ -- Spawn on the hour
     id = 193132,
-    quest = 69838,
+    quest = 73981,
     note = L['in_cave'],
     rewards = {Achievement({id = 16676, criteria = 56045})}
 }) -- Amethyzar the Glittering
@@ -410,7 +410,7 @@ map.nodes[34578950] = Rare({
     pois = {POI({36028984})} -- Entrance
 }) -- Slurpo, the Incredible Snail
 
-map.nodes[69486653] = Rare({ -- review -- required 67030
+map.nodes[69486653] = Rare({ -- Spawn on the hour
     id = 193120,
     quest = 74031,
     rewards = {
@@ -419,9 +419,9 @@ map.nodes[69486653] = Rare({ -- review -- required 67030
     }
 }) -- Smogswog the Firebreather
 
-map.nodes[78514999] = Rare({ -- required 67030
+map.nodes[78514999] = Rare({ -- Spawn on the hour
     id = 193228,
-    quest = 69874,
+    quest = 73997,
     rewards = {Achievement({id = 16676, criteria = 56042})},
     pois = {Path({78825133, 78575081, 78475028, 78514999, 78684964, 78674926})}
 }) -- Snappy (Gorjo the Crab Shackler)
