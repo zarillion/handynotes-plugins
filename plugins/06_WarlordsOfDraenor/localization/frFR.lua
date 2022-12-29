@@ -8,7 +8,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Frontière du réel'
-L['edge_of_reality_note'] = '{location:Frontière du réel} vous transportera dans un scénario, où vous pourrez récupérer {item:121815}.'
+L['edge_of_reality_note'] = '{object:Frontière du réel} vous transportera dans un scénario, où vous pourrez récupérer {item:121815}.'
 L['treasures_discovered'] = 'trésors découverts'
 L['strange_spore_treasure'] = 'Spore étrange'
 L['burning_blade_cache_treasure'] = 'Cache de la Lame-Ardente'
@@ -99,7 +99,7 @@ L['gronnstalker_rokash_follower_note'] = 'Complétez {quest:32981} pour le recru
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Afficher les emplacements de la {object:Page de journal en lambeaux} pour {achievement:9531}'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Affichez les emplacements des {object:Esclave gelé} et {object:Cage de prisonnier} pour {achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = 'Affichez les emplacements des {npc:82680} et {object:Cage de prisonnier} pour {achievement:9533}'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = 'Afficher les emplacements des spécialités pour {achievement:9534}'
 
@@ -141,7 +141,7 @@ L['weapons_cache_treasure'] = 'Cache d’armes'
 L['ninja_pepe_note'] = 'Dans la cabane, assis sur une chaise.'
 L['ninja_pepe_treasure'] = 'Pépé ninja'
 
-L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, et |cffffff00{npc:86257}|r forment les |cffffff00Protecteurs du Bosquet|r'
+L['protectors_of_the_grove_sublabel'] = '{npc:86259}}, {npc:86258}}, et {npc:86257}} forment les {object:Protecteurs du Bosquet}'
 
 L['prove_your_strength_note'] = 'La capacité de fief {spell:164012} doit être active. Pour activer {location:L’arène d’entraînement}, rendez-vous à l\'avant-poste de votre faction.'
 L['prove_your_strength_drop_single'] = 'Lâché par %s.'
@@ -251,9 +251,9 @@ L['warsong_relics'] = 'Contre une clôture à l\'extérieur d\'une hutte'
 L['stolen_draenei_tome'] = 'Peut apparaître à plusieurs endroits au sommet des tours'
 L['dirt_mound'] = 'Tuez {npc:86659} pour faire apparaître un {npc:87280} sur le sol à proximité. Cliquez sur le totem pour recevoir {spell:174572}. Vous pouvez maintenant creuser dans les {npc:87530} proches pour trouver des objets.'
 
-L['stable_master_note'] = 'Parlez à {stablemaster} pour recevoir un sifflet de dressage.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUtilisez le sifflet pour invoquer votre monture en dressage de monture et tuer la cible.\n\n{achievement:9539} nécessite une {item:118469} d\'une |cffffff00Écuries de niveau 2|r.\n{achievement:9540} nécessite un {item:118470} d\'une |cffffff00Écuries de niveau 3|r.'
+L['stable_master_note'] = 'Parlez à {stablemaster} pour recevoir un sifflet de dressage.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUtilisez le sifflet pour invoquer votre monture en dressage de monture et tuer la cible.\n\n{achievement:9539} nécessite une {item:118469} d\'une {location:Écuries de niveau 2}.\n{achievement:9540} nécessite un {item:118470} d\'une {location:Écuries de niveau 3}.'
 
-L['making_the_cut_note'] = 'Tant que {npc:88210} est disponible, tuez 15 {npc:88207} dans les environs de l\'{location:Arène de Sang}. Une fois que 15 ont été tués {npc:88210} deviendra ciblable.\n\n' .. ns.color.Red('Pas mal pour une bande de minables ! Venez affronter Krud quand vous serez prêt à mourir !')
+L['making_the_cut_note'] = 'Tant que {npc:88210} est disponible, tuez 15 {npc:88207} dans les environs de l\'{location:Arène de Sang}. Une fois que 15 ont été tués {npc:88210} deviendra ciblable.\n\n{yell:Pas mal pour une bande de minables ! Venez affronter Krud quand vous serez prêt à mourir !}'
 
 L['goldmane_follower_note'] = 'Tuez {npc:80080} à proximité pour récupérer {item:111863} et déverrouiller la cage pour recruter {npc:80083} comme sujet'
 L['abugar_follower_note'] = [[
@@ -382,7 +382,7 @@ L['smuggled_apexis_artifacts_treasure'] = 'Artéfacts apogides de contrebande'
 L['offering_to_the_raven_mother_treasure'] = 'Offrande à la Mère corbeau'
 
 L['elixir_of_shadow_sight_treasure'] = 'Élixir de vue de l\'Ombre'
-L['elixir_pre_note'] = 'Apportez-le à un {location:Sanctuaire de Terokk}.'
+L['elixir_pre_note'] = 'Apportez-le à un {object:Sanctuaire de Terokk}.'
 L['elixir_01_note'] = 'A côté d\'une petite cabane, dans un panier suspendu.'
 L['elixir_02_note'] = 'Dans un panier à l\'arrière d\'une hutte en feu.'
 L['elixir_03_note'] = 'Dans un panier entre un arbre et un mur cassé.'
@@ -403,18 +403,18 @@ Interagissez avec le {npc:85992} pour recevoir au hasard l'un des trois buffs.
 {spell:171768}
 ]]
 
-L['leorajh_follower_note'] = 'Parlez avec lui pour le recruter en tant que sujet'
+L['leorajh_follower_note'] = 'Parlez avec lui pour le recruter en tant que sujet.'
 
 L['options_icons_archaeology_treasure'] = 'Trésors Archéologiques'
-L['options_icons_archaeology_treasure_desc'] = 'Afficher les emplacements pour les trésors archéologiques'
+L['options_icons_archaeology_treasure_desc'] = 'Afficher les emplacements pour les trésors archéologiques.'
 L['options_icons_offering'] = 'Offrande à la Mère corbeau'
-L['options_icons_offering_desc'] = 'Afficher les emplacements des objets d\'{object:Offrande à la Mère corbeau}'
+L['options_icons_offering_desc'] = 'Afficher les emplacements des objets d\'{object:Offrande à la Mère corbeau}.'
 L['options_icons_shrines_of_terokk'] = 'Sanctuaires de Terokk'
-L['options_icons_shrines_of_terokk_desc'] = 'Afficher les emplacements des {location:Sanctuaires de Terokk}'
+L['options_icons_shrines_of_terokk_desc'] = 'Afficher les emplacements des {object:Sanctuaires de Terokk}.'
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
-L['options_icons_would_you_like_a_pamplet_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:9432}'
+L['options_icons_would_you_like_a_pamplet_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:9432}.'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
-L['options_icons_king_of_the_monsters_desc'] = 'Afficher les emplacements des rares pour le haut-fait {achievement:9601}'
+L['options_icons_king_of_the_monsters_desc'] = 'Afficher les emplacements des rares pour le haut-fait {achievement:9601}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
