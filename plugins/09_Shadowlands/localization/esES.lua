@@ -103,7 +103,7 @@ L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = 'Muestra dónde están los libros perdidos para el logro {achievement:14788}.'
 
 L['options_icons_wild_hunting'] = '{achievement:14779}'
-L['options_icons_wild_hunting_desc'] = 'Muestra dónde están las bestias de Ardenweald para el logro {achievement:14779}.'
+L['options_icons_wild_hunting_desc'] = 'Muestra dónde están las bestias de {location:Ardenweald} para el logro {achievement:14779}.'
 
 L['options_icons_wildseed_spirits'] = 'Espíritus de Semillas Silvestres'
 L['options_icons_wildseed_spirits_desc'] = 'Muestra dónde están las recompensas de los espíritus de semillas silvestres.'
@@ -224,7 +224,7 @@ L['vesper_of_purity'] = 'Campana de Vísperas de la Pureza'
 L['vesper_of_wisdom'] = 'Campana de Vísperas de la Sabiduría'
 L['vespers_ascended_note'] = 'Haz click en la campana de vísperas al mismo tiempo que en las otras cuatro campanas de vísperas para invocar a {npc:170899} en el {location:Crisol del Aspirante}.'
 L['options_icons_vespers'] = '{achievement:14734}'
-L['options_icons_vespers_desc'] = 'Muestra dónde están las campanas de vísperas para el logro {achievement:14734}.'
+L['options_icons_vespers_desc'] = 'Muestra dónde están las campanas para el logro {achievement:14734}.'
 
 L['anima_shard'] = 'Fragmento de Ánima Perdido'
 L['anima_shard_61225'] = 'En un piso por debajo del puente.'
@@ -351,12 +351,12 @@ Estos tres raros de {location:La Falla} suelen aparecer en  orden con 20 minutos
   3. {npc:179911}
 ]]
 L['options_icons_rift_portal'] = '{npc:179595}'
-L['options_icons_rift_portal_desc'] = 'Muestra dónde están los {npc:179595} usados para entrar en La Falla.'
+L['options_icons_rift_portal_desc'] = 'Muestra dónde están los {npc:179595} usados para entrar en {location:La Falla}.'
 
 L['riftbound_cache'] = 'Alijo Vinculafalla'
 L['riftbound_cache_note'] = 'Sólo pueden aparecer 4 alijos diferentes en un conjunto de sitios dentro de {location:La Falla.}'
 L['options_icons_riftbound_cache'] = 'Alijos Vinculafalla'
-L['options_icons_riftbound_cache_desc'] = 'Muestra dónde están los alijos dentro de La Falla.'
+L['options_icons_riftbound_cache_desc'] = 'Muestra dónde están los alijos dentro de {location:La Falla}.'
 
 L['invasive_mawshroom'] = 'Champifauces Invasivos'
 L['invasive_mawshroom_note'] = 'Sólo pueden aparecer 5 champifauces diferentes en un conjunto de sitios.'
@@ -369,13 +369,13 @@ L['korthia_shared_chest_note'] = 'Se pueden despojar 5 veces para coger reliquia
 L['unusual_nest'] = 'Nido de materiales inusuales'
 L['unusual_nest_note'] = 'Todos los sitios con nidos se pueden despojar sólo 5 veces al día.'
 
-L['options_icons_invasive_mawshroom_desc'] = 'Muestra dónde están los Champifauces Invasivos.'
+L['options_icons_invasive_mawshroom_desc'] = 'Muestra dónde están los {object:Champifauces Invasivos}.'
 L['options_icons_invasive_mawshroom'] = 'Champifauces Invasivos'
-L['options_icons_korthia_dailies_desc'] = 'Muestra dónde están los Alijos de Reliquias sin marcar.'
+L['options_icons_korthia_dailies_desc'] = 'Muestra dónde están los {object:Alijos de Reliquias sin marcar}.'
 L['options_icons_korthia_dailies'] = 'Alijos de Reliquias'
-L['options_icons_mawsworn_cache_desc'] = 'Muestra dónde están los Alijos jurafauces.'
+L['options_icons_mawsworn_cache_desc'] = 'Muestra dónde están los {object:Alijos jurafauces}.'
 L['options_icons_mawsworn_cache'] = 'Alijos jurafauces'
-L['options_icons_nest_materials_desc'] = 'Muestra dónde están los Nidos de Materiales Inusuales.'
+L['options_icons_nest_materials_desc'] = 'Muestra dónde están los {object:Nidos de Materiales Inusuales}.'
 L['options_icons_nest_materials'] = 'Nidos de Materiales Inusuales'
 
 -------------------------------------------------------------------------------
@@ -574,7 +574,7 @@ L['atonement_crypts_opened'] = 'Criptas de Expiación abiertas'
 L['atonement_crypt_key_label'] = '{item:172957}'
 L['atonement_crypt_key_note'] = '{item:172957} puede caer como botín de los enemigos en el área de las {location:Criptas de Expiación} area.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nLas mayores probabilidades las tiene {npc:158892}.'
 L['options_icons_crypt_kicker'] = '{achievement:14273}'
-L['options_icons_crypt_kicker_desc'] = 'Muestra dónde están las Criptas de Expiación para el logro {achievement:14273}.'
+L['options_icons_crypt_kicker_desc'] = 'Muestra dónde están las criptas para el logro {achievement:14273}.'
 
 L['broken_mirror'] = 'Espejo Roto'
 L['broken_mirror_note'] = 'Cada día estará activo un grupo de tres espejos rotos. Usa un {item:181363} para reparar cada espejo y abrir el {object:Cofre Olvidado} de dentro.'
@@ -608,16 +608,16 @@ L['spectral_feed_note'] = [[
 -------------------------------------------------------------------------------
 
 L['return_to_the_maw'] = 'Regreso a Las Fauces'
-L['maw_intro_note'] = 'Comienza la cadena de misiones introductoria de {npc:162804} para desbloquear los raros y los eventos en Las Fauces.'
+L['maw_intro_note'] = 'Comienza la cadena de misiones introductoria de {npc:162804} para desbloquear los raros y los eventos en {location:Las Fauces}.'
 
 L['apholeias_note'] = 'Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331783} para hacer aparecer a {npc:170301}.'
 L['dekaris_note'] = 'Encima de una gran roca que sobresale.'
 L['deomen_note'] = 'Para abrir esta jaula, entra en la cámara al sur y activa ambos controles de bloqueo a ambos lados de la sala.'
 L['drifting_sorrow_note'] = 'Mata {npc:175246} cerca del orbe flotante para activar el boss.'
 L['ekphoras_note'] = 'Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:330650} para hacer aparecer a {npc:169827}.'
-L['etherwyrm_note'] = 'Requiere que esté activo el asalto de las Sílfides Nocturnas. Mata al {npc:179030} mientrás estés en la falla para conseguir la {item:186190}. Usa la llave en la Jaula de Vermis de Éter (fuera de la falla) en la cueva Cuenca Desolada (donde está {npc:175821} cuando el asalto está inactivo).'
-L['fallen_charger_note'] = 'Después del grito a lo largo de la zona cogerá uno de los dos caminos hasta que alcance Korthia donde desaparecerá.'
-L['ikras_note'] = 'Vuela alrededor del Bastión de la Perdición. Este es un buen sitio para pullearlo.'
+L['etherwyrm_note'] = 'Requiere que esté activo el asalto de las {faction:2422}. Mata al {npc:179030} mientrás estés en {location:La Falla} para conseguir la {item:186190}. Usa la llave en la {object:Jaula de Vermis de Éter} (fuera de {location:La Falla}) en la cueva {location:Cuenca Desolada} (donde está {npc:175821} cuando el asalto está inactivo).'
+L['fallen_charger_note'] = 'Después del grito a lo largo de la zona cogerá uno de los dos caminos hasta que alcance {location:Korthia} donde desaparecerá.'
+L['ikras_note'] = 'Vuela alrededor del {location:Bastión de la Perdición}. Este es un buen sitio para pullearlo.'
 L['lilabom_note'] = [[
 Consigue las 5 partes para completar la mascota. Algunas partes pueden aparecer en varios sitios.
 
@@ -641,15 +641,15 @@ Mata a los tres Heraldos: {npc:169827}, {npc:170302} y {npc:170301}. Recoge de e
 • {item:182326}
 • {item:182327}
 
-Combina los tres grabados para crear la {item:182329}, la cual puede ser usada para invocar a {npc:170303} en el Altar de Dominación. Usa el {npc:173892} para llegar al nivel superior.
+Combina los tres grabados para crear la {item:182329}, la cual puede ser usada para invocar a {npc:170303} en el {location:Altar de Dominación}. Usa el {npc:173892} para llegar al nivel superior.
 ]]
 
-L['animaflow_teleporter_note'] = 'Actívalo para viajar directamente a otros lugares de Las Fauces.'
-L['chaotic_riftstone_note'] = 'Activa el {spell:344157} para cruzar rápidamente por Las Fauces.'
+L['animaflow_teleporter_note'] = 'Actívalo para viajar directamente a otros lugares de {location:Las Fauces}.'
+L['chaotic_riftstone_note'] = 'Activa el {spell:344157} para cruzar rápidamente por {location:Las Fauces}.'
 L['venari_note'] = [[
-Usa {currency:1767} para comprar mejoras en Las Fauces y Torghast.
+Usa {currency:1767} para comprar mejoras en {location:Las Fauces} y {location:Torghast}.
 
-|cFFFF8C00Las mejoras Compartidas en la Cuenta de Torghast se mostrarán como incompletas en los alters!|r
+{note:¡Las mejoras Compartidas en la {location:Cuenta de Torghast} se mostrarán como incompletas en los alters!}
 ]]
 L['venari_upgrade'] = 'Mejora de {npc:162804}'
 L['torghast'] = 'Torghast'
@@ -662,41 +662,41 @@ L['Tentative'] = 'Indecisa'
 L['stygian_cache'] = 'Alijo de Estigia'
 L['stygian_cache_note'] = '¡Sólo una persona puede despojar el alijo cada vez que aparezca!'
 
-L['box_of_torments_note'] = 'Abre los {npc:173837} bajo el Tremaculum.'
+L['box_of_torments_note'] = 'Abre los {npc:173837} bajo el {location:Tremaculum}.'
 L['tormentors_notes_note'] = 'Despoja el cuerpo del {npc:173811}.'
-L['words_of_warden_note'] = 'Examina el |cffffff00Trozo de Papel|r en la roca detrás de algunas urnas.'
+L['words_of_warden_note'] = 'Examina el {npc:173841} en la roca detrás de algunas urnas.'
 
 -- Locations given relative to a map area name
-L['nexus_area_calcis_branch'] = 'Encima de una rama de cristal de Calcis (usa el punto de agarre)'
-L['nexus_area_calcis_crystals'] = 'Detrás de unos cristales verdosos de Calcis'
-L['nexus_area_cradle_bridge'] = 'Debajo del puente de la Cuna de la Ruina'
-L['nexus_area_domination_bridge'] = 'En un puente al sur del Altar de la Dominación'
-L['nexus_area_domination_edge'] = 'En el borde de la cima del Altar de la Dominación'
-L['nexus_area_domination_room'] = 'En una habitación pequeña en lo alto del Altar de la Dominación'
-L['nexus_area_domination_stairs'] = 'En lo alto del Altar de la Dominación junto al {npc:173904}'
-L['nexus_area_gorgoa_bank'] = 'En la orilla de Gorgoa, Río de Almas'
-L['nexus_area_gorgoa_middle'] = 'Justo en medio del río, ¡que sí!'
-L['nexus_area_gorgoa_mouth'] = 'En la desembocadura de Gorgoa, Río de Almas'
-L['nexus_area_perdition_wall'] = 'A lo largo de la pared exterior del Bastión de la Perdición'
-L['nexus_area_torment_rock'] = 'En una roca en los Llanos del Tormento'
+L['nexus_area_calcis_branch'] = 'Encima de una rama de cristal de {location:Calcis} (usa el punto de agarre)'
+L['nexus_area_calcis_crystals'] = 'Detrás de unos cristales verdosos de {location:Calcis}'
+L['nexus_area_cradle_bridge'] = 'Debajo del puente de la {location:Cuna de la Ruina}'
+L['nexus_area_domination_bridge'] = 'En un puente al sur del {location:Altar de la Dominación}'
+L['nexus_area_domination_edge'] = 'En el borde de la cima del {location:Altar de la Dominación}'
+L['nexus_area_domination_room'] = 'En una habitación pequeña en lo alto del {location:Altar de la Dominación}'
+L['nexus_area_domination_stairs'] = 'En lo alto del {location:Altar de la Dominación} junto al {npc:173904}'
+L['nexus_area_gorgoa_bank'] = 'En la orilla de {location:Gorgoa, Río de Almas}'
+L['nexus_area_gorgoa_middle'] = 'Justo en medio del río'
+L['nexus_area_gorgoa_mouth'] = 'En la desembocadura de {location:Gorgoa, Río de Almas}'
+L['nexus_area_perdition_wall'] = 'A lo largo de la pared exterior del {location:Bastión de la Perdición}'
+L['nexus_area_torment_rock'] = 'En una roca en los {location:Llanos del Tormento}'
 L['nexus_area_zone_edge'] = 'A lo largo del borde de la zona'
-L['nexus_area_zovaal_edge'] = 'A lo largo del borde de la Caldera de Zovaal'
-L['nexus_area_zovaal_wall'] = 'A lo largo de la pared debajo de la Caldera de Zovaal'
+L['nexus_area_zovaal_edge'] = 'A lo largo del borde de la {location:Caldera de Zovaal}'
+L['nexus_area_zovaal_wall'] = 'A lo largo de la pared debajo de la {location:Caldera de Zovaal}'
 -- Locations given relative to a named cave/cavern
-L['nexus_cave_anguish_lower'] = 'En el Pozo de la Angustia (nivel inferior)'
-L['nexus_cave_anguish_outside'] = 'Fuera del Pozo de la Angustia'
-L['nexus_cave_anguish_upper'] = 'En el Pozo de la Angustia (nivel superior)'
-L['nexus_cave_desmotaeron'] = 'En una cueva pequeña fuera de Desmotaeron'
-L['nexus_cave_echoing_outside'] = 'Fuera de las Cavernas Resonantes'
-L['nexus_cave_forlorn'] = 'Dentro de la cueva Descanso Desolado'
-L['nexus_cave_howl_outside'] = 'En el suelo fuera de la cueva Aullido de la Muerte'
-L['nexus_cave_howl'] = 'Dentro de la cueva Aullido de la Muerte'
-L['nexus_cave_roar'] = 'Dentro de la cueva Rugido de la Muerte'
-L['nexus_cave_roar_outside'] = 'Fuera de la cueva Rugido de la Muerte'
+L['nexus_cave_anguish_lower'] = 'En el {location:Pozo de la Angustia} (nivel inferior)'
+L['nexus_cave_anguish_outside'] = 'Fuera del {location:Pozo de la Angustia}'
+L['nexus_cave_anguish_upper'] = 'En el {location:Pozo de la Angustia} (nivel superior)'
+L['nexus_cave_desmotaeron'] = 'En una cueva pequeña fuera de {location:Desmotaeron}'
+L['nexus_cave_echoing_outside'] = 'Fuera de las {location:Cavernas Resonantes}'
+L['nexus_cave_forlorn'] = 'Dentro de la cueva {location:Descanso Desolado}'
+L['nexus_cave_howl_outside'] = 'En el suelo fuera de la cueva {location:Aullido de la Muerte}'
+L['nexus_cave_howl'] = 'Dentro de la cueva {location:Aullido de la Muerte}'
+L['nexus_cave_roar'] = 'Dentro de la cueva {location:Rugido de la Muerte}'
+L['nexus_cave_roar_outside'] = 'Fuera de la cueva {location:Rugido de la Muerte}'
 L['nexus_cave_ledge'] = 'En una cueva pequeña debajo de un saliente'
-L['nexus_cave_prodigum'] = 'En una cueva pequeña en el Prodigum'
-L['nexus_cave_soulstained'] = 'En una cueva pequeña en los Campos Manchados de Almas'
-L['nexus_cave_torturer'] = 'Dentro del Cobertizo del Torturador'
+L['nexus_cave_prodigum'] = 'En una cueva pequeña en el {location:Prodigum}'
+L['nexus_cave_soulstained'] = 'En una cueva pequeña en los {location:Campos Manchados de Almas}'
+L['nexus_cave_torturer'] = 'Dentro del {location:Cobertizo del Torturador}'
 -- Locations given relative to a named NPC
 L['nexus_npc_akros'] = 'En lo alto de las escaleras junto a {npc:170787}'
 L['nexus_npc_dekaris'] = 'En la cima del pico donde está el {npc:157964}'
@@ -728,11 +728,11 @@ L['nexus_misc_three_chains'] = 'En el suelo, cerca de tres cadenas'
 L['stolen_anima_vessel'] = 'Receptáculo de Ánima Robado'
 L['hidden_anima_cache'] = 'Alijo de Ánima Oculto'
 L['options_icons_anima_vessel'] = 'Receptáculos de Ánima Robados'
-L['options_icons_anima_vessel_desc'] = 'Muestra dónde están los receptáculos de ánima durante los asaltos y dentro de |cFFFFFF00La Falla|r.'
+L['options_icons_anima_vessel_desc'] = 'Muestra dónde están los receptáculos de ánima durante los asaltos y dentro de {location:La Falla}.'
 
 L['rift_hidden_cache'] = 'Alijo Oculto de Falla'
 L['options_icons_rift_hidden_cache'] = 'Alijos Ocultos de Falla'
-L['options_icons_rift_hidden_cache_desc'] = 'Muestra donde están los alijos dentro de |cFFFFFF00La Falla|r.'
+L['options_icons_rift_hidden_cache_desc'] = 'Muestra donde están los alijos dentro de {location:La Falla}.'
 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'
 L['options_icons_bonus_boss_desc'] = 'Muestra dónde están los élites de bonificación.'
@@ -748,26 +748,26 @@ L['options_icons_stygian_caches_desc'] = 'Muestra dónde están los alijos con E
 L['cov_assault_only'] = 'Disponible sólo durante el asalto de %s.'
 
 L['helgarde_supply'] = 'Alijo de Suministros de Helgarde'
-L['helgarde_supply_note'] = 'Aparece a lo largo de la zona de Desmotaeron. Tu {npc:180598} puede ayudarte a encontrarlos.'
+L['helgarde_supply_note'] = 'Aparece a lo largo de la zona de {location:Desmotaeron}. Tu {npc:180598} puede ayudarte a encontrarlos.'
 L['options_icons_helgarde_cache'] = 'Alijos de Suministros de Helgarde'
-L['options_icons_helgarde_cache_desc'] = 'Muestra dónde están los Alijos de Suministros de Helgarde en la zona de Desmotaeron.'
+L['options_icons_helgarde_cache_desc'] = 'Muestra dónde están los {object:Alijos de Suministros de Helgarde} en la zona de {location:Desmotaeron}.'
 
 L['mawsworn_cache_ramparts_note'] = 'Este alijo está sobre las murallas. Usa los puntos de agarre o un {npc:177093} para llegar a ellos.'
 L['mawsworn_cache_tower_note'] = 'Este alijo está sobre una torre y requiere un {npc:177093} para llegar. Usa la habilidad {spell:349853} para saltar arriba.'
 L['mawsworn_cache_quest_note'] = 'The {item:186573} will only drop after you have completed the {quest:63545} quest!'
 
-L['nilg_silver_ring_note'] = 'Recoge 4 {item:186727} en Desmotaeron para abrir el Cofre Sellado de Dominación.'
+L['nilg_silver_ring_note'] = 'Recoge 4 {item:186727} en {location:Desmotaeron} para abrir el {object:Cofre Sellado de Dominación}.'
 L['nilg_silver_ring_note1'] = 'Mata a {npc:177444} y abre la {item:186970}.'
-L['nilg_silver_ring_note2'] = 'Despoja el Llavero de La Lacerante, que está en una habitación subterránea de la pared al lado de {npc:178311}.'
-L['nilg_silver_ring_note3'] = 'Abre Alijos de Suministros de Helgarde en la zona de Desmotaeron. Tu {npc:180598} puede ayudarte a encontrarlos.'
-L['nilg_silver_ring_note4'] = 'Mata {npc:177134} en la zona de Desmotaeron (drop bajo).'
-L['nilg_stone_ring_note'] = 'Recoge 4 {item:186600} durante el asalto de los Necroseñores y combínalos en cualquier {npc:171492} en la Caldera de Zovaal.'
-L['nilg_stone_ring_note1'] = 'Está en algunos Alijos Jurafauces (icono amarillo) sobre las murallas del Bastión de la Perdición.'
-L['nilg_stone_ring_note2'] = 'Completa la misión {quest:63545}, y entonces despoja los Alijos Jurafauces hasta encontrar el item de misión {item:186573}. ¡Esta misión se puede compartir!'
-L['nilg_stone_ring_note3'] = 'Se despoja de un {npc:179601} que entra por el puerte de la entrada oeste del Bastión de la Perdición (28,57).'
-L['nilg_stone_ring_note4'] = 'Está por el suelo del Bastión de la Perdición cerca del {npc:170634}. Tu {npc:180598} puede ayudarte a encontrarlo.'
+L['nilg_silver_ring_note2'] = 'Despoja el {object:Llavero de La Lacerante}, que está en una habitación subterránea de la pared al lado de {npc:178311}.'
+L['nilg_silver_ring_note3'] = 'Abre {object:Alijos de Suministros de Helgarde} en la zona de {location:Desmotaeron}. Tu {npc:180598} puede ayudarte a encontrarlos.'
+L['nilg_silver_ring_note4'] = 'Mata {npc:177134} en la zona de {location:Desmotaeron} (drop bajo).'
+L['nilg_stone_ring_note'] = 'Recoge 4 {item:186600} durante el asalto del {faction:2410} y combínalos en cualquier {npc:171492} en la {location:Caldera de Zovaal}.'
+L['nilg_stone_ring_note1'] = 'Está en algunos {object:Alijos Jurafauces} (icono amarillo) sobre las murallas del {location:Bastión de la Perdición}.'
+L['nilg_stone_ring_note2'] = 'Completa la misión {quest:63545}, y entonces despoja los {object:Alijos Jurafauces} hasta encontrar el item de misión {item:186573}. ¡Esta misión se puede compartir!'
+L['nilg_stone_ring_note3'] = 'Se despoja de un {npc:179601} que entra por el puerte de la entrada oeste del {location:Bastión de la Perdición} (28,57).'
+L['nilg_stone_ring_note4'] = 'Está por el suelo del {location:Bastión de la Perdición} cerca del {npc:170634}. Tu {npc:180598} puede ayudarte a encontrarlo.'
 L['nilg_gold_band_note'] = 'Usa el punto de agarre y sigue el camino a la cima de la montaña.'
-L['nilganihmaht_note'] = 'Tienes que recoger los 5 anillos y llevarlos a {npc:179572} en la falla.'
+L['nilganihmaht_note'] = 'Tienes que recoger los 5 anillos y llevarlos a {npc:179572} en {location:La Falla}.'
 L['calcis'] = 'Calcis'
 L['desmotaeron'] = 'Desmotaeron'
 
@@ -808,7 +808,7 @@ L['night_fae_assault_quantity_note'] = 'Alijos Ocultos de Falla abiertos.'
 L['kyrian_assault'] = '{quest:63824}'
 L['kyrian_assault_note'] = 'El {item:185993} sólo se puede conseguir una vez por asalto.'
 L['kyrian_assault_quantity_note1'] = '{npc:179096} encontrado.'
-L['kyrian_assault_quantity_note2'] = 'Teclea /dance cerca de las forjas.'
+L['kyrian_assault_quantity_note2'] = 'Teclea {emote:/dance} cerca de las forjas.'
 
 -------------------------------------------------------------------------------
 ---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
