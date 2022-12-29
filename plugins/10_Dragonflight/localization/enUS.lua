@@ -28,7 +28,7 @@ L['broken_banding_note'] = 'On the statue\'s right foot\'s ankle.'
 L['chunk_of_sculpture_note'] = 'On the ground, from the dragon statue on the left.'
 L['dislodged_dragoneye_note'] = 'On a rock under the dragon statue\'s chest.'
 L['finely_carved_wing_note'] = 'Under the dragon statue\'s right knee.'
-L['fragment_requirement_note'] = ns.color.Red('Before you can collect loose pieces, you need to ask {npc:193915} in {location:Wingrest Embassy} at the dragon statue what she is doing here.')
+L['fragment_requirement_note'] = '{note:Before you can collect loose pieces, you need to ask {npc:193915} in {location:Wingrest Embassy} at the dragon statue what she is doing here.}'
 L['golden_claw_note'] = 'At the dragon statue\'s rear right claw.'
 L['precious_stone_fragment_note'] = 'Under the statue\'s right foot.'
 L['stone_dragontooth_note'] = 'On the ground next to the pedestal of the dragon statue.'
@@ -82,7 +82,7 @@ L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = 'Display legendary character locations for {achievement:16570}.'
 
 L['signal_transmitter_label'] = 'Wyrmhole Generator Signal Transmitter'
-L['signal_transmitter_note'] = ns.color.Orange('Requires 10 points in Mechanical Mind\nRequires 30 points in Novelties') .. '\n\nInteract with the {object:Deactivated Signal Transmitter} to allow for teleportation to this location.'
+L['signal_transmitter_note'] = '{note:Requires 10 points in Mechanical Mind\nRequires 30 points in Novelties.}\n\nInteract with the {object:Deactivated Signal Transmitter} to allow for teleportation to this location.'
 L['options_icons_signal_transmitter'] = 'Wyrmhole Generator Signal Transmitters'
 L['options_icons_signal_transmitter_desc'] = 'Display the locations of {object:Deactivated Signal Transmitters} for the {item:198156}.'
 
@@ -135,7 +135,7 @@ L['snowman_note'] = 'There are three {npc:197599s} laying in the area (might hav
 L['snowclaw_cub_note_start'] = 'You must complete the {quest:67094} quest chain offered by {npc:192522} in {location:Valdrakken} to obtain the {title:Honorary Dryad} title.\n\nGather the following items:'
 L['snowclaw_cub_note_item1'] = 'Loot 3x {item:197744} from various {npc:182559s} around {location:The Waking Shores}.'
 L['snowclaw_cub_note_item2'] = 'Purchase 1x {item:198356} from {npc:193310} in {location:The Waking Shores}.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('All items can be purchased from the auction house. This is especially helpful if you do not easily have access to a {item:199215} which is required to purchase items from {npc:193310}.') .. '\n\nOnce you have the {title:Honorary Dryad} title equipped offer all 4 items to {npc:196768} to receive your pet.\n\n{bug:(BUG: Title may disappear pending fix)}'
+L['snowclaw_cub_note_end'] = '{note:All items can be purchased from the auction house. This is especially helpful if you do not easily have access to a {item:199215} which is required to purchase items from {npc:193310}.}\n\nOnce you have the {title:Honorary Dryad} title equipped offer all 4 items to {npc:196768} to receive your pet.\n\n{bug:(BUG: Title may disappear pending fix)}'
 
 L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact with the {object:Manastorming For Beginners} book to complete the quest.'
 
@@ -376,12 +376,12 @@ L['slumbering_worldsnail_note1'] = [[
 
 5. Collect 1000x {item:202173} to purchase {item:192786}.]]
 
-L['slumbering_worldsnail_note2'] = ns.color.Orange('If you die you will lose your membership debuff. Either purchase a new membership from {npc:193310} for 20x {item:202173} before you die or you need to turn in more keys for a chance at a new membership from the chest.')
+L['slumbering_worldsnail_note2'] = '{note:If you die you will lose your membership debuff. Either purchase a new membership from {npc:193310} for 20x {item:202173} before you die or you need to turn in more keys for a chance at a new membership from the chest.}'
 
-L['magmashell_note'] = 'Loot {item:201883} from {npc:193138} around {location:Obsidian Citadel} and bring it to the {npc:199010}.\n\n' .. ns.color.Orange('There is a 20 second spell channel while in the lava to obtain the mount so bringing a healer or something like {item:200116} is recommended}.')
+L['magmashell_note'] = 'Loot {item:201883} from {npc:193138} around {location:Obsidian Citadel} and bring it to the {npc:199010}.\n\n{note:There is a 20 second spell channel while in the lava to obtain the mount so bringing a healer or something like {item:200116} is recommended}.}'
 
 L['otto_note_start1'] = 'Collect a pair of {item:202042}. The glasses are a 100% drop from the {item:202102} which is purchased from {npc:191608} in the {location:Ohn\'ahran Plains}.\n\nThe bag can be purchased with 1x {item:199340} which can be purchased with 5x {item:199339} which can be purchased with 75x {item:199338} which can be fished up around {location:The Dragon Isles} or by defeating {title:<Lunker>} mobs in fishing holes.'
-L['otto_note_start2'] = ns.color.Orange('Defeating {title:<Lunker>} mobs will require Renown 7 with the {faction:2511} and access to the {item:194510}.')
+L['otto_note_start2'] = '{note:Defeating {title:<Lunker>} mobs will require Renown 7 with the {faction:2511} and access to the {item:194510}.}'
 L['otto_note_start3'] = 'Once you have a pair of {item:202042} head over to {location:The Bubble Bath} dive bar in the {location:Hissing Grotto} find a dancing mat, and stand on it to get the debuff {spell:396539}. Once the debuff expires you will pass out and wake up next to a barrel. Interact with it to loot the {item:202061}. You now need to fill the barrel with fish to feed to {npc:199563}.'
 L['otto_note_item1'] = 'Collect 100x {item:202072}, a high drop fish that can be fished in the open waters of {location:Iskaara} in {location:Azure Span}. Using the barrel with the fish gives you a {item:202066}.'
 L['otto_note_item2'] = 'Collect 25x {item:202073}, a rare drop fish that can be fished in the lava around the {location:Obsidian Citadel} in {location:The Waking Shores}. Using the barrel with the fish gives you a {item:202068}.'
