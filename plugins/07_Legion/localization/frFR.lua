@@ -82,7 +82,7 @@ L['book_7'] = 'Livre 7 (Samedi)'
 
 L['higher_dimensional_learning_location'] = 'Situé au sommet de la tour.'
 L['higher_dimensional_learning_note'] = 'Achetez le {item:129276} à {npc:107376} au {location:Palais Croulant}. Utilisez le {item:129276} chaque jour pour être téléporté à un emplacement de livre différent.\n\nLivre 1 : Dimanche\nLivre 2 : Lundi\nLivre 3 : Mardi\nLivre 4 : Mercredis\nLivre 5 : Jeudi\nLivre 6 : Vendredi\nLivre 7 : Samedi'
-L['higher_dimensional_learning_disclaimer'] = 'Être téléporté à l\'emplacement d\'un livre ne garantit pas que le livre apparaîtra. Vous devrez peut-être attendre ou revenir plus tard.'
+L['higher_dimensional_learning_disclaimer'] = '{note:Être téléporté à l\'emplacement d\'un livre ne garantit pas que le livre apparaîtra. Vous devrez peut-être attendre ou revenir plus tard.}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:11175}.'
@@ -207,4 +207,4 @@ L['small_treasure_chest'] = 'Petit coffre au trésor'
 L['treasure_chest'] = 'Coffre au trésor'
 L['treasures_discovered'] = 'trésors découverts'
 
-L['general_pet_tamer_note'] = ns.color.Orange('Apparaît uniquement lorsque l\'expédition correspondante est active.')
+L['general_pet_tamer_note'] = '{note:Apparaît uniquement lorsque l\'expédition correspondante est active.}'

@@ -1606,7 +1606,7 @@ map.nodes[17208740] = Safari({
     }
 }) -- Palamanther
 
-map.nodes[34001500] = Safari({
+map.nodes[77203200] = Safari({
     id = 189093,
     rewards = {Achievement({id = 16519, criteria = 55654}), Pet({id = 3272})},
     pois = {

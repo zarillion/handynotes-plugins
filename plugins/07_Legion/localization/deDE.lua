@@ -81,7 +81,7 @@ L['book_7'] = 'Kapitel 7 (Samstag)'
 
 L['higher_dimensional_learning_location'] = 'Befindet sich auf dem Turm.'
 L['higher_dimensional_learning_note'] = 'Kaufe einen {item:129276} von {npc:107376} bei |cFFFFFD00Der Zerfallene Palast|r. Benutze täglich den {item:129276}, um zu einem anderen Kapitel teleportiert zu werden.\n\nKapitel 1: Sonntag\nKapitel 2: Montag\nKapitel 3: Dienstag\nKapitel 4: Mittwoch\nKapitel 5: Donnerstag\nKapitel 6: Freitag\nKapitel 7: Samstag'
-L['higher_dimensional_learning_disclaimer'] = 'Teleportieren zu einem Kapitel garantiert nicht, dass dieses erscheinen wird. Möglicherweise musst du warten oder später noch einmal nachsehen.'
+L['higher_dimensional_learning_disclaimer'] = '{note:Teleportieren zu einem Kapitel garantiert nicht, dass dieses erscheinen wird. Möglicherweise musst du warten oder später noch einmal nachsehen.}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = 'Zeigt die Position der Kapitel für den Erfolg {achievement:11175} an.'
@@ -205,4 +205,4 @@ L['small_treasure_chest'] = 'Kleine Schatztruhe'
 L['treasure_chest'] = 'Schatztruhe'
 L['treasures_discovered'] = 'Schätze entdeckt'
 
-L['general_pet_tamer_note'] = ns.color.Orange('Erscheint nur, wenn die entsprechende Weltquest aktiv ist.')
+L['general_pet_tamer_note'] = '{note:Erscheint nur, wenn die entsprechende Weltquest aktiv ist.}'

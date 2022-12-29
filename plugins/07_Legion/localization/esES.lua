@@ -82,7 +82,7 @@ L['book_7'] = 'Libro 7 (Sábado)'
 
 L['higher_dimensional_learning_location'] = 'Está encima de la torre.'
 L['higher_dimensional_learning_note'] = 'Compra una {item:129276} de {npc:107376} en el |cFFFFFD00Palacio Derrumbado|r. Usa la {item:129276} cada día para teleportarse a una ubicación distinta de un libro.\n\nLibro 1: Domingo\nLibro 2: Lunes\nLibro 3: Martes\nLibro 4: Miércoles\nLibro 5: Jueves\nLibro 6: Viernes\nLibro 7: Sábado'
-L['higher_dimensional_learning_disclaimer'] = 'Teleportarse a la ubicación de un libro no garantiza que el libro aparezca. Quizás tengas que esperar o volver más tarde.'
+L['higher_dimensional_learning_disclaimer'] = '{note:Teleportarse a la ubicación de un libro no garantiza que el libro aparezca. Quizás tengas que esperar o volver más tarde.}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = 'Muestra dónde están los libros para el logro {achievement:11175}.'
@@ -207,4 +207,4 @@ L['small_treasure_chest'] = 'Arqueta Pequeña'
 L['treasure_chest'] = 'Arqueta'
 L['treasures_discovered'] = 'tesoros descubiertos'
 
-L['general_pet_tamer_note'] = ns.color.Orange('Sólo aparece cuando la misión del mundo para él está disponible.')
+L['general_pet_tamer_note'] = '{note:Sólo aparece cuando la misión del mundo para él está disponible.}'

@@ -81,7 +81,7 @@ L['book_7'] = '第七章（周六）'
 
 L['higher_dimensional_learning_location'] = '位于塔顶。'
 L['higher_dimensional_learning_note'] = '从 {location:倾颓王宫} 的 {npc:107376} 购买 {item:129276}。每天使用 {item:129276} 将传送到不同书的位置。\n\n第一章（周日）\n第二章（周一）\n第三章（周二）\n第四章（周三）\n第五章（周四）\n第六章（周五）\n第七章（周六）'
-L['higher_dimensional_learning_disclaimer'] = '传送到书本位置并不能保证这本书会刷新。可能需要等待或稍后再回来查看。'
+L['higher_dimensional_learning_disclaimer'] = '{note:传送到书本位置并不能保证这本书会刷新。可能需要等待或稍后再回来查看。}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = '显示 {achievement:11175} 成就中书的位置。'
@@ -209,4 +209,4 @@ L['small_treasure_chest'] = '小宝箱'
 L['treasure_chest'] = '宝箱'
 L['treasures_discovered'] = '已发现宝箱'
 
-L['general_pet_tamer_note'] = ns.color.Orange('相对应的世界任务激活时才会出现。')
+L['general_pet_tamer_note'] = '{相对应的世界任务激活时才会出现。}'

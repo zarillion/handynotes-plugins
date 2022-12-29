@@ -688,14 +688,14 @@ L['options_icons_tales_of_de_loa'] = '{achievement:13036}'
 L['options_icons_tales_of_de_loa_desc'] = '显示 {achievement:13036} 成就中洛阿神灵传说的位置。'
 
 L['jani_note'] = '点击 {object:神秘垃圾堆} 显露 {npc:126334}。'
-L['rezan_note'] = ns.color.Red('位于 {location:阿塔达萨} 地下城。')
+L['rezan_note'] = '{note:位于 {location:阿塔达萨} 地下城。}'
 L['bow_to_your_masters_note'] = '向 {location:赞达拉} 洛阿神灵 {emote:/鞠躬}，{emote:/bow}。'
 L['options_icons_bow_to_your_masters'] = '{achievement:13020}'
 L['options_icons_bow_to_your_masters_desc'] = '显示 {achievement:13020} 成就中洛阿神灵的位置。'
 
 L['alisha_note'] = '此供应商需要 {location:德鲁斯瓦} 的任务进度。'
 L['elijah_note'] = '此供应商需要 {location:德鲁斯瓦} 的任务进度。完成 {quest:47945} 后他开始出售香肠。'
-L['raal_note'] = ns.color.Red('{location:维克雷斯庄园} 地下城内。')
+L['raal_note'] = '{note:{location:维克雷斯庄园} 地下城内。}'
 L['sausage_sampler_note'] = '品尝每种香肠获得成就。'
 L['options_icons_sausage_sampler'] = '{achievement:13087}'
 L['options_icons_sausage_sampler_desc'] = '显示 {achievement:13087} 成就中供应商的位置。'
@@ -719,7 +719,7 @@ L['options_icons_daily_chests'] = '宝箱'
 
 L['supply_chest'] = '战争补给箱'
 L['supply_chest_note'] = '一个 {npc:135181} 或 {npc:138694} 每隔45分钟就会在头顶飞过一次，并空投一个 {npc:135238} 到潜在可能的三个位置之一。'
-L['supply_single_drop'] = ns.color.Orange('该飞行路线总是将补给箱空投到此位置。')
+L['supply_single_drop'] = '{note:该飞行路线总是将补给箱空投到此位置。}'
 L['options_icons_supplies_desc'] = '显示 {npc:135238} 的空投位置。'
 L['options_icons_supplies'] = '{npc:135238}'
 

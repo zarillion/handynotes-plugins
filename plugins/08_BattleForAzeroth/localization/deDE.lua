@@ -493,7 +493,7 @@ Violett => Schwarz
 
 L['bear_spirit_note'] = 'Töte {npc:160404} und alle Wellen von Gegnern, um einen 10% Tempo Stärkungszauber zu erhalten.'
 L['buffs_change'] = 'Verfügbare Stärkungszauber ändern sich jeden Durchlauf. Wenn das Gebäude geschlossen ist, der NPC oder das Objekt fehlt ist dieser in diesem Durchlauf nicht verfügbar.'
-L['clear_sight'] = ns.color.Red('Benötigt Klare Sicht Rang %d.')
+L['clear_sight'] = '{note:Benötigt Klare Sicht Rang %d.}'
 L['craggle'] = 'Platziere ein Spielzeug auf dem Boden (z.b. das {item:44606), um ihn abzulenken. Ziehe seine Bots zurseite und töte diese zuerst.'
 L['empowered_note'] = 'Gehe durch das Minenfeld die Treppe nach oben und stelle dich auf die Experimentelle Stärkungsmine für einen 10% Schaden Stärkungszauber.'
 L['enriched_note'] = 'Töte die {npc:161293}, um einen 10% kritische Trefferwertung Stärkungszauber zu erhalten.'
@@ -672,12 +672,12 @@ L['golden_junk_note'] = format(hekd_item, '{item:156963}', '{npc:122504en}')
 L['great_hat_junk_note'] = format(hekd_quest, '{quest:50381}')
 L['hunter_junk_note'] = format(hekd_quest, '{quest:50332}')
 L['loa_road_junk_note'] = format(hekd_quest, '{quest:50444}')
-L['nazwathan_junk_note'] = format(hekd_item, '{item:157802}', ns.color.Yellow('Wächtern von Nazwatha')) -- {npc:131155}
-L['redrock_junk_note'] = format(hekd_item, '{item:158916}', ns.color.Yellow('Aasfressern von Rotfels')) -- {npc:134718}
+L['nazwathan_junk_note'] = format(hekd_item, '{item:157802}', '{npc:131155}')
+L['redrock_junk_note'] = format(hekd_item, '{item:158916}', '{npc:134718}')
 L['ringhorn_junk_note'] = format(hekd_item, '{item:158915}', '{npc:130316n}')
 L['saurid_junk_note'] = format(hekd_quest, '{quest:50901}')
 L['snapjaw_junk_note'] = format(hekd_item, '{item:157801}', '{npc:126723n}')
-L['vilescale_junk_note'] = format(hekd_item, '{item:157797}', ns.color.Yellow('Wächtern der Faulschuppen')) -- {npc:125393}
+L['vilescale_junk_note'] = format(hekd_item, '{item:157797}', '{npc:125393}')
 L['options_icons_get_hekd'] = '{achievement:12482}'
 L['options_icons_get_hekd_desc'] = 'Zeigt die Aufgaben von Jani für den Erfolg {achievement:12482} an.'
 
@@ -688,14 +688,14 @@ L['options_icons_tales_of_de_loa'] = '{achievement:13036}'
 L['options_icons_tales_of_de_loa_desc'] = 'Zeigt die Legend\'n der Loa für den Erfolg {achievement:13036} an.'
 
 L['jani_note'] = 'Klicke den Mysteriösen Müllhaufen an, damit {npc:126334} erscheint.'
-L['rezan_note'] = ns.color.Red('Im Dungeon "Atal\'Dazar"')
-L['bow_to_your_masters_note'] = 'Zollt den Loa Zandalars Respekt, indem Ihr Euch vor ihnen verbeugt (' .. ns.color.Orange('/verbeugen') .. ').'
+L['rezan_note'] = '{note:Im Dungeon {location:"Atal\'Dazar"}}'
+L['bow_to_your_masters_note'] = 'Zollt den Loa Zandalars Respekt, indem Ihr Euch vor ihnen verbeugt ({emote:/verbeugen}).'
 L['options_icons_bow_to_your_masters'] = '{achievement:13020}'
 L['options_icons_bow_to_your_masters_desc'] = 'Zeigt die Loa für den Erfolg {achievement:13020} an.'
 
 L['alisha_note'] = 'Dieser Händler benötigt einen gewissen Questfortschritt in Drustvar.'
 L['elijah_note'] = 'Dieser Händler benötigt einen gewissen Questfortschritt in Drustvar. Er verkauft erst nach der Quest {quest:47945} Würste.'
-L['raal_note'] = ns.color.Red('Im Dungeon "Das Kronsteiganwesen".')
+L['raal_note'] = '{note:Im Dungeon {location:"Das Kronsteiganwesen"}.}'
 L['sausage_sampler_note'] = 'Iss einmal jede Wurst, um den Erfolg zu erringen.'
 L['options_icons_sausage_sampler'] = '{achievement:13087}'
 L['options_icons_sausage_sampler_desc'] = 'Zeigt die Händler für den Erfolg {achievement:13087} an.'
@@ -719,15 +719,15 @@ L['options_icons_daily_chests'] = 'Truhen'
 
 L['supply_chest'] = 'Kiste mit Kriegsvorräten'
 L['supply_chest_note'] = 'Eine {npc:135181} oder {npc:138694} fliegt alle 45 min durch die Zone und wirft eine {npc:135238} an einer der drei möglichen Positionen ab.'
-L['supply_single_drop'] = ns.color.Orange('Bei dieser Flugbahn wird die Versorgungskiste immer an dieser Stelle fallen gelassen.')
+L['supply_single_drop'] = '{note:Bei dieser Flugbahn wird die Versorgungskiste immer an dieser Stelle fallen gelassen.}'
 L['options_icons_supplies_desc'] = 'Zeigt alle möglichen Positionen für Kisten mit Kriegsvorräten an.'
 L['options_icons_supplies'] = 'Kisten mit Kriegsvorräten'
 
 L['secret_supply_chest'] = 'Geheime Vorratstruhe'
-L['secret_supply_chest_note'] = 'Wenn ein Übergriff aktiv ist, kann eine ' .. ns.color.Yellow('geheime Vorratstruhe') .. ' für eine kurze Zeit an einer dieser Positionen erscheinen.'
+L['secret_supply_chest_note'] = 'Wenn ein Übergriff aktiv ist, kann eine {object:geheime Vorratstruhe} für eine kurze Zeit an einer dieser Positionen erscheinen.'
 L['options_icons_secret_supplies'] = 'Geheime Vorratstruhen'
-L['options_icons_secret_supplies_desc'] = 'Zeigt die ' .. ns.color.Yellow('geheimen Vorratstruhen') .. ' für den Erfolg {achievement:13317} an.'
+L['options_icons_secret_supplies_desc'] = 'Zeigt die {object:geheimen Vorratstruhen} für den Erfolg {achievement:13317} an.'
 
-L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE Kampfhaustiere).'
+L['squirrels_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden (KEINE Kampfhaustiere).'
 L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:14730} an.'

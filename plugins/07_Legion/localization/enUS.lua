@@ -14,10 +14,10 @@ L['commander_texlaz_note'] = 'No longer requires {quest:48831} world quest to be
 L['doomcaster_suprax_note'] = 'No longer requires three players. Simply step on a rune to summon {npc:127703}.'
 L['mother_rosula_note'] = 'Collect 100 {item:152999} from {npc:126073} and combine them to make a {item:153013}. Use the {item:153013} on her fel pool.'
 L['reziera_the_seer_note'] = 'While buffed with {spell:254174} collect 500 {item:153021} to purchase {item:153226} from {npc:128134}. Use the {item:153226} to send you (and your party) to {npc:127706}.'
-L['squadron_commander_vishax_note'] = 'Collect {item:152890} from {npc:127598}.\n\nCollect {item:152941}, {item:152940}, and {item:152891} from {npc:127597} and {npc:127596}.\n\nUse {item:152890} to get {quest:49007}.\n\n' .. Orange('This quest is sharable')
+L['squadron_commander_vishax_note'] = 'Collect {item:152890} from {npc:127598}.\n\nCollect {item:152941}, {item:152940}, and {item:152891} from {npc:127597} and {npc:127596}.\n\nUse {item:152890} to get {quest:49007}.\n\n{note:This quest is sharable.}'
 L['ven_orn_note'] = 'Enter the cave of spiders, take a right, and go down into another small cave. She is in this 2nd chamber at the rear.'
 
-L['the_many_faced_devourer_note'] = 'Collect {item:152786} from {npc:126193} and {npc:126171} in |cFFFFFD00Scavenger\'s Boneyard|r.\n\nCollect {item:152991}, {item:152992}, and {item:152993}.\n\nSummon {npc:127581} at the {npc:127442}.\n\n' .. Orange('If you can\'t see the {npc:127442} you may need to relog.')
+L['the_many_faced_devourer_note'] = 'Collect {item:152786} from {npc:126193} and {npc:126171} in {location:Scavenger\'s Boneyard}.\n\nCollect {item:152991}, {item:152992}, and {item:152993}.\n\nSummon {npc:127581} at the {npc:127442}.\n\n{note:If you can\'t see the {npc:127442} you may need to relog.}'
 L['the_many_faced_devourer_checklist'] = Gold('Item Checklist (in bags or bank):')
 
 L['orix_the_all_seer_note'] = 'Sells collectibles in exchange for {item:153021}.'
@@ -38,7 +38,7 @@ L['fel_spotted_egg_contains'] = '{item:153190} can contain'
 L['goblin_glider_treasure_note'] = 'Use {item:109076} to glide to the treasure.'
 L['lightforged_warframe_treasure_note'] = 'Activate {item:152098} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:152098} and {spell:250434} to melt the rocks and find the treasure.'
 L['lights_judgement_treasure_note'] = 'Activate {item:151830} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:151830} to explode the rocks and find the treasure.'
-L['shroud_of_arcane_echoes_treasures_note'] = 'Activate {item:151912} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:151912} unlock the treasure.\n\n' .. Red('"Will only open to one wielding the power that echoes that of the Augari."')
+L['shroud_of_arcane_echoes_treasures_note'] = 'Activate {item:151912} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:151912} unlock the treasure.\n\n{note:"Will only open to one wielding the power that echoes that of the Augari."}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
@@ -81,7 +81,7 @@ L['book_7'] = 'Book 7 (Saturday)'
 
 L['higher_dimensional_learning_location'] = 'Located at the top of the tower.'
 L['higher_dimensional_learning_note'] = 'Purchase {item:129276} from {npc:107376} at |cFFFFFD00Crumbled Palace|r. Use {item:129276} each day to be teleported to a different book location.\n\nBook 1: Sunday\nBook 2: Monday\nBook 3: Tuesday\nBook 4: Wednesday\nBook 5: Thursday\nBook 6: Friday\nBook 7: Saturday'
-L['higher_dimensional_learning_disclaimer'] = 'Teleporting to a book location does not guarentee the book will spawn. You may need to wait or check back later.'
+L['higher_dimensional_learning_disclaimer'] = '{note:Teleporting to a book location does not guarentee the book will spawn. You may need to wait or check back later.}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = 'Display book locations for {achievement:11175}'

@@ -692,14 +692,14 @@ L['options_icons_tales_of_de_loa'] = '{achievement:13036}'
 L['options_icons_tales_of_de_loa_desc'] = 'Muestra dónde están los volúmenes para el logro {achievement:13036}.'
 
 L['jani_note'] = 'Haz click en el Montón de Basura Misteriosa para que aparezca {npc:126334}.'
-L['rezan_note'] = ns.color.Red('Dentro de la mazmorra Atal\'Dazar.')
-L['bow_to_your_masters_note'] = 'Reverencia a los loa de Zandalar (' .. ns.color.Orange('/reverenciar') .. ').'
+L['rezan_note'] = '{note:Dentro de la mazmorra {location:Atal\'Dazar}.}'
+L['bow_to_your_masters_note'] = 'Reverencia a los loa de Zandalar ({emote:/reverenciar}).'
 L['options_icons_bow_to_your_masters'] = '{achievement:13020}'
 L['options_icons_bow_to_your_masters_desc'] = 'Muestra dónde están los sitios para el logro {achievement:13020}.'
 
 L['alisha_note'] = 'Este vendedor requiere progresar en las misiones de Drustvar.'
 L['elijah_note'] = 'Este vendedor requiere progresar en las misiones de Drustvar. Él comienza a vender salchichas tras hacer la misión {quest:47945}.'
-L['raal_note'] = ns.color.Red('Está dentro de la mazmorraz Mansión Crestavía.')
+L['raal_note'] = '{note:Está dentro de la mazmorraz {location:Mansión Crestavía}.}'
 L['sausage_sampler_note'] = 'Come cada una de las salchichas para conseguir el logro.'
 L['options_icons_sausage_sampler'] = '{achievement:13087}'
 L['options_icons_sausage_sampler_desc'] = 'Muestra dónde están los vendedores para el logro {achievement:13087}.'
@@ -723,15 +723,15 @@ L['options_icons_daily_chests'] = 'Cofres'
 
 L['supply_chest'] = 'Cofre de Suministros de Guerra'
 L['supply_chest_note'] = 'Una {npc:135181} o un {npc:138694} volarán por lo alto cada 45 minutos y soltarán un {npc:135238} en uno de estos tres sitios.'
-L['supply_single_drop'] = ns.color.Orange('Esta ruta de vuelo siempre suelta el cofre de suministros en este lugar.')
+L['supply_single_drop'] = '{note:Esta ruta de vuelo siempre suelta el cofre de suministros en este lugar.}'
 L['options_icons_supplies_desc'] = 'Muestra dlos sitios posibles para los {npc:135238}.'
 L['options_icons_supplies'] = '{npc:135238}'
 
 L['secret_supply_chest'] = 'Cofres de Suministros Secreto'
-L['secret_supply_chest_note'] = 'Cuando está activo un asalto de facción, puede aparecer un ' .. ns.color.Yellow('Cofre de Suministros Secreto') .. ' en uno de estos sitios por poco tiempo.'
+L['secret_supply_chest_note'] = 'Cuando está activo un asalto de facción, puede aparecer un {object:Cofre de Suministros Secreto} en uno de estos sitios por poco tiempo.'
 L['options_icons_secret_supplies'] = 'Cofre de Suministros Secreto'
-L['options_icons_secret_supplies_desc'] = 'Muestra dónde están los ' .. ns.color.Yellow('Cofres de Suministros Secreto') .. ' para el logro {achievement:13317}.'
+L['options_icons_secret_supplies_desc'] = 'Muestra dónde están los {object:Cofres de Suministros Secreto} para el logro {achievement:13317}.'
 
-L['squirrels_note'] = 'Has de usar la emoción /amor en alimañas que no sean mascotas de combate.'
+L['squirrels_note'] = 'Has de usar la emoción {emote:/amor} en alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:14730}.'
