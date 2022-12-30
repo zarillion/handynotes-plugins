@@ -13,6 +13,7 @@ local POI = ns.poi.POI
 
 local map = ns.Map({id = 37, settings = true})
 local northshire = ns.Map({id = 425, settings = true})
+local stormwind = ns.Map({id = 84, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -63,3 +64,22 @@ map.nodes[37005600] = Safari.Fawn({
         })
     }
 }) -- Fawn
+
+map.nodes[34005140] = Safari.Rabbit({
+    pois = {
+        POI({
+            30605320, 32205220, 33204920, 34005140, 34005160, 34405440,
+            38805540, 40805480, 44405500
+        })
+    }
+}) -- Rabbit
+
+stormwind.nodes[71802880] = Safari.Rabbit({
+    parent = map.id,
+    pois = {
+        POI({
+            50608720, 69802380, 70002340, 71802880, 72002820, 79406440,
+            79406460, 79806420
+        })
+    }
+}) -- Rabbit

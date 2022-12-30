@@ -34,6 +34,7 @@
   <Script file="zones\kalimdor\darkshore.lua"/>
   <Script file="zones\kalimdor\desolace.lua"/>
   <Script file="zones\kalimdor\durotar_orgrimmar.lua"/>
+  <Script file="zones\kalimdor\dustwallow_marsh.lua"/>
   <Script file="zones\kalimdor\feralas.lua"/>
   <Script file="zones\kalimdor\mulgore_thunderbluff.lua"/>
   <Script file="zones\kalimdor\northern_barrens.lua"/>

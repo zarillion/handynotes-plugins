@@ -8,3 +8,5 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['anniversary_note'] = ns.color.Orange('¡Sólo disponible durante el eventuo anual de aniversario!')
+
+L['summer_only'] = nil

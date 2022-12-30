@@ -23,7 +23,8 @@ ns.expansion = 1
 -------------------------------------------------------------------------------
 
 ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
-ns.groups.CRAZYFORCATS = Group('crazyforcats', 656579, {defaults = ns.GROUP_HIDDEN})
+ns.groups.CRAZYFORCATS = Group('crazyforcats', 656579,
+    {defaults = ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
 ------------------------------ ANNIVERSARY EVENT ------------------------------
@@ -283,10 +284,10 @@ ns.node.Safari = { -- Maybe add this to core later?
             Achievement({id = 6586, criteria = 21621}), Pet({id = 415})
         }
     }), -- Also in Mount Hyjal, Cataclysm
-    FireProofRoach = Class('FireProofRoach', Safari, {
-        id = 62886,
-        rewards = {Achievement({id = 6585, criteria = 21732}), Pet({id = 541})}
-    }), -- Only in Mount Hyjal, Cataclysm
+    -- FireProofRoach = Class('FireProofRoach', Safari, {
+    --     id = 62886,
+    --     rewards = {Achievement({id = 6585, criteria = 21732}), Pet({id = 541})}
+    -- }), -- Only in Mount Hyjal, Cataclysm
     FledglingBuzzard = Class('FledglingBuzzard', Safari, {
         id = 61171,
         rewards = {Achievement({id = 6586, criteria = 21662}), Pet({id = 395})}
@@ -317,7 +318,7 @@ ns.node.Safari = { -- Maybe add this to core later?
             Achievement({id = 6585, criteria = 21616}),
             Achievement({id = 6586, criteria = 21616}), Pet({id = 430})
         }
-    }), -- Also in Gorgrond, Draenor -- TODO upwards Check Achievements
+    }), -- Also in Gorgrond, Draenor
     GrasslandsCottontail = Class('GrasslandsCottontail', Safari, {
         id = 61704,
         rewards = {Achievement({id = 6586, criteria = 21611}), Pet({id = 443})}
@@ -326,13 +327,13 @@ ns.node.Safari = { -- Maybe add this to core later?
         id = 62050,
         rewards = {Achievement({id = 6585, criteria = 21708}), Pet({id = 464})}
     }), -- Also in Azsuna, Legion
-    GrizzlySquirrel = Class('GrizzlySquirrel', Safari, {
-        id = 62818,
-        rewards = {
-            Achievement({id = 6586, criteria = 21679}),
-            Achievement({id = 6588, criteria = 21679}), Pet({id = 647})
-        }
-    }), -- Only in Azsuna, Stormheim, Legion; Grizzly Hills, Northrend; Twilight Highlands, Cataclysm
+    -- GrizzlySquirrel = Class('GrizzlySquirrel', Safari, {
+    --     id = 62818,
+    --     rewards = {
+    --         Achievement({id = 6586, criteria = 21679}),
+    --         Achievement({id = 6588, criteria = 21679}), Pet({id = 647})
+    --     }
+    -- }), -- Only in Azsuna, Stormheim, Legion; Grizzly Hills, Northrend; Twilight Highlands, Cataclysm
     Hare = Class('Hare', Safari, {
         id = 61751,
         rewards = {
@@ -340,22 +341,22 @@ ns.node.Safari = { -- Maybe add this to core later?
             Achievement({id = 6586, criteria = 21612}), Pet({id = 448})
         }
     }),
-    HighlandsMouse = Class('HighlandsMouse', Safari, {
-        id = 62905,
-        rewards = {Achievement({id = 6586, criteria = 21680}), Pet({id = 550})}
-    }), -- Only in Twilight Highlands, Cataclysm; Stormheim, Legion
-    HighlandsSkunk = Class('HighlandsSkunk', Safari, {
-        id = 62907,
-        rewards = {Achievement({id = 6586, criteria = 21681}), Pet({id = 823})}
-    }), -- Only in Twilight Highlands, Cataclysm
-    HighlandsTurkey = Class('HighlandsTurkey', Safari, {
-        id = 62906,
-        rewards = {Achievement({id = 6586, criteria = 21682}), Pet({id = 645})}
-    }), -- Only in Twilight Highlands, Cataclysm; Stormheim, Legion
-    HornedLizard = Class('HornedLizard', Safari, {
-        id = 62894,
-        rewards = {Achievement({id = 6585, criteria = 21701}), Pet({id = 851})}
-    }), -- Only in Uldum, Cataclysm
+    -- HighlandsMouse = Class('HighlandsMouse', Safari, {
+    --     id = 62905,
+    --     rewards = {Achievement({id = 6586, criteria = 21680}), Pet({id = 550})}
+    -- }), -- Only in Twilight Highlands, Cataclysm; Stormheim, Legion
+    -- HighlandsSkunk = Class('HighlandsSkunk', Safari, {
+    --     id = 62907,
+    --     rewards = {Achievement({id = 6586, criteria = 21681}), Pet({id = 823})}
+    -- }), -- Only in Twilight Highlands, Cataclysm
+    -- HighlandsTurkey = Class('HighlandsTurkey', Safari, {
+    --     id = 62906,
+    --     rewards = {Achievement({id = 6586, criteria = 21682}), Pet({id = 645})}
+    -- }), -- Only in Twilight Highlands, Cataclysm; Stormheim, Legion
+    -- HornedLizard = Class('HornedLizard', Safari, {
+    --     id = 62894,
+    --     rewards = {Achievement({id = 6585, criteria = 21701}), Pet({id = 851})}
+    -- }), -- Only in Uldum, Cataclysm
     HornyToad = Class('HornyToad', Safari, {
         id = 62185,
         rewards = {Achievement({id = 6585, criteria = 21715}), Pet({id = 483})}
@@ -409,10 +410,10 @@ ns.node.Safari = { -- Maybe add this to core later?
         id = 61383,
         rewards = {Achievement({id = 6586, criteria = 21627}), Pet({id = 423})}
     }),
-    LeopardScorpid = Class('LeopardScorpid', Safari, {
-        id = 62896,
-        rewards = {Achievement({id = 6585, criteria = 21751}), Pet({id = 545})}
-    }), -- Only in Uldum, Cataclysm
+    -- LeopardScorpid = Class('LeopardScorpid', Safari, {
+    --     id = 62896,
+    --     rewards = {Achievement({id = 6585, criteria = 21751}), Pet({id = 545})}
+    -- }), -- Only in Uldum, Cataclysm
     LittleBlackRam = Class('LittleBlackRam', Safari, {
         id = 61459,
         rewards = {Achievement({id = 6586, criteria = 21653}), Pet({id = 437})}
@@ -421,10 +422,10 @@ ns.node.Safari = { -- Maybe add this to core later?
         id = 61321,
         rewards = {Achievement({id = 6586, criteria = 21656}), Pet({id = 408})}
     }),
-    Locust = Class('Locust', Safari, {
-        id = 62893,
-        rewards = {Achievement({id = 6585, criteria = 21752}), Pet({id = 543})}
-    }), -- Only in Uldum, Cataclysm
+    -- Locust = Class('Locust', Safari, {
+    --     id = 62893,
+    --     rewards = {Achievement({id = 6585, criteria = 21752}), Pet({id = 543})}
+    -- }), -- Only in Uldum, Cataclysm
     LongTailedMole = Class('LongTailedMole', Safari, {
         id = 61317,
         rewards = {
@@ -436,10 +437,10 @@ ns.node.Safari = { -- Maybe add this to core later?
         id = 61905,
         rewards = {Achievement({id = 6586, criteria = 21676}), Pet({id = 458})}
     }),
-    MacFrog = Class('MacFrog', Safari, {
-        id = 62892,
-        rewards = {Achievement({id = 6585, criteria = 21753}), Pet({id = 542})}
-    }), -- Only in Uldum, Cataclysm
+    -- MacFrog = Class('MacFrog', Safari, {
+    --     id = 62892,
+    --     rewards = {Achievement({id = 6585, criteria = 21753}), Pet({id = 542})}
+    -- }), -- Only in Uldum, Cataclysm
     Maggot = Class('Maggot', Safari, {
         id = 61753,
         rewards = {
@@ -447,103 +448,110 @@ ns.node.Safari = { -- Maybe add this to core later?
             Achievement({id = 6586, criteria = 21514}),
             Achievement({id = 6588, criteria = 21514}), Pet({id = 450})
         }
-    }), -- TODO
+    }), -- also in Howling Fjord, Northrend
     Minfernal = Class('Minfernal', Safari, {
         id = 62317,
         rewards = {Achievement({id = 6585, criteria = 21722}), Pet({id = 500})}
-    }), -- TODO
+    }),
     Moccasin = Class('Moccasin', Safari, {
         id = 61372,
         rewards = {Achievement({id = 6586, criteria = 21671}), Pet({id = 422})}
-    }), -- TODO
+    }),
     MoltenHatchling = Class('Moccasin', Safari, {
         id = 61425,
         rewards = {Achievement({id = 6586, criteria = 21666}), Pet({id = 428})}
-    }), -- TODO
+    }),
     MountainCottontail = Class('Moccasin', Safari, {
         id = 61167,
         rewards = {
             Achievement({id = 6585, criteria = 21663}),
             Achievement({id = 6586, criteria = 21663}), Pet({id = 391})
         }
-    }), -- TODO
+    }), -- also in Highmountain, Legion
     MountainSkunk = Class('MountainSkunk', Safari, {
         id = 61677,
         rewards = {
             Achievement({id = 6585, criteria = 21688}),
-            Achievement({id = 6586, criteria = 21688}), Pet({id = 633})
+            Achievement({id = 6586, criteria = 21688}),
+            Achievement({id = 6588, criteria = 21688}), Pet({id = 633})
         }
-    }), -- TODO
+    }), -- also in Storm Peaks, Grizzly Hills, Northrend; Stormheim, Legion
     Mouse = Class('Mouse', Safari, {
         id = 61143,
         rewards = {
             Achievement({id = 6585, criteria = 21631}),
-            Achievement({id = 6586, criteria = 21631}), Pet({id = 385})
+            Achievement({id = 6586, criteria = 21631}),
+            Achievement({id = 6587, criteria = 21631}),
+            Achievement({id = 6588, criteria = 21631}), Pet({id = 385})
         }
-    }), -- TODO
+    }), -- Also in Crystalsong Forest, Northrend
     NetherFaerieDragon = Class('NetherFaerieDragon', Safari, {
         id = 62395,
         rewards = {Achievement({id = 6585, criteria = 21726}), Pet({id = 557})}
-    }), -- TODO
-    NordrassilWisp = Class('NordrassilWisp', Safari, {
-        id = 62888,
-        rewards = {Achievement({id = 6585, criteria = 21734}), Pet({id = 547})}
-    }), -- TODO
-    OasisMoth = Class('OasisMoth', Safari, {
-        id = 62895,
-        rewards = {Achievement({id = 6585, criteria = 21754}), Pet({id = 544})}
-    }), -- TODO
+    }),
+    -- NordrassilWisp = Class('NordrassilWisp', Safari, {
+    --     id = 62888,
+    --     rewards = {Achievement({id = 6585, criteria = 21734}), Pet({id = 547})}
+    -- }), -- Only in Mount Hyjal, Cataclysm
+    -- OasisMoth = Class('OasisMoth', Safari, {
+    --     id = 62895,
+    --     rewards = {Achievement({id = 6585, criteria = 21754}), Pet({id = 544})}
+    -- }), -- only in Uldum, Cataclysm
     Parrot = Class('Parrot', Safari, {
         id = 61313,
         rewards = {
             Achievement({id = 6585, criteria = 21657}),
             Achievement({id = 6586, criteria = 21657}), Pet({id = 403})
         }
-    }), -- TODO
+    }),
     Polly = Class('Polly', Safari, {
         id = 61322,
         rewards = {Achievement({id = 6586, criteria = 21658}), Pet({id = 409})}
-    }), -- TODO
+    }),
     PrairieDog = Class('PrairieDog', Safari, {
         id = 61141,
         rewards = {
             Achievement({id = 6585, criteria = 21613}),
-            Achievement({id = 6586, criteria = 21613}), Pet({id = 386})
+            Achievement({id = 6586, criteria = 21613}),
+            Achievement({id = 6588, criteria = 21613}), Pet({id = 386})
         }
-    }), -- TODO
+    }),
     QirajiGuardling = Class('QirajiGuardling', Safari, {
+        note = L['summer_only'],
         id = 62526,
         rewards = {Achievement({id = 6585, criteria = 21739}), Pet({id = 513})}
-    }), -- TODO
+    }),
     Rabbit = Class('Rabbit', Safari, {
         id = 61080,
         rewards = {
             Achievement({id = 6585, criteria = 21508}),
-            Achievement({id = 6586, criteria = 21508}), Pet({id = 378})
+            Achievement({id = 6586, criteria = 21508}),
+            Achievement({id = 6587, criteria = 21508}),
+            Achievement({id = 6588, criteria = 21508}), Pet({id = 378})
         }
-    }), -- TODO
+    }),
     RabidNutVarmint5000 = Class('RabidNutVarmint5000', Safari, {
         id = 62120,
         rewards = {Achievement({id = 6585, criteria = 21704}), Pet({id = 472})}
-    }), -- TODO
+    }),
     Rat = Class('Rat', Safari, {
         id = 61366,
         rewards = {
             Achievement({id = 6585, criteria = 21516}),
             Achievement({id = 6586, criteria = 21516}), Pet({id = 417})
         }
-    }), -- TODO
+    }), -- Also in Terrok Forest, Nagrand, Outland; Drustvar, BFA; Highmountain, Spires of Arak, Legion; Howling Fjord, Northrend
     RatSnake = Class('RatSnake', Safari, {
         id = 61258,
         rewards = {Achievement({id = 6586, criteria = 21632}), Pet({id = 399})}
-    }), -- TODO
+    }),
     Rattlesnake = Class('Rattlesnake', Safari, {
         id = 61439,
         rewards = {
             Achievement({id = 6585, criteria = 21617}),
             Achievement({id = 6586, criteria = 21617}), Pet({id = 431})
         }
-    }), -- TODO
+    }), -- also in Twilight Highlands, Cataclysm
     RavagerHatchling = Class('RavagerHatchling', Safari, {
         id = 62051,
         rewards = {Achievement({id = 6585, criteria = 21709}), Pet({id = 465})}

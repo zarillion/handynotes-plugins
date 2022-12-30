@@ -114,3 +114,17 @@ map.nodes[50605460] = Safari.CrystalSpider({
         })
     }
 }) -- Crystal Spider
+
+map.nodes[47404420] = Safari.MountainSkunk({
+    pois = {POI({44005900, 47404420, 58408120})}
+}) -- Mountain Skunk
+
+map.nodes[60405100] = Safari.RabidNutVarmint5000({
+    pois = {
+        POI({
+            58605140, 59204820, 59204920, 59205040, 59405160, 59605180,
+            59805000, 60204800, 60405100, 60405260, 60604840, 60605100,
+            61204940, 61204960
+        })
+    }
+}) -- Rabid Nut Varmint 5000

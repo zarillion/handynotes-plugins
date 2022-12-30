@@ -63,3 +63,7 @@ map.nodes[24405000] = Safari.LittleBlackRam({
         })
     }
 }) -- Little Black Ram
+
+map.nodes[34807660] = Safari.Rat({
+    pois = {POI({24403020, 28408020, 34807660, 35206160, 36005820})}
+}) -- Rat

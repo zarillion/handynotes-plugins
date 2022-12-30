@@ -30,3 +30,11 @@ map.nodes[41007780] = Safari.DarkshoreCub({
         })
     }
 }) -- Darkshore Cub
+
+map.nodes[44605920] = Safari.Rat({
+    pois = {
+        POI({
+            39803960, 41608340, 43605840, 44605920, 58802080, 59002500, 62001000
+        })
+    }
+}) -- Rat
