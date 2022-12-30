@@ -11,7 +11,9 @@
   <Script file="zones\eastern_kingdoms\eastern_plaguelands.lua"/>
   <Script file="zones\eastern_kingdoms\elwynn_forest_stormwind.lua"/>
   <Script file="zones\eastern_kingdoms\eversong_woods_silvermoon.lua"/>
+  <Script file="zones\eastern_kingdoms\ghostlands.lua"/>
   <Script file="zones\eastern_kingdoms\hillsbrad_foothills.lua"/>
+  <Script file="zones\eastern_kingdoms\loch_modan.lua"/>
   <Script file="zones\eastern_kingdoms\northern_stranglethorn.lua"/>
   <Script file="zones\eastern_kingdoms\redridge_mountains.lua"/>
   <Script file="zones\eastern_kingdoms\searing_gorge.lua"/>
@@ -19,7 +21,7 @@
   <Script file="zones\eastern_kingdoms\swamp_of_sorrows.lua"/>
   <Script file="zones\eastern_kingdoms\teldrassil_darnassus.lua"/>
   <Script file="zones\eastern_kingdoms\the_hinterlands.lua"/>
-  <Script file="zones\eastern_kingdoms\tirisfal_glades.lua"/>
+  <Script file="zones\eastern_kingdoms\tirisfal_glades_undercity.lua"/>
   <Script file="zones\eastern_kingdoms\western_plaguelands.lua"/>
   <Script file="zones\eastern_kingdoms\westfall.lua"/>
   <Script file="zones\eastern_kingdoms\wetlands.lua"/>

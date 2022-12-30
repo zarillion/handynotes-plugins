@@ -115,3 +115,12 @@ map.nodes[48204880] = Safari.FireBeetle({
         })
     }
 }) -- Fire Beetle
+
+map.nodes[47402000] = Safari.LongTailedMole({
+    pois = {
+        POI({
+            36203100, 36803360, 36803460, 47402000, 47403060, 52002800,
+            55406080, 65007200
+        })
+    }
+}) -- Long-Tailed Mole

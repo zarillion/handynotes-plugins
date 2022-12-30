@@ -301,7 +301,7 @@ ns.node.Safari = { -- Maybe add this to core later?
             Achievement({id = 6585, criteria = 21616}),
             Achievement({id = 6586, criteria = 21616}), Pet({id = 430})
         }
-    }), -- Also in Gorgrond, Draenor
+    }), -- Also in Gorgrond, Draenor -- TODO upwards Check Achievements
     GrasslandsCottontail = Class('GrasslandsCottontail', Safari, {
         id = 61704,
         rewards = {Achievement({id = 6586, criteria = 21611}), Pet({id = 443})}
@@ -312,7 +312,10 @@ ns.node.Safari = { -- Maybe add this to core later?
     }), -- Also in Azsuna, Legion
     GrizzlySquirrel = Class('GrizzlySquirrel', Safari, {
         id = 62818,
-        rewards = {Achievement({id = 6586, criteria = 21679}), Pet({id = 647})}
+        rewards = {
+            Achievement({id = 6586, criteria = 21679}),
+            Achievement({id = 6588, criteria = 21679}), Pet({id = 647})
+        }
     }), -- Only in Azsuna, Stormheim, Legion; Grizzly Hills, Northrend; Twilight Highlands, Cataclysm
     Hare = Class('Hare', Safari, {
         id = 61751,
@@ -343,7 +346,10 @@ ns.node.Safari = { -- Maybe add this to core later?
     }), -- Also in Tanaan Jungle, Draenor
     HugeToad = Class('HugeToad', Safari, {
         id = 61368,
-        rewards = {Achievement({id = 6586, criteria = 21649}), Pet({id = 648})}
+        rewards = {
+            Achievement({id = 6586, criteria = 21649}),
+            Achievement({id = 6588, criteria = 21649}), Pet({id = 648})
+        }
     }), --  Also in Zul'Drak, Northrend; Twilight Highlands, Cataclysm
     InfectedFawn = Class('InfectedFawn', Safari, {
         id = 61827,
@@ -370,59 +376,60 @@ ns.node.Safari = { -- Maybe add this to core later?
     JadeOozeling = Class('JadeOozeling', Safari, {
         id = 61718,
         rewards = {Achievement({id = 6586, criteria = 21675}), Pet({id = 446})}
-    }), -- TODO
+    }),
     KingSnake = Class('KingSnake', Safari, {
         id = 61443,
         rewards = {Achievement({id = 6586, criteria = 21618}), Pet({id = 438})}
-    }), -- TODO
+    }),
     Larva = Class('Larva', Safari, {
         id = 62022,
         rewards = {Achievement({id = 6586, criteria = 21647}), Pet({id = 461})}
-    }), -- TODO
+    }),
     LavaBeetle = Class('LavaBeetle', Safari, {
         id = 61386,
         rewards = {Achievement({id = 6586, criteria = 21626}), Pet({id = 429})}
-    }), -- TODO
+    }),
     LavaCrab = Class('LavaCrab', Safari, {
         id = 61383,
         rewards = {Achievement({id = 6586, criteria = 21627}), Pet({id = 423})}
-    }), -- TODO
+    }),
     LeopardScorpid = Class('LeopardScorpid', Safari, {
         id = 62896,
         rewards = {Achievement({id = 6585, criteria = 21751}), Pet({id = 545})}
-    }), -- TODO
+    }), -- Only in Uldum, Cataclysm
     LittleBlackRam = Class('LittleBlackRam', Safari, {
         id = 61459,
         rewards = {Achievement({id = 6586, criteria = 21653}), Pet({id = 437})}
-    }), -- TODO
+    }),
     LizardHatchling = Class('LizardHatchling', Safari, {
         id = 61321,
         rewards = {Achievement({id = 6586, criteria = 21656}), Pet({id = 408})}
-    }), -- TODO
+    }),
     Locust = Class('Locust', Safari, {
         id = 62893,
         rewards = {Achievement({id = 6585, criteria = 21752}), Pet({id = 543})}
-    }), -- TODO
+    }), -- Only in Uldum, Cataclysm
     LongTailedMole = Class('LongTailedMole', Safari, {
         id = 61317,
         rewards = {
             Achievement({id = 6585, criteria = 21513}),
             Achievement({id = 6586, criteria = 21513}), Pet({id = 404})
         }
-    }), -- TODO
+    }),
     LostOfLordaeron = Class('LostOfLordaeron', Safari, {
         id = 61905,
         rewards = {Achievement({id = 6586, criteria = 21676}), Pet({id = 458})}
-    }), -- TODO
+    }),
     MacFrog = Class('MacFrog', Safari, {
         id = 62892,
         rewards = {Achievement({id = 6585, criteria = 21753}), Pet({id = 542})}
-    }), -- TODO
+    }), -- Only in Uldum, Cataclysm
     Maggot = Class('Maggot', Safari, {
         id = 61753,
         rewards = {
             Achievement({id = 6585, criteria = 21514}),
-            Achievement({id = 6586, criteria = 21514}), Pet({id = 450})
+            Achievement({id = 6586, criteria = 21514}),
+            Achievement({id = 6588, criteria = 21514}), Pet({id = 450})
         }
     }), -- TODO
     Minfernal = Class('Minfernal', Safari, {
