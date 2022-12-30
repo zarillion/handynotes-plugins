@@ -208,4 +208,4 @@ L['small_treasure_chest'] = '小宝箱'
 L['treasure_chest'] = '宝箱'
 L['treasures_discovered'] = '已发现宝箱'
 
-L['general_pet_tamer_note'] = '{相对应的世界任务激活时才会出现。}'
+L['general_pet_tamer_note'] = '{note:相对应的世界任务激活时才会出现。}'
