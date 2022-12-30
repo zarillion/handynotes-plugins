@@ -25,6 +25,7 @@ local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
+local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 
 local Achievement = ns.reward.Achievement
@@ -113,7 +114,7 @@ map.nodes[13584855] = Rare({
 map.nodes[13432270] = Rare({
     id = 193178,
     quest = 74058,
-    note = L['blightfur_note'],
+    note = L['in_small_cave'] .. ' ' .. L['blightfur_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56122}),
         DC.RenewedProtoDrake.FinnedTail
@@ -494,7 +495,7 @@ map.nodes[53934372] = Treasure({
     note = L['in_small_cave'] .. ' ' .. L['gnoll_fiend_flail_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Quest(72709, '{item:199066}') -- Letter of Caution
+        ns.requirement.Quest(70535, '{item:199066}') -- Letter of Caution
     },
     rewards = {
         Achievement({id = 16300, criteria = 54805}),
@@ -669,7 +670,7 @@ map.nodes[46202390] = PT.Inscription({
 
 map.nodes[53146614] = PT.Blacksmithing({
     id = 201011,
-    quest = nil,
+    quest = 70314,
     note = L['pt_smith_spelltouched_tongs_note'],
     requires = {
         ns.requirement.Profession(186), ns.requirement.Profession(164, 2822, 25)
@@ -748,6 +749,14 @@ map.nodes[46142498] = Flag({quest = 71218})
 map.nodes[63084867] = Flag({quest = 71220})
 map.nodes[74844324] = Flag({quest = 71221})
 map.nodes[77431837] = Flag({quest = 71217})
+
+-------------------------------------------------------------------------------
+------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[71054788] = SignalTransmitter({quest = 70581}) -- Camp Nowhere
+map.nodes[45766525] = SignalTransmitter({quest = 70580}) -- Azure Archives
+map.nodes[27562645] = SignalTransmitter({quest = 70579}) -- Brakenhide Hollow
 
 -------------------------------------------------------------------------------
 ---------------------------- FRAGMENTS OF HISTORY -----------------------------
@@ -829,9 +838,12 @@ map.nodes[65732814] = LeyLine({
 
 map.nodes[13503833] = Disturbeddirt({note = L['in_small_cave']})
 map.nodes[19214047] = Disturbeddirt()
+map.nodes[19225097] = Disturbeddirt()
 map.nodes[23716772] = Disturbeddirt()
+map.nodes[29872621] = Disturbeddirt()
 map.nodes[33704685] = Disturbeddirt()
 map.nodes[34234591] = Disturbeddirt()
+map.nodes[50284428] = Disturbeddirt()
 map.nodes[57775352] = Disturbeddirt()
 map.nodes[65193151] = Disturbeddirt()
 map.nodes[65516163] = Disturbeddirt()

@@ -25,6 +25,7 @@ local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
+local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 
 local Achievement = ns.reward.Achievement
@@ -49,10 +50,10 @@ local nel = Map({id = 2080, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[63695509] = Rare({ -- required 67030
+map.nodes[63695509] = Rare({
     id = 193132,
-    quest = 69838,
-    note = L['in_cave'],
+    quest = 73981,
+    note = L['in_cave'] .. '\n\n' .. L['spawns_hourly'],
     rewards = {Achievement({id = 16676, criteria = 56045})}
 }) -- Amethyzar the Glittering
 
@@ -210,6 +211,7 @@ map.nodes[21626478] = RareElite({
 map.nodes[33127632] = RareElite({
     id = 193154,
     quest = 73073,
+    note = L['spawns_hourly'] .. '\n\n' .. L['spawns_at_night'],
     rewards = {
         Achievement({id = 16676, criteria = 56048}),
         Achievement({id = 16446, criteria = 55394, note = L['pretty_neat_note']}),
@@ -226,7 +228,7 @@ map.nodes[33127632] = RareElite({
 
 map.nodes[52345829] = Rare({ -- review
     id = 196056,
-    quest = 70718,
+    quest = 73879,
     rewards = {
         Achievement({id = 16676, criteria = 56033}),
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
@@ -348,7 +350,7 @@ map.nodes[30736110] = RareElite({
 
 map.nodes[46997332] = Rare({
     id = 193271,
-    quest = 70719,
+    quest = 74076,
     note = L['in_small_cave'] .. ' ' .. L['shadeslash_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56989}),
@@ -400,7 +402,7 @@ map.nodes[42892832] = Rare({
 
 map.nodes[34578950] = Rare({
     id = 193175,
-    quest = 72126, -- 74079
+    quest = 74079,
     note = L['slurpo_snail_note'],
     rewards = {
         Achievement({id = 16676, criteria = 57003}),
@@ -409,25 +411,27 @@ map.nodes[34578950] = Rare({
     pois = {POI({36028984})} -- Entrance
 }) -- Slurpo, the Incredible Snail
 
-map.nodes[69486653] = Rare({ -- review -- required 67030
+map.nodes[69486653] = Rare({
     id = 193120,
-    quest = 69668,
+    quest = 74031,
+    note = L['spawns_hourly'],
     rewards = {
         Achievement({id = 16676, criteria = 56044}),
         Transmog({item = 200209, slot = L['mail']}) -- Firebreather's Cowl
     }
 }) -- Smogswog the Firebreather
 
-map.nodes[78514999] = Rare({ -- required 67030
+map.nodes[78514999] = Rare({
     id = 193228,
-    quest = 69874,
+    quest = 73997,
+    note = L['spawns_hourly'],
     rewards = {Achievement({id = 16676, criteria = 56042})},
     pois = {Path({78825133, 78575081, 78475028, 78514999, 78684964, 78674926})}
 }) -- Snappy (Gorjo the Crab Shackler)
 
 map.nodes[45453540] = Rare({
     id = 193148,
-    quest = 69841,
+    quest = 73899,
     rewards = {
         Achievement({id = 16676, criteria = 56040}), --
         DC.HighlandDrake.ManedHead
@@ -608,7 +612,7 @@ map.nodes[58525302] = Treasure({
 
 map.nodes[29454699] = Treasure({
     quest = 72020,
-    note = L['onyx_gem_cluster_note'],
+    note = L['in_cave'] .. '' .. L['onyx_gem_cluster_note'],
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
         ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
@@ -618,7 +622,7 @@ map.nodes[29454699] = Treasure({
         Achievement({id = 16297, criteria = 55448}), --
         Item({item = 200867}) -- Glimmering Neltharite Cluster
     },
-    pois = {POI({46948289})}
+    pois = {POI({46948289, 29335248, 30535144})}
 }) -- Onyx Gem Cluster
 
 map.nodes[65804182] = Treasure({
@@ -810,7 +814,7 @@ map.nodes[64302540] = PT.Leatherworking({
 
 map.nodes[65502570] = PT.Blacksmithing({
     id = 201005,
-    quest = nil, -- bugged
+    quest = 70312,
     note = L['pt_smith_curious_ingots_note']
 }) -- Curious Ingots
 
@@ -856,7 +860,7 @@ map.nodes[60827590] = PM.Alchemy({
 
 map.nodes[73286972] = PM.Skinning({
     id = 194844,
-    quest = nil,
+    quest = 70259,
     note = L['pm_skin_zenzi'],
     rewards = {
         Item({item = 190456, note = '25'}), -- Artisan's Mettle
@@ -891,6 +895,14 @@ map.nodes[43976294] = Flag({quest = 70825})
 map.nodes[54797412] = Flag({quest = 71204})
 map.nodes[56024541] = Flag({quest = 70823})
 map.nodes[73353884] = Flag({quest = 70824})
+
+-------------------------------------------------------------------------------
+------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[23424384] = SignalTransmitter({quest = 70575}) -- Obsidian Citadel
+map.nodes[74622550] = SignalTransmitter({quest = 70573}) -- Scalecracker Peaks
+map.nodes[62207890] = SignalTransmitter({quest = 70574}) -- Ruby Life Pools
 
 -------------------------------------------------------------------------------
 ---------------------------- FRAGMENTS OF HISTORY -----------------------------
@@ -989,18 +1001,32 @@ map.nodes[38888424] = Disturbeddirt({note = L['in_small_cave']})
 map.nodes[40674138] = Disturbeddirt()
 map.nodes[44743555] = Disturbeddirt()
 map.nodes[45468064] = Disturbeddirt()
+map.nodes[36537986] = Disturbeddirt()
 map.nodes[46837960] = Disturbeddirt()
 map.nodes[47278699] = Disturbeddirt()
 map.nodes[50073813] = Disturbeddirt()
 map.nodes[50834912] = Disturbeddirt()
 map.nodes[52354997] = Disturbeddirt()
+map.nodes[54263214] = Disturbeddirt()
 map.nodes[54398542] = Disturbeddirt()
 map.nodes[54895103] = Disturbeddirt()
+map.nodes[55994017] = Disturbeddirt()
 map.nodes[57548174] = Disturbeddirt()
 map.nodes[57858225] = Disturbeddirt()
+map.nodes[57994083] = Disturbeddirt({note = L['in_small_cave']})
 map.nodes[58124968] = Disturbeddirt()
+map.nodes[58654092] = Disturbeddirt()
 map.nodes[61815501] = Disturbeddirt()
+map.nodes[63225470] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[63935555] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[66176452] = Disturbeddirt()
+map.nodes[67076234] = Disturbeddirt()
+map.nodes[67267354] = Disturbeddirt()
+map.nodes[67896631] = Disturbeddirt()
+map.nodes[68256648] = Disturbeddirt()
+map.nodes[70306386] = Disturbeddirt()
 map.nodes[70746975] = Disturbeddirt()
+map.nodes[71436627] = Disturbeddirt({note = L['in_small_cave']})
 map.nodes[71863677] = Disturbeddirt()
 map.nodes[72715976] = Disturbeddirt({
     note = L['in_small_cave'],
@@ -1008,19 +1034,26 @@ map.nodes[72715976] = Disturbeddirt({
 })
 map.nodes[75580798] = Disturbeddirt()
 map.nodes[78502992] = Disturbeddirt()
+map.nodes[78562498] = Disturbeddirt()
+map.nodes[78585558] = Disturbeddirt()
+map.nodes[82345008] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[23017547] = Scoutpack()
 map.nodes[26628764] = Scoutpack()
+map.nodes[28868321] = Scoutpack()
 map.nodes[29715467] = Scoutpack()
+map.nodes[30468098] = Scoutpack()
 map.nodes[32465665] = Scoutpack()
 map.nodes[37859241] = Scoutpack()
 map.nodes[38139017] = Scoutpack()
 map.nodes[41256689] = Scoutpack()
 map.nodes[43345237] = Scoutpack()
 map.nodes[43506130] = Scoutpack({note = L['in_small_cave']})
+map.nodes[44448825] = Scoutpack()
 map.nodes[44495926] = Scoutpack()
 map.nodes[45663986] = Scoutpack()
 map.nodes[45985884] = Scoutpack()
@@ -1054,7 +1087,7 @@ map.nodes[82055012] = Scoutpack()
 ------------------------------ Magic-Bound Chest ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[22607480] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[22527485] = MagicBoundChest({note = L['in_small_cave']})
 map.nodes[23809090] = MagicBoundChest({
     requires = {
         ns.requirement.Reputation(2507, 16, true),
@@ -1070,7 +1103,10 @@ map.nodes[36208570] = MagicBoundChest({
     note = L['in_small_cave'],
     pois = {POI({36728736})}
 })
-map.nodes[43706150] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[43706157] = MagicBoundChest({
+    note = L['in_cave'],
+    pois = {POI({42955825})}
+})
 map.nodes[51701860] = MagicBoundChest()
 map.nodes[55404500] = MagicBoundChest()
 map.nodes[62907990] = MagicBoundChest({note = L['in_small_cave']})
@@ -1570,7 +1606,7 @@ map.nodes[17208740] = Safari({
     }
 }) -- Palamanther
 
-map.nodes[34001500] = Safari({
+map.nodes[77203200] = Safari({
     id = 189093,
     rewards = {Achievement({id = 16519, criteria = 55654}), Pet({id = 3272})},
     pois = {
@@ -1716,7 +1752,8 @@ local Otto = Class('Otto', Collectible, {
     id = 199563,
     icon = 4093847,
     requires = {
-        ns.requirement.Toy(202042) -- Aquatic Shades
+        ns.requirement.Toy(202042), -- Aquatic Shades
+        ns.requirement.Item(202069) -- Overflowing Fish Barrel
     },
     rewards = {
         Mount({item = 198870, id = 1656}) -- Otto
@@ -1731,7 +1768,7 @@ function Otto.getters:note()
             return ns.status.Red(count .. 'x')
         end
     end
-    local note = L['otto_note_start1']
+    local note = status(199338, 75) .. ' ' .. L['otto_note_start1']
     note = note .. '\n\n' .. L['otto_note_start2']
     note = note .. '\n\n' .. L['otto_note_start3']
     note = note .. '\n\n' .. status(202072, 100) .. ' ' .. L['otto_note_item1'] -- Frigid Floe Fish
@@ -1740,7 +1777,7 @@ function Otto.getters:note()
     return note .. '\n\n' .. L['otto_note_end']
 end
 
-map.nodes[19603650] = Otto()
+map.nodes[20333977] = Otto({pois = {POI({19603650})}})
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 

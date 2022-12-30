@@ -23,6 +23,7 @@ local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
+local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 
 local Achievement = ns.reward.Achievement
@@ -46,9 +47,9 @@ local map = Map({id = 2023, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[31607660] = Rare({
+map.nodes[31567644] = Rare({
     id = 195186,
-    quest = nil,
+    quest = 73950,
     rewards = {Achievement({id = 16677, criteria = 56092})}
 }) -- Cinta the Forgotten
 
@@ -178,34 +179,60 @@ map.nodes[61212950] = Rare({ -- reqiured 67030
     rewards = {Achievement({id = 16677, criteria = 56074})}
 }) -- Oshigol
 
--- map.nodes[] = Rare({
---     id = 191950,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56087}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Porta the Overgrown
+map.nodes[59686802] = Rare({
+    id = 191950,
+    quest = 73971,
+    note = L['in_small_cave'] .. ' ' .. L['porta_the_overgrown_note'],
+    rewards = {
+        Achievement({id = 16677, criteria = 56087})
+        -- Transmog({item = , slot = L['']}) -- Name
+    },
+    pois = {
+        POI({
+            59696879, -- Entrance
+            50507017, 52137051, 54177150, 52746993 -- Enriched Soil Pile
+        })
+    }
+}) -- Porta the Overgrown
 
--- map.nodes[] = Rare({
---     id = 192557,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56091}),
---         Achievement({id = 16446, criteria = 55396, note = L['pretty_neat_note']}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Quackers the Terrible
+local Quackers = Class('Quackers', Rare, {
+    id = 192557,
+    quest = 73972,
+    rewards = {
+        Achievement({id = 16677, criteria = 56091}),
+        Achievement({id = 16446, criteria = 55396, note = L['pretty_neat_note']})
+    },
+    pois = {POI({70406355})} -- item=194740/duck-trap-kit
+})
 
-map.nodes[37005380] = Rare({ -- reqiured 67030
+function Quackers.getters:note()
+    local function status(id, count)
+        if ns.PlayerHasItem(id, count) then
+            return ns.status.Green(count .. 'x')
+        else
+            return ns.status.Red(count .. 'x')
+        end
+    end
+    local note = L['quackers_duck_trap_kit']
+    note = note .. '\n' .. status(189541, 1) .. ' {item:189541}' -- Primal Molten Alloy
+    note = note .. '\n' .. status(193208, 3) .. ' {item:193208}' -- Resilient Leather
+    note = note .. '\n' .. status(192095, 4) .. ' {item:192095}\n\n' -- Spool of Wilderthread
+    return note .. L['quackers_spawn']
+end
+
+map.nodes[68207920] = Quackers() -- Quackers the Terrible
+
+map.nodes[37005380] = Rare({
     id = 196010,
-    quest = nil, -- 70698
+    quest = 74023,
+    note = L['spawns_hourly'],
     rewards = {Achievement({id = 16677, criteria = 56069})}
 }) -- Researcher Sneakwing
 
-map.nodes[43405560] = Rare({ -- reqiured 67030
+map.nodes[43405560] = Rare({
     id = 193227,
-    quest = nil, -- 69878
+    quest = 74026,
+    note = L['spawns_hourly'],
     rewards = {Achievement({id = 16677, criteria = 56071})}
 }) -- Ronsak the Decimator
 
@@ -644,6 +671,14 @@ map.nodes[57753080] = Flag({quest = 70827})
 map.nodes[86313928] = Flag({quest = 71208})
 
 -------------------------------------------------------------------------------
+------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[67688495] = SignalTransmitter({quest = 70578}) -- Mirror of the Sky
+map.nodes[28023567] = SignalTransmitter({quest = 70576}) -- Nokhudon Hold
+map.nodes[56872889] = SignalTransmitter({quest = 70577}) -- Maarukai
+
+-------------------------------------------------------------------------------
 ----------------------------- WHO'S A GOOD BAKAR? -----------------------------
 -------------------------------------------------------------------------------
 
@@ -757,36 +792,54 @@ map.nodes[81035952] = Bakar({
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[22753027] = Disturbeddirt()
+map.nodes[25976132] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[29777163] = Disturbeddirt()
 map.nodes[29777363] = Disturbeddirt()
 map.nodes[36553269] = Disturbeddirt()
 map.nodes[38825564] = Disturbeddirt()
+map.nodes[39565456] = Disturbeddirt()
+map.nodes[88364505] = Disturbeddirt()
 map.nodes[41103789] = Disturbeddirt()
 map.nodes[42335555] = Disturbeddirt()
 map.nodes[42934942] = Disturbeddirt()
+map.nodes[62787415] = Disturbeddirt()
 map.nodes[43316632] = Disturbeddirt()
+map.nodes[46345356] = Disturbeddirt()
+map.nodes[48867036] = Disturbeddirt()
 map.nodes[49716952] = Disturbeddirt()
 map.nodes[50152501] = Disturbeddirt()
 map.nodes[51445485] = Disturbeddirt()
 map.nodes[51936274] = Disturbeddirt()
 map.nodes[54115705] = Disturbeddirt()
 map.nodes[55197076] = Disturbeddirt()
+map.nodes[87444467] = Disturbeddirt()
 map.nodes[55944340] = Disturbeddirt()
 map.nodes[62171310] = Disturbeddirt()
 map.nodes[63251396] = Disturbeddirt()
 map.nodes[65868145] = Disturbeddirt()
 map.nodes[66451981] = Disturbeddirt()
+map.nodes[69087885] = Disturbeddirt()
+map.nodes[71706413] = Disturbeddirt()
 map.nodes[75003584] = Disturbeddirt()
+map.nodes[76485475] = Disturbeddirt()
 map.nodes[78534035] = Disturbeddirt()
 map.nodes[78782268] = Disturbeddirt()
 map.nodes[78943707] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[79697606] = Disturbeddirt()
 map.nodes[80133864] = Disturbeddirt({
     note = L['in_cave'],
     pois = {POI({79403650})}
 }) -- Bugged under a rock
 map.nodes[81403827] = Disturbeddirt()
 map.nodes[82593486] = Disturbeddirt()
+map.nodes[83243606] = Disturbeddirt()
+map.nodes[82543651] = Disturbeddirt()
+map.nodes[83731265] = Disturbeddirt()
 map.nodes[85833271] = Disturbeddirt()
 map.nodes[86683243] = Disturbeddirt()
+map.nodes[86725931] = Disturbeddirt()
+map.nodes[78217937] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
@@ -798,24 +851,34 @@ map.nodes[24745680] = Scoutpack()
 map.nodes[25205876] = Scoutpack()
 map.nodes[32043887] = Scoutpack()
 map.nodes[35925854] = Scoutpack()
+map.nodes[42883769] = Scoutpack()
 map.nodes[43335647] = Scoutpack()
 map.nodes[43486213] = Scoutpack()
 map.nodes[44856758] = Scoutpack()
+map.nodes[50382904] = Scoutpack()
+map.nodes[50856597] = Scoutpack()
 map.nodes[51647211] = Scoutpack()
 map.nodes[51797550] = Scoutpack()
+map.nodes[52403042] = Scoutpack()
+map.nodes[56942485] = Scoutpack()
 map.nodes[60567702] = Scoutpack()
 map.nodes[61301817] = Scoutpack()
 map.nodes[61781881] = Scoutpack()
+map.nodes[63423235] = Scoutpack()
 map.nodes[64028081] = Scoutpack()
 map.nodes[65021064] = Scoutpack()
 map.nodes[66798258] = Scoutpack()
+map.nodes[73618656] = Scoutpack()
+map.nodes[78736935] = Scoutpack()
+map.nodes[84685647] = Scoutpack()
+map.nodes[86084606] = Scoutpack()
 map.nodes[91393390] = Scoutpack()
 
 -------------------------------------------------------------------------------
 ------------------------------ Magic-Bound Chest ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[31407150] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[31457162] = MagicBoundChest({note = L['in_small_cave']})
 map.nodes[38905590] = MagicBoundChest({note = L['in_small_cave']})
 map.nodes[39306790] = MagicBoundChest()
 map.nodes[53805720] = MagicBoundChest({
@@ -905,7 +968,7 @@ map.nodes[74057046] = Ancestor({
 
 map.nodes[32356934] = Ancestor({
     id = 197058,
-    requires = ns.requirement.Item(191470, 5), -- Writhebark
+    requires = ns.requirement.Item(191470, 5, 2), -- Writhebark (Tier 2)
     rewards = {Achievement({id = 16423, criteria = 55311})},
     pois = {
         POI({85702073}), -- Essence of Awakening
@@ -915,7 +978,7 @@ map.nodes[32356934] = Ancestor({
 
 map.nodes[84692429] = Ancestor({
     id = 197050,
-    requires = ns.requirement.Item(200018), -- Enchant Boots - Plainsrunner's Breeze
+    requires = ns.requirement.Item(199934, 1, 1), -- Enchant Boots - Plainsrunner's Breeze (Tier 1)
     rewards = {Achievement({id = 16423, criteria = 55303})},
     pois = {
         POI({85702073}), -- Essence of Awakening
@@ -1384,15 +1447,15 @@ local Ohnahra = Class('Ohnahra', Collectible, {
     id = 194796,
     icon = 4094306,
     requires = {
-        ns.requirement.Quest(66676), -- Sneaking In
-        ns.requirement.Reputation(2503, 9, true) -- Maruuk Centaur
+        ns.requirement.Quest(71209), -- Beast of the Plains
+        ns.requirement.Reputation(2503, 25, true) -- Maruuk Centaur
     },
     rewards = {
         Mount({item = 198821, id = 1545}), -- Divine Kiss of Ohn'ahra
         Achievement({id = 16446, criteria = 55386, note = L['pretty_neat_note']})
     },
     pois = {
-        POI({56257595, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng
+        POI({56207710, 56457327, 60403772}) -- Initiate Radiya, Godoloto, Quatermaster Huseng
     }
 }) -- Ohn'ahra
 
@@ -1416,7 +1479,7 @@ map.nodes[57473193] = Ohnahra()
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
-map.nodes[82207320] = NPC({
+map.nodes[82327320] = NPC({
     id = 191608,
     icon = 4638725,
     note = L['the_great_swog_note']
@@ -1430,5 +1493,26 @@ map.nodes[64014104] = NPC({
     icon = 2101975,
     note = L['hunt_instructor_basku_note']
 }) -- Hunt Instructor Basku (Maruuk Centuar Reputation)
+
+map.nodes[41606220] = Collectible({
+    id = 192818,
+    icon = 4659336,
+    note = L['elder_yusa_note'],
+    rewards = {
+        Item({item = 197793}) -- Yusa's Hearty Stew
+    }
+}) -- Elder Yusa
+
+map.nodes[47037119] = Collectible({
+    id = 187796,
+    icon = 133796,
+    note = L['initiate_kittileg_note'],
+    rewards = {
+        Toy({item = 198039}) -- Rock of Appreciation
+    },
+    pois = {
+        POI({47037037}) -- Entrance
+    }
+}) -- Initiate Kittileg
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

@@ -48,9 +48,9 @@ L['scout_pack'] = '遠征隊斥侯包'
 L['options_icons_scout_pack'] = '遠征隊斥侯包'
 L['options_icons_scout_pack_desc'] = '顯示遠征隊斥侯包的位置'
 
-L['magicbound_chest'] = nil
-L['options_icons_magicbound_chest'] = nil
-L['options_icons_magicbound_chest_desc'] = nil
+L['magicbound_chest'] = '縛法寶箱'
+L['options_icons_magicbound_chest'] = '縛法寶箱'
+L['options_icons_magicbound_chest_desc'] = '顯示縛法寶箱的位置'
 
 L['dr_best'] = '你的最快時間:\n - 普通: %.3fs\n - 進階: %.3fs'
 L['dr_best_dash'] = '你的最佳時間:\n - %.3fs'
@@ -60,7 +60,7 @@ L['dr_bronze'] = '\n\n完成賽事來取得 ' .. ns.color.Bronze('銅牌') .. '.
 L['options_icons_dragonrace'] = '飛龍競速'
 L['options_icons_dragonrace_desc'] = '顯示飛龍競速的位置.'
 
-L['squirrels_note'] = '你必須對小動物而不是戰寵使用表情 /love'
+L['squirrels_note'] = '你必須對小動物而不是戰寵使用表情 {emote:/love}'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = '顯示 {achievement:16729} 成就中小動物的位置.'
 
@@ -81,17 +81,25 @@ L['large_lunker_sighting_note'] = '使用5個 {item:194701} 來召喚 {npc:19291
 L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = '顯示成就 {achievement:16570} 所需的傳奇角色所在位置.'
 
+L['signal_transmitter_label'] = nil
+L['signal_transmitter_note'] = nil
+L['options_icons_signal_transmitter'] = nil
+L['options_icons_signal_transmitter_desc'] = nil
+
+L['spawns_hourly'] = nil
+L['spawns_at_night'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['blightfur_note'] = nil
+L['blightfur_note'] = '和 {npc:193633} 交談來召喚稀有'
 L['brackenhide_rare_note'] = '如果你在 |cFFFFFD00蕨皮谷|r 區域的話, 稀有重生時會在對話欄公告'
 L['fisherman_tinnak_note'] = '收集|cFFFFFD00破損的釣魚竿|r, |cFFFFFD00破損的捕漁網|r 和 |cFFFFFD00舊魚叉|r來召喚稀有.'
-L['frostpaw_note'] = nil
-L['sharpfang_note'] = nil
+L['frostpaw_note'] = '在取得 |cFFFFFD00木頭錘子|r 後, 你有20秒可以在 |cFFFFFD00樹樁|r 上打 |cFFFFFD00痛扁豺狼人|r, 並刷新稀有'
+L['sharpfang_note'] = '幫助 {npc:192747} 打敗 {npc:192748} 來刷新稀有'
 L['spellwrought_snowman_note'] = '收集 10個 {npc:193424} 並且把他們帶到 {npc:193242}.'
-L['trilvarus_loreweaver_note'] = '收集一個|cFFFFFD00歌唱碎片|r以取得 {spell:382076} 接著使用 |cFFFFFD00未充能法器|r 來召喚稀有.'
+L['trilvarus_loreweaver_note'] = '收集一個 |cFFFFFD00歌唱碎片|r 來取得 {spell:382076} 接著點擊 |cFFFFFD00未充能法器|r 來召喚稀有.'
 
 L['breezebiter_note'] = '飛上天空來把他拉下來, 飛靠近他一點'
 
@@ -162,12 +170,13 @@ L['mysterious_wand_note'] = '撿起 |cFFFFFD00水晶鑰匙|r 並把它放進 |cF
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
 
-L['eaglemaster_niraak_note'] = nil
+L['eaglemaster_niraak_note'] = '殺死附近的 {npc:186295} 和 {npc:186299} 來刷新稀有'
 L['hunter_of_the_deep_note'] = '點選武器架然後射魚直到稀有刷新'
-L['scaleseeker_mezeri_note'] = '把{item:194681} 提供給 {npc:193224}後, 他會接露稀有.'
+L['porta_the_overgrown_note'] = '{item:194426} 可以在西邊的湖 |cFFFFFD00空之鏡|r 底部找到. 撒5個 {item:194426} 到 {npc:191953} 上來刷新稀有.'
+L['scaleseeker_mezeri_note'] = '把 {item:194681} 交給 {npc:193224}後, 他會揭露稀有.'
 L['shade_of_grief_note'] = '點選 {npc:193166} 來召喚稀有.'
 L['windscale_the_stormborn_note'] = '殺死對 {npc:192357} 引導法術的 {npc:192367}.'
-L['zarizz_note'] = '點選並對著4個 {npc:193169} 使用' .. ns.color.Orange('/hiss') .. '來召喚稀有.'
+L['zarizz_note'] = '點選並對著4個 {npc:193169} 使用 {emote:/hiss} 來召喚稀有.'
 
 L['gold_swong_coin_note'] = '和 {npc:191608} 一起在山洞內, 且在她的右側.'
 L['nokhud_warspear_note'] = '{item:194540} 可以在遠征隊斥侯包和挖過的土中找到.'
@@ -178,7 +187,7 @@ L['yennus_boat_note'] = '拾取巨牙海民玩具船來取得 {item:200876}, 其
 L['pm_ench_shalasar_glimmerdusk'] = '在壞掉的塔2樓'
 L['pm_herb_hua_greenpaw'] = '在一棵樹邊跪著'
 L['pm_leath_erden'] = '在河邊一個死掉的 {npc:193092} 旁邊站著'
-L['pt_alch_canteen_of_suspicious_water_note'] = '在洞穴深處, 靠近一個死掉的 {npc:194887}.'
+L['pt_alch_canteen_of_suspicious_water_note'] = '在洞穴深處, 在死掉的 {npc:194887} 附近.'
 L['pt_ench_stormbound_horn_note'] = '在 |cFFFFFD00風頌高地|r.'
 L['pt_jewel_fragmented_key_note'] = '在一個崩塌建築裡的樹根下.'
 L['pt_jewel_lofty_malygite_note'] = '漂浮在一個洞穴的空中.'
@@ -196,11 +205,11 @@ L['lizi_note_day3'] = '從 |cFFFFFD00巨龍群島|r 的任意水域釣到10個 {
 L['lizi_note_day4'] = '從 |cFFFFFD00雍亞拉平原|r 的猛瑪象收集20個 {item:192636}.'
 L['lizi_note_day5'] = '從 {npc:190014} 接受任務 {quest:71195}, 並且從 |cFFFFFD00雍伊爾溫泉|r 南邊帳篷內的 {npc:190015} 取得1個 {item:200598}.'
 
-L['ohnahra_note_start'] = '完成從 {quest:65901} 開始的 學徒的休假日 故事線後 {npc:190022} 會出現在 |cFFFFFD00雍伊爾溫泉|r 的風之賢者的帳篷之下.\n\n收集以下的材料:'
+L['ohnahra_note_start'] = '完成在 |cFFFFFD00雍伊爾溫泉|r 的每日任務線 {quest:71196} 來取得 {item:192799}. 從在|cFFFFFD00雍伊爾溫泉|r的風之賢者帳篷之後的 {npc:190022} 處接受任務 {quest:72512}.\n\n收集以下的材料:'
 L['ohnahra_note_item1'] = '從|cFFFFFD00諾庫德進攻據點|r地城 (英雄難度)的最後首領 {npc:186151} 收集3個 {item:201929}, 不是100%掉落.'
 L['ohnahra_note_item2'] = '從 {npc:196707} 使用50個 {currency:2003} 和1個 {item:194562} 來購買1個 {item:201323} .\n{item:194562} 可以從 |cFFFFFD00薩爪祖斯|r 的時佚系列怪物的掉落物取得.'
 L['ohnahra_note_item3'] = '從拍賣場購買1個 {item:191507}. (煉金師名望22後可以從 {npc:196707} 購買 {item:191588}'
-L['ohnahra_note_end'] = '當你取得所有材料後, 回到 {npc:190022} 並接受任務 {quest:72512}. 到 {npc:194796} 處來回報任務並取得你的坐騎.'
+L['ohnahra_note_end'] = '當你取得所有材料後, 和 {npc:194796} 回報任務並取得你的坐騎.'
 
 L['bakar_note'] = '撫摸那隻狗!'
 L['bakar_ellam_note'] = '如果足夠的人撫摸了這隻狗, 她會帶你去她的寶藏.'
@@ -212,13 +221,18 @@ L['ancestor_note'] = '在 |cFFFFFD00木階哨站|r 的帳篷從 |cFFFFFD00甦醒
 L['options_icons_ancestor'] = '{achievement:16423}'
 L['options_icons_ancestor_desc'] = '顯示成就 {achievement:16423} 中先祖的位置.'
 
-L['dreamguard_note'] = '點選夢境守衛並且使用表情符號 ' .. ns.color.Orange('/sleep')
+L['dreamguard_note'] = '點選夢境守衛並且使用表情符號 {emote:/sleep}'
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的夢境守衛位置.'
 
 L['khadin_note'] = '使用 {item:191784} 交換專業知識'
 L['the_great_swog_note'] = '使用 {item:199338}, {item:199339} 和 {item:199340} 來交換 {item:202102}.'
 L['hunt_instructor_basku_note'] = '用 {item:200093} 交換 |cFFFFFD00莫魯克半人馬|r 聲望'
+L['elder_yusa_note'] = '選取 {npc:192818} 並使用 {emote:/hungry} 來取得烹飪食譜'
+L['initiate_kittileg_note'] = '完成 {quest:66226} 來取得玩具!'
+
+L['quackers_duck_trap_kit'] = '要召喚 {npc:192557}. 首先你需要可以在附近營地找到的 {item:194740}.\n\n 要製造成 {item:194712} 你需要如下的材料:'
+L['quackers_spawn'] = '接著你需要用 {item:194712} 抓住一隻鴨子. 你可以在附近的巢邊找到一些. 然後在 {npc:192581} 使用 {item:194739} 來召喚 {npc:192557}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -227,6 +241,7 @@ L['hunt_instructor_basku_note'] = '用 {item:200093} 交換 |cFFFFFD00莫魯克�
 L['ancient_protector_note'] = '殺調附近的 {npc:193244} 來取得 {item:197708}. 組合5個 {item:197708} 來產生 {item:197733}. 並且使用它來啟動附近的泰坦反應爐'
 L['blightpaw_note'] = '和附近的 {npc:193222} 交談並同意幫助他.'
 L['corrupted_proto_dragon_note'] = '和 |cFFFFFD00腐化的龍蛋|r 互動來召喚稀有'
+L['lord_epochbrgl_note'] = '點擊 {npc:193257} 來刷新稀有'
 L['weeping_vilomah_note'] = '和 {npc:193206} 對話來召喚稀有'
 L['woofang_note'] = '撫摸 {npc:193156} 來召喚稀有.'
 
@@ -268,6 +283,7 @@ L['options_icons_new_perspective_desc'] = '顯示成就 {achievement:16634} 所�
 L['ruby_feast_gourmand'] = '一個隨機的客座大廚會每天提供不同的食物和飲料'
 
 L['sorotis_note'] = '用 {item:199906} 交換 |cFFFFFD00沃卓肯協調者|r 聲望'
+L['lillian_brightmoon_note'] = '用 {item:201412} 交換 |cFFFFFD00龍鱗遠征隊|r 聲望'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -366,13 +382,13 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('注意: 如果你死了你�
 
 L['magmashell_note'] = '從 |cFFFFFD00黑曜龍堡|r 附近的 {npc:193138} 身上拾取 {item:201883} 並帶給 {npc:199010}.\n\n' .. ns.color.Orange('要取得坐騎需要在熔岩上引導1個20秒的法術, 推薦找個治療者或是帶著 {item:200116}.')
 
-L['otto_note_start1'] = nil
-L['otto_note_start2'] = nil
-L['otto_note_start3'] = nil
-L['otto_note_item1'] = nil
-L['otto_note_item2'] = nil
-L['otto_note_item3'] = nil
-L['otto_note_end'] = nil
+L['otto_note_start1'] = '收集一副 {item:202042}. 眼鏡可以由 |cFFFFFD00雍亞拉平原|r 的 {npc:191608} 所出售的 {item:202102} 100%取得.\n\n袋子可以用1個 {item:199340} 來購買或是用5個 {item:199339} 購買或是用75個 {item:199338} 購買. 硬幣可以在 |cFFFFFD00巨龍群島|r 釣魚或是擊敗釣魚洞的 |cFFFFFD00<大傢伙>|r 怪物取得.'
+L['otto_note_start2'] = ns.color.Orange('要擊敗 |cFFFFFD00<大傢伙>|r 怪物需要 |cFFFFFD00伊斯凱拉巨牙海民|r 的名望7並且可以使用 {item:194510}.')
+L['otto_note_start3'] = '當你有一副 {item:202042}. 前往在 |cFFFFFD00嘶鳴岩洞|r 的 |cFFFFFD00泡泡浴|r 潛水酒吧找到一塊跳舞墊. 站在上面來取得減益 {spell:396539}. 當減益到期時你會昏厥並在一個桶子旁醒來. 和它互動來拾取 {item:202061}. 你現在必須用魚裝滿桶子來餵給 {npc:199563}.'
+L['otto_note_item1'] = '收集100個 {item:202072}, 可以在 |cFFFFFD00蒼藍高地|r 的 |cFFFFFD00伊斯凱拉|r 的開放水域高機率釣到. 和桶子一起使用會給你一個 {item:202066}.'
+L['otto_note_item2'] = '收集25個 {item:202073}, 可以在 |cFFFFFD00甦醒海岸|r 的 |cFFFFFD00黑曜王座|r 附近的熔岩較稀有釣到. 和桶子一起使用會給你一個 {item:202068}.'
+L['otto_note_item3'] = '收集1個 {item:202074}, 可以在 |cFFFFFD00薩爪祖斯|r 的 |cFFFFFD00阿爾蓋薩學院|r 附近的水裡較稀有釣到. 和桶子一起使用會給你一個 {item:202069}.'
+L['otto_note_end'] = '回到 |cFFFFFD00甦醒海岸|r 的 |cFFFFFD00嘶鳴岩洞|r, 將桶子放在你之前找到的地方來召喚 {npc:199563} 並取得你的坐騎'
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = '顯示成就 {achievement:16519} 所需的戰寵位置'

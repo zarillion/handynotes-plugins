@@ -6,4 +6,4 @@ if not L then return end
 ----------------------------------- COMMON ------------------------------------
 -------------------------------------------------------------------------------
 
-L['anniversary_note'] = ns.color.Orange('Only available during the yearly anniversary event!')
+L['anniversary_note'] = '{note:Only available during the yearly anniversary event!}'

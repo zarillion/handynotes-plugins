@@ -25,6 +25,7 @@ local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
+local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 
 local Achievement = ns.reward.Achievement
@@ -100,7 +101,7 @@ map.nodes[44886910] = Rare({
 
 local CRAGGRAVATEDELEMENTAL = Rare({
     id = 193663,
-    quest = 69964,
+    quest = 74061,
     fgroup = 'craggravated',
     focusable = true,
     rewards = {Achievement({id = 16679, criteria = 56154})}
@@ -111,7 +112,7 @@ map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 
 map.nodes[47675115] = Rare({ -- required 67030
     id = 193234,
-    quest = 69875,
+    quest = 73990,
     rewards = {
         Achievement({id = 16446, criteria = 55398, note = L['pretty_neat_note']}),
         Achievement({id = 16679, criteria = 56147})
@@ -129,25 +130,29 @@ map.nodes[53374092] = Rare({
 
 map.nodes[57828380] = Rare({ -- review
     id = 193126,
-    quest = nil,
-    rewards = {Achievement({id = 16679, criteria = 56135})}
+    quest = 73881,
+    rewards = {
+        Achievement({id = 16679, criteria = 56135}), --
+        Toy({item = 200148}) -- A Collection Of Me
+    }
 }) -- Innumerable Ruination
 
--- map.nodes[] = Rare({
---     id = 193241,
---     quest = 69882,
---     rewards = {
---         Achievement({id = 16679, criteria = 56157}),
---     }
--- }) -- Lord Epochbrgl
+map.nodes[62298177] = Rare({
+    id = 193241,
+    quest = 74066,
+    note = L['lord_epochbrgl_note'],
+    rewards = {
+        Achievement({id = 16679, criteria = 56157}), --
+        Toy({item = 200148}) -- A Collection Of Me
+    },
+    pois = {POI({61708120})} -- Entrance
+}) -- Lord Epochbrgl
 
--- map.nodes[] = Rare({
---     id = 193246,
---     quest = 69883,
---     rewards = {
---         Achievement({id = 16679, criteria = 56141}),
---     }
--- }) -- Matriarch Remalla
+map.nodes[52895903] = Rare({
+    id = 193246,
+    quest = 74013,
+    rewards = {Achievement({id = 16679, criteria = 56141})}
+}) -- Matriarch Remalla
 
 -- map.nodes[] = Rare({ -- reqired 67030
 --     id = 193688,
@@ -160,7 +165,10 @@ map.nodes[57828380] = Rare({ -- review
 map.nodes[57218420] = Rare({ -- reqired 67030 review
     id = 193210,
     quest = 69866,
-    rewards = {Achievement({id = 16679, criteria = 56142})}
+    rewards = {
+        Achievement({id = 16679, criteria = 56142}), --
+        Toy({item = 200148}) -- A Collection Of Me
+    }
 }) -- Phleep
 
 -- map.nodes[] = Rare({
@@ -191,13 +199,16 @@ map.nodes[50005180] = Rare({ -- reqiured 67030 review
     rewards = {Achievement({id = 16679, criteria = 56151})}
 }) -- Rokmur
 
--- map.nodes[] = Rare({ -- reqiured 67030
---     id = 193176,
---     quest = 69859,
---     rewards = {
---         Achievement({id = 16679, criteria = 56150}),
---     }
--- }) -- Sandana the Tempest
+map.nodes[37607780] = Rare({ -- reqiured 67030
+    id = 193176,
+    quest = 69859,
+    note = L['in_cave'],
+    rewards = {
+        Achievement({id = 16679, criteria = 56150}), --
+        Toy({item = 200148}) -- A Collection Of Me
+    },
+    pois = {POI({38507640})} -- Cave entrance
+}) -- Sandana the Tempest
 
 map.nodes[47207895] = Rare({ -- review -- reqiured 67030
     id = 193258,
@@ -233,9 +244,12 @@ map.nodes[46267317] = Rare({
 
 map.nodes[35027001] = Rare({ -- reqiured 67030 review
     id = 193146,
-    quest = 70947,
+    quest = 74036,
     note = L['in_small_cave'],
-    rewards = {Achievement({id = 16679, criteria = 56146})},
+    rewards = {
+        Achievement({id = 16679, criteria = 56146}),
+        Transmog({item = 200291, slot = L['leather']}) -- Waterlogged Racing Grips
+    },
     pois = {POI({34896938})} -- Entrance
 }) -- Treasure-Mad Trambladd
 
@@ -545,6 +559,14 @@ map.nodes[65727498] = Flag({quest = 71223})
 map.nodes[64635672] = Flag({quest = 71224})
 
 -------------------------------------------------------------------------------
+------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[70304430] = SignalTransmitter({quest = 70584}) -- Vault of the Incarnates
+map.nodes[63677710] = SignalTransmitter({quest = 70585}) -- Temporal Conflux
+map.nodes[50745566] = SignalTransmitter({quest = 70583}) -- Tyrhold Reservoir
+
+-------------------------------------------------------------------------------
 ---------------------------- FRAGMENTS OF HISTORY -----------------------------
 -------------------------------------------------------------------------------
 
@@ -568,9 +590,18 @@ map.nodes[57126460] = Fragment({
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[32447309] = Disturbeddirt()
+map.nodes[34006488] = Disturbeddirt()
+map.nodes[34546598] = Disturbeddirt()
+map.nodes[34646179] = Disturbeddirt()
 map.nodes[35406995] = Disturbeddirt()
+map.nodes[35586764] = Disturbeddirt()
+map.nodes[35687143] = Disturbeddirt()
+map.nodes[37426853] = Disturbeddirt()
 map.nodes[37667615] = Disturbeddirt()
 map.nodes[38188192] = Disturbeddirt()
+map.nodes[39058408] = Disturbeddirt()
+map.nodes[39768205] = Disturbeddirt()
 map.nodes[46767747] = Disturbeddirt()
 map.nodes[49514830] = Disturbeddirt()
 map.nodes[49894474] = Disturbeddirt()
@@ -857,9 +888,12 @@ map.nodes[54285271] = PrettyNeat({
 ------------------------------ A LEGENDARY ALBUM ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[51134219] = LegendaryCharacter({
+map.nodes[52934483] = LegendaryCharacter({
     id = 187284,
-    rewards = {Achievement({id = 16570, criteria = 55775})}
+    rewards = {Achievement({id = 16570, criteria = 55775})},
+    pois = {
+        Path({52934483, 52634333, 52244259, 51764224, 51164188}) -- Flight Path
+    }
 }) -- Wrathion
 
 map.nodes[36036939] = LegendaryCharacter({
@@ -1015,9 +1049,19 @@ val.nodes[61261096] = Collectible({
                 55733, 55734
             }
         })
-
     }
 }) -- Great Gourmand of the Ruby Feast
+
+val.nodes[43757494] = Collectible({
+    icon = 4048815,
+    parent = map.id,
+    id = 187783,
+    requires = {
+        ns.requirement.Item(197792, 3), ns.requirement.Item(197788, 1),
+        ns.requirement.Item(197789, 1)
+    },
+    rewards = {Pet({item = 193571, id = 3303})}
+}) -- Mallard Ducklin
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
@@ -1027,5 +1071,12 @@ val.nodes[25994004] = NPC({
     note = L['sorotis_note'],
     parent = map.id
 }) -- Sorotis (Valdrakken Accord Reputation)
+
+val.nodes[35182459] = NPC({
+    id = 197095,
+    icon = 4638531,
+    note = L['lillian_brightmoon_note'],
+    parent = map.id
+}) -- Lillian Brightmoon (Dragonscale Expedition Reputation)
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
