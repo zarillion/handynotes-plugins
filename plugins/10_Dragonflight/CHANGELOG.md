@@ -1,3 +1,9 @@
+# v27
+
+* Added more dirt and scout pack locations.
+* Added signal transmitter locations for the wormhole generator.
+* Overhauled the way colors are rendered in many of our notes.
+
 # v26
 
 * Added lunker rares in the Azure Span.
