@@ -383,8 +383,7 @@ L['slumbering_worldsnail_note2'] = ns.color.Orange('注意: 如果你死了你�
 L['magmashell_note'] = '從 |cFFFFFD00黑曜龍堡|r 附近的 {npc:193138} 身上拾取 {item:201883} 並帶給 {npc:199010}.\n\n' .. ns.color.Orange('要取得坐騎需要在熔岩上引導1個20秒的法術, 推薦找個治療者或是帶著 {item:200116}.')
 
 L['otto_note_start1'] = '收集一副 {item:202042}. 眼鏡可以由 |cFFFFFD00雍亞拉平原|r 的 {npc:191608} 所出售的 {item:202102} 100%取得.\n\n袋子可以用1個 {item:199340} 來購買或是用5個 {item:199339} 購買或是用75個 {item:199338} 購買. 硬幣可以在 |cFFFFFD00巨龍群島|r 釣魚或是擊敗釣魚洞的 |cFFFFFD00<大傢伙>|r 怪物取得.'
-L['otto_note_start2'] = ns.color.Orange('要擊敗 |cFFFFFD00<大傢伙>|r 怪物需要 |cFFFFFD00伊斯凱拉巨牙海民|r 的名望7並且可以使用 {item:194510}.')
-L['otto_note_start3'] = '當你有一副 {item:202042}. 前往在 |cFFFFFD00嘶鳴岩洞|r 的 |cFFFFFD00泡泡浴|r 潛水酒吧找到一塊跳舞墊. 站在上面來取得減益 {spell:396539}. 當減益到期時你會昏厥並在一個桶子旁醒來. 和它互動來拾取 {item:202061}. 你現在必須用魚裝滿桶子來餵給 {npc:199563}.'
+L['otto_note_start2'] = '當你有一副 {item:202042}. 前往在 |cFFFFFD00嘶鳴岩洞|r 的 |cFFFFFD00泡泡浴|r 潛水酒吧找到一塊跳舞墊. 站在上面來取得減益 {spell:396539}. 當減益到期時你會昏厥並在一個桶子旁醒來. 和它互動來拾取 {item:202061}. 你現在必須用魚裝滿桶子來餵給 {npc:199563}.'
 L['otto_note_item1'] = '收集100個 {item:202072}, 可以在 |cFFFFFD00蒼藍高地|r 的 |cFFFFFD00伊斯凱拉|r 的開放水域高機率釣到. 和桶子一起使用會給你一個 {item:202066}.'
 L['otto_note_item2'] = '收集25個 {item:202073}, 可以在 |cFFFFFD00甦醒海岸|r 的 |cFFFFFD00黑曜王座|r 附近的熔岩較稀有釣到. 和桶子一起使用會給你一個 {item:202068}.'
 L['otto_note_item3'] = '收集1個 {item:202074}, 可以在 |cFFFFFD00薩爪祖斯|r 的 |cFFFFFD00阿爾蓋薩學院|r 附近的水裡較稀有釣到. 和桶子一起使用會給你一個 {item:202069}.'

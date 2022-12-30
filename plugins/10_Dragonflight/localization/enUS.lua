@@ -390,13 +390,12 @@ L['slumbering_worldsnail_note2'] = '{note:If you die you will lose your membersh
 
 L['magmashell_note'] = 'Loot {item:201883} from {npc:193138} around {location:Obsidian Citadel} and bring it to the {npc:199010}.\n\n{note:There is a 20 second spell channel while in the lava to obtain the mount so bringing a healer or something like {item:200116} is recommended}.}'
 
-L['otto_note_start1'] = 'Collect a pair of {item:202042}. The glasses are a 100% drop from the {item:202102} which is purchased from {npc:191608} in the {location:Ohn\'ahran Plains}.\n\nThe bag can be purchased with 1x {item:199340} which can be purchased with 5x {item:199339} which can be purchased with 75x {item:199338} which can be fished up around {location:The Dragon Isles} or by defeating {title:<Lunker>} mobs in fishing holes.'
-L['otto_note_start2'] = '{note:Defeating {title:<Lunker>} mobs will require Renown 7 with the {faction:2511} and access to the {item:194510}.}'
-L['otto_note_start3'] = 'Once you have a pair of {item:202042} head over to {location:The Bubble Bath} dive bar in the {location:Hissing Grotto} find a dancing mat, and stand on it to get the debuff {spell:396539}. Once the debuff expires you will pass out and wake up next to a barrel. Interact with it to loot the {item:202061}. You now need to fill the barrel with fish to feed to {npc:199563}.'
-L['otto_note_item1'] = 'Collect 100x {item:202072}, a high drop fish that can be fished in the open waters of {location:Iskaara} in {location:Azure Span}. Using the barrel with the fish gives you a {item:202066}.'
-L['otto_note_item2'] = 'Collect 25x {item:202073}, a rare drop fish that can be fished in the lava around the {location:Obsidian Citadel} in {location:The Waking Shores}. Using the barrel with the fish gives you a {item:202068}.'
-L['otto_note_item3'] = 'Collect 1x {item:202074}, a rare drop fish that can be fished in the waters by {location:Algeth\'ar Academy} in {location:Thaldraszus}. Using the barrel with the fish gives you an {item:202069}.'
-L['otto_note_end'] = 'Return to the {location:Hissing Grotto} in {location:The Waking Shores} and leave the barrel where you found it to summon {npc:199563} and receive your mount!'
+L['otto_note_start1'] = 'Purchase an {item:202102} from {npc:191608} in the {location:Ohn\'ahran Plains} to collect a pair of {item:202042}. The bag requires 75x {item:199338} which you can fish up or loot from {title:<Lunker>} mobs near fishing holes.'
+L['otto_note_start2'] = 'Head over to {location:The Bubble Bath} dive bar in the {location:Hissing Grotto}, use the shades and find a dancing mat. Stand on it until you pass out, then loot the {item:202061}.'
+L['otto_note_item1'] = 'Collect 100x {item:202072} from open waters near {location:Iskaara} in {location:Azure Span}. Use the barrel to get a {item:202066}.'
+L['otto_note_item2'] = 'Collect 25x {item:202073} from the lava around the {location:Obsidian Citadel} in {location:The Waking Shores}. Use the barrel to get a {item:202068}.'
+L['otto_note_item3'] = 'Collect 1x {item:202074} from the waters by {location:Algeth\'ar Academy} in {location:Thaldraszus}. Use the barrel to get an {item:202069}.'
+L['otto_note_end'] = 'Return to the {location:Hissing Grotto} and leave the barrel where you found it to summon {npc:199563} and receive your mount!'
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:16519} achievement.'

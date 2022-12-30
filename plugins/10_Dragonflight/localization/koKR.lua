@@ -377,7 +377,6 @@ L['magmashell_note'] = '{location:흑요석 성채} 주변의 {npc:193138}를 �
 
 L['otto_note_start1'] = nil
 L['otto_note_start2'] = nil
-L['otto_note_start3'] = nil
 L['otto_note_item1'] = nil
 L['otto_note_item2'] = nil
 L['otto_note_item3'] = nil
