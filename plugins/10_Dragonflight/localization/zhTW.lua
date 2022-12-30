@@ -6,7 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = ns.color.Orange('這個稀有有機會掉落高裝等的拾取!')
+L['elite_loot_higher_ilvl'] = ns.color.Orange('這個稀有有機會掉落高裝等的拾取!')
 L['gem_cluster_note'] = '需要的物品可以在龍鱗遠征隊名望21後, 在遠征隊斥侯包和挖過的土找到'
 
 L['options_icons_bonus_boss'] = '獎勵精英'

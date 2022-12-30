@@ -70,7 +70,7 @@ ns.groups.STORIES = Group('stories', 4549126, {defaults = ns.GROUP_HIDDEN})
 
 local RareElite = Class('RareElite', Rare, {
     rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
-    sublabel = L['elite_loot_385']
+    sublabel = L['elite_loot_higher_ilvl']
 })
 
 ns.node.RareElite = RareElite

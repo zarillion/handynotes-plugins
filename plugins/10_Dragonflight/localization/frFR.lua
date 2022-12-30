@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = '{note:Ce rare peut laisser tomber du butin ayant un ilvl plus élevé que la normale !}'
+L['elite_loot_higher_ilvl'] = '{note:Ce rare peut laisser tomber du butin ayant un ilvl plus élevé que la normale !}'
 L['gem_cluster_note'] = 'L\'objet requis peut être trouvé au Renom 21 avec l\'{faction:2507} dans les {object:Paquetages d\'éclaireurs de l\'expédition} et les {object:Terres retournées}.'
 
 L['options_icons_bonus_boss'] = 'Élites bonus'
