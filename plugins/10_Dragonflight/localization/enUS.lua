@@ -87,7 +87,7 @@ L['options_icons_signal_transmitter'] = 'Wyrmhole Generator Signal Transmitters'
 L['options_icons_signal_transmitter_desc'] = 'Display the locations of {object:Deactivated Signal Transmitters} for the {item:198156}.'
 
 L['spawns_hourly'] = 'Only possible spawns at integer hour.'
-L['spawns_at_night'] = 'Possible spawns only at night. (Spawn 18:00 on server time)'
+L['spawns_at_night'] = 'Possible spawns only at night. (Spawn 18:30 on server time)'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
