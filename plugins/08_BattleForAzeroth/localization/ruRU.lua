@@ -661,7 +661,7 @@ L['options_icons_brutosaurs'] = '{achievement:13029}'
 L['options_icons_brutosaurs_desc'] = 'Отображение местоположения брутозавров для достижения {achievement:13029}.'
 
 local hekd_note = '\n\nЧтобы получить доступ к {npc:126334}, вам необходимо выполнить %s.'
-if UnitFactionGroup('player') == 'Horde' then
+if ns.faction == 'Horde' then
     hekd_note = hekd_note:format('{quest:47441} от {npc:127665} в Дазар\'алоре, за которым следует {quest:47442} от {npc:126334}')
 else
     hekd_note = hekd_note:format('{quest:51142} от {npc:136562} в Вол\'дуне, за которым следует {quest:51145} от {npc:136559}')
@@ -691,20 +691,20 @@ L['options_icons_tales_of_de_loa'] = '{achievement:13036}'
 L['options_icons_tales_of_de_loa_desc'] = 'Отображение местоположения табличек для достижения {achievement:13036}.'
 
 L['jani_note'] = 'Нажмите на Загадочную кучу мусора, чтобы открыть {npc:126334}.'
-L['rezan_note'] = ns.color.Red('Внутри подземелья Атал\'Дазар.')
-L['bow_to_your_masters_note'] = 'Поклонись лоа Зандалара (' .. ns.color.Orange('/поклон') .. ').'
+L['rezan_note'] = '{note:Внутри подземелья {location:Атал\'Дазар}.}'
+L['bow_to_your_masters_note'] = 'Поклонись лоа Зандалара ({emote:/поклон}).'
 L['options_icons_bow_to_your_masters'] = '{achievement:13020}'
 L['options_icons_bow_to_your_masters_desc'] = 'Отображение местоположения лоа для достижения {achievement:13020}.'
 
 L['alisha_note'] = 'Этому торговцу требуется прогресс заданий в Друстваре.'
 L['elijah_note'] = 'Этот продавец требует выполнения заданий в Друстваре. Он начинает продавать колбасу после {quest:47945}.'
-L['raal_note'] = ns.color.Red('Внутри подземелья поместья Уэйкрестов.')
+L['raal_note'] = '{note:Внутри подземелья {location:поместья Уэйкрестов}.}'
 L['sausage_sampler_note'] = 'Съешьте каждую колбасу, чтобы получить достижение.'
 L['options_icons_sausage_sampler'] = '{achievement:13087}'
 L['options_icons_sausage_sampler_desc'] = 'Отображение местоположения продавцов для достижения {achievement:13087}.'
 
 -- For Horde, include a note about drinks that must be purchased on the AH
-local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Следующие напитки недоступны для Орды и должны быть куплены на аукционе:
+local horde_sheets = (ns.faction == 'Horde') and [[ Следующие напитки недоступны для Орды и должны быть куплены на аукционе:
 
 • {item:163639}
 • {item:163638}
@@ -722,15 +722,15 @@ L['options_icons_daily_chests'] = 'Сундуки'
 
 L['supply_chest'] = 'Сундук с военными припасами'
 L['supply_chest_note'] = '{npc:135181} или {npc:138694} будет пролетать над головой каждые 45 минут и сбрасывать {npc: 135238} в одном из трех возможных мест падения.'
-L['supply_single_drop'] = ns.color.Orange('По этой траектории полета ящик с припасами всегда падает в этом месте.')
+L['supply_single_drop'] = '{note:По этой траектории полета ящик с припасами всегда падает в этом месте.}'
 L['options_icons_supplies_desc'] = 'Показать места падения {npc:135238}.'
 L['options_icons_supplies'] = '{npc:135238}'
 
 L['secret_supply_chest'] = 'Секретный сундук с припасами'
-L['secret_supply_chest_note'] = 'Когда атака фракции активна, ' .. ns.color.Yellow('Секретный сундук с припасамиt') .. ' может появиться в одном из этих мест на короткое время.'
+L['secret_supply_chest_note'] = 'Когда атака фракции активна, {object:Секретный сундук с припасамиt} может появиться в одном из этих мест на короткое время.'
 L['options_icons_secret_supplies'] = 'Секретные сундуки с припасами'
-L['options_icons_secret_supplies_desc'] = 'Отобразить ' .. ns.color.Yellow('Секретные сундуки с припасами') .. ' места для достижения {achievement:13317}.'
+L['options_icons_secret_supplies_desc'] = 'Отобразить {object:Секретные сундуки с припасами} места для достижения {achievement:13317}.'
 
-L['squirrels_note'] = 'Вы должны использовать эмоцию /любовь на зверьках, а не на боевых питомцах.'
+L['squirrels_note'] = 'Вы должны использовать эмоцию {emote:/любовь} на зверьках, а не на боевых питомцах.'
 L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:14730}'

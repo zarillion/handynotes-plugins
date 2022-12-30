@@ -43,6 +43,7 @@ read_globals = {
     'C_Spell',
     'C_SuperTrack',
     'C_TaskQuest',
+    'C_Texture',
     'C_Timer',
     'C_TradeSkillUI',
     'C_TransmogCollection',

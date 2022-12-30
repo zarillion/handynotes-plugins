@@ -3,6 +3,8 @@ local L = ns.NewLocale('deDE')
 if not L then return end
 -- German translation by Dathwada EU-Eredar
 
+local Gold = ns.color.Gold
+
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
 -------------------------------------------------------------------------------
@@ -11,11 +13,11 @@ L['commander_texlaz_note'] = 'Benötigt nicht länger die Weltquest {quest:48831
 L['doomcaster_suprax_note'] = 'Benötigt nicht länger drei Spieler. Tritt einfach auf eine Rune, um {npc:127703} zu beschwören.'
 L['mother_rosula_note'] = 'Sammel 100 {item:152999} von {npc:126073} und kombiniere diese, um ein {item:153013} herzustellen. Benutze das {item:153013} bei ihrem Becken.'
 L['reziera_the_seer_note'] = 'Während du den Stärkungszauber {spell:254174} hast, sammel 500 {item:153021}, um einen {item:153226} von {npc:128134} zu kaufen. \n\nBenutze den {item:153226}, um dich (und deine Gruppe) zu {npc:127706} zu bringen.'
-L['squadron_commander_vishax_note'] = 'Sammel {item:152890} von {npc:127598}.\n\nSammel {item:152941}, {item:152940} und {item:152891} von {npc:127597} oder {npc:127596}.\n\nBenutze {item:152890},um die Quest {quest:49007} zu erhalten.\n\n|cFFFF8C00Diese Quest kann geteilt werden.|r'
+L['squadron_commander_vishax_note'] = 'Sammel {item:152890} von {npc:127598}.\n\nSammel {item:152941}, {item:152940} und {item:152891} von {npc:127597} oder {npc:127596}.\n\nBenutze {item:152890},um die Quest {quest:49007} zu erhalten.\n\n{note:Diese Quest kann geteilt werden.}'
 L['ven_orn_note'] = 'Betritt die Spinnenhöhle, geh nach rechts und in eine weitere kleine Höhle hinunter. Sie befindet sich in dieser 2. Kammer an der Rückseite.'
 
-L['the_many_faced_devourer_note'] = 'Sammel {item:152786} von {npc:126193} oder {npc:126171} in |cFFFFFD00Die Knochenberge der Aasfresser|r.\n\nSammel {item:152991}, {item:152992} und {item:152993}.\n\nBeschwöre {npc:127581} beim {npc:127442}.\n\n|cFFFF8C00Wenn du das {npc:127442} nicht sehen kannst, musst du dich möglicherweise einmal neu einloggen.|r'
-L['the_many_faced_devourer_checklist'] = '|cFFFFD700Checkliste (in der Tasche oder der Bank):|r'
+L['the_many_faced_devourer_note'] = 'Sammel {item:152786} von {npc:126193} oder {npc:126171} in {location:Die Knochenberge der Aasfresser}.\n\nSammel {item:152991}, {item:152992} und {item:152993}.\n\nBeschwöre {npc:127581} beim {npc:127442}.\n\n{note:Wenn du das {npc:127442} nicht sehen kannst, musst du dich möglicherweise einmal neu einloggen.}'
+L['the_many_faced_devourer_checklist'] = Gold('|cFFFFD700Checkliste (in der Tasche oder der Bank):|r')
 
 L['orix_the_all_seer_note'] = 'Verkauft Sammlerstücke im Tausch gegen {item:153021}.'
 
@@ -81,7 +83,7 @@ L['book_7'] = 'Kapitel 7 (Samstag)'
 
 L['higher_dimensional_learning_location'] = 'Befindet sich auf dem Turm.'
 L['higher_dimensional_learning_note'] = 'Kaufe einen {item:129276} von {npc:107376} bei |cFFFFFD00Der Zerfallene Palast|r. Benutze täglich den {item:129276}, um zu einem anderen Kapitel teleportiert zu werden.\n\nKapitel 1: Sonntag\nKapitel 2: Montag\nKapitel 3: Dienstag\nKapitel 4: Mittwoch\nKapitel 5: Donnerstag\nKapitel 6: Freitag\nKapitel 7: Samstag'
-L['higher_dimensional_learning_disclaimer'] = 'Teleportieren zu einem Kapitel garantiert nicht, dass dieses erscheinen wird. Möglicherweise musst du warten oder später noch einmal nachsehen.'
+L['higher_dimensional_learning_disclaimer'] = '{note:Teleportieren zu einem Kapitel garantiert nicht, dass dieses erscheinen wird. Möglicherweise musst du warten oder später noch einmal nachsehen.}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = 'Zeigt die Position der Kapitel für den Erfolg {achievement:11175} an.'
@@ -205,4 +207,4 @@ L['small_treasure_chest'] = 'Kleine Schatztruhe'
 L['treasure_chest'] = 'Schatztruhe'
 L['treasures_discovered'] = 'Schätze entdeckt'
 
-L['general_pet_tamer_note'] = ns.color.Orange('Erscheint nur, wenn die entsprechende Weltquest aktiv ist.')
+L['general_pet_tamer_note'] = '{note:Erscheint nur, wenn die entsprechende Weltquest aktiv ist.}'

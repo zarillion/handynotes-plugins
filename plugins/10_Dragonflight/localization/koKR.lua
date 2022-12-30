@@ -81,6 +81,14 @@ L['large_lunker_sighting_note'] = '{item:194701} 5개를 던져 {npc:192919} 또
 L['options_icons_legendary_album'] = '{achievement:16570}'
 L['options_icons_legendary_album_desc'] = '{achievement:16570} 업적을 위한 전설적인 캐릭터의 위치를 표시합니다.'
 
+L['signal_transmitter_label'] = nil
+L['signal_transmitter_note'] = nil
+L['options_icons_signal_transmitter'] = nil
+L['options_icons_signal_transmitter_desc'] = nil
+
+L['spawns_hourly'] = nil
+L['spawns_at_night'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -164,6 +172,7 @@ L['mysterious_wand_note'] = nil
 
 L['eaglemaster_niraak_note'] = nil
 L['hunter_of_the_deep_note'] = nil
+L['porta_the_overgrown_note'] = nil
 L['scaleseeker_mezeri_note'] = nil
 L['shade_of_grief_note'] = nil
 L['windscale_the_stormborn_note'] = nil
@@ -219,6 +228,11 @@ L['options_icons_dreamguard_desc'] = nil
 L['khadin_note'] = nil
 L['the_great_swog_note'] = nil
 L['hunt_instructor_basku_note'] = '{item:200093}을 반납하여 |cFFFFFD00마루크 켄타우로스|r 평판을 획득합니다.'
+L['elder_yusa_note'] = nil
+L['initiate_kittileg_note'] = nil
+
+L['quackers_duck_trap_kit'] = nil
+L['quackers_spawn'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -227,6 +241,7 @@ L['hunt_instructor_basku_note'] = '{item:200093}을 반납하여 |cFFFFFD00마�
 L['ancient_protector_note'] = nil
 L['blightpaw_note'] = nil
 L['corrupted_proto_dragon_note'] = nil
+L['lord_epochbrgl_note'] = nil
 L['weeping_vilomah_note'] = nil
 L['woofang_note'] = nil
 
@@ -268,6 +283,7 @@ L['options_icons_new_perspective_desc'] = '{achievement:16634} 업적을 위한 
 L['ruby_feast_gourmand'] = '매일 무작위로 선정된 요리사가 서로 다른 음식과 음료를 제공합니다.'
 
 L['sorotis_note'] = '{item:199906}을 반납하여 |cFFFFFD00발드라켄 협의회|r 평판을 획득합니다.'
+L['lillian_brightmoon_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = '现世边界'
-L['edge_of_reality_note'] = ns.color.Yellow('现世边界') .. ' 传送门将你带到一个场景，可以拾取 {item:121815}。'
+L['edge_of_reality_note'] = '{location:现世边界} 传送门将你带到一个场景，可以拾取 {item:121815}。'
 L['treasures_discovered'] = '宝藏已发现'
 L['strange_spore_treasure'] = '奇异孢子'
 L['burning_blade_cache_treasure'] = '火刃宝箱'
@@ -16,7 +16,7 @@ L['multiple_spawn_note'] = '在多个位置刷新。'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = '显示 {achievement:10053} 成就中服装的位置。'
 
-L['squirrels_note'] = '必须使用表情 /爱（/love）给非战斗宠物的小动物。'
+L['squirrels_note'] = '必须使用表情 {emote:/爱}，{emote:/love} 给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:14728}'
 L['options_icons_squirrels_desc'] = '显示 {achievement:14728} 成就中小动物的位置。'
 
@@ -33,7 +33,7 @@ L['fen_tao_follower_note'] = '与他交谈招募为追随者。'
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = ns.color.Red('不要杀死！') .. '\n\n相反，杀死附近的食人魔并将它们喂给 {npc:72156}。在10个食人魔之后他会咳出一个可拾取的 |cffffff00吞噬者的结石|r。'
+L['borrok_the_devourer_note'] = '{note:不要杀死！}\n\n相反，杀死附近的食人魔并将它们喂给 {npc:72156}。在10个食人魔之后他会咳出一个可拾取的 {object:吞噬者的结石}。'
 L['gibblette_the_cowardly_note'] = '打断 {spell:175415} 否则他会逃离战斗并消失。'
 
 L['arena_masters_war_horn_treasure'] = '竞技场大师的作战号角'
@@ -97,9 +97,9 @@ L['shadow_hunter_rala_follower_note'] = '完成 {quest:34348} 后招募他为追
 L['gronnstalker_rokash_follower_note'] = '完成 {quest:32981} 后招募他为追随者。'
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
-L['options_icons_writing_in_the_snow_desc'] = '显示 {achievement:9531} 成就中 |cffffff00散落的日志书页|r 的位置。'
+L['options_icons_writing_in_the_snow_desc'] = '显示 {achievement:9531} 成就中 {object:散落的日志书页} 的位置。'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = '显示 {achievement:9533} 成就中 |cffffff00冰封的奴隶|r 和 |cffffff00囚笼|r 的位置。'
+L['options_icons_breaker_of_chains_desc'] = '显示 {achievement:9533} 成就中 {object:冰封的奴隶} 和 {object:囚笼} 的位置。'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = '显示 {achievement:9534} 成就中美食的位置。'
 
@@ -108,8 +108,8 @@ L['options_icons_delectable_ogre_delicacies_desc'] = '显示 {achievement:9534} 
 -------------------------------------------------------------------------------
 
 L['poundfist_note'] = '重生时间非常长，在50到90小时之间。'
-L['trophy_of_glory_note'] = '必须完成建造戈尔隆德要塞哨站让任务物品掉落。'
-L['roardan_sky_terror_note'] = '在丛林之心和蛮兽岗哨范围飞行并在途中3个位置停留。'
+L['trophy_of_glory_note'] = '必须完成建造 {location:戈尔隆德} {location:要塞哨站} 让任务物品掉落。'
+L['roardan_sky_terror_note'] = '在 {location:丛林之心} 和 {location:蛮兽岗哨} 范围飞行并在途中3个位置停留。'
 
 L['attack_plans_treasure'] = '钢铁部落攻击指令'
 L['brokors_sack_treasure'] = '波尔卡的袋子'
@@ -141,9 +141,9 @@ L['weapons_cache_treasure'] = '武器架'
 L['ninja_pepe_note'] = '小屋内椅子上。'
 L['ninja_pepe_treasure'] = '忍者佩佩'
 
-L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r，|cffffff00{npc:86258}|r，和 |cffffff00{npc:86257}|r 来自 |cffffff00丛林守护者|r'
+L['protectors_of_the_grove_sublabel'] = '{npc:86259}，{npc:86258}，和 {npc:86257} 来自 |cffffff00丛林守护者|r'
 
-L['prove_your_strength_note'] = '需要 {spell:164012} 要塞技能来激活。访问你的阵营哨站启用 |cffffff00格斗竞技场|r。'
+L['prove_your_strength_note'] = '需要 {spell:164012} 要塞技能来激活。访问你的阵营哨站启用 {location:格斗竞技场}。'
 L['prove_your_strength_drop_single'] = '%s 掉落。'
 L['prove_your_strength_drop_double'] = '%s 或 %s 掉落。'
 
@@ -151,7 +151,7 @@ L['tormmok_follower_note'] = '第一次出现时 ' .. ns.color.Red('敌对') .. 
 L['blook_follower_note'] = '与他交谈后战斗击败他，然后再次与他交谈招募为追随者。'
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
-L['options_icons_attack_plans_desc'] = '显示 {achievement:9656} 成就中钢铁部落攻击指令的位置。'
+L['options_icons_attack_plans_desc'] = '显示 {achievement:9656} 成就中 {object:钢铁部落攻击指令} 的位置。'
 L['options_icons_ancient_no_more'] = '{achievement:9678}'
 L['options_icons_ancient_no_more_desc'] = '显示 {achievement:9678} 成就中稀有的位置。'
 L['options_icons_fight_the_power'] = '{achievement:9655}'
@@ -166,8 +166,8 @@ L['options_icons_prove_your_strength_desc'] = '显示 {achievement:9402} 成就�
 L['fangler_note'] = '使用钓鱼竿。'
 L['berserk_t_300_series_mark_ii_note'] = '使用开关。'
 L['graveltooth_note'] = '击杀 {npc:84255} 直到 {npc:84263} 刷新。'
-L['gorepetal_note'] = '洞穴内。\n\n不在迷你地图上显示。点击原始百合来刷新 {npc:83509}。'
-L['sean_whitesea_note'] = '打开被遗弃的箱子后 {npc:83542} 出现。'
+L['gorepetal_note'] = '洞穴内。\n\n不在迷你地图上显示。点击 {object:原始百合} 后 {npc:83509} 出现。'
+L['sean_whitesea_note'] = '打开被 {object:遗弃的箱子} 后 {npc:83542} 出现。'
 
 L['a_pile_of_dirt_treasure'] = '一堆泥土'
 L['abandoned_cargo_treasure'] = '被遗弃的货箱'
@@ -226,23 +226,23 @@ L['viking_pepe_treasure'] = '维京佩佩'
 
 L['highmaul_farm_path'] = [[
 刷怪路径
-1. 从前门开始，向右进入|cffffff00下水道|r。
+1. 从前门开始，向右进入 {location:下水道}。
 2. 左转穿过角斗场区域。请务必在左上方标记俯瞰的食人魔。
 3. 继续上楼梯，经过 {npc:87227} 的池塘。
-4. 左转并向上进入 |cffffff00凯旋之路|r。
+4. 左转并向上进入 {location:凯旋之路}。
 5. 走到岔路口。请务必将食人魔标记到右侧。
-6. 左转进入|cffffff00市场区|r 并逆时针方向清除所有。
-7. 向左进入|cffffff00元首之赐|r，继续沿着路径清除所有。
-8. 再次向左，沿着小路，回到|cffffff00凯旋之路|r。
-9. 上坐骑飞过去，进入|cffffff00角斗场|r。不要试图使用前门，它是锁着的。
+6. 左转进入 {location:市场区} 并逆时针方向清除所有。
+7. 向左进入 {location:元首之赐}，继续沿着路径清除所有。
+8. 再次向左，沿着小路，回到 {location:凯旋之路}。
+9. 上坐骑飞过去，进入 {location:角斗场}。不要试图使用前门，它是锁着的。
 
 向右飞出并返回前门。一波只需不到4分钟，当你回到前门时，一切都已经刷新了。
 ]]
 
-L['steamwheedle_note'] = '从 |cffffff00悬槌堡|r 周围的 {npc:87223} 和 {npc:87222} 刷 {item:118099} 和 {item:118100}。交付物品给 {npc:87393} 获得声望。'
+L['steamwheedle_note'] = '从 {location:悬槌堡} 周围的 {npc:87223} 和 {npc:87222} 刷 {item:118099} 和 {item:118100}。交付物品给 {npc:87393} 获得声望。'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
-L['finding_your_waystones_note'] = '从 |cffffff00悬槌堡|r 周围的 {npc:87223} 和 {npc:87222} 刷 {item:117491}。'
+L['finding_your_waystones_note'] = '从 {location:悬槌堡} 周围的 {npc:87223} 和 {npc:87222} 刷 {item:117491}。'
 L['ogre_waystones'] = '拾取食人魔道标石'
 
 L['signal_horn_note'] = '从附近的 {npc:86658} 获得 {item:120290} 然后使用 {npc:87361} 来召唤 {npc:87239} 和 {npc:87344}。'
@@ -252,13 +252,13 @@ L['warsong_relics'] = '靠在小屋外的栅栏上'
 L['stolen_draenei_tome'] = '可以在塔顶的多个位置刷新'
 L['dirt_mound'] = '在附近击杀 {npc:86659} 来刷新 {npc:87280}。点击图腾获得 {spell:174572}。现在可以挖掘附近的 {npc:87530} 来寻找物品。'
 
-L['stable_master_note'] = '和 {兽栏管理员} 交谈获得一个训练中的坐骑哨。\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\n使用哨子召唤你的坐骑并杀死目标。\n\n{achievement:9539} 需要 {item:118469} 来自 |cffffff002级兽栏|r。\n{achievement:9540} 需要 {item:118470} 来自 |cffffff003级兽栏|r。'
+L['stable_master_note'] = '和 {兽栏管理员} 交谈获得一个训练中的坐骑哨。\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\n使用哨子召唤你的坐骑并杀死目标。\n\n{achievement:9539} 需要 {item:118469} 来自 |cffffff00二级兽栏|r。\n{achievement:9540} 需要 {item:118470} 来自 |cffffff00三级兽栏|r。'
 
-L['making_the_cut_note'] = '当 {npc:88210} 可用时，在 |cffffff00鲜血竞技场|r 附近杀死15个 {npc:88207}。一旦15个被杀死 {npc:88210} 将可成为目标。\n\n' .. ns.color.Red('对一群废物来说还算不错！等你们准备好送死，就来面对克鲁德吧！')
+L['making_the_cut_note'] = '当 {npc:88210} 可用时，在 {location:鲜血竞技场} 附近杀死15个 {npc:88207}。一旦15个被杀死 {npc:88210} 将可成为目标。\n\n' .. ns.color.Red('对一群废物来说还算不错！等你们准备好送死，就来面对克鲁德吧！')
 
 L['goldmane_follower_note'] = '击杀附近的 {npc:80080} 以拾取 {item:111863} 并解锁笼子招募 {npc:80083} 作为追随者。'
 L['abugar_follower_note'] = [[
-交付在 |cffffff00纳格兰|r 周围找到的3件钓鱼物品，然后与他交谈招募为追随者。
+交付在 {location:纳格兰} 周围找到的3件钓鱼物品，然后与他交谈招募为追随者。
 
 {item:114245}
 {item:114242}
@@ -280,7 +280,7 @@ L['options_icons_buried_treasures_desc'] = '显示 {achievement:9548} 成就中�
 L['options_icons_the_stable_master'] = '{achievement:9539} 和 {achievement:9540}'
 L['options_icons_the_stable_master_desc'] = '显示 {achievement:9539} 和 {achievement:9540} 成就中目标的位置。'
 L['options_icons_making_the_cut'] = '{achievement:9617}'
-L['options_icons_making_the_cut_desc'] = '显示 {achievement:9617} 成就中 |cffffff00血环奴贩|r 的位置。'
+L['options_icons_making_the_cut_desc'] = '显示 {achievement:9617} 成就中 {npc:88207} 的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
@@ -317,7 +317,7 @@ L['ronokks_belongings_treasure'] = '罗诺克的物品'
 L['rotting_basket_treasure'] = '腐朽的篮子'
 L['rovos_dagger_treasure'] = '罗沃的匕首'
 L['scaly_rylak_egg_treasure'] = '带鳞片的双头飞龙蛋'
-L['shadowmoon_exile_treasure_note'] = '|cffffff00流亡者高地|r 下面洞穴内。'
+L['shadowmoon_exile_treasure_note'] = '{location:流亡者高地} 下面洞穴内。'
 L['shadowmoon_exile_treasure_treasure'] = '影月流亡者宝箱'
 L['shadowmoon_sacrificial_dagger_treasure'] = '影月祭祀匕首'
 L['shadowmoon_treasure_treasure'] = '影月宝藏'
@@ -341,7 +341,7 @@ L['options_icons_you_have_been_rylakinated_desc'] = '显示 {achievement:9481} �
 -------------------------------------------------------------------------------
 
 L['abandoned_mining_pick_treasure'] = '被遗弃的采矿锄'
-L['admiral_taylors_coffer_note'] = '使用 {item:116020} 解锁 |cffffff00海军上将泰勒的要塞议政厅|r 的 |cffffff00海军上将泰勒的保险箱|r。'
+L['admiral_taylors_coffer_note'] = '使用 {item:116020} 解锁 {location:海军上将泰勒的要塞议政厅} 的 {object:海军上将泰勒的保险箱}。'
 L['admiral_taylors_coffer_treasure'] = '海军上将泰勒的保险箱'
 L['assassins_spear_treasure'] = '刺客的长矛'
 L['campaign_contributions_treasure'] = '战争捐赠物资'
@@ -361,7 +361,7 @@ L['ogron_plunder_treasure'] = '独眼魔战利品'
 L['orcish_signaling_horn_treasure'] = '兽人信号号角'
 L['outcasts_belongings_treasure'] = '流亡者财物'
 L['outcasts_pouch_treasure'] = '流亡者袋子'
-L['rooby_roos_ruby_collar_note'] = '在 |cffffff00咸水藤壶|r 的地窖从 {npc:82432} 购买3个 {item:114835}。跟随并喂食 {npc:84332} 直到他在地板上留下一个“宝藏”。'
+L['rooby_roos_ruby_collar_note'] = '在 {location:咸水藤壶} 的地窖从 {npc:82432} 购买3个 {item:114835}。跟随并喂食 {npc:84332} 直到他在地板上留下一个“宝藏”。'
 L['rooby_roos_ruby_rollar_treasure'] = '鲁比的洛洛'
 L['rukhmars_image_treasure'] = '鲁克玛的影像'
 L['sailor_zazzuks_180_proof_rum_note'] = '控制室内。'
@@ -376,7 +376,7 @@ L['sun_touched_cache_treasure'] = '烈日宝箱'
 L['toxicfang_venom_treasure'] = '毒牙毒液'
 L['waterlogged_satchel_treasure'] = '浸水的背包'
 L['nizzixs_chest_treasure'] = '尼兹克西的宝箱'
-L['nizzixs_chest_treasure_note'] = '单击漂浮在水中附近的逃生舱。'
+L['nizzixs_chest_treasure_note'] = '单击漂浮在水中附近的 {object:逃生舱}。'
 
 L['misplaced_scroll_treasure'] = '遗失的卷轴'
 L['relics_of_the_outcasts_treasure'] = '流亡者圣物'
@@ -385,7 +385,7 @@ L['smuggled_apexis_artifacts_treasure'] = '走私的埃匹希斯遗物'
 L['offering_to_the_raven_mother_treasure'] = '鸦母的供品'
 
 L['elixir_of_shadow_sight_treasure'] = '暗影视觉药剂'
-L['elixir_pre_note'] = '带到 |cffffff00泰罗克圣坛|r。'
+L['elixir_pre_note'] = '带到 {location:泰罗克圣坛}。'
 L['elixir_01_note'] = '小木屋旁边的一个吊篮内。'
 L['elixir_02_note'] = '在燃烧的小屋后面的篮子里。'
 L['elixir_03_note'] = '在一棵树和一堵破墙之间的篮子里。'
@@ -413,9 +413,9 @@ L['leorajh_follower_note'] = '交谈招募他为追随者。'
 L['options_icons_archaeology_treasure'] = '考古宝藏'
 L['options_icons_archaeology_treasure_desc'] = '显示考古宝藏的位置。'
 L['options_icons_offering'] = '鸦母的供品'
-L['options_icons_offering_desc'] = '显示 |cffffff00鸦母的供品|r 的物品位置。'
+L['options_icons_offering_desc'] = '显示 {object:鸦母的供品} 的物品位置。'
 L['options_icons_shrines_of_terokk'] = '泰罗克圣坛'
-L['options_icons_shrines_of_terokk_desc'] = '显示 |cffffff00泰罗克圣坛|r 的位置。'
+L['options_icons_shrines_of_terokk_desc'] = '显示 {location:泰罗克圣坛} 的位置。'
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = '显示 {achievement:9432} 成就中物品的位置。'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
@@ -493,14 +493,14 @@ L['ahm_follower_note'] = '完成 {quest:33973} 然后在要塞与他会面招募
 L['defender_illona_follower_note'] = '完成 {quest:34777} 招募她为追随者。'
 L['pleasure_bot_8000_follower_note'] = '完成 {quest:34761} 招募其为追随者。'
 L['image_of_archmage_vargoth_follower_note'] = [[
-在 |cffffff00德拉诺|r 范围找到4个神秘物体。
+在 {location:德拉诺} 范围找到4个神秘物体。
 
-{quest:34463} 位于 |cffffff00戈尔隆德|r
-{quest:34464} 位于 |cffffff00霜火岭|r
-{quest:34465} 位于 |cffffff00塔拉多|r
-{quest:34466} 位于 |cffffff00纳格兰|r
+{quest:34463} 位于 {location:戈尔隆德}
+{quest:34464} 位于 {location:霜火岭}
+{quest:34465} 位于 {location:塔拉多}
+{quest:34466} 位于 {location:纳格兰}
 
-在|cffffff00塔拉多|r 的|cffffff00卡德加的法师塔|r 将每个任务交给 {npc:86949}，然后他们将有 {quest:34472}。完成任务，然后与 {npc:77853} 交谈招募他为追随者。
+在 {location:塔拉多} 的 {location:卡德加的法师塔} 将每个任务交给 {npc:86949}，然后他们将有 {quest:34472}。完成任务，然后与 {npc:77853} 交谈招募他为追随者。
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
@@ -512,10 +512,10 @@ L['options_icons_wingmen_desc'] = '显示 {achievement:9499} 成就中刷怪的�
 --------------------------------- TANAAN JUNGLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['deathtalon_note'] = ns.color.Red('暗影领主艾斯卡喊道：在彼岸，你能找到的只有死亡！')
-L['doomroller_note'] = ns.color.Red('攻城大师玛塔克喊道：哈哈！狠狠践踏他们的尸体吧！')
-L['terrorfist_note'] = ns.color.Red('弗甘喊道：一头巨型小戈隆正冲向游侠避难所！我们需要援助！')
-L['vengeance_note'] = ns.color.Red('暴君维哈里喊道：爬虫只配被碾死！')
+L['deathtalon_note'] = '{yell:暗影领主艾斯卡喊道：在彼岸，你能找到的只有死亡！}'
+L['doomroller_note'] = '{yell:攻城大师玛塔克喊道：哈哈！狠狠践踏他们的尸体吧！}'
+L['terrorfist_note'] = '{yell:弗甘喊道：一头巨型小戈隆正冲向游侠避难所！我们需要援助！}'
+L['vengeance_note'] = '{yell:暴君维哈里喊道：爬虫只配被碾死！}'
 L['iron_armada_note'] = '此玩具也可在拍卖行购买并需要成就 {achievement:10353}。'
 L['commander_kraggoth_note'] = '在东北塔顶上。'
 L['grannok_note'] = '在东南塔顶上。'
@@ -530,9 +530,9 @@ L['grand_warlock_netherkurse_note'] = '击杀刷新点附近的敌人。'
 L['ceraxas_note'] = '击杀后刷新的 {npc:90426} 有任务 {quest:38428} 获得宠物。'
 L['commander_orgmok_note'] = '骑着 {npc:89676} 巡逻。'
 L['rendrak_note'] = '从沼泽周围的 {npc:89788} 收集10个 {item:124045}。将它们结合起来召唤稀有。'
-L['akrrilo_note'] = '从 {npc:92805} 购买 {item:124093} 并在黑齿挑战竞技场使用它。'
-L['rendarr_note'] = '从 {npc:92805} 购买 {item:124094} 并在黑齿挑战竞技场使用它。'
-L['eyepiercer_note'] = '从 {npc:92805} 购买 {item:124095} 并在黑齿挑战竞技场使用它。'
+L['akrrilo_note'] = '从 {npc:92805} 购买 {item:124093} 并在 {location:黑齿挑战竞技场} 使用它。'
+L['rendarr_note'] = '从 {npc:92805} 购买 {item:124094} 并在 {location:黑齿挑战竞技场} 使用它。'
+L['eyepiercer_note'] = '从 {npc:92805} 购买 {item:124095} 并在 {location:黑齿挑战竞技场} 使用它。'
 L['the_night_haunter_note'] = [[
 收集10层 {spell:183612} 负面效果。
 
