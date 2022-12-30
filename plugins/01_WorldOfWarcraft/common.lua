@@ -23,6 +23,7 @@ ns.expansion = 1
 -------------------------------------------------------------------------------
 
 ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
+ns.groups.CRAZYFORCATS = Group('crazyforcats', 656579, {defaults = ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
 ------------------------------ ANNIVERSARY EVENT ------------------------------
@@ -838,3 +839,67 @@ ns.node.Safari = { -- Maybe add this to core later?
         rewards = {Achievement({id = 6586, criteria = 21686}), Pet({id = 549})}
     }) -- TODO
 }
+
+--------------------
+-- Crazy for Cats --
+--------------------
+
+local CrazyForCats = Class('Safari', Collectible,
+    {icon = 656579, group = ns.groups.CRAZYFORCATS})
+
+-- Crazy for Cats -- TODO List:
+--
+-- Black Tabby Cat      wowhead.com/item=8491 dropped from different mobs
+--                      recommendet on wowhead: Stormpike Engineer (Horde Only),
+--                                              Infected Sludge Guard or
+--                                              Yetis (cave east of The Sludge Fields)
+--
+-- Brightpaw            only available in ingame shop
+--
+-- Cat                  included in Safari -- DONE
+--
+-- Cinder Kitten        only available in ingame shop
+--
+-- Darkmoon Cub         at darkmoon faire
+--
+-- Fluxfire Feline      New Tinkertown, Gnome starting area
+--
+-- Mr. Bigglesworth     reward from wowhead.com/achievement=7934
+--
+-- Orange Tabby Cat     Vendor: Donni Anthania, Zone: Elwynn Forest (Alliance Only)
+--
+-- Sand Kitten          included in Safari
+--
+-- Siamese Cat          Vendor: Dealer Rashaad, Zone: Netherstorm
+--
+-- Snow Cub             included in Safari
+--
+-- Spectral Tiger Cub   WoW TCG or AH
+--
+-- Winterspring Cub     Vendor: Michelle De Rum, Zone: Winterspring
+--
+-- Bombay Cat           Vendor: Donni Anthania, Zone: Elwynn Forest (Alliance Only)
+--
+-- Calico Cat           Vendor: Breanni, Zone: Crystalsong Forest
+--
+-- Cheetah Cub          included in Safari -- DONE
+--
+-- Cornish Rex Cat      Vendor: Donni Anthania, Zone: Elwynn Forest (Alliance Only)
+--
+-- Feline Familiar      World Event: Hallow's End
+--
+-- Guardian Cub         only available in ingame shop
+--
+-- Nightsaber Cub       WoW TCG, probably tradable?
+--
+-- Panther Cub          Reward from wowhead.com/quest=29267
+--
+-- Sapphire Cub         Profession: Jewelcrafting
+--
+-- Silver Tabby Cat     Vendor: Donni Anthania, Zone: Elwynn Forest (Alliance Only)
+--
+-- Spectral Cub         no more available
+--
+-- White Kitten         Vendor: Lil Timmy, Zone: Stormwind City (Alliance Only)
+--
+-- Xu-Fu, Cub of Xuen   Vendor: Tournament of Celestials
