@@ -87,7 +87,7 @@ L['options_icons_signal_transmitter'] = 'Wyrmlochgenerator Signaltransmitters'
 L['options_icons_signal_transmitter_desc'] = 'Zeigt die Positionen der {object:Deaktivierten Signaltransmitter} für {item:198156} an.'
 
 L['spawns_hourly'] = 'Erscheint nur einmal pro Stunde.'
-L['spawns_at_night'] = 'Erscheint nur nachts. (after 18:00 server time)'
+L['spawns_at_night'] = 'Erscheint nur nachts. (Ab 18:30 Server Zeit)'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------

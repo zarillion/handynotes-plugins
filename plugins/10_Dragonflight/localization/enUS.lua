@@ -86,8 +86,8 @@ L['signal_transmitter_note'] = '{note:Requires 10 points in Mechanical Mind\nReq
 L['options_icons_signal_transmitter'] = 'Wyrmhole Generator Signal Transmitters'
 L['options_icons_signal_transmitter_desc'] = 'Display the locations of {object:Deactivated Signal Transmitters} for the {item:198156}.'
 
-L['spawns_hourly'] = 'Only possible spawns at integer hour.'
-L['spawns_at_night'] = 'Possible spawns only at night. (Spawn 18:30 on server time)'
+L['spawns_hourly'] = 'Spawns about once an hour.'
+L['spawns_at_night'] = 'Spawns only at night. (After 18:30 server time)'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
