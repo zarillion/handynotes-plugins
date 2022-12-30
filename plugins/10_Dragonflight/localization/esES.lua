@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_higher_ilvl'] = '{note:¡Este raro puede soltar botín de un nivel superior!}'
+L['elite_loot_385'] = '{note:¡Este raro puede soltar botín de un nivel superior!}'
 L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la {faction:2507} en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'
@@ -18,7 +18,7 @@ L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoro
 
 L['dragon_glyph'] = 'Glifos Dracónicos'
 L['options_icons_dragon_glyph'] = 'Glifos Dracónicos'
-L['options_icons_dragon_glyph_desc'] = 'Muestra dónde están los 48 Glifos Dracónicos.'
+L['options_icons_dragon_glyph_desc'] = 'Muestra dónde están los 48 {npc:194819}.'
 
 L['dragonscale_expedition_flag'] = 'Expedición Dragontina'
 L['flags_placed'] = 'banderas puestas'
@@ -43,15 +43,15 @@ L['options_icons_kite_desc'] = 'Muestra dónde están las {npc:198118} para el l
 
 L['disturbed_dirt'] = 'Tierra Revuelta'
 L['options_icons_disturbed_dirt'] = 'Tierra Revuelta'
-L['options_icons_disturbed_dirt_desc'] = 'Muestrá dónde hay {object:Tierra Revuelta}.'
+L['options_icons_disturbed_dirt_desc'] = 'Muestrá dónde puede haber {object:Tierra Revuelta}.'
 
 L['scout_pack'] = 'Mochilas de Explorador de Expedición'
 L['options_icons_scout_pack'] = 'Mochilas de explorador de expedición'
-L['options_icons_scout_pack_desc'] = 'Muestra dónde están las {object:Mochilas de Explorador de Expedición}.'
+L['options_icons_scout_pack_desc'] = 'Muestra dónde pueden haber {object:Mochilas de Explorador de Expedición}.'
 
 L['magicbound_chest'] = 'Cofre reforzado con magia'
 L['options_icons_magicbound_chest'] = 'Cofre reforzado con magia'
-L['options_icons_magicbound_chest_desc'] = 'Muestra dónde están los {object:Cofres reforzados con magia}.'
+L['options_icons_magicbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofres reforzados con magia}.'
 
 L['dr_best'] = 'Tu mejor tiempo:\n - Normal: %.3fs\n - Avanzado: %.3fs'
 L['dr_best_dash'] = 'Tu mejor tiempo:\n - %.3fs'
@@ -59,7 +59,7 @@ L['dr_note'] = 'Objetivo de tiempo:\n - Normal: %ss / %ss\n - Avanzado: %ss / %s
 L['dr_note_dash'] = 'Objetivo de tiempo:\n - %ss / %ss'
 L['dr_bronze'] = '\n\nAcaba la carrera para conseguir el ' .. ns.color.Bronze('Bronce') .. '..'
 L['options_icons_dragonrace'] = 'Carreras de Dragones'
-L['options_icons_dragonrace_desc'] = 'Muestra dónde están las Carreras de Dragones.'
+L['options_icons_dragonrace_desc'] = 'Muestra dónde están todas las Carreras de Dragones de la zona.'
 
 L['squirrels_note'] = 'Has de teclear {emote:/amor} mientras seleccionas alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:16729}'
@@ -67,14 +67,14 @@ L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el
 
 L['hnj_sublabel'] = 'Requiere Gran Cacería Shikaar local'
 L['hnj_western_azure_span_hunt'] = 'Encima del árbol muerto.'
-L['hnj_northern_thaldraszus_hunt'] = '{note:Cuando comience el evento de cacería, tendrás que unirte rápidamente. Si llegas tarde, los monstruos salvajes lo habrán matado.}'
+L['hnj_northern_thaldraszus_hunt'] = '{note:Encuéntrale rápidamente ya que le pueden matar los enemigos cercanos.}'
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Muestra dónde está {npc:194590} para el logro {achievement:16542}.'
 
 L['pretty_neat_note'] = 'Haz una foto con la cámara S.E.L.F.I.E..'
 L['pretty_neat_note_blazewing'] = 'Se puede encontrar durante el combate contra la {npc:189901} en la mazmorra {location:Neltharus}.'
 L['options_icons_pretty_neat'] = '{achievement:16446}'
-L['options_icons_pretty_neat_desc'] = 'Muestra dónde están los NPC para el logro {achievement:16446}.'
+L['options_icons_pretty_neat_desc'] = 'Muestra dónde están los pájaros para el logro {achievement:16446}.'
 
 L['large_lunker_sighting'] = 'Avistamiento de Morrocotudo Grande'
 L['large_lunker_sighting_note'] = 'Usa 5x {item:194701} para invocar tanto a un {npc:192919} como a un raro.'
@@ -116,7 +116,7 @@ L['pt_alch_experimental_decay_sample_note'] = 'Dentro de un gran caldero verde.'
 L['pt_alch_firewater_powder_sample_note'] = 'Fuera de la casa de troncos, junto a un jarrón.'
 L['pt_ench_enriched_earthen_shard_note'] = 'Encima de una pila de rocas.'
 L['pt_ench_faintly_enchanted_remains_note'] = 'Haz click en la {object:Recogida de Cristal del Sediento de Maná} para hacer aparecer y matar a un enemigo. Después ya puedes despojar el cristal que aparece.'
-L['pt_ench_forgotten_arcane_tome_note'] = 'Reposa en el suelo a la derecha de la entrada a una tumba.'
+L['pt_ench_forgotten_arcane_tome_note'] = 'Está en el suelo a la derecha de la entrada a una tumba.'
 L['pt_jewel_crystalline_overgrowth_note'] = 'Junto a un charco pequeño.'
 L['pt_jewel_harmonic_crystal_harmonizer_note'] = 'Haz click en el cofre para recibir un buff. Ahora haz click en los 3 cristales.'
 L['pt_leath_decay_infused_tanning_oil_note'] = 'En el barril.'
@@ -130,16 +130,22 @@ L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = 'Sigue la escalera de la izq
 
 L['leyline_note'] = 'Realinea la línea Ley.'
 L['options_icons_leyline'] = '{achievement:16638}'
-L['options_icons_leyline_desc'] = 'Muestra dónde están las líneas Ley para el logro {achievement:16638}.'
+L['options_icons_leyline_desc'] = 'Muestra dónde están todas las líneas Ley para el logro {achievement:16638}.'
 
 L['river_rapids_wrangler_note'] = 'Habla con {npc:186157} y selecciona "Me gustaría volver a hacer tu Carrera en los Rápidos del Río". Tienes 60 segundos para recoger 40 acumulaciones de {spell:373490}.'
 L['seeing_blue_note'] = 'Vuela desde lo alto del {location:Archivo Azur} a la {location:Galería Cobalto} sin aterrizar.'
-L['snowman_note'] = 'Hay tres {npc:197599} reposando en la zona (podrían haber sido movidas por otros jugadores). Hazlas rodar a los dos críos, {npc:197838} y {npc:197839}.\nConseguirás el logro cuando las bolas de nieve tengan los tamaños correctos.'
+L['snowman_note'] = 'Hay tres {npc:197599} por la zona (podrían haber sido movidas por otros jugadores). Hazlas rodar a los dos críos, {npc:197838} y {npc:197839}.\nConseguirás el logro cuando las bolas de nieve tengan los tamaños correctos.'
 
 L['snowclaw_cub_note_start'] = 'Tienes que completar la cadena de misiones {quest:67094} que ofrece {npc:192522} en {location:Valdrakken} para conseguir el título {title:Dríade Honoraria}.\n\nReune los siguientes objetos:'
 L['snowclaw_cub_note_item1'] = 'Despoja 3x {item:197744} de varios {npc:182559} alrededor de las {location:Orillas del Despertar}.'
 L['snowclaw_cub_note_item2'] = 'Compra 1x {item:198356} del {npc:193310} en las {location:Orillas del Despertar}.'
-L['snowclaw_cub_note_end'] = '{note:Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}.}\n\nUna vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objetos al {npc:196768} para recibir su mascota.\n\n{bug:(BUG: El título puede desaparecer y está pendiente de un fix.)}'
+L['snowclaw_cub_note_end'] = [[
+{note:Todos los objetos se pueden comprar en la casa de subastas. Es de especial ayuda si no tienes fácil acceso al {item:199215} el cual es requerido para comprar los objetos al {npc:193310}.}
+
+Una vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objetos al {npc:196768} para recibir su mascota.
+
+{bug:(BUG: El título puede desaparecer y está pendiente de un fix.)}
+]]
 
 L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro {object:Tormentas de Maná para Principiantes} para completar la misión.'
 
@@ -172,8 +178,8 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 -------------------------------------------------------------------------------
 
 L['eaglemaster_niraak_note'] = 'Mata a los {npc:186295} cercanos y a los {npc:186299} para hacer aparecer al raro.'
-L['hunter_of_the_deep_note'] = 'Haz click en el armero y dispara a los peces hasta que aparezca el raro and shoot fish until the rare spawns.'
-L['porta_the_overgrown_note'] = 'Puedes encontrar el {item:194426} en el fondo del lago del {location:Espejo del Cielo}, en el lado oeste. Bajo el agua, esparce 5x {item:194426} en el {npc:191953} para hacer aparecer al raro.'
+L['hunter_of_the_deep_note'] = 'Haz click en el armero y dispara a los peces hasta que aparezca el raro.'
+L['porta_the_overgrown_note'] = 'Encuentra 5x {item:194426} en el fondo del lago al oeste. Después espárcelos en el {npc:191953} para hacer aparecer al raro.'
 L['scaleseeker_mezeri_note'] = 'Ofrece {item:194681} a {npc:193224} y síguela hasta que te enseñe al raro.'
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 L['windscale_the_stormborn_note'] = 'Mata a los {npc:192367} que están canalizando en los {npc:192357}.'
@@ -183,7 +189,7 @@ L['gold_swong_coin_note'] = 'Dentro de la cueva con {npc:191608} a su lado derec
 L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
 L['slightly_chewed_duck_egg_note'] = 'Encuentra y acaricia a {npc:192997} para conseguir el {item:195453} y entonces usarlo. Tras incubar el {item:199171} durante 3 días eclosionará en {item:199172}.'
 L['yennus_boat'] = 'Barco de Juguete Tuskarr'
-L['yennus_boat_note'] = 'Despoja el {object:Barco de Juguete Tuskarr} para conseguir el {item:200876}, el cual comienza la misión {quest:72063} para devolvérselo a {npc:195252}.'
+L['yennus_boat_note'] = 'Despoja el {object:Barco de Juguete Tuskarr} para conseguir el {item:200876} con el cual comienza la misión {quest:72063} para devolvérselo a {npc:195252}.'
 
 L['pm_ench_shalasar_glimmerdusk'] = 'En la segunda planta de la torre rota.'
 L['pm_herb_hua_greenpaw'] = 'Está arrodillada junto a un árbol.'
@@ -196,10 +202,10 @@ L['pt_leath_wind_blessed_hide_note'] = 'Dentro del campamento de centauros de la
 L['pt_script_sign_language_reference_sheet_note'] = 'Colgando en la entrada de la tienda.'
 L['pt_smith_ancient_spear_shards_note'] = 'Dentro una cueva al oeste del {location:Trecho de Rusza\'thar}.'
 L['pt_smith_falconer_gauntlet_drawings_note'] = 'En una isla en el mar, dentro de una choza.'
-L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Reposa en una choza pequeña. {note:3 élites en la choza}'
+L['pt_tailor_noteworthy_scrap_of_carpet_note'] = 'Está en una choza pequeña. {note:Hay 3 élites dentro}'
 L['pt_tailor_silky_surprise_note'] = 'Busca y despoja la {object:Fronda de Hierba Gatera}.'
 
-L['lizi_note'] = 'Completa la cadena de misiones |cFFFFFD00El Día Libre de la Iniciada|r comenzando con {quest:65901}. Completa las misiones cada día para curar a Lizi y conseguir su montura.\n\nAdemás de los objetos necesarios, todas las misiones requieren 150x {currency:2003} para un total de 750x {currency:2003}.'
+L['lizi_note'] = 'Completa la cadena de misiones diarias |cFFFFFD00El Día Libre de la Iniciada|r comenzando con {quest:65901}.'
 L['lizi_note_day1'] = 'Recoge 20x {item:192615} de los enemigos insecto en las {location:Islas Dragón}.'
 L['lizi_note_day2'] = 'Recoge 20x {item:192658} de los enemigos planta en las {location:Islas Dragón}.'
 L['lizi_note_day3'] = 'Recoge 10x {item:194966} pescadas en cualquier masa de agua dulce en las {location:Islas Dragón}. Se encuentran con más frecuencia en los interiores de las {location:Llanuras de Ohn\'ahra}.'
@@ -216,9 +222,9 @@ L['bakar_note'] = '¡Acaricia el perro!'
 L['bakar_ellam_note'] = 'Si jugadores suficientes acarician a esta perra, os guiará a su escondite.'
 L['bakar_hugo_note'] = 'Viaja con el Campamento Aylaag.'
 L['options_icons_bakar'] = '{achievement:16424}'
-L['options_icons_bakar_desc'] = 'Muestra dónde están todos los perros (bakar) para el logro {achievement:16424}.'
+L['options_icons_bakar_desc'] = 'Muestra dónde están todos los bakar para el logro {achievement:16424}.'
 
-L['ancestor_note'] = 'Consigue el bufo {spell:369277} (dura 1 hora) en una tienda en la {location:Avanzada Pasoleño} de la {object:Esencia del Despertar} para ver al ancestro y ofrecerle el item requerido.'
+L['ancestor_note'] = 'Consigue el buff {spell:369277} (dura 1 hora) en una tienda en la {location:Avanzada Pasoleño} de la {object:Esencia del Despertar} para ver al ancestro y ofrecerle el item requerido.'
 L['options_icons_ancestor'] = '{achievement:16423}'
 L['options_icons_ancestor_desc'] = 'Muestra dónde están todos los ancestros para el logro {achievement:16423}.'
 
@@ -233,7 +239,7 @@ L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y teclea {emote:/hambre} pa
 L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir el juguete.'
 
 L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en un campamento cercano.\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
-L['quackers_spawn'] = 'Ahora necesitas pillar un pato con la {item:194712}, encontrarás algunos cerca del nido. Ahora puedes usar el {item:194739} en el {npc:192581} para invocar a {npc:192557}.'
+L['quackers_spawn'] = 'Ahora necesitas pillar un pato cerca del nido con la {item:194712}. Después usa el {item:194739} en el {npc:192581} para invocar a {npc:192557}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -254,20 +260,20 @@ L['tasty_hatchling_treat_note'] = 'En un barril detrás de la librería.'
 
 L['pm_mining_bridgette_holdug'] = 'Encima de un pilar de roca cubierto de hierba.'
 L['pm_tailor_elysa_raywinder'] = 'En una repisa a media altura de la torre.'
-L['pt_alch_contraband_concoction_note'] = 'Escondido en los arbustos. {note:Difícil de ver.}'
+L['pt_alch_contraband_concoction_note'] = 'Escondido en los arbustos. {note:Difícil de ver}'
 L['pt_alch_furry_gloop_note'] = 'Deja a un {npc:194855} cercano dentro de cada caldera y mata al monstruo que aparecerá.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Al Sur de {location:Tyrhold}.'
 L['pt_jewel_alexstraszite_cluster_note'] = 'En {location:Tyrhold}.'
 L['pt_jewel_painters_pretty_jewel_note'] = 'Dentro de una lámpara.'
 L['pt_leath_decayed_scales_note'] = 'Dentro de una cesta.'
-L['pt_script_counterfeit_darkmoon_deck_note'] = 'Habla con {npc:194856} y ofrécete a ayudarla a recoger su {object:Colección de la Luna Negra} esparcida a sus pies. Haz click en las cartas en el orden correcto (del As al 8). Después habla con ella de nuevo para conseguir la colección.'
+L['pt_script_counterfeit_darkmoon_deck_note'] = 'Habla con {npc:194856} y ofrécete a ayudarla a recoger su {object:Colección de la Luna Negra} esparcida a sus pies. Haz click en las cartas en el orden correcto (del As al 8). Después habla con ella de nuevo.'
 L['pt_script_forgetful_apprentices_tome_note'] = 'Encima de la mesa cercana a un gran telescopio.'
 L['pt_script_how_to_train_your_whelpling_note'] = 'Pequeño libro marrón tirado en la caja de arena.'
 L['pt_smith_draconic_flux_note'] = 'Dentro de un edificio.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Haz click en el {object:Telar de Tejido de Dragón Ancestral} para completar un minijuego donde has de conectar los carretes de hilo a la gema central.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Bandera pequeña dentro de una pila de arena.'
 
-L['picante_pomfruit_cake_note'] = '{item:200904} no está disponible todos los días. Tendrás que comprobarlo cada día en el {location:Enclave Rubí}. Mientras estás allí, asegúrate de probar los 3 platos disponibles para completar también el logro {achievement:16556}.'
+L['picante_pomfruit_cake_note'] = '{item:200904} no está siempre disponible así que tendrás que comprobarlo cada día. Mientras estás allí, asegúrate de probar los 3 platos disponibles para completar también el logro {achievement:16556}.'
 L['icecrown_bleu_note'] = 'Cómpraselo a {npc:196729} {title:<Vendedor de quesos>} en el {location:Mercado de los Artesanos}.'
 L['dreamwarding_dripbrew_note'] = 'Cómpraselo a {npc:197872} {title:<Cafeinamante>} en el {location:Laboratorio Nocturno}.'
 L['arcanostabilized_provisions_note'] = 'Cómpraselo a {npc:198831} {title:<Chef jefa>} en la {location:Confluencia Temporal} en {location:El Futuro Primalista}.'
@@ -277,7 +283,7 @@ L['bivigosas_blood_sausages_note'] = 'Cómpraselo a {npc:188895} {title:<Aliment
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Muestra dónde están las comidas y bebidas para el logro {achievement:16621}.'
 
-L['new_perspective_note'] = 'Haz una foto con la cámara S.E.L.F.I.E. al paisaje. La localización se marcará con un círculo violeta claro tan pronto como estés en el modo de cámara.\n\nSi no se te marca en el logro, cambia tu perspectiva.'
+L['new_perspective_note'] = 'Haz una foto con la cámara S.E.L.F.I.E. al paisaje. La localización se marcará con un círculo violeta claro tan pronto como estés en el modo de cámara.\n\nSi no se te marca en el logro, cambia el ángulo.'
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes para el logro {achievement:16634}.'
 
@@ -290,7 +296,7 @@ L['lillian_brightmoon_note'] = 'Entrega {item:201412} para conseguir reputación
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
 
-L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja encima del {npc:192737} a esta torre.'
+L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja encima de su {npc:192737} a esta torre.'
 L['captain_lancer_note'] = 'Aparece inmediatamente después de completar el evento {spell:388945}.'
 L['enkine_note'] = 'Mata a {npc:193137}, {npc:193138} o {npc:193139} a lo largo del rio de lava para consesguir {item:201092}. Úsalas y pesca cerca de la {npc:191866} en la lava.'
 L['lepidoralia_note'] = 'Está en la {location:Caverna del Aleteo}. Ayuda al {npc:193342} a coger {npc:193274} hasta que aparezca el raro.'
@@ -305,8 +311,8 @@ L['bubble_drifter_note'] = 'La {item:199061} se puede encontrar en las {object:M
 L['dead_mans_chestplate_note'] = 'Dentro de la torre. En el piso central.'
 L['fullsails_supply_chest_note'] = 'La llave la sueltan los {npc:187971} y los {npc:187320} al sur de la {location:Embajada Reposo Alado}.'
 L['golden_dragon_goblet_note'] = 'Despoja la {item:202081} del {npc:190056} en la {location:Costa Indómita} y completa la pequeña cadena de misiones.'
-L['misty_treasure_chest_note'] = 'Ponte en {npc:185485} que sobresale de la cascada para entrar en la cueva.'
-L['onyx_gem_cluster_note'] = 'A Renombre 21 con {faction:2507} se puede completar la misión {quest:70833} para conseguir el {item:200738} como recompensa (una vez por cuenta) o comprar el mapa a {npc:189065} por 3 {item:192863} y 500 {currency:2003} y usarlo.'
+L['misty_treasure_chest_note'] = 'Ponte en el {npc:185485} que sobresale de la cascada para entrar en la cueva.'
+L['onyx_gem_cluster_note'] = 'A Renombre 21 con {faction:2507} se puede completar la misión {quest:70833} para conseguir el {item:200738} como recompensa (una vez por cuenta). De lo contrario, puedes comprar el mapa a {npc:189065} por 3 {item:192863} y 500 {currency:2003}.'
 L['torn_riding_pack_note'] = 'Está encima de la cascada.'
 L['yennus_kite_note'] = 'Bloqueada en una rama en lo alto del árbol.'
 
@@ -321,25 +327,25 @@ Recoge tres objetos distintos y combínalos para crear el {object:"Acertijo de o
 
 L['pm_alch_grigori_vialtry'] = 'En una repisa con vistas al {location:Asalto Raudoescarcha}.'
 L['pm_skin_zenzi'] = 'Sentada junto al ro.'
-L['pm_smith_grekka_anvilsmash'] = 'Reposa en la hierba al lado de la torre en ruinas.'
+L['pm_smith_grekka_anvilsmash'] = 'Está en la hierba al lado de la torre en ruinas.'
 L['pt_alch_frostforged_potion_note'] = 'En el centro del cráter helado.'
 L['pt_alch_well_insulated_mug_note'] = 'En la {location:Fortaleza de Ruinadragón} entre varios enemigos élite.'
 L['pt_ench_enchanted_debris_note'] = 'Usa y sigue a la {npc:194872} para despojar los escombros al final.'
 L['pt_ench_flashfrozen_scroll_note'] = 'Dentro del sistema de cuevas del {location:Enclave Raudoescarcha}.'
 L['pt_ench_lava_infused_seed_note'] = 'En una flor en el {location:Castillo Quiebrascama}.'
 L['pt_engi_boomthyr_rocket_note'] = 'Recoge los objetos listados en las {object:Notas sobre Cohetes Bumthyr}:\n\n{item:198815}\n{item:198817}\n{item:198816}\n{item:198814}\n\nUna vez con todos, devuélvelos al cohete para recibir el tesoro.'
-L['pt_engi_intact_coil_capacitor_note'] = 'Interactúa con los tres {object:Cable Expuesto} para arreglar y despojar la {object:Bobina Tesla Sobrecargada}.'
+L['pt_engi_intact_coil_capacitor_note'] = 'Interactúa con los tres {object:Cables Expuestos} para arreglar y despojar la {object:Bobina Tesla Sobrecargada}.'
 L['pt_jewel_closely_guarded_shiny_note'] = 'Gema azul debajo de un árbol que hay junto a un nido.'
 L['pt_jewel_igneous_gem_note'] = 'Haz click rápidamente en los 3 cristales de las islas pequeñas dentro del magma.'
 L['pt_leath_poachers_pack_note'] = 'Junto a un Vulpera muerto junto al cauce del río.'
 L['pt_leath_spare_djaradin_tools_note'] = 'Junto a un dragón rojo muerto.'
 L['pt_script_pulsing_earth_rune_note'] = 'Detrás de una mesa que hay dentro del edificio derrumbado.'
-L['pt_smith_ancient_monument_note'] = 'Derrota a los 4 {npc:188648} rodeando una espada en un pedestal.\n\n{bug:(BUG: Actualmente, tras hacer click en la espada no tendrás el objeto en el inventario. En lugar de eso, se te enviará al buzón de correo tras algo de tiempo.)}'
+L['pt_smith_ancient_monument_note'] = 'Derrota a los 4 {npc:188648} rodeando una espada en un pedestal.\n\n{bug:(BUG: Actualmente, tras hacer click en la espada no tendrás el objeto en el inventario. En su lugar, se te enviará al buzón de correo tras algo de tiempo.)}'
 L['pt_smith_curious_ingots_note'] = 'Pequeño lingote en el suelo en el {location:Castillo Quiebrascama}.'
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = 'Fabrica una {item:189541} cerca de la {object:Forja a Medio Apagar}. El objeto en la {object:Tina Floja} se convertirá en despojable.'
 L['pt_smith_molten_ingot_note'] = 'Patea 3 lingotes dentro de la lava para hacer aparecer a un enemigo. Despoja el cofre una vez lo hayas derrotado.'
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Encima de un yunque.'
-L['pt_tailor_itinerant_singed_fabric_note'] = 'Un trozo de tela colgando de unos árboles justo fuera de la cueva donde aparece el boss final. {note:Requiere precisión montando dragones o un portal de brujo}'
+L['pt_tailor_itinerant_singed_fabric_note'] = 'Un trozo de tela colgando de un árbol justo fuera de la cueva donde aparece el boss final. {note:Requiere precisión montando dragones o un portal de brujo}'
 L['pt_tailor_mysterious_banner_note'] = 'Revoloteando por encima de los edificios.'
 
 L['quack_week_1'] = 'Semana 1'
@@ -358,7 +364,7 @@ L['options_icons_ducklings_desc'] = 'Muestra dónde están los patitos para el l
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = 'Muestra dónde están las tablillas para el logro {achievement:16412}.'
 
-L['grand_theft_mammoth_note'] = 'Monta el {npc:194625} hacia el {npc:198163}.\n\n{bug:(BUG: Si no puedes interactuar con el {npc:194625} haz /reload.)}'
+L['grand_theft_mammoth_note'] = 'Monta el {npc:194625} hacia el {npc:198163}.\n\n{bug:(BUG: Si no puedes interactuar con el {npc:194625} intentar hacer /reload.)}'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Muestra dónde están los {npc:194625} para el logro {achievement:16493}.'
 
@@ -378,18 +384,19 @@ L['slumbering_worldsnail_note1'] = [[
 
 4. Usar el título de miembro te otorgará el debuff {spell:386848} que te permitirá farmear {item:202173} alrededor de la {location:Ciudadela Obsidiana}.
 
-5. Recoge 1000x {item:202173} para comprar el {item:192786}.]]
+5. Recoge 1000x {item:202173} para comprar el {item:192786}.
+]]
 
-L['slumbering_worldsnail_note2'] = '{note:Si mueres perderás el debuff de membresía. Compre un nuevo título de miembro a {npc:193310} por 20x {item:202173} antes de morir o necesitarás entregar más llaves para la oportunidad de sacar un título de miembro del alijo.}'
+L['slumbering_worldsnail_note2'] = '{note:Si mueres perderás el debuff de membresía. Compra un nuevo título de miembro a {npc:193310} por 20x {item:202173} antes de morir o entrega más llaves para la oportunidad de sacar un título de miembro.}'
 
 L['magmashell_note'] = 'Despoja {item:201883} de los {npc:193138} alrededor de la {location:Ciudadela Obsidiana} y llévaselo al {npc:199010}.\n\n{note:Haciendo click en el caracol se canalizará un hechizo durante 20 segundos después de lo cuales conseguirás la montura. Muy recomendable traer a un amigo sanador o usar el juguete {item:200116}.}'
 
-L['otto_note_start1'] = 'Consigue unas {item:202042}. Las gafas tienen un 100% de probabilidades de salir del {item:202102} que puede ser comprado a {npc:191608} en las {location:Llanuras de Ohn\'ahra}.\n\nEl saco se puede comprar con 1x {item:199340} la cual puede ser comprada con 5x {item:199339} que éstas se pueden comprar por 75x {item:199338}. A su vez, estas últimas se pueden pescar alrededor de las {location:Islas Dragón} o derrotando a enemigos {title:<Morrocotudo>} en los nodos de pesca.'
-L['otto_note_start2'] = 'Una vez con las {item:202042} ves al bar subacuático {location:El Baño de Burbujas} en la {location:Gruta Siseante} y quédate de pie en la plataforma de baile que hay al lado de la barra hasta conseguir el debuff {spell:396539}. Cuando el debuff se acabe te desmayarás y despertarás junto a un barril. Interactúa con él para despojar el {item:202061}. Ahora necesitas llenar el barril con peces para alimentar a {npc:199563}.'
-L['otto_note_item1'] = 'Recoge 100x {item:202072}, un pez con probabilidad alta de ser pescado en las aguas abiertas de {location:Iskaara} en las {location:Tierras Azures}. Usar el barril con los peces te dará un {item:202066}.'
-L['otto_note_item2'] = 'Recoge 25x {item:202073}, un pez con probabilidad rara de ser pescado en la lava alrededor de la {location:Ciudadela Obsidiana} en las {location:Orillas del Despertar}. Usar el barril con los peces te dará un {item:202068}.'
-L['otto_note_item3'] = 'Recoge 1x {item:202074}, un pez con probabilidad rara de ser pescado en las aguas cerca de la {location:Academia Algeth\'ar} en {location:Thaldraszus}. Usar el barril con los peces te dará un {item:202069}.'
-L['otto_note_end'] = 'Vuelve a la {location:Gruta Siseante} en las {location:Orillas del Despertar} y deja el barril donde lo encontrastes para invocar a {npc:199563} y ¡recibir tu montura!'
+L['otto_note_start1'] = 'Compra un {item:202102} a {npc:191608} en las {location:Llanuras de Ohn\'ahra} para conseguir unas {item:202042}. El saco requiere 75x {item:199338} que pueden ser pescadas o despojadas de los enemigos {title:<Morrocotudo>} cerca de los nodos de pesca.'
+L['otto_note_start2'] = 'Ves al bar subacuático {location:El Baño de Burbujas} en la {location:Gruta Siseante}, usa las sombras y encuentra una alfombra de baile. Quédate allí hasta que te desmayes y despoja el {item:202061}.'
+L['otto_note_item1'] = 'Pesca 100x {item:202072} en las aguas abiertas de {location:Iskaara} en las {location:Tierras Azures}. Usa el barril para conseguir un {item:202066}.'
+L['otto_note_item2'] = 'Pesca 25x {item:202073} en la lava alrededor de la {location:Ciudadela Obsidiana} en las {location:Orillas del Despertar}. Usa el barril para conseguir un {item:202068}.'
+L['otto_note_item3'] = 'Pesca 1x {item:202074} en las aguas cerca de la {location:Academia Algeth\'ar} en {location:Thaldraszus}. Usa el barril para conseguir un {item:202069}.'
+L['otto_note_end'] = 'Vuelve a la {location:Gruta Siseante} y deja el barril donde lo encontrastes para invocar a {npc:199563} y ¡recibir tu montura!.'
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:16519}.'
