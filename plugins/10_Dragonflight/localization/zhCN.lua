@@ -86,8 +86,8 @@ L['signal_transmitter_note'] = '{note:需要10点机械头脑\n需要30点新奇
 L['options_icons_signal_transmitter'] = '龙洞发生器信号发射机'
 L['options_icons_signal_transmitter_desc'] = '显示 {item:198156} 的 {object:关闭的信号发射机} 的位置。'
 
-L['spawns_hourly'] = nil
-L['spawns_at_night'] = nil
+L['spawns_hourly'] = '可能整点出现。'
+L['spawns_at_night'] = '可能夜间整点出现。（服务器时间18:00之后）'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
