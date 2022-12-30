@@ -121,7 +121,7 @@ ns.node.Safari = { -- Maybe add this to core later?
     }), -- Also in Mount Hyjal, Cataclysm
     AshSpiderling = Class('AshSpiderling', Safari, {
         id = 61420,
-        rewards = {Achievement({id = 6585, criteria = 21665}), Pet({id = 427})}
+        rewards = {Achievement({id = 6586, criteria = 21665}), Pet({id = 427})}
     }), -- Also in Talador, Draenor
     AshViper = Class('AshViper', Safari, {
         id = 61385,
@@ -143,11 +143,17 @@ ns.node.Safari = { -- Maybe add this to core later?
     }),
     Beetle = Class('Beetle', Safari, {
         id = 61319,
-        rewards = {Achievement({id = 6585, criteria = 21615}), Pet({id = 406})}
+        rewards = {
+            Achievement({id = 6585, criteria = 21615}),
+            Achievement({id = 6586, criteria = 21615}), Pet({id = 406})
+        }
     }),
     -- Biletoad = Class('Biletoad', Safari, {
-    --     id = nil,
-    --     rewards = {Achievement({id = 6585, criteria = 21736}),Achievement({id = 6588, criteria = 21736}), Pet({id = 649})}
+    --     id = 62815,
+    --     rewards = {
+    --         Achievement({id = 6585, criteria = 21736}),
+    --         Achievement({id = 6588, criteria = 21736}), Pet({id = 649})
+    --     }
     -- }), -- Only in Sholazar Basin, WoTLK
     BlackLamb = Class('BlackLamb', Safari, {
         id = 60649,
@@ -155,7 +161,10 @@ ns.node.Safari = { -- Maybe add this to core later?
     }),
     BlackRat = Class('BlackRat', Safari, {
         id = 61257,
-        rewards = {Achievement({id = 6585, criteria = 21511}), Pet({id = 398})}
+        rewards = {
+            Achievement({id = 6585, criteria = 21511}),
+            Achievement({id = 6586, criteria = 21511}), Pet({id = 398})
+        }
     }), -- Also in Drustvar, BfA
     BlightedSquirrel = Class('BlightedSquirrel', Safari, {
         id = 61890,
@@ -163,10 +172,13 @@ ns.node.Safari = { -- Maybe add this to core later?
     }),
     BrownMarmot = Class('BrownMarmot', Safari, {
         id = 61752,
-        rewards = {Achievement({id = 6586, criteria = 21674}), Pet({id = 449})}
+        rewards = {
+            Achievement({id = 6586, criteria = 21674}),
+            Achievement({id = 6587, criteria = 21674}), Pet({id = 449})
+        }
     }), -- Also in Gorgrond, Draenor
     -- CarrionRat = Class('CarrionRat', Safari, {
-    --     id = nil,
+    --     id = 62885,
     --     rewards = {Achievement({id = 6585, criteria = 21730}), Pet({id = 540})}
     -- }), -- Only in Mount Hyjal, Cataclysm
     Cat = Class('Cat', Safari, {
@@ -254,7 +266,10 @@ ns.node.Safari = { -- Maybe add this to core later?
     }), -- Also in Uldum, Cataclysm
     Fawn = Class('Fawn', Safari, {
         id = 61165,
-        rewards = {Achievement({id = 6586, criteria = 21639}), Pet({id = 447})}
+        rewards = {
+            Achievement({id = 6586, criteria = 21639}),
+            Achievement({id = 6588, criteria = 21639}), Pet({id = 447})
+        }
     }),
     FesteringMaggot = Class('FesteringMaggot', Safari, {
         id = 61830,
