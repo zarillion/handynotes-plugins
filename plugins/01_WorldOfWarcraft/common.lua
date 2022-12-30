@@ -844,7 +844,7 @@ ns.node.Safari = { -- Maybe add this to core later?
 -- Crazy for Cats --
 --------------------
 
-local CrazyForCats = Class('Safari', Collectible,
+local CrazyForCats = Class('CrazyForCats', Collectible,
     {icon = 656579, group = ns.groups.CRAZYFORCATS})
 
 -- Crazy for Cats -- TODO List:
