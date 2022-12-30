@@ -30,7 +30,7 @@ L['dislodged_dragoneye_note'] = '용 조각상 몸통 아래 잔해 위에 있�
 L['finely_carved_wing_note'] = '용 조각상 오른 무릎 아래 있음'
 L['fragment_requirement_note'] = ns.color.Red('파편수집이 가능하려면 먼저 |cFFFFFD00날개쉼터 대사관|r 내 용 조각상에서 작업중인 {npc:193914}와 대화해야 합니다.')
 L['golden_claw_note'] = '용 조각상 정면 기준 오른쪽 뒷발 발톱 아래 있음'
-L['precious_stone_fragment_note'] = '용 조각상 오른발 아래 있음'
+L['precious_stone_fragment_note'] = '조각상 오른발 아래 있음'
 L['stone_dragontooth_note'] = '용 조각상 정면 기준 받침대 아래 왼쪽 땅바닥에 있음'
 L['tail_fragment_note'] = '용 조각상 꼬리 안쪽에 있음'
 L['wrapped_gold_band_note'] = '용 조각상 정면 기준 왼쪽 뒷발에 있음'
@@ -241,7 +241,7 @@ L['pm_tailor_elysa_raywinder'] = '탑 위로 중간쯤 튀어나온 선반 위�
 L['pt_alch_contraband_concoction_note'] = nil
 L['pt_alch_furry_gloop_note'] = nil
 L['pt_ench_fractured_titanic_sphere_note'] = '|cFFFFFD00티르홀드|r 남쪽에 있음'
-L['pt_jewel_alexstraszite_cluster_note'] = '|cFFFFFD00Tyrhold|r 내에 있음'
+L['pt_jewel_alexstraszite_cluster_note'] = '|cFFFFFD00티르홀드|r 내에 있음'
 L['pt_jewel_painters_pretty_jewel_note'] = nil
 L['pt_leath_decayed_scales_note'] = '바구니 안에 있음'
 L['pt_script_counterfeit_darkmoon_deck_note'] = nil
@@ -253,10 +253,10 @@ L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = '모래에 파묻혀 
 
 L['picante_pomfruit_cake_note'] = '{item:200904}이 제공될 때까지 |cFF00CCFF루비 연회장|r을 매일 체크해야 합니다. 연회장에 방문하면 {achievement:16556} 업적을 위해 3가지 음식을 모두 맛보는 것을 잊지마세요.'
 L['icecrown_bleu_note'] = '|cFF00CCFF장인 무역시장|r에 있는 {npc:196729} ' .. ns.color.NPC('<치즈 상인>') .. '이 판매합니다.'
-L['dreamwarding_dripbrew_note'] = '|cFFFFFD00The Late Night Lab|r에 있는 {npc:197872} ' .. ns.color.NPC('<Caffeinomancer>') .. '이 판매합니다.'
-L['arcanostabilized_provisions_note'] = '|cFF00CCFFTemporal Conflux|r in the |cFF00CCFFPrimalist Future|r에 있는 {npc:198831} ' .. ns.color.NPC('<Head Chef>') .. '이 판매합니다.'
-L['steamed_scarab_steak_note'] = '|cFFFFFD00Serene Dreams Spa|r에 있는 {npc:197586} ' .. ns.color.NPC('<Spa Bartender>') .. '이 판매합니다.'
-L['craft_creche_crowler_note'] = '|cFFFFFD00Ruby Lifeshrine|r, |cFFFFFD00초록비늘 여관|r, |cFFFFFD00두멧골 야영지|r, |cFFFFFD00Temporal Conflux|r 중 한 곳을 매일 무작위로 방문하는 {npc:187444} ' .. ns.color.NPC('<Traveling Dragonbrew Vendor>') .. '이 판매합니다.'
+L['dreamwarding_dripbrew_note'] = '|cFFFFFD00심야 연구소|r에 있는 {npc:197872} ' .. ns.color.NPC('<카페인술사>') .. '가 판매합니다.'
+L['arcanostabilized_provisions_note'] = '|cFF00CCFF원시술사 평행세계|r의 |cFF00CCFF시간의 합일점|r에 있는 {npc:198831} ' .. ns.color.NPC('<주방장>') .. '이 판매합니다.'
+L['steamed_scarab_steak_note'] = '|cFFFFFD00평온의 꿈 온천|r에 있는 {npc:197586} ' .. ns.color.NPC('<온천 바텐더>') .. '가 판매합니다.'
+L['craft_creche_crowler_note'] = '|cFFFFFD00루비 생명의 제단|r, |cFFFFFD00초록비늘 여관|r, |cFFFFFD00두멧골 야영지|r, |cFFFFFD00시간의 합일점|r 중 한 곳을 매일 무작위로 방문하는 {npc:187444} ' .. ns.color.NPC('<방랑 용음료 상인>') .. '이 판매합니다.'
 L['bivigosas_blood_sausages_note'] = '|cFFFFFD00겔리키르 초소|r에 있는 {npc:188895} ' .. ns.color.NPC('<음식과 음료>') .. '이 판매합니다.'
 L['options_icons_specialties'] = nil
 L['options_icons_specialties_desc'] = '{achievement:16621} 업적을 위한 음식과 음료의 위치를 표시합니다.'
@@ -274,13 +274,13 @@ L['sorotis_note'] = '{item:199906}을 반납하여 |cFFFFFD00발드라켄 협의
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = nil
-L['captain_lancer_note'] = nil
+L['captain_lancer_note'] = '{spell:388945} 이벤트가 완료된 직후 생성됩니다.'
 L['enkine_note'] = nil
-L['lepidoralia_note'] = nil
-L['obsidian_citadel_rare_note'] = nil
+L['lepidoralia_note'] = '|cFFFFFD00요동치는 동굴|r 내에 있음. {npc:193342}가 {npc:193274}를 잡는 것을 도와주다보면 생성됩니다.'
+L['obsidian_citadel_rare_note'] = '모든 플레이어들은 {item:191264} %d개를 %s에게 반납해야 합니다. 열쇠를 제작하는데 {item:191251} 30개와 {item:193201} 3개가 필요하며, 해당 아이템은 |cFFFFFD00흑요석 성채|r 내 몹들에게서 획득할 수 있습니다.'
 L['shadeslash_note'] = nil
-L['obsidian_throne_rare_note'] = nil
-L['skald_impaler_note'] = nil
+L['obsidian_throne_rare_note'] = '|cFFFFFD00흑요석 왕좌|r 내부에 있음.'
+L['skald_impaler_note'] = '레어를 소환하려면 {item:194701} 5개를 모아 사용하세요.'
 L['slurpo_snail_note'] = nil
 L['worldcarver_atir_note'] = nil
 
@@ -290,17 +290,17 @@ L['fullsails_supply_chest_note'] = nil
 L['golden_dragon_goblet_note'] = nil
 L['misty_treasure_chest_note'] = nil
 L['onyx_gem_cluster_note'] = nil
-L['torn_riding_pack_note'] = nil
-L['yennus_kite_note'] = nil
+L['torn_riding_pack_note'] = '폭포 꼭대기에 위치.'
+L['yennus_kite_note'] = '나무 꼭대기의 나뭇가지에 걸려있음.'
 
 L['fullsails_supply_chest'] = nil
 L['hidden_hornswog_hoard_note'] = nil
 
-L['pm_alch_grigori_vialtry'] = nil
-L['pm_skin_zenzi'] = nil
-L['pm_smith_grekka_anvilsmash'] = nil
-L['pt_alch_frostforged_potion_note'] = nil
-L['pt_alch_well_insulated_mug_note'] = nil
+L['pm_alch_grigori_vialtry'] = '|cFFFFFD00섬광서리 강습지|r가 내려다보이는 난간에 있음.'
+L['pm_skin_zenzi'] = '강 옆에 앉아 있음'
+L['pm_smith_grekka_anvilsmash'] = '폐허가 된 탑 옆 풀밭에 앉아 있음'
+L['pt_alch_frostforged_potion_note'] = '얼음 분화구 한가운데 있음'
+L['pt_alch_well_insulated_mug_note'] = '|cFFFFFD00용의 파멸 성채|r에서 다수의 정예몹 사이에 있습니다.'
 L['pt_ench_enchanted_debris_note'] = '{npc:194872}를 사용하여 따라가면 마지막에 잔해를 주울 수 있습니다.'
 L['pt_ench_flashfrozen_scroll_note'] = '|cFFFFFD00섬광서리 거주지|r 내부에 있음.'
 L['pt_ench_lava_infused_seed_note'] = '|cFFFFFD00비늘파괴자 성채|r 지역 꽃 안에 있음.'
@@ -326,9 +326,9 @@ L['quack_week_4'] = '4주차'
 L['quack_week_5'] = '5주차'
 L['lets_get_quacking'] = '매주 {npc:187863} 한마리씩만 구출할 수 있습니다.'
 
-L['complaint_to_scalepiercer_note'] = nil
-L['grand_flames_journal_note'] = nil
-L['wyrmeaters_recipe_note'] = nil
+L['complaint_to_scalepiercer_note'] = '막사 내부 왼쪽 벽에 있는 |cFFFFFD00돌 서판|r을 클릭하세요.'
+L['grand_flames_journal_note'] = '막사 바깥쪽 뒷편에 있는 |cFFFFFD00돌 서판|r을 클릭하세요.'
+L['wyrmeaters_recipe_note'] = '막사 내부 왼쪽에 있는 |cFFFFFD00돌 서판|r을 클릭하세요.'
 
 L['options_icons_ducklings'] = nil
 L['options_icons_ducklings_desc'] = '{achievement:16409} 업적을 위한 새끼 오리의 위치를 표시합니다.'
@@ -341,10 +341,10 @@ L['options_icons_grand_theft_mammoth_desc'] = '{achievement:16493} 업적을 위
 
 L['options_icons_stories'] = nil
 L['options_icons_stories_desc'] = '{achievement:16406} 업적을 위한 퀘스트 위치를 표시합니다.'
-L['all_sides_of_the_story_garrick_and_shuja_note'] = nil
-L['all_sides_of_the_story_duroz_and_kolgar_note'] = nil
-L['all_sides_of_the_story_tarjin_note'] = nil
-L['all_sides_of_the_story_veritistrasz_note'] = nil
+L['all_sides_of_the_story_garrick_and_shuja_note'] = '연계퀘스트를 시작하고 {npc:184449}과 {npc:184451}의 이야기를 들어보세요.'
+L['all_sides_of_the_story_duroz_and_kolgar_note'] = '탑승장 아래 작은 방에 있음.\n\n연계퀘스트를 시작하고 {npc:194800}와 {npc:194801}의 이야기를 들어보세요. 2주 후에 추가 퀘스트가 해제됩니다.'
+L['all_sides_of_the_story_tarjin_note'] = '{quest:70779}로 시작되는 연계퀘스트를 진행하세요.\n{npc:196214}이 매주 다른 이야기를 들려줄 것입니다.'
+L['all_sides_of_the_story_veritistrasz_note'] = '{quest:70132} 퀘스트를 시작하고 {npc:194076}의 모든 이야기를 들어보세요.\n그 후에 {quest:70134}과 {quest:70268}의 잠금이 해제됩니다.\n\n마지막 퀘스트에는 ' .. ns.color.Yellow('용의 파멸 성채') .. ' 지역에서 발견할 수 있는 {item:198661}이 필요합니다.'
 
 L['slumbering_worldsnail_note1'] = nil
 
@@ -362,6 +362,6 @@ L['otto_note_end'] = nil
 
 L['options_icons_safari'] = nil
 L['options_icons_safari_desc'] = '{achievement:16519} 업적을 위한 전투애완동물의 위치를 표시합니다.'
-L['shyfly_note'] = nil
+L['shyfly_note'] = '{npc:189102}를 보려면 {quest:70853} 퀘스트 중이어야 합니다.'
 
 L['cataloger_jakes_note'] = '{item:192055}을 반납하여 |cFFFFFD00용비늘 원정대|r 평판을 획득합니다.'
