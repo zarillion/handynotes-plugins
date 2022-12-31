@@ -15,6 +15,7 @@ local Treasure = ns.node.Treasure
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
+local ElementalStorm = ns.node.ElementalStorm
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local LegendaryCharacter = ns.node.LegendaryCharacter
@@ -1202,6 +1203,30 @@ map.nodes[34204160] = Safari({
         })
     }
 }) -- Vorquin Runt
+
+-------------------------------------------------------------------------------
+------------------------ ELEMENTAL STORMS: AZURE SPAN -------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[11983718] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'],
+        L['elemental_storm_brakenhide_hollow']),
+    mapID = map.id,
+    areaPOIs = {7229, 7230, 7231, 7232}
+}) -- Elemental Storm: Brakenhide Hollow
+
+map.nodes[47372200] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'],
+        L['elemental_storm_cobalt_assembly']),
+    mapID = map.id,
+    areaPOIs = {7233, 7234, 7235, 7236}
+}) -- Elemental Storm: Cobalt Assembly
+
+map.nodes[58506660] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'], L['elemental_storm_imbu']),
+    mapID = map.id,
+    areaPOIs = {7237, 7238, 7239, 7240}
+}) -- Elemental Storm: Imbu
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

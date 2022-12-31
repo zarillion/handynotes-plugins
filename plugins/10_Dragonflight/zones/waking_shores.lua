@@ -14,6 +14,7 @@ local Treasure = ns.node.Treasure
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
+local ElementalStorm = ns.node.ElementalStorm
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local LegendaryCharacter = ns.node.LegendaryCharacter
@@ -1706,6 +1707,30 @@ map.nodes[79804940] = Safari({
         })
     }
 }) -- Wild Duckling
+
+-------------------------------------------------------------------------------
+----------------------- ELEMENTAL STORMS: WAKING SHORES -----------------------
+-------------------------------------------------------------------------------
+
+map.nodes[28957105] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'],
+        L['elemental_storm_dragonbane_keep']),
+    mapID = map.id,
+    areaPOIs = {7249, 7250, 7251, 7252}
+}) -- Elemental Storm: Dragonbane Keep
+
+map.nodes[29735398] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'], L['elemental_storm_slagmire']),
+    mapID = map.id,
+    areaPOIs = {7253, 7254, 7255, 7256}
+}) -- Elemental Storm: Slagmire
+
+map.nodes[64712635] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'],
+        L['elemental_storm_scalecracker_keep']),
+    mapID = map.id,
+    areaPOIs = {7257, 7258, 7259, 7260}
+}) -- Elemental Storm: Scalecracker Keep
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
