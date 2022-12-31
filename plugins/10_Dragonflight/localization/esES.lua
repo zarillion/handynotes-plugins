@@ -90,32 +90,32 @@ L['options_icons_signal_transmitter_desc'] = 'Muestra dónde están los {object:
 L['spawns_hourly'] = 'Aparece sobre una vez a la hora.'
 L['spawns_at_night'] = 'Sólo aparece por la noche. (Después de las 18:30 hora del servidor)'
 
-L['elemental_storm'] = nil
-L['elemental_storm_thunderstorm'] = nil
-L['elemental_storm_sandstorm'] = nil
-L['elemental_storm_firestorm'] = nil
-L['elemental_storm_snowstorm'] = nil
+L['elemental_storm'] = 'Tormenta Elemental'
+L['elemental_storm_thunderstorm'] = 'Tormenta de Truenos'
+L['elemental_storm_sandstorm'] = 'Tormenta de Arena'
+L['elemental_storm_firestorm'] = 'Tormenta de Fuego'
+L['elemental_storm_snowstorm'] = 'Tormenta de Nieve'
 
-L['elemental_storm_brakenhide_hollow'] = nil
-L['elemental_storm_cobalt_assembly'] = nil
-L['elemental_storm_dragonbane_keep'] = nil
-L['elemental_storm_imbu'] = nil
-L['elemental_storm_nokhudon_hold'] = nil
-L['elemental_storm_ohniri_springs'] = nil
-L['elemental_storm_primalist_future'] = nil
-L['elemental_storm_primalist_tomorrow'] = nil
-L['elemental_storm_scalecracker_keep'] = nil
-L['elemental_storm_slagmire'] = nil
-L['elemental_storm_tyrhold'] = nil
+L['elemental_storm_brakenhide_hollow'] = 'Hondonada Frondacuero'
+L['elemental_storm_cobalt_assembly'] = 'Galería Cobalto'
+L['elemental_storm_dragonbane_keep'] = 'Fortaleza de Ruinadragón'
+L['elemental_storm_imbu'] = 'Imbu'
+L['elemental_storm_nokhudon_hold'] = 'Bastión Nokhudon'
+L['elemental_storm_ohniri_springs'] = 'Manantiales Ohn\'iri'
+L['elemental_storm_primalist_future'] = 'Futuro Primalista'
+L['elemental_storm_primalist_tomorrow'] = 'Mañana Primalista'
+L['elemental_storm_scalecracker_keep'] = 'Castillo Quiebrascama'
+L['elemental_storm_slagmire'] = 'Cienoescoria'
+L['elemental_storm_tyrhold'] = 'Tyrhold'
 
-L['elemental_overflow_obtained_suffix'] = nil
-L['empowered_mobs_killed_suffix'] = nil
+L['elemental_overflow_obtained_suffix'] = 'Desbordamiento Elemental conseguido'
+L['empowered_mobs_killed_suffix'] = 'Enemigo potenciado matado'
 
-L['elemental_storm_mythressa_note_start'] = nil
-L['elemental_storm_mythressa_note_end'] = nil
+L['elemental_storm_mythressa_note_start'] = 'Entrega {currency:2118} a cambio de equipo, mascotas, y una montura.'
+L['elemental_storm_mythressa_note_end'] = 'Actualmente tienes %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = nil
-L['options_icons_elemental_storm_desc'] = nil
+L['options_icons_elemental_storm'] = 'Tormentas Elementales'
+L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las Tormentas Elementales.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
