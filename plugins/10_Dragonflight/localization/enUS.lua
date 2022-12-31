@@ -101,7 +101,7 @@ L['sharpfang_note'] = 'Help {npc:192747} defeat {npc:192748s} to spawn the rare.
 L['spellwrought_snowman_note'] = 'Collect 10x {npc:193424} and bring them to {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Collect a {object:Singing Fragment} to get {spell:382076} and use the {object:Uncharded Focus} to spawn the rare.'
 
-L['breezebiter_note'] = 'Flies around in the sky. Fly close to him to pull him down.'
+L['breezebiter_note'] = 'Flies around in the sky. Fly close to him to pull him down. Spawn point at right side cave.'
 
 L['forgotten_jewel_box_note'] = '{item:199065} can be found in {object:Expedition Scout\'s Packs} and {object:Disturbed Dirts}.'
 L['gnoll_fiend_flail_note'] = '{item:199066} can be found in {object:Expedition Scout\'s Packs} and {object:Disturbed Dirts}.'
