@@ -102,7 +102,7 @@ L['sharpfang_note'] = 'Ayuda a {npc:192747} a derrotar a los {npc:192748} para h
 L['spellwrought_snowman_note'] = 'Consigue 10x {npc:193424} y llévaselas a {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Recoge un {object:Fragmento Cantarín} para conseguir {spell:382076} y usar el {object:Enfoque Descargado} para hacer aparecer al raro.'
 
-L['breezebiter_note'] = 'Vuela por el cielo. Para atraerlo, vuela cerca suyo.'
+L['breezebiter_note'] = 'Vuela por el cielo. Para atraerlo, vuela cerca suyo. Aparece frente a la cueva pequeña al este.'
 
 L['forgotten_jewel_box_note'] = 'La {item:199065} se puede encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
 L['gnoll_fiend_flail_note'] = 'Las {item:199066} se pueden encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
