@@ -95,7 +95,7 @@ L['elemental_storm_sandstorm'] = 'Sandstorm'
 L['elemental_storm_firestorm'] = 'Firestorm'
 L['elemental_storm_snowstorm'] = 'Snowstorm'
 
-L['elemental_storm_brakenhide_hollow'] = 'Brakenhide Hollow'
+L['elemental_storm_brakenhide_hollow'] = 'Brackenhide Hollow'
 L['elemental_storm_cobalt_assembly'] = 'Cobalt Assembly'
 L['elemental_storm_dragonbane_keep'] = 'Dragonbane Keep'
 L['elemental_storm_imbu'] = 'Imbu'
@@ -114,7 +114,7 @@ L['elemental_storm_mythressa_note_start'] = 'Exchange for {currency:2118} for ge
 L['elemental_storm_mythressa_note_end'] = 'You currently have %s {currency:2118}.'
 
 L['options_icons_elemental_storm'] = 'Elemental Storms'
-L['options_icons_elemental_storm_desc'] = 'Display rewards for Elemental Storms'
+L['options_icons_elemental_storm_desc'] = 'Display rewards for Elemental Storms.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
