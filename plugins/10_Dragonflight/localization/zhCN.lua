@@ -73,7 +73,7 @@ L['options_icons_hemet_nesingwary_jr_desc'] = '显示 {achievement:16542} 成就
 L['pretty_neat_note'] = '用自拍神器照相。'
 L['pretty_neat_note_blazewing'] = '可以在 {location:奈萨鲁斯} 地下城中的 {npc:189901} 首领战斗中找到。'
 L['options_icons_pretty_neat'] = '{achievement:16446}'
-L['options_icons_pretty_neat_desc'] = '显示 {achievement:16446} 成就中 NPC 的位置。'
+L['options_icons_pretty_neat_desc'] = '显示 {achievement:16446} 成就中鸟类的位置。'
 
 L['large_lunker_sighting'] = '大家伙目击点'
 L['large_lunker_sighting_note'] = '使用5个 {item:194701} 召唤 {npc:192919} 或稀有。'
