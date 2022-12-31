@@ -90,32 +90,32 @@ L['options_icons_signal_transmitter_desc'] = 'Afficher les emplacements des {obj
 L['spawns_hourly'] = 'Apparaît environ une fois par heure.'
 L['spawns_at_night'] = 'Apparaît uniquement la nuit. (Après 18:30, heure du serveur)'
 
-L['elemental_storm'] = nil
-L['elemental_storm_thunderstorm'] = nil
-L['elemental_storm_sandstorm'] = nil
-L['elemental_storm_firestorm'] = nil
-L['elemental_storm_snowstorm'] = nil
+L['elemental_storm'] = 'Tempête élémentaire'
+L['elemental_storm_thunderstorm'] = 'Coups de tonnerre'
+L['elemental_storm_sandstorm'] = 'Tempêtes de sable'
+L['elemental_storm_firestorm'] = 'Tempêtes de feu'
+L['elemental_storm_snowstorm'] = 'Tempêtes de neige'
 
-L['elemental_storm_brakenhide_hollow'] = nil
-L['elemental_storm_cobalt_assembly'] = nil
-L['elemental_storm_dragonbane_keep'] = nil
-L['elemental_storm_imbu'] = nil
-L['elemental_storm_nokhudon_hold'] = nil
-L['elemental_storm_ohniri_springs'] = nil
-L['elemental_storm_primalist_future'] = nil
-L['elemental_storm_primalist_tomorrow'] = nil
-L['elemental_storm_scalecracker_keep'] = nil
-L['elemental_storm_slagmire'] = nil
-L['elemental_storm_tyrhold'] = nil
+L['elemental_storm_brakenhide_hollow'] = 'Creux des Fougerobes'
+L['elemental_storm_cobalt_assembly'] = 'Assemblée de Cobalt'
+L['elemental_storm_dragonbane_keep'] = 'Donjon du Fléau-des-Dragons'
+L['elemental_storm_imbu'] = 'Imbou'
+L['elemental_storm_nokhudon_hold'] = 'Bastion Nokhudon'
+L['elemental_storm_ohniri_springs'] = 'Sources des Ohn’irs'
+L['elemental_storm_primalist_future'] = 'L’avenir des Primalistes'
+L['elemental_storm_primalist_tomorrow'] = 'Lendemains primalistes'
+L['elemental_storm_scalecracker_keep'] = 'Donjon Craquécaille'
+L['elemental_storm_slagmire'] = 'Bourbier aux Scories'
+L['elemental_storm_tyrhold'] = 'Bastion de Tyr'
 
-L['elemental_overflow_obtained_suffix'] = nil
-L['empowered_mobs_killed_suffix'] = nil
+L['elemental_overflow_obtained_suffix'] = 'Débordements élémentaires obtenus'
+L['empowered_mobs_killed_suffix'] = 'Monstres Imprégnés tués'
 
-L['elemental_storm_mythressa_note_start'] = nil
-L['elemental_storm_mythressa_note_end'] = nil
+L['elemental_storm_mythressa_note_start'] = 'Échangez vos {currency:2118} contre de l\'équipement, des mascottes et une monture.'
+L['elemental_storm_mythressa_note_end'] = 'Vous avez actuellement %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = nil
-L['options_icons_elemental_storm_desc'] = nil
+L['options_icons_elemental_storm'] = 'Tempêtes élémentaires'
+L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les Tempêtes élementaires.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
