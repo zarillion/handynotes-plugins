@@ -102,7 +102,7 @@ L['sharpfang_note'] = 'Aidez {npc:192747} à vaincre les {npc:192748s} pour fair
 L['spellwrought_snowman_note'] = 'Récupérez 10x {npc:193424} et amenez-les au {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Récupérez un {object:Fragment chantant} pour obtenir {spell:382076} et utilisez le {object:Focalisateur déchargé} pour faire apparaître le rare.'
 
-L['breezebiter_note'] = 'Vole en rond dans les airs. Volez près de lui pour le faire descendre.'
+L['breezebiter_note'] = 'Vole en rond dans les airs. Volez près de lui pour le faire descendre. Son emplacement d\'apparition est à l\'entrée de la petite grotte à l\'est.'
 
 L['forgotten_jewel_box_note'] = 'La {item:199065} peut être trouvée dans les {object:Paquetages d\'éclaireurs de l\'expédition} et les {object:Terres retournées}.'
 L['gnoll_fiend_flail_note'] = 'La {item:199066} peut être trouvée dans les {object:Paquetages d\'éclaireurs de l\'expédition} et les {object:Terres retournées}.'
