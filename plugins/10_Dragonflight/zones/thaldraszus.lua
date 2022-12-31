@@ -15,6 +15,7 @@ local Treasure = ns.node.Treasure
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
+local ElementalStorm = ns.node.ElementalStorm
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local LegendaryCharacter = ns.node.LegendaryCharacter
@@ -31,6 +32,7 @@ local Squirrel = ns.node.Squirrel
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -1028,6 +1030,54 @@ map.nodes[44006480] = Safari({
         })
     }
 }) -- Vorquin Runt
+
+-------------------------------------------------------------------------------
+------------------------ ELEMENTAL STORMS: THALDRASZUS ------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[59005879] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'], L['elemental_storm_tyrhold']),
+    mapID = map.id,
+    areaPOIs = {7245, 7246, 7247, 7248}
+}) -- Elemental Storm: Tyrhold
+
+map.nodes[59938224] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'],
+        L['elemental_storm_primalist_future']),
+    mapID = map.id,
+    areaPOIs = {7298, 7299, 7300, 7301}
+}) -- Elemental Storm: Primalist Future
+
+tpf.nodes[57404187] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'],
+        L['elemental_storm_primalist_tomorrow']),
+    mapID = tpf.id,
+    areaPOIs = {7241, 7242, 7243, 7244}
+}) -- Elemental Storm: Primalist Tomorrow
+
+-- ELEMENTAL STORM VENDOR -----------------------------------------------------
+
+local Mythressa = Class('Mythressa', NPC, {
+    id = 196516,
+    icon = 538566,
+    group = ns.groups.ELEMENTAL_STORM,
+    parent = map.id,
+    rewards = {
+        Achievement({id = 16502}), -- Storming the Runway
+        Pet({item = 200173, id = 3287, note = 'x1000'}), -- Ghostflame
+        Pet({item = 200114, id = 3282, note = 'x1000'}), -- Stormie
+        Mount({item = 192775, id = 1622, note = 'x2000'}) -- Stormhide Salamanther
+    }
+}) -- Mythressa <Apprentice Primal Researcher>
+
+function Mythressa.getters:note()
+    local noteStart = L['elemental_storm_mythressa_note_start']
+    local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
+    local noteEnd = format(L['elemental_storm_mythressa_note_end'], currency)
+    return noteStart .. '\n\n' .. noteEnd
+end
+
+val.nodes[38113773] = Mythressa()
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

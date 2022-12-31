@@ -89,6 +89,33 @@ L['options_icons_signal_transmitter_desc'] = 'Zeigt die Positionen der {object:D
 L['spawns_hourly'] = 'Erscheint nur einmal pro Stunde.'
 L['spawns_at_night'] = 'Erscheint nur nachts. (Ab 18:30 Server Zeit)'
 
+L['elemental_storm'] = nil
+L['elemental_storm_thunderstorm'] = nil
+L['elemental_storm_sandstorm'] = nil
+L['elemental_storm_firestorm'] = nil
+L['elemental_storm_snowstorm'] = nil
+
+L['elemental_storm_brakenhide_hollow'] = nil
+L['elemental_storm_cobalt_assembly'] = nil
+L['elemental_storm_dragonbane_keep'] = nil
+L['elemental_storm_imbu'] = nil
+L['elemental_storm_nokhudon_hold'] = nil
+L['elemental_storm_ohniri_springs'] = nil
+L['elemental_storm_primalist_future'] = nil
+L['elemental_storm_primalist_tomorrow'] = nil
+L['elemental_storm_scalecracker_keep'] = nil
+L['elemental_storm_slagmire'] = nil
+L['elemental_storm_tyrhold'] = nil
+
+L['elemental_overflow_obtained_suffix'] = nil
+L['empowered_mobs_killed_suffix'] = nil
+
+L['elemental_storm_mythressa_note_start'] = nil
+L['elemental_storm_mythressa_note_end'] = nil
+
+L['options_icons_elemental_storm'] = nil
+L['options_icons_elemental_storm_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

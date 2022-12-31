@@ -15,6 +15,7 @@ local Treasure = ns.node.Treasure
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
+local ElementalStorm = ns.node.ElementalStorm
 local Flag = ns.node.Flag
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
@@ -1409,6 +1410,24 @@ map.nodes[64003480] = Safari({
         })
     }
 }) -- Woodbiter Piculet
+
+-------------------------------------------------------------------------------
+--------------------- ELEMENTAL STORMS: ONH'AHRAN PLAINS ----------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34153854] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'],
+        L['elemental_storm_nokhudon_hold']),
+    mapID = map.id,
+    areaPOIs = {7221, 7222, 7223, 7224}
+}) -- Elemental Storm: Nokhudon Hold
+
+map.nodes[54367534] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'],
+        L['elemental_storm_ohniri_springs']),
+    mapID = map.id,
+    areaPOIs = {7225, 7226, 7227, 7228}
+}) -- Elemental Storm: Ohn'iri Springs
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

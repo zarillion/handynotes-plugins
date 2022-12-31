@@ -89,6 +89,33 @@ L['options_icons_signal_transmitter_desc'] = 'Display {object:Deactivated Signal
 L['spawns_hourly'] = 'Spawns about once an hour.'
 L['spawns_at_night'] = 'Spawns only at night. (After 18:30 server time)'
 
+L['elemental_storm'] = 'Elemental Storm'
+L['elemental_storm_thunderstorm'] = 'Thunderstorm'
+L['elemental_storm_sandstorm'] = 'Sandstorm'
+L['elemental_storm_firestorm'] = 'Firestorm'
+L['elemental_storm_snowstorm'] = 'Snowstorm'
+
+L['elemental_storm_brakenhide_hollow'] = 'Brakenhide Hollow'
+L['elemental_storm_cobalt_assembly'] = 'Cobalt Assembly'
+L['elemental_storm_dragonbane_keep'] = 'Dragonbane Keep'
+L['elemental_storm_imbu'] = 'Imbu'
+L['elemental_storm_nokhudon_hold'] = 'Nokhudon Hold'
+L['elemental_storm_ohniri_springs'] = 'Ohn\'iri Springs'
+L['elemental_storm_primalist_future'] = 'Primalist Future'
+L['elemental_storm_primalist_tomorrow'] = 'Primalist Tomorrow'
+L['elemental_storm_scalecracker_keep'] = 'Scalecracker Keep'
+L['elemental_storm_slagmire'] = 'Slagmire'
+L['elemental_storm_tyrhold'] = 'Tyrhold'
+
+L['elemental_overflow_obtained_suffix'] = 'Elemental Overflow obtained'
+L['empowered_mobs_killed_suffix'] = 'Empowered mobs killed'
+
+L['elemental_storm_mythressa_note_start'] = 'Exchange for {currency:2118} for gear, pets, and a mount.'
+L['elemental_storm_mythressa_note_end'] = 'You currently have %s {currency:2118}.'
+
+L['options_icons_elemental_storm'] = 'Elemental Storms'
+L['options_icons_elemental_storm_desc'] = 'Display rewards for Elemental Storms'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
