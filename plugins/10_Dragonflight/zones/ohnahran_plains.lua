@@ -439,14 +439,14 @@ map.nodes[26073412] = Rare({
     pois = {POI({23573442})}
 }) -- Ty'foon the Ascended
 
-map.nodes[43405040] = Rare({
+map.nodes[43105078] = Rare({
     id = 191354,
     quest = 74095,
     note = L['in_cave'],
     rewards = {
         -- Transmog({item = , slot = L['']}) -- Name
     },
-    pois = {POI({43004800})}
+    pois = {POI({43724823})}
 }) -- Web-Queen Ashkaz
 
 -------------------------------------------------------------------------------

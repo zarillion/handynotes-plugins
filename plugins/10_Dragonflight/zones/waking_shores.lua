@@ -570,7 +570,7 @@ map.nodes[60598285] = Rare({
     }
 }) -- Terillod the Devout
 
-map.nodes[46795728] = Rare({id = 190718}) -- Monsoo, The Boiling Rage
+-- map.nodes[46795728] = Rare({id = 190718}) -- Monsoo, The Boiling Rage
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
