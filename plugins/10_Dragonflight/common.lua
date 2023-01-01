@@ -619,50 +619,50 @@ ns.node.Safari = Safari
 -------------------------------------------------------------------------------
 
 local ELEMENTAL_STORM_AREA_POIS = {
-    [7221] = {mapID = 2023, type = 'thunderstorm'},
-    [7222] = {mapID = 2023, type = 'sandstorm'},
-    [7223] = {mapID = 2023, type = 'firestorm'},
-    [7224] = {mapID = 2023, type = 'snowstorm'},
-    [7225] = {mapID = 2023, type = 'thunderstorm'},
-    [7226] = {mapID = 2023, type = 'sandstorm'},
-    [7227] = {mapID = 2023, type = 'firestorm'},
-    [7228] = {mapID = 2023, type = 'snowstorm'},
-    [7229] = {mapID = 2024, type = 'thunderstorm'},
-    [7230] = {mapID = 2024, type = 'sandstorm'},
-    [7231] = {mapID = 2024, type = 'firestorm'},
-    [7232] = {mapID = 2024, type = 'snowstorm'},
-    [7233] = {mapID = 2024, type = 'thunderstorm'},
-    [7234] = {mapID = 2024, type = 'sandstorm'},
-    [7235] = {mapID = 2024, type = 'firestorm'},
-    [7236] = {mapID = 2024, type = 'snowstorm'},
-    [7237] = {mapID = 2024, type = 'thunderstorm'},
-    [7238] = {mapID = 2024, type = 'sandstorm'},
-    [7239] = {mapID = 2024, type = 'firestorm'},
-    [7240] = {mapID = 2024, type = 'snowstorm'},
-    [7241] = {mapID = 2085, type = 'thunderstorm'},
-    [7242] = {mapID = 2085, type = 'sandstorm'},
-    [7243] = {mapID = 2085, type = 'firestorm'},
-    [7244] = {mapID = 2085, type = 'snowstorm'},
-    [7245] = {mapID = 2025, type = 'thunderstorm'},
-    [7246] = {mapID = 2025, type = 'sandstorm'},
-    [7247] = {mapID = 2025, type = 'firestorm'},
-    [7248] = {mapID = 2025, type = 'snowstorm'},
-    [7249] = {mapID = 2022, type = 'thunderstorm'},
-    [7250] = {mapID = 2022, type = 'sandstorm'},
-    [7251] = {mapID = 2022, type = 'firestorm'},
-    [7252] = {mapID = 2022, type = 'snowstorm'},
-    [7253] = {mapID = 2022, type = 'thunderstorm'},
-    [7254] = {mapID = 2022, type = 'sandstorm'},
-    [7255] = {mapID = 2022, type = 'firestorm'},
-    [7256] = {mapID = 2022, type = 'snowstorm'},
-    [7257] = {mapID = 2022, type = 'thunderstorm'},
-    [7258] = {mapID = 2022, type = 'sandstorm'},
-    [7259] = {mapID = 2022, type = 'firestorm'},
-    [7260] = {mapID = 2022, type = 'snowstorm'},
-    [7298] = {mapID = 2025, type = 'thunderstorm'},
-    [7299] = {mapID = 2025, type = 'sandstorm'},
-    [7300] = {mapID = 2025, type = 'firestorm'},
-    [7301] = {mapID = 2025, type = 'snowstorm'}
+    [7221] = 'thunderstorm',
+    [7222] = 'sandstorm',
+    [7223] = 'firestorm',
+    [7224] = 'snowstorm',
+    [7225] = 'thunderstorm',
+    [7226] = 'sandstorm',
+    [7227] = 'firestorm',
+    [7228] = 'snowstorm',
+    [7229] = 'thunderstorm',
+    [7230] = 'sandstorm',
+    [7231] = 'firestorm',
+    [7232] = 'snowstorm',
+    [7233] = 'thunderstorm',
+    [7234] = 'sandstorm',
+    [7235] = 'firestorm',
+    [7236] = 'snowstorm',
+    [7237] = 'thunderstorm',
+    [7238] = 'sandstorm',
+    [7239] = 'firestorm',
+    [7240] = 'snowstorm',
+    [7241] = 'thunderstorm',
+    [7242] = 'sandstorm',
+    [7243] = 'firestorm',
+    [7244] = 'snowstorm',
+    [7245] = 'thunderstorm',
+    [7246] = 'sandstorm',
+    [7247] = 'firestorm',
+    [7248] = 'snowstorm',
+    [7249] = 'thunderstorm',
+    [7250] = 'sandstorm',
+    [7251] = 'firestorm',
+    [7252] = 'snowstorm',
+    [7253] = 'thunderstorm',
+    [7254] = 'sandstorm',
+    [7255] = 'firestorm',
+    [7256] = 'snowstorm',
+    [7257] = 'thunderstorm',
+    [7258] = 'sandstorm',
+    [7259] = 'firestorm',
+    [7260] = 'snowstorm',
+    [7298] = 'thunderstorm',
+    [7299] = 'sandstorm',
+    [7300] = 'firestorm',
+    [7301] = 'snowstorm'
 }
 
 -- vv ------------------------------------------------------------------------- TO-DO: SHOULD I SIMPLIFY THIS TABLE TO ONLY USE ACHIEVEMENT ID
@@ -993,15 +993,11 @@ ns.node.ElementalStorm = ElementalStorm
 -- improvement from my Shadowlands integration and should be used for Sentinax
 -- locations in Legion.
 
-local elementalStormHandled = false
-
-hooksecurefunc(GameTooltip, 'Show', function(self)
-    if elementalStormHandled then return end
-    local owner = self:GetOwner()
-    if owner and owner.areaPoiID then
-        if ELEMENTAL_STORM_AREA_POIS[owner.areaPoiID] ~= nil then
-            local mapID = ELEMENTAL_STORM_AREA_POIS[owner.areaPoiID].mapID
-            local type = ELEMENTAL_STORM_AREA_POIS[owner.areaPoiID].type
+hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+    if self and self.areaPoiID then
+        if ELEMENTAL_STORM_AREA_POIS[self.areaPoiID] ~= nil then
+            local mapID = self:GetMap().mapID
+            local type = ELEMENTAL_STORM_AREA_POIS[self.areaPoiID]
             if ns.groups.ELEMENTAL_STORM:GetDisplay(ns.maps[mapID]) then
                 local rewards = {
                     ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], -- Elemental Overload
@@ -1011,18 +1007,14 @@ hooksecurefunc(GameTooltip, 'Show', function(self)
                     ELEMENTAL_STORM_FORMULA_REWARDS['all'], -- Design: Elemental Lariat
                     ELEMENTAL_STORM_FORMULA_REWARDS[type] -- Formula: Illusion Primal...
                 }
-                self:AddLine(' ') -- add blank line before rewards
+                GameTooltip:AddLine(' ') -- add blank line before rewards
                 for i, reward in ipairs(rewards) do
                     if reward:IsEnabled() then
-                        reward:Render(self)
+                        reward:Render(GameTooltip)
                     end
                 end
-                elementalStormHandled = true
-                self:Show()
+                GameTooltip:Show()
             end
         end
     end
 end)
-
-hooksecurefunc(GameTooltip, 'ClearLines',
-    function(self) elementalStormHandled = false end)
