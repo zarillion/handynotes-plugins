@@ -759,7 +759,7 @@ map.nodes[35506430] = PT.Blacksmithing({
 
 map.nodes[39008600] = PT.Leatherworking({
     id = 198711,
-    quest = nil,
+    quest = 70308,
     note = L['pt_leath_poachers_pack_note']
 }) -- Poacher's Pack
 
@@ -808,7 +808,7 @@ map.nodes[57508360] = PT.Enchanting({
 
 map.nodes[64302540] = PT.Leatherworking({
     id = 198667,
-    quest = nil,
+    quest = 70280,
     note = L['pt_leath_spare_djaradin_tools_note']
 }) -- Spare Djaradin Tools
 

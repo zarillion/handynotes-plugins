@@ -439,6 +439,16 @@ map.nodes[26073412] = Rare({
     pois = {POI({23573442})}
 }) -- Ty'foon the Ascended
 
+map.nodes[43405040] = Rare({
+    id = 191354,
+    quest = 74095,  
+    note = L['in_cave'],
+    rewards = {
+        -- Transmog({item = , slot = L['']}) -- Name
+    },
+    pois = {POI({43004800})}
+}) -- Web-Queen Ashkaz
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
@@ -564,7 +574,7 @@ map.nodes[35344012] = PT.Tailoring({
 
 map.nodes[50906650] = PT.Blacksmithing({
     id = 201009,
-    quest = nil,
+    quest = 70353,
     note = L['pt_smith_falconer_gauntlet_drawings_note']
 }) -- Falconer Gauntlet Drawings
 
@@ -607,7 +617,7 @@ map.nodes[85702520] = PT.Inscription({
 
 map.nodes[86405370] = PT.Leatherworking({
     id = 198696,
-    quest = nil,
+    quest = 70300,
     note = L['pt_leath_wind_blessed_hide_note']
 }) -- Wind-Blessed Hide
 
@@ -615,7 +625,7 @@ map.nodes[86405370] = PT.Leatherworking({
 
 map.nodes[82455067] = PM.Leatherworking({
     id = 194842,
-    quest = nil,
+    quest = 70256,
     note = L['pm_leath_erden'],
     rewards = {
         Item({item = 190456, note = '25'}), -- Artisan's Mettle

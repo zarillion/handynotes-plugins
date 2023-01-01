@@ -680,7 +680,7 @@ map.nodes[53146614] = PT.Blacksmithing({
 
 map.nodes[57504130] = PT.Leatherworking({
     id = 198683,
-    quest = nil,
+    quest = 70286,
     note = L['pt_leath_treated_hides_note']
 }) -- Treated Hides
 
