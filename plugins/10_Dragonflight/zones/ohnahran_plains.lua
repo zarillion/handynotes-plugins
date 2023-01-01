@@ -441,7 +441,7 @@ map.nodes[26073412] = Rare({
 
 map.nodes[43405040] = Rare({
     id = 191354,
-    quest = 74095,  
+    quest = 74095,
     note = L['in_cave'],
     rewards = {
         -- Transmog({item = , slot = L['']}) -- Name
