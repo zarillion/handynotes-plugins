@@ -43,3 +43,14 @@ map.nodes[39203680] = Safari.Maggot({
         })
     }
 }) -- Maggot
+
+map.nodes[28403360] = Safari.SmallFrog({
+    pois = {
+        POI({
+            26003420, 27603520, 28403360, 32203200, 36603260, 47005120,
+            62805900, 68201900
+        })
+    }
+}) -- Small Frog
+
+map.nodes[51405020] = Safari.Snake({pois = {POI({7620760, 76204360})}}) -- Snake

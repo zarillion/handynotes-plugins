@@ -19,7 +19,6 @@
   <Script file="zones\eastern_kingdoms\searing_gorge.lua"/>
   <Script file="zones\eastern_kingdoms\silverpine_forest.lua"/>
   <Script file="zones\eastern_kingdoms\swamp_of_sorrows.lua"/>
-  <Script file="zones\eastern_kingdoms\teldrassil_darnassus.lua"/>
   <Script file="zones\eastern_kingdoms\the_hinterlands.lua"/>
   <Script file="zones\eastern_kingdoms\tirisfal_glades_undercity.lua"/>
   <Script file="zones\eastern_kingdoms\western_plaguelands.lua"/>
@@ -42,6 +41,8 @@
   <Script file="zones\kalimdor\southern_barrens.lua"/>
   <Script file="zones\kalimdor\stonetalon_mountains.lua"/>
   <Script file="zones\kalimdor\tanaris.lua"/>
+  <Script file="zones\kalimdor\teldrassil_darnassus.lua"/>
+  <Script file="zones\kalimdor\thousand_needles.lua"/>
   <Script file="zones\kalimdor\ungoro_crater.lua"/>
   <Script file="zones\kalimdor\winterspring.lua"/>
 </Ui>

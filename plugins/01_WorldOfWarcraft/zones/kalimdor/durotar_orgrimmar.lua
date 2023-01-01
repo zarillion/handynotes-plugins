@@ -141,3 +141,12 @@ valleyoftrials.nodes[34006300] = Safari.Hare({
         })
     }
 }) -- Hare
+
+orgrimmar.nodes[59805000] = Safari.RoboChick({
+    parent = map.id,
+    pois = {
+        POI({
+            38008660, 38208620, 39408240, 39608300, 39808220, 40008060, 40208000
+        })
+    }
+}) -- Robo-Chick

@@ -138,3 +138,7 @@ map.nodes[67207020] = Safari.Parrot({
         })
     }
 }) -- Parrot
+
+map.nodes[34202860] = Safari.SilkyMoth({
+    pois = {POI({30203060, 34202860, 47402860})}
+}) -- Silky Moth

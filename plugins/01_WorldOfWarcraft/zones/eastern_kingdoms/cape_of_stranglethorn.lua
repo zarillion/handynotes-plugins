@@ -104,3 +104,11 @@ map.nodes[42006840] = Safari.LongTailedMole({
         })
     }
 }) -- Long-Tailed Mole
+
+map.nodes[42007440] = Safari.Roach({
+    pois = {
+        POI({
+            39807260, 41607300, 42006840, 42007440, 42007460, 43007160, 43207120
+        })
+    }
+}) -- Roach

@@ -538,7 +538,9 @@ ns.node.Safari = { -- Maybe add this to core later?
         id = 61366,
         rewards = {
             Achievement({id = 6585, criteria = 21516}),
-            Achievement({id = 6586, criteria = 21516}), Pet({id = 417})
+            Achievement({id = 6586, criteria = 21516}),
+            Achievement({id = 6587, criteria = 21516}),
+            Achievement({id = 6588, criteria = 21516}), Pet({id = 417})
         }
     }), -- Also in Terrok Forest, Nagrand, Outland; Drustvar, BFA; Highmountain, Spires of Arak, Legion; Howling Fjord, Northrend
     RatSnake = Class('RatSnake', Safari, {
@@ -555,122 +557,137 @@ ns.node.Safari = { -- Maybe add this to core later?
     RavagerHatchling = Class('RavagerHatchling', Safari, {
         id = 62051,
         rewards = {Achievement({id = 6585, criteria = 21709}), Pet({id = 465})}
-    }), -- TODO
+    }),
     RedTailedChipmunk = Class('RedTailedChipmunk', Safari, {
         id = 61757,
         rewards = {
             Achievement({id = 6585, criteria = 21651}),
             Achievement({id = 6586, criteria = 21651}), Pet({id = 452})
         }
-    }), -- TODO
+    }), -- Also in Talador, Legion
     RedridgeRat = Class('RedridgeRat', Safari, {
         id = 61168,
         rewards = {Achievement({id = 6586, criteria = 21664}), Pet({id = 392})}
-    }), -- TODO
+    }),
     RestlessShadeling = Class('RestlessShadeling', Safari, {
         id = 61375,
         rewards = {Achievement({id = 6586, criteria = 21628}), Pet({id = 439})}
-    }), -- TODO
+    }),
     Roach = Class('Roach', Safari, {
         id = 61169,
         rewards = {
             Achievement({id = 6585, criteria = 21517}),
-            Achievement({id = 6586, criteria = 21517}), Pet({id = 424})
+            Achievement({id = 6586, criteria = 21517}),
+            Achievement({id = 6588, criteria = 21517}), Pet({id = 424})
         }
-    }), -- TODO
+    }), -- Also in Drustvar, BFA;
     RoboChick = Class('RoboChick', Safari, {
         id = 62119,
         rewards = {Achievement({id = 6585, criteria = 21705}), Pet({id = 471})}
-    }), -- TODO
+    }),
     RockViper = Class('RockViper', Safari, {
         id = 62184,
-        rewards = {Achievement({id = 6585, criteria = 21699}), Pet({id = 482})}
-    }), -- TODO
+        rewards = {
+            Achievement({id = 6585, criteria = 21699}),
+            Achievement({id = 6587, criteria = 21699}), Pet({id = 482})
+        }
+    }), -- Also in Mount Hyjal, Cataclysm, Blades Edge Mountains, Outland
     RubySapling = Class('RubySapling', Safari, {
         id = 62020,
         rewards = {Achievement({id = 6586, criteria = 21644}), Pet({id = 460})}
-    }), -- TODO
+    }),
     RustySnail = Class('RustySnail', Safari, {
         id = 62313,
         rewards = {Achievement({id = 6585, criteria = 21703}), Pet({id = 496})}
-    }), -- TODO
+    }), -- also in Highmountain, Legion
     SandKitten = Class('SandKitten', Safari, {
         id = 62257,
         rewards = {
             Achievement({id = 6585, criteria = 21746}),
             Achievement({id = 8397, criteria = 23589}), Pet({id = 491})
         }
-    }), -- TODO
+    }),
     ScarabHatchling = Class('ScarabHatchling', Safari, {
         id = 62524,
         rewards = {Achievement({id = 6585, criteria = 21740}), Pet({id = 512})}
-    }), -- TODO
+    }),
     Scorpid = Class('Scorpid', Safari, {
         id = 61326,
         rewards = {
             Achievement({id = 6585, criteria = 21622}),
-            Achievement({id = 6586, criteria = 21622}), Pet({id = 414})
+            Achievement({id = 6586, criteria = 21622}),
+            Achievement({id = 6587, criteria = 21622}), Pet({id = 414})
         }
-    }), -- TODO
+    }), -- Also in Hellfire Peninsula, Shadowmoon Valley, Blades Edge Mountains, Outland; Twilight Highlands, Cataclysm
     Scorpling = Class('Scorpling', Safari, {
         id = 61329,
         rewards = {Achievement({id = 6586, criteria = 21623}), Pet({id = 416})}
-    }), -- TODO
+    }),
     SeaGull = Class('SeaGull', Safari, {
         id = 62953,
         rewards = {
             Achievement({id = 6585, criteria = 21640}),
-            Achievement({id = 6586, criteria = 21640}), Pet({id = 560})
+            Achievement({id = 6586, criteria = 21640}),
+            Achievement({id = 6589, criteria = 21640}), Pet({id = 560})
         }
-    }), -- TODO
+    }), -- Also in Frostfire Ridge, Draenor
     ShimmershellSnail = Class('ShimmershellSnail', Safari, {
         id = 62246,
         rewards = {Achievement({id = 6585, criteria = 21710}), Pet({id = 493})}
-    }), -- TODO
+    }),
     ShoreCrab = Class('ShoreCrab', Safari, {
         id = 61158,
-        rewards = {Achievement({id = 6585, criteria = 21706}), Pet({id = 388})}
-    }), -- TODO
+        rewards = {
+            Achievement({id = 6585, criteria = 21706}),
+            Achievement({id = 6588, criteria = 21706}),
+            Achievement({id = 6589, criteria = 21706}), Pet({id = 388})
+        }
+    }), -- also in Borean Tundra, Howling Fjord, Northrend; Twilight Highlands, Cataclysm; Waking Shores, Azure Span, Dragonflight; Nagrand, Draenor
     Sidewinder = Class('Sidewinder', Safari, {
         id = 62523,
         rewards = {Achievement({id = 6585, criteria = 21741}), Pet({id = 511})}
-    }), -- TODO
+    }), -- also in Uldum, Cataclysm
     SilithidHatchling = Class('SilithidHatchling', Safari, {
         id = 62258,
         rewards = {Achievement({id = 6585, criteria = 21747}), Pet({id = 494})}
-    }), -- TODO
+    }),
     SilkyMoth = Class('SilkyMoth', Safari, {
         id = 62373,
         rewards = {Achievement({id = 6585, criteria = 21727}), Pet({id = 503})}
-    }), -- TODO
+    }), -- also in Mount Hyjal, Cataclysm
     Skunk = Class('Skunk', Safari, {
         id = 61255,
         rewards = {
             Achievement({id = 6585, criteria = 21633}),
-            Achievement({id = 6586, criteria = 21633}), Pet({id = 397})
+            Achievement({id = 6586, criteria = 21633}),
+            Achievement({id = 6587, criteria = 21633}),
+            Achievement({id = 6588, criteria = 21633}), Pet({id = 397})
         }
-    }), -- TODO
+    }), -- also in Terrok Forest, Outland; Howling Fjord, Northrend; Nagrand, Draenor; Val'sharah, Legion
     SmallFrog = Class('SmallFrog', Safari, {
         id = 61071,
         rewards = {
             Achievement({id = 6585, criteria = 21518}),
-            Achievement({id = 6586, criteria = 21518}), Pet({id = 419})
+            Achievement({id = 6586, criteria = 21518}),
+            Achievement({id = 6587, criteria = 21518}), Pet({id = 419})
         }
-    }), -- TODO
+    }), -- also in Zangarmarsh, Outland
     Snake = Class('Snake', Safari, {
         id = 61142,
         rewards = {
             Achievement({id = 6585, criteria = 21519}),
-            Achievement({id = 6586, criteria = 21519}), Pet({id = 387})
+            Achievement({id = 6586, criteria = 21519}),
+            Achievement({id = 6587, criteria = 21519}),
+            Achievement({id = 6588, criteria = 21519}), Pet({id = 387})
         }
-    }), -- TODO
+    }), -- Also in Zangarmarsh, Outland; Sholazar Basin, Zuldrak, Northrend
     SnowCub = Class('SnowCub', Safari, {
         id = 61689,
         rewards = {
             Achievement({id = 6586, criteria = 21520}),
             Achievement({id = 8397, criteria = 23593}), Pet({id = 440})
         }
-    }), -- TODO
+    }),
     SnowshoeHare = Class('SnowshoeHare', Safari, {
         id = 61755,
         rewards = {Achievement({id = 6586, criteria = 21652}), Pet({id = 640})}
@@ -876,11 +893,11 @@ local CrazyForCats = Class('CrazyForCats', Collectible,
 --
 -- Orange Tabby Cat     Vendor: Donni Anthania, Zone: Elwynn Forest (Alliance Only)
 --
--- Sand Kitten          included in Safari
+-- Sand Kitten          included in Safari -- DONE
 --
 -- Siamese Cat          Vendor: Dealer Rashaad, Zone: Netherstorm
 --
--- Snow Cub             included in Safari
+-- Snow Cub             included in Safari -- DONE
 --
 -- Spectral Tiger Cub   WoW TCG or AH
 --
