@@ -1,3 +1,12 @@
+# v28
+
+* Reorganized the map menu to better display groups.
+  * Standard groups are at the top.
+  * Expansion specific groups are in the next section.
+  * Achievement-related groups have their own sub-menu.
+* Added nodes and vignette info for elemental storms.
+* Added missing profession treasure tracking ids.
+
 # v27
 
 * Added more dirt and scout pack locations.
