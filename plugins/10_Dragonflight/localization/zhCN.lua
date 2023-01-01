@@ -89,32 +89,32 @@ L['options_icons_signal_transmitter_desc'] = '显示 {item:198156} 的 {object:�
 L['spawns_hourly'] = '只可能在整点出现，可能会延迟几分钟。'
 L['spawns_at_night'] = '只可能在夜间出现。（服务器时间18:30准时出现，可能会延迟几分钟）'
 
-L['elemental_storm'] = nil
-L['elemental_storm_thunderstorm'] = nil
-L['elemental_storm_sandstorm'] = nil
-L['elemental_storm_firestorm'] = nil
-L['elemental_storm_snowstorm'] = nil
+L['elemental_storm'] = '元素风暴'
+L['elemental_storm_thunderstorm'] = '雷暴'
+L['elemental_storm_sandstorm'] = '沙暴'
+L['elemental_storm_firestorm'] = '火焰风暴'
+L['elemental_storm_snowstorm'] = '雪暴'
 
-L['elemental_storm_brakenhide_hollow'] = nil
-L['elemental_storm_cobalt_assembly'] = nil
-L['elemental_storm_dragonbane_keep'] = nil
-L['elemental_storm_imbu'] = nil
-L['elemental_storm_nokhudon_hold'] = nil
-L['elemental_storm_ohniri_springs'] = nil
-L['elemental_storm_primalist_future'] = nil
-L['elemental_storm_primalist_tomorrow'] = nil
-L['elemental_storm_scalecracker_keep'] = nil
-L['elemental_storm_slagmire'] = nil
-L['elemental_storm_tyrhold'] = nil
+L['elemental_storm_brakenhide_hollow'] = '蕨皮山谷'
+L['elemental_storm_cobalt_assembly'] = '钴蓝集所'
+L['elemental_storm_dragonbane_keep'] = '灭龙要塞'
+L['elemental_storm_imbu'] = '伊姆布'
+L['elemental_storm_nokhudon_hold'] = '诺库顿要塞'
+L['elemental_storm_ohniri_springs'] = '欧恩伊尔清泉'
+L['elemental_storm_primalist_future'] = '拜荒者的未来'
+L['elemental_storm_primalist_tomorrow'] = 'Primalist Tomorrow'
+L['elemental_storm_scalecracker_keep'] = '碎鳞要塞'
+L['elemental_storm_slagmire'] = '熔渣沼泽'
+L['elemental_storm_tyrhold'] = '提尔要塞'
 
-L['elemental_overflow_obtained_suffix'] = nil
-L['empowered_mobs_killed_suffix'] = nil
+L['elemental_overflow_obtained_suffix'] = '元素涌流已获得'
+L['empowered_mobs_killed_suffix'] = '强化怪物已击杀'
 
-L['elemental_storm_mythressa_note_start'] = nil
-L['elemental_storm_mythressa_note_end'] = nil
+L['elemental_storm_mythressa_note_start'] = '用 {currency:2118} 换取装备、宠物和坐骑。'
+L['elemental_storm_mythressa_note_end'] = '目前有 %s {currency:2118}。'
 
-L['options_icons_elemental_storm'] = nil
-L['options_icons_elemental_storm_desc'] = nil
+L['options_icons_elemental_storm'] = '元素风暴'
+L['options_icons_elemental_storm_desc'] = '显示元素风暴奖励。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
