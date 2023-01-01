@@ -73,7 +73,7 @@ L['options_icons_hemet_nesingwary_jr_desc'] = '顯示成就 {achievement:16542} 
 L['pretty_neat_note'] = '使用任何自拍相機拍一張照'
 L['pretty_neat_note_blazewing'] = '可以在地城 {location:奈薩魯斯堡} 中和首領 {npc:189901} 的戰鬥中發現.'
 L['options_icons_pretty_neat'] = '{achievement:16446}'
-L['options_icons_pretty_neat_desc'] = '顯示成就 {achievement:16446} 所需的 NPC 位置'
+L['options_icons_pretty_neat_desc'] = '顯示成就 {achievement:16446} 所需的鳥類位置'
 
 L['large_lunker_sighting'] = '大傢伙目擊地點'
 L['large_lunker_sighting_note'] = '使用5個 {item:194701} 來召喚 {npc:192919} 或是稀有'
