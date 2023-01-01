@@ -25,44 +25,138 @@ ns.expansion = 10
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.ANCESTOR = Group('ancestor', 135946, {defaults = ns.GROUP_HIDDEN})
-ns.groups.BAKAR = Group('bakar', 930453, {defaults = ns.GROUP_HIDDEN})
-ns.groups.CHISELED_RECORD = Group('chiseled_record', 134455,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.DRAGON_GLYPH = Group('dragon_glyph', 4728198)
-ns.groups.DRAGONRACE =
-    Group('dragonrace', 1100022, {defaults = ns.GROUP_HIDDEN})
-ns.groups.DREAMGUARD = Group('dreamguard', 341763, {defaults = ns.GROUP_HIDDEN})
-ns.groups.DUCKLINGS = Group('ducklings', 4048818, {defaults = ns.GROUP_HIDDEN})
-ns.groups.FLAG = Group('flag', 1723999, {defaults = ns.GROUP_HIDDEN})
-ns.groups.FRAGMENT = Group('fragment', 134908, {defaults = ns.GROUP_HIDDEN})
-ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.HEMET_NESINGWARY_JR = Group('hemet_nesingwary_jr', 236444,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.KITE = Group('kite', 133837, {defaults = ns.GROUP_HIDDEN})
-ns.groups.LEGENDARY_ALBUM = Group('legendary_album', 1109168,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.LEYLINE = Group('leyline', 1033908, {defaults = ns.GROUP_HIDDEN})
-ns.groups.MAGICBOUND_CHEST = Group('magicbound_chest', 'chest_tl',
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.NEW_PERSPECTIVE = Group('new_perspective', 1109100,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.PRETTY_NEAT = Group('pretty_neat', 133707,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
-ns.groups.SCOUT_PACK =
-    Group('scout_pack', 4562583, {defaults = ns.GROUP_HIDDEN})
-ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.SPECIALTIES = Group('specialties', 651585,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
-ns.groups.STORIES = Group('stories', 4549126, {defaults = ns.GROUP_HIDDEN})
+ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.DRAGON_GLYPH = Group('dragon_glyph', 4728198, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.MAGICBOUND_CHEST = Group('magicbound_chest', 'chest_tl', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.SCOUT_PACK = Group('scout_pack', 4562583, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+
+    -- Only display group for engineering players
+    IsEnabled = function(self)
+        if not ns.PlayerHasProfession(202) then return false end
+        return Group.IsEnabled(self)
+    end
+})
+
+-------------------------------------------------------------------------------
+
+ns.groups.ANCESTOR = Group('ancestor', 135946, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.BAKAR = Group('bakar', 930453, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.CHISELED_RECORD = Group('chiseled_record', 134455, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.DREAMGUARD = Group('dreamguard', 341763, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.DUCKLINGS = Group('ducklings', 4048818, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.FLAG = Group('flag', 1723999, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.FRAGMENT = Group('fragment', 134908, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.HEMET_NESINGWARY_JR = Group('hemet_nesingwary_jr', 236444, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.KITE = Group('kite', 133837, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.LEGENDARY_ALBUM = Group('legendary_album', 1109168, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.LEYLINE = Group('leyline', 1033908, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.NEW_PERSPECTIVE = Group('new_perspective', 1109100, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.PRETTY_NEAT = Group('pretty_neat', 133707, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.SAFARI = Group('safari', 4048818, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.SPECIALTIES = Group('specialties', 651585, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.SQUIRRELS = Group('squirrels', 237182, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
+ns.groups.STORIES = Group('stories', 4549126, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- ELITE RARES ---------------------------------
