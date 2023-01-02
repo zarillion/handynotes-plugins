@@ -164,7 +164,7 @@ map.nodes[59806100] = Rare({ -- reqired 67030
     quest = 69976,
     note = L['spawns_hourly'],
     rewards = {
-        Achievement({id = 16679, criteria = 56140}),
+        Achievement({id = 16679, criteria = 56140})
     }
 }) -- Phenran
 

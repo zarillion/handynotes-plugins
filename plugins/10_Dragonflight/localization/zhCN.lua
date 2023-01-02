@@ -267,7 +267,7 @@ L['initiate_kittileg_note'] = '完成 {quest:66226} 获得玩具！'
 L['quackers_duck_trap_kit'] = '要召唤 {npc:192557} 首先需要附近营地找到的 {item:194740}。\n\n做成 {item:194712} 需要以下材料：'
 L['quackers_spawn'] = '接下来需要用 {item:194712} 在巢穴附近抓一只鸭子。在 {npc:192581} 处使用 {item:194739} 来召唤 {npc:192557}。'
 
-L['knew_you_nokhud_do_it_note'] = '{note:所有3个物品都是唯一的，并且有30分钟的计时。}\n\n从 {location:诺库顿要塞} 附近的各种 {npc:185357}、{npc:185353} 和 {npc:185168} 收集 {item:200184}，{item:200194} 和 {item:200196}。\n\n将它们组合起来制造 {item:200201} 并使用它之后与 {npc:197884} 交谈以开始训练课程。\n\n使用你的 |cFFFFFD00附加动作按钮|r 完成它并获得你的成就。\n\n{note:在元素风暴期间团队中完成成就可以更容易地刷物品。}'
+L['knew_you_nokhud_do_it_note'] = '{note:所有3个物品都是唯一的，并且有30分钟的计时。}\n\n从 {location:诺库顿要塞} 附近的各种 {npc:185357}、{npc:185353} 和 {npc:185168} 收集 {item:200184}，{item:200194} 和 {item:200196}。\n\n将它们组合起来制造 {item:200201} 并使用它之后与 {npc:197884} 交谈以开始训练课程。\n\n使用你的 |cFFFFFD00额外的动作按钮|r 完成它并获得成就。\n\n{note:在元素风暴期间团队中完成成就可以更容易地刷物品。}'
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
 L['options_icons_nokhud_do_it_desc'] = '显示 {achievement:16583} 成就中有用的完成信息。'
 
