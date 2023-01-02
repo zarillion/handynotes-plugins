@@ -307,6 +307,7 @@ L['arcanostabilized_provisions_note'] = 'Cómpraselo a {npc:198831} {title:<Chef
 L['steamed_scarab_steak_note'] = 'Cómpraselo a {npc:197586} {title:<Camarera de la sauna>} en la {location:Sauna de Sueños Serenos}.'
 L['craft_creche_crowler_note'] = 'Cómpraselo a {npc:187444} {title:<Vendedora ambulante de bebidas dracónicas>} en un mapa aleatorio cada día: {location:Vitasagrario Rubí}, {location:Posada de la Escama Verde}, {location:Campamento Desubicado}, {location:Confluencia Temporal}.'
 L['bivigosas_blood_sausages_note'] = 'Cómpraselo a {npc:188895} {title:<Alimentos y bebidas>} en el {location:Puesto Gelikyr}.'
+L['rumiastrasza_note'] = nil
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Muestra dónde están las comidas y bebidas para el logro {achievement:16621}.'
 

@@ -301,6 +301,7 @@ L['arcanostabilized_provisions_note'] = 'Купить у {npc:198831} ' .. ns.co
 L['steamed_scarab_steak_note'] = 'Купить у {npc:197586} ' .. ns.color.NPC('<Бармен курорта>') .. ' на |cFFFFFD00Курорте Мирные Сны|r.'
 L['craft_creche_crowler_note'] = 'Купить у {npc:187444} ' .. ns.color.NPC('<Странствующий продавец драконьего хмеля>') .. ' может быть в одном из случайных мест на карте (меняет свое положение ежедневно): |cFFFFFD00Рубиновое святилище Жизни|r, |cFFFFFD00Таверна Зеленый дракон|r, |cFFFFFD00Затерянный лагерь|r, |cFFFFFD00Временной Перекресток|r.'
 L['bivigosas_blood_sausages_note'] = 'Купить у {npc:188895} ' .. ns.color.NPC('<Еда и напитки>') .. ' на |cFFFFFD00Геликирском аванпосте|r.'
+L['rumiastrasza_note'] = nil
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Показать места еды и напитков для достижения {achievement:16621}.'
 

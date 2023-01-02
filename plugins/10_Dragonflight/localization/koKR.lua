@@ -301,6 +301,7 @@ L['arcanostabilized_provisions_note'] = '{location:원시술사 평행세계}의
 L['steamed_scarab_steak_note'] = '{location:평온의 꿈 온천}에 있는 {npc:197586} {title:<온천 바텐더>}가 판매합니다.'
 L['craft_creche_crowler_note'] = '{location:루비 생명의 제단}, {location:초록비늘 여관}, {location:두멧골 야영지}, {location:시간의 합일점} 중 한 곳을 매일 무작위로 방문하는 {npc:187444} {title:<방랑 용음료 상인>}이 판매합니다.'
 L['bivigosas_blood_sausages_note'] = '{location:겔리키르 초소}에 있는 {npc:188895} {title:<음식과 음료>}이 판매합니다.'
+L['rumiastrasza_note'] = nil
 L['options_icons_specialties'] = nil
 L['options_icons_specialties_desc'] = '{achievement:16621} 업적을 위한 음식과 음료의 위치를 표시합니다.'
 

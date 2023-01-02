@@ -306,6 +306,7 @@ L['arcanostabilized_provisions_note'] = 'Purchase from {npc:198831} {title:<Head
 L['steamed_scarab_steak_note'] = 'Purchase from {npc:197586} {title:<Spa Bartender>} at {location:Serene Dreams Spa}.'
 L['craft_creche_crowler_note'] = 'Purchase from {npc:187444} {title:<Traveling Dragonbrew Vendor>} at random map place per day: {location:Ruby Lifeshrine}, {location:Greenscale Inn}, {location:Camp Nowhere}, {location:Temporal Conflux}.'
 L['bivigosas_blood_sausages_note'] = 'Purchase from {npc:188895} {title:<Food & Drink>} at {location:Gelikyr Post}.'
+L['rumiastrasza_note'] = '{note:Complete the daily questline starting at {quest:71238} from {location:Valdrakken}, otherwise the achievement cannot be completed.}'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Display food and drink locations for the {achievement:16621} achievement.'
 

@@ -306,6 +306,7 @@ L['arcanostabilized_provisions_note'] = '从 {location:拜荒者的未来} 内�
 L['steamed_scarab_steak_note'] = '从 {location:宁梦温泉} 的 {npc:197586} {title:<温泉调酒师>} 购买。'
 L['craft_creche_crowler_note'] = '从每日随机地图位置的 {npc:187444} {title:<旅行的巨龙陈酿商人>} 位于：{location:红玉新生圣地}、{location:绿鳞旅店}、{location:僻壤营地}、{location:时光流汇} 购买。'
 L['bivigosas_blood_sausages_note'] = '从 {location:格利基尔岗哨} 的 {npc:188895} {title:<食物和饮料>} 购买。'
+L['rumiastrasza_note'] = '{note:完成从 {location:瓦德拉肯} {quest:71238} 开始的日常任务线，否则无法完成成就。}'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = '显示 {achievement:16621} 成就中食物和饮料的位置。'
 

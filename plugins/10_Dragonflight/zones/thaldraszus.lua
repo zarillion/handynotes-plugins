@@ -816,7 +816,7 @@ map.nodes[50674562] = HemetNesingwaryJr({
 val.nodes[60921096] = Collectible({
     label = '{item:200904}',
     icon = 237358,
-    note = L['picante_pomfruit_cake_note'],
+    note = L['picante_pomfruit_cake_note'] .. '\n\n' .. L['rumiastrasza_note'],
     group = ns.groups.SPECIALTIES,
     parent = map.id,
     rewards = {Achievement({id = 16621, criteria = 55733})}
@@ -1089,7 +1089,7 @@ val.nodes[61261096] = Collectible({
     icon = 629060,
     parent = map.id,
     label = '{achievement:16556}',
-    note = L['ruby_feast_gourmand'],
+    note = L['ruby_feast_gourmand'] .. '\n\n' .. L['rumiastrasza_note'],
     rewards = {
         Achievement({
             id = 16556,

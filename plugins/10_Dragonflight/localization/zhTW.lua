@@ -306,6 +306,7 @@ L['arcanostabilized_provisions_note'] = '從在 {location:時光合流} 內的 {
 L['steamed_scarab_steak_note'] = '從在 {location:安詳夢境水療中心} 的 {npc:197586} {title:<水療中心酒保>} 處購買.'
 L['craft_creche_crowler_note'] = '從在每天地圖下列隨機位置 {location:晶紅生命聖殿}, {location:綠鱗旅店}, {location:穆斯提的大帳篷}, {location:時光合流} 的 {npc:187444} {title:<旅行龍釀商人>} 處購買.'
 L['bivigosas_blood_sausages_note'] = '從在 {location:蓋利奇爾崗哨} 的 {npc:188895} {title:<食物和飲料>} 處購買.'
+L['rumiastrasza_note'] = nil
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = '顯示成就 {achievement:16621} 所需的食物和飲料位置.'
 
