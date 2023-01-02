@@ -267,9 +267,9 @@ L['initiate_kittileg_note'] = 'Complete {quest:66226} to obtain the toy!'
 L['quackers_duck_trap_kit'] = 'To summon {npc:192557} you first need the {item:194740} which you can find in a nearby camp.\n\nTo make a {item:194712} you need the following materials:'
 L['quackers_spawn'] = 'Next you need to catch a duck near the nest with the {item:194712}. Use the {item:194739} at the {npc:192581} to summon {npc:192557}.'
 
-L['knew_you_nokhud_do_it_note'] = '{note:All 3 items are unique (you may only have one in your inventory) and have a 30 minute timer.}\n\nCollect {item:200184}, {item:200194}, and {item:200196} from various {npc:185357}, {npc:185353}, and {npc:185168} around {location:Nokhudon Hold}.\n\nCombine all 3 items to create {item:200201}, use it, and speak to {npc:197884} to begin the training course.\n\nUse your Extra Action Button to complete the course and earn your achievement.\n\n{note:Completing the achievement while in a raid during an Elemental Storm makes farming the items much easier.}'
+L['knew_you_nokhud_do_it_note'] = '{note:All 3 items are unique and have a 30 minute timer.}\n\nCollect {item:200184}, {item:200194}, and {item:200196} from various {npc:185357s}, {npc:185353s}, and {npc:185168s} around {location:Nokhudon Hold}.\n\nCombine them to create {item:200201} and use it to speak with {npc:197884} to begin the training course.\n\nUse your |cFFFFFD00Extra Action Button|r to complete it and earn your achievement.\n\n{note:Completing the achievement while in a raid during an Elemental Storm makes farming the items much easier.}'
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
-L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completing {achievement:16583}'
+L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completing {achievement:16583}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
