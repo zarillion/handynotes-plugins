@@ -268,6 +268,10 @@ L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir 
 L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en un campamento cercano.\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
 L['quackers_spawn'] = 'Ahora necesitas pillar un pato cerca del nido con la {item:194712}. Después usa el {item:194739} en el {npc:192581} para invocar a {npc:192557}.'
 
+L['knew_you_nokhud_do_it_note'] = nil
+L['options_icons_nokhud_do_it'] = '{achievement:16583}'
+L['options_icons_nokhud_do_it_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

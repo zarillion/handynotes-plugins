@@ -268,6 +268,10 @@ L['initiate_kittileg_note'] = 'Complétez {quest:66226} pour obtenir le jouet !'
 L['quackers_duck_trap_kit'] = 'Pour invoquer {npc:192557}, vous avez d\'abord besoin du {item:194740} que vous pouvez trouver dans un camp voisin.\n\nPour faire un {item:194712}, vous avez besoin des matériaux suivants :'
 L['quackers_spawn'] = 'Ensuite, vous devez attraper un canard près du nid avec le {item:194712}. Utilisez le {item:194739} au {npc:192581} pour invoquer {npc:192557}.'
 
+L['knew_you_nokhud_do_it_note'] = nil
+L['options_icons_nokhud_do_it'] = '{achievement:16583}'
+L['options_icons_nokhud_do_it_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

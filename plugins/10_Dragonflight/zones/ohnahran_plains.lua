@@ -35,6 +35,7 @@ local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Circle = ns.poi.Circle
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -1428,6 +1429,29 @@ map.nodes[54367534] = ElementalStorm({
     mapID = map.id,
     areaPOIs = {7225, 7226, 7227, 7228}
 }) -- Elemental Storm: Ohn'iri Springs
+
+-------------------------------------------------------------------------------
+--------------------------- KNEW YOU NOKHUD DO IT! ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34603468] = Collectible({
+    label = '{npc:197884}',
+    icon = 1103068,
+    note = L['knew_you_nokhud_do_it_note'],
+    group = ns.groups.NOKHUD_DO_IT,
+    rewards = {
+        Achievement({id = 16583}) -- Knew You Nokhud Do It!
+    },
+    pois = {
+        Path({Circle({origin = 34943880, radius = 2})}), -- Nokhudon Hold
+        Path({
+            34693453, 35263463, 35783477, 36133487, 36373508, 36973482,
+            37553460, 37813427, 37773397, 37353335, 37203289, 36813235,
+            36513218, 36153214, 35753226, 35343241, 35103236, 34973277,
+            34963336, 34833385, 34733415, 34693453
+        }) -- Training Course Path
+    }
+}) -- Training Master Turasa
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

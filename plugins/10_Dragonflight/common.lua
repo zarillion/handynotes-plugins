@@ -125,6 +125,11 @@ ns.groups.KITE = Group('kite', 133837, {
     type = ns.group_types.ACHIEVEMENT
 })
 
+ns.groups.NOKHUD_DO_IT = Group('nokhud_do_it', 1103068, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
 ns.groups.LEGENDARY_ALBUM = Group('legendary_album', 1109168, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT

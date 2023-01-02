@@ -261,6 +261,10 @@ L['initiate_kittileg_note'] = 'Schließe die Quest {quest:66226} ab, um das Spie
 L['quackers_duck_trap_kit'] = 'Um {npc:192557} zu rufen, benötigst du zuerst das {item:194740}, welches du in einem Lager in der Nähe findest.\n\nUm daraus eine {item:194712} zu bauen, benötigst du folgende Materialien:'
 L['quackers_spawn'] = 'Als nächstes musst du eine Ente mit der {item:194712} fangen, du findest einige in der Nähe des Nestes. Die {item:194739} kannst du dann bei {npc:192581} benutzen, um {npc:192557} zu rufen.'
 
+L['knew_you_nokhud_do_it_note'] = nil
+L['options_icons_nokhud_do_it'] = '{achievement:16583}'
+L['options_icons_nokhud_do_it_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

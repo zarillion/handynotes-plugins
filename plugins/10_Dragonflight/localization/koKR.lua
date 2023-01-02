@@ -262,6 +262,10 @@ L['initiate_kittileg_note'] = nil
 L['quackers_duck_trap_kit'] = nil
 L['quackers_spawn'] = nil
 
+L['knew_you_nokhud_do_it_note'] = nil
+L['options_icons_nokhud_do_it'] = '{achievement:16583}'
+L['options_icons_nokhud_do_it_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
