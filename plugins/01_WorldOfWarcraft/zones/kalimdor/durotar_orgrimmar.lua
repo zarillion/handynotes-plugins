@@ -53,7 +53,7 @@ map.nodes[48202680] = Safari.CreepyCrawly({
     }
 }) -- Creepy Crawly
 
-orgrimmar.nodes[53205880] = Safari.DungBeetle({
+orgrimmar.nodes[50607940] = Safari.DungBeetle({
     parent = map.id,
     pois = {
         POI({
@@ -142,7 +142,7 @@ valleyoftrials.nodes[34006300] = Safari.Hare({
     }
 }) -- Hare
 
-orgrimmar.nodes[59805000] = Safari.RoboChick({
+orgrimmar.nodes[39608300] = Safari.RoboChick({
     parent = map.id,
     pois = {
         POI({

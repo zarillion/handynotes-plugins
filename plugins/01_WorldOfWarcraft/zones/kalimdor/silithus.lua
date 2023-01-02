@@ -71,8 +71,7 @@ map.nodes[29601680] = Safari.ScarabHatchling({
     }
 }) -- Scarab Hatchling
 
-fallenkingdom.nodes[59402260] = Safari.ScarabHatchling({
-    parent = map.id,
+fallenkingdom.nodes[58001680] = Safari.ScarabHatchling({
     pois = {
         POI({
             40203060, 40403040, 40603020, 43603600, 46004760, 46202800,
@@ -113,8 +112,7 @@ map.nodes[42206840] = Safari.Sidewinder({
     }
 }) -- Sidewinder
 
-fallenkingdom.nodes[42206840] = Safari.Sidewinder({
-    parent = map.id,
+fallenkingdom.nodes[49001240] = Safari.Sidewinder({
     pois = {
         POI({
             40403040, 46004800, 47200840, 49001240, 50405420, 51403120,
