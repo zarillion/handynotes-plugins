@@ -476,8 +476,9 @@ map.nodes[30025534] = RareElite({
 
 map.nodes[33886446] = Rare({
     id = 193708,
-    note = L['skald_impaler_note'],
     quest = 74078,
+    label = L['large_lunker_sighting'],
+    note = L['large_lunker_sighting_note'],
     rewards = {Achievement({id = 16678, criteria = 56117})}
 }) -- Skald the Impaler
 

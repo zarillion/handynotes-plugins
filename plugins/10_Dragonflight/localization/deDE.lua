@@ -328,7 +328,6 @@ L['lepidoralia_note'] = 'Hilf {npc:193342} in der {location:Flatterkaverne} Höh
 L['obsidian_citadel_rare_note'] = 'Du und andere Spieler müssen insgesamt %dx {item:191264} bei %s abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der {location:Obsidianzitadelle} geplündert werden.'
 L['shadeslash_note'] = 'Klicke auf den {object:Gestohlener Fokus}, um den seltenen Gegner erscheinen zu lassen.'
 L['obsidian_throne_rare_note'] = 'Innerhalb des {location:Obsidianthron}.'
-L['skald_impaler_note'] = 'Benutze 5x {item:194701}, um den seltenen Gegner zu beschwören.'
 L['slurpo_snail_note'] = 'Plündere in einer Höhle im {location:Azurblauen Gebirge} (11.0, 41.4) aus einem {object:Salzkristall} ein {item:201033} und benutze ihn in dieser Höhle, um den seltenen Gegner erscheinen zu lassen.'
 L['worldcarver_atir_note'] = 'Sammle 3x {item:191211} von {npc:187366} in der Nähe und platziere diese beim {npc:197395}, um den seltenen Gegner erscheinen zu lassen.'
 

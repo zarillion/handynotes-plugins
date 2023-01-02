@@ -329,7 +329,6 @@ L['lepidoralia_note'] = '{location:요동치는 동굴} 내에 있음. {npc:1933
 L['obsidian_citadel_rare_note'] = '모든 플레이어들은 {item:191264} %d개를 %s에게 반납해야 합니다. 열쇠를 제작하는데 {item:191251} 30개와 {item:193201} 3개가 필요하며, 해당 아이템은 {location:흑요석 성채} 내 몹들에게서 획득할 수 있습니다.'
 L['shadeslash_note'] = nil
 L['obsidian_throne_rare_note'] = '{location:흑요석 왕좌} 내부에 있음.'
-L['skald_impaler_note'] = '레어를 소환하려면 {item:194701} 5개를 모아 사용하세요.'
 L['slurpo_snail_note'] = '{location:하늘빛 평원}의 동굴(11, 41)에서 {item:201033}을 습득하여 이 동굴 내에서 사용하면 소환됩니다.'
 L['worldcarver_atir_note'] = nil
 

@@ -335,7 +335,6 @@ L['lepidoralia_note'] = 'Está en la {location:Caverna del Aleteo}. Ayuda al {np
 L['obsidian_citadel_rare_note'] = 'Tú y otros jugadores teneis que devolver un total de %dx {item:191264} a %s. Para fabricar una llave necesitarás combinar 30x {item:191251} y 3x {item:193201}. Puedes conseguir estos objetos de los enemigos de la {location:Ciudadela Obsidiana}.'
 L['shadeslash_note'] = 'Haz click en el {object:Foco Birlado} para hacer aparecer al raro.'
 L['obsidian_throne_rare_note'] = 'Dentro del {location:Trono Obsidiana}.'
-L['skald_impaler_note'] = 'Usa 5x {item:194701} para invocar al raro.'
 L['slurpo_snail_note'] = 'Despoja un {item:201033} de una cueva en {location:Las Tierras Azures} (11, 41) y úsalo en esta cueva para invocar al raro.'
 L['worldcarver_atir_note'] = 'Recoge 3x {item:191211} del {npc:187366} cercano y ponlos en los {npc:197395} para hacer aparecer al raro.'
 

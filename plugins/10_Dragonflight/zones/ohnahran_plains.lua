@@ -387,6 +387,14 @@ map.nodes[90434005] = Rare({
     rewards = {Achievement({id = 16679, criteria = 56136})}
 }) -- Blightpaw the Depraved
 
+map.nodes[80817770] = Rare({
+    id = 197411,
+    quest = 74057,
+    label = L['large_lunker_sighting'],
+    note = L['large_lunker_sighting_note'],
+    rewards = {Achievement({id = 16678, criteria = 56130})}
+}) -- Astray Splasher
+
 -------------------------------------------------------------------------------
 
 -- These rares/elites are not part of the adventurer achievement for the zone

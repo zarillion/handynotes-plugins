@@ -334,7 +334,6 @@ L['lepidoralia_note'] = '在 {location:振翅洞穴}. 幫助 {npc:193342} 抓住
 L['obsidian_citadel_rare_note'] = '你或其他玩家必須要繳交總共 %d個 {item:191264} 給 %s. 要鑄造鑰匙你需要結合30個 {item:191251} 和3個 {item:193201}, 你可以在 {location:黑曜王座} 的怪物身上取得這些物品'
 L['shadeslash_note'] = '點選 {object:Pilfered Focus} 來召喚稀有'
 L['obsidian_throne_rare_note'] = '在 {location:黑曜王座} 內. '
-L['skald_impaler_note'] = '使用5個 {item:194701} 來召喚稀有'
 L['slurpo_snail_note'] = '在 {location:蒼藍高原} (11, 41) 的山洞拾取一個 {item:201033}並在此山洞使用來召喚他'
 L['worldcarver_atir_note'] = '從附近的 {npc:187366} 收集3個 {item:191211}, 並且將他們放置在 {npc:197395} 來召喚稀有'
 

@@ -273,6 +273,14 @@ map.nodes[47884976] = Rare({
     }
 }) -- Woolfang
 
+map.nodes[57366540] = Rare({
+    id = 197411,
+    quest = 74057,
+    label = L['large_lunker_sighting'],
+    note = L['large_lunker_sighting_note'],
+    rewards = {Achievement({id = 16678, criteria = 56130})}
+}) -- Astray Splasher
+
 -------------------------------------------------------------------------------
 
 -- These rares/elites are not part of the adventurer achievement for the zone
