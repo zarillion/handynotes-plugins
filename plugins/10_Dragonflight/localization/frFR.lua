@@ -268,9 +268,9 @@ L['initiate_kittileg_note'] = 'Complétez {quest:66226} pour obtenir le jouet !'
 L['quackers_duck_trap_kit'] = 'Pour invoquer {npc:192557}, vous avez d\'abord besoin du {item:194740} que vous pouvez trouver dans un camp voisin.\n\nPour faire un {item:194712}, vous avez besoin des matériaux suivants :'
 L['quackers_spawn'] = 'Ensuite, vous devez attraper un canard près du nid avec le {item:194712}. Utilisez le {item:194739} au {npc:192581} pour invoquer {npc:192557}.'
 
-L['knew_you_nokhud_do_it_note'] = nil
+L['knew_you_nokhud_do_it_note'] = '{note:Les 3 objets sont uniques (vous ne pouvez en avoir qu\'un seul dans votre inventaire) et ont une durée de vie de 30 minutes.}\n\nRécupérez {item:200184}, {item:200194}, et {item:200196} sur les {npc:185357}, {npc:185353}, et {npc:185168} situés au {location:Bastion Nokhudon}.\n\nCombinez les 3 objets pour créer une {item:200201}, utilise-la et parlez à la {npc:197884} pour commencer le programme de formation.\n\nUtilisez votre Bouton d\'action supplémentaire pour terminer le cours et obtenir votre haut-fait.\n\n{note:Compléter ce haut-fait en étant dans un groupe de raid pendant une Tempête élémentaire rend l\'obtention des objets beaucoup plus facile.}'
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
-L['options_icons_nokhud_do_it_desc'] = nil
+L['options_icons_nokhud_do_it_desc'] = 'Afficher des informations utiles pour obtenir le haut-fait {achievement:16583}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -311,7 +311,7 @@ L['arcanostabilized_provisions_note'] = 'Achetez auprès de {npc:198831} {title:
 L['steamed_scarab_steak_note'] = 'Achetez auprès de {npc:197586} {title:<Tavernière du spa>} au {location:Spa « Rêves sereins »}.'
 L['craft_creche_crowler_note'] = 'Achetez auprès de {npc:187444} {title:<Vendeur de breuvages draconiques itinérant>} étant situé dans ces zones aléatoires chaque jour : {location:Sanctuaire de l’Essence rubis}, {location:Auberge Vertécaille}, {location:Camp Nulle-Part}, {sanctuary:Confluence Temporelle}.'
 L['bivigosas_blood_sausages_note'] = 'Achetez auprès de l\'{npc:188895} {title:<Nourriture et boissons>} au {location:Poste Gelikyr}.'
-L['rumiastrasza_note'] = nil
+L['rumiastrasza_note'] = '{note:Terminez la suite de quêtes journalières commençant par {quest:71238} à {location:Valdrakken}, sinon le haut-fait ne pourra pas être accompli.}'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Afficher les emplacements des aliments et boissons pour le haut-fait {achievement:16621}.'
 
