@@ -1000,26 +1000,26 @@ ns.node.ElementalStorm = ElementalStorm
 
 hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
     if self and self.areaPoiID then
-        if ELEMENTAL_STORM_AREA_POIS[self.areaPoiID] ~= nil then
-            local mapID = self:GetMap().mapID
-            local type = ELEMENTAL_STORM_AREA_POIS[self.areaPoiID]
-            if ns.groups.ELEMENTAL_STORM:GetDisplay(ns.maps[mapID]) then
-                local rewards = {
-                    ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], -- Elemental Overload
-                    ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID][type], -- (Example: Thunderstorms in Thaldraszus)
-                    ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[type], -- Stormed Off (Storm type only)
-                    Spacer(), ELEMENTAL_STORM_PET_REWARDS[type], -- Echo of the...
-                    ELEMENTAL_STORM_FORMULA_REWARDS['all'], -- Design: Elemental Lariat
-                    ELEMENTAL_STORM_FORMULA_REWARDS[type] -- Formula: Illusion Primal...
-                }
-                GameTooltip:AddLine(' ') -- add blank line before rewards
-                for i, reward in ipairs(rewards) do
-                    if reward:IsEnabled() then
-                        reward:Render(GameTooltip)
-                    end
+        local mapID = self:GetMap().mapID
+        local group = ns.groups.ELEMENTAL_STORM
+        local stormType = ELEMENTAL_STORM_AREA_POIS[self.areaPoiID]
+
+        if stormType and group:GetDisplay(mapID) then
+            local rewards = {
+                ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], -- Elemental Overload
+                ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID][stormType], -- (Example: Thunderstorms in Thaldraszus)
+                ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType], -- Stormed Off (Storm type only)
+                Spacer(), ELEMENTAL_STORM_PET_REWARDS[stormType], -- Echo of the...
+                ELEMENTAL_STORM_FORMULA_REWARDS['all'], -- Design: Elemental Lariat
+                ELEMENTAL_STORM_FORMULA_REWARDS[stormType] -- Formula: Illusion Primal...
+            }
+            GameTooltip:AddLine(' ') -- add blank line before rewards
+            for i, reward in ipairs(rewards) do
+                if reward:IsEnabled() then
+                    reward:Render(GameTooltip)
                 end
-                GameTooltip:Show()
             end
+            GameTooltip:Show()
         end
     end
 end)
