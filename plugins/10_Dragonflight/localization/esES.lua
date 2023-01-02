@@ -268,9 +268,9 @@ L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir 
 L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en un campamento cercano.\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
 L['quackers_spawn'] = 'Ahora necesitas pillar un pato cerca del nido con la {item:194712}. Después usa el {item:194739} en el {npc:192581} para invocar a {npc:192557}.'
 
-L['knew_you_nokhud_do_it_note'] = nil
+L['knew_you_nokhud_do_it_note'] = '{note:Los 3 objetos son únicos y dejan de existir tras 30 minutos.}\n\nConsigue {item:200184}, {item:200194}, y {item:200196} de varios {npc:185357}, {npc:185353}, y {npc:185168} alrededor de {location:Bastión Nokhudon}.\n\nCombínalos para crear el {item:200201} y úsalo para hablar con {npc:197884} para comenzar el circuito de entrenamiento.\n\nUsa tu |cFFFFFD00Botón de Acción Extra|r para completarlo y conseguir el logro.\n\n{note:Completar el logro mientras estás en banda durante una Tormenta Elemental hace más fácil conseguir los objetos.}'
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
-L['options_icons_nokhud_do_it_desc'] = nil
+L['options_icons_nokhud_do_it_desc'] = 'Muestra información de ayuda para completar el logro {achievement:16583}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -311,7 +311,7 @@ L['arcanostabilized_provisions_note'] = 'Cómpraselo a {npc:198831} {title:<Chef
 L['steamed_scarab_steak_note'] = 'Cómpraselo a {npc:197586} {title:<Camarera de la sauna>} en la {location:Sauna de Sueños Serenos}.'
 L['craft_creche_crowler_note'] = 'Cómpraselo a {npc:187444} {title:<Vendedora ambulante de bebidas dracónicas>} en un mapa aleatorio cada día: {location:Vitasagrario Rubí}, {location:Posada de la Escama Verde}, {location:Campamento Desubicado}, {location:Confluencia Temporal}.'
 L['bivigosas_blood_sausages_note'] = 'Cómpraselo a {npc:188895} {title:<Alimentos y bebidas>} en el {location:Puesto Gelikyr}.'
-L['rumiastrasza_note'] = nil
+L['rumiastrasza_note'] = '{note:Completa la cadena de misiones diarias que empiezan con {quest:71238} en {location:Valdrakken} o de lo contrario, no se podrá completar el logro.}'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Muestra dónde están las comidas y bebidas para el logro {achievement:16621}.'
 
