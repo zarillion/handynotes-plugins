@@ -1065,7 +1065,7 @@ local Mythressa = Class('Mythressa', NPC, {
     rewards = {
         Achievement({id = 16502}), -- Storming the Runway
         Pet({item = 200173, id = 3287, note = 'x1000'}), -- Ghostflame
-        Pet({item = 200114, id = 3282, note = 'x1000'}), -- Stormie
+        Pet({item = 200114, id = 3382, note = 'x1000'}), -- Stormie
         Mount({item = 192775, id = 1622, note = 'x2000'}) -- Stormhide Salamanther
     }
 }) -- Mythressa <Apprentice Primal Researcher>
