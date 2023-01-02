@@ -89,32 +89,32 @@ L['options_icons_signal_transmitter_desc'] = 'Zeigt die Positionen der {object:D
 L['spawns_hourly'] = 'Erscheint nur einmal pro Stunde.'
 L['spawns_at_night'] = 'Erscheint nur nachts. (Ab 18:30 Server Zeit)'
 
-L['elemental_storm'] = nil
-L['elemental_storm_thunderstorm'] = nil
-L['elemental_storm_sandstorm'] = nil
-L['elemental_storm_firestorm'] = nil
-L['elemental_storm_snowstorm'] = nil
+L['elemental_storm'] = 'Elementarsturm'
+L['elemental_storm_thunderstorm'] = 'Gewittersturm'
+L['elemental_storm_sandstorm'] = 'Sandsturm'
+L['elemental_storm_firestorm'] = 'Feuersturm'
+L['elemental_storm_snowstorm'] = 'Schneesturm'
 
-L['elemental_storm_brakenhide_hollow'] = nil
-L['elemental_storm_cobalt_assembly'] = nil
-L['elemental_storm_dragonbane_keep'] = nil
-L['elemental_storm_imbu'] = nil
-L['elemental_storm_nokhudon_hold'] = nil
-L['elemental_storm_ohniri_springs'] = nil
-L['elemental_storm_primalist_future'] = nil
-L['elemental_storm_primalist_tomorrow'] = nil
-L['elemental_storm_scalecracker_keep'] = nil
-L['elemental_storm_slagmire'] = nil
-L['elemental_storm_tyrhold'] = nil
+L['elemental_storm_brakenhide_hollow'] = 'Brackenfellhöhle'
+L['elemental_storm_cobalt_assembly'] = 'Kobaltkonvent'
+L['elemental_storm_dragonbane_keep'] = 'Drachenfluchfestung'
+L['elemental_storm_imbu'] = 'Imbu'
+L['elemental_storm_nokhudon_hold'] = 'Festung Nokhudon'
+L['elemental_storm_ohniri_springs'] = 'Quellen von Ohn\'iri'
+L['elemental_storm_primalist_future'] = 'Die Zukunft der Primalisten'
+L['elemental_storm_primalist_tomorrow'] = 'Morgen der Primalisten' --
+L['elemental_storm_scalecracker_keep'] = 'Schuppenknackerfeste'
+L['elemental_storm_slagmire'] = 'Schlackensumpf'
+L['elemental_storm_tyrhold'] = 'Tyrhold'
 
-L['elemental_overflow_obtained_suffix'] = nil
-L['empowered_mobs_killed_suffix'] = nil
+L['elemental_overflow_obtained_suffix'] = 'Elementarüberfluss erlangt'
+L['empowered_mobs_killed_suffix'] = 'ermächtigte Kreaturen bezwungen'
 
-L['elemental_storm_mythressa_note_start'] = nil
-L['elemental_storm_mythressa_note_end'] = nil
+L['elemental_storm_mythressa_note_start'] = 'Tausche {currency:2118} gegen Ausrüstung, Haustiere oder ein Reittier ein.'
+L['elemental_storm_mythressa_note_end'] = 'Zurzeit hast du %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = nil
-L['options_icons_elemental_storm_desc'] = nil
+L['options_icons_elemental_storm'] = 'Elementarstürme'
+L['options_icons_elemental_storm_desc'] = 'Zeigt die möglichen Positionen der Elementarstürme an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -128,7 +128,7 @@ L['sharpfang_note'] = 'Hilf {npc:192747} dabei, drei {npc:192748s} zu besiegen, 
 L['spellwrought_snowman_note'] = 'Sammle 10x {npc:193424} und bringe diese zu {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Sammel ein {object:Singendes Bruchstück}, um den Schwächungszauber {spell:382076} zu erhalten und benutze dann {object:Ungeladener Fokus}.'
 
-L['breezebiter_note'] = 'Fliegt durch die Luft, um ihn herunterzuziehen, fliege dicht an ihm vorbei.'
+L['breezebiter_note'] = '{note:Erscheint in der Nähe vor einer Höhle.}\n\nFliegt durch die Luft, um ihn herunterzuziehen, fliege dicht an ihm vorbei.'
 
 L['forgotten_jewel_box_note'] = '{item:199065} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['gnoll_fiend_flail_note'] = '{item:199066} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
@@ -261,9 +261,9 @@ L['initiate_kittileg_note'] = 'Schließe die Quest {quest:66226} ab, um das Spie
 L['quackers_duck_trap_kit'] = 'Um {npc:192557} zu rufen, benötigst du zuerst das {item:194740}, welches du in einem Lager in der Nähe findest.\n\nUm daraus eine {item:194712} zu bauen, benötigst du folgende Materialien:'
 L['quackers_spawn'] = 'Als nächstes musst du eine Ente mit der {item:194712} fangen, du findest einige in der Nähe des Nestes. Die {item:194739} kannst du dann bei {npc:192581} benutzen, um {npc:192557} zu rufen.'
 
-L['knew_you_nokhud_do_it_note'] = nil
+L['knew_you_nokhud_do_it_note'] = '{note:Die drei Gegenstände sind einzigartig und bleiben nur 30 Minuten im Inventar.}\n\nErbeute einen {item:200184}, eine {item:200194} und einen {item:200196} von {npc:185357}, {npc:185353} oder {npc:185168} im Gebiet der {location:Festung Nokhudon}.\n\nKombiniere diese zu einer {item:200201} und benutze diese, um bei {npc:197884} den Trainingsparcours beginnen zu können.\n\nVerwende deinen |cFFFFFD00Zusätzlichen Aktionsbutton|r, um den Erfolg zu erringen.\n\n{note:Die drei Gegenstände zu erbeuten ist in einem Schlachtzug während eines Elementarsturms viel einfacher.}'
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
-L['options_icons_nokhud_do_it_desc'] = nil
+L['options_icons_nokhud_do_it_desc'] = 'Zeigt die Position für den Erfolg {achievement:16583} an.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -304,7 +304,7 @@ L['arcanostabilized_provisions_note'] = 'Kann von {npc:198831} beim {location:Te
 L['steamed_scarab_steak_note'] = 'Kann von {npc:197586} beim {location:Bad der Ruhigen Träume} gekauft werden.'
 L['craft_creche_crowler_note'] = 'Kann von {npc:187444} gekauft werden, der sich täglich an einem der folgenden Orte aufhält: {location:Temporaler Konflux}, {location:Rubinlebensschrein}, {location:Gasthaus zur Grünen Schuppe} oder dem {location:Lager im Nirgendwo}.'
 L['bivigosas_blood_sausages_note'] = 'Kann von {npc:188895} beim {location:Posten der Gelikyr} gekauft werden.'
-L['rumiastrasza_note'] = nil
+L['rumiastrasza_note'] =  '{note:Schließe die tägliche Questreihe angefangen mit der Quest {quest:71238} in {location:Valdrakken} ab, andernfalls kann der Erfolg nicht errungen werden.}'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Zeigt die Positionen für die Spezialitäten an Speis und Trank für den Erfolg {achievement:16621} an.'
 
