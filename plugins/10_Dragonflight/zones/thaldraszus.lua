@@ -164,7 +164,7 @@ map.nodes[59806100] = Rare({ -- reqired 67030
     quest = 69976,
     note = L['spawns_hourly'],
     rewards = {
-        Achievement({id = 16679, criteria = 56140})
+        Achievement({id = 16679, criteria = 56140}) --
     }
 }) -- Phenran
 
@@ -210,7 +210,7 @@ map.nodes[50005180] = Rare({ -- reqiured 67030 review
 map.nodes[37607780] = Rare({ -- reqiured 67030
     id = 193176,
     quest = 69859,
-    note = L['in_cave'] .. ' ' .. L['spawns_hourly'],
+    note = L['in_cave'] .. '\n\n' .. L['spawns_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56150}), --
         Toy({item = 200148}) -- A Collection Of Me
@@ -253,7 +253,7 @@ map.nodes[46267317] = Rare({
 map.nodes[35027001] = Rare({ -- reqiured 67030 review
     id = 193146,
     quest = 74036,
-    note = L['in_small_cave'] .. ' ' .. L['spawns_hourly'],
+    note = L['in_small_cave'] .. '\n\n' .. L['spawns_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56146}),
         Transmog({item = 200291, slot = L['leather']}) -- Waterlogged Racing Grips

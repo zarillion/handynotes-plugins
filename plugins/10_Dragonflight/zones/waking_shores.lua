@@ -93,7 +93,7 @@ map.nodes[28635882] = RareElite({
 map.nodes[52916529] = Rare({
     id = 192738,
     quest = 73890,
-    note = L['brundin_the_dragonbane_note'] .. ' ' .. L['spawns_hourly'],
+    note = L['brundin_the_dragonbane_note'] .. '\n\n' .. L['spawns_hourly'],
     rewards = {
         Achievement({id = 16676, criteria = 56038}),
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
