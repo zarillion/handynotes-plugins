@@ -304,7 +304,7 @@ L['arcanostabilized_provisions_note'] = 'Kann von {npc:198831} beim {location:Te
 L['steamed_scarab_steak_note'] = 'Kann von {npc:197586} beim {location:Bad der Ruhigen Träume} gekauft werden.'
 L['craft_creche_crowler_note'] = 'Kann von {npc:187444} gekauft werden, der sich täglich an einem der folgenden Orte aufhält: {location:Temporaler Konflux}, {location:Rubinlebensschrein}, {location:Gasthaus zur Grünen Schuppe} oder dem {location:Lager im Nirgendwo}.'
 L['bivigosas_blood_sausages_note'] = 'Kann von {npc:188895} beim {location:Posten der Gelikyr} gekauft werden.'
-L['rumiastrasza_note'] =  '{note:Schließe die tägliche Questreihe angefangen mit der Quest {quest:71238} in {location:Valdrakken} ab, andernfalls kann der Erfolg nicht errungen werden.}'
+L['rumiastrasza_note'] = '{note:Schließe die tägliche Questreihe angefangen mit der Quest {quest:71238} in {location:Valdrakken} ab, andernfalls kann der Erfolg nicht errungen werden.}'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Zeigt die Positionen für die Spezialitäten an Speis und Trank für den Erfolg {achievement:16621} an.'
 
