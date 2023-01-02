@@ -37,3 +37,7 @@ map.nodes[66605020] = Safari.MountainSkunk({
         })
     }
 }) -- Mountain Skunk
+
+map.nodes[66604400] = Safari.Squirrel({
+    pois = {POI({63404840, 66005060, 66604400, 67205260, 70404660})}
+}) -- Squirrel

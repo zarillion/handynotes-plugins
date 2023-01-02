@@ -63,7 +63,7 @@ map.nodes[29601680] = Safari.RockViper({
     }
 }) -- Rock Viper
 
-map.nodes[29601680] = Safari.ScarabHatchling({
+map.nodes[36808160] = Safari.ScarabHatchling({
     pois = {
         POI({
             33208520, 34408120, 34608500, 36808160, 36808500, 37607780, 40007960
@@ -72,6 +72,7 @@ map.nodes[29601680] = Safari.ScarabHatchling({
 }) -- Scarab Hatchling
 
 fallenkingdom.nodes[58001680] = Safari.ScarabHatchling({
+    parent = map.id,
     pois = {
         POI({
             40203060, 40403040, 40603020, 43603600, 46004760, 46202800,
@@ -113,6 +114,7 @@ map.nodes[42206840] = Safari.Sidewinder({
 }) -- Sidewinder
 
 fallenkingdom.nodes[49001240] = Safari.Sidewinder({
+    parent = map.id,
     pois = {
         POI({
             40403040, 46004800, 47200840, 49001240, 50405420, 51403120,
@@ -122,3 +124,19 @@ fallenkingdom.nodes[49001240] = Safari.Sidewinder({
         })
     }
 }) -- Sidewinder
+
+map.nodes[45403680] = Safari.SpikyLizard({
+    worldmap = 12,
+    pois = {
+        POI({
+            28403180, 32007420, 33602880, 36401820, 40202260, 40403400,
+            40803760, 41004720, 41202800, 41803100, 43003240, 43004500,
+            43602780, 43604520, 43803220, 45003620, 45403680, 46204320,
+            46404620, 46603760, 46803680, 47204040, 47404060, 48003420,
+            48204500, 48603500, 48603560, 48604540, 50407600, 53802580,
+            56005360, 57805680, 64004180, 65003920, 66002940, 66006380,
+            66206560, 66604260, 70203680, 71803340, 72403460, 73803180,
+            75802900, 78802240
+        })
+    }
+}) -- Spiky Lizard

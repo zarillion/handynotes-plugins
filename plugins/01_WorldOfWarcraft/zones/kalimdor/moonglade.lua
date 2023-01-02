@@ -20,3 +20,12 @@ local map = ns.Map({id = 80, settings = true})
 map.nodes[40206920] = Safari.SilkyMoth({
     pois = {POI({37806220, 40206920, 62204560})}
 }) -- Silky Moth
+
+map.nodes[40806380] = Safari.Squirrel({
+    pois = {
+        POI({
+            33405840, 35004000, 35405360, 35805140, 37204420, 40806380,
+            41204080, 41806080, 48006300, 48403140, 50406320
+        })
+    }
+}) -- Squirrel

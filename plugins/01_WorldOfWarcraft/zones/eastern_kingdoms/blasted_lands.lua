@@ -90,3 +90,7 @@ map.nodes[59806040] = Safari.Scorpling({
         })
     }
 }) -- Scorpling
+
+map.nodes[45407960] = Safari.Spider({
+    pois = {POI({39407460, 45407960, 61606540})}
+}) -- Spider

@@ -76,3 +76,12 @@ map.nodes[65405740] = Safari.RabidNutVarmint5000({
         })
     }
 }) -- Rabid Nut Varmint 5000
+
+map.nodes[56207200] = Safari.Spider({
+    pois = {
+        POI({
+            55007180, 55407480, 55607320, 56207200, 56207460, 56807320,
+            57007200, 57407420
+        })
+    }
+}) -- Spider

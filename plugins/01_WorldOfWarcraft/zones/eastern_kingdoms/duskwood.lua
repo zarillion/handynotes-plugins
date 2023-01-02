@@ -189,3 +189,12 @@ map.nodes[15002280] = Safari.SmallFrog({
         })
     }
 }) -- Small Frog
+
+map.nodes[44804100] = Safari.Squirrel({
+    pois = {
+        POI({
+            16602280, 17602260, 40201940, 44804100, 44804160, 47404000,
+            48404060, 62601660, 83001640
+        })
+    }
+}) -- Squirrel

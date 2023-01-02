@@ -96,3 +96,5 @@ undercity.nodes[68803680] = Safari.Roach({
         })
     }
 }) -- Roach
+
+map.nodes[82405680] = Safari.Spider({pois = {POI({82405680, 86204780})}}) -- Spider

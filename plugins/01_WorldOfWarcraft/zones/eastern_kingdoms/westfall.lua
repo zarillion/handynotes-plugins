@@ -96,3 +96,5 @@ map.nodes[43801720] = Safari.Snake({
         })
     }
 }) -- Snake
+
+map.nodes[53605180] = Safari.Squirrel({pois = {POI({53605180, 64402520})}}) -- Squirrel

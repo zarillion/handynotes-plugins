@@ -72,3 +72,12 @@ map.nodes[38407660] = Safari.ShimmershellSnail({
         })
     }
 }) -- Shimmershell Snail
+
+map.nodes[44405520] = Safari.Squirrel({
+    pois = {
+        POI({
+            39804700, 44208100, 44805120, 45003520, 47003160, 48002900,
+            50601940, 55202220, 56801840, 59601680, 60601380, 62602180, 63401900
+        })
+    }
+}) -- Squirrel

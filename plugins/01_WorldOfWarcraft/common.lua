@@ -691,78 +691,82 @@ ns.node.Safari = { -- Maybe add this to core later?
     SnowshoeHare = Class('SnowshoeHare', Safari, {
         id = 61755,
         rewards = {Achievement({id = 6586, criteria = 21652}), Pet({id = 640})}
-    }), -- TODO
+    }),
     SnowyOwl = Class('SnowyOwl', Safari, {
         id = 7554,
         rewards = {Achievement({id = 6585, criteria = 21757}), Pet({id = 69})}
-    }), -- TODO
+    }),
     SpawnOfOnyxia = Class('SpawnOfOnyxia', Safari, {
         id = 62201,
         rewards = {Achievement({id = 6585, criteria = 21721}), Pet({id = 489})}
-    }), -- TODO
+    }),
     Spider = Class('Spider', Safari, {
         id = 61327,
         rewards = {
             Achievement({id = 6585, criteria = 21521}),
-            Achievement({id = 6586, criteria = 21521}), Pet({id = 412})
+            Achievement({id = 6586, criteria = 21521}),
+            Achievement({id = 6588, criteria = 21521}), Pet({id = 412})
         }
-    }), -- TODO
+    }),
     SpikyLizard = Class('SpikyLizard', Safari, {
         id = 61441,
         rewards = {
             Achievement({id = 6585, criteria = 21619}),
             Achievement({id = 6586, criteria = 21619}), Pet({id = 433})
         }
-    }), -- TODO
+    }),
     SpinyLizard = Class('SpinyLizard', Safari, {
         id = 62114,
         rewards = {Achievement({id = 6585, criteria = 21720}), Pet({id = 466})}
-    }), -- TODO
+    }),
     SpiritCrab = Class('SpiritCrab', Safari, {
         id = 62034,
         rewards = {Achievement({id = 6586, criteria = 21648}), Pet({id = 463})}
-    }), -- TODO
+    }),
     SpottedBellFrog = Class('SpottedBellFrog', Safari, {
         id = 62370,
         rewards = {Achievement({id = 6585, criteria = 21756}), Pet({id = 502})}
-    }), -- TODO
+    }),
     Squirrel = Class('Squirrel', Safari, {
         id = 61081,
         rewards = {
             Achievement({id = 6585, criteria = 21522}),
-            Achievement({id = 6586, criteria = 21522}), Pet({id = 379})
+            Achievement({id = 6586, criteria = 21522}),
+            Achievement({id = 6587, criteria = 21522}),
+            Achievement({id = 6588, criteria = 21522}), Pet({id = 379})
         }
-    }), -- TODO
+    }), -- also in Terrokar Forest, Nagrand, Blades Edge Mountains, Outland; Crystalsong Forest, Howling Fjord, Sholzar Basin, Northrend; Drustvar, BFA; Highmountain, Legion; Spires of Arak, Nagrand, Draenor
     Stinkbug = Class('Stinkbug', Safari, {
         id = 62256,
         rewards = {Achievement({id = 6585, criteria = 21748}), Pet({id = 492})}
-    }), -- TODO
+    }),
     StoneArmadillo = Class('StoneArmadillo', Safari, {
         id = 62187,
         rewards = {Achievement({id = 6585, criteria = 21717}), Pet({id = 485})}
-    }), -- TODO
+    }),
     StormwindRat = Class('StormwindRat', Safari, {
         id = 62954,
         rewards = {Achievement({id = 6586, criteria = 21641}), Pet({id = 675})}
-    }), -- TODO
+    }),
     StrandCrab = Class('StrandCrab', Safari, {
         id = 61312,
         rewards = {
             Achievement({id = 6585, criteria = 21659}),
-            Achievement({id = 6586, criteria = 21659}), Pet({id = 401})
+            Achievement({id = 6586, criteria = 21659}),
+            Achievement({id = 6588, criteria = 21659}), Pet({id = 401})
         }
-    }), -- TODO
+    }), -- also in spires of arak, Draenor
     StripeTailedScorpid = Class('StripeTailedScorpid', Safari, {
         id = 61440,
         rewards = {
             Achievement({id = 6585, criteria = 21620}),
             Achievement({id = 6586, criteria = 21620}), Pet({id = 432})
         }
-    }), -- TODO
+    }), -- also in Terrokar Forest, Outland
     SwampMoth = Class('SwampMoth', Safari, {
         id = 61370,
         rewards = {Achievement({id = 6586, criteria = 21672}), Pet({id = 402})}
-    }), -- TODO
+    }),
     TaintedCockroach = Class('TaintedCockroach', Safari, {
         id = 62314,
         rewards = {Achievement({id = 6585, criteria = 21723}), Pet({id = 497})}
