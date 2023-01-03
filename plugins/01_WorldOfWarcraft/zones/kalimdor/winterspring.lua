@@ -161,3 +161,15 @@ map.nodes[57404600] = Safari.SnowyOwl({
         })
     }
 }) -- Snowy Owl
+
+-------------------------------------------------------------------------------
+------------------------------- CRAZY FOR CATS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[59925159] = ns.node.CrazyForCats({
+    id = 52830,
+    rewards = {
+        ns.reward.Achievement({id = 8397, criteria = 23595}),
+        ns.reward.Pet({item = 69239, id = 306})
+    }
+}) -- Michelle De Rum - Winterspring Cub

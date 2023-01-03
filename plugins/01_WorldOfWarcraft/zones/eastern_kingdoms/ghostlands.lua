@@ -78,3 +78,12 @@ map.nodes[14604640] = Safari.SpiritCrab({
         })
     }
 }) -- Spirit Crab
+
+map.nodes[69401580] = Safari.Toad({
+    pois = {
+        POI({
+            60800620, 65001100, 69401580, 69601540, 71602020, 73201420,
+            73406300, 75602060
+        })
+    }
+}) -- Toad

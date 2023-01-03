@@ -13,7 +13,7 @@ local POI = ns.poi.POI
 
 local map = ns.Map({id = 27, settings = true})
 local ironforge = ns.Map({id = 87, settings = true})
-local new_tinkertown = ns.Map({id = 30, settings = true})
+local new_tinkertown = ns.Map({id = 469, settings = true})
 local coldridge_valley = ns.Map({id = 427, settings = true})
 
 -------------------------------------------------------------------------------
@@ -128,3 +128,24 @@ coldridge_valley.nodes[62405020] = Safari.SnowCub({
     parent = map.id,
     pois = {POI({56002980, 62405020, 67605680})}
 }) -- Snow Cub
+
+
+-------------------------------------------------------------------------------
+------------------------------- CRAZY FOR CATS --------------------------------
+-------------------------------------------------------------------------------
+
+new_tinkertown.nodes[45605280] = ns.node.CrazyForCats({
+    parent = map.id,
+    id = 68838,
+    rewards = {
+        ns.reward.Achievement({id = 8397, criteria = 23585}),
+        ns.reward.Pet({id = 1162})
+    },
+    pois = {
+        POI({
+            44005340, 44205460, 44405400, 44805320, 45205120, 45205380,
+            45404980, 45405240, 45605020, 45605280, 45605380, 45805220,
+            45805560, 46005540, 46605440, 46605460, 46605560, 46805340, 47605360
+        })
+    }
+}) -- Fluxfire Feline

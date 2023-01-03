@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
 local Safari = ns.node.Safari
 
@@ -179,3 +180,37 @@ map.nodes[41608360] = Safari.StormwindRat({
         })
     }
 }) -- Stormwind Rat
+
+-------------------------------------------------------------------------------
+------------------------------- CRAZY FOR CATS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[44215344] = ns.node.CrazyForCats({
+    faction = 'Alliance',
+    id = 6367,
+    rewards = {
+        ns.reward.Achievement({
+            id = 8397,
+            criteria = {23587, 23578, 23582, 23592}
+        }), ns.reward.Pet({item = 8485, id = 40}),
+        ns.reward.Pet({item = 8486, id = 41}),
+        ns.reward.Pet({item = 8487, id = 43}),
+        ns.reward.Pet({item = 8488, id = 45})
+    }
+}) -- Donni Anthania - Cat Carrier (Bombay), Cat Carrier (Cornish Rex), Cat Carrier (Orange Tabby), Cat Carrier (Silver Tabby)
+
+stormwind.nodes[44215344] = ns.node.CrazyForCats({
+    parent = map.id,
+    faction = 'Alliance',
+    note = L['cfc_lil_timmy'],
+    id = 8666,
+    rewards = {
+        ns.reward.Achievement({
+            id = 8397,
+            criteria = {23587, 23578, 23582, 23592}
+        }), ns.reward.Pet({item = 8485, id = 40}),
+        ns.reward.Pet({item = 8486, id = 41}),
+        ns.reward.Pet({item = 8487, id = 43}),
+        ns.reward.Pet({item = 8488, id = 45})
+    }
+}) -- Lil Timmy - White Kitten

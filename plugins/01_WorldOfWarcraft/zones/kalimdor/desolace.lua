@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
 local Safari = ns.node.Safari
 
@@ -12,17 +13,25 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 66, settings = true})
+local wickedgrotto = ns.Map({id = 67, settings = true})
+local foulspore = ns.Map({id = 68, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[30806020] = Safari.AmethystShaleHatchling({
+map.nodes[29206256] = Safari.AmethystShaleHatchling({note = L['in_cave']}) -- Amethyst Shale Hatchling
+
+wickedgrotto.nodes[28302985] = Safari.AmethystShaleHatchling({
+    note = L['in_cave']
+}) -- Amethyst Shale Hatchling
+
+foulspore.nodes[45264885] = Safari.AmethystShaleHatchling({
     pois = {
         POI({
-            27805700, 27805780, 28805340, 29006140, 29006200, 29205600,
-            29405520, 29405680, 29405760, 29405860, 29605520, 29605740,
-            29605840, 29606120, 30005920, 30405960, 30806020
+            32414403, 32415046, 40441513, 42057937, 42058418, 43653600,
+            45262958, 45264243, 45264885, 45265688, 46862958, 46864725,
+            46865528, 46867776, 50076170, 53296491, 56506973
         })
     }
 }) -- Amethyst Shale Hatchling
@@ -218,3 +227,18 @@ map.nodes[67807340] = Safari.StoneArmadillo({
         })
     }
 }) -- Stone Armadillo
+
+map.nodes[28916256] = Safari.TopazShaleHatchling({note = L['in_cave']}) -- Topaz Shale Hatchling
+wickedgrotto.nodes[28005140] = Safari.TopazShaleHatchling({
+    pois = {
+        POI({
+            27405260, 27805360, 28005140, 30405780, 31206300, 51005440,
+            51606520, 51805400, 52006760, 57408280, 57807280, 58808760,
+            59807140, 60806520, 61006740, 61403380, 61806620, 62408940,
+            63405040, 63408660, 63608740, 64208620, 64804980, 64805280,
+            65205500, 65605540, 65805580, 66007460, 68801500, 69202720,
+            69602260, 70006040, 71801720, 72603260, 73403060, 74403440,
+            78404600, 79805120
+        })
+    }
+}) -- Topaz Shale Hatchling
