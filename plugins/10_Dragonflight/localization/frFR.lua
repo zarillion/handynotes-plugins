@@ -47,7 +47,7 @@ L['options_icons_disturbed_dirt_desc'] = 'Afficher les emplacements possibles de
 
 L['scout_pack'] = 'Paquetage d\'éclaireur de l\'expédition'
 L['options_icons_scout_pack'] = 'Paquetages d\'éclaireurs de l\'expédition'
-L['options_icons_scout_pack_desc'] = 'Affichez les emplacements possibles des {object:Paquetages d\'éclaireurs de l\'expédition}.'
+L['options_icons_scout_pack_desc'] = 'Afficher les emplacements possibles des {object:Paquetages d\'éclaireurs de l\'expédition}.'
 
 L['magicbound_chest'] = 'Coffre lié par magie'
 L['options_icons_magicbound_chest'] = 'Coffre lié par magie'
@@ -59,7 +59,7 @@ L['dr_note'] = 'Temps imparti :\n - Normal : %ss / %ss\n - Avancé : %ss / %ss'
 L['dr_note_dash'] = 'Temps imparti :\n - %ss / %ss'
 L['dr_bronze'] = '\n\nTerminez la course pour obtenir ' .. ns.color.Bronze('Bronze') .. '.'
 L['options_icons_dragonrace'] = 'Courses du Vol à dos de dragon'
-L['options_icons_dragonrace_desc'] = 'Afficher les emplacements des toute les courses dans la zone.'
+L['options_icons_dragonrace_desc'] = 'Afficher les emplacements de toutes les courses dans la zone.'
 
 L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:16729}'
@@ -74,7 +74,7 @@ L['options_icons_hemet_nesingwary_jr_desc'] = 'Afficher les emplacements d\'{npc
 L['pretty_neat_note'] = 'Prenez une photo avec l\'appareil P.R.O.F.I.L.'
 L['pretty_neat_note_blazewing'] = 'Peut être trouvé pendant le combat de boss contre la {npc:189901} dans le donjon {location:Neltharus}.'
 L['options_icons_pretty_neat'] = '{achievement:16446}'
-L['options_icons_pretty_neat_desc'] = 'Affichez les emplacements des oiseaux pour le haut-fait {achievement:16446}.'
+L['options_icons_pretty_neat_desc'] = 'Afficher les emplacements des oiseaux pour le haut-fait {achievement:16446}.'
 
 L['large_lunker_sighting'] = 'Coin de pêche rohart à gros malabar'
 L['large_lunker_sighting_note'] = 'Utilisez 5x {item:194701} pour invoquer soit un {npc:192919} soit un rare.'
@@ -167,11 +167,11 @@ L['snowclaw_cub_note_start'] = 'Vous devez terminer la suite de quêtes {quest:6
 L['snowclaw_cub_note_item1'] = 'Récupérez 3x {item:197744} sur divers {npc:182559} aux {location:Rivages de l’Éveil}.'
 L['snowclaw_cub_note_item2'] = 'Achetez 1x {item:198356} à la {npc:193310} aux {location:Rivages de l’Éveil}.'
 L['snowclaw_cub_note_end'] = [[
-{note:Tous les objets peuvent être achetés à l\'hôtel des ventes. Ceci est particulièrement utile si vous n\'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.}
+{note:Tous les objets peuvent être achetés à l'hôtel des ventes. Ceci est particulièrement utile si vous n'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.}
 
-Une fois le titre {title:Dryade honoraire} équipé, offrez les 4 objets à l\'{npc:196768} pour recevoir votre mascotte.
+Une fois le titre {title:Dryade honoraire} équipé, offrez les 4 objets à l'{npc:196768} pour recevoir votre mascotte.
 
-{bug:(BUG : Le titre est susceptible de disparaître, en attente d\'un correctif)}
+{bug:(BUG : Le titre est susceptible de disparaître, en attente d'un correctif)}
 ]]
 
 L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre {object:La tempête de mana pour les novices} pour terminer la quête.'
