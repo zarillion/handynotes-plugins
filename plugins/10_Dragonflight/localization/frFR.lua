@@ -326,7 +326,7 @@ L['ruby_feast_gourmand'] = 'Chaque jour, un chef invité au hasard sert des plat
 L['sorotis_note'] = 'Échangez vos {item:199906} pour obtenir de la réputation avec le {faction:2510}.'
 L['lillian_brightmoon_note'] = 'Echangez vos {item:201412} pour obtenir de la réputation avec l\'{faction:2507}.'
 
-L['chest_of_the_elements'] = nil
+L['chest_of_the_elements'] = 'Coffre des éléments'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
