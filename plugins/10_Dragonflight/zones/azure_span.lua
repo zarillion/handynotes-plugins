@@ -1324,6 +1324,7 @@ map.nodes[66333211] = Collectible({
 
 map.nodes[45635482] = Collectible({
     label = '{item:200949}',
+    note = L['the_great_shellkhan_note'],
     icon = 133920,
     quest = 72110,
     rewards = {
