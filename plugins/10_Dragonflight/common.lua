@@ -910,7 +910,7 @@ local ELEMENTAL_STORM_BOSS_ACHIEVEMENTS = {
 local ELEMENTAL_STORM_PET_REWARDS = {
     ['thunderstorm'] = Pet({
         item = 200263,
-        id = 3310,
+        id = 3382,
         note = L['elemental_storm_thunderstorm']
     }), -- Echo of the Heights
     ['sandstorm'] = Pet({
