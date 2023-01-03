@@ -411,6 +411,7 @@ tpf.nodes[56007870] = ns.node.ElementalChest({
     quest = 70750,
     parent = map.id,
     label = L['chest_of_the_elements'],
+    note = L['in_cave'],
     rewards = {
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 199906}), -- Centaur Hunting Trophy
@@ -419,8 +420,9 @@ tpf.nodes[56007870] = ns.node.ElementalChest({
         Item({item = 198407, note = L['trinket']}), -- Azure Arcanic Amplifier
         Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
         Transmog({item = 201444, slot = L['1h_sword']}) -- Primal Revenant's Earthblade
-    }
-}) -- Chest of the Flood
+    },
+    pois = {POI({29282604})} -- Entrance
+}) -- Chest of the Elements
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
