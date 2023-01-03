@@ -207,7 +207,7 @@ L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la d
 L['eaglemaster_niraak_note'] = 'Tuez les {npc:186295s} et {npc:186299s} proches pour faire apparaître le rare.'
 L['hunter_of_the_deep_note'] = 'Cliquez sur le râtelier d\'armes et tirez sur les poissons jusqu\'à ce que le rare apparaisse.'
 L['porta_the_overgrown_note'] = 'Trouvez 5x {item:194426} au fond du lac à l\'ouest, puis répandez la terre sur les {npc:191953} pour faire apparaître le rare.'
-L['scaleseeker_mezeri_note'] = 'Offrez un {item:194681} à {npc:193224} et suivez-la jusqu\'à ce qu\'elle révèle le rare.'
+L['scaleseeker_mezeri_note'] = 'Offrez un {item:194681} à {npc:193224} et suivez-la jusqu\'à ce qu\'elle révèle le rare.\n\n{note:{npc:190315} au {location:Guet des Trois-Cascades} à la {location:Travée d\'Azur} est la vendeuse la plus proche.}'
 L['shade_of_grief_note'] = 'Cliquez sur la {npc:193166} pour faire apparaître le rare.'
 L['windscale_the_stormborn_note'] = 'Tuez les {npc:192367s} canalisant dans l\'{npc:192357}.'
 L['zarizz_note'] = 'Cliquez et {emote:/siffler} les quatre {npc:193169s} pour invoquer le rare.'
@@ -282,7 +282,7 @@ L['ancient_protector_note'] = 'Tuez des {npc:193244} proches pour obtenir {item:
 L['blightpaw_note'] = 'Parlez à l\'{npc:193222} à proximité et acceptez de l\'aider.'
 L['corrupted_proto_dragon_note'] = 'Examinez l\'{object:Oeuf de dragon corrompu} pour faire apparaître le rare.'
 L['lord_epochbrgl_note'] = 'Cliquez sur la {npc:193257} pour faire apparaître le rare.'
-L['the_great_shellkhan_note'] = nil
+L['the_great_shellkhan_note'] = 'Récupérez une {item:200949} à l\'{location:Anse-aux-Loupiotes de Kauriq} à la {location:Travée d\'Azur}, retournez voir la {npc:191416} en moins de 3 minutes pour rendre l\'objet afin d\'activer le rare et obtenir le haut-fait. \n\n{note:Un personnage par semaine seulement peut ramasser et rapporter l\'objet, après quoi la {npc:191416} se contentera de vous remercier.}'
 L['weeping_vilomah_note'] = 'Parlez à {npc:193206} pour invoquer le rare.'
 L['woofang_note'] = 'Caressez {npc:193156} pour faire apparaître le rare.'
 
