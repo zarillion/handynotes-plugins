@@ -399,6 +399,7 @@ map.nodes[59405520] = Rare({
     quest = 73900,
     rewards = {
         Achievement({id = 16678, criteria = 56097}),
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Item({item = 200859, note = L['trinket']}) -- Seasoned Hunter's Trophy
     }
@@ -420,7 +421,7 @@ map.nodes[28564743] = Rare({
             28564743, 28304800, 27944822, 26974854, 26364841, 26074796,
             25824706, 25764642, 26134540, 26374491, 27124437, 27554428,
             28164470, 28614643, 28564743
-        })
+        }), POI({29804622}) -- Cave
     }
 }) -- Breezebiter
 
