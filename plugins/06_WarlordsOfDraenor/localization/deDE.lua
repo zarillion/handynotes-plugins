@@ -387,12 +387,12 @@ L['offering_to_the_raven_mother_treasure'] = 'Opfergabe an die Rabenmutter'
 
 L['elixir_of_shadow_sight_treasure'] = 'Elixier der Schattensicht'
 L['elixir_pre_note'] = 'Bringe es zu einem {object:Terokkschrein}.'
-L['elixir_01_note'] = nil
-L['elixir_02_note'] = nil
-L['elixir_03_note'] = nil
-L['elixir_04_note'] = nil
-L['elixir_05_note'] = nil
-L['elixir_06_note'] = nil
+L['elixir_01_note'] = 'Hängt in einem Korb neben einer Hütte.'
+L['elixir_02_note'] = 'In einem Korb innerhalb einer brennenden Hütte.'
+L['elixir_03_note'] = 'In einem Korb zwischen einem Baum und einer kaputten Mauer.'
+L['elixir_04_note'] = 'In einer Saberon Höhle.'
+L['elixir_05_note'] = 'Oben auf dem Berg, neben dem toten Körper eines {npc:83633}. Nachdem Sie den großen Bergpfad hinaufgegangen sind, suchen Sie nach einem weiteren {npc:83633}, der an Ketten zwischen zwei Bäumen hängt. Das Elixier befindet sich hinter den Hügeln, neben dem Baum auf der rechten Seite.'
+L['elixir_06_note'] = 'Im Wasser, am Ende einer kleineren, zerbrochenen Mauer.'
 
 L['gift_of_anzu_treasure'] = 'Geschenk Anzus'
 
@@ -411,12 +411,12 @@ Interagiere mit {npc:85992}, um zufällig einen von drei Stärkungszaubern zu er
 
 L['leorajh_follower_note'] = 'Sprich mit ihm, um ihn als Anhänger zu rekrutieren.'
 
-L['options_icons_archaeology_treasure'] = nil
-L['options_icons_archaeology_treasure_desc'] = nil
-L['options_icons_offering'] = nil
-L['options_icons_offering_desc'] = nil
-L['options_icons_shrines_of_terokk'] = nil
-L['options_icons_shrines_of_terokk_desc'] = nil
+L['options_icons_archaeology_treasure'] = 'Archäologie Schätze'
+L['options_icons_archaeology_treasure_desc'] = 'Zeigt die Positionen von Archäoligie Schätzen an.'
+L['options_icons_offering'] = 'Opfergabe an die Rabenmutterd'
+L['options_icons_offering_desc'] = 'Zeigt die Positionen der {object:Opfergabe an die Rabenmutter}'
+L['options_icons_shrines_of_terokk'] = 'Terokkschreine'
+L['options_icons_shrines_of_terokk_desc'] = 'Zeigt die Positionen der {object:Terokkschreine}.'
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = 'Zeigt die Position von Gegenständen für den Erfolg {achievement:9432} an.'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
