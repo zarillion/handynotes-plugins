@@ -282,7 +282,7 @@ L['ancient_protector_note'] = 'Tuez des {npc:193244} proches pour obtenir {item:
 L['blightpaw_note'] = 'Parlez à l\'{npc:193222} à proximité et acceptez de l\'aider.'
 L['corrupted_proto_dragon_note'] = 'Examinez l\'{object:Oeuf de dragon corrompu} pour faire apparaître le rare.'
 L['lord_epochbrgl_note'] = 'Cliquez sur la {npc:193257} pour faire apparaître le rare.'
-L['the_great_shellkhan_note'] = 'Récupérez une {item:200949} à l\'{location:Anse-aux-Loupiotes de Kauriq} à la {location:Travée d\'Azur}, retournez voir la {npc:191416} en moins de 3 minutes pour rendre l\'objet afin d\'activer le rare et obtenir le haut-fait. \n\n{note:Un personnage par semaine seulement peut ramasser et rapporter l\'objet, après quoi la {npc:191416} se contentera de vous remercier.}'
+L['the_great_shellkhan_note'] = 'Récupérez une {item:200949} à l\'{location:Anse-aux-Loupiotes de Kauriq} à la {location:Travée d\'Azur}, retournez voir la {npc:191416} en moins de 3 minutes pour rendre l\'objet afin d\'activer le rare et obtenir le haut-fait. \n\n{note:Assurez-vous que la {npc:191416} et {npc:191305} sont bien là avant de commencer. Un personnage par semaine seulement peut ramasser et rapporter l\'objet pour activer le rare, après quoi la {npc:191416} se contentera de vous remercier.}'
 L['weeping_vilomah_note'] = 'Parlez à {npc:193206} pour invoquer le rare.'
 L['woofang_note'] = 'Caressez {npc:193156} pour faire apparaître le rare.'
 
