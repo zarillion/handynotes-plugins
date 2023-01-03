@@ -281,6 +281,7 @@ L['ancient_protector_note'] = '殺掉附近的 {npc:193244} 來取得 {item:1977
 L['blightpaw_note'] = '和附近的 {npc:193222} 交談並同意幫助他.'
 L['corrupted_proto_dragon_note'] = '和 {object:腐化的龍蛋} 互動來召喚稀有'
 L['lord_epochbrgl_note'] = '點擊 {npc:193257} 來刷新稀有'
+L['the_great_shellkhan_note'] = nil
 L['weeping_vilomah_note'] = '和 {npc:193206} 對話來召喚稀有'
 L['woofang_note'] = '撫摸 {npc:193156} 來召喚稀有.'
 

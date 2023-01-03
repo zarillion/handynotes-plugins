@@ -281,6 +281,7 @@ L['ancient_protector_note'] = 'Kill nearby {npc:193244} to get {item:197708}. Co
 L['blightpaw_note'] = 'Talk to {npc:193222} nearby and agree to help him.'
 L['corrupted_proto_dragon_note'] = 'Inspect the {object:Corrupted Dragon Egg} to spawn the rare.'
 L['lord_epochbrgl_note'] = 'Click {npc:193257} to spawn the rare.'
+L['the_great_shellkhan_note'] = 'Collect {item:200949} from {location:Kauriq Gleamlet} in {location:The Azure Span}, back to {npc:191416} within 3 minutes to return the item to activate rare and get the achievement. \n\n{note:One character can only pick up and return item once a week, after which {npc:191416} will only thank you.}'
 L['weeping_vilomah_note'] = 'Talk to {npc:193206} to summon the rare.'
 L['woofang_note'] = 'Pet {npc:193156} to spawn the rare.'
 

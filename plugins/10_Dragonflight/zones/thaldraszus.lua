@@ -233,8 +233,10 @@ map.nodes[47207895] = Rare({ -- review -- reqiured 67030
 map.nodes[38466826] = Rare({
     id = 191305,
     quest = 74085,
+    note = L['the_great_shellkhan_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56155}), --
+        Achievement({id = 16622}), -- Three Minutes or It's Free
         Toy({item = 200999}) -- The Super Shellkhan Gang
     }
 }) -- The Great Shellkhan

@@ -282,6 +282,7 @@ L['ancient_protector_note'] = 'Tuez des {npc:193244} proches pour obtenir {item:
 L['blightpaw_note'] = 'Parlez à l\'{npc:193222} à proximité et acceptez de l\'aider.'
 L['corrupted_proto_dragon_note'] = 'Examinez l\'{object:Oeuf de dragon corrompu} pour faire apparaître le rare.'
 L['lord_epochbrgl_note'] = 'Cliquez sur la {npc:193257} pour faire apparaître le rare.'
+L['the_great_shellkhan_note'] = nil
 L['weeping_vilomah_note'] = 'Parlez à {npc:193206} pour invoquer le rare.'
 L['woofang_note'] = 'Caressez {npc:193156} pour faire apparaître le rare.'
 

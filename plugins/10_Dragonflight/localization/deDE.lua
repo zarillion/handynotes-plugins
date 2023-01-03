@@ -275,6 +275,7 @@ L['ancient_protector_note'] = 'Töte {npc:193244} in der Nähe, um 5x {item:1977
 L['blightpaw_note'] = 'Sprich mit {npc:193222} in der Nähe und stimme zu, ihm zu helfen.'
 L['corrupted_proto_dragon_note'] = 'Untersuche das {object:Verderbte Drachenei}, um den seltenen Gegner erscheinen zu lassen.'
 L['lord_epochbrgl_note'] = 'Klicke den {npc:193257} an, um den seltenen Gegner erscheinen zu lassen.'
+L['the_great_shellkhan_note'] = nil
 L['weeping_vilomah_note'] = 'Sprich mit {npc:193206}, um den seltenen Gegner erscheinen zu lassen.'
 L['woofang_note'] = 'Streichel {npc:193156}, um den seltenen Gegner erscheinen zu lassen.'
 

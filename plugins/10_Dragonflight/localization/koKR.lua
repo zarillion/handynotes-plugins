@@ -276,6 +276,7 @@ L['ancient_protector_note'] = nil
 L['blightpaw_note'] = nil
 L['corrupted_proto_dragon_note'] = nil
 L['lord_epochbrgl_note'] = nil
+L['the_great_shellkhan_note'] = nil
 L['weeping_vilomah_note'] = nil
 L['woofang_note'] = nil
 

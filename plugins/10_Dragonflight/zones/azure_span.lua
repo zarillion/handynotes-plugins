@@ -1320,6 +1320,17 @@ map.nodes[66333211] = Collectible({
     pois = {POI({66453173})}
 }) -- Tome of Polymorph: Duck
 
+------------------- ACHIEVEMENT: THREE MINUTES OR IT'S FREE -------------------
+
+map.nodes[45635482] = Collectible({
+    label = '{item:200949}',
+    icon = 133920,
+    quest = 72110,
+    rewards = {
+        Item({item = 200949}) -- Case of Fresh Gleamfish
+    }
+}) -- Case of Fresh Gleamfish
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[12404920] = NPC({

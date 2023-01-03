@@ -282,6 +282,7 @@ L['ancient_protector_note'] = 'Mata a una {npc:193244} cercana para conseguir un
 L['blightpaw_note'] = 'Habla con el {npc:193222} y acepta ayudarle.'
 L['corrupted_proto_dragon_note'] = 'Inspecciona el {object:Huevo de Dragón Corrupto} para hacer aparecer al raro.'
 L['lord_epochbrgl_note'] = 'Haz click en la {npc:193257} para hacer aparecer al raro.'
+L['the_great_shellkhan_note'] = nil
 L['weeping_vilomah_note'] = 'Habla con {npc:193206} para invocar al raro.'
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
 
