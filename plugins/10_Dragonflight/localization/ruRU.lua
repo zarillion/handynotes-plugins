@@ -105,7 +105,7 @@ L['elemental_storm_ohniri_springs'] = 'Ключи Он\'ир'
 L['elemental_storm_primalist_future'] = 'Временной перекресток'
 L['elemental_storm_primalist_tomorrow'] = 'Будущее воинов стихий'
 L['elemental_storm_scalecracker_keep'] = 'Пик Расколотой Чешуи'
-L['elemental_storm_slagmire'] = nil
+L['elemental_storm_slagmire'] = 'Шлаковая топь'
 L['elemental_storm_tyrhold'] = 'Тирхолд'
 
 L['elemental_overflow_obtained_suffix'] = nil
