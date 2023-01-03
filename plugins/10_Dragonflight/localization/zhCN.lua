@@ -281,7 +281,7 @@ L['ancient_protector_note'] = '击杀附近的 {npc:193244} 以获得 {item:1977
 L['blightpaw_note'] = '与附近的 {npc:193222} 交谈并同意帮助他。'
 L['corrupted_proto_dragon_note'] = '调查 {object:腐化的龙蛋} 后稀有出现。'
 L['lord_epochbrgl_note'] = '点击 {npc:193257} 后稀有出现。'
-L['the_great_shellkhan_note'] = '从 {location:碧蓝林海} 的 {location:考里克闪光河湾} 拾取 {item:200949}，3分钟内回到 {npc:191416} 交还物品激活稀有并获得成就。\n\n{note:一个角色每周只能拾取并交还一次物品，之后 {npc:191416} 只会对你表示感谢。}'
+L['the_great_shellkhan_note'] = '从 {location:碧蓝林海} 的 {location:考里克闪光河湾} 拾取 {item:200949}，3分钟内回到 {npc:191416} 交还物品激活稀有并获得成就。\n\n{note:在开始前确保 {npc:191416} 和 {npc:191305} 确实存在。一个角色每周只能拾取并交还一次物品，之后 {npc:191416} 只会对你表示感谢。}'
 L['weeping_vilomah_note'] = '和 {npc:193206} 对话召唤稀有。'
 L['woofang_note'] = '抚摸 {npc:193156} 稀有出现。'
 
