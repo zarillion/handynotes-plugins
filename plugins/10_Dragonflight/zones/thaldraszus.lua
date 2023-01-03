@@ -407,8 +407,8 @@ val.nodes[09535629] = Treasure({
 
 -------------------------------------------------------------------------------
 
-tpf.nodes[56007870] = ns.node.ElementalChest({
-    quest = 70750,
+tpf.nodes[28002590] = ns.node.ElementalChest({
+    quest = 71995,
     parent = map.id,
     label = L['chest_of_the_elements'],
     note = L['in_cave'],
