@@ -117,9 +117,9 @@ L['elemental_storm_mythressa_note_end'] = 'Actualmente tienes %s {currency:2118}
 L['options_icons_elemental_storm'] = 'Tormentas Elementales'
 L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las Tormentas Elementales.'
 
-L['rostrum_of_transformation_note'] = nil
+L['rostrum_of_transformation_note'] = 'Personaliza la apariencia de tu draco usando el |cFF00CCFFManuscrito de Dracovigía|r encontrado por las {location:Islas Dragón}.'
 L['options_icons_rostrums'] = '{npc:198464}'
-L['options_icons_rostrums_desc'] = nil
+L['options_icons_rostrums_desc'] = 'Muestra dónde están los {npc:198464}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
