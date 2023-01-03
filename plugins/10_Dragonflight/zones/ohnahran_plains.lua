@@ -532,6 +532,22 @@ map.nodes[51985839] = Treasure({
 }) -- Yennu's Boat
 
 -------------------------------------------------------------------------------
+
+map.nodes[56007870] = ns.node.ElementalChest({
+    quest = 71033,
+    label = L['chest_of_the_flood'],
+    rewards = {
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 200093}), -- Centaur Hunting Trophy
+        Item({item = 190454}), -- Primal Chaos
+        Item({item = 198542, note = L['trinket']}), -- Shikaari Huntress' Arrowhead
+        Item({item = 198539, note = L['trinket']}), -- Breath of the Plains
+        Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
+        Transmog({item = 201442, slot = L['1h_sword']}) -- Primal Revenant's Frostblade
+    }
+}) -- Chest of the Flood
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -1307,7 +1323,7 @@ map.nodes[26604460] = Safari({
     }
 }) -- Ironbeak Duck
 
-map.nodes[56007860] = Safari({
+map.nodes[55407440] = Safari({
     id = 189122,
     rewards = {Achievement({id = 16519, criteria = 55652}), Pet({id = 3296})},
     pois = {

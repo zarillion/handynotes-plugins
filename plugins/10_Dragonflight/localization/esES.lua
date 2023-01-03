@@ -272,6 +272,8 @@ L['knew_you_nokhud_do_it_note'] = '{note:Los 3 objetos son únicos y dejan de ex
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
 L['options_icons_nokhud_do_it_desc'] = 'Muestra información de ayuda para completar el logro {achievement:16583}.'
 
+L['chest_of_the_flood'] = 'Cofre de la inundación'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -323,6 +325,8 @@ L['ruby_feast_gourmand'] = 'Cada día, un invitado chef al azar sirve distintos 
 
 L['sorotis_note'] = 'Entrega {item:199906} para conseguir reputación con {faction:2510}.'
 L['lillian_brightmoon_note'] = 'Entrega {item:201412} para conseguir reputación con {faction:2507}.'
+
+L['chest_of_the_elements'] = 'Cofre de los elementos'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

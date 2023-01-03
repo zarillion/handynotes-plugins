@@ -620,6 +620,17 @@ local Safari = Class('Safari', Collectible,
 ns.node.Safari = Safari
 
 -------------------------------------------------------------------------------
+------------------------------ ELEMENTAL CHESTS -------------------------------
+-------------------------------------------------------------------------------
+
+local ElementalChest = Class('ElementalChest', ns.node.Treasure, {
+    icon = 'chest_rd', -- temporary, maybe change it to different icon?
+    rlabel = '(' .. L['weekly'] .. ')' -- tried to make it react to the quest, couldnt get it to work
+})
+
+ns.node.ElementalChest = ElementalChest
+
+-------------------------------------------------------------------------------
 ------------------------------ ELEMENTAL STORMS -------------------------------
 -------------------------------------------------------------------------------
 

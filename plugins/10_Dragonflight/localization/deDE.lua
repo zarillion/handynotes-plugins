@@ -265,6 +265,8 @@ L['knew_you_nokhud_do_it_note'] = '{note:Die drei Gegenstände sind einzigartig 
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
 L['options_icons_nokhud_do_it_desc'] = 'Zeigt die Position für den Erfolg {achievement:16583} an.'
 
+L['chest_of_the_flood'] = 'Truhe der Flut'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -316,6 +318,8 @@ L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschieden
 
 L['sorotis_note'] = 'Tausche {item:199906} gegen Ruf beim {faction:2510} ein.'
 L['lillian_brightmoon_note'] = 'Tausche {item:201412} gegen Ruf bei der |cFFFFFF00Drachenschuppenexpedition|r ein.'
+
+L['chest_of_the_elements'] = 'Truhe der Elemente'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

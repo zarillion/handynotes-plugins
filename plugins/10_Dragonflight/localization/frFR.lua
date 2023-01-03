@@ -272,6 +272,8 @@ L['knew_you_nokhud_do_it_note'] = '{note:Les 3 objets sont uniques (vous ne pouv
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
 L['options_icons_nokhud_do_it_desc'] = 'Afficher des informations utiles pour obtenir le haut-fait {achievement:16583}.'
 
+L['chest_of_the_flood'] = 'Coffre du déluge'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -323,6 +325,8 @@ L['ruby_feast_gourmand'] = 'Chaque jour, un chef invité au hasard sert des plat
 
 L['sorotis_note'] = 'Échangez vos {item:199906} pour obtenir de la réputation avec le {faction:2510}.'
 L['lillian_brightmoon_note'] = 'Echangez vos {item:201412} pour obtenir de la réputation avec l\'{faction:2507}.'
+
+L['chest_of_the_elements'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

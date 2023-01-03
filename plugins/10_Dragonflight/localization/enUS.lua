@@ -271,6 +271,8 @@ L['knew_you_nokhud_do_it_note'] = '{note:All 3 items are unique and have a 30 mi
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
 L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completing {achievement:16583}.'
 
+L['chest_of_the_flood'] = 'Chest of the Flood'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -322,6 +324,8 @@ L['ruby_feast_gourmand'] = 'Every day, a random guest chef serves up different d
 
 L['sorotis_note'] = 'Exchange {item:199906} for {faction:2510} reputation.'
 L['lillian_brightmoon_note'] = 'Exchange {item:201412} for {faction:2507} reputation.'
+
+L['chest_of_the_elements'] = 'Chest of the Elements'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

@@ -404,6 +404,23 @@ val.nodes[09535629] = Treasure({
 }) -- Tasty Hatchling's Treat
 
 -------------------------------------------------------------------------------
+
+tpf.nodes[56007870] = ns.node.ElementalChest({
+    quest = 70750,
+    parent = map.id,
+    label = L['chest_of_the_elements'],
+    rewards = {
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 199906}), -- Centaur Hunting Trophy
+        Item({item = 190454}), -- Primal Chaos
+        Item({item = 198451, note = L['trinket']}), -- Lifeflame Ampoule
+        Item({item = 198407, note = L['trinket']}), -- Azure Arcanic Amplifier
+        Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
+        Transmog({item = 201444, slot = L['1h_sword']}) -- Primal Revenant's Earthblade
+    }
+}) -- Chest of the Flood
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
