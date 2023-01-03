@@ -275,7 +275,7 @@ L['ancient_protector_note'] = 'Töte {npc:193244} in der Nähe, um 5x {item:1977
 L['blightpaw_note'] = 'Sprich mit {npc:193222} in der Nähe und stimme zu, ihm zu helfen.'
 L['corrupted_proto_dragon_note'] = 'Untersuche das {object:Verderbte Drachenei}, um den seltenen Gegner erscheinen zu lassen.'
 L['lord_epochbrgl_note'] = 'Klicke den {npc:193257} an, um den seltenen Gegner erscheinen zu lassen.'
-L['the_great_shellkhan_note'] = 'Hole {item:200949} von {location:Kauriqweiler} in {location:Das Azurblaue Gebirge}, bringe es innerhalb von 3 Minuten zurück zu {npc:191416} um den seltenen Gegner zu aktivieren und den Erfolg zu erhalten.\n\n{note:Sieh vorher anch ob {npc:191416} und {npc:191305} bevor du startest. Pro Woche kann nur ein Charakter den Gegenstand zurückbringen und {npc:191305} aktivieren, danach wird sich {npc:191416} nur bei dir bedanken.}'
+L['the_great_shellkhan_note'] = 'Hole eine {item:200949} von {location:Kauriqweiler} in {location:Das Azurblaue Gebirge} und bringe es zu {npc:191416}, um den seltenen Gegner zu aktivieren (innerhalb von 3 Minuten, um den Erfolg zu erhalten).\n\n{note:Sieh vorher nach, ob {npc:191416} und {npc:191305} da sind, bevor du startest. Pro Woche kann nur ein Charakter den Gegenstand zurückbringen und {npc:191305} aktivieren, danach wird sich {npc:191416} nur bei dir bedanken.}'
 L['weeping_vilomah_note'] = 'Sprich mit {npc:193206}, um den seltenen Gegner erscheinen zu lassen.'
 L['woofang_note'] = 'Streichel {npc:193156}, um den seltenen Gegner erscheinen zu lassen.'
 

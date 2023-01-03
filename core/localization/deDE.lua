@@ -153,11 +153,11 @@ L['options_all_transmog_rewards_desc'] = 'Zeigt Vorlagenbelohnungen an, die nur 
 
 L['options_icons_misc_desc'] = 'Zeigt die Positionen von anderen nicht kategorisierten Punkten an.'
 L['options_icons_misc'] = 'Sonstiges'
-L['options_icons_pet_battles_desc'] = 'Zeigt Standorte von Kampfhaustiertrainern und NPCs an.'
+L['options_icons_pet_battles_desc'] = 'Zeigt die Positionen von Kampfhaustiertrainern und NPCs an.'
 L['options_icons_pet_battles'] = 'Kampfhaustiere'
 L['options_icons_rares_desc'] = 'Zeigt die Positionen von seltenen Gegnern an.'
 L['options_icons_rares'] = 'Seltene Gegner'
-L['options_icons_treasures_desc'] = 'Zeigt die Standorte versteckter Schätze an.'
+L['options_icons_treasures_desc'] = 'Zeigt die Positionen versteckter Schätze an.'
 L['options_icons_treasures'] = 'Schätze'
 
 ---------------------------------- FOCUS ---------------------------------
