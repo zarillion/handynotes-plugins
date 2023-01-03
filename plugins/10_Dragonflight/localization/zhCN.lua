@@ -116,9 +116,9 @@ L['elemental_storm_mythressa_note_end'] = '目前有 %s {currency:2118}。'
 L['options_icons_elemental_storm'] = '元素风暴'
 L['options_icons_elemental_storm_desc'] = '显示元素风暴奖励。'
 
-L['rostrum_of_transformation_note'] = nil
+L['rostrum_of_transformation_note'] = '使用遍布 {location:巨龙群岛} 的 |cFF00CCFF观龙者手稿|r 定制幼龙外观。'
 L['options_icons_rostrums'] = '{npc:198464}'
-L['options_icons_rostrums_desc'] = nil
+L['options_icons_rostrums_desc'] = '显示 {npc:198464} 的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
