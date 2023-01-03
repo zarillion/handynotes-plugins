@@ -4,7 +4,7 @@ if not L then return end
 
 L['area_spawn'] = 'Erscheint im umliegenden Gebiet.'
 
-L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE Kampfhaustiere).'
+L['squirrels_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden (KEINE Kampfhaustiere).'
 L['options_icons_squirrels'] = 'Ob groß, ob klein, ...'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für die "Ob groß, ob klein, ..." Erfolge an.'
 
