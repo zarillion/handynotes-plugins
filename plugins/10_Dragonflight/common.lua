@@ -625,7 +625,13 @@ ns.node.Safari = Safari
 
 local ElementalChest = Class('ElementalChest', ns.node.Treasure, {
     icon = 'chest_rd', -- temporary, maybe change it to different icon?
-    rlabel = '(' .. L['weekly'] .. ')' -- tried to make it react to the quest, couldnt get it to work
+    getters = {
+        rlabel = function(self)
+            local completed = C_QuestLog.IsQuestFlaggedCompleted(self.quest[1])
+            local color = completed and ns.status.Green or ns.status.Gray
+            return color(L['weekly'])
+        end
+    }
 })
 
 ns.node.ElementalChest = ElementalChest
