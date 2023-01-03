@@ -22,6 +22,7 @@ local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
+local RostrumOfTransformation = ns.node.RostrumOfTransformation
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
@@ -1458,6 +1459,12 @@ map.nodes[54367534] = ElementalStorm({
     mapID = map.id,
     areaPOIs = {7225, 7226, 7227, 7228}
 }) -- Elemental Storm: Ohn'iri Springs
+
+-------------------------------------------------------------------------------
+-------------------------- ROSTRUM OF TRANSFORMATION --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[84643555] = RostrumOfTransformation({minimap = false}) -- Rostrum of Transformation
 
 -------------------------------------------------------------------------------
 --------------------------- KNEW YOU NOKHUD DO IT! ----------------------------

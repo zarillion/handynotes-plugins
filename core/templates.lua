@@ -99,7 +99,9 @@ function WorldMapOptionsButtonMixin:AddGroupButton(group, level)
         end
     end
 
-    if type(icon) == 'number' then
+    if type(icon) == 'table' then
+        iconLink = ns.GetAtlasLink(icon, 16) .. ' '
+    elseif type(icon) == 'number' then
         iconLink = ns.GetIconLink(icon, 12, 1, 0) .. ' '
     else
         iconLink = ns.GetIconLink(icon, 16)

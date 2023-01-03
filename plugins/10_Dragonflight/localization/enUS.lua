@@ -116,6 +116,10 @@ L['elemental_storm_mythressa_note_end'] = 'You currently have %s {currency:2118}
 L['options_icons_elemental_storm'] = 'Elemental Storms'
 L['options_icons_elemental_storm_desc'] = 'Display rewards for Elemental Storms.'
 
+L['rostrum_of_transformation_note'] = 'Customize your the appearance of your drake using |cFF00CCFFDrakewatcher Manuscript|r found around the {location:Dragon Isles}.'
+L['options_icons_rostrums'] = '{npc:198464}'
+L['options_icons_rostrums_desc'] = 'Display locations for {npc:198464}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

@@ -24,6 +24,7 @@ local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
+local RostrumOfTransformation = ns.node.RostrumOfTransformation
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
@@ -1111,6 +1112,13 @@ function Mythressa.getters:note()
 end
 
 val.nodes[38113773] = Mythressa()
+
+-------------------------------------------------------------------------------
+-------------------------- ROSTRUM OF TRANSFORMATION --------------------------
+-------------------------------------------------------------------------------
+
+val.nodes[25245033] =
+    RostrumOfTransformation({minimap = false, parent = map.id}) -- Rostrum of Transformation
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

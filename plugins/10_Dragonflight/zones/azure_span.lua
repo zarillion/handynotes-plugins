@@ -24,6 +24,7 @@ local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
+local RostrumOfTransformation = ns.node.RostrumOfTransformation
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
@@ -1230,6 +1231,12 @@ map.nodes[58506660] = ElementalStorm({
     mapID = map.id,
     areaPOIs = {7237, 7238, 7239, 7240}
 }) -- Elemental Storm: Imbu
+
+-------------------------------------------------------------------------------
+-------------------------- ROSTRUM OF TRANSFORMATION --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[63611321] = RostrumOfTransformation({minimap = false}) -- Rostrum of Transformation
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

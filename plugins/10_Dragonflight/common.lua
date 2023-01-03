@@ -57,6 +57,15 @@ ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.ROSTRUMS = Group('rostrums', {
+    icon = 'interface\\minimap\\objecticonsatlas.blp',
+    size = 1024,
+    left = 211,
+    right = 243,
+    top = 753,
+    bottom = 785
+}, {defaults = ns.GROUP_HIDDEN, type = ns.group_types.EXPANSION})
+
 ns.groups.SCOUT_PACK = Group('scout_pack', 4562583, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -367,6 +376,27 @@ ns.DRAGON_CUSTOMIZATIONS = {
         ManedNeck = Item({item = 197023, quest = 69223})
     }
 }
+
+-------------------------------------------------------------------------------
+-------------------------- ROSTRUM OF TRANSFORMATION --------------------------
+-------------------------------------------------------------------------------
+
+local RostrumOfTransformation = Class('RostrumOfTransformation', ns.node.NPC, {
+    id = 198464,
+    icon = {
+        icon = 'interface\\minimap\\objecticonsatlas.blp',
+        size = 1024,
+        left = 211,
+        right = 243,
+        top = 753,
+        bottom = 785
+    },
+    scale = 1.8,
+    group = ns.groups.ROSTRUMS,
+    note = L['rostrum_of_transformation_note']
+}) -- Rostrum of Transformation
+
+ns.node.RostrumOfTransformation = RostrumOfTransformation
 
 -------------------------------------------------------------------------------
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------

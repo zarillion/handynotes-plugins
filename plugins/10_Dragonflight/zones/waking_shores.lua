@@ -24,6 +24,7 @@ local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
+local RostrumOfTransformation = ns.node.RostrumOfTransformation
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
@@ -1736,6 +1737,12 @@ map.nodes[64712635] = ElementalStorm({
     mapID = map.id,
     areaPOIs = {7257, 7258, 7259, 7260}
 }) -- Elemental Storm: Scalecracker Keep
+
+-------------------------------------------------------------------------------
+-------------------------- ROSTRUM OF TRANSFORMATION --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[74035813] = RostrumOfTransformation({minimap = false}) -- Rostrum of Transformation
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

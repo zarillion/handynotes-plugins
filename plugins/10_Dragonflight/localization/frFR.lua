@@ -117,6 +117,10 @@ L['elemental_storm_mythressa_note_end'] = 'Vous avez actuellement %s {currency:2
 L['options_icons_elemental_storm'] = 'Tempêtes élémentaires'
 L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les Tempêtes élementaires.'
 
+L['rostrum_of_transformation_note'] = nil
+L['options_icons_rostrums'] = '{npc:198464}'
+L['options_icons_rostrums_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

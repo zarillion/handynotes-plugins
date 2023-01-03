@@ -95,8 +95,17 @@ ns.icons = { -- name => path
 ------------------------------- HELPER FUNCTIONS ------------------------------
 -------------------------------------------------------------------------------
 
+local function GetNormalizedAtlas(icon)
+    icon.tCoordLeft = icon.left / icon.size
+    icon.tCoordRight = icon.right / icon.size
+    icon.tCoordTop = icon.top / icon.size
+    icon.tCoordBottom = icon.bottom / icon.size
+    return icon
+end
+
 local function GetIconPath(name)
     if type(name) == 'number' then return name end
+    if type(name) == 'table' then return GetNormalizedAtlas(name) end
     local info = ns.icons[name]
     return info and info[1] or DEFAULT_ICON
 end
@@ -109,6 +118,14 @@ local function GetIconLink(name, size, offsetX, offsetY)
     return link .. '|t'
 end
 
+local function GetAtlasLink(name, size)
+    local link = '|T' .. name.icon .. ':' .. size .. ':' .. size
+    link = link .. ':::' .. name.size .. ':' .. name.size
+    link = link .. ':' .. name.left .. ':' .. name.right
+    link = link .. ':' .. name.top .. ':' .. name.bottom
+    return link .. '|t'
+end
+
 local function GetGlowPath(name)
     if type(name) == 'number' then return DEFAULT_GLOW end
     local info = ns.icons[name]
@@ -117,4 +134,5 @@ end
 
 ns.GetIconLink = GetIconLink
 ns.GetIconPath = GetIconPath
+ns.GetAtlasLink = GetAtlasLink
 ns.GetGlowPath = GetGlowPath

@@ -116,6 +116,10 @@ L['elemental_storm_mythressa_note_end'] = '目前有 %s {currency:2118}。'
 L['options_icons_elemental_storm'] = '元素风暴'
 L['options_icons_elemental_storm_desc'] = '显示元素风暴奖励。'
 
+L['rostrum_of_transformation_note'] = nil
+L['options_icons_rostrums'] = '{npc:198464}'
+L['options_icons_rostrums_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
