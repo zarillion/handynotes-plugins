@@ -1,3 +1,11 @@
+# v29
+
+* Added some missing Astray Splasher spawns.
+* Added the Three Minutes or It's Free achievement.
+* Added the training course location for Knew You Nokhud Do It.
+* Added weekly elemental chest locations.
+* Fixed a bug when hovering over primal storms with "Use Map Settings" enabled.
+
 # v28
 
 * Reorganized the map menu to better display groups.
