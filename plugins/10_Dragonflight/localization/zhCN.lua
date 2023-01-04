@@ -439,16 +439,16 @@ L['shyfly_note'] = '必须在任务 {quest:70853} 中才能看到 {npc:189102}�
 
 L['cataloger_jakes_note'] = '用 {item:192055} 换取 {faction:2507} 声望。'
 
-L['snack_attack_suffix'] = nil
-L['snack_attack_note'] = nil
+L['snack_attack_suffix'] = '零食喂给“牛肉”'
+L['snack_attack_note'] = '收集 {npc:195806} 并喂食给 {npc:194922} 20次。\n\n{note:不需要在一次围攻中完成。}'
 L['options_icons_snack_attack'] = '{achievement:16410}'
-L['options_icons_snack_attack_desc'] = nil
+L['options_icons_snack_attack_desc'] = '显示 {achievement:16410} 成就中 {npc:195806} 的位置。'
 
-L['loyal_magmammoth_step_1'] = nil
-L['loyal_magmammoth_step_2'] = nil
-L['loyal_magmammoth_step_3'] = nil
-L['loyal_magmammoth_true_friend'] = nil
-L['loyal_magmammoth_wrathion_quatermaster_note'] = nil
-L['loyal_magmammoth_sabellian_quatermaster_note'] = nil
-L['loyal_magmammoth_harness_note'] = nil
-L['loyal_magmammoth_taming_note'] = nil
+L['loyal_magmammoth_step_1'] = '第1步'
+L['loyal_magmammoth_step_2'] = '第2步'
+L['loyal_magmammoth_step_3'] = '第3步'
+L['loyal_magmammoth_true_friend'] = '挚友'
+L['loyal_magmammoth_wrathion_quatermaster_note'] = '从 {npc:199020} 或 {npc:188625} 购买 {item:201840} ' .. ns.color.Gold('（800 金币）') .. '。'
+L['loyal_magmammoth_sabellian_quatermaster_note'] = '从 {npc:199036} 或 {npc:188623} 购买 {item:201839} ' .. ns.color.Gold('（800 金币）') .. '。'
+L['loyal_magmammoth_harness_note'] = '从 {npc:191135} 购买 {item:201837}。'
+L['loyal_magmammoth_taming_note'] = '在骑乘 {npc:198150} 时使用 {item:201837} 获得坐骑！\n\n{note:报告表明可能只能驾驭在 {location:燃烧高地} 中找到的 {npc:198150}。}'
