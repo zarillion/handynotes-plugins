@@ -440,16 +440,16 @@ L['shyfly_note'] = 'Vous devez avoir la quête {quest:70853} pour voir les {npc:
 
 L['cataloger_jakes_note'] = 'Échangez vos {item:192055} pour obtenir de la réputation avec l\'{faction:2507}.'
 
-L['snack_attack_suffix'] = nil
-L['snack_attack_note'] = nil
+L['snack_attack_suffix'] = 'en-cas donnés à Bœuf'
+L['snack_attack_note'] = 'Ramassez des {npc:195806s} et nourrissez {npc:194922} 20 fois.\n\n{note:Cette étape ne nécessite pas d\'être terminée au cours d\'un seul siège.}'
 L['options_icons_snack_attack'] = '{achievement:16410}'
-L['options_icons_snack_attack_desc'] = nil
+L['options_icons_snack_attack_desc'] = 'Afficher les emplacements des {npc:195806} pour le haut-fait {achievement:16410}.'
 
-L['loyal_magmammoth_step_1'] = nil
-L['loyal_magmammoth_step_2'] = nil
-L['loyal_magmammoth_step_3'] = nil
-L['loyal_magmammoth_true_friend'] = nil
-L['loyal_magmammoth_wrathion_quatermaster_note'] = nil
-L['loyal_magmammoth_sabellian_quatermaster_note'] = nil
-L['loyal_magmammoth_harness_note'] = nil
-L['loyal_magmammoth_taming_note'] = nil
+L['loyal_magmammoth_step_1'] = 'Étape 1'
+L['loyal_magmammoth_step_2'] = 'Étape 2'
+L['loyal_magmammoth_step_3'] = 'Étape 3'
+L['loyal_magmammoth_true_friend'] = 'Amitié sincère'
+L['loyal_magmammoth_wrathion_quatermaster_note'] = 'Achetez les {item:201840} ' .. ns.color.Gold('(800 po)') .. ' à {npc:199020} ou {npc:188625}.'
+L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Achetez les {item:201839} ' .. ns.color.Gold('(800 po)') .. ' à {npc:199036} ou {npc:188623}.'
+L['loyal_magmammoth_harness_note'] = 'Achetez le {item:201837} à {npc:191135}.'
+L['loyal_magmammoth_taming_note'] = 'Utilisez le {item:201837} tout en chevauchant un {npc:198150} pour obtenir votre monture !\n\n{note:Il a été signalé qu\'il ne serait apparemment possible d\'harnacher qu\'un seul {npc:198150}, trouvé dans l\'{location:Éminence Ardente}.}'
