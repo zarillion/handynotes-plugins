@@ -17,7 +17,7 @@ L['multiple_spawn_note'] = 'Kann an mehreren Positionen erscheinen.'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = 'Zeigt die Positionen der Kostüme für den Erfolg {achievement:10053} an.'
 
-L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE Kampfhaustiere).'
+L['squirrels_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden (KEINE Kampfhaustiere).'
 L['options_icons_squirrels'] = '{achievement:14728}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:14728} an.'
 
@@ -34,7 +34,7 @@ L['fen_tao_follower_note'] = 'Sprich mit ihm, um ihn als Anhänger zu rekrutiere
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = ns.color.Red('Nicht töten!') .. '\n\nTöte stattdessen Oger in der Nähe und verfüttere sie an {npc:72156}. Nach 10 Ogern wird er einen |cffffff00Devourer\'s Gutstone\r ausspucken.'
+L['borrok_the_devourer_note'] = '{note:Nicht töten!}\n\nTöte stattdessen Oger in der Nähe und verfüttere sie an {npc:72156}. Nach 10 Ogern wird er einen {object:Devourer\'s Gutstone} ausspucken.'
 L['gibblette_the_cowardly_note'] = 'Unterbreche {spell:175415} oder er wird aus dem Kampf fliehen und verschwinden.'
 
 L['arena_masters_war_horn_treasure'] = 'Kriegshorn des Arenameisters'
@@ -100,7 +100,7 @@ L['gronnstalker_rokash_follower_note'] = 'Schließe die Quest {quest:32981} ab, 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Zeigt die Positionen für {npc:82833} für den Erfolg {achievement:9531} an.'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Zeigt die Positionen für {npc:82680} und |cffffff00Gefangenenkäfige|r für den Erfolg {achievement:9533} an.'
+L['options_icons_breaker_of_chains_desc'] = 'Zeigt die Positionen für {npc:82680} und {object:Gefangenenkäfige} für den Erfolg {achievement:9533} an.'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = 'Zeigt die Positionen der Köstlichkeiten für den Erfolg {achievement:9534} an.'
 
@@ -142,9 +142,9 @@ L['weapons_cache_treasure'] = 'Waffenständer'
 L['ninja_pepe_note'] = 'Im Inneren der Hütte auf einem Stuhl.'
 L['ninja_pepe_treasure'] = 'Pepe der Ninja'
 
-L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r und |cffffff00{npc:86257}|r formen den |cffffff00Beschützer des Hains|r.'
+L['protectors_of_the_grove_sublabel'] = '{npc:86259}, {npc:86258} und {npc:86257} formen den {object:Beschützer des Hains}.'
 
-L['prove_your_strength_note'] = 'Benötigt die Garnisionsfähigkeit {spell:164012} von der Übungsarena damit die Gegenstände fallen gelassen werden. Für die |cffffff00Übungsarena|r besuche den Fraktionsaußenposten (46.1 69.7).'
+L['prove_your_strength_note'] = 'Benötigt die Garnisionsfähigkeit {spell:164012} von der Übungsarena damit die Gegenstände fallen gelassen werden. Für die {location:Übungsarena} besuche den Fraktionsaußenposten (46.1 69.7).'
 L['prove_your_strength_drop_single'] = 'Geplündert von %s.'
 L['prove_your_strength_drop_double'] = 'Geplündert von %s oder %s.'
 
@@ -167,7 +167,7 @@ L['options_icons_prove_your_strength_desc'] = 'Zeigt die Positionen der zu plün
 L['fangler_note'] = 'Verwende die Angelrute.'
 L['berserk_t_300_series_mark_ii_note'] = 'Benutze den Schalter.'
 L['graveltooth_note'] = 'Töte {npc:84255} bis {npc:84263} erscheint.'
-L['gorepetal_note'] = 'In einer Höhle.\n\nErscheint nicht auf der Minimap. Du musst die Makellose Lilie anklicken damit {npc:83509} erscheint.'
+L['gorepetal_note'] = 'In einer Höhle.\n\nErscheint nicht auf der Minimap. Du musst die {object:Makellose Lilie} anklicken damit {npc:83509} erscheint.'
 L['sean_whitesea_note'] = 'Öffne die Zurückgelassene Truhe damit {npc:83542} erscheint.'
 
 L['a_pile_of_dirt_treasure'] = 'Ein Haufen Dreck'
@@ -220,30 +220,30 @@ L['warsong_supplies_treasure'] = 'Vorräte des Kriegshymnenklans'
 L['watertight_bag_treasure'] = 'Wasserdichter Sack'
 L['spirit_coffer_treasure'] = 'Geistertruhe'
 L['spirits_gift_treasure'] = 'Geistergabe'
-L['spirits_gift_treasure_note'] = 'Entzünde alle 6 vergessenen Kohlepfannen um den Schatz erscheinen zu lassen.'
+L['spirits_gift_treasure_note'] = 'Entzünde alle 6 {object:vergessenen Kohlepfannen}, um den Schatz erscheinen zu lassen.'
 
 L['viking_pepe_note'] = 'Sitzt auf einer Kiste hinter ein paar Goblins mit einer Discokugel.'
 L['viking_pepe_treasure'] = 'Pepe der Wikinger'
 
 L['highmaul_farm_path'] = [[
 Farming Path
-1. Beginne am Eingangstor und gehen nach rechts zu |cffffff00Die Innerei|r.
+1. Beginne am Eingangstor und gehen nach rechts zu {location:Die Innerei}.
 2. Gehe nach links durch den Bereich der Gladiatorengrube. Achte auf, den Oger oben links.
 3. Gehe die Treppe hinauf und an dem Teich mit dem {npc:87227} vorbei.
-4. Biege links ab und gehe hinauf zu |cffffff00Der Pfad der Sieger|r.
+4. Biege links ab und gehe hinauf zu {location:Der Pfad der Sieger}.
 5. Gehe bis zur Gabelung des Pfades. Achte darauf, den Oger auf der rechten Seite zu markieren.
-6. Gehe nach links in das |cffffff00Marktviertel|r und töte alles gegen den Uhrzeigersinn.
-7. Gehe nach links in |cffffff00Die Gunst des Kaisers|r, folge weiter dem Weg und töte alles.
-8. Wieder nach links, den Pfad hinunter, und zurück in |cffffff00Der Pfad der Sieger|r.
-9. Steige auf und fliege nach oben, über und in |cffffff00Das Kolosseum|r. Versuche nicht die Vordertür zu benutzen, sie ist verschlossen.
+6. Gehe nach links in das {location:Marktviertel} und töte alles gegen den Uhrzeigersinn.
+7. Gehe nach links in {location:Die Gunst des Kaisers}, folge weiter dem Weg und töte alles.
+8. Wieder nach links, den Pfad hinunter, und zurück in {location:Der Pfad der Sieger}.
+9. Steige auf und fliege nach oben, über und in {location:Das Kolosseum}. Versuche nicht die Vordertür zu benutzen, sie ist verschlossen.
 
 Fliege nach rechts zum Eingangstor hinaus. Ein einziger Durchlauf dauert knapp 4 Minuten, und wenn du wieder am Eingangstor ankommst, ist alles wieder da.
 ]]
 
-L['steamwheedle_note'] = 'Sammel {item:118099} und {item:118100} von {npc:87223} und {npc:87222} rund um |cffffff00Hochfels|r. Tausch diese bei {npc:87393} für Ruf ein.'
+L['steamwheedle_note'] = 'Sammel {item:118099} und {item:118100} von {npc:87223} und {npc:87222} rund um {location:Hochfels}. Tausch diese bei {npc:87393} für Ruf ein.'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
-L['finding_your_waystones_note'] = 'Sammel {item:117491} von {npc:87223} und {npc:87222} rund um |cffffff00Hochfels|r.'
+L['finding_your_waystones_note'] = 'Sammel {item:117491} von {npc:87223} und {npc:87222} rund um {location:Hochfels}.'
 L['ogre_waystones'] = 'Ogerportalsteine geplündert'
 
 L['signal_horn_note'] = 'Erhalte die {item:120290} von {npc:86658} in der Nähe und benutze dann das {npc:87361}, um {npc:87239} und {npc:87344} zu beschwören.'
@@ -253,13 +253,13 @@ L['warsong_relics'] = 'An einem Zaun vor einer Hütte.'
 L['stolen_draenei_tome'] = 'Kann an mehreren Positionen auf Türmen erscheinen.'
 L['dirt_mound'] = 'Töte {npc:86659} und klicke das auf dem Boden liegende {npc:87280} an, um dich in einen {spell:174572} zu verwandeln, damit können {npc:87530} in der Nähe ausgraben werden, um die Gegenstände zu finden.'
 
-L['stable_master_note'] = 'Sprich mit {stablemaster}, um eine der Ausbildungspfeifen zu erhalten.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nBenutze die Pfeife, um dein Reittier zu rufen und das Ziel zu töten.\n\n{achievement:9539} benötigt {item:118469} von |cffffff00Stall, Stufe 2|r.\n{achievement:9540} benötigt {item:118470} von |cffffff00Stall, Stufe 3|r.'
+L['stable_master_note'] = 'Sprich mit {stablemaster}, um eine der Ausbildungspfeifen zu erhalten.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nBenutze die Pfeife, um dein Reittier zu rufen und das Ziel zu töten.\n\n{achievement:9539} benötigt {item:118469} von {location:Stall, Stufe 2}.\n{achievement:9540} benötigt {item:118470} von {location:Stall, Stufe 3}.'
 
-L['making_the_cut_note'] = 'Wenn {npc:88210} da ist, töte 15 {npc:88207} rund um |cffffff00Der Ring des Blutes|r. Sobald 15 getötet wurden, wird er angreifbar.\n\n' .. ns.color.Red('Not bad for a bunch of worthless pukes! Come face Krud when you ready to die!')
+L['making_the_cut_note'] = 'Wenn {npc:88210} da ist, töte 15 {npc:88207} rund um {location:Der Ring des Blutes}. Sobald 15 getötet wurden, wird er angreifbar.\n\n{yell:Not bad for a bunch of worthless pukes! Come face Krud when you ready to die!}'
 
 L['goldmane_follower_note'] = 'Töte {npc:80080} in der Nähe, um {item:111863} zu erhalten und den Käfig zu öffnen, um ihn als Anhänger zu rekrutieren.'
 L['abugar_follower_note'] = [[
-Liefer 3 Angelgegenstände, die in |cffffff00Nagrand|r gefunden werden können ab und dann sprich mit ihm, um ihn als Anhänger zu rekrutieren.
+Liefer 3 Angelgegenstände, die in {location:Nagrand} gefunden werden können ab und dann sprich mit ihm, um ihn als Anhänger zu rekrutieren.
 
 {item:114245}
 {item:114242}
@@ -281,7 +281,7 @@ L['options_icons_buried_treasures_desc'] = 'Zeigt die Positionen der Gegenständ
 L['options_icons_the_stable_master'] = '{achievement:9539} und {achievement:9540}'
 L['options_icons_the_stable_master_desc'] = 'Zeigt die Positionen der Ziele für die Erfolge {achievement:9539} und {achievement:9540} an.'
 L['options_icons_making_the_cut'] = '{achievement:9617}'
-L['options_icons_making_the_cut_desc'] = 'Zeigt die Position von |cffffff00Blutringsklaventreiber|r für den Erfolg {achievement:9617} an.'
+L['options_icons_making_the_cut_desc'] = 'Zeigt die Position von {npc:Blutringsklaventreiber} für den Erfolg {achievement:9617} an.' -- review, change to 88207?
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
@@ -318,7 +318,7 @@ L['ronokks_belongings_treasure'] = 'Ronokks Habseligkeiten'
 L['rotting_basket_treasure'] = 'Zerfallender Korb'
 L['rovos_dagger_treasure'] = 'Rovos Dolch'
 L['scaly_rylak_egg_treasure'] = 'Schuppiges Rylakei'
-L['shadowmoon_exile_treasure_note'] = 'In einer Höhle unter der |cffffff00Anhöhe der Exilanten|r.'
+L['shadowmoon_exile_treasure_note'] = 'In einer Höhle unter der {location:Anhöhe der Exilanten}.'
 L['shadowmoon_exile_treasure_treasure'] = 'Schatz des Exilanten des Schattenmondklans'
 L['shadowmoon_sacrificial_dagger_treasure'] = 'Opferdolch des Schattenmondklans'
 L['shadowmoon_treasure_treasure'] = 'Schattenmondschatzkiste'
@@ -330,7 +330,7 @@ L['veemas_herb_bag_treasure'] = 'Veemas Kräuterbeutel'
 L['vindicators_cache_treasure'] = 'Truhe des Verteidigers'
 L['waterlogged_chest_treasure'] = 'Vollgelaufene Truhe'
 
-L['you_have_been_rylakinated_note'] = 'Die Quest {quest:34355} muss abgeschlossen werden.\n\nSammel {item:116978} von {npc:78999} in der Nähe um {npc:86085} zu kontrollieren.'
+L['you_have_been_rylakinated_note'] = 'Die Quest {quest:34355} muss abgeschlossen werden.\n\nSammel {item:116978} von {npc:78999} in der Nähe, um {npc:86085} zu kontrollieren.'
 
 L['artificer_romuul_follower_note'] = 'Schließe das Kristallverteidigung-Event ab, um ihn als Anhänger zu rekrutieren.'
 
@@ -342,7 +342,7 @@ L['options_icons_you_have_been_rylakinated_desc'] = 'Zeigt die Positionen von Ry
 -------------------------------------------------------------------------------
 
 L['abandoned_mining_pick_treasure'] = 'Liegen gelassene Spitzhacke'
-L['admiral_taylors_coffer_note'] = 'Benutze {item:116020}, um |cffffff00Admiral Taylors Truhe|r zu öffnen.'
+L['admiral_taylors_coffer_note'] = 'Benutze {item:116020}, um {object:Admiral Taylors Truhe} zu öffnen.'
 L['admiral_taylors_coffer_treasure'] = 'Admiral Taylors Truhe'
 L['assassins_spear_treasure'] = 'Assassinenspeer'
 L['campaign_contributions_treasure'] = 'Kampagnenspenden'
@@ -362,7 +362,7 @@ L['ogron_plunder_treasure'] = 'Ogronbeute'
 L['orcish_signaling_horn_treasure'] = 'Orcsignalhorn'
 L['outcasts_belongings_treasure'] = 'Habseligkeiten der Ausgestoßenen'
 L['outcasts_pouch_treasure'] = 'Beutel der Ausgestoßenen'
-L['rooby_roos_ruby_collar_note'] = 'Kaufe 3 {item:114835} von {npc:82432} im Keller des Gasthauses "Die Salzige Seepocke". Füttere (auch jedes mal wenn er stehen bleibt) und folge {npc:84332}, bis er einen "Schatz" hinterlässt.'
+L['rooby_roos_ruby_collar_note'] = 'Kaufe 3 {item:114835} von {npc:82432} im Keller des Gasthauses "{location:Die Salzige Seepocke}". Füttere (auch jedes mal wenn er stehen bleibt) und folge {npc:84332}, bis er einen "Schatz" hinterlässt.'
 L['rooby_roos_ruby_rollar_treasure'] = 'Scubis Du-Du'
 L['rukhmars_image_treasure'] = 'Rukhmars Abbild'
 L['sailor_zazzuks_180_proof_rum_note'] = 'Im Kontrollraum.'
@@ -377,7 +377,7 @@ L['sun_touched_cache_treasure'] = 'Sonnenberührte Truhe'
 L['toxicfang_venom_treasure'] = 'Giftzahntoxin'
 L['waterlogged_satchel_treasure'] = 'Durchnässter Sack'
 L['nizzixs_chest_treasure'] = 'Nizzix\' Truhe'
-L['nizzixs_chest_treasure_note'] = 'Klicke auf die Rettungskapsel die in der nähe im Wasser schwimmt.'
+L['nizzixs_chest_treasure_note'] = 'Klicke auf die {object:Rettungskapsel}, die in der Nähe im Wasser schwimmt.'
 
 L['misplaced_scroll_treasure'] = 'Verlegte Schriftrolle'
 L['relics_of_the_outcasts_treasure'] = 'Relikte der Ausgestoßenen'
@@ -386,13 +386,13 @@ L['smuggled_apexis_artifacts_treasure'] = 'Geschmuggelte Apexisartefakte'
 L['offering_to_the_raven_mother_treasure'] = 'Opfergabe an die Rabenmutter'
 
 L['elixir_of_shadow_sight_treasure'] = 'Elixier der Schattensicht'
-L['elixir_pre_note'] = 'Bringe es zu einem |cffffff00Terokkschrein|r.'
-L['elixir_01_note'] = nil
-L['elixir_02_note'] = nil
-L['elixir_03_note'] = nil
-L['elixir_04_note'] = nil
-L['elixir_05_note'] = nil
-L['elixir_06_note'] = nil
+L['elixir_pre_note'] = 'Bringe es zu einem {object:Terokkschrein}.'
+L['elixir_01_note'] = 'Hängt in einem Korb neben einer Hütte.'
+L['elixir_02_note'] = 'In einem Korb innerhalb einer brennenden Hütte.'
+L['elixir_03_note'] = 'In einem Korb zwischen einem Baum und einer kaputten Mauer.'
+L['elixir_04_note'] = 'In einer Saberon Höhle.'
+L['elixir_05_note'] = 'Oben auf dem Berg, neben dem toten Körper eines {npc:83633}. Bist du oben angelangt, suche nach einem weiteren {npc:83633}, der an Ketten zwischen zwei Bäumen hängt. Das Elixier befindet sich hinter den Hügeln, neben dem Baum auf der rechten Seite.'
+L['elixir_06_note'] = 'Im Wasser, am Ende einer kleinen zerbrochenen Mauer.'
 
 L['gift_of_anzu_treasure'] = 'Geschenk Anzus'
 
@@ -411,12 +411,12 @@ Interagiere mit {npc:85992}, um zufällig einen von drei Stärkungszaubern zu er
 
 L['leorajh_follower_note'] = 'Sprich mit ihm, um ihn als Anhänger zu rekrutieren.'
 
-L['options_icons_archaeology_treasure'] = nil
-L['options_icons_archaeology_treasure_desc'] = nil
-L['options_icons_offering'] = nil
-L['options_icons_offering_desc'] = nil
-L['options_icons_shrines_of_terokk'] = nil
-L['options_icons_shrines_of_terokk_desc'] = nil
+L['options_icons_archaeology_treasure'] = 'Archäologie Schätze'
+L['options_icons_archaeology_treasure_desc'] = 'Zeigt die Positionen von Archäoligie Schätzen an.'
+L['options_icons_offering'] = 'Opfergaben an die Rabenmutter'
+L['options_icons_offering_desc'] = 'Zeigt die Positionen der {object:Opfergabe an die Rabenmutter} an.'
+L['options_icons_shrines_of_terokk'] = 'Terokkschreine'
+L['options_icons_shrines_of_terokk_desc'] = 'Zeigt die Positionen der {object:Terokkschreine} an.'
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = 'Zeigt die Position von Gegenständen für den Erfolg {achievement:9432} an.'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
@@ -494,14 +494,14 @@ L['ahm_follower_note'] = 'Schließe die Quest {quest:33973} ab und triff ihn dan
 L['defender_illona_follower_note'] = 'Schließe die Quest {quest:34777} ab, um sie als Anhängerin zu rekrutieren.'
 L['pleasure_bot_8000_follower_note'] = 'Schließe die Quest {quest:%d} ab, um es ihn Anhänger zu rekrutieren.'
 L['image_of_archmage_vargoth_follower_note'] = [[
-Finde 4 Mysteriöse Objekte in |cffffff00Draenor|r.
+Finde 4 Mysteriöse Objekte in {location:Draenor}.
 
-{quest:34463} ist zu finden in |cffffff00Gorgrond|r
-{quest:34464} ist zu finden in |cffffff00Frostfeuergrat|r
-{quest:34465} ist zu finden in |cffffff00Taladore|r
-{quest:34466} ist zu finden in |cffffff00Nagrand|r
+{quest:34463} ist zu finden in {location:Gorgrond}
+{quest:34464} ist zu finden in {location:Frostfeuergrat}
+{quest:34465} ist zu finden in {location:Talador}
+{quest:34466} ist zu finden in {location:Nagrand}
 
-Gib alle Quests bei {npc:86949} in |cffffff00Taladore|r bei |cffffff00Khadgars Turm|r ab, der dann die Quest {quest:34472} hat. Schließe diese Quest ab und sprich dann mit {npc:77853}, um ihn als Anhänger zu rekrutieren.
+Gib alle Quests bei {npc:86949} in {location:Talador} bei {location:Khadgars Turm} ab, der dann die Quest {quest:34472} hat. Schließe diese Quest ab und sprich dann mit {npc:77853}, um ihn als Anhänger zu rekrutieren.
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
@@ -513,10 +513,10 @@ L['options_icons_wingmen_desc'] = 'Zeigt Positionen zum Sammeln für den Erfolg 
 --------------------------------- TANAAN JUNGLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['deathtalon_note'] = ns.color.Red('Schattenfürst Iskar schreit: Hinter dem Schleier wartet nur der Tod!')
-L['doomroller_note'] = ns.color.Red('Belagerungsmeisterin Mar\'tak schreit: Hah-ha! Zermalmt ihre Leichen!')
-L['terrorfist_note'] = ns.color.Red('Frogan schreit: Ein gewaltiger Gronnling ist auf dem Weg zur Zuflucht der Rangari! Wir werden etwas Unterstützung benötigen!')
-L['vengeance_note'] = ns.color.Red('Tyrannin Velhari schreit: Maden wie Ihr verdienen den Tod!')
+L['deathtalon_note'] = '{yell:Schattenfürst Iskar schreit: Hinter dem Schleier wartet nur der Tod!}'
+L['doomroller_note'] = '{yell:Belagerungsmeisterin Mar\'tak schreit: Hah-ha! Zermalmt ihre Leichen!}'
+L['terrorfist_note'] = '{yell:Frogan schreit: Ein gewaltiger Gronnling ist auf dem Weg zur Zuflucht der Rangari! Wir werden etwas Unterstützung benötigen!}'
+L['vengeance_note'] = '{yell:Tyrannin Velhari schreit: Maden wie Ihr verdienen den Tod!}'
 L['iron_armada_note'] = 'Das Spielzeug kann auch im AH gekauft werden und ist erforderlich für den Erfolg {achievement:10353}.'
 L['commander_kraggoth_note'] = 'Auf dem Nordostturm.'
 L['grannok_note'] = 'Auf dem Südostturm.'
@@ -530,12 +530,12 @@ L['dorg_the_bloody_note'] = 'Töte {npc:89706} und andere Gegner am Erscheinungs
 L['grand_warlock_netherkurse_note'] = 'Töte Gegner um den Erscheinungsort.'
 L['ceraxas_note'] = 'Lässt nachdem er getötet wurde {npc:90426} mit der Quest {quest:38428} für ein Haustier erscheinen.'
 L['commander_orgmok_note'] = 'Reitet herum auf {npc:89676}.'
-L['rendrak_note'] = 'Sammel 10 {item:124045} von {npc:89788} um das Moor herum. Kombiniere diese, um den seltenen Gegner zu beschwören.'
-L['akrrilo_note'] = 'Kaufe {item:124093} von {npc:92805} und benutze sie in der Blackfang Challenge Arena.'
-L['rendarr_note'] = 'Kaufe {item:124094} von {npc:92805} und benutze sie in der Blackfang Challenge Arena.'
-L['eyepiercer_note'] = 'Kaufe {item:124095} von {npc:92805} und benutze sie in der Blackfang Challenge Arena.'
+L['rendrak_note'] = 'Sammle 10x {item:124045} von {npc:89788} um das Moor herum. Kombiniere diese, um den seltenen Gegner zu beschwören.'
+L['akrrilo_note'] = 'Kaufe {item:124093} von {npc:92805} und benutze sie in der {location:Schwarzfang Herausforderungsarena}.'
+L['rendarr_note'] = 'Kaufe {item:124094} von {npc:92805} und benutze sie in der {location:Schwarzfang Herausforderungsarena}.'
+L['eyepiercer_note'] = 'Kaufe {item:124095} von {npc:92805} und benutze sie in der {location:Schwarzfang Herausforderungsarena}.'
 L['the_night_haunter_note'] = [[
-Sammel 10 Stapel von dem Schwächungszauber {spell:183612}.
+Sammle 10 Stapel von dem Schwächungszauber {spell:183612}.
 
 Benutze {npc:92651} oder finde {npc:92645}, um einen Schwächungszauber zu erhalten (100% chance).
 ]]

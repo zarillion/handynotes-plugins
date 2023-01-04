@@ -1,3 +1,44 @@
+# v29
+
+* Added some missing Astray Splasher spawns.
+* Added the Three Minutes or It's Free achievement.
+* Added the training course location for Knew You Nokhud Do It.
+* Added weekly elemental chest locations.
+* Fixed a bug when hovering over primal storms with "Use Map Settings" enabled.
+
+# v28
+
+* Reorganized the map menu to better display groups.
+  * Standard groups are at the top.
+  * Expansion specific groups are in the next section.
+  * Achievement-related groups have their own sub-menu.
+* Added nodes and vignette info for elemental storms.
+* Added missing profession treasure tracking ids.
+
+# v27
+
+* Added more dirt and scout pack locations.
+* Added signal transmitter locations for the wormhole generator.
+* Overhauled the way colors are rendered in many of our notes.
+
+# v26
+
+* Added lunker rares in the Azure Span.
+* Added multiple missing rares.
+* Added the Mallard Duckling pet.
+* Updated notes and information for existing rares.
+
+# v25
+
+* Added a node for the Otto mount.
+* Added and fixed some rare tracking ids.
+* Added magic-bount chest locations.
+* Updated requirements on treasures to be more accurate.
+
+# v24
+
+* Updated rewards, position and data for multiple nodes.
+
 # v23
 
 * Added reputation turn-in NPC locations.

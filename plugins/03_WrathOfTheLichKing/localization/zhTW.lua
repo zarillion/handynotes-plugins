@@ -12,3 +12,13 @@ L['achievement_friend_or_fowl_desc'] = nil
 L['note_devouring_maggot'] = nil
 L['dalaran_sewers'] = nil
 L['in_nexus'] = nil
+
+L['higher_learning_1'] = nil
+L['higher_learning_2'] = nil
+L['higher_learning_3'] = nil
+L['higher_learning_4'] = nil
+L['higher_learning_5'] = nil
+L['higher_learning_6'] = nil
+L['higher_learning_7'] = nil
+L['higher_learning_8'] = nil
+L['higher_learning_vargoth'] = nil

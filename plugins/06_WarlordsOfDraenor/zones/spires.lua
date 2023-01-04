@@ -836,28 +836,32 @@ map.nodes[73404500] = KingOfTheMonstersRare({
 map.nodes[71203380] = KingOfTheMonstersRare({
     id = 87027,
     rewards = {
-        Achievement({id = 9601, criteria = 27428}), Item({item = 119363})
+        Achievement({id = 9601, criteria = 27428}),
+        Transmog({item = 119363, slot = L['leather']}) -- Stretchy Purple Pants
     }
 }) -- Shadow Hulk
 
 map.nodes[71404500] = KingOfTheMonstersRare({
     id = 87029,
     rewards = {
-        Achievement({id = 9601, criteria = 27429}), Item({item = 119401})
+        Achievement({id = 9601, criteria = 27429}),
+        Transmog({item = 119401, slot = L['1h_sword']}) -- Sentinel's Wingblade
     }
 }) -- Giga Sentinel
 
 map.nodes[73803820] = KingOfTheMonstersRare({
     id = 87026,
     rewards = {
-        Achievement({id = 9601, criteria = 27427}), Item({item = 119398})
+        Achievement({id = 9601, criteria = 27427}),
+        Transmog({item = 119398, slot = L['1h_mace']}) -- Plunderer's Drill
     }
 }) -- Mecha Plunderer
 
 map.nodes[74404280] = KingOfTheMonstersRare({
     id = 87019,
     rewards = {
-        Achievement({id = 9601, criteria = 27426}), Item({item = 119404})
+        Achievement({id = 9601, criteria = 27426}),
+        Transmog({item = 119404, slot = L['wand']}) -- Glowing Morel
     }
 }) -- Glutonous Giant
 

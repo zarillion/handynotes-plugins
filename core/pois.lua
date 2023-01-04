@@ -36,6 +36,8 @@ function POI:Initialize(attrs)
     -- normalize table values
     self.quest = ns.AsTable(self.quest)
     self.questDeps = ns.AsTable(self.questDeps)
+
+    if self.color then self.r, self.g, self.b = ns.HEXtoRGBA(self.color) end
 end
 
 function POI:IsCompleted()
@@ -72,17 +74,27 @@ function POI:IsEnabled()
 end
 
 function POI:Render(map, template)
-    -- draw a circle at every coord
+    -- draw POI at every coord
     for i = 1, #self, 1 do map:AcquirePin(template, self, self[i]) end
 end
 
 function POI:Draw(pin, xy)
     local t = ResetPin(pin)
+
     local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
-    size = size * ns:GetOpt('poi_scale')
-    t:SetVertexColor(unpack({ns:GetColorOpt('poi_color')}))
-    t:SetTexture(CIRCLE)
+    size = size * ns:GetOpt('poi_scale') * (self.size or 1)
+
+    local color = {ns:GetColorOpt('poi_color')}
+    if self.icon then
+        color = {1, 1, 1}
+    elseif self.color then
+        color = {ns.HEXtoRGBA(self.color)}
+    end
+
+    t:SetTexture(self.icon and ns.GetIconPath(self.icon) or CIRCLE)
+    t:SetVertexColor(unpack(color))
     pin:SetSize(size, size)
+
     return HandyNotes:getXY(xy)
 end
 
@@ -137,7 +149,9 @@ end
 
 function Path:Draw(pin, type, xy1, xy2)
     local t = ResetPin(pin)
-    t:SetVertexColor(unpack({ns:GetColorOpt('path_color')}))
+    local color = {ns:GetColorOpt('path_color')}
+    if self.color then color = {self.r, self.g, self.b} end
+    t:SetVertexColor(unpack(color))
     t:SetTexture(type)
 
     -- constant size for minimaps, variable size for world maps

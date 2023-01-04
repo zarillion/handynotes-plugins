@@ -405,7 +405,7 @@ Verwende die {item:175841} auf der {npc:157124}. Die {item:175841} erhältst du,
 Wenn die {npc:157124} nicht da ist, belebe {npc:157132} in dem Gebiet, bis diese erscheint.
 ]]
 L['mixed_pool_note'] = [[
-Sammel Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 30 Materialien hinzugefügt wurden, erscheint je nach verwendeter Kombination einer von sieben seltenen Gegnern.
+Sammle Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 30 Materialien hinzugefügt wurden, erscheint je nach verwendeter Kombination einer von sieben seltenen Gegnern.
 
 • Sammel {spell:306713} von {npc:167923} und {npc:167948} aus dem Norden.
 
@@ -535,7 +535,7 @@ L['rapier_fearless_note'] = 'Klicke das Rapier auf dem Boden an und besiege {npc
 L['remlates_cache_note'] = 'Hinter der Außenmauer der Krypta in Dunkelhafen.'
 L['smuggled_cache_note'] = ns.color.Red('BEVOR DU DIE TRUHE PLÜNDERST: ') .. 'Geh sicher, dass du die Nebenquest {quest:60480} abgeschlossen hast oder du wirst 40x {currency:1820} von der Schatztruhe und Quest versäumen.'
 L['taskmaster_trove_note'] = 'Lies die Eintritts- und Austrittsriten und gehe behutsam zur Truhe.'
-L['the_count_note'] = 'Sammel 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}.'
+L['the_count_note'] = 'Sammle 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}.'
 
 L['forgotten_anglers_rod'] = 'Vergessene Angelrute'
 
@@ -761,12 +761,12 @@ L['mawsworn_cache_ramparts_note'] = 'Diese Truhe ist auf der Mauer. Benutze das 
 L['mawsworn_cache_tower_note'] = 'Diese Truhe ist auf dem Turm und benötigt den {npc:177093}, um sie zu erreichen. Benutze die Fähigkeit {spell:349853} zum Hochklettern.'
 L['mawsworn_cache_quest_note'] = 'Die {item:186573} wird erst dropen, nachdem die Quest {quest:63545} abgeschlossen wurde!'
 
-L['nilg_silver_ring_note'] = 'Sammel 4x {item:186727} in Desmotaeron und benutze diese, um die Herrschaftstruhe zu öffnen.'
+L['nilg_silver_ring_note'] = 'Sammle 4x {item:186727} in Desmotaeron und benutze diese, um die Herrschaftstruhe zu öffnen.'
 L['nilg_silver_ring_note1'] = 'Töte {npc:177444} und öffne die {item:186970}.'
 L['nilg_silver_ring_note2'] = 'Plündere den Schlüsselring der Plagerin, an der Wand, in der Untergrundkammer neben {npc:178311}.'
 L['nilg_silver_ring_note3'] = 'Öffne Vorratskisten von Helgarde in Desmotaeron. Dein {npc:180598} kann helfen diese zu finden.'
 L['nilg_silver_ring_note4'] = 'Töte {npc:177134s} in Desmotaeron (geringe droprate).'
-L['nilg_stone_ring_note'] = 'Sammel vier {item:186600} während des Nekrolordangriffs und kombiniere diese an einer {npc:171492} in Zovaals Kessel.'
+L['nilg_stone_ring_note'] = 'Sammle vier {item:186600} während des Nekrolordangriffs und kombiniere diese an einer {npc:171492} in Zovaals Kessel.'
 L['nilg_stone_ring_note1'] = 'Gefunden in bestimmten Schlundgebundenen Truhen (gelbes Symbol), auf den Mauern der Verdammnisfestung.'
 L['nilg_stone_ring_note2'] = 'Schließe die Quest {quest:63545} ab, dann plündere Schlundgebundene Truhen bis du den Questgegenstand {item:186573} findest. Diese Quest ist teilbar!'
 L['nilg_stone_ring_note3'] = 'Erbeutet vom {npc:179601} im mittleren Bereich der Verdammnisfestung.'
@@ -883,7 +883,7 @@ L['corrupted_architect_note'] = 'Greife {npc:183958} und {npc:183961} an, um den
 L['dune_dominance_note'] = 'Alle drei seltenen Elite für den {achievement:15392} Erfolg erscheinen an dieser Position.'
 L['feasting_note'] = 'Umrundet manchmal das Gebiet, bevor er zu dieser Stelle zurückkehrt.'
 L['furidian_note'] = 'Aktiviere drei |cFFFFFD00Ermächtigter Schlüssel|r in dem Bereich, und entriegel dann den |cFFFFFD00Verdächtig wütender Tresor|r.'
-L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwenden {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
+L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwende {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
 L['gluttonous_overgrowth_note'] = 'Zerbrich alle in der Nähe befindlichen {npc:184048n}, um den den selten Gegner zu aktivieren.'
 L['helmix_note'] = [[
 Töte {npc:179005} in dem Gebiet, bis das untere Emote erscheint.
@@ -918,12 +918,12 @@ L['drowned_broker_supplies_note'] = 'Sage {npc:181059}, er soll die Kontrolle ü
 L['forgotten_protovault_note'] = 'Nur während der {wq:Verfroscht} Weltquest verfügbar.'
 L['grateful_boon_note'] = 'Ohne Fliegen schwer zu erreichen; Benutze das {spell:300728} oder ein {spell:111771}, um den Berg zu besteigen. Besänftige alle 12 Kreaturen in dem Gebiet und {npc:185293} lässt den Schatz erscheinen.'
 L['library_vault_note'] = 'Klicke die Tafeln in der Grotte der Lexik an, bis du den richtigen {spell:362062} Stärkungszauber findest, um damit das Bibliotheksarchiv zu öffnen.'
-L['mistaken_ovoid_note'] = 'In der Höhle der Dimensionenfälle. Sammel 5x {item:190239} und bring diese zu {npc:185280}.'
-L['ripened_protopear_note'] = 'Beginne die {quest:64641} Questreihe, um Zugang zur Blühenden Gießerei zu erhalten. Sammel dort drinne nacheinander 5 mal eine {spell:367180} (grüne Wolken) und bestäube damit die {npc:185416}.'
+L['mistaken_ovoid_note'] = 'In der Höhle der Dimensionenfälle. Sammle 5x {item:190239} und bring diese zu {npc:185280}.'
+L['ripened_protopear_note'] = 'Beginne die {quest:64641} Questreihe, um Zugang zur Blühenden Gießerei zu erhalten. Sammle dort drinnen nacheinander 5 mal eine {spell:367180} (grüne Wolken) und bestäube damit die {npc:185416}.'
 L['sphere_treasure_note'] = 'Springe vorsichtig die Kugeln hoch, bis du den Schatz erreichst.'
 L['submerged_chest_note'] = 'Nimm die |cFFFFFD00Gefährliche Kugel der Macht|r im Süden auf und interagiere dann mit der |cFFFFFD00Vergessene Pumpe|r nahe des Schatzes.'
 L['symphonic_vault_note'] = 'Untersuche {npc:183998}, um eine Folge von vier Tönen zu hören. Jede {npc:183950} in dem Raum spielt einen einzigen Ton. Interagiere mit ihnen in der richtigen Reihenfolge, um den Schatz freizuschalten.'
-L['syntactic_vault_note'] = 'Sammel 6 Stapel der {spell:367499} durch Interagieren mit |cFFFFFD00Runensilbe|r im Gebiet Mausoleum der Ersten, um den Schatz freizuschalten.'
+L['syntactic_vault_note'] = 'Sammle 6 Stapel der {spell:367499} durch Interagieren mit |cFFFFFD00Runensilbe|r im Gebiet Mausoleum der Ersten, um den Schatz freizuschalten.'
 L['template_archive_note'] = 'Stoße die {npc:183339} im Raum in die {npc:183337}, die den Weg zum Schatz versperrt.'
 L['undulating_foliage_note'] = [[
 Drücke die vier {npc:185390n}, um den Teleporter im mittleren Raum der Katalysatorstationen zu aktivieren.

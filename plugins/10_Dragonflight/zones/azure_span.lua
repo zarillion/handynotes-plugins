@@ -15,15 +15,18 @@ local Treasure = ns.node.Treasure
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
+local ElementalStorm = ns.node.ElementalStorm
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local LegendaryCharacter = ns.node.LegendaryCharacter
+local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
+local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 
 local Achievement = ns.reward.Achievement
@@ -109,14 +112,16 @@ map.nodes[13584855] = Rare({
     }
 }) -- Bisquius
 
--- map.nodes[] = Rare({
---     id = 193178,
---     quest = 69858,
---     rewards = {
---         Achievement({id = 16678, criteria = 56122}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Blightfur
+map.nodes[13432270] = Rare({
+    id = 193178,
+    quest = 74058,
+    note = L['in_small_cave'] .. ' ' .. L['blightfur_note'],
+    rewards = {
+        Achievement({id = 16678, criteria = 56122}),
+        DC.RenewedProtoDrake.FinnedTail
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Blightfur
 
 map.nodes[14053096] = RareElite({
     id = 197353,
@@ -140,7 +145,7 @@ map.nodes[16622798] = Rare({
     quest = 73870,
     rewards = {
         Achievement({id = 16678, criteria = 56108}),
-        Achievement({id = 16446, criteria = 3, note = L['pretty_neat_note']}),
+        Achievement({id = 16446, criteria = 55397, note = L['pretty_neat_note']}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         DC.WindborneVelocidrake.FinnedEars
     }
@@ -200,14 +205,16 @@ map.nodes[64992995] = Rare({
     }
 }) -- Frigidpelt Den Mother
 
--- map.nodes[] = Rare({
---     id = 191356,
---     quest = 67148,
---     rewards = {
---         Achievement({id = 16678, criteria = 56101}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Frostpaw
+map.nodes[58264391] = Rare({
+    id = 191356,
+    quest = 73877,
+    note = L['frostpaw_note'],
+    rewards = {
+        Achievement({id = 16678, criteria = 56101})
+        -- Transmog({item = , slot = L['']}) -- Name
+    },
+    pois = {POI({58664339})}
+}) -- Frostpaw
 
 map.nodes[14083747] = RareElite({
     id = 197354,
@@ -226,6 +233,7 @@ map.nodes[14083747] = RareElite({
 map.nodes[32682911] = RareElite({ -- review -- required 67030
     id = 193251,
     quest = 69885,
+    note = L['spawns_hourly'],
     rewards = {
         Achievement({id = 16678, criteria = 56111})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -235,6 +243,7 @@ map.nodes[32682911] = RareElite({ -- review -- required 67030
 map.nodes[19234362] = Rare({ -- required 67030
     id = 193269,
     quest = 74002,
+    note = L['spawns_hourly'],
     rewards = {
         Achievement({id = 16678, criteria = 56112}),
         Transmog({item = 200206, slot = L['bow']}) -- Behemoth Slayer Greatbow
@@ -299,14 +308,21 @@ map.nodes[20584943] = Rare({
     pois = {POI({34023076, 34933000})} -- Entrance
 }) -- Notfar the Unbearable
 
--- map.nodes[] = Rare({
---     id = 197371,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56129}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Ravenous Tundra Bear
+map.nodes[58813260] = Rare({
+    id = 197371,
+    quest = {73891, 74080},
+    label = L['large_lunker_sighting'],
+    note = L['large_lunker_sighting_note'],
+    rewards = {
+        Achievement({
+            id = 16678,
+            criteria = {
+                {id = 56129, quest = 73891}, -- Ravenous Tundra Bear
+                {id = 56116, quest = 74080} -- Snufflegust
+            }
+        })
+    }
+}) -- Lunker Rares
 
 -- map.nodes[] = Rare({
 --     id = 193693,
@@ -320,6 +336,7 @@ map.nodes[20584943] = Rare({
 map.nodes[26494939] = Rare({ -- review -- required 67030
     id = 193149,
     quest = 72154,
+    note = L['spawns_hourly'],
     rewards = {
         Achievement({id = 16678, criteria = 56110})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -339,15 +356,6 @@ map.nodes[10863229] = RareElite({
         DC.CliffsideWylderdrake.Ears
     }
 }) -- Snarglebone
-
--- map.nodes[] = Rare({
---     id = 193706,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56116}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Snufflegust
 
 map.nodes[55033405] = RareElite({
     id = 193238,
@@ -391,6 +399,7 @@ map.nodes[59405520] = Rare({
     quest = 73900,
     rewards = {
         Achievement({id = 16678, criteria = 56097}),
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Item({item = 200859, note = L['trinket']}) -- Seasoned Hunter's Trophy
     }
@@ -412,7 +421,7 @@ map.nodes[28564743] = Rare({
             28564743, 28304800, 27944822, 26974854, 26364841, 26074796,
             25824706, 25764642, 26134540, 26374491, 27124437, 27554428,
             28164470, 28614643, 28564743
-        })
+        }), POI({29804622}) -- Cave
     }
 }) -- Breezebiter
 
@@ -459,6 +468,7 @@ map.nodes[17254144] = Rare({
 map.nodes[36723247] = Rare({
     id = 192749,
     quest = 72846, -- 67173
+    note = L['sharpfang_note'],
     rewards = {
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
@@ -477,7 +487,7 @@ map.nodes[45125940] = Treasure({
     note = L['forgotten_jewel_box_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Item(199065) -- Sorrowful Letter
+        ns.requirement.Quest(70534, '{item:199065}') -- Sorrowful Letter
     },
     rewards = {
         Achievement({id = 16300, criteria = 54804}), --
@@ -490,7 +500,7 @@ map.nodes[53934372] = Treasure({
     note = L['in_small_cave'] .. ' ' .. L['gnoll_fiend_flail_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Item(199066) -- Letter of Caution
+        ns.requirement.Quest(70535, '{item:199066}') -- Letter of Caution
     },
     rewards = {
         Achievement({id = 16300, criteria = 54805}),
@@ -529,7 +539,7 @@ map.nodes[48632466] = Treasure({
     requires = {
         ns.requirement.Reputation(2507, 21, true), -- Dragonscale Expedition
         ns.requirement.Quest(70833), -- Rumors of the Jeweled Whelplings
-        ns.requirement.Item(199067) -- Precious Plans
+        ns.requirement.Quest(70536, '{item:199067}') -- Precious Plans
     },
     rewards = {
         Achievement({id = 16300, criteria = 54806}), --
@@ -665,7 +675,7 @@ map.nodes[46202390] = PT.Inscription({
 
 map.nodes[53146614] = PT.Blacksmithing({
     id = 201011,
-    quest = nil,
+    quest = 70314,
     note = L['pt_smith_spelltouched_tongs_note'],
     requires = {
         ns.requirement.Profession(186), ns.requirement.Profession(164, 2822, 25)
@@ -675,7 +685,7 @@ map.nodes[53146614] = PT.Blacksmithing({
 
 map.nodes[57504130] = PT.Leatherworking({
     id = 198683,
-    quest = nil,
+    quest = 70286,
     note = L['pt_leath_treated_hides_note']
 }) -- Treated Hides
 
@@ -746,6 +756,14 @@ map.nodes[74844324] = Flag({quest = 71221})
 map.nodes[77431837] = Flag({quest = 71217})
 
 -------------------------------------------------------------------------------
+------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[71054788] = SignalTransmitter({quest = 70581}) -- Camp Nowhere
+map.nodes[45766525] = SignalTransmitter({quest = 70580}) -- Azure Archives
+map.nodes[27562645] = SignalTransmitter({quest = 70579}) -- Brakenhide Hollow
+
+-------------------------------------------------------------------------------
 ---------------------------- FRAGMENTS OF HISTORY -----------------------------
 -------------------------------------------------------------------------------
 
@@ -780,25 +798,6 @@ map.nodes[47342459] = Fragment({
         Item({item = 199840, quest = 70788})
     }
 }) -- Wrapped Gold Band
-
--------------------------------------------------------------------------------
-------------------------------- DISTURBED DIRT --------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[13503833] = Disturbeddirt({note = L['in_small_cave']})
-map.nodes[19214047] = Disturbeddirt()
-map.nodes[23716772] = Disturbeddirt()
-map.nodes[33704685] = Disturbeddirt()
-map.nodes[34234591] = Disturbeddirt()
-map.nodes[57775352] = Disturbeddirt()
-map.nodes[65193151] = Disturbeddirt()
-map.nodes[65516163] = Disturbeddirt()
-map.nodes[68291742] = Disturbeddirt()
-map.nodes[70724381] = Disturbeddirt()
-map.nodes[73374059] = Disturbeddirt()
-map.nodes[78753394] = Disturbeddirt()
-map.nodes[78903087] = Disturbeddirt()
-map.nodes[66733144] = Disturbeddirt({note = L['in_cave']})
 
 -------------------------------------------------------------------------------
 ---------------------------- LEY LINE IN THE SPAN -----------------------------
@@ -839,6 +838,29 @@ map.nodes[65732814] = LeyLine({
 }) -- Slyvern Plunge
 
 -------------------------------------------------------------------------------
+------------------------------- DISTURBED DIRT --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[13503833] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[19214047] = Disturbeddirt()
+map.nodes[19225097] = Disturbeddirt()
+map.nodes[23716772] = Disturbeddirt()
+map.nodes[29872621] = Disturbeddirt()
+map.nodes[33704685] = Disturbeddirt()
+map.nodes[34234591] = Disturbeddirt()
+map.nodes[50284428] = Disturbeddirt()
+map.nodes[57775352] = Disturbeddirt()
+map.nodes[65193151] = Disturbeddirt()
+map.nodes[65516163] = Disturbeddirt()
+map.nodes[66733144] = Disturbeddirt({note = L['in_cave']})
+map.nodes[68291742] = Disturbeddirt()
+map.nodes[70724381] = Disturbeddirt()
+map.nodes[72404272] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[73374059] = Disturbeddirt()
+map.nodes[78753394] = Disturbeddirt()
+map.nodes[78903087] = Disturbeddirt()
+
+-------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
 -------------------------------------------------------------------------------
 
@@ -850,15 +872,41 @@ map.nodes[33864679] = Scoutpack()
 map.nodes[34334607] = Scoutpack()
 map.nodes[43005294] = Scoutpack()
 map.nodes[58115454] = Scoutpack()
+map.nodes[58145373] = Scoutpack()
+map.nodes[65702841] = Scoutpack({note = L['in_small_cave']})
+map.nodes[66733050] = Scoutpack({note = L['in_cave']})
+map.nodes[66783133] = Scoutpack({note = L['in_cave']})
 map.nodes[66784934] = Scoutpack()
 map.nodes[72154242] = Scoutpack({note = L['in_cave']})
 map.nodes[72604263] = Scoutpack({note = L['in_cave']})
 map.nodes[78953094] = Scoutpack()
 map.nodes[79823175] = Scoutpack()
-map.nodes[58145373] = Scoutpack()
-map.nodes[66783133] = Scoutpack({note = L['in_cave']})
-map.nodes[66733050] = Scoutpack({note = L['in_cave']})
-map.nodes[65702841] = Scoutpack({note = L['in_small_cave']})
+
+-------------------------------------------------------------------------------
+------------------------------ Magic-Bound Chest ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[09104840] = MagicBoundChest({
+    note = L['in_small_cave'],
+    pois = {POI({08584883})}
+})
+map.nodes[14002990] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[29904570] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[43306260] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[49204090] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[53006610] = MagicBoundChest({
+    requires = {
+        ns.requirement.Reputation(2507, 16, true),
+        ns.requirement.Profession(186)
+    },
+    note = L['in_small_cave']
+})
+map.nodes[65702780] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[65905560] = MagicBoundChest()
+map.nodes[72304210] = MagicBoundChest({
+    note = L['in_cave'],
+    pois = {POI({71674371})}
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -997,12 +1045,12 @@ map.nodes[69204987] = HemetNesingwaryJr({
 
 map.nodes[36673652] = PrettyNeat({
     id = 190218,
-    rewards = {Achievement({id = 16446, criteria = 11})}
+    rewards = {Achievement({id = 16446, criteria = 55393})}
 }) -- Horned Filcher
 
 map.nodes[38193815] = PrettyNeat({
     id = 190221,
-    rewards = {Achievement({id = 16446, criteria = 17})}
+    rewards = {Achievement({id = 16446, criteria = 55390})}
 }) -- Pine Flicker
 
 -------------------------------------------------------------------------------
@@ -1161,6 +1209,30 @@ map.nodes[34204160] = Safari({
 }) -- Vorquin Runt
 
 -------------------------------------------------------------------------------
+------------------------ ELEMENTAL STORMS: AZURE SPAN -------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[11983718] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'],
+        L['elemental_storm_brakenhide_hollow']),
+    mapID = map.id,
+    areaPOIs = {7229, 7230, 7231, 7232}
+}) -- Elemental Storm: Brakenhide Hollow
+
+map.nodes[47372200] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'],
+        L['elemental_storm_cobalt_assembly']),
+    mapID = map.id,
+    areaPOIs = {7233, 7234, 7235, 7236}
+}) -- Elemental Storm: Cobalt Assembly
+
+map.nodes[58506660] = ElementalStorm({
+    label = format('%s: %s', L['elemental_storm'], L['elemental_storm_imbu']),
+    mapID = map.id,
+    areaPOIs = {7237, 7238, 7239, 7240}
+}) -- Elemental Storm: Imbu
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
@@ -1248,6 +1320,18 @@ map.nodes[66333211] = Collectible({
     },
     pois = {POI({66453173})}
 }) -- Tome of Polymorph: Duck
+
+------------------- ACHIEVEMENT: THREE MINUTES OR IT'S FREE -------------------
+
+map.nodes[45635482] = Collectible({
+    label = '{item:200949}',
+    note = L['the_great_shellkhan_note'],
+    icon = 133920,
+    quest = 72110,
+    rewards = {
+        Item({item = 200949}) -- Case of Fresh Gleamfish
+    }
+}) -- Case of Fresh Gleamfish
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 

@@ -43,6 +43,7 @@ read_globals = {
     'C_Spell',
     'C_SuperTrack',
     'C_TaskQuest',
+    'C_Texture',
     'C_Timer',
     'C_TradeSkillUI',
     'C_TransmogCollection',
@@ -115,6 +116,7 @@ read_globals = {
 
     -- WoW Global variables
     'ACHIEVEMENT_COLOR_CODE',
+    'ACHIEVEMENTS',
     'AVAILABLE_QUEST',
     'CLOSE',
     'ITEM_QUALITY_COLORS',

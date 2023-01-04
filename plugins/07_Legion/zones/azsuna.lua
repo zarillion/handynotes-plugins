@@ -19,7 +19,6 @@ local Transmog = ns.reward.Transmog
 local POI = ns.poi.POI
 local Path = ns.poi.Path
 
-local Orange = ns.color.Orange
 -------------------------------------------------------------------------------
 
 local map = Map({id = 630, settings = true})
@@ -589,7 +588,7 @@ map.nodes[46904143] = Collectible({
     icon = 134915,
     group = ns.groups.HIGHER_DIMENSIONAL_LEARNING,
     note = L['higher_dimensional_learning_note'] .. '\n\n' ..
-        Orange(L['higher_dimensional_learning_disclaimer']),
+        L['higher_dimensional_learning_disclaimer'],
     rewards = {
         Achievement({id = 11175}), -- Higher Dimensional Learning
         Item({item = 140493}) -- Adept's Guide to Dimensional Rifting
@@ -613,14 +612,14 @@ local Book = Class('Book', Collectible, {
 map.nodes[68105110] = Book({
     sublabel = L['book_1'],
     note = L['higher_dimensional_learning_note'] .. '\n\n' ..
-        Orange(L['higher_dimensional_learning_disclaimer']),
+        L['higher_dimensional_learning_disclaimer'],
     criteriaID = 32196
 }) --  Dimensional Rifting Ch. 1 - Navigating Through Time
 
 map.nodes[55207150] = Book({
     sublabel = L['book_2'],
     note = L['higher_dimensional_learning_note'] .. '\n\n' ..
-        Orange(L['higher_dimensional_learning_disclaimer']) .. '\n\n' ..
+        L['higher_dimensional_learning_disclaimer'] .. '\n\n' ..
         L['higher_dimensional_learning_location'],
     criteriaID = 32197
 }) -- Dimensional Rifting Ch. 2 - Holy Places to Many
@@ -628,14 +627,14 @@ map.nodes[55207150] = Book({
 map.nodes[33301110] = Book({
     sublabel = L['book_3'],
     note = L['higher_dimensional_learning_note'] .. '\n\n' ..
-        Orange(L['higher_dimensional_learning_disclaimer']),
+        L['higher_dimensional_learning_disclaimer'],
     criteriaID = 32198
 }) -- Dimensional Rifting Ch. 3 - Water, Just Water
 
 map.nodes[58301220] = Book({
     sublabel = L['book_4'],
     note = L['higher_dimensional_learning_note'] .. '\n\n' ..
-        Orange(L['higher_dimensional_learning_disclaimer']),
+        L['higher_dimensional_learning_disclaimer'],
     criteriaID = 32199,
     pois = {POI({58701420})}
 }) -- Dimensional Rifting Ch. 4 - Risks and Rewards
@@ -643,21 +642,21 @@ map.nodes[58301220] = Book({
 map.nodes[53102190] = Book({
     sublabel = L['book_5'],
     note = L['higher_dimensional_learning_note'] .. '\n\n' ..
-        Orange(L['higher_dimensional_learning_disclaimer']),
+        L['higher_dimensional_learning_disclaimer'],
     criteriaID = 32200
 }) -- Dimensional Rifting Ch. 5 - Finding Others Along the Way
 
 map.nodes[61104630] = Book({
     sublabel = L['book_6'],
     note = L['higher_dimensional_learning_note'] .. '\n\n' ..
-        Orange(L['higher_dimensional_learning_disclaimer']),
+        L['higher_dimensional_learning_disclaimer'],
     criteriaID = 32201
 }) -- Dimensional Rifting Ch. 6 - Pent Up Energy
 
 map.nodes[55604820] = Book({
     sublabel = L['book_7'],
     note = L['higher_dimensional_learning_note'] .. '\n\n' ..
-        Orange(L['higher_dimensional_learning_disclaimer']) .. '\n\n' ..
+        L['higher_dimensional_learning_disclaimer'] .. '\n\n' ..
         L['higher_dimensional_learning_location'],
     criteriaID = 32202
 }) -- Dimensional Rifting Ch. 7 - Our Legacy

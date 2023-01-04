@@ -51,7 +51,7 @@ local TrophyOfGloryQuests = {
     ['outpost'] = 35151
 }
 
-if UnitFactionGroup('player') == 'Alliance' then
+if ns.faction == 'Alliance' then
     TrophyOfGloryQuests = {
         ['biolante'] = 36502,
         ['crater lord igneous'] = 35812,
