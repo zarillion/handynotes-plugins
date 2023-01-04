@@ -440,16 +440,16 @@ L['shyfly_note'] = 'Has de estar en la misión {quest:70853} para poder ver las 
 
 L['cataloger_jakes_note'] = 'Entrega {item:192055} para conseguir reputación con {faction:2507}.'
 
-L['snack_attack_suffix'] = nil
-L['snack_attack_note'] = nil
+L['snack_attack_suffix'] = 'Tentempiés ofrecidos a Ternera'
+L['snack_attack_note'] = 'Recoge varios {npc:195806} y alimenta 20 veces a {npc:194922}.\n\n{note:No necesita ser completado durante un solo asedio.}'
 L['options_icons_snack_attack'] = '{achievement:16410}'
-L['options_icons_snack_attack_desc'] = nil
+L['options_icons_snack_attack_desc'] = 'Muestra dónde hay {npc:195806} para el logro {achievement:16410}.'
 
-L['loyal_magmammoth_step_1'] = nil
-L['loyal_magmammoth_step_2'] = nil
-L['loyal_magmammoth_step_3'] = nil
-L['loyal_magmammoth_true_friend'] = nil
-L['loyal_magmammoth_wrathion_quatermaster_note'] = nil
-L['loyal_magmammoth_sabellian_quatermaster_note'] = nil
-L['loyal_magmammoth_harness_note'] = nil
-L['loyal_magmammoth_taming_note'] = nil
+L['loyal_magmammoth_step_1'] = 'Paso 1'
+L['loyal_magmammoth_step_2'] = 'Paso 2'
+L['loyal_magmammoth_step_3'] = 'Paso 3'
+L['loyal_magmammoth_true_friend'] = 'Amigo Verdadero'
+L['loyal_magmammoth_wrathion_quatermaster_note'] = 'Compra unas {item:201840} ' .. ns.color.Gold('(800 oros)') .. ' a {npc:199020} o a {npc:188625}.'
+L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Compra unas {item:201839} ' .. ns.color.Gold('(800 oros)') .. ' a {npc:199036} o a {npc:188623}.'
+L['loyal_magmammoth_harness_note'] = 'Compra el {item:201837} a {npc:191135}.'
+L['loyal_magmammoth_taming_note'] = 'Usa el {item:201837} mientras montas a un {npc:198150} para conseguir su montura.\n\n{note:Los informes indican que es posible que solo se pueda aprovechar el {npc:198150} que está en el {location:Ascenso Ardiente}.}'
