@@ -1838,6 +1838,84 @@ end
 
 map.nodes[20333977] = Otto({pois = {POI({19603650})}})
 
+--------------------------- MOUNT: LOYAL MAGMAMMOTH ---------------------------
+
+local LOYAL_MAGMAMMOTH_REWARDS = {
+    Achievement({id = 16736}), -- Grand Theft Mammoth
+    Mount({item = 192601, id = 1612}) -- Loyal Magmammoth
+}
+
+local Friendship = Class('Friendship', ns.requirement.Requirement)
+
+function Friendship:Initialize(id, level, label)
+    self.id, self.level, self.label = id, level, label
+end
+
+function Friendship:GetText()
+    local name = GetFactionInfoByID(self.id)
+    local level = self.label
+    return string.format(name .. ' (' .. level .. ')')
+end
+
+function Friendship:IsMet()
+    local standingID = select(3, GetFactionInfoByID(self.id))
+    return standingID >= self.level
+end
+
+-- STEP ONE: ------------------------------------------------------------------
+
+local WrathionQuartermaster = Class('WrathionQuartermaster', Collectible, {
+    icon = 3778175,
+    requires = Friendship(2517, 8, L['loyal_magmammoth_true_friend']), -- Wrathion (True Friend)
+    note = L['loyal_magmammoth_wrathion_quatermaster_note'],
+    rlabel = ns.status.Gray(L['loyal_magmammoth_step_1']),
+    rewards = LOYAL_MAGMAMMOTH_REWARDS
+}) -- Sturdy Obsidian Glasses
+
+map.nodes[26606240] = WrathionQuartermaster({id = 199020}) -- Atticus Belle <Assistant Quartermaster> (Sturdy Obsidian Glasses)
+map.nodes[25205580] = WrathionQuartermaster({id = 188625}) -- Lorena Belle <Wrathion's Quartermaster> (Sturdy Obsidian Glasses)
+
+local SabellianQuartermaster = Class('SabellianQuartermaster', Collectible, {
+    icon = 4237704,
+    requires = Friendship(2518, 8, L['loyal_magmammoth_true_friend']), -- Sabellian (True Friend)
+    note = L['loyal_magmammoth_sabellian_quatermaster_note'],
+    rlabel = ns.status.Gray(L['loyal_magmammoth_step_1']),
+    rewards = LOYAL_MAGMAMMOTH_REWARDS
+}) -- Netherforged Lavaproof Boots
+
+map.nodes[24605680] = SabellianQuartermaster({id = 188623}) -- Samia Inkling <Sabellian's Quartermaster> (Netherforged Lavaproof Boots)
+map.nodes[27605620] = SabellianQuartermaster({id = 199036}) -- Xaldrass <Assistant Quartermaster> (Netherforged Lavaproof Boots)
+
+-- STEP TWO: ------------------------------------------------------------------
+
+map.nodes[26405540] = Collectible({
+    id = 191135,
+    icon = 4034835,
+    note = L['loyal_magmammoth_harness_note'],
+    rlabel = ns.status.Gray(L['loyal_magmammoth_step_2']),
+    requires = {
+        ns.requirement.Item(201840), -- Sturdy Obsidian Glasses
+        ns.requirement.Item(201839) -- Netherforged Lavaproof Boots
+    },
+    rewards = LOYAL_MAGMAMMOTH_REWARDS
+}) -- Yries Lightfingers <Second-Hand Supplies> (Magmammoth Harness)
+
+-- STEP THREE: ----------------------------------------------------------------
+
+local TameMagmammoth = Class('TameMagmammoth', Collectible, {
+    id = 198150,
+    icon = 4034835,
+    note = L['loyal_magmammoth_taming_note'],
+    rlabel = ns.status.Gray(L['loyal_magmammoth_step_3']),
+    requires = ns.requirement.Item(201837), -- Magmammoth Harness
+    rewards = LOYAL_MAGMAMMOTH_REWARDS
+}) -- Tame Magmammoth
+
+map.nodes[33427207] = TameMagmammoth() -- Burning Ascent
+map.nodes[23667144] = TameMagmammoth() -- Dragonbane Keep
+map.nodes[66342446] = TameMagmammoth() -- Scalecracker Keep
+map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[47128259] = NPC({

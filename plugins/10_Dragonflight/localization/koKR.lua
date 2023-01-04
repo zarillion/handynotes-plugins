@@ -428,3 +428,12 @@ L['snack_attack_suffix'] = nil
 L['snack_attack_note'] = nil
 L['options_icons_snack_attack'] = '{achievement:16410}'
 L['options_icons_snack_attack_desc'] = nil
+
+L['loyal_magmammoth_step_1'] = nil
+L['loyal_magmammoth_step_2'] = nil
+L['loyal_magmammoth_step_3'] = nil
+L['loyal_magmammoth_true_friend'] = nil
+L['loyal_magmammoth_wrathion_quatermaster_note'] = nil
+L['loyal_magmammoth_sabellian_quatermaster_note'] = nil
+L['loyal_magmammoth_harness_note'] = nil
+L['loyal_magmammoth_taming_note'] = nil
