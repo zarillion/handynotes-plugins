@@ -2,7 +2,6 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local L = ns.locale
 local Map = ns.Map
 
 local Safari = ns.node.Safari

@@ -13,7 +13,7 @@ local POI = ns.poi.POI
 
 local map = ns.Map({id = 1, settings = true})
 local orgrimmar = ns.Map({id = 85, settings = true})
-local cleftofshadow = ns.Map({id = 86, settings = true})
+-- local cleftofshadow = ns.Map({id = 86, settings = true})
 local valleyoftrials = ns.Map({id = 461, settings = true})
 
 -------------------------------------------------------------------------------
