@@ -455,7 +455,7 @@ map.nodes[26073412] = Rare({
 }) -- Ty'foon the Ascended
 
 map.nodes[43105078] = Rare({
-    id = 191354,
+    id = 192983,
     quest = 74095,
     note = L['in_cave'],
     rewards = {
