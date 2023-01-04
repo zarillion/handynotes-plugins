@@ -439,3 +439,8 @@ L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour l
 L['shyfly_note'] = 'Vous devez avoir la quête {quest:70853} pour voir les {npc:189102}.'
 
 L['cataloger_jakes_note'] = 'Échangez vos {item:192055} pour obtenir de la réputation avec l\'{faction:2507}.'
+
+L['snack_attack_suffix'] = nil
+L['snack_attack_note'] = nil
+L['options_icons_snack_attack'] = '{achievement:16410}'
+L['options_icons_snack_attack_desc'] = nil

@@ -439,3 +439,8 @@ L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate 
 L['shyfly_note'] = 'Has de estar en la misión {quest:70853} para poder ver las {npc:189102}.'
 
 L['cataloger_jakes_note'] = 'Entrega {item:192055} para conseguir reputación con {faction:2507}.'
+
+L['snack_attack_suffix'] = nil
+L['snack_attack_note'] = nil
+L['options_icons_snack_attack'] = '{achievement:16410}'
+L['options_icons_snack_attack_desc'] = nil

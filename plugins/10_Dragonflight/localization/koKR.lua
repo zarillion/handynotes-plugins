@@ -423,3 +423,8 @@ L['options_icons_safari_desc'] = '{achievement:16519} 업적을 위한 전투애
 L['shyfly_note'] = '{npc:189102}를 보려면 {quest:70853} 퀘스트 중이어야 합니다.'
 
 L['cataloger_jakes_note'] = '{item:192055}을 반납하여 {faction:2507} 평판을 획득합니다.'
+
+L['snack_attack_suffix'] = nil
+L['snack_attack_note'] = nil
+L['options_icons_snack_attack'] = '{achievement:16410}'
+L['options_icons_snack_attack_desc'] = nil

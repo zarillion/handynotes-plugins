@@ -438,3 +438,8 @@ L['options_icons_safari_desc'] = '显示 {achievement:16519} 成就中战斗宠�
 L['shyfly_note'] = '必须在任务 {quest:70853} 中才能看到 {npc:189102}。'
 
 L['cataloger_jakes_note'] = '用 {item:192055} 换取 {faction:2507} 声望。'
+
+L['snack_attack_suffix'] = nil
+L['snack_attack_note'] = nil
+L['options_icons_snack_attack'] = '{achievement:16410}'
+L['options_icons_snack_attack_desc'] = nil

@@ -438,3 +438,8 @@ L['options_icons_safari_desc'] = '顯示成就 {achievement:16519} 所需的戰�
 L['shyfly_note'] = '你必須要正在做 {quest:70853} 任務才能看到 {npc:189102}.'
 
 L['cataloger_jakes_note'] = '用 {item:192055} 交換 {faction:2507} 聲望'
+
+L['snack_attack_suffix'] = nil
+L['snack_attack_note'] = nil
+L['options_icons_snack_attack'] = '{achievement:16410}'
+L['options_icons_snack_attack_desc'] = nil

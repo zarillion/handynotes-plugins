@@ -432,3 +432,8 @@ L['options_icons_safari_desc'] = 'Отображение местоположе�
 L['shyfly_note'] = 'Вы должны выполнить задание {quest:70853}, чтобы увидеть {npc:189102}.'
 
 L['cataloger_jakes_note'] = 'Обменяйте {item:192055} на репутацию с {faction:2507}.'
+
+L['snack_attack_suffix'] = nil
+L['snack_attack_note'] = nil
+L['options_icons_snack_attack'] = '{achievement:16410}'
+L['options_icons_snack_attack_desc'] = nil

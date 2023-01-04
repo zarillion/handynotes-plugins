@@ -424,3 +424,9 @@ L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für d
 L['shyfly_note'] = 'Du musst dich auf der Quest {quest:70853} befinden, um {npc:189102} zu sehen.'
 
 L['cataloger_jakes_note'] = 'Tausche {item:192055} gegen Ruf bei der |cFFFFFF00Drachenschuppenexpedition|r ein.'
+
+L['snack_attack_suffix'] = nil
+L['snack_attack_note'] = nil
+L['options_icons_snack_attack'] = '{achievement:16410}'
+L['options_icons_snack_attack_desc'] = nil
+

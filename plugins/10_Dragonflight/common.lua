@@ -155,6 +155,11 @@ ns.groups.SAFARI = Group('safari', 4048818, {
     type = ns.group_types.ACHIEVEMENT
 })
 
+ns.groups.SNACK_ATTACK = Group('snack_attack', 134062, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT
+})
+
 ns.groups.SPECIALTIES = Group('specialties', 651585, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT

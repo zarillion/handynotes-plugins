@@ -438,3 +438,8 @@ L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievem
 L['shyfly_note'] = 'You have to be on the quest {quest:70853} to see the {npc:189102}.'
 
 L['cataloger_jakes_note'] = 'Exchange {item:192055} for {faction:2507} reputation.'
+
+L['snack_attack_suffix'] = 'snacks fed to Beef'
+L['snack_attack_note'] = 'Collect {npc:195806s} and feed {npc:194922} 20 times.\n\n{note:This does not need to be completed during a single seige.}'
+L['options_icons_snack_attack'] = '{achievement:16410}'
+L['options_icons_snack_attack_desc'] = 'Display {npc:195806} locations for {achievement:16410}'
