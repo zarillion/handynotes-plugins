@@ -1509,7 +1509,12 @@ map.nodes[16176261] = Collectible({
     label = '{npc:196214}',
     group = ns.groups.STORIES,
     icon = 4549126,
-    -- quest = {70779,70767,70768}, -- TODO
+    -- quest = {
+    --     70779, -- Weekly (Targin's Tales)
+    --     70767,
+    --     70768,
+    --     70772 (Tale of the Warlord)
+    -- }, -- TODO
     -- questCount = true,
     note = L['all_sides_of_the_story_tarjin_note'],
     rewards = {Achievement({id = 16406, criteria = 3})}
