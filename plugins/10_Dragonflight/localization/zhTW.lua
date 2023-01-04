@@ -89,32 +89,32 @@ L['options_icons_signal_transmitter_desc'] = '顯示 {item:198156} 所需的 {ob
 L['spawns_hourly'] = '大約每小時重生'
 L['spawns_at_night'] = '僅在晚上重生 (伺服器時間 18:30 之後)'
 
-L['elemental_storm'] = nil
-L['elemental_storm_thunderstorm'] = nil
-L['elemental_storm_sandstorm'] = nil
-L['elemental_storm_firestorm'] = nil
-L['elemental_storm_snowstorm'] = nil
+L['elemental_storm'] = '元素風暴'
+L['elemental_storm_thunderstorm'] = '雷霆風暴'
+L['elemental_storm_sandstorm'] = '沙塵風暴'
+L['elemental_storm_firestorm'] = '火焰風暴'
+L['elemental_storm_snowstorm'] = '冰雪風暴'
 
-L['elemental_storm_brakenhide_hollow'] = nil
-L['elemental_storm_cobalt_assembly'] = nil
-L['elemental_storm_dragonbane_keep'] = nil
-L['elemental_storm_imbu'] = nil
-L['elemental_storm_nokhudon_hold'] = nil
-L['elemental_storm_ohniri_springs'] = nil
-L['elemental_storm_primalist_future'] = nil
-L['elemental_storm_primalist_tomorrow'] = nil
-L['elemental_storm_scalecracker_keep'] = nil
-L['elemental_storm_slagmire'] = nil
-L['elemental_storm_tyrhold'] = nil
+L['elemental_storm_brakenhide_hollow'] = '蕨皮谷'
+L['elemental_storm_cobalt_assembly'] = '鈷藍集會'
+L['elemental_storm_dragonbane_keep'] = '龍禍要塞'
+L['elemental_storm_imbu'] = '伊姆布'
+L['elemental_storm_nokhudon_hold'] = '諾庫敦堡'
+L['elemental_storm_ohniri_springs'] = '雍伊爾溫泉'
+L['elemental_storm_primalist_future'] = '洪荒使者未來'
+L['elemental_storm_primalist_tomorrow'] = '洪荒使者未來'
+L['elemental_storm_scalecracker_keep'] = '碎鱗者要塞'
+L['elemental_storm_slagmire'] = '熔渣泥沼'
+L['elemental_storm_tyrhold'] = '提爾堡'
 
-L['elemental_overflow_obtained_suffix'] = nil
-L['empowered_mobs_killed_suffix'] = nil
+L['elemental_overflow_obtained_suffix'] = '元素溢流已取得'
+L['empowered_mobs_killed_suffix'] = '強化生物已擊殺'
 
-L['elemental_storm_mythressa_note_start'] = nil
-L['elemental_storm_mythressa_note_end'] = nil
+L['elemental_storm_mythressa_note_start'] = '使用 {currency:2118} 交換裝備, 寵物和1個座騎'
+L['elemental_storm_mythressa_note_end'] = '你現在有 %s 個 {currency:2118}.'
 
-L['options_icons_elemental_storm'] = nil
-L['options_icons_elemental_storm_desc'] = nil
+L['options_icons_elemental_storm'] = '元素風暴'
+L['options_icons_elemental_storm_desc'] = '顯示元素風暴的獎勵.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -267,11 +267,11 @@ L['initiate_kittileg_note'] = '完成 {quest:66226} 來取得玩具!'
 L['quackers_duck_trap_kit'] = '要召喚 {npc:192557}. 首先你需要可以在附近營地找到的 {item:194740}.\n\n 要製造成 {item:194712} 你需要如下的材料:'
 L['quackers_spawn'] = '接著你需要用 {item:194712} 抓住一隻鴨子. 你可以在附近的巢邊找到一些. 然後在 {npc:192581} 使用 {item:194739} 來召喚 {npc:192557}.'
 
-L['knew_you_nokhud_do_it_note'] = nil
+L['knew_you_nokhud_do_it_note'] = '{note:所有3個物品都是唯一且有30分鐘的時限.}\n\n從 {location:諾庫敦堡} 附近的 {npc:185357}, {npc:185353} 和 {npc:185168} 收集 {item:200184}, {item:200194} 和 {item:200196}.\n\n組合他們來製造 {item:200201} 並使用它後和 {npc:197884} 說話來開始訓練.\n\n使用你的 |cFFFFFD00額外動作按鈕|r 來完成它並取得你的成就.\n\n{note:在元素風暴期間與團隊一起會讓農物品更加簡單}'
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
-L['options_icons_nokhud_do_it_desc'] = nil
+L['options_icons_nokhud_do_it_desc'] = '顯示成就 {achievement:16583} 有用的幫助訊息'
 
-L['chest_of_the_flood'] = nil
+L['chest_of_the_flood'] = '洪流寶箱'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -281,7 +281,7 @@ L['ancient_protector_note'] = '殺掉附近的 {npc:193244} 來取得 {item:1977
 L['blightpaw_note'] = '和附近的 {npc:193222} 交談並同意幫助他.'
 L['corrupted_proto_dragon_note'] = '和 {object:腐化的龍蛋} 互動來召喚稀有'
 L['lord_epochbrgl_note'] = '點擊 {npc:193257} 來刷新稀有'
-L['the_great_shellkhan_note'] = nil
+L['the_great_shellkhan_note'] = '從 {location:蒼藍高地} 的 {location:寇莉格微光水灣} 收集 {item:200949}, 在3分鐘內走回去找 {npc:191416} 繳回物品來啟動稀有並取得成就.\n\n {note:在開始前確定 {npc:191416} 和 {npc:191305}在那裡.1周只有1個角色可以撿起並繳回物品來啟動稀有, 之後 {npc:191416} 只會感謝你}'
 L['weeping_vilomah_note'] = '和 {npc:193206} 對話來召喚稀有'
 L['woofang_note'] = '撫摸 {npc:193156} 來召喚稀有.'
 
@@ -313,7 +313,7 @@ L['arcanostabilized_provisions_note'] = '從在 {location:時光合流} 內的 {
 L['steamed_scarab_steak_note'] = '從在 {location:安詳夢境水療中心} 的 {npc:197586} {title:<水療中心酒保>} 處購買.'
 L['craft_creche_crowler_note'] = '從在每天地圖下列隨機位置 {location:晶紅生命聖殿}, {location:綠鱗旅店}, {location:穆斯提的大帳篷}, {location:時光合流} 的 {npc:187444} {title:<旅行龍釀商人>} 處購買.'
 L['bivigosas_blood_sausages_note'] = '從在 {location:蓋利奇爾崗哨} 的 {npc:188895} {title:<食物和飲料>} 處購買.'
-L['rumiastrasza_note'] = nil
+L['rumiastrasza_note'] = '{note:在 {location:沃卓肯} 完成從 {quest:71238} 開始的每日任務線, 否則成就沒辦法完成.}'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = '顯示成就 {achievement:16621} 所需的食物和飲料位置.'
 
@@ -326,7 +326,7 @@ L['ruby_feast_gourmand'] = '一個隨機的客座大廚會每天提供不同的�
 L['sorotis_note'] = '用 {item:199906} 交換 {faction:2510} 聲望'
 L['lillian_brightmoon_note'] = '用 {item:201412} 交換 {faction:2507} 聲望'
 
-L['chest_of_the_elements'] = nil
+L['chest_of_the_elements'] = '元素寶箱'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -439,16 +439,16 @@ L['shyfly_note'] = '你必須要正在做 {quest:70853} 任務才能看到 {npc:
 
 L['cataloger_jakes_note'] = '用 {item:192055} 交換 {faction:2507} 聲望'
 
-L['snack_attack_suffix'] = nil
-L['snack_attack_note'] = nil
+L['snack_attack_suffix'] = '點心已餵給哞肉'
+L['snack_attack_note'] = '收集 {npc:195806} 並餵給哞肉20次.\n\n{note:不需要在一次進攻中餵完}'
 L['options_icons_snack_attack'] = '{achievement:16410}'
-L['options_icons_snack_attack_desc'] = nil
+L['options_icons_snack_attack_desc'] = '顯示成就 {achievement:16410} 所需的 {npc:195806} 位置'
 
-L['loyal_magmammoth_step_1'] = nil
-L['loyal_magmammoth_step_2'] = nil
-L['loyal_magmammoth_step_3'] = nil
-L['loyal_magmammoth_true_friend'] = nil
-L['loyal_magmammoth_wrathion_quatermaster_note'] = nil
-L['loyal_magmammoth_sabellian_quatermaster_note'] = nil
-L['loyal_magmammoth_harness_note'] = nil
-L['loyal_magmammoth_taming_note'] = nil
+L['loyal_magmammoth_step_1'] = '第一步'
+L['loyal_magmammoth_step_2'] = '第二步'
+L['loyal_magmammoth_step_3'] = '第三步'
+L['loyal_magmammoth_true_friend'] = '摯友'
+L['loyal_magmammoth_wrathion_quatermaster_note'] = '從 {npc:199020} 或 {npc:188625} 購買 {item:201840} '.. ns.color.Gold('(800 金)')
+L['loyal_magmammoth_sabellian_quatermaster_note'] = '從 {npc:199020} 或 {npc:188625} 購買 {item:201839} '.. ns.color.Gold('(800 金)')
+L['loyal_magmammoth_harness_note'] = '從 {npc:191135} 購買 {item:201837}.'
+L['loyal_magmammoth_taming_note'] = '當你騎著 {npc:198150} 時使用 {item:201837} 來取得你的座騎!\n\n{note:回報指出你只能在 {location:熾烈高地} 找到的 {npc:198150} 上使用}'
