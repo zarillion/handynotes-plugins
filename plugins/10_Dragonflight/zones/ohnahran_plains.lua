@@ -533,7 +533,7 @@ map.nodes[51985839] = Treasure({
 
 -------------------------------------------------------------------------------
 
-map.nodes[56007870] = ns.node.ElementalChest({
+map.nodes[56007878] = ns.node.ElementalChest({
     quest = 71033,
     label = L['chest_of_the_flood'],
     rewards = {

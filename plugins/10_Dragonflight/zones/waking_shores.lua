@@ -1326,7 +1326,7 @@ map.nodes[24056927] = Collectible({
 }) -- The Grand Flame's Journal
 
 -------------------------------------------------------------------------------
-------------------- SEIGE ON DRAGONBANE KEEP: SNACK ATTACK --------------------
+------------------- SIEGE ON DRAGONBANE KEEP: SNACK ATTACK --------------------
 -------------------------------------------------------------------------------
 
 map.nodes[30607820] = Collectible({
@@ -1338,7 +1338,7 @@ map.nodes[30607820] = Collectible({
         Achievement({
             id = 16410,
             criteria = {id = 1, qty = true, suffix = L['snack_attack_suffix']}
-        }) -- Seige On Dragonbane Keep: Snack Attack
+        }) -- Siege on Dragonbane Keep: Snack Attack
     },
     pois = {
         POI({

@@ -425,16 +425,17 @@ L['shyfly_note'] = 'Du musst dich auf der Quest {quest:70853} befinden, um {npc:
 
 L['cataloger_jakes_note'] = 'Tausche {item:192055} gegen Ruf bei der |cFFFFFF00Drachenschuppenexpedition|r ein.'
 
-L['snack_attack_suffix'] = nil
-L['snack_attack_note'] = nil
+L['snack_attack_suffix'] = 'Snacks an Böff verfüttert'
+L['snack_attack_note'] = 'Füttere {npc:194922} in Phase 1 des Szenarios |cFFFFFD00Belagerung der Drachenfluchfestung|r mit 20 {npc:195806}.\n\n{note:Diese müssen nicht in einer einzigen Belagerung an ihn verfüttert werden.}'
 L['options_icons_snack_attack'] = '{achievement:16410}'
-L['options_icons_snack_attack_desc'] = nil
+L['options_icons_snack_attack_desc'] = 'Zeigt die Position von {npc:195806} für den Erfolg {achievement:16410} an.'
 
-L['loyal_magmammoth_step_1'] = nil
-L['loyal_magmammoth_step_2'] = nil
-L['loyal_magmammoth_step_3'] = nil
-L['loyal_magmammoth_true_friend'] = nil
-L['loyal_magmammoth_wrathion_quatermaster_note'] = nil
-L['loyal_magmammoth_sabellian_quatermaster_note'] = nil
-L['loyal_magmammoth_harness_note'] = nil
-L['loyal_magmammoth_taming_note'] = nil
+L['loyal_magmammoth_step_1'] = 'Schritt 1'
+L['loyal_magmammoth_step_2'] = 'Schritt 2'
+L['loyal_magmammoth_step_3'] = 'Schritt 3'
+L['loyal_magmammoth_true_friend'] = 'Wahrer Freund'
+L['loyal_magmammoth_wrathion_quatermaster_note'] = 'Kaufe 1x {item:201840} ' .. ns.color.Gold('(800 Gold)') .. ' entweder von {npc:199020} oder {npc:188625}.'
+L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Kaufe 1x {item:201839} ' .. ns.color.Gold('(800 Gold)') .. ' entweder von {npc:199036} oder {npc:188623}.'
+L['loyal_magmammoth_harness_note'] = 'Kaufe 1x {item:201837} von {npc:191135}.'
+L['loyal_magmammoth_taming_note'] = 'Benutze den {item:201837} während du auf einem {npc:198150} aufsitzt, um das Reittier zu erhalten.\n\n{note:Berichten zufolge kann nur das {npc:198150} im {location:Sengender Stieg} gezügelt werden.}'
+
