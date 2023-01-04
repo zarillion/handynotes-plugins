@@ -18,6 +18,7 @@ local map = ns.Map({id = 50, settings = true})
 -------------------------------------------------------------------------------
 
 map.nodes[49004340] = Safari.Beetle({
+    parent = 224,
     pois = {
         POI({
             37204720, 40205520, 40407820, 42204940, 42407720, 43603240,
@@ -36,6 +37,7 @@ map.nodes[49004340] = Safari.Beetle({
 }) -- Beetle
 
 map.nodes[41804000] = Safari.CrimsonMoth({
+    parent = 224,
     pois = {
         POI({
             38803980, 38804220, 39003740, 39003820, 39203520, 39204080,
@@ -50,6 +52,7 @@ map.nodes[41804000] = Safari.CrimsonMoth({
 }) -- Crimson Moth
 
 map.nodes[63603400] = Safari.ForestSpiderling({
+    parent = 224,
     pois = {
         POI({
             33202900, 39603720, 43203880, 44804220, 47006260, 47404120,
@@ -60,6 +63,7 @@ map.nodes[63603400] = Safari.ForestSpiderling({
 }) -- Forest Spiderling
 
 map.nodes[53602540] = Safari.LizardHatchling({
+    parent = 224,
     pois = {
         POI({
             26402480, 27801980, 28402200, 31401960, 31601960, 32402540,
@@ -88,6 +92,7 @@ map.nodes[53602540] = Safari.LizardHatchling({
 }) -- Lizard Hatchling
 
 map.nodes[48404500] = Safari.Polly({
+    parent = 224,
     pois = {
         POI({
             24801920, 25001980, 28002040, 28002060, 28802480, 29403040,
@@ -119,6 +124,7 @@ map.nodes[48404500] = Safari.Polly({
 }) -- Polly
 
 map.nodes[44602040] = Safari.StrandCrab({
+    parent = 224,
     pois = {
         POI({
             17402400, 20002840, 20002860, 20204020, 20402540, 20602540,
@@ -142,6 +148,7 @@ map.nodes[44602040] = Safari.StrandCrab({
 }) -- Strand Crab
 
 map.nodes[53002040] = Safari.TreePython({
+    parent = 224,
     pois = {
         POI({
             23802220, 26602000, 27801980, 28003020, 28402200, 29002460,

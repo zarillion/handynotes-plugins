@@ -106,7 +106,7 @@ map.nodes[66205840] = Safari.EmeraldBoa({
     }
 }) -- Emerald Boa
 
-map.nodes[48204880] = Safari.FireBeetle({
+map.nodes[51805420] = Safari.FireBeetle({
     pois = {
         POI({
             44004940, 45005680, 45805460, 47204960, 47404300, 48005360,

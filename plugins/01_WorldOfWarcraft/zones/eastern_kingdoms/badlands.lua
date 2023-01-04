@@ -65,7 +65,7 @@ map.nodes[41002780] = Safari.KingSnake({
     }
 }) -- King Snake
 
-map.nodes[40603260] = Safari.Rattlesnake({
+map.nodes[50404560] = Safari.Rattlesnake({
     pois = {
         POI({
             10003020, 11205180, 12405380, 12805840, 14406020, 16606020,
