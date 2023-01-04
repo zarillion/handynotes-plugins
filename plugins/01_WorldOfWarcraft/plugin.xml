@@ -1,11 +1,48 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
   <Script file="common.lua"/>
-  <Script file="zones\ashenvale.lua"/>
-  <Script file="zones\azshara.lua"/>
-  <Script file="zones\blasted_lands.lua"/>
-  <Script file="zones\caverns_of_time.lua"/>
-  <Script file="zones\duskwood.lua"/>
-  <Script file="zones\the_hinterlands.lua"/>
-  <Script file="zones\feralas.lua"/>
-  <Script file="zones\tanaris.lua"/>
+
+  <Script file="zones\eastern_kingdoms\arathi_highlands.lua"/>
+  <Script file="zones\eastern_kingdoms\badlands.lua"/>
+  <Script file="zones\eastern_kingdoms\blasted_lands.lua"/>
+  <Script file="zones\eastern_kingdoms\burning_steppes.lua"/>
+  <Script file="zones\eastern_kingdoms\cape_of_stranglethorn.lua"/>
+  <Script file="zones\eastern_kingdoms\dun_morogh_ironforge.lua"/>
+  <Script file="zones\eastern_kingdoms\duskwood.lua"/>
+  <Script file="zones\eastern_kingdoms\eastern_plaguelands.lua"/>
+  <Script file="zones\eastern_kingdoms\elwynn_forest_stormwind.lua"/>
+  <Script file="zones\eastern_kingdoms\eversong_woods_silvermoon.lua"/>
+  <Script file="zones\eastern_kingdoms\ghostlands.lua"/>
+  <Script file="zones\eastern_kingdoms\hillsbrad_foothills.lua"/>
+  <Script file="zones\eastern_kingdoms\loch_modan.lua"/>
+  <Script file="zones\eastern_kingdoms\northern_stranglethorn.lua"/>
+  <Script file="zones\eastern_kingdoms\redridge_mountains.lua"/>
+  <Script file="zones\eastern_kingdoms\searing_gorge.lua"/>
+  <Script file="zones\eastern_kingdoms\silverpine_forest.lua"/>
+  <Script file="zones\eastern_kingdoms\swamp_of_sorrows.lua"/>
+  <Script file="zones\eastern_kingdoms\the_hinterlands.lua"/>
+  <Script file="zones\eastern_kingdoms\tirisfal_glades_undercity.lua"/>
+  <Script file="zones\eastern_kingdoms\western_plaguelands.lua"/>
+  <Script file="zones\eastern_kingdoms\westfall.lua"/>
+  <Script file="zones\eastern_kingdoms\wetlands.lua"/>
+
+  <Script file="zones\kalimdor\ashenvale.lua"/>
+  <Script file="zones\kalimdor\azshara.lua"/>
+  <Script file="zones\kalimdor\azuremyst_isle_exodar.lua"/>
+  <Script file="zones\kalimdor\bloodmyst_isle.lua"/>
+  <Script file="zones\kalimdor\caverns_of_time.lua"/>
+  <Script file="zones\kalimdor\darkshore.lua"/>
+  <Script file="zones\kalimdor\desolace.lua"/>
+  <Script file="zones\kalimdor\durotar_orgrimmar.lua"/>
+  <Script file="zones\kalimdor\dustwallow_marsh.lua"/>
+  <Script file="zones\kalimdor\feralas.lua"/>
+  <Script file="zones\kalimdor\mulgore_thunderbluff.lua"/>
+  <Script file="zones\kalimdor\northern_barrens.lua"/>
+  <Script file="zones\kalimdor\silithus.lua"/>
+  <Script file="zones\kalimdor\southern_barrens.lua"/>
+  <Script file="zones\kalimdor\stonetalon_mountains.lua"/>
+  <Script file="zones\kalimdor\tanaris.lua"/>
+  <Script file="zones\kalimdor\teldrassil_darnassus.lua"/>
+  <Script file="zones\kalimdor\thousand_needles.lua"/>
+  <Script file="zones\kalimdor\ungoro_crater.lua"/>
+  <Script file="zones\kalimdor\winterspring.lua"/>
 </Ui>

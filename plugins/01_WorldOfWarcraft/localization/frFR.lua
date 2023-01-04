@@ -8,3 +8,5 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['anniversary_note'] = '{note:Disponible uniquement lors de l\'événement anniversaire annuel !}'
+
+L['summer_only'] = nil
