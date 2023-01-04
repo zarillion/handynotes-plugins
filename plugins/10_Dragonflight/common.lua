@@ -346,6 +346,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         ClubTail = Item({item = 197149, quest = 69350}),
         CrestedBrow = Item({item = 197100, quest = 69301}),
         FinnedBack = Item({item = 197098, quest = 69299}),
+        HookedTail = Item({item = 197152, quest = 69353}),
         ManedHead = Item({item = 197111, quest = 69312}),
         SpikedClubTail = Item({item = 197150, quest = 69351}),
         StripedPattern = Item({item = 197138, quest = 69339}),
