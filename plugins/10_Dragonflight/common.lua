@@ -355,6 +355,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
     },
     CliffsideWylderdrake = {
         BlackHorns = Item({item = 196991, quest = 69191}),
+        BlueScales = Item({item = 197012, quest = 69212}),
         BluntSpikedTail = Item({item = 197019, quest = 69219}),
         BranchedHorns = Item({item = 196996, quest = 69196}),
         Ears = Item({item = 196982, quest = 69182}),
