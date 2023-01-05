@@ -367,6 +367,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         DualHornedChin = Item({item = 196973, quest = 69173}),
         FinnedCheek = Item({item = 197001, quest = 69201}),
         FinnedNeck = Item({item = 197022, quest = 69222}),
+        GreenScales = Item({item = 197011, quest = 69211}),
         HeadMane = Item({item = 196976, quest = 69176}),
         HeavyHorns = Item({item = 196992, quest = 69192}),
         HornedJaw = Item({item = 196985, quest = 69185}),
