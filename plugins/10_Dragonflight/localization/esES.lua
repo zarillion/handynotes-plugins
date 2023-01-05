@@ -282,7 +282,7 @@ L['ancient_protector_note'] = 'Mata a una {npc:193244} cercana para conseguir un
 L['blightpaw_note'] = 'Habla con el {npc:193222} y acepta ayudarle.'
 L['corrupted_proto_dragon_note'] = 'Inspecciona el {object:Huevo de Dragón Corrupto} para hacer aparecer al raro.'
 L['lord_epochbrgl_note'] = 'Haz click en la {npc:193257} para hacer aparecer al raro.'
-L['the_great_shellkhan_note'] = 'Coge una {item:200949} en el {location:Destello Kauriq} de las {location:Tierras Azures} y regresa al {npc:191416} en menos de 3 minutos para devolver el objeto que activa al raro para conseguir el logro.\n\n{note:Asegúrate de que el {npc:191416} y {npc:191305} están realmente antes de empezar. Sólo un personaje puede coger y devolver el objeto una vez a la semana para activar el raro tras. Después, el {npc:191416} sólo te dará las gracias.}'
+L['the_great_shellkhan_note'] = 'Coge una {item:200949} en el {location:Destello Kauriq} de las {location:Tierras Azures} y regresa al {npc:191416} en menos de 3 minutos para devolver el objeto que activa al raro para conseguir el logro.\n\n{note:Asegúrate de que el {npc:191416} y {npc:191305} están realmente antes de empezar. Sólo un personaje puede coger y devolver el objeto una vez a la semana para activar el raro. Después, el {npc:191416} sólo te dará las gracias.}'
 L['weeping_vilomah_note'] = 'Habla con {npc:193206} para invocar al raro.'
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
 
