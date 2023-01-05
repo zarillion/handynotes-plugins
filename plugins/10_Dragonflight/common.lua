@@ -346,7 +346,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         BlueScales = Item({item = 197612, quest = 69816}),
         BronzeAndGreenArmor = Item({item = 197577, quest = 69781}),
         BronzeScales = Item({item = 197613, quest = 69817}),
-        ClubTail = Item({item = 197624624, quest = 69828}),
+        ClubTail = Item({item = 197624, quest = 69828}),
         ClusterHorns = Item({item = 197602, quest = 69806}),
         CurledHorns = Item({item = 197605, quest = 69809}),
         CurvedHorns = Item({item = 197603, quest = 69807}),
