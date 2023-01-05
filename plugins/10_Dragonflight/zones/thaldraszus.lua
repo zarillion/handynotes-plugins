@@ -179,7 +179,7 @@ map.nodes[57218420] = Rare({ -- reqired 67030 review
 
 -- map.nodes[] = Rare({
 --     id = 193130,
---     quest = nil,
+--     quest = 73889,
 --     rewards = {
 --         Achievement({id = 16679, criteria = 56137}),
 --     }
