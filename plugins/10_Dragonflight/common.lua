@@ -382,7 +382,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         -- SilverAndPurpleArmor = Item({item = nil, quest = nil}),
         -- SmallEars = Item({item = nil, quest = nil}),
         -- SmallHeadFin = Item({item = nil, quest = nil}),
-        -- SpikedBack = Item({item = nil, quest = nil}),
+        SpikedBack = Item({item = 197586, quest = 69790}),
         -- SpikedNeck = Item({item = nil, quest = nil}),
         -- SpikedTail = Item({item = nil, quest = nil}),
         -- SpinedHead = Item({item = nil, quest = nil}),
