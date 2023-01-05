@@ -11,7 +11,7 @@ L['options_icons_netherwing_eggs'] = '{achievement:898}'
 L['options_icons_netherwing_eggs_desc'] = 'Afficher les emplacements des {item:32506} pour le haut-fait {achievement:898}.'
 
 L['options_icons_safari'] = '{achievement:6587}'
-L['options_icons_safari_desc'] = nil
+L['options_icons_safari_desc'] = 'Afficher les emplacements des familiers de combat pour le haut-fait {achievement:6587}.'
 
 L['options_icons_crazyforcats'] = '{achievement:8397}'
-L['options_icons_crazyforcats_desc'] = nil
+L['options_icons_crazyforcats_desc'] = 'Afficher les emplacements des familiers de combat pour le haut-fait {achievement:8397}.'
