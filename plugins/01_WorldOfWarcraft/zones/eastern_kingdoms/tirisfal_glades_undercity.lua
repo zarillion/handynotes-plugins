@@ -60,7 +60,7 @@ map.nodes[592047080] = Safari.LostOfLordaeron({
     }
 }) -- Lost of Lordaeron
 
-undercity.nodes[68403640] = Safari.Maggot({
+undercity.nodes[62403480] = Safari.Maggot({
     parent = map.id,
     pois = {
         POI({

@@ -169,7 +169,7 @@ map.nodes[57404600] = Safari.SnowyOwl({
 map.nodes[59925159] = ns.node.CrazyForCats({
     id = 52830,
     rewards = {
-        ns.reward.Achievement({id = 8397, criteria = 23595}),
+        ns.reward.Achievement({id = 8397, criteria = 23595, oneline = true}),
         ns.reward.Pet({item = 69239, id = 306})
     }
 }) -- Michelle De Rum - Winterspring Cub

@@ -137,7 +137,7 @@ new_tinkertown.nodes[45605280] = ns.node.CrazyForCats({
     parent = map.id,
     id = 68838,
     rewards = {
-        ns.reward.Achievement({id = 8397, criteria = 23585}),
+        ns.reward.Achievement({id = 8397, criteria = 23585, oneline = true}),
         ns.reward.Pet({id = 1162})
     },
     pois = {

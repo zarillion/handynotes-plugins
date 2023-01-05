@@ -14,3 +14,4 @@ L['options_icons_safari_desc'] = '显示 {achievement:6585} 和 {achievement:658
 
 L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = '显示 {achievement:8397} 成就中战斗宠物的位置。'
+L['cfc_blacktabby'] = nil

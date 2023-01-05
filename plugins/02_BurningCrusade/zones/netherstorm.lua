@@ -149,11 +149,11 @@ map.nodes[43523526] = ns.node.Collectible({
     icon = 656579,
     group = ns.groups.CRAZYFORCATS,
     rewards = {
-        Achievement({id = 8397, criteria = 23591}), Pet({item = 8490, id = 44}),
-        Pet({item = 8495, id = 51}), Pet({item = 10392, id = 78}),
-        Pet({item = 10393, id = 55}), Pet({item = 29363, id = 136}),
-        Pet({item = 29364, id = 137}), Pet({item = 29902, id = 139}),
-        Pet({item = 29958, id = 145})
+        Achievement({id = 8397, criteria = 23591, oneline = true}),
+        Pet({item = 8490, id = 44}), Pet({item = 8495, id = 51}),
+        Pet({item = 10392, id = 78}), Pet({item = 10393, id = 55}),
+        Pet({item = 29363, id = 136}), Pet({item = 29364, id = 137}),
+        Pet({item = 29902, id = 139}), Pet({item = 29958, id = 145})
     }
 }) -- Dealer Rashaad - Siamese Cat
 

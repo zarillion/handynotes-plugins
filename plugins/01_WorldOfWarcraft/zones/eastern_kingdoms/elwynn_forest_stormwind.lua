@@ -191,7 +191,8 @@ map.nodes[44215344] = ns.node.CrazyForCats({
     rewards = {
         ns.reward.Achievement({
             id = 8397,
-            criteria = {23587, 23578, 23582, 23592}
+            criteria = {23587, 23578, 23582, 23592},
+            oneline = true
         }), ns.reward.Pet({item = 8485, id = 40}),
         ns.reward.Pet({item = 8486, id = 41}),
         ns.reward.Pet({item = 8487, id = 43}),
@@ -207,7 +208,8 @@ stormwind.nodes[44215344] = ns.node.CrazyForCats({
     rewards = {
         ns.reward.Achievement({
             id = 8397,
-            criteria = {23587, 23578, 23582, 23592}
+            criteria = {23587, 23578, 23582, 23592},
+            oneline = true
         }), ns.reward.Pet({item = 8485, id = 40}),
         ns.reward.Pet({item = 8486, id = 41}),
         ns.reward.Pet({item = 8487, id = 43}),
