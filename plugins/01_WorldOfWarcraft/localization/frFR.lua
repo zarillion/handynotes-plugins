@@ -15,4 +15,4 @@ L['options_icons_safari_desc'] = 'Afficher les emplacements des familiers de com
 
 L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = 'Afficher les emplacements des familiers de combat pour le haut-fait {achievement:8397}.'
-L['cfc_blacktabby'] = 'Le {item:8491} peut être récupéré sur différents ennemis aux {location:Contreforts de Hautebrande}.\n\nLes ennemis recommandés sont {npc:49116} (Horde uniquement), {npc:48017} ou {npc:2248}.\n\n(Taux de loot en dessous de 0,1%)'
+L['cfc_blacktabby'] = 'Le {item:8491} peut être récupéré sur différents ennemis aux {location:Contreforts de Hautebrande}.\n\nLes ennemis recommandés sont {npc:49116} (Horde uniquement), {npc:48017} ou {npc:2248}.\n\n{note:Taux de loot en dessous de 0,1%.}'
