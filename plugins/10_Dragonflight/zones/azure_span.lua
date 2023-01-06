@@ -89,7 +89,7 @@ map.nodes[13584855] = Rare({
     quest = 74097,
     note = L['bisquis_note'],
     rewards = {
-        Achievement({id = 16678, criteria = 55381}),
+        Achievement({id = 16678, criteria = 55381}), --
         Achievement({id = 16444}) -- Leftovers' Revenge
     }
 }) -- Bisquius
