@@ -1873,6 +1873,7 @@ local WrathionQuartermaster = Class('WrathionQuartermaster', Collectible, {
     icon = 3778175,
     requires = Friendship(2517, 8, L['loyal_magmammoth_true_friend']), -- Wrathion (True Friend)
     note = L['loyal_magmammoth_wrathion_quatermaster_note'],
+    fgroup = 'loyal_magmammoth_fgroup',
     rlabel = ns.status.Gray(L['loyal_magmammoth_step_1']),
     rewards = LOYAL_MAGMAMMOTH_REWARDS
 }) -- Sturdy Obsidian Glasses
@@ -1884,6 +1885,7 @@ local SabellianQuartermaster = Class('SabellianQuartermaster', Collectible, {
     icon = 4237704,
     requires = Friendship(2518, 8, L['loyal_magmammoth_true_friend']), -- Sabellian (True Friend)
     note = L['loyal_magmammoth_sabellian_quatermaster_note'],
+    fgroup = 'loyal_magmammoth_fgroup',
     rlabel = ns.status.Gray(L['loyal_magmammoth_step_1']),
     rewards = LOYAL_MAGMAMMOTH_REWARDS
 }) -- Netherforged Lavaproof Boots
@@ -1897,6 +1899,7 @@ map.nodes[26405540] = Collectible({
     id = 191135,
     icon = 4034835,
     note = L['loyal_magmammoth_harness_note'],
+    fgroup = 'loyal_magmammoth_fgroup',
     rlabel = ns.status.Gray(L['loyal_magmammoth_step_2']),
     requires = {
         ns.requirement.Item(201840), -- Sturdy Obsidian Glasses
@@ -1911,6 +1914,7 @@ local TameMagmammoth = Class('TameMagmammoth', Collectible, {
     id = 198150,
     icon = 4034835,
     note = L['loyal_magmammoth_taming_note'],
+    fgroup = 'loyal_magmammoth_fgroup',
     rlabel = ns.status.Gray(L['loyal_magmammoth_step_3']),
     requires = ns.requirement.Item(201837), -- Magmammoth Harness
     rewards = LOYAL_MAGMAMMOTH_REWARDS
