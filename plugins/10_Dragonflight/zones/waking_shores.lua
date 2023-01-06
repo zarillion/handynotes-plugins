@@ -71,7 +71,7 @@ map.nodes[58634021] = Rare({
 
 map.nodes[54517174] = Rare({ -- review -- required 67030
     id = 193135,
-    quest = 69839,
+    quest = 73984,
     note = L['spawns_hourly'],
     rewards = {Achievement({id = 16676, criteria = 56041})}
 }) -- Azra's Prized Peony
