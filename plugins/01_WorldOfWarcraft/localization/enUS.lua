@@ -14,4 +14,4 @@ L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievem
 
 L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = 'Display battle pet locations for the {achievement:8397} achievement.'
-L['cfc_blacktabby'] = '{item:8491} can be looted from various enemys in {location:Hillsbrad Foothills}.\n\nReccomended enemys are {npc:49116} (Horde only), {npc:48017} or {npc:2248}.\n\n(Dropchance under 0.1%)'
+L['cfc_blacktabby'] = '{item:8491} can be looted from various enemys in {location:Hillsbrad Foothills}.\n\nReccomended enemys are {npc:49116} (Horde only), {npc:48017} or {npc:2248}.\n\n{note:Drop chance under 0.1%.}'
