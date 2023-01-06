@@ -151,14 +151,15 @@ map.nodes[16622798] = Rare({
     }
 }) -- Blue Terror
 
--- map.nodes[] = Rare({
---     id = 194392,
---     quest = 70165,
---     rewards = {
---         Achievement({id = 16678, criteria = 56103}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Brackle
+map.nodes[08944852] = Rare({
+    id = 194392,
+    quest = 73871,
+    note = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 16678, criteria = 56103}) --
+        -- Transmog({item = , slot = L['']}) -- Name
+    }
+}) -- Brackle
 
 map.nodes[27214490] = Rare({
     id = 193157,
