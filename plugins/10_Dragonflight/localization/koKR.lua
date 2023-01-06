@@ -120,6 +120,7 @@ L['options_icons_elemental_storm_desc'] = nil
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['bisquis_note'] = '{location:이스카라} 의 공동체 잔치에서 전설의 수프를 요리한 후 {npc:197557} 처치'
 L['blightfur_note'] = '{npc:193633}에게 말을 걸어 소환합니다.'
 L['brackenhide_rare_note'] = '{npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 순서로 10분 단위로 젠됩니다.'
 L['fisherman_tinnak_note'] = '{object:망가진 낚싯대}, {object:찢어진 낚시 그물}, {object:오래된 작살}을 모두 수집하면 생성됩니다.'

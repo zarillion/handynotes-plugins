@@ -120,6 +120,7 @@ L['options_icons_elemental_storm_desc'] = '顯示元素風暴的獎勵.'
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['bisquis_note'] = nil
 L['blightfur_note'] = '和 {npc:193633} 交談來召喚稀有'
 L['brackenhide_rare_note'] = '這些稀有會有10分鐘的間隔以 {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 的順序刷新'
 L['fisherman_tinnak_note'] = '收集{object:破損的釣魚竿}, {object:破損的捕漁網} 和 {object:舊魚叉}來召喚稀有.'

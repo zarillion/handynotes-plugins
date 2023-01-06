@@ -59,24 +59,6 @@ map.nodes[53013563] = Rare({
     }
 }) -- Arcane Devourer
 
--- map.nodes[] = Rare({
---     id = 193255,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56123}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Archmage Cleary
-
--- map.nodes[] = Rare({
---     id = 197411,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16678, criteria = 56130}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Astray Splasher
-
 map.nodes[55823132] = Rare({
     id = 194210,
     quest = 73867,
@@ -104,11 +86,11 @@ map.nodes[73032680] = Rare({
 
 map.nodes[13584855] = Rare({
     id = 197557,
-    quest = 70893,
-    -- note = L['Bisquis_Note'],
+    quest = 74097,
+    note = L['bisquis_note'],
     rewards = {
         Achievement({id = 16678, criteria = 55381}),
-        Achievement({id = 16444, criteria = 1})
+        Achievement({id = 16444})
     }
 }) -- Bisquius
 
@@ -158,7 +140,8 @@ map.nodes[08944852] = Rare({
     rewards = {
         Achievement({id = 16678, criteria = 56103}) --
         -- Transmog({item = , slot = L['']}) -- Name
-    }
+    },
+    pois = {POI({08584883})}
 }) -- Brackle
 
 map.nodes[27214490] = Rare({

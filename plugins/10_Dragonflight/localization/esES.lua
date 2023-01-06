@@ -121,6 +121,7 @@ L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las Torm
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
+L['bisquis_note'] = 'Cocina una sopa legendaria en el festín comunitario de {location:Iskaara} y luego derrota a {npc:197557}.'
 L['blightfur_note'] = 'Habla con {npc:193633} para hacer aparecer al raro.'
 L['brackenhide_rare_note'] = 'Estos raros aparecen en un rotación fija en el siguiente orden: {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} con una diferencia de 10 minutos.'
 L['fisherman_tinnak_note'] = 'Recoge la {object:Caña de Pescar Rota}, la {object:Red de Pescar Rota} y el {object:Arpón Viejo} para hacer aparecer al raro.'
