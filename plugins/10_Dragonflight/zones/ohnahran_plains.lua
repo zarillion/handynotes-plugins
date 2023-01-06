@@ -244,7 +244,7 @@ map.nodes[43405560] = Rare({
 
 map.nodes[42804428] = Rare({ -- review
     id = 195223,
-    quest = nil,
+    quest = 73973,
     rewards = {
         Achievement({id = 16677, criteria = 56093})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -327,7 +327,7 @@ map.nodes[27605560] = Rare({
 
 map.nodes[83786215] = Rare({
     id = 192453,
-    quest = nil,
+    quest = 73978,
     rewards = {Achievement({id = 16677, criteria = 56090})}
 }) -- Vaniik the Stormtouched
 
