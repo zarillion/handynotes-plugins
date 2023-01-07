@@ -1511,16 +1511,14 @@ map.nodes[16176261] = Collectible({
     group = ns.groups.STORIES,
     icon = 4549126,
     -- quest = {
-    --     70779, -- Weekly (Targin's Tales)
-    --     70767,
-    --     70768,
-    --          ,  -- Week 0: How did you lose your eyesight?
-    --          ,  -- Week 0: Why aren't you with the other djaradin?
-    --          ,  -- Week 1: Tale of the Outsider
-    --          ,  -- Week 2: Tale of the Elders
+    --     70779, -- Weekly (Targin's Tales) (not need count this one.)
+    --          ,  -- Week 0: How did you lose your eyesight? (not need count this one.)
+    --          ,  -- Week 0: Why aren't you with the other djaradin? (not need count this one.)
+    --     70767,  -- Week 1: Tale of the Outsider
+    --     70770,  -- Week 2: Tale of the Elders
     --     70772,  -- Week 3: Tale of the Warlord
-    --          ,  -- Week 4: Tale of the Slumbering
-    --          ,  -- Week 5: The Magma Pact
+    --     70774,  -- Week 4: Tale of the Slumbering
+    --     70776,  -- Week 5: The Magma Pact
     --     70777,  -- Week 6: Tale of the Weakling
     -- }, -- TODO
     -- questCount = true,
