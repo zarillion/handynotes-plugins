@@ -1510,18 +1510,18 @@ map.nodes[16176261] = Collectible({
     label = '{npc:196214}',
     group = ns.groups.STORIES,
     icon = 4549126,
-    -- quest = {
-    --     70779, -- Weekly (Targin's Tales) (not need count this one.)
-    --          ,  -- Week 0: How did you lose your eyesight? (not need count this one.)
-    --          ,  -- Week 0: Why aren't you with the other djaradin? (not need count this one.)
-    --     70767,  -- Week 1: Tale of the Outsider
-    --     70770,  -- Week 2: Tale of the Elders
-    --     70772,  -- Week 3: Tale of the Warlord
-    --     70774,  -- Week 4: Tale of the Slumbering
-    --     70776,  -- Week 5: The Magma Pact
-    --     70777,  -- Week 6: Tale of the Weakling
-    -- }, -- TODO
-    -- questCount = true,
+    quest = {
+        -- 70779, Weekly (Targin's Tales) (not need count this one.)
+        -- Week 0: How did you lose your eyesight? (not need count this one.)
+        -- Week 0: Why aren't you with the other djaradin? (not need count this one.)
+        70767, -- Week 1: Tale of the Outsider
+        70770, -- Week 2: Tale of the Elders
+        70772, -- Week 3: Tale of the Warlord
+        70774, -- Week 4: Tale of the Slumbering
+        70776, -- Week 5: The Magma Pact
+        70777 -- Week 6: Tale of the Weakling
+    },
+    questCount = true,
     note = L['all_sides_of_the_story_tarjin_note'],
     rewards = {Achievement({id = 16406, criteria = 3})}
 }) -- Tarjin the Blind
