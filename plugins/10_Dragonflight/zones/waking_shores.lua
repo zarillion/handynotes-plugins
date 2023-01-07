@@ -1514,7 +1514,14 @@ map.nodes[16176261] = Collectible({
     --     70779, -- Weekly (Targin's Tales)
     --     70767,
     --     70768,
-    --     70772 (Tale of the Warlord)
+    --          ,  -- Week 0: How did you lose your eyesight?
+    --          ,  -- Week 0: Why aren't you with the other djaradin?
+    --          ,  -- Week 1: Tale of the Outsider
+    --          ,  -- Week 2: Tale of the Elders
+    --     70772,  -- Week 3: Tale of the Warlord
+    --          ,  -- Week 4: Tale of the Slumbering
+    --          ,  -- Week 5: The Magma Pact
+    --     70777,  -- Week 6: Tale of the Weakling
     -- }, -- TODO
     -- questCount = true,
     note = L['all_sides_of_the_story_tarjin_note'],
