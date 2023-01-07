@@ -323,8 +323,8 @@ L['lillian_brightmoon_note'] = 'Echangez vos {item:201412} pour obtenir de la r�
 
 L['chest_of_the_elements'] = 'Coffre des éléments'
 
-L['hoard_of_draconic_delicacies_note_start'] = nil
-L['hoard_of_draconic_delicacies_note_end'] = nil
+L['hoard_of_draconic_delicacies_note_start'] = 'Terminez les 7 quêtes suivantes données par {npc:189479} :'
+L['hoard_of_draconic_delicacies_note_end'] = 'Une fois toutes les quêtes terminées, {npc:189479} proposera {quest:67071} pour recevoir votre recette.\n\n{note:Les quêtes sont basées sur le chef invité actuel à l\'{location:Enclave de Rubis} et peuvent ne pas correspondre à l\'ordre indiqué ci-dessus.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
