@@ -1532,7 +1532,7 @@ map.nodes[57856680] = Collectible({
     icon = 4549126,
     quest = {
         70132, 70206, 70543, 70544, 70217, 70546, 70547, 70219, 70548, 70223,
-        70134, 70262, 70268
+        70134, 70268
     },
     questCount = true,
     note = L['all_sides_of_the_story_veritistrasz_note'],
