@@ -175,6 +175,11 @@ L['temperamental_skyclaw_note_end'] = '{npc:190892}에게 말을 걸어 안장�
 
 L['elder_poa_note'] = '{item:200071}을 반납하여 {faction:2511} 평판을 획득합니다.'
 
+L['artists_easel_note_step1'] = nil
+L['artists_easel_note_step2'] = nil
+L['artists_easel_note_step3'] = nil
+L['artists_easel_note_step4'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

@@ -176,6 +176,11 @@ L['temperamental_skyclaw_note_end'] = 'Спросите о оседланной 
 
 L['elder_poa_note'] = 'Обменяйте {item:200071} на репутацию с {faction:2511}.'
 
+L['artists_easel_note_step1'] = nil
+L['artists_easel_note_step2'] = nil
+L['artists_easel_note_step3'] = nil
+L['artists_easel_note_step4'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

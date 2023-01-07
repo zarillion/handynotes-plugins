@@ -182,6 +182,11 @@ L['temperamental_skyclaw_note_end'] = 'Renseignez-vous sur la rusarde sellée et
 
 L['elder_poa_note'] = 'Échangez vos {item:200071} pour obtenir de la réputation avec les {faction:2511}.'
 
+L['artists_easel_note_step1'] = nil
+L['artists_easel_note_step2'] = nil
+L['artists_easel_note_step3'] = nil
+L['artists_easel_note_step4'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

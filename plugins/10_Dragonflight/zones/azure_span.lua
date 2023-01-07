@@ -1350,6 +1350,39 @@ map.nodes[11604106] = Node({
     pois = {POI({19084139})} -- Entrance
 }) -- Magical Salt Crystal
 
+----------------------------- TOY: ARTIST'S EASEL -----------------------------
+
+local Ranpiata = Class('Ranpiata', Collectible, {
+    id = 194425,
+    icon = 237053,
+    rewards = {
+        Toy({item = 198474}) -- Artist's Easel
+    },
+    pois = {
+        POI({22133677}) -- Rauvros
+    }
+}) -- Ranpiata
+
+function Ranpiata.getters:note()
+    local function status(questID, questLeg)
+        if C_QuestLog.IsQuestFlaggedCompleted(questID) then
+            return ns.status.Green(questLeg)
+        else
+            return ns.status.Red(questLeg)
+        end
+    end
+
+    local note = '\n' .. status(70166, 1) .. ' ' ..
+                     L['artists_easel_note_step1'] -- The Joy of Painting
+    note = note .. '\n\n' .. status(70168, 2) .. ' ' ..
+               L['artists_easel_note_step2'] -- Sad Little Accidents
+    note = note .. '\n\n' .. status(70170, 3) .. ' ' ..
+               L['artists_easel_note_step3'] -- Beat the Demons Out of It
+    return note .. '\n\n' .. L['artists_easel_note_step4']
+end
+
+map.nodes[07855348] = Ranpiata()
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[12404920] = NPC({

@@ -175,6 +175,11 @@ L['temperamental_skyclaw_note_end'] = 'Fragt nach der gesattelten Slyvern und pr
 
 L['elder_poa_note'] = 'Tausche {item:200071} gegen Ruf bei den {faction:2511} ein.'
 
+L['artists_easel_note_step1'] = nil
+L['artists_easel_note_step2'] = nil
+L['artists_easel_note_step3'] = nil
+L['artists_easel_note_step4'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

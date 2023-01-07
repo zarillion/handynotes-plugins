@@ -181,6 +181,11 @@ L['temperamental_skyclaw_note_end'] = '詢問上鞍蠍尾飛狐的事並且將�
 
 L['elder_poa_note'] = '用 {item:200071} 交換 {faction:2511} 聲望'
 
+L['artists_easel_note_step1'] = nil
+L['artists_easel_note_step2'] = nil
+L['artists_easel_note_step3'] = nil
+L['artists_easel_note_step4'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
