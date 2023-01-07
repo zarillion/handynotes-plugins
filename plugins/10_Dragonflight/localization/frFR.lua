@@ -182,10 +182,10 @@ L['temperamental_skyclaw_note_end'] = 'Renseignez-vous sur la rusarde sellée et
 
 L['elder_poa_note'] = 'Échangez vos {item:200071} pour obtenir de la réputation avec les {faction:2511}.'
 
-L['artists_easel_note_step1'] = nil
-L['artists_easel_note_step2'] = nil
-L['artists_easel_note_step3'] = nil
-L['artists_easel_note_step4'] = nil
+L['artists_easel_note_step1'] = '{quest:70166}\n{npc:194415}, au sommet de la tour au {location:Promontoire Antique}, vous demandera de livrer son tableau à {npc:194323}, le plus grand peintre qui ait jamais vécu.'
+L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} vous demandera de collecter des tableaux dans les donjons {location:Bassins de l’Essence rubis}, {location:L’offensive nokhud}, et {location:Creux des Fougerobes}.'
+L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} vous demandera de collecter des tableaux dans les donjons {location:Salles de l’Imprégnation}, {location:Académie d’Algeth’ar}, {location:Caveau d’Azur}, et {location:Neltharus}.'
+L['artists_easel_note_step4'] = 'Apportez les tableaux finaux à {npc:194323} et vous recevrez votre jouet!\n\n{note:Les tableaux ne sont pas récupérables dans les donjons en difficulté Mythique ou Mythique+.}'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
