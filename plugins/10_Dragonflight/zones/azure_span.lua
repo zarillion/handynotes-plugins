@@ -216,7 +216,7 @@ map.nodes[14083747] = RareElite({
 
 map.nodes[32682911] = RareElite({ -- review -- required 67030
     id = 193251,
-    quest = 69885,
+    quest = 74001,
     note = L['spawns_hourly'],
     rewards = {
         Achievement({id = 16678, criteria = 56111})
