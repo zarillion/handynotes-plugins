@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
@@ -1307,7 +1308,7 @@ map.nodes[66333211] = Collectible({
 
 ------------------- ACHIEVEMENT: THREE MINUTES OR IT'S FREE -------------------
 
-map.nodes[45635482] = Collectible({
+map.nodes[45635482] = Node({
     label = '{item:200949}',
     note = L['the_great_shellkhan_note'],
     icon = 133920,
@@ -1319,7 +1320,7 @@ map.nodes[45635482] = Collectible({
 
 ------------------------- ITEM: MAGICAL SALT CRYSTAL --------------------------
 
-map.nodes[11604106] = Collectible({
+map.nodes[11604106] = Node({
     label = '{item:201033}',
     note = L['in_small_cave'] .. ' ' .. L['slurpo_snail_note'],
     icon = 132780,
