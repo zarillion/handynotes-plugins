@@ -1317,6 +1317,19 @@ map.nodes[45635482] = Collectible({
     }
 }) -- Case of Fresh Gleamfish
 
+------------------------- ITEM: MAGICAL SALT CRYSTAL --------------------------
+
+map.nodes[11604106] = Collectible({
+    label = '{item:201033}',
+    note = L['in_small_cave'] .. ' ' .. L['slurpo_snail_note'],
+    icon = 132780,
+    quest = 74079,
+    rewards = {
+        Item({item = 201033}) -- Magical Salt Crystal
+    },
+    pois = {POI({19084139})} -- Entrance
+}) -- Magical Salt Crystal
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[12404920] = NPC({

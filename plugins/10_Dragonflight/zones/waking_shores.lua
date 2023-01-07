@@ -360,7 +360,8 @@ map.nodes[46997332] = Rare({
     rewards = {
         Achievement({id = 16676, criteria = 56989}),
         Item({item = 200689, note = L['ring']}) -- Rimetalon Band
-    }
+    },
+    pois = {POI({47727466, 47557369})}
 }) -- Shadeslash Trakken
 
 map.nodes[23755724] = RareElite({ -- required 67030
