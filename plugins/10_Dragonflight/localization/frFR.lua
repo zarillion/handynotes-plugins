@@ -339,9 +339,9 @@ L['captain_lancer_note'] = 'Apparaît immédiatement après avoir terminé l\'é
 L['enkine_note'] = 'Tuez des {npc:193137}, {npc:193138} ou {npc:193139} le long de la rivière de lave pour obtenir les {item:201092}, utilisez-les et pêchez près de la {npc:191866} dans la lave.'
 L['lepidoralia_note'] = 'Situé dans la {location:Caverne Bruissante}. Aidez le {npc:193342} à attraper des {npc:193274s} jusqu\'à ce que le rare apparaisse.'
 L['obsidian_citadel_rare_note'] = 'Vous et d\'autres joueurs devez rapporter un total de %dx {item:191264} à %s. Pour fabriquer une clé, vous devez combiner 30x {item:191251} et 3x {item:193201}. Vous pouvez obtenir ces objets sur les monstres de la {location:Citadelle d\'obsidienne}.'
-L['shadeslash_note'] = 'Cliquez sur le {object:Focalisateur volé} pour invoquer le rare.'
+L['shadeslash_note'] = 'Cliquez sur le {object:Globe volé} ou le {object:Télescope volé}, puis cliquez sur le {object:Focalisateur volé} pour invoquer le rare.'
 L['obsidian_throne_rare_note'] = 'À l\'intérieur du {location:Trône d\'obsidienne}.'
-L['slurpo_snail_note'] = 'Récupérez un {item:201033} dans une grotte de {location:La Travée d\'Azur} (11, 41) et utilisez-le dans cette grotte pour l\'invoquer.'
+L['slurpo_snail_note'] = 'Récupérez un {item:201033} sur un {object:Cristal de sel} dans une grotte de {location:La Travée d\'Azur} (11, 41) et utilisez-le dans la grotte aux {location:Rivages de l’Éveil} pour l\'invoquer.'
 L['worldcarver_atir_note'] = 'Récupérez 3x {item:191211} sur les {npc:187366} à proximité et placez-les sur les {npc:197395} pour faire apparaître le rare.'
 
 L['bubble_drifter_note'] = '{item:199061} peut être trouvé dans les {object:Paquetages d\'éclaireurs de l\'expédition} et les {object:Terres retournées}.'
