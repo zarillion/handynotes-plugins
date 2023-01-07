@@ -1390,7 +1390,7 @@ map.nodes[12404920] = NPC({
     icon = 4638464,
     note = L['elder_poa_note'],
     pois = {
-        POI({12.81, 49.34}) -- Entrance
+        POI({12814934}) -- Entrance
     }
 }) -- Elder Poa (Iskaara Tuskarr Reputation)
 
