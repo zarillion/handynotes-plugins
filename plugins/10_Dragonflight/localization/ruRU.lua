@@ -108,14 +108,14 @@ L['elemental_storm_scalecracker_keep'] = 'Пик Расколотой Чешуи
 L['elemental_storm_slagmire'] = 'Шлаковая топь'
 L['elemental_storm_tyrhold'] = 'Тирхолд'
 
-L['elemental_overflow_obtained_suffix'] = nil
-L['empowered_mobs_killed_suffix'] = nil
+L['elemental_overflow_obtained_suffix'] = 'Энергия стихий получена'
+L['empowered_mobs_killed_suffix'] = 'Усиленные монстры убиты'
 
-L['elemental_storm_mythressa_note_start'] = nil
-L['elemental_storm_mythressa_note_end'] = nil
+L['elemental_storm_mythressa_note_start'] = 'В обмен на {currency:2118} получите снаряжение, питомцев и средство передвижения.'
+L['elemental_storm_mythressa_note_end'] = 'В настоящее время у вас есть %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = nil
-L['options_icons_elemental_storm_desc'] = nil
+L['options_icons_elemental_storm'] = 'Буря Стихий'
+L['options_icons_elemental_storm_desc'] = 'Показать награды за Бури Стихий.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -265,7 +265,7 @@ L['quackers_spawn'] = 'Затем вам нужно поймать утку с �
 
 L['knew_you_nokhud_do_it_note'] = nil
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
-L['options_icons_nokhud_do_it_desc'] = nil
+L['options_icons_nokhud_do_it_desc'] = 'Показать полезную информацию для завершения {achievement:16583}.'
 
 L['chest_of_the_flood'] = 'Сундук Прилива'
 
@@ -439,11 +439,11 @@ L['snack_attack_note'] = nil
 L['options_icons_snack_attack'] = '{achievement:16410}'
 L['options_icons_snack_attack_desc'] = nil
 
-L['loyal_magmammoth_step_1'] = nil
-L['loyal_magmammoth_step_2'] = nil
-L['loyal_magmammoth_step_3'] = nil
-L['loyal_magmammoth_true_friend'] = nil
-L['loyal_magmammoth_wrathion_quatermaster_note'] = nil
-L['loyal_magmammoth_sabellian_quatermaster_note'] = nil
-L['loyal_magmammoth_harness_note'] = nil
-L['loyal_magmammoth_taming_note'] = nil
+L['loyal_magmammoth_step_1'] = 'Шаг 1'
+L['loyal_magmammoth_step_2'] = 'Шаг 2'
+L['loyal_magmammoth_step_3'] = 'Шаг 3'
+L['loyal_magmammoth_true_friend'] = 'Настоящий друг'
+L['loyal_magmammoth_wrathion_quatermaster_note'] = 'Купите {item:201840} ' .. ns.color.Gold('(800 золотых)') .. ' у  {npc:199020} или {npc:188625}.'
+L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Купите {item:201839} ' .. ns.color.Gold('(800 золотых)') .. ' у  {npc:199036} или {npc:188623}.'
+L['loyal_magmammoth_harness_note'] = 'Купите {item:201837} у {npc:191135}.'
+L['loyal_magmammoth_taming_note'] = 'Используйте {item:201837} сидя верхом, на {npc:198150} чтобы получить средство передвижения!\n\n{note:Вы можете использовать только {npc:198150} которого можно найти на {location:Подъеме Пламени}.}'
