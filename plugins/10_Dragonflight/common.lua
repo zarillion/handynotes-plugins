@@ -850,9 +850,6 @@ local ELEMENTAL_STORM_AREA_POIS = {
     [7301] = 'snowstorm'
 }
 
--- vv ------------------------------------------------------------------------- TO-DO: SHOULD I SIMPLIFY THIS TABLE TO ONLY USE ACHIEVEMENT ID
--- vv ------------------------------------------------------------------------- AND THEN HANDLE BUILDING ACHIEVEMENT() IN THE ACTUAL CODE?
-
 local ELEMENTAL_STORM_MOB_ACHIVEMENTS = {
     ['all'] = Achievement({
         id = 16500,
@@ -863,174 +860,34 @@ local ELEMENTAL_STORM_MOB_ACHIVEMENTS = {
         }
     }), -- Elemental Overload
     [2022] = {
-        ['thunderstorm'] = Achievement({
-            id = 16463,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Thunderstorms in the Waking Shores
-        ['sandstorm'] = Achievement({
-            id = 16465,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Sandstorms in the Waking Shores
-        ['firestorm'] = Achievement({
-            id = 16466,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Firestorms in the Waking Shores
-        ['snowstorm'] = Achievement({
-            id = 16467,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }) -- Snowstorms in the Waking Shores
+        ['thunderstorm'] = 16463, -- Thunderstorms in the Waking Shores
+        ['sandstorm'] = 16465, -- Sandstorms in the Waking Shores
+        ['firestorm'] = 16466, -- Firestorms in the Waking Shores
+        ['snowstorm'] = 16467 -- Snowstorms in the Waking Shores
     }, -- Waking Shores
     [2023] = {
-        ['thunderstorm'] = Achievement({
-            id = 16475,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Thunderstorms in the Ohnahran Plains
-        ['sandstorm'] = Achievement({
-            id = 16477,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Sandstorms in the Ohnahran Plains
-        ['firestorm'] = Achievement({
-            id = 16478,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Firestorms in the Ohnahran Plains
-        ['snowstorm'] = Achievement({
-            id = 16479,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }) -- Snowstorms in the Ohnahran Plains
+        ['thunderstorm'] = 16475, -- Thunderstorms in the Ohnahran Plains
+        ['sandstorm'] = 16477, -- Sandstorms in the Ohnahran Plains
+        ['firestorm'] = 16478, -- Firestorms in the Ohnahran Plains
+        ['snowstorm'] = 16479 -- Snowstorms in the Ohnahran Plains
     }, -- Ohn'ahran Plains
     [2024] = {
-        ['thunderstorm'] = Achievement({
-            id = 16480,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Thunderstorms in the Azure Span
-        ['sandstorm'] = Achievement({
-            id = 16481,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Sandstorms in the Azure Span
-        ['firestorm'] = Achievement({
-            id = 16482,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Firestorms in the Azure Span
-        ['snowstorm'] = Achievement({
-            id = 16483,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }) -- Snowstorms in the Azure Span
+        ['thunderstorm'] = 16480, -- Thunderstorms in the Azure Span
+        ['sandstorm'] = 16481, -- Sandstorms in the Azure Span
+        ['firestorm'] = 16482, -- Firestorms in the Azure Span
+        ['snowstorm'] = 16483 -- Snowstorms in the Azure Span
     }, -- Azure Span
     [2025] = {
-        ['thunderstorm'] = Achievement({
-            id = 16485,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Thunderstorms in Thaldraszus
-        ['sandstorm'] = Achievement({
-            id = 16486,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Sandstorms in Thaldraszus
-        ['firestorm'] = Achievement({
-            id = 16487,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Firestorms in Thaldraszus
-        ['snowstorm'] = Achievement({
-            id = 16488,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }) -- Snowstorms in Thaldraszus
+        ['thunderstorm'] = 16485, -- Thunderstorms in Thaldraszus
+        ['sandstorm'] = 16486, -- Sandstorms in Thaldraszus
+        ['firestorm'] = 16487, -- Firestorms in Thaldraszus
+        ['snowstorm'] = 16488 -- Snowstorms in Thaldraszus
     }, -- Thaldraszus
     [2085] = {
-        ['thunderstorm'] = Achievement({
-            id = 16485,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Thunderstorms in Thaldraszus
-        ['sandstorm'] = Achievement({
-            id = 16486,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Sandstorms in Thaldraszus
-        ['firestorm'] = Achievement({
-            id = 16487,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }), -- Firestorms in Thaldraszus
-        ['snowstorm'] = Achievement({
-            id = 16488,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['empowered_mobs_killed_suffix']
-            }
-        }) -- Snowstorms in Thaldraszus
+        ['thunderstorm'] = 16485, -- Thunderstorms in Thaldraszus
+        ['sandstorm'] = 16486, -- Sandstorms in Thaldraszus
+        ['firestorm'] = 16487, -- Firestorms in Thaldraszus
+        ['snowstorm'] = 16488 -- Snowstorms in Thaldraszus
     } -- The Primalist Future
 }
 
@@ -1141,12 +998,23 @@ local ElementalStorm = Class('ElementalStorm', Collectible, {
 })
 
 function ElementalStorm.getters:rewards()
+    local function getStormAchievement(mapID, stormType)
+        return Achievement({
+            id = ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID][stormType],
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['empowered_mobs_killed_suffix']
+            }
+        })
+    end
+
     return {
         ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], -- Elemental Overload
-        Spacer(), ELEMENTAL_STORM_MOB_ACHIVEMENTS[self.mapID]['thunderstorm'], -- Thunderstorms in...
-        ELEMENTAL_STORM_MOB_ACHIVEMENTS[self.mapID]['sandstorm'], -- Sandstorms in...
-        ELEMENTAL_STORM_MOB_ACHIVEMENTS[self.mapID]['firestorm'], -- Firestorms in...
-        ELEMENTAL_STORM_MOB_ACHIVEMENTS[self.mapID]['snowstorm'], -- Snowstorms in...
+        Spacer(), getStormAchievement(self.mapID, 'thunderstorm'), -- Thunderstorms in...
+        getStormAchievement(self.mapID, 'sandstorm'), -- Sandstorms in...
+        getStormAchievement(self.mapID, 'firestorm'), -- Firestorms in...
+        getStormAchievement(self.mapID, 'snowstorm'), -- Snowstorms in...
         Spacer(), ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['all'], -- Stormed Off
         ELEMENTAL_STORM_PET_REWARDS['thunderstorm'], -- Echo of the Heights
         ELEMENTAL_STORM_PET_REWARDS['sandstorm'], -- Echo of the Cave
@@ -1187,7 +1055,14 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         if stormType and group:GetDisplay(mapID) then
             local rewards = {
                 ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], -- Elemental Overload
-                ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID][stormType], -- (Example: Thunderstorms in Thaldraszus)
+                Achievement({
+                    id = ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID][stormType],
+                    criteria = {
+                        id = 1,
+                        qty = true,
+                        suffix = L['empowered_mobs_killed_suffix']
+                    }
+                }), -- (Example: Thunderstorms in Thaldraszus)
                 ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType], -- Stormed Off (Storm type only)
                 Spacer(), ELEMENTAL_STORM_PET_REWARDS[stormType], -- Echo of the...
                 ELEMENTAL_STORM_FORMULA_REWARDS['all'], -- Design: Elemental Lariat
