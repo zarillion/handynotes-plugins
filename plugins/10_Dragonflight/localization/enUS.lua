@@ -182,7 +182,7 @@ L['temperamental_skyclaw_note_end'] = 'Ask about the saddled slyvern and present
 L['elder_poa_note'] = 'Exchange {item:200071} for {faction:2511} reputation.'
 
 L['artists_easel_note_step1'] = '{quest:70166}\n{npc:194415}, at the top of the tower in the {location:Ancient Outlook}, will ask you to deliver his painting to {npc:194323}, the greatest painter who ever lived.'
-L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} will ask you to collect paintings from {location:Ruby Life Pools}, {location:Nokhud Offensive}, and {location:Brakenhide Hollow}.'
+L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} will ask you to collect paintings from {location:Ruby Life Pools}, {location:Nokhud Offensive}, and {location:Brackenhide Hollow}.'
 L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} will ask you to collect paintings from {location:Halls of Infusion}, {location:Algeth\'ar Academy}, {location:The Azure Vault}, and {location:Neltharus}.'
 L['artists_easel_note_step4'] = 'Deliver the final paintings to {npc:194323} and recieve you toy!\n\n{note:Paintings do not drop from Mythic or Mythic+ dungeons.}'
 
