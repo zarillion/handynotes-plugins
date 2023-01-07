@@ -182,10 +182,10 @@ L['temperamental_skyclaw_note_end'] = 'Pregunta sobre el Astudraco Ensillado y o
 
 L['elder_poa_note'] = 'Entrega {item:200071} para conseguir reputación con {faction:2511}.'
 
-L['artists_easel_note_step1'] = nil
-L['artists_easel_note_step2'] = nil
-L['artists_easel_note_step3'] = nil
-L['artists_easel_note_step4'] = nil
+L['artists_easel_note_step1'] = '{quest:70166}\n{npc:194415} está en la parte superior de una torre en el {location:Mirador Antiguo}. Te pedirá que entregues su cuadro a {npc:194323}, el mejor pintor que ha existido.'
+L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} te pedirá que colecciones cuadros en el {location:Estanque de Vida}, en la {location:Ofensiva Nokhud}, y en la {location:Hondonada Frondacuero}.'
+L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} te pedirá que colecciones cuadros en las {location:Salas de Infusión}, en la {location:Academia Algeth\'ar}, en la {location:Cámara Azur} y en {location:Neltharus}.'
+L['artists_easel_note_step4'] = 'Entrega los últimos cuadros a {npc:194323} y recibirás tu juguete.\n\n{note:Los cuadros no caen ni de mazmorras Míticas ni de mazmorras Míticas+.}'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -328,8 +328,8 @@ L['lillian_brightmoon_note'] = 'Entrega {item:201412} para conseguir reputación
 
 L['chest_of_the_elements'] = 'Cofre de los elementos'
 
-L['hoard_of_draconic_delicacies_note_start'] = nil
-L['hoard_of_draconic_delicacies_note_end'] = nil
+L['hoard_of_draconic_delicacies_note_start'] = 'Completa las siguientes 7 misiones que da {npc:189479}:'
+L['hoard_of_draconic_delicacies_note_end'] = 'Una vez completadas todas las misiones, {npc:189479} te dará la misión {quest:67071} para recibir la receta.\n\n{note:Las misiones se basan en el chef huésped que esté activo en el {location:Enclave Rubí} y pueden no coincidir en el orden listado encima.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
