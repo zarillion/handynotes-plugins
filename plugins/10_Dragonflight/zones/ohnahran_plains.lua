@@ -1543,11 +1543,12 @@ local Ohnahra = Class('Ohnahra', Collectible, {
 }) -- Ohn'ahra
 
 function Ohnahra.getters:note()
-    local function status(id, count)
-        if ns.PlayerHasItem(id, count) then
-            return ns.status.Green(count .. 'x')
+    local function status(id, itemsNeed)
+        local itemsHave = GetItemCount(id, true);
+        if ns.PlayerHasItem(id, itemsNeed) then
+            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
         else
-            return ns.status.Red(count .. 'x')
+            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
         end
     end
 

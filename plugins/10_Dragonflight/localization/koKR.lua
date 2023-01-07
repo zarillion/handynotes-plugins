@@ -170,15 +170,8 @@ L['snowclaw_cub_note_end'] = nil
 
 L['tome_of_polymoph_duck'] = nil
 
-L['temperamental_skyclaw_note'] = [[
-다음을 수집하세요. (경매장에서 거래 가능):
-
-{item:201420} 20개
-{item:201421} 20개
-{item:201422} 20개
-
-{npc:190892}에게 말을 걸어 안장을 얹은 슬라이번에 대해 물어보고 수집한 "간식"을 줍니다.
-]]
+L['temperamental_skyclaw_note_start'] = '다음을 수집하세요. (경매장에서 거래 가능):'
+L['temperamental_skyclaw_note_end'] = '{npc:190892}에게 말을 걸어 안장을 얹은 슬라이번에 대해 물어보고 수집한 "간식"을 줍니다.'
 
 L['elder_poa_note'] = '{item:200071}을 반납하여 {faction:2511} 평판을 획득합니다.'
 
@@ -323,6 +316,9 @@ L['sorotis_note'] = '{item:199906}을 반납하여 {faction:2510} 평판을 획�
 L['lillian_brightmoon_note'] = '{item:201412}을 반납하여 {faction:2507} 평판을 획득합니다.'
 
 L['chest_of_the_elements'] = nil
+
+L['hoard_of_draconic_delicacies_note_start'] = nil
+L['hoard_of_draconic_delicacies_note_end'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

@@ -177,15 +177,8 @@ Una vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objeto
 
 L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro {object:Tormentas de Maná para Principiantes} para completar la misión.'
 
-L['temperamental_skyclaw_note'] = [[
-Recoge (o compra en la casa de subastas):
-
-20x {item:201420}
-20x {item:201421}
-20x {item:201422}
-
-Pregunta sobre el Astudraco Ensillado y ofrece a {npc:190892} los "platos" recogidos.
-]]
+L['temperamental_skyclaw_note_start'] = 'Recoge (o compra en la casa de subastas):'
+L['temperamental_skyclaw_note_end'] = 'Pregunta sobre el Astudraco Ensillado y ofrece a {npc:190892} los "platos" recogidos.'
 
 L['elder_poa_note'] = 'Entrega {item:200071} para conseguir reputación con {faction:2511}.'
 
@@ -329,6 +322,9 @@ L['sorotis_note'] = 'Entrega {item:199906} para conseguir reputación con {facti
 L['lillian_brightmoon_note'] = 'Entrega {item:201412} para conseguir reputación con {faction:2507}.'
 
 L['chest_of_the_elements'] = 'Cofre de los elementos'
+
+L['hoard_of_draconic_delicacies_note_start'] = nil
+L['hoard_of_draconic_delicacies_note_end'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

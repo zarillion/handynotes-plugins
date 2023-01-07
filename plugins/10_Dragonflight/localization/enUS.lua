@@ -176,15 +176,8 @@ Once you have the {title:Honorary Dryad} title equipped offer all 4 items to {np
 
 L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact with the {object:Manastorming For Beginners} book to complete the quest.'
 
-L['temperamental_skyclaw_note'] = [[
-Collect (or buy in the auction house):
-
-20x {item:201420}
-20x {item:201421}
-20x {item:201422}
-
-Ask about the saddled slyvern and present {npc:190892} the collected "dishes".
-]]
+L['temperamental_skyclaw_note_start'] = 'Collect (or buy in the auction house):'
+L['temperamental_skyclaw_note_end'] = 'Ask about the saddled slyvern and present {npc:190892} the collected "dishes".'
 
 L['elder_poa_note'] = 'Exchange {item:200071} for {faction:2511} reputation.'
 
@@ -328,6 +321,9 @@ L['sorotis_note'] = 'Exchange {item:199906} for {faction:2510} reputation.'
 L['lillian_brightmoon_note'] = 'Exchange {item:201412} for {faction:2507} reputation.'
 
 L['chest_of_the_elements'] = 'Chest of the Elements'
+
+L['hoard_of_draconic_delicacies_note_start'] = 'Complete the following 7 quests provided by {npc:189479}:'
+L['hoard_of_draconic_delicacies_note_end'] = 'After all quests have been completed {npc:189479} will provide {quest:67071} to receive your recipe.\n\n{note:Quests are based on the active guest chef at {location:The Ruby Enclave} and may not match the order listed above.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

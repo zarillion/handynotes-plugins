@@ -1223,15 +1223,33 @@ map.nodes[58506660] = ElementalStorm({
 
 ------------------------ MOUNT: TEMPERAMENTAL SKYCLAW -------------------------
 
-map.nodes[19042397] = Collectible({
-    label = '{npc:190892}',
-    note = L['temperamental_skyclaw_note'],
+local TemperamentalSkyclaw = Class('TemperamentalSkyclaw', Collectible, {
+    id = 190892,
     icon = 4218760,
     rewards = {
         Mount({item = 201454, id = 1674}) -- Temperamental Skyclaw
     },
     pois = {POI({58234353, 23074372, 32004400})}
 }) -- Temperamental Skyclaw
+
+function TemperamentalSkyclaw.getters:note()
+    local function status(id, itemsNeed)
+        local itemsHave = GetItemCount(id, true);
+        if ns.PlayerHasItem(id, itemsNeed) then
+            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
+        else
+            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
+        end
+    end
+
+    local note = L['temperamental_skyclaw_note_start']
+    note = note .. '\n\n' .. status(201420, 20) .. ' {item:201420}' -- Gnolan's House Special
+    note = note .. '\n\n' .. status(201421, 20) .. ' {item:201421}' -- Tuskarr Jerky
+    note = note .. '\n\n' .. status(201422, 20) .. ' {item:201422}' -- Flash Frozen Meat
+    return note .. '\n\n' .. L['temperamental_skyclaw_note_end']
+end
+
+map.nodes[19042397] = TemperamentalSkyclaw()
 
 --------------------------- ACHIEVEMENT: SEEING BLUE --------------------------
 
@@ -1275,11 +1293,12 @@ local SnowclawCub = Class('SnowclawCub', Collectible, {
 }) -- Snowclaw Cub
 
 function SnowclawCub.getters:note()
-    local function status(id, count)
-        if ns.PlayerHasItem(id, count) then
-            return ns.status.Green(count .. 'x')
+    local function status(id, itemsNeed)
+        local itemsHave = GetItemCount(id, true);
+        if ns.PlayerHasItem(id, itemsNeed) then
+            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
         else
-            return ns.status.Red(count .. 'x')
+            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
         end
     end
 

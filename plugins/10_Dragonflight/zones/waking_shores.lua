@@ -1828,17 +1828,20 @@ local Otto = Class('Otto', Collectible, {
     },
     rewards = {
         Mount({item = 198870, id = 1656}) -- Otto
-    }
+    },
+    pois = {POI({19603650})}
 }) -- Otto
 
 function Otto.getters:note()
-    local function status(id, count)
-        if ns.PlayerHasItem(id, count) then
-            return ns.status.Green(count .. 'x')
+    local function status(id, itemsNeed)
+        local itemsHave = GetItemCount(id, true);
+        if ns.PlayerHasItem(id, itemsNeed) then
+            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
         else
-            return ns.status.Red(count .. 'x')
+            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
         end
     end
+
     local note = status(199338, 75) .. ' ' .. L['otto_note_start1']
     note = note .. '\n\n' .. L['otto_note_start2']
     note = note .. '\n\n' .. status(202072, 100) .. ' ' .. L['otto_note_item1'] -- Frigid Floe Fish
@@ -1847,7 +1850,7 @@ function Otto.getters:note()
     return note .. '\n\n' .. L['otto_note_end']
 end
 
-map.nodes[20333977] = Otto({pois = {POI({19603650})}})
+map.nodes[20333977] = Otto()
 
 --------------------------- MOUNT: LOYAL MAGMAMMOTH ---------------------------
 

@@ -170,15 +170,8 @@ L['snowclaw_cub_note_end'] = ns.color.Orange('Alle Gegenstände können im Aukti
 
 L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem {object:Manastürmen für Anfänger} Buch, um die Quest abzuschließen.'
 
-L['temperamental_skyclaw_note'] = [[
-Sammle (oder kaufe im Auktionshaus):
-
-20x {item:201420}
-20x {item:201421}
-20x {item:201422}
-
-Fragt nach der gesattelten Slyvern und präsentiert {npc:190892} die gesammelten "Gerichte".
-]]
+L['temperamental_skyclaw_note_start'] = 'Sammle (oder kaufe im Auktionshaus):'
+L['temperamental_skyclaw_note_end'] = 'Fragt nach der gesattelten Slyvern und präsentiert {npc:190892} die gesammelten "Gerichte".'
 
 L['elder_poa_note'] = 'Tausche {item:200071} gegen Ruf bei den {faction:2511} ein.'
 
@@ -322,6 +315,9 @@ L['sorotis_note'] = 'Tausche {item:199906} gegen Ruf beim {faction:2510} ein.'
 L['lillian_brightmoon_note'] = 'Tausche {item:201412} gegen Ruf bei der |cFFFFFF00Drachenschuppenexpedition|r ein.'
 
 L['chest_of_the_elements'] = 'Truhe der Elemente'
+
+L['hoard_of_draconic_delicacies_note_start'] = nil
+L['hoard_of_draconic_delicacies_note_end'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

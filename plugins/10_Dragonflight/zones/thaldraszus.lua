@@ -1152,6 +1152,37 @@ val.nodes[43757494] = Collectible({
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
+local Rumiastrasza = Class('Rumiastrasza', Collectible, {
+    id = 189479,
+    icon = 1500865,
+    parent = map.id,
+    rewards = {
+        Item({item = 198132}) -- Recipe: Hoard of Draconic Delicacies
+    }
+}) -- Rumiastrasza
+
+function Rumiastrasza.getters:note()
+    local function status(questID, questLeg)
+        if C_QuestLog.IsQuestFlaggedCompleted(questID) then
+            return ns.status.Green(questLeg)
+        else
+            return ns.status.Red(questLeg)
+        end
+    end
+
+    local note = L['hoard_of_draconic_delicacies_note_start'] .. '\n'
+    note = note .. '\n' .. status(67047, 1) .. ' {quest:67047}' -- Warm Away These Shivers
+    note = note .. '\n' .. status(67063, 2) .. ' {quest:67063}' -- 10,000 Years Of Roasting
+    note = note .. '\n' .. status(67064, 3) .. ' {quest:67064}' -- Rambling Delight
+    note = note .. '\n' .. status(67065, 4) .. ' {quest:67065}' -- Future Fresh Fungi
+    note = note .. '\n' .. status(67066, 5) .. ' {quest:67066}' -- Delights To Delve For
+    note = note .. '\n' .. status(67067, 6) .. ' {quest:67067}' -- Navigating The Leapmaize
+    note = note .. '\n' .. status(67068, 7) .. ' {quest:67068}' -- Anything But A Breeze
+    return note .. '\n\n' .. L['hoard_of_draconic_delicacies_note_end']
+end
+
+val.nodes[61601180] = Rumiastrasza()
+
 val.nodes[25994004] = NPC({
     id = 195768,
     icon = 4638429,

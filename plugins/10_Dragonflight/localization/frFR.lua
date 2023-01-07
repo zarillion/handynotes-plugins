@@ -177,15 +177,8 @@ Une fois le titre {title:Dryade honoraire} équipé, offrez les 4 objets à l'{n
 
 L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre {object:La tempête de mana pour les novices} pour terminer la quête.'
 
-L['temperamental_skyclaw_note'] = [[
-Rassemblez (ou achetez à l'hôtel des ventes) :
-
-20x {item:201420}
-20x {item:201421}
-20x {item:201422}
-
-Renseignez-vous sur la rusarde sellée et remettez à {npc:190892} les "plats" recueillis.
-]]
+L['temperamental_skyclaw_note_start'] = 'Rassemblez (ou achetez à l\'hôtel des ventes) :'
+L['temperamental_skyclaw_note_end'] = 'Renseignez-vous sur la rusarde sellée et remettez à {npc:190892} les "plats" recueillis.'
 
 L['elder_poa_note'] = 'Échangez vos {item:200071} pour obtenir de la réputation avec les {faction:2511}.'
 
@@ -329,6 +322,9 @@ L['sorotis_note'] = 'Échangez vos {item:199906} pour obtenir de la réputation 
 L['lillian_brightmoon_note'] = 'Echangez vos {item:201412} pour obtenir de la réputation avec l\'{faction:2507}.'
 
 L['chest_of_the_elements'] = 'Coffre des éléments'
+
+L['hoard_of_draconic_delicacies_note_start'] = nil
+L['hoard_of_draconic_delicacies_note_end'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

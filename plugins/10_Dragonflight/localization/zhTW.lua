@@ -176,15 +176,8 @@ L['snowclaw_cub_note_end'] = [[
 
 L['tome_of_polymoph_duck'] = '使用 {spell:1953} 來進入洞窟並和 {object:初學者的法力風暴} 書互動來完成任務'
 
-L['temperamental_skyclaw_note'] = [[
-收集 (或從拍賣場購買):
-
-20x {item:201420}
-20x {item:201421}
-20x {item:201422}
-
-詢問上鞍蠍尾飛狐的事並且將收集的餐點交給 {npc:190892}.
-]]
+L['temperamental_skyclaw_note_start'] = '收集 (或從拍賣場購買):'
+L['temperamental_skyclaw_note_end'] = '詢問上鞍蠍尾飛狐的事並且將收集的餐點交給 {npc:190892}.'
 
 L['elder_poa_note'] = '用 {item:200071} 交換 {faction:2511} 聲望'
 
@@ -328,6 +321,9 @@ L['sorotis_note'] = '用 {item:199906} 交換 {faction:2510} 聲望'
 L['lillian_brightmoon_note'] = '用 {item:201412} 交換 {faction:2507} 聲望'
 
 L['chest_of_the_elements'] = '元素寶箱'
+
+L['hoard_of_draconic_delicacies_note_start'] = nil
+L['hoard_of_draconic_delicacies_note_end'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
