@@ -1347,7 +1347,7 @@ map.nodes[11604106] = Node({
     rewards = {
         Item({item = 201033}) -- Magical Salt Crystal
     },
-    pois = {POI({19084139})} -- Entrance
+    pois = {POI({11084139})} -- Entrance
 }) -- Magical Salt Crystal
 
 ----------------------------- TOY: ARTIST'S EASEL -----------------------------
