@@ -181,10 +181,10 @@ L['temperamental_skyclaw_note_end'] = '询问带鞍的狐龙并展示 {npc:19089
 
 L['elder_poa_note'] = '用 {item:200071} 换取 {faction:2511} 声望。'
 
-L['artists_easel_note_step1'] = nil
-L['artists_easel_note_step2'] = nil
-L['artists_easel_note_step3'] = nil
-L['artists_easel_note_step4'] = nil
+L['artists_easel_note_step1'] = '{quest:70166}\n{npc:194415} 在 {location:远古瞭望台} 的塔顶，会要求把他的画交给 {npc:194323}，有史以来最伟大的画家。'
+L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} 会要求从 {location:红玉新生法池}、{location:诺库德阻击战} 和 {location:蕨皮山谷} 收集画作。'
+L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} 会要求从 {location:注能大厅}、{location:艾杰斯亚学院}、{location:碧蓝魔馆} 和 {location:奈萨鲁斯} 收集画作。'
+L['artists_easel_note_step4'] = '将最后的画作交给 {npc:194323} 并收到玩具！\n\n{note:画作不会从史诗或史诗+地下城中掉落。}'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -327,8 +327,8 @@ L['lillian_brightmoon_note'] = '用 {item:201412} 换取 {faction:2507} 声望�
 
 L['chest_of_the_elements'] = '元素宝箱'
 
-L['hoard_of_draconic_delicacies_note_start'] = nil
-L['hoard_of_draconic_delicacies_note_end'] = nil
+L['hoard_of_draconic_delicacies_note_start'] = '完成 {npc:189479} 提供的7个以下任务：'
+L['hoard_of_draconic_delicacies_note_end'] = '完成所有任务后，{npc:189479} 将提供 {quest:67071} 以接收食谱。\n\n{note:任务基于 {location:红玉飞地} 的活跃客座厨师，可能不匹配上面列出的顺序。}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
