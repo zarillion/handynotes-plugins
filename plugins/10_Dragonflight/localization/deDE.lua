@@ -175,10 +175,10 @@ L['temperamental_skyclaw_note_end'] = 'Fragt nach der gesattelten Slyvern und pr
 
 L['elder_poa_note'] = 'Tausche {item:200071} gegen Ruf bei den {faction:2511} ein.'
 
-L['artists_easel_note_step1'] = nil
-L['artists_easel_note_step2'] = nil
-L['artists_easel_note_step3'] = nil
-L['artists_easel_note_step4'] = nil
+L['artists_easel_note_step1'] = '{quest:70166}\n{npc:194415}, an der Spitze des Turms beim {location:Uralter Aussichtspunkt}, wird dich bitten, sein Gemälde an {npc:194323}, den größten Maler der je gelebt hat, zu übergeben.'
+L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} wird dich bitten, Gemälde aus den Dungeons {location:Rubinlebensbecken}, {location:Der Angriff der Nokhud} und {location:Brackenfellhöhle} zu holen.'
+L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} wird dich bitten, Gemälde aus den Dungeons {location:Hallen der Infusion}, {location:Akademie von Algeth\'ar}, {location:Das Azurblaue Gewölbe} und {location:Neltharus} zu holen.'
+L['artists_easel_note_step4'] = 'Bringe die letzten Gemälde zu {npc:194323}, um das Spielzeug zu erhalten.\n\n{note:Gemälde können nicht aus Dungeons der Schwierigkeitsstufe Mythisch oder Mythisch+ geholt werden.}'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -321,8 +321,8 @@ L['lillian_brightmoon_note'] = 'Tausche {item:201412} gegen Ruf bei der |cFFFFFF
 
 L['chest_of_the_elements'] = 'Truhe der Elemente'
 
-L['hoard_of_draconic_delicacies_note_start'] = nil
-L['hoard_of_draconic_delicacies_note_end'] = nil
+L['hoard_of_draconic_delicacies_note_start'] = 'Schließe die folgenden 7 Quests von {npc:189479} ab:'
+L['hoard_of_draconic_delicacies_note_end'] = 'Nachdem alle Quests abgeschlossen wurden wird {npc:189479} die Quest {quest:67071} anbieten, um dein Rezept zu erhalten.\n\n{note:Die Quests richten sich nach dem aktiven Gastkoch in {location:Die Rubinenklave} und stimmen möglicherweise nicht mit der oben aufgeführten Reihenfolge überein.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -333,9 +333,9 @@ L['captain_lancer_note'] = 'Erscheint nach dem Abschluss des {spell:388945} Even
 L['enkine_note'] = 'Töte {npc:193137}, {npc:193138} oder auch {npc:193139} entlang des Lavaflusses, um die {item:201092} zu erhalten, benutze es und fische in der Nähe von {npc:191866} in der Lava, um den seltenen Gegner erscheinen zu lassen.'
 L['lepidoralia_note'] = 'Hilf {npc:193342} in der {location:Flatterkaverne} Höhle dabei {npc:193274} zu fangen, bis der seltene Gegner erscheint.'
 L['obsidian_citadel_rare_note'] = 'Du und andere Spieler müssen insgesamt %dx {item:191264} bei %s abgeben.\nUm einen Schlüssel herzustellen, müssen 30x {item:191251} und 3x {item:193201} kombiniert werden, diese können von Gegnern bei der {location:Obsidianzitadelle} geplündert werden.'
-L['shadeslash_note'] = 'Klicke auf den {object:Gestohlener Fokus}, um den seltenen Gegner erscheinen zu lassen.'
+L['shadeslash_note'] = 'Klicke den {object:Gestohlener Globus} oder das {object:Gestohlenes Teleskop} an und dann auf den {object:Gestohlener Fokus}, um den seltenen Gegner erscheinen zu lassen.'
 L['obsidian_throne_rare_note'] = 'Innerhalb des {location:Obsidianthron}.'
-L['slurpo_snail_note'] = 'Plündere in einer Höhle im {location:Azurblauen Gebirge} (11.0, 41.4) aus einem {object:Salzkristall} ein {item:201033} und benutze ihn in dieser Höhle, um den seltenen Gegner erscheinen zu lassen.'
+L['slurpo_snail_note'] = 'Plündere in einer Höhle im {location:Azurblauen Gebirge} (11.0, 41.4) aus einem {object:Salzkristall} ein {item:201033} und benutze ihn in einer Höhle in {location:Die Küste des Erwachens} (36.0, 89.8), um den seltenen Gegner erscheinen zu lassen.'
 L['worldcarver_atir_note'] = 'Sammle 3x {item:191211} von {npc:187366} in der Nähe und platziere diese beim {npc:197395}, um den seltenen Gegner erscheinen zu lassen.'
 
 L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
