@@ -221,7 +221,7 @@ L['forgotten_dragon_treasure_note'] = [[
 
 2.{dot:Yellow}Combine petals to create {item:195542} and visit the {object:Ancient Stone}.
 
-3.{dot:Blue}Use the {item:195542} to gain the 20 seconds buff {spell:378935}. This one allows you to follow the flower path to the {object:Emerald Chest} and loot the {item:195041}.
+3.{dot:Blue}Use the {item:195542} to gain the 20 seconds buff {spell:378935}. This one, while you recharge their time, allows you to follow the flower path to the {object:Emerald Chest} and loot the {item:195041}.
 
 Once you have the key, head to the {object:Forgotten Dragon Treasure} to open it and receive your Drakewatcher Manuscript.
 ]]
