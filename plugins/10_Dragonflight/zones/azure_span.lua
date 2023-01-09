@@ -694,7 +694,7 @@ map.nodes[17762167] = PM.Engineering({
 
 map.nodes[40146434] = PM.Inscription({
     id = 194840,
-    quest = nil,
+    quest = 70254,
     note = L['pm_script_lydiara_whisperfeather'],
     rewards = {
         Item({item = 190456, note = '25'}), -- Artisan's Mettle
@@ -704,7 +704,7 @@ map.nodes[40146434] = PM.Inscription({
 
 map.nodes[46244076] = PM.Jewelcrafting({
     id = 194841,
-    quest = nil,
+    quest = 70255,
     note = L['pm_jewel_pluutar'],
     rewards = {
         Item({item = 190456, note = '25'}), -- Artisan's Mettle
