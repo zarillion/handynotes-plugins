@@ -4,10 +4,7 @@
 local ADDON_NAME, ns = ...
 local Map = ns.Map
 
-local Collectible = ns.node.Collectible
 local Safari = ns.node.Safari
-
-local Achievement = ns.reward.Achievement
 
 local POI = ns.poi.POI
 
