@@ -222,7 +222,7 @@ L['forgotten_dragon_treasure_note'] = [[
 
 2.{dot:Yellow}Combina los pétalos para crear un {item:195542} y visita la {object:Piedra Antigua}.
 
-3.{dot:Blue}Usa el {item:195542} para conseguir el buff de 20 segundos {spell:378935}. ÉSte permite seguir el camino de flores que lleva al {object:Cofre Esmeralda} y despojar la {item:195041}.
+3.{dot:Blue}Usa el {item:195542} para conseguir el buff de 20 segundos {spell:378935}. Éste permite seguir el camino de flores que lleva al {object:Cofre Esmeralda} y despojar la {item:195041}.
 
 Con la llave ves al {object:Tesoro de dragón olvidado} para abrirlo y conseguir tu personalización de draco.
 ]]
