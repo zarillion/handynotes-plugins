@@ -218,7 +218,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21629, oneline = true}),
             Pet({id = 646})
         }
-    }), -- Also in Howling Fjord, WoTLK
+    }),
     CheetahCub = Class('CheetahCub', Safari, {
         id = 62129,
         rewards = {
@@ -235,7 +235,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21625, oneline = true}),
             Pet({id = 393})
         }
-    }), -- Also in Icecrown, WoTLK; Twilight Highlands, Cataclysm; Val'sharah, Legion; Gorgrond, Draenor
+    }), -- Twilight Highlands, Cataclysm; Val'sharah, Legion; Gorgrond, Draenor
     CoralSnake = Class('CoralSnake', Safari, {
         id = 62190,
         rewards = {
@@ -429,7 +429,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21649, oneline = true}),
             Pet({id = 648})
         }
-    }), --  Also in Zul'Drak, Northrend; Twilight Highlands, Cataclysm
+    }), -- Twilight Highlands, Cataclysm
     InfectedFawn = Class('InfectedFawn', Safari, {
         id = 61827,
         rewards = {
@@ -532,7 +532,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21514, oneline = true}),
             Pet({id = 450})
         }
-    }), -- also in Howling Fjord, Northrend
+    }),
     Minfernal = Class('Minfernal', Safari, {
         id = 62317,
         rewards = {
@@ -570,7 +570,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21688, oneline = true}),
             Pet({id = 633})
         }
-    }), -- also in Storm Peaks, Grizzly Hills, Northrend; Stormheim, Legion
+    }), -- Stormheim, Legion
     Mouse = Class('Mouse', Safari, {
         id = 61143,
         rewards = {
@@ -580,7 +580,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21631, oneline = true}),
             Pet({id = 385})
         }
-    }), -- Also in Crystalsong Forest, Northrend
+    }),
     NetherFaerieDragon = Class('NetherFaerieDragon', Safari, {
         id = 62395,
         rewards = {
@@ -646,7 +646,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21516, oneline = true}),
             Pet({id = 417})
         }
-    }), -- Also in Terrok Forest, Nagrand, Outland; Drustvar, BFA; Highmountain, Spires of Arak, Legion; Howling Fjord, Northrend
+    }), -- Also in Terrok Forest, Nagrand, Outland; Drustvar, BFA; Highmountain, Spires of Arak, Legion;
     RatSnake = Class('RatSnake', Safari, {
         id = 61258,
         rewards = {
@@ -784,7 +784,7 @@ ns.node.Safari = {
             Achievement({id = 6589, criteria = 21706, oneline = true}),
             Pet({id = 388})
         }
-    }), -- also in Borean Tundra, Howling Fjord, Northrend; Twilight Highlands, Cataclysm; Waking Shores, Azure Span, Dragonflight; Nagrand, Draenor
+    }), -- also in Twilight Highlands, Cataclysm; Waking Shores, Azure Span, Dragonflight; Nagrand, Draenor
     Sidewinder = Class('Sidewinder', Safari, {
         id = 62523,
         rewards = {
@@ -815,7 +815,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21633, oneline = true}),
             Pet({id = 397})
         }
-    }), -- also in Terrok Forest, Outland; Howling Fjord, Northrend; Nagrand, Draenor; Val'sharah, Legion
+    }), -- also in Terrok Forest, Outland; Nagrand, Draenor; Val'sharah, Legion
     SmallFrog = Class('SmallFrog', Safari, {
         id = 61071,
         rewards = {
@@ -834,7 +834,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21519, oneline = true}),
             Pet({id = 387})
         }
-    }), -- Also in Zangarmarsh, Outland; Sholazar Basin, Zuldrak, Northrend
+    }), -- Also in Zangarmarsh, Outland;
     SnowCub = Class('SnowCub', Safari, {
         id = 61689,
         rewards = {
@@ -911,7 +911,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21522, oneline = true}),
             Pet({id = 379})
         }
-    }), -- also in Terrokar Forest, Nagrand, Blades Edge Mountains, Outland; Crystalsong Forest, Howling Fjord, Sholzar Basin, Northrend; Drustvar, BFA; Highmountain, Legion; Spires of Arak, Nagrand, Draenor
+    }), -- also in Terrokar Forest, Nagrand, Blades Edge Mountains, Outland; Drustvar, BFA; Highmountain, Legion; Spires of Arak, Nagrand, Draenor
     Stinkbug = Class('Stinkbug', Safari, {
         id = 62256,
         rewards = {
