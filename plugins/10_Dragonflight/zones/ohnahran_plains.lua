@@ -551,6 +551,7 @@ map.nodes[53296890] = Treasure({
     label = L['forgotten_dragon_treasure_label'],
     icon = 'chest_gn',
     note = L['forgotten_dragon_treasure_note'],
+    quest = 74399,
     rewards = {
         DC.WindborneVelocidrake.ManedBack -- Windborne Velocidrake: Maned Back
     },
