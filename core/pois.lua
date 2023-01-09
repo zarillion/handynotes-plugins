@@ -36,6 +36,7 @@ function POI:Initialize(attrs)
     -- normalize table values
     self.quest = ns.AsTable(self.quest)
     self.questDeps = ns.AsTable(self.questDeps)
+    self.p = ns.AsTable(self.points or attrs)
 
     if self.color then self.r, self.g, self.b = ns.HEXtoRGBA(self.color) end
 end
@@ -75,7 +76,9 @@ end
 
 function POI:Render(map, template)
     -- draw POI at every coord
-    for i = 1, #self, 1 do map:AcquirePin(template, self, self[i]) end
+    for k, point in ipairs(self.p) do
+        map:AcquirePin(template, self, point)
+    end
 end
 
 function POI:Draw(pin, xy)
