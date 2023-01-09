@@ -210,6 +210,8 @@ L['nokhud_warspear_note'] = '{item:194540} можно найти в {object:су
 L['slightly_chewed_duck_egg_note'] = 'Найдите и погладьте {npc:192997}, чтобы получить {item:195453}, затем используйте ее. {item:199171} превратиться через 3 дня в {item:199172}.'
 L['yennus_boat'] = 'Игрушечная лодка клыкарров'
 L['yennus_boat_note'] = 'Возьмите {object:игрушечную лодку клыкарров}, чтобы получить {item:200876}, который запускает задание {quest:72063}, которое можно сдать у {npc:195252}.'
+L['forgotten_dragon_treasure_label'] = nil
+L['forgotten_dragon_treasure_note'] = nil
 
 L['pm_ench_shalasar_glimmerdusk'] = 'На втором этаже разрушенной башни.'
 L['pm_herb_hua_greenpaw'] = 'Встаньте на колени рядом с деревом.'

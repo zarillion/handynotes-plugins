@@ -547,6 +547,26 @@ map.nodes[56007878] = ns.node.ElementalChest({
     }
 }) -- Chest of the Flood
 
+map.nodes[53296890] = Treasure({
+    label = L['forgotten_dragon_treasure_label'],
+    icon = 'chest_gn',
+    note = L['forgotten_dragon_treasure_note'],
+    rewards = {
+        DC.WindborneVelocidrake.ManedBack -- Windborne Velocidrake: Maned Back
+    },
+    pois = {
+        POI({
+            color = 'Green',
+            points = {
+                26614876, 26864733, 27585276, 27745084, 29354888, 29495166,
+                30504596, 32134689, 36184690
+            }
+        }), -- Crystalline Flowers
+        POI({color = 'Yellow', points = {67034372}}), -- Ancient Stone
+        POI({color = 'Blue', points = {66975036}}) -- Emerald Chest
+    }
+}) -- Forgotten Dragon Treasure
+
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------

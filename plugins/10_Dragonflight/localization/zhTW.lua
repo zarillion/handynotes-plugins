@@ -215,6 +215,8 @@ L['nokhud_warspear_note'] = '{item:194540} 可以在遠征隊斥侯包和挖過�
 L['slightly_chewed_duck_egg_note'] = '找到並撫摸 {npc:192997} 來取得 {item:195453} 後再使用它. {item:199171} 將在3天後孵化成 {item:199172}.'
 L['yennus_boat'] = '巨牙海民玩具船'
 L['yennus_boat_note'] = '拾取 {object:巨牙海民玩具船} 來取得 {item:200876}, 其可以開始任務 {quest:72063}, 可以向 {npc:195252} 回報.'
+L['forgotten_dragon_treasure_label'] = nil
+L['forgotten_dragon_treasure_note'] = nil
 
 L['pm_ench_shalasar_glimmerdusk'] = '在壞掉的塔2樓'
 L['pm_herb_hua_greenpaw'] = '在一棵樹邊跪著'

@@ -216,6 +216,8 @@ L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las {objec
 L['slightly_chewed_duck_egg_note'] = 'Encuentra y acaricia a {npc:192997} para conseguir el {item:195453} y entonces usarlo. Tras incubar el {item:199171} durante 3 días eclosionará en {item:199172}.'
 L['yennus_boat'] = 'Barco de Juguete Tuskarr'
 L['yennus_boat_note'] = 'Despoja el {object:Barco de Juguete Tuskarr} para conseguir el {item:200876} con el cual comienza la misión {quest:72063} para devolvérselo a {npc:195252}.'
+L['forgotten_dragon_treasure_label'] = nil
+L['forgotten_dragon_treasure_note'] = nil
 
 L['pm_ench_shalasar_glimmerdusk'] = 'En la segunda planta de la torre rota.'
 L['pm_herb_hua_greenpaw'] = 'Está arrodillada junto a un árbol.'

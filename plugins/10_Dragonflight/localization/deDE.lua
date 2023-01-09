@@ -209,6 +209,8 @@ L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks und i
 L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutze diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
 L['yennus_boat'] = 'Spielzeugboot der Tuskarr'
 L['yennus_boat_note'] = 'Plündere das {object:Spielzeugboot der Tuskarr}, um {item:200876} zu erhalten, das die Quest {quest:72063} startet, die bei {npc:195252} abgegeben werden kann.'
+L['forgotten_dragon_treasure_label'] = nil
+L['forgotten_dragon_treasure_note'] = nil
 
 L['pm_ench_shalasar_glimmerdusk'] = 'Im zweiten Stock der Turmruine.'
 L['pm_herb_hua_greenpaw'] = 'Kniet neben einem Baum.'

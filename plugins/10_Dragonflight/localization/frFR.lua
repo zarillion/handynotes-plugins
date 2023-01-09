@@ -216,6 +216,8 @@ L['nokhud_warspear_note'] = '{item:194540} peut être trouvé dans les {object:P
 L['slightly_chewed_duck_egg_note'] = 'Trouvez et caressez {npc:192997} pour obtenir une {item:195453}, puis utilisez-la. l\'{item:199171} incube pendant 3 jours pour devenir {item:199172}.'
 L['yennus_boat'] = 'Bateau jouet rohart'
 L['yennus_boat_note'] = 'Récupérez le {object:Bateau jouet rohart} pour obtenir {item:200876}. Cela lance la quête {quest:72063} qui peut être rendue à {npc:195252}.'
+L['forgotten_dragon_treasure_label'] = nil
+L['forgotten_dragon_treasure_note'] = nil
 
 L['pm_ench_shalasar_glimmerdusk'] = 'Au deuxième étage de la tour brisée.'
 L['pm_herb_hua_greenpaw'] = 'Agenouillée près d\'un arbre.'

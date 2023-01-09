@@ -215,6 +215,8 @@ L['nokhud_warspear_note'] = '{item:194540} 可以从 {object:探险队斥候的�
 L['slightly_chewed_duck_egg_note'] = '找到并拍打 {npc:192997} 获得 {item:195453} 并使用它。{item:199171} 3天后孵化为 {item:199172}。'
 L['yennus_boat'] = '海象人玩具船'
 L['yennus_boat_note'] = '拾取 {object:海象人玩具船} 后获得 {item:200876}，开始任务 {quest:72063} 将其交还给 {npc:195252}。'
+L['forgotten_dragon_treasure_label'] = nil
+L['forgotten_dragon_treasure_note'] = nil
 
 L['pm_ench_shalasar_glimmerdusk'] = '破塔二楼。'
 L['pm_herb_hua_greenpaw'] = '跪在树旁。'
