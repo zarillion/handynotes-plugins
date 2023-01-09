@@ -83,7 +83,7 @@ map.nodes[31097121] = Rare({
 map.nodes[59847057] = Rare({ -- required 67030
     id = 193220,
     quest = 69868,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56149}),
         Transmog({item = 200138, slot = L['polearm']}) -- Ancient Dancer's Longspear
@@ -116,7 +116,7 @@ map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 map.nodes[47675115] = Rare({ -- required 67030
     id = 193234,
     quest = 73990,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16446, criteria = 55398, note = L['pretty_neat_note']}),
         Achievement({id = 16679, criteria = 56147})
@@ -155,14 +155,14 @@ map.nodes[62298177] = Rare({
 map.nodes[52895903] = Rare({
     id = 193246,
     quest = 74013,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {Achievement({id = 16679, criteria = 56141})}
 }) -- Matriarch Remalla
 
 map.nodes[59806100] = Rare({ -- reqired 67030
     id = 193688,
     quest = 69976,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56140}) --
     }
@@ -171,6 +171,7 @@ map.nodes[59806100] = Rare({ -- reqired 67030
 map.nodes[57218420] = Rare({ -- reqired 67030 review
     id = 193210,
     quest = 69866,
+    note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56142}), --
         Toy({item = 200148}) -- A Collection Of Me
@@ -196,21 +197,21 @@ map.nodes[57218420] = Rare({ -- reqired 67030 review
 map.nodes[40087014] = Rare({ -- reqiured 67030
     id = 193240,
     quest = 69880,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {Achievement({id = 16679, criteria = 56148})}
 }) -- Riverwalker Tamopo
 
 map.nodes[50005180] = Rare({ -- reqiured 67030 review
     id = 193666,
     quest = 69966,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {Achievement({id = 16679, criteria = 56151})}
 }) -- Rokmur
 
 map.nodes[37607780] = Rare({ -- reqiured 67030
     id = 193176,
     quest = 69859,
-    note = L['in_cave'] .. '\n\n' .. L['spawns_hourly'],
+    note = L['in_cave'] .. '\n\n' .. L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56150}), --
         Toy({item = 200148}) -- A Collection Of Me
@@ -220,7 +221,8 @@ map.nodes[37607780] = Rare({ -- reqiured 67030
 
 map.nodes[47207895] = Rare({ -- review -- reqiured 67030
     id = 193258,
-    quest = 69886,
+    quest = 74035,
+    note = L['spawns_two_hourly'],
     rewards = {Achievement({id = 16679, criteria = 56144})},
     pois = {
         Path({
@@ -255,7 +257,7 @@ map.nodes[46267317] = Rare({
 map.nodes[35027001] = Rare({ -- reqiured 67030 review
     id = 193146,
     quest = 74036,
-    note = L['in_small_cave'] .. '\n\n' .. L['spawns_hourly'],
+    note = L['in_small_cave'] .. '\n\n' .. L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56146}),
         Transmog({item = 200291, slot = L['leather']}) -- Waterlogged Racing Grips

@@ -86,7 +86,7 @@ L['signal_transmitter_note'] = '{note:需要點機械心靈 10點\n需要點新�
 L['options_icons_signal_transmitter'] = '龍洞產生器信號發送器'
 L['options_icons_signal_transmitter_desc'] = '顯示 {item:198156} 所需的 {object:未啟動的信號發送器} 位置.'
 
-L['spawns_hourly'] = '大約每小時重生'
+L['spawns_two_hourly'] = '大約每小時重生'
 L['spawns_at_night'] = '僅在晚上重生 (伺服器時間 18:30 之後)'
 
 L['elemental_storm'] = '元素風暴'

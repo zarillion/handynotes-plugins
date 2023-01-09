@@ -87,7 +87,7 @@ L['signal_transmitter_note'] = '{note:Requiert 10 points dans Esprit mécanique\
 L['options_icons_signal_transmitter'] = 'Transmetteurs de signaux du Générateur de trou de wyrm'
 L['options_icons_signal_transmitter_desc'] = 'Afficher les emplacements des {object:Transmetteurs de signaux désactivés} pour le {item:198156}.'
 
-L['spawns_hourly'] = 'Apparaît environ une fois par heure.'
+L['spawns_two_hourly'] = 'Apparaît environ une fois par heure.'
 L['spawns_at_night'] = 'Apparaît uniquement la nuit. (Après 18:30, heure du serveur)'
 
 L['elemental_storm'] = 'Tempête élémentaire'

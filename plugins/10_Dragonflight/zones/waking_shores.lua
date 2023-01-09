@@ -54,7 +54,7 @@ local nel = Map({id = 2080, settings = true})
 map.nodes[63695509] = Rare({
     id = 193132,
     quest = 73981,
-    note = L['in_cave'] .. '\n\n' .. L['spawns_hourly'],
+    note = L['in_cave'] .. '\n\n' .. L['spawns_two_hourly'],
     rewards = {Achievement({id = 16676, criteria = 56045})}
 }) -- Amethyzar the Glittering
 
@@ -72,7 +72,7 @@ map.nodes[58634021] = Rare({
 map.nodes[54517174] = Rare({ -- review -- required 67030
     id = 193135,
     quest = 73984,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {Achievement({id = 16676, criteria = 56041})}
 }) -- Azra's Prized Peony
 
@@ -258,14 +258,14 @@ map.nodes[34618275] = Rare({
 map.nodes[39596353] = Rare({ -- review -- required 67030
     id = 186827,
     quest = 74010,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {Achievement({id = 16676, criteria = 56046})}
 }) -- Magmaton
 
 map.nodes[22207649] = RareElite({ -- required 67030
     id = 193152,
     quest = 74012,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16676, criteria = 56047}),
         Transmog({item = 200192, slot = L['1h_mace']}), -- Handheld Geyser
@@ -303,7 +303,7 @@ map.nodes[56004592] = Rare({
 map.nodes[81485082] = Rare({ -- required 67030
     id = 193118,
     quest = 74017,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16676, criteria = 56043}),
         DC.CliffsideWylderdrake.FinnedNeck
@@ -420,7 +420,7 @@ map.nodes[34578950] = Rare({
 map.nodes[69486653] = Rare({
     id = 193120,
     quest = 74031,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16676, criteria = 56044}),
         Transmog({item = 200209, slot = L['mail']}) -- Firebreather's Cowl
@@ -430,7 +430,7 @@ map.nodes[69486653] = Rare({
 map.nodes[78514999] = Rare({
     id = 193228,
     quest = 73997,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     rewards = {Achievement({id = 16676, criteria = 56042})},
     pois = {Path({78825133, 78575081, 78475028, 78514999, 78684964, 78674926})}
 }) -- Snappy (Gorjo the Crab Shackler)
