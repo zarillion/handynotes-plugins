@@ -210,7 +210,7 @@ L['nokhud_warspear_note'] = '{item:194540} можно найти в {object:су
 L['slightly_chewed_duck_egg_note'] = 'Найдите и погладьте {npc:192997}, чтобы получить {item:195453}, затем используйте ее. {item:199171} превратиться через 3 дня в {item:199172}.'
 L['yennus_boat'] = 'Игрушечная лодка клыкарров'
 L['yennus_boat_note'] = 'Возьмите {object:игрушечную лодку клыкарров}, чтобы получить {item:200876}, который запускает задание {quest:72063}, которое можно сдать у {npc:195252}.'
-L['forgotten_dragon_treasure_label'] = nil
+L['forgotten_dragon_treasure_label'] = 'Забытое сокровище драконов'
 L['forgotten_dragon_treasure_note'] = nil
 
 L['pm_ench_shalasar_glimmerdusk'] = 'На втором этаже разрушенной башни.'
@@ -324,7 +324,7 @@ L['lillian_brightmoon_note'] = 'Обменять {item:201412} на репута
 
 L['chest_of_the_elements'] = 'Сундук стихий'
 
-L['hoard_of_draconic_delicacies_note_start'] = nil
+L['hoard_of_draconic_delicacies_note_start'] = 'Выполните следующие 7 заданий, предоставленных {npc:189479}:'
 L['hoard_of_draconic_delicacies_note_end'] = nil
 
 -------------------------------------------------------------------------------
@@ -437,10 +437,10 @@ L['shyfly_note'] = 'Вы должны выполнить задание {quest:7
 
 L['cataloger_jakes_note'] = 'Обменяйте {item:192055} на репутацию с {faction:2507}.'
 
-L['snack_attack_suffix'] = nil
-L['snack_attack_note'] = nil
+L['snack_attack_suffix'] = 'закуски скормлены Говядине'
+L['snack_attack_note'] = 'Собирать {npc:195806} и накормить {npc:194922} 20 раз.\n\n{note:Это не обязательно выполнять во время одной осады.}'
 L['options_icons_snack_attack'] = '{achievement:16410}'
-L['options_icons_snack_attack_desc'] = nil
+L['options_icons_snack_attack_desc'] = 'Отображать места {npc:195806} для достижения {achievement:16410}.'
 
 L['loyal_magmammoth_step_1'] = 'Шаг 1'
 L['loyal_magmammoth_step_2'] = 'Шаг 2'
