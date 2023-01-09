@@ -7,7 +7,9 @@ local L = ns.locale
 local Class = ns.Class
 local Group = ns.Group
 
+local Achievement = ns.reward.Achievement
 local Collectible = ns.node.Collectible
+local Pet = ns.reward.Pet
 
 -------------------------------------------------------------------------------
 
