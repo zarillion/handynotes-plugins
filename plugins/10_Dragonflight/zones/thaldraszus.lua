@@ -178,21 +178,27 @@ map.nodes[57218420] = Rare({ -- reqired 67030 review
     }
 }) -- Phleep
 
--- map.nodes[] = Rare({
---     id = 193130,
---     quest = 73889,
---     rewards = {
---         Achievement({id = 16679, criteria = 56137}),
---     }
--- }) -- Pleasant Alpha
+map.nodes[37967903] = Rare({
+    id = 193130,
+    quest = 73889,
+    rewards = {
+        Achievement({id = 16679, criteria = 56137}), --
+    }
+}) -- Pleasant Alpha
 
--- map.nodes[] = Rare({
---     id = 193143,
---     quest = 69853,
---     rewards = {
---         Achievement({id = 16679, criteria = 56133}),
---     }
--- }) -- Razk'vex the Untamed
+map.nodes[50404840] = Rare({
+    id = 193143,
+    quest = 73892,
+    rewards = {
+        Achievement({id = 16679, criteria = 56133}), --
+    },
+    pois = {
+        Path({
+            53264403, 53344332, 52894297, 52414382, 51544449, 50594557,
+            50105027
+        })
+    }
+}) -- Razk'vex the Untamed
 
 map.nodes[40087014] = Rare({ -- reqiured 67030
     id = 193240,
