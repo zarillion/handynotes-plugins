@@ -9,7 +9,7 @@ L['squirrels_note'] = 'Vous devez utiliser l\'émote {emote:/love} sur les besti
 L['options_icons_squirrels'] = '{achievement:2557}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:2557}.'
 
-L['achievement_friend_or_fowl_desc'] = 'Tuez 15 dindes en 3 minutes.'
+L['achievement_friend_or_fowl_desc'] = 'Tuez 15 {npc:23801} en 3 minutes.'
 L['note_devouring_maggot'] = 'Au fond des {location:Catacombes d\'Utgarde}.'
 L['dalaran_sewers'] = 'Dans les {location:Égouts de Dalaran}.'
 L['in_nexus'] = 'Dans {location:Le Nexus} au {location:Hall de la Stase}.'
