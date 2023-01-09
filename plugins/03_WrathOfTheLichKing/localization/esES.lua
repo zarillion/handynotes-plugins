@@ -9,7 +9,7 @@ L['squirrels_note'] = 'Tienes que seleccionar una alimaña que no sea mascota de
 L['options_icons_squirrels'] = '{achievement:2557}'
 L['options_icons_squirrels_desc'] = 'Muesta dónde están las alimañas para el logro {achievement:2557}.'
 
-L['achievement_friend_or_fowl_desc'] = 'Mata 15 pavos en menos de 3 minutos.'
+L['achievement_friend_or_fowl_desc'] = 'Mata 15 {npc:23801} en menos de 3 minutos.'
 L['note_devouring_maggot'] = 'En lo profundo de las {location:Catacumbas de Utgarde}.'
 L['dalaran_sewers'] = 'En las {location:Cloacas de Dalaran}.'
 L['in_nexus'] = 'Dentro de {location:El Nexo} en las {location:Cámaras de Éxtasis}.'
