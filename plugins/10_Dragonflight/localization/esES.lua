@@ -216,8 +216,16 @@ L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las {objec
 L['slightly_chewed_duck_egg_note'] = 'Encuentra y acaricia a {npc:192997} para conseguir el {item:195453} y entonces usarlo. Tras incubar el {item:199171} durante 3 días eclosionará en {item:199172}.'
 L['yennus_boat'] = 'Barco de Juguete Tuskarr'
 L['yennus_boat_note'] = 'Despoja el {object:Barco de Juguete Tuskarr} para conseguir el {item:200876} con el cual comienza la misión {quest:72063} para devolvérselo a {npc:195252}.'
-L['forgotten_dragon_treasure_label'] = nil
-L['forgotten_dragon_treasure_note'] = nil
+L['forgotten_dragon_treasure_label'] = 'Tesoro de Dragón Olvidado'
+L['forgotten_dragon_treasure_note'] = [[
+1.{dot:Green}Recoge 5x {item:195884} de las {object:Flores Cristalinas} al oeste de las {location:Llanuras de Ohn'ahra}.
+
+2.{dot:Yellow}Combina los pétalos para crear un {item:195542} y visita la {object:Piedra Antigua}.
+
+3.{dot:Blue}Usa el {item:195542} para conseguir el buff de 20 segundos {spell:378935}. ÉSte permite seguir el camino de flores que lleva al {object:Cofre Esmeralda} y despojar la {item:195041}.
+
+Con la llave ves al {object:Tesoro de dragón olvidado} para abrirlo y conseguir tu personalización de draco.
+]]
 
 L['pm_ench_shalasar_glimmerdusk'] = 'En la segunda planta de la torre rota.'
 L['pm_herb_hua_greenpaw'] = 'Está arrodillada junto a un árbol.'
