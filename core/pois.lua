@@ -76,9 +76,7 @@ end
 
 function POI:Render(map, template)
     -- draw POI at every coord
-    for k, point in ipairs(self.p) do
-        map:AcquirePin(template, self, point)
-    end
+    for k, point in ipairs(self.p) do map:AcquirePin(template, self, point) end
 end
 
 function POI:Draw(pin, xy)
