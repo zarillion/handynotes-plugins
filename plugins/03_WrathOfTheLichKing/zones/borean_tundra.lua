@@ -88,7 +88,7 @@ map.nodes[27502600] = Collectible({
 ------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------
 
-local Safari = ns.node.Safari
+-- local Safari = ns.node.Safari
 
 -- map.nodes[76202860] = Safari.ArcticHare({
 --     pois = {
