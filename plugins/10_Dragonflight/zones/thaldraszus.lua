@@ -132,7 +132,7 @@ map.nodes[53374092] = Rare({
     }
 }) -- Goremaul the Gluttonous
 
-map.nodes[57828380] = Rare({ -- review
+map.nodes[59128380] = Rare({ -- review
     id = 193126,
     quest = 73881,
     rewards = {
@@ -1079,7 +1079,7 @@ map.nodes[44006480] = Safari({
 ------------------------ ELEMENTAL STORMS: THALDRASZUS ------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[59005879] = ElementalStorm({
+map.nodes[60005870] = ElementalStorm({
     label = format('%s: %s', L['elemental_storm'], L['elemental_storm_tyrhold']),
     mapID = map.id,
     areaPOIs = {7245, 7246, 7247, 7248}
