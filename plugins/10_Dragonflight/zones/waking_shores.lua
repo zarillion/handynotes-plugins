@@ -577,6 +577,18 @@ map.nodes[60598285] = Rare({
     }
 }) -- Terillod the Devout
 
+map.nodes[42203960] = Rare({
+    id = 186200,
+    quest = 74000,
+    note = L['spawns_two_hourly'],
+    rewards = {
+        Transmog({item = 200171, slot = L['1h_sword']}), -- Grymheart Blade
+        Transmog({item = 200175, slot = L['2h_mace']}), -- Repurposed Anvil
+        Transmog({item = 200243, slot = L['cloth']}), -- Titanic Scholar's Finery
+        DC.HighlandDrake.HairyCheek --
+    }
+}) -- Harkyn Grymstone
+
 -- map.nodes[46795728] = Rare({id = 190718}) -- Monsoo, The Boiling Rage
 
 -------------------------------------------------------------------------------
