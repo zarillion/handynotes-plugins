@@ -8,10 +8,10 @@ L['squirrels_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden
 L['options_icons_squirrels'] = 'Ob groß, ob klein, ...'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für die "Ob groß, ob klein, ..." Erfolge an.'
 
-L['achievement_friend_or_fowl_desc'] = 'Tötet 15 Truthähne in 3 Minuten'
-L['note_devouring_maggot'] = 'Tief unten in den Katakomben von Utgarde'
-L['dalaran_sewers'] = 'In der Schattenseite unter Dalaran'
-L['in_nexus'] = 'Im Nexus in der Halle der Stasis'
+L['achievement_friend_or_fowl_desc'] = 'Tötet 15 {npc:Truthähne} in 3 Minuten'
+L['note_devouring_maggot'] = 'Tief unten in den {location:Katakomben von Utgarde}'
+L['dalaran_sewers'] = 'In der {location:Schattenseite unter Dalaran}'
+L['in_nexus'] = 'Im {location:Nexus} in der {location:Halle der Stasis}'
 
 L['higher_learning_1'] = 'Auf dem Boden, rechts vom Bücherregal.'
 L['higher_learning_2'] = 'Auf dem Boden, neben dem kleinen Tisch.'

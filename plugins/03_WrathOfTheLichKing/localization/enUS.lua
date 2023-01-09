@@ -8,7 +8,7 @@ L['squirrels_note'] = 'You must use the emote {emote:/love} on critters not batt
 L['options_icons_squirrels'] = '{achievement:2557}'
 L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achievement:2557} achievement.'
 
-L['achievement_friend_or_fowl_desc'] = 'Slay 15 turkeys in 3 minutes.'
+L['achievement_friend_or_fowl_desc'] = 'Slay 15 {npc:62648s} in 3 minutes.'
 L['note_devouring_maggot'] = 'Deep down in the {location:Utgarde Catacombs}.'
 L['dalaran_sewers'] = 'In the {location:Dalaran Sewers}.'
 L['in_nexus'] = 'Inside {location:The Nexus} at the {location:Hall of Stasis}.'
