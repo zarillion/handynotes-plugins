@@ -216,8 +216,16 @@ L['nokhud_warspear_note'] = '{item:194540} peut être trouvé dans les {object:P
 L['slightly_chewed_duck_egg_note'] = 'Trouvez et caressez {npc:192997} pour obtenir une {item:195453}, puis utilisez-la. l\'{item:199171} incube pendant 3 jours pour devenir {item:199172}.'
 L['yennus_boat'] = 'Bateau jouet rohart'
 L['yennus_boat_note'] = 'Récupérez le {object:Bateau jouet rohart} pour obtenir {item:200876}. Cela lance la quête {quest:72063} qui peut être rendue à {npc:195252}.'
-L['forgotten_dragon_treasure_label'] = nil
-L['forgotten_dragon_treasure_note'] = nil
+L['forgotten_dragon_treasure_label'] = 'Trésor draconique oublié'
+L['forgotten_dragon_treasure_note'] = [[
+1.{dot:Green}Collectez 5x {item:195884} à partir des {object:Fleur cristalline} à l'ouest des {location:Plaines d’Ohn’ahra}.
+
+2.{dot:Yellow}Combinez les pétales pour créer un {item:195542} et rendez visite à la {object:Pierre ancienne}.
+
+3.{dot:Blue}Utilisez l'{item:195542} pour obtenir {spell:378935} qui est un buff de 20 secondes qui vous permet de suivre le chemin des fleurs et rafraîchir sa durée. Continuez jusqu'au {object:Coffre d'émeraude} et récupérez la {item:195041}.
+
+Une fois que vous avez la clé, rendez-vous au {object:Trésor draconique oublié} pour l'ouvrir et recevoir votre Manuscrit guette-drake.
+]]
 
 L['pm_ench_shalasar_glimmerdusk'] = 'Au deuxième étage de la tour brisée.'
 L['pm_herb_hua_greenpaw'] = 'Agenouillée près d\'un arbre.'
