@@ -5,10 +5,11 @@ local ADDON_NAME, ns = ...
 local Map = ns.Map
 local L = ns.locale
 
-local Rare = ns.node.Rare
-local Squirrel = ns.node.Squirrel
-local Node = ns.node.Node
 local Collectible = ns.node.Collectible
+local Node = ns.node.Node
+local Rare = ns.node.Rare
+local Safari = ns.node.Safari
+local Squirrel = ns.node.Squirrel
 
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
