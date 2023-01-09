@@ -217,7 +217,7 @@ L['yennus_boat'] = 'Tuskarr Toy Boat'
 L['yennus_boat_note'] = 'Loot the {object:Tuskarr Toy Boat} to get {item:200876}. This starts the quest {quest:72063} which can be turned in at {npc:195252}.'
 L['forgotten_dragon_treasure_label'] = 'Forgotten Dragon Treasure'
 L['forgotten_dragon_treasure_note'] = [[
-1.{dot:Green}Collect 5x {item:195884} from {object:Crystalline Flower} in western {location:Ohn'ahran Plains}.}
+1.{dot:Green}Collect 5x {item:195884} from {object:Crystalline Flower} in western {location:Ohn'ahran Plains}.
 
 2.{dot:Yellow}Visit the {object:Ancient Stone} and combine petals to create {item:195542}.
 
