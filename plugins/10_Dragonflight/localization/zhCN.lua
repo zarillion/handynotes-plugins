@@ -221,9 +221,9 @@ L['forgotten_dragon_treasure_step1'] = '1.{dot:Green}从 {location:欧恩哈拉�
 L['forgotten_dragon_treasure_step2'] = '2.{dot:Yellow}组合花瓣来做成 {item:195542} 并访问 {object:远古之石}。'
 L['forgotten_dragon_treasure_step3'] = '3.{dot:Blue}使用 {item:195542} 获得 {spell:378935}，这是一个20秒的增益，允许沿着花路充能增益时间到达 {object:翡翠宝箱} 并拾取 {item:195041}。'
 L['forgotten_dragon_treasure_step4'] = '拿到钥匙后，前往 {object:被遗忘的巨龙宝藏} 打开获得观龙者手稿。'
-L['fdt_crystalline_flower'] = nil
-L['fdt_ancient_stone'] = nil
-L['fdt_emerald_chest'] = nil
+L['fdt_crystalline_flower'] = '水晶花'
+L['fdt_ancient_stone'] = '远古之石'
+L['fdt_emerald_chest'] = '翡翠宝箱'
 
 L['pm_ench_shalasar_glimmerdusk'] = '破塔二楼。'
 L['pm_herb_hua_greenpaw'] = '跪在树旁。'
