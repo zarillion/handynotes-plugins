@@ -104,7 +104,7 @@ map.nodes[74414762] = Rare({ -- reqiured 67030 review
 
 map.nodes[85221544] = Rare({ -- review
     id = 187781,
-    quest = nil,
+    quest = 73951,
     rewards = {
         Achievement({id = 16677, criteria = 56082})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -306,7 +306,7 @@ map.nodes[53627281] = Rare({ -- reqiured 67030 review
 
 map.nodes[78298276] = Rare({
     id = 191842,
-    quest = nil,
+    quest = 73974,
     rewards = {Achievement({id = 16677, criteria = 56086})}
 }) -- Sulfurion
 
