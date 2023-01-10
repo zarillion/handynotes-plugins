@@ -202,6 +202,7 @@ L['porta_the_overgrown_note'] = 'Verteile 5x {item:194426} auf dem Boden um {npc
 L['scaleseeker_mezeri_note'] = 'Sprich mit {npc:193224} und biete ihr ein {item:194681} an und folge ihr, bis sie den seltenen Gegner enthüllt.'
 L['shade_of_grief_note'] = 'Klicke den {npc:193166} an, um den seltenen Gegner zu beschwören.'
 L['windscale_the_stormborn_note'] = 'Töte die {npc:192367}, die auf das {npc:192357} kanalisieren.'
+L['windseeker_avash_note'] = 'Töte {npc:195742} und {npc:187916} in der Nähe, um den seltenen Gegner erscheinen zu lassen.'
 L['zarizz_note'] = 'Visiere und fauche {emote:(/fauchen)} die vier {npc:193169n} an, um den seltenen Gegner erscheinen zu lassen.'
 
 L['gold_swong_coin_note'] = 'In der Höhle mit {npc:191608} zu seiner rechten Seite.'

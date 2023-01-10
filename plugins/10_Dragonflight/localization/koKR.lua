@@ -202,6 +202,7 @@ L['porta_the_overgrown_note'] = nil
 L['scaleseeker_mezeri_note'] = nil
 L['shade_of_grief_note'] = '{npc:193166}를 클릭하면 소환됩니다.'
 L['windscale_the_stormborn_note'] = nil
+L['windseeker_avash_note'] = '주변의 {npc:195742} 또는 {npc:187916}를 잡다보면 소환됩니다.'
 L['zarizz_note'] = '{npc:193169} 네마리가 있는 상태에서 {emote:/야유} 하면 소환됩니다.'
 
 L['gold_swong_coin_note'] = '동굴 안 {npc:191608} 오른편에 있음'

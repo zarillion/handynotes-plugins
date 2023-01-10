@@ -208,6 +208,7 @@ L['porta_the_overgrown_note'] = 'Find 5x {item:194426} at the bottom of the lake
 L['scaleseeker_mezeri_note'] = 'Offer {item:194681} to {npc:193224} and follow her until she reveals the rare.\n\n{note:{npc:190315} at {location:Three-Falls Lookout} in {location:The Azure Span} is the nearest vendor.}'
 L['shade_of_grief_note'] = 'Click the {npc:193166} to spawn the rare.'
 L['windscale_the_stormborn_note'] = 'Kill the {npc:192367s} channeling into the {npc:192357}.'
+L['windseeker_avash_note'] = 'Kill nearby {npc:195742s} and {npc:187916s} to spawn the rare.'
 L['zarizz_note'] = 'Click and {emote:/hiss} at the four {npc:193169s} to summon the rare.'
 
 L['gold_swong_coin_note'] = 'Inside the cave with {npc:191608} to his right side.'
@@ -348,7 +349,7 @@ L['captain_lancer_note'] = 'Spawns immediately after completing the {spell:38894
 L['enkine_note'] = 'Kill {npc:193137}, {npc:193138} or {npc:193139} along the lava river to get {item:201092}, use it and fish near {npc:191866} in the lava.'
 L['lepidoralia_note'] = 'Located in the {location:Fluttering Cavern}. Help {npc:193342} catch {npc:193274s} until the rare spawns.'
 L['obsidian_citadel_rare_note'] = 'You and other players have to return a total of %dx {item:191264} to %s. To craft a key you need to combine 30x {item:191251} and 3x {item:193201}, you can get these items from {location:Obsidian Citadel} mobs.'
-L['shadeslash_note'] = 'Click the {object:Pilfered Globe} or {object:Pilfered Telescope}, then click the {object:Pilfered Focus} to summon the rare.'
+L['shadeslash_note'] = 'Click the {object:Pilfered Globe}, {object:Pilfered Telescope} and {object:Pilfered Focus} to summon the rare.'
 L['obsidian_throne_rare_note'] = 'Inside the {location:Obsidian Throne}.'
 L['slurpo_snail_note'] = 'Loot a {item:201033} from {object:Salt Crystal} in {location:The Azure Span} cave (11, 41) and use it in {location:The Waking Shores} cave to summon him.'
 L['worldcarver_atir_note'] = 'Collect 3x {item:191211} from {npc:187366} nearby and place them at {npc:197395} to spawn the rare.'

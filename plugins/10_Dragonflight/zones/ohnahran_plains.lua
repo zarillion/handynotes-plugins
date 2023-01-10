@@ -344,6 +344,7 @@ map.nodes[84214784] = Rare({
 map.nodes[58596822] = Rare({
     id = 192045,
     quest = 74088,
+    note = L['windseeker_avash_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56076}),
         Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy

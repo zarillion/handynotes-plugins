@@ -209,6 +209,7 @@ L['porta_the_overgrown_note'] = 'Trouvez 5x {item:194426} au fond du lac à l\'o
 L['scaleseeker_mezeri_note'] = 'Offrez un {item:194681} à {npc:193224} et suivez-la jusqu\'à ce qu\'elle révèle le rare.\n\n{note:{npc:190315} au {location:Guet des Trois-Cascades} à la {location:Travée d\'Azur} est la vendeuse la plus proche.}'
 L['shade_of_grief_note'] = 'Cliquez sur la {npc:193166} pour faire apparaître le rare.'
 L['windscale_the_stormborn_note'] = 'Tuez les {npc:192367s} canalisant dans l\'{npc:192357}.'
+L['windseeker_avash_note'] = 'Tuez les {npc:195742s} et {npc:187916s} proches pour faire apparaître le rare.'
 L['zarizz_note'] = 'Cliquez et {emote:/siffler} les quatre {npc:193169s} pour invoquer le rare.'
 
 L['gold_swong_coin_note'] = 'Dans la grotte avec {npc:191608} à sa droite.'

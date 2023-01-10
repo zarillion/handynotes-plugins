@@ -208,6 +208,7 @@ L['porta_the_overgrown_note'] = '{item:194426} 可以在西邊的湖 {location:�
 L['scaleseeker_mezeri_note'] = '把 {item:194681} 交給 {npc:193224}後, 他會揭露稀有.'
 L['shade_of_grief_note'] = '點選 {npc:193166} 來召喚稀有.'
 L['windscale_the_stormborn_note'] = '殺死對 {npc:192357} 引導法術的 {npc:192367}.'
+L['windseeker_avash_note'] = '殺死附近的 {npc:195742} 和 {npc:187916} 來刷新稀有'
 L['zarizz_note'] = '點選並對著4個 {npc:193169} 使用 {emote:/hiss} 來召喚稀有.'
 
 L['gold_swong_coin_note'] = '和 {npc:191608} 一起在山洞內, 且在她的右側.'

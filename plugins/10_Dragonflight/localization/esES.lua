@@ -209,6 +209,7 @@ L['porta_the_overgrown_note'] = 'Encuentra 5x {item:194426} en el fondo del lago
 L['scaleseeker_mezeri_note'] = 'Ofrece {item:194681} a {npc:193224} y síguela hasta que te enseñe al raro.\n\n{note:La vendedora más cercana es {npc:190315} de {location:Atalaya de Tres Cascadas} en las {location:Tierras Azures}.}'
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 L['windscale_the_stormborn_note'] = 'Mata a los {npc:192367} que están canalizando en los {npc:192357}.'
+L['windseeker_avash_note'] = 'Mata a los {npc:195742} cercanos y a los {npc:187916} para hacer aparecer al raro.'
 L['zarizz_note'] = 'Selecciona a las {npc:193169} y teclea {emote:/hiss} en ellas para invocar al raro.'
 
 L['gold_swong_coin_note'] = 'Dentro de la cueva con {npc:191608} a su lado derecho.'
