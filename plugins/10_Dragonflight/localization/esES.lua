@@ -222,9 +222,9 @@ L['forgotten_dragon_treasure_step1'] = '1.{dot:Green}Recoge 5x {item:195884} de 
 L['forgotten_dragon_treasure_step2'] = '2.{dot:Yellow}Combina los pétalos para crear un {item:195542} y visita la {object:Piedra Antigua}.'
 L['forgotten_dragon_treasure_step3'] = '3.{dot:Blue}Usa el {item:195542} para conseguir el buff de 20 segundos {spell:378935}. Éste permite seguir el camino de flores que lleva al {object:Cofre Esmeralda} y despojar la {item:195041}.'
 L['forgotten_dragon_treasure_step4'] = 'Con la llave ves al {object:Tesoro de dragón olvidado} para abrirlo y conseguir tu personalización de draco.'
-L['fdt_crystalline_flower'] = nil
-L['fdt_ancient_stone'] = nil
-L['fdt_emerald_chest'] = nil
+L['fdt_crystalline_flower'] = 'Flor Cristalina'
+L['fdt_ancient_stone'] = 'Piedra Antigua'
+L['fdt_emerald_chest'] = 'Cofre Esmeralda'
 
 L['pm_ench_shalasar_glimmerdusk'] = 'En la segunda planta de la torre rota.'
 L['pm_herb_hua_greenpaw'] = 'Está arrodillada junto a un árbol.'
