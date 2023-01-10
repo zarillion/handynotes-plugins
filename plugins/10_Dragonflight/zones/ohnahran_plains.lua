@@ -558,10 +558,16 @@ map.nodes[53296890] = Treasure({
     pois = {
         POI({
             color = 'Green',
-            26614876, 26864733, 27585276, 27745084, 29354888, 29495166,
-            30504596, 32134689, 36184690
-            }
-        ), -- Crystalline Flowers
+            26614876,
+            26864733,
+            27585276,
+            27745084,
+            29354888,
+            29495166,
+            30504596,
+            32134689,
+            36184690
+        }), -- Crystalline Flowers
         POI({color = 'Yellow', 67034372}), -- Ancient Stone
         POI({color = 'Blue', 66975036}) -- Emerald Chest
     }
