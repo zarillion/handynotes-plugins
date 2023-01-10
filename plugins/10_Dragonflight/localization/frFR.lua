@@ -222,9 +222,9 @@ L['forgotten_dragon_treasure_step1'] = '1.{dot:Green}Collectez 5x {item:195884} 
 L['forgotten_dragon_treasure_step2'] = '2.{dot:Yellow}Combinez les pétales pour créer un {item:195542} et rendez visite à la {object:Pierre ancienne}.'
 L['forgotten_dragon_treasure_step3'] = '3.{dot:Blue}Utilisez l\'{item:195542} pour obtenir {spell:378935} qui est un buff de 20 secondes qui vous permet de suivre le chemin des fleurs et rafraîchir sa durée. Continuez jusqu\'au {object:Coffre d\'émeraude} et récupérez la {item:195041}.'
 L['forgotten_dragon_treasure_step4'] = 'Une fois que vous avez la clé, rendez-vous au {object:Trésor draconique oublié} pour l\'ouvrir et recevoir votre Manuscrit guette-drake.'
-L['fdt_crystalline_flower'] = nil
-L['fdt_ancient_stone'] = nil
-L['fdt_emerald_chest'] = nil
+L['fdt_crystalline_flower'] = 'Fleur cristalline'
+L['fdt_ancient_stone'] = 'Pierre ancienne'
+L['fdt_emerald_chest'] = 'Coffre d\'émeraude'
 
 L['pm_ench_shalasar_glimmerdusk'] = 'Au deuxième étage de la tour brisée.'
 L['pm_herb_hua_greenpaw'] = 'Agenouillée près d\'un arbre.'
