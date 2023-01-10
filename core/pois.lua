@@ -39,7 +39,7 @@ function POI:Initialize(attrs)
 
     -- normalize points = {} back into the POI itself for legacy reasons
     if self.points then
-        self.points = ns.AsIDTable(self.points)
+        self.points = ns.AsTable(self.points)
         for k, v in ipairs(self.points) do self[k] = v end
     end
 
