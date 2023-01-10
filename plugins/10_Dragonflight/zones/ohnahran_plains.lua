@@ -550,6 +550,7 @@ map.nodes[56007878] = ns.node.ElementalChest({
 map.nodes[53296890] = Treasure({
     label = L['forgotten_dragon_treasure_label'],
     icon = 'chest_gn',
+    quest = 74399,
     note = format('%s\n\n%s\n\n%s\n\n%s', L['forgotten_dragon_treasure_step1'],
         L['forgotten_dragon_treasure_step2'],
         L['forgotten_dragon_treasure_step3'],
