@@ -1489,12 +1489,12 @@ map.nodes[34153854] = ElementalStorm({
     areaPOIs = {7221, 7222, 7223, 7224}
 }) -- Elemental Storm: Nokhudon Hold
 
-map.nodes[54367534] = ElementalStorm({
-    label = format('%s: %s', L['elemental_storm'],
-        L['elemental_storm_ohniri_springs']),
-    mapID = map.id,
-    areaPOIs = {7225, 7226, 7227, 7228}
-}) -- Elemental Storm: Ohn'iri Springs
+-- map.nodes[54367534] = ElementalStorm({
+--     label = format('%s: %s', L['elemental_storm'],
+--         L['elemental_storm_ohniri_springs']),
+--     mapID = map.id,
+--     areaPOIs = {7225, 7226, 7227, 7228}
+-- }) -- Elemental Storm: Ohn'iri Springs
 
 -------------------------------------------------------------------------------
 --------------------------- KNEW YOU NOKHUD DO IT! ----------------------------
