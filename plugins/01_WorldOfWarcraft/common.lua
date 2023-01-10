@@ -103,14 +103,14 @@ ns.node.Safari = {
             Achievement({id = 6587, criteria = 21509, oneline = true}),
             Pet({id = 635})
         }
-    }), -- Also in Drustvar, BfA; Hellfire Peninsula, Nagrand, BC; Spires of Arak, Legion;
+    }), -- Also in Drustvar, BfA; Spires of Arak, Legion;
     AlpineChipmunk = Class('AlpineChipmunk', Safari, {
         id = 62189,
         rewards = {
             Achievement({id = 6585, criteria = 21728, oneline = true}),
             Pet({id = 487})
         }
-    }), -- Also in Mount Hyjal, Cataclysm; Highmountain, Legion; Drustvar, BfA;
+    }), -- Also in Highmountain, Legion; Drustvar, BfA;
     AlpineHare = Class('AlpineHare', Safari, {
         id = 61690,
         rewards = {
@@ -125,14 +125,14 @@ ns.node.Safari = {
             Achievement({id = 6585, criteria = 21711, oneline = true}),
             Pet({id = 838})
         }
-    }), -- Also in Deepholm, Cataclysm
+    }),
     AshLizard = Class('AshLizard', Safari, {
         id = 62364,
         rewards = {
             Achievement({id = 6585, criteria = 21729, oneline = true}),
             Pet({id = 632})
         }
-    }), -- Also in Mount Hyjal, Cataclysm
+    }),
     AshSpiderling = Class('AshSpiderling', Safari, {
         id = 61420,
         rewards = {
@@ -147,7 +147,7 @@ ns.node.Safari = {
             Achievement({id = 6587, criteria = 21624, oneline = true}),
             Pet({id = 425})
         }
-    }), -- Also in Suramar, Legion; Shadowmoon Valley, BC
+    }), -- Also in Suramar, Legion;
     BabyApe = Class('BabyApe', Safari, {
         id = 61324,
         rewards = {
@@ -235,7 +235,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21625, oneline = true}),
             Pet({id = 393})
         }
-    }), -- Twilight Highlands, Cataclysm; Val'sharah, Legion; Gorgrond, Draenor
+    }), -- also in Val'sharah, Legion; Gorgrond, Draenor
     CoralSnake = Class('CoralSnake', Safari, {
         id = 62190,
         rewards = {
@@ -284,7 +284,7 @@ ns.node.Safari = {
             Achievement({id = 6585, criteria = 21712, oneline = true}),
             Pet({id = 484})
         }
-    }), -- Also in Uldum, Cataclysm
+    }),
     DiemetradonHatchling = Class('DiemetradonHatchling', Safari, {
         id = 62375,
         rewards = {
@@ -298,7 +298,7 @@ ns.node.Safari = {
             Achievement({id = 6585, criteria = 21719, oneline = true}),
             Pet({id = 467})
         }
-    }), -- Also in Uldum, Cataclysm
+    }),
     DuskSpiderling = Class('DuskSpiderling', Safari, {
         id = 61253,
         rewards = {
@@ -312,14 +312,14 @@ ns.node.Safari = {
             Achievement({id = 6585, criteria = 21713, oneline = true}),
             Pet({id = 479})
         }
-    }), -- Also in Mount Hyjal, Cataclysm; Val'sharah, The Dreamgrove, Legion
+    }), -- Also in Val'sharah, The Dreamgrove, Legion
     EmeraldBoa = Class('EmeraldBoa', Safari, {
         id = 62127,
         rewards = {
             Achievement({id = 6585, criteria = 21738, oneline = true}),
             Pet({id = 631})
         }
-    }), -- Also in Uldum, Cataclysm
+    }),
     Fawn = Class('Fawn', Safari, {
         id = 61165,
         rewards = {
@@ -342,7 +342,7 @@ ns.node.Safari = {
             Achievement({id = 6586, criteria = 21621, oneline = true}),
             Pet({id = 415})
         }
-    }), -- Also in Mount Hyjal, Cataclysm
+    }),
     FledglingBuzzard = Class('FledglingBuzzard', Safari, {
         id = 61171,
         rewards = {
@@ -429,7 +429,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21649, oneline = true}),
             Pet({id = 648})
         }
-    }), -- Twilight Highlands, Cataclysm
+    }),
     InfectedFawn = Class('InfectedFawn', Safari, {
         id = 61827,
         rewards = {
@@ -646,7 +646,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21516, oneline = true}),
             Pet({id = 417})
         }
-    }), -- Also in Terrok Forest, Nagrand, Outland; Drustvar, BFA; Highmountain, Spires of Arak, Legion;
+    }), -- Also in Drustvar, BFA; Highmountain, Spires of Arak, Legion;
     RatSnake = Class('RatSnake', Safari, {
         id = 61258,
         rewards = {
@@ -661,7 +661,7 @@ ns.node.Safari = {
             Achievement({id = 6586, criteria = 21617, oneline = true}),
             Pet({id = 431})
         }
-    }), -- also in Twilight Highlands, Cataclysm
+    }),
     RavagerHatchling = Class('RavagerHatchling', Safari, {
         id = 62051,
         rewards = {
@@ -714,7 +714,7 @@ ns.node.Safari = {
             Achievement({id = 6587, criteria = 21716, oneline = true}),
             Pet({id = 482})
         }
-    }), -- Also in Mount Hyjal, Cataclysm, Blades Edge Mountains, Outland
+    }),
     RubySapling = Class('RubySapling', Safari, {
         id = 62020,
         rewards = {
@@ -752,7 +752,7 @@ ns.node.Safari = {
             Achievement({id = 6587, criteria = 21622, oneline = true}),
             Pet({id = 414})
         }
-    }), -- Also in Hellfire Peninsula, Shadowmoon Valley, Blades Edge Mountains, Outland; Twilight Highlands, Cataclysm
+    }),
     Scorpling = Class('Scorpling', Safari, {
         id = 61329,
         rewards = {
@@ -784,14 +784,14 @@ ns.node.Safari = {
             Achievement({id = 6589, criteria = 21706, oneline = true}),
             Pet({id = 388})
         }
-    }), -- also in Twilight Highlands, Cataclysm; Waking Shores, Azure Span, Dragonflight; Nagrand, Draenor
+    }), -- also in Waking Shores, Azure Span, Dragonflight; Nagrand, Draenor
     Sidewinder = Class('Sidewinder', Safari, {
         id = 62523,
         rewards = {
             Achievement({id = 6585, criteria = 21741, oneline = true}),
             Pet({id = 511})
         }
-    }), -- also in Uldum, Cataclysm
+    }),
     SilithidHatchling = Class('SilithidHatchling', Safari, {
         id = 62258,
         rewards = {
@@ -805,7 +805,7 @@ ns.node.Safari = {
             Achievement({id = 6585, criteria = 21727, oneline = true}),
             Pet({id = 503})
         }
-    }), -- also in Mount Hyjal, Cataclysm
+    }),
     Skunk = Class('Skunk', Safari, {
         id = 61255,
         rewards = {
@@ -815,7 +815,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21633, oneline = true}),
             Pet({id = 397})
         }
-    }), -- also in Terrok Forest, Outland; Nagrand, Draenor; Val'sharah, Legion
+    }), -- also in Nagrand, Draenor; Val'sharah, Legion
     SmallFrog = Class('SmallFrog', Safari, {
         id = 61071,
         rewards = {
@@ -824,7 +824,7 @@ ns.node.Safari = {
             Achievement({id = 6587, criteria = 21518, oneline = true}),
             Pet({id = 419})
         }
-    }), -- also in Zangarmarsh, Outland
+    }),
     Snake = Class('Snake', Safari, {
         id = 61142,
         rewards = {
@@ -834,7 +834,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21519, oneline = true}),
             Pet({id = 387})
         }
-    }), -- Also in Zangarmarsh, Outland;
+    }),
     SnowCub = Class('SnowCub', Safari, {
         id = 61689,
         rewards = {
@@ -911,7 +911,7 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21522, oneline = true}),
             Pet({id = 379})
         }
-    }), -- also in Terrokar Forest, Nagrand, Blades Edge Mountains, Outland; Drustvar, BFA; Highmountain, Legion; Spires of Arak, Nagrand, Draenor
+    }), -- also in Drustvar, BFA; Highmountain, Legion; Spires of Arak, Nagrand, Draenor
     Stinkbug = Class('Stinkbug', Safari, {
         id = 62256,
         rewards = {
@@ -949,7 +949,7 @@ ns.node.Safari = {
             Achievement({id = 6586, criteria = 21620, oneline = true}),
             Pet({id = 432})
         }
-    }), -- also in Terrokar Forest, Outland
+    }),
     SwampMoth = Class('SwampMoth', Safari, {
         id = 61370,
         rewards = {
@@ -964,7 +964,7 @@ ns.node.Safari = {
             Achievement({id = 6587, criteria = 21723, oneline = true}),
             Pet({id = 497})
         }
-    }), -- also in Shadowmoon Valley, Outland
+    }),
     TaintedMoth = Class('TaintedMoth', Safari, {
         id = 62315,
         rewards = {
@@ -1009,14 +1009,14 @@ ns.node.Safari = {
             Achievement({id = 6588, criteria = 21646, oneline = true}),
             Pet({id = 420})
         }
-    }), -- also in Nagrand, Outland
+    }),
     TopazShaleHatchling = Class('TopazShaleHatchling', Safari, {
         id = 62181,
         rewards = {
             Achievement({id = 6585, criteria = 21718, oneline = true}),
             Pet({id = 480})
         }
-    }), -- also in Deepholm, Cataclysm
+    }),
     TreePython = Class('TreePython', Safari, {
         id = 61318,
         rewards = {
@@ -1053,7 +1053,7 @@ ns.node.Safari = {
             Achievement({id = 6586, criteria = 21684, oneline = true}),
             Pet({id = 470})
         }
-    }), -- also in Twilight Highlands, Deepholm,  Cataclysm
+    }),
     UndercityRat = Class('UndercityRat', Safari, {
         id = 61889,
         rewards = {
@@ -1075,7 +1075,7 @@ ns.node.Safari = {
             Achievement({id = 6586, criteria = 21661, oneline = true}),
             Pet({id = 418})
         }
-    }), -- also in Twilight Highlands, Cataclysm
+    }),
     WharfRat = Class('WharfRat', Safari, {
         id = 61323,
         rewards = {
