@@ -19,7 +19,7 @@ ns.expansion = 5
 
 ns.groups.KROSHIK = Group('kroshik', 458255, {defaults = ns.GROUP_HIDDEN})
 ns.groups.LOREWALKER = Group('lorewalker', 645218, {defaults = ns.GROUP_HIDDEN})
- - ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
+-- ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
 ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
