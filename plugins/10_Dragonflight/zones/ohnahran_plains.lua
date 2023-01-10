@@ -872,6 +872,7 @@ map.nodes[81035952] = Bakar({
 
 map.nodes[22753027] = Disturbeddirt()
 map.nodes[25976132] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[29765203] = Disturbeddirt()
 map.nodes[29777163] = Disturbeddirt()
 map.nodes[29777363] = Disturbeddirt()
 map.nodes[36553269] = Disturbeddirt()
@@ -908,11 +909,12 @@ map.nodes[79697606] = Disturbeddirt()
 map.nodes[80133864] = Disturbeddirt({
     note = L['in_cave'],
     pois = {POI({79403650})}
-}) -- Bugged under a rock
+})
 map.nodes[81403827] = Disturbeddirt()
 map.nodes[82543651] = Disturbeddirt()
 map.nodes[82593486] = Disturbeddirt()
 map.nodes[83243606] = Disturbeddirt()
+map.nodes[32834660] = Disturbeddirt()
 map.nodes[83731265] = Disturbeddirt()
 map.nodes[85833271] = Disturbeddirt()
 map.nodes[86683243] = Disturbeddirt()
