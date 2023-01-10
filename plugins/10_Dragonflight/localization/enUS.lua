@@ -215,16 +215,15 @@ L['nokhud_warspear_note'] = '{item:194540} can be found in {object:Expedition Sc
 L['slightly_chewed_duck_egg_note'] = 'Find and pet {npc:192997} to get {item:195453}, then use it. {item:199171} incubates in 3 days into {item:199172}.'
 L['yennus_boat'] = 'Tuskarr Toy Boat'
 L['yennus_boat_note'] = 'Loot the {object:Tuskarr Toy Boat} to get {item:200876}. This starts the quest {quest:72063} which can be turned in at {npc:195252}.'
+
 L['forgotten_dragon_treasure_label'] = 'Forgotten Dragon Treasure'
-L['forgotten_dragon_treasure_note'] = [[
-1.{dot:Green}Collect 5x {item:195884} from {object:Crystalline Flower} in western {location:Ohn'ahran Plains}.
-
-2.{dot:Yellow}Combine petals to create {item:195542} and visit the {object:Ancient Stone}.
-
-3.{dot:Blue}Use the {item:195542} to gain the 20 seconds buff {spell:378935}. This one, while you recharge their time, allows you to follow the flower path to the {object:Emerald Chest} and loot the {item:195041}.
-
-Once you have the key, head to the {object:Forgotten Dragon Treasure} to open it and receive your Drakewatcher Manuscript.
-]]
+L['forgotten_dragon_treasure_step1'] = '1.{dot:Green}Collect 5x {item:195884} from {object:Crystalline Flower} in western {location:Ohn\'ahran Plains}.'
+L['forgotten_dragon_treasure_step2'] = '2.{dot:Yellow}Combine petals to create {item:195542} and visit the {object:Ancient Stone}.'
+L['forgotten_dragon_treasure_step3'] = '3.{dot:Blue}Use the {item:195542} to gain {spell:378935} which is a 20 second buff that allows you to follow the flower path charging the buff time to the {object:Emerald Chest} and loot the {item:195041}.'
+L['forgotten_dragon_treasure_step4'] = 'Once you have the key, head to the {object:Forgotten Dragon Treasure} to open it and receive your Drakewatcher Manuscript.'
+L['fdt_crystalline_flower'] = 'Crystalline Flower'
+L['fdt_ancient_stone'] = 'Ancient Stone'
+L['fdt_emerald_chest'] = 'Emerald Chest'
 
 L['pm_ench_shalasar_glimmerdusk'] = 'On the second floor of the broken tower.'
 L['pm_herb_hua_greenpaw'] = 'Kneels next to a tree.'

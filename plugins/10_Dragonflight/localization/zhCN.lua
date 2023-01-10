@@ -215,16 +215,15 @@ L['nokhud_warspear_note'] = '{item:194540} 可以从 {object:探险队斥候的�
 L['slightly_chewed_duck_egg_note'] = '找到并拍打 {npc:192997} 获得 {item:195453} 并使用它。{item:199171} 3天后孵化为 {item:199172}。'
 L['yennus_boat'] = '海象人玩具船'
 L['yennus_boat_note'] = '拾取 {object:海象人玩具船} 后获得 {item:200876}，开始任务 {quest:72063} 将其交还给 {npc:195252}。'
+
 L['forgotten_dragon_treasure_label'] = '被遗忘的巨龙宝藏'
-L['forgotten_dragon_treasure_note'] = [[
-1.{dot:Green}从 {location:欧恩哈拉平原} 西部的 {object:水晶花} 收集5个 {item:195884}。
-
-2.{dot:Yellow}组合花瓣来做成 {item:195542} 并访问 {object:远古之石}。
-
-3.{dot:Blue}使用 {item:195542} 获得 {spell:378935}，这是一个20秒的增益，允许沿着花路充能增益时间到达 {object:翡翠宝箱} 并拾取 {item:195041}。
-
-拿到钥匙后，前往 {object:被遗忘的巨龙宝藏} 打开获得观龙者手稿。
-]]
+L['forgotten_dragon_treasure_step1'] = '1.{dot:Green}从 {location:欧恩哈拉平原} 西部的 {object:水晶花} 收集5个 {item:195884}。'
+L['forgotten_dragon_treasure_step2'] = '2.{dot:Yellow}组合花瓣来做成 {item:195542} 并访问 {object:远古之石}。'
+L['forgotten_dragon_treasure_step3'] = '3.{dot:Blue}使用 {item:195542} 获得 {spell:378935}，这是一个20秒的增益，允许沿着花路充能增益时间到达 {object:翡翠宝箱} 并拾取 {item:195041}。'
+L['forgotten_dragon_treasure_step4'] = '拿到钥匙后，前往 {object:被遗忘的巨龙宝藏} 打开获得观龙者手稿。'
+L['fdt_crystalline_flower'] = nil
+L['fdt_ancient_stone'] = nil
+L['fdt_emerald_chest'] = nil
 
 L['pm_ench_shalasar_glimmerdusk'] = '破塔二楼。'
 L['pm_herb_hua_greenpaw'] = '跪在树旁。'

@@ -550,26 +550,35 @@ map.nodes[56007878] = ns.node.ElementalChest({
 map.nodes[53296890] = Treasure({
     label = L['forgotten_dragon_treasure_label'],
     icon = 'chest_gn',
-    note = L['forgotten_dragon_treasure_note'],
-    quest = 74399,
+    note = format('%s\n\n%s\n\n%s\n\n%s', L['forgotten_dragon_treasure_step1'],
+        L['forgotten_dragon_treasure_step2'],
+        L['forgotten_dragon_treasure_step3'],
+        L['forgotten_dragon_treasure_step4']),
     rewards = {
         DC.WindborneVelocidrake.ManedBack -- Windborne Velocidrake: Maned Back
     },
     pois = {
         POI({
+            label = L['fdt_crystalline_flower'],
+            note = L['forgotten_dragon_treasure_step1'],
             color = 'Green',
-            26614876,
-            26864733,
-            27585276,
-            27745084,
-            29354888,
-            29495166,
-            30504596,
-            32134689,
-            36184690
+            points = {
+                26614876, 26864733, 27585276, 27745084, 29354888, 29495166,
+                30504596, 32134689, 36184690
+            }
         }), -- Crystalline Flowers
-        POI({color = 'Yellow', 67034372}), -- Ancient Stone
-        POI({color = 'Blue', 66975036}) -- Emerald Chest
+        POI({
+            label = L['fdt_ancient_stone'],
+            note = L['forgotten_dragon_treasure_step2'],
+            color = 'Yellow',
+            points = {67034372}
+        }), -- Ancient Stone
+        POI({
+            label = L['fdt_emerald_chest'],
+            note = L['forgotten_dragon_treasure_step3'],
+            color = 'Blue',
+            points = {66975036}
+        }) -- Emerald Chest
     }
 }) -- Forgotten Dragon Treasure
 

@@ -209,16 +209,15 @@ L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks und i
 L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutze diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
 L['yennus_boat'] = 'Spielzeugboot der Tuskarr'
 L['yennus_boat_note'] = 'Plündere das {object:Spielzeugboot der Tuskarr}, um {item:200876} zu erhalten, das die Quest {quest:72063} startet, die bei {npc:195252} abgegeben werden kann.'
+
 L['forgotten_dragon_treasure_label'] = 'Vergessener Drachenschatz'
-L['forgotten_dragon_treasure_note'] = [[
-1.{dot:Green}Sammle 5x {item:195884} von {object:Kristalline Blume} im Westen der {location:Ebenen von Ohn'ahra}.
-
-2.{dot:Yellow}Kombiniere die Blütenblätter beim {object:Uralter Stein}, um ein {item:195542} herzustellen.
-
-3.{dot:Blue}Benutze das {item:195542}, um den Stärkungszauber {spell:378935} (20 Sekunden) zu erhalten. Folge den Blumen zu einer Höhle und lauf durch diese hindurch, um den Stärkungszauber aufzufrischen. Darin findest du eine Truhe in der ein {item:195041} ist.
-
-Sobald du den Schlüssel hast, geht zum {object:Vergessener Drachenschatz}, um diesen zu öffnen und deine Belohnung zu erhalten.
-]]
+L['forgotten_dragon_treasure_step1'] = '1.{dot:Green}Sammle 5x {item:195884} von {object:Kristalline Blume} im Westen der {location:Ebenen von Ohn\'ahra}.'
+L['forgotten_dragon_treasure_step2'] = '2.{dot:Yellow}Kombiniere die Blütenblätter beim {object:Uralter Stein}, um ein {item:195542} herzustellen.'
+L['forgotten_dragon_treasure_step3'] = '3.{dot:Blue}Benutze das {item:195542}, um den Stärkungszauber {spell:378935} (20 Sekunden) zu erhalten. Folge den Blumen zu einer Höhle und lauf durch diese hindurch, um den Stärkungszauber aufzufrischen. Darin findest du eine Truhe in der ein {item:195041} ist.'
+L['forgotten_dragon_treasure_step4'] = 'Sobald du den Schlüssel hast, geht zum {object:Vergessener Drachenschatz}, um diesen zu öffnen und deine Belohnung zu erhalten.'
+L['fdt_crystalline_flower'] = nil
+L['fdt_ancient_stone'] = nil
+L['fdt_emerald_chest'] = nil
 
 L['pm_ench_shalasar_glimmerdusk'] = 'Im zweiten Stock der Turmruine.'
 L['pm_herb_hua_greenpaw'] = 'Kniet neben einem Baum.'

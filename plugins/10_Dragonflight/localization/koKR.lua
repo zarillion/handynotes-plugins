@@ -210,8 +210,15 @@ L['nokhud_warspear_note'] = '{item:194540}은 {object:원정대 정찰병의 짐
 L['slightly_chewed_duck_egg_note'] = '{npc:192997}를 찾아 쓰다듬으면 {item:195453}를 얻게 되는데 이를 사용합니다. {item:199171}은 3일이 지나면 {item:199172}로 부화합니다.'
 L['yennus_boat'] = '투스카르 장난감 배'
 L['yennus_boat_note'] = '{object:투스카르 장난감 배}를 클릭하여 {item:200876}를 습득하면, 이를 {npc:195252}에게 돌려주는 {quest:72063} 퀘스트를 시작할 수 있게 됩니다.'
+
 L['forgotten_dragon_treasure_label'] = nil
-L['forgotten_dragon_treasure_note'] = nil
+L['forgotten_dragon_treasure_step1'] = nil
+L['forgotten_dragon_treasure_step2'] = nil
+L['forgotten_dragon_treasure_step3'] = nil
+L['forgotten_dragon_treasure_step4'] = nil
+L['fdt_crystalline_flower'] = nil
+L['fdt_ancient_stone'] = nil
+L['fdt_emerald_chest'] = nil
 
 L['pm_ench_shalasar_glimmerdusk'] = '부서진 탑의 2층에 있습니다.'
 L['pm_herb_hua_greenpaw'] = nil
