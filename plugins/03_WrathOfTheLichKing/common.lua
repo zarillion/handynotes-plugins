@@ -43,29 +43,29 @@ ns.node.Safari = {
     ArcticFoxKit = Class('ArcticFoxKit', Safari, {
         id = 62864,
         rewards = {
-            Achievement({id = 6588, criteria = 21779, oneline = false}),
+            Achievement({id = 6588, criteria = 21779, oneline = true}),
             Pet({id = 558})
         }
     }),
     ArcticHare = Class('ArcticHare', Safari, {
         id = 62693,
         rewards = {
-            Achievement({id = 6588, criteria = 21767, oneline = false}),
+            Achievement({id = 6588, criteria = 21767, oneline = true}),
             Pet({id = 641})
         }
     }),
     Biletoad = Class('Biletoad', Safari, {
         id = 62815,
         rewards = {
-            Achievement({id = 6585, criteria = 21736, oneline = false}),
-            Achievement({id = 6588, criteria = 21736, oneline = false}),
+            Achievement({id = 6585, criteria = 21736, oneline = true}),
+            Achievement({id = 6588, criteria = 21736, oneline = true}),
             Pet({id = 649})
         }
     }),
     BoreanMarmot = Class('BoreanMarmot', Safari, {
         id = 62695,
         rewards = {
-            Achievement({id = 6588, criteria = 21768, oneline = false}),
+            Achievement({id = 6588, criteria = 21768, oneline = true}),
             Pet({id = 639})
         }
     }),
@@ -90,35 +90,35 @@ ns.node.Safari = {
     DevouringMaggot = Class('DevouringMaggot', Safari, {
         id = 62640,
         rewards = {
-            Achievement({id = 6588, criteria = 21773, oneline = false}),
+            Achievement({id = 6588, criteria = 21773, oneline = true}),
             Pet({id = 523})
         }
     }),
     DragonboneHatchling = Class('DragonboneHatchling', Safari, {
         id = 62852,
         rewards = {
-            Achievement({id = 6588, criteria = 21771, oneline = false}),
+            Achievement({id = 6588, criteria = 21771, oneline = true}),
             Pet({id = 537})
         }
     }),
     FjordRat = Class('FjordRat', Safari, {
         id = 62641,
         rewards = {
-            Achievement({id = 6588, criteria = 21774, oneline = false}),
+            Achievement({id = 6588, criteria = 21774, oneline = true}),
             Pet({id = 644})
         }
     }),
     FjordWorgPup = Class('FjordWorgPup', Safari, {
         id = 62669,
         rewards = {
-            Achievement({id = 6588, criteria = 21775, oneline = false}),
+            Achievement({id = 6588, criteria = 21775, oneline = true}),
             Pet({id = 529})
         }
     }),
     GrizzlySquirrel = Class('GrizzlySquirrel', Safari, {
         id = 62818,
         rewards = {
-            Achievement({id = 6588, criteria = 21679, oneline = false}),
+            Achievement({id = 6588, criteria = 21679, oneline = true}),
             Pet({id = 647})
         }
     }), -- also in Azsuna, Stormheim, Legion; Twilight Highlands, Cataclysm
@@ -133,7 +133,7 @@ ns.node.Safari = {
     ImperialEagleChick = Class('ImperialEagleChick', Safari, {
         id = 62819,
         rewards = {
-            Achievement({id = 6588, criteria = 21772, oneline = false}),
+            Achievement({id = 6588, criteria = 21772, oneline = true}),
             Pet({id = 534})
         }
     }),
@@ -168,7 +168,7 @@ ns.node.Safari = {
     OilySlimeling = Class('OilySlimeling', Safari, {
         id = 62697,
         rewards = {
-            Achievement({id = 6588, criteria = 21769, oneline = false}),
+            Achievement({id = 6588, criteria = 21769, oneline = true}),
             Pet({id = 530})
         }
     }),
@@ -185,7 +185,7 @@ ns.node.Safari = {
     ScourgedWhelpling = Class('ScourgedWhelpling', Safari, {
         id = 62854,
         rewards = {
-            Achievement({id = 6588, criteria = 21777, oneline = false}),
+            Achievement({id = 6588, criteria = 21777, oneline = true}),
             Pet({id = 538})
         }
     }),
@@ -231,28 +231,28 @@ ns.node.Safari = {
     StuntedShardhorn = Class('StuntedShardhorn', Safari, {
         id = 62816,
         rewards = {
-            Achievement({id = 6588, criteria = 21778, oneline = false}),
+            Achievement({id = 6588, criteria = 21778, oneline = true}),
             Pet({id = 532})
         }
     }),
     TundraPenguin = Class('TundraPenguin', Safari, {
         id = 62835,
         rewards = {
-            Achievement({id = 6588, criteria = 21770, oneline = false}),
+            Achievement({id = 6588, criteria = 21770, oneline = true}),
             Pet({id = 536})
         }
     }),
     Turkey = Class('Turkey', Safari, {
         id = 62648,
         rewards = {
-            Achievement({id = 6588, criteria = 21776, oneline = false}),
+            Achievement({id = 6588, criteria = 21776, oneline = true}),
             Pet({id = 525})
         }
     }),
     WaterWaveling = Class('WaterWaveling', Safari, {
         id = 62820,
         rewards = {
-            Achievement({id = 6588, criteria = 21780, oneline = false}),
+            Achievement({id = 6588, criteria = 21780, oneline = true}),
             Pet({id = 535})
         }
     })
