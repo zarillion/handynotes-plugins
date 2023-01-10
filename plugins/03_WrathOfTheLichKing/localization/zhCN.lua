@@ -8,7 +8,7 @@ L['squirrels_note'] = '必须使用表情 {emote:/爱}，{emote:/love} 给非战
 L['options_icons_squirrels'] = '{achievement:2557}'
 L['options_icons_squirrels_desc'] = '显示 {achievement:2557} 成就中小动物的位置。'
 
-L['achievement_friend_or_fowl_desc'] = '在3分钟内击杀15只火鸡。'
+L['achievement_friend_or_fowl_desc'] = '在3分钟内击杀15只 {npc:62648}。'
 L['note_devouring_maggot'] = '{location:乌特加德墓穴} 下面深处。'
 L['dalaran_sewers'] = '{location:达拉然下水道} 内。'
 L['in_nexus'] = '{location:魔枢} 的 {location:停滞大厅} 内。'
