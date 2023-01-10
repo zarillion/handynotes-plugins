@@ -82,7 +82,7 @@ map.nodes[31097121] = Rare({
 
 map.nodes[59847057] = Rare({ -- required 67030
     id = 193220,
-    quest = 69868,
+    quest = 73987,
     note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56149}),
@@ -170,7 +170,7 @@ map.nodes[59806100] = Rare({ -- reqired 67030
 
 map.nodes[57218420] = Rare({ -- reqired 67030 review
     id = 193210,
-    quest = 69866,
+    quest = 74021,
     note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56142}), --
@@ -201,21 +201,21 @@ map.nodes[50404840] = Rare({
 
 map.nodes[40087014] = Rare({ -- reqiured 67030
     id = 193240,
-    quest = 69880,
+    quest = 74024,
     note = L['spawns_two_hourly'],
     rewards = {Achievement({id = 16679, criteria = 56148})}
 }) -- Riverwalker Tamopo
 
 map.nodes[50005180] = Rare({ -- reqiured 67030 review
     id = 193666,
-    quest = 69966,
+    quest = 74025,
     note = L['spawns_two_hourly'],
     rewards = {Achievement({id = 16679, criteria = 56151})}
 }) -- Rokmur
 
 map.nodes[37607780] = Rare({ -- reqiured 67030
     id = 193176,
-    quest = 69859,
+    quest = 74029,
     note = L['in_cave'] .. '\n\n' .. L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56150}), --

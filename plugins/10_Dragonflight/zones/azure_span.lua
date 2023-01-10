@@ -320,7 +320,7 @@ map.nodes[58813260] = Rare({
 
 map.nodes[26494939] = Rare({ -- review -- required 67030
     id = 193149,
-    quest = 72154,
+    quest = 74030,
     note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16678, criteria = 56110})

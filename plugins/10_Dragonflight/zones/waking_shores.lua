@@ -319,7 +319,7 @@ map.nodes[81485082] = Rare({ -- required 67030
 
 map.nodes[64676939] = Rare({
     id = 192362,
-    quest = 67048, -- 70864 (rare runs away)
+    quest = 70864,
     note = L['hidden_hornswog_hoard_note'],
     rewards = {
         Achievement({id = 16676, criteria = 57852}),

@@ -94,7 +94,7 @@ map.nodes[56718128] = Rare({
 
 map.nodes[74414762] = Rare({ -- reqiured 67030 review
     id = 193170,
-    quest = 69856,
+    quest = 73994,
     note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16677, criteria = 56075})
@@ -155,7 +155,7 @@ map.nodes[71694585] = Rare({
 
 map.nodes[63017996] = Rare({ -- reqiured 67030
     id = 193173,
-    quest = 69857,
+    quest = 74015,
     note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16677, criteria = 56070}),
@@ -180,7 +180,7 @@ map.nodes[58604940] = Rare({
 
 map.nodes[61212950] = Rare({ -- reqiured 67030
     id = 193235,
-    quest = 69877,
+    quest = 74018,
     note = L['spawns_two_hourly'],
     rewards = {Achievement({id = 16677, criteria = 56074})}
 }) -- Oshigol
