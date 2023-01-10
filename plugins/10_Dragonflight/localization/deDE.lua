@@ -212,9 +212,9 @@ L['yennus_boat'] = 'Spielzeugboot der Tuskarr'
 L['yennus_boat_note'] = 'Plündere das {object:Spielzeugboot der Tuskarr}, um {item:200876} zu erhalten, das die Quest {quest:72063} startet, die bei {npc:195252} abgegeben werden kann.'
 
 L['forgotten_dragon_treasure_label'] = 'Vergessener Drachenschatz'
-L['forgotten_dragon_treasure_step1'] = '1.{dot:Green}Sammle 5x {item:195884} von {object:Kristalline Blume} im Westen der {location:Ebenen von Ohn\'ahra}.'
-L['forgotten_dragon_treasure_step2'] = '2.{dot:Yellow}Kombiniere die Blütenblätter beim {object:Uralter Stein}, um ein {item:195542} herzustellen.'
-L['forgotten_dragon_treasure_step3'] = '3.{dot:Blue}Benutze das {item:195542}, um den Stärkungszauber {spell:378935} (20 Sekunden) zu erhalten. Folge den Blumen zu einer Höhle und lauf durch diese hindurch, um den Stärkungszauber aufzufrischen. Darin findest du eine Truhe in der ein {item:195041} ist.'
+L['forgotten_dragon_treasure_step1'] = '1. Sammle 5x {item:195884} von {object:Kristalline Blume}({dot:Green}) im Westen der {location:Ebenen von Ohn\'ahra}.'
+L['forgotten_dragon_treasure_step2'] = '2. Kombiniere die Blütenblätter beim {object:Uralter Stein}({dot:Yellow}), um ein {item:195542} herzustellen.'
+L['forgotten_dragon_treasure_step3'] = '3. Benutze das {item:195542} beim {object:Uralten Stein}, um den Stärkungszauber {spell:378935} (20 Sekunden) zu erhalten. Folge den Blumen zu einer Höhle ({dot:Blue}) und lauf durch diese hindurch, um den Stärkungszauber aufzufrischen. Darin findest du eine Truhe({dot:Blue}) in der ein {item:195041} ist.'
 L['forgotten_dragon_treasure_step4'] = 'Sobald du den Schlüssel hast, geht zum {object:Vergessener Drachenschatz}, um diesen zu öffnen und deine Belohnung zu erhalten.'
 L['fdt_crystalline_flower'] = nil
 L['fdt_ancient_stone'] = nil
