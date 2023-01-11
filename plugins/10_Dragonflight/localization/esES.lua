@@ -283,6 +283,8 @@ L['options_icons_nokhud_do_it_desc'] = 'Muestra información de ayuda para compl
 
 L['chest_of_the_flood'] = 'Cofre de la inundación'
 
+L['aylaag_camp_note'] =nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

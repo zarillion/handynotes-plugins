@@ -211,7 +211,7 @@ local Quackers = Class('Quackers', Rare, {
         Achievement({id = 16677, criteria = 56091}),
         Achievement({id = 16446, criteria = 55396, note = L['pretty_neat_note']})
     },
-    pois = {POI({70406355})} -- item=194740/duck-trap-kit
+    pois = {POI({70406355, label = '{item:194740}'})} -- item=194740/duck-trap-kit
 })
 
 function Quackers.getters:note()
@@ -930,7 +930,9 @@ map.nodes[21875784] = Scoutpack()
 map.nodes[23944019] = Scoutpack()
 map.nodes[24745680] = Scoutpack()
 map.nodes[25205876] = Scoutpack()
+map.nodes[27395211] = Scoutpack()
 map.nodes[32043887] = Scoutpack()
+map.nodes[32135114] = Scoutpack()
 map.nodes[35925854] = Scoutpack()
 map.nodes[42883769] = Scoutpack()
 map.nodes[43335647] = Scoutpack()
@@ -1599,6 +1601,37 @@ function Ohnahra.getters:note()
 end
 
 map.nodes[57473193] = Ohnahra()
+
+----------------------------- THE OHN'AHRAN TRAIL -----------------------------
+
+local AylaagCamp = Class('AylaagCamp', Collectible, {
+    icon = 237385,
+    requires = {
+        ns.requirement.Reputation(2503, 4, true) -- Maruuk Centaur
+    },
+    note = L['aylaag_camp_note']
+})
+
+map.nodes[71473180] = AylaagCamp({ -- Aylaag Outpost to river camp
+    rewards = {
+        Achievement({id = 16462, criteria = 55480}) -- The Ohn'ahran Trail
+    },
+    pois = {POI({70666300})}
+})
+
+map.nodes[70666300] = AylaagCamp({ -- River camp to Eaglewatch Outpost
+    rewards = {
+        Achievement({id = 16462, criteria = 55481}) -- The Ohn'ahran Trail
+    },
+    pois = {POI({55375224})}
+})
+
+map.nodes[55375224] = AylaagCamp({ -- Eaglewatch Outpost to Aylaag Outpost
+    rewards = {
+        Achievement({id = 16462, criteria = 55482}) -- The Ohn'ahran Trail
+    },
+    pois = {POI({71473180})}
+})
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 

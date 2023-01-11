@@ -267,7 +267,7 @@ L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den {fact
 L['elder_yusa_note'] = 'Visiere {npc:192818} an und benutze den Chatbefehl {emote:/hunger}, um das Rezept zu erhalten.'
 L['initiate_kittileg_note'] = 'Schließe die Quest {quest:66226} ab, um das Spielzeug zu erhalten!'
 
-L['quackers_duck_trap_kit'] = 'Um {npc:192557} zu rufen, benötigst du zuerst das {item:194740}, welches du in einem Lager in der Nähe findest.\n\nUm daraus eine {item:194712} zu bauen, benötigst du folgende Materialien:'
+L['quackers_duck_trap_kit'] = 'Um {npc:192557} zu rufen, benötigst du zuerst das {item:194740}, welches du im {location:Lager des Aylaag Klans} in der Nähe findest.{dot:Blue}\n\nUm daraus eine {item:194712} zu bauen, benötigst du folgende Materialien:'
 L['quackers_spawn'] = 'Als nächstes musst du eine Ente mit der {item:194712} fangen, du findest einige in der Nähe des Nestes. Die {item:194739} kannst du dann bei {npc:192581} benutzen, um {npc:192557} zu rufen.'
 
 L['knew_you_nokhud_do_it_note'] = '{note:Die drei Gegenstände sind einzigartig und bleiben nur 30 Minuten im Inventar.}\n\nErbeute einen {item:200184}, eine {item:200194} und einen {item:200196} von {npc:185357}, {npc:185353} oder {npc:185168} im Gebiet der {location:Festung Nokhudon}.\n\nKombiniere diese zu einer {item:200201} und benutze diese, um bei {npc:197884} den Trainingsparcours beginnen zu können.\n\nVerwende deinen |cFFFFFD00Zusätzlichen Aktionsbutton|r, um den Erfolg zu erringen.\n\n{note:Die drei Gegenstände zu erbeuten ist in einem Schlachtzug während eines Elementarsturms viel einfacher.}'
@@ -275,6 +275,8 @@ L['options_icons_nokhud_do_it'] = '{achievement:16583}'
 L['options_icons_nokhud_do_it_desc'] = 'Zeigt die Position für den Erfolg {achievement:16583} an.'
 
 L['chest_of_the_flood'] = 'Truhe der Flut'
+
+L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
