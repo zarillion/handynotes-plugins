@@ -64,8 +64,7 @@ map.nodes[58634021] = Rare({
     rewards = {
         Achievement({id = 16676, criteria = 56035}),
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
-        DC.HighlandDrake.FinnedBack, --
-        DC.CliffsideWylderdrake.FinnedCheek
+        DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Anhydros the Tidetaker
 
@@ -73,7 +72,13 @@ map.nodes[54517174] = Rare({ -- review -- required 67030
     id = 193135,
     quest = 73984,
     note = L['spawns_two_hourly'],
-    rewards = {Achievement({id = 16676, criteria = 56041})}
+    rewards = {
+        Achievement({id = 16676, criteria = 56041}),
+        Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
+        Transmog({item = 200267, slot = L['plate']}), -- Reinforced Garden Tenders
+        Transmog({item = 200229, slot = L['cloth']}), -- Slightly Digested Leggings
+        DC.HighlandDrake.TanHorns, DC.RenewedProtoDrake.SnubSnout
+    }
 }) -- Azra's Prized Peony
 
 map.nodes[28635882] = RareElite({
@@ -150,10 +155,8 @@ map.nodes[29935074] = RareElite({
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 200294, slot = L['mail']}), -- Primal Chain Hauberk
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
-        DC.RenewedProtoDrake.HeavyHorns, --
-        DC.WindborneVelocidrake.ClubTail, --
-        DC.WindborneVelocidrake.ClusterHorns, --
-        DC.CliffsideWylderdrake.BlackHorns
+        DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClubTail,
+        DC.WindborneVelocidrake.ClusterHorns, DC.CliffsideWylderdrake.BlackHorns
     },
     pois = {POI({29335248, 30535144})}
 }) -- Char
@@ -234,8 +237,7 @@ map.nodes[52345829] = Rare({ -- review
     rewards = {
         Achievement({id = 16676, criteria = 56033}),
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
-        DC.HighlandDrake.FinnedBack, --
-        DC.CliffsideWylderdrake.FinnedCheek
+        DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Gushgut the Beaksinker
 
@@ -293,10 +295,8 @@ map.nodes[56004592] = Rare({
         Achievement({id = 16676, criteria = 56034}),
         Item({item = 200236, note = L['trinket']}), -- Memory of Nulltheria
         Transmog({item = 200310, note = L['cloak']}), -- Stole of the Iron Phantom
-        DC.RenewedProtoDrake.ClubTail, --
-        DC.RenewedProtoDrake.WhiteHorns, --
-        DC.CliffsideWylderdrake.HeavyHorns, --
-        DC.CliffsideWylderdrake.HornedJaw
+        DC.RenewedProtoDrake.ClubTail, DC.RenewedProtoDrake.WhiteHorns,
+        DC.CliffsideWylderdrake.HeavyHorns, DC.CliffsideWylderdrake.HornedJaw
     }
 }) -- Nulltheria the Void Gazer
 
@@ -336,7 +336,7 @@ map.nodes[24005896] = RareElite({
         Achievement({id = 16676, criteria = 56061}),
         Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
-        DC.CliffsideWylderdrake.BluntSpikedTail, --
+        DC.CliffsideWylderdrake.BluntSpikedTail,
         DC.CliffsideWylderdrake.HornedNose
     },
     pois = {POI({27226096})} -- Entrance
@@ -391,8 +391,7 @@ map.nodes[42892832] = Rare({
     rewards = {
         Achievement({id = 16676, criteria = 56036}),
         Transmog({item = 200132, slot = L['dagger']}), -- Skewer's Snout
-        DC.CliffsideWylderdrake.FinnedNeck, --
-        DC.WindborneVelocidrake.LargeHeadFin
+        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin
     },
     pois = {
         Path({
@@ -431,7 +430,10 @@ map.nodes[78514999] = Rare({
     id = 193228,
     quest = 73997,
     note = L['spawns_two_hourly'],
-    rewards = {Achievement({id = 16676, criteria = 56042})},
+    rewards = {
+        Achievement({id = 16676, criteria = 56042}),
+        Transmog({item = 200281, slot = L['offhand']}) -- Gorjo's Riding Crop
+    },
     pois = {Path({78825133, 78575081, 78475028, 78514999, 78684964, 78674926})}
 }) -- Snappy (Gorjo the Crab Shackler)
 
@@ -454,8 +456,7 @@ map.nodes[33525576] = RareElite({
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
         Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
-        DC.WindborneVelocidrake.ClubTail, --
-        DC.CliffsideWylderdrake.BlackHorns
+        DC.WindborneVelocidrake.ClubTail, DC.CliffsideWylderdrake.BlackHorns
     }
 }) -- Turboris
 
@@ -529,10 +530,7 @@ map.nodes[64173289] = Rare({
 map.nodes[54582137] = Rare({
     id = 195915,
     quest = 70648,
-    rewards = {
-        DC.RenewedProtoDrake.ImpalerHorns, --
-        DC.HighlandDrake.ToothyMouth
-    }
+    rewards = {DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth}
 }) -- Firava the Rekindler
 
 map.nodes[54728225] = Rare({
@@ -541,8 +539,7 @@ map.nodes[54728225] = Rare({
     rewards = {
         Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
         Toy({item = 200198}), -- Primalist Prison
-        DC.CliffsideWylderdrake.BlackHorns, --
-        DC.CliffsideWylderdrake.ManedNeck
+        DC.CliffsideWylderdrake.BlackHorns, DC.CliffsideWylderdrake.ManedNeck
     }
 }) -- Klozicc the Ascended
 
@@ -562,7 +559,7 @@ map.nodes[81133794] = Rare({
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
         Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
         Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.CliffsideWylderdrake.HeadMane --
+        DC.CliffsideWylderdrake.HeadMane
     },
     pois = {
         POI({81713719}) -- Entrance
@@ -585,7 +582,7 @@ map.nodes[42203960] = Rare({
         Transmog({item = 200171, slot = L['1h_sword']}), -- Grymheart Blade
         Transmog({item = 200175, slot = L['2h_mace']}), -- Repurposed Anvil
         Transmog({item = 200243, slot = L['cloth']}), -- Titanic Scholar's Finery
-        DC.HighlandDrake.HairyCheek --
+        DC.HighlandDrake.HairyCheek
     }
 }) -- Harkyn Grymstone
 
