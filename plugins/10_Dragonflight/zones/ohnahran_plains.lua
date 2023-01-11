@@ -571,7 +571,8 @@ map.nodes[53296890] = Treasure({
         }), -- Crystalline Flowers
         POI({
             label = L['fdt_ancient_stone'],
-            note = L['forgotten_dragon_treasure_step2'] .. '\n\n' .. L['forgotten_dragon_treasure_step3'],
+            note = L['forgotten_dragon_treasure_step2'] .. '\n\n' ..
+                L['forgotten_dragon_treasure_step3'],
             color = 'Yellow',
             points = {67034372}
         }), -- Ancient Stone
