@@ -1162,6 +1162,7 @@ val.nodes[43757494] = Collectible({
 local Rumiastrasza = Class('Rumiastrasza', Collectible, {
     id = 189479,
     icon = 1500865,
+    quest = 67071, -- What a Long Sweet Trip It's Been
     parent = map.id,
     rewards = {
         Item({item = 198132}) -- Recipe: Hoard of Draconic Delicacies
