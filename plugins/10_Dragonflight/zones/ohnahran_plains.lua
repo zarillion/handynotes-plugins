@@ -97,8 +97,8 @@ map.nodes[74414762] = Rare({ -- reqiured 67030 review
     quest = 73994,
     note = L['spawns_two_hourly'],
     rewards = {
-        Achievement({id = 16677, criteria = 56075})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16677, criteria = 56075}),
+        Transmog({item = 200433, slot = L['leather']}) -- Footwraps of Subjugation
     }
 }) -- Fulgurb
 
@@ -150,7 +150,10 @@ map.nodes[71694585] = Rare({
     id = 193212,
     quest = 74011,
     note = L['spawns_two_hourly'],
-    rewards = {Achievement({id = 16677, criteria = 56073})}
+    rewards = {
+        Achievement({id = 16677, criteria = 56073}),
+        Transmog({item = 200197, slot = L['staff']}) -- Armoredon Herding Crook
+    }
 }) -- Malsegan
 
 map.nodes[63017996] = Rare({ -- reqiured 67030
@@ -370,8 +373,7 @@ map.nodes[31456387] = Rare({
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
-        DC.RenewedProtoDrake.PurpleHair, --
-        DC.WindborneVelocidrake.SweptHorns
+        DC.RenewedProtoDrake.PurpleHair, DC.WindborneVelocidrake.SweptHorns
     }
 }) -- Zenet Avis
 
@@ -556,9 +558,7 @@ map.nodes[53296890] = Treasure({
         L['forgotten_dragon_treasure_step2'],
         L['forgotten_dragon_treasure_step3'],
         L['forgotten_dragon_treasure_step4']),
-    rewards = {
-        DC.WindborneVelocidrake.ManedBack -- Windborne Velocidrake: Maned Back
-    },
+    rewards = {DC.WindborneVelocidrake.ManedBack},
     pois = {
         POI({
             label = L['fdt_crystalline_flower'],
