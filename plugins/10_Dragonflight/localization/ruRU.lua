@@ -317,7 +317,7 @@ L['arcanostabilized_provisions_note'] = 'Купить у {npc:198831} {title:<Г
 L['steamed_scarab_steak_note'] = 'Купить у {npc:197586} {title:<Бармен курорта>} на {location:Курорте Мирные Сны}.'
 L['craft_creche_crowler_note'] = 'Купить у {npc:187444} {title:<Странствующий продавец драконьего хмеля>} может быть в одном из случайных мест на карте (меняет свое положение ежедневно): {location:Рубиновое святилище Жизни}, {location:Таверна Зеленый дракон}, {location:Затерянный лагерь}, {location:Временной Перекресток}.'
 L['bivigosas_blood_sausages_note'] = 'Купить у {npc:188895} {title:<Еда и напитки>} на {location:Геликирском аванпосте}.'
-L['rumiastrasza_note'] = nil
+L['rumiastrasza_note'] = '{note:Выполните ежедневную цепочку заданий, начиная с {quest:71238} в {location:Вальдраккене}, иначе достижение не может быть выполнено.}'
 L['options_icons_specialties'] = '{achievement:16621}'
 L['options_icons_specialties_desc'] = 'Показать места еды и напитков для достижения {achievement:16621}.'
 
@@ -333,7 +333,7 @@ L['lillian_brightmoon_note'] = 'Обменять {item:201412} на репута
 L['chest_of_the_elements'] = 'Сундук стихий'
 
 L['hoard_of_draconic_delicacies_note_start'] = 'Выполните следующие 7 заданий, предоставленных {npc:189479}:'
-L['hoard_of_draconic_delicacies_note_end'] = nil
+L['hoard_of_draconic_delicacies_note_end'] = 'После выполнения всех заданий у {npc:189479} он даст задание {quest:67071} в награду получите рецепт.\n\n{note:Задания основаны на активном приглашенном поваре в {location:Рубиновом Анклаве} и может не соответствовать порядку, указанному выше.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
