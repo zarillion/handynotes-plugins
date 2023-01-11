@@ -283,7 +283,7 @@ L['options_icons_nokhud_do_it_desc'] = 'Afficher des informations utiles pour ob
 
 L['chest_of_the_flood'] = 'Coffre du déluge'
 
-L['aylaag_camp_note'] =nil
+L['aylaag_camp_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
