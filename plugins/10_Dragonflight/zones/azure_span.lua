@@ -173,8 +173,7 @@ map.nodes[50043631] = Rare({ -- review
         Achievement({id = 16678, criteria = 56115}),
         Transmog({item = 199026, slot = L['1h_sword']}), -- Fire-Blessed Blade
         Transmog({item = 200310, slot = L['cloak']}), -- Stole of the Iron Phantom
-        DC.RenewedProtoDrake.WhiteHorns, --
-        DC.CliffsideWylderdrake.HornedJaw, --
+        DC.RenewedProtoDrake.WhiteHorns, DC.CliffsideWylderdrake.HornedJaw,
         Item({item = 198070}) -- Tattered Seavine
     },
     pois = {POI({50523672, 49973821, 49223842})}
@@ -210,8 +209,7 @@ map.nodes[14083747] = RareElite({
         Achievement({id = 16678, criteria = 56127}),
         Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
         Transmog({item = 200267, slot = L['plate']}), -- Reinforced Garden Tenders
-        DC.RenewedProtoDrake.SnubSnout, --
-        DC.HighlandDrake.TanHorns
+        DC.RenewedProtoDrake.SnubSnout, DC.HighlandDrake.TanHorns
     }
 }) -- Gnarls
 
@@ -245,8 +243,7 @@ map.nodes[16213364] = RareElite({
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Toy({item = 200178}), -- Infected Ichor
-        DC.CliffsideWylderdrake.Ears, --
-        DC.CliffsideWylderdrake.DualHornedChin
+        DC.CliffsideWylderdrake.Ears, DC.CliffsideWylderdrake.DualHornedChin
     }
 }) -- High Shaman Rotknuckle
 
@@ -255,8 +252,7 @@ map.nodes[36243573] = Rare({
     quest = 73883,
     rewards = {
         Achievement({id = 16678, criteria = 56109}), --
-        DC.HighlandDrake.ClubTail, --
-        DC.WindborneVelocidrake.GrayHorns
+        DC.HighlandDrake.ClubTail, DC.WindborneVelocidrake.GrayHorns
     },
     pois = {Path({35873621, 36243573, 36543508, 36863479})}
 }) -- Mahg the Trampler
@@ -323,8 +319,8 @@ map.nodes[26494939] = Rare({ -- review -- required 67030
     quest = 74030,
     note = L['spawns_two_hourly'],
     rewards = {
-        Achievement({id = 16678, criteria = 56110})
-        -- Transmog({item = , slot = L['']}) -- Name
+        Achievement({id = 16678, criteria = 56110}),
+        Transmog({item = 200279, slot = L['plate']}) -- Competitive Throwing Gauntlets
     }
 }) -- Skag the Thrower
 
@@ -337,8 +333,7 @@ map.nodes[10863229] = RareElite({
         Achievement({id = 16678, criteria = 56125}),
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
-        DC.HighlandDrake.SpikedClubTail, --
-        DC.CliffsideWylderdrake.Ears
+        DC.HighlandDrake.SpikedClubTail, DC.CliffsideWylderdrake.Ears
     }
 }) -- Snarglebone
 
@@ -417,8 +412,7 @@ map.nodes[23503317] = Rare({
         Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
-        DC.HighlandDrake.FinnedBack, --
-        DC.CliffsideWylderdrake.FinnedCheek
+        DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Cascade
 
@@ -457,8 +451,7 @@ map.nodes[36723247] = Rare({
     rewards = {
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
-        DC.HighlandDrake.SpikedClubTail, --
-        DC.CliffsideWylderdrake.Ears, --
+        DC.HighlandDrake.SpikedClubTail, DC.CliffsideWylderdrake.Ears,
         Item({item = 198048}) -- Titan Training Matrix I
     }
 }) -- Sharpfang
