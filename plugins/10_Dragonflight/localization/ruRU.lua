@@ -87,7 +87,7 @@ L['signal_transmitter_note'] = '{note:Требуется 10 очков в Мас
 L['options_icons_signal_transmitter'] = 'Драконий генератор червоточин'
 L['options_icons_signal_transmitter_desc'] = 'Отображение местоположения {object:Отключенных передатчиков} для {item:198156}.'
 
-L['spawns_two_hourly'] = 'Появляется примерно раз в час.'
+L['spawns_two_hourly'] = 'Появляется на час каждые 2 часа.'
 L['spawns_at_night'] = 'Появляется только ночью. (После 18:30 по серверному времени)'
 
 L['elemental_storm'] = 'Буря Стихии'
@@ -176,10 +176,10 @@ L['temperamental_skyclaw_note_end'] = 'Спросите о оседланной 
 
 L['elder_poa_note'] = 'Обменяйте {item:200071} на репутацию с {faction:2511}.'
 
-L['artists_easel_note_step1'] = nil
-L['artists_easel_note_step2'] = nil
-L['artists_easel_note_step3'] = nil
-L['artists_easel_note_step4'] = nil
+L['artists_easel_note_step1'] = '{quest:70166}\n{npc:194415}, на вершине башни в {location:Древнем дозоре}, попросит вас доставить его картину к {npc:194323}, это величайший художник, который когда-либо жил.'
+L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} попросит вас собрать картины из {location:Рубиновых Омутов Жизни}, {location:Наступления клана Нокхуд} и {location:Лощины Бурошкуров}.'
+L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} попросит вас собрать картины из {location:Чертогов Насыщения}, {location:Академии Алгет\'ар}, {location:Лазурного хранилища} и {location:Нелтария}.'
+L['artists_easel_note_step4'] = 'Доставь последние картины к {npc:194323} и получи свою игрушку!\n\n{note:Картины не выпадают из эпохальных или эпохальных+ подземелий.}'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
