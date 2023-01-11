@@ -66,8 +66,7 @@ map.nodes[59075874] = RareElite({
         Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
         Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
         Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
-        DC.WindborneVelocidrake.SpikedBack, --
-        DC.HighlandDrake.StripedPattern, --
+        DC.WindborneVelocidrake.SpikedBack, DC.HighlandDrake.StripedPattern,
         DC.HighlandDrake.CrestedBrow
     },
     pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
@@ -86,7 +85,8 @@ map.nodes[59847057] = Rare({ -- required 67030
     note = L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56149}),
-        Transmog({item = 200138, slot = L['polearm']}) -- Ancient Dancer's Longspear
+        Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
+        Transmog({item = 200147, slot = L['cloth']}) -- Web-Woven Robe
     }
 }) -- Broodweaver Araznae
 
@@ -136,8 +136,11 @@ map.nodes[59128380] = Rare({ -- review
     id = 193126,
     quest = 73881,
     rewards = {
-        Achievement({id = 16679, criteria = 56135}), --
-        Toy({item = 200148}) -- A Collection Of Me
+        Achievement({id = 16679, criteria = 56135}),
+        Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
+        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Toy({item = 200148}), -- A Collection Of Me
+        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
     }
 }) -- Innumerable Ruination
 
@@ -146,8 +149,11 @@ map.nodes[62298177] = Rare({
     quest = 74066,
     note = L['lord_epochbrgl_note'],
     rewards = {
-        Achievement({id = 16679, criteria = 56157}), --
-        Toy({item = 200148}) -- A Collection Of Me
+        Achievement({id = 16679, criteria = 56157}),
+        Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
+        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Toy({item = 200148}), -- A Collection Of Me
+        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
     },
     pois = {POI({61708120})} -- Entrance
 }) -- Lord Epochbrgl
@@ -156,7 +162,10 @@ map.nodes[52895903] = Rare({
     id = 193246,
     quest = 74013,
     note = L['spawns_two_hourly'],
-    rewards = {Achievement({id = 16679, criteria = 56141})}
+    rewards = {
+        Achievement({id = 16679, criteria = 56141}),
+        Transmog({item = 200257, slot = L['2h_mace']}) -- Decay Infused Branch
+    }
 }) -- Matriarch Remalla
 
 map.nodes[59806100] = Rare({ -- reqired 67030
@@ -164,7 +173,8 @@ map.nodes[59806100] = Rare({ -- reqired 67030
     quest = 74020,
     note = L['spawns_two_hourly'],
     rewards = {
-        Achievement({id = 16679, criteria = 56140}) --
+        Achievement({id = 16679, criteria = 56140}),
+        Transmog({item = 200146, slot = L['1h_mace']}) -- Phenran's Discordant Smasher
     }
 }) -- Phenran
 
@@ -173,8 +183,11 @@ map.nodes[57218420] = Rare({ -- reqired 67030 review
     quest = 74021,
     note = L['spawns_two_hourly'],
     rewards = {
-        Achievement({id = 16679, criteria = 56142}), --
-        Toy({item = 200148}) -- A Collection Of Me
+        Achievement({id = 16679, criteria = 56142}),
+        Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
+        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Toy({item = 200148}), -- A Collection Of Me
+        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
     }
 }) -- Phleep
 
@@ -218,8 +231,11 @@ map.nodes[37607780] = Rare({ -- reqiured 67030
     quest = 74029,
     note = L['in_cave'] .. '\n\n' .. L['spawns_two_hourly'],
     rewards = {
-        Achievement({id = 16679, criteria = 56150}), --
-        Toy({item = 200148}) -- A Collection Of Me
+        Achievement({id = 16679, criteria = 56150}),
+        Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
+        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Toy({item = 200148}), -- A Collection Of Me
+        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
     },
     pois = {POI({38507640})} -- Cave entrance
 }) -- Sandana the Tempest
@@ -265,7 +281,8 @@ map.nodes[35027001] = Rare({ -- reqiured 67030 review
     note = L['in_small_cave'] .. '\n\n' .. L['spawns_two_hourly'],
     rewards = {
         Achievement({id = 16679, criteria = 56146}),
-        Transmog({item = 200291, slot = L['leather']}) -- Waterlogged Racing Grips
+        Transmog({item = 200291, slot = L['leather']}), -- Waterlogged Racing Grips
+        DC.CliffsideWylderdrake.ShortHorns
     },
     pois = {POI({34896938})} -- Entrance
 }) -- Treasure-Mad Trambladd
