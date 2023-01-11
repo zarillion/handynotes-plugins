@@ -213,13 +213,13 @@ L['yennus_boat'] = 'Игрушечная лодка клыкарров'
 L['yennus_boat_note'] = 'Возьмите {object:игрушечную лодку клыкарров}, чтобы получить {item:200876}, который запускает задание {quest:72063}, которое можно сдать у {npc:195252}.'
 
 L['forgotten_dragon_treasure_label'] = 'Забытое сокровище драконов'
-L['forgotten_dragon_treasure_step1'] = nil
-L['forgotten_dragon_treasure_step2'] = nil
-L['forgotten_dragon_treasure_step3'] = nil
-L['forgotten_dragon_treasure_step4'] = nil
-L['fdt_crystalline_flower'] = nil
-L['fdt_ancient_stone'] = nil
-L['fdt_emerald_chest'] = nil
+L['forgotten_dragon_treasure_step1'] = '1. Собрать 5x {item:195884} из {object:Кристаллических цветков}({dot:Green}) в западной части {location:Равнин Он\'ары}.'
+L['forgotten_dragon_treasure_step2'] = '2. Соедините лепестки, чтобы создать {item:195542} и посетить {object:Древний камень}({dot:Yellow}).'
+L['forgotten_dragon_treasure_step3'] = '3. Используйте {item:195542} недалеко от {object:Древнего каменя} и получите {spell:378935} который представляет собой 20-секундный бафф, который позволяет вам следовать по цветочной дорожке к пещере. ({dot:Blue}). Бег по цветам увеличивает время баффа, чтобы добраться до {object:Изумрудного сундука}({dot:Blue}) и забрать {item:195041}.'
+L['forgotten_dragon_treasure_step4'] = 'Получив ключ, отправляйтесь к {object:Забытому сокровищу драконов} чтобы открыть его и получить Манускрипт наблюдений за драконами.'
+L['fdt_crystalline_flower'] = 'Кристаллический цветок'
+L['fdt_ancient_stone'] = 'Древний камень'
+L['fdt_emerald_chest'] = 'Изумрудный сундук'
 
 L['pm_ench_shalasar_glimmerdusk'] = 'На втором этаже разрушенной башни.'
 L['pm_herb_hua_greenpaw'] = 'Встаньте на колени рядом с деревом.'
