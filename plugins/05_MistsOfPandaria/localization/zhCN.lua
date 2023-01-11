@@ -145,6 +145,6 @@ L['options_icons_kroshik_desc'] = '显示 {achievement:8108} 成就中的位置�
 
 L['iot_portal'] = '传送门'
 L['ritualstone_needed'] = '需要3个 {item:94221} 来召唤稀有。'
-L['kroshik_bow'] = '/bow'
-L['kroshik_adult'] = '绕湖跑。\n/bow'
-L['kroshik_baby'] = '在区域内跑。\n/bow'
+L['kroshik_bow'] = '{emote:/鞠躬}，{emote:/bow}'
+L['kroshik_adult'] = '绕湖跑。\n{emote:/鞠躬}，{emote:/bow}'
+L['kroshik_baby'] = '在区域内跑。\n{emote:/鞠躬}，{emote:/bow}'
