@@ -630,7 +630,8 @@ map.nodes[43703090] = PT.Inscription({
 map.nodes[44606120] = PT.Jewelcrafting({
     id = 201016,
     quest = 70271,
-    note = L['pt_jewel_harmonic_crystal_harmonizer_note']
+    note = L['pt_jewel_harmonic_crystal_harmonizer_note'],
+    pois = {POI({44726215, 44176203, 44686017})}
 }) -- Harmonic Crystal Harmonizer
 
 map.nodes[45006130] = PT.Jewelcrafting({
