@@ -7,7 +7,6 @@ local Class = ns.Class
 local L = ns.locale
 
 local Collectible = ns.node.Collectible
-local Quest = ns.node.Quest
 local Safari = ns.node.Safari
 local NPC = ns.node.NPC
 
