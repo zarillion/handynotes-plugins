@@ -22,7 +22,7 @@ To advance into Phase 4a you need 150 {currency:416} for {quest:29181}.
 To advance into Phase 4b you need 150 {currency:416} for {quest:29214}.
 
 You earn {currency:416} form daily quests.]]
-L['hyjal_phase5_note'] = nil
+-- L['hyjal_phase5_note'] = nil
 
 L['portal_molten_front'] = 'Portal to the Molten Front'
 

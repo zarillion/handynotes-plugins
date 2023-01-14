@@ -18,7 +18,7 @@ L['hyjal_phase1_note'] = nil
 L['hyjal_phase2_note'] = nil
 L['hyjal_phase3_note'] = nil
 L['hyjal_phase4_note'] = nil
-L['hyjal_phase5_note'] = nil
+-- L['hyjal_phase5_note'] = nil
 
 L['portal_molten_front'] = nil
 

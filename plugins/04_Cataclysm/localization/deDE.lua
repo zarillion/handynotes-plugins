@@ -18,7 +18,7 @@ L['hyjal_phase1_note'] = 'Schließe Quests in {location:Mount Hyjal} ab, bis du 
 L['hyjal_phase2_note'] = 'Um in die zweite Phase fortzuschreiten benötigst du 10 {currency:416} die Quest {quest:29198}.\n\nDu erhältst {currency:416} von täglichen Quests.'
 L['hyjal_phase3_note'] = nil
 L['hyjal_phase4_note'] = nil
-L['hyjal_phase5_note'] = nil
+-- L['hyjal_phase5_note'] = nil
 
 L['portal_molten_front'] = 'Portal zur Geschmolzenen Front'
 
