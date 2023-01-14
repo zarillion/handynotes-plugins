@@ -12,7 +12,7 @@ L['hyjal_phase2'] = 'Phase 2 - The Sanctuary of Malorne'
 L['hyjal_phase3'] = 'Phase 3 - The Molten Front'
 L['hyjal_phase4a'] = 'Phase 4a - The Druids of the Talon Area'
 L['hyjal_phase4b'] = 'Phase 4b - The Shadow Wardens Area'
-L['hyjal_phase6'] = 'Phase 5 - The Regrowth'
+-- L['hyjal_phase6'] = 'Phase 5 - The Regrowth'
 
 L['hyjal_phase1_note'] = 'Complete Quests in {location:Mount Hyjal} up until {quest:29389} to start the Invasion Phase.'
 L['hyjal_phase2_note'] = 'To advance into Phase 2 you need 10 {currency:416} for {quest:29198}.\n\nYou earn {currency:416} form daily quests.'

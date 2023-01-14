@@ -12,7 +12,7 @@ L['hyjal_phase2'] = nil
 L['hyjal_phase3'] = nil
 L['hyjal_phase4a'] = nil
 L['hyjal_phase4b'] = nil
-L['hyjal_phase6'] = nil
+-- L['hyjal_phase5'] = nil
 
 L['hyjal_phase1_note'] = nil
 L['hyjal_phase2_note'] = nil
