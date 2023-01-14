@@ -3,16 +3,317 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local Map = ns.Map
+local Class = ns.Class
+local L = ns.locale
 
+local Collectible = ns.node.Collectible
+local Quest = ns.node.Quest
 local Safari = ns.node.Safari
+local NPC = ns.node.NPC
+
+local HyjalPhase = ns.requirement.HyjalPhase
+
+local Achievement = ns.reward.Achievement
 
 local POI = ns.poi.POI
+local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
 local map = Map({id = 198, settings = true})
+local mf = Map({id = 338, settings = true}) -- Molten Front
+
+-------------------------------------------------------------------------------
+--------------------------------- PHASE NODES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[19563787] = ns.node.Intro({
+    note = L['hyjal_phase1_note'],
+    quest = 29389,
+    requires = HyjalPhase(0)
+}) -- starts Phase 1 - Invasion
+
+map.nodes[27116281] = NPC({
+    id = 52135, -- review
+    note = L['hyjal_phase2_note'],
+    icon = 513195,
+    quest = 29198,
+    requires = HyjalPhase(1)
+}) -- starts Phase 2 - The Sanctuary of Malorne
+
+map.nodes[27116282] = NPC({
+    id = 52135, -- review
+    note = L['hyjal_phase3_note'],
+    icon = 513195,
+    quest = 29201,
+    requires = HyjalPhase(2)
+}) -- starts Phase 3 - The Molten Front
+
+mf.nodes[47039139] = NPC({
+    id = 52135,
+    note = L['hyjal_phase4_note'],
+    icon = 513195,
+    quest = {29182, 29215},
+    requires = HyjalPhase(3),
+    rewards = {Achievement({id = 5870, criteria = 17878})}
+}) -- starts Phase 4a/b - The Druids of the Talon Area / The Shadow Wardens Area
+
+-------------------------------------------------------------------------------
+-------------------------------- FIRESIDE CHAT --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[27176257] = Collectible({
+    id = 52669,
+    icon = 236450,
+    requires = HyjalPhase(1),
+    rewards = {Achievement({id = 5870, criteria = 17879})}
+}) -- Matoclaw
+
+map.nodes[27536251] = Collectible({
+    id = 52986,
+    icon = 236450,
+    requires = HyjalPhase(1),
+    rewards = {Achievement({id = 5870, criteria = 17882})}
+}) -- Dorda'en Nightweaver
+
+mf.nodes[47458356] = Collectible({
+    id = 52134,
+    icon = 236450,
+    requires = HyjalPhase(3),
+    rewards = {Achievement({id = 5870, criteria = 17880})},
+    pois = {
+        Path({
+            47169110, 47318695, 49688553, 45548439, 45158286, 45808403,
+            47458356, 47318695
+        })
+    }
+}) -- Commander Jarod Shadowsong
+
+mf.nodes[10001000] = Collectible({
+    id = 52444,
+    icon = 236450,
+    requires = HyjalPhase(5), -- TODO
+    rewards = {Achievement({id = 5870, criteria = 17883})}
+}) -- Thisalee Crow
+
+mf.nodes[11501000] = Collectible({
+    id = 53259,
+    icon = 236450,
+    requires = HyjalPhase(5), -- TODO
+    rewards = {Achievement({id = 5870, criteria = 17884})}
+}) -- Arthorn Windsong
+
+mf.nodes[13001000] = Collectible({
+    id = 52921,
+    icon = 236450,
+    requires = HyjalPhase(5), -- TODO
+    rewards = {Achievement({id = 5870, criteria = 17886})}
+}) -- Deldren Ravenelm
+
+mf.nodes[45598583] = Collectible({
+    id = 52921,
+    icon = 236450,
+    requires = HyjalPhase(3), -- TODO
+    rewards = {Achievement({id = 5870, criteria = 17889})}
+}) -- General Taldris Moonfall
+
+-------------------------------------------------------------------------------
+---------------------------- INFERNAL AMBASSADORS -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[13294490] = Collectible({
+    id = 52749,
+    quest = 29162,
+    icon = 236191,
+    requires = {
+        HyjalPhase(2), ns.requirement.Quest(29161, nil, true) -- Those Bears Up There
+    },
+    rewards = {Achievement({id = 5869, criteria = 17829})}
+}) -- Pyrachnis
+
+map.nodes[13184472] = Collectible({
+    id = 52649,
+    quest = 29148,
+    icon = 236191,
+    requires = {
+        HyjalPhase(2), ns.requirement.Quest(29147, nil, true) -- Call the Flock
+    },
+    rewards = {
+        Achievement({id = 5869, criteria = 17831}),
+        Achievement({id = 5868, criteria = 17826})
+    }
+}) -- Millagazor
+
+map.nodes[41945604] = Collectible({
+    id = 52766,
+    quest = 29165,
+    icon = 236191,
+    requires = {
+        HyjalPhase(2), ns.requirement.Quest(29164, nil, true) -- Perfecting Your Howl
+    },
+    rewards = {Achievement({id = 5869, criteria = 17832})}
+}) -- Lylagar
+
+map.nodes[41795575] = Collectible({
+    id = 52399,
+    quest = 19126,
+    icon = 236191,
+    requires = {
+        HyjalPhase(2), ns.requirement.Quest(29125, nil, true) -- Between the Trees
+    },
+    rewards = {Achievement({id = 5869, criteria = 17833})}
+}) -- Galenges
+
+map.nodes[24785525] = Collectible({
+    id = 52383,
+    quest = 29122,
+    icon = 236191,
+    requires = {
+        HyjalPhase(2), ns.requirement.Quest(29101, nil, true) -- Punting Season
+    },
+    rewards = {Achievement({id = 5869, criteria = 17834})}
+}) -- Nemesis
+
+-------------------------------------------------------------------------------
+--------------------- THE FIERY LORDS OF SETHRIA'S ROOST ----------------------
+-------------------------------------------------------------------------------
+
+local FieryLord = Class('FieryLord', Collectible, {
+    note = L['fiery_lords_note'],
+    icon = 135790,
+    requires = {HyjalPhase(3)}
+})
+
+map.nodes[35509781] = FieryLord({
+    id = 53264,
+    rewards = {Achievement({id = 5861, criteria = 17799})},
+    pois = {Path({35509781, 31979504})}
+}) -- Searris
+
+map.nodes[30528090] = FieryLord({
+    id = 53265,
+    rewards = {Achievement({id = 5861, criteria = 17800})}
+}) -- Kelbnar
+
+map.nodes[34649194] = FieryLord({
+    id = 53267,
+    rewards = {Achievement({id = 5861, criteria = 17801})},
+    pois = {
+        Path({
+            36269911, 34159810, 32119636, 31339394, 31498842, 31868415,
+            32137795, 31457410, 30557450, 29907795, 29898221, 30668611,
+            32268927, 34649194, 36179395, 36599663, 36959928, 36269911
+        })
+    }
+}) -- Andrazor
+
+map.nodes[30858706] = FieryLord({
+    id = 53271,
+    rewards = {Achievement({id = 5861, criteria = 17802})}
+}) -- Fah Jarakk
+
+-------------------------------------------------------------------------------
+--------------------- AND THE MEEK SHALL INHERIT KALIMDOR ---------------------
+-------------------------------------------------------------------------------
+
+map.nodes[40835715] = Collectible({
+    id = 52195,
+    icon = 132328,
+    note = L['angry_little_squirrel_note'],
+    requires = {
+        HyjalPhase(3) -- review, maybe earlier
+    },
+    rewards = {Achievement({id = 5868, criteria = 17824})}
+}) -- Angry Little Squirrel
+
+map.nodes[14303313] = Collectible({
+    id = 52688,
+    icon = 132328,
+    note = L['hyjal_bear_cub_note'],
+    requires = {HyjalPhase(3)},
+    rewards = {Achievement({id = 5868, criteria = 17825})}
+}) -- Hyjal Bear Cub
+
+map.nodes[23285899] = Collectible({
+    id = 52688,
+    icon = 132328,
+    note = L['child_of_tortolla_note'],
+    requires = {HyjalPhase(3)},
+    rewards = {Achievement({id = 5868, criteria = 17827})}
+}) -- Child of Tortolla
+
+-------------------------------------------------------------------------------
+------------------------------------ MISC -------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[27495634] = ns.node.Node({
+    label = L['portal_molten_front'],
+    icon = 'portal_rd',
+    requires = {HyjalPhase(1), ns.requirement.Quest(29200)}
+}) -- Portal to the Molten Front
+
+map.nodes[37225618] = Collectible({
+    id = 40578,
+    quest = 29177,
+    icon = 132200,
+    requires = {
+        HyjalPhase(1), -- review
+        ns.requirement.Quest(25560)
+    },
+    rewards = {Achievement({id = 5860, criteria = {id = 17798, qty = true}})},
+    pois = {POI({39185826, icon = 'portal_bl'})}
+}) -- The 'Unbeatable?' Pterodactyl: BEATEN.
+
+map.nodes[12003900] = Collectible({
+    id = 40578,
+    note = L['ludicrous_speed_note'],
+    quest = 29177,
+    icon = 132200,
+    requires = {HyjalPhase(3)},
+    rewards = {Achievement({id = 5862})},
+    pois = {Path({ns.poi.Circle({origin = 12003900, radius = 5})})}
+}) -- Ludicrous Speed
+
+map.nodes[27336160] = Collectible({
+    id = 53073,
+    quest = 29128,
+    icon = 135646,
+    note = L['have_we_met_note'],
+    requires = {HyjalPhase(3)},
+    rewards = {
+        Achievement({id = 5865, criteria = {17806, 17807, 17808, 17809, 17810}})
+    },
+    pois = {Path({26746181, 27336160, 27816159})}
+}) -- Have... Have We Met?
+
+mf.nodes[66035682] = Collectible({
+    label = '{achievement:5872}',
+    note = L['spider_hill_note'],
+    icon = 132196,
+    requires = {HyjalPhase(3)},
+    rewards = {Achievement({id = 5872})},
+    pois = {Path({ns.poi.Circle({origin = 66035600, radius = 2.25})})}
+}) -- King of the Spider-Hill
+
+mf.nodes[50381958] = Collectible({
+    label = '{achievement:5873}',
+    note = L['ready_for_raiding_2_note'],
+    icon = 135789,
+    requires = {HyjalPhase(5), ns.requirement.Quest(29244)},
+    rewards = {
+        Achievement({id = 5873, criteria = {17840, 17841, 17842, 17843, 17844}})
+    }
+}) -- Ready for Raiding II
+
+mf.nodes[44004900] = Collectible({
+    id = 52552,
+    icon = 459027,
+    note = L['flawless_victory_note'],
+    requires = {HyjalPhase(3)},
+    rewards = {Achievement({id = 5867})}
+}) -- Flawless Victory
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

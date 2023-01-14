@@ -4,6 +4,7 @@
 local ADDON_NAME, ns = ...
 local Class = ns.Class
 local Group = ns.Group
+local L = ns.locale
 
 local Collectible = ns.node.Collectible
 
@@ -19,6 +20,41 @@ ns.expansion = 4
 -------------------------------------------------------------------------------
 
 ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
+
+-------------------------------------------------------------------------------
+------------------------- HYJAL / MOLTEN FRONT PHASE --------------------------
+-------------------------------------------------------------------------------
+
+local HyjalPhase = Class('HyjalPhase', ns.requirement.Requirement)
+
+function HyjalPhase:Initialize(phase) self.phase = phase end
+
+function HyjalPhase:GetText()
+    local phase = {
+        [0] = L['hyjal_phase0'],
+        [1] = L['hyjal_phase1'],
+        [2] = L['hyjal_phase2'],
+        [3] = L['hyjal_phase3'],
+        [41] = L['hyjal_phase4a'],
+        [42] = L['hyjal_phase4b'],
+        [5] = L['hyjal_phase5']
+    }
+    return phase[self.phase] or UNKNOWN
+end
+
+function HyjalPhase:IsMet()
+    local qc = C_QuestLog.IsQuestFlaggedCompleted
+    if self.phase == 0 and qc(25372) then return true end -- Phase 0 - Pre Invasion
+    if self.phase == 1 and qc(29389) then return true end -- Phase 1 - Invasion
+    if self.phase == 2 and qc(29198) then return true end -- Phase 2 - The Sanctuary of Malorne
+    if self.phase == 3 and qc(29201) then return true end -- Phase 3 - The Molten Front
+    if self.phase == 41 and qc(29182) then return true end -- Phase 4a - The Druids of the Talon Area
+    if self.phase == 42 and qc(29215) then return true end -- Phase 4b - The Shadow Wardens Area
+    if self.phase == 5 and qc(29182) and qc(29215) then return true end -- Phase 5 - The Regrowth
+    return false
+end
+
+ns.requirement.HyjalPhase = HyjalPhase
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

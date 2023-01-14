@@ -38,20 +38,19 @@
 # Cataclysm
 
 Potential Achievements:
-* [Have... Have We Met?](https://www.wowhead.com/achievement=5865)
-* [The Molten Front Offensive](https://www.wowhead.com/achievement=5866)
+* [Have... Have We Met?](https://www.wowhead.com/achievement=5865) ✅
 * [Master of the Molten Flow](https://www.wowhead.com/achievement=5871)
 * [Death From Above](https://www.wowhead.com/achievement=5874)
-* [And the Meek Shall Inherit Kalimdor](https://www.wowhead.com/achievement=5868)
-* [Ready for Raiding II](https://www.wowhead.com/achievement=5873)
-* [Fireside Chat](https://www.wowhead.com/achievement=5870)
-* [The Fiery Lords of Sethria's Roost](https://www.wowhead.com/achievement=5861)
+* [And the Meek Shall Inherit Kalimdor](https://www.wowhead.com/achievement=5868) ✅
+* [Ready for Raiding II](https://www.wowhead.com/achievement=5873) ✅
+* [Fireside Chat](https://www.wowhead.com/achievement=5870) ✅
+* [The Fiery Lords of Sethria's Roost](https://www.wowhead.com/achievement=5861) ✅
 * [Rock Lover](https://www.wowhead.com/achievement=5449)
-* [Infernal Ambassadors](https://www.wowhead.com/achievement=5869)
-* [Ludicrous Speed](https://www.wowhead.com/achievement=5862)
+* [Infernal Ambassadors](https://www.wowhead.com/achievement=5869) ✅
+* [Ludicrous Speed](https://www.wowhead.com/achievement=5862) ✅
 * [My Very Own Broodmother](https://www.wowhead.com/achievement=5447)
 * [Wildhammer Tour of Duty](https://www.wowhead.com/achievement=5481)
-* [King of the Spider-Hill](https://www.wowhead.com/achievement=5872)
+* [King of the Spider-Hill](https://www.wowhead.com/achievement=5872) ✅
 * ...
 
 * [Eastern Kingdoms Safari](https://www.wowhead.com/achievement=6586/eastern-kingdoms-safari) ✅

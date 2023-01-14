@@ -102,7 +102,8 @@ local function GetIconPath(name)
 end
 
 local function GetIconLink(name, size, offsetX, offsetY)
-    local link = '|T' .. GetIconPath(name) .. ':' .. size .. ':' .. size
+    local link = '|T' .. GetIconPath(name) .. ':' .. (size or 0) .. ':' ..
+                     (size or 0) -- if size is nil icon will be textHeight
     if offsetX and offsetY then
         link = link .. ':' .. offsetX .. ':' .. offsetY
     end
