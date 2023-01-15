@@ -15,7 +15,7 @@ L['hyjal_phase4a'] = 'Phase 4a - Zone des Druides de la Serre'
 L['hyjal_phase4b'] = 'Phase 4b - Zone des Gardiennes de l’ombre'
 L['hyjal_phase5'] = 'Phase 5 - Le Rétablissement'
 
-L['hyjal_phase1_note'] = 'Complétez des quêtes au {location:Mont Hyjal} jusqu\'à {quest:29389} pour commencer la Phase d\'Invasion.'
+L['hyjal_phase1_note'] = 'Complétez des quêtes au {location:Mont Hyjal} jusqu\'à ce que vous obteniez {quest:29389}. Cette suite de quêtes commencera la Phase d\'Invasion.'
 L['hyjal_phase2_note'] = 'Pour passer à la Phase 2, vous avez besoin de 10 {currency:416} pour {quest:29198}.\n\nVous gagnez des {currency:416} grâce aux quêtes journalières.'
 L['hyjal_phase3_note'] = 'Pour passer à la Phase 3, vous avez besoin de 15 {currency:416} pour {quest:29201}.\n\nVous gagnez des {currency:416} grâce aux quêtes journalières.'
 L['hyjal_phase4_note'] = [[La Phase 4 est divisée en deux parties.
@@ -23,7 +23,7 @@ Pour passer à la Phase 4a, vous avez besoin de 150 {currency:416} pour {quest:2
 Pour passer à la Phase 4b, vous avez besoin de 150 {currency:416} pour {quest:29214}.
 
 Vous gagnez des {currency:416} grâce aux quêtes journalières.]]
-L['hyjal_phase5_note'] = nil
+L['hyjal_phase5_note'] = 'Pour passer à la phase 5, vous devez terminer {quest:29215} et {quest:29182}.'
 
 L['portal_molten_front'] = 'Portail vers le Front du Magma'
 
@@ -57,5 +57,7 @@ L['hyjal_bear_cub_note'] = 'Pendant la quête {daily:29161}, lancez un {npc:5268
 L['child_of_tortolla_note'] = 'Pendant la quête {daily:29101}, au lieu de lancer une tortue dans l\'eau, lancez-la sur une {npc:52219}.'
 L['ready_for_raiding_2_note'] = 'Tuez les {npc:Lieutenants de la Flamme} suivants à l\'{location:Emprise de Ragnaros} sans être touché par leurs attaques spéciales.'
 L['flawless_victory_note'] = 'Tuez en solo un {npc:52552} sans subir de dégâts de {spell:97243} ou {spell:96688}.'
-L['gang_war_note'] = nil
-L['death_from_above_note'] = nil
+L['gang_war_note'] = 'Gagnez un duel au {location:Perchoir de Sethria} pendant la quête {daily:29128}.'
+L['death_from_above_note'] = [[Bombardez le {npc:<Seigneur du Feu>} durant la quête {daily:29290}.
+
+{note:Seuls 3 {npc:Seigneurs du Feu} sont actifs à la fois. Pour obtenir ce haut-fait plus rapidement, ne rendez pas la quête et revenez le lendemain.}]]
