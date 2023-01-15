@@ -73,5 +73,5 @@ Bomb the {title:<Firelord>} while you are on the quest {daily:29290}.
 
 {note:Only 3 {title:Firelord}s are active at a time. To complete the achievement faster dont turn in the quest and come back tomorrow.}
 ]]
-L['flamewalker_sentinel_note'] = 'Use {item:137663} to lower his health so he will carry you and then kill him.'
+L['flamewalker_sentinel_note'] = 'Use {item:137663} to lower his health and so he cast {spell:98369}. Dodge all shots and then kill him.'
 L['flamewalker_shaman_note'] = 'Use {item:foam sword} to get him to low health. Wait until he kills himself.'
