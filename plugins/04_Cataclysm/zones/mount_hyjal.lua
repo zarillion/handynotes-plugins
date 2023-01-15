@@ -64,7 +64,7 @@ mf.nodes[10001400] = ns.node.Node({
     note = L['hyjal_phase5_note'],
     icon = 513195,
     quest = {29182, 29215},
-    requires = {HyjalPhase(41),HyjalPhase(42)}
+    requires = {HyjalPhase(41), HyjalPhase(42)}
 }) -- changes Molten Front to Phase 5 - The Regrowth
 
 -------------------------------------------------------------------------------
@@ -97,19 +97,19 @@ mf.nodes[47458356] = FiresideChat({
     }
 }) -- Commander Jarod Shadowsong
 
-mf.nodes[10001000] = FiresideChat({  -- TODO
+mf.nodes[10001000] = FiresideChat({ -- TODO
     id = 52444,
     requires = HyjalPhase(41),
     rewards = {Achievement({id = 5870, criteria = 17883})}
 }) -- Thisalee Crow
 
-mf.nodes[11501000] = FiresideChat({  -- TODO
+mf.nodes[11501000] = FiresideChat({ -- TODO
     id = 53259,
     requires = HyjalPhase(41),
     rewards = {Achievement({id = 5870, criteria = 17884})}
 }) -- Arthorn Windsong
 
-mf.nodes[13001000] = FiresideChat({  -- TODO
+mf.nodes[13001000] = FiresideChat({ -- TODO
     id = 52921,
     requires = HyjalPhase(41),
     rewards = {Achievement({id = 5870, criteria = 17886})}
@@ -293,13 +293,16 @@ mf.nodes[17501200] = dfa({
 map.nodes[27495634] = ns.node.Node({
     label = L['portal_molten_front'],
     icon = 'portal_rd',
+    scale = 2,
     requires = {HyjalPhase(1), ns.requirement.Quest(29200)},
     rewards = {
         Achievement({id = 5867}),
         Achievement(
             {id = 5870, criteria = {17878, 17880, 17883, 17884, 17886, 17889}}),
         Achievement({id = 5872}),
-        Achievement({id = 5873, criteria = {17840, 17841, 17842, 17843, 17844}})
+        Achievement({id = 5873, criteria = {17840, 17841, 17842, 17843, 17844}}),
+        Achievement(
+            {id = 5874, criteria = {17857, 17859, 17861, 17858, 17860, 17862}})
     }
 }) -- Portal to the Molten Front
 

@@ -29,7 +29,7 @@ L['portal_molten_front'] = 'Portal zur Geschmolzenen Front'
 L['spider_hill_note'] = [[Erreiche den höchsten Punkt des {location:Geleges der Witwe}.
 Um die Spitze zu erreichen, musst du {npc:52981} angreifen, ohne sie zu töten. Sie werden {Zauber:97959} wirken und dich nach oben ziehen.
 
-Empfohlene Methoden für Charaktere auf maximallevel:
+Empfohlene Methoden für Charaktere auf Maximallevel:
 {item:46725}
 
 Dämonenjäger: {spell:185245}
@@ -54,10 +54,10 @@ L['ludicrous_speed_note'] = [[Erreiche während der Quest {daily:29147} 65 Stape
 {npc:Gebirgssingvögel} geben 1 Stapel]]
 L['angry_little_squirrel_note'] = 'Ziehe einen Gegner zum Baum und ein {npc:52195} will auf seinen Kopf springen.'
 L['hyjal_bear_cub_note'] = 'Wirf während der Quest {daily:29161} einen {npc:52688} auf einen {npc:52795}'
-L['child_of_tortolla_note'] = 'Kicke währen der Qest {daily:29101} eine Schildkröte statt ins Wasser auf einen {npc:52219}.'
+L['child_of_tortolla_note'] = 'Kicke während der Quest {daily:29101} eine Schildkröte statt ins Wasser auf einen {npc:52219}.'
 L['ready_for_raiding_2_note'] = 'Töte die folgenden {npc:Leutnants der Flamme} auf {location:Ragnaros\' Ebenen}, ohne von ihren Spezialangriffen getroffen zu werden.'
 L['flawless_victory_note'] = ' Töte alleine ein {npc:52552}, ohne Schaden durch {spell:97243} oder {spell:96688} zu erleiden. '
 L['gang_war_note'] = 'Gewinne ein Duell in {location:Sethrias Nest}, während du dich auf der Quest {daily:29128} befindest.'
-L['death_from_above_note'] = [[Bombardiere den {npc:<Feuerfürst> während du die Quest {daily:29290} erledigst.
+L['death_from_above_note'] = [[Bombardiere den {npc:<Feuerfürst>} während du die Quest {daily:29290} erledigst.
 
-{note:Nur 3 {npc:Feuerfürst}en sind zu selben zeit aktiv. Um den Erfolg schneller abzuschließen schließe die Quest nicht ab und komme morgen wieder.}]]
+{note:Nur 3 {npc:Feuerfürsten} sind zu selben zeit aktiv. Um den Erfolg schneller abzuschließen schließe die Quest nicht ab und komme morgen wieder.}]]
