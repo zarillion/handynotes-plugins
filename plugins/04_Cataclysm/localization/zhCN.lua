@@ -73,3 +73,5 @@ L['death_from_above_note'] = [[
 
 {note:一次只有3个 {title:火焰领主} 处于激活状态。为了更快地完成成就，请不要交任务，明天再来。}
 ]]
+L['flamewalker_sentinel_note'] = nil
+L['flamewalker_shaman_note'] = nil

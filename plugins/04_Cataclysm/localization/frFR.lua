@@ -74,3 +74,5 @@ Bombardez le {title:<Seigneur du Feu>} durant la quête {daily:29290}.
 
 {note:Seuls 3 {title:Seigneurs du Feu} sont actifs à la fois. Pour obtenir ce haut-fait plus rapidement, ne rendez pas la quête et revenez le lendemain.}
 ]]
+L['flamewalker_sentinel_note'] = nil
+L['flamewalker_shaman_note'] = nil

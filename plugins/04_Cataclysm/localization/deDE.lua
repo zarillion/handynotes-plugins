@@ -53,7 +53,7 @@ L['ludicrous_speed_note'] = [[Erreiche während der Quest {daily:29147} 65 Stape
 {npc:52596n} geben 5 Stapel
 {npc:Gebirgssingvögel} geben 1 Stapel]]
 L['angry_little_squirrel_note'] = 'Ziehe einen Gegner zum Baum und ein {npc:52195} will auf seinen Kopf springen.'
-L['hyjal_bear_cub_note'] = 'Wirf während der Quest {daily:29161} einen {npc:52688} auf einen {npc:52795}'
+L['hyjal_bear_cub_note'] = 'Wirf während der Quest {daily:29161} einen {npc:52688} auf einen {npc:52795}.'
 L['child_of_tortolla_note'] = 'Kicke während der Quest {daily:29101} eine Schildkröte statt ins Wasser auf einen {npc:52219}.'
 L['ready_for_raiding_2_note'] = 'Töte die folgenden {npc:Leutnants der Flamme} auf {location:Ragnaros\' Ebenen}, ohne von ihren Spezialangriffen getroffen zu werden.'
 L['flawless_victory_note'] = ' Töte alleine ein {npc:52552}, ohne Schaden durch {spell:97243} oder {spell:96688} zu erleiden. '
@@ -61,3 +61,5 @@ L['gang_war_note'] = 'Gewinne ein Duell in {location:Sethrias Nest}, während du
 L['death_from_above_note'] = [[Bombardiere den {npc:<Feuerfürst>} während du die Quest {daily:29290} erledigst.
 
 {note:Nur 3 {npc:Feuerfürsten} sind zu selben zeit aktiv. Um den Erfolg schneller abzuschließen schließe die Quest nicht ab und komme morgen wieder.}]]
+L['flamewalker_sentinel_note'] = 'Verwende {item:137663}, um seine Gesundheit zu senken, damit er dich tragen kann, und töte ihn dann.'
+L['flamewalker_shaman_note'] = 'Verwende {item:137663}, um seine Gesundheit zu senken. Warte bis er sich selbst tötet.'

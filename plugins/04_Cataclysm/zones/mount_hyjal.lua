@@ -287,6 +287,36 @@ mf.nodes[17501200] = dfa({
 }) -- Singeslayer
 
 -------------------------------------------------------------------------------
+-------------------------- MASTER OF THE MOLTEN FLOW --------------------------
+-------------------------------------------------------------------------------
+
+mf.nodes[46005000] = NPC({
+    id = 53085,
+    icon = 135822,
+    note = L['flamewalker_sentinel_note'],
+    requires = {HyjalPhase(41), ns.requirement.Quest(29206)},
+    rewards = {Achievement({id = 5871, criteria = 17836})},
+    pois = {Path({ns.poi.Circle({origin = 48005000, radius = 10})})}
+}) -- Sentinel
+
+mf.nodes[48005000] = NPC({
+    id = 53093,
+    icon = 135822,
+    note = L['flamewalker_shaman_note'],
+    requires = {HyjalPhase(41), ns.requirement.Quest(29206)},
+    rewards = {Achievement({id = 5871, criteria = 17835})},
+    pois = {Path({ns.poi.Circle({origin = 48005000, radius = 10})})}
+}) -- Shaman
+
+mf.nodes[50005000] = NPC({
+    id = 53143,
+    icon = 135822,
+    requires = {HyjalPhase(41), ns.requirement.Quest(29206)},
+    rewards = {Achievement({id = 5871, criteria = 17837})},
+    pois = {Path({ns.poi.Circle({origin = 48005000, radius = 10})})}
+}) -- Hunter
+
+-------------------------------------------------------------------------------
 ------------------------------------ MISC -------------------------------------
 -------------------------------------------------------------------------------
 
