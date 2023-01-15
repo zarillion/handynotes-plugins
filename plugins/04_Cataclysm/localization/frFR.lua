@@ -70,7 +70,7 @@ L['ready_for_raiding_2_note'] = 'Tuez les {title:Lieutenants de la Flamme} suiva
 L['flawless_victory_note'] = 'Tuez en solo un {npc:52552} sans subir de dégâts de {spell:97243} ou {spell:96688}.'
 L['gang_war_note'] = 'Gagnez un duel au {location:Perchoir de Sethria} pendant la quête {daily:29128}.'
 L['death_from_above_note'] = [[
-Bombardez le {npc:<Seigneur du Feu>} durant la quête {daily:29290}.
+Bombardez le {title:<Seigneur du Feu>} durant la quête {daily:29290}.
 
 {note:Seuls 3 {title:Seigneurs du Feu} sont actifs à la fois. Pour obtenir ce haut-fait plus rapidement, ne rendez pas la quête et revenez le lendemain.}
 ]]
