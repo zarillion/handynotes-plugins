@@ -57,3 +57,5 @@ L['hyjal_bear_cub_note'] = 'Pendant la quête {daily:29161}, lancez un {npc:5268
 L['child_of_tortolla_note'] = 'Pendant la quête {daily:29101}, au lieu de lancer une tortue dans l\'eau, lancez-la sur une {npc:52219}.'
 L['ready_for_raiding_2_note'] = 'Tuez les {npc:Lieutenants de la Flamme} suivants à l\'{location:Emprise de Ragnaros} sans être touché par leurs attaques spéciales.'
 L['flawless_victory_note'] = 'Tuez en solo un {npc:52552} sans subir de dégâts de {spell:97243} ou {spell:96688}.'
+L['gang_war_note'] = nil
+L['death_from_above_note'] = nil

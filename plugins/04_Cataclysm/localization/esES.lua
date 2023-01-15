@@ -32,3 +32,5 @@ L['hyjal_bear_cub_note'] = nil
 L['child_of_tortolla_note'] = nil
 L['ready_for_raiding_2_note'] = nil
 L['flawless_victory_note'] = nil
+L['gang_war_note'] = nil
+L['death_from_above_note'] = nil

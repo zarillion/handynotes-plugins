@@ -59,27 +59,34 @@ mf.nodes[47039139] = NPC({
     rewards = {Achievement({id = 5870, criteria = 17878})}
 }) -- starts Phase 4a/b - The Druids of the Talon Area / The Shadow Wardens Area
 
+mf.nodes[10001400] = ns.node.Node({
+    label = L['hyjal_phase5'],
+    note = L['hyjal_phase5_note'],
+    icon = 513195,
+    quest = {29182, 29215},
+    requires = {HyjalPhase(41),HyjalPhase(42)}
+}) -- changes Molten Front to Phase 5 - The Regrowth
+
 -------------------------------------------------------------------------------
 -------------------------------- FIRESIDE CHAT --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[27176257] = Collectible({
+local FiresideChat = Class('FiresideChat', Collectible, {icon = 236450})
+
+map.nodes[27176257] = FiresideChat({
     id = 52669,
-    icon = 236450,
     requires = HyjalPhase(1),
     rewards = {Achievement({id = 5870, criteria = 17879})}
 }) -- Matoclaw
 
-map.nodes[27536251] = Collectible({
+map.nodes[27536251] = FiresideChat({
     id = 52986,
-    icon = 236450,
     requires = HyjalPhase(1),
     rewards = {Achievement({id = 5870, criteria = 17882})}
 }) -- Dorda'en Nightweaver
 
-mf.nodes[47458356] = Collectible({
+mf.nodes[47458356] = FiresideChat({
     id = 52134,
-    icon = 236450,
     requires = HyjalPhase(3),
     rewards = {Achievement({id = 5870, criteria = 17880})},
     pois = {
@@ -90,31 +97,27 @@ mf.nodes[47458356] = Collectible({
     }
 }) -- Commander Jarod Shadowsong
 
-mf.nodes[10001000] = Collectible({
+mf.nodes[10001000] = FiresideChat({  -- TODO
     id = 52444,
-    icon = 236450,
-    requires = HyjalPhase(5), -- TODO
+    requires = HyjalPhase(41),
     rewards = {Achievement({id = 5870, criteria = 17883})}
 }) -- Thisalee Crow
 
-mf.nodes[11501000] = Collectible({
+mf.nodes[11501000] = FiresideChat({  -- TODO
     id = 53259,
-    icon = 236450,
-    requires = HyjalPhase(5), -- TODO
+    requires = HyjalPhase(41),
     rewards = {Achievement({id = 5870, criteria = 17884})}
 }) -- Arthorn Windsong
 
-mf.nodes[13001000] = Collectible({
+mf.nodes[13001000] = FiresideChat({  -- TODO
     id = 52921,
-    icon = 236450,
-    requires = HyjalPhase(5), -- TODO
+    requires = HyjalPhase(41),
     rewards = {Achievement({id = 5870, criteria = 17886})}
 }) -- Deldren Ravenelm
 
-mf.nodes[45598583] = Collectible({
+mf.nodes[45598583] = FiresideChat({
     id = 52921,
-    icon = 236450,
-    requires = HyjalPhase(3), -- TODO
+    requires = HyjalPhase(3),
     rewards = {Achievement({id = 5870, criteria = 17889})}
 }) -- General Taldris Moonfall
 
@@ -244,13 +247,60 @@ map.nodes[23285899] = Collectible({
 }) -- Child of Tortolla
 
 -------------------------------------------------------------------------------
+------------------------------ DEATH FROM ABOVE -------------------------------
+-------------------------------------------------------------------------------
+
+local dfa = Class('dfa', Collectible, {
+    icon = 512904,
+    note = L['death_from_above_note'],
+    requires = {HyjalPhase(41)}
+})
+
+mf.nodes[10001200] = dfa({
+    id = 54252,
+    rewards = {Achievement({id = 5874, criteria = 17857})}
+}) -- Ragepyre
+
+mf.nodes[11501200] = dfa({
+    id = 54254,
+    rewards = {Achievement({id = 5874, criteria = 17859})}
+}) -- Flashfire
+
+mf.nodes[13001200] = dfa({
+    id = 54256,
+    rewards = {Achievement({id = 5874, criteria = 17861})}
+}) -- Heatflayer
+
+mf.nodes[14501200] = dfa({
+    id = 54253,
+    rewards = {Achievement({id = 5874, criteria = 17858})}
+}) -- Blazefury
+
+mf.nodes[16001200] = dfa({
+    id = 54255,
+    rewards = {Achievement({id = 5874, criteria = 17860})}
+}) -- Hatespark
+
+mf.nodes[17501200] = dfa({
+    id = 54257,
+    rewards = {Achievement({id = 5874, criteria = 17862})}
+}) -- Singeslayer
+
+-------------------------------------------------------------------------------
 ------------------------------------ MISC -------------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[27495634] = ns.node.Node({
     label = L['portal_molten_front'],
     icon = 'portal_rd',
-    requires = {HyjalPhase(1), ns.requirement.Quest(29200)}
+    requires = {HyjalPhase(1), ns.requirement.Quest(29200)},
+    rewards = {
+        Achievement({id = 5867}),
+        Achievement(
+            {id = 5870, criteria = {17878, 17880, 17883, 17884, 17886, 17889}}),
+        Achievement({id = 5872}),
+        Achievement({id = 5873, criteria = {17840, 17841, 17842, 17843, 17844}})
+    }
 }) -- Portal to the Molten Front
 
 map.nodes[37225618] = Collectible({
@@ -310,6 +360,14 @@ mf.nodes[44004900] = Collectible({
     id = 52552,
     icon = 459027,
     note = L['flawless_victory_note'],
+    requires = {HyjalPhase(3)},
+    rewards = {Achievement({id = 5867})}
+}) -- Flawless Victory
+
+map.nodes[31007700] = Collectible({
+    label = '{achievement:5864}',
+    icon = 135415,
+    note = L['gang_war_note'],
     requires = {HyjalPhase(3)},
     rewards = {Achievement({id = 5867})}
 }) -- Flawless Victory

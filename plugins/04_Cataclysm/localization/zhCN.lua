@@ -12,7 +12,7 @@ L['hyjal_phase2'] = '阶段2 - 玛洛恩庇护所'
 L['hyjal_phase3'] = '阶段3 - 熔火前线'
 L['hyjal_phase4a'] = '阶段4A - 猛禽德鲁伊区域'
 L['hyjal_phase4b'] = '阶段4B - 暗影守望者区域'
--- L['hyjal_phase6'] = '阶段5 - 复苏之地'
+-- L['hyjal_phase5'] = '阶段5 - 复苏之地'
 
 L['hyjal_phase1_note'] = '在 {location:海加尔山} 完成任务直到 {quest:29389} 开始进攻阶段。'
 L['hyjal_phase2_note'] = '要进入阶段2，需要10个 {currency:416} 才能完成 {quest:29198}。\n\n可以通过日常任务赚取 {currency:416}。'
@@ -56,3 +56,5 @@ L['hyjal_bear_cub_note'] = '在任务 {daily:29161} 时，向 {npc:52795} 投掷
 L['child_of_tortolla_note'] = '在任务 {daily:29101} 时，不要将乌龟踢入水中，而是将其踢向 {npc:52219}。' -- review
 L['ready_for_raiding_2_note'] = '在 {location:拉格纳罗斯的领域} 击败下列 {npc:烈焰副官}，并且不被他们的特殊攻击命中。'
 L['flawless_victory_note'] = '单独击杀一个 {npc:52552} 而且没有受到 {spell:97243} 或 {spell:96688} 的任何伤害。'
+L['gang_war_note'] = nil
+L['death_from_above_note'] = nil

@@ -12,17 +12,17 @@ L['hyjal_phase2'] = 'Phase 2 - The Sanctuary of Malorne'
 L['hyjal_phase3'] = 'Phase 3 - The Molten Front'
 L['hyjal_phase4a'] = 'Phase 4a - The Druids of the Talon Area'
 L['hyjal_phase4b'] = 'Phase 4b - The Shadow Wardens Area'
--- L['hyjal_phase6'] = 'Phase 5 - The Regrowth'
+L['hyjal_phase5'] = 'Phase 5 - The Regrowth'
 
-L['hyjal_phase1_note'] = 'Complete Quests in {location:Mount Hyjal} up until {quest:29389} to start the Invasion Phase.'
-L['hyjal_phase2_note'] = 'To advance into Phase 2 you need 10 {currency:416} for {quest:29198}.\n\nYou earn {currency:416} form daily quests.'
-L['hyjal_phase3_note'] = 'To advance into Phase 3 you need 15 {currency:416} for {quest:29201}.\n\nYou earn {currency:416} form daily quests.'
+L['hyjal_phase1_note'] = 'Complete Quests in {location:Mount Hyjal} until you get {quest:29389}. This questline will start the Invasion Phase.'
+L['hyjal_phase2_note'] = 'To advance into Phase 2 you need 10 {currency:416} for {quest:29198}.\n\nYou earn {currency:416} from daily quests.'
+L['hyjal_phase3_note'] = 'To advance into Phase 3 you need 15 {currency:416} for {quest:29201}.\n\nYou earn {currency:416} from daily quests.'
 L['hyjal_phase4_note'] = [[Phase 4 is split into 2 parts.
 To advance into Phase 4a you need 150 {currency:416} for {quest:29181}.
 To advance into Phase 4b you need 150 {currency:416} for {quest:29214}.
 
-You earn {currency:416} form daily quests.]]
--- L['hyjal_phase5_note'] = nil
+You earn {currency:416} from daily quests.]]
+L['hyjal_phase5_note'] = 'To advance into Phase 5 you need to complete {quest:29215} and {quest:29182}.' -- review
 
 L['portal_molten_front'] = 'Portal to the Molten Front'
 
@@ -56,3 +56,7 @@ L['hyjal_bear_cub_note'] = 'While on the quest {daily:29161}, throw a {npc:52688
 L['child_of_tortolla_note'] = 'While on the quest {daily:29101}, instead of punting a turtle into the water, punt it at a {npc:52219}.' -- review
 L['ready_for_raiding_2_note'] = 'Slay the following {npc:Lieutenants of Flame} in {location:Ragnaros\' Reach} without getting hit by their special attacks.'
 L['flawless_victory_note'] = 'Solo kill a {npc:52552} without taking any damage from {spell:97243} or {spell:96688}.'
+L['gang_war_note'] = 'Win a duel in {location:Sethria\'s Roost} while on the quest {daily:29128}.'
+L['death_from_above_note'] = [[Bomb the {npc:<Firelord>} while you are on the quest {daily:29290}.
+
+{note:Only 3 {npc:Firelord}s are active at a time. To complete the achievement faster dont turn in the quest and come back tomorrow.}]]
