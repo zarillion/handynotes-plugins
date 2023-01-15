@@ -283,6 +283,9 @@ L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completi
 L['chest_of_the_flood'] = 'Chest of the Flood'
 
 L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75), follow them and defend them on their way.'
+L['aylaag_outpost_note'] = '{note:This rare only spawn {faction:Clan Aylaag} in {location:Aylaag Outpost}.}'
+L['eaglewatch_outpost_note'] = '{note:This rare only spawn {faction:Clan Aylaag} in {location:Eaglewatch Outpost}.}'
+L['river_camp_note'] = '{note:This rare only spawn {faction:Clan Aylaag} in {location:River Camp}.}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

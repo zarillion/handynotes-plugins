@@ -284,6 +284,9 @@ L['options_icons_nokhud_do_it_desc'] = 'Afficher des informations utiles pour ob
 L['chest_of_the_flood'] = 'Coffre du déluge'
 
 L['aylaag_camp_note'] = 'Le {faction:Clan des Aylaags} se déplace vers un autre campement tous les 3 jours et 3 heures (75), suivez-les et défendez-les sur leur chemin.'
+L['aylaag_outpost_note'] = nil
+L['eaglewatch_outpost_note'] = nil
+L['river_camp_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

@@ -284,6 +284,9 @@ L['options_icons_nokhud_do_it_desc'] = 'Muestra información de ayuda para compl
 L['chest_of_the_flood'] = 'Cofre de la inundación'
 
 L['aylaag_camp_note'] = 'El {faction:Clan Aylaag} se mueve de un campamento a otro cada 3 días y 3 horas (75 horas). Síguelos y defiéndelos durante su marcha.'
+L['aylaag_outpost_note'] = nil
+L['eaglewatch_outpost_note'] = nil
+L['river_camp_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

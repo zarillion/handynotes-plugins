@@ -278,6 +278,9 @@ L['options_icons_nokhud_do_it_desc'] = nil
 L['chest_of_the_flood'] = nil
 
 L['aylaag_camp_note'] = nil
+L['aylaag_outpost_note'] = nil
+L['eaglewatch_outpost_note'] = nil
+L['river_camp_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

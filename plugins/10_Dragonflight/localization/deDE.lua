@@ -277,6 +277,9 @@ L['options_icons_nokhud_do_it_desc'] = 'Zeigt die Position für den Erfolg {achi
 L['chest_of_the_flood'] = 'Truhe der Flut'
 
 L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.'
+L['aylaag_outpost_note'] = nil
+L['eaglewatch_outpost_note'] = nil
+L['river_camp_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

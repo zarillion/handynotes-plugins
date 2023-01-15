@@ -283,6 +283,9 @@ L['options_icons_nokhud_do_it_desc'] = '顯示成就 {achievement:16583} 有用�
 L['chest_of_the_flood'] = '洪流寶箱'
 
 L['aylaag_camp_note'] = nil
+L['aylaag_outpost_note'] = nil
+L['eaglewatch_outpost_note'] = nil
+L['river_camp_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

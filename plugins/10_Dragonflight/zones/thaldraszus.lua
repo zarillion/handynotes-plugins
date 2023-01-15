@@ -229,7 +229,7 @@ map.nodes[50005180] = Rare({ -- reqiured 67030 review
 map.nodes[37607780] = Rare({ -- reqiured 67030
     id = 193176,
     quest = 74029,
-    note = L['in_cave'] .. '\n\n' .. L['spawns_two_hourly'],
+    note = L['spawns_two_hourly'] .. '\n\n' .. L['in_cave'],
     rewards = {
         Achievement({id = 16679, criteria = 56150}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
@@ -278,7 +278,7 @@ map.nodes[46267317] = Rare({
 map.nodes[35027001] = Rare({ -- reqiured 67030 review
     id = 193146,
     quest = 74036,
-    note = L['in_small_cave'] .. '\n\n' .. L['spawns_two_hourly'],
+    note = L['spawns_two_hourly'] .. '\n\n' .. L['in_small_cave'],
     rewards = {
         Achievement({id = 16679, criteria = 56146}),
         Transmog({item = 200291, slot = L['leather']}), -- Waterlogged Racing Grips

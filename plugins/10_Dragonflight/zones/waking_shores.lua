@@ -54,7 +54,7 @@ local nel = Map({id = 2080, settings = true})
 map.nodes[63695509] = Rare({
     id = 193132,
     quest = 73981,
-    note = L['in_cave'] .. '\n\n' .. L['spawns_two_hourly'],
+    note = L['spawns_two_hourly'] .. '\n\n' .. L['in_cave'],
     rewards = {Achievement({id = 16676, criteria = 56045})}
 }) -- Amethyzar the Glittering
 

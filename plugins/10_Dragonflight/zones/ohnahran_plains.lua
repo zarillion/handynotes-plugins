@@ -52,6 +52,7 @@ local map = Map({id = 2023, settings = true})
 map.nodes[31567644] = Rare({
     id = 195186,
     quest = 73950,
+    note = L['eaglewatch_outpost_note'],
     rewards = {Achievement({id = 16677, criteria = 56092})}
 }) -- Cinta the Forgotten
 
@@ -105,6 +106,7 @@ map.nodes[74414762] = Rare({ -- reqiured 67030 review
 map.nodes[85221544] = Rare({ -- review
     id = 187781,
     quest = 73951,
+    note = L['aylaag_outpost_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56082})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -114,14 +116,14 @@ map.nodes[85221544] = Rare({ -- review
 map.nodes[80544222] = Rare({
     id = 188095,
     quest = 73966,
-    note = L['hunter_of_the_deep_note'],
+    note = L['aylaag_outpost_note'] .. '\n\n' .. L['hunter_of_the_deep_note'],
     rewards = {Achievement({id = 16677, criteria = 56083})}
 }) -- Hunter of the Deep
 
 map.nodes[80513869] = Rare({
     id = 188124,
     quest = 73967,
-    note = L['in_cave'],
+    note = L['aylaag_outpost_note'] .. '\n\n' .. L['in_cave'],
     rewards = {Achievement({id = 16677, criteria = 56084})},
     pois = {POI({79143656})} -- Entrance
 }) -- Irontree
@@ -140,6 +142,7 @@ map.nodes[87556151] = Rare({
 map.nodes[32823817] = Rare({ -- review
     id = 195409,
     quest = 73968,
+    note = L['eaglewatch_outpost_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56094})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -248,6 +251,7 @@ map.nodes[43405560] = Rare({
 map.nodes[42804428] = Rare({ -- review
     id = 195223,
     quest = 73973,
+    note = L['eaglewatch_outpost_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56093})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -310,6 +314,7 @@ map.nodes[53627281] = Rare({ -- reqiured 67030 review
 map.nodes[78298276] = Rare({
     id = 191842,
     quest = 73974,
+    note = L['river_camp_note'],
     rewards = {Achievement({id = 16677, criteria = 56086})}
 }) -- Sulfurion
 
@@ -325,19 +330,21 @@ map.nodes[78298276] = Rare({
 map.nodes[27605560] = Rare({
     id = 195204,
     quest = 73976,
+    note = L['eaglewatch_outpost_note'],
     rewards = {Achievement({id = 16677, criteria = 56088})}
 }) -- The Jolly Giant
 
 map.nodes[83786215] = Rare({
     id = 192453,
     quest = 73978,
+    note = L['river_camp_note'],
     rewards = {Achievement({id = 16677, criteria = 56090})}
 }) -- Vaniik the Stormtouched
 
 map.nodes[84214784] = Rare({
     id = 192364,
     quest = 73979,
-    note = L['windscale_the_stormborn_note'],
+    note = L['river_camp_note'] .. '\n\n' .. L['windscale_the_stormborn_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56089})
         -- Transmog({item = , slot = L['']}) -- Name
