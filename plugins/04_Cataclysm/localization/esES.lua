@@ -74,5 +74,5 @@ Bombardea a {title:Señor del Fuego} cuando estés haciendo la misión diaria 
 
 {note: Sólo hay 3 {title:Señor del Fuego} activos al mismo tiempo. Para completar el logro más rápido no devuelvas la misión y regresa al día siguiente.}
 ]]
-L['flamewalker_sentinel_note'] = 'Use la {item:137663} para bajar su vida y así te lance {spell:98369}. Esquiva todos los disparos y mátalo.'
+L['flamewalker_sentinel_note'] = 'Usa la {item:137663} para bajar su vida y así te lance {spell:98369}. Esquiva todos los disparos y mátalo.'
 L['flamewalker_shaman_note'] = 'Usa la {item:137663} para bajar su vida. Espera a que se mate él mismo.'
