@@ -13,7 +13,7 @@ L['hyjal_phase2'] = 'Phase 2 - Le Sanctuaire de Malorne'
 L['hyjal_phase3'] = 'Phase 3 - Le Front du Magma'
 L['hyjal_phase4a'] = 'Phase 4a - Zone des Druides de la Serre'
 L['hyjal_phase4b'] = 'Phase 4b - Zone des Gardiennes de l’ombre'
--- L['hyjal_phase5'] = 'Phase 5 - Le Rétablissement'
+L['hyjal_phase5'] = 'Phase 5 - Le Rétablissement'
 
 L['hyjal_phase1_note'] = 'Complétez des quêtes au {location:Mont Hyjal} jusqu\'à {quest:29389} pour commencer la Phase d\'Invasion.'
 L['hyjal_phase2_note'] = 'Pour passer à la Phase 2, vous avez besoin de 10 {currency:416} pour {quest:29198}.\n\nVous gagnez des {currency:416} grâce aux quêtes journalières.'
@@ -23,7 +23,7 @@ Pour passer à la Phase 4a, vous avez besoin de 150 {currency:416} pour {quest:2
 Pour passer à la Phase 4b, vous avez besoin de 150 {currency:416} pour {quest:29214}.
 
 Vous gagnez des {currency:416} grâce aux quêtes journalières.]]
--- L['hyjal_phase5_note'] = nil
+L['hyjal_phase5_note'] = nil
 
 L['portal_molten_front'] = 'Portail vers le Front du Magma'
 

@@ -12,7 +12,7 @@ L['hyjal_phase2'] = '阶段2 - 玛洛恩庇护所'
 L['hyjal_phase3'] = '阶段3 - 熔火前线'
 L['hyjal_phase4a'] = '阶段4A - 猛禽德鲁伊区域'
 L['hyjal_phase4b'] = '阶段4B - 暗影守望者区域'
--- L['hyjal_phase5'] = '阶段5 - 复苏之地'
+L['hyjal_phase5'] = '阶段5 - 复苏之地'
 
 L['hyjal_phase1_note'] = '在 {location:海加尔山} 完成任务直到 {quest:29389} 开始进攻阶段。'
 L['hyjal_phase2_note'] = '要进入阶段2，需要10个 {currency:416} 才能完成 {quest:29198}。\n\n可以通过日常任务赚取 {currency:416}。'
@@ -22,7 +22,7 @@ L['hyjal_phase4_note'] = [[阶段4分为2个部分。
 要进入阶段4B，需要150个 {currency:416} 给 {quest:29214}。
 
 通过日常任务赚取 {currency:416}。]]
--- L['hyjal_phase5_note'] = nil
+L['hyjal_phase5_note'] = nil
 
 L['portal_molten_front'] = '熔火前线传送门'
 

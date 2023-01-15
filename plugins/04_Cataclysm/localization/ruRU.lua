@@ -12,13 +12,13 @@ L['hyjal_phase2'] = nil
 L['hyjal_phase3'] = nil
 L['hyjal_phase4a'] = nil
 L['hyjal_phase4b'] = nil
--- L['hyjal_phase5'] = nil
+L['hyjal_phase5'] = nil
 
 L['hyjal_phase1_note'] = nil
 L['hyjal_phase2_note'] = nil
 L['hyjal_phase3_note'] = nil
 L['hyjal_phase4_note'] = nil
--- L['hyjal_phase5_note'] = nil
+L['hyjal_phase5_note'] = nil
 
 L['portal_molten_front'] = nil
 
