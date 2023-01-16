@@ -77,102 +77,122 @@ ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
 
 ns.groups.ANCESTOR = Group('ancestor', 135946, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16423
 })
 
 ns.groups.BAKAR = Group('bakar', 930453, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16424
 })
 
 ns.groups.CHISELED_RECORD = Group('chiseled_record', 134455, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16412
 })
 
 ns.groups.DREAMGUARD = Group('dreamguard', 341763, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16574
 })
 
 ns.groups.DUCKLINGS = Group('ducklings', 4048818, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16409
 })
 
 ns.groups.FLAG = Group('flag', 1723999, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 15890
 })
 
 ns.groups.FRAGMENT = Group('fragment', 134908, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16323
 })
 
 ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16493
 })
 
 ns.groups.HEMET_NESINGWARY_JR = Group('hemet_nesingwary_jr', 236444, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16542
 })
 
 ns.groups.KITE = Group('kite', 133837, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16584
 })
 
 ns.groups.NOKHUD_DO_IT = Group('nokhud_do_it', 1103068, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16583
 })
 
 ns.groups.LEGENDARY_ALBUM = Group('legendary_album', 1109168, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16570
 })
 
 ns.groups.LEYLINE = Group('leyline', 1033908, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16638
 })
 
 ns.groups.NEW_PERSPECTIVE = Group('new_perspective', 1109100, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16634
 })
 
 ns.groups.PRETTY_NEAT = Group('pretty_neat', 133707, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16446
 })
 
 ns.groups.SAFARI = Group('safari', 4048818, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16519
 })
 
 ns.groups.SNACK_ATTACK = Group('snack_attack', 134062, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16410
 })
 
 ns.groups.SPECIALTIES = Group('specialties', 651585, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16621
 })
 
 ns.groups.SQUIRRELS = Group('squirrels', 237182, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16729
 })
 
 ns.groups.STORIES = Group('stories', 4549126, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16406
 })
 
 -------------------------------------------------------------------------------
