@@ -141,6 +141,15 @@ map.nodes[59128380] = Rare({ -- review
         Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
         Toy({item = 200148}), -- A Collection Of Me
         DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
+    },
+    pois = {
+        Path({
+            61268044, 61068044, 60758085, 60478099, 60078084, 59978045,
+            59268031, 59178048, 58718021, 58408056, 58408127, 57878120,
+            57568198, 57648326, 58338437, 58738449, 59438425, 60118349,
+            60028315, 60038298, 60598289, 60928214, 61058151, 61708119,
+            61628055, 61158042, 60778077, 60478100
+        })
     }
 }) -- Innumerable Ruination
 
