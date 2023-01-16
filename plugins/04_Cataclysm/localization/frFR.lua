@@ -74,5 +74,5 @@ Bombardez le {title:<Seigneur du Feu>} durant la quête {daily:29290}.
 
 {note:Seuls 3 {title:Seigneurs du Feu} sont actifs à la fois. Pour obtenir ce haut-fait plus rapidement, ne rendez pas la quête et revenez le lendemain.}
 ]]
-L['flamewalker_sentinel_note'] = 'Utilisez l\'{item:137663} pour réduire sa vie afin qu\'il vous porte, puis tuez-le.'
+L['flamewalker_sentinel_note'] = 'Utilisez l\'{item:137663} pour réduire sa vie afin qu\'il lance {spell:98369}. Évitez tous les tirs et tuez-le.'
 L['flamewalker_shaman_note'] = 'Utilisez l\'{item:137663} pour réduire sa vie. Attendez qu\'il se suicide.'
