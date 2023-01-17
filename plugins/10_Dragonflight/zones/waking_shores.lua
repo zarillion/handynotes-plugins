@@ -684,6 +684,38 @@ map.nodes[46713121] = Treasure({
     }
 }) -- Yennu's Kite
 
+map.nodes[44607010] = Treasure({
+    label = L['lost_obsidian_cache'],
+    icon = 'chest_gn',
+    quest = 70018,
+    note = L['in_cave'] .. '\n\n' ..
+        format('%s\n\n%s\n\n%s', L['lost_obsidian_cache_step1'],
+            L['lost_obsidian_cache_step2'], L['lost_obsidian_cache_step3']),
+    rewards = {
+        Toy({item = 201933}) -- Black Dragon's Challenge Dummy
+    },
+    pois = {
+        POI({
+            label = '{item:194122}',
+            note = L['lost_obsidian_cache_step1'],
+            color = 'Green',
+            points = {43707170}
+        }), -- Sour Apple
+        POI({
+            label = '{npc:191851}',
+            note = L['lost_obsidian_cache_step2'],
+            color = 'Yellow',
+            points = {43206720}
+        }), -- Blacktalon Shadowclaw
+        POI({
+            label = '{item:198085}',
+            note = L['lost_obsidian_cache_step3'],
+            color = 'Blue',
+            points = {43656957}
+        }) -- Lost Obsidian Cache Key
+    }
+}) -- Lost Obsidian Cache
+
 -------------------------------------------------------------------------------
 
 map.nodes[43156737] = Treasure({
