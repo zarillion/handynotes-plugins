@@ -19,7 +19,95 @@ ns.expansion = 4
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
+ns.groups.SAFARI = Group('safari', 4048818, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 6585
+})
+
+ns.groups.UNBEATABLE_PTERODACTYL = Group('unbeatable_pterodactyl', 132200, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5860,
+    label = '{achievement:5860}'
+})
+
+ns.groups.LUDICROUS_SPEED = Group('ludicrous_speed', 132172, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5862,
+    label = '{achievement:5862}'
+})
+
+ns.groups.HAVE_WE_MET = Group('have_we_met', 135646, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5865,
+    label = '{achievement:5865}'
+})
+
+ns.groups.SPIDER_HILL = Group('spider_hill', 132196, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5872,
+    label = '{achievement:5872}'
+})
+
+ns.groups.R4R_2 = Group('r4r_2', 135789, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5873,
+    label = '{achievement:5873}'
+})
+
+ns.groups.FLAWLESS_VICTORY = Group('flawless_victory', 459027, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5867,
+    label = '{achievement:5867}'
+})
+
+ns.groups.GANG_WAR = Group('gang_war', 135415, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5864,
+    label = '{achievement:5864}'
+})
+
+ns.groups.MOLTEN_FLOW_MASTER = Group('molten_flow_master', 135822, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5871,
+    label = '{achievement:5871}'
+})
+
+ns.groups.CRITTER_REVENGE = Group('critter_revenge', 132200, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5868,
+    label = '{achievement:5868}'
+})
+
+ns.groups.FIERY_LORDS = Group('fiery_lords', 135790, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5861,
+    label = '{achievement:5861}'
+})
+
+ns.groups.INFERNAL_AMBASSADORS = Group('infernal_ambassadors', 236191, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5869,
+    label = '{achievement:5869}'
+})
+
+ns.groups.FIRESIDE_CHAT = Group('fireside_chat', 236450, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5870,
+    label = '{achievement:5870}'
+})
 
 -------------------------------------------------------------------------------
 ------------------------- HYJAL / MOLTEN FRONT PHASE --------------------------

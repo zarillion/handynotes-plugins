@@ -71,7 +71,8 @@ mf.nodes[10001400] = ns.node.Node({
 -------------------------------- FIRESIDE CHAT --------------------------------
 -------------------------------------------------------------------------------
 
-local FiresideChat = Class('FiresideChat', Collectible, {icon = 236450})
+local FiresideChat = Class('FiresideChat', Collectible,
+    {icon = 236450, group = ns.groups.FIRESIDE_CHAT})
 
 map.nodes[27176257] = FiresideChat({
     id = 52669,
@@ -125,53 +126,50 @@ mf.nodes[45598583] = FiresideChat({
 ---------------------------- INFERNAL AMBASSADORS -----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[13294490] = Collectible({
+local Ambassador = Class('Ambassador', Collectible, {
+    icon = 236191,
+    group = ns.groups.INFERNAL_AMBASSADORS
+})
+
+map.nodes[13294490] = Ambassador({
     id = 52749,
     quest = 29162,
-    icon = 236191,
     requires = {
         HyjalPhase(2), ns.requirement.Quest(29161, nil, true) -- Those Bears Up There
     },
     rewards = {Achievement({id = 5869, criteria = 17829})}
 }) -- Pyrachnis
 
-map.nodes[13184472] = Collectible({
+map.nodes[13184472] = Ambassador({
     id = 52649,
     quest = 29148,
-    icon = 236191,
     requires = {
         HyjalPhase(2), ns.requirement.Quest(29147, nil, true) -- Call the Flock
     },
-    rewards = {
-        Achievement({id = 5869, criteria = 17831}),
-        Achievement({id = 5868, criteria = 17826})
-    }
+    rewards = {Achievement({id = 5869, criteria = 17831})}
 }) -- Millagazor
 
-map.nodes[41945604] = Collectible({
+map.nodes[41945604] = Ambassador({
     id = 52766,
     quest = 29165,
-    icon = 236191,
     requires = {
         HyjalPhase(2), ns.requirement.Quest(29164, nil, true) -- Perfecting Your Howl
     },
     rewards = {Achievement({id = 5869, criteria = 17832})}
 }) -- Lylagar
 
-map.nodes[41795575] = Collectible({
+map.nodes[41795575] = Ambassador({
     id = 52399,
     quest = 19126,
-    icon = 236191,
     requires = {
         HyjalPhase(2), ns.requirement.Quest(29125, nil, true) -- Between the Trees
     },
     rewards = {Achievement({id = 5869, criteria = 17833})}
 }) -- Galenges
 
-map.nodes[24785525] = Collectible({
+map.nodes[24785525] = Ambassador({
     id = 52383,
     quest = 29122,
-    icon = 236191,
     requires = {
         HyjalPhase(2), ns.requirement.Quest(29101, nil, true) -- Punting Season
     },
@@ -185,6 +183,7 @@ map.nodes[24785525] = Collectible({
 local FieryLord = Class('FieryLord', Collectible, {
     note = L['fiery_lords_note'],
     icon = 135790,
+    group = ns.groups.FIERY_LORDS,
     requires = {HyjalPhase(3)}
 })
 
@@ -220,29 +219,34 @@ map.nodes[30858706] = FieryLord({
 --------------------- AND THE MEEK SHALL INHERIT KALIMDOR ---------------------
 -------------------------------------------------------------------------------
 
-map.nodes[40835715] = Collectible({
-    id = 52195,
+local CritterRevenge = Class('CritterRevenge', Collectible, {
     icon = 132328,
+    group = ns.groups.CRITTER_REVENGE,
+    requires = {HyjalPhase(3)}
+})
+
+map.nodes[40835715] = CritterRevenge({
+    id = 52195,
     note = L['angry_little_squirrel_note'],
-    requires = {
-        HyjalPhase(3) -- review, maybe earlier
-    },
     rewards = {Achievement({id = 5868, criteria = 17824})}
 }) -- Angry Little Squirrel
 
-map.nodes[14303313] = Collectible({
+map.nodes[13184473] = CritterRevenge({
+    id = 52649,
+    rewards = {Achievement({id = 5868, criteria = 17826})}
+}) -- Alpine Songbird
+
+Achievement({id = 5868, criteria = 17826})
+
+map.nodes[14303313] = CritterRevenge({
     id = 52688,
-    icon = 132328,
     note = L['hyjal_bear_cub_note'],
-    requires = {HyjalPhase(3)},
     rewards = {Achievement({id = 5868, criteria = 17825})}
 }) -- Hyjal Bear Cub
 
-map.nodes[23285899] = Collectible({
+map.nodes[23285899] = CritterRevenge({
     id = 52688,
-    icon = 132328,
     note = L['child_of_tortolla_note'],
-    requires = {HyjalPhase(3)},
     rewards = {Achievement({id = 5868, criteria = 17827})}
 }) -- Child of Tortolla
 
@@ -290,30 +294,28 @@ mf.nodes[17501200] = dfa({
 -------------------------- MASTER OF THE MOLTEN FLOW --------------------------
 -------------------------------------------------------------------------------
 
-mf.nodes[46005000] = NPC({
-    id = 53085,
+local MoltenFlowMaster = Class('MoltenFlowMaster', NPC, {
     icon = 135822,
-    note = L['flamewalker_sentinel_note'],
+    group = ns.groups.MOLTEN_FLOW_MASTER,
     requires = {HyjalPhase(41), ns.requirement.Quest(29206)},
-    rewards = {Achievement({id = 5871, criteria = 17836})},
     pois = {Path({ns.poi.Circle({origin = 48005000, radius = 10})})}
+})
+
+mf.nodes[46005000] = MoltenFlowMaster({
+    id = 53085,
+    note = L['flamewalker_sentinel_note'],
+    rewards = {Achievement({id = 5871, criteria = 17836})}
 }) -- Sentinel
 
-mf.nodes[48005000] = NPC({
+mf.nodes[48005000] = MoltenFlowMaster({
     id = 53093,
-    icon = 135822,
     note = L['flamewalker_shaman_note'],
-    requires = {HyjalPhase(41), ns.requirement.Quest(29206)},
-    rewards = {Achievement({id = 5871, criteria = 17835})},
-    pois = {Path({ns.poi.Circle({origin = 48005000, radius = 10})})}
+    rewards = {Achievement({id = 5871, criteria = 17835})}
 }) -- Shaman
 
-mf.nodes[50005000] = NPC({
+mf.nodes[50005000] = MoltenFlowMaster({
     id = 53143,
-    icon = 135822,
-    requires = {HyjalPhase(41), ns.requirement.Quest(29206)},
-    rewards = {Achievement({id = 5871, criteria = 17837})},
-    pois = {Path({ns.poi.Circle({origin = 48005000, radius = 10})})}
+    rewards = {Achievement({id = 5871, criteria = 17837})}
 }) -- Hunter
 
 -------------------------------------------------------------------------------
@@ -340,6 +342,7 @@ map.nodes[37225618] = Collectible({
     id = 40578,
     quest = 29177,
     icon = 132200,
+    group = ns.groups.UNBEATABLE_PTERODACTYL,
     requires = {
         HyjalPhase(1), -- review
         ns.requirement.Quest(25560)
@@ -352,7 +355,8 @@ map.nodes[12003900] = Collectible({
     id = 40578,
     note = L['ludicrous_speed_note'],
     quest = 29177,
-    icon = 132200,
+    icon = 132172,
+    group = ns.groups.LUDICROUS_SPEED,
     requires = {HyjalPhase(3)},
     rewards = {Achievement({id = 5862})},
     pois = {Path({ns.poi.Circle({origin = 12003900, radius = 5})})}
@@ -363,6 +367,7 @@ map.nodes[27336160] = Collectible({
     quest = 29128,
     icon = 135646,
     note = L['have_we_met_note'],
+    group = ns.groups.HAVE_WE_MET,
     requires = {HyjalPhase(3)},
     rewards = {
         Achievement({id = 5865, criteria = {17806, 17807, 17808, 17809, 17810}})
@@ -374,6 +379,7 @@ mf.nodes[66035682] = Collectible({
     label = '{achievement:5872}',
     note = L['spider_hill_note'],
     icon = 132196,
+    group = ns.groups.SPIDER_HILL,
     requires = {HyjalPhase(3)},
     rewards = {Achievement({id = 5872})},
     pois = {Path({ns.poi.Circle({origin = 66035600, radius = 2.25})})}
@@ -383,6 +389,7 @@ mf.nodes[50381958] = Collectible({
     label = '{achievement:5873}',
     note = L['ready_for_raiding_2_note'],
     icon = 135789,
+    group = ns.groups.R4R_2,
     requires = {HyjalPhase(5), ns.requirement.Quest(29244)},
     rewards = {
         Achievement({id = 5873, criteria = {17840, 17841, 17842, 17843, 17844}})
@@ -393,6 +400,7 @@ mf.nodes[44004900] = Collectible({
     id = 52552,
     icon = 459027,
     note = L['flawless_victory_note'],
+    group = ns.groups.FLAWLESS_VICTORY,
     requires = {HyjalPhase(3)},
     rewards = {Achievement({id = 5867})}
 }) -- Flawless Victory
@@ -402,8 +410,8 @@ map.nodes[31007700] = Collectible({
     icon = 135415,
     note = L['gang_war_note'],
     requires = {HyjalPhase(3)},
-    rewards = {Achievement({id = 5867})}
-}) -- Flawless Victory
+    rewards = {Achievement({id = 5864})}
+}) -- Gang War
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
