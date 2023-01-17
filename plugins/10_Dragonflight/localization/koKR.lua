@@ -205,6 +205,12 @@ L['windscale_the_stormborn_note'] = nil
 L['windseeker_avash_note'] = '주변의 {npc:195742} 또는 {npc:187916}를 잡다보면 소환됩니다.'
 L['zarizz_note'] = '{npc:193169} 네마리가 있는 상태에서 {emote:/야유} 하면 소환됩니다.'
 
+L['aylaag_outpost_note'] = nil
+L['eaglewatch_outpost_note'] = nil
+L['river_camp_note'] = nil
+
+L['defend_clan_aylaag_note'] = nil
+
 L['gold_swong_coin_note'] = '동굴 안 {npc:191608} 오른편에 있음'
 
 L['nokhud_warspear_note'] = '{item:194540}은 {object:원정대 정찰병의 짐} 또는 {object:흐트러진 흙}에서 얻을 수 있습니다.'
@@ -278,9 +284,6 @@ L['options_icons_nokhud_do_it_desc'] = nil
 L['chest_of_the_flood'] = nil
 
 L['aylaag_camp_note'] = nil
-L['aylaag_outpost_note'] = nil
-L['eaglewatch_outpost_note'] = nil
-L['river_camp_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

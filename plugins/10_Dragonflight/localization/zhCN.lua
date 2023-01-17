@@ -211,6 +211,12 @@ L['windscale_the_stormborn_note'] = '击杀引导 {npc:192357} 的 {npc:192367}�
 L['windseeker_avash_note'] = '击杀附近的 {npc:195742} 和 {npc:187916} 直到稀有出现。'
 L['zarizz_note'] = '点击并 {emote:/鄙视}，{emote:/hiss} 在四个 {npc:193169} 处召唤稀有。'
 
+L['aylaag_outpost_note'] = '{note:只有 {faction:艾拉格氏族} 营地在 {location:艾拉格岗哨} 时此稀有会出现。}'
+L['eaglewatch_outpost_note'] = '{note:只有 {faction:艾拉格氏族} 营地在 {location:雄鹰之眼哨站} 时此稀有会出现。}'
+L['river_camp_note'] = '{note:只有 {faction:艾拉格氏族} 营地在 {location:河畔营地} 时此稀有会出现。}'
+
+L['defend_clan_aylaag_note'] = '{note:只在保护 {faction:艾拉格氏族} 营地移动事件时出现，没有拾取。}'
+
 L['gold_swong_coin_note'] = '在洞穴内，{npc:191608} 在他的右侧。'
 L['nokhud_warspear_note'] = '{item:194540} 可以从 {object:探险队斥候的背包} 和 {object:翻动过的泥土} 中找到。'
 L['slightly_chewed_duck_egg_note'] = '找到并拍打 {npc:192997} 获得 {item:195453} 并使用它。{item:199171} 3天后孵化为 {item:199172}。'
@@ -283,9 +289,6 @@ L['options_icons_nokhud_do_it_desc'] = '显示 {achievement:16583} 成就中有�
 L['chest_of_the_flood'] = '洪水宝箱'
 
 L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天3小时（75）移动到另一个营地，跟随并在途中保护他们。'
-L['aylaag_outpost_note'] = '{note:只有 {faction:艾拉格氏族} 营地在 {location:艾拉格岗哨} 时此稀有会出现。}'
-L['eaglewatch_outpost_note'] = '{note:只有 {faction:艾拉格氏族} 营地在 {location:雄鹰之眼哨站} 时此稀有会出现。}'
-L['river_camp_note'] = '{note:只有 {faction:艾拉格氏族} 营地在 {location:河畔营地} 时此稀有会出现。}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

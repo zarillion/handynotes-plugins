@@ -212,6 +212,12 @@ L['windscale_the_stormborn_note'] = 'Tuez les {npc:192367s} canalisant dans l\'{
 L['windseeker_avash_note'] = 'Tuez les {npc:195742s} et {npc:187916s} proches pour faire apparaître le rare.'
 L['zarizz_note'] = 'Cliquez et {emote:/siffler} les quatre {npc:193169s} pour invoquer le rare.'
 
+L['aylaag_outpost_note'] = '{note:Ce rare apparaît uniquement si le {faction:Clan des Aylaags} se trouve à l\'{location:Avant-poste Aylaag}.}'
+L['eaglewatch_outpost_note'] = '{note:Ce rare apparaît uniquement si le {faction:Clan des Aylaags} se trouve à l\'{location:Avant-poste de l’Œil de l’aigle}.}'
+L['river_camp_note'] = '{note:Ce rare apparaît uniquement si le {faction:Clan des Aylaags} se trouve au {location:Campement de la rivière}.}'
+
+L['defend_clan_aylaag_note'] = nil
+
 L['gold_swong_coin_note'] = 'Dans la grotte avec {npc:191608} à sa droite.'
 L['nokhud_warspear_note'] = '{item:194540} peut être trouvé dans les {object:Paquetages d\'éclaireurs de l\'expédition} et les {object:Terres retournées}.'
 L['slightly_chewed_duck_egg_note'] = 'Trouvez et caressez {npc:192997} pour obtenir une {item:195453}, puis utilisez-la. l\'{item:199171} incube pendant 3 jours pour devenir {item:199172}.'
@@ -284,9 +290,6 @@ L['options_icons_nokhud_do_it_desc'] = 'Afficher des informations utiles pour ob
 L['chest_of_the_flood'] = 'Coffre du déluge'
 
 L['aylaag_camp_note'] = 'Le {faction:Clan des Aylaags} se déplace vers un autre campement tous les 3 jours et 3 heures (75), suivez-les et défendez-les sur leur chemin.'
-L['aylaag_outpost_note'] = '{note:Ce rare apparaît uniquement si le {faction:Clan des Aylaags} se trouve à l\'{location:Avant-poste Aylaag}.}'
-L['eaglewatch_outpost_note'] = '{note:Ce rare apparaît uniquement si le {faction:Clan des Aylaags} se trouve à l\'{location:Avant-poste de l’Œil de l’aigle}.}'
-L['river_camp_note'] = '{note:Ce rare apparaît uniquement si le {faction:Clan des Aylaags} se trouve au {location:Campement de la rivière}.}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

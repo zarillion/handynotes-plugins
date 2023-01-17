@@ -172,17 +172,16 @@ map.nodes[63017996] = Rare({ -- reqiured 67030
 map.nodes[58604940] = Rare({
     id = 187219,
     quest = nil,
+    note = L['defend_clan_aylaag_note'],
     rewards = {Achievement({id = 16677, criteria = 56081})}
 }) -- Nokhud Warmaster
 
--- map.nodes[] = Rare({
---     id = 196350,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56096}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- Old Stormhide
+map.nodes[60604940] = Rare({
+    id = 196350,
+    quest = nil,
+    note = L['defend_clan_aylaag_note'],
+    rewards = {Achievement({id = 16677, criteria = 56096})}
+}) -- Old Stormhide
 
 map.nodes[61212950] = Rare({ -- reqiured 67030
     id = 193235,
@@ -194,7 +193,8 @@ map.nodes[61212950] = Rare({ -- reqiured 67030
 map.nodes[59686802] = Rare({
     id = 191950,
     quest = 73971,
-    note = L['in_small_cave'] .. ' ' .. L['porta_the_overgrown_note'],
+    note = L['river_camp_note'] .. '\n\n' .. L['in_small_cave'] .. '\n\n' ..
+        L['porta_the_overgrown_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56087})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -202,7 +202,8 @@ map.nodes[59686802] = Rare({
     pois = {
         POI({
             59696879, -- Entrance
-            50507017, 52137051, 54177150, 52746993 -- Enriched Soil Pile
+            50507017, 52706580, 54606940, 52137051, 53107200, 49706870,
+            54177150, 52746993 -- Enriched Soil Pile
         })
     }
 }) -- Porta the Overgrown
@@ -318,14 +319,12 @@ map.nodes[78298276] = Rare({
     rewards = {Achievement({id = 16677, criteria = 56086})}
 }) -- Sulfurion
 
--- map.nodes[] = Rare({
---     id = 196334,
---     quest = nil,
---     rewards = {
---         Achievement({id = 16677, criteria = 56095}),
---         Transmog({item = , slot = L['']}) -- Name
---     }
--- }) -- The Great Enla
+map.nodes[62604940] = Rare({
+    id = 196334,
+    quest = nil,
+    note = L['defend_clan_aylaag_note'],
+    rewards = {Achievement({id = 16677, criteria = 56095})}
+}) -- The Great Enla
 
 map.nodes[27605560] = Rare({
     id = 195204,
@@ -387,6 +386,7 @@ map.nodes[31456387] = Rare({
 map.nodes[72232306] = Rare({
     id = 188451,
     quest = 73980,
+    note = L['aylaag_outpost_note'],
     rewards = {Achievement({id = 16677, criteria = 56085})}
 }) -- Zerimek
 

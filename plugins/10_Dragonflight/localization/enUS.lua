@@ -211,6 +211,12 @@ L['windscale_the_stormborn_note'] = 'Kill the {npc:192367s} channeling into the 
 L['windseeker_avash_note'] = 'Kill nearby {npc:195742s} and {npc:187916s} to spawn the rare.'
 L['zarizz_note'] = 'Click and {emote:/hiss} at the four {npc:193169s} to summon the rare.'
 
+L['aylaag_outpost_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:Aylaag Outpost}.}'
+L['eaglewatch_outpost_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:Eaglewatch Outpost}.}'
+L['river_camp_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:River Camp}.}'
+
+L['defend_clan_aylaag_note'] = '{note:Only spawns when defending the {faction:Clan Aylaag} Camp moving events, not loot.}'
+
 L['gold_swong_coin_note'] = 'Inside the cave with {npc:191608} to his right side.'
 L['nokhud_warspear_note'] = '{item:194540} can be found in {object:Expedition Scout\'s Packs} and {object:Disturbed Dirts}.'
 L['slightly_chewed_duck_egg_note'] = 'Find and pet {npc:192997} to get {item:195453}, then use it. {item:199171} incubates in 3 days into {item:199172}.'
@@ -283,9 +289,6 @@ L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completi
 L['chest_of_the_flood'] = 'Chest of the Flood'
 
 L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75), follow them and defend them on their way.'
-L['aylaag_outpost_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:Aylaag Outpost}.}'
-L['eaglewatch_outpost_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:Eaglewatch Outpost}.}'
-L['river_camp_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:River Camp}.}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

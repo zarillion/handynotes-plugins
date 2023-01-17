@@ -211,6 +211,12 @@ L['windscale_the_stormborn_note'] = '殺死對 {npc:192357} 引導法術的 {npc
 L['windseeker_avash_note'] = '殺死附近的 {npc:195742} 和 {npc:187916} 來刷新稀有'
 L['zarizz_note'] = '點選並對著4個 {npc:193169} 使用 {emote:/hiss} 來召喚稀有.'
 
+L['aylaag_outpost_note'] = nil
+L['eaglewatch_outpost_note'] = nil
+L['river_camp_note'] = nil
+
+L['defend_clan_aylaag_note'] = nil
+
 L['gold_swong_coin_note'] = '和 {npc:191608} 一起在山洞內, 且在她的右側.'
 L['nokhud_warspear_note'] = '{item:194540} 可以在遠征隊斥侯包和挖過的土中找到.'
 L['slightly_chewed_duck_egg_note'] = '找到並撫摸 {npc:192997} 來取得 {item:195453} 後再使用它. {item:199171} 將在3天後孵化成 {item:199172}.'
@@ -283,9 +289,6 @@ L['options_icons_nokhud_do_it_desc'] = '顯示成就 {achievement:16583} 有用�
 L['chest_of_the_flood'] = '洪流寶箱'
 
 L['aylaag_camp_note'] = nil
-L['aylaag_outpost_note'] = nil
-L['eaglewatch_outpost_note'] = nil
-L['river_camp_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

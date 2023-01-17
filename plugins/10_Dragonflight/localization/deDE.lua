@@ -205,6 +205,12 @@ L['windscale_the_stormborn_note'] = 'Töte die {npc:192367}, die auf das {npc:19
 L['windseeker_avash_note'] = 'Töte {npc:195742} und {npc:187916} in der Nähe, um den seltenen Gegner erscheinen zu lassen.'
 L['zarizz_note'] = 'Visiere und fauche {emote:(/fauchen)} die vier {npc:193169n} an, um den seltenen Gegner erscheinen zu lassen.'
 
+L['aylaag_outpost_note'] = nil
+L['eaglewatch_outpost_note'] = nil
+L['river_camp_note'] = nil
+
+L['defend_clan_aylaag_note'] = nil
+
 L['gold_swong_coin_note'] = 'In der Höhle mit {npc:191608} zu seiner rechten Seite.'
 L['nokhud_warspear_note'] = '{item:194540} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 L['slightly_chewed_duck_egg_note'] = 'Finde und streichel {npc:192997}, um die {item:195453} zu erhalten, benutze diese anschließend. {item:199171} schlüpft innerhalb von 3 Tagen zu {item:199172}.'
@@ -277,9 +283,6 @@ L['options_icons_nokhud_do_it_desc'] = 'Zeigt die Position für den Erfolg {achi
 L['chest_of_the_flood'] = 'Truhe der Flut'
 
 L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.'
-L['aylaag_outpost_note'] = nil
-L['eaglewatch_outpost_note'] = nil
-L['river_camp_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

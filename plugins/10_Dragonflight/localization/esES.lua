@@ -212,6 +212,12 @@ L['windscale_the_stormborn_note'] = 'Mata a los {npc:192367} que están canaliza
 L['windseeker_avash_note'] = 'Mata a los {npc:195742} cercanos y a los {npc:187916} para hacer aparecer al raro.'
 L['zarizz_note'] = 'Selecciona a las {npc:193169} y teclea {emote:/hiss} en ellas para invocar al raro.'
 
+L['aylaag_outpost_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en la {location:Avanzada Aylaag}.}'
+L['eaglewatch_outpost_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en la {location:Avanzada Vigía del Águila}.}'
+L['river_camp_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en el {location:Campamento del Río}.}'
+
+L['defend_clan_aylaag_note'] = nil
+
 L['gold_swong_coin_note'] = 'Dentro de la cueva con {npc:191608} a su lado derecho.'
 L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
 L['slightly_chewed_duck_egg_note'] = 'Encuentra y acaricia a {npc:192997} para conseguir el {item:195453} y entonces usarlo. Tras incubar el {item:199171} durante 3 días eclosionará en {item:199172}.'
@@ -284,9 +290,6 @@ L['options_icons_nokhud_do_it_desc'] = 'Muestra información de ayuda para compl
 L['chest_of_the_flood'] = 'Cofre de la inundación'
 
 L['aylaag_camp_note'] = 'El {faction:Clan Aylaag} se mueve de un campamento a otro cada 3 días y 3 horas (75 horas). Síguelos y defiéndelos durante su marcha.'
-L['aylaag_outpost_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en la {location:Avanzada Aylaag}.}'
-L['eaglewatch_outpost_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en la {location:Avanzada Vigía del Águila}.}'
-L['river_camp_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en el {location:Campamento del Río}.}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
