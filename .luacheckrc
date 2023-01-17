@@ -51,6 +51,7 @@ read_globals = {
     'CombatLogGetCurrentEventInfo',
     'EJ_GetTierInfo',
     'Enum',
+    'FlightMapFrame',
     'GetAchievementCriteriaInfo',
     'GetAchievementCriteriaInfoByID',
     'GetAchievementInfo',

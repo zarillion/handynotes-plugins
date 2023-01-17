@@ -976,8 +976,6 @@ local ELEMENTAL_STORM_PET_REWARDS = {
     }) -- Echo of the Depths
 }
 
--- vv ------------------------------------------------------------------------- TO-DO: UPDATE ITEMS TO NEW RECIPE REWARDS VIA IONEY
-
 local ELEMENTAL_STORM_FORMULA_REWARDS = {
     ['all'] = Item({item = 194641}), -- Design: Elemental Lariat
     ['thunderstorm'] = Item({
@@ -988,17 +986,6 @@ local ELEMENTAL_STORM_FORMULA_REWARDS = {
     ['firestorm'] = Item({item = 200913, note = L['elemental_storm_firestorm']}), -- Formula: Illusion: Primal Fire
     ['snowstorm'] = Item({item = 200914, note = L['elemental_storm_snowstorm']}) -- Formula: Illusion: Primal Frost
 }
-
--- GENERIC ELEMENTAL STORM NODE -----------------------------------------------
---
--- This node will be added at all Element Storm coordinates where there
--- currently is NOT an Elemental Storm happening.
---
--- It will show zone-specific achievements and rewards shared between all four
--- storm types (pets and recipes) because any storm could spawn there.
---
--- General elemental storm nodes will never display at the same location of a
--- storm that is currently happening (see below).
 
 local ElementalStorm = Class('ElementalStorm', Collectible, {
     icon = 538566,
@@ -1030,41 +1017,25 @@ function ElementalStorm.getters:rewards()
     end
 
     return {
-        ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], -- Elemental Overload
-        Spacer(), getStormAchievement(self.mapID, 'thunderstorm'), -- Thunderstorms in...
-        getStormAchievement(self.mapID, 'sandstorm'), -- Sandstorms in...
-        getStormAchievement(self.mapID, 'firestorm'), -- Firestorms in...
-        getStormAchievement(self.mapID, 'snowstorm'), -- Snowstorms in...
-        Spacer(), ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['all'], -- Stormed Off
-        ELEMENTAL_STORM_PET_REWARDS['thunderstorm'], -- Echo of the Heights
-        ELEMENTAL_STORM_PET_REWARDS['sandstorm'], -- Echo of the Cave
-        ELEMENTAL_STORM_PET_REWARDS['firestorm'], -- Echo of the Inferno
-        ELEMENTAL_STORM_PET_REWARDS['snowstorm'], -- Echo of the Depths
-        Spacer(), ELEMENTAL_STORM_FORMULA_REWARDS['all'], -- Design: Elemental Lariat
-        ELEMENTAL_STORM_FORMULA_REWARDS['thunderstorm'], -- Formula: Illusion: Primal Air
-        ELEMENTAL_STORM_FORMULA_REWARDS['sandstorm'], -- Formula: Illusion: Primal Earth
-        ELEMENTAL_STORM_FORMULA_REWARDS['firestorm'], -- Formula: Illusion: Primal Fire
-        ELEMENTAL_STORM_FORMULA_REWARDS['snowstorm'] -- Formula: Illusion: Primal Frost
+        ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], Spacer(),
+        getStormAchievement(self.mapID, 'thunderstorm'),
+        getStormAchievement(self.mapID, 'sandstorm'),
+        getStormAchievement(self.mapID, 'firestorm'),
+        getStormAchievement(self.mapID, 'snowstorm'), Spacer(),
+        ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['all'],
+        ELEMENTAL_STORM_PET_REWARDS['thunderstorm'],
+        ELEMENTAL_STORM_PET_REWARDS['sandstorm'],
+        ELEMENTAL_STORM_PET_REWARDS['firestorm'],
+        ELEMENTAL_STORM_PET_REWARDS['snowstorm'], Spacer(),
+        ELEMENTAL_STORM_FORMULA_REWARDS['all'],
+        ELEMENTAL_STORM_FORMULA_REWARDS['thunderstorm'],
+        ELEMENTAL_STORM_FORMULA_REWARDS['sandstorm'],
+        ELEMENTAL_STORM_FORMULA_REWARDS['firestorm'],
+        ELEMENTAL_STORM_FORMULA_REWARDS['snowstorm']
     }
 end
 
 ns.node.ElementalStorm = ElementalStorm
-
--- SPECIFIC ELEMENTAL STORM TOOLTIP EDITOR ------------------------------------
---
--- This code will add specific rewards to the tooltip of an Elemental Storm
--- that is currently happening.
---
--- It will show zone-specific AND storm-specific achievements, pets, and recipe
--- rewards.
---
--- General elemental storm nodes will never display at the same location of a
--- storm that is currently happening (see above).
---
--- Additionally, if the Elemental Storms group checkbox is unchecked in the
--- World Map button then the tooltip will not be affected. This is an
--- improvement from my Shadowlands integration and should be used for Sentinax
--- locations in Legion.
 
 hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
     if self and self.areaPoiID then
@@ -1072,29 +1043,29 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         local group = ns.groups.ELEMENTAL_STORM
         local stormType = ELEMENTAL_STORM_AREA_POIS[self.areaPoiID]
 
-        if stormType and group:GetDisplay(mapID) then
-            local rewards = {
-                ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], -- Elemental Overload
-                Achievement({
-                    id = ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID][stormType],
-                    criteria = {
-                        id = 1,
-                        qty = true,
-                        suffix = L['empowered_mobs_killed_suffix']
-                    }
-                }), -- (Example: Thunderstorms in Thaldraszus)
-                ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType], -- Stormed Off (Storm type only)
-                Spacer(), ELEMENTAL_STORM_PET_REWARDS[stormType], -- Echo of the...
-                ELEMENTAL_STORM_FORMULA_REWARDS['all'], -- Design: Elemental Lariat
-                ELEMENTAL_STORM_FORMULA_REWARDS[stormType] -- Formula: Illusion Primal...
-            }
-            GameTooltip:AddLine(' ') -- add blank line before rewards
-            for i, reward in ipairs(rewards) do
-                if reward:IsEnabled() then
-                    reward:Render(GameTooltip)
+        if not FlightMapFrame:IsShown() then
+            if stormType and group:GetDisplay(mapID) then
+                local rewards = {
+                    ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], Achievement({
+                        id = ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID][stormType],
+                        criteria = {
+                            id = 1,
+                            qty = true,
+                            suffix = L['empowered_mobs_killed_suffix']
+                        }
+                    }), ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType], Spacer(),
+                    ELEMENTAL_STORM_PET_REWARDS[stormType],
+                    ELEMENTAL_STORM_FORMULA_REWARDS['all'],
+                    ELEMENTAL_STORM_FORMULA_REWARDS[stormType]
+                }
+                GameTooltip:AddLine(' ')
+                for i, reward in ipairs(rewards) do
+                    if reward:IsEnabled() then
+                        reward:Render(GameTooltip)
+                    end
                 end
+                GameTooltip:Show()
             end
-            GameTooltip:Show()
         end
     end
 end)
