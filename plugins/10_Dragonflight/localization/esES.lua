@@ -216,7 +216,7 @@ L['aylaag_outpost_note'] = '{note:Este raro sólo aparece en el Campamento del {
 L['eaglewatch_outpost_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en la {location:Avanzada Vigía del Águila}.}'
 L['river_camp_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en el {location:Campamento del Río}.}'
 
-L['defend_clan_aylaag_note'] = nil
+L['defend_clan_aylaag_note'] = '{note:Sólo aparece cuando se defienden los eventos de movimiento de campamentos del {faction:Clan Aylaag}. No hay botín.}'
 
 L['gold_swong_coin_note'] = 'Dentro de la cueva con {npc:191608} a su lado derecho.'
 L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
@@ -367,10 +367,10 @@ L['bubble_drifter_note'] = 'La {item:199061} se puede encontrar en las {object:M
 L['dead_mans_chestplate_note'] = 'Dentro de la torre. En el piso central.'
 L['fullsails_supply_chest_note'] = 'La llave la sueltan los {npc:187971} y los {npc:187320} al sur de la {location:Embajada Reposo Alado}.'
 L['golden_dragon_goblet_note'] = 'Despoja la {item:202081} del {npc:190056} en la {location:Costa Indómita} y completa la pequeña cadena de misiones.'
-L['lost_obsidian_cache'] = nil
-L['lost_obsidian_cache_step1'] = nil
-L['lost_obsidian_cache_step2'] = nil
-L['lost_obsidian_cache_step3'] = nil
+L['lost_obsidian_cache'] = 'Alijo de Obsidiana Perdido'
+L['lost_obsidian_cache_step1'] = '1. Recoge una {item:194122} a los pies de una {npc:186763}.'
+L['lost_obsidian_cache_step2'] = '2. Usa la {item:194122} en un {npc:191851} para que te lleve volando hacia la entrada de la cueva.'
+L['lost_obsidian_cache_step3'] = '3. En la cueva, recoge la {item:198085} de la {object:Llave de Alijo Perdido} junto al cuerpo. Abre el {object:Alijo de Obsidiana Perdido} para conseguir el juguete.'
 L['misty_treasure_chest_note'] = 'Ponte en el {npc:185485} que sobresale de la cascada para entrar en la cueva.'
 L['onyx_gem_cluster_note'] = 'A Renombre 21 con {faction:2507} se puede completar la misión {quest:70833} para conseguir el {item:200738} como recompensa (una vez por cuenta). De lo contrario, puedes comprar el mapa a {npc:189065} por 3 {item:192863} y 500 {currency:2003}.'
 L['torn_riding_pack_note'] = 'Está encima de la cascada.'
