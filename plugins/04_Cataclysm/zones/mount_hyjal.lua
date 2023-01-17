@@ -7,12 +7,12 @@ local Class = ns.Class
 local L = ns.locale
 
 local Collectible = ns.node.Collectible
-local Safari = ns.node.Safari
 local NPC = ns.node.NPC
-
-local HyjalPhase = ns.requirement.HyjalPhase
+local Rare = ns.node.Rare
+local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
@@ -27,6 +27,35 @@ local mf = Map({id = 338, settings = true}) -- Molten Front
 -------------------------------------------------------------------------------
 --------------------------------- PHASE NODES ---------------------------------
 -------------------------------------------------------------------------------
+
+local HyjalPhase = Class('HyjalPhase', ns.requirement.Requirement)
+
+function HyjalPhase:Initialize(phase) self.phase = phase end
+
+function HyjalPhase:GetText()
+    local phase = {
+        [0] = L['hyjal_phase0'],
+        [1] = L['hyjal_phase1'],
+        [2] = L['hyjal_phase2'],
+        [3] = L['hyjal_phase3'],
+        [41] = L['hyjal_phase4a'],
+        [42] = L['hyjal_phase4b'],
+        [5] = L['hyjal_phase5']
+    }
+    return phase[self.phase] or UNKNOWN
+end
+
+function HyjalPhase:IsMet()
+    local qc = C_QuestLog.IsQuestFlaggedCompleted
+    if self.phase == 0 and qc(25372) then return true end -- Phase 0 - Pre Invasion
+    if self.phase == 1 and qc(29389) then return true end -- Phase 1 - Invasion
+    if self.phase == 2 and qc(29198) then return true end -- Phase 2 - The Sanctuary of Malorne
+    if self.phase == 3 and qc(29201) then return true end -- Phase 3 - The Molten Front
+    if self.phase == 41 and qc(29182) then return true end -- Phase 4a - The Druids of the Talon Area
+    if self.phase == 42 and qc(29215) then return true end -- Phase 4b - The Shadow Wardens Area
+    if self.phase == 5 and qc(29182) and qc(29215) then return true end -- Phase 5 - The Regrowth
+    return false
+end
 
 map.nodes[19563787] = ns.node.Intro({
     note = L['hyjal_phase1_note'],
@@ -66,6 +95,52 @@ mf.nodes[10001400] = ns.node.Node({
     quest = {29182, 29215},
     requires = {HyjalPhase(41), HyjalPhase(42)}
 }) -- changes Molten Front to Phase 5 - The Regrowth
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[50453327] = Rare({
+    id = 50053,
+    rewards = {Transmog({item = 67234, slot = L['leather']})},
+    pois = {
+        Path({
+            59033759, 58053582, 56883404, 56993140, 57572894, 56342791,
+            55072888, 52243056, 50453327, 48363441, 46373314, 44773216,
+            42583190, 41222983, 39912578, 38982323, 36162274, 34102488
+        })
+    }
+}) -- Thartuk the Exile
+
+map.nodes[37107233] = Rare({
+    id = 50056,
+    rewards = {
+        Transmog({item = 69842, slot = L['plate']}),
+        Transmog({item = 67148, slot = L['mail']}),
+        Transmog({item = 67131, slot = L['cloak']}),
+        Transmog({item = 67143, slot = L['plate']}),
+        Transmog({item = 67135, slot = L['leather']}),
+        Transmog({item = 67133, slot = L['cloth']}),
+        Transmog({item = 67140, slot = L['cloak']})
+    },
+    pois = {
+        Path({
+            37107233, 37287552, 38077817, 38308154, 38938338, 40478252,
+            40278044, 38927892, 38077817
+        })
+    }
+}) -- Garr
+
+map.nodes[47795645] = Rare({
+    id = 50057,
+    rewards = {Transmog({item = 67236, slot = L['leather']})},
+    pois = {
+        Path({
+            69415618, 66105467, 63505657, 60415847, 58105628, 54815508,
+            50675482, 48075604, 47795645, 45805957, 43296079
+        })
+    }
+}) -- Blazewing
 
 -------------------------------------------------------------------------------
 -------------------------------- FIRESIDE CHAT --------------------------------
@@ -409,6 +484,7 @@ map.nodes[31007700] = Collectible({
     label = '{achievement:5864}',
     icon = 135415,
     note = L['gang_war_note'],
+    group = ns.groups.GANG_WAR,
     requires = {HyjalPhase(3)},
     rewards = {Achievement({id = 5864})}
 }) -- Gang War
