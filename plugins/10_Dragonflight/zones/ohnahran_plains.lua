@@ -1312,12 +1312,12 @@ map.nodes[58672073] = PrettyNeat({
     rewards = {Achievement({id = 16446, criteria = 55385})}
 }) -- Palla of the Wing
 
-map.nodes[31456387 + 1] = PrettyNeat({ -- node coords must be off by 00000001 from Rare
+map.nodes[31456387 + 1] = PrettyNeat({
     id = 193209,
     isRare = true,
     mapID = map.id,
     rewards = {Achievement({id = 16446, criteria = 55395})}
-}) -- Zenet Avis
+}) -- Zenet Avis (node coords must be off by 00000001 from Rare)
 
 -------------------------------------------------------------------------------
 ------------------------------ A LEGENDARY ALBUM ------------------------------

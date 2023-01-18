@@ -1498,7 +1498,7 @@ nel.nodes[52408260] = PrettyNeat({
     rewards = {Achievement({id = 16446, criteria = 55392})}
 }) -- Apex Blazewing
 
-map.nodes[60204535 + 1] = PrettyNeat({ -- node coords must be off by 00000001 from Rare
+map.nodes[60204535 + 1] = PrettyNeat({
     id = 193217,
     isRare = true,
     mapID = map.id,
@@ -1517,15 +1517,15 @@ map.nodes[60204535 + 1] = PrettyNeat({ -- node coords must be off by 00000001 fr
             70444873, 69284969, 68655076, 68265244
         })
     }
-}) -- Drakewing
+}) -- Drakewing (node coords must be off by 00000001 from Rare)
 
-map.nodes[33127632 + 1] = PrettyNeat({ -- node coords must be off by 00000001 from Rare
+map.nodes[33127632 + 1] = PrettyNeat({
     id = 193154,
     isRare = true,
     mapID = map.id,
     note = L['spawns_at_night'],
     rewards = {Achievement({id = 16446, criteria = 55394})}
-}) -- Forgotten Gryphon
+}) -- Forgotten Gryphon (node coords must be off by 00000001 from Rare)
 
 -------------------------------------------------------------------------------
 -------------------------- ONE OF EVERYTHING, PLEASE --------------------------

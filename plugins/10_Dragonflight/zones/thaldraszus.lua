@@ -956,20 +956,20 @@ map.nodes[54285271] = PrettyNeat({
     rewards = {Achievement({id = 16446, criteria = 55389})}
 }) -- Iridescent Peafowl
 
-map.nodes[47675115 + 1] = PrettyNeat({ -- node coords must be off by 00000001 from Rare
+map.nodes[47675115 + 1] = PrettyNeat({
     id = 193234,
     note = L['spawns_hourly'],
     isRare = true,
     mapID = map.id,
     rewards = {Achievement({id = 16446, criteria = 55398})}
-}) -- Eldoren the Reborn
+}) -- Eldoren the Reborn (node coords must be off by 00000001 from Rare)
 
-map.nodes[36757287 + 1] = PrettyNeat({ -- node coords must be off by 00000001 from Rare
+map.nodes[36757287 + 1] = PrettyNeat({
     id = 193273,
     isRare = true,
     mapID = map.id,
     rewards = {Achievement({id = 16446, criteria = 55399})}
-}) -- Liskron the Dazzling
+}) -- Liskron the Dazzling (node coords must be off by 00000001 from Rare)
 
 -------------------------------------------------------------------------------
 ------------------------------ A LEGENDARY ALBUM ------------------------------
