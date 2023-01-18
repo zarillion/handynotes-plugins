@@ -775,11 +775,11 @@ local PrettyNeat = Class('PrettyNeat', Collectible, {
     sublabel = L['pretty_neat_note'],
     group = ns.groups.PRETTY_NEAT,
     IsEnabled = function(self)
-        if self.isRare then
-            return not ns.groups.RARE:GetDisplay(self.mapID)
+        if self.isRare and ns.groups.RARE:GetDisplay(self.mapID) then
+            return false
         end
-        if not ns:GetOpt('show_completed_nodes') then
-            if self:IsCompleted() then return false end
+        if not ns:GetOpt('show_completed_nodes') and self:IsCompleted() then
+            return false
         end
         return true
     end
