@@ -12,15 +12,265 @@ ns.expansion = 7
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.LEGION_WAR_SUPPLIES = Group('legion_war_supplies', 'chest_bk',
-    {defaults = ns.GROUP_HIDDEN75})
-ns.groups.EREDAR_WAR_SUPPLIES = Group('eredar_war_supplies', 'chest_bk',
-    {defaults = ns.GROUP_HIDDEN75})
 ns.groups.ANCIENT_EREDAR_CACHE = Group('ancient_eredar_cache', 'chest_bk',
-    {defaults = ns.GROUP_HIDDEN75})
-ns.groups.VOID_SEEPED_CACHE = Group('void_seeped_cache', 'chest_bk',
     {defaults = ns.GROUP_HIDDEN75})
 ns.groups.BRINGING_HOME_THE_BEACON = Group('bringing_home_the_beacon', 133267,
     {defaults = ns.GROUP_HIDDEN})
+ns.groups.EREDAR_WAR_SUPPLIES = Group('eredar_war_supplies', 'chest_bk',
+    {defaults = ns.GROUP_HIDDEN75})
 ns.groups.HIGHER_DIMENSIONAL_LEARNING = Group('higher_dimensional_learning',
     134915, {defaults = ns.GROUP_HIDDEN})
+ns.groups.LEGION_WAR_SUPPLIES = Group('legion_war_supplies', 'chest_bk',
+    {defaults = ns.GROUP_HIDDEN75})
+-- ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
+ns.groups.VOID_SEEPED_CACHE = Group('void_seeped_cache', 'chest_bk',
+    {defaults = ns.GROUP_HIDDEN75})
+
+-------------------------------------------------------------------------------
+------------------------------------ SAFARI -----------------------------------
+-------------------------------------------------------------------------------
+
+-- local Safari = Class('Safari', Collectible,
+--     {icon = 'paw_g', group = ns.groups.SAFARI})
+
+-- ns.node.Safari = {
+--     AlbatrossChickFledglingOliveback = Class('AlbatrossChickFledglingOliveback',
+--         Safari, {
+--             id = nil,
+--             rewards = {
+--                 Achievement({id = 11233, criteria = nil, oneline = false}),
+--                 Pet({id = nil})
+--             }
+--         }),
+--     AuburnRingtail = Class('AuburnRingtail', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     BlackFootedFoxKit = Class('BlackFootedFoxKit', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     BlindRat = Class('BlindRat', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     BurrowSpiderling = Class('BurrowSpiderling', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     CoastalSandpiper = Class('CoastalSandpiper', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     CoralbackFiddler = Class('CoralbackFiddler', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     CrystallineBroodling = Class('CrystallineBroodling', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     DustBunny = Class('DustBunny', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     EchoBatling = Class('EchoBatling', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     EldritchManafiend = Class('EldritchManafiend', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     EruditeManafiend = Class('EruditeManafiend', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     Felspider = Class('Felspider', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     FledglingKingfeather = Class('FledglingKingfeather', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     GleamhoofFawn = Class('GleamhoofFawn', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     GoldenEaglet = Class('GoldenEaglet', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     HogNosedBat = Class('HogNosedBat', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     JuvenileScuttleback = Class('JuvenileScuttleback', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     LongEaredOwl = Class('LongEaredOwl', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     MistFoxKit = Class('MistFoxKit', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     MudshellConch = Class('MudshellConch', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     NorthernHawkOwl = Class('NorthernHawkOwl', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     OlivetailHare = Class('OlivetailHare', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     RoseTaipan = Class('RoseTaipan', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     ShimmeringAquafly = Class('ShimmeringAquafly', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     SlitheringBrownscale = Class('SlitheringBrownscale', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     SpiketailBeaver = Class('SpiketailBeaver', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     SpringStrider = Class('SpringStrider', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     StormstruckBeaver = Class('StormstruckBeaver', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     TerrorLarva = Class('TerrorLarva', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     ThornclawBroodling = Class('ThornclawBroodling', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     TinyApparition = Class('TinyApparition', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     ValeFlitter = Class('ValeFlitter', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     }),
+--     ViciousBroodling = Class('ViciousBroodling', Safari, {
+--         id = nil,
+--         rewards = {
+--             Achievement({id = 11233, criteria = nil, oneline = false}),
+--             Pet({id = nil})
+--         }
+--     })
+-- }
