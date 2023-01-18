@@ -1032,6 +1032,13 @@ map.nodes[38193815] = PrettyNeat({
     rewards = {Achievement({id = 16446, criteria = 55390})}
 }) -- Pine Flicker
 
+map.nodes[16622798 + 1] = PrettyNeat({ -- node coords must be off by 00000001 from Rare
+    id = 193259,
+    isRare = true,
+    mapID = map.id,
+    rewards = {Achievement({id = 16446, criteria = 55397})}
+}) -- Blue Terror
+
 -------------------------------------------------------------------------------
 ------------------------------ A LEGENDARY ALBUM ------------------------------
 -------------------------------------------------------------------------------

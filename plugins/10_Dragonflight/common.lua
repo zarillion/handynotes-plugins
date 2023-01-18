@@ -773,7 +773,16 @@ ns.node.Squirrel = Squirrel
 local PrettyNeat = Class('PrettyNeat', Collectible, {
     icon = 133707,
     sublabel = L['pretty_neat_note'],
-    group = ns.groups.PRETTY_NEAT
+    group = ns.groups.PRETTY_NEAT,
+    IsEnabled = function(self)
+        if self.isRare then
+            return not ns.groups.RARE:GetDisplay(self.mapID)
+        end
+        if not ns:GetOpt('show_completed_nodes') then
+            if self:IsCompleted() then return false end
+        end
+        return true
+    end
 }) -- That's Pretty Neat!
 
 ns.node.PrettyNeat = PrettyNeat
