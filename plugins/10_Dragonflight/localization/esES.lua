@@ -280,7 +280,7 @@ L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputaci
 L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y teclea {emote:/hambre} para conseguir la receta de cocina.'
 L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir el juguete.'
 
-L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en el campamento cercano del {location:Clan Aylaag}.{dot:Blue}\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
+L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en el campamento cercano del {location:Clan Aylaag}. {dot:Blue}\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
 L['quackers_spawn'] = 'Ahora necesitas pillar un pato cerca del nido con la {item:194712}. Después usa el {item:194739} en el {npc:192581} para invocar a {npc:192557}.'
 
 L['knew_you_nokhud_do_it_note'] = '{note:Los 3 objetos son únicos y dejan de existir tras 30 minutos.}\n\nConsigue {item:200184}, {item:200194}, y {item:200196} de varios {npc:185357}, {npc:185353}, o {npc:185168} alrededor de {location:Bastión Nokhudon}.\n\nCombínalos para crear el {item:200201} y úsalo para hablar con {npc:197884} para comenzar el circuito de entrenamiento.\n\nUsa tu |cFFFFFD00Botón de Acción Extra|r para completarlo y conseguir el logro.\n\n{note:Completar el logro mientras estás en banda durante una Tormenta Elemental hace más fácil conseguir los objetos.}'
