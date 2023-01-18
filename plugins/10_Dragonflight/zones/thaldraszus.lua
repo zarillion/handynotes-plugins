@@ -958,7 +958,7 @@ map.nodes[54285271] = PrettyNeat({
 
 map.nodes[47675115 + 1] = PrettyNeat({
     id = 193234,
-    note = L['spawns_hourly'],
+    note = L['spawns_two_hourly'],
     isRare = true,
     mapID = map.id,
     rewards = {Achievement({id = 16446, criteria = 55398})}
