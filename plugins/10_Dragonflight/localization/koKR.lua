@@ -209,10 +209,10 @@ L['aylaag_outpost_note'] = nil
 L['eaglewatch_outpost_note'] = nil
 L['river_camp_note'] = nil
 
+L['defend_clan_aylaag'] = nil
 L['defend_clan_aylaag_note'] = nil
 
 L['gold_swong_coin_note'] = '동굴 안 {npc:191608} 오른편에 있음'
-
 L['nokhud_warspear_note'] = '{item:194540}은 {object:원정대 정찰병의 짐} 또는 {object:흐트러진 흙}에서 얻을 수 있습니다.'
 L['slightly_chewed_duck_egg_note'] = '{npc:192997}를 찾아 쓰다듬으면 {item:195453}를 얻게 되는데 이를 사용합니다. {item:199171}은 3일이 지나면 {item:199172}로 부화합니다.'
 L['yennus_boat'] = '투스카르 장난감 배'

@@ -216,6 +216,7 @@ L['aylaag_outpost_note'] = '{note:Ce rare apparaît uniquement si le {faction:Cl
 L['eaglewatch_outpost_note'] = '{note:Ce rare apparaît uniquement si le {faction:Clan des Aylaags} se trouve à l\'{location:Avant-poste de l’Œil de l’aigle}.}'
 L['river_camp_note'] = '{note:Ce rare apparaît uniquement si le {faction:Clan des Aylaags} se trouve au {location:Campement de la rivière}.}'
 
+L['defend_clan_aylaag'] = 'Défendre le Clan des Aylaags'
 L['defend_clan_aylaag_note'] = '{note:Apparaît uniquement en défendant le campement du {faction:Clan des Aylaags} lors des évènements de déplacement, aucun butin à récupérer.}'
 
 L['gold_swong_coin_note'] = 'Dans la grotte avec {npc:191608} à sa droite.'

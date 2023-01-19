@@ -209,6 +209,7 @@ L['aylaag_outpost_note'] = '{note:Erscheint nur, wenn das Lager der Aylaag beim 
 L['eaglewatch_outpost_note'] = '{note:Erscheint nur, wenn das Lager der Aylaag beim {location:Adlerblickaußenposten} ist.}'
 L['river_camp_note'] = '{note:Erscheint nur, wenn das Lager der Aylaag beim {location:River Camp} ist.}' -- review, can't find this location
 
+L['defend_clan_aylaag'] = 'Verteidigt Klan Aylaag'
 L['defend_clan_aylaag_note'] = '{note:Erscheint nur während des Verteidigungsevents, wenn das Lager der Aylaag umzieht. Keine Beute.}'
 
 L['gold_swong_coin_note'] = 'In der Höhle mit {npc:191608} zu seiner rechten Seite.'

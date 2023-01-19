@@ -215,6 +215,7 @@ L['aylaag_outpost_note'] = '{note:只有 {faction:艾拉格氏族} 营地在 {lo
 L['eaglewatch_outpost_note'] = '{note:只有 {faction:艾拉格氏族} 营地在 {location:雄鹰之眼哨站} 时此稀有会出现。}'
 L['river_camp_note'] = '{note:只有 {faction:艾拉格氏族} 营地在 {location:河畔营地} 时此稀有会出现。}'
 
+L['defend_clan_aylaag'] = '保护艾拉格氏族'
 L['defend_clan_aylaag_note'] = '{note:只在保护 {faction:艾拉格氏族} 营地移动事件时出现，没有拾取。}'
 
 L['gold_swong_coin_note'] = '在洞穴内，{npc:191608} 在他的右侧。'

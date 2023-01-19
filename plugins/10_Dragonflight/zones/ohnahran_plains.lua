@@ -171,17 +171,19 @@ map.nodes[63017996] = Rare({ -- reqiured 67030
 
 map.nodes[58604940] = Rare({
     id = 187219,
-    quest = nil,
+    label = L['defend_clan_aylaag'],
     note = L['defend_clan_aylaag_note'],
-    rewards = {Achievement({id = 16677, criteria = 56081})}
-}) -- Nokhud Warmaster
-
-map.nodes[60604940] = Rare({
-    id = 196350,
-    quest = nil,
-    note = L['defend_clan_aylaag_note'],
-    rewards = {Achievement({id = 16677, criteria = 56096})}
-}) -- Old Stormhide
+    rewards = {
+        Achievement({
+            id = 16677,
+            criteria = {
+                {id = 56081}, -- Nokhud Warmaster
+                {id = 56096}, -- Old Stormhide
+                {id = 56095} -- The Great Enla
+            }
+        })
+    }
+}) -- Defend Clan Aylaag
 
 map.nodes[61212950] = Rare({ -- reqiured 67030
     id = 193235,
@@ -318,13 +320,6 @@ map.nodes[78298276] = Rare({
     note = L['river_camp_note'],
     rewards = {Achievement({id = 16677, criteria = 56086})}
 }) -- Sulfurion
-
-map.nodes[62604940] = Rare({
-    id = 196334,
-    quest = nil,
-    note = L['defend_clan_aylaag_note'],
-    rewards = {Achievement({id = 16677, criteria = 56095})}
-}) -- The Great Enla
 
 map.nodes[27605560] = Rare({
     id = 195204,

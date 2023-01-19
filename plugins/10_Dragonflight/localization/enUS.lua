@@ -215,6 +215,7 @@ L['aylaag_outpost_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Cam
 L['eaglewatch_outpost_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:Eaglewatch Outpost}.}'
 L['river_camp_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:River Camp}.}'
 
+L['defend_clan_aylaag'] = 'Defend Clan Aylaag'
 L['defend_clan_aylaag_note'] = '{note:Only spawns when defending the {faction:Clan Aylaag} Camp moving events, not loot.}'
 
 L['gold_swong_coin_note'] = 'Inside the cave with {npc:191608} to his right side.'

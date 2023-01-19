@@ -215,6 +215,7 @@ L['aylaag_outpost_note'] = nil
 L['eaglewatch_outpost_note'] = nil
 L['river_camp_note'] = nil
 
+L['defend_clan_aylaag'] = nil
 L['defend_clan_aylaag_note'] = nil
 
 L['gold_swong_coin_note'] = '和 {npc:191608} 一起在山洞內, 且在她的右側.'
