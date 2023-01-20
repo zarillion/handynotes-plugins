@@ -180,6 +180,8 @@ L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} wird dich bitten, G
 L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} wird dich bitten, Gemälde aus den Dungeons {location:Hallen der Infusion}, {location:Akademie von Algeth\'ar}, {location:Das Azurblaue Gewölbe} und {location:Neltharus} zu holen.'
 L['artists_easel_note_step4'] = 'Bringe die letzten Gemälde zu {npc:194323}, um das Spielzeug zu erhalten.\n\n{note:Gemälde können nicht aus Dungeons der Schwierigkeitsstufe Mythisch oder Mythisch+ geholt werden.}'
 
+L['somewhat_stabilized_arcana_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

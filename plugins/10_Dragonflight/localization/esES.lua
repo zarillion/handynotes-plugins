@@ -187,6 +187,8 @@ L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} te pedirá que cole
 L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} te pedirá que colecciones cuadros en las {location:Salas de Infusión}, en la {location:Academia Algeth\'ar}, en la {location:Cámara Azur} y en {location:Neltharus}.'
 L['artists_easel_note_step4'] = 'Entrega los últimos cuadros a {npc:194323} y recibirás tu juguete.\n\n{note:Los cuadros no caen ni de mazmorras Míticas ni de mazmorras Míticas+.}'
 
+L['somewhat_stabilized_arcana_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

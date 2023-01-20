@@ -186,6 +186,8 @@ L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} will ask you to col
 L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} will ask you to collect paintings from {location:Halls of Infusion}, {location:Algeth\'ar Academy}, {location:The Azure Vault}, and {location:Neltharus}.'
 L['artists_easel_note_step4'] = 'Deliver the final paintings to {npc:194323} and recieve your toy!\n\n{note:Paintings do not drop from Mythic or Mythic+ dungeons.}'
 
+L['somewhat_stabilized_arcana_note'] = 'Located at the top of the tower.\n\nComplete the small questline starting at {npc:197100} to obtain the toy.'
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

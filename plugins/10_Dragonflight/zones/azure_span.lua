@@ -1384,6 +1384,19 @@ end
 
 map.nodes[07855348] = Ranpiata()
 
+----------------------- TOY: SOMEWHAT-STABILIZED ARCANA -----------------------
+
+map.nodes[46202580] = Collectible({
+    label = '{item:200628}',
+    icon = 136116,
+    note = L['somewhat_stabilized_arcana_note'],
+    quest = {71094, 71095, 71096, 71097},
+    questCount = true,
+    rewards = {
+        Toy({item = 200628}) -- Somewhat-Stabilized Arcana
+    }
+})
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[12404920] = NPC({

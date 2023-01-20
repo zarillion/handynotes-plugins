@@ -186,6 +186,8 @@ L['artists_easel_note_step2'] = nil
 L['artists_easel_note_step3'] = nil
 L['artists_easel_note_step4'] = nil
 
+L['somewhat_stabilized_arcana_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
