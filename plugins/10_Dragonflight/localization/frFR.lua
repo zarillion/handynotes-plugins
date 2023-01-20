@@ -187,7 +187,7 @@ L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} vous demandera de c
 L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} vous demandera de collecter des tableaux dans les donjons {location:Salles de l’Imprégnation}, {location:Académie d’Algeth’ar}, {location:Caveau d’Azur}, et {location:Neltharus}.'
 L['artists_easel_note_step4'] = 'Apportez les tableaux finaux à {npc:194323} et vous recevrez votre jouet!\n\n{note:Les tableaux ne sont pas récupérables dans les donjons en difficulté Mythique ou Mythique+.}'
 
-L['somewhat_stabilized_arcana_note'] = nil
+L['somewhat_stabilized_arcana_note'] = 'Situé au sommet de la tour.\n\nComplétez la courte suite de quêtes débutée par {npc:197100} pour obtenir le jouet.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
