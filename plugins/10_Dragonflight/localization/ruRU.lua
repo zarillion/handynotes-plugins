@@ -53,9 +53,9 @@ L['magicbound_chest'] = 'Сундук с магическим замком'
 L['options_icons_magicbound_chest'] = 'Сундук с магическим замком'
 L['options_icons_magicbound_chest_desc'] = 'Отображение местоположения {object:Сундуков с магическим замком}.'
 
-L['tuskarr_tacklebox'] = nil
-L['options_icons_tuskarr_tacklebox'] = nil
-L['options_icons_tuskarr_tacklebox_desc'] = nil
+L['tuskarr_tacklebox'] = 'Клыкаррский сундук'
+L['options_icons_tuskarr_tacklebox'] = 'Клыкаррский сундук'
+L['options_icons_tuskarr_tacklebox_desc'] = 'Показать возможные места {object:Клыкаррских сундуков}.'
 
 L['dr_best'] = 'Ваше лучшее время:\n - Обычный: %.3fс\n - Сложный: %.3fс'
 L['dr_best_dash'] = 'Ваше лучшее время:\n - %.3fс'
