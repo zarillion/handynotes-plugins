@@ -53,9 +53,9 @@ L['magicbound_chest'] = 'Cofre reforzado con magia'
 L['options_icons_magicbound_chest'] = 'Cofre reforzado con magia'
 L['options_icons_magicbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofres reforzados con magia}.'
 
-L['tuskarr_tacklebox'] = 'Caja de Pesca Tuskarr'
-L['options_icons_tuskarr_tacklebox'] = 'Caja de Pesca Tuskarr'
-L['options_icons_tuskarr_tacklebox_desc'] = 'Muestra dónde pueden haber {object:Caja de Pesca Tuskarr}.'
+L['tuskarr_tacklebox'] = 'Caja de Pesca Colmillar'
+L['options_icons_tuskarr_tacklebox'] = 'Caja de Pesca Colmillar'
+L['options_icons_tuskarr_tacklebox_desc'] = 'Muestra dónde pueden haber {object:Caja de Pesca Colmillar}.'
 
 L['dr_best'] = 'Tu mejor tiempo:\n - Normal: %.3fs\n - Avanzado: %.3fs'
 L['dr_best_dash'] = 'Tu mejor tiempo:\n - %.3fs'
