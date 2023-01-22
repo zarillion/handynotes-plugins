@@ -2004,6 +2004,13 @@ map.nodes[23667144] = TameMagmammoth() -- Dragonbane Keep
 map.nodes[66342446] = TameMagmammoth() -- Scalecracker Keep
 map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 
+---------------- ITEM: SCHEMATIC: TINKER: BREATH OF NELTHARION ----------------
+
+nel.nodes[57407880] = PT.Engineering({
+    id = 199229,
+    rewards = {Item({item = 199229})}
+}) -- Schematic: Tinker: Breath of Neltharion
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[47128259] = NPC({

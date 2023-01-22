@@ -52,9 +52,9 @@ L['magicbound_chest'] = '魔缚宝箱'
 L['options_icons_magicbound_chest'] = '魔缚宝箱'
 L['options_icons_magicbound_chest_desc'] = '显示 {object:魔缚宝箱} 可能的位置。'
 
-L['tuskarr_tacklebox'] = nil
-L['options_icons_tuskarr_tacklebox'] = nil
-L['options_icons_tuskarr_tacklebox_desc'] = nil
+L['tuskarr_tacklebox'] = '海象人工具盒'
+L['options_icons_tuskarr_tacklebox'] = '海象人工具盒'
+L['options_icons_tuskarr_tacklebox_desc'] = '显示 {object:海象人工具盒} 可能的位置。'
 
 L['dr_best'] = '最快时间：\n - 普通：%.3f秒\n - 进阶：%.3f秒'
 L['dr_best_dash'] = '最快时间：\n - %.3f秒'
