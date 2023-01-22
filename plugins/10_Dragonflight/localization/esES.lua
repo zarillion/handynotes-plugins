@@ -228,8 +228,8 @@ L['defend_clan_aylaag_note'] = '{note:Sólo aparece cuando se defienden los even
 L['gold_swong_coin_note'] = 'Dentro de la cueva con {npc:191608} a su lado derecho.'
 L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
 L['slightly_chewed_duck_egg_note'] = 'Encuentra y acaricia a {npc:192997} para conseguir el {item:195453} y entonces usarlo. Tras incubar el {item:199171} durante 3 días eclosionará en {item:199172}.'
-L['yennus_boat'] = 'Barco de Juguete Tuskarr'
-L['yennus_boat_note'] = 'Despoja el {object:Barco de Juguete Tuskarr} para conseguir el {item:200876} con el cual comienza la misión {quest:72063} para devolvérselo a {npc:195252}.'
+L['yennus_boat'] = 'Barco de Juguete Colmillarr'
+L['yennus_boat_note'] = 'Despoja el {object:Barco de Juguete Colmillarr} para conseguir el {item:200876} con el cual comienza la misión {quest:72063} para devolvérselo a {npc:195252}.'
 
 L['forgotten_dragon_treasure_label'] = 'Tesoro de Dragón Olvidado'
 L['forgotten_dragon_treasure_step1'] = '1. Recoge 5x {item:195884} de las {object:Flores Cristalinas} ({dot:Green}) al oeste de las {location:Llanuras de Ohn\'ahra}.'
