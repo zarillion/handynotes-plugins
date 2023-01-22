@@ -52,9 +52,9 @@ L['magicbound_chest'] = 'Magiegebundene Truhe'
 L['options_icons_magicbound_chest'] = 'Magiegebundene Truhen'
 L['options_icons_magicbound_chest_desc'] = 'Zeigt die möglichen Positionen der Magiegebundenen Truhen an.'
 
-L['tuskarr_tacklebox'] = nil
-L['options_icons_tuskarr_tacklebox'] = nil
-L['options_icons_tuskarr_tacklebox_desc'] = nil
+L['tuskarr_tacklebox'] = 'Angelzubehör der Tuskarr'
+L['options_icons_tuskarr_tacklebox'] = 'Angelzubehör der Tuskarr'
+L['options_icons_tuskarr_tacklebox_desc'] = 'Zeigt mögliche Positionen des {object:Angelzubehörs der Tuskarr} an.'
 
 L['dr_best'] = 'Deine beste Zeit:\n - Normal: %.3fs\n - Fortgeschritten: %.3fs'
 L['dr_best_dash'] = 'Deine beste Zeit:\n - %.3fs'
@@ -184,7 +184,7 @@ L['artists_easel_note_step2'] = '{quest:70168}\n{npc:194425} wird dich bitten, G
 L['artists_easel_note_step3'] = '{quest:70170}\n{npc:194425} wird dich bitten, Gemälde aus den Dungeons {location:Hallen der Infusion}, {location:Akademie von Algeth\'ar}, {location:Das Azurblaue Gewölbe} und {location:Neltharus} zu holen.'
 L['artists_easel_note_step4'] = 'Bringe die letzten Gemälde zu {npc:194323}, um das Spielzeug zu erhalten.\n\n{note:Gemälde können nicht aus Dungeons der Schwierigkeitsstufe Mythisch oder Mythisch+ geholt werden.}'
 
-L['somewhat_stabilized_arcana_note'] = nil
+L['somewhat_stabilized_arcana_note'] = 'Oben auf dem Turm.\n\nSchließe die kurze Questreihe von {npc:197100} ab, um das Spielzeug zu erhalten.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
