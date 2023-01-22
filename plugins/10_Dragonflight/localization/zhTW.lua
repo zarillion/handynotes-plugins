@@ -52,6 +52,10 @@ L['magicbound_chest'] = '縛法寶箱'
 L['options_icons_magicbound_chest'] = '縛法寶箱'
 L['options_icons_magicbound_chest_desc'] = '顯示縛法寶箱的位置'
 
+L['tuskarr_tacklebox'] = nil
+L['options_icons_tuskarr_tacklebox'] = nil
+L['options_icons_tuskarr_tacklebox_desc'] = nil
+
 L['dr_best'] = '你的最快時間:\n - 普通: %.3fs\n - 進階: %.3fs'
 L['dr_best_dash'] = '你的最佳時間:\n - %.3fs'
 L['dr_note'] = '目標時間:\n - 普通: %ss / %ss\n - 進階: %ss / %ss'

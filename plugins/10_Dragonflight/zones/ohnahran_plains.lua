@@ -26,6 +26,7 @@ local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
+local TuskarrTacklebox = ns.node.TuskarrTacklebox
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -985,6 +986,12 @@ map.nodes[85106640] = MagicBoundChest({
     },
     note = L['in_small_cave']
 })
+
+-------------------------------------------------------------------------------
+------------------------------ TUSKARR TACKLEBOX ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[32102907] = TuskarrTacklebox()
 
 -------------------------------------------------------------------------------
 ----------------------------- HONOR OUR ANCESTORS -----------------------------

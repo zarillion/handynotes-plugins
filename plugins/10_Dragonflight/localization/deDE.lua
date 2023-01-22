@@ -52,6 +52,10 @@ L['magicbound_chest'] = 'Magiegebundene Truhe'
 L['options_icons_magicbound_chest'] = 'Magiegebundene Truhen'
 L['options_icons_magicbound_chest_desc'] = 'Zeigt die möglichen Positionen der Magiegebundenen Truhen an.'
 
+L['tuskarr_tacklebox'] = nil
+L['options_icons_tuskarr_tacklebox'] = nil
+L['options_icons_tuskarr_tacklebox_desc'] = nil
+
 L['dr_best'] = 'Deine beste Zeit:\n - Normal: %.3fs\n - Fortgeschritten: %.3fs'
 L['dr_best_dash'] = 'Deine beste Zeit:\n - %.3fs'
 L['dr_note'] = 'Vorgabezeit:\n - Normal: %ss / %ss\n - Fortgeschritten: %ss / %ss'

@@ -52,6 +52,10 @@ L['magicbound_chest'] = 'Magic-Bound Chest'
 L['options_icons_magicbound_chest'] = 'Magic-Bound Chest'
 L['options_icons_magicbound_chest_desc'] = 'Display possible locations of {object:Magic-Bound Chests}.'
 
+L['tuskarr_tacklebox'] = 'Tuskarr Tacklebox'
+L['options_icons_tuskarr_tacklebox'] = 'Tuskarr Tacklebox'
+L['options_icons_tuskarr_tacklebox_desc'] = 'Display possible locations of {object:Tuskarr Tacklebox}.'
+
 L['dr_best'] = 'Your best time:\n - Normal: %.3fs\n - Advanced: %.3fs'
 L['dr_best_dash'] = 'Your best time:\n - %.3fs'
 L['dr_note'] = 'Target time:\n - Normal: %ss / %ss\n - Advanced: %ss / %ss'

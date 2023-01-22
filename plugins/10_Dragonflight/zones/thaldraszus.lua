@@ -28,6 +28,7 @@ local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
+local TuskarrTacklebox = ns.node.TuskarrTacklebox
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -751,6 +752,14 @@ map.nodes[61305400] = MagicBoundChest({
     pois = {POI({59755371})}
 })
 map.nodes[62207180] = MagicBoundChest()
+
+-------------------------------------------------------------------------------
+------------------------------ TUSKARR TACKLEBOX ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[37096833] = TuskarrTacklebox()
+map.nodes[35116768] = TuskarrTacklebox()
+map.nodes[35276672] = TuskarrTacklebox()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------

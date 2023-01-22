@@ -53,6 +53,10 @@ L['magicbound_chest'] = 'Coffre lié par magie'
 L['options_icons_magicbound_chest'] = 'Coffre lié par magie'
 L['options_icons_magicbound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par magie}.'
 
+L['tuskarr_tacklebox'] = nil
+L['options_icons_tuskarr_tacklebox'] = nil
+L['options_icons_tuskarr_tacklebox_desc'] = nil
+
 L['dr_best'] = 'Votre meilleur temps :\n - Normal : %.3fs\n - Avancé : %.3fs'
 L['dr_best_dash'] = 'Votre meilleur temps :\n - %.3fs'
 L['dr_note'] = 'Temps imparti :\n - Normal : %ss / %ss\n - Avancé : %ss / %ss'

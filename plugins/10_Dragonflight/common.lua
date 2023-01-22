@@ -73,6 +73,11 @@ ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
     end
 })
 
+ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_bl', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 -------------------------------------------------------------------------------
 
 ns.groups.ANCESTOR = Group('ancestor', 135946, {
@@ -709,6 +714,35 @@ local MagicBoundChest = Class('MagicBoundChest', Node, {
 })
 
 ns.node.MagicBoundChest = MagicBoundChest
+
+-------------------------------------------------------------------------------
+------------------------------ TUSKARR TACKLEBOX ------------------------------
+-------------------------------------------------------------------------------
+
+local TuskarrTacklebox = Class('TuskarrTacklebox', Node, {
+    label = L['tuskarr_tacklebox'],
+    icon = 'chest_bl',
+    group = ns.groups.TUSKARR_TACKLEBOX,
+    requires = {
+        ns.requirement.Reputation(2511, 27, true), -- Iskaara Tuskarr
+        ns.requirement.Quest(70952) -- Abandoned or Hidden Caches
+    },
+    rewards = {
+        Item({item = 194730}), -- Scalebelly Mackerel
+        Item({item = 194966}), -- Thousandbite Piranha
+        Item({item = 194967}), -- Aileron Seamoth
+        Item({item = 194968}), -- Cerulean Spinefish
+        Item({item = 194969}), -- Temporal Dragonhead
+        Item({item = 194970}), -- Islefin Dorado
+        Spacer(), Item({item = 199338}), -- Copper Coin of the Isle
+        Item({item = 199339}), -- Silver Coin of the Isle
+        Item({item = 199340}), -- Gold Coin of the Isle
+        Spacer(), Item({item = 198438}), -- Draconic Recipe in a Bottle
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+})
+
+ns.node.TuskarrTacklebox = TuskarrTacklebox
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
