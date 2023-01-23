@@ -91,7 +91,7 @@ L['signal_transmitter_note'] = '{note:Requiere 10 puntos en Mente Mecánica\nReq
 L['options_icons_signal_transmitter'] = 'Transmisores de Generadores de Agujeros de Vermis'
 L['options_icons_signal_transmitter_desc'] = 'Muestra dónde están los {object:Transmisores Desactivados} para los {item:198156}.'
 
-L['spawns_periodically'] = '{note:Puede aparecer a la hora en punto cada 2 horas.}'
+L['spawns_periodically'] = '{note:Puede aparecer cada 30 minutos (horas en punto y media) sincronizado con la hora del reino.}'
 L['spawns_at_night'] = '{note:Sólo aparece por la noche. (Después de las 18:30 hora del servidor)}'
 
 L['elemental_storm'] = 'Tormenta Elemental'
