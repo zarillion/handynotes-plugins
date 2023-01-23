@@ -97,7 +97,7 @@ map.nodes[56718128] = Rare({
 map.nodes[74414762] = Rare({ -- reqiured 67030 review
     id = 193170,
     quest = 73994,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56075}),
         Transmog({item = 200433, slot = L['leather']}) -- Footwraps of Subjugation
@@ -153,7 +153,7 @@ map.nodes[32823817] = Rare({ -- review
 map.nodes[71694585] = Rare({
     id = 193212,
     quest = 74011,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56073}),
         Transmog({item = 200197, slot = L['staff']}) -- Armoredon Herding Crook
@@ -163,7 +163,7 @@ map.nodes[71694585] = Rare({
 map.nodes[63017996] = Rare({ -- reqiured 67030
     id = 193173,
     quest = 74015,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56070}),
         Item({item = 200542, note = L['trinket']}) -- Breezy Companion
@@ -189,7 +189,7 @@ map.nodes[58604940] = Rare({
 map.nodes[61212950] = Rare({ -- reqiured 67030
     id = 193235,
     quest = 74018,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {Achievement({id = 16677, criteria = 56074})}
 }) -- Oshigol
 
@@ -241,14 +241,14 @@ map.nodes[68207920] = Quackers() -- Quackers the Terrible
 map.nodes[37005380] = Rare({
     id = 196010,
     quest = 74023,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {Achievement({id = 16677, criteria = 56069})}
 }) -- Researcher Sneakwing
 
 map.nodes[43405560] = Rare({
     id = 193227,
     quest = 74026,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {Achievement({id = 16677, criteria = 56071})}
 }) -- Ronsak the Decimator
 
@@ -308,7 +308,7 @@ map.nodes[21603960] = Rare({
 map.nodes[53627281] = Rare({ -- reqiured 67030 review
     id = 193123,
     quest = 74034,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56072}),
         Transmog({item = 200216, slot = L['cloth']}) -- Water Heating Cord

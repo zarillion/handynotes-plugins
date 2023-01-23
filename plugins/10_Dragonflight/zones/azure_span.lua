@@ -217,7 +217,7 @@ map.nodes[14083747] = RareElite({
 map.nodes[32682911] = RareElite({ -- review -- required 67030
     id = 193251,
     quest = 74001,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16678, criteria = 56111})
         -- Transmog({item = , slot = L['']}) -- Name
@@ -227,7 +227,7 @@ map.nodes[32682911] = RareElite({ -- review -- required 67030
 map.nodes[19234362] = Rare({ -- required 67030
     id = 193269,
     quest = 74002,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16678, criteria = 56112}),
         Transmog({item = 200206, slot = L['bow']}) -- Behemoth Slayer Greatbow
@@ -318,7 +318,7 @@ map.nodes[58813260] = Rare({
 map.nodes[26494939] = Rare({ -- review -- required 67030
     id = 193149,
     quest = 74030,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16678, criteria = 56110}),
         Transmog({item = 200279, slot = L['plate']}) -- Competitive Throwing Gauntlets

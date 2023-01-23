@@ -83,7 +83,7 @@ map.nodes[31097121] = Rare({
 map.nodes[59847057] = Rare({ -- required 67030
     id = 193220,
     quest = 73987,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56149}),
         Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
@@ -117,7 +117,7 @@ map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 map.nodes[47675115] = Rare({ -- required 67030
     id = 193234,
     quest = 73990,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16446, criteria = 55398, note = L['pretty_neat_note']}),
         Achievement({id = 16679, criteria = 56147})
@@ -171,7 +171,7 @@ map.nodes[62298177] = Rare({
 map.nodes[52895903] = Rare({
     id = 193246,
     quest = 74013,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56141}),
         Transmog({item = 200257, slot = L['2h_mace']}) -- Decay Infused Branch
@@ -181,7 +181,7 @@ map.nodes[52895903] = Rare({
 map.nodes[59806100] = Rare({ -- reqired 67030
     id = 193688,
     quest = 74020,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56140}),
         Transmog({item = 200146, slot = L['1h_mace']}) -- Phenran's Discordant Smasher
@@ -191,7 +191,7 @@ map.nodes[59806100] = Rare({ -- reqired 67030
 map.nodes[57218420] = Rare({ -- reqired 67030 review
     id = 193210,
     quest = 74021,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56142}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
@@ -225,21 +225,21 @@ map.nodes[50404840] = Rare({
 map.nodes[40087014] = Rare({ -- reqiured 67030
     id = 193240,
     quest = 74024,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {Achievement({id = 16679, criteria = 56148})}
 }) -- Riverwalker Tamopo
 
 map.nodes[50005180] = Rare({ -- reqiured 67030 review
     id = 193666,
     quest = 74025,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {Achievement({id = 16679, criteria = 56151})}
 }) -- Rokmur
 
 map.nodes[37607780] = Rare({ -- reqiured 67030
     id = 193176,
     quest = 74029,
-    note = L['spawns_two_hourly'] .. '\n\n' .. L['in_cave'],
+    note = L['spawns_periodically'] .. '\n\n' .. L['in_cave'],
     rewards = {
         Achievement({id = 16679, criteria = 56150}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
@@ -253,7 +253,7 @@ map.nodes[37607780] = Rare({ -- reqiured 67030
 map.nodes[47207895] = Rare({ -- review -- reqiured 67030
     id = 193258,
     quest = 74035,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {Achievement({id = 16679, criteria = 56144})},
     pois = {
         Path({
@@ -288,7 +288,7 @@ map.nodes[46267317] = Rare({
 map.nodes[35027001] = Rare({ -- reqiured 67030 review
     id = 193146,
     quest = 74036,
-    note = L['spawns_two_hourly'] .. '\n\n' .. L['in_small_cave'],
+    note = L['spawns_periodically'] .. '\n\n' .. L['in_small_cave'],
     rewards = {
         Achievement({id = 16679, criteria = 56146}),
         Transmog({item = 200291, slot = L['leather']}), -- Waterlogged Racing Grips
@@ -967,7 +967,7 @@ map.nodes[54285271] = PrettyNeat({
 
 map.nodes[47675115 + 1] = PrettyNeat({
     id = 193234,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     isRare = true,
     mapID = map.id,
     rewards = {Achievement({id = 16446, criteria = 55398})}

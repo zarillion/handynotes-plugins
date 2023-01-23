@@ -90,7 +90,7 @@ L['signal_transmitter_note'] = '{note:Requires 10 points in Mechanical Mind\nReq
 L['options_icons_signal_transmitter'] = 'Wyrmhole Generator Signal Transmitters'
 L['options_icons_signal_transmitter_desc'] = 'Display {object:Deactivated Signal Transmitters} locations for the {item:198156}.'
 
-L['spawns_two_hourly'] = '{note:Possible spawns on the hour every 2 hours.}'
+L['spawns_periodically'] = '{note:Possible spawns every 30 minutes, synchronized across the realm. (Example: 9:00, 17:30)}'
 L['spawns_at_night'] = '{note:Spawns only at night. (After 18:30 server time)}'
 
 L['elemental_storm'] = 'Elemental Storm'

@@ -54,7 +54,7 @@ local nel = Map({id = 2080, settings = true})
 map.nodes[63695509] = Rare({
     id = 193132,
     quest = 73981,
-    note = L['spawns_two_hourly'] .. '\n\n' .. L['in_cave'],
+    note = L['spawns_periodically'] .. '\n\n' .. L['in_cave'],
     rewards = {Achievement({id = 16676, criteria = 56045})}
 }) -- Amethyzar the Glittering
 
@@ -71,7 +71,7 @@ map.nodes[58634021] = Rare({
 map.nodes[54517174] = Rare({ -- review -- required 67030
     id = 193135,
     quest = 73984,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16676, criteria = 56041}),
         Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
@@ -260,14 +260,14 @@ map.nodes[34618275] = Rare({
 map.nodes[39596353] = Rare({ -- review -- required 67030
     id = 186827,
     quest = 74010,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {Achievement({id = 16676, criteria = 56046})}
 }) -- Magmaton
 
 map.nodes[22207649] = RareElite({ -- required 67030
     id = 193152,
     quest = 74012,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16676, criteria = 56047}),
         Transmog({item = 200192, slot = L['1h_mace']}), -- Handheld Geyser
@@ -303,7 +303,7 @@ map.nodes[56004592] = Rare({
 map.nodes[81485082] = Rare({ -- required 67030
     id = 193118,
     quest = 74017,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16676, criteria = 56043}),
         DC.CliffsideWylderdrake.FinnedNeck
@@ -419,7 +419,7 @@ map.nodes[34578950] = Rare({
 map.nodes[69486653] = Rare({
     id = 193120,
     quest = 74031,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16676, criteria = 56044}),
         Transmog({item = 200209, slot = L['mail']}) -- Firebreather's Cowl
@@ -429,7 +429,7 @@ map.nodes[69486653] = Rare({
 map.nodes[78514999] = Rare({
     id = 193228,
     quest = 73997,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16676, criteria = 56042}),
         Transmog({item = 200281, slot = L['offhand']}) -- Gorjo's Riding Crop
@@ -577,7 +577,7 @@ map.nodes[60598285] = Rare({
 map.nodes[42203960] = Rare({
     id = 186200,
     quest = 74000,
-    note = L['spawns_two_hourly'],
+    note = L['spawns_periodically'],
     rewards = {
         Transmog({item = 200171, slot = L['1h_sword']}), -- Grymheart Blade
         Transmog({item = 200175, slot = L['2h_mace']}), -- Repurposed Anvil
@@ -2006,9 +2006,13 @@ map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 
 ---------------- ITEM: SCHEMATIC: TINKER: BREATH OF NELTHARION ----------------
 
-nel.nodes[57407880] = PT.Engineering({
+nel.nodes[57407880] = Collectible({
     id = 199229,
-    rewards = {Item({item = 199229})}
+    icon = 1500870,
+    requires = ns.requirement.Profession(202),
+    rewards = {
+        Item({item = 199229, quest = 70207})
+    }
 }) -- Schematic: Tinker: Breath of Neltharion
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------

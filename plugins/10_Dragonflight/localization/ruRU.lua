@@ -91,7 +91,7 @@ L['signal_transmitter_note'] = '{note:Требуется 10 очков в Мас
 L['options_icons_signal_transmitter'] = 'Драконий генератор червоточин'
 L['options_icons_signal_transmitter_desc'] = 'Отображение местоположения {object:Отключенных передатчиков} для {item:198156}.'
 
-L['spawns_two_hourly'] = '{note:Появляется на час каждые 2 часа.}'
+L['spawns_periodically'] = '{note:Появляется на час каждые 2 часа.}'
 L['spawns_at_night'] = '{note:Появляется только ночью. (После 18:30 по серверному времени)}'
 
 L['elemental_storm'] = 'Буря Стихии'
