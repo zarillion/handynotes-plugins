@@ -2006,13 +2006,9 @@ map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 
 ---------------- ITEM: SCHEMATIC: TINKER: BREATH OF NELTHARION ----------------
 
-nel.nodes[57407880] = Collectible({
+nel.nodes[57407880] = PT.Engineering({
     id = 199229,
-    icon = 1500870,
-    requires = ns.requirement.Profession(202),
-    rewards = {
-        Item({item = 199229, quest = 70207})
-    }
+    rewards = {Item({item = 199229})}
 }) -- Schematic: Tinker: Breath of Neltharion
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
