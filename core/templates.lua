@@ -93,8 +93,7 @@ function WorldMapOptionsButtonMixin:AddGroupButton(group, level)
         local _, _, _, completed, _, _, _, _, _, _, _, _, earnedByMe =
             GetAchievementInfo(group.achievement)
         status = ' ' .. (earnedByMe and ns.GetIconLink('check_gn') or
-                     (completed and ns.GetIconLink('check_yw') or
-                         ns.GetIconLink('check_gy')))
+                     (completed and ns.GetIconLink('check_bl') or ''))
     end
 
     if group.name == 'misc' then

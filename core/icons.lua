@@ -89,6 +89,7 @@ ns.icons = { -- name => path
     scroll = {Icon('scroll'), Glow('scroll')},
     world_quest = {Icon('world_quest'), Glow('world_quest')},
 
+    check_bl = {Icon('check_blue'), nil},
     check_gn = {Icon('check_green'), nil},
     check_gy = {Icon('check_gray'), nil},
     check_yw = {Icon('check_yellow'), nil}
