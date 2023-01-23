@@ -90,8 +90,8 @@ L['signal_transmitter_note'] = ns.color.Orange('Benötigt 10 Punkte in Mechanisc
 L['options_icons_signal_transmitter'] = 'Wyrmlochgenerator Signaltransmitters'
 L['options_icons_signal_transmitter_desc'] = 'Zeigt die Positionen der {object:Deaktivierten Signaltransmitter} für {item:198156} an.'
 
-L['spawns_periodically'] = 'Erscheint möglicherweise alle 2 Stunden zur vollen Stunde.'
-L['spawns_at_night'] = 'Erscheint nur nachts. (Ab 18:30 Server Zeit)'
+L['spawns_periodically'] = '{note:Erscheint möglicherweise alle 30 Minuten, synchronisiert über den Realm. (Beispiel: 9:00, 17:30)}'
+L['spawns_at_night'] = '{note:Erscheint nur nachts. (Ab 18:30 Server Zeit)}'
 
 L['elemental_storm'] = 'Elementarsturm'
 L['elemental_storm_thunderstorm'] = 'Gewittersturm'
