@@ -579,6 +579,10 @@ map.nodes[53296890] = Treasure({
             color = 'Yellow',
             points = {67034372}
         }), -- Ancient Stone
+        Path({
+            67034370, 67324433, 67054530, 66954643, 67104710, 66884798,
+            66884842, 66964867, 66874918, 66874946, 66854966, 66975036
+        }), -- Path from Ancient Stone to Emerald Chest
         POI({
             label = L['fdt_emerald_chest'],
             color = 'Blue',
