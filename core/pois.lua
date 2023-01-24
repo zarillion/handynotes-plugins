@@ -128,7 +128,7 @@ end
 -- function POI:RenderAdvancedPOI(tooltip)
 --     -- label
 --     tooltip:SetText(ns.RenderLinks(self.label, true))
--- 
+--
 --     -- note
 --     if self.note and ns:GetOpt('show_notes') then
 --         if self.sublabel then GameTooltip_AddBlankLineToTooltip(tooltip) end
