@@ -943,6 +943,14 @@ map.nodes[58138299] = Collectible({
     rewards = {Achievement({id = 16621, criteria = 55940})}
 }) -- Craft Creche Crowler
 
+map.nodes[52476961] = Collectible({
+    label = '{item:201089}',
+    icon = 644375,
+    note = L['craft_creche_crowler_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55940})}
+}) -- Craft Creche Crowler
+
 map.nodes[52416987] = Collectible({
     label = '{item:201090}',
     icon = 134022,

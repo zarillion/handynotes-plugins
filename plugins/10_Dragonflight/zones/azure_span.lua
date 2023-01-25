@@ -1067,6 +1067,14 @@ map.nodes[63005780] = Collectible({
     rewards = {Achievement({id = 16621, criteria = 55940})}
 }) -- Craft Creche Crowler
 
+map.nodes[18772462] = Collectible({
+    label = '{item:201089}',
+    icon = 644375,
+    note = L['craft_creche_crowler_note'],
+    group = ns.groups.SPECIALTIES,
+    rewards = {Achievement({id = 16621, criteria = 55940})}
+}) -- Craft Creche Crowler
+
 -------------------------------------------------------------------------------
 ----------------------------- DRAGON ISLES SAFARI -----------------------------
 -------------------------------------------------------------------------------
