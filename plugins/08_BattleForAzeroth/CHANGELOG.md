@@ -1,3 +1,8 @@
+# v13
+
+* Added improvements from the Dragonflight plugin.
+* Updated TOC for 10.0.5
+
 # v12
 
 * Added a new "Add group to TomTom" menu option.
