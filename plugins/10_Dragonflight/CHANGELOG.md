@@ -1,3 +1,17 @@
+# v30
+
+* Achievements that are completed will now display a checkmark next to them.
+* Added a number of missing rares.
+* Added Artist's Easel and Somewhat-Stabilized Arcana toys.
+* Added Loyal Magmammoth mount.
+* Added more scout pack and disturbed dirt locations.
+* Added quest tracking for Tarjin the Blind.
+* Added Snack Attach achievement.
+* Added Tuskarr Tacklebox locations.
+* Fixed a bug when hovering over assaults on the flight map.
+* Rares that count for That's Pretty Neat will now display separate icons when rares are hidden.
+* Updated numerous rewards and tracking ids.
+
 # v29
 
 * Added some missing Astray Splasher spawns.
