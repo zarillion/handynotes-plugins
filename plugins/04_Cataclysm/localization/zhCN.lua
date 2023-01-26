@@ -47,7 +47,7 @@ L['spider_hill_note'] = [[
 战士：{spell:355}
 ]]
 
-L['fiery_lords_note'] = '一次只有一个 {npc:53267} 出现，杀死它后下一个会立即出现。'
+L['fiery_lords_note'] = '一次只有一个 {title:领主} 出现，杀死它后下一个会立即出现。'
 L['have_we_met_note'] = [[
 当到达 {location:塞西莉亚的栖地}时，一群精英战士将协助完成日常任务。
 

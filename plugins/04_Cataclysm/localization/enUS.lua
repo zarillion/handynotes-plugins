@@ -47,7 +47,7 @@ Shaman: {spell:52870}
 Warrior: {spell:355}
 ]]
 
-L['fiery_lords_note'] = 'Only one {title:Lord of Cinders} is up at a time, after killing it the next will spawn immediately.'
+L['fiery_lords_note'] = 'Only one {title:Lord} is up at a time, after killing it the next will spawn immediately.'
 L['have_we_met_note'] = [[
 An elite group of fighters will assist you at the daily quest as you arrive in {location:Sethria's Roost}.
 
