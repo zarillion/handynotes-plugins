@@ -48,7 +48,7 @@ Chaman : {spell:52870}
 Guerrier : {spell:355}
 ]]
 
-L['fiery_lords_note'] = 'Un seul {title:Seigneur des tisons} est actif à la fois, après l\'avoir tué, le suivant apparaîtra immédiatement.'
+L['fiery_lords_note'] = 'Un seul {title:Seigneur} est actif à la fois, après l\'avoir tué, le suivant apparaîtra immédiatement.'
 L['have_we_met_note'] = [[
 Un groupe de combattants d'élite vous assistera lors de la quête journalière à votre arrivée au {location:Perchoir de Sethria}.
 
