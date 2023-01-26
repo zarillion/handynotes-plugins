@@ -769,6 +769,7 @@ map.nodes[57767501] = Dragonrace({
     label = '{quest:67095}',
     normal = {2080, 52, 49},
     advanced = {2081, 45, 40},
+    reverse = {2194, 45, 40},
     rewards = {
         Achievement({id = 15924, criteria = 1, oneline = true}), -- normal bronze
         Achievement({id = 15925, criteria = 1, oneline = true}), -- normal silver
@@ -786,6 +787,7 @@ map.nodes[57256690] = Dragonrace({
     label = '{quest:69957}',
     normal = {2092, 84, 81},
     advanced = {2093, 80, 75},
+    reverse = {2195, 80, 75},
     rewards = {
         Achievement({id = 15924, criteria = 2, oneline = true}), -- normal bronze
         Achievement({id = 15925, criteria = 2, oneline = true}), -- normal silver
@@ -803,6 +805,7 @@ map.nodes[37654894] = Dragonrace({
     label = '{quest:70051}',
     normal = {2096, 72, 69},
     advanced = {2097, 71, 66},
+    reverse = {2196, 71, 66},
     rewards = {
         Achievement({id = 15924, criteria = 3, oneline = true}), -- normal bronze
         Achievement({id = 15925, criteria = 3, oneline = true}), -- normal silver
@@ -820,6 +823,7 @@ map.nodes[60264179] = Dragonrace({
     label = '{quest:70059}',
     normal = {2098, 57, 54},
     advanced = {2099, 57, 52},
+    reverse = {2197, 57, 52},
     rewards = {
         Achievement({id = 15924, criteria = 4, oneline = true}), -- normal bronze
         Achievement({id = 15925, criteria = 4, oneline = true}), -- normal silver
@@ -837,6 +841,7 @@ map.nodes[39487621] = Dragonrace({
     label = '{quest:70157}',
     normal = {2101, 64, 61},
     advanced = {2102, 59, 54},
+    reverse = {2198, 59, 54},
     rewards = {
         Achievement({id = 15924, criteria = 5, oneline = true}), -- normal bronze
         Achievement({id = 15925, criteria = 5, oneline = true}), -- normal silver
@@ -854,6 +859,7 @@ map.nodes[58043367] = Dragonrace({
     label = '{quest:70161}',
     normal = {2103, 53, 50},
     advanced = {2104, 50, 45},
+    reverse = {2199, 50, 45},
     rewards = {
         Achievement({id = 15924, criteria = 6, oneline = true}), -- normal bronze
         Achievement({id = 15925, criteria = 6, oneline = true}), -- normal silver

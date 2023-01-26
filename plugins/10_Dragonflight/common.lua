@@ -754,10 +754,12 @@ local Dragonrace = Class('DragonRace', Collectible,
 function Dragonrace.getters:sublabel()
     if self.normal then
         local ntime = C_CurrencyInfo.GetCurrencyInfo(self.normal[1]).quantity
-        if self.advanced then
+        if self.advanced and self.reverse then
             local atime = C_CurrencyInfo.GetCurrencyInfo(self.advanced[1])
                               .quantity
-            return L['dr_best']:format(ntime / 1000, atime / 1000)
+            local rtime = C_CurrencyInfo.GetCurrencyInfo(self.reverse[1])
+                              .quantity
+            return L['dr_best']:format(ntime / 1000, atime / 1000, rtime / 1000)
         end
         return L['dr_best_dash']:format(ntime / 1000)
     end
@@ -769,12 +771,14 @@ function Dragonrace.getters:note()
         local gold = ns.color.Gold
 
         -- LuaFormatter off
-        if self.advanced then
+        if self.advanced and self.reverse then
             return L['dr_note']:format(
                 silver(self.normal[2]),
                 gold(self.normal[3]),
                 silver(self.advanced[2]),
-                gold(self.advanced[3])
+                gold(self.advanced[3]),
+                silver(self.reverse[2]),
+                gold(self.reverse[3])
             ) .. L['dr_bronze']
         end
 
