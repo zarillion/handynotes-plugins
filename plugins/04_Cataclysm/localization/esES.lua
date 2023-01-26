@@ -48,7 +48,7 @@ Chamán: {spell:52870}
 Guerrero: {spell:355}
 ]]
 
-L['fiery_lords_note'] = 'Sólo hay un {npc:53267} al mismo tiempo. Tras matarlo, el siguiente aparecerá al momento.'
+L['fiery_lords_note'] = 'Sólo hay un {title:Señor} al mismo tiempo. Tras matarlo, el siguiente aparecerá al momento.'
 L['have_we_met_note'] = [[
 Al llegar al {location:Nidal de Sethria} te ayudará un grupo de guerreros élite con la misión diaria.
 
