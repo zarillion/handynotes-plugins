@@ -775,7 +775,10 @@ map.nodes[57767501] = Dragonrace({
         Achievement({id = 15926, criteria = 1, oneline = true}), -- normal gold
         Achievement({id = 15936, criteria = 1, oneline = true}), -- advanced bronze
         Achievement({id = 15937, criteria = 1, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 1, oneline = true}) -- advanced gold
+        Achievement({id = 15938, criteria = 1, oneline = true}), -- advanced gold
+        Achievement({id = 17204, criteria = 1, oneline = true}), -- reverse bronze
+        Achievement({id = 17205, criteria = 1, oneline = true}), -- reverse silver
+        Achievement({id = 17206, criteria = 1, oneline = true}) -- reverse gold
     }
 }) -- Flowing Forest Flight
 
@@ -789,7 +792,10 @@ map.nodes[57256690] = Dragonrace({
         Achievement({id = 15926, criteria = 2, oneline = true}), -- normal gold
         Achievement({id = 15936, criteria = 2, oneline = true}), -- advanced bronze
         Achievement({id = 15937, criteria = 2, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 2, oneline = true}) -- advanced gold
+        Achievement({id = 15938, criteria = 2, oneline = true}), -- advanced gold
+        Achievement({id = 17204, criteria = 2, oneline = true}), -- reverse bronze
+        Achievement({id = 17205, criteria = 2, oneline = true}), -- reverse silver
+        Achievement({id = 17206, criteria = 2, oneline = true}) -- reverse gold
     }
 }) -- Tyrhold Trial
 
@@ -803,7 +809,10 @@ map.nodes[37654894] = Dragonrace({
         Achievement({id = 15926, criteria = 3, oneline = true}), -- normal gold
         Achievement({id = 15936, criteria = 3, oneline = true}), -- advanced bronze
         Achievement({id = 15937, criteria = 3, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 3, oneline = true}) -- advanced gold
+        Achievement({id = 15938, criteria = 3, oneline = true}), -- advanced gold
+        Achievement({id = 17204, criteria = 3, oneline = true}), -- reverse bronze
+        Achievement({id = 17205, criteria = 3, oneline = true}), -- reverse silver
+        Achievement({id = 17206, criteria = 3, oneline = true}) -- reverse gold
     }
 }) -- Cliffside Circuit
 
@@ -817,7 +826,10 @@ map.nodes[60264179] = Dragonrace({
         Achievement({id = 15926, criteria = 4, oneline = true}), -- normal gold
         Achievement({id = 15936, criteria = 4, oneline = true}), -- advanced bronze
         Achievement({id = 15937, criteria = 4, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 4, oneline = true}) -- advanced gold
+        Achievement({id = 15938, criteria = 4, oneline = true}), -- advanced gold
+        Achievement({id = 17204, criteria = 4, oneline = true}), -- reverse bronze
+        Achievement({id = 17205, criteria = 4, oneline = true}), -- reverse silver
+        Achievement({id = 17206, criteria = 4, oneline = true}) -- reverse gold
     }
 }) -- Academy Ascent
 
@@ -831,7 +843,10 @@ map.nodes[39487621] = Dragonrace({
         Achievement({id = 15926, criteria = 5, oneline = true}), -- normal gold
         Achievement({id = 15936, criteria = 5, oneline = true}), -- advanced bronze
         Achievement({id = 15937, criteria = 5, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 5, oneline = true}) -- advanced gold
+        Achievement({id = 15938, criteria = 5, oneline = true}), -- advanced gold
+        Achievement({id = 17204, criteria = 5, oneline = true}), -- reverse bronze
+        Achievement({id = 17205, criteria = 5, oneline = true}), -- reverse silver
+        Achievement({id = 17206, criteria = 5, oneline = true}) -- reverse gold
     }
 }) -- Garden Gallivant
 
@@ -845,7 +860,10 @@ map.nodes[58043367] = Dragonrace({
         Achievement({id = 15926, criteria = 6, oneline = true}), -- normal gold
         Achievement({id = 15936, criteria = 6, oneline = true}), -- advanced bronze
         Achievement({id = 15937, criteria = 6, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 6, oneline = true}) -- advanced gold
+        Achievement({id = 15938, criteria = 6, oneline = true}), -- advanced gold
+        Achievement({id = 17204, criteria = 6, oneline = true}), -- reverse bronze
+        Achievement({id = 17205, criteria = 6, oneline = true}), -- reverse silver
+        Achievement({id = 17206, criteria = 6, oneline = true}) -- reverse gold
     }
 }) -- Caverns Criss-Cross
 

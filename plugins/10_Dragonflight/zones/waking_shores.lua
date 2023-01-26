@@ -1181,7 +1181,10 @@ map.nodes[63317090] = Dragonrace({
         Achievement({id = 15917, criteria = 1, oneline = true}), -- normal gold
         Achievement({id = 15927, criteria = 1, oneline = true}), -- advanced bronze
         Achievement({id = 15928, criteria = 1, oneline = true}), -- advanced silver
-        Achievement({id = 15929, criteria = 1, oneline = true}) -- advanced gold
+        Achievement({id = 15929, criteria = 1, oneline = true}), -- advanced gold
+        Achievement({id = 17195, criteria = 1, oneline = true}), -- reverse bronze
+        Achievement({id = 17196, criteria = 1, oneline = true}), -- reverse silver
+        Achievement({id = 17197, criteria = 1, oneline = true}) -- reverse gold
     }
 }) -- Ruby Lifeshrine Loop
 
@@ -1195,7 +1198,10 @@ map.nodes[47018558] = Dragonrace({
         Achievement({id = 15917, criteria = 2, oneline = true}), -- normal gold
         Achievement({id = 15927, criteria = 2, oneline = true}), -- advanced bronze
         Achievement({id = 15928, criteria = 2, oneline = true}), -- advanced silver
-        Achievement({id = 15929, criteria = 2, oneline = true}) -- advanced gold
+        Achievement({id = 15929, criteria = 2, oneline = true}), -- advanced gold
+        Achievement({id = 17195, criteria = 2, oneline = true}), -- reverse bronze
+        Achievement({id = 17196, criteria = 2, oneline = true}), -- reverse silver
+        Achievement({id = 17197, criteria = 2, oneline = true}) -- reverse gold
     }
 }) -- Wild Preserve Slalom
 
@@ -1209,7 +1215,10 @@ map.nodes[41986729] = Dragonrace({
         Achievement({id = 15917, criteria = 3, oneline = true}), -- normal gold
         Achievement({id = 15927, criteria = 3, oneline = true}), -- advanced bronze
         Achievement({id = 15928, criteria = 3, oneline = true}), -- advanced silver
-        Achievement({id = 15929, criteria = 3, oneline = true}) -- advanced gold
+        Achievement({id = 15929, criteria = 3, oneline = true}), -- advanced gold
+        Achievement({id = 17195, criteria = 3, oneline = true}), -- reverse bronze
+        Achievement({id = 17196, criteria = 3, oneline = true}), -- reverse silver
+        Achievement({id = 17197, criteria = 3, oneline = true}) -- reverse gold
     }
 }) -- Emberflow Flight
 
@@ -1223,7 +1232,10 @@ map.nodes[23268430] = Dragonrace({
         Achievement({id = 15917, criteria = 4, oneline = true}), -- normal gold
         Achievement({id = 15927, criteria = 4, oneline = true}), -- advanced bronze
         Achievement({id = 15928, criteria = 4, oneline = true}), -- advanced silver
-        Achievement({id = 15929, criteria = 4, oneline = true}) -- advanced gold
+        Achievement({id = 15929, criteria = 4, oneline = true}), -- advanced gold
+        Achievement({id = 17195, criteria = 4, oneline = true}), -- reverse bronze
+        Achievement({id = 17196, criteria = 4, oneline = true}), -- reverse silver
+        Achievement({id = 17197, criteria = 4, oneline = true}) -- reverse gold
     }
 }) -- Apex Canopy River Run
 
@@ -1237,7 +1249,10 @@ map.nodes[55464113] = Dragonrace({
         Achievement({id = 15917, criteria = 5, oneline = true}), -- normal gold
         Achievement({id = 15927, criteria = 5, oneline = true}), -- advanced bronze
         Achievement({id = 15928, criteria = 5, oneline = true}), -- advanced silver
-        Achievement({id = 15929, criteria = 5, oneline = true}) -- advanced gold
+        Achievement({id = 15929, criteria = 5, oneline = true}), -- advanced gold
+        Achievement({id = 17195, criteria = 5, oneline = true}), -- reverse bronze
+        Achievement({id = 17196, criteria = 5, oneline = true}), -- reverse silver
+        Achievement({id = 17197, criteria = 5, oneline = true}) -- reverse gold
     }
 }) -- Uktulut Coaster
 
@@ -1251,7 +1266,10 @@ map.nodes[73203393] = Dragonrace({
         Achievement({id = 15917, criteria = 6, oneline = true}), -- normal gold
         Achievement({id = 15927, criteria = 6, oneline = true}), -- advanced bronze
         Achievement({id = 15928, criteria = 6, oneline = true}), -- advanced silver
-        Achievement({id = 15929, criteria = 6, oneline = true}) -- advanced gold
+        Achievement({id = 15929, criteria = 6, oneline = true}), -- advanced gold
+        Achievement({id = 17195, criteria = 6, oneline = true}), -- reverse bronze
+        Achievement({id = 17196, criteria = 6, oneline = true}), -- reverse silver
+        Achievement({id = 17197, criteria = 6, oneline = true}) -- reverse gold
     }
 }) -- Wingrest Roundabout
 
@@ -1265,7 +1283,10 @@ map.nodes[62777400] = Dragonrace({
         Achievement({id = 15917, criteria = 7, oneline = true}), -- normal gold
         Achievement({id = 15927, criteria = 7, oneline = true}), -- advanced bronze
         Achievement({id = 15928, criteria = 7, oneline = true}), -- advanced silver
-        Achievement({id = 15929, criteria = 7, oneline = true}) -- advanced gold
+        Achievement({id = 15929, criteria = 7, oneline = true}), -- advanced gold
+        Achievement({id = 17195, criteria = 7, oneline = true}), -- reverse bronze
+        Achievement({id = 17196, criteria = 7, oneline = true}), -- reverse silver
+        Achievement({id = 17197, criteria = 7, oneline = true}) -- reverse gold
     }
 }) -- Flashfrost Flyover
 
@@ -1279,7 +1300,10 @@ map.nodes[42599445] = Dragonrace({
         Achievement({id = 15917, criteria = 8, oneline = true}), -- normal gold
         Achievement({id = 15927, criteria = 8, oneline = true}), -- advanced bronze
         Achievement({id = 15928, criteria = 8, oneline = true}), -- advanced silver
-        Achievement({id = 15929, criteria = 8, oneline = true}) -- advanced gold
+        Achievement({id = 15929, criteria = 8, oneline = true}), -- advanced gold
+        Achievement({id = 17195, criteria = 8, oneline = true}), -- reverse bronze
+        Achievement({id = 17196, criteria = 8, oneline = true}), -- reverse silver
+        Achievement({id = 17197, criteria = 8, oneline = true}) -- reverse gold
     }
 }) -- Wild Preserve Circuit
 

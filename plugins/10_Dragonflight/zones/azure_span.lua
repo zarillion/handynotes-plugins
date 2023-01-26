@@ -908,7 +908,10 @@ map.nodes[47914077] = Dragonrace({
         Achievement({id = 15923, criteria = 1, oneline = true}), -- normal gold
         Achievement({id = 15933, criteria = 1, oneline = true}), -- advanced bronze
         Achievement({id = 15934, criteria = 1, oneline = true}), -- advanced silver
-        Achievement({id = 15935, criteria = 1, oneline = true}) -- advanced gold
+        Achievement({id = 15935, criteria = 1, oneline = true}), -- advanced gold
+        Achievement({id = 17201, criteria = 1, oneline = true}), -- reverse bronze
+        Achievement({id = 17202, criteria = 1, oneline = true}), -- reverse silver
+        Achievement({id = 17203, criteria = 1, oneline = true}) -- reverse gold
     }
 }) -- Azure Span Sprint
 
@@ -922,7 +925,10 @@ map.nodes[20952262] = Dragonrace({
         Achievement({id = 15923, criteria = 2, oneline = true}), -- normal gold
         Achievement({id = 15933, criteria = 2, oneline = true}), -- advanced bronze
         Achievement({id = 15934, criteria = 2, oneline = true}), -- advanced silver
-        Achievement({id = 15935, criteria = 2, oneline = true}) -- advanced gold
+        Achievement({id = 15935, criteria = 2, oneline = true}), -- advanced gold
+        Achievement({id = 17201, criteria = 2, oneline = true}), -- reverse bronze
+        Achievement({id = 17202, criteria = 2, oneline = true}), -- reverse silver
+        Achievement({id = 17203, criteria = 2, oneline = true}) -- reverse gold
     }
 }) -- Azure Span Slalom
 
@@ -936,7 +942,10 @@ map.nodes[71292466] = Dragonrace({
         Achievement({id = 15923, criteria = 3, oneline = true}), -- normal gold
         Achievement({id = 15933, criteria = 3, oneline = true}), -- advanced bronze
         Achievement({id = 15934, criteria = 3, oneline = true}), -- advanced silver
-        Achievement({id = 15935, criteria = 3, oneline = true}) -- advanced gold
+        Achievement({id = 15935, criteria = 3, oneline = true}), -- advanced gold
+        Achievement({id = 17201, criteria = 3, oneline = true}), -- reverse bronze
+        Achievement({id = 17202, criteria = 3, oneline = true}), -- reverse silver
+        Achievement({id = 17203, criteria = 3, oneline = true}) -- reverse gold
     }
 }) -- Vakthros Ascent
 
@@ -950,7 +959,10 @@ map.nodes[16574937] = Dragonrace({
         Achievement({id = 15923, criteria = 4, oneline = true}), -- normal gold
         Achievement({id = 15933, criteria = 4, oneline = true}), -- advanced bronze
         Achievement({id = 15934, criteria = 4, oneline = true}), -- advanced silver
-        Achievement({id = 15935, criteria = 4, oneline = true}) -- advanced gold
+        Achievement({id = 15935, criteria = 4, oneline = true}), -- advanced gold
+        Achievement({id = 17201, criteria = 4, oneline = true}), -- reverse bronze
+        Achievement({id = 17202, criteria = 4, oneline = true}), -- reverse silver
+        Achievement({id = 17203, criteria = 4, oneline = true}) -- reverse gold
     }
 }) -- Iskaara Tour
 
@@ -964,7 +976,10 @@ map.nodes[48473578] = Dragonrace({
         Achievement({id = 15923, criteria = 5, oneline = true}), -- normal gold
         Achievement({id = 15933, criteria = 5, oneline = true}), -- advanced bronze
         Achievement({id = 15934, criteria = 5, oneline = true}), -- advanced silver
-        Achievement({id = 15935, criteria = 5, oneline = true}) -- advanced gold
+        Achievement({id = 15935, criteria = 5, oneline = true}), -- advanced gold
+        Achievement({id = 17201, criteria = 5, oneline = true}), -- reverse bronze
+        Achievement({id = 17202, criteria = 5, oneline = true}), -- reverse silver
+        Achievement({id = 17203, criteria = 5, oneline = true}) -- reverse gold
     }
 }) -- Frostland Flyover
 
@@ -978,7 +993,10 @@ map.nodes[42265676] = Dragonrace({
         Achievement({id = 15923, criteria = 6, oneline = true}), -- normal gold
         Achievement({id = 15933, criteria = 6, oneline = true}), -- advanced bronze
         Achievement({id = 15934, criteria = 6, oneline = true}), -- advanced silver
-        Achievement({id = 15935, criteria = 6, oneline = true}) -- advanced gold
+        Achievement({id = 15935, criteria = 6, oneline = true}), -- advanced gold
+        Achievement({id = 17201, criteria = 6, oneline = true}), -- reverse bronze
+        Achievement({id = 17202, criteria = 6, oneline = true}), -- reverse silver
+        Achievement({id = 17203, criteria = 6, oneline = true}) -- reverse gold
     }
 }) -- Archive Ambit
 

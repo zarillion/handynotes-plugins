@@ -1155,7 +1155,10 @@ map.nodes[63743051] = Dragonrace({
         Achievement({id = 15920, criteria = 1, oneline = true}), -- normal gold
         Achievement({id = 15930, criteria = 1, oneline = true}), -- advanced bronze
         Achievement({id = 15931, criteria = 1, oneline = true}), -- advanced silver
-        Achievement({id = 15932, criteria = 1, oneline = true}) -- advanced gold
+        Achievement({id = 15932, criteria = 1, oneline = true}), -- advanced gold
+        Achievement({id = 17198, criteria = 1, oneline = true}), -- reverse bronze
+        Achievement({id = 17199, criteria = 1, oneline = true}), -- reverse silver
+        Achievement({id = 17200, criteria = 1, oneline = true}) -- reverse gold
     }
 }) -- Sundapple Copse Circuit
 
@@ -1169,7 +1172,10 @@ map.nodes[86263583] = Dragonrace({
         Achievement({id = 15920, criteria = 2, oneline = true}), -- normal gold
         Achievement({id = 15930, criteria = 2, oneline = true}), -- advanced bronze
         Achievement({id = 15931, criteria = 2, oneline = true}), -- advanced silver
-        Achievement({id = 15932, criteria = 2, oneline = true}) -- advanced gold
+        Achievement({id = 15932, criteria = 2, oneline = true}), -- advanced gold
+        Achievement({id = 17198, criteria = 2, oneline = true}), -- reverse bronze
+        Achievement({id = 17199, criteria = 2, oneline = true}), -- reverse silver
+        Achievement({id = 17200, criteria = 2, oneline = true}) -- reverse gold
     }
 }) -- Fen Flythrough
 
@@ -1183,7 +1189,10 @@ map.nodes[80887221] = Dragonrace({
         Achievement({id = 15920, criteria = 3, oneline = true}), -- normal gold
         Achievement({id = 15930, criteria = 3, oneline = true}), -- advanced bronze
         Achievement({id = 15931, criteria = 3, oneline = true}), -- advanced silver
-        Achievement({id = 15932, criteria = 3, oneline = true}) -- advanced gold
+        Achievement({id = 15932, criteria = 3, oneline = true}), -- advanced gold
+        Achievement({id = 17198, criteria = 3, oneline = true}), -- reverse bronze
+        Achievement({id = 17199, criteria = 3, oneline = true}), -- reverse silver
+        Achievement({id = 17200, criteria = 3, oneline = true}) -- reverse gold
     }
 }) -- Ravine River Run
 
@@ -1197,7 +1206,10 @@ map.nodes[25715508] = Dragonrace({
         Achievement({id = 15920, criteria = 4, oneline = true}), -- normal gold
         Achievement({id = 15930, criteria = 4, oneline = true}), -- advanced bronze
         Achievement({id = 15931, criteria = 4, oneline = true}), -- advanced silver
-        Achievement({id = 15932, criteria = 4, oneline = true}) -- advanced gold
+        Achievement({id = 15932, criteria = 4, oneline = true}), -- advanced gold
+        Achievement({id = 17198, criteria = 4, oneline = true}), -- reverse bronze
+        Achievement({id = 17199, criteria = 4, oneline = true}), -- reverse silver
+        Achievement({id = 17200, criteria = 4, oneline = true}) -- reverse gold
     }
 }) -- Emerald Garden Ascent
 
@@ -1231,7 +1243,10 @@ map.nodes[43746678] = Dragonrace({
         Achievement({id = 15920, criteria = 7, oneline = true}), -- normal gold
         Achievement({id = 15930, criteria = 5, oneline = true}), -- advanced bronze
         Achievement({id = 15931, criteria = 5, oneline = true}), -- advanced silver
-        Achievement({id = 15932, criteria = 5, oneline = true}) -- advanced gold
+        Achievement({id = 15932, criteria = 5, oneline = true}), -- advanced gold
+        Achievement({id = 17198, criteria = 5, oneline = true}), -- reverse bronze
+        Achievement({id = 17199, criteria = 5, oneline = true}), -- reverse silver
+        Achievement({id = 17200, criteria = 5, oneline = true}) -- reverse gold
     }
 }) -- River Rapids Route
 
