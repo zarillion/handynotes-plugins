@@ -356,9 +356,9 @@ L['chest_of_the_elements'] = 'Coffre des éléments'
 L['hoard_of_draconic_delicacies_note_start'] = 'Terminez les 7 quêtes suivantes données par {npc:189479} :'
 L['hoard_of_draconic_delicacies_note_end'] = 'Une fois toutes les quêtes terminées, {npc:189479} proposera {quest:67071} pour recevoir votre recette.\n\n{note:Les quêtes sont basées sur le chef invité actuel à l\'{location:Enclave de Rubis} et peuvent ne pas correspondre à l\'ordre indiqué ci-dessus.}'
 
-L['brendormi_note_start'] = nil
-L['brendormi_note_item'] = nil
-L['brendormi_note_currency'] = nil
+L['brendormi_note_start'] = 'Échangez vos {item:202039} et {currency:2118} contre de l\'équipement, une mascotte, un jouet et une monture.'
+L['brendormi_note_item'] = 'Vous avez actuellement %s {item:202039}.'
+L['brendormi_note_currency'] = 'Vous avez actuellement %s {currency:2118}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
