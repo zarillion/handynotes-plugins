@@ -28,6 +28,7 @@ local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
+local TuskarrTacklebox = ns.node.TuskarrTacklebox
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -1166,6 +1167,24 @@ map.nodes[72206040] = MagicBoundChest({
     note = L['in_small_cave'],
     pois = {POI({71725871})}
 })
+
+-------------------------------------------------------------------------------
+--------------------------- TUSKAAR TACKLEBOX ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[66376097] = TuskaarTacklebox()
+map.nodes[67024947] = TuskaarTacklebox()
+map.nodes[67655061] = TuskaarTacklebox()
+map.nodes[68095314] = TuskaarTacklebox()
+map.nodes[68224829] = TuskaarTacklebox()
+map.nodes[68385973] = TuskaarTacklebox()
+map.nodes[68556009] = TuskaarTacklebox()
+map.nodes[68865102] = TuskaarTacklebox()
+map.nodes[69275416] = TuskaarTacklebox()
+map.nodes[69854803] = TuskaarTacklebox()
+map.nodes[71784878] = TuskaarTacklebox()
+map.nodes[72774668] = TuskaarTacklebox()
+map.nodes[73744652] = TuskaarTacklebox()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
