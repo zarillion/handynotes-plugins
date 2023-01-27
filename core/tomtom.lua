@@ -21,7 +21,7 @@ end
 local function AddGroupWaypoints(node, mapID, coord)
     local map = ns.maps[mapID]
     for peerCoord, peerNode in pairs(map.nodes) do
-        if peerNode.group == node.group and peerNode:IsEnabled() then
+        if peerNode.group[1] == node.group[1] and peerNode:IsEnabled() then
             AddSingleWaypoint(peerNode, mapID, peerCoord)
         end
     end
