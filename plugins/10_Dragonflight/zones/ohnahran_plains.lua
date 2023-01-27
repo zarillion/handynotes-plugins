@@ -995,7 +995,18 @@ map.nodes[85106640] = MagicBoundChest({
 ------------------------------ TUSKARR TACKLEBOX ------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[25324337] = TuskaarTacklebox()
+map.nodes[30225222] = TuskaarTacklebox()
+map.nodes[30255326] = TuskaarTacklebox()
+map.nodes[31035208] = TuskaarTacklebox()
 map.nodes[32102907] = TuskarrTacklebox()
+map.nodes[36305212] = TuskaarTacklebox()
+map.nodes[37635533] = TuskaarTacklebox()
+map.nodes[41105448] = TuskaarTacklebox()
+map.nodes[42245532] = TuskaarTacklebox()
+map.nodes[45936616] = TuskaarTacklebox()
+map.nodes[50407120] = TuskaarTacklebox()
+map.nodes[75665637] = TuskaarTacklebox()
 
 -------------------------------------------------------------------------------
 ----------------------------- HONOR OUR ANCESTORS -----------------------------
