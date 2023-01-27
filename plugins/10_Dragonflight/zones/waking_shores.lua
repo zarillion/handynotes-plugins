@@ -1172,19 +1172,19 @@ map.nodes[72206040] = MagicBoundChest({
 --------------------------- TUSKAAR TACKLEBOX ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[66376097] = TuskaarTacklebox()
-map.nodes[67024947] = TuskaarTacklebox()
-map.nodes[67655061] = TuskaarTacklebox()
-map.nodes[68095314] = TuskaarTacklebox()
-map.nodes[68224829] = TuskaarTacklebox()
-map.nodes[68385973] = TuskaarTacklebox()
-map.nodes[68556009] = TuskaarTacklebox()
-map.nodes[68865102] = TuskaarTacklebox()
-map.nodes[69275416] = TuskaarTacklebox()
-map.nodes[69854803] = TuskaarTacklebox()
-map.nodes[71784878] = TuskaarTacklebox()
-map.nodes[72774668] = TuskaarTacklebox()
-map.nodes[73744652] = TuskaarTacklebox()
+map.nodes[66376097] = TuskarrTacklebox()
+map.nodes[67024947] = TuskarrTacklebox()
+map.nodes[67655061] = TuskarrTacklebox()
+map.nodes[68095314] = TuskarrTacklebox()
+map.nodes[68224829] = TuskarrTacklebox()
+map.nodes[68385973] = TuskarrTacklebox()
+map.nodes[68556009] = TuskarrTacklebox()
+map.nodes[68865102] = TuskarrTacklebox()
+map.nodes[69275416] = TuskarrTacklebox()
+map.nodes[69854803] = TuskarrTacklebox()
+map.nodes[71784878] = TuskarrTacklebox()
+map.nodes[72774668] = TuskarrTacklebox()
+map.nodes[73744652] = TuskarrTacklebox()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
