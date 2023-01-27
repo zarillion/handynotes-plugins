@@ -4,6 +4,15 @@ local L = ns.NewLocale('frFR')
 if not L then return end
 
 -------------------------------------------------------------------------------
+----------------------------------- COMMON ------------------------------------
+-------------------------------------------------------------------------------
+
+L['change_map'] = nil
+
+L['options_icons_safari'] = 'Safari de Kalimdor / Reinos del Este'
+L['options_icons_safari_desc'] = 'Muestra dónde están  las mascotas de combate para los logros {achievement:6585} y {achievement:6586}.'
+
+-------------------------------------------------------------------------------
 --------------------------------- MOUNT HYJAL ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -74,5 +83,28 @@ Bombardez le {title:<Seigneur du Feu>} durant la quête {daily:29290}.
 
 {note:Seuls 3 {title:Seigneurs du Feu} sont actifs à la fois. Pour obtenir ce haut-fait plus rapidement, ne rendez pas la quête et revenez le lendemain.}
 ]]
-L['flamewalker_sentinel_note'] = 'Utilisez l\'{item:137663} pour réduire sa vie afin qu\'il lance {spell:98369}. Évitez tous les tirs et tuez-le.'
-L['flamewalker_shaman_note'] = 'Utilisez l\'{item:137663} pour réduire sa vie. Attendez qu\'il se suicide.'
+L['flamewaker_sentinel_note'] = 'Utilisez l\'{item:137663} pour réduire sa vie afin qu\'il lance {spell:98369}. Évitez tous les tirs et tuez-le.'
+L['flamewaker_shaman_note'] = 'Utilisez l\'{item:137663} pour réduire sa vie. Attendez qu\'il se suicide.'
+
+L['options_icons_spider_hill_desc'] = nil
+L['options_icons_fiery_lords_desc'] = nil
+L['options_icons_have_we_met_desc'] = nil
+L['options_icons_unbeatable_pterodactyl_desc'] = nil
+L['options_icons_ludicrous_speed_desc'] = nil
+L['options_icons_critter_revenge_desc'] = nil
+L['options_icons_r4r_2_desc'] = nil
+L['options_icons_flawless_victory_desc'] = nil
+L['options_icons_gang_war_desc'] = nil
+L['options_icons_death_from_above_desc'] = nil
+L['options_icons_infernal_ambassadors_desc'] = nil
+L['options_icons_fireside_chat_desc'] = nil
+L['options_icons_molten_flow_master_desc'] = nil
+
+-------------------------------------------------------------------------------
+---------------------------------- DEEPHOLM -----------------------------------
+-------------------------------------------------------------------------------
+
+L['portal_to_therazane'] = 'Portail vers le Trône de Therazane'
+L['portal_to_earth_temple'] = 'Portail vers le temple de la Terre'
+
+L['fungal_frenzy_note'] = nil

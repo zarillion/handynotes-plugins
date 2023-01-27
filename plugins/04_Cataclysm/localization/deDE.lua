@@ -3,6 +3,15 @@ local L = ns.NewLocale('deDE')
 if not L then return end
 
 -------------------------------------------------------------------------------
+----------------------------------- COMMON ------------------------------------
+-------------------------------------------------------------------------------
+
+L['change_map'] = 'Karte wechseln'
+
+L['options_icons_safari'] = 'Auf Safari in Kalimdor / den Östlichen Königreichen'
+L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für die Erfolge {achievement:6585} und {achievement:6586} an.'
+
+-------------------------------------------------------------------------------
 --------------------------------- MOUNT HYJAL ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -61,5 +70,49 @@ L['gang_war_note'] = 'Gewinne ein Duell in {location:Sethrias Nest}, während du
 L['death_from_above_note'] = [[Bombardiere den {npc:<Feuerfürst>} während du die Quest {daily:29290} erledigst.
 
 {note:Nur 3 {npc:Feuerfürsten} sind zu selben zeit aktiv. Um den Erfolg schneller abzuschließen schließe die Quest nicht ab und komme morgen wieder.}]]
-L['flamewalker_sentinel_note'] = 'Verwende {item:137663}, um seine Gesundheit zu senken, damit er dich tragen kann, und töte ihn dann.'
-L['flamewalker_shaman_note'] = 'Verwende {item:137663}, um seine Gesundheit zu senken. Warte bis er sich selbst tötet.'
+L['flamewaker_sentinel_note'] = 'Verwende {item:137663}, um seine Gesundheit zu senken, damit er dich tragen kann, und töte ihn dann.'
+L['flamewaker_shaman_note'] = 'Verwende {item:137663}, um seine Gesundheit zu senken. Warte bis er sich selbst tötet.'
+
+L['options_icons_spider_hill_desc'] = 'Zeigt die Position für den Erfolg {achievement:5872} .'
+L['options_icons_fiery_lords_desc'] = 'Zeigt die Position der Elementare für den Erfolg {achievement:5861}.'
+L['options_icons_have_we_met_desc'] = 'Zeigt die Questposition für den Erfolg {achievement:5865}.'
+L['options_icons_unbeatable_pterodactyl_desc'] = 'Zeigt die Questposition für den Erfolg {achievement:5860}.'
+L['options_icons_ludicrous_speed_desc'] = 'Zeigt die Position für den Erfolg {achievement:5862}.'
+L['options_icons_critter_revenge_desc'] = 'Zeigt die Positionen der Tiere für den Erfolg {achievement:5868}.'
+L['options_icons_r4r_2_desc'] = 'Zeigt die Position für den Erfolg {achievement:5873}.'
+L['options_icons_flawless_victory_desc'] = 'Zeigt die Position für den Erfolg {achievement:5873}.'
+L['options_icons_gang_war_desc'] = 'Zeigt die Position für den Erfolg {achievement:5864}.'
+L['options_icons_death_from_above_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:5874}.'
+L['options_icons_infernal_ambassadors_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:5869}.'
+L['options_icons_fireside_chat_desc'] = 'Zeigt die Positionen der NPCs für den Erfolg {achievement:5870}.'
+L['options_icons_molten_flow_master_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:5871}.'
+
+-------------------------------------------------------------------------------
+---------------------------------- DEEPHOLM -----------------------------------
+-------------------------------------------------------------------------------
+
+L['portal_to_therazane'] = 'Portal zu Therazanes Thron'
+L['portal_to_earth_temple'] = 'Portal zum Tempel der Erde'
+
+L['fungal_frenzy_note'] = [[
+Leidet gleichzeitig unter den Effekten von {object:Reizmorchel}, {object:Sohlenkrempling}, {object:Schrumpftrüffel} und {object:Sprengkappe}.
+
+{dot:Bronze} {spell:83747}
+Braun-roter Pilz mit weißem Rand.
+Lässt dich schrumpfen.
+
+{dot:Red} {spell:83803}
+Großer roter Pilz, in der nähe von Wasser.
+Umgibt dich mit einem roten Nebel, erhöht deinen Schaden.
+
+{dot:Blue} {spell:83805}
+Blauer Pilz mit weißem Rand.
+Du kannst schneller laufen.
+
+{dot:LightBlue} {spell:83804}
+Violetter Pilz mit Pinken Punkten.
+Sammle diesen Pilz zu letzt ein, er wirft dich nur in die Luft und du erhältst keinen Buff.
+
+{note:Die Pilze können nur gefunden werden wenn du dich auf der Quest {daily:27050} befindest.
+Alle Pilze werden als {object:Sprießender Rubinpilz} angezeigt.}
+]]

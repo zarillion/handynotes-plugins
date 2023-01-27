@@ -3,6 +3,15 @@ local L = ns.NewLocale('enUS')
 if not L then return end
 
 -------------------------------------------------------------------------------
+----------------------------------- COMMON ------------------------------------
+-------------------------------------------------------------------------------
+
+L['change_map'] = 'Change map'
+
+L['options_icons_safari'] = 'Kalimdor / Eastern Kingdoms Safari'
+L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:6585} and {achievement:6586} achievement.'
+
+-------------------------------------------------------------------------------
 --------------------------------- MOUNT HYJAL ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -73,5 +82,49 @@ Bomb the {title:<Firelord>} while you are on the quest {daily:29290}.
 
 {note:Only 3 {title:Firelord}s are active at a time. To complete the achievement faster dont turn in the quest and come back tomorrow.}
 ]]
-L['flamewalker_sentinel_note'] = 'Use {item:137663} to lower his health and so he cast {spell:98369}. Dodge all shots and then kill him.'
-L['flamewalker_shaman_note'] = 'Use {item:137663} to get him to low health. Wait until he kills himself.'
+L['flamewaker_sentinel_note'] = 'Use {item:137663} to lower his health and so he cast {spell:98369}. Dodge all shots and then kill him.'
+L['flamewaker_shaman_note'] = 'Use {item:137663} to get him to low health. Wait until he kills himself.'
+
+L['options_icons_spider_hill_desc'] = 'Displays the location for the {achievement:5872} achievement.'
+L['options_icons_fiery_lords_desc'] = 'Displays the locations of the elementals for the {achievement:5861} achievement.'
+L['options_icons_have_we_met_desc'] = 'Displays the quest location for the {achievement:5865} achievement.'
+L['options_icons_unbeatable_pterodactyl_desc'] = 'Displays the quest location for the {achievement:5860} achievement.'
+L['options_icons_ludicrous_speed_desc'] = 'Displays the location for the {achievement:5862} achievement.'
+L['options_icons_critter_revenge_desc'] = 'Displays the locations of the critters for the {achievement:5868} achievement.'
+L['options_icons_r4r_2_desc'] = 'Displays the location for the {achievement:5873} achievement.'
+L['options_icons_flawless_victory_desc'] = 'Displays the location for the {achievement:5873} achievement.'
+L['options_icons_gang_war_desc'] = 'Display the location for the {achievement:5864} achievement.'
+L['options_icons_death_from_above_desc'] = 'Displays the locations for the {achievement:5874} achievement.'
+L['options_icons_infernal_ambassadors_desc'] = 'Displays the locations for the {achievement:5869} achievement.'
+L['options_icons_fireside_chat_desc'] = 'Displays the locations of NPCs for the {achievement:5870} achievement.'
+L['options_icons_molten_flow_master_desc'] = 'Displays the locations for the {achievement:5871} achievement.'
+
+-------------------------------------------------------------------------------
+---------------------------------- DEEPHOLM -----------------------------------
+-------------------------------------------------------------------------------
+
+L['portal_to_therazane'] = 'Portal to Therazane\'s Throne'
+L['portal_to_earth_temple'] = 'Portal to Temple of Earth'
+
+L['fungal_frenzy_note'] = [[
+Suffer the effects of a {object:Poolstool}, {object:Shuffletruffle}, {object:Shrinkshroom} and {object:Trapcap} simultaneously.
+
+{dot:Bronze} {spell:83747}
+Redish-brown mushroom with white border.
+Makes you shrink.
+
+{dot:Red} {spell:83803}
+Large red mushroom, near water.
+Surrounds you with a red mist, increases damage dealt.
+
+{dot:Blue} {spell:83805}
+Blue mushroom with white border.
+Makes you run faster.
+
+{dot:LightBlue} {spell:83804}
+Purple mushroom with pink dots.
+Collect this mushroom last, it will only throw you in the air, you won't get any buff.
+
+{note:The mushrooms can only be found if you are on the quest {daily:27050}.
+All mushrooms are displayed as {object:Crimson Shroom}.}
+]]

@@ -4,6 +4,15 @@ local L = ns.NewLocale('esES')
 if not L then return end
 
 -------------------------------------------------------------------------------
+----------------------------------- COMMON ------------------------------------
+-------------------------------------------------------------------------------
+
+L['change_map'] = nil
+
+L['options_icons_safari'] = 'Safari de Kalimdor / Reinos del Este'
+L['options_icons_safari_desc'] = 'Muestra dónde están  las mascotas de combate para los logros {achievement:6585} y {achievement:6586}.'
+
+-------------------------------------------------------------------------------
 --------------------------------- MOUNT HYJAL ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -74,5 +83,28 @@ Bombardea a {title:Señor del Fuego} cuando estés haciendo la misión diaria 
 
 {note: Sólo hay 3 {title:Señor del Fuego} activos al mismo tiempo. Para completar el logro más rápido no devuelvas la misión y regresa al día siguiente.}
 ]]
-L['flamewalker_sentinel_note'] = 'Usa la {item:137663} para bajar su vida y así te lance {spell:98369}. Esquiva todos los disparos y mátalo.'
-L['flamewalker_shaman_note'] = 'Usa la {item:137663} para bajar su vida. Espera a que se mate él mismo.'
+L['flamewaker_sentinel_note'] = 'Usa la {item:137663} para bajar su vida y así te lance {spell:98369}. Esquiva todos los disparos y mátalo.'
+L['flamewaker_shaman_note'] = 'Usa la {item:137663} para bajar su vida. Espera a que se mate él mismo.'
+
+L['options_icons_spider_hill_desc'] = nil
+L['options_icons_fiery_lords_desc'] = nil
+L['options_icons_have_we_met_desc'] = nil
+L['options_icons_unbeatable_pterodactyl_desc'] = nil
+L['options_icons_ludicrous_speed_desc'] = nil
+L['options_icons_critter_revenge_desc'] = nil
+L['options_icons_r4r_2_desc'] = nil
+L['options_icons_flawless_victory_desc'] = nil
+L['options_icons_gang_war_desc'] = nil
+L['options_icons_death_from_above_desc'] = nil
+L['options_icons_infernal_ambassadors_desc'] = nil
+L['options_icons_fireside_chat_desc'] = nil
+L['options_icons_molten_flow_master_desc'] = nil
+
+-------------------------------------------------------------------------------
+---------------------------------- DEEPHOLM -----------------------------------
+-------------------------------------------------------------------------------
+
+L['portal_to_therazane'] = 'Portal al Trono de Therazane'
+L['portal_to_earth_temple'] = 'Portal al Templo de la Tierra'
+
+L['fungal_frenzy_note'] = nil

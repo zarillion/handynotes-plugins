@@ -151,6 +151,8 @@ function Addon:OnClick(button, down, mapID, coord)
         if map:CanFocus(node) then
             map:SetFocus(node, coord, not map:IsFocused(coord))
             Addon:RefreshImmediate()
+        elseif node.OnClick then
+            node.OnClick()
         end
     end
 end

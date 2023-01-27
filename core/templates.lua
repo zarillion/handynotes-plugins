@@ -99,7 +99,7 @@ function WorldMapOptionsButtonMixin:AddGroupButton(group, level)
     if group.name == 'misc' then
         -- find an icon from the misc nodes in the map
         for coord, node in pairs(map.nodes) do
-            if node.group == group then
+            if node.group[1] == group then
                 icon = node.icon
                 break
             end

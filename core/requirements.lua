@@ -140,10 +140,15 @@ function Profession:IsMet() return ns.PlayerHasProfession(self.skillID) end
 
 local Quest = Class('Quest', Requirement)
 
-function Quest:Initialize(id, text) self.id, self.text = id, text end
+function Quest:Initialize(id, text, daily)
+    self.id, self.text, self.daily = id, text, daily
+end
 
 function Quest:GetText()
-    return C_QuestLog.GetTitleForQuestID(self.id) or self.text or UNKNOWN
+    local icon = self.daily and ns.GetIconLink('quest_ab') or
+                     ns.GetIconLink('quest_ay')
+    local text = C_QuestLog.GetTitleForQuestID(self.id) or self.text or UNKNOWN
+    return icon .. text
 end
 
 function Quest:IsMet() return C_QuestLog.IsQuestFlaggedCompleted(self.id) end

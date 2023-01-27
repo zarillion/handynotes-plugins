@@ -2,9 +2,10 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Map = ns.Map
 local Class = ns.Class
+local Group = ns.Group
 local L = ns.locale
+local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
@@ -23,6 +24,107 @@ local Path = ns.poi.Path
 
 local map = Map({id = 198, settings = true})
 local mf = Map({id = 338, settings = true}) -- Molten Front
+
+-------------------------------------------------------------------------------
+----------------------------------- GROUPS ------------------------------------
+-------------------------------------------------------------------------------
+
+ns.groups.UNBEATABLE_PTERODACTYL = Group('unbeatable_pterodactyl', 132200, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5860,
+    label = '{achievement:5860}'
+})
+
+ns.groups.LUDICROUS_SPEED = Group('ludicrous_speed', 132172, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5862,
+    label = '{achievement:5862}'
+})
+
+ns.groups.HAVE_WE_MET = Group('have_we_met', 135646, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5865,
+    label = '{achievement:5865}'
+})
+
+ns.groups.SPIDER_HILL = Group('spider_hill', 132196, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5872,
+    label = '{achievement:5872}'
+})
+
+ns.groups.R4R_2 = Group('r4r_2', 135789, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5873,
+    label = '{achievement:5873}'
+})
+
+ns.groups.FLAWLESS_VICTORY = Group('flawless_victory', 459027, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5867,
+    label = '{achievement:5867}'
+})
+
+ns.groups.GANG_WAR = Group('gang_war', 135415, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5864,
+    label = '{achievement:5864}'
+})
+
+ns.groups.MOLTEN_FLOW_MASTER = Group('molten_flow_master', 135822, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5871,
+    label = '{achievement:5871}'
+})
+
+ns.groups.CRITTER_REVENGE = Group('critter_revenge', 132200, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5868,
+    label = '{achievement:5868}'
+})
+
+ns.groups.FIERY_LORDS = Group('fiery_lords', 135790, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5861,
+    label = '{achievement:5861}'
+})
+
+ns.groups.INFERNAL_AMBASSADORS = Group('infernal_ambassadors', 236191, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5869,
+    label = '{achievement:5869}'
+})
+
+ns.groups.FIRESIDE_CHAT = Group('fireside_chat', 236450, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5870,
+    label = '{achievement:5870}'
+})
+
+ns.groups.GANG_WAR = Group('gang_war', 135415, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5864,
+    label = '{achievement:5864}'
+})
+ns.groups.DEATH_FROM_ABOVE = Group('death_from_above', 512904, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5874,
+    label = '{achievement:5874}'
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- PHASE NODES ---------------------------------
@@ -329,7 +431,7 @@ map.nodes[23285899] = CritterRevenge({
 ------------------------------ DEATH FROM ABOVE -------------------------------
 -------------------------------------------------------------------------------
 
-local dfa = Class('dfa', Collectible, {
+local dfa = Class('death_from_above', Collectible, {
     icon = 512904,
     note = L['death_from_above_note'],
     requires = {HyjalPhase(41)}
@@ -378,13 +480,13 @@ local MoltenFlowMaster = Class('MoltenFlowMaster', NPC, {
 
 mf.nodes[46005000] = MoltenFlowMaster({
     id = 53085,
-    note = L['flamewalker_sentinel_note'],
+    note = L['flamewaker_sentinel_note'],
     rewards = {Achievement({id = 5871, criteria = 17836})}
 }) -- Sentinel
 
 mf.nodes[48005000] = MoltenFlowMaster({
     id = 53093,
-    note = L['flamewalker_shaman_note'],
+    note = L['flamewaker_shaman_note'],
     rewards = {Achievement({id = 5871, criteria = 17835})}
 }) -- Shaman
 
@@ -410,7 +512,9 @@ map.nodes[27495634] = ns.node.Node({
         Achievement({id = 5873, criteria = {17840, 17841, 17842, 17843, 17844}}),
         Achievement(
             {id = 5874, criteria = {17857, 17859, 17861, 17858, 17860, 17862}})
-    }
+    },
+    OnClick = function() WorldMapFrame:SetMapID(mf.id) end,
+    clabel = L['change_map']
 }) -- Portal to the Molten Front
 
 map.nodes[37225618] = Collectible({
