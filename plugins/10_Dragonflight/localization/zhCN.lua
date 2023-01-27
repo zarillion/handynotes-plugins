@@ -56,13 +56,13 @@ L['tuskarr_tacklebox'] = '海象人工具盒'
 L['options_icons_tuskarr_tacklebox'] = '海象人工具盒'
 L['options_icons_tuskarr_tacklebox_desc'] = '显示 {object:海象人工具盒} 可能的位置。'
 
-L['dr_best'] = '最快时间：\n - 普通：%.3f秒\n - 进阶：%.3f秒'
+L['dr_best'] = '最快时间：\n - 普通：%.3f秒\n - 进阶：%.3f秒\n - 反向：%.3f秒'
 L['dr_best_dash'] = '最快时间：\n - %.3f秒'
-L['dr_note'] = '目标时间：\n - 普通：%s秒 / %s秒\n - 进阶：%s秒 / %s秒'
+L['dr_note'] = '目标时间：\n - 普通：%s秒 / %s秒\n - 进阶：%s秒 / %s秒\n - 反向：%s秒 / %s秒'
 L['dr_note_dash'] = '目标时间：\n - %s秒 / %s秒'
 L['dr_bronze'] = '\n\n完成竞速获得 ' .. ns.color.Bronze('青铜') .. '。'
 L['options_icons_dragonrace'] = '驭龙竞速'
-L['options_icons_dragonrace_desc'] = '显示区域内驭龙竞速的位置。'
+L['options_icons_dragonrace_desc'] = '显示区域内全部驭龙竞速的位置。'
 
 L['squirrels_note'] = '必须使用表情 {emote:/爱}，{emote:/love} 给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:16729}'
@@ -355,9 +355,9 @@ L['chest_of_the_elements'] = '元素宝箱'
 L['hoard_of_draconic_delicacies_note_start'] = '完成 {npc:189479} 提供的7个以下任务：'
 L['hoard_of_draconic_delicacies_note_end'] = '完成所有任务后，{npc:189479} 将提供 {quest:67071} 以接收食谱。\n\n{note:任务基于 {location:红玉飞地} 的活跃客座厨师，可能不匹配上面列出的顺序。}'
 
-L['brendormi_note_start'] = nil
-L['brendormi_note_item'] = nil
-L['brendormi_note_currency'] = nil
+L['brendormi_note_start'] = '用 {item:202039} 和 {currency:2118} 换取装备，宠物和坐骑。'
+L['brendormi_note_item'] = '当前有 %s {item:202039}。'
+L['brendormi_note_currency'] = '当前有 %s {currency:2118}。'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
