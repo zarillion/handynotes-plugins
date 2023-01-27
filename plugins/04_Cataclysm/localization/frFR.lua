@@ -7,10 +7,10 @@ if not L then return end
 ----------------------------------- COMMON ------------------------------------
 -------------------------------------------------------------------------------
 
-L['change_map'] = nil
+L['change_map'] = 'Changer la carte'
 
-L['options_icons_safari'] = 'Safari de Kalimdor / Reinos del Este'
-L['options_icons_safari_desc'] = 'Muestra dónde están  las mascotas de combate para los logros {achievement:6585} y {achievement:6586}.'
+L['options_icons_safari'] = 'Safari en Kalimdor / dans les Royaumes de l\'Est'
+L['options_icons_safari_desc'] = 'Afficher les emplacements des familiers de combat pour les hauts-faits {achievement:6585} et {achievement:6586}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- MOUNT HYJAL ---------------------------------
@@ -86,19 +86,19 @@ Bombardez le {title:<Seigneur du Feu>} durant la quête {daily:29290}.
 L['flamewaker_sentinel_note'] = 'Utilisez l\'{item:137663} pour réduire sa vie afin qu\'il lance {spell:98369}. Évitez tous les tirs et tuez-le.'
 L['flamewaker_shaman_note'] = 'Utilisez l\'{item:137663} pour réduire sa vie. Attendez qu\'il se suicide.'
 
-L['options_icons_spider_hill_desc'] = nil
-L['options_icons_fiery_lords_desc'] = nil
-L['options_icons_have_we_met_desc'] = nil
-L['options_icons_unbeatable_pterodactyl_desc'] = nil
-L['options_icons_ludicrous_speed_desc'] = nil
-L['options_icons_critter_revenge_desc'] = nil
-L['options_icons_r4r_2_desc'] = nil
-L['options_icons_flawless_victory_desc'] = nil
-L['options_icons_gang_war_desc'] = nil
-L['options_icons_death_from_above_desc'] = nil
-L['options_icons_infernal_ambassadors_desc'] = nil
-L['options_icons_fireside_chat_desc'] = nil
-L['options_icons_molten_flow_master_desc'] = nil
+L['options_icons_spider_hill_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:5872}.'
+L['options_icons_fiery_lords_desc'] = 'Afficher les emplacements des élémentaires pour le haut-fait {achievement:5861}.'
+L['options_icons_have_we_met_desc'] = 'Afficher l\'emplacement de la quête pour le haut-fait {achievement:5865}.'
+L['options_icons_unbeatable_pterodactyl_desc'] = 'Afficher l\'emplacement de la quête pour le haut-fait {achievement:5860}.'
+L['options_icons_ludicrous_speed_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:5862}.'
+L['options_icons_critter_revenge_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:5868}.'
+L['options_icons_r4r_2_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:5873}.'
+L['options_icons_flawless_victory_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:5867}.'
+L['options_icons_gang_war_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:5864}.'
+L['options_icons_death_from_above_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:5874}.'
+L['options_icons_infernal_ambassadors_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:5869}.'
+L['options_icons_fireside_chat_desc'] = 'Afficher les emplacements des PNJs pour le haut-fait {achievement:5870}.'
+L['options_icons_molten_flow_master_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:5871}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DEEPHOLM -----------------------------------
@@ -107,4 +107,25 @@ L['options_icons_molten_flow_master_desc'] = nil
 L['portal_to_therazane'] = 'Portail vers le Trône de Therazane'
 L['portal_to_earth_temple'] = 'Portail vers le temple de la Terre'
 
-L['fungal_frenzy_note'] = nil
+L['fungal_frenzy_note'] = [[
+Subissez simultanément les effets d'un {object:Commugnon}, {object:Truffe-traînante}, {object:Champitisseur} et {object:Bolet-collet}.
+
+{dot:Bronze} {spell:83747}
+Champignon brun rougeâtre avec un bord blanc.
+Vous fait rapetisser.
+
+{dot:Red} {spell:83803}
+Grand champignon rouge, près de l'eau.
+Vous entoure d'une brume rouge, augmente les dégâts infligés.
+
+{dot:Blue} {spell:83805}
+Champignon bleu avec une bordure blanche.
+Vous fait courir plus vite.
+
+{dot:LightBlue} {spell:83804}
+Champignon violet à points roses.
+Ramassez ce champignon en dernier, il ne fera que vous projeter en l'air, vous ne recevrez aucun buff.
+
+{note:Les champignons ne peuvent être trouvés que si vous effectuez la quête {daily:27050}.
+Tous les champignons sont affichés en tant que {object:Champignon cramoisi}.}
+]]
