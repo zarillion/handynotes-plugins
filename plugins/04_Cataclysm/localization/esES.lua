@@ -86,19 +86,19 @@ Bombardea a {title:Señor del Fuego} cuando estés haciendo la misión diaria 
 L['flamewaker_sentinel_note'] = 'Usa la {item:137663} para bajar su vida y así te lance {spell:98369}. Esquiva todos los disparos y mátalo.'
 L['flamewaker_shaman_note'] = 'Usa la {item:137663} para bajar su vida. Espera a que se mate él mismo.'
 
-L['options_icons_spider_hill_desc'] = nil
-L['options_icons_fiery_lords_desc'] = nil
-L['options_icons_have_we_met_desc'] = nil
-L['options_icons_unbeatable_pterodactyl_desc'] = nil
-L['options_icons_ludicrous_speed_desc'] = nil
-L['options_icons_critter_revenge_desc'] = nil
-L['options_icons_r4r_2_desc'] = nil
-L['options_icons_flawless_victory_desc'] = nil
-L['options_icons_gang_war_desc'] = nil
-L['options_icons_death_from_above_desc'] = nil
-L['options_icons_infernal_ambassadors_desc'] = nil
-L['options_icons_fireside_chat_desc'] = nil
-L['options_icons_molten_flow_master_desc'] = nil
+L['options_icons_spider_hill_desc'] = 'Muestra dónde hacer el logro {achievement:5872}.'
+L['options_icons_fiery_lords_desc'] = 'Muestra dónde están los elementales para el logro {achievement:5861}.'
+L['options_icons_have_we_met_desc'] = 'Muestra dónde está la misión para el logro {achievement:5865}.'
+L['options_icons_unbeatable_pterodactyl_desc'] = 'Muestra dónde está la misión para el logro {achievement:5860}.'
+L['options_icons_ludicrous_speed_desc'] = 'Muestra dónde hacer el logro {achievement:5862}.'
+L['options_icons_critter_revenge_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:5868}.'
+L['options_icons_r4r_2_desc'] = 'Muestra los sitios para el logro {achievement:5873}.'
+L['options_icons_flawless_victory_desc'] = 'Muestra los sitios para el logro {achievement:5873}.'
+L['options_icons_gang_war_desc'] = 'Muestra dónde hacer el logro {achievement:5864}.'
+L['options_icons_death_from_above_desc'] = 'Muestra los sitios para el logro {achievement:5874}.'
+L['options_icons_infernal_ambassadors_desc'] = 'Muestra los sitios para el logro {achievement:5869}.'
+L['options_icons_fireside_chat_desc'] = 'Muestra dónde están los NPC para el logro {achievement:5870}.'
+L['options_icons_molten_flow_master_desc'] = 'Muestra dónde hacer el logro {achievement:5871}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DEEPHOLM -----------------------------------
@@ -107,4 +107,25 @@ L['options_icons_molten_flow_master_desc'] = nil
 L['portal_to_therazane'] = 'Portal al Trono de Therazane'
 L['portal_to_earth_temple'] = 'Portal al Templo de la Tierra'
 
-L['fungal_frenzy_note'] = nil
+L['fungal_frenzy_note'] = [[
+Sufre los efectos de {object:Pierevuelto}, {object:Trufameneo}, {object:Encogeseta} y {object:Trampiñón} simultáneamente.
+
+{dot:Bronze} {spell:83747}
+Seta marrón-rojizo con borde blanco.
+Te encoje.
+
+{dot:Red} {spell:83803}
+Seta roja y grande. Junto al agua.
+Te rodea con una niebla roja. Aumenta el daño infligido.
+
+{dot:Blue} {spell:83805}
+Seta azul con borde blanco.
+Te hace correr más rápido.
+
+{dot:LightBlue} {spell:83804}
+Seta lila con puntos rosas.
+Recoge esta seta la última. Sólo te lanzará al aire y no tendrás ningún buff.
+
+{note:Las setas sólo se pueden encontrar durante la misión {daily:27050}.
+Todas las setas se muestran como {object:Seta Carmesí}.}
+]]
