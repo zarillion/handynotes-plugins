@@ -1160,7 +1160,7 @@ map.nodes[63743051] = Dragonrace({
     label = '{quest:66835}',
     normal = {2060, 52, 44},
     advanced = {2061, 46, 41},
-    reverse = {2183, 46, 41},
+    reverse = {2183, 50, 45},
     rewards = {
         Achievement({id = 15918, criteria = 1, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 1, oneline = true}), -- normal silver
@@ -1178,7 +1178,7 @@ map.nodes[86263583] = Dragonrace({
     label = '{quest:66877}',
     normal = {2062, 51, 44},
     advanced = {2063, 46, 41},
-    reverse = {2184, 46, 41},
+    reverse = {2184, 52, 47},
     rewards = {
         Achievement({id = 15918, criteria = 2, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 2, oneline = true}), -- normal silver
@@ -1196,7 +1196,7 @@ map.nodes[80887221] = Dragonrace({
     label = '{quest:66880}',
     normal = {2064, 52, 50},
     advanced = {2065, 52, 47},
-    reverse = {2185, 52, 47},
+    reverse = {2185, 51, 46},
     rewards = {
         Achievement({id = 15918, criteria = 3, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 3, oneline = true}), -- normal silver
@@ -1214,7 +1214,7 @@ map.nodes[25715508] = Dragonrace({
     label = '{quest:66885}',
     normal = {2066, 66, 59},
     advanced = {2067, 60, 55},
-    reverse = {2186, 60, 55},
+    reverse = {2186, 62, 57},
     rewards = {
         Achievement({id = 15918, criteria = 4, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 4, oneline = true}), -- normal silver
@@ -1252,7 +1252,7 @@ map.nodes[43746678] = Dragonrace({
     label = '{quest:70710}',
     normal = {2119, 51, 46},
     advanced = {2120, 48, 43},
-    reverse = {2187, 48, 43},
+    reverse = {2187, 49, 44},
     rewards = {
         Achievement({id = 15918, criteria = 7, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 7, oneline = true}), -- normal silver
