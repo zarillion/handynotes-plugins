@@ -356,6 +356,10 @@ L['chest_of_the_elements'] = 'Cofre de los elementos'
 L['hoard_of_draconic_delicacies_note_start'] = 'Completa las siguientes 7 misiones que da {npc:189479}:'
 L['hoard_of_draconic_delicacies_note_end'] = 'Una vez completadas todas las misiones, {npc:189479} te dará la misión {quest:67071} para recibir la receta.\n\n{note:Las misiones se basan en el chef huésped que esté activo en el {location:Enclave Rubí} y pueden no coincidir en el orden listado encima.}'
 
+L['brendormi_note_start'] = nil
+L['brendormi_note_item'] = nil
+L['brendormi_note_currency'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

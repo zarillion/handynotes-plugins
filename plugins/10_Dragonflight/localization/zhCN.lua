@@ -355,6 +355,10 @@ L['chest_of_the_elements'] = '元素宝箱'
 L['hoard_of_draconic_delicacies_note_start'] = '完成 {npc:189479} 提供的7个以下任务：'
 L['hoard_of_draconic_delicacies_note_end'] = '完成所有任务后，{npc:189479} 将提供 {quest:67071} 以接收食谱。\n\n{note:任务基于 {location:红玉飞地} 的活跃客座厨师，可能不匹配上面列出的顺序。}'
 
+L['brendormi_note_start'] = nil
+L['brendormi_note_item'] = nil
+L['brendormi_note_currency'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

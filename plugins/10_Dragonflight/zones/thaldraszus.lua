@@ -351,6 +351,18 @@ map.nodes[36798556] = Rare({
 }) -- Lookout Mordren
 
 -------------------------------------------------------------------------------
+
+-- Rares in The Primalist Future (10.0.5)
+
+tpf.nodes[48421722] = Rare({id = 201562, quest = 74556}) -- Shardwing
+
+tpf.nodes[62073370] = Rare({id = 201542, quest = 74558}) -- Tikarr Frostclaw
+
+tpf.nodes[53536521] = Rare({id = 201543, quest = 74554}) -- Avalantus
+
+tpf.nodes[46884248] = Rare({id = 201545, quest = 74553}) -- Shapemaster Za'lani
+
+-------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -1286,5 +1298,26 @@ val.nodes[35182459] = NPC({
     note = L['lillian_brightmoon_note'],
     parent = map.id
 }) -- Lillian Brightmoon (Dragonscale Expedition Reputation)
+
+local Brendormi = Class('Brendormi', Collectible, {
+    id = 199425,
+    icon = 135990,
+    rewards = {
+        Toy({item = 202020}), -- Chasing Storm
+        Pet({item = 193855, id = 3334}), -- Time-Lost Vorquin
+        Mount({item = 192800, id = 1478}) -- Skyskin Hornstrider
+    }
+}) -- Brendormi <Field Primal Researcher>
+
+function Brendormi.getters:note()
+    local item = GetItemCount(202039, true) -- Essence of the Storm
+    local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
+    local note = L['brendormi_note_start'] .. '\n\n'
+    note = note .. format(L['brendormi_note_item'], item) .. '\n'
+    note = note .. format(L['brendormi_note_currency'], currency) .. '\n'
+    return note
+end
+
+tpf.nodes[61244679] = Brendormi()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

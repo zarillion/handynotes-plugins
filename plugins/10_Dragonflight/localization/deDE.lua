@@ -349,6 +349,10 @@ L['chest_of_the_elements'] = 'Truhe der Elemente'
 L['hoard_of_draconic_delicacies_note_start'] = 'Schließe die folgenden 7 Quests von {npc:189479} ab:'
 L['hoard_of_draconic_delicacies_note_end'] = 'Nachdem alle Quests abgeschlossen wurden wird {npc:189479} die Quest {quest:67071} anbieten, um dein Rezept zu erhalten.\n\n{note:Die Quests richten sich nach dem aktiven Gastkoch in {location:Die Rubinenklave} und stimmen möglicherweise nicht mit der oben aufgeführten Reihenfolge überein.}'
 
+L['brendormi_note_start'] = nil
+L['brendormi_note_item'] = nil
+L['brendormi_note_currency'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

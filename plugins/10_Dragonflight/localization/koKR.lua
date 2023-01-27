@@ -349,6 +349,10 @@ L['chest_of_the_elements'] = nil
 L['hoard_of_draconic_delicacies_note_start'] = nil
 L['hoard_of_draconic_delicacies_note_end'] = nil
 
+L['brendormi_note_start'] = nil
+L['brendormi_note_item'] = nil
+L['brendormi_note_currency'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

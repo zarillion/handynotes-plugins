@@ -355,6 +355,10 @@ L['chest_of_the_elements'] = 'Chest of the Elements'
 L['hoard_of_draconic_delicacies_note_start'] = 'Complete the following 7 quests provided by {npc:189479}:'
 L['hoard_of_draconic_delicacies_note_end'] = 'After all quests have been completed {npc:189479} will provide {quest:67071} to receive your recipe.\n\n{note:Quests are based on the active guest chef at {location:The Ruby Enclave} and may not match the order listed above.}'
 
+L['brendormi_note_start'] = 'Exchange {item:202039} and {currency:2118} for gear, a pet, a toy, and a mount.'
+L['brendormi_note_item'] = 'You currently have %s {item:202039}.'
+L['brendormi_note_currency'] = 'You currently have %s {currency:2118}.'
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
