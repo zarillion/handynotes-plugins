@@ -107,7 +107,7 @@ L['portal_to_therazane'] = 'Portal to Therazane\'s Throne'
 L['portal_to_earth_temple'] = 'Portal to Temple of Earth'
 
 L['fungal_frenzy_note'] = [[
-Suffer the effects of a {object:Poolstool}, {object:Shuffletruffle}, {object:Shrinkshroom} and {object:Trapcap} simultaneously.
+Suffer the effects of a {spell:83803}, {spell:83805}, {spell:83747} and {spell:83804} simultaneously. 
 
 {dot:Bronze} {spell:83747}
 Redish-brown mushroom with white border.
@@ -126,5 +126,5 @@ Purple mushroom with pink dots.
 Collect this mushroom last, it will only throw you in the air, you won't get any buff.
 
 {note:The mushrooms can only be found if you are on the quest {daily:27050}.
-All mushrooms are displayed as {object:Crimson Shroom}.}
+All mushrooms are displayed as {object:Sprouting Crimson Mushroom}.}
 ]]

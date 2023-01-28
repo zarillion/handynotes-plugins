@@ -6,7 +6,7 @@ if not L then return end
 ----------------------------------- COMMON ------------------------------------
 -------------------------------------------------------------------------------
 
-L['change_map'] = nil
+L['change_map'] = '更改地图'
 
 L['options_icons_safari'] = '{achievement:6585} / {achievement:6586}'
 L['options_icons_safari_desc'] = '显示 {achievement:6585} 和 {achievement:6586} 成就中战斗宠物的位置。'
@@ -85,19 +85,19 @@ L['death_from_above_note'] = [[
 L['flamewaker_sentinel_note'] = '使用 {item:137663} 降低他的生命值后其施放 {spell:98369}。躲开所有的射击后击杀他。'
 L['flamewaker_shaman_note'] = '使用 {item:137663} 让其低血量。等他自杀。'
 
-L['options_icons_spider_hill_desc'] = nil
-L['options_icons_fiery_lords_desc'] = nil
-L['options_icons_have_we_met_desc'] = nil
-L['options_icons_unbeatable_pterodactyl_desc'] = nil
-L['options_icons_ludicrous_speed_desc'] = nil
-L['options_icons_critter_revenge_desc'] = nil
-L['options_icons_r4r_2_desc'] = nil
-L['options_icons_flawless_victory_desc'] = nil
-L['options_icons_gang_war_desc'] = nil
-L['options_icons_death_from_above_desc'] = nil
-L['options_icons_infernal_ambassadors_desc'] = nil
-L['options_icons_fireside_chat_desc'] = nil
-L['options_icons_molten_flow_master_desc'] = nil
+L['options_icons_spider_hill_desc'] = '显示 {achievement:5872} 成就中的位置。'
+L['options_icons_fiery_lords_desc'] = '显示 {achievement:5861} 成就中元素的位置。'
+L['options_icons_have_we_met_desc'] = '显示 {achievement:5865} 成就中任务的位置。'
+L['options_icons_unbeatable_pterodactyl_desc'] = '显示 {achievement:5860} 成就中任务的位置。'
+L['options_icons_ludicrous_speed_desc'] = '显示 {achievement:5862} 成就中的位置。'
+L['options_icons_critter_revenge_desc'] = '显示 {achievement:5868} 成就中小动物的位置。'
+L['options_icons_r4r_2_desc'] = '显示 {achievement:5873} 成就中的位置。'
+L['options_icons_flawless_victory_desc'] = '显示 {achievement:5873} 成就中的位置。'
+L['options_icons_gang_war_desc'] = '显示 {achievement:5864} 成就中的位置。'
+L['options_icons_death_from_above_desc'] = '显示 {achievement:5874} 成就中的位置。'
+L['options_icons_infernal_ambassadors_desc'] = '显示 {achievement:5869} 成就中的位置。'
+L['options_icons_fireside_chat_desc'] = '显示 {achievement:5870} 成就中 NPC 的位置。'
+L['options_icons_molten_flow_master_desc'] = '显示 {achievement:5871} 成就中的位置。'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DEEPHOLM -----------------------------------
@@ -106,4 +106,25 @@ L['options_icons_molten_flow_master_desc'] = nil
 L['portal_to_therazane'] = '通往塞拉赞恩王座的传送门'
 L['portal_to_earth_temple'] = '通往大地神殿的传送门'
 
-L['fungal_frenzy_note'] = nil
+L['fungal_frenzy_note'] = [[
+同时经受住 {spell:83803}、{spell:83805}、{spell:83747} 和 {spell:83804} 的效果。 
+
+{dot:Bronze} {spell:83747}
+带白边的红棕色蘑菇。
+让你缩小。
+
+{dot:Red} {spell:83803}
+大红色蘑菇，水边附近。
+用红色的雾气包围你，增加造成的伤害。
+
+{dot:Blue} {spell:83805}
+带白边的蓝色蘑菇。
+让你跑得更快。
+
+{dot:LightBlue} {spell:83804}
+带粉红色圆点的紫色蘑菇。
+最后收集这个蘑菇，它只会把你扔到空中，不会得到任何增益。
+
+{note:只有在 {daily:27050} 任务中才能找到蘑菇。
+所有蘑菇都显示为 {object:萌芽的赤红蘑菇}。}
+]]
