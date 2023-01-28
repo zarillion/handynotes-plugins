@@ -107,7 +107,7 @@ L['portal_to_therazane'] = 'Portal to Therazane\'s Throne'
 L['portal_to_earth_temple'] = 'Portal to Temple of Earth'
 
 L['fungal_frenzy_note'] = [[
-Suffer the effects of a {spell:83803}, {spell:83805}, {spell:83747} and {spell:83804} simultaneously. 
+Suffer the effects of a {spell:83803}, {spell:83805}, {spell:83747} and {spell:83804} simultaneously.
 
 {dot:Bronze} {spell:83747}
 Redish-brown mushroom with white border.

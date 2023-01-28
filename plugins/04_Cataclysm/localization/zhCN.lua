@@ -107,7 +107,7 @@ L['portal_to_therazane'] = '通往塞拉赞恩王座的传送门'
 L['portal_to_earth_temple'] = '通往大地神殿的传送门'
 
 L['fungal_frenzy_note'] = [[
-同时经受住 {spell:83803}、{spell:83805}、{spell:83747} 和 {spell:83804} 的效果。 
+同时经受住 {spell:83803}、{spell:83805}、{spell:83747} 和 {spell:83804} 的效果。
 
 {dot:Bronze} {spell:83747}
 带白边的红棕色蘑菇。
