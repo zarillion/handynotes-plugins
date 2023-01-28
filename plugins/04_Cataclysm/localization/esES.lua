@@ -108,7 +108,7 @@ L['portal_to_therazane'] = 'Portal al Trono de Therazane'
 L['portal_to_earth_temple'] = 'Portal al Templo de la Tierra'
 
 L['fungal_frenzy_note'] = [[
-Sufre los efectos de {object:Pierevuelto}, {object:Trufameneo}, {object:Encogeseta} y {object:Trampiñón} simultáneamente.
+Sufre los efectos de {spell:83803}, {spell:83805}, {spell:83747} y {spell:83804} simultáneamente. 
 
 {dot:Bronze} {spell:83747}
 Seta marrón-rojizo con borde blanco.
