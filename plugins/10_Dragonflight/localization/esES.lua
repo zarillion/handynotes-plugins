@@ -218,9 +218,9 @@ L['windscale_the_stormborn_note'] = 'Mata a los {npc:192367} que están canaliza
 L['windseeker_avash_note'] = 'Mata a los {npc:195742} cercanos y a los {npc:187916} para hacer aparecer al raro.'
 L['zarizz_note'] = 'Selecciona a las {npc:193169} y teclea {emote:/hiss} en ellas para invocar al raro.'
 
-L['aylaag_outpost_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en la {location:Avanzada Aylaag}.}'
-L['eaglewatch_outpost_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en la {location:Avanzada Vigía del Águila}.}'
-L['river_camp_note'] = '{note:Este raro sólo aparece en el Campamento del {faction:Clan Aylaag} en el {location:Campamento del Río}.}'
+L['aylaag_outpost_note'] = '{note:Este raro sólo aparece cuando el campamento del {faction:Clan Aylaag} está en la {location:Avanzada Aylaag}.}'
+L['eaglewatch_outpost_note'] = '{note:Este raro sólo aparece cuando el campamento del {faction:Clan Aylaag} está en la {location:Avanzada Vigía del Águila}.}'
+L['river_camp_note'] = '{note:Este raro sólo aparece cuando el campamento del {faction:Clan Aylaag} está en el {location:Campamento del Río}.}'
 
 L['defend_clan_aylaag'] = 'Defiende al Clan Aylaag'
 L['defend_clan_aylaag_note'] = '{note:Sólo aparece cuando se defienden los eventos de movimiento de campamentos del {faction:Clan Aylaag}. No hay botín.}'
