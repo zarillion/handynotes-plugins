@@ -108,7 +108,7 @@ L['portal_to_therazane'] = 'Portail vers le Trône de Therazane'
 L['portal_to_earth_temple'] = 'Portail vers le temple de la Terre'
 
 L['fungal_frenzy_note'] = [[
-Subissez simultanément les effets d'un {object:Commugnon}, {object:Truffe-traînante}, {object:Champitisseur} et {object:Bolet-collet}.
+Subissez simultanément les effets d'un {spell:83803}, {spell:83805}, {spell:83747} et {spell:83804}.
 
 {dot:Bronze} {spell:83747}
 Champignon brun rougeâtre avec un bord blanc.
@@ -127,5 +127,5 @@ Champignon violet à points roses.
 Ramassez ce champignon en dernier, il ne fera que vous projeter en l'air, vous ne recevrez aucun buff.
 
 {note:Les champignons ne peuvent être trouvés que si vous effectuez la quête {daily:27050}.
-Tous les champignons sont affichés en tant que {object:Champignon cramoisi}.}
+Tous les champignons sont affichés en tant que {object:Champignon cramoisi naissant}.}
 ]]
