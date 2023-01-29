@@ -128,4 +128,4 @@ L['fungal_frenzy_note'] = [[
 {note:只有在 {daily:27050} 任务中才能找到蘑菇。
 所有蘑菇都显示为 {object:萌芽的赤红蘑菇}。}
 ]]
-L['rock_lover_note'] = nil
+L['rock_lover_note'] = '远离 {npc:44258}。'
