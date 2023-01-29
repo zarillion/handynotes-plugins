@@ -29,11 +29,39 @@ local map = Map({id = 207, settings = true})
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.FUNGAL_FRENZY = Group('fungal_frenzy', 132200, {
+ns.groups.FUNGAL_FRENZY = Group('fungal_frenzy', 134528, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 5450,
     label = '{achievement:5450}'
+})
+
+ns.groups.ROCK_LOVER = Group('rock_lover', 136024, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5449,
+    label = '{achievement:5449}'
+})
+
+ns.groups.GLOP_FAMILY = Group('glop_family', 134533, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5446,
+    label = '{achievement:5446}'
+})
+
+ns.groups.FUNGALOPHOBIA = Group('fungalophobia', 134527, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5445,
+    label = '{achievement:5445}'
+})
+
+ns.groups.BROODMOTHER = Group('broodmother', 433446, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 5447,
+    label = '{achievement:5447}'
 })
 
 -------------------------------------------------------------------------------
@@ -140,6 +168,7 @@ map.nodes[55371414] = Collectible({
     icon = 136024,
     quest = 26710,
     note = L['rock_lover_note'],
+    group = ns.groups.ROCK_LOVER,
     rewards = {
         Achievement({id = 5449, criteria = {id = 15644, qty = true}}), -- Rock Lover
         Pet({item = 60869, id = 265}) -- Pebble
@@ -157,6 +186,7 @@ map.nodes[59591404] = Collectible({
     id = 44973,
     icon = 134527,
     quest = 28390,
+    group = {ns.groups.GLOP_FAMILY, ns.groups.FUNGALOPHOBIA},
     rewards = {
         Achievement({id = 5446, criteria = {id = 15640, qty = true}}), -- The Glop Family Line
         Achievement({id = 5445}) -- Fungalophobia
@@ -167,6 +197,7 @@ map.nodes[54581430] = Collectible({
     id = 43806,
     icon = 433446,
     quest = 28391,
+    group = ns.groups.BROODMOTHER,
     rewards = {Achievement({id = 5447})} -- My Very Own Broodmother
 }) -- Terrath the Steady
 
