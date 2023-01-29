@@ -61,62 +61,58 @@ map.nodes[50798236] = Rare({
     pois = {POI({55508360})}
 }) -- Tarvus the Vile
 
-local DragonmawDuty = Class('DragonmawDuty', Rare, {
-    faction = 'Horde'
-})
+local DragonmawDuty = Class('DragonmawDuty', Rare, {faction = 'Horde'})
 
 map.nodes[45803310] = DragonmawDuty({
     id = 46885,
-    rewards = {Achievement({id = 5482, criteria = 15952})},
+    rewards = {Achievement({id = 5482, criteria = 15952})}
 }) -- High Shaman MacKilligan
 
 map.nodes[45204315] = DragonmawDuty({
     id = 46376,
-    rewards = {Achievement({id = 5482, criteria = 15954})},
+    rewards = {Achievement({id = 5482, criteria = 15954})}
 }) -- Gunwald Greybeard
 
 map.nodes[45903147] = DragonmawDuty({
     id = 47115,
-    rewards = {Achievement({id = 5482, criteria = 15950})},
+    rewards = {Achievement({id = 5482, criteria = 15950})}
 }) -- Black Recluse
 
 map.nodes[46493720] = DragonmawDuty({
     id = 46378,
-    rewards = {Achievement({id = 5482, criteria = 15953})},
+    rewards = {Achievement({id = 5482, criteria = 15953})}
 }) -- Dillan MacHurley
 
 map.nodes[51902780] = DragonmawDuty({
     id = 46377,
-    rewards = {Achievement({id = 5482, criteria = 15955})},
+    rewards = {Achievement({id = 5482, criteria = 15955})}
 }) -- Cliff Thundermar
 
 map.nodes[52502810] = DragonmawDuty({
     id = 47171,
-    rewards = {Achievement({id = 5482, criteria = 15951})},
+    rewards = {Achievement({id = 5482, criteria = 15951})}
 }) -- Korthalon
 
-local WildhammerDuty = Class('WildhammerDuty', Rare, {
-    faction = 'Alliance'
-})
+local WildhammerDuty = Class('WildhammerDuty', Rare, {faction = 'Alliance'})
 
 map.nodes[49073720] = WildhammerDuty({
     id = 46493,
-    rewards = {Achievement({id = 5481, criteria = 15948})},
+    rewards = {Achievement({id = 5481, criteria = 15948})}
 }) -- Warlord Halthar
 
 map.nodes[45903148] = WildhammerDuty({
     id = 47115,
-    rewards = {Achievement({id = 5481, criteria = 15950})},
+    rewards = {Achievement({id = 5481, criteria = 15950})}
 }) -- Black Recluse
 
 map.nodes[51203380] = WildhammerDuty({
     id = 46756,
-    rewards = {Achievement({id = 5481, criteria = 15949})},
+    rewards = {Achievement({id = 5481, criteria = 15949})}
 }) -- Karkrog the Exterminator
 
 map.nodes[52502811] = WildhammerDuty({
     id = 47171,
-    rewards = {Achievement({id = 5481, criteria = 15951})},
+    rewards = {Achievement({id = 5481, criteria = 15951})}
 }) -- Korthalon
 
 -------------------------------------------------------------------------------
