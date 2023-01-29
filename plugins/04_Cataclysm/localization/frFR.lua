@@ -130,3 +130,23 @@ Ramassez ce champignon en dernier, il ne fera que vous projeter en l'air, vous n
 Tous les champignons sont affichés en tant que {object:Champignon cramoisi naissant}.}
 ]]
 L['rock_lover_note'] = 'Restez loin du {npc:44258}.'
+
+L['options_icons_broodmother_desc'] = nil
+L['options_icons_fungal_frenzy_desc'] = nil
+L['options_icons_fungalophobia_desc'] = nil
+L['options_icons_glop_family_desc'] = nil
+L['options_icons_rock_lover_desc'] = nil
+
+-------------------------------------------------------------------------------
+----------------------------------- VASHJIR -----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_whale_shark_desc'] = nil
+
+-------------------------------------------------------------------------------
+----------------------------- TWILIGHT HIGHLANDS ------------------------------
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+------------------------------------ ULDUM ------------------------------------
+-------------------------------------------------------------------------------

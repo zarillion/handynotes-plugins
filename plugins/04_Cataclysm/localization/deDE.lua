@@ -117,3 +117,23 @@ Sammle diesen Pilz zu letzt ein, er wirft dich nur in die Luft und du erhältst 
 Alle Pilze werden als {object:Sprießender Rubinpilz} angezeigt.}
 ]]
 L['rock_lover_note'] = 'Bleib weg von {npc:44258}.'
+
+L['options_icons_broodmother_desc'] = 'Zeigt die Questposition für den Ergolg {achievement:5447}.'
+L['options_icons_fungal_frenzy_desc'] = 'Zeigt die Position der Pilze für den Erfolg {achievement:5450}.'
+L['options_icons_fungalophobia_desc'] = 'Zeigt die Questposition für den Ergolg {achievement:5445}.'
+L['options_icons_glop_family_desc'] = 'Zeigt die Questposition für den Ergolg {achievement:5446}.'
+L['options_icons_rock_lover_desc'] = 'Zeigt die Position und den Weg zu {npc:49956} für den Erfolg {achievement:5449}.'
+
+-------------------------------------------------------------------------------
+----------------------------------- VASHJIR -----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_whale_shark_desc'] = 'Zeigt die Position des {npc:40728s} für den Erfolg {achievement:4975}.'
+
+-------------------------------------------------------------------------------
+----------------------------- TWILIGHT HIGHLANDS ------------------------------
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+------------------------------------ ULDUM ------------------------------------
+-------------------------------------------------------------------------------

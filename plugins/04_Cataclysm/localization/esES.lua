@@ -130,3 +130,23 @@ Recoge esta seta la última. Sólo te lanzará al aire y no tendrás ningún buf
 Todas las setas se muestran como {object:Seta Carmesí}.}
 ]]
 L['rock_lover_note'] = 'No te acerques al {npc:44258}.'
+
+L['options_icons_broodmother_desc'] = nil
+L['options_icons_fungal_frenzy_desc'] = nil
+L['options_icons_fungalophobia_desc'] = nil
+L['options_icons_glop_family_desc'] = nil
+L['options_icons_rock_lover_desc'] = nil
+
+-------------------------------------------------------------------------------
+----------------------------------- VASHJIR -----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_whale_shark_desc'] = nil
+
+-------------------------------------------------------------------------------
+----------------------------- TWILIGHT HIGHLANDS ------------------------------
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+------------------------------------ ULDUM ------------------------------------
+-------------------------------------------------------------------------------

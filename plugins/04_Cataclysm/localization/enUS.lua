@@ -129,3 +129,23 @@ Collect this mushroom last, it will only throw you in the air, you won't get any
 All mushrooms are displayed as {object:Sprouting Crimson Mushroom}.}
 ]]
 L['rock_lover_note'] = 'Stay away from {npc:44258}.'
+
+L['options_icons_broodmother_desc'] = 'Displays the quest location for the {achievement:5447} achievement.'
+L['options_icons_fungal_frenzy_desc'] = 'Displays the mushroom locations for the {achievement:5450} achievement.'
+L['options_icons_fungalophobia_desc'] = 'Displays the quest location for the {achievement:5445} achievement.'
+L['options_icons_glop_family_desc'] = 'Displays the quest location for the {achievement:5446} achievement.'
+L['options_icons_rock_lover_desc'] = 'Displays the location and path to {npc:49956} for the {achievement:5449} achievement.'
+
+-------------------------------------------------------------------------------
+----------------------------------- VASHJIR -----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_whale_shark_desc'] = 'Displays the location of {npc:40728} for the {achievement:4975} achievement.'
+
+-------------------------------------------------------------------------------
+----------------------------- TWILIGHT HIGHLANDS ------------------------------
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+------------------------------------ ULDUM ------------------------------------
+-------------------------------------------------------------------------------
