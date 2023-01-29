@@ -217,9 +217,9 @@ L['windscale_the_stormborn_note'] = 'Kill the {npc:192367s} channeling into the 
 L['windseeker_avash_note'] = 'Kill nearby {npc:195742s} and {npc:187916s} to spawn the rare.'
 L['zarizz_note'] = 'Click and {emote:/hiss} at the four {npc:193169s} to summon the rare.'
 
-L['aylaag_outpost_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:Aylaag Outpost}.}'
-L['eaglewatch_outpost_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:Eaglewatch Outpost}.}'
-L['river_camp_note'] = '{note:This rare only spawn {faction:Clan Aylaag} Camp in {location:River Camp}.}'
+L['aylaag_outpost_note'] = '{note:This rare only spawns when {faction:Clan Aylaag} Camp in {location:Aylaag Outpost}.}'
+L['eaglewatch_outpost_note'] = '{note:This rare only spawns when {faction:Clan Aylaag} Camp in {location:Eaglewatch Outpost}.}'
+L['river_camp_note'] = '{note:This rare only spawns when {faction:Clan Aylaag} Camp in {location:River Camp}.}'
 
 L['defend_clan_aylaag'] = 'Defend Clan Aylaag'
 L['defend_clan_aylaag_note'] = '{note:Only spawns when defending the {faction:Clan Aylaag} Camp moving events, not loot.}'
