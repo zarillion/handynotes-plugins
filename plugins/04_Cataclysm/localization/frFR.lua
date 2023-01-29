@@ -131,17 +131,17 @@ Tous les champignons sont affichés en tant que {object:Champignon cramoisi nais
 ]]
 L['rock_lover_note'] = 'Restez loin du {npc:44258}.'
 
-L['options_icons_broodmother_desc'] = nil
-L['options_icons_fungal_frenzy_desc'] = nil
-L['options_icons_fungalophobia_desc'] = nil
-L['options_icons_glop_family_desc'] = nil
-L['options_icons_rock_lover_desc'] = nil
+L['options_icons_broodmother_desc'] = 'Afficher l\'emplacement de la quête pour le haut-fait {achievement:5447}.'
+L['options_icons_fungal_frenzy_desc'] = 'Afficher les emplacements des champignons pour le haut-fait {achievement:5450}.'
+L['options_icons_fungalophobia_desc'] = 'Afficher l\'emplacement de la quête pour le haut-fait {achievement:5445}.'
+L['options_icons_glop_family_desc'] = 'Afficher l\'emplacement de la quête pour le haut-fait {achievement:5446}.'
+L['options_icons_rock_lover_desc'] = 'Afficher l\'emplacement et le trajet vers {npc:49956} pour le haut-fait {achievement:5449}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- VASHJIR -----------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_whale_shark_desc'] = nil
+L['options_icons_whale_shark_desc'] = 'Afficher les emplacements du {npc:40728} pour le haut-fait {achievement:4975}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- TWILIGHT HIGHLANDS ------------------------------
