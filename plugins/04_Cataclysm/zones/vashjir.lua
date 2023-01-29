@@ -18,7 +18,7 @@ local POI = ns.poi.POI
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local forest = Map({id = 201, settings = true})
+-- local forest = Map({id = 201, settings = true})
 local depths = Map({id = 204, settings = true})
 local expanse = Map({id = 205, settings = true})
 
