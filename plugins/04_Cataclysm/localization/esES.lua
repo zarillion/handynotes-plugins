@@ -131,17 +131,17 @@ Todas las setas se muestran como {object:Seta Carmesí}.}
 ]]
 L['rock_lover_note'] = 'No te acerques al {npc:44258}.'
 
-L['options_icons_broodmother_desc'] = nil
-L['options_icons_fungal_frenzy_desc'] = nil
-L['options_icons_fungalophobia_desc'] = nil
-L['options_icons_glop_family_desc'] = nil
-L['options_icons_rock_lover_desc'] = nil
+L['options_icons_broodmother_desc'] = 'Muestra dónde está la misión para el logro {achievement:5447}.'
+L['options_icons_fungal_frenzy_desc'] = 'Muestra dónde están las setas para el logro {achievement:5450}.'
+L['options_icons_fungalophobia_desc'] = 'Muestra dónde está la misión para el logro {achievement:5445}.'
+L['options_icons_glop_family_desc'] = 'Muestra dónde está la misión para el logro {achievement:5446}.'
+L['options_icons_rock_lover_desc'] = 'Muestra dónde está y el camino a {npc:49956} para el logro {achievement:5449}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- VASHJIR -----------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_whale_shark_desc'] = nil
+L['options_icons_whale_shark_desc'] = 'Muestra dónde está el {npc:40728} para el logro {achievement:4975}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- TWILIGHT HIGHLANDS ------------------------------
