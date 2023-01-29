@@ -128,3 +128,4 @@ Collect this mushroom last, it will only throw you in the air, you won't get any
 {note:The mushrooms can only be found if you are on the quest {daily:27050}.
 All mushrooms are displayed as {object:Sprouting Crimson Mushroom}.}
 ]]
+L['rock_lover_note'] = 'Stay away from {npc:44258}.'

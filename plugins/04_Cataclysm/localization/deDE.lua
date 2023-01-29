@@ -95,7 +95,7 @@ L['portal_to_therazane'] = 'Portal zu Therazanes Thron'
 L['portal_to_earth_temple'] = 'Portal zum Tempel der Erde'
 
 L['fungal_frenzy_note'] = [[
-Leidet gleichzeitig unter den Effekten von {object:Reizmorchel}, {object:Sohlenkrempling}, {object:Schrumpftrüffel} und {object:Sprengkappe}.
+Leidet gleichzeitig unter den Effekten von {spell:83803}, {spell:83805}, {spell:83747} und {spell:83804}.
 
 {dot:Bronze} {spell:83747}
 Braun-roter Pilz mit weißem Rand.
@@ -116,3 +116,4 @@ Sammle diesen Pilz zu letzt ein, er wirft dich nur in die Luft und du erhältst 
 {note:Die Pilze können nur gefunden werden wenn du dich auf der Quest {daily:27050} befindest.
 Alle Pilze werden als {object:Sprießender Rubinpilz} angezeigt.}
 ]]
+L['rock_lover_note'] = 'Bleib weg von {npc:44258}.'

@@ -129,3 +129,4 @@ Ramassez ce champignon en dernier, il ne fera que vous projeter en l'air, vous n
 {note:Les champignons ne peuvent être trouvés que si vous effectuez la quête {daily:27050}.
 Tous les champignons sont affichés en tant que {object:Champignon cramoisi naissant}.}
 ]]
+L['rock_lover_note'] = nil

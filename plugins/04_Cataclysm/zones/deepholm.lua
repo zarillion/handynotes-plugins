@@ -87,7 +87,7 @@ map.nodes[58301342] = Collectible({
     rewards = {Achievement({id = 5450})},
     group = ns.groups.FUNGAL_FRENZY,
     pois = {
-        POI({
+        Path({59351425, 58301342, 57341248}), POI({
             color = 'Bronze',
             size = 0.5,
             points = {
@@ -134,6 +134,41 @@ map.nodes[58301342] = Collectible({
         }) -- Trapcap
     }
 })
+
+map.nodes[55371414] = Collectible({
+    id = 44945,
+    icon = 136024,
+    quest = 26710,
+    note = L['rock_lover_note'],
+    rewards = {
+        Achievement({id = 5449, criteria = {id = 15644, qty = true}}), -- Rock Lover
+        Pet({item = 60869, id = 265}) -- Pebble
+    },
+    pois = {
+        Path({
+            63072089, 63082021, 63311965, 63931923, 64541959, 64832051,
+            64632146, 64182247, 63882393, 64072480, 64862571, 65372769,
+            64082798, 62812727, 62162731, 61182668, 60072634, 59102615, 58402560
+        }), POI({58402560}), POI({63072089, icon = 136024, size = 0.8})
+    }
+}) -- Pyrite Stonetender
+
+map.nodes[59591404] = Collectible({
+    id = 44973,
+    icon = 134527,
+    quest = 28390,
+    rewards = {
+        Achievement({id = 5446, criteria = {id = 15640, qty = true}}), -- The Glop Family Line
+        Achievement({id = 5445}) -- Fungalophobia
+    }
+}) -- Ruberick
+
+map.nodes[54581430] = Collectible({
+    id = 43806,
+    icon = 433446,
+    quest = 28391,
+    rewards = {Achievement({id = 5447})} -- My Very Own Broodmother
+}) -- Terrath the Steady
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

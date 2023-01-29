@@ -129,3 +129,4 @@ Recoge esta seta la última. Sólo te lanzará al aire y no tendrás ningún buf
 {note:Las setas sólo se pueden encontrar durante la misión {daily:27050}.
 Todas las setas se muestran como {object:Seta Carmesí}.}
 ]]
+L['rock_lover_note'] = nil

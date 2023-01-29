@@ -68,3 +68,4 @@ L['portal_to_therazane'] = 'Портал к трону Теразан'
 L['portal_to_earth_temple'] = 'Портал в Храм Земли'
 
 L['fungal_frenzy_note'] = nil
+L['rock_lover_note'] = nil
