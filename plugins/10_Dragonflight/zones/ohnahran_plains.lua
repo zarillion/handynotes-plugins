@@ -1022,19 +1022,22 @@ local Ancestor = Class('Ancestor', Collectible, {
 map.nodes[75934205] = Ancestor({
     id = 197051,
     requires = ns.requirement.Item(194690), -- Horn o' Mead
-    rewards = {Achievement({id = 16423, criteria = 55304})}
+    rewards = {Achievement({id = 16423, criteria = 55304})},
+    pois = {POI({85702073})} -- Essence of Awakening
 }) -- Horn of Drusahl
 
 map.nodes[60323806] = Ancestor({
     id = 197048,
     requires = ns.requirement.Item(197776), -- Thrice-Spiced Mammoth Kabob
-    rewards = {Achievement({id = 16423, criteria = 55302})}
+    rewards = {Achievement({id = 16423, criteria = 55302})},
+    pois = {POI({85702073})} -- Essence of Awakening
 }) -- Maruukai
 
 map.nodes[54377841] = Ancestor({
     id = 197056,
     requires = ns.requirement.Item(202071), -- Elemental Mote
-    rewards = {Achievement({id = 16423, criteria = 55309})}
+    rewards = {Achievement({id = 16423, criteria = 55309})},
+    pois = {POI({85702073})} -- Essence of Awakening
 }) -- Ohn'iri Springs
 
 map.nodes[85174935] = Ancestor({
@@ -1050,13 +1053,15 @@ map.nodes[85174935] = Ancestor({
 map.nodes[63275731] = Ancestor({
     id = 197055,
     requires = ns.requirement.Item(197788, 2), --  Braised Bruffalon Brisket
-    rewards = {Achievement({id = 16423, criteria = 55308})}
+    rewards = {Achievement({id = 16423, criteria = 55308})},
+    pois = {POI({85702073})} -- Essence of Awakening
 }) -- Sylvan Glade
 
 map.nodes[41655690] = Ancestor({
     id = 197057,
     requires = ns.requirement.Item(199049), -- Fire-Blessed Greatsword
-    rewards = {Achievement({id = 16423, criteria = 55310})}
+    rewards = {Achievement({id = 16423, criteria = 55310})},
+    pois = {POI({85702073})} -- Essence of Awakening
 }) -- Teerakai
 
 map.nodes[74057046] = Ancestor({
