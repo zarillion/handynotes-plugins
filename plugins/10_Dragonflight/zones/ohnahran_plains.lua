@@ -230,9 +230,9 @@ function Quackers.getters:note()
         end
     end
     local note = L['quackers_duck_trap_kit']
-    note = note .. '\n' .. status(189541, 1) .. ' {item:189541}' -- Primal Molten Alloy
-    note = note .. '\n' .. status(193208, 3) .. ' {item:193208}' -- Resilient Leather
-    note = note .. '\n' .. status(192095, 4) .. ' {item:192095}\n\n' -- Spool of Wilderthread
+    note = note .. '\n' .. status(201402, 1) .. ' {item:201402}' -- Large Sturdy Femur
+    note = note .. '\n' .. status(193053, 3) .. ' {item:193053}' -- Contoured Fowlfeather
+    note = note .. '\n' .. status(201404, 2) .. ' {item:201404}\n\n' -- Tallstrider Sinew
     return note .. L['quackers_spawn']
 end
 
