@@ -90,15 +90,15 @@ function POI:Draw(pin, xy)
     local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
     size = size * ns:GetOpt('poi_scale') * (self.size or 1)
 
-    local color = {ns:GetColorOpt('poi_color')}
+    local r, g, b, a = ns:GetColorOpt('poi_color')
     if self.icon then
-        color = {1, 1, 1}
+        r, g, b, a = 1, 1, 1, 1
     elseif self.color then
-        color = {ns.HEXtoRGBA(self.color)}
+        r, g, b = ns.HEXtoRGBA(self.color)
     end
 
     t:SetTexture(self.icon and ns.GetIconPath(self.icon) or CIRCLE)
-    t:SetVertexColor(unpack(color))
+    t:SetVertexColor(r, g, b, a)
     pin:SetSize(size, size)
 
     -- if self.label or self.note then

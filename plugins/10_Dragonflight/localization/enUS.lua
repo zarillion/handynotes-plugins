@@ -192,6 +192,13 @@ L['artists_easel_note_step4'] = 'Deliver the final paintings to {npc:194323} and
 
 L['somewhat_stabilized_arcana_note'] = 'Located at the top of the tower.\n\nComplete the small questline starting at {npc:197100} to obtain the toy.'
 
+L['stranded_soul_note'] = [[
+After killing {npc:196900} he explodes into 4 {npc:196901s}.
+You need to activate them to melt the ice wall (two players are recommended).
+
+Kill {npc:197183} inside and you will recieve {item:200528}.
+]]
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

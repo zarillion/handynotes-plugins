@@ -193,6 +193,8 @@ L['artists_easel_note_step4'] = 'Entrega los últimos cuadros a {npc:194323} y r
 
 L['somewhat_stabilized_arcana_note'] = 'Está encima de la torre.\n\nCompleta la pequeña cadena de misiones que comienza en {npc:197100} para conseguir el juguete.'
 
+L['stranded_soul_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

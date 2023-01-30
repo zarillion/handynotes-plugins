@@ -186,6 +186,13 @@ L['artists_easel_note_step4'] = 'Bringe die letzten Gemälde zu {npc:194323}, um
 
 L['somewhat_stabilized_arcana_note'] = 'Oben auf dem Turm.\n\nSchließe die kurze Questreihe von {npc:197100} ab, um das Spielzeug zu erhalten.'
 
+L['stranded_soul_note'] = [[
+Nachdem du {npc:196900} getötet hast explodiert er in 4 {npc:196901n}.
+Du musst sie aktivieren um die Eiswand zu schmelzen (Zwei Spieler empfohlen).
+
+Töte dann {npc:197183} in der Höhle um {item:200528} zu erhalten.
+]]
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

@@ -193,6 +193,8 @@ L['artists_easel_note_step4'] = 'Apportez les tableaux finaux à {npc:194323} et
 
 L['somewhat_stabilized_arcana_note'] = 'Situé au sommet de la tour.\n\nComplétez la courte suite de quêtes débutée par {npc:197100} pour obtenir le jouet.'
 
+L['stranded_soul_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
