@@ -193,7 +193,12 @@ L['artists_easel_note_step4'] = 'Apportez les tableaux finaux à {npc:194323} et
 
 L['somewhat_stabilized_arcana_note'] = 'Situé au sommet de la tour.\n\nComplétez la courte suite de quêtes débutée par {npc:197100} pour obtenir le jouet.'
 
-L['stranded_soul_note'] = nil
+L['stranded_soul_note'] = [[
+Après avoir tué l'{npc:196900}, il explose en 4 {npc:196901s}.
+Vous devez les activer pour faire fondre le mur de glace (deux joueurs sont recommandés).
+
+Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
