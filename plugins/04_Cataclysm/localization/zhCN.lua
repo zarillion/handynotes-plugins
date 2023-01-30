@@ -130,17 +130,17 @@ L['fungal_frenzy_note'] = [[
 ]]
 L['rock_lover_note'] = '远离 {npc:44258}。'
 
-L['options_icons_broodmother_desc'] = nil
-L['options_icons_fungal_frenzy_desc'] = nil
-L['options_icons_fungalophobia_desc'] = nil
-L['options_icons_glop_family_desc'] = nil
-L['options_icons_rock_lover_desc'] = nil
+L['options_icons_broodmother_desc'] = '显示 {achievement:5447} 成就中任务的位置。'
+L['options_icons_fungal_frenzy_desc'] = '显示 {achievement:5450} 成就中蘑菇的位置。'
+L['options_icons_fungalophobia_desc'] = '显示 {achievement:5445} 成就中任务的位置。'
+L['options_icons_glop_family_desc'] = '显示 {achievement:5446} 成就中任务的位置。'
+L['options_icons_rock_lover_desc'] = '显示 {achievement:5449} 成就中 {npc:49956} 的位置。'
 
 -------------------------------------------------------------------------------
 ----------------------------------- VASHJIR -----------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_whale_shark_desc'] = nil
+L['options_icons_whale_shark_desc'] = '显示 {achievement:4975} 成就中 {npc:40728} 的位置。'
 
 -------------------------------------------------------------------------------
 ----------------------------- TWILIGHT HIGHLANDS ------------------------------
