@@ -193,7 +193,12 @@ L['artists_easel_note_step4'] = 'Entrega los últimos cuadros a {npc:194323} y r
 
 L['somewhat_stabilized_arcana_note'] = 'Está encima de la torre.\n\nCompleta la pequeña cadena de misiones que comienza en {npc:197100} para conseguir el juguete.'
 
-L['stranded_soul_note'] = nil
+L['stranded_soul_note'] = [[
+Después de matar al {npc:196900} explotará en 4 {npc:196901}.
+Necesitas activarlos para derretir la pared de hielo (se recomienda dos jugadores para que de tiempo).
+
+Mata el {npc:197183} de dentro y recibirás la {item:200528}.
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
