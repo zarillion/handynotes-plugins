@@ -187,10 +187,10 @@ L['artists_easel_note_step4'] = 'Bringe die letzten Gemälde zu {npc:194323}, um
 L['somewhat_stabilized_arcana_note'] = 'Oben auf dem Turm.\n\nSchließe die kurze Questreihe von {npc:197100} ab, um das Spielzeug zu erhalten.'
 
 L['stranded_soul_note'] = [[
-Nachdem du {npc:196900} getötet hast explodiert er in 4 {npc:196901n}.
-Du musst sie aktivieren um die Eiswand zu schmelzen (Zwei Spieler empfohlen).
+Nachdem du {npc:196900} getötet hast, explodiert er in 4 {npc:196901n}.
+Du musst sie aktivieren, um die Eiswand zu schmelzen (Zwei Spieler empfohlen).
 
-Töte dann {npc:197183} in der Höhle um {item:200528} zu erhalten.
+Töte dann {npc:197183} in der Höhle, um {item:200528} zu erhalten.
 ]]
 
 -------------------------------------------------------------------------------
@@ -356,9 +356,9 @@ L['chest_of_the_elements'] = 'Truhe der Elemente'
 L['hoard_of_draconic_delicacies_note_start'] = 'Schließe die folgenden 7 Quests von {npc:189479} ab:'
 L['hoard_of_draconic_delicacies_note_end'] = 'Nachdem alle Quests abgeschlossen wurden wird {npc:189479} die Quest {quest:67071} anbieten, um dein Rezept zu erhalten.\n\n{note:Die Quests richten sich nach dem aktiven Gastkoch in {location:Die Rubinenklave} und stimmen möglicherweise nicht mit der oben aufgeführten Reihenfolge überein.}'
 
-L['brendormi_note_start'] = nil
-L['brendormi_note_item'] = nil
-L['brendormi_note_currency'] = nil
+L['brendormi_note_start'] = 'Tausche {item:202039} und {currency:2118} gegen Ausrüstung, ein Haustier, ein Spielzeug oder ein Reittier ein.'
+L['brendormi_note_item'] = 'Zurzeit hast du %s {item:202039}.'
+L['brendormi_note_currency'] = 'Zurzeit hast du %s {currency:2118}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
