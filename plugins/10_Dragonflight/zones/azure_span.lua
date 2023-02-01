@@ -414,9 +414,8 @@ map.nodes[26494939] = Rare({ -- review -- required 67030
         Transmog({item = 200279, slot = L['plate']}), -- Competitive Throwing Gauntlets
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 200684, slot = L['2h_sword']}), -- Emerald Tailbone
-        DC.HighlandDrake.ClubTail,
-        DC.WindborneVelocidrake.GrayHorns.DC.CliffsideWylderdrake.BlackHorns,
-        DC.WindborneVelocidrake.ClubTail
+        DC.HighlandDrake.ClubTail, DC.WindborneVelocidrake.GrayHorns,
+        DC.CliffsideWylderdrake.BlackHorns, DC.WindborneVelocidrake.ClubTail
     }
 }) -- Skag the Thrower
 
