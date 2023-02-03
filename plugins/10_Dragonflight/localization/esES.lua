@@ -55,7 +55,7 @@ L['options_icons_magicbound_chest_desc'] = 'Muestra dónde pueden haber {object:
 
 L['tuskarr_tacklebox'] = 'Caja de Pesca Colmillar'
 L['options_icons_tuskarr_tacklebox'] = 'Caja de Pesca Colmillar'
-L['options_icons_tuskarr_tacklebox_desc'] = 'Muestra dónde pueden haber {object:Caja de Pesca Colmillar}.'
+L['options_icons_tuskarr_tacklebox_desc'] = 'Muestra dónde pueden haber {object:Cajas de Pesca Colmillar}.'
 
 L['dr_best'] = 'Tu mejor tiempo:\n - Normal: %.3fs\n - Avanzado: %.3fs\n - Inverso: %.3fs'
 L['dr_best_dash'] = 'Tu mejor tiempo:\n - %.3fs'
@@ -496,6 +496,6 @@ L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Compra unas {item:201839} '
 L['loyal_magmammoth_harness_note'] = 'Compra el {item:201837} a {npc:191135}.'
 L['loyal_magmammoth_taming_note'] = 'Usa el {item:201837} mientras montas a un {npc:198150} para conseguir su montura.\n\n{note:Los informes indican que es posible que solo se pueda aprovechar el {npc:198150} que está en el {location:Ascenso Ardiente}.}'
 
-L['djaradin_cache'] = nil
-L['options_icons_djaradin_cache'] = nil
-L['options_icons_djaradin_cache_desc'] = nil
+L['djaradin_cache'] = 'Alijo Djaradin'
+L['options_icons_djaradin_cache'] = 'Alijo Djaradin'
+L['options_icons_djaradin_cache_desc'] = 'Muestra dónde pueden haber {object:Alijos Djaradin}.'
