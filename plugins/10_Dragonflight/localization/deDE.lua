@@ -42,19 +42,19 @@ L['options_icons_kite_desc'] = 'Zeigt die Positionen der {npc:198118} für den E
 
 L['disturbed_dirt'] = 'Bewegte Erde'
 L['options_icons_disturbed_dirt'] = 'Bewegte Erde'
-L['options_icons_disturbed_dirt_desc'] = 'Zeigt die möglichen Positionen für Bewegte Erde an.'
+L['options_icons_disturbed_dirt_desc'] = 'Zeigt die möglichen Positionen für {object:Bewegte Erde} an.'
 
 L['scout_pack'] = 'Expeditionsspäherpack'
 L['options_icons_scout_pack'] = 'Expeditionsspäherpacks'
-L['options_icons_scout_pack_desc'] = 'Zeigt die möglichen Positionen für Expeditionsspäherpacks an.'
+L['options_icons_scout_pack_desc'] = 'Zeigt die möglichen Positionen für {object:Expeditionsspäherpacks} an.'
 
 L['magicbound_chest'] = 'Magiegebundene Truhe'
 L['options_icons_magicbound_chest'] = 'Magiegebundene Truhen'
-L['options_icons_magicbound_chest_desc'] = 'Zeigt die möglichen Positionen der Magiegebundenen Truhen an.'
+L['options_icons_magicbound_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Magiegebundene Truhe} an.'
 
 L['tuskarr_tacklebox'] = 'Angelzubehör der Tuskarr'
 L['options_icons_tuskarr_tacklebox'] = 'Angelzubehör der Tuskarr'
-L['options_icons_tuskarr_tacklebox_desc'] = 'Zeigt mögliche Positionen des {object:Angelzubehörs der Tuskarr} an.'
+L['options_icons_tuskarr_tacklebox_desc'] = 'Zeigt die möglichen Positionen für {object:Angelzubehör der Tuskarr} an.'
 
 L['dr_best'] = 'Deine beste Zeit:\n - Normal: %.3fs\n - Fortgeschritten: %.3fs\n - Rückwärts: %.3fs'
 L['dr_best_dash'] = 'Deine beste Zeit:\n - %.3fs'
@@ -481,6 +481,6 @@ L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Kaufe 1x {item:201839} ' ..
 L['loyal_magmammoth_harness_note'] = 'Kaufe 1x {item:201837} von {npc:191135}.'
 L['loyal_magmammoth_taming_note'] = 'Benutze den {item:201837} während du auf einem {npc:198150} aufsitzt, um das Reittier zu erhalten.\n\n{note:Berichten zufolge kann nur das {npc:198150} im {location:Sengender Stieg} gezügelt werden.}'
 
-L['djaradin_cache'] = nil
-L['options_icons_djaradin_cache'] = nil
-L['options_icons_djaradin_cache_desc'] = nil
+L['djaradin_cache'] = 'Depot der Djaradin'
+L['options_icons_djaradin_cache'] = 'Depots der Djaradin'
+L['options_icons_djaradin_cache_desc'] = 'Zeigt die möglichen Positionen für {object:Depot der Djaradin} an.'
