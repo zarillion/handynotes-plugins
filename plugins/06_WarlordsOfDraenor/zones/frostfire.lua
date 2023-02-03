@@ -729,7 +729,7 @@ map.nodes[36253226] = Treasure({
 local BladeSpireTreasure = Class('BladeSpireTreasure', Treasure, {
     getters = {
         requirement = function(self)
-            if (ns.faction == 'Horde') then
+            if (UnitFactionGroup('player') == 'Horde') then
                 return ns.requirement.Quest(33657) -- Moving In
             else
                 return nil

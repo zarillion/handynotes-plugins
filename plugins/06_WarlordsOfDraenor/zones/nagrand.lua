@@ -1261,7 +1261,7 @@ local StablesTarget = Class('StablesTarget', Collectible, {
     getters = {
         note = function(self)
             local stableMaster = '{npc:86973}' -- Keegan Firebeard
-            if ns.faction == 'Horde' then
+            if UnitFactionGroup('player') == 'Horde' then
                 stableMaster = '{npc:86979}' -- Tormak the Scarred
             end
             return string.gsub(L['stable_master_note'], '{stablemaster}',
