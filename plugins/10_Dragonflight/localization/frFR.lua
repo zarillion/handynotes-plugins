@@ -495,3 +495,7 @@ L['loyal_magmammoth_wrathion_quatermaster_note'] = 'Achetez les {item:201840} ' 
 L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Achetez les {item:201839} ' .. ns.color.Gold('(800 po)') .. ' à {npc:199036} ou {npc:188623}.'
 L['loyal_magmammoth_harness_note'] = 'Achetez le {item:201837} à {npc:191135}.'
 L['loyal_magmammoth_taming_note'] = 'Utilisez le {item:201837} tout en chevauchant un {npc:198150} pour obtenir votre monture !\n\n{note:Il a été signalé qu\'il ne serait apparemment possible d\'harnacher qu\'un seul {npc:198150}, trouvé dans l\'{location:Éminence Ardente}.}'
+
+L['djaradin_cache'] = nil
+L['options_icons_djaradin_cache'] = nil
+L['options_icons_djaradin_cache_desc'] = nil

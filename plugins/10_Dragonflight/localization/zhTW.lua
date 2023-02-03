@@ -494,3 +494,7 @@ L['loyal_magmammoth_wrathion_quatermaster_note'] = '從 {npc:199020} 或 {npc:18
 L['loyal_magmammoth_sabellian_quatermaster_note'] = '從 {npc:199020} 或 {npc:188625} 購買 {item:201839} ' .. ns.color.Gold('(800 金)')
 L['loyal_magmammoth_harness_note'] = '從 {npc:191135} 購買 {item:201837}.'
 L['loyal_magmammoth_taming_note'] = '當你騎著 {npc:198150} 時使用 {item:201837} 來取得你的座騎!\n\n{note:回報指出你只能在 {location:熾烈高地} 找到的 {npc:198150} 上使用}'
+
+L['djaradin_cache'] = nil
+L['options_icons_djaradin_cache'] = nil
+L['options_icons_djaradin_cache_desc'] = nil

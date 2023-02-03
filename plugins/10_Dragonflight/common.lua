@@ -27,6 +27,11 @@ ns.expansion = 10
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
+ns.groups.DJARADIN_CACHE = Group('djaradin_cache', 'chest_pp', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

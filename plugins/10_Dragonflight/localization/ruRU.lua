@@ -488,3 +488,7 @@ L['loyal_magmammoth_wrathion_quatermaster_note'] = 'Купите {item:201840} '
 L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Купите {item:201839} ' .. ns.color.Gold('(800 золотых)') .. ' у  {npc:199036} или {npc:188623}.'
 L['loyal_magmammoth_harness_note'] = 'Купите {item:201837} у {npc:191135}.'
 L['loyal_magmammoth_taming_note'] = 'Используйте {item:201837} сидя верхом, на {npc:198150} чтобы получить средство передвижения!\n\n{note:Вы можете использовать только {npc:198150} которого можно найти на {location:Подъеме Пламени}.}'
+
+L['djaradin_cache'] = nil
+L['options_icons_djaradin_cache'] = nil
+L['options_icons_djaradin_cache_desc'] = nil

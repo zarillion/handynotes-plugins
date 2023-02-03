@@ -494,3 +494,7 @@ L['loyal_magmammoth_wrathion_quatermaster_note'] = 'Purchase {item:201840} ' .. 
 L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Purchase {item:201839} ' .. ns.color.Gold('(800 gold)') .. ' from either {npc:199036} or {npc:188623}.'
 L['loyal_magmammoth_harness_note'] = 'Purchase {item:201837} from {npc:191135}.'
 L['loyal_magmammoth_taming_note'] = 'Use the {item:201837} while riding a {npc:198150} to obtain your mount!\n\n{note:Reports indicate you may only be able to harness the {npc:198150} found in the {location:Burning Ascent}.}'
+
+L['djaradin_cache'] = 'Djaradin Cache'
+L['options_icons_djaradin_cache'] = 'Djaradin Cache'
+L['options_icons_djaradin_cache_desc'] = 'Display possible locations of {object:Djaradin Cache}.'

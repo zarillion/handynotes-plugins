@@ -1133,6 +1133,73 @@ map.nodes[80903776] = Scoutpack({note = L['in_small_cave']})
 map.nodes[82055012] = Scoutpack()
 
 -------------------------------------------------------------------------------
+-------------------------------- DJARADIN CACHE -------------------------------
+-------------------------------------------------------------------------------
+
+local DjaradinCache = Class('DjaradinCache', ns.node.Node, {
+    label = L['djaradin_cache'],
+    icon = 'chest_pp',
+    group = ns.groups.DJARADIN_CACHE,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Transmog({item = 201035, slot = L['cosmetic']}), -- Citadel Crushers Pauldrons
+        Transmog({item = 201036, slot = L['cosmetic']}), -- Citadel Crushers Chestplate
+        Transmog({item = 201037, slot = L['cosmetic']}), -- Citadel Crushers Legguards
+        Transmog({item = 201038, slot = L['cosmetic']}), -- Citadel Crushers Footwraps
+        Transmog({item = 201039, slot = L['cosmetic']}), -- Citadel Crushers Helm
+        Transmog({item = 201041, slot = L['cosmetic']}), -- Citadel Crushers Cloak
+        Transmog({item = 201042, slot = L['cosmetic']}), -- Obsidian Crushers Bracers
+        Transmog({item = 201043, slot = L['cosmetic']}), -- Obsidian Crushers Belt
+        Transmog({item = 201429, slot = L['cosmetic']}), -- Obsidian Fist
+        Transmog({item = 201430, slot = L['cosmetic']}), -- Burning Mallet
+        Transmog({item = 201431, slot = L['cosmetic']}), -- Obsidian Tyrants Mace
+        Transmog({item = 201432, slot = L['cosmetic']}), -- Obsidian Dragontooth
+        Transmog({item = 201433, slot = L['cosmetic']}), -- Citadel Wardens Mace
+        Transmog({item = 201434, slot = L['cosmetic']}), -- Obsidian Barrier
+        Item({item = 199230}), -- Schematic: Projectile Propulsion Pinion
+        Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
+        Item({item = 199066, quest = 70535}), -- Letter of Caution
+        Item({item = 199065, quest = 70534}), -- Sorrowful Letter
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 199906}), -- Titan Relic
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Djaradin Cache
+
+map.nodes[24306950] = DjaradinCache()
+map.nodes[24606950] = DjaradinCache()
+map.nodes[25307410] = DjaradinCache()
+map.nodes[25707360] = DjaradinCache()
+map.nodes[27207200] = DjaradinCache()
+map.nodes[27605920] = DjaradinCache()
+map.nodes[28305790] = DjaradinCache()
+map.nodes[28306820] = DjaradinCache()
+map.nodes[28906040] = DjaradinCache()
+map.nodes[29407230] = DjaradinCache()
+map.nodes[30105870] = DjaradinCache()
+map.nodes[30807080] = DjaradinCache()
+map.nodes[32306540] = DjaradinCache()
+map.nodes[34306250] = DjaradinCache()
+map.nodes[34506660] = DjaradinCache()
+map.nodes[35506090] = DjaradinCache()
+map.nodes[39205520] = DjaradinCache()
+map.nodes[40705470] = DjaradinCache()
+map.nodes[42805390] = DjaradinCache()
+map.nodes[45405630] = DjaradinCache()
+map.nodes[45805410] = DjaradinCache()
+map.nodes[63203080] = DjaradinCache()
+map.nodes[63203460] = DjaradinCache()
+map.nodes[64502950] = DjaradinCache()
+map.nodes[64602590] = DjaradinCache()
+map.nodes[65602570] = DjaradinCache()
+map.nodes[65803510] = DjaradinCache()
+map.nodes[66103770] = DjaradinCache()
+map.nodes[70304550] = DjaradinCache()
+map.nodes[71204470] = DjaradinCache()
+map.nodes[71304680] = DjaradinCache()
+
+-------------------------------------------------------------------------------
 ------------------------------ Magic-Bound Chest ------------------------------
 -------------------------------------------------------------------------------
 

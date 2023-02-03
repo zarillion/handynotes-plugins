@@ -481,3 +481,6 @@ L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Kaufe 1x {item:201839} ' ..
 L['loyal_magmammoth_harness_note'] = 'Kaufe 1x {item:201837} von {npc:191135}.'
 L['loyal_magmammoth_taming_note'] = 'Benutze den {item:201837} während du auf einem {npc:198150} aufsitzt, um das Reittier zu erhalten.\n\n{note:Berichten zufolge kann nur das {npc:198150} im {location:Sengender Stieg} gezügelt werden.}'
 
+L['djaradin_cache'] = nil
+L['options_icons_djaradin_cache'] = nil
+L['options_icons_djaradin_cache_desc'] = nil

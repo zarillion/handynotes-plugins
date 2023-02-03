@@ -495,3 +495,7 @@ L['loyal_magmammoth_wrathion_quatermaster_note'] = 'Compra unas {item:201840} ' 
 L['loyal_magmammoth_sabellian_quatermaster_note'] = 'Compra unas {item:201839} ' .. ns.color.Gold('(800 oros)') .. ' a {npc:199036} o a {npc:188623}.'
 L['loyal_magmammoth_harness_note'] = 'Compra el {item:201837} a {npc:191135}.'
 L['loyal_magmammoth_taming_note'] = 'Usa el {item:201837} mientras montas a un {npc:198150} para conseguir su montura.\n\n{note:Los informes indican que es posible que solo se pueda aprovechar el {npc:198150} que está en el {location:Ascenso Ardiente}.}'
+
+L['djaradin_cache'] = nil
+L['options_icons_djaradin_cache'] = nil
+L['options_icons_djaradin_cache_desc'] = nil

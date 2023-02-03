@@ -473,3 +473,7 @@ L['loyal_magmammoth_wrathion_quatermaster_note'] = nil
 L['loyal_magmammoth_sabellian_quatermaster_note'] = nil
 L['loyal_magmammoth_harness_note'] = nil
 L['loyal_magmammoth_taming_note'] = nil
+
+L['djaradin_cache'] = nil
+L['options_icons_djaradin_cache'] = nil
+L['options_icons_djaradin_cache_desc'] = nil
