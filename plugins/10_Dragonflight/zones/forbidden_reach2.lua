@@ -76,7 +76,7 @@ map.nodes[43927846] = Rare({
     }
 }) -- Galakhad
 
-map.notes[42949113] = Rare({
+map.nodes[42949113] = Rare({
     id = 200721,
     quest = 74343,
     rewards = {
@@ -85,7 +85,7 @@ map.notes[42949113] = Rare({
     }
 }) -- Grugoth the Hullcrusher
 
-map.notes[39580284] = Rare({
+map.nodes[39580284] = Rare({
     id = 200579,
     quest = 74338,
     rewards = {
@@ -122,12 +122,12 @@ map.nodes[70763874] = Rare({
 -- -- Navigator Bi-Yun {npc:201184}
 -- -- First Mate Ovdah {npc:201182}
 
--- map.notes[] = Rare({
+-- map.nodes[] = Rare({
 --     id = 200978,
 --     quest = 74350
 -- }) -- Pyrachniss
 
-map.notes[47331027] = Rare({
+map.nodes[47331027] = Rare({
     id = 200600,
     quest = 74339,
     note = L['in_small_cave'],
@@ -182,7 +182,7 @@ map.nodes[58923839] = Rare({
 --     quest = 74348
 -- }) -- Warden Entrix
 
-map.notes[63572576] = Rare({
+map.nodes[63572576] = Rare({
     id = 201013,
     quest = 74347,
     rewards = {
