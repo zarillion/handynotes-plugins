@@ -495,6 +495,6 @@ L['loyal_magmammoth_sabellian_quatermaster_note'] = '從 {npc:199020} 或 {npc:1
 L['loyal_magmammoth_harness_note'] = '從 {npc:191135} 購買 {item:201837}.'
 L['loyal_magmammoth_taming_note'] = '當你騎著 {npc:198150} 時使用 {item:201837} 來取得你的座騎!\n\n{note:回報指出你只能在 {location:熾烈高地} 找到的 {npc:198150} 上使用}'
 
-L['djaradin_cache'] = nil
-L['options_icons_djaradin_cache'] = nil
-L['options_icons_djaradin_cache_desc'] = nil
+L['djaradin_cache'] = '加拉登貯物所'
+L['options_icons_djaradin_cache'] = '加拉登貯物所'
+L['options_icons_djaradin_cache_desc'] = '顯示 {object:加拉登貯物所} 可能的位置'
