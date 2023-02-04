@@ -140,16 +140,16 @@ map.nodes[47331027] = Rare({
     }
 }) -- Reisa the Drowned
 
-map.nodes[60484373] = Rare({
-    id = nil,
-    quest = nil,
-    note = L['in_small_cave'],
-    rewards = {
-        Item({item = 202196}), -- Zskera Vault Key
-        Currency({id = 2118}) -- Elemental Overflow
-    },
-    pois = {POI({5948225})}
-}) -- Vakren the Hunter
+-- map.nodes[60484373] = Rare({
+--     id = nil, <--------------------------------------------------- TODO: Not available on Wowhead
+--     quest = nil, <------------------------------------------------ TODO: Not available on Wowhead
+--     note = L['in_small_cave'],
+--     rewards = {
+--         Item({item = 202196}), -- Zskera Vault Key
+--         Currency({id = 2118}) -- Elemental Overflow
+--     },
+--     pois = {POI({5948225})}
+-- }) -- Vakren the Hunter
 
 map.nodes[76736414] = Rare({
     id = 200904,
@@ -268,7 +268,7 @@ map.nodes[48697111] = ns.node.ElementalChest({
 map.nodes[65213628] = Treasure({
     label = L['purple_bone_pile_label'],
     quest = nil
-}) -- Purple Bone Pile <---------------- TODO: This has 10.0.7 placeholder loot
+}) -- Purple Bone Pile <------------------------------------- TODO: This has 10.0.7 placeholder loot
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
@@ -319,8 +319,8 @@ map.nodes[80464835] = Flag({quest = nil})
 ------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
 -------------------------------------------------------------------------------
 
-map.nodes[38398116] = SignalTransmitter({quest = nil}) -- TODO: Forgot location
-map.nodes[42504555] = SignalTransmitter({quest = nil}) -- TODO: Forgot location
+map.nodes[38398116] = SignalTransmitter({quest = nil}) -- <------- TODO: Forgot to document location
+map.nodes[42504555] = SignalTransmitter({quest = nil}) -- <------- TODO: Forgot to document location
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
