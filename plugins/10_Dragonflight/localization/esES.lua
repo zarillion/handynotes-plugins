@@ -217,7 +217,7 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 -------------------------------------------------------------------------------
 
 L['forbidden_hoard_label'] = nil
-L['forbidden_hoard_note'] = nil
+L['forbidden_hoard_note'] = 'Derrota a %s para abrir el cofre.'
 
 L['storm_bound_chest_label'] = nil
 L['purple_bone_pile_label'] = nil
