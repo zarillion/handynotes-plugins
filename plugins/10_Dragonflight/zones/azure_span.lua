@@ -1028,7 +1028,7 @@ map.nodes[30512493] = TuskarrTacklebox()
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[47914077] = Dragonrace({
+map.nodes[47914078] = Dragonrace({
     label = '{quest:66946}',
     normal = {2074, 66, 63},
     advanced = {2075, 63, 58},
@@ -1064,7 +1064,7 @@ map.nodes[20952262] = Dragonrace({
     }
 }) -- Azure Span Slalom
 
-map.nodes[71292466] = Dragonrace({
+map.nodes[71292464] = Dragonrace({
     label = '{quest:67031}',
     normal = {2078, 61, 58},
     advanced = {2079, 61, 56},
@@ -1082,7 +1082,7 @@ map.nodes[71292466] = Dragonrace({
     }
 }) -- Vakthros Ascent
 
-map.nodes[16574937] = Dragonrace({
+map.nodes[16584937] = Dragonrace({
     label = '{quest:67296}',
     normal = {2083, 78, 75},
     advanced = {2084, 75, 70},
@@ -1100,7 +1100,7 @@ map.nodes[16574937] = Dragonrace({
     }
 }) -- Iskaara Tour
 
-map.nodes[48473578] = Dragonrace({
+map.nodes[48473579] = Dragonrace({
     label = '{quest:67565}',
     normal = {2085, 79, 76},
     advanced = {2086, 77, 72},
@@ -1118,7 +1118,7 @@ map.nodes[48473578] = Dragonrace({
     }
 }) -- Frostland Flyover
 
-map.nodes[42265676] = Dragonrace({
+map.nodes[42275677] = Dragonrace({
     label = '{quest:67741}',
     normal = {2089, 94, 91},
     advanced = {2090, 86, 81},

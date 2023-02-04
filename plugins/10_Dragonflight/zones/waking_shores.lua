@@ -1257,7 +1257,7 @@ map.nodes[73744652] = TuskarrTacklebox()
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[63317090] = Dragonrace({
+map.nodes[63327090] = Dragonrace({
     label = '{quest:66679}',
     normal = {2042, 66, 64},
     advanced = {2044, 57, 52},
@@ -1293,7 +1293,7 @@ map.nodes[47018558] = Dragonrace({
     }
 }) -- Wild Preserve Slalom
 
-map.nodes[41986729] = Dragonrace({
+map.nodes[41976730] = Dragonrace({
     label = '{quest:66727}',
     normal = {2052, 53, 47},
     advanced = {2053, 49, 44},
@@ -1329,7 +1329,7 @@ map.nodes[23268430] = Dragonrace({
     }
 }) -- Apex Canopy River Run
 
-map.nodes[55464113] = Dragonrace({
+map.nodes[55454113] = Dragonrace({
     label = '{quest:66777}',
     normal = {2056, 48, 43},
     advanced = {2057, 45, 40},
@@ -1383,7 +1383,7 @@ map.nodes[62777400] = Dragonrace({
     }
 }) -- Flashfrost Flyover
 
-map.nodes[42599445] = Dragonrace({
+map.nodes[42599443] = Dragonrace({
     label = '{quest:66725}',
     normal = {2050, 43, 41},
     advanced = {2051, 43, 38},

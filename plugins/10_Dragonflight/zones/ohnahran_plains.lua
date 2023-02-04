@@ -1197,7 +1197,7 @@ map.nodes[86263583] = Dragonrace({
     }
 }) -- Fen Flythrough
 
-map.nodes[80887221] = Dragonrace({
+map.nodes[80897220] = Dragonrace({
     label = '{quest:66880}',
     normal = {2064, 52, 50},
     advanced = {2065, 52, 47},

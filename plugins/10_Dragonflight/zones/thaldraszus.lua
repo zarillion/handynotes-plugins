@@ -801,7 +801,7 @@ map.nodes[58548017] = TuskarrTacklebox()
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[57767501] = Dragonrace({
+map.nodes[57777501] = Dragonrace({
     label = '{quest:67095}',
     normal = {2080, 52, 49},
     advanced = {2081, 45, 40},
@@ -819,7 +819,7 @@ map.nodes[57767501] = Dragonrace({
     }
 }) -- Flowing Forest Flight
 
-map.nodes[57256690] = Dragonrace({
+map.nodes[57236690] = Dragonrace({
     label = '{quest:69957}',
     normal = {2092, 84, 81},
     advanced = {2093, 80, 75},
@@ -837,7 +837,7 @@ map.nodes[57256690] = Dragonrace({
     }
 }) -- Tyrhold Trial
 
-map.nodes[37654894] = Dragonrace({
+map.nodes[37654893] = Dragonrace({
     label = '{quest:70051}',
     normal = {2096, 72, 69},
     advanced = {2097, 71, 66},
@@ -855,7 +855,7 @@ map.nodes[37654894] = Dragonrace({
     }
 }) -- Cliffside Circuit
 
-map.nodes[60264179] = Dragonrace({
+map.nodes[60294159] = Dragonrace({
     label = '{quest:70059}',
     normal = {2098, 57, 54},
     advanced = {2099, 57, 52},
@@ -873,7 +873,7 @@ map.nodes[60264179] = Dragonrace({
     }
 }) -- Academy Ascent
 
-map.nodes[39487621] = Dragonrace({
+map.nodes[39517619] = Dragonrace({
     label = '{quest:70157}',
     normal = {2101, 64, 61},
     advanced = {2102, 59, 54},
@@ -891,7 +891,7 @@ map.nodes[39487621] = Dragonrace({
     }
 }) -- Garden Gallivant
 
-map.nodes[58043367] = Dragonrace({
+map.nodes[58053361] = Dragonrace({
     label = '{quest:70161}',
     normal = {2103, 53, 50},
     advanced = {2104, 50, 45},
