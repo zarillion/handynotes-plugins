@@ -28,6 +28,10 @@ map.nodes[42635736] = Rare({
     id = 200681,
     quest = 74341,
     note = L['in_small_cave'],
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
     pois = {POI({42565425, 40715404, 40015641})}
 }) -- Bonesifter Marwak
 
@@ -60,6 +64,10 @@ map.nodes[61385430] = Rare({
     id = 200885,
     quest = 74344,
     note = L['in_small_cave'],
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
     poi = {POI({63155389})}
 }) -- Lady Shaz'ra
 
@@ -67,6 +75,10 @@ map.nodes[70763874] = Rare({
     id = 201181,
     quest = 74346,
     note = L['in_small_cave'],
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
     pois = {POI({722113973})}
 }) -- Mad-Eye Carrey
 -- 201184 (Navigator Bi-Yun)
@@ -86,6 +98,10 @@ map.nodes[60484373] = Rare({
     id = nil,
     quest = nil,
     note = L['in_small_cave'],
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
     pois = {POI({5948225})}
 }) -- Vakren the Hunter
 
@@ -93,6 +109,10 @@ map.nodes[76736414] = Rare({
     id = 200904,
     quest = nil,
     note = L['in_small_cave'],
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
     pois = {POI({75356707, 74136633, 74016326, 75616214})}
 }) -- Veltrax
 
@@ -110,12 +130,28 @@ map.nodes[76736414] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[70606555] = Treasure({quest = nil}) -- Forbidden Hoard
+-- L['forbidden_hoard_note_01'] = 'On top of the tower.\n\nDefeat the 3 surrounding {npc:201292} to open the chest.' 
+map.nodes[55592617] = Treasure({
+    quest = nil,
+    -- note =  L['forbidden_hoard_note_01'],
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+    }
+}) -- Forbidden Hoard
+
+map.nodes[70606555] = Treasure({
+    quest = nil,
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+    }
+}) -- Forbidden Hoard
 
 -------------------------------------------------------------------------------
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
 -------------------------------------------------------------------------------
 
+map.nodes[34843030] = Flag({quest = nil})
+map.nodes[55332639] = Flag({quest = nil})
 map.nodes[80464835] = Flag({quest = nil})
 
 -------------------------------------------------------------------------------
