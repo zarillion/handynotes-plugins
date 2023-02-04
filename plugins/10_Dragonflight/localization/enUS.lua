@@ -200,7 +200,7 @@ Kill {npc:197183} inside and you will recieve {item:200528}.
 ]]
 
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN REACH -------------------------------
+------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = 'Bag of Enchanted Wind'
@@ -210,6 +210,16 @@ L['lost_draconic_hourglass'] = 'Lost Draconic Hourglass'
 L['suspicious_bottle_treasure'] = 'Suspicious Bottle'
 L['mysterious_wand'] = 'Mysterious Wand'
 L['mysterious_wand_note'] = 'Pick up the {object:Crystal Key} and place it into the {object:Crystal Focus}.'
+
+-------------------------------------------------------------------------------
+------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
+-------------------------------------------------------------------------------
+
+L['forbidden_hoard_label'] = 'Forbidden Hoard'
+L['forbidden_hoard_note'] = 'Defeat the %s to open the chest.'
+
+L['storm_bound_chest_label'] = 'Storm-Bound Chest'
+L['purple_bone_pile_label'] = 'Purple Bone Pile'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

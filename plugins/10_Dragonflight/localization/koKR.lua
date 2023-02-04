@@ -189,7 +189,7 @@ L['somewhat_stabilized_arcana_note'] = nil
 L['stranded_soul_note'] = nil
 
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN REACH -------------------------------
+------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = '마력 깃든 바람 가방'
@@ -199,6 +199,16 @@ L['lost_draconic_hourglass'] = nil
 L['suspicious_bottle_treasure'] = '수상쩍은 병'
 L['mysterious_wand'] = nil
 L['mysterious_wand_note'] = nil
+
+-------------------------------------------------------------------------------
+------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
+-------------------------------------------------------------------------------
+
+L['forbidden_hoard_label'] = nil
+L['forbidden_hoard_note'] = nil
+
+L['storm_bound_chest_label'] = nil
+L['purple_bone_pile_label'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

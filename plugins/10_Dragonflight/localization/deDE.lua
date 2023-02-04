@@ -194,7 +194,7 @@ Töte dann {npc:197183} in der Höhle, um {item:200528} zu erhalten.
 ]]
 
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN REACH -------------------------------
+------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = 'Tasche mit verzaubertem Wind'
@@ -204,6 +204,16 @@ L['lost_draconic_hourglass'] = 'Verlorenes drakonisches Stundenglas'
 L['suspicious_bottle_treasure'] = 'Verdächtige Flasche'
 L['mysterious_wand'] = 'Geheimnisvoller Zauberstab'
 L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platziere ihn im {object:Kristallfokus}.'
+
+-------------------------------------------------------------------------------
+------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
+-------------------------------------------------------------------------------
+
+L['forbidden_hoard_label'] = nil
+L['forbidden_hoard_note'] = nil
+
+L['storm_bound_chest_label'] = nil
+L['purple_bone_pile_label'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

@@ -201,7 +201,7 @@ Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 ]]
 
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN REACH -------------------------------
+------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = 'Sac de vents enchantés'
@@ -211,6 +211,16 @@ L['lost_draconic_hourglass'] = 'Sablier draconique perdu'
 L['suspicious_bottle_treasure'] = 'Bouteille suspecte'
 L['mysterious_wand'] = 'Baguette mystérieuse'
 L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la dans le {object:Focalisateur en cristal}.'
+
+-------------------------------------------------------------------------------
+------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
+-------------------------------------------------------------------------------
+
+L['forbidden_hoard_label'] = nil
+L['forbidden_hoard_note'] = nil
+
+L['storm_bound_chest_label'] = nil
+L['purple_bone_pile_label'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
