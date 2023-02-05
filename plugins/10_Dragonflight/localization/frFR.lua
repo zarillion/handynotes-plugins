@@ -216,10 +216,10 @@ L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la d
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
-L['forbidden_hoard_label'] = nil
-L['forbidden_hoard_note'] = nil
+L['forbidden_hoard_label'] = 'Provisions interdites'
+L['forbidden_hoard_note'] = 'Battez les %s pour ouvrir le coffre.'
 
-L['storm_bound_chest_label'] = nil
+L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
 L['purple_bone_pile_label'] = nil
 
 -------------------------------------------------------------------------------
