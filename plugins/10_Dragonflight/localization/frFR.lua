@@ -217,22 +217,22 @@ L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la d
 -------------------------------------------------------------------------------
 
 -- global
-L['in_the_war_creche'] = nil
+L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
 
 -- rares
-L['duzalgor_note'] = nil
-L['mad_eye_carrey_note'] = nil
-L['wymslayer_angvardi_note'] = nil
+L['duzalgor_note'] = 'Ramassez une bouteille d\'{item:203657}({dot:Green}) pour vous soigner du gaz toxique dans la grotte.'
+L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
+L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 
 -- treasures
-L['storm_eater_cairn'] = nil
+L['storm_eater_cairn'] = 'Cairn de la Mange-tempêtes'
 L['forbidden_hoard_label'] = 'Provisions interdites'
 L['forbidden_hoard_note'] = 'Battez les %s pour ouvrir le coffre.'
-L['bone_pile_label'] = nil
+L['bone_pile_label'] = 'Tas d\'os'
 L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
 
 -- miscellaneous
-L['zskera_vault_az_note'] = nil
+L['zskera_vault_az_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau Az de Zskera}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
