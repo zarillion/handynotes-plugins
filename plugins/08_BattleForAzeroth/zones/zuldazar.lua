@@ -259,10 +259,7 @@ map.nodes[43952544] = Rare({
 map.nodes[48005424] = Rare({
     id = 131476,
     quest = 49972,
-    rewards = {
-        Achievement({id = 12944, criteria = 41869}),
-        Item({item = 161125, note = L['trinket']}) -- Kaja-fied Banana
-    }
+    rewards = {Achievement({id = 12944, criteria = 41869})}
 }) -- Zayoos
 
 -------------------------------------------------------------------------------

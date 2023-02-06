@@ -38,7 +38,7 @@ local bloodThornCave = Map({id = 540})
 map.nodes[21662106] = Rare({
     id = 75482,
     quest = 33640,
-    rewards = {Item({item = 108906, note = L['ring']}), Currency({id = 824})}
+    rewards = {Currency({id = 824})}
 }) -- Veloss
 
 map.nodes[27494370] = Rare({
@@ -151,9 +151,7 @@ map.nodes[43807740] = Rare({
 map.nodes[43955767] = Rare({
     id = 75071,
     quest = 33642,
-    rewards = {
-        Item({item = 119449}), Item({item = 113527, note = L['trinket']})
-    }
+    rewards = {Item({item = 119449})}
 }) -- Mother Om'ra, hunter quest
 
 map.nodes[45012085] = Rare({
@@ -201,11 +199,7 @@ map.nodes[50207240] = Rare({
     rewards = {Transmog({item = 119382, slot = L['plate']})}
 }) -- Quartermaster Hershak
 
-map.nodes[50987900] = Rare({
-    id = 86213,
-    quest = 37356,
-    rewards = {Item({item = 119387, note = L['ring']})}
-}) -- Aqualir
+map.nodes[50987900] = Rare({id = 86213, quest = 37356}) -- Aqualir
 
 map.nodes[51997957] = Rare({
     id = 85001,
@@ -256,7 +250,7 @@ map.nodes[61666162] = Rare({
 map.nodes[67906392] = Rare({
     id = 82676,
     quest = 35688,
-    rewards = {Item({item = 113556, note = L['neck']}), Currency({id = 824})}
+    rewards = {Currency({id = 824})}
 }) -- Enavra
 
 map.nodes[67318465] = Rare({
@@ -267,15 +261,11 @@ map.nodes[67318465] = Rare({
     pois = {POI({66848664})}
 }) -- Avalanche
 
-bloodThornCave.nodes[31153439] = Rare({
-    id = 76380,
-    rewards = {Item({item = 113082, note = L['ring']})}
-}) -- Gorum
+bloodThornCave.nodes[31153439] = Rare({id = 76380}) -- Gorum
 map.nodes[21643292] = Rare({
     id = 76380,
     quest = 33664,
     note = L['in_cave'],
-    rewards = {Item({item = 113082, note = L['ring']})},
     pois = {POI({24263314})}
 }) -- Gorum
 
@@ -328,10 +318,7 @@ map.nodes[60625807] = Rare({
 
 map.nodes[46027164] = Rare({
     id = 84911,
-    rewards = {
-        Achievement({id = 9437}), Pet({item = 119431, id = 1601}),
-        Item({item = 119377, note = L['neck']})
-    }
+    rewards = {Achievement({id = 9437}), Pet({item = 119431, id = 1601})}
 }) -- Demidos
 
 local Pathrunner = Rare({

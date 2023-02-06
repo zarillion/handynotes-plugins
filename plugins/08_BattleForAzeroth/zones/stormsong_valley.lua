@@ -74,10 +74,7 @@ map.nodes[62923283] = Rare({
 map.nodes[51245553] = Rare({
     id = 136183,
     quest = 52466,
-    rewards = {
-        Achievement({id = 12940, criteria = 41778}),
-        Item({item = 154857, note = L['ring']}) -- Bonesplinter Band
-    }
+    rewards = {Achievement({id = 12940, criteria = 41778})}
 }) -- Crushtacean
 
 map.nodes[67863982] = Rare({
@@ -122,10 +119,7 @@ map.nodes[64426592] = Rare({
 map.nodes[71445435] = Rare({
     id = 132007,
     quest = 50075,
-    rewards = {
-        Achievement({id = 12940, criteria = 41761}),
-        Item({item = 155568, note = L['trinket']}) -- Galewind Chimes
-    }
+    rewards = {Achievement({id = 12940, criteria = 41761})}
 }) -- Galestorm
 
 map.nodes[62067386] = Rare({
@@ -297,28 +291,19 @@ map.nodes[61575705] = Rare({
 map.nodes[41832843] = Rare({
     id = 139319,
     quest = 51958,
-    rewards = {
-        Achievement({id = 12940, criteria = 41759}),
-        Item({item = 158216, note = L['trinket']}) -- Living Oil Canister
-    }
+    rewards = {Achievement({id = 12940, criteria = 41759})}
 }) -- Slickspill
 
 map.nodes[70863222] = Rare({
     id = 141175,
     quest = 52448,
-    rewards = {
-        Achievement({id = 12940, criteria = 41753}),
-        Item({item = 158218, note = L['trinket']}) -- Dadalea's Wing
-    }
+    rewards = {Achievement({id = 12940, criteria = 41753})}
 }) -- Song Mistress Dadalea
 
 map.nodes[57037585] = Rare({
     id = 141088,
     quest = 52433,
-    rewards = {
-        Achievement({id = 12940, criteria = 41816}),
-        Item({item = 158224, note = L['trinket']}) -- Vial of Storms
-    }
+    rewards = {Achievement({id = 12940, criteria = 41816})}
 }) -- Squall
 
 map.nodes[53066908] = Rare({
@@ -389,10 +374,7 @@ map.nodes[47206580] = Rare({
 map.nodes[46774242] = Rare({
     id = 142088,
     quest = 52457,
-    rewards = {
-        Achievement({id = 12940, criteria = 41762}),
-        Item({item = 158215, note = L['trinket']}) -- Whirlwing's Plumage
-    }
+    rewards = {Achievement({id = 12940, criteria = 41762})}
 }) -- Whirlwing
 
 -------------------------------------------------------------------------------

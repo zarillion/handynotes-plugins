@@ -63,7 +63,7 @@ map.nodes[43857771] = Rare({
     id = 80122,
     quest = 34725,
     note = L['in_cave'],
-    rewards = {Item({item = 116798, note = L['ring']}), Currency({id = 824})},
+    rewards = {Currency({id = 824})},
     pois = {POI({42247854})}
 }) -- Gaz'orda
 
@@ -91,7 +91,7 @@ map.nodes[52009000] = Rare({id = 80370, quest = 37408}) -- Lernaea
 map.nodes[52205580] = Rare({
     id = 82764,
     quest = 35715,
-    rewards = {Item({item = 118246, note = L['trinket']}), Currency({id = 824})}
+    rewards = {Currency({id = 824})}
 }) -- Gar'lua
 
 map.nodes[54686137] = Rare({
@@ -138,7 +138,7 @@ map.nodes[64893911] = Rare({
 map.nodes[66695635] = Rare({
     id = 82778,
     quest = 35717,
-    rewards = {Item({item = 116824, note = L['trinket']}), Currency({id = 824})}
+    rewards = {Currency({id = 824})}
 }) -- Gnarlhoof the Rabid
 
 map.nodes[66685132] = Rare({
@@ -187,8 +187,7 @@ map.nodes[75536536] = Rare({
 map.nodes[77006400] = Rare({
     id = 82826,
     quest = 35735,
-    note = L['in_cave'] .. ' ' .. L['berserk_t_300_series_mark_ii_note'],
-    rewards = {Item({item = 116823, note = L['trinket']})}
+    note = L['in_cave'] .. ' ' .. L['berserk_t_300_series_mark_ii_note']
 }) -- Berserk T-300 Series Mark II
 
 map.nodes[80573060] = Rare({
@@ -222,11 +221,7 @@ map.nodes[84043681] = Rare({
     rewards = {Transmog({item = 118689, slot = L['leather']})}
 }) -- Graveltooth
 
-map.nodes[84605340] = Rare({
-    id = 82899,
-    quest = 35778,
-    rewards = {Item({item = 116832, note = L['neck']})}
-}) -- Ancient Blademaster
+map.nodes[84605340] = Rare({id = 82899, quest = 35778}) -- Ancient Blademaster
 
 map.nodes[89467282] = Rare({
     id = 82912,
@@ -234,11 +229,7 @@ map.nodes[89467282] = Rare({
     rewards = {Transmog({item = 118687, slot = L['cloak']})}
 }) -- Grizzlemaw
 
-map.nodes[87005500] = Rare({
-    id = 78161,
-    quest = 34862,
-    rewards = {Item({item = 116799, note = L['trinket']})}
-}) -- Hyperious
+map.nodes[87005500] = Rare({id = 78161, quest = 34862}) -- Hyperious
 
 map.nodes[89004120] = Rare({
     id = 82486,
@@ -1116,10 +1107,7 @@ local BrokeBackPrecipiceRare = Class('BrokeBackPrecipiceRare', Collectible {
 
 map.nodes[38001960] = BrokeBackPrecipiceRare({
     id = 87846,
-    rewards = {
-        Achievement({id = 9571, criteria = 26320}),
-        Item({item = 119389, note = L['ring']})
-    }
+    rewards = {Achievement({id = 9571, criteria = 26320})}
 }) -- Pit Slayer
 
 map.nodes[38602240] = BrokeBackPrecipiceRare({

@@ -142,7 +142,6 @@ map.nodes[72872891] = Rare({
     quest = 62369,
     rewards = {
         Achievement({id = 14308, criteria = 49724}),
-        -- Item({item=184174, note=L["ring"]}), -- Clasp of Death
         Transmog({item = 181810, slot = L['cosmetic'], covenant = NECROLORD}) -- Phylactery of the Dead Conniver
     }
 }) -- Necromantic Anomaly
@@ -452,8 +451,7 @@ map.nodes[32742127] = Treasure({
     quest = 60587,
     note = L['kyrian_keepsake_note'],
     rewards = {
-        Achievement({id = 14312, criteria = 50064}), Item({item = 180085}),
-        Item({item = 175708, note = L['neck']})
+        Achievement({id = 14312, criteria = 50064}), Item({item = 180085})
     }
 }) -- Kyrian Keepsake
 

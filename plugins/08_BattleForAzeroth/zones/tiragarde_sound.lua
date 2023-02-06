@@ -207,10 +207,7 @@ map.nodes[38891530] = Rare({
     id = 131262,
     quest = 49923,
     note = L['in_cave'],
-    rewards = {
-        Achievement({id = 12939, criteria = 41826}),
-        Item({item = 160263, note = L['trinket']}) -- Snowpelt Mangler
-    },
+    rewards = {Achievement({id = 12939, criteria = 41826})},
     pois = {
         POI({39851491}) -- Cave entrance
     }
@@ -219,10 +216,7 @@ map.nodes[38891530] = Rare({
 map.nodes[64765863] = Rare({
     id = 132179,
     quest = 50148,
-    rewards = {
-        Achievement({id = 12939, criteria = 41827}),
-        Item({item = 161446, note = L['ring']}) -- Blistering Seawater Seal
-    }
+    rewards = {Achievement({id = 12939, criteria = 41827})}
 }) -- Raging Swell
 
 map.nodes[68306356] = Rare({
@@ -317,10 +311,7 @@ map.nodes[55315156] = Rare({
 map.nodes[63655035] = Rare({
     id = 131389,
     quest = 49942,
-    rewards = {
-        Achievement({id = 12939, criteria = 41837}),
-        Item({item = 158556, note = L['trinket']}) -- Siren's Tongue
-    }
+    rewards = {Achievement({id = 12939, criteria = 41837})}
 }) -- Teres
 
 map.nodes[70405573] = Rare({

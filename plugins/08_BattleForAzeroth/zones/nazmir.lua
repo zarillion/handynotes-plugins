@@ -31,10 +31,7 @@ local map = Map({id = 863, settings = true})
 map.nodes[67792946] = Rare({
     id = 125250,
     quest = 48063,
-    rewards = {
-        Achievement({id = 12942, criteria = 41440}),
-        Item({item = 161113, note = L['trinket']}) -- Incessently Ticking Clock
-    }
+    rewards = {Achievement({id = 12942, criteria = 41440})}
 }) -- Ancient Jawbreaker
 
 map.nodes[54128110] = Rare({
@@ -75,10 +72,7 @@ map.nodes[81833057] = Rare({
     id = 125232,
     quest = 48057,
     note = L['captain_mukala_note'],
-    rewards = {
-        Achievement({id = 12942, criteria = 41454}),
-        Item({item = 161115, note = L['trinket']}) -- Cursed Captain's Charm
-    }
+    rewards = {Achievement({id = 12942, criteria = 41454})}
 }) -- Captain Mu'kala
 
 map.nodes[41315343] = Rare({
@@ -103,10 +97,7 @@ map.nodes[81696105] = Rare({
 map.nodes[68595720] = Rare({
     id = 121242,
     quest = 50361,
-    rewards = {
-        Achievement({id = 12942, criteria = 41456}),
-        Item({item = 160985, note = L['ring']}) -- Glompmaw's Ring
-    }
+    rewards = {Achievement({id = 12942, criteria = 41456})}
 }) -- Glompmaw
 
 map.nodes[32754304] = Rare({
@@ -206,10 +197,7 @@ map.nodes[53125429] = Rare({
     id = 128930,
     label = '{npc:128935} and {npc:128930}',
     quest = 50040,
-    rewards = {
-        Achievement({id = 12942, criteria = 41479}),
-        Item({item = 163703, note = L['trinket']}) -- Crawg Gnawed Femur
-    }
+    rewards = {Achievement({id = 12942, criteria = 41479})}
 }) -- Mala'kili and Rohnkor
 
 map.nodes[57726770] = Rare({

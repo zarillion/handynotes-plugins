@@ -102,8 +102,7 @@ map.nodes[66555946] = Rare({
     note = L['endlurker_note'],
     rewards = {
         Achievement({id = 14310, criteria = 48810}),
-        Achievement({id = 14833, criteria = 49869, covenant = NECROLORD}),
-        Item({item = 179927, note = L['trinket']}) -- Glowing Endmire Stinger
+        Achievement({id = 14833, criteria = 49869, covenant = NECROLORD})
     }
 }) -- Endlurker
 

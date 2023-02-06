@@ -97,10 +97,7 @@ map.nodes[55826249] = Rare({
     id = 171189,
     quest = 59022,
     note = L['bookkeeper_mnemis_note'],
-    rewards = {
-        Achievement({id = 14307, criteria = 50612}),
-        Item({item = 182682, note = L['trinket']}) -- Book-Borrower Identification
-    }
+    rewards = {Achievement({id = 14307, criteria = 50612})}
 }) -- Bookkeeper Mnemis
 
 map.nodes[50435804] = Rare({

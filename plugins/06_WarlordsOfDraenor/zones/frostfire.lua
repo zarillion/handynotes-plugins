@@ -55,11 +55,7 @@ map.nodes[64805300] = Gorok
 map.nodes[51805060] = Gorok
 map.nodes[58001840] = Gorok
 
-map.nodes[26035567] = Rare({
-    id = 77513,
-    quest = 34129,
-    rewards = {Item({item = 112066, note = L['neck']})}
-}) -- Coldstomp the Griever
+map.nodes[26035567] = Rare({id = 77513, quest = 34129}) -- Coldstomp the Griever
 
 map.nodes[26923196] = Rare({
     id = 77527,
@@ -163,17 +159,9 @@ map.nodes[48562415] = Rare({
     rewards = {Transmog({item = 119390, slot = L['shield']})}
 }) -- Jabberjaw
 
-map.nodes[50395275] = Rare({
-    id = 80190,
-    quest = 34825,
-    rewards = {Item({item = 111948, note = L['trinket']})}
-}) -- Gruuk
+map.nodes[50395275] = Rare({id = 80190, quest = 34825}) -- Gruuk
 
-map.nodes[54712238] = Rare({
-    id = 71665,
-    quest = 32918,
-    rewards = {Item({item = 111530, note = L['trinket']})}
-}) -- Giant-Slayer Kul
+map.nodes[54712238] = Rare({id = 71665, quest = 32918}) -- Giant-Slayer Kul
 
 map.nodes[54286918] = Rare({
     id = 76914,
@@ -199,7 +187,6 @@ map.nodes[65753131] = Rare({
     id = 74613,
     quest = 33843,
     note = L['in_cave'],
-    rewards = {Item({item = 111533, note = L['trinket']})},
     pois = {POI({64323227})}
 }) -- Broodmother Reeg'ak
 
@@ -209,17 +196,9 @@ map.nodes[67037867] = Rare({
     rewards = {Transmog({item = 112086, slot = L['cloth']})}
 }) -- Cyclonic Fury
 
-map.nodes[68091986] = Rare({
-    id = 87348,
-    quest = 37382,
-    rewards = {Item({item = 119415, note = L['ring']})}
-}) -- Hoarfrost
+map.nodes[68091986] = Rare({id = 87348, quest = 37382}) -- Hoarfrost
 
-map.nodes[72472279] = Rare({
-    id = 87351,
-    quest = 37381,
-    rewards = {Item({item = 119376, note = L['neck']})}
-}) -- Mother of Goren
+map.nodes[72472279] = Rare({id = 87351, quest = 37381}) -- Mother of Goren
 
 map.nodes[70962760] = Rare({
     id = 72364,
@@ -288,11 +267,7 @@ map.nodes[86604880] = Rare({
     rewards = {Transmog({item = 119359, slot = L['leather']})}
 }) -- Ragore Driftstalker
 
-map.nodes[86605180] = Rare({
-    id = 84376,
-    quest = 37403,
-    rewards = {Item({item = 119374, note = L['neck']})}
-}) -- Earthshaker Holar
+map.nodes[86605180] = Rare({id = 84376, quest = 37403}) -- Earthshaker Holar
 
 map.nodes[87004640] = Rare({
     id = 84374,

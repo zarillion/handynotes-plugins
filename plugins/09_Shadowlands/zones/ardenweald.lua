@@ -271,10 +271,7 @@ map.nodes[65702430] = Rare({
     id = 167724,
     quest = 60258,
     note = L['rotbriar_note'],
-    rewards = {
-        Achievement({id = 14309, criteria = 48789}),
-        Item({item = 175729, note = L['trinket']}) -- Rotbriar Sprout
-    }
+    rewards = {Achievement({id = 14309, criteria = 48789})}
 }) -- Rotbriar Boggart
 
 map.nodes[72425175] = Rare({
@@ -304,8 +301,7 @@ map.nodes[59304660] = Rare({
     note = L['slumbering_note'],
     rewards = {
         Achievement({id = 14309, criteria = 48792}),
-        Achievement({id = 14833, criteria = 49923, covenant = NECROLORD}),
-        Item({item = 175711, note = L['ring']}) -- Slumberwood Band
+        Achievement({id = 14833, criteria = 49923, covenant = NECROLORD})
     }
 }) -- The Slumbering Emperor
 
@@ -357,10 +353,6 @@ map.nodes[41254443] = Rare({
             }
         }), Transmog({item = 179518, type = L['staff'], note = '{npc:166135}'}), -- Glimmerlight Staff
         Transmog({item = 179534, type = L['polearm'], note = '{npc:166138}'}) -- Mi'kai's Deathscythe
-        -- Item({item=182455, type=L["trinket"], note='{npc:166146}'}), -- Dreamer's Mending
-        -- Item({item=182452, type=L["trinket"], note='{npc:166142}'}), -- Everchill Brambles
-        -- Item({item=182451, type=L["trinket"], note='{npc:166139}'}), -- Glimmerdust's Grand Design
-        -- Item({item=182454, type=L["trinket"], note='{npc:166140}'}), -- Murmurs in the Dark
     }
 })
 
