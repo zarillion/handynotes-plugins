@@ -209,11 +209,23 @@ L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platzi
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
+-- global
+L['in_the_war_creche'] = nil
+
+-- rares
+L['duzalgor_note'] = nil
+L['mad_eye_carrey_note'] = nil
+L['wymslayer_angvardi_note'] = nil
+
+-- treasures
+L['storm_eater_cairn'] = nil
 L['forbidden_hoard_label'] = nil
 L['forbidden_hoard_note'] = nil
-
-L['storm_bound_chest_label'] = nil
 L['bone_pile_label'] = nil
+L['storm_bound_chest_label'] = nil
+
+-- miscellaneous
+L['zskera_vault_az_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

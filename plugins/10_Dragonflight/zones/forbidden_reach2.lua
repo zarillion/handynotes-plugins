@@ -2,9 +2,11 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -16,12 +18,15 @@ local SignalTransmitter = ns.node.SignalTransmitter
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Pet = ns.reward.Pet
+local Toy = ns.reward.Toy
 
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2151, settings = true})
+local twc = Map({id = 2102, settings = false}) -- The War Creche
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -49,10 +54,23 @@ map.nodes[26664150] = Rare({
     }
 }) -- "Captain" Ookbeard
 
--- map.nodes[] = Rare({
---     id = 200610,
---     quest = 74340
--- }) -- Duzalgor
+map.nodes[32693558] = Rare({
+    id = 200610,
+    quest = 74340,
+    note = L['in_small_cave'] .. '\n\n' .. L['duzalgor_note'],
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
+    pois = {
+        POI({34662400}), -- Entrance
+        POI({
+            label = '{item:203657}',
+            color = 'Green',
+            points = {34622426, 34852387}
+        }) -- Toxin Antidote
+    }
+}) -- Duzalgor
 
 map.nodes[25023040] = Rare({
     id = 200537,
@@ -110,7 +128,7 @@ map.nodes[61385430] = Rare({
 map.nodes[70763874] = Rare({
     id = 201181,
     quest = 74346,
-    note = L['in_small_cave'],
+    note = L['in_small_cave'] .. '\n\n' .. L['mad_eye_carrey_note'],
     rewards = {
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
@@ -119,13 +137,20 @@ map.nodes[70763874] = Rare({
         POI({722113973}) -- Entrance
     }
 }) -- Mad-Eye Carrey
--- -- Navigator Bi-Yun {npc:201184}
--- -- First Mate Ovdah {npc:201182}
 
--- map.nodes[] = Rare({
---     id = 200978,
---     quest = 74350
--- }) -- Pyrachniss
+twc.nodes[75935075] = Rare({
+    id = 200978,
+    quest = 74350,
+    parent = map.id,
+    note = L['in_the_war_creche'],
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
+    poi = {
+        POI({52195562}) -- Entrance
+    }
+}) -- Pyrachniss
 
 map.nodes[47331027] = Rare({
     id = 200600,
@@ -140,16 +165,19 @@ map.nodes[47331027] = Rare({
     }
 }) -- Reisa the Drowned
 
--- map.nodes[60484373] = Rare({
---     id = nil, <--------------------------------------------------- TODO: Not available on Wowhead
---     quest = nil, <------------------------------------------------ TODO: Not available on Wowhead
---     note = L['in_small_cave'],
---     rewards = {
---         Item({item = 202196}), -- Zskera Vault Key
---         Currency({id = 2118}) -- Elemental Overflow
---     },
---     pois = {POI({5948225})}
--- }) -- Vakren the Hunter
+-- TODO: The NPC ID and quest ID for Vakren the Hunter are not yet on the PTR Wowhead
+map.nodes[60484373] = Rare({
+    id = nil,
+    quest = nil,
+    note = L['in_small_cave'],
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
+    pois = {
+        POI({5948225}) -- Entrance
+    }
+}) -- Vakren the Hunter
 
 map.nodes[76736414] = Rare({
     id = 200904,
@@ -177,14 +205,24 @@ map.nodes[58923839] = Rare({
     }
 }) -- Volcanakk
 
--- map.nodes[] = Rare({
---     id = 200960,
---     quest = 74348
--- }) -- Warden Entrix
+map.nodes[42928473] = Rare({
+    id = 200960,
+    quest = 74348,
+    parent = map.id,
+    note = L['in_the_war_creche'],
+    rewards = {
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
+    poi = {
+        POI({52195562}) -- Entrance
+    }
+}) -- Warden Entrix
 
 map.nodes[63572576] = Rare({
     id = 201013,
     quest = 74347,
+    note = L['wymslayer_angvardi_note'],
     rewards = {
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
@@ -193,55 +231,22 @@ map.nodes[63572576] = Rare({
         POI({64042478}) -- Nidharr
     }
 }) -- Wyrmslayer Angvardi
--- -- Nidharr {npc:201310}
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+-- TODO: I am not really sure if this is a treasure or something like a
+-- Djaradin Cache. I have only seen 1 and the rewards were 10.0.7 Placeholder
+-- Loot. Needs more research.
+map.nodes[75965723] = Treasure({label = L['storm_eater_cairn'], quest = nil}) -- Storm-Eater Cairn
+
 ------------------------------- FORBIDDEN HOARD -------------------------------
 
-map.nodes[46207342] = Treasure({
-    label = L['forbidden_hoard_label'],
-    quest = nil,
-    note = L['in_small_cave'] .. '\n\n' ..
-        format(L['forbidden_hoard_note'], '{npc:201304}'), -- Territorial Proto-Drake
-    rewards = {
-        Item({item = 202196}) -- Zskera Vault Key
-    },
-    pois = {
-        POI({45787255}) -- Entrance
-    }
-}) -- Forbidden Hoard
-
-map.nodes[53647674] = Treasure({
-    label = L['forbidden_hoard_label'],
-    quest = nil,
-    note = format(L['forbidden_hoard_note'], '{npc:201304}'), -- Territorial Proto-Drake
-    rewards = {
-        Item({item = 202196}) -- Zskera Vault Key
-    }
-}) -- Forbidden Hoard
-
-map.nodes[55592617] = Treasure({
-    label = L['forbidden_hoard_label'],
-    quest = nil,
-    note = format(L['forbidden_hoard_note'], '{npc:201292}'), -- Tarasek Plunderer
-    rewards = {
-        Item({item = 202196}) -- Zskera Vault Key
-    }
-}) -- Forbidden Hoard
-
-map.nodes[65013709] = Treasure({
-    label = L['forbidden_hoard_label'],
-    quest = nil,
-    note = format(L['forbidden_hoard_note'], '{npc:201292}'), -- Tarasek Plunderer
-    rewards = {
-        Item({item = 202196}) -- Zskera Vault Key
-    }
-}) -- Forbidden Hoard
-
-map.nodes[70606555] = Treasure({
+-- TODO: This note getter needs to be tested. I am not sure what happens if the
+-- function returns nil. But for now guardianID is the NPC that guards each
+-- Forbidden Hoard. Only one chest has not had any guardians so far.
+local ForbiddenHoard = Class('ForbiddenHoard', Treasure, {
     label = L['forbidden_hoard_label'],
     quest = nil,
     rewards = {
@@ -249,26 +254,40 @@ map.nodes[70606555] = Treasure({
     }
 }) -- Forbidden Hoard
 
-map.nodes[72897639] = Treasure({
-    label = L['forbidden_hoard_label'],
-    quest = nil,
-    note = format(L['forbidden_hoard_note'], '{npc:201301}'), -- Farscale Raider
-    rewards = {
-        Item({item = 202196}) -- Zskera Vault Key
-    }
-}) -- Forbidden Hoard
+function ForbiddenHoard.getters:note()
+    if self.guardianID then
+        return format(L['forbidden_hoard_note'],
+            '{npc:' .. self.guardianID .. '}')
+    else
+        return nil
+    end
+end
 
----------------------------  MISCELLANEOUS TREASURE ---------------------------
+map.nodes[46207342] = ForbiddenHoard({guardianID = 201304}) -- Territorial Proto-Drake
+map.nodes[53647674] = ForbiddenHoard({guardianID = 201304}) -- Territorial Proto-Drake
+map.nodes[55592617] = ForbiddenHoard({guardianID = 201292}) -- Tarasek Plunderer
+map.nodes[59285907] = ForbiddenHoard({guardianID = 201307}) -- Sundered Despoiler
+map.nodes[65013709] = ForbiddenHoard({guardianID = 201292}) -- Tarasek Plunderer
+map.nodes[70606555] = ForbiddenHoard() -- No Guardian
+map.nodes[72897639] = ForbiddenHoard({guardianID = 201301}) -- Farscale Raider
+
+---------------------------------- BONE PILE ----------------------------------
+
+-- TODO: I suspect that Bone Piles will be similar to Disturbed Dirt or a
+-- Expedition Scout Pack and may need to be moved to its own group/header. The
+-- Bone Piles I have run into still have 10.0.7 Placeholder Loot as rewards.
+local BonePile = Class('BonePile', Treasure,
+    {label = L['bone_pile_label'], quest = nil}) -- Bone Pile
+
+map.nodes[65213628] = BonePile()
+map.notes[59044624] = BonePile()
+
+--------------------------- MISCELLANEOUS TREASURE ----------------------------
 
 map.nodes[48697111] = ns.node.ElementalChest({
     label = L['storm_bound_chest_label'],
     quest = nil
 }) -- Storm-Bound Chest
-
-map.nodes[65213628] = Treasure({
-    label = L['bone_pile_label'], -- <----------------------- TODO: This has 10.0.7 placeholder loot
-    quest = nil
-}) -- Bone Pile
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
@@ -319,8 +338,11 @@ map.nodes[80464835] = Flag({quest = nil})
 ------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
 -------------------------------------------------------------------------------
 
-map.nodes[38398116] = SignalTransmitter({quest = nil}) -- <------- TODO: Forgot to document location
-map.nodes[42504555] = SignalTransmitter({quest = nil}) -- <------- TODO: Forgot to document location
+-- TODO: I forgot to document where each Deactivated Signal Transmitter was
+-- found. Once addons have been enabled on the PTR I can go back and add a LUA
+-- comment for each one.
+map.nodes[38398116] = SignalTransmitter({quest = nil})
+map.nodes[42504555] = SignalTransmitter({quest = nil})
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -380,6 +402,7 @@ map.nodes[651846532] = Dragonrace({
     }
 }) -- Aerie Chasm Cruise
 
+-- TODO: I have not found the location for this race
 -- map.nodes[] = Dragonrace({
 --     label = nil,
 --     normal = {nil, nil, nil},
@@ -433,3 +456,22 @@ map.nodes[49335595] = Dragonrace({
         Achievement({id = 17290, criteria = 6, oneline = true}) -- reverse gold
     }
 }) -- Forbidden Reach Ramble
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[25884785] = Collectible({
+    label = '{quest:72953}',
+    icon = 4909720,
+    note = L['zskera_vault_az_note'],
+    rewards = {
+        Achievement({id = 17413}), -- Door Buster
+        Pet({item = 193851, id = nil}), -- Patos
+        Pet({item = 193908, id = nil}), -- Kobaldt
+        Pet({item = 204079, id = nil}), -- Guilden Mechafrog
+        Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
+        Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
+        Toy({item = 204262}) -- Holoviewer: The timeless One
+    }
+}) -- Zskera Vault: Az
