@@ -266,9 +266,9 @@ map.nodes[48697111] = ns.node.ElementalChest({
 }) -- Storm-Bound Chest
 
 map.nodes[65213628] = Treasure({
-    label = L['purple_bone_pile_label'],
+    label = L['bone_pile_label'], -- <----------------------- TODO: This has 10.0.7 placeholder loot
     quest = nil
-}) -- Purple Bone Pile <------------------------------------- TODO: This has 10.0.7 placeholder loot
+}) -- Bone Pile
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

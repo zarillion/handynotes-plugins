@@ -220,7 +220,7 @@ L['forbidden_hoard_label'] = 'Provisions interdites'
 L['forbidden_hoard_note'] = 'Battez les %s pour ouvrir le coffre.'
 
 L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
-L['purple_bone_pile_label'] = nil
+L['bone_pile_label'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

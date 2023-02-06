@@ -213,7 +213,7 @@ L['forbidden_hoard_label'] = nil
 L['forbidden_hoard_note'] = nil
 
 L['storm_bound_chest_label'] = nil
-L['purple_bone_pile_label'] = nil
+L['bone_pile_label'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

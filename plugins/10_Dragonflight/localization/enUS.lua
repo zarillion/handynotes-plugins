@@ -219,7 +219,7 @@ L['forbidden_hoard_label'] = 'Forbidden Hoard'
 L['forbidden_hoard_note'] = 'Defeat the %s to open the chest.'
 
 L['storm_bound_chest_label'] = 'Storm-Bound Chest'
-L['purple_bone_pile_label'] = 'Purple Bone Pile'
+L['bone_pile_label'] = 'Bone Pile'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
