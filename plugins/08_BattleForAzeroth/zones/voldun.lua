@@ -13,7 +13,6 @@ local Supply = ns.node.Supply
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
-local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Transmog = ns.reward.Transmog
 

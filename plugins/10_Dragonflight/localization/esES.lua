@@ -398,9 +398,9 @@ L['fullsails_supply_chest'] = 'Cofre de Suministros Todavela'
 L['hidden_hornswog_hoard_note'] = [[
 Recoge tres objetos distintos y combínalos para crear el {object:"Acertijo de observador: Una Guía de Campo"} junto al {npc:192362} para conseguir el {item:200063} y alimentarlo. Se moverá fuera del camino y podrás despojar su tesoro.
 
-{item:200064}
-{item:200065}
-{item:200066}
+{item:200064}{dot:Yellow}
+{item:200065}{dot:Blue}
+{item:200066}{dot:White}
 ]]
 
 L['pm_alch_grigori_vialtry'] = 'En una repisa con vistas al {location:Asalto Raudoescarcha}.'

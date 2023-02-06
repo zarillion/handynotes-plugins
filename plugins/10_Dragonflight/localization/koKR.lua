@@ -386,9 +386,9 @@ L['fullsails_supply_chest'] = '풀세일 보급품 상자'
 L['hidden_hornswog_hoard_note'] = [[
 {npc:192362} 주변에 있는 {object:"관찰의 수수께끼: 현장 지침서"}에 적힌 세가지 아이템을 구하여 {item:200063}을 조합한 후 먹이로 줍니다. 간식을 먹고나면 옆으로 비켜줘서 전리품을 획득할 수 있게 됩니다.
 
-{item:200064}
-{item:200065}
-{item:200066}
+{item:200064}{dot:Yellow}
+{item:200065}{dot:Blue}
+{item:200066}{dot:White}
 ]]
 
 L['pm_alch_grigori_vialtry'] = '{location:섬광서리 강습지}가 내려다보이는 난간에 있음.'

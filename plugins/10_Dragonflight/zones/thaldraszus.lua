@@ -77,7 +77,9 @@ map.nodes[31097121] = Rare({
     id = 193128,
     quest = 74096,
     note = L['blightpaw_note'],
-    rewards = {Achievement({id = 16679, criteria = 56136})}
+    rewards = {
+        Achievement({id = 16679, criteria = 56136}), Toy({item = 200178}) -- Infected Ichor
+    }
 }) -- Blightpaw the Depraved
 
 map.nodes[59847057] = Rare({ -- required 67030
@@ -304,8 +306,7 @@ map.nodes[47884976] = Rare({
     rewards = {
         Achievement({id = 16679, criteria = 56152}),
         Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
-        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
-        Item({item = 200445, note = L['neck']}) -- Lucky Hunting Charm
+        Transmog({item = 200174, slot = L['leather']}) -- Bonesigil Shoulderguards
     }
 }) -- Woolfang
 
@@ -323,10 +324,7 @@ map.nodes[57366540] = Rare({
 
 map.nodes[55647727] = Rare({
     id = 193229,
-    quest = 72814, -- 69873
-    rewards = {
-        Item({item = 200880, note = L['trinket']}) -- Wind-Sealed Mana Capsule
-    }
+    quest = 72814 -- 69873
 }) -- Henlare
 
 map.nodes[36757287] = Rare({
@@ -462,8 +460,6 @@ tpf.nodes[28002590] = ns.node.ElementalChest({
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 199906}), -- Centaur Hunting Trophy
         Item({item = 190454}), -- Primal Chaos
-        Item({item = 198451, note = L['trinket']}), -- Lifeflame Ampoule
-        Item({item = 198407, note = L['trinket']}), -- Azure Arcanic Amplifier
         Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
         Transmog({item = 201444, slot = L['1h_sword']}) -- Primal Revenant's Earthblade
     },

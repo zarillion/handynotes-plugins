@@ -133,8 +133,6 @@ map.nodes[14053096] = RareElite({
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        Item({item = 200859, note = L['trinket']}), -- Seasoned Hunter's Trophy
-        Item({item = 200563, note = L['trinket']}), -- Primal Ritual Shell
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
@@ -345,7 +343,6 @@ map.nodes[58095471] = Rare({ -- review
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        Item({item = 200445, note = L['neck']}), -- Lucky Hunting Charm
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
@@ -486,7 +483,6 @@ map.nodes[59405520] = Rare({
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        Item({item = 200859, note = L['trinket']}), -- Seasoned Hunter's Trophy
         DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Wilrive
@@ -529,7 +525,6 @@ map.nodes[38155901] = Rare({
     rewards = {
         Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
         Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
-        Item({item = 200210, note = L['neck']}), -- Amnesia
         DC.HighlandDrake.StripedPattern, DC.WindborneVelocidrake.SpikedBack
     },
     pois = {POI({38625988})}
@@ -540,7 +535,6 @@ map.nodes[70143327] = Rare({
     quest = 72848, -- 69895
     rewards = {
         Item({item = 198048}), -- Titan Training Matrix I
-        Item({item = 200868, note = L['trinket']}), -- Intefrated Primal Fire
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram

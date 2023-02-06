@@ -134,7 +134,6 @@ map.nodes[87556151] = Rare({
     quest = 73882,
     rewards = {
         Achievement({id = 16677, criteria = 56067}), --
-        Item({item = 200859, note = L['trinket']}), -- Seasoned Hunter's Trophy
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.RenewedProtoDrake.SharkSnout
     }
@@ -164,10 +163,7 @@ map.nodes[63017996] = Rare({ -- reqiured 67030
     id = 193173,
     quest = 74015,
     note = L['spawns_periodically'],
-    rewards = {
-        Achievement({id = 16677, criteria = 56070}),
-        Item({item = 200542, note = L['trinket']}) -- Breezy Companion
-    }
+    rewards = {Achievement({id = 16677, criteria = 56070})}
 }) -- Mikrin of the Raging Winds
 
 map.nodes[58604940] = Rare({
@@ -291,7 +287,6 @@ map.nodes[29964103] = Rare({
     note = L['shade_of_grief_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56080}),
-        Item({item = 200158, note = L['ring']}), -- Eerie Spectral Ring
         DC.CliffsideWylderdrake.BranchedHorns
     }
 }) -- Shade of Grief
@@ -353,8 +348,7 @@ map.nodes[58596822] = Rare({
     rewards = {
         Achievement({id = 16677, criteria = 56076}),
         Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
-        Transmog({item = 200441, slot = L['leather']}), -- Jhakan's Horned Cowl
-        Item({item = 200141, note = L['ring']}) -- Wind Generating Band
+        Transmog({item = 200441, slot = L['leather']}) -- Jhakan's Horned Cowl
     }
 }) -- Windseeker Avash
 
@@ -390,7 +384,9 @@ map.nodes[90434005] = Rare({
     id = 193128,
     quest = 74096,
     note = L['blightpaw_note'],
-    rewards = {Achievement({id = 16679, criteria = 56136})}
+    rewards = {
+        Achievement({id = 16679, criteria = 56136}), Toy({item = 200178}) -- Infected Ichor
+    }
 }) -- Blightpaw the Depraved
 
 map.nodes[80817770] = Rare({
@@ -405,13 +401,7 @@ map.nodes[80817770] = Rare({
 
 -- These rares/elites are not part of the adventurer achievement for the zone
 
-map.nodes[59926696] = Rare({
-    id = 193669,
-    quest = 72815,
-    rewards = {
-        Item({item = 200161, note = L['trinket']}) -- Razorwind Talisman
-    }
-}) -- Prozela Galeshot
+map.nodes[59926696] = Rare({id = 193669, quest = 72815}) -- Prozela Galeshot
 
 map.nodes[26366533] = Rare({
     id = 193153,
@@ -546,8 +536,6 @@ map.nodes[56007878] = ns.node.ElementalChest({
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 200093}), -- Centaur Hunting Trophy
         Item({item = 190454}), -- Primal Chaos
-        Item({item = 198542, note = L['trinket']}), -- Shikaari Huntress' Arrowhead
-        Item({item = 198539, note = L['trinket']}), -- Breath of the Plains
         Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
         Transmog({item = 201442, slot = L['1h_sword']}) -- Primal Revenant's Frostblade
     }

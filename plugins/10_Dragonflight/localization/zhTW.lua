@@ -397,9 +397,9 @@ L['fullsails_supply_chest'] = '滿帆補給箱'
 L['hidden_hornswog_hoard_note'] = [[
 收集三個不同物品並且在靠近 {npc:192362} 附近的 {object:"觀察謎題: 田野指南"} 來組合以取得 {item:200063} 並且餵給牠. 接著牠會讓開路讓你拾取牠的寶藏.
 
-{item:200064}
-{item:200065}
-{item:200066}
+{item:200064}{dot:Yellow}
+{item:200065}{dot:Blue}
+{item:200066}{dot:White}
 ]]
 
 L['pm_alch_grigori_vialtry'] = '在一個平台上俯瞰 {location:閃霜進攻地}.'

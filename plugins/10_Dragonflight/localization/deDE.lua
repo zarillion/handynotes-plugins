@@ -388,7 +388,13 @@ L['torn_riding_pack_note'] = 'Liegt am oberen Ende des Wasserfalls.'
 L['yennus_kite_note'] = 'Steckt an einem Ast in der Baumkrone fest.'
 
 L['fullsails_supply_chest'] = 'Vorratskiste der Vollsegel'
-L['hidden_hornswog_hoard_note'] = 'Sammel {item:200064}, {item:200065} und {item:200066}, kombiniere diese beim {object:"Rätsel für Aufmerksame: Ein Naturführer"} nahe dem Schatz und füttere dann den Frosch damit.'
+L['hidden_hornswog_hoard_note'] = [[
+Sammel die drei Gegenstände und kombiniere diese beim {object:"Rätsel für Aufmerksame: Ein Naturführer"} nahe dem Schatz und füttere dann den Frosch damit.
+
+{item:200064}{dot:Yellow}
+{item:200065}{dot:Blue}
+{item:200066}{dot:White}
+]]
 
 L['pm_alch_grigori_vialtry'] = 'Auf einem Felsvorsprung mit Blick auf den {location:Blitzfrostangriff}.'
 L['pm_skin_zenzi'] = 'Sitzt direkt am Flussufer.'
