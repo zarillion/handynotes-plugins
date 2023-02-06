@@ -616,8 +616,8 @@ map.nodes[65617410] = Rare({
         ns.reward.Section('{npc:193634}'), -- Swog'ranka -- drops more but i limited it to 2 tmog
         Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
-        DC.CliffsideWylderdrake.FinnedNeck, DC.WindbornVelocidrake.LargeHeadFin,
-        ns.reward.Section('{npc:193710}'), -- Seereel, the Spring
+        DC.CliffsideWylderdrake.FinnedNeck,
+        DC.WindborneVelocidrake.LargeHeadFin, ns.reward.Section('{npc:193710}'), -- Seereel, the Spring
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
         DC.CliffsideWylderdrake.FinnedCheek, DC.HighlandDrake.FinnedBack,
