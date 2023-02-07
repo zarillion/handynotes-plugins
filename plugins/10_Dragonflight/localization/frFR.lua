@@ -226,15 +226,15 @@ L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
 
 L['bone_pile_label'] = 'Tas d\'os'
 L['options_icons_bone_pile'] = 'Tas d\'os'
-L['options_icons_bone_pile_desc'] = nil
+L['options_icons_bone_pile_desc'] = 'Afficher les emplacements possibles des {object:Tas d\'os}.'
 
 L['forbidden_hoard_label'] = 'Provisions interdites'
-L['forbidden_hoard_note'] = nil
+L['forbidden_hoard_note'] = 'Battez les monstres voisins pour ouvrir le coffre.'
 L['options_icons_forbidden_hoard'] = 'Provisions interdites'
-L['options_icons_forbidden_hoard_desc'] = nil
+L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles des coffres de {object:Provisions interdites}.'
 
-L['zskera_vault_label'] = 'Caveau de Zskera' -- review
-L['zskera_vault_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau de Zskera}.' -- review
+L['zskera_vault_label'] = 'Caveau de Zskera'
+L['zskera_vault_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau de Zskera}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
