@@ -216,23 +216,25 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- global
 L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}'
 
--- rares
 L['duzalgor_note'] = 'Coge un frasco de {item:203657} ({dot:Green}) para sanarte del gas venenoso de la cueva.'
 L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
 L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por {npc:201310}.'
 
--- treasures
-L['storm_eater_cairn'] = nil
-L['forbidden_hoard_label'] = nil
-L['forbidden_hoard_note'] = nil
-L['bone_pile_label'] = nil
 L['storm_bound_chest_label'] = nil
 
--- miscellaneous
-L['zskera_vault_az_note'] = nil
+L['bone_pile_label'] = nil
+L['options_icons_bone_pile'] = nil
+L['options_icons_bone_pile_desc'] = nil
+
+L['forbidden_hoard_label'] = nil
+L['forbidden_hoard_note'] = nil
+L['options_icons_forbidden_hoard'] = nil
+L['options_icons_forbidden_hoard_desc'] = nil
+
+L['zskera_vault_label'] = nil
+L['zskera_vault_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

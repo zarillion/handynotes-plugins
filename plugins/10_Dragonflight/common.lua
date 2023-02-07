@@ -27,6 +27,11 @@ ns.expansion = 10
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
+ns.groups.BONE_PILE = Group('bone_pile', 'chest_pk', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -43,6 +48,11 @@ ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
 })
 
 ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.FORBIDDEN_HOARD = Group('forbidden_hoard', 'chest_pp', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })

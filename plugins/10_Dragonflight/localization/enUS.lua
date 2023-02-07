@@ -215,23 +215,25 @@ L['mysterious_wand_note'] = 'Pick up the {object:Crystal Key} and place it into 
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- global
 L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
 
--- rares
-L['duzalgor_note'] = 'Collect a bottle of {item:203657}({dot:Green}) to heal from the poisonous gas within the cave.'
+L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within the cave.'
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
 
--- treasures
-L['storm_eater_cairn'] = 'Storm-Eater Cairn'
-L['forbidden_hoard_label'] = 'Forbidden Hoard'
-L['forbidden_hoard_note'] = 'Defeat the %s to open the chest.'
-L['bone_pile_label'] = 'Bone Pile'
 L['storm_bound_chest_label'] = 'Storm-Bound Chest'
 
--- miscellaneous
-L['zskera_vault_az_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vault: Az}.'
+L['bone_pile_label'] = 'Bone Pile'
+L['options_icons_bone_pile'] = 'Bone Pile'
+L['options_icons_bone_pile_desc'] = 'Display possible locations of {object:Bone Piles}.'
+
+L['forbidden_hoard_label'] = 'Forbidden Hoard'
+L['forbidden_hoard_note'] = 'Defeat the surrounding mobs to open the chest.'
+L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
+L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object:Forbidden Hoard} chests.'
+
+L['zskera_vault_label'] = 'Zskera Vault'
+L['zskera_vault_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vault}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
