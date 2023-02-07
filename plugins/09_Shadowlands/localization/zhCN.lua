@@ -17,6 +17,9 @@ L['squirrels_note'] = '必须使用表情 {emote:/爱}，{emote:/love} 给非战
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = '显示 {achievement:14731} 成就中小动物的位置。'
 
+L['options_icons_safari'] = '{achievement:14867}'
+L['options_icons_safari_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------

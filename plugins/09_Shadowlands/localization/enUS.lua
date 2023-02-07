@@ -17,6 +17,9 @@ L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achievement:14731} achievement.'
 
+L['options_icons_safari'] = '{achievement:14867}'
+L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:14867} achievement.'
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------

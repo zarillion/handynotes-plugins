@@ -18,6 +18,9 @@ L['squirrels_note'] = 'Vous devez utiliser l\'émote {emote:/amour} sur les best
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:14731}.'
 
+L['options_icons_safari'] = '{achievement:14867}'
+L['options_icons_safari_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
