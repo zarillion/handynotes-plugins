@@ -19,7 +19,7 @@ L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:14731}.'
 
 L['options_icons_safari'] = '{achievement:14867}'
-L['options_icons_safari_desc'] = nil
+L['options_icons_safari_desc'] = 'Muestra dónde están  las mascotas de combate para el logro {achievement:14867}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
