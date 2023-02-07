@@ -19,7 +19,7 @@ L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:14731}.'
 
 L['options_icons_safari'] = '{achievement:14867}'
-L['options_icons_safari_desc'] = nil
+L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:14867}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
