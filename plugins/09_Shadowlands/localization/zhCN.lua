@@ -18,7 +18,7 @@ L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = '显示 {achievement:14731} 成就中小动物的位置。'
 
 L['options_icons_safari'] = '{achievement:14867}'
-L['options_icons_safari_desc'] = nil
+L['options_icons_safari_desc'] = '显示 {achievement:14867} 成就中战斗宠物的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
