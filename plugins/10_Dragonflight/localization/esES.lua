@@ -218,7 +218,7 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 
 L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}'
 
-L['duzalgor_note'] = 'Coge un frasco de {item:203657} ({dot:Green}) para sanarte del gas venenoso de la cueva.'
+L['duzalgor_note'] = 'Coge un frasco de {spell:400751} ({dot:Green}) para sanarte del gas venenoso de la cueva.'
 L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
 L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por {npc:201310}.'
 
