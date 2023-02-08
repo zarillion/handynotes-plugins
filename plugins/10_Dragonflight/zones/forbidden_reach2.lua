@@ -501,7 +501,7 @@ map.nodes[25884785] = Collectible({
         Achievement({id = 17413}), -- Door Buster
         Pet({item = 193851, id = 3332}), -- Patos
         Pet({item = 193908, id = 3338}), -- Kobaldt
-        Pet({item = 204079, id = 7431}), -- Gilden Mechafrog
+        Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
         Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
         Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
         Toy({item = 204262}) -- Holoviewer: The timeless One
