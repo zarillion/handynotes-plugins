@@ -9,6 +9,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local Safari = ns.node.Safari
 local Supply = ns.node.Supply
 local Treasure = ns.node.Treasure
 
@@ -816,3 +817,31 @@ map.nodes[60802340] = ns.node.Squirrel({
     rewards = {Achievement({id = 14730, criteria = 50241})},
     pois = {POI({60801600, 62602380, 59202340})}
 }) -- Bramble Hare
+
+-------------------------------------------------------------------------------
+-------------------------------- BATTLE SAFARI --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[27407220] = Safari.CoastalScuttler({
+    pois = {POI({26407340, 27207280, 27407100, 27407220, 27607100, 28007320})}
+}) -- Coastal Scuttler
+
+map.nodes[35004020] = Safari.RiverOtter({
+    pois = {
+        POI({
+            28804480, 30404460, 30604460, 31004560, 31804260, 32004400,
+            32404200, 32804060, 32804340, 33003920, 33404040, 33604060,
+            34203980, 35004020, 35004620
+        })
+    }
+}) -- River Otter
+
+map.nodes[21602880] = Safari.ShackCrab({
+    pois = {
+        POI({
+            20403020, 20603000, 20802840, 20802880, 21202700, 21402620,
+            21602620, 21602880, 22402260, 22402500, 22602300, 22602420,
+            22602480, 58601440
+        })
+    }
+}) -- ShackCrab

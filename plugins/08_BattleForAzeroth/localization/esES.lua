@@ -735,3 +735,10 @@ L['options_icons_secret_supplies_desc'] = 'Muestra dónde están los {object:Cof
 L['squirrels_note'] = 'Has de usar la emoción {emote:/amor} en alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:14730}.'
+
+L['options_icons_battle_safari'] = '{achievement:12930}'
+L['options_icons_battle_safari_desc'] = nil
+L['options_icons_mecha_safari'] = '{achievement:13693}'
+L['options_icons_mecha_safari_desc'] = nil
+L['options_icons_nazja_safari'] = '{achievement:13694}'
+L['options_icons_nazja_safari_desc'] = nil

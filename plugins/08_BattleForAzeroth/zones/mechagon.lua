@@ -11,6 +11,7 @@ local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Quest = ns.node.Quest
 local Rare = ns.node.Rare
+local Safari = ns.node.Safari
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -586,6 +587,25 @@ map.nodes[12088568] = TREASURE10
 map.nodes[20537696] = TREASURE10
 map.nodes[21788303] = TREASURE10
 map.nodes[24796526] = TREASURE10
+
+-------------------------------------------------------------------------------
+-------------------------------- BATTLE SAFARI --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[60602480] = Safari.Specimen97({
+    pois = {
+        POI({
+            58202340, 58202720, 58202760, 59202340, 59402380, 59402540,
+            59402600, 59402660, 59602620, 59802660, 60202760, 60402440,
+            60402460, 60602440, 60602480, 60802560, 60802780, 61202720,
+            61602640, 62402720, 62602540, 62602560
+        })
+    }
+}) -- Specimen 97
+
+map.nodes[33807660] = Safari.YellowJunkhopper({
+    pois = {POI({33807660, 34207920, 34408160, 37804560})}
+}) -- Yellow Junkhopper
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

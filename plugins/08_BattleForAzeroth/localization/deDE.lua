@@ -731,3 +731,10 @@ L['options_icons_secret_supplies_desc'] = 'Zeigt die {object:geheimen Vorratstru
 L['squirrels_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden (KEINE Kampfhaustiere).'
 L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:14730} an.'
+
+L['options_icons_battle_safari'] = '{achievement:12930}'
+L['options_icons_battle_safari_desc'] = 'Display battle pet locations for the {achievement:12930} achievement.'
+L['options_icons_mecha_safari'] = '{achievement:13693}'
+L['options_icons_mecha_safari_desc'] = 'Display battle pet locations for the {achievement:13693} achievement.'
+L['options_icons_nazja_safari'] = '{achievement:13694}'
+L['options_icons_nazja_safari_desc'] = 'Display battle pet locations for the {achievement:13694} achievement.'

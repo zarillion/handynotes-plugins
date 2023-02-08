@@ -734,3 +734,10 @@ L['options_icons_secret_supplies_desc'] = 'Display {object:Secret Supply Chest} 
 L['squirrels_note'] = 'You must use the emote {emote:/love} on critters not battle pets.'
 L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achievement:14730} achievement.'
+
+L['options_icons_battle_safari'] = '{achievement:12930}'
+L['options_icons_battle_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:12930} an.'
+L['options_icons_mecha_safari'] = '{achievement:13693}'
+L['options_icons_mecha_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:13693} an.'
+L['options_icons_nazja_safari'] = '{achievement:13694}'
+L['options_icons_nazja_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:13694} an.'
