@@ -87,7 +87,8 @@ L['options_icons_recrig'] = '廢料回收機'
 L['options_icons_recrig_desc'] = '顯示廢料回收機的位置以及事件獎賞。'
 
 L['mechagon_snooter_note'] = nil
-L['mechagon_scrapyard_tunneler_note'] = nil
+L['battlepet_secondary_only_note'] = nil
+L['mechagon_explode_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------

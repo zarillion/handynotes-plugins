@@ -105,7 +105,8 @@ L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = 'Muestra dónde está el {npc:150448} y sus recompensas.'
 
 L['mechagon_snooter_note'] = nil
-L['mechagon_scrapyard_tunneler_note'] = nil
+L['battlepet_secondary_only_note'] = nil
+L['mechagon_explode_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------

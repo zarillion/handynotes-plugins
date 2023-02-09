@@ -101,7 +101,8 @@ L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = '显示 {npc:150448} 的位置和奖励。'
 
 L['mechagon_snooter_note'] = nil
-L['mechagon_scrapyard_tunneler_note'] = nil
+L['battlepet_secondary_only_note'] = nil
+L['mechagon_explode_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------

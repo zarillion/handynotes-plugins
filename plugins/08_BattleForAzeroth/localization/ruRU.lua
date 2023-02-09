@@ -104,7 +104,8 @@ L['options_icons_recrig'] = 'Очистительная установка'
 L['options_icons_recrig_desc'] = 'Показать местоположение Очистительной установки и ее награды.'
 
 L['mechagon_snooter_note'] = nil
-L['mechagon_scrapyard_tunneler_note'] = nil
+L['battlepet_secondary_only_note'] = nil
+L['mechagon_explode_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
