@@ -733,8 +733,8 @@ L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = '显示 {achievement:14730} 成就中小动物的位置。'
 
 L['options_icons_battle_safari'] = '{achievement:12930}'
-L['options_icons_battle_safari_desc'] = nil
+L['options_icons_battle_safari_desc'] = '显示 {achievement:12930} 成就中战斗宠物的位置。'
 L['options_icons_mecha_safari'] = '{achievement:13693}'
-L['options_icons_mecha_safari_desc'] = nil
+L['options_icons_mecha_safari_desc'] = '显示 {achievement:13693} 成就中战斗宠物的位置。'
 L['options_icons_nazja_safari'] = '{achievement:13694}'
-L['options_icons_nazja_safari_desc'] = nil
+L['options_icons_nazja_safari_desc'] = '显示 {achievement:13694} 成就中战斗宠物的位置。'
