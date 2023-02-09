@@ -200,9 +200,9 @@ Vous devez les activer pour faire fondre le mur de glace (deux joueurs sont reco
 Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 ]]
 
-L['kazzi_note_start'] = nil
-L['kazzi_note_item'] = nil
-L['kazzi_achievement_suffix'] = nil
+L['kazzi_note_start'] = 'Échangez vos {item:202017} et {item:202018} contre des objets de transmogrification, des personnalisations de drake, une mascotte et plus encore.'
+L['kazzi_note_item'] = 'Vous possédez actuellement %s {item:%s}.'
+L['kazzi_achievement_suffix'] = 'rang dans le dialecte des Crins-d’hiver'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
