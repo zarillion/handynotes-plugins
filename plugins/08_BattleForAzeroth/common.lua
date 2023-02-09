@@ -469,55 +469,55 @@ ns.node.Safari = {
             Pet({id = 2651})
         }
     }),
-    -- GlimmershellScuttler = Class('GlimmershellScuttler', Nazja_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13694, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- GreatSeaAlbatross = Class('GreatSeaAlbatross', Nazja_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13694, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- HissingChitterspine = Class('HissingChitterspine', Nazja_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13694, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- MuckSlug = Class('MuckSlug', Nazja_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13694, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- SandclawPincher = Class('SandclawPincher', Nazja_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13694, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- SandclawSunshell = Class('SandclawSunshell', Nazja_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13694, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- SpireshellSnail = Class('SpireshellSnail', Nazja_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13694, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
+    GlimmershellScuttler = Class('GlimmershellScuttler', Nazja_Safari, {
+        id = 154704,
+        rewards = {
+            Achievement({id = 13694, criteria = 45598, oneline = false}),
+            Pet({id = 2647})
+        }
+    }),
+    GreatSeaAlbatross = Class('GreatSeaAlbatross', Nazja_Safari, {
+        id = 154710,
+        rewards = {
+            Achievement({id = 13694, criteria = 45600, oneline = false}),
+            Pet({id = 2650})
+        }
+    }),
+    HissingChitterspine = Class('HissingChitterspine', Nazja_Safari, {
+        id = 154708,
+        rewards = {
+            Achievement({id = 13694, criteria = 45599, oneline = false}),
+            Pet({id = 2649})
+        }
+    }),
+    MuckSlug = Class('MuckSlug', Nazja_Safari, {
+        id = 154724,
+        rewards = {
+            Achievement({id = 13694, criteria = 45592, oneline = false}),
+            Pet({id = 2660})
+        }
+    }),
+    SandclawPincher = Class('SandclawPincher', Nazja_Safari, {
+        id = 154697,
+        rewards = {
+            Achievement({id = 13694, criteria = 45597, oneline = false}),
+            Pet({id = 2645})
+        }
+    }),
+    SandclawSunshell = Class('SandclawSunshell', Nazja_Safari, {
+        id = 154702,
+        rewards = {
+            Achievement({id = 13694, criteria = 45593, oneline = false}),
+            Pet({id = 2646})
+        }
+    }),
+    SpireshellSnail = Class('SpireshellSnail', Nazja_Safari, {
+        id = 154716,
+        rewards = {
+            Achievement({id = 13694, criteria = 45591, oneline = false}),
+            Pet({id = 2653})
+        }
+    }),
     -- DuskytoothSnooter = Class('DuskytoothSnooter', Mecha_Safari, {
     --     id = nil,
     --     rewards = {
