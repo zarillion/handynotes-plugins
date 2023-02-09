@@ -228,9 +228,9 @@ L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por {npc:201310}.
 
 L['storm_bound_chest_label'] = nil
 
-L['bone_pile_label'] = nil
-L['options_icons_bone_pile'] = nil
-L['options_icons_bone_pile_desc'] = nil
+L['bone_pile_label'] = 'Montón de Huesos'
+L['options_icons_bone_pile'] = 'Montón de Huesos'
+L['options_icons_bone_pile_desc'] = 'Muestra dónde pueden haber {object:Montones de Huesos}.'
 
 L['forbidden_hoard_label'] = nil
 L['forbidden_hoard_note'] = nil
