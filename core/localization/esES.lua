@@ -82,9 +82,9 @@ L['follower_type_follower'] = 'Seguidor'
 L['follower_type_champion'] = 'Campeón'
 L['follower_type_companion'] = 'Compañero'
 
-L['rep_honored'] = nil
-L['rep_revered'] = nil
-L['rep_exalted'] = nil
+L['rep_honored'] = 'Honorable'
+L['rep_revered'] = 'Venerado'
+L['rep_exalted'] = 'Exaltado'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
