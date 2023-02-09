@@ -199,6 +199,10 @@ You need to activate them to melt the ice wall (two players are recommended).
 Kill {npc:197183} inside and you will recieve {item:200528}.
 ]]
 
+L['kazzi_note_start'] = 'Exchange {item:202017} and {item:202018} for transmog, drake customization, a pet, and more.'
+L['kazzi_note_item'] = 'You currently have %s {item:%s}.'
+L['kazzi_achievement_suffix'] = 'rank in the Winterpelt language'
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------

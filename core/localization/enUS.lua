@@ -81,6 +81,10 @@ L['follower_type_follower'] = 'Follower'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Companion'
 
+L['rep_honored'] = 'Honored'
+L['rep_revered'] = 'Revered'
+L['rep_exalted'] = 'Exalted'
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------

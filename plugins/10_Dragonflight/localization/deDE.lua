@@ -193,6 +193,10 @@ Du musst sie aktivieren, um die Eiswand zu schmelzen (Zwei Spieler empfohlen).
 Töte dann {npc:197183} in der Höhle, um {item:200528} zu erhalten.
 ]]
 
+L['kazzi_note_start'] = nil
+L['kazzi_note_item'] = nil
+L['kazzi_achievement_suffix'] = nil
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------

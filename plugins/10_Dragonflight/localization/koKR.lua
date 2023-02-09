@@ -188,6 +188,10 @@ L['somewhat_stabilized_arcana_note'] = nil
 
 L['stranded_soul_note'] = nil
 
+L['kazzi_note_start'] = nil
+L['kazzi_note_item'] = nil
+L['kazzi_achievement_suffix'] = nil
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------

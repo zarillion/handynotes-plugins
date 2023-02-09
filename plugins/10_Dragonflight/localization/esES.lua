@@ -200,6 +200,10 @@ Necesitas activarlos para derretir la pared de hielo (se recomienda dos jugadore
 Mata el {npc:197183} de dentro y recibirás la {item:200528}.
 ]]
 
+L['kazzi_note_start'] = nil
+L['kazzi_note_item'] = nil
+L['kazzi_achievement_suffix'] = nil
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------

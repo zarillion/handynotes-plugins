@@ -200,6 +200,10 @@ Vous devez les activer pour faire fondre le mur de glace (deux joueurs sont reco
 Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 ]]
 
+L['kazzi_note_start'] = nil
+L['kazzi_note_item'] = nil
+L['kazzi_achievement_suffix'] = nil
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
