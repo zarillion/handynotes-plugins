@@ -100,6 +100,10 @@ L['options_icons_locked_chest_desc'] = 'Zeigt die Verschlossenen Truhen in der W
 L['options_icons_recrig'] = 'Rückgewinnungsturm'
 L['options_icons_recrig_desc'] = 'Zeigt den Standort und die Belohnungen des {npc:150448s} an.'
 
+L['mechagon_snooter_note'] = '{npc:154769} (ziemlich selten) und {npc:154767} teilen sich die selben Spawn Punkte.'
+L['battlepet_secondary_only_note'] = 'Kann nur als sekundärer Gegner bei anderen Haustierkämpfen erscheinen.'
+L['mechagon_explode_note'] = '{note:Achtung, es kann {spell:90096} einsetzen, wodurch es stirbt und du es nicht mehr fangen kannst.}'
+
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
 -------------------------------------------------------------------------------

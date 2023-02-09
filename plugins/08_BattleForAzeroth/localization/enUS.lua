@@ -103,6 +103,10 @@ L['options_icons_locked_chest_desc'] = 'Display locations of locked chests in th
 L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = 'Display the location of the {npc:150448} and its rewards.'
 
+L['mechagon_snooter_note'] = '{npc:154769} (pretty rare) and {npc:154767} share the same spawn points.'
+L['battlepet_secondary_only_note'] = 'Can be found only as secondary pet.'
+L['mechagon_explode_note'] = '{note:Beware, it can {spell:90096}, which will kill it and you won\'t be able to catch it.}'
+
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
 -------------------------------------------------------------------------------

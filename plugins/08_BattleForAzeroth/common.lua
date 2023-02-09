@@ -518,76 +518,82 @@ ns.node.Safari = {
             Pet({id = 2653})
         }
     }),
-    -- DuskytoothSnooter = Class('DuskytoothSnooter', Mecha_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13693, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- ExperimentalRoach = Class('ExperimentalRoach', Mecha_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13693, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- FleetingFrog = Class('FleetingFrog', Mecha_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13693, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- JunkheapRoach = Class('JunkheapRoach', Mecha_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13693, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- MalfunctioningMicrobot = Class('MalfunctioningMicrobot', Mecha_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13693, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- MechagonMarmot = Class('MechagonMarmot', Mecha_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13693, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- MotorizedCroaker = Class('MotorizedCroaker', Mecha_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13693, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- RustboltClucker = Class('RustboltClucker', Mecha_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13693, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- RustyrootSnooter = Class('RustyrootSnooter', Mecha_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13693, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
-    -- ScrapyardTunneler = Class('ScrapyardTunneler', Mecha_Safari, {
-    --     id = nil,
-    --     rewards = {
-    --         Achievement({id = 13693, criteria = nil, oneline = false}),
-    --         Pet({id = nil})
-    --     }
-    -- }),
+    DuskytoothSnooter = Class('DuskytoothSnooter', Mecha_Safari, {
+        id = 154769,
+        note = L['mechagon_snooter_note'],
+        rewards = {
+            Achievement({id = 13693, criteria = 45584, oneline = false}),
+            Pet({id = 2662})
+        }
+    }),
+    ExperimentalRoach = Class('ExperimentalRoach', Mecha_Safari, {
+        id = 154773,
+        rewards = {
+            Achievement({id = 13693, criteria = 45588, oneline = false}),
+            Pet({id = 2664})
+        }
+    }),
+    FleetingFrog = Class('FleetingFrog', Mecha_Safari, {
+        id = 154775,
+        rewards = {
+            Achievement({id = 13693, criteria = 45580, oneline = false}),
+            Pet({id = 2665})
+        }
+    }),
+    JunkheapRoach = Class('JunkheapRoach', Mecha_Safari, {
+        id = 154771,
+        rewards = {
+            Achievement({id = 13693, criteria = 45579, oneline = false}),
+            Pet({id = 2663})
+        }
+    }),
+    MalfunctioningMicrobot = Class('MalfunctioningMicrobot', Mecha_Safari, {
+        id = 154798,
+        note = L['mechagon_explode_note'],
+        rewards = {
+            Achievement({id = 13693, criteria = 45590, oneline = false}),
+            Pet({id = 2676})
+        }
+    }),
+    MechagonMarmot = Class('MechagonMarmot', Mecha_Safari, {
+        id = 154785,
+        rewards = {
+            Achievement({id = 13693, criteria = 45581, oneline = false}),
+            Pet({id = 2670})
+        }
+    }),
+    MotorizedCroaker = Class('MotorizedCroaker', Mecha_Safari, {
+        id = 154779,
+        note = L['mechagon_explode_note'],
+        rewards = {
+            Achievement({id = 13693, criteria = 45582, oneline = false}),
+            Pet({id = 2667})
+        }
+    }),
+    RustboltClucker = Class('RustboltClucker', Mecha_Safari, {
+        id = 154783,
+        rewards = {
+            Achievement({id = 13693, criteria = 45585, oneline = false}),
+            Pet({id = 2669})
+        }
+    }),
+    RustyrootSnooter = Class('RustyrootSnooter', Mecha_Safari, {
+        id = 154767,
+        note = L['mechagon_snooter_note'],
+        rewards = {
+            Achievement({id = 13693, criteria = 45586, oneline = false}),
+            Pet({id = 2661})
+        }
+    }),
+    ScrapyardTunneler = Class('ScrapyardTunneler', Mecha_Safari, {
+        id = 154791,
+        note = L['battlepet_secondary_only_note'] .. '\n\n' ..
+            L['mechagon_explode_note'],
+        rewards = {
+            Achievement({id = 13693, criteria = 45583, oneline = false}),
+            Pet({id = 2673})
+        }
+    }),
     Specimen97 = Class('Specimen97', Mecha_Safari, {
         id = 154787,
         rewards = {
