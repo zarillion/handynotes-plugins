@@ -83,7 +83,7 @@ L['follower_type_champion'] = 'Campeón'
 L['follower_type_companion'] = 'Compañero'
 
 L['rep_honored'] = 'Honorable'
-L['rep_revered'] = 'Venerado'
+L['rep_revered'] = 'Reverenciado'
 L['rep_exalted'] = 'Exaltado'
 
 -------------------------------------------------------------------------------
