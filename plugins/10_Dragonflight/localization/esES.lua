@@ -200,9 +200,9 @@ Necesitas activarlos para derretir la pared de hielo (se recomienda dos jugadore
 Mata el {npc:197183} de dentro y recibirás la {item:200528}.
 ]]
 
-L['kazzi_note_start'] = nil
-L['kazzi_note_item'] = nil
-L['kazzi_achievement_suffix'] = nil
+L['kazzi_note_start'] = 'Intercambia {item:202017} y {item:202018} por transfiguraciones, personalizaciones del draco, una mascosta, y más.'
+L['kazzi_note_item'] = 'Tienes %s {item:%s}.'
+L['kazzi_achievement_suffix'] = 'rango del idioma Pelaje Invernal'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
