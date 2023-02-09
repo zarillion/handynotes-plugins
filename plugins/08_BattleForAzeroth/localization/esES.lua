@@ -104,9 +104,9 @@ L['options_icons_locked_chest_desc'] = 'Muestra dónde están los cofres cerrado
 L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = 'Muestra dónde está el {npc:150448} y sus recompensas.'
 
-L['mechagon_snooter_note'] = nil
-L['battlepet_secondary_only_note'] = nil
-L['mechagon_explode_note'] = nil
+L['mechagon_snooter_note'] = 'El {npc:154769} (bastante raro) y el {npc:154767} comparten los mismos puntos de reaparición.'
+L['battlepet_secondary_only_note'] = 'Sólo se puede encontrar como mascota secundaria.'
+L['mechagon_explode_note'] = '{note:Cuidado, puede {spell:90096}. Si lo hace, lo matará y no podrás capturarlo.}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
