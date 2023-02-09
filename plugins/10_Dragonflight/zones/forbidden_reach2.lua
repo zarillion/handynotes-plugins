@@ -36,7 +36,7 @@ local warCreche = Map({id = 2102, settings = false}) -- The War Creche
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[42635736] = Rare({
+map.nodes[43736121] = Rare({
     id = 200681,
     quest = nil,
     note = L['in_small_cave'],
@@ -68,7 +68,7 @@ local Duzalgor = Class('Duzalgor', Rare, {
     }
 }) -- Duzalgor
 
-map.nodes[32692080] = Duzalgor({
+map.nodes[32842931] = Duzalgor({
     pois = {
         POI({34662400}), -- Entrance
         POI({color = 'Green', points = {34622426, 34852387}}) -- Toxin Antidote
@@ -81,7 +81,7 @@ supportCreche.nodes[32693558] = Duzalgor({
     }
 }) -- Duzalgor (The Support Creche)
 
-map.nodes[25023040] = Rare({
+map.nodes[28293793] = Rare({
     id = 200537,
     quest = nil,
     note = L['in_water_cave'],
@@ -94,16 +94,16 @@ map.nodes[25023040] = Rare({
     }
 }) -- Gahz'raxes
 
-map.nodes[43927846] = Rare({
+map.nodes[44707647] = Rare({
     id = 200717,
-    quest = nil,
+    quest = 73152,
     rewards = {
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Galakhad
 
-map.nodes[42949113] = Rare({
+map.nodes[43939051] = Rare({
     id = 200721,
     quest = nil,
     rewards = {
@@ -112,7 +112,7 @@ map.nodes[42949113] = Rare({
     }
 }) -- Grugoth the Hullcrusher
 
-map.nodes[39580284] = Rare({
+map.nodes[41011435] = Rare({
     id = 200579,
     quest = nil,
     rewards = {
@@ -121,20 +121,20 @@ map.nodes[39580284] = Rare({
     }
 }) -- Ishyra
 
-map.nodes[61385430] = Rare({
+map.nodes[59605888] = Rare({
     id = 200885,
-    quest = nil,
+    quest = 73222,
     note = L['in_small_cave'],
     rewards = {
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    poi = {
-        POI({63155389}) -- Entrance
+    pois = {
+        POI({61005823}) -- Entrance
     }
 }) -- Lady Shaz'ra
 
-map.nodes[70763874] = Rare({
+map.nodes[67924531] = Rare({
     id = 201181,
     quest = 74283,
     note = L['in_small_cave'] .. '\n\n' .. L['mad_eye_carrey_note'],
@@ -157,17 +157,13 @@ local Pyrachniss = Class('Pyrachniss', Rare, {
     }
 }) -- Pyrachniss
 
-map.nodes[54096894] = Pyrachniss({
+map.nodes[53707154] = Pyrachniss({
     pois = {
-        POI({52145574}) -- Entrance
+        POI({51846018}) -- Entrance
     }
 }) -- Pyrachniss (The Forbidden Reach)
 
-warCreche.nodes[75935075] = Pyrachniss({
-    pois = {
-        POI({67600383}) -- Entrance
-    }
-}) -- Pyrachniss (The War Creche)
+warCreche.nodes[75615011] = Pyrachniss() -- Pyrachniss (The War Creche)
 
 map.nodes[47331027] = Rare({
     id = 200600,
@@ -195,7 +191,7 @@ map.nodes[60484373] = Rare({
     }
 }) -- Vakren the Hunter
 
-map.nodes[76736414] = Rare({
+map.nodes[72976738] = Rare({
     id = 200904,
     quest = nil,
     note = L['in_small_cave'],
@@ -218,7 +214,7 @@ local Volcanakk = Class('Volcanakk', Rare, {
     }
 }) -- Volcanakk
 
-map.nodes[82684504] = Volcanakk({
+map.nodes[78205065] = Volcanakk({
     pois = {
         POI({78174982}) -- Entrance
     }
@@ -240,15 +236,14 @@ local WardenEntrix = Class('WardenEntrix', Rare, {
     }
 }) -- Warden Entrix
 
-map.nodes[45127862] = WardenEntrix({
+map.nodes[45917966] = WardenEntrix({
     pois = {
-        POI({52145574}) -- Entrance
+        POI({51846018}) -- Entrance
     }
 }) -- Warden Entrix (The Forbidden Reach)
 
-warCreche.nodes[42928473] = WardenEntrix({
+warCreche.nodes[42978454] = WardenEntrix({
     pois = {
-        POI({67600383}), -- Entrance
         POI({47004743, 49945425}), -- Spellsworn Gateways
         Path({47004743, 49945425}) -- Spellsworn Gateways
     }
@@ -479,6 +474,7 @@ local ForbiddenHoard = Class('ForbiddenHoard', Node, {
     }
 }) -- Forbidden Hoard
 
+map.nodes[28424199] = ForbiddenHoard()
 map.nodes[33822568] = ForbiddenHoard()
 map.nodes[39670001] = ForbiddenHoard()
 map.nodes[46207342] = ForbiddenHoard()
