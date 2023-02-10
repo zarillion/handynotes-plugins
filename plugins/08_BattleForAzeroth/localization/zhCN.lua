@@ -100,9 +100,9 @@ L['options_icons_locked_chest_desc'] = '在 {location:西浪岩} 显示锁住的
 L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = '显示 {npc:150448} 的位置和奖励。'
 
-L['mechagon_snooter_note'] = nil
-L['battlepet_secondary_only_note'] = nil
-L['mechagon_explode_note'] = nil
+L['mechagon_snooter_note'] = '{npc:154769}（非常稀有）和 {npc:154767} 共享刷新点。'
+L['battlepet_secondary_only_note'] = '只能作为次要宠物找到。'
+L['mechagon_explode_note'] = '{note:当心，它可以 {spell:90096}，这会杀死它，将无法抓住它。}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
