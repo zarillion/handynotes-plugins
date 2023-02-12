@@ -1,3 +1,13 @@
+# v31
+
+* Added Djaradin Cache locations.
+* Added missing rewards for rares.
+* Added more Tuskarr Tacklebox locations.
+* Added race info to the Bronze Timekeeper vignette.
+* Added reverse racer achievement tracking.
+* Added vendor and rares for the Storm's Fury event.
+* Fixed "Add group to TomTom" for multi-group nodes.
+
 # v30
 
 * Achievements that are completed will now display a checkmark next to them.
