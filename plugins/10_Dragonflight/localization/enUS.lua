@@ -219,25 +219,62 @@ L['mysterious_wand_note'] = 'Pick up the {object:Crystal Key} and place it into 
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
+-- RARES
+
 L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
 
 L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within the cave.'
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
 
-L['storm_bound_chest_label'] = 'Storm-Bound Chest'
+-- TREASURES
 
-L['bone_pile_label'] = 'Bone Pile'
-L['options_icons_bone_pile'] = 'Bone Pile'
-L['options_icons_bone_pile_desc'] = 'Display possible locations of {object:Bone Piles}.'
+L['scavenger_of_the_forbidden_reach_suffix'] = 'Small treasures opened'
+L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
 
 L['forbidden_hoard_label'] = 'Forbidden Hoard'
 L['forbidden_hoard_note'] = 'Defeat the surrounding mobs to open the chest.'
 L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
 L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object:Forbidden Hoard} chests.'
 
+L['obsidian_coffer_label'] = 'Obsidian Coffer'
+L['options_icons_obsidian_coffer'] = 'Obsidian Coffer'
+L['options_icons_obsidian_coffer_desc'] = 'Display possible locations of {object:Obsidian Coffers}.'
+
+L['bone_pile_label'] = 'Bone Pile'
+L['options_icons_bone_pile'] = 'Bone Pile'
+L['options_icons_bone_pile_desc'] = 'Display possible locations of {object:Bone Piles}.'
+
+L['stonescaled_cairn_label'] = 'Stonescaled Cairn'
+L['options_icons_stonescaled_cairn'] = 'Stonescaled Cairn'
+L['options_icons_stonescaled_cairn_desc'] = 'Display possible locations of {object:Stonescaled Cairn}.'
+
+L['blazing_cairn_label'] = 'Blazing Cairn'
+L['options_icons_blazing_cairn'] = 'Blazing Cairn'
+L['options_icons_blazing_cairn_desc'] = 'Display possible locations of {object:Blazing Cairn}.'
+
+L['storm_bound_chest_label'] = 'Storm-Bound Chest'
+
+-- ACH: LIBRARIAN OF THE REACH
+
+L['spellsworn_missive_label'] = 'Spellsworn Missive'
+L['spellsworn_missive_note'] = 'Open the {object:Spellsworn Missive} and loot the {item:204338}.'
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}.'
+
+-- ACH: WHILE WE WERE SLEEPING
+
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}.'
+
+-- MISC
+
+L['awakened_soil_label'] = 'Awakened Soil'
+L['book_of_arcane_entities_label'] = 'Book of Arcane Entities'
+
 L['zskera_vault_label'] = 'Zskera Vault'
 L['zskera_vault_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vault}.'
+L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault Keys'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

@@ -213,25 +213,62 @@ L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platzi
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
+-- RARES
+
 L['in_the_war_creche'] = nil
 
 L['duzalgor_note'] = nil
 L['mad_eye_carrey_note'] = nil
 L['wymslayer_angvardi_note'] = nil
 
-L['storm_bound_chest_label'] = nil
+-- TREASURES
 
-L['bone_pile_label'] = nil
-L['options_icons_bone_pile'] = nil
-L['options_icons_bone_pile_desc'] = nil
+L['scavenger_of_the_forbidden_reach_suffix'] = nil
+L['forbidden_spoils_suffix'] = nil
 
 L['forbidden_hoard_label'] = nil
 L['forbidden_hoard_note'] = nil
 L['options_icons_forbidden_hoard'] = nil
 L['options_icons_forbidden_hoard_desc'] = nil
 
+L['obsidian_coffer_label'] = nil
+L['options_icons_obsidian_coffer'] = nil
+L['options_icons_obsidian_coffer_desc'] = nil
+
+L['bone_pile_label'] = nil
+L['options_icons_bone_pile'] = nil
+L['options_icons_bone_pile_desc'] = nil
+
+L['stonescaled_cairn_label'] = nil
+L['options_icons_stonescaled_cairn'] = nil
+L['options_icons_stonescaled_cairn_desc'] = nil
+
+L['blazing_cairn_label'] = nil
+L['options_icons_blazing_cairn'] = nil
+L['options_icons_blazing_cairn_desc'] = nil
+
+L['storm_bound_chest_label'] = nil
+
+-- ACH: LIBRARIAN OF THE REACH
+
+L['spellsworn_missive_label'] = nil
+L['spellsworn_missive_note'] = nil
+L['options_icons_librarian_of_the_reach'] = nil
+L['options_icons_librarian_of_the_reach_desc'] = nil
+
+-- ACH: WHILE WE WERE SLEEPING
+
+L['options_icons_scalecommander_item'] = nil
+L['options_icons_scalecommander_item_desc'] = nil
+
+-- MISC
+
+L['awakened_soil_label'] = nil
+L['book_of_arcane_entities_label'] = nil
+
 L['zskera_vault_label'] = nil
 L['zskera_vault_note'] = nil
+L['door_buster_suffix'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

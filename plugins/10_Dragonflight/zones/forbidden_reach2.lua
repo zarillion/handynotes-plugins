@@ -7,7 +7,6 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
-local Node = ns.node.Node
 local Rare = ns.node.Rare
 
 local Dragonglyph = ns.node.Dragonglyph
@@ -36,33 +35,64 @@ local warCreche = Map({id = 2102, settings = false}) -- The War Creche
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[43736121] = Rare({
-    id = 200681,
-    quest = nil,
+map.nodes[60484373] = Rare({
+    id = 200584,
+    quest = 73111,
     note = L['in_small_cave'],
     rewards = {
+        Achievement({id = 17525, criteria = 58458}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
     pois = {
-        POI({42565425, 40715404, 40015641}) -- Entrances
+        POI({5948225}) -- Entrance
     }
-}) -- Bonesifter Marwak
+}) -- Vakren the Hunter
 
-map.nodes[26664150] = Rare({
-    id = 200956,
+map.nodes[28293793] = Rare({
+    id = 200537,
+    quest = nil,
+    note = L['in_water_cave'],
+    rewards = {
+        Achievement({id = 17525, criteria = 58459}), -- Champion of the Forbidden Reach
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
+    pois = {
+        POI({23013438}) -- Entrance
+    }
+}) -- Gahz'raxes
+
+map.nodes[41011435] = Rare({
+    id = 200579,
     quest = nil,
     rewards = {
+        Achievement({id = 17525, criteria = 58460}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
-}) -- "Captain" Ookbeard
+}) -- Ishyra
+
+map.nodes[47331027] = Rare({
+    id = 200600,
+    quest = 73117,
+    note = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 17525, criteria = 58461}), -- Champion of the Forbidden Reach
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
+    pois = {
+        POI({46260854}) -- Entrance
+    }
+}) -- Reisa the Drowned
 
 local Duzalgor = Class('Duzalgor', Rare, {
     id = 200610,
     quest = 73881,
     note = L['in_small_cave'] .. '\n\n' .. L['duzalgor_note'],
     rewards = {
+        Achievement({id = 17525, criteria = 58462}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
@@ -75,29 +105,27 @@ map.nodes[32842931] = Duzalgor({
     }
 }) -- Duzalgor (The Forbidden Reach)
 
-supportCreche.nodes[32693558] = Duzalgor({
-    pois = {
-        POI({34662400}) -- Entrance
-    }
-}) -- Duzalgor (The Support Creche)
+supportCreche.nodes[32693558] = Duzalgor() -- Duzalgor (The Support Creche)
 
-map.nodes[28293793] = Rare({
-    id = 200537,
+map.nodes[43736121] = Rare({
+    id = 200681,
     quest = nil,
-    note = L['in_water_cave'],
+    note = L['in_small_cave'],
     rewards = {
+        Achievement({id = 17525, criteria = 58463}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
     pois = {
-        POI({23013438}) -- Entrance
+        POI({42565425, 40715404, 40015641}) -- Entrances
     }
-}) -- Gahz'raxes
+}) -- Bonesifter Marwak
 
 map.nodes[44707647] = Rare({
     id = 200717,
     quest = 73152,
     rewards = {
+        Achievement({id = 17525, criteria = 58464}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
@@ -107,25 +135,18 @@ map.nodes[43939051] = Rare({
     id = 200721,
     quest = nil,
     rewards = {
+        Achievement({id = 17525, criteria = 58465}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Grugoth the Hullcrusher
-
-map.nodes[41011435] = Rare({
-    id = 200579,
-    quest = nil,
-    rewards = {
-        Item({item = 202196}), -- Zskera Vault Key
-        Currency({id = 2118}) -- Elemental Overflow
-    }
-}) -- Ishyra
 
 map.nodes[59605888] = Rare({
     id = 200885,
     quest = 73222,
     note = L['in_small_cave'],
     rewards = {
+        Achievement({id = 17525, criteria = 58466}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
@@ -134,68 +155,12 @@ map.nodes[59605888] = Rare({
     }
 }) -- Lady Shaz'ra
 
-map.nodes[67924531] = Rare({
-    id = 201181,
-    quest = 74283,
-    note = L['in_small_cave'] .. '\n\n' .. L['mad_eye_carrey_note'],
-    rewards = {
-        Item({item = 202196}), -- Zskera Vault Key
-        Currency({id = 2118}) -- Elemental Overflow
-    },
-    pois = {
-        POI({722113973}) -- Entrance
-    }
-}) -- Mad-Eye Carrey
-
-local Pyrachniss = Class('Pyrachniss', Rare, {
-    id = 200978,
-    quest = 73385,
-    note = L['in_the_war_creche'],
-    rewards = {
-        Item({item = 202196}), -- Zskera Vault Key
-        Currency({id = 2118}) -- Elemental Overflow
-    }
-}) -- Pyrachniss
-
-map.nodes[53707154] = Pyrachniss({
-    pois = {
-        POI({51846018}) -- Entrance
-    }
-}) -- Pyrachniss (The Forbidden Reach)
-
-warCreche.nodes[75615011] = Pyrachniss() -- Pyrachniss (The War Creche)
-
-map.nodes[47331027] = Rare({
-    id = 200600,
-    quest = 73117,
-    note = L['in_small_cave'],
-    rewards = {
-        Item({item = 202196}), -- Zskera Vault Key
-        Currency({id = 2118}) -- Elemental Overflow
-    },
-    pois = {
-        POI({46260854}) -- Entrance
-    }
-}) -- Reisa the Drowned
-
-map.nodes[60484373] = Rare({
-    id = 200584,
-    quest = 73111,
-    note = L['in_small_cave'],
-    rewards = {
-        Item({item = 202196}), -- Zskera Vault Key
-        Currency({id = 2118}) -- Elemental Overflow
-    },
-    pois = {
-        POI({5948225}) -- Entrance
-    }
-}) -- Vakren the Hunter
-
 map.nodes[72976738] = Rare({
     id = 200904,
     quest = nil,
     note = L['in_small_cave'],
     rewards = {
+        Achievement({id = 17525, criteria = 58467}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
@@ -204,33 +169,40 @@ map.nodes[72976738] = Rare({
     }
 }) -- Veltrax
 
-local Volcanakk = Class('Volcanakk', Rare, {
-    id = 200911,
-    quest = 73225,
-    note = L['in_small_cave'],
+map.nodes[67924531] = Rare({
+    id = 201181,
+    quest = 74283,
+    note = L['in_small_cave'] .. '\n\n' .. L['mad_eye_carrey_note'],
     rewards = {
+        Achievement({id = 17525, criteria = 58468}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
-    }
-}) -- Volcanakk
-
-map.nodes[78205065] = Volcanakk({
+    },
     pois = {
-        POI({78174982}) -- Entrance
+        POI({722113973}) -- Entrance
     }
-}) -- Volcanakk (The Forbidden Reach)
+}) -- Mad-Eye Carrey
 
-seigeCreche.nodes[58923839] = Volcanakk({
+map.nodes[63572576] = Rare({
+    id = 201013,
+    quest = nil,
+    note = L['wymslayer_angvardi_note'],
+    rewards = {
+        Achievement({id = 17525, criteria = 58469}), -- Champion of the Forbidden Reach
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    },
     pois = {
-        POI({19698008}) -- Entrance
+        POI({64042478}) -- Nidharr
     }
-}) -- Volcanakk (The Seige Creche)
+}) -- Wyrmslayer Angvardi
 
 local WardenEntrix = Class('WardenEntrix', Rare, {
     id = 200960,
     quest = nil,
     note = L['in_the_war_creche'],
     rewards = {
+        Achievement({id = 17525, criteria = 58470}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
@@ -249,22 +221,346 @@ warCreche.nodes[42978454] = WardenEntrix({
     }
 }) -- Warden Entrix (The War Creche)
 
-map.nodes[63572576] = Rare({
-    id = 201013,
+map.nodes[26664150] = Rare({
+    id = 200956,
     quest = nil,
-    note = L['wymslayer_angvardi_note'],
     rewards = {
+        Achievement({id = 17525, criteria = 58471}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
-    },
-    pois = {
-        POI({64042478}) -- Nidharr
     }
-}) -- Wyrmslayer Angvardi
+}) -- "Captain" Ookbeard
+
+local Pyrachniss = Class('Pyrachniss', Rare, {
+    id = 200978,
+    quest = 73385,
+    note = L['in_the_war_creche'],
+    rewards = {
+        Achievement({id = 17525, criteria = 58472}), -- Champion of the Forbidden Reach
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    }
+}) -- Pyrachniss
+
+map.nodes[53707154] = Pyrachniss({
+    pois = {
+        POI({51846018}) -- Entrance
+    }
+}) -- Pyrachniss (The Forbidden Reach)
+
+warCreche.nodes[75615011] = Pyrachniss() -- Pyrachniss (The War Creche)
+
+local Volcanakk = Class('Volcanakk', Rare, {
+    id = 200911,
+    quest = 73225,
+    note = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 17525, criteria = 58473}), -- Champion of the Forbidden Reach
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    }
+}) -- Volcanakk
+
+map.nodes[78205065] = Volcanakk({
+    pois = {
+        POI({78174982}) -- Entrance
+    }
+}) -- Volcanakk (The Forbidden Reach)
+
+seigeCreche.nodes[58923839] = Volcanakk() -- Volcanakk (The Seige Creche)
+
+-- map.nodes[] = Rare({
+--     id = 200619,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58474}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Tectonus
+
+-- map.nodes[] = Rare({
+--     id = 200620,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58475}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Sir Pinchalot
+
+-- map.nodes[] = Rare({
+--     id = 200621,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58476}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Manathema
+
+-- map.nodes[] = Rare({
+--     id = 200622,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58477}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Snarfang
+
+-- map.nodes[] = Rare({
+--     id = 200722,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58478}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Gareed
+
+-- map.nodes[] = Rare({
+--     id = 200725,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58479}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Faunos
+
+-- map.nodes[] = Rare({
+--     id = 200730,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58480}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Tidesmith Zarviss
+
+-- map.nodes[] = Rare({
+--     id = 200737,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58481}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Arcantrix
+
+-- map.nodes[] = Rare({
+--     id = 200738,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58482}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Kangalo
+
+-- map.nodes[] = Rare({
+--     id = 200739,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58483}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Fimbul
+
+-- map.nodes[] = Rare({
+--     id = 200740,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58484}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Agni Blazehoof
+
+-- map.nodes[] = Rare({
+--     id = 200742,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58485}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Luttrok
+
+-- map.nodes[] = Rare({
+--     id = 200743,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58486}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Amephyst
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
+
+-- Achievement({
+--     id = 17526,
+--     criteria = {
+--         58487, -- Forbidden Hoard
+--         58488, -- Avian Trove
+--         58489, -- Obsidian Coffer
+--         58490, -- Spellsworn Reserves
+--         58491, -- Bone Pile
+--         58492, -- Farscale Cache
+--         58493, -- Irontide Stash
+--         58494, -- Storm-Eater Cairn
+--         58495, -- Stonescaled Cairn
+--         58496, -- Blazing Cairn
+--         58497, -- Frozenheart Cairn
+--         58498, -- Morqut Provisions
+--     }
+-- }) -- Treasures of the Forbidden Reach
+
+------------------------------- FORBIDDEN HOARD -------------------------------
+
+local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
+    label = L['forbidden_hoard_label'],
+    icon = 'chest_pp',
+    group = ns.groups.FORBIDDEN_HOARD,
+    note = L['forbidden_hoard_note'],
+    rewards = {
+        Achievement({id = 17526, criteria = 58487}), -- Treasures of the Forbidden Reach
+        Achievement({
+            id = 17527,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['scavenger_of_the_forbidden_reach_suffix']
+            }
+        }), -- Scavenger of the Forbidden Reach
+        Achievement({
+            id = 17529,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['forbidden_spoils_suffix']
+            }
+        }), -- Forbidden Spoils
+        Item({item = 202196}), -- Zskera Vault Key
+        Item({item = 203464}) -- Sealed Spellsworn Scroll
+    }
+}) -- Forbidden Hoard
+
+map.nodes[28424199] = ForbiddenHoard()
+map.nodes[33822568] = ForbiddenHoard()
+map.nodes[39192427] = ForbiddenHoard()
+map.nodes[39670001] = ForbiddenHoard()
+map.nodes[46207342] = ForbiddenHoard()
+map.nodes[50733677] = ForbiddenHoard({
+    note = L['in_small_cave'],
+    pois = {POI({49143704})}
+})
+map.nodes[53647674] = ForbiddenHoard()
+map.nodes[55592617] = ForbiddenHoard()
+map.nodes[59285907] = ForbiddenHoard()
+map.nodes[65013709] = ForbiddenHoard()
+map.nodes[70606555] = ForbiddenHoard()
+map.nodes[72897639] = ForbiddenHoard()
+
+warCreche.nodes[40816962] = ForbiddenHoard()
+warCreche.nodes[61195448] = ForbiddenHoard()
+
+--------------------------------- AVIAN TROVE ---------------------------------
+
+------------------------------- OBSIDIAN COFFER -------------------------------
+
+local ObsidianCoffer = Class('ObsidianCoffer', Collectible, {
+    label = L['obsidian_coffer_label'],
+    icon = 'chest_pp',
+    group = ns.groups.OBSIDIAN_COFFER,
+    rewards = {
+        Achievement({id = 17526, criteria = 58489}), -- Obsidian Coffer
+        Achievement({
+            id = 17527,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['scavenger_of_the_forbidden_reach_suffix']
+            }
+        }), -- Scavenger of the Forbidden Reach
+        Item({item = 202196}) -- Zskera Vault Key
+    }
+}) -- Obsidian Coffer
+
+map.nodes[57466242] = ObsidianCoffer()
+
+warCreche.nodes[68681317] = ObsidianCoffer()
+warCreche.nodes[44358594] = ObsidianCoffer()
+
+----------------------------- SPELLSWORN RESERVES -----------------------------
+
+---------------------------------- BONE PILE ----------------------------------
+
+local BonePile = Class('BonePile', Collectible, {
+    label = L['bone_pile_label'],
+    icon = 'chest_pp',
+    group = ns.groups.BONE_PILE,
+    rewards = {
+        Achievement({id = 17526, criteria = 58491}), -- Treasures of the Forbidden Reach
+        Achievement({
+            id = 17527,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['scavenger_of_the_forbidden_reach_suffix']
+            }
+        }), -- Scavenger of the Forbidden Reach
+        Item({item = 202196}) -- Zskera Vault Key
+    }
+}) -- Bone Pile
+
+map.nodes[28414290] = BonePile()
+map.nodes[33967739] = BonePile()
+map.nodes[36752964] = BonePile()
+map.nodes[38793491] = BonePile()
+map.nodes[39985317] = BonePile()
+map.nodes[42985326] = BonePile()
+map.nodes[43105496] = BonePile()
+map.nodes[50134985] = BonePile()
+map.nodes[59044624] = BonePile()
+map.nodes[65213628] = BonePile()
+
+supportCreche.nodes[16733332] = BonePile()
+
+------------------------------- FARSCALE CACHE --------------------------------
+
+------------------------------- IRONTIDE STASH --------------------------------
+
+------------------------------ STORM-EATER CAIRN ------------------------------
+
+------------------------------ STONESCALED CAIRN ------------------------------
+
+local StonescaledCairn = Class('StonescaledCairn', Collectible, {
+    label = L['stonescaled_cairn_label'],
+    icon = 'chest_pp',
+    group = ns.groups.STONESCALED_CAIRN,
+    rewards = {
+        Achievement({id = 17526, criteria = 58495}), -- Stonescaled Cairn
+        Achievement({
+            id = 17527,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['scavenger_of_the_forbidden_reach_suffix']
+            }
+        }), -- Scavenger of the Forbidden Reach
+        Item({item = 202196}) -- Zskera Vault Key
+    }
+}) -- Stonescaled Cairn
+
+map.nodes[73045926] = StonescaledCairn()
+
+-------------------------------- BLAZING CAIRN --------------------------------
+
+local BlazingCairn = Class('BlazingCairn', Collectible, {
+    label = L['blazing_cairn_label'],
+    icon = 'chest_pp',
+    group = ns.groups.BLAZING_CAIRN,
+    rewards = {
+        Achievement({id = 17526, criteria = 58496}), -- Blazing Cairn
+        Achievement({
+            id = 17527,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['scavenger_of_the_forbidden_reach_suffix']
+            }
+        }), -- Scavenger of the Forbidden Reach
+        Item({item = 202196}) -- Zskera Vault Key
+    }
+}) -- Stonescaled Cairn
+
+seigeCreche.nodes[49143582] = BlazingCairn()
+
+------------------------------ FROZENHEART CAIRN ------------------------------
+
+------------------------------ MORQUT PROVISIONS ------------------------------
+
+-------------------------------- MISCELLANEOUS --------------------------------
 
 map.nodes[48697111] = ns.node.ElementalChest({
     label = L['storm_bound_chest_label'],
@@ -311,16 +607,16 @@ map.nodes[35752174] = Dragonglyph({
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
 -------------------------------------------------------------------------------
 
-map.nodes[24435566] = Flag({quest = nil})
-map.nodes[34843030] = Flag({quest = nil})
-map.nodes[55332639] = Flag({quest = nil})
-map.nodes[80464835] = Flag({quest = nil})
+map.nodes[27945985] = Flag({quest = 73696})
+map.nodes[54573460] = Flag({quest = 73699})
+map.nodes[36903792] = Flag({quest = 73700})
+map.nodes[76285343] = Flag({quest = 73702})
 
 -------------------------------------------------------------------------------
 ------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
 -------------------------------------------------------------------------------
 
-map.nodes[38398116] = SignalTransmitter({quest = nil}) -- Sharpscale Coast
+map.nodes[39988182] = SignalTransmitter({quest = 73145}) -- Sharpscale Coast
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -434,67 +730,161 @@ map.nodes[49335595] = Dragonrace({
     }
 }) -- Forbidden Reach Ramble
 
--------------------------------------------------------------------------------
----------------------------------- BONE PILE ----------------------------------
--------------------------------------------------------------------------------
+------------------------------------------------------------------------
+---------------------------- SCROLL HUNTER -----------------------------
+------------------------------------------------------------------------
 
-local BonePile = Class('BonePile', Node, {
-    label = L['bone_pile_label'],
-    icon = 'chest_pk',
-    group = ns.groups.BONE_PILE,
-    rewards = {
-        Item({item = 202196}) -- Zskera Vault Key
-    }
-}) -- Bone Pile
+-- L['scroll_hunter_suffix'] = 'Treasures found'
+-- L['options_icons_scroll_hunter'] = '{achievement:17532}'
+-- L['options_icons_scroll_hunter_desc'] = 'Display sealed scroll locations for {achievement:17532}.'
 
-map.nodes[28414290] = BonePile()
-map.nodes[33967739] = BonePile()
-map.nodes[36752964] = BonePile()
-map.nodes[38793491] = BonePile()
-map.nodes[39985317] = BonePile()
-map.nodes[42985326] = BonePile()
-map.nodes[43105496] = BonePile()
-map.nodes[50134985] = BonePile()
-map.nodes[59044624] = BonePile()
-map.nodes[65213628] = BonePile()
+-- ns.groups.SCROLL_HUNTER = Group('scroll_hunter', 4549192, {
+--     defaults = ns.GROUP_HIDDEN,
+--     type = ns.group_types.ACHIEVEMENT,
+--     achievement = 17532
+-- })
 
-supportCreche.nodes[16733332] = BonePile()
+-- local SealedScroll = Class('SealedScroll', Collectible, {
+--     -- id = 202667, -- Sealed Artifact Scroll
+--     -- id = 202668, -- Sealed Spirit Scroll
+--     -- id = 202669, -- Sealed Fish Scroll
+--     -- id = 202670, -- Sealed Knowledge Scroll
+--     -- id = 203464, -- Sealed Spellsworn Scroll
+--     icon = 4549192,
+--     rewards = {
+--         Achievement({
+--             id = 17532,
+--             criteria = {
+--                 id = 1,
+--                 qty = true,
+--                 suffix = L['scroll_hunter_suffix']
+--             }
+--         }) -- Scroll Hunter
+--     }
+-- }) -- Sealed Scroll
 
--------------------------------------------------------------------------------
-------------------------------- FORBIDDEN HOARD -------------------------------
--------------------------------------------------------------------------------
+-- map.nodes[] = SealedScroll()
 
-local ForbiddenHoard = Class('ForbiddenHoard', Node, {
-    label = L['forbidden_hoard_label'],
-    icon = 'chest_pp',
-    group = ns.groups.FORBIDDEN_HOARD,
-    note = L['forbidden_hoard_note'],
-    rewards = {
-        Item({item = 202196}) -- Zskera Vault Key
-    }
-}) -- Forbidden Hoard
+------------------------------------------------------------------------
+------------------------ LIBRARIAN OF THE REACH ------------------------
+------------------------------------------------------------------------
 
-map.nodes[28424199] = ForbiddenHoard()
-map.nodes[33822568] = ForbiddenHoard()
-map.nodes[39670001] = ForbiddenHoard()
-map.nodes[46207342] = ForbiddenHoard()
-map.nodes[53647674] = ForbiddenHoard()
-map.nodes[55592617] = ForbiddenHoard()
-map.nodes[59285907] = ForbiddenHoard()
-map.nodes[65013709] = ForbiddenHoard()
-map.nodes[70606555] = ForbiddenHoard()
-map.nodes[72897639] = ForbiddenHoard()
+local LibraryBook = Class('LibraryBook', Collectible,
+    {icon = 4549135, group = ns.groups.LIBRARY})
+
+warCreche.nodes[52435962] = LibraryBook({
+    label = L['spellsworn_missive_label'],
+    note = L['spellsworn_missive_note'],
+    parent = map.id,
+    rewards = {Achievement({id = 17530, criteria = 58501})}
+}) -- The Burden of Lapisagos
+
+-- map.nodes[] = LibraryBook({
+--     id = 204316,
+--     rewards = {Achievement({id = 17530, criteria = 58502})}
+-- })-- A Soldier's Journal
+
+-- map.nodes[] = LibraryBook({
+--     id = 204335,
+--     rewards = {Achievement({id = 17530, criteria = 58503})}
+-- })-- A Song of the Depths
+
+-- map.nodes[] = LibraryBook({
+--     id = 204328,
+--     rewards = {Achievement({id = 17530, criteria = 58504})}
+-- })-- Return of the Nightsquall
+
+-- map.nodes[] = LibraryBook({
+--     id = 204321,
+--     rewards = {Achievement({id = 17530, criteria = 58505})}
+-- })-- Expedition Notes
+
+-- map.nodes[] = LibraryBook({
+--     id = 204317,
+--     rewards = {Achievement({id = 17530, criteria = 58506})}
+-- })-- Words of the Wyrmslayer
+
+-- map.nodes[] = LibraryBook({
+--     id = 204185,
+--     rewards = {Achievement({id = 17530, criteria = 58507})}
+-- })-- The Old Gods and the Ordering of Azeroth (Annotated)
+
+------------------------------------------------------------------------
+------------------------ WHILE WE WERE SLEEPING ------------------------
+------------------------------------------------------------------------
+
+local ScalecommanderItem = Class('scalecommander_item', Collectible, {
+    icon = 134422,
+    group = ns.groups.SCALECOMMANDER_ITEM
+})
+
+-- map.nodes[] = ScalecommanderItem({
+--     label = '{item:}',
+--     rewards = {Achievement({id = 17315, criteria = 1})}
+-- }) -- Journal Entry: The Creches
+
+-- map.nodes[] = ScalecommanderItem({
+--     label = '{item:}',
+--     rewards = {Achievement({id = 17315, criteria = 2})}
+-- }) -- Journal Entry: Experiments
+
+map.nodes[50884345] = ScalecommanderItem({
+    label = '{item:202335}',
+    rewards = {Achievement({id = 17315, criteria = 3})}
+}) -- Journal Entry: Relics
+
+-- map.nodes[] = ScalecommanderItem({
+--     label = '{item:}',
+--     rewards = {Achievement({id = 17315, criteria = 4})}
+-- }) -- Journal Entry: Silence
+
+-- map.nodes[] = ScalecommanderItem({
+--     label = '{item:}',
+--     rewards = {Achievement({id = 17315, criteria = 5})}
+-- }) -- Receiving Stone: Final Warning
+
+-- map.nodes[] = ScalecommanderItem({
+--     label = '{item:}',
+--     rewards = {Achievement({id = 17315, criteria = 6})}
+-- }) -- Sending Stone: Protest
+
+-- map.nodes[] = ScalecommanderItem({
+--     label = '{item:}',
+--     rewards = {Achievement({id = 17315, criteria = 7})}
+-- }) -- Sending Stone: Initial Report
+
+-- map.nodes[] = ScalecommanderItem({
+--     label = '{item:}',
+--     rewards = {Achievement({id = 17315, criteria = 8})}
+-- }) -- Sending Stone: The Prisoner
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
+
+map.nodes[56425914] = Collectible({
+    label = L['awakened_soil_label'],
+    icon = 656681,
+    requires = ns.requirement.Item(203416) -- Lifebloom Seeds
+}) -- Awakened Soil
+
+warCreche.nodes[31178082] = Collectible({
+    label = L['book_of_arcane_entities_label'],
+    icon = 1033184,
+    parent = map.id,
+    requires = ns.requirement.Item(203410) -- Glowing Crystal Bookmark
+}) -- Book of Arcane Entities
 
 map.nodes[25884785] = Collectible({
     label = L['zskera_vault_label'],
     icon = 4909720,
     note = L['zskera_vault_note'],
     rewards = {
-        Achievement({id = 17413}), -- Door Buster
+        Achievement({id = 17509}), -- Every Door, Everywhere, All At Once
+        Achievement({
+            id = 17413,
+            criteria = {id = 1, qty = true, suffix = L['door_buster_suffix']}
+        }), -- Door Buster
         Pet({item = 193851, id = 3332}), -- Patos
         Pet({item = 193908, id = 3338}), -- Kobaldt
         Pet({item = 204079, id = 3476}), -- Gilded Mechafrog

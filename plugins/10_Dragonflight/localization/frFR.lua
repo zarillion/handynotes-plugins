@@ -220,25 +220,62 @@ L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la d
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
+-- RARES
+
 L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
 
 L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour vous soigner du gaz toxique dans la grotte.'
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 
-L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
+-- TREASURES
 
-L['bone_pile_label'] = 'Tas d\'os'
-L['options_icons_bone_pile'] = 'Tas d\'os'
-L['options_icons_bone_pile_desc'] = 'Afficher les emplacements possibles des {object:Tas d\'os}.'
+L['scavenger_of_the_forbidden_reach_suffix'] = nil
+L['forbidden_spoils_suffix'] = nil
 
 L['forbidden_hoard_label'] = 'Provisions interdites'
 L['forbidden_hoard_note'] = 'Battez les monstres voisins pour ouvrir le coffre.'
 L['options_icons_forbidden_hoard'] = 'Provisions interdites'
 L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles des coffres de {object:Provisions interdites}.'
 
+L['obsidian_coffer_label'] = nil
+L['options_icons_obsidian_coffer'] = nil
+L['options_icons_obsidian_coffer_desc'] = nil
+
+L['bone_pile_label'] = 'Tas d\'os'
+L['options_icons_bone_pile'] = 'Tas d\'os'
+L['options_icons_bone_pile_desc'] = 'Afficher les emplacements possibles des {object:Tas d\'os}.'
+
+L['stonescaled_cairn_label'] = nil
+L['options_icons_stonescaled_cairn'] = nil
+L['options_icons_stonescaled_cairn_desc'] = nil
+
+L['blazing_cairn_label'] = nil
+L['options_icons_blazing_cairn'] = nil
+L['options_icons_blazing_cairn_desc'] = nil
+
+L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
+
+-- ACH: LIBRARIAN OF THE REACH
+
+L['spellsworn_missive_label'] = nil
+L['spellsworn_missive_note'] = nil
+L['options_icons_librarian_of_the_reach'] = nil
+L['options_icons_librarian_of_the_reach_desc'] = nil
+
+-- ACH: WHILE WE WERE SLEEPING
+
+L['options_icons_scalecommander_item'] = nil
+L['options_icons_scalecommander_item_desc'] = nil
+
+-- MISC
+
+L['awakened_soil_label'] = nil
+L['book_of_arcane_entities_label'] = nil
+
 L['zskera_vault_label'] = 'Caveau de Zskera'
 L['zskera_vault_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau de Zskera}.'
+L['door_buster_suffix'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

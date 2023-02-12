@@ -27,7 +27,12 @@ ns.expansion = 10
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.BONE_PILE = Group('bone_pile', 'chest_pk', {
+ns.groups.BLAZING_CAIRN = Group('blazing_cairn', 'chest_pp', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.BONE_PILE = Group('bone_pile', 'chest_pp', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -62,6 +67,11 @@ ns.groups.MAGICBOUND_CHEST = Group('magicbound_chest', 'chest_tl', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.OBSIDIAN_COFFER = Group('obsidian_coffer', 'chest_pp', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -81,6 +91,11 @@ ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
         if not ns.PlayerHasProfession(202) then return false end
         return Group.IsEnabled(self)
     end
+})
+
+ns.groups.STONESCALED_CAIRN = Group('stonescaled_cairn', 'chest_pp', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
 })
 
 ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_bl', {
@@ -168,6 +183,12 @@ ns.groups.LEYLINE = Group('leyline', 1033908, {
     achievement = 16638
 })
 
+ns.groups.LIBRARY = Group('librarian_of_the_reach', 4549135, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 17530
+})
+
 ns.groups.NEW_PERSPECTIVE = Group('new_perspective', 1109100, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -184,6 +205,12 @@ ns.groups.SAFARI = Group('safari', 4048818, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 16519
+})
+
+ns.groups.SCALECOMMANDER_ITEM = Group('scalecommander_item', 134422, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 17315
 })
 
 ns.groups.SNACK_ATTACK = Group('snack_attack', 134062, {
