@@ -230,52 +230,52 @@ L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 
 -- TREASURES
 
-L['scavenger_of_the_forbidden_reach_suffix'] = nil
-L['forbidden_spoils_suffix'] = nil
+L['scavenger_of_the_forbidden_reach_suffix'] = 'Petits trésors ouverts'
+L['forbidden_spoils_suffix'] = 'Provisions interdites ouvertes'
 
 L['forbidden_hoard_label'] = 'Provisions interdites'
 L['forbidden_hoard_note'] = 'Battez les monstres voisins pour ouvrir le coffre.'
 L['options_icons_forbidden_hoard'] = 'Provisions interdites'
 L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles des coffres de {object:Provisions interdites}.'
 
-L['obsidian_coffer_label'] = nil
-L['options_icons_obsidian_coffer'] = nil
-L['options_icons_obsidian_coffer_desc'] = nil
+L['obsidian_coffer_label'] = 'Coffret d\'obsidienne'
+L['options_icons_obsidian_coffer'] = 'Coffret d\'obsidienne'
+L['options_icons_obsidian_coffer_desc'] = 'Afficher les emplacements possibles des {object:Coffrets d\'obsidienne}.'
 
 L['bone_pile_label'] = 'Tas d\'os'
 L['options_icons_bone_pile'] = 'Tas d\'os'
 L['options_icons_bone_pile_desc'] = 'Afficher les emplacements possibles des {object:Tas d\'os}.'
 
-L['stonescaled_cairn_label'] = nil
-L['options_icons_stonescaled_cairn'] = nil
-L['options_icons_stonescaled_cairn_desc'] = nil
+L['stonescaled_cairn_label'] = 'Cairn pierre-écaille'
+L['options_icons_stonescaled_cairn'] = 'Cairn pierre-écaille'
+L['options_icons_stonescaled_cairn_desc'] = 'Afficher les emplacements possibles des {object:Cairns pierres-écailles}.'
 
-L['blazing_cairn_label'] = nil
-L['options_icons_blazing_cairn'] = nil
-L['options_icons_blazing_cairn_desc'] = nil
+L['blazing_cairn_label'] = 'Cairn flamboyant'
+L['options_icons_blazing_cairn'] = 'Cairn flamboyant'
+L['options_icons_blazing_cairn_desc'] = 'Afficher les emplacements possibles des {object:Cairns flamboyants}.'
 
 L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
 
 -- ACH: LIBRARIAN OF THE REACH
 
-L['spellsworn_missive_label'] = nil
-L['spellsworn_missive_note'] = nil
-L['options_icons_librarian_of_the_reach'] = nil
-L['options_icons_librarian_of_the_reach_desc'] = nil
+L['spellsworn_missive_label'] = 'Missive Sorcelige'
+L['spellsworn_missive_note'] = 'Ouvrez la {object:Missive Sorcelige} et récupérez {item:204338}.'
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}.'
 
 -- ACH: WHILE WE WERE SLEEPING
 
-L['options_icons_scalecommander_item'] = nil
-L['options_icons_scalecommander_item_desc'] = nil
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:17315}.'
 
 -- MISC
 
-L['awakened_soil_label'] = nil
-L['book_of_arcane_entities_label'] = nil
+L['awakened_soil_label'] = 'Sol éveillé'
+L['book_of_arcane_entities_label'] = 'Livre des entités arcaniques'
 
 L['zskera_vault_label'] = 'Caveau de Zskera'
 L['zskera_vault_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau de Zskera}.'
-L['door_buster_suffix'] = nil
+L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des Clés des Caveaux Zskera.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
