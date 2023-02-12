@@ -230,7 +230,7 @@ L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por {npc:201310}.
 
 -- TREASURES
 
-L['scavenger_of_the_forbidden_reach_suffix'] = nil
+L['scavenger_of_the_forbidden_reach_suffix'] = 'Tesoros pequeños abiertos'
 L['forbidden_spoils_suffix'] = nil
 
 L['forbidden_hoard_label'] = nil
@@ -260,13 +260,13 @@ L['storm_bound_chest_label'] = nil
 
 L['spellsworn_missive_label'] = nil
 L['spellsworn_missive_note'] = nil
-L['options_icons_librarian_of_the_reach'] = nil
-L['options_icons_librarian_of_the_reach_desc'] = nil
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = 'Muestra dónde están los libros para el logro {achievement:17530}.'
 
 -- ACH: WHILE WE WERE SLEEPING
 
-L['options_icons_scalecommander_item'] = nil
-L['options_icons_scalecommander_item_desc'] = nil
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos para el logro {achievement:17315}.'
 
 -- MISC
 
