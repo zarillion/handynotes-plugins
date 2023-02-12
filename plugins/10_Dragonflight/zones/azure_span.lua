@@ -187,7 +187,7 @@ map.nodes[27214490] = Rare({
     rewards = {
         Achievement({id = 16678, criteria = 56098}), -- Adventurer of The Azure Span
         Transmog({item = 200302, slot = L['1h_sword']}), -- Magmaforged Scimitar
-        Transmog({item = 193157, slot = L['1h_mace']}), -- Protector's Molten Cudgel
+        Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
         DC.CliffsideWylderdrake.BluntSpikedTail,
         DC.CliffsideWylderdrake.HornedNose
