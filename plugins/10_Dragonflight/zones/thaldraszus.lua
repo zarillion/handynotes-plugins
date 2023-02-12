@@ -241,7 +241,6 @@ map.nodes[52895903] = Rare({
 map.nodes[59806100] = Rare({ -- reqired 67030
     id = 193688,
     quest = 74020,
-    note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56140}),
         Transmog({item = 200146, slot = L['1h_mace']}), -- Phenran's Discordant Smasher
