@@ -245,6 +245,10 @@ L['bone_pile_label'] = 'Bone Pile'
 L['options_icons_bone_pile'] = 'Bone Pile'
 L['options_icons_bone_pile_desc'] = 'Display possible locations of {object:Bone Piles}.'
 
+L['storm_eater_cairn_label'] = 'Storm-Eater Cairn'
+L['options_icons_storm_eater_cairn'] = 'Storm-Eater Cairn'
+L['options_icons_storm_eater_cairn_desc'] = 'Display possible locations of {object:Storm-Eater Cairn}.'
+
 L['stonescaled_cairn_label'] = 'Stonescaled Cairn'
 L['options_icons_stonescaled_cairn'] = 'Stonescaled Cairn'
 L['options_icons_stonescaled_cairn_desc'] = 'Display possible locations of {object:Stonescaled Cairn}.'

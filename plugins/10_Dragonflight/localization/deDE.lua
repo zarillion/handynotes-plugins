@@ -239,6 +239,10 @@ L['bone_pile_label'] = nil
 L['options_icons_bone_pile'] = nil
 L['options_icons_bone_pile_desc'] = nil
 
+L['storm_eater_cairn_label'] = nil
+L['options_icons_storm_eater_cairn'] = nil
+L['options_icons_storm_eater_cairn_desc'] = nil
+
 L['stonescaled_cairn_label'] = nil
 L['options_icons_stonescaled_cairn'] = nil
 L['options_icons_stonescaled_cairn_desc'] = nil

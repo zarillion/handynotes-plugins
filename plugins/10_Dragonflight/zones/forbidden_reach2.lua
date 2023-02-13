@@ -380,16 +380,10 @@ seigeCreche.nodes[58923839] = Volcanakk() -- Volcanakk (The Seige Creche)
 -- Achievement({
 --     id = 17526,
 --     criteria = {
---         58487, -- Forbidden Hoard
 --         58488, -- Avian Trove
---         58489, -- Obsidian Coffer
 --         58490, -- Spellsworn Reserves
---         58491, -- Bone Pile
 --         58492, -- Farscale Cache
 --         58493, -- Irontide Stash
---         58494, -- Storm-Eater Cairn
---         58495, -- Stonescaled Cairn
---         58496, -- Blazing Cairn
 --         58497, -- Frozenheart Cairn
 --         58498, -- Morqut Provisions
 --     }
@@ -427,6 +421,10 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
 
 map.nodes[28424199] = ForbiddenHoard()
 map.nodes[33822568] = ForbiddenHoard()
+map.nodes[38255043] = ForbiddenHoard({
+    note = L['in_small_cave'],
+    pois = {POI({38785127})}
+})
 map.nodes[39192427] = ForbiddenHoard()
 map.nodes[39670001] = ForbiddenHoard()
 map.nodes[46207342] = ForbiddenHoard()
@@ -466,10 +464,11 @@ local ObsidianCoffer = Class('ObsidianCoffer', Collectible, {
     }
 }) -- Obsidian Coffer
 
+map.nodes[50205213] = ObsidianCoffer()
 map.nodes[57466242] = ObsidianCoffer()
 
-warCreche.nodes[68681317] = ObsidianCoffer()
 warCreche.nodes[44358594] = ObsidianCoffer()
+warCreche.nodes[68681317] = ObsidianCoffer()
 
 ----------------------------- SPELLSWORN RESERVES -----------------------------
 
@@ -511,6 +510,26 @@ supportCreche.nodes[16733332] = BonePile()
 ------------------------------- IRONTIDE STASH --------------------------------
 
 ------------------------------ STORM-EATER CAIRN ------------------------------
+
+local StormEaterCairn = Class('StormEaterCairn', Collectible, {
+    label = L['storm_eater_cairn_label'],
+    icon = 'chest_pp',
+    group = ns.groups.STORM_EATER_CAIRN,
+    rewards = {
+        Achievement({id = 17526, criteria = 58494}), -- Storm-Eater Cairn
+        Achievement({
+            id = 17527,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['scavenger_of_the_forbidden_reach_suffix']
+            }
+        }), -- Scavenger of the Forbidden Reach
+        Item({item = 202196}) -- Zskera Vault Key
+    }
+}) -- Storm-Eater Cairn
+
+map.nodes[75965723] = StormEaterCairn()
 
 ------------------------------ STONESCALED CAIRN ------------------------------
 

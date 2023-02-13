@@ -98,6 +98,11 @@ ns.groups.STONESCALED_CAIRN = Group('stonescaled_cairn', 'chest_pp', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.STORM_EATER_CAIRN = Group('storm_eater_cairn', 'chest_pp', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_bl', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

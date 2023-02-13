@@ -246,6 +246,10 @@ L['bone_pile_label'] = 'Tas d\'os'
 L['options_icons_bone_pile'] = 'Tas d\'os'
 L['options_icons_bone_pile_desc'] = 'Afficher les emplacements possibles des {object:Tas d\'os}.'
 
+L['storm_eater_cairn_label'] = nil
+L['options_icons_storm_eater_cairn'] = nil
+L['options_icons_storm_eater_cairn_desc'] = nil
+
 L['stonescaled_cairn_label'] = 'Cairn pierre-écaille'
 L['options_icons_stonescaled_cairn'] = 'Cairn pierre-écaille'
 L['options_icons_stonescaled_cairn_desc'] = 'Afficher les emplacements possibles des {object:Cairns pierres-écailles}.'

@@ -246,6 +246,10 @@ L['bone_pile_label'] = 'Montón de Huesos'
 L['options_icons_bone_pile'] = 'Montón de Huesos'
 L['options_icons_bone_pile_desc'] = 'Muestra dónde pueden haber {object:Montones de Huesos}.'
 
+L['storm_eater_cairn_label'] = nil
+L['options_icons_storm_eater_cairn'] = nil
+L['options_icons_storm_eater_cairn_desc'] = nil
+
 L['stonescaled_cairn_label'] = nil
 L['options_icons_stonescaled_cairn'] = nil
 L['options_icons_stonescaled_cairn_desc'] = nil
