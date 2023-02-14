@@ -528,7 +528,7 @@ tpf.nodes[48421722] = Rare({
     }
 }) -- Shardwing
 
-tpf.nodes[62073370] = Rare({
+tpf.nodes[61813142] = Rare({
     id = 201542,
     quest = 74558,
     rewards = {
