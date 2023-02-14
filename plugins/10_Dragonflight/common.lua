@@ -1125,7 +1125,7 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         local group = ns.groups.ELEMENTAL_STORM
         local stormType = ELEMENTAL_STORM_AREA_POIS[self.areaPoiID]
 
-        if FlightMapFrame == nil or not FlightMapFrame:IsShown() then
+        if ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID] then -- check if current map has rewards
             if stormType and group:GetDisplay(mapID) then
                 local rewards = {
                     ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], Achievement({
