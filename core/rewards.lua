@@ -581,22 +581,26 @@ function Recipe:IsEnabled()
 end
 
 function Recipe:GetText()
-    local prefix = {}
-    prefix[171] = L['recipe_prefix_alchemy']
-    prefix[164] = L['recipe_prefix_blacksmithing']
-    prefix[333] = L['recipe_prefix_enchanting']
-    prefix[202] = L['recipe_prefix_engineering']
-    prefix[773] = L['recipe_prefix_inscription']
-    prefix[755] = L['recipe_prefix_jewelcrafting']
-    prefix[165] = L['recipe_prefix_leatherworking']
-    prefix[197] = L['recipe_prefix_tailoring']
-    prefix[185] = L['recipe_prefix_cooking']
+    local prefix = {
+        [171] = L['recipe_prefix_alchemy'],
+        [164] = L['recipe_prefix_blacksmithing'],
+        [333] = L['recipe_prefix_enchanting'],
+        [202] = L['recipe_prefix_engineering'],
+        [773] = L['recipe_prefix_inscription'],
+        [755] = L['recipe_prefix_jewelcrafting'],
+        [165] = L['recipe_prefix_leatherworking'],
+        [197] = L['recipe_prefix_tailoring'],
+        [185] = L['recipe_prefix_cooking']
+    }
+    prefix = prefix[self.profession] or ''
 
     local name, _, icon = GetSpellInfo(self.id)
 
-    return ns.color.White(Icon(self.icon or icon) ..
-                              (prefix[self.profession] or '') .. name) .. ' (' ..
-               self.type .. ')'
+    local text = Icon(self.icon or icon)
+    text = text .. ns.color.White('[' .. prefix .. name .. ']')
+    text = text .. ' (' .. self.type .. ')'
+
+    return text
 end
 
 function Recipe:GetStatus()
