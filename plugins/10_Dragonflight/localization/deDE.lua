@@ -193,7 +193,15 @@ Du musst sie aktivieren, um die Eiswand zu schmelzen (Zwei Spieler empfohlen).
 Töte dann {npc:197183} in der Höhle, um {item:200528} zu erhalten.
 ]]
 
-L['gethdazr_note'] = nil
+L['gethdazr_note'] = [[
+Erscheint als Teil eines Events in {location:Imbu} welches durch das blasen des {object:Großen Horns von Imbu} gestartet wird.({dot:Blue})
+Das Horn kann erst angeklicht werden nachdem der {npc:Wütende Luftelementar} besiegt wurde. Dieser hat eine Respawn Zeit von ca. 30-60 Minuten.
+
+{npc:191143}({dot:Green}) und andere NPCs kämpfen sich dann vom nordöstlichen Eingang von {location:Imbu} bis zur Klippe vor, wo {npc:196165} dann spawnen wird.
+Die NPCs können sterben wenn du ihnen nicht hilfst, dadurch wird das Event fehlschlagen.
+
+Das Event kann alleine geschafft werden, 2-3 Spieler sind aber empfohlen.
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------

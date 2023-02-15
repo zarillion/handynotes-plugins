@@ -584,13 +584,73 @@ map.nodes[56407080] = Rare({ -- review
     quest = nil,
     note = L['gethdazr_note'],
     rewards = {
+        Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
+        Transmog({item = 200237, slot = L['shield']}), -- Burnished Lifewarder's Targe
+        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
         DC.HighlandDrake.SpinedChin, DC.CliffsideWylderdrake.SpikedBack,
         DC.HighlandDrake.StripedPattern, DC.WindborneVelocidrake.SpikedBack
     },
     pois = {
-        POI({58906690}) -- Great Horn of Imbu
+        POI({58946695}), -- Great Horn of Imbu
+        POI({color = 'Green', 60496603}), -- The Blubberwall
+        Path({
+            color = 'Green',
+            points = {
+                60496603, 59956724, 59376836, 58516913, 57816923, 56866903,
+                56406928, 56457017, 56407080
+            }
+        })
     }
 }) -- Gethdazr
+
+map.nodes[60196818] = Rare({
+    id = 201559,
+    quest = 74533, -- 74462
+    rewards = {
+        Transmog({item = 203661, slot = L['cloth']}) -- Watercaller's Mantle
+    }
+}) -- Shiobhan Waterborn
+
+map.nodes[57916842] = Rare({
+    id = 201557,
+    quest = 74532, -- 74459
+    rewards = {
+        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
+        Transmog({item = 200254, slot = L['mail']}), -- Totemic Cinch
+        Transmog({item = 200313, slot = L['cloak']}), -- Earthen Protoscale Drape
+        Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
+        Transmog({item = 203358, slot = L['leather']}), -- Graniteclaw's Vest
+        DC.CliffsideWylderdrake.ManedNeck, DC.WindborneVelocidrake.ClusterHorns,
+        DC.WindborneVelocidrake.ClubTail
+    }
+}) -- Graniteclaw
+
+map.nodes[56016760] = Rare({
+    id = 201558,
+    quest = 74531, -- 74461
+    rewards = {
+        Transmog({item = 200292, slot = L['plate']}), -- Cragforge Pauldrons
+        Transmog({item = 203660, slot = L['mail']}), -- Rockknell's Groundpounders
+        DC.WindborneVelocidrake.ClubTail, DC.WindborneVelocidrake.ClusterHorns
+    }
+}) -- Malgain Rockknell
+
+map.nodes[57256464] = Rare({
+    id = 201556,
+    quest = 74535, -- 74460
+    rewards = {
+        Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
+        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        Transmog({item = 203659, slot = L['shield']}), -- Waterpot's Halfpot Deflector
+        DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClusterHorns
+    }
+}) -- Waterpots
+
+-- map.nodes[43903096] = Rare({
+--     id = 201561,
+--     quest = 74544, -- 74456
+--     rewards = {}
+-- }) -- Movtivator Krathos
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
