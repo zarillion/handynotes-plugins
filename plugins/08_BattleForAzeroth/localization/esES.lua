@@ -7,13 +7,13 @@ if not L then return end
 ----------------------------------- DRUSTVAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_sarco_note'] = 'Abre el Sarcófago Antiguo para invocar oleadas de {npc:128181}.'
-L['beshol_note'] = 'Abre el Cofre Claramente Seguro para invocar a {npc:129805}.'
-L['cottontail_matron_note'] = 'Haz click en el Cráneo del Ritual Bestial para invocar a {npc:129904}.'
+L['ancient_sarco_note'] = 'Abre el {object:Sarcófago Antiguo} para invocar oleadas de {npc:128181}.'
+L['beshol_note'] = 'Abre el {object:Cofre Claramente Seguro} para invocar a {npc:129805}.'
+L['cottontail_matron_note'] = 'Haz click en el {object:Cráneo del Ritual Bestial} para invocar a {npc:129904}.'
 L['gluttonous_yeti_note'] = 'Esta {npc:127979} está condenada ...'
 L['idej_note'] = '¡Atúrdelo cuando lance {spell:274005} o puede matar a {npc:139380}!'
-L['seething_cache_note'] = 'Abre el Alijo Hirviente para invocar oleadas de {npc:129031}.'
-L['the_caterer_note'] = 'Usa el Pastel de Boda Arruinado para invocar a {npc:139358}.'
+L['seething_cache_note'] = 'Abre el {object:Alijo Hirviente} para invocar oleadas de {npc:129031}.'
+L['the_caterer_note'] = 'Usa el {object:Pastel de Boda Arruinado} para invocar a {npc:139358}.'
 L['vicemaul_note'] = 'Haz click en la {npc:127652} para pescar a {npc:127651}.'
 
 L['merchants_chest_note'] = 'Mata al {npc:137468} cercano que sostiene un llavero para conseguir la {item:163710} para poder abrir el cofre.'
@@ -31,29 +31,26 @@ L['runebound_cache_note'] = runebound .. 'Izquierda -> Abajo -> Arriba -> Derech
 L['runebound_chest_note'] = runebound .. 'Izquierda -> Derecha -> Abajo -> Arriba'
 L['runebound_coffer_note'] = runebound .. 'Derecha -> Arriba -> Izquierda -> Abajo'
 
--- NOTE: These quotes (and for trainers in other zones) were taken from the quotes
--- for this NPC on Wowhead. If no quotes were listed, I started a battle with the NPC
--- and jotted down the opening line. Adds a little flavor to the tooltips.
 L['captain_hermes_note'] = '¡Por fin, un contendiente!'
 L['dilbert_mcclint_note'] = 'Hola, me llamo {npc:140461}, y trabajo en el sector de cotrol de infestaciones. Siempre es un placer luchar contra otro amante del mundo arácnido.'
 L['fizzie_spark_note'] = '¿Crees que tus mascotas tienen alguna posibilidad frente a mi equipo imbuido de azerita? ¡Qué más quisieras!'
 L['michael_skarn_note'] = 'Recuerda que fuistes tú quien pidió esto.'
 
 L['drust_facts_note'] = 'Lee todas las estelas Drust para conseguir el logro.'
-L['stele_forest_note'] = 'Dentro de la Guarida de Ulfar.'
+L['stele_forest_note'] = 'Dentro de la {location:Guarida de Ulfar}.'
 L['options_icons_drust_facts_desc'] = 'Muestra dónde están las estelas Drust para el logro {achievement:13064}.'
 L['options_icons_drust_facts'] = '{achievement:13064}'
 
-L['embers_crossbow_note'] = 'Recoge la {item:163749} del suelo entre dos árboles y devuélvela a las ruinas de Gol Var.'
-L['embers_flask_note'] = 'Recoge el {item:163746} del agua entre dos rocas y devuélvelo a las ruinas de Gol Var.'
-L['embers_hat_note'] = 'Recoge el {item:163748} de la pila de huesos y devuélvelo a las ruinas de Gol Var.'
-L['embers_knife_note'] = 'Estira del {item:163747} para sacarlo del tronco del árbol y devuélvelo a las ruinas de Gol Var.'
-L['embers_golvar_note'] = 'Devuelve cada una de las reliquias a las ruinas de Gol Var para conseguir el logro.'
+L['embers_crossbow_note'] = 'Recoge la {item:163749} del suelo entre dos árboles y devuélvela a las {location:Ruinas de Gol Var}.'
+L['embers_flask_note'] = 'Recoge el {item:163746} del agua entre dos rocas y devuélvelo a las {location:Ruinas de Gol Var}.'
+L['embers_hat_note'] = 'Recoge el {item:163748} de la pila de huesos y devuélvelo a las {location:Ruinas de Gol Var}.'
+L['embers_knife_note'] = 'Estira del {item:163747} para sacarlo del tronco del árbol y devuélvelo a las {location:Ruinas de Gol Var}.'
+L['embers_golvar_note'] = 'Devuelve cada una de las reliquias a las {location:Ruinas de Gol Var} para conseguir el logro.'
 L['golvar_ruins'] = 'Ruinas de Gol Var'
 L['options_icons_ember_relics_desc'] = 'Muestra dónde están las reliquias para el logro {achievement:13082}.'
 L['options_icons_ember_relics'] = '{achievement:13082}'
 
-L['linda_deepwater_note'] = 'Para poder acceder, debes haber completado la cadena de misiones de {npc:136458} justo fuera de Calacualquiera.'
+L['linda_deepwater_note'] = 'Para poder acceder, debes haber completado la cadena de misiones de {npc:136458} justo fuera de {location:Calacualquiera}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
@@ -62,13 +59,13 @@ L['linda_deepwater_note'] = 'Para poder acceder, debes haber completado la caden
 L['avenger_note'] = 'Cuando {npc:155254} esté en Pernoóxido, mata al {npc:151159} que corre por toda la zona para hacer aparecer al {npc:151296}.'
 L['beastbot_note'] = 'Fabrica un {item:168045} en {npc:150359} para activar a la {npc:151933}.'
 L['cogstar_note'] = 'Mata {npc:154213} en cualquier sitio de la zona hasta que {npc:153228} se teleporte a ayudarlos.'
-L['crazed_trogg_note'] = 'Usa un Roboespray, una vejiga llena de pintura, o un robot pintador en el Vertedero de Bondo para vestirte del color que grita {npc:152569}.'
+L['crazed_trogg_note'] = 'Usa un Roboespray, una vejiga llena de pintura, o un robot pintador en el {location:Vertedero de Bondo} para vestirte del color que grita {npc:152569}.'
 L['deepwater_note'] = 'Fabrica un {item:167649} en {npc:150359} para invocar a {npc:151569}.'
 L['doppel_note'] = 'Junto a otros dos jugadores, ha de usar cada uno una {item:169470} para activar a {npc:155060}. La {item:169470} se consigue de la misión diaria {daily:56405}.'
 L['foul_manifest_note'] = 'Activa el disyuntor y conecta los tres cables con los tres pilones del agua para invocar a la {npc:151202}.'
 L['furor_note'] = 'Durante la misión diaria {daily:55463}, haz click en las pequeñas setas azules hasta que aparezca {npc:151884}.'
 L['killsaw_note'] = 'Aparece en cualquier sitio del bosque al oeste de la isla donde hayan {npc:151871} cortando árboles. Has de matarlos para que aparezca {npc:152007} para vengarlos. Los {npc:151871} no aparecen los días que esté Ventura y Cía en el bosque.'
-L['leachbeast_note'] = 'Usa una {item:168961} que sueltan los enemigos de Depósito Trastovatio para activar la Máquina de alteración climática. Esto hará que llueva y que comiencen a aparecer {npc:151745}. Tras matar a varios saldrá {npc:152764}'
+L['leachbeast_note'] = 'Usa una {item:168961} que sueltan los enemigos de {location:Depósito Trastovatio} para activar la {object:Máquina de Alteración Climática}. Esto hará que llueva y que comiencen a aparecer {npc:151745}. Tras matar a varios saldrá {npc:152764}.'
 L['nullifier_note'] = [[
 Piratea el {npc:152174} usando uno de estos objetos:
 
@@ -78,16 +75,16 @@ Piratea el {npc:152174} usando uno de estos objetos:
 ]]
 L['scrapclaw_note'] = 'Cerca de la orilla bajo el agua (82.3 77.9) aparece {npc:155583}.'
 L['sparkqueen_note'] = '{npc:153000} sólo aparece cuando la misión diaria {daily:55765} está activa.'
-L['rusty_note'] = 'Fabrica un {item:169114} en {npc:150359} para ir al futuro alternativo. {npc:154225} sólo aparece cuando {npc:153993} NO está presente en Pernoóxido.'
-L['vaultbot_note'] = 'Kitea al {npc:150394} hasta la bobina tesla en el Vertedero de Bondo o fabrica una {item:167062} en {npc:150359} para abrirlo.'
+L['rusty_note'] = 'Fabrica un {item:169114} en {npc:150359} para ir al futuro alternativo. {npc:154225} sólo aparece cuando {npc:153993} NO está presente en {location:Pernoóxido}.'
+L['vaultbot_note'] = 'Kitea al {npc:150394} hasta la bobina tesla en el {location:Vertedero de Bondo} o fabrica una {item:167062} en {npc:150359} para abrirlo.'
 
 L['iron_chest'] = 'Arcón de los Marea de Hierro'
 L['mech_chest'] = 'Cofre mecanizado'
 L['msup_chest'] = 'Cofre de Suministros Mecanizados'
 L['rust_chest'] = 'Cofre Oxidado Viejo'
-L['iron_chest_note'] = 'Ábrelo con la {item:169872} que sueltan los enemigos de Rocío del Oeste.'
-L['msup_chest_note'] = 'Ábrelo con la {item:169873} que sueltan los enemigos de Rocío del Oeste.'
-L['rust_chest_note'] = 'Ábrelo con la {item:169218} que sueltan los enemigos de Rocío del Oeste.'
+L['iron_chest_note'] = 'Ábrelo con la {item:169872} que sueltan los enemigos de {location:Rocío del Oeste}.'
+L['msup_chest_note'] = 'Ábrelo con la {item:169873} que sueltan los enemigos de {location:Rocío del Oeste}.'
+L['rust_chest_note'] = 'Ábrelo con la {item:169218} que sueltan los enemigos de {location:Rocío del Oeste}.'
 
 L['rec_rig_note'] = 'Para activar el modo difícil, has de usar el arma {spell:292352} para convertir todos los {npc:150825} en {npc:151049}. Las mascotas {npc:154904} y {npc:155579} se puede obtener en ambas dificultades.'
 
@@ -100,7 +97,7 @@ L['options_icons_mech_buffs_desc'] = 'Muestra dónde están los robots de grasa,
 L['options_icons_mech_chest'] = 'Cofres Mecanizados'
 L['options_icons_mech_chest_desc'] = 'Muestra dónde están los cofres mecanizados. Hay 10 cofres únicos que pueden ser despojados una vez al día y cada cofre tiene 4-5 puntos de aparición. Los sitios están agrupados por color.'
 L['options_icons_locked_chest'] = 'Cofres Cerrados'
-L['options_icons_locked_chest_desc'] = 'Muestra dónde están los cofres cerrados en Rocío del Oeste.'
+L['options_icons_locked_chest_desc'] = 'Muestra dónde están los cofres cerrados en {location:Rocío del Oeste}.'
 L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = 'Muestra dónde está el {npc:150448} y sus recompensas.'
 
