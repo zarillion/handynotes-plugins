@@ -208,7 +208,7 @@ Luego, {npc:191143} ({dot:Green}) y otros NPC se abrirán camino desde la entrad
 Los NPC pueden morir sin ayuda y hacer fallar el evento.
 
 Se puede hacer en solitario pero se recomiendan 2-3 jugadores.
-]] -- taken straight from wowhead comments, might need some changes.
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
