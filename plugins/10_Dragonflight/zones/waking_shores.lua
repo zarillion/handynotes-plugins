@@ -2177,8 +2177,7 @@ local SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS = {
 local SIEGE_ON_DRAGONBANE_KEEP_REWARDS = {
     Achievement({id = 16411}), -- Seige on Dragonbane Keep: Home Sweet Home
     Toy({item = 200116}), -- Everlasting Horn of Lavaswimming
-    ns.reward.Spacer(),
-    Item({item = 192055}), -- Dragon Isles Artifact
+    ns.reward.Spacer(), Item({item = 192055}) -- Dragon Isles Artifact
 }
 
 map.nodes[30287005] = Collectible({

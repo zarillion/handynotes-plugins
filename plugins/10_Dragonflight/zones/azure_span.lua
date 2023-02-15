@@ -1431,11 +1431,10 @@ local COMMUNITY_FEAST_REWARDS = {
     Item({item = 198129}), -- Recipe: Gral's Reverence
     Item({item = 198130}), -- Recipe: Gral's Veneration
     Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
-    ns.reward.Spacer(),
-    Item({item = 200652}), -- Alchemical Flavor Pocket
+    ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
     Item({item = 190454}), -- Primal Chaos
     Item({item = 192055}), -- Dragon Isles Artifact
-    Item({item = 200071}), -- Sacred Tuskarr Totem
+    Item({item = 200071}) -- Sacred Tuskarr Totem
 }
 
 map.nodes[13524860] = Collectible({

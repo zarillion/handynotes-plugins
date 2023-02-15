@@ -1203,9 +1203,7 @@ local GrandHunt = Class('GrandHunt', Collectible, {
     IsEnabled = function(self)
         local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
         for a = 1, #activePOIs do
-            if activePOIs[a] == self.areaPOI then
-                return false
-            end
+            if activePOIs[a] == self.areaPOI then return false end
         end
         return true
     end
@@ -1216,11 +1214,7 @@ function GrandHunt.getters:rewards()
         Achievement({id = 16544}), -- Grand Hunter
         Achievement({
             id = 16541,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['longhunter_suffix']
-            }
+            criteria = {id = 1, qty = true, suffix = L['longhunter_suffix']}
         }), -- Longhunter
         Achievement({
             id = 16545,
@@ -1242,11 +1236,11 @@ function GrandHunt.getters:rewards()
                 55751, -- Ohuna Companion Color: Red
                 55752, -- Ohuna Companion Color: Dark
                 55753, -- Ohuna Companion Color: Sepia
-                55754, -- Ohuna Companion Color: Brown
+                55754 -- Ohuna Companion Color: Brown
             }
         }) -- Tetrachromancer
     }
-    for k,v in pairs(GRAND_HUNT_BAG_REWARDS) do table.insert(rewards, v) end
+    for k, v in pairs(GRAND_HUNT_BAG_REWARDS) do table.insert(rewards, v) end
     return rewards
 end
 
