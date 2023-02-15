@@ -230,7 +230,7 @@ L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por {npc:201310}.
 
 -- TREASURES
 
-L['hoarder_of_the_forbidden_reach_suffix'] = 'Tesoros pequeños abiertos'
+L['hoarder_of_the_forbidden_reach_suffix'] = 'tesoros pequeños abiertos'
 L['forbidden_spoils_suffix'] = nil
 
 L['forbidden_hoard_label'] = nil
@@ -251,8 +251,8 @@ L['blazing_cairn_label'] = nil
 L['frozenheart_cairn'] = nil
 L['morqut_provisions_label'] = nil
 
-L['options_icons_small_treasures'] = nil
-L['options_icons_small_treasures_desc'] = nil
+L['options_icons_small_treasures'] = 'Tesoros Pequeños'
+L['options_icons_small_treasures_desc'] = 'Muestra dónde pueden haber tesoros pequeños.'
 
 -- MISC TREASURES
 
