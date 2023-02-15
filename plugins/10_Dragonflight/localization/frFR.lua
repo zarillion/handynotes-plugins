@@ -209,6 +209,10 @@ Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 
 L['gethdazr_note'] = nil
 
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

@@ -214,6 +214,10 @@ Luego, {npc:191143} y otros NPC se abrirán camino desde la entrada noreste de {
 Los NPC pueden morir sin ayuda y terminar el evento antes de tiempo sin generar al raro.
 ]] -- taken straight from wowhead comments, might need some changes.
 
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

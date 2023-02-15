@@ -202,6 +202,10 @@ Töte dann {npc:197183} in der Höhle, um {item:200528} zu erhalten.
 
 L['gethdazr_note'] = nil
 
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

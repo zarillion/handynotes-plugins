@@ -1416,6 +1416,71 @@ map.nodes[38453474] = GrandHunt({
 }) -- Western Azure San Hunt
 
 -------------------------------------------------------------------------------
+------------------------------- COMMUNITY FEAST -------------------------------
+-------------------------------------------------------------------------------
+
+local COMMUNITY_FEAST_AREA_POIS = {
+    [7218] = 'Before Feast',
+    [7219] = 'During Feast',
+    [7220] = 'After Feast'
+}
+
+local COMMUNITY_FEAST_REWARDS = {
+    Achievement({id = 16444}), -- Leftovers Revenge
+    Item({item = 198131}), -- Recipe: Gral's Devotion
+    Item({item = 198129}), -- Recipe: Gral's Reverence
+    Item({item = 198130}), -- Recipe: Gral's Veneration
+    Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
+    ns.reward.Spacer(),
+    Item({item = 200652}), -- Alchemical Flavor Pocket
+    Item({item = 190454}), -- Primal Chaos
+    Item({item = 192055}), -- Dragon Isles Artifact
+    Item({item = 200071}), -- Sacred Tuskarr Totem
+}
+
+map.nodes[13524860] = Collectible({
+    label = L['community_feast_label'],
+    icon = 629056,
+    areaPOIs = {7218, 7219, 7220},
+    mapID = map.id,
+    group = ns.groups.COMMUNITY_FEAST,
+    requires = ns.requirement.Reputation(2511, 3, true), -- Iskaara Tuskarr
+    rewards = COMMUNITY_FEAST_REWARDS,
+    IsEnabled = function(self)
+        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
+        local possiblePOIs = self.areaPOIs
+        for a = 1, #activePOIs do
+            for p = 1, #possiblePOIs do
+                if activePOIs[a] == possiblePOIs[p] then
+                    return false
+                end
+            end
+        end
+        return true
+    end
+}) -- Community Feast
+
+hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+    if self and self.areaPoiID then
+        local mapID = self:GetMap().mapID
+        local group = ns.groups.COMMUNITY_FEAST
+        if COMMUNITY_FEAST_AREA_POIS[self.areaPoiID] then
+            if group:GetDisplay(mapID) then
+                if ns:GetOpt('show_loot') then
+                    GameTooltip:AddLine(' ')
+                    for i, reward in ipairs(COMMUNITY_FEAST_REWARDS) do
+                        if reward:IsEnabled() then
+                            reward:Render(GameTooltip)
+                        end
+                    end
+                end
+                GameTooltip:Show()
+            end
+        end
+    end
+end)
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 

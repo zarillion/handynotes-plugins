@@ -213,6 +213,10 @@ The Horn will only become clickable after killing the {npc:196155} attacking it,
 The NPCs can die without help, ending the event early and failing to spawn the rare.
 ]] -- taken straight from wowhead comments, might need some changes.
 
+L['community_feast_label'] = 'Community Feast'
+L['options_icons_community_feast'] = 'Community Feast'
+L['options_icons_community_feast_desc'] = 'Display locations and rewards for the {object:Community Feast}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

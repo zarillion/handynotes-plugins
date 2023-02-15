@@ -27,6 +27,11 @@ ns.expansion = 10
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
+ns.groups.COMMUNITY_FEAST = ns.Group('community_feast', 629056, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.DJARADIN_CACHE = Group('djaradin_cache', 'chest_pp', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

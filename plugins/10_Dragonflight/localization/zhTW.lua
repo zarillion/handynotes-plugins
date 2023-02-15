@@ -208,6 +208,10 @@ L['stranded_soul_note'] = [[
 
 L['gethdazr_note'] = nil
 
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
