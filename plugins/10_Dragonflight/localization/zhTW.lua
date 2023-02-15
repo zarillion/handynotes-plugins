@@ -91,6 +91,8 @@ L['options_icons_signal_transmitter'] = '龍洞產生器信號發送器'
 L['options_icons_signal_transmitter_desc'] = '顯示 {item:198156} 所需的 {object:未啟動的信號發送器} 位置.'
 
 L['spawns_periodically'] = '{note:每30分鐘可能重生, 全伺服器同步. (例如. 9:00, 17:30)}'
+L['rare_14h'] = nil
+L['time_format'] = nil
 L['spawns_at_night'] = '{note:僅在晚上重生 (伺服器時間 18:30 之後)}'
 
 L['elemental_storm'] = '元素風暴'

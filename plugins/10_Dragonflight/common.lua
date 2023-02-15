@@ -902,6 +902,83 @@ local ElementalChest = Class('ElementalChest', ns.node.Treasure, {
 ns.node.ElementalChest = ElementalChest
 
 -------------------------------------------------------------------------------
+------------------------------- INTERVAL RARES --------------------------------
+-------------------------------------------------------------------------------
+
+local function nextSpawn(self)
+    local region = GetCurrentRegion() -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
+    local initial = self.initialSpawn
+
+    local start = initial.us + self.rotationID * self.spawnOffset
+
+    if region == 3 and initial.eu then
+        start = initial.eu + self.rotationID * self.spawnOffset
+    end
+
+    local elapsedTime = GetServerTime() - start
+    return start + math.ceil(elapsedTime / self.spawnInterval) *
+               self.spawnInterval
+end
+
+---------------------------------- 14 HOURS -----------------------------------
+
+local Rare14h = Class('Rare14h', Rare, {
+    initialSpawn = {eu = 1676237400, us = 1676205000}, -- initial spawn time of the first rare to calculate other rares
+    spawnOffset = 1800, -- time between rares
+    spawnInterval = 50400 -- inverval of a single rare
+})
+
+function Rare14h.getters:note()
+    return format(L['rare_14h'], date(L['time_format'], nextSpawn(self)))
+end
+
+local RareElite14h = Class('RareElite14h', RareElite, {
+    initialSpawn = {eu = 1676237400, us = 1676205000},
+    spawnOffset = 1800,
+    spawnInterval = 50400
+})
+
+function RareElite14h.getters:note()
+    return format(L['rare_14h'], date(L['time_format'], nextSpawn(self)))
+end
+
+--------------------------------- BRACKENHIDE ---------------------------------
+
+local Brackenhide = Class('Brackenhide', Rare, {
+    initialSpawn = {
+        us = 1672531200, -- review
+        eu = 1672530600
+    },
+    spawnOffset = 600,
+    spawnInterval = 2400
+})
+
+function Brackenhide.getters:note()
+    return format(L['brackenhide_rare_note'],
+        date(L['time_format'], nextSpawn(self)))
+end
+
+------------------------------------ FEAST ------------------------------------
+
+local Feast = Class('Feast', Rare, {
+    initialSpawn = {
+        us = 1668997800 -- review
+    },
+    spawnOffset = 5400,
+    spawnInterval = 5400,
+    rotationID = 0
+})
+
+function Feast.getters:note()
+    return format(L['bisquis_note'], date(L['time_format'], nextSpawn(self)))
+end
+
+ns.node.Rare14h = Rare14h
+ns.node.RareElite14h = RareElite14h
+ns.node.Brackenhide = Brackenhide
+ns.node.Feast = Feast
+
+-------------------------------------------------------------------------------
 ------------------------------ ELEMENTAL STORMS -------------------------------
 -------------------------------------------------------------------------------
 

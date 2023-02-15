@@ -101,10 +101,11 @@ map.nodes[56718128] = Rare({
     }
 }) -- Enraged Sapphire
 
-map.nodes[74414762] = Rare({ -- reqiured 67030 review
+map.nodes[75184651] = ns.node.Rare14h({ -- reqiured 67030 review
     id = 193170,
     quest = 73994,
-    note = L['spawns_periodically'],
+    rotationID = 17,
+    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56075}),
         Transmog({item = 200433, slot = L['leather']}), -- Footwraps of Subjugation
@@ -168,10 +169,11 @@ map.nodes[32823817] = Rare({ -- review
     }
 }) -- Makhra the Ashtouched
 
-map.nodes[71694585] = Rare({
+map.nodes[71694585] = ns.node.Rare14h({
     id = 193212,
     quest = 74011,
-    note = L['spawns_periodically'],
+    rotationID = 27,
+    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56073}),
         Transmog({item = 200197, slot = L['staff']}), -- Armoredon Herding Crook
@@ -187,10 +189,11 @@ map.nodes[71694585] = Rare({
     }
 }) -- Malsegan
 
-map.nodes[63017996] = Rare({ -- reqiured 67030
+map.nodes[63017996] = ns.node.Rare14h({ -- reqiured 67030
     id = 193173,
     quest = 74015,
-    note = L['spawns_periodically'],
+    rotationID = 9,
+    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56070}),
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
@@ -217,10 +220,11 @@ map.nodes[58604940] = Rare({
     }
 }) -- Defend Clan Aylaag
 
-map.nodes[61212950] = Rare({ -- reqiured 67030
+map.nodes[61212950] = ns.node.Rare14h({ -- reqiured 67030
     id = 193235,
     quest = 74018,
-    note = L['spawns_periodically'],
+    rotationID = 24,
+    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56074}),
         Transmog({item = 200203, slot = L['mail']}), -- Repurposed Giant's Thimble
@@ -274,10 +278,11 @@ end
 
 map.nodes[68207920] = Quackers() -- Quackers the Terrible
 
-map.nodes[37005380] = Rare({
+map.nodes[37005380] = ns.node.Rare14h({
     id = 196010,
     quest = 74023,
-    note = L['spawns_periodically'],
+    rotationID = 14,
+    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56069}),
         Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
@@ -288,10 +293,11 @@ map.nodes[37005380] = Rare({
     }
 }) -- Researcher Sneakwing
 
-map.nodes[43405560] = Rare({
+map.nodes[43405560] = ns.node.Rare14h({
     id = 193227,
     quest = 74026,
-    note = L['spawns_periodically'],
+    rotationID = 3,
+    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56071}),
         Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
@@ -378,10 +384,11 @@ map.nodes[21603960] = Rare({
     }
 }) -- Sparkspitter Vrak
 
-map.nodes[53627281] = Rare({ -- reqiured 67030 review
+map.nodes[53627281] = ns.node.Rare14h({ -- reqiured 67030 review
     id = 193123,
     quest = 74034,
-    note = L['spawns_periodically'],
+    rotationID = 20,
+    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56072}),
         Transmog({item = 200216, slot = L['cloth']}), -- Water Heating Cord
