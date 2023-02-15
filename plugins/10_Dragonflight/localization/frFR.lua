@@ -127,9 +127,9 @@ L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les Te
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = 'Cuisiner une soupe légendaire au festin tribal {location:d’Iskaara}, puis vaincre {npc:197557}.'
+L['bisquis_note'] = 'Cuisiner une soupe légendaire au festin tribal {location:d’Iskaara}, puis vaincre {npc:197557}.\n\nProchain festin : {note:%s} (heure du serveur)'
 L['blightfur_note'] = 'Parlez à {npc:193633} pour invoquer le rare.'
-L['brackenhide_rare_note'] = 'Ces rares apparaissent selon une rotation fixe comme suit : {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} avec un intervalle de 10 minutes entre chacun.'
+L['brackenhide_rare_note'] = 'Ces rares apparaissent selon une rotation fixe comme suit : {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} avec un intervalle de 10 minutes entre chacun.\n\nProchaine apparition possible : {note:%s} (heure du serveur)'
 L['fisherman_tinnak_note'] = 'Récupérez la {object:Canne à pêche cassée}, le {object:Filet de pêche déchiré} et le {object:Vieux harpon} pour faire apparaître le rare.'
 L['frostpaw_note'] = 'Après avoir pris le {object:Marteau en bois}, vous avez 20 secondes pour frapper le {object:Jeu du Gnoll} sur la {object:Souche d\'arbre}, et faire apparaître le rare.'
 L['sharpfang_note'] = 'Aidez {npc:192747} à vaincre les {npc:192748s} pour faire apparaître le rare.'
