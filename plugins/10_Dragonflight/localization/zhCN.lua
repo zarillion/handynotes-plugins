@@ -507,3 +507,7 @@ L['loyal_magmammoth_taming_note'] = '在骑乘 {npc:198150} 时使用 {item:2018
 L['djaradin_cache'] = '贾拉丁宝箱'
 L['options_icons_djaradin_cache'] = '贾拉丁宝箱'
 L['options_icons_djaradin_cache_desc'] = '显示 {object:贾拉丁宝箱} 可能的位置。'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

@@ -501,3 +501,7 @@ L['loyal_magmammoth_taming_note'] = 'Используйте {item:201837} сид
 L['djaradin_cache'] = 'Тайник джарадинов'
 L['options_icons_djaradin_cache'] = 'Тайник джарадинов'
 L['options_icons_djaradin_cache_desc'] = 'Показать возможные места {object:Тайников джарадинов}.'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

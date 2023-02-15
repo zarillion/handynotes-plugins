@@ -486,3 +486,7 @@ L['loyal_magmammoth_taming_note'] = nil
 L['djaradin_cache'] = nil
 L['options_icons_djaradin_cache'] = nil
 L['options_icons_djaradin_cache_desc'] = nil
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

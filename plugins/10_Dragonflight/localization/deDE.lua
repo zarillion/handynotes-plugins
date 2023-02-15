@@ -499,3 +499,7 @@ L['loyal_magmammoth_taming_note'] = 'Benutze den {item:201837} während du auf e
 L['djaradin_cache'] = 'Depot der Djaradin'
 L['options_icons_djaradin_cache'] = 'Depots der Djaradin'
 L['options_icons_djaradin_cache_desc'] = 'Zeigt die möglichen Positionen für {object:Depot der Djaradin} an.'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

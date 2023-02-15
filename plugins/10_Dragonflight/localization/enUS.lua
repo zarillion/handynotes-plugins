@@ -512,3 +512,7 @@ L['loyal_magmammoth_taming_note'] = 'Use the {item:201837} while riding a {npc:1
 L['djaradin_cache'] = 'Djaradin Cache'
 L['options_icons_djaradin_cache'] = 'Djaradin Cache'
 L['options_icons_djaradin_cache_desc'] = 'Display possible locations of {object:Djaradin Cache}.'
+
+L['dragonbane_siege_label'] = 'Siege on Dragonbane Keep'
+L['options_icons_dragonbane_siege'] = 'Siege on Dragonbane Keep'
+L['options_icons_dragonbane_siege_desc'] = 'Display locations and rewards for the {object:Siege on Dragonbane Keep}.'

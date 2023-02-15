@@ -507,3 +507,7 @@ L['loyal_magmammoth_taming_note'] = '當你騎著 {npc:198150} 時使用 {item:2
 L['djaradin_cache'] = '加拉登貯物所'
 L['options_icons_djaradin_cache'] = '加拉登貯物所'
 L['options_icons_djaradin_cache_desc'] = '顯示 {object:加拉登貯物所} 可能的位置'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

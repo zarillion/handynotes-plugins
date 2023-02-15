@@ -513,3 +513,7 @@ L['loyal_magmammoth_taming_note'] = 'Usa el {item:201837} mientras montas a un {
 L['djaradin_cache'] = 'Alijo Djaradin'
 L['options_icons_djaradin_cache'] = 'Alijo Djaradin'
 L['options_icons_djaradin_cache_desc'] = 'Muestra dónde pueden haber {object:Alijos Djaradin}.'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

@@ -508,3 +508,7 @@ L['loyal_magmammoth_taming_note'] = 'Utilisez le {item:201837} tout en chevaucha
 L['djaradin_cache'] = 'Cache djaradine'
 L['options_icons_djaradin_cache'] = 'Cache djaradine'
 L['options_icons_djaradin_cache_desc'] = 'Afficher les emplacements possibles des {object:Caches djaradines}.'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil
