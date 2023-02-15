@@ -193,6 +193,8 @@ Du musst sie aktivieren, um die Eiswand zu schmelzen (Zwei Spieler empfohlen).
 Töte dann {npc:197183} in der Höhle, um {item:200528} zu erhalten.
 ]]
 
+L['gethdazr_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
@@ -297,8 +299,6 @@ L['options_icons_nokhud_do_it_desc'] = 'Zeigt die Position für den Erfolg {achi
 L['chest_of_the_flood'] = 'Truhe der Flut'
 
 L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.'
-
-L['gethdazr_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
