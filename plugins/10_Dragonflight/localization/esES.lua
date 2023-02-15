@@ -200,6 +200,8 @@ Necesitas activarlos para derretir la pared de hielo (se recomienda dos jugadore
 Mata el {npc:197183} de dentro y recibirás la {item:200528}.
 ]]
 
+L['gethdazr_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

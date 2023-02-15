@@ -200,6 +200,8 @@ Vous devez les activer pour faire fondre le mur de glace (deux joueurs sont reco
 Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 ]]
 
+L['gethdazr_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

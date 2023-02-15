@@ -565,8 +565,6 @@ map.nodes[36723247] = Rare({
     }
 }) -- Sharpfang
 
--------------------------------------------------------------------------------
-
 map.nodes[76602460] = Rare({
     id = 197183,
     quest = 71139,
@@ -580,6 +578,19 @@ map.nodes[76602460] = Rare({
         POI({color = 'Red', 75812428}) -- Lost Elemental, 196900
     }
 }) -- Stranded Soul
+
+map.nodes[56407080] = Rare({ -- review
+    id = 196165,
+    quest = nil,
+    note = L['gethdazr_note'],
+    rewards = {
+        DC.HighlandDrake.SpinedChin, DC.CliffsideWylderdrake.SpikedBack,
+        DC.HighlandDrake.StripedPattern, DC.WindborneVelocidrake.SpikedBack
+    },
+    pois = {
+        POI({58906690}) -- Great Horn of Imbu
+    }
+}) -- Gethdazr
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

@@ -199,6 +199,13 @@ You need to activate them to melt the ice wall (two players are recommended).
 Kill {npc:197183} inside and you will recieve {item:200528}.
 ]]
 
+L['gethdazr_note'] = [[
+Spawns as part of an event involving {npc:191143} that starts by blowing the {object:Great Horn of Imbu}.
+The Horn will only become clickable after killing the {npc:196155} attacking it, and has a cooldown/respawn of around an hour.
+{npc:191143} and other NPCs will then fight their way from the north east entrance of {location:Imbu}, first heading south and then west to reach the south west corner, at which point {npc:196165} will spawn.
+The NPCs can die without help, ending the event early and failing to spawn the rare.
+]] -- taken straight from wowhead comments, might need some changes.
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
