@@ -7,13 +7,13 @@ if not L then return end
 ----------------------------------- DRUSTVAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_sarco_note'] = 'Ouvrir le Sarcophage ancien fera apparaître des vagues de {npc:128181}.'
-L['beshol_note'] = 'Ouvrez le Coffre manifestement sûr pour invoquer le rare.'
-L['cottontail_matron_note'] = 'Examinez le Crâne de bête rituel pour invoquer le rare.'
+L['ancient_sarco_note'] = 'Ouvrir le {object:Sarcophage ancien} fera apparaître des vagues de {npc:128181}.'
+L['beshol_note'] = 'Ouvrez le {object:Coffre manifestement sûr} pour invoquer le rare.'
+L['cottontail_matron_note'] = 'Examinez le {object:Crâne de bête rituel} pour invoquer le rare.'
 L['gluttonous_yeti_note'] = 'Cette {npc:127979} est condamnée...'
 L['idej_note'] = 'Interrompez son incantation d\'{spell:274005} ou il risque de tuer {npc:139380} !'
-L['seething_cache_note'] = 'Ouvrir la Cache bouillonnante fera apparaître des vagues de {npc:129031}.'
-L['the_caterer_note'] = 'Examinez la Pièce montée gâchée pour l\'activer.'
+L['seething_cache_note'] = 'Ouvrir la {object:Cache bouillonnante} fera apparaître des vagues de {npc:129031}.'
+L['the_caterer_note'] = 'Examinez la {object:Pièce montée gâchée} pour l\'activer.'
 L['vicemaul_note'] = 'Cliquez sur la {npc:127652} pour remonter le rare.'
 
 L['merchants_chest_note'] = 'Tuez le {npc:137468} proche tenant un trousseau de clés pour obtenir la {item:163710}.'
@@ -40,20 +40,20 @@ L['fizzie_spark_note'] = 'Vous croyez vraiment que vos familiers ont la moindre 
 L['michael_skarn_note'] = 'Souvenez-vous juste qu\'au moment où nous entamons cette bataille, vous l\'avez voulu.'
 
 L['drust_facts_note'] = 'Lisez toutes les stèles pour obtenir le haut-fait.'
-L['stele_forest_note'] = 'Dans la Tanière d\'Ulfar.'
+L['stele_forest_note'] = 'Dans la {location:Tanière d\'Ulfar}.'
 L['options_icons_drust_facts_desc'] = 'Afficher les emplacements des stèles pour le haut-fait {achievement:13064}.'
 L['options_icons_drust_facts'] = '{achievement:13064}'
 
-L['embers_crossbow_note'] = 'Récupérez la {item:163749} sur le sol entre deux arbres, puis ramenez-la aux ruines de Gol Var.'
-L['embers_flask_note'] = 'Récupérez la {item:163746} dans l\'eau entre deux rochers, puis ramenez-la aux ruines de Gol Var.'
-L['embers_hat_note'] = 'Récupérez le {item:163748} dans le tas d\'ossements, puis ramenez-le aux ruines de Gol Var.'
-L['embers_knife_note'] = 'Retirez le {item:163747} du tronc de l\'arbre, puis ramenez-le aux ruines de Gol Var.'
-L['embers_golvar_note'] = 'Ramenez chaque relique aux ruines de Gol Var pour obtenir le haut-fait.'
+L['embers_crossbow_note'] = 'Récupérez la {item:163749} sur le sol entre deux arbres, puis ramenez-la aux {location:Ruines de Gol Var}.'
+L['embers_flask_note'] = 'Récupérez la {item:163746} dans l\'eau entre deux rochers, puis ramenez-la aux {location:Ruines de Gol Var}.'
+L['embers_hat_note'] = 'Récupérez le {item:163748} dans le tas d\'ossements, puis ramenez-le aux {location:Ruines de Gol Var}.'
+L['embers_knife_note'] = 'Retirez le {item:163747} du tronc de l\'arbre, puis ramenez-le aux {location:Ruines de Gol Var}.'
+L['embers_golvar_note'] = 'Ramenez chaque relique aux {location:Ruines de Gol Var} pour obtenir le haut-fait.'
 L['golvar_ruins'] = 'Ruines de Gol Var'
 L['options_icons_ember_relics_desc'] = 'Afficher les emplacements des reliques pour le haut-fait {achievement:13082}.'
 L['options_icons_ember_relics'] = '{achievement:13082}'
 
-L['linda_deepwater_note'] = 'Pour y avoir accès, vous devez compléter la suite de quêtes de {npc:136458} à l\'extérieur de Port-Banal.'
+L['linda_deepwater_note'] = 'Pour y avoir accès, vous devez compléter la suite de quêtes de {npc:136458} à l\'extérieur de {location:Port-Banal}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- MECHAGON ----------------------------------
@@ -62,13 +62,13 @@ L['linda_deepwater_note'] = 'Pour y avoir accès, vous devez compléter la suite
 L['avenger_note'] = 'Quand {npc:155254} est à Mécarouille, tuez le {npc:151159} (qui court partout dans la zone) pour qu\'il apparaisse.'
 L['beastbot_note'] = 'Fabriquez un {item:168045} auprès de {npc:150359} pour activer ce rare.'
 L['cogstar_note'] = 'Tuez des {npc:150667} n\'importe où dans la zone jusqu\'à ce qu\'il se téléporte pour les renforcer.'
-L['crazed_trogg_note'] = 'Utilisez un pulvérobot, une poche remplie de peinture ou bien les robots de la Casse de Bondo pour vous enduire de la couleur qu\'il crie.'
+L['crazed_trogg_note'] = 'Utilisez un pulvérobot, une poche remplie de peinture ou bien les robots de la {location:Casse de Bondo} pour vous enduire de la couleur qu\'il crie.'
 L['deepwater_note'] = 'Fabriquez un {item:167649} auprès de {npc:150359} pour invoquer ce rare.'
 L['doppel_note'] = 'Avec deux autres joueurs, utilisez une {item:169470} provenant de {daily:56405} pour l\'activer.'
 L['foul_manifest_note'] = 'Connectez les trois disjoncteurs aux pylônes dans l\'eau.'
 L['furor_note'] = 'Pendant {daily:55463}, cliquez sur les petits champignons bleus jusqu\'à ce qu\'il apparaisse.'
 L['killsaw_note'] = 'Apparaît n\'importe où dans la Forêt Déclinante, probablement après avoir tué des {npc:151871}. Il n\'apparaît pas les jours où la KapitalRisk est dans la forêt et où les Déboiseurs ne sont pas disponibles.'
-L['leachbeast_note'] = 'Partage son apparition avec les {npc:151745} dans le Dépôt Tolawatt, qui n\'apparaissent que lorsque il pleut dans la zone. Utilisez une {item:168961} pour activer la Machine à changement climatique.'
+L['leachbeast_note'] = 'Partage son apparition avec les {npc:151745} dans le {location:Dépôt Tolawatt}, qui n\'apparaissent que lorsque il pleut dans la zone. Utilisez une {item:168961} pour activer la {object:Machine à changement climatique}.'
 L['nullifier_note'] = [[
 Piratez le {npc:152174} en utilisant soit :
 
@@ -78,16 +78,16 @@ Piratez le {npc:152174} en utilisant soit :
 ]]
 L['scrapclaw_note'] = 'Au large de la côte, dans l\'eau.'
 L['sparkqueen_note'] = 'Apparaît seulement quand la quête journalière {daily:55765} est active.'
-L['rusty_note'] = 'Fabriquez un {item:169114} auprès de {npc:150359} pour entrer dans le futur alternatif. Apparaît uniquement lorsque {npc:153993} n\'est PAS présente à Mécarouille.'
-L['vaultbot_note'] = 'Attirez-le jusqu\'à la bobine de tesla à la Casse de Bondo ou fabriquez une {item:167062} auprès de {npc:150359} pour le forcer à s\'ouvrir.'
+L['rusty_note'] = 'Fabriquez un {item:169114} auprès de {npc:150359} pour entrer dans le futur alternatif. Apparaît uniquement lorsque {npc:153993} n\'est PAS présente à {location:Mécarouille}.'
+L['vaultbot_note'] = 'Attirez-le jusqu\'à la bobine de tesla à la {location:Casse de Bondo} ou fabriquez une {item:167062} auprès de {npc:150359} pour le forcer à s\'ouvrir.'
 
 L['iron_chest'] = 'Coffret des Lamineurs'
 L['mech_chest'] = 'Coffre mécanisé'
 L['msup_chest'] = 'Coffre de fournitures mécanisé'
 L['rust_chest'] = 'Vieux coffre rouillé'
-L['iron_chest_note'] = 'S\'ouvre avec une {item:169872} récupérée sur les monstres aux Embruns du couchant.'
-L['msup_chest_note'] = 'S\'ouvre avec une {item:169872} récupérée sur les monstres aux Embruns du couchant.'
-L['rust_chest_note'] = 'S\'ouvre avec une {item:169872} récupérée sur les monstres aux Embruns du couchant.'
+L['iron_chest_note'] = 'S\'ouvre avec une {item:169872} récupérée sur les monstres aux {location:Embruns du couchant}.'
+L['msup_chest_note'] = 'S\'ouvre avec une {item:169872} récupérée sur les monstres aux {location:Embruns du couchant}.'
+L['rust_chest_note'] = 'S\'ouvre avec une {item:169872} récupérée sur les monstres aux {location:Embruns du couchant}.'
 
 L['rec_rig_note'] = 'Pour activer le mode difficile, utilisez l\'arme {spell:292352} pour convertir tous les {npc:150825s} en {npc:151049s}. Les mascottes peuvent être obtenues dans les deux difficultés.'
 
@@ -100,7 +100,7 @@ L['options_icons_mech_buffs_desc'] = 'Afficher les emplacements des robots grais
 L['options_icons_mech_chest'] = 'Coffres mécanisés'
 L['options_icons_mech_chest_desc'] = 'Afficher les emplacements des coffres mécanisés. Il y a 10 coffres uniques qui peuvent être pillés une fois par jour et chaque coffre possède 4 à 5 emplacements d\'apparition. Les emplacements sont regroupés par couleur.'
 L['options_icons_locked_chest'] = 'Coffres verrouillés'
-L['options_icons_locked_chest_desc'] = 'Afficher les emplacements des coffres verrouillés aux Embruns du couchant.'
+L['options_icons_locked_chest_desc'] = 'Afficher les emplacements des coffres verrouillés aux {location:Embruns du couchant}.'
 L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = 'Afficher l\'emplacement de la {npc:150448} et ses récompenses.'
 
@@ -112,7 +112,7 @@ L['mechagon_explode_note'] = '{note:Attention, il peut {spell:90096}, ce qui le 
 ----------------------------------- NAZJATAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['naz_intro_note'] = 'Terminez la suite de quêtes d\'introduction pour débloquer les rares, les trésors et les expéditions à Nazjatar.'
+L['naz_intro_note'] = 'Terminez la suite de quêtes d\'introduction pour débloquer les rares, les trésors et les expéditions à {location:Nazjatar}.'
 
 L['alga_note'] = 'ATTENTION : dissimulé avec quatre autres monstres !'
 L['allseer_note'] = 'Apparaît n\'importe où dans la partie inférieure de Kal\'methir.'
@@ -125,17 +125,17 @@ L['glimmershell_note'] = 'Il y a une faible chance qu\'il apparaisse à la place
 L['kelpwillow_note'] = 'Amenez une {npc:154725} en utilisant un {item:167893} pour l\'activer.'
 L['lasher_note'] = 'Plantez une {item:166888} dans le sol et nourrissez-le de mouches.'
 L['matriarch_note'] = 'Partage un délai de réapparition avec les deux autres Matriarches des écailles.'
-L['needle_note'] = 'Apparaît généralement dans la zone des Portes de la Reine.'
+L['needle_note'] = 'Apparaît généralement dans la zone des {location:Portes de la Reine}.'
 L['oronu_note'] = 'Invoquez la mascotte {npc:154849} pour l\'activer.'
 L['rockweed_note'] = 'Tuez des {npc:152549} et {npc:151166} dans toute la zone jusqu\'à ce qu\'il apparaisse. Un groupe de raid est recommandé car cela peut être un grind assez long.'
 L['sandcastle_note'] = 'Utilisez une {item:167077} pour révéler des coffres partout dans la zone jusqu\'à ce qu\'il apparaisse.'
 L['tidelord_note'] = 'Tuez les trois {npc:145326} et la {npc:153999} invoquée jusqu\'à ce que le Seigneur-marées soit invoqué.'
-L['tidemistress_note'] = 'Cliquez sur les œufs de Spécimens tranquilles jusqu\'à ce qu\'elle apparaisse.'
+L['tidemistress_note'] = 'Cliquez sur les {object:Œufs de Spécimens tranquilles} jusqu\'à ce qu\'elle apparaisse.'
 L['urduu_note'] = 'Tuez un {npc:152563} devant lui pour l\'activer.'
 L['voice_deeps_notes'] = 'Utilise une {item:168161} pour casser les rochers.'
 L['vorkoth_note'] = 'Jettez des {item:167059} dans le banc de poissons vert jusqu\'à ce qu\'il apparaisse.'
 L['area_spawn'] = 'Apparaît dans la zone alentour.'
-L['cora_spawn'] = 'Apparaît n\'importe où dans la Forêt de Corail.'
+L['cora_spawn'] = 'Apparaît n\'importe où dans la {location:Forêt de Corail}.'
 L['cave_spawn'] = 'Apparaît dans une grotte.'
 L['east_spawn'] = 'Apparaît n\'importe où dans la moitié est de la zone.'
 L['ucav_spawn'] = 'Apparaît dans une grotte sous-marine.'
@@ -151,14 +151,14 @@ L['arcane_chest_03'] = 'Au deuxième niveau.'
 L['arcane_chest_04'] = 'Dans l\'eau au-dessus de la chute d\'eau.'
 L['arcane_chest_05'] = 'Dans les ruines.'
 L['arcane_chest_06'] = '' -- in the open
-L['arcane_chest_07'] = 'Au fond d\'une grotte. L\'entrée se trouve au Reflux des Zanj’ir à l\'est.'
+L['arcane_chest_07'] = 'Au fond d\'une grotte. L\'entrée se trouve au {location:Reflux des Zanj’ir} à l\'est.'
 L['arcane_chest_08'] = 'Caché sous des étoiles de mer.'
 L['arcane_chest_09'] = 'Dans une grotte derrière le {npc:154914}.'
 L['arcane_chest_10'] = 'Sous une exuvie.'
 L['arcane_chest_11'] = 'Au sommet de la colline.'
 L['arcane_chest_12'] = 'Au sommet de la chute d\'eau.'
 L['arcane_chest_13'] = 'En haut de la falaise, derrière un arbre.'
-L['arcane_chest_14'] = 'À l\'intérieur du Temple d\'Elun\'alor.'
+L['arcane_chest_14'] = 'À l\'intérieur du {location:Temple d\'Elun\'alor}.'
 L['arcane_chest_15'] = 'Dans la partie droite du bâtiment.'
 L['arcane_chest_16'] = 'Dans une grotte sous-marine. L\'entrée est au sud.'
 L['arcane_chest_17'] = 'Au sommet de la chute d\'eau.'
@@ -190,7 +190,7 @@ L['cat_figurine_02'] = 'Dans une grotte sous la chute d\'eau voisine. La figurin
 L['cat_figurine_03'] = 'Dans une grotte sous-marine. La figurine est cachée sous des coquillages brisés.'
 L['cat_figurine_04'] = 'Dans une grotte sous-marine. La figurine est sur le sol, à l\'air libre.'
 L['cat_figurine_05'] = 'Dans une petite grotte. La figurine est cachée derrière une plante sur le sol.'
-L['cat_figurine_06'] = 'Dans une grotte sous-marine remplie de Marcheur des récifs hostiles. La figurine est sur le mur. L\'entrée est au nord.'
+L['cat_figurine_06'] = 'Dans une grotte sous-marine remplie de Marcheurs des Récifs hostiles. La figurine est sur le mur. L\'entrée est au nord.'
 L['cat_figurine_07'] = 'Dans une petite grotte. La figurine est sur le mur dans du corail.'
 L['cat_figurine_08'] = 'Dans une petite grotte. Esquive les cercles arcaniques. La figurine est sur un grand rocher au fond.'
 L['cat_figurine_09'] = 'Dans une grotte sous-marine. La figurine est sur la voûte rocheuse près du plafond.'
@@ -235,12 +235,12 @@ L['options_icons_fabious_desc'] = 'Afficher les emplacements possibles de {npc:6
 ------------------------------------ NAZMIR -----------------------------------
 -------------------------------------------------------------------------------
 
-L['captain_mukala_note'] = 'Essayez de piller le Coffre maudit pour invoquer le capitaine.'
+L['captain_mukala_note'] = 'Essayez de piller le {object:Coffre maudit} pour invoquer le capitaine.'
 L['enraged_water_note'] = 'Examinez le {npc:134295} pour invoquer l\'élémentaire.'
 L['lucille_note'] = 'Parlez à {npc:134297} pour invoquer le rare.'
 L['offering_to_bwonsamdi_note'] = 'Courez sur l\'arbre voisin et sautez dans la structure brisée.'
 L['shambling_ambusher_note'] = 'Essayez de piller le {npc:124473} pour activer le rare.'
-L['zaamar_note'] = 'Dans les Catacombes de la Nécropole, l\'entrée est au sud.'
+L['zaamar_note'] = 'Dans les {location:Catacombes de la Nécropole}, l\'entrée est au sud.'
 
 L['grady_prett_note'] = 'C’est l’heure de se jeter au cœur du combat ! Allons-y !'
 L['korval_dark_note'] = 'Cet endroit me file les jetons, terminons-en au plus vite.'
@@ -273,7 +273,7 @@ L['options_icons_hoppin_sad_desc'] = 'Afficher les emplacements des {npc:143317}
 
 L['in_basement'] = 'Au sous-sol.'
 L['jakala_note'] = 'Parlez au {npc:140925}.'
-L['nestmother_acada_note'] = 'Inspectez le Nid d’Acada pour faire apparaître le rare.'
+L['nestmother_acada_note'] = 'Inspectez le {object:Nid d’Acada} pour faire apparaître le rare.'
 L['sabertron_note'] = 'Tuez le {npc:139334} pour activer un des {npc:139328s}.'
 L['whiplash_note'] = 'Apparaît uniquement lorsque l\'expédition {wq:Kravash} est active.'
 
@@ -294,63 +294,63 @@ L['eddie_fixit_note'] = 'Préparez-vous à affronter mon équipe imbattable de r
 L['ellie_vern_note'] = 'J’ai trouvé la plus impitoyable des créatures marines pour compléter mon équipe. Vous n’avez pas la moindre chance !'
 L['leana_darkwind_note'] = 'Avec toutes les créatures étranges qui rôdent sur cette île, le combat promet d’être des plus surprenants.'
 
-L['honeyback_harvester_note'] = 'Parlez à la {npc:155193} pour commencer l\'événement. Le Dépôt de gelée fraîche peut être pillé une fois par heure et se réinitialise à heure fixe.'
+L['honeyback_harvester_note'] = 'Parlez à la {npc:155193} pour commencer l\'événement. Le {object:Dépôt de gelée fraîche} peut être pillé une fois par heure et se réinitialise à heure fixe.'
 L['options_icons_honeybacks'] = '{npc:155193}'
-L['options_icons_honeybacks_desc'] = 'Afficher les emplacements d\'événements des {npc:155193} pour le farming de la réputation de l\'Essaim Dos-de-Miel.'
+L['options_icons_honeybacks_desc'] = 'Afficher les emplacements d\'événements des {npc:155193} pour le farming de la réputation de l\'{faction:2395}.'
 
 L['lets_bee_friends_note'] = 'Terminez {daily:53371} sept fois pour obtenir le haut-fait et la mascotte. Pour débloquer la quête journalière :'
-L['lets_bee_friends_step_1'] = 'Complétez la suite de quêtes de l\'Hydromellerie Mildenhall se terminant par {quest:50553}.'
-L['lets_bee_friends_step_2'] = 'Tuez des {npc:133429} et {npc:131663} à l\'Hydromellerie Mildenhall jusqu\'à ce que vous trouviez une {item:163699}.'
-L['lets_bee_friends_step_3'] = 'Amenez l\'{item:163699} à {npc:143128} à Boralus.'
-L['lets_bee_friends_step_4'] = 'Apportez la {item:163702} à {npc:133907} à l\'Hydromellerie Mildenhall.'
+L['lets_bee_friends_step_1'] = 'Complétez la suite de quêtes de l\'{location:Hydromellerie Mildenhall} se terminant par {quest:50553}.'
+L['lets_bee_friends_step_2'] = 'Tuez des {npc:133429} et {npc:131663} à l\'{location:Hydromellerie Mildenhall} jusqu\'à ce que vous trouviez une {item:163699}.'
+L['lets_bee_friends_step_3'] = 'Amenez l\'{item:163699} à {npc:143128} à {location:Boralus}.'
+L['lets_bee_friends_step_4'] = 'Apportez la {item:163702} à {npc:133907} à l\'{location:Hydromellerie Mildenhall}.'
 L['lets_bee_friends_step_5'] = 'Complétez {quest:53347} pour {npc:133907}.'
 
-local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} à Brennadam' or '{npc:138096} au Camp Croc-de-Guerre'
-L['these_hills_sing_note'] = 'Ouvrez {item:160485} ici. Achetez-en un à ' .. luncheon .. ' ou récupérez-en un dans le trésor "Boîte à repas abandonnée" à Brennadam.'
+local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} à {location:Brennadam}' or '{npc:138096} au {location:Camp Croc-de-Guerre}'
+L['these_hills_sing_note'] = 'Ouvrez {item:160485} ici. Achetez-en un à ' .. luncheon .. ' ou récupérez-en un dans le trésor {object:Boîte à repas abandonnée} à {location:Brennadam}.'
 
 L['ancient_tidesage_scroll'] = 'Parchemin d’eaugure ancien'
 L['ancient_tidesage_scroll_note'] = 'Lisez les 8 Parchemins d’eaugures anciens pour obtenir le haut-fait.'
 L['options_icons_tidesage_legends'] = '{achievement:13051}'
 L['options_icons_tidesage_legends_desc'] = 'Afficher les emplacements des parchemins anciens pour le haut-fait {achievement:13051}.'
 
-L['long_forgotten_rum_note'] = 'Pour entrer dans la grotte, La quête {quest:50697} donnée par {npc:134710} au Reflux mort doit être complétée. Également vendu par {npc:137040} à Drustvar.'
+L['long_forgotten_rum_note'] = 'Pour entrer dans la grotte, La quête {quest:50697} donnée par {npc:134710} au {location:Reflux mort} doit être complétée. Également vendu par {npc:137040} à {location:Drustvar}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
 -------------------------------------------------------------------------------
 
 L['honey_slitherer_note'] = 'Parlez à {npc:137176} pour invoquer le rare.'
-L['tempestria_note'] = 'Inspectez le Tas de viande suspect pour invoquer le rare.'
-L['twin_hearted_note'] = 'Perturbez l\'Effigie rituelle pour activer l\'assemblage.'
-L['wintersail_note'] = 'Détruisez la Cache de contrebandier pour invoquer le capitaine.'
+L['tempestria_note'] = 'Inspectez le {object:Tas de viande suspect} pour invoquer le rare.'
+L['twin_hearted_note'] = 'Perturbez l\'{object:Effigie rituelle} pour activer l\'assemblage.'
+L['wintersail_note'] = 'Détruisez la {object:Cache de contrebandier} pour invoquer le capitaine.'
 
 L['hay_covered_chest_note'] = 'Chevauchez le {npc:130350} le long de la route jusqu\'à {npc:131453} pour faire apparaître le trésor.'
 L['pirate_treasure_note'] = [[
 Nécessite la carte au trésor correspondante.
 
-Les cartes sont récupérées sur tous les pirates de Kul Tiras. Port-Liberté (en version non-instanciée) est un bon endroit pour farm des pirates.
+Les cartes sont récupérées sur tous les pirates de {location:Kul Tiras}. {location:Port-Liberté} (en version non-instanciée) est un bon endroit pour farm des pirates.
 ]]
 
 local damp_note = '\n\nLisez les cinq parchemins pour avoir accès au trésor.'
 
 L['damp_scroll'] = 'Un parchemin humide'
-L['damp_scroll_note_1'] = 'L\'entrée est au Monastère Chantorage.' .. damp_note
+L['damp_scroll_note_1'] = 'L\'entrée est au {location:Monastère Chantorage}.' .. damp_note
 L['damp_scroll_note_2'] = 'Sur le sol dans un sous-sol derrière un {npc:136343}.' .. damp_note
 L['damp_scroll_note_3'] = 'Sur le sol à l\'étage à côté d\'un {npc:136343}.' .. damp_note
 L['damp_scroll_note_4'] = 'Par terre dans un sous-sol, à côté d\'un {npc:136343}.' .. damp_note
 L['damp_scroll_note_5'] = 'Dans un coin sous la promenade.' .. damp_note
 L['ominous_altar'] = 'Autel menaçant'
-L['ominous_altar_note'] = 'Parlez à l\'Autel menaçant pour être téléporté jusqu\'au trésor.'
-L['secret_of_the_depths_note'] = 'Lisez les cinq Parchemins humides, puis parlez à l\'Autel menaçant pour être téléporté au trésor.'
+L['ominous_altar_note'] = 'Parlez à l\'{object:Autel menaçant} pour être téléporté jusqu\'au trésor.'
+L['secret_of_the_depths_note'] = 'Lisez les cinq Parchemins humides, puis parlez à l\'{object:Autel menaçant} pour être téléporté au trésor.'
 
 L['burly_note'] = 'Ces petits gars sont peut-être étranges, mais ils sont plutôt costauds. Vous tenez vraiment à ce que le combat ait lieu ?'
 L['delia_hanako_note'] = 'Avant de commencer, je voulais juste vous rappeler de ne pas trop vous en vouloir quand mon équipe balayera la vôtre.'
 L['kwint_note'] = 'Une personne contre un requin, ça peut être un combat équilibré. Mais une personne contre trois ? C’est du délire.'
 
-L['shanty_fruit_note'] = 'Récupérez le Chansonnier poussiéreux, trouvé sur le sol d\'une petite grotte.'
-L['shanty_horse_note'] = 'Récupérez le Chansonnier de brigand, trouvé sur le bar de la taverne.'
-L['shanty_inebriation_note'] = 'Récupérez le Chansonnier de Jay, trouvé sur le sol derrière {npc:141066}.'
-L['shanty_lively_note'] = 'Récupérez le Chansonnier de Russel, trouvé sur la cheminée.'
+L['shanty_fruit_note'] = 'Récupérez le {object:Chansonnier poussiéreux}, trouvé sur le sol d\'une petite grotte.'
+L['shanty_horse_note'] = 'Récupérez le {object:Chansonnier de brigand}, trouvé sur le bar de la taverne.'
+L['shanty_inebriation_note'] = 'Récupérez le {object:Chansonnier de Jay}, trouvé sur le sol derrière {npc:141066}.'
+L['shanty_lively_note'] = 'Récupérez le {object:Chansonnier de Russel}, trouvé sur la cheminée.'
 L['options_icons_shanty_raid'] = '{achievement:13057}'
 L['options_icons_shanty_raid_desc'] = 'Afficher les emplacements des chants de marins pour le haut-fait {achievement:13057}.'
 
@@ -370,27 +370,27 @@ L['options_icons_upright_citizens_desc'] = 'Afficher les emplacements des PNJ po
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
-L['uldum_intro_note'] = 'Terminez la suite de quêtes d\'introduction pour débloquer les rares, les trésors et les quêtes d\'assaut à Uldum.'
+L['uldum_intro_note'] = 'Terminez la suite de quêtes d\'introduction pour débloquer les rares, les trésors et les quêtes d\'assaut à {location:Uldum}.'
 
 L['aqir_flayer'] = 'Partage son apparition avec les {npc:163114} et les {npc:154365}.'
 L['aqir_titanus'] = 'Partage son apparition avec les {npc:154353}.'
 L['aqir_warcaster'] = 'Partage son apparition avec les {npc:154352}.'
 L['atekhramun'] = 'Écrasez des {npc:152765} à proximité jusqu\'à ce qu\'il apparaisse.'
-L['chamber_of_the_moon'] = 'Sous terre, dans la Chambre de la Lune.'
-L['chamber_of_the_stars'] = 'Sous terre, dans la Chambre des Étoiles.'
-L['chamber_of_the_sun'] = 'A l\'intérieur de la Chambre du Soleil.'
-L['dunewalker'] = 'Cliquez sur l\'Essence du soleil sur la plateforme au-dessus pour le libérer.'
+L['chamber_of_the_moon'] = 'Sous terre, dans la {location:Chambre de la Lune}.'
+L['chamber_of_the_stars'] = 'Sous terre, dans la {location:Chambre des Étoiles}.'
+L['chamber_of_the_sun'] = 'A l\'intérieur de la {location:Chambre du Soleil}.'
+L['dunewalker'] = 'Cliquez sur l\'{object:Essence du soleil} sur la plateforme au-dessus pour le libérer.'
 L['friendly_alpaca'] = 'Nourrissez l\'alpaga avec des {item:174858} sept fois pour l\'obtenir en tant que monture. Apparaît pendant 10 minutes à un endroit, puis réapparaît longtemps après.'
 L['gaze_of_nzoth'] = 'Partage son apparition avec les {npc:156890}.'
 L['gersahl_note'] = 'Donnez-les à l\'{npc:162765} sept fois pour obtenir une monture. Ne nécessite pas d\'être Herboriste.'
 L['hmiasma'] = 'Nourrissez-le avec les limons à proximité jusqu\'à ce qu\'il devienne actif.'
-L['kanebti'] = 'Récupérez une {item:168160} sur un {npc:152427}, qui partage son apparition avec des {npc:151859} ordinaires. Insérez la figurine dans l\'Autel du Scarabée pour invoquer le rare.'
-L['neferset_rare'] = 'Ces six rares partagent les trois mêmes lieux d\'apparition à Neferset. Après avoir accompli un certain nombre d\'évènements de Rituels d’Invocation, trois d\'entre eux apparaîtront au hasard.'
+L['kanebti'] = 'Récupérez une {item:168160} sur un {npc:152427}, qui partage son apparition avec des {npc:151859} ordinaires. Insérez la figurine dans l\'{object:Autel du Scarabée} pour invoquer le rare.'
+L['neferset_rare'] = 'Ces six rares partagent les trois mêmes lieux d\'apparition à {location:Neferset}. Après avoir accompli un certain nombre d\'évènements de Rituels d’Invocation, trois d\'entre eux apparaîtront au hasard.'
 L['platform'] = 'Apparaît au sommet de la plate-forme flottante.'
 L['right_eye'] = 'Donne la moitié droite du jouet {item:175140}.'
 L['single_chest'] = 'Ce coffre n\'apparaît qu\'à un seul endroit ! S\'il n\'est pas là, attendez un peu et il réapparaîtra.'
 L['tomb_widow'] = 'Lorsque les sacs d\'œufs blancs sont présents près des piliers, tuez les araignées invisibles pour l\'invoquer.'
-L['uatka'] = 'Avec deux autres joueurs, cliquez sur chaque Mystérieux appareil. Requiert une {item:171208} provenant d\'un Reliquaire amathet.'
+L['uatka'] = 'Avec deux autres joueurs, cliquez sur chaque {object:Mystérieux appareils}. Requiert une {item:171208} provenant d\'un {object:Reliquaire amathet}.'
 L['wastewander'] = 'Partage son apparition avec les {npc:154369}.'
 
 L['amathet_cache'] = 'Cache des Amathet'
@@ -407,19 +407,19 @@ L['options_icons_coffers_desc'] = 'Afficher les emplacements des coffres verroui
 
 L['ambush_settlers'] = 'Battez des vagues de monstres jusqu\'à la fin de l\'événement.'
 L['burrowing_terrors'] = 'Sautez sur les {npc:162073s} pour les écraser.'
-L['call_of_void'] = 'Purifiez le Pylône rituel.'
+L['call_of_void'] = 'Purifiez le {object:Pylône rituel}.'
 L['combust_cocoon'] = 'Lancez les bombes incendiaires de fortune sur les cocons au plafond.'
 L['dormant_destroyer'] = 'Cliquez sur tous les cristaux des conduits du vide.'
-L['executor_nzoth'] = 'Tuez l\'{npc:157680}, puis détruisez l\'Ancre d\'exécuteur.'
+L['executor_nzoth'] = 'Tuez l\'{npc:157680}, puis détruisez l\'{object:Ancre d\'exécuteur}.'
 L['hardened_hive'] = 'Ramassez le {spell:317550} et brûlez tous les sacs d\'oeufs.'
 L['in_flames'] = 'Prenez des seaux d\'eau et éteignez les flammes.'
 L['monstrous_summon'] = 'Tuez chaque {npc:160914} pour arrêter l\'invocation.'
-L['obsidian_extract'] = 'Détruisez tous les cristaux d\'obsidienne formée par le vide.'
+L['obsidian_extract'] = 'Détruisez tous les cristaux d\'obsidienne formés par le vide.'
 L['purging_flames'] = 'Ramassez les corps et jetez-les dans le feu.'
 L['pyre_amalgamated'] = 'Nettoyez le bûcher, puis tuez tous les amalgames jusqu\'à ce que le rare apparaisse.'
 L['ritual_ascension'] = 'Tuez les {npc:152233s}.'
 L['solar_collector'] = 'Activez les cinq cellules de tous les côtés du collecteur. En cliquant sur une cellule, on active également toutes les cellules qui la touchent.'
-L['summoning_ritual'] = 'Tuez les acolytes puis fermez le portail d\'invocation. Après que l\'événement ait été accompli un certain nombre de fois, un ensemble de trois rares apparaîtra aux environs de Neferset.'
+L['summoning_ritual'] = 'Tuez les acolytes puis fermez le portail d\'invocation. Après que l\'événement ait été accompli un certain nombre de fois, un ensemble de trois rares apparaîtra aux environs de {location:Neferset}.'
 L['titanus_egg'] = 'Détruisez l\'{npc:163257}, puis battez le {npc:163268}.'
 L['unearthed_keeper'] = 'Détruisez le {npc:156849}.'
 L['virnall_front'] = 'Battez des vagues de monstres jusqu\'à ce que {npc:152163} apparaisse.'
@@ -436,16 +436,16 @@ L['unsealed_tomb'] = 'Protégez {npc:152439} des vagues de monstres.'
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
-L['vale_intro_note'] = 'Terminez la suite de quêtes d\'introduction pour débloquer les rares, les trésors et les quêtes d\'assaut au Val de l’Éternel printemps.'
+L['vale_intro_note'] = 'Terminez la suite de quêtes d\'introduction pour débloquer les rares, les trésors et les quêtes d\'assaut au {location:Val de l’Éternel printemps}.'
 
-L['big_blossom_mine'] = 'A l\'intérieur de la Mine du Grand Printemps. L\'entrée est au nord-est.'
-L['guolai'] = 'A l\'intérieur des Salles de Guo-Lai.'
-L['guolai_left'] = 'A l\'intérieur des Salles de Guo-Lai (passage à gauche).'
-L['guolai_center'] = 'A l\'intérieur des Salles de Guo-Lai (passage au centre).'
-L['guolai_right'] = 'A l\'intérieur des Salles de Guo-Lai (passage à droite).'
+L['big_blossom_mine'] = 'A l\'intérieur de la {location:Mine du Grand Printemps}. L\'entrée est au nord-est.'
+L['guolai'] = 'A l\'intérieur des {location:Salles de Guo-Lai}.'
+L['guolai_left'] = 'A l\'intérieur des {location:Salles de Guo-Lai} (passage à gauche).'
+L['guolai_center'] = 'A l\'intérieur des {location:Salles de Guo-Lai} (passage au centre).'
+L['guolai_right'] = 'A l\'intérieur des {location:Salles de Guo-Lai} (passage à droite).'
 L['left_eye'] = 'Donne la moitié gauche du jouet {item:175140}.'
-L['pools_of_power'] = 'À l\'intérieur des Bassins du Pouvoir. L\'Entrée se situe à La Pagode dorée.'
-L['tisiphon'] = 'Cliquez sur la Canne à pêche porte-bonheur de Danielle.'
+L['pools_of_power'] = 'À l\'intérieur des {location:Bassins du Pouvoir}. L\'Entrée se situe à {location:La Pagode dorée}.'
+L['tisiphon'] = 'Cliquez sur la {object:Canne à pêche porte-bonheur de Danielle}.'
 
 L['ambered_cache'] = 'Cache ambrée'
 L['ambered_coffer'] = 'Coffre ambré'
@@ -468,7 +468,7 @@ L['infested_statue'] = 'Retirez tous les yeux frémissants de la statue.'
 L['kunchong_incubator'] = 'Détruisez tous les générateurs de champs.'
 L['mantid_hatch'] = 'Ramassez le {spell:305301} et détruisez les incubateurs de larves.'
 L['mending_monstro'] = 'Détruisez tous les cristaux d\'{npc:157552}.'
-L['mystery_sacro'] = 'Détruisez toutes les pierres tombales suspectes, puis tuez l\'{npc:157298}.'
+L['mystery_sacro'] = 'Détruisez toutes les {object:Pierres tombales suspectes}, puis tuez l\'{npc:157298}.'
 L['noodle_cart'] = 'Défendez {npc:157615} pendant qu\'il répare son chariot.'
 L['protect_stout'] = 'Protégez la grotte des vagues de monstres.'
 L['pulse_mound'] = 'Tuez les monstres proches, puis l\'{npc:157529}.'
@@ -478,9 +478,9 @@ L['serpent_binding'] = 'Tuez les {npc:157345s}, puis {npc:157341}.'
 L['stormchosen_arena'] = 'Éliminez tous les monstres dans l\'arène, puis tuez le Général du Clan.'
 L['swarm_caller'] = 'Détruisez le pylône {npc:157719}.'
 L['vault_of_souls'] = 'Ouvrez le caveau et détruisez toutes les statues.'
-L['void_conduit'] = 'Cliquez sur le Conduit du Vide et écrasez les yeux à l\'affût.'
+L['void_conduit'] = 'Cliquez sur le {object:Conduit du Vide} et écrasez les yeux à l\'affût.'
 L['war_banner'] = 'Brûlez les bannières et tuez des vagues de monstres jusqu\'à ce que le commandant apparaisse.'
-L['weighted_artifact'] = 'Ramassez le Vase Étonnamment Lourd et naviguez dans le labyrinthe jusqu\'au piédestal. Être assommé par une statue fait tomber le vase.'
+L['weighted_artifact'] = 'Ramassez le {object:Vase Étonnamment Lourd} et naviguez dans le labyrinthe jusqu\'au piédestal. Être assommé par une statue fait tomber le vase.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- VISIONS -----------------------------------
@@ -570,9 +570,9 @@ L['zunashi_note'] = 'L\'entrée est au nord, dans la bouche d\'un grand crâne.'
 
 L['ashvane_spoils_note'] = 'Descendez la colline avec le {npc:132662} pour faire apparaître le trésor en bas.'
 L['excavators_greed_note'] = 'A l\'intérieur d\'un tunnel effondré.'
-L['grayals_offering_note'] = 'Après avoir terminé {quest:50702}, entrez dans Atul\'Aman et cliquez sur l\'Ancien autel pour faire apparaître le trésor.'
-L['kimbul_offerings_note'] = 'Sur la colline au-dessus du Temple de Kimbul.'
-L['sandsunken_note'] = 'Cliquez sur le Flotteur abandonné pour sortir le trésor du sable.'
+L['grayals_offering_note'] = 'Après avoir terminé {quest:50702}, entrez dans {location:Atul\'Aman} et cliquez sur l\'{object:Ancien autel} pour faire apparaître le trésor.'
+L['kimbul_offerings_note'] = 'Sur la colline au-dessus du {location:Temple de Kimbul}.'
+L['sandsunken_note'] = 'Cliquez sur le {object:Flotteur abandonné} pour sortir le trésor du sable.'
 
 L['keeyo_note'] = 'C’est parti pour la grande aventure !'
 L['kusa_note'] = 'J’enchaîne les victoires en ce moment, vous n’avez aucune chance contre moi et mon équipe !'
@@ -600,7 +600,7 @@ L['elusive_alpaca'] = 'Donnez le {item:161128} au {npc:162681} pour l\'obtenir e
 ---------------------------------- WARFRONTS ----------------------------------
 -------------------------------------------------------------------------------
 
-L['boulderfist_outpost'] = 'À l\'intérieur de l\'Avant-poste Rochepoing (une grande caverne). L\'entrée est au nord-est.'
+L['boulderfist_outpost'] = 'À l\'intérieur de l\'{location:Avant-poste Rochepoing} (une grande caverne). L\'entrée est au nord-est.'
 L['burning_goliath_note'] = 'Une fois vaincu, un {npc:141663} apparaîtra près de l\'{npc:141668}.'
 L['cresting_goliath_note'] = 'Une fois vaincu, un {npc:141663} apparaîtra près de l\'{npc:141668}.'
 L['rumbling_goliath_note'] = 'Une fois vaincu, un {npc:141663} apparaîtra près de l\'{npc:141668}.'
@@ -619,7 +619,7 @@ L['cache_of_secrets_note'] = 'Détenu par un {npc:137234} dans une grotte derri�
 L['da_white_shark_note'] = 'Restez près de {npc:133208} jusqu\'à ce qu\'elle devienne hostile.'
 L['dazars_forgotten_chest_note'] = 'Le chemin commence près d\'{npc:134738}.'
 L['gift_of_the_brokenhearted_note'] = 'Placez l\'encens pour faire apparaître le coffre.'
-L['offerings_of_the_chosen_note'] = 'Au deuxième niveau de Zanchul.'
+L['offerings_of_the_chosen_note'] = 'Au deuxième niveau de {location:Zanchul}.'
 L['riches_of_tornowa_note'] = 'Sur le côté d\'une falaise.'
 L['spoils_of_pandaria_note'] = 'Sur le pont le plus bas du navire.'
 L['tiny_voodoo_mask_note'] = 'Posé sur la hutte au-dessus d\'{npc:141617}.'
@@ -630,15 +630,15 @@ L['talia_spark_note'] = 'Les créatures de cette région sont féroces. J’esp�
 L['zujai_note'] = 'Vous venez m’affronter sur mon propre territoire ? Je vous souhaite bonne chance.'
 
 L['kuafon_note'] = [[
-Récupérez un {item:157782} sur n'importe quel Pterreurdactyle de Zandalar pour commencer la suite de quêtes. Certaines quêtes prendront plusieurs jours pour être complétées.
+Récupérez un {item:157782} sur n'importe quel Pterreurdactyle de {location:Zandalar} pour commencer la suite de quêtes. Certaines quêtes prendront plusieurs jours pour être complétées.
 
-Les meilleurs monstres à farmer sont les {npc:126618} à Zanchul ou bien les {npc:122113} à l\'Aire des Fend-les-Cieux au sud de Tal’gurub.
+Les meilleurs monstres à farmer sont les {npc:126618} à {location:Zanchul} ou bien les {npc:122113} à l\'{location:Aire des Fend-les-Cieux} au sud de {location:Tal’gurub}.
 ]]
-L['torcali_note'] = 'Accomplissez les quêtes au Kraal des Bêtes de guerre jusqu\'à ce que {quest:47261} devienne disponible. Certaines quêtes prendront plusieurs jours pour être complétées.'
+L['torcali_note'] = 'Accomplissez les quêtes au {location:Kraal des Bêtes de guerre} jusqu\'à ce que {quest:47261} devienne disponible. Certaines quêtes prendront plusieurs jours pour être complétées.'
 
-L['totem_of_paku_note'] = 'Parlez à la {npc:137510} au nord du Grand Sceau pour choisir Pa\'ku comme votre loa à Zuldazar.'
+L['totem_of_paku_note'] = 'Parlez à la {npc:137510} au nord du {location:Grand Sceau} pour choisir Pa\'ku comme votre loa à {location:Zuldazar}.'
 L['options_icons_paku_totems'] = 'Totems de Pa\'ku'
-L['options_icons_paku_totems_desc'] = 'Afficher les emplacements des {npc:131154} et leurs trajectoires à Dazar\'alor.'
+L['options_icons_paku_totems_desc'] = 'Afficher les emplacements des {npc:131154} et leurs trajectoires à {location:Dazar\'alor}.'
 
 L['tales_gonk_note'] = 'Posé sur la couverture.'
 L['tales_gral_note'] = 'Au pied de l\'arbre.'
@@ -659,17 +659,17 @@ L['options_icons_life_finds_a_way_desc'] = 'Afficher les emplacements des dinosa
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L['goramor_note'] = 'Achetez une {item:163563} à {npc:126833} et donnez-la en pâture à {npc:143644}. {npc:126833} se trouve dans une petite grotte près de la Terrasse des Chagrins.'
-L['makafon_note'] = 'Achetez un {item:163564} à {npc:124034} au Poste de Troc-Écailles et donnez-le en pâture à {npc:130922}.'
-L['stompy_note'] = 'Achetez une {item:163567} à {npc:133833} au nord de l\'Oasis Pépiflore et donnez-la en pâture au {npc:143332}.'
+L['goramor_note'] = 'Achetez une {item:163563} à {npc:126833} et donnez-la en pâture à {npc:143644}. {npc:126833} se trouve dans une petite grotte près de la {location:Terrasse des Chagrins}.'
+L['makafon_note'] = 'Achetez un {item:163564} à {npc:124034} au {location:Poste de Troc-Écailles} et donnez-le en pâture à {npc:130922}.'
+L['stompy_note'] = 'Achetez une {item:163567} à {npc:133833} au nord de l\'{location:Oasis Pépiflore} et donnez-la en pâture au {npc:143332}.'
 L['options_icons_brutosaurs'] = '{achievement:13029}'
 L['options_icons_brutosaurs_desc'] = 'Afficher les emplacements des brutosaures pour le haut-fait {achievement:13029}.'
 
 local hekd_note = '\n\nPour avoir accès à {npc:126334}, vous devez terminer %s.'
 if UnitFactionGroup('player') == 'Horde' then
-    hekd_note = hekd_note:format('{quest:47441} donnée par {npc:127665} à Dazar\'alor, suivie de {quest:47442} donnée par {npc:126334}')
+    hekd_note = hekd_note:format('{quest:47441} donnée par {npc:127665} à {location:Dazar\'alor}, suivie de {quest:47442} donnée par {npc:126334}')
 else
-    hekd_note = hekd_note:format('{quest:51142} donnée par {npc:136562} à Vol\'dun, suivie de {quest:51145} donnée par {npc:136559}')
+    hekd_note = hekd_note:format('{quest:51142} donnée par {npc:136562} à {location:Vol\'dun}, suivie de {quest:51145} donnée par {npc:136559}')
 end
 local hekd_quest = 'Terminez la quête %s de {npc:126334}.' .. ns.color.Orange(hekd_note)
 local hekd_item = 'Récupérez l\'objet %s sur le monstre %s près du tas de déchets et rapportez cet objet à {npc:126334}.' .. ns.color.Orange(hekd_note)
@@ -695,21 +695,21 @@ L['options_icons_mushroom_harvest_desc'] = 'Afficher les emplacements des affreu
 L['options_icons_tales_of_de_loa'] = '{achievement:13036}'
 L['options_icons_tales_of_de_loa_desc'] = 'Afficher les emplacements des tablettes pour le haut-fait {achievement:13036}.'
 
-L['jani_note'] = 'Cliquez sur le Tas de déchets mystérieux pour faire apparaître {npc:126334}.'
+L['jani_note'] = 'Cliquez sur le {object:Tas de déchets mystérieux} pour faire apparaître {npc:126334}.'
 L['rezan_note'] = '{note:A l\'intérieur du donjon {location:Atal\'Dazar}.}'
-L['bow_to_your_masters_note'] = 'Inclinez-vous devant le loa de Zandalar ({emote:incliner}).'
+L['bow_to_your_masters_note'] = 'Inclinez-vous devant le loa de {location:Zandalar} ({emote:incliner}).'
 L['options_icons_bow_to_your_masters'] = '{achievement:13020}'
 L['options_icons_bow_to_your_masters_desc'] = 'Afficher les emplacements des loas pour le haut-fait {achievement:13020}.'
 
-L['alisha_note'] = 'Ce vendeur nécessite de progresser dans les quêtes de Drustvar.'
-L['elijah_note'] = 'Ce vendeur nécessite de progresser dans les quêtes de Drustvar. Il commencera à vendre des saucisses après {quest:47945}.'
+L['alisha_note'] = 'Ce vendeur nécessite de progresser dans les quêtes de {location:Drustvar}.'
+L['elijah_note'] = 'Ce vendeur nécessite de progresser dans les quêtes de {location:Drustvar}. Il commencera à vendre des saucisses après {quest:47945}.'
 L['raal_note'] = '{note:Dans le donjon {location:Manoir Malvoie}.}'
 L['sausage_sampler_note'] = 'Mangez une saucisse de chaque type pour obtenir le haut-fait.'
 L['options_icons_sausage_sampler'] = '{achievement:13087}'
 L['options_icons_sausage_sampler_desc'] = 'Afficher les emplacements des vendeurs pour le haut-fait {achievement:13087}.'
 
 -- Pour la Horde, inclut une note sur les boissons qui doivent être achetées à l'AH.
-local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Les boissons suivantes ne sont pas disponibles pour la Horde et doivent être achetées à l'hôtel des ventes :
+local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Les boissons suivantes ne sont pas disponibles pour la Horde et doivent être achetées à l'{location:Hôtel des ventes} :
 
 • {item:163639}
 • {item:163638}
