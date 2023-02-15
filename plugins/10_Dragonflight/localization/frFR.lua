@@ -121,12 +121,12 @@ L['elemental_storm_mythressa_note_end'] = 'Vous avez actuellement %s {currency:2
 L['options_icons_elemental_storm'] = 'Tempêtes élémentaires'
 L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les Tempêtes élementaires.'
 
-L['grand_hunts_label'] = nil
-L['longhunter_suffix'] = nil
-L['the_best_at_what_i_do_suffix'] = nil
+L['grand_hunts_label'] = 'Grande Chasse'
+L['longhunter_suffix'] = 'étapes de chasse terminées'
+L['the_best_at_what_i_do_suffix'] = 'boss tués'
 
-L['options_icons_grand_hunts'] = nil
-L['options_icons_grand_hunts_desc'] = nil
+L['options_icons_grand_hunts'] = 'Grandes Chasses'
+L['options_icons_grand_hunts_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Grandes Chasses}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -207,11 +207,16 @@ Vous devez les activer pour faire fondre le mur de glace (deux joueurs sont reco
 Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 ]]
 
-L['gethdazr_note'] = nil
+L['gethdazr_note'] = [[
+Apparaît lors d'un événement impliquant {npc:191143} qui commence en soufflant dans la {object:Grande corne d’Imbou}.
+La Corne ne devient cliquable qu'après avoir tué l'{npc:196155} qui l'attaque, et a un temps de recharge/réapparition d'environ une heure.
+{npc:191143} et d'autres PNJ se frayeront un chemin depuis l'entrée nord-est d'{location:Imbou}, d'abord vers le sud puis vers l'ouest pour atteindre le coin sud-ouest, où apparaîtra {npc:196165}.
+Les PNJ peuvent mourir sans aide, ce qui met fin à l'événement prématurément et empêche l'apparition du rare.
+]]
 
-L['community_feast_label'] = nil
-L['options_icons_community_feast'] = nil
-L['options_icons_community_feast_desc'] = nil
+L['community_feast_label'] = 'Festin tribal'
+L['options_icons_community_feast'] = 'Festin tribal'
+L['options_icons_community_feast_desc'] = 'Afficher les emplacements et les récompenses pour le {object:Festin tribal}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -513,6 +518,6 @@ L['djaradin_cache'] = 'Cache djaradine'
 L['options_icons_djaradin_cache'] = 'Cache djaradine'
 L['options_icons_djaradin_cache_desc'] = 'Afficher les emplacements possibles des {object:Caches djaradines}.'
 
-L['dragonbane_siege_label'] = nil
-L['options_icons_dragonbane_siege'] = nil
-L['options_icons_dragonbane_siege_desc'] = nil
+L['dragonbane_siege_label'] = 'Siège du donjon du Fléau-des-Dragons'
+L['options_icons_dragonbane_siege'] = 'Siège du donjon du Fléau-des-Dragons'
+L['options_icons_dragonbane_siege_desc'] = 'Affichez les emplacements et les récompenses pour le {object:Siège du donjon du Fléau-des-Dragons}.'
