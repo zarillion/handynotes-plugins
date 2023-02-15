@@ -17,6 +17,7 @@ local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
+-- local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PetBattle = ns.node.PetBattle
@@ -2140,6 +2141,28 @@ map.nodes[64712635] = ElementalStorm({
     mapID = map.id,
     areaPOIs = {7257, 7258, 7259, 7260}
 }) -- Elemental Storm: Scalecracker Keep
+
+-------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+-- map.nodes[] = GrandHunt({
+--     mapID = map.id,
+--     areaPOI = nil,
+--     criteria = 55680
+-- }) -- Southern Waking Shores Hunt
+
+-- map.nodes[] = GrandHunt({
+--     mapID = map.id,
+--     areaPOI = nil,
+--     criteria = 55681
+-- }) -- Eastern Waking Shores Hunt
+
+-- map.nodes[] = GrandHunt({
+--     mapID = map.id,
+--     areaPOI = nil,
+--     criteria = 55682
+-- }) -- Northern Waking Shores Hunt
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

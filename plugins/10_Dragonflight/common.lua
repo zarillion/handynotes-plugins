@@ -52,6 +52,11 @@ ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.GRAND_HUNTS = Group('grand_hunts', 237377, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.MAGICBOUND_CHEST = Group('magicbound_chest', 'chest_tl', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -1144,6 +1149,111 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
                 for i, reward in ipairs(rewards) do
                     if reward:IsEnabled() then
                         reward:Render(GameTooltip)
+                    end
+                end
+                GameTooltip:Show()
+            end
+        end
+    end
+end)
+
+-------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+local GRAND_HUNT_AREA_POIS = {
+    [7053] = '',
+    [7089] = '',
+    [7090] = '',
+    [7091] = '',
+    [7092] = '',
+    [7093] = '',
+    [7094] = 'Western Azure Span Hunt',
+    [7095] = 'Eastern Azure Span Hunt',
+    [7096] = 'Southern Azure Span Hunt',
+    [7097] = '',
+    [7098] = '',
+    [7099] = 'Northern Thaldraszus Hunt',
+    [7342] = 'Grand Hunts (Ohnahran Plains',
+    [7343] = 'Grand Hunts (Thaldraszus)',
+    [7344] = 'Grand Hunts (The Waking Shore)',
+    [7345] = 'Grand Hunts (The Azure Span)'
+}
+
+local GRAND_HUNT_BAG_REWARDS = {
+    Mount({item = 192791, id = 1635}), -- Plainswalker Bearer
+    Pet({item = 200276, id = 3311}), -- Ohuna Companion
+    Pet({item = 200290, id = 3325}) -- Bakar Companion
+}
+
+local GrandHunt = Class('GrandHunt', Collectible, {
+    label = L['grand_hunts_label'],
+    icon = 237377,
+    group = ns.groups.GRAND_HUNTS,
+    IsEnabled = function(self)
+        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
+        for a = 1, #activePOIs do
+            if activePOIs[a] == self.areaPOI then
+                return false
+            end
+        end
+        return true
+    end
+}) -- Grand Hunts
+
+function GrandHunt.getters:rewards()
+    local rewards = {
+        Achievement({id = 16544}), -- Grand Hunter
+        Achievement({
+            id = 16541,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['longhunter_suffix']
+            }
+        }), -- Longhunter
+        Achievement({
+            id = 16545,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['the_best_at_what_i_do_suffix']
+            }
+        }), -- The Best at What I Do
+        Achievement({id = 16540, criteria = self.criteria}), -- Hunt Master
+        Achievement({
+            id = 16543,
+            criteria = {
+                55746, -- Bakar Companion Color: Brown
+                55747, -- Bakar Companion Color: White
+                55748, -- Bakar Companion Color: Orange
+                55749, -- Bakar Companion Color: Golden Brown
+                55750, -- Bakar Companion Color: Black
+                55751, -- Ohuna Companion Color: Red
+                55752, -- Ohuna Companion Color: Dark
+                55753, -- Ohuna Companion Color: Sepia
+                55754, -- Ohuna Companion Color: Brown
+            }
+        }) -- Tetrachromancer
+    }
+    for k,v in pairs(GRAND_HUNT_BAG_REWARDS) do table.insert(rewards, v) end
+    return rewards
+end
+
+ns.node.GrandHunt = GrandHunt
+
+hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+    if self and self.areaPoiID then
+        local mapID = self:GetMap().mapID
+        local group = ns.groups.GRAND_HUNTS
+        if GRAND_HUNT_AREA_POIS[self.areaPoiID] then
+            if group:GetDisplay(mapID) then
+                if ns:GetOpt('show_loot') then
+                    GameTooltip:AddLine(' ')
+                    for i, reward in ipairs(GRAND_HUNT_BAG_REWARDS) do
+                        if reward:IsEnabled() then
+                            reward:Render(GameTooltip)
+                        end
                     end
                 end
                 GameTooltip:Show()

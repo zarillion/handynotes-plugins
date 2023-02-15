@@ -17,6 +17,7 @@ local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
 local Flag = ns.node.Flag
+-- local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
@@ -1725,6 +1726,28 @@ map.nodes[34153854] = ElementalStorm({
 --     mapID = map.id,
 --     areaPOIs = {7225, 7226, 7227, 7228}
 -- }) -- Elemental Storm: Ohn'iri Springs
+
+-------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+-- map.nodes[] = GrandHunt({
+--     mapID = map.id,
+--     areaPOI = nil,
+--     criteria = 55677
+-- }) -- Northern Ohn'ahran Plains Hunt
+
+-- map.nodes[] = GrandHunt({
+--     mapID = map.id,
+--     areaPOI = nil,
+--     criteria = 55678
+-- }) -- Western Ohn'ahran Plains Hunt
+
+-- map.nodes[] = GrandHunt({
+--     mapID = map.id,
+--     areaPOI = nil,
+--     criteria = 55679
+-- }) -- Eastern Ohn'ahran Plains Hunt
 
 -------------------------------------------------------------------------------
 --------------------------- KNEW YOU NOKHUD DO IT! ----------------------------

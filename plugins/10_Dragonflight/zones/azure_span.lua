@@ -19,6 +19,7 @@ local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
+local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
@@ -1391,6 +1392,28 @@ map.nodes[58506660] = ElementalStorm({
     mapID = map.id,
     areaPOIs = {7237, 7238, 7239, 7240}
 }) -- Elemental Storm: Imbu
+
+-------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[68302652] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7095,
+    criteria = 55684
+}) -- Eastern Azure Span Hunt
+
+map.nodes[68505285] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7096,
+    criteria = 55685
+}) -- Southern Azure Span Hunt
+
+map.nodes[38453474] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7094,
+    criteria = 55683
+}) -- Western Azure San Hunt
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

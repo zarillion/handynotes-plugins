@@ -121,6 +121,13 @@ L['elemental_storm_mythressa_note_end'] = 'В настоящее время у �
 L['options_icons_elemental_storm'] = 'Буря Стихий'
 L['options_icons_elemental_storm_desc'] = 'Показать награды за Бури Стихий.'
 
+L['grand_hunts_label'] = nil
+L['longhunter_suffix'] = nil
+L['the_best_at_what_i_do_suffix'] = nil
+
+L['options_icons_grand_hunts'] = nil
+L['options_icons_grand_hunts_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
