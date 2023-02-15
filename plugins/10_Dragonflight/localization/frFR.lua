@@ -240,19 +240,19 @@ L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles d
 
 -- SMALL TREASURES
 
-L['avian_trove_label'] = nil
+L['avian_trove_label'] = 'Trésor aviaire'
 L['obsidian_coffer_label'] = 'Coffret d\'obsidienne'
 L['bone_pile_label'] = 'Tas d\'os'
 L['farscale_cache_label'] = nil
-L['irontide_stash_label'] = nil
+L['irontide_stash_label'] = 'Cache des Lamineurs'
 L['storm_eater_cairn_label'] = 'Cairn de la Mange-tempêtes'
 L['stonescaled_cairn_label'] = 'Cairn pierre-écaille'
 L['blazing_cairn_label'] = 'Cairn flamboyant'
-L['frozenheart_cairn'] = nil
+L['frozenheart_cairn'] = 'Cairn du Cœur gelé'
 L['morqut_provisions_label'] = nil
 
-L['options_icons_small_treasures'] = nil
-L['options_icons_small_treasures_desc'] = nil
+L['options_icons_small_treasures'] = 'Petits trésors'
+L['options_icons_small_treasures_desc'] = 'Afficher les emplacements possibles des petits trésors.'
 
 -- MISC TREASURES
 
