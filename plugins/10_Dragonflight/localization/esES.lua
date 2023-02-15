@@ -200,7 +200,12 @@ Necesitas activarlos para derretir la pared de hielo (se recomienda dos jugadore
 Mata el {npc:197183} de dentro y recibirás la {item:200528}.
 ]]
 
-L['gethdazr_note'] = nil
+L['gethdazr_note'] = [[
+Aparece como parte de un evento que implica a {npc:191143} que empieza soplando el {object:Gran Cuerno de Imbu}.
+Sólo se podrá hacer click en el Cuerno después de matar al {npc:196155}. Tiene una reaparición de alrededor de una hora.
+Luego, {npc:191143} y otros NPC se abrirán camino desde la entrada noreste de {location:Imbu} hacia el sur y luego hacia el oeste para llegar a la esquina suroeste. En ese punto aparecerá {npc:196165}.
+Los NPC pueden morir sin ayuda y terminar el evento antes de tiempo sin generar al raro.
+]] -- taken straight from wowhead comments, might need some changes.
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
