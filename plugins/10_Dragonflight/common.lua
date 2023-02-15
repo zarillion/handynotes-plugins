@@ -27,16 +27,6 @@ ns.expansion = 10
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.BLAZING_CAIRN = Group('blazing_cairn', 'chest_pp', {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
-})
-
-ns.groups.BONE_PILE = Group('bone_pile', 'chest_pp', {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
-})
-
 ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -67,11 +57,6 @@ ns.groups.MAGICBOUND_CHEST = Group('magicbound_chest', 'chest_tl', {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.OBSIDIAN_COFFER = Group('obsidian_coffer', 'chest_pp', {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
-})
-
 ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -93,12 +78,7 @@ ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
     end
 })
 
-ns.groups.STONESCALED_CAIRN = Group('stonescaled_cairn', 'chest_pp', {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
-})
-
-ns.groups.STORM_EATER_CAIRN = Group('storm_eater_cairn', 'chest_pp', {
+ns.groups.SMALL_TREASURES = Group('small_treasures', 'chest_rd', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })

@@ -229,7 +229,7 @@ L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
 
 -- TREASURES
 
-L['scavenger_of_the_forbidden_reach_suffix'] = 'Small treasures opened'
+L['hoarder_of_the_forbidden_reach_suffix'] = 'small treasures opened'
 L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
 
 L['forbidden_hoard_label'] = 'Forbidden Hoard'
@@ -237,25 +237,23 @@ L['forbidden_hoard_note'] = 'Defeat the surrounding mobs to open the chest.'
 L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
 L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object:Forbidden Hoard} chests.'
 
+-- SMALL TREASURES
+
+L['avian_trove_label'] = 'Avian Trove'
 L['obsidian_coffer_label'] = 'Obsidian Coffer'
-L['options_icons_obsidian_coffer'] = 'Obsidian Coffer'
-L['options_icons_obsidian_coffer_desc'] = 'Display possible locations of {object:Obsidian Coffers}.'
-
 L['bone_pile_label'] = 'Bone Pile'
-L['options_icons_bone_pile'] = 'Bone Pile'
-L['options_icons_bone_pile_desc'] = 'Display possible locations of {object:Bone Piles}.'
-
+L['farscale_cache_label'] = 'Farscale Cache'
+L['irontide_stash_label'] = 'Irontide Stash'
 L['storm_eater_cairn_label'] = 'Storm-Eater Cairn'
-L['options_icons_storm_eater_cairn'] = 'Storm-Eater Cairn'
-L['options_icons_storm_eater_cairn_desc'] = 'Display possible locations of {object:Storm-Eater Cairn}.'
-
 L['stonescaled_cairn_label'] = 'Stonescaled Cairn'
-L['options_icons_stonescaled_cairn'] = 'Stonescaled Cairn'
-L['options_icons_stonescaled_cairn_desc'] = 'Display possible locations of {object:Stonescaled Cairn}.'
-
 L['blazing_cairn_label'] = 'Blazing Cairn'
-L['options_icons_blazing_cairn'] = 'Blazing Cairn'
-L['options_icons_blazing_cairn_desc'] = 'Display possible locations of {object:Blazing Cairn}.'
+L['frozenheart_cairn'] = 'Frozenheart Cairn'
+L['morqut_provisions_label'] = 'Morqut Provisions'
+
+L['options_icons_small_treasures'] = 'Small Treasures'
+L['options_icons_small_treasures_desc'] = 'Display possible locations for small treasures.'
+
+-- MISC TREASURES
 
 L['storm_bound_chest_label'] = 'Storm-Bound Chest'
 
@@ -263,6 +261,11 @@ L['storm_bound_chest_label'] = 'Storm-Bound Chest'
 
 L['spellsworn_missive_label'] = 'Spellsworn Missive'
 L['spellsworn_missive_note'] = 'Open the {object:Spellsworn Missive} and loot the {item:204338}.'
+L['confiscated_journal_label'] = 'Confiscated Journal'
+L['confiscated_journal_note'] = 'Open the {object:Confiscated Journal} and loot the {item:204316}.'
+L['farscale_manifesto_label'] = 'Farscale Manifesto'
+L['farscale_manifesto_note'] = 'Open the {object:Farscale Manifesto} and loot the {item:204335}.'
+
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}.'
 

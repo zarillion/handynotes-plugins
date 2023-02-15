@@ -230,7 +230,7 @@ L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 
 -- TREASURES
 
-L['scavenger_of_the_forbidden_reach_suffix'] = 'Petits trésors ouverts'
+L['hoarder_of_the_forbidden_reach_suffix'] = 'Petits trésors ouverts'
 L['forbidden_spoils_suffix'] = 'Provisions interdites ouvertes'
 
 L['forbidden_hoard_label'] = 'Provisions interdites'
@@ -238,25 +238,23 @@ L['forbidden_hoard_note'] = 'Battez les monstres voisins pour ouvrir le coffre.'
 L['options_icons_forbidden_hoard'] = 'Provisions interdites'
 L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles des coffres de {object:Provisions interdites}.'
 
+-- SMALL TREASURES
+
+L['avian_trove_label'] = nil
 L['obsidian_coffer_label'] = 'Coffret d\'obsidienne'
-L['options_icons_obsidian_coffer'] = 'Coffret d\'obsidienne'
-L['options_icons_obsidian_coffer_desc'] = 'Afficher les emplacements possibles des {object:Coffrets d\'obsidienne}.'
-
 L['bone_pile_label'] = 'Tas d\'os'
-L['options_icons_bone_pile'] = 'Tas d\'os'
-L['options_icons_bone_pile_desc'] = 'Afficher les emplacements possibles des {object:Tas d\'os}.'
-
+L['farscale_cache_label'] = nil
+L['irontide_stash_label'] = nil
 L['storm_eater_cairn_label'] = 'Cairn de la Mange-tempêtes'
-L['options_icons_storm_eater_cairn'] = 'Cairn de la Mange-tempêtes'
-L['options_icons_storm_eater_cairn_desc'] = 'Afficher les emplacements possibles des {object:Cairns de la Mange-tempêtes}.'
-
 L['stonescaled_cairn_label'] = 'Cairn pierre-écaille'
-L['options_icons_stonescaled_cairn'] = 'Cairn pierre-écaille'
-L['options_icons_stonescaled_cairn_desc'] = 'Afficher les emplacements possibles des {object:Cairns pierres-écailles}.'
-
 L['blazing_cairn_label'] = 'Cairn flamboyant'
-L['options_icons_blazing_cairn'] = 'Cairn flamboyant'
-L['options_icons_blazing_cairn_desc'] = 'Afficher les emplacements possibles des {object:Cairns flamboyants}.'
+L['frozenheart_cairn'] = nil
+L['morqut_provisions_label'] = nil
+
+L['options_icons_small_treasures'] = nil
+L['options_icons_small_treasures_desc'] = nil
+
+-- MISC TREASURES
 
 L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
 
@@ -264,6 +262,11 @@ L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
 
 L['spellsworn_missive_label'] = 'Missive Sorcelige'
 L['spellsworn_missive_note'] = 'Ouvrez la {object:Missive Sorcelige} et récupérez {item:204338}.'
+L['confiscated_journal_label'] = nil
+L['confiscated_journal_note'] = nil
+L['farscale_manifesto_label'] = nil
+L['farscale_manifesto_note'] = nil
+
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}.'
 

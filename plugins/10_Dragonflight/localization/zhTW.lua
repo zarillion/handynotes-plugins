@@ -229,7 +229,7 @@ L['wymslayer_angvardi_note'] = nil
 
 -- TREASURES
 
-L['scavenger_of_the_forbidden_reach_suffix'] = nil
+L['hoarder_of_the_forbidden_reach_suffix'] = nil
 L['forbidden_spoils_suffix'] = nil
 
 L['forbidden_hoard_label'] = nil
@@ -237,25 +237,23 @@ L['forbidden_hoard_note'] = nil
 L['options_icons_forbidden_hoard'] = nil
 L['options_icons_forbidden_hoard_desc'] = nil
 
+-- SMALL TREASURES
+
+L['avian_trove_label'] = nil
 L['obsidian_coffer_label'] = nil
-L['options_icons_obsidian_coffer'] = nil
-L['options_icons_obsidian_coffer_desc'] = nil
-
 L['bone_pile_label'] = nil
-L['options_icons_bone_pile'] = nil
-L['options_icons_bone_pile_desc'] = nil
-
+L['farscale_cache_label'] = nil
+L['irontide_stash_label'] = nil
 L['storm_eater_cairn_label'] = nil
-L['options_icons_storm_eater_cairn'] = nil
-L['options_icons_storm_eater_cairn_desc'] = nil
-
 L['stonescaled_cairn_label'] = nil
-L['options_icons_stonescaled_cairn'] = nil
-L['options_icons_stonescaled_cairn_desc'] = nil
-
 L['blazing_cairn_label'] = nil
-L['options_icons_blazing_cairn'] = nil
-L['options_icons_blazing_cairn_desc'] = nil
+L['frozenheart_cairn'] = nil
+L['morqut_provisions_label'] = nil
+
+L['options_icons_small_treasures'] = nil
+L['options_icons_small_treasures_desc'] = nil
+
+-- MISC TREASURES
 
 L['storm_bound_chest_label'] = nil
 
@@ -263,6 +261,11 @@ L['storm_bound_chest_label'] = nil
 
 L['spellsworn_missive_label'] = nil
 L['spellsworn_missive_note'] = nil
+L['confiscated_journal_label'] = nil
+L['confiscated_journal_note'] = nil
+L['farscale_manifesto_label'] = nil
+L['farscale_manifesto_note'] = nil
+
 L['options_icons_librarian_of_the_reach'] = nil
 L['options_icons_librarian_of_the_reach_desc'] = nil
 
@@ -279,7 +282,6 @@ L['book_of_arcane_entities_label'] = nil
 L['zskera_vault_label'] = nil
 L['zskera_vault_note'] = nil
 L['door_buster_suffix'] = nil
-
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
