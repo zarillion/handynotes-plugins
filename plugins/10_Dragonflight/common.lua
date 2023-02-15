@@ -964,8 +964,8 @@ local Feast = Class('Feast', Rare, {
     initialSpawn = {
         us = 1668997800 -- review
     },
-    spawnOffset = 5400,
-    spawnInterval = 5400,
+    spawnOffset = 5400, --review
+    spawnInterval = 5400, -- review
     rotationID = 0
 })
 
