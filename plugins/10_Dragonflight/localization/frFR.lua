@@ -200,7 +200,12 @@ Vous devez les activer pour faire fondre le mur de glace (deux joueurs sont reco
 Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 ]]
 
-L['gethdazr_note'] = nil
+L['gethdazr_note'] = [[
+Apparaît lors d'un événement impliquant {npc:191143} qui commence en soufflant dans la {object:Grande corne d’Imbou}.
+La Corne ne devient cliquable qu'après avoir tué l'{npc:196155} qui l'attaque, et a un temps de recharge/réapparition d'environ une heure.
+{npc:191143} et d'autres PNJ se frayeront un chemin depuis l'entrée nord-est d'{location:Imbou}, d'abord vers le sud puis vers l'ouest pour atteindre le coin sud-ouest, où apparaîtra {npc:196165}.
+Les PNJ peuvent mourir sans aide, ce qui met fin à l'événement prématurément et empêche l'apparition du rare.
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
