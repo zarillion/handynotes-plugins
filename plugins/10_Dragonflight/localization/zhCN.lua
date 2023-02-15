@@ -91,8 +91,8 @@ L['options_icons_signal_transmitter'] = '龙洞发生器信号发射机'
 L['options_icons_signal_transmitter_desc'] = '显示 {item:198156} 的 {object:关闭的信号发射机} 的位置。'
 
 L['spawns_periodically'] = '{note:每隔30分钟可能出现，全服务器同步。（例如：9:00、17:30）}'
-L['rare_14h'] = nil
-L['time_format'] = nil
+L['rare_14h'] = '此稀有与其他稀有构成14小时的循环，每30分钟可以出现一个稀有。\n\n下一次可能出现：{note:%s}（服务器时间）'
+L['time_format'] = '%Y/%d/%m - %H:%M'
 L['spawns_at_night'] = '{note:只可能在夜间出现。（服务器时间18:30准时出现，可能会延迟几分钟）}'
 
 L['elemental_storm'] = '元素风暴'

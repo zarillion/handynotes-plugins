@@ -915,6 +915,10 @@ local function nextSpawn(self)
         start = initial.eu + self.rotationID * self.spawnOffset
     end
 
+    if region == 4 and initial.tw then
+        start = initial.tw + self.rotationID * self.spawnOffset
+    end
+
     local elapsedTime = GetServerTime() - start
     return start + math.ceil(elapsedTime / self.spawnInterval) *
                self.spawnInterval
@@ -923,7 +927,7 @@ end
 ---------------------------------- 14 HOURS -----------------------------------
 
 local Rare14h = Class('Rare14h', Rare, {
-    initialSpawn = {eu = 1676237400, us = 1676205000}, -- initial spawn time of the first rare to calculate other rares
+    initialSpawn = {eu = 1676237400, us = 1676205000, tw = 1675701000}, -- initial spawn time of the first rare to calculate other rares
     spawnOffset = 1800, -- time between rares
     spawnInterval = 50400 -- inverval of a single rare
 })
@@ -933,7 +937,7 @@ function Rare14h.getters:note()
 end
 
 local RareElite14h = Class('RareElite14h', RareElite, {
-    initialSpawn = {eu = 1676237400, us = 1676205000},
+    initialSpawn = {eu = 1676237400, us = 1676205000, tw = 1675701000},
     spawnOffset = 1800,
     spawnInterval = 50400
 })
@@ -947,7 +951,8 @@ end
 local Brackenhide = Class('Brackenhide', Rare, {
     initialSpawn = {
         us = 1672531200, -- review
-        eu = 1672530600
+        eu = 1672530600,
+        tw = 1675247400 -- review
     },
     spawnOffset = 600,
     spawnInterval = 2400
@@ -962,9 +967,10 @@ end
 
 local Feast = Class('Feast', Rare, {
     initialSpawn = {
-        us = 1668997800 -- review
+        us = 1668997800, -- review
+        tw = 1670070660 -- review
     },
-    spawnOffset = 5400, --review
+    spawnOffset = 5400, -- review
     spawnInterval = 5400, -- review
     rotationID = 0
 })
