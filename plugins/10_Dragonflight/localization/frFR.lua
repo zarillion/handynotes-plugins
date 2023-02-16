@@ -118,8 +118,8 @@ L['empowered_mobs_killed_suffix'] = 'Monstres Imprégnés tués'
 L['elemental_storm_mythressa_note_start'] = 'Échangez vos {currency:2118} contre de l\'équipement, des mascottes et une monture.'
 L['elemental_storm_mythressa_note_end'] = 'Vous avez actuellement %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = 'Tempêtes élémentaires'
-L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les Tempêtes élementaires.'
+L['options_icons_elemental_storm'] = '{spell:392768}'
+L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les {spell:392768}.'
 
 L['grand_hunts_label'] = 'Grande Chasse'
 L['longhunter_suffix'] = 'étapes de chasse terminées'
@@ -214,9 +214,9 @@ La Corne ne devient cliquable qu'après avoir tué l'{npc:196155} qui l'attaque,
 Les PNJ peuvent mourir sans aide, ce qui met fin à l'événement prématurément et empêche l'apparition du rare.
 ]]
 
-L['community_feast_label'] = 'Festin tribal'
-L['options_icons_community_feast'] = 'Festin tribal'
-L['options_icons_community_feast_desc'] = 'Afficher les emplacements et les récompenses pour le {object:Festin tribal}.'
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = 'Afficher les emplacements et les récompenses pour le {spell:388961}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -518,6 +518,6 @@ L['djaradin_cache'] = 'Cache djaradine'
 L['options_icons_djaradin_cache'] = 'Cache djaradine'
 L['options_icons_djaradin_cache_desc'] = 'Afficher les emplacements possibles des {object:Caches djaradines}.'
 
-L['dragonbane_siege_label'] = 'Siège du donjon du Fléau-des-Dragons'
-L['options_icons_dragonbane_siege'] = 'Siège du donjon du Fléau-des-Dragons'
-L['options_icons_dragonbane_siege_desc'] = 'Affichez les emplacements et les récompenses pour le {object:Siège du donjon du Fléau-des-Dragons}.'
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Affichez les emplacements et les récompenses pour le {spell:388945}.'
