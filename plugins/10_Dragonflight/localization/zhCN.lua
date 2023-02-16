@@ -115,7 +115,7 @@ L['elemental_overflow_obtained_suffix'] = '元素涌流已获得'
 L['empowered_mobs_killed_suffix'] = '强化怪物已击杀'
 
 L['elemental_storm_mythressa_note_start'] = '用 {currency:2118} 换取装备、宠物和坐骑。'
-L['elemental_storm_mythressa_note_end'] = '目前有 %s {currency:2118}。'
+L['elemental_storm_mythressa_note_end'] = '当前有 %s {currency:2118}。'
 
 L['options_icons_elemental_storm'] = '元素风暴'
 L['options_icons_elemental_storm_desc'] = '显示元素风暴奖励。'
@@ -199,9 +199,9 @@ L['stranded_soul_note'] = [[
 击杀里面的 {npc:197183}，你会得到 {item:200528}。
 ]]
 
-L['kazzi_note_start'] = nil
-L['kazzi_note_item'] = nil
-L['kazzi_achievement_suffix'] = nil
+L['kazzi_note_start'] = '用 {item:202017} 和 {item:202018} 换取幻化、幼龙定制、宠物等。'
+L['kazzi_note_item'] = '当前有 %s {item:%s}。'
+L['kazzi_achievement_suffix'] = '冬裘语言等级'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
