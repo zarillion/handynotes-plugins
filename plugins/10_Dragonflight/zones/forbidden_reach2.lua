@@ -600,37 +600,37 @@ map.nodes[48697111] = ns.node.ElementalChest({
 -------------------------------- DRAGON GLYPHS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[13260179] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 1})} -- TODO: Check coord after map update
-}) -- Forbidden Reach Glyph Hunger: Northwind Point
+map.nodes[18431305] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 1})}
+}) -- Forbidden Reach Glyph Hunter: Warlord's Perch
 
-map.nodes[15879224] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 2})} -- TODO: Check coord after map update
-}) -- Forbidden Reach Glyph Hunger: Talon's Watch
+map.nodes[20529141] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 2})}
+}) -- Forbidden Reach Glyph Hunter: Talon's Watch
 
-map.nodes[64532385] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 3})} -- TODO: Check coord after map update
-}) -- Forbidden Reach Glyph Hunger: Fragstone Vault
+map.nodes[62533242] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 3})}
+}) -- Forbidden Reach Glyph Hunter: Froststone Peak
 
-map.nodes[84092412] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 4})} -- TODO: Check coord after map update
-}) -- Forbidden Reach Glyph Hunger: Dragonskull Island
+map.nodes[79433260] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 4})}
+}) -- Forbidden Reach Glyph Hunter: Dragonskull Island
 
-map.nodes[81635017] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 5})} -- TODO: Check coord after map update
-}) -- Forbidden Reach Glyph Hunger: Sunder Mountain
+map.nodes[77315509] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 5})}
+}) -- Forbidden Reach Glyph Hunter: Stormsunder Mountain
 
-map.nodes[48316624] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 6})} -- TODO: Check coord after map update
-}) -- Forbidden Reach Glyph Hunger: War Creche
+map.nodes[48526895] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 6})}
+}) -- Forbidden Reach Glyph Hunter: The Frosted Spine
 
-map.nodes[60506171] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 7})} -- TODO: Check coord after map update
-}) -- Forbidden Reach Glyph Hunger: Talonlord's Perch
+map.nodes[59066506] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 7})}
+}) -- Forbidden Reach Glyph Hunter: Talonlord's Perch
 
-map.nodes[35752174] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 8})} -- TODO: Check coord after map update
-}) -- Forbidden Reach Glyph Hunger: Caldera of the Menders
+map.nodes[37743063] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 8})}
+}) -- Forbidden Reach Glyph Hunter: Caldera of the Menders
 
 -------------------------------------------------------------------------------
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
