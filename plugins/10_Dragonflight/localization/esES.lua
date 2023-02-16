@@ -208,11 +208,14 @@ Mata el {npc:197183} de dentro y recibirás la {item:200528}.
 ]]
 
 L['gethdazr_note'] = [[
-Aparece como parte de un evento que implica a {npc:191143} que empieza soplando el {object:Gran Cuerno de Imbu}.
-Sólo se podrá hacer click en el Cuerno después de matar al {npc:196155}. Tiene una reaparición de alrededor de una hora.
-Luego, {npc:191143} y otros NPC se abrirán camino desde la entrada noreste de {location:Imbu} hacia el sur y luego hacia el oeste para llegar a la esquina suroeste. En ese punto aparecerá {npc:196165}.
-Los NPC pueden morir sin ayuda y terminar el evento antes de tiempo sin generar al raro.
-]] -- taken straight from wowhead comments, might need some changes.
+Aparece como parte de un evento en {location:Imbu} que empieza soplando el {object:Gran Cuerno de Imbu} ({dot:Blue}).
+Sólo se podrá hacer click en el Cuerno después de matar al {npc:196155}, el cual tiene una reaparición de 30-60 minutos.
+
+Luego, {npc:191143} ({dot:Green}) y otros NPC se abrirán camino desde la entrada noreste de {location:Imbu} hasta donde aparece {npc:196165}.
+Los NPC pueden morir sin ayuda y hacer fallar el evento.
+
+Se puede hacer en solitario pero se recomiendan 2-3 jugadores.
+]]
 
 L['community_feast_label'] = '{spell:388961}'
 L['options_icons_community_feast'] = '{spell:388961}'
