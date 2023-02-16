@@ -89,7 +89,7 @@ map.nodes[41021436] = Rare({
     }
 }) -- Ishyra
 
-map.nodes[47722071] = Rare({ -- TODO: Check coord after map update
+map.nodes[47722071] = Rare({
     id = 200600,
     quest = 73117,
     note = L['in_small_cave'],
@@ -442,8 +442,10 @@ map.nodes[72897639] = ForbiddenHoard() -- TODO: Check coord after map update
 warCreche.nodes[40816962] = ForbiddenHoard() -- TODO: Check coord after map update
 warCreche.nodes[61195448] = ForbiddenHoard() -- TODO: Check coord after map update
 
-map.nodes[62584946] = ForbiddenHoard()
+map.nodes[39192452] = ForbiddenHoard()
 map.nodes[50733679] = ForbiddenHoard()
+map.nodes[58006276] = ForbiddenHoard()
+map.nodes[62584946] = ForbiddenHoard()
 
 -------------------------------------------------------------------------------
 ------------------------------- SMALL TREASURES -------------------------------
@@ -469,12 +471,14 @@ end
 
 --------------------------------- AVIAN TROVE ---------------------------------
 
--- local AvianTrove = Class('AvianTrove', SmallTreasure, {
---     label = L['avian_trove_label'],
---     icon = 'chest_bk',
---     fgroup = 'avian_trove',
---     criteria = 58488
--- }) -- Avian Trove
+local AvianTrove = Class('AvianTrove', SmallTreasure, {
+    label = L['avian_trove_label'],
+    icon = 'chest_bk',
+    fgroup = 'avian_trove',
+    criteria = 58488
+}) -- Avian Trove
+
+map.nodes[68604706] = AvianTrove()
 
 ------------------------------- OBSIDIAN COFFER -------------------------------
 
@@ -488,8 +492,11 @@ local ObsidianCoffer = Class('ObsidianCoffer', SmallTreasure, {
 map.nodes[57466242] = ObsidianCoffer() -- TODO: Check coord after map update
 
 warCreche.nodes[44358594] = ObsidianCoffer() -- TODO: Check coord after map update
-warCreche.nodes[49098242] = ObsidianCoffer()
 warCreche.nodes[68681317] = ObsidianCoffer() -- TODO: Check coord after map update
+
+map.nodes[54575658] = ObsidianCoffer()
+
+warCreche.nodes[49098242] = ObsidianCoffer()
 
 ----------------------------- SPELLSWORN RESERVES -----------------------------
 
@@ -514,6 +521,9 @@ map.nodes[59044624] = BonePile() -- TODO: Check coord after map update
 map.nodes[65213628] = BonePile() -- TODO: Check coord after map update
 
 supportCreche.nodes[16733332] = BonePile() -- TODO: Check coord after map update
+
+map.nodes[47071542] = BonePile()
+map.nodes[44745794] = BonePile()
 
 ------------------------------- FARSCALE CACHE --------------------------------
 
@@ -567,7 +577,6 @@ local BlazingCairn = Class('BlazingCairn', SmallTreasure, {
 }) -- Blazing Cairn
 
 seigeCreche.nodes[44804622] = BlazingCairn()
-seigeCreche.nodes[49143582] = BlazingCairn() -- TODO: Check coord after map update
 
 ------------------------------ FROZENHEART CAIRN ------------------------------
 
