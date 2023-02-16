@@ -89,7 +89,7 @@ map.nodes[41021436] = Rare({
     }
 }) -- Ishyra
 
-map.nodes[47331027] = Rare({ -- TODO: Check coord after map update
+map.nodes[47722071] = Rare({ -- TODO: Check coord after map update
     id = 200600,
     quest = 73117,
     note = L['in_small_cave'],
@@ -99,7 +99,7 @@ map.nodes[47331027] = Rare({ -- TODO: Check coord after map update
         Currency({id = 2118}) -- Elemental Overflow
     },
     pois = {
-        POI({46260854}) -- Entrance
+        POI({46961955}) -- Entrance
     }
 }) -- Reisa the Drowned
 
