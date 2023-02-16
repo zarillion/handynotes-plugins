@@ -644,7 +644,7 @@ map.nodes[43105078] = Rare({
 map.nodes[35803600] = Rare(
     { -- is all over the place on wowhead, took a random one,
         id = 201540,
-        quest = nil, -- 74464
+        quest = 74464,
         rewards = {
             Transmog({item = 203674, slot = L['plate']}), -- Brutal Tramplers
             DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
@@ -653,7 +653,7 @@ map.nodes[35803600] = Rare(
 
 map.nodes[36803800] = Rare({ -- rough coordinates from wowhead
     id = 201535,
-    quest = nil, -- 74467
+    quest = 74467,
     rewards = {
         Transmog({item = 203673, slot = L['dagger']}), -- Bloodbeak's Ravenor
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -664,7 +664,7 @@ map.nodes[36803800] = Rare({ -- rough coordinates from wowhead
 
 map.nodes[35804040] = Rare({ -- rough coordinates from wowhead
     id = 201537,
-    quest = nil, -- 74463
+    quest = 74463,
     rewards = {
         Transmog({item = 203671, slot = L['cloak']}), -- Bloodbeak's Ravenor
         DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
@@ -673,7 +673,7 @@ map.nodes[35804040] = Rare({ -- rough coordinates from wowhead
 
 map.nodes[33604160] = Rare({ -- rough coordinates from wowhead
     id = 201539,
-    quest = nil, -- 74465
+    quest = 74465,
     rewards = {
         Transmog({item = 203676, slot = L['cloth']}), -- Stormcaller's Grounding Shoes
         Transmog({item = 200441, slot = L['leather']}), -- Jhakan's Horned Cowl
@@ -683,7 +683,7 @@ map.nodes[33604160] = Rare({ -- rough coordinates from wowhead
 
 map.nodes[33803860] = Rare({ -- rough coordinates from wowhead
     id = 201538,
-    quest = nil, -- 74466
+    quest = 74466,
     rewards = {
         Transmog({item = 203672, slot = L['mail']}), -- Master Huntmaster's Wristguards
         Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
