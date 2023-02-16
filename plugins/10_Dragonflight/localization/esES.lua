@@ -118,10 +118,10 @@ L['empowered_mobs_killed_suffix'] = 'Enemigo potenciado matado'
 L['elemental_storm_mythressa_note_start'] = 'Entrega {currency:2118} a cambio de equipo, mascotas, y una montura.'
 L['elemental_storm_mythressa_note_end'] = 'Actualmente tienes %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = 'Tormentas Elementales'
-L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las Tormentas Elementales.'
+L['options_icons_elemental_storm'] = '{spell:392768}'
+L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las {spell:392768}.'
 
-L['grand_hunts_label'] = 'Fiesta de la Gran Cacería'
+L['grand_hunts_label'] = 'Grandes Cacerías'
 L['longhunter_suffix'] = 'bosses matados'
 L['the_best_at_what_i_do_suffix'] = 'pasos de la cacería completados'
 
@@ -214,9 +214,9 @@ Luego, {npc:191143} y otros NPC se abrirán camino desde la entrada noreste de {
 Los NPC pueden morir sin ayuda y terminar el evento antes de tiempo sin generar al raro.
 ]] -- taken straight from wowhead comments, might need some changes.
 
-L['community_feast_label'] = 'El Festín Comunitario'
-L['options_icons_community_feast'] = 'El Festín Comunitario'
-L['options_icons_community_feast_desc'] = 'Muestra los festines y recompensas para el Festín Comunitario.'
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = 'Muestra los festines y recompensas para los {spell:388961}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -518,6 +518,6 @@ L['djaradin_cache'] = 'Alijo Djaradin'
 L['options_icons_djaradin_cache'] = 'Alijo Djaradin'
 L['options_icons_djaradin_cache_desc'] = 'Muestra dónde pueden haber {object:Alijos Djaradin}.'
 
-L['dragonbane_siege_label'] = 'Asedio en la Fortaleza de Ruinadragón'
-L['options_icons_dragonbane_siege'] = 'Asedio en la Fortaleza de Ruinadragón'
-L['options_icons_dragonbane_siege_desc'] = 'Muestra los asedios y las recompensas del Asedio en la Fortaleza de Ruinadragón.'
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Muestra los asedios y las recompensas del {spell:388945}.'
