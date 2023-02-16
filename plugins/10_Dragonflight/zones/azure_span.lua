@@ -32,6 +32,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -105,8 +106,14 @@ map.nodes[13584855] = Rare({
     quest = 70893,
     -- note = L['Bisquis_Note'],
     rewards = {
-        Achievement({id = 16678, criteria = 55381}),
-        Achievement({id = 16444, criteria = 1})
+        Achievement({id = 16678, criteria = 55381}), -- Adventurer of The Azure Span
+        Achievement({id = 16444, criteria = 55381}), -- Leftovers' Revenge
+        ns.reward.Spacer(),
+        Item({item = 200095}), -- Supply-Laden Soup Pot
+        Recipe({id = 381415, profession = 185}), -- Recipe: Gral's Reverence
+        Recipe({id = 381417, profession = 185}), -- Recipe: Gral's Veneration
+        Recipe({id = 381418, profession = 185}), -- Recipe: Gral's Devotion
+        Item({item = 200652}) -- Alchemical Flavor Pocket
     }
 }) -- Bisquius
 
