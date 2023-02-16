@@ -580,11 +580,12 @@ map.nodes[76602460] = Rare({
     }
 }) -- Stranded Soul
 
-map.nodes[56407080] = Rare({ -- review
+map.nodes[56407080] = Rare({
     id = 196165,
-    quest = nil,
+    quest = 74446,
     note = L['gethdazr_note'],
     rewards = {
+        Transmog({item = 200237, slot = L['shield']}), -- Burnished Lifewarder's Targe
         DC.HighlandDrake.SpinedChin, DC.CliffsideWylderdrake.SpikedBack,
         DC.HighlandDrake.StripedPattern, DC.WindborneVelocidrake.SpikedBack
     },
