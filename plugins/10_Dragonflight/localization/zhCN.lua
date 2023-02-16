@@ -207,11 +207,14 @@ L['stranded_soul_note'] = [[
 ]]
 
 L['gethdazr_note'] = [[
-作为涉及 {npc:191143} 的事件的一部分出现，该事件以吹响 {object:伊姆布巨角}开始。
-只有在杀死攻击它的 {npc:196155} 后，巨角才会变得可点击，并且有大约1小时的冷却/刷新时间。
-{npc:191143} 和其他 NPC 将从 {location:伊姆布} 的东北入口杀出一条血路，先向南然后向西到达西南角，此时 {npc:196165} 会出现。
-NPC 可能会在没有帮助的情况下死亡，提前结束事件并且稀有无法出现。
-]] -- taken straight from wowhead comments, might need some chages.
+作为 {location:伊姆布} 事件的一部分出现，该事件以吹响 {object:伊姆布巨角}（{dot:Blue}）开始。
+只有在击杀大约30-60分钟刷新时间的 {npc:196155} 后，巨角才会变得可点击。
+
+{npc:191143}（{dot:Green}）和其他 NPC 将从 {location:伊姆布} 的东北入口杀出一条血路，直到 {npc:196165} 在悬崖出现。
+NPC 可以在没有帮助的情况下死亡，这将使事件失败。
+
+这可以单独完成，但建议2-3名玩家。
+]]
 
 L['community_feast_label'] = '{spell:388961}'
 L['options_icons_community_feast'] = '{spell:388961}'
