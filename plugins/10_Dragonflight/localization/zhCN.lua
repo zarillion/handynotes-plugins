@@ -117,15 +117,15 @@ L['empowered_mobs_killed_suffix'] = '强化怪物已击杀'
 L['elemental_storm_mythressa_note_start'] = '用 {currency:2118} 换取装备、宠物和坐骑。'
 L['elemental_storm_mythressa_note_end'] = '目前有 %s {currency:2118}。'
 
-L['options_icons_elemental_storm'] = '元素风暴'
-L['options_icons_elemental_storm_desc'] = '显示元素风暴奖励。'
+L['options_icons_elemental_storm'] = '{spell:392768}'
+L['options_icons_elemental_storm_desc'] = '显示 {spell:392768} 奖励。'
 
-L['grand_hunts_label'] = nil
-L['longhunter_suffix'] = nil
-L['the_best_at_what_i_do_suffix'] = nil
+L['grand_hunts_label'] = '洪荒狩猎'
+L['longhunter_suffix'] = '首领已击杀'
+L['the_best_at_what_i_do_suffix'] = '狩猎进度已完成'
 
-L['options_icons_grand_hunts'] = nil
-L['options_icons_grand_hunts_desc'] = nil
+L['options_icons_grand_hunts'] = '洪荒狩猎'
+L['options_icons_grand_hunts_desc'] = '显示 {object:洪荒狩猎} 的位置和奖励。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -206,11 +206,16 @@ L['stranded_soul_note'] = [[
 击杀里面的 {npc:197183}，你会得到 {item:200528}。
 ]]
 
-L['gethdazr_note'] = nil
+L['gethdazr_note'] = [[
+作为涉及 {npc:191143} 的事件的一部分出现，该事件以吹响 {object:伊姆布巨角}开始。
+只有在杀死攻击它的 {npc:196155} 后，巨角才会变得可点击，并且有大约1小时的冷却/刷新时间。
+{npc:191143} 和其他 NPC 将从 {location:伊姆布} 的东北入口杀出一条血路，先向南然后向西到达西南角，此时 {npc:196165} 会出现。
+NPC 可能会在没有帮助的情况下死亡，提前结束事件并且稀有无法出现。
+]] -- taken straight from wowhead comments, might need some chages.
 
-L['community_feast_label'] = nil
-L['options_icons_community_feast'] = nil
-L['options_icons_community_feast_desc'] = nil
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = '显示 {spell:388961} 的位置和奖励。'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -512,6 +517,6 @@ L['djaradin_cache'] = '贾拉丁宝箱'
 L['options_icons_djaradin_cache'] = '贾拉丁宝箱'
 L['options_icons_djaradin_cache_desc'] = '显示 {object:贾拉丁宝箱} 可能的位置。'
 
-L['dragonbane_siege_label'] = nil
-L['options_icons_dragonbane_siege'] = nil
-L['options_icons_dragonbane_siege_desc'] = nil
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = '显示 {spell:388945} 的位置和奖励。'
