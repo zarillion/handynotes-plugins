@@ -121,9 +121,9 @@ L['elemental_storm_mythressa_note_end'] = 'Vous avez actuellement %s {currency:2
 L['options_icons_elemental_storm'] = 'Tempêtes élémentaires'
 L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les Tempêtes élementaires.'
 
-L['elusive_creature_note'] = nil
+L['elusive_creature_note'] = 'Le {object:Niveau de Maîtrise 40/40} en {object:Fabrication d’appâts} vous permet de créer des {item:193906} qui peuvent être utilisés pour invoquer et dépecer chaque créature une fois par jour.'
 L['options_icons_elusive_creature'] = '{item:193906}'
-L['options_icons_elusive_creature_desc'] = nil
+L['options_icons_elusive_creature_desc'] = 'Afficher les emplacements des créatures insaisissables invoquées grâce aux {item:193906}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
