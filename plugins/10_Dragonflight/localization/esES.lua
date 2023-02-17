@@ -121,9 +121,9 @@ L['elemental_storm_mythressa_note_end'] = 'Actualmente tienes %s {currency:2118}
 L['options_icons_elemental_storm'] = 'Tormentas Elementales'
 L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las Tormentas Elementales.'
 
-L['elusive_creature_note'] = nil
+L['elusive_creature_note'] = 'Con un {object:Rango de Maestría 40/40} en {object:Fabricación de Cebos} activas el poder crear un {item:193906} que puede ser usado para invocar y desollar cada criatura una vez al día.'
 L['options_icons_elusive_creature'] = '{item:193906}'
-L['options_icons_elusive_creature_desc'] = nil
+L['options_icons_elusive_creature_desc'] = 'Muestra dónde están las criaturas esquivas invocadas con el {item:193906}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
