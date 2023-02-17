@@ -120,7 +120,7 @@ L['elemental_storm_mythressa_note_end'] = 'You currently have %s {currency:2118}
 L['options_icons_elemental_storm'] = 'Elemental Storms'
 L['options_icons_elemental_storm_desc'] = 'Display rewards for Elemental Storms.'
 
-L['elusive_creature_note'] = '{object:Mastery Rank 40/40} in {object:Bait Crafting} enables you to create {item:193906} which can be used to summon and skin each creature once a day.'
+L['elusive_creature_note'] = '{object:Mastery Rank 40/40} in {object:Bait Crafter} enables you to create {item:193906} which can be used to summon and skin each creature once a day.'
 L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = 'Display locations for elusive creatures summoned with {item:193906}.'
 
