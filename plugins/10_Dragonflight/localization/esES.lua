@@ -240,8 +240,8 @@ L['options_icons_forbidden_hoard_desc'] = nil
 
 -- SMALL TREASURES
 
-L['small_treasures_label'] = nil
-L['small_treasures_note'] = nil
+L['small_treasures_label'] = 'Tesoro Pequeño'
+L['small_treasures_note'] = 'Los tesoros pequeños comparten los puntos de aparición.'
 L['options_icons_small_treasures'] = 'Tesoros Pequeños'
 L['options_icons_small_treasures_desc'] = 'Muestra dónde pueden haber tesoros pequeños.'
 
