@@ -121,6 +121,10 @@ L['elemental_storm_mythressa_note_end'] = 'В настоящее время у �
 L['options_icons_elemental_storm'] = 'Буря Стихий'
 L['options_icons_elemental_storm_desc'] = 'Показать награды за Бури Стихий.'
 
+L['elusive_creature_note'] = nil
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

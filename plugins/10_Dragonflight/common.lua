@@ -52,6 +52,17 @@ ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.ELUSIVE_CREATURE = ns.Group('elusive_creature', 644271, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+
+    -- Only display group for skinning players
+    IsEnabled = function(self)
+        if not ns.PlayerHasProfession(393) then return false end
+        return ns.Group.IsEnabled(self)
+    end
+})
+
 ns.groups.MAGICBOUND_CHEST = Group('magicbound_chest', 'chest_tl', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -1151,3 +1162,16 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         end
     end
 end)
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+local ElusiveCreature = ns.Class('ElusiveCreature', ns.node.Node, {
+    icon = 644271,
+    requires = ns.requirement.Item(193906), -- Elusive Creature Bait
+    group = ns.groups.ELUSIVE_CREATURE,
+    note = L['elusive_creature_note']
+}) -- Elusive Creature
+
+ns.node.ElusiveCreature = ElusiveCreature

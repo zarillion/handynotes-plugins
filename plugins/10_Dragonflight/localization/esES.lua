@@ -121,6 +121,10 @@ L['elemental_storm_mythressa_note_end'] = 'Actualmente tienes %s {currency:2118}
 L['options_icons_elemental_storm'] = 'Tormentas Elementales'
 L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las Tormentas Elementales.'
 
+L['elusive_creature_note'] = nil
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

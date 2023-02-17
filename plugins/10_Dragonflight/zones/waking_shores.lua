@@ -15,6 +15,7 @@ local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
+local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local LegendaryCharacter = ns.node.LegendaryCharacter
@@ -2140,6 +2141,28 @@ map.nodes[64712635] = ElementalStorm({
     mapID = map.id,
     areaPOIs = {7257, 7258, 7259, 7260}
 }) -- Elemental Storm: Scalecracker Keep
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[54705860] = ElusiveCreature({
+    label = '{npc:195492}',
+    rewards = {
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193252}) -- Salamanther Scales
+    }
+}) -- Elusive Deepwater Salamanther
+
+map.nodes[45007700] = ElusiveCreature({
+    label = '{npc:195509}',
+    rewards = {
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193259}) -- Flawless Proto Dragon Scale
+    }
+}) -- Elusive Proto Skyterror
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
