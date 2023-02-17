@@ -240,9 +240,9 @@ L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles d
 
 -- SMALL TREASURES
 
-L['small_treasures_label'] = nil
-L['small_treasures_note'] = nil
-L['options_icons_small_treasures'] = 'Petits trésors'
+L['small_treasures_label'] = 'Petit Trésor'
+L['small_treasures_note'] = 'Les petits trésors sont répartis entre les points d\'apparition.'
+L['options_icons_small_treasures'] = 'Petits Trésors'
 L['options_icons_small_treasures_desc'] = 'Afficher les emplacements possibles des petits trésors.'
 
 -- MISC TREASURES
