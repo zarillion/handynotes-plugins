@@ -227,7 +227,7 @@ L['duzalgor_note'] = nil
 L['mad_eye_carrey_note'] = nil
 L['wymslayer_angvardi_note'] = nil
 
--- TREASURES
+-- FORBIDDEN HOARD
 
 L['hoarder_of_the_forbidden_reach_suffix'] = nil
 L['forbidden_spoils_suffix'] = nil
@@ -239,17 +239,8 @@ L['options_icons_forbidden_hoard_desc'] = nil
 
 -- SMALL TREASURES
 
-L['avian_trove_label'] = nil
-L['obsidian_coffer_label'] = nil
-L['bone_pile_label'] = nil
-L['farscale_cache_label'] = nil
-L['irontide_stash_label'] = nil
-L['storm_eater_cairn_label'] = nil
-L['stonescaled_cairn_label'] = nil
-L['blazing_cairn_label'] = nil
-L['frozenheart_cairn'] = nil
-L['morqut_provisions_label'] = nil
-
+L['small_treasures_label'] = nil
+L['small_treasures_note'] = nil
 L['options_icons_small_treasures'] = nil
 L['options_icons_small_treasures_desc'] = nil
 
@@ -278,10 +269,12 @@ L['options_icons_scalecommander_item_desc'] = nil
 
 L['awakened_soil_label'] = nil
 L['book_of_arcane_entities_label'] = nil
+L['tuskarr_kite_post_label'] = nil
 
 L['zskera_vault_label'] = nil
 L['zskera_vault_note'] = nil
 L['door_buster_suffix'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------

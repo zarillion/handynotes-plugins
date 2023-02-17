@@ -398,6 +398,7 @@ seigeCreche.nodes[58993931] = Volcanakk() -- Volcanakk (The Seige Creche)
 local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
     label = L['forbidden_hoard_label'],
     icon = 'chest_pp',
+    scale = 1.2,
     group = ns.groups.FORBIDDEN_HOARD,
     note = L['forbidden_hoard_note'],
     rewards = {
@@ -423,40 +424,39 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
     }
 }) -- Forbidden Hoard
 
-map.nodes[28424199] = ForbiddenHoard() -- TODO: Check coord after map update
-map.nodes[33822568] = ForbiddenHoard() -- TODO: Check coord after map update
-map.nodes[39192427] = ForbiddenHoard() -- TODO: Check coord after map update
-map.nodes[39670001] = ForbiddenHoard() -- TODO: Check coord after map update
-map.nodes[46207342] = ForbiddenHoard() -- TODO: Check coord after map update
-map.nodes[50733677] = ForbiddenHoard({ -- TODO: Check coord after map update
-    note = L['in_small_cave'],
-    pois = {POI({49143704})}
-})
-map.nodes[53647674] = ForbiddenHoard() -- TODO: Check coord after map update
-map.nodes[55592617] = ForbiddenHoard() -- TODO: Check coord after map update
-map.nodes[59285907] = ForbiddenHoard() -- TODO: Check coord after map update
-map.nodes[65013709] = ForbiddenHoard() -- TODO: Check coord after map update
-map.nodes[70606555] = ForbiddenHoard() -- TODO: Check coord after map update
-map.nodes[72897639] = ForbiddenHoard() -- TODO: Check coord after map update
-
-warCreche.nodes[40816962] = ForbiddenHoard() -- TODO: Check coord after map update
-warCreche.nodes[61195448] = ForbiddenHoard() -- TODO: Check coord after map update
-
 map.nodes[39192452] = ForbiddenHoard()
 map.nodes[50733679] = ForbiddenHoard()
+map.nodes[53157801] = ForbiddenHoard()
 map.nodes[58006276] = ForbiddenHoard()
 map.nodes[62584946] = ForbiddenHoard()
+map.nodes[67756834] = ForbiddenHoard()
+map.nodes[56765534] = ForbiddenHoard()
 
 -------------------------------------------------------------------------------
 ------------------------------- SMALL TREASURES -------------------------------
 -------------------------------------------------------------------------------
 
-local SmallTreasure = Class('SmallTreasure', Collectible,
-    {group = ns.groups.SMALL_TREASURES}) -- Small Treasure
-
-function SmallTreasure.getters:rewards()
-    return {
-        Achievement({id = 17526, criteria = self.criteria}), -- Treasures of the Forbidden Reach
+local SmallTreasure = Class('SmallTreasure', Collectible, {
+    label = L['small_treasures_label'],
+    icon = 'chest_rd',
+    group = ns.groups.SMALL_TREASURES,
+    note = L['small_treasures_note'],
+    rewards = {
+        Achievement({
+            id = 17526,
+            criteria = {
+                58488, -- Avian Trove
+                58489, -- Obsidian Coffer
+                58491, -- Bone Pile
+                58492, -- Farscale Cache
+                58493, -- Irontide Stash
+                58494, -- Storm-Eater Cairn
+                58495, -- Stonescaled Cairn
+                58496, -- Blazing Cairn
+                58497, -- Frozenheart Cairn
+                58498 -- Morqut Provisions
+            }
+        }), -- Treasures of the Forbidden Reach
         Achievement({
             id = 17528,
             criteria = {
@@ -465,138 +465,31 @@ function SmallTreasure.getters:rewards()
                 suffix = L['hoarder_of_the_forbidden_reach_suffix']
             }
         }), -- Hoarder of the Forbidden Reach
-        Item({item = 202196}) -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
     }
-end
+}) -- Small Treasure
 
---------------------------------- AVIAN TROVE ---------------------------------
+map.nodes[29704826] = SmallTreasure()
+map.nodes[44745794] = SmallTreasure()
+map.nodes[45705660] = SmallTreasure()
+map.nodes[47071542] = SmallTreasure()
+map.nodes[48764706] = SmallTreasure()
+map.nodes[54285826] = SmallTreasure()
+map.nodes[54575658] = SmallTreasure()
+map.nodes[54904277] = SmallTreasure()
+map.nodes[57545601] = SmallTreasure()
+map.nodes[67284345] = SmallTreasure()
+map.nodes[68604706] = SmallTreasure()
+map.nodes[71385357] = SmallTreasure()
+map.nodes[72305308] = SmallTreasure()
+map.nodes[72396117] = SmallTreasure()
+map.nodes[50374387] = SmallTreasure()
 
-local AvianTrove = Class('AvianTrove', SmallTreasure, {
-    label = L['avian_trove_label'],
-    icon = 'chest_bk',
-    fgroup = 'avian_trove',
-    criteria = 58488
-}) -- Avian Trove
+warCreche.nodes[49098242] = SmallTreasure()
 
-map.nodes[68604706] = AvianTrove()
+seigeCreche.nodes[44804622] = SmallTreasure()
 
-------------------------------- OBSIDIAN COFFER -------------------------------
-
-local ObsidianCoffer = Class('ObsidianCoffer', SmallTreasure, {
-    label = L['obsidian_coffer_label'],
-    icon = 'chest_rd',
-    fgroup = 'obsidian_coffer',
-    criteria = 58489
-}) -- Obsidian Coffer
-
-map.nodes[57466242] = ObsidianCoffer() -- TODO: Check coord after map update
-
-warCreche.nodes[44358594] = ObsidianCoffer() -- TODO: Check coord after map update
-warCreche.nodes[68681317] = ObsidianCoffer() -- TODO: Check coord after map update
-
-map.nodes[54575658] = ObsidianCoffer()
-
-warCreche.nodes[49098242] = ObsidianCoffer()
-
------------------------------ SPELLSWORN RESERVES -----------------------------
-
----------------------------------- BONE PILE ----------------------------------
-
-local BonePile = Class('BonePile', SmallTreasure, {
-    label = L['bone_pile_label'],
-    icon = 'chest_rd',
-    fgroup = 'bone_pile',
-    criteria = 58491
-}) -- Bone Pile
-
-map.nodes[28414290] = BonePile() -- TODO: Check coord after map update
-map.nodes[33967739] = BonePile() -- TODO: Check coord after map update
-map.nodes[36752964] = BonePile() -- TODO: Check coord after map update
-map.nodes[38793491] = BonePile() -- TODO: Check coord after map update
-map.nodes[39985317] = BonePile() -- TODO: Check coord after map update
-map.nodes[42985326] = BonePile() -- TODO: Check coord after map update
-map.nodes[43105496] = BonePile() -- TODO: Check coord after map update
-map.nodes[50134985] = BonePile() -- TODO: Check coord after map update
-map.nodes[59044624] = BonePile() -- TODO: Check coord after map update
-map.nodes[65213628] = BonePile() -- TODO: Check coord after map update
-
-supportCreche.nodes[16733332] = BonePile() -- TODO: Check coord after map update
-
-map.nodes[47071542] = BonePile()
-map.nodes[44745794] = BonePile()
-
-------------------------------- FARSCALE CACHE --------------------------------
-
--- local FarscaleCache = Class('FarscaleCache', SmallTreasure, {
---     label = L['farscale_cache_label'],
---     icon = 'chest_pp',
---     fgroup = 'farscale_cache',
---     criteria = 58492
--- }) -- Farscale Cache
-
-------------------------------- IRONTIDE STASH --------------------------------
-
-local IrontideStash = Class('IrontideStash', SmallTreasure, {
-    label = L['irontide_stash_label'],
-    icon = 'chest_gn',
-    fgroup = 'irontide_stash',
-    criteria = 58493
-}) -- Irontide Stash
-
-map.nodes[29704826] = IrontideStash()
-
------------------------------- STORM-EATER CAIRN ------------------------------
-
-local StormEaterCairn = Class('StormEaterCairn', SmallTreasure, {
-    label = L['storm_eater_cairn_label'],
-    icon = 'chest_gy',
-    group = ns.groups.STORM_EATER_CAIRN,
-    criteria = 58494
-}) -- Storm-Eater Cairn
-
-map.nodes[72396117] = StormEaterCairn()
-
------------------------------- STONESCALED CAIRN ------------------------------
-
-local StonescaledCairn = Class('StonescaledCairn', SmallTreasure, {
-    label = L['stonescaled_cairn_label'],
-    icon = 'chest_lm',
-    fgroup = 'stonescaled_cairn',
-    criteria = 58495
-}) -- Stonescaled Cairn
-
-map.nodes[73045926] = StonescaledCairn() -- TODO: Check coord after map update
-
--------------------------------- BLAZING CAIRN --------------------------------
-
-local BlazingCairn = Class('BlazingCairn', SmallTreasure, {
-    label = L['blazing_cairn_label'],
-    icon = 'chest_nv',
-    fgroup = 'blazing_cairn',
-    criteria = 58496
-}) -- Blazing Cairn
-
-seigeCreche.nodes[44804622] = BlazingCairn()
-
------------------------------- FROZENHEART CAIRN ------------------------------
-
-local FrozenheartCairn = Class('FrozenheartCairn', SmallTreasure, {
-    label = L['frozenheart_cairn'],
-    icon = 'chest_pk',
-    fgroup = 'frozenheart_cairn',
-    criteria = 58497
-}) -- Frozenheart Cairn
-
-froststoneVault.nodes[56505366] = FrozenheartCairn()
-
------------------------------- MORQUT PROVISIONS ------------------------------
-
--- local MorqutProvisions = Class('MorqutProvisions', SmallTreasure, {
---     label = L['morqut_provisions_label'],
---     icon = 'chest_pp',
---     fgroup = 'morqut_provisions',
---     criteria = 58498
--- }) -- Morqut Provisions
+froststoneVault.nodes[56505366] = SmallTreasure()
 
 -------------------------------- MISCELLANEOUS --------------------------------
 
@@ -645,10 +538,10 @@ map.nodes[37743063] = Dragonglyph({
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
 -------------------------------------------------------------------------------
 
-map.nodes[27945985] = Flag({quest = 73696}) -- TODO: Check coord after map update
-map.nodes[54573460] = Flag({quest = 73699}) -- TODO: Check coord after map update
-map.nodes[36903792] = Flag({quest = 73700}) -- TODO: Check coord after map update
-map.nodes[76285343] = Flag({quest = 73702}) -- TODO: Check coord after map update
+map.nodes[27945985] = Flag({quest = 73696})
+map.nodes[54573460] = Flag({quest = 73699})
+map.nodes[36903792] = Flag({quest = 73700})
+map.nodes[76285343] = Flag({quest = 73702})
 
 -------------------------------------------------------------------------------
 ------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
@@ -889,10 +782,13 @@ map.nodes[50884345] = ScalecommanderItem({
 --     rewards = {Achievement({id = 17315, criteria = 6})}
 -- }) -- Sending Stone: Protest
 
--- map.nodes[] = ScalecommanderItem({
---     label = '{item:}',
---     rewards = {Achievement({id = 17315, criteria = 7})}
--- }) -- Sending Stone: Initial Report
+map.nodes[55393586] = ScalecommanderItem({
+    label = '{item:202326}',
+    rewards = {Achievement({id = 17315, criteria = 7})},
+    pois = {
+        POI({55103837}) -- Entrance
+    }
+}) -- Sending Stone: Initial Report
 
 -- map.nodes[] = ScalecommanderItem({
 --     label = '{item:}',
@@ -903,18 +799,31 @@ map.nodes[50884345] = ScalecommanderItem({
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[56425914] = Collectible({ -- TODO: Check coord after map update
+-- TODO: Not sure what the following nodes are for yet. But they look
+-- interesting so I saved them just in case!
+
+map.nodes[56425914] = ns.node.Node({
     label = L['awakened_soil_label'],
     icon = 656681,
     requires = ns.requirement.Item(203416) -- Lifebloom Seeds
 }) -- Awakened Soil
 
-warCreche.nodes[31178082] = Collectible({ -- TODO: Check coord after map update
+map.nodes[55633610] = ns.node.Node({
     label = L['book_of_arcane_entities_label'],
     icon = 1033184,
-    parent = map.id,
-    requires = ns.requirement.Item(203410) -- Glowing Crystal Bookmark
+    requires = ns.requirement.Item(203410), -- Glowing Crystal Bookmark
+    pois = {
+        POI({55103837}) -- Entrance
+    }
 }) -- Book of Arcane Entities
+
+map.nodes[57634843] = ns.node.Node({
+    label = L['tuskarr_kite_post_label'],
+    icon = 318523,
+    requires = ns.requirement.Item(203415) -- Morqut Kite
+}) -- Tuskarr Kite Post
+
+--------------------------------- ZSKERA VAULT --------------------------------
 
 map.nodes[29185303] = Collectible({
     label = L['zskera_vault_label'],

@@ -227,7 +227,7 @@ L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal fr
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
 
--- TREASURES
+-- FORBIDDEN HOARD
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'small treasures opened'
 L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
@@ -239,17 +239,8 @@ L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object
 
 -- SMALL TREASURES
 
-L['avian_trove_label'] = 'Avian Trove'
-L['obsidian_coffer_label'] = 'Obsidian Coffer'
-L['bone_pile_label'] = 'Bone Pile'
-L['farscale_cache_label'] = 'Farscale Cache'
-L['irontide_stash_label'] = 'Irontide Stash'
-L['storm_eater_cairn_label'] = 'Storm-Eater Cairn'
-L['stonescaled_cairn_label'] = 'Stonescaled Cairn'
-L['blazing_cairn_label'] = 'Blazing Cairn'
-L['frozenheart_cairn'] = 'Frozenheart Cairn'
-L['morqut_provisions_label'] = 'Morqut Provisions'
-
+L['small_treasures_label'] = 'Small Treasure'
+L['small_treasures_note'] = 'Small treasures are shared between spawn points.'
 L['options_icons_small_treasures'] = 'Small Treasures'
 L['options_icons_small_treasures_desc'] = 'Display possible locations for small treasures.'
 
@@ -278,6 +269,7 @@ L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achie
 
 L['awakened_soil_label'] = 'Awakened Soil'
 L['book_of_arcane_entities_label'] = 'Book of Arcane Entities'
+L['tuskarr_kite_post_label'] = 'Tuskarr Kite Post'
 
 L['zskera_vault_label'] = 'Zskera Vault'
 L['zskera_vault_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vault}.'

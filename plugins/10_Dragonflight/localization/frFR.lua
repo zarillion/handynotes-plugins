@@ -228,7 +228,7 @@ L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 
--- TREASURES
+-- FORBIDDEN HOARD
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'Petits trésors ouverts'
 L['forbidden_spoils_suffix'] = 'Provisions interdites ouvertes'
@@ -240,17 +240,8 @@ L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles d
 
 -- SMALL TREASURES
 
-L['avian_trove_label'] = 'Trésor aviaire'
-L['obsidian_coffer_label'] = 'Coffret d\'obsidienne'
-L['bone_pile_label'] = 'Tas d\'os'
-L['farscale_cache_label'] = nil
-L['irontide_stash_label'] = 'Cache des Lamineurs'
-L['storm_eater_cairn_label'] = 'Cairn de la Mange-tempêtes'
-L['stonescaled_cairn_label'] = 'Cairn pierre-écaille'
-L['blazing_cairn_label'] = 'Cairn flamboyant'
-L['frozenheart_cairn'] = 'Cairn du Cœur gelé'
-L['morqut_provisions_label'] = nil
-
+L['small_treasures_label'] = nil
+L['small_treasures_note'] = nil
 L['options_icons_small_treasures'] = 'Petits trésors'
 L['options_icons_small_treasures_desc'] = 'Afficher les emplacements possibles des petits trésors.'
 
@@ -279,6 +270,7 @@ L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des obj
 
 L['awakened_soil_label'] = 'Sol éveillé'
 L['book_of_arcane_entities_label'] = 'Livre des entités arcaniques'
+L['tuskarr_kite_post_label'] = nil
 
 L['zskera_vault_label'] = 'Caveau de Zskera'
 L['zskera_vault_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau de Zskera}.'

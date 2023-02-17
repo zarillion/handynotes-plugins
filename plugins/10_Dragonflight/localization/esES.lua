@@ -228,7 +228,7 @@ L['duzalgor_note'] = 'Coge un frasco de {spell:400751} ({dot:Green}) para sanart
 L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
 L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por {npc:201310}.'
 
--- TREASURES
+-- FORBIDDEN HOARD
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'tesoros pequeños abiertos'
 L['forbidden_spoils_suffix'] = nil
@@ -240,17 +240,8 @@ L['options_icons_forbidden_hoard_desc'] = nil
 
 -- SMALL TREASURES
 
-L['avian_trove_label'] = nil
-L['obsidian_coffer_label'] = nil
-L['bone_pile_label'] = 'Montón de Huesos'
-L['farscale_cache_label'] = nil
-L['irontide_stash_label'] = nil
-L['storm_eater_cairn_label'] = nil
-L['stonescaled_cairn_label'] = nil
-L['blazing_cairn_label'] = nil
-L['frozenheart_cairn'] = nil
-L['morqut_provisions_label'] = nil
-
+L['small_treasures_label'] = nil
+L['small_treasures_note'] = nil
 L['options_icons_small_treasures'] = 'Tesoros Pequeños'
 L['options_icons_small_treasures_desc'] = 'Muestra dónde pueden haber tesoros pequeños.'
 
@@ -279,6 +270,7 @@ L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos
 
 L['awakened_soil_label'] = nil
 L['book_of_arcane_entities_label'] = nil
+L['tuskarr_kite_post_label'] = nil
 
 L['zskera_vault_label'] = nil
 L['zskera_vault_note'] = nil
