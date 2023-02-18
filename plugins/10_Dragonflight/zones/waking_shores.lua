@@ -2148,19 +2148,19 @@ map.nodes[64712635] = ElementalStorm({
 
 map.nodes[25268855] = GrandHunt({
     mapID = map.id,
-    areaPOI = nil,
+    areaPOI = 7091,
     criteria = 55680
 }) -- Southern Waking Shores Hunt
 
 map.nodes[69726838] = GrandHunt({
     mapID = map.id,
-    areaPOI = nil,
+    areaPOI = 7092,
     criteria = 55681
 }) -- Eastern Waking Shores Hunt
 
 map.nodes[42788061] = GrandHunt({
     mapID = map.id,
-    areaPOI = nil,
+    areaPOI = 7093,
     criteria = 55682
 }) -- Northern Waking Shores Hunt
 
