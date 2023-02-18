@@ -667,6 +667,16 @@ map.nodes[47102582] = Rare({
     }
 }) -- Unstable Arcanogolem
 
+map.nodes[47912378] = Rare({ -- TODO, coordinates may be wrong
+    id = 201553,
+    quest = 74545, -- 74457
+    rewards = {
+        Transmog({item = 203664, slot = L['cloth']}), -- Wild Magic Insulating Bands
+        Transmog({item = 200434, slot = L['cloth']}), -- Anund's Mana-Singed Amice
+        DC.RenewedProtoDrake.SharkSnout, DC.HighlandDrake.FinnedHead
+    }
+}) -- Grand Artificer Zeerak
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
