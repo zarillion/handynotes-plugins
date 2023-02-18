@@ -203,6 +203,10 @@ Die NPCs können sterben wenn du ihnen nicht hilfst, dadurch wird das Event fehl
 Das Event kann alleine geschafft werden, 2-3 Spieler sind aber empfohlen.
 ]]
 
+L['tuskarr_chest'] = 'Kiste der Tuskarr'
+L['options_icons_tuskarr_chest'] = 'Kisten der Tuskarr'
+L['options_icons_tuskarr_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Kiste der Tuskarr} an.'
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

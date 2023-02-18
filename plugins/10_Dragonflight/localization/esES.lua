@@ -210,6 +210,10 @@ Los NPC pueden morir sin ayuda y hacer fallar el evento.
 Se puede hacer en solitario pero se recomiendan 2-3 jugadores.
 ]]
 
+L['tuskarr_chest'] = 'Cofre colmillarr'
+L['options_icons_tuskarr_chest'] = nil
+L['options_icons_tuskarr_chest_desc'] = nil --'Muestra dónde pueden haber {object:Cajas de Pesca Colmillar}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

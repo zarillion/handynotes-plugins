@@ -201,6 +201,10 @@ L['stranded_soul_note'] = [[
 
 L['gethdazr_note'] = nil
 
+L['tuskarr_tacklebox'] = nil
+L['options_icons_tuskarr_tacklebox'] = nil
+L['options_icons_tuskarr_tacklebox_desc'] = nil -- '顯示 {object:巨牙海民釣具箱} 可能的位置'
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------

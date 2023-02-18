@@ -83,6 +83,11 @@ ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_bl', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.TUSKARR_CHEST = Group('tuskarr_chest', 'chest_bn', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 -------------------------------------------------------------------------------
 
 ns.groups.ANCESTOR = Group('ancestor', 135946, {

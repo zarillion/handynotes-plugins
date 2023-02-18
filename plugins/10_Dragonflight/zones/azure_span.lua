@@ -1058,7 +1058,7 @@ map.nodes[78953094] = Scoutpack()
 map.nodes[79823175] = Scoutpack()
 
 -------------------------------------------------------------------------------
------------------------------- Magic-Bound Chest ------------------------------
+------------------------------ MAGIC-BOUND CHEST ------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[09104840] = MagicBoundChest({
@@ -1088,6 +1088,46 @@ map.nodes[72304210] = MagicBoundChest({
 -------------------------------------------------------------------------------
 
 map.nodes[30512493] = TuskarrTacklebox()
+
+-------------------------------------------------------------------------------
+-------------------------------- TUSKARR CHEST --------------------------------
+-------------------------------------------------------------------------------
+
+local TuskarrChest = Class('TuskarrChest', ns.node.Node, {
+    label = L['tuskarr_chest'],
+    icon = 'chest_bn',
+    group = ns.groups.TUSKARR_CHEST,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Transmog({item = 201372, slot = L['cosmetic']}), -- Imbu Tuskarr Axe
+        Transmog({item = 201373, slot = L['cosmetic']}), -- Imbu Net Cutter
+        Transmog({item = 201374, slot = L['cosmetic']}), -- Tuskarr Fishing Pike
+        Transmog({item = 201376, slot = L['cosmetic']}), -- Imbu Tuskarr Mace
+        Transmog({item = 201377, slot = L['cosmetic']}), -- Imbu Warrior's Club
+        Transmog({item = 201377, slot = L['cosmetic']}), -- Tuskarr Elder's Staff
+        Transmog({item = 201378, slot = L['cosmetic']}), -- Tuskarr Angler's Crossbow
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 200071}), -- Sacred Tuskarr Totem
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Tuskarr Chest
+
+map.nodes[07134508] = TuskarrChest()
+map.nodes[08424067] = TuskarrChest()
+map.nodes[09403790] = TuskarrChest()
+map.nodes[45052513] = TuskarrChest()
+map.nodes[45825614] = TuskarrChest()
+map.nodes[46905420] = TuskarrChest()
+map.nodes[55726866] = TuskarrChest()
+map.nodes[56506570] = TuskarrChest()
+map.nodes[56926793] = TuskarrChest()
+map.nodes[57626966] = TuskarrChest()
+map.nodes[58776833] = TuskarrChest()
+map.nodes[58925475] = TuskarrChest({note = L['in_water']})
+map.nodes[59006670] = TuskarrChest()
+map.nodes[59235652] = TuskarrChest()
+map.nodes[60505900] = TuskarrChest()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------

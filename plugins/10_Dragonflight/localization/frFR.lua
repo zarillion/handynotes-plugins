@@ -210,6 +210,10 @@ Les PNJ peuvent mourir sans aide, ce qui fera échouer l'événement.
 Cela peut être accompli en solo mais 2 ou 3 joueurs sont recommandés.
 ]]
 
+L['tuskarr_chest'] = 'Coffre rohart'
+L['options_icons_tuskarr_chest'] = nil
+L['options_icons_tuskarr_chest_desc'] = nil -- 'Afficher les emplacements possibles des {object:Boîtes d\'appâts de pêche roharts}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
