@@ -17,7 +17,7 @@ local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
 local Flag = ns.node.Flag
--- local GrandHunt = ns.node.GrandHunt
+local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
@@ -1731,23 +1731,23 @@ map.nodes[34153854] = ElementalStorm({
 --------------------------------- GRAND HUNTS ---------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[] = GrandHunt({
---     mapID = map.id,
---     areaPOI = nil,
---     criteria = 55677
--- }) -- Northern Ohn'ahran Plains Hunt
+map.nodes[81891730] = GrandHunt({
+    mapID = map.id,
+    areaPOI = nil,
+    criteria = 55677
+}) -- Northern Ohn'ahran Plains Hunt
 
--- map.nodes[] = GrandHunt({
---     mapID = map.id,
---     areaPOI = nil,
---     criteria = 55678
--- }) -- Western Ohn'ahran Plains Hunt
+map.nodes[61655301] = GrandHunt({
+    mapID = map.id,
+    areaPOI = nil,
+    criteria = 55678
+}) -- Western Ohn'ahran Plains Hunt
 
--- map.nodes[] = GrandHunt({
---     mapID = map.id,
---     areaPOI = nil,
---     criteria = 55679
--- }) -- Eastern Ohn'ahran Plains Hunt
+map.nodes[81144996] = GrandHunt({
+    mapID = map.id,
+    areaPOI = nil,
+    criteria = 55679
+}) -- Eastern Ohn'ahran Plains Hunt
 
 -------------------------------------------------------------------------------
 --------------------------- KNEW YOU NOKHUD DO IT! ----------------------------
