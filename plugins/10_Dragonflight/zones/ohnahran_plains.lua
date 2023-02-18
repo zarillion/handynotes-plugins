@@ -1733,19 +1733,19 @@ map.nodes[34153854] = ElementalStorm({
 
 map.nodes[81891730] = GrandHunt({
     mapID = map.id,
-    areaPOI = nil,
+    areaPOI = 7098,
     criteria = 55677
 }) -- Northern Ohn'ahran Plains Hunt
 
 map.nodes[61655301] = GrandHunt({
     mapID = map.id,
-    areaPOI = nil,
+    areaPOI = 7089,
     criteria = 55678
 }) -- Western Ohn'ahran Plains Hunt
 
 map.nodes[81144996] = GrandHunt({
     mapID = map.id,
-    areaPOI = nil,
+    areaPOI = 7090,
     criteria = 55679
 }) -- Eastern Ohn'ahran Plains Hunt
 
