@@ -17,7 +17,7 @@ local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
--- local GrandHunt = ns.node.GrandHunt
+local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PetBattle = ns.node.PetBattle
@@ -2146,23 +2146,23 @@ map.nodes[64712635] = ElementalStorm({
 --------------------------------- GRAND HUNTS ---------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[] = GrandHunt({
---     mapID = map.id,
---     areaPOI = nil,
---     criteria = 55680
--- }) -- Southern Waking Shores Hunt
+map.nodes[25268855] = GrandHunt({
+    mapID = map.id,
+    areaPOI = nil,
+    criteria = 55680
+}) -- Southern Waking Shores Hunt
 
--- map.nodes[] = GrandHunt({
---     mapID = map.id,
---     areaPOI = nil,
---     criteria = 55681
--- }) -- Eastern Waking Shores Hunt
+map.nodes[69726838] = GrandHunt({
+    mapID = map.id,
+    areaPOI = nil,
+    criteria = 55681
+}) -- Eastern Waking Shores Hunt
 
--- map.nodes[] = GrandHunt({
---     mapID = map.id,
---     areaPOI = nil,
---     criteria = 55682
--- }) -- Northern Waking Shores Hunt
+map.nodes[42788061] = GrandHunt({
+    mapID = map.id,
+    areaPOI = nil,
+    criteria = 55682
+}) -- Northern Waking Shores Hunt
 
 -------------------------------------------------------------------------------
 -------------------------- SEIGE ON DRAGONBANE KEEP ---------------------------
