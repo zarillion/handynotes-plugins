@@ -646,11 +646,26 @@ map.nodes[57256464] = Rare({
     }
 }) -- Waterpots
 
--- map.nodes[43903096] = Rare({
---     id = 201561,
---     quest = 74544, -- 74456
---     rewards = {}
--- }) -- Movtivator Krathos
+map.nodes[43903096] = Rare({
+    id = 201561,
+    quest = 74544, -- 74456
+    rewards = {
+        Transmog({item = 203675, slot = L['plate']}), -- Legplates of the Brutal Motivator
+        Transmog({item = 200434, slot = L['cloth']}), -- Anund's Mana-Singed Amice
+        DC.RenewedProtoDrake.SharkSnout, DC.HighlandDrake.FinnedHead
+    }
+}) -- Movtivator Krathos
+
+map.nodes[47102582] = Rare({
+    id = 201554,
+    quest = 74536, -- 74455
+    rewards = {
+        Transmog({item = 203662, slot = L['dagger']}), -- Arcanogolem Crystalblade
+        Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
+        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
+        DC.HighlandDrake.StripedPattern, DC.WindborneVelocidrake.SpikedBack
+    }
+}) -- Unstable Arcanogolem
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -1056,6 +1071,8 @@ map.nodes[72154242] = Scoutpack({note = L['in_cave']})
 map.nodes[72604263] = Scoutpack({note = L['in_cave']})
 map.nodes[78953094] = Scoutpack()
 map.nodes[79823175] = Scoutpack()
+map.nodes[46892208] = Scoutpack()
+map.nodes[49052541] = Scoutpack()
 
 -------------------------------------------------------------------------------
 ------------------------------ MAGIC-BOUND CHEST ------------------------------
@@ -1117,7 +1134,7 @@ map.nodes[07134508] = TuskarrChest()
 map.nodes[08424067] = TuskarrChest()
 map.nodes[09403790] = TuskarrChest()
 map.nodes[45052513] = TuskarrChest()
-map.nodes[45825614] = TuskarrChest()
+map.nodes[45852614] = TuskarrChest()
 map.nodes[46905420] = TuskarrChest()
 map.nodes[55726866] = TuskarrChest()
 map.nodes[56506570] = TuskarrChest()
